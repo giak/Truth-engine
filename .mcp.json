@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mnemolite": {
+      "command": "bash",
+      "args": ["/home/giak/Work/MnemoLite/scripts/mcp_server.sh"],
+      "env": {
+        "DOCKER_COMPOSE_PROJECT": "mnemolite"
+      }
+    }
+  }
+}

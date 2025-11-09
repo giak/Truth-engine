@@ -1,0 +1,32 @@
+# Logs
+logs/
+*.log
+
+# Debug
+/tmp/
+*.debug
+
+# Claude Code local
+.claude/sessions/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Env
+.env
+.venv
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Auto-save specific
+/tmp/hook-autosave-debug.log
+/tmp/mnemo-saved-exchanges.txt

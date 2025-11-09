@@ -1,0 +1,74 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker compose:*)",
+      "Bash(test:*)",
+      "Bash(timeout 2 bash:*)",
+      "Bash(cat:*)",
+      "Bash(timeout 5 bash:*)",
+      "Bash(curl:*)",
+      "Bash(jq:*)",
+      "Bash(TRANSCRIPT_PATH=~/.claude/projects/-home-giak-projects-truth-engine/093cc529-3889-4afa-9251-6d15cb8e9c28.jsonl echo:*)",
+      "Bash(bash:*)",
+      "Bash(/tmp/saved_memory.txt)",
+      "Bash(__NEW_LINE__ echo \"=== Saved content length ===\")",
+      "Bash(__NEW_LINE__ echo \"\")",
+      "Bash(/tmp/saved_conv_check.txt)",
+      "Bash(__NEW_LINE__ echo \"=== Content length ===\")",
+      "Bash(TRANSCRIPT_PATH=~/.claude/projects/-home-giak-projects-truth-engine/093cc529-3889-4afa-9251-6d15cb8e9c28.jsonl:*)",
+      "Bash(__NEW_LINE__ wc -l \"$TRANSCRIPT_PATH\")",
+      "Bash(/home/giak/Work/MnemoLite/.claude/hooks/UserPromptSubmit/auto-save-previous.sh)",
+      "Bash(__NEW_LINE__ echo \"✅ Hook VERSION 3.0 (tool_results + tail-2000) copié vers MnemoLite\")",
+      "Bash(grep:*)",
+      "Skill(superpowers:brainstorming)",
+      "Bash(chmod:*)",
+      "Bash(mkdir:*)",
+      "Bash(tree:*)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "mnemolite"
+  ],
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/UserPromptSubmit/auto-save-previous.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/Stop/auto-save-exchange.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/SessionStart/check-autosave-setup.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  },
+  "disableAllHooks": false
+}
