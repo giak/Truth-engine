@@ -252,6 +252,43 @@ PRIORITY_2_POPULATION_RATIO: # When population counts available
   reliability: HIGH
   use_when: "ELIF population_total AND population_visible: USE THIS"
 
+  UNCERTAINTY_HANDLING: # When methodologies diverge (v8.0 enhancement)
+    best_estimate:
+      - "Select methodology with HIGHEST reliability score (◈>◉>○)"
+      - "IF multiple ◈ sources converge: use convergent value"
+      - "IF divergence: select most conservative estimate with validation"
+
+    validated_bounds:
+      - "Include ALL methodologies with reliability ≥0.70"
+      - "Format: Factor_best ± range OR [min-max] validated"
+      - "Example: 3.5 [1.5-3.5] (3 validated methodologies)"
+
+    full_alternatives:
+      - "Show full range ALL methodologies (including <0.70 reliability)"
+      - "Format: Alternatives: [min-max] (all N methodologies)"
+      - "Example: Alternatives: [1.0-15.0] (7 méthodologies including non-validated)"
+
+    output_template:
+      "Factor: {best_estimate} [{validated_min}-{validated_max}] validated"
+      "  Best: {value} (Source: {highest_reliability_source})"
+      "  Validated bounds: [{min}-{max}] ({n} methodologies ≥0.70 reliability)"
+      "  Full alternatives: [{all_min}-{all_max}] (all {total_n} methodologies)"
+      "  Data uncertainty: {uncertainty_pct}% (divergence factor: ×{max/min})"
+
+    examples:
+      1. "Tweet clandestins (7 méthodologies divergent ×15):"
+         - "Factor: 3.5 [1.5-3.5] validated"
+         - "  Best: 3.5 (◉ Pew Research methodology)"
+         - "  Validated: [1.5-3.5] (3 méthodologies ≥0.70)"
+         - "  Alternatives: [1.0-15.0] (all 7 méthodologies)"
+         - "  Data uncertainty: 80% (divergence ×10)"
+
+      2. "France unemployment (INSEE + FT convergent):"
+         - "Factor: 3.37 [3.2-3.5] validated"
+         - "  Best: 3.37 (◈ INSEE A-E + ◈ FT underemployment convergent)"
+         - "  Validated: [3.2-3.5] (4 methodologies ≥0.80)"
+         - "  Data uncertainty: 8% (divergence ×1.09)"
+
 PRIORITY_3_SHADOW_ZONES: # When zones identifiable not quantified
   formula: "Factor = 1 + (Shadow_Zones_Count × 0.5)"
   examples:

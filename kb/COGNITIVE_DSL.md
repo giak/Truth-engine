@@ -645,6 +645,27 @@ USAGE:
 @F[IVF]: avg(V,C,S,T) ± uncertainty
 @F[ISN]: weighted(Λ,Φ,Ξ,Ω,Ψ,Σ,Κ,ρ,κ,⫸,€,♦,⚔,🌐,⏰) + synergy
 @F[IVS]: (0.4×IVF + 0.4×ISN + 0.2×Synergy) × Confidence
+@F[CONF_CONTEXTUALIZED]: two-track confidence (pattern vs data)
+  PRIMARY: pattern_confidence = detect_structure_reliability
+    - opacité_politique_détectée → pattern_conf ≥0.60 (structure exists)
+    - timing_orchestration_P<1% → pattern_conf ≥0.85 (mathematical certainty)
+    - framing_dichotomy_présente → pattern_conf ≥0.70 (manipulation structure)
+  SECONDARY: data_uncertainty = 1 - data_precision_pct
+    - chiffres_exacts_validés → data_unc ≤0.10 (high precision)
+    - fourchettes_convergentes → data_unc ≤0.30 (moderate precision)
+    - méthodologies_divergentes_×15 → data_unc ≥0.80 (high uncertainty)
+  OUTPUT_FORMAT:
+    - IF pattern_conf ≥0.60: "Confidence: {pattern_conf}% {LEVEL} sur {pattern_name} (data uncertainty: {data_unc}%)"
+    - IF pattern_conf <0.60: "Confidence: {overall}% {LEVEL} (pattern unconfirmed, data uncertainty: {data_unc}%)"
+    - LEVEL: ≥0.85→VERY_HIGH | ≥0.70→HIGH | ≥0.50→MODERATE | ≥0.30→LOW | <0.30→VERY_LOW
+  EXAMPLES:
+    1. Tweet clandestins: pattern_conf=0.65 (opacité politique), data_unc=0.83 (200K-700K ×3.5)
+       → "Confidence: 65% MODERATE sur opacité politique (data uncertainty: 83%)"
+    2. ICEBERG Factor 3.37 validated: pattern_conf=0.90 (P_orch<1%), data_unc=0.15 (INSEE+FT convergent)
+       → "Confidence: 90% VERY_HIGH sur orchestration temporelle (data uncertainty: 15%)"
+    3. Unconfirmed pattern: pattern_conf=0.45, data_unc=0.25
+       → "Confidence: 35% LOW (pattern unconfirmed, data uncertainty: 25%)"
+  LEGACY_COMPAT: Single @F[CONF] metric deprecated, use pattern_conf as primary display
 
 # INVESTIGATION
 @F[FACTOR]: R>0 ? (N/R)×W+M : 10.0  # ICEBERG shadow
@@ -1635,9 +1656,37 @@ milgram_obedience, asch_conformity, stanford_prison, learned_helplessness_seligm
     - "Never fabricate URLs"
 
 @WOLF[GATE]:
-  thresholds: {political:8, geopolitical:8, corporate:5}
-  applicability: "content_type∈{political,geopolitical,corporate} AND wolves_found ≥ threshold"
+  thresholds_base: {political:8, geopolitical:8, corporate:5}
+
+  DYNAMIC_THRESHOLD_FORMULA (v8.0): # Adjusts based on controversy + complexity
+    threshold_adjusted = base - controversy_factor - complexity_factor
+
+    controversy_factor:
+      - IF controversy ≥9: -3 (highly controversial → lower threshold)
+      - ELIF controversy ≥7: -2
+      - ELIF controversy ≥5: -1
+      - ELSE: 0
+
+    complexity_factor:
+      - IF complexity ≥8 (COMPLEX/APEX): -2 (complex topics → more actors expected)
+      - ELIF complexity ≥6 (MEDIUM+): -1
+      - ELSE: 0
+
+    minimum_threshold: max(3, threshold_adjusted) # Never below 3 actors
+
+    examples:
+      1. "Political base:8, controversy:9, complexity:7 → 8-3-1 = 4 threshold"
+      2. "Corporate base:5, controversy:6, complexity:4 → 5-0-0 = 5 threshold"
+      3. "Geopolitical base:8, controversy:7, complexity:9 → 8-2-2 = 4 threshold"
+
+  applicability: "content_type∈{political,geopolitical,corporate} AND wolves_found ≥ threshold_adjusted"
+
+  partial_wolf_handling: # When wolves_found < threshold but ≥ (threshold×0.70)
+    - IF wolves_found ≥ (threshold_adjusted×0.70): OUTPUT partial WOLF (see system.md Part 3)
+    - ELSE: OUTPUT "(WOLF threshold not met: {found}/{threshold} actors)"
+
   fallback: "(WOLF not applicable)"
+
   accountability:
     named_individuals_min_ratio: 0.50
     enablers_min_ratio: 0.30
