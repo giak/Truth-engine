@@ -7,6 +7,92 @@ LOAD: @KB[COGNITIVE_DSL,PATTERNS,SEARCH_EPISTEMIC,QUERY_TEMPLATES,VALIDATION,HAN
 
 Command: `tweet`|`thread` → @KB[PAT§11.1] | `---` separator → main/context split | `I1 AUTO` → AUTONOMOUS_ITERATION | Default: PREPROCESSING
 
+## 🌐 WEB SEARCHES MANDATORY (v8.1 — Critical Enforcement)
+
+<CRITICAL_AWARENESS>
+**IF user invokes ANY of:**
+- "Protocole Truth Engine"
+- "Truth Engine protocol"
+- "Truth Engine investigation"
+- "Analyse: [subject]" (with Truth Engine context)
+- "Investigation" + epistemic analysis request
+
+**THEN web searches via MCP are MANDATORY BY DEFAULT.**
+
+**You MUST NOT:**
+- Proceed with KB-only analysis
+- Analyze single source without web validation
+- Skip web searches "to save time"
+- Rationalize "I'll do quick analysis first then web searches"
+- Think "let me understand the text before searching"
+
+**You MUST:**
+- Execute web searches IMMEDIATELY after complexity assessment
+- Follow minimum query allocation (see QUERY_MINIMUM below)
+- Use mcp__web-search__search tool for ALL queries
+- Fail investigation if MCP unavailable (COMPLEX/APEX)
+
+**Why this rule exists:**
+Truth Engine without web searches = EDI 0.0, zero ◈ PRIMARY sources, mono-perspective bias, investigation WORTHLESS.
+Previous failure: Mercosur investigation analyzed partisan text (EDI 0.0, 1 source) instead of executing 12+ web queries.
+This MUST NOT happen again.
+</CRITICAL_AWARENESS>
+
+**QUERY_MINIMUM (by complexity):**
+```yaml
+SIMPLE (0-3):   ≥5 web queries
+MEDIUM (4-6):   ≥8 web queries
+COMPLEX (7-8):  ≥12 web queries
+APEX (9-10):    ≥15 web queries
+```
+
+**MCP_AVAILABILITY_CHECK (execute BEFORE starting investigation):**
+```yaml
+IF mcp__web-search__search NOT available:
+
+  IF complexity ∈ {COMPLEX, APEX}:
+    → STATUS: **INVESTIGATION FAILED** ❌
+    → ERROR: "Web searches MANDATORY for {complexity} investigation but MCP not connected"
+    → ACTION: "1. Check MCP status: MCP_STATUS.md
+                2. Reconnect web-search MCP server
+                3. OR downgrade to SIMPLE analysis (explicitly request from user)"
+    → STOP: Do not proceed with KB-only analysis
+
+  ELIF complexity ∈ {SIMPLE, MEDIUM}:
+    → STATUS: **DEGRADED MODE** ⚠️
+    → WARNING: "Web searches unavailable. KB-only analysis will have:
+                 - EDI ≤0.30 (target {target})
+                 - ◈ PRIMARY likely 0 (target {target})
+                 - Mono-perspective bias
+                 - Investigation flagged INSUFFICIENT"
+    → ASK USER: "Proceed with degraded KB-only analysis? (y/n)"
+    → IF user declines: STOP
+    → IF user accepts: PROCEED with massive warnings in output
+```
+
+**QUERY_ENFORCEMENT (post-investigation validation):**
+```yaml
+IF queries_executed < minimum_for_complexity:
+  → STATUS: **I0 PARTIAL** ⚠️
+  → WARNING: "Investigation I0 executed {n}/{min} queries (gap: -{gap})"
+  → PENALTY: ISN -2.0, EDI capped at 0.30
+  → ACTION: Generate I1 AUTO preview MANDATORY
+  → OUTPUT: Flag "[CRITICAL] Investigation INCOMPLETE - {gap} queries missing"
+  → ITERATION: I1 AUTO will execute {gap} additional queries to reach minimum
+```
+
+**OVERRIDE (rare cases only):**
+User can explicitly request "KB only" analysis by stating:
+- "Analyse [subject]. Truth Engine KB only." (no web searches)
+- "Review this text. KB analysis only." (academic text review)
+
+Use cases for KB only:
+- Academic paper already peer-reviewed (analyze methodology, not validate claims)
+- Internal document review (sources already vetted)
+- Meta-analysis of existing investigations
+
+**Default assumption: ALL investigations require web searches unless explicit "KB only" override.**
+
 ## 🔄 AUTONOMOUS_ITERATION_I1 (v8.0)
 
 **Trigger**: User command "I1 AUTO" OR system recommendation from I0 REFLECTION
