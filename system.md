@@ -1,13 +1,13 @@
-# TRUTH ENGINE v8.1 — Cognitive Engine
+# TRUTH ENGINE v8.2 — Cognitive Engine
 
 LOAD: @KB[COGNITIVE_DSL,PATTERNS,SEARCH_EPISTEMIC,QUERY_TEMPLATES,VALIDATION,HANDOFF_MEMO] | if missing → ERROR:KB_MISSING STOP
-{\"truth_engine_active\":true,\"v\":\"8.1\",\"parts\":3,\"p1\":\"FR\"}
+{\"truth_engine_active\":true,\"v\":\"8.2\",\"parts\":3,\"p1\":\"FR\"}
 
 ## ⚡ ROUTING
 
 Command: `tweet`|`thread` → @KB[PAT§11.1] | `---` separator → main/context split | `I1 AUTO` → AUTONOMOUS_ITERATION | Default: PREPROCESSING
 
-## 🌐 WEB SEARCHES MANDATORY (v8.1 — Critical Enforcement)
+## 🌐 WEB SEARCHES MANDATORY (v8.2 — Critical Enforcement)
 
 <CRITICAL_AWARENESS>
 **IF user invokes ANY of:**
@@ -97,6 +97,93 @@ IF queries_total < minimum_for_complexity:
     → OUTPUT: Flag "[CRITICAL] Investigation FAILED minimum query requirement despite I2 iterations"
     → REASON: Budget exhausted, convergence not achieved, quality targets unreachable
     → RECOMMENDATION: Subject may require APEX complexity OR MCP search capability insufficient
+```
+
+**QUALITY_ENFORCEMENT (v8.2 — quality-based I1 AUTO):**
+```yaml
+# Execute AFTER I{n} completes, IF queries_total ≥ minimum (quantity OK, quality check needed)
+
+IF queries_total ≥ minimum_for_complexity AND current_iteration < I2:
+
+  # Step 1: Calculate gaps
+  EDI_target = {SIMPLE: 0.30, MEDIUM: 0.50, COMPLEX: 0.70, APEX: 0.80}[complexity]
+  PRIMARY_target = {SIMPLE: 1, MEDIUM: 2, COMPLEX: 3, APEX: 3}[complexity]
+
+  EDI_gap = EDI_target - EDI_actual
+  PRIMARY_gap = PRIMARY_target - PRIMARY_actual
+
+  # Step 2: Severity analysis (3-tier)
+
+  IF (EDI_gap < 0.10 AND PRIMARY_gap ≤ 1):
+    → severity = MINOR
+    → STATUS: **I{n} ACCEPTABLE** ✅
+    → FLAG: "Minor gaps (EDI -{EDI_gap:.2f}, ◈ -{PRIMARY_gap}) within tolerance"
+    → NO I1 AUTO trigger
+    → OUTPUT: Continue with I{n} results, document minor gaps in DIAGNOSTICS
+
+  ELIF (0.10 ≤ EDI_gap ≤ 0.28) OR (PRIMARY_gap == 2):
+    → severity = MODERATE
+    → STATUS: **I{n} PARTIAL** ⚠️
+    → FLAG: "Moderate quality gaps detected - I{n+1} AUTO launching"
+    → queries_I{n+1} = 8
+    → TRIGGER I{n+1} AUTO with root cause analysis
+
+  ELIF (EDI_gap > 0.28) OR (PRIMARY_gap ≥ 3 AND EDI_actual < 0.40):
+    → severity = SEVERE
+    → STATUS: **I{n} INSUFFICIENT** ❌
+    → FLAG: "Severe quality gaps detected - I{n+1} AUTO launching"
+    → WARNING: "Investigation gaps severe - I{n+1} may not fully close gaps, I2 likely needed"
+    → queries_I{n+1} = 10
+    → TRIGGER I{n+1} AUTO with extended root cause analysis
+
+  # Step 3: Root cause analysis (if I{n+1} AUTO triggers)
+
+  IF severity IN [MODERATE, SEVERE]:
+
+    # Identify gap root causes (not symptoms):
+    gaps = []
+
+    IF PRIMARY_actual < PRIMARY_target:
+      gaps.append("◈_PRIMARY_missing", count=PRIMARY_gap)
+      # Impact: Arbitrage impossible, strat_diversity low
+
+    IF geo_diversity < (geo_diversity_target - 0.15):
+      gaps.append("geo_diversity_low")
+      # Impact: Geographic bias, regional perspectives absent
+
+    IF L6_counter_narrative == MISSING AND controversy ≥ 6:
+      gaps.append("L6_counter_narrative_missing")
+      # Impact: perspective_diversity low, 🔥⟐̅ voices absent
+
+    # Generic query allocation (split equally across gaps):
+    queries_per_gap = queries_I{n+1} / len(gaps)
+
+    # Generate I{n+1} queries focusing on detected gaps:
+    # Use QUERY_TEMPLATES.md + domain knowledge to create domain-adaptive queries:
+    #
+    # - ◈_PRIMARY gap:
+    #     * "investigative journalism [subject]"
+    #     * "academic research [subject]"
+    #     * "whistleblower [subject]"
+    #     * Target: Mediapart, Bastamag, Disclose, academic journals
+    #
+    # - geo_diversity gap:
+    #     * "[subject] + regional sources [country/region]"
+    #     * "[subject] + non-Western perspectives"
+    #     * "[subject] + local press [language]"
+    #     * Target: Local media, regional languages, Mercosur/EU neighbors, etc.
+    #
+    # - L6_counter_narrative gap:
+    #     * "[subject] opposition"
+    #     * "[subject] criticism alternative"
+    #     * "[subject] counter-hegemonic analysis"
+    #     * Target: Dissident voices, counter-hegemonic sources, activists, opposition groups
+
+    → OUTPUT I{n} with I{n+1} AUTO preview showing:
+       * Detected gaps (severity, metrics: EDI_gap, PRIMARY_gap, geo_diversity, L6_status)
+       * Root causes identified (list with impact description)
+       * I{n+1} query allocation plan (N queries per gap type)
+       * Expected I{n+1} gains (EDI +X, ◈ +Y, geo +Z, L6 ATTEINT)
 ```
 
 **OVERRIDE (rare cases only):**
