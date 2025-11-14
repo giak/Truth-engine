@@ -307,12 +307,29 @@ Executing I1... (merging with I0 findings)
 
 **2. EXECUTION** (with v8.3 query optimization):
    - Load @KB[QUERY_TEMPLATES§1-3] (domain-adaptive: political, scientific, corporate, geopolitical, legal, economic, social, tech, historical, media)
-   - Query optimization @KB[QUERY_OPTIMIZATION]:
-     * IF query keyword_count > 5 → SPLIT into 2-3 simple queries (3-4 keywords each)
-     * Execute with MCP (DuckDuckGo) first
-     * IF MCP returns [] → Fallback WebSearch (Google)
-     * Aggregate results, deduplicate
-     * Track: mcp_success, fallback_used, productive_rate
+   - FOR EACH query generated, apply optimization (@KB[QUERY_OPTIMIZATION]):
+
+     **STEP 1: Check splitting requirement** (@KB[QUERY_OPTIMIZATION§1.1])
+       - Count keywords in query (exclude stopwords: le, la, les, de, du, des, un, une, et, à, en, pour, par, avec, etc.)
+       - IF keyword_count > 5 → SPLIT_REQUIRED = true
+       - ELSE → SPLIT_REQUIRED = false
+
+     **STEP 2: Split if required** (@KB[QUERY_OPTIMIZATION§1.2])
+       - IF SPLIT_REQUIRED = true:
+         → Invoke @FUNCTION[SPLIT_QUERY] from @KB[QUERY_OPTIMIZATION§1.2]
+         → Replace original query with 2-3 split queries (3-4 keywords each)
+         → Track: split_count += 1
+       - ELSE:
+         → Keep original query unchanged
+
+     **STEP 3: Execute with hybrid fallback** (@KB[QUERY_OPTIMIZATION§2])
+       - Try MCP (DuckDuckGo) first for each query
+       - IF MCP returns [] → Fallback WebSearch (Google)
+       - Track: mcp_success, fallback_used per query
+
+   - Aggregate results from all queries (original + split)
+   - Deduplicate URLs across queries
+   - Track total: original_queries, split_queries, productive_rate
    - Validate stratification → @KB[SEARCH_EPISTEMIC§1.3]
 
 **3. VALIDATION** (post-search, see @KB[VALIDATION] full details):
