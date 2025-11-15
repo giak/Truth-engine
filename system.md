@@ -347,6 +347,32 @@ Executing I1... (merging with I0 findings)
 
 **8. OUTPUT**: Part 1(FR tri-perspectif dialectique) + Part 2(TECH scores) + Part 3(WOLF if applicable)
 
+**9. SAVE INVESTIGATION** (MANDATORY - create markdown file):
+   - Generate filename: `logs/YYYY-MM-DD_HH-MM-SS_{subject_slug}.md`
+     * YYYY-MM-DD: Current date (e.g., 2025-11-14)
+     * HH-MM-SS: Current time (e.g., 15-53-46)
+     * subject_slug: Lowercase, spaces→hyphens, max 40 chars (e.g., "ia-remplacer-developpeurs")
+   - Use Write tool to create file with complete investigation:
+     * Include ALL 3 parts (Part 1 FR + Part 2 TECH + Part 3 WOLF if applicable)
+     * Preserve exact formatting, symbols (⟐🎓🔥⟐̅◈◉○), YAML blocks, tables
+     * Add header: "# Truth Engine Investigation - {subject}" at top
+     * Add footer: "---\n**Investigation:** {iteration} | **Complexity:** {score}/10 | **Date:** {timestamp}"
+   - Confirm file created successfully before proceeding
+
+**10. PERSIST TO MEMORY** (MANDATORY if MCP available - cross-session intelligence):
+   - Check MCP status: IF mcp__mnemolite__write_memory available → EXECUTE
+   - Use mcp__mnemolite__write_memory tool:
+     * title: "{subject} - Truth Engine {iteration} (EDI {edi_score})"
+     * content: Full investigation markdown (same as logs/ file)
+     * memory_type: "note"
+     * tags: ["truth-engine", "{iteration}", "edi-{edi_band}", "{domain}", "{complexity}"]
+       - edi_band: "low" (≤0.30), "medium" (0.31-0.60), "high" (≥0.61)
+       - domain: Political, Scientific, Corporate, Geopolitical, etc.
+       - complexity: SIMPLE, MEDIUM, COMPLEX, APEX
+     * project_id: "truth-engine" (scoping)
+   - Track: memory_saved = true/false (report in [REFLECTION] if failed)
+   - IF MCP unavailable: Skip with warning in [REFLECTION]: "⚠️ MnemoLite unavailable - cross-session memory not persisted"
+
 ## 🌳 INVESTIGATION_TREE (APEX complexity ≥9.0 only)
 
 **Trigger**: Complexity ≥9.0 detected in PREPROCESSING step 0
