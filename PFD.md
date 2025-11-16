@@ -1,6 +1,6 @@
 # PROJECT FOUNDATION DOCUMENT (PFD)
 
-# Truth Engine v7.15.1 - Cartographe Dialectique Hostile
+# Truth Engine v8.4 - Cartographe Dialectique Hostile
 
 ---
 
@@ -1156,26 +1156,61 @@ v7.14.1: EXPLICIT HERM FORCING → workflow clarification
   → Added @HERM[] 5-step execution in output template
   → Problem identified: Analysis happening DURING output (not before)
 
-v7.15: PREPROCESSING SEPARATION → architecture breakthrough (CURRENT)
+v7.15: PREPROCESSING SEPARATION → architecture breakthrough
   → Separated PREPROCESSING (silent) from OUTPUT (visible)
   → Explicit workflow: "Execute silently, DO NOT show steps → THEN output"
   → Part 1 template uses "[Insert from preprocessing step X]" language
   → Test: 95% success rate maintained
   → Byte count: 7387/8000 (92% used, 613 margin safe)
   → Reasoning visibility (1-2min) accepted as quality indicator
+
+v8.0: CLAUDE CODE MIGRATION + MCP FOUNDATION → production infrastructure (Nov 2025)
+  → Migration from ChatGPT Web Projects to Claude Code CLI
+  → MCP integration foundation (MnemoLite semantic KB search, Context7 docs, web-search)
+  → KISS methodology enforced (direct improvements, no complex processes)
+  → Auto-approval configuration for MCP tools + WebSearch
+  → KB reindexing workflow with MnemoLite semantic search
+
+v8.3: QUERY OPTIMIZATION → automatic query splitting + hybrid fallback (Nov 15, 2025)
+  → Automatic query splitting: >5 keywords → 2-3 simple queries (3-4 keywords each)
+  → Hybrid fallback: MCP (DuckDuckGo) first, WebSearch (Google) fallback if empty results
+  → Productive query rate: 0-40% baseline → 80-100% optimized
+  → PRIMARY source (◈) discovery: +105% (official docs, government sites)
+  → EDI improvement: +0.15-0.27 typical boost
+  → Validation: tests/query_optimization/ (17 test files)
+  → Documentation: kb/QUERY_OPTIMIZATION.md
+
+v8.4: INVESTIGATION TREE + ARCHITECTURE VALIDATED → dialectical multi-branch analysis (Nov 16, 2025 - CURRENT)
+  → Investigation Tree: Multi-branch analysis (branches A/B/C for different narratives)
+  → COMPARABLES_ASYMMETRY: Cross-branch comparison methodology for double standards
+  → Each branch: Independent investigation with full evidence collection
+  → EDI targets achieved: SIMPLE≥0.30 ✅, MEDIUM≥0.50 ✅, COMPLEX≥0.70 ✅, APEX≥0.80 ✅
+  → Dual-Engine validated: WebSearch (95%+ success) + MCP web-search (60-80%) operational
+  → MCP Integration: MnemoLite (semantic KB search) + Context7 (library docs) + web-search
+  → Validation: tests/tree/ (12 test files including COMPARABLES_ASYMMETRY)
+  → Documentation: kb/INVESTIGATION_TREE.md (949 lines)
+  → Google Search MCP REJECTED: 0% success rate (anti-bot blocking), postmortem documented
+
+v8.4 PHILOSOPHICAL CONTINUITY:
+  → All v7.15.1 philosophical foundations PRESERVED (dialectical arbitrage, 95% hostility, user sovereignty)
+  → Technical enhancements (Query Optimization, Investigation Tree) serve dialectical decomposition philosophy
+  → "One narrative = propaganda. Five narratives = cartography." principle now operationalized at scale
+  → Postmortem workflow added: institutional memory of failures (Google Search MCP case study)
 ```
 
-**Date**: 2025-10-07
+**Date**: 2025-11-16
 
-**Status**: Operational v7.15, preprocessing-output separation validated, 95% success
+**Status**: Operational v8.4, Investigation Tree validated, dual-engine architecture confirmed, EDI targets achieved
 
-**Next**: v7.7 TIER 2 (pattern tiers + level binding), then re-test Pfizer
+**Next**: Meta-development workflows (weekly KB improvement cycles), pattern auto-discovery, adversarial testing
 
 ---
 
 **FIN DU DOCUMENT FONDATEUR**
 
-_Truth Engine v7.15.1 - Cartographe Dialectique Hostile_
+_Truth Engine v8.4 - Cartographe Dialectique Hostile_
+
+_Version 8.4 (Nov 2025): Query Optimization + Investigation Tree + Dual-Engine Architecture_
 
 _Dans l'Empire du Mensonge, la complexité est l'ultime acte de rébellion._
 
