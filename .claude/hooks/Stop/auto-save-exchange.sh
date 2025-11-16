@@ -40,7 +40,7 @@ bash "$MNEMOLITE_ROOT/scripts/save-conversation-from-hook.sh" \
   "$TRANSCRIPT_PATH" \
   "$SESSION_ID" \
   "stop" \
-  2>&1 > /dev/null || true
+  >> /tmp/hook-stop-output.log 2>&1 || true
 
 # Always continue
 echo '{"continue": true}'
