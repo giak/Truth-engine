@@ -233,6 +233,11 @@ NOTE: Tous les {X} doivent être remplacés par des valeurs numériques
 - **C15 HERMÉNEUTIQUE v7.14-v7.15.1**: Concepts détectés (X/148) with structured format ✓
 - **C16 PREPROCESSING v7.15-v7.15.1**: Analysis happens BEFORE output (not during) ✓
 - **C17 PROJECT_CTX v7.15.1**: NER extract + Top-20 search + [CTX#n] citations mandatory ✓
+- **C18 QUERY OPTIMIZATION v8.3**: Automatic splitting for complex queries (>5 keywords) ✓
+- **C19 EDI TARGETS v8.4**: SIMPLE≥0.30, MEDIUM≥0.50, COMPLEX≥0.70, APEX≥0.80 ✓
+- **C20 DUAL-ENGINE v8.4**: WebSearch (95%+) + MCP web-search (60-80%) operational ✓
+- **C21 INVESTIGATION TREE v8.4**: Multi-branch dialectical analysis (complexity≥8) ✓
+- **C22 MCP INTEGRATION v8.4**: MnemoLite + Context7 + web-search auto-approved ✓
 
 ## 10. ROADMAP
 
@@ -279,11 +284,38 @@ NOTE: Tous les {X} doivent être remplacés par des valeurs numériques
   - Fixes issue identified in tmp/test_truth_engine.md (missing project citations)
   - instructions.md: 7734/8000 bytes (96.7%, 266 margin safe)
   - INDIVIDUAL ACCOUNTABILITY compressed (-247 bytes) to maintain budget
-- ⏳ **v7.9 TIER 2** (Pending): Specialized compressions (13KB target)
+- ✅ **v8.0** (Nov 2025): Base architecture
+  - Claude Code migration (from ChatGPT Web Projects)
+  - MCP integration foundation
+  - KISS methodology
+- ✅ **v8.3** (Nov 15, 2025): Query Optimization (automatic)
+  - Automatic query splitting (>5 keywords → 2-3 simple queries)
+  - Hybrid fallback (MCP DuckDuckGo → WebSearch Google)
+  - Productive query rate: 0-40% → 80-100%
+  - PRIMARY source discovery: +105%
+  - EDI improvement: +0.15-0.27
+  - Validation: tests/query_optimization/
+- ✅ **v8.4** (Nov 16, 2025 - CURRENT): Investigation Tree + Architecture Validated
+  - Investigation Tree: Multi-branch dialectical analysis
+  - COMPARABLES_ASYMMETRY methodology
+  - KB: INVESTIGATION_TREE.md (949 lines)
+  - Dual-Engine validated: WebSearch (95%+) + MCP web-search (60-80%)
+  - EDI targets achieved: SIMPLE≥0.30, MEDIUM≥0.50, COMPLEX≥0.70, APEX≥0.80
+  - MCP Integration: MnemoLite (semantic KB search), Context7 (library docs), web-search
+  - Auto-approval configured (WebSearch + MCP tools)
+  - Validation: tests/tree/ (12 files)
+- ❌ **Google Search MCP** (Nov 16, 2025): REJECTED after load testing
+  - 0% success rate (25 queries, 100% anti-bot blocking)
+  - Postmortem: docs/postmortems/2025-11-16-google-search-mcp-ABANDONED.md
+  - Decision: Official APIs (WebSearch) > Scraping (Playwright)
+- ⏳ **v7.9 TIER 2** (Deferred): Specialized compressions (13KB target)
   - INVESTIGATION.md optimization (~1KB)
   - Pattern tier compression (~3KB)
   - Cross-reference optimization (~4KB)
-- ⏳ **v8.0** (TBD): User feedback + performance enhancements
+- ⏳ **v8.5** (TBD): Future enhancements
+  - Semantic query splitting (NLP-based vs chunking)
+  - Adaptive thresholds (per-domain tuning)
+  - Query intent classification (PRIMARY vs ADVERSARY auto-detection)
 
 ## 10.5 APEX Use Cases - Validation Scenarios
 
@@ -312,11 +344,12 @@ NOTE: Tous les {X} doivent être remplacés par des valeurs numériques
 - R4: Sous-dossier involontaire → Rappel arbo à plat dans README
 
 ---
-Version: 1.9 (v7.15.1) — Octobre 2025
-Mise à jour: 08/10/2025 - v7.15.1 PROJECT_CTX Integration (context enrichment + 80/20 pipeline)
-instructions.md: 7734/8000 bytes (96.7%, 266 margin)
-KB Baseline: 226,368 bytes (5 core files: COGNITIVE_DSL 68K, PATTERNS 105K, INVESTIGATION 39K, THREATS 14K)
-Breakthrough: Project context search + NER extraction + automatic [CTX#n] citations
+Version: 2.0 (v8.4) — Novembre 2025
+Mise à jour: 16/11/2025 - v8.4 Investigation Tree + Architecture Validated (Query Optimization v8.3 + Dual-Engine)
+KB Baseline: 8 core files (COGNITIVE_DSL 68K, PATTERNS 105K, INVESTIGATION 39K, INVESTIGATION_TREE 95K, SEARCH_EPISTEMIC 73K, QUERY_TEMPLATES 18K, VALIDATION 9K, HANDOFF_MEMO 15K)
+Breakthrough: Multi-branch dialectical analysis + Automatic query optimization + MCP integration
+Architecture: WebSearch (95%+) + MCP web-search (60-80%) dual-engine VALIDATED
+EDI Targets: SIMPLE≥0.30 ✅, MEDIUM≥0.50 ✅, COMPLEX≥0.70 ✅, APEX≥0.80 ✅ (all achieved)
 Owner: Mainteneur Truth Engine
 License: Open Cognitive Commons
 

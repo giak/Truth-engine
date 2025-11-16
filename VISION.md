@@ -251,10 +251,27 @@ curl -X POST http://localhost:8001/api/v1/index/reindex \
 # 5. Validate improvements (A/B test)
 # Run 5 investigations pre-improvement vs post-improvement
 # Compare EDI, H7 coverage, pattern detection rate
+
+# 6. Document failures & rejected approaches (NEW in v8.4)
+# If integration/feature tested and REJECTED, create postmortem:
+#
+# docs/postmortems/YYYY-MM-DD-feature-ABANDONED.md
+# ├── Root cause analysis
+# ├── Load test results (quantitative)
+# ├── Decision rationale (why rejected)
+# └── Lessons learned
+#
+# docs/memory/YYYY-MM-DD-feature-abandoned.md (concise version)
+# └── Quick reference for future similar proposals
+#
+# Example: Google Search MCP (Nov 2025)
+# - Load tested 25 queries → 0% success (anti-bot blocking)
+# - Decision: Official APIs > Scraping (2025 reality)
+# - Saved 8-10h dev time by testing BEFORE full integration
 ```
 
-**Durée**: 1h/semaine  
-**Impact**: Continuous quality improvement
+**Durée**: 1h/semaine (+ 30min for postmortems if applicable)
+**Impact**: Continuous quality improvement + institutional memory of failures
 
 ---
 
@@ -382,23 +399,97 @@ git commit benchmark_results.json -m "Benchmark week 45: overall 0.88"
 
 ---
 
+## ✅ Completed Features
+
+### v8.3 — Query Optimization (Nov 15, 2025)
+
+**Problem**: Complex queries (>5 keywords) often return empty results or miss PRIMARY sources.
+
+**Solution**:
+- Automatic query splitting: >5 keywords → 2-3 simple queries (3-4 keywords each)
+- Hybrid fallback: MCP (DuckDuckGo) first, WebSearch (Google) fallback if needed
+- Aggregate and deduplicate results across all queries
+
+**Impact**:
+- Productive query rate: 0-40% baseline → 80-100% with optimization
+- PRIMARY source (◈) discovery: +105% (official docs, government sites)
+- EDI improvement: +0.15-0.27 typical boost
+- Backward compatible: Simple queries (<5 keywords) unchanged
+
+**Validation**: [tests/query_optimization/](tests/query_optimization/) (17 test files, comprehensive audit)
+
+**Documentation**: [kb/QUERY_OPTIMIZATION.md](kb/QUERY_OPTIMIZATION.md:1) (technical implementation)
+
+---
+
+### v8.4 — Investigation Tree + Architecture Validated (Nov 16, 2025)
+
+**Problem**: APEX complexity topics (≥8) require multi-perspective dialectical analysis beyond linear investigation.
+
+**Solution**:
+- Investigation Tree: Multi-branch analysis (branches A/B/C for different narratives)
+- COMPARABLES_ASYMMETRY: Cross-branch comparison methodology for double standards
+- Each branch: Independent investigation with full evidence collection
+
+**Impact**:
+- Dialectical decomposition: Official vs Dissident vs Regional perspectives mapped in parallel
+- Double standard detection: "Why outrage for X but silence for Y?" systematically quantified
+- EDI targets achieved: SIMPLE≥0.30 ✅, MEDIUM≥0.50 ✅, COMPLEX≥0.70 ✅, APEX≥0.80 ✅
+- Dual-Engine validated: WebSearch (95%+ success) + MCP web-search (60-80%) operational
+
+**Validation**: [tests/tree/](tests/tree/) (12 test files including COMPARABLES_ASYMMETRY methodology)
+
+**Documentation**: [kb/INVESTIGATION_TREE.md](kb/INVESTIGATION_TREE.md:1) (949 lines)
+
+**MCP Integration**: MnemoLite (semantic KB search) + Context7 (library docs) + web-search (DuckDuckGo)
+
+---
+
+### REJECTED — Google Search MCP (Nov 16, 2025)
+
+**Attempted**: Integrate `web-agent-master/google-search` (Playwright-based Google scraping) as third search engine.
+
+**Load Test Results (25 queries)**:
+- Burst (0s delay): 0/10 success (0%)
+- Moderate (5s delay): 0/10 success (0%)
+- Conservative (30s delay): 0/5 success (0%)
+- **TOTAL: 0/25 success (0%)**
+
+**Root Cause**: Google anti-bot overlay blocks 100% of Playwright headless searches. No mitigation successful.
+
+**Decision**:
+- KEEP existing dual-engine (WebSearch official API + MCP web-search DuckDuckGo)
+- REJECT Playwright scraping (0% success rate, 13-20min latency per investigation)
+- Official APIs > Scraping (2025 reality)
+
+**Lessons Learned**:
+1. Playwright Google scraping = non-viable 2025 (anti-bot insurmountable)
+2. Load testing critical before integration (saved 8-10h dev time)
+3. Existing architecture already optimal (avoid "solutionnisme")
+
+**Documentation**:
+- Postmortem: [docs/postmortems/2025-11-16-google-search-mcp-ABANDONED.md](docs/postmortems/2025-11-16-google-search-mcp-ABANDONED.md:1)
+- Memory: [docs/memory/2025-11-16-google-search-mcp-abandoned.md](docs/memory/2025-11-16-google-search-mcp-abandoned.md:1)
+
+---
+
 ## 🎯 Roadmap Évolutionnaire (KISS)
 
 **Pas de phases fixes**. Juste **priorités émergentes** basées sur usage réel.
 
 ### Priorité P0 (Immediate, cette semaine)
 
-1. **Setup MCP complet** (config Claude Desktop + index KB)
-2. **10 investigations test** (sujets variés: politique, corporate, stats)
+1. ✅ **Setup MCP complet** (COMPLETED — MnemoLite + Context7 + web-search)
+2. ✅ **10+ investigations test** (COMPLETED — tests/query_optimization/ + tests/tree/)
 3. **Première meta-analysis** (identifier 1-2 gaps critiques)
 4. **1-2 KB improvements** (fix gaps détectés)
 
 ### Priorité P1 (Court terme, ce mois)
 
 1. **Workflow batch** (investigations nocturnes automatisées)
-2. **Logging structured** (JSON format standardisé)
-3. **Meta-development weekly** (review logs → improve KB)
-4. **Git workflow** (branch experiments, A/B test changes)
+2. **Logging structured** (JSON format standardisé — expand beyond current markdown logs)
+3. **Meta-development weekly** (review logs → improve KB systematically)
+4. ✅ **Git workflow** (COMPLETED — branch experiments, A/B testing, postmortem documentation)
 
 ### Priorité P2 (Moyen terme, Q1 2025)
 
@@ -505,4 +596,15 @@ Si feature pas utilisée après 1 mois → delete. YAGNI strict.
 
 ---
 
-**Truth Engine v8.0** — Not a product. A living system. Use → Learn → Evolve → Repeat.
+---
+
+**Truth Engine v8.4** (Nov 16, 2025)
+Not a product. A living system. Use → Learn → Evolve → Repeat.
+
+**Recent breakthroughs:**
+- ✅ Query Optimization v8.3 (productive query rate: 0-40% → 80-100%)
+- ✅ Investigation Tree v8.4 (multi-branch dialectical analysis for APEX topics)
+- ✅ Dual-Engine validated (WebSearch 95%+ + MCP web-search 60-80%)
+- ✅ Postmortem workflow (institutional memory of failures — Google Search MCP case study)
+
+**Architecture status:** Production-ready. MCP integration complete. EDI targets achieved across all complexity tiers.
