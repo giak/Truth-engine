@@ -228,6 +228,7 @@ truth-engine/
 │   ├── SEARCH_EPISTEMIC.md   # Source stratification, EDI formula (73KB)
 │   ├── QUERY_TEMPLATES.md    # Domain-adaptive search templates, H7 map (18KB)
 │   ├── INVESTIGATION.md      # Investigation depth protocols L0-L9 (41KB)
+│   ├── INVESTIGATION_TREE.md # Tree investigation, COMPARABLES_ASYMMETRY (949 lines)
 │   ├── VALIDATION.md         # Post-search validation loop (9KB)
 │   └── HANDOFF_MEMO.md       # Multi-conversation iteration workflow (15KB)
 ├── PRD.md             # Product Requirements v7.15.1 (20KB)
@@ -305,6 +306,45 @@ Target: EDI≥0.60, sources≥15, wolves≥8 if political.
 Save logs/$(date +%Y-%m-%d)_subject.md"
 ```
 
+### Investigation Tree (v8.4)
+
+**New in v8.4:** For highly complex or contentious subjects, Truth Engine can use Investigation Tree methodology for multi-branch dialectical analysis.
+
+**What is Investigation Tree:**
+- **Dialectical decomposition**: Single narrative → Multi-perspective investigation tree
+- **Tree depth**: L0-L9 protocols applied across multiple branches
+- **COMPARABLES_ASYMMETRY**: Systematic comparison of treatment asymmetries (e.g., different responses to similar events)
+- **Multi-branch execution**: Parallel investigation paths for adversarial perspectives
+
+**When to use:**
+- Political/geopolitical controversies (≥8 complexity)
+- Topics requiring adversarial hypothesis testing
+- Cases where single-path investigation misses critical perspectives
+- Subjects with documented censorship or suppression
+
+**How to invoke:**
+```bash
+claude-code "Investigation APEX: [subject].
+Load system.md + kb/INVESTIGATION_TREE.md.
+Multi-branch dialectical analysis.
+Target: EDI≥0.80, sources≥20, wolves≥12.
+Save logs/$(date +%Y-%m-%d)_subject.md"
+```
+
+**What happens:**
+1. **Branch identification**: System identifies 2-4 adversarial hypotheses
+2. **Parallel investigation**: Each branch investigated independently (L0-L9)
+3. **COMPARABLES_ASYMMETRY**: Cross-branch comparison for double standards
+4. **Synthesis**: Arbitrage across branches with ◈ primary evidence
+
+**Expected output:**
+- EDI ≥0.80 (multi-perspective diversity)
+- Sources ≥20 (comprehensive coverage)
+- Wolves ≥12 for political topics (deep actor mapping)
+- Dialectical synthesis showing tensions
+
+**See:** [kb/INVESTIGATION_TREE.md](kb/INVESTIGATION_TREE.md:1) for complete protocols and [tests/tree/](tests/tree/) for validation.
+
 ## Key Concepts
 
 ### Quality Metrics
@@ -364,6 +404,7 @@ When controversy≥6 (political/geopolitical topics), automatically query advers
 | [PATTERNS.md](kb/PATTERNS.md:1) | 20+ manipulation patterns | 108KB | ICEBERG, MONEY, BIO, NET, WAR, TEMP |
 | [QUERY_TEMPLATES.md](kb/QUERY_TEMPLATES.md:1) | Domain-adaptive search templates, H7 map | 18KB | §1-3 Templates, §3.1 H7_OVERRIDE |
 | [INVESTIGATION.md](kb/INVESTIGATION.md:1) | Investigation protocols L0-L9, CASCADE | 41KB | §7 APEX Protocol |
+| [INVESTIGATION_TREE.md](kb/INVESTIGATION_TREE.md:1) | **NEW v8.4**: Tree investigation, COMPARABLES_ASYMMETRY | 949 lines | Multi-branch dialectical analysis |
 | [VALIDATION.md](kb/VALIDATION.md:1) | Post-search validation loop | 9KB | §1-5 Validation, §6 Penalties |
 | [HANDOFF_MEMO.md](kb/HANDOFF_MEMO.md:1) | Multi-conversation iteration | 15KB | I0→I1→I2 workflow |
 
@@ -394,12 +435,20 @@ See [MCP_STATUS.md](MCP_STATUS.md:1) for current configuration status.
 - `search_code` - Hybrid semantic search KB
 - `write_memory`, `update_memory`, `delete_memory` - Cross-session memory
 - `index_project` - Index KB for semantic search
+- **Auto-approved**: All mnemolite tools configured in [.claude/settings.local.json](.claude/settings.local.json:40-48)
 
 **Context7** (library documentation):
 - `resolve-library-id`, `get-library-docs`
+- **Auto-approved**: Configured for seamless documentation lookup
 
-**Web Search** (general search):
-- `search` - Google search for investigations
+**Web Search Engines** (dual-engine architecture):
+- **WebSearch** (Google API official) - 95%+ success rate
+  - **Auto-approved**: No manual permission prompts
+- **MCP web-search** (DuckDuckGo) - 60-80% success rate
+  - **Auto-approved**: Fallback diversity engine
+- **Google Search MCP** (Playwright-based) - ❌ **NOT RECOMMENDED**
+  - 0% success rate (anti-bot blocking)
+  - See postmortem: [docs/postmortems/2025-11-16-google-search-mcp-ABANDONED.md](docs/postmortems/2025-11-16-google-search-mcp-ABANDONED.md:1)
 
 ### Indexing KB with MnemoLite
 
@@ -458,7 +507,8 @@ Otherwise: "(WOLF not applicable)"
 4. **Skipping validation warnings** → Source gaps unaddressed
 5. **Not using H7 adversary sources** → Western-centric bias on political topics
 6. **Forgetting complexity assessment** → Wrong resource allocation
-7. **Violating the 10 Commandments** → See [Philosophy & Core Principles](#philosophy--core-principles) - These are non-negotiable quality gates, not suggestions
+7. **Trying Google Search MCP** → 0% success rate due to anti-bot blocking (see [postmortem](docs/postmortems/2025-11-16-google-search-mcp-ABANDONED.md:1)), use WebSearch (Google API) instead
+8. **Violating the 10 Commandments** → See [Philosophy & Core Principles](#philosophy--core-principles) - These are non-negotiable quality gates, not suggestions
 
 ## Quality Targets
 
@@ -489,7 +539,8 @@ See [VISION.md](VISION.md:1) for detailed meta-development workflows.
 
 ---
 
-**Version:** Truth Engine v8.0 (system.md v7.17)
-**Last updated:** 2025-11-11
+**Version:** Truth Engine v8.4 (system.md v7.17)
+**Last updated:** 2025-11-16
+**New in v8.4:** Query Optimization v8.3 (automatic splitting + hybrid fallback), Investigation Tree (multi-branch dialectical analysis), Architecture validated (dual-engine WebSearch + MCP web-search)
 **Philosophy:** See [Philosophy & Core Principles](#philosophy--core-principles) section above for complete hostile epistemology framework.
 **Deep dive:** [PFD.md](PFD.md:1) - Full philosophical foundation (148 concepts)
