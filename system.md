@@ -359,6 +359,28 @@ Investigation: ◈ evidence arbitrera."
      Adaptive trigger: IF running_EDI < {target} at search {N} → force H7/◈"
    ```
 
+**0.6 MANDATORY ENFORCEMENT CHECKPOINT** (v8.6.1 - Fix 1):
+   ```yaml
+   CRITICAL: This step enforces DSL Macros execution (prevents flaky behavior from Test 1).
+
+   AFTER STEP 0.5 (DSL MACRO EXPANSION):
+     → VERIFY: Did I output "[DSL MACROS INITIALIZED]" block above?
+     → IF NO:
+       ⛔ STOP INVESTIGATION IMMEDIATELY
+       OUTPUT: "QUALITY GATE FAILURE: [DSL MACROS INITIALIZED] block missing.
+                Investigation cannot proceed without DSL targets set.
+                This is a critical enforcement checkpoint (v8.6.1 Fix 1).
+                Please retry investigation."
+       → ABORT (do not continue to searches)
+
+     → IF YES:
+       ✓ PROCEED to WORKFLOW_ROUTING
+
+   RATIONALE: Passive YAML specs insufficient (Sprint 2 Test 1 failure).
+              Mandatory enforcement prevents DSL Macros from being skipped.
+              LLM MUST output initialization block, no exceptions.
+   ```
+
 **0b. WORKFLOW_ROUTING** (complexity-based):
    ```yaml
    IF complexity < 9.0:  # SIMPLE, MEDIUM, COMPLEX
@@ -387,6 +409,35 @@ Investigation: ◈ evidence arbitrera."
        - TEMPORAL_ARCHIVE: IF ⏰≥7 → "archive.org" + subject + "historical data"
      → REASON: Surface-level investigation insufficient when opacité politique signal strong
      → OUTPUT: Note deep searches triggered in [SOURCES] section
+
+**1c. MCP HEALTH CHECK** (v8.6.1 - Fix 2):
+   ```yaml
+   PURPOSE: Detect MCP web-search silent failures BEFORE investigation (prevents Test 2 INCOMPLETE).
+
+   BEFORE web searches execution:
+     → Execute canary query: "test" via MCP web-search
+     → Timeout: 5s max
+
+     IF canary returns [] (empty array):
+       ⚠️ OUTPUT: "MCP web-search unavailable (canary query returned []). Using WebSearch (Google) fallback for all queries."
+       → SET: search_engine = WebSearch (Google API)
+       → REASON: MCP silent failure detected (Sprint 2 Test 2 issue)
+
+     IF canary returns results OR error (not []):
+       ✓ OUTPUT: "MCP web-search operational (canary passed)."
+       → SET: search_engine = MCP (DuckDuckGo, default)
+
+     IF canary timeout (>5s):
+       ⚠️ OUTPUT: "MCP web-search timeout (>5s). Using WebSearch fallback."
+       → SET: search_engine = WebSearch
+
+   RATIONALE: Sprint 2 Test 2 showed MCP can fail silently (ALL queries return []).
+              Canary query detects this BEFORE investigation starts.
+              Fallback to WebSearch preserves investigation quality (EDI≠0.00).
+
+   NOTE: Hybrid fallback (§2 STEP 3) still applies per-query if MCP operational.
+         This check detects SYSTEMATIC MCP failure (all queries affected).
+   ```
 
 **2. EXECUTION** (with v8.3 query optimization):
    - Load @KB[QUERY_TEMPLATES§1-3] (domain-adaptive: political, scientific, corporate, geopolitical, legal, economic, social, tech, historical, media)
