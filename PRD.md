@@ -312,10 +312,13 @@ NOTE: Tous les {X} doivent être remplacés par des valeurs numériques
   - INVESTIGATION.md optimization (~1KB)
   - Pattern tier compression (~3KB)
   - Cross-reference optimization (~4KB)
-- ⏳ **v8.5** (TBD): Future enhancements
-  - Semantic query splitting (NLP-based vs chunking)
-  - Adaptive thresholds (per-domain tuning)
-  - Query intent classification (PRIMARY vs ADVERSARY auto-detection)
+- ✅ **v8.5** (Nov 17, 2025): Sprint 1 — Anti-Sycophancy + Fact-Checking
+  - **Anti-Sycophancy (Preflight Challenge)**: User position detection + counter-hypothesis formulation BEFORE investigation
+  - **Fact-Checking (Honesty Enforcement)**: PRIMARY SOURCE requirement, "je ne sais pas" capability, confidence ceiling 95% max
+  - Implementation: system.md (lines 271-315 Anti-Sycophancy, lines 591-651 Fact-Checking)
+  - Test suite: tests/sprint1/ (5 test cases + validation framework)
+  - Success criteria: User challenge ≥80%, "je ne sais pas" honesty ≥60%, confidence ceiling 100% compliance, 0 EDI/ISN regression
+  - Validation: tests/sprint1/ (test1-5 + validation-results.md template)
 
 ## 10.5 APEX Use Cases - Validation Scenarios
 

@@ -1,6 +1,6 @@
 # Dashboard
 
-**Updated**: 2025-11-16
+**Updated**: 2025-11-17
 
 ---
 
@@ -30,6 +30,7 @@
 | 2025-11-11 | v8.0: Claude Code migration + MCP foundation | Production infrastructure, auto-approval, KB semantic search |
 | 2025-11-15 | v8.3: Query Optimization (automatic splitting + hybrid fallback) | Productive query rate: 0-40% → 80-100%, PRIMARY sources +105%, EDI +0.15-0.27 |
 | 2025-11-16 | v8.4: Investigation Tree + Architecture validated | Multi-branch dialectical analysis, EDI targets achieved, dual-engine confirmed, Google Search MCP rejected (0% success) |
+| 2025-11-17 | v8.5: Sprint 1 Anti-Sycophancy + Fact-Checking | User challenge rate target ≥80%, "je ne sais pas" honesty enforcement, confidence ceiling 95% max, 0 EDI/ISN regression target |
 
 ---
 

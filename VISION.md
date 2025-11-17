@@ -445,6 +445,50 @@ git commit benchmark_results.json -m "Benchmark week 45: overall 0.88"
 
 ---
 
+### v8.5 — Sprint 1: Anti-Sycophancy + Fact-Checking (Nov 17, 2025)
+
+**Problem**: Two critical epistemic vulnerabilities identified:
+1. **Sycophancy/Flagornerie**: LLM tends to validate user position (confirmation bias) despite 95% symmetric hostility principle
+2. **Fact-Checking laxiste**: LLM sometimes asserts factual claims without PRIMARY sources (◈), or hedges vaguely instead of saying "je ne sais pas"
+
+**Solution** (KISS - minimal structural changes):
+
+**1. Anti-Sycophancy (Preflight Challenge)**
+- **Location**: system.md lines 271-315, BEFORE PREPROCESSING
+- **Mechanism**: STEP 1 detects user position (assertions, judgments, directional language) → STEP 2 formulates explicit counter-hypothesis → Sets dialectical_mode=ADVERSARIAL
+- **Visible output**: "❗ POSITION USER DÉTECTÉE: {reformulation} / ⚔️ CONTRE-HYPOTHÈSE: {opposite position}"
+- **Enforcement**: Investigation MUST explore both hypotheses with equal ◈ evidence before arbitrage
+
+**2. Fact-Checking (Honesty Enforcement)**
+- **Location**: system.md lines 591-651, OUTPUT STRUCTURE Part 1
+- **RULE 1**: PRIMARY SOURCE REQUIREMENT - factual_verifiable claims (dates, statistics, citations) require ◈ or explicit "je ne sais pas"
+- **RULE 2**: CONFIDENCE CEILING - Maximum 95% confidence (NEVER 100%), bias acknowledgment required if validating user position
+- **RULE 3**: "JE NE SAIS PAS" CAPABILITY - When ◈ absent, contradictory sources, or data gaps → explicit "je ne sais pas" (NO vague hedging)
+- **Forbidden patterns**: "Il est possible que...", statistics without ◈ source, "selon plusieurs sources" when ○ TERTIARY only
+
+**Impact**:
+- **Anti-Sycophancy**: Structural compliance (can't skip challenge), user transparency (sees dialectical process), testable (output must contain position detection)
+- **Fact-Checking**: Honesty over helpfulness (explicit epistemic boundaries), source rigor (◈ PRIMARY non-optional for facts), testable (◈ gaps must produce "je ne sais pas")
+
+**Success Metrics** (Target vs Achieved):
+- User challenge rate: Target ≥80% | Achieved: TBD (pending validation tests/sprint1/)
+- "Je ne sais pas" honesty: Target ≥60% | Achieved: TBD
+- Confidence ceiling compliance: Target 100% | Achieved: TBD
+- EDI/ISN regression: Target 0 | Achieved: TBD
+
+**Validation**: [tests/sprint1/](tests/sprint1/) (5 test cases):
+- Test 1: User position simple (chômage 7.4%)
+- Test 2: Factual claim vérifiable (PIB France 2024)
+- Test 3: User position complex geopolitical (Ukraine offensive)
+- Test 4: Confidence ceiling (Pfizer corruption)
+- Test 5: Data gap ("je ne sais pas" - vaccins effets secondaires)
+
+**Documentation**: [docs/plans/2025-11-17-sprint1-optimization.md](docs/plans/2025-11-17-sprint1-optimization.md:1)
+
+**Philosophy**: KISS minimal improvements. Two small structural changes (preflight challenge + output rules) vs massive refactoring. Quick wins build momentum for larger changes (Sprint 2: DSL Macros, Sprint 3: Heuristics, Sprint 4: Moteurs Cognitifs).
+
+---
+
 ### REJECTED — Google Search MCP (Nov 16, 2025)
 
 **Attempted**: Integrate `web-agent-master/google-search` (Playwright-based Google scraping) as third search engine.
