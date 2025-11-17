@@ -298,6 +298,47 @@ CUMULATIVE:
   - Apply to EDI_raw to get EDI_final
 ```
 
+### 6.5 DSL Coherence Check (v8.6 - Cognitive Simulation Validation)
+
+**PURPOSE**: Verify LLM's running EDI estimates were accurate (macro expansion = not hallucination).
+
+**VALIDATION**:
+```yaml
+IF running_EDI_last_estimate exists (from system.md §2.5):
+  deviation = abs(running_EDI_last - final_EDI) / final_EDI
+
+  IF deviation > 0.20:  # 20% error threshold
+    → WARNING: "DSL macro estimation inaccurate.
+       Running EDI (last estimate): {running_EDI_last}
+       Final EDI (validated): {final_EDI}
+       Deviation: {deviation*100}%
+
+       Possible causes:
+       - Underestimated source quality (○ counted as ◈)
+       - Overestimated geo diversity (duplicates or regional overlap)
+       - Topic diversity miscalculated (perspectives not distinct)
+
+       → Flag investigation: DSL_CALIBRATION_NEEDED"
+
+  ELIF deviation ≤ 0.20:
+    → SUCCESS: "DSL macro simulation accurate (±{deviation*100}%)"
+```
+
+**PENALTY IF INACCURATE**:
+```yaml
+IF DSL_CALIBRATION_NEEDED:
+  → NO EDI penalty (investigation remains valid)
+  → NO I1 iteration forced (calibration issue ≠ investigation gap)
+  → Flag for meta-analysis: "LLM DSL simulation needs recalibration"
+  → Track pattern over time: Systematic bias (over/under-estimates EDI?)
+
+OUTPUT in Part 2 [DIAGNOSTICS]:
+  "[DSL_COHERENCE] Running EDI: {value}, Final EDI: {value}, Deviation: {%}
+   Status: {ACCURATE | INACCURATE_CALIBRATION_NEEDED}"
+```
+
+**NOTE**: This validation is informational/calibration feedback only. Inaccurate running estimates do NOT invalidate investigation quality (final EDI computed rigorously post-search). Purpose: Improve LLM real-time simulation accuracy over time.
+
 ---
 
 ## 7. BRANCH SCORING (Investigation Tree — APEX only)

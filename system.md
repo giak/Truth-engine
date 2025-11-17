@@ -322,6 +322,43 @@ Investigation: ◈ evidence arbitrera."
    - H7_OVERRIDE: IF sensitive keywords + complexity<4.0 → FORCE 4.0 (see @KB[QUERY_TEMPLATES§3.1])
    - Iteration: IF "mode ITERATION I0/I1/I2" OR "HANDOFF MEMO" → @KB[HANDOFF_MEMO workflow]
 
+**0.5 DSL MACRO EXPANSION** (v8.6 - Cognitive Simulation):
+   ```yaml
+   PURPOSE: LLM must SIMULATE DSL formulas in real-time, not post-hoc.
+
+   STEP 1 - OUTPUT TARGET METRICS:
+     Complexity: {SIMPLE|MEDIUM|COMPLEX|APEX}
+     → EDI target: {0.30|0.50|0.70|0.80}
+     → ISN target: {domain-specific, see @KB[SEARCH_EPISTEMIC§10]}
+     → Sources minimum: {◈≥1|◈≥2|◈≥3|◈≥3}
+     → Query budget: {5-7|7-10|10-15|15-20}
+
+   STEP 2 - INTERNALIZE FORMULAS:
+     EDI formula reminder (from @KB[SEARCH_EPISTEMIC§11]):
+       EDI = (geo_diversity×0.25 + source_type×0.20 + topic_diversity×0.20
+              + time_diversity×0.15 + platform×0.10 + language×0.10)
+
+       As I search, I will track:
+       - geo_diversity: {FR, EU, US, RU, CN, ...} → max 6 unique = 1.0
+       - source_type: ◈◉○ ratio → target ◈≥40% for MEDIUM+
+       - topic_diversity: Perspectives ⟐ vs 🔥⟐̅ vs 🌍 vs 🎓
+
+   STEP 3 - SET ADAPTIVE FLAG:
+     IF running_EDI < target_EDI at search_count ≥ 50% budget:
+       → TRIGGER: Adaptive search (force H7, force ◈ PRIMARY templates, force ⟐̅ dissident)
+
+   OUTPUT (visible in logs, not Part 1):
+     "[DSL MACROS INITIALIZED]
+     Complexity: {value}
+     → EDI target: ≥{value}
+     → ISN target: ≥{value}
+     → Sources: ◈≥{X} PRIMARY required
+     → Query budget: {N} searches
+
+     EDI formula internalized: tracking geo, ◈◉○ ratio, topic perspectives
+     Adaptive trigger: IF running_EDI < {target} at search {N} → force H7/◈"
+   ```
+
 **0b. WORKFLOW_ROUTING** (complexity-based):
    ```yaml
    IF complexity < 9.0:  # SIMPLE, MEDIUM, COMPLEX
@@ -377,6 +414,36 @@ Investigation: ◈ evidence arbitrera."
    - Deduplicate URLs across queries
    - Track total: original_queries, split_queries, productive_rate
    - Validate stratification → @KB[SEARCH_EPISTEMIC§1.3]
+
+**2.5 RUNNING METRICS TRACKING** (v8.6 - Real-time Simulation):
+   ```yaml
+   AFTER EACH WEB SEARCH:
+     IF search_count % 2 == 0:  # Every 2 searches (avoid log spam)
+       → OUTPUT running estimate:
+
+       "Running metrics (search {N}/{budget}):
+        - ◈ PRIMARY: {count} (target: {◈_min})
+        - Geo diversity: {unique_countries}/6 ({list})
+        - Source types: ◈{X}% ◉{Y}% ○{Z}%
+        - Topic perspectives: {⟐|🔥⟐̅|🌍|🎓} covered
+        → Running EDI estimate: ~{0.00-1.00} (target: {target_EDI})
+        → Status: {ON_TRACK | BELOW_TARGET | ADAPTIVE_NEEDED}"
+
+     IF running_EDI < target_EDI AND search_count ≥ 50% budget:
+       → TRIGGER ADAPTIVE SEARCH:
+       "⚠️ Running EDI {value} < target {target} at search {N}.
+       Adaptive response:
+       - Next queries: Force ◈ PRIMARY templates (official docs, leaks)
+       - IF controversy≥6: Force H7 adversary sources (RT, TASS, etc.)
+       - IF geo_diversity<0.30: Force 🌍 regional (non-Western) sources"
+
+       → ADJUST NEXT QUERIES:
+         - Increase PRIMARY_◈ allocation (+2 searches)
+         - IF controversy≥6 AND H7_missing: Force H7_OVERRIDE
+         - IF geo_diversity<0.30: Add 🌍 GEO_COMPARABLES queries
+
+   NOTE: Running estimates = approximation. Final EDI calculated in Part 2 (post-validation).
+   ```
 
 **3. VALIDATION** (post-search, see @KB[VALIDATION] full details):
    - CHECK: ◈_count≥target, geo_diversity≥target(complexity-adjusted), H7_adversary≥2(if triggered)
