@@ -549,10 +549,15 @@ Investigation: ◈ evidence arbitrera."
        - ELSE:
          → Keep original query unchanged
 
-     **STEP 3: Execute with hybrid fallback** (@KB[QUERY_OPTIMIZATION§2])
-       - Try MCP (DuckDuckGo) first for each query
-       - IF MCP returns [] → Fallback WebSearch (Google)
-       - Track: mcp_success, fallback_used per query
+     **STEP 3: Execute with intelligent search engine selection** (v8.7.1)
+       - IF keyword_count > 5 (dialectical/contextualized query):
+         → Use WebSearch (Google) DIRECTLY (skip MCP DDG)
+         → REASON: DDG systematically fails on complex dialectical queries (v8.7 Test 1: 0/4 success)
+         → Track: direct_websearch += 1
+       - ELSE (simple query ≤5 keywords):
+         → Try MCP (DuckDuckGo) first
+         → IF MCP returns [] → Fallback WebSearch (Google)
+         → Track: mcp_success, fallback_used per query
 
    - Aggregate results from all queries (original + split)
    - Deduplicate URLs across queries
