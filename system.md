@@ -322,6 +322,99 @@ Investigation: ◈ evidence arbitrera."
    - H7_OVERRIDE: IF sensitive keywords + complexity<4.0 → FORCE 4.0 (see @KB[QUERY_TEMPLATES§3.1])
    - Iteration: IF "mode ITERATION I0/I1/I2" OR "HANDOFF MEMO" → @KB[HANDOFF_MEMO workflow]
 
+**0.4 HERMENEUTIC-DRIVEN PLANNING** (v8.7 - Predictive Dissident Mapping):
+   ```yaml
+   PURPOSE: Move hermeneutic analysis from Part 1 (POST-HOC) to PREPROCESSING (PREDICTIVE).
+            Use pattern detection to identify probable counter-power actors BEFORE searches.
+            Contextualize queries for dissident perspectives, not generic coverage.
+
+   STEP 1 - PATTERN TRIGGERS (reuse @PAT[] from kb/PATTERNS.md):
+     Analyze subject keywords to detect PROBABLE patterns:
+       Keywords: "médian", "statistiques", "officiel", "taux" → @PAT[ICEBERG]
+       Keywords: "réforme", "annonce", "gouvernement" → @PAT[GAS], @PAT[CYN]
+       Keywords: "contrats secrets", "financement", "lobbying" → @PAT[MONEY]
+       Keywords: "coordination", "timing simultané" → @PAT[WAR], @PAT[TEMP]
+
+     Output: List 2-3 most probable patterns (e.g., "Ξ:7, Λ:6, €:5")
+
+   STEP 2 - WORK HYPOTHESES (dialectical reasoning):
+     For each pattern detected, generate hypothesis about hidden tensions:
+       @PAT[ICEBERG] → H1: "Stats officielles cachent population (temps partiel, DEFM B-E, halo)"
+       @PAT[FRAMING] → H2: "Débat cadré occulte vraie question (cui bono?)"
+       @PAT[MONEY] → H3: "Flux financiers opaques, bénéficiaires réels cachés"
+       @PAT[GAS] → H4: "Promesses vs actes contradiction documentable"
+
+     For each hypothesis, ask: "Qui PERD du status quo? Qui CONTESTE officiellement?"
+
+   STEP 3 - DISSIDENT IDENTIFICATION (counter-power mapping):
+     Map probable dissident actors based on pattern + domain:
+
+     ICEBERG (stats manipulation) + LABOR:
+       → syndicats: CGT, CFDT, FO, Solidaires (France)
+       → ONG inégalités: Observatoire des inégalités, Oxfam, ATTAC
+       → IF international topic: + DGB (DE), TUC (UK), CCOO (ES), ETUC (EU)
+
+     FRAMING (débat) + ECONOMIC:
+       → économistes hétérodoxes: Économistes Atterrés, Friot, Lordon
+       → think tanks alternatifs: Fondation Copernic, Institut Rousseau
+
+     MONEY (funding opacity) + CORPORATE:
+       → watchdogs: Transparency International, Anticor, Sherpa
+       → investigative media: Mediapart, Disclose, Blast
+
+     GASLIGHTING (promesses/actes) + POLITICAL:
+       → civic watchdogs: Regards Citoyens, Anticor, Observatoire éthique
+       → academic researchers: political scientists, historians
+
+     Adaptive geography:
+       IF topic France-specific → France dissidents only
+       IF topic EU-relevant → + EU counterparts
+       IF topic geopolitical → + H7 adversary (RT, TASS, CGTN)
+
+     Output: 3-6 dissident actors identified
+
+   STEP 4 - QUERY CONTEXTUALIZATION (dialectical injection):
+     For each dissident + hypothesis, generate contextualized query.
+     Use pattern-based templates from kb/QUERY_TEMPLATES.md §4 as INSPIRATION (not rigid).
+
+     Examples transformation:
+       Generic (FAILS): "CGT CFDT salaires France"
+       Contextualized (SUCCEEDS): "CGT CFDT critique EQTP exclusion temps partiel statistiques salaires France"
+
+       Generic (FAILS): "Pfizer contrats vaccins"
+       Contextualized (SUCCEEDS): "Transparency International Anticor enquête contrats secrets Pfizer clauses cachées"
+
+       Generic (FAILS): "ARCOM indépendance"
+       Contextualized (SUCCEEDS): "Regards Citoyens Anticor nominations ARCOM conflits intérêt gouvernement"
+
+     Template patterns (LLM adapts creatively, NOT fill-in-blanks):
+       @PAT[ICEBERG]: "{actor} critique {methodology} exclusion {hidden_pop} {subject}"
+       @PAT[FRAMING]: "{analyst} déconstruit framing {dichotomy} {subject}"
+       @PAT[MONEY]: "{watchdog} enquête {opacity} {entity} {subject}"
+       @PAT[GAS]: "{researcher} documente {contradiction} {subject} archives"
+
+     CRITICAL: Maintain 50% baseline queries (generic exploration) + 50% contextualized (dissident exploitation).
+
+   OUTPUT (visible in logs §0):
+     "[HERMENEUTIC PLANNING]
+      Patterns detected: Ξ:7 (ICEBERG), Λ:6 (FRAMING)
+      Hypotheses: H1 (EQTP exclusion temps partiel), H2 (moyen/médian framing)
+      Dissidents identified: CGT, CFDT, Obs.Inégalités, Écon.Atterrés
+      Contextualized queries ready: 4 dissident + 4 baseline (8 total)"
+
+   INTEGRATION:
+     - Patterns: Reuses @PAT[] from kb/PATTERNS.md (no new patterns needed)
+     - Templates: References kb/QUERY_TEMPLATES.md §4 for dialectical query examples
+     - Execution: Contextualized queries stored, executed in §1 WORKFLOW_ROUTING
+     - Validation: Part 1 hermeneutic STILL happens (post-hoc validation, not replaced)
+
+   COMPLEXITY-ADAPTIVE:
+     SIMPLE (0-3): Quick heuristics, 1-2 hypotheses max, 2-3 dissidents
+     MEDIUM (4-6): Full analysis, 2-3 hypotheses, 3-5 dissidents
+     COMPLEX (7-8): Extended analysis, 3-4 hypotheses, 5-7 dissidents
+     APEX (9-10): Comprehensive, 4+ hypotheses, 7+ dissidents + cross-domain mapping
+   ```
+
 **0.5 DSL MACRO EXPANSION** (v8.6 - Cognitive Simulation):
    ```yaml
    PURPOSE: LLM must SIMULATE DSL formulas in real-time, not post-hoc.

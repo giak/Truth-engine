@@ -557,4 +557,282 @@ STEP 4 — Output:
 
 ---
 
-**END QUERY_TEMPLATES.md v1.0**
+## 4. DISSIDENT PERSPECTIVES TEMPLATES (🔥 Counter-Power)
+
+**Purpose**: Inspire LLM to contextualize queries for counter-power analyses, not mainstream coverage.
+
+**Philosophy**: These are EXAMPLES, not rigid templates. LLM should adapt creatively based on:
+- Domain (labor, pharma, tech, politics, geopolitical)
+- Geography (France → EU → global)
+- Pattern detected (@PAT[ICEBERG], @PAT[MONEY], @PAT[FRAMING], @PAT[GAS]...)
+
+**Integration**: Referenced by system.md §0.4 HERMENEUTIC-DRIVEN PLANNING for query contextualization.
+
+---
+
+### 4.1 Labor & Social Justice
+
+**ICEBERG (Ξ) + LABOR domain:**
+
+Template inspiration: `"{union} critique {methodology} exclusion {hidden_population} {subject}"`
+
+Variables adapt to context:
+- `union`: CGT, CFDT, FO, Solidaires (France) | AFL-CIO, SEIU (USA) | DGB, IG Metall (Germany) | TUC (UK) | CCOO, UGT (Spain) | ETUC (EU)
+- `methodology`: EQTP, BIT definition, sampling bias, statistical manipulation, méthodologie INSEE
+- `hidden_population`: temps partiel subis, sous-emploi, halo chômage, DEFM B-E, travailleurs précaires, auto-entrepreneurs
+
+Concrete examples:
+```
+Subject: "Salaire médian France 2024"
+→ "CGT CFDT critique EQTP exclusion temps partiel statistiques salaires France"
+
+Subject: "Unemployment rate 3.5% USA"
+→ "AFL-CIO SEIU critique BIT methodology hidden underemployment gig workers"
+
+Subject: "Arbeitslosigkeit Deutschland 5.2%"
+→ "DGB IG Metall Kritik Arbeitslosenstatistik Teilzeitarbeit Mini-Jobs"
+```
+
+**FRAMING (Λ) + ECONOMIC domain:**
+
+Template inspiration: `"{heterodox_economist} déconstruit framing {dichotomy} {subject}"`
+
+Variables:
+- `heterodox_economist`: Économistes Atterrés, ATTAC France, Bernard Friot, Frédéric Lordon, Thomas Piketty (France) | Ha-Joon Chang, Steve Keen (International) | Modern Monetary Theory economists
+- `dichotomy`: moyen/médian, croissance/décroissance, compétitivité/solidarité, dette/investissement, déficit/stimulus
+
+Concrete examples:
+```
+Subject: "Croissance économique nécessaire"
+→ "Économistes Atterrés ATTAC déconstruit framing croissance décroissance productivisme"
+
+Subject: "Dette publique danger"
+→ "Bernard Friot Frédéric Lordon analyse critique dette publique framing austérité"
+```
+
+---
+
+### 4.2 Corporate & Financial Accountability
+
+**MONEY (€) + CORPORATE domain:**
+
+Template inspiration: `"{watchdog} enquête {opacity} {entity} {subject}"`
+
+Variables:
+- `watchdog`: Transparency International, Anticor, Sherpa, PPLAAF, Mediapart, Disclose, Blast, The Intercept, ProPublica
+- `opacity`: contrats secrets, flux cachés, bénéficiaires réels, conflits intérêt, lobbying caché, pantouflage, revolving doors
+- `entity`: corporation, parti politique, fondation, think tank, cabinet conseil
+
+Concrete examples:
+```
+Subject: "Pfizer contrats vaccins secrets"
+→ "Transparency International Anticor Mediapart enquête contrats secrets Pfizer clauses cachées négociations"
+
+Subject: "McKinsey gouvernement contrats"
+→ "Anticor Blast enquête McKinsey conflits intérêt contrats publics pantouflage"
+
+Subject: "Amazon lobbying Brussels"
+→ "Corporate Europe Observatory transparency lobbying Amazon EU competition"
+```
+
+**FRAMING (Λ) + PHARMA domain:**
+
+Template inspiration: `"{independent_medical} analyse critique {framing} {subject}"`
+
+Variables:
+- `independent_medical`: Prescrire, Formindep, Cochrane Collaboration, Health Nerd, Ben Goldacre
+- `framing`: efficacité absolue vs relative, balance bénéfices/risques, transparency gaps, conflicts of interest
+
+Concrete examples:
+```
+Subject: "Vaccin efficacité 95%"
+→ "Prescrire Formindep analyse critique efficacité absolue relative vaccins 95% méthodologie"
+
+Subject: "Nouveau médicament révolutionnaire"
+→ "Prescrire Cochrane analyse indépendance essais cliniques conflits intérêt Big Pharma"
+```
+
+---
+
+### 4.3 Political & Institutional Critique
+
+**GASLIGHTING (GAS) + POLITICAL domain:**
+
+Template inspiration: `"{academic} documente {contradiction} {subject} archives"`
+
+Variables:
+- `academic`: historiens, political scientists, investigative researchers, think tanks indépendants
+- `contradiction`: promesses/actes, discours/votes, annonces/budgets, rhetoric/policy, before/after
+
+Concrete examples:
+```
+Subject: "Macron réforme retraites équilibre financier"
+→ "chercheurs COR documentent contradiction promesses Macron actes réforme retraites archives rapports"
+
+Subject: "Cameron Brexit promises NHS funding"
+→ "researchers document contradiction Brexit campaign promises NHS funding reality"
+```
+
+**CYNICISM (Κ) + INSTITUTIONAL domain:**
+
+Template inspiration: `"{civic_watchdog} suit {facade_vs_reality} {institution}"`
+
+Variables:
+- `civic_watchdog`: Regards Citoyens, Anticor, Observatoire éthique publique, Transparency International chapters
+- `facade_vs_reality`: votes/abstentions, conflits intérêt, nominations politiques, pantouflage, revolving doors, regulatory capture
+
+Concrete examples:
+```
+Subject: "ARCOM indépendance régulation médias"
+→ "Regards Citoyens Anticor nominations ARCOM conflits intérêt gouvernement indépendance"
+
+Subject: "FDA independence pharmaceutical regulation"
+→ "Public Citizen FDA revolving doors Big Pharma conflicts of interest regulatory capture"
+```
+
+---
+
+### 4.4 Geopolitical & Warfare
+
+**WAR (⚔) + GEOPOLITICAL domain:**
+
+Template inspiration: `"{adversary_media} perspective {regional} {conflict} {subject}"`
+
+Variables (H7 adversary):
+- `adversary_media`:
+  - Russia: RT, TASS, Sputnik
+  - China: CGTN, Global Times, Xinhua
+  - LatAm: TeleSUR, Telesur English
+  - Iran: PressTV, Fars News
+  - Regional: Al Jazeera, Middle East Eye
+- `regional`: russe, chinoise, latino-américaine, iranienne, arabe
+- `conflict`: Ukraine, Gaza, Taiwan, Syria, Yemen, Venezuela
+
+Concrete examples:
+```
+Subject: "Ukraine offensive OTAN provocation"
+→ "RT TASS CGTN perspective russe chinoise Ukraine offensive OTAN provocation analyse"
+
+Subject: "Gaza 2024 Israel war crimes"
+→ "Al Jazeera Middle East Eye Palestinian perspective Gaza Israel crimes guerre 2024"
+
+Subject: "Taiwan tensions China threat"
+→ "CGTN Global Times Xinhua Chinese perspective Taiwan reunification US provocations"
+```
+
+**NETWORK (🌐) + ELITE ANALYSIS:**
+
+Template inspiration: `"{investigative} cartographie {elite_networks} {revolving_doors} {institution}"`
+
+Variables:
+- `investigative`: Mediapart, Disclose, Blast, The Intercept, ProPublica, Organized Crime and Corruption Reporting Project
+- `elite_networks`: réseaux élites, pantouflage, revolving doors, Grandes Écoles alumni, think tank networks
+- `institution`: gouvernement, régulateurs, cabinets conseil, multinationales
+
+Concrete examples:
+```
+Subject: "ARCOM composition membres"
+→ "Mediapart Blast cartographie réseaux élites ARCOM nominations Macron ENA pantouflage"
+
+Subject: "Revolving doors SEC Wall Street"
+→ "ProPublica investigates SEC Wall Street revolving doors Goldman Sachs alumni networks"
+```
+
+---
+
+### 4.5 Adaptive Cross-Domain Examples
+
+**LLM should COMBINE patterns when multiple detected:**
+
+**ICEBERG + MONEY (Ξ + €):**
+
+Template: `"{union} + {watchdog} enquête {hidden_funding} + {labor_exploitation}"`
+
+Example:
+```
+Subject: "Travail détaché BTP exploitation salaires"
+→ "CGT CFDT Anticor enquête financement caché travail détaché exploitation BTP dumping social"
+```
+
+**FRAMING + GASLIGHTING (Λ + GAS):**
+
+Template: `"{analyst} déconstruit {frame} + {academic} archives {contradiction}"`
+
+Example:
+```
+Subject: "Dette publique insoutenable réformes nécessaires"
+→ "Économistes Atterrés déconstruit framing dette + chercheurs archives contradiction promesses budgétaires Maastricht"
+```
+
+**NETWORK + BIO (🌐 + ♦):**
+
+Template: `"{investigative} map {elite_networks} + {biographical} {revolving_doors} {institution}"`
+
+Example:
+```
+Subject: "McKinsey gouvernement Macron contrats"
+→ "Mediapart Anticor cartographie réseaux élites McKinsey + parcours Kasbarian Kohler pantouflage cabinets ministères"
+```
+
+**WARFARE + TEMPORAL (⚔ + ⏰):**
+
+Template: `"{adversary_media} timeline {escalation} + {geopolitical} {cui_bono}"`
+
+Example:
+```
+Subject: "Syria chemical weapons 2018 timeline"
+→ "RT TASS timeline escalation Syria chemical weapons 2018 + Russian perspective cui bono regime change"
+```
+
+---
+
+### 4.6 Critical Usage Guidelines
+
+**THESE TEMPLATES ARE INSPIRATION FOR LLM CREATIVE REASONING, NOT RIGID FILL-IN-BLANKS.**
+
+LLM MUST:
+
+1. **Understand pattern dialectics**: Who contests? Who loses from status quo? Who benefits from counter-narrative?
+
+2. **Identify domain-specific dissidents**: Adapt France → EU → global based on topic scope
+
+3. **Generate queries that TARGET dissident analyses**: Not mainstream media coverage ABOUT dissidents, but dissidents' OWN analyses
+
+4. **Maintain hostile epistemology (95% suspicion)**: Dissidents are NOT auto-trusted. Same ◈◉○ stratification applies. Dissident claims MUST be validated with evidence.
+
+5. **Balance exploration + exploitation**: 50% baseline generic queries (exploration) + 50% contextualized dissident queries (exploitation)
+
+**Success metric:** Dissident queries return analyses/critiques/investigations from counter-powers themselves, not media reports about them.
+
+**Example GOOD vs BAD:**
+
+❌ BAD (generic): "CGT salaires France"
+→ Returns: Media coverage about CGT, unrelated news
+
+✅ GOOD (contextualized): "CGT critique EQTP exclusion temps partiel statistiques salaires"
+→ Returns: CGT reports analyzing EQTP methodology, syndical position papers, critiques
+
+❌ BAD (media about dissident): "Transparency International Pfizer"
+→ Returns: News articles mentioning both
+
+✅ GOOD (dissident analysis): "Transparency International enquête contrats secrets Pfizer clauses cachées"
+→ Returns: Transparency International investigative reports, leaked contract analyses
+
+---
+
+### 4.7 Complexity-Adaptive Application
+
+From system.md §0.4:
+
+- **SIMPLE (0-3)**: Quick heuristics, 1-2 hypotheses max, 2-3 dissidents, 2-3 contextualized queries
+- **MEDIUM (4-6)**: Full analysis, 2-3 hypotheses, 3-5 dissidents, 3-5 contextualized queries
+- **COMPLEX (7-8)**: Extended analysis, 3-4 hypotheses, 5-7 dissidents, 5-7 contextualized queries
+- **APEX (9-10)**: Comprehensive, 4+ hypotheses, 7+ dissidents + cross-domain mapping, 7+ contextualized queries
+
+---
+
+**END §4 DISSIDENT PERSPECTIVES v8.7**
+
+---
+
+**END QUERY_TEMPLATES.md v1.1** (added §4 DISSIDENT PERSPECTIVES)
