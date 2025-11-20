@@ -908,12 +908,27 @@ Contenus DSA-flaggés "risque" malgré sources officielles françaises.
 3. **Développement** par sections courtes (émojis parcimonie)
 4. **Conclusion mémorable**
 5. **Sources à la fin** (séparées visuellement par ligne ---)
+6. **Disclaimer court** (OBLIGATOIRE après sources, voir format ci-dessous)
 
 **Optimisations DSA appliquées :**
 - Vocabulaire neutre (divergence > mensonge, institutions > système)
 - Ironie stratégique (30% max, questions rhétoriques)
 - Sources institutionnelles en avant
 - Framing journalistique > militant
+
+**Format Disclaimer Court (à ajouter APRÈS sources) :**
+```
+---
+
+⚠️ Analyse citoyenne Truth Engine. Méthodologie, cadre juridique, risques : https://github.com/giak/critical-analysis-disclaimer
+
+Probabilités ≠ certitudes. Responsabilité éditoriale : auteur.
+```
+
+**Contraintes strictes disclaimer :**
+- Toujours APRÈS les sources (séparé par ligne ---)
+- Lien GitHub complet (pas de raccourcisseur)
+- 2 lignes max (concision mobile)
 
 ### ÉTAPE 2 : Tweet Court (Introduction)
 
@@ -985,6 +1000,12 @@ Sources :
 HCFP (avis PLF 2025, oct. 2024)
 Cour des comptes (rapport Sécu sept. 2024)
 HATVP (rapport activité 2024)
+
+---
+
+⚠️ Analyse citoyenne Truth Engine. Méthodologie, cadre juridique, risques : https://github.com/giak/critical-analysis-disclaimer
+
+Probabilités ≠ certitudes. Responsabilité éditoriale : auteur.
 ```
 
 **Tweet Court :**
@@ -1227,6 +1248,12 @@ Sources :
 HCFP (avis PLF 2025, oct. 2024)
 Cour des comptes (rapport Sécu sept. 2024)
 CEPREMAP (impact emploi)
+
+---
+
+⚠️ Analyse citoyenne Truth Engine. Méthodologie, cadre juridique, risques : https://github.com/giak/critical-analysis-disclaimer
+
+Probabilités ≠ certitudes. Responsabilité éditoriale : auteur.
 ```
 
 **T+5 min (9h35) - Monitoring :**
@@ -1296,8 +1323,8 @@ Les tweets générés via ce prompt sont des **analyses critiques citoyennes** u
 
 **Corrections erreurs factuelles :** PM Twitter pour signalement (préciser tweet URL, erreur, source contradictoire). Engagement correction publique si erreur avérée (thread correctif + RT tweet initial avec mention correction).
 
-**Disclaimer complet (950 mots) :** [DISCLAIMER_TWEET_LONG.md](DISCLAIMER_TWEET_LONG.md) — Cadre juridique, limitations méthodologiques, risques détaillés, procédures correction, philosophie Truth Engine.
+**Disclaimer complet (4500 mots) :** https://github.com/giak/critical-analysis-disclaimer/blob/main/DISCLAIMER.md — Cadre juridique complet, Charte de Munich, DSA/shadowban, anti-SLAPP, concentration médiatique, philosophie Truth Engine.
 
 **Contact :** PM Twitter [@handle_utilisateur]
 
-**Version disclaimer :** 1.0 (20 nov. 2025)
+**Version disclaimer :** 3.1 (20 nov. 2025)
