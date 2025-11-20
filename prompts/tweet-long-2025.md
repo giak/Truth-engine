@@ -1275,3 +1275,29 @@ Contenus flaggés "risque" malgré sources officielles françaises.
 **Principe fondamental :** Un tweet long n'est pas un rapport technique. C'est une frappe chirurgicale dans l'espace attentionnel. Chaque mot compte. Chaque chiffre frappe. Chaque métaphore éclaire. Et dans le contexte DSA 2025, chaque mot doit aussi contourner les algorithmes de modération.
 
 **Version 4.0 (nov. 2025)** : Intégration techniques avancées anti-shadowban (character substitution, visual bypass, engagement forcé, dénonciation tactique) basées sur recherches web 2025 + observations utilisateurs shadowbannés.
+
+---
+
+## ⚠️ DISCLAIMER
+
+Les tweets générés via ce prompt sont des **analyses critiques citoyennes** utilisant le framework Truth Engine (hostile epistemology, 95% suspicion baseline, dialectical analysis).
+
+**Ces contenus ne constituent pas :** journalisme professionnel certifié, accusations formelles juridiques, fact-checking institutionnel, ou conseils professionnels (juridiques, financiers, médicaux).
+
+**Limitations :** Probabilités (ex: 90%, <0,001%) = plausibilité élevée basée sur convergence patterns, **pas certitude absolue**. Éléments manquants pour trancher définitivement sont explicités dans investigations (Part 2 diagnostics).
+
+**Risques publication :**
+- **Shadowban algorithmique** : Reach réduit (<100 vues) possible sur contenus critiques UE/OTAN/gouvernance, malgré techniques mitigation DSA-safe v4.3 (pas garanties 100%)
+- **Suspension compte / attaques ciblées** : Suspension temporaire/permanente possible si violations TOS X détectées, brigading organisé (mass-report), ou contentieux juridique (diffamation si accusations non étayées)
+
+**Responsabilité :** L'utilisateur assume **entièrement** la responsabilité éditoriale des contenus publiés (décision publication, modifications apportées, gestion réactions). Truth Engine est un outil, l'utilisateur est l'éditeur final.
+
+**Vérifications recommandées avant publication :** Lire investigation complète (Part 1 + Part 2 + Part 3), vérifier sources citées accessibles, valider chiffres littéralement dans investigation source (règle anti-hallucination v4.3), évaluer risques, adapter formulations si nécessaire.
+
+**Corrections erreurs factuelles :** PM Twitter pour signalement (préciser tweet URL, erreur, source contradictoire). Engagement correction publique si erreur avérée (thread correctif + RT tweet initial avec mention correction).
+
+**Disclaimer complet (950 mots) :** [DISCLAIMER_TWEET_LONG.md](DISCLAIMER_TWEET_LONG.md) — Cadre juridique, limitations méthodologiques, risques détaillés, procédures correction, philosophie Truth Engine.
+
+**Contact :** PM Twitter [@handle_utilisateur]
+
+**Version disclaimer :** 1.0 (20 nov. 2025)
