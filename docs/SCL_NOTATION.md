@@ -24,6 +24,7 @@ EX{N}{SYM}:{TYPE} P{pub}/H{hid}{NETS} →{METH}→ {CALC} →{CLASS} "{LABEL}" |
 - `P{pub}/H{hid}` = Public positions count / Hidden networks count
 - `{NETS}` = Network breakdown {F+C+S+T+K} (Family+Cabinets+Schools+ThinkTanks+Klubs)
   - For MONEY: {shell+crypto+...} (financial channels)
+  - For TEMPORAL: E{events}W{days} S{sync}V{vocab}B{bono}H{hist}Z{suppress}
   - For other patterns: Pattern-specific networks
 - `{METH}` = Priority method (P0=Quick, P1=Full, P2=Networks, P3=Qualitative)
 - `{CALC}` = Calculation steps (variable=formula=result format)

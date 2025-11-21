@@ -1662,54 +1662,14 @@ Assessment: Suspicious timing, probable orchestration
 Note: Moderate Temporal_Factor but very low P_random suggests coordination
 ```
 
-#### Example 3: Coincidental Events (Low Temporal_Factor)
-```yaml
-Context: Unrelated policy announcements same week
-Events: 2 events (different sectors, different actors)
-Window: 7 days
-
-Temporal_Sync: 2 / 7 = 0.29
-Vocab_Uniform: 0.1 (narratives unrelated)
-Cui_Bono: 0.2 (different beneficiaries)
-Historical: 0.1 (no pattern match)
-Suppress: 0.0 (no suppression)
-
-Temporal_Factor:
-  = 0.29×0.30 + 0.1×0.25 + 0.2×0.20 + 0.1×0.15 + 0.0×0.10
-  = 0.087 + 0.025 + 0.04 + 0.015 + 0
-  = 0.167
-
-P_random:
-  = (1/2!) × (7/365)^2
-  = 0.5 × 0.000368
-  = 0.000184 = 0.018% (still low, but 2 events less suspicious)
-
-Classification: ⏰+ "Coincidental" (despite low P_random, Temporal_Factor very low)
-Note: Low Temporal_Factor indicates no coordination despite temporal proximity
+#### Example 3: Coincidental Events [SCL]
+```
+EX3⏰:Policy E2W7 S0.29V0.1B0.2H0.1Z0.0 →P1→ TF=0.29×0.30+0.1×0.25+0.2×0.20+0.1×0.15+0.0×0.10=0.167 Pr=(1/2!)×(7/365)^2=0.018% →⏰+ "Coincidental" |Note:LowTF_despite_proximity
 ```
 
-#### Example 4: Memory Hole Pattern (Suppress Component High)
-```yaml
-Context: Historical narrative revision + evidence disappearance
-Events: Timeline manipulation (not coincidences, but suppression focus)
-
-Temporal_Sync: 0.3 (events spread)
-Vocab_Uniform: 0.7 (narrative revised consistently)
-Cui_Bono: 0.75 (beneficiaries clear)
-Historical: 0.8 (matches historical revisionism patterns)
-Suppress: 0.95 (EXTREME - 95% counter-evidence disappeared)
-
-Temporal_Factor:
-  = 0.3×0.30 + 0.7×0.25 + 0.75×0.20 + 0.8×0.15 + 0.95×0.10
-  = 0.09 + 0.175 + 0.15 + 0.12 + 0.095
-  = 0.63
-
-P_random: Not applicable (memory hole pattern, not coincidence analysis)
-
-Classification: ⏰++ "Suspicious timing" (memory hole variant)
-Type: Memory hole (suppress=0.95 extreme)
-Impact: EXTREME (narrative control via evidence elimination)
-Note: High suppress component indicates active manipulation
+#### Example 4: Memory Hole Pattern [SCL]
+```
+EX4⏰:Revision S0.3V0.7B0.75H0.8Z0.95 →P1→ TF=0.3×0.30+0.7×0.25+0.75×0.20+0.8×0.15+0.95×0.10=0.63 Pr=N/A →⏰++ "Memory_hole" |Type:Suppress Impact:EXTREME Note:Z0.95_active_manipulation
 ```
 
 **Pattern lessons:**
