@@ -973,64 +973,141 @@ I3_SYNTHESIS:
 - ContradictionCoverage: adversary/≋ present and processed
 - EDI*: 0.5×EDI + 0.3×Coverage + 0.2×Independence (optional Part 2 output)
 
-### 11.1 Six-Dimension EDI Calculation
+### 11.1 Six-Dimension Breakdown
 
 **CRITICAL**: Replace vague "EDI:≥0.50" with EXACT calculated score "EDI:0.68".
 
-```yaml
-# EDI CALCULATION (6 Dimensions) - Compact DSL Notation
+```python
+# ═══════════════════════════════════════════════════════════════
+# EDI CALCULATION TEMPLATE - Copy and fill values
+# ═══════════════════════════════════════════════════════════════
 
-# D1: GEOGRAPHIC (weight 0.25)
-continents: [  ]  # NA, EU, AS, AF, SA, OC (max 6)
-zones: [  ]  # Specific regions (max 10)
-local_present: false  # ≥1 source from affected region
-geo_diversity = (len(continents)/6 × 0.4) + (min(len(zones)/10,1.0) × 0.3) + (local × 0.3)
+# ─────────────────────────────────────────────────────────────
+# DIMENSION 1: GEOGRAPHIC DIVERSITY (Weight: 0.25)
+# ─────────────────────────────────────────────────────────────
+continents_represented = [  ]  # List: NA, EU, AS, AF, SA, OC (max 6)
+continents_count = len(continents_represented)
+continents_score = continents_count / 6  # 0.0-1.0
 
-# D2: LINGUISTIC (weight 0.20)
-languages: [  ]  # EN, FR, ES, AR, RU, ZH, etc. (max 10)
-non_english_count: 0  # Sources NOT in English
-total_sources: 0
-linguistic_families: [  ]  # Indo-European, Afro-Asiatic, Sino-Tibetan, etc. (max 5)
-lang_diversity = (min(len(langs)/10,1.0) × 0.3) + (non_EN_count/total × 0.4) + (min(len(families)/5,1.0) × 0.3)
+zones_represented = [  ]  # Specific regions (max 10 reasonable)
+zones_count = len(zones_represented)
+zones_score = min(zones_count / 10, 1.0)  # Cap at 1.0
 
-# D3: STRATIFICATION (weight 0.20)
-primary_count: 0    # ◈
-secondary_count: 0  # ◉
-tertiary_count: 0   # ○
-strat_diversity = (◈_pct × 0.5) + (◉_pct × 0.3) + (○_pct × 0.2)
+local_sources_present = False  # True if ≥1 source from affected country/region
+local_presence = 1.0 if local_sources_present else 0.0
 
-# D4: OWNERSHIP (weight 0.15)
-ownership_types: [  ]  # state, corporate, independent, academic, activist, personal (max 6)
-non_corporate_count: 0  # state, independent, academic, activist, personal
-ownership_diversity = (len(types)/6 × 0.6) + (non_corp_count/total × 0.4)
+geo_diversity = (continents_score * 0.4 +
+                 zones_score * 0.3 +
+                 local_presence * 0.3)
 
-# D5: PERSPECTIVE (weight 0.15)
-perspectives: [  ]  # ⟐, ⟐̅, 🌍, 🎓, 🔥 (max 7)
-official_count: 0   # ⟐
-counter_count: 0    # ⟐̅ + 🔥
-dissident_present: false  # 🔥 exists
-balance = 1.0 - abs(official_count - counter_count) / total
-perspective_diversity = (len(perspectives)/7 × 0.5) + (balance × 0.3) + (dissident × 0.2)
+# ─────────────────────────────────────────────────────────────
+# DIMENSION 2: LINGUISTIC DIVERSITY (Weight: 0.20)
+# ─────────────────────────────────────────────────────────────
+languages_list = [  ]  # List: EN, FR, ES, AR, RU, ZH, etc.
+languages_count = len(languages_list)
+languages_score = min(languages_count / 10, 1.0)
 
-# D6: TEMPORAL (weight 0.05)
-temporalities: [  ]  # real_time, recent(<1w), medium(<1m), archival(>1y), historical (max 5)
-archival_present: false  # ≥1 source >1 year old
-temporal_diversity = (len(temporalities)/5 × 0.6) + (archival × 0.4)
+sources_non_english_count = 0  # Count sources NOT in English
+sources_total = 0  # Total sources
+non_english_pct = sources_non_english_count / sources_total if sources_total > 0 else 0
 
-# FINAL EDI
-EDI = (geo_diversity × 0.25) + (lang_diversity × 0.20) + (strat_diversity × 0.20) +
-      (ownership_diversity × 0.15) + (perspective_diversity × 0.15) + (temporal_diversity × 0.05)
+linguistic_families = [  ]  # Indo-European, Afro-Asiatic, Sino-Tibetan, etc.
+families_count = len(linguistic_families)
+families_score = min(families_count / 5, 1.0)
 
+lang_diversity = (languages_score * 0.3 +
+                  non_english_pct * 0.4 +
+                  families_score * 0.3)
+
+# ─────────────────────────────────────────────────────────────
+# DIMENSION 3: STRATIFICATION DIVERSITY (Weight: 0.20)
+# ─────────────────────────────────────────────────────────────
+primary_sources_count = 0    # ◈ count
+secondary_sources_count = 0  # ◉ count
+tertiary_sources_count = 0   # ○ count
+
+total_sources = primary_sources_count + secondary_sources_count + tertiary_sources_count
+primary_pct = primary_sources_count / total_sources if total_sources > 0 else 0
+secondary_pct = secondary_sources_count / total_sources if total_sources > 0 else 0
+tertiary_pct = tertiary_sources_count / total_sources if total_sources > 0 else 0
+
+strat_diversity = (primary_pct * 0.5 +
+                   secondary_pct * 0.3 +
+                   tertiary_pct * 0.2)
+
+# ─────────────────────────────────────────────────────────────
+# DIMENSION 4: OWNERSHIP DIVERSITY (Weight: 0.15)
+# ─────────────────────────────────────────────────────────────
+ownership_types = [  ]  # List: state, corporate, independent, academic, activist, personal
+ownership_types_count = len(ownership_types)
+types_score = min(ownership_types_count / 6, 1.0)
+
+non_corporate_sources = 0  # Count: state, independent, academic, activist, personal
+non_corporate_pct = non_corporate_sources / total_sources if total_sources > 0 else 0
+
+ownership_diversity = types_score * 0.6 + non_corporate_pct * 0.4
+
+# ─────────────────────────────────────────────────────────────
+# DIMENSION 5: PERSPECTIVE DIVERSITY (Weight: 0.15)
+# ─────────────────────────────────────────────────────────────
+perspectives_present = [  ]  # ⟐, ⟐̅, 🌍, 🎓, 🔥, etc. (check which present)
+perspectives_count = len(perspectives_present)
+perspectives_score = min(perspectives_count / 7, 1.0)  # 7 max reasonable
+
+official_narrative_sources = 0   # ⟐ count
+counter_narrative_sources = 0    # ⟐̅ + 🔥 count
+balance = 1.0 - abs(official_narrative_sources - counter_narrative_sources) / total_sources if total_sources > 0 else 0
+
+dissident_present = False  # True if 🔥 dissident voice exists
+dissident_score = 1.0 if dissident_present else 0.0
+
+perspective_diversity = (perspectives_score * 0.5 +
+                         balance * 0.3 +
+                         dissident_score * 0.2)
+
+# ─────────────────────────────────────────────────────────────
+# DIMENSION 6: TEMPORAL DIVERSITY (Weight: 0.05)
+# ─────────────────────────────────────────────────────────────
+temporalities = [  ]  # List: real_time, recent(<1week), medium(<1month), archival(>1year), historical
+temporalities_count = len(temporalities)
+temporalities_score = min(temporalities_count / 5, 1.0)
+
+archival_sources_present = False  # True if ≥1 source >1 year old (historical depth)
+archival_presence = 1.0 if archival_sources_present else 0.0
+
+temporal_diversity = temporalities_score * 0.6 + archival_presence * 0.4
+
+# ═══════════════════════════════════════════════════════════════
+# FINAL EDI CALCULATION
+# ═══════════════════════════════════════════════════════════════
+EDI = (
+    geo_diversity * 0.25 +
+    lang_diversity * 0.20 +
+    strat_diversity * 0.20 +
+    ownership_diversity * 0.15 +
+    perspective_diversity * 0.15 +
+    temporal_diversity * 0.05
+)
+
+EDI_rounded = round(EDI, 2)
+
+# ═══════════════════════════════════════════════════════════════
 # CLASSIFICATION
-EDI ≥ 0.65: EXCELLENT
-EDI ≥ 0.50: GOOD
-EDI ≥ 0.35: ACCEPTABLE
-EDI < 0.35: EPISTEMIC_MONOCULTURE
+# ═══════════════════════════════════════════════════════════════
+if EDI >= 0.65:
+    classification = "EXCELLENT"
+elif EDI >= 0.50:
+    classification = "GOOD"
+elif EDI >= 0.35:
+    classification = "ACCEPTABLE"
+else:
+    classification = "EPISTEMIC_MONOCULTURE"
 
-# OUTPUT: EDI:{round(EDI, 2)}
+# ═══════════════════════════════════════════════════════════════
+# OUTPUT FOR [SOURCES] LINE
+# ═══════════════════════════════════════════════════════════════
+# EDI:{EDI_rounded}
 ```
-
-**Expanded Template (if needed for complex calculations):** See backup kb/SEARCH_EPISTEMIC.md.backup_YYYYMMDD L976-1110 for detailed Python template with comments.
 
 ### 11.2 Example Calculation (Loiseau Test Case)
 
