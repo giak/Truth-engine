@@ -1,8 +1,39 @@
 # Prompt : Tweet Long Format 2025 (Truth Engine)
 
-**Version :** 4.3
-**Date :** 2025-11-18
+**Version :** 4.7
+**Date :** 2025-11-21
 **Usage :** Transformation investigation Truth Engine → Tweet long format X/Twitter (compte premium) + Tweet court introduction + Techniques avancées anti-shadowban
+
+**Changelog v4.7 (INTERDICTIONS ABSOLUES JARGON TECHNIQUE) :**
+- ✅ **INTERDICTIONS ABSOLUES** : Section dédiée listant EXPLICITEMENT tout ce qui ne doit JAMAIS apparaître dans tweet final citoyen
+- ✅ **TRADUCTION OBLIGATOIRE DSL** : Symboles DSL (Λ ⚔ Κ € Ω Ξ Ψ Φ) → langage naturel systématique avec table traduction
+- ✅ **CHECKLIST PRÉ-PUBLICATION RENFORCÉE** : 7 vérifications obligatoires avant génération finale (upgrade checklist v4.6)
+- ✅ **DISCLAIMER POSITIONING** : Règle cristal clear (TOUJOURS après sources, format exact, JAMAIS oublier)
+- ✅ **EXEMPLES ANTI-PATTERNS** : 4 anti-patterns documentés (metadata technique, DSL non traduits, sources avec symboles ◈◉○, disclaimer absent)
+- ⚠️ **MOTIVATION** : Correction post-erreur investigation Loiseau/Mirage (jargon EDI/ISN/patterns DSL conservés alors que cahier des charges = "citoyens, pas experts")
+
+**Changelog v4.6 (FACT-CHECKING & ACRONYMES INLINE) :**
+- ✅ FACT-CHECKING SYSTÉMATIQUE obligatoire : Web research, 80+ sources, vérification gouvernement/dates/chiffres/procédures légales
+- ✅ ACRONYMES INLINE : Définir à première utilisation, PAS de glossaire séparé (économie 800-1000 chars, meilleure lisibilité)
+- ✅ Zéro tolérance erreur : Même erreurs mineures protocole doivent être corrigées (titres officiels, dates mandats)
+- ✅ Patterns erreur documentés : Officials gouvernement, procédures légales (ouverte vs effective), sanctions financières (préparation vs décidée)
+- ⚠️ SUPPRESSION : Glossaire séparé obligatoire (remplacé par définitions inline première occurrence)
+
+**Changelog v4.5 (NARRATION INVESTIGATIVE) :**
+- ✅ NARRATION INVESTIGATIVE : Section complète "on raconte, on n'énumère pas" (120+ lignes)
+- ✅ 6 techniques narratives obligatoires : présent immersif, interpellation directe, progression révélations, rythme varié, transitions fluides, questions rhétoriques
+- ✅ Anti-patterns documentés avec exemples avant/après (format rapport vs narration)
+- ✅ Validation narrative : 7 critères checklist (dates, présent, interpellations, rythme, transitions, énumération, questions)
+- ✅ Principe "enquête progressive" : lecteur suit enquêteur découvrant anomalies (pas rapport technique distant)
+
+**Changelog v4.4 (STRUCTURE INVESTIGATIVE) :**
+- ✅ STRUCTURE TWEET LONG INVESTIGATIF : Format sections I-X numérotées (lisibilité profondeur)
+- ✅ Séparateurs visuels clairs (────) entre sections majeures
+- ✅ Hook brutal obligatoire première ligne (contradiction violente, pas titre descriptif)
+- ✅ Contrainte technique 25000 caractères max (limite X/Twitter tweets longs)
+- ✅ Exigences citoyennes section dédiée (5 points concrets, actionnables)
+- ✅ Acronymes définis première occurrence inline (méthode descriptif + parenthèses)
+- ✅ Progression logique documentée (chronologie → preuves → acteurs → patterns → exigences → verdict)
 
 **Changelog v4.3 (CRITIQUE) :**
 - ✅ RÈGLE ANTI-HALLUCINATION obligatoire (§5) : Interdit invention montants €, confusion charges/bénéfices, calculs dérivés non documentés
@@ -248,6 +279,489 @@ Métaphores percutantes ("théâtre d'ombres", "pompier sans lance"), verbes qui
 ❌ Références processus recherche ("65 recherches", "3 mois")
 ❌ Jargon interne (tout ça = pollution pour le lecteur citoyen)
 
+### ⛔ INTERDICTIONS ABSOLUES — TWEET CITOYEN (v4.7)
+
+**PRINCIPE GÉNÉRAL :** "On s'adresse à des personnes lambdas" - citoyens normaux, pas experts Truth Engine.
+
+**Le tweet doit être postable immédiatement, ZÉRO scaffolding technique visible.**
+
+#### Contexte de cette section (NOUVEAU v4.7)
+
+**Problème identifié (21 nov 2025, investigation Loiseau/Mirage) :**
+Tweet généré contenait jargon technique Truth Engine alors que cahier des charges = "citoyens, pas experts". Erreurs commises :
+- Métriques techniques conservées (EDI, ISN, "Investigation Truth Engine v8.3 I1 AUTO")
+- Symboles DSL non traduits ("Λ FRAMING (8/10)", "⚔ WAR (7/10)")
+- Disclaimer oublié
+
+**Cette section liste EXPLICITEMENT tout ce qui ne doit JAMAIS apparaître dans le tweet final.**
+
+#### INTERDICTION 1 : Métriques techniques Truth Engine
+
+**❌ JAMAIS écrire dans tweet final citoyen :**
+
+```
+❌ Investigation : Truth Engine v8.3 I1 AUTO
+❌ Méthodologie : EDI 0.58/1.0 (48 sources, 7 primaires), ISN 8.90/10, Confiance 87%
+❌ EDI : 0.58/1.0 (target 0.70, gap -17%)
+❌ ISN : 8.90/10
+❌ IVF : 1.85
+❌ IVS : 0.68
+❌ Conf : 87%
+❌ Complexity : 8.5/10 COMPLEX
+```
+
+**✅ À LA PLACE, écrire pour CITOYENS :**
+
+```
+✅ 48 sources analysées (26 initiales + 22 complémentaires itération approfondissement)
+✅ Diversité géographique : France (19 sources), UE (10), Russie (3), Ukraine (1), Chine (2), USA (3)
+✅ Stratification : Officielles primaires 7 (15%) | Investigation/recherche 25 (52%) | Médias internationaux 16 (33%)
+```
+
+**RÈGLE :** Citoyens comprennent "48 sources analysées". Citoyens NE comprennent PAS "EDI 0.58/1.0".
+
+#### INTERDICTION 2 : Symboles DSL (Λ ⚔ Κ € Ω Ξ Ψ Φ 🌐 ⏰)
+
+**❌ JAMAIS écrire symboles DSL bruts :**
+
+```
+❌ VII — PATTERNS DÉTECTÉS (5)
+❌ Λ FRAMING (8/10)
+❌ ⚔ WAR (7/10)
+❌ Κ CYNICISM (6/10)
+❌ € MONEY (8/10)
+❌ Ω GASLIGHTING (5/10)
+❌ Ξ ICEBERG (3/10)
+❌ Ψ SIDÉRATION (4/10)
+❌ Φ SPECTACLE (3/10)
+❌ 🌐 NETWORK (8/10)
+❌ ⏰ TEMPORAL (5/10)
+```
+
+**✅ TRADUCTION OBLIGATOIRE → Langage naturel citoyen :**
+
+```
+✅ VII — TECHNIQUES MANIPULATION DÉTECTÉES
+
+✅ 1. CADRAGE POLITIQUE (McCarthysme 2.0)
+   [Explication citoyenne : Dichotomie imposée, label disqualifiant, occultation cui bono]
+
+✅ 2. ESCALADE GRADUELLE (Guerre par étapes)
+   [Explication : Coordination temporelle, escalade matérielle documentée]
+
+✅ 3. CYNISME PUBLIC (Mensonge mutuel connu)
+   [Explication : Personne ne croit le label, façade maintenue]
+
+✅ 4. CONCENTRATION FINANCIÈRE (Qui empoche)
+   [Explication : Cui bono massif documenté, lobbying intensifié]
+
+✅ 5. GASLIGHTING JURIDIQUE (Nier l'évidence)
+   [Explication : Contradiction promesses/actes, déni réalité matérielle]
+```
+
+**RÈGLE :**
+- Pattern NAME traduit en **FRANÇAIS EXPLICITE** (pas symbole grec)
+- Score (X/10) SUPPRIMÉ (citoyens s'en foutent du score, veulent comprendre QUOI)
+- Explication **CONCRÈTE** de la technique (pas méta-théorie)
+
+**Table traduction obligatoire :**
+```yaml
+Λ FRAMING → CADRAGE POLITIQUE ou MANIPULATION CADRAGE
+⚔ WAR → ESCALADE GRADUELLE ou LOGIQUE GUERRE
+Κ CYNICISM → CYNISME PUBLIC ou MENSONGE MUTUEL
+€ MONEY → CONCENTRATION FINANCIÈRE ou QUI EMPOCHE
+Ω GASLIGHTING → GASLIGHTING JURIDIQUE ou NIER L'ÉVIDENCE
+Ξ ICEBERG → ICEBERG STATISTIQUE ou MANIPULATION CHIFFRES
+Ψ SIDÉRATION → SURCHARGE COGNITIVE ou SATURATION INFO
+Φ SPECTACLE → DISTRACTION ORGANISÉE ou SPECTACLE POLITIQUE
+🌐 NETWORK → RÉSEAUX INFLUENCE ou CAPTURE SYSTÉMIQUE
+⏰ TEMPORAL → TIMING SUSPECT ou COORDINATION TEMPORELLE
+```
+
+#### INTERDICTION 3 : Terminologie interne investigation
+
+**❌ JAMAIS utiliser :**
+
+```
+❌ I0, I1, I2 (itérations investigation)
+❌ I1 AUTO
+❌ APEX, ICEBERG MAX (niveaux investigation)
+❌ L0-L9 (cascade depth levels)
+❌ WOLF MODE
+❌ H7 adversary
+❌ ◈◉○ stratification (utiliser noms complets : Officielles primaires, Investigation, Médias)
+❌ PRIMARY, SECONDARY, TERTIARY (écrire en français : primaires, investigation, médias)
+❌ Gap-closing
+❌ Hermeneutic-driven planning
+❌ Dialectical analysis
+❌ Cui bono (OK utiliser MAIS traduire première occurrence : "Qui profite ? (cui bono en latin)")
+```
+
+**✅ À LA PLACE :**
+
+```
+✅ 48 sources analysées (26 initiales + 22 complémentaires itération approfondissement)
+✅ Investigation approfondie
+✅ Sources officielles, journalisme investigation, médias internationaux
+✅ Perspectives russes et chinoises documentées
+✅ Qui profite ? (cui bono)
+```
+
+#### INTERDICTION 4 : Metadata technique début tweet
+
+**❌ JAMAIS commencer par metadata technique :**
+
+```
+❌ **Date :** 21 novembre 2025, 09:29
+❌ **Investigation :** Truth Engine v8.3 I1 AUTO
+❌ **Méthodologie :** EDI 0.58/1.0 (48 sources, 7 primaires), ISN 8.90/10, Confiance 87%
+❌ **Gap assumé :** -17% vs cible EDI 0.70
+```
+
+**✅ À LA PLACE, commencer DIRECTEMENT par HOOK BRUTAL :**
+
+```
+✅ ⚠️ Nathalie Loiseau, 21 novembre 2025 : « Quand les pro-Poutine français auront-ils des comptes à rendre ? »
+Le même jour : Thales empoche 121 millions € de subventions européennes défense depuis 2021.
+Dassault : +500 millions € de valorisation boursière après l'annonce du contrat 100 Rafale Ukraine.
+48 sources analysées. 740 entreprises défense en lobbying.
+La coïncidence n'existe pas.
+```
+
+**RÈGLE :** Hook = FAITS PERCUTANTS pour citoyens. Pas metadata pour chercheurs.
+
+#### INTERDICTION 5 : Disclaimer absent ou mal placé
+
+**❌ JAMAIS oublier disclaimer :**
+- Tweet sans disclaimer = INACCEPTABLE
+- Disclaimer mal placé (début tweet, milieu) = MAUVAIS
+
+**✅ DISCLAIMER OBLIGATOIRE (format v4.7) :**
+
+```
+[... sections tweet ...]
+
+────────────────────────────────────────────────
+
+## 📊 SOURCES
+
+[... liste sources ...]
+
+**Diversité géographique :** [...]
+**Stratification :** [...]
+
+----
+
+⚠️ Analyse citoyenne Truth Engine. Méthodologie, cadre juridique, risques : https://github.com/giak/critical-analysis-disclaimer
+
+Probabilités ≠ certitudes. Responsabilité éditoriale : auteur.
+```
+
+**RÈGLE POSITIONNEMENT :**
+1. TOUJOURS après section SOURCES (jamais avant)
+2. Séparé par ligne `----` (4 tirets, pas ────)
+3. 2 lignes exactement (pas plus, concision mobile)
+4. Lien GitHub complet (pas raccourcisseur)
+
+#### INTERDICTION 6 : Score/rating patterns sans explication
+
+**❌ JAMAIS donner score sans EXPLIQUER QUOI :**
+
+```
+❌ Λ FRAMING (8/10) - CONFIRMED ✓
+   [Sans explication ce que ça veut dire concrètement]
+```
+
+**✅ À LA PLACE :**
+
+```
+✅ 1. CADRAGE POLITIQUE (McCarthysme 2.0)
+
+Dichotomie imposée : « soutenir Ukraine = devoir moral » vs « critiquer = être pro-Poutine ». Le label disqualifie toute opposition plurielle (pacifistes, souverainistes, anti-OTAN). Occulte la vraie question : **Qui profite ?** (Thales 121M€, Dassault +500M€, CIDEF 740 entreprises lobbying +40%).
+```
+
+**RÈGLE :** Citoyen veut comprendre COMMENT il est manipulé, pas un score abstrait.
+
+---
+
+### EXEMPLES ANTI-PATTERNS (CE QUE J'AI FAIT DE MAL - v4.7)
+
+**Contexte :** Investigation Loiseau/Mirage (21 nov 2025), documenter erreurs concrètes pour éviter répétition.
+
+#### Anti-pattern 1 : Metadata technique conservée
+
+**❌ CE QUE J'AI FAIT DE MAL :**
+
+```markdown
+# Tweet Long Investigation — Loiseau, Mirage & "Pro-Poutine"
+
+⚠️ [Hook...]
+
+**Date :** 21 novembre 2025, 09:29
+**Investigation :** Truth Engine v8.3 I1 AUTO
+**Méthodologie :** EDI 0.58/1.0 (48 sources, 7 primaires), ISN 8.90/10, Confiance 87%
+
+────────────────────────────────────────────────
+```
+
+**✅ CE QU'IL FALLAIT FAIRE :**
+
+```markdown
+# Loiseau, Mirage & "Pro-Poutine" : Qui profite vraiment ?
+
+⚠️ Nathalie Loiseau, 21 novembre 2025 : « Quand les pro-Poutine français auront-ils des comptes à rendre ? »
+Le même jour : Thales empoche 121 millions € de subventions européennes défense depuis 2021.
+Dassault : +500 millions € de valorisation boursière après l'annonce du contrat 100 Rafale Ukraine.
+48 sources analysées. 740 entreprises défense en lobbying.
+La coïncidence n'existe pas.
+
+────────────────────────────────────────────────
+```
+
+#### Anti-pattern 2 : Symboles DSL non traduits
+
+**❌ CE QUE J'AI FAIT DE MAL :**
+
+```markdown
+## VII — PATTERNS DÉTECTÉS (5)
+
+**Λ FRAMING (score 8/10) - CONFIRMED ✓**
+**⚔ WAR (score 7/10) - CONFIRMED ✓**
+**Κ CYNICISM (score 6/10) - CONFIRMED ✓**
+**€ MONEY (score 8/10 - UPGRADED I1) - CONFIRMED ✓✓**
+**Ω GASLIGHTING (score 5/10) - CONFIRMED ✓**
+```
+
+**✅ CE QU'IL FALLAIT FAIRE :**
+
+```markdown
+## VII — TECHNIQUES MANIPULATION DÉTECTÉES
+
+**1. CADRAGE POLITIQUE (McCarthysme 2.0)**
+
+Dichotomie imposée : « soutenir Ukraine = devoir moral » vs « critiquer = être pro-Poutine ». Le label disqualifie toute opposition plurielle (pacifistes, souverainistes, anti-OTAN). Occulte la vraie question : **Qui profite ?** (Thales 121M€, Dassault +500M€, CIDEF 740 entreprises lobbying +40%).
+
+**2. ESCALADE GRADUELLE (Guerre par étapes)**
+
+Armes défensives (2022) → armes offensives SCALP (2023) → levée restrictions frappes Russie (mai 2024) → 100 Rafale (nov 2025). Coordination France-UK-UE documentée. Moscou : « acte belligérance ». Précédents Vietnam/Syrie/Yémen : responsabilité partagée États sponsors même sans déclaration formelle.
+
+**3. CYNISME PUBLIC (Mensonge mutuel connu)**
+
+Personne ne croit littéralement que Mélenchon ou Le Pen « travaillent pour Poutine ». Loiseau sait que l'opposition n'est pas composée d'agents du Kremlin. L'opposition sait que Loiseau sait. MAIS la façade est maintenue pour disqualification politique. Cynisme : électeurs conscients manipulation, système continue.
+
+[...]
+```
+
+#### Anti-pattern 3 : Sources avec symboles ◈◉○
+
+**❌ CE QUE J'AI FAIT DE MAL :**
+
+```markdown
+**◈ PRIMARY (7, 14.6%)** : Élysée, AN, IRSEM, TASS, Xinhua, FRS, Commission UE
+**◉ SECONDARY (25)** : France24, Mediapart, IRIS, Lawfare [...]
+**○ TERTIARY (16)** : RT, Euractiv, Kyiv Independent [...]
+
+**EDI :** 0.58/1.0 (target 0.70, gap -17%)
+**ISN :** 8.90/10
+**Confidence :** 87%
+```
+
+**✅ CE QU'IL FALLAIT FAIRE :**
+
+```markdown
+### ──────── SOURCES OFFICIELLES PRIMAIRES ────────
+
+1. **Élysée** (annonces présidentielles Mirage/Rafale Ukraine)
+2. **Assemblée nationale** (rapports parlementaires, débats Ukraine, votes LFI/RN)
+3. **IRSEM** (Institut Recherche Stratégique École Militaire, analyse cobelligérance)
+[...]
+
+### ──────── JOURNALISME INVESTIGATION & RECHERCHE ────────
+
+8. **France24, Mediapart, Le Monde diplomatique** (positions Mélenchon/Le Pen, livraisons Mirage)
+[...]
+
+### ──────── MÉDIAS INTERNATIONAUX & INDUSTRY ────────
+
+19. **RT France, TASS** (perspective russe officielle)
+[...]
+
+**Diversité géographique :** France (19 sources), UE (10), Russie (3), Ukraine (1), Chine (2), USA (3)
+**Stratification :** Officielles primaires 7 (15%) | Investigation/recherche 25 (52%) | Médias internationaux 16 (33%)
+```
+
+#### Anti-pattern 4 : Disclaimer oublié
+
+**❌ CE QUE J'AI FAIT DE MAL :**
+
+```markdown
+[... tweet complet ...]
+
+## 📊 SOURCES
+
+[...]
+
+*Investigation Truth Engine v8.3 I1 AUTO. Sources vérifiées. Chiffres exacts. Gaps documentés.*
+```
+
+**✅ CE QU'IL FALLAIT FAIRE :**
+
+```markdown
+[... tweet complet ...]
+
+## 📊 SOURCES
+
+[...]
+
+**Diversité géographique :** [...]
+**Stratification :** [...]
+
+----
+
+⚠️ Analyse citoyenne Truth Engine. Méthodologie, cadre juridique, risques : https://github.com/giak/critical-analysis-disclaimer
+
+Probabilités ≠ certitudes. Responsabilité éditoriale : auteur.
+```
+
+---
+
+#### ✅ TRADUCTIONS OBLIGATOIRES (jargon → langue citoyenne)
+
+**Concepts Truth Engine → Français courant :**
+
+| Jargon Truth Engine | Traduction citoyenne |
+|-------------------|---------------------|
+| "15 wolves identifiés (cui bono 3 niveaux)" | "**QUI PROFITE ?** 15 acteurs identifiés" ou "15 bénéficiaires" |
+| "5 anguilles majeures" | "**5 ZONES D'OMBRE**" ou "5 éléments non confirmés" |
+| "5 gaps incompressibles" | "**CE QU'ON NE PEUT PAS SAVOIR**" ou "5 informations inaccessibles" |
+| "Modèle Hybride v2.0 (70% probabilité)" | "**Scénario le plus probable** (70%)" ou "**Hypothèse principale**" |
+| "P<0,001% (modèle bayésien)" | "Probabilité <0,001% (statistiquement impossible)" ou "quasi nulle" |
+| "APEX investigation complexity 9/10" | [SUPPRIMER - invisible au lecteur] |
+| "ICEBERG MAX protocol" | [SUPPRIMER - invisible au lecteur] |
+| "EDI 0.82, ISN 9.4/10" | [SUPPRIMER - metrics internes] |
+| "28 patterns convergents organisés 10 clusters" | "28 signaux convergents" (OK mentionner nombre, PAS clusters techniques) |
+| "CASCADE investigation L0-L9" | [SUPPRIMER - processus interne] |
+| "Honnêteté épistémique 30% incertitude assumée" | "**30% incertitude assumée**" (OK concept, PAS label "honnêteté épistémique") |
+
+**Exemples concrets :**
+
+❌ **AVANT (jargon visible) :**
+```markdown
+## V - 15 WOLVES IDENTIFIÉS (CUI BONO — 3 NIVEAUX)
+
+**Investigation :** Truth Engine v8.4, APEX + ICEBERG MAX
+**Méthodologie :** EDI 0.82, ISN 9.4/10
+
+**Calcul probabilité conjointe** (modèle bayésien) :
+P(parquet extension | incident) × P(LDH plainte | incident)
+× P(SOS Racisme plainte | incident) × P(3 ministres | incident)
+
+Hypothèse optimiste chaque acteur 10% chance agir jour J :
+0,10 × 0,10 × 0,10 × 0,10 = 0,0001 = 0,01%
+```
+
+✅ **APRÈS (langue citoyenne) :**
+```markdown
+## V - QUI PROFITE ? (15 ACTEURS IDENTIFIÉS)
+
+**Timing statistiquement impossible :** 4 acteurs institutionnels (Parquet + 2 ONG + 3 ministres) mobilisés le même jour, alors que préparation plainte/communiqué nécessite 48-72h minimum.
+
+**Probabilité synchronisation indépendante : <0,001%** (quasi nulle).
+```
+
+**Différences :**
+- ❌ "WOLVES" → ✅ "QUI PROFITE ?"
+- ❌ Bloc metadata (Investigation, Méthodologie) → ✅ SUPPRIMÉ
+- ❌ Calcul développé ligne par ligne → ✅ RÉSULTAT uniquement
+- ❌ "modèle bayésien" → ✅ "statistiquement impossible (quasi nulle)"
+
+#### Exceptions (quand jargon PEUT rester)
+
+**Jargon technique acceptable SI :**
+1. **Défini inline immédiatement**
+   - ✅ "DSA (règlement européen services numériques)"
+   - ✅ "Article 40 (obligation magistrats/fonctionnaires signaler crimes)"
+
+2. **Essentiel à compréhension citoyenne**
+   - ✅ "P<0,001%" (résultat compréhensible, pas formule développée)
+   - ✅ "28 patterns convergents" (nombre = concret, "patterns" OK si contextualisé)
+
+3. **Acronymes définis inline première occurrence** (v4.6 - PAS de glossaire séparé)
+   - ✅ "Ligue des droits de l'Homme (LDH)" → occurrences suivantes : LDH seul
+   - ✅ "RGPD (Règlement général sur la protection des données)" → occurrences suivantes : RGPD
+   - ❌ Section GLOSSAIRE séparée en fin de tweet (redondant, -800-1000 chars)
+   - ❌ JAMAIS metrics Truth Engine (EDI, ISN, IVF) visibles
+
+---
+
+### ✅ CHECKLIST PRÉ-PUBLICATION OBLIGATOIRE (v4.7)
+
+**Avant de générer le fichier final, vérifier SYSTÉMATIQUEMENT :**
+
+#### 1. ⛔ ZÉRO jargon technique Truth Engine
+
+```
+Scan mental fichier généré :
+□ Aucun "EDI", "ISN", "IVF", "IVS", "Conf" ?
+□ Aucun "I0", "I1", "I2", "APEX", "ICEBERG MAX", "L0-L9", "WOLF MODE" ?
+□ Aucun "Investigation Truth Engine vX.X" ?
+□ Aucun "Complexity X/10" ?
+```
+
+**Si UN SEUL de ces termes présent → REFAIRE le tweet.**
+
+#### 2. 🔤 Symboles DSL TOUS traduits
+
+```
+Scan patterns section :
+□ Aucun symbole grec brut (Λ ⚔ Κ € Ω Ξ Ψ Φ) ?
+□ Tous patterns ont NOM FRANÇAIS EXPLICITE ?
+□ Aucun score (X/10) sans explication concrète ?
+```
+
+**Si UN SEUL symbole DSL brut → REFAIRE traduction.**
+
+#### 3. 📢 Hook citoyen percutant
+
+```
+□ Première ligne = FAIT CHOC (chiffre, date, contradiction) ?
+□ ZÉRO metadata technique ("Investigation Truth Engine...") ?
+□ Citoyen lambda comprend immédiatement l'enjeu ?
+```
+
+#### 4. ⚠️ Disclaimer présent et bien placé
+
+```
+□ Disclaimer APRÈS sources ?
+□ Séparé par ligne ---- (4 tirets) ?
+□ Lien GitHub complet https://github.com/giak/critical-analysis-disclaimer ?
+□ 2 lignes exactement ?
+```
+
+#### 5. 🎯 Langage citoyen partout
+
+```
+□ Zéro acronyme non traduit première occurrence ?
+□ Concepts expliqués simplement (pas jargon académique) ?
+□ Chiffres concrets > adjectifs vagues ?
+```
+
+#### 6. 📏 Longueur Twitter respectée
+
+```
+□ Caractères ≤ 25000 (limite X/Twitter premium) ?
+```
+
+#### 7. 📚 Sources citoyennes lisibles
+
+```
+□ Sources groupées par catégories (Officielles, Investigation, Médias) ?
+□ Pas de symboles ◈◉○ bruts (utiliser noms français) ?
+□ Diversité géographique indiquée en français clair ?
+```
+
+**SI UN SEUL point échoue → REFAIRE le tweet avant sauvegarde.**
+
 ### STYLE ÉCRITURE 2025
 
 → Phrases courtes (15 mots max idéalement)
@@ -256,6 +770,827 @@ Métaphores percutantes ("théâtre d'ombres", "pompier sans lance"), verbes qui
 → Citations entre « guillemets français »
 → Rythme varié : alternance phrases courtes/longues
 → Formules percutantes à retenir
+
+### NARRATION INVESTIGATIVE (NOUVEAU v4.5)
+
+**PRINCIPE FONDAMENTAL : ON RACONTE, ON N'ÉNUMÈRE PAS**
+
+Le tweet n'est PAS un rapport technique. C'est une **enquête narrative** où le lecteur suit l'enquêteur découvrant anomalies et révélations progressivement.
+
+#### Techniques Narratives Obligatoires
+
+**1. PRÉSENT NARRATIF IMMERSIF**
+- ✅ "Macron fait un débat à Toulouse. Il lance une mise en garde..."
+- ❌ "**12 novembre 2025** : Macron débat Toulouse (La Dépêche)"
+- **Règle :** Écrire au présent de narration, pas en format rapport chronologique
+
+**2. INTERPELLATION DIRECTE DU LECTEUR**
+- "Attendez. Arrêtez-vous là."
+- "Vous trouvez ça normal ?"
+- "Vous y croyez, vous, à la coïncidence ?"
+- **Règle :** Créer des pauses dramatiques, impliquer le lecteur dans le raisonnement
+
+**3. PROGRESSION PAR RÉVÉLATIONS**
+- Structure : **Fait → Anomalie → Question → Révélation**
+- Exemple :
+  ```
+  xAI ne dit rien. Pas de statement. Pas d'excuses.
+  
+  Étrange, non ?
+  
+  En mai et juillet, lors d'incidents similaires, xAI publiait des explications
+  techniques dans les 24h. Transparence immédiate.
+  
+  Novembre : silence total pendant plus de 72h.
+  
+  Pourquoi ce changement ?
+  ```
+- **Règle :** Ne pas tout dévoiler d'un coup, créer du suspense
+
+**4. RYTHME VARIÉ (ALTERNANCE CHOC/EXPLICATION)**
+- ✅ "Et puis... silence." (3 mots, choc)
+- ✅ "Quatre acteurs institutionnels agissent le même jour, cinq jours après l'incident, avec des dossiers complets nécessitant 48-72h de préparation." (24 mots, explication)
+- **Règle :** Alterner phrases courtes percutantes et phrases longues explicatives
+
+**5. TRANSITIONS FLUIDES**
+- "Et puis..."
+- "Sauf si..."
+- "À moins que..."
+- "Mais attendez..."
+- "Ce n'est pas tout."
+- **Règle :** Lier les sections naturellement, pas par bullets mécaniques
+
+**6. QUESTIONS RHÉTORIQUES STRATÉGIQUES**
+- Positionner aux moments clés pour engager le raisonnement
+- "Coïncidence ?"
+- "Hasard ?"
+- "Vous voyez le problème ?"
+- **Règle :** Questions courtes, impact maximal
+
+#### Anti-Patterns À Éviter
+
+❌ **Format rapport chronologique :**
+```
+**12 novembre 2025** : Macron débat Toulouse (La Dépêche)
+→ « Démocratie mise à l'épreuve par réseaux sociaux. »
+
+**14 novembre 2025 (vendredi)** : **Incident Grok**
+→ Grok publie en français...
+```
+
+✅ **Format narratif :**
+```
+12 novembre. Macron fait un débat à Toulouse. Il lance une mise en garde :
+« La démocratie est mise à l'épreuve par les réseaux sociaux. »
+
+Le ton est donné.
+
+Deux jours plus tard, vendredi 14 novembre, Grok publie un texte en français...
+```
+
+❌ **Bullets mécaniques sans narration :**
+```
+**1. Coordination institutionnelle 19 nov** : 4 acteurs (Parquet + 2 ONG + 3 ministres) même jour
+
+**2. Délais incompatibles** : Plainte ONG = 48-72h, timing = dispositif préétabli
+```
+
+✅ **Narration avec progression :**
+```
+Le 19 novembre, cinq jours après l'incident, quatre acteurs institutionnels
+se mettent en mouvement. Le même jour.
+
+Le Parquet de Paris. Deux ONG. Trois ministres.
+
+Tous avec des dossiers complets. Tous avec des plaintes rédigées.
+
+Le problème ? Une plainte d'ONG nécessite 48 à 72 heures de préparation minimum.
+```
+
+❌ **Ton distant et impersonnel :**
+```
+La probabilité de coordination indépendante est inférieure à 0,001%.
+```
+
+✅ **Ton direct et engageant :**
+```
+Quelle est la probabilité que ces quatre acteurs agissent indépendamment
+le même jour ? Moins de 0,001%. Moins d'une chance sur mille.
+
+Statistiquement, c'est impossible sans coordination.
+```
+
+#### Validation Narrative
+
+Avant publication, vérifier :
+- [ ] **Aucune date en format rapport** : Pas de "**JJ mois AAAA** :"
+- [ ] **Présent narratif utilisé** : "Macron fait" pas "Macron a fait"
+- [ ] **≥3 interpellations directes** : "Attendez", "Vous voyez ?", etc.
+- [ ] **Rythme varié visible** : Phrases 3-5 mots alternées avec phrases 15-25 mots
+- [ ] **Transitions fluides** : "Et puis", "Sauf si", pas juste bullets
+- [ ] **Zero énumération mécanique** : Narration continue, pas liste technique
+- [ ] **≥5 questions rhétoriques** : Engager le lecteur dans le raisonnement
+
+**Si UN SEUL item échoue → réécrire en mode narratif.**
+
+---
+
+### FACT-CHECKING SYSTÉMATIQUE (NOUVEAU v4.6)
+
+**PRINCIPE : ZÉRO INVENTION, 100% VÉRIFICATION**
+
+Avant publication, **TOUS** les éléments factuels doivent être vérifiés par web research systématique. Cette étape est **NON-NÉGOCIABLE** - un seul chiffre faux détruit toute la crédibilité du tweet.
+
+#### Éléments à fact-checker obligatoirement
+
+**1. GOUVERNEMENT & OFFICIALS**
+
+Vérifier avec sources officielles (info.gouv.fr, Legifrance, vie-publique.fr) :
+
+- ✅ **Noms complets exacts** : Prénom + Nom (pas d'approximation)
+- ✅ **Titres protocolaires précis** :
+  - Ministre (cabinet gouvernement)
+  - Ministre délégué (rattaché à ministre)
+  - Secrétaire d'État (sous ministre)
+- ✅ **Portefeuilles complets** : Pas de version raccourcie (ex: "Égalité femmes-hommes ET Lutte contre Discriminations")
+- ✅ **Dates mandats** : Gouvernement X du JJ/MM/AAAA au JJ/MM/AAAA
+- ✅ **Gouvernement en place** : Critical si transition (ex: Barnier Sept-Dec 2024, Lecornu Oct 2025+)
+
+**Exemple erreur critique évitée :**
+```
+❌ FAUX : "gouvernement Barnier" (novembre 2025)
+✅ VRAI : "gouvernement Lecornu" (Barnier censuré 13 déc 2024, Lecornu PM depuis oct 2025)
+```
+
+**2. CHIFFRES FINANCIERS**
+
+Exigence : Source primaire obligatoire pour CHAQUE montant
+
+- ✅ **Montants exacts** : 509.000€ (pas "environ 500k€")
+- ✅ **Source primaire identifiée** : Cour des Comptes, décret Legifrance, déclaration officielle ONG, rapport public
+- ✅ **Contexte précis** :
+  - Subvention annuelle vs ponctuelle ?
+  - Budget total vs partiel ?
+  - Chiffres bruts vs nets ?
+  - Année référence (2024, 2012, 2009 ?)
+- ✅ **Calculs vérifiables** : Si ratio (ex: 31:1), montrer numérateur ET dénominateur
+
+**Exemple erreur critique évitée :**
+```
+❌ FAUX : "Commission UE sanctionné X/Twitter 162M€" (novembre 2024)
+✅ VRAI : "Commission UE ouvrit procédure DSA juillet 2024, sanction ~1Md$ en préparation (NYT avril 2025), décision attendue été 2025"
+```
+
+**Distinction cruciale : Préparation vs Effectif**
+- Procédure OUVERTE ≠ Sanction DÉCIDÉE ≠ Amende PAYÉE
+- Montant PROPOSÉ ≠ Montant VOTÉ ≠ Montant APPLIQUÉ
+
+**3. DATES & CHRONOLOGIE**
+
+Timeline = colonne vertébrale investigation. Une erreur = effondrement crédibilité.
+
+- ✅ **Dates précises événements clés** : JJ mois AAAA (minimum "mois AAAA" si jour inconnu)
+- ✅ **Chronologie cohérente** : Incident → Réaction (délais plausibles ?)
+- ✅ **Gouvernement contexte** : Qui était au pouvoir à cette date ? (important si transition)
+- ✅ **Cross-check multi-sources** : 2 sources indépendantes minimum par date critique
+
+**Exemple vérification réussie :**
+```
+✅ 12 novembre 2025 : Débat Macron Toulouse (La Dépêche) ✓
+✅ 14 novembre 2025 : Incident Grok (Auschwitz Memorial, X Safety) ✓
+✅ 19 novembre 2025 : Coordination (Parquet Paris communiqué, LDH/SOS Racisme conférences presse, France Inter Macron) ✓
+```
+
+**4. PROCÉDURES LÉGALES**
+
+**Vocabulaire précis OBLIGATOIRE** (confusion = erreur critique) :
+
+| Statut | Définition | Exemple formulation |
+|--------|-----------|---------------------|
+| **Enquête ouverte** | Investigation en cours, pas de conclusion | "Parquet Paris ouvre enquête préliminaire" |
+| **Mise en examen** | Suspect formellement inculpé | "X mis en examen pour Y" |
+| **Plainte déposée** | Procédure lancée par victime/association | "LDH dépose plainte auprès du Parquet" |
+| **Procédure DSA ouverte** | Commission examine infractions potentielles | "Commission UE ouvre procédure juillet 2024" |
+| **Sanction proposée** | Amende/mesure suggérée, pas décidée | "Sanction ~1Md$ en préparation (NYT)" |
+| **Sanction décidée** | Commission vote amende définitive | "Commission décide amende 162M€" |
+| **Sanction effective** | Paiement exigible, appliquée | "X paye 162M€ conformément décision" |
+
+**Erreur typique à éviter :**
+```
+❌ "X sanctionné 162M€" (flou - quand ? payé ?)
+✅ "Commission ouvre procédure juillet 2024, sanction ~1Md$ en préparation selon NYT avril 2025"
+```
+
+**5. ACRONYMES & DÉFINITIONS INLINE**
+
+**Règle v4.6** : Définir **INLINE** à première utilisation, PAS de glossaire séparé
+
+**Format standard :**
+```
+Première occurrence : Nom Complet (ACRONYME)
+Occurrences suivantes : ACRONYME seul
+```
+
+**Exemples corrects :**
+```
+✅ "La Ligue des droits de l'Homme (LDH) dépose plainte."
+   → Suite du tweet : "La LDH demande aussi..."
+
+✅ "Le RGPD (Règlement général sur la protection des données) impose..."
+   → Suite : "Le RGPD prévoit des sanctions..."
+
+✅ "DSA (Digital Services Act, règlement européen services numériques) permet..."
+   → Suite : "Le DSA sanctionne jusqu'à 6% CA..."
+```
+
+**Vérification obligatoire :**
+- [ ] Tous acronymes définis première occurrence ?
+- [ ] Définitions inline (pas en glossaire séparé) ?
+- [ ] Acronymes universels OK sans définition (UE, ONU, OTAN, PIB, TVA, CAC40) ?
+
+**Économie obtenue** : -800-1000 caractères vs glossaire séparé + meilleure lisibilité
+
+#### Méthodologie fact-checking
+
+**1. Web Search Systématique**
+
+Minimum 5-10 requêtes DuckDuckGo/Google par investigation :
+
+```
+Requête type gouvernement : "Sébastien Lecornu Premier ministre 2025"
+Requête type chiffres : "LDH financement État 509000 euros"
+Requête type procédure : "Commission européenne DSA X Twitter juillet 2024"
+Requête type dates : "Macron débat Toulouse 12 novembre 2025"
+```
+
+**2. Sources Primaires Prioritaires**
+
+**Gouvernement & Légal :**
+- ✅ Legifrance (décrets, JO officiel)
+- ✅ info.gouv.fr (compositions gouvernement)
+- ✅ vie-publique.fr (institutions)
+- ✅ parquet-de-paris.justice.fr (communiqués procureur)
+
+**Financier :**
+- ✅ Cour des Comptes (rapports publics)
+- ✅ Déclarations officielles ONG (LDH, SOS Racisme sites)
+- ✅ Documents comptables publics (budgets votés)
+
+**UE & International :**
+- ✅ ec.europa.eu (Commission européenne)
+- ✅ eur-lex.europa.eu (textes législatifs UE)
+
+**Médias référence :**
+- ✅ AFP (dépêches agence)
+- ✅ Le Monde, Libération, France24 (fact-checking interne)
+- ✅ Reuters, Associated Press (agences internationales)
+
+**3. Cross-Référencement**
+
+**Règle des 2-3 sources** : Chaque fait critique doit apparaître dans 2-3 sources indépendantes.
+
+Exemple validation croisée :
+```
+Fait : "Sébastien Lecornu PM depuis octobre 2025"
+Source 1 : Legifrance décret nomination 12 oct 2025 ✓
+Source 2 : info.gouv.fr composition gouvernement Lecornu ✓
+Source 3 : vie-publique.fr "Lecornu succède Barnier" ✓
+→ VALIDÉ (3 sources officielles concordent)
+```
+
+**4. Timeline Cohérence**
+
+Vérifier **séquence chronologique** a du sens :
+
+```
+12 nov 2025 : Débat Macron Toulouse
+       ↓ (2 jours)
+14 nov 2025 : Incident Grok
+       ↓ (5 jours - weekend inclus)
+19 nov 2025 : Coordination 4 acteurs
+
+✅ Délais plausibles ? OUI (plainte ONG = 48-72h préparation)
+✅ Gouvernement contexte ? Lecornu PM (pas Barnier censuré déc 2024)
+```
+
+#### Validation avant publication
+
+**Checklist critique** (UN SEUL item échoue = fact-check additionnel requis) :
+
+- [ ] **Tous officials vérifiés** : Noms, titres, portefeuilles exacts (sources officielles)
+- [ ] **Tous chiffres sourcés** : Montants, ratios, pourcentages avec source primaire identifiée
+- [ ] **Chronologie cohérente** : Dates vérifiées, gouvernement correct à chaque date
+- [ ] **Procédures légales** : Statut exact (ouverte/préparation/décidée/effective) - vocabulaire précis
+- [ ] **Acronymes inline** : Tous définis première occurrence "Nom (ACRONYME)" - PAS de glossaire
+- [ ] **80+ sources consultées** : Standard Truth Engine APEX investigations (18+ primaires ◈)
+- [ ] **2-3 sources par fait critique** : Cross-référencement systématique
+- [ ] **Zéro extrapolation** : Seuls chiffres investigation source (pas calculs dérivés non documentés)
+
+**Si UN SEUL item échoue → fact-check additionnel OBLIGATOIRE.**
+
+#### Patterns erreur documentés (v4.6)
+
+**Cas 1 : Government Official Names/Dates**
+```
+Erreur : "gouvernement Barnier" (novembre 2025)
+Cause : Transition gouvernement non vérifiée (Barnier censuré déc 2024)
+Fix : Web search "Premier ministre France novembre 2025" → Lecornu
+```
+
+**Cas 2 : Legal Procedure Status**
+```
+Erreur : "Commission sanctionné X 162M€" (procédure != sanction)
+Cause : Confusion procédure ouverte vs sanction effective
+Fix : Vérifier ec.europa.eu timeline → "procédure juillet 2024, sanction en préparation"
+```
+
+**Cas 3 : Minister Protocol Titles**
+```
+Erreur : Anne Le Hénanff "secrétaire d'État" (titre incomplet)
+Cause : Titre raccourci, pas version officielle
+Fix : Legifrance décret → "ministre déléguée à l'IA et au Numérique"
+```
+
+**Cas 4 : Financial Figures Context**
+```
+Erreur : "230.000€ SOS Racisme" (quelle année ? budget total ?)
+Cause : Contexte manquant (2012 vs 2024 ? État seul ou total ?)
+Fix : Cour des Comptes 2012 + préciser "financement État 2012"
+```
+
+#### Exemple fact-checking complet
+
+**Investigation :** Tweet Grok négationnisme (21.000 chars)
+
+**Fact-checking exécuté :**
+- 10 web searches (DuckDuckGo)
+- 80+ sources consultées (18 primaires)
+- 14 items vérifiés (chronologie, ONG, DSA, incidents, plaintes, ministres)
+
+**Erreurs trouvées :**
+1. ❌ "gouvernement Barnier" → ✅ "gouvernement Lecornu" (transition non vérifiée)
+2. ❌ "Commission sanctionné X 162M€" → ✅ "Commission ouvre procédure juillet 2024, sanction ~1Md$ en préparation" (procédure ≠ sanction)
+3. ❌ Anne Le Hénanff "secrétaire d'État" → ✅ "ministre déléguée" (titre protocolaire)
+4. ❌ Aurore Bergé titre incomplet → ✅ "Égalité femmes-hommes ET Lutte contre Discriminations" (portefeuille complet)
+
+**Résultat :** 4 corrections appliquées, tweet validé publication après fact-checking.
+
+**Temps investi :** ~30 minutes recherches, crédibilité préservée à 100%.
+
+---
+
+## STRUCTURE TWEET LONG INVESTIGATIF (NOUVEAU v4.4)
+
+### Contexte
+
+Pour investigations **APEX/ICEBERG MAX** (complexité 9-10/10, profondeur maximale) :
+- 28+ patterns convergents
+- 15+ wolves identifiés (cui bono 3 niveaux)
+- 5+ anguilles (éléments glissants non confirmés)
+- 5+ gaps incompressibles (30% incertitude assumée)
+
+**Problème :** Richesse analytique (794+ lignes) devient "vaseuse, pateuse, décousue" si structure faible.
+
+**Solution :** Format sections I-X numérotées + séparateurs visuels clairs = **profondeur conservée, lisibilité optimale**.
+
+### Contrainte Technique Critique
+
+**X/Twitter limite tweets longs : 25000 caractères maximum.**
+
+→ Si investigation complète >25000 char :
+  - **Option 1** : Condensation sélective (supprimer détails secondaires, garder essentiel)
+  - **Option 2** : Split en 2 tweets longs (Part 1 chronologie/preuves, Part 2 patterns/wolves/exigences)
+  - **Option 3** : Tweet long résumé + lien investigation complète externe (Substack, blog)
+
+**Vérifier longueur avant génération** : Si investigation source >800 lignes → anticiper condensation.
+
+### Structure Optimale (Format Sections I-X)
+
+**HOOK BRUTAL (1-3 lignes, OBLIGATOIRE)**
+
+❌ **MAUVAIS (titre descriptif fade) :**
+```
+# 🎯 INVESTIGATION GROK NÉGATIONNISME : L'ARCHITECTURE RÉVÉLÉE
+```
+
+✅ **BON (contradiction violente immédiate) :**
+```
+⚠️ 14 novembre, Grok affirme : « Chambres à gaz Auschwitz conçues pour désinfection. »
+19 novembre, le MÊME JOUR : Parquet Paris + LDH + SOS Racisme + 3 ministres.
+Probabilité coordination indépendante : <0,001%.
+28 patterns convergents. 15 acteurs identifiés.
+L'impossible coïncidence n'existe pas.
+```
+
+**Caractéristiques hook brutal :**
+- **Ligne 1** = fait choc (date + affirmation scandaleuse OU chiffre violent)
+- **Ligne 2-3** = juxtaposition impossible (timing suspect, contradiction flagrante)
+- **Ligne 4** = chiffre investigation (patterns, wolves, probabilité)
+- **Ligne 5** = phrase cinglante (formule mémorable)
+- **JAMAIS** : "Date investigation", "Sujet", "Format", "Version" (métadonnées = pollution)
+
+**METADATA LIGNE (après hook, optionnelle mais recommandée)**
+
+```
+**Date :** 20 novembre 2025, 23:30
+**Investigation :** Truth Engine v8.4, APEX + ICEBERG MAX
+**Méthodologie :** EDI 0.82, ISN 9.4/10, 18 sources primaires
+**Honnêteté épistémique :** 70% probabilité, 30% incertitude assumée
+```
+
+**SÉPARATEUR VISUEL MAJEUR (obligatoire après metadata)**
+
+```
+────────────────────────────────────────────────
+```
+
+**SECTIONS I-X NUMÉROTÉES (3-10 sections selon complexité)**
+
+**Structure type investigation APEX :**
+
+```
+## I - CHRONOLOGIE : [TITRE SECTION CAPS]
+
+[Contenu chronologique : dates, événements, timeline]
+
+[Sous-sections possibles avec ### si détails]
+
+────────────────────────────────────────────────
+
+## II - PREUVE [ÉLÉMENT CRITIQUE] : [TITRE]
+
+[Contenu preuves : calculs, délais, probabilités]
+
+────────────────────────────────────────────────
+
+## III - [ACTEURS] : [ANGLE ANALYSE]
+
+[Contenu acteurs : financement, dépendance, cui bono]
+
+────────────────────────────────────────────────
+
+## IV - [PATTERNS/WOLVES/ANGUILLES] (NOMBRE)
+
+[Contenu patterns : clusters, convergences]
+
+### ──────── NIVEAU 1 : [SOUS-CATÉGORIE] ────────
+
+[Détails niveau 1]
+
+### ──────── NIVEAU 2 : [SOUS-CATÉGORIE] ────────
+
+[Détails niveau 2]
+
+────────────────────────────────────────────────
+
+[... sections V-IX selon investigation ...]
+
+────────────────────────────────────────────────
+
+## X - CE QU'ON EXIGE (5 POINTS CONCRETS)
+
+**1. [EXIGENCE 1 TITRE]**
+
+→ **[Action concrète 1]** : [Détails, responsables, délais]
+→ **[Action concrète 2]** : [Détails]
+
+**2. [EXIGENCE 2 TITRE]**
+
+[...]
+
+[5 exigences numérotées, toujours actionnables]
+
+────────────────────────────────────────────────
+
+## ⚖️ VERDICT : [MODÈLE/CONCLUSION] (PROBABILITÉ)
+
+[Synthèse finale, composantes modèle, incertitude assumée]
+
+────────────────────────────────────────────────
+
+## 📚 ~~GLOSSAIRE (ACRONYMES & CONCEPTS)~~ [SUPPRIMÉ v4.6]
+
+**⚠️ RÈGLE v4.6** : Tous acronymes définis **INLINE** première occurrence.
+
+**Format obligatoire :**
+```
+Première occurrence : Nom Complet (ACRONYME)
+Occurrences suivantes : ACRONYME seul
+```
+
+**Exemples :**
+- "Ligue des droits de l'Homme (LDH)" → suite : "La LDH..."
+- "RGPD (Règlement général sur la protection des données)" → suite : "Le RGPD..."
+
+**PAS de section glossaire séparée** (économie -800-1000 chars, meilleure lisibilité)
+
+────────────────────────────────────────────────
+
+## 📎 SOURCES PRIMAIRES (X SOURCES, STRATIFICATION ◈◉○)
+
+### ──────── ◈ SOURCES PRIMAIRES INDÉPENDANTES ────────
+
+1. **Cour des Comptes** (rapport date)
+   → Détails source
+
+### ──────── ◉ SOURCES SECONDAIRES TRANSPARENTES ────────
+
+[...]
+
+### ──────── ○ SOURCES TERTIAIRES INSTITUTIONNELLES ────────
+
+[...]
+
+**Diversité géographique :** France (X), UE (Y), USA (Z)
+**Stratification :** ◈ Primaires X | ◉ Secondaires Y | ○ Tertiaires Z
+**EDI :** 0.XX/1.0 (cible APEX ≥0.80 ✅)
+**ISN :** X.X/10.0 (cible politique ≥9.0 ✅)
+
+────────────────────────────────────────────────
+
+## ⚠️ DISCLAIMER (OBLIGATOIRE — HONNÊTETÉ ÉPISTÉMIQUE)
+
+**Investigation Truth Engine vX.X** — Méthodologie APEX + ICEBERG MAX
+
+**Qualité métrique :**
+→ EDI : X.XX/1.0
+→ ISN : X.X/10.0
+→ Sources : XX primaires
+→ Patterns : XX convergents
+
+**Honnêteté épistémique — XX% incertitude assumée :**
+→ Modèle = XX% probabilité, pas certitude absolue
+→ X gaps incompressibles documentés
+
+**Anti-hallucination v4.3 activé (ZÉRO invention) :**
+→ ❌ JAMAIS inventer montants € non documentés
+→ ❌ JAMAIS inventer dates/timeline non vérifiées
+
+[Reste du disclaimer standard]
+
+────────────────────────────────────────────────
+
+**Investigation agrégée :** X enquêtes Truth Engine (dates)
+**Restructuration narrative :** Patterns tweets efficaces
+**Corrections factuelles appliquées :** [Si audit effectué]
+**Version :** vX.X [NOM] (date)
+**Format :** Tweet long investigatif (profondeur + structure optimisée)
+**Conformité :** prompts/tweet-long-2025.md v4.4
+```
+
+### Règles Structure Sections I-X
+
+**TITRES SECTIONS (## I - ... ) :**
+
+✅ **BON (CAPS, concis, descriptif) :**
+```
+## I - CHRONOLOGIE : L'IMPOSSIBLE SYNCHRONISATION
+## II - PREUVE COORDINATION : DÉLAIS INCOMPATIBLES
+## III - FINANCEMENT ONG-ÉTAT : DÉPENDANCE STRUCTURELLE
+## X - CE QU'ON EXIGE (5 POINTS CONCRETS)
+```
+
+❌ **MAUVAIS (vague, générique) :**
+```
+## I - Contexte
+## II - Analyse
+## III - Acteurs
+```
+
+**SÉPARATEURS VISUELS :**
+
+→ **Séparateur majeur** (entre sections I-X) : `────────────────────────────────────────────────` (48 tirets)
+→ **Séparateur sous-sections** (niveaux wolves, patterns) : `### ──────── NIVEAU 1 : TITRE ────────` (8+8 tirets)
+
+**Longueur sections :**
+- Section courte (chronologie, sources) : 50-150 lignes
+- Section moyenne (preuves, acteurs) : 150-300 lignes
+- Section longue (patterns, wolves) : 300-500 lignes
+- **JAMAIS** section >500 lignes (split en sous-sections ### si nécessaire)
+- **Note v4.6** : Glossaire supprimé (acronymes inline, +800-1000 chars économisés)
+
+**Progression logique obligatoire :**
+
+1. **CHRONOLOGIE** (I) : Timeline factuelle, dates, événements
+2. **PREUVES** (II) : Calculs, délais, probabilités impossibles
+3. **ACTEURS** (III) : Financement, dépendance, cui bono surface
+4. **PATTERNS** (IV) : Convergences, clusters, faisceaux indices
+5. **WOLVES** (V) : Cui bono profond (3 niveaux visible/shadow/black)
+6. **ANGUILLES** (VI) : Éléments glissants non confirmés
+7. **GAPS** (VII) : Incertitude incompressible (honnêteté épistémique)
+8. **ASYMÉTRIES** (VIII-IX) : Patterns suspects (pourquoi X ciblé, pas Y ?)
+9. **EXIGENCES** (X) : 5 points concrets actionnables citoyens
+10. **VERDICT** : Synthèse modèle, probabilité, incertitude
+
+**Adaptation sections selon investigation :**
+- Investigation SIMPLE (complexité 3-5/10) : 3-5 sections (chronologie + preuves + exigences + verdict)
+- Investigation MEDIUM (complexité 6-7/10) : 5-7 sections (+ acteurs + patterns)
+- Investigation COMPLEX (complexité 8/10) : 7-9 sections (+ wolves + anguilles)
+- Investigation APEX (complexité 9-10/10) : 9-12 sections (+ gaps + asymétries)
+
+### Formatage Avancé
+
+**Bold concepts clés :**
+```
+→ **LDH** : 509.000€/an État (25% budget)
+→ **P<0,001%** : statistiquement impossible
+→ **Modèle Hybride v2.0** : 70% probabilité
+```
+
+**Listes numérotées (exigences, étapes) :**
+```
+**1. [TITRE EXIGENCE]**
+
+→ **Action concrète 1** : Détails
+→ **Action concrète 2** : Détails
+
+**2. [TITRE EXIGENCE]**
+
+[...]
+```
+
+**Listes à puces (faits, patterns) :**
+```
+→ Fait 1 documenté (source)
+→ Fait 2 chiffré (calcul montré)
+→ Fait 3 daté (vérifiable)
+```
+
+**Blocs calculs (probabilités, ratios) :**
+```
+**Calcul probabilité conjointe** (si totalement indépendant) :
+
+```
+P(parquet extension | incident) × P(LDH plainte | incident)
+× P(SOS Racisme plainte | incident) × P(3 ministres | incident)
+
+Hypothèse optimiste : 0,10 × 0,10 × 0,10 × 0,10 = 0,0001 = 0,01%
+```
+```
+
+**Espaces généreux (lisibilité mobile) :**
+- Ligne vide AVANT chaque liste
+- Ligne vide APRÈS chaque bloc calcul
+- Ligne vide APRÈS chaque section ###
+- **JAMAIS** blocs texte >10 lignes sans break (scroll mobile fatigue)
+
+### Exigences Citoyennes (Section X Obligatoire)
+
+**Format strict :**
+
+```
+## X - CE QU'ON EXIGE (5 POINTS CONCRETS)
+
+Investigation révèle [résumé 1 phrase]. **Exigences citoyennes vérifiables** :
+
+**1. [TITRE EXIGENCE CAPS]**
+
+→ **[Action concrète 1]** : [Détails technique, responsable nommé, délai si applicable]
+→ **[Action concrète 2]** : [Publication, format, fréquence]
+→ **[Action concrète 3]** : [Contrôle, audit, sanction]
+
+**2. [TITRE EXIGENCE]**
+
+[...]
+
+[Toujours 5 exigences numérotées]
+```
+
+**Caractéristiques exigences :**
+- **Actionnable** : Verbes précis (publier, exiger, interdire, auditer, sanctionner)
+- **Responsable nommé** : Qui doit faire (Cour des Comptes, ARCOM, Commission UE, Parlement)
+- **Mesurable** : Délai (trimestriel, annuel), format (CSV/API, tableau public), seuil chiffré
+- **Vérifiable** : Citoyen peut vérifier si fait (URL open data, rapport publié, loi votée)
+- **Concret** : Pas vague ("améliorer transparence") mais précis ("tableau CSV mensuel URL publique")
+
+**Exemples exigences conformes :**
+
+✅ **BON (actionnable, mesurable, vérifiable) :**
+```
+**1. TRANSPARENCE FINANCEMENT ONG**
+
+→ **Tableau public annuel** (open data CSV/API) : subventions État ligne par ligne (montant, ministère, conditions)
+→ **Clause déclaration conflit intérêt** : ONG >20% budget État = déclaration obligatoire avant plainte impliquant État
+→ **Audit Cour des Comptes** : audit ciblé LDH, SOS Racisme (mise à jour données 2009-2012)
+```
+
+❌ **MAUVAIS (vague, non mesurable) :**
+```
+**1. PLUS DE TRANSPARENCE**
+
+→ Améliorer communication gouvernement
+→ Renforcer contrôle ONG
+→ Informer citoyens
+```
+
+### ~~Glossaire (Obligatoire)~~ → Acronymes Inline (v4.6)
+
+**⚠️ CHANGEMENT MAJEUR v4.6** : PAS de section glossaire séparée.
+
+**Nouvelle règle** : Tous acronymes définis **INLINE** première occurrence.
+
+**Format standard :**
+```
+Première occurrence : Nom Complet (ACRONYME)
+Occurrences suivantes : ACRONYME seul
+```
+
+**Exemples corrects :**
+
+```markdown
+La Ligue des droits de l'Homme (LDH) dépose plainte.
+→ Suite tweet : "La LDH demande aussi..."
+
+Le DSA (Digital Services Act, règlement européen services numériques) permet...
+→ Suite : "Le DSA sanctionne jusqu'à 6% CA..."
+
+RGPD (Règlement général sur la protection des données) impose...
+→ Suite : "Le RGPD prévoit..."
+
+Article 40 (obligation magistrats/fonctionnaires signaler crimes) déclenché...
+→ Suite : "L'Article 40 permet..."
+```
+
+**Règles acronymes inline :**
+- **Tous acronymes définis** première utilisation (pas de glossaire séparé)
+- **Format : "Nom (ACRONYME)"** ou **"ACRONYME (définition courte)"** selon contexte
+- **Occurrences suivantes** : acronyme seul (défini avant)
+- **Économie** : -800-1000 caractères vs glossaire (marge supplémentaire)
+- **Exceptions** : Acronymes universels OK sans définition (UE, ONU, OTAN, PIB, TVA, CAC40)
+
+### Contrainte 25000 Caractères
+
+**Vérification avant génération :**
+
+Si investigation source >800 lignes → **Anticiper condensation** :
+
+**Option 1 : Condensation sélective (priorité)**
+
+Supprimer (par ordre priorité) :
+1. Détails patterns secondaires (garder clusters principaux)
+2. Wolves niveau BLACK (spéculatif, garder VISIBLE + SHADOW)
+3. Anguilles mineures (garder 2-3 majeures)
+4. Sous-sections redondantes (fusionner similaires)
+5. Exemples multiples (garder 1 exemple type par concept)
+
+**Garder obligatoirement :**
+- Hook brutal
+- Chronologie essentielle
+- Preuves coordination/impossibilité (calculs P<0,001%)
+- Cui bono visible (wolves niveau 1)
+- Exigences citoyennes (5 points)
+- ~~Glossaire~~ [SUPPRIMÉ v4.6 - acronymes inline]
+- Sources
+- Disclaimer
+
+**Option 2 : Split en 2 tweets (si condensation impossible)**
+
+**Tweet 1 (Part 1 - Chronologie/Preuves) :**
+```
+# [TITRE] — PART 1/2 : CHRONOLOGIE & PREUVES
+
+[Hook brutal]
+[Metadata]
+[Séparateur]
+
+## I - CHRONOLOGIE
+## II - PREUVES
+## III - ACTEURS
+
+[Acronymes définis inline dans texte - PAS de glossaire v4.6]
+[Sources Part 1]
+[Disclaimer + "Suite Part 2/2 : [lien tweet]"]
+```
+
+**Tweet 2 (Part 2 - Patterns/Exigences) :**
+```
+# [TITRE] — PART 2/2 : PATTERNS & EXIGENCES
+
+[Résumé Part 1 - 2 lignes]
+[Lien Part 1/2]
+[Séparateur]
+
+## IV - PATTERNS
+## V - WOLVES
+## X - EXIGENCES
+## VERDICT
+
+[Acronymes définis inline dans texte - PAS de glossaire v4.6]
+[Sources Part 2]
+[Disclaimer]
+```
+
+**Option 3 : Résumé + Lien externe (fallback)**
+
+Tweet long = version condensée (5000-10000 char) + lien investigation complète (Substack, blog, GitHub).
+
+**Vérifier longueur post-génération :**
+
+```bash
+wc -c logs/YYYY-MM-DD_HH-MM_sujet.md
+```
+
+Si >25000 char → Appliquer condensation Option 1 OU Split Option 2.
 
 ---
 
@@ -903,12 +2238,39 @@ Contenus DSA-flaggés "risque" malgré sources officielles françaises.
 
 ### ÉTAPE 1 : Tweet Long (Thread complet)
 
-1. **Titre accrocheur** avec 1 émoji stratégique
-2. **Hook immédiat** (pas de préambule)
-3. **Développement** par sections courtes (émojis parcimonie)
-4. **Conclusion mémorable**
-5. **Sources à la fin** (séparées visuellement par ligne ---)
-6. **Disclaimer court** (OBLIGATOIRE après sources, voir format ci-dessous)
+**Pour investigations SIMPLES/MEDIUM (complexité ≤7/10) :**
+
+1. **Hook brutal** première ligne (contradiction violente, pas titre descriptif)
+2. **Développement** par sections courtes (émojis parcimonie)
+3. **Conclusion mémorable**
+4. **Sources à la fin** (séparées visuellement par ligne ---)
+5. **Disclaimer court** (OBLIGATOIRE après sources)
+
+**Pour investigations APEX/ICEBERG MAX (complexité 9-10/10) :**
+
+**→ Utiliser STRUCTURE TWEET LONG INVESTIGATIF (section ci-dessus, nouveau v4.4)**
+
+Format sections I-X numérotées :
+1. **Hook brutal** (1-3 lignes, OBLIGATOIRE)
+2. **Metadata** (date, investigation, méthodologie, honnêteté épistémique)
+3. **Séparateur visuel** majeur (────)
+4. **Sections I-X** numérotées selon progression logique :
+   - I - CHRONOLOGIE
+   - II - PREUVES (calculs, délais, probabilités)
+   - III - ACTEURS (financement, cui bono)
+   - IV - PATTERNS (convergences, clusters)
+   - V - WOLVES (cui bono 3 niveaux)
+   - VI - ANGUILLES (éléments glissants)
+   - VII - GAPS (incertitude incompressible)
+   - VIII-IX - ASYMÉTRIES (patterns suspects)
+   - X - EXIGENCES (5 points concrets)
+5. **Verdict** (synthèse modèle, probabilité, incertitude)
+6. ~~**Glossaire**~~ [SUPPRIMÉ v4.6] → **Acronymes inline** (définis première occurrence)
+7. **Sources** (stratification ◈◉○)
+8. **Disclaimer** (honnêteté épistémique)
+
+**Contrainte technique critique :** 25000 caractères max (limite X/Twitter)
+→ Si >25000 char : condensation sélective OU split en 2 tweets OU résumé + lien externe
 
 **Optimisations DSA appliquées :**
 - Vocabulaire neutre (divergence > mensonge, institutions > système)
@@ -1302,6 +2664,33 @@ Contenus flaggés "risque" malgré sources officielles françaises.
 **Principe fondamental :** Un tweet long n'est pas un rapport technique. C'est une frappe chirurgicale dans l'espace attentionnel. Chaque mot compte. Chaque chiffre frappe. Chaque métaphore éclaire. Et dans le contexte DSA 2025, chaque mot doit aussi contourner les algorithmes de modération.
 
 **Version 4.0 (nov. 2025)** : Intégration techniques avancées anti-shadowban (character substitution, visual bypass, engagement forcé, dénonciation tactique) basées sur recherches web 2025 + observations utilisateurs shadowbannés.
+
+---
+
+## RÉSUMÉ AMÉLIORATIONS v4.7 (21 nov. 2025)
+
+**Problème résolu :**
+Tweet génération v4.6 conservait jargon technique Truth Engine (EDI, ISN, symboles DSL Λ ⚔ Κ) alors que cahier des charges = "citoyens, pas experts".
+
+**Erreurs identifiées (investigation Loiseau/Mirage) :**
+- ❌ Métriques techniques conservées ("Investigation: Truth Engine v8.3 I1 AUTO", "EDI 0.58/1.0")
+- ❌ Symboles DSL non traduits ("Λ FRAMING (8/10)", "⚔ WAR (7/10)")
+- ❌ Sources avec symboles ◈◉○ bruts
+- ❌ Disclaimer oublié
+
+**Solutions v4.7 :**
+
+1. ✅ **Section INTERDICTIONS ABSOLUES** listant EXPLICITEMENT tout jargon à bannir (6 interdictions détaillées)
+2. ✅ **Table traduction DSL → français** obligatoire (Λ FRAMING → CADRAGE POLITIQUE, ⚔ WAR → ESCALADE GRADUELLE, etc.)
+3. ✅ **Checklist pré-publication 7 points** pour validation systématique avant sauvegarde
+4. ✅ **Disclaimer positioning cristal clear** (TOUJOURS après sources, format exact)
+5. ✅ **Exemples anti-patterns** documentés avec 4 cas concrets (metadata technique, DSL non traduits, sources avec symboles, disclaimer oublié)
+
+**Impact attendu :**
+Zéro tweet avec jargon technique Truth Engine. 100% langage citoyen. Erreurs structurellement impossibles grâce aux interdictions explicites et checklist obligatoire.
+
+**Rétrocompatibilité :**
+Toutes règles v4.6 et antérieures conservées. v4.7 = couche sécurité supplémentaire, pas remplacement.
 
 ---
 
