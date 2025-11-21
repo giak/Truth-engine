@@ -28,76 +28,59 @@ DOMAINS:
   Media: [broadcast, press release, transcript, publication, journalism, news]
 ```
 
-### 1.2 Templates by Domain
+### 1.2 Templates by Domain (DSL Compact)
 
-**POLITICAL** (◈_POL):
-```
-1. "{subject} site:assemblee-nationale.fr OR site:senat.fr OR site:legifrance.gouv.fr filetype:pdf"
-2. "{subject} archives officielles OR documents parlementaires OR rapports gouvernementaux"
-3. "{entity} leaked OR FOIA OR négociations OR débats Bureau National"
-```
+```yaml
+TEMPLATES_BY_DOMAIN:
+  POL:
+    1) {subject} site:assemblee-nationale.fr OR site:senat.fr OR site:legifrance.gouv.fr filetype:pdf
+    2) {subject} archives officielles OR documents parlementaires OR rapports gouvernementaux
+    3) {entity} leaked OR FOIA OR négociations OR débats Bureau National
 
-**SCIENTIFIC** (◈_SCI):
-```
-1. "{subject} site:pubmed.ncbi.nlm.nih.gov OR site:arxiv.org OR doi:"
-2. "{subject} peer-reviewed study OR clinical trial data OR dataset filetype:pdf"
-3. "{subject} original research (NOT review NOT commentary) primary data"
-```
+  SCI:
+    1) {subject} site:pubmed.ncbi.nlm.nih.gov OR site:arxiv.org OR doi:
+    2) {subject} peer-reviewed study OR clinical trial data OR dataset filetype:pdf
+    3) {subject} original research (NOT review NOT commentary) primary data
 
-**CORPORATE** (◈_CORP):
-```
-1. "{entity} site:sec.gov filetype:pdf (10-K OR 10-Q OR 8-K OR proxy statement)"
-2. "{entity} court documents OR lawsuit filing OR settlement agreement"
-3. "{entity} annual report official OR financial filing OR audit report"
-```
+  CORP:
+    1) {entity} site:sec.gov filetype:pdf (10-K OR 10-Q OR 8-K OR proxy statement)
+    2) {entity} court documents OR lawsuit filing OR settlement agreement
+    3) {entity} annual report official OR financial filing OR audit report
 
-**GEOPOLITICAL** (◈_GEO):
-```
-1. "{subject} site:wikileaks.org OR diplomatic cable OR state department"
-2. "{subject} UN documents OR treaty text OR Security Council resolution"
-3. "{subject} declassified OR FOIA OR government archives official"
-```
+  GEO:
+    1) {subject} site:wikileaks.org OR diplomatic cable OR state department
+    2) {subject} UN documents OR treaty text OR Security Council resolution
+    3) {subject} declassified OR FOIA OR government archives official
 
-**LEGAL** (◈_LEG):
-```
-1. "{subject} site:courtlistener.com OR site:caselaw OR court ruling"
-2. "{subject} statute text OR regulation official OR legal code"
-3. "{case} oral arguments transcript OR court filing OR judgment"
-```
+  LEG:
+    1) {subject} site:courtlistener.com OR site:caselaw OR court ruling
+    2) {subject} statute text OR regulation official OR legal code
+    3) {case} oral arguments transcript OR court filing OR judgment
 
-**ECONOMIC** (◈_ECO):
-```
-1. "{subject} site:imf.org OR site:worldbank.org OR central bank data"
-2. "{subject} GDP statistics OR trade data OR economic indicators official"
-3. "{country} budget filetype:pdf OR fiscal report OR treasury data"
-```
+  ECO:
+    1) {subject} site:imf.org OR site:worldbank.org OR central bank data
+    2) {subject} GDP statistics OR trade data OR economic indicators official
+    3) {country} budget filetype:pdf OR fiscal report OR treasury data
 
-**SOCIAL** (◈_SOC):
-```
-1. "{subject} census data OR survey results OR demographic statistics"
-2. "{subject} government report OR official study OR field research"
-3. "{subject} testimonies OR direct accounts OR primary sources"
-```
+  SOC:
+    1) {subject} census data OR survey results OR demographic statistics
+    2) {subject} government report OR official study OR field research
+    3) {subject} testimonies OR direct accounts OR primary sources
 
-**TECH** (◈_TECH):
-```
-1. "{subject} source code OR github OR technical specification"
-2. "{subject} RFC OR standard OR protocol documentation"
-3. "{subject} whitepaper OR technical report OR patent filing"
-```
+  TECH:
+    1) {subject} source code OR github OR technical specification
+    2) {subject} RFC OR standard OR protocol documentation
+    3) {subject} whitepaper OR technical report OR patent filing
 
-**HISTORICAL** (◈_HIST):
-```
-1. "{subject} archives OR historical documents OR primary records"
-2. "{subject} original documents OR manuscripts OR correspondence"
-3. "{period} official records OR government archives OR contemporary sources"
-```
+  HIST:
+    1) {subject} archives OR historical documents OR primary records
+    2) {subject} original documents OR manuscripts OR correspondence
+    3) {period} official records OR government archives OR contemporary sources
 
-**MEDIA** (◈_MED):
-```
-1. "{subject} original broadcast OR press conference transcript"
-2. "{subject} press release official OR statement original"
-3. "{entity} official communication OR public statement OR announcement"
+  MED:
+    1) {subject} original broadcast OR press conference transcript
+    2) {subject} press release official OR statement original
+    3) {entity} official communication OR public statement OR announcement
 ```
 
 ### 1.3 Execution Rules
@@ -314,76 +297,48 @@ EXAMPLE:
     Prevents underestimation of politically sensitive short-form content
 ```
 
-### 3.2 H7 Adversary Media Map v2.0
+### 3.2 H7 Adversary Media Map v2.0 (DSL Compact)
 
 **Extension 7→25 sources (core coverage 90% use cases).**
 
 ```yaml
-H7_ADVERSARY_MEDIA_MAP_v2:
-  
-  STATE_MEDIA (9 sources):
-    Russia:
-      - rt.com (English, propaganda tier C)
-      - sputniknews.com (multilang, tier C)
-      - tass.com (official news, tier B)
-    China:
-      - globaltimes.cn (nationalist, tier C)
-      - xinhuanet.com (official agency, tier B)
-      - chinadaily.com.cn (English, tier B)
-    Iran:
-      - presstv.ir (state broadcaster, tier C)
-      - tasnimnews.com (semi-official, tier C)
-    DPRK:
-      - kcna.kp (official agency, tier D)
-  
-  INDEPENDENT_ALT (11 sources):
-    USA:
-      - theintercept.com (Snowden docs, tier A)
-      - propublica.org (investigative nonprofit, tier A)
-      - thegrayzone.com (anti-imperialist, tier C)
-      - consortiumnews.com (anti-war, tier B)
-    France:
-      - mediapart.fr (investigative, tier A)
-      - disclose.ngo (Forbidden Stories, tier A)
-      - bastamag.net (social/alternative, tier B)
-    UK:
-      - declassifieduk.org (foreign policy, tier B)
-      - middleeasteye.net (Middle East, tier B)
-      - bellingcat.com (OSINT, tier A)
-    Germany:
-      - nachdenkseiten.de (critical, tier B)
-  
-  THINK_TANKS (3 sources):
-    Anti-interventionist:
-      - quincyinst.org (restraint foreign policy, tier B)
-      - cato.org (libertarian non-interventionist, tier B)
-    Heterodox_econ:
-      - cepr.net (progressive economics, tier B)
-  
-  WHISTLEBLOWER (2 sources):
-    Primary_docs:
-      - wikileaks.org (leaked docs, tier A)
-      - icij.org (Panama/Pandora Papers, tier A)
+H7_MAP_v2:
+  STATE_MEDIA: # 9 sources
+    RU: rt.com(C) | sputniknews.com(C) | tass.com(B)
+    CN: globaltimes.cn(C) | xinhuanet.com(B) | chinadaily.com.cn(B)
+    IR: presstv.ir(C) | tasnimnews.com(C)
+    KP: kcna.kp(D)
 
-# Auto-detection patterns
+  INDEPENDENT_ALT: # 11 sources
+    US: theintercept.com(A) | propublica.org(A) | thegrayzone.com(C) | consortiumnews.com(B)
+    FR: mediapart.fr(A) | disclose.ngo(A) | bastamag.net(B)
+    UK: declassifieduk.org(B) | middleeasteye.net(B) | bellingcat.com(A)
+    DE: nachdenkseiten.de(B)
+
+  THINK_TANKS: # 3 sources
+    ANTI_INTERVENTIONIST: quincyinst.org(B) | cato.org(B)
+    HETERODOX_ECON: cepr.net(B)
+
+  WHISTLEBLOWER: # 2 sources
+    PRIMARY_DOCS: wikileaks.org(A) | icij.org(A)
+
 H7_ENTITY_TRIGGERS:
   keywords: [disinformation, propaganda, threat, hostile, aggression, sanctions, interference, manipulation, psyops]
   entities:
     Geopolitical: [Russia, China, Iran, DPRK, Venezuela, Cuba]
     Corporate: [Big Pharma, Big Tech, GAFAM, pharma, tech giants]
     Institutional: [NATO, EU, Pentagon, CIA, FBI]
-  
+
   → IF detected → mandatory H7 queries
   → Map entity to sources (Russia → rt.com/tass.com/sputniknews.com)
   → Execute: site:{url} "{subject}" [official response|perspective|statement]
 
-# Extensibility
-ADD_NEW_SOURCE:
-  1. Identify entity mentioned as threat/adversary
-  2. Search entity's official media or opposition within
-  3. Assess tier (A/B/C/D based on credibility/bias)
-  4. Add to map with country/topic/stance metadata
-  5. System auto-evolves organically
+ADD_NEW_SOURCE: # Extensibility
+  1) Identify entity mentioned as threat/adversary
+  2) Search entity's official media or opposition within
+  3) Assess tier (A/B/C/D based on credibility/bias)
+  4) Add to map with country/topic/stance metadata
+  5) System auto-evolves organically
 ```
 
 ### 3.3 Adversary Query Templates
