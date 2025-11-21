@@ -345,6 +345,41 @@ Save logs/$(date +%Y-%m-%d)_subject.md"
 
 **See:** [kb/INVESTIGATION_TREE.md](kb/INVESTIGATION_TREE.md:1) for complete protocols and [tests/tree/](tests/tree/) for validation.
 
+### Multi-Conversation Iteration (I0→I1→I2)
+
+**When to use:** When initial investigation (I0) has gaps (EDI<target, ◈<target, H7 missing) and validation recommends iteration.
+
+**What is I1/I2:**
+- **I0**: Initial investigation (10-15 searches, EDI typically 0.30-0.50)
+- **I1**: First iteration (+10 searches, targets gaps, EDI↑0.50-0.70)
+- **I2**: Second iteration (+10 searches, convergence, EDI↑0.70-0.80)
+
+**Usage (<3% of investigations):**
+
+HANDOFF_MEMO is **lazy-loaded on-demand** (not automatically loaded with other KB files).
+
+**Manual load workflow:**
+```bash
+# When I0 investigation recommends I1 iteration:
+claude-code "Read kb/HANDOFF_MEMO.md
+Then: Mode ITERATION I1 for logs/2025-11-XX_subject.md
+Target gaps: [EDI geo/◈ PRIMARY/H7 adversary from I0 validation]"
+```
+
+**Automatic iteration (I1 AUTO):**
+```bash
+# System auto-generates 10 gap-targeting queries:
+claude-code "I1 AUTO logs/2025-11-XX_subject.md"
+# Note: HANDOFF_MEMO will prompt for manual Read if needed
+```
+
+**Why lazy-loaded:**
+- <3% usage rate (3/104 investigations from Phase E validation)
+- 549 lines saved for 97% of investigations
+- Manual Read step acceptable for rare feature
+
+**See:** [kb/HANDOFF_MEMO.md](kb/HANDOFF_MEMO.md:1) for complete I0→I1→I2 convergence protocols.
+
 ## Key Concepts
 
 ### Quality Metrics
@@ -406,7 +441,7 @@ When controversy≥6 (political/geopolitical topics), automatically query advers
 | [INVESTIGATION.md](kb/INVESTIGATION.md:1) | Investigation protocols L0-L9, CASCADE | 41KB | §7 APEX Protocol |
 | [INVESTIGATION_TREE.md](kb/INVESTIGATION_TREE.md:1) | **NEW v8.4**: Tree investigation, COMPARABLES_ASYMMETRY | 949 lines | Multi-branch dialectical analysis |
 | [VALIDATION.md](kb/VALIDATION.md:1) | Post-search validation loop | 9KB | §1-5 Validation, §6 Penalties |
-| [HANDOFF_MEMO.md](kb/HANDOFF_MEMO.md:1) | Multi-conversation iteration | 15KB | I0→I1→I2 workflow |
+| [HANDOFF_MEMO.md](kb/HANDOFF_MEMO.md:1) | **Lazy-loaded**: Multi-conversation iteration (<3% usage) | 15KB | I0→I1→I2 workflow (manual Read required) |
 
 ### Improving the KB
 

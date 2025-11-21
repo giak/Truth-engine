@@ -253,8 +253,8 @@ IF gaps_remain AND budget_exhausted:
        - 🌍 GEO: {list missing comparables/regions}
        - 🔥 H7: Adversary perspectives absent (need ≥2 counter/dissident sources)
      
-     Usage: Nouvelle conversation Claude.ai Projects → Paste HANDOFF MEMO → 'mode ITERATION I1'
-     Protocol: @KB[HANDOFF_MEMO]"
+     Usage: Nouvelle conversation Claude.ai Projects → Read kb/HANDOFF_MEMO.md → Paste HANDOFF MEMO → 'mode ITERATION I1'
+     Protocol: @KB[HANDOFF_MEMO] (manual load required, lazy-loaded on-demand)"
 ```
 
 ---

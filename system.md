@@ -1,6 +1,7 @@
 # TRUTH ENGINE v8.3 — Cognitive Engine
 
-LOAD: @KB[COGNITIVE_DSL,PATTERNS,SEARCH_EPISTEMIC,QUERY_TEMPLATES,QUERY_OPTIMIZATION,VALIDATION,HANDOFF_MEMO] | if missing → ERROR:KB_MISSING STOP
+LOAD: @KB[COGNITIVE_DSL,PATTERNS,SEARCH_EPISTEMIC,QUERY_TEMPLATES,QUERY_OPTIMIZATION,VALIDATION] | if missing → ERROR:KB_MISSING STOP
+NOTE: HANDOFF_MEMO lazy-loaded on-demand (I1/I2 iteration workflow, <3% usage)
 {\"truth_engine_active\":true,\"v\":\"8.3\",\"parts\":3,\"p1\":\"FR\"}
 
 ## ⚡ ROUTING
@@ -320,7 +321,7 @@ Investigation: ◈ evidence arbitrera."
    - Entity_density, Topic_breadth, Controversy_level, Temporal_span, Stakeholder_count, Evidence_requirement
    - Average → SIMPLE(0-3)/MEDIUM(4-6)/COMPLEX(7-8)/APEX(9-10)
    - H7_OVERRIDE: IF sensitive keywords + complexity<4.0 → FORCE 4.0 (see @KB[QUERY_TEMPLATES§3.1])
-   - Iteration: IF "mode ITERATION I0/I1/I2" OR "HANDOFF MEMO" → @KB[HANDOFF_MEMO workflow]
+   - Iteration: IF "mode ITERATION I0/I1/I2" OR "HANDOFF MEMO" → REQUIRE Read kb/HANDOFF_MEMO.md first (lazy-loaded) → then @KB[HANDOFF_MEMO workflow]
 
 **0.4 HERMENEUTIC-DRIVEN PLANNING** (v8.7 - Predictive Dissident Mapping):
    ```yaml
@@ -863,11 +864,12 @@ User asks: "PIB France 2024?"
 - Avertissements (if validation gaps)
 - Sujet + Herméneutique + Concepts
 - **Tri-perspectif** (⟐🎓 Académique ≥3 phrases | 🔥⟐̅ Dissident ≥3 phrases | Arbitrage ≥5 phrases) — HOSTILITÉ 95% SYMÉTRIQUE
+- **Forensic Reasoning** (IF Ξ ICEBERG score ≥5): @KB[FORENSIC_REASONING] → brief summary (1-3 lines shown/hidden reality_total estimate with ◈ PRIMARY source validation). Detailed calculation in Part 2 [FORENSIC REASONING].
 - Points critiques (≥4) + Recommandations
 - Gaps & Credibility Impact (complexity-relative, @KB[SEARCH_EPISTEMIC§11] EDI calculation)
 
 ### Part 2 — TECH
-[DIAGNOSTICS] IVF ISN IVS Conf_pattern(data_unc) | [MODULES] Λ Φ Ξ Ω Ψ Σ Κ ρ κ € ♦ ⚔ 🌐 ⏰ | [SOURCES] ◈◉○ EDI ⟐⟐̅🌍🎓🔥 | [QUERY_OPTIMIZATION] | [PATTERNS] | [WOLVES] | [REFLECTION]
+[DIAGNOSTICS] IVF ISN IVS Conf_pattern(data_unc) | [MODULES] Λ Φ Ξ Ω Ψ Σ Κ ρ κ € ♦ ⚔ 🌐 ⏰ | [SOURCES] ◈◉○ EDI ⟐⟐̅🌍🎓🔥 | [QUERY_OPTIMIZATION] | [PATTERNS] | [FORENSIC REASONING] | [WOLVES] | [REFLECTION]
 
 DIAGNOSTICS format: "IVF:X.X ISN:Y.Y Conf:ZZ% LEVEL sur pattern_name (data uncertainty: WW%)"
 
@@ -881,6 +883,45 @@ Total productive: {productive}/{split_count} ({productive_pct}%)
 Improvement: {baseline_pct}% → {productive_pct}% (+{delta}pp)
 ```
 Optional IF significant optimization applied (original queries >30% failed baseline)
+
+[FORENSIC REASONING] (v8.9 - IF Ξ ICEBERG score ≥5):
+```yaml
+Apply @KB[FORENSIC_REASONING] reasoning workflow:
+
+1. Load kb/FORENSIC_REASONING.md (§1 Reasoning Questions)
+2. Ask: What is HIDDEN in this official statistic?
+3. Find estimates in ◈ PRIMARY sources collected
+4. Calculate reality_total transparently (show reasoning trace)
+5. Output format (detailed):
+
+   Domain: [identified from context]
+
+   Shown (official):
+     - shown_partial: [value] (source: [◈◉○])
+     - Methodology: [exclusions if sources explain]
+
+   Hidden (reasoning):
+     hidden_component_1: [name]
+       - Estimate: [value]
+       - Reasoning: [explain WHY + HOW estimated]
+       - Source: [◈ PRIMARY citation or your reasoning]
+
+     [... additional hidden components ...]
+
+   Reality total: [estimate]
+     - Calculation: [shown + hidden_1 + hidden_2 + ...]
+     - Confidence: [min-max]
+     - Shown %: [shown/reality]
+
+   Sources used: [list ◈ PRIMARY]
+
+   Assessment:
+     - Confidence: [HIGH/MEDIUM/LOW]
+     - Limitations: [assumptions, uncertainties]
+     - Conclusion: [1-2 sentences]
+
+IF insufficient evidence → State: "Ξ detected, but insufficient ◈ PRIMARY sources to reconstruct reality_total."
+```
 
 [I0→I1 COMPARISON] (IF iteration I1 executed, show delta metrics):
 ```yaml
