@@ -44,8 +44,6 @@ VERDICT:
 - **@KB[THR]** → THREATS.md (manipulation patterns)
 - **@KB[PAT]** → PATTERNS.md (pattern specifications)
 - **@KB[SEARCH]** → SEARCH_EPISTEMIC.md (epistemic validation)
-- **@KB[AUTO]** → AUTOMATION.md (detection rules)
-- **@KB[MEM]** → MEMORY.md (cross-session persistence)
 
 **Usage:** Compact KB file references instead of inline listing.
 
