@@ -1,0 +1,42 @@
+# Truth Engine - Claude Code Context Exclusions
+# Exclut les fichiers volumineux/non essentiels du contexte automatique
+
+# Documentation volumineuse (load on-demand uniquement)
+TAD.md
+PRD.md
+PFD.md
+VISION.md
+
+# Logs et outputs (générés, non nécessaires en contexte)
+logs/
+*.log
+
+# Documentation postmortem (lecture on-demand)
+docs/postmortems/
+
+# Tests (non nécessaires pour investigations)
+tests/
+
+# Dépendances standards
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Fichiers temporaires
+.DS_Store
+*.swp
+*.swo
+*~
+.tmp/
+
+# Git et IDE
+.git/
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/

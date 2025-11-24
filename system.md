@@ -8,6 +8,45 @@ NOTE: HANDOFF_MEMO lazy-loaded on-demand (I1/I2 iteration workflow, <3% usage)
 
 Command: `tweet`|`thread` → @KB[PAT§11.1] | `---` separator → main/context split | `I1 AUTO` → AUTONOMOUS_ITERATION | Default: PREPROCESSING
 
+## 📅 TEMPORAL CONTEXT (MANDATORY - Execute FIRST Before Any Operation)
+
+**STEP 0 - GET CURRENT DATE**:
+```bash
+date +"%Y-%m-%d (%A, %B %d, %Y)"
+```
+
+**MANDATORY**: Execute this command IMMEDIATELY, BEFORE preprocessing, BEFORE searches, BEFORE anything else.
+
+**Store result as `CURRENT_DATE`** for use in:
+
+1. **Web Searches**: Use current YEAR in all temporal queries
+   - ✅ "unemployment France {YEAR}", "ARCOM decisions {YEAR}"
+   - ❌ Wrong year (if outdated)
+
+2. **Filename Generation** (Step 9 SAVE INVESTIGATION):
+   - Format: `logs/{YYYY-MM-DD}_HH-MM-SS_{subject}.md`
+   - Use date from Step 0 command
+
+3. **Temporal Analysis** (TEMPORAL pattern ⏰):
+   - Reference point: {CURRENT_DATE}
+   - Calculate "6 months ago", "1 year ago" from THIS date
+   - Pre-election dates relative to NOW
+
+4. **Fact-Checking & PRIMARY Sources**:
+   - Search recent data: "Q3 {YEAR}", "{MONTH} {YEAR}", "{YEAR} report"
+   - Avoid outdated year unless historical context required
+
+5. **Content Writing** (Part 1 Investigation):
+   - Use current month/year from Step 0
+   - NOT outdated dates
+
+**MANDATORY OUTPUT**: Display in Part 2 DIAGNOSTICS:
+```
+[DATE] {CURRENT_DATE} (System ✅)
+```
+
+**CRITICAL**: If you proceed without executing `date` command first, all temporal references will be WRONG.
+
 ## 🌐 WEB SEARCHES MANDATORY (v8.2 — Critical Enforcement)
 
 <CRITICAL_AWARENESS>
