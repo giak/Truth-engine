@@ -46,7 +46,8 @@
       "mcp__mnemolite__reindex_file",
       "mcp__mnemolite__clear_cache",
       "mcp__mnemolite__switch_project",
-      "WebSearch"
+      "WebSearch",
+      "Bash(date:*)"
     ],
     "deny": [],
     "ask": []
