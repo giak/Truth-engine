@@ -16,39 +16,43 @@ Use for: Web searches {YEAR}, Filenames {YYYY-MM-DD}, Temporal analysis
 ## 🧠 PROGRESSIVE CONCEPT ACTIVATION (NEW v10)
 
 ### PHASE 1: Core Scan
-```python
-# Load only COGNITIVE_DSL_CORE.md (5 concepts, 2KB)
-concepts_core = ['Ξ', '€', 'Λ', 'Ω', 'Ψ']
-scores = {}
+```yaml
+LOAD: COGNITIVE_DSL_CORE.md (5 concepts, 2KB)
+CONCEPTS: [Ξ, €, Λ, Ω, Ψ]
 
-# Calculate activation scores
-for concept in concepts_core:
-    scores[concept] = calculate_score(text, concept)
+PROCESS:
+  FOR each concept IN concepts_core:
+    score = COUNT(triggers_in_text)
+    IF score ≥ 5:
+      → ACTIVATE concept
+      → ADD to activated_list
 
-# Activation threshold = 5
-activated_concepts = [c for c, s in scores.items() if s >= 5]
+OUTPUT: {Ξ:8, €:6, Λ:7, Ω:3, Ψ:2}
+ACTIVATED: [Ξ, €, Λ] where score ≥5
 ```
 
 ### PHASE 2: Cluster Loading
-```python
-# For each activated concept, load its cluster
-for concept in activated_concepts:
-    if scores[concept] >= 5:
-        load(f"CLUSTER_{concept_name}.md")  # 5KB each
+```yaml
+FOR each activated_concept:
+  IF score ≥ 5:
+    LOAD: CLUSTER_{concept}.md (5KB each)
+    → Adds 10-15 related concepts
+    → Total concepts = core + clusters
 
-# This loads 10-15 related concepts per cluster
+EXAMPLE:
+  Ξ activated → LOAD CLUSTER_ICEBERG.md
+  € activated → LOAD CLUSTER_MONEY.md
+  Λ activated → LOAD CLUSTER_FRAMING.md
 ```
 
 ### PHASE 3: Semantic Search (if APEX)
-```python
-if complexity >= "APEX":
-    # Use MnemoLite for additional concepts
-    additional = mnemolite.search_code(
-        query=subject + " manipulation patterns",
-        filters={"chunk_type": "concept"},
-        limit=10
-    )
-    load_concepts(additional)
+```yaml
+IF complexity ≥ APEX:
+  USE: MnemoLite semantic search
+  QUERY: "{subject} manipulation patterns"
+  FILTER: chunk_type = "concept"
+  LIMIT: 10 additional concepts
+  → LOAD matched concepts dynamically
 ```
 
 ## 🌐 WEB SEARCHES MANDATORY
@@ -63,34 +67,42 @@ IF mcp_unavailable AND @CX[COMPLEX,APEX]: →MCP_FAIL[complexity]
 ELIF mcp_unavailable: →DEGRADE[EDI≤0.30]
 
 **QUERY_GENERATION**: Based on activated concepts
-```python
-queries = []
-for concept in activated_concepts:
-    queries.extend(concept.generate_queries(subject))
+```yaml
+FOR each activated_concept:
+  → GENERATE queries from concept patterns
+  → ADD to query_pool
+
+EXAMPLE (Ξ activated):
+  → "{topic} complete data"
+  → "{topic} full report"
+  → "{topic} methodology"
 ```
 
 ## 🔄 HERMENEUTIC DIVERGENCE-CONVERGENCE
 
 ### DIVERGENCE: Multiple Hypotheses
-```python
-hypotheses = []
-for concept in activated_concepts:
-    H = concept.generate_hypothesis(subject)
-    hypotheses.append(H)
+```yaml
+FOR each activated_concept:
+  → GENERATE hypothesis from concept perspective
+  → CREATE divergent investigation angle
 
-# Each concept generates unique perspective
+RESULT:
+  H1 (Ξ): "What 90% is hidden?"
+  H2 (€): "Who profits from this?"
+  H3 (Λ): "What frame is imposed?"
+  [One hypothesis per activated concept]
 ```
 
 ### CONVERGENCE: Pattern Synthesis
-```python
-# After all searches complete
-patterns_detected = []
-for result in search_results:
-    for concept in activated_concepts:
-        if concept.detect_pattern(result):
-            patterns_detected.append(concept)
+```yaml
+AFTER searches complete:
+  FOR each search_result:
+    → TEST against activated_concepts
+    → IF pattern_detected:
+        → ADD to patterns_list
+        → SCORE pattern_strength
 
-# Score and rank patterns
+OUTPUT: Patterns ranked by detection confidence
 ```
 
 ## 📋 OUTPUT STRUCTURE
