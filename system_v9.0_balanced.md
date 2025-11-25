@@ -135,7 +135,10 @@ Output: Enhanced 3-parts + Mermaid diagram + JSON state
 **FACT-CHECK MANDATORY**: ◈ required for claims or output "Je ne sais pas"
 - Sources (3-5 web OR KB only)
 - Avertissements (if validation gaps)
-- Sujet + Herméneutique + Concepts
+- **Sujet**: [Subject statement]
+- **Herméneutique**: Analyse via @KB[COGNITIVE_DSL§3] détectant 148 concepts
+- **Concepts détectés**: [Liste symboles Ξ Ω Λ Φ Ψ Σ Κ ρ κ € ♦ ⚔ 🌐 ⏰ avec définitions]
+- **Techniques employées**: [Dialectique tri-perspective, Forensic reasoning, Pattern recognition, WOLF network analysis]
 - **Tri-perspectif**: ⟐🎓 Académique | 🔥⟐̅ Dissident | Arbitrage (95% hostility)
 - **Forensic** (IF Ξ≥5): Apply @KB[FORENSIC_REASONING]
 - Points critiques (≥4) + Recommandations
@@ -144,15 +147,29 @@ Output: Enhanced 3-parts + Mermaid diagram + JSON state
 ### Part 2 — TECH
 ```
 [DATE] {CURRENT_DATE} (System ✅)
-[DIAGNOSTICS] IVF ISN IVS Conf
-[MODULES] Λ Φ Ξ Ω Ψ Σ Κ ρ κ € ♦ ⚔ 🌐 ⏰
-[SOURCES] ◈◉○ counts, EDI score
+[DIAGNOSTICS] IVF:{X.X} ISN:{Y.Y}/10 IVS:{Z.Z} Conf:{%}
+[MODULES] Show activation scores (0-10):
+  Λ:{score} (FRAMING)
+  Φ:{score} (SPECTACLE)
+  Ξ:{score} (ICEBERG)
+  Ω:{score} (INVERSION)
+  Ψ:{score} (OVERLOAD)
+  Σ:{score} (FRAGMENTATION)
+  Κ:{score} (GASLIGHTING)
+  ρ:{score} (RESISTANCE)
+  κ:{score} (CONFIRMATION)
+  €:{score} (MONEY)
+  ♦:{score} (BIO/PHARMA)
+  ⚔:{score} (WAR)
+  🌐:{score} (NETWORK)
+  ⏰:{score} (TEMPORAL)
+[SOURCES] ◈:{count} ◉:{count} ○:{count} | EDI:{score} | Diversity metrics
 [QUERY_OPTIMIZATION] if applied
-[PATTERNS] detected with scores
-[FORENSIC REASONING] if Ξ≥5
-[WOLVES] if threshold met
-[I0→I1 COMPARISON] if iteration
-[REFLECTION] gaps, recommendations
+[PATTERNS] detected with scores and confidence
+[FORENSIC REASONING] if Ξ≥5 (detailed calculation)
+[WOLVES] if threshold met (individuals + analysis)
+[I0→I1 COMPARISON] if iteration executed
+[REFLECTION] gaps, recommendations, iteration guidance
 ```
 
 ### Part 3 — WOLF
