@@ -1,7 +1,8 @@
 # Prompts — Guide d'Utilisation
 
-**Version :** 2.0
-**Date :** 2025-11-23
+**Version :** 3.0
+**Date :** 2025-11-25
+**Truth Engine :** v10.1 TEXTUAL (Progressive Activation + Analyse DSL Obligatoire)
 **Usage :** Guide pragmatique des prompts Truth Engine + Dashboard suivi
 
 ---
@@ -12,13 +13,14 @@
 prompts/
 ├── README.md                           # Ce guide
 ├── systems/                            # System prompts agentiques
-│   ├── tweet-engine-v2.0.md           # CURRENT: Tweet generation (agentique MODE 1-4)
+│   ├── tweet-engine-v3.0.md           # CURRENT: Tweet generation (agentique MODE 1-4)
 │   └── promptsmith-leonardo-v2.0.md   # CURRENT: Leonardo.ai prompts
 ├── outputs/                            # Productions finales
 │   └── 2025-11-23_trump-ukraine-braquage.md  # Exemple tweet APEX
 └── archive/                            # Anciennes versions
-    ├── tweet-long-2025.md             # v4.7 (archived, replaced by tweet-engine-v2.0)
+    ├── tweet-long-2025.md             # v4.7 (archived, replaced by tweet-engine-v3.0)
     ├── tweet-engine-v1.0.md           # v1.0 (REJECTED - approche prescriptive)
+    ├── tweet-engine-v3.0.md           # v2.0 (archived, replaced by v3.0)
     └── ...                            # Anciennes itérations
 ```
 
@@ -28,7 +30,7 @@ prompts/
 
 | Prompt | Version | Dernière MAJ | Statut | Usage | Performance |
 |--------|---------|--------------|--------|-------|-------------|
-| [systems/tweet-engine-v2.0.md](systems/tweet-engine-v2.0.md) | v2.0 | 2025-11-23 | ✅ Stable | Investigation → Tweet agentique (MODE 1-4) | 1 output testé |
+| [systems/tweet-engine-v3.0.md](systems/tweet-engine-v3.0.md) | v3.0 | 2025-11-25 | ✅ Stable | Investigation → Tweet agentique (MODE 1-4) + v10.1 DSL | 1 output testé |
 | [systems/promptsmith-leonardo-v2.0.md](systems/promptsmith-leonardo-v2.0.md) | v2.0 | 2025-11-20 | ✅ Stable | Génération prompts Leonardo.ai | Text accuracy 90%+ |
 
 ### Métriques Truth Engine
@@ -46,7 +48,8 @@ prompts/
 
 | Date | Changement | Impact | Fichiers |
 |------|------------|--------|----------|
-| 2025-11-23 | **tweet-engine v2.0 (agentique)** | Approche réflexive MODE 1-4 vs prescriptive v1.0 | systems/tweet-engine-v2.0.md |
+| 2025-11-25 | **tweet-engine v3.0 (v10.1 DSL)** | Intégration analyse textuelle DSL mandatory | systems/tweet-engine-v3.0.md |
+| 2025-11-23 | **tweet-engine v2.0 (agentique)** | Approche réflexive MODE 1-4 vs prescriptive v1.0 | systems/tweet-engine-v3.0.md (archived) |
 | 2025-11-23 | Organisation arborescence (systems/outputs/archive) | Meilleure structure prompts | prompts/* |
 | 2025-11-20 | Promptsmith Leonardo v2.0 | Best practices 2025 (Ideogram 3.0, prompts 200-400 chars) | systems/promptsmith-leonardo-v2.0.md |
 | 2025-11-18 | **tweet-long v4.7 (archived)** | Character substitution, visual bypass, DSA-safe | archive/tweet-long-2025.md |
@@ -71,7 +74,8 @@ prompts/
 # ═══════════════════════════════════════════════════════
 
 claude-code "Investigation APEX: '[SUJET DU JOUR]'.
-Load system.md + kb/ via MnemoLite semantic search.
+Load system.md + kb/COGNITIVE_DSL_CORE.md.
+Progressive concept activation. Full textual DSL analysis mandatory.
 L0-L9 full cascade. WOLF MODE if political.
 Target: EDI≥0.70, sources≥15, wolves≥8 if political.
 Patterns: ICEBERG MAX, MONEY, NETWORK, TEMPORAL.
@@ -83,7 +87,7 @@ Save logs/$(date +%Y-%m-%d_%H-%M)_[sujet-court].md"
 # ÉTAPE 2 : GÉNÉRATION TWEET AGENTIQUE (30min)
 # ═══════════════════════════════════════════════════════
 
-claude-code "Load prompts/systems/tweet-engine-v2.0.md.
+claude-code "Load prompts/systems/tweet-engine-v3.0.md.
 
 MODE 1 (PLAN): Analyze investigation logs/[FICHIER_CRÉÉ_ÉTAPE_1].md
 Generate 10-section narrative plan (Acte I-II-III structure).
@@ -156,7 +160,8 @@ Output:
 # ═══════════════════════════════════════════════════════
 
 claude-code "Analyse: '[SUJET RAPIDE]'.
-Load system.md + kb/.
+Load system.md + kb/COGNITIVE_DSL_CORE.md.
+Progressive activation. Full textual analysis.
 Target: EDI≥0.30 (SIMPLE) ou ≥0.50 (MEDIUM), sources≥5-10.
 L0-L2 protocols (Surface, Acteurs, Cui Bono).
 Save logs/$(date +%Y-%m-%d_%H-%M)_[sujet-court].md"
@@ -167,7 +172,7 @@ Save logs/$(date +%Y-%m-%d_%H-%M)_[sujet-court].md"
 # ÉTAPE 2 : TWEET COURT (5-10min)
 # ═══════════════════════════════════════════════════════
 
-claude-code "Load prompts/systems/tweet-engine-v2.0.md.
+claude-code "Load prompts/systems/tweet-engine-v3.0.md.
 
 MODE 1 (PLAN): Analyze investigation logs/[FICHIER_CRÉÉ_ÉTAPE_1].md
 Generate SHORT tweet plan (3-4 sections, <2000 chars).
@@ -207,6 +212,85 @@ Save prompts/outputs/$(date +%Y-%m-%d)_[sujet-court]-tweet.md"
 
 ---
 
+## ⚡ Nouveautés Truth Engine v10.1 (2025-11-25)
+
+### 🎯 Progressive Concept Activation
+
+**Innovation majeure** : Truth Engine v10.1 charge uniquement les concepts pertinents au lieu des 148 concepts systématiquement.
+
+**Fonctionnement :**
+1. **Core scan** : 5 concepts essentiels analysent le texte (Ξ, €, Λ, Ω, Ψ)
+2. **Score** : Chaque concept reçoit un score 0-10
+3. **Activation** : Si score ≥5 → Charge cluster thématique (10-15 concepts liés)
+4. **Économie** : -92% mémoire (28KB vs 370KB), 4× plus rapide
+
+**Résultat :**
+- Utilisation concepts : 2.7% → **100%** (seuls concepts pertinents chargés)
+- Patterns détectés : 1 → **7+** (meilleure détection)
+- Performance : **4× plus rapide**
+
+### 📊 Analyse Textuelle DSL [OBLIGATOIRE]
+
+**Nouveauté v10.1** : L'analyse textuelle DSL est maintenant **MANDATORY** dans tous les outputs.
+
+**Structure output PART 1 (toujours présente) :**
+
+```markdown
+## ANALYSE TEXTUELLE DSL
+
+### Concepts Activés (X/148)
+Λ (FRAMING) = 8/10
+  Quote: "texte exact du tweet/article"
+  Technique: EMOTIONAL_TRIGGER + FALSE_DICHOTOMY
+  Révèle: Binary framing cachant complexité
+
+[Minimum 10 concepts analysés avec scores + quotes]
+
+### Techniques Rhétoriques
+1. EMOTIONAL_TRIGGER (9/10)
+2. FALSE_DICHOTOMY (9/10)
+3. SYNECDOQUE (8/10)
+[...]
+
+### Déconstruction Sémantique
+1. SOUS-ENTENDUS : [implications non dites]
+2. NON-DITS : [omissions stratégiques]
+3. CONTRADICTIONS : [tensions internes]
+4. PRÉSUPPOSÉS : [assumptions cachées]
+
+### Cartographie Dialectique
+THÈSE : [Position du texte]
+ANTITHÈSE : [Position opposée]
+SYNTHÈSE : [Ce qui se passe réellement]
+TENSION : [Contradiction non résolue]
+```
+
+**Vocabulaire précis (exit "herméneutique") :**
+- ~~"Analyse herméneutique"~~ → **"Analyse textuelle DSL"**
+- ~~"Herméneutique divergente"~~ → **"Génération d'hypothèses"**
+- ~~"Synthèse herméneutique"~~ → **"Cartographie dialectique"**
+- ~~"Patterns herméneutiques"~~ → **Techniques rhétoriques**
+
+**Exemple complet** : [prompts/outputs/2025-11-25_bardella-mercosur-analyse.md](outputs/2025-11-25_bardella-mercosur-analyse.md)
+
+### 🔧 Prompt Minimal v10.1
+
+```bash
+"Analyse: '[VOTRE SUJET]'.
+Load system.md + kb/COGNITIVE_DSL_CORE.md.
+Progressive activation. Full textual DSL analysis.
+Truth Engine protocol."
+```
+
+**Automatique** :
+- ✅ Activation progressive concepts
+- ✅ Analyse textuelle DSL (PART 1)
+- ✅ Investigation principale (PART 2)
+- ✅ Diagnostics techniques (PART 3)
+- ✅ WOLF report si applicable (PART 4)
+
+---
+
 ## 🔍 Truth Engine — Investigation Protocol
 
 ### Niveaux de Complexité (Auto-Détecté)
@@ -239,37 +323,48 @@ Truth Engine évalue automatiquement la complexité du sujet (0-10 scale, 6 dime
 
 **Basic Investigation (Quick) :**
 ```bash
-claude-code "Analyse: [SUJET]. Load system.md + kb/. Truth Engine protocol."
+claude-code "Analyse: [SUJET].
+Load system.md + kb/COGNITIVE_DSL_CORE.md.
+Progressive activation. Full textual analysis.
+Truth Engine protocol."
 ```
 → Complexité auto-détectée, protocoles L0-L6 minimum
+→ Analyse textuelle DSL obligatoire
 
 **Investigation Ciblée (Specify Depth) :**
 ```bash
-claude-code "Analyse: [SUJET]. Load system.md + kb/.
+claude-code "Analyse: [SUJET].
+Load system.md + kb/COGNITIVE_DSL_CORE.md.
+Progressive activation. Full textual analysis.
 Investigation L2 CUI_BONO + L8 NET.
 Target: EDI≥0.60, sources≥12."
 ```
 → Force protocoles spécifiques L2 (qui profite) + L8 (réseaux)
+→ Analyse textuelle DSL obligatoire
 
 **Investigation APEX (Full Depth) :**
 ```bash
 claude-code "Investigation APEX: [SUJET].
-Load system.md + kb/ via MnemoLite semantic search.
+Load system.md + kb/COGNITIVE_DSL_CORE.md.
+Progressive activation. Full textual DSL analysis mandatory.
 Target: EDI≥0.80, sources≥20, wolves≥12 if political.
 ICEBERG MAX. L0-L9 full cascade.
 Save logs/$(date +%Y-%m-%d)_[sujet].md"
 ```
 → Tous protocoles L0-L9, pattern detection max, wolf hunting
+→ Analyse textuelle DSL complète (concepts, techniques, déconstruction, dialectique)
 
 **Investigation Tree (Multi-Branch Dialectique) :**
 ```bash
 claude-code "Investigation APEX: [SUJET].
-Load system.md + kb/INVESTIGATION_TREE.md.
+Load system.md + kb/COGNITIVE_DSL_CORE.md + kb/INVESTIGATION_TREE.md.
+Progressive activation. Full textual DSL analysis mandatory.
 Multi-branch dialectical analysis.
 Target: EDI≥0.80, sources≥20, wolves≥12.
 COMPARABLES_ASYMMETRY across branches."
 ```
 → Hypothèses adversariales parallèles, comparaison asymétries
+→ Analyse textuelle DSL pour chaque branche
 
 ### Patterns Détectables
 
@@ -340,12 +435,14 @@ Truth Engine optimise automatiquement les recherches web complexes.
 **1. Investigation Simple (Fact-Check) :**
 ```bash
 claude-code "Analyse: 'Chômage 7.4% France oct 2024'.
-Load system.md + kb/. Verify official sources."
+Load system.md + kb/COGNITIVE_DSL_CORE.md.
+Progressive activation. Full textual analysis.
+Verify official sources."
 ```
 → Complexité: SIMPLE (2/10)
 → Sources: 5 (INSEE, Eurostat, OECD)
 → Durée: 10 min
-→ Output: Validation fact + contexte
+→ Output: Validation fact + contexte + analyse textuelle DSL
 
 **2. Investigation Medium (Réforme) :**
 ```bash
@@ -423,7 +520,7 @@ Save logs/$(date +%Y-%m-%d)_[sujet].md"
 # Étape 1: Investigation (voir workflow 1)
 
 # Étape 2: Génération tweet agentique MODE 1-4
-claude-code "Load prompts/systems/tweet-engine-v2.0.md.
+claude-code "Load prompts/systems/tweet-engine-v3.0.md.
 
 MODE 1 (PLAN): Analyze logs/[fichier].md
 MODE 2 (SECTIONS): Write 10 sections progressively (25K chars budget)
@@ -494,7 +591,7 @@ Generate 3 variants + fusion final."
 
 ## 📚 Référence Rapide Prompts
 
-### systems/tweet-engine-v2.0.md
+### systems/tweet-engine-v3.0.md
 
 **Fonction :** Investigation Truth Engine → Tweet long narratif (approche agentique)
 
@@ -600,7 +697,7 @@ claude-code "Apply prompts/[prompt-file].md v4.1 on [test-case]"
 
 ### Signaler un problème
 
-**Prompt systems/tweet-engine-v2.0.md :**
+**Prompt systems/tweet-engine-v3.0.md :**
 - Section trop longue → Ajuster budget allocation
 - Erreur dates/sources non détectée → Améliorer MODE 4 (VALIDATE)
 - Jargon DSL non traduit → Renforcer règles formatting citoyen
@@ -630,7 +727,7 @@ ICEBERG MAX."
 # EDI: 0.68, Sources: 65 web searches, 7 révélations convergentes
 
 # ÉTAPE 2: Tweet Agentique v2.0 (30 min)
-claude-code "Load prompts/systems/tweet-engine-v2.0.md.
+claude-code "Load prompts/systems/tweet-engine-v3.0.md.
 MODE 1 (PLAN): Analyze PLF/PLFSS investigation.
 MODE 2-3: Write 10 sections, polish narrative.
 MODE 4: Fact-check dates/montants.
@@ -677,7 +774,7 @@ Target: EDI≥0.70, sources≥15."
 # Résultat: logs/2025-11-XX_apex-sujet.md
 
 # 11h30-12h00 : Tweet Agentique v2.0 (30min)
-claude-code "Load prompts/systems/tweet-engine-v2.0.md.
+claude-code "Load prompts/systems/tweet-engine-v3.0.md.
 MODE 1-4: Generate narrative tweet from investigation APEX [sujet].
 Save prompts/outputs/2025-11-XX_[sujet].md"
 
@@ -801,10 +898,11 @@ Load system.md + kb/. L8 NET if relevant. EDI≥0.50."
 4. Tester validation
 
 **Question usage Truth Engine ?**
-Voir [CLAUDE.md](../CLAUDE.md) - Guide complet Truth Engine v8.4
+Voir [CLAUDE.md](../CLAUDE.md) - Guide complet Truth Engine v10.1
 
 ---
 
-**Dernière mise à jour :** 2025-11-18
+**Dernière mise à jour :** 2025-11-25
+**Version Truth Engine :** v10.1 TEXTUAL (Progressive Activation + Analyse DSL Obligatoire)
 **Maintenu par :** Truth Engine Project
 **License :** Usage interne projet
