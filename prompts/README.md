@@ -1,8 +1,9 @@
 # Prompts — Guide d'Utilisation
 
-**Version :** 3.0
+**Version :** 4.0
 **Date :** 2025-11-25
 **Truth Engine :** v10.1 TEXTUAL (Progressive Activation + Analyse DSL Obligatoire)
+**Tweet Engine :** v4.0 Hook-First (MICRO/MEDIUM/LONG + Fact-Check + Auto-Save)
 **Usage :** Guide pragmatique des prompts Truth Engine + Dashboard suivi
 
 ---
@@ -13,14 +14,14 @@
 prompts/
 ├── README.md                           # Ce guide
 ├── systems/                            # System prompts agentiques
-│   ├── tweet-engine-v3.0.md           # CURRENT: Tweet generation (agentique MODE 1-4)
+│   ├── tweet-engine-v4.0.md           # CURRENT: Hook-first viral engine (MICRO/MEDIUM/LONG)
+│   ├── tweet-engine-v3.0.md           # LEGACY: Articles longs fact-checkés (MODE 1-4)
 │   └── promptsmith-leonardo-v2.0.md   # CURRENT: Leonardo.ai prompts
 ├── outputs/                            # Productions finales
 │   └── 2025-11-23_trump-ukraine-braquage.md  # Exemple tweet APEX
 └── archive/                            # Anciennes versions
     ├── tweet-long-2025.md             # v4.7 (archived, replaced by tweet-engine-v3.0)
     ├── tweet-engine-v1.0.md           # v1.0 (REJECTED - approche prescriptive)
-    ├── tweet-engine-v3.0.md           # v2.0 (archived, replaced by v3.0)
     └── ...                            # Anciennes itérations
 ```
 
@@ -30,7 +31,8 @@ prompts/
 
 | Prompt | Version | Dernière MAJ | Statut | Usage | Performance |
 |--------|---------|--------------|--------|-------|-------------|
-| [systems/tweet-engine-v3.0.md](systems/tweet-engine-v3.0.md) | v3.0 | 2025-11-25 | ✅ Stable | Investigation → Tweet agentique (MODE 1-4) + v10.1 DSL | 1 output testé |
+| [systems/tweet-engine-v4.0.md](systems/tweet-engine-v4.0.md) | v4.0 | 2025-11-25 | ✅ **NEW** | Hook-first viral (MICRO/MEDIUM/LONG) + fact-check + auto-save | 1 output testé |
+| [systems/tweet-engine-v3.0.md](systems/tweet-engine-v3.0.md) | v3.0 | 2025-11-25 | 📦 Legacy | Articles longs fact-checkés (MODE 1-4) | Remplacé par v4.0 |
 | [systems/promptsmith-leonardo-v2.0.md](systems/promptsmith-leonardo-v2.0.md) | v2.0 | 2025-11-20 | ✅ Stable | Génération prompts Leonardo.ai | Text accuracy 90%+ |
 
 ### Métriques Truth Engine
@@ -48,8 +50,9 @@ prompts/
 
 | Date | Changement | Impact | Fichiers |
 |------|------------|--------|----------|
-| 2025-11-25 | **tweet-engine v3.0 (v10.1 DSL)** | Intégration analyse textuelle DSL mandatory | systems/tweet-engine-v3.0.md |
-| 2025-11-23 | **tweet-engine v2.0 (agentique)** | Approche réflexive MODE 1-4 vs prescriptive v1.0 | systems/tweet-engine-v3.0.md (archived) |
+| 2025-11-25 | **tweet-engine v4.0 (hook-first)** | Architecture 6 layers, hook-first, 3 modes (MICRO/MEDIUM/LONG), auto-save | systems/tweet-engine-v4.0.md |
+| 2025-11-25 | **tweet-engine v3.0 → Legacy** | Remplacé par v4.0, garde pour articles longs si besoin | systems/tweet-engine-v3.0.md |
+| 2025-11-23 | **tweet-engine v2.0 (agentique)** | Approche réflexive MODE 1-4 vs prescriptive v1.0 | (archived) |
 | 2025-11-23 | Organisation arborescence (systems/outputs/archive) | Meilleure structure prompts | prompts/* |
 | 2025-11-20 | Promptsmith Leonardo v2.0 | Best practices 2025 (Ideogram 3.0, prompts 200-400 chars) | systems/promptsmith-leonardo-v2.0.md |
 | 2025-11-18 | **tweet-long v4.7 (archived)** | Character substitution, visual bypass, DSA-safe | archive/tweet-long-2025.md |
@@ -591,7 +594,61 @@ Generate 3 variants + fusion final."
 
 ## 📚 Référence Rapide Prompts
 
-### systems/tweet-engine-v3.0.md
+### systems/tweet-engine-v4.0.md ⭐ NEW
+
+**Fonction :** Investigation Truth Engine → Tweet viral (hook-first, 3 longueurs)
+
+**Architecture 6 layers :**
+- **MODE 0** : Setup interactif (length auto-détecté, user confirme)
+- **LAYER 1** : Analyse investigation (FactLedger, AcronymLedger)
+- **LAYER 2** : Hook Generator (6 formulas, premiers 250 chars critiques)
+- **LAYER 3** : Content Engine (MICRO/MEDIUM/LONG)
+- **LAYER 4** : Fact-check (WebSearch, corrections auto)
+- **LAYER 5** : Quality Gates (5 checks: structure, acronymes, anti-LLM, accessibility, length)
+- **LAYER 6** : Auto-save (logs/{date}_tweet_{subject}_{MODE}.md)
+
+**3 modes longueur :**
+
+| Mode | Chars | Words | Sections | Usage |
+|------|-------|-------|----------|-------|
+| **MICRO** | <500 | <100 | 0 | Hook pur, max viral |
+| **MEDIUM** | 1500-2500 | 350-400 | 3-5 | Analyse développée |
+| **LONG** | 8000-25000 | 1500-4000 | 7-9 | Synthèse investigation complète |
+
+**6 hook formulas (auto-sélection) :**
+
+| Formula | Pattern | Trigger |
+|---------|---------|---------|
+| PROVOCATIVE | "Pourquoi personne ne parle de X ?" | controversy ≥7 |
+| CONTRARIAN | "On vous dit X. Les chiffres disent Y." | debunks_narrative |
+| CONSEQUENCE | "Votre facture augmente. Voici pourquoi." | citizen_impact |
+| PATTERN | "3 ministres. 3 versions. 0 cohérence." | has_contradiction |
+| EMOTIONAL | "187,000€/an. C'est ce que gagne X." | default |
+| REVELATION | "Document interne. Ce qu'il révèle." | has_primary_source |
+
+**3 user checkpoints :**
+1. Après setup (confirme length)
+2. Après hook (valide avant contenu)
+3. Après quality gates (approbation finale)
+
+**Commandes :**
+```bash
+# Auto-detect length
+Mode TWEET: logs/investigation.md
+
+# Force specific length
+Mode TWEET MICRO: logs/investigation.md
+Mode TWEET MEDIUM: logs/investigation.md
+Mode TWEET LONG: logs/investigation.md
+```
+
+**Philosophy :** "Stop the scroll first. Inform after. Verify always."
+
+**Design doc :** [docs/plans/2025-11-25-tweet-engine-v4-design.md](../docs/plans/2025-11-25-tweet-engine-v4-design.md)
+
+---
+
+### systems/tweet-engine-v3.0.md (Legacy)
 
 **Fonction :** Investigation Truth Engine → Tweet long narratif (approche agentique)
 
