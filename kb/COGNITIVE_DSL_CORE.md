@@ -60,22 +60,16 @@
 
 ## ACTIVATION PROTOCOL
 
-```python
-def scan_core_concepts(text, subject):
-    scores = {}
-    activated_clusters = []
-
-    # Calculate scores for each core concept
-    scores['Ξ'] = calculate_iceberg_score(text)
-    scores['€'] = calculate_money_score(text)
-    scores['Λ'] = calculate_framing_score(text)
-    scores['Ω'] = calculate_inversion_score(text)
-    scores['Ψ'] = calculate_overload_score(text)
-
-    # Activate clusters if threshold met
-    for concept, score in scores.items():
-        if score >= 5:
-            activated_clusters.append(f"CLUSTER_{concept}.md")
-
-    return scores, activated_clusters
+```yaml
+SCAN_PROTOCOL:
+  INPUT: text + subject
+  PROCESS:
+    FOR each concept IN [Ξ, €, Λ, Ω, Ψ]:
+      score = COUNT(triggers_detected)
+      IF score ≥ 5:
+        LOAD: CLUSTER_{concept}.md
+        ACTIVATE: related_concepts
+  OUTPUT:
+    scores: {Ξ:8, €:6, Λ:7, Ω:3, Ψ:2}
+    activated: [CLUSTER_ICEBERG, CLUSTER_MONEY, CLUSTER_FRAMING]
 ```
