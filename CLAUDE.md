@@ -80,6 +80,36 @@ index_project(project_path="/home/giak/projects/truth-engine/kb", repository="tr
 - Avoid redundant research on related topics
 - EDI improves with reused validated sources
 
+## Substack Engine (v1.0)
+
+**Purpose:** Publish investigations to Substack with tweet hooks
+
+**Files:**
+- System prompt: [prompts/systems/substack-engine-v1.0.md](prompts/systems/substack-engine-v1.0.md)
+- Design doc: [docs/plans/2025-11-26-substack-engine-design.md](docs/plans/2025-11-26-substack-engine-design.md)
+- API: `~/projects/Substack-API/` (external, not in repo)
+
+**Usage:**
+```bash
+# 1. Start API server (separate terminal)
+cd ~/projects/Substack-API && source venv/bin/activate && python api_server.py
+
+# 2. Generate article + tweet
+claude "Mode SUBSTACK: logs/2025-11-26_investigation.md"
+```
+
+**Workflow:**
+1. PHASE 0: Read investigation, extract facts
+2. PHASE 1: Generate tweet hook (≤235 chars + URL)
+3. PHASE 2: Generate Substack article (800-2000 words)
+4. PHASE 3: Publish via API → Get URL
+5. PHASE 4: Output files saved
+
+**Output files:**
+- `prompts/outputs/YYYY-MM-DD_sujet-substack.md` - Article backup
+- `prompts/outputs/YYYY-MM-DD_sujet-tweet.txt` - Tweet ready to post
+- `prompts/outputs/YYYY-MM-DD_sujet-meta.json` - Metadata
+
 ---
 
 **Version** : Truth Engine v10.2 KNOWLEDGE_GRAPH (system.md v10.2)

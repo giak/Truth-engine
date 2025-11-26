@@ -1,9 +1,10 @@
 # Prompts — Guide d'Utilisation
 
-**Version :** 4.0
-**Date :** 2025-11-25
-**Truth Engine :** v10.1 TEXTUAL (Progressive Activation + Analyse DSL Obligatoire)
+**Version :** 5.0
+**Date :** 2025-11-26
+**Truth Engine :** v10.2 KNOWLEDGE_GRAPH (MnemoLite Integration)
 **Tweet Engine :** v4.0 Hook-First (MICRO/MEDIUM/LONG + Fact-Check + Auto-Save)
+**Substack Engine :** v1.0 (Tweet Hook + Article Long + API Publication)
 **Usage :** Guide pragmatique des prompts Truth Engine + Dashboard suivi
 
 ---
@@ -15,6 +16,7 @@ prompts/
 ├── README.md                           # Ce guide
 ├── systems/                            # System prompts agentiques
 │   ├── tweet-engine-v4.0.md           # CURRENT: Hook-first viral engine (MICRO/MEDIUM/LONG)
+│   ├── substack-engine-v1.0.md        # NEW: Tweet hook + Substack article + API
 │   ├── tweet-engine-v3.0.md           # LEGACY: Articles longs fact-checkés (MODE 1-4)
 │   └── promptsmith-leonardo-v2.0.md   # CURRENT: Leonardo.ai prompts
 ├── outputs/                            # Productions finales
@@ -31,7 +33,8 @@ prompts/
 
 | Prompt | Version | Dernière MAJ | Statut | Usage | Performance |
 |--------|---------|--------------|--------|-------|-------------|
-| [systems/tweet-engine-v4.0.md](systems/tweet-engine-v4.0.md) | v4.0 | 2025-11-25 | ✅ **NEW** | Hook-first viral (MICRO/MEDIUM/LONG) + fact-check + auto-save | 1 output testé |
+| [systems/substack-engine-v1.0.md](systems/substack-engine-v1.0.md) | v1.0 | 2025-11-26 | ✅ **NEW** | Tweet hook (≤235c) + Article Substack + API publication | Pipeline testé ✅ |
+| [systems/tweet-engine-v4.0.md](systems/tweet-engine-v4.0.md) | v4.0 | 2025-11-25 | ✅ Stable | Hook-first viral (MICRO/MEDIUM/LONG) + fact-check + auto-save | 1 output testé |
 | [systems/tweet-engine-v3.0.md](systems/tweet-engine-v3.0.md) | v3.0 | 2025-11-25 | 📦 Legacy | Articles longs fact-checkés (MODE 1-4) | Remplacé par v4.0 |
 | [systems/promptsmith-leonardo-v2.0.md](systems/promptsmith-leonardo-v2.0.md) | v2.0 | 2025-11-20 | ✅ Stable | Génération prompts Leonardo.ai | Text accuracy 90%+ |
 
@@ -50,6 +53,7 @@ prompts/
 
 | Date | Changement | Impact | Fichiers |
 |------|------------|--------|----------|
+| 2025-11-26 | **substack-engine v1.0** | Tweet hook (≤235c) + Article Substack + API JPres-Projects/Substack-API | systems/substack-engine-v1.0.md |
 | 2025-11-25 | **tweet-engine v4.0 (hook-first)** | Architecture 6 layers, hook-first, 3 modes (MICRO/MEDIUM/LONG), auto-save | systems/tweet-engine-v4.0.md |
 | 2025-11-25 | **tweet-engine v3.0 → Legacy** | Remplacé par v4.0, garde pour articles longs si besoin | systems/tweet-engine-v3.0.md |
 | 2025-11-23 | **tweet-engine v2.0 (agentique)** | Approche réflexive MODE 1-4 vs prescriptive v1.0 | (archived) |
@@ -87,24 +91,19 @@ Save logs/$(date +%Y-%m-%d_%H-%M)_[sujet-court].md"
 # Résultat: logs/2025-11-18_09-30_plf-2025.md
 
 # ═══════════════════════════════════════════════════════
-# ÉTAPE 2 : GÉNÉRATION TWEET AGENTIQUE (30min)
+# ÉTAPE 2 : GÉNÉRATION TWEET v4.0 (15-30min)
 # ═══════════════════════════════════════════════════════
 
-claude-code "Load prompts/systems/tweet-engine-v3.0.md.
+claude-code "Load prompts/systems/tweet-engine-v4.0.md.
+Mode TWEET LONG: logs/[FICHIER_CRÉÉ_ÉTAPE_1].md"
 
-MODE 1 (PLAN): Analyze investigation logs/[FICHIER_CRÉÉ_ÉTAPE_1].md
-Generate 10-section narrative plan (Acte I-II-III structure).
+# Le LLM va:
+# - Analyser investigation → proposer length (LONG pour APEX)
+# - Générer hook (6 formulas) → USER valide
+# - Générer contenu → fact-check → quality gates
+# - Auto-save dans logs/
 
-MODE 2 (SECTIONS): Write sections progressively.
-Budget: 25,000 chars, format citoyen (no jargon).
-
-MODE 3 (ASSEMBLY): Polish narrative flow.
-
-MODE 4 (VALIDATE): Fact-check dates/sources.
-
-Save prompts/outputs/$(date +%Y-%m-%d)_[sujet-court].md"
-
-# Résultat: prompts/outputs/2025-11-23_plf-2025.md
+# Résultat: logs/2025-11-25_tweet_[sujet]_LONG.md
 
 # ═══════════════════════════════════════════════════════
 # ÉTAPE 3 : GÉNÉRATION INFOGRAPHIE LEONARDO.AI (15min)
@@ -172,20 +171,19 @@ Save logs/$(date +%Y-%m-%d_%H-%M)_[sujet-court].md"
 # Résultat: logs/2025-11-18_14-20_salaire-median-2024.md
 
 # ═══════════════════════════════════════════════════════
-# ÉTAPE 2 : TWEET COURT (5-10min)
+# ÉTAPE 2 : TWEET v4.0 (5-10min)
 # ═══════════════════════════════════════════════════════
 
-claude-code "Load prompts/systems/tweet-engine-v3.0.md.
+claude-code "Load prompts/systems/tweet-engine-v4.0.md.
+Mode TWEET: logs/[FICHIER_CRÉÉ_ÉTAPE_1].md"
 
-MODE 1 (PLAN): Analyze investigation logs/[FICHIER_CRÉÉ_ÉTAPE_1].md
-Generate SHORT tweet plan (3-4 sections, <2000 chars).
+# Le LLM va:
+# - Auto-détecter length (MICRO ou MEDIUM selon facts)
+# - Générer hook viral → USER valide
+# - Générer contenu → fact-check → quality gates
+# - Auto-save dans logs/
 
-MODE 2 (SECTIONS): Write concise narrative.
-Format citoyen, no jargon, sources institutionnelles.
-
-Save prompts/outputs/$(date +%Y-%m-%d)_[sujet-court]-tweet.md"
-
-# Résultat: Tweet prêt à publier (copier-coller)
+# Résultat: logs/2025-11-25_tweet_[sujet]_MICRO.md ou _MEDIUM.md
 
 # ═══════════════════════════════════════════════════════
 # ÉTAPE 3 : PUBLICATION DIRECTE
@@ -347,12 +345,7 @@ Target: EDI≥0.60, sources≥12."
 
 **Investigation APEX (Full Depth) :**
 ```bash
-claude-code "Investigation APEX: [SUJET].
-Load system.md + kb/COGNITIVE_DSL_CORE.md.
-Progressive activation. Full textual DSL analysis mandatory.
-Target: EDI≥0.80, sources≥20, wolves≥12 if political.
-ICEBERG MAX. L0-L9 full cascade.
-Save logs/$(date +%Y-%m-%d)_[sujet].md"
+claude-code "c"
 ```
 → Tous protocoles L0-L9, pattern detection max, wolf hunting
 → Analyse textuelle DSL complète (concepts, techniques, déconstruction, dialectique)
@@ -515,33 +508,33 @@ Save logs/$(date +%Y-%m-%d)_[sujet].md"
 
 ---
 
-### 2️⃣ Tweet Agentique (v2.0)
+### 2️⃣ Tweet Engine v4.0
 
-**Cas d'usage :** Transformer investigation → Tweet narratif structuré
+**Cas d'usage :** Transformer investigation → Tweet viral (MICRO/MEDIUM/LONG)
 
 ```bash
 # Étape 1: Investigation (voir workflow 1)
 
-# Étape 2: Génération tweet agentique MODE 1-4
-claude-code "Load prompts/systems/tweet-engine-v3.0.md.
+# Étape 2: Génération tweet v4.0
+claude-code "Load prompts/systems/tweet-engine-v4.0.md.
+Mode TWEET: logs/[fichier].md"
 
-MODE 1 (PLAN): Analyze logs/[fichier].md
-MODE 2 (SECTIONS): Write 10 sections progressively (25K chars budget)
-MODE 3 (ASSEMBLY): Polish narrative
-MODE 4 (VALIDATE): Fact-check
-
-Save prompts/outputs/YYYY-MM-DD_[sujet].md"
+# Ou forcer un mode:
+claude-code "Load prompts/systems/tweet-engine-v4.0.md. Mode TWEET MICRO: logs/[fichier].md"
+claude-code "Load prompts/systems/tweet-engine-v4.0.md. Mode TWEET MEDIUM: logs/[fichier].md"
+claude-code "Load prompts/systems/tweet-engine-v4.0.md. Mode TWEET LONG: logs/[fichier].md"
 ```
 
 **Résultat :**
-- Tweet long narratif (Acte I-II-III structure)
-- Format citoyen (no jargon technique, blockquotes citations)
-- Validation progressive section par section
-- Architecture agentique :
-  - ✅ Approche réflexive (questions vs prescriptif)
-  - ✅ Baby-step execution (validation loops)
-  - ✅ Format citoyen (traduit DSL, no tableaux, no préfixes techniques)
-  - ✅ Fact-checking automatique dates/sources
+- Tweet hook-first (premiers 250 chars critiques)
+- 3 checkpoints user (setup, hook, final)
+- Fact-check WebSearch intégré
+- Auto-save dans logs/
+- Architecture 6 layers :
+  - ✅ Hook Generator (6 formulas auto-sélectionnées)
+  - ✅ Content Engine (MICRO/MEDIUM/LONG adaptatif)
+  - ✅ Quality Gates (anti-LLM, acronymes, accessibility)
+  - ✅ Auto-save avec métadonnées
 
 **Protocole publication :**
 - **T-10 min** : DM 5-10 followers "Thread dans 10 min, RT si possible ?"
@@ -553,7 +546,64 @@ Save prompts/outputs/YYYY-MM-DD_[sujet].md"
 
 ---
 
-### 3️⃣ Infographie IA (Leonardo.ai)
+### 3️⃣ Substack Engine v1.0
+
+**Cas d'usage :** Investigation → Article Substack + Tweet hook avec lien
+
+**Prérequis :** API server running
+```bash
+cd ~/projects/Substack-API && source venv/bin/activate && python api_server.py
+# → http://localhost:8000/docs
+```
+
+**Commande :**
+```bash
+claude "Mode SUBSTACK: logs/[fichier-investigation].md"
+```
+
+**Workflow automatisé :**
+1. PHASE 0: Read investigation, build FactLedger
+2. PHASE 1: Generate tweet hook (≤235 chars, 6 formulas)
+3. PHASE 2: Generate article (800-2000 mots, structure ## I/II/Conclusion)
+4. PHASE 3: Publish via API → Get article URL
+5. PHASE 4: Compose final tweet (hook + URL)
+
+**Output files :**
+- `prompts/outputs/YYYY-MM-DD_sujet-substack.md` - Article backup
+- `prompts/outputs/YYYY-MM-DD_sujet-tweet.txt` - Tweet prêt à poster
+- `prompts/outputs/YYYY-MM-DD_sujet-meta.json` - Metadata (draft_id, URL, stats)
+
+**Article structure (adapté tweet-engine-v4.0 LONG) :**
+```markdown
+# {TITRE ACCROCHEUR}
+## {Sous-titre hook}
+
+{Paragraphe d'accroche}
+
+---
+
+## I - {SECTION}
+{Paragraphes + faits}
+👉 **Conséquence**: {impact}
+
+---
+
+## CONCLUSION
+{L1: Synthesis} {L2: Pivot number} {L3: Next step}
+```
+
+**Quality Gates :**
+- Tweet ≤235 chars (réserve 45 pour URL)
+- Article 800-2000 mots
+- Anti-LLM phrases INTERDITES
+- 👉 Conséquence par section
+- Conclusion L1-L2-L3
+
+**Design doc :** [docs/plans/2025-11-26-substack-engine-design.md](../docs/plans/2025-11-26-substack-engine-design.md)
+
+---
+
+### 4️⃣ Infographie IA (Leonardo.ai)
 
 **Cas d'usage :** Générer infographie data viz avec texte précis
 
@@ -594,7 +644,50 @@ Generate 3 variants + fusion final."
 
 ## 📚 Référence Rapide Prompts
 
-### systems/tweet-engine-v4.0.md ⭐ NEW
+### systems/substack-engine-v1.0.md ⭐ NEW
+
+**Fonction :** Investigation Truth Engine → Tweet hook + Article Substack + Publication API
+
+**Architecture 4 phases :**
+- **PHASE 0** : Setup (read investigation, build ledgers, user confirms)
+- **PHASE 1** : Hook Generator (6 formulas, ≤235 chars for tweet)
+- **PHASE 2** : Article Generator (800-2000 mots, structure ## adaptée Substack)
+- **PHASE 3** : Quality Gates (5 checks + Anti-LLM)
+- **PHASE 4** : Publication API + Output files
+
+**API externe :** [JPres-Projects/Substack-API](https://github.com/JPres-Projects/Substack-API)
+- Installation : `~/projects/Substack-API/`
+- Serveur : `python api_server.py` → localhost:8000
+- Auth : Cookies Substack dans `.env`
+
+**Endpoints API :**
+- `POST /drafts/create-markup` → Créer draft
+- `POST /drafts/{id}/publish` → Publier
+- `GET /drafts?user_id=xxx` → Lister drafts
+
+**Commandes :**
+```bash
+# Prérequis: API server running
+cd ~/projects/Substack-API && source venv/bin/activate && python api_server.py
+
+# Génération complète
+claude "Mode SUBSTACK: logs/investigation.md"
+
+# Draft only (sans publier)
+claude "Mode SUBSTACK DRAFT: logs/investigation.md"
+```
+
+**Hérité de tweet-engine-v4.0 :**
+- Hook formulas (PROVOCATIVE, CONTRARIAN, CONSEQUENCE, PATTERN, EMOTIONAL, REVELATION)
+- Section templates (## I - TITRE + 👉 Conséquence)
+- Conclusion template (L1-L2-L3)
+- Anti-LLM blacklist
+
+**Design doc :** [docs/plans/2025-11-26-substack-engine-design.md](../docs/plans/2025-11-26-substack-engine-design.md)
+
+---
+
+### systems/tweet-engine-v4.0.md
 
 **Fonction :** Investigation Truth Engine → Tweet viral (hook-first, 3 longueurs)
 
@@ -634,12 +727,12 @@ Generate 3 variants + fusion final."
 **Commandes :**
 ```bash
 # Auto-detect length
-Mode TWEET: logs/investigation.md
+claude-code "Load prompts/systems/tweet-engine-v4.0.md. Mode TWEET: logs/investigation.md"
 
 # Force specific length
-Mode TWEET MICRO: logs/investigation.md
-Mode TWEET MEDIUM: logs/investigation.md
-Mode TWEET LONG: logs/investigation.md
+claude-code "Load prompts/systems/tweet-engine-v4.0.md. Mode TWEET MICRO: logs/investigation.md"
+claude-code "Load prompts/systems/tweet-engine-v4.0.md. Mode TWEET MEDIUM: logs/investigation.md"
+claude-code "Load prompts/systems/tweet-engine-v4.0.md. Mode TWEET LONG: logs/investigation.md"
 ```
 
 **Philosophy :** "Stop the scroll first. Inform after. Verify always."
@@ -754,11 +847,11 @@ claude-code "Apply prompts/[prompt-file].md v4.1 on [test-case]"
 
 ### Signaler un problème
 
-**Prompt systems/tweet-engine-v3.0.md :**
-- Section trop longue → Ajuster budget allocation
-- Erreur dates/sources non détectée → Améliorer MODE 4 (VALIDATE)
-- Jargon DSL non traduit → Renforcer règles formatting citoyen
-- Baby-step validation skippée → Ajouter contraintes MODE 2
+**Prompt systems/tweet-engine-v4.0.md :**
+- Hook pas assez accrocheur → Ajuster hook formulas LAYER 2
+- Fact-check manque erreur → Améliorer patterns extraction LAYER 4
+- Length mal détectée → Ajuster seuils facts_count MODE 0
+- Quality gate échoue → Vérifier LAYER 5 (anti-LLM, acronymes)
 
 **Prompt systems/promptsmith-leonardo-v2.0.md :**
 - Misspellings fréquents → Ajuster longueur texte ou negative prompts
@@ -783,18 +876,15 @@ ICEBERG MAX."
 # Résultat: logs/2025-11-18_PLF-PLFSS-2025-FAISCEAU-INDICES.md
 # EDI: 0.68, Sources: 65 web searches, 7 révélations convergentes
 
-# ÉTAPE 2: Tweet Agentique v2.0 (30 min)
-claude-code "Load prompts/systems/tweet-engine-v3.0.md.
-MODE 1 (PLAN): Analyze PLF/PLFSS investigation.
-MODE 2-3: Write 10 sections, polish narrative.
-MODE 4: Fact-check dates/montants.
-Save prompts/outputs/2025-11-23_budget-2025.md"
+# ÉTAPE 2: Tweet Engine v4.0 (15-30 min)
+claude-code "Load prompts/systems/tweet-engine-v4.0.md.
+Mode TWEET LONG: logs/2025-11-18_PLF-PLFSS-2025-FAISCEAU-INDICES.md"
 
 # Résultat:
-# - Tweet long: 10 sections narratives, 7 révélations, Acte I-II-III
-# - Format citoyen: No jargon DSL, blockquotes citations clés
-# - Validation: Dates/montants fact-checked automatiquement
-# - Structure: Hook → Révélations progressives → Climax → Twist
+# - Hook viral (250 chars, formula auto-sélectionnée)
+# - 7-9 sections, 25k chars max
+# - Fact-check WebSearch intégré
+# - Auto-save: logs/2025-11-18_tweet_plf-plfss-2025_LONG.md
 
 # ÉTAPE 3: Infographie Leonardo.ai (15 min)
 claude-code "Load prompts/systems/promptsmith-leonardo-v2.0.md.
@@ -830,12 +920,11 @@ Target: EDI≥0.70, sources≥15."
 
 # Résultat: logs/2025-11-XX_apex-sujet.md
 
-# 11h30-12h00 : Tweet Agentique v2.0 (30min)
-claude-code "Load prompts/systems/tweet-engine-v3.0.md.
-MODE 1-4: Generate narrative tweet from investigation APEX [sujet].
-Save prompts/outputs/2025-11-XX_[sujet].md"
+# 11h30-12h00 : Tweet Engine v4.0 (30min)
+claude-code "Load prompts/systems/tweet-engine-v4.0.md.
+Mode TWEET LONG: logs/2025-11-XX_apex-sujet.md"
 
-# Résultat: prompts/outputs/2025-11-XX_apex-sujet.md
+# Résultat: logs/2025-11-XX_tweet_apex-sujet_LONG.md
 
 # 12h00-12h15 : Génération Infographie Leonardo.ai (15min)
 claude-code "Load prompts/systems/promptsmith-leonardo-v2.0.md.
@@ -959,7 +1048,7 @@ Voir [CLAUDE.md](../CLAUDE.md) - Guide complet Truth Engine v10.1
 
 ---
 
-**Dernière mise à jour :** 2025-11-25
-**Version Truth Engine :** v10.1 TEXTUAL (Progressive Activation + Analyse DSL Obligatoire)
+**Dernière mise à jour :** 2025-11-26
+**Version Truth Engine :** v10.2 KNOWLEDGE_GRAPH (MnemoLite Integration)
 **Maintenu par :** Truth Engine Project
 **License :** Usage interne projet
