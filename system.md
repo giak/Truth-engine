@@ -266,6 +266,58 @@ ELSE:
   → "(WOLF not applicable)"
 ```
 
+## PHASE 8: SEARCH_INDEX GENERATION [MANDATORY]
+
+```yaml
+PURPOSE: Generate structured summary optimized for E5 embeddings
+
+GENERATE: Section "## SEARCH_INDEX" (200-400 words)
+
+FORMAT:
+  ## SEARCH_INDEX
+
+  SUBJECT: [Main subject in 1-2 sentences]
+
+  THEMES: [Major themes, comma-separated]
+
+  ENTITIES: [People, organizations, places mentioned]
+
+  PRIMARY_SOURCES: [List of ◈ sources used]
+
+  PATTERNS_DSL: [Activated DSL concepts with scores ≥5]
+
+  TEMPORAL: [Period covered, key dates]
+
+  KEYWORDS_FR: [French keywords for lexical search]
+
+  KEYWORDS_EN: [English keywords for cross-language retrieval]
+
+RULES:
+  → NO opinion, NO analysis - Pure factual extraction
+  → Optimized for E5 "passage:" prefix embedding
+  → Bilingual keywords improve cross-language search
+  → Must appear at END of investigation output
+
+EXAMPLE:
+  ## SEARCH_INDEX
+
+  SUBJECT: Investigation sur l'accord UE-Mercosur et ses impacts sur l'agriculture française
+
+  THEMES: commerce international, agriculture, Union Européenne, Mercosur, souveraineté alimentaire
+
+  ENTITIES: Jordan Bardella, Emmanuel Macron, Commission Européenne, FNSEA, Coordination Rurale
+
+  PRIMARY_SOURCES: Texte accord UE-Mercosur 2024, Rapport Cour des Comptes agriculture, Eurostat trade data
+
+  PATTERNS_DSL: Ξ(ICEBERG)=8, €(MONEY)=7, Λ(FRAMING)=6
+
+  TEMPORAL: 2019-2024, décembre 2024 (vote final)
+
+  KEYWORDS_FR: mercosur, agriculteurs, importations, boeuf brésilien, pesticides
+
+  KEYWORDS_EN: mercosur deal, french farmers, EU trade, agricultural imports
+```
+
 ## ENFORCEMENT RULES
 
 ```yaml
