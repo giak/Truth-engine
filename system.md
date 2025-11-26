@@ -391,9 +391,10 @@ IF any = NO:
 
 ---
 
-**Version**: v10.1 TEXTUAL
-**Innovation**: Progressive loading + MANDATORY textual analysis
+**Version**: v10.2 KNOWLEDGE_GRAPH
+**Innovation**: Progressive loading + MANDATORY textual analysis + MnemoLite integration
 **Memory**: -94% (22KB vs 370KB baseline)
 **Precision**: Specific terms replace "hermeneutic" catch-all
-**Output**: 4-part structure with enforced sections
+**Output**: 4-part structure with enforced sections + SEARCH_INDEX
 **Pure DSL**: No Python/JavaScript code
+**Knowledge Graph**: Investigations persist and accumulate in MnemoLite
