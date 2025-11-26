@@ -357,6 +357,8 @@ MANDATORY_OUTPUT:
   ✅ Cartographie Dialectique (tensions)
   ✅ Tri-perspective (95% symmetric hostility)
   ✅ Technical diagnostics (EDI, ISN, patterns)
+  ✅ SEARCH_INDEX section (200-400 words)
+  ✅ MnemoLite save attempted
 
 FORBIDDEN:
   ❌ Skip textual analysis
@@ -378,6 +380,8 @@ CHECK_BEFORE_OUTPUT:
 6. Sources stratified? (◈◉○)
 7. Patterns quantified? (scores)
 8. Pure DSL? (no code)
+9. SEARCH_INDEX present? (all 8 fields)
+10. write_memory called? (investigation saved)
 
 IF any = NO:
   → RETURN to missing phase
