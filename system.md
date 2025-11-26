@@ -8,6 +8,33 @@ STORE: CURRENT_DATE
 USE: All searches, validation, time-sensitive analysis
 ```
 
+## PHASE 0.5: KNOWLEDGE_LOOKUP [ADDITIVE]
+```yaml
+PURPOSE: Enrich investigation with past primary sources (don't replace investigation)
+
+EXECUTE: ReadMcpResourceTool(
+  server="mnemolite",
+  uri="memories://search/{sujet_url_encoded}?limit=5&memory_type=investigation"
+)
+
+IF results.memories.count > 0:
+  FOR each memory IN results.memories[:3]:
+    → EXTRACT: Sources primaires (◈) from content
+    → EXTRACT: Patterns DSL confirmés (scores)
+    → STORE: In investigation context
+
+  INTEGRATION:
+    → ADD: Found ◈ sources to available pool (union, not replacement)
+    → BOOST: Confirmed patterns +2 initial score
+    → NOTE: "Enriched from: {memory.title} ({memory.created_at})"
+
+  CONTINUE: Full investigation PHASES 1-7
+
+ELSE:
+  → LOG: "No prior investigations found for subject"
+  → CONTINUE: Full investigation PHASES 1-7
+```
+
 ## PHASE 1: COMPLEXITY ASSESSMENT
 ```yaml
 EVALUATE: 6 dimensions [0-10]
