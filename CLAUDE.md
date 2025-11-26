@@ -68,7 +68,19 @@ index_project(project_path="/home/giak/projects/truth-engine/kb", repository="tr
 4. Loading TAD.md/PFD.md automatically → Load on-demand only
 5. Violating 10 Commandments → Investigation fails quality gates
 
+## Knowledge Graph Integration (v10.2)
+
+**MnemoLite MCP Flow:**
+1. PHASE 0.5: `memories://search/{subject}` - Find past investigations
+2. PHASE 8: Generate `## SEARCH_INDEX` section
+3. PHASE 9: `write_memory` - Save investigation to MnemoLite
+
+**Benefits:**
+- Primary sources (◈) accumulate across investigations
+- Avoid redundant research on related topics
+- EDI improves with reused validated sources
+
 ---
 
-**Version** : Truth Engine v8.4 (system.md v7.17)
+**Version** : Truth Engine v10.2 KNOWLEDGE_GRAPH (system.md v10.2)
 **Full documentation** : [CLAUDE_FULL.md](CLAUDE_FULL.md:1) (582 lines)
