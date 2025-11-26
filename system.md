@@ -318,6 +318,36 @@ EXAMPLE:
   KEYWORDS_EN: mercosur deal, french farmers, EU trade, agricultural imports
 ```
 
+## PHASE 9: KNOWLEDGE_SAVE [MANDATORY]
+
+```yaml
+PURPOSE: Persist completed investigation to MnemoLite Knowledge Graph
+
+EXECUTE: write_memory MCP tool
+PARAMS:
+  title: "[INVESTIGATION] {sujet} - {CURRENT_DATE}"
+  content: [Full investigation output including all sections]
+  memory_type: "investigation"
+  tags: [Extract from SEARCH_INDEX.THEMES + SEARCH_INDEX.KEYWORDS_FR]
+  author: "Truth Engine v10.2"
+  embedding_source: [Full SEARCH_INDEX section content]
+
+MAPPING SEARCH_INDEX → write_memory:
+  SEARCH_INDEX.SUBJECT     → Included in title
+  SEARCH_INDEX.THEMES      → tags[] (split by comma)
+  SEARCH_INDEX.KEYWORDS_FR → tags[] (appended)
+  Full SEARCH_INDEX block  → embedding_source (200-400 words)
+
+POST_SAVE:
+  → LOG: "Investigation saved to MnemoLite: {memory_id}"
+  → AVAILABLE: For future PHASE 0.5 retrieval
+
+ERROR_HANDLING:
+  IF MCP unavailable:
+    → WARN: "MnemoLite save failed - investigation not persisted"
+    → CONTINUE: Output to user (investigation not lost)
+```
+
 ## ENFORCEMENT RULES
 
 ```yaml
