@@ -12,13 +12,35 @@ USE: All searches, validation, time-sensitive analysis
 ```yaml
 PURPOSE: Enrich investigation with past primary sources (don't replace investigation)
 
-EXECUTE: ReadMcpResourceTool(
-  server="mnemolite",
-  uri="memories://search/{sujet_url_encoded}?limit=5&memory_type=investigation"
-)
+⚠️ CRITICAL: DO NOT USE search_code for this phase!
+   search_code = KB files (code)
+   memories://search = Past investigations (text memories)
 
-IF results.memories.count > 0:
-  FOR each memory IN results.memories[:3]:
+STEP 1 - Build search query from subject:
+  EXTRACT: 3-5 keywords from {subject}
+  URL_ENCODE: keywords joined by spaces
+  EXAMPLE: "Jordan Bardella agriculture" → "Jordan%20Bardella%20agriculture"
+
+STEP 2 - Query MnemoLite MEMORIES (NOT search_code!):
+  EXECUTE: ReadMcpResourceTool(
+    server="mnemolite",
+    uri="memories://search/{url_encoded_keywords}"
+  )
+  ❌ WRONG: mcp__mnemolite__search_code (this searches CODE, not memories!)
+  ✅ RIGHT: ReadMcpResourceTool with uri="memories://search/..."
+  RESULT: Hybrid search (lexical pg_trgm + vector HNSW + RRF fusion)
+  PERFORMANCE: ~100ms, returns 5 most relevant memories
+
+STEP 3 - Filter for investigations:
+  FOR each memory IN results.memories:
+    IF memory.memory_type == "investigation":
+      → PRIORITIZE: Extract sources primaires (◈)
+      → EXTRACT: Patterns DSL confirmés (scores from tags)
+    IF memory.memory_type == "note" AND tags CONTAIN "truth-engine":
+      → INCLUDE: Related investigation notes
+
+IF relevant_memories.count > 0:
+  FOR each memory IN relevant_memories[:3]:
     → EXTRACT: Sources primaires (◈) from content
     → EXTRACT: Patterns DSL confirmés (scores)
     → STORE: In investigation context
@@ -110,6 +132,7 @@ EXAMPLE:
   Quote: "trahison des agriculteurs"
   Technique: EMOTIONAL_TRIGGER + FALSE_DICHOTOMY
   Révèle: Binary frame hiding complexity
+  📜 PRÉCÉDENT: [Added by PHASE 3.5 if found]
 
 MINIMUM: 10 concepts analyzed
 OUTPUT: Structured list with examples
@@ -154,6 +177,48 @@ SYNTHÈSE: What's actually happening
 TENSION: Unresolved contradiction
 
 OUTPUT: 4-part dialectical structure
+```
+
+## PHASE 3.5: HISTORICAL_PRECEDENTS [OPTIONAL]
+```yaml
+PURPOSE: Find historical precedents for top patterns to strengthen analysis
+TRIGGER: Top 3 patterns with score ≥ 5
+SKIP_IF: investigation_type == SIMPLE OR no patterns ≥ 5
+
+FOR each pattern IN top_3_patterns:
+
+  STEP 1 - Extract key elements:
+    PATTERN_TYPE: {pattern.symbol} (ex: Ω)
+    TECHNIQUE: {pattern.technique} (ex: "ACCUSATION_MIROIR")
+    QUOTE: {pattern.quote}
+    DOMAIN: {investigation.domain} (politique/corporate/média)
+
+  STEP 2 - Build adaptive queries:
+    QUERY_FR: "{technique_fr}" "{domain}" histoire exemples précédents
+    QUERY_EN: "{technique_en}" "{domain}" history examples precedents
+    WHERE: LLM translates technique to search-friendly terms
+
+  STEP 3 - Execute WebSearch (parallel, 2 per pattern):
+    results_fr = WebSearch(QUERY_FR, limit=3)
+    results_en = WebSearch(QUERY_EN, limit=3)
+
+  STEP 4 - Select best precedent:
+    CRITERIA:
+      1. Technique similarity (same rhetorical mechanism)
+      2. Temporal distance (older = more probative)
+      3. Source quality (academic > journalistic > blog)
+    OUTPUT: 1 precedent per pattern (max)
+
+OUTPUT_FORMAT (inline in ANALYSE TEXTUELLE):
+  📜 PRÉCÉDENT: {who} ({when}) - "{quote or description}"
+     Source: {url}
+     Similarité: {why same mechanism}
+
+FALLBACK:
+  IF no results: "Aucun précédent historique documenté trouvé"
+  IF WebSearch error: Continue without precedents, log warning
+
+TOTAL_SEARCHES: 6 max (2 × 3 patterns)
 ```
 
 ## PHASE 4: QUERY GENERATION
@@ -382,6 +447,7 @@ CHECK_BEFORE_OUTPUT:
 8. Pure DSL? (no code)
 9. SEARCH_INDEX present? (all 8 fields)
 10. write_memory called? (investigation saved)
+11. Historical precedents searched? (if patterns ≥5, MEDIUM+ only)
 
 IF any = NO:
   → RETURN to missing phase
@@ -391,10 +457,11 @@ IF any = NO:
 
 ---
 
-**Version**: v10.2 KNOWLEDGE_GRAPH
+**Version**: v10.5 HISTORICAL_PRECEDENTS
 **Innovation**: Progressive loading + MANDATORY textual analysis + MnemoLite integration
 **Memory**: -94% (22KB vs 370KB baseline)
 **Precision**: Specific terms replace "hermeneutic" catch-all
 **Output**: 4-part structure with enforced sections + SEARCH_INDEX
 **Pure DSL**: No Python/JavaScript code
 **Knowledge Graph**: Investigations persist and accumulate in MnemoLite
+**NEW**: PHASE 3.5 searches historical precedents for top patterns (WebSearch FR+EN)

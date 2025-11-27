@@ -45,9 +45,17 @@ claude "Investigation APEX: [subject]. Load system.md. MnemoLite KB search. Targ
 ## MCP Integration
 
 **Required servers** (see [MCP_STATUS.md](MCP_STATUS.md:1)) :
-- **MnemoLite** : `search_code`, `write_memory`, `index_project`
+- **MnemoLite** :
+  - `search_code` → KB files search (concepts DSL, patterns)
+  - `memories://search/{query}` → **Past investigations search** (PHASE 0.5)
+  - `write_memory` → Save investigations (PHASE 9)
+  - `index_project` → Index KB files
 - **Context7** : `resolve-library-id`, `get-library-docs`
 - **WebSearch** : Google API (95%+ success) + MCP web-search fallback (DuckDuckGo)
+
+**CRITICAL DISTINCTION** :
+- Pour chercher des **concepts DSL** (kb/) → `mcp__mnemolite__search_code`
+- Pour chercher des **investigations passées** → `ReadMcpResourceTool(server="mnemolite", uri="memories://search/{query}")`
 
 **Index KB** :
 ```bash
@@ -68,17 +76,25 @@ index_project(project_path="/home/giak/projects/truth-engine/kb", repository="tr
 4. Loading TAD.md/PFD.md automatically → Load on-demand only
 5. Violating 10 Commandments → Investigation fails quality gates
 
-## Knowledge Graph Integration (v10.2)
+## Knowledge Graph Integration (v10.5)
 
 **MnemoLite MCP Flow:**
-1. PHASE 0.5: `memories://search/{subject}` - Find past investigations
-2. PHASE 8: Generate `## SEARCH_INDEX` section
-3. PHASE 9: `write_memory` - Save investigation to MnemoLite
+1. PHASE 0.5: `memories://search/{query}` - Hybrid search (lexical + vector + RRF) for past investigations
+2. PHASE 3.5: `HISTORICAL_PRECEDENTS` - WebSearch FR+EN for top 3 patterns ≥5
+3. PHASE 8: Generate `## SEARCH_INDEX` section
+4. PHASE 9: `write_memory` - Save investigation to MnemoLite
+
+**PHASE 3.5 Details:**
+- Trigger: Top 3 patterns with score ≥5 (MEDIUM+ investigations only)
+- Searches: 2 per pattern (FR + EN) = 6 max
+- Output: `📜 PRÉCÉDENT:` inline under each pattern
+- Purpose: Prove technique has historical precedents
 
 **Benefits:**
 - Primary sources (◈) accumulate across investigations
 - Avoid redundant research on related topics
 - EDI improves with reused validated sources
+- Historical precedents strengthen textual analysis
 
 ## Substack Engine (v1.0)
 
@@ -112,5 +128,5 @@ claude "Mode SUBSTACK: logs/2025-11-26_investigation.md"
 
 ---
 
-**Version** : Truth Engine v10.2 KNOWLEDGE_GRAPH (system.md v10.2)
+**Version** : Truth Engine v10.5 HISTORICAL_PRECEDENTS (system.md v10.5)
 **Full documentation** : [CLAUDE_FULL.md](CLAUDE_FULL.md:1) (582 lines)
