@@ -1,0 +1,6 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   208  100   166  100    42    182     46 --:--:-- --:--:-- --:--:--   228100   208  100   166  100    42    182     46 --:--:-- --:--:-- --:--:--   228
+{"success":true,"post_id":180337268,"post_url":"https://giak.substack.com/p/quand-les-verificateurs-propagent-5f8","message":"Draft 180337268 published successfully"}curl: (3) URL rejected: Malformed input to a URL function
+curl: (3) URL rejected: Malformed input to a URL function
+curl: (3) URL rejected: Malformed input to a URL function

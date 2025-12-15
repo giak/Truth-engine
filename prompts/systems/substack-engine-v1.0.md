@@ -382,16 +382,27 @@ VERIFY:
 ```yaml
 STEP 1: Create Draft
   POST http://localhost:8000/drafts/create-markup
+  Headers: Content-Type: application/json
   Body:
-    title: {article_title}
-    subtitle: {article_subtitle}
-    body_markup: {article_body}
-    audience: "everyone"
-  Response: { draft_id }
+    {
+      "user_id": "giak",
+      "title": "{article_title}",
+      "subtitle": "{article_subtitle}",
+      "markup_content": "{article_body in MARKUP FORMAT - see below}",
+      "audience": "everyone"
+    }
+  Response: { "success": true, "draft_id": 123456789, "url": "..." }
 
 STEP 2: Publish
   POST http://localhost:8000/drafts/{draft_id}/publish
-  Response: { url: "https://xxx.substack.com/p/slug" }
+  Headers: Content-Type: application/json
+  Body:
+    {
+      "user_id": "giak",
+      "draft_id": {draft_id},
+      "send_email": false
+    }
+  Response: { "success": true, "post_url": "https://xxx.substack.com/p/slug" }
 
 STEP 3: Compose Final Tweet
   {emoji} {hook_text}
@@ -399,9 +410,75 @@ STEP 3: Compose Final Tweet
   {article_url}
 
 STEP 4: Output Files
-  - prompts/outputs/YYYY-MM-DD_sujet-substack.md (article backup)
+  - prompts/outputs/YYYY-MM-DD_sujet-substack.md (article backup markdown)
   - prompts/outputs/YYYY-MM-DD_sujet-tweet.txt (tweet ready)
   - prompts/outputs/YYYY-MM-DD_sujet-meta.json (metadata)
+```
+
+### ⚠️ CRITICAL: Substack Markup Format
+
+**L'API Substack utilise un format markup personnalisé, PAS du HTML ni du Markdown brut.**
+
+```yaml
+SYNTAX:
+  - Séparateur blocs: " | " (pipe avec espaces)
+  - Séparateur type/contenu: "::" (double colon)
+  - Format: "Type:: contenu | Type2:: contenu2 | ..."
+
+CONTENT TYPES:
+  Title::       # H1 heading (titre article = automatique via API)
+  Subtitle::    # H2 heading
+  H1:: - H6::   # Headings niveau 1-6
+  Text::        # Paragraphe normal
+  Quote::       # Block quote
+  PullQuote::   # Citation mise en avant
+  List::        # Bullet list (séparateur: •)
+  NumberList::  # Numbered list (1. 2. 3.)
+  Code::        # Code block (Code:: language | code)
+  Rule::        # Séparateur horizontal ---
+  Break::       # Ligne vide
+  Subscribe::   # Bouton subscribe
+  Share::       # Bouton partage
+
+INLINE FORMATTING (dans Text::):
+  **text**      # Gras
+  *text*        # Italique
+  ~~text~~      # Barré
+  `code`        # Code inline
+  [text](url)   # Lien
+
+EXAMPLE (conversion d'un article):
+
+  MARKDOWN INPUT:
+    ## I - LE VOTE QU'ON CACHE
+
+    Le 23 novembre 2021, le Parlement européen...
+
+    > AI will transform every industry.
+
+    ---
+
+    ## II - 9.6 MILLIARDS
+
+    La France est le **premier bénéficiaire**...
+
+  MARKUP OUTPUT:
+    H2:: I - LE VOTE QU'ON CACHE | Text:: Le 23 novembre 2021, le Parlement européen... | Quote:: AI will transform every industry. | Rule:: | H2:: II - 9.6 MILLIARDS | Text:: La France est le **premier bénéficiaire**...
+```
+
+### Conversion Markdown → Markup
+
+```yaml
+RULES:
+  1. Titre H1 (#): Ignoré (passé séparément via title)
+  2. Sous-titre H2 (##): H2:: contenu
+  3. Paragraphe: Text:: contenu
+  4. Citation (>): Quote:: contenu OU PullQuote:: contenu
+  5. Séparateur (---): Rule::
+  6. Liste à puces: List:: • item1 • item2 • item3
+  7. Liste numérotée: NumberList:: 1. item1 1. item2 1. item3
+  8. Conserver inline: **gras**, *italique*, [lien](url)
+  9. Chaque bloc séparé par " | "
 ```
 
 ### Output: Tweet File
@@ -417,14 +494,24 @@ STEP 4: Output Files
 ```json
 {
   "investigation_source": "logs/YYYY-MM-DD_sujet.md",
-  "draft_id": "123456",
+  "draft_id": 123456789,
   "article_url": "https://xxx.substack.com/p/slug",
+  "api_fix_applied": "draft_create.py:356-359 ZWS workaround",
   "published_at": "2025-11-26T14:30:00Z",
+  "status": "PUBLISHED",
   "hook_formula": "FORMULA_NAME",
   "tweet_chars": 234,
   "article_words": 1250,
   "sections_count": 3,
-  "facts_verified": "12/12"
+  "facts_verified": "12/12",
+  "quality_gates": {
+    "G1_hook": true,
+    "G2_structure": true,
+    "G3_anti_llm": true,
+    "G4_accessibility": true,
+    "G5_length": true
+  },
+  "iceberg_max_axes": ["axis1", "axis2", "..."]
 }
 ```
 
@@ -453,6 +540,51 @@ Fichiers sauvegardés:
 - prompts/outputs/{date}_sujet-meta.json
 
 Copier tweet dans clipboard? (Y/n)
+```
+
+---
+
+## ⚠️ KNOWN ISSUES & FIXES
+
+### Issue #1: Bold Text Duplication Bug (FIXED 2025-11-26)
+
+**Symptom:** Bold text (`**text**`) gets duplicated in rendered HTML:
+```
+Expected: <strong>70%</strong> de sa commission
+Actual:   <strong>70%</strong><span>70% de sa commission</span>
+```
+
+**Root Cause:** Substack's server-side ProseMirror renderer has a bug that sometimes duplicates marked text into the following text node.
+
+**Fix Applied:** Zero-width space (`\u200B`) inserted after each bold/italic text node.
+
+**Location:** `~/projects/Substack-API/draft_create.py` lines 356-359:
+```python
+# WORKAROUND: Add zero-width space after bold/italic to prevent Substack duplication bug
+if format_type in ('strong', 'em'):
+    elements.append({"type": "text", "text": "\u200B"})
+```
+
+**Result:** The ZWS breaks the pattern that triggers duplication:
+```html
+<strong>70%</strong>​ de sa commission  <!-- ​ = ZWS, invisible -->
+```
+
+**Verification:** Test article https://giak.substack.com/p/test-zws-fix-delete-me confirms fix works.
+
+---
+
+### Issue #2: Overlapping Regex Patterns (FIXED earlier)
+
+**Symptom:** `**bold**` text matched by both `strong` and `em` patterns, causing double processing.
+
+**Fix Applied:** Skip matches that start before current position.
+
+**Location:** `draft_create.py` lines 326-328:
+```python
+# Skip overlapping matches
+if start < current_pos:
+    continue
 ```
 
 ---
@@ -550,8 +682,13 @@ API handles publication. User validates content. Best of both worlds.
 
 ---
 
-**Version:** SUBSTACK ENGINE v1.0
+**Version:** SUBSTACK ENGINE v1.1
 **Date:** 2025-11-26
+**Changelog:**
+- v1.1 (2025-11-26): Added ZWS fix documentation, updated API call format, expanded meta.json template
+- v1.0 (2025-11-26): Initial release
+
 **Architecture:** Hook-First, API-Published, Interactive
 **Design:** [docs/plans/2025-11-26-substack-engine-design.md](../../docs/plans/2025-11-26-substack-engine-design.md)
 **Based on:** [tweet-engine-v4.0.md](tweet-engine-v4.0.md)
+**API Repo:** `~/projects/Substack-API/` (contains `draft_create.py`, `api_server.py`)
