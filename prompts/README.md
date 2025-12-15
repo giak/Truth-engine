@@ -1,10 +1,10 @@
 # Prompts — Guide d'Utilisation
 
-**Version :** 5.0
-**Date :** 2025-11-26
-**Truth Engine :** v10.2 KNOWLEDGE_GRAPH (MnemoLite Integration)
+**Version :** 6.0
+**Date :** 2025-11-27
+**Truth Engine :** v10.5 HISTORICAL_PRECEDENTS (MnemoLite + PHASE 3.5)
 **Tweet Engine :** v4.0 Hook-First (MICRO/MEDIUM/LONG + Fact-Check + Auto-Save)
-**Substack Engine :** v1.0 (Tweet Hook + Article Long + API Publication)
+**Substack Engine :** v2.0 (Adaptive Length + LLM Autonomy + ICEBERG Integration)
 **Usage :** Guide pragmatique des prompts Truth Engine + Dashboard suivi
 
 ---
@@ -15,8 +15,9 @@
 prompts/
 ├── README.md                           # Ce guide
 ├── systems/                            # System prompts agentiques
+│   ├── substack-engine-v2.0.md        # CURRENT: Adaptive length + LLM autonomy + ICEBERG
+│   ├── substack-engine-v1.0.md        # LEGACY: 800-2000 words fixed limit
 │   ├── tweet-engine-v4.0.md           # CURRENT: Hook-first viral engine (MICRO/MEDIUM/LONG)
-│   ├── substack-engine-v1.0.md        # NEW: Tweet hook + Substack article + API
 │   ├── tweet-engine-v3.0.md           # LEGACY: Articles longs fact-checkés (MODE 1-4)
 │   └── promptsmith-leonardo-v2.0.md   # CURRENT: Leonardo.ai prompts
 ├── outputs/                            # Productions finales
@@ -33,7 +34,8 @@ prompts/
 
 | Prompt | Version | Dernière MAJ | Statut | Usage | Performance |
 |--------|---------|--------------|--------|-------|-------------|
-| [systems/substack-engine-v1.0.md](systems/substack-engine-v1.0.md) | v1.0 | 2025-11-26 | ✅ **NEW** | Tweet hook (≤235c) + Article Substack + API publication | Pipeline testé ✅ |
+| [systems/substack-engine-v2.0.md](systems/substack-engine-v2.0.md) | v2.0 | 2025-11-27 | ✅ **CURRENT** | Adaptive length (800-6000+) + LLM autonomy + ICEBERG | Résout perte 85% contenu |
+| [systems/substack-engine-v1.0.md](systems/substack-engine-v1.0.md) | v1.0 | 2025-11-26 | 📦 Legacy | Tweet hook + Article (800-2000 mots fixe) | Limite trop restrictive |
 | [systems/tweet-engine-v4.0.md](systems/tweet-engine-v4.0.md) | v4.0 | 2025-11-25 | ✅ Stable | Hook-first viral (MICRO/MEDIUM/LONG) + fact-check + auto-save | 1 output testé |
 | [systems/tweet-engine-v3.0.md](systems/tweet-engine-v3.0.md) | v3.0 | 2025-11-25 | 📦 Legacy | Articles longs fact-checkés (MODE 1-4) | Remplacé par v4.0 |
 | [systems/promptsmith-leonardo-v2.0.md](systems/promptsmith-leonardo-v2.0.md) | v2.0 | 2025-11-20 | ✅ Stable | Génération prompts Leonardo.ai | Text accuracy 90%+ |
@@ -53,7 +55,8 @@ prompts/
 
 | Date | Changement | Impact | Fichiers |
 |------|------------|--------|----------|
-| 2025-11-26 | **substack-engine v1.0** | Tweet hook (≤235c) + Article Substack + API JPres-Projects/Substack-API | systems/substack-engine-v1.0.md |
+| 2025-11-27 | **substack-engine v2.0** | Adaptive length (800-6000+), LLM autonomy, Gate 5→Content Integrity, ICEBERG integration | systems/substack-engine-v2.0.md |
+| 2025-11-26 | **substack-engine v1.0 → Legacy** | Tweet hook + Article (800-2000 fixe) - limite trop restrictive | systems/substack-engine-v1.0.md |
 | 2025-11-25 | **tweet-engine v4.0 (hook-first)** | Architecture 6 layers, hook-first, 3 modes (MICRO/MEDIUM/LONG), auto-save | systems/tweet-engine-v4.0.md |
 | 2025-11-25 | **tweet-engine v3.0 → Legacy** | Remplacé par v4.0, garde pour articles longs si besoin | systems/tweet-engine-v3.0.md |
 | 2025-11-23 | **tweet-engine v2.0 (agentique)** | Approche réflexive MODE 1-4 vs prescriptive v1.0 | (archived) |
@@ -71,7 +74,7 @@ prompts/
 
 ### 📍 Workflow APEX (Investigation Longue) — 1/jour
 
-**Durée totale :** 3h15 (investigation 2h30 + tweet 30min + infographie 15min)
+**Durée totale :** 2h45-3h15 (investigation 2h30 + publication 15-45min)
 
 **Commandes complètes (copier-coller) :**
 
@@ -80,7 +83,7 @@ prompts/
 # ÉTAPE 1 : INVESTIGATION APEX (2h30)
 # ═══════════════════════════════════════════════════════
 
-claude-code "Investigation APEX: '[SUJET DU JOUR]'.
+claude "Investigation APEX: '[SUJET DU JOUR]'.
 Load system.md + kb/COGNITIVE_DSL_CORE.md.
 Progressive concept activation. Full textual DSL analysis mandatory.
 L0-L9 full cascade. WOLF MODE if political.
@@ -88,49 +91,61 @@ Target: EDI≥0.70, sources≥15, wolves≥8 if political.
 Patterns: ICEBERG MAX, MONEY, NETWORK, TEMPORAL.
 Save logs/$(date +%Y-%m-%d_%H-%M)_[sujet-court].md"
 
-# Résultat: logs/2025-11-18_09-30_plf-2025.md
+# Résultat: logs/2025-11-26_14-28_bardella-agriculture.md
 
 # ═══════════════════════════════════════════════════════
-# ÉTAPE 2 : GÉNÉRATION TWEET v4.0 (15-30min)
+# ÉTAPE 2 : PUBLICATION (choisir A ou B)
 # ═══════════════════════════════════════════════════════
 
-claude-code "Load prompts/systems/tweet-engine-v4.0.md.
-Mode TWEET LONG: logs/[FICHIER_CRÉÉ_ÉTAPE_1].md"
+# ──────────────────────────────────────────────────────
+# OPTION A : SUBSTACK + TWEET (RECOMMANDÉ) — 15min
+# ──────────────────────────────────────────────────────
+# Prérequis: Terminal séparé avec API server
+# cd ~/projects/Substack-API && source venv/bin/activate && python api_server.py
+
+claude "Mode SUBSTACK: logs/[FICHIER_CRÉÉ_ÉTAPE_1].md"
 
 # Le LLM va:
-# - Analyser investigation → proposer length (LONG pour APEX)
-# - Générer hook (6 formulas) → USER valide
-# - Générer contenu → fact-check → quality gates
-# - Auto-save dans logs/
+# - Lire investigation → extraire faits
+# - Générer tweet hook (≤235 chars, 6 formulas)
+# - Générer article Substack (800-2000 mots)
+# - Convertir en markup Substack (H2:: | Text:: | Quote::)
+# - Publier via API → URL article
+# - Composer tweet final avec URL
+
+# Résultat:
+# - Article publié: https://xxx.substack.com/p/slug
+# - prompts/outputs/YYYY-MM-DD_sujet-tweet.txt (tweet prêt)
+# - prompts/outputs/YYYY-MM-DD_sujet-substack.md (backup)
+# - prompts/outputs/YYYY-MM-DD_sujet-meta.json (metadata)
+
+# ──────────────────────────────────────────────────────
+# OPTION B : TWEET LONG + INFOGRAPHIE — 45min
+# ──────────────────────────────────────────────────────
+
+claude "Load prompts/systems/tweet-engine-v4.0.md.
+Mode TWEET LONG: logs/[FICHIER_CRÉÉ_ÉTAPE_1].md"
 
 # Résultat: logs/2025-11-25_tweet_[sujet]_LONG.md
 
-# ═══════════════════════════════════════════════════════
-# ÉTAPE 3 : GÉNÉRATION INFOGRAPHIE LEONARDO.AI (15min)
-# ═══════════════════════════════════════════════════════
-
-claude-code "Load prompts/systems/promptsmith-leonardo-v2.0.md.
-
+claude "Load prompts/systems/promptsmith-leonardo-v2.0.md.
 Generate infographic from VISUAL BYPASS CONCEPT:
 - Source: logs/[FICHIER_CRÉÉ_ÉTAPE_2].md section VISUAL BYPASS
 - Format: 16:9 (horizontal X/Twitter)
-- Texte zones: [COPIER DEPUIS VISUAL BYPASS, ≤25 CHAR PAR ZONE]
-- Palette: [COPIER DEPUIS VISUAL BYPASS]
-- Style: [COPIER DEPUIS VISUAL BYPASS, description neutre sans marques]
-
-Output:
-- 3 variants (Balance, Iceberg, Colonnes)
-- Comparison table (clarity, impact, DSA-safe)
-- Fusion final (meilleur des 3)
-- Ready-to-use Leonardo.ai prompts"
+- Texte zones: [COPIER DEPUIS VISUAL BYPASS, ≤25 CHAR PAR ZONE]"
 
 # Résultat: 4 prompts Leonardo prêts à copier
-# → Aller sur Leonardo.ai → Coller prompt Fusion → Générer
+# → Leonardo.ai → Coller prompt Fusion → Générer
 
 # ═══════════════════════════════════════════════════════
-# ÉTAPE 4 : PUBLICATION (T-10 à T+30)
+# ÉTAPE 3 : PUBLICATION TWITTER (T-10 à T+30)
 # ═══════════════════════════════════════════════════════
 
+# Si OPTION A (Substack):
+# → Copier tweet depuis prompts/outputs/*-tweet.txt
+# → Publier sur Twitter
+
+# Si OPTION B (Tweet long + infographie):
 # T-10 min : DM 5-10 followers "Thread dans 10 min, RT si possible ?"
 # T0      : Tweet court + infographie Leonardo
 # T+2 min : Thread long (réponse au tweet court)
@@ -213,7 +228,7 @@ Mode TWEET: logs/[FICHIER_CRÉÉ_ÉTAPE_1].md"
 
 ---
 
-## ⚡ Nouveautés Truth Engine v10.1 (2025-11-25)
+## ⚡ Fonctionnalités Truth Engine (v10.1+)
 
 ### 🎯 Progressive Concept Activation
 
@@ -546,9 +561,9 @@ claude-code "Load prompts/systems/tweet-engine-v4.0.md. Mode TWEET LONG: logs/[f
 
 ---
 
-### 3️⃣ Substack Engine v1.0
+### 3️⃣ Substack Engine v2.0
 
-**Cas d'usage :** Investigation → Article Substack + Tweet hook avec lien
+**Cas d'usage :** Investigation → Article Substack (longueur adaptive) + Tweet hook avec lien
 
 **Prérequis :** API server running
 ```bash
@@ -561,45 +576,191 @@ cd ~/projects/Substack-API && source venv/bin/activate && python api_server.py
 claude "Mode SUBSTACK: logs/[fichier-investigation].md"
 ```
 
+**v2.0 - Nouveautés clés :**
+- **Longueur adaptive** : 800-6000+ mots selon richesse investigation
+- **LLM autonomie** : Décide structure optimale, pas de limites arbitraires
+- **Gate 5 remplacé** : Content Integrity (vs Length check)
+- **Gate 6 ajouté** : Coherence check
+- **ICEBERG intégré** : Deep layers dans sections dédiées pour APEX
+
+**Longueur par type investigation :**
+
+| Type | Source (mots) | Article (mots) |
+|------|---------------|----------------|
+| SIMPLE | ≤2000 | 800-1500 |
+| MEDIUM | 2000-4000 | 1500-3000 |
+| COMPLEX | 4000-6000 | 3000-5000 |
+| APEX | 6000+ | 4000-6000+ |
+
 **Workflow automatisé :**
-1. PHASE 0: Read investigation, build FactLedger
+1. PHASE 0: Content Analysis + LLM decision on format/length
 2. PHASE 1: Generate tweet hook (≤235 chars, 6 formulas)
-3. PHASE 2: Generate article (800-2000 mots, structure ## I/II/Conclusion)
-4. PHASE 3: Publish via API → Get article URL
-5. PHASE 4: Compose final tweet (hook + URL)
+3. PHASE 2: Generate article (adaptive length)
+4. PHASE 3: Quality Gates (6 gates including Content Integrity)
+5. PHASE 4: Publish via API → Get article URL
 
 **Output files :**
 - `prompts/outputs/YYYY-MM-DD_sujet-substack.md` - Article backup
 - `prompts/outputs/YYYY-MM-DD_sujet-tweet.txt` - Tweet prêt à poster
-- `prompts/outputs/YYYY-MM-DD_sujet-meta.json` - Metadata (draft_id, URL, stats)
+- `prompts/outputs/YYYY-MM-DD_sujet-meta.json` - Metadata v2.0 (content_decision, coverage)
 
-**Article structure (adapté tweet-engine-v4.0 LONG) :**
-```markdown
-# {TITRE ACCROCHEUR}
-## {Sous-titre hook}
+**Quality Gates v2.0 :**
+- G1: Tweet ≤235 chars
+- G2: Structure (sections, conclusion)
+- G3: Anti-LLM phrases INTERDITES
+- G4: Accessibility (paragraphes courts, acronymes)
+- G5: **Content Integrity** (éléments essentiels couverts)
+- G6: **Coherence** (narratif fluide, standalone)
 
-{Paragraphe d'accroche}
-
----
-
-## I - {SECTION}
-{Paragraphes + faits}
-👉 **Conséquence**: {impact}
+**Design doc :** [docs/plans/2025-11-27-substack-engine-v2-design.md](../docs/plans/2025-11-27-substack-engine-v2-design.md)
 
 ---
 
-## CONCLUSION
-{L1: Synthesis} {L2: Pivot number} {L3: Next step}
+### 📝 Procédure Pragmatique : Investigation → Substack
+
+**Procédure testée et validée le 2025-11-26.**
+
+#### Prérequis (une seule fois)
+
+```bash
+# 1. Cloner l'API Substack
+cd ~/projects
+git clone https://github.com/JPres-Projects/Substack-API.git
+cd Substack-API
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# 2. Configurer .env avec cookies Substack
+# Ouvrir Substack.com → F12 → Application → Cookies
+# Copier les valeurs dans .env:
+SUBSTACK_SID=xxxxx
+SUBSTACK_SSID=xxxxx
+SUBSTACK_USER_ID=123456789
+PUBLICATION_ID=yourpublication
 ```
 
-**Quality Gates :**
-- Tweet ≤235 chars (réserve 45 pour URL)
-- Article 800-2000 mots
-- Anti-LLM phrases INTERDITES
-- 👉 Conséquence par section
-- Conclusion L1-L2-L3
+#### Workflow complet (chaque publication)
 
-**Design doc :** [docs/plans/2025-11-26-substack-engine-design.md](../docs/plans/2025-11-26-substack-engine-design.md)
+```bash
+# TERMINAL 1: Lancer l'API server
+cd ~/projects/Substack-API && source venv/bin/activate && python api_server.py
+# → http://localhost:8000/docs
+
+# TERMINAL 2: Claude Code
+cd ~/projects/truth-engine
+
+# ÉTAPE 1: Investigation APEX (si pas déjà faite)
+claude "Investigation APEX: [SUJET].
+Load system.md + kb/ via MnemoLite.
+Save logs/$(date +%Y-%m-%d_%H-%M)_[sujet-court].md"
+
+# ÉTAPE 2: Génération + Publication Substack
+claude "Mode SUBSTACK: logs/[fichier-investigation].md"
+# → Suit les 4 phases automatiquement
+# → Demande confirmation avant publication
+# → Output: prompts/outputs/YYYY-MM-DD_sujet-*.{md,txt,json}
+```
+
+#### ⚠️ IMPORTANT: Format Markup Substack
+
+**L'API utilise un format markup personnalisé, PAS du HTML ni du Markdown.**
+
+| Markdown | Markup Substack |
+|----------|-----------------|
+| `## Titre` | `H2:: Titre` |
+| Paragraphe | `Text:: contenu` |
+| `> citation` | `Quote:: citation` |
+| `---` | `Rule::` |
+| `**gras**` | `**gras**` (conservé) |
+| `[lien](url)` | `[lien](url)` (conservé) |
+
+**Séparateurs:**
+- Blocs: ` | ` (pipe avec espaces)
+- Type/contenu: `::` (double colon)
+
+**Exemple complet:**
+```
+H2:: I - LE VOTE QU'ON CACHE | Text:: Le 23 novembre 2021, le Parlement... **Tous les eurodéputés RN votent POUR.** | Quote:: Une sorte de renationalisation de la PAC | Rule:: | H2:: II - 9.6 MILLIARDS | Text:: La France est le **premier bénéficiaire**...
+```
+
+#### Résultat attendu
+
+Après `Mode SUBSTACK`:
+- ✅ Article publié sur Substack (URL fournie)
+- ✅ Tweet prêt à copier-coller (`prompts/outputs/*-tweet.txt`)
+- ✅ Backup article en markdown (`prompts/outputs/*-substack.md`)
+- ✅ Métadonnées JSON (`prompts/outputs/*-meta.json`)
+
+#### Troubleshooting
+
+| Problème | Solution |
+|----------|----------|
+| "API non accessible" | Vérifier `python api_server.py` tourne |
+| HTML brut affiché | Utiliser format markup (pas HTML) |
+| "Draft creation failed" | Créer un draft manuel sur Substack d'abord |
+| 401 Unauthorized | Rafraîchir cookies dans `.env` |
+
+---
+
+### 📌 Workflow Warp Agent Mode (Validé 2025-11-28)
+
+**Cas d'usage :** Investigation APEX complète + Publication Substack en une session
+
+**Prérequis :**
+```bash
+# Terminal séparé - API Substack
+cd ~/projects/Substack-API && source venv/bin/activate && python api_server.py
+```
+
+**Commande unique Warp Agent Mode :**
+```
+Investigation APEX :
+```
+[Tweets ou texte source à analyser]
+```
+Load system.md + kb/COGNITIVE_DSL_CORE.md.
+Progressive concept activation. Full textual DSL analysis mandatory.
+L0-L9 full cascade. WOLF MODE if political.
+Target: EDI≥0.70, sources≥15, wolves≥8 if political.
+Patterns: ICEBERG MAX, MONEY, NETWORK, TEMPORAL.
+Save logs/$(date +%Y-%m-%d_%H-%M)_[sujet-court].md
+```
+
+**Après investigation, dans le même chat :**
+```
+Mode SUBSTACK
+```
+
+**L'agent va automatiquement :**
+1. Relire l'investigation créée
+2. Générer un article Substack format markup
+3. Créer le draft via API (curl POST `/drafts/create-markup`)
+4. Publier le draft (curl POST `/drafts/{id}/publish`)
+5. Retourner l'URL de l'article
+
+**Commandes API curl sous-jacentes :**
+```bash
+# Créer draft
+curl -X POST "http://localhost:8000/drafts/create-markup" \
+  -H "Content-Type: application/json" \
+  -d @payload.json
+
+# Publier
+curl -X POST "http://localhost:8000/drafts/{draft_id}/publish" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "user_id": "giak",
+    "draft_id": {draft_id},
+    "send_email": true,
+    "audience": "everyone"
+  }'
+```
+
+**Exemple validé (28/11/2025) :**
+- Investigation : Service national militaire volontaire
+- Durée totale : ~15 min (investigation déjà faite) + 5 min publication
+- URL publiée : https://giak.substack.com/p/service-militaire-volontaire-ce-que
 
 ---
 
@@ -644,26 +805,39 @@ Generate 3 variants + fusion final."
 
 ## 📚 Référence Rapide Prompts
 
-### systems/substack-engine-v1.0.md ⭐ NEW
+### systems/substack-engine-v2.0.md ⭐ CURRENT
 
-**Fonction :** Investigation Truth Engine → Tweet hook + Article Substack + Publication API
+**Fonction :** Investigation Truth Engine → Article Substack (longueur adaptive) + Tweet hook + Publication API
+
+**Philosophie v2.0 :** L'article sert l'investigation, pas l'inverse. Le LLM décide la forme optimale.
 
 **Architecture 4 phases :**
-- **PHASE 0** : Setup (read investigation, build ledgers, user confirms)
+- **PHASE 0** : Content Analysis + LLM decision on format/length
 - **PHASE 1** : Hook Generator (6 formulas, ≤235 chars for tweet)
-- **PHASE 2** : Article Generator (800-2000 mots, structure ## adaptée Substack)
-- **PHASE 3** : Quality Gates (5 checks + Anti-LLM)
+- **PHASE 2** : Article Generator (adaptive: 800-6000+ mots selon investigation)
+- **PHASE 3** : Quality Gates (6 checks: Structure, Anti-LLM, Accessibility, **Content Integrity**, **Coherence**)
 - **PHASE 4** : Publication API + Output files
+
+**Longueur adaptive :**
+
+| Investigation | Source | Article |
+|---------------|--------|---------|
+| SIMPLE | ≤2000 mots | 800-1500 mots |
+| MEDIUM | 2000-4000 | 1500-3000 |
+| COMPLEX | 4000-6000 | 3000-5000 |
+| APEX | 6000+ | 4000-6000+ |
+
+**Gate 5 (Content Integrity) - NOUVEAU :**
+- Tous les éléments ESSENTIELS inclus
+- Sources primaires citées
+- Chaîne de preuves complète
+- Précédents historiques inclus (si PHASE 3.5)
+- Couches ICEBERG couvertes (si APEX)
 
 **API externe :** [JPres-Projects/Substack-API](https://github.com/JPres-Projects/Substack-API)
 - Installation : `~/projects/Substack-API/`
 - Serveur : `python api_server.py` → localhost:8000
 - Auth : Cookies Substack dans `.env`
-
-**Endpoints API :**
-- `POST /drafts/create-markup` → Créer draft
-- `POST /drafts/{id}/publish` → Publier
-- `GET /drafts?user_id=xxx` → Lister drafts
 
 **Commandes :**
 ```bash
@@ -677,13 +851,17 @@ claude "Mode SUBSTACK: logs/investigation.md"
 claude "Mode SUBSTACK DRAFT: logs/investigation.md"
 ```
 
-**Hérité de tweet-engine-v4.0 :**
-- Hook formulas (PROVOCATIVE, CONTRARIAN, CONSEQUENCE, PATTERN, EMOTIONAL, REVELATION)
-- Section templates (## I - TITRE + 👉 Conséquence)
-- Conclusion template (L1-L2-L3)
-- Anti-LLM blacklist
+**Design doc :** [docs/plans/2025-11-27-substack-engine-v2-design.md](../docs/plans/2025-11-27-substack-engine-v2-design.md)
 
-**Design doc :** [docs/plans/2025-11-26-substack-engine-design.md](../docs/plans/2025-11-26-substack-engine-design.md)
+---
+
+### systems/substack-engine-v1.0.md 📦 LEGACY
+
+**Fonction :** Investigation → Article Substack (800-2000 mots fixe) + Tweet hook
+
+**Statut :** Remplacé par v2.0 (limite 800-2000 mots trop restrictive, perte 85% contenu APEX)
+
+**Usage :** Préférer v2.0 pour toutes les publications
 
 ---
 
@@ -1044,11 +1222,12 @@ Load system.md + kb/. L8 NET if relevant. EDI≥0.50."
 4. Tester validation
 
 **Question usage Truth Engine ?**
-Voir [CLAUDE.md](../CLAUDE.md) - Guide complet Truth Engine v10.1
+Voir [CLAUDE.md](../CLAUDE.md) - Guide complet Truth Engine v10.5
 
 ---
 
-**Dernière mise à jour :** 2025-11-26
-**Version Truth Engine :** v10.2 KNOWLEDGE_GRAPH (MnemoLite Integration)
+**Dernière mise à jour :** 2025-11-27
+**Version Truth Engine :** v10.5 HISTORICAL_PRECEDENTS (MnemoLite + PHASE 3.5)
+**Substack Engine :** v2.0 (Adaptive Length + LLM Autonomy)
 **Maintenu par :** Truth Engine Project
 **License :** Usage interne projet

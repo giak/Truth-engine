@@ -96,13 +96,14 @@ index_project(project_path="/home/giak/projects/truth-engine/kb", repository="tr
 - EDI improves with reused validated sources
 - Historical precedents strengthen textual analysis
 
-## Substack Engine (v1.0)
+## Substack Engine (v2.0)
 
-**Purpose:** Publish investigations to Substack with tweet hooks
+**Purpose:** Publish investigations to Substack with tweet hooks - **adaptive length + LLM autonomy**
 
 **Files:**
-- System prompt: [prompts/systems/substack-engine-v1.0.md](prompts/systems/substack-engine-v1.0.md)
-- Design doc: [docs/plans/2025-11-26-substack-engine-design.md](docs/plans/2025-11-26-substack-engine-design.md)
+- System prompt: [prompts/systems/substack-engine-v2.0.md](prompts/systems/substack-engine-v2.0.md)
+- Design doc: [docs/plans/2025-11-27-substack-engine-v2-design.md](docs/plans/2025-11-27-substack-engine-v2-design.md)
+- Legacy v1.0: [prompts/systems/substack-engine-v1.0.md](prompts/systems/substack-engine-v1.0.md)
 - API: `~/projects/Substack-API/` (external, not in repo)
 
 **Usage:**
@@ -114,17 +115,32 @@ cd ~/projects/Substack-API && source venv/bin/activate && python api_server.py
 claude "Mode SUBSTACK: logs/2025-11-26_investigation.md"
 ```
 
+**v2.0 Key Changes:**
+- **Adaptive length**: 800-6000+ words (based on investigation richness)
+- **LLM autonomy**: Decides optimal structure, no arbitrary limits
+- **Gate 5 replaced**: Content Integrity (was: length check)
+- **Gate 6 added**: Coherence check
+- **ICEBERG integration**: Deep layers get dedicated sections for APEX
+
 **Workflow:**
-1. PHASE 0: Read investigation, extract facts
+1. PHASE 0: Content Analysis + LLM decision on format/length
 2. PHASE 1: Generate tweet hook (≤235 chars + URL)
-3. PHASE 2: Generate Substack article (800-2000 words)
-4. PHASE 3: Publish via API → Get URL
-5. PHASE 4: Output files saved
+3. PHASE 2: Generate Substack article (adaptive length)
+4. PHASE 3: Quality Gates (6 gates including Content Integrity)
+5. PHASE 4: Publish via API → Get URL
+
+**Length Guidance:**
+| Investigation Type | Source Words | Article Words |
+|-------------------|--------------|---------------|
+| SIMPLE | ≤2000 | 800-1500 |
+| MEDIUM | 2000-4000 | 1500-3000 |
+| COMPLEX | 4000-6000 | 3000-5000 |
+| APEX | 6000+ | 4000-6000+ |
 
 **Output files:**
 - `prompts/outputs/YYYY-MM-DD_sujet-substack.md` - Article backup
 - `prompts/outputs/YYYY-MM-DD_sujet-tweet.txt` - Tweet ready to post
-- `prompts/outputs/YYYY-MM-DD_sujet-meta.json` - Metadata
+- `prompts/outputs/YYYY-MM-DD_sujet-meta.json` - Metadata (extended v2.0)
 
 ---
 

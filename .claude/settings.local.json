@@ -47,7 +47,12 @@
       "mcp__mnemolite__clear_cache",
       "mcp__mnemolite__switch_project",
       "WebSearch",
-      "Bash(date:*)"
+      "Bash(date:*)",
+      "Skill(superpowers:writing-plans)",
+      "Bash(git rev-parse:*)",
+      "Bash(source:*)",
+      "Bash(python3:*)",
+      "Bash(wc:*)"
     ],
     "deny": [],
     "ask": []

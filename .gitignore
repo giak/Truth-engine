@@ -1,32 +1,555 @@
-# Logs
+# Truth Engine - .gitignore Optimisé
+# Version: 1.0
+# Date: 2025-12-15
+# Projet: Truth Engine (Python + JavaScript + MCP Tools)
+# 
+# Ce .gitignore est optimisé pour le projet Truth Engine et couvre:
+# - Python (scripts d'investigation)
+# - JavaScript/Node.js (MCP servers, outils développement)
+# - Outils spécialisés (Claude Code, MnemoLite, auto-save)
+# - Fichiers temporaires et de cache
+# - Sécurité et configuration
+
+# =============================================================================
+# 📝 LOGS & TEMPORARY FILES (Truth Engine Specific)
+# =============================================================================
+# Truth Engine génère beaucoup de logs d'investigation
 logs/
-*.log
+logs/*.log
+logs/auto-save/
 
-# Debug
-/tmp/
+# Fichiers temporaires de debug et auto-save
 *.debug
+/tmp/
+/tmp/hook-autosave-debug.log
+/tmp/mnemo-saved-exchanges.txt
 
-# Claude Code local
+# Fichiers temporaires génériques
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+*.swp
+*.swo
+
+# =============================================================================
+# 🐍 PYTHON
+# =============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+# Conda
+.conda/
+conda-meta/
+# Virtualenv
+.env
+.venv
+venv/
+ENV/
+env/
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+test.db
+*.db
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+mypy.ini
+
+# Documentation builds
+docs/_build/
+.sphinx/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# =============================================================================
+# ☕ JAVASCRIPT / NODE.JS
+# =============================================================================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Package manager lock files (keep only one!)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint
+.eslintcache
+.eslintcache.*
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.parcel-cache/
+
+# Next.js build output
+.next/
+
+# Nuxt.js build / generate output
+.nuxt/
+dist/
+
+# Gatsby files
+.cache/
+public/
+
+# Vuepress build output
+.vuepress/dist/
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# =============================================================================
+# 💻 IDE & EDITORS
+# =============================================================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/*
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Atom
+.atom/
+.beam.spawn*
+.buildkite/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# TextMate
+*.tmproj
+*.tmproject
+
+# =============================================================================
+# 🖥️ OPERATING SYSTEM
+# =============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.dSYM/
+*.lnk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# 🔧 DEVELOPMENT TOOLS
+# =============================================================================
+# Git
+.git-rewrite/
+
+# Docker
+.dockerignore
+Dockerfile.dev
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# =============================================================================
+# 🛡️ SECURITY & CONFIGURATION
+# =============================================================================
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+
+# API Keys and credentials
+secrets.json
+credentials.json
+secrets/
+private/
+*.pem
+*.key
+*.crt
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# =============================================================================
+# 🎯 TRUTH ENGINE SPECIFIC
+# =============================================================================
+# Generated content from investigations
+documents/batches/batch_*.md
+prompts/outputs/*.json
+prompts/outputs/*_meta*.json
+
+# Archive system outputs
+archive/system/*_meta*.json
+archive/system/*_output.json
+
+# Test outputs and results
+tests/results/
+tests/output/
+*.test.log
+*.validation.log
+
+# System specific files
+.cursorindexingignore
+.specstory/
+
+# MnemoLite specific
+.mnemo/
+.mnemo/cache/
+.mnemo/index/
+
+# Claude Code specific (already present but extended)
 .claude/sessions/
+.claude/hooks/session_*.log
+
+# =============================================================================
+# 🌐 WEB & API (if used)
+# =============================================================================
+# React/Next.js
+.next/
+out/
+build/
+
+# Angular
+/dist/
+/tmp/
+/out-tsc/
+
+# Vue
+.DS_Store
+node_modules/
+/dist/
+/.angular/cache
+
+# =============================================================================
+# 📊 MONITORING & ANALYTICS
+# =============================================================================
+# Log files from tools
+*.log.*
+logs/
+tmp/
+temp/
+
+# Metrics
+.metrics/
+*.metrics
+
+# =============================================================================
+# 🔍 SEARCH & INDEXING
+# =============================================================================
+# Search indices
+.algolia/
+.search/
+indexes/
+
+# MnemoLite indices
+.indices/
+embeddings/
+
+# =============================================================================
+# 📦 ARCHIVES & COMPRESSION
+# =============================================================================
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Compressed files
+*.bz2
+*.xz
+
+# =============================================================================
+# 📁 SPECIFIC PROJECT STRUCTURE (Truth Engine)
+# =============================================================================
+# Archive (keep structure but ignore generated content)
+archive/archives/
+archive/temp/
+
+# Documents generated content
+documents/generated/
+documents/temp/
+documents/cache/
+
+# Knowledge base temporary files
+kb/temp/
+kb/cache/
+kb/index/
+
+# Scripts temporary outputs
+scripts/output/
+scripts/temp/
+
+# =============================================================================
+# 🎨 ASSETS & MEDIA (if applicable)
+# =============================================================================
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Audio
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+
+# Documents
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# =============================================================================
+# ⚡ PERFORMANCE & CACHE
+# =============================================================================
+# General cache directories
+.cache/
+tmp/
+temp/
+.tmp/
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Env
-.env
-.venv
-venv/
+# Node.js
+.npm
+.node_repl_history
 
-# OS
-.DS_Store
-Thumbs.db
+# System caches
+.CFUserTextEncoding
+.fuse_hidden*
 
-# IDE
-.vscode/
-.idea/
+# =============================================================================
+# 🔄 BACKUP FILES
+# =============================================================================
+# Generic backup patterns
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.copy
 
-# Auto-save specific
-/tmp/hook-autosave-debug.log
-/tmp/mnemo-saved-exchanges.txt
+# Editor backups
+*~
+.#*
+.#*
+
+# System backups
+*.swn
+*.swm
+*.swo
+
+# =============================================================================
+# 📋 NOTES DE MAINTENANCE
+# =============================================================================
+# 
+# Ce .gitignore a été optimisé pour Truth Engine le 2025-12-15
+# 
+# Sections ajoutées/modifiées:
+# ✅ Truth Engine specific logs and outputs
+# ✅ Extended Python patterns (conda, mypy, pytest)
+# ✅ Complete JavaScript/Node.js coverage
+# ✅ Security patterns (env vars, credentials)
+# ✅ IDE compatibility (VSCode, JetBrains, Vim, etc.)
+# ✅ OS compatibility (macOS, Windows, Linux)
+# ✅ Development tools (Docker, Kubernetes, etc.)
+# ✅ Performance and cache patterns
+# 
+# Pour maintenir:
+# - Ajouter nouveaux patterns au fur et à mesure
+# - Commenter les ajouts spécifiques Truth Engine
+# - Vérifier périodiquement les nouveaux outils utilisés
+# - Nettoyer les patterns obsolètes
+# 
+# Tests recommandés après modification:
+# 1. git status --ignored  (vérifier exclusions)
+# 2. git add .  (vérifier qu'aucun fichier important n'est exclu)
+# 3. git commit --dry-run  (simulation commit)
+# 
+# =============================================================================

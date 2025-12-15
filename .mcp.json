@@ -5,7 +5,16 @@
       "args": ["/home/giak/Work/MnemoLite/scripts/mcp_server.sh"],
       "env": {
         "DOCKER_COMPOSE_PROJECT": "mnemolite"
-      }
+      },
+      "description": "MnemoLite - Code intelligence with semantic search, memory, and graph analysis"
+    },
+    "duckduckgo": {
+      "command": "docker",
+      "args": ["run", "--rm", "-i", "ghcr.io/mudler/mcps/duckduckgo:latest"],
+      "env": {
+        "MAX_RESULTS": "5"
+      },
+      "description": "DuckDuckGo web search capabilities (Docker-based)"
     }
   }
 }
