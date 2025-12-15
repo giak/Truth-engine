@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@modelcontextprotocol/server-sequential-thinking": "^2025.11.25",
+    "tavily-mcp": "^0.2.10"
+  }
+}
