@@ -2,7 +2,7 @@
 # Version: 1.0
 # Date: 2025-12-15
 # Projet: Truth Engine (Python + JavaScript + MCP Tools)
-# 
+#
 # Ce .gitignore est optimisé pour le projet Truth Engine et couvre:
 # - Python (scripts d'investigation)
 # - JavaScript/Node.js (MCP servers, outils développement)
@@ -14,9 +14,9 @@
 # 📝 LOGS & TEMPORARY FILES (Truth Engine Specific)
 # =============================================================================
 # Truth Engine génère beaucoup de logs d'investigation
-logs/
-logs/*.log
-logs/auto-save/
+# logs/
+# logs/*.log
+# logs/auto-save/
 
 # Fichiers temporaires de debug et auto-save
 *.debug
@@ -337,8 +337,8 @@ private/
 # =============================================================================
 # Generated content from investigations
 documents/batches/batch_*.md
-prompts/outputs/*.json
-prompts/outputs/*_meta*.json
+# prompts/outputs/*.json
+# prompts/outputs/*_meta*.json
 
 # Archive system outputs
 archive/system/*_meta*.json
@@ -387,7 +387,7 @@ node_modules/
 # =============================================================================
 # Log files from tools
 *.log.*
-logs/
+# logs/
 tmp/
 temp/
 
@@ -528,9 +528,9 @@ __pycache__/
 # =============================================================================
 # 📋 NOTES DE MAINTENANCE
 # =============================================================================
-# 
+#
 # Ce .gitignore a été optimisé pour Truth Engine le 2025-12-15
-# 
+#
 # Sections ajoutées/modifiées:
 # ✅ Truth Engine specific logs and outputs
 # ✅ Extended Python patterns (conda, mypy, pytest)
@@ -540,16 +540,16 @@ __pycache__/
 # ✅ OS compatibility (macOS, Windows, Linux)
 # ✅ Development tools (Docker, Kubernetes, etc.)
 # ✅ Performance and cache patterns
-# 
+#
 # Pour maintenir:
 # - Ajouter nouveaux patterns au fur et à mesure
 # - Commenter les ajouts spécifiques Truth Engine
 # - Vérifier périodiquement les nouveaux outils utilisés
 # - Nettoyer les patterns obsolètes
-# 
+#
 # Tests recommandés après modification:
 # 1. git status --ignored  (vérifier exclusions)
 # 2. git add .  (vérifier qu'aucun fichier important n'est exclu)
 # 3. git commit --dry-run  (simulation commit)
-# 
+#
 # =============================================================================
