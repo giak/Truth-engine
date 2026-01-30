@@ -1,6 +1,0 @@
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 36914  100   403  100 36511    392  35598  0:00:01  0:00:01 --:--:-- 36013100 36914  100   403  100 36511    392  35597  0:00:01  0:00:01 --:--:-- 36013
-{"success":true,"draft_id":180337268,"title":"Quand les \"vérificateurs\" propagent la désinformation","subtitle":"Une investigation révèle un taux d'erreur de 33% et une dépendance financière de 95% aux plateformes vérifiées.","url":"https://giak.substack.com/publish/post/180337268?back=%2Fpublish%2Fposts%2Fdrafts","message":"Draft created successfully with 150 content blocks for user giak"}curl: (3) URL rejected: Malformed input to a URL function
-curl: (3) URL rejected: Malformed input to a URL function
-curl: (3) URL rejected: Malformed input to a URL function
