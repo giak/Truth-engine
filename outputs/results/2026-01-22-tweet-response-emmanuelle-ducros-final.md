@@ -1,0 +1,1 @@
+Emmanuelle Ducros utilise le patriotisme comme bouclier : appeler Philippot « serpillière » masque son refus de questionner la politique de Macron, humilié par Trump à Davos. Son texte manipule l’émotion au détriment de l’analyse. La France mérite mieux.
