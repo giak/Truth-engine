@@ -8,6 +8,7 @@ Ce projet est organisé selon 3 piliers distincts :
 truth-engine/
 ├── 📦 core/              # SYSTÈME - Le DSL et les patterns
 ├── 📤 outputs/           # PRODUCTIONS - Résultats des investigations
+├── 📁 docs/              # DOCUMENTATION - Investigations organisées
 ├── 🛠️ tools/             # INFRASTRUCTURE - Docs, tests, scripts
 ├── 🗄️ archive/           # ARCHIVES - Historique et backups
 └── 📄 Fichiers racine    # Essentiels uniquement
@@ -25,6 +26,19 @@ Le cœur du Truth Engine - **ne doit jamais contenir de contenu généré**.
 | `core/patterns/` | 19 clusters de patterns cognitifs (CLUSTER_*.md) |
 | `core/protocols/` | Protocoles d'investigation (INVESTIGATION.md, OUTPUT_TEMPLATE.md...) |
 | `core/dsl/` | Fichiers DSL (COGNITIVE_DSL.md, MACROS.md, PATTERNS.md...) |
+
+---
+
+## 📁 DOCS/ - Documentation & Investigations
+
+Investigations organisées par sujet et rapports consolidés.
+
+| Dossier | Contenu |
+|---------|---------|
+| `docs/investigations/epstein_2026/` | Enquête Epstein - Intelligence et réseaux |
+| `docs/investigations/SHADOWBANNING/` | Enquête sur le shadowbanning algorithmique |
+| `docs/investigations/UE-censor/` | Enquête Architecture Censure UE (DSA, GIFCT) |
+| `docs/investigations/UE-censor/rapports/` | Rapports consolidés UE-CENSOR |
 
 ---
 
@@ -90,12 +104,13 @@ Uniquement 5 fichiers (+ symlinks) :
 
 ## 🎯 Règles d'Or
 
-1. **Racine** : Max 5 fichiers essentiels
+1. **Racine** : Max 5 fichiers essentiels (pas de rapports)
 2. **core/** : Système uniquement - jamais de contenu généré
-3. **outputs/** : Tout contenu produit par le KERNEL
-4. **tools/** : Infrastructure uniquement
-5. **archive/** : Contenu historique, pas de références actives
+3. **docs/** : Investigations organisées par enquête
+4. **outputs/** : Tout contenu produit par le KERNEL
+5. **tools/** : Infrastructure uniquement
+6. **archive/** : Contenu historique, pas de références actives
 
 ---
 
-*Structure créée le 30 janvier 2026*
+*Structure mise à jour le 6 février 2026*
