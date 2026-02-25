@@ -1,5 +1,4 @@
 # 🌊 CLUSTER OVERLOAD - Cognitive Saturation Patterns
-*Information tsunami, paralysis by analysis (5KB)*
 
 ## Parent: Ψ (PSI/OVERLOAD)
 Activated when Ψ score ≥5

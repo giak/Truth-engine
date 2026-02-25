@@ -1,5 +1,4 @@
 # Σ CLUSTER FRAGMENTATION - Division & Conquest Patterns
-*Unity destroyed, atomization achieved (5KB)*
 
 ## Parent: Σ (SIGMA/FRAGMENTATION)
 Activated when Σ score ≥5

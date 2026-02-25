@@ -1,5 +1,4 @@
 # 💰 CLUSTER MONEY - Economic Manipulation Patterns
-*Financial flows, hidden interests, economic warfare (5KB)*
 
 ## Parent: € (EURO/MONEY)
 Activated when € score ≥5

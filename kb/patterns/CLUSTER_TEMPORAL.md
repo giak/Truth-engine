@@ -1,5 +1,4 @@
 # ⏰ CLUSTER TEMPORAL - Time Manipulation Patterns
-*Past rewritten, future predetermined (5KB)*
 
 ---
 

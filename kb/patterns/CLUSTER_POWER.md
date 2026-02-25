@@ -1,5 +1,4 @@
 # ⚡ CLUSTER POWER - Archaeology of Control
-*Who rules, how they rule, why they rule (5KB)*
 
 ## Parent: Multiple (€♦⚔🌐)
 Activated when power analysis required

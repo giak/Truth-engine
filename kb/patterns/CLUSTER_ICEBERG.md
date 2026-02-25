@@ -1,7 +1,5 @@
 # 🧊 CLUSTER ICEBERG - Omission Patterns
 
-_Extended concepts for deep omission analysis (5KB)_
-
 ## Parent: Ξ (ICEBERG)
 
 Activated when Ξ score ≥5

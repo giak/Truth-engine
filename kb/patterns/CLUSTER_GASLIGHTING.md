@@ -1,5 +1,4 @@
 # Κ CLUSTER GASLIGHTING - Reality Denial Patterns
-*Making you doubt your own perception (5KB)*
 
 ## Parent: Κ (KAPPA/GASLIGHTING)
 Activated when Κ score ≥5

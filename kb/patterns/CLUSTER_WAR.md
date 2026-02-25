@@ -1,5 +1,4 @@
 # ⚔️ CLUSTER WAR - Cognitive Warfare Patterns
-*Information battlefield tactics (5KB)*
 
 ## Parent: ⚔ (SWORD/WAR)
 Activated when ⚔ score ≥5

@@ -1,5 +1,4 @@
 # κ CLUSTER CONFIRMATION - Cognitive Bias Exploitation
-*Biases weaponized, thinking hijacked (5KB)*
 
 ## Parent: κ (KAPPA_SMALL/CONFIRMATION)
 Activated when κ score ≥5

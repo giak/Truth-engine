@@ -1,5 +1,4 @@
 # 🎭 CLUSTER SPECTACLE - Distraction & Performance Patterns
-*The show that hides reality (5KB)*
 
 ## Parent: Φ (PHI/SPECTACLE)
 Activated when Φ score ≥5

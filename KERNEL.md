@@ -74,7 +74,6 @@ TARGET: ≥50% of actors must be individually named.
 BOOT SEQUENCE REQUIRES:
   LOAD: kb/dsl/COGNITIVE_DSL_CORE.md
   │ Contains: 6 core concepts with trigger words
-  │ Size: ~2.5KB
   │ Purpose: Initialize pattern detection primitives
 ```
 

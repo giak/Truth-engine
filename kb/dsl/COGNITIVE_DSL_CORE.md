@@ -1,6 +1,6 @@
 # 🧠 COGNITIVE DSL - CORE CONCEPTS v9.3
 
-_6 concepts fondamentaux pour scan initial (~2.5KB)_
+_6 concepts fondamentaux pour scan initial_
 
 ## Ξ (XI) - ICEBERG Pattern
 

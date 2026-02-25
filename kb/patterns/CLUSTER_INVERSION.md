@@ -1,5 +1,4 @@
 # 🔄 CLUSTER INVERSION - Reality Reversal Patterns
-*When the opposite is true, doublespeak detection (5KB)*
 
 ## Parent: Ω (OMEGA/INVERSION)
 Activated when Ω score ≥5

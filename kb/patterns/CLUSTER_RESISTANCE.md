@@ -1,5 +1,4 @@
 # ρ CLUSTER RESISTANCE - Opposition & Counter-Power
-*When system fights back, resistance patterns (5KB)*
 
 ## Parent: ρ (RHO/RESISTANCE)
 Activated when ρ score ≥5

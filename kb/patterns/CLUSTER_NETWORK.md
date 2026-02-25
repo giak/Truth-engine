@@ -1,5 +1,4 @@
 # 🌐 CLUSTER NETWORK - Web of Influence Patterns
-*Hidden connections, power networks (5KB)*
 
 ## Parent: 🌐 (GLOBE/NETWORK)
 Activated when 🌐 score ≥5

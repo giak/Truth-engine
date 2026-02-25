@@ -1,5 +1,4 @@
 # ♦️ CLUSTER BIO - Pharma & Health Manipulation
-*Body as profit center, disease as market (5KB)*
 
 ## Parent: ♦ (DIAMOND/BIO)
 Activated when ♦ score ≥5

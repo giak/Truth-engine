@@ -1,5 +1,4 @@
 # 🖼️ CLUSTER FRAMING - Narrative Control Patterns
-*How the debate boundaries are set (5KB)*
 
 ## Parent: Λ (LAMBDA/FRAMING)
 Activated when Λ score ≥5
