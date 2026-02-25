@@ -238,6 +238,14 @@ CLASSIFICATION:
   score < 6 → MEDIUM  (18 queries)
   score < 8 → COMPLEX (25 queries)
   score ≥ 8 → APEX    (35+ queries) + INVESTIGATION_TREE mandatory
+
+### §4.4 Branch Priority (APEX)
+
+```
+@F[BRANCH_PRIORITY]:
+  priority ← edi_impact × 0.5 + cui_bono_centrality × 0.5
+  RANGE: 0.0-1.0
+  USE: Rank branches for parallel exploration (top 5 selected)
 ```
 
 ---
@@ -404,86 +412,7 @@ PHASE 6: SOURCE_EVALUATION
 **MANDATORY VERIFICATION**
 
 PHASE 7: OUTPUT [MANDATORY]
-  ├─ **LOAD: kb/protocols/OUTPUT_TEMPLATE.md**
-├─ **FILL all sections marked [REQUIRED]**
-├─ **VALIDATE: Check all gates in VALIDATION FINALE section**
-│   IF ANY gate == FAIL:
-│     BLOCK_OUTPUT: TRUE
-│     RETURN TO: Phase indicated by failing gate
-│     MAX_RETRY: 2
-│     IF RETRY_EXCEEDED: ESCALATE_TO_USER
-├─ PART 1: EXÉCUTION DE L'ENQUÊTE
-│   ├─ 📋 PROTOCOLE D'INVESTIGATION
-│   │   ├─ Date de début/fin
-│   │   ├─ Complexité initiale
-│   │   ├─ Budget de requêtes
-│   │   ├─ Type d'investigation
-│   │   ├─ Modes activés
-│   │   └─ Phases exécutées
-│   ├─ 🔍 REQUEST LOG (TOUTES LES RECHERCHES)
-│   │   ├─ Pour chaque branche détectée (minimum 5 branches pour APEX):
-│   │   │   ├─ BRANCH [X]: [Nom complet de la branche] (X requêtes)
-│   │   │   └─ Tableau: # | TYPE | QUERY | RÉSULTAT | SOURCE
-│   └─ 📊 DÉCOMPTE SOURCES
-│       └─ Stratification par type: ◈X ◉X ○X
-├─ PART 2: ANALYSE TEXTUELLE DSL (concepts, techniques, dialectique)
-│          [OUTPUT IN FRENCH]
-│   ├─ 📊 ANALYSE DES CONCEPTS
-│   │   ├─ Pour chaque concept ≥5/10 (minimum 8 concepts pour APEX):
-│   │   │   ├─ NAME: symbol + concept name
-│   │   │   ├─ SCORE: X/10 with justification (inclure citations)
-│   │   │   ├─ QUOTE: exact text triggering detection
-│   │   │   ├─ TECHNIQUE: DSL pattern name
-│   │   │   └─ REVEAL: hidden implication
-│   └─ 🎭 DÉCONSTRUCTION SÉMANTIQUE
-│       ├─ SOUS-ENTENDUS (unstated implications)
-│       ├─ NON-DITS (strategic omissions)
-│       ├─ CONTRADICTIONS (internal tensions)
-│       └─ PRÉSUPPOSÉS (hidden assumptions)
-├─ PART 3: INVESTIGATION PRINCIPALE (BRANCH SYNTHESIS)
-│          [OUTPUT IN FRENCH]
-│   ├─ Pour chaque branche (minimum 5 branches pour APEX):
-│   │   ├─ B[X]: [Nom complet de la branche]
-│   │   └─ Syntèse détaillée des résultats (minimum 3 paragraphes par branche)
-│           - Contextualisation
-│           - Points clés
-│           - Preuves et sources
-│           - Implications
-├─ PART 4: WOLF MAPPING (Réseau d'Influence)
-│   └─ Tableau: WOLF | RÔLE | CENTRALITÉ | INTÉRÊTS | PREUVES (requêtes)
-│       - Minimum 8 acteurs pour APEX
-├─ PART 5: DIAGNOSTICS TECHNIQUES
-│   ├─ 🔢 CALCULATIONS (EDI, ICEBERG FACTOR, ASYMMETRY SCORE)
-│   │   ├─ EDI: Calcul détaillé avec décomposition
-│   │   ├─ ICEBERG FACTOR: Calcul et interpretation
-│   │   └─ ASYMMETRY SCORE: Calcul et signification
-│   ├─ 📈 EDI FINAL: X.XX (avec décomposition)
-│   ├─ 🧊 ICEBERG FACTOR: X.X
-│   ├─ ⚖️ ASYMMETRY SCORE: X.X
-│   └─ 📊 DISTRIBUTION SOURCES: ◈X ◉X ○X
-├─ PART 6: VALIDATION & CROSS-SOURCE
-│   ├─ ✅ CONCORDANCES (X%) — points d'accord entre sources
-│   │   └─ List de concordances avec sources correspondantes
-│   └─ ❌ DIVERGENCES (X%) — contradictions et incohérences
-│       └─ List de divergences avec sources correspondantes
-├─ PART 7: CARTOGRAPHIE DIALECTIQUE
-│   ├─ THÈSE (OFFICIELLE)
-│   │   ├─ Message officiel
-│   │   ├─ Points clés
-│   │   └─ Sources
-│   ├─ ANTITHÈSE (COUNTER)
-│   │   ├─ Narrative opposée
-│   │   ├─ Points clés
-│   │   └─ Sources
-│   └─ SYNTHÈSE & TENSIONS
-│       ├─ Tensions entre les narratives
-│       └─ Implication pour l'analyse
-└─ IF PERSO_FRESQUE: PART 3.5 Fresque Récapitulative
-     ├─ Mandate Archaeology (timeline)
-     ├─ Democratic ROI (substance vs cost)
-     ├─ Λ-Drift (semantic shift)
-     ├─ Ω-Long (pivot detection)
-     └─ Final Score (/100)
+  └─ GENERATE: See kb/protocols/OUTPUT_TEMPLATE.md (7 parts: Investigation, Request Log, Concepts, Branch Synthesis, Wolf Mapping, Diagnostics, Dialectic)
 
 PHASE 8: SEARCH_INDEX
 ├─ Generate 200-400 word structured summary
@@ -513,9 +442,9 @@ PHASE 9: KNOWLEDGE_SAVE [MnemoLite Integration]
 
 ---
 
-## §6 QUALITY GATES
+## §6 EXECUTION RULES
 
-Before output, verify:
+### CHECKLIST — Verify before output:
 
 ```
 □ Textual analysis present? (≥8 concepts analyzed)
@@ -525,48 +454,37 @@ Before output, verify:
 □ EDI meets target? (by complexity)
 □ Sources stratified? (◈◉○ visible)
 □ Patterns quantified? (explicit scores)
-□ **REQUEST LOG present? (toutes les recherches listées)**
-□ **Justifications include sources? (requêtes pour chaque affirmation)**
-□ **MnemoLite integration? (memory lookup performed)**
-□ **Calculations done? (EDI, complexity score)**
-□ **PERSO_FRESQUE mode? (for political subjects)**
-□ **Branches synthesis complete? (≥5 branches detailed)**
-□ **Wolf mapping complete? (≥8 named actors)**
-□ **Validation section present? (concordances + divergences)**
-□ **Request log complete? (all 47+ queries listed for APEX)**
-
-IF any gate fails → return to missing phase
-IF political subject and PERSO_FRESQUE not activated → **ERROR**
-IF APEX and EDI <0.80 → **ERROR**
-IF APEX and REQUEST LOG missing → **ERROR**
-IF APEX and justifications without sources → **ERROR**
-IF APEX and <8 concepts analyzed → **ERROR**
-IF APEX and <5 branches detailed → **ERROR**
-IF APEX and <8 named actors → **ERROR**
+□ REQUEST LOG present? (all searches listed)
+□ Justifications include sources?
+□ Calculations done? (EDI, complexity)
+□ Wolf mapping complete? (≥8 actors for APEX)
+□ Validation section? (concordances + divergences)
 ```
 
----
+### APEX ERRORS — Block if failed:
+```
+IF any checklist fails → return to missing phase
+IF political subject and PERSO_FRESQUE not activated → ERROR
+IF APEX and EDI <0.80 → ERROR
+IF APEX and REQUEST LOG missing → ERROR
+IF APEX and <8 concepts analyzed → ERROR
+IF APEX and <5 branches detailed → ERROR
+IF APEX and <8 named actors → ERROR
+```
 
-## §7 ENFORCEMENT
-
-### MANDATORY in every output:
-
+### MANDATORY:
 ```
 ✅ Textual DSL analysis (≥8 concepts with scores and citations)
 ✅ Semantic deconstruction (sous-entendus revealed)
 ✅ Dialectical mapping (thesis/antithesis/synthesis)
 ✅ Tri-perspective (academic + dissident + arbitrage)
 ✅ Technical diagnostics (EDI, patterns, calculations)
-✅ REQUEST LOG (toutes les recherches listées avec sources)
-✅ Justifications with source references (requêtes pour chaque affirmation)
+✅ REQUEST LOG (all searches listed with sources)
 ✅ Distribution des sources (◈ ◉ ○)
-✅ Branch synthesis (≥5 detailed branches for APEX)
 ✅ Wolf mapping (≥8 named actors for APEX)
-✅ Validation section (concordances + divergences)
 ```
 
 ### FORBIDDEN:
-
 ```
 ❌ Skip textual analysis
 ❌ Use "hermeneutic" as catch-all
@@ -581,7 +499,7 @@ IF APEX and <8 named actors → **ERROR**
 
 ---
 
-## §8 BOOT COMPLETE
+## §7 BOOT COMPLETE
 
 ```
 STATUS: KERNEL LOADED
