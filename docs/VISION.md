@@ -212,6 +212,59 @@ Langage naturel → Symbolisation → Abstraction → Cryptique
 
 → Si vous vous comprenez encore dans 6 mois, le niveau est bon.
 
+### Le Méta-Langage — L'Invention puis la Routine
+
+**Deux phases distinctes:**
+
+#### Phase 1: Conception (Le LLM invente)
+
+Quand Truth Engine n'existe pas encore, le LLM:
+- **Crée les symboles** — Ξ, €, Ψ, Ω, etc.
+- **Comprend le sens** — Pas juste le mot, mais toute la conceptualisation
+- **Forge les heuristiques** — "Quand X, toujours Y" — règles découvertes empiriquement
+- **Tisse les relations** — Comment les symboles interagissent
+- **Construit le moteur** — Une façon systématique de penser
+
+C'est créatif. C'est experimental. Le LLM réfléchit, pose, résout des problèmes.
+
+**Une fois établi, on ne re-invente pas.**
+
+#### Phase 2: Utilisation (Le LLM applique)
+
+Quand Truth Engine fonctionne:
+- **Charge les symboles** — Lis Ξ, comprends instantané
+- **Applique les heuristiques** — Sans les re-découvrir
+- **Exécute le moteur** — Sans le reconstruire
+
+**Il n'invente plus. Il utilise.**
+
+Les enquêtes produites contiennent des logs. Plus tard, ces logs révèlent des pistes d'amélioration. Mais l'utilisation quotidienne est opérationnelle — pas créative.
+
+### Les Heuristiques — Raccourcis de Pensée
+
+Une heuristique n'est pas une règle apprise. C'est un **raccourci mental**:
+- "Ω toujours → regarder qui est accusé"
+- "€ élevé → suivre l'argent"
+- "Ξ + Ω ensemble → danger de double manipulation"
+
+Ces heuristiques:
+- 部分 empiriques (découvertes en pratiquant)
+- 部分 abstraites (pattern généralisé)
+- Sont devenues **réflexes**
+
+### Le Moteur Cognitif — Outils + Méthode
+
+Le DSL ne sont pas que des symboles. C'est **une façon de penser**:
+
+**Outils** — Les primitives (Ξ, €, Ψ, Ω, Λ, ↕)
+**Méthode** — L'ordre d'application (Phase 0 → 9)
+**Réflexes** — Les heuristiques automatisées
+**Mémoire** — Les investigations passées
+
+**Le tout forme un moteur.** Une machine à voir ce que les autres ignorent.
+
+---
+
 ### Les Sources — La Hiérarchie de Confiance
 
 ```
