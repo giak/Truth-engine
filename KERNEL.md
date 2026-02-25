@@ -83,7 +83,8 @@ BOOT SEQUENCE REQUIRES:
 ┌─────────┬──────────────┬─────────────┬────────────────────────────────────────┐
 │ LEVEL   │ PRIMITIVES   │ THRESHOLD   │ ACTIVATION                              │
 ├─────────┼──────────────┼─────────────┼────────────────────────────────────────┤
-│ 1 (Core)| Ξ, €, Λ, Ω, Ψ, ↕| ≥0/10      │ Pattern detection reflexes (always active) │
+│ 1 (Core)| Ξ, €, Λ, Ω, Ψ, ↕| ≥0/10      │ Scan always active. Cluster load if ≥5 │
+│         │              │             │ (Level 1 = primitives, Level 2+ = clusters)  │
 ├─────────┼──────────────┼─────────────┼────────────────────────────────────────┤
 │ 2 (Clusters)| CLUSTER_*.md | ≥5/10       │ Load cluster-specific protocols        │
 ├─────────┼──────────────┼─────────────┼────────────────────────────────────────┤
@@ -93,7 +94,8 @@ BOOT SEQUENCE REQUIRES:
 └─────────┴──────────────┴─────────────┴────────────────────────────────────────┘
 
 DEACTIVATION RULES:
-- If level 1 score < 5 → Deactivate all dependent levels
+- Level 1 primitives ALWAYS active for scanning
+- If level 1 composite score < 5 → No cluster load (Level 2+)
 - If level 2 score < 6 → Deactivate level 3+
 - If level 3 score < 7 → Deactivate level 4
 
@@ -285,7 +287,7 @@ PHASE 1: COMPLEXITY_SCAN
 **MANDATORY VERIFICATION**
 
 PHASE 2: CONCEPT_ACTIVATION
-  ├─ LOAD: kb/dsl/COGNITIVE_DSL_CORE.md
+  ├─ USE: kb/dsl/COGNITIVE_DSL_CORE.md (loaded at boot)
   ├─ SCAN: input for primitives (Ξ € Λ Ω Ψ ↕)
 ├─ SCORE: each primitive [0-10]
 ├─ **AUTO-LOAD RULES (with required output sections)**:
