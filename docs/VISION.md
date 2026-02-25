@@ -62,6 +62,24 @@ Quand les preuves manquent: **"Je ne sais pas"**
 
 Mieux vaut avouer l'ignorance que fabuler. Le doute systématique vaut mieux que la conviction feinte.
 
+### Principe 6 — Analyse Herméneutique
+
+Le texte ne dit pas tout. Ce qu'il ne dit pas en dit autant que ce qu'il dit.
+
+**Trois couches à lire:**
+
+1. **Ce qui est dit** — Le texte explicite, les faits assertés
+2. **Ce qui est tu** — Les omissions stratégiques, les angles absents
+3. **Ce qui est suggéré** — Les sous-entendus, les présupposés, le cadre implicite
+
+**L'herméneutique de Truth Engine:**
+- Déconstruire le cadrage — Qui pose les questions? Qui définit les termes?
+- Repérer les silences — Qu'est-ce qui est absent? Whose perspective is missing?
+- Suivre les implications — Où cela mène-t-il? Qui bénéficie de cette lecture?
+- Questionner l'évidence — Pourquoi ceci est-il présenté comme un fait? Qui décide?
+
+Ce n'est pas lire entre les lignes. C'est lire les lignes comme un écran.
+
 ---
 
 ## Le Problème
