@@ -109,7 +109,7 @@ Chaque texte utilise des techniques précises. Truth Engine les détecte:
 
 Face à un texte, Truth Engine cherche:
 
-1. **L'ICEBERG** — Qu'est-ce qui est caché? Quelles données отсутствуют?
+1. **L'ICEBERG** — Qu'est-ce qui est caché? Quelles données manquent?
 2. **Le cadrage (Λ)** — Comment le sujet est-il présenté? Quels termes sont utilisés?
 3. **L'inversion (Ω)** — Qui est accusé? Qui accuse? Est-ce l'inverse de la réalité?
 4. **Le GASLIGHTING** — Ce texte nie-t-il des faits établis?
@@ -256,8 +256,8 @@ Une heuristique n'est pas une règle apprise. C'est un **raccourci mental**:
 - "Ξ + Ω ensemble → danger de double manipulation"
 
 Ces heuristiques:
-- 部分 empiriques (découvertes en pratiquant)
-- 部分 abstraites (pattern généralisé)
+- En partie empiriques (découvertes en pratiquant)
+- En partie abstraites (pattern généralisé)
 - Sont devenues **réflexes**
 
 ### Le Moteur Cognitif — Outils + Méthode
