@@ -158,6 +158,64 @@ Chaque investigation enrichit le système. Les patterns détectés s'accumulent.
 
 ---
 
+## Comment ça Marche
+
+### MnemoLite — La Mémoire Longue
+
+MnemoLite est une base de données vectorielle. Elle:
+- **Sauvegarde** toute investigation
+- **Indexe** par embeddings (E5)
+- **Rappelle** les investigations passées par similarité sémantique
+
+Quand vous attaquez un nouveau sujet, MnemoLite retrouve les investigations similaires. Vous ne partez pas de zéro. Vous built sur l'existant.
+
+### Le Workflow
+
+```
+1. Tu colles le KERNEL dans une session vierge de contexte
+2. Tu colles un texte / sujet à analyser
+3. Truth Engine commence:
+   a) Analyse herméneutique
+      - Sous-entendus
+      - Signification profonde
+      - Mots-clés, principes, idées
+      - Techniques de manipulation présentes
+   b) Recherche web + MnemoLite
+      - Web: sources primaires, adversaires, contexte
+      - MnemoLite: investigations similaires passées
+   c) Compilation et agrégation
+      - Croiser les données
+      - Identifier les patterns
+      - Calculer les métriques
+4. Truth Engine produit un rapport structuré
+```
+
+### Les Phases d'Investigation
+
+| Phase | Action |
+|-------|--------|
+| **Phase 0** | Mémoire: interroger MnemoLite |
+| **Phase 1** | Complexité: classifier SIMPLE/MEDIUM/COMPLEX/APEX |
+| **Phase 2** | Activation: scorer les primitives (Ξ, €, Ψ, etc.) |
+| **Phase 3** | Analyse textuelle: déconstruction herméneutique |
+| **Phase 4** | Recherche: générer des queries, chercher sur le web |
+| **Phase 5** | Investigation: graphe des patterns, analysis profonde |
+| **Phase 6** | Évaluation: calculer EDI, vérifier les gates |
+| **Phase 7** | Output: rapport structuré en 7 parties |
+| **Phase 8** | Index: résumé pour retrieval |
+| **Phase 9** | Sauvegarde: écrire dans MnemoLite |
+
+### Ce Que Tu Reçois
+
+Un rapport structuré avec:
+- **Analyse textuelle** — Les techniques détectées, cotées 0-10
+- **Sources** — Hiérarchisées ◈◉○ avec provenance
+- **Métriques** — EDI, ISN, Wolves, H7
+- **Cartographie** — Thesis vs antithesis, tensions révélées
+- **Logs** — Toutes les recherches effectuées
+
+---
+
 ## Le Comment — Le DSL
 
 Ce n'est pas un langage de programmation. C'est **une façon de voir**.
