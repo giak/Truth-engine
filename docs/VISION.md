@@ -175,6 +175,43 @@ Chaque primitive est une lentille pour voir ce que les autres ignorent:
 | **Ψ** | La surcharge — le bruit qui étouffe le signal |
 | **↕** | La verticale — les divisions haut/bas |
 
+### La Compression Sémantique — Densifier Sans Perdre
+
+**Compression ≠ Réduction. Compression = Densification.**
+
+Quand vous lisez un article de 2000 mots, vous perdez 20 minutes. Quand vous le réduisez à 6 symboles, vous gagnez une vision.
+
+**Le spectre de compression:**
+
+```
+Langage naturel → Symbolisation → Abstraction → Cryptique
+    0%              50%            80%          100%
+```
+
+**Un symbole = un univers:**
+
+Ξ ne signifie pas "iceberg". Ξ PORTE:
+- Une définition (ce qui est caché > ce qui est montré)
+- Un contexte (manipulation cognitive)
+- Des exemples (Factor ≥ 2.0)
+- Des relations (interagit avec €, Ω, Λ)
+
+**C'est comme une icône sur votre bureau**: un petit dessin qui ouvre un monde.
+
+**Exemple progressif:**
+
+1. **Langage naturel (0%):** "Analyser si le texte contient des émotions manipulatrices destinées à paralyser le lecteur par la peur"
+
+2. **Simplification (30%):** "Détecter: peur_paralysante + manipulation_émotionnelle"
+
+3. **Symbolisation (70%):** "Ψ(manipulation)"
+
+4. **Pure abstraction (90%):** "Ψ:4.2"
+
+**Question clé**: Jusqu'où puis-je compresser SANS perdre le sens?
+
+→ Si vous vous comprenez encore dans 6 mois, le niveau est bon.
+
 ### Les Sources — La Hiérarchie de Confiance
 
 ```
