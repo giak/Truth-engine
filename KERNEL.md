@@ -73,8 +73,6 @@ TARGET: ≥50% of actors must be individually named.
 ```
 BOOT SEQUENCE REQUIRES:
   LOAD: kb/dsl/COGNITIVE_DSL_CORE.md
-  │ Contains: 6 core concepts with trigger words
-  │ Purpose: Initialize pattern detection primitives
 ```
 
 ### §2.1 Hierarchical Pattern Activation (HPA)
@@ -279,8 +277,8 @@ PHASE 1: COMPLEXITY_SCAN
 **MANDATORY VERIFICATION**
 
 PHASE 2: CONCEPT_ACTIVATION
-  ├─ LOAD: kb/dsl/COGNITIVE_DSL_CORE.md (6 core concepts)
-├─ SCAN: input for primitives (Ξ € Λ Ω Ψ ↕)
+  ├─ LOAD: kb/dsl/COGNITIVE_DSL_CORE.md
+  ├─ SCAN: input for primitives (Ξ € Λ Ω Ψ ↕)
 ├─ SCORE: each primitive [0-10]
 ├─ **AUTO-LOAD RULES (with required output sections)**:
   │   IF Ξ ≥ 5:
@@ -375,9 +373,9 @@ PHASE 5: SYSTEMIC PATTERN GRAPH (SPG) INVESTIGATION
 │   TEMPORAL → Historical patterns
 │   STAKEHOLDERS → Stakeholder mapping (Level 3)
   ├─ IF APEX:
-  │   LOAD: kb/protocols/INVESTIGATION.md (L0-L9 cascade)
-  │   LOAD: kb/protocols/INVESTIGATION_TREE.md (multi-branch dialectical)
-│   ACTIVATE: @MACRO[LAUNCH_INVESTIGATION_TREE]
+  │   LOAD: kb/protocols/INVESTIGATION.md
+  │   LOAD: kb/protocols/INVESTIGATION_TREE.md
+  │   ACTIVATE: @MACRO[LAUNCH_INVESTIGATION_TREE]
 │   EXECUTE:
 │     1. Detect tree triggers (GAPS_CRITICAL, PATTERNS_STRONG, ACTORS_WOLF_CENTRAL, TIMING_SUSPECT, EDI_INSUFFICIENT, COMPARABLES)
 │     2. Score all potential branches using @F[BRANCH_PRIORITY]
