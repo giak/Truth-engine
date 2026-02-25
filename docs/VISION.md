@@ -214,9 +214,9 @@ Langage naturel → Symbolisation → Abstraction → Cryptique
 
 ### Le Méta-Langage — L'Invention puis la Routine
 
-**Deux phases distinctes:**
+**Trois phases:**
 
-#### Phase 1: Conception (Le LLM invente)
+#### Phase 1: Création (Le LLM invente from scratch)
 
 Quand Truth Engine n'existe pas encore, le LLM:
 - **Crée les symboles** — Ξ, €, Ψ, Ω, etc.
@@ -227,18 +227,26 @@ Quand Truth Engine n'existe pas encore, le LLM:
 
 C'est créatif. C'est experimental. Le LLM réfléchit, pose, résout des problèmes.
 
-**Une fois établi, on ne re-invente pas.**
+#### Phase 2: Évolution (Le LLM invente aussi)
 
-#### Phase 2: Utilisation (Le LLM applique)
+Au fil du temps, le système grandit:
+- **Nouveau pattern détecté** → Créer nouveau symbole ou étendre existant
+- **Heuristique insuffisante** → La raffiner
+- **Facteur manquant** → Ajouter dimension
+- **Factorisation possible** → Simplifier
 
-Quand Truth Engine fonctionne:
+**L'invention continue** — mais ciblée, pas blank slate.
+
+#### Phase 3: Utilisation (Le LLM applique)
+
+Quand Truth Engine fonctionne au quotidien:
 - **Charge les symboles** — Lis Ξ, comprends instantané
 - **Applique les heuristiques** — Sans les re-découvrir
 - **Exécute le moteur** — Sans le reconstruire
 
 **Il n'invente plus. Il utilise.**
 
-Les enquêtes produites contiennent des logs. Plus tard, ces logs révèlent des pistes d'amélioration. Mais l'utilisation quotidienne est opérationnelle — pas créative.
+Les enquêtes produisent des logs. Plus tard, ces logs révèlent des pistes d'amélioration. L'évolution utilise ces pistes. Mais l'utilisation quotidienne est opérationnelle — pas créative.
 
 ### Les Heuristiques — Raccourcis de Pensée
 
