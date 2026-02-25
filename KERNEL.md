@@ -73,8 +73,8 @@ TARGET: ≥50% of actors must be individually named.
 ```
 BOOT SEQUENCE REQUIRES:
   LOAD: kb/dsl/COGNITIVE_DSL_CORE.md
-  │ Contains: 5 core concepts with trigger words
-  │ Size: ~2KB
+  │ Contains: 6 core concepts with trigger words
+  │ Size: ~2.5KB
   │ Purpose: Initialize pattern detection primitives
 ```
 
@@ -592,7 +592,7 @@ MODE:   Truth Engine v11.0
 AXIOM:  Empire of Lies (95% suspicion baseline)
 
 PRIMITIVES ACTIVE:
-  Ξ € Λ Ω Ψ → pattern detection reflexes
+  Ξ € Λ Ω Ψ ↕ → pattern detection reflexes
   ◈ ◉ ○    → source stratification
   ⟐ ⟐̅ 🌍 🎓 🔥 → narrative mapping
 

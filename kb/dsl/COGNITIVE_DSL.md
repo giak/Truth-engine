@@ -6,13 +6,14 @@
 
 ## 🌱 §0 RUNTIME ESSENTIALS
 
-**Philosophy & Context:** See [docs/PHILOSOPHY.md](../docs/PHILOSOPHY.md) — Empire du Mensonge diagnostic, 5 cognitive warfare fronts, dialectical prism, anti-paternalism, 4 revolutionary pillars.
+**Philosophy & Context:** See [docs/user/PHILOSOPHY.md](../docs/user/PHILOSOPHY.md) — Empire du Mensonge diagnostic, 5 cognitive warfare fronts, dialectical prism, anti-paternalism, 4 revolutionary pillars.
 
 **Purpose:** §0 is pedagogical content for understanding Truth Engine's hostile epistemology. Not required for runtime operations.
 
+> **AUTHORITY:** KERNEL.md is the source of truth for execution. If conflicts exist between DSL docs and KERNEL, KERNEL takes precedence.
+
 ---
 
-###0.2 KB Reference Macros (v7.0 Phase 1)
 ### 0.2 KB Reference Macros (v7.0 Phase 1)
 
 **@KB[ref] - Knowledge Base Quick References:**
@@ -166,10 +167,12 @@ EPISTEMIC:◈>◉>○ priority | ⟐+⟐̅+🌍🎓🔥 cartography | ⊕⊗⊙ 
 
 | Symbol | Name | Concept | PFD Concepts |
 |--------|------|---------|--------------|
-| **Ψ** | Psi | Sideration | strategy_tension, infodemia, doom_scrolling, learned_helplessness |
-| **Ω** | Omega | Inversion | accusatory_inversion, gaslighting, doublethink, reality_denial |
 | **Ξ** | Xi | Omission | cherry_picking, flooding_zone, factcheck_weaponized, astroturfing |
+| **€** | Euro | Money | dark_money, hidden_flows, Cui_bono, regulatory_capture |
 | **Λ** | Lambda | Framing | framing_cognitive, overton_window, talking_points, manufacture_consent |
+| **Ω** | Omega | Inversion | accusatory_inversion, gaslighting, doublethink, reality_denial |
+| **Ψ** | Psi | Sideration | strategy_tension, infodemia, doom_scrolling, learned_helplessness |
+| **↕** | UpDown | Vertical | top_bottom_asymmetry, class_division, vertical_solidarity, elite_closure |
 | **Φ** | Phi | Spectacle | society_spectacle, spectacularization, infotainment, virtue_signaling |
 | **Σ** | Sigma | Semiotics | hyperreality, simulacre, greenwashing, sportswashing, wokewashing |
 | **Κ** | Kappa | Cynical | mutual_knowledge_lies, facade_maintenance, institutional_cynicism |
@@ -1127,7 +1130,7 @@ OUTPUT_ADAPTIVE:
 
 ---
 
-## 🧠 §9 EXECUTION MACROS (v7.0 Phase 1)
+## 🧠 §10 EXECUTION MACROS (v7.0 Phase 1)
 
 **@EXEC[mode] - Execution Parameters:**
 
@@ -1255,7 +1258,7 @@ milgram_obedience, asch_conformity, stanford_prison, learned_helplessness_seligm
 
 ---
 
-## 10. 🧾 OUTPUT & POLICY MACROS (v7.15)
+## 11. 🧾 OUTPUT & POLICY MACROS (v7.15)
 
 ```yaml
 @EDI[6D]: "Use SEARCH_EPISTEMIC §11–§11.3 (six-dimension + penalties) for EDI."
@@ -1405,7 +1408,7 @@ OUTPUT_CONTRACT:
 
 ---
 
-## §11. SYSTEM COMPRESSION MACROS (v9.0 - Phase 1 Optimization)
+## §12. SYSTEM COMPRESSION MACROS (v9.0 - Phase 1 Optimization)
 
 ### Status & Action Compression
 ```
