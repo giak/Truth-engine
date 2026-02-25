@@ -4,7 +4,7 @@
 
 **Vous êtes en guerre cognitive. Personne ne vous l'a dit.**
 
-7h23. Vous scrollez. "Chôme record!" Votre voisin cherche depuis 8 mois. Contradiction? Non. Manipulation.
+7h23. Vous scrollez. "Emploi record: chômage au plus bas!" Votre voisin cherche depuis 8 mois. Contradiction? Non. Manipulation.
 
 Bienvenue dans l'Empire du Mensonge.
 
@@ -82,7 +82,7 @@ Mieux vaut avouer l'ignorance que fabuler. Le doute systématique vaut mieux que
 
 ### Votre Cerveau Est une Ressource
 
-Vos peurs armées. Vos espoirs instrumentalisés. Votre fatigue calculée. Votre sidération provoquée. Votre consentement fabricqué.
+Vos peurs armées. Vos espoirs instrumentalisés. Votre fatigue calculée. Votre sidération provoquée. Votre consentement fabriqué.
 
 **Métaphore**: Comme un virus biologique détourne les cellules pour se reproduire, les narratifs toxiques détournent votre cognition pour se propager. Sans système immunitaire, vous devenez porteur asymptomatique — répétant des mensonges que vous croyez avoir compris vous-même.
 
@@ -179,7 +179,7 @@ Nous sommes en phase d'amélioration continue:
 
 Le système grandit par usage. Chaque investigation est une expérience. Les réussites renforcent. Les échecs améliorent.
 
-**将来** → **L'Avenir**: Plus de patterns. Plus de sources. Plus de profondeur. Toujours plus proche de la vérité.
+**L'Avenir**: Plus de patterns. Plus de sources. Plus de profondeur. Toujours plus proche de la vérité.
 
 ---
 
