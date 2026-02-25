@@ -97,7 +97,10 @@ QRY_ENFORCE[total,min,iter] =
 
 ```
 EDI_TARGET[cx] = {SIMPLE:0.30, MEDIUM:0.50, COMPLEX:0.70, APEX:0.80}[cx]
-EDI_CALC[] = (geo×0.25 + type×0.20 + topic×0.20 + time×0.15 + platform×0.10 + lang×0.10)
+EDI_CALC[] = (geo×0.25 + lang×0.20 + strat×0.20 + owner×0.15 + persp×0.15 + temp×0.05)
+  # geo=géographie, lang=langues, strat=stratification sources ◈◉○,
+  # owner=propriété médias, persp=perspectives narratives, temp=temporalités
+  # Source unique de vérité: KERNEL.md §4.2
 EDI_CHECK[val,target] =
   IF val < target:
     → FLAG: "EDI gap {target-val}"
@@ -175,3 +178,33 @@ ELIF CX_CHECK[SIMPLE,MEDIUM]: DEGRADE_MODE[EDI≤0.30, ◈=0, mono-bias]
 - Best case: 12:1
 - Worst case: 3:1
 - Estimated savings: ~400 lines in system.md
+
+---
+
+## Source Quotas [SOURCE: kb/dsl/QUOTAS.md]
+
+```
+QUOTAS (defaults — adapter par domaine/profil):
+  ◈ primary    ≥3  (I2 target ≥4 ; ≥1 non-EN si pertinent)
+  continents   ≥2  (geo ≥3)
+  non-EN       ≥40% (geo souvent ≥50%)
+  non-corporate ≥50%
+  adversary    ≥1  (sensitive ≥2)
+  temporalities ≥3 (real-time, recent, archival)
+
+IF quota unmet → re-query targeted baskets
+```
+
+## Coverage & Independence Scores [SOURCE: kb/dsl/SCORES.md]
+
+```
+CoverageScore     = met_quotas / total_quotas          (0-1)
+IndependenceScore = f(diversity_families, low_syndication) (0-1)
+ContradictionCoverage = adversary_present × divergence_processed (0-1)
+
+EDI_star = 0.5×EDI + 0.3×CoverageScore + 0.2×IndependenceScore
+
+Output (optional Part 2):
+  "COV:{c} IND:{i} CC:{cc} → EDI*:{e}"
+```
+

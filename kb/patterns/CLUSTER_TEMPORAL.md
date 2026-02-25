@@ -1,6 +1,25 @@
 # ⏰ CLUSTER TEMPORAL - Time Manipulation Patterns
 *Past rewritten, future predetermined (5KB)*
 
+---
+
+## ↕ (UPDOWN) — STRATIFICATION VERTICALE (Primitive DSL #6)
+
+**Définition** : Analyse de l'asymétrie de pouvoir verticale — qui concentre en haut, qui subit en bas.
+**Score** : 0-10 basé sur les signaux de strate
+**Triggers** :
+- Décision prise « pour » une population sans la consulter → +3
+- Écart statistique haut/bas non mentionné → +3
+- Vocabulaire élitiste assumé comme universel → +2
+- Protections légales asymétriques selon rang → +2
+
+**Activation** : Si ↕ ≥ 5 → Ce fichier (CLUSTER_TEMPORAL.md) est chargé avec analyse strata_vertical obligatoire
+**Queries** : `"{topic} inégalité haut bas"`, `"{topic} qui décide qui subit"`, `"{topic} asymétrie sociale"`
+
+**Gate liée** : `VALIDATION.md > strata_vertical` — Si ↕ ≥ 5, analyse Top/Bottom OBLIGATOIRE
+
+---
+
 ## Parent: ⏰ (CLOCK/TEMPORAL)
 Activated when ⏰ score ≥5
 

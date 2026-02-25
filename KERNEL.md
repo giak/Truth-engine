@@ -72,7 +72,7 @@ TARGET: ≥50% of actors must be individually named.
 
 ```
 BOOT SEQUENCE REQUIRES:
-  LOAD: core/dsl/COGNITIVE_DSL_CORE.md
+  LOAD: kb/dsl/COGNITIVE_DSL_CORE.md
   │ Contains: 5 core concepts with trigger words
   │ Size: ~2KB
   │ Purpose: Initialize pattern detection primitives
@@ -86,7 +86,7 @@ BOOT SEQUENCE REQUIRES:
 ┌─────────┬──────────────┬─────────────┬────────────────────────────────────────┐
 │ LEVEL   │ PRIMITIVES   │ THRESHOLD   │ ACTIVATION                              │
 ├─────────┼──────────────┼─────────────┼────────────────────────────────────────┤
-│ 1 (Core)| Ξ, €, Λ, Ω, Ψ| Always      │ Pattern detection reflexes             │
+│ 1 (Core)| Ξ, €, Λ, Ω, Ψ, ↕| Always      │ Pattern detection reflexes             │
 ├─────────┼──────────────┼─────────────┼────────────────────────────────────────┤
 │ 2 (Clusters)| CLUSTER_*.md | ≥5/10       │ Load cluster-specific protocols        │
 ├─────────┼──────────────┼─────────────┼────────────────────────────────────────┤
@@ -279,29 +279,29 @@ PHASE 1: COMPLEXITY_SCAN
 **MANDATORY VERIFICATION**
 
 PHASE 2: CONCEPT_ACTIVATION
-  ├─ LOAD: core/dsl/COGNITIVE_DSL_CORE.md (6 core concepts)
+  ├─ LOAD: kb/dsl/COGNITIVE_DSL_CORE.md (6 core concepts)
 ├─ SCAN: input for primitives (Ξ € Λ Ω Ψ ↕)
 ├─ SCORE: each primitive [0-10]
 ├─ **AUTO-LOAD RULES (with required output sections)**:
   │   IF Ξ ≥ 5:
-  │     EXECUTE: LOAD core/patterns/CLUSTER_ICEBERG.md
+  │     EXECUTE: LOAD kb/patterns/CLUSTER_ICEBERG.md
   │     OUTPUT_REQUIRED: "ICEBERG_DEEP_DIVE section with 5 hypotheses"
   │   IF € ≥ 5:
-  │     EXECUTE: LOAD core/patterns/CLUSTER_MONEY.md
+  │     EXECUTE: LOAD kb/patterns/CLUSTER_MONEY.md
   │     OUTPUT_REQUIRED: "CUI_BONO section with beneficiaries named"
   │   IF Λ ≥ 5:
-  │     EXECUTE: LOAD core/patterns/CLUSTER_FRAMING.md
+  │     EXECUTE: LOAD kb/patterns/CLUSTER_FRAMING.md
   │   IF Ω ≥ 5:
-  │     EXECUTE: LOAD core/patterns/CLUSTER_INVERSION.md
+  │     EXECUTE: LOAD kb/patterns/CLUSTER_INVERSION.md
   │   IF Ψ ≥ 5:
-  │     EXECUTE: LOAD core/patterns/CLUSTER_OVERLOAD.md
+  │     EXECUTE: LOAD kb/patterns/CLUSTER_OVERLOAD.md
   │   IF ↕ ≥ 5:
-  │     EXECUTE: LOAD core/patterns/CLUSTER_TEMPORAL.md
+  │     EXECUTE: LOAD kb/patterns/CLUSTER_TEMPORAL.md
   │     OUTPUT_REQUIRED: "TEMPORAL_ANALYSIS section with historical patterns"
 ├─ SPECIAL MODE DETECTION:
 │   IF input CONTAINS "fresque" OR "politique" OR subject == person:
 │     MODE: PERSO_FRESQUE
-  │     LOAD: core/protocols/PROTOCOLE_FRESQUE_POLITIQUE.md
+  │     LOAD: kb/protocols/PROTOCOLE_FRESQUE_POLITIQUE.md
 │     OVERRIDE: investigation_type = APEX
 └─ Total activated: ~40-65 concepts (vs 148 baseline)
 
@@ -375,8 +375,8 @@ PHASE 5: SYSTEMIC PATTERN GRAPH (SPG) INVESTIGATION
 │   TEMPORAL → Historical patterns
 │   STAKEHOLDERS → Stakeholder mapping (Level 3)
   ├─ IF APEX:
-  │   LOAD: core/protocols/INVESTIGATION.md (L0-L9 cascade)
-  │   LOAD: core/protocols/INVESTIGATION_TREE.md (multi-branch dialectical)
+  │   LOAD: kb/protocols/INVESTIGATION.md (L0-L9 cascade)
+  │   LOAD: kb/protocols/INVESTIGATION_TREE.md (multi-branch dialectical)
 │   ACTIVATE: @MACRO[LAUNCH_INVESTIGATION_TREE]
 │   EXECUTE:
 │     1. Detect tree triggers (GAPS_CRITICAL, PATTERNS_STRONG, ACTORS_WOLF_CENTRAL, TIMING_SUSPECT, EDI_INSUFFICIENT, COMPARABLES)
@@ -394,7 +394,7 @@ PHASE 5: SYSTEMIC PATTERN GRAPH (SPG) INVESTIGATION
 PHASE 6: SOURCE_EVALUATION
 ├─ CALCULATE: EDI (6 dimensions) — SHOW FULL CALCULATION
 ├─ Verify: EDI meets target for complexity level
-  ├─ EXECUTE: LOAD core/protocols/VALIDATION.md
+  ├─ EXECUTE: LOAD kb/protocols/VALIDATION.md
 ├─ **RUN GATE CHECK PROTOCOL**:
 │   FOR EACH gate IN [source_types, concepts_analyzed, wolves_named, edi_target]:
 │     IF gate.actual < gate.minimum:
@@ -406,7 +406,7 @@ PHASE 6: SOURCE_EVALUATION
 **MANDATORY VERIFICATION**
 
 PHASE 7: OUTPUT [MANDATORY]
-  ├─ **LOAD: core/protocols/OUTPUT_TEMPLATE.md**
+  ├─ **LOAD: kb/protocols/OUTPUT_TEMPLATE.md**
 ├─ **FILL all sections marked [REQUIRED]**
 ├─ **VALIDATE: Check all gates in VALIDATION FINALE section**
 │   IF ANY gate == FAIL:

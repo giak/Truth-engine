@@ -27,6 +27,7 @@ Ces gates **DOIVENT** passer. Si échec → output bloqué, retour à la phase i
 | `iceberg_shadow_calc` | Shadow multiplier calculé | Ξ ≥ 7 | Oui |
 | `money_cui_bono` | Bénéficiaires identifiés | € ≥ 7 | 3 |
 | `strata_vertical` | Analyse Top/Bottom | ↕ ≥ 5 | Oui |
+| `edi_fresque` | EDI élevé pour profondeur historique | PERSO_FRESQUE activé | ≥ 0.85 |
 
 ---
 
@@ -82,3 +83,19 @@ Pour les investigations de type APEX, vérifications additionnelles :
 - [ ] ≥5 branches explorées
 - [ ] Fresque Politique incluse (si sujet politique)
 - [ ] ICEBERG_DEEP_DIVE section remplie (si Ξ ≥ 7)
+
+## 🖼️ VALIDATION PERSO_FRESQUE (Spécifique)
+
+Si mode `PERSO_FRESQUE` activé, gate supplémentaire bloquante :
+
+| Gate | Condition | Minimum | Retour si échec |
+|------|-----------|---------|-----------------|
+| `edi_fresque` | EDI atteint cible fresque | ≥ 0.85 | Phase 4 |
+
+```
+IF PERSO_FRESQUE AND edi_fresque < 0.85:
+  LOG: "❌ GATE FAIL: edi_fresque"
+  LOG: "   Required: 0.85 (PERSO_FRESQUE), Actual: {edi}"
+  LOG: "   Action: Return to Phase 4 — diversifier sources temporelles"
+  BLOCK_OUTPUT: TRUE
+```
