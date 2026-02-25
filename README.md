@@ -38,7 +38,7 @@
 
 ### En cours / À faire
 - [ ] Audit DSL v11 (en cours)
-- [ ] Benchmarking连续
+- [ ] Benchmarking en cours
 - [ ] Nouveaux patterns selon besoins
 
 ### Problèmes Connus
@@ -56,15 +56,15 @@ truth-engine/
 │   ├── VISION.md               # PHILOSOPHIE — Lis ceci en premier
 │   ├── STRUCTURE.md            # Architecture complète
 │   ├── user/
-│   │   ├── PHILOSOPHY.md       # Contexte détaillé
-│   │   └── USER_GUIDE.md       # Guide utilisateur
+│   │   ├── PHILOSOPHY.md      # Contexte détaillé
+│   │   └── USER_GUIDE.md      # Guide utilisateur
 │   ├── specs/
-│   │   ├── PRD.md              # Requirements
-│   │   └── SCL_NOTATION.md    # Notation compressée
+│   │   ├── PRD.md             # Requirements
+│   │   └── SCL_NOTATION.md   # Notation compressée
 │   └── audits/                 # Rapports d'audit
 │
 ├── kb/                         # KNOWLEDGE BASE
-│   ├── dsl/                    # DSL definitions
+│   ├── dsl/                   # DSL definitions
 │   │   ├── COGNITIVE_DSL.md
 │   │   └── COGNITIVE_DSL_CORE.md
 │   ├── patterns/               # 19 clusters
@@ -75,16 +75,10 @@ truth-engine/
 │       ├── INVESTIGATION.md
 │       └── INVESTIGATION_TREE.md
 │
-├── outputs/
-│   ├── investigations/         # Rapports d'investigation
-│   │   └── YYYY-MM-DD_*.md
-│   ├── articles/               # Articles générés
-│   └── simulations/            # Simulations APEX
-│
-└── tools/
-    ├── docs/                  # Documentation technique
-    ├── tests/                 # Tests et validations
-    └── prompts/               # Prompts et templates
+├── investigations/            # Rapports d'investigation
+├── outputs/                   # Productions (articles, social)
+├── tools/                    # Infrastructure (tests, prompts)
+└── logs/                    # Logs historiques
 ```
 
 ---
@@ -118,6 +112,7 @@ truth-engine/
 ## Logs & Traces
 
 Les investigations passées sont sauvegardées dans:
+- `investigations/` — Rapports d'investigation
 - `outputs/investigations/` — Rapports complets
 - `outputs/simulations/` — Simulations APEX
 - **MnemoLite** — Base vectorielle (recherche sémantique)
@@ -150,7 +145,8 @@ ls -lt outputs/investigations/ | head -10
 | `KERNEL.md` | Cœur opérationnel |
 | `kb/dsl/COGNITIVE_DSL_CORE.md` | Primitives Ξ € Λ Ω Ψ ↕ |
 | `kb/patterns/CLUSTER_*.md` | 19 clusters de manipulation |
-| `outputs/investigations/` | Investigations passées |
+| `investigations/` | Investigations récentes |
+| `outputs/investigations/` | Toutes les investigations |
 
 ---
 
