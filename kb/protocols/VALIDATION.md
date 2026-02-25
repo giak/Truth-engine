@@ -12,12 +12,15 @@ Ces gates **DOIVENT** passer. Si échec → output bloqué, retour à la phase i
 | Gate | Condition | Minimum | Retour si échec |
 |------|-----------|---------|-----------------|
 | `source_types` | Types de sources utilisés | ≥4 | Phase 4 |
-| `concepts_analyzed` | Concepts with score ≥5, analyzed in depth | ≥5 (MEDIUM), ≥8 (APEX) | Phase 3 |
+| `concepts_analyzed` | All 6 primitives scored: ≥5 (full), 3-4 (light), <3 (note) | ≥6 (MEDIUM), ≥8 (APEX) | Phase 3 |
 | `wolves_named` | Acteurs nommés individuellement | ≥3 (MEDIUM), ≥8 (APEX) | Phase 4 |
 | `edi_target` | EDI atteint la cible | ≥0.50 (MEDIUM), ≥0.80 (APEX) | Phase 4 |
 | `dialectic_complete` | Thèse/Antithèse/Tensions | TRUE | Phase 3 |
 
-**NOTE**: ~40-65 concepts = total activated (all scores). ≥5/≥8 = threshold-gated for in-depth analysis.
+**NOTE**: All 6 primitives ALWAYS analyzed (Phase 2). Depth varies:
+- score ≥5: FULL analysis + cluster load
+- score 3-4: LIGHT analysis + note
+- score <3: MINIMAL note
 
 ---
 

@@ -288,38 +288,61 @@ PHASE 1: COMPLEXITY_SCAN
 
 PHASE 2: CONCEPT_ACTIVATION
   ├─ USE: kb/dsl/COGNITIVE_DSL_CORE.md (loaded at boot)
-  ├─ SCAN: input for primitives (Ξ € Λ Ω Ψ ↕)
-├─ SCORE: each primitive [0-10]
-├─ **AUTO-LOAD RULES (with required output sections)**:
-  │   IF Ξ ≥ 5:
-  │     EXECUTE: LOAD kb/patterns/CLUSTER_ICEBERG.md
-  │     OUTPUT_REQUIRED: "ICEBERG_DEEP_DIVE section with 5 hypotheses"
-  │   IF € ≥ 5:
-  │     EXECUTE: LOAD kb/patterns/CLUSTER_MONEY.md
-  │     OUTPUT_REQUIRED: "CUI_BONO section with beneficiaries named"
-  │   IF Λ ≥ 5:
-  │     EXECUTE: LOAD kb/patterns/CLUSTER_FRAMING.md
-  │   IF Ω ≥ 5:
-  │     EXECUTE: LOAD kb/patterns/CLUSTER_INVERSION.md
-  │   IF Ψ ≥ 5:
-  │     EXECUTE: LOAD kb/patterns/CLUSTER_OVERLOAD.md
-  │   IF ↕ ≥ 5:
-  │     EXECUTE: LOAD kb/patterns/CLUSTER_TEMPORAL.md
-  │     OUTPUT_REQUIRED: "TEMPORAL_ANALYSIS section with historical patterns"
-├─ SPECIAL MODE DETECTION:
-│   IF input CONTAINS "fresque" OR "politique" OR subject == person:
-│     MODE: PERSO_FRESQUE
+  ├─ SCAN: ALL 6 primitives (always, no skip)
+  ├─ SCORE: each primitive [0-10]
+  ├─ **ANALYSIS DEPTH BY SCORE**:
+  │   ├─ IF score ≥ 5: FULL ANALYSIS (deep dive + cluster load)
+  │   ├─ IF score 3-4: LIGHT ANALYSIS (basic + 1-2 queries)
+  │   └─ IF score < 3: NOTE ONLY (1 point for diversity)
+  ├─ **AUTO-LOAD RULES (with required output sections)**:
+  │   ├─ IF Ξ ≥ 5:
+  │   │   EXECUTE: LOAD kb/patterns/CLUSTER_ICEBERG.md
+  │   │   OUTPUT_REQUIRED: "ICEBERG_DEEP_DIVE section with 5 hypotheses"
+  │   ├─ IF Ξ = 3-4:
+  │   │   OUTPUT_REQUIRED: "ICEBERG_NOTE: partial omission detected"
+  │   ├─ IF € ≥ 5:
+  │   │   EXECUTE: LOAD kb/patterns/CLUSTER_MONEY.md
+  │   │   OUTPUT_REQUIRED: "CUI_BONO section with beneficiaries named"
+  │   ├─ IF € = 3-4:
+  │   │   OUTPUT_REQUIRED: "CUI_BONO_NOTE: partial financial interest detected"
+  │   ├─ IF Λ ≥ 5:
+  │   │   EXECUTE: LOAD kb/patterns/CLUSTER_FRAMING.md
+  │   ├─ IF Λ = 3-4:
+  │   │   OUTPUT_REQUIRED: "FRAMING_NOTE: partial framing detected"
+  │   ├─ IF Ω ≥ 5:
+  │   │   EXECUTE: LOAD kb/patterns/CLUSTER_INVERSION.md
+  │   ├─ IF Ω = 3-4:
+  │   │   OUTPUT_REQUIRED: "INVERSION_NOTE: partial inversion detected"
+  │   ├─ IF Ψ ≥ 5:
+  │   │   EXECUTE: LOAD kb/patterns/CLUSTER_OVERLOAD.md
+  │   ├─ IF Ψ = 3-4:
+  │   │   OUTPUT_REQUIRED: "OVERLOAD_NOTE: partial overload detected"
+  │   ├─ IF ↕ ≥ 5:
+  │   │   EXECUTE: LOAD kb/patterns/CLUSTER_TEMPORAL.md
+  │   │   OUTPUT_REQUIRED: "TEMPORAL_ANALYSIS section with historical patterns"
+  │   └─ IF ↕ = 3-4:
+  │       OUTPUT_REQUIRED: "VERTICAL_NOTE: partial stratification detected"
+  ├─ SPECIAL MODE DETECTION:
+  │   IF input CONTAINS "fresque" OR "politique" OR subject == person:
+  │     MODE: PERSO_FRESQUE
   │     LOAD: kb/protocols/PROTOCOLE_FRESQUE_POLITIQUE.md
-│     OVERRIDE: investigation_type = APEX
-└─ Total activated: ~40-65 concepts (vs 148 baseline)
+  │     OVERRIDE: investigation_type = APEX
+  └─ Total concepts analyzed: 6 (all primitives scored)
 
 PHASE 3: TEXTUAL_ANALYSIS [MANDATORY]
-├─ For each concept score ≥ 5:
-│   ├─ NAME: symbol + concept name
-│   ├─ SCORE: X/10 with justification
-│   ├─ QUOTE: exact text triggering detection
-│   ├─ TECHNIQUE: DSL pattern name
-│   └─ REVEAL: hidden implication
+├─ ALL 6 primitives analyzed (from Phase 2):
+│   ├─ FOR score ≥ 5: FULL ANALYSIS
+│   │   ├─ NAME: symbol + concept name
+│   │   ├─ SCORE: X/10 with justification
+│   │   ├─ QUOTE: exact text triggering detection
+│   │   ├─ TECHNIQUE: DSL pattern name
+│   │   └─ REVEAL: hidden implication
+│   ├─ FOR score 3-4: LIGHT ANALYSIS
+│   │   ├─ NAME: symbol + concept name
+│   │   ├─ SCORE: X/10 with justification
+│   │   ├─ NOTE: brief mention in output
+│   │   └─ QUERY: 1-2 targeted queries if beneficial
+│   └─ FOR score < 3: MINIMAL NOTE (1 line)
 ├─ Semantic deconstruction:
 │   ├─ SOUS-ENTENDUS (unstated implications)
 │   ├─ NON-DITS (strategic omissions)
