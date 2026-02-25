@@ -1,6 +1,6 @@
-# 🧠 COGNITIVE DSL - CORE CONCEPTS v9.2
+# 🧠 COGNITIVE DSL - CORE CONCEPTS v9.3
 
-_5 concepts fondamentaux pour scan initial (2KB)_
+_6 concepts fondamentaux pour scan initial (~2.5KB)_
 
 ## Ξ (XI) - ICEBERG Pattern
 
@@ -67,6 +67,20 @@ _5 concepts fondamentaux pour scan initial (2KB)_
   **Activation**: If score ≥5 → Load CLUSTER_OVERLOAD.md
   **Queries**: "{topic} summary", "{topic} key points", "{topic} simple explanation"
 
+## ↕ (UPDOWN) - VERTICAL STRATIFICATION Pattern
+
+**Detection**: Power asymmetries (top/bottom), class divisions, vertical solidarity/blocking
+**Score**: 0-10 based on stratification signals
+**Triggers**:
+
+- Elite-only access mentioned → +3
+- Bottom-up perspective absent → +3
+- Vertical solidarity mentioned → +2
+- Top-down imposition → +3
+- Asymmetric impact (some benefit, others suffer) → +3
+  **Activation**: If score ≥5 → Load CLUSTER_TEMPORAL.md (contains ↕ analysis)
+  **Queries**: "{topic} who benefits", "{topic} who loses", "{topic} class impact"
+
 ---
 
 ## ACTIVATION PROTOCOL
@@ -80,10 +94,11 @@ SCAN_PROTOCOL:
     - Query MnemoLite for related investigations
     - Boost scores for confirmed patterns (+2)
   PROCESS:
-    FOR each concept IN [Ξ, €, Λ, Ω, Ψ]:
+    FOR each concept IN [Ξ, €, Λ, Ω, Ψ, ↕]:
       score = calculate_weighted_score(triggers_detected)
       IF score ≥ 5:
-        LOAD: CLUSTER_{concept}.md
+        IF concept == ↕: LOAD: CLUSTER_TEMPORAL.md
+        ELSE: LOAD: CLUSTER_{concept}.md
         ACTIVATE: @MACRO[ACTIVATE_CLUSTER]
         EXECUTE:
           - Load cluster file

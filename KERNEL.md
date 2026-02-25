@@ -86,7 +86,7 @@ BOOT SEQUENCE REQUIRES:
 ┌─────────┬──────────────┬─────────────┬────────────────────────────────────────┐
 │ LEVEL   │ PRIMITIVES   │ THRESHOLD   │ ACTIVATION                              │
 ├─────────┼──────────────┼─────────────┼────────────────────────────────────────┤
-│ 1 (Core)| Ξ, €, Λ, Ω, Ψ, ↕| Always      │ Pattern detection reflexes             │
+│ 1 (Core)| Ξ, €, Λ, Ω, Ψ, ↕| ≥0/10      │ Pattern detection reflexes (always active) │
 ├─────────┼──────────────┼─────────────┼────────────────────────────────────────┤
 │ 2 (Clusters)| CLUSTER_*.md | ≥5/10       │ Load cluster-specific protocols        │
 ├─────────┼──────────────┼─────────────┼────────────────────────────────────────┤
@@ -99,6 +99,10 @@ DEACTIVATION RULES:
 - If level 1 score < 5 → Deactivate all dependent levels
 - If level 2 score < 6 → Deactivate level 3+
 - If level 3 score < 7 → Deactivate level 4
+
+THRESHOLD NOTES:
+- ≥5/10 means: score ≥5 out of 10 (composite score from 6 primitives)
+- ≥7/10 means: score ≥7 out of 10 (specialized categories)
 ```
 
 ### §2.2 Source Stratification (3 Tiers)
@@ -248,7 +252,7 @@ PHASE 0: TEMPORAL
 ├─ Capture current date for time-sensitive analysis
 └─ Store as CURRENT_DATE
 
-PHASE 0.5: MEMORY_LOOKUP [MnemoLite Integration]
+PHASE 0.5: MEMORY & BRANCH PRE-INIT [MnemoLite Integration]
 ├─ EXTRACT: 3-5 keywords from subject
 ├─ QUERY: Use read_resource tool:
 │   server: "mnemolite"
@@ -263,13 +267,10 @@ PHASE 0.5: MEMORY_LOOKUP [MnemoLite Integration]
 │   - confirmed patterns +2 initial score
 │   - unresolved gaps +1 investigation priority
 │   - connected entities +1 wolf centrality
-└─ IF no results: LOG "No prior investigations found", continue
-
-## PHASE 0.6: BRANCH PRE-INITIALIZATION [Based on Memory]
 ├─ IF prior investigation has unresolved gaps:
 │   - Add gap-specific branch to investigation tree
 │   - Set priority = 0.8 (high)
-└─ Continue to complexity scan
+└─ IF no results: WARN "No prior investigations found", continue
 **MANDATORY VERIFICATION**
 
 PHASE 1: COMPLEXITY_SCAN
@@ -510,7 +511,7 @@ PHASE 9: KNOWLEDGE_SAVE [MnemoLite Integration]
 │   author: "Truth Engine v11.0"
 │   embedding_source: [SEARCH_INDEX section]
 ├─ POST_SAVE: LOG "Investigation saved: {memory_id}"
-└─ ERROR: If MCP unavailable, WARN and continue
+└─ IF MCP unavailable: WARN and continue
 ```
 
 ---
