@@ -82,6 +82,46 @@ Ce n'est pas lire entre les lignes. C'est lire les lignes comme un écran.
 
 ---
 
+### Les Types de Manipulation — L'Empire du Mensonge
+
+Chaque texte utilise des techniques précises. Truth Engine les détecte:
+
+| Cluster | Technique |
+|---------|-----------|
+| **ICEBERG** | Ce qui est caché > ce qui est montré. Factor ≥2 |
+| **GASLIGHTING** | Faire douter de la réalité. Nier l'évidence. Inverser sujet/objet |
+| **INVERSION** | DARVO — Déni, Attack, Reverse Victim and Offender |
+| **FRAGMENTATION** | Diviser pour mieux régner. Créer des antagonismes |
+| **FRAMING** | Cadrage biaisé. Définir le cadre, vous contrôlez le débat |
+| **OVERLOAD** | Surcharge cognitive. Trop d'informations pour réfléchir |
+| **SPECTACLE** | Distraction. Le spectaclecache le pouvoir réel |
+| **MONEY** | Suivre l'argent. Qui finance? Qui bénéficie? |
+| **POWER** | Cartographier le pouvoir. Qui décide vraiment? |
+| **NETWORK** | Les connexions. Qui connaît qui? |
+| **WAR** | La guerre cognitive. Création d'ennemis |
+| **TEMPORAL** | Manipulation du temps. Mémoire effacée, histoire révisée |
+| **BIO** | Biography. L'homme derrière le décideur |
+| **RESISTANCE** | La résistance détectée |
+
+---
+
+### L'Analyse Herméneutique en Pratique
+
+Face à un texte, Truth Engine cherche:
+
+1. **L'ICEBERG** — Qu'est-ce qui est caché? Quelles données отсутствуют?
+2. **Le cadrage (Λ)** — Comment le sujet est-il présenté? Quels termes sont utilisés?
+3. **L'inversion (Ω)** — Qui est accusé? Qui accuse? Est-ce l'inverse de la réalité?
+4. **Le GASLIGHTING** — Ce texte nie-t-il des faits établis?
+5. **Le SPECTACLE** — Y a-t-il distraction? Qu'est-ce qui est occulté?
+6. **Le CUI BONO (€)** — Qui bénéficie de cette version?
+7. **Les SILENCES** — Quelle voix est absente? Whose interests are not represented?
+8. **La TEMPORALITÉ** — L'histoire est-elle complète? Y a-t-il des trous de mémoire?
+
+Chaque technique est un indice. L'analyse les combine pour révéler l'écran.
+
+---
+
 ## Le Problème
 
 ### Concentration Médiatique
