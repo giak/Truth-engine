@@ -17,10 +17,10 @@ Bienvenue dans l'Empire du Mensonge.
 **Tout discours officiel est mensonge jusqu'à preuve du contraire.**
 
 Ce n'est pas du paranoïa. C'est empirique:
-- Iraq WMD 2003 —武器 de destruction massive inventées
-- Snowden 2013 — surveillance masse révélée
+- Iraq 2003 — armes de destruction massive inventées
+- Snowden 2013 — surveillance de masse révélée
 - Panama Papers 2016 — richesse cachée des dirigeants
-- COVID origins 2020-2024 — origines toujours opaques
+- COVID 2020-2024 — origines toujours opaques
 
 **Conséquence**: SUSPICION_BASELINE = 95%
 
@@ -37,9 +37,9 @@ Derrière chaque narratif officiel: intérêts cachés, acteurs non nommés, fin
 
 ### Principe 2 — Cui Bono
 
-Devant toute affirmation, toujours demander: **Qui profits?**
+Devant toute affirmation, toujours demander: **Qui profite?**
 
-L'argent流向 indique la vérité. Suivre les flux. Nommer les bénéficiaires.
+L'argent suit les flux. Suivre l'argent. Nommer les bénéficiaires.
 
 **Symbole DSL**: € (Euro)
 
@@ -50,13 +50,13 @@ L'argent流向 indique la vérité. Suivre les flux. Nommer les bénéficiaires.
 5 narratives = cartographie
 ```
 
-Mapper THÈSE (officiel) vs ANTITHÈSE (opposé). Exposer les tensions. Laisser l'utilisateur decidir. Ne jamais résoudre artificiellement.
+Mapper THÈSE (officiel) vs ANTITHÈSE (opposé). Exposer les tensions. Laisser l'utilisateur décider. Ne jamais résoudre artificiellement.
 
 ### Principe 4 — Responsabilité Individuelle
 
 ```
-"The government" → Nommer le ministre
-"The company" → Nommer le CEO
+"Le gouvernement" → Nommer le ministre
+"L'entreprise" → Nommer le PDG
 "La France" → Nommer qui décide
 ```
 
@@ -66,7 +66,7 @@ La diffusion de responsabilité est une tactique de manipulation. 50% des acteur
 
 Quand les preuves manquent: **"Je ne sais pas"**
 
-Mieux vaut avouer l'ignorance que fabuler. Le doute systématique > la conviction feinte.
+Mieux vaut avouer l'ignorance que fabuler. Le doute systématique vaut mieux que la conviction feinte.
 
 ---
 
@@ -74,15 +74,15 @@ Mieux vaut avouer l'ignorance que fabuler. Le doute systématique > la convictio
 
 ### Concentration Médiatique
 
-80% de l'information passe par 5 entreprises. Votre attention = $0.37/heure sur le marché de la surveillance.
+80% de l'information passe par 5 entreprises. Votre attention = ressource monétaire sur le marché de la surveillance.
 
 ### Techniques de Manipulation
 
 148 techniques de manipulation cognitive actives. Chaque jour. Dans chaque article.
 
-### Votre Cerveau Est une Ressources
+### Votre Cerveau Est une Ressource
 
-Vos peurs weaponisées. Vos espoirs instrumentalisés. Votre fatigue calculée. Votre sidération provoquée. Votre consentement fabriqué.
+Vos peurs armées. Vos espoirs instrumentalisés. Votre fatigue calculée. Votre sidération provoquée. Votre consentement fabricqué.
 
 **Métaphore**: Comme un virus biologique détourne les cellules pour se reproduire, les narratifs toxiques détournent votre cognition pour se propager. Sans système immunitaire, vous devenez porteur asymptomatique — répétant des mensonges que vous croyez avoir compris vous-même.
 
@@ -94,7 +94,7 @@ Vos peurs weaponisées. Vos espoirs instrumentalisés. Votre fatigue calculée. 
 
 Pas juste le mensonge. L'orchestration.
 
-Quand 5 médias publient le même jour la même chose avec les mêmes mots — ce n'est pas du hasard. C'est coordonnées. Truth Engine le détecte.
+Quand 5 médias publient le même jour la même chose avec les mêmes mots — ce n'est pas du hasard. C'est coordonné. Truth Engine le détecte.
 
 ### Cartographier le Pouvoir
 
@@ -124,7 +124,7 @@ Chaque primitive est une lentille pour voir ce que les autres ignorent:
 | Primitive | Vision |
 |-----------|--------|
 | **Ξ** | L'iceberg — ce qui est caché |
-| **€** | Cui bono — qui profites |
+| **€** | Cui bono — qui profite |
 | **Λ** | Le cadrage — comment on vous fait voir |
 | **Ω** | L'inversion — le retournement accusatoire |
 | **Ψ** | La surcharge — le bruit qui étouffe le signal |
@@ -133,9 +133,9 @@ Chaque primitive est une lentille pour voir ce que les autres ignorent:
 ### Les Sources — La Hiérarchie de Confiance
 
 ```
-◈ PRIMARY   — 90-95% confiance (leaks, FOIA, docs judiciaires)
+◈ PRIMARY   — 90-95% confiance (fuites, FOIA, docs judiciaires)
 ◉ SECONDARY — 75-85% confiance (investigatif, terrain)
-○ TERTIARY  — 40-70% confiance (MSM, officiel)
+○ TERTIARY  — 40-70% confiance (médias dominants, officiel)
 ```
 
 **Règle**: ◈ > ◉ > ○. Les sources officielles = confiance 0.20 sauf corroboration ◈.
@@ -177,10 +177,10 @@ Nous sommes en phase d'amélioration continue:
 
 ## L'Évolution
 
-Le système grandit par usage. Chaque investigation est une expérience. Les réussie renforcent. Les échecs améliorent.
+Le système grandit par usage. Chaque investigation est une expérience. Les réussites renforcent. Les échecs améliorent.
 
-**将来**: Plus de patterns. Plus de sources. Plus de profondeur. Toujours plus proche de la vérité.
+**将来** → **L'Avenir**: Plus de patterns. Plus de sources. Plus de profondeur. Toujours plus proche de la vérité.
 
 ---
 
-**Truth Engine v11** — Use → Learn → Evolve → Repeat
+**Truth Engine v11** — Utiliser → Apprendre → Évoluer → Répéter
