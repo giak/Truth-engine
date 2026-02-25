@@ -1,116 +1,108 @@
 # 📁 Structure du Projet Truth Engine
 
-## Organisation
-
-Ce projet est organisé selon 3 piliers distincts :
+## Organisation Réelle
 
 ```
 truth-engine/
-├── 📦 core/              # SYSTÈME - Le DSL et les patterns
-├── 📤 outputs/           # PRODUCTIONS - Résultats des investigations
-├── 📁 docs/              # DOCUMENTATION - Investigations organisées
-├── 🛠️ tools/             # INFRASTRUCTURE - Docs, tests, scripts
-├── 🗄️ archive/           # ARCHIVES - Historique et backups
-└── 📄 Fichiers racine    # Essentiels uniquement
+├── KERNEL.md                    # Point d'entrée — CHARGÉ EN PREMIER
+├── README.md                     # Dashboard central
+├── DISCLAIMER.md                 # Avertissements légaux
+├── kb/                          # KNOWLEDGE BASE
+├── docs/                        # DOCUMENTATION
+├── outputs/                     # PRODUCTIONS
+├── tools/                       # INFRASTRUCTURE
+├── investigations/             # Investigations récentes
+├── enquetes/                   # Enquêtes
+├── logs/                       # Logs
+└── archive/                    # Archives
 ```
 
 ---
 
-## 🔧 CORE/ - Le Système
+## 🔧 KB/ - Knowledge Base
 
-Le cœur du Truth Engine - **ne doit jamais contenir de contenu généré**.
+Le système — **jamais de contenu généré**.
 
 | Dossier | Contenu |
 |---------|---------|
-| `core/KERNEL.md` | Cœur du DSL v11.0 - point d'entrée |
-| `core/patterns/` | 19 clusters de patterns cognitifs (CLUSTER_*.md) |
-| `core/protocols/` | Protocoles d'investigation (INVESTIGATION.md, OUTPUT_TEMPLATE.md...) |
-| `core/dsl/` | Fichiers DSL (COGNITIVE_DSL.md, MACROS.md, PATTERNS.md...) |
+| `kb/dsl/` | DSL definitions (COGNITIVE_DSL.md, COGNITIVE_DSL_CORE.md) |
+| `kb/patterns/` | 19 clusters (CLUSTER_*.md) |
+| `kb/protocols/` | Protocoles (INVESTIGATION.md, INVESTIGATION_TREE.md...) |
 
 ---
 
-## 📁 DOCS/ - Documentation & Investigations
-
-Investigations organisées par sujet et rapports consolidés.
+## 📄 DOCS/ - Documentation
 
 | Dossier | Contenu |
 |---------|---------|
-| `docs/investigations/epstein_2026/` | Enquête Epstein - Intelligence et réseaux |
-| `docs/investigations/SHADOWBANNING/` | Enquête sur le shadowbanning algorithmique |
-| `docs/investigations/UE-censor/` | Enquête Architecture Censure UE (DSA, GIFCT) |
-| `docs/investigations/UE-censor/rapports/` | Rapports consolidés UE-CENSOR |
+| `docs/VISION.md` | Philosophie et principes |
+| `docs/STRUCTURE.md` | Ce fichier |
+| `docs/user/` | USER_GUIDE.md, PHILOSOPHY.md |
+| `docs/specs/` | PRD.md, SCL_NOTATION.md |
+| `docs/audits/` | Rapports d'audit |
+| `docs/plans/` | Roadmaps et designs |
 
 ---
 
-## 📤 OUTPUTS/ - Les Productions
+## 📤 OUTPUTS/ - Productions
 
-Tout ce qui est **généré par l'utilisation du KERNEL**.
+Tout ce qui est **généré par Truth Engine**.
 
 | Dossier | Contenu |
 |---------|---------|
-| `outputs/investigations/` | Rapports d'investigation par date/sujet |
-| `outputs/articles/` | Articles Substack publiés |
-| `outputs/social/` | Tweets, threads, contenu réseaux sociaux |
-| `outputs/logs/` | Logs historiques des investigations |
-| `outputs/results/` | Résultats de tests et simulations |
-| `outputs/simulations/` | Simulations APEX et autres |
+| `outputs/investigations/` | Rapports complets |
+| `outputs/articles/` | Articles Substack |
+| `outputs/social/` | Tweets, threads |
+| `outputs/simulations/` | Simulations APEX |
+| `outputs/logs/` | Logs historiques |
+| `outputs/results/` | Résultats de tests |
 
 ---
 
 ## 🛠️ TOOLS/ - Infrastructure
 
-Documentation, tests et scripts.
-
 | Dossier | Contenu |
 |---------|---------|
-| `tools/docs/user/` | Documentation utilisateur (USER_GUIDE.md, PHILOSOPHY.md) |
-| `tools/docs/dev/` | Documentation technique (MCP, MnemoLite...) |
-| `tools/docs/specs/` | Spécifications (TAD.md, PRD.md, VISION.md) |
-| `tools/docs/audits/` | Audits et analyses du système |
-| `tools/docs/article-plans/` | Plans et stratégies d'articles |
-| `tools/docs/plans/` | Roadmap et designs futurs |
-| `tools/tests/` | Tests unitaires et d'intégration |
-| `tools/scripts/` | Scripts utilitaires |
+| `tools/docs/` | Documentation technique |
+| `tools/tests/` | Tests et validations |
 | `tools/prompts/` | Prompts et templates |
+| `tools/scripts/` | Scripts utilitaires |
 
 ---
 
-## 🗄️ ARCHIVE/ - Historique
-
-Contenu historique et backups.
-
-| Dossier | Contenu |
-|---------|---------|
-| `archive/backups/` | Sauvegardes anciennes |
-| `archive/investigations/` | Vieilles investigations |
-| `archive/projects/` | Projets ponctuels terminés |
-| `archive/version-docs/` | Historique des versions |
-
----
-
-## 📄 Racine - Fichiers Essentiels
-
-Uniquement 5 fichiers (+ symlinks) :
+## 📁 ROOT - Fichiers
 
 | Fichier | Description |
 |---------|-------------|
-| `README.md` | Documentation principale |
+| `KERNEL.md` | Cœur opérationnel — point d'entrée |
+| `README.md` | Dashboard central |
 | `DISCLAIMER.md` | Avertissements légaux |
-| `KERNEL.md` | → symlink vers `core/KERNEL.md` |
-| `package.json` | Dépendances Node.js |
-| `package-lock.json` | Lock des dépendances |
+| `kb/` | Knowledge Base |
+| `investigations/` | Investigations récentes |
+| `enquetes/` | Enquêtes |
+| `logs/` | Logs |
 
 ---
 
-## 🎯 Règles d'Or
+## 🗄️ ARCHIVE/
 
-1. **Racine** : Max 5 fichiers essentiels (pas de rapports)
-2. **core/** : Système uniquement - jamais de contenu généré
-3. **docs/** : Investigations organisées par enquête
-4. **outputs/** : Tout contenu produit par le KERNEL
-5. **tools/** : Infrastructure uniquement
-6. **archive/** : Contenu historique, pas de références actives
+| Dossier | Contenu |
+|---------|---------|
+| `archive/backups/` | Sauvegardes |
+| `archive/projects/` | Projets terminés |
+| `archive/kb_archive_old/` | Ancienne KB |
 
 ---
 
-*Structure mise à jour le 6 février 2026*
+## 📋 Règles
+
+1. **KERNEL.md** → toujours à la racine, point d'entrée
+2. **kb/** → système uniquement — jamais de contenu généré
+3. **docs/** → philosophie, specs, audits
+4. **outputs/** → productions générées
+5. **investigations/** → investigations récentes
+6. **tools/** → infrastructure
+
+---
+
+*Structure mise à jour le 25 février 2026*
