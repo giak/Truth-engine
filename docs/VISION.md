@@ -74,7 +74,7 @@ Le texte ne dit pas tout. Ce qu'il ne dit pas en dit autant que ce qu'il dit.
 
 **L'herméneutique de Truth Engine:**
 - Déconstruire le cadrage — Qui pose les questions? Qui définit les termes?
-- Repérer les silences — Qu'est-ce qui est absent? Whose perspective is missing?
+- Repérer les silences — Qu'est-ce qui est absent? Quelle perspective manque?
 - Suivre les implications — Où cela mène-t-il? Qui bénéficie de cette lecture?
 - Questionner l'évidence — Pourquoi ceci est-il présenté comme un fait? Qui décide?
 
@@ -94,7 +94,7 @@ Chaque texte utilise des techniques précises. Truth Engine les détecte:
 | **FRAGMENTATION** | Diviser pour mieux régner. Créer des antagonismes |
 | **FRAMING** | Cadrage biaisé. Définir le cadre, vous contrôlez le débat |
 | **OVERLOAD** | Surcharge cognitive. Trop d'informations pour réfléchir |
-| **SPECTACLE** | Distraction. Le spectaclecache le pouvoir réel |
+| **SPECTACLE** | Distraction. Le spectacle cache le pouvoir réel |
 | **MONEY** | Suivre l'argent. Qui finance? Qui bénéficie? |
 | **POWER** | Cartographier le pouvoir. Qui décide vraiment? |
 | **NETWORK** | Les connexions. Qui connaît qui? |
@@ -115,7 +115,7 @@ Face à un texte, Truth Engine cherche:
 4. **Le GASLIGHTING** — Ce texte nie-t-il des faits établis?
 5. **Le SPECTACLE** — Y a-t-il distraction? Qu'est-ce qui est occulté?
 6. **Le CUI BONO (€)** — Qui bénéficie de cette version?
-7. **Les SILENCES** — Quelle voix est absente? Whose interests are not represented?
+7. **Les SILENCES** — Quelle voix est absente? Quels intérêts ne sont pas représentés?
 8. **La TEMPORALITÉ** — L'histoire est-elle complète? Y a-t-il des trous de mémoire?
 
 Chaque technique est un indice. L'analyse les combine pour révéler l'écran.
@@ -167,7 +167,7 @@ MnemoLite est une base de données vectorielle. Elle:
 - **Indexe** par embeddings (E5)
 - **Rappelle** les investigations passées par similarité sémantique
 
-Quand vous attaquez un nouveau sujet, MnemoLite retrouve les investigations similaires. Vous ne partez pas de zéro. Vous built sur l'existant.
+Quand vous attaquez un nouveau sujet, MnemoLite retrouve les investigations similaires. Vous ne partez pas de zéro. Vous vous appuyez sur l'existant.
 
 ### Le Workflow
 
@@ -387,6 +387,21 @@ Nous ne prétendons pas à la perfection. Nous prétendons à la progression.
 Le système grandit par usage. Chaque investigation est une expérience. Les réussites renforcent. Les échecs améliorent.
 
 **L'Avenir**: Plus de patterns. Plus de sources. Plus de profondeur. Toujours plus proche de la vérité.
+
+---
+
+## Glossaire
+
+| Terme | Définition |
+|-------|------------|
+| **KERNEL.md** | Le cœur opérationnel de Truth Engine. Contient les phases, formules, règles d'exécution. |
+| **KB** | Knowledge Base. Ensemble de fichiers (patterns, clusters, templates) qui alimentent le moteur. |
+| **Investigation** | Le processus complet d'analyse d'un texte ou sujet. De l'input au rapport final. |
+| **H1-H9** | Hiérarchie des sources adverses. H7 = sources qui contredisent le narratif officiel. |
+| **Gate** | Vérification de qualité. Si le gate échoue, l'investigation retourne en arrière. |
+| **Clusters** | Fichiers kb/patterns/CLUSTER_*.md. Regroupements de patterns par catégorie. |
+| **Investigation Tree** | Pour les sujets complexes (APEX). Plusieurs branches explorées en parallèle. |
+| **MnemoLite** | Base de données vectorielle (MCP). Sauvegarde et rappelle les investigations passées. |
 
 ---
 
