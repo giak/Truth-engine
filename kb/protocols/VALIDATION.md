@@ -1,21 +1,65 @@
-# VALIDATION — Post-Search Quality Check v2.0
+# VALIDATION — Post-Search Quality Check v3.1
 
-**Version**: 2.0 (avec gates bloquantes)
+**Version**: 3.1 (avec CONTINUE mode — never delete work)
 **Usage**: Chargé en Phase 6, vérifié en Phase 7
+**KERNEL**: v14.7+ requis pour CONTINUE mode
 
 ---
 
-## 🚨 HARD GATES (Bloquantes)
+## 🚨 SEVERITY-BASED GATING (v3.0)
 
-Ces gates **DOIVENT** passer. Si échec → output bloqué, retour à la phase indiquée.
+Nouveau système depuis KERNEL v14.6 — Les gates ne sont plus tout-ou-rien.
 
-| Gate | Condition | Minimum | Retour si échec |
-|------|-----------|---------|-----------------|
-| `source_types` | Types de sources utilisés | ≥4 | Phase 4 |
-| `concepts_analyzed` | All 6 primitives scored: ≥5 (full), 3-4 (light), <3 (note) | ≥6 (MEDIUM), ≥8 (APEX) | Phase 3 |
-| `wolves_named` | Acteurs nommés individuellement | ≥3 (MEDIUM), ≥8 (APEX) | Phase 4 |
-| `edi_target` | EDI atteint la cible | ≥0.50 (MEDIUM), ≥0.80 (APEX) | Phase 4 |
-| `dialectic_complete` | Thèse/Antithèse/Tensions | TRUE | Phase 3 |
+### Calcul de Sévérité
+
+```
+SEVERITY = 
+  edi_gap     = (ADAPTIVE_TARGET - EDI_actual) / ADAPTIVE_TARGET
+  query_gap   = (queries_required - queries_actual) / queries_required
+  source_gap  = (source_types_required - source_types_actual) / source_types_required
+  
+raw_severity = edi_gap + query_gap + source_gap
+
+CONTEXT_MODIFIER:
+  APEX:     × 1.0 (strict)
+  COMPLEX:  × 0.85
+  MEDIUM:   × 0.7
+  SIMPLE:   × 0.5
+
+final_severity = raw_severity × CONTEXT_MODIFIER
+```
+
+### Réponse selon Sévérité
+
+| Severity | Response | Action |
+|----------|----------|--------|
+| > 0.5 | HARD_BLOCK | NULL output + return to Phase 9 |
+| 0.2 - 0.5 | DRAFT | Draft with explicit gaps + remediation |
+| < 0.2 | WARNINGS | Complete output + minor warnings |
+
+### Métriques à calculer
+
+| Métrique | Formule | Notes |
+|----------|---------|-------|
+| edi_gap | (target - actual) / target | 0 si EDI ≥ target |
+| query_gap | (required - actual) / required | 0 si queries ≥ required |
+| source_gap | (required - actual) / required | 0 si types ≥ required |
+| severity | sum of gaps × modifier | Décide la réponse |
+
+---
+
+## ⚠️ CRITICAL GATES (always block, no severity)
+
+Ces gates **DOIVENT** passer. Si échec → BLOCK immédiat.
+
+| Gate | Condition | Retour |
+|------|-----------|--------|
+| MnemoLite search | Doit être exécuté | Phase 2 |
+| CLUSTER | Chargé si threshold atteint | Phase 8 |
+| ACCUSATION SYMETRIC | Exécuté si accusation | Phase 5 |
+| PERSO_FRESQUE | Activé si sujet politique | BLOCK |
+| concepts | <6 analysés | Phase 7 |
+| REQUEST LOG | Incomplet | BLOCK |
 
 **NOTE**: All 6 primitives ALWAYS analyzed (Phase 2). Depth varies:
 - score ≥5: FULL analysis + cluster load
@@ -24,15 +68,14 @@ Ces gates **DOIVENT** passer. Si échec → output bloqué, retour à la phase i
 
 ---
 
-## 🧊 CONDITIONAL GATES (Si pattern activé)
+## 🧊 CONDITIONAL GATES (appliquent severity si activés)
 
-| Gate | Condition | Trigger | Minimum |
-|------|-----------|---------|---------|
-| `iceberg_hypotheses` | Hypothèses générées | Ξ ≥ 7 | 5 |
-| `iceberg_shadow_calc` | Shadow multiplier calculé | Ξ ≥ 7 | Oui |
-| `money_cui_bono` | Bénéficiaires identifiés | € ≥ 7 | 3 |
-| `strata_vertical` | Analyse Top/Bottom | ↕ ≥ 5 | Oui |
-| `edi_fresque` | EDI élevé pour profondeur historique | PERSO_FRESQUE activé | ≥ 0.85 |
+| Gate | Trigger | Action |
+|------|---------|--------|
+| Ξ ≥ 7 (Iceberg) | → ICEBERG_DEEP_DIVE + 5 hypothèses | severity inclut |
+| € ≥ 7 (Money) | → MONEY_CUI_BONO + 3 bénéficiaires | severity inclut |
+| ↕ ≥ 5 (Temporal) | → STRATA_ANALYSIS | severity inclut |
+| PERSO_FRESQUE | EDI ≥ 0.85 | severity modifié |
 
 ---
 
@@ -58,49 +101,70 @@ Ces vérifications génèrent des avertissements mais ne bloquent pas.
 
 ---
 
-## ✅ GATE CHECK PROTOCOL
+## ✅ GATE CHECK PROTOCOL (v3.0)
 
+### Step 1: Calculate all gaps
 ```
-FOR EACH gate IN hard_gates:
-  IF gate.actual < gate.minimum:
-    LOG: "❌ GATE FAIL: {gate.name}"
-    LOG: "   Required: {gate.minimum}, Actual: {gate.actual}"
-    LOG: "   Action: Return to Phase {gate.return_phase}"
-    BLOCK_OUTPUT: TRUE
-    RETURN TO: gate.return_phase
+FOR EACH metric IN [edi, query, source]:
+  gap[metric] = MAX(0, (required[metric] - actual[metric]) / required[metric])
+```
 
-IF all gates PASS:
-  LOG: "✅ ALL GATES PASSED"
-  CONTINUE TO: Output
+### Step 2: Calculate severity
 ```
+raw_severity = gap[edi] + gap[query] + gap[source]
+final_severity = raw_severity × context_modifier
+```
+
+### Step 3: Apply response
+```
+IF final_severity > 0.5:
+   LOG: "🚨 SEVERITY: {X} - CONTINUE MODE"
+   STATUS = "CONTINUE"
+   OUTPUT = {filename}.md (NEVER DELETED)
+   INCLUDE:
+     - SEVERITY_SCORE: {X}
+     - FAILED_GAPS: {list}
+     - REMEDIATION: {specific}
+     - COUNTERMEASURES: {what was missed}
+     - NEXT_ACTIONS: {3-5 explicit steps}
+   SAVE to MnemoLite with gap_tags
+
+ELSE IF final_severity > 0.2:
+   LOG: "⚠️ SEVERITY: {X} - DRAFT MODE"
+   STATUS = "DRAFT"
+   OUTPUT = "DRAFT_YYYY-MM-DD_{subject}.md"
+   INCLUDE: GATE_FAIL_ANALYSIS + REMEDIATION_PLAN
+
+ELSE:
+   LOG: "✅ SEVERITY: {X} - SOFT PASS"
+   STATUS = "COMPLETE"
+   OUTPUT = normal output
+   INCLUDE: MINOR_WARNINGS if needed
+```
+
+### Step 4: Always provide countermeasures
+```
+COUNTERMEASURES (always included when gaps exist):
+  - IF query_gap > 0.3: "Add +{N} queries, prioritize ◈ primary sources"
+  - IF edi_gap > 0.2: "Focus on international perspectives + non-corporate sources"
+  - IF source_gap > 0.2: "Add ○ tier sources (academic, think tanks)"
+  - PATTERN: "What in the claim was not verified?"
+  
+**NEVER DELETE** existing investigation work
 
 ---
 
 ## 🎯 VALIDATION APEX (Spécifique)
 
-Pour les investigations de type APEX, vérifications additionnelles :
+APEX utilise severity × 1.0 (strict). Guide additionnel:
 
-- [ ] ≥35 queries exécutées
-- [ ] 35% des queries sont primaires (◈)
-- [ ] 10% des queries ciblent des acteurs nommés (WOLF)
-- [ ] EDI ≥ 0.80
-- [ ] ≥8 acteurs nommés (WOLF)
-- [ ] ≥5 branches explorées
-- [ ] Fresque Politique incluse (si sujet politique)
-- [ ] ICEBERG_DEEP_DIVE section remplie (si Ξ ≥ 7)
+- ≥35 queries → query_gap = 0
+- ≥4 source types → source_gap = 0
+- target EDI varies par topic (0.65-0.80)
+- ≥8 wolves recommandés
+- FRESQUE_POLITIQUE: target +0.1
 
-## 🖼️ VALIDATION PERSO_FRESQUE (Spécifique)
+## 🖼️ PERSO_FRESQUE
 
-Si mode `PERSO_FRESQUE` activé, gate supplémentaire bloquante :
-
-| Gate | Condition | Minimum | Retour si échec |
-|------|-----------|---------|-----------------|
-| `edi_fresque` | EDI atteint cible fresque | ≥ 0.85 | Phase 4 |
-
-```
-IF PERSO_FRESQUE AND edi_fresque < 0.85:
-  LOG: "❌ GATE FAIL: edi_fresque"
-  LOG: "   Required: 0.85 (PERSO_FRESQUE), Actual: {edi}"
-  LOG: "   Action: Return to Phase 4 — diversifier sources temporelles"
-  BLOCK_OUTPUT: TRUE
-```
+Contexte Politique = severity × 0.9 (légèrement strict)
+EDI target minimum: 0.75 pour APEX_FRESQUE
