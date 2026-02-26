@@ -3,6 +3,10 @@
 **Usage**: Ce template définit les sections **OBLIGATOIRES** pour tout output d'investigation.
 **Gate**: Si une section marquée `[REQUIRED]` est vide → output bloqué.
 
+**OUTPUT PATH**: `outputs/investigations/YYYY-MM/`
+- Format filename: `YYYY-MM-DD_{sujet_concis}.md`
+- Exemple: `2026-02-26_hayer_europe_assegiee.md`
+
 ---
 
 ## 📌 TL;DR — Executive Summary [NEW v1.1]
