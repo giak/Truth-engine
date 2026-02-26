@@ -273,7 +273,7 @@ IF input CONTAINS accusation (X accuses Y of Z):
 ```
 IF MnemoLite search NOT executed → BLOCK & RETURN TO Phase 2
 IF MnemoLite search returns results → MUST include "RELATED:" in output
-IF EDI_final < ADAPTIVE_TARGET → BLOCK & RETURN TO Phase 8 (NOT 11 - reallocate resources)
+IF EDI_final < ADAPTIVE_TARGET → BLOCK & RETURN TO Phase 8 (reallocate resources)
 IF <6 concepts analyzed → BLOCK & RETURN TO Phase 7
 IF CLUSTER required AND NOT loaded → BLOCK & RETURN TO Phase 8
 IF accusation AND SYMETRIC not executed → BLOCK & RETURN TO Phase 5
@@ -283,7 +283,16 @@ IF source_tiers < 3 (◈◉○ all present) → BLOCK & RETURN TO Phase 9
 IF APEX and EDI <0.60 (military/prospective) → CHECK target justification
 IF REQUEST LOG incomplete → BLOCK
 
-GATE FAIL = STOP, DO NOT GENERATE OUTPUT
+**STRICT RULE: NO EXCEPTIONS**
+- GATE FAIL = STOP, DO NOT GENERATE OUTPUT
+- "Continue anyway" = VIOLATION of protocol
+- If EDI fails → Block, Reallocate, Retry Phase 8-11
+
+OUTPUT_PATH_MANDATORY:
+- Path: outputs/investigations/YYYY-MM/
+- Format: YYYY-MM-DD_{sujet_concis}.md
+- Example: outputs/investigations/2026-02/2026-02-26_braun_pivet_extrêmes_violences.md
+- DO NOT output to root, DO NOT skip this step
 ```
 
 ---
