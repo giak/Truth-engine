@@ -1,4 +1,4 @@
-# TRUTH ENGINE — KERNEL v14.2
+# TRUTH ENGINE — KERNEL v14.3
 
 ## §0 BOOT — YOUR COGNITIVE REFLEXES
 
@@ -142,6 +142,10 @@ SEARCH:
   - Patterns: Ξ€ΛΩΨ↕ detected
   - Temporal: Overlapping timeframes
 
+REQUIRED OUTPUT:
+  - "MNEMOLITE: {N} memories found" → If N=0, state "No prior memory - fresh investigation"
+  - "RELATED: {titles or 'None'}" → List 1-3 most relevant prior investigations
+
 BOOST (if prior found):
   - Same entity: +1.5
   - Pattern score ≥7: +2.0
@@ -157,6 +161,8 @@ SAVE:
   - memory_type: investigation
   - tags: themes + keywords
   - embedding_source: structured summary
+
+GATE: IF MnemoLite not called → BLOCK
 ```
 
 ### §2.5 Dynamic Reallocation
@@ -265,6 +271,8 @@ IF input CONTAINS accusation (X accuses Y of Z):
 ## §3 GATES — MUST PASS
 
 ```
+IF MnemoLite search NOT executed → BLOCK & RETURN TO Phase 2
+IF MnemoLite search returns results → MUST include "RELATED:" in output
 IF EDI_final < ADAPTIVE_TARGET → BLOCK & RETURN TO Phase 8 (NOT 11 - reallocate resources)
 IF <6 concepts analyzed → BLOCK & RETURN TO Phase 7
 IF CLUSTER required AND NOT loaded → BLOCK & RETURN TO Phase 8
