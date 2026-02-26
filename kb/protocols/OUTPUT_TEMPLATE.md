@@ -1,7 +1,23 @@
-# OUTPUT TEMPLATE — Investigation Structure v1.0
+# OUTPUT TEMPLATE — Investigation Structure v1.1
 
 **Usage**: Ce template définit les sections **OBLIGATOIRES** pour tout output d'investigation.
 **Gate**: Si une section marquée `[REQUIRED]` est vide → output bloqué.
+
+---
+
+## 📌 TL;DR — Executive Summary [NEW v1.1]
+<!-- [REQUIRED] 3-line inline summary for quick comprehension -->
+
+| Line | Content | Max Chars |
+|------|---------|-----------|
+| 1 | **SUJET**: What is being investigated | 80 |
+| 2 | **VÉRÉIFICATION**: Key finding (confirmed/rejected) | 80 |
+| 3 | **BIAIS**: Main manipulation detected | 80 |
+
+**Example**:
+```
+TL;DR: SUJET: Médicament X efficacité → VÉRÉIFICATION: Données essais masquées → BIAIS: Pharma finance étude
+```
 
 ---
 

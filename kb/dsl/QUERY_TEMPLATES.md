@@ -300,9 +300,10 @@ EXAMPLE:
 ### 3.2 H7 Adversary Media Map v2.0 (DSL Compact)
 
 **Extension 7→25 sources (core coverage 90% use cases).**
+**v3.0: Global South + Regional Expansion (target: 45+ sources)**
 
 ```yaml
-H7_MAP_v2:
+H7_MAP_v3:
   STATE_MEDIA: # 9 sources
     RU: rt.com(C) | sputniknews.com(C) | tass.com(B)
     CN: globaltimes.cn(C) | xinhuanet.com(B) | chinadaily.com.cn(B)
@@ -322,10 +323,29 @@ H7_MAP_v2:
   WHISTLEBLOWER: # 2 sources
     PRIMARY_DOCS: wikileaks.org(A) | icij.org(A)
 
+  GLOBAL_SOUTH_EXT: # NEW v3.0 - 20 sources
+    # LATAM (Brazil, Mexico, Argentina, Venezuela)
+    BR: terra.com.br(B) | uol.com.br(B) | noticias.uol.com.br(B) | CartaCapital.com.br(B)
+    MX: proceso.com.mx(B) | aristeguinoticias.com(B) | animalpolitico.com(B)
+    AR: pagina12.com.ar(C) | lanacion.com.ar(B) |eltribuno.info(C)
+    VE: talcualdigital.com(C) | runenes.com(C) | vpItv.com(C)
+    
+    # South Asia (India, Pakistan)
+    IN: thewire.in(B) | scroll.in(B) | newsclick.in(B) | thehindu.com(B)
+    PK: dawn.com(B) | Samaa TV(B)
+    
+    # Africa (South Africa, Nigeria, Kenya)
+    ZA: mailandguardian.co.za(B) | dailymaverick.co.za(B) | news24.com(B)
+    NG: punchng.com(B) | vanguardngr.com(B)
+    KE: thestandard.co.ke(B) | nation.africa(B)
+    
+    # MENA (Al Jazeera, Middle East Eye - already in §4 but referenced here)
+    QA: aljazeera.com(A) | alemarahenglish.ae(B)
+
 H7_ENTITY_TRIGGERS:
   keywords: [disinformation, propaganda, threat, hostile, aggression, sanctions, interference, manipulation, psyops]
   entities:
-    Geopolitical: [Russia, China, Iran, DPRK, Venezuela, Cuba]
+    Geopolitical: [Russia, China, Iran, DPRK, Venezuela, Cuba, Brazil, India, South Africa, Nigeria]
     Corporate: [Big Pharma, Big Tech, GAFAM, pharma, tech giants]
     Institutional: [NATO, EU, Pentagon, CIA, FBI]
 
@@ -333,12 +353,13 @@ H7_ENTITY_TRIGGERS:
   → Map entity to sources (Russia → rt.com/tass.com/sputniknews.com)
   → Execute: site:{url} "{subject}" [official response|perspective|statement]
 
-ADD_NEW_SOURCE: # Extensibility
+ADD_NEW_SOURCE: # Extensibility v3.0
   1) Identify entity mentioned as threat/adversary
   2) Search entity's official media or opposition within
   3) Assess tier (A/B/C/D based on credibility/bias)
   4) Add to map with country/topic/stance metadata
   5) System auto-evolves organically
+  6) For Global South: prioritize regional independent media over state-affiliated
 ```
 
 ### 3.3 Adversary Query Templates
@@ -354,16 +375,20 @@ TEMPLATE_H7_COUNTER:
   2. "{subject} independent investigation OR watchdog OR exposé"
   3. "{subject} adversary perspective OR opposing view"
 
-TEMPLATE_H7_MAP_BASED (v2.0 NEW):
-  # Auto-generate queries from media map
-  IF entity IN [Russia, China, Iran, DPRK]:
-    FOR source IN H7_ADVERSARY_MEDIA_MAP_v2[entity]:
+TEMPLATE_H7_MAP_BASED (v3.0):
+  # Auto-generate queries from media map v3.0
+  IF entity IN [Russia, China, Iran, DPRK, Venezuela, Brazil, India, South Africa, Nigeria]:
+    FOR source IN H7_ADVERSARY_MEDIA_MAP_v3[entity]:
       query = 'site:{source.url} "{subject}" {keywords}'
       keywords = ["official response", "perspective", "statement", "analysis"]
   
   EXAMPLES:
     "Russia disinformation" → 'site:rt.com "disinformation" Russian perspective'
     "China influence" → 'site:globaltimes.cn "influence operations" official response'
+    "Brazil environmental" → 'site:terra.com.br "Amazon" perspectiva brasileira'
+    "India farmer protests" → 'site:thewire.in "farmer protest" Indian perspective'
+    "South Africa mining" → 'site:mailandguardian.co.za "mining" South African perspective'
+    "Nigeria corruption" → 'site:punchng.com "corruption" Nigerian perspective'
     "Big Pharma scandal" → 'pharmaceutical industry response OR corporate statement'
 
 ADVERSARY_PERSPECTIVE_CHECK:
@@ -374,12 +399,15 @@ ADVERSARY_PERSPECTIVE_CHECK:
       MANDATORY: Find ≥1 source from entity's perspective
       REASON: "Audi alteram partem (hear the other side)"
     
-    LOOKUP: H7_ADVERSARY_MEDIA_MAP_v2[entity]
+    LOOKUP: H7_ADVERSARY_MEDIA_MAP_v3[entity]
     EXECUTE: Template queries above
     
     EXAMPLES:
       "Russia disinformation" → MUST include rt.com/tass.com sources
       "China influence" → MUST include globaltimes.cn/xinhua sources
+      "Brazil environmental" → MUST include terra.com.br/uol.com.br sources
+      "India farmer protests" → MUST include thewire.in/scroll.in sources
+      "South Africa mining" → MUST include mailandguardian.co.za sources
       "Big Pharma scandal" → MUST include pharma industry response
 ```
 
