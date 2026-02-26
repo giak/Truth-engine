@@ -1,4 +1,4 @@
-# OUTPUT TEMPLATE — Investigation Structure v1.1
+# OUTPUT TEMPLATE — Investigation Structure v1.2
 
 **Usage**: Ce template définit les sections **OBLIGATOIRES** pour tout output d'investigation.
 **Gate**: Si une section marquée `[REQUIRED]` est vide → output bloqué.
@@ -132,6 +132,46 @@ EDI = <!-- FILL: X.XX -->
 2. <!-- FILL -->
 
 **VALIDATION**: dialectic_complete? <!-- PASS/FAIL -->
+
+---
+
+## 🔗 EVIDENCE CHAINS [NEW v1.2]
+<!-- [REQUIRED] Links between findings - how do they connect? -->
+
+### Chain 1: [Cause → Effect → Consequence]
+- **NODE A** → **NODE B** → **NODE C**
+- **Evidence**: Query #X, Query #Y
+- **Confidence**: HIGH/MEDIUM/LOW
+
+### Chain 2: 
+<!-- Add more chains as needed -->
+
+---
+
+## 🎯 CONFIANCE PAR FINDING [NEW v1.2]
+<!-- [REQUIRED] Confidence level for each key finding -->
+
+| Finding | Evidence | Confidence | Justification |
+|---------|----------|------------|---------------|
+| <!-- FILL --> | <!-- Query # --> | HIGH/MEDIUM/LOW | <!-- Why? --> |
+
+---
+
+## ❓ INCONNUES [NEW v1.2]
+<!-- [REQUIRED] What didn't we find? Unanswered questions, gaps -->
+
+| Question | Why Unanswered | Potential Source |
+|----------|----------------|------------------|
+| <!-- FILL --> | <!-- Not searched / No source / Source blocked --> | <!-- Where to look --> |
+
+---
+
+## 🧭 SUITES [NEW v1.2]
+<!-- [REQUIRED] Follow-up leads, next steps -->
+
+| Piste | Priority | Why Important |
+|-------|----------|---------------|
+| <!-- FILL --> | HIGH/MEDIUM/LOW | <!-- FILL --> |
 
 ---
 
