@@ -37,7 +37,7 @@ TL;DR: SUJET: Médicament X efficacité → VÉRÉIFICATION: Données essais mas
 
 ---
 
-## ✅ COMPLIANCE CHECKLIST — v14.10 Required
+## ✅ COMPLIANCE CHECKLIST — v14.13 Required
 <!-- [REQUIRED] Verification of mandatory steps -->
 
 | Step | Status | Evidence |

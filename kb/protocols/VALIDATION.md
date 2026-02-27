@@ -1,14 +1,14 @@
-# VALIDATION — Post-Search Quality Check v3.1
+# VALIDATION — Post-Search Quality Check v3.2
 
-**Version**: 3.1 (avec CONTINUE mode — never delete work)
+**Version**: 3.2 (avec TEXT_ANALYSIS + 15 symbols + COUNTERMEASURES)
 **Usage**: Chargé en Phase 6, vérifié en Phase 7
-**KERNEL**: v14.7+ requis pour CONTINUE mode
+**KERNEL**: v14.13 requis
 
 ---
 
 ## 🚨 SEVERITY-BASED GATING (v3.0)
 
-Nouveau système depuis KERNEL v14.6 — Les gates ne sont plus tout-ou-rien.
+Nouveau système depuis KERNEL v14.13 — Les gates ne sont plus tout-ou-rien.
 
 ### Calcul de Sévérité
 
@@ -58,10 +58,10 @@ Ces gates **DOIVENT** passer. Si échec → BLOCK immédiat.
 | CLUSTER | Chargé si threshold atteint | Phase 8 |
 | ACCUSATION SYMETRIC | Exécuté si accusation | Phase 5 |
 | PERSO_FRESQUE | Activé si sujet politique | BLOCK |
-| concepts | <6 analysés | Phase 7 |
+| concepts | <15 analysés | Phase 7 |
 | REQUEST LOG | Incomplet | BLOCK |
 
-**NOTE**: All 6 primitives ALWAYS analyzed (Phase 2). Depth varies:
+**NOTE**: All 15 symbols ALWAYS analyzed (Phase 0 + Phase 7). Depth varies:
 - score ≥5: FULL analysis + cluster load
 - score 3-4: LIGHT analysis + note
 - score <3: MINIMAL note
