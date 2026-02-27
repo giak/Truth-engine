@@ -16,7 +16,7 @@
 |------|---------|-----------|
 | 1 | **SUJET**: What is being investigated | 80 |
 | 2 | **VÉRÉIFICATION**: Key finding (confirmed/rejected) | 80 |
-| 3 | **BIAIS**: Main manipulation detected | 80 |
+| 3 | **MANIPULATION**: Main technique from Phase 0 | 80 |
 
 **Example**:
 ```
@@ -34,6 +34,104 @@ TL;DR: SUJET: Médicament X efficacité → VÉRÉIFICATION: Données essais mas
 | Complexité | <!-- FILL: SIMPLE/MEDIUM/COMPLEX/APEX --> |
 | Budget requêtes | <!-- FILL: 12/18/25/35+ --> |
 | EDI Target | <!-- FILL: 0.30/0.50/0.70/0.80 --> |
+
+---
+
+## ✅ COMPLIANCE CHECKLIST — v14.10 Required
+<!-- [REQUIRED] Verification of mandatory steps -->
+
+| Step | Status | Evidence |
+|------|--------|----------|
+| TEXT_ANALYSIS executed? | ☐ YES/NO | <!-- describe what was scanned --> |
+| MANIPULATION_REPORT complete? | ☐ YES/NO | <!-- all 15 symbols scanned? --> |
+| MnemoLite search? | ☐ YES/NO | <!-- N memories found --> |
+| MnemoLite saved? | ☐ YES/NO | <!-- ID: xxx --> |
+| TL;DR complete? | ☐ YES/NO | <!-- all 3 lines filled --> |
+| Clusters loaded if threshold? | ☐ YES/NO | <!-- which clusters --> |
+| SYMETRIC if accusation? | ☐ YES/NO | <!-- who benefits --> |
+| CRÉDO questions (≥12)? | ☐ YES/NO | <!-- N questions --> |
+| EDI calculated? | ☐ YES/NO | <!-- score --> |
+| Severity calculated? | ☐ YES/NO | <!-- gap --> |
+| COUNTERMEASURES if gaps? | ☐ YES/NO | <!-- explicit actions --> |
+
+**IF ANY NO → BLOCK & RETURN**
+
+---
+
+## 🎯 MANIPULATION REPORT — Phase 0 Results
+<!-- [REQUIRED] Result of TEXT_ANALYSIS from §0bis - BLOCK if missing -->
+
+### Symbols Detected
+| Symbol | Score | Techniques Found |
+|--------|-------|------------------|
+| Ξ | X/10 | <!-- cherry_picking, ... --> |
+| € | X/10 | <!-- dark_money, ... --> |
+| Λ | X/10 | <!-- framing_cognitive, ... --> |
+| Ω | X/10 | <!-- gaslighting, ... --> |
+| Ψ | X/10 | <!-- infodemia, ... --> |
+| ↕ | X/10 | <!-- class_division, ... --> |
+| Φ | X/10 | <!-- spectacle, ... --> |
+| Σ | X/10 | <!-- greenwashing, ... --> |
+| Κ | X/10 | <!-- facade_maintenance, ... --> |
+| ρ | X/10 | <!-- resistance --> |
+| κ | X/10 | <!-- nudging, ... --> |
+| ⫸ | X/10 | <!-- cascade, ... --> |
+| ⚔ | X/10 | <!-- psyops, ... --> |
+| 🌐 | X/10 | <!-- network_closure, ... --> |
+| ⏰ | X/10 | <!-- memory_hole, ... --> |
+
+### Patterns Activated
+- [ ] ICEBERG — [ ]
+- [ ] ASTRO — [ ]
+- [ ] GAS — [ ]
+- [ ] MONEY — [ ]
+- [ ] BIO — [ ]
+- [ ] WAR — [ ]
+- [ ] NET — [ ]
+- [ ] TEMP — [ ]
+- [ ] CYN — [ ]
+- [ ] FASC — [ ]
+
+### Threats Detected
+- [ ] SHOCK — [ ]
+- [ ] BIDERMAN — [ ]
+- [ ] GASLIGHT_SOC — [ ]
+- [ ] INFODEMIC — [ ]
+- [ ] DARK_MONEY — [ ]
+- [ ] REGULATORY_CAPTURE — [ ]
+- [ ] MYTHOLOGIZATION — [ ]
+- [ ] NUDGING — [ ]
+- [ ] ASTROTURFING — [ ]
+
+### Rhetorical Families
+| Family | Score | Markers |
+|--------|-------|---------|
+| DEM | X/10 | <!-- --> |
+| BF | X/10 | <!-- --> |
+| NUM | X/10 | <!-- --> |
+| AUTH | X/10 | <!-- --> |
+| FAC | X/10 | <!-- --> |
+
+### Clusters to Load
+- [ ] <!-- ICEBERG, MONEY, FRAMING, ... -->
+
+### Implicit Claims
+1. <!-- What is IMPLIED -->
+2. <!-- What is NOT SAID -->
+3. <!-- What is INVERTED -->
+
+### Speaker Profile
+- **Tone**: <!-- aggressive/defensive/prophetic/victim -->
+- **Target**: <!-- who is the enemy? -->
+- **Goal**: <!-- what objective? -->
+
+### Verification Priorities
+1. <!-- what to verify first -->
+2. <!-- ... -->
+3. <!-- ... -->
+
+### Query Guidance
+- <!-- how detected techniques should guide searches -->
 
 ---
 
