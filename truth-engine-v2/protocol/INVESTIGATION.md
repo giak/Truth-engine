@@ -84,10 +84,153 @@ Each symbol with score ≥5 generates investigation branches:
 
 ---
 
+## §1bis COGNITIVE ANALYSIS (EMPIRE OF LIES)
+
+**Input:** MANIPULATION_REPORT (from §1) + text
+**Output:** COGNITIVE_MAP (cluster scores + hermeneutic + forensic)
+
+This is the CORE of the Truth Engine. Without this, you are a fact-checker. With this, you are a cognitive analyst.
+
+### A. CLUSTER SCORING
+
+For each cluster identified in MANIPULATION_REPORT CLUSTERS_TO_LOAD:
+
+Apply the scoring formula from definitions/PATTERNS.md to the text:
+
+```yaml
+CLUSTER_SCORES:
+  For each loaded cluster:
+    1. Read scoring formula from definitions/PATTERNS.md
+    2. Apply formula to text data
+    3. Calculate score
+    4. Classify: + / ++ / +++
+    5. Document: formula, inputs, result, classification
+```
+
+**Example:**
+```yaml
+€ MONEY: Money_Factor = (Hidden / Declared) × Opacity + COI
+  Input: 220M€ TVA hidden behind "l'État ne profite pas"
+  Hidden: TVA proportionnelle mechanism (not explained by Bercy)
+  Declared: 0 (Bercy denies profiting)
+  Opacity: High (technical mechanism, citizen doesn't understand)
+  COI: State = sole fiscal beneficiary
+  Money_Factor = (220M / 0) × High + State → €++ (systémique)
+
+⏰ TEMPORAL: Temporal_Factor = sync×0.30 + vocab×0.25 + cui_bono×0.20 + historical×0.15 + suppress×0.10
+  sync: price rise = VAT rise = same day (1.0)
+  vocab: "l'État ne profite pas" = Bercy standard line (0.8)
+  cui_bono: State = sole beneficiary (0.9)
+  historical: same pattern in 2022 oil crisis (0.7)
+  suppress: mechanism not explained in media (0.6)
+  Temporal_Factor = 1.0×0.30 + 0.8×0.25 + 0.9×0.20 + 0.7×0.15 + 0.6×0.10 = 0.835 → ⏰+++ (orchestrated)
+```
+
+### B. HERMENEUTIC DEPTH (L1-L6)
+
+Read the text through 6 layers of depth. Each layer reveals what the previous layer hides:
+
+```
+L1: EXPLICIT — What is said.
+    "L'État a encaissé 220M€ supplémentaires depuis le 1er mars"
+    → Surface fact. Verifiable.
+
+L2: IMPLICIT — What is implied.
+    "L'État profite de la crise"
+    → Accusation implied by the calculation. Not stated directly.
+
+L3: STRUCTURAL — What structures the discourse.
+    The tweet uses NUM (precise numbers: 220M€, 0.41€, 0.069€, 4.2B L)
+    to CREDIBILIZE the accusation. The structure is: FACT → CALCULATION → CONCLUSION.
+    → The discourse is designed to be irrefutable.
+
+L4: SYMBOLIC — What is symbolized.
+    🔴 FLASH = urgency, alarm
+    🇫🇷 = patriotism weaponized against the state
+    ⛽ = basic need, everyone is affected
+    → The symbols create emotional identification with the reader.
+
+L5: UNCONSCIOUS — What is NOT said.
+    Nobody questions the TICPE mechanism.
+    Nobody asks why the TVA is 20% on carburants.
+    Nobody asks who decided this fiscal structure.
+    → The system is taken for granted. The debate is about symptoms, not structure.
+
+L6: EPISTEMIC — What makes knowledge possible.
+    The data is PUBLIC (DGFiP, Ministry of Ecology).
+    But nobody compiles it. The tweet does what journalists don't.
+    → Knowledge is available but not produced by institutions.
+```
+
+### C. FORENSIC REASONING (Iceberg Reconstruction)
+
+Execute forensic/REASONING.md:
+
+```
+CE QUI EST MONTRÉ (R — shown):
+  - 220M€ de TVA supplémentaire
+  - Hausse prix pompe +20%
+  - TICPE fixe
+  - TVA proportionnelle
+
+CE QUI EST CACHÉ (N — hidden):
+  - Le mécanisme TVA sur TICPE (taxe sur la taxe)
+  - Les volumes exacts consommés (4.2Mds L/mois = estimation)
+  - Les marges des distributeurs (1-2c/L selon TotalEnergies)
+  - Les décisions internes Bercy (pourquoi pas de bouclier ?)
+  - Le rôle des CEE (+5-6c/L depuis janvier, indépendant de la guerre)
+  - L'impact sur l'inflation alimentaire et logistique
+
+REALITÉ TOTALE (N+R):
+  Factor = N/R = 6 éléments cachés / 4 éléments montrés = 1.5
+  → Ξ+ (shadow significatif)
+  → La réalité cachée est 1.5× plus grande que ce qui est montré
+```
+
+### D. COGNITIVE MAP (synthesis)
+
+Combine all cognitive layers into a single map:
+
+```yaml
+COGNITIVE_MAP:
+  MANIPULATION: {symbols, patterns, threats, rhetorical families}
+  CLUSTER_SCORES: {MONEY: €++, TEMPORAL: ⏰+++}
+  HERMENEUTIC: {L1-L6, each layer's revelation}
+  FORENSIC: {shown: 4, hidden: 6, factor: 1.5, Ξ+}
+  EMPIRE_OF_LIES: The state denies profiting from the crisis while the fiscal mechanism proves it does. The discourse is structured to be irrefutable (NUM) while the structural questions (why 20% TVA? why no aid?) are never asked.
+  QUERY_GUIDANCE: Generated from cognitive map (see §2)
+```
+
+---
+
 ## §2 SEARCH
 
-**Input:** MANIPULATION_REPORT + CRÉDO questions
+**Input:** COGNITIVE_MAP (from §1bis) + CRÉDO questions
 **Output:** Search results
+
+### Query Generation (driven by cognitive map):
+
+```
+FROM SYMBOL_SCORES:
+  €=8 → query:"TICPE TVA mécanisme fiscal France 2026"
+  €=8 → query:"qui profite hausse carburant France"
+  ⏰=7 → query:"timing hausse prix pompe Iran guerre"
+  ↕=6 → query:"impact hausse carburant ménages modestes"
+  Κ=4 → query:"Bercy dément profiter hausse carburant"
+  Ξ=5 → query:"mécanisme TVA TICPE taxe sur taxe"
+
+FROM CLUSTER_SCORES:
+  MONEY=€++ → query:"marge distributeurs carburant France 2026"
+  TEMPORAL=⏰+++ → query:"synchronisation hausse prix TVA État"
+
+FROM HERMENEUTIC GAPS:
+  L5 (unconscious) → query:"pourquoi TVA 20% carburant France historique"
+  L6 (epistemic) → query:"DGFiP données recettes carburant statistiques"
+
+FROM FORENSIC (hidden elements):
+  CEE → query:"certificats économie énergie carburant janvier 2026"
+  Marges → query:"marge raffinage TotalEnergies Shell France 2026"
+```
 
 ### Steps:
 1. Execute queries with budget (12/18/25/35+)
@@ -301,8 +444,8 @@ IF unverified_facts > 30% → RETURN to §2 with corroboration queries
 
 ## §7 INVESTIGATION OUTPUT (in French)
 
-**Input:** All previous phases (§0-§6)
-**Output:** Complete investigation (9 sections)
+**Input:** All previous phases (§0-§6bis)
+**Output:** Complete investigation (13 sections — cognitive + factual)
 
 ### Structure (mandatory sections):
 
@@ -312,46 +455,83 @@ IF unverified_facts > 30% → RETURN to §2 with corroboration queries
 - Pourquoi c'est important (impact quantifié)
 - Ce qu'on ne sait pas (gaps de KNOWLEDGE_STATE)
 
-**2. CHRONOLOGIE** (chronological, ≥10 events, in French)
+**2. ANALYSE DE MANIPULATION** (in English — technical, from §1)
+- MANIPULATION_REPORT complet
+- Scores des 15 symboles avec classification
+- Speaker profile: tone, target, goal
+- Implicit claims: ce qui est implicite, non dit, inversé
+- Threats detected avec scoring
+- Rhetorical families detected
+
+**3. ANALYSE CLUSTERS** (in English — technical, from §1bis A)
+- Each loaded cluster with score + classification
+- Formula applied with inputs documented
+- Result: + / ++ / +++
+- Connections between clusters (resonance)
+
+**4. HERMÉNEUTIQUE** (in French, from §1bis B)
+- L1: Explicite — ce qui est dit
+- L2: Implicite — ce qui est sous-entendu
+- L3: Structurel — ce qui structure le discours
+- L4: Symbolique — ce qui symbolise
+- L5: Inconscient — ce qui n'est PAS dit
+- L6: Épistémique — ce qui rend le savoir possible
+
+**5. FORENSIC REASONING** (in French, from §1bis C)
+- Ce qui est montré (R)
+- Ce qui est caché (N)
+- Realité totale (N+R)
+- Factor: N/R → classification Ξ+/Ξ++/Ξ+++
+- Empire du mensonge: synthèse de la structure cachée
+
+**6. CHRONOLOGIE** (chronological, ≥10 events, in French)
 - Tous les événements ✦ confirmés dans l'ordre
 - Chaque événement: date, description, source ◈◉○, conséquence
 - Timing suspect signalé (⏰ avec P_random)
 
-**3. DOMAINES** (thematic sections, in French)
+**7. DOMAINES** (thematic sections, in French)
 - Une section par domaine central
 - Chaque section: faits, acteurs, conséquences, vérification
 - Chaque section: "voile levé" (forensic/REASONING.md reconstruction)
 
-**4. RÉSEAU D'ACTEURS** (in French)
+**8. RÉSEAU D'ACTEURS** (in French)
 - Carte réseau (🌐 NET_Power + ♦ BIO_Factor)
 - Profils d'acteurs: nom, rôle, centralité, connexions
 - Rôles: instigateur, exécutant, bénéficiaire, victime, dissident
 
-**5. CHAÎNES DE CASCADE** (in French)
+**9. CHAÎNES DE CASCADE** (in French)
 - Toutes les chaînes de §4
 - Chaque chaîne: événement → conséquence → conséquence → point final
 - Chaque point final: impact quantifié
 
-**6. CARTE DES PREUVES** (in English — technical)
+**10. CARTE DES PREUVES** (in English — technical)
 - Sources: ◈ N, ◉ N, ○ N
 - Faits: ✦ N, ✧ N, ⁕ N, ⁂ N
 - Contradictions: [liste avec ⊗]
 - Cover-ups: [liste]
 - EDI: score calculé (search/EPISTEMIC.md §4)
 - Scores symboles: Ξ€ΛΩΨ↕ΦΣΚρκ⫸⚔🌐⏰ [scores]
+- Cluster scores: MONEY: €++ | TEMPORAL: ⏰+++ | etc.
 
-**7. VERDICT D'IMPACT** (in French)
+**11. VERDICT D'IMPACT** (in French)
 - Qui gagne / Qui perd / Qui meurt / Qui recule (de §5)
 
-**8. PÉRIMÈTRE & LIMITES** (in French)
+**12. PÉRIMÈTRE & LIMITES** (in French)
 - Ce qui est EXCLU (liste explicite)
 - Pourquoi (périmètre, temps, accès)
 - Ce qui nécessiterait un suivi
 
-**9. ÉTAT DES CONNAISSANCES** (in French)
+**13. ÉTAT DES CONNAISSANCES** (in French)
 - CONFIRMÉ: ce qu'on a confirmé ✦
 - SUSPECTÉ: ce qu'on pense ✧ ⁕
 - INCONNU: les gaps restants
+
+### MANDATORY FOR APEX:
+- Section 2 (MANIPULATION_REPORT) complete with all 15 symbols scored
+- Section 3 (CLUSTERS) all loaded clusters scored with formulas applied
+- Section 4 (HERMENEUTIC) all 6 layers documented
+- Section 5 (FORENSIC) Iceberg reconstruction with Factor calculated
+- Sections 6-13 as before
 
 ### TONE:
 Factual, dense, no filler. Each sentence = 1 fact.

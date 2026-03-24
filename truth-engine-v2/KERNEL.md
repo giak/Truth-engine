@@ -100,7 +100,8 @@ MANIPULATION_REPORT → guides all subsequent phases:
 6. CRÉDO → Generate 12-20 questions with query-ready format (see protocol/ §0)
 7. SCOPING → Define domains, actors, exclusions (see protocol/ §0)
 8. ANALYSIS → Execute scan, generate MANIPULATION_REPORT (see protocol/ §1)
-9. SEARCH → Execute queries with budget (see protocol/ §2)
+8bis. COGNITIVE → Cluster scoring + hermeneutic L1-L6 + forensic reasoning (see protocol/ §1bis)
+9. SEARCH → Execute queries DRIVEN BY cognitive map (see protocol/ §2)
 10. CONSTRUCTION → Build FACT_REGISTRY (see protocol/ §3)
 11. CAUSALITY → Build chains + cascades (see protocol/ §4)
 12. IMPACT → Build 4 matrices (see protocol/ §5)
@@ -270,7 +271,7 @@ IF FACT_REGISTRY empty → BLOCK & RETURN TO Phase 9
 IF FACT_REGISTRY has 0 ✦ CONFIRMED facts → BLOCK & RETURN TO Phase 9
 IF CAUSALITY_CHAINS has 0 chains for APEX → BLOCK & RETURN TO Phase 9
 IF IMPACT_VERDICT "Qui meurt" empty for APEX → BLOCK & RETURN TO Phase 12
-IF INVESTIGATION_OUTPUT missing ≥3 mandatory sections → BLOCK & RETURN TO Phase 14
+IF INVESTIGATION_OUTPUT missing ≥5 mandatory sections → BLOCK & RETURN TO Phase 14
 IF SCOPE & LIMITATIONS missing for APEX → BLOCK & RETURN TO Phase 14
 ```
 
@@ -314,18 +315,20 @@ EDI target minimum: 0.75 pour APEX_FRESQUE
 ```
 All items must be checked before output:
 □ TEXT_ANALYSIS executed?
-□ MANIPULATION_REPORT complete?
+□ MANIPULATION_REPORT complete (all 15 symbols scored)?
+□ CLUSTERS scored (formulas applied, not just loaded)?
+□ HERMENEUTIC L1-L6 documented?
+□ FORENSIC REASONING executed (Iceberg reconstruction)?
 □ MnemoLite search?
 □ MnemoLite saved?
 □ TL;DR complete?
-□ Clusters loaded?
 □ SYMETRIC if accusation?
 □ CRÉDO questions (≥12)?
 □ FACT_REGISTRY complete (✦✧⁅⁂ + ⊕⊗⊙)?
 □ CAUSALITY_CHAINS built (≥3 chains)?
 □ IMPACT_VERDICT all 4 matrices?
 □ CROSS_VERIFICATION ≥2 domains?
-□ INVESTIGATION_OUTPUT all 9 sections?
+□ INVESTIGATION_OUTPUT all 13 sections?
 □ EDI calculated?
 □ Severity calculated? (see §3)
 □ COUNTERMEASURES if gaps? (see §3)
@@ -357,6 +360,10 @@ ALWAYS: Preserve investigation work — NEVER delete
 ✅ EDI → EDI_BIAS + ADAPTIVE_TARGET (always)
 ✅ CLUSTERS → AUTO_LOAD MANDATORY at threshold
 ✅ TEXT_ANALYSIS → scan all 15 symbols (always)
+✅ MANIPULATION_REPORT → drives query generation (always)
+✅ CLUSTERS → scored with formulas, not just loaded (always)
+✅ HERMENEUTIC → L1-L6 depth layers documented (always for APEX)
+✅ FORENSIC → Iceberg reconstruction with Factor (always for APEX)
 ✅ ◈◉○ → stratify sources (always)
 ✅ WOLF_CATEGORIES → minimum coverage (12 for APEX)
 ✅ Gate check → block if fail
@@ -366,7 +373,7 @@ ALWAYS: Preserve investigation work — NEVER delete
 ✅ CAUSALITY_CHAINS → ≥3 chains for APEX (always)
 ✅ IMPACT_VERDICT → 4 matrices (always for APEX)
 ✅ CROSS_VERIFICATION → ≥2 domains (always for APEX)
-✅ INVESTIGATION_OUTPUT → 9 sections (always for APEX)
+✅ INVESTIGATION_OUTPUT → 13 sections (always for APEX)
 ✅ SCOPE & LIMITATIONS → ≥3 exclusions (always for APEX)
 ```
 
@@ -392,6 +399,10 @@ ALWAYS: Preserve investigation work — NEVER delete
 ❌ Output without IMPACT_VERDICT for APEX (Step 12)
 ❌ Output without CROSS_VERIFICATION for APEX (Step 13)
 ❌ Output without INVESTIGATION_OUTPUT for APEX (Step 14)
+❌ Output without MANIPULATION_REPORT in output
+❌ Output without cluster scores in output
+❌ Output without hermeneutic L1-L6 in output
+❌ Output without forensic reasoning in output
 ❌ Output without SCOPE & LIMITATIONS for APEX
 ❌ "Qui meurt" empty in IMPACT_VERDICT
 ❌ Facts without source classification (✦✧⁅⁂)
