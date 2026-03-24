@@ -45,8 +45,12 @@ No separate "protocols" beyond clusters. One cluster = one pattern + its protoco
 ### Principle 5: REFERENCES, NOT COPIES
 KERNEL never copies KB content. It says "see kb/xxx.md §y", period.
 
-### Principle 6: ENGLISH FOR CODE, FRENCH FOR OUTPUT
-All definitions, protocols, clusters, tools in English. Investigation output and articles in French.
+### Principle 6: ENGLISH FOR CODE, FRENCH FOR NARRATIVE
+- **English:** All technical content — protocol definitions, cluster definitions, symbol definitions, formulas, scoring, search queries, request log, KERNEL rules.
+- **French:** All narrative content — investigation output descriptions, executive summary, article, verdict, section text, explanations.
+- **Rationale:** English is better for LLM processing. French is better for human reading (user comprehension).
+- **MnemoLite:** Stores investigation in markdown. Narrative sections in French, technical metadata in English.
+- **output/TEMPLATE.md:** Section headers in English, content templates in French.
 
 ---
 
@@ -63,7 +67,8 @@ truth-engine-v2/
 │   └── THREATS.md                     [~150 lines] All @THR[] with scoring
 │
 ├── protocol/
-│   └── INVESTIGATION.md               [~400 lines] Complete pipeline, 8 phases
+│   ├── INVESTIGATION.md               [~400 lines] Complete pipeline, 8 phases
+│   └── PERSO_FRESQUE.md               [~100 lines] Biography protocol (APEX)
 │
 ├── clusters/                          [~1200 lines] Pattern-specific knowledge
 │   ├── _TEMPLATE.md                   [~50 lines]  Standard format
@@ -100,7 +105,7 @@ truth-engine-v2/
     └── TEMPLATE.md                    [~150 lines] Investigation + article format
 ```
 
-**Total: ~28 files, ~3600 lines** (vs 45 files, ~9400 lines = **-62%**)
+**Total: ~29 files, ~3700 lines** (vs 45 files, ~9400 lines = **-61%**)
 
 ---
 
@@ -706,10 +711,12 @@ Framework for counter-narrative sources
 
 ## 8. MIGRATION STRATEGY
 
+Build in dedicated `truth-engine-v2/` directory. Old `truth-engine/` stays untouched.
+
 ```
 Step 1:  Create truth-engine-v2/ directory structure
 Step 2:  Build definitions/ (SYMBOLS, PATTERNS, THREATS)
-Step 3:  Build protocol/INVESTIGATION.md
+Step 3:  Build protocol/INVESTIGATION.md + protocol/PERSO_FRESQUE.md
 Step 4:  Build clusters/_TEMPLATE.md + 5 priority clusters (ICEBERG, MONEY, NETWORK, WAR, TEMPORAL)
 Step 5:  Build remaining 10 clusters
 Step 6:  Build search/ (EPISTEMIC, TEMPLATES, OPTIMIZATION)
@@ -719,8 +726,8 @@ Step 9:  Build output/TEMPLATE.md
 Step 10: Build KERNEL.md
 Step 11: Test with real investigation
 Step 12: Fix issues found in testing
-Step 13: Archive old truth-engine/ to archive/truth-engine-v1/
-Step 14: Rename truth-engine-v2/ to truth-engine/
+
+Old truth-engine/ remains as reference. No migration, no archive.
 ```
 
 ---
@@ -771,31 +778,33 @@ After build, verify:
 
 ---
 
-## 11. OPEN QUESTIONS
+## 11. OPEN QUESTIONS — RESOLVED
 
-### Q1: MnemoLite integration
-Current MnemoLite is an MCP tool. Should KERNEL reference it directly or should there be a search/MEMORY.md file?
-**Recommendation:** Keep MnemoLite in KERNEL §2.4 (it's orchestration logic, not definition).
+### Q1: MnemoLite integration ✅ RESOLVED
+MnemoLite is the memory system. It saves investigations and allows retrieval. If redoing an investigation on a previously covered subject, it saves time and web searches.
+**Decision:** MnemoLite stays in KERNEL §2.4 as core orchestration. It's not just a tool — it's the system's memory. When starting a new investigation, MnemoLite is checked FIRST to see if the subject was already covered.
 
-### Q2: PERSO_FRESQUE
-Current PROTOCOLE_FRESQUE_POLITIQUE.md is specific to political figures. Should it become a cluster or stay as a separate protocol file?
-**Recommendation:** Keep as separate file in protocol/PERSO_FRESQUE.md (~100 lines). It's a specialized sub-protocol, not a pattern cluster.
+### Q2: PERSO_FRESQUE ✅ RESOLVED
+PERSO_FRESQUE is for building a biography of a person with APEX-level tenacity. It's a specialized investigation protocol for political/public figures.
+**Decision:** Keep as separate file in protocol/PERSO_FRESQUE.md (~100 lines). Activated automatically when investigation subject is a person (PERSO_FRESQUE flag). Forces APEX complexity.
 
-### Q3: Investigation Tree (parallel branches)
-Current INVESTIGATION_TREE.md is 953 lines. Should it stay as a separate file or be integrated into protocol/INVESTIGATION.md?
-**Recommendation:** Add a §parallel section in protocol/INVESTIGATION.md (~50 lines) that describes the parallel branching concept. Keep the full INVESTIGATION_TREE.md as a reference in protocol/ for APEX investigations only.
+### Q3: Investigation Tree (parallel branches) ✅ RESOLVED
+An investigation takes multiple transdisciplinary paths. The user has no specific attachment to the current INVESTIGATION_TREE.md structure.
+**Decision:** Simplify significantly. In protocol/INVESTIGATION.md, add a note that investigations branch into multiple domains in parallel (military, financial, diplomatic, humanitarian, energy, legal, technical). Each domain is a branch. The main protocol (§0-§8) orchestrates the branches. No need for a separate 953-line file.
 
-### Q4: Output in French
-Protocol and definitions are in English, but investigation output and article are in French. Where should the French templates live?
-**Recommendation:** output/TEMPLATE.md has both English section headers and French content templates. The §8 ARTICLE TRANSFORMATION in protocol/INVESTIGATION.md specifies "in French".
+### Q4: Output language ✅ RESOLVED
+**Decision:** Hybrid approach:
+- **French:** All narrative content — descriptions, explanations, executive summary, article, verdict, section text. Easier for the user to read and understand.
+- **English:** All technical content — protocol definitions, cluster definitions, symbol definitions, formulas, scoring, search queries, request log. Easier for the LLM to process.
+- **MnemoLite:** Stores investigation in markdown. Narrative sections in French, technical metadata in English.
+- **output/TEMPLATE.md:** Section headers in English, content templates in French.
 
-### Q5: Archive strategy
-Keep old truth-engine/ in archive/ or delete completely?
-**Recommendation:** Archive to archive/truth-engine-v1/ with date stamp. Never delete — preserve for reference.
+### Q5: Archive strategy ✅ RESOLVED
+Leave everything as-is. Work in a dedicated directory. Old files don't interfere.
+**Decision:** Build v2 in `truth-engine-v2/` directory. Old `truth-engine/` stays untouched. No migration needed — just start fresh in new directory. Link to v1 files if needed for reference.
 
-### Q6: Cross-references in existing files
-Many files in archive/ and tools/tests/ reference old file names (VALIDATION.md, system.md). Should these be updated?
-**Recommendation:** No. Archive files are frozen. Only active files (kb/, KERNEL.md) should be migrated.
+### Q6: Cross-references in existing files ✅ RESOLVED
+**Decision:** Not applicable. Old files stay as-is in `truth-engine/`. New files in `truth-engine-v2/` have no dependencies on old files.
 
 ---
 
@@ -832,11 +841,11 @@ Many files in archive/ and tools/tests/ reference old file names (VALIDATION.md,
 
 After v2 is built and tested:
 
-1. **Archive v1:** Move old truth-engine/ to archive/truth-engine-v1-2026-03-24/
-2. **Rename v2:** Move truth-engine-v2/ to truth-engine/
-3. **Update references:** Any external references to old paths
-4. **Document:** Update README.md with new architecture
-5. **Celebrate:** 62% less code, 0% duplication, 100% functionality preserved
+1. **Old directory untouched:** `truth-engine/` stays as reference
+2. **New directory active:** `truth-engine-v2/` is the working directory
+3. **No migration needed:** Start fresh, reference old files if needed
+4. **Document:** README.md in truth-engine-v2/ explains the new architecture
+5. **When ready:** Can rename truth-engine-v2/ to truth-engine/ later, or keep both
 
 ---
 
