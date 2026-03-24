@@ -203,40 +203,154 @@ COGNITIVE_MAP:
 
 ---
 
-## §2 SEARCH
+## §1ter DIALECTICAL PRISM — 3 Perspectives Force Égale
 
-**Input:** COGNITIVE_MAP (from §1bis) + CRÉDO questions
-**Output:** Search results
+**Input:** MANIPULATION_REPORT (from §1) + text
+**Output:** DIALECTICAL_MAP (3 perspectives + tensions + wolves)
 
-### Query Generation (driven by cognitive map):
+**THIS IS THE SOUL OF THE TRUTH ENGINE.** Without this, you are a fact-checker. With this, you are a cognitive warrior.
+
+### RULE: AUCUN NARRATIF PRIVILÉGIÉ
 
 ```
+The system NEVER judges. It maps.
+The system NEVER resolves tensions. It exposes them.
+The system NEVER tells the user what to think. It arms the user to decide.
+
+3 perspectives. EQUAL force. EQUAL length. EQUAL rigor.
+The user decides. Not the system.
+```
+
+### PERSPECTIVE ACADÉMIQUE ⟐🎓
+
+```
+Source: documents officiels, communiqués gouvernementaux, rapports institutionnels
+Suspicion: 95% (présomption mensonge jusqu'à preuve du contraire)
+Format: ≥3 phrases, tone neutre, force ÉGALE
+
+Questions:
+  - Que dit le narratif officiel?
+  - Quels faits sont affirmés?
+  - Qui porte ce narratif?
+  - Cui bono? Qui bénéficie de cette version?
+  
+Output:
+  PERSPECTIVE_OFFICIELLE:
+    Affirmations: [liste de faits assertés]
+    Acteurs: [qui porte le narratif]
+    Cui bono: [qui bénéficie de cette version]
+    Suspicion: [score 0.0-1.0]
+    Evidence: [sources ◈◉○]
+```
+
+### PERSPECTIVE DISSIDENTE 🔥⟐̅
+
+```
+Source: journalisme d'investigation, voix censurées, sources alternatives
+Suspicion: 95% (pas de naïveté — le contre-narratif peut aussi manipuler)
+Format: ≥3 phrases, tone neutre, force ÉGALE
+
+Questions:
+  - Que dit le contre-narratif?
+  - Quels faits sont affirmés?
+  - Qui porte ce narratif?
+  - Cui bono? Qui bénéficie de cette version?
+  
+Output:
+  PERSPECTIVE_CONTRE_NARRATIVE:
+    Affirmations: [liste de faits assertés]
+    Acteurs: [qui porte le narratif]
+    Cui bono: [qui bénéficie de cette version]
+    Suspicion: [score 0.0-1.0]
+    Evidence: [sources ◈◉○]
+```
+
+### ARBITRAGE ◈◉○
+
+```
+Source: preuves primaires (◈), triangulation, vérification croisée
+Suspicion: vérification systématique (pas de présomption)
+Format: comparaison des deux perspectives
+
+Questions:
+  - Qui a raison sur QUOI spécifiquement?
+  - Quels gaps dans les DEUX narratifs?
+  - Quelles preuves confirment/contredisent chaque version?
+  - Quelles tensions ne sont jamais exposées?
+  - Power dynamics: CUI BONO universel
+  
+Output:
+  ARBITRAGE:
+    Points de convergence: [où les deux narratifs s'accordent]
+    Points de divergence: [où ils s'opposent]
+    Gaps dans les deux: [ce que AUCUN narratif ne dit]
+    Tensions exposées: [contradictions non résolues]
+    Wolves dans les DEUX scénarios: [qui profite dans chaque cas]
+```
+
+### DIALECTICAL MAP (synthesis)
+
+```
+Combine the 3 perspectives into a single map:
+
+DIALECTICAL_MAP:
+  SCENARIO_A (officiel): [résumé du narratif officiel]
+    Cui bono: [qui bénéficie]
+    
+  SCENARIO_B (critique): [résumé du contre-narratif]
+    Cui bono: [qui bénéficie]
+    
+  TENSIONS: [points de divergence non résolus]
+  
+  WOLVES_IN_BOTH: [acteurs qui profitent dans les DEUX scénarios]
+  
+  SILENCES: [ce qu'AUCUN narratif ne dit]
+  
+  VOUS DÉCIDEZ.
+```
+
+---
+
+## §2 SEARCH
+
+**Input:** COGNITIVE_MAP (from §1bis) + DIALECTICAL_MAP (from §1ter) + CRÉDO questions
+**Output:** Search results
+
+### Query Generation (driven by cognitive map + dialectical map):
+
+```
+FROM CASCADE INVERSÉE (L8→L0):
+  L8 Networks → query:"{actor} connections", "{actor} network", "{actor} funding"
+  L7 Warfare → query:"{actor} coordination", "{topic} timing suspicious"
+  L6 Temporal → query:"{event} timing", "{topic} timeline manipulation"
+  L5 Conceptual → query:"{actor} biographie", "{actor} elite network"
+
 FROM SYMBOL_SCORES:
   €=8 → query:"TICPE TVA mécanisme fiscal France 2026"
   €=8 → query:"qui profite hausse carburant France"
   ⏰=7 → query:"timing hausse prix pompe Iran guerre"
-  ↕=6 → query:"impact hausse carburant ménages modestes"
-  Κ=4 → query:"Bercy dément profiter hausse carburant"
-  Ξ=5 → query:"mécanisme TVA TICPE taxe sur taxe"
 
-FROM CLUSTER_SCORES:
-  MONEY=€++ → query:"marge distributeurs carburant France 2026"
-  TEMPORAL=⏰+++ → query:"synchronisation hausse prix TVA État"
+FROM DIALECTICAL MAP:
+  Scenario_A → query:"Bercy dément profiter hausse carburant"
+  Scenario_B → query:"état profite TVA carburant mécanisme"
+  Tensions → query:"pourquoi TVA 20% carburant France historique"
+  Silences → question:"ce qu'aucun narratif ne dit" → query:"{gap}"
+
+FROM SUSPICION PROTOCOL:
+  High suspicion (≥0.70) → query:"{source} vérification", "{claim} debunk"
+  Missing corroboration → query:"{fact} indépendant confirmation"
 
 FROM HERMENEUTIC GAPS:
   L5 (unconscious) → query:"pourquoi TVA 20% carburant France historique"
   L6 (epistemic) → query:"DGFiP données recettes carburant statistiques"
-
-FROM FORENSIC (hidden elements):
-  CEE → query:"certificats économie énergie carburant janvier 2026"
-  Marges → query:"marge raffinage TotalEnergies Shell France 2026"
 ```
 
 ### Steps:
 1. Execute queries with budget (12/18/25/35+)
 2. Stratify sources ◈◉○ (see search/EPISTEMIC.md §1)
-3. Track coverage
-4. Reallocate at 50% if gaps (see KERNEL §2.5)
+3. Apply SUSPICION protocol to each source
+4. Track coverage
+5. Reallocate at 50% if gaps (see KERNEL §2.5)
 
 ### Query Distribution:
 | Category | % | Focus |
@@ -352,43 +466,77 @@ IF CAUSALITY_CHAINS < minimum (APEX:3, COMPLEX:2) → RETURN to §2
 
 ---
 
-## §5 IMPACT
+## §5 DIALECTICAL MAP (replaces IMPACT)
 
-**Input:** FACT_REGISTRY + CAUSALITY_CHAINS + WOLF_PROFILES (from §6)
-**Output:** IMPACT_VERDICT (4 matrices)
+**Input:** FACT_REGISTRY + CAUSALITY_CHAINS + DIALECTICAL_MAP (from §1ter) + WOLF_PROFILES
+**Output:** DIALECTICAL SYNTHESIS (2 scenarios + tensions + wolves + impact)
 
-### IMPACT_VERDICT:
-**Qui gagne.** [Actor] — [gain quantifié]. [Actor] — [gain].
-**Qui perd.** [Actor] — [perte quantifiée]. [Actor] — [perte].
-**Qui meurt.** [Chiffre] — [contexte humanitaire].
-**Qui recule.** [Actor] — [signes de déclin].
+**THE SYSTEM MAPS. IT DOES NOT JUDGE.**
+
+### SCENARIO A (Narratif Officiel)
+
+```
+Résumé: [ce que le narratif officiel dit]
+Affirmations clés: [liste]
+Cui bono: [qui bénéficie de cette version]
+Suspicion: [score 0.0-1.0 — toujours ≥0.50 pour narratif officiel]
+Evidence: [sources ◈◉○]
+```
+
+### SCENARIO B (Narratif Critique)
+
+```
+Résumé: [ce que le contre-narratif dit]
+Affirmations clés: [liste]
+Cui bono: [qui bénéficie de cette version]
+Suspicion: [score 0.0-1.0 — toujours ≥0.50 pour contre-narratif]
+Evidence: [sources ◈◉○]
+```
+
+### TENSIONS EXPOSÉES
+
+```
+Points de convergence: [où les DEUX narratifs s'accordent]
+Points de divergence: [où ils s'opposent — CONTRADICTIONS]
+Gaps dans les DEUX: [ce qu'AUCUN narratif ne dit]
+Tensions non résolues: [contradictions qui persistent]
+```
+
+### WOLVES IN BOTH SCENARIOS
+
+```
+Wolves dans Scénario A: [acteurs qui profitent du narratif officiel]
+Wolves dans Scénario B: [acteurs qui profitent du contre-narratif]
+Wolves dans les DEUX: [acteurs qui profitent dans TOUS les cas]
+```
+
+### IMPACT VERDICT (as section of dialectical map, not standalone)
+
+```
+Based on FACTS (not on judgment):
+
+Qui gagne. [Actor] — [gain quantifié]. [Actor] — [gain].
+Qui perd.  [Actor] — [perte quantifiée]. [Actor] — [perte].
+Qui meurt. [Chiffre] — [contexte humanitaire].
+Qui recule. [Actor] — [signes de déclin].
+
+NOTE: This verdict is based on FACTS, not on narrative preference.
+Both scenarios are evaluated. The user decides which interpretation to trust.
+```
 
 ### Rules:
 - Each entry MUST have ≥1 number (deaths, $, %)
 - "Qui meurt" MUST prioritize human cost over economic cost
 - "Qui recule" MUST identify structural decline (not tactical)
-- "Qui gagne" MUST include ≥1 entity that benefits from the crisis
-- "Qui perd" MUST include both direct losses and indirect consequences
-
-### Verification:
-- Cross-check "Qui gagne" with € MONEY_Factor results
-- Cross-check "Qui meurt" with humanitarian sources
-- Flag if ANY dimension (mil/eco/geo/human) is missing
-- Flag if "Qui meurt" is empty (human cost always exists)
-
-### Connections to existing tools:
-- € MONEY_Factor → feeds "Qui gagne"
-- ♦ BIO_Factor → feeds actor profiles
-- 🌐 NET_Power → feeds "Qui recule"
-- ⚔ WAR_Factor → feeds conflict analysis
-- @PAT[POLITICAL] → Cui_Bono_Political
-- @PAT[GEOPOLITICAL] → Cui_Bono_Geopolitical
+- The system NEVER tells the user what to think
+- Both scenarios are evaluated with EQUAL rigor
 
 ### MANDATORY FOR APEX:
-- All 4 matrices populated
-- ≥1 quantified entry per matrix
+- Both Scenario A and B populated
+- Tensions exposed (not resolved)
+- Wolves identified in BOTH scenarios
 - "Qui meurt" non-empty
-- Cross-referenced with symbol outputs (€♦🌐⚔)
+- Final line: "VOUS DÉCIDEZ."
 
 ---
 
@@ -444,14 +592,14 @@ IF unverified_facts > 30% → RETURN to §2 with corroboration queries
 
 ## §7 INVESTIGATION OUTPUT (in French)
 
-**Input:** All previous phases (§0-§6bis)
-**Output:** Complete investigation (13 sections — cognitive + factual)
+**Input:** All previous phases (§0-§6)
+**Output:** Complete investigation (15 sections — cognitive + dialectical + factual)
 
 ### Structure (mandatory sections):
 
 **1. RÉSUMÉ EXÉCUTIF** (≤500 words, in French)
 - Ce qui s'est passé (5 faits clés)
-- Qui l'a fait (acteurs clés avec profils ♦ BIO)
+- Qui l'a fait (acteurs clés)
 - Pourquoi c'est important (impact quantifié)
 - Ce qu'on ne sait pas (gaps de KNOWLEDGE_STATE)
 
@@ -460,71 +608,50 @@ IF unverified_facts > 30% → RETURN to §2 with corroboration queries
 - Scores des 15 symboles avec classification
 - Speaker profile: tone, target, goal
 - Implicit claims: ce qui est implicite, non dit, inversé
-- Threats detected avec scoring
-- Rhetorical families detected
 
 **3. ANALYSE CLUSTERS** (in English — technical, from §1bis A)
 - Each loaded cluster with score + classification
 - Formula applied with inputs documented
 - Result: + / ++ / +++
-- Connections between clusters (resonance)
 
 **4. HERMÉNEUTIQUE** (in French, from §1bis B)
-- L1: Explicite — ce qui est dit
-- L2: Implicite — ce qui est sous-entendu
-- L3: Structurel — ce qui structure le discours
-- L4: Symbolique — ce qui symbolise
-- L5: Inconscient — ce qui n'est PAS dit
-- L6: Épistémique — ce qui rend le savoir possible
+- L1-L6 depth layers with revelations per layer
 
 **5. FORENSIC REASONING** (in French, from §1bis C)
-- Ce qui est montré (R)
-- Ce qui est caché (N)
-- Realité totale (N+R)
-- Factor: N/R → classification Ξ+/Ξ++/Ξ+++
-- Empire du mensonge: synthèse de la structure cachée
+- Iceberg reconstruction: shown/hidden/factor
+- Empire du mensonge: synthèse
 
-**6. CHRONOLOGIE** (chronological, ≥10 events, in French)
-- Tous les événements ✦ confirmés dans l'ordre
-- Chaque événement: date, description, source ◈◉○, conséquence
-- Timing suspect signalé (⏰ avec P_random)
+**6. PRISME DIALECTIQUE** (in French, from §1ter)
+- Perspective officielle ⟐🎓 (≥3 phrases, force égale)
+- Perspective dissidente 🔥⟐̅ (≥3 phrases, force égale)
+- Arbitrage ◈◉○ (tensions exposées, gaps des deux)
 
-**7. DOMAINES** (thematic sections, in French)
-- Une section par domaine central
-- Chaque section: faits, acteurs, conséquences, vérification
-- Chaque section: "voile levé" (forensic/REASONING.md reconstruction)
+**7. CHRONOLOGIE** (chronological, ≥10 events, in French)
 
-**8. RÉSEAU D'ACTEURS** (in French)
-- Carte réseau (🌐 NET_Power + ♦ BIO_Factor)
-- Profils d'acteurs: nom, rôle, centralité, connexions
-- Rôles: instigateur, exécutant, bénéficiaire, victime, dissident
+**8. DOMAINES** (thematic sections, in French)
 
-**9. CHAÎNES DE CASCADE** (in French)
-- Toutes les chaînes de §4
-- Chaque chaîne: événement → conséquence → conséquence → point final
-- Chaque point final: impact quantifié
+**9. RÉSEAU D'ACTEURS** (in French)
 
-**10. CARTE DES PREUVES** (in English — technical)
-- Sources: ◈ N, ◉ N, ○ N
-- Faits: ✦ N, ✧ N, ⁕ N, ⁂ N
-- Contradictions: [liste avec ⊗]
-- Cover-ups: [liste]
-- EDI: score calculé (search/EPISTEMIC.md §4)
-- Scores symboles: Ξ€ΛΩΨ↕ΦΣΚρκ⫸⚔🌐⏰ [scores]
-- Cluster scores: MONEY: €++ | TEMPORAL: ⏰+++ | etc.
+**10. CHAÎNES DE CASCADE** (in French)
 
-**11. VERDICT D'IMPACT** (in French)
-- Qui gagne / Qui perd / Qui meurt / Qui recule (de §5)
+**11. CARTE DES PREUVES** (in English — technical)
 
-**12. PÉRIMÈTRE & LIMITES** (in French)
-- Ce qui est EXCLU (liste explicite)
-- Pourquoi (périmètre, temps, accès)
-- Ce qui nécessiterait un suivi
+**12. CARTE DIALECTIQUE** (in French, from §5)
+- Scénario A (officiel) + Cui bono
+- Scénario B (critique) + Cui bono
+- Tensions exposées
+- Wolves dans les DEUX scénarios
+- Qui gagne/perd/meurt/recule (based on facts)
+- VOUS DÉCIDEZ.
 
-**13. ÉTAT DES CONNAISSANCES** (in French)
-- CONFIRMÉ: ce qu'on a confirmé ✦
-- SUSPECTÉ: ce qu'on pense ✧ ⁕
-- INCONNU: les gaps restants
+**13. PÉRIMÈTRE & LIMITES** (in French)
+
+**14. ÉTAT DES CONNAISSANCES** (in French)
+
+**15. SUSPICION SCORES** (in English — technical)
+- Suspicion par source type
+- Corroboration status
+- Sources non fiables (suspicion > 0.70)
 
 ### MANDATORY FOR APEX:
 - Section 2 (MANIPULATION_REPORT) complete with all 15 symbols scored
