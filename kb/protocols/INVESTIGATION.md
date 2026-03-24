@@ -1,5 +1,9 @@
 # INVESTIGATION — SYSTEMIC PATTERN GRAPH (SPG) Cascade (v2.1)
 
+> **NOTE:** Ce fichier décrit le protocole L0-L6 séquentiel (SPG cascade).
+> Pour les branches parallèles multi-agents, voir INVESTIGATION_TREE.md.
+> KERNEL.md §5 référence les deux fichiers.
+
 ## SPG Architecture Overview
 
 The SYSTEMIC PATTERN GRAPH is a fusion of three architectural approaches:

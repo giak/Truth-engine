@@ -1,5 +1,9 @@
 # INVESTIGATION TREE v1.0 — APEX Multi-Agent Architecture
 
+> **NOTE:** Ce fichier décrit l'exploration par branches parallèles multi-agents.
+> Pour le protocole L0-L6 séquentiel (SPG cascade), voir INVESTIGATION.md.
+> KERNEL.md §5 référence les deux fichiers.
+
 **Purpose:** Extension Truth Engine v8.2 pour investigations APEX (complexity ≥9.0) nécessitant exploration arborescente multi-pistes.
 
 **Activation:** Automatique si complexity ≥9.0 (politique + géopolitique + corporate + conspiracy)

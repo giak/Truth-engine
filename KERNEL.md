@@ -38,98 +38,28 @@ IF ANY NO → STOP. DO NOT OUTPUT. REALLOCATE AND RETRY.
 
 **OBJECTIVE:** Scan input text for ALL manipulation techniques BEFORE any search. This is MANDATORY.
 
----
+### PROCEDURE
 
-### A. SYMBOLS SCAN (15 narrative symbols)
+```
+1. LOAD SYMBOLS: kb/dsl/SYMBOLS.md §1 (15 narrative symbols)
+2. LOAD PATTERNS: kb/dsl/PATTERNS.md (all @PAT[])
+3. LOAD THREATS: kb/dsl/THREATS.md (all @THR[])
+4. LOAD CLUSTERS: kb/patterns/CLUSTER_*.md (thresholds in KERNEL §2.3)
+5. EXECUTE SCAN using loaded definitions
+6. GENERATE MANIPULATION_REPORT (format below)
+```
 
-| Symbol | Concept | Techniques to Detect |
-|--------|---------|---------------------|
-| **Ξ** | Omission | cherry_picking, flooding_zone, factcheck_weaponized, astroturfing |
-| **€** | Money | dark_money, hidden_flows, Cui_bono, regulatory_capture |
-| **Λ** | Framing | framing_cognitive, overton_window, talking_points, manufacture_consent |
-| **Ω** | Inversion | accusatory_inversion, gaslighting, doublethink, reality_denial |
-| **Ψ** | Sideration | strategy_tension, infodemia, doom_scrolling, learned_helplessness |
-| **↕** | Vertical | top_bottom_asymmetry, class_division, vertical_solidarity, elite_closure |
-| **Φ** | Spectacle | society_spectacle, spectacularization, infotainment, virtue_signaling |
-| **Σ** | Semiotics | hyperreality, simulacre, greenwashing, sportswashing, wokewashing |
-| **Κ** | Cynical | mutual_knowledge_lies, facade_maintenance, institutional_cynicism |
-| **ρ** | Resistance | counter_manipulation, cognitive_sovereignty, mental_disobedience |
-| **κ** | Subtle | nudge_theory, social_cooling, choice_architecture |
-| **⫸** | Bundle | signal_convergence, information_cascade, narrative_synchronization |
-| **⚔** | Warfare | coordination_detection, information_operations, psyops |
-| **🌐** | Network | elite_closure, institutional_endogamy, network_density |
-| **⏰** | Temporal | memory_hole, timeline_manipulation, orchestration_timing |
+### MANDATORY
 
----
+```
+✅ Scan ALL 15 symbols (Ξ € Λ Ω Ψ ↕ Φ Σ Κ ρ κ ⫸ ⚔ 🌐 ⏰) — definitions in SYMBOLS.md §1
+✅ Check ALL @PAT[] patterns from PATTERNS.md
+✅ Check ALL @THR[] threats from THREATS.md
+✅ Check rhetorical families (DEM, BF, NUM, AUTH, FAC) from PATTERNS.md
+✅ Generate MANIPULATION_REPORT with all fields
+```
 
-### B. PATTERNS SCAN (@PAT[])
-
-| Pattern | Scan For |
-|---------|----------|
-| ICEBERG | stats without context, missing methodology, single metric |
-| ASTRO | fake_grassroots, opaque_funding, coordinated_movement |
-| GAS | contradiction, denial, timeline_gaps, memory_erasure |
-| MONEY | hidden_beneficiaries, opacity, shell_companies |
-| BIO | elite_reproduction, revolving_door, power_proximity |
-| WAR | coordination, psyops, attribution_gaps |
-| NET | network_closure, influence_concentration, gatekeepers |
-| TEMP | timing_orchestration, suspicious_coincidence |
-| CYN | facade_gap, institutional_denial |
-| FASC | indices_convergence, faisceau_pattern |
-
----
-
-### C. THREATS SCAN (@THR[])
-
-| Threat | Detection Threshold |
-|--------|---------------------|
-| SHOCK | Ψ>4.5, τ<48h, trauma→urgency |
-| BIDERMAN | ≥4/8 coercion techniques |
-| GASLIGHT_SOC | Ω>4, C<2, contradictions |
-| INFODEMIC | vol×speed×contra > capacity×8 |
-| DARK_MONEY | €≥2, opacity≥3 |
-| REGULATORY_CAPTURE | revolving_door detected |
-| MYTHOLOGIZATION | ♦≥2, narrative_gap≥3 |
-| NUDGING | defaults[90%], dark_patterns |
-| CIALDINI_7 | reciprocity, scarcity, authority, social_proof |
-| ASTROTURFING | growth_too_rapid, funding_opaque |
-
----
-
-### D. RHETORICAL FAMILIES
-
-| Family | Aliases | Markers |
-|--------|---------|---------|
-| DEM | demagogy, populist_framing, us_vs_elites | "people vs elites", miracle_solution |
-| BF | bad_faith, sophistry, tu_quoque | "you too", whataboutism |
-| NUM | numeric_abuse, stats_tricks, technobabble | percentages without base, jargon |
-| AUTH | manufactured_authority | fake_credentials, theater |
-| FAC | performative_policy, facade_gap | action without effect |
-
----
-
-### E. CLUSTERS TO CHECK
-
-Activate if signals detected:
-- ICEBERG → stats/omissions
-- MONEY → financial flows
-- FRAMING → cognitive framing
-- INVERSION → reality reversal
-- OVERLOAD → cognitive saturation
-- WAR → propaganda
-- GASLIGHTING → reality denial
-- NETWORK → influence mapping
-- POWER → elite reproduction
-- TEMPORAL → timeline analysis
-- BIO → biographical
-- SPECTACLE → media spectacle
-- CONFIRMATION → echo chambers
-- FRAGMENTATION → division tactics
-- RESISTANCE → counter-strategies
-
----
-
-### Step 2: GENERATE MANIPULATION_REPORT
+### MANIPULATION_REPORT format
 
 ```
 MANIPULATION_REPORT:
@@ -144,9 +74,7 @@ MANIPULATION_REPORT:
 └── QUERY_GUIDANCE: [how techniques guide searches]
 ```
 
-**CRITICAL:** You MUST scan ALL categories A-E. Do not skip any.
-
----
+**CRITICAL:** You MUST scan ALL categories. Do not skip any. If NOT in output → BLOCK.
 
 ### Step 3: PASS TO PHASE 1
 
@@ -154,6 +82,7 @@ MANIPULATION_REPORT → guides all subsequent phases:
 - CRÉDO questions based on detected techniques
 - Queries targeted at text weaknesses
 - Verification priorities
+- SYMBOL → ACTION (see SYMBOLS.md §5)
 
 ---
 
@@ -183,6 +112,30 @@ MANIPULATION_REPORT → guides all subsequent phases:
 20. SAVE → MnemoLite with structured params
 ```
 
+### FEEDBACK LOOPS (conditional returns to step 9)
+
+```
+After step 11 (FACT_CONSTRUCTION):
+  IF FACT_REGISTRY ✦ < minimum (APEX:10, COMPLEX:8, MEDIUM:5):
+    → RETURN to step 9 with gap-specific queries
+  IF FACT_REGISTRY ⊗ == 0 for APEX:
+    → RETURN to step 9 with H7 adversarial search
+
+After step 12 (CAUSALITY_CHAINS):
+  IF CAUSALITY_CHAINS < minimum (APEX:3, COMPLEX:2):
+    → RETURN to step 9 with chain-completion queries
+  IF SUSPICIOUS_TIMING detected (⏰ ≥ 5):
+    → NOTE for step 13 (IMPACT_VERDICT)
+
+After step 14 (CROSS_VERIFICATION):
+  IF domains_verified < minimum (APEX:2):
+    → RETURN to step 9 with domain-specific queries
+  IF unverified_facts > 30%:
+    → RETURN to step 9 with corroboration queries
+
+MAX FEEDBACK LOOPS: 2 per investigation (prevent infinite loops)
+```
+
 ---
 
 ## §2 DETAILS — ESSENTIAL RULES
@@ -200,6 +153,15 @@ MANIPULATION_REPORT → guides all subsequent phases:
 
 **Classification**: score <3 = SIMPLE (12), <6 = MEDIUM (18), <8 = COMPLEX (25), ≥8 = APEX (35+)
 
+**Complexity-driven budget:**
+
+| Level | Queries | Wolves | Domains | ✦ Facts | Chains | Sections |
+|-------|---------|--------|---------|---------|--------|----------|
+| SIMPLE | 12 | 5 | 2 | 5 | 1 | 5 |
+| MEDIUM | 18 | 5 | 3 | 8 | 2 | 7 |
+| COMPLEX | 25 | 8 | 4 | 10 | 3 | 8 |
+| APEX | 35+ | 12 | 5 | 15 | 5 | 9 |
+
 ### §2.2 EDI — ADAPTIVE TARGETS
 
 ```
@@ -215,12 +177,20 @@ EDI = geo×0.25 + lang×0.20 + strat×0.20 + owner×0.15 + persp×0.15 + temp×0
 
 EDI = (geo_score × 0.25) + (lang_score × 0.20) + (strat_score × 0.20) + (owner_score × 0.15) + (persp_score × 0.15) + (temp_score × 0.05)
 
-EDI_BIAS (mandatory):
-  - IF ◈ == 0: PENALTY -0.30
+EDI_BIAS (mandatory, 5 penalties — from SEARCH_EPISTEMIC §11.3):
+  # Pen 1: Institutional monoculture
+  - IF govt_pct > 60%: PENALTY -0.20
+  - IF corp_pct > 60%: PENALTY -0.20
+  - IF power_pct (govt+corp) > 75%: PENALTY -0.25
+  # Pen 2: Missing adversary perspective
+  - IF adversary == 0 AND dissident == 0: PENALTY -0.15
+  # Pen 3: Narrative echo chamber
+  - IF official > 0 AND counter == 0 AND dissident == 0: PENALTY -0.20
+  # Pen 4: Tertiary over-reliance
   - IF ○ > 70%: PENALTY -0.15
-  - IF adversary == 0: PENALTY -0.10
 
-EDI_final = EDI + sum(penalties)
+EDI_final = max(0, EDI_raw + sum(penalties))
+Full calculation: see kb/dsl/SEARCH_EPISTEMIC.md §11
 
 EDI_TARGET_BY_TOPIC_TYPE:
   DEFAULT:         APEx=0.80, COMPLEX=0.70, MEDIUM=0.50
@@ -265,7 +235,7 @@ RULE: Justifier pourquoi target différent du default dans output
 | Λ (Framing) | ≥4 | kb/patterns/CLUSTER_FRAMING.md |
 | Ω (Inversion) | ≥4 | kb/patterns/CLUSTER_INVERSION.md |
 | Ψ (Overload) | ≥4 | kb/patterns/CLUSTER_OVERLOAD.md |
-| ↕ (Vertical/Temporal) | ≥4 | kb/patterns/CLUSTER_TEMPORAL.md |
+| ↕ (Vertical/Temporal) | ≥4 | kb/patterns/CLUSTER_TEMPORAL_VERTICAL.md |
 
 **OUTPUT VERIFICATION — MUST INCLUDE:**
 ```
@@ -400,27 +370,11 @@ IF input CONTAINS accusation (X accuses Y of Z):
 | DIVERSITY | 15% | Alternative perspectives |
 | WOLF | 10% | Specific actors named |
 
-### §2.10 15 Symbols (always scan)
+### §2.10 Symbols (reference)
 
-| Symbol | Concept | Threshold |
-|--------|---------|-----------|
-| Ξ | Iceberg (omission) | ≥3 → cluster |
-| € | Cui Bono (money) | ≥3 → cluster |
-| Λ | Framing | ≥4 → cluster |
-| Ω | Inversion | ≥4 → cluster |
-| Ψ | Overload | ≥4 → cluster |
-| ↕ | Vertical/Temporal | ≥4 → cluster |
-| Φ | Spectacle | ≥3 |
-| Σ | Semiotics | ≥3 |
-| Κ | Cynical | ≥3 |
-| ρ | Resistance | ≥3 |
-| κ | Subtle | ≥3 |
-| ⫸ | Bundle | ≥3 |
-| ⚔ | Warfare | ≥3 |
-| 🌐 | Network | ≥3 |
-| ⏰ | Temporal | ≥3 |
-
-Full definitions: see §0bis
+15 narrative symbols + epistemic + factual symbols: see kb/dsl/SYMBOLS.md (§1-§3)
+Cluster thresholds: see kb/dsl/SYMBOLS.md §4
+Symbol → Action Map: see kb/dsl/SYMBOLS.md §5
 
 ### §2.11 FACT_CONSTRUCTION (Step 11)
 
@@ -759,6 +713,24 @@ When investigation has gaps, ALWAYS include:
     - IF source_gap > 0.2: "Add ○ tier sources (academic, think tanks, international)"
     - PATTERN: "What in the claim was not verified?"
     - PATTERN: "What sources were missing?"
+```
+
+### APEX VALIDATION (from VALIDATION.md)
+
+```
+APEX uses severity × 1.0 (strict). Additional rules:
+  - ≥35 queries → query_gap = 0
+  - ≥4 source types → source_gap = 0
+  - target EDI varies by topic (0.65-0.80)
+  - ≥8 wolves recommended
+  - FRESQUE_POLITIQUE: target +0.1
+```
+
+### PERSO_FRESQUE SEVERITY (from VALIDATION.md)
+
+```
+Contexte Politique = severity × 0.9 (slightly strict)
+EDI target minimum: 0.75 pour APEX_FRESQUE
 ```
 
 ---

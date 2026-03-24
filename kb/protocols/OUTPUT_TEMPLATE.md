@@ -37,22 +37,10 @@ TL;DR: SUJET: Médicament X efficacité → VÉRÉIFICATION: Données essais mas
 
 ---
 
-## ✅ COMPLIANCE CHECKLIST — v14.13 Required
-<!-- [REQUIRED] Verification of mandatory steps -->
+## ✅ COMPLIANCE CHECKLIST — v15.0 Required
+<!-- Verification of mandatory steps — see KERNEL.md §4 for full checklist -->
 
-| Step | Status | Evidence |
-|------|--------|----------|
-| TEXT_ANALYSIS executed? | ☐ YES/NO | <!-- describe what was scanned --> |
-| MANIPULATION_REPORT complete? | ☐ YES/NO | <!-- all 15 symbols scanned? --> |
-| MnemoLite search? | ☐ YES/NO | <!-- N memories found --> |
-| MnemoLite saved? | ☐ YES/NO | <!-- ID: xxx --> |
-| TL;DR complete? | ☐ YES/NO | <!-- all 3 lines filled --> |
-| Clusters loaded if threshold? | ☐ YES/NO | <!-- which clusters --> |
-| SYMETRIC if accusation? | ☐ YES/NO | <!-- who benefits --> |
-| CRÉDO questions (≥12)? | ☐ YES/NO | <!-- N questions --> |
-| EDI calculated? | ☐ YES/NO | <!-- score --> |
-| Severity calculated? | ☐ YES/NO | <!-- gap --> |
-| COUNTERMEASURES if gaps? | ☐ YES/NO | <!-- explicit actions --> |
+See KERNEL.md §4 for the 16-item compliance checklist. All items must be checked before output.
 
 **IF ANY NO → BLOCK & RETURN**
 
@@ -274,6 +262,16 @@ EDI = <!-- FILL: X.XX -->
 | Piste | Priority | Why Important |
 |-------|----------|---------------|
 | <!-- FILL --> | HIGH/MEDIUM/LOW | <!-- FILL --> |
+
+---
+
+## 📊 SOFT CHECKS (from VALIDATION.md — avertissements, ne bloquent pas)
+
+- [ ] Toutes les sources sont vérifiées
+- [ ] Les sources primaires (◈) sont confirmées
+- [ ] Aucune source détectée comme fake news
+- [ ] Les liens des sources sont fonctionnels
+- [ ] Calculs détaillés affichés (pas de bullshit math)
 
 ---
 
