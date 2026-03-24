@@ -177,7 +177,7 @@ ELIF CX_CHECK[SIMPLE,MEDIUM]: DEGRADE_MODE[EDI≤0.30, ◈=0, mono-bias]
 - Average: 6:1 (6 lines → 1 line)
 - Best case: 12:1
 - Worst case: 3:1
-- Estimated savings: ~400 lines in system.md
+- Estimated savings: ~400 lines in KERNEL.md
 
 ---
 

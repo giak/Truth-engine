@@ -488,7 +488,7 @@ Impact:
 
 ### 4.1 Query Execution Workflow (Modified)
 
-**Location in system.md:** Query execution section
+**Location in KERNEL.md:** §1 Step 8 (SEARCH) + §2.9 Query Distribution
 
 ```yaml
 @WORKFLOW[EXECUTE_QUERIES_OPTIMIZED]:
@@ -872,9 +872,8 @@ Improvement: 0 (no change, as expected)
 - [x] `@FUNCTION[AGGREGATE_RESULTS]` (§3.3)
 
 **Phase 2: Integration**
-- [ ] Modify `system.md` query execution workflow (§4.1)
+- [ ] Modify `KERNEL.md` query execution workflow (§4.1)
 - [ ] Add optimization metrics to DIAGNOSTICS output (§4.3)
-- [ ] Update `CLAUDE.md` with query optimization info
 
 **Phase 3: Testing**
 - [ ] Test on 4 user's failed queries (§6.1, §6.2)
@@ -883,7 +882,7 @@ Improvement: 0 (no change, as expected)
 - [ ] Validate EDI/ISN improvements (§5.2)
 
 **Status:** SPECIFICATION COMPLETE ✅
-**Next step:** Modify system.md for integration
+**Next step:** Integrate with KERNEL.md §1 Step 8
 
 ---
 

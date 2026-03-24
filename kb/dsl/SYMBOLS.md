@@ -68,28 +68,34 @@
 
 ## §4 CLUSTER THRESHOLDS
 
-| Primitive | Threshold | Cluster File |
-|-----------|-----------|--------------|
-| Ξ (Iceberg) | ≥3 | kb/patterns/CLUSTER_ICEBERG.md |
-| € (Money) | ≥3 | kb/patterns/CLUSTER_MONEY.md |
-| Λ (Framing) | ≥4 | kb/patterns/CLUSTER_FRAMING.md |
-| Ω (Inversion) | ≥4 | kb/patterns/CLUSTER_INVERSION.md |
-| Ψ (Overload) | ≥4 | kb/patterns/CLUSTER_OVERLOAD.md |
-| ↕ (Vertical) | ≥4 | kb/patterns/CLUSTER_TEMPORAL_VERTICAL.md |
-| ⏰ (Temporal) | ≥5 | kb/patterns/CLUSTER_TEMPORAL_VERTICAL.md |
-| ⚔ (Warfare) | ≥5 | kb/patterns/CLUSTER_WAR.md |
-| 🌐 (Network) | ≥5 | kb/patterns/CLUSTER_NETWORK.md |
-| ♦ (Biographical) | ≥5 | kb/patterns/CLUSTER_BIO.md |
-| Φ (Spectacle) | ≥5 | kb/patterns/CLUSTER_SPECTACLE.md |
-| Σ (Semiotics) | ≥5 | kb/patterns/CLUSTER_FRAGMENTATION.md |
-| Κ (Cynical) | ≥5 | kb/patterns/CLUSTER_GASLIGHTING.md |
-| ρ (Resistance) | ≥5 | kb/patterns/CLUSTER_RESISTANCE.md |
-| κ (Subtle) | ≥5 | kb/patterns/CLUSTER_CONFIRMATION.md |
+| Primitive | Threshold | Cluster File | Mandatory |
+|-----------|-----------|--------------|-----------|
+| Ξ (Iceberg) | ≥3 | kb/patterns/CLUSTER_ICEBERG.md | YES (lower) |
+| € (Money) | ≥3 | kb/patterns/CLUSTER_MONEY.md | YES (lower) |
+| Λ (Framing) | ≥4 | kb/patterns/CLUSTER_FRAMING.md | YES (lower) |
+| Ω (Inversion) | ≥4 | kb/patterns/CLUSTER_INVERSION.md | YES (lower) |
+| Ψ (Overload) | ≥4 | kb/patterns/CLUSTER_OVERLOAD.md | YES (lower) |
+| ↕ (Vertical) | ≥4 | kb/patterns/CLUSTER_TEMPORAL_VERTICAL.md | YES (lower) |
+| ⏰ (Temporal) | ≥5 | kb/patterns/CLUSTER_TEMPORAL_VERTICAL.md | |
+| ⚔ (Warfare) | ≥5 | kb/patterns/CLUSTER_WAR.md | |
+| 🌐 (Network) | ≥5 | kb/patterns/CLUSTER_NETWORK.md | |
+| ♦ (Biographical) | ≥5 | kb/patterns/CLUSTER_BIO.md | |
+| Φ (Spectacle) | ≥5 | kb/patterns/CLUSTER_SPECTACLE.md | |
+| Σ (Semiotics) | ≥5 | kb/patterns/CLUSTER_FRAGMENTATION.md | |
+| Κ (Cynical) | ≥5 | kb/patterns/CLUSTER_GASLIGHTING.md | |
+| ρ (Resistance) | ≥5 | kb/patterns/CLUSTER_RESISTANCE.md | |
+| κ (Subtle) | ≥5 | kb/patterns/CLUSTER_CONFIRMATION.md | |
 
 **LOAD RULES:**
 - Score ≥5 → LOAD CLUSTER_*.md (mandatory)
 - Score 3-4 → OUTPUT "{pattern}_NOTE: partial detected"
-- Score ≥7 → LOAD additional clusters (see KERNEL §2.3)
+- Score <3 → NOTE_ONLY (1 line)
+- **Mandatory (lower):** Ξ≥3, €≥3, Λ≥4, Ω≥4, Ψ≥4, ↕≥4 → LOAD even below ≥5
+
+**IF score ≥ 7 (HIGH) — LOAD ADDITIONAL:**
+- Ξ → kb/patterns/CLUSTER_GASLIGHTING.md
+- € → kb/patterns/CLUSTER_NETWORK.md + CLUSTER_POWER.md
+- Ω → kb/patterns/CLUSTER_CONFIRMATION.md
 
 ---
 

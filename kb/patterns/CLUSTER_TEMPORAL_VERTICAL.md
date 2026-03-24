@@ -12,10 +12,10 @@
 - Vocabulaire élitiste assumé comme universel → +2
 - Protections légales asymétriques selon rang → +2
 
-**Activation** : Si ↕ ≥ 5 → Ce fichier (CLUSTER_TEMPORAL.md) est chargé avec analyse strata_vertical obligatoire
+**Activation** : Si ↕ ≥ 5 → Ce fichier (CLUSTER_TEMPORAL_VERTICAL.md) est chargé avec analyse strata_vertical obligatoire
 **Queries** : `"{topic} inégalité haut bas"`, `"{topic} qui décide qui subit"`, `"{topic} asymétrie sociale"`
 
-**Gate liée** : `VALIDATION.md > strata_vertical` — Si ↕ ≥ 5, analyse Top/Bottom OBLIGATOIRE
+**Gate liée** : KERNEL.md §3 — Si ↕ ≥ 5, analyse Top/Bottom OBLIGATOIRE
 
 ---
 

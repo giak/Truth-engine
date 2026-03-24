@@ -8,7 +8,7 @@
 
 **Activation:** Automatique si complexity ≥9.0 (politique + géopolitique + corporate + conspiracy)
 
-**Usage:** Référencé par @KB[INVESTIGATION_TREE] dans system.md et VALIDATION.md
+**Usage:** Référencé par KERNEL.md §5 et INVESTIGATION.md.
 
 **Version:** 1.0 (2025-11-14)
 
@@ -396,7 +396,7 @@ LAUNCH_INVESTIGATION_TREE:
 
 ### Opérations Agrégation
 
-Voir [kb/VALIDATION.md](kb/VALIDATION.md) Section 7 pour les heuristiques DSL complètes.
+Voir kb/dsl/SEARCH_EPISTEMIC.md pour les heuristics DSL complètes.
 
 #### 5.1 Concordances (⊕ confirmed)
 
@@ -933,8 +933,9 @@ Success: PARTIAL (EDI amélioré, mais target 0.80 non atteint)
 **END INVESTIGATION_TREE.md v1.1**
 
 **Cross-references:**
-- **system.md** — §INVESTIGATION_TREE workflow routing
-- **kb/VALIDATION.md** — §7 Branch Scoring (detect, score, select)
+- **KERNEL.md** — §3 Gates, §2.11-§2.15 Investigation steps
+- **kb/protocols/INVESTIGATION.md** — L0-L6 sequential cascade
+- **kb/dsl/SYMBOLS.md** — Symbol definitions + ACTION MAP
 - **docs/plans/2025-11-14-investigation-tree-design.md** — Core design document
 - **docs/plans/COMPARABLES_ASYMMETRY_design.md** — v1.1 COMPARABLES extension design
 

@@ -193,35 +193,13 @@ Output MUST include: "EDI_TARGET_REASON: {pattern} → {category}"
 
 ### §2.3 AUTO-LOAD CLUSTERS — MANDATORY
 
-| Score | Action |
-|-------|--------|
-| ≥5 | LOAD CLUSTER_*.md → OUTPUT_REQUIRED: "LOADED: CLUSTER_{name}" |
-| 3-4 | OUTPUT_REQUIRED: "{pattern}_NOTE: partial {pattern} detected" |
-| <3 | NOTE_ONLY (1 line) |
-
-**Cluster → file mapping:** see kb/dsl/SYMBOLS.md §4 (full table with thresholds)
-
-**MANDATORY LOADS (lower thresholds, do not skip):**
-
-| Primitive | Threshold | Cluster File |
-|-----------|-----------|--------------|
-| Ξ (Iceberg) | ≥3 | kb/patterns/CLUSTER_ICEBERG.md |
-| € (Money) | ≥3 | kb/patterns/CLUSTER_MONEY.md |
-| Λ (Framing) | ≥4 | kb/patterns/CLUSTER_FRAMING.md |
-| Ω (Inversion) | ≥4 | kb/patterns/CLUSTER_INVERSION.md |
-| Ψ (Overload) | ≥4 | kb/patterns/CLUSTER_OVERLOAD.md |
-| ↕ (Vertical) | ≥4 | kb/patterns/CLUSTER_TEMPORAL_VERTICAL.md |
+**Cluster mapping, thresholds, mandatory loads, additional loads:** see kb/dsl/SYMBOLS.md §4
 
 **OUTPUT VERIFICATION — MUST INCLUDE:**
 ```
 LOADED: CLUSTER_{name}
 ```
-IF NOT IN OUTPUT → BLOCK & RETURN TO Phase 8
-
-**IF score ≥ 7 (HIGH):** LOAD ADDITIONAL:
-- Ξ → kb/patterns/CLUSTER_GASLIGHTING.md
-- € → kb/patterns/CLUSTER_NETWORK.md + CLUSTER_POWER.md
-- Ω → kb/patterns/CLUSTER_CONFIRMATION.md
+IF NOT IN OUTPUT → BLOCK & RETURN TO Phase 7
 
 ### §2.4 MnemoLite v2.0 (Memory & Cross-Reference)
 
@@ -748,7 +726,10 @@ All 16 items must be checked before output:
 | PERSO_FRESQUE | kb/protocols/PROTOCOLE_FRESQUE_POLITIQUE.md |
 | Cluster files | kb/patterns/CLUSTER_*.md |
 | Cognitive DSL (full spec) | kb/dsl/COGNITIVE_DSL.md |
+| Cognitive DSL (slim card) | kb/dsl/COGNITIVE_DSL_CORE.md |
 | Macros | kb/dsl/MACROS.md |
+
+> **Note:** COGNITIVE_DSL.md = référence complète (~1000 lignes). COGNITIVE_DSL_CORE.md = version slim (~150 lignes) pour chargement rapide. SYMBOLS.md = source unique pour les définitions de symboles.
 
 ---
 

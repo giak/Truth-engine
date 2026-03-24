@@ -549,7 +549,7 @@ STEP 4 — Output:
 - Geography (France → EU → global)
 - Pattern detected (@PAT[ICEBERG], @PAT[MONEY], @PAT[FRAMING], @PAT[GAS]...)
 
-**Integration**: Referenced by system.md §0.4 HERMENEUTIC-DRIVEN PLANNING for query contextualization.
+**Integration**: Referenced by KERNEL.md §0bis TEXT_ANALYSIS and §2.8 CRÉDO for query contextualization.
 
 ---
 
@@ -805,7 +805,7 @@ LLM MUST:
 
 ### 4.7 Complexity-Adaptive Application
 
-From system.md §0.4:
+From KERNEL.md §2.1:
 
 - **SIMPLE (0-3)**: Quick heuristics, 1-2 hypotheses max, 2-3 dissidents, 2-3 contextualized queries
 - **MEDIUM (4-6)**: Full analysis, 2-3 hypotheses, 3-5 dissidents, 3-5 contextualized queries
