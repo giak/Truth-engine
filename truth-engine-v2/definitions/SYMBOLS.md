@@ -75,14 +75,14 @@
 | Λ (Framing) | ≥5 | ≥4 | clusters/FRAMING.md |
 | Ω (Inversion) | ≥5 | ≥4 | clusters/INVERSION.md |
 | Ψ (Overload) | ≥5 | ≥4 | clusters/OVERLOAD.md |
-| ↕ (Vertical) | ≥5 | ≥4 | clusters/TEMPORAL.md |
+| ↕ (Vertical) | ≥5 | ≥4 | clusters/POWER.md |
 | ⏰ (Temporal) | ≥5 | — | clusters/TEMPORAL.md |
 | ⚔ (Warfare) | ≥5 | — | clusters/WAR.md |
 | 🌐 (Network) | ≥5 | — | clusters/NETWORK.md |
 | ♦ (Biographical) | ≥5 | — | clusters/BIO.md |
 | Φ (Spectacle) | ≥5 | — | clusters/SPECTACLE.md |
-| Σ (Semiotics) | ≥5 | — | clusters/FRAGMENTATION.md |
-| Κ (Cynical) | ≥5 | — | clusters/GASLIGHTING.md |
+| Σ (Semiotics) | ≥5 | — | clusters/SPECTACLE.md |
+| Κ (Cynical) | ≥5 | — | clusters/INVERSION.md |
 | ρ (Resistance) | ≥5 | — | clusters/RESISTANCE.md |
 | κ (Subtle) | ≥5 | — | clusters/CONFIRMATION.md |
 

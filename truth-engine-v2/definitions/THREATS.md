@@ -8,16 +8,16 @@
 
 | Threat | Detection | Signature | Countermeasure |
 |--------|-----------|-----------|----------------|
-| **SHOCK** | Ψ>4.5 ∧ τ<48h ∧ Λ_monopoly | trauma → urgency → solution | prebunk + timeline + liberties_track |
-| **BIDERMAN** | ≥4/8 coercion techniques | isolation + monopoly + exhaustion + threats | exposure + diversity + cooldown |
-| **GASLIGHT_SOC** | Ω>4 ∧ C<2 ∧ contra>3 | denial + contradiction + pathologize + memory_erasure | archive + compare + timeline |
-| **INFODEMIC** | (vol×speed×contra)/capacity > 8 | volume > 150/day + acceleration + contradictions | simplify + cooldown + focus |
-| **DARK_MONEY** | €≥2 ∧ opacity≥3 ∧ COI≥5 | hidden_funding → policy_capture | transparency + ownership + trace |
-| **REGULATORY_CAPTURE** | € ∧ revolving_door ∧ dependency | industry → regulator → industry | independence + term_limits + disclosure |
-| **MYTHOLOGIZATION** | ♦≥2 ∧ narrative_gap≥3 ∧ media_complicity | self_made_myth → meritocracy_illusion | biography_archaeology |
-| **NUDGING** | defaults[90%] ∧ dark_patterns | choice_architecture → behavior_control | friction + awareness + defaults_reset |
-| **CIALDINI_7** | ≥3/7 triggers active | reciprocity + commitment + social_proof + authority + liking + scarcity + unity | exposure + cooling_period |
-| **ASTROTURFING** | growth_too_rapid ∧ funding_opaque ∧ message_polished | fake_grassroots → manufactured_consent | funding_trace + growth_analysis |
+| @THR[SHOCK] **SHOCK** | Ψ>4.5 ∧ τ<48h ∧ Λ_monopoly | trauma → urgency → solution | prebunk + timeline + liberties_track |
+| @THR[BIDERMAN] **BIDERMAN** | ≥4/8 coercion techniques | isolation + monopoly + exhaustion + threats | exposure + diversity + cooldown |
+| @THR[GASLIGHT] **GASLIGHT_SOC** | Ω>4 ∧ C<2 ∧ contra>3 | denial + contradiction + pathologize + memory_erasure | archive + compare + timeline |
+| @THR[INFODEMIC] **INFODEMIC** | (vol×speed×contra)/capacity > 8 | volume > 150/day + acceleration + contradictions | simplify + cooldown + focus |
+| @THR[DARK_MONEY] **DARK_MONEY** | €≥2 ∧ opacity≥3 ∧ COI≥5 | hidden_funding → policy_capture | transparency + ownership + trace |
+| @THR[REG_CAPTURE] **REGULATORY_CAPTURE** | € ∧ revolving_door ∧ dependency | industry → regulator → industry | independence + term_limits + disclosure |
+| @THR[MYTHO] **MYTHOLOGIZATION** | ♦≥2 ∧ narrative_gap≥3 ∧ media_complicity | self_made_myth → meritocracy_illusion | biography_archaeology |
+| @THR[NUDGE] **NUDGING** | defaults[90%] ∧ dark_patterns | choice_architecture → behavior_control | friction + awareness + defaults_reset |
+| @THR[CIALDINI] **CIALDINI_7** | ≥3/7 triggers active | reciprocity + commitment + social_proof + authority + liking + scarcity + unity | exposure + cooling_period |
+| @THR[ASTRO] **ASTROTURFING** | growth_too_rapid ∧ funding_opaque ∧ message_polished | fake_grassroots → manufactured_consent | funding_trace + growth_analysis |
 
 **Biderman 8 techniques:** 1_Isolation, 2_Perceptual_monopoly, 3_Exhaustion, 4_Threats, 5_Indulgences, 6_Omnipotence, 7_Degradation, 8_Absurd
 
@@ -27,10 +27,10 @@
 
 | Threat | Detection | Mechanism | Countermeasure |
 |--------|-----------|-----------|----------------|
-| **DARK_MONEY** | €≥2 ∧ opacity≥3 | hidden_funding → policy_capture | transparency + beneficial_ownership |
-| **REGULATORY_CAPTURE** | revolving_door ∧ dependency | industry → regulator → industry | independence + disclosure |
-| **ECONOMIC_HITMAN** | debt_trap ∧ resource_extraction | IMF/WorldBank conditionality | sovereignty + alternative_finance |
-| **PHILANTHROCAPITALISM** | charity_mask ∧ power_accumulation | Gates/Soros model | democratic_oversight + tax_justice |
+| @THR[DARK_MONEY] **DARK_MONEY** | €≥2 ∧ opacity≥3 | hidden_funding → policy_capture | transparency + beneficial_ownership |
+| @THR[REG_CAPTURE] **REGULATORY_CAPTURE** | revolving_door ∧ dependency | industry → regulator → industry | independence + disclosure |
+| @THR[ECON_HITMAN] **ECONOMIC_HITMAN** | debt_trap ∧ resource_extraction | IMF/WorldBank conditionality | sovereignty + alternative_finance |
+| @THR[PHILANTHROCAP] **PHILANTHROCAPITALISM** | charity_mask ∧ power_accumulation | Gates/Soros model | democratic_oversight + tax_justice |
 
 ---
 
@@ -38,10 +38,10 @@
 
 | Threat | Detection | Mechanism | Countermeasure |
 |--------|-----------|-----------|----------------|
-| **MYTHOLOGIZATION** | ♦≥2 ∧ narrative_gap≥3 | self_made_myth → meritocracy_illusion | biography_archaeology |
-| **ELITE_REPRODUCTION** | ♦ ∧ class_continuity | generational_power → false_meritocracy | transparency + class_analysis |
-| **NARRATIVE_LAUNDERING** | ♦ ∧ media_construction | reputation_whitewash → legitimacy | memory_preservation |
-| **POWER_PROXIMITY** | ♦≥2 ∧ access_hidden | invisible_influence → democratic_bypass | influence_mapping |
+| @THR[MYTHO] **MYTHOLOGIZATION** | ♦≥2 ∧ narrative_gap≥3 | self_made_myth → meritocracy_illusion | biography_archaeology |
+| @THR[ELITE_REPRO] **ELITE_REPRODUCTION** | ♦ ∧ class_continuity | generational_power → false_meritocracy | transparency + class_analysis |
+| @THR[NARR_LAUNDER] **NARRATIVE_LAUNDERING** | ♦ ∧ media_construction | reputation_whitewash → legitimacy | memory_preservation |
+| @THR[POWER_PROX] **POWER_PROXIMITY** | ♦≥2 ∧ access_hidden | invisible_influence → democratic_bypass | influence_mapping |
 
 ---
 
