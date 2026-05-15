@@ -1,25 +1,25 @@
 # TRUTH ENGINE v2.0 — Architecture & Dependency Graph
 
 **Purpose:** Single source of truth for how all files relate, what loads what, and where the LLM can get lost.
-**Last updated:** 2026-03-25
+**Last updated:** 2026-05-15
 
 ---
 
-## §1 FILE INVENTORY (30 files)
+## §1 FILE INVENTORY (32 files)
 
 ### Layer 0: KERNEL (1 file)
 
 | File | Lines | Role | Loaded |
 |------|-------|------|--------|
-| KERNEL.md | 214 | **Orchestrator.** Boot + TOOLS + pipeline + rules + gates | Always (user loads it) |
+| KERNEL.md | 235 | **Orchestrator.** Boot + TOOLS + pipeline + rules + gates | Always (user loads it) |
 
 ### Layer 1: ONTOLOGY (3 files, always loaded at §0 steps 1-3)
 
 | File | Lines | Role | Loaded at |
 |------|-------|------|-----------|
-| definitions/SYMBOLS.md | 147 | 15 narrative + 17 epistemic + 8 factual symbols, cluster thresholds, symbol→action | §0 step 1 |
-| definitions/PATTERNS.md | 192 | 9 @PAT[] with scoring formulas, 5 extended patterns, rhetorical families | §0 step 2 |
-| definitions/THREATS.md | 131 | 10 @THR[] with detection signatures, scoring formulas | §0 step 3 |
+| definitions/SYMBOLS.md | 123 | 15 narrative + 17 epistemic + 8 factual symbols, cluster thresholds, symbol→action | §0 step 1 |
+| definitions/PATTERNS.md | 200 | 9 @PAT[] with scoring formulas, 4 composite patterns, rhetorical families | §0 step 2 |
+| definitions/THREATS.md | 129 | 10 @THR[] with detection signatures, scoring formulas | §0 step 3 |
 
 ### Layer 2: PIPELINE (1 file, loaded at step 8b)
 
@@ -31,29 +31,29 @@
 
 | File | Lines | Role | Trigger |
 |------|-------|------|---------|
-| protocol/PERSO_FRESQUE.md | 54 | Biography investigation protocol (APEX) | Subject is a person |
-| clusters/{NAME}.md (14 files) | ~1100 | Per-symbol scoring + triggers + queries | Score ≥5 for that symbol |
+| protocol/PERSO_FRESQUE.md | 54 | Biography investigation protocol (APEX), DSL compressed | Subject is a person |
+| clusters/{NAME}.md (15 files) | ~1239 | Per-symbol scoring + triggers + queries | Score ≥5 for that symbol |
 
 ### Layer 4: SEARCH (3 files, loaded on demand)
 
 | File | Lines | Role | When |
 |------|-------|------|------|
 | search/EPISTEMIC.md | 141 | Source stratification (◈◉○), EDI formula + dimension sub-formulas, convergence C(n), H7 media map | Step 9 (search) or step 16 (EDI) |
-| search/TEMPLATES.md | 127 | Domain-adaptive query templates (10 domains), H7 adversary templates, dissident perspectives | Step 9 (search) |
-| search/OPTIMIZATION.md | 124 | Query splitting (3-layer), fallback logic, reformulation | Step 9 (when queries fail) |
+| search/TEMPLATES.md | 111 | Domain-adaptive query templates (10 domains), H7 adversary templates, dissident perspectives | Step 9 (search) |
+| search/OPTIMIZATION.md | 124 | Query splitting (3-layer), ddq/websearch fallback, reformulation | Step 9 (when queries fail) |
 
 ### Layer 5: FORENSIC (2 files, loaded on trigger)
 
 | File | Lines | Role | Trigger |
 |------|-------|------|---------|
-| forensic/REASONING.md | 55 | Iceberg reconstruction (shown/hidden/factor), 4 reasoning questions, output transparency | Ξ ≥5 |
-| forensic/REQUEST_LOG.md | 108 | Request log format (table structure), quality gates, protocol header | Always (output) |
+| forensic/REASONING.md | 55 | Iceberg reconstruction (shown/hidden/factor), 4 @Q[] reasoning questions, output transparency | Ξ ≥5 |
+| forensic/REQUEST_LOG.md | 108 | Request log format (table structure + URL), quality gates, protocol header | Always (output) |
 
 ### Layer 6: TOOLS (2 files, loaded on demand)
 
 | File | Lines | Role | When |
 |------|-------|------|------|
-| tools/DSL.md | 131 | 148 concepts index, KB macros, core formulas (IVF/ISN/IVS), @HERM[] macro, pattern macros | Reference (step 8b or when needed) |
+| tools/DSL.md | 143 | 148 concepts, KB macros, core formulas, @HERM/@PRISM/@PF/@Q macros | Reference (step 8b or when needed) |
 | tools/MACROS.md | 117 | Compact notation (CX_CHECK, QRY_MIN, EDI_TARGET, I_CONVERGE, CoverageScore, EDI*) | Reference (when macros needed) |
 
 ### Layer 7: OUTPUT (1 file, loaded on demand)
@@ -67,84 +67,84 @@
 ## §2 DEPENDENCY GRAPH
 
 ```
-                                    ┌─────────────────┐
-                                    │    USER INPUT    │
-                                    │  (text, URL,     │
-                                    │   instruction)   │
-                                    └────────┬────────┘
-                                             │
-                                    ┌────────▼────────┐
-                                    │   KERNEL.md     │
-                                    │   (214L)        │
-                                    │   ORCHESTRATOR  │
-                                    └────────┬────────┘
-                                             │
-                          §0 step 1 ─────────┼───────── §0 step 2 ────────── §0 step 3
-                          ┌──────────────────┼──────────────────┐
-                          │                  │                  │
-                   ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
-                   │ SYMBOLS.md  │   │ PATTERNS.md │   │ THREATS.md  │
-                   │ 147L        │   │ 192L        │   │ 131L        │
-                   │ ONTOLOGY    │   │ FORMULAS    │   │ THREATS     │
-                   └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
-                          │                  │                  │
-                          │           §0 step 5 (score ≥5)     │
-                          │                  │                  │
-                          │    ┌─────────────┼─────────────┐    │
-                          │    │             │             │    │
-                          │ ┌──▼───┐   ┌────▼───┐   ┌────▼──┐ │
-                          │ │ICEBERG│   │ MONEY  │   │ TEMPORAL│
-                          │ │86L   │   │ 100L   │   │ 110L  │ │
-                          │ └──────┘   └────────┘   └───────┘ │
-                          │   ...14 cluster files total...     │
-                          │                                     │
-                          │           §1 step 8b               │
-                          │              │                      │
-                          │       ┌──────▼──────┐              │
-                          │       │INVESTIGATION│              │
-                          │       │   288L      │              │
-                          │       │  PIPELINE   │              │
-                          │       └──────┬──────┘              │
-                          │              │                      │
-                          │     §1 step 8b references:         │
-                          │     SYMBOLS.md, PATTERNS.md,       │
-                          │     6 clusters, PERSO_FRESQUE,     │
-                          │     REASONING.md, TEMPLATE.md      │
-                          │                                     │
-                          │           §1 step 9                │
-                          │         ┌────┼────┐                │
-                          │   ┌─────▼──┐│┌────▼─────┐         │
-                          │   │EPISTEMIC│││TEMPLATES │         │
-                          │   │  141L   │││  127L    │         │
-                          │   └────┬───┘│└────┬─────┘         │
-                          │        │    │     │                │
-                          │        │    │  ┌──▼──────────┐    │
-                          │        │    │  │OPTIMIZATION │    │
-                          │        │    │  │   124L      │    │
-                          │        │    │  └─────────────┘    │
-                          │                                     │
-                          │           Ξ ≥5                     │
-                          │              │                      │
-                          │       ┌──────▼──────┐              │
-                          │       │ REASONING   │              │
-                          │       │   111L      │              │
-                          │       └─────────────┘              │
-                          │                                     │
-                          │           step 14                  │
-                          │         ┌────┼────┐                │
-                          │   ┌─────▼──┐│┌────▼─────┐         │
-                          │   │TEMPLATE │││REQUEST_LOG│        │
-                          │   │  114L   │││  108L    │        │
-                          │   └────────┘│└──────────┘        │
-                          │                                     │
-                          │      REFERENCE (any step)          │
-                          │     ┌──────┬──────┐                │
-                          │ ┌───▼──┐ ┌─▼────┐ │                │
-                          │ │ DSL  │ │MACROS│ │                │
-                          │ │ 131L │ │ 117L │ │                │
-                          │ └──────┘ └──────┘ │                │
-                          │                                     │
-                          └─────────────────────────────────────┘
+                                     ┌─────────────────┐
+                                     │    USER INPUT    │
+                                     │  (text, URL,     │
+                                     │   instruction)   │
+                                     └────────┬────────┘
+                                              │
+                                     ┌────────▼────────┐
+                                     │   KERNEL.md     │
+                                     │   (235L)        │
+                                     │   ORCHESTRATOR  │
+                                     └────────┬────────┘
+                                              │
+                           §0 step 1 ─────────┼───────── §0 step 2 ────────── §0 step 3
+                           ┌──────────────────┼──────────────────┐
+                           │                  │                  │
+                    ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
+                    │ SYMBOLS.md  │   │ PATTERNS.md │   │ THREATS.md  │
+                    │ 123L        │   │ 200L        │   │ 129L        │
+                    │ ONTOLOGY    │   │ FORMULAS    │   │ THREATS     │
+                    └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
+                           │                  │                  │
+                           │           §0 step 5 (score ≥5)     │
+                           │                  │                  │
+                           │    ┌─────────────┼─────────────┐    │
+                           │    │             │             │    │
+                           │ ┌──▼───┐   ┌────▼───┐   ┌────▼──┐ │
+                           │ │ICEBERG│   │ MONEY  │   │ TEMPORAL│
+                           │ │86L   │   │ 100L   │   │ 110L  │ │
+                           │ └──────┘   └────────┘   └───────┘ │
+                           │   ...15 cluster files total...     │
+                           │                                     │
+                           │           §1 step 8b               │
+                           │              │                      │
+                           │       ┌──────▼──────┐              │
+                           │       │INVESTIGATION│              │
+                           │       │   240L      │              │
+                           │       │  PIPELINE   │              │
+                           │       └──────┬──────┘              │
+                           │              │                      │
+                           │     §1 step 8b references:         │
+                           │     SYMBOLS.md, PATTERNS.md,       │
+                           │     6 clusters, PERSO_FRESQUE,     │
+                           │     REASONING.md, TEMPLATE.md      │
+                           │                                     │
+                           │           §1 step 9                │
+                           │         ┌────┼────┐                │
+                           │   ┌─────▼──┐│┌────▼─────┐         │
+                           │   │EPISTEMIC│││TEMPLATES │         │
+                           │   │  141L   │││  111L    │         │
+                           │   └────┬───┘│└────┬─────┘         │
+                           │        │    │     │                │
+                           │        │    │  ┌──▼──────────┐    │
+                           │        │    │  │OPTIMIZATION │    │
+                           │        │    │  │   124L      │    │
+                           │        │    │  └─────────────┘    │
+                           │                                     │
+                           │           Ξ ≥5                     │
+                           │              │                      │
+                           │       ┌──────▼──────┐              │
+                           │       │ REASONING   │              │
+                           │       │   55L       │              │
+                           │       └─────────────┘              │
+                           │                                     │
+                           │           step 14                  │
+                           │         ┌────┼────┐                │
+                           │   ┌─────▼──┐│┌────▼─────┐         │
+                           │   │TEMPLATE │││REQUEST_LOG│        │
+                           │   │  114L   │││  108L    │        │
+                           │   └────────┘│└──────────┘        │
+                           │                                     │
+                           │      REFERENCE (any step)          │
+                           │     ┌──────┬──────┐                │
+                           │ ┌───▼──┐ ┌─▼────┐ │                │
+                           │ │ DSL  │ │MACROS│ │                │
+                           │ │ 143L │ │ 117L │ │                │
+                           │ └──────┘ └──────┘ │                │
+                           │                                     │
+                           └─────────────────────────────────────┘
 ```
 
 ---
@@ -244,7 +244,7 @@ VERIFICATION_REPORT (step 13)
 INVESTIGATION OUTPUT (step 14)
   ├── MEDIUM: 7 sections (1,7,8,9,10,11,13,14)
   ├── APEX: 15 sections (all)
-  └── REQUEST_LOG {#|TYPE|QUERY/TOOL_CALL|RESULT|SOURCE}
+  └── REQUEST_LOG {#|TYPE|QUERY/TOOL_CALL|RESULT|SOURCE|URL}
   │
   ▼
 EDI (step 16)
@@ -284,13 +284,6 @@ INVESTIGATION.md §3 says "CLASSIFY: ✦✧⁅❧". But the actual definitions o
 **Impact:** None if step 1 executed. Would fail if SYMBOLS.md not loaded.
 **Fix option:** Add explicit "See SYMBOLS.md §2" in INVESTIGATION.md §3.
 
-### ⚠️ B4: Cluster GASLIGHTING.md exists but is only loaded via HIGH rule (Ξ≥7)
-
-GASLIGHTING.md is not in the default mapping. It's loaded when Ξ≥7. But GASLIGHTING.md defines itself as "Symbol: Κ (KAPPA)" — which conflicts: Κ maps to INVERSION.md by default.
-
-**Impact:** Confusion if LLM sees both GASLIGHTING.md and INVERSION.md for Κ.
-**Fix option:** Rename GASLIGHTING.md to make it clear it's a Ξ-based (not Κ-based) cluster. Or add note: "This cluster is loaded when Ξ≥7, NOT when Κ≥5."
-
 ### ⚠️ B5: INVESTIGATION.md §1 references clusters/MONEY.md, FRAMING.md, etc. directly
 
 But these clusters are only loaded if scores ≥5. INVESTIGATION.md should say "if loaded" not assume they're available.
@@ -298,35 +291,18 @@ But these clusters are only loaded if scores ≥5. INVESTIGATION.md should say "
 **Impact:** None in practice (LLM has them in context if step 0 loaded them).
 **Fix option:** Add "(if loaded)" qualifier.
 
-### ⚠️ B6: TEMPLATE.md says APEX = 15 sections, KERNEL §3 says "INVESTIGATION 15 sections (APEX), 7 sections (MEDIUM)"
-
-But KERNEL §2 GATES says "sections<5 → P14" for APEX. Should be "sections<15 → P14" for APEX.
-
-**Impact:** Gate would pass with 5 sections when it should require 15 for APEX.
-**Fix option:** KERNEL §2: `APEX: chains=0→P9 | "Qui meurt"∅→P12 | sections<15→P14`
-
-### ⚠️ B7: KERNEL §1 step 11 says "IMPACT" but INVESTIGATION.md §5 says "DIALECTICAL MAP" (fusion)
-
-KERNEL has step 12 "IMPACT — Qui gagne/perd/meurt/recule". INVESTIGATION.md compressed version merged IMPACT into §1ter DIALECTICAL MAP. The naming is inconsistent.
-
-**Impact:** Minor confusion. Both mean the same thing.
-**Fix option:** Align naming. Either KERNEL says "DIALECTICAL MAP (with IMPACT)" or INVESTIGATION.md keeps "IMPACT VERDICT" as separate step.
-
 ---
 
 ## §6 RECOMMENDED FIXES
 
 | ID | Fix | Effort | Impact |
 |----|-----|--------|--------|
-| B6 | KERNEL §2: sections<15 for APEX gate | 1 min | HIGH (gate actually blocks) |
-| B4 | GASLIGHTING.md: add note "loaded when Ξ≥7, not Κ≥5" | 1 min | MEDIUM |
 | B3 | INVESTIGATION.md §3: add "See SYMBOLS.md §2" | 1 min | LOW |
-| B7 | Align IMPACT/DIALECTICAL naming | 5 min | LOW |
+| B5 | INVESTIGATION.md: add "(if loaded)" qualifiers | 2 min | LOW |
 | B1 | KERNEL: inline mapping → reference SYMBOLS.md §4 | 2 min | LOW |
 | B2 | KERNEL: EDI compact → reference EPISTEMIC §4 | 2 min | LOW |
-| B5 | INVESTIGATION.md: add "(if loaded)" qualifiers | 2 min | LOW |
 
-**Priority:** B6 > B4 > rest.
+**Resolved:** B4 (GASLIGHTING note added), B6 (sections<15 gate fixed), B7 (IMPACT/DIALECTICAL aligned).
 
 ---
 
