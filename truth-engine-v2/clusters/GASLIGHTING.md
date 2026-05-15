@@ -1,47 +1,31 @@
-# CLUSTER GASLIGHTING — Reality Denial Patterns
+# CLUSTER_GASLIGHTING
 
-## Scoring
-- Symbol: Κ (KAPPA) — but also triggered by Ξ (omission) HIGH rule
-- **Default load:** Κ ≥5 → INVERSION.md (not this file)
-- **HIGH additional load:** Ξ ≥7 → THIS file loaded (from SYMBOLS.md §4 HIGH rules)
-- Activate when Ξ score ≥7 (via HIGH rule) OR Κ score ≥5 (if INVERSION.md insufficient)
+@SCORING: GAS=contradictions×denial×pathologizing | Ξ≥7→loaded (HIGH rule) | ≥5→activate | ≥9→reality_inverted
+@TRIGGERS: ≥5→selective | ≥7→all_concepts+archive_validation+5H | ≥9→full_gaslight_protocol
 
-## Triggers
-IF Κ ≥5 → Cluster active, pattern scanning begins
-IF Κ ≥7 → REALITY VERIFICATION MODE — everything documented, external validation sought, pattern mapping intensive
-IF Κ ≥9 → REALITY UNDER ATTACK — nothing certain, truth completely contested, perception war total
+@CONCEPTS:
+| Concept | Detection | Query_Boost |
+|---------|-----------|-------------|
+| CONTRADICTION | Statement contradicts previous statement | "contradicts", "inconsistent", "changed position" |
+| DENIAL | Observable reality denied | "never happened", "didn't say", "denied" |
+| PATHOLOGIZING | Witness labeled crazy/unstable | "crazy", "unstable", "paranoid", "conspiracy" |
+| MEMORY_ATTACK | "You're remembering wrong" | "wrong memory", "misremembering", "confused" |
+| REALITY_REPLACEMENT | Alternative reality presented as truth | "alternative facts", "different reality" |
+| ISOLATION | Target cut off from validating sources | "isolated", "no support", "alone" |
+| EXHAUSTION | Target worn down by repeated denial | "exhausted", "worn down", "giving up" |
+| OMNIPOTENCE | Gaslighter claims total knowledge | "I know best", "trust me", "I have all info" |
+| DEGRADATION | Target's credibility systematically attacked | "discredited", "attacked", "undermined" |
+| ABSURD | Demands become increasingly unreasonable | "absurd", "unreasonable", "impossible" |
 
-## Queries
-Sub-patterns with `{topic}` amplification:
+@QUERIES:
+`{topic} contradicts inconsistent changed position` | `{topic} never happened didn't say denied` | `{topic} crazy unstable paranoid conspiracy` | `{topic} wrong memory misremembering confused` | `{topic} alternative facts different reality` | `{topic} isolated no support alone` | `{topic} exhausted worn down giving up` | `{topic} I know best trust me all info` | `{topic} discredited attacked undermined` | `{topic} absurd unreasonable impossible demands`
 
-| Sub-pattern | Detection | Query |
-|---|---|---|
-| REALITY_DENIAL | Documented events denied, evidence dismissed, memory questioned | "{topic} evidence exists", "{topic} documented proof", "{topic} witness accounts" |
-| CRAZY_MAKING | Sanity questioned for noticing, "conspiracy theorist" label | "{topic} who else noticed", "{topic} pattern documented", "{topic} rational analysis" |
-| MOVING_GOALPOSTS | Rules shift when convenient, success redefined, achievement invalidated | "{topic} original criteria", "{topic} standard changes", "{topic} goalpost movement" |
-| VICTIM_BLAMING | Target responsible for abuse, "you provoked it", "you're too sensitive" | "{topic} perpetrator action", "{topic} power imbalance", "{topic} pattern abuse" |
-| DARVO_TECHNIQUE | Deny, Attack, Reverse Victim/Offender — victim becomes aggressor | "{topic} who initiated", "{topic} power dynamic", "{topic} original harm" |
-| MINIMIZATION_PATTERN | Harm downplayed, impact dismissed, suffering invalidated | "{topic} actual impact", "{topic} full damage", "{topic} real suffering" |
-| CONFUSION_INDUCTION | Contradictory messages, logic violated, coherence destroyed | "{topic} clear facts", "{topic} logical analysis", "{topic} coherent narrative" |
-| ISOLATION_TACTICS | "Only you think this", consensus manufactured, dissent invisible | "{topic} others agree", "{topic} dissent hidden", "{topic} actual consensus" |
-| HISTORY_ERASURE | "We never said that", previous positions denied, records altered | "{topic} archived statements", "{topic} original position", "{topic} historical record" |
-| EMOTIONAL_INVALIDATION | Feelings wrong by definition, "overreacting" accusation | "{topic} proportionate response", "{topic} legitimate feeling", "{topic} emotion valid" |
+@DEEP_DIVE(≥7):
+H1 ARCHIVE: what was said/done before? document it | H2 CONTRADICTION: what is the contradiction? | H3 PATHOLOGIZING: who is being labeled crazy and why? | H4 ISOLATION: is target being cut off from validation? | H5 REALITY: what is the observable reality being denied?
 
-## Deep Dive Protocol (Κ ≥7)
-### H1: EVIDENCE COLLECTION — "Document everything" → proof archive, timeline
-### H2: PATTERN RECOGNITION — "This happened before" → historical gaslighting, repeated tactics
-### H3: REALITY ANCHOR — "Trust your perception" → external validation, objective measures
-### H4: SUPPORT NETWORK — "You're not alone" → others experiencing same, collective validation
-### H5: POWER ANALYSIS — "Who benefits from confusion?" → gaslighting serves whom, cui bono
+@MAX(≥9):
+Reality inverted → full Biderman 8-technique analysis → archive reconstruction → gaslighting index → cross-reference CLUSTER_INVERSION for technique overlap
 
-## Output Format
-1. Active sub-patterns (which of the 10 detected)
-2. Evidence archive (timeline of denied events)
-3. Query results per sub-pattern
-4. Reality verification score
-5. Connections (links to POWER, CONFIRMATION clusters)
+@OUTPUT: GAS score + contradictions | active concepts + evidence | archive timeline | H1-H5 | gaslighting assessment
 
-## Connections
-- POWER: gaslighting serves power maintenance
-- CONFIRMATION: gaslighting + confirmation = self-reinforcing delusion
-- FRAGMENTATION: isolation enables gaslighting
+@CONNECTIONS: parent:Ξ(HIGH rule) | pairs:[INVERSION,OVERLOAD,POWER] | patterns:[CONTRADICTION,DENIAL,PATHOLOGIZING] | Gate:KERNEL §2

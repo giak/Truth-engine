@@ -1,86 +1,31 @@
 # CLUSTER_BIO
 
-## Scoring
-Parent symbol: ♦ (DIAMOND/BIO)
-- Score range: 0–10
-- Score ≥5: cluster activates
-- Score ≥7: full pharma investigation
-- Score ≥9: medical totalitarianism flag
+@SCORING: Bio=(Hidden_Networks/Public_Positions)×Density+Inbreeding+Demo_Risk | ♦≥5→activate | ≥7→deep_dive | ≥9→elite_reproduction
+@TRIGGERS: ≥5→selective | ≥7→all_concepts+8D_analysis+5H | ≥9→full_biography_archaeology
 
-## Triggers
-- ♦ ≥5: Load all concepts, begin pattern detection
-- ♦ ≥7: Full pharma investigation — all trials scrutinized, money flows traced, suppressed cures sought
-- ♦ ≥9: MEDICAL TOTALITARIANISM — body autonomy eliminated, phara-state fusion, biological control total
+@CONCEPTS:
+| Concept | Detection | Query_Boost |
+|---------|-----------|-------------|
+| ELITE_REPRODUCTION | Same families/schools/clubs reproduce power | "dynasty", "legacy", "old money", "same school" |
+| REVOLVING_DOOR | Person moves between public/private sectors | "former position", "lobbyist", "consultant" |
+| HIDDEN_NETWORKS | Connections not visible in official bio | "classmate", "club member", "family tie" |
+| SOCIAL_CAPITAL | Access through relationships, not merit | "knows the right people", "connections" |
+| MERITOCRACY_ILLUSION | Success attributed to merit, actually network | "self-made", "merit", "hard work" myth |
+| CLASS_CONTINUITY | Power stays within same social class | "aristocracy", "bourgeoisie", "establishment" |
+| CULTURAL_CAPITAL | Taste/education as power marker | "Ivy League", "grande école", "cultural codes" |
+| INFLUENCE_MAPPING | Who influences whom behind the scenes | "advisor", "mentor", "behind the scenes" |
+| BIOGRAPHY_WHITENWASH | Negative aspects removed from public bio | "omitted", "hidden past", "sanitized" |
+| ACCESS_HIDDEN | How person got position not transparent | "how did they get there", "appointment process" |
 
-## Queries
+@QUERIES:
+`{person} dynasty legacy old money same school` | `{person} former position lobbyist consultant` | `{person} classmate club member family tie` | `{person} knows the right people connections` | `{person} self-made merit myth reality` | `{person} aristocracy bourgeoisie establishment` | `{person} Ivy League grande école cultural codes` | `{person} advisor mentor behind the scenes` | `{person} omitted hidden past sanitized` | `{person} how did they get there appointment process`
 
-### DISEASE_MONGERING
-**Pattern**: Creating patients from healthy people
-**Detection**: Normal variation → pathology; thresholds lowered continuously; everyone needs treatment
-**Queries**: "{topic} diagnostic criteria history", "{topic} prevalence increase", "{topic} pharma influence"
+@DEEP_DIVE(≥7):
+H1 8D_ANALYSIS: education, career, family, clubs, boards, donations, media, politics | H2 REVOLVING_DOOR: timeline of public→private moves | H3 HIDDEN_NETWORKS: what connections are invisible? | H4 MERITOCRACY: real path to power vs claimed | H5 BIO_WHITENWASH: what is omitted from official bio?
 
-### CURE_SUPPRESSION
-**Pattern**: Treatment preferred over cure
-**Detection**: Chronic management prioritized; one-time cure avoided; subscription model health
-**Queries**: "{topic} cure research", "{topic} why no cure", "{topic} profit from chronic"
+@MAX(≥9):
+Elite reproduction confirmed → full biography archaeology → 8-dimensional analysis → network mapping → cross-reference CLUSTER_NETWORK for topology
 
-### TRIAL_MANIPULATION
-**Pattern**: Evidence manufactured
-**Detection**: Negative results hidden; data cherry-picked; ghost writing prevalent
-**Queries**: "{topic} all trials registered", "{topic} negative results", "{topic} raw data"
+@OUTPUT: ♦ score + 8D analysis | active concepts + evidence | network map | H1-H5 | elite reproduction assessment
 
-### REGULATORY_CAPTURE_PHARMA
-**Pattern**: Regulators serving industry
-**Detection**: Revolving door FDA-Pharma; fast track approvals; post-market surveillance weak
-**Queries**: "{topic} FDA conflicts", "{topic} approval speed", "{topic} adverse events"
-
-### MEDICALIZATION_EVERYTHING
-**Pattern**: Life itself pathologized
-**Detection**: Sadness → depression; shyness → social anxiety; aging → disease
-**Queries**: "{topic} when became disease", "{topic} DSM changes", "{topic} normal variation"
-
-### VACCINE_CONTROVERSY
-**Pattern**: Polarization prevents analysis
-**Detection**: Binary pro/anti framing; risk-benefit obscured; scientific debate forbidden
-**Queries**: "{topic} actual data", "{topic} risk stratification", "{topic} adverse events"
-
-### NATURAL_CRIMINALIZED
-**Pattern**: Plants illegal, synthetics mandatory
-**Detection**: Traditional medicine attacked; patents over nature; self-care discouraged
-**Queries**: "{topic} traditional use", "{topic} why illegal", "{topic} pharma alternative"
-
-### PANDEMIC_PROFITS
-**Pattern**: Crisis enables extraction
-**Detection**: Emergency removes safeguards; liability waived; profits guaranteed
-**Queries**: "{topic} profit during pandemic", "{topic} liability protection", "{topic} public funding"
-
-### BIOWEAPON_POTENTIAL
-**Pattern**: Dual-use research risks
-**Detection**: Gain-of-function research; military-medical complex; accidents or releases
-**Queries**: "{topic} lab safety record", "{topic} dual use", "{topic} military involvement"
-
-### HEALTH_DATA_HARVEST
-**Pattern**: Medical surveillance capitalism
-**Detection**: Health data monetized; predictive discrimination; insurance using genetics
-**Queries**: "{topic} data sold to whom", "{topic} discrimination cases", "{topic} privacy breaches"
-
-## Deep Dive Protocol
-When score ≥7, execute all 5 hermeneutic expansions:
-
-1. **FOLLOW THE PATENTS** — "Who owns the cures?" → Map patent trails, expose profit over health
-2. **TRIAL ARCHAEOLOGY** — "What studies were buried?" → Hunt negative results, recover full evidence
-3. **NATURAL ALTERNATIVE** — "What works without pharma?" → Recover traditional knowledge, suppressed remedies
-4. **BODY SOVEREIGNTY** — "Who controls your biology?" → Audit medical autonomy threats
-5. **HEALTH COMMONS** — "Health as human right?" → Map public health gutted, commons enclosed
-
-## Output Format
-- Concept matches with detection evidence per pattern
-- Query amplification results per pattern
-- Hermeneutic expansion findings (H1–H5)
-- Trigger escalation level (5/7/9)
-- Cross-cluster activation report
-
-## Connections
-- Symbol: ♦ (DIAMOND)
-- Cross-links: CLUSTER_FRAMING (vaccine binary framing), CLUSTER_OVERLOAD (flood technique on health data), CLUSTER_SPECTACLE (pandemic performance)
-- Patterns: DISEASE_MONGERING, CURE_SUPPRESSION, TRIAL_MANIPULATION, REGULATORY_CAPTURE_PHARMA, MEDICALIZATION_EVERYTHING, VACCINE_CONTROVERSY, NATURAL_CRIMINALIZED, PANDEMIC_PROFITS, BIOWEAPON_POTENTIAL, HEALTH_DATA_HARVEST
+@CONNECTIONS: parent:♦ | pairs:[NETWORK,POWER,MONEY] | patterns:[ELITE_REPRODUCTION,REVOLVING_DOOR,HIDDEN_NETWORKS] | Gate:KERNEL §2

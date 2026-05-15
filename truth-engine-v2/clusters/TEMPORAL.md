@@ -1,110 +1,31 @@
 # CLUSTER_TEMPORAL
 
-## Scoring
+@SCORING: P_orch=sync×0.30+vocab×0.25+cui_bono×0.20+hist×0.15+suppress×0.10 | ⏰≥5→activate | ≥7→deep_dive | ≥9→orchestration_confirmed
+@TRIGGERS: ≥5→selective | ≥7→all_concepts+P_random_calc+5H | ≥9→orchestration_proof+timeline_reconstruction
 
-**Temporal_Factor** = weighted sum of time manipulation signals:
+@CONCEPTS:
+| Concept | Detection | Query_Boost |
+|---------|-----------|-------------|
+| TIMING_SYNC | Multiple events <12h apart, coordinated announcements | "simultaneous announcement", "coordinated release" |
+| VOCAB_UNIFORM | Identical terminology across outlets, shared talking points | "talking points", "language guide", "messaging" |
+| CUI_BONO_TIMING | Beneficiaries prepared before event, positions pre-positioned | "prepared statement", "pre-positioned" |
+| HISTORICAL_PATTERN | Same timing pattern as previous operations | "similar timing", "same pattern", "repeat" |
+| SUPPRESSION_WINDOW | Counter-evidence disappears before/during event | "removed article", "deleted tweet", "retracted" |
+| ARTIFICIAL_URGENCY | "Immediate action required", manufactured deadline | "urgent", "time-sensitive", "act now" |
+| DISTRACTION_TIMING | Unrelated scandal released during critical moment | "distraction", "news dump", "Friday release" |
+| ANNIVERSARY_MANIPULATION | Date chosen for emotional resonance, not factual | "anniversary", "symbolic date", "commemoration" |
+| SILENCE_PERIOD | Strategic silence before/after key events | "no comment", "silent period", "media blackout" |
+| NARRATIVE_SHIFT | Sudden topic change, agenda pivot | "suddenly", "now focusing on", "new priority" |
 
-**Time manipulation weight**:
-- MEMORY_HOLE: +1.5
-- HISTORICAL_REVISION: +1.5
-- CRISIS_CYCLING: +1.5
-- FUTURE_FORECLOSURE: +1.5
-- ETERNAL_PRESENT: +1.0
-- TEMPORAL_DISTORTION: +1.0
-- GENERATIONAL_GOLDFISH: +1.0
-- NOSTALGIA_WEAPONIZATION: +1.0
-- PROPHECY_MANUFACTURING: +1.0
-- TEMPORAL_ANCHORING: +1.0
+@QUERIES:
+`{topic} simultaneous announcement coordinated` | `{topic} talking points messaging guide` | `{topic} prepared statement pre-positioned` | `{topic} similar timing same pattern repeat` | `{topic} removed article deleted retracted` | `{topic} urgent time-sensitive manufactured deadline` | `{topic} distraction news dump Friday release` | `{topic} anniversary symbolic date commemoration` | `{topic} silent period media blackout` | `{topic} suddenly agenda pivot topic change`
 
-**Vertical stratification (↕) component** — asymétrie de pouvoir verticale:
-- Decision taken "for" population without consultation → +3
-- Statistical gap top/bottom not mentioned → +3
-- Elitist vocabulary assumed as universal → +2
-- Asymmetric legal protections by rank → +2
+@DEEP_DIVE(≥7):
+H1 TEMPORAL MAP: full timeline, who spoke when, gaps? | H2 P_RANDOM: probability of coincidence? | H3 CUI BONO TIMING: who was ready before event? | H4 SUPPRESSION TRACE: what disappeared and when? | H5 DISTRACTION ANALYSIS: what else happened simultaneously?
 
-**⏰ Score range**: 0–10
-- ⏰ ≥ 5 → Cluster activated
-- ⏰ ≥ 7 → Full timeline audit, memory holes mapped, cycles identified
-- ⏰ ≥ 9 → Reality history contested, past fluid, future controlled, present eternal prison
+@MAX(≥9):
+Orchestration confirmed → full timeline reconstruction → P_random calculation → source coordination evidence → narrative synchronization proof → impact on public perception
 
-## Triggers
+@OUTPUT: ⏰ score + P_orch | active concepts + evidence | P_random | timeline map | H1-H5 | orchestration assessment
 
-| Threshold | Action |
-|-----------|--------|
-| ⏰ ≥ 5 | Cluster activated, selective concept activation; if ↕ ≥ 5 → Top/Bottom analysis mandatory |
-| ⏰ ≥ 7 | Full timeline audit, memory holes mapped, cycles identified, patterns exposed |
-| ⏰ ≥ 9 | Reality history contested, past completely fluid, future totally controlled |
-
-**↕ Gate**: If ↕ ≥ 5, analyse strata_verticale obligatoire — queries: `"{topic} inégalité haut bas"`, `"{topic} qui décide qui subit"`, `"{topic} asymétrie sociale"`
-
-## Concepts
-
-| Concept | Detection Signals | Query Boost |
-|---------|-------------------|-------------|
-| MEMORY_HOLE | Previous coverage deleted, archives scrubbed, "never happened" | "{topic} wayback machine", "archived version", "original coverage" |
-| HISTORICAL_REVISION | Heroes become villains, facts change retroactively, context eliminated | "{topic} contemporary accounts", "original documents", "historical record" |
-| ETERNAL_PRESENT | Historical context absent, future planning impossible, only now exists | "{topic} historical pattern", "long-term trend", "50 year view" |
-| CRISIS_CYCLING | Crisis every 3–6 months, previous crisis forgotten, solution never implemented | "{topic} crisis history", "previous emergencies", "solutions proposed" |
-| FUTURE_FORECLOSURE | TINA narrative, future predetermined, change impossible | "{topic} historical alternatives", "different paths", "other countries" |
-| TEMPORAL_DISTORTION | Urgent when convenient, slow when necessary, time elasticity | "{topic} actual timeline", "deadline reality", "time manipulation" |
-| GENERATIONAL_GOLDFISH | Same scam new generation, lessons unlearned, history repeats | "{topic} happened before when", "previous generation", "historical parallel" |
-| NOSTALGIA_WEAPONIZATION | Past idealized falsely, "good old days" myth, progress reversed | "{topic} actual conditions then", "historical reality", "data from period" |
-| PROPHECY_MANUFACTURING | Prediction creates reality, alternatives not modeled, inevitable narrative | "{topic} alternative scenarios", "assumptions challenged", "different models" |
-| TEMPORAL_ANCHORING | Arbitrary start dates, cherry-picked baselines, convenient comparisons | "{topic} different baseline", "longer timeframe", "proper context" |
-
-## Queries
-
-When ⏰ ≥ 5:
-- `{topic} wayback machine archived version original coverage`
-- `{topic} contemporary accounts original documents historical record`
-- `{topic} historical pattern long-term trend 50 year view`
-- `{topic} crisis history previous emergencies solutions proposed`
-- `{topic} historical alternatives different paths other countries`
-- `{topic} actual timeline deadline reality time manipulation`
-- `{topic} happened before when previous generation historical parallel`
-- `{topic} actual conditions then historical reality data from period`
-- `{topic} alternative scenarios assumptions challenged different models`
-- `{topic} different baseline longer timeframe proper context`
-- If ↕ ≥ 5: `{topic} inégalité haut bas`, `qui décide qui subit`, `asymétrie sociale`
-
-## Deep Dive Protocol (⏰ ≥ 7)
-
-1. Activate ALL 10 concepts + vertical stratification if ↕ ≥ 5
-2. Full timeline reconstruction
-3. Memory recovery from archives
-4. Hypotheses:
-   - **H1 TIMELINE RECONSTRUCTION**: What really happened when? Build accurate chronology, identify distortions
-   - **H2 PATTERN ARCHAEOLOGY**: Has this happened before? Find historical parallels, learn from cycles
-   - **H3 MEMORY RECOVERY**: What's been memory-holed? Recover deleted information, restore context
-   - **H4 FUTURE LIBERATION**: What alternatives exist? Challenge determinism, open possibilities
-   - **H5 RHYTHM ANALYSIS**: What's the manipulation tempo? Crisis frequency, attention cycles
-
-## REALITY HISTORY Protocol (⏰ ≥ 9)
-
-- Past completely fluid
-- Future totally controlled
-- Present eternal prison
-- Require cross-referencing with CLUSTER_ICEBERG for temporal omission patterns
-- Require cross-referencing with CLUSTER_WAR for crisis cycling in conflict contexts
-- Require cross-referencing with CLUSTER_NETWORK for elite circulation across time
-
-## Output Format
-
-- ⏰ score with contributing signals + ↕ vertical stratification score
-- Active temporal concepts with evidence
-- Reconstructed timeline vs official timeline
-- Memory hole inventory
-- Crisis cycle pattern map
-- Future foreclosure assessment
-- Vertical power asymmetry analysis (if ↕ ≥ 5)
-- All 5 hypothesis results
-
-## Connections
-
-- Parent symbol: **⏰ (CLOCK/TEMPORAL)** + **↕ (UPDOWN)**
-- Pairs with **CLUSTER_ICEBERG** → timeframe cherry-picking is temporal + iceberg overlap
-- Pairs with **CLUSTER_WAR** → crisis cycling + permanent war = temporal-war overlap
-- Pairs with **CLUSTER_NETWORK** → elite circulation shows temporal persistence of networks
-- Pairs with **CLUSTER_MONEY** → financialization reveals temporal trend of asset commodification
-- Related patterns: `MEMORY_HOLE`, `HISTORICAL_REVISION`, `CRISIS_CYCLING`, `FUTURE_FORECLOSURE`
-- Gate: KERNEL.md §2 — if ⏰ ≥ 5, TEMPORAL analysis mandatory; if ↕ ≥ 5, Top/Bottom analysis mandatory
+@CONNECTIONS: parent:⏰ | pairs:[ICEBERG,WAR,NETWORK] | patterns:[TIMING_SYNC,VOCAB_UNIFORM,SUPPRESSION_WINDOW] | Gate:KERNEL §2

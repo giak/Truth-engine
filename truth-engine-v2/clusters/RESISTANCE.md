@@ -1,45 +1,31 @@
-# CLUSTER RESISTANCE — Opposition & Counter-Power
+# CLUSTER_RESISTANCE
 
-## Scoring
-- Symbol: ρ (RHO)
-- Activate when ρ score ≥5
+@SCORING: ρ=counter_action_count×autonomy×awareness | ρ≥5→activate | ≥7→deep_dive | ≥9→resistance_movement
+@TRIGGERS: ≥5→selective | ≥7→all_concepts+resistance_mapping+5H | ≥9→full_counter_strategy
 
-## Triggers
-IF ρ ≥5 → Cluster active, opposition mapping begins
-IF ρ ≥7 → OPPOSITION ANALYSIS — all resistance mapped, effectiveness evaluated, cooption exposed
-IF ρ ≥9 → REVOLUTIONARY CONDITIONS — system delegitimized, alternatives emerging, change imminent
+@CONCEPTS:
+| Concept | Detection | Query_Boost |
+|---------|-----------|-------------|
+| COUNTER_MANIPULATION | Active resistance to manipulation | "resists", "pushes back", "counters" |
+| COGNITIVE_SOVEREIGNTY | Independent thinking, source diversity | "independent", "critical thinking", "diverse sources" |
+| MENTAL_DISOBEDIENCE | Refusal to accept official narrative | "refuses", "rejects", "dissident" |
+| FACT_CHECK_INDEPENDENT | Non-institutional verification | "independent fact check", "citizen verification" |
+| ALTERNATIVE_MEDIA | Non-mainstream information sources | "alternative media", "independent journalist" |
+| WHISTLEBLOWER | Insider reveals hidden truth | "whistleblower", "leaker", "insider reveals" |
+| CIVIL_DISOBEDIENCE | Non-compliance with unjust systems | "civil disobedience", "non-compliance", "boycott" |
+| COUNTER_NARRATIVE | Opposing narrative with evidence | "counter-narrative", "opposing view", "alternative" |
+| SOLIDARITY_NETWORK | Mutual support against manipulation | "solidarity", "mutual aid", "support network" |
+| EPISTEMIC_RESISTANCE | Questioning knowledge production itself | "who produces knowledge", "epistemic resistance" |
 
-## Queries
-Sub-patterns with `{topic}` amplification:
+@QUERIES:
+`{topic} resists pushes back counters manipulation` | `{topic} independent critical thinking diverse sources` | `{topic} refuses rejects dissident narrative` | `{topic} independent fact check citizen verification` | `{topic} alternative media independent journalist` | `{topic} whistleblower leaker insider reveals` | `{topic} civil disobedience non-compliance boycott` | `{topic} counter-narrative opposing view alternative` | `{topic} solidarity mutual aid support network` | `{topic} who produces knowledge epistemic resistance`
 
-| Sub-pattern | Detection | Query |
-|---|---|---|
-| DISSENT_CRIMINALIZATION | Protest→terrorism, whistleblowing→treason, journalism→espionage | "{topic} arrests protesters", "{topic} journalist prosecution", "{topic} dissent crackdown" |
-| CONTROLLED_OPPOSITION | Leaders compromised, demands limited, real change blocked | "{topic} funding sources", "{topic} leader history", "{topic} actual achievements" |
-| REVOLUTION_COOPTION | Revolutionary symbols commercialized, movements defanged, leaders bought off | "{topic} original demands", "{topic} what changed", "{topic} who coopted" |
-| DIVIDE_CONQUER_RESISTANCE | Internal conflicts amplified, sectarianism encouraged, unity destroyed | "{topic} movement splits", "{topic} internal conflict", "{topic} who benefits" |
-| SURVEILLANCE_RESISTANCE | Counter-surveillance deployed, privacy tools spreading, tracking reversed | "{topic} surveillance exposed", "{topic} privacy tools", "{topic} watching watchers" |
-| PARALLEL_INSTITUTIONS | Alternative systems built, outside official channels, system bypassed | "{topic} alternative systems", "{topic} parallel economy", "{topic} new institutions" |
-| SABOTAGE_PATTERNS | Infrastructure targeted, efficiency destroyed, friction introduced | "{topic} disruption methods", "{topic} sabotage history", "{topic} system vulnerabilities" |
-| CULTURAL_RESISTANCE | Counter-narratives spreading, symbols reclaimed, stories rewritten | "{topic} cultural resistance", "{topic} counter narrative", "{topic} symbol reclaimed" |
-| LEAK_INSURGENCY | Documents leaked systematically, transparency forced, secrets exposed | "{topic} leaked documents", "{topic} whistleblower", "{topic} information liberation" |
-| SOLIDARITY_NETWORKS | Support structures built, resources shared, resilience created | "{topic} mutual aid", "{topic} solidarity network", "{topic} community resilience" |
+@DEEP_DIVE(≥7):
+H1 COUNTER: who is actively resisting? | H2 SOVEREIGNTY: what independent thinking exists? | H3 WHISTLEBLOWER: what insiders have spoken? | H4 COUNTER_NARRATIVE: what is the strongest opposing narrative? | H5 SOLIDARITY: what support networks exist?
 
-## Deep Dive Protocol (ρ ≥7)
-### H1: RESISTANCE MAPPING — "Where is real opposition?" → genuine vs controlled, effective tactics
-### H2: VULNERABILITY SCANNING — "Where is system weak?" → pressure points, leverage identified
-### H3: ALLY IDENTIFICATION — "Who really fights?" → true allies found, fake friends exposed
-### H4: TACTIC EFFECTIVENESS — "What actually works?" → success patterns, failure modes avoided
-### H5: REPRESSION PREDICTION — "How will system respond?" → crackdown anticipated, countermeasures prepared
+@MAX(≥9):
+Resistance movement → full counter-strategy mapping → solidarity network identification → cross-reference CLUSTER_WAR for defense effectiveness
 
-## Output Format
-1. Active resistance sub-patterns (which of the 10 detected)
-2. Resistance vs controlled opposition inventory
-3. Query results per sub-pattern
-4. Vulnerability assessment
-5. Connections (links to POWER, FRAGMENTATION clusters)
+@OUTPUT: ρ score + resistance actions | active concepts + evidence | counter-narrative strength | H1-H5 | resistance movement assessment
 
-## Connections
-- POWER: resistance is power's mirror — map both simultaneously
-- FRAGMENTATION: divide & conquer suppresses resistance
-- CONFIRMATION: controlled opposition maintains confirmation bubble
+@CONNECTIONS: parent:ρ | pairs:[WAR,NETWORK,INVERSION] | patterns:[COUNTER_MANIPULATION,COGNITIVE_SOVEREIGNTY,WHISTLEBLOWER] | Gate:KERNEL §2

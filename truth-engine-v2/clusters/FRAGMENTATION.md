@@ -1,45 +1,31 @@
-# CLUSTER FRAGMENTATION — Division & Conquest Patterns
+# CLUSTER_FRAGMENTATION
 
-## Scoring
-- Symbol: Σ (SIGMA)
-- Activate when Σ score ≥5
+@SCORING: ⫸=convergence_score×index_count | ⫸≥5→activate | ≥7→deep_dive | ≥9→faisceau_constitué
+@TRIGGERS: ≥5→selective | ≥7→all_concepts+convergence_analysis+5H | ≥9→full_faisceau
 
-## Triggers
-IF Σ ≥5 → Cluster active, division mapping begins
-IF Σ ≥7 → DIVISION ANALYSIS — all splits mapped, unity points identified, reconnection paths
-IF Σ ≥9 → COMPLETE ATOMIZATION — no solidarity possible, everyone isolated, collective action dead
+@CONCEPTS:
+| Concept | Detection | Query_Boost |
+|---------|-----------|-------------|
+| INDICES_CONVERGENCE | Multiple independent indices point same direction | "converging evidence", "multiple indicators" |
+| TEMPORAL_MAPPING | Events align in suspicious pattern | "timeline", "sequence", "pattern" |
+| ACTOR_OVERLAP | Same actors appear across domains | "same person", "overlapping", "connected" |
+| FINANCIAL_TRACE | Money flows connect seemingly unrelated events | "funding source", "financial link" |
+| NARRATIVE_SYNC | Narratives align across unrelated outlets | "same story", "identical framing", "sync" |
+| INSTITUTIONAL_PATTERN | Same institutional behavior across contexts | "pattern", "systematic", "consistent" |
+| GEOGRAPHIC_SPREAD | Same phenomenon in multiple locations | "multiple countries", "widespread", "global" |
+| ESCALATION_PATTERN | Gradual intensification across domains | "escalation", "increasing", "growing" |
+| SUPPRESSION_SYNC | Same topics suppressed simultaneously | "censored together", "simultaneous suppression" |
+| BENEFICIARY_ALIGNMENT | Same beneficiaries across events | "same beneficiary", "who profits" |
 
-## Queries
-Sub-patterns with `{topic}` amplification:
+@QUERIES:
+`{topic} converging evidence multiple indicators` | `{topic} timeline sequence pattern alignment` | `{topic} same person overlapping connected actors` | `{topic} funding source financial link connection` | `{topic} same story identical framing sync` | `{topic} pattern systematic institutional behavior` | `{topic} multiple countries widespread global` | `{topic} escalation increasing growing pattern` | `{topic} censored together simultaneous suppression` | `{topic} same beneficiary who profits alignment`
 
-| Sub-pattern | Detection | Query |
-|---|---|---|
-| IDENTITY_WARFARE | Identity over class, horizontal conflict encouraged, vertical solidarity blocked | "{topic} common interest", "{topic} who benefits from division", "{topic} unity potential" |
-| ATOMIZATION_SOCIAL | Community structures destroyed, collective action impossible, everyone alone | "{topic} community destruction", "{topic} isolation increase", "{topic} collective blocked" |
-| FALSE_BINARY | With us or against us, middle ground eliminated, nuance forbidden | "{topic} third position", "{topic} spectrum reality", "{topic} false dichotomy" |
-| GENERATIONAL_WARFARE | Boomers vs Millennials, intergenerational blame, timeline solidarity broken | "{topic} common challenges", "{topic} shared interests", "{topic} age division manufactured" |
-| GEOGRAPHIC_SPLITTING | Urban vs rural, north vs south, center vs periphery | "{topic} regional cooperation", "{topic} shared problems", "{topic} division benefits whom" |
-| PROFESSIONAL_SILOS | Interdisciplinary blocked, expertise isolated, holistic view impossible | "{topic} cross-sector view", "{topic} interconnections", "{topic} silo breaking" |
-| LANGUAGE_BARRIERS | Jargon proliferation, in-group languages, understanding blocked | "{topic} plain language", "{topic} translation needed", "{topic} communication barriers" |
-| TIMELINE_FRAGMENTATION | Multiple crises simultaneous, focus impossible, priority unclear | "{topic} priority ranking", "{topic} attention management", "{topic} crisis coordination" |
-| COALITION_DESTRUCTION | Wedge issues deployed, common ground eroded, partnership sabotaged | "{topic} coalition potential", "{topic} wedge issue artificial", "{topic} common ground" |
-| COMPETITIVE_INDIVIDUALISM | Zero-sum thinking, collaboration weakness, competition only way | "{topic} cooperation benefits", "{topic} mutual aid", "{topic} positive sum" |
+@DEEP_DIVE(≥7):
+H1 CONVERGENCE: how many independent indices align? | H2 TEMPORAL: do events align in time? | H3 ACTORS: who appears across domains? | H4 FINANCIAL: what money connects the dots? | H5 BENEFICIARY: who benefits from the convergence?
 
-## Deep Dive Protocol (Σ ≥7)
-### H1: UNITY POINTS — "Where can connection happen?" → common ground, bridge building potential
-### H2: DIVISION BENEFICIARIES — "Who gains from splits?" → cui bono, unity threatens whom
-### H3: COMMUNICATION REPAIR — "How to reconnect?" → translation mechanisms, understanding restored
-### H4: COALITION BUILDING — "What alliances possible?" → unexpected allies, strategic unity
-### H5: SILO BREAKING — "How to see whole?" → cross connections, systemic view
+@MAX(≥9):
+Faisceau constitué → full convergence analysis → multi-domain mapping → cross-reference CLUSTER_MONEY + CLUSTER_TEMPORAL for financial and temporal links
 
-## Output Format
-1. Active fragmentation sub-patterns (which of the 10 detected)
-2. Division map (which groups pitted against whom)
-3. Query results per sub-pattern
-4. Unity potential assessment
-5. Connections (links to RESISTANCE, CONFIRMATION clusters)
+@OUTPUT: ⫸ score + convergence level | active concepts + evidence | convergence map | H1-H5 | faisceau assessment
 
-## Connections
-- RESISTANCE: fragmentation is how resistance is suppressed
-- CONFIRMATION: echo chambers are fragmentation engines
-- POWER: division serves power — always trace the beneficiary
+@CONNECTIONS: parent:⫸ | pairs:[MONEY,TEMPORAL,NETWORK] | patterns:[INDICES_CONVERGENCE,TEMPORAL_MAPPING,FINANCIAL_TRACE] | Gate:KERNEL §2

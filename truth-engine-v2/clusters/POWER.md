@@ -1,56 +1,31 @@
-# CLUSTER POWER — Archaeology of Control
+# CLUSTER_POWER
 
-## Scoring
-- Symbol: ↕ (Vertical) — top_bottom_asymmetry, class_division, elite_closure
-- Threshold: ↕≥5 → LOAD | ↕≥7 → DEEP DIVE | ↕≥9 → CRITICAL
-- **Formula (from PATTERNS.md):** `Power_Archaeology = ↕ × (Elite_Density + Inbreeding + Demo_Risk) / Accountability`
-- **Compound:** `capture_index = (↕ + € + 🌐) / 30` — ≥0.70 → TOTAL SYSTEM CAPTURE
-- Classify: 0.0-0.3 → + | 0.4-0.6 → ++ | ≥0.7 → +++
+@SCORING: ↕=asymmetry×closure×dependency | ↕≥5→activate | ≥7→deep_dive | ≥9→class_analysis
+@TRIGGERS: ≥5→selective | ≥7→all_concepts+vertical_mapping+5H | ≥9→full_class_archaeology
 
-## Triggers
-IF power analysis required → FULL ARCHAEOLOGY — all power mapped, hidden structures revealed
-IF POWER + € + 🌐 ≥21 → TOTAL SYSTEM CAPTURE — all institutions controlled, democracy simulation only, change impossible within system
+@CONCEPTS:
+| Concept | Detection | Query_Boost |
+|---------|-----------|-------------|
+| TOP_BOTTOM_ASYMMETRY | Rules differ for elites vs ordinary people | "double standard", "one rule for them" |
+| CLASS_DIVISION | Wealth/income/power gap widening | "inequality", "wealth gap", "class divide" |
+| VERTICAL_SOLIDARITY | Elites protect each other across borders | "elite solidarity", "class protection" |
+| ELITE_CLOSURE | Power positions inaccessible to outsiders | "closed circle", "inner sanctum", "old guard" |
+| DEPENDENCY_CREATION | Bottom dependent on top for survival | "dependent", "no alternative", "trapped" |
+| POWER_DISTANCE | Social mobility blocked, hierarchy fixed | "no mobility", "fixed hierarchy", "caste" |
+| ACCOUNTABILITY_GAP | Elites face no consequences | "no consequences", "above the law", "untouchable" |
+| RESOURCE_HOARDING | Wealth concentrated at top, scarcity at bottom | "hoarding", "concentration", "scarcity" |
+| NARRATIVE_CONTROL_TOP | Top defines what bottom thinks | "top-down narrative", "manufactured consent" |
+| VERTICAL_VIOLENCE | Structural violence from top to bottom | "structural violence", "systemic harm" |
 
-## Queries
-Sub-patterns with `{topic}` amplification:
+@QUERIES:
+`{topic} double standard one rule for them` | `{topic} inequality wealth gap class divide` | `{topic} elite solidarity class protection` | `{topic} closed circle inner sanctum old guard` | `{topic} dependent no alternative trapped` | `{topic} no mobility fixed hierarchy caste` | `{topic} no consequences above the law untouchable` | `{topic} hoarding concentration scarcity` | `{topic} top-down narrative manufactured consent` | `{topic} structural violence systemic harm`
 
-| Sub-pattern | Detection | Query |
-|---|---|---|
-| DEEP_STATE_STRUCTURE | Policy continuity despite changes, unelected influence, shadow governance | "{topic} permanent bureaucracy", "{topic} policy continuity", "{topic} unelected power" |
-| OLIGARCHY_HIDDEN | Wealth concentration extreme, decisions predetermined, elections change nothing | "{topic} wealth concentration", "{topic} oligarch influence", "{topic} decision predetermined" |
-| TECHNOCRACY_RISE | "Follow the science" absolutism, democratic input bypassed, technical solutions only | "{topic} expert decision", "{topic} democratic bypass", "{topic} technocrat control" |
-| CORPORATE_SOVEREIGNTY | Trade agreements supreme, corporate courts rule, nations sued for laws | "{topic} ISDS cases", "{topic} corporate sovereignty", "{topic} trade over democracy" |
-| SURVEILLANCE_ARCHITECTURE | Everything monitored, behavior modified, privacy extinct | "{topic} surveillance extent", "{topic} behavior modification", "{topic} privacy erosion" |
-| EMERGENCY_PERMANENT | Crisis powers normalized, emergency never ends, rights suspended indefinitely | "{topic} emergency duration", "{topic} powers retained", "{topic} rights restoration" |
-| SOFT_POWER_EMPIRE | Values exported, consent manufactured, hegemony via culture | "{topic} cultural influence", "{topic} soft power", "{topic} narrative control" |
-| ALGORITHMIC_GOVERNANCE | Algorithms decide fate, no human override, black box rules | "{topic} algorithm decision", "{topic} human override", "{topic} black box" |
-| FEUDALISM_DIGITAL | Rent extraction digital, platform monopolies, users own nothing | "{topic} platform monopoly", "{topic} digital feudalism", "{topic} user ownership" |
-| SUCCESSION_PLANNING | Elite reproduction, meritocracy myth, inheritance disguised | "{topic} elite education", "{topic} succession pattern", "{topic} social mobility" |
+@DEEP_DIVE(≥7):
+H1 ASYMMETRY: what rules apply to elites vs ordinary? | H2 CLASS: what is the real wealth/power distribution? | H3 CLOSURE: how is access to power blocked? | H4 DEPENDENCY: what creates bottom→top dependency? | H5 ACCOUNTABILITY: who faces consequences and who doesn't?
 
-## Deep Dive Protocol
-### H1: POWER MAPPING — "Who actually decides?" → real decision makers, behind-throne actors
-### H2: FLOW TRACING — "How does power flow?" → command chains, influence networks
-### H3: HISTORICAL ARCHAEOLOGY — "How did they get power?" → origin stories, accumulation methods
-### H4: VULNERABILITY ASSESSMENT — "Where is power weak?" → succession crises, legitimacy gaps
-### H5: RESISTANCE POSSIBILITIES — "How can power shift?" → change mechanisms, revolutionary potential
+@MAX(≥9):
+Class analysis → full power archaeology → resource flow mapping → accountability gap documentation → cross-reference CLUSTER_NETWORK for elite mapping
 
-## Output Format
-1. Active power sub-patterns
-2. Power structure map (who decides, who benefits, who pays, who suffers, who resists)
-3. Query results per sub-pattern
-4. Meta-pattern detection (compound cluster activation)
-5. Ultimate Questions answered: CUI BONO, AGENCY, COST, VICTIMS, OPPOSITION
+@OUTPUT: ↕ score + asymmetry metrics | active concepts + evidence | class distribution | H1-H5 | power structure assessment
 
-## Connections
-### Meta-Patterns (compound activation)
-```
-€ + 🌐 + ⚔ + POWER          = MILITARY-INDUSTRIAL-FINANCIAL COMPLEX
-♦ + POWER + Κ               = MEDICAL TOTALITARIANISM
-Φ + Ψ + POWER               = ATTENTION ECONOMY DICTATORSHIP
-Ω + ⏰ + POWER               = REALITY CONTROL ACHIEVED
-```
-
-- GASLIGHTING: gaslighting serves power maintenance
-- CONFIRMATION: bias exploitation reinforces control
-- RESISTANCE: power's mirror — map both simultaneously
-- FRAGMENTATION: division is how power stays unchallenged
+@CONNECTIONS: parent:↕ | pairs:[NETWORK,MONEY,BIO] | patterns:[TOP_BOTTOM_ASYMMETRY,ELITE_CLOSURE,ACCOUNTABILITY_GAP] | Gate:KERNEL §2

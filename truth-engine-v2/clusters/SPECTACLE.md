@@ -1,75 +1,31 @@
 # CLUSTER_SPECTACLE
 
-## Scoring
-Parent symbol: Φ (PHI/SPECTACLE)
-- Score range: 0–10
-- Score ≥5: cluster activates
-- Score ≥7: ignore all drama, focus on structure
-- Score ≥9: total theater mode flag
+@SCORING: Φ=attention_capture×emotion_intensity×substance_ratio | Φ≥5→activate | ≥7→deep_dive | ≥9→spectacle_dominant
+@TRIGGERS: ≥5→selective | ≥7→all_concepts+substance_audit+5H | ≥9→full_spectacle_deconstruction
 
-## Triggers
-- Φ ≥5: Load all concepts, begin pattern detection
-- Φ ≥7: IGNORE ALL DRAMA — focus on structure only, track what's hidden, follow money not narrative
-- Φ ≥9: TOTAL THEATER MODE — everything is performance, reality completely obscured, seek leaked/hidden truth only
+@CONCEPTS:
+| Concept | Detection | Query_Boost |
+|---------|-----------|-------------|
+| SPECTACULARIZATION | Event amplified beyond its substance | "media circus", "spectacle", "frenzy" |
+| INFOTAINMENT | News as entertainment, substance diluted | "infotainment", "showbiz politics", "drama" |
+| VIRTUE_SIGNALING | Moral posturing without action | "virtue signal", "performative", "empty gesture" |
+| EMOTION_HARVESTING | Fear/anger/outrage monetized | "rage bait", "clickbait", "engagement farming" |
+| DISTRACTION_SPECTACLE | Big story hides bigger story | "distraction", "smokescreen", "sideshow" |
+| PERSONALITY_CULT | Focus on person, not issue | "personality cult", "hero worship", "savior" |
+| VISUAL_MANIPULATION | Images chosen for emotional impact | "staged photo", "emotional image", "symbolic" |
+| NARRATIVE_SIMPLIFICATION | Complex issue reduced to slogan | "simplified", "slogan", "soundbite" |
+| CELEBRITY_ACTIVISM | Famous person speaks, drowns experts | "celebrity says", "star supports", "famous" |
+| REALITY_REPLACEMENT | Spectacle becomes the reality | "media reality", "constructed reality", "simulacrum" |
 
-## Queries
+@QUERIES:
+`{topic} media circus spectacle frenzy` | `{topic} infotainment showbiz politics drama` | `{topic} virtue signal performative empty gesture` | `{topic} rage bait clickbait engagement farming` | `{topic} distraction smokescreen sideshow` | `{topic} personality cult hero worship savior` | `{topic} staged photo emotional image symbolic` | `{topic} simplified slogan soundbite` | `{topic} celebrity says star supports famous` | `{topic} media reality constructed simulacrum`
 
-### CIRCUS_POLITICS
-Politics as entertainment: personality over policy, drama over substance
-→ "{topic} actual policy", "{topic} voting record", "{topic} behind drama"
+@DEEP_DIVE(≥7):
+H1 SUBSTANCE: what is the real story behind the spectacle? | H2 EMOTION: what emotions are being harvested? | H3 DISTRACTION: what bigger story is hidden? | H4 SIMPLIFICATION: what complexity is erased? | H5 REALITY: has spectacle replaced the actual event?
 
-### CELEBRITY_SHIELD
-Stars hide structures: celebrity news dominates, individual focus not system
-→ "{topic} systemic issue", "{topic} structural problem", "{topic} beyond personality"
+@MAX(≥9):
+Spectacle dominant → full deconstruction → substance vs form ratio → distraction analysis → cross-reference CLUSTER_ICEBERG for what's hidden
 
-### SPORTS_WASHING
-Games laundering reputation: major events hosted by regimes, national pride weaponized
-→ "{topic} human rights record", "{topic} behind games", "{topic} cost to citizens"
+@OUTPUT: Φ score + substance ratio | active concepts + evidence | emotion metrics | H1-H5 | spectacle dominance assessment
 
-### CULTURE_WAR_THEATER
-Symbolic battles hide real war: identity conflicts amplified, economic issues hidden
-→ "{topic} economic impact", "{topic} material conditions", "{topic} class dimension"
-
-### SCANDAL_ROTATION
-Outrage carousel spins: new scandal weekly, accountability never arrives
-→ "{topic} what happened after", "{topic} consequences faced", "{topic} pattern history"
-
-### TECH_MAGIC_SHOW
-Innovation theater masks extraction: "disruption" rhetoric, tech personality cult
-→ "{topic} actual innovation", "{topic} labor conditions", "{topic} wealth extracted"
-
-### CHARITY_SPECTACLE
-Philanthropy performance: giving publicized, tax avoided quietly, power maintained
-→ "{topic} tax avoidance", "{topic} wealth source", "{topic} power retained"
-
-### GREEN_THEATER
-Environmental performance: symbolic actions prominent, systemic change absent
-→ "{topic} actual emissions", "{topic} corporate responsibility", "{topic} systemic change"
-
-### CRISIS_PERFORMANCE
-Response theater not response: meetings photographed, statements issued, action absent
-→ "{topic} concrete actions", "{topic} results achieved", "{topic} problem solved"
-
-### DEMOCRACY_THEATER
-Voting spectacle, power unchanged: elections dramatic, choices false
-→ "{topic} actual choice", "{topic} power unchanged", "{topic} systemic limits"
-
-## Deep Dive Protocol
-When score ≥7, execute all 5 hermeneutic expansions:
-
-1. **BEHIND THE CURTAIN** — Look behind performance, find actual machinery
-2. **TIMING ANALYSIS** — Check simultaneous events, find what's hidden
-3. **REPETITION PATTERN** — Find historical parallels, identify recurring script
-4. **AUDIENCE TRACKING** — Separate spectators from actors, identify real players
-5. **PROFIT ANALYSIS** — Follow money flows, identify beneficiaries
-
-## Output Format
-- Spectacle pattern matches with performance indicators
-- Hidden event correlation analysis
-- Beneficiary mapping
-- Trigger escalation level (5/7/9)
-
-## Connections
-- Symbol: Φ (PHI)
-- Cross-links: CLUSTER_FRAMING, CLUSTER_INVERSION, CLUSTER_OVERLOAD
-- Patterns: CIRCUS_POLITICS, CELEBRITY_SHIELD, SPORTS_WASHING, CULTURE_WAR_THEATER, SCANDAL_ROTATION, TECH_MAGIC_SHOW, CHARITY_SPECTACLE, GREEN_THEATER, CRISIS_PERFORMANCE, DEMOCRACY_THEATER
+@CONNECTIONS: parent:Φ+Σ | pairs:[FRAMING,OVERLOAD,INVERSION] | patterns:[SPECTACULARIZATION,INFOTAINMENT,VIRTUE_SIGNALING] | Gate:KERNEL §2

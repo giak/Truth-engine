@@ -1,50 +1,24 @@
+# CLUSTER TEMPLATE — Structure Reference
+
+**Usage:** Each cluster file contains ONLY unique data. Structure is defined here.
+
+```
 # CLUSTER_{NAME}
+@SCORING: {formula} | {glyph}≥5→activate | ≥7→deep_dive | ≥9→max_protocol
+@TRIGGERS: ≥5→selective | ≥7→all_concepts+5H | ≥9→max+full_trace
 
-## Scoring
-- Ω symbol: parent glyph (Κ, κ, ρ, Σ, etc.)
-- Base threshold: Ω ≥5 to activate cluster
-- Deep dive: Ω ≥7
-- Critical: Ω ≥9
+@CONCEPTS: (10 rows)
+| Concept | Detection | Query_Boost |
 
-## Triggers
-IF Ω ≥5 → CLUSTER ACTIVATED — pattern scanning begins
-IF Ω ≥7 → DEEP DIVE MODE — full investigation protocol
-IF Ω ≥9 → CRITICAL STATE — maximum intensity, all sub-patterns mapped
+@QUERIES: (10 when ≥5)
+- "{topic} {keyword}"
 
-## Queries
-Each sub-pattern defines `{topic}` query amplification:
-- "{topic} evidence exists"
-- "{topic} documented proof"
-- "{topic} who benefits"
-- "{topic} pattern documented"
-- Specific queries per sub-pattern (see cluster file)
+@DEEP_DIVE(≥7): 5H
+H1: {mapping} | H2: {evidence} | H3: {history} | H4: {network} | H5: {counter}
 
-## Deep Dive Protocol (Score ≥7)
-### H1: Initial mapping
-Identify all active sub-patterns
+@MAX(≥9): {cluster-specific escalation}
 
-### H2: Evidence collection
-Gather confirming/disconfirming data
+@OUTPUT: {glyph} score + active_concepts + evidence + H1-H5 results + PRIMARY_chain + impact
 
-### H3: Historical analysis
-Check for repeated patterns
-
-### H4: Network analysis
-Map actors and beneficiaries
-
-### H5: Counter-strategy
-Identify resistance points and alternatives
-
-## Output Format
-Each investigation must include:
-1. Active sub-patterns list
-2. Evidence (pro + contra)
-3. Query results (web + code search)
-4. Scoring justification
-5. Connections to other clusters
-6. Recommended actions
-
-## Connections
-- Cross-reference with adjacent clusters
-- Note symbol interactions (e.g., Κ + € = financial gaslighting)
-- Meta-patterns emerge when ≥2 clusters activate simultaneously
+@CONNECTIONS: parent:{glyph} | pairs:[CLUSTER_X,CLUSTER_Y] | patterns:[PAT1,PAT2] | Gate:KERNEL §2
+```
