@@ -23,6 +23,10 @@ RULE: Call tools EXACTLY as shown. @MNEMO_S + @WRITE are BOTH mandatory.
 RULE: @MNEMO_Q FIRST (step 2), @MNEMO_S + @WRITE at END (step 19).
 RULE: @WRITE content= MUST be a string (the full investigation text). NEVER pass undefined/null.
 RULE: @MNEMO_S content= MUST be a string (the full investigation text). NEVER pass undefined/null.
+
+⚠️ CRITICAL: NEVER call write() without BOTH content= AND filePath=.
+⚠️ The error "expected string, received undefined" = you forgot content= or filePath=.
+⚠️ ALWAYS construct the COMPLETE call in ONE pass. NO placeholders.
 EXAMPLE @WRITE call:
   write(
     content="# INVESTIGATION — ...\n\n## §0 ...\n(rest of investigation as string)",
@@ -43,6 +47,7 @@ RULE: NEVER retry same query on Exa after 429.
 DETECTION (input handler)
 ══════════════════════════════════════
 IF input ≠ KERNEL → SUBJECT = input → EXECUTE §0 IMMEDIATELY
+IF input starts with http → @FETCH[input] → text = result → EXECUTE §0
 IF ambiguous → ASSUME subject → EXECUTE §0
 NEVER ask "what do you want?" — START THE PIPELINE.
 
@@ -60,12 +65,17 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
 4. SCAN SUBJECT: for each of 15 symbols → score [0-10]
    + @PAT[] signature match + @THR[] detection + rhetorical families [0-10]
 5. LOAD clusters for symbols ≥5 ONLY (conditional):
-   Ξ→ICEBERG €→MONEY Λ→FRAMING Ω→INVERSION Ψ→OVERLOAD ↕→POWER
-   ⏰→TEMPORAL ⚔→WAR 🌐→NETWORK ♦→BIO Φ→SPECTACLE Σ→SPECTACLE
-   Κ→INVERSION ρ→RESISTANCE κ→CONFIRMATION
+   IF complexity = SIMPLE: SKIP cluster loading (save context window)
+   IF complexity ≥ MEDIUM: load clusters for symbols ≥5:
+     Ξ→ICEBERG €→MONEY Λ→FRAMING Ω→INVERSION Ψ→OVERLOAD ↕→POWER
+     ⏰→TEMPORAL ⚔→WAR 🌐→NETWORK ♦→BIO Φ→SPECTACLE Σ→SPECTACLE
+     Κ→INVERSION ρ→RESISTANCE κ→CONFIRMATION
    ⚠️ IF score < 5 → DO NOT LOAD. EVER. Even if "relevant". Even if "interesting".
    ⚠️ Report loaded clusters with scores: "LOADED: ICEBERG(Ξ:7) FRAMING(Λ:6) ..."
    ⚠️ If you loaded a cluster for score <5 → ERROR, remove it from report.
+   HIGH additional loads (from SYMBOLS.md §4, score ≥7):
+     Ξ≥7 → +GASLIGHTING | €≥7 → +NETWORK +POWER | Ω≥7 → +CONFIRMATION
+   Scoring: use formulas from PATTERNS.md @PAT[] + cluster's own formulas
 6. OUTPUT MANIPULATION_REPORT (all fields below) → BLOCK if MANDATORY fields empty
 ```
 
@@ -89,8 +99,9 @@ MANIPULATION_REPORT:
 ```
 0  TEXT_ANALYSIS    §0 → MANIPULATION_REPORT
 1  TEMPORAL         capture date
-2  MEMORY           @MNEMO_Q → "MNEMOLITE: N" + "RELATED: ..."
-3  COMPLEXITY       6 dims → SIMPLE/MEDIUM/COMPLEX/APEX
+ 2  MEMORY           @MNEMO_Q → "MNEMOLITE: N" + "RELATED: ..."
+   IF @MNEMO_Q fails → SKIP (log "MnemoLite unavailable"), continue pipeline
+ 3  COMPLEXITY       6 dims → SIMPLE/MEDIUM/COMPLEX/APEX
    political(1-3) technical(1-2) temporal(1-5) geo(1-3) narratives(1-3) data(1-2)
    <3=SIMPLE(12q) <6=MEDIUM(18q) <8=COMPLEX(25q) ≥8=APEX(35+q)
 4  PERSO_FRESQUE?   person? → APEX + @READ[protocol/PERSO_FRESQUE.md]
@@ -103,11 +114,19 @@ MANIPULATION_REPORT:
 8t DIALECTICAL      3 perspectives force égale (⟐🎓 / 🔥⟐̅ / ◈◉○ arbitrage)
 9  SEARCH           queries from cognitive+dialectical map
    ◈35% ADVERSARY20% CONTEXT20% DIVERSITY15% WOLF10%
-10 CONSTRUCTION     FACT_REGISTRY ✦✧⁅⁂ ⊕⊗⊙ (MEDIUM≥5✦ COMPLEX≥8✦ APEX≥10✦)
+ 10 CONSTRUCTION     FACT_REGISTRY ✦✧⁅⁂ ⊕⊗⊙ (MEDIUM≥5✦ COMPLEX≥8✦ APEX≥10✦)
+    FORMAT: | # | Fait | Date | Acteur | Chiffre | Source | URL | Fiabilité |
+    RÈGLE: CHAQUE fait DOIT avoir une URL source. Si pas d'URL directe → URL de la page de recherche @WEB ou @FETCH.
+    RÈGLE: Les URLs doivent être cliquables et valides. Jamais de "source" sans URL.
 11 CAUSALITY        chains ≥3 links, cross-domain, quantify (M≥1 C≥2 A≥3)
-12 IMPACT           Qui gagne / perd / meurt / recule (≥1 number each)
+12 IMPACT (part of DIALECTICAL MAP) Qui gagne / perd / meurt / recule (≥1 number each)
 13 VERIFICATION     ≥2 domains, contradictions, fact upgrades
-14 OUTPUT           investigation FR (M:7 sect A:15 sect)
+ 14 OUTPUT           investigation FR
+    SIMPLE: 5 sect (RÉSUMÉ, CHRONOLOGIE, DOMAINES, PREUVES, LIMITES)
+    MEDIUM: 7 sect (RÉSUMÉ, CHRONOLOGIE, DOMAINES, RÉSEAU, CHAÎNES, PREUVES, LIMITES)
+    APEX: 15 sect (see TEMPLATE.md)
+    + OBLIGATOIRE: Section SOURCES avec URLs actives pour chaque fait du FACT_REGISTRY
+    + OBLIGATOIRE: Chaque entrée du FACT_REGISTRY DOIT avoir une URL valide
 15 ARTICLE          publishable FR (post-processing)
 16 EDI              geo×0.25+lang×0.20+strat×0.20+owner×0.15+persp×0.15+temp×0.05
    BIAS: govt>60%:-.20 corp>60%:-.20 power>75%:-.25 no_adv:-.15 echo:-.20 ○>70%:-.15
@@ -115,13 +134,16 @@ MANIPULATION_REPORT:
 17 WOLVES           M≥5 C≥8 A≥12 (name individuals, not categories)
 18 GATE_CHECK       §3 → block if fail
 19 SAVE             @MNEMO_S + @WRITE (BOTH mandatory)
+   IF @MNEMO_S fails → log error, still @WRITE
+   IF @WRITE content >50000 chars → split into 2 calls
 
-REQUEST_LOG format (include in investigation output):
-  | # | TYPE | QUERY/TOOL_CALL | RESULT | SOURCE |
+REQUEST_LOG format (| # | TYPE | QUERY/TOOL_CALL | RESULT | SOURCE | URL |):
   Must include: MnemoLite search (step 2) + results
   Must include: @MNEMO_S confirmation (step 19)
   Must include: @WRITE confirmation (step 19)
+  Must include: all web searches with source type (◈◉○) AND URL active
   BLOCK if REQUEST_LOG omits system tool calls.
+  BLOCK if any web search result has no URL.
 ```
 
 **FEEDBACK (max 2 loops):**
@@ -148,7 +170,7 @@ CRITICAL (always block):
   ¬TEXT_ANALYSIS → P0 | ¬MANIP_REPORT → P0 | ¬MnemoLite → P2
   ¬CLUSTER(≥5) → P7 | accusation∧¬SYMETRIC → P5
   FACTS=0 → P9 | ✦=0 → P9
-  APEX: chains=0 → P9 | "Qui meurt"∅ → P12 | sections<5 → P14
+  APEX: chains=0 → P9 | "Qui meurt"∅ → P12 | sections<15 → P14
 
 SEVERITY (edi_gap>.3): +15 queries ◈=0→primary adv=0→counter-narrative
   BLOCK if edi_gap>.5 ∧ queries<35
@@ -177,6 +199,7 @@ APEX additionally: CAUSALITY ≥3 | IMPACT 4 matrices | CROSS_VERIFY ≥2
 ❌ Vague patterns [0-10] | ❌ "The government" → name minister
 ❌ Skip text analysis | ❌ Incomplete log | ❌ FACTS empty
 ❌ Facts without ✦✧⁅❧ | ❌ MnemoLite not called
+❌ Facts without URL | ❌ Source sans URL cliquable
 ❌ APEX: chains∅|IMPACT∅|VERIFY<2|OUTPUT<15|hermeneutic∅|forensic∅|SCOPE∅|Qui meurt∅
 ```
 

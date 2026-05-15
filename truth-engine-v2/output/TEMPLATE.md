@@ -7,19 +7,25 @@
 
 ## INVESTIGATION OUTPUT (from protocol/INVESTIGATION.md §7)
 
-### Required sections (9):
+### MEDIUM: 7 sections | APEX: 15 sections
 
-| # | Section | Language | Content |
-|---|---------|----------|---------|
-| 1 | RÉSUMÉ EXÉCUTIF | French | ≤500 words: what happened, who, why, unknowns |
-| 2 | CHRONOLOGIE | French | ≥10 events: date, description, source, consequence |
-| 3 | DOMAINES | French | Thematic sections: facts, actors, consequences, verification |
-| 4 | RÉSEAU D'ACTEURS | French | Network map: actors, roles, centrality, connections |
-| 5 | CHAÎNES DE CASCADE | French | Chains: event → consequence → consequence → endpoint |
-| 6 | CARTE DES PREUVES | English | Sources ◈◉○, facts ✦✧⁅⁂, contradictions, EDI, symbols |
-| 7 | VERDICT D'IMPACT | French | Qui gagne / Qui perd / Qui meurt / Qui recule |
-| 8 | PÉRIMÈTRE & LIMITES | French | What excluded, why, what needs follow-up |
-| 9 | ÉTAT DES CONNAISSANCES | French | CONFIRMÉ ✦ / SUSPECTÉ ✧ ⁕ / INCONNU |
+| # | Section | Lang | Content | M | A |
+|---|---------|------|---------|---|---|
+| 1 | RÉSUMÉ EXÉCUTIF | FR | ≤500 words: what happened, who, why, unknowns | ✅ | ✅ |
+| 2 | MANIPULATION_REPORT | EN | 15 symbols scored, speaker, implicit claims | — | ✅ |
+| 3 | CLUSTERS | EN | Each loaded cluster: score + formula + classification | — | ✅ |
+| 4 | HERMÉNEUTIQUE | FR | L1-L6 depth layers | — | ✅ |
+| 5 | FORENSIC REASONING | FR | Iceberg: shown/hidden/factor + empire synthèse | — | ✅ |
+| 6 | PRISME DIALECTIQUE | FR | 3 perspectives (⟐🎓/🔥⟐̅/◈◉○) force égale | — | ✅ |
+| 7 | CHRONOLOGIE | FR | ≥10 events (APEX) | ✅ | ✅ |
+| 8 | DOMAINES | FR | Thematic sections | ✅ | ✅ |
+| 9 | RÉSEAU D'ACTEURS | FR | Network map + profiles | ✅ | ✅ |
+| 10 | CHAÎNES DE CASCADE | FR | All chains quantified | ✅ | ✅ |
+| 11 | CARTE DES PREUVES | EN | Sources✦✧⁇❧ + EDI + symbol scores | ✅ | ✅ |
+| 12 | CARTE DIALECTIQUE | FR | Scénario A/B + tensions + wolves + impact | — | ✅ |
+| 13 | PÉRIMÈTRE & LIMITES | FR | Exclusions + constraints | ✅ | ✅ |
+| 14 | ÉTAT DES CONNAISSANCES | FR | KNOWN/SUSPECTED/UNKNOWN | ✅ | ✅ |
+| 15 | SUSPICION SCORES | EN | Per-source suspicion + corroboration | — | ✅ |
 
 ### FILENAME format:
 ```

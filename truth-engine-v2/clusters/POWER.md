@@ -1,8 +1,11 @@
 # CLUSTER POWER — Archaeology of Control
 
 ## Scoring
-- Symbol: Multi (€♦⚔🌐)
-- Activate when power analysis required; compound threshold: POWER + € + 🌐 ≥21 = TOTAL SYSTEM CAPTURE
+- Symbol: ↕ (Vertical) — top_bottom_asymmetry, class_division, elite_closure
+- Threshold: ↕≥5 → LOAD | ↕≥7 → DEEP DIVE | ↕≥9 → CRITICAL
+- **Formula (from PATTERNS.md):** `Power_Archaeology = ↕ × (Elite_Density + Inbreeding + Demo_Risk) / Accountability`
+- **Compound:** `capture_index = (↕ + € + 🌐) / 30` — ≥0.70 → TOTAL SYSTEM CAPTURE
+- Classify: 0.0-0.3 → + | 0.4-0.6 → ++ | ≥0.7 → +++
 
 ## Triggers
 IF power analysis required → FULL ARCHAEOLOGY — all power mapped, hidden structures revealed

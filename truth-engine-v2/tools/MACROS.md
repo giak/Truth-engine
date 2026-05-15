@@ -114,33 +114,4 @@ Output: "COV:{c} IND:{i} CC:{cc} → EDI*:{e}"
 
 ---
 
-## Compression Examples
-
-**Before** (12 lines):
-```yaml
-IF complexity ∈ {COMPLEX, APEX}:
-  → STATUS: **INVESTIGATION FAILED** ❌
-  → ERROR: "Web searches MANDATORY for {complexity}..."
-  → ACTION: "1. Check MCP status: MCP_STATUS.md
-            2. Reconnect web-search MCP server
-            3. OR downgrade to SIMPLE analysis"
-  → STOP
-ELIF complexity ∈ {SIMPLE, MEDIUM}:
-  → STATUS: **DEGRADED MODE** ⚠️
-  → WARNING: "Web searches unavailable..."
-  → ASK USER: "Proceed? (y/n)"
-  → IF user declines: STOP
-  → IF user accepts: PROCEED with warnings
-```
-
-**After** (2 lines):
-```
-IF CX_CHECK[COMPLEX,APEX]: FAIL_MCP[complexity]
-ELIF CX_CHECK[SIMPLE,MEDIUM]: DEGRADE_MODE[EDI≤0.30, ◈=0, mono-bias]
-```
-
-**Compression ratio**: Average 6:1 | Best 12:1 | Worst 3:1
-
----
-
-*MACROS v2.0 — ~400 lines saved in KERNEL.md via compact notation*
+*MACROS v2.0 — Compact notation. Canonical source (DSL §7 references this file).*

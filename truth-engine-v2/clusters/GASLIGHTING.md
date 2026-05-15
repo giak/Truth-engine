@@ -1,8 +1,10 @@
 # CLUSTER GASLIGHTING — Reality Denial Patterns
 
 ## Scoring
-- Symbol: Κ (KAPPA)
-- Activate when Κ score ≥5
+- Symbol: Κ (KAPPA) — but also triggered by Ξ (omission) HIGH rule
+- **Default load:** Κ ≥5 → INVERSION.md (not this file)
+- **HIGH additional load:** Ξ ≥7 → THIS file loaded (from SYMBOLS.md §4 HIGH rules)
+- Activate when Ξ score ≥7 (via HIGH rule) OR Κ score ≥5 (if INVERSION.md insufficient)
 
 ## Triggers
 IF Κ ≥5 → Cluster active, pattern scanning begins

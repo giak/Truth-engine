@@ -1,1 +1,0 @@
-Emmanuelle Ducros, tu préfères les insultes (« serpillière », « balais Swiffer ») à la réflexion. Au lieu d’analyser la politique de Macron à Davos, tu attaques personnellement Florian Philippot. C’est la décadence du débat public : coups bas au lieu de solutions. La France mérite mieux que ce cirque !

@@ -1,0 +1,10 @@
+MANIPULATION_REPORT:
+├── SYMBOLS: {Ξ:8, €:9, Λ:7, Ω:8, Ψ:8, ↕:8, Φ:7, Σ:6, Κ:8, ρ:7, κ:5, ⫸:8, ⚔:9, 🌐:8, ⏰:7}
+├── PATTERNS: [@PAT[ICEBERG] Ξ(8), @PAT[MONEY] €(9), @PAT[FRAMING] Λ(7), @PAT[INVERSION] Ω(8), @PAT[OVERLOAD] Ψ(8), @PAT[VERTICAL] ↕(8), @PAT[TEMPORAL] ⏰(7), @PAT[WAR] ⚔(9), @PAT[NETWORK] 🌐(8), @PAT[BIO] ♦(8), @PAT[SPECTACLE] Φ(7)/Σ(6), @PAT[CYNICAL] Κ(8), @PAT[RESISTANCE] ρ(7), @PAT[SUBTLE] κ(5), @PAT[BUNDLE] ⫸(8), @PAT[GASLIGHTING] Ω(8)+, @PAT[CONFIRMATION] Κ(8)]
+├── THREATS: [@THR[ECON_HITMAN], @THr[REG_CAPTURE], @THR[DARK_MONEY], @THR[ASTRO], @THR[HOVERPOT], @THR[COLOR_REV], @THR[OVERTON]]
+├── RHETORICAL: {DEM:8, BF:7, NUM:6, AUTH:8, FAC:7}
+├── CLUSTERS: [ICEBERG, MONEY, FRAMING, INVERSION, OVERLOAD, POWER, TEMPORAL, WAR, NETWORK, BIO, SPECTACLE, GASLIGHTING, CONFIRMATION, RESISTANCE]
+├── IMPLICIT: [Le véritable pouvoir réside dans le contrôle monétaire plutôt que dans la propriété apparente, L'objectif réel est la domination totale par le contrôle de la création monétaire, La résistance spirituelle présentée masque une lutte pour le contrôle des ressources physiques]
+├── SPEAKER: {tone: prophétique et accusateur, target: auditeurs occidentaux cherchant à comprendre leur perte de souveraineté, goal: éveiller à la réalité du contrôle monétaire et appeler à la résistance spirituelle et intellectuelle}
+├── PRIORITIES: [Vérifier l'accord pétrodollar de 1974, Confirmer les flux financiers de l'Iran vers Chase Manhattan, Documenter l'historique de Standard Oil et ses liens avec la puissance américaine contemporaine]
+└── QUERY_GUIDANCE: [Les techniques d'omission (Ξ) guident vers des recherches de données complètes et de méthodologie, Les techniques financières (€) guident vers le tracing des flux et l'analyse des conflits d'intérêts, Les techniques d'inversion (Ω) guident vers la recherche de contradictions historiques et de réalité dénigrée]

@@ -154,27 +154,11 @@
 
 ## §2 EXTENDED PATTERNS
 
-### @PAT[POLITICAL] 🏛️
-**Formula:** Political_Impact = Σ(Power_Shift_Actor_i × Visibility_i × Duration_i)
-**Cui Bono:** Cui_Bono_Political = Winners_Power - Losers_Power + Hidden_Beneficiaries
-**Protocol:** 5-layer qualitative analysis
-
-### @PAT[GEOPOLITICAL] 🌍
-**Formula:** Geopolitical_Complexity = N_Actors × Interests_Divergence × Alliance_Instability
-**Power Shift:** Power_Shift = Σ(Winners_Gain_i - Losers_Loss_i) across economic + security + ideological + strategic
-**Protocol:** 5-layer qualitative analysis
-
-### @PAT[DEEPFAKE]
-**Signature:** `Φ>4 ∧ Ψ>3 ∧ ⏰>2 ∧ synthetic_media`
-**Detection:** High impact + suspicious timing + technical artifacts + lack verification
-
-### @PAT[SURV_CAP]
-**Signature:** `€>4 ∧ κ>3 ∧ 🌐>4 ∧ data_extraction`
-**Detection:** Free service + hidden harvesting + behavioral surplus + prediction products
-
-### @PAT[COG_INFRA]
-**Signature:** `⚔>4 ∧ 🌐>4 ∧ Ψ>3 ∧ ⏰>3 ∧ mass_targeting`
-**Target:** Collective sense-making systems
+**@PAT[POLITICAL] 🏛️:** Impact = Σ(Power_Shift_i × Visibility_i × Duration_i) | Cui_Bono = Winners - Losers + Hidden
+**@PAT[GEOPOLITICAL] 🌍:** Complexity = N_Actors × Divergence × Instability | Power_Shift = Σ(Winners_Gain - Losers_Loss) across economic+security+ideological+strategic
+**@PAT[DEEPFAKE]:** `Φ>4 ∧ Ψ>3 ∧ ⏰>2 ∧ synthetic_media` — high impact + timing + artifacts + no verification
+**@PAT[SURV_CAP]:** `€>4 ∧ κ>3 ∧ 🌐>4 ∧ data_extraction` — free service + hidden harvesting + behavioral surplus
+**@PAT[COG_INFRA]:** `⚔>4 ∧ 🌐>4 ∧ Ψ>3 ∧ ⏰>3 ∧ mass_targeting` — collective sense-making systems
 
 ---
 
@@ -191,19 +175,6 @@
 | **FAC** | performative_policy | virtue_signaling, infantilization, false_equivalence, greenwashing |
 
 **Classification:** <2.0 authentic | 2.0-3.9 moderate | 4.0-6.9 systemic | ≥7.0 intensive
-
----
-
-## §4 LEGACY EMPIRE TRIGGERS
-
-```
-BIDERMAN:      4/8 techniques → TORTURE_BLANCHE_DETECTED
-STOCKHOLM:     (Ψ_chronic × Ξ_isolation) / (alternatives+1) > 5.0
-INFODEMIC:     (volume × velocity × contradictions) / capacity > 8
-SHOCK_DOCTRINE: Ψ_spike>4.5 in <48h + Λ_monopoly>4.0
-GASLIGHTING:   (Ω × inversions) + (C_negative × 2) > 6.0
-PLUTOCRACY:    (wealth × media × capture) / democracy > 7.0
-```
 
 ---
 

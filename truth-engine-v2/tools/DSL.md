@@ -15,56 +15,8 @@
 
 ## §1 SYMBOLIC ATOMS
 
-### Narrative [0-5] + PFD
-
-| Sym | Name | Concept |
-|-----|------|---------|
-| **Ξ** | Omission | cherry_picking, flooding_zone, factcheck_weaponized, astroturfing |
-| **€** | Money | dark_money, hidden_flows, Cui_bono, regulatory_capture |
-| **Λ** | Framing | framing_cognitive, overton_window, talking_points, manufacture_consent |
-| **Ω** | Inversion | accusatory_inversion, gaslighting, doublethink, reality_denial |
-| **Ψ** | Sideration | strategy_tension, infodemia, doom_scrolling, learned_helplessness |
-| **↕** | Vertical | top_bottom_asymmetry, class_division, elite_closure |
-| **Φ** | Spectacle | society_spectacle, spectacularization, infotainment, virtue_signaling |
-| **Σ** | Semiotics | hyperreality, simulacre, greenwashing, sportswashing, wokewashing |
-| **Κ** | Cynical | mutual_knowledge_lies, facade_maintenance, institutional_cynicism |
-| **ρ** | Resistance | counter_manipulation, cognitive_sovereignty, mental_disobedience |
-| **κ** | Subtle | nudge_theory, social_cooling, choice_architecture |
-| **⫸** | Bundle | signal_convergence, information_cascade, narrative_synchronization |
-| **⚔** | Warfare | coordination_detection, information_operations, psyops |
-| **🌐** | Network | elite_closure, institutional_endogamy, network_density |
-| **⏰** | Temporal | memory_hole, timeline_manipulation, orchestration_timing |
-
-### Factual + Meta
-
-| Sym | Name | Concept |
-|-----|------|---------|
-| **V** | Verifiability | Source quality, evidence chains |
-| **C** | Coherence | Contradictions, consistency |
-| **S** | Sources | OFF/IND/ALT/ACAD/TERR types |
-| **T** | Temporality | Sequence, causality verification |
-| **M** | Memory | Precedents, pattern recognition |
-| **E** | Economic | COI, funding analysis |
-| **A** | Actors | Influence mapping, power analysis |
-| **♦** | Biographical | hidden_networks, elite_reproduction, power_archaeology |
-
-### Epistemic (v6.2)
-
-| Sym | Name | Conf |
-|-----|------|------|
-| **◈** | Primary — docs, leaks, FOIA | 0.90–0.95 |
-| **◉** | Secondary — investigative, academic | 0.75–0.85 |
-| **○** | Tertiary — MSM, aggregators | 0.40–0.70 |
-| **⊕⊗⊙** | Corroboration — confirmed/contradicted/partial | |
-| **≋** | Divergence — ≋+/++/+++ | |
-| **⟐⟐̅** | Narratives — official/counter | |
-| **🌍🎓🔥** | Perspectives — regional/academic/dissident | |
-| **✦✧⁕⁂** | Fact quality — hard/soft/claim/speculation | |
-| **⚑** | Orchestration — red flags | |
-
-### Rhetorical Families
-
-```
+**See definitions/SYMBOLS.md §1 (15 narrative), §2 (17 epistemic), §3 (8 factual).** Single source of truth.
+Rhetorical: DEM:démagogie(0-10) | BF:mauvaise foi(0-10) | NUM:numeric(0-10) | AUTH:authority(structural) | FAC:facade(structural)
 DEM: démagogie(0-10) | BF: mauvaise foi(0-10) | NUM: numeric/linguistic(0-10) | AUTH: authority(structural) | FAC: facade(structural)
 ```
 
@@ -150,35 +102,14 @@ APEX: C(n)=1-(ΔI_n/ΔI_0)>0.9 | FUSION=Jaccard>0.5∧Money>0.4∧Timing>0.8
 
 ## §7 SYSTEM COMPRESSION
 
-```
-→OK[m]→STATUS:**m**✅ | →FAIL[m]→STATUS:**m**❌ | →MCP_FAIL[cx] IF cx∈{COMPLEX,APEX}:FAIL
-@CX[level]=complexity∈{level} | @CX_ROUTE[S,M,C,A] | @QRY_MIN=@CX_MIN[5,8,12,15]
-@VAL_EDI=@CX_MIN[0.30,0.50,0.70,0.80] | @CONV[s] s≥0.85:COMPLETE s≥0.75:OK ELSE:CONTINUE
-@SAVE[slug]=logs/$(date)_{slug}.md → Write → Confirm | Compression: 8:1 avg
-```
+**See tools/MACROS.md** — canonical source for: CX_CHECK, CX_ROUTE, QRY_MIN, EDI_TARGET, I_CONVERGE, SAVE_LOG, OUT_P1/P2/P3, CoverageScore, EDI*
 
 ---
 
-## §8 CONCEPT INDEX — 148 Concepts
+## §8 CONCEPT INDEX
 
-**Ψ Sideration [13]**: strategy_tension, infodemia, doom_scrolling, learned_helplessness, acceleration_cognitive, decision_fatigue, cognitive_overload, analysis_paralysis, attention_capture, fear_mongering, trauma_exploitation, urgency_manufactured, time_pressure_artificial
-
-**Ω Inversion [13]**: accusatory_inversion, gaslighting, doublethink, reality_denial, projection_accusatory, truth_inversion, victim_blaming, evidence_rejection, memory_revision, narrative_flip, contradiction_normalization, reality_distortion, cognitive_dissonance_induced
-
-**Ξ Omission [13]**: cherry_picking, flooding_zone, factcheck_weaponized, astroturfing, omission_systematic, context_stripping, selective_reporting, inconvenient_truth_burial, memory_hole, deplatforming_strategic, censorship_algorithmic, shadow_banning, visibility_filtering
-
-**Λ Framing [14]**: framing_cognitive, overton_window, talking_points, manufacture_consent, agenda_setting, priming_semantic, anchoring_cognitive, false_dichotomy, loaded_language, euphemism_treadmill, frame_hijacking, question_begging, narrative_control, debate_boundaries
-
-**Φ Spectacle [10]**: society_spectacle, spectacularization, infotainment, virtue_signaling, theater_security, bread_circuses, distraction_industrial, outrage_porn, clickbait_economy, attention_economy
-
-**Σ Semiotics [10]**: hyperreality, simulacre, greenwashing, sportswashing, wokewashing, pinkwashing, bluewashing, reputation_laundering, symbolic_appropriation, brand_activism_fake
-
-**Κ Cynicism [5]**: mutual_knowledge_lies, facade_maintenance, institutional_cynicism, kayfabe_political, soljenitsyne_cynicism | **ρ Resistance [5]**: counter_manipulation, cognitive_sovereignty, mental_disobedience, resistance_proportional, critical_thinking_active | **κ Subtle [5]**: nudge_theory, social_cooling, choice_architecture, invisible_manipulation, dark_patterns
-
-**⫸ Bundle [5]** | **⚔ Warfare [5]** | **🌐 Network [5]** | **⏰ Temporal [5]** | **€ Money [5]** | **♦ Bio [5]** | **Threats [30]**: shock_doctrine, biderman_coercion, societal_gaslighting, infodemic, lawfare, false_flags, divide_et_impera, surveillance_capitalism + financial[5] + bio_manip[4] + AI_surveillance[8] + experiments[5]
-
-**Total: 148** — Ψ:13 Ω:13 Ξ:13 Λ:14 Φ:10 Σ:10 Κ:5 ρ:5 κ:5 ⫸:5 ⚔:5 🌐:5 ⏰:5 €:5 ♦:5 Threats:30
+**148 concepts defined across:** SYMBOLS.md §1 (15 narrative + 8 factual + 17 epistemic), THREATS.md (10 threats × techniques), PATTERNS.md (9 core patterns). See those files for full listings.
 
 ---
 
-*COGNITIVE DSL v2.0 — 148 Concepts — Complexité = Rébellion*
+*DSL v2.0 — Slim reference. 148 concepts. See SYMBOLS/PATTERNS/THREATS for definitions.*

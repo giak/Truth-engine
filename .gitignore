@@ -335,24 +335,24 @@ private/
 # =============================================================================
 # 🎯 TRUTH ENGINE SPECIFIC
 # =============================================================================
-# Generated content from investigations
-documents/batches/batch_*.md
-# prompts/outputs/*.json
-# prompts/outputs/*_meta*.json
+# Archive (legacy content — never tracked)
+archive/outputs-legacy/
+archive/enquetes-legacy/
+archive/inv-legacy/
+archive/logs-legacy/
+archive/artifacts-legacy/
+archive/content-legacy/
+archive/projects/
 
-# Archive system outputs
-archive/system/*_meta*.json
-archive/system/*_output.json
+# Substack raw data (CSV exports)
+substack-online/posts/*.csv
 
-# Test outputs and results
-tests/results/
-tests/output/
-*.test.log
-*.validation.log
-
-# System specific files
-.cursorindexingignore
+# opencode / kilo / specstory tooling
+.opencode/
+.kilo/
+.kilocodemodes.old
 .specstory/
+.cursorindexingignore
 
 # MnemoLite specific
 .mnemo/

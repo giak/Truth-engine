@@ -1,0 +1,4 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "instructions": [".kilo/instructions.md", "AGENTS.md", "truth-engine-v2/KERNEL.md"]
+}

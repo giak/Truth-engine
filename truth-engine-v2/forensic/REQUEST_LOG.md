@@ -8,10 +8,10 @@ Standardize research presentation in APEX reports for transparency and reproduci
 
 ## Table Structure
 
-| # | TYPE | QUERY | RÉSULTAT | SOURCE |
-|---|------|-------|----------|--------|
-| 1 | ◈ | [requête] | [extrait clé] | [nom source] |
-| 2 | ◉ | [requête] | [extrait clé] | [nom source] |
+| # | TYPE | QUERY/TOOL_CALL | RESULT | SOURCE |
+|---|------|-----------------|--------|--------|
+| 1 | ◈ | [requête ou @tool_call] | [extrait clé] | [nom source] |
+| 2 | ◉ | [requête ou @tool_call] | [extrait clé] | [nom source] |
 
 ## Column Definitions
 
