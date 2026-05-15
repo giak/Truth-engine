@@ -107,4 +107,4 @@ When ⏰ ≥ 5:
 - Pairs with **CLUSTER_NETWORK** → elite circulation shows temporal persistence of networks
 - Pairs with **CLUSTER_MONEY** → financialization reveals temporal trend of asset commodification
 - Related patterns: `MEMORY_HOLE`, `HISTORICAL_REVISION`, `CRISIS_CYCLING`, `FUTURE_FORECLOSURE`
-- Gate: KERNEL.md §3 — if ⏰ ≥ 5, TEMPORAL analysis mandatory; if ↕ ≥ 5, Top/Bottom analysis mandatory
+- Gate: KERNEL.md §2 — if ⏰ ≥ 5, TEMPORAL analysis mandatory; if ↕ ≥ 5, Top/Bottom analysis mandatory

@@ -197,4 +197,4 @@ TEMPORAL_MANIPULATION: Orchestration_Prob = (Prep × Coord × Timing_Precision) 
 ---
 
 _Version 2.0 — All pattern definitions with scoring formulas_
-_Referenced by: KERNEL.md §0bis, clusters/*.md_
+_Referenced by: KERNEL.md §0, clusters/*.md_

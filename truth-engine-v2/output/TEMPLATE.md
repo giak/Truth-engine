@@ -5,7 +5,7 @@
 
 ---
 
-## INVESTIGATION OUTPUT (from protocol/INVESTIGATION.md §7)
+## INVESTIGATION OUTPUT (from protocol/INVESTIGATION.md §6)
 
 ### MEDIUM: 7 sections | APEX: 15 sections
 
@@ -34,7 +34,7 @@ YYYY-MM-DD_HH-MM_<sujet>_INVESTIGATION.md
 
 ---
 
-## ARTICLE OUTPUT (from protocol/INVESTIGATION.md §8)
+## ARTICLE OUTPUT (defined below)
 
 ### Required sections (6):
 
@@ -111,4 +111,4 @@ YYYY-MM-DD_HH-MM_<sujet>_ARTICLE.md
 ---
 
 _Version 2.0 — Output format for investigations and articles_
-_Referenced by: KERNEL.md §4, protocol/INVESTIGATION.md §7-§8_
+_Referenced by: KERNEL.md §1 step 14-15, protocol/INVESTIGATION.md §6_

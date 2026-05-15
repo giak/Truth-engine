@@ -120,4 +120,4 @@
 ---
 
 _Version 2.0 — Single source of truth for all symbol definitions_
-_Referenced by: KERNEL.md §0bis, tools/DSL.md_
+_Referenced by: KERNEL.md §0, tools/DSL.md_

@@ -96,4 +96,4 @@ Investigation report must include:
 - Pairs with **CLUSTER_NETWORK** → hidden connections are omission of relationship data
 - Pairs with **CLUSTER_TEMPORAL** → timeframe cherry-picking is temporal + iceberg overlap
 - Related patterns: `OMISSION_SELECTIVE`, `DENOMINATOR_MANIPULATION`, `SHADOW_POPULATION`
-- Gate: KERNEL.md §3 — if Ξ ≥ 5, OMISSION analysis mandatory
+- Gate: KERNEL.md §2 — if Ξ ≥ 5, OMISSION analysis mandatory

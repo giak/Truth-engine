@@ -97,4 +97,4 @@ When ⚔ ≥ 5:
 - Pairs with **CLUSTER_ICEBERG** → atrocity propaganda hides real evidence
 - Pairs with **CLUSTER_TEMPORAL** → permanent war state is temporal pattern
 - Related patterns: `ENEMY_CREATION`, `FEAR_WEAPONIZATION`, `FALSE_FLAG_POTENTIAL`, `COGNITIVE_INFILTRATION`
-- Gate: KERNEL.md §3 — if ⚔ ≥ 5, WAR analysis mandatory
+- Gate: KERNEL.md §2 — if ⚔ ≥ 5, WAR analysis mandatory

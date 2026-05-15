@@ -126,4 +126,4 @@ Debord[spectacle], Baudrillard[simulacre], Klein[shock], Biderman[coercion], Cho
 ---
 
 _Version 2.0 — All threat definitions with scoring_
-_Referenced by: KERNEL.md §0bis, clusters/*.md_
+_Referenced by: KERNEL.md §0, clusters/*.md_

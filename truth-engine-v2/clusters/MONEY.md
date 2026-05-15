@@ -97,4 +97,4 @@ When € ≥ 5:
 - Pairs with **CLUSTER_WAR** → military-industrial feeding is war + money overlap
 - Pairs with **CLUSTER_TEMPORAL** → financialization shows temporal trend
 - Related patterns: `LOBBY_TRACE`, `SUBSIDY_SHADOW`, `REVOLVING_DOOR`, `CAPTURE_REGULATORY`
-- Gate: KERNEL.md §3 — if € ≥ 5, MONEY analysis mandatory
+- Gate: KERNEL.md §2 — if € ≥ 5, MONEY analysis mandatory

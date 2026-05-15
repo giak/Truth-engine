@@ -95,4 +95,4 @@ When 🌐 ≥ 5:
 - Pairs with **CLUSTER_ICEBERG** → dark networks are omission of relationship data
 - Pairs with **CLUSTER_TEMPORAL** → elite circulation shows temporal persistence
 - Related patterns: `NODE_CENTRALITY`, `REVOLVING_DOOR_NETWORK`, `CAPTURE_NETWORK`, `DARK_NETWORK`
-- Gate: KERNEL.md §3 — if 🌐 ≥ 5, NETWORK analysis mandatory
+- Gate: KERNEL.md §2 — if 🌐 ≥ 5, NETWORK analysis mandatory

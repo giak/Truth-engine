@@ -25,13 +25,13 @@
 
 | File | Lines | Role | Loaded at |
 |------|-------|------|-----------|
-| protocol/INVESTIGATION.md | 288 | Pipeline details: scoping, cognitive analysis, dialectical prism, construction, causality, verification, output format, wolves | §1 step 8b |
+| protocol/INVESTIGATION.md | 240 | Pipeline details: scoping, cognitive analysis, dialectical prism, construction, causality, verification, output format, wolves | §1 step 8b |
 
 ### Layer 3: CONDITIONAL (2 files, loaded on trigger)
 
 | File | Lines | Role | Trigger |
 |------|-------|------|---------|
-| protocol/PERSO_FRESQUE.md | 135 | Biography investigation protocol (APEX) | Subject is a person |
+| protocol/PERSO_FRESQUE.md | 54 | Biography investigation protocol (APEX) | Subject is a person |
 | clusters/{NAME}.md (14 files) | ~1100 | Per-symbol scoring + triggers + queries | Score ≥5 for that symbol |
 
 ### Layer 4: SEARCH (3 files, loaded on demand)
@@ -46,7 +46,7 @@
 
 | File | Lines | Role | Trigger |
 |------|-------|------|---------|
-| forensic/REASONING.md | 111 | Iceberg reconstruction (shown/hidden/factor), 4 reasoning questions, output transparency | Ξ ≥5 |
+| forensic/REASONING.md | 55 | Iceberg reconstruction (shown/hidden/factor), 4 reasoning questions, output transparency | Ξ ≥5 |
 | forensic/REQUEST_LOG.md | 108 | Request log format (table structure), quality gates, protocol header | Always (output) |
 
 ### Layer 6: TOOLS (2 files, loaded on demand)
@@ -168,9 +168,9 @@
 | 9 | SEARCH | EPISTEMIC.md + TEMPLATES.md + OPTIMIZATION.md (if queries fail) | Search results |
 | 10 | CONSTRUCTION | INVESTIGATION.md §3 | FACT_REGISTRY + KNOWLEDGE_STATE |
 | 11 | CAUSALITY | INVESTIGATION.md §4 | TIMELINE + CHAINS + CROSS-DOMAIN |
-| 12 | IMPACT | INVESTIGATION.md §5 | Qui gagne/perd/meurt/recule |
-| 13 | VERIFICATION | INVESTIGATION.md §6 | VERIFICATION_REPORT |
-| 14 | OUTPUT | TEMPLATE.md + INVESTIGATION.md §7 + REQUEST_LOG.md | Investigation (.md) |
+| 12 | IMPACT | INVESTIGATION.md §1ter (DIALECTICAL MAP) | Qui gagne/perd/meurt/recule |
+| 13 | VERIFICATION | INVESTIGATION.md §5 | VERIFICATION_REPORT |
+| 14 | OUTPUT | TEMPLATE.md + INVESTIGATION.md §6 + REQUEST_LOG.md | Investigation (.md) |
 | 15 | ARTICLE | TEMPLATE.md §ARTICLE | Article (.md) |
 | 16 | EDI | EPISTEMIC.md §4 (dimension sub-formulas) + KERNEL §1 step 16 (compact) | EDI score + BIAS |
 | 17 | WOLVES | INVESTIGATION.md WOLVES section | Named wolves with roles |
