@@ -10,8 +10,8 @@
 
 ```
 L1: QUERY SPLITTING — 1 complex query (>5 keywords) → 2–3 simple (3–4 keywords)
-L2: MCP EXECUTION — Try each split with DuckDuckGo
-L3: HYBRID FALLBACK — Failed queries retry with Google (WebSearch)
+L2: DUCKDUCKGO EXECUTION — Try each split with duckduckgo_search
+L3: HYBRID FALLBACK — Failed queries retry with websearch (Exa)
 ```
 
 **Principles**: KISS (precision) | INCREMENTAL (keep existing + add layer) | EFFICIENT (split only when needed) | TRANSPARENT (track metrics)
@@ -52,12 +52,12 @@ L3: HYBRID FALLBACK — Failed queries retry with Google (WebSearch)
 ## §2 MCP Execution
 
 ```yaml
-@FUNCTION[EXECUTE_WITH_MCP]:
+@FUNCTION[EXECUTE_WITH_DDQ]:
   FOR query IN split_queries:
-    results ← mcp_web_search(query, limit=3)
+    results ← duckduckgo_search(query=query, numResults=3)
     IF results != []: collect + mark success
     ELSE: mark for fallback
-  RETURN {urls, mcp_success, mcp_failures, queries_for_fallback}
+  RETURN {urls, ddq_success, ddq_failures, queries_for_fallback}
 ```
 
 ---
@@ -69,7 +69,7 @@ L3: HYBRID FALLBACK — Failed queries retry with Google (WebSearch)
 ```yaml
 @FUNCTION[HYBRID_FALLBACK]:
   FOR query IN queries_for_fallback:
-    results ← WebSearch(query, limit=3)
+    results ← websearch(query=query, numResults=3)
     IF results != []: collect
     ELSE: reformulate → retry
     IF still failed: mark persistent_gap
@@ -88,8 +88,8 @@ L3: HYBRID FALLBACK — Failed queries retry with Google (WebSearch)
 
 ```yaml
 @FUNCTION[AGGREGATE_RESULTS]:
-  unique ← deduplicate(mcp.urls + fallback.urls)
-  productive_rate ← (mcp_success + fallback_success + alt_success) / total
+  unique ← deduplicate(ddq.urls + fallback.urls)
+  productive_rate ← (ddq_success + fallback_success) / total
   RETURN {urls, total_queries, productive_rate, gaps}
 ```
 
@@ -101,12 +101,12 @@ L3: HYBRID FALLBACK — Failed queries retry with Google (WebSearch)
 @WORKFLOW[EXECUTE_QUERIES_OPTIMIZED]:
   FOR query IN queries:
     1. IF SPLIT_REQUIRED: split ← SPLIT_QUERY ELSE: split ← [query]
-    2. mcp ← EXECUTE_WITH_MCP(split)
-    3. IF mcp_failures > 0: fallback ← HYBRID_FALLBACK(mcp_failures)
+    2. ddq ← EXECUTE_WITH_DDQ(split)
+    3. IF ddq_failures > 0: fallback ← HYBRID_FALLBACK(ddq_failures)
     4. Deduplicate + return
 
 BACKWARD_COMPATIBLE: No changes to QUERY_TEMPLATES/SEARCH_EPISTEMIC/VALIDATION
-DIAGNOSTICS: [QUERY_OPTIMIZATION] Original:N Split:N' MCP:N1 Fallback:N2 Alt:N3 Gaps:N4 → Rate:Z%
+DIAGNOSTICS: [QUERY_OPTIMIZATION] Original:N Split:N' DDQ:N1 Fallback:N2 Gaps:N3 → Rate:Z%
 ```
 
 ---
@@ -114,7 +114,7 @@ DIAGNOSTICS: [QUERY_OPTIMIZATION] Original:N Split:N' MCP:N1 Fallback:N2 Alt:N3 
 ## §5 Validation
 
 ```yaml
-PER_QUERY: keyword_count ≤ 4 ✅ | splits ∈ [2,3] ✅ | mcp_rate ≥0.30 ✅ | fallback_rate ≥0.60 ✅ | urls ≥3 ✅
+PER_QUERY: keyword_count ≤ 4 ✅ | splits ∈ [2,3] ✅ | ddq_rate ≥0.30 ✅ | fallback_rate ≥0.60 ✅ | urls ≥3 ✅
 INVESTIGATION: productive_rate ≥0.60 | EDI_after ≥ EDI_before+0.15 | primary_after ≥1 | query_increase ≤0.35
 BUDGET: +200% queries but 0%→100% productive. ROI: Infinite. Options: A)max2splits B)selective C)retroactive D)current
 ```

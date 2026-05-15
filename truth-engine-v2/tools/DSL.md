@@ -17,7 +17,6 @@
 
 **See definitions/SYMBOLS.md §1 (15 narrative), §2 (17 epistemic), §3 (8 factual).** Single source of truth.
 Rhetorical: DEM:démagogie(0-10) | BF:mauvaise foi(0-10) | NUM:numeric(0-10) | AUTH:authority(structural) | FAC:facade(structural)
-DEM: démagogie(0-10) | BF: mauvaise foi(0-10) | NUM: numeric/linguistic(0-10) | AUTH: authority(structural) | FAC: facade(structural)
 ```
 
 ---

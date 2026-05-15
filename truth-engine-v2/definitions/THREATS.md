@@ -27,8 +27,6 @@
 
 | Threat | Detection | Mechanism | Countermeasure |
 |--------|-----------|-----------|----------------|
-| @THR[DARK_MONEY] **DARK_MONEY** | €≥2 ∧ opacity≥3 | hidden_funding → policy_capture | transparency + beneficial_ownership |
-| @THR[REG_CAPTURE] **REGULATORY_CAPTURE** | revolving_door ∧ dependency | industry → regulator → industry | independence + disclosure |
 | @THR[ECON_HITMAN] **ECONOMIC_HITMAN** | debt_trap ∧ resource_extraction | IMF/WorldBank conditionality | sovereignty + alternative_finance |
 | @THR[PHILANTHROCAP] **PHILANTHROCAPITALISM** | charity_mask ∧ power_accumulation | Gates/Soros model | democratic_oversight + tax_justice |
 

@@ -178,6 +178,14 @@
 
 ---
 
+## §4 COMPOSITE PATTERNS
+
+**@PAT[SHOCK]:** `Ψ>4.5 ∧ τ<48h ∧ Λ_monopoly` — trauma→urgency→solution | Module: [Ψ, Λ, Ω]
+**@PAT[BIDERMAN]:** `≥4/8 coercion techniques` — isolation+monopoly+exhaustion+threats | Module: [Ψ, Ω, ↕]
+**@PAT[INFODEMIC]:** `(vol×speed×contra)/capacity > 8` — volume>150/day + acceleration | Module: [Ψ, Ξ, ⫸]
+
+---
+
 ## §5 APEX FORMULAS
 
 ```

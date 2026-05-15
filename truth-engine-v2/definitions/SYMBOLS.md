@@ -87,10 +87,8 @@
 | κ (Subtle) | ≥5 | — | clusters/CONFIRMATION.md |
 
 **LOAD RULES:**
-- Score ≥5 → LOAD (mandatory) | Score 3-4 → NOTE "partial" | Score <3 → NOTE_ONLY (1 line)
-- **Mandatory (lower):** Ξ≥3, €≥3, Λ≥4, Ω≥4, Ψ≥4, ↕≥4 → LOAD even below ≥5
+- Score ≥5 → LOAD (always) | Score 3-4 → LOAD only mandatory lower (Ξ≥3, €≥3, Λ≥4, Ω≥4, Ψ≥4, ↕≥4) | Score <3 → NOTE_ONLY (1 line)
 - **HIGH (≥7):** Ξ→+GASLIGHTING | €→+NETWORK+POWER | Ω→+CONFIRMATION
-- ⚠️ NEVER load cluster for score <5 (enforced by KERNEL §0 step 5)
 
 ---
 

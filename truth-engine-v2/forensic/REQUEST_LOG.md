@@ -8,10 +8,10 @@ Standardize research presentation in APEX reports for transparency and reproduci
 
 ## Table Structure
 
-| # | TYPE | QUERY/TOOL_CALL | RESULT | SOURCE |
-|---|------|-----------------|--------|--------|
-| 1 | ◈ | [requête ou @tool_call] | [extrait clé] | [nom source] |
-| 2 | ◉ | [requête ou @tool_call] | [extrait clé] | [nom source] |
+| # | TYPE | QUERY/TOOL_CALL | RESULT | SOURCE | URL |
+|---|------|-----------------|--------|--------|-----|
+| 1 | ◈ | [requête ou @tool_call] | [extrait clé] | [nom source] | [URL cliquable] |
+| 2 | ◉ | [requête ou @tool_call] | [extrait clé] | [nom source] | [URL cliquable] |
 
 ## Column Definitions
 
@@ -49,13 +49,13 @@ Queries grouped by investigation branch:
 
 ### BRANCH 1: [Name] (X queries)
 
-| # | TYPE | QUERY | RÉSULTAT | SOURCE |
-|---|------|-------|----------|--------|
+| # | TYPE | QUERY | RÉSULTAT | SOURCE | URL |
+|---|------|-------|----------|--------|-----|
 
 ### BRANCH 2: [Name] (X queries)
 
-| # | TYPE | QUERY | RÉSULTAT | SOURCE |
-|---|------|-------|----------|--------|
+| # | TYPE | QUERY | RÉSULTAT | SOURCE | URL |
+|---|------|-------|----------|--------|-----|
 
 ---
 

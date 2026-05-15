@@ -64,15 +64,16 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
 3. @READ[definitions/THREATS.md]    → load @THR[]
 4. SCAN SUBJECT: for each of 15 symbols → score [0-10]
    + @PAT[] signature match + @THR[] detection + rhetorical families [0-10]
-5. LOAD clusters for symbols ≥5 ONLY (conditional):
+5. LOAD clusters (thresholds per SYMBOLS.md §4):
    IF complexity = SIMPLE: SKIP cluster loading (save context window)
-   IF complexity ≥ MEDIUM: load clusters for symbols ≥5:
+   IF complexity ≥ MEDIUM:
+     Score ≥5 → LOAD cluster (always)
+     Score 3-4 → LOAD only mandatory lower: Ξ≥3 €≥3 Λ≥4 Ω≥4 Ψ≥4 ↕≥4
+     Score <3 → NOTE_ONLY (1 line, no cluster load)
      Ξ→ICEBERG €→MONEY Λ→FRAMING Ω→INVERSION Ψ→OVERLOAD ↕→POWER
      ⏰→TEMPORAL ⚔→WAR 🌐→NETWORK ♦→BIO Φ→SPECTACLE Σ→SPECTACLE
      Κ→INVERSION ρ→RESISTANCE κ→CONFIRMATION
-   ⚠️ IF score < 5 → DO NOT LOAD. EVER. Even if "relevant". Even if "interesting".
    ⚠️ Report loaded clusters with scores: "LOADED: ICEBERG(Ξ:7) FRAMING(Λ:6) ..."
-   ⚠️ If you loaded a cluster for score <5 → ERROR, remove it from report.
    HIGH additional loads (from SYMBOLS.md §4, score ≥7):
      Ξ≥7 → +GASLIGHTING | €≥7 → +NETWORK +POWER | Ω≥7 → +CONFIRMATION
    Scoring: use formulas from PATTERNS.md @PAT[] + cluster's own formulas
@@ -81,7 +82,7 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
 
 ```
 MANIPULATION_REPORT:
-├── SYMBOLS: {Ξ€ΛΩΨ↕ΦΣΚρκ⫸⚔🌐⏰} × [0-10]
+├── SYMBOLS: {Ξ€ΛΩΨ↕ΦΣΚρκρ⫸⚔🌐⏰} × [0-10]
 ├── PATTERNS: [@PAT[...]]
 ├── THREATS: [@THR[...]]
 ├── RHETORICAL: {DEM BF NUM AUTH FAC} × [0-10]
