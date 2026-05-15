@@ -89,7 +89,7 @@ YYYY-MM-DD_HH-MM_<sujet>_ARTICLE.md
 | CAUSALITY_CHAINS built | ≥3 for APEX | Chains with ≥3 links |
 | IMPACT_VERDICT all 4 | YES | Qui gagne/perd/meurt/recule |
 | CROSS_VERIFICATION | ≥2 domains | Domain-specific check |
-| INVESTIGATION_OUTPUT | 9 sections | All sections present |
+| INVESTIGATION_OUTPUT | 15 sections (APEX) | All sections present |
 | EDI calculated | YES | Score with BIAS |
 | Severity calculated | YES | Gap analysis |
 | COUNTERMEASURES | IF gaps | Explicit actions |
