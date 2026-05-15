@@ -27,12 +27,7 @@ RULE: @MNEMO_S content= MUST be a string (the full investigation text). NEVER pa
 ⚠️ CRITICAL: NEVER call write() without BOTH content= AND filePath=.
 ⚠️ The error "expected string, received undefined" = you forgot content= or filePath=.
 ⚠️ ALWAYS construct the COMPLETE call in ONE pass. NO placeholders.
-EXAMPLE @WRITE call:
-  write(
-    content="# INVESTIGATION — ...\n\n## §0 ...\n(rest of investigation as string)",
-    filePath="/home/giak/projects/truth-engine/investigations/2026-03-25_10-00_example_INVESTIGATION.md"
-  )
-# Both content= and filePath= are REQUIRED. If content is missing → tool returns error → STOP, retry with both params.
+EXAMPLE: `write(content="# INVESTIGATION — ...\n\n## §0 ...", filePath="$INV/YYYY-MM-DD_HH-MM_{sujet}_INVESTIGATION.md")`
 
 SEARCH PRIORITY (investigations):
   1. @MNEMO_Q → local DB, no rate limit
@@ -70,9 +65,7 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
      Score ≥5 → LOAD cluster (always)
      Score 3-4 → LOAD only mandatory lower: Ξ≥3 €≥3 Λ≥4 Ω≥4 Ψ≥4 ↕≥4
      Score <3 → NOTE_ONLY (1 line, no cluster load)
-     Ξ→ICEBERG €→MONEY Λ→FRAMING Ω→INVERSION Ψ→OVERLOAD ↕→POWER
-     ⏰→TEMPORAL ⚔→WAR 🌐→NETWORK ♦→BIO Φ→SPECTACLE Σ→SPECTACLE
-     Κ→INVERSION ρ→RESISTANCE κ→CONFIRMATION
+     Symbol→Cluster mapping: see SYMBOLS.md §4
    ⚠️ Report loaded clusters with scores: "LOADED: ICEBERG(Ξ:7) FRAMING(Λ:6) ..."
    HIGH additional loads (from SYMBOLS.md §4, score ≥7):
      Ξ≥7 → +GASLIGHTING | €≥7 → +NETWORK +POWER | Ω≥7 → +CONFIRMATION
@@ -82,7 +75,7 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
 
 ```
 MANIPULATION_REPORT:
-├── SYMBOLS: {Ξ€ΛΩΨ↕ΦΣΚρκρ⫸⚔🌐⏰} × [0-10]
+├── SYMBOLS: {Ξ€ΛΩΨ↕ΦΣΚρκ⫸⚔🌐⏰} × [0-10]
 ├── PATTERNS: [@PAT[...]]
 ├── THREATS: [@THR[...]]
 ├── RHETORICAL: {DEM BF NUM AUTH FAC} × [0-10]
@@ -99,33 +92,35 @@ MANIPULATION_REPORT:
 
 ```
 0  TEXT_ANALYSIS    §0 → MANIPULATION_REPORT
-1  TEMPORAL         capture date
+1  TEMPORAL         capture date of subject events (not investigation date)
  2  MEMORY           @MNEMO_Q → "MNEMOLITE: N" + "RELATED: ..."
    IF @MNEMO_Q fails → SKIP (log "MnemoLite unavailable"), continue pipeline
- 3  COMPLEXITY       6 dims → SIMPLE/MEDIUM/COMPLEX/APEX
+ 3  COMPLEXITY       6 dims → sum → SIMPLE/MEDIUM/COMPLEX/APEX
    political(1-3) technical(1-2) temporal(1-5) geo(1-3) narratives(1-3) data(1-2)
    <3=SIMPLE(12q) <6=MEDIUM(18q) <8=COMPLEX(25q) ≥8=APEX(35+q)
 4  PERSO_FRESQUE?   person? → APEX + @READ[protocol/PERSO_FRESQUE.md]
 5  ACCUSATION?      YES → SYMETRIC_CHECK (accusator too)
 6  CRÉDO            12-20 "Q:{q} → query:{s}"
-   C:⏰Ξ R:€♦🌐 E:◈⊕⊗ D:ΩΨΞ O:⏰Ξ +:ΛΦΣ
+   C:⏰Ξ(chronology) R:€♦🌐(money/network) E:◈⊕⊗(evidence) D:ΩΨΞ(doubt) O:⏰Ξ(omission) +:ΛΦΣ(rhetoric)
 7  SCOPING          domains actors exclusions
-8  ANALYSIS         scan → MANIPULATION_REPORT (§0)
+8  ANALYSIS         refine MANIPULATION_REPORT with cognitive/dialectical context
 8b COGNITIVE        cluster formulas + hermeneutic L1-L6 + forensic reasoning
 8t DIALECTICAL      3 perspectives force égale (⟐🎓 / 🔥⟐̅ / ◈◉○ arbitrage)
 9  SEARCH           queries from cognitive+dialectical map
    ◈35% ADVERSARY20% CONTEXT20% DIVERSITY15% WOLF10%
  10 CONSTRUCTION     FACT_REGISTRY ✦✧⁅⁂ ⊕⊗⊙ (MEDIUM≥5✦ COMPLEX≥8✦ APEX≥10✦)
     FORMAT: | # | Fait | Date | Acteur | Chiffre | Source | URL | Fiabilité |
-    RÈGLE: CHAQUE fait DOIT avoir une URL source. Si pas d'URL directe → URL de la page de recherche @WEB ou @FETCH.
-    RÈGLE: Les URLs doivent être cliquables et valides. Jamais de "source" sans URL.
+   RÈGLE: CHAQUE fait DOIT avoir une URL source. Si pas d'URL directe → URL de la page de recherche @WEB.
+   RÈGLE: Les URLs doivent être cliquables. Jamais de "source" sans URL.
+   VALIDATION: IF URL inaccessible → mark ⁕ (CLAIMED), not ✦ (CONFIRMED).
 11 CAUSALITY        chains ≥3 links, cross-domain, quantify (M≥1 C≥2 A≥3)
 12 IMPACT (part of DIALECTICAL MAP) Qui gagne / perd / meurt / recule (≥1 number each)
 13 VERIFICATION     ≥2 domains, contradictions, fact upgrades
  14 OUTPUT           investigation FR
-    SIMPLE: 5 sect (RÉSUMÉ, CHRONOLOGIE, DOMAINES, PREUVES, LIMITES)
-    MEDIUM: 7 sect (RÉSUMÉ, CHRONOLOGIE, DOMAINES, RÉSEAU, CHAÎNES, PREUVES, LIMITES)
-    APEX: 15 sect (see TEMPLATE.md)
+   SIMPLE: 5 sect (RÉSUMÉ, CHRONOLOGIE, DOMAINES, PREUVES, LIMITES)
+   MEDIUM: 7 sect (RÉSUMÉ, CHRONOLOGIE, DOMAINES, RÉSEAU, CHAÎNES, PREUVES, LIMITES)
+   COMPLEX: 8 sect (MEDIUM + CARTE DIALECTIQUE)
+   APEX: 15 sect (see TEMPLATE.md)
     + OBLIGATOIRE: Section SOURCES avec URLs actives pour chaque fait du FACT_REGISTRY
     + OBLIGATOIRE: Chaque entrée du FACT_REGISTRY DOIT avoir une URL valide
 15 ARTICLE          publishable FR (post-processing)
@@ -149,7 +144,9 @@ REQUEST_LOG format (| # | TYPE | QUERY/TOOL_CALL | RESULT | SOURCE | URL |):
 
 **FEEDBACK (max 2 loops):**
 ```
-post-10: ✦<min → RETURN 9 | post-11: chains<min → RETURN 9 | post-13: domains<2 → RETURN 9
+post-10: ✦<min → RETURN 9 (queries reset, +15◈ targeted)
+post-11: chains<min → RETURN 9 (queries reset, +5 causal targeted)
+post-13: domains<2 → RETURN 9 (queries reset, +5 cross-domain)
 ```
 
 **REALLOCATION (at 50% queries):**
@@ -164,6 +161,9 @@ geo<target×.5 → +10% DIVERSITY | wolves<3∧cx≥6 → +10% WOLF
 
 ```
 severity = (edi_gap + query_gap + source_gap) × cx_modifier
+  edi_gap   = EDI_target − EDI_actual
+  query_gap = (target_queries − actual_queries) / target_queries
+  source_gap = 1 − (unique_sources / target_sources)
 cx_modifier: APEX×1.0 COMPLEX×.85 MEDIUM×.7 SIMPLE×.5
 response: >.5 CONTINUE | .2-.5 DRAFT | <.2 WARNINGS
 
