@@ -32,7 +32,7 @@
 | File | Lines | Role | Trigger |
 |------|-------|------|---------|
 | protocol/PERSO_FRESQUE.md | 54 | Biography investigation protocol (APEX), DSL compressed | Subject is a person |
-| clusters/{NAME}.md (15 files) | ~1239 | Per-symbol scoring + triggers + queries | Score ≥5 for that symbol |
+| clusters/{NAME}.md (15 files) | ~514 | Per-symbol scoring + triggers + queries, DSL compressed | Score ≥5 for that symbol |
 
 ### Layer 4: SEARCH (3 files, loaded on demand)
 
@@ -94,7 +94,7 @@
                            │    │             │             │    │
                            │ ┌──▼───┐   ┌────▼───┐   ┌────▼──┐ │
                            │ │ICEBERG│   │ MONEY  │   │ TEMPORAL│
-                           │ │86L   │   │ 100L   │   │ 110L  │ │
+                           │ │31L   │   │ 31L    │   │ 31L   │ │
                            │ └──────┘   └────────┘   └───────┘ │
                            │   ...15 cluster files total...     │
                            │                                     │
