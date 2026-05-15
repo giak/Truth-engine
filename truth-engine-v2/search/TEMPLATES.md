@@ -4,36 +4,20 @@
 
 ## §1 PRIMARY EVIDENCE TEMPLATES (◈)
 
-**Domain detection:**
+| Domain | Keywords | T1 | T2 | T3 |
+|--------|----------|----|----|----|
+| POL | election,government,policy,minister | site:assemblee-nationale.fr OR site:senat.fr filetype:pdf | archives officielles | {entity} leaked OR FOIA |
+| SCI | study,research,trial,peer-reviewed | site:pubmed.ncbi.nlm.nih.gov OR site:arxiv.org OR doi: | peer-reviewed OR clinical trial filetype:pdf | original research NOT review |
+| CORP | company,CEO,SEC,lawsuit,merger | site:sec.gov filetype:pdf (10-K OR 10-Q OR 8-K) | court documents OR lawsuit | annual report OR financial filing |
+| GEO | war,diplomacy,sanctions,treaty,UN | site:wikileaks.org OR diplomatic cable | UN documents OR treaty text | declassified OR FOIA OR archives |
+| LEG | court,statute,ruling,regulation | site:courtlistener.com OR court ruling | statute text OR regulation | oral arguments transcript OR filing |
+| ECO | GDP,inflation,trade,IMF,fiscal | site:imf.org OR site:worldbank.org | GDP statistics OR trade data | budget filetype:pdf OR fiscal report |
+| SOC | inequality,protest,survey,census | census data OR survey OR demographics | government report OR official study | testimonies OR primary sources |
+| TECH | software,algorithm,patent,spec | source code OR github OR spec | RFC OR standard OR protocol | whitepaper OR patent filing |
+| HIST | archives,records,documents,era | archives OR historical documents | original documents OR manuscripts | {period} official records |
+| MED | broadcast,press,transcript,publication | original broadcast OR transcript | press release OR official statement | official communication OR public statement |
 
-| Domain | Keywords |
-|--------|----------|
-| Political | election, government, policy, parliament, minister, legislation |
-| Scientific | study, research, trial, data, peer-reviewed, clinical |
-| Corporate | company, CEO, financial, earnings, SEC, lawsuit, merger |
-| Geopolitical | war, diplomacy, sanctions, military, treaty, UN, conflict |
-| Legal | court, law, statute, ruling, case, regulation, judge |
-| Economic | GDP, inflation, trade, central bank, IMF, fiscal, monetary |
-| Social | inequality, protest, survey, census, demographics, civil rights |
-| Tech | software, algorithm, patent, RFC, specification, source code |
-| Historical | archives, records, documents, era, period, century |
-| Media | broadcast, press release, transcript, publication, journalism |
-
-**Templates (3 queries per domain):**
-```
-POL:   site:assemblee-nationale.fr OR site:senat.fr filetype:pdf | archives officielles | {entity} leaked OR FOIA
-SCI:   site:pubmed.ncbi.nlm.nih.gov OR site:arxiv.org OR doi: | peer-reviewed OR clinical trial filetype:pdf | original research NOT review
-CORP:  site:sec.gov filetype:pdf (10-K OR 10-Q OR 8-K) | court documents OR lawsuit | annual report OR financial filing
-GEO:   site:wikileaks.org OR diplomatic cable | UN documents OR treaty text | declassified OR FOIA OR archives
-LEG:   site:courtlistener.com OR court ruling | statute text OR regulation | oral arguments transcript OR filing
-ECO:   site:imf.org OR site:worldbank.org | GDP statistics OR trade data | budget filetype:pdf OR fiscal report
-SOC:   census data OR survey OR demographics | government report OR official study | testimonies OR primary sources
-TECH:  source code OR github OR spec | RFC OR standard OR protocol | whitepaper OR patent filing
-HIST:  archives OR historical documents | original documents OR manuscripts | {period} official records
-MED:   original broadcast OR transcript | press release OR official statement | official communication OR public statement
-```
-
-**Execution:** SELECT template by domain → EXECUTE → VALIDATE: RAW→◈, Institutional→○, Independent→◉ → IF ◈<target: retry ccTLD/filetype/keywords
+**Execution:** SELECT by domain → EXECUTE → VALIDATE: RAW→◈, Institutional→○, Independent→◉ → IF ◈<target: retry ccTLD/filetype/keywords
 
 ---
 

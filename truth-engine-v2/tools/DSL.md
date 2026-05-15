@@ -85,6 +85,35 @@ APEX: C(n)=1-(ΔI_n/ΔI_0)>0.9 | FUSION=Jaccard>0.5∧Money>0.4∧Timing>0.8
   RULE: ONLY activated symbols. MANDATORY "| strategy:X".
 ```
 
+## §5b DIALECTICAL PRISM
+
+```yaml
+@PRISM[3P]:
+  P1[⟐🎓]: docs_officiels | P2[🔥⟐̅]: investigation+censuré | P3[◈◉○]: ◈_triangulation
+  FORMAT: ≥3phrases | tone=neutre | force=égale | suspicion≥0.50
+  OUT: affirmations|acteurs|cui_bono|evidence[◈◉○]
+  MAP: A→cui_bono | B→cui_bono | TENSIONS | WOLVES_BOTH | SILENCES → VOUS_DÉCIDEZ
+```
+
+## §5c PERSO_FRESQUE
+
+```yaml
+@PF[M0]: person→APEX | EDI≥0.75
+@PF[M1:chrono]: wiki+vie-publique+AN | @PF[M2:substance◈]: AN+Sénat+lois | @PF[M3:influence]: HATVP+lobby
+@PF[M4:pivot]: promesse≠vote+revirement | @PF[GRID]: ROI_dem(30%)+Capture(25%)+Λ_drift(20%)+Ω_cœur(25%)
+@PF[PATTERNS]: ROI=SW/CPC | Λ=keyword_inversion | Ω=promesse≠vote | €=HATVP_delta
+@PF[VALID]: ◈≥5◉≥5○≥5 | EDI≥0.75 | timeline_gap≤12mo | Λ_src≥3 | wolf≥1
+```
+
+## §5d FORENSIC QUESTIONS
+
+```yaml
+@Q[1:Hidden]: EXCLUSIONS? Populations invisibles? Cui bono cacher?
+@Q[2:Evidence]: ◈ PRIMARY exclusions? HRW/Amnesty/académique? Syndicats/ONG?
+@Q[3:Reconstruct]: Estimer magnitude? ◈ PRIMARY? Estimate raisonnée?
+@Q[4:Limites]: Assumptions? Invalide? Confidence justifiée?
+```
+
 ---
 
 ## §6 OUTPUT & POLICY
