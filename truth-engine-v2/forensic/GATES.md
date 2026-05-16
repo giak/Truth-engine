@@ -74,7 +74,7 @@ IF any □ unchecked → execute corresponding correction (§3). DO NOT proceed 
 
 ```
 □ All 15 symbols scored in MANIPULATION_REPORT (KERNEL §0 step 4-6)
-□ Clusters loaded per thresholds (KERNEL §0 step 5)
+□ Clusters loaded per thresholds (KERNEL §0 step 6)
 □ CRÉDO has ≥12 queries (KERNEL §1 step 6, enforced by R5)
 □ FACT_REGISTRY has ≥min ✦ facts (KERNEL §1 step 10)
 □ EVERY ✦ fact has a URL (KERNEL §1 step 113-114)
