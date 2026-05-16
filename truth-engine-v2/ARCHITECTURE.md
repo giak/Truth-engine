@@ -5,7 +5,7 @@
 
 ---
 
-## §1 FILE INVENTORY (32 files)
+## §1 FILE INVENTORY (33 files)
 
 ### Layer 0: KERNEL (1 file)
 
@@ -42,12 +42,13 @@
 | search/TEMPLATES.md | 111 | Domain-adaptive query templates (10 domains), H7 adversary templates, dissident perspectives | Step 9 (search) |
 | search/OPTIMIZATION.md | 124 | Query splitting (3-layer), ddq/websearch fallback, reformulation | Step 9 (when queries fail) |
 
-### Layer 5: FORENSIC (2 files, loaded on trigger)
+### Layer 5: FORENSIC (3 files, loaded on trigger)
 
 | File | Lines | Role | Trigger |
 |------|-------|------|---------|
 | forensic/REASONING.md | 55 | Iceberg reconstruction (shown/hidden/factor), 4 @Q[] reasoning questions, output transparency | Ξ ≥5 |
 | forensic/REQUEST_LOG.md | 108 | Request log format (table structure + URL), quality gates, protocol header | Always (output) |
+| forensic/GATES.md | ~103 | Auto-validation pipeline: behavioral rules, gate reference, correction procedures, pre-delivery checklist | Always (step 0 + 18b) |
 
 ### Layer 6: TOOLS (2 files, loaded on demand)
 
@@ -154,7 +155,7 @@
 | Step | Action | Files Loaded | Produces |
 |------|--------|-------------|----------|
 | — | User loads KERNEL | KERNEL.md | — |
-| 0 | TEXT_ANALYSIS | SYMBOLS.md + PATTERNS.md + THREATS.md + clusters/{≥5} | MANIPULATION_REPORT |
+| 0 | TEXT_ANALYSIS | SYMBOLS.md + PATTERNS.md + THREATS.md + GATES.md + clusters/{≥5} | MANIPULATION_REPORT |
 | 1 | TEMPORAL | — | date |
 | 2 | MEMORY | mnemolite_search_memory | "MNEMOLITE: N" + "RELATED: ..." |
 | 3 | COMPLEXITY | — | SIMPLE/MEDIUM/COMPLEX/APEX |
@@ -175,6 +176,7 @@
 | 16 | EDI | EPISTEMIC.md §4 (dimension sub-formulas) + KERNEL §1 step 16 (compact) | EDI score + BIAS |
 | 17 | WOLVES | INVESTIGATION.md WOLVES section | Named wolves with roles |
 | 18 | GATE_CHECK | KERNEL §2 | PASS/FAIL |
+| 18b | GATE_AUTO | GATES.md §4 checklist | PASS/FAIL + corrections |
 | 19 | SAVE | mnemolite_write_memory + write() | .md file + MnemoLite entry |
 
 ---
@@ -297,6 +299,7 @@ But these clusters are only loaded if scores ≥5. INVESTIGATION.md should say "
 
 | ID | Fix | Effort | Impact |
 |----|-----|--------|--------|
+| G1 | Add GATES.md to Layer 5, update counts | 5 min | HIGH |
 | B3 | INVESTIGATION.md §3: add "See SYMBOLS.md §2" | 1 min | LOW |
 | B5 | INVESTIGATION.md: add "(if loaded)" qualifiers | 2 min | LOW |
 | B1 | KERNEL: inline mapping → reference SYMBOLS.md §4 | 2 min | LOW |
