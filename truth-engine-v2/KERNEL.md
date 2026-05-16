@@ -58,9 +58,9 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
 2. @READ[definitions/PATTERNS.md]   → load @PAT[] + rhetorical families DEM/BF/NUM/AUTH/FAC
 3. @READ[definitions/THREATS.md]    → load @THR[]
 4. @READ[forensic/GATES.md]        → load behavioral rules (see GATES.md §1)
-4. SCAN SUBJECT: for each of 15 symbols → score [0-10]
+5. SCAN SUBJECT: for each of 15 symbols → score [0-10]
    + @PAT[] signature match + @THR[] detection + rhetorical families [0-10]
-5. LOAD clusters (thresholds per SYMBOLS.md §4):
+6. LOAD clusters (thresholds per SYMBOLS.md §4):
    IF complexity = SIMPLE: SKIP cluster loading (save context window)
    IF complexity ≥ MEDIUM:
      Score ≥5 → LOAD cluster (always)
@@ -71,7 +71,7 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
    HIGH additional loads (from SYMBOLS.md §4, score ≥7):
      Ξ≥7 → +GASLIGHTING | €≥7 → +NETWORK +POWER | Ω≥7 → +CONFIRMATION
    Scoring: use formulas from PATTERNS.md @PAT[] + cluster's own formulas
-6. OUTPUT MANIPULATION_REPORT (all fields below) → BLOCK if MANDATORY fields empty
+7. OUTPUT MANIPULATION_REPORT (all fields below) → BLOCK if MANDATORY fields empty
 ```
 
 ```
