@@ -45,8 +45,8 @@ New checks (NOT in KERNEL §2):
 | Checklist item | Severity |
 |---------------|----------|
 | Every ✦ fact has a URL | CRITICAL (enforces step 113-114) |
-| Dialectical has 3 perspectives | CRITICAL (enforces §3 MANDATORY) |
-| Hermeneutic L1-L6 complete | CRITICAL (enforces §3 MANDATORY APEX) |
+| Dialectical has 3 perspectives | CRITICAL (enforces KERNEL §3 MANDATORY) |
+| Hermeneutic L1-L6 complete | CRITICAL (enforces KERNEL §3 MANDATORY APEX) |
 | Wolves ≥ min named | SEVERE (enforces step 17) |
 | REQUEST_LOG complete | SEVERE (enforces step 136-142) |
 | No failed searches without retry | BLOCKING (R1 enforcement) |
@@ -97,7 +97,6 @@ IF any □ unchecked → execute corresponding correction (§3). DO NOT proceed 
 - Checklist (§4) executed at KERNEL §1 step 18b
 - §2 references KERNEL §2 gates — no duplication
 - §3 uses existing KERNEL feedback loops (lines 145-150) where applicable
-- Target: ~120 lines
 
 ---
 
