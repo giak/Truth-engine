@@ -73,18 +73,18 @@ New checks (NOT in KERNEL §2):
 IF any □ unchecked → execute corresponding correction (§3). DO NOT proceed to step 19.
 
 ```
-□ All 15 symbols scored in MANIPULATION_REPORT (KERNEL §0 step 4-6)
+□ All 15 symbols scored in MANIPULATION_REPORT (KERNEL §0 step 5-6)
 □ Clusters loaded per thresholds (KERNEL §0 step 6)
 □ CRÉDO has ≥12 queries (KERNEL §1 step 6, enforced by R5)
 □ FACT_REGISTRY has ≥min ✦ facts (KERNEL §1 step 10)
-□ EVERY ✦ fact has a URL (KERNEL §1 step 113-114)
+□ EVERY ✦ fact has a URL (KERNEL §1 step 10)
 □ Causality chains ≥3 links, ≥min count (KERNEL §1 step 11)
 □ Impact has ALL 4 matrices (KERNEL §3 MANDATORY APEX)
 □ Dialectical has 3 perspectives (KERNEL §1 step 8t)
 □ Hermeneutic L1-L6 complete (KERNEL §3 MANDATORY APEX)
 □ Wolves ≥min named (KERNEL §1 step 17)
 □ EDI calculated + BIAS applied (KERNEL §1 step 16)
-□ REQUEST_LOG complete with ALL tool calls (KERNEL §1 step 136-142)
+□ REQUEST_LOG complete with ALL tool calls (KERNEL §1 lines 140-146)
 □ No failed searches without retry (R1 enforcement)
 □ Symmetry applied if accusation (KERNEL §1 step 5, enforced by R3)
 ```
@@ -96,7 +96,7 @@ IF any □ unchecked → execute corresponding correction (§3). DO NOT proceed 
 - Behavioral rules (§1) loaded at KERNEL §0 step 4
 - Checklist (§4) executed at KERNEL §1 step 18b
 - §2 references KERNEL §2 gates — no duplication
-- §3 uses existing KERNEL feedback loops (lines 145-150) where applicable
+- §3 uses existing KERNEL feedback loops (lines 149-154) where applicable
 
 ---
 
