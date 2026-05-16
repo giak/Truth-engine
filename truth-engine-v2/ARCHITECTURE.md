@@ -80,16 +80,16 @@
                                      │   ORCHESTRATOR  │
                                      └────────┬────────┘
                                               │
-                           §0 step 1 ─────────┼───────── §0 step 2 ────────── §0 step 3
-                           ┌──────────────────┼──────────────────┐
-                           │                  │                  │
-                    ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
-                    │ SYMBOLS.md  │   │ PATTERNS.md │   │ THREATS.md  │
-                    │ 123L        │   │ 200L        │   │ 129L        │
-                    │ ONTOLOGY    │   │ FORMULAS    │   │ THREATS     │
-                    └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
-                           │                  │                  │
-                           │           §0 step 5 (score ≥5)     │
+                            §0 step 1 ─────────┼───────── §0 step 2 ────────── §0 step 3 ────────── §0 step 4
+                            ┌──────────────────┼──────────────────┼──────────────────┐
+                            │                  │                  │                  │
+                     ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
+                     │ SYMBOLS.md  │   │ PATTERNS.md │   │ THREATS.md  │   │  GATES.md   │
+                     │ 123L        │   │ 200L        │   │ 129L        │   │  ~103L      │
+                     │ ONTOLOGY    │   │ FORMULAS    │   │ THREATS     │   │ GATES       │
+                     └──────┬──────┘   └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
+                            │                  │                  │                  │
+                            │           §0 step 5 (score ≥5)     │                  │
                            │                  │                  │
                            │    ┌─────────────┼─────────────┐    │
                            │    │             │             │    │
@@ -305,7 +305,7 @@ But these clusters are only loaded if scores ≥5. INVESTIGATION.md should say "
 | B1 | KERNEL: inline mapping → reference SYMBOLS.md §4 | 2 min | LOW |
 | B2 | KERNEL: EDI compact → reference EPISTEMIC §4 | 2 min | LOW |
 
-**Resolved:** B4 (GASLIGHTING note added), B6 (sections<15 gate fixed), B7 (IMPACT/DIALECTICAL aligned).
+**Resolved:** G1 (GATES.md added to Layer 5, counts updated, dependency graph updated), B4 (GASLIGHTING note added), B6 (sections<15 gate fixed), B7 (IMPACT/DIALECTICAL aligned).
 
 ---
 
