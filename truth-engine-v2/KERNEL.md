@@ -57,6 +57,7 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
 1. @READ[definitions/SYMBOLS.md]   → load 15 narrative + epistemic + factual symbols
 2. @READ[definitions/PATTERNS.md]   → load @PAT[] + rhetorical families DEM/BF/NUM/AUTH/FAC
 3. @READ[definitions/THREATS.md]    → load @THR[]
+4. @READ[forensic/GATES.md]        → load behavioral rules (see GATES.md §1)
 4. SCAN SUBJECT: for each of 15 symbols → score [0-10]
    + @PAT[] signature match + @THR[] detection + rhetorical families [0-10]
 5. LOAD clusters (thresholds per SYMBOLS.md §4):
@@ -129,6 +130,9 @@ MANIPULATION_REPORT:
    TARGET: DEFAULT A=.80 SENS=.65 PROSP=.50 INTL=.65
 17 WOLVES           M≥5 C≥8 A≥12 (name individuals, not categories)
 18 GATE_CHECK       §3 → block if fail
+18b GATE_AUTO       Execute GATES.md §4 checklist
+                     IF fail → correction (GATES.md §3) | BLOCKING → STOP
+                     IF all pass → proceed to step 19
 19 SAVE             @MNEMO_S + @WRITE (BOTH mandatory)
    IF @MNEMO_S fails → log error, still @WRITE
    IF @WRITE content >50000 chars → split into 2 calls
@@ -213,7 +217,7 @@ APEX additionally: CAUSALITY ≥3 | IMPACT 4 matrices | CROSS_VERIFY ≥2
 @READ[protocol/INVESTIGATION.md]  @READ[protocol/PERSO_FRESQUE.md]
 @READ[clusters/{NAME}.md] (if score ≥5)
 @READ[search/EPISTEMIC.md]  @READ[search/TEMPLATES.md]  @READ[search/OPTIMIZATION.md]
-@READ[forensic/REASONING.md]  @READ[forensic/REQUEST_LOG.md]
+@READ[forensic/REASONING.md]  @READ[forensic/REQUEST_LOG.md]  @READ[forensic/GATES.md]
 @READ[tools/MACROS.md]  @READ[tools/DSL.md]  @READ[output/TEMPLATE.md]
 ```
 
