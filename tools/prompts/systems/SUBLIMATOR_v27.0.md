@@ -70,7 +70,7 @@ YYYY-MM-DD_<sujet>/
 2. Le dossier `sections/` contient un fichier par section (`1_`, `2_`, ... sans leading zero)
 3. **Date** = date de création du dossier projet (pas des investigations sources)
 4. **RÈGLE D'OR** : On ne passe JAMAIS au Tier 2 tant que le Tier 1 n'est pas validé (Checkpoint #1).
-5. `00_DIAGNOSTIC.md` est optionnel — uniquement si un brouillon pré-existant a été analysé
+5. `00A_DIAGNOSTIC.md` est optionnel — uniquement si un brouillon pré-existant a été analysé
 
 ---
 
