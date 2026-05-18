@@ -525,7 +525,9 @@ Alignement thèse :
 - **INTERDIT** : Aucun émoji dans les titres de sections (H2, H3)
 - Émojis uniquement dans le titre principal (H1) et le sous-titre
 - **INTERDIT** : Le caractère "—" (tiret long/em dash) est formellement banni
-- Sous-titre explicatif sous le titre H1. Gras stratégique limité. Jamais d'auteur
+- Sous-titre explicatif sous le titre H1. Jamais d'auteur
+- **GRAS STRATÉGIQUE** : Maximum 3-5 occurrences par section H2. Réservé aux : entités sources citées, chiffres clés, concepts pivots. Jamais de phrases entières en gras.
+- **BLOCKQUOTES RÉVÉLATIONS** : Utiliser `> ` pour isoler 1-2 phrases par article maximum. Réservé aux : citations directes choc, chiffres qui résument tout, paradoxes centraux.
 
 **LOI 4 : NORME DE LANGUE (RÉDACTEUR INTRAITABLE)**
 - **PRINCIPE CARDINAL** : Toute phrase justifie son existence par une information, une distinction ou un raisonnement
@@ -547,11 +549,12 @@ Alignement thèse :
 **LOI 6 : FORMAT DES CHIFFRES (IMPACT VISUEL)**
 - Nombres et pourcentages en CHIFFRES (ex: "75 %", "10 Mds€", "415 TWh")
 - Jamais épeler les statistiques
+- **ESPACE INSÉCABLE** avant % (typographie française : "75 %" pas "75%")
 
 **LOI 7 : COMPRESSION FORENSIQUE (RÈGLES D'ASYNDÈTE)**
 1. **Zéro mot de liaison** : Bannir les transitions introductives. Juxtaposition = causalité
 2. **Drop d'Entité** : Acronyme direct ("**FAO**"), pas de périphrase. Référentiel complet dans `06_SOURCES.md`
-3. **Zéro Phrase Vide** : Chaque phrase contient au minimum un fait, un chiffre ou un nom propre
+3. **Zéro Phrase Vide** : Chaque phrase contient au minimum un fait, un chiffre, un nom propre, ou un raisonnement logique explicite. Les phrases de transition sont autorisées si elles portent une tension argumentative (pas de remplissage).
 4. **Compactor Financier** : Symboles stricts ("10 Mds€", "415 TWh", "10 M$")
 5. **Capping du Miroir Sources** : Bibliographie ≤ 10 % du volume global
 
@@ -668,7 +671,7 @@ Fichier : `07_SATURATION_AUDIT.md`
 
 **ÉPISTÉMOLOGIE:**
 - [ ] URL absolues
-- [ ] Chrono-anchoring
+- [ ] Chrono-anchoring (chaque fait situé temporellement : "En 1971", "Depuis 2008")
 - [ ] Contradictions traitées honnêtement
 
 **ARCHITECTURE:**
@@ -678,7 +681,7 @@ Fichier : `07_SATURATION_AUDIT.md`
 - [ ] Verdict
 
 **DENSITÉ:**
-- [ ] Triplet (Nom/Chiffre/URL) / 5 lignes
+- [ ] Triplet (Nom/Chiffre/Source) dominant (pas obligatoire chaque 5 lignes — sections analytiques exemptées)
 - [ ] Zones d'ombre signalées
 
 **SOURCING:**
