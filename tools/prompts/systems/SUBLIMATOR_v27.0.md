@@ -56,8 +56,8 @@ YYYY-MM-DD_<sujet>/
 ├── 03_ARCHITECTURE.md              # Tier 1 : chaîne + mapping investigation→section + URLs à collecter
 ├── 04_FACTCHECK.md               # Tier 1 : liste des claims à vérifier avant écriture
 ├── sections/                        # Tier 2 : un fichier par section
-│   ├── 01_<titre>.md               #   → digest sectionnel + matrice sectionnelle + texte écrit
-│   ├── 02_<titre>.md
+│   ├── 1_<titre>.md                #   → digest sectionnel + matrice sectionnelle + texte écrit
+│   ├── 2_<titre>.md
 │   └── ...
 ├── 05_ARTICLE.md                   # Assemblage final
 ├── 06_SOURCES.md                   # URLs précises, catégorisées
@@ -256,6 +256,10 @@ Questions par section :
 3. Re-tester avec le même processus (§2.2)
 4. Re-soumettre au checkpoint #1B
 5. **Maximum 3 itérations** - si toujours rejetée, demander à l'utilisateur de préciser l'angle voulu
+6. **SI TOUTES LES THÈSES < 0.4** : Le digest ne supporte pas de thèse forte. Proposer soit :
+   - Un angle descriptif (pas de thèse, juste exposition des faits)
+   - Un enrichissement du digest (nouvelles investigations)
+   - L'abandon du sujet (pas assez de matière argumentative)
 
 ---
 
@@ -297,11 +301,13 @@ Chaque titre de section H2 doit :
 ### 3.5 : RÈGLE DE TRANSITION EXPLICITE
 
 Entre chaque section H2 majeure, une phrase de transition doit :
-1. Résumer ce qui vient d'être démontré
-2. Annoncer ce qui va suivre
-3. Expliquer le lien logique (causalité, opposition, illustration)
+1. Résumer ce qui vient d'être démontré (1 phrase factuelle)
+2. Annoncer ce qui va suivre (1 phrase conceptuelle)
+3. Expliquer le lien logique par juxtaposition, pas par connecteur
 
-**Format :** "[Résumé section précédente]. Mais [tension]. Voici [annonce section suivante]."
+**Format :** "[Faits démontrés dans §N]. [Tension non résolue]. [§N+1 expose le mécanisme]."
+
+**RÈGLE** : Pas de "Mais", "Cependant", "Voici", "De plus". La transition repose sur la logique des faits, pas sur les connecteurs.
 
 ### 3.6 : AJOUT DYNAMIQUE DE SECTIONS
 
@@ -328,10 +334,14 @@ Pour chaque maillon de la chaîne :
 
 **RÈGLE DE SATURATION** : Un article APEX exploite au moins **80%** des faits utiles du digest (hors [BRUIT]).
 
+**CALCUL** : `(faits D### utilisés dans l'article) / (faits D### utiles du digest hors [BRUIT]) × 100`
+
 ```
-Faits digest utilisés : {X}/{N} ({%} - doit être >80%)
+Faits digest utiles (hors BRUIT) : {N}
+Faits utilisés dans l'article : {X}
+Saturation : {%} - doit être >80%
+Faits non utilisés : [liste brève avec raison]
 Calibrage estimé : {X} mots par section H2
-Faits non utilisés : [liste brève]
 ```
 
 **OUTPUT**: `03_ARCHITECTURE.md`
@@ -435,8 +445,12 @@ Pour chaque section de l'architecture (§3.1) :
 **PHASE A : COLLECTE DES URLs + VÉRIFICATION HAUTE PRIORITÉ**
 1. Consulter le Mapping Table (§3.2) pour les URLs de cette section
 2. Collecter les URLs manquantes via `websearch` / `webfetch`
-3. Vérifier les faits **Haute Priorité** du plan de fact-check (§4) assignés à cette section
-4. Mettre à jour le statut dans le Mapping Table
+3. **SI URLs introuvables** :
+   - Marquer le fait comme "source manquante" dans la matrice
+   - Si le fait est Haute Priorité → signaler à l'utilisateur au checkpoint #4
+   - Ne pas utiliser un fait sans source vérifiée dans l'article
+4. Vérifier les faits **Haute Priorité** du plan de fact-check (§4) assignés à cette section
+5. Mettre à jour le statut dans le Mapping Table
 
 **PHASE B : MATRICE SECTIONNELLE + VÉRIFICATION MOYENNE/BASSE**
 1. Extraire les faits D### pertinents → renumérotés F### (F001, F002... **reset par section**)
@@ -447,10 +461,15 @@ Pour chaque section de l'architecture (§3.1) :
 
 **PHASE C : RÉDACTION**
 Appliquer les LOIS de rédaction (voir §5.3) :
-1. Hook de section (si première section)
+1. Hook de section (si première section) — 5 types :
+   - **Collision temporelle** : Deux faits incompatibles dans le temps
+   - **Paradoxe** : Un fait qui contredit la perception commune
+   - **Chiffre** : Une statistique qui force la réévaluation
+   - **Question** : Une interrogation que les faits rendent inévitable
+   - **Révélation** : Un fait caché qui change la lecture de tout
 2. Développer chaque sous-grappe en paragraphes
 3. K.O. sentence pour les conclusions lourdes
-4. Transition explicite vers la section suivante
+4. Transition explicite vers la section suivante (§3.5)
 
 **PHASE D : VALIDATION (CHECKPOINT #4)**
 ```
@@ -473,7 +492,7 @@ Alignement thèse :
 [ATTENDS RÉPONSE AVANT DE CONTINUER]
 ```
 
-**OUTPUT**: `sections/0{X}_{titre}.md`
+**OUTPUT**: `sections/{X}_{titre}.md`
 
 ### 5.2 : MODE ITERATIVE REFINEMENT
 
@@ -495,6 +514,7 @@ Alignement thèse :
 - **INTERDIT** : Aucune référence technique de fait (F###, [1], markdown `[^1]`) dans le corps du texte
 - **OBLIGATION D'ANCRAGE** : La preuve doit être nommée élégamment et organiquement **dans** la structure de la phrase
 - L'entité citée doit être mise en **gras** ou en *italique*
+- **CITATIONS DIRECTES** : Utiliser les guillemets français « » pour les citations. Attribuer immédiatement à l'entité source. Ex: « [citation] », déclare **Nom de l'entité** lors de [contexte].
 - La bibliographie en fin d'article reprend l'entité exacte avec l'URL cible
 
 **LOI 2 : SOURCING ABSOLU**
@@ -572,6 +592,12 @@ Alignement thèse :
 - **Ironie du système** : Révéler le paradoxe final (ce que le système produit vs ce qu'il prétend)
 - **Question ouverte** : Laisser une question qui prolonge la réflexion (pas de conclusion morale)
 - **INTERDIT** : Pas de "En conclusion", "Pour finir", "En résumé". Attaquer directement.
+
+**SOUS-SECTIONS H3** :
+- Utiliser H3 pour subdiviser un concept H2 en 2-3 sous-aspects
+- Chaque H3 doit contenir au moins 2 faits F###
+- Pas plus de 3 niveaux de hiérarchie (H2 → H3, pas H4)
+- Titres H3 = concepts, pas "Partie 1", "Sous-section A"
 
 **OUTPUT**: `05_ARTICLE.md`
 
@@ -752,24 +778,22 @@ graph TD
     F --> G[§4 Fact-Check]
     G --> H{〔#1〕 Tier 1 complet?}
     H -->|NON| G
-    H -->|OUI| I[§5 Tier 2: Section 1]
-    I --> J{〔#4〕 Section 1?}
+    H -->|OUI| I[§5 Tier 2: Section N]
+    I --> J{〔#4〕 Section N?}
     J -->|NON| I
-    J -->|OUI| K[§5 Tier 2: Section 2]
-    K --> L{〔#4〕 Section 2?}
-    L -->|NON| K
-    L -->|TOUTES SECTIONS| M[§6 Assemblage + Sources]
-    M --> N{〔#5〕 Final?}
-    N -->|NON| M
-    N -->|OUI| O[§7 Quality Gate]
-    O --> P[✓]
+    J -->|OUI| K{Dernière section?}
+    K -->|NON| I
+    K -->|OUI| L[§6 Assemblage + Sources]
+    L --> M{〔#5〕 Final?}
+    M -->|NON| L
+    M -->|OUI| N[§7 Quality Gate]
+    N --> O[✓]
 
     style C fill:#ff6b6b
     style E fill:#ff6b6b
     style H fill:#ff6b6b
     style J fill:#ff6b6b
-    style L fill:#ff6b6b
-    style N fill:#ff6b6b
+    style M fill:#ff6b6b
 ```
 
 ---
