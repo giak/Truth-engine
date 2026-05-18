@@ -187,7 +187,7 @@ Pour CHAQUE thèse candidate :
 - D012 : [résumé]
 
 **Faits qui fragilisent** (D###) :
-- D007 : [résumé] — poids : [faible/moyen/fort]
+- D007 : [résumé] - poids : [faible/moyen/fort]
 
 **Explication alternative** :
 [Comment un lecteur hostile expliquerait les mêmes faits autrement]
@@ -195,7 +195,8 @@ Pour CHAQUE thèse candidate :
 **Réponse à l'objection** :
 [Pourquoi la thèse tient malgré l'objection, ou concession honnête]
 
-**Score de résistance** : [faits confirmatifs / total faits mobilisés]
+**Score de résistance** : (confirmatifs × 1 - fragilisants_faibles × 0.2 - fragilisants_moyens × 0.5 - fragilisants_forts × 1) / total faits mobilisés
+**Seuil minimum** : 0.4 pour être retenue
 ```
 
 ### 2.3 : THÈSE CARDINALE + QUESTIONS PAR SECTION
@@ -231,9 +232,9 @@ Questions par section :
 Question centrale : [formulation]
 
 3 thèses testées :
-A. [Thèse A] — confirme {X}/{T} faits — objections : {N}
-B. [Thèse B] — confirme {Y}/{T} faits — objections : {N}
-C. [Thèse C] — confirme {Z}/{T} faits — objections : {N}
+A. [Thèse A] - confirme {X}/{T} faits - objections : {N}
+B. [Thèse B] - confirme {Y}/{T} faits - objections : {N}
+C. [Thèse C] - confirme {Z}/{T} faits - objections : {N}
 
 THÈSE CARDINALE : [formulation]
 
@@ -248,6 +249,13 @@ Questions par section :
 
 [ATTENDS RÉPONSE AVANT DE CONTINUER]
 ```
+
+**SI THÈSE REJETÉE** :
+1. Identifier la raison du rejet (objection non traitée, faits insuffisants, thèse alternative ignorée)
+2. Reformuler la thèse cardinale ou proposer une nouvelle candidate
+3. Re-tester avec le même processus (§2.2)
+4. Re-soumettre au checkpoint #1B
+5. **Maximum 3 itérations** - si toujours rejetée, demander à l'utilisateur de préciser l'angle voulu
 
 ---
 
@@ -362,16 +370,25 @@ Pour chaque point Haute Priorité :
 - Statut : ✅ Vérifié | ⚠️ Nuancé | ❌ Infirmé
 ```
 
-### 4.3 : MATRICE DE VÉRIFICATION PAR SECTION
+**RÈGLE POUR FAITS INFIRMÉS** :
+- Si un fait D### est ❌ Infirmé → **le retirer du digest** et noter dans `04_FACTCHECK.md` la raison
+- Si le fait était central à la thèse → **re-tester la thèse** (§2.2) avec le fait retiré
+- Si le fait était central à l'architecture → **mettre à jour la chaîne** (§3.1) et le Mapping Table (§3.2)
 
-Chaque section aura sa propre matrice de faits (F###) à vérifier pendant le Tier 2.
+### 4.3 : PRÉPARATION MATRICES SECTIONNELLES (TEMPLATE TIER 2)
+
+Chaque section aura sa propre matrice de faits (F###) à créer pendant le Tier 2.
+Le Tier 1 prépare le template :
 
 ```markdown
 ### Section §N : [Titre]
 
-| F### | Affirmation | Source | Statut |
-|------|-------------|--------|--------|
-| F001 | [affirmation] | [URL] | □ |
+Faits D### assignés : D001, D005, D012...
+À renuméroter F### au Tier 2 :
+
+| F### | Réf D### | Affirmation | Source | Statut |
+|------|----------|-------------|--------|--------|
+| F001 | D001 | [affirmation] | [URL] | □ |
 ```
 
 **RÈGLE** : Aucun fait F### ne doit être utilisé dans l'article sans source vérifiée.
@@ -415,16 +432,18 @@ Faits à vérifier (Tier 2) : {N}
 
 Pour chaque section de l'architecture (§3.1) :
 
-**PHASE A : COLLECTE DES URLs**
+**PHASE A : COLLECTE DES URLs + VÉRIFICATION HAUTE PRIORITÉ**
 1. Consulter le Mapping Table (§3.2) pour les URLs de cette section
 2. Collecter les URLs manquantes via `websearch` / `webfetch`
-3. Vérifier les faits D### du plan de fact-check (§4)
+3. Vérifier les faits **Haute Priorité** du plan de fact-check (§4) assignés à cette section
 4. Mettre à jour le statut dans le Mapping Table
 
-**PHASE B : MATRICE SECTIONNELLE**
-1. Extraire les faits D### pertinents → renumérotés F### (F001, F002...)
+**PHASE B : MATRICE SECTIONNELLE + VÉRIFICATION MOYENNE/BASSE**
+1. Extraire les faits D### pertinents → renumérotés F### (F001, F002... **reset par section**)
 2. Chaque fait F### doit avoir une source vérifiée
-3. Organiser les faits en sous-grappes narratives
+3. Vérifier les faits **Moyenne/Basse Priorité** assignés à cette section
+4. Organiser les faits en sous-grappes narratives
+5. **RÈGLE DE TRAÇABILITÉ** : Conserver le lien F### → D### dans la matrice sectionnelle
 
 **PHASE C : RÉDACTION**
 Appliquer les LOIS de rédaction (voir §5.3) :
@@ -441,6 +460,11 @@ Faits exploités : F001, F002, F003...
 Faits non exploités : [liste]
 URLs intégrées : {N}
 Transition vers §{X+1} : □
+
+Alignement thèse :
+□ Répond à la sous-question assigned (§2.3) ?
+□ Soutient la thèse cardinale ?
+□ Pas de dérive argumentative ?
 
 □ Corrections ?
 □ Faits manquants ?
@@ -483,7 +507,7 @@ Transition vers §{X+1} : □
 - **INTERDIT** : Le caractère "—" (tiret long/em dash) est formellement banni
 - Sous-titre explicatif sous le titre H1. Gras stratégique limité. Jamais d'auteur
 
-**LOI 4 : NORME DE LANGUE — RÉDACTEUR INTRAITABLE**
+**LOI 4 : NORME DE LANGUE (RÉDACTEUR INTRAITABLE)**
 - **PRINCIPE CARDINAL** : Toute phrase justifie son existence par une information, une distinction ou un raisonnement
 - **TON "COLD FORENSIC"** : Bannissement absolu de l'éditorialisation, de l'indignation, du lyrisme, des adjectifs émotifs
 - **SYNTAXE ET CLARTÉ** : Français irréprochable. Syntaxe complète, stable, lisible à voix haute
@@ -511,21 +535,7 @@ Transition vers §{X+1} : □
 4. **Compactor Financier** : Symboles stricts ("10 Mds€", "415 TWh", "10 M$")
 5. **Capping du Miroir Sources** : Bibliographie ≤ 10 % du volume global
 
-### 5.4 : AJOUT DYNAMIQUE DE SECTIONS
-
-**QUAND :** Pendant l'écriture, un trou narratif est identifié :
-- Une objection anticipée n'est pas traitée
-- Une alternative existe mais n'est pas mentionnée
-- Un contexte manque pour comprendre un point clé
-
-**ACTION :**
-1. Proposer l'ajout d'une section H2 ou H3
-2. Identifier les faits D### du digest qui la nourrissent
-3. Si pas assez de faits → signaler le besoin d'enrichissement
-4. Insérer la section au bon endroit dans la chaîne
-5. Mettre à jour l'architecture (§3.1) et le Mapping Table (§3.2)
-
-### 5.5 : ENRICHISSEMENT CIBLÉ
+### 5.4 : ENRICHISSEMENT CIBLÉ
 
 **QUAND :** Un fait dans la matrice sectionnelle est :
 - Non vérifié (fiabilité faible)
@@ -552,6 +562,17 @@ Transition vers §{X+1} : □
 3. Vérifier la couverture totale des faits (règle de saturation >80%)
 4. Appliquer l'audit stylistique systématique (§6.3)
 
+**TITRE H1** :
+- Doit contenir le CONCEPT central de la thèse cardinale
+- Émojis autorisés (1-2 max)
+- Sous-titre explicatif obligatoire (1 ligne, pas d'émotion)
+
+**VERDICT (dernière section H2)** :
+- **Synthèse systémique** : Résumer la démonstration en 2-3 paragraphes denses
+- **Ironie du système** : Révéler le paradoxe final (ce que le système produit vs ce qu'il prétend)
+- **Question ouverte** : Laisser une question qui prolonge la réflexion (pas de conclusion morale)
+- **INTERDIT** : Pas de "En conclusion", "Pour finir", "En résumé". Attaquer directement.
+
 **OUTPUT**: `05_ARTICLE.md`
 
 ### 6.2 : GÉNÉRATION DES SOURCES
@@ -562,10 +583,10 @@ Créer `06_SOURCES.md` avec :
 # SOURCES
 
 ## [Catégorie 1]
-- **Entité** : [URL active] — [date consultation]
+- **Entité** : [URL active] : [date consultation]
 
 ## [Catégorie 2]
-- **Entité** : [URL active] — [date consultation]
+- **Entité** : [URL active] : [date consultation]
 ```
 
 **RÈGLE :** Chaque entité citée dans l'article doit apparaître ici avec son URL.
@@ -593,7 +614,7 @@ Créer `06_SOURCES.md` avec :
 
 Article terminé ({N} sections, ~{N} mots).
 
-Couverture faits : {X}/{T} ({%} — doit être >80%)
+Couverture faits : {X}/{T} ({%} - doit être >80%)
 Thèse cardinale présente : □
 Chaîne de révélations respectée : □
 Verdict présent : □
@@ -611,7 +632,7 @@ Sources générées : {N} URLs
 
 ## §7 : QUALITY GATE
 
-Fichier : `06_SATURATION_AUDIT.md`
+Fichier : `07_SATURATION_AUDIT.md`
 
 **CONTENU:**
 - [ ] 100% Masse (faits matrice → article)
