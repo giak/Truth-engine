@@ -18,7 +18,7 @@
 **SI aucun brouillon n'existe :**
 → Passer directement au §1 CENSUS
 
-**OUTPUT (si brouillon existant) :** `00_DIAGNOSTIC.md`
+**OUTPUT (si brouillon existant) :** `00A_DIAGNOSTIC.md`
 - Problèmes structurels identifiés
 - Problèmes de forme identifiés
 - Sections manquantes
@@ -50,8 +50,8 @@
 **CONTENU DU DOSSIER:**
 ```
 YYYY-MM-DD_<sujet>/
-├── 00_DIAGNOSTIC.md                # (optionnel) si brouillon existant
-├── 00_CENSUS.md                    # Tier 1 : inventaire investigations
+├── 00A_DIAGNOSTIC.md               # (optionnel) si brouillon existant
+├── 00B_CENSUS.md                   # Tier 1 : inventaire investigations
 ├── 01_DIGEST.md                    # Tier 1 : digest orienté thèse (pas exhaustif)
 ├── 02_DIALECTIQUE.md               # Tier 1 : 3 thèses + test résistance + thèse cardinale
 ├── 03_ARCHITECTURE.md              # Tier 1 : chaîne + mapping investigation→section + URLs à collecter
@@ -66,7 +66,7 @@ YYYY-MM-DD_<sujet>/
 ```
 
 **RÈGLES DOSSIER:**
-1. Le préfixe numérique `00_` à `07_` garantit l'ordre de lecture des fichiers racine
+1. Le préfixe numérique `00A_` à `07_` garantit l'ordre de lecture des fichiers racine
 2. Le dossier `sections/` contient un fichier par section (`1_`, `2_`, ... sans leading zero)
 3. **Date** = date de création du dossier projet (pas des investigations sources)
 4. **RÈGLE D'OR** : On ne passe JAMAIS au Tier 2 tant que le Tier 1 n'est pas validé (Checkpoint #1).
@@ -90,10 +90,10 @@ Pour chaque investigation, noter :
 
 **SI THÈMES OVERLAP** : Si 2+ investigations couvrent le même thème, les grouper dans le census avec une note "→ cluster: [nom du thème]". Le digest les traitera comme un seul thème.
 
-**OUTPUT** : `00_CENSUS.md`
+**OUTPUT** : `00B_CENSUS.md`
 
 ```markdown
-# 00_CENSUS — [SUJET]
+# 00B_CENSUS — [SUJET]
 
 | # | Fichier | Type | Lignes | Thème dominant |
 |---|---------|------|--------|----------------|
@@ -107,10 +107,9 @@ Pour chaque investigation, noter :
 
 **MÉTHODE**:
 1. Pour chaque investigation, extraire les faits qui peuvent former une **argumentation**
-2. Ignorer le "bruit" (faits anecdotiques, répétitions, détails non argumentatifs)
-3. Grouper par thème, 10-20 faits max par thème
-4. Numéroter chaque fait : D001, D002, D003... (continu)
-5. Marquer les faits bruit : `[BRUIT]`
+2. Grouper par thème, 10-20 faits max par thème
+3. Numéroter chaque fait : D001, D002, D003... (continu)
+4. Marquer les faits inutiles pour la thèse : `[BRUIT]` (ils restent dans le digest pour traçabilité mais ne comptent pas dans le calcul de saturation)
 
 **FORMAT** : `01_DIGEST.md`
 
@@ -131,7 +130,7 @@ Pour chaque investigation, noter :
 - **INTERPRÉTATION** : THÈSE, ARGUMENT, CONNEXION, DÉFINITION
 - **MÉTA** : ERREUR, CONTRADICTION
 
-**RÈGLE DE DENSITÉ**: Le digest condensé doit contenir les faits **utiles pour construire une thèse**. Les faits purement descriptifs sans portée argumentative sont marqués `[BRUIT]`.
+**RÈGLE DE DENSITÉ**: Le digest condensé contient les faits utiles pour construire une thèse. Les faits purement descriptifs sans portée argumentative sont conservés mais marqués `[BRUIT]` (pour traçabilité, exclus du calcul de saturation).
 
 ---
 
@@ -199,7 +198,7 @@ Pour CHAQUE thèse candidate :
 **Réponse à l'objection** :
 [Pourquoi la thèse tient malgré l'objection, ou concession honnête]
 
-**Score de résistance** : (confirmatifs × 1 - fragilisants_faibles × 0.2 - fragilisants_moyens × 0.5 - fragilisants_forts × 1) / total faits mobilisés
+**Score de résistance** : max(0, confirmatifs × 1 - fragilisants_faibles × 0.2 - fragilisants_moyens × 0.5 - fragilisants_forts × 1) / total faits mobilisés
 **Seuil minimum** : 0.4 pour être retenue
 ```
 
@@ -498,7 +497,7 @@ Alignement thèse :
 [ATTENDS RÉPONSE AVANT DE CONTINUER]
 ```
 
-**OUTPUT**: `sections/{X}_{titre}.md`
+**OUTPUT**: `sections/{X}_{titre}.md` (titre en kebab-case, sans espaces ni caractères spéciaux)
 
 ### 5.2 : MODE ITERATIVE REFINEMENT
 
@@ -741,7 +740,7 @@ Vérifie :
 
 **RÈGLES:**
 1. Toujours suspendre aux checkpoints OBLIGATOIRES (#1A, #1B, #1, #4, #5)
-2. Jamais article complet sans 3+ validations
+2. Minimum 3 checkpoints validés avant article final (dont obligatoirement #1 et #5)
 3. Incertitude → ARRÊTER
 4. L'utilisateur = GARDE-FOU
 5. **APRÈS RÉPONSE UTILISATEUR** :
