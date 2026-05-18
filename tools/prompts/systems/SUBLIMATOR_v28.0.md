@@ -261,7 +261,7 @@ CRITIQUE (PHASE R) : Décision [ACCEPTER/REJETER]
 CORRECTEUR (PHASE C) : Anglicismes: {N} | Théâtral: {N} | Typo: {N}
 
 SECTIONNEL : Faits: F001... | Purges: [liste] | IDs primaires: {N} | Mots: {N} | Transition: [✓/✗]
-Alignement : □ Sous-question □ Thèse cardinale □ Pas de dérive
+Alignement : □ Sous-question (§2.3) □ Thèse cardinale □ Pas de dérive
 
 [TEXTE COMPLET DE LA SECTION]
 
