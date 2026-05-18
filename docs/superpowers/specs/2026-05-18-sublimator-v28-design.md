@@ -9,7 +9,7 @@
 
 ## 0. RÉSUMÉ EXÉCUTIF
 
-SUBLIMATOR v28.0 est une refonte architecturale majeure de v27.0. Elle résout 5 défaillances systémiques identifiées lors de l'audit forensique de l'article chemtrails :
+SUBLIMATOR v28.0 est une refonte architecturale majeure de v27.0. Elle résout 5 défaillances systémiques identifiées lors d'audits forensiques sur des articles de sujets variés :
 
 1. **Illusion de l'agent unique** → Cycle multi-agent à 4 rôles distincts
 2. **LOI 4 abstraite** → Doctrine complète + glossaire anti-anglicismes + scoring mesurable
@@ -200,7 +200,7 @@ Le Correcteur DOIT :
 
 **Interdictions** :
 - ❌ "Des études montrent" → ✅ "L'étude de X (DOI: ..., année)"
-- ❌ "Un brevet récent" → ✅ "Le brevet US11260974B2 (Boeing, 2022)"
+- ❌ "Un brevet récent" → ✅ "Le brevet US11260974B2 (déposant, année)"
 
 ### 3.2 Vérification pré-rédaction (PURGE PRÉVENTIVE)
 
@@ -325,12 +325,12 @@ Après Checkpoint #5 validé :
 
 | Version | Changements |
 |---------|-----------|
-| **v28.0** | **"The Multi-Agent Pipeline"** : Refonte architecturale complète. <br> - **Cycle multi-agent** : Écrivain → Critique → Correcteur → Arbitre (4 rôles distincts). <br> - **Scoring 5 critères** : Pureté lexicale, rigueur factuelle, cohérence thèse, style forensic, structure cognitive. <br> - **LOI 4 complète** : Doctrine Rédacteur Intraitable + glossaire anti-anglicismes vivant + détection syntaxique. <br> - **DOI enforcement** : Identifiants primaires obligatoires (DOI, brevets, titres d'études). <br> - **Module vérification brevets** : Consultation USPTO/patents.google avant citation. <br> - **Checkpoint #4 scoring** : Template de validation multi-agent avec scores, diagnostics, corrections. <br> - **Auto-renommage** : Migration automatique vers `/articles/` et `/sources/` après validation. <br> - **Rapport d'échec** : Si 3 itérations sans succès, diagnostic détaillé + recommandations. |
+| **v28.0** | **"The Multi-Agent Pipeline"** : Refonte architecturale complète. <br> - **Cycle multi-agent** : Écrivain → Critique → Correcteur → Arbitre (4 rôles distincts). <br> - **Scoring 5 critères** : Pureté lexicale, rigueur factuelle, cohérence thèse, style forensic, structure cognitive. <br> - **LOI 4 complète** : Doctrine Rédacteur Intraitable + glossaire anti-anglicismes vivant + détection syntaxique. <br> - **DOI enforcement** : Identifiants primaires obligatoires (DOI, brevets, titres d'études). <br> - **Module vérification brevets** : Consultation USPTO/patents.google avant citation. <br> - **Checkpoint #4 scoring** : Template de validation multi-agent avec scores, diagnostics, corrections. <br> - **Auto-renommage** : Migration automatique vers `/articles/` et `/sources/` après validation. <br> - **Rapport d'échec** : Si 3 itérations sans succès, diagnostic détaillé + recommandations. <br> - **Généricité totale** : Pipeline sujet-agnostique, adaptable à tout domaine (science, politique, histoire, économie, technologie). |
 | **v27.1** | "Typographie & Qualité Éditoriale" : Correction tiret cadratin, blockquotes, calibrage 400-600 mots. |
 
 ---
 
-## 7. FICHIERS À MODIFIER
+## 10. FICHIERS À MODIFIER
 
 | Fichier | Modifications |
 |---------|---------------|
@@ -339,7 +339,56 @@ Après Checkpoint #5 validé :
 
 ---
 
-## 8. RISQUES ET MITIGATIONS
+## 8. GÉNÉRICITÉ ET ADAPTABILITÉ
+
+### 8.1 Principe de sujet-agnosticisme
+
+SUBLIMATOR v28.0 est conçu pour être **totalement indépendant du sujet**. Aucune règle, aucun seuil, aucun template ne contient de logique spécifique à un domaine.
+
+**Règles de conception générique** :
+- Les doctrines (Écrivain, Critique, Correcteur) s'appliquent à tout sujet : politique, science, histoire, économie, technologie
+- Le glossaire anti-anglicismes est **universel** — il ne contient pas de termes spécifiques à un domaine
+- Les 5 critères de scoring sont **transversaux** — ils évaluent la qualité d'écriture, pas le contenu thématique
+- Le template de Checkpoint #4 est **identique** quel que soit le sujet
+
+### 8.2 Adaptation contextuelle automatique
+
+Le pipeline s'adapte au sujet via les mécanismes suivants :
+
+**Type de source requis** : Déterminé dynamiquement par le type de faits dans la matrice :
+- Sujet scientifique → DOI, études, rapports institutionnels
+- Sujet juridique → numéros de loi, jurisprudences, codes
+- Sujet historique → archives, témoignages, documents d'époque
+- Sujet économique → données INSEE, rapports financiers, bilans
+- Sujet technologique → patents, specs techniques, documentation
+
+**Calibrage des sections** : Ajustable selon la complexité du sujet :
+- Sujet technique dense → sections de 500-700 mots (plus de faits par section)
+- Sujet narratif/historique → sections de 400-600 mots (équilibre faits/narration)
+- Le calibrage par défaut (400-600) est un point de départ, pas une règle absolue
+
+**Glossaire extensible par domaine** :
+- Le glossaire de base couvre les anglicismes transversaux
+- Si un sujet introduit du jargon technique anglais spécifique, le Correcteur l'ajoute au glossaire maître
+- Le glossaire s'enrichit organiquement sans jamais se spécialiser au point d'exclure d'autres sujets
+
+### 8.3 Interdictions de spécialisation
+
+**Le pipeline NE DOIT PAS** :
+- Créer de règles spécifiques à un sujet (ex: "pour les chemtrails, vérifier X")
+- Modifier les seuils de scoring selon le sujet
+- Ajouter des doctrines spécifiques à un domaine
+- Hardcoder des URLs, des noms d'entités, ou des références dans le prompt système
+
+**Le pipeline DOIT** :
+- Découvrir le sujet via le Census (§1)
+- Adapter la collecte de sources au type de faits identifiés
+- Appliquer les mêmes LOIS 1-7 quel que soit le sujet
+- Produire un article de qualité identique sur tout thème
+
+---
+
+## 9. RISQUES ET MITIGATIONS
 
 | Risque | Impact | Mitigation |
 |--------|--------|------------|
