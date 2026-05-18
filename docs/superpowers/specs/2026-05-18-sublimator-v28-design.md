@@ -250,7 +250,74 @@ Avant de citer un brevet, l'Écrivain DOIT :
 
 ## 4. CHECKPOINT #4 : TEMPLATE DE SCORING
 
-### 4.1 Structure du checkpoint
+### 4.1 Template complet du Checkpoint #4
+
+```
+〔VERIFICATION NEEDED #4 : Section {X} "{Titre}" — Cycle v28.0〕
+
+═══════════════════════════════════════════════════════════
+  SCORES DU CYCLE MULTI-AGENT (itération {N}/3)
+═══════════════════════════════════════════════════════════
+
+  Critère                    Score  Seuil  Statut
+  ─────────────────────────────────────────────────
+  Pureté lexicale              {/5}    ≥4    [✓/✗]
+  Rigueur factuelle            {/5}    ≥4    [✓/✗]
+  Cohérence thèse              {/5}    ≥4    [✓/✗]
+  Style forensic               {/5}    ≥4    [✓/✗]
+  Structure cognitive          {/5}    ≥4    [✓/✗]
+  ─────────────────────────────────────────────────
+  MOYENNE                      {/5}    ≥4    [✓/✗]
+
+═══════════════════════════════════════════════════════════
+  DIAGNOSTIC DU CRITIQUE (PHASE R)
+═══════════════════════════════════════════════════════════
+
+  Décision : [ACCEPTER / REJETER]
+
+  Ω Analyse de fond : [commentaire]
+  Ξ Diagnostic stylistique : [commentaire]
+  Φ Structure & narration : [commentaire]
+  Λ Contexte & lectorat : [commentaire]
+  M Mémoire longue : [commentaire]
+  Ψ Métacognition éditoriale : [commentaire]
+
+═══════════════════════════════════════════════════════════
+  CORRECTIONS DU CORRECTEUR (PHASE C)
+═══════════════════════════════════════════════════════════
+
+  Anglicismes corrigés : {N}
+  Formules théâtrales corrigées : {N}
+  Typographie corrigée : {N}
+
+═══════════════════════════════════════════════════════════
+  DONNÉES SECTIONNELLES
+═══════════════════════════════════════════════════════════
+
+  Faits exploités : F001, F002, ...
+  Identifiants primaires intégrés : {N}
+  Mots : {N} (calibrage : 400-600)
+  Transition vers §{X+1} : [✓/✗]
+
+═══════════════════════════════════════════════════════════
+  TEXTE DE LA SECTION (version corrigée)
+═══════════════════════════════════════════════════════════
+
+  [texte complet]
+
+═══════════════════════════════════════════════════════════
+  DÉCISION UTILISATEUR
+═══════════════════════════════════════════════════════════
+
+  □ ACCEPTER — passer à la section suivante
+  □ ACCEPTER AVEC RÉSERVES — noter, continuer
+  □ DEMANDER MODIFICATIONS — préciser
+  □ REJETER — retour cycle (itération {N+1}/3)
+
+  [ATTENDS RÉPONSE AVANT DE CONTINUER]
+```
+
+### 4.2 Structure du checkpoint
 
 Le Checkpoint #4 présente à l'utilisateur :
 
@@ -330,12 +397,12 @@ Après Checkpoint #5 validé :
 
 ---
 
-## 10. FICHIERS À MODIFIER
+## 7. FICHIERS À MODIFIER
 
 | Fichier | Modifications |
 |---------|---------------|
 | `tools/prompts/systems/SUBLIMATOR_v27.0.md` | Renommer en `SUBLIMATOR_v28.0.md`. Réécrire §0.2, §5.1, §5.3 (LOI 1, 2, 4), §6.1, §6.4, §7, §11. |
-| `investigations/2026-05-18_chemtrails/05_ARTICLE.md` | Renommer et migrer vers `articles/2026-05-18_HH-MM_chemtrails_ARTICLE.md` après régénération. |
+| `investigations/YYYY-MM-DD_<sujet>/05_ARTICLE.md` | Renommer et migrer vers `articles/YYYY-MM-DD_HH-MM_<sujet>_ARTICLE.md` après régénération. |
 
 ---
 
@@ -375,7 +442,7 @@ Le pipeline s'adapte au sujet via les mécanismes suivants :
 ### 8.3 Interdictions de spécialisation
 
 **Le pipeline NE DOIT PAS** :
-- Créer de règles spécifiques à un sujet (ex: "pour les chemtrails, vérifier X")
+- Créer de règles spécifiques à un sujet (ex: "pour le sujet X, vérifier Y")
 - Modifier les seuils de scoring selon le sujet
 - Ajouter des doctrines spécifiques à un domaine
 - Hardcoder des URLs, des noms d'entités, ou des références dans le prompt système
