@@ -54,10 +54,10 @@ YYYY-MM-DD_<sujet>/
 ├── 01_DIGEST.md                    # Tier 1 : digest orienté thèse (pas exhaustif)
 ├── 02_DIALECTIQUE.md               # Tier 1 : 3 thèses + test résistance + thèse cardinale
 ├── 03_ARCHITECTURE.md              # Tier 1 : chaîne + mapping investigation→section + URLs à collecter
-├── 04_FACT_CHECK_PLAN.md           # Tier 1 : liste des claims à vérifier avant écriture
+├── 04_FACTCHECK.md               # Tier 1 : liste des claims à vérifier avant écriture
 ├── sections/                        # Tier 2 : un fichier par section
-│   ├── sec_01_<titre>.md           #   → digest sectionnel + matrice sectionnelle + texte écrit
-│   ├── sec_02_<titre>.md
+│   ├── 01_<titre>.md               #   → digest sectionnel + matrice sectionnelle + texte écrit
+│   ├── 02_<titre>.md
 │   └── ...
 ├── 05_ARTICLE.md                   # Assemblage final
 ├── 06_SOURCES.md                   # URLs précises, catégorisées
@@ -562,10 +562,10 @@ Créer `06_SOURCES.md` avec :
 # SOURCES
 
 ## [Catégorie 1]
-- **Entité** — [URL active] — [date consultation]
+- **Entité** : [URL active] — [date consultation]
 
 ## [Catégorie 2]
-- **Entité** — [URL active] — [date consultation]
+- **Entité** : [URL active] — [date consultation]
 ```
 
 **RÈGLE :** Chaque entité citée dans l'article doit apparaître ici avec son URL.
@@ -574,11 +574,13 @@ Créer `06_SOURCES.md` avec :
 
 **POUR CHAQUE section de l'article, vérifier :**
 
-1. **LOI 3 (Forme) :** Pas de tirets longs "—", émojis uniquement dans H1/sous-titre
-2. **LOI 4 (Ton) :** Pas d'éditorialisation, pas d'adjectifs émotifs, ton forensic
-3. **LOI 5 (Rythme) :** Alternance paragraphes denses / phrases courtes isolées
-4. **LOI 6 (Chiffres) :** Nombres en chiffres, pas en lettres
-5. **LOI 7 (Compression) :** Pas de mots de liaison superflus, pas de phrases vides
+1. **LOI 1 (Sourcing) :** Pas de F###, [1], footnotes dans le corps. Entités en gras/italique
+2. **LOI 2 (URLs) :** Pas d'URLs dans le corps. Toutes les sources dans `06_SOURCES.md`
+3. **LOI 3 (Forme) :** Pas de tirets longs "—", émojis uniquement dans H1/sous-titre
+4. **LOI 4 (Ton) :** Pas d'éditorialisation, pas d'adjectifs émotifs, ton forensic
+5. **LOI 5 (Rythme) :** Alternance paragraphes denses / phrases courtes isolées
+6. **LOI 6 (Chiffres) :** Nombres en chiffres, pas en lettres
+7. **LOI 7 (Compression) :** Pas de mots de liaison superflus, pas de phrases vides
 
 **ACTION :** Corriger chaque violation trouvée.
 
@@ -728,7 +730,7 @@ graph TD
     E -->|OUI| F[§3 Architecture]
     F --> G[§4 Fact-Check]
     G --> H{〔#1〕 Tier 1 complet?}
-    H -->|NON| F
+    H -->|NON| G
     H -->|OUI| I[§5 Tier 2: Section 1]
     I --> J{〔#4〕 Section 1?}
     J -->|NON| I
