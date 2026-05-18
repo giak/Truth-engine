@@ -30,7 +30,7 @@
 
 **7 PRINCIPES:**
 1. **TWO-TIER**: Tier 1 (article) d'abord, Tier 2 (sections) ensuite. Jamais l'inverse.
-2. **THESIS-FIRST**: La thèse cardinale guide tout. Pas de thèse = pas d'écriture.
+2. **THESIS-FIRST** : La thèse cardinale guide tout. **Exception** : si le digest ne supporte aucune thèse (score < 0.4 après 3 itérations), un angle descriptif est autorisé — mais doit être signalé comme tel.
 3. **URLs BEFORE WRITING**: Collecter les URLs précises AVANT d'écrire chaque section.
 4. **FACT-CHECK PROACTIF**: Plan de vérification au Tier 1, exécution au Tier 2.
 5. **SECTION AUTONOMY**: Chaque section est autonome, vérifiée, sourcée avant de passer à la suivante.
@@ -50,6 +50,7 @@
 **CONTENU DU DOSSIER:**
 ```
 YYYY-MM-DD_<sujet>/
+├── 00_DIAGNOSTIC.md                # (optionnel) si brouillon existant
 ├── 00_CENSUS.md                    # Tier 1 : inventaire investigations
 ├── 01_DIGEST.md                    # Tier 1 : digest orienté thèse (pas exhaustif)
 ├── 02_DIALECTIQUE.md               # Tier 1 : 3 thèses + test résistance + thèse cardinale
@@ -69,6 +70,7 @@ YYYY-MM-DD_<sujet>/
 2. Le dossier `sections/` contient un fichier par section (digest + matrice + texte)
 3. **Date** = date de création du dossier projet (pas des investigations sources)
 4. **RÈGLE D'OR** : On ne passe JAMAIS au Tier 2 tant que le Tier 1 n'est pas validé (Checkpoint #1).
+5. `00_DIAGNOSTIC.md` est optionnel — uniquement si un brouillon pré-existant a été analysé
 
 ---
 
@@ -278,11 +280,11 @@ Questions par section :
 **RÈGLE**: Chaque section doit mapper ses investigations sources.
 
 ```markdown
-| Section | Investigations sources | Faits clés (D###) | URLs à collecter | Statut |
-|---------|----------------------|-------------------|------------------|--------|
-| §1 Paradoxe | inv_A, inv_B | D001, D005, D012 | INSEE, OCDE, CEVIPOF | □ |
-| §2 Peur | inv_C, inv_D | D023, D034, D045 | Légifrance, Amnesty | □ |
-| §3 Géographie | inv_E, inv_F | D056, D067 | INSEE, ANRU | □ |
+| Section | Investigations sources | Faits clés (D###) | Sources à consulter | URLs trouvées | Statut |
+|---------|----------------------|-------------------|---------------------|---------------|--------|
+| §1 Paradoxe | inv_A, inv_B | D001, D005, D012 | insee.fr, oecd.org | https://... | □ |
+| §2 Peur | inv_C, inv_D | D023, D034, D045 | legifrance.gouv.fr | https://... | □ |
+| §3 Géographie | inv_E, inv_F | D056, D067 | insee.fr, anru.fr | https://... | □ |
 ```
 
 ### 3.3 : RÈGLE DE NON-RÉPÉTITION
@@ -290,6 +292,7 @@ Questions par section :
 Chaque fait du digest ne doit apparaître qu'UNE SEULE FOIS dans la chaîne, sauf si :
 - Il est cité comme référence rétrospective ("comme vu plus haut")
 - Il sert de pivot entre deux sections (transition explicite)
+- **VERDICT** : La section finale peut synthétiser 2-3 faits clés déjà utilisés (c'est la fonction du verdict)
 
 ### 3.4 : RÈGLE DE NOMMAGE DES SECTIONS
 
@@ -329,6 +332,7 @@ Pour chaque maillon de la chaîne :
 
 | # | "Pourquoi je te croirais ?" | Preuve fournie (D###) | Explication alternative | Réfutation |
 |---|---------------------------|----------------------|------------------------|------------|
+| 1 | "Ce chiffre est isolé" | D012, D034, D056 | "Cherry-picking" | 3 sources indépendantes convergent |
 
 ### 3.8 : COUVERTURE ET CALIBRAGE
 
@@ -555,7 +559,7 @@ Alignement thèse :
 1. **Zéro mot de liaison** : Bannir les transitions introductives. Juxtaposition = causalité
 2. **Drop d'Entité** : Acronyme direct ("**FAO**"), pas de périphrase. Référentiel complet dans `06_SOURCES.md`
 3. **Zéro Phrase Vide** : Chaque phrase contient au minimum un fait, un chiffre, un nom propre, ou un raisonnement logique explicite. Les phrases de transition sont autorisées si elles portent une tension argumentative (pas de remplissage).
-4. **Compactor Financier** : Symboles stricts ("10 Mds€", "415 TWh", "10 M$")
+4. **Compactor Financier** : Symboles stricts ("10 Mds€", "415 TWh", "10 M$"). Zéro lettres. Autres unités : "12 M hab.", "340 km²", "6 mois", "J+30".
 5. **Capping du Miroir Sources** : Bibliographie ≤ 10 % du volume global
 
 ### 5.4 : ENRICHISSEMENT CIBLÉ
@@ -626,10 +630,10 @@ Créer `06_SOURCES.md` avec :
 
 1. **LOI 1 (Sourcing) :** Pas de F###, [1], footnotes dans le corps. Entités en gras/italique
 2. **LOI 2 (URLs) :** Pas d'URLs dans le corps. Toutes les sources dans `06_SOURCES.md`
-3. **LOI 3 (Forme) :** Pas de tirets longs "—", émojis uniquement dans H1/sous-titre
+3. **LOI 3 (Forme) :** Pas de tirets longs "—", émojis uniquement dans H1/sous-titre, gras ≤3-5/section, blockquotes ≤2/article
 4. **LOI 4 (Ton) :** Pas d'éditorialisation, pas d'adjectifs émotifs, ton forensic
 5. **LOI 5 (Rythme) :** Alternance paragraphes denses / phrases courtes isolées
-6. **LOI 6 (Chiffres) :** Nombres en chiffres, pas en lettres
+6. **LOI 6 (Chiffres) :** Nombres en chiffres, espace insécable avant %
 7. **LOI 7 (Compression) :** Pas de mots de liaison superflus, pas de phrases vides
 
 **ACTION :** Corriger chaque violation trouvée.
