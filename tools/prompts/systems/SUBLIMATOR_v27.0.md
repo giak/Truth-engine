@@ -354,7 +354,7 @@ Calibrage estimé : {X} mots par section H2
 
 ## §4 : TIER 1 — PLAN DE FACT-CHECK (OBLIGATOIRE)
 
-**RÈGLE : Le fact-checking est PROACTIF, pas réactif. On ne vérifie pas après avoir écrit. On vérifie AVANT.**
+**RÈGLE : Le fact-checking est PLANIFIÉ au Tier 1, EXÉCUTÉ au Tier 2. On identifie WHAT vérifier avant d'écrire, on vérifie HOW pendant l'écriture.**
 
 ### 4.1 : IDENTIFICATION DES POINTS CRITIQUES
 
@@ -362,12 +362,12 @@ Pour chaque fait D### du digest qui sera utilisé dans l'article :
 
 | D### | Affirmation | Vérifié ? (Y/N) | Source prévue | Priorité (H/M/L) |
 |------|-------------|-----------------|---------------|------------------|
-| D001 | [affirmation] | N | [URL/source] | H |
+| D001 | [affirmation] | N | [URL/source prévue] | H |
 
 **RÈGLE DE PRIORITÉ** :
-- **Haute** : Chiffres, dates, noms propres, citations, statistiques
-- **Moyenne** : Contexte historique, interprétations, tendances
-- **Basse** : Faits évidents, consensus général
+- **Haute** : Chiffres, dates, noms propres, citations, statistiques → vérifiés en Tier 2 Phase A
+- **Moyenne** : Contexte historique, interprétations, tendances → vérifiés en Tier 2 Phase B
+- **Basse** : Faits évidents, consensus général → vérifiés si temps disponible
 
 ### 4.2 : VÉRIFICATION SYSTÉMATIQUE
 
