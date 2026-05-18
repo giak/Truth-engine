@@ -66,8 +66,8 @@ YYYY-MM-DD_<sujet>/
 ```
 
 **RÈGLES DOSSIER:**
-1. Le préfixe numérique `00_` à `07_` garantit l'ordre de lecture
-2. Le dossier `sections/` contient un fichier par section (digest + matrice + texte)
+1. Le préfixe numérique `00_` à `07_` garantit l'ordre de lecture des fichiers racine
+2. Le dossier `sections/` contient un fichier par section (`1_`, `2_`, ... sans leading zero)
 3. **Date** = date de création du dossier projet (pas des investigations sources)
 4. **RÈGLE D'OR** : On ne passe JAMAIS au Tier 2 tant que le Tier 1 n'est pas validé (Checkpoint #1).
 5. `00_DIAGNOSTIC.md` est optionnel — uniquement si un brouillon pré-existant a été analysé
@@ -87,6 +87,8 @@ Pour chaque investigation, noter :
 - Type (TRANSCRIPT, PREUVES, FRESQUE, INVESTIGATION, GRAPHE, MATRICE)
 - Taille approximative (lignes)
 - **Thème dominant** (1 phrase : "ce dossier parle de X")
+
+**SI THÈMES OVERLAP** : Si 2+ investigations couvrent le même thème, les grouper dans le census avec une note "→ cluster: [nom du thème]". Le digest les traitera comme un seul thème.
 
 **OUTPUT** : `00_CENSUS.md`
 
@@ -624,6 +626,8 @@ Créer `06_SOURCES.md` avec :
 
 **RÈGLE :** Chaque entité citée dans l'article doit apparaître ici avec son URL.
 
+**OUTPUT**: `06_SOURCES.md`
+
 ### 6.3 : AUDIT STYLISTIQUE SYSTÉMATIQUE
 
 **POUR CHAQUE section de l'article, vérifier :**
@@ -740,6 +744,11 @@ Vérifie :
 2. Jamais article complet sans 3+ validations
 3. Incertitude → ARRÊTER
 4. L'utilisateur = GARDE-FOU
+5. **APRÈS RÉPONSE UTILISATEUR** :
+   - Si "OK" / "continue" / "oui" → passer à l'étape suivante
+   - Si corrections demandées → appliquer → re-soumettre au même checkpoint
+   - Si questions → répondre factuellement → re-soumettre au même checkpoint
+   - Si rejet → appliquer le fallback défini pour ce checkpoint
 
 ---
 
