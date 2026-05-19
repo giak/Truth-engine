@@ -2,6 +2,10 @@
 
 *Comment l'aviation pollue, ne paie pas, et laisse le débat public se perdre dans les théories du complot*
 
+Regardez par le hublot. Ces traînées blanches qui barrent le ciel ne sont pas anodines. Elles représentent plus de la moitié de l'impact climatique de l'aviation. Elles ne sont régulées par aucun accord international. Le kérosène qui les produit n'est pas taxé. Et pendant que le débat public se concentre sur des épandages chimiques secrets physiquement impossibles, cent milliards d'euros de dommages environnementaux ne sont internalisés nulle part.
+
+Cet article ne parle pas de chemtrails. Il parle de ce que les chemtrails cachent : un secteur industriel dont les externalités sont gratuites, les émissions non régulées, et les morts non comptabilisés. La thèse est simple. Le privilège le plus visible de l'économie mondiale est aussi le moins discuté.
+
 ## §1 Les traînées que personne ne voit
 
 ### L'expérience 9/11
