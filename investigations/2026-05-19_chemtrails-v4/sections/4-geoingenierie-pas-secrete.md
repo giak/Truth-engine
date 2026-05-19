@@ -1,5 +1,7 @@
 ## §4 La géoingénierie n'est pas secrète
 
+### Programmes publics
+
 Le 10 août 2016, la revue *Environmental Research Letters* publie une étude signée par soixante-seize scientifiques sur soixante-dix-sept consultés. Conclusion : aucune preuve ne vient étayer l'existence d'un programme secret d'épandage atmosphérique à grande échelle (DOI : 10.1088/1748-9326/11/8/084011). Parmi les signataires, **Ken Caldeira**, chercheur à la Carnegie Institution for Science et membre du groupe de travail sur la géoingénierie solaire. Le même homme cosigne une étude niant l'existence d'un programme secret et détient au moins quarante-deux brevets décrivant des techniques de modification atmosphérique.
 
 Ce paradoxe n'est pas une anomalie. Il est la norme.
@@ -10,8 +12,14 @@ Aux États-Unis, le programme AtmoSense de la **DARPA** est achevé. Son objecti
 
 Le Government Accountability Office publie en décembre 2024 le rapport **GAO-25-107328**. Il documente neuf États américains pratiquant activement l'ensemencement de nuages avec de l'iodure d'argent. La Chine consacre deux milliards de dollars à la modification météorologique entre 2014 et 2021. Les Émirats arabes unis allouent vingt-deux virgule cinq millions de dollars de subventions depuis 2016. L'Arabie saoudite engage deux cent cinquante-six millions de dollars en 2022.
 
-Le projet **SCoPEx** de Harvard, initié par David Keith et Frank Keutsch, prévoyait de lancer un ballon stratosphérique depuis la Suède afin de relâcher du carbonate de calcium et d'en mesurer la dispersion. Partiellement financé par Bill Gates via le Solar Geoengineering Research Program, le projet fait face à l'opposition du Saami Council et de groupes environnementaux. En mars 2024, Keutsch annonce l'abandon définitif. La recherche se poursuit via le Salata Institute, mais l'expérience de terrain est annulée.
+### Les brevets
 
 Les brevets aussi sont publics. Plus de cinquante documents relatifs à la modification atmosphérique ont été déposés entre 1891 et 2023. Intellectual Ventures, fondée par Nathan Myhrvold, détient un portefeuille de plus de trente mille brevets. Sa filiale Searete LLC apparaît comme titulaire de nombreux documents relatifs à la géoingénierie. Boeing, Elwha, l'Universidad de Sevilla : tous ont déposé des brevets décrivant des techniques de dispersion atmosphérique.
+
+Le brevet US9526216B2, délivré en 2016 à Elwha LLC, décrit un système de formation nuageuse par émission de particules chargées. Le brevet US12258463B2, déposé en 2022, détaille l'injection de particules polymères poreuses dans la stratosphère à une altitude d'au moins dix kilomètres. Le document qualifie explicitement le procédé de technique de géoingénierie solaire.
+
+### SCoPEx — l'expérience annulée
+
+Le projet **SCoPEx** de Harvard, initié par David Keith et Frank Keutsch, prévoyait de lancer un ballon stratosphérique depuis la Suède afin de relâcher du carbonate de calcium et d'en mesurer la dispersion. Partiellement financé par Bill Gates via le Solar Geoengineering Research Program, le projet fait face à l'opposition du Saami Council et de groupes environnementaux. En mars 2024, Keutsch annonce l'abandon définitif. La recherche se poursuit via le Salata Institute, mais l'expérience de terrain est annulée.
 
 La géoingénierie n'est pas secrète. Elle est publique, financée, patentée, débattue. Le paradoxe n'est pas qu'un programme caché existerait. Le paradoxe est que des programmes ouverts existent — et que personne n'en parle.

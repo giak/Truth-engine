@@ -1,5 +1,7 @@
 ## §2 Le privilège du kérosène
 
+### L'asymétrie réglementaire
+
 Les traînées ne sont pas le seul impact invisible de l'aviation. Les oxydes d'azote (NOx) émis par les réacteurs en altitude de croisière, entre neuf et douze kilomètres, sont deux à quatre fois plus dommageables que les mêmes émissions au sol. En haute altitude, le NOx catalyse la formation d'ozone troposphérique, un puissant gaz à effet de serre, tout en réduisant la concentration de méthane. Le bilan net, documenté par **Grewe** et ses collaborateurs dans *Atmospheric Chemistry and Physics* (DOI : 10.5194/acp-5-177-2005) et confirmé par l'**Agence européenne pour l'environnement** (EEA, rapport 2019), est largement positif : le NOx aérien contribue au réchauffement.
 
 Ce même NOx, au sol, tue. L'étude de **Stettler** et ses collaborateurs, publiée dans *Nature Climate Change* en 2013 (DOI : 10.1038/nclimate1964), estime à quatre mille le nombre de décès prématurés par an en Europe attribuables aux particules fines (PM2,5) émises par l'aviation. Quatre mille morts chaque année, d'insuffisance respiratoire, de cancer du poumon, d'accident cardiovasculaire. Ces décès ne sont pas imputables au CO₂. Ils sont la conséquence directe de la combustion du kérosène en basse altitude, lors des phases de décollage et d'atterrissage, et de la dispersion des particules sur les zones urbaines environnantes.
