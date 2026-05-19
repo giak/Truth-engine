@@ -18,6 +18,6 @@ Extrapoler de ces faits à un programme mondial d'épandage secret via avions co
 
 ### Les témoins
 
-Les témoignages de pilotes sont anonymes ou scientifiquement inexacts. Willem Felderhof, ex-pilote KLM, affirme que les turboréacteurs à haut taux de dilution ne produisent pas de traînées de condensation — ce qui est physiquement faux. **Kristen Meghan**, ancienne hygiéniste industrielle à la base de Tinker (Oklahoma), témoigne en janvier 2014 à Hauppauge (New York) d'analyses de baryum, strontium et aluminium. Son passage à Tinker est vérifiable. Ses résultats n'ont jamais été publiés. Son grade est contesté. Aucun document d'emploi indépendant ne corrobore ses affirmations.
+Les témoignages de pilotes sont anonymes ou scientifiquement inexacts. Willem Felderhof, ex-pilote KLM, affirme que les turboréacteurs à haut taux de dilution ne produisent pas de traînées de condensation, ce qui est physiquement faux. **Kristen Meghan**, ancienne hygiéniste industrielle à la base de Tinker (Oklahoma), témoigne en janvier 2014 à Hauppauge (New York) d'analyses de baryum, strontium et aluminium. Son passage à Tinker est vérifiable. Ses résultats n'ont jamais été publiés. Son grade est contesté. Aucun document d'emploi indépendant ne corrobore ses affirmations.
 
 Bilan : des éléments géochimiquement banals, des analyses sans protocole, des avions réels mais affectés à des usages légitimes, des témoignages non corroborés, une logistique inviable. La matière grise n'est pas une preuve.

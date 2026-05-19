@@ -18,8 +18,8 @@ Les brevets aussi sont publics. Plus de cinquante documents relatifs à la modif
 
 Le brevet US9526216B2, délivré en 2016 à Elwha LLC, décrit un système de formation nuageuse par émission de particules chargées. Le brevet US12258463B2, déposé en 2022, détaille l'injection de particules polymères poreuses dans la stratosphère à une altitude d'au moins dix kilomètres. Le document qualifie explicitement le procédé de technique de géoingénierie solaire.
 
-### SCoPEx — l'expérience annulée
+### SCoPEx : l'expérience annulée
 
 Le projet **SCoPEx** de Harvard, initié par David Keith et Frank Keutsch, prévoyait de lancer un ballon stratosphérique depuis la Suède afin de relâcher du carbonate de calcium et d'en mesurer la dispersion. Partiellement financé par Bill Gates via le Solar Geoengineering Research Program, le projet fait face à l'opposition du Saami Council et de groupes environnementaux. En mars 2024, Keutsch annonce l'abandon définitif. La recherche se poursuit via le Salata Institute, mais l'expérience de terrain est annulée.
 
-La géoingénierie n'est pas secrète. Elle est publique, financée, patentée, débattue. Le paradoxe n'est pas qu'un programme caché existerait. Le paradoxe est que des programmes ouverts existent — et que personne n'en parle.
+La géoingénierie n'est pas secrète. Elle est publique, financée, patentée, débattue. Le paradoxe n'est pas qu'un programme caché existerait. Le paradoxe est que des programmes ouverts existent, et que personne n'en parle.

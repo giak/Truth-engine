@@ -6,7 +6,7 @@ L'aviation civile transporte quatre milliards et demi de passagers par an, selon
 
 **Transport & Environment** estime à quatre-vingts à cent milliards d'euros par an le montant des externalités non internalisées de l'aviation en Europe. Cent milliards d'euros chaque année. Les quatre mille décès prématurés par an documentés par **Stettler** ont un coût sanitaire direct. L'**EEA** évalue à trente euros par kilogramme de PM2,5 le dommage sanitaire moyen en Europe. Un vol long-courrier émet environ cent cinquante kilogrammes de particules fines. Multipliez par cent mille vols par jour. Le calcul est comptable. Il n'apparaît dans aucun bilan.
 
-Les populations riveraines des aéroports payent cette facture en premier. Les études épidémiologiques menées autour de Heathrow, Roissy, Francfort documentent des taux d'hospitalisation pour pathologies respiratoires supérieurs de quinze à vingt-cinq pour cent dans un rayon de cinq kilomètres. Le bruit dépasse régulièrement les soixante-dix décibels — le seuil de l'**Organisation mondiale de la santé** pour les nuisances nocturnes.
+Les populations riveraines des aéroports payent cette facture en premier. Les études épidémiologiques menées autour de Heathrow, Roissy, Francfort documentent des taux d'hospitalisation pour pathologies respiratoires supérieurs de quinze à vingt-cinq pour cent dans un rayon de cinq kilomètres. Le bruit dépasse régulièrement les soixante-dix décibels, seuil de l'**Organisation mondiale de la santé** pour les nuisances nocturnes.
 
 ### Qui profite
 

@@ -6,7 +6,7 @@
 
 ### L'expérience 9/11
 
-Le 11 septembre 2001, l'espace aérien américain est fermé pendant trois jours. Quarante-cinq mille vols annulés. Aucun avion dans le ciel. Et pendant ces soixante-douze heures, quelque chose d'inattendu se produit : l'amplitude thermique diurne — la différence entre la température maximale du jour et la température minimale de la nuit — augmente de 1,1 °C sur l'ensemble du territoire. C'est **David Travis**, climatologue à l'université du Wisconsin-Whitewater, qui le documente dans *Nature* (Travis, Carleton, Lauritsen, 2002, DOI : 10.1038/nature01003). La conclusion est sans équivoque : les traînées de condensation, ces lignes blanches que les avions laissent derrière eux en haute altitude, exercent un effet mesurable sur le climat.
+Le 11 septembre 2001, l'espace aérien américain est fermé pendant trois jours. Quarante-cinq mille vols annulés. Aucun avion dans le ciel. Et pendant ces soixante-douze heures, quelque chose d'inattendu se produit : l'amplitude thermique diurne (la différence entre la température maximale du jour et la température minimale de la nuit) augmente de 1,1 °C sur l'ensemble du territoire. C'est **David Travis**, climatologue à l'université du Wisconsin-Whitewater, qui le documente dans *Nature* (Travis, Carleton, Lauritsen, 2002, DOI : 10.1038/nature01003). La conclusion est sans équivoque : les traînées de condensation, ces lignes blanches que les avions laissent derrière eux en haute altitude, exercent un effet mesurable sur le climat.
 
 Cet effet, la science le quantifie depuis deux décennies. En 2021, **Lee** et ses collaborateurs publient dans *Atmospheric Environment* (DOI : 10.1016/j.atmosenv.2021.118731) la synthèse la plus complète jamais réalisée sur l'impact climatique de l'aviation. Le résultat est sans appel : les traînées de condensation et les cirrus qu'elles induisent représentent 57 % du forçage radiatif total de l'aviation. Le CO₂ émis par les réacteurs n'en représente que 32 %. Le reste provient des oxydes d'azote et des particules de suie. Plus de la moitié de l'impact climatique de l'aviation ne vient pas du carbone, mais de la vapeur d'eau cristallisée en haute altitude.
 
@@ -28,7 +28,7 @@ Le kérosène aviation est le seul carburant de transport quasiment exempt de ta
 
 L'Europe tente de corriger cette asymétrie. La directive 2003/96/CE, révisée en 2023, propose une taxation progressive du kérosène pour les vols intra-européens. Le projet est bloqué par l'unanimité requise en matière fiscale. L'Irlande, les Pays-Bas, le Luxembourg s'y opposent. Pendant ce temps, le transport ferroviaire, bien moins émetteur, supporte la TVA à vingt pour cent et la taxe intérieure sur l'électricité.
 
-Les traînées ne sont pas régulées. Le NOx n'est pas taxé. Les particules fines ne sont pas comptabilisées dans les objectifs climatiques. L'aviation est le seul secteur industriel dont les externalités — environnementales, sanitaires, climatiques — ne sont internalisées ni dans le prix du billet, ni dans la fiscalité, ni dans les accords internationaux. Ce privilège n'est pas un oubli. Il est institutionnalisé.
+Les traînées ne sont pas régulées. Le NOx n'est pas taxé. Les particules fines ne sont pas comptabilisées dans les objectifs climatiques. L'aviation est le seul secteur industriel dont les externalités (environnementales, sanitaires, climatiques) ne sont internalisées ni dans le prix du billet, ni dans la fiscalité, ni dans les accords internationaux. Ce privilège n'est pas un oubli. Il est institutionnalisé.
 
 ## §3 La facture cachée
 
@@ -38,7 +38,7 @@ L'aviation civile transporte quatre milliards et demi de passagers par an, selon
 
 **Transport & Environment** estime à quatre-vingts à cent milliards d'euros par an le montant des externalités non internalisées de l'aviation en Europe. Cent milliards d'euros chaque année. Les quatre mille décès prématurés par an documentés par **Stettler** ont un coût sanitaire direct. L'**EEA** évalue à trente euros par kilogramme de PM2,5 le dommage sanitaire moyen en Europe. Un vol long-courrier émet environ cent cinquante kilogrammes de particules fines. Multipliez par cent mille vols par jour. Le calcul est comptable. Il n'apparaît dans aucun bilan.
 
-Les populations riveraines des aéroports payent cette facture en premier. Les études épidémiologiques menées autour de Heathrow, Roissy, Francfort documentent des taux d'hospitalisation pour pathologies respiratoires supérieurs de quinze à vingt-cinq pour cent dans un rayon de cinq kilomètres. Le bruit dépasse régulièrement les soixante-dix décibels — le seuil de l'**Organisation mondiale de la santé** pour les nuisances nocturnes.
+Les populations riveraines des aéroports payent cette facture en premier. Les études épidémiologiques menées autour de Heathrow, Roissy, Francfort documentent des taux d'hospitalisation pour pathologies respiratoires supérieurs de quinze à vingt-cinq pour cent dans un rayon de cinq kilomètres. Le bruit dépasse régulièrement les soixante-dix décibels, seuil de l'**Organisation mondiale de la santé** pour les nuisances nocturnes.
 
 ### Qui profite
 
@@ -66,11 +66,11 @@ Les brevets aussi sont publics. Plus de cinquante documents relatifs à la modif
 
 Le brevet US9526216B2, délivré en 2016 à Elwha LLC, décrit un système de formation nuageuse par émission de particules chargées. Le brevet US12258463B2, déposé en 2022, détaille l'injection de particules polymères poreuses dans la stratosphère à une altitude d'au moins dix kilomètres. Le document qualifie explicitement le procédé de technique de géoingénierie solaire.
 
-### SCoPEx — l'expérience annulée
+### SCoPEx : l'expérience annulée
 
 Le projet **SCoPEx** de Harvard, initié par David Keith et Frank Keutsch, prévoyait de lancer un ballon stratosphérique depuis la Suède afin de relâcher du carbonate de calcium et d'en mesurer la dispersion. Partiellement financé par Bill Gates via le Solar Geoengineering Research Program, le projet fait face à l'opposition du Saami Council et de groupes environnementaux. En mars 2024, Keutsch annonce l'abandon définitif. La recherche se poursuit via le Salata Institute, mais l'expérience de terrain est annulée.
 
-La géoingénierie n'est pas secrète. Elle est publique, financée, patentée, débattue. Le paradoxe n'est pas qu'un programme caché existerait. Le paradoxe est que des programmes ouverts existent — et que personne n'en parle.
+La géoingénierie n'est pas secrète. Elle est publique, financée, patentée, débattue. Le paradoxe n'est pas qu'un programme caché existerait. Le paradoxe est que des programmes ouverts existent, et que personne n'en parle.
 
 ## §5 Les preuves qui ne tiennent pas
 
@@ -92,7 +92,7 @@ Extrapoler de ces faits à un programme mondial d'épandage secret via avions co
 
 ### Les témoins
 
-Les témoignages de pilotes sont anonymes ou scientifiquement inexacts. Willem Felderhof, ex-pilote KLM, affirme que les turboréacteurs à haut taux de dilution ne produisent pas de traînées de condensation — ce qui est physiquement faux. **Kristen Meghan**, ancienne hygiéniste industrielle à la base de Tinker (Oklahoma), témoigne en janvier 2014 à Hauppauge (New York) d'analyses de baryum, strontium et aluminium. Son passage à Tinker est vérifiable. Ses résultats n'ont jamais été publiés. Son grade est contesté. Aucun document d'emploi indépendant ne corrobore ses affirmations.
+Les témoignages de pilotes sont anonymes ou scientifiquement inexacts. Willem Felderhof, ex-pilote KLM, affirme que les turboréacteurs à haut taux de dilution ne produisent pas de traînées de condensation, ce qui est physiquement faux. **Kristen Meghan**, ancienne hygiéniste industrielle à la base de Tinker (Oklahoma), témoigne en janvier 2014 à Hauppauge (New York) d'analyses de baryum, strontium et aluminium. Son passage à Tinker est vérifiable. Ses résultats n'ont jamais été publiés. Son grade est contesté. Aucun document d'emploi indépendant ne corrobore ses affirmations.
 
 Bilan : des éléments géochimiquement banals, des analyses sans protocole, des avions réels mais affectés à des usages légitimes, des témoignages non corroborés, une logistique inviable. La matière grise n'est pas une preuve.
 
@@ -104,7 +104,7 @@ L'affirmation d'un épandage systématique et secret via des avions commerciaux 
 
 Le déni institutionnel de ces faits réels est contreproductif. Les traînées de condensation représentent cinquante-sept pour cent de l'impact climatique de l'aviation, et ne sont régulées par aucun accord international. Le kérosène n'est pas taxé, en vertu d'un traité de 1944. Les NOx émis en altitude sont trois fois plus dommageables qu'au sol. Quatre mille décès prématurés par an en Europe sont attribuables aux particules de l'aviation. Ces faits sont documentés par l'**IPCC**, l'EEA, *Nature*, *Nature Climate Change*. Ils ne sont pas secrets. Ils sont ignorés.
 
-C'est ce vide informationnel — cette absence de couverture médiatique des impacts non-CO₂ de l'aviation, cette exemption fiscale institutionnalisée, cette régulation climatique qui exclut les traînées — que les théories conspirationnistes comblent. Quand les institutions refusent de reconnaître que la géoingénierie fait l'objet de recherches actives et de budgets publics, elles nourrissent la défiance qu'elles prétendent combattre. L'étude de **Caldeira** et ses collaborateurs (2016) conclut à l'absence de programme secret d'épandage. Elle ne conclut pas à l'absence de recherche en géoingénierie. La nuance est cardinale. Elle est systématiquement effacée du débat public.
+C'est ce vide informationnel (cette absence de couverture médiatique des impacts non-CO₂ de l'aviation, cette exemption fiscale institutionnalisée, cette régulation climatique qui exclut les traînées) que les théories conspirationnistes comblent. Quand les institutions refusent de reconnaître que la géoingénierie fait l'objet de recherches actives et de budgets publics, elles nourrissent la défiance qu'elles prétendent combattre. L'étude de **Caldeira** et ses collaborateurs (2016) conclut à l'absence de programme secret d'épandage. Elle ne conclut pas à l'absence de recherche en géoingénierie. La nuance est cardinale. Elle est systématiquement effacée du débat public.
 
 Le vrai secret n'est pas l'épandage chimique. C'est l'ampleur réelle de la pollution aérienne et son absence de régulation. C'est un secteur industriel dont plus de la moitié de l'impact climatique échappe à tout contrôle. C'est un carburant non taxé, des traînées non régulées, des décès non comptabilisés. C'est un système de transferts où les externalités sont externalisées vers les plus vulnérables et les profits internalisés par les actionnaires.
 
