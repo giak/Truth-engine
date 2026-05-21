@@ -1,0 +1,11 @@
+## §7 L'ennemi nécessaire
+
+Si la colère est canalisée, il reste une force politique que le système ne canalise pas — il la nourrit. L'extrême droite n'est pas l'ennemie du système. Elle en est le produit fonctionnel.
+
+Le Front national, fondé en 1972 par Jean-Marie Le Pen, progresse électoralement depuis 1953, quand Pierre Poujade obtenait 11,6 % des voix et cinquante-deux députés invalidés. La progression est constante, linéaire, prévisible. Mais le plafond de verre aussi : le RN n'a jamais conquis le pouvoir exécutif national. Marine Le Pen est condamnée en avril 2025 à cinq ans d'inéligibilité immédiate. La condamnation est présentée comme une victoire de l'État de droit. Elle est en réalité une ressource narrative : elle renforce la posture de martyr, consolide l'électorat, mais ne change aucune structure. Le système se présente comme le rempart contre l'extrême. L'extrême se présente comme la victime du système. Les deux y gagnent.
+
+La Commission nationale des comptes de campagne alerte depuis 2024 sur les prêts étrangers du RN. Le parti continue. Le système tolère cette ingérence — parce qu'un RN financé par l'étranger est un RN facilement disqualifiable. Le Rassemblement national ne remet pas en cause le capitalisme national. Il propose un mécanisme d'exclusion — la préférence nationale, la « nationalisation de l'or volé par les immigrés », selon la formule analysée par le chercheur Nicolas Lebourg — qui ne touche pas aux structures de pouvoir économique. L'extrême droite est l'opposition contrôlée ultime : elle fait peur, mais ne change rien.
+
+Sarah Knafo incarne la mutation de ce mécanisme. Née en 1993, Sciences Po, ENA promotion Molière, magistrate à la Cour des comptes, repérée par Éric Zemmour entre treize et quinze ans — le Times qualifie ce mentorat de « grooming intellectuel ». Adoubée par les think tanks trumpistes et les barons de la Silicon Valley, Knafo combat l'État profond avec les outils de l'État profond. Nationalisme romantique en façade, agenda ultralibéral de liquidation en réalité. Elle est le prototype de l'opposition clonée : la colère est capturée, le candidat est produit par le système qu'il est censé combattre.
+
+L'ennemi désigné change de visage selon le cycle électoral. Mais sa fonction reste identique : permettre au système de se présenter comme le moindre mal.

@@ -1,0 +1,11 @@
+## §3 L'algorithme, juge et partie
+
+Si les médias cadrent le débat, les algorithmes décident qui le voit. Deux études académiques indépendantes ont établi ce que les plateformes refusaient de reconnaître : leur mécanique de recommandation ne se contente pas de refléter les préférences des utilisateurs, elle les modifie.
+
+L'étude publiée par Twitter dans les Proceedings of the National Academy of Sciences en 2021 a analysé deux millions de comptes dans sept pays. Résultat : dans six des sept pays, l'algorithme amplifie systématiquement les contenus de droite par rapport à ceux de gauche. Le biais n'est pas marginal : il est structurel et transnational. L'étude a été publiée par Twitter lui-même, ce qui la rend difficilement contestable, mais aussi impossible à répliquer indépendamment : les données internes de la plateforme restent propriétaires.
+
+Quatre ans plus tard, l'étude de Jia et ses collègues, publiée dans Science en novembre 2025, a franchi un pas supplémentaire. En utilisant une extension navigateur open-source installée sur les comptes de participants volontaires, les chercheurs de l'Université Northeastern ont démontré que les algorithmes de recommandation modifient les attitudes partisanes d'environ deux points en une semaine — l'équivalent de trois années de polarisation naturelle concentrées en sept jours. La causalité est établie : ce n'est pas la polarisation qui alimente les algorithmes, ce sont les algorithmes qui produisent la polarisation.
+
+Le Digital Services Act, pleinement applicable depuis février 2024, impose aux plateformes 32 milliards de décisions de modération par an, dont 99,98 % prises hors du cadre légal défini par l'Union européenne. En juillet 2025, un rapport de la Commission judiciaire de la Chambre des représentants des États-Unis a révélé que la Commission européenne avait donné des instructions confidentielles aux plateformes pour censurer des contenus politiques. Des poursuites ont été engagées contre Damien Viel, ex-directeur de Twitter France. Le DSA est exporté hors de l'Union européenne, et des organisations comme l'Union des étudiants juifs de France servent de proxies de pression sur les plateformes.
+
+La régulation ne contrôle pas les algorithmes. Elle les légitime.

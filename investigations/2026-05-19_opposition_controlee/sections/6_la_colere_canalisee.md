@@ -1,0 +1,11 @@
+## §6 La colère canalisée
+
+L'élite se reproduit. Mais que fait le système quand la colère échappe à ses circuits ? Il ne la réprime pas. Il la dévie.
+
+Le mouvement des Gilets jaunes, né en novembre 2018, est inédit dans l'histoire sociale française : décentralisé, sans leader, sans structure de négociation. En janvier 2019, le CREDOC estime que six pour cent de la population se déclare « gilet jaune ». La revendication structurante est le référendum d'initiative citoyenne — une remise en cause directe du monopole représentatif. La réponse du système n'est pas la répression frontale. C'est la déviation institutionnelle : le Grand Débat national, des concessions fiscales ciblées, et surtout l'infiltration. La Direction générale de la sécurité intérieure enquête sur les « ingérences russes » au sein du mouvement. La société de cybersécurité New Knowledge identifie deux cents comptes Twitter diffusant de fausses informations pour attiser les tensions. Que l'ingérence soit réelle ou non, l'accusation remplit sa fonction : délégitimer un mouvement authentique en le présentant comme une manipulation étrangère.
+
+Nuit Debout, en mars 2016, suit une trajectoire différente mais aboutit au même résultat. L'occupation de la place de la République contre la loi El Khomri produit un mouvement sans tête, sans structure, sans capacité de négociation. François Ruffin, réalisateur de Merci Patron !, l'admet : « On n'est plus du tout les organisateurs. » Le mouvement se dissout de lui-même. Absence de structure = absence de pérennité = dissipation naturelle.
+
+Le schéma est constant. Mouvement spontané : soit il est infiltré et délégitimé par l'accusation d'ingérence étrangère, soit il se dissipe par absence de structure organisatrice. Le système ne réprime pas la colère. Il la canalise vers des issues institutionnelles qui la neutralisent. Chaque concession est calculée pour éteindre le mouvement sans toucher aux structures. Le Grand Débat n'a produit aucune réforme structurelle. Les concessions fiscales des Gilets jaunes ont coûté dix milliards d'euros — mais n'ont modifié ni le système fiscal, ni le système représentatif.
+
+La colère n'est pas un bug du système. C'est une ressource à gérer.

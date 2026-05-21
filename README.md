@@ -158,4 +158,10 @@ ls -lt outputs/investigations/ | head -10
 
 ---
 
+---
+
+## License
+
+Ce projet est sous licence **MIT**. Voir [LICENSE](LICENSE) pour le texte complet.
+
 **Truth Engine v11** — Utiliser → Apprendre → Évoluer → Répéter
