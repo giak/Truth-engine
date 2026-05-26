@@ -56,7 +56,7 @@ Un ménage de moins de 35 ans avait, en 2017, 60 % de chances d'obtenir un prêt
 
 **Le taux de refus global est de 18 %**, mais il atteint 34 % pour les primo-accédants de moins de 35 ans et 52 % pour les travailleurs non-cadres, selon l'Observatoire Crédit Logement. Le crédit n'est pas un droit, c'est un filtre social. La part du logement dans la consommation des ménages est passée de 21,5 % en 1984 à 27,3 % en 2023, selon l'INSEE. Ce chiffre signifie qu'un quart du budget des ménages est capté par le logement, et bien plus pour les plus modestes, chez qui le taux d'effort atteint 40 à 50 % du revenu.
 
-> **Cette fracture ne se referme pas avec le temps : elle se creuse. Selon l'Insee, seulement 23 % des moins de 30 ans sont propriétaires, contre 75 % des 70 ans et plus — un écart de 52 points qui ne s'explique pas par le seul cycle de vie. Pendant que les prix de l'immobilier ont augmenté de 150 % en vingt ans, les salaires des moins de 35 ans ont progressé de 15 %. Le logement n'est pas seulement le reflet des inégalités : il en est le verrou générationnel.**
+> **Cette fracture ne se referme pas avec le temps : elle se creuse. Selon l'Insee, seulement 23 % des moins de 30 ans sont propriétaires, contre 75 % des 70 ans et plus : un écart de 52 points qui ne s'explique pas par le seul cycle de vie. Pendant que les prix de l'immobilier ont augmenté de 150 % en vingt ans, les salaires des moins de 35 ans ont progressé de 15 %. Le logement n'est pas seulement le reflet des inégalités : il en est le verrou générationnel.**
 
 <!-- ENRICHIE: le-grand-manege-de-la-depossession -->
 <!-- THEME: verrouillage-systemique -->
@@ -110,7 +110,7 @@ Un ménage qui paie 50 % de son revenu pour un loyer n'a pas d'énergie pour pro
 
 ### La pompe à inégalités
 
-> **Le mécanisme le plus visible de cette pompe est l'esclavage locatif. Selon l'Insee, la valeur immobilière d'un simple abri s'est envolée 6,5 fois plus vite que la courbe d'ascension du salaire brut des trente dernières années. Sans apport — sans héritage, sans donation — l'employé reste l'esclave locatif du rentier. Au premier trimestre 2026, l'accès à la propriété pour un ménage modeste nécessite un capital initial que seule la transmission familiale peut fournir. Le logement n'est pas seulement un verrou politique : c'est le mécanisme de féodalisation le plus efficace jamais inventé en temps de paix.**
+> **Le mécanisme le plus visible de cette pompe est l'esclavage locatif. Selon l'Insee, la valeur immobilière d'un simple abri s'est envolée 6,5 fois plus vite que la courbe d'ascension du salaire brut des trente dernières années. Sans apport : sans héritage, sans donation : l'employé reste l'esclave locatif du rentier. Au premier trimestre 2026, l'accès à la propriété pour un ménage modeste nécessite un capital initial que seule la transmission familiale peut fournir. Le logement n'est pas seulement un verrou politique : c'est le mécanisme de féodalisation le plus efficace jamais inventé en temps de paix.**
 
 <!-- ENRICHIE: le-grand-manege-de-la-depossession -->
 <!-- THEME: verrouillage-systemique -->
@@ -120,46 +120,46 @@ Cette neutralisation n'est pas un complot, c'est un effet de système. La machin
 
 La réponse tient sur une courbe : **259 000 logements mis en chantier en 2024, contre 435 000 en 2017**. L'offre de logements neufs s'est effondrée. Et quand l'offre s'effondre, ce sont les plus fragiles qui trinquent dans le silence d'une démocratie où ils n'ont plus la force de voter.
 
-## §6 — Ce que ce chapitre ne dit pas
+## §6 : Ce que ce chapitre ne dit pas
 
 Cette démonstration de la raréfaction organisée du logement ne mentionne pas les modèles étrangers qui ont réussi à inverser la tendance. Vienne (Autriche) gère 60 % de son parc locatif en logements sociaux ou subventionnés, avec des loyers plafonnés et une qualité d'entretien qui évite la stigmatisation des quartiers. Singapour a bâti un système où 80 % des habitants sont propriétaires grâce à un fonds d'épargne-logement obligatoire adossé aux cotisations retraite. La France, qui a inventé le modèle HLM, a progressivement abandonné la construction publique sans la remplacer. Le chapitre n'explore pas non plus l'opportunité du réemploi des friches et de la densification douce : la loi ZAN pourrait forcer une innovation urbaine que l'étalement pavillonnaire a rendue facultative pendant 50 ans. Enfin, la question des territoires ruraux en déclin démographique (où le logement est abondant et bon marché mais l'emploi absent) mériterait d'être articulée avec la politique d'aménagement du territoire, dont ce chapitre ne parle pas.
 
-➡️ **À lire ensuite :** Comment la transition énergétique aggrave la précarité des ménages sans résoudre le problème climatique — **S10 — L'Énergie sacrifiée**
+➡️ **À lire ensuite :** Comment la transition énergétique aggrave la précarité des ménages sans résoudre le problème climatique : **S10 : L'Énergie sacrifiée**
 
 ---
 
-*📖 **Article suivant :** ⚡ L'Énergie sacrifiée — transition, précarité, et l'arnaque climatique [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🧭 L'Immigration sans Cap — 340 000 titres, 71 % de rejet, zéro politique [LIEN_A_INSERER]*
+*📖 **Article suivant :** ⚡ L'Énergie sacrifiée : transition, précarité, et l'arnaque climatique [LIEN_A_INSERER]*
+*📖 **Article précédent :** 🧭 L'Immigration sans Cap : 340 000 titres, 71 % de rejet, zéro politique [LIEN_A_INSERER]*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
 
 ---
 
 ### À voir aussi
 
-*🔗 **Le plus connexe.*** [« L'architecture à l'œuvre »](https://giak.substack.com/p/larchitecture-a-luvre) — sur l'urbanisme comme outil d'organisation spatiale, prolongeant la réflexion sur l'effondrement de la construction et l'aménagement du territoire.
+*🔗 **Le plus connexe.*** [« L'architecture à l'œuvre »](https://giak.substack.com/p/larchitecture-a-luvre) : sur l'urbanisme comme outil d'organisation spatiale, prolongeant la réflexion sur l'effondrement de la construction et l'aménagement du territoire.
 
-*🔗 **Lien indirect.*** [« Le grand manège de la dépossession »](https://giak.substack.com/p/le-grand-manege-de-la-depossession) — sur le travail et l'épuisement, dont le logement est la variable d'ajustement principale (taux d'effort, précarité énergétique).
+*🔗 **Lien indirect.*** [« Le grand manège de la dépossession »](https://giak.substack.com/p/le-grand-manege-de-la-depossession) : sur le travail et l'épuisement, dont le logement est la variable d'ajustement principale (taux d'effort, précarité énergétique).
 
-*🔗 **Lien indirect.*** [« Comment la richesse verrouille le système »](https://giak.substack.com/p/comment-la-richesse-verrouille-le) — sur les deux oligopoles (immobilier et finance) qui captent la richesse nationale et verrouillent l'accès au logement.
+*🔗 **Lien indirect.*** [« Comment la richesse verrouille le système »](https://giak.substack.com/p/comment-la-richesse-verrouille-le) : sur les deux oligopoles (immobilier et finance) qui captent la richesse nationale et verrouillent l'accès au logement.
 
 ---
 
 ## Sources
 
-1. **Fondation pour le Logement (ex-Fondation Abbé Pierre)** — 30e rapport sur l'état du mal-logement en France 2025 — [fondationpourlelogement.fr/30e-rapport-sur-letat-du-mal-logement-en-france-2025](https://www.fondationpourlelogement.fr/30e-rapport-sur-letat-du-mal-logement-en-france-2025)
-2. **SDES (Service des Données et Études Statistiques)** — Construction de logements : résultats à fin décembre 2024 : 259 000 mises en chantier, 330 400 permis — [statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-decembre-2024-france-entiere](https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-decembre-2024-france-entiere)
-3. **SDES** — 5,4 millions de logements locatifs sociaux en France au 1er janvier 2024 : 82 000 financés en 2023, 124 000 en 2016 — [statistiques.developpement-durable.gouv.fr/54-millions-de-logements-locatifs-sociaux-en-france-au-1er-janvier-2024](https://www.statistiques.developpement-durable.gouv.fr/54-millions-de-logements-locatifs-sociaux-en-france-au-1er-janvier-2024)
-4. **Banque de France** — Crédits aux particuliers, statistiques juin 2025 : production 146,5 Md€ — [banque-france.fr/fr/statistiques/credit/credits-aux-particuliers-2025-06](https://www.banque-france.fr/fr/statistiques/credit/credits-aux-particuliers-2025-06)
-5. **Banque de France** — Taux d'usure 2025-Q3 : 4,80 % (15 ans), 5,05 % (20 ans), 5,20 % (25 ans) — [banque-france.fr/fr/statistiques/taux-et-cours/taux-dusure-2025-q3](https://www.banque-france.fr/fr/statistiques/taux-et-cours/taux-dusure-2025-q3)
-6. **HCSF (Haut Conseil de Stabilité Financière)** — Mesure relative à l'octroi de crédits immobiliers : taux d'endettement 35 %, durée 25 ans — [economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers](https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers)
-7. **Cour des comptes** — La contemporanéisation du versement des aides personnelles au logement, janvier 2025 : APL 8,9 % du loyer privé en 2023 vs 14,9 % en 2016 — [ccomptes.fr/fr/publications/la-contemporaneisation-du-versement-des-aides-personnelles-au-logement](https://www.ccomptes.fr/fr/publications/la-contemporaneisation-du-versement-des-aides-personnelles-au-logement)
-8. **INSEE** — Dépenses de logement des ménages : part de 21,5 % en 1984 à 27,3 % en 2023 — [insee.fr/fr/statistiques/8612568](https://www.insee.fr/fr/statistiques/8612568)
-9. **Médiateur national de l'énergie** — Baromètre énergie-info 2024 : 30 % des ménages ont eu froid en 2024, 14 % en 2020 — [energie-mediateur.fr/wp-content/uploads/2024/10/synthese-barometre-energie-info-2024.pdf](https://www.energie-mediateur.fr/wp-content/uploads/2024/10/synthese-barometre-energie-info-2024.pdf)
-10. **ONPE (Observatoire National de la Précarité Énergétique)** — Tableau de bord 2025 : 12 millions de personnes en précarité énergétique — [onpe.org/tableau-de-bord-2025](https://librairie.ademe.fr/batiment/8769-onpe-tableau-de-bord-de-la-precarite-energetique-novembre-2025.html)
-11. **Loi n° 2023-668 du 27 juillet 2023 (Kasbarian-Bergé)** — visant à protéger les logements contre l'occupation illicite — [legifrance.gouv.fr/jorf/id/JORFTEXT000047897040](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047897040)
-12. **Loi Climat et Résilience n° 2021-1104 du 22 août 2021** — ZAN, DPE, interdiction location passoires thermiques — [legifrance.gouv.fr/jorf/id/JORFTEXT000043956924](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)
-13. **Collectif Les Morts de la Rue** — Dénombrement 2023 : 735 décès de personnes sans domicile — [mortsdelarue.org/rapport-2024](https://mortsdelarue.org/publication-du-rapport-2024/)
-14. **IGAS/IGF/IGA** — Revue de dépenses sur l'hébergement d'urgence, 2025 : 61 % des demandes non satisfaites — [igas.gouv.fr/revue-hebergement-urgence-2025](https://igas.gouv.fr/sites/igas/files/2025-07/Igas-IGF-IGA%20Revue%20de%20d%C3%A9penses%20H%C3%A9bergement%20d%27urgence%202025.pdf)
-15. **Fédération Française du Bâtiment** — Surcoût RE2020 : 8 à 12 % par logement — [ffbatiment.fr/surcout-re2020](https://www.ffbatiment.fr/actualite/surcouts-re2020)
-16. **INSEE / CEVIPOF (Nonna Mayer)** — Lien précarité et abstention : 29 % population précaire, abstention 3× plus élevée chez les 20 % plus précaires — [theconversation.com/abstention-precarite-2022](https://theconversation.com/abstention-vote-extreme-ce-que-la-precarite-fait-a-la-politique-2196)
-17. **Collectif des Associations pour le Logement (CAL)** — Chiffres du 115, mai 2025, relayés par Le Monde — [lemonde.fr/societe/article/2025/07/13/logement-plus-de-7-000-personnes-ont-appele-le-115-chaque-jour-fin-mai-sans-obtenir-de-place](https://www.lemonde.fr/societe/article/2025/07/13/logement-plus-de-7-000-personnes-ont-appele-le-115-chaque-jour-fin-mai-sans-obtenir-de-place)
+1. **Fondation pour le Logement (ex-Fondation Abbé Pierre)** : 30e rapport sur l'état du mal-logement en France 2025 : [fondationpourlelogement.fr/30e-rapport-sur-letat-du-mal-logement-en-france-2025](https://www.fondationpourlelogement.fr/30e-rapport-sur-letat-du-mal-logement-en-france-2025)
+2. **SDES (Service des Données et Études Statistiques)** : Construction de logements : résultats à fin décembre 2024 : 259 000 mises en chantier, 330 400 permis : [statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-decembre-2024-france-entiere](https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-decembre-2024-france-entiere)
+3. **SDES** : 5,4 millions de logements locatifs sociaux en France au 1er janvier 2024 : 82 000 financés en 2023, 124 000 en 2016 : [statistiques.developpement-durable.gouv.fr/54-millions-de-logements-locatifs-sociaux-en-france-au-1er-janvier-2024](https://www.statistiques.developpement-durable.gouv.fr/54-millions-de-logements-locatifs-sociaux-en-france-au-1er-janvier-2024)
+4. **Banque de France** : Crédits aux particuliers, statistiques juin 2025 : production 146,5 Md€ : [banque-france.fr/fr/statistiques/credit/credits-aux-particuliers-2025-06](https://www.banque-france.fr/fr/statistiques/credit/credits-aux-particuliers-2025-06)
+5. **Banque de France** : Taux d'usure 2025-Q3 : 4,80 % (15 ans), 5,05 % (20 ans), 5,20 % (25 ans) : [banque-france.fr/fr/statistiques/taux-et-cours/taux-dusure-2025-q3](https://www.banque-france.fr/fr/statistiques/taux-et-cours/taux-dusure-2025-q3)
+6. **HCSF (Haut Conseil de Stabilité Financière)** : Mesure relative à l'octroi de crédits immobiliers : taux d'endettement 35 %, durée 25 ans : [economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers](https://www.economie.gouv.fr/hcsf/mesures/mesure-relative-loctroi-de-credits-immobiliers)
+7. **Cour des comptes** : La contemporanéisation du versement des aides personnelles au logement, janvier 2025 : APL 8,9 % du loyer privé en 2023 vs 14,9 % en 2016 : [ccomptes.fr/fr/publications/la-contemporaneisation-du-versement-des-aides-personnelles-au-logement](https://www.ccomptes.fr/fr/publications/la-contemporaneisation-du-versement-des-aides-personnelles-au-logement)
+8. **INSEE** : Dépenses de logement des ménages : part de 21,5 % en 1984 à 27,3 % en 2023 : [insee.fr/fr/statistiques/8612568](https://www.insee.fr/fr/statistiques/8612568)
+9. **Médiateur national de l'énergie** : Baromètre énergie-info 2024 : 30 % des ménages ont eu froid en 2024, 14 % en 2020 : [energie-mediateur.fr/wp-content/uploads/2024/10/synthese-barometre-energie-info-2024.pdf](https://www.energie-mediateur.fr/wp-content/uploads/2024/10/synthese-barometre-energie-info-2024.pdf)
+10. **ONPE (Observatoire National de la Précarité Énergétique)** : Tableau de bord 2025 : 12 millions de personnes en précarité énergétique : [onpe.org/tableau-de-bord-2025](https://librairie.ademe.fr/batiment/8769-onpe-tableau-de-bord-de-la-precarite-energetique-novembre-2025.html)
+11. **Loi n° 2023-668 du 27 juillet 2023 (Kasbarian-Bergé)** : visant à protéger les logements contre l'occupation illicite : [legifrance.gouv.fr/jorf/id/JORFTEXT000047897040](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047897040)
+12. **Loi Climat et Résilience n° 2021-1104 du 22 août 2021** : ZAN, DPE, interdiction location passoires thermiques : [legifrance.gouv.fr/jorf/id/JORFTEXT000043956924](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924)
+13. **Collectif Les Morts de la Rue** : Dénombrement 2023 : 735 décès de personnes sans domicile : [mortsdelarue.org/rapport-2024](https://mortsdelarue.org/publication-du-rapport-2024/)
+14. **IGAS/IGF/IGA** : Revue de dépenses sur l'hébergement d'urgence, 2025 : 61 % des demandes non satisfaites : [igas.gouv.fr/revue-hebergement-urgence-2025](https://igas.gouv.fr/sites/igas/files/2025-07/Igas-IGF-IGA%20Revue%20de%20d%C3%A9penses%20H%C3%A9bergement%20d%27urgence%202025.pdf)
+15. **Fédération Française du Bâtiment** : Surcoût RE2020 : 8 à 12 % par logement : [ffbatiment.fr/surcout-re2020](https://www.ffbatiment.fr/actualite/surcouts-re2020)
+16. **INSEE / CEVIPOF (Nonna Mayer)** : Lien précarité et abstention : 29 % population précaire, abstention 3× plus élevée chez les 20 % plus précaires : [theconversation.com/abstention-precarite-2022](https://theconversation.com/abstention-vote-extreme-ce-que-la-precarite-fait-a-la-politique-2196)
+17. **Collectif des Associations pour le Logement (CAL)** : Chiffres du 115, mai 2025, relayés par Le Monde : [lemonde.fr/societe/article/2025/07/13/logement-plus-de-7-000-personnes-ont-appele-le-115-chaque-jour-fin-mai-sans-obtenir-de-place](https://www.lemonde.fr/societe/article/2025/07/13/logement-plus-de-7-000-personnes-ont-appele-le-115-chaque-jour-fin-mai-sans-obtenir-de-place)

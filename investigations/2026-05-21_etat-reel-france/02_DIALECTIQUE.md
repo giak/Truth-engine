@@ -20,11 +20,13 @@
 ### THÈSE B — SYSTÈME (⫸)
 **La France n'est pas en crise : elle est en effondrement structurel.** 21 dimensions convergent vers un diagnostic unique — dette, fraude, corruption, médias, éducation, logement, environnement — toutes les chaînes causales mènent au même point : le système ne peut plus se maintenir sans se détruire.
 
-**Faits confirmants :** D001 (3 518 Md€ dette), D002 (80-100 Md€ fraude), D037 (78% défiance), D048 (PISA 23e), D060 (4,2M mal-logés), D053 (19 526 expulsés), D057 (25k ha artificialisés/an), D039 (41% autoritarisme)
+**Faits confirmants :** D001, D002, D037, D048, D060, D053, D057, D039 (8 originaux) + D116 (dette 120,2% 2027), D117 (déficit -5,7% 2027), D118 (chômage 8,7% 2027), D123 (3e dette ZE), D124 (dette > pic Covid), D126 (intérêts 2,8% 2027), D129 (choc Ormuz), D132 (épargne omise) (8 nouveaux) = **12 confirmants** (4 faits D116-D119 consolidés comme 1 bloc CE)
 
-**Faits fragilisants :** D003 (17,1 Md€ fraude détectée — effort réel), D034 (justice fonctionne pour Sarkozy)
+**Nouveau pattern identifié — Fatalisme par données officielles :** Les prévisions Commission Européenne Spring 2026, pourtant neutres dans leur construction, produisent un effet de fatalisme économique quand elles sont présentées sans contrepartie (fraude fiscale 80-100 Md€, niches 90 Md€, épargne 6 477 Md€, TPI BCE). Ce pattern de « vérité partielle par omission » est plus subtil que la désinformation classique : il utilise l'autorité institutionnelle (CE, Eurostat) pour immuniser le message contre la critique.
 
-**Score B :** confirm=8, fragiles_faibles=2, moyens=0, forts=0 → (8 - 0.4) / 10 = 7.6/10 = **0.76**
+**Faits fragilisants :** D003 (17,1 Md€ fraude détectée — effort réel), D034 (justice fonctionne pour Sarkozy), D120 (inflation France 2,4% 2026 — modérée dans contexte choc Ormuz), D131 (spread OAT/Bund 69 pb sous seuil alerte 80 pb — marché pas en panique)
+
+**Score B :** confirm=12, fragiles_faibles=3, moyens=0, forts=0 → (12 - 0.6) / 15 = 11.4/15 = **0.76**
 
 ### THÈSE C — CAPTURE (↕)
 **La France est un État capturé par des réseaux non élus.** Le circuit ENA → pantouflage → lobbying → médias → statistiques crée un système endogame où les décideurs publics et privés sont les mêmes personnes. La démocratie formelle persiste mais le fond est privatisé.
@@ -57,4 +59,5 @@
 | §5 | Comment l'éducation en chute (PISA 23e, 64% démissions) accélère-t-elle la reproduction élitique ? |
 | §6 | Comment le logement (4,2M mal-logés, 735 morts) et les retraites (ratio 1,5) incarnent-ils l'inversion morale ? |
 | §7 | Comment l'environnement (faillite hydrique, 25k ha/an) complète-t-il le tableau de l'effondrement ? |
+| §8 | Comment les prévisions CE 2025-2027 confirment-elles l'effondrement structurel tout en invisibilisant le volet recettes (fraude, niches, épargne) ? |
 | Verdict | Pourquoi le seuil de rupture n'est pas une question de « si » mais de « quand » ? |

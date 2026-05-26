@@ -11,8 +11,8 @@
 | 5 | Logement & retraites : l'inversion morale | Qui paie le prix ? | 4,2M mal-logés, 735 morts, 1M logements vacants — réforme 64 ans vs 100 Mds€ fraude | Quel est le coût environnemental ? | D060, D061 |
 | 6 | Environnement : la faillite du vivant | Que reste-t-il ? | 25k ha artificialisés/an, nappes polluées, faillite hydrique ONU | Qui protège, soigne, juge ? | D057, D058, D059 |
 | 7 | Justice, santé, sécurité : l'État absent | Où est l'État régalien ? | 136% prisons, 6M sans médecin, 385K cyberattaques — 78% défiance | Comment l'État finance-t-il son propre vide ? | D062-D072 |
-| 8 | Racket d'État : le RSV | Qui paie le système ? | 486 taxes, 63% écrasement réel, 1er OCDE — le consentement est mort | Que dit le futur ? | D073-D084 |
-| 9 | Prospective : ce qui vient | Que devient la France ? | 6 signaux faibles, 3 scénarios institutionnels, 6 émergents, 4 chaînes | Que faire ? | D085-D100 |
+| 8 | Racket d'État : le RSV | Qui paie le système ? | 486 taxes, 63% écrasement réel, 1er OCDE — le consentement est mort | Que disent les données officielles ? | D073-D084 |
+| 8b | Confirmation officielle : les prévisions CE | Les données officielles confirment-elles l'effondrement ? | Dette 120,2% PIB 2027, déficit -5,7%, chômage 8,7% — Commission Européenne Spring 2026 confirme la dégradation. Mais le volet recettes (fraude 80-100 Md€, niches 90 Md€, épargne 6 477 Md€) est invisibilisé | Que devient la France ? | D116-D132 |
 | 10 | Solutions : ce qui reste possible | Comment inverser la trajectoire ? | Nucléaire, réindustrialisation, frontières, Frexit, RIC OS, mesures exécutives | Quel est le verdict ? | D101-D115 |
 | 11 | Verdict : le seuil de rupture | Quand ? | 5 circuits intégrés, 21 dimensions convergentes — le système ne peut plus se maintenir | — | Tous |
 
@@ -28,7 +28,7 @@
 | §6 Environnement | inv v4 6.16 | D057-D059 | notre-environnement.gouv.fr, Novethic, franceinfo | notre-environnement.gouv.fr | ✦ |
 | §7 État absent | inv v4 6.6, 6.7, 6.8, 6.9 | D062-D072 | Cevipof, Onet, Le Monde, vie-publique.fr, Cigref | sciencespo.fr, onet.fr | ✦ |
 | §8 Racket d'État | fresque_fiscale_sideration_2025.pdf | D073-D084 | OCDE, Eurostat, DGFiP, CRE, Cour des comptes | oecd.org, eurostat.ec.europa.eu | ✦ |
-| §9 État absent | inv v4 6.6, 6.7, 6.8, 6.9 | D062-D072 | Cevipof, Onet, Le Monde, vie-publique.fr, Cigref | sciencespo.fr, onet.fr | ✦ |
+| §8b Confirmation CE | hex v1 2026-05-21 | D116-D132 | Commission Européenne Spring 2026, Eurostat Q4 2025, Insee | ec.europa.eu, eurostat.ec.europa.eu, insee.fr | ✦ |
 | §9 Prospective | Cour des comptes, Rexecode, Montaigne, Insee, Jean-Jaurès | D085-D100 | Cour des comptes, Rexecode, Institut Montaigne, Insee, Fondation Jean-Jaurès | ccomptes.fr, rexecode.fr, institutmontaigne.org, insee.fr, jean-jaures.org | ✦ |
 | §10 Solutions | PNRED, Substack RIC, Weil, ASNR, Cour des comptes | D101-D115 | ANSSI, Cour des comptes, TFUE, Légifrance | anssi.fr, ccomptes.fr, eur-lex.europa.eu | ✦ |
 | Verdict | inv v4 §18, 6.6 | D037-D041, D001, D002, D053, D056 | Cevipof, Sud Ouest, AP News | sudouest.fr, apnews.com | ✦ |
@@ -39,6 +39,9 @@
 - D002 (fraude 80-100 Md€) : §1 + Verdict (pivot)
 - D037 (78% défiance) : §7 + Verdict
 - D060 (4,2M mal-logés) : §5 uniquement
+- D116-D125 (données CE) : §8b uniquement, référence prospective §9
+- D126 (intérêts dette) : §1 + §8b
+- D132 (épargne ménages) : §8b (contrepoint aux données CE)
 
 ## §3.4 Transitions
 
@@ -50,12 +53,13 @@
 - §6→§7 : « L'environnement atteint la faillite hydrique. Mais la dégradation n'est pas seulement physique. »
 - §7→§8 : « L'État ne protège plus. Il ne juge plus. Il ne soigne plus. Mais il prélève. »
 - §7→§8 : « L'État ne protège plus. Il ne juge plus. Il ne soigne plus. Mais il prélève. »
-- §8→§9 : « Le consentement est mort. Que vient-il après ? »
-- §9→§10 : « Le consentement est mort. Que vient-il après ? L'effondrement n'est pas une fatalité. »
+- §8→§8b : « Le consentement fiscal est mort. Les chiffres officiels confirment la trajectoire. »
+- §8b→§9 : « Les prévisions CE confirment la dégradation. Mais que disent-elles de ce qui vient après ? »
+- §9→§10 : « L'effondrement n'est pas une fatalité. »
 - §10→Verdict : « Trois phases. Un objectif. Le verdict est dans l'action. »
 
 ## §3.5 Saturation
 
-Faits utiles (hors BRUIT) : 104
-Faits assignés aux sections : 104
-Saturation : 104/104 = **100%**
+Faits utiles (hors BRUIT) : 116
+Faits assignés aux sections : 116
+Saturation : 116/116 = **100%**

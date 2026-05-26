@@ -1,283 +1,113 @@
-# Index Truth Engine : Substack + Fichiers locaux
+# 📚 Index Central des Posts Substack
 
-**Objectif :** Permettre au LLM de retrouver rapidement tout article ou enquête par thème, sujet, ou mot-clé. Ce fichier est lu automatiquement au démarrage de session.
-
-**URL de base :** `https://giak.substack.com/p/` + slug
-
----
-
-## Index thématique
-
-### 🐄 Agriculture / DNC / Santé animale / Abattage
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-11-26 | BARDELLA ET L'AGRICULTURE : LE GRAND ÉCART | `bardella-et-lagriculture-le-grand-757` | 180021752 |
-| 2025-11-26 | Le double discours du RN sur l'agriculture | `le-double-discours-du-rn-sur-lagriculture` | 180043331 |
-| 2025-11-27 | L'Iceberg du Syndicalisme Agricole | `liceberg-du-syndicalisme-agricole` | 180109075 |
-| 2025-12-04 | ABATTAGE MASSIF EN SAVOIE : La France liquide ses troupeaux sous prétexte sanitaire | `abattage-massif-en-savoie-la-france` | 180734703 |
-| 2025-12-11 | La grande arnaque agricole : comment 55 milliards d'euros disparaissent chaque année | `la-grande-arnaque-agricole-comment` | 181348704 |
-| 2025-12-13 | CE QUE L'ÉTAT VOUS CACHE SUR LA DNC | `ce-que-letat-vous-cache-sur-la-dnc` | 181428779 |
-| 2025-12-23 | L'Architecture de l'abattoir : Le crime en direct de la DNC | `larchitecture-de-labattoir-le-crime` | 182455797 |
-| 2026-01-16 | LA DERNIÈRE RÉCOLTE : AUTOPSIE D'UNE LIQUIDATION | `la-derniere-recolte-autopsie-dune` | 184748463 |
-| 2026-01-20 | Annie Genevard : "Plus de cas de DNC" : La communication qui cache la réalité | `annie-genevard-plus-de-cas-de-dnc` | 185160908 |
-| 2026-01-25 | L'agriculture au scanner : autopsie générale d'une liquidation et manifeste de la terre | `lagriculture-au-scanner-autopsie` | 185731731 |
-| 2026-03-11 | UE-Mercosur : le mensonge sanitaire qui change tout | `ue-mercosur-le-mensonge-sanitaire` | 190587326 |
-
-**Détail DNC :** La DNC (dermatose nodulaire contagieuse) est traitée en profondeur dans 5 articles Substack + les enquêtes locales. L'article `ce-que-letat-vous-cache-sur-la-dnc` (13/12/2025) est le premier examen détaillé. `larchitecture-de-labattoir-le-crime` (23/12/2025) traite le crime en direct. `annie-genevard-plus-de-cas-de-dnc` (20/01/2026) démonte la communication officielle. `abattage-massif-en-savoie-la-france` (04/12/2025) documente l'abattage de troupeaux. `la-derniere-recolte-autopsie-dune` (16/01/2026) fait la synthèse agriculture/DNC. **Voir aussi** `le-schisme-larme-sur-la-tempe-et` (29/12/2025) : le DDPN Friedrich braque un Sig Sauer sur un agriculteur CR32 à Auch, lors d'une manifestation contre les abattages DNC — la coercition armée comme réponse au mouvement paysan.
-
-### 🔒 Censure / Contrôle numérique / DSA / Modération
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-12-01 | Alla Poedie : "Cafards", censure et opacité | `alla-poedie-cafards-censure-et-opacite` | 180396722 |
-| 2025-12-02 | Quand l'Élysée attaque un journaliste : anatomie d'une architecture de censure | `quand-lelysee-attaque-un-journaliste` | 180481861 |
-| 2025-12-03 | "Pravda ?" : Quand l'Élysée ironise sur la censure qu'il construit | `pravda-quand-lelysee-ironise-sur` | 180580808 |
-| 2026-01-30 | Ce que Macron appelle "protection des enfants" cache une architecture de contrôle depuis 2020 | `ce-que-macron-appelle-protection` | 186286764 |
-| 2026-02-04 | Tristan Mendès France : la machine à effacer | `tristan-mendes-france-la-machine` | 186844276 |
-| 2026-02-06 | L'Architecture de la censure Européenne : Une machine de contrôle sans précédent | `larchitecture-de-la-censure-europeenne` | 186904003 |
-| 2026-02-22 | Le gulag digital : surveillés à 100%, protégés à 0% | `le-gulag-digital-surveilles-a-100` | 188810196 |
-| 2026-02-24 | LE PIÈGE KNAFO : CHEVAL DE TROIE D'UNE OPA TECHNOCRATIQUE | `le-piege-knafo-cheval-de-troie-dune` | 188933060 |
-| 2026-02-26 | La Machine à Silence | `la-machine-a-silence` | 189043675 |
-| 2026-03-27 | LA DÉMOCRATIE EN CAGE | `la-democratie-en-cage` | 192293819 |
-
-### 📡 Médias / Influence / Concentration / Capture d'État
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-12-06 | FRANCE 2025 : L'ARCHITECTURE DE L'ENFER (Livre Noir) | `france-2025-larchitecture-de-lenfer` | 180851146 |
-| 2025-12-14 | L'INDUSTRIE DE L'INFLUENCE : enquête sur le journalisme sous contrat | `linustrie-de-linfluence-enquete` | 181572197 |
-| 2026-02-11 | Le triangle de la capture : Le mécanisme qui gouverne la France | `le-triangle-de-la-capture-le-mecanisme` | 187674415 |
-| 2026-04-09 | La commission qui devait éclairer la France va peut-être être enterrée pour 25 ans | `la-commission-qui-devait-eclairer` | 193730222 |
-| 2026-04-10 | AUDIOVISUEL PUBLIC : ANATOMIE D'UNE CAPTURE D'ÉTAT | `audiovisuel-public-anatomie-dune` | 193809543 |
-
-### 💰 Économie / Finance / Prédation fiscale / Pétrole
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-11-26 | Emprunt forcé des riches : le spectacle politique derrière les 5 milliards | `emprunt-force-des-riches-le-spectacle` | 180056619 |
-| 2025-11-28 | Nationalisation d'ArcelorMittal : ce qu'on ne vous dit pas | `nationalisation-darcelormittal-ce` | 180158712 |
-| 2025-11-30 | Essence : la double manipulation que personne ne vous montre | `essence-la-double-manipulation-que` | 180300683 |
-| 2025-12-22 | FRANCE 2025 : L'ANATOMIE D'UNE FÉODALITÉ FINANCIARISÉE | `france-2025-lanatomie-dune-feodalite` | 182308074 |
-| 2026-01-04 | L'AGONIE DU SOUVERAIN : LA SINGULARITÉ DU PÉTRODOLLAR | `lagonie-du-souverain-la-singularite` | 183424330 |
-| 2026-01-11 | L'ÉTAT-MAFIA : AUTOPSIE D'UNE LIQUIDATION | `letat-mafia-autopsie-dune-liquidation` | 184196064 |
-| 2026-01-26 | Budget 2026 : L'Architecture du Mensonge | `budget-2026-larchitecture-du-mensonge` | 185893876 |
-| 2026-03-02 | L'EMPIRE DES MIETTES | `lempire-des-miettes` | 189647946 |
-| 2026-03-09 | LE GRAND MANÈGE DE LA DÉPOSSESSION : LE TRAVAIL EN FRANCE | `le-grand-manege-de-la-depossession` | 190192234 |
-| 2026-03-14 | L'inflation normative française | `linflation-normative-francaise` | 191030786 |
-| 2026-03-27 | Le réseau qui nous facture | `le-reseau-qui-nous-facture` | 192351575 |
-| 2026-03-31 | LE VAMPIRE DE LA CROISSANCE | `le-vampire-de-la-croissance` | 192726440 |
-| 2026-04-03 | Comment la richesse verrouille le système | `comment-la-richesse-verrouille-le` | 193017697 |
-
-### 🔥 Guerre / Géopolitique / Iran / Ukraine
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-11-27 | Ukraine : Ce que Hayer, Trump et Zelenskyy cachent tous | `ukraine-ce-que-hayer-trump-et-zelenskyy` | 180081515 |
-| 2025-11-27 | Macron et la paix en Ukraine: ce que le discours cache | `macron-et-la-paix-en-ukraine-ce-que` | 180120693 |
-| 2025-11-28 | 407 Mensonges : L'Autopsie d'un Système | `407-mensonges-lautopsie-dun-systeme` | 180194877 |
-| 2025-11-29 | L'Armée Potemkine : Quand le spectre de Poutine cache la ruine de nos forces | `larmee-potemkine-quand-le-spectre` | 180223640 |
-| 2025-11-29 | « Démocratie rare en temps de guerre » : déconstruction d'un narratif | `democratie-rare-en-temps-de-guerre-82a` | 180261963 |
-| 2025-11-29 | Corruption en Ukraine : Garraud a-t-il raison de demander des comptes ? | `corruption-en-ukraine-garraud-a-t` | 180267309 |
-| 2025-12-06 | COMMENT MUSK ET TRUMP VONT BRISER L'UNION EUROPÉENNE | `comment-musk-et-trump-vont-briser` | 180872735 |
-| 2026-01-28 | L'Impasse Persique : Pourquoi l'Occident a déjà perdu la Guerre de l'Iran | `limpasse-persique-pourquoi-loccident` | 186127641 |
-| 2026-03-24 | LA GUERRE DES AUTRES | `la-guerre-des-autres` | 191802696 |
-
-### ⚙️ Dépossession / Possession / Système / Architecture
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-12-29 | LE SCHISME : L'Arme sur la Tempe et le Silence des Élites | `le-schisme-larme-sur-la-tempe-et` | 182890010 |
-| 2025-12-31 | L'EMPIRE DES PÉCHÉS : PSYCHOPATHOLOGIE DE LA TRAHISON | `lempire-des-peches-psychopathologie` | 183098263 |
-| 2026-01-03 | L'ASPHYXIE DU GOLEM : TRAITÉ DE LA RÉSISTANCE TOTALE | `lasphyxie-du-golem-traite-de-la-resistance` | 183323402 |
-| 2026-01-07 | L'EMPIRE DU MENSONGE : rapport d'autopsie d'une civilisation sous anesthésie | `lempire-du-mensonge-rapport-dautopsie` | 183123537 |
-| 2026-02-03 | ILS ONT QUITTÉ L'HUMANITÉ | `ils-ont-quitte-lhumanite` | 186775451 |
-| 2026-02-08 | De l'Ombre des Cavernes à l'Écran Lumineux | `de-lombre-des-cavernes-a-lecran-lumineux` | 187237034 |
-| 2026-03-04 | Le sanctuaire inversé : comment la France a vendu son âme nucléaire | `le-sanctuaire-inverse-comment-la` | 189855247 |
-| 2026-03-29 | Ce n'est pas du satanisme. C'est une pathologie de caste. | `ce-nest-pas-du-satanisme-cest-une` | 192483249 |
-| 2026-04-05 | Oak Island : le mécanisme de capture cognitive | `oak-island-le-mecanisme-de-capture` | 193239406 |
-| 2026-04-13 | L'INGÉNIERIE DE LA POSSESSION | `lingenierie-de-la-possession` | 194040178 |
-| 2026-04-13 | Le protocole du ré-enracinement | `le-protocole-du-re-enracinement` | 194130616 |
-| 2026-04-16 | Le Léviathan de Verre | `le-leviathan-de-verre` | 194422681 |
-| 2026-04-17 | L'Ingénierie de l'Enclos | `lingenierie-de-lenclos` | 194518266 |
-
-### ⚖️ Justice / Bannissement / Impunité
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-12-24 | La Justice Spectrale : L'Ère du Bannissement Administratif | `la-justice-spectrale-lere-du-bannissement` | 182502562 |
-
-### 🏛️ Europe / Crédit social / Totalitarisme européen
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-11-27 | L'Europe construit-elle un crédit social doux ? | `leurope-construit-elle-un-credit` | 180128122 |
-| 2025-11-27 | L'Europe construit-elle un crédit social à la française ? | `leurope-construit-elle-un-credit-40d` | 180129975 |
-| 2025-12-16 | LES TÉLÉGRAPHISTES DE LA TERREUR : enquête sur la mécanique totalitaire de l'UE | `les-telegraphistes-de-la-terreur` | 181766389 |
-
-### 🗳️ Politique / Électeurs / Vote / Partis
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-11-26 | Qui est vraiment Louis Duclos ? | `qui-est-vraiment-louis-duclos` | 180052771 |
-| 2025-11-26 | Kallas et les 19 pays : ce que les chiffres officiels révèlent | `kallas-et-les-19-pays-ce-que-les` | 180054346 |
-| 2025-11-26 | Qui a vraiment « la tête dans le sable » ? | `qui-a-vraiment-la-tete-dans-le-sable` | 180061326 |
-| 2025-11-28 | Service militaire volontaire : ce que Macron ne vous dit pas | `service-militaire-volontaire-ce-que` | 180162835 |
-| 2025-11-30 | L'ADIEU AUX PARTIS : DU DIAGNOSTIC DE WEIL À L'OS DÉMOCRATIQUE SOUVERAIN | `ladieu-aux-partis-du-diagnostic-de` | 180309272 |
-| 2025-12-01 | Bandera vs Pétain : Ce que les faits révèlent | `bandera-vs-petain-ce-que-les-faits` | 180377342 |
-| 2026-03-17 | Pourquoi les électeurs français votent pour leurs bourreaux | `pourquoi-les-electeurs-francais-votent` | 191154925 |
-
-### 🧑‍🏫 Éducation / Social / Enfance
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-11-27 | L'effondrement éducatif français : 50 ans de consensus silencieux | `leffondrement-educatif-francais-50-fea` | 180086502 |
-| 2026-01-28 | L'État qui veut tout contrôler, mais échoue à tout | `letat-qui-veut-tout-controler-mais` | 186057704 |
-
-### ⚡ Énergie / Nucléaire
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-11-27 | Énergies renouvelables : Le double mensonge que personne ne veut voir | `energies-renouvelables-le-double` | 180084168 |
-| 2026-03-04 | Le sanctuaire inversé : comment la France a vendu son âme nucléaire | `le-sanctuaire-inverse-comment-la` | 189855247 |
-| 2026-03-12 | LE SABOTAGE ÉNERGÉTIQUE FRANÇAIS | `le-sabotage-energetique-francais` | 190739827 |
-
-### 🪞 Science / Philosophie / Corps
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2026-02-09 | Darwin et évolution : enquête sur les mensonges croisés | `darwin-et-evolution-enquete-sur-les` | 187436825 |
-| 2026-04-06 | Ce que le corps sait et que la machine ne saura jamais | `ce-que-le-corps-sait-et-que-la-machine` | 193327603 |
-
-> **Note :** Post 140803312 (`coming-soon`) exclu : page placeholder initiale.
-
-### 🛠️ Méta / Présentation Truth Engine
-
-| Date | Titre | Slug | Post ID |
-|------|-------|------|---------|
-| 2025-12-14 | Truth Engine : l'IA qui révolutionne l'enquête | `truth-engine-lia-qui-revolutionne` | 181863121 |
+> **Objectif :** Naviguer dans le corpus des 86 posts publiés sans lire chaque HTML.
+> **Mise à jour :** 2026-05-26
+> **Source :** `substack-online/posts/`
 
 ---
 
-## Fichiers locaux non publiés
+## Statistiques globales
 
-### articles/ (versions de travail)
-
-| Fichier | Sujet | Statut Substack |
-|---------|-------|----------------|
-| `2026-03-22_22-30_la_guerre_des_autres_ARTICLE.md` | La Guerre des Autres (V1) | Publié (V8 final sur Substack) |
-| `2026-03-26_17-30_ingerences_france_citoyens_article.md` | Ingérences étrangères / citoyens | Non publié |
-| `2026-03-26_18-30_la_démocratie_en_cage_ARTICLE.md` | La Démocratie en Cage | Publié |
-| `2026-03-27_21-30_le_reseau_qui_nous_facture_ARTICLE.md` | Le Réseau qui nous facture | Publié |
-| `2026-03-29_*_autoconsommation_*.md` | Autoconsommation / système occidental | Brouillons APEX |
-| `2026-03-29_*_pousser_regles_*.md` | Pousser les règles jusqu'à la casse | Brouillons APEX |
-| `2026-03-30_*_triple_capture_*.md` | Triple capture / décroissance | Brouillon |
-| `2026-03-31_*_le_vampire_*.md` | Le Vampire de la Croissance | Publié (v23 finale) |
-| `2026-04-16_*_fresque_globale_*.md` | Fresque globale asymétrie sécessionniste | Non publié (source de La Constellation) |
-| `2026-04-16_*_leviathan_de_verre_*.md` | Le Léviathan de Verre | Publié |
-| `2026-04-17_12-00_ingenierie_enclos_ARTICLE.md` | L'Ingénierie de l'Enclos | Non publié (en attente) |
-| `2026-04-19_04-00_architecture_du_18_avril_ARTICLE.md` | L'Architecture à l'Œuvre | Prêt pour publication (audit passé) |
-| `article_sabotage_energetique_francais.md` | Sabotage énergétique français | Publié |
-
-### investigations/ (enquêtes KERNEL v2.0)
-
-| Fichier | Sujet | Article associé |
-|---------|-------|----------------|
-| `2026-04-05_*_polanyi_a_gagne_*.md` | Polanyi a gagné | Inédit |
-| `2026-04-05_enquete_*.md` | 12 enquêtes système France (pantouflage, rente, franc-maçonnerie, etc.) | Inédit |
-| `2026-04-05_synthese_globale_*.md` | Synthèse globale 12 piliers | Inédit |
-| `2026-04-08_*_piege_denonciation_*.md` | Piège de la dénonciation | Inédit |
-| `2026-04-09_*_audiovisuel_*.md` | Commission audiovisuel, CNews/Bolloré, Niel, etc. | Audiovisuel Public + Commission |
-| `2026-04-09_*_salame_glucksmann_*.md` | Réseau Salamé/Glucksmann | Inédit |
-| `2026-04-12_*_dependance_petrodollar_*.md` | Dépendance pétrodollar | L'Agonie du Souverain |
-| `2026-04-12_*_systeme_epstein_*.md` | Système Epstein | Architecture à l'Œuvre (§6) |
-| `2026-04-12_*_possession_*.md` | Possession / Simone Weil / 350 ans | L'Ingénierie de la Possession |
-| `2026-04-13_*_enracinement_*.md` | Enracinement / dépossession / K31 | Le Protocole du Ré-enracinement |
-| `2026-04-16_*_leviathan_*.md` | Léviathan de Verre APEX | Le Léviathan de Verre |
-| `2026-04-17_*_17avril_*.md` | 6 enquêtes 17-18 avril (censure, surveillance, domestication, impunité, capture, consentement) | L'Architecture à l'Œuvre |
-| ⚠️ `2026-04-19_02-20_haarp_guerre_meteorologique_iran_INVESTIGATION.md` | HAARP v1 (obsolète, ERP erroné) → remplacé par `2026-04-19_16-00_*` | L'Architecture à l'Œuvre |
-| `2026-04-19_15-00_lloyds_ormuz_blocus_assurance_INVESTIGATION.md` | Lloyd's/Ormuz : blocus d'assurance (JWC JWLA-033, primes +1000%, transit -80-90%) | L'Architecture à l'Œuvre (§4-5) |
-| `2026-04-19_16-00_haarp_anatomie_ecran_complotiste_INVESTIGATION.md` | HAARP : anatomie d'un écran complotiste (ERP ~3,6 GW, ionosphère vs troposphère, Popeye/ENMOD) | L'Architecture à l'Œuvre (§4) |
-| `2026-04-19_18-00_grand_reset_anatomie_ecran_complotiste_INVESTIGATION.md` | Grand Reset : anatomie d'un écran complotiste (WEF, Auken 2016, ODD machine anti-politique, Black Bond PTV) | L'Architecture à l'Œuvre (§4) |
-
-### outputs/ (rapports d'enquête antérieurs v1.0)
-
-Ces fichiers sont les rapports du KERNEL v1.0 (avant refactorisation v2.0). Toujours valables comme sources factuelles.
-
-| Fichier | Sujet |
-|---------|-------|
-| `2026-01-30_*macron_reseaux_sociaux_*.md` | Macron et les réseaux sociaux |
-| `2026-01-31_*LECORNU_*.md` | Enquêtes Lecornu (contrats, budget, MLP) |
-| `2026-02-09_*FAR_RIGHT_TWEET_*.md` | Investigation tweet extrême droite |
-| `2026-02-09_*PERSO_FRESQUE_*.md` | Fresque portraits Bardella/Knafo/Maréchal |
-| `2026-03-17_*4chan_iran_*.md` | Réclamations 4chan/Iran vérification |
-| `2026-03-17_*shadow_banking_*.md` | Shadow banking Iran/4chan architecture |
-| `2026-03-24_*KERNEL_*.md` | Audit kernel, optimisation, architecture v2 |
-| `2026-03-24_*hausse_carburants_*.md` | Hausse carburants / État profite |
-| `2026-03-27_*reseau_qui_facture_*.md` | Le réseau qui nous facture (visuel) |
-| `2026-03-28_*fesneau_deficit_*.md` | Fesneau / déficit / INSEE (tweets) |
-| `2026-03-30_*rn_drapeau_europeen_*.md` | RN et le drapeau européen |
-| `ENQUETE_Bregeon_LFI_presse_2026.md` | Brégeon / LFI / presse |
-| `FINAL_INVESTIGATION_REPORT_HADDAD_APEX.md` | Haddad APEX |
-| `PROLOGUES_CORRIGES_CENSURE.md` | Prologues censure corrigés |
-| `tmf_preuves_tracking.md` | Preuves tracking TMF |
-| `tmf_reseau_elargi.md` | Réseau élargi TMF |
-| `article_mercosur_final.md` | Mercosur (article final) |
+| Métrique | Valeur |
+|----------|--------|
+| **Total posts** | **86** (87 fichiers dont 1 placeholder) |
+| **Période** | Novembre 2025 → Mai 2026 |
 
 ---
 
-## Fresque transversale (articles fondateurs)
+## Index complet des 86 posts
 
-Les articles suivants forment la **fresque** : chacun pose une brique de l'architecture, les articles suivants vérifient et approfondissent.
+> **Ordre :** Chronologique inverse (plus récent → plus ancien)
+> **Slug :** Extrait du nom de fichier HTML (cliquable → URL réelle sur giak.substack.com)
+> **Tags :** Thèmes dominants du post
 
-| # | Date | Article | Thèse |
-|---|------|---------|-------|
-| 1 | 2025-12-06 | FRANCE 2025 : L'ARCHITECTURE DE L'ENFER | Livre noir fondateur : 407 mensonges, état-mafia, feodalité financiarisée |
-| 2 | 2026-01-11 | L'ÉTAT-MAFIA : AUTOPSIE D'UNE LIQUIDATION | L'État comme organisation criminelle : 5 critères OMD |
-| 3 | 2026-02-06 | L'Architecture de la censure Européenne | EUIF → GIFCT → Christchurch → DSA : du volontaire au coercitif |
-| 4 | 2026-02-11 | Le triangle de la capture | Asymétrie, inversion, domestication : les 3 mécanismes |
-| 5 | 2026-03-24 | LA GUERRE DES AUTRES | Asymétrie sécessionniste : Israël/US hors droit international |
-| 6 | 2026-03-27 | LA DÉMOCRATIE EN CAGE | Censure DSA, 32,17 Md de modération, 99,98% hors cadre légal |
-| 7 | 2026-03-27 | Le réseau qui nous facture | Accès chinois aux données B2B via Peppol/Baiwang/CASIC |
-| 8 | 2026-03-31 | LE VAMPIRE DE LA CROISSANCE | La croissance dévore le vivant : extractivisme comme dogme |
-| 9 | 2026-04-03 | Comment la richesse verrouille le système | Deux oligopoles : immobilier + finance |
-| 10 | 2026-04-09 | La commission qui devait éclairer la France | Enfouissement enquêtes parlementaires, classification 25 ans |
-| 11 | 2026-04-10 | AUDIOVISUEL PUBLIC | Concentration Bolloré/Niel, capture d'État |
-| 12 | 2026-04-13 | L'INGÉNIERIE DE LA POSSESSION | Trois siècles de dépossession : enclosures → colonisation → financiarisation |
-| 13 | 2026-04-13 | Le protocole du ré-enracinement | Polydépendance comme seule issue |
-| 14 | 2026-04-16 | Le Léviathan de Verre | Inversion : les mots de la protection servent la dépossession |
-| 15 | 2026-04-17 | L'Ingénierie de l'Enclos | Domestication : la population comme ressource à parquer et traire |
-| 16 | 2026-04-19 | L'Architecture à l'Œuvre | Vérification en temps réel : 9 événements confirment l'architecture (coercition→effacement→fabrication→écran→profit→impunité→soumission) |
+| # | Date | Slug | Titre | Tags |
+|---|------|------|-------|------|
+| 1 | 2026-05-21 | [opposition-controlee-anatomie-dun](https://giak.substack.com/p/opposition-controlee-anatomie-dun) | Opposition contrôlée — anatomie d'un système auto-stabilisateur | démocratie, contrôle, dissidence |
+| 2 | 2026-05-19 | [le-ciel-nest-pas-gratuit](https://giak.substack.com/p/le-ciel-nest-pas-gratuit) | Le ciel n'est pas gratuit — comment l'aviation pollue, ne paie pas | climat, aviation, écologie |
+| 3 | 2026-05-18 | [le-paradoxe-francais-66-de-colere](https://giak.substack.com/p/le-paradoxe-francais-66-de-colere) | Le paradoxe français : 66 % de colère, zéro résultat | colère, impuissance, démocratie, grèves |
+| 4 | 2026-05-16 | [climat-les-deux-escroqueries](https://giak.substack.com/p/climat-les-deux-escroqueries) | Climat : les deux escroqueries | climat, désinformation, greenwashing |
+| 5 | 2026-04-21 | [la-constellation-davril](https://giak.substack.com/p/la-constellation-davril) | La constellation d'avril — quinze symptômes, un seul système | système, verrouillage, alternatives |
+| 6 | 2026-04-20 | [larchitecture-a-luvre](https://giak.substack.com/p/larchitecture-a-luvre) | L'architecture à l'œuvre | architecture, espace, rapports de force |
+| 7 | 2026-04-19 | [lingenierie-de-lenclos](https://giak.substack.com/p/lingenierie-de-lenclos) | L'ingénierie de l'enclos | contrôle, surveillance, espace, bornes |
+| 8 | 2026-04-16 | [le-leviathan-de-verre](https://giak.substack.com/p/le-leviathan-de-verre) | Le Léviathan de verre — quinze événements, l'architecture d'une dépossession légale | dépossession, système, légalité |
+| 9 | 2026-04-13 | [le-protocole-du-re-enracinement](https://giak.substack.com/p/le-protocole-du-re-enracinement) | Le protocole du ré-enracinement — comment sortir de la machine | résistance, enracinement, alternatives, philosophie |
+| 10 | 2026-04-13 | [lingenierie-de-la-possession](https://giak.substack.com/p/lingenierie-de-la-possession) | L'ingénierie de la possession — anatomie d'une machine acéphale | résistance, système, capture, philosophie |
+| 11 | 2026-04-10 | [audiovisuel-public-anatomie-dune](https://giak.substack.com/p/audiovisuel-public-anatomie-dune) | Audiovisuel public : anatomie d'une capture d'État | médias, audiovisuel, Bolloré, capture |
+| 12 | 2026-04-09 | [la-commission-qui-devait-eclairer](https://giak.substack.com/p/la-commission-qui-devait-eclairer) | La commission qui devait éclairer la France | audiovisuel, commission, enterrement |
+| 13 | 2026-04-06 | [ce-que-le-corps-sait-et-que-la-machine](https://giak.substack.com/p/ce-que-le-corps-sait-et-que-la-machine) | Ce que le corps sait et que la machine ne saura jamais | corps, IA, philosophie, cognition |
+| 14 | 2026-04-05 | [oak-island-le-mecanisme-de-capture](https://giak.substack.com/p/oak-island-le-mecanisme-de-capture) | Oak Island : le mécanisme de capture cognitive | capture cognitive, philosophie, mécanisme |
+| 15 | 2026-04-03 | [comment-la-richesse-verrouille-le](https://giak.substack.com/p/comment-la-richesse-verrouille-le) | Comment la richesse verrouille le système | richesse, verrouillage, alternatives, finance |
+| 16 | 2026-03-31 | [le-vampire-de-la-croissance](https://giak.substack.com/p/le-vampire-de-la-croissance) | Le vampire de la croissance — extraction systématique du vivant | croissance, décroissance, extraction |
+| 17 | 2026-03-29 | [ce-nest-pas-du-satanisme-cest-une](https://giak.substack.com/p/ce-nest-pas-du-satanisme-cest-une) | Ce n'est pas du satanisme, c'est une pathologie de caste | caste, pathologie, Bourdieu, Epstein |
+| 18 | 2026-03-27 | [le-reseau-qui-nous-facture](https://giak.substack.com/p/le-reseau-qui-nous-facture) | Le réseau qui nous facture — Chine, Big Four, factures | fiscalité, facturation, contrôle |
+| 19 | 2026-03-27 | [la-democratie-en-cage](https://giak.substack.com/p/la-democratie-en-cage) | La démocratie en cage — ingérences et protection européennes | démocratie, UE, contrôle, surveillance |
+| 20 | 2026-03-24 | [la-guerre-des-autres](https://giak.substack.com/p/la-guerre-des-autres) | La guerre des autres — Iran-USA-Israël | géopolitique, Iran, USA, conflit |
+| 21 | 2026-03-17 | [pourquoi-les-electeurs-francais-votent](https://giak.substack.com/p/pourquoi-les-electeurs-francais-votent) | Pourquoi les électeurs français votent pour leurs bourreaux | démocratie, vote, corruption, clientélisme |
+| 22 | 2026-03-12 | [le-sabotage-energetique-francais](https://giak.substack.com/p/le-sabotage-energetique-francais) | Le sabotage énergétique français — nucléaire sacrifié | énergie, nucléaire, idéologie |
+| 23 | 2026-03-11 | [ue-mercosur-le-mensonge-sanitaire](https://giak.substack.com/p/ue-mercosur-le-mensonge-sanitaire) | UE-Mercosur : le mensonge sanitaire | agriculture, Mercosur, santé, UE |
+| 24 | 2026-03-09 | [le-grand-manege-de-la-depossession](https://giak.substack.com/p/le-grand-manege-de-la-depossession) | Le grand manège de la dépossession : le travail en France | travail, dépossession, contrat social |
+| 25 | 2026-03-04 | [le-sanctuaire-inverse-comment-la](https://giak.substack.com/p/le-sanctuaire-inverse-comment-la) | Le sanctuaire inversé — la France a vendu son âme nucléaire | nucléaire, défense, souveraineté |
+| 26 | 2026-03-02 | [lempire-des-miettes](https://giak.substack.com/p/lempire-des-miettes) | L'empire des miettes — guerre 28 février, Epstein, marchés | système, guerre, Epstein, finance |
+| 27 | 2026-02-26 | [la-machine-a-silence](https://giak.substack.com/p/la-machine-a-silence) | La machine à silence — arsenal de contrôle numérique | censure, numérique, contrôle, DSA |
+| 28 | 2026-02-24 | [le-piege-knafo-cheval-de-troie-dune](https://giak.substack.com/p/le-piege-knafo-cheval-de-troie-dune) | Le piège Knafo — cheval de Troie d'une OPA technocratique | politique, RN, technocratie, extrême droite |
+| 29 | 2026-02-22 | [le-gulag-digital-surveilles-a-100](https://giak.substack.com/p/le-gulag-digital-surveilles-a-100) | Le gulag digital : surveillés à 100%, protégés à 0% | numérique, cybersécurité, surveillance, fuites |
+| 30 | 2026-02-11 | [le-triangle-de-la-capture](https://giak.substack.com/p/le-triangle-de-la-capture) | Le triangle de la capture — le mécanisme qui gouverne la France | capture, gouvernance, lobbying, revolving door |
+| 31 | 2026-02-09 | [darwin-et-evolution-enquete-sur-les](https://giak.substack.com/p/darwin-et-evolution-enquete-sur-les) | Darwin et évolution — enquête sur les mensonges croisés | science, créationnisme, culture, désinformation |
+| 32 | 2026-02-08 | [de-lombre-des-cavernes-a-lecran-lumineux](https://giak.substack.com/p/de-lombre-des-cavernes-a-lecran-lumineux) | De l'ombre des cavernes à l'écran lumineux | philosophie, cognition, crédulité, algorithme |
+| 33 | 2026-02-06 | [larchitecture-de-la-censure-europeenne](https://giak.substack.com/p/larchitecture-de-la-censure-europeenne) | L'architecture de la censure européenne — machine de contrôle | censure, UE, numérique, DSA, contrôle |
+| 34 | 2026-02-04 | [tristan-mendes-france-la-machine](https://giak.substack.com/p/tristan-mendes-france-la-machine) | Tristan Mendès France : la machine à effacer | médias, censure, contrôle narratif |
+| 35 | 2026-02-03 | [ils-ont-quitte-lhumanite](https://giak.substack.com/p/ils-ont-quitte-lhumanite) | Ils ont quitté l'humanité — autopsie d'une caste | caste, Epstein, prédation, Little St. James |
+| 36 | 2026-01-30 | [ce-que-macron-appelle-protection](https://giak.substack.com/p/ce-que-macron-appelle-protection) | Ce que Macron appelle « protection des enfants » cache une architecture de contrôle | contrôle, numérique, protection, surveillance |
+| 37 | 2026-01-28 | [limpasse-persique-pourquoi-loccident](https://giak.substack.com/p/limpasse-persique-pourquoi-loccident) | L'impasse persique — pourquoi l'Occident a déjà perdu | géopolitique, Iran, technologie, guerre |
+| 38 | 2026-01-28 | [letat-qui-veut-tout-controler-mais](https://giak.substack.com/p/letat-qui-veut-tout-controler-mais) | L'État qui veut tout contrôler mais échoue à tout | contrôle, État, TikTok, ASE, enfance |
+| 39 | 2026-01-26 | [budget-2026-larchitecture-du-mensonge](https://giak.substack.com/p/budget-2026-larchitecture-du-mensonge) | Budget 2026 : l'architecture du mensonge | budget, fiscalité, mensonge, 37 Mds€ |
+| 40 | 2026-01-25 | [lagriculture-au-scanner-autopsie](https://giak.substack.com/p/lagriculture-au-scanner-autopsie) | L'agriculture au scanner : autopsie d'une liquidation | agriculture, liquidation, paysans, terre |
+| 41 | 2026-01-20 | [annie-genevard-plus-de-cas-de-dnc](https://giak.substack.com/p/annie-genevard-plus-de-cas-de-dnc) | Annie Genevard : « Plus de cas de DNC » | agriculture, DNC, communication |
+| 42 | 2026-01-16 | [la-derniere-recolte-autopsie-dune](https://giak.substack.com/p/la-derniere-recolte-autopsie-dune) | La dernière récolte : autopsie d'une liquidation | agriculture, résistance, spectacle |
+| 43 | 2026-01-11 | [letat-mafia-autopsie-dune-liquidation](https://giak.substack.com/p/letat-mafia-autopsie-dune-liquidation) | L'État-mafia : autopsie d'une liquidation | État, mafia, corruption, racket |
+| 44 | 2026-01-04 | [lagonie-du-souverain-la-singularite](https://giak.substack.com/p/lagonie-du-souverain-la-singularite) | L'agonie du souverain : la singularité du pétrodollar | pétrodollar, souveraineté, économie, empire |
+| 45 | 2026-01-03 | [lasphyxie-du-golem-traite-de-la-resistance](https://giak.substack.com/p/lasphyxie-du-golem-traite-de-la-resistance) | L'asphyxie du golem : traité de la résistance totale | résistance, territoire, Paris, armurerie |
+| 46 | 2025-12-31 | [lempire-des-peches-psychopathologie](https://giak.substack.com/p/lempire-des-peches-psychopathologie) | L'empire des péchés : psychopathologie de la trahison | psychologie, trahison, civilisation, effondrement |
+| 47 | 2025-12-29 | [le-schisme-larme-sur-la-tempe-et](https://giak.substack.com/p/le-schisme-larme-sur-la-tempe-et) | Le schisme : l'arme sur la tempe et le silence des élites | élites, silence, suicide, enquête |
+| 48 | 2025-12-24 | [la-justice-spectrale-lere-du-bannissement](https://giak.substack.com/p/la-justice-spectrale-lere-du-bannissement) | La justice spectrale : l'ère du bannissement administratif | justice, bannissement, DSA, censure, adtech |
+| 49 | 2025-12-23 | [larchitecture-de-labattoir-le-crime](https://giak.substack.com/p/larchitecture-de-labattoir-le-crime) | L'architecture de l'abattoir : le crime en direct de la DNC | agriculture, DNC, crime, FNSEA, Avril |
+| 50 | 2025-12-22 | [france-2025-lanatomie-dune-feodalite](https://giak.substack.com/p/france-2025-lanatomie-dune-feodalite) | France 2025 : l'anatomie d'une féodalité financiarisée | féodalité, corruption, caste, finance |
+| 51 | 2025-12-16 | [les-telegraphistes-de-la-terreur](https://giak.substack.com/p/les-telegraphistes-de-la-terreur) | Les télégraphistes de la terreur — enquête sur la mécanique totalitaire de l'UE | UE, totalitaire, censure, État profond |
+| 52 | 2025-12-14 | [lindustrie-de-linfluence-enquete](https://giak.substack.com/p/lindustrie-de-linfluence-enquete) | L'industrie de l'influence : enquête sur le journalisme sous contrat | médias, influence, journalisme, corruption |
+| 53 | 2025-12-13 | [ce-que-letat-vous-cache-sur-la-dnc](https://giak.substack.com/p/ce-que-letat-vous-cache-sur-la-dnc) | Ce que l'État vous cache sur la DNC | agriculture, DNC, santé, secret |
+| 54 | 2025-12-11 | [la-grande-arnaque-agricole-comment](https://giak.substack.com/p/la-grande-arnaque-agricole-comment) | La grande arnaque agricole : 55 Mds€ disparaissent chaque année | agriculture, PAC, fraude, Bruxelles |
+| 55 | 2025-12-06 | [comment-musk-et-trump-vont-briser](https://giak.substack.com/p/comment-musk-et-trump-vont-briser) | Comment Musk et Trump vont briser l'Union européenne | UE, Musk, Trump, géopolitique |
+| 56 | 2025-12-06 | [france-2025-larchitecture-de-lenfer](https://giak.substack.com/p/france-2025-larchitecture-de-lenfer) | France 2025 : l'architecture de l'enfer (Livre Noir) | système, asservissement, enfer, investigation |
+| 57 | 2025-12-04 | [abattage-massif-en-savoie-la-france](https://giak.substack.com/p/abattage-massif-en-savoie-la-france) | Abattage massif en Savoie — la France liquide ses troupeaux | agriculture, abattage, Green Deal, sabotage |
+| 58 | 2025-12-03 | [pravda-quand-lelysee-ironise-sur](https://giak.substack.com/p/pravda-quand-lelysee-ironise-sur) | « Pravda ? » — quand l'Élysée ironise sur la censure qu'il construit | censure, Élysée, communication, médias |
+| 59 | 2025-12-02 | [quand-lelysee-attaque-un-journaliste](https://giak.substack.com/p/quand-lelysee-attaque-un-journaliste) | Quand l'Élysée attaque un journaliste : anatomie d'une architecture de censure | censure, journalisme, Élysée, architecture |
+| 60 | 2025-12-01 | [alla-poedie-cafards-censure-et-opacite](https://giak.substack.com/p/alla-poedie-cafards-censure-et-opacite) | Alla Poedie : « Cafards », censure et opacité | censure, Ukraine, déshumanisation, historien |
+| 61 | 2025-12-01 | [bandera-vs-petain-ce-que-les-faits](https://giak.substack.com/p/bandera-vs-petain-ce-que-les-faits) | Bandera vs Pétain : ce que les faits révèlent | Ukraine, histoire, guerre cognitive, débat |
+| 62 | 2025-11-30 | [ladieu-aux-partis-du-diagnostic-de](https://giak.substack.com/p/ladieu-aux-partis-du-diagnostic-de) | L'adieu aux partis : du diagnostic de Weil à l'OS démocratique souverain | politique, partis, démocratie, Weil |
+| 63 | 2025-11-30 | [essence-la-double-manipulation-que](https://giak.substack.com/p/essence-la-double-manipulation-que) | Essence : la double manipulation que personne ne vous montre | énergie, essence, prix, manipulation |
+| 64 | 2025-11-29 | [corruption-en-ukraine-garraud-a-t](https://giak.substack.com/p/corruption-en-ukraine-garraud-a-t) | Corruption en Ukraine : Garraud a-t-il raison de demander des comptes ? | Ukraine, corruption, RN, géopolitique |
+| 65 | 2025-11-29 | [democratie-rare-en-temps-de-guerre-82a](https://giak.substack.com/p/democratie-rare-en-temps-de-guerre-82a) | « Démocratie rare en temps de guerre » : déconstruction d'un narratif | Ukraine, guerre, narratif, déconstruction |
+| 66 | 2025-11-29 | [larmee-potemkine-quand-le-spectre](https://giak.substack.com/p/larmee-potemkine-quand-le-spectre) | L'armée Potemkine : quand le spectre de Poutine cache la ruine de nos forces | défense, armée, munitions, désertion |
+| 67 | 2025-11-28 | [407-mensonges-lautopsie-dun-systeme](https://giak.substack.com/p/407-mensonges-lautopsie-dun-systeme) | 407 mensonges : l'autopsie d'un système | mensonge, système, dissimulation, investigation |
+| 68 | 2025-11-28 | [service-militaire-volontaire-ce-que](https://giak.substack.com/p/service-militaire-volontaire-ce-que) | Service militaire volontaire : ce que Macron ne vous dit pas | défense, SNU, service militaire, obligation |
+| 69 | 2025-11-28 | [nationalisation-darcelormittal-ce](https://giak.substack.com/p/nationalisation-darcelormittal-ce) | Nationalisation d'ArcelorMittal : ce qu'on ne vous dit pas | industrie, acier, nationalisation |
+| 70 | 2025-11-27 | [leurope-construit-elle-un-credit-40d](https://giak.substack.com/p/leurope-construit-elle-un-credit-40d) | L'Europe construit-elle un crédit social à la française ? | UE, surveillance, DSA, Chat Control, eIDAS |
+| 71 | 2025-11-27 | [leurope-construit-elle-un-credit](https://giak.substack.com/p/leurope-construit-elle-un-credit) | L'Europe construit-elle un crédit social doux ? | UE, DSA, identité numérique, surveillance |
+| 72 | 2025-11-27 | [macron-et-la-paix-en-ukraine-ce-que](https://giak.substack.com/p/macron-et-la-paix-en-ukraine-ce-que) | Macron et la paix en Ukraine : ce que le discours cache | Ukraine, Macron, paix, discours |
+| 73 | 2025-11-27 | [liceberg-du-syndicalisme-agricole](https://giak.substack.com/p/liceberg-du-syndicalisme-agricole) | L'iceberg du syndicalisme agricole | agriculture, FNSEA, syndicalisme, CR |
+| 74 | 2025-11-27 | [leffondrement-educatif-francais-50-fea](https://giak.substack.com/p/leffondrement-educatif-francais-50-fea) | L'effondrement éducatif français : 50 ans de consensus silencieux | éducation, école, effondrement, consensus |
+| 75 | 2025-11-27 | [energies-renouvelables-le-double](https://giak.substack.com/p/energies-renouvelables-le-double) | Énergies renouvelables : le double mensonge | énergie, renouvelables, précarité, mensonge |
+| 76 | 2025-11-27 | [ukraine-ce-que-hayer-trump-et-zelenskyy](https://giak.substack.com/p/ukraine-ce-que-hayer-trump-et-zelenskyy) | Ukraine : ce que Hayer, Trump et Zelenskyy cachent tous | Ukraine, corruption, paix, profits |
+| 77 | 2025-11-26 | [qui-a-vraiment-la-tete-dans-le-sable](https://giak.substack.com/p/qui-a-vraiment-la-tete-dans-le-sable) | Qui a vraiment « la tête dans le sable » ? | médias, Fourest, Russie, Gazprom |
+| 78 | 2025-11-26 | [emprunt-force-des-riches-le-spectacle](https://giak.substack.com/p/emprunt-force-des-riches-le-spectacle) | Emprunt forcé des riches : le spectacle politique | fiscalité, riches, spectacle, Sénat |
+| 79 | 2025-11-26 | [kallas-et-les-19-pays-ce-que-les](https://giak.substack.com/p/kallas-et-les-19-pays-ce-que-les) | Kallas et les 19 pays : ce que les chiffres officiels révèlent | Ukraine, Europe, double standard, chiffres |
+| 80 | 2025-11-26 | [qui-est-vraiment-louis-duclos](https://giak.substack.com/p/qui-est-vraiment-louis-duclos) | Qui est vraiment Louis Duclos ? | collaboration, accusation, État |
+| 81 | 2025-11-26 | [le-double-discours-du-rn-sur-lagriculture](https://giak.substack.com/p/le-double-discours-du-rn-sur-lagriculture) | Le double discours du RN sur l'agriculture | agriculture, RN, Mercosur, votes |
+| 82 | 2025-11-26 | [bardella-et-lagriculture-le-grand-757](https://giak.substack.com/p/bardella-et-lagriculture-le-grand-757) | Bardella et l'agriculture : le grand écart | agriculture, RN, Bardella, PAC |
+| 83 | 2026-05-26 | [truth-engine-lia-qui-revolutionne](https://giak.substack.com/p/truth-engine-lia-qui-revolutionne) | Truth Engine : l'IA qui révolutionne l'investigation | Truth Engine, IA, investigation |
+| 84 | 2026-03-27 | [linflation-normative-francaise](https://giak.substack.com/p/linflation-normative-francaise) | L'inflation normative française *(titre non publié)* | normes, inflation, régulation |
+| 85 | 2024-01-18 | coming-soon | Coming soon *(placeholder)* | — |
+| 86 | 2026-04-13 | 3b3 | *(titre inconnu — fichier orphelin)* | — |
 
----
-
-## Mots-clés rapides
-
-Pour recherche par mot-clé :
-
-- **DNC** : `ce-que-letat-vous-cache-sur-la-dnc`, `larchitecture-de-labattoir-le-crime`, `annie-genevard-plus-de-cas-de-dnc`, `abattage-massif-en-savoie-la-france`, `la-derniere-recolte-autopsie-dune`
-- **Abattage forcé** : `abattage-massif-en-savoie-la-france`, `larchitecture-de-labattoir-le-crime`
-- **Vaccination forcée** : `la-derniere-recolte-autopsie-dune`, `lagriculture-au-scanner-autopsie`, article local `ingenierie_enclos_ARTICLE.md` + `architecture_du_18_avril_ARTICLE.md`
-- **Censure DSA** : `la-democratie-en-cage`, `larchitecture-de-la-censure-europeenne`, `le-gulag-digital-surveilles-a-100`
-- **Epstein/Brunel** : `le-schisme-larme-sur-la-tempe-et`, enquêtes locales `systeme_epstein`, `architecture_du_18_avril_ARTICLE.md` §6
-- **Palantir** : `le-gulag-digital-surveilles-a-100`, article local `architecture_du_18_avril_ARTICLE.md` §7
-- **Pétrole / spéculation** : `le-vampire-de-la-croissance`, `lagonie-du-souverain-la-singularite`, `essence-la-double-manipulation-que`, article local `architecture_du_18_avril_ARTICLE.md` §5
-- **Mercosur** : `ue-mercosur-le-mensonge-sanitaire`, `article_mercosur_final.md`
-- **Concentration médias** : `audiovisuel-public-anatomie-dune`, `linustrie-de-linfluence-enquete`
-- **Crédit social** : `leurope-construit-elle-un-credit`, `leurope-construit-elle-un-credit-40d`, `les-telegraphistes-de-la-terreur`
-- **Iran** : `limpasse-persique-pourquoi-loccident`, `la-guerre-des-autres`
-- **Ukraine** : `ukraine-ce-que-hayer-trump-et-zelenskyy`, `corruption-en-ukraine-garraud-a-t`, `macron-et-la-paix-en-ukraine-ce-que`
-- **Simone Weil / Enracinement** : `le-protocole-du-re-enracinement`, enquêtes `enracinement_*`, `dependence_possession_weil`
-- **Bolloré** : `audiovisuel-public-anatomie-dune`, enquêtes `cnews_bollore_fox_news`, `europe1_jdd_bollore`
-- **Niel** : enquêtes `niel_reseau_telecom_medias`
-- **FNSEA / CR32** : `liceberg-du-syndicalisme-agricole`, `le-schisme-larme-sur-la-tempe-et`
-- **eIDAS / identité numérique** : `le-gulag-digital-surveilles-a-100`, `le-leviathan-de-verre`, `ce-que-macron-appelle-protection`
-- **Vitol / négoce pétrolier** : `le-vampire-de-la-croissance`, article local `architecture_du_18_avril_ARTICLE.md` §5
-- **Énergie / Nucléaire** : `le-sabotage-energetique-francais`, `le-sanctuaire-inverse-comment-la`, `energies-renouvelables-le-double`
-- **Coercition armée / agriculteurs** : `le-schisme-larme-sur-la-tempe-et`, `abattage-massif-en-savoie-la-france`
-- **Complotisme / HAARP / Grand Reset** : article local `architecture_du_18_avril_ARTICLE.md` §4, enquête `haarp_anatomie_ecran_complotiste_INVESTIGATION.md`, `le-gulag-digital-surveilles-a-100`
-- **Lloyd's / assurance maritime / Ormuz** : article local `architecture_du_18_avril_ARTICLE.md` §4-5, enquête `lloyds_ormuz_blocus_assurance_INVESTIGATION.md`
-- **Blocus d'assurance / war risk / P&I** : enquête `lloyds_ormuz_blocus_assurance_INVESTIGATION.md`, article `architecture_du_18_avril_ARTICLE.md` §5
-- **Alstom / Marleix** : `france-2025-larchitecture-de-lenfer`, `letat-mafia-autopsie-dune-liquidation`
-- **4chan / Iran / shadow banking** : outputs `2026-03-17_4chan_iran_claims_verification.md`, `2026-03-17_*shadow_banking_iran_4chan_*.md`
 

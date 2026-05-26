@@ -1,4 +1,4 @@
-# ⚔️ La Défense en berne : 56 Md€ de contrats perdus (AUKUS), 11e rang mondial, 3 000 hommes en Afrique — la souveraineté stratégique abandonnée
+# ⚔️ La Défense en berne : 56 Md€ de contrats perdus (AUKUS), 11e rang mondial, 3 000 hommes en Afrique : la souveraineté stratégique abandonnée
 
 *⚔️ La France dépense 50 Md€ par an pour sa défense, soit 2 % de son PIB. Elle est le 3e exportateur mondial d'armement. Mais elle a perdu le contrat du siècle (AUKUS, 56 Md€), a été chassée du Sahel (Mali, Niger, Burkina Faso), et ses forces conventionnelles ne peuvent pas soutenir un conflit de haute intensité plus de quelques semaines. Enquête sur une puissance qui dépense plus pour peser moins.*
 
@@ -26,7 +26,7 @@ La Loi de Programmation Militaire (LPM) 2024-2030 prévoit 413 Md€ sur 7 ans, 
 
 Mais le constat est sans appel. Selon l'avis budgétaire de l'Assemblée nationale sur le PLF 2026 (Tome VII, Équipement des forces), **la France ne dispose pas des stocks de munitions nécessaires pour soutenir un engagement de haute intensité au-delà de quelques semaines.**
 
-> **Les rapports parlementaires de 2025 sont encore plus précis : quelques semaines, selon le rapport d'information de la commission de la Défense (AN, n°1890, septembre 2025). En parallèle, les démissions explosent — le plan « Fidélisation 360 » est un échec patent, les soldats votent avec leurs pieds. C'est le « syndrome du village Potemkine » : une façade martiale agressive, théorisant la mort de masse, pour masquer un intérieur vidé et une institution qui perd ses propres troupes.**
+> **Les rapports parlementaires de 2025 sont encore plus précis : quelques semaines, selon le rapport d'information de la commission de la Défense (AN, n°1890, septembre 2025). En parallèle, les démissions explosent : le plan « Fidélisation 360 » est un échec patent, les soldats votent avec leurs pieds. C'est le « syndrome du village Potemkine » : une façade martiale agressive, théorisant la mort de masse, pour masquer un intérieur vidé et une institution qui perd ses propres troupes.**
 
 <!-- ENRICHIE: larmee-potemkine -->
 <!-- THEME: verrouillage-systemique -->
@@ -48,13 +48,13 @@ Le retard est d'autant plus préoccupant que la guerre en Ukraine a démontré l
 
 ---
 
-## §2 : Barkhane — 10 ans, 5 500 soldats, zéro résultat
+## §2 : Barkhane : 10 ans, 5 500 soldats, zéro résultat
 
 ### La chronologie du retrait forcé
 
 L'opération Barkhane, lancée en 2014 en remplacement de l'opération Serval (2013), devait stabiliser la bande sahélo-saharienne et neutraliser les groupes jihadistes. **Dix ans, 5 500 soldats, des milliards d'euros : les groupes jihadistes sont toujours actifs, l'influence française a disparu de la région, et les régimes militaires ont systématiquement rompu les accords de défense avec Paris.**
 
-Le retrait forcé suit une chronologie implacable : **mai 2022** — retrait officiel du Mali, après rupture des accords par la junte malienne ; **février 2023** — évacuation du Burkina Faso, après le coup d'État de septembre 2022 ; **décembre 2023** — début du retrait du Niger, après le coup d'État de juillet 2023 ; **2024** — fin de la présence française au Tchad, dernier allié historique de la région. Selon le Ministère des Armées (chronologie OPEX, 2024), les forces françaises prépositionnées en Afrique sont passées de 5 000 hommes en 2017 à environ 3 000 en 2024.
+Le retrait forcé suit une chronologie implacable : **mai 2022** : retrait officiel du Mali, après rupture des accords par la junte malienne ; **février 2023** : évacuation du Burkina Faso, après le coup d'État de septembre 2022 ; **décembre 2023** : début du retrait du Niger, après le coup d'État de juillet 2023 ; **2024** : fin de la présence française au Tchad, dernier allié historique de la région. Selon le Ministère des Armées (chronologie OPEX, 2024), les forces françaises prépositionnées en Afrique sont passées de 5 000 hommes en 2017 à environ 3 000 en 2024.
 
 ### La perte du pré carré africain
 
@@ -64,7 +64,7 @@ Au-delà du Sahel, c'est toute la stratégie africaine de la France qui s'effond
 
 ---
 
-## §3 : AUKUS — la trahison et ses leçons
+## §3 : AUKUS : la trahison et ses leçons
 
 ### 56 Md€ de contrats perdus
 
@@ -122,48 +122,48 @@ La défense française illustre, dans l'architecture du Changement de Régime, l
 
 La souveraineté stratégique n'est pas un luxe de grande puissance. Elle est la condition de l'indépendance nationale. Un pays qui ne peut pas défendre ses intérêts, protéger ses alliés, soutenir un engagement militaire durable n'est pas un pays souverain. **La France est en train de perdre cette souveraineté** : non par fatalité géopolitique, mais par des choix politiques qui ont systématiquement privilégié le prestige technologique et les exportations lucratives sur la capacité réelle de projection et de dissuasion conventionnelle.
 
-## §6 — Ce que ce chapitre ne dit pas
+## §6 : Ce que ce chapitre ne dit pas
 
 Cette démonstration de l'affaiblissement stratégique français ne mentionne pas les atouts que la France conserve. Le renseignement français (DGSE) est considéré comme l'un des meilleurs d'Europe, avec des succès opérationnels récents dans la lutte antiterroriste et le contre-espionnage, selon la délégation parlementaire au renseignement (rapport 2024). La cyberdéfense française, avec le commandement CYBERCOM, a montré sa capacité de riposte lors des attaques russes contre des hôpitaux français en 2022-2023. La stratégie spatiale militaire, avec le lancement du satellite CERES (2021) et le programme de satellites de surveillance, positionne la France comme la seule puissance spatiale militaire européenne avec le Royaume-Uni. Le chapitre n'explore pas non plus la piste d'une défense européenne commune, qui permettrait de mutualiser les moyens et d'atteindre une masse critique que chaque nation seule ne peut plus financer. Enfin, l'expérience française en matière de projection expéditionnaire (Mali, Centrafrique, Liban) reste une compétence rare en Europe, que la perte du Sahel ne doit pas faire oublier.
 
-➡️ **À lire ensuite :** Comment ce système de prédation et d'abdication se verrouille — **S15 — Le Verrou**
+➡️ **À lire ensuite :** Comment ce système de prédation et d'abdication se verrouille : **S15 : Le Verrou**
 
 ---
 
-*📖 **Article suivant :** 🔒 Le Verrou — la mécanique qui empêche tout changement, 57 % d'abstention, 23 recours au 49.3 [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🇪🇺 L'Europe — cadre ou carcan ? [LIEN_A_INSERER]*
+*📖 **Article suivant :** 🔒 Le Verrou : la mécanique qui empêche tout changement, 57 % d'abstention, 23 recours au 49.3 [LIEN_A_INSERER]*
+*📖 **Article précédent :** 🇪🇺 L'Europe : cadre ou carcan ? [LIEN_A_INSERER]*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
 
 ---
 
 ### À voir aussi
 
-— [« L'Armée Potemkine »](https://giak.substack.com/p/larmee-potemkine) — 🔗 Le plus connexe : complète l'analyse de l'affaiblissement militaire
-— [« La guerre des autres »](https://giak.substack.com/p/la-guerre-des-autres) — 🔗 Lien direct : prolonge la thèse de la dépendance stratégique
-— [« 💻 Le Numérique colonisé »](https://giak.substack.com/p/S16-le-numerique-colonise) — 🔗 Le plus connexe : complète l'analyse de la souveraineté numérique
+- [« L'Armée Potemkine »](https://giak.substack.com/p/larmee-potemkine) : 🔗 Le plus connexe : complète l'analyse de l'affaiblissement militaire
+- [« La guerre des autres »](https://giak.substack.com/p/la-guerre-des-autres) : 🔗 Lien direct : prolonge la thèse de la dépendance stratégique
+- [« 💻 Le Numérique colonisé »](https://giak.substack.com/p/S16-le-numerique-colonise) : 🔗 Le plus connexe : complète l'analyse de la souveraineté numérique
 
 ---
 
 ## Sources
 
-1. **Ministère des Armées** — Loi de Programmation Militaire 2024-2030, Loi n° 2023-703 du 1er août 2023 : 413 Md€ sur 7 ans — [legifrance.gouv.fr](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047914986)
-2. **Ministère des Armées** — LPM 2019-2025 : 295 Md€ — [defense.gouv.fr](https://www.defense.gouv.fr/ministere/politique-defense/loi-programmation-militaire-2024-2030/loi-programmation-militaire-2024-2030-grandes)
-3. **OTAN** — Dépenses de défense 2024 : objectif 2 % du PIB, état des lieux France — [nato.int](https://www.nato.int/fr/what-we-do/introduction-to-nato/defence-expenditures-and-natos-5-commitment)
-4. **Assemblée nationale** — Avis budgétaire PLF 2026, Tome VII (Équipement des forces) : dépendances critiques munitions, drones, équipements — [assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/17/rapports/cion_def/l17b2048-tvii_rapport-avis.pdf)
-5. **Assemblée nationale/LCP** — Mission d'information sur les dépendances militaires de la France vis-à-vis de l'étranger : drones, munitions, équipements (rapport Cormier-Bouligeon/Saintoul, avril 2026) — [lcp.fr](https://lcp.fr/actualites/munitions-drones-porte-avions-ces-dependances-qui-affaiblissent-l-armee-francaise-434563)
-6. **Sénat** — Rapport sur la LPM 2024-2030 (2023) : stocks équipements individuels insuffisants — [senat.fr](https://www.senat.fr/rap/r22-793/r22-793.html)
-7. **Ministère des Armées** — Chronologie OPEX et retrait Barkhane : Mali (mai 2022), Burkina Faso (février 2023), Niger (décembre 2023) — [defense.gouv.fr](https://www.defense.gouv.fr/operations/bande-sahelo-saharienne/operation-barkhane)
-8. **Ministère des Armées** — Forces prépositionnées Afrique : 5 000 hommes (2017) à 3 000 (2024) — [defense.gouv.fr](https://www.defense.gouv.fr/ministere/politique-defense/forces-prepositionnees)
-9. **Sénat** — Rapport sur la politique africaine de la France (2024) : effondrement de l'influence — [senat.fr](https://www.senat.fr/rap/r23-456/r23-456.html)
-10. **Vie-publique.fr** — AUKUS : annulation du contrat de sous-marins franco-australiens (septembre 2021) — [vie-publique.fr](https://www.vie-publique.fr/en-bref/281691-annulation-du-contrat-des-sous-marins-franco-australiens)
-11. **Ministère des Armées** — Stratégie indo-pacifique 2024 : présence renforcée — [defense.gouv.fr](https://www.defense.gouv.fr/ministere/politique-defense/strategie-indo-pacifique)
-12. **SIPRI** — Trade Registers 2024 : France 3e exportateur mondial d'armement — [sipri.org](https://www.sipri.org/databases/armstransfers)
-13. **Dassault Aviation** — Rafale : contrats export Égypte, Qatar, Inde, Grèce, Croatie, Indonésie — [dassault-aviation.com](https://www.dassault-aviation.com/en/defense/rafale/introduction/)
-14. **Ministère des Armées** — Rapport au Parlement sur les exportations d'armement 2024 : 21,6 Md€ — [defense.gouv.fr](https://www.defense.gouv.fr/economie/exportations-armement)
-15. **OTAN** — Enhanced Forward Presence 2024 : France nation-cadre Roumanie — [nato.int](https://www.nato.int/fr/what-we-do/activities/enhanced-forward-presence)
-16. **Global Firepower** — Classement mondial des armées 2024 : France 11e — [globalfirepower.com](https://www.globalfirepower.com/country-military-strength-detail.php?country_id=france)
-17. **Sénat** — Délégation parlementaire au renseignement, rapport 2024 : réformes DGSE — [senat.fr](https://www.senat.fr/rap/r25-227-1/r25-227-1.html)
-18. **Ministère des Armées** — Budget défense 2025 : ~50 Md€ — [defense.gouv.fr](https://www.defense.gouv.fr/ministere/cout-budget/budget)
-19. **Sénat** — Aide militaire à l'Ukraine (2024) : estimation 3-15 Md€ cumulés — [senat.fr](https://www.senat.fr/rap/r23-456-ukraine/r23-456-ukraine.html)
-20. **LPM 2024-2030** — Dissuasion nucléaire : ~5 Md€/an — Source 1 (Légifrance)
-21. **La Tribune** (via Defense Mirror) — Missile stock of French Rafales deployed in UAE depleting rapidly (mars 2026) — [defensemirror.com](https://www.defensemirror.com/news/41322)
+1. **Ministère des Armées** : Loi de Programmation Militaire 2024-2030, Loi n° 2023-703 du 1er août 2023 : 413 Md€ sur 7 ans : [legifrance.gouv.fr](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047914986)
+2. **Ministère des Armées** : LPM 2019-2025 : 295 Md€ : [defense.gouv.fr](https://www.defense.gouv.fr/ministere/politique-defense/loi-programmation-militaire-2024-2030/loi-programmation-militaire-2024-2030-grandes)
+3. **OTAN** : Dépenses de défense 2024 : objectif 2 % du PIB, état des lieux France : [nato.int](https://www.nato.int/fr/what-we-do/introduction-to-nato/defence-expenditures-and-natos-5-commitment)
+4. **Assemblée nationale** : Avis budgétaire PLF 2026, Tome VII (Équipement des forces) : dépendances critiques munitions, drones, équipements : [assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/17/rapports/cion_def/l17b2048-tvii_rapport-avis.pdf)
+5. **Assemblée nationale/LCP** : Mission d'information sur les dépendances militaires de la France vis-à-vis de l'étranger : drones, munitions, équipements (rapport Cormier-Bouligeon/Saintoul, avril 2026) : [lcp.fr](https://lcp.fr/actualites/munitions-drones-porte-avions-ces-dependances-qui-affaiblissent-l-armee-francaise-434563)
+6. **Sénat** : Rapport sur la LPM 2024-2030 (2023) : stocks équipements individuels insuffisants : [senat.fr](https://www.senat.fr/rap/r22-793/r22-793.html)
+7. **Ministère des Armées** : Chronologie OPEX et retrait Barkhane : Mali (mai 2022), Burkina Faso (février 2023), Niger (décembre 2023) : [defense.gouv.fr](https://www.defense.gouv.fr/operations/bande-sahelo-saharienne/operation-barkhane)
+8. **Ministère des Armées** : Forces prépositionnées Afrique : 5 000 hommes (2017) à 3 000 (2024) : [defense.gouv.fr](https://www.defense.gouv.fr/ministere/politique-defense/forces-prepositionnees)
+9. **Sénat** : Rapport sur la politique africaine de la France (2024) : effondrement de l'influence : [senat.fr](https://www.senat.fr/rap/r23-456/r23-456.html)
+10. **Vie-publique.fr** : AUKUS : annulation du contrat de sous-marins franco-australiens (septembre 2021) : [vie-publique.fr](https://www.vie-publique.fr/en-bref/281691-annulation-du-contrat-des-sous-marins-franco-australiens)
+11. **Ministère des Armées** : Stratégie indo-pacifique 2024 : présence renforcée : [defense.gouv.fr](https://www.defense.gouv.fr/ministere/politique-defense/strategie-indo-pacifique)
+12. **SIPRI** : Trade Registers 2024 : France 3e exportateur mondial d'armement : [sipri.org](https://www.sipri.org/databases/armstransfers)
+13. **Dassault Aviation** : Rafale : contrats export Égypte, Qatar, Inde, Grèce, Croatie, Indonésie : [dassault-aviation.com](https://www.dassault-aviation.com/en/defense/rafale/introduction/)
+14. **Ministère des Armées** : Rapport au Parlement sur les exportations d'armement 2024 : 21,6 Md€ : [defense.gouv.fr](https://www.defense.gouv.fr/economie/exportations-armement)
+15. **OTAN** : Enhanced Forward Presence 2024 : France nation-cadre Roumanie : [nato.int](https://www.nato.int/fr/what-we-do/activities/enhanced-forward-presence)
+16. **Global Firepower** : Classement mondial des armées 2024 : France 11e : [globalfirepower.com](https://www.globalfirepower.com/country-military-strength-detail.php?country_id=france)
+17. **Sénat** : Délégation parlementaire au renseignement, rapport 2024 : réformes DGSE : [senat.fr](https://www.senat.fr/rap/r25-227-1/r25-227-1.html)
+18. **Ministère des Armées** : Budget défense 2025 : ~50 Md€ : [defense.gouv.fr](https://www.defense.gouv.fr/ministere/cout-budget/budget)
+19. **Sénat** : Aide militaire à l'Ukraine (2024) : estimation 3-15 Md€ cumulés : [senat.fr](https://www.senat.fr/rap/r23-456-ukraine/r23-456-ukraine.html)
+20. **LPM 2024-2030** : Dissuasion nucléaire : ~5 Md€/an : Source 1 (Légifrance)
+21. **La Tribune** (via Defense Mirror) : Missile stock of French Rafales deployed in UAE depleting rapidly (mars 2026) : [defensemirror.com](https://www.defensemirror.com/news/41322)

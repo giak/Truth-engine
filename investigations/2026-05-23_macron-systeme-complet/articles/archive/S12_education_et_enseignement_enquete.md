@@ -1,21 +1,21 @@
-# ENQUÊTE — Éducation et Enseignement : de la transmission des valeurs à la déliquescence du civisme
+# ENQUÊTE : Éducation et Enseignement : de la transmission des valeurs à la déliquescence du civisme
 
 **Douzième article de la série *Le Changement de Régime***
 **Niveau : COMPLEX (KERNEL v2)**
 
 ---
 
-## §0 — RÉSUMÉ
+## §0 : RÉSUMÉ
 
-La France ne transmet plus. Les valeurs, les savoirs, les repères, le civisme, l'autorité — tout ce qui faisait tenir une société ensemble — s'érode à un rythme accéléré. L'école est en première ligne (traitée dans S7), mais le problème est plus profond : c'est la **chaîne de transmission intergénérationnelle** qui se rompt.
+La France ne transmet plus. Les valeurs, les savoirs, les repères, le civisme, l'autorité : tout ce qui faisait tenir une société ensemble : s'érode à un rythme accéléré. L'école est en première ligne (traitée dans S7), mais le problème est plus profond : c'est la **chaîne de transmission intergénérationnelle** qui se rompt.
 
 La famille, première instance de socialisation, est fragilisée : 23 % des enfants vivent dans une famille monoparentale, l'isolement parental s'aggrave, l'autorité est devenue un concept suspect. L'éducation civique est devenue un cours théorique sans effet. La confiance dans les institutions s'effondre (22 % en 2026). Le sentiment d'impunité progresse. Les repères religieux et moraux s'évanouissent sans être remplacés.
 
-Ce n'est pas une « crise des valeurs » conjoncturelle. C'est le résultat de **quarante ans de politiques éducatives, familiales et culturelles** qui ont méthodiquement vidé les institutions de leur capacité à transmettre — au nom de la modernisation, de l'individualisme, de la « bienveillance » comme unique boussole morale.
+Ce n'est pas une « crise des valeurs » conjoncturelle. C'est le résultat de **quarante ans de politiques éducatives, familiales et culturelles** qui ont méthodiquement vidé les institutions de leur capacité à transmettre : au nom de la modernisation, de l'individualisme, de la « bienveillance » comme unique boussole morale.
 
 ---
 
-## §1 — CHRONOLOGIE
+## §1 : CHRONOLOGIE
 
 | Date | Événement | Signification |
 |------|-----------|---------------|
@@ -42,49 +42,49 @@ Ce n'est pas une « crise des valeurs » conjoncturelle. C'est le résultat de *
 
 ---
 
-## §2 — DOMAINES
+## §2 : DOMAINES
 
-### Domaine A — La famille comme première instance de transmission
+### Domaine A : La famille comme première instance de transmission
 
-**A1 — Fragilisation structurelle**
+**A1 : Fragilisation structurelle**
 - 23 % des enfants vivent dans une famille monoparentale (INSEE, 2023)
 - 67 % des enfants vivent avec leurs deux parents en couple (INSEE, 2023)
 - 10 % vivent dans une famille recomposée (INSEE, 2023)
 - Après séparation : baisse du niveau de vie de −24 % pour les mères, −12 % pour les pères (Sénat, 2023)
 - 1,9 million de familles monoparentales (2023), dont 82 % gérées par une mère
 
-**A2 — Isolement parental et éducatif**
-- 12 % des Français en situation d'isolement objectif — absence de réseaux de sociabilité (Fondation de France, 2025)
+**A2 : Isolement parental et éducatif**
+- 12 % des Français en situation d'isolement objectif : absence de réseaux de sociabilité (Fondation de France, 2025)
 - 1 Français sur 4 se déclare seul (Fondation de France, 2025)
 - Corrélation forte : monoparentalité → pauvreté → isolement → moins de transmission éducative
 - L'écart de temps consacré aux enfants entre cadres et ouvriers s'est creusé de +35 % entre 2000 et 2020
 
-**A3 — Crise de l'autorité parentale**
+**A3 : Crise de l'autorité parentale**
 - Remise en cause massive de l'éducation traditionnelle (obéissance, cadre, sanctions)
 - Montée de l'éducation « positive » ou « bienveillante » comme seul discours légitime
 - Corrélat : flou sur les limites, difficulté à poser un cadre, culpabilisation parentale
-- Aucune donnée quantitative fiable sur l'application de l'éducation positive — débat sociétal non tranché
+- Aucune donnée quantitative fiable sur l'application de l'éducation positive : débat sociétal non tranché
 - Nombre d'enfants suivis par l'Aide Sociale à l'Enfance (ASE) : 350 000 (2023), +14 % depuis 2017
 
 ---
 
-### Domaine B — La transmission des valeurs républicaines
+### Domaine B : La transmission des valeurs républicaines
 
-**B1 — EMC : une discipline fantôme**
+**B1 : EMC : une discipline fantôme**
 - Enseignement obligatoire depuis 2015, réajusté en 2018
 - Horaire : 1h/semaine au collège, mais mise en œuvre très inégale
 - Inspection générale : manque de formation des enseignants
 - DEPP : seuls 30 % des enseignants se sentent formés à l'EMC
-- Pas d'évaluation nationale des acquis en EMC — impossible de mesurer l'impact
+- Pas d'évaluation nationale des acquis en EMC : impossible de mesurer l'impact
 
-**B2 — Laïcité : de l'idéal à la gestion des incidents**
+**B2 : Laïcité : de l'idéal à la gestion des incidents**
 - Signalements atteintes à la laïcité : ~4 700 (2022-2023)
 - Baisse de 10 % annoncée en 2025 (Équipes Valeurs de la République)
-- Dissolution de l'Observatoire de la laïcité en 2021 — perte d'un outil indépendant
+- Dissolution de l'Observatoire de la laïcité en 2021 : perte d'un outil indépendant
 - Aucune enquête nationale sur ce que les élèves comprennent de la laïcité
 - Charte de la laïcité (2013) : affichée dans tous les établissements, jamais évaluée
 
-**B3 — Éducation aux médias et à l'information**
+**B3 : Éducation aux médias et à l'information**
 - CLEMI : dépendance accrue des jeunes aux réseaux sociaux (TikTok, Instagram) comme sources d'info
 - Difficulté croissante à distinguer information et opinion (enquêtes CLEMI 2023, 2024)
 - 40 % des 15-24 ans considèrent les réseaux sociaux comme leur source d'info principale
@@ -92,43 +92,43 @@ Ce n'est pas une « crise des valeurs » conjoncturelle. C'est le résultat de *
 
 ---
 
-### Domaine C — Le SNU : l'échec du grand récit civique
+### Domaine C : Le SNU : l'échec du grand récit civique
 
 - Lancé en 2019 pour généraliser l'esprit de défense et de citoyenneté
-- Participants : 40 000-60 000/an — très loin des 800 000 par classe d'âge
+- Participants : 40 000-60 000/an : très loin des 800 000 par classe d'âge
 - Cour des comptes (2024) : « un dispositif coûteux, non généralisable en l'état »
 - Coût estimé de généralisation : 2 milliards d'euros
-- Objectif officiel (2024) : généralisation en 2026 — non atteint, repoussé
+- Objectif officiel (2024) : généralisation en 2026 : non atteint, repoussé
 - Absence d'évaluation d'impact : rien ne prouve que les participants sont plus civiques
 
 ---
 
-### Domaine D — La délinquance juvénile et le sentiment d'impunité
+### Domaine D : La délinquance juvénile et le sentiment d'impunité
 
 - Délinquance des mineurs : baisse globale de long terme, mais tensions sur :
   - Violences (hors cadre familial) : +15 % depuis 2017 (SSMSI)
   - Usage et trafic de stupéfiants chez les mineurs
   - Âge moyen des primo-déliquants : 14,5 ans (2024)
 - 15-25 ans : 40 % des mis en cause pour violences volontaires (2024)
-- Taux de réponse pénale : 78 % (2022) — en baisse depuis 2015
+- Taux de réponse pénale : 78 % (2022) : en baisse depuis 2015
 - Sentiment d'impunité : pas mesurable directement, mais corrélé à la faiblesse perçue des sanctions
-- Détention provisoire des mineurs : 500-600 mineurs détenus (2024), en baisse — interprété comme laxisme par l'opinion
+- Détention provisoire des mineurs : 500-600 mineurs détenus (2024), en baisse : interprété comme laxisme par l'opinion
 
 ---
 
-### Domaine E — La transmission religieuse et morale
+### Domaine E : La transmission religieuse et morale
 
 - 51 % des 18-59 ans se déclarent « sans religion » (INSEE-INED, Trajectoires et Origines, 2019-2020)
 - 29 % catholiques, 10 % musulmans, 1 % juifs, 3 % autres (INSEE, 2020)
 - Pratique religieuse régulière : moins de 10 % des catholiques, ~25 % des musulmans
 - Érosion continue de la transmission religieuse : moins de 10 % des enfants de catholiques pratiquent à l'âge adulte
-- Mariages civils : 60 % des mariages (2023) — en baisse continue
+- Mariages civils : 60 % des mariages (2023) : en baisse continue
 - Mariages mixtes : 15-27 % selon les périmètres (INED)
 - Vidé laïque : rien n'a remplacé la transmission morale assurée par les religions
 
 ---
 
-### Domaine F — Parcoursup et la sélection silencieuse
+### Domaine F : Parcoursup et la sélection silencieuse
 
 - Plateforme créée en 2018 pour remplacer APB
 - 85,2 % des candidats reçus au moins une proposition (2025)
@@ -142,41 +142,41 @@ Ce n'est pas une « crise des valeurs » conjoncturelle. C'est le résultat de *
 
 ---
 
-### Domaine G — Les politiques éducatives qui n'ont pas tenu leurs promesses
+### Domaine G : Les politiques éducatives qui n'ont pas tenu leurs promesses
 
-**G1 — Éducation prioritaire (REP/REP+)**
+**G1 : Éducation prioritaire (REP/REP+)**
 - Dédoublement des classes en REP+ (mesure emblématique Macron 2017)
 - Cour des comptes (mai 2025) : « bilan contrasté, pas de réduction drastique des écarts »
 - Progrès mesurés : légers sur le français, nuls sur les mathématiques
 - 20 % des élèves de REP+ sont toujours en grande difficulté en 6e
 
-**G2 — Instruction en famille (IEF)**
+**G2 : Instruction en famille (IEF)**
 - Loi séparatisme 2021 : passage du déclaratif à l'autorisation
 - 72 400 enfants (2021-2022) → 30 600 (2024-2025) : chute de 58 %
 - Motifs : souvent philosophiques, religieux, ou refus du système scolaire
 - Évaluation : aucune étude sur la qualité de l'instruction reçue
 
-**G3 — Scolarisation des enfants handicapés**
-- 155 000 enfants (2006) → 560 000 (2024) — progression impressionnante
+**G3 : Scolarisation des enfants handicapés**
+- 155 000 enfants (2006) → 560 000 (2024) : progression impressionnante
 - Mais 50 000 enfants sans accompagnement AESH (commission parlementaire, 2025)
 - Manque de formation des AESH, précarité du statut (temps partiel imposé)
 
-**G4 — Éducation sexuelle (EVARS)**
+**G4 : Éducation sexuelle (EVARS)**
 - Obligation légale : 3 séances par an depuis 2001
 - Réalité : moins de 20 % des élèves reçoivent effectivement 3 séances
-- Circulaire 2025 : annonce d'un renforcement — pas encore évaluée
+- Circulaire 2025 : annonce d'un renforcement : pas encore évaluée
 - Controverse permanente sur le contenu (théorie du genre, identités)
 
-**G5 — Enseignement privé sous contrat**
+**G5 : Enseignement privé sous contrat**
 - 17 % des élèves, progression régulière
 - 75 % financé par l'État/collectivités
 - Cour des comptes (2023) : « carences graves du contrôle de l'État »
-- Baisse de la mixité sociale dans le privé — les classes favorisées se retirent du public
+- Baisse de la mixité sociale dans le privé : les classes favorisées se retirent du public
 - Aucun outil de mesure des effets du privé sur la cohésion nationale
 
 ---
 
-## §3 — RÉSEAU
+## §3 : RÉSEAU
 
 | Acteur | Rôle | Influence | Action |
 |--------|------|-----------|--------|
@@ -193,7 +193,7 @@ Ce n'est pas une « crise des valeurs » conjoncturelle. C'est le résultat de *
 
 ---
 
-## §4 — CHAÎNES DE CAUSALITÉ
+## §4 : CHAÎNES DE CAUSALITÉ
 
 ### Chaîne 1 : Fragilisation familiale → Transmission rompue → Anomie
 ```
@@ -234,11 +234,11 @@ Fragilisation de l'autorité parentale
             → Fragilisation du débat public, polarisation
 ```
 
-**Quantification :** 4h30 par jour d'écran en moyenne pour les 15-24 ans (2024) — contre 1h30 en 2010
+**Quantification :** 4h30 par jour d'écran en moyenne pour les 15-24 ans (2024) : contre 1h30 en 2010
 
 ---
 
-## §5 — PREUVES (FACT_REGISTRY)
+## §5 : PREUVES (FACT_REGISTRY)
 
 | # | Fait | Date | Acteur | Chiffre | Source | URL | Fiabilité |
 |---|------|------|--------|---------|--------|-----|-----------|
@@ -275,9 +275,9 @@ Fragilisation de l'autorité parentale
 
 ---
 
-## §6 — CARTE DIALECTIQUE (3 perspectives)
+## §6 : CARTE DIALECTIQUE (3 perspectives)
 
-### Perspective A — La thèse officielle : « la famille et l'école assurent la transmission, la République tient »
+### Perspective A : La thèse officielle : « la famille et l'école assurent la transmission, la République tient »
 - Le cadre légal est en place : EMC, laïcité, école obligatoire, SNU
 - Les réformes se succèdent : Parcoursup, bac Blanquer, SNU, Équipes Valeurs
 - L'instruction en famille est contrôlée (loi séparatisme)
@@ -286,8 +286,8 @@ Fragilisation de l'autorité parentale
 - L'école inclusive progresse (560 000 enfants handicapés scolarisés)
 - **Conclusion officielle :** « ça va mieux, il faut continuer »
 
-### Perspective B — La critique sociale : « tout se déglingue, il n'y a plus d'autorité ni de valeurs »
-- Confiance dans la politique : 22 % — elle n'a jamais été aussi basse
+### Perspective B : La critique sociale : « tout se déglingue, il n'y a plus d'autorité ni de valeurs »
+- Confiance dans la politique : 22 % : elle n'a jamais été aussi basse
 - Familles monoparentales ×2 en 50 ans, isolement croissant
 - Éducation sexuelle non respectée depuis 24 ans
 - EMC sans effet mesurable, laïcité réduite à la gestion des incidents
@@ -296,18 +296,18 @@ Fragilisation de l'autorité parentale
 - Écrans : 4h30/jour, réseaux sociaux comme instance éducative
 - **Conclusion critique :** « il faut restaurer l'autorité, la famille traditionnelle, les valeurs »
 
-### Perspective C — La contre-analyse (dialectique) : « le système produit exactement ce résultat »
+### Perspective C : La contre-analyse (dialectique) : « le système produit exactement ce résultat »
 - L'individualisme économique (loi du marché) et l'individualisme moral (bienveillance comme seule norme) se renforcent mutuellement
 - La « modernisation » de l'école (Parcoursup, spécialités, contrôle continu) est une mise en concurrence généralisée qui détruit la coopération et le lien social
 - La fragilisation des familles n'est pas un accident mais le produit de politiques publiques qui n'ont jamais fait de la transmission une priorité
 - L'absence d'évaluation des politiques éducatives est systémique : on légifère sans jamais mesurer les effets
-- Le vide laissé par l'érosion religieuse n'est pas comblé par un récit laïque solide — les « valeurs de la République » sont un slogan sans contenu
-- Les écrans ont comblé le vide d'autorité — non par dessein, mais parce qu'aucune institution n'a pris la place
-- **Conclusion dialectique :** la transmission ne se décrète pas — elle nécessite des institutions solides, des moyens et une vision cohérente. Rien de tout cela n'existe aujourd'hui.
+- Le vide laissé par l'érosion religieuse n'est pas comblé par un récit laïque solide : les « valeurs de la République » sont un slogan sans contenu
+- Les écrans ont comblé le vide d'autorité : non par dessein, mais parce qu'aucune institution n'a pris la place
+- **Conclusion dialectique :** la transmission ne se décrète pas : elle nécessite des institutions solides, des moyens et une vision cohérente. Rien de tout cela n'existe aujourd'hui.
 
 ---
 
-## §7 — LIMITES
+## §7 : LIMITES
 
 1. **Données sur l'efficacité de l'EMC** : il n'existe pas d'évaluation nationale des compétences civiques des élèves. Impossible de mesurer l'impact réel de cet enseignement.
 2. **Éducation positive vs traditionnelle** : le débat est structurant mais non quantifié. Aucune enquête nationale ne mesure l'évolution des pratiques éducatives parentales.
@@ -318,7 +318,7 @@ Fragilisation de l'autorité parentale
 
 ---
 
-## §8 — IMPACT
+## §8 : IMPACT
 
 **Qui gagne :**
 - Les GAFAM et plateformes de réseaux sociaux (socialisation alternative)
@@ -356,22 +356,22 @@ Fragilisation de l'autorité parentale
 5. **INSEE-INED (2020). « Enquête Trajectoires et Origines 2019-2020 ».** https://www.insee.fr/fr/statistiques/6793308
 6. **Parcoursup (2025). « Statistiques d'admission ».** https://www.parcoursup.fr/
 7. **OCDE (2024). « Regards sur l'éducation 2024 ».** https://www.oecd.org/fr/publications/regards-sur-l-education.html
-8. **MENJ-DEPP (2022-2025). « Repères statistiques — Instruction en famille ».** https://www.education.gouv.fr/
+8. **MENJ-DEPP (2022-2025). « Repères statistiques : Instruction en famille ».** https://www.education.gouv.fr/
 9. **Cour des comptes (2023). « Le contrôle de l'enseignement privé sous contrat ».** https://www.ccomptes.fr/fr/publications
 10. **Cour des comptes (2024). « Le Service National Universel ».** https://www.ccomptes.fr/fr/publications/le-service-national-universel-snu
-11. **MENJ (2023). « Équipes Valeurs de la République — Bilan signalements laïcité ».** https://www.education.gouv.fr/bilans-de-l-action-des-equipes-valeurs-de-la-republique-377756
+11. **MENJ (2023). « Équipes Valeurs de la République : Bilan signalements laïcité ».** https://www.education.gouv.fr/bilans-de-l-action-des-equipes-valeurs-de-la-republique-377756
 12. **CLEMI (2024). « Enquête sur le rapport des jeunes à l'information ».** https://www.clemi.fr/
 13. **SSMSI (2024). « Bilan de la délinquance 2024 ».** Ministère de l'Intérieur. https://www.interieur.gouv.fr/actualites/communiques-de-presse/insecurite-et-delinquance-en-2024-bilan-statistique-et-atlas-departemental-de-delinquance
-14. **DREES (2023). « L'aide sociale à l'enfance — chiffres 2023 ».** https://drees.solidarites-sante.gouv.fr/
+14. **DREES (2023). « L'aide sociale à l'enfance : chiffres 2023 ».** https://drees.solidarites-sante.gouv.fr/
 15. **Médiamétrie (2024). « Temps d'écran des jeunes Français ».** https://www.mediametrie.fr/
 16. **IGÉSR (2024). « Évaluation de l'éducation à la vie affective et sexuelle ».** https://www.education.gouv.fr/
 17. **DEPP (2024). « Enquête formation continue des enseignants ».** https://www.education.gouv.fr/
 18. **Réseau Canopé (2015-2020). « Les réajustements de l'EMC ».** https://www.reseau-canope.fr/nouveaux-programmes/magazine/vie-scolaire/2015-2020-les-reajustements-foudroyants-de-lemc.html
-19. **INED (2024). « Mariages mixtes en France — FAQ démographique ».** https://www.ined.fr/fr/tout-savoir-population/memos-demo/faq/mariages-mixtes-france
+19. **INED (2024). « Mariages mixtes en France : FAQ démographique ».** https://www.ined.fr/fr/tout-savoir-population/memos-demo/faq/mariages-mixtes-france
 20. **Commission parlementaire (2025). « Scolarisation des enfants handicapés et AESH ».** https://www.assemblee-nationale.fr/
 
 ---
 
-*Enquête de la série **Le Changement de Régime — 500+ faits qui prouvent que la France n'est pas en crise**.*
+*Enquête de la série **Le Changement de Régime : 500+ faits qui prouvent que la France n'est pas en crise**.*
 
 *Article central (hub) : [→ Le Changement de Régime](HUB_le_changement_de_regime.md)*

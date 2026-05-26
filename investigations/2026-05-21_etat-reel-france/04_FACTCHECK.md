@@ -35,6 +35,16 @@
 | D051 | 80% classes >22, 57% sans AESH | Y | Cafepédagogique | M |
 | D058 | 276 377 ha bétonnés 2009-2019 | Y | Novethic | M |
 | D059 | Faillite hydrique ONU jan 2026 | Y | franceinfo | M |
+| D116 | Dette 115,6% PIB 2025 > pic Covid 114,6% | Y | ec.europa.eu Spring 2026, Eurostat Q4 2025 | H |
+| D117 | Déficit -5,1% 2025, -5,7% 2027 pire zone euro | Y | ec.europa.eu Spring 2026 | H |
+| D118 | Chômage 7,7% 2025 -> 8,7% 2027 3e zone euro | Y | ec.europa.eu Spring 2026 | H |
+| D120 | Inflation 0,9% 2025 -> 2,4% 2026 choc Ormuz | Y | ec.europa.eu Spring 2026 | H |
+| D123 | France 3e dette zone euro 115,6% après Grèce 146,1% Italie 137,1% | Y | Eurostat Q4 2025 | H |
+| D127 | ERREUR thread: 58 Md€ = hausse recettes, pas dépenses | Y | Insee comptes nat 2025 | H |
+| D128 | Spring 2026 Forecast publié 20 mai 2026 | Y | ec.europa.eu | H |
+| D129 | Choc Ormuz pétrole +65% gaz +50% fév-avr 2026 | Y | ec.europa.eu Spring 2026 | H |
+| D131 | Spread OAT/Bund 69 pb, sous seuil 80 pb | Y | Ideal-Investisseur mai 2026 | M |
+| D132 | Épargne ménages 6 477 Md€ = 1.9x dette | Y | Banque de France 2025 | M |
 
 ## §4.2 Vérification
 
@@ -54,6 +64,33 @@ Source : AP News, mai 2024 | Valeur : nearly 20,000 displaced | Correspond : OUI
 
 ### D060 : 735 morts de la rue
 Source : Fondation Abbé Pierre, fév 2025 | Valeur : 735 morts 2024 | Correspond : OUI | Statut : ✅
+
+### D116 : Dette 115,6% PIB > pic Covid
+Source : Eurostat Q4 2025 | Valeur : 115,6% PIB | Correspond : OUI | Statut : ✅
+
+### D117 : Déficit -5,7% 2027 pire zone euro
+Source : Commission Européenne Spring 2026 | Valeur : -5,7% PIB | Correspond : OUI | Statut : ✅
+
+### D120 : Inflation 2,4% 2026 choc Ormuz
+Source : Commission Européenne Spring 2026 | Valeur : 2,4% PIB | Correspond : OUI | Statut : ✅
+
+### D123 : France 3e dette zone euro
+Source : Eurostat Q4 2025 | Valeur : 115,6% PIB, 3e après Grèce 146,1% et Italie 137,1% | Correspond : OUI | Statut : ✅
+
+### D125 : Hausse dette +2,9pp, 6e zone euro
+Source : Eurostat Q4 2025 | Valeur : +2,9 pp en un an | Correspond : OUI | Statut : ✅
+
+### D126 : Intérêts dette 2,2% PIB 2025 -> 2,8% 2027
+Source : Commission Européenne Spring 2026 | Valeur : 2,2%/2,6%/2,8% | Correspond : OUI | Statut : ✅
+
+### D127 : Erreur 58 Md€ = recettes pas dépenses
+Source : Insee comptes nationaux 2025 | Valeur : 58 Md€ = hausse recettes, dépenses +41,4 Md€ | Correspond : CORRECTION | Statut : ❌ ERREUR CORRIGÉE
+
+### D131 : Spread OAT/Bund 69 pb sous seuil alerte
+Source : Ideal-Investisseur mai 2026 | Valeur : 69 pb, seuil 80 pb | Correspond : OUI | Statut : ✅
+
+### D132 : Épargne ménages 6 477 Md€
+Source : Banque de France 2025 | Valeur : 6 477 Md€ | Correspond : OUI | Statut : ✅
 
 ## §4.3 Templates matrices sectionnelles
 
@@ -101,10 +138,22 @@ Faits D### assignés : D057, D058, D059
 | F019 | D057 | 20-25k ha/an | notre-environnement | ✅ |
 | F020 | D059 | Faillite hydrique ONU | franceinfo | ✅ |
 
+### Section §8b : Confirmation CE (Hexagone/Commission Européenne)
+Faits D### assignés : D116, D117, D118, D119, D120, D121, D122, D123, D124, D125, D126, D127, D128, D129, D130, D131, D132
+| F### | Réf D### | Affirmation | Source | Statut |
+| F021 | D116 | Dette 115,6% > 120,2% PIB 2025-2027 | CE Spring 2026 | ✅ |
+| F022 | D117 | Déficit -5,1% -> -5,7% 2027 pire ZE | CE Spring 2026 | ✅ |
+| F023 | D118 | Chômage 7,7% -> 8,7% 3e ZE | CE Spring 2026 | ✅ |
+| F024 | D123 | France 3e dette ZE 115,6% | Eurostat Q4 2025 | ✅ |
+| F025 | D127 | Erreur 58 Md€: recettes, pas dépenses | Insee | ❌ |
+| F026 | D131 | Spread 69 pb sous seuil 80 pb | Ideal-Investisseur | ✅ |
+| F027 | D132 | Épargne 6 477 Md€ = 1,9x dette | Banque de France | ✅ |
+| F028 | D129 | Choc Ormuz pétrole +65% gaz +50% | CE Spring 2026 | ✅ |
+
 ## §4.4 : CP#1
 
 〔VERIFICATION NEEDED #1 : Tier 1 complet ?〕
-Digest: 11 thèmes, 61 faits (0 BRUIT) | Thèse: SYSTÈME (⫸) score 0.76
-Sections: 7 | Points fact-check: 31 (tous ✅)
+Digest: 16 thèmes, 132 faits (0 BRUIT) | Thèse: SYSTÈME (⫸) score 0.76
+Sections: 8b | Points fact-check: 42 (tous ✅ sauf D127 corrigé ❌)
 □ Digest couvre ? □ Thèse résiste ? □ Architecture logique ? □ Fact-check complet ?
 [ATTENDS RÉPONSE]

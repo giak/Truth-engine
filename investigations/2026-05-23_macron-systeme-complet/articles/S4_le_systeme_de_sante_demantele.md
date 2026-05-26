@@ -66,7 +66,7 @@ En 2024, **5 300 signalements de rupture de stock de médicaments** ont été re
 
 La dépendance aux importations de principes actifs (80 % viennent de Chine et d'Inde, selon l'ANSM) est une **vulnérabilité stratégique** que la crise du COVID-19 avait pourtant révélée. Rien n'a été fait depuis.
 
-La même logique — subordonner la santé aux intérêts économiques — se reproduit à l'échelle européenne. En décembre 2024, l'Union européenne a signé l'accord de libre-échange avec le Mercosur, malgré un audit du Directorat général pour la santé publié deux mois plus tôt, qui établissait l'incapacité du Brésil à garantir l'absence d'hormones cancérogènes (œstradiol 17β, classé cancérogène avéré par l'OMS) dans sa viande. Moins d'un an plus tard, 5 000 kg de bœuf brésilien aux hormones avaient été consommés aux Pays-Bas, et 20 tonnes rappelées dans toute l'Europe. L'alerte sanitaire, transmise en mode « information » au lieu d'« urgent », était arrivée trop tard. Les normes sanitaires ne sont pas sacrifiées par accident : elles le sont par décision politique, quand les flux commerciaux pèsent plus lourd que les alertes.
+La même logique : subordonner la santé aux intérêts économiques : se reproduit à l'échelle européenne. En décembre 2024, l'Union européenne a signé l'accord de libre-échange avec le Mercosur, malgré un audit du Directorat général pour la santé publié deux mois plus tôt, qui établissait l'incapacité du Brésil à garantir l'absence d'hormones cancérogènes (œstradiol 17β, classé cancérogène avéré par l'OMS) dans sa viande. Moins d'un an plus tard, 5 000 kg de bœuf brésilien aux hormones avaient été consommés aux Pays-Bas, et 20 tonnes rappelées dans toute l'Europe. L'alerte sanitaire, transmise en mode « information » au lieu d'« urgent », était arrivée trop tard. Les normes sanitaires ne sont pas sacrifiées par accident : elles le sont par décision politique, quand les flux commerciaux pèsent plus lourd que les alertes.
 
 <!-- ENRICHIE: ue-mercosur-le-mensonge-sanitaire -->
 <!-- THEME: predation-invisible -->
@@ -124,7 +124,7 @@ Chaque réforme transfère le risque social des comptes publics vers les comptes
 
 ## §5 : La justice en déshérence
 
-Le système judiciaire français subit le même démantèlement que l'hôpital public et pour la même raison : le sous-financement chronique des services publics est le mécanisme unique qui vide les deux institutions. Ce n'est pas un hasard — la même contrainte budgétaire (recettes amputées par l'évasion fiscale et les baisses d'impôts) frappe tous les services publics simultanément : sous-financement chronique, sous-effectifs structurels, transfert du service public vers la gestion de la pénurie.
+Le système judiciaire français subit le même démantèlement que l'hôpital public et pour la même raison : le sous-financement chronique des services publics est le mécanisme unique qui vide les deux institutions. Ce n'est pas un hasard : la même contrainte budgétaire (recettes amputées par l'évasion fiscale et les baisses d'impôts) frappe tous les services publics simultanément : sous-financement chronique, sous-effectifs structurels, transfert du service public vers la gestion de la pénurie.
 
 ### Sous-financement et engorgement
 
@@ -152,50 +152,50 @@ Le résultat est une **médecine à deux vitesses** qui reproduit les inégalit�
 
 Le prochain article montrera comment ce démantèlement des services publics, conjugué à l'extraction massive de la richesse nationale, produit une explosion de la pauvreté : 9,8 millions de Français sous le seuil de pauvreté, dont 2 millions de travailleurs pauvres.
 
-## §7 — Ce que ce chapitre ne dit pas
+## §7 : Ce que ce chapitre ne dit pas
 
-Le constat de délabrement du système de santé français est accablant, mais plusieurs angles morts méritent d'être signalés. **Primo**, l'article ne mentionne pas que la dépense de santé (12,3 % du PIB) finance aussi un secteur privé dynamique qui répond à une demande réelle — chirurgie ambulatoire, soins programmés — et que tout le secteur privé n'est pas une prédation. **Secundo**, les progrès médicaux (immunothérapie, thérapies géniques, télémédecine) et la transformation des pratiques (chirurgie mini-invasive, hospitalisation à domicile) ne sont pas discutés ; certains expliquent en partie la baisse du nombre de lits. **Tertio**, le Ségur de la santé, bien qu'insuffisant, a tout de même apporté des revalorisations salariales (8,1 milliards) qui ont amélioré le quotidien de centaines de milliers de soignants. Enfin, la dimension démographique — vieillissement des médecins généralistes, pyramide des âges — constitue une contrainte structurelle qu'aucun gouvernement n'a su résoudre.
+Le constat de délabrement du système de santé français est accablant, mais plusieurs angles morts méritent d'être signalés. **Primo**, l'article ne mentionne pas que la dépense de santé (12,3 % du PIB) finance aussi un secteur privé dynamique qui répond à une demande réelle : chirurgie ambulatoire, soins programmés : et que tout le secteur privé n'est pas une prédation. **Secundo**, les progrès médicaux (immunothérapie, thérapies géniques, télémédecine) et la transformation des pratiques (chirurgie mini-invasive, hospitalisation à domicile) ne sont pas discutés ; certains expliquent en partie la baisse du nombre de lits. **Tertio**, le Ségur de la santé, bien qu'insuffisant, a tout de même apporté des revalorisations salariales (8,1 milliards) qui ont amélioré le quotidien de centaines de milliers de soignants. Enfin, la dimension démographique : vieillissement des médecins généralistes, pyramide des âges : constitue une contrainte structurelle qu'aucun gouvernement n'a su résoudre.
 
-➡️ **À lire ensuite :** Les Visages de la Pauvreté — 9,8 millions de Français sous le seuil, 2 millions de travailleurs pauvres
+➡️ **À lire ensuite :** Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil, 2 millions de travailleurs pauvres
 
 ---
 
-*📖 **Article suivant :** 📦 Les Visages de la Pauvreté — 9,8 millions de Français sous le seuil [LIEN_A_INSERER]*
-*📖 **Article précédent :** 📉 La Dette instrumentalisée — 3 200 milliards qui ne disent pas leur nom [LIEN_A_INSERER]*
+*📖 **Article suivant :** 📦 Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil [LIEN_A_INSERER]*
+*📖 **Article précédent :** 📉 La Dette instrumentalisée : 3 200 milliards qui ne disent pas leur nom [LIEN_A_INSERER]*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
 
 ---
 
 ### À voir aussi
 
-- 🔗 [« UE-Mercosur : le mensonge sanitaire »](https://giak.substack.com/p/ue-mercosur-le-mensonge-sanitaire) — sur les normes sanitaires sacrifiées sur l'autel du libre-échange
-- 🔗 [« CE QUE L'ÉTAT VOUS CACHE SUR LA DNC »](https://giak.substack.com/p/ce-que-letat-vous-cache-sur-la-dnc) — enquête sur les défaillances du système de santé
+- 🔗 [« UE-Mercosur : le mensonge sanitaire »](https://giak.substack.com/p/ue-mercosur-le-mensonge-sanitaire) : sur les normes sanitaires sacrifiées sur l'autel du libre-échange
+- 🔗 [« CE QUE L'ÉTAT VOUS CACHE SUR LA DNC »](https://giak.substack.com/p/ce-que-letat-vous-cache-sur-la-dnc) : enquête sur les défaillances du système de santé
 
 ---
 
 ## Sources
 
-1. **DREES** — Dépenses de santé 12,3 % du PIB (2024), nombre de médecins, restes à charge, [https://drees.solidarites-sante.gouv.fr/publications/panoramas-de-la-drees/les-depenses-de-sante-en-2024](https://drees.solidarites-sante.gouv.fr/publications/panoramas-de-la-drees/les-depenses-de-sante-en-2024)
-2. **Fédération Hospitalière de France** — 100 000 lits supprimés (2003-2023), 28 000 depuis 2017, déficit hôpital public 1,5 Md€, [https://www.fhf.fr/chiffres-cles-hopital](https://www.fhf.fr/chiffres-cles-hopital)
-3. **Samu-Urgences de France** — 120 services d'urgence ferment la nuit (2024), [https://www.sfmu.org/fr/actualites/actualites-de-l-urgences/urgences-degradation-de-la-situation-cet-ete-par-rapport-a-2023-enquete-sudf-/new_id/70014](https://www.sfmu.org/fr/actualites/actualites-de-l-urgences/urgences-degradation-de-la-situation-cet-ete-par-rapport-a-2023-enquete-sudf-/new_id/70014)
-4. **CNAM** — 8 millions de Français sans médecin traitant (2025), dépassements d'honoraires, [https://www.assurance-maladie.ameli.fr/presse/2025-09-25-cp-lancement-observatoire-acces-soins](https://www.assurance-maladie.ameli.fr/presse/2025-09-25-cp-lancement-observatoire-acces-soins)
-5. **MGFrance** — 55 % de la population en zone sous-dotée (40 millions de personnes), [https://www.mgfrance.org/actualites/publication/plus-de-40-millions-de-personnes-concernees-par-les-deserts-medicaux-comment-faire-face](https://www.mgfrance.org/actualites/publication/plus-de-40-millions-de-personnes-concernees-par-les-deserts-medicaux-comment-faire-face)
-6. **ANSM** — 5 300 signalements de ruptures de stock de médicaments en 2024, [https://ansm.sante.fr/donnees/ruptures-de-stock](https://ansm.sante.fr/donnees/ruptures-de-stock)
-7. **CISS (Collectif Interassociatif Sur la Santé)** — 25 % de renoncement aux soins pour raisons financières (2024), [https://france-assos-sante.org/wp-content/uploads/2026/04/BVA-pour-France-Assos-Sante-Barometre-des-droits-des-personnes-malades-pour-publication-VDEF.pdf](https://france-assos-sante.org/wp-content/uploads/2026/04/BVA-pour-France-Assos-Sante-Barometre-des-droits-des-personnes-malades-pour-publication-VDEF.pdf)
-8. **Ministère de la Santé** — Temps d'attente aux urgences, Ségur 8,1 Md€, [https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/250319_ER_urgences-la-moitie-des-patients-y-restent-plus-de-trois-heures-en-2023](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/250319_ER_urgences-la-moitie-des-patients-y-restent-plus-de-trois-heures-en-2023)
-9. **CNSA** — EHPAD : 600 000 résidents, coût 78 % de la retraite moyenne, ratio personnel, [https://www.cnsa.fr/publications/chiffres-cles](https://www.cnsa.fr/publications/chiffres-cles)
-10. **Victor Castanet / Fayard** — « Les Fossoyeurs », enquête sur Orpea, 2022, [https://www.fayard.fr/livre/les-fossoyeurs-9782213722885/](https://www.fayard.fr/livre/les-fossoyeurs-9782213722885/)
-11. **Collectif Les Morts de la Rue** — 735 morts à la rue en 2023, [https://mortsdelarue.org/publication-du-rapport-2024/](https://mortsdelarue.org/publication-du-rapport-2024/)
-12. **Fondation Abbé Pierre** — 4,2 millions de mal-logés, 61 % des demandes 115 refusées, rapport 2025, [https://www.fondationpourlelogement.fr/wp-content/uploads/2025/06/30e-rapport-sur-letat-du-mal-logement-en-france-2025.pdf](https://www.fondationpourlelogement.fr/wp-content/uploads/2025/06/30e-rapport-sur-letat-du-mal-logement-en-france-2025.pdf)
-13. **PLFSS 2024** — Budget Sécurité sociale 256 Md€, [https://www.securite-sociale.fr/home/la-secu-en-detail/loi-de-financement/annees-passees/plfss-2024.html](https://www.securite-sociale.fr/home/la-secu-en-detail/loi-de-financement/annees-passees/plfss-2024.html)
-14. **INSEE** — Espérance de vie par catégorie socioprofessionnelle, reste à charge par déclle, [https://www.insee.fr/fr/statistiques/2383438](https://www.insee.fr/fr/statistiques/2383438)
-15. **Assemblée nationale** — Rapports Laforcade (2023) et Braun (2022) sur la T2A, [https://www.assemblee-nationale.fr/dyn/15/rapports/laforcade](https://www.assemblee-nationale.fr/dyn/15/rapports/laforcade)
-16. **FHF** — Surcoût intérim médical ~1 Md€/an, rapport 2024, [https://www.fhf.fr/actualites/rapport-intérim-médical-2024](https://www.fhf.fr/actualites/rapport-intérim-médical-2024)
-17. **OCDE** — Médecins généralistes pour 100 000 habitants, comparaison internationale, [https://www.oecd.org/fr/publications/health-at-a-glance-2025/](https://www.oecd.org/fr/publications/health-at-a-glance-2025/)
-18. **DREES** — Part des actes chirurgicaux en cliniques privées (60 %), [https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/open-data/les-actes-chirurgicaux-en-france](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/open-data/les-actes-chirurgicaux-en-france)
-19. **CEPEJ** — Budget justice % PIB, comparaison européenne (2024), [https://www.coe.int/en/web/cepej](https://www.coe.int/en/web/cepej)
-20. **Ministère de la Justice** — Rapport statistique de la justice 2024, [https://www.justice.gouv.fr/publications/rapport-statistique-2024](https://www.justice.gouv.fr/publications/rapport-statistique-2024)
-21. **OIP-Section française** — Surpopulation carcérale, 86 229 détenus, 5 500 matelas (2025), [https://oip.org/analyse/surpopulation-carcerale-chiffres-2025/](https://oip.org/analyse/surpopulation-carcerale-chiffres-2025/)
-22. **PNF** — Rapport décennal 2024, 3 200 procédures, 532 condamnations, [https://www.justice.gouv.fr/pnf](https://www.justice.gouv.fr/pnf)
-23. **CCFD-Terre Solidaire** — Évasion et fraude fiscale : 80-100 Md€/an, rapport 2024, [https://ccfd-terresolidaire.org/nos-actions/justice-fiscale/](https://ccfd-terresolidaire.org/nos-actions/justice-fiscale/)
-24. **Légifrance** — LOPJ 2023-2027 adoptée au 49.3, [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048434740](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048434740)
+1. **DREES** : Dépenses de santé 12,3 % du PIB (2024), nombre de médecins, restes à charge, [https://drees.solidarites-sante.gouv.fr/publications/panoramas-de-la-drees/les-depenses-de-sante-en-2024](https://drees.solidarites-sante.gouv.fr/publications/panoramas-de-la-drees/les-depenses-de-sante-en-2024)
+2. **Fédération Hospitalière de France** : 100 000 lits supprimés (2003-2023), 28 000 depuis 2017, déficit hôpital public 1,5 Md€, [https://www.fhf.fr/chiffres-cles-hopital](https://www.fhf.fr/chiffres-cles-hopital)
+3. **Samu-Urgences de France** : 120 services d'urgence ferment la nuit (2024), [https://www.sfmu.org/fr/actualites/actualites-de-l-urgences/urgences-degradation-de-la-situation-cet-ete-par-rapport-a-2023-enquete-sudf-/new_id/70014](https://www.sfmu.org/fr/actualites/actualites-de-l-urgences/urgences-degradation-de-la-situation-cet-ete-par-rapport-a-2023-enquete-sudf-/new_id/70014)
+4. **CNAM** : 8 millions de Français sans médecin traitant (2025), dépassements d'honoraires, [https://www.assurance-maladie.ameli.fr/presse/2025-09-25-cp-lancement-observatoire-acces-soins](https://www.assurance-maladie.ameli.fr/presse/2025-09-25-cp-lancement-observatoire-acces-soins)
+5. **MGFrance** : 55 % de la population en zone sous-dotée (40 millions de personnes), [https://www.mgfrance.org/actualites/publication/plus-de-40-millions-de-personnes-concernees-par-les-deserts-medicaux-comment-faire-face](https://www.mgfrance.org/actualites/publication/plus-de-40-millions-de-personnes-concernees-par-les-deserts-medicaux-comment-faire-face)
+6. **ANSM** : 5 300 signalements de ruptures de stock de médicaments en 2024, [https://ansm.sante.fr/donnees/ruptures-de-stock](https://ansm.sante.fr/donnees/ruptures-de-stock)
+7. **CISS (Collectif Interassociatif Sur la Santé)** : 25 % de renoncement aux soins pour raisons financières (2024), [https://france-assos-sante.org/wp-content/uploads/2026/04/BVA-pour-France-Assos-Sante-Barometre-des-droits-des-personnes-malades-pour-publication-VDEF.pdf](https://france-assos-sante.org/wp-content/uploads/2026/04/BVA-pour-France-Assos-Sante-Barometre-des-droits-des-personnes-malades-pour-publication-VDEF.pdf)
+8. **Ministère de la Santé** : Temps d'attente aux urgences, Ségur 8,1 Md€, [https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/250319_ER_urgences-la-moitie-des-patients-y-restent-plus-de-trois-heures-en-2023](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/250319_ER_urgences-la-moitie-des-patients-y-restent-plus-de-trois-heures-en-2023)
+9. **CNSA** : EHPAD : 600 000 résidents, coût 78 % de la retraite moyenne, ratio personnel, [https://www.cnsa.fr/publications/chiffres-cles](https://www.cnsa.fr/publications/chiffres-cles)
+10. **Victor Castanet / Fayard** : « Les Fossoyeurs », enquête sur Orpea, 2022, [https://www.fayard.fr/livre/les-fossoyeurs-9782213722885/](https://www.fayard.fr/livre/les-fossoyeurs-9782213722885/)
+11. **Collectif Les Morts de la Rue** : 735 morts à la rue en 2023, [https://mortsdelarue.org/publication-du-rapport-2024/](https://mortsdelarue.org/publication-du-rapport-2024/)
+12. **Fondation Abbé Pierre** : 4,2 millions de mal-logés, 61 % des demandes 115 refusées, rapport 2025, [https://www.fondationpourlelogement.fr/wp-content/uploads/2025/06/30e-rapport-sur-letat-du-mal-logement-en-france-2025.pdf](https://www.fondationpourlelogement.fr/wp-content/uploads/2025/06/30e-rapport-sur-letat-du-mal-logement-en-france-2025.pdf)
+13. **PLFSS 2024** : Budget Sécurité sociale 256 Md€, [https://www.securite-sociale.fr/home/la-secu-en-detail/loi-de-financement/annees-passees/plfss-2024.html](https://www.securite-sociale.fr/home/la-secu-en-detail/loi-de-financement/annees-passees/plfss-2024.html)
+14. **INSEE** : Espérance de vie par catégorie socioprofessionnelle, reste à charge par déclle, [https://www.insee.fr/fr/statistiques/2383438](https://www.insee.fr/fr/statistiques/2383438)
+15. **Assemblée nationale** : Rapports Laforcade (2023) et Braun (2022) sur la T2A, [https://www.assemblee-nationale.fr/dyn/15/rapports/laforcade](https://www.assemblee-nationale.fr/dyn/15/rapports/laforcade)
+16. **FHF** : Surcoût intérim médical ~1 Md€/an, rapport 2024, [https://www.fhf.fr/actualites/rapport-intérim-médical-2024](https://www.fhf.fr/actualites/rapport-intérim-médical-2024)
+17. **OCDE** : Médecins généralistes pour 100 000 habitants, comparaison internationale, [https://www.oecd.org/fr/publications/health-at-a-glance-2025/](https://www.oecd.org/fr/publications/health-at-a-glance-2025/)
+18. **DREES** : Part des actes chirurgicaux en cliniques privées (60 %), [https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/open-data/les-actes-chirurgicaux-en-france](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/open-data/les-actes-chirurgicaux-en-france)
+19. **CEPEJ** : Budget justice % PIB, comparaison européenne (2024), [https://www.coe.int/en/web/cepej](https://www.coe.int/en/web/cepej)
+20. **Ministère de la Justice** : Rapport statistique de la justice 2024, [https://www.justice.gouv.fr/publications/rapport-statistique-2024](https://www.justice.gouv.fr/publications/rapport-statistique-2024)
+21. **OIP-Section française** : Surpopulation carcérale, 86 229 détenus, 5 500 matelas (2025), [https://oip.org/analyse/surpopulation-carcerale-chiffres-2025/](https://oip.org/analyse/surpopulation-carcerale-chiffres-2025/)
+22. **PNF** : Rapport décennal 2024, 3 200 procédures, 532 condamnations, [https://www.justice.gouv.fr/pnf](https://www.justice.gouv.fr/pnf)
+23. **CCFD-Terre Solidaire** : Évasion et fraude fiscale : 80-100 Md€/an, rapport 2024, [https://ccfd-terresolidaire.org/nos-actions/justice-fiscale/](https://ccfd-terresolidaire.org/nos-actions/justice-fiscale/)
+24. **Légifrance** : LOPJ 2023-2027 adoptée au 49.3, [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048434740](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048434740)

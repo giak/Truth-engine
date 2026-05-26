@@ -1,0 +1,10 @@
+{
+  "mcp": {
+    "mnemolite": {
+      "type": "remote",
+      "url": "http://localhost:8002/mcp",
+      "timeout": 30000,
+      "enabled": true
+    }
+  }
+}

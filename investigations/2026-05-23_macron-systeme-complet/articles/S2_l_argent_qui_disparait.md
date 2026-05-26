@@ -44,7 +44,7 @@ Les CumEx Files ont révélé un mécanisme encore plus direct : des banques d'i
 
 Les Panama Papers ont identifié environ 10 000 entités offshore liées à la France, selon l'ICIJ. OpenLux a révélé que le Luxembourg hébergeait 80 000 sociétés écrans, dont des filiales de 340 des 500 plus grandes entreprises françaises, selon Paper Trail Media et Le Monde.
 
-Les actifs français non déclarés en Suisse sont estimés entre 150 et 200 milliards d'euros, selon le FMI — une estimation indirecte qui mérite d'être prise avec précaution.
+Les actifs français non déclarés en Suisse sont estimés entre 150 et 200 milliards d'euros, selon le FMI : une estimation indirecte qui mérite d'être prise avec précaution.
 
 Ces enquêtes ont une caractéristique commune : elles n'ont débouché sur aucune réforme structurelle. Quelques amendes, des promesses de régulation internationale, et le statu quo.
 
@@ -100,7 +100,7 @@ Pour **100 euros d'impôt impayé, l'État en récupère 12**, selon l'IGF. Ce t
 
 Avec un contrôleur pour 1 000 contribuables en moyenne, et un seul pour 3 000 très hauts revenus, l'administration fiscale française manque structurellement d'agents pour contrôler efficacement, selon les rapports syndicaux de Bercy.
 
-> **Le 15 octobre 2024**, le gouvernement a abandonné le Portail Public de Facturation (PPF), un outil gratuit qui devait automatiser la collecte de la TVA sur les 2 000 milliards d'euros de transactions inter-entreprises. Officiellement pour des raisons techniques. Dans les faits, plus de 70 plateformes privées — dont les Big Four (PwC, Deloitte, EY, KPMG) — ont pris le relais, transformant une obligation fiscale en marché captif. Les PME paient désormais un abonnement pour facturer. L'État a renoncé à son outil de souveraineté fiscale trois mois après l'avoir présenté comme une priorité.
+> **Le 15 octobre 2024**, le gouvernement a abandonné le Portail Public de Facturation (PPF), un outil gratuit qui devait automatiser la collecte de la TVA sur les 2 000 milliards d'euros de transactions inter-entreprises. Officiellement pour des raisons techniques. Dans les faits, plus de 70 plateformes privées : dont les Big Four (PwC, Deloitte, EY, KPMG) : ont pris le relais, transformant une obligation fiscale en marché captif. Les PME paient désormais un abonnement pour facturer. L'État a renoncé à son outil de souveraineté fiscale trois mois après l'avoir présenté comme une priorité.
 
 <!-- ENRICHIE: le-reseau-qui-nous-facture -->
 <!-- THEME: predation-invisible -->
@@ -128,13 +128,13 @@ L'agrégat est vertigineux. L'évasion et les niches ne sont pas des phénomène
 - **Niches fiscales** : 90 à 100 milliards (dépenses fiscales décidées par le législateur)
 - **Fraude sociale** : 13 à 14 milliards (travail dissimulé, fausses déclarations)
 
-Ces trois phénomènes sont de nature juridique différente — l'un est illégal, l'autre est un choix de politique publique, le troisième relève du droit social. Leur total n'est donc pas purement additif : une partie de l'optimisation agressive classée dans l'évasion recoupe ce que la Cour des comptes appelle niches fiscales. L'ordre de grandeur agrégé approche néanmoins **200 milliards d'euros** de recettes publiques non perçues chaque année. C'est 1,3 fois le déficit public annuel de la France (APU), estimé à 154 milliards par l'INSEE.
+Ces trois phénomènes sont de nature juridique différente : l'un est illégal, l'autre est un choix de politique publique, le troisième relève du droit social. Leur total n'est donc pas purement additif : une partie de l'optimisation agressive classée dans l'évasion recoupe ce que la Cour des comptes appelle niches fiscales. L'ordre de grandeur agrégé approche néanmoins **200 milliards d'euros** de recettes publiques non perçues chaque année. C'est 1,3 fois le déficit public annuel de la France (APU), estimé à 154 milliards par l'INSEE.
 
 ### L'échelle des montants en jeu
 
 Pour donner une échelle concrète de ces montants :
 
-- **145 milliards d'euros**, c'est le budget de la Santé (50 Md€, Assurance Maladie), de l'Éducation (70 Md€, État), de la Justice (10 Md€, État) et de la Recherche (15 Md€, État) cumulés — soit les principaux services publics.
+- **145 milliards d'euros**, c'est le budget de la Santé (50 Md€, Assurance Maladie), de l'Éducation (70 Md€, État), de la Justice (10 Md€, État) et de la Recherche (15 Md€, État) cumulés : soit les principaux services publics.
 - **100 milliards**, c'est la totalité des dépenses d'investissement public sur cinq ans.
 - **100 milliards**, c'est l'équivalent de la charge annuelle des intérêts de la dette (54 Md€ selon l'Agence France Trésor) multipliée par deux.
 
@@ -142,7 +142,7 @@ Pour donner une échelle concrète de ces montants :
 
 Le paradoxe est saisissant : l'État justifie l'austérité budgétaire, la fermeture de lits d'hôpitaux, le non-remplacement des enseignants et le sous-financement de la justice par le manque de recettes. Mais ce manque de recettes n'est pas une fatalité naturelle : c'est le résultat direct des choix fiscaux des 8 dernières années.
 
-Depuis 2017, le cumul des réformes fiscales favorables aux plus hauts revenus et aux grandes entreprises (ISF supprimé, flat tax, baisse de l'IS) représente plusieurs centaines de milliards d'euros de recettes non perçues, selon les calculs cumulés d'Oxfam et de l'Observatoire des Multinationales. C'est un **transfert massif de l'argent public vers l'argent privé**, dont l'ampleur globale n'a jamais été présentée comme telle devant le Parlement — chaque mesure a été votée séparément, mais jamais comme un package.
+Depuis 2017, le cumul des réformes fiscales favorables aux plus hauts revenus et aux grandes entreprises (ISF supprimé, flat tax, baisse de l'IS) représente plusieurs centaines de milliards d'euros de recettes non perçues, selon les calculs cumulés d'Oxfam et de l'Observatoire des Multinationales. C'est un **transfert massif de l'argent public vers l'argent privé**, dont l'ampleur globale n'a jamais été présentée comme telle devant le Parlement : chaque mesure a été votée séparément, mais jamais comme un package.
 
 Ce transfert n'est pas un accident : il est la traduction concrète de la capture de l'État par les intérêts privés. Les 20 familles qui contrôlent le CAC 40 et les médias (premier article de la série) ont les moyens politiques de verrouiller le système fiscal à leur avantage.
 
@@ -168,15 +168,15 @@ Ce n'est pas une coïncidence. C'est le **premier mécanisme de la cascade causa
 
 ---
 
-## §6 — Ce que ce chapitre ne dit pas
+## §6 : Ce que ce chapitre ne dit pas
 
-Le chiffrage de l'évasion fiscale (80 à 100 milliards) mérite d'être nuancé. Ces estimations, produites par des ONG et des syndicats, ne font pas consensus : l'administration fiscale évalue la fraude à 30-40 milliards, un écart qui tient à la différence entre évasion (légale) et fraude (illégale) — l'article agrège les deux, ce qui gonfle mécaniquement le total. Par ailleurs, la lutte contre l'évasion a connu des progrès réels depuis 2017 : échange automatique d'informations fiscales (CRS), démantèlement du secret bancaire suisse, premières condamnations dans le cadre des Panama Papers. Le taux de recouvrement, bien que faible, est passé de 7 % à 12 % en cinq ans. Enfin, la dimension européenne manque : sans coordination fiscale au niveau de l'UE, un pays seul est désarmé face à la mobilité du capital.
+Le chiffrage de l'évasion fiscale (80 à 100 milliards) mérite d'être nuancé. Ces estimations, produites par des ONG et des syndicats, ne font pas consensus : l'administration fiscale évalue la fraude à 30-40 milliards, un écart qui tient à la différence entre évasion (légale) et fraude (illégale) : l'article agrège les deux, ce qui gonfle mécaniquement le total. Par ailleurs, la lutte contre l'évasion a connu des progrès réels depuis 2017 : échange automatique d'informations fiscales (CRS), démantèlement du secret bancaire suisse, premières condamnations dans le cadre des Panama Papers. Le taux de recouvrement, bien que faible, est passé de 7 % à 12 % en cinq ans. Enfin, la dimension européenne manque : sans coordination fiscale au niveau de l'UE, un pays seul est désarmé face à la mobilité du capital.
 
 <!-- ENRICHIE: limites-du-chiffrage -->
 <!-- THEME: honnete-intelectuelle -->
 <!-- CROSS-REF: S3, S5 -->
 
-➡️ **À lire ensuite :** La Dette instrumentalisée — 115,6 % du PIB, 3 000 milliards, la contrainte absolue
+➡️ **À lire ensuite :** La Dette instrumentalisée : 115,6 % du PIB, 3 000 milliards, la contrainte absolue
 
 ---
 
@@ -188,30 +188,30 @@ Le chiffrage de l'évasion fiscale (80 à 100 milliards) mérite d'être nuancé
 
 ### À voir aussi
 
-- 🔗 [« Emprunt forcé des riches »](https://giak.substack.com/p/emprunt-force-des-riches-le-spectacle) — sur la mécanique de captation de l'épargne privée par l'État
-- 🔗 [« LE VAMPIRE DE LA CROISSANCE »](https://giak.substack.com/p/le-vampire-de-la-croissance) — analyse de la financiarisation qui aspire la richesse productive
-- 🔗 [« Budget 2026 — l'architecture du mensonge »](https://giak.substack.com/p/budget-2026-larchitecture-du-mensonge) — décryptage des choix fiscaux qui organisent l'évasion
-- 🔗 [« L'Europe construit-elle un crédit social à la française ? »](https://giak.substack.com/p/leurope-construit-elle-un-credit) — sur la convergence des politiques de crédit social
+- 🔗 [« Emprunt forcé des riches »](https://giak.substack.com/p/emprunt-force-des-riches-le-spectacle) : sur la mécanique de captation de l'épargne privée par l'État
+- 🔗 [« LE VAMPIRE DE LA CROISSANCE »](https://giak.substack.com/p/le-vampire-de-la-croissance) : analyse de la financiarisation qui aspire la richesse productive
+- 🔗 [« Budget 2026 : l'architecture du mensonge »](https://giak.substack.com/p/budget-2026-larchitecture-du-mensonge) : décryptage des choix fiscaux qui organisent l'évasion
+- 🔗 [« L'Europe construit-elle un crédit social à la française ? »](https://giak.substack.com/p/leurope-construit-elle-un-credit) : sur la convergence des politiques de crédit social
 
 ---
 
 ## Sources
 
-1. **CCFD, Oxfam, syndicats Finances** — Évasion fiscale estimée 80-100 Md€/an, [https://ccfd-terresolidaire.org/introduction/](https://ccfd-terresolidaire.org/introduction/) — Oxfam France, « Évasion fiscale : les chiffres », [https://www.oxfamfrance.org/fiscalite/](https://www.oxfamfrance.org/fiscalite/)
-2. **Correctiv / Consortium journalistes** — CumEx Files, 140 Md€ en Europe, [https://correctiv.org/en/topics/cumex-files/](https://correctiv.org/en/topics/cumex-files/)
-3. **ICIJ** — Panama Papers, ~10 000 entités offshore liées à la France, [https://projects.icij.org/panama-papers/](https://projects.icij.org/panama-papers/)
-4. **ICIJ** — Pandora Papers, [https://projects.icij.org/pandora-papers/](https://projects.icij.org/pandora-papers/)
-5. **Paper Trail Media / Le Monde / LCI** — OpenLux, 80 000 sociétés écrans au Luxembourg, [https://projects.icij.org/investigations/luxembourg-leaks/fr/](https://projects.icij.org/investigations/luxembourg-leaks/fr/)
-6. **FMI / Gabriel Zucman (WID)** — Actifs français non déclarés en Suisse estimés 150-200 Md€, [https://wid.world/document/zcc-eu-2018/](https://wid.world/document/zcc-eu-2018/)
-7. **Oxfam** — Taux effectif d'impôt CAC40, ~40 % inférieur au taux facial, [https://www.oxfamfrance.org/fiscalite/](https://www.oxfamfrance.org/fiscalite/)
-8. **France Stratégie** — Coût ISF supprimé, ~5 Md€/an, évaluation transformation ISF en IFI, [https://www.strategie-plan.gouv.fr/publications/comite-devaluation-reformes-de-fiscalite-capital-rapport-final](https://www.strategie-plan.gouv.fr/publications/comite-devaluation-reformes-de-fiscalite-capital-rapport-final)
-9. **Institut des Politiques Publiques** — Coût flat tax 30 % estimé ~2 Md€/an, [https://www.ipp.eu/publications/evaluation-de-la-fiscalite-des-dividendes/](https://www.ipp.eu/publications/evaluation-de-la-fiscalite-des-dividendes/)
-10. **Observatoire des Multinationales** — Taux effectif IS CAC40 14,8 %, [https://multinationales.org/fr/enquetes/cac40-le-veritable-bilan-annuel-2022/](https://multinationales.org/fr/enquetes/cac40-le-veritable-bilan-annuel-2022/)
-11. **Cour des comptes** — CICE : ~100 Md€ pour ~100 000 emplois, rapport 2021, [https://www.ccomptes.fr/fr/publications/le-credit-dimpot-pour-la-competitivite-et-lemploi](https://www.ccomptes.fr/fr/publications/le-credit-dimpot-pour-la-competitivite-et-lemploi)
-12. **Cour des comptes** — Niches fiscales : 470 mesures, 90-100 Md€/an, rapport 2024, [https://www.ccomptes.fr/fr/documents/69436](https://www.ccomptes.fr/fr/documents/69436)
-13. **Cour des comptes** — Exonération kérosène aérien : 2,58 Md€/an, rapport 2024, [https://www.ccomptes.fr/fr/publications/](https://www.ccomptes.fr/fr/publications/) (voir les notes d'analyse des dépenses fiscales)
-14. **IGF (Inspection Générale des Finances)** — Taux de recouvrement ~12 %, rapport 2023, [https://www.igf.finances.gouv.fr/publications](https://www.igf.finances.gouv.fr/publications)
-15. **PNF (Parquet National Financier)** — Rapports d'activité, 203,9 M€ récupérés en 2024, [https://www.tribunal-de-paris.justice.fr/paris/le-parquet-national-financier](https://www.tribunal-de-paris.justice.fr/paris/le-parquet-national-financier)
-16. **Haut Conseil du Financement de la Protection Sociale** — Fraude sociale 13-14 Md€/an, rapport 2024, [https://www.securite-sociale.fr/home/hcfips/rapports-et-avis.html](https://www.securite-sociale.fr/home/hcfips/rapports-et-avis.html)
-17. **Proxinvest** — Dividendes CAC40 ~70 Md€ et rachats d'actions ~80 Md€ en 2024, [https://www.proxinvest.com/espace-presse/publication/](https://www.proxinvest.com/espace-presse/publication/)
-18. **OCDE** — Flux intra-groupe 60 % du commerce mondial, données 2024, [https://www.oecd.org/fr/fiscalite/](https://www.oecd.org/fr/fiscalite/)
+1. **CCFD, Oxfam, syndicats Finances** : Évasion fiscale estimée 80-100 Md€/an, [https://ccfd-terresolidaire.org/introduction/](https://ccfd-terresolidaire.org/introduction/) : Oxfam France, « Évasion fiscale : les chiffres », [https://www.oxfamfrance.org/fiscalite/](https://www.oxfamfrance.org/fiscalite/)
+2. **Correctiv / Consortium journalistes** : CumEx Files, 140 Md€ en Europe, [https://correctiv.org/en/topics/cumex-files/](https://correctiv.org/en/topics/cumex-files/)
+3. **ICIJ** : Panama Papers, ~10 000 entités offshore liées à la France, [https://projects.icij.org/panama-papers/](https://projects.icij.org/panama-papers/)
+4. **ICIJ** : Pandora Papers, [https://projects.icij.org/pandora-papers/](https://projects.icij.org/pandora-papers/)
+5. **Paper Trail Media / Le Monde / LCI** : OpenLux, 80 000 sociétés écrans au Luxembourg, [https://projects.icij.org/investigations/luxembourg-leaks/fr/](https://projects.icij.org/investigations/luxembourg-leaks/fr/)
+6. **FMI / Gabriel Zucman (WID)** : Actifs français non déclarés en Suisse estimés 150-200 Md€, [https://wid.world/document/zcc-eu-2018/](https://wid.world/document/zcc-eu-2018/)
+7. **Oxfam** : Taux effectif d'impôt CAC40, ~40 % inférieur au taux facial, [https://www.oxfamfrance.org/fiscalite/](https://www.oxfamfrance.org/fiscalite/)
+8. **France Stratégie** : Coût ISF supprimé, ~5 Md€/an, évaluation transformation ISF en IFI, [https://www.strategie-plan.gouv.fr/publications/comite-devaluation-reformes-de-fiscalite-capital-rapport-final](https://www.strategie-plan.gouv.fr/publications/comite-devaluation-reformes-de-fiscalite-capital-rapport-final)
+9. **Institut des Politiques Publiques** : Coût flat tax 30 % estimé ~2 Md€/an, [https://www.ipp.eu/publications/evaluation-de-la-fiscalite-des-dividendes/](https://www.ipp.eu/publications/evaluation-de-la-fiscalite-des-dividendes/)
+10. **Observatoire des Multinationales** : Taux effectif IS CAC40 14,8 %, [https://multinationales.org/fr/enquetes/cac40-le-veritable-bilan-annuel-2022/](https://multinationales.org/fr/enquetes/cac40-le-veritable-bilan-annuel-2022/)
+11. **Cour des comptes** : CICE : ~100 Md€ pour ~100 000 emplois, rapport 2021, [https://www.ccomptes.fr/fr/publications/le-credit-dimpot-pour-la-competitivite-et-lemploi](https://www.ccomptes.fr/fr/publications/le-credit-dimpot-pour-la-competitivite-et-lemploi)
+12. **Cour des comptes** : Niches fiscales : 470 mesures, 90-100 Md€/an, rapport 2024, [https://www.ccomptes.fr/fr/documents/69436](https://www.ccomptes.fr/fr/documents/69436)
+13. **Cour des comptes** : Exonération kérosène aérien : 2,58 Md€/an, rapport 2024, [https://www.ccomptes.fr/fr/publications/](https://www.ccomptes.fr/fr/publications/) (voir les notes d'analyse des dépenses fiscales)
+14. **IGF (Inspection Générale des Finances)** : Taux de recouvrement ~12 %, rapport 2023, [https://www.igf.finances.gouv.fr/publications](https://www.igf.finances.gouv.fr/publications)
+15. **PNF (Parquet National Financier)** : Rapports d'activité, 203,9 M€ récupérés en 2024, [https://www.tribunal-de-paris.justice.fr/paris/le-parquet-national-financier](https://www.tribunal-de-paris.justice.fr/paris/le-parquet-national-financier)
+16. **Haut Conseil du Financement de la Protection Sociale** : Fraude sociale 13-14 Md€/an, rapport 2024, [https://www.securite-sociale.fr/home/hcfips/rapports-et-avis.html](https://www.securite-sociale.fr/home/hcfips/rapports-et-avis.html)
+17. **Proxinvest** : Dividendes CAC40 ~70 Md€ et rachats d'actions ~80 Md€ en 2024, [https://www.proxinvest.com/espace-presse/publication/](https://www.proxinvest.com/espace-presse/publication/)
+18. **OCDE** : Flux intra-groupe 60 % du commerce mondial, données 2024, [https://www.oecd.org/fr/fiscalite/](https://www.oecd.org/fr/fiscalite/)

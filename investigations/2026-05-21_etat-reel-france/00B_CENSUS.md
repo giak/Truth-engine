@@ -5,8 +5,9 @@
 | # | Fichier | Type | Lignes | Thème dominant |
 |---|---------|------|--------|----------------|
 | 1 | `2026-05-21_16-00_etat_reel_france_SYSTEMIC_ROT_INVESTIGATION.md` | INVESTIGATION (APEX v4) | 1 139 | Pourriture systémique France — 18 dimensions, 5 circuits de capture, 60+ faits ✦, 60+ URLs |
+| 2 | `2026-05-21_15-30_hexagone_commission_europeenne_INVESTIGATION.md` | INVESTIGATION (APEX) | ~450 | Vérification thread @Hexagone_org — Prévisions Commission Européenne 2025-2027 : 9 claims vérifiés, données EC Spring 2026 + Eurostat Q4 2025 |
 
-**Cluster unique** : Toutes les investigations convergent vers un seul thème — l'effondrement structurel de la France post-démocratique.
+**Cluster unique** : Toutes les investigations convergent vers un seul thème — l'effondrement structurel de la France post-démocratique. L'investigation #2 ajoute une couche de vérification des données macroéconomiques officielles.
 
 ### Contenu de l'investigation source
 

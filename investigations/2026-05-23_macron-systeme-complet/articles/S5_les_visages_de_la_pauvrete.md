@@ -12,7 +12,7 @@ La France consacre **31 % de son PIB à la protection sociale**, l'un des taux l
 
 > **Comment un pays qui dépense le plus pour ses pauvres peut-il avoir un taux de pauvreté qui explose ?**
 
-La réponse tient en un paradoxe : l'efficacité redistributive des dépenses sociales françaises s'effondre. Pour la population en âge de travailler (hors retraites), la réduction des inégalités par les transferts sociaux n'est que de **15 %** en France, contre 27 % en moyenne dans les pays de l'OCDE, selon l'analyse de l'OCDE. La mesure globale incluant les retraites place la France à environ 42 % — au-dessus de la moyenne — mais le filet de protection des actifs s'est affaibli. Le système français est devenu l'un des moins performants des économies développées pour corriger les inégalités de marché.
+La réponse tient en un paradoxe : l'efficacité redistributive des dépenses sociales françaises s'effondre. Pour la population en âge de travailler (hors retraites), la réduction des inégalités par les transferts sociaux n'est que de **15 %** en France, contre 27 % en moyenne dans les pays de l'OCDE, selon l'analyse de l'OCDE. La mesure globale incluant les retraites place la France à environ 42 % : au-dessus de la moyenne : mais le filet de protection des actifs s'est affaibli. Le système français est devenu l'un des moins performants des économies développées pour corriger les inégalités de marché.
 
 Ce paradoxe apparent s'explique par la structure des dépenses. Une part croissante du budget social va à des dispositifs universaux (retraites, assurance maladie) qui bénéficient à tous, y compris aux plus aisés. Les transferts réellement ciblés vers les plus pauvres sont soumis à des conditions de plus en plus strictes. Le résultat est un système qui dépense beaucoup mais corrige peu, et qui laisse les plus vulnérables dans une précarité durable.
 
@@ -52,7 +52,7 @@ Le SMIC net est de 1 398 euros par mois en 2024, selon le ministère du Travail.
 
 ### La précarité structurelle de l'emploi
 
-La structure du marché du travail s'est profondément transformée. En 2017, les CDD représentaient déjà **87 % des nouvelles embauches**, selon la DARES — une proportion qui s'est maintenue depuis. L'intérim concerne 820 000 personnes, avec des missions qui se comptent souvent en semaines, parfois en jours. **29 % des salariés à temps partiel le subissent** : ils voudraient travailler plus mais ne trouvent pas d'heures supplémentaires, selon la DARES. Le CDI à temps plein, qui était la norme pour les générations précédentes, est devenu un privilège.
+La structure du marché du travail s'est profondément transformée. En 2017, les CDD représentaient déjà **87 % des nouvelles embauches**, selon la DARES : une proportion qui s'est maintenue depuis. L'intérim concerne 820 000 personnes, avec des missions qui se comptent souvent en semaines, parfois en jours. **29 % des salariés à temps partiel le subissent** : ils voudraient travailler plus mais ne trouvent pas d'heures supplémentaires, selon la DARES. Le CDI à temps plein, qui était la norme pour les générations précédentes, est devenu un privilège.
 
 Le phénomène des travailleurs pauvres brise un des piliers du récit social français : celui selon lequel le travail protège de l'indigence. Un caissier à 30 heures par semaine touche environ 1 050 euros net par mois. Une aide à domicile qui enchaîne les interventions chez des personnes âgées gagne à peine plus. Ces métiers sont essentiels, ils sont pénibles, et ils sont mal payés. La conséquence est directe : **un tiers des bénéficiaires des Restos du Cœur occupent un emploi**.
 
@@ -108,7 +108,7 @@ Le taux de non-recours à la Complémentaire Santé Solidaire, qui offre une cou
 
 Les quatre sections précédentes ont montré le visage de la pauvreté en France en 2026. Reste une question : pourquoi ?
 
-La réponse est dans les articles précédents de cette enquête. L'évasion fiscale (80 à 100 milliards d'euros par an, selon le CCFD et Oxfam) et les niches fiscales (90 à 100 milliards, selon la Cour des comptes) privent l'État de recettes du même ordre que le déficit budgétaire — même si ces deux catégories ne sont pas purement additives, l'évasion et les niches se recouvrant partiellement. Ce manque est compensé par l'emprunt, qui nourrit la dette. La dette à 115,6 % du PIB justifie l'austérité. L'austérité frappe d'abord les transferts sociaux et les services publics.
+La réponse est dans les articles précédents de cette enquête. L'évasion fiscale (80 à 100 milliards d'euros par an, selon le CCFD et Oxfam) et les niches fiscales (90 à 100 milliards, selon la Cour des comptes) privent l'État de recettes du même ordre que le déficit budgétaire : même si ces deux catégories ne sont pas purement additives, l'évasion et les niches se recouvrant partiellement. Ce manque est compensé par l'emprunt, qui nourrit la dette. La dette à 115,6 % du PIB justifie l'austérité. L'austérité frappe d'abord les transferts sociaux et les services publics.
 
 Mais la pauvreté n'est pas le résultat d'une fatalité économique. **C'est le résultat de choix politiques** qui organisent méthodiquement la précarité :
 
@@ -122,7 +122,7 @@ Ces choix ne sont pas des accidents. Ils sont la **conséquence normale du fonct
 
 La pauvreté n'est pas un échec de la politique sociale. C'est la **trace humaine du transfert de richesse** documenté dans cette enquête. Les 9,8 millions de Français sous le seuil de pauvreté sont le coût humain d'un changement de régime qui a remplacé la solidarité par l'extraction.
 
-> Ce transfert a un coût physiologique direct. L'OMS a intégré le burnout à sa classification internationale des maladies. En France, 47 % des salariés se déclarent en détresse psychologique, 14 % en détresse sévère. 764 décès d'origine professionnelle ont été recensés en 2024 — un record post-Covid. Aux États-Unis, moins de 2 % des salaires volés sont recouvrés par le département du Travail. Et 62 % des actifs pratiquent le *quiet quitting* — non par paresse, mais par préservation : la seule réponse immunitaire valide face à un système qui extrait sans contrepartie.
+> Ce transfert a un coût physiologique direct. L'OMS a intégré le burnout à sa classification internationale des maladies. En France, 47 % des salariés se déclarent en détresse psychologique, 14 % en détresse sévère. 764 décès d'origine professionnelle ont été recensés en 2024 : un record post-Covid. Aux États-Unis, moins de 2 % des salaires volés sont recouvrés par le département du Travail. Et 62 % des actifs pratiquent le *quiet quitting* : non par paresse, mais par préservation : la seule réponse immunitaire valide face à un système qui extrait sans contrepartie.
 
 <!-- ENRICHIE: le-grand-manege-de-la-depossession -->
 <!-- THEME: predation-invisible -->
@@ -130,45 +130,45 @@ La pauvreté n'est pas un échec de la politique sociale. C'est la **trace humai
 
 Le prochain article montrera comment ce même système abandonne aussi l'avenir du pays : l'école, les enseignants, les enfants.
 
-## §6 — Ce que ce chapitre ne dit pas
+## §6 : Ce que ce chapitre ne dit pas
 
-Le tableau de la pauvreté en France est sombre, mais plusieurs réserves s'imposent. **Primo**, le taux de pauvreté français à 15,4 % reste inférieur à la moyenne de l'OCDE (environ 18 %) et bien en dessous des États-Unis (21 %) ou du Royaume-Uni (16 %), selon l'OCDE — la France protège encore mieux que ses voisins. **Secundo**, l'article n'évoque pas les revalorisations du SMIC sous la présidence Macron (+10 % cumulé entre 2021 et 2024, avant correction d'inflation) ni la prime d'activité qui complète les bas revenus. **Tertio**, la réforme des retraites comporte des mesures de justice sociale (pénibilité renforcée, départs anticipés pour carrières longues, minimum de pension à 1 200 euros) que l'article ignore. Enfin, la comparaison avec 2017 ne tient pas compte des chocs exogènes majeurs — Covid, inflation, guerre en Ukraine — qui ont frappé tous les pays développés simultanément.
+Le tableau de la pauvreté en France est sombre, mais plusieurs réserves s'imposent. **Primo**, le taux de pauvreté français à 15,4 % reste inférieur à la moyenne de l'OCDE (environ 18 %) et bien en dessous des États-Unis (21 %) ou du Royaume-Uni (16 %), selon l'OCDE : la France protège encore mieux que ses voisins. **Secundo**, l'article n'évoque pas les revalorisations du SMIC sous la présidence Macron (+10 % cumulé entre 2021 et 2024, avant correction d'inflation) ni la prime d'activité qui complète les bas revenus. **Tertio**, la réforme des retraites comporte des mesures de justice sociale (pénibilité renforcée, départs anticipés pour carrières longues, minimum de pension à 1 200 euros) que l'article ignore. Enfin, la comparaison avec 2017 ne tient pas compte des chocs exogènes majeurs : Covid, inflation, guerre en Ukraine : qui ont frappé tous les pays développés simultanément.
 
-➡️ **À lire ensuite :** L'École et l'Éducation sacrifiées — 120 000 postes supprimés, 43 points perdus, 51 % sans repères
+➡️ **À lire ensuite :** L'École et l'Éducation sacrifiées : 120 000 postes supprimés, 43 points perdus, 51 % sans repères
 
 ---
 
-*📖 **Article suivant :** 📚 L'École et l'Éducation sacrifiées — 120 000 postes supprimés, 43 points perdus, 51 % sans repères [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🏥 Le Système de santé démantelé — 8 millions de Français sans médecin traitant [LIEN_A_INSERER]*
+*📖 **Article suivant :** 📚 L'École et l'Éducation sacrifiées : 120 000 postes supprimés, 43 points perdus, 51 % sans repères [LIEN_A_INSERER]*
+*📖 **Article précédent :** 🏥 Le Système de santé démantelé : 8 millions de Français sans médecin traitant [LIEN_A_INSERER]*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
 
 ---
 
 ### À voir aussi
 
-- 🔗 [« LE GRAND MANÈGE DE LA DÉPOSSESSION »](https://giak.substack.com/p/le-grand-manege-de-la-depossession) — sur le mécanisme par lequel le travail n'empêche plus la pauvreté
-- 🔗 [« L'EMPIRE DES MIETTES »](https://giak.substack.com/p/lempire-des-miettes) — analyse de la précarisation structurelle des classes populaires
+- 🔗 [« LE GRAND MANÈGE DE LA DÉPOSSESSION »](https://giak.substack.com/p/le-grand-manege-de-la-depossession) : sur le mécanisme par lequel le travail n'empêche plus la pauvreté
+- 🔗 [« L'EMPIRE DES MIETTES »](https://giak.substack.com/p/lempire-des-miettes) : analyse de la précarisation structurelle des classes populaires
 
 ---
 
 ## Sources
 
-1. **INSEE** — Taux de pauvreté 15,4 % (9,8 millions de personnes), seuil 1 216 €/mois, 21,3 % enfants, inflation 19 % (2017-2024), espérance de vie par CSP, [https://www.insee.fr/fr/statistiques/8230745](https://www.insee.fr/fr/statistiques/8230745)
-2. **OCDE** — Dépense sociale 31 % du PIB France, efficacité redistributive 15 % contre 27 % moyenne OCDE, [https://www.oecd.org/fr/social/depenses-sociaux.htm](https://www.oecd.org/fr/social/depenses-sociaux.htm)
-3. **Ministère du Travail** — SMIC net 1 398 €/mois (2024), [https://travail-emploi.gouv.fr/le-smic](https://travail-emploi.gouv.fr/le-smic)
-4. **DARES** — 3,1 millions de smicards (15 % des salariés du privé), CDD 87 % des nouvelles embauches, 29 % temps partiel subi, [https://dares.travail-emploi.gouv.fr/publication/le-smic-et-les-salaires-mensuels-de-base-en-2024](https://dares.travail-emploi.gouv.fr/publication/le-smic-et-les-salaires-mensuels-de-base-en-2024)
-5. **Restos du Cœur** — Rapport annuel 2024 : 1,3 million de personnes servies, un tiers de bénéficiaires avec emploi, [https://www.restosducoeur.org/rapport-annuel-2024/](https://www.restosducoeur.org/rapport-annuel-2024/)
-6. **Fondation Abbé Pierre** — 330 000 sans-domicile, 4,2 millions de mal-logés, rapport 2025, [https://www.fondationpourlelogement.fr/publications/30e-rapport-sur-letat-du-mal-logement/](https://www.fondationpourlelogement.fr/publications/30e-rapport-sur-letat-du-mal-logement/)
-7. **SDES** — 2,7 millions de demandeurs de logement social, [https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-locatifs-sociaux-au-1er-janvier-2024](https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-locatifs-sociaux-au-1er-janvier-2024)
-8. **Unédic** — 42 % de demandeurs d'emploi sans indemnité en fin de droits (2024), contre 32 % en 2017, [https://www.unedic.org/publications/indemnisation-des-demandeurs-demploi-2024](https://www.unedic.org/publications/indemnisation-des-demandeurs-demploi-2024)
-9. **Assemblée nationale** — Réforme des retraites 2023 adoptée par 49.3, 44 000 amendements non examinés, [https://www.assemblee-nationale.fr/dyn/16/dossiers/reforme_des_retraites](https://www.assemblee-nationale.fr/dyn/16/dossiers/reforme_des_retraites)
-10. **Loi 2023-270** — Réforme des retraites : 64 ans, 43 annuités, [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047453441](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047453441)
-11. **CNAV** — Départs en retraite anticipée en baisse de 30 % après la réforme, [https://www.statistiques-recherche.lassuranceretraite.fr/retraites-anticipees/](https://www.statistiques-recherche.lassuranceretraite.fr/retraites-anticipees/)
-12. **CNAM** — Arrêts maladie pour épuisement professionnel +15 % chez les plus de 58 ans, [https://assurance-maladie.ameli.fr/qui-sommes-nous/publications/rapport-charges-produits/rapport-charges-produits-2025](https://assurance-maladie.ameli.fr/qui-sommes-nous/publications/rapport-charges-produits/rapport-charges-produits-2025)
-13. **CAF** — RSA : 635 €/mois pour une personne seule, [https://www.caf.fr/allocataires/droits-et-prestations/solidarite-et-insertion/rsa](https://www.caf.fr/allocataires/droits-et-prestations/solidarite-et-insertion/rsa)
-14. **Loi 2023-1196** — RSA conditionné à 15 heures d'activité, [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048598313](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048598313)
-15. **DREES** — Non-recours au RSA : 40 %, [https://drees.solidarites-sante.gouv.fr/publications/panoramas-de-la-drees/le-non-recours-aux-minima-sociaux](https://drees.solidarites-sante.gouv.fr/publications/panoramas-de-la-drees/le-non-recours-aux-minima-sociaux)
-16. **HCFiPS** — Non-recours à la Complémentaire Santé Solidaire : 40 %, rapport 2024, [https://www.securite-sociale.fr/hcfips/publications](https://www.securite-sociale.fr/hcfips/publications)
-17. **INSEE** — Solde primaire, dépenses publiques, investissements publics, [https://www.insee.fr/fr/statistiques/8230745](https://www.insee.fr/fr/statistiques/8230745)
-18. **CCFD / Oxfam** — Évasion fiscale 80-100 Md€/an, [https://ccfd-terresolidaire.org/nos-actions/fiscalite/](https://ccfd-terresolidaire.org/nos-actions/fiscalite/)
-19. **Cour des comptes** — Niches fiscales 90-100 Md€/an, rapport 2025, [https://www.ccomptes.fr/fr/publications/la-depense-fiscale](https://www.ccomptes.fr/fr/publications/la-depense-fiscale)
+1. **INSEE** : Taux de pauvreté 15,4 % (9,8 millions de personnes), seuil 1 216 €/mois, 21,3 % enfants, inflation 19 % (2017-2024), espérance de vie par CSP, [https://www.insee.fr/fr/statistiques/8230745](https://www.insee.fr/fr/statistiques/8230745)
+2. **OCDE** : Dépense sociale 31 % du PIB France, efficacité redistributive 15 % contre 27 % moyenne OCDE, [https://www.oecd.org/fr/social/depenses-sociaux.htm](https://www.oecd.org/fr/social/depenses-sociaux.htm)
+3. **Ministère du Travail** : SMIC net 1 398 €/mois (2024), [https://travail-emploi.gouv.fr/le-smic](https://travail-emploi.gouv.fr/le-smic)
+4. **DARES** : 3,1 millions de smicards (15 % des salariés du privé), CDD 87 % des nouvelles embauches, 29 % temps partiel subi, [https://dares.travail-emploi.gouv.fr/publication/le-smic-et-les-salaires-mensuels-de-base-en-2024](https://dares.travail-emploi.gouv.fr/publication/le-smic-et-les-salaires-mensuels-de-base-en-2024)
+5. **Restos du Cœur** : Rapport annuel 2024 : 1,3 million de personnes servies, un tiers de bénéficiaires avec emploi, [https://www.restosducoeur.org/rapport-annuel-2024/](https://www.restosducoeur.org/rapport-annuel-2024/)
+6. **Fondation Abbé Pierre** : 330 000 sans-domicile, 4,2 millions de mal-logés, rapport 2025, [https://www.fondationpourlelogement.fr/publications/30e-rapport-sur-letat-du-mal-logement/](https://www.fondationpourlelogement.fr/publications/30e-rapport-sur-letat-du-mal-logement/)
+7. **SDES** : 2,7 millions de demandeurs de logement social, [https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-locatifs-sociaux-au-1er-janvier-2024](https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-locatifs-sociaux-au-1er-janvier-2024)
+8. **Unédic** : 42 % de demandeurs d'emploi sans indemnité en fin de droits (2024), contre 32 % en 2017, [https://www.unedic.org/publications/indemnisation-des-demandeurs-demploi-2024](https://www.unedic.org/publications/indemnisation-des-demandeurs-demploi-2024)
+9. **Assemblée nationale** : Réforme des retraites 2023 adoptée par 49.3, 44 000 amendements non examinés, [https://www.assemblee-nationale.fr/dyn/16/dossiers/reforme_des_retraites](https://www.assemblee-nationale.fr/dyn/16/dossiers/reforme_des_retraites)
+10. **Loi 2023-270** : Réforme des retraites : 64 ans, 43 annuités, [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047453441](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047453441)
+11. **CNAV** : Départs en retraite anticipée en baisse de 30 % après la réforme, [https://www.statistiques-recherche.lassuranceretraite.fr/retraites-anticipees/](https://www.statistiques-recherche.lassuranceretraite.fr/retraites-anticipees/)
+12. **CNAM** : Arrêts maladie pour épuisement professionnel +15 % chez les plus de 58 ans, [https://assurance-maladie.ameli.fr/qui-sommes-nous/publications/rapport-charges-produits/rapport-charges-produits-2025](https://assurance-maladie.ameli.fr/qui-sommes-nous/publications/rapport-charges-produits/rapport-charges-produits-2025)
+13. **CAF** : RSA : 635 €/mois pour une personne seule, [https://www.caf.fr/allocataires/droits-et-prestations/solidarite-et-insertion/rsa](https://www.caf.fr/allocataires/droits-et-prestations/solidarite-et-insertion/rsa)
+14. **Loi 2023-1196** : RSA conditionné à 15 heures d'activité, [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048598313](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048598313)
+15. **DREES** : Non-recours au RSA : 40 %, [https://drees.solidarites-sante.gouv.fr/publications/panoramas-de-la-drees/le-non-recours-aux-minima-sociaux](https://drees.solidarites-sante.gouv.fr/publications/panoramas-de-la-drees/le-non-recours-aux-minima-sociaux)
+16. **HCFiPS** : Non-recours à la Complémentaire Santé Solidaire : 40 %, rapport 2024, [https://www.securite-sociale.fr/hcfips/publications](https://www.securite-sociale.fr/hcfips/publications)
+17. **INSEE** : Solde primaire, dépenses publiques, investissements publics, [https://www.insee.fr/fr/statistiques/8230745](https://www.insee.fr/fr/statistiques/8230745)
+18. **CCFD / Oxfam** : Évasion fiscale 80-100 Md€/an, [https://ccfd-terresolidaire.org/nos-actions/fiscalite/](https://ccfd-terresolidaire.org/nos-actions/fiscalite/)
+19. **Cour des comptes** : Niches fiscales 90-100 Md€/an, rapport 2025, [https://www.ccomptes.fr/fr/publications/la-depense-fiscale](https://www.ccomptes.fr/fr/publications/la-depense-fiscale)

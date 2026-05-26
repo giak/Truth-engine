@@ -1,4 +1,4 @@
-# ⚡ L'Énergie sacrifiée : 92,3 TWh d'exportation, 65 Md€ de dette EDF, 12 millions de précaires — comment la France a raté sa transition
+# ⚡ L'Énergie sacrifiée : 92,3 TWh d'exportation, 65 Md€ de dette EDF, 12 millions de précaires : comment la France a raté sa transition
 
 *⚡ La France exporte de l'électricité, mais ses ménages paient plus cher que jamais et 12 millions de personnes ont froid l'hiver. Le nucléaire devait fournir une énergie abondante et bon marché. Résultat : 65 Md€ de dette chez EDF, un EPR qui a coûté 4 fois le budget prévu, des ENR subventionnées à 7,3 Md€/an, et une précarité énergétique qui explose.*
 
@@ -68,7 +68,7 @@ Les pales d'éoliennes ont une durée de vie de 20 à 25 ans, selon l'ADEME. Ell
 
 Pendant ce temps, le gouvernement communique sur l'urgence climatique. Discours de la Sorbonne (2024), planification écologique, France Nation Verte. Mais les actes contredisent les paroles : les subventions aux énergies fossiles (gaz, pétrole, charbon) sont restées stables à 11 Md€/an, selon les estimations d'Oxfam et de Greenpeace (étude 2024). Le kéroène est exonéré de taxe à hauteur de 2,58 Md€/an, selon la Cour des comptes (rapport 2024 sur les niches fiscales). Le transport aérien, qui émet 3 % des émissions mondiales, paie 0 euro de taxe sur son carburant, alors que les automobilistes paient 60 € la tonne de CO2 via la TICPE. **2,58 Md€ d'exonération fiscale** pour le secteur qui émet le plus par passager.
 
-> **Ce privilège fiscal n'est que la partie visible de l'iceberg.** Les traînées de condensation — ces lignes blanches que les avions laissent en haute altitude — représentent **57 % de l'impact climatique de l'aviation**, selon la synthèse de Lee et al. (2021, *Atmospheric Environment*). Le CO₂ n'en représente que 32 %. Pourtant, le régime CORSIA de l'OACI ne régule que le CO₂. Les traînées, les oxydes d'azote (NOx), les suies : rien. La solution ? Une étude de Teoh et al. (2020, *Nature Climate Change*) démontre qu'il suffirait de modifier l'altitude de **2 % des vols** pour réduire de **80 % le forçage radiatif** des traînées. Un décalage de 300 mètres. Pas de nouvelle technologie. Pas de nouveau carburant. Cette mesure n'est pas appliquée. Résultat : **100 milliards d'euros d'externalités climatiques et sanitaires non internalisées par an** en Europe, et **4 000 décès prématurés par an** imputables aux particules fines de l'aviation (Stettler et al., 2013). L'essence est taxée, le kérosène est exempté, les traînées sont ignorées. Le ciel n'est pas gratuit : c'est un privilège institutionnalisé par un traité de 1944.
+> **Ce privilège fiscal n'est que la partie visible de l'iceberg.** Les traînées de condensation : ces lignes blanches que les avions laissent en haute altitude : représentent **57 % de l'impact climatique de l'aviation**, selon la synthèse de Lee et al. (2021, *Atmospheric Environment*). Le CO₂ n'en représente que 32 %. Pourtant, le régime CORSIA de l'OACI ne régule que le CO₂. Les traînées, les oxydes d'azote (NOx), les suies : rien. La solution ? Une étude de Teoh et al. (2020, *Nature Climate Change*) démontre qu'il suffirait de modifier l'altitude de **2 % des vols** pour réduire de **80 % le forçage radiatif** des traînées. Un décalage de 300 mètres. Pas de nouvelle technologie. Pas de nouveau carburant. Cette mesure n'est pas appliquée. Résultat : **100 milliards d'euros d'externalités climatiques et sanitaires non internalisées par an** en Europe, et **4 000 décès prématurés par an** imputables aux particules fines de l'aviation (Stettler et al., 2013). L'essence est taxée, le kérosène est exempté, les traînées sont ignorées. Le ciel n'est pas gratuit : c'est un privilège institutionnalisé par un traité de 1944.
 
 <!-- ENRICHIE: le-ciel-nest-pas-gratuit -->
 <!-- THEME: predation-invisible -->
@@ -84,7 +84,7 @@ Le véhicule électrique lui-même n'est pas si « vert » : sa fabrication éme
 
 Le marché carbone européen (EU ETS) couvre environ 40 % des émissions de l'UE. En 2025, le prix de la tonne de CO2 a fluctué entre 70 et 90 €, selon ICE. Mais ce prix ne couvre que les grands émetteurs industriels. Le transport routier, le logement, l'agriculture (qui représentent 60 % des émissions) ne sont pas inclus. Les mécanismes de compensation volontaire (crédits carbone, reforestation) sont massivement utilisés par les entreprises pour afficher un bilan neutre. Mais une enquête du Guardian (2024) a montré que plus de 90 % des crédits carbone forestiers sont « fantômes » : ils ne correspondent à aucune absorption réelle de CO2. **Un marché d'indulgences**, qui permet aux pollueurs d'acheter une bonne conscience sans réduire leurs émissions.
 
-> **Pendant que le débat public se focalise sur le CO₂, ce qui tue vraiment reste invisible.** La Commission Lancet (2022) documente **neuf millions de morts par an** imputables à la pollution — un décès sur six dans le monde, trois fois plus que le sida, le paludisme et la tuberculose combinés, quinze fois plus que toutes les guerres et violences réunies. Les PFAS contaminent les eaux de pluie jusqu'au plateau tibétain, l'industrie chimique produit 350 000 substances dont 80 % n'ont jamais été évaluées pour leur sécurité. Le climat a ses COP, ses traités, ses milliards de recherche. La pollution n'a **aucun traité global**, aucun équivalent du GIEC, aucun mécanisme de financement dédié — alors que les solutions existent (tests de sécurité, interdictions, normes d'exposition). Le même système qui monétise le climat ignore la pollution : parce que neuf millions de morts silencieux n'ont pas de marché.
+> **Pendant que le débat public se focalise sur le CO₂, ce qui tue vraiment reste invisible.** La Commission Lancet (2022) documente **neuf millions de morts par an** imputables à la pollution : un décès sur six dans le monde, trois fois plus que le sida, le paludisme et la tuberculose combinés, quinze fois plus que toutes les guerres et violences réunies. Les PFAS contaminent les eaux de pluie jusqu'au plateau tibétain, l'industrie chimique produit 350 000 substances dont 80 % n'ont jamais été évaluées pour leur sécurité. Le climat a ses COP, ses traités, ses milliards de recherche. La pollution n'a **aucun traité global**, aucun équivalent du GIEC, aucun mécanisme de financement dédié : alors que les solutions existent (tests de sécurité, interdictions, normes d'exposition). Le même système qui monétise le climat ignore la pollution : parce que neuf millions de morts silencieux n'ont pas de marché.
 
 <!-- ENRICHIE: climat-les-deux-escroqueries -->
 <!-- THEME: verrouillage-systemique -->
@@ -124,42 +124,42 @@ L'énergie est, dans l'architecture du Changement de Régime, le révélateur le
 
 L'énergie n'est pas un problème technique. C'est un problème de capture : la caste qui gouverne la France a fait les choix qui protègent ses intérêts (subventions aux entreprises, exonérations fiscales des pollueurs, communication climatique sans actes) plutôt que les choix qui résoudraient le problème. Résultat : **une transition qui ne transitionne pas**, une précarité qui s'aggrave, et un climat qui se dégrade.
 
-## §6 — Ce que ce chapitre ne dit pas
+## §6 : Ce que ce chapitre ne dit pas
 
-Ce constat implacable sur l'incohérence énergétique française ne dit rien des technologies émergentes qui pourraient changer la donne. Les petits réacteurs modulaires (SMR), développés par NuScale aux États-Unis et EDF en France avec le projet Nuward, promettent des coûts d'investissement divisés par 5 et des délais de construction de 3 à 4 ans — s'ils tiennent leurs promesses. Le chapitre n'aborde pas non plus le potentiel de la flexibilité de la demande : le pilotage intelligent des pompes à chaleur, des chauffe-eaux et des bornes de recharge électrique pourrait effacer jusqu'à 15 % de la pointe sans construire un seul kilowatt de production, selon RTE. La rénovation thermique des logements, présentée comme une charge, est aussi un gisement d'emplois locaux non délocalisables (400 000 postes potentiels, selon la FFB). Enfin, la France réussit là où d'autres échouent : son électricité est 7 fois moins carbonée que la moyenne européenne, selon RTE — un atout compétitif dont ce chapitre ne tire pas toutes les conséquences pour la réindustrialisation du pays.
+Ce constat implacable sur l'incohérence énergétique française ne dit rien des technologies émergentes qui pourraient changer la donne. Les petits réacteurs modulaires (SMR), développés par NuScale aux États-Unis et EDF en France avec le projet Nuward, promettent des coûts d'investissement divisés par 5 et des délais de construction de 3 à 4 ans : s'ils tiennent leurs promesses. Le chapitre n'aborde pas non plus le potentiel de la flexibilité de la demande : le pilotage intelligent des pompes à chaleur, des chauffe-eaux et des bornes de recharge électrique pourrait effacer jusqu'à 15 % de la pointe sans construire un seul kilowatt de production, selon RTE. La rénovation thermique des logements, présentée comme une charge, est aussi un gisement d'emplois locaux non délocalisables (400 000 postes potentiels, selon la FFB). Enfin, la France réussit là où d'autres échouent : son électricité est 7 fois moins carbonée que la moyenne européenne, selon RTE : un atout compétitif dont ce chapitre ne tire pas toutes les conséquences pour la réindustrialisation du pays.
 
-➡️ **À lire ensuite :** Comment un modèle agricole subventionné à 9 Md€/an étrangle les paysans et détruit la biodiversité — **S11 — L'Agriculture qui meurt**
+➡️ **À lire ensuite :** Comment un modèle agricole subventionné à 9 Md€/an étrangle les paysans et détruit la biodiversité : **S11 : L'Agriculture qui meurt**
 
 ---
 
-*📖 **Article suivant :** 🌾 L'Agriculture qui meurt — 100 000 fermes disparues, 9 Md€ de PAC, un modèle qui tue les paysans [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🏠 Le Logement, la Machine à créer de la Rareté — 4,2 millions de mal-logés, 30 500 expulsions [LIEN_A_INSERER]*
+*📖 **Article suivant :** 🌾 L'Agriculture qui meurt : 100 000 fermes disparues, 9 Md€ de PAC, un modèle qui tue les paysans [LIEN_A_INSERER]*
+*📖 **Article précédent :** 🏠 Le Logement, la Machine à créer de la Rareté : 4,2 millions de mal-logés, 30 500 expulsions [LIEN_A_INSERER]*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
 
 ---
 
 ### À voir aussi
 
-— [« Le sabotage énergétique français »](https://giak.substack.com/p/le-sabotage-energetique-francais) — 🔗 Lien direct : complète le constat sur l'incohérence énergétique
-— [« Climat : les deux escroqueries »](https://giak.substack.com/p/climat-les-deux-escroqueries) — 🔗 Lien direct : prolonge l'analyse du double discours climatique
-— [« Le ciel n'est pas gratuit »](https://giak.substack.com/p/le-ciel-nest-pas-gratuit) — 🔗 Lien direct : approfondit la question du financement de la transition
+- [« Le sabotage énergétique français »](https://giak.substack.com/p/le-sabotage-energetique-francais) : 🔗 Lien direct : complète le constat sur l'incohérence énergétique
+- [« Climat : les deux escroqueries »](https://giak.substack.com/p/climat-les-deux-escroqueries) : 🔗 Lien direct : prolonge l'analyse du double discours climatique
+- [« Le ciel n'est pas gratuit »](https://giak.substack.com/p/le-ciel-nest-pas-gratuit) : 🔗 Lien direct : approfondit la question du financement de la transition
 
 ---
 
 ## Sources
 
-1. **RTE** — Bilan électrique 2024 : production 536,5 TWh, exportation 92,3 TWh, part nucléaire 56 %, part ENR 28 % — [analysesetdonnees.rte-france.com/bilan-electrique-2024](https://analysesetdonnees.rte-france.com/bilan-electrique-2024/synthese)
-2. **Cour des comptes** — Le soutien aux énergies renouvelables, mars 2026 : 7,3 Md€/an — [ccomptes.fr/soutien-energies-renouvelables](https://www.ccomptes.fr/sites/default/files/2026-03/20260318-synthese-Soutien-energies-renouvelables-a-travers-charges-service-public-energie_0.pdf)
-3. **CRE** — Délibération n°2025-180 : CSPE 2026 à 13 Md€ — [cre.fr/CSPE-2026](https://www.cre.fr/fileadmin/Documents/Deliberations/2025/250710_2025-180_CSPE_2025-2026.pdf)
-4. **Cour des comptes** — Le modèle économique d'EDF, sept. 2025 : dette nette 65 Md€ — [ccomptes.fr/modele-economique-edf](https://www.ccomptes.fr/sites/default/files/2025-09/20250924-Modele-economique-EDF_1.pdf)
-5. **CITEPA** — Données Air-Climat, rapport SECTEN 2025 : émissions GES −1,5 % — [citepa.org/donnees-air-climat](https://www.citepa.org/donnees-air-climat/)
-6. **Cour des comptes** — La filière EPR : Flamanville, surcoût 19,1 Md€, retard 13 ans — [ccomptes.fr/filiere-epr](https://www.ccomptes.fr/fr/documents/52261)
-7. **EDF** — Programmation pluriannuelle 2023 : 6 EPR à 51,4 Md€, réévalués à 67 Md€ en 2025 — [edf.fr/grand-plan-nucleaire](https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/grand-plan-nucleaire-6-nouveaux-epr)
-8. **ADEME** — Impact CO2 transport : émissions fabrication VE 6-8 tCO2, usage 25-45 gCO2/km — [impactco2.fr/outils/transport/voitureelectrique](https://impactco2.fr/outils/transport/voitureelectrique)
-9. **Ministère de la Transition Énergétique** — PPE (Programmation Pluriannuelle de l'Énergie) — [ecologie.gouv.fr/programmation-pluriannuelle-energie](https://www.ecologie.gouv.fr/programmation-pluriannuelle-energie-ppe)
-10. **INSEE** — Fiscalité carbone : D1 0,6 % revenu vs D10 0,1 % — [insee.fr/fr/statistiques/8887123](https://www.insee.fr/fr/statistiques/8887123)
-11. **Médiateur national de l'énergie** — Baromètre 2024 : 30 % des ménages ont eu froid — [energie-mediateur.fr/barometre-2024](https://www.energie-mediateur.fr/wp-content/uploads/2024/10/synthese-barometre-energie-info-2024.pdf)
-12. **ONPE** — Tableau de bord 2025 : 12 millions de personnes en précarité énergétique — [librairie.ademe.fr/batiment/8769-onpe-tableau-de-bord-de-la-precarite-energetique-2025](https://librairie.ademe.fr/batiment/8769-onpe-tableau-de-bord-de-la-precarite-energetique-novembre-2025.html)
-13. **Le Monde** — ZFE : Conseil constitutionnel annule la suppression des ZFE, mai 2026 — [lemonde.fr/zfe-conseil-constitutionnel](https://www.lemonde.fr/planete/article/2026/05/21/zfe-le-conseil-constitutionnel-annule-la-suppression-des-zones-a-faibles-emissions_6691910_3244.html)
-14. **Santé Publique France** — Pollution de l'air : 40 000 décès/an — [santepubliquefrance.fr/pollution-atmospherique](https://www.santepubliquefrance.fr/determinants-de-sante/pollution-et-sante/air)
-15. **Légifrance** — Dossier législatif 2025-2026 : loi de simplification, amendement ZFE — [legifrance.gouv.fr/dossier-legislatif/ZFE-simplification-2026](https://www.legifrance.gouv.fr/dossier-legislatif/ZFE-simplification-2026)
+1. **RTE** : Bilan électrique 2024 : production 536,5 TWh, exportation 92,3 TWh, part nucléaire 56 %, part ENR 28 % : [analysesetdonnees.rte-france.com/bilan-electrique-2024](https://analysesetdonnees.rte-france.com/bilan-electrique-2024/synthese)
+2. **Cour des comptes** : Le soutien aux énergies renouvelables, mars 2026 : 7,3 Md€/an : [ccomptes.fr/soutien-energies-renouvelables](https://www.ccomptes.fr/sites/default/files/2026-03/20260318-synthese-Soutien-energies-renouvelables-a-travers-charges-service-public-energie_0.pdf)
+3. **CRE** : Délibération n°2025-180 : CSPE 2026 à 13 Md€ : [cre.fr/CSPE-2026](https://www.cre.fr/fileadmin/Documents/Deliberations/2025/250710_2025-180_CSPE_2025-2026.pdf)
+4. **Cour des comptes** : Le modèle économique d'EDF, sept. 2025 : dette nette 65 Md€ : [ccomptes.fr/modele-economique-edf](https://www.ccomptes.fr/sites/default/files/2025-09/20250924-Modele-economique-EDF_1.pdf)
+5. **CITEPA** : Données Air-Climat, rapport SECTEN 2025 : émissions GES −1,5 % : [citepa.org/donnees-air-climat](https://www.citepa.org/donnees-air-climat/)
+6. **Cour des comptes** : La filière EPR : Flamanville, surcoût 19,1 Md€, retard 13 ans : [ccomptes.fr/filiere-epr](https://www.ccomptes.fr/fr/documents/52261)
+7. **EDF** : Programmation pluriannuelle 2023 : 6 EPR à 51,4 Md€, réévalués à 67 Md€ en 2025 : [edf.fr/grand-plan-nucleaire](https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/grand-plan-nucleaire-6-nouveaux-epr)
+8. **ADEME** : Impact CO2 transport : émissions fabrication VE 6-8 tCO2, usage 25-45 gCO2/km : [impactco2.fr/outils/transport/voitureelectrique](https://impactco2.fr/outils/transport/voitureelectrique)
+9. **Ministère de la Transition Énergétique** : PPE (Programmation Pluriannuelle de l'Énergie) : [ecologie.gouv.fr/programmation-pluriannuelle-energie](https://www.ecologie.gouv.fr/programmation-pluriannuelle-energie-ppe)
+10. **INSEE** : Fiscalité carbone : D1 0,6 % revenu vs D10 0,1 % : [insee.fr/fr/statistiques/8887123](https://www.insee.fr/fr/statistiques/8887123)
+11. **Médiateur national de l'énergie** : Baromètre 2024 : 30 % des ménages ont eu froid : [energie-mediateur.fr/barometre-2024](https://www.energie-mediateur.fr/wp-content/uploads/2024/10/synthese-barometre-energie-info-2024.pdf)
+12. **ONPE** : Tableau de bord 2025 : 12 millions de personnes en précarité énergétique : [librairie.ademe.fr/batiment/8769-onpe-tableau-de-bord-de-la-precarite-energetique-2025](https://librairie.ademe.fr/batiment/8769-onpe-tableau-de-bord-de-la-precarite-energetique-novembre-2025.html)
+13. **Le Monde** : ZFE : Conseil constitutionnel annule la suppression des ZFE, mai 2026 : [lemonde.fr/zfe-conseil-constitutionnel](https://www.lemonde.fr/planete/article/2026/05/21/zfe-le-conseil-constitutionnel-annule-la-suppression-des-zones-a-faibles-emissions_6691910_3244.html)
+14. **Santé Publique France** : Pollution de l'air : 40 000 décès/an : [santepubliquefrance.fr/pollution-atmospherique](https://www.santepubliquefrance.fr/determinants-de-sante/pollution-et-sante/air)
+15. **Légifrance** : Dossier législatif 2025-2026 : loi de simplification, amendement ZFE : [legifrance.gouv.fr/dossier-legislatif/ZFE-simplification-2026](https://www.legifrance.gouv.fr/dossier-legislatif/ZFE-simplification-2026)

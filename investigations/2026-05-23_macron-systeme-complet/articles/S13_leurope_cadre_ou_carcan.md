@@ -1,4 +1,4 @@
-# 🇪🇺 L'Europe — cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€ — la souveraineté sous tutelle
+# 🇪🇺 L'Europe : cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€ : la souveraineté sous tutelle
 
 *🇪🇺 La France paie 10 Md€ par an pour rester dans l'Union européenne. Elle encaisse 40 Md€ de prêts et subventions du plan NextGenerationEU. Elle subit 12 contentieux simultanés ouverts par la Commission, une procédure de déficit excessif qui lui impose une trajectoire budgétaire écrite à Bruxelles, et des accords commerciaux (CETA, Mercosur) qu'elle rejette mais qu'elle doit appliquer. Cadre ou carcan ? Les deux.*
 
@@ -52,7 +52,7 @@ Au-delà des contentieux, c'est la masse réglementaire européenne qui contrain
 
 Le paradoxe est total : la France, qui a contribué à écrire les règles européennes, se retrouve piégée par leur accumulation. Chaque directive était négociée, chaque règlement voté. Mais l'accumulation produit un effet systémique que personne n'a choisi : **un carcan réglementaire qui verrouille une part croissante de la souveraineté nationale.**
 
-> **Ce carcan n'est pas un accident de construction : il est le produit d'une capture régulatoire. L'ONG Thorn (cofondée par Ashton Kutcher) a dépensé 600 000 € par an en lobbying pour imposer Chat Control — le scanner automatique des messages privés — et vend simultanément Safer, le logiciel de détection qui deviendrait obligatoire si Chat Control passait, selon une enquête de Netzpolitik.org et AlgorithmWatch (2024). La capture régulatoire est un marché : Oak Foundation a financé les ONG pro-surveillance pour plus de 24 millions de dollars, et les plateformes risquent jusqu'à 6 % de leur chiffre d'affaires mondial en cas de non-conformité (Digital Services Act, règlement UE 2022/2065).**
+> **Ce carcan n'est pas un accident de construction : il est le produit d'une capture régulatoire. L'ONG Thorn (cofondée par Ashton Kutcher) a dépensé 600 000 € par an en lobbying pour imposer Chat Control : le scanner automatique des messages privés : et vend simultanément Safer, le logiciel de détection qui deviendrait obligatoire si Chat Control passait, selon une enquête de Netzpolitik.org et AlgorithmWatch (2024). La capture régulatoire est un marché : Oak Foundation a financé les ONG pro-surveillance pour plus de 24 millions de dollars, et les plateformes risquent jusqu'à 6 % de leur chiffre d'affaires mondial en cas de non-conformité (Digital Services Act, règlement UE 2022/2065).**
 
 <!-- ENRICHIE: leurope-construit-elle-un-credit -->
 <!-- THEME: verrouillage-systemique -->
@@ -76,7 +76,7 @@ L'accord avec le Mercosur (UE-Amérique du Sud) a été finalisé en janvier 202
 
 > **Le 6 novembre 2024, Emmanuel Macron déclarait depuis Belém : « Je suis plutôt positif sur le Mercosur. » Le 8 janvier 2026, après deux mois de mobilisation agricole, l'Élysée annonçait un vote contre. Entre-temps, le Coreper avait déjà verrouillé la majorité qualifiée ; l'Italie avait changé son vote à la dernière minute ; et l'accord passait sans la France.**
 >
-> **Le vote NON n'était pas un levier de souveraineté mais une valve de décompression politique — un simulacre qui permettait à Macron de parler aux agriculteurs sans jamais menacer l'accord.**
+> **Le vote NON n'était pas un levier de souveraineté mais une valve de décompression politique : un simulacre qui permettait à Macron de parler aux agriculteurs sans jamais menacer l'accord.**
 
 <!-- ENRICHIE: ue-mercosur-le-mensonge-sanitaire -->
 <!-- THEME: predation-invisible -->
@@ -124,48 +124,48 @@ Ce n'est pas un procès contre l'Europe. L'Union européenne a apporté des bén
 
 **La France n'est pas victime de l'Europe. Elle est victime d'avoir construit une Europe qui ne lui ressemble plus.** Les règles qu'elle a contribué à écrire se retournent contre elle parce que ses propres élites, affaiblies par 30 ans d'extraction et de capture, n'ont plus la capacité de les renégocier ou de les infléchir. La question n'est plus de savoir si la France doit rester dans l'UE. Elle y restera. La question est de savoir si elle peut retrouver une marge de manœuvre à l'intérieur du cadre européen, ce qui suppose une renégociation des règles qu'elle a contribué à écrire, et des élites capables de la mener.
 
-## §6 — Ce que ce chapitre ne dit pas
+## §6 : Ce que ce chapitre ne dit pas
 
-Cette analyse de l'Europe comme carcan ne rend pas pleinement justice aux bénéfices structurels que l'UE apporte à ses membres. Le marché unique, qui permet à la France d'exporter 200 Md€ de biens et services vers ses partenaires européens chaque année, selon Eurostat, est une prospérité mutualisée dont aucun État membre ne peut se passer sans coût colossal. Le programme Erasmus a formé plus de 5 millions de jeunes Européens à la mobilité, dont 600 000 Français. Les régulations européennes — RGPD sur les données, DMA sur les marchés numériques, CSRD sur le reporting extra-financier — sont devenues des standards mondiaux que la France seule n'aurait pas imposés. La politique de cohésion a transféré 40 Md€ aux régions françaises les moins favorisées depuis 2014. Le chapitre n'envisage pas non plus l'hypothèse d'une renégociation du cadre européen plutôt que d'un rejet : l'Europe n'est pas un bloc monolithique, elle se réforme (adoption du plan de relève NextGenEU en 2020, réforme du Pacte Stabilité en 2024), et la France pourrait peser davantage si elle retrouvait sa crédibilité budgétaire et diplomatique.
+Cette analyse de l'Europe comme carcan ne rend pas pleinement justice aux bénéfices structurels que l'UE apporte à ses membres. Le marché unique, qui permet à la France d'exporter 200 Md€ de biens et services vers ses partenaires européens chaque année, selon Eurostat, est une prospérité mutualisée dont aucun État membre ne peut se passer sans coût colossal. Le programme Erasmus a formé plus de 5 millions de jeunes Européens à la mobilité, dont 600 000 Français. Les régulations européennes : RGPD sur les données, DMA sur les marchés numériques, CSRD sur le reporting extra-financier : sont devenues des standards mondiaux que la France seule n'aurait pas imposés. La politique de cohésion a transféré 40 Md€ aux régions françaises les moins favorisées depuis 2014. Le chapitre n'envisage pas non plus l'hypothèse d'une renégociation du cadre européen plutôt que d'un rejet : l'Europe n'est pas un bloc monolithique, elle se réforme (adoption du plan de relève NextGenEU en 2020, réforme du Pacte Stabilité en 2024), et la France pourrait peser davantage si elle retrouvait sa crédibilité budgétaire et diplomatique.
 
-➡️ **À lire ensuite :** Comment cette perte de souveraineté se matérialise sur le terrain stratégique — **S14 — La Défense en berne**
+➡️ **À lire ensuite :** Comment cette perte de souveraineté se matérialise sur le terrain stratégique : **S14 : La Défense en berne**
 
 ---
 
-*📖 **Article suivant :** ⚔️ La Défense en berne — 56 Md€ de contrats perdus (AUKUS), 11e rang mondial, 3 000 hommes en Afrique [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🌾 L'Agriculture qui meurt — 100 000 fermes disparues, 9 Md€ de PAC, un modèle qui tue les paysans [LIEN_A_INSERER]*
+*📖 **Article suivant :** ⚔️ La Défense en berne : 56 Md€ de contrats perdus (AUKUS), 11e rang mondial, 3 000 hommes en Afrique [LIEN_A_INSERER]*
+*📖 **Article précédent :** 🌾 L'Agriculture qui meurt : 100 000 fermes disparues, 9 Md€ de PAC, un modèle qui tue les paysans [LIEN_A_INSERER]*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
 
 ---
 
 ### À voir aussi
 
-— [« L'Europe construit-elle un crédit social doux ? »](https://giak.substack.com/p/leurope-construit-elle-un-credit) — 🔗 Le plus connexe : explore le volet réglementaire et contrôle européen
-— [« L'Architecture de la censure européenne »](https://giak.substack.com/p/larchitecture-de-la-censure-europeenne) — 🔗 Lien indirect : complète l'analyse de l'influence perdue
-— [« UE-Mercosur : le mensonge sanitaire »](https://giak.substack.com/p/ue-mercosur-le-mensonge-sanitaire) — 🔗 Lien indirect : illustre la souveraineté commerciale déléguée
-— [« 💻 Le Numérique colonisé »](https://giak.substack.com/p/S16-le-numerique-colonise) — 🔗 Le plus connexe : complète l'analyse de la souveraineté numérique
+- [« L'Europe construit-elle un crédit social doux ? »](https://giak.substack.com/p/leurope-construit-elle-un-credit) : 🔗 Le plus connexe : explore le volet réglementaire et contrôle européen
+- [« L'Architecture de la censure européenne »](https://giak.substack.com/p/larchitecture-de-la-censure-europeenne) : 🔗 Lien indirect : complète l'analyse de l'influence perdue
+- [« UE-Mercosur : le mensonge sanitaire »](https://giak.substack.com/p/ue-mercosur-le-mensonge-sanitaire) : 🔗 Lien indirect : illustre la souveraineté commerciale déléguée
+- [« 💻 Le Numérique colonisé »](https://giak.substack.com/p/S16-le-numerique-colonise) : 🔗 Le plus connexe : complète l'analyse de la souveraineté numérique
 
 ---
 
 ## Sources
 
-1. **Commission européenne** — Excessive Deficit Procedure, France, ouverture juin 2024 — [economy-finance.ec.europa.eu](https://economy-finance.ec.europa.eu/economic-governance-framework/stability-and-growth-pact/corrective-arm-excessive-deficit-procedure/excessive-deficit-procedures-overview/france_en)
-2. **EUR-Lex** — Règlement (UE) 2024/1263, Pacte Stabilité réformé, 30 avril 2024 — [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=OJ:L_202401263)
-3. **Eurostat** — Dette publique France 115,6 % du PIB, dette médiane zone euro 88 % (données 2024) — [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table?lang=en)
-4. **Eurostat** — Déficit public France 5,5 % du PIB (données 2024) — [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table?lang=en)
-5. **Commission européenne** — NextGenerationEU, plan 750 Md€, part France ~40 Md€ — [next-generation-eu.europa.eu](https://next-generation-eu.europa.eu/index_en)
-6. **Commission européenne** — Budget annuel UE 2024, 186,6 Md€ — [commission.europa.eu](https://commission.europa.eu/strategy-and-policy/eu-budget/annual-eu-budget_fr)
-7. **Commission européenne** — Contribution nette France au budget UE, rapports financiers annuels — [commission.europa.eu](https://commission.europa.eu/strategy-and-policy/eu-budget/revenue/own-resources_en)
-8. **Commission européenne** — Contrôle de l'application du droit de l'UE, rapport annuel 2025 (infractions France) — [commission.europa.eu](https://commission.europa.eu/law/application-eu-law/implementing-eu-law/infringement-procedure_fr)
-9. **Sénat** — Rapport sur la dérive normative, rapport n° 177 (2024-2025) : part du droit français d'origine européenne ~20 % — [senat.fr](https://www.senat.fr/rapport/r24-177/r24-177.html)
-10. **Commission européenne** — CETA, accord UE-Canada, application provisoire depuis 2017 — [commission.europa.eu](https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/canada/eu-canada-agreement_en)
-11. **Conseil européen** — Accord UE-Mercosur, finalisation janvier 2026 — [consilium.europa.eu](https://www.consilium.europa.eu/fr/policies/eu-mercosur-agreements-explained/)
-12. **Eurostat** — Allemagne, dette publique 64 % du PIB (2024) — [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table?lang=en)
-13. **Eurostat** — Allemagne, taux de chômage 3,4 %, France 7,4 % (2024) — [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table?lang=en)
-14. **Eurostat** — Allemagne, part de l'industrie dans le PIB 20 %, France 9,7 % — [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/statistics-explained/index.php/National_accounts_%E2%80%93_GDP_and_main_components)
-15. **Office européen des brevets** — Patent Index 2024 : France 10 500 brevets, Allemagne 24 000 — [epo.org](https://www.epo.org/fr/news-events/press-centre/press-release/2025/1352247)
-16. **Ministère de l'Agriculture** — Politique Agricole Commune (PAC), budget France ~9 Md€/an — [agriculture.gouv.fr](https://agriculture.gouv.fr/politique-agricole-commune-pac)
-17. **FMI** — Données économiques France et zone euro 2024 — [imf.org](https://www.imf.org/en/Publications/CR/2024/France-2024-Article-IV-Consultation)
-18. **Assemblée nationale** — Rapport d'information sur les relations financières France-UE, contribution nette — [assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/17/rapports/cion_fin/l17b3543_rapport-information#)
-19. **Conseil européen** — Nouvelles règles budgétaires UE, plans PSMT 2024 — [consilium.europa.eu](https://www.consilium.europa.eu/fr/policies/economic-governance-framework/)
-20. **Commission européenne** — Marchés publics UE, directives 2014 — [commission.europa.eu](https://ec.europa.eu/growth/single-market/public-procurement_en)
+1. **Commission européenne** : Excessive Deficit Procedure, France, ouverture juin 2024 : [economy-finance.ec.europa.eu](https://economy-finance.ec.europa.eu/economic-governance-framework/stability-and-growth-pact/corrective-arm-excessive-deficit-procedure/excessive-deficit-procedures-overview/france_en)
+2. **EUR-Lex** : Règlement (UE) 2024/1263, Pacte Stabilité réformé, 30 avril 2024 : [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=OJ:L_202401263)
+3. **Eurostat** : Dette publique France 115,6 % du PIB, dette médiane zone euro 88 % (données 2024) : [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table?lang=en)
+4. **Eurostat** : Déficit public France 5,5 % du PIB (données 2024) : [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table?lang=en)
+5. **Commission européenne** : NextGenerationEU, plan 750 Md€, part France ~40 Md€ : [next-generation-eu.europa.eu](https://next-generation-eu.europa.eu/index_en)
+6. **Commission européenne** : Budget annuel UE 2024, 186,6 Md€ : [commission.europa.eu](https://commission.europa.eu/strategy-and-policy/eu-budget/annual-eu-budget_fr)
+7. **Commission européenne** : Contribution nette France au budget UE, rapports financiers annuels : [commission.europa.eu](https://commission.europa.eu/strategy-and-policy/eu-budget/revenue/own-resources_en)
+8. **Commission européenne** : Contrôle de l'application du droit de l'UE, rapport annuel 2025 (infractions France) : [commission.europa.eu](https://commission.europa.eu/law/application-eu-law/implementing-eu-law/infringement-procedure_fr)
+9. **Sénat** : Rapport sur la dérive normative, rapport n° 177 (2024-2025) : part du droit français d'origine européenne ~20 % : [senat.fr](https://www.senat.fr/rapport/r24-177/r24-177.html)
+10. **Commission européenne** : CETA, accord UE-Canada, application provisoire depuis 2017 : [commission.europa.eu](https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/canada/eu-canada-agreement_en)
+11. **Conseil européen** : Accord UE-Mercosur, finalisation janvier 2026 : [consilium.europa.eu](https://www.consilium.europa.eu/fr/policies/eu-mercosur-agreements-explained/)
+12. **Eurostat** : Allemagne, dette publique 64 % du PIB (2024) : [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table?lang=en)
+13. **Eurostat** : Allemagne, taux de chômage 3,4 %, France 7,4 % (2024) : [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table?lang=en)
+14. **Eurostat** : Allemagne, part de l'industrie dans le PIB 20 %, France 9,7 % : [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/statistics-explained/index.php/National_accounts_%E2%80%93_GDP_and_main_components)
+15. **Office européen des brevets** : Patent Index 2024 : France 10 500 brevets, Allemagne 24 000 : [epo.org](https://www.epo.org/fr/news-events/press-centre/press-release/2025/1352247)
+16. **Ministère de l'Agriculture** : Politique Agricole Commune (PAC), budget France ~9 Md€/an : [agriculture.gouv.fr](https://agriculture.gouv.fr/politique-agricole-commune-pac)
+17. **FMI** : Données économiques France et zone euro 2024 : [imf.org](https://www.imf.org/en/Publications/CR/2024/France-2024-Article-IV-Consultation)
+18. **Assemblée nationale** : Rapport d'information sur les relations financières France-UE, contribution nette : [assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/17/rapports/cion_fin/l17b3543_rapport-information#)
+19. **Conseil européen** : Nouvelles règles budgétaires UE, plans PSMT 2024 : [consilium.europa.eu](https://www.consilium.europa.eu/fr/policies/economic-governance-framework/)
+20. **Commission européenne** : Marchés publics UE, directives 2014 : [commission.europa.eu](https://ec.europa.eu/growth/single-market/public-procurement_en)

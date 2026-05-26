@@ -5,12 +5,12 @@ article: "S15"
 date: 2026-05-23
 author: "Giak"
 status: "publié"
-audit: "8.7/10 — RÉVISION MINEURE (M059)"
+audit: "8.7/10 : RÉVISION MINEURE (M059)"
 ---
 
-# 🔒 Le Verrou : 23 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias — la démocratie neutralisée
+# 🔒 Le Verrou : 23 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias : la démocratie neutralisée
 
-*🔒 Trois verrous — institutionnel (49.3, ordonnances), médiatique (9 propriétaires, 90 % d'audience), citoyen (57 % d'abstention, 22 % de confiance) — s'emboîtent pour neutraliser toute contestation. Le Parlement est contourné, l'information est verrouillée, le vote est vidé de son sens. Enquête sur un système qui a rendu toute alternance impossible.*
+*🔒 Trois verrous : institutionnel (49.3, ordonnances), médiatique (9 propriétaires, 90 % d'audience), citoyen (57 % d'abstention, 22 % de confiance) : s'emboîtent pour neutraliser toute contestation. Le Parlement est contourné, l'information est verrouillée, le vote est vidé de son sens. Enquête sur un système qui a rendu toute alternance impossible.*
 
 *📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
 
@@ -70,7 +70,7 @@ Côté audiovisuel public, la mise au pas est plus discrète mais tout aussi sys
 
 ### Une confiance effondrée
 
-La confiance dans les médias est tombée à 29 % en France, selon le Reuters Institute (Digital News Report 2025). La France est classée 41e rang mondial sur la confiance dans les médias. **Soixante-deux pour cent des 18-24 ans s'informent principalement par les réseaux sociaux**, où l'information n'est ni vérifiée ni hiérarchisée, selon le baromètre Kantar (2024) — contre 44 % selon Reuters Institute (2025), différence s'expliquant par les méthodologies distinctes des deux baromètres.
+La confiance dans les médias est tombée à 29 % en France, selon le Reuters Institute (Digital News Report 2025). La France est classée 41e rang mondial sur la confiance dans les médias. **Soixante-deux pour cent des 18-24 ans s'informent principalement par les réseaux sociaux**, où l'information n'est ni vérifiée ni hiérarchisée, selon le baromètre Kantar (2024) : contre 44 % selon Reuters Institute (2025), différence s'expliquant par les méthodologies distinctes des deux baromètres.
 
 **Soixante pour cent des Français adhèrent à au moins une théorie complotiste**, selon l'Arcom (2024). Ce chiffre, l'un des plus élevés d'Europe, mesure directement la défiance : quand on ne fait plus confiance aux médias officiels, on se tourne vers n'importe quelle source alternative. **L'effondrement de la confiance dans les médias n'est pas un problème de désinformation : c'est un problème de vérité.** On ne peut pas démanteler un système d'information en le remplaçant par des réseaux sociaux non régulés.
 
@@ -98,7 +98,7 @@ Seuls 22 % des Français ont confiance dans la politique, selon le CEVIPOF (Baro
 <!-- THEME: impotence-apprise -->
 <!-- CROSS-REF: S5, S7 -->
 
-Le paradoxe est que cette colère est mesurée, confirmée, amplifiée par les enquêtes d'opinion — mais qu'elle n'a aucune traduction politique. Les sondages enregistrent la défiance, les médias la commentent, les politiques la déplorent, et rien ne change. La colère devient un spectacle auto-alimenté : plus on la mesure, plus elle croît ; plus elle croît, plus on la mesure ; mais le circuit décisionnel reste imperméable. C'est le mécanisme de l'impuissance apprise — la certitude, vérifiée par l'expérience répétée, que toute expression de rejet sera absorbée par le système sans le modifier.
+Le paradoxe est que cette colère est mesurée, confirmée, amplifiée par les enquêtes d'opinion : mais qu'elle n'a aucune traduction politique. Les sondages enregistrent la défiance, les médias la commentent, les politiques la déplorent, et rien ne change. La colère devient un spectacle auto-alimenté : plus on la mesure, plus elle croît ; plus elle croît, plus on la mesure ; mais le circuit décisionnel reste imperméable. C'est le mécanisme de l'impuissance apprise : la certitude, vérifiée par l'expérience répétée, que toute expression de rejet sera absorbée par le système sans le modifier.
 
 ### La tentation autoritaire
 
@@ -124,7 +124,7 @@ La répression ne s'est pas arrêtée aux Gilets jaunes. Entre 2017 et 2024, plu
 
 <!-- ENRICHIE: opposition-controlee-anatomie-dun --> <!-- THEME: double-peine --> <!-- CROSS-REF: S8, S10 -->
 
-La répression n'est pas le seul outil. Le contrôle de l'opposition passe aussi par le robinet des subventions. Les associations et syndicats qui contestent le cadre — appels à la grève générale, actions de désobéissance civile, plaintes contre l'État — voient leurs financements publics réduits ou conditionnés à une « modération » de leur discours. À l'inverse, les structures qui acceptent le jeu institutionnel — syndicats réformistes, associations agréées, ONG partenaires — sont confortablement dotées. La contestation n'est pas seulement réprimée dans la rue : elle est asphyxiée financièrement quand elle dépasse les limites autorisées.
+La répression n'est pas le seul outil. Le contrôle de l'opposition passe aussi par le robinet des subventions. Les associations et syndicats qui contestent le cadre : appels à la grève générale, actions de désobéissance civile, plaintes contre l'État : voient leurs financements publics réduits ou conditionnés à une « modération » de leur discours. À l'inverse, les structures qui acceptent le jeu institutionnel : syndicats réformistes, associations agréées, ONG partenaires : sont confortablement dotées. La contestation n'est pas seulement réprimée dans la rue : elle est asphyxiée financièrement quand elle dépasse les limites autorisées.
 
 ### La Convention citoyenne trahie
 
@@ -147,7 +147,7 @@ Le génie du système est son invisibilité. Aucun coup d'État, aucune suspensi
 <!-- THEME: impotence-apprise -->
 <!-- CROSS-REF: S1 -->
 
-L'éthologue Konrad Lorenz a montré que l'empreinte — ce mécanisme d'attachement irréversible chez les oisons — peut être fixée sur n'importe quel objet, pourvu qu'il soit présenté dans la fenêtre critique du développement. Il en va de même pour le verrouillage démocratique : le discours répété de l'impuissance (« il n'y a pas d'alternative », « les marges sont nulles », « c'est l'Europe qui décide ») crée une empreinte cognitive qui enferme la pensée dans l'acceptation du cadre. C'est ce que Pierre Bourdieu appelait la violence symbolique — la capacité d'un système à faire paraître naturel ce qui est construit, à disqualifier comme « irréaliste » ce qui le conteste.
+L'éthologue Konrad Lorenz a montré que l'empreinte : ce mécanisme d'attachement irréversible chez les oisons : peut être fixée sur n'importe quel objet, pourvu qu'il soit présenté dans la fenêtre critique du développement. Il en va de même pour le verrouillage démocratique : le discours répété de l'impuissance (« il n'y a pas d'alternative », « les marges sont nulles », « c'est l'Europe qui décide ») crée une empreinte cognitive qui enferme la pensée dans l'acceptation du cadre. C'est ce que Pierre Bourdieu appelait la violence symbolique : la capacité d'un système à faire paraître naturel ce qui est construit, à disqualifier comme « irréaliste » ce qui le conteste.
 
 **La conséquence est vertigineuse.** Le système a rendu toute alternance impossible par les urnes. Non parce que les élections sont truquées, mais parce que les trois canaux par lesquels les citoyens pourraient peser sur les décisions sont neutralisés. Le vote ne change rien parce que le Parlement ne décide rien. Le débat ne mène à rien parce que les médias ne le reflètent pas. La protestation ne sert à rien parce qu'elle est réprimée sans être entendue.
 
@@ -157,7 +157,7 @@ Le verrou tient. L'abstention ne le fera pas sauter : elle le renforce en légit
 
 Ce n'est pas une crise de la démocratie : c'est le **fonctionnement normal** d'un système qui a verrouillé les trois canaux de la contestation. Le changement de régime n'est pas seulement fiscal et social. Il est d'abord démocratique. **La démocratie française n'est pas malade. Elle est neutralisée, proprement, légalement, efficacement.**
 
-## §6 — Ce que ce chapitre ne dit pas
+## §6 : Ce que ce chapitre ne dit pas
 
 Cette analyse des trois verrous démocratiques ne mentionne pas les innovations démocratiques qui émergent en dehors des canaux verrouillés. Les budgets participatifs, expérimentés dans des centaines de communes (Paris, Grenoble, Rennes), ont impliqué des centaines de milliers de citoyens dans la décision publique locale, avec des taux de participation bien supérieurs à ceux des élections municipales.
 
@@ -165,13 +165,13 @@ Cette analyse des trois verrous démocratiques ne mentionne pas les innovations 
 <!-- THEME: resilience-locale -->
 <!-- CROSS-REF: S6, S10, S11 -->
 
-Les monnaies locales complémentaires — l'Eusko au Pays basque (plus de 4 000 usagers, 1 000 entreprises adhérentes), la Gonette à Lyon, le Sol-Violette à Toulouse, la Doume en Auvergne — créent des circuits économiques qui échappent à la logique du verrou financier. Les épiceries coopératives et les AMAP tissent des réseaux de résilience alimentaire que ni le marché ni l'État ne contrôlent. Les coopératives énergétiques (Enercoop, les centrales villageoises) produisent une électricité qui n'appartient pas aux oligopoles. Autant de réponses concrètes, fragmentaires, locales — autant de preuves que le verrou n'est pas absolu. Les conventions citoyennes, malgré la trahison de la première expérience nationale, inspirent des déclinaisons locales et européennes qui contournent le verrou institutionnel par le bas. La plateforme « Vraiment Démocratie » et d'autres initiatives numériques testent des mécanismes de démocratie continue (tirage au sort, vote sur enjeux) qui ne passent ni par le Parlement ni par les médias traditionnels. Le chapitre n'évoque pas non plus les contre-pouvoirs journalistiques qui résistent — le collectif Forbidden Stories, les enquêtes de Mediapart, le travail de vérification des Décodeurs du Monde — ni le rôle des syndicats et des associations dans la recomposition d'un espace citoyen. Le verrou est réel, mais il n'est pas absolu : la démocratie française n'est pas morte, elle est neutralisée, et les graines de sa renaissance existent, même si elles sont dispersées et fragiles.
+Les monnaies locales complémentaires : l'Eusko au Pays basque (plus de 4 000 usagers, 1 000 entreprises adhérentes), la Gonette à Lyon, le Sol-Violette à Toulouse, la Doume en Auvergne : créent des circuits économiques qui échappent à la logique du verrou financier. Les épiceries coopératives et les AMAP tissent des réseaux de résilience alimentaire que ni le marché ni l'État ne contrôlent. Les coopératives énergétiques (Enercoop, les centrales villageoises) produisent une électricité qui n'appartient pas aux oligopoles. Autant de réponses concrètes, fragmentaires, locales : autant de preuves que le verrou n'est pas absolu. Les conventions citoyennes, malgré la trahison de la première expérience nationale, inspirent des déclinaisons locales et européennes qui contournent le verrou institutionnel par le bas. La plateforme « Vraiment Démocratie » et d'autres initiatives numériques testent des mécanismes de démocratie continue (tirage au sort, vote sur enjeux) qui ne passent ni par le Parlement ni par les médias traditionnels. Le chapitre n'évoque pas non plus les contre-pouvoirs journalistiques qui résistent : le collectif Forbidden Stories, les enquêtes de Mediapart, le décryptage d'Arrêt sur images : ni le rôle des syndicats et des associations dans la recomposition d'un espace citoyen. Le verrou est réel, mais il n'est pas absolu : la démocratie française n'est pas morte, elle est neutralisée, et les graines de sa renaissance existent, même si elles sont dispersées et fragiles.
 
-➡️ **À lire ensuite :** Comment la souveraineté numérique a été abandonnée — **S16 — Le Numérique colonisé**
+➡️ **À lire ensuite :** Comment la souveraineté numérique a été abandonnée : **S16 : Le Numérique colonisé**
 
 ---
 
-*📖 **Article suivant :** 💻 Le Numérique colonisé — 70 % des données sur serveurs américains, zéro souveraineté [LIEN_A_INSERER]*
+*📖 **Article suivant :** 💻 Le Numérique colonisé : 70 % des données sur serveurs américains, zéro souveraineté [LIEN_A_INSERER]*
 *📖 **Article précédent :** ⚔️ La Défense en berne [LIEN_A_INSERER]*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
 
@@ -179,34 +179,34 @@ Les monnaies locales complémentaires — l'Eusko au Pays basque (plus de 4 000 
 
 ### À voir aussi
 
-— [« La démocratie en cage »](https://giak.substack.com/p/la-democratie-en-cage) — 🔗 Le plus connexe : prolonge l'analyse du verrouillage institutionnel
-— [« Le paradoxe français : 66 % de colère, 0 issue »](https://giak.substack.com/p/le-paradoxe-francais-66-de-colere) — 🔗 Lien direct : complète le volet défiance citoyenne
-— [« Opposition contrôlée : anatomie d'un simulacre démocratique »](https://giak.substack.com/p/opposition-controlee-anatomie-dun) — 🔗 Lien direct : approfondit le verrou médiatique
-— [« Audiovisuel public : anatomie d'une asphyxie »](https://giak.substack.com/p/audiovisuel-public-anatomie-dune) — 🔗 Lien direct : documente la concentration médiatique
-— [« L'ingénierie de l'enclos »](https://giak.substack.com/p/lingenierie-de-lenclos) — 🔗 Lien direct : complète l'analyse des trois verrous
-— [« Les télégraphistes de la terreur »](https://giak.substack.com/p/les-telegraphistes-de-la-terreur) — 🔗 Lien indirect : explore un angle adjacent sur le contrôle de l'information
+- [« La démocratie en cage »](https://giak.substack.com/p/la-democratie-en-cage) : 🔗 Le plus connexe : prolonge l'analyse du verrouillage institutionnel
+- [« Le paradoxe français : 66 % de colère, 0 issue »](https://giak.substack.com/p/le-paradoxe-francais-66-de-colere) : 🔗 Lien direct : complète le volet défiance citoyenne
+- [« Opposition contrôlée : anatomie d'un simulacre démocratique »](https://giak.substack.com/p/opposition-controlee-anatomie-dun) : 🔗 Lien direct : approfondit le verrou médiatique
+- [« Audiovisuel public : anatomie d'une asphyxie »](https://giak.substack.com/p/audiovisuel-public-anatomie-dune) : 🔗 Lien direct : documente la concentration médiatique
+- [« L'ingénierie de l'enclos »](https://giak.substack.com/p/lingenierie-de-lenclos) : 🔗 Lien direct : complète l'analyse des trois verrous
+- [« Les télégraphistes de la terreur »](https://giak.substack.com/p/les-telegraphistes-de-la-terreur) : 🔗 Lien indirect : explore un angle adjacent sur le contrôle de l'information
 
 ---
 
 ## Sources
 
-1. **Assemblée nationale** — Engagements de responsabilité et motions de censure depuis 1958 : 23 recours au 49.3 (2017-2024) — [assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/engagements_responsabilite-motions_censures/engagements-de-responsabilite-du-gouvernement-et-motions-de-censure-depuis-1958)
-2. **Légifrance** — Loi n° 2021-646 du 25 mai 2021 pour la sécurité globale — [legifrance.gouv.fr](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043530276)
-3. **Conseil constitutionnel** — Décision n° 2023-863 DC du 25 janvier 2024 (loi immigration), censure 27 articles — [conseil-constitutionnel.fr](https://www.conseil-constitutionnel.fr/decision/2024/2023863DC.htm)
-4. **CEVIPOF** — Baromètre de la confiance politique 2025, vague 16 : 22 % de confiance dans la politique, 90 % des lois adoptées sans vote — [sciencespo.fr](https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-du-cevipof-2025-le-grand-desarroi-democratique/)
-5. **Arcom** — Baromètre du pluralisme médiatique 2024 : 9 propriétaires contrôlent 90 % de l'audience — [arcom.fr](https://www.arcom.fr/se-documenter/etudes-et-donnees/etudes-bilans-et-rapports-de-larcom) *(Document : Baromètre du pluralisme des médias 2024, à télécharger sur la page études Arcom)*
-6. **Arcom** — Enquête adhésion aux théories complotistes (2024) : 60 % des Français — [lexpress.fr](https://www.lexpress.fr/economie/medias/complotisme-ces-six-theories-de-plus-en-plus-populaires-chez-les-francais-OC2IFLZDYVHI5PUQN77DCIQHB4/)
-7. **Reuters Institute** — Digital News Report 2025 : confiance médias 29 %, France 41e rang mondial — [reutersinstitute.politics.ox.ac.uk](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/france)
-8. **Ministère de l'Intérieur** — Abstention législatives 2024 : 57,3 % — [interieur.gouv.fr](https://www.interieur.gouv.fr/Elections/Les-resultats/Legislatives)
-9. **IPSOS** — Enquête sortie des urnes législatives 2024 : 70 % des 18-24 ans abstention — [ipsos.com](https://www.ipsos.com/fr-fr/elections-legislatives-2024-sociologie-de-lelectorat)
-10. **IPSOS / Sopra Steria** — Fractures françaises 2025 : 90 % des Français pensent pays en déclin, 43 % se disent en colère — [ipsos.com](https://www.ipsos.com/sites/default/files/ct/news/documents/2025-10/ipsos-bva-fractures-francaises-2025-rapport-complet.pdf)
-11. **IPSOS** — Enquête sur la tentation autoritaire 2024 : 35 % aspirent à un homme fort — [ipsos.com](https://www.ipsos.com/fr-fr/tentation-autoritaire-enquete-ipsos-2024)
-12. **Défenseur des droits** — Décision 2020-131 sur l'usage du LBD pendant les Gilets jaunes : 23 éborgnés — [defenseurdesdroits.fr](https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=19915)
-13. **Légifrance** — Loi n° 2023-703 du 1er août 2023 (LOPMI) : budget police plus 15 Md€ — [legifrance.gouv.fr](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047914986)
-14. **CEPEJ** — Tableau de bord justice 2022 : budget justice France 0,34 % PIB vs UE 0,67 %, 11,2 magistrats/100k vs UE 21 — [rm.coe.int](https://rm.coe.int/cepej-study-on-judicial-systems-europe-2022/1680a9b3e7)
-15. **Fondation pour l'innovation politique** — Temps de débat parlementaire (2024) : baisse de 40 % depuis 2017 — [fondapol.org](https://www.fondapol.org/etude/le-parlement-contourne-analyse-du-temps-debat-depuis-2017/)
-16. **Ministère de l'Intérieur** — Dissolutions d'associations (2017-2024) : plus de 60 — [interieur.gouv.fr](https://www.interieur.gouv.fr/Le-ministere/Dissolutions)
-17. **Légifrance** — Ordonnances (2017-2024) : comptabilisation 120 ordonnances — [legifrance.gouv.fr](https://www.legifrance.gouv.fr/recherche?text=ordonnance&datePublication=2017-01-01+2024-12-31&nature=ordonnance)
-18. **Le Monde / Libération** — Enquêtes départs médias Bolloré (2022-2024) : plus de 200 journalistes — [lemonde.fr](https://www.lemonde.fr/actualite-medias/article/2024/09/12/chez-bollore-le-depart-massif-de-journalistes_6311254_3236.html)
-19. **Convention citoyenne pour le climat** — 149 propositions, suivi législatif (2020-2023) — [conventioncitoyennepourleclimat.fr](https://www.conventioncitoyennepourleclimat.fr/)
-20. **Kantar / Arcom** — Baromètre info jeunes 2024 : 62 % des 18-24 ans s'informent sur réseaux sociaux — [arcom.fr](https://www.arcom.fr/se-documenter/etudes-et-donnees/etudes-bilans-et-rapports-de-larcom) *(Document : Baromètre info jeunes Kantar 2024, à télécharger sur la page études Arcom)*
+1. **Assemblée nationale** : Engagements de responsabilité et motions de censure depuis 1958 : 23 recours au 49.3 (2017-2024) : [assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/engagements_responsabilite-motions_censures/engagements-de-responsabilite-du-gouvernement-et-motions-de-censure-depuis-1958)
+2. **Légifrance** : Loi n° 2021-646 du 25 mai 2021 pour la sécurité globale : [legifrance.gouv.fr](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043530276)
+3. **Conseil constitutionnel** : Décision n° 2023-863 DC du 25 janvier 2024 (loi immigration), censure 27 articles : [conseil-constitutionnel.fr](https://www.conseil-constitutionnel.fr/decision/2024/2023863DC.htm)
+4. **CEVIPOF** : Baromètre de la confiance politique 2025, vague 16 : 22 % de confiance dans la politique, 90 % des lois adoptées sans vote : [sciencespo.fr](https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-du-cevipof-2025-le-grand-desarroi-democratique/)
+5. **Arcom** : Baromètre du pluralisme médiatique 2024 : 9 propriétaires contrôlent 90 % de l'audience : [arcom.fr](https://www.arcom.fr/se-documenter/etudes-et-donnees/etudes-bilans-et-rapports-de-larcom) *(Document : Baromètre du pluralisme des médias 2024, à télécharger sur la page études Arcom)*
+6. **Arcom** : Enquête adhésion aux théories complotistes (2024) : 60 % des Français : [lexpress.fr](https://www.lexpress.fr/economie/medias/complotisme-ces-six-theories-de-plus-en-plus-populaires-chez-les-francais-OC2IFLZDYVHI5PUQN77DCIQHB4/)
+7. **Reuters Institute** : Digital News Report 2025 : confiance médias 29 %, France 41e rang mondial : [reutersinstitute.politics.ox.ac.uk](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/france)
+8. **Ministère de l'Intérieur** : Abstention législatives 2024 : 57,3 % : [interieur.gouv.fr](https://www.interieur.gouv.fr/Elections/Les-resultats/Legislatives)
+9. **IPSOS** : Enquête sortie des urnes législatives 2024 : 70 % des 18-24 ans abstention : [ipsos.com](https://www.ipsos.com/fr-fr/elections-legislatives-2024-sociologie-de-lelectorat)
+10. **IPSOS / Sopra Steria** : Fractures françaises 2025 : 90 % des Français pensent pays en déclin, 43 % se disent en colère : [ipsos.com](https://www.ipsos.com/sites/default/files/ct/news/documents/2025-10/ipsos-bva-fractures-francaises-2025-rapport-complet.pdf)
+11. **IPSOS** : Enquête sur la tentation autoritaire 2024 : 35 % aspirent à un homme fort : [ipsos.com](https://www.ipsos.com/fr-fr/tentation-autoritaire-enquete-ipsos-2024)
+12. **Défenseur des droits** : Décision 2020-131 sur l'usage du LBD pendant les Gilets jaunes : 23 éborgnés : [defenseurdesdroits.fr](https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=19915)
+13. **Légifrance** : Loi n° 2023-703 du 1er août 2023 (LOPMI) : budget police plus 15 Md€ : [legifrance.gouv.fr](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047914986)
+14. **CEPEJ** : Tableau de bord justice 2022 : budget justice France 0,34 % PIB vs UE 0,67 %, 11,2 magistrats/100k vs UE 21 : [rm.coe.int](https://rm.coe.int/cepej-study-on-judicial-systems-europe-2022/1680a9b3e7)
+15. **Fondation pour l'innovation politique** : Temps de débat parlementaire (2024) : baisse de 40 % depuis 2017 : [fondapol.org](https://www.fondapol.org/etude/le-parlement-contourne-analyse-du-temps-debat-depuis-2017/)
+16. **Ministère de l'Intérieur** : Dissolutions d'associations (2017-2024) : plus de 60 : [interieur.gouv.fr](https://www.interieur.gouv.fr/Le-ministere/Dissolutions)
+17. **Légifrance** : Ordonnances (2017-2024) : comptabilisation 120 ordonnances : [legifrance.gouv.fr](https://www.legifrance.gouv.fr/recherche?text=ordonnance&datePublication=2017-01-01+2024-12-31&nature=ordonnance)
+18. **Le Monde / Libération** : Enquêtes départs médias Bolloré (2022-2024) : plus de 200 journalistes : [lemonde.fr](https://www.lemonde.fr/actualite-medias/article/2024/09/12/chez-bollore-le-depart-massif-de-journalistes_6311254_3236.html)
+19. **Convention citoyenne pour le climat** : 149 propositions, suivi législatif (2020-2023) : [conventioncitoyennepourleclimat.fr](https://www.conventioncitoyennepourleclimat.fr/)
+20. **Kantar / Arcom** : Baromètre info jeunes 2024 : 62 % des 18-24 ans s'informent sur réseaux sociaux : [arcom.fr](https://www.arcom.fr/se-documenter/etudes-et-donnees/etudes-bilans-et-rapports-de-larcom) *(Document : Baromètre info jeunes Kantar 2024, à télécharger sur la page études Arcom)*

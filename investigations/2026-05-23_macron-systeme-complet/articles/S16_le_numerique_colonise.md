@@ -26,7 +26,7 @@ Ce n'est pas une dépendance économique comme les autres. **C'est une souverain
 
 ### Un impôt qui ne passe pas
 
-Les GAFAM réalisent en France un chiffre d'affaires estimé à 20-30 milliards d'euros par an, selon les estimations de la Commission des Finances (PLF 2025) — le réel est difficile à connaître tant l'optimisation fiscale est sophistiquée.
+Les GAFAM réalisent en France un chiffre d'affaires estimé à 20-30 milliards d'euros par an, selon les estimations de la Commission des Finances (PLF 2025) : le réel est difficile à connaître tant l'optimisation fiscale est sophistiquée.
 
 **La taxe GAFAM (taxe sur les services numériques), instaurée en 2019, rapporte environ 800 millions d'euros par an.** Un amendement au PLF 2026 propose de relever le taux de 3 % à 15 % selon le rapport sénatorial sur la fiscalité du numérique (2025), mais le rendement resterait marginal au regard des bénéfices réalisés. Les GAFAM paient en France un taux d'impôt effectif estimé entre 5 et 10 %, contre 25 % pour les entreprises françaises, selon la Commission des Finances.
 
@@ -68,7 +68,7 @@ Les données de santé des Français sont les plus sensibles. Elles sont aussi l
 
 ### Le Health Data Hub, une promesse non tenue
 
-**Le Health Data Hub**, la plateforme nationale des données de santé créée en 2019, a confié son hébergement à Microsoft Azure, déclenchant une polémique et un recours devant le Conseil d'État. Le Conseil d'État a validé le contrat, tout en demandant des garanties supplémentaires. En 2024, le Health Data Hub a annoncé son transfert vers un hébergeur certifié SecNumCloud — un transfert qui n'était pas terminé en 2026, selon le rapport d'activité 2025 du HDH.
+**Le Health Data Hub**, la plateforme nationale des données de santé créée en 2019, a confié son hébergement à Microsoft Azure, déclenchant une polémique et un recours devant le Conseil d'État. Le Conseil d'État a validé le contrat, tout en demandant des garanties supplémentaires. En 2024, le Health Data Hub a annoncé son transfert vers un hébergeur certifié SecNumCloud : un transfert qui n'était pas terminé en 2026, selon le rapport d'activité 2025 du HDH.
 
 <!-- ENRICHIE: les-donnees-de-sante-le-scandale-silencieux -->
 <!-- THEME: donnees-sensibles -->
@@ -90,7 +90,7 @@ La France a lancé plusieurs projets de cloud souverain. Tous ont échoué ou n'
 
 **Bleu (2022)** : co-entreprise Microsoft/Orange/Capgemini censée offrir un cloud Azure « renforcé » sur le sol français. Très controversé, il repose sur la technologie Microsoft, ce qui pose la question de l'accès aux données via le Cloud Act.
 
-**Le problème fondamental :** les budgets d'investissement des GAFAM dépassent 30 milliards de dollars par an chacun, selon leurs rapports financiers — soit plus que le PIB du numérique français tout entier. La France ne peut pas rivaliser par la dépense. Elle devrait rivaliser par le droit, ce qu'elle ne fait pas.
+**Le problème fondamental :** les budgets d'investissement des GAFAM dépassent 30 milliards de dollars par an chacun, selon leurs rapports financiers : soit plus que le PIB du numérique français tout entier. La France ne peut pas rivaliser par la dépense. Elle devrait rivaliser par le droit, ce qu'elle ne fait pas.
 
 <!-- ENRICHIE: le-cloud-souverain-promesses-non-tenues -->
 <!-- THEME: echec-politique -->
@@ -116,9 +116,9 @@ En 2024, l'Éducation nationale a signé un contrat de 152 millions d'euros sur 
 
 ---
 
-## §6 — Ce que ce chapitre ne dit pas
+## §6 : Ce que ce chapitre ne dit pas
 
-Ce chapitre dresse un tableau sans concession de la colonisation numérique, mais ne mentionne pas les initiatives qui résistent. Les alternatives open-source — Nextcloud (fichiers), Matrix (messagerie), Mastodon (réseaux sociaux) — existent et sont utilisées par des milliers d'organisations. La Gendarmerie nationale a migré 72 000 postes vers Ubuntu. Framasoft propose 30+ services libres. Ces initiatives prouvent que l'alternative technique existe — ce qui manque, c'est la volonté politique de la généraliser. Le Data Privacy Framework UE-États-Unis (2023) offre des garanties au Cloud Act, même contestées. Enfin, le retard français n'est pas une fatalité : OVHcloud, Scaleway et Outscale progressent, et l'Allemagne (Ionos/SAP) montre qu'une alternative européenne est possible.
+Ce chapitre dresse un tableau sans concession de la colonisation numérique, mais ne mentionne pas les initiatives qui résistent. Les alternatives open-source : Nextcloud (fichiers), Matrix (messagerie), Mastodon (réseaux sociaux) : existent et sont utilisées par des milliers d'organisations. La Gendarmerie nationale a migré 72 000 postes vers Ubuntu. Framasoft propose 30+ services libres. Ces initiatives prouvent que l'alternative technique existe : ce qui manque, c'est la volonté politique de la généraliser. Le Data Privacy Framework UE-États-Unis (2023) offre des garanties au Cloud Act, même contestées. Enfin, le retard français n'est pas une fatalité : OVHcloud, Scaleway et Outscale progressent, et l'Allemagne (Ionos/SAP) montre qu'une alternative européenne est possible.
 
 ---
 
@@ -137,7 +137,7 @@ Ce chapitre dresse un tableau sans concession de la colonisation numérique, mai
 <!-- ENRICHIE: le-gulag-digital-surveilles-a-100 -->
 <!-- THEME: goulag-digital -->
 <!-- CROSS-REF: S15 -->
-> La réalité dépasse les chiffres officiels. En janvier-février 2026, une cascade de fuites a révélé l'ampleur de la passivité étatique, documentée par le site BonjourLaFuite : **160 000 dossiers sensibles exfiltrés via HubEE** (le concentrateur des mairies), **1,2 million de comptes bancaires exposés via FICOBA**, et **52 millions de Français — noms, adresses, copies de passeports — dans le mégaleak IDMerit** (1 milliard de dossiers global). Même l'Armée de Terre (4,5 Go de documents classifiés) et le CNRS (numéros de Sécurité Sociale et RIB des chercheurs) ont été touchés. Ces fuites posent la question du modèle des prestataires IT de l'État : **Sopra Steria, Capgemini, Atos** facturent la maintenance corrective de systèmes dont les failles structurelles sont connues. Plus le système est vulnérable, plus les audits et correctifs sont facturés — une controverse documentée par des lanceurs d'alerte et des rapports parlementaires.
+> La réalité dépasse les chiffres officiels. En janvier-février 2026, une cascade de fuites a révélé l'ampleur de la passivité étatique, documentée par le site BonjourLaFuite : **160 000 dossiers sensibles exfiltrés via HubEE** (le concentrateur des mairies), **1,2 million de comptes bancaires exposés via FICOBA**, et **52 millions de Français : noms, adresses, copies de passeports : dans le mégaleak IDMerit** (1 milliard de dossiers global). Même l'Armée de Terre (4,5 Go de documents classifiés) et le CNRS (numéros de Sécurité Sociale et RIB des chercheurs) ont été touchés. Ces fuites posent la question du modèle des prestataires IT de l'État : **Sopra Steria, Capgemini, Atos** facturent la maintenance corrective de systèmes dont les failles structurelles sont connues. Plus le système est vulnérable, plus les audits et correctifs sont facturés : une controverse documentée par des lanceurs d'alerte et des rapports parlementaires.
 
 **La France reste un pays surveillé** par son allié américain (programmes NSA révélés par Snowden en 2013), sans réciprocité ni contrôle démocratique. Les réformes législatives qui ont suivi n'ont pas changé la donne.
 
@@ -160,44 +160,44 @@ Ce chapitre dresse un tableau sans concession de la colonisation numérique, mai
 <!-- ENRICHIE: leurope-construit-elle-un-credit-40d -->
 <!-- THEME: credit-social-europeen -->
 <!-- CROSS-REF: S15 -->
-> La deuxième vigilance concerne les « solutions » européennes de contrôle. **Le règlement eIDAS 2.0 (Article 45) obligera les navigateurs à accepter les certificats de sécurité émis par les gouvernements**, selon le texte publié au JOUE — permettant théoriquement d'intercepter tout trafic chiffré (man-in-the-middle). **Le projet Chat Control imposerait le scan automatisé de tous les messages privés**, selon les propositions de la Commission européenne (2022-2024) — 400 experts en cybersécurité ont alerté sur le risque, dans une lettre ouverte coordonnée par AlgorithmWatch (2023). Ces outils, présentés comme une protection des mineurs, créent une infrastructure de contrôle qui transforme la souveraineté numérique en surveillance généralisée.
+> La deuxième vigilance concerne les « solutions » européennes de contrôle. **Le règlement eIDAS 2.0 (Article 45) obligera les navigateurs à accepter les certificats de sécurité émis par les gouvernements**, selon le texte publié au JOUE : permettant théoriquement d'intercepter tout trafic chiffré (man-in-the-middle). **Le projet Chat Control imposerait le scan automatisé de tous les messages privés**, selon les propositions de la Commission européenne (2022-2024) : 400 experts en cybersécurité ont alerté sur le risque, dans une lettre ouverte coordonnée par AlgorithmWatch (2023). Ces outils, présentés comme une protection des mineurs, créent une infrastructure de contrôle qui transforme la souveraineté numérique en surveillance généralisée.
 
-**La souveraineté numérique française n'est pas perdue par fatalité technologique : elle résulte d'une séquence de choix politiques — absence de conditionnalité des marchés publics, sous-investissement dans SecNumCloud, acceptation des certifications HDS pour les géants américains — dont aucun n'était inéluctable pris séparément, mais dont l'effet cumulé produit un abandon de fait.**
+**La souveraineté numérique française n'est pas perdue par fatalité technologique : elle résulte d'une séquence de choix politiques : absence de conditionnalité des marchés publics, sous-investissement dans SecNumCloud, acceptation des certifications HDS pour les géants américains : dont aucun n'était inéluctable pris séparément, mais dont l'effet cumulé produit un abandon de fait.**
 
-➡️ **À lire ensuite :** Comment les 5 tensions systémiques convergent en un système irréformable — **🔄 HUB — Le Changement de Régime**
+➡️ **À lire ensuite :** Comment les 5 tensions systémiques convergent en un système irréformable : **🔄 HUB : Le Changement de Régime**
 
 ---
 
-*📖 **Article suivant :** 🔄 Le Changement de Régime — la synthèse de l'enquête [LIEN_HUB_A_INSERER]*
-*📖 **Article précédent :** 🔒 Le Verrou — 23 recours au 49.3, 57 % d'abstention, la démocratie neutralisée [LIEN_A_INSERER]*
+*📖 **Article suivant :** 🔄 Le Changement de Régime : la synthèse de l'enquête [LIEN_HUB_A_INSERER]*
+*📖 **Article précédent :** 🔒 Le Verrou : 23 recours au 49.3, 57 % d'abstention, la démocratie neutralisée [LIEN_A_INSERER]*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
 
 ---
 
 ### À voir aussi
 
-— [« Le goulag digital : surveillés à 100 % »](https://giak.substack.com/p/le-gulag-digital-surveilles-a-100) — 🔗 Le plus connexe : documente la surveillance numérique systémique
-— [« L'Europe construit-elle un crédit social européen ? »](https://giak.substack.com/p/leurope-construit-elle-un-credit-40d) — 🔗 Lien direct : prolonge l'analyse des menaces eIDAS et Chat Control
-— [« Viginum : la censure numérique aux portes du pouvoir »](https://giak.substack.com/p/viginum-censure-numerique) — 🔗 Lien direct : complète le volet cybersécurité et manipulation
-— [« Le narcotique numérique : addiction et contrôle »](https://giak.substack.com/p/narcotique-numerique) — 🔗 Lien indirect : explore un angle adjacent sur la dépendance numérique
-— [« L'ingénierie de l'enclos »](https://giak.substack.com/p/lingenierie-de-lenclos) — 🔗 Lien indirect : complète l'analyse du verrouillage informationnel
+- [« Le goulag digital : surveillés à 100 % »](https://giak.substack.com/p/le-gulag-digital-surveilles-a-100) : 🔗 Le plus connexe : documente la surveillance numérique systémique
+- [« L'Europe construit-elle un crédit social européen ? »](https://giak.substack.com/p/leurope-construit-elle-un-credit-40d) : 🔗 Lien direct : prolonge l'analyse des menaces eIDAS et Chat Control
+- [« Viginum : la censure numérique aux portes du pouvoir »](https://giak.substack.com/p/viginum-censure-numerique) : 🔗 Lien direct : complète le volet cybersécurité et manipulation
+- [« Le narcotique numérique : addiction et contrôle »](https://giak.substack.com/p/narcotique-numerique) : 🔗 Lien indirect : explore un angle adjacent sur la dépendance numérique
+- [« L'ingénierie de l'enclos »](https://giak.substack.com/p/lingenierie-de-lenclos) : 🔗 Lien indirect : complète l'analyse du verrouillage informationnel
 
 ---
 
 ## Sources
 
-1. **CNIL** — Guide pratique du cloud : 70 % des données françaises sur serveurs américains, [https://www.cnil.fr/fr/informatique-en-nuage-cloud-la-cnil-publie-votre-guide-pratique](https://www.cnil.fr/fr/informatique-en-nuage-cloud-la-cnil-publie-votre-guide-pratique)
-2. **PLF 2024** — Évaluation de la taxe sur les services numériques (~800 M€/an), [https://www.senat.fr/cra/s20251129/s20251129_mono.html](https://www.senat.fr/cra/s20251129/s20251129_mono.html)
-3. **France Num** — Étude 2024 : 95 % du marché des données personnelles capté par les GAFAM — [francenum.gouv.fr](https://www.francenum.gouv.fr/guides-et-conseils/strategie-numerique/comprendre-le-numerique/maitriser-les-donnees-personnelles)
-4. **US Congress** — Clarifying Lawful Overseas Use of Data Act (Cloud Act), 2018, [https://www.congress.gov/bill/115th-congress/senate-bill/2383/text](https://www.congress.gov/bill/115th-congress/senate-bill/2383/text)
-5. **ANSSI** — Certification SecNumCloud, référentiel 2024 — [cyber.gouv.fr](https://www.ssi.gouv.fr/guide/certification-secnumcloud/)
-6. **Health Data Hub** — Rapport d'activité 2023, hébergement Microsoft Azure ; Conseil d'État, décision n° 464511 du 10 février 2023 — [health-data-hub.fr](https://www.health-data-hub.fr/rapports-d-activite) ; [conseil-etat.fr](https://www.conseil-etat.fr/actualites/le-conseil-d-etat-valide-le-choix-du-health-data-hub-de-confer-son-hebergement-a-microsoft)
-7. **CNLL** — Alerte sur le marché Microsoft 2024, 152 M€ sur 4 ans (Contrat Éducation nationale), [https://cnll.fr/news/polytechnique-men-office-365/](https://cnll.fr/news/polytechnique-men-office-365/)
-8. **ANSSI** — Rapport d'activité 2025 : ~5 000 collaborateurs — [ssi.gouv.fr](https://www.ssi.gouv.fr/agence/anssi/rapport-activite-2025/)
-9. **ANSSI** — Panorama de la cybersécurité 2025 : 2 000 attaques contre collectivités — [ssi.gouv.fr](https://www.ssi.gouv.fr/actualite/panorama-cybersecurite-2025/)
-10. **Les Échos** — Capgemini et Orange s'allient avec Microsoft pour créer une société de cloud (Bleu, 2022), [https://www.lesechos.fr/tech-medias/hightech/capgemini-et-orange-sallient-avec-microsoft-pour-creer-une-societe-de-cloud-1318514](https://www.lesechos.fr/tech-medias/hightech/capgemini-et-orange-sallient-avec-microsoft-pour-creer-une-societe-de-cloud-1318514)
-11. **Gaia-X** — Framework européen de données fédéré, 2019-2025 — [gaia-x.eu](https://www.gaia-x.eu/what-is-gaia-x/)
-12. **The Guardian / Washington Post** — Révélations Snowden sur les programmes NSA (PRISM), 2013, [https://www.theguardian.com/world/series/the-nsa-files](https://www.theguardian.com/world/series/the-nsa-files)
-13. **PAC (Pierre Audoin Consultants)** — Analyse du marché cloud France 2025 (+8,2 %), acteurs français (OVHcloud, Scaleway, Outscale), [https://sitsi.pacanalyst.com/why-frances-software-and-cloud-platform-market-is-accelerating-in-2025-and-beyond/](https://sitsi.pacanalyst.com/why-frances-software-and-cloud-platform-market-is-accelerating-in-2025-and-beyond/)
-14. **CNIL** — Recommandations sur le Health Data Hub et Microsoft Azure, 2023, [https://www.cnil.fr/fr/les-principaux-avis-et-recommandations-de-la-cnil-sur-la-plateforme-des-donnees-de-sante](https://www.cnil.fr/fr/les-principaux-avis-et-recommandations-de-la-cnil-sur-la-plateforme-des-donnees-de-sante)
-15. **ZDNet** — En signant avec Microsoft, l'Éducation nationale piétine souveraineté et autonomie numérique, 2025, [https://www.zdnet.fr/actualites/en-signant-avec-microsoft-leducation-nationale-pietine-souverainete-et-autonomie-numerique-408497.htm](https://www.zdnet.fr/actualites/en-signant-avec-microsoft-leducation-nationale-pietine-souverainete-et-autonomie-numerique-408497.htm)
+1. **CNIL** : Guide pratique du cloud : 70 % des données françaises sur serveurs américains, [https://www.cnil.fr/fr/informatique-en-nuage-cloud-la-cnil-publie-votre-guide-pratique](https://www.cnil.fr/fr/informatique-en-nuage-cloud-la-cnil-publie-votre-guide-pratique)
+2. **PLF 2024** : Évaluation de la taxe sur les services numériques (~800 M€/an), [https://www.senat.fr/cra/s20251129/s20251129_mono.html](https://www.senat.fr/cra/s20251129/s20251129_mono.html)
+3. **France Num** : Étude 2024 : 95 % du marché des données personnelles capté par les GAFAM : [francenum.gouv.fr](https://www.francenum.gouv.fr/guides-et-conseils/strategie-numerique/comprendre-le-numerique/maitriser-les-donnees-personnelles)
+4. **US Congress** : Clarifying Lawful Overseas Use of Data Act (Cloud Act), 2018, [https://www.congress.gov/bill/115th-congress/senate-bill/2383/text](https://www.congress.gov/bill/115th-congress/senate-bill/2383/text)
+5. **ANSSI** : Certification SecNumCloud, référentiel 2024 : [cyber.gouv.fr](https://www.ssi.gouv.fr/guide/certification-secnumcloud/)
+6. **Health Data Hub** : Rapport d'activité 2023, hébergement Microsoft Azure ; Conseil d'État, décision n° 464511 du 10 février 2023 : [health-data-hub.fr](https://www.health-data-hub.fr/rapports-d-activite) ; [conseil-etat.fr](https://www.conseil-etat.fr/actualites/le-conseil-d-etat-valide-le-choix-du-health-data-hub-de-confer-son-hebergement-a-microsoft)
+7. **CNLL** : Alerte sur le marché Microsoft 2024, 152 M€ sur 4 ans (Contrat Éducation nationale), [https://cnll.fr/news/polytechnique-men-office-365/](https://cnll.fr/news/polytechnique-men-office-365/)
+8. **ANSSI** : Rapport d'activité 2025 : ~5 000 collaborateurs : [ssi.gouv.fr](https://www.ssi.gouv.fr/agence/anssi/rapport-activite-2025/)
+9. **ANSSI** : Panorama de la cybersécurité 2025 : 2 000 attaques contre collectivités : [ssi.gouv.fr](https://www.ssi.gouv.fr/actualite/panorama-cybersecurite-2025/)
+10. **Les Échos** : Capgemini et Orange s'allient avec Microsoft pour créer une société de cloud (Bleu, 2022), [https://www.lesechos.fr/tech-medias/hightech/capgemini-et-orange-sallient-avec-microsoft-pour-creer-une-societe-de-cloud-1318514](https://www.lesechos.fr/tech-medias/hightech/capgemini-et-orange-sallient-avec-microsoft-pour-creer-une-societe-de-cloud-1318514)
+11. **Gaia-X** : Framework européen de données fédéré, 2019-2025 : [gaia-x.eu](https://www.gaia-x.eu/what-is-gaia-x/)
+12. **The Guardian / Washington Post** : Révélations Snowden sur les programmes NSA (PRISM), 2013, [https://www.theguardian.com/world/series/the-nsa-files](https://www.theguardian.com/world/series/the-nsa-files)
+13. **PAC (Pierre Audoin Consultants)** : Analyse du marché cloud France 2025 (+8,2 %), acteurs français (OVHcloud, Scaleway, Outscale), [https://sitsi.pacanalyst.com/why-frances-software-and-cloud-platform-market-is-accelerating-in-2025-and-beyond/](https://sitsi.pacanalyst.com/why-frances-software-and-cloud-platform-market-is-accelerating-in-2025-and-beyond/)
+14. **CNIL** : Recommandations sur le Health Data Hub et Microsoft Azure, 2023, [https://www.cnil.fr/fr/les-principaux-avis-et-recommandations-de-la-cnil-sur-la-plateforme-des-donnees-de-sante](https://www.cnil.fr/fr/les-principaux-avis-et-recommandations-de-la-cnil-sur-la-plateforme-des-donnees-de-sante)
+15. **ZDNet** : En signant avec Microsoft, l'Éducation nationale piétine souveraineté et autonomie numérique, 2025, [https://www.zdnet.fr/actualites/en-signant-avec-microsoft-leducation-nationale-pietine-souverainete-et-autonomie-numerique-408497.htm](https://www.zdnet.fr/actualites/en-signant-avec-microsoft-leducation-nationale-pietine-souverainete-et-autonomie-numerique-408497.htm)

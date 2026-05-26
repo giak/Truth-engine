@@ -1,35 +1,35 @@
-# 🔍 AUDIT CRITIQUE APEX — Le Changement de Régime
+# 🔍 AUDIT CRITIQUE APEX : Le Changement de Régime
 
-## §0 — MÉTHODOLOGIE DE CONSTRUCTION DU CORPUS
+## §0 : MÉTHODOLOGIE DE CONSTRUCTION DU CORPUS
 
 ### Processus de création
 
 Le corpus « Le Changement de Régime » a été construit en deux temps, sans suivre strictement le protocole SUBLIMATOR.
 
-#### Phase 1 — Investigations brutes (KERNEL v2.0)
+#### Phase 1 : Investigations brutes (KERNEL v2.0)
 - **Protocole appliqué** : `/home/giak/projects/truth-engine/truth-engine-v2/KERNEL.md`
 - **Dossier** : `/home/giak/projects/truth-engine/investigations/2026-05-23_macron-systeme-complet/`
 - **Objet** : 27 enquêtes indépendantes vêtant le système Macron sous tous ses angles
-- **Moteur** : Méthode forensic systémique — paradoxe → données → incohérence → bénéficiaires implicites → verrouillage institutionnel
+- **Moteur** : Méthode forensic systémique : paradoxe → données → incohérence → bénéficiaires implicites → verrouillage institutionnel
 - **Livrable** : 604 faits vérifiés (✦) organisés par thèmes, avec chronologie et acteurs identifiés
 
-#### Phase 2 — Synthèse et articles (SUBLIMATOR v28.1, écarty)
+#### Phase 2 : Synthèse et articles (SUBLIMATOR v28.1, écarty)
 - **Protocole visé** : `/home/giak/projects/truth-engine/tools/prompts/systems/SUBLIMATOR_v28.0.md`
 - **Écarts** : Le pipeline SUBLIMATOR n'a pas été suivi stricto sensu
 - **Structure développée** :
-  - `00B_CENSUS.md` — Inventaire des 27 enquêtes classées par 5 tensions
-  - `01_DIGEST.md` — 27 résumés exécutifs orientés thèse
-  - `02_DIALECTIQUE.md` — 3 thèses candidates testées, thèse cardinale retenue (score 0.82), 5 tensions en cascade causale
-  - `03_ARCHITECTURE.md` — Chaîne de révélations en 4 actes forensiques
-  - `04_FACTCHECK.md` — Registre des faits avec statut de vérification
+  - `00B_CENSUS.md` : Inventaire des 27 enquêtes classées par 5 tensions
+  - `01_DIGEST.md` : 27 résumés exécutifs orientés thèse
+  - `02_DIALECTIQUE.md` : 3 thèses candidates testées, thèse cardinale retenue (score 0.82), 5 tensions en cascade causale
+  - `03_ARCHITECTURE.md` : Chaîne de révélations en 4 actes forensiques
+  - `04_FACTCHECK.md` : Registre des faits avec statut de vérification
 - **Articles produits** : S1-S15 selon l'ordre forensique (4 actes : Accusation → Scènes → Échelle → Verdict)
 - **Enrichissement** : Injection selective de contenus Substack (32 posts référencés, 30 injections effectives) avec marqueurs `<!-- ENRICHIE: -->`, `<!-- THEME: -->`, `<!-- CROSS-REF: -->`
 
 #### Spécificités de la construction
 - **Séries vs individuel** : 14 articles S + HUB (S16 = Numérique, intégré comme article hors-série)
 - **Autonomie des articles** : Chaque S peut se lire indépendamment, avec contextualisation en ouverture
-- **Émojis distincts** : S1 👑, S2 💰, S3 📉, etc. — palette cohérente avec les thématiques
-- **Sources en fin d'article** : URLs précises obligatoires, format `**Entité** — URL` selon LOI 2
+- **Émojis distincts** : S1 👑, S2 💰, S3 📉, etc. : palette cohérente avec les thématiques
+- **Sources en fin d'article** : URLs précises obligatoires, format `**Entité** : URL` selon LOI 2
 - **Cross-referencing** : Références entre articles via `<!-- CROSS-REF: S{num} -->` et section `À voir aussi`
 
 ---
@@ -38,14 +38,14 @@ Le corpus « Le Changement de Régime » a été construit en deux temps, sans s
 
 ```
 SYMBOLS:
-Ξ⫸ (Émission)      : 9/10  — Prétention à une vérité absolue, neutralisation des contradictions
-€♦♣ (Économie)      : 10/10 — Extraction systémique, évasion fiscale, concentration patrimoniale
-ΩΨ (Opinion)        : 8/10  — Opinion présentée comme consensus, démagogie du victimisme
+Ξ⫸ (Émission)      : 9/10  : Prétention à une vérité absolue, neutralisation des contradictions
+€♦♣ (Économie)      : 10/10 : Extraction systémique, évasion fiscale, concentration patrimoniale
+ΩΨ (Opinion)        : 8/10  : Opinion présentée comme consensus, démagogie du victimisme
 🌐 (Méfiance envers les institutions) : 10/10
-⏰ (Omission)       : 7/10  — Dates mal alignées (735 morts = 2023, pas 2025), sources éventuellement post-daters
-Λ⊕⊗ (Logique)       : 6/10  — Chaîne causale simpliste, confusion entre corrélation et causalité
-↕ (Ambiguïté)       : 8/10  — Amphibologie entre "système" et "gouvernement Macron", "richesses" et "riches"
-ΦΣΚ (Framing)       : 9/10  — Framing du "peuple" vs "caste", dualité binaire manichéenne
+⏰ (Omission)       : 7/10  : Dates mal alignées (735 morts = 2023, pas 2025), sources éventuellement post-daters
+Λ⊕⊗ (Logique)       : 6/10  : Chaîne causale simpliste, confusion entre corrélation et causalité
+↕ (Ambiguïté)       : 8/10  : Amphibologie entre "système" et "gouvernement Macron", "richesses" et "riches"
+ΦΣΚ (Framing)       : 9/10  : Framing du "peuple" vs "caste", dualité binaire manichéenne
 
 PATTERNS:
 @PAT[ICE:9] - Construction d'évidence par accumulation d'exemples sans preuve de causalité systémique
@@ -62,7 +62,7 @@ THREATS:
 
 ---
 
-## §0 — ANALYSE STRUCTURELLE
+## §0 : ANALYSE STRUCTURELLE
 
 ### Architecture du Hub
 - **S1** : Caste Parasite (introduction du coupable)
@@ -80,7 +80,7 @@ THREATS:
 
 ---
 
-## §1 — VÉRIFICATION FACTS REGISTRY
+## §1 : VÉRIFICATION FACTS REGISTRY
 
 ### ✅ Confirmés
 | # | Fait | Source | URL | Status |
@@ -110,7 +110,7 @@ THREATS:
 
 ---
 
-## §2 — CHAÎNES DE CAUSALITÉ ANALYSÉES
+## §2 : CHAÎNES DE CAUSALITÉ ANALYSÉES
 
 ### Chaîne T1 → T3 (extraction → démantèlement service publics)
 ```
@@ -141,7 +141,7 @@ L'évasion fiscale explique **partiellement** le déficit mais pas **entièremen
 
 ---
 
-## §3 — POINTS FAIBLE DU RAISONNEMENT
+## §3 : POINTS FAIBLE DU RAISONNEMENT
 
 ### 1. Confusion intention/consequence
 Le hub présente chaque crise comme **décision intentionnelle**. La fermeture de Fessenheim, la réforme des retraites, la suppression des lits d'hôpital sont présentées comme des actes délibérés de "vidage" plutôt que comme des politiques contestées avec des rationalités complexes (climat, démographie, contraintes budgétaires).
@@ -172,7 +172,7 @@ Le hub traite Emmanuel Macron comme **cause première** de phénomènes structur
 
 ---
 
-## §4 — BIAIS DE PRESENTATION
+## §4 : BIAIS DE PRESENTATION
 
 ### Biais de disponibilité
 Les statistiques les plus impressionnantes sont privilégiées :
@@ -193,7 +193,7 @@ Les données sont parfois **post-daters** ou **projectives** :
 
 ---
 
-## §5 — CONSTITUTION D'UN DISCOURS SYNDICAL
+## §5 : CONSTITUTION D'UN DISCOURS SYNDICAL
 
 ### Schéma récurrent
 1. **Données chiffrées** (vérifiables) → crédibilité
@@ -210,7 +210,7 @@ Le hub adopte un registre de **théorie critique** mais :
 
 ---
 
-## §5b — L'ARCHITECTURE SYSTÉMIQUE RÉELLE (force du corpus)
+## §5b : L'ARCHITECTURE SYSTÉMIQUE RÉELLE (force du corpus)
 
 ### Méthode opératoire
 1. **Paradoxe initial** → exportateur énergie mais précarité (S10)
@@ -227,13 +227,13 @@ Cette méthode suit un protocole d'**enquêtenisme systémique** qui :
 - Documente les **externalités négatives** sociales
 
 ### Exemples réussis
-- **S10 Énergie** : Taxe carbone pèse 6x plus sur pauvres (INSEE 2023) — vérifiable et systémique
-- **S11 Agriculture** : 20% grandes exploitations = 80% PAC (Cour des comptes) — mécanisme de concentration
-- **S15 Verrou** : 23 recours 49.3 + 120 ordonnances (Légifrance) — neutralisation par procédure
+- **S10 Énergie** : Taxe carbone pèse 6x plus sur pauvres (INSEE 2023) : vérifiable et systémique
+- **S11 Agriculture** : 20% grandes exploitations = 80% PAC (Cour des comptes) : mécanisme de concentration
+- **S15 Verrou** : 23 recours 49.3 + 120 ordonnances (Légifrance) : neutralisation par procédure
 
 ---
 
-## §6 — SUSCEPTIBILITÉ AUX CONTRE-ARGUMENTS
+## §6 : SUSCEPTIBILITÉ AUX CONTRE-ARGUMENTS
 
 ### Forces du hub
 - Accumulation documentaire impressionnante (604 faits mentionns)
@@ -283,7 +283,7 @@ Exemples :
 
 ---
 
-## §7 — SYNTHESE CRITIQUE
+## §7 : SYNTHESE CRITIQUE
 
 ### Diagnostic
 Le hub "Le Changement de Régime" constitue un **faisant-vivre syndical** efficace :
@@ -295,7 +295,7 @@ Le hub "Le Changement de Régime" constitue un **faisant-vivre syndical** effica
 
 ---
 
-## §8 — ANALYSE SYSTÉMIQUE DU MÉCANISME « VERROUILLAGE »
+## §8 : ANALYSE SYSTÉMIQUE DU MÉCANISME « VERROUILLAGE »
 
 ### Le modèle des 5 Tensions (extractions → capture → démantèlement → abdication → externalisation)
 
@@ -303,11 +303,11 @@ Le hub propose un modèle circulaire :
 
 | Tension | Contenu | Verrou associé |
 |---------|---------|---------------|
-| **T1 — Extraction** | Évasion fiscale (80-100 Md€) + niches (90-100 Md€) + fraude sociale (13-14 Md€) | €♦♣ |
-| **T2 — Capture** | Médias (9 propriétaires = 90%) + justice (PNF 0,2% récupération) + universités | 🌐 |
-| **T3 — Démantèlement** | Services publics (santé, école, logement) sous-financés | Ψ↕ |
-| **T4 — Abdication** | Décisions EU (Mercosur) + retraites + libre-échange | 🌐 ⏰ |
-| **T5 — Externalisation** | Numérique (GAFAM) + industrie (offshore) + énergie (importations) | ⚔ |
+| **T1 : Extraction** | Évasion fiscale (80-100 Md€) + niches (90-100 Md€) + fraude sociale (13-14 Md€) | €♦♣ |
+| **T2 : Capture** | Médias (9 propriétaires = 90%) + justice (PNF 0,2% récupération) + universités | 🌐 |
+| **T3 : Démantèlement** | Services publics (santé, école, logement) sous-financés | Ψ↕ |
+| **T4 : Abdication** | Décisions EU (Mercosur) + retraites + libre-échange | 🌐 ⏰ |
+| **T5 : Externalisation** | Numérique (GAFAM) + industrie (offshore) + énergie (importations) | ⚔ |
 
 ### Analyse dynamique :
 
@@ -321,7 +321,7 @@ T5 → Dépendance → Perte souveraineté → T1 (exploitation ressource nation
 
 ---
 
-## §9 — THÈSE D'IRRRÉFORMABILITÉ : UNE HYPOTHÈSE CRÉDIBLE MAIS NON DÉMONTRÉE
+## §9 : THÈSE D'IRRRÉFORMABILITÉ : UNE HYPOTHÈSE CRÉDIBLE MAIS NON DÉMONTRÉE
 
 ### Argumentation du hub :
 
@@ -331,7 +331,7 @@ T5 → Dépendance → Perte souveraineté → T1 (exploitation ressource nation
 
 ### Analyse critique :
 
-Ces 3 verrous **existent** mais ne constituent **qu'un ensemble de contraintes** — pas **la preuve** d'irréformabilité.
+Ces 3 verrous **existent** mais ne constituent **qu'un ensemble de contraintes** : pas **la preuve** d'irréformabilité.
 
 #### Preuves contrares :
 - **Hartz IV en Allemagne** : Réforme structurelle malgré opposition
@@ -342,10 +342,10 @@ Le problème n'est pas l'**impossibilité réforme** mais la **priorité des ré
 
 ---
 
-## §10 — L'IMPUISSANCE APPRISE : UN MÉCANISME PSYCHOLOGIQUE
+## §10 : L'IMPUISSANCE APPRISE : UN MÉCANISME PSYCHOLOGIQUE
 
 ### Formulation dans S15 :
-> « L'impuissance apprise — la certitude, vérifiée par l'expérience répétée, que toute expression de rejet sera absorbée par le système sans le modifier. »
+> « L'impuissance apprise : la certitude, vérifiée par l'expérience répétée, que toute expression de rejet sera absorbée par le système sans le modifier. »
 
 ### Analyse :
 
@@ -361,7 +361,7 @@ Mais elle ignore :
 
 ---
 
-## §11 — EVALUATION ÉPISTÉMOLOGIQUE
+## §11 : EVALUATION ÉPISTÉMOLOGIQUE
 
 ### Niveau de preuve :
 
@@ -379,7 +379,7 @@ L'investigation est **excellente comme cartographie des crises**, mais **insuffi
 
 ---
 
-## §7 — RECOMMANDATIONS POUR DÉSINTESSER LE DISCOURS
+## §7 : RECOMMANDATIONS POUR DÉSINTESSER LE DISCOURS
 
 ### Methodologie de relecture
 Extraire les faits sans les formulations intentionnales, construire les chaînes d'incitations, identifier les feedback loops, proposer scénarios correctifs.
@@ -398,7 +398,7 @@ Extraire les faits sans les formulations intentionnales, construire les chaînes
 
 ---
 
-## §12 — RECOMMANDATIONS POUR DÉSINTESSER LE DISCOURS
+## §12 : RECOMMANDATIONS POUR DÉSINTESSER LE DISCOURS
 
 ### Méthode proposée : lire à l'envers
 1. **Extraire les faits** sans les formulations intentionnales
@@ -423,13 +423,13 @@ Extraire les faits sans les formulations intentionnales, construire les chaînes
 
 ## SOURCES CRITIQUES À VÉRIFIER
 
-1. **Dette 115,6% PIB** : INSEE n° 79/2026 — https://www.insee.fr/fr/statistiques/8955019 → ✅ Confirmé T4 2025
-2. **Évasion fiscale 80-100 Md€** : European Tax Observatory — https://taxobservatory.eu → Estimé incl. fraude
-3. **PISA -37 points France 2003-2022** : OECD PISA 2022 Country Notes — https://oecd.org/publication/pisa-2022-results/country-notes/france-8008535b/
-4. **9M morts pollution/monde** : The Lancet 2018 Commission — https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)32345-0/abstract
-5. **48k morts pollution FR** : Santé publique France 2016 — surestimé x4 selon Revue du Praticien
-6. **CAC40 dividendes 70 Md€/an** : Proxinvest 2024 — https://www.proxinvest.com
-7. **CICE coût 100 Md€** : Cour des comptes 2021 — https://www.ccomptes.fr/fr/publications/le-credit-dimpot-pour-la-competitivite-et-lemploi
+1. **Dette 115,6% PIB** : INSEE n° 79/2026 : https://www.insee.fr/fr/statistiques/8955019 → ✅ Confirmé T4 2025
+2. **Évasion fiscale 80-100 Md€** : European Tax Observatory : https://taxobservatory.eu → Estimé incl. fraude
+3. **PISA -37 points France 2003-2022** : OECD PISA 2022 Country Notes : https://oecd.org/publication/pisa-2022-results/country-notes/france-8008535b/
+4. **9M morts pollution/monde** : The Lancet 2018 Commission : https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)32345-0/abstract
+5. **48k morts pollution FR** : Santé publique France 2016 : surestimé x4 selon Revue du Praticien
+6. **CAC40 dividendes 70 Md€/an** : Proxinvest 2024 : https://www.proxinvest.com
+7. **CICE coût 100 Md€** : Cour des comptes 2021 : https://www.ccomptes.fr/fr/publications/le-credit-dimpot-pour-la-competitivite-et-lemploi
 
 ---
 

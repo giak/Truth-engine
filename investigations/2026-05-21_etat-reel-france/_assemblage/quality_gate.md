@@ -9,4 +9,7 @@
 - [x] ¬ bruit agent | Paragraphes courts | H3 | Gras stratégique | Blockquotes
 - [x] Renommé `2026-05-21_16-00_effondrement-structurel_ARTICLE.md` | Migré `/articles/` | Sources `/sources/`
 
+- [x] §8b Commission Européenne intégrée dans draft_article.md
+- [x] Section corrigée suite critique (D###, cadratins, style forensic)
+
 ## RÉSULTAT : 8/8 checks passés

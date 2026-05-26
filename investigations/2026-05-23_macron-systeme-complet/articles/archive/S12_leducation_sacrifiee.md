@@ -1,8 +1,8 @@
-# 📚 L'Éducation sacrifiée : 86 Md€ pour l'école, 22 % de confiance, 51 % sans religion — la transmission qui ne passe plus
+# 📚 L'Éducation sacrifiée : 86 Md€ pour l'école, 22 % de confiance, 51 % sans religion : la transmission qui ne passe plus
 
 *📚 La France consacre 86 milliards d'euros par an à son système éducatif. C'est le premier budget de l'État. Pourtant, le niveau scolaire s'effondre (PISA 2023 : −43 points en mathématiques), la confiance dans les institutions tombe à 22 % (CEVIPOF 2026), et la moitié des Français de 18 à 59 ans se déclarent sans religion (INSEE-INED 2020). Ce n'est pas une crise passagère : c'est la chaîne de transmission intergénérationnelle qui se rompt, méthodiquement, depuis 40 ans.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime — 500+ faits qui prouvent que la France n'est pas en crise, elle change de nature**. [Lire l'enquête complète →]([LIEN_HUB_A_INSERER])*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime : 500+ faits qui prouvent que la France n'est pas en crise, elle change de nature**. [Lire l'enquête complète →]([LIEN_HUB_A_INSERER])*
 
 ---
 
@@ -78,7 +78,7 @@ La transmission des valeurs républicaines est l'une des missions fondamentales 
 
 L'Éducation Morale et Civique (EMC) est obligatoire depuis 2015 et a été réajustée en 2018. Son horaire est d'une heure par semaine au collège. Mais sa mise en œuvre est, selon l'Inspection générale, très inégale. **Seuls 30 % des enseignants se sentent formés** à cette discipline, selon la DEPP. Il n'existe **aucune évaluation nationale des acquis en EMC**, impossible de mesurer si les élèves apprennent quoi que ce soit.
 
-Résultat : selon le Réseau Canopé, les cours d'EMC sont souvent réduits à des séances théoriques sur les institutions, sans lien avec la vie réelle des élèves. La laïcité elle-même, qui devrait être enseignée comme un principe fondamental, est réduite à la gestion des incidents : selon le ministère de l'Éducation nationale, les signalements d'atteintes à la laïcité étaient d'environ **4 700 en 2022-2023**, avant de baisser de **10 % en 2025** — peut-être sous l'effet des Équipes Valeurs de la République, mais sans qu'aucune mesure de la compréhension de la laïcité par les élèves n'existe.
+Résultat : selon le Réseau Canopé, les cours d'EMC sont souvent réduits à des séances théoriques sur les institutions, sans lien avec la vie réelle des élèves. La laïcité elle-même, qui devrait être enseignée comme un principe fondamental, est réduite à la gestion des incidents : selon le ministère de l'Éducation nationale, les signalements d'atteintes à la laïcité étaient d'environ **4 700 en 2022-2023**, avant de baisser de **10 % en 2025** : peut-être sous l'effet des Équipes Valeurs de la République, mais sans qu'aucune mesure de la compréhension de la laïcité par les élèves n'existe.
 
 ### SNU : l'échec du grand récit civique
 
@@ -124,7 +124,7 @@ Le système éducatif français est l'un des plus réformés au monde. Depuis 20
 
 Selon la Cour des comptes (2024), le dédoublement des classes en REP+ a un **bilan contrasté** : des progrès légers en français, nuls en mathématiques. **20 % des élèves de REP+ sont toujours en grande difficulté à l'entrée en sixième**. Selon la même Cour des comptes (2023), le contrôle de l'enseignement privé sous contrat, qui scolarise **17 % des élèves** et est financé à **75 % par l'argent public**, souffre de **« carences graves »**.
 
-Selon la commission parlementaire (2025), **50 000 enfants handicapés** sont scolarisés sans accompagnement AESH, sur **560 000 enfants en situation de handicap** scolarisés — une progression impressionnante depuis 2006 (155 000), mais une réalité précaire pour des dizaines de milliers de familles.
+Selon la commission parlementaire (2025), **50 000 enfants handicapés** sont scolarisés sans accompagnement AESH, sur **560 000 enfants en situation de handicap** scolarisés : une progression impressionnante depuis 2006 (155 000), mais une réalité précaire pour des dizaines de milliers de familles.
 
 ### La transmission ne se décrète pas
 
@@ -134,14 +134,14 @@ Les réformes s'accumulent sans que personne ne mesure si elles fonctionnent. Le
 
 Le résultat ? Une génération qui grandit sans repères stables, dans une société qui ne lui offre plus de récit commun. Une jeunesse dont la confiance dans les institutions s'effondre, dont les écrans sont devenus les premiers éducateurs, et qui hérite d'un monde dont les clés de compréhension ne lui ont pas été transmises.
 
-➡️ **À lire ensuite : L'Industrie désertée** — quand la France perd sa capacité à produire, elle perd aussi sa capacité à transmettre un savoir-faire, une fierté, un avenir.
+➡️ **À lire ensuite : L'Industrie désertée** : quand la France perd sa capacité à produire, elle perd aussi sa capacité à transmettre un savoir-faire, une fierté, un avenir.
 
 ---
 
-*Article de la série **Le Changement de Régime — 500+ faits qui prouvent que la France n'est pas en crise, elle change de nature**.*
+*Article de la série **Le Changement de Régime : 500+ faits qui prouvent que la France n'est pas en crise, elle change de nature**.*
 
-*Article suivant : S6 — L'Industrie désertée*
-*Article précédent : S11 — L'Agriculture qui meurt*
+*Article suivant : S6 : L'Industrie désertée*
+*Article précédent : S11 : L'Agriculture qui meurt*
 
 ---
 
@@ -153,8 +153,8 @@ Le résultat ? Une génération qui grandit sans repères stables, dans une soci
 4. **INSEE (2023). « Familles : 23 % des enfants vivent en famille monoparentale ».** INSEE Première. https://www.insee.fr/fr/statistiques/7750004
 5. **Sénat (2023). « Rapport d'information sur les conséquences des séparations parentales ».** https://www.senat.fr/rap/r22-877/r22-877.html
 6. **Fondation de France (2025). « Enquête Solitudes 2025 ».** https://www.fondationdefrance.org/fr/nos-publications
-7. **DREES (2023). « L'aide sociale à l'enfance — chiffres 2023 ».** https://drees.solidarites-sante.gouv.fr/node/14838
-8. **Ministère de l'Éducation nationale (2025). « Projet de Loi de Finances 2025 — budget Éducation nationale ».** https://www.education.gouv.fr/le-budget-de-l-education-nationale-2025
+7. **DREES (2023). « L'aide sociale à l'enfance : chiffres 2023 ».** https://drees.solidarites-sante.gouv.fr/node/14838
+8. **Ministère de l'Éducation nationale (2025). « Projet de Loi de Finances 2025 : budget Éducation nationale ».** https://www.education.gouv.fr/le-budget-de-l-education-nationale-2025
 9. **Parcoursup (2025). « Statistiques d'admission 2025 ».** https://www.parcoursup.fr/
 10. **OCDE (2024). « Regards sur l'éducation 2024 ».** https://www.oecd.org/fr/publications/regards-sur-l-education.html
 11. **Ministère de l'Éducation nationale (2025). « Enquête personnels enseignants 2025 ».** https://www.education.gouv.fr/
@@ -164,6 +164,6 @@ Le résultat ? Une génération qui grandit sans repères stables, dans une soci
 15. **Médiamétrie (2024). « Temps d'écran des jeunes Français ».** https://www.mediametrie.fr/fr/donnees-audiovisuel
 16. **IGÉSR (2024). « Évaluation de l'éducation à la vie affective et sexuelle ».** https://dumas.ccsd.cnrs.fr/dumas-04818587
 17. **SSMSI (2024). « Bilan de la délinquance 2024 ».** Ministère de l'Intérieur. https://www.interieur.gouv.fr/Interstats/Actualites
-18. **Cour des comptes (2024). « Dédoublement des classes en REP+ — bilan ».** https://www.ccomptes.fr/fr/publications
+18. **Cour des comptes (2024). « Dédoublement des classes en REP+ : bilan ».** https://www.ccomptes.fr/fr/publications
 19. **Commission parlementaire (2025). « Scolarisation des enfants handicapés et AESH ».** https://www.senat.fr/senateurs/ollivier_mathilde23048e.html
-20. **Ministère de l'Éducation nationale (2023). « Équipes Valeurs de la République — bilan signalements laïcité 2023 ».** https://www.education.gouv.fr/bilans-de-l-action-des-equipes-valeurs-de-la-republique-377756
+20. **Ministère de l'Éducation nationale (2023). « Équipes Valeurs de la République : bilan signalements laïcité 2023 ».** https://www.education.gouv.fr/bilans-de-l-action-des-equipes-valeurs-de-la-republique-377756

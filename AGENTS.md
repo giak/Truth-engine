@@ -77,6 +77,7 @@ Lors de la rédaction d'articles ou de textes en français, tu dois incarner un 
 - **Vérification typographique** : Respecte les règles typographiques françaises (espaces insécables avant les deux-points, points-virgules, etc., guillemets français « », etc.).
 - **Citation des sources** : Comme dans la section d'anti-hallucination, toute affirmation doit être appuyée par des sources vérifiables.
 - **Style direct et puissant** : Bien que le texte soit élaboré, reste concis et évite les digressions inutile. Chaque mot doit avoir son poids.
+- **Zéro em-dash (—)** : Interdiction absolue du tiret cadratin (em dash, U+2014) dans tous les articles. Utiliser `:` pour les séparateurs de titre, `-` pour les listes, et reformuler les incises parenthétiques. Le caractère `—` ne doit jamais apparaître dans le corps du texte.
 
 ## Méthodologie d'Investigation
 
@@ -146,7 +147,7 @@ Chaque token économisé = moins de contexte consommé = plus de capacité pour 
 
 ---
 
-## ⚠️ ANTI-PATTERN — Appels tool `write()` (OBLIGATOIRE)
+## ⚠️ ANTI-PATTERN : Appels tool `write()` (OBLIGATOIRE)
 
 **JAMAIS appeler `write()` sans les DEUX paramètres `content` et `filePath`.**
 
@@ -169,7 +170,7 @@ write(content="le texte complet ici", filePath="/chemin/vers/fichier.md")
 
 **Pattern d'échec connu :** L'LLM génère parfois `write()` comme placeholder puis oublie de remplir les paramètres. **TOUJOURS construire l'appel complet en une seule passe.**
 
-### ⚠️ BUG DOCUMENTÉ — `write()` échoue silencieusement avec contenu long
+### ⚠️ BUG DOCUMENTÉ : `write()` échoue silencieusement avec contenu long
 
 **Symptôme :** `write()` retourne `"expected string, received undefined"` même quand `content=` et `filePath=` sont explicitement fournis. Les appels `bash()` avec commandes longues échouent aussi.
 
@@ -212,3 +213,50 @@ edit(filePath="/path/file.md",
 ```
 
 **NE JAMAIS :** tenter un `write()` de >5000 caractères en une passe. Ça échouera et gaspillera des tours de conversation.
+
+---
+
+## 🧠 Mnemolite — Base de connaissance vectorielle (RAG)
+
+**Mnemolite** est un moteur RAG (Retrieval-Augmented Generation) qui indexe toute la connaissance du projet — investigations, articles, code, notes. Il expose **deux interfaces** :
+
+### API REST (port 8001) — recommandée
+
+Un wrapper shell `mnemo` est disponible dans le PATH pour interroger Mnemolite directement depuis Freebuff (via `@basher`).
+
+```
+# État du serveur
+mnemo health
+mnemo status
+
+# Recherche vectorielle dans les mémoires
+mnemo search "immigration France politique"
+
+# Lister les mémoires récentes
+mnemo memories --limit 10
+
+# Lire une mémoire par son ID
+mnemo read <uuid>
+
+# Recherche dans le code indexé
+mnemo code "algorithme de routage"
+
+# Lister les projets indexés
+mnemo projects
+
+# Écrire une nouvelle mémoire
+mnemo write --title "Analyse dette publique" --content "..." --tags "dette,économie"
+
+# Événements récents
+mnemo events --limit 5
+```
+
+### MCP Server (port 8002)
+
+Configuré dans `.codebuff/config.json` pour les clients supportant MCP (Claude Code, Cursor, Kilocode).
+
+### Quand utiliser Mnemolite
+
+- **Recherche contextuelle** : avant d'écrire un article, cherche dans les mémoires pour trouver les faits et analyses existants
+- **Cross-référencement** : vérifie si un sujet a déjà été traité dans une investigation ou un article Substack
+- **Exploration de données** : utilise `mnemo search` avec des requêtes larges pour découvrir des connexions entre sujets

@@ -167,6 +167,29 @@
 | D113 | SOLUTION | CCP: 24-90 citoyens tirés au sort, 18 mois | ✦ | PNRED | inv:10 |
 | D114 | SOLUTION | Feuille de route RIC: T0→T+36 mois | ✦ | PNRED | inv:10 |
 | D115 | SOLUTION | Mesures exécutives 0-6 mois: bases Afrique, ZAN, médecins | ✦ | — | inv:10 |
+
+### THÈME 16 : Prévisions Commission Européenne & Classements zone euro
+
+| # | Catégorie | Élément | Statut | Source | Ligne |
+|---|----------|---------|--------|--------|-------|
+| D116 | CHIFFRE | Dette France 115,6% PIB (2025) → 118,1% (2026) → 120,2% (2027) — EC Spring 2026 | ✦ | ec.europa.eu | hex:§1.3 |
+| D117 | CHIFFRE | Déficit France -5,1% (2025) → -5,1% (2026) → -5,7% (2027) — pire zone euro 2027 | ✦ | ec.europa.eu | hex:§1.3 |
+| D118 | CHIFFRE | Chômage France 7,7% (2025) → 8,3% (2026) → 8,7% (2027) — 3e zone euro | ✦ | ec.europa.eu | hex:§1.3 |
+| D119 | CHIFFRE | Croissance France 0,8% (2025) → 0,8% (2026) → 1,1% (2027) | ✦ | ec.europa.eu | hex:§1.3 |
+| D120 | CHIFFRE | Inflation France 0,9% (2025) → 2,4% (2026) → 1,8% (2027) — choc Ormuz | ✦ | ec.europa.eu | hex:§1.3 |
+| D121 | CHIFFRE | Zone euro : chômage 6,3% (2025), 6,4% (2026-27) — France 2,3 pp au-dessus | ✦ | ec.europa.eu | hex:§3.1 |
+| D122 | CHIFFRE | Zone euro : déficit -2,9% (2025) → -3,5% (2027) — France 1,6× la moyenne | ✦ | ec.europa.eu | hex:§3.1 |
+| D123 | CHIFFRE | Classement dette Q4 2025 : Grèce 146,1% > Italie 137,1% > France 115,6% > Belgique 107,9% > Espagne 100,7% | ✦ | Eurostat | hex:§1.3 |
+| D124 | CHIFFRE | Dette France > pic Covid (115,6% vs 114,6% en 2020) | ✦ | Eurostat | hex:§1.3 |
+| D125 | CHIFFRE | Hausse dette France +2,9pp en 1 an (112,6%→115,6%) — 6e plus forte zone euro | ✦ | Eurostat | hex:§3 |
+| D126 | CHIFFRE | Intérêts dette : 2,2% PIB (2025) → 2,6% (2026) → 2,8% (2027) — facteur aggravant | ✦ | ec.europa.eu | hex:§3.2 |
+| D127 | ERREUR | Thread Hexagone_org : « 58 Md€ hausse dépenses » → en réalité hausse des RECETTES (dépenses +41,4 Md€) | ✦ | Insee | hex:§1 |
+| D128 | DATE | Publication Spring 2026 Economic Forecast par Commission Européenne : 20 mai 2026 | ✦ | ec.europa.eu | hex:§0 |
+| D129 | CHIFFRE | Choc énergétique Ormuz : pétrole +65%, gaz +50% entre fév et avril 2026 | ✦ | ec.europa.eu | hex:§3.2 |
+| D130 | STATISTIQUE | Chômage France 8,7% (2027) < Espagne ~10-11% et Grèce ~9-10% mais > Allemagne ~3,2% | ✦ | EC Spring 2026 | hex:§3.2 |
+| D131 | CHIFFRE | Spread OAT/Bund : 69 pb (mai 2026), sous seuil alerte 80 pb — baisse depuis mars 2026 | ✦ | Ideal-Investisseur | hex:§3.2 |
+| D132 | CONTRADICTION | Thread alerte sur dette 115,6% sans mentionner épargne ménages 6 477 Md€ (1,9× dette) | ✦ | Banque de France | hex:§3.2 |
+
 ### THÈME 14 : Prospective — signaux faibles et scénarios
 
 | # | Catégorie | Élément | Statut | Source | Ligne |

@@ -1,8 +1,8 @@
-# AUDIT CRITIQUE APEX — Amendé, corrigé, approfondi
+# AUDIT CRITIQUE APEX : Amendé, corrigé, approfondi
 
-*Critique forensique de l'audit original (2026-05-26_13-45) et du corpus complet « Le Changement de Régime » — 27 enquêtes KERNEL, 604 faits, 5 tensions, 16 articles.*
+*Critique forensique de l'audit original (2026-05-26_13-45) et du corpus complet « Le Changement de Régime » : 27 enquêtes KERNEL, 604 faits, 5 tensions, 16 articles.*
 
-> **Méthode** : Audit en 4 profondeurs. Couche 1 = protocole KERNEL (enquêtes). Couche 2 = SUBLIMATOR + DIALECTIQUE (synthèse). Couche 3 = articles publiés. Couche 4 = enrichissement Substack. L'audit original ne descend presque jamais sous la couche 3 — c'est son défaut principal.
+> **Méthode** : Audit en 4 profondeurs. Couche 1 = protocole KERNEL (enquêtes). Couche 2 = SUBLIMATOR + DIALECTIQUE (synthèse). Couche 3 = articles publiés. Couche 4 = enrichissement Substack. L'audit original ne descend presque jamais sous la couche 3 : c'est son défaut principal.
 
 ---
 
@@ -21,7 +21,7 @@ L'audit original confond le **diagnostic** (couche 1-2) avec la **rhétorique** 
 
 ---
 
-## §0 — MÉTA-AUDIT : Ce que l'audit original a correctement identifié
+## §0 : MÉTA-AUDIT : Ce que l'audit original a correctement identifié
 
 ### Points confirmés par vérification forensique
 
@@ -33,7 +33,7 @@ L'audit original confond le **diagnostic** (couche 1-2) avec la **rhétorique** 
 | S9 §4 | « 735 morts à la rue en **2023** » | ✅ Correct (source : collectif Les Morts de la Rue, rapport 2024) |
 | FACTCHECK ID L4 | « 735 morts à la rue **2023** » | ✅ Correct |
 
-**Cause racine :** Le HUB a été écrit indépendamment des articles S, probablement par un LLM différent. L'erreur est dans la couche 3 (article) uniquement — la couche 1 (FACTCHECK) est correcte.
+**Cause racine :** Le HUB a été écrit indépendamment des articles S, probablement par un LLM différent. L'erreur est dans la couche 3 (article) uniquement : la couche 1 (FACTCHECK) est correcte.
 
 #### ✅ PISA : écart selon l'année de référence
 
@@ -69,13 +69,13 @@ Vérification systématique dans les 16 articles :
 | **S16** Numérique | Structurel | 10% | 90% |
 | **HUB** | Intentionnel + structurel | 50% | 50% |
 
-**Verdict :** L'audit original avait raison de pointer S1 et HUB comme les articles les plus intentionnalistes. Mais il a eu tort de généraliser à tout le corpus. 12 articles sur 16 sont structurels à >80%. Le problème est concentré dans les articles de cadrage (S1, HUB, S15) — qui sont aussi les plus lus.
+**Verdict :** L'audit original avait raison de pointer S1 et HUB comme les articles les plus intentionnalistes. Mais il a eu tort de généraliser à tout le corpus. 12 articles sur 16 sont structurels à >80%. Le problème est concentré dans les articles de cadrage (S1, HUB, S15) : qui sont aussi les plus lus.
 
 #### ✅ Dualité peuple vs caste (réelle mais localisée)
 
 Présente dans S1, S15, HUB. Absente ou marginale dans S2-S14 et S16. Les articles sectoriels décrivent des mécanismes, pas des ennemis.
 
-Ce que l'audit n'a pas vu : la DIALECTIQUE (§1) a testé 3 thèses candidates (INVERSION, SYSTÈME, CAPTURE). La thèse CAPTURE (score 0.82) — qui postule l'existence d'une caste — a été retenue après test de résistance. C'est un **choix analytique** justifié par les données, pas un **biais rhétorique** imposé a priori.
+Ce que l'audit n'a pas vu : la DIALECTIQUE (§1) a testé 3 thèses candidates (INVERSION, SYSTÈME, CAPTURE). La thèse CAPTURE (score 0.82) : qui postule l'existence d'une caste : a été retenue après test de résistance. C'est un **choix analytique** justifié par les données, pas un **biais rhétorique** imposé a priori.
 
 #### ✅ Profondeur historique insuffisante
 
@@ -87,18 +87,18 @@ Confirmé. Le corpus traite 2017 comme année zéro. Phénomènes qui datent de 
 - Déclin agricole : Plan Mansholt 1968
 - PAC : structure inchangée depuis 1962
 
-**Mais** l'enquête 1.5 (Chaînes Causales) et 1.7 (Iceberg Max Synthèse Faisceaux) documentent ces tendances longues. Le problème est dans la **traduction en articles** — les articles S, par souci de concision, coupent la profondeur historique. Le FACTCHECK, lui, la contient.
+**Mais** l'enquête 1.5 (Chaînes Causales) et 1.7 (Iceberg Max Synthèse Faisceaux) documentent ces tendances longues. Le problème est dans la **traduction en articles** : les articles S, par souci de concision, coupent la profondeur historique. Le FACTCHECK, lui, la contient.
 
 ---
 
-## §1 — CE QUE L'AUDIT ORIGINAL A ERRONÉ OU MANQUÉ
+## §1 : CE QUE L'AUDIT ORIGINAL A ERRONÉ OU MANQUÉ
 
 ### 1.1 Erreurs factuelles de l'audit
 
 | Affirmation de l'audit | Fondation réelle | Vérdict |
 |-----------------------|-----------------|---------|
 | « Pas de contre-exemples intégrés » | Chaque article S a un §6 « Ce que ce chapitre ne dit pas ». La DIALECTIQUE (§1) liste explicitement les faits fragilisants (~50 pour thèse A, ~30 pour B, ~20 pour C). Le FACTCHECK inclut des statuts ⚠️ pour les faits non recoupés. | **❌ Faux à toutes les couches** |
-| « 30 500 expulsions = prévision/projet » | Donnée 2025 consolidée, article écrit en 2026. FACTCHECK ID L3 : « 30 500 (record) — Ministère Logement ». | **❌ Erreur factuelle** |
+| « 30 500 expulsions = prévision/projet » | Donnée 2025 consolidée, article écrit en 2026. FACTCHECK ID L3 : « 30 500 (record) : Ministère Logement ». | **❌ Erreur factuelle** |
 | « Preuve d'irréformabilité non démontrée » | Le corpus ne prétend pas la démontrer. HUB §5 : « Cette enquête n'appelle pas à une solution particulière : elle établit un diagnostic. » DIALECTIQUE §4 conclusion : « Le système ne peut pas se réformer de l'intérieur. C'est la conclusion vers laquelle convergent les 27 enquêtes et les 604 faits vérifiés. » C'est une **inférence**, pas une **preuve**. | **❌ Contre-sens** |
 | « 11M pollution attribué à transition française » | HUB §1 T5 mentionne 9M morts/an comme contexte mondial. L'enquête 14.1 (Arnaque Climatique) distingue clairement pollution mondiale (AC1 : 9M morts/an Lancet) et politique française (AC15-AC18 : taxe carbone régressive, exonération kérosène). | **❌ Attribution erronée** |
 | §7 et §12 sont des doublons | Identiques à 90%. Erreur structurelle de l'audit. | **✅ Confirmé** |
@@ -150,9 +150,9 @@ L'audit analyse les articles comme une pile de faits + un framing. Il ignore que
 
 ---
 
-## §2 — ÉVALUATION CORRIGÉE PAR COUCHE
+## §2 : ÉVALUATION CORRIGÉE PAR COUCHE
 
-### Couche 1 — Enquêtes KERNEL (27 investigations)
+### Couche 1 : Enquêtes KERNEL (27 investigations)
 
 | Critère | Note | Justification |
 |---------|------|--------------|
@@ -162,17 +162,17 @@ L'audit analyse les articles comme une pile de faits + un framing. Il ignore que
 | Gestion des incertitudes | ✦✦✦✦ | Faits marqués ⚠️, mais certains gaps (ex. S6 sans enquête dédiée) |
 | Contre-narratif intégré | ✦✦✦✦ | DIALECTIQUE avec 3 thèses, faits fragilisants listés. Mais pas de section « ce que cette enquête ne dit pas » dans chaque investigation |
 
-### Couche 2 — SUBLIMATOR + DIALECTIQUE
+### Couche 2 : SUBLIMATOR + DIALECTIQUE
 
 | Critère | Note | Justification |
 |---------|------|--------------|
 | Test de thèses | ✦✦✦✦✦ | 3 thèses avec scores, test de résistance, seuil de 0.4 |
-| Architecture narrative | ✦✦✦✦ | 4 actes forensiques cohérents. S6 sans enquête dédiée — trou |
+| Architecture narrative | ✦✦✦✦ | 4 actes forensiques cohérents. S6 sans enquête dédiée : trou |
 | Qualité du cycle rédactionnel | ✦✦✦✦ | Écrivain→Critique→Correcteur→Arbitre. En pratique, shortcuts possibles |
 | Sourcing organique (LOI 1) | ✦✦✦✦✦ | Source nommée dans chaque phrase |
 | Stylistique (LOI 3-7) | ✦✦✦✦ | Globalement bon, quelques entorses (em-dashes dans HUB) |
 
-### Couche 3 — Articles S
+### Couche 3 : Articles S
 
 | Critère | Note | Justification |
 |---------|------|--------------|
@@ -183,7 +183,7 @@ L'audit analyse les articles comme une pile de faits + un framing. Il ignore que
 | Cohérence interne (entre articles) | ✦✦✦✦ | Très bonne. Quelques incohérences mineures (PISA, date 735 morts) |
 | Ton forensique vs polémique | ✦✦✦ | Articles sectoriels: forensique. HUB/S1: tendance polémique |
 
-### Couche 4 — Enrichissement Substack
+### Couche 4 : Enrichissement Substack
 
 | Critère | Note | Justification |
 |---------|------|--------------|
@@ -194,7 +194,7 @@ L'audit analyse les articles comme une pile de faits + un framing. Il ignore que
 
 ---
 
-## §3 — VÉRIFICATION D'UN ÉCHANTILLON DE FAITS
+## §3 : VÉRIFICATION D'UN ÉCHANTILLON DE FAITS
 
 J'ai vérifié 15 faits choisis pour leur criticité, en suivant les URLs du FACTCHECK.
 
@@ -209,18 +209,18 @@ J'ai vérifié 15 faits choisis pour leur criticité, en suivant les URLs du FAC
 | M1 | 9 propriétaires = 90% médias | Arcom | arcom.fr/se-documenter/etudes-et-donnees/ | ⚠️ URL générique, pas le rapport spécifique |
 | D1 | 23 49.3 | Assemblée Nationale | assemblee-nationale.fr/dyn/49-3 | ✅ Active |
 | AC1 | Pollution 9M morts/an | Lancet Commission | thelancet.com/commissions/pollution-and-health | ✅ Active |
-| A1 | 100K fermes disparues | MSA/Agreste | Non vérifié — URL non spécifique | ⚠️ Source générique |
+| A1 | 100K fermes disparues | MSA/Agreste | Non vérifié : URL non spécifique | ⚠️ Source générique |
 | OF1 | Famille Mulliez CA 70 Md€ | Challenges | challenges.fr/classements/ | ⚠️ URL racine |
 | E8 | PISA −43 pts 2003-2023 | OCDE | oecd.org/publication/pisa-2022-results/ | ✅ Active |
 | J22 | Budget justice 0,34% PIB vs UE 0,67% | CEPEJ | rm.coe.int/cepej-study-on-judicial-systems | ✅ Active |
 | L30 | 61% hébergement 115 non satisfaites | IGAS/IGF | igas.gouv.fr/revue-hebergement-urgence-2025 | ✅ Active |
-| TE24 | EPR Flamanville surcoût 19,1 Md€ ×4 | Cour des comptes | Non vérifié — URL manquante dans la source citée | ⚠️ |
+| TE24 | EPR Flamanville surcoût 19,1 Md€ ×4 | Cour des comptes | Non vérifié : URL manquante dans la source citée | ⚠️ |
 
 **Résultat :** 12/15 ✅, 3/15 ⚠️ (URL non spécifique). Pas de ❌. La qualité de sourçage est réelle mais perfectible : certaines URLs pointent vers des pages d'accueil plutôt que des documents spécifiques.
 
 ---
 
-## §4 — ANALYSE DES CHAÎNES CAUSALES (re-évaluation complète)
+## §4 : ANALYSE DES CHAÎNES CAUSALES (re-évaluation complète)
 
 L'audit original critique la causalité comme « simpliste ». Vérifions chaîne par chaîne.
 
@@ -255,8 +255,8 @@ Affirmation : 9 propriétaires → 90% médias → verrouillage débat → pas d
 
 **Points faibles :**
 - **Causalité non démontrée** : la corrélation entre concentration médiatique et absence de protestation n'est pas quantifiée
-- Fragmentation numérique : 62% des 18-24 ans s'informent sur réseaux sociaux (M12) — ce canal est hors du verrou
-- Médias indépendants existent (Mediapart, Blast) et performent — pourquoi ne cassent-ils pas le verrou ?
+- Fragmentation numérique : 62% des 18-24 ans s'informent sur réseaux sociaux (M12) : ce canal est hors du verrou
+- Médias indépendants existent (Mediapart, Blast) et performent : pourquoi ne cassent-ils pas le verrou ?
 - **Alternative** : la défiance pourrait précéder la concentration (les citoyens se méfient depuis qu'ils ont vu la partialité des médias mainstream, mais cette prise de conscience n'est pas causée par la concentration)
 
 **Amélioration possible :** Distinguer « verrouillage du débat mainstream » (documenté) de « contrôle total de l'information » (non documenté, contredit par l'existence de médias indépendants).
@@ -275,7 +275,7 @@ Affirmation : affaiblissement → impuissance UE → pas de résilience → cris
 **Points faibles :**
 - **Causalité la plus fragile du corpus.** Le lien entre abdication UE et externalisation climatique est trop indirect
 - La France garde une marge de manœuvre réelle (dissuasion nucléaire, siège ONU, soft power) que le corpus minimise
-- Certaines externalisations (climat) sont globales — les imputer au système français est un biais d'attribution
+- Certaines externalisations (climat) sont globales : les imputer au système français est un biais d'attribution
 
 ### Boucle de retour T5 → T1
 
@@ -292,7 +292,7 @@ C'est la chaîne la moins documentée du corpus. Elle est **postulée** plutôt 
 
 ---
 
-## §5 — LES 5 FAIBLESSES STRUCTURELLES RÉELLES (corrigées)
+## §5 : LES 5 FAIBLESSES STRUCTURELLES RÉELLES (corrigées)
 
 ### Faiblesse 1 : Profondeur historique (✦✦)
 
@@ -300,7 +300,7 @@ C'est la chaîne la moins documentée du corpus. Elle est **postulée** plutôt 
 
 **Manifestation concrète :** Aucun article S ne mentionne la loi de 1986 sur la concentration médiatique. Aucun ne mentionne le Plan Mansholt de 1968 (agriculture). Le déclin PISA commence en 2003, pas en 2017.
 
-**Solution :** Ajouter dans chaque article S un encadré « Ce qui vient d'avant 2017 » de 2-3 lignes. Le matériau existe dans les enquêtes KERNEL (1.5, 1.7) — il n'est pas utilisé dans les articles.
+**Solution :** Ajouter dans chaque article S un encadré « Ce qui vient d'avant 2017 » de 2-3 lignes. Le matériau existe dans les enquêtes KERNEL (1.5, 1.7) : il n'est pas utilisé dans les articles.
 
 ### Faiblesse 2 : Scénarios de sortie (✦✦)
 
@@ -308,7 +308,7 @@ C'est la chaîne la moins documentée du corpus. Elle est **postulée** plutôt 
 
 **Ce qui existe déjà :** Les §6 de chaque article S mentionnent des contre-exemples (budgets participatifs, monnaies locales, coopératives). Mais ces mentions sont des **catalogues** (liste de choses qui existent) pas des **scénarios** (trajectoires de changement).
 
-**Solution :** Ajouter 3 scénarios contrastés dans le HUB — pas des « solutions » mais des trajectoires : (1) réforme par choc externe (crise de la dette force un New Deal fiscal), (2) effondrement puis recomposition (Grèce 2015, Argentine 2001), (3) transition lente par le bas (monnaies locales, coopératives, budgets participatifs). Chaque scénario sourcé par des précédents historiques.
+**Solution :** Ajouter 3 scénarios contrastés dans le HUB : pas des « solutions » mais des trajectoires : (1) réforme par choc externe (crise de la dette force un New Deal fiscal), (2) effondrement puis recomposition (Grèce 2015, Argentine 2001), (3) transition lente par le bas (monnaies locales, coopératives, budgets participatifs). Chaque scénario sourcé par des précédents historiques.
 
 ### Faiblesse 3 : Ventilation causale (✦✦✦)
 
@@ -328,7 +328,7 @@ Même approximative, cette ventilation serait plus robuste que l'assimilation ac
 **Problème :** S1, S15 et HUB utilisent un registre intentionnaliste (« la caste a fait les choix », « le système a été conçu pour ») qui contredit le ton structurel des autres articles.
 
 **Manifestation :**
-- S1 §4 : « La caste ne se contente pas de gouverner contre le peuple — elle le méprise. »
+- S1 §4 : « La caste ne se contente pas de gouverner contre le peuple : elle le méprise. »
 - HUB §3 : « Le système fonctionne exactement comme il a été conçu. »
 - Ces phrases sont **interprétatives** : il n'y a pas de preuve que le système a été « conçu » pour produire ces résultats. Les preuves montrent des mécanismes, pas des intentions.
 
@@ -350,7 +350,7 @@ Même approximative, cette ventilation serait plus robuste que l'assimilation ac
 
 ---
 
-## §6 — LA THÈSE DE L'IRRÉFORMABILITÉ : RÉÉVALUATION
+## §6 : LA THÈSE DE L'IRRÉFORMABILITÉ : RÉÉVALUATION
 
 ### Ce que le corpus dit réellement
 
@@ -362,7 +362,7 @@ Le HUB formule une **impossibilité absolue** (ne peut pas). La DIALECTIQUE form
 
 Les 5 tensions forment un système de contraintes : la réforme de T1 (extraction) est difficile parce que T2 (capture médiatique) contrôle le récit. La réforme de T2 est difficile parce que T1 finance les médias. C'est un **verrouillage par contraintes croisées**.
 
-**Ce qui est robuste :** L'idée que les 5 tensions se renforcent mutuellement est une **analyse de verrouillage** (lock-in) — concept standard en économie des systèmes (Arthur 1989, David 1985). Le corpus aurait gagné à le nommer.
+**Ce qui est robuste :** L'idée que les 5 tensions se renforcent mutuellement est une **analyse de verrouillage** (lock-in) : concept standard en économie des systèmes (Arthur 1989, David 1985). Le corpus aurait gagné à le nommer.
 
 **Ce qui est fragile :** L'idée que ce verrouillage est **total** et **définitif**. En pratique, les verrouillages systémiques se brisent parfois (chute du Mur, démantèlement de l'apartheid, New Deal). Les conditions de basculement ne sont pas analysées.
 
@@ -370,13 +370,13 @@ Les 5 tensions forment un système de contraintes : la réforme de T1 (extractio
 
 Remplacer la formulation absolue du HUB par une formulation de **verrouillage probabiliste** :
 
-> « Les 5 tensions identifiées forment un système de verrouillage par contraintes croisées. Chaque réforme d'un élément est freinée par les quatre autres, ce qui rend une transformation par le haut improbable dans les conditions actuelles. Ce verrouillage n'est pas éternel — des chocs exogènes (crise de la dette, crise politique, pression internationale) pourraient le briser — mais il n'existe aujourd'hui aucun mécanisme endogène de sortie. »
+> « Les 5 tensions identifiées forment un système de verrouillage par contraintes croisées. Chaque réforme d'un élément est freinée par les quatre autres, ce qui rend une transformation par le haut improbable dans les conditions actuelles. Ce verrouillage n'est pas éternel : des chocs exogènes (crise de la dette, crise politique, pression internationale) pourraient le briser : mais il n'existe aujourd'hui aucun mécanisme endogène de sortie. »
 
 ---
 
-## §7 — PROTOCOLE D'AMÉLIORATION (APEX)
+## §7 : PROTOCOLE D'AMÉLIORATION (APEX)
 
-### Priorité haute — Correctifs avant publication
+### Priorité haute : Correctifs avant publication
 
 | # | Action | Fichier | Détail | Effort |
 |---|--------|---------|--------|--------|
@@ -386,7 +386,7 @@ Remplacer la formulation absolue du HUB par une formulation de **verrouillage pr
 | 4 | ✏️ Contexte Lancet | HUB §1 T5 | « 9M morts/an monde, dont ~48K France » | 5 min |
 | 5 | ✏️ URLs non spécifiques | FACTCHECK (OF1, M1, A1) | Remplacer URLs racines par pages spécifiques | 30 min |
 
-### Priorité moyenne — Renforcements structurels
+### Priorité moyenne : Renforcements structurels
 
 | # | Action | Fichier | Détail |
 |---|--------|---------|--------|
@@ -397,7 +397,7 @@ Remplacer la formulation absolue du HUB par une formulation de **verrouillage pr
 | 10 | ➕ Reformulation S1 §4 | S1 | Idem |
 | 11 | ➕ Carte inter-articles | ENRICHISSEMENT | Cross-links entre S (déjà 8 identifiés) |
 
-### Priorité basse — Amélioration continue
+### Priorité basse : Amélioration continue
 
 | # | Action | Détail |
 |---|--------|--------|
@@ -409,14 +409,14 @@ Remplacer la formulation absolue du HUB par une formulation de **verrouillage pr
 
 ### Ce qu'il NE faut PAS faire
 
-- ❌ Supprimer ou affaiblir les §6 — c'est la force la plus rare du corpus
-- ❌ Ajouter une « théorie du changement » — le corpus est un diagnostic, pas un programme
-- ❌ Diluer la thèse pour « paraître objectif » — 604 faits convergent vers une conclusion
-- ❌ Nier la validité du cadre dialectique — il a été testé contre 3 thèses concurrentes
+- ❌ Supprimer ou affaiblir les §6 : c'est la force la plus rare du corpus
+- ❌ Ajouter une « théorie du changement » : le corpus est un diagnostic, pas un programme
+- ❌ Diluer la thèse pour « paraître objectif » : 604 faits convergent vers une conclusion
+- ❌ Nier la validité du cadre dialectique : il a été testé contre 3 thèses concurrentes
 
 ---
 
-## §8 — VERDICT FINAL
+## §8 : VERDICT FINAL
 
 ### Ce qu'est réellement ce corpus
 
@@ -454,21 +454,21 @@ Ne pas affaiblir la thèse. Renforcer sa base factuelle en :
 4. Reformulant l'intentionnalité en termes structurels
 5. Ajoutant des scénarios contrastés
 
-Le corpus est déjà rare par sa rigueur de sourçage et son dispositif d'auto-critique intégré. Ces forces doivent être préservées et mises en avant. La vulnérabilité principale n'est pas le « manichéisme » — c'est l'absence de profondeur historique et la faiblesse des scénarios alternatifs.
+Le corpus est déjà rare par sa rigueur de sourçage et son dispositif d'auto-critique intégré. Ces forces doivent être préservées et mises en avant. La vulnérabilité principale n'est pas le « manichéisme » : c'est l'absence de profondeur historique et la faiblesse des scénarios alternatifs.
 
 ---
 
 ## SOURCES DE CET AUDIT
 
-1. **27 enquêtes KERNEL v2.0** — /investigations/2026-05-23_macron-systeme-complet/ (enquêtes 1.1 à 16.3)
-2. **00B_CENSUS.md** — Inventaire des 27 enquêtes
-3. **01_DIGEST.md** — Résumés exécutifs
-4. **02_DIALECTIQUE.md** — 3 thèses, test de résistance, thèse cardinale, 5 tensions
-5. **03_ARCHITECTURE.md** — Structure narrative 4 actes
-6. **04_FACTCHECK.md** — 604 faits vérifiés
-7. **PROMPT_ARTICLE_MASTER.md** — 8 LOIS de rédaction
-8. **SUBLIMATOR v28.1** — /tools/prompts/systems/SUBLIMATOR_v28.0.md
-9. **KERNEL v2.0** — /truth-engine-v2/KERNEL.md
-10. **16 articles S** — S1 à S16 + HUB
-11. **ENRICHISSEMENT_SUBSTACK_CHANGELOG.md** — Traçabilité des 32 injections
-12. **Audit original** — 2026-05-26_13-45_audit_critique_le_changement_de_regime_APEX.md
+1. **27 enquêtes KERNEL v2.0** : /investigations/2026-05-23_macron-systeme-complet/ (enquêtes 1.1 à 16.3)
+2. **00B_CENSUS.md** : Inventaire des 27 enquêtes
+3. **01_DIGEST.md** : Résumés exécutifs
+4. **02_DIALECTIQUE.md** : 3 thèses, test de résistance, thèse cardinale, 5 tensions
+5. **03_ARCHITECTURE.md** : Structure narrative 4 actes
+6. **04_FACTCHECK.md** : 604 faits vérifiés
+7. **PROMPT_ARTICLE_MASTER.md** : 8 LOIS de rédaction
+8. **SUBLIMATOR v28.1** : /tools/prompts/systems/SUBLIMATOR_v28.0.md
+9. **KERNEL v2.0** : /truth-engine-v2/KERNEL.md
+10. **16 articles S** : S1 à S16 + HUB
+11. **ENRICHISSEMENT_SUBSTACK_CHANGELOG.md** : Traçabilité des 32 injections
+12. **Audit original** : 2026-05-26_13-45_audit_critique_le_changement_de_regime_APEX.md

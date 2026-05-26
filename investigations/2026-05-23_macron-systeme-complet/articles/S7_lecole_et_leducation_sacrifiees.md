@@ -1,6 +1,6 @@
-# 📚 L'École et l'Éducation sacrifiées — 120 000 postes supprimés, 43 points perdus, 51 % sans repères
+# 📚 L'École et l'Éducation sacrifiées : 120 000 postes supprimés, 43 points perdus, 51 % sans repères
 
-*📚 La France dépense 86 milliards d'euros par an pour l'éducation — le premier budget de l'État. Pourtant, le niveau scolaire s'effondre, la confiance dans les institutions tombe à 22 %, la moitié des Français de 18 à 59 ans se déclare sans religion, et 4 millions d'adultes sont en situation d'illettrisme. Ce n'est pas une crise : c'est la rupture méthodique de tout ce qui transmet.*
+*📚 La France dépense 86 milliards d'euros par an pour l'éducation : le premier budget de l'État. Pourtant, le niveau scolaire s'effondre, la confiance dans les institutions tombe à 22 %, la moitié des Français de 18 à 59 ans se déclare sans religion, et 4 millions d'adultes sont en situation d'illettrisme. Ce n'est pas une crise : c'est la rupture méthodique de tout ce qui transmet.*
 
 *📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
 
@@ -18,7 +18,7 @@ En parallèle, **22 % des Français font confiance au gouvernement**, selon le B
 
 Le paradoxe est saisissant : la France investit massivement dans la transmission intergénérationnelle, et la transmission n'a jamais aussi mal fonctionné. Ce n'est pas un accident : c'est le résultat de 40 ans de politiques qui ont vidé les institutions de leur capacité à transmettre, au nom de la modernisation et de l'individualisme.
 
-Cette crise de la transmission n'est pas un phénomène culturel isolé : elle s'insère dans le système de verrouillage documenté par cette enquête. L'extraction massive de la richesse nationale (Tension 1) prive l'État des moyens d'investir dans l'éducation. Le verrouillage médiatique et politique (Tension 2) empêche la formulation d'un nouveau récit commun. Le démantèlement des services publics (Tension 3) vide l'école de ses forces vives. Les trois premières tensions du piège convergent pour produire une génération sans repères — ce n'est pas un effet secondaire, c'est la conséquence logique du système.
+Cette crise de la transmission n'est pas un phénomène culturel isolé : elle s'insère dans le système de verrouillage documenté par cette enquête. L'extraction massive de la richesse nationale (Tension 1) prive l'État des moyens d'investir dans l'éducation. Le verrouillage médiatique et politique (Tension 2) empêche la formulation d'un nouveau récit commun. Le démantèlement des services publics (Tension 3) vide l'école de ses forces vives. Les trois premières tensions du piège convergent pour produire une génération sans repères : ce n'est pas un effet secondaire, c'est la conséquence logique du système.
 
 > La preuve la plus implacable vient d'une étude longitudinale de la DEPP, le service d'évaluation du ministère lui-même. La même dictée de CM2, passée dans les mêmes conditions quatre fois en 34 ans : 10,7 erreurs en 1987, 14,7 en 2007 (+37 %), 18 en 2015 (+68 %), **19,4 en 2021 (+81 %)**. Ce n'est pas un mythe nostalgique : c'est une mesure scientifique, répétée, par l'institution qui devrait prouver l'inverse.
 
@@ -66,7 +66,7 @@ Le salaire d'un enseignant débutant en France est de **1 800 euros net par mois
 
 ### 800 000 jeunes sans diplôme chaque année
 
-**800 000 jeunes** quittent chaque année le système scolaire — dont environ **100 000 sans diplôme ni qualification**, selon le ministère de l'Éducation nationale. Le taux de redoublement en France atteint 8 %, l'un des plus élevés de l'OCDE.
+**800 000 jeunes** quittent chaque année le système scolaire : dont environ **100 000 sans diplôme ni qualification**, selon le ministère de l'Éducation nationale. Le taux de redoublement en France atteint 8 %, l'un des plus élevés de l'OCDE.
 
 Les résultats de l'enquête PISA confirment l'ampleur du désastre : la part des élèves déclarant un manque de reconnaissance professionnelle chez leurs enseignants est la plus élevée de l'OCDE. L'écart entre les élèves les plus performants et les moins performants est le plus fort des pays de l'OCDE. La France n'est pas un pays où « le niveau baisse pour tout le monde » : c'est un pays où l'école réussit aux enfants des catégories favorisées et abandonne ceux des milieux populaires.
 
@@ -88,7 +88,7 @@ Un enfant de cadre a **45 % de chances d'être scolarisé dans le privé**, cont
 
 Un élève en REP+ a **15 fois moins de chances d'accéder à une filière sélective** (classe préparatoire, grande école) qu'un élève d'un établissement favorisé, selon France Stratégie (mobilité sociale 2024). L'assignation territoriale est quasi définitive : là où vous habitez détermine votre destin scolaire plus sûrement que vos capacités.
 
-> Ce verrouillage territorial s'accompagne d'une **fuite organisée des élites**. Les écoles hors contrat ont été multipliées par 10 en 30 ans : de 260 établissements (13 000 élèves) en 1995 à 2 614 (130 000 élèves) en 2024, avec des frais de 4 000 à 16 000 euros par an. L'industrie EdTech, qui pèse 1,6 milliard d'euros, prospère sur la disruption permanente du système public. Cinq ministres de l'Éducation se sont succédé en 2024 — un record. Quand le système public se dégrade, ceux qui en ont les moyens s'achètent une échappatoire, et le marché encaisse la différence.
+> Ce verrouillage territorial s'accompagne d'une **fuite organisée des élites**. Les écoles hors contrat ont été multipliées par 10 en 30 ans : de 260 établissements (13 000 élèves) en 1995 à 2 614 (130 000 élèves) en 2024, avec des frais de 4 000 à 16 000 euros par an. L'industrie EdTech, qui pèse 1,6 milliard d'euros, prospère sur la disruption permanente du système public. Cinq ministres de l'Éducation se sont succédé en 2024 : un record. Quand le système public se dégrade, ceux qui en ont les moyens s'achètent une échappatoire, et le marché encaisse la différence.
 
 <!-- ENRICHIE: leffondrement-educatif-francais-50-fea -->
 <!-- THEME: verrouillage-systemique -->
@@ -146,23 +146,23 @@ Les réformes s'accumulent sans que personne ne mesure si elles fonctionnent. Le
 
 Le résultat ? Une génération qui grandit sans repères stables, dans une société qui ne lui offre plus de récit commun. Une jeunesse dont la confiance dans les institutions s'effondre, dont les écrans sont devenus les premiers éducateurs, et qui hérite d'un monde dont les clés de compréhension ne lui ont pas été transmises.
 
-## §6 — Ce que ce chapitre ne dit pas
+## §6 : Ce que ce chapitre ne dit pas
 
-Ce diagnostic sévère sur l'école et la famille ne dit rien des expériences qui fonctionnent ailleurs. La Finlande, l'Estonie ou le Canada, qui obtiennent de meilleurs résultats PISA avec des budgets comparables, ont investi dans la formation initiale des enseignants (master obligatoire, stages rémunérés), l'autonomie pédagogique des établissements et l'évaluation continue sans examen standardisé avant 16 ans. La France pourrait s'inspirer de ces modèles sans révolutionner son système. Le chapitre ne mentionne pas non plus le potentiel des pédagogies alternatives (Montessori, Freinet, écoles démocratiques) qui, bien que minoritaires, montrent des résultats prometteurs dans des contextes défavorisés. Enfin, la baisse démographique annoncée (moins 200 000 élèves d'ici 2030) pourrait être une opportunité de réinvestir massivement par élève, si les moyens libérés étaient réaffectés — ce que rien ne garantit dans l'état actuel des finances publiques.
+Ce diagnostic sévère sur l'école et la famille ne dit rien des expériences qui fonctionnent ailleurs. La Finlande, l'Estonie ou le Canada, qui obtiennent de meilleurs résultats PISA avec des budgets comparables, ont investi dans la formation initiale des enseignants (master obligatoire, stages rémunérés), l'autonomie pédagogique des établissements et l'évaluation continue sans examen standardisé avant 16 ans. La France pourrait s'inspirer de ces modèles sans révolutionner son système. Le chapitre ne mentionne pas non plus le potentiel des pédagogies alternatives (Montessori, Freinet, écoles démocratiques) qui, bien que minoritaires, montrent des résultats prometteurs dans des contextes défavorisés. Enfin, la baisse démographique annoncée (moins 200 000 élèves d'ici 2030) pourrait être une opportunité de réinvestir massivement par élève, si les moyens libérés étaient réaffectés : ce que rien ne garantit dans l'état actuel des finances publiques.
 
-➡️ **À lire ensuite :** 4 700 OQTF exécutées sur 134 000, une politique qui ne contrôle ni les flux ni l'intégration — **S8 — L'Immigration sans Cap**
+➡️ **À lire ensuite :** 4 700 OQTF exécutées sur 134 000, une politique qui ne contrôle ni les flux ni l'intégration : **S8 : L'Immigration sans Cap**
 
 ---
 
-*📖 **Article suivant :** 🧭 L'Immigration sans Cap — 340 000 titres, 71 % de rejet, zéro politique [LIEN_A_INSERER]*
-*📖 **Article précédent :** 📦 Les Visages de la Pauvreté — 9,8 millions de Français sous le seuil [LIEN_A_INSERER]*
+*📖 **Article suivant :** 🧭 L'Immigration sans Cap : 340 000 titres, 71 % de rejet, zéro politique [LIEN_A_INSERER]*
+*📖 **Article précédent :** 📦 Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil [LIEN_A_INSERER]*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
 
 ---
 
 ### À voir aussi
 
-- 🔗 [« L'effondrement éducatif français »](https://giak.substack.com/p/leffondrement-educatif-francais-50-fea) — sur la crise de la transmission et l'effondrement du niveau scolaire
+- 🔗 [« L'effondrement éducatif français »](https://giak.substack.com/p/leffondrement-educatif-francais-50-fea) : sur la crise de la transmission et l'effondrement du niveau scolaire
 
 ---
 
@@ -174,8 +174,8 @@ Ce diagnostic sévère sur l'école et la famille ne dit rien des expériences q
 4. **INSEE (2023). « Familles : 23 % des enfants vivent en famille monoparentale ».** INSEE Première. https://www.insee.fr/fr/statistiques/7750004
 5. **Sénat (2023). « Rapport sur les conséquences des séparations parentales ».** https://www.senat.fr/rap/r22-877/r22-877.html
 6. **Fondation de France (2025). « Enquête Solitudes 2025 ».** https://www.fondationdefrance.org/fr/nos-publications
-7. **DREES (2023). « L'aide sociale à l'enfance — chiffres 2023 ».** https://drees.solidarites-sante.gouv.fr/node/14838
-8. **Ministère de l'Éducation nationale (2025). « Projet de Loi de Finances 2025 — budget Éducation nationale ».** https://www.education.gouv.fr/le-budget-de-l-education-nationale-2025
+7. **DREES (2023). « L'aide sociale à l'enfance : chiffres 2023 ».** https://drees.solidarites-sante.gouv.fr/node/14838
+8. **Ministère de l'Éducation nationale (2025). « Projet de Loi de Finances 2025 : budget Éducation nationale ».** https://www.education.gouv.fr/le-budget-de-l-education-nationale-2025
 9. **Cour des comptes (2022). « Rapport sur l'Éducation nationale : 120 000 postes supprimés ».** https://www.ccomptes.fr/fr/publications/leducation-nationale
 10. **OCDE (2024). « Regards sur l'éducation 2024 ».** https://www.oecd.org/fr/publications/regards-sur-l-education.html
 11. **Ministère de l'Éducation nationale (2025). « Enquête personnels enseignants 2025 ».** https://www.education.gouv.fr/personnels-de-l-education-nationale-statistiques
@@ -185,13 +185,13 @@ Ce diagnostic sévère sur l'école et la famille ne dit rien des expériences q
 15. **France Stratégie (2024). « Mobilité sociale en France ».** https://www.strategie.gouv.fr/publications/mobilite-sociale-france
 16. **Cour des comptes (2024). « Enseignement supérieur : budget par étudiant −12 % ».** https://www.ccomptes.fr/fr/publications/letablissement-public-polemique
 17. **Ministère de l'Enseignement supérieur (2025). « Enquête personnels enseignants du supérieur ».** https://www.enseignementsup-recherche.gouv.fr/fr/enquete-2025-personnels-enseignants-du-superieur
-18. **Sciences Po (2024). « Enquête sociale — 60 % catégories supérieures ».** https://www.sciencespo.fr/fr/egalite-des-chances
+18. **Sciences Po (2024). « Enquête sociale : 60 % catégories supérieures ».** https://www.sciencespo.fr/fr/egalite-des-chances
 19. **INSP (2024). « Données sociales ».** https://www.insp.gouv.fr/egalite-des-chances
 20. **Ministère de l'Éducation nationale (2023). « Signalements laïcité 2022-2023 ».** https://www.education.gouv.fr/bilans-de-l-action-des-equipes-valeurs-de-la-republique-377756
 21. **Médiamétrie (2024). « Temps d'écran des jeunes Français ».** https://www.mediametrie.fr/fr/donnees-audiovisuel
 22. **CLEMI (2024). « Enquête sur le rapport des jeunes à l'information ».** https://www.clemi.fr/enquetes-et-etudes
 23. **IGÉSR (2024). « Évaluation de l'éducation à la vie affective et sexuelle ».** https://dumas.ccsd.cnrs.fr/dumas-04818587
-24. **Cour des comptes (2024). « Dédoublement des classes en REP+ — bilan ».** https://www.ccomptes.fr/fr/publications/le-service-national-universel-snu
+24. **Cour des comptes (2024). « Dédoublement des classes en REP+ : bilan ».** https://www.ccomptes.fr/fr/publications/le-service-national-universel-snu
 25. **Commission parlementaire (2025). « Scolarisation des enfants handicapés et AESH ».** https://www.senat.fr/senateurs/ollivier_mathilde23048e.html
 26. **Ministère de l'Éducation nationale (2024). « Évaluations nationales lecture 2024 ».** https://www.education.gouv.fr/evaluations-nationales
 27. **Observatoire de la vie étudiante (OVE, 2023). « Enquête Parcoursup ».** https://www.ove-national.education.fr/
