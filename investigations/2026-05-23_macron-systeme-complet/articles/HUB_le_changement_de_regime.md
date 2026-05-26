@@ -246,9 +246,9 @@ L'un ne va pas sans l'autre. Changer le système sans changer sa vie, c'est remp
 
 ## Note sur le travail d'enquête
 
-Ce texte est la synthèse d'un travail de **cinq jours** (23-26 mai 2026) qui a produit 16 articles et ce HUB de synthèse. Il s'appuie sur **27 enquêtes complexes** produites par le protocole Truth Engine (KERNEL v2.0), un pipeline forensique en 19 étapes qui combine analyse symbolique, vérification multi-source et cartographie des verrous systémiques. Ces enquêtes ont alimenté **86 articles publiés** depuis novembre 2025.
+Ce texte est la synthèse d'un travail de **cinq jours** (23-26 mai 2026) qui a produit 16 articles et ce HUB de synthèse. Il s'appuie sur **27 enquêtes complexes** produites par le protocole Truth Engine, un pipeline forensique en 19 étapes qui combine analyse symbolique, vérification multi-source et cartographie des verrous systémiques. Ces enquêtes ont alimenté **86 articles publiés** depuis novembre 2025.
 
-**Méthode.** Chaque enquête part d'un paradoxe observable : la France exporte de l'électricité, des millions de Français peinent à se chauffer → collecte des données officielles (INSEE, Cour des comptes, rapports parlementaires) → mise en évidence de l'incohérence → identification des bénéficiaires implicites du statu quo → cartographie des verrous qui empêchent la correction.
+**Méthode.** Chaque enquête suit le pipeline Truth Engine (KERNEL v2.0, 19 étapes) : analyse symbolique du discours dominant (15 symboles scorés de 0 à 10 — gaslighting, framing, capture, inversion, etc.) → cartographie des clusters de manipulation → chronologie forensique → domaines d'impact avec faits marqués ✦ → cartographie systémique du réseau d'acteurs et boucles de rétroaction → chaînes causales quantifiées (≥3 maillons par chaîne, minimum 2 chaînes par enquête) → registre de preuves complet (FACT_REGISTRY avec dates, acteurs, chiffres, URLs, fiabilité) → carte dialectique à 3 perspectives (économique, critique, arbitrage) → identification des loups (acteurs nommément désignés) → scope et limitations → vérification multi-domaine.
 
 **Vérification.** Chaque fait est sourcé avec son URL publique. Les articles ont été soumis à des audits critiques automatisés (APEX) qui traquent incohérences, biais de framing et sauts logiques. Les corrections issues de ces audits ont été intégrées.
 
