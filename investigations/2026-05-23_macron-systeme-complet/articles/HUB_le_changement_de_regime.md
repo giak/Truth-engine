@@ -244,6 +244,20 @@ L'un ne va pas sans l'autre. Changer le système sans changer sa vie, c'est remp
 
 ---
 
+## Note sur le travail d'enquête
+
+Ce texte est la synthèse d'un travail de **cinq jours** (23-26 mai 2026) qui a produit 16 articles et ce HUB de synthèse. Il s'appuie sur **27 enquêtes complexes** produites par le protocole Truth Engine (KERNEL v2.0), un pipeline forensique en 19 étapes qui combine analyse symbolique, vérification multi-source et cartographie des verrous systémiques. Ces enquêtes ont alimenté **86 articles publiés** depuis novembre 2025.
+
+**Méthode.** Chaque enquête part d'un paradoxe observable : la France exporte de l'électricité, des millions de Français peinent à se chauffer → collecte des données officielles (INSEE, Cour des comptes, rapports parlementaires) → mise en évidence de l'incohérence → identification des bénéficiaires implicites du statu quo → cartographie des verrous qui empêchent la correction.
+
+**Vérification.** Chaque fait est sourcé avec son URL publique. Les articles ont été soumis à des audits critiques automatisés (APEX) qui traquent incohérences, biais de framing et sauts logiques. Les corrections issues de ces audits ont été intégrées.
+
+**Volume.** 16 articles, environ 120 000 mots. Chacun peut se lire indépendamment. Mais leur force est dans l'accumulation : un fait seul peut être contesté, vingt faits convergents de sources différentes forment une preuve. Le HUB condense cette masse en un diagnostic : le système est verrouillé par ceux qui en bénéficient, la réforme par le haut est une contradiction dans les termes.
+
+**Limite.** Cette enquête est un diagnostic, pas un programme. Les deux textes recommandés en conclusion ouvrent des pistes, l'une institutionnelle, l'autre personnelle. Le reste appartient à ceux qui lisent, comprennent et décident.
+
+---
+
 ## Sources
 
 *Le détail complet des sources par thématique (centaines de références) se trouve dans les articles individuels S1 à S16. La section ci-dessous ne reprend que les sources directement citées dans cette synthèse.*
