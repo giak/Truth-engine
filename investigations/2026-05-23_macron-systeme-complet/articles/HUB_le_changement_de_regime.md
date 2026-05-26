@@ -1,6 +1,6 @@
 # 🔄 Le Changement de Régime : Pourquoi ce système ne peut pas se réformer
 
-*🔄 16 articles, 5 tensions, 1 piège causal : le verdict de l'enquête*
+*🔄 Le constat que personne en haut ne changera rien. La démonstration que le verrouillage est structurel. Et ce que ça implique pour le reste.*
 
 *📖 Cet article principal articule 16 articles sur l'enquête **Le Changement de Régime**.*
 
@@ -246,13 +246,35 @@ L'un ne va pas sans l'autre. Changer le système sans changer sa vie, c'est remp
 
 ## Sources
 
-1. **CEVIPOF** : Baromètre de la confiance politique, vague 17, 2026, 57 % d'abstention, 22 % de confiance : [https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-cevipof-2026-la-confiance-s-effondre-en-politique-la-proximite-fait-figure-de-refuge/](https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-cevipof-2026-la-confiance-s-effondre-en-politique-la-proximite-fait-figure-de-refuge/)
+*Le détail complet des sources par thématique (centaines de références) se trouve dans les articles individuels S1 à S16. La section ci-dessous ne reprend que les sources directement citées dans cette synthèse.*
+
+1. **CEVIPOF** : Baromètre de la confiance politique, vague 17, 2026, 57 % d'abstention, 22 % de confiance : [https://www.sciencespo.fr/cevipof/](https://www.sciencespo.fr/cevipof/)
 2. **European Tax Observatory** : Global Tax Evasion Report 2024, évasion fiscale 80-100 Md€/an : [https://www.taxobservatory.eu/publication/global-tax-evasion-report-2024/](https://www.taxobservatory.eu/publication/global-tax-evasion-report-2024/)
-3. **Monde Diplomatique** : Cartographie des médias français, 9 milliardaires = 90 % audience : [https://www.monde-diplomatique.fr/cartes/medias](https://www.monde-diplomatique.fr/cartes/medias)
-4. **Assemblée Nationale** : Statistiques du 49.3, 23 recours depuis 2022 : [https://www.assemblee-nationale.fr/dyn/49-3](https://www.assemblee-nationale.fr/dyn/49-3)
-5. **Lancet Commission** : Pollution and health, 2022, 9 millions de morts prématurés/an : [https://www.thelancet.com/commissions/pollution-and-health](https://www.thelancet.com/commissions/pollution-and-health)
-6. **OCDE** : Programme PISA 2022, résultats pour la France : [https://www.oecd.org/fr/publications/resultats-du-pisa-2022-volume-i_165f1d07-fr/](https://www.oecd.org/fr/publications/resultats-du-pisa-2022-volume-i_165f1d07-fr/)
-7. **INSEE** : Bilan démographique 2025, ICF 1,56 : [https://www.insee.fr/fr/statistiques/8719824?sommaire=8721209](https://www.insee.fr/fr/statistiques/8719824?sommaire=8721209)
-8. **Sénat** : Mission d'information sur l'évaluation de la loi relative à la lutte contre la fraude, 2025 : [https://www.senat.fr/travaux-parlementaires/commissions/commission-des-finances/finances/mission-dinformation-relative-a-la-lutte-contre-la-fraude-et-levasion-fiscales.html](https://www.senat.fr/travaux-parlementaires/commissions/commission-des-finances/finances/mission-dinformation-relative-a-la-lutte-contre-la-fraude-et-levasion-fiscales.html)
-9. **Cour des comptes** : Le crédit d'impôt pour la compétitivité et l'emploi, 2023 : [https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique/explorer-evaluations-273](https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique/explorer-evaluations-273)
-10. **Commission européenne** : EU Agricultural Outlook 2024-2035 : [https://agriculture.ec.europa.eu/media/news/eu-agricultural-outlook-2024-35-resilient-sector-adapts-climate-change-sustainability-concerns-and-2024-12-11_en](https://agriculture.ec.europa.eu/media/news/eu-agricultural-outlook-2024-35-resilient-sector-adapts-climate-change-sustainability-concerns-and-2024-12-11_en)
+3. **Monde Diplomatique** : Cartographie des médias français, concentration propriétariale : [https://www.monde-diplomatique.fr/cartes/medias](https://www.monde-diplomatique.fr/cartes/medias)
+4. **Arcom** : Baromètre du pluralisme 2024, 9 groupes = 90 % de l'audience médiatique nationale : [https://www.arcom.fr/nos-ressources/etudes-et-publications/pluralisme-politique](https://www.arcom.fr/nos-ressources/etudes-et-publications/pluralisme-politique)
+5. **Assemblée Nationale** : Recours au 49.3, 23 depuis 2022 : [https://www.assemblee-nationale.fr/dyn/49-3](https://www.assemblee-nationale.fr/dyn/49-3)
+6. **CEPEJ (Conseil de l'Europe)** : Rapport 2024, budgets justice 0,20 % PIB France vs 0,30 % moyenne européenne : [https://www.coe.int/fr/web/cepej](https://www.coe.int/fr/web/cepej)
+7. **INSEE** : Dette publique 3 228 Md€, déficit 5,5 % du PIB, charge 55 Md€ : [https://www.insee.fr/fr/statistiques/8292976](https://www.insee.fr/fr/statistiques/8292976)
+8. **INSEE** : Bilan démographique 2025, ICF 1,56, moins de 650 000 naissances : [https://www.insee.fr/fr/statistiques/8719824](https://www.insee.fr/fr/statistiques/8719824)
+9. **Cour des comptes** : CICE, 57 Md€ sans conditionnalité, 2023 : [https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique/explorer-evaluations-273](https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique/explorer-evaluations-273)
+10. **Cour des comptes** : Niches fiscales, 60 Md€ de dépenses fiscales inefficaces, 2024 : [https://www.ccomptes.fr/fr/publications/la-depense-fiscale](https://www.ccomptes.fr/fr/publications/la-depense-fiscale)
+11. **Loi n° 2017-1837** : Suppression ISF sur capital mobilier, 9 Md€ exclus du barème (Loi de finances 2018) : [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036171996/](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036171996/)
+12. **Loi n° 2018-120** : Flat tax à 30 % sur les revenus du capital (PFU) : [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037123777/](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037123777/)
+13. **Transparency International** : Corruption Perceptions Index 2025, France 66/100, plus bas niveau historique : [https://www.transparency.org/en/cpi/2025](https://www.transparency.org/en/cpi/2025)
+14. **PNF (Parquet National Financier)** : 40 conventions d'impunité (ex-CJIP) signées depuis 2017 : [https://www.tribunal-de-paris.justice.fr/paris/le-parquet-national-financier](https://www.tribunal-de-paris.justice.fr/paris/le-parquet-national-financier)
+15. **Ministère de la Justice** : 77 500 détenus pour 62 000 places, 125 % d'occupation : [https://www.justice.gouv.fr/documentation/etudes-et-statistiques](https://www.justice.gouv.fr/documentation/etudes-et-statistiques)
+16. **HATVP** : Pantouflage multiplié par trois, zéro condamnation en 2024 : [https://www.hatvp.fr/actualites/rapport-annuel-dactivite-2024/](https://www.hatvp.fr/actualites/rapport-annuel-dactivite-2024/)
+17. **Lancet Commission** : Pollution and health, 2022, 9 millions de morts prématurés/an dans le monde : [https://www.thelancet.com/commissions/pollution-and-health](https://www.thelancet.com/commissions/pollution-and-health)
+18. **OCDE** : Programme PISA 2022, résultats France en baisse continue : [https://www.oecd.org/fr/publications/resultats-du-pisa-2022-volume-i_165f1d07-fr/](https://www.oecd.org/fr/publications/resultats-du-pisa-2022-volume-i_165f1d07-fr/)
+19. **Commission européenne** : EU Agricultural Outlook 2024-2035, PAC 55 Md€/an : [https://agriculture.ec.europa.eu/media/news/eu-agricultural-outlook-2024-35](https://agriculture.ec.europa.eu/media/news/eu-agricultural-outlook-2024-35)
+20. **Douanes françaises** : Déficit commercial 81 Md€, désindustrialisation continue : [https://www.douane.gouv.fr/statistiques](https://www.douane.gouv.fr/statistiques)
+21. **Assemblée Nationale** : Avis budgétaire PLF 2026, stocks de munitions pour quelques semaines : [https://www.assemblee-nationale.fr/dyn/17/rapports/cion_def/l17b1890-ti_rapport-avis](https://www.assemblee-nationale.fr/dyn/17/rapports/cion_def/l17b1890-ti_rapport-avis)
+22. **Vie-publique.fr** : Rupture du contrat des sous-marins australiens (septembre 2021) : [https://www.vie-publique.fr/en-bref/281691](https://www.vie-publique.fr/en-bref/281691)
+23. **Global Firepower 2024** : France 11e puissance militaire mondiale : [https://www.globalfirepower.com/country-military-strength-detail.php?country_id=france](https://www.globalfirepower.com/country-military-strength-detail.php?country_id=france)
+24. **DREES** : Dépenses de santé, reste à charge des ménages, déserts médicaux : [https://drees.solidarites-sante.gouv.fr/](https://drees.solidarites-sante.gouv.fr/)
+25. **Réseau AMAP / Ministère de l'Agriculture** : 2 000 AMAP, 12 % des achats alimentaires en circuits courts : [https://www.reseau-amap.org/](https://www.reseau-amap.org/)
+26. **Euskal Moneta** : Monnaie locale Eusko, 4 000 usagers, 1 000 entreprises : [https://www.euskalmoneta.org/](https://www.euskalmoneta.org/)
+27. **Mediapart** : 245 000 abonnés, fonds de dotation pour une presse libre, capital inviolable : [https://www.mediapart.fr/](https://www.mediapart.fr/)
+28. **Framasoft** : Alternatives libres (Nextcloud, PeerTube, Mobilizon), 72 000 postes Gendarmerie migrés vers Ubuntu : [https://framasoft.org/](https://framasoft.org/)
+29. **Johns Hopkins University** (MacLean et al., 2011) : Psilocybine et augmentation durable du trait Ouverture chez l'adulte : *Journal of Psychopharmacology*
+30. **Simone Weil** (1943, 1949) : *L'Enracinement*, prélude à une déclaration des devoirs envers l'être humain
