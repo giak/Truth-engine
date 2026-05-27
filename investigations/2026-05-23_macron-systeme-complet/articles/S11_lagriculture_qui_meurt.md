@@ -36,7 +36,11 @@ La volatilité des revenus agricoles aggrave la situation : un agriculteur peut 
 
 Un agriculteur se suicide tous les 2 jours en France, selon Santé Publique France (données 2024). C'est 20 % de plus que la moyenne nationale. Chez les exploitants de moins de 45 ans, le taux de suicide est 40 % supérieur à la moyenne nationale, selon la MSA (Infostat suicide 2021). **Le suicide tue plus que les accidents du travail dans le monde agricole.**
 
-> **Cette hémorragie n'est ni récente ni accidentelle. Dès 1968, le Plan Mansholt de la Commission européenne était explicite : réduire de moitié le nombre d'agriculteurs européens d'ici 2000. En France, le nombre d'exploitations est passé de 1,5 million en 1968 à 380 000 aujourd'hui : une réduction drastique de 75 % en 58 ans. Michel Debatisse, vice-président de la FNSEA, justifiait la logique sans détour : « Deux tiers des entreprises agricoles n'ont pas de raison économique d'exister. » Le suicide des agriculteurs n'est pas une conséquence collatérale : c'est le résultat d'un plan conçu il y a soixante ans.**
+> **Cette hémorragie n'est ni récente ni accidentelle. Dès 1968, le Plan Mansholt de la Commission européenne était explicite : réduire de moitié le nombre d'agriculteurs européens d'ici 2000. En France, le nombre d'exploitations est passé de 1,5 million en 1968 à 380 000 aujourd'hui : une réduction drastique de 75 % en 58 ans.**
+
+Le plan n'a jamais été secret. Ses porte-parole l'assumaient publiquement.
+
+> Michel Debatisse, vice-président de la FNSEA, justifiait la logique sans détour : « Deux tiers des entreprises agricoles n'ont pas de raison économique d'exister. » **Le suicide des agriculteurs n'est pas une conséquence collatérale : c'est le résultat d'un plan conçu il y a soixante ans.**
 
 <!-- ENRICHIE: lagriculture-au-scanner-autopsie -->
 <!-- THEME: verrouillage-systemique -->
@@ -62,7 +66,11 @@ Les agriculteurs français subissent une double pression : leurs charges augment
 
 L'agriculture biologique représentait 10 % de la Surface Agricole Utile (SAU) en 2024, selon l'Agence Bio (chiffres clés 2024). La part de marché des produits bio stagne à 6 %, selon la même source. Après une croissance rapide entre 2015 et 2020, le bio a connu un recul : 60 000 agriculteurs bio en 2024 contre 65 000 en 2021. La consommation bio a baissé avec l'inflation, les consommateurs arbitrant vers des produits moins chers. Le gouvernement, qui avait promis 15 % de SAU bio en 2022, a repoussé l'objectif à 2030. **La transition bio est au point mort.**
 
-> **L'opacité des comptes de la PAC cache l'ampleur du détournement. Sur les 55 milliards d'euros annuels du budget PAC, seuls 8 % des données financières sont véritablement accessibles au public. Les 92 % restants : 50,5 milliards d'euros : disparaissent dans ce que les experts appellent une « économie de l'ombre ». La FNSEA, qui bénéficie de 18 réunions privées annuelles avec la Commission européenne, dépense 1,5 million d'euros par an en lobbying opaque à Bruxelles. Six anciens ministres européens de l'Agriculture sont devenus consultants pour l'agro-industrie, touchant en moyenne 1,2 million d'euros annuels. La fraude documentée atteint 14,7 milliards d'euros depuis 1985 : mais le taux de détection n'est que de 12 %.**
+> **L'opacité des comptes de la PAC cache l'ampleur du détournement. Sur les 55 milliards d'euros annuels du budget PAC, seuls 8 % des données financières sont véritablement accessibles au public. Les 92 % restants : 50,5 milliards d'euros : disparaissent dans ce que les experts appellent une « économie de l'ombre ».**
+
+Le verrouillage ne se limite pas aux comptes. Il est aussi institutionnel.
+
+> **La FNSEA, qui bénéficie de 18 réunions privées annuelles avec la Commission européenne, dépense 1,5 million d'euros par an en lobbying opaque à Bruxelles. Six anciens ministres européens de l'Agriculture sont devenus consultants pour l'agro-industrie, touchant en moyenne 1,2 million d'euros annuels. La fraude documentée atteint 14,7 milliards d'euros depuis 1985 : mais le taux de détection n'est que de 12 %.** *(Sources consolidées : enquête « La grande arnaque agricole », cf. « À voir aussi »)*
 
 <!-- ENRICHIE: la-grande-arnaque-agricole-comment -->
 <!-- THEME: verrouillage-systemique -->
@@ -70,7 +78,7 @@ L'agriculture biologique représentait 10 % de la Surface Agricole Utile (SAU) e
 
 ---
 
-## §3 : Le modèle qui empoisonne
+## §3 : Le modèle qui détruit
 
 ### 75 000 tonnes de pesticides par an
 
@@ -104,7 +112,7 @@ Les sécheresses cumulées de 2022 à 2024 ont causé des pertes estimées à pl
 
 ### CETA, Mercosur : la concurrence sans clauses miroir
 
-Les traités de libre-échange successifs ont ouvert le marché agricole européen à des concurrents qui ne respectent pas les mêmes normes sociales, sanitaires et environnementales, selon la Commission européenne (statistiques commerciales 2024). Le CETA (UE-Canada, 2016) et le Mercosur (UE-Amérique du Sud, en cours de négociation) sont les symboles de cette asymétrie.
+Les traités de libre-échange successifs ont ouvert le marché agricole européen à des concurrents qui ne respectent pas les mêmes normes sociales, sanitaires et environnementales, selon la Commission européenne (statistiques commerciales 2024). Le CETA (UE-Canada, 2016) et le Mercosur (UE-Amérique du Sud, signé en janvier 2026, en application provisoire depuis mai 2026) sont les symboles de cette asymétrie.
 
 L'agriculture canadienne exporte du blé et du porc vers l'Europe à des prix que les agriculteurs français ne peuvent pas pratiquer, parce que les normes environnementales et sociales y sont moins contraignantes, selon une étude comparative du Sénat (rapport CETA 2024). L'agriculture sud-américaine exporte du bœuf et du soja produits sur des terres déforestées, avec des pesticides interdits en Europe, selon les rapports d'Oxfam et de Greenpeace (2024). **Une concurrence déloyale** organisée par les traités que la France signe, malgré les alertes répétées des syndicats agricoles et des ONG environnementales. **Les engagements dits « clauses miroir », censés imposer les mêmes normes aux importations, n'ont jamais été appliqués.**
 
@@ -124,25 +132,36 @@ Le paradoxe est total : la France verse 9 Md€/an de PAC à ses agriculteurs po
 
 ### L'abdication organisée
 
-L'agriculture française est, dans l'architecture du Changement de Régime, le révélateur le plus complet de **l'abdication organisée** de la caste dirigeante. Elle cumule toutes les dimensions de la prédation : l'extraction (les grands groupes captent la valeur, les petits sont écrasés), l'abdication (la souveraineté alimentaire est abandonnée aux traités de libre-échange) et l'externalisation (le coût climatique et sanitaire est ignoré).
+L'agriculture française est, dans l'architecture du Changement de Régime, le révélateur le plus complet de **l'abdication organisée** de la caste dirigeante. Elle concentre la TENSION 5 du système — l'externalisation — dans tous ses mécanismes : l'extraction (les grands groupes captent la valeur, les petits sont écrasés), l'abdication (la souveraineté alimentaire est abandonnée aux traités de libre-échange) et l'externalisation elle-même (le coût climatique, sanitaire et humain est transféré sur les générations futures et les plus vulnérables).
 
 **100 000 fermes disparues, 9 Md€ de PAC concentrés sur 20 % des exploitations, 75 000 tonnes de pesticides par an, 1 suicide tous les 2 jours : la facture de l'abdication organisée se lit dans les corps, les sols et les comptes.** Et le résultat est que la France importe sa nourriture, délocalise sa production et laisse mourir ceux qui pourraient la nourrir.
+
+### Les quatre mécanismes de l'externalisation agricole
+
+L'agriculture française externalise méthodiquement ses coûts sur quatre fronts simultanés :
+
+- **L'externalisation économique :** 9 Md€/an de PAC concentrés sur 20 % des exploitations. L'argent public, qui devrait soutenir la souveraineté alimentaire, est capté par les plus gros, qui l'utilisent pour s'agrandir encore en absorbant les petites fermes dans un cycle de concentration inexorable.
+- **L'externalisation sanitaire :** 75 000 tonnes de pesticides par an, un suicide tous les 2 jours. Le coût humain du modèle n'est jamais facturé à ses bénéficiaires. Il est supporté par les agriculteurs (maladies, suicide), les riverains (pollution), les consommateurs (résidus, santé).
+- **L'externalisation commerciale :** CETA, Mercosur — la concurrence sans clauses miroir externalise les normes sociales et environnementales hors des frontières. La France importe ce qu'elle pourrait produire, produite dans des conditions qu'elle interdit à ses propres agriculteurs.
+- **L'externalisation climatique :** sécheresses à répétition, effondrement de la biodiversité, érosion des sols. Le modèle productiviste ignore le coût de sa propre destruction, qui sera payé par les générations futures.
 
 ### Le prix du renoncement
 
 L'agriculture n'est pas un secteur économique comme les autres. Elle est le socle de la souveraineté d'un pays. Un pays qui ne peut pas se nourrir n'est pas un pays libre. **La France est en train de perdre cette liberté** : non pas par fatalité, mais par des choix politiques qui ont systématiquement privilégié les intérêts des grands groupes agro-industriels et des traités de libre-échange sur la survie des paysans.
 
+Ce n'est pas un accident de la politique agricole. C'est la logique même du système : quand la caste ne peut plus protéger ses producteurs, elle externalise leur survie sur le marché mondial. L'agriculture qui meurt n'est pas une crise : c'est le fonctionnement normal d'un système qui préfère importer sa nourriture plutôt que de renoncer à ses traités de libre-échange.
+
+➡️ **À lire ensuite :** 🇪🇺 L'Europe : cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€ [LIEN_A_INSERER]
+
 ## §6 : Ce que ce chapitre ne dit pas
 
 Cette mise en accusation du modèle agricole productiviste ne mentionne pas les filières qui réussissent la transition. Les circuits courts, qui représentent aujourd'hui 12 % des achats alimentaires des Français, selon l'INSEE, créent 3 fois plus d'emplois par euro dépensé que la grande distribution et rémunèrent mieux les producteurs. L'agroécologie, testée dans le réseau DEPHY (3 000 fermes pilotes), a montré qu'on peut réduire l'usage des pesticides de 50 % sans perte de rendement, selon le ministère de l'Agriculture. La certification Haute Valeur Environnementale (HVE) concerne aujourd'hui 45 000 exploitations : un levier sous-exploité. Le chapitre n'évoque pas non plus le potentiel de l'agriculture de régénération des sols, qui séquestre le carbone tout en restaurant la fertilité. Enfin, l'essor de la filière des protéines végétales, encouragé par le plan France 2030 (2 Md€ d'investissement), pourrait réduire la dépendance aux importations de soja sud-américain, source majeure de déforestation importée. La question n'est pas seulement la survie du modèle agricole français, mais sa transformation : et les signaux faibles de cette transformation existent, même s'ils sont encore marginaux.
-
-➡️ **À lire ensuite :** Comment l'Union européenne enferme la France dans un cadre qui bride sa souveraineté : **S13 : L'Europe : cadre ou carcan ?**
 
 ---
 
 *📖 **Article suivant :** 🇪🇺 L'Europe : cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€ [LIEN_A_INSERER]*
 *📖 **Article précédent :** ⚡ L'Énergie sacrifiée : 92,3 TWh d'exportation, 65 Md€ de dette EDF, 12 millions de précaires [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 

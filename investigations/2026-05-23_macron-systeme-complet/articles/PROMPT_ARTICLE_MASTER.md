@@ -1,10 +1,34 @@
-# PROMPT MASTER : Rédiger un article de la série « Le Changement de Régime »
+# PROMPT MASTER — GÉNÉRIQUE (toute série d'investigation)
 
-> **Usage :** Copiez ce prompt dans une session LLM vierge. Il contient TOUT le contexte nécessaire pour rédiger un article publiable sur Substack, sans dépendre de l'historique de la conversation.
+> **Usage :** Copiez ce prompt dans une session LLM vierge. Il contient TOUT le contexte nécessaire pour rédiger un article publiable, sans dépendre de l'historique de la conversation.
 >
 > **Prérequis :** Avoir les données brutes de l'article (investigations, fact-check, architecture). Ce prompt ne crée pas les données : il guide leur transformation en article.
 >
-> **⚠️ AVANT D'ÉCRIRE :** Ouvre `S1_la_caste_parasite.md` dans un éditeur séparé. C'est le modèle concret. Tout écart structurel par rapport à S1 est une erreur.
+> **⚠️ AVANT D'ÉCRIRE :** Renseigne la `## CONFIG SÉRIE` ci-dessous, puis ouvre le `{FICHIER_REF}` dans un éditeur séparé. C'est le modèle concret. Tout écart structurel par rapport à l'article de référence est une erreur.
+
+---
+
+## CONFIG SÉRIE — À RENSEIGNER AVANT USAGE
+
+> Copie ce bloc dans chaque nouveau projet d'investigation. Remplace les valeurs entre `[ ]`. Le LLM utilisera ces clés comme placeholders `{CLE}` dans le corps du prompt.
+
+```
+SERIE_REF            = [Le Changement de Régime]    # nom court pour ligne série
+NB_ARTICLES          = [16]
+HUB_FICHIER          = [HUB_le_changement_de_regime.md]
+THESE_CARDINALE      = [5 tensions en cascade causale qui se verrouillent mutuellement]
+PREFIXE_ENQUETE      = [S]                          # S pour série Changement de Régime
+ARTICLE_REF          = [S1 « La Caste Parasite »]   # article modèle
+FICHIER_REF          = [S1_la_caste_parasite.md]
+SOLUTION_1           = [L'Adieu aux partis]         # article solution 1
+SOLUTION_2           = [Le Protocole du ré-enracinement]  # article solution 2
+ENQUETE_DUREE        = [cinq jours (23-26 mai 2026)]
+ENQUETE_NB_COMPLEXES = [27]
+ARTICLES_PUBLIES     = [86]
+PLATEFORME           = [Substack]
+```
+
+> **⚠️ Toute valeur non renseignée = le LLM devra demander avant d'écrire.**
 
 ---
 
@@ -27,16 +51,16 @@ Tu travailles pour **Substack**. Tes articles doivent être autonomes, vérifiab
 Cette ligne DOIT apparaître **exactement** sous le sous-titre, avant le premier `---` :
 
 ```
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **{SERIE_REF}**, une série de {NB_ARTICLES} articles publiée sur {PLATEFORME}. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
 ```
 
-❌ **ABSENT dans S7 et S8** : c'est le défaut le plus fréquent.
+❌ **Défaut fréquent : ligne série absente** — toujours présente dans les articles validés, jamais dans les refusés.
 
 ### ② ## Sources (H2, pas H3)
 
 Le bloc de sources utilise `## Sources` (H2).
 
-❌ **`### Sources` (H3) dans S7 et S8** : interdit. `## Sources`, pas `### Sources`.
+❌ **`### Sources` (H3) au lieu de `## Sources`** : interdit. `## Sources`, pas `### Sources`.
 
 ### ③ §0 avec blockquote + sous-titre émoji
 
@@ -53,17 +77,17 @@ Chaque article commence par :
 ---
 ```
 
-❌ **S8 n'a pas de `## §0 :`** : il passe directement de la blockquote au `## 1. Le mirage des chiffres`.
+❌ **Défaut : `## §0 :` absent** — la section zéro est obligatoire, ne pas la sauter.
 
 ### ④ Section numbering : `## §N`
 
 Les sections sont numérotées `## §1 :`, `## §2 :`, etc.
 
-❌ **S8 utilise `## 1.`** (sans `§`) : interdit.
+❌ **`## N.` (sans `§`) au lieu de `## §N :`** : interdit.
 
-**Chaque section est séparée par `---`** (comme S1). Pas de sections collées les unes aux autres.
+**Chaque section est séparée par `---`**. Pas de sections collées les unes aux autres.
 
-❌ **S6 saute certains `---`** entre sections : erreur.
+❌ **`---` manquants entre sections** : chaque section doit être séparée.
 
 ### ⑤ Footer avant Sources, format exact
 
@@ -71,13 +95,13 @@ Le bloc de navigation se termine **toujours** par :
 ```
 *📖 **Article suivant :** {Titre} : {description} [LIEN_A_INSERER]*
 *📖 **Article précédent :** {Titre} [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 Retrouvez l'enquête complète **{SERIE_REF}** ici : [LIEN_HUB_A_INSERER]*
 ```
 Il est placé **AVANT** `---\n## Sources`.
 
-Juste avant ce footer, une ligne `➡️ **À lire ensuite :** ... **S{N+1} : {Titre}**` est **OBLIGATOIRE** (présente dans S5, S6, S8 : absente dans S7 = erreur).
+Juste avant ce footer, une ligne `➡️ **À lire ensuite :** ... **{PREFIXE_ENQUETE}{N+1} : {Titre}**` est **OBLIGATOIRE**.
 
-❌ **S7 n'a pas de `➡️ À lire ensuite :`** : c'est un défaut à ne pas reproduire.
+❌ **Défaut fréquent : `➡️ À lire ensuite :` absent** — présent dans tous les articles validés.
 
 ---
 
@@ -88,7 +112,7 @@ Juste avant ce footer, une ligne `➡️ **À lire ensuite :** ... **S{N+1} : {T
 
 *{ÉMOJI} {Sous-titre de 1-2 phrases : l'accroche}*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **{SERIE_REF}**, une série de {NB_ARTICLES} articles publiée sur {PLATEFORME}. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
 
 ---
 
@@ -100,13 +124,13 @@ Juste avant ce footer, une ligne `➡️ **À lire ensuite :** ... **S{N+1} : {T
 
 {La réponse, la thèse de l'article, en 2-3 phrases}
 
-{Cet article est le Xe d'une série de 14. Il répond à cette question en établissant...}
+{Cet article est le Xe d'une série de {NB_ARTICLES}. Il répond à cette question en établissant...}
 
 ---
 
 ## §1 : {Premier fait, mécanisme, révélation}
 
-### {Sous-aspect H3} : obligatoire, 1-3 par section (comme S1)
+### {Sous-aspect H3} : obligatoire, 1-3 par section (comme l'article de référence)
 
 {Contenu sourcé, chiffré, vérifiable}
 
@@ -121,13 +145,28 @@ Juste avant ce footer, une ligne `➡️ **À lire ensuite :** ... **S{N+1} : {T
 {Terminer sur une tension non résolue qui prépare le prochain article.}
 {La dernière section combine : synthèse des faits + chaîne causale (rattachement à la thèse de la série) + hook vers l'article suivant.}
 
-➡️ **À lire ensuite :** {Phrase d'accroche vers le prochain article} : **S{N+1} : {Titre}**
+**La dernière section DOIT inclure une auto-critique** (≥2 contre-arguments substantiels, pas des strawmen). C'est le §6 « Ce que ce chapitre ne dit pas » — obligatoire dans tout article APEX. Voir CONTROLEUR APEX Couche 3.3.
+
+➡️ **À lire ensuite :** {Phrase d'accroche vers le prochain article} : **{PREFIXE_ENQUETE}{N+1} : {Titre}**
 
 ---
 
 *📖 **Article suivant :** {ÉMOJI} {Titre} : {description courte} [LIEN_A_INSERER]*
 *📖 **Article précédent :** {ÉMOJI} {Titre} [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 Retrouvez l'enquête complète **{SERIE_REF}** ici : [LIEN_HUB_A_INSERER]*
+*📖 Les pistes solutions sont explorées ici : **{SOLUTION_1}** [LIEN] et **{SOLUTION_2}** [LIEN]*
+
+---
+
+## Note sur le travail d'enquête
+
+*Cette note décrit la méthode, le volume et les limites du corpus. Voir le HUB pour le texte complet. Version standardisée à reproduire dans chaque article S.*
+
+Ce texte fait partie d'une enquête de **{ENQUETE_DUREE}** qui a produit {NB_ARTICLES} articles et un HUB de synthèse. Il s'appuie sur **{ENQUETE_NB_COMPLEXES} enquêtes complexes** produites par le protocole Truth Engine (KERNEL v2.0), un pipeline forensique en 19 étapes. Ces enquêtes ont alimenté **{ARTICLES_PUBLIES} articles publiés** depuis le lancement du projet.
+
+**Méthode.** Analyse symbolique du discours dominant (15 symboles scorés) → chronologie forensique → domaines d'impact → cartographie systémique → chaînes causales quantifiées → registre de preuves (FACT_REGISTRY) → carte dialectique à 3 perspectives → identification des acteurs → vérification multi-domaine.
+
+**Limite.** Ce diagnostic ne prescrit pas de programme. Les pistes institutionnelle et personnelle sont explorées dans deux textes séparés (voir le HUB).
 
 ---
 
@@ -137,29 +176,29 @@ Juste avant ce footer, une ligne `➡️ **À lire ensuite :** ... **S{N+1} : {T
 2. **Entité** : Rapport, date : [url-spécifique](https://...)
 ```
 
-**⚠️ ANTI-PATRON : extraits d'articles déviants :**
+**⚠️ ANTI-PATRON : structures refusées vs structure validée :**
 
 ```
-❌ S8 (refusé) :
-  # 🧭 L'Immigration sans Cap
-  > **🧗 ...**  ← PAS DE SOUS-TITRE
+❌ REFUSÉ (exemple type) :
+  # {ÉMOJI} {Titre}
+  > **{Question}**  ← PAS DE SOUS-TITRE
   ← PAS DE *📖 Cet article fait partie...*  (ligne manquante)
   ← PAS DE §0
-  ## 1. Le mirage des chiffres  ← PAS DE §
+  ## 1. {Section}  ← PAS DE §
   ### Sources  ← H3 au lieu de H2
   
-❌ S7 (refusé) :
+❌ REFUSÉ (variante) :
   ...  ← PAS DE *📖 Cet article fait partie...*  (ligne manquante)
   ### Sources  ← H3 au lieu de H2
 
-✅ S1 (modèle) :
-  # 👑 La Caste Parasite : Qui gouverne...
-  *👑 20 familles...*
+✅ VALIDÉ (modèle — voir {FICHIER_REF}) :
+  # {ÉMOJI} {Titre Concept} : {Sous-titre long}
+  *{ÉMOJI} {Sous-titre accroche}*
   *📖 Cet article fait partie...*
   ---
-  ## §0 : La caste qui ne sert à rien
-  ## §1 : 20 familles, 1 000 milliards
-  ### Le sommet de la pyramide  ← H3 présent
+  ## §0 : {Titre percutant}
+  ## §1 : {Premier fait}
+  ### {Sous-aspect H3}  ← H3 présent
   ...
   ---
   ## Sources
@@ -192,8 +231,8 @@ Chaque URL doit pointer vers la **page spécifique** du document (pas vers la pa
 - **Blockquotes** : max 1 par article, citations réelles uniquement.
 - **Pas de tableaux** dans le corps : réservés aux documents internes.
 - **Émojis distincts** : chaque article de la série reçoit un émoji unique.
-- **Nombre de sections** : 5-7 sections par article (§0 à §4-§6), nombre variable selon les données disponibles. S1 = 9 sections (article fondateur). Articles suivants = 5-7 sections.
-- **Sous-titre sans gras** : le sous-titre est en italique, sans marque de gras (bold). Comme S1.
+- **Nombre de sections** : 5-7 sections par article (§0 à §4-§6), nombre variable selon les données disponibles. L'article de référence peut avoir plus de sections (article fondateur). Articles suivants = 5-7 sections.
+- **Sous-titre sans gras** : le sous-titre est en italique, sans marque de gras (bold). Comme l'article de référence.
 
 ### LOI 4 : NORME DE LANGUE
 - **Français soutenu** : syntaxe stable, lexique précis
@@ -211,7 +250,7 @@ Pas de « mur de briques ». Alterne densité et respiration :
 
 ### LOI 6 : CHIFFRES
 Tous les nombres en chiffres. Pas de lettres :
-✅ « 27 crises », « 15 % », « 1 000 milliards »
+✅ « 5 tensions », « 15 % », « 1 000 milliards »
 ❌ « vingt-sept crises », « quinze pour cent »
 
 Espace insécable avant % : « 75 % ». Compacter : « 10 Mds€ », « 415 TWh ».
@@ -222,7 +261,7 @@ Pas de transitions introductives (« Voyons maintenant... », « Intéressons-no
 ### LOI 8 : ZÉRO CUISINE INTERNE
 **INTERDIT dans le texte publié :**
 - Codes d'enquête (M21, FT1, 16.1, etc.)
-- Codes d'article (S1, S2, S3, etc.) : sauf dans le `➡️ **À lire ensuite :**` où le code est autorisé pour le lien
+- Codes d'article (`{PREFIXE_ENQUETE}1`, `{PREFIXE_ENQUETE}2`, `{PREFIXE_ENQUETE}3`, etc.) : sauf dans le `➡️ **À lire ensuite :**` où le code est autorisé pour le lien
 - Numéros de section technique (§2.3, etc.)
 - Toute référence à la structure interne du projet
 
@@ -235,44 +274,20 @@ Pas de transitions introductives (« Voyons maintenant... », « Intéressons-no
 
 ---
 
-## 4. LE PROJET : Série « Le Changement de Régime »
+## 4. CONTEXTE DE LA SÉRIE
+
+> Remplis ce bloc avec l'architecture narrative spécifique à ta série. Le LLM l'utilisera pour maintenir la cohérence entre les articles.
 
 ### Thèse cardinale
-Une **caste parasitaire** : 20 familles, un réseau d'anciens ministres, une oligarchie médiatique : a verrouillé le système français. Ses intérêts sont fondamentalement opposés à ceux de la nation qu'elle est censée servir. Cette caste extrait, capture, démantele, abdique et externalise. Le résultat : 27 crises systémiques simultanées.
+{THESE_CARDINALE}
 
-### Structure de la série
-```
-Acte 1 : Le Dossier d'Accusation (motif + moyens + verrouillage)
-  S1  👑 La Caste Parasite
-  S2  💰 L'Argent qui disparaît
-  S3  📉 La Dette instrumentalisée
-  S15 🔒 Le Verrou
+### Architecture narrative
+{Décris ici la progression de la série : quels articles posent le diagnostic, quels articles explorent les conséquences, quels articles montrent l'échelle du problème. Quel est l'arc narratif principal ?}
 
-Acte 2 : Les Scènes de Crime (conséquences visibles)
-  S4  🏥 Le Système de santé démantelé
-  S5  📦 La Pauvreté qui explose
-  S7  📚 L'École et l'Éducation sacrifiées
-  S8  🌍 L'Immigration sans cap
-  S9  🏠 Le Logement, la Machine à créer de la Rareté
+### Chaîne causale (optionnelle)
+{Si la série établit une chaîne de causalité entre ses articles, décris-la ici. Sinon, laisse vide.}
 
-Acte 3 : L'Échelle du Crime (système qui dépasse)
-  S10 ⚡ L'Énergie sacrifiée
-  S11 🌾 L'Agriculture qui meurt
-  S6  🏭 La France désindustrialisée
-  S13 🇪🇺 L'Europe : cadre ou carcan ?
-  S14 ⚔️ La Défense en berne
-
-HUB 🔄 Le Changement de Régime (synthèse finale : écrit en dernier)
-```
-
-### Causalité entre les actes
-```
-T1 (Extraction) ──► T2 (Capture) ──► T3 (Démantèlement) ──► T4 (Abdication) ──► T5 (Externalisation)
-      ▲                                                                                  │
-      └────────────────────────────── Boucle de retour ──────────────────────────────────┘
-```
-
-Chaque article doit **rappeler la tension précédente** et **annoncer la suivante**.
+Chaque article doit **rappeler l'article précédent** et **annoncer le suivant**.
 
 ---
 
@@ -302,11 +317,11 @@ Pas de suspense artificiel. Le lecteur doit comprendre où tu vas.
 ### Structure (toute case rouge = article refusé)
 - [ ] **H1** : `# {ÉMOJI} {Titre Concept} : {Sous-titre}` (deux-points entre titre et sous-titre)
 - [ ] **Sous-titre** : présent, en italique, commence par l'émoji, **zéro gras à l'intérieur**
-- [ ] **Ligne série** : `*📖 Cet article fait partie de l'enquête **Le Changement de Régime**...*`
+- [ ] **Ligne série** : `*📖 Cet article fait partie de l'enquête **{SERIE_REF}**...*`
 - [ ] **§0 présent** avec titre, contexte, blockquote, thèse
 - [ ] **Sections numérotées** : `## §1 :`, `## §2 :`, etc. (pas `## 1.`)
-- [ ] **`---` entre chaque section** (comme S1, pas de sections collées)
-- [ ] **H3 subsections** : 1-3 par section (comme S1, pas zéro)
+- [ ] **`---` entre chaque section** (pas de sections collées)
+- [ ] **H3 subsections** : 1-3 par section (pas zéro)
 - [ ] **`➡️ À lire ensuite :`** présent avant le footer
 - [ ] **Footer présent** avant `---\n## Sources`
 - [ ] **`## Sources`** (H2, pas H3)
@@ -323,11 +338,11 @@ Pas de suspense artificiel. Le lecteur doit comprendre où tu vas.
 
 ---
 
-## 7. RÉFÉRENCE VIVANTE : S1 « La Caste Parasite »
+## 7. RÉFÉRENCE VIVANTE : {ARTICLE_REF}
 
-Le fichier `S1_la_caste_parasite.md` dans le même dossier est le **modèle unique**. Il respecte toutes les LOIS et sert de patron structurel.
+Le fichier `{FICHIER_REF}` dans le même dossier est le **modèle unique**. Il respecte toutes les LOIS et sert de patron structurel.
 
-**Utilise S1 comme référence pour :**
+**Utilise `{ARTICLE_REF}` comme référence pour :**
 - La structure des sections (H2 → H3)
 - Le sourcing organique (comment nommer une source dans la phrase)
 - Le ton forensique (factuel, sans emphase)
@@ -338,7 +353,7 @@ Le fichier `S1_la_caste_parasite.md` dans le même dossier est le **modèle uniq
 - La dualité privé/public
 - La structure ascendante (du moins grave au plus criminel)
 
-> **RÈGLE D'OR :** Si un élément de ton article est différent structurellement de S1, c'est probablement une erreur. Vérifie S1 avant.
+> **RÈGLE D'OR :** Si un élément de ton article est différent structurellement de `{ARTICLE_REF}`, c'est probablement une erreur. Vérifie `{FICHIER_REF}` avant.
 
 ---
 
@@ -352,8 +367,8 @@ Le fichier `S1_la_caste_parasite.md` dans le même dossier est le **modèle uniq
 
 **À FAIRE MAINTENANT :**
 
-1. Ouvre `S1_la_caste_parasite.md` dans un éditeur : c'est le moule
-2. Remplace les données de la section 0 par les **données spécifiques de l'article** : numéro S, titre, émoji, sujet, données d'investigation, URLs vérifiées
+1. Ouvre `{FICHIER_REF}` dans un éditeur : c'est le moule
+2. Remplace les données de la section 0 par les **données spécifiques de l'article** : numéro d'article, titre, émoji, sujet, données d'investigation, URLs vérifiées
 3. Écris l'article en respectant strictement la **Structure exacte** (§2) et les **8 LOIS** (§3)
 4. Passe la **Checklist pré-validation** (§6) avant de finaliser
 

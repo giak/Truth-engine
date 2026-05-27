@@ -1,7 +1,8 @@
 # ⚖️ DIALECTIQUE : Moteur narratif du système-Macron
 
-> **Dernière mise à jour :** 2026-05-24
+> **Dernière mise à jour :** 2026-05-27
 > **Méthode :** SUBLIMATOR v28.0 §2 : 3 thèses candidates + test de résistance + thèse cardinale
+> **Note 2026-05-27 :** Investigation complémentaire sur le gaspillage d'État (2.4-2.13 : 10 enquêtes) ajoutée comme second mécanisme de T1. L'extraction active (évasion, optimisation) se double d'une extraction passive (gaspillage public — consulting, comités Théodule, mille-feuille, subventions sans contrôle, doublons institutionnels). Les deux sont distincts mais convergent dans le même effet : les ressources quittent la sphère publique. Le chiffre de référence passe de 80-100 Md€ (évasion seule) à **200 Md€** (évasion + gaspillage + niches + fraude).
 
 ---
 
@@ -21,7 +22,7 @@ Cette question est **falsifiable** : si la première branche est vraie (accident
 
 **Prédiction vérifiable :** Si A est vraie, alors l'enrichissement des élites et la détérioration des indicateurs nationaux doivent être corrélés : et la causalité doit être traçable (ce que les élites prennent est ce qui manque au pays).
 
-**Faits confirmants (~400) :** L'évasion fiscale 80-100 Md€/an (2.3) = le déficit annuel. La dette 115,6% PIB (1.1) = le passif accumulé de ce transfert. La pauvreté 15,4% (8.1) = le résultat humain. La désindustrialisation (S6) = la base productive liquidée.
+**Faits confirmants (~500) :** L'évasion fiscale 80-100 Md€/an (2.3) + le gaspillage public 30-45 Md€ (2.4-2.13) = le déficit annuel multiplié par 2,5. La dette 115,6% PIB (1.1) = le passif accumulé de ce transfert. La pauvreté 15,4% (8.1) = le résultat humain. La désindustrialisation (S6) = la base productive liquidée.
 
 **Faits fragilisants (~50) :** Crises exogènes (COVID-19 a creusé le déficit de 6% supplémentaires en 2020-2021 ; guerre Ukraine a aggravé la crise énergétique). Certains indicateurs sont stables ou s'améliorent (espérance de vie, taux d'emploi).
 
@@ -68,7 +69,7 @@ Cette question est **falsifiable** : si la première branche est vraie (accident
 > **« La France est dirigée par une caste parasitaire dont le système de prédation produit l'effondrement économique, social, démocratique et écologique comme conséquence normale de son fonctionnement : et qui verrouille les institutions pour se protéger, rendant toute réforme de l'intérieur impossible. »**
 
 **Critères validés :**
-- ☑ **Absorbe le maximum de faits** : Les 604 faits du FACTCHECK s'expliquent par cette thèse : les cas limites (COVID, climat global) sont des exceptions qui ne la contredisent pas.
+- ☑ **Absorbe le maximum de faits** : Les ~746 faits du FACTCHECK (dont ~100 nouveaux sur les 8 investigations gaspillage institutionnel) s'expliquent par cette thèse : les cas limites (COVID, climat global) sont des exceptions qui ne la contredisent pas.
 - ☑ **Survit au test de résistance** : Les 3 contre-arguments principaux ont une réponse factuelle. Aucun fait ne l'invalide directement.
 - ☑ **Falsifiable** : Si la caste cesse de se reproduire, si les indicateurs s'améliorent sans changement structurel, si le verrouillage institutionnel est levé : la thèse tombe.
 - ☑ **Générative** : Elle produit 14 sous-questions spécifiques, une par article.
@@ -103,22 +104,31 @@ La contradiction fondamentale (caste vs nation) se déploie en **5 tensions dial
 ### TENSION 1 : EXTRACTION vs SOLVABILITÉ
 
 **Type :** Moteur économique de la contradiction
-**Enquêtes sources :** 1.1, 1.2, 2.1, 2.2, 2.3, 3.1, 16.1, 16.3
+**Enquêtes sources :** 1.1, 1.2, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 16.1, 16.3
 **Articles correspondants :** S2 (Argent), S3 (Dette)
 
 **Thèse :** « Les prélèvements obligatoires financent les services publics et la redistribution. »
 
 **Antithèse :** La caste extrait massivement de la richesse nationale par évasion fiscale, optimisation, rente et rachats d'actions. Ces sommes sont soustraites aux caisses publiques et au financement des services.
 
-| Mécanisme d'extraction | Montant estimé | Bénéficiaire | Enquête |
-|------------------------|---------------|-------------|---------|
+| Mécanisme d'extraction/gaspillage | Montant estimé | Bénéficiaire | Enquête |
+|----------------------------------|---------------|-------------|---------|
 | Évasion fiscale (offshore, CumEx, optimisation) | 80-100 Md€/an | Grandes fortunes, CAC40 | 2.3 |
 | Rachats d'actions CAC40 | 80 Md€ en 2022 | Actionnaires | 16.3 |
-| CICE + C3 (exonérations sans condition) | ~53 Md€/an | Grandes entreprises | 16.1 |
+| Niches fiscales (CICE, C3, niches non évaluées) | ~53 Md€/an | Grandes entreprises | 16.1 |
+| **Gaspillage public (sous-total)** | **~30-45 Md€/an** | **Cabinets, initiés, pantouflards, bureaucratie** | **2.4-2.13** |
+|  • Consulting/revolving door (actif) | 4-8 Md€ documentés | McKinsey, cabinets conseil, pantouflards | 2.4, 2.5 |
+|  • Comités Théodule (agences, opérateurs) | 14,5 Md€ économisables sur 64 Md€ | Hauts fonctionnaires, experts nommés | 2.6 |
+|  • Mille-feuille territorial (doublons) | 7,5 Md€ économisables | Élus locaux, personnel territorial | 2.7 |
+|  • Subventions associatives sans contrôle | 3-10 Md€ économisables sur 53 Md€ | Associations captives du guichet public | 2.8 |
+|  • Doublons préfectures/départements | 1,5-2,5 Md€ économisables | Corps préfectoral | 2.13 |
+|  • Sénat + AN + CESE | ~1 Md€ | Parlementaires, personnel institutionnel | 2.9, 2.10, 2.11 |
+|  • INSEE/INED | ~0,43 Md€ (risque systémique) | Statisticiens, chercheurs | 2.12 |
+| Fraude sociale (CAF, Sécu, retraites) | 5-10 Md€/an | Fraudeurs (minorité) | — |
 
-**Note de calcul :** Ces montants ne s'additionnent pas mécaniquement : il y a des recouvrements (rachats d'actions financés par l'évasion, CICE déjà comptabilisé dans le déficit). La fourchette basse (~150 Md€) correspond aux flux directement soustraits aux recettes publiques (évasion 80-100 + CICE 53) ; la fourchette haute (~180 Md€) intègre les flux de rente privée (rachats, foncier, médias).
+**Note de calcul :** Ces montants sont hétérogènes. L'évasion fiscale (80-100 Md€) et les niches (53 Md€) sont des transferts actifs : l'argent quitte les caisses publiques. Le gaspillage public (~30-45 Md€) est une destruction passive : l'argent est dépensé mais ne produit pas de valeur publique. **Les deux drainent les mêmes caisses par des canaux différents.** La fourchette basse (~140 Md€) additionne l'évasion et les niches ; la fourchette haute (~200 Md€) inclut le gaspillage institutionnel et la fraude sociale. Loin d'être une addition mécanique, ces catégories sont des faisceaux convergents qui **tous** montrent la même direction : l'argent public ne va pas là où il devrait.
 
-**Tension :** L'extraction totale (~150-180 Md€/an) excède le déficit public annuel (~80 Md€). **La dette n'est pas la cause du problème : elle est la trace comptable du transfert.** Le déficit n'est pas un excès de dépenses : c'est un manque de recettes provoqué par l'extraction.
+**Tension :** L'extraction + gaspillage total (~200 Md€/an) excède de loin le déficit public annuel (~80 Md€). **La dette n'est pas la cause du problème : elle est l'enregistrement comptable d'un transfert massif de la sphère publique vers des intérêts privés, doublé d'une destruction de valeur par gaspillage systémique.** Le déficit n'est pas un excès de dépenses : c'est un manque de recettes provoqué par l'extraction, aggravé par l'inefficacité publique structurelle.
 
 **Lien causal T1 → T2 :** L'extraction massive ne peut survivre sans verrouillage des institutions. Si les médias révélaient librement l'ampleur de l'évasion fiscale, si la justice poursuivait réellement les fraudeurs, si le parlement votait des lois de régulation : le système s'effondrerait. **T1 exige T2 comme condition de survie.**
 
@@ -200,12 +210,12 @@ La contradiction fondamentale (caste vs nation) se déploie en **5 tensions dial
 ### TENSION 5 : EXTERNALISATION vs RÉSILIENCE
 
 **Type :** Moteur différé de la contradiction
-**Enquêtes sources :** 13.1, 14.1, 14.2, 15.1
-**Articles correspondants :** S10 (Énergie/Climat), S11 (Agriculture), S8 (Immigration)
+**Enquêtes sources :** 13.1, 14.1, 14.2, 14.3, 15.1
+**Articles correspondants :** S10 (Énergie/Climat), S10 (ZFE), S11 (Agriculture), S8 (Immigration)
 
 **Thèse :** « La France est leader de la lutte contre le réchauffement climatique, championne de la transition énergétique, et ses frontières sont maîtrisées. »
 
-**Antithèse :** La caste externalise systématiquement les coûts de sa gestion sur le futur, les invisibles et les écosystèmes. Le climat est une « arnaque » théâtrale (subventions fossiles maintenues, objectifs −40% non tenus, émissions +2%). L'agriculture est un modèle qui tue les paysans et détruit la biodiversité. L'immigration n'est ni régulée ni intégrée : elle est subie.
+**Antithèse :** La caste externalise systématiquement les coûts de sa gestion sur le futur, les invisibles et les écosystèmes. Le climat est une « arnaque » théâtrale (subventions fossiles maintenues, objectifs −40% non tenus, émissions +2%). Les ZFE sont une écologie punitive : 12M véhicules bannis, 60 Md€ de décote forcée sur les pauvres. L'agriculture est un modèle qui tue les paysans et détruit la biodiversité. L'immigration n'est ni régulée ni intégrée : elle est subie.
 
 | Crise externalisée | Acte d'omission | Coût différé | Enquête |
 |-------------------|----------------|-------------|---------|
@@ -213,10 +223,11 @@ La contradiction fondamentale (caste vs nation) se déploie en **5 tensions dial
 | Énergétique | Fessenheim fermé, EPR 12 ans retard, ENR subventionnées sans plan | Dépendance au gaz importé, vulnérabilité stratégique | 14.2 |
 | Agricole | PAC 9 Md€/an dont 80% aux 20% plus grosses fermes, Mercosur | 1 suicide/2 jours, 100K fermes disparues/10 ans, souveraineté perdue | 15.1 |
 | Migratoire | 140K OQTF/an, <10% exécutées, clandestinité structurelle, 0 politique d'intégration | Ghettos, tensions sociales, coûts futurs de régularisation | 13.1 |
+| Écologie punitive (ZFE) | 12M véhicules bannis (30% parc), 60 Md€ décote forcée, double étau CE+CJUE, kayfabe parlementaire | Ségrégation sociale légalisée, report de la casse auto sur les pauvres | 14.3 |
 
 **Tension :** La caste gère les crises longues en les ignorant : parce que leurs conséquences n'affecteront pleinement le pays qu'après son passage aux affaires. C'est une stratégie de « après moi le déluge » institutionnalisée.
 
-**Boucle de retour T5 → T1 :** Les crises externalisées coûtent plus cher à long terme. Subventions fossiles = charge publique. Désertification agricole = importations. Non-intégration = coûts sociaux sécuritaires. Chaque euro économisé aujourd'hui par l'inaction se transforme en dette supplémentaire demain : qui justifiera encore plus d'austérité et donc encore plus d'externalisation. **La boucle se verrouille.**
+**Boucle de retour T5 → T1 :** Les crises externalisées coûtent plus cher à long terme. Subventions fossiles = charge publique. Désertification agricole = importations. ZFE = 60 Md€ de décote forcée, destruction de valeur. Non-intégration = coûts sociaux sécuritaires. Chaque euro économisé aujourd'hui par l'inaction se transforme en dette supplémentaire demain : qui justifiera encore plus d'austérité et donc encore plus d'externalisation. **La boucle se verrouille.**
 
 ---
 
@@ -240,7 +251,7 @@ T4 : ABDICATION
   La destruction du pays le rend faible → impuissance face à UE/OTAN/libre-échange (10.1, 11.1)
      ↓
 T5 : EXTERNALISATION
-  L'impuissance empêche toute résilience → crises climat/agriculture/immigration ignorées (13.1, 14.1, 14.2, 15.1)
+  L'impuissance empêche toute résilience → crises climat/agriculture/immigration/ZFE ignorées (13.1, 14.1, 14.2, 14.3, 15.1)
      ↓
 → RETOUR À T1
   Les crises non gérées creusent la dette → justifient plus d'extraction → boucle refermée
@@ -316,11 +327,11 @@ L'ordre de publication n'est ni alphabétique ni chronologique : il est **judici
 
 **Thèse officielle :** « La France est un grand pays qui se modernise sous l'impulsion de réformes nécessaires, menées par des élites compétentes et méritocratiques, dans le cadre européen et atlantique qui garantit sa sécurité et sa prospérité. »
 
-**Antithèse (27 enquêtes, 604 faits) :** « La France est un pays en effondrement systémique, dirigé par une caste parasitaire qui extrait sa richesse, capture ses institutions, détruit ses services publics, abdique sa souveraineté et externalise ses crises : produisant l'effondrement comme conséquence normale de son fonctionnement. »
+**Antithèse (38 enquêtes, ~746 faits) :** « La France est un pays en effondrement systémique, dirigé par une caste parasitaire qui extrait sa richesse, capture ses institutions, détruit ses services publics, abdique sa souveraineté et externalise ses crises : produisant l'effondrement comme conséquence normale de son fonctionnement. »
 
 **Synthèse : le piège causal :** Les 5 tensions ne sont pas des problèmes séparés que des réformes successives pourraient résoudre. Elles forment un **système causalement fermé** où chaque tension protège et alimente les autres. L'extraction (T1) nécessite la capture (T2) qui permet le démantèlement (T3) qui affaiblit le pays et force l'abdication (T4) qui empêche toute résilience (T5) : et les crises non gérées creusent la dette qui justifie plus d'extraction.
 
-**Conséquence :** Ce système **ne peut pas se réformer de l'intérieur**. Chaque tentative de réforme d'un élément est neutralisée par les autres. Ce constat n'est pas un appel à une solution particulière : c'est la conclusion factuelle que les 27 enquêtes imposent. Le changement de régime n'est plus une opinion politique : c'est une nécessité logique.
+**Conséquence :** Ce système **ne peut pas se réformer de l'intérieur**. Chaque tentative de réforme d'un élément est neutralisée par les autres. Ce constat n'est pas un appel à une solution particulière : c'est la conclusion factuelle que les 38 enquêtes imposent. Le changement de régime n'est plus une opinion politique : c'est une nécessité logique.
 
 ---
 

@@ -45,7 +45,7 @@ flowchart TD
 
 **~200 milliards d'euros par an. L'équivalent de 1,3 fois le déficit public annuel, soit le budget de l'Éducation, de la Défense et de la Justice réunis, et plus encore.**
 
-Cette somme se décompose en trois flux distincts, de natures juridiques différentes, dont le point commun est de vider les caisses de l'État :
+Cette somme se décompose en quatre flux distincts, de natures juridiques différentes, dont le point commun est de vider les caisses de l'État :
 
 **Évasion fiscale** (fraude illégale + optimisation agressive) : **80 à 100 Md€/an** (CCFD, Oxfam). L'argent passe par les paradis fiscaux, les prix de transfert, les montages offshore. Le fisc en récupère 12 % selon l'IGF. Le PNF a traité 203,9 millions en 2024 : 0,2 % de ce flux.
 
@@ -53,7 +53,13 @@ Cette somme se décompose en trois flux distincts, de natures juridiques différ
 
 **Baisses d'impôts structurelles** depuis 2017 (suppression de l'ISF, flat tax à 30 %, baisse de l'IS de 33 % à 25 %) : **40 à 50 Md€/an** de recettes non perçues (Haut Conseil des Finances Publiques).
 
-Ces trois flux ne sont pas purement additifs : une partie de l'optimisation classée dans l'évasion recoupe ce que la Cour des comptes appelle niches. Mais leur ordre de grandeur agrégé est sans ambiguïté : **l'État perd chaque année davantage que son déficit, parce qu'il a renoncé à capter sa propre richesse.**
+**Gaspillage public** : **24 à 48 Md€/an**. Ce flux total se décompose en deux sous-ensembles de nature différente :
+
+- **Gaspillage « actif » (4 à 8 Md€/an)** : projets informatiques inaboutis (Scribe : 257 M€), erreurs de versement CAF (6,3 Md€), dépenses de conseil externalisé (2,5 Md€ en 2021), fonds Marianne (2,5 M€). La partie émergée d'un ICEBERG.
+
+- **Gaspillage institutionnel (20 à 40 Md€/an)** : 434 opérateurs d'État (64 Md€, 14,5 Md€ économisables), 35 000 communes qui doublonnent avec les intercommunalités (7,5 Md€, rapport Ravignon), 53 Md€ de subventions associatives sans contrôle (3 à 10 Md€ récupérables), 101 préfectures en concurrence avec 101 départements (4,96 Md€ AGTE, 1,5 à 2,5 Md€ économisables), et ~1 Md€ pour trois assemblées (Sénat 358 M€, AN 600 M€, CESE 45 M€) à l'efficacité déclinante.
+
+Ces quatre flux ne sont pas purement additifs : une partie de l'optimisation classée dans l'évasion recoupe ce que la Cour des comptes appelle niches. Mais leur ordre de grandeur agrégé est sans ambiguïté : **l'État perd chaque année davantage que son déficit, parce qu'il a renoncé à capter sa propre richesse.**
 
 ### Tension 2 : Capture : cet argent achète le silence
 
@@ -61,7 +67,7 @@ Ces trois flux ne sont pas purement additifs : une partie de l'optimisation clas
 
 9 propriétaires privés contrôlent 90 % de l'audience médiatique nationale (Arcom, baromètre du pluralisme 2024). Bolloré possède Canal+, CNews, C8, Europe 1, le JDD, Paris Match : plus de 200 journalistes ont quitté ses rédactions. Niel contrôle Le Monde. Drahi possédait BFM TV. Arnault possède Les Échos. **Les ultra-riches qui bénéficient de l'impunité fiscale possèdent les médias qui forment l'opinion.**
 
-Au Parlement : 23 recours au 49.3 en 7 ans, 120 ordonnances, 90 % des lois adoptées sans vote (CEVIPOF). À la justice : 0,20 % du PIB contre 0,30 % de moyenne européenne (CEPEJ), 11,2 magistrats pour 100 000 habitants contre 21 en moyenne. Et 40 conventions d'impunité qui permettent aux entreprises de s'acheter l'impunité.
+Au Parlement : 28 recours au 49.3 en 7 ans, 120 ordonnances, 90 % des lois adoptées sans vote (CEVIPOF). À la justice : 0,20 % du PIB contre 0,30 % de moyenne européenne (CEPEJ), 11,2 magistrats pour 100 000 habitants contre 21 en moyenne. Et 40 conventions d'impunité qui permettent aux entreprises de s'acheter l'impunité.
 
 **100 euros de RSA fraudé : poursuivis. 100 millions d'évasion fiscale : une convention d'impunité.**
 
@@ -99,7 +105,7 @@ Au Parlement : 23 recours au 49.3 en 7 ans, 120 ordonnances, 90 % des lois adopt
 
 **Agriculture :** première puissance agricole d'Europe, mais un suicide d'agriculteur tous les deux jours. 100 000 fermes disparues en dix ans (Agreste). Des sécheresses qui coûtent des milliards.
 
-**Numérique :** 70 % des données françaises sur serveurs américains (CNIL). Les GAFAM réalisent 20 à 30 Md€ de CA en France en payant 5 à 10 % d'impôt. L'Éducation nationale a confié 12 millions d'élèves à Microsoft pour 152 M€ : sous droit américain, sans mandat français.
+**Numérique :** 70 % des données françaises sur serveurs américains (CNIL). Les GAFAM réalisent 20 à 30 Md€ de CA en France en payant 5 à 10 % d'impôt. L'Éducation nationale a confié 12 millions d'élèves à Microsoft pour 152 M€ : sous droit américain, sans mandat français. Deux projets de cloud souverain (Cloudwatt, Numergy) ont échoué faute de marché public captif, et en 2026, 52 millions de Français ont fui dans le mégaleak IDMerit — des données que la France ne maîtrise même pas.
 
 **Ces crises ne sont pas séparables. Elles sont le refus d'investir dans l'avenir : l'argent qui aurait dû servir a été transféré ailleurs, depuis le début. La boucle se referme sur T1 : les crises non gérées creusent la dette, la dette justifie plus d'extraction, l'extraction alimente la capture.**
 
@@ -145,7 +151,7 @@ Trois réformes, trois murs. Mais la cage est la même : le système est conçu 
 
 **Instaurer la flat tax à 30 % (2018)** : le capital paie désormais moins que le travail pour les hauts revenus. Rien n'y obligeait.
 
-**Utiliser le 49.3 23 fois en 7 ans** : 90 % des lois adoptées sans vote parlementaire. Rien n'y obligeait.
+**Utiliser le 49.3 28 fois en 7 ans** : 90 % des lois adoptées sans vote parlementaire. Rien n'y obligeait.
 
 **Permettre aux entreprises de s'acheter l'impunité** : 40 conventions signées depuis 2017, zéro procès, zéro condamnation. Rien n'y obligeait.
 
@@ -231,28 +237,28 @@ Le reste appartient à ceux qui lisent, comprennent et décident.
 
 **Ces deux textes prolongent le diagnostic par l'action :**
 
-- **« [L'Adieu aux partis](https://giak.substack.com/p/ladieu-aux-partis-du-diagnostic-de) »** — le levier institutionnel : RIC, tirage au sort, OS démocratique souverain. Comment changer les règles du jeu.
-- **« [Le Protocole du ré-enracinement](https://giak.substack.com/p/le-protocole-du-re-enracinement) »** — le levier personnel : 6 étapes pour cesser d'alimenter la machine. Comment changer sa vie.
+- **« [L'Adieu aux partis](https://giak.substack.com/p/ladieu-aux-partis-du-diagnostic-de) »** : le levier institutionnel : RIC, tirage au sort, OS démocratique souverain. Comment changer les règles du jeu.
+- **« [Le Protocole du ré-enracinement](https://giak.substack.com/p/le-protocole-du-re-enracinement) »** : le levier personnel : 6 étapes pour cesser d'alimenter la machine. Comment changer sa vie.
 
 L'un ne va pas sans l'autre. Changer le système sans changer sa vie, c'est remplacer un maître par un autre. Changer sa vie sans changer le système, c'est cultiver son jardin pendant que la forêt brûle.
 
 ---
 
-*📖 **Article suivant :** 👑 La Caste Parasite : 20 familles, 704 milliards, la classe qui a verrouillé le système [LIEN_A_INSERER]*
+*📖 **Article suivant :** 👑 La Caste Parasite : 20 familles, 704 milliards, la classe qui a verrouillé le système https://giak.substack.com/p/la-caste-parasite-qui-gouverne-la*
 *📖 **Article précédent :** 💻 Le Numérique colonisé : 70 % des données françaises sur serveurs américains [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+
 
 ---
 
 ## Note sur le travail d'enquête
 
-Ce texte est la synthèse d'un travail de **cinq jours** (23-26 mai 2026) qui a produit 16 articles et ce HUB de synthèse. Il s'appuie sur **27 enquêtes complexes** produites par le protocole Truth Engine, un pipeline forensique en 19 étapes qui combine analyse symbolique, vérification multi-source et cartographie des verrous systémiques. Ces enquêtes ont alimenté **86 articles publiés** depuis novembre 2025.
+Ce texte est la synthèse d'un travail de **cinq jours** (23-27 mai 2026) qui a produit 16 articles et ce HUB de synthèse. Il s'appuie sur **37 enquêtes complexes** produites par le protocole Truth Engine, un pipeline forensique en 19 étapes qui combine analyse symbolique, vérification multi-source et cartographie des verrous systémiques. Ces enquêtes ont alimenté **86 articles publiés** depuis novembre 2025.
 
-**Méthode.** Chaque enquête suit le pipeline Truth Engine (KERNEL v2.0, 19 étapes) : analyse symbolique du discours dominant (15 symboles scorés de 0 à 10 — gaslighting, framing, capture, inversion, etc.) → cartographie des clusters de manipulation → chronologie forensique → domaines d'impact avec faits marqués ✦ → cartographie systémique du réseau d'acteurs et boucles de rétroaction → chaînes causales quantifiées (≥3 maillons par chaîne, minimum 2 chaînes par enquête) → registre de preuves complet (FACT_REGISTRY avec dates, acteurs, chiffres, URLs, fiabilité) → carte dialectique à 3 perspectives (économique, critique, arbitrage) → identification des loups (acteurs nommément désignés) → scope et limitations → vérification multi-domaine.
+**Méthode.** Chaque enquête suit le pipeline Truth Engine : analyse symbolique du discours dominant (15 symboles scorés de 0 à 10 : gaslighting, framing, capture, inversion, etc.) → cartographie des clusters de manipulation → chronologie forensique → domaines d'impact avec faits marqués ✦ → cartographie systémique du réseau d'acteurs et boucles de rétroaction → chaînes causales quantifiées (≥3 maillons par chaîne, minimum 2 chaînes par enquête) → registre de preuves complet (FACT_REGISTRY avec dates, acteurs, chiffres, URLs, fiabilité) → carte dialectique à 3 perspectives (économique, critique, arbitrage) → identification des loups (acteurs nommément désignés) → scope et limitations → vérification multi-domaine.
 
-**Vérification.** Chaque fait est sourcé avec son URL publique. Les articles ont été soumis à des audits critiques automatisés (APEX) qui traquent incohérences, biais de framing et sauts logiques. Les corrections issues de ces audits ont été intégrées.
+**Vérification.** Chaque fait est sourcé avec son URL publique. Les articles ont été soumis à des audits critiques automatisés qui traquent incohérences, biais de framing et sauts logiques. Les corrections issues de ces audits ont été intégrées.
 
-**Volume.** 16 articles, environ 120 000 mots. Chacun peut se lire indépendamment. Mais leur force est dans l'accumulation : un fait seul peut être contesté, vingt faits convergents de sources différentes forment une preuve. Le HUB condense cette masse en un diagnostic : le système est verrouillé par ceux qui en bénéficient, la réforme par le haut est une contradiction dans les termes.
+**Volume.** 16 articles, 37 enquêtes, 704 faits vérifiés, environ 120 000 mots. Chacun peut se lire indépendamment. Mais leur force est dans l'accumulation : un fait seul peut être contesté, vingt faits convergents de sources différentes forment une preuve. Le HUB condense cette masse en un diagnostic : le système est verrouillé par ceux qui en bénéficient, la réforme par le haut est une contradiction dans les termes.
 
 **Limite.** Cette enquête est un diagnostic, pas un programme. Les deux textes recommandés en conclusion ouvrent des pistes, l'une institutionnelle, l'autre personnelle. Le reste appartient à ceux qui lisent, comprennent et décident.
 
@@ -266,7 +272,7 @@ Ce texte est la synthèse d'un travail de **cinq jours** (23-26 mai 2026) qui a 
 2. **European Tax Observatory** : Global Tax Evasion Report 2024, évasion fiscale 80-100 Md€/an : [https://www.taxobservatory.eu/publication/global-tax-evasion-report-2024/](https://www.taxobservatory.eu/publication/global-tax-evasion-report-2024/)
 3. **Monde Diplomatique** : Cartographie des médias français, concentration propriétariale : [https://www.monde-diplomatique.fr/cartes/medias](https://www.monde-diplomatique.fr/cartes/medias)
 4. **Arcom** : Baromètre du pluralisme 2024, 9 groupes = 90 % de l'audience médiatique nationale : [https://www.arcom.fr/nos-ressources/etudes-et-publications/pluralisme-politique](https://www.arcom.fr/nos-ressources/etudes-et-publications/pluralisme-politique)
-5. **Assemblée Nationale** : Recours au 49.3, 23 depuis 2022 : [https://www.assemblee-nationale.fr/dyn/49-3](https://www.assemblee-nationale.fr/dyn/49-3)
+5. **Assemblée Nationale** : Recours au 49.3, 28 depuis 2022 (23 sous Borne, 5 sous Barnier/Bayrou/Lecornu) : [https://www.assemblee-nationale.fr/dyn/49-3](https://www.assemblee-nationale.fr/dyn/49-3)
 6. **CEPEJ (Conseil de l'Europe)** : Rapport 2024, budgets justice 0,20 % PIB France vs 0,30 % moyenne européenne : [https://www.coe.int/fr/web/cepej](https://www.coe.int/fr/web/cepej)
 7. **INSEE** : Dette publique 3 228 Md€, déficit 5,5 % du PIB, charge 55 Md€ : [https://www.insee.fr/fr/statistiques/8292976](https://www.insee.fr/fr/statistiques/8292976)
 8. **INSEE** : Bilan démographique 2025, ICF 1,56, moins de 650 000 naissances : [https://www.insee.fr/fr/statistiques/8719824](https://www.insee.fr/fr/statistiques/8719824)
@@ -292,3 +298,9 @@ Ce texte est la synthèse d'un travail de **cinq jours** (23-26 mai 2026) qui a 
 28. **Framasoft** : Alternatives libres (Nextcloud, PeerTube, Mobilizon), 72 000 postes Gendarmerie migrés vers Ubuntu : [https://framasoft.org/](https://framasoft.org/)
 29. **Johns Hopkins University** (MacLean et al., 2011) : Psilocybine et augmentation durable du trait Ouverture chez l'adulte : *Journal of Psychopharmacology*
 30. **Simone Weil** (1943, 1949) : *L'Enracinement*, prélude à une déclaration des devoirs envers l'être humain
+31. **Mission parlementaire Danon** : 434 opérateurs d'État, 64 Md€, 14,5 Md€ d'économies potentielles, 2024 : [https://www.vie-publique.fr/rapport/294072-operateurs-de-letat-mission-danon](https://www.vie-publique.fr/rapport/294072-operateurs-de-letat-mission-danon)
+32. **Rapport Ravignon** : Doublons communes-intercommunalités, 7,5 Md€/an, 2024 : [https://www.vie-publique.fr/rapport/293673-rapport-ravignon-sur-la-decentralisation](https://www.vie-publique.fr/rapport/293673-rapport-ravignon-sur-la-decentralisation)
+33. **IGF-Igésr** : Premier rapport d'évaluation des subventions aux associations, 53 Md€, 2024 : [https://www.igas.gouv.fr/IMG/pdf/2024-008r_rapport_igf-igesr_evaluation_depenses_associations.pdf](https://www.igas.gouv.fr/IMG/pdf/2024-008r_rapport_igf-igesr_evaluation_depenses_associations.pdf)
+34. **PLF 2025** : Mission AGTE 4,96 Md€, hausse de 124 % depuis 2006 : [https://www.budget.gouv.fr](https://www.budget.gouv.fr)
+35. **Sénat** : Budget 2025, 358 M€ pour 348 sénateurs : [https://www.senat.fr/notice/2024/2024-2025-budget-du-senat.html](https://www.senat.fr/notice/2024/2024-2025-budget-du-senat.html)
+36. **Assemblée Nationale** : Budget 2025, ~600 M€ pour 577 députés : [https://www.assemblee-nationale.fr/dyn/depenses](https://www.assemblee-nationale.fr/dyn/depenses)

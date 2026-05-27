@@ -1,8 +1,8 @@
-# 🏠 Le Logement, la Machine à créer de la Rareté : 37 millions de logements, 4,2 millions de mal-logés, 30 500 expulsions : comment la pénurie est devenue une industrie
+# 🏠 Le Logement, la Machine à créer de la Rareté : 37 millions de toits, 4,2 millions de mal-logés, 30 500 expulsions
 
-*🏠 37 millions de logements pour 68 millions d'habitants. 4,2 millions de mal-logés. 30 500 expulsions en 2025. Le logement n'est pas une pénurie de toits, c'est une machine à produire de la rareté.*
+*37 millions de logements. 4,2 millions de mal-logés. 30 500 expulsions par an. Le logement n'est pas une pénurie de toits : c'est une machine à produire de la rareté.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
@@ -12,7 +12,7 @@ La France compte 37 millions de logements pour 68 millions d'habitants. Il y a t
 
 > **37 millions de logements, 4,2 millions de mal-logés : le paradoxe français n'est pas une pénurie de toits, c'est un système qui fonctionne comme une machine à produire de la rareté.**
 
-Cette coexistence d'un parc suffisant et d'une pénurie vécue n'est pas un paradoxe. C'est le fonctionnement normal d'un système qui protège la valeur du patrimoine existant en rendant l'accès au logement toujours plus coûteux, plus précaire, plus exclusif. 259 000 logements mis en chantier en 2024 contre 435 000 en 2017, selon le SDES (Sit@del2). 82 000 logements sociaux financés contre 124 000 en 2016, selon la même source. 19 000 expulsions en 2023, 24 500 en 2024, 30 500 en 2025. 30 % des ménages ayant eu froid dans leur logement en 2024 contre 14 % en 2020, selon le Médiateur national de l'énergie. Chaque indicateur va dans la même direction : celle d'une raréfaction méthodique de l'accès à un toit décent.
+Cette coexistence d'un parc suffisant et d'une pénurie vécue n'est pas un paradoxe. C'est le fonctionnement normal d'un système qui protège la valeur du patrimoine existant en rendant l'accès au logement toujours plus coûteux, plus précaire, plus exclusif. 259 000 logements mis en chantier en 2024 contre 435 000 en 2017, selon le SDES (Sit@del2). 82 000 logements sociaux financés contre 124 000 en 2016, selon la même source, et seulement 300 000 attribués en 2023, soit une baisse de **19 % depuis 2016**, selon le SDES. Le budget public du logement atteint **43,5 milliards d'euros**, selon la Cour des comptes (2024). Pourtant, l'État prélève chaque année **1,3 milliard d'euros sur les bailleurs sociaux** (11,7 milliards cumulés depuis 2017), selon le PLF. 19 000 expulsions en 2023, 24 500 en 2024, 30 500 en 2025. 30 % des ménages ayant eu froid dans leur logement en 2024 contre 14 % en 2020, selon le Médiateur national de l'énergie. Chaque indicateur va dans la même direction : celle d'une raréfaction structurelle de l'accès à un toit décent.
 
 Les chapitres qui suivent démontrent que cette machine à créer de la rareté n'est pas une fatalité de marché. Elle s'alimente de choix politiques précis : le désengagement de l'État constructeur, le verrouillage du crédit, la norme qui bloque, l'aide qui ne couvre plus, et l'expulsion comme solution finale à l'échec de toutes les politiques précédentes.
 
@@ -32,7 +32,7 @@ Le dispositif de défiscalisation immobilière Pinel, qui représentait jusqu'à
 
 ### Le gel du foncier
 
-Entre la raréfaction des terrains constructibles liée à l'objectif de Zéro Artificialisation Nette (ZAN, loi Climat et Résilience 2021) et le refus croissant des maires de délivrer des permis sous pression électorale, l'offre foncière s'est contractée bien plus vite que la demande. La réglementation environnementale RE2020 a renchéri le coût de construction de 8 à 12 % par logement, selon la Fédération Française du Bâtiment. Les matières premières ont flambé, selon la FFB et le SDES, de 20 à 35 % entre 2021 et 2024. Dans les zones tendues, un promoteur passe aujourd'hui 2 à 3 ans à monter une opération contre 12 à 18 mois en 2017.
+Entre la raréfaction des terrains constructibles liée à l'objectif de Zéro Artificialisation Nette (ZAN, loi Climat et Résilience 2021) et le refus croissant des maires de délivrer des permis sous pression électorale, l'offre foncière s'est contractée bien plus vite que la demande. La réglementation environnementale RE2020 a renchéri le coût de construction de 8 à 12 % par logement, selon la Fédération Française du Bâtiment. Les matières premières ont flambé, selon la FFB et le SDES, de 20 à 35 % entre 2021 et 2024. Dans les zones tendues, un promoteur passe aujourd'hui 2 à 3 ans à monter une opération contre 12 à 18 mois en 2017. À ces causes s'ajoute l'essor des locations touristiques : à Paris, l'offre Airbnb a bondi de 40 % en cinq ans, retirant chaque année des milliers de logements du marché locatif, selon les données de la mairie de Paris.
 
 Le résultat est mécanique : moins de construction → moins d'offre → hausse des prix → exclusion des ménages modestes → report sur le parc locatif existant → hausse des loyers → tension sociale. Chaque maillon de cette chaîne est vérifiable par les chiffres du SDES, de l'INSEE et de la Banque de France.
 
@@ -48,7 +48,7 @@ En 2023, la production de crédits immobiliers a chuté de 40 % par rapport à 2
 
 ### La fracture générationnelle
 
-Les taux d'usure ont été révisés trimestriellement pour suivre la hausse des taux. Au 1er juillet 2025, ils étaient fixés à 4,80 % pour un prêt sur 15 ans, 5,05 % sur 20 ans, 5,20 % sur 25 ans, selon la Banque de France. Mais cette révision a surtout empêché les banques de prendre des risques : les dossiers les plus fragiles sont systématiquement refusés. **34 % des primo-accédants de moins de 35 ans** se voient refuser leur prêt, et **52 % des travailleurs non-cadres** (ouvriers, employés, intérimaires), selon l'Observatoire Crédit Logement (2025).
+Les taux d'usure ont été révisés trimestriellement pour suivre la hausse des taux. Au 1er juillet 2025, ils étaient fixés à 4,80 % pour un prêt sur 15 ans, 5,05 % sur 20 ans, 5,20 % sur 25 ans, selon la Banque de France. Mais cette révision a surtout empêché les banques de prendre des risques : les dossiers les plus fragiles sont systématiquement refusés. Le **Prêt à Taux Zéro**, qui permettait aux ménages modestes d'accéder à la propriété, a été réformé en avril 2025 : le gain moyen pour l'emprunteur est passé de 25 000 à 12 000 euros, selon le ministère du Logement. **34 % des primo-accédants de moins de 35 ans** se voient refuser leur prêt, et **52 % des travailleurs non-cadres** (ouvriers, employés, intérimaires), selon l'Observatoire Crédit Logement (2025).
 
 Un ménage de moins de 35 ans avait, en 2017, 60 % de chances d'obtenir un prêt immobilier pour l'achat de sa résidence principale. En 2025, cette probabilité est tombée à 38 %. Les jeunes sont les premiers exclus du marché : sans apport, sans CDI stable, sans héritage, ils restent locataires et paient un loyer qui ne construit aucun patrimoine.
 
@@ -90,13 +90,13 @@ Si une politique du logement échoue à loger les gens, l'expulsion devient la s
 
 **19 023 expulsions** avec le concours de la force publique en 2023. **24 556 en 2024** (+29 %). **30 500 en 2025** (+27 %), selon la Fondation pour le Logement et la Chambre nationale des commissaires de justice. 3 années de records consécutifs, une progression de 60 % en 2 ans. Ces chiffres ne comptent que les expulsions effectives, pas les départs dits volontaires avant l'intervention des forces de l'ordre, que la Fondation estime 2 à 3 fois plus nombreux (soit 60 000 à 90 000 ménages supplémentaires, selon la Fondation).
 
-La loi Kasbarian-Bergé du 27 juillet 2023 a facilité ce mouvement en réduisant les délais de procédure et en durcissant les conditions de relogement. Les préfets peuvent désormais ordonner l'expulsion sans avoir à proposer de solution d'hébergement, contrairement à l'article L.345-2-2 du Code de l'action sociale et des familles qui prévoit un droit à l'hébergement d'urgence opposable.
+La loi Kasbarian-Bergé du 27 juillet 2023 a facilité ce mouvement en réduisant les délais de procédure et en durcissant les conditions de relogement. **Guillaume Kasbarian**, député LREM et rapporteur du texte, a personnellement porté cette machine à expulser : son nom est devenu le symbole d'une politique qui préfère jeter des familles à la rue plutôt que de réguler le marché. Les préfets peuvent désormais ordonner l'expulsion sans avoir à proposer de solution d'hébergement, contrairement à l'article L.345-2-2 du Code de l'action sociale et des familles qui prévoit un droit à l'hébergement d'urgence opposable.
 
 ### L'hébergement d'urgence saturé
 
 Le parc d'hébergement d'urgence stagne à 203 000 places depuis 2021, selon la Fondation pour le Logement. **61 % des demandes d'hébergement ne sont pas satisfaites**, selon le rapport IGAS/IGF (2025). Fin mai 2025, plus de 7 000 personnes (dont 2 000 enfants) étaient en demande non pourvue au 115, selon le collectif CAL. En 2025, le budget de l'hébergement d'urgence des demandeurs d'asile a été réduit de 6 500 places, au moment même où les expulsions atteignaient leur record.
 
-**735 morts à la rue en 2023**, selon le collectif Les Morts de la Rue. Ce décompte ne compte que les décès signalés: la réalité est probablement plus élevée. Ce chiffre signifie que 2 personnes meurent chaque jour faute d'avoir un toit, dans le 7e pays le plus riche du monde.
+**735 morts à la rue en 2023**, selon le collectif Les Morts de la Rue. La dernière enquête officielle de l'INSEE sur les sans-abri remonte à 2012 : depuis 13 ans, l'État a cessé de compter ceux qui n'ont pas de toit. Ce décompte ne compte que les décès signalés: la réalité est probablement plus élevée. Ce chiffre signifie que 2 personnes meurent chaque jour faute d'avoir un toit, dans le 7e pays le plus riche du monde.
 
 ---
 
@@ -124,13 +124,11 @@ La réponse tient sur une courbe : **259 000 logements mis en chantier en 2024, 
 
 Cette démonstration de la raréfaction organisée du logement ne mentionne pas les modèles étrangers qui ont réussi à inverser la tendance. Vienne (Autriche) gère 60 % de son parc locatif en logements sociaux ou subventionnés, avec des loyers plafonnés et une qualité d'entretien qui évite la stigmatisation des quartiers. Singapour a bâti un système où 80 % des habitants sont propriétaires grâce à un fonds d'épargne-logement obligatoire adossé aux cotisations retraite. La France, qui a inventé le modèle HLM, a progressivement abandonné la construction publique sans la remplacer. Le chapitre n'explore pas non plus l'opportunité du réemploi des friches et de la densification douce : la loi ZAN pourrait forcer une innovation urbaine que l'étalement pavillonnaire a rendue facultative pendant 50 ans. Enfin, la question des territoires ruraux en déclin démographique (où le logement est abondant et bon marché mais l'emploi absent) mériterait d'être articulée avec la politique d'aménagement du territoire, dont ce chapitre ne parle pas.
 
-➡️ **À lire ensuite :** Comment la transition énergétique aggrave la précarité des ménages sans résoudre le problème climatique : **S10 : L'Énergie sacrifiée**
-
 ---
 
 *📖 **Article suivant :** ⚡ L'Énergie sacrifiée : transition, précarité, et l'arnaque climatique [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🧭 L'Immigration sans Cap : 340 000 titres, 71 % de rejet, zéro politique [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 **Article précédent :** 🧭 L'Immigration sans Cap : 340 000 titres, 71 % rejetés, 15 lois pour rien [LIEN_A_INSERER]*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 

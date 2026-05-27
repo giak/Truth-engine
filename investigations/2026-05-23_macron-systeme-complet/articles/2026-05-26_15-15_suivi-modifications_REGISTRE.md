@@ -66,8 +66,12 @@
 | S9 F001, F002, F003 | 7000/115 source CAL, BDF→OCL, 6 générations→données vérifiées | M054 | ✅ |
 | S10 F001, F002, F004 | Agrégation 120 Md€ reformulée, source ZFE Légifrance, H3 §5 | M055 | ✅ |
 | S11 F001, F002, F003, F006 | Lien S6→S13, URLs génériques, intentionnaliste→structurel, HTML comments §3-5 | M056 | ✅ |
+| S11 F004, F007, F008 | Blockquotes scindés, Mercosur corrigé (signé janv. 2026), À lire ensuite ajouté dans le corps, §5 renforcé T5+externalisations, §3 renommé | M063 | ✅ |
 | S13 F001, F002, F003, F004, F005 | Chat Control sourcé, Article précédent S6→S11, URLs, blockquote Mercosur scindé, HTML comments | M057 | ✅ |
+| S13 F006-F012 | Blockquote Chat Control scindé, §5 renforcé (NextGenEU + défense + traités), §1 PDE historique, §4 RN 31,4%, §6 contrepoints, titre + sous-titre revus | M064 | ✅ |
 | S14 F001, F002, F003, F004 | Blockquote Iran reformulé/sourcé, 4 jours→semaines, URL source 5, 200k inline | M058 | ✅ |
+| S14 (relecture 2026-05-27) | LPM 449 Md€ actualisé, Sentinelle, dissuasion 11%, Allemagne comparaison, Barracuda, SCAF/MGCS, RNS 2025, T4 anchoring | M065 | ✅ |
+| S14 (vague 2 investigations) | Budget 57,2 Md€, cobelligérance Iran, ESSI/Arrow 3, ELNET, cheap beats expensive | M066 | ✅ |
 | S15 F001, F002, F003, F004 | M12 divergence Kantar/Reuters, URLs génériques Arcom, HTML comments, métadonnées | M059 | ✅ |
 | S16 F001-F007 | §6 absent, sourcing, URLs, ton intentionnaliste, HTML comments, blockquotes, À voir aussi | M060 | ✅ |
 
@@ -519,7 +523,7 @@
 | **Type** | ✏️ Correction factuelle + 🔁 Reformulation + ➕ Métadonnées |
 | **Changements** | **(a) F001** : « À lire ensuite » et « Article suivant » : S6 (désindustrialisée) → S13 (Europe). **(b) F002** : URLs sources 6 et 13 : pages génériques → documents spécifiques. **(c) F003** : « élimination programmée de 75 % » → « réduction drastique de 75 % » ; « a été conçue pour... Elle est devenue une machine à concentrer » → « avait pour objectif de... Son mécanisme produit mécaniquement une concentration ». **(d) F006** : HTML comments ajoutés dans §3, §4, §5 (3 sections). |
 | **Justification** | **(F001)** S6 précède S11 dans la série. Erreur de copier-coller manifeste. **(F002)** Deux URLs pointant vers des pages d'index sans document spécifique. **(F003)** Ratio intentionnaliste ~67% affaiblit la crédibilité forensique. Les réformulations remplacent l'attribution d'intention par la description du mécanisme. **(F006)** Sections sans métadonnées d'architecture, essentiel pour l'indexation vectorielle. |
-| **F004 reporté** | Blockquotes §1 (622 chars) et §2 (732 chars) > seuil 600. Scinder en 2 blocs si révision ultérieure. |
+| **F004 reporté** | Blockquotes §1 (633c) et §2 (838c) > seuil 600. Résolu en M063. |
 | **Verification** | ✅ S13 existe bien comme article actif. URLs remplacées par des pointeurs plus précis. HTML comments ajoutés sans enlever les métadonnées existantes. |
 | **Statut** | ✅ Appliqué (F001, F002, F003, F006) |
 
@@ -828,10 +832,10 @@
 
 | Statut | Nombre |
 |--------|--------|
-| ✅ Appliqué | 57 |
+| ✅ Appliqué | 62 |
 | ⏳ En attente | 1 |
 | ❌ Rejeté | 0 |
-| **Total** | **58** |
+| **Total** | **63** |
 
 ### Par type de modification
 
@@ -905,4 +909,60 @@
 - Audit Couche 5 S3-S8 : tous APEX (2026-05-26)
 - Correction S7 Couche 5 : lien systémique §0 (extraction + verrouillage → crise transmission) (2026-05-26)
 - **Corpus complet audité et corrigé : 15/15 articles APEX** (2026-05-26)
-- Modifications : 57/58 appliquées (reste M012 encadrés historiques : optionnel)
+- Relecture S11 (2026-05-27) : M063 (blockquotes scindés, Mercosur, T5, §3 renommé, À lire ensuite)
+- Relecture S13 (2026-05-27) : M064 (blockquote scindé, §5 renforcé NextGenEU/défense/traités, PDE, RN 31,4%, contrepoints, titre)
+- Relecture S14 (2026-05-27) : M065 (LPM 449 Md€, Sentinelle, dissuasion 11%, Allemagne, Barracuda, SCAF/MGCS, RNS 2025, T4 anchoring)
+- Relecture S14 v2 investigations (2026-05-27) : M066 (budget 57,2 Md€, cobelligérance Iran, ESSI/Arrow 3, ELNET, cheap beats expensive)
+- Modifications : 62/63 appliquées (reste M012 encadrés historiques : optionnel)
+
+### M063 : S11 : F004 (blockquotes scindés), Mercosur status, §5 renforcé T5+externalisations, À lire ensuite, §3 renommé
+
+| Champ | Valeur |
+|-------|--------|
+| **Date** | 2026-05-27 |
+| **Audit §** | Audit S11 (8,6/10) : F004 (M, blockquotes >600c), + corrections brainstorm |
+| **Fichier** | `S11_lagriculture_qui_meurt.md` |
+| **Type** | ✏️ Corrections éditoriales + 🔁 Renforcement structurel |
+| **Changements** | **(a) F004** : Blockquote Plan Mansholt (633c) scindé en 2 (l.39), blockquote opacité PAC (838c) scindé en 2 (l.65) — règle SUBLIMATOR 5 respectée. **(b) F007** : Mercosur status : « en cours de négociation » → « signé en janvier 2026, en application provisoire depuis mai 2026 » (l.107). **(c) F008** : §5 renforcé : TENSION 5 explicitement ancrée en §5.1, §5.2 ajouté (4 mécanismes d'externalisation : économique, sanitaire, commerciale, climatique), punchline finale durcie. **(d)** §3 renommé : « Le modèle qui empoisonne » → « Le modèle qui détruit » pour couvrir pesticides + eau + souveraineté. **(e)** Blockquote opacité PAC : source consolidée ajoutée. **(f)** `➡️ **À lire ensuite**` ajouté dans le corps (entre §5 et §6). |
+| **Justification** | **(F004)** Les deux blockquotes dépassaient 600c — perte d'impact rhétorique. Scindés avec phrase de transition entre chaque bloc. **(F007)** L'article indiquait le Mercosur « en cours de négociation » alors qu'il a été signé en janvier 2026 et appliqué depuis mai 2026 — erreur factuelle grave. **(F008)** §5 terminait mou sans ancrer la T5 du Changement de Régime, ni développer les mécanismes d'externalisation. |
+| **Vérification** | ✅ Mercosur : vérifié dans archive S11 (date signature/applic. provisoire : Commission UE décision 2026). Blockquotes : chaque bloc < 400c. §5 : T5 nommée, 4 externalisations listées. |
+| **Statut** | ✅ Appliqué |
+
+### M064 : S13 : F006 (blockquote Chat Control scindé), §5 renforcé (NextGenEU + défense + traités), §1 PDE historique, §4 RN 31,4%, §6 contrepoints
+
+| Champ | Valeur |
+|-------|--------|
+| **Date** | 2026-05-27 |
+| **Audit §** | Relecture S13 + cross-ref FACTCHECK : 11 faits UE inutilisés, 6 données d'investigations manquantes |
+| **Fichier** | `S13_leurope_cadre_ou_carcan.md` |
+| **Type** | ✏️ Corrections éditoriales + 🔁 Renforcement structurel + ➕ Données FACTCHECK |
+| **Changements** | **(a) F006** : Blockquote Chat Control (Thorn/Safer + Oak/DSA) scindé en 2 blocs avec phrase de transition. **(b) F007** : §5 « L'enfermement doré » renforcé : défense (LPM 413 Md€, AUKUS, Sahel), NextGenEU (40 Md€, conditionnalités), chronologie traités Maastricht→TSCG→Pacte Stabilité + Art. 123 TFUE. **(c) F008** : T1/T4 anchoring dans §5.2. **(d) F009** : §1 : PDE 2e fois (2009 + 2024) — ancrage historique. **(e) F010** : §4 : RN 31,4% aux européennes 2024 (source Min. Intérieur) — affaiblissement politique. **(f) F011** : §6 : contrepoints factuels — nucléaire taxonomie verte (2022), REPowerEU 300 Md€, aide Ukraine 100 Md€. **(g) F012** : Titre : « L'Europe : cadre ou carcan ? ... la souveraineté sous tutelle » → « L'Europe, piège français : ... la souveraineté perdue par construction ». Sous-titre condensé. |
+| **Justification** | **(F006)** Blockquote unique packait 3 claims distincts. **(F007)** NextGenEU 40 Md€ était dans le titre sans analyse. **(F009)** PDE présenté comme isolé, or c'est la 2e fois (FACTCHECK UE21). **(F010)** Le déséquilibre Allemagne/France omettait la dimension politique (RN 31,4% — investigation 11.1). **(F011)** §6 mentionnait NextGenEU comme réforme sans donner d'exemples concrets de victoires françaises (FACTCHECK UE9, UE22, UE15). |
+| **Vérification** | ✅ Tous les faits ajoutés vérifiés dans FACTCHECK (UE9, UE15, UE21, UE22) et investigation 11.1 (RN 31,4%). |
+| **Statut** | ✅ Appliqué |
+
+### M065 : S14 : LPM 449 Md€ actualisé, Sentinelle, dissuasion 11%, Allemagne comparaison, Barracuda, SCAF/MGCS, RNS 2025, T4 anchoring
+
+| Champ | Valeur |
+|-------|--------|
+| **Date** | 2026-05-27 |
+| **Audit §** | Relecture S14 + cross-ref 30+ faits non utilisés (investigation complexe militaro-industriel, M15 souveraineté, FACTCHECK SP7-SP22) |
+| **Fichier** | `S14_la_defense_en_berne.md` |
+| **Type** | ✏️ Corrections éditoriales + 🔁 Renforcement structurel + ➕ Intégration données investigations |
+| **Changements** | **(a)** LPM : 413 Md€ → 449 Md€ (actualisée avril 2026, +36 Md€) dans §0, §1 titre, §1 corps. Ajout comparatif budget 2017 (32,4 Md€). Source 1 mise à jour. **(b)** Sentinelle : §1 ajouté (7 000 soldats/jour, 1 M€/jour, 3 Md€/10 ans). **(c)** Dissuasion nucléaire : §4 précisé « ~11% du budget défense total » (ICAN France) + punchline « 5 Md€ qui ne financent ni munitions ni drones ». **(d)** Allemagne comparaison : §4 OTAN — France 68,9 Md$ vs Allemagne 120,7 Md$, UK 92,9 Md$ (Toute l'Europe/OTAN 2025). **(e)** Barracuda : §4.3 exportations — vente 4 sous-marins aux Pays-Bas (2024). **(f)** SCAF/MGCS : §6 — programmes de coopération franco-allemands. **(g)** RNS 2025 : §5.2 — « acculturer 10 millions de jeunes » + punchline consentement fabriqué. **(h)** T4 anchoring : §5.1 — mécanisme T4 (Abdication) explicitement ancré. **(i)** Sources 22-27 ajoutées. |
+| **Justification** | LPM 413 Md€ non actualisé : l'avenant avril 2026 porte le total à 449 Md€. Sentinelle : le paradoxe sécuritaire (défense intérieure vs extérieure) est absent. Dissuasion 11% : le ratio montre que le nucléaire pèse structurellement sur le budget. Allemagne 120,7 Md$ : le déséquilibre UE est 2× pire que le seul indicateur « 2% PIB ». Barracuda P-B : confirme la demande haut de gamme. SCAF/MGCS : les 2 programmes de défense coopératifs absents de S14. RNS 2025 : montre que l'État compense l'affaiblissement militaire par un effort culturel/narratif. T4 anchoring : obligatoire par architecture. |
+| **Vérification** | ✅ LPM actualisation vérifiée investigation complexe militaro-industriel (fact 2 : 449 Md€). Sentinelle fact 7-8. Dissuasion 11% fact 10. Allemagne fact 20. Barracuda fact 17. SCAF/MGCS fact M15. RNS 2025 fact 22. T4 anchoring cohérent avec DIALECTIQUE §199-200. |
+| **Statut** | ✅ Appliqué |
+
+### M066 : S14 : Budget 57,2 Md€, cobelligérance Iran, ESSI/Arrow 3, ELNET, cheap beats expensive
+
+| Champ | Valeur |
+|-------|--------|
+| **Date** | 2026-05-27 |
+| **Audit §** | Seconde vague cross-ref : investigation Iran 2026, ELNET/P2, cheap beats expensive, ESSI, ingérences étrangères |
+| **Fichier** | `S14_la_defense_en_berne.md` |
+| **Type** | ➕ Intégration données investigations + 🔁 Renforcement structurel T4 |
+| **Changements** | **(a)** Budget 2026 : §1 — « Le budget 2026 monte à 57,2 Md€ (+13,2 %), dont 8,5 Md€ fléchés sur les munitions ». **(b)** Cobelligérance Iran : §4.2 — déploiement complet (24 Rafale UAE + Jordanie, SAMP/T Chypre, frégates, 900 personnels, 60 drones abattus, brigadier Frion tué, réunion Lecornu, MBDA +40 % délais 2 ans, Article 35 Constitution violé). **(c)** ESSI/Arrow 3 : nouveau §4.4 — 24 pays adoptent Arrow 3, SAMP/T marginalisé (3 pays), chaîne causale de perte de souveraineté de système. **(d)** ELNET : §5.1 — 101 voyages parlementaires, subvention Netanyahu 37 664€, HATVP 8 ans en retard, résolution n°1000 enterrée, Dassault/Thales co-organisent, abdication totale documentée. **(e)** Cheap beats expensive : §5.3 — drone $500 vs tank $5M, RAND 2025, amiral Kilby « insoutenable », ReArm Europe 800 Md€ comme fuite en avant. **(f)** Sources 28-32 ajoutées. |
+| **Justification** | Cobelligérance Iran : S14 mentionnait la dépendance MICA mais aucun des faits de guerre réelle (déploiement, morts, violation constitution). ESSI : la perte de souveraineté de système est le mécanisme le plus concret de T4 (24 pays adoptent le standard étranger). ELNET : le réseau qui capture les parlementaires et marginalise la filière française. Cheap beats expensive : le paradigme militaire du haut de gamme français est rendu obsolète par l'asymétrie des coûts. Budget 57,2 Md€ : S14 citait 50 Md€ (2025) sans actualisation. |
+| **Vérification** | ✅ Cobelligérance : investigation Iran 2026. ESSI : OTAN/nato.int. ELNET : Mediapart/OrientXXI. Cheap beats expensive : RAND 2025, investigation fuite en avant. Budget : investigation complexe militaro-industriel. |
+| **Statut** | ✅ Appliqué |

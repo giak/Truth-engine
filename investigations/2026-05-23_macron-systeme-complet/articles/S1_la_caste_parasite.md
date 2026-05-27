@@ -2,27 +2,25 @@
 
 *👑 20 familles possèdent 704 milliards d'euros (1 128 pour les 500). 42 anciens ministres siègent dans leurs conseils. 9 propriétaires privés contrôlent 90 % des médias. Enquête sur la classe qui a verrouillé le système.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
 ## §0 : La caste qui ne sert à rien
 
-La France cumule des crises systémiques simultanées : dette à 115,6 % du PIB, services publics démantelés, pauvreté à 15,4 %, abstention à 57 %, hôpital qui craque, école qui chute, agriculture qui saigne, défense qui recule, justice à deux vitesses, médias verrouillés, climat ignoré.
+La France cumule des crises systémiques simultanées. Chaque jour apporte son lot de chiffres, de scandales, de réformes annoncées puis enterrées. Et si la cause était unique ?
 
-> **Qui gouverne la France et pour qui ?**
+> **Une caste qui ne sait rien faire, sauf se raconter.**
 
-La réponse est le sujet de cet article : une caste qui ne sait rien faire, sauf se raconter. Incompétente, immorale, prédatrice, stérile, elle présente un faisceau de caractéristiques dont la somme décrit une classe dirigeante qui a perdu toute utilité sociale.
+**Incompétente.** 1 milliard d'euros de communication pour zéro résultat. Zéro démission de principe en huit ans. La caste a remplacé l'action par le récit.
 
-Cet article est le premier d'une série de 16. Il répond à cette question en établissant l'existence et les mécanismes d'une **caste parasitaire**, un groupe social verrouillé dont les intérêts sont fondamentalement opposés à ceux de la nation qu'elle est censée servir.
+**Immorale.** La prédation n'est pas une exception individuelle : c'est un système protégé par l'État. Des drogues qui abolissent l'empathie. Des institutions qui livrent leurs victimes.
 
-Les articles suivants détailleront les scènes du crime dans l'ordre causal :
+**Stérile.** Des taux d'infécondité records, une classe flottante sans descendance ni enracinement. La caste légifère sur la famille sans en fonder, parle d'avenir sans y participer.
 
-1. **Les causes** : l'argent qui disparaît (80 à 100 milliards par an d'évasion fiscale), la dette instrumentalisée, le verrouillage des institutions
-2. **Les conséquences** : le service public qui craque, la pauvreté qui explose, l'école abandonnée, la crise du logement, l'immigration sans cap
-3. **L'aboutissement** : l'abdication de souveraineté, l'énergie sacrifiée, l'agriculture qui meurt, l'industrie désertée
+> **Trois adjectifs qui décrivent une même réalité : une caste qui a quitté l'humanité. Ontologiquement, neurologiquement, judiciairement.**
 
-Mais avant d'examiner les conséquences, il faut nommer la cause.
+> **Qui gouverne la France et pour qui ?** La réponse est le sujet de cet article.
 
 ---
 
@@ -91,7 +89,7 @@ Emmanuel Macron lui-même est un produit du pantouflage : inspection des finance
 
 ### Les clubs qui verrouillent l'accès
 
-Au-delà des écoles, des réseaux informels verrouillent l'accès au pouvoir : Le Siècle (200 à 300 membres triés sur le volet, dîners mensuels, règle de confidentialité absolue, où siègent ministres, patrons du CAC 40, journalistes, hauts fonctionnaires, selon les travaux des sociologues Pinçon-Charlot), la French-American Foundation (Young Leaders, réseau transatlantique dont Macron et Philippe sont alumni), le Cercle de l'Union Interalliée et les clubs d'alumni X-ENA-HEC.
+Au-delà des écoles, des réseaux informels verrouillent l'accès au pouvoir : Le Siècle (200 à 300 membres, dîners mensuels confidentiels, ministres, patrons, journalistes, hauts fonctionnaires, selon Pinçon-Charlot), la French-American Foundation (Young Leaders dont Macron est alumni), et les clubs d'alumni X-ENA-HEC. Voir l'analyse détaillée dans [**France 2025 : l'anatomie d'une féodalité**](https://giak.substack.com/p/france-2025-lanatomie-dune-feodalite).
 
 **Le système ne sélectionne pas les meilleurs, il sélectionne les mieux connectés.** La compétence réelle n'est ni mesurée ni sanctionnée.
 
@@ -103,7 +101,7 @@ La caste dirigeante ne fonctionne pas selon les règles qu'elle impose aux autre
 
 **L'incompétence** n'est pas un crime mais une conséquence : la caste n'est pas sélectionnée pour ses compétences mais pour ses connexions. Les résultats parlent d'eux-mêmes. COVID-19 : 116 000 morts, pénurie de masques, absence de stratégie, pour zéro responsable, selon les rapports parlementaires. PISA : la France perd 43 points en mathématiques entre 2000 et 2022, la plus forte baisse de l'OCDE, selon l'OCDE. La réforme de l'ENA/INSP de 2021, censée « casser le moule », a échoué : les grands corps continuent d'être peuplés par les mêmes profils, selon Acteurs Publics. Turnover ministériel : 4 ministres de la Santé en 4 ans (2020-2024). Le coût de l'incompétence, c'est la dette qui explose et les services publics qui craquent. Un prochain article détaillera ce mécanisme.
 
-**La gourmandise** est le moteur du pantouflage et de l'accaparement des postes. Vice privé : le passage du public au privé a triplé en 10 ans, selon la HATVP. Les anciens ministres siègent dans 42 conseils d'administration des plus grandes entreprises françaises, selon le rapport annuel 2024 de la HATVP. Les clubs fermés (Le Siècle, French-American Foundation) verrouillent l'accès au pouvoir. Anticor enregistre 451 plaintes pour corruption en 2025, en hausse de 35 % sur un an, pour zéro condamnation politique majeure. Crime public : derrière cette accumulation de postes se cache une accumulation de richesses : 80 à 100 milliards d'euros d'évasion fiscale chaque année, qui ne profite qu'à ceux qui savent jouer du système. C'est le sujet d'un prochain article.
+**La gourmandise** est le moteur du pantouflage et de l'accaparement des postes. Vice privé : le passage du public au privé a triplé en 10 ans, selon la HATVP. Les anciens ministres siègent dans 42 conseils d'administration des plus grandes entreprises françaises, selon le rapport annuel 2024 de la HATVP. Les clubs fermés (Le Siècle, French-American Foundation) verrouillent l'accès au pouvoir. Anticor enregistre 451 plaintes pour corruption en 2025, en hausse de 35 % sur un an, pour zéro condamnation politique majeure. Crime public : derrière cette accumulation de postes se cache une accumulation de richesses : 200 milliards d'euros perdus chaque année — évasion (80-100 Md€), niches (90-100 Md€), fraude sociale (13 Md€), gaspillage (4 à 8 Md€). C'est le sujet des prochains articles.
 
 **L'avarice** est le moteur du CAC 40. Vice privé : rémunération moyenne des patrons à 120 fois le SMIC, 75 milliards d'euros de dividendes en 2024, 80 milliards de rachats d'actions en 2022, selon le cabinet Proxinvest. Crime public : le SMIC net est à 1 398 euros par mois et 15 % des salariés sont smicards, selon la DARES. Le manque à gagner fiscal pour cause d'optimisation légale est estimé entre 3 et 5 milliards d'euros par an. L'avarice des uns est la paupérisation des autres.
 
@@ -142,17 +140,9 @@ Une coïncidence dont la probabilité est estimée à 0,001 % par analyse forens
 
 Selon la presse internationale, 28 survivants ont été menacés anonymement en novembre 2025. En janvier 2026, le DOJ a « divulgué par erreur technique » l'identité de plus de 100 survivants, selon la presse internationale.
 
-### La pédophilie institutionnalisée
+### Le même pattern en France
 
-**Bétharram.** L'institution Notre-Dame de Bétharram a généré plus de 230 plaintes pour abus sexuels sur 50 ans. En 1996, François Bayrou, alors ministre de l'Éducation nationale, est accusé d'être intervenu pour protéger l'établissement. L'institution a continué d'opérer 30 ans après les premières plaintes. Bayrou est aujourd'hui Haut-commissaire au Plan.
-
-**ASE.** L'Aide Sociale à l'Enfance protège 396 900 mineurs. Selon la Commission parlementaire 2025, une proportion massive des 20 000 mineurs prostitués en France est issue de l'ASE, l'institution qui devrait protéger produit les victimes qu'elle est censée sauver.
-
-Émile Louis. Les disparues de la DDASS de l'Yonne, 20 ans sans enquête sérieuse.
-
-Nantes 2024. Un assistant familial agréé par l'État jugé pour viols avec torture sur un enfant de 4 ans.
-
-Le pattern est invariant : l'État certifie, l'État finance, et l'État livre.
+Le même système de prédation protégée par l'État se reproduit dans les institutions françaises : Bétharram (230 plaintes, protégé 30 ans), ASE (mineurs prostitués issus du système censé les protéger), affaires Émile Louis et Nantes 2024. Le pattern est invariant : l'État certifie, l'État finance, et l'État livre. L'enquête complète est dans [**Ils ont quitté l'humanité**](https://giak.substack.com/p/ils-ont-quitte-lhumanite).
 
 ---
 
@@ -182,11 +172,7 @@ Le budget de communication de l'État a atteint 1 milliard d'euros en 2024, un r
 
 ### Les formules qui masquent le vide
 
-**« En même temps ».** Mise en récit fondatrice du macronisme. Permet de fusionner des contradictions sans les résoudre : libéral et social, européen et souverainiste, réformateur et conservateur. Ce n'est pas une pensée complexe, c'est une technique de communication qui évite de choisir.
-
-**« Quoi qu'il en coûte ».** Promesse de protéger les Français sans limites, transformée en endettement massif (136 milliards transférés à la CADES) sans que la dette soit jamais présentée comme le résultat de ce choix. Le « quoi qu'il en coûte » est devenu le « quoi qu'il en coûte aux générations futures ».
-
-**« Start-up nation », « transformation », « modernisation », « réforme ».** Des mots qui habillent la casse sociale en progrès. Chaque fermeture d'hôpital est une « modernisation », chaque baisse d'impôt pour les plus riches est une « réforme fiscale », chaque recul social est une « transformation nécessaire ».
+**« En même temps »** fusionne les contradictions sans les résoudre. **« Quoi qu'il en coûte »** promet tout sans montrer la facture (136 milliards transférés à la CADES). **« Start-up nation », « modernisation », « réforme »** habillent la casse sociale en progrès. Un lexique complet de l'auto-justification par la novlangue est documenté dans [**L'Empire du mensonge**](https://giak.substack.com/p/lempire-du-mensonge).
 
 ### Zéro démission de principe
 
@@ -235,15 +221,13 @@ La caste affiche des taux d'infécondité supérieurs à la moyenne nationale, e
 
 ## §9 : Ce que ce chapitre ne dit pas
 
-Ce portrait de la caste dirigeante française, aussi documenté soit-il, mérite trois nuances. **Primo**, le pantouflage et la circulation des élites existent dans toutes les démocraties occidentales ; la France se distingue par son degré d'endogamie, mais le phénomène n'est ni unique ni nouveau. **Secundo**, l'article ne discute pas les contre-exemples : certaines réformes (loi Sapin II sur la transparence, renforcement de la HATVP, contrôles déontologiques renforcés depuis 2017) ont tenté d'endiguer les abus, avec des résultats inégaux mais réels. **Tertio**, l'équation méritocratique est plus complexe qu'un simple constat de verrouillage : le taux d'accès des classes populaires aux grandes écoles, bien que faible, a augmenté sur un demi-siècle d'environ 5 % à 12 %, ce qui relativise le récit d'un système totalement immobile.
-
-➡️ **À lire ensuite :** L'Argent qui disparaît : 80 à 100 milliards d'évasion fiscale par an, le premier mécanisme de l'extraction
+Ce portrait de la caste dirigeante française, aussi documenté soit-il, mérite trois nuances. **Primo**, le pantouflage et la circulation des élites existent dans toutes les démocraties occidentales ; la France se distingue par son degré d'endogamie, mais le phénomène n'est ni unique ni nouveau. **Secundo**, l'article ne discute pas les contre-exemples : certaines réformes (loi Sapin II sur la transparence, renforcement de la HATVP, contrôles déontologiques renforcés depuis 2017) ont tenté d'endiguer les abus, avec des résultats inégaux mais réels. **Tertio**, l'équation méritocratique est plus complexe qu'un simple constat de verrouillage : le taux des classes populaires aux grandes écoles, bien que faible, a augmenté sur un demi-siècle d'environ 5 % à 12 %, ce qui relativise le récit d'un système totalement immobile.
 
 ---
 
 *📖 **Article suivant :** L'Argent qui disparaît - les 80 à 100 milliards d'euros d'évasion fiscale chaque année [LIEN_A_INSERER]*
-*📖 **Article précédent :** (premier article de la série)*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 **Article précédent :** https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
@@ -272,23 +256,23 @@ Ce portrait de la caste dirigeante française, aussi documenté soit-il, mérite
 12. Zéro condamnation pour pantouflage illégal en 2024 : HATVP, rapport annuel 2024, [https://www.hatvp.fr/actualites/rapport-annuel-dactivite-2024/](https://www.hatvp.fr/actualites/rapport-annuel-dactivite-2024/)
 13. 23 recours au 49.3 : Assemblée nationale, recours au 49.3 depuis 1958, [https://www.assemblee-nationale.fr/dyn/49-3/legislatures](https://www.assemblee-nationale.fr/dyn/49-3/legislatures)
 14. Rémunération CAC 40 : 120× le SMIC + 75 Md€ de dividendes en 2024 + 80 Md€ de rachats d'actions en 2022 : Proxinvest, « Publication du rapport annuel sur les rémunérations des dirigeants », 2025, [https://www.proxinvest.com/2025/11/19/publication-du-rapport-annuel-proxinvest-sur-les-remunerations-des-dirigeants-4/](https://www.proxinvest.com/2025/11/19/publication-du-rapport-annuel-proxinvest-sur-les-remunerations-des-dirigeants-4/)
-16. 62 % « les élites ne se préoccupent pas de leur sort » : CEVIPOF, « Baromètre de la confiance politique », vague 16, février 2026, [https://www.sciencespo.fr/cevipof/fr/etudes-enquetes/barometre-confiance-politique/](https://www.sciencespo.fr/cevipof/fr/etudes-enquetes/barometre-confiance-politique/)
-17. NPA Epstein 2008 : DocumentCloud, NPA Epstein 2008, [https://www.documentcloud.org/documents/6184602-Jeffrey-Epstein-non-prosecution-agreement/](https://www.documentcloud.org/documents/6184602-Jeffrey-Epstein-non-prosecution-agreement/) : New York Times, dossier Epstein, [https://www.nytimes.com/topic/person/jeffrey-epstein](https://www.nytimes.com/topic/person/jeffrey-epstein)
-18. 4 témoins cardinaux morts : New York Times, dossier Epstein, [https://www.nytimes.com/topic/person/jeffrey-epstein](https://www.nytimes.com/topic/person/jeffrey-epstein) : The Guardian, affaire Epstein, [https://www.theguardian.com/us-news/jeffrey-epstein](https://www.theguardian.com/us-news/jeffrey-epstein) : Mediapart, dossier Epstein, [https://www.mediapart.fr/dossier/epstein](https://www.mediapart.fr/dossier/epstein)
-19. Menaces et divulgation DOJ : New York Times, couverture Epstein 2025-2026, [https://www.nytimes.com/topic/person/jeffrey-epstein](https://www.nytimes.com/topic/person/jeffrey-epstein) : Mediapart, dossier Epstein, [https://www.mediapart.fr/journal/international/dossier/dans-la-toile-de-jeffrey-epstein](https://www.mediapart.fr/journal/international/dossier/dans-la-toile-de-jeffrey-epstein)
-20. 3 cas 3-MMC : Jugement Pierre Palmade (2024) : Le Monde, [https://www.lemonde.fr/societe/article/2024/11/21/au-proces-de-pierre-palmade-condamne-a-cinq-ans-de-prison-dont-deux-ferme-le-recit-de-trente-cinq-ans-d-addictions-et-une-famille-brisee_6405996_3224.html](https://www.lemonde.fr/societe/article/2024/11/21/au-proces-de-pierre-palmade-condamne-a-cinq-ans-de-prison-dont-deux-ferme-le-recit-de-trente-cinq-ans-d-addictions-et-une-famille-brisee_6405996_3224.html) : Procès Lille (pédocriminalité sous soumission chimique) : Le Monde, [https://www.lemonde.fr/societe/article/2026/02/03/enfant-viole-sous-soumission-chimique-a-lille-dix-hommes-de-29-a-50-ans-mis-en-examen-en-un-an_6665270_3224.html](https://www.lemonde.fr/societe/article/2026/02/03/enfant-viole-sous-soumission-chimique-a-lille-dix-hommes-de-29-a-50-ans-mis-en-examen-en-un-an_6665270_3224.html) : Contrôle Andy Kerbrat, octobre 2024, LCP, https://lcp.fr/actualites/le-depute-lfi-andy-kerbrat-controle-en-possession-de-stupefiants-321606
-21. Bétharram : plus de 230 plaintes : Mediapart, « Abus sexuels chez les prêtres de Bétharram : l'enquête qui accuse », janvier 2024, [https://www.mediapart.fr/journal/france/250124/abus-sexuels-chez-les-pretres-de-betharram-l-enquete-qui-accuse](https://www.mediapart.fr/journal/france/250124/abus-sexuels-chez-les-pretres-de-betharram-l-enquete-qui-accuse)
-22. ASE : mineurs prostitués : Commission parlementaire sur la protection de l'enfance, rapport 2025, [https://www.assemblee-nationale.fr/dyn/17/rapports/cease/l17b1200-ti_rapport-enquete.pdf](https://www.assemblee-nationale.fr/dyn/17/rapports/cease/l17b1200-ti_rapport-enquete.pdf)
-23. Besançon 2022 : Le Monde, « Prison ferme pour le magistrat qui avait proposé à des internautes de violer sa fille », mars 2022, [https://www.lemonde.fr/societe/article/2022/03/11/prison-ferme-pour-le-magistrat-qui-avait-propose-a-des-internautes-de-violer-sa-fille_6117057_3224.html](https://www.lemonde.fr/societe/article/2022/03/11/prison-ferme-pour-le-magistrat-qui-avait-propose-a-des-internautes-de-violer-sa-fille_6117057_3224.html)
-24. Conventions d'impunité (ex-CJIP) : 40 depuis 2017 : PNF, rapports d'activité 2017-2025, [https://www.tribunal-de-paris.justice.fr/paris/le-parquet-national-financier](https://www.tribunal-de-paris.justice.fr/paris/le-parquet-national-financier)
-25. France IPC 66/100 : Transparency International, « Corruption Perceptions Index 2025 », [https://www.transparency.org/en/cpi/2025](https://www.transparency.org/en/cpi/2025)
-26. 451 plaintes corruption, zéro condamnation : Anticor, rapports moraux et financiers, [https://www.anticor.org/a-propos/rapports/](https://www.anticor.org/a-propos/rapports/)
-27. Sarkozy condamné dans l'affaire des écoutes : Cour de cassation, pourvoi 2024, [https://www.leclubdesjuristes.com/justice/affaire-des-ecoutes-la-cour-de-cassation-tranche-sur-le-pourvoi-de-nicolas-sarkozy-8483/](https://www.leclubdesjuristes.com/justice/affaire-des-ecoutes-la-cour-de-cassation-tranche-sur-le-pourvoi-de-nicolas-sarkozy-8483/)
-28. 77 500 détenus pour 62 000 places : Ministère de la Justice, « Chiffres clés de la justice 2024 », [https://www.justice.gouv.fr/documentation/etudes-et-statistiques?categories%5B0%5D=392](https://www.justice.gouv.fr/documentation/etudes-et-statistiques?categories%5B0%5D=392)
-29. Budget communication État : 1 Md€ : Info.gouv.fr, « Refonte de la stratégie et des moyens de la communication de l'État », [https://www.info.gouv.fr/communique/refonte-de-la-strategie-et-des-moyens-de-la-communication-de-l-etat](https://www.info.gouv.fr/communique/refonte-de-la-strategie-et-des-moyens-de-la-communication-de-l-etat)
-30. Aucun ministre démissionnaire pour échec : Archives gouvernementales, composition des gouvernements 2017-2025, [https://www.gouvernement.fr/composition-du-gouvernement](https://www.gouvernement.fr/composition-du-gouvernement)
-31. Six milliardaires = 90 % des grands médias : Le Monde Diplomatique, « Cartographie des médias français », [https://www.monde-diplomatique.fr/cartes/medias](https://www.monde-diplomatique.fr/cartes/medias)
-32. ICF 1,56, moins de 650 000 naissances : INSEE, « Bilan démographique 2025 », [https://www.insee.fr/fr/statistiques/1892251](https://www.insee.fr/fr/statistiques/1892251)
-33. Échec de la réforme ENA/INSP 2021 : Acteurs Publics, « Un rapport confidentiel sur la réforme de la haute fonction publique met l'INSP sous pression », [https://acteurspublics.fr/articles/exclusif-un-rapport-confidentiel-sur-la-reforme-de-la-haute-fonction-publique-met-linsp-sous-pression/](https://acteurspublics.fr/articles/exclusif-un-rapport-confidentiel-sur-la-reforme-de-la-haute-fonction-publique-met-linsp-sous-pression/)
-34. 22 % de confiance politique : CEVIPOF, « Baromètre de la confiance politique », vague 16, 2026, [https://www.sciencespo.fr/cevipof/fr/etudes-enquetes/barometre-confiance-politique/](https://www.sciencespo.fr/cevipof/fr/etudes-enquetes/barometre-confiance-politique/)
-35. Absence de couverture Epstein dans médias français : Mediapart, dossier Epstein, [https://www.mediapart.fr/dossier/epstein](https://www.mediapart.fr/dossier/epstein) : Acrimed, analyses médiatiques Epstein, [https://www.acrimed.org/?page=recherche&recherche=Epstein](https://www.acrimed.org/?page=recherche&recherche=Epstein)
+15. 62 % « les élites ne se préoccupent pas de leur sort » : CEVIPOF, « Baromètre de la confiance politique », vague 16, février 2026, [https://www.sciencespo.fr/cevipof/fr/etudes-enquetes/barometre-confiance-politique/](https://www.sciencespo.fr/cevipof/fr/etudes-enquetes/barometre-confiance-politique/)
+16. NPA Epstein 2008 : DocumentCloud, NPA Epstein 2008, [https://www.documentcloud.org/documents/6184602-Jeffrey-Epstein-non-prosecution-agreement/](https://www.documentcloud.org/documents/6184602-Jeffrey-Epstein-non-prosecution-agreement/) : New York Times, dossier Epstein, [https://www.nytimes.com/topic/person/jeffrey-epstein](https://www.nytimes.com/topic/person/jeffrey-epstein)
+17. 4 témoins cardinaux morts : New York Times, dossier Epstein, [https://www.nytimes.com/topic/person/jeffrey-epstein](https://www.nytimes.com/topic/person/jeffrey-epstein) : The Guardian, affaire Epstein, [https://www.theguardian.com/us-news/jeffrey-epstein](https://www.theguardian.com/us-news/jeffrey-epstein) : Mediapart, dossier Epstein, [https://www.mediapart.fr/dossier/epstein](https://www.mediapart.fr/dossier/epstein)
+18. Menaces et divulgation DOJ : New York Times, couverture Epstein 2025-2026, [https://www.nytimes.com/topic/person/jeffrey-epstein](https://www.nytimes.com/topic/person/jeffrey-epstein) : Mediapart, dossier Epstein, [https://www.mediapart.fr/journal/international/dossier/dans-la-toile-de-jeffrey-epstein](https://www.mediapart.fr/journal/international/dossier/dans-la-toile-de-jeffrey-epstein)
+19. 3 cas 3-MMC : Jugement Pierre Palmade (2024) : Le Monde, [https://www.lemonde.fr/societe/article/2024/11/21/au-proces-de-pierre-palmade-condamne-a-cinq-ans-de-prison-dont-deux-ferme-le-recit-de-trente-cinq-ans-d-addictions-et-une-famille-brisee_6405996_3224.html](https://www.lemonde.fr/societe/article/2024/11/21/au-proces-de-pierre-palmade-condamne-a-cinq-ans-de-prison-dont-deux-ferme-le-recit-de-trente-cinq-ans-d-addictions-et-une-famille-brisee_6405996_3224.html) : Procès Lille (pédocriminalité sous soumission chimique) : Le Monde, [https://www.lemonde.fr/societe/article/2026/02/03/enfant-viole-sous-soumission-chimique-a-lille-dix-hommes-de-29-a-50-ans-mis-en-examen-en-un-an_6665270_3224.html](https://www.lemonde.fr/societe/article/2026/02/03/enfant-viole-sous-soumission-chimique-a-lille-dix-hommes-de-29-a-50-ans-mis-en-examen-en-un-an_6665270_3224.html) : Contrôle Andy Kerbrat, octobre 2024, LCP, https://lcp.fr/actualites/le-depute-lfi-andy-kerbrat-controle-en-possession-de-stupefiants-321606
+20. Bétharram : plus de 230 plaintes : Mediapart, « Abus sexuels chez les prêtres de Bétharram : l'enquête qui accuse », janvier 2024, [https://www.mediapart.fr/journal/france/250124/abus-sexuels-chez-les-pretres-de-betharram-l-enquete-qui-accuse](https://www.mediapart.fr/journal/france/250124/abus-sexuels-chez-les-pretres-de-betharram-l-enquete-qui-accuse)
+21. ASE : mineurs prostitués : Commission parlementaire sur la protection de l'enfance, rapport 2025, [https://www.assemblee-nationale.fr/dyn/17/rapports/cease/l17b1200-ti_rapport-enquete.pdf](https://www.assemblee-nationale.fr/dyn/17/rapports/cease/l17b1200-ti_rapport-enquete.pdf)
+22. Besançon 2022 : Le Monde, « Prison ferme pour le magistrat qui avait proposé à des internautes de violer sa fille », mars 2022, [https://www.lemonde.fr/societe/article/2022/03/11/prison-ferme-pour-le-magistrat-qui-avait-propose-a-des-internautes-de-violer-sa-fille_6117057_3224.html](https://www.lemonde.fr/societe/article/2022/03/11/prison-ferme-pour-le-magistrat-qui-avait-propose-a-des-internautes-de-violer-sa-fille_6117057_3224.html)
+23. Conventions d'impunité (ex-CJIP) : 40 depuis 2017 : PNF, rapports d'activité 2017-2025, [https://www.tribunal-de-paris.justice.fr/paris/le-parquet-national-financier](https://www.tribunal-de-paris.justice.fr/paris/le-parquet-national-financier)
+24. France IPC 66/100 : Transparency International, « Corruption Perceptions Index 2025 », [https://www.transparency.org/en/cpi/2025](https://www.transparency.org/en/cpi/2025)
+25. 451 plaintes corruption, zéro condamnation : Anticor, rapports moraux et financiers, [https://www.anticor.org/a-propos/rapports/](https://www.anticor.org/a-propos/rapports/)
+26. Sarkozy condamné dans l'affaire des écoutes : Cour de cassation, pourvoi 2024, [https://www.leclubdesjuristes.com/justice/affaire-des-ecoutes-la-cour-de-cassation-tranche-sur-le-pourvoi-de-nicolas-sarkozy-8483/](https://www.leclubdesjuristes.com/justice/affaire-des-ecoutes-la-cour-de-cassation-tranche-sur-le-pourvoi-de-nicolas-sarkozy-8483/)
+27. 77 500 détenus pour 62 000 places : Ministère de la Justice, « Chiffres clés de la justice 2024 », [https://www.justice.gouv.fr/sites/default/files/2024-10/Chiffres_Cle%CC%81s_2024_en_ligne.pdf](https://www.justice.gouv.fr/sites/default/files/2024-10/Chiffres_Cle%CC%81s_2024_en_ligne.pdf)
+28. Budget communication État : 1 Md€ : Info.gouv.fr, « Refonte de la stratégie et des moyens de la communication de l'État », [https://www.info.gouv.fr/communique/refonte-de-la-strategie-et-des-moyens-de-la-communication-de-l-etat](https://www.info.gouv.fr/communique/refonte-de-la-strategie-et-des-moyens-de-la-communication-de-l-etat)
+29. Aucun ministre démissionnaire pour échec : Archives gouvernementales, composition des gouvernements 2017-2025, [https://www.gouvernement.fr/composition-du-gouvernement](https://www.gouvernement.fr/composition-du-gouvernement)
+30. 9 propriétaires privés contrôlent 90 % des grands médias : Le Monde Diplomatique, « Cartographie des médias français », [https://www.monde-diplomatique.fr/cartes/medias](https://www.monde-diplomatique.fr/cartes/medias)
+31. ICF 1,56, moins de 650 000 naissances : INSEE, « Bilan démographique 2025 », [https://www.insee.fr/fr/statistiques/1892251](https://www.insee.fr/fr/statistiques/1892251)
+32. Échec de la réforme ENA/INSP 2021 : Acteurs Publics, « Un rapport confidentiel sur la réforme de la haute fonction publique met l'INSP sous pression », [https://acteurspublics.fr/articles/exclusif-un-rapport-confidentiel-sur-la-reforme-de-la-haute-fonction-publique-met-linsp-sous-pression/](https://acteurspublics.fr/articles/exclusif-un-rapport-confidentiel-sur-la-reforme-de-la-haute-fonction-publique-met-linsp-sous-pression/)
+33. 22 % de confiance politique : CEVIPOF, « Baromètre de la confiance politique », vague 16, 2026, [https://www.sciencespo.fr/cevipof/fr/etudes-enquetes/barometre-confiance-politique/](https://www.sciencespo.fr/cevipof/fr/etudes-enquetes/barometre-confiance-politique/)
+34. Absence de couverture Epstein dans médias français : Mediapart, dossier Epstein, [https://www.mediapart.fr/dossier/epstein](https://www.mediapart.fr/dossier/epstein) : Acrimed, « Médias français : qui possède quoi », [https://www.acrimed.org/Medias-francais-qui-possede-quoi](https://www.acrimed.org/Medias-francais-qui-possede-quoi)

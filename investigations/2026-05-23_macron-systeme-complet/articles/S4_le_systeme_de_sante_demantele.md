@@ -1,8 +1,8 @@
 # 🏥 Le Système de santé démantelé : 8 millions de Français sans médecin traitant
 
-*🏥 8 millions de Français sans médecin traitant. 100 000 lits d'hôpital supprimés en 20 ans. 120 services d'urgence ferment chaque nuit. Enquête sur la liquidation méthodique du système de santé.*
+*🏥 8 millions de Français sans médecin traitant. 100 000 lits d'hôpital supprimés en 20 ans. 120 services d'urgence ferment chaque nuit. Enquête sur la liquidation du système de santé.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
@@ -14,7 +14,9 @@ La France consacre **12,3 % de son PIB à la santé**, le plus haut niveau de l'
 
 La réponse est un paradoxe comptable : l'argent de la santé n'est pas allé à l'hôpital public. Il est parti dans les cliniques privées, les laboratoires pharmaceutiques, les mutuelles et les assurances complémentaires. Entre 2017 et 2024, le budget de la Sécurité sociale a augmenté de 30 %, passant de 200 à 256 milliards d'euros, selon le PLFSS 2024. Mais la part consacrée à l'hôpital public a stagné, pendant que le secteur privé captait l'essentiel de la croissance.
 
-Le démantèlement du système de santé publique n'est pas un accident. C'est un **transfert méthodique de l'argent public vers le secteur privé**, rendu possible par un mécanisme de financement, la tarification à l'acte, qui pousse chaque établissement à maximiser son chiffre d'affaires au détriment de la qualité des soins, de la permanence des services et de la santé des soignants.
+Le démantèlement du système de santé publique n'est pas un accident. C'est un **transfert organisé de l'argent public vers le secteur privé**, rendu possible par un mécanisme de financement, la tarification à l'acte, qui pousse chaque établissement à maximiser son chiffre d'affaires au détriment de la qualité des soins, de la permanence des services et de la santé des soignants.
+
+Deux ministres de la Santé successifs incarnent ce choix. Olivier Véran a supervisé le Ségur (8,1 milliards) sans toucher à la T2A ni aux fermetures de lits. François Braun, auteur d'un rapport parlementaire dénonçant l'intérim médical en 2022, est devenu ministre la même année sans appliquer ses propres recommandations. Les deux ont présidé au même transfert de l'argent public vers le privé.
 
 Cet article est le quatrième d'une série de 16. Il détaille comment l'extraction de la richesse nationale par la caste (documentée dans les articles précédents) se traduit en souffrance concrète : des urgences qui ferment, des soignants qui fuient, des patients qui renoncent.
 
@@ -38,9 +40,13 @@ Le **temps d'attente moyen aux urgences atteint 4 heures**, selon le ministère 
 
 ### Le Ségur : 8,1 milliards qui n'ont rien résolu
 
-Le Ségur de la santé (2020) a injecté 8,1 milliards d'euros dans l'hôpital public, selon le ministère de la Santé. Augmentations de salaire, revalorisation des carrières, recrutements. Mais l'effet a été annulé par l'inflation, la hausse des charges et la poursuite des fermetures de lits. En 2024, le déficit cumulé des hôpitaux publics atteignait 1,5 milliard d'euros, selon la FHF.
+Le Ségur de la santé (2020) a injecté 8,1 milliards d'euros dans l'hôpital public, selon le ministère de la Santé. Augmentations de salaire, revalorisation des carrières, recrutements. Mais l'effet a été annulé par l'inflation, la hausse des charges et la poursuite des fermetures de lits. En 2024, le déficit cumulé des hôpitaux publics atteignait 1,5 milliard d'euros, selon la FHF. Mais ce déficit annuel n'est que la partie émergée d'un stock de dette cumulée qui atteint 30 milliards d'euros, 75 % des hôpitaux publics étant déficitaires.
 
-Le Ségur était un **cache-misère temporaire**, pas une réforme structurelle. Il a calmé la colère des soignants pendant la pandémie, sans toucher au mécanisme de fond : la T2A, la sous-dotation chronique, la fuite des personnels vers le privé et l'intérim.
+Le Ségur était un **cache-misère temporaire**, pas une réforme structurelle. Il a calmé la colère des soignants pendant la pandémie, sans toucher au mécanisme de fond : la T2A, la sous-dotation chronique, la fuite des personnels vers le privé et l'intérim. Pendant ce temps, les démissions d'infirmières ont triplé et 40 à 50 % des soignants sont en état de burn-out, selon la DREES.
+
+### La psychiatrie sacrifiée
+
+Dans le silence général, la psychiatrie publique s'effondre. Plus de 7 000 lits de psychiatrie ont été supprimés depuis 2017, selon la FHF. Les délais d'attente dans les centres médico-psychologiques (CMP) atteignent 3 à 6 mois pour un adulte, 1 à 2 ans en pédopsychiatrie. La psychiatrie est le parent pauvre du Ségur : elle concentre 15 % des dépenses hospitalières mais a subi 25 % des fermetures de lits.
 
 ---
 
@@ -80,19 +86,19 @@ Le système de santé français n'est plus un système solidaire. C'est un **sys
 
 ### Cliniques privées : le transfert organisé
 
-Les cliniques privées réalisent **60 % des actes chirurgicaux en France**, selon la DREES, bien qu'elles ne représentent qu'un tiers des capacités d'hospitalisation. Leur modèle économique est simple : sélectionner les actes rentables (chirurgie ambulatoire, opérations programmées), laisser à l'hôpital public les actes lourds, les urgences et les patients non solvables.
+Les cliniques privées réalisent **60 % des actes chirurgicaux en France**, selon la DREES, bien qu'elles ne représentent qu'un tiers des capacités d'hospitalisation. Leur modèle économique est simple : sélectionner les actes rentables (chirurgie ambulatoire, opérations programmées), laisser à l'hôpital public les actes lourds, les urgences et les patients non solvables. C'est l'écrémage du système de santé : le privé sélectionne les actes rentables, le public supporte les coûts fixes et les pertes. En 2024, le déficit cumulé de l'hôpital public (1,5 milliard) est le symétrique comptable de cette sélection.
 
 Ce n'est pas le marché qui organise cette répartition : c'est la **politique publique**. Les autorisations d'activité sont délivrées par les agences régionales de santé, qui favorisent systématiquement le privé. Les cliniques privées bénéficient du même financement public (Sécurité sociale) sans les contraintes de service public (permanence des soins, accueil des patients précaires, formation des internes).
 
 ### Les dépassements d'honoraires
 
-**30 % des actes médicaux en secteur libéral font l'objet de dépassements d'honoraires**, selon la CNAM. Dans certaines spécialités (ophtalmologie, gynécologie, chirurgie), le taux dépasse 50 %. Le patient paie la différence de sa poche, ou via sa mutuelle, quand il en a une.
+**30 % des actes médicaux en secteur libéral font l'objet de dépassements d'honoraires**, selon la CNAM. Dans certaines spécialités (ophtalmologie, gynécologie, chirurgie), le taux dépasse 50 %. Au total, les dépassements d'honoraires représentent 4,5 milliards d'euros par an, et 60 % des spécialistes exercent désormais en secteur 2, selon la CNAM. Le patient paie la différence de sa poche, ou via sa mutuelle, quand il en a une.
 
 Le **reste à charge moyen des ménages français pour les soins** est de 9,5 %, selon la DREES. C'est l'un des plus bas d'Europe en moyenne. Mais cette moyenne cache des écarts considérables : les 20 % les plus pauvres consacrent 15 à 20 % de leurs revenus aux soins, quand les 20 % les plus riches en consacrent moins de 5 %, selon l'INSEE.
 
 ### L'intérim médical : 3 fois le salaire d'un titulaire
 
-Pour compenser le manque de personnel, les hôpitaux publics recourent massivement à l'intérim. Un médecin intérimaire coûte **3 à 4 fois le salaire d'un titulaire**, selon la FHF. Certains services tournent avec 40 à 60 % d'intérimaires. Le surcoût pour l'hôpital public est estimé à 1 milliard d'euros par an, selon le rapport Braun (2022).
+Pour compenser le manque de personnel, les hôpitaux publics recourent massivement à l'intérim. Un médecin intérimaire coûte **3 à 4 fois le salaire d'un titulaire**, selon la FHF. Certains services tournent avec 40 à 60 % d'intérimaires. La loi Rist (2023) a tenté de plafonner l'intérim à 1 390 euros par 24 heures, mais l'exode des intérimaires a forcé une réévaluation à 2 681 euros en 2025, annulant l'effet de la loi. Le surcoût pour l'hôpital public est estimé à 1 milliard d'euros par an, selon le rapport Braun (2022).
 
 Ce n'est pas un marché : c'est une **rente organisée par la pénurie**. L'État pourrait réguler les tarifs de l'intérim médical (la loi Rist de 2021 a tenté de le faire, sans succès). Il ne le fait pas, parce que la solution structurelle (recruter des médecins salariés, revaloriser les carrières hospitalières) coûterait plus cher à court terme.
 
@@ -108,35 +114,17 @@ Les établissements d'hébergement pour personnes âgées dépendantes accueille
 
 Le scandale Orpea (2022) a révélé ce que les familles savaient déjà : restrictions de nourriture, sous-médication, maltraitance institutionnelle. Le livre « Les Fossoyeurs » de Victor Castanet a documenté des pratiques de maltraitance organisationnelle dans un groupe privé qui réalisait 500 millions d'euros de chiffre d'affaires, avec des marges de 15 à 20 %. Le groupe a depuis changé de nom et de direction, mais le modèle économique reste identique.
 
-### 735 morts à la rue en 2023
-
-Le démantèlement du système de santé et de protection sociale ne concerne pas que les soins médicaux. Il concerne aussi l'hébergement d'urgence. En 2023, **735 personnes sont mortes dans la rue**, selon le collectif Les Morts de la Rue. C'est un chiffre qui augmente chaque année.
-
-Le 115 (numéro d'urgence sociale) a refusé **61 % des demandes d'hébergement** en 2024, faute de places, selon la Fondation Abbé Pierre. 4,2 millions de personnes sont mal-logées, 2,7 millions demandent un logement social sans l'obtenir. Et 30 500 expulsions locatives ont été exécutées en 2025, un record historique, selon le ministère du Logement.
-
 ### La protection sociale qui recule
 
-Le modèle social français, autrefois classé parmi les plus protecteurs du monde, recule sur tous les fronts. La réforme des retraites de 2023 (64 ans, adoptée par 49.3, selon l'Assemblée nationale) allonge la durée de cotisation alors que l'espérance de vie en bonne santé stagne. L'assurance chômage a été durcie à deux reprises (2021, 2023), réduisant la durée d'indemnisation et les montants, selon les décrets correspondants. Le RSA est désormais conditionné à 15 heures d'activité hebdomadaire, selon la loi 2023-1196.
+Le modèle social français, autrefois classé parmi les plus protecteurs du monde, recule sur tous les fronts. La réforme des retraites de 2023 (64 ans, adoptée par 49.3, selon l'Assemblée nationale) allonge la durée de cotisation alors que l'espérance de vie en bonne santé stagne. L'assurance chômage a été durcie à deux reprises (2021, 2023), réduisant la durée d'indemnisation et les montants, selon les décrets correspondants. Le RSA est désormais conditionné à 15 heures d'activité hebdomadaire, selon la loi 2023-1196. Les cotisations des mutuelles ont augmenté de plus de 20 % en cinq ans et les franchises médicales ont doublé en 2024, transférant le coût des soins des comptes publics vers les ménages.
 
-Chaque réforme transfère le risque social des comptes publics vers les comptes privés des ménages. Ce n'est pas une modernisation, c'est un **démantèlement méthodique** présenté comme une nécessité budgétaire.
+Chaque réforme transfère le risque social des comptes publics vers les comptes privés des ménages. Ce n'est pas une modernisation, c'est un **démantèlement systémique** présenté comme une nécessité budgétaire.
 
 ---
 
-## §5 : La justice en déshérence
+## §5 : La justice, même démantèlement
 
-Le système judiciaire français subit le même démantèlement que l'hôpital public et pour la même raison : le sous-financement chronique des services publics est le mécanisme unique qui vide les deux institutions. Ce n'est pas un hasard : la même contrainte budgétaire (recettes amputées par l'évasion fiscale et les baisses d'impôts) frappe tous les services publics simultanément : sous-financement chronique, sous-effectifs structurels, transfert du service public vers la gestion de la pénurie.
-
-### Sous-financement et engorgement
-
-La France consacre 0,20 % de son PIB à la justice, contre 0,30 % en moyenne européenne, selon le CEPEJ. Cela représente 77 euros par habitant, contre 130 euros en Allemagne. Avec 11 magistrats pour 100 000 habitants (21 en moyenne européenne), les tribunaux français sont structurellement sous-dimensionnés pour absorber les 4,5 millions de plaintes déposées chaque année, selon le rapport statistique de la justice 2024.
-
-Le résultat est mécanique : **86 229 détenus pour 63 613 places au 1er décembre 2025**, soit un taux d'occupation de 135 % avec près de 5 500 matelas au sol, selon l'OIP. **74 % des plaintes sont classées sans suite** faute de moyens pour les instruire, et les délais de jugement atteignent 13,7 mois pour un litige prud'homal, selon le ministère de la Justice.
-
-### Une justice à deux vitesses
-
-Le Parquet national financier (PNF), en dix ans d'existence, a traité 3 200 procédures et obtenu **532 condamnations pour fraude fiscale**, selon son rapport décennal 2024. Pendant la même période, la fraude fiscale a soustrait entre 80 et 100 milliards d'euros par an au budget de l'État, selon le CCFD-Terre Solidaire. Symétriquement, **60 000 comparutions immédiates** expédient chaque année les petits délits vers la prison ferme, selon le ministère de la Justice.
-
-**La justice n'est pas en crise : elle fonctionne comme un filtre de classe.** Les pauvres vont en prison, les riches paient des transactions. Ce constat n'est pas idéologique : c'est la conséquence mathématique du sous-financement chronique.
+Le système judiciaire subit le même sous-financement que l'hôpital : 0,20 % du PIB contre 0,30 % en moyenne européenne (CEPEJ). Les tribunaux comptent 11 magistrats pour 100 000 habitants contre 21 en moyenne. Les 4,5 millions de plaintes annuelles s'engorgent dans cette machine sous-dimensionnée : **74 % sont classées sans suite**, et **86 229 détenus s'entassent dans 63 613 places** (135 % d'occupation, 5 500 matelas au sol, selon l'OIP). Pendant ce temps, le Parquet national financier, en dix ans, a obtenu 532 condamnations pour une fraude fiscale qui soustrait 80 à 100 milliards d'euros par an. **La justice n'est pas en crise : elle fonctionne comme un filtre de classe.** Les pauvres vont en prison, les riches paient des transactions.
 
 ---
 
@@ -144,9 +132,11 @@ Le Parquet national financier (PNF), en dix ans d'existence, a traité 3 200 pro
 
 Les cinq sections précédentes ont montré le résultat concret du démantèlement sur la santé des Français, la justice et la protection sociale. Reste une question : pourquoi un pays qui dépense 12,3 % de son PIB pour la santé laisse-t-il son système public se dégrader ?
 
-La réponse est dans les articles précédents de cette enquête. L'évasion fiscale (80 à 100 milliards d'euros par an, selon le CCFD et Oxfam) et les niches fiscales (90 à 100 milliards, selon la Cour des comptes) privent l'État de recettes équivalentes au déficit budgétaire. Ce manque est compensé par l'emprunt, qui nourrit la dette. La dette justifie l'austérité. L'austérité frappe d'abord les services publics, parce que ce sont les variables d'ajustement les plus faciles.
+Les articles précédents ont documenté le mécanisme général : l'extraction par l'évasion fiscale et le gaspillage institutionnel prive l'État de 200 milliards d'euros par an (S2, S3). Dans le cas de la santé, cette hémorragie comptable se traduit par des choix budgétaires précis : la T2A comme variable d'ajustement, les fermetures de lits comme économie de façade, le sous-investissement chronique comme politique discrète.
 
 Mais le mécanisme n'est pas comptable, il est **politique**. La T2A, les fermetures de lits, le sous-financement des EHPAD, la désertification médicale : ce ne sont pas des fatalités techniques, ce sont des **choix d'affectation des ressources** qui favorisent systématiquement le secteur privé au détriment du secteur public.
+
+Ces mêmes choix laissent 735 personnes mortes dans la rue en 2023 (collectif Les Morts de la Rue), 61 % des demandes d'hébergement d'urgence refusées, 4,2 millions de mal-logés, et 30 500 expulsions locatives exécutées en 2025, un record historique (Fondation Abbé Pierre). Le logement, comme l'hôpital, est sacrifié au même transfert.
 
 Le résultat est une **médecine à deux vitesses** qui reproduit les inégalités sociales. Les 9,8 millions de Français qui vivent sous le seuil de pauvreté sont aussi ceux qui renoncent le plus aux soins, qui attendent le plus longtemps aux urgences, qui meurent le plus jeunes. L'espérance de vie d'un cadre est de 6 à 7 ans supérieure à celle d'un ouvrier, selon l'INSEE. Ce n'est pas une fatalité biologique : c'est la trace sanitaire du transfert de richesse documenté dans cette enquête.
 
@@ -154,15 +144,13 @@ Le prochain article montrera comment ce démantèlement des services publics, co
 
 ## §7 : Ce que ce chapitre ne dit pas
 
-Le constat de délabrement du système de santé français est accablant, mais plusieurs angles morts méritent d'être signalés. **Primo**, l'article ne mentionne pas que la dépense de santé (12,3 % du PIB) finance aussi un secteur privé dynamique qui répond à une demande réelle : chirurgie ambulatoire, soins programmés : et que tout le secteur privé n'est pas une prédation. **Secundo**, les progrès médicaux (immunothérapie, thérapies géniques, télémédecine) et la transformation des pratiques (chirurgie mini-invasive, hospitalisation à domicile) ne sont pas discutés ; certains expliquent en partie la baisse du nombre de lits. **Tertio**, le Ségur de la santé, bien qu'insuffisant, a tout de même apporté des revalorisations salariales (8,1 milliards) qui ont amélioré le quotidien de centaines de milliers de soignants. Enfin, la dimension démographique : vieillissement des médecins généralistes, pyramide des âges : constitue une contrainte structurelle qu'aucun gouvernement n'a su résoudre.
-
-➡️ **À lire ensuite :** Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil, 2 millions de travailleurs pauvres
+Ce constat de délabrement est accablant mais partiel. La dépense de santé (12,3 % du PIB) finance aussi un secteur privé qui répond à une demande réelle : chirurgie ambulatoire, soins programmés, et tout le secteur privé n'est pas une prédation. Les progrès médicaux (immunothérapie, thérapies géniques) et la transformation des pratiques (chirurgie mini-invasive, hospitalisation à domicile) expliquent en partie la baisse du nombre de lits. Le Ségur, bien qu'insuffisant, a apporté des revalorisations salariales (8,1 milliards) qui ont amélioré le quotidien de centaines de milliers de soignants. Enfin, la pyramide des âges des médecins généralistes est une contrainte démographique qu'aucun gouvernement n'a su résoudre.
 
 ---
 
 *📖 **Article suivant :** 📦 Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil [LIEN_A_INSERER]*
 *📖 **Article précédent :** 📉 La Dette instrumentalisée : 3 200 milliards qui ne disent pas leur nom [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 

@@ -1,7 +1,7 @@
 # 📖 DIGEST : Résumés Exécutifs des Investigations
 
-> **Dernière mise à jour :** 2026-05-24  
-> **Total résumés :** 27
+> **Dernière mise à jour :** 2026-05-27  
+> **Total résumés :** 30
 
 ---
 
@@ -62,6 +62,56 @@ La BCE a massivement acheté de la dette française via le PSPP (2015-2022) et l
 80 à 100 Md€ d'évasion fiscale par an. CumEx Files, CumCum, montages offshore, CBI/RBI (passeports dorés), optimisation agressive des CAC40, manque chronique de moyens de Bercy. Les mécanismes sont connus, documentés : l'État refuse d'agir parce que les fraudeurs sont les mêmes que ceux qui financent les partis et possèdent les médias. **→ S2 Argent**
 
 ---
+
+### 🔹 2.4 Gaspillage État : Investigation V1 (2026-05-27)
+**Fichier :** `2026-05-27_18-45_gaspillage-etat_INVESTIGATION.md`
+
+Enquête forensique sur le gaspillage d'argent public en France. 9 faits documentés : perquisition Élysée par PNF (mai 2026), McKinsey 10 ans sans IS et zéro condamnation après 2 perquisitions, revolving door 10 000+ transferts publics-privés avec zéro sanction, Scribe 257 M€ sans aucun contrôle, fonds Marianne 2,5 M€ pour 13 vidéos < 200 vues. Analyse des 5 mécanismes de gaspillage : cabinets conseil, marchés publics, revolving door, fonds fléchés, incompétence systémique. Le total estimé (4-8 Md€/an documentés, facteur ICEBERG 5-10×) est un ordre de grandeur, pas un chiffre comptable. **→ Complément S2/S3, enquête autonome.**
+
+### 🔹 2.5 Gaspillage État : HYPER-MATRICE Loups et Faisceaux (2026-05-27)
+**Fichier :** `2026-05-27_19-30_gaspillage-etat-loups-faisceaux_HYPER_MATRICE.md`
+
+ICEBERD MAX du gaspillage public. 8 loups identifiés et nommés : Kohler (EN 1ère classe, mis en examen → Société Générale), Mieszala (McKinsey, architecte des 1 Md€), Castaner (→ Shein), Djebbari (→ H2 Air), Guérini (→ consulting), Schiappa (→ fonds Marianne), Castex (→ Scribe). 8 faisceaux d'indices convergeant vers un même pattern : revolving door + perquisitions zéro sanction + impunité structurelle. Budget 2026 décortiqué : mensonges sur hypothèses de croissance, niches réactivées en catimini. 25 sources. **→ HUB, S2, S3**
+
+### 🔹 2.6 Comités Théodule (2026-05-27)
+**Fichier :** `2026-05-27_22-30_comites-theodule_INVESTIGATION.md`
+
+434 opérateurs d'État financés à 64 Md€/an, 24 autorités indépendantes (430 M€), 668 commissions consultatives. Hausse de 40% du financement entre 2017 et 2023. Économie potentielle estimée à 14,5 Md€ (mission Danon, Sénat). Bayrou évoque « 1 000+ agences » en janvier 2025. Aucune évaluation systématique, aucun mécanisme de suppression automatique. **→ S2, S3**
+
+### 🔹 2.7 Mille-feuille territorial (2026-05-27)
+**Fichier :** `2026-05-27_22-40_millefeuille-territorial_INVESTIGATION.md`
+
+34 955 communes françaises (42% <200 hab). 3× le nombre allemand, 19× le britannique. Coût des doublons commune/interco : 7,5 Md€/an (Rapport Ravignon 2024). 500 000 conseillers municipaux, indemnités ~2,2 Md€. La France n'a jamais osé la fusion obligatoire (Allemagne : 24 000→10 800 en 40 ans). Blocage structurel : le Sénat, élu par les maires, enterre toute réforme. **→ S2**
+
+### 🔹 2.8 Subventions associatives sans contrôle (2026-05-27)
+**Fichier :** `2026-05-27_22-50_subventions-associations_INVESTIGATION.md`
+
+53 Md€ de financement public à 314 000 associations (IGF-Igésr, avril 2024). Premier rapport d'évaluation jamais réalisé. Constat : absence de vision consolidée, règles non harmonisées, risques financiers réels. Économies ciblées : 3 Md€ (estimation faisceau : 5-10 Md€). 70 000 associations créées/an vs ~200 dissoutes pour fraude. Zéro contrôle a posteriori. Note IC : parallèle commandite McKinsey. **→ S2**
+
+### 🔹 2.9 Sénat (2026-05-27)
+**Fichier :** `2026-05-27_23-00_senat_INVESTIGATION.md`
+
+348 sénateurs (1/187k hab). Budget ~358 M€/an. Élus par ~150 000 grands électeurs dont 95% de maires. Conséquence : le Sénat est structurellement incapable de voter une réforme territoriale. 2e Sénat le plus nombreux d'Europe en valeur absolue. Proposition LREM 2021 (200 sénateurs) retirée sous pression. Économie d'une réduction de 100 sénateurs : ~100 M€/an. **→ S2, S15**
+
+### 🔹 2.10 Assemblée nationale (2026-05-27)
+**Fichier :** `2026-05-27_23-10_assemblee-nationale_INVESTIGATION.md`
+
+577 députés inchangés depuis 1958. Budget ~600 M€/an. Ratio 1/116k (moyenne UE : 1/250k). Italie : réduction de 630 à 400 (-36%), économie 100 M€/an. Commission Jospin 2013 (400 députés) jamais inscrite. Résistance : les députés votent leurs propres effectifs. Présence hémicycle : 30-50% (hors textes majeurs). **→ S2, S15**
+
+### 🔹 2.11 CESE (2026-05-27)
+**Fichier :** `2026-05-27_23-20_cese_INVESTIGATION.md`
+
+3e assemblée constitutionnelle. 233 membres (syndicats, patronat, associations). Budget ~45 M€/an. ~20 avis/an, transformés en loi : 0-1/an. Réforme 2021 : invariant 233 membres, rationalisation symbolique. Budget : 41 M€ (2019) → 45 M€ (2025) : +10% malgré la réforme. Question de fond : à quoi sert une 3e assemblée consultative ? Lecture critique : « placard doré » des corporatismes français. **→ S2**
+
+### 🔹 2.12 INSEE/INED — Statistiques sous pression (2026-05-27)
+**Fichier :** `2026-05-27_23-30_statistiques-publiques-pression_INVESTIGATION.md`
+
+INSEE (~400 M€, 5 000 agents) et INED (~30 M€, 200 chercheurs) subissent des pressions politiques récurrentes. Risque de « hongrisation » si un gouvernement remplace la direction par des loyaux. Précédents documentés : prévisions de croissance contestées par Bercy, méthodologie chômage écart BIT/FT instrumentalisé, modification méthodologie pauvreté 2022, INED attaqué sur immigration 2023. Le vrai coût est systémique (perte de confiance dans les chiffres publics). **→ S2, S10**
+
+### 🔹 2.13 Préfectures : doublons départements (2026-05-27)
+**Fichier :** `2026-05-27_23-40_prefectures-doublons_INVESTIGATION.md`
+
+Mission AGTE : 4,96 Md€ en 2025 (hausse +124% depuis 2006). 101 préfectures + ~260 sous-préfectures, 30 000 agents. Problème : les préfectures couvrent exactement le même territoire que les départements et exercent les mêmes missions (contrôle de légalité, urbanisme, etc.). Depuis les lois de décentralisation, les compétences se sont vidées mais les budgets n'ont pas baissé. France : 5× plus cher par habitant que l'Allemagne. **→ S2**
 
 ## §3 : OLIGARCHIE
 
@@ -162,7 +212,7 @@ La France a perdu toute autonomie stratégique : AUKUS (contrat des sous-marins 
 
 ---
 
-## §14 : ÉNERGIE ET CLIMAT
+## §14 : ÉNERGIE ET CLIMAT (3 enquêtes)
 
 ### 🔹 14.1 Arnaque Climatique
 **Fichier :** `2026-05-23_16-45_arnaque-climatique-pollution_INVESTIGATION.md`
@@ -173,6 +223,11 @@ Objectifs climatiques non tenus : les émissions de CO2 ont augmenté de 2% alor
 **Fichier :** `2026-05-23_18-00_transition-energetique-arnaque_INVESTIGATION.md`
 
 Fermeture de Fessenheim pour des raisons idéologiques, EPR Flamanville avec 12 ans de retard et 4× le budget, part du nucléaire passée de 63% à 56%, ENR intermittentes subventionnées (éolien 8 Md€/an), dépendance au gaz russe puis norvégien. La transition énergétique française est un chaos organisationnel qui n'atteint aucun de ses objectifs. **→ S10 Énergie/Climat**
+
+### 🔹 14.3 ZFE : Écologie punitive
+**Fichier :** `2026-05-27_14-19_zfe-ecologie-punitive-iceberg-max_INVESTIGATION.md`
+
+Les ZFE bannissent 12 millions de véhicules (30% du parc) en 3 ans, imposant une décote forcée de 60 Md€ aux ménages modestes — 47% des foyers n'ont pas de solution de remplacement. L'efficacité réelle est de 3-6% (vs 36% de renouvellement naturel). ICEBERG MAX révèle 3 FAISCEAUX : (1) double étau juridique Conseil d'État + CJUE verrouillant l'interdiction, (2) kayfabe parlementaire : 29 mai 2025, 98 voix contre 51 avec cavalier législatif, (3) paradoxe industriel : ACEA (constructeurs) veut reporter, les ZFE détruisent leur marché. Les « dérogations » sont des leurres. **→ S10 Énergie/Climat (complémentaire)**
 
 ---
 

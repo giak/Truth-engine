@@ -2,23 +2,21 @@
 
 *💰 80 à 100 milliards d'euros d'impôts s'évaporent chaque année des caisses de l'État. Le fisc en récupère 12 %. Enquête sur le plus grand transfert de richesse non voté de la République.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
 ## §0 : Le trou de 100 milliards
 
-Imaginez un gouffre qui avale chaque année l'équivalent du budget de l'Éducation nationale, de la Justice, de la Recherche et de la Défense réunis. Ce gouffre existe. Il s'appelle l'évasion fiscale.
+Imaginez un gouffre qui avale chaque année l'équivalent du budget de l'Éducation nationale, de la Justice, de la Recherche et de la Défense réunis. Ce gouffre existe. Il s'appelle l'évasion fiscale : 80 à 100 milliards d'euros par an. Mais ce n'est qu'une partie du trou : niches (90 à 100 Md€), fraude sociale (13 Md€), gaspillage (4 à 8 Md€). Le total visible approche **200 milliards d'euros** par an.
 
 > **Combien la caste extrait-elle des caisses de l'État et par quels canaux ?**
 
-La réponse est documentée par des enquêtes journalistiques mondiales, des rapports d'ONG et les propres données de l'administration fiscale : 80 à 100 milliards d'euros d'impôts disparaissent chaque année dans les paradis fiscaux, les montages offshore, les prix de transfert et les niches d'optimisation agressive, selon le CCFD, Oxfam et les syndicats de Bercy. Ce total agrège deux réalités juridiquement distinctes : la fraude fiscale (illégale, ~30-40 Md€ selon la DGFiP) et l'optimisation agressive (légale mais abusive, ~40-60 Md€ selon les ONG). L'article traite l'ensemble comme un seul flux d'extraction, mais leur régime juridique et leurs solutions diffèrent.
+La réponse est documentée par des enquêtes journalistiques mondiales, des rapports d'ONG et les propres données de l'administration fiscale : 80 à 100 milliards d'euros d'impôts disparaissent chaque année dans les paradis fiscaux, les montages offshore, les prix de transfert et les niches d'optimisation agressive, selon le CCFD, Oxfam et les syndicats de Bercy.
 
 Bercy en récupère environ 12 %, soit 11 à 14 milliards, selon l'IGF. Le reste, 70 à 90 milliards, s'évapore sans que personne n'en réponde.
 
-À titre de comparaison, le déficit public annuel de la France (APU) est d'environ 154 milliards d'euros (5,5 % du PIB), selon l'INSEE. La question n'est pas « comment réduire le déficit ? ». La question est : comment la France peut-elle laisser filer chaque année l'équivalent de son déficit en impôts non recouvrés, pendant qu'elle taille dans les services publics au nom de l'austérité ?
-
-Cet article est le deuxième d'une série de 16. Il répond à cette question en détaillant les canaux de l'évasion, les choix politiques qui l'organisent, et le mécanisme par lequel l'argent extrait de la collectivité alimente la dette qui justifie le démantèlement des services publics.
+À titre de comparaison, le déficit public annuel de la France est d'environ 154 milliards d'euros, selon l'INSEE. La question n'est pas « comment réduire le déficit ? ». La question est : comment la France peut-elle laisser filer chaque année l'équivalent de son déficit en impôts non recouvrés, pendant qu'elle taille dans les services publics au nom de l'austérité ?
 
 <!-- ENRICHIE: le-trou-de-100-milliards -->
 <!-- THEME: extraction-invisible -->
@@ -38,7 +36,7 @@ En 2024, les flux intra-groupe représentaient 60 % du commerce mondial, selon l
 
 ### Le montage CumEx
 
-Les CumEx Files ont révélé un mécanisme encore plus direct : des banques d'investissement, dont BNP Paribas et Société Générale, facturaient plusieurs fois le même impôt à plusieurs États, puis se faisaient rembourser des crédits d'impôt qu'elles n'avaient jamais payés, selon le consortium Correctiv. Le coût pour les finances publiques européennes est estimé à 140 milliards d'euros.
+Les CumEx Files ont révélé un mécanisme encore plus direct : des banques d'investissement, dont BNP Paribas et Société Générale, facturaient plusieurs fois le même impôt à plusieurs États, puis se faisaient rembourser des crédits d'impôt qu'elles n'avaient jamais payés, selon le consortium Correctiv. Le coût pour les finances publiques européennes est estimé à 140 milliards d'euros. Voir l'analyse de la financiarisation dans [**Le vampire de la croissance**](https://giak.substack.com/p/le-vampire-de-la-croissance).
 
 ### Les paradis fiscaux et l'argent suisse
 
@@ -80,7 +78,7 @@ L'État recense **470 niches fiscales** représentant 90 à 100 milliards d'euro
 
 L'**exonération de taxe sur le kérosène** pour le transport aérien coûte à elle seule 2,58 milliards d'euros par an, selon la Cour des comptes, pour un secteur qui affiche des marges records.
 
-> **En janvier 2026**, près de 400 millionnaires et milliardaires de 24 pays, membres du collectif Patriotic Millionaires, ont signé une lettre ouverte au Forum de Davos : « Taxez-nous. Taxez les super-riches. » Leur constat : le taux d'imposition effectif des milliardaires est inférieur à celui de la classe moyenne. Une taxe de 3 % sur les fortunes de plus de 100 millions de dollars rapporterait 750 milliards de dollars par an. Si les ultra-riches eux-mêmes demandent à être taxés, l'obstacle n'est pas économique : il est politique.
+> **En janvier 2026**, près de 400 millionnaires et milliardaires de 24 pays, membres du collectif Patriotic Millionaires, ont signé une lettre ouverte au Forum de Davos : « Taxez-nous. Taxez les super-riches. » Leur constat : le taux d'imposition effectif des milliardaires est inférieur à celui de la classe moyenne. Une taxe de 3 % sur les fortunes de plus de 100 millions de dollars rapporterait 750 milliards de dollars par an. Si les ultra-riches eux-mêmes demandent à être taxés, l'obstacle n'est pas économique : il est politique. Le décryptage des choix qui organisent l'évasion est dans [**Budget 2026 : l'architecture du mensonge**](https://giak.substack.com/p/budget-2026-larchitecture-du-mensonge).
 
 <!-- ENRICHIE: comment-la-richesse-verrouille-le -->
 <!-- THEME: predation-invisible -->
@@ -122,13 +120,14 @@ Le résultat est un **système à deux vitesses** : 100 euros de RSA fraudé son
 
 L'agrégat est vertigineux. L'évasion et les niches ne sont pas des phénomènes abstraits : ce sont des choix politiques dont les conséquences se mesurent en services publics sacrifiés.
 
-### Les trois catégories de recettes non perçues
+### Les quatre catégories de recettes non perçues
 
 - **Évasion fiscale** : 80 à 100 milliards d'euros (fraude illégale + optimisation agressive)
 - **Niches fiscales** : 90 à 100 milliards (dépenses fiscales décidées par le législateur)
 - **Fraude sociale** : 13 à 14 milliards (travail dissimulé, fausses déclarations)
+- **Gaspillage public** : 4 à 8 milliards (cabinets conseil, projets inaboutis, erreurs de versement : voir §5bis), + 20 à 40 milliards de gaspillage institutionnel (voir §5ter)
 
-Ces trois phénomènes sont de nature juridique différente : l'un est illégal, l'autre est un choix de politique publique, le troisième relève du droit social. Leur total n'est donc pas purement additif : une partie de l'optimisation agressive classée dans l'évasion recoupe ce que la Cour des comptes appelle niches fiscales. L'ordre de grandeur agrégé approche néanmoins **200 milliards d'euros** de recettes publiques non perçues chaque année. C'est 1,3 fois le déficit public annuel de la France (APU), estimé à 154 milliards par l'INSEE.
+Ces quatre phénomènes sont de nature juridique différente : l'un est illégal, l'autre est un choix de politique publique, le troisième relève du droit social. Leur total n'est donc pas purement additif : une partie de l'optimisation agressive classée dans l'évasion recoupe ce que la Cour des comptes appelle niches fiscales. L'ordre de grandeur agrégé : évasion, niches, fraude sociale, gaspillage : dépasse **200 milliards d'euros** de recettes publiques non perçues ou gaspillées chaque année. C'est 1,3 fois le déficit public annuel de la France (APU), estimé à 154 milliards par l'INSEE.
 
 ### L'échelle des montants en jeu
 
@@ -160,11 +159,47 @@ Et leur absence crée un trou mécanique : le déficit budgétaire que la France
 
 Ce n'est pas une coïncidence. C'est le **premier mécanisme de la cascade causale** : la caste extrait la richesse nationale par l'évasion et l'optimisation, l'État perd les recettes correspondantes, le déficit se creuse, la dette augmente, et l'austérité qui s'ensuit justifie le démantèlement des services publics.
 
-**L'argent qui disparaît aujourd'hui, c'est la dette qui étrangle demain.** Le prochain article détaillera comment 3 000 milliards de dettes publiques contraignent la France à l'austérité permanente.
+**L'argent qui disparaît aujourd'hui, c'est la dette qui étrangle demain.** Voir le mécanisme de captation de l'épargne par l'État dans [**Emprunt forcé des riches**](https://giak.substack.com/p/emprunt-force-des-riches-le-spectacle).
 
 <!-- ENRICHIE: de-l-evasion-a-la-dette -->
 <!-- THEME: cascade-causale -->
 <!-- CROSS-REF: S3 -->
+
+---
+
+## §5bis : L'autre hémorragie : quand l'État jette l'argent par les fenêtres
+
+L'évasion fiscale est une extraction active : l'argent est pris, planifié, organisé vers les paradis fiscaux. Mais il existe une seconde hémorragie, plus silencieuse encore : celle de l'argent que l'État dépense mal, perd dans des projets inaboutis, ou confie sans contrôle.
+
+En mai 2026, le Parquet national financier a perquisitionné le palais de l'Élysée lui-même pour des soupçons de corruption dans l'organisation des panthéonisations. Symbole saisissant : la justice fouille le bureau du président, et toujours aucune condamnation dans le dossier McKinsey ouvert en mars 2022.
+
+McKinsey France n'a pas payé un euro d'impôt sur les sociétés pendant dix ans, selon la commission d'enquête du Sénat. Dans le même temps, les contrats publics de conseil passaient de 764 M€ à 2,5 Md€. L'écart est instructif : McKinsey facture l'État, mais ne paie pas l'État. Le flux va toujours dans le même sens.
+
+Le logiciel Scribe de la police nationale, 257 M€ pour un projet inutilisable, « au contenu mal défini », « gouvernance éclatée », selon la Cour des comptes. Le Fonds Marianne, 2,5 M€ distribués sans transparence, rapport du Sénat accablant, zéro poursuite. Les erreurs CAF, 6,3 Md€ en 2024 selon la Cour des comptes. Trois faits, trois domaines, un même pattern : l'argent est dépensé, personne ne répond de rien.
+
+Ces gaspillages documentés représentent 4 à 8 Md€ par an en surface. Mais c'est la partie émergée : les marchés sans concurrence réelle, les projets informatiques abandonnés en silence, le pantouflage non contrôlé (10 000 transferts public-privé en 10 ans), l'absence d'agrégat officiel. Le facteur ICEBERG, estimé par l'enquête dédiée à 5-10×, suggère une hémorragie réelle de 20 à 80 Md€.
+
+L'argent n'est pas volé, il est dilapidé. Le résultat est le même : il manque. La dette ne fait pas la différence entre un euro qui n'entre pas (évasion) et un euro qui sort sans servir (gaspillage). Les deux creusent le même trou.
+
+### Le gaspillage institutionnel : une hémorragie silencieuse de 20 à 40 milliards
+
+Le gaspillage « actif » (consulting, revolving door, fonds fléchés) n'est que la partie visible d'un iceberg bien plus massif : le **gaspillage institutionnel**. Celui des structures que l'État a créées mais n'ose pas supprimer, des doublons administratifs que personne n'a le courage de rationaliser, des subventions versées sans contrôle depuis des décennies.
+
+Les investigations menées dans cette enquête ont cartographié sept catégories de gaspillage structurel :
+
+**1 000 agences et comités Théodule** : la France compte 434 opérateurs d'État financés à 64 milliards d'euros par an, 24 autorités administratives indépendantes (430 M€), et des centaines de commissions consultatives. Leur budget a augmenté de 40 % entre 2017 et 2023, sans création de valeur mesurable. L'économie potentielle identifiée par la mission parlementaire Danon atteint 14,5 milliards d'euros par an.
+
+**35 000 communes qui doublonnent** : la France a 34 955 communes, dont 42 % ont moins de 200 habitants. C'est trois fois plus que l'Allemagne (10 800), dix-neuf fois plus que le Royaume-Uni (1 800). Chacune a son maire, son conseil, ses indemnités, souvent les mêmes compétences que l'intercommunalité voisine. Dans 72 % des cas, les communes et les intercommunalités exercent les mêmes missions (urbanisme, culture, scolaire), selon la Cour des comptes. Le coût de ces doublons est estimé à 7,5 milliards d'euros par an (rapport Ravignon 2024).
+
+**53 milliards de subventions associatives sans contrôle** : le premier rapport d'évaluation jamais réalisé sur les dépenses publiques aux associations (IGF-Igésr, avril 2024) a révélé que la France verse 53 milliards d'euros par an à 314 000 associations : sans vision consolidée, sans règles harmonisées, sans contrôle a posteriori. Les économies potentiellement récupérables sont estimées entre 3 et 10 milliards d'euros par an.
+
+**101 préfectures qui font le même métier que 101 départements** : la mission Administration générale et territoriale de l'État (AGTE) consomme 4,96 milliards d'euros en 2025, en hausse de 124 % depuis 2006. Les préfectures couvrent exactement le même territoire que les départements et exercent pour 60 à 70 % les mêmes missions. L'économie potentielle d'une rationalisation est estimée entre 1,5 et 2,5 milliards d'euros par an.
+
+**Trois assemblées dont le coût défie l'efficacité** : le Sénat (348 sénateurs, ~358 M€/an), l'Assemblée nationale (577 députés, ~600 M€/an) et le CESE (233 membres, ~45 M€/an) totalisent environ un milliard d'euros par an, pour un travail législatif dont l'efficacité décline (48 lois adoptées en 2024, recours systématique au 49.3, avis consultatifs jamais suivis). La France a le deuxième Sénat le plus nombreux d'Europe et l'un des parlements les plus coûteux par habitant.
+
+**430 millions d'euros pour des statistiques sous pression** : l'INSEE (5 000 agents, ~400 M€/an) et l'INED (~30 M€/an) sont les gardiens des chiffres officiels français. Leur indépendance est théoriquement garantie par le droit européen, mais des pressions politiques récurrentes (contestation des prévisions de croissance par Bercy, modification de la méthodologie pauvreté en 2022, attaques contre l'INED sur l'immigration) menacent la fiabilité même de l'information qui fonde le débat public.
+
+Ce gaspillage institutionnel (20 à 40 milliards d'euros par an selon les estimations les plus prudentes) s'ajoute au gaspillage « actif » (4 à 8 Md€ documentés) pour former une hémorragie totale de 24 à 48 milliards. Il ne s'agit pas de transfert vers des paradis fiscaux, comme l'évasion : il s'agit d'argent dépensé sans produire le service attendu. La différence est morale (pas d'intention frauduleuse) mais le résultat comptable est identique : il manque.
 
 ---
 
@@ -176,13 +211,11 @@ Le chiffrage de l'évasion fiscale (80 à 100 milliards) mérite d'être nuancé
 <!-- THEME: honnete-intelectuelle -->
 <!-- CROSS-REF: S3, S5 -->
 
-➡️ **À lire ensuite :** La Dette instrumentalisée : 115,6 % du PIB, 3 000 milliards, la contrainte absolue
-
 ---
 
 *📖 **Article suivant :** 📉 La Dette instrumentalisée - 115,6 % du PIB, 3 000 milliards, la contrainte absolue [LIEN_A_INSERER]*
-*📖 **Article précédent :** 👑 La Caste Parasite - Qui gouverne la France et pour qui ? [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 **Article précédent :** 👑 La Caste Parasite - Qui gouverne la France et pour qui ? https://giak.substack.com/p/la-caste-parasite-qui-gouverne-la*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 

@@ -2,7 +2,7 @@
 
 *📉 54 milliards d'euros d'intérêts par an, bientôt 100 milliards. La dette publique atteint 115,6 % du PIB. Mais le vrai problème n'est pas ce que la France doit : c'est ce qu'elle refuse de récupérer.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
@@ -38,6 +38,14 @@ La durée moyenne de la dette française est de 8,2 ans, et son taux moyen de 1,
 
 Le solde primaire (déficit hors charge de la dette) est déficitaire depuis 2017, selon la Cour des comptes. Cela signifie que l'État emprunte **aussi** pour payer ses dépenses courantes, et pas seulement pour rembourser ses créanciers. Or ce déficit primaire est exactement de l'ordre de grandeur de CHACUNE de ces deux fuites prises séparément : l'évasion fiscale (80 à 100 milliards, selon le CCFD et Oxfam) et les niches mal ciblées (90 à 100 milliards, selon la Cour des comptes). Le total des deux (170-200 Md€) dépasse le déficit primaire : ces catégories ne sont pas purement additives car l'évasion et les niches recouvrent partiellement le même phénomène. Mais l'ordre de grandeur montre que le problème n'est pas structurellement une France dépensière : c'est une France qui a renoncé à capter sa propre richesse.
 
+### Un déficit aggravé par le gaspillage public
+
+Aux deux fuites identifiées s'ajoute une troisième hémorragie, de nature différente : le gaspillage systémique. Dépenses de conseil (2,5 Md€ en 2021), projets informatiques abandonnés (257 M€ Scribe, 1,2 Md€ sur 20 ans), erreurs de versement CAF (6,3 Md€), Fonds Marianne (2,5 M€) : autant d'argent qui sort des caisses sans produire le service attendu. Ces gaspillages documentés atteignent 4 à 8 Md€ par an en surface, mais le facteur ICEBERG (marchés sans concurrence, pantouflage non contrôlé, absence d'agrégat officiel) suggère un ordre de grandeur bien plus large.
+
+À ce gaspillage « actif » s'ajoute le **gaspillage institutionnel** : 434 opérateurs d'État pour 64 Md€ dont 14,5 Md€ économisables (comités Théodule), 35 000 communes qui doublonnent avec les intercommunalités pour 7,5 Md€ par an (rapport Ravignon), 53 Md€ de subventions associatives versées sans contrôle dont 3 à 10 Md€ récupérables, 4,96 Md€ d'administration préfectorale territoriale dont 60 à 70 % des missions doublonnent avec les départements, et environ 1 Md€ pour trois assemblées (Sénat, Assemblée, CESE) à l'efficacité déclinante. Au total, le gaspillage institutionnel documenté atteint 20 à 40 Md€ par an. Voir l'enquête détaillée dans **S2 : L'argent qui disparaît** (§5bis et §5ter).
+
+L'État ne perd pas seulement ce qu'on lui vole : il perd aussi ce qu'il jette.
+
 ---
 
 ## §2 : Le grand masque : comment la BCE a caché la réalité
@@ -69,6 +77,8 @@ Les agences de notation ne sont pas des observateurs neutres. S&P, Moody's et Fi
 ### Un système qui paie l'agence pour être noté
 
 C'est l'émetteur de la dette, l'État français, qui paie l'agence pour être noté. Ce système dit « issuer-pays » est critiqué depuis la crise de 2008. L'agence a tout intérêt à ne pas être trop sévère avec son client, au risque de perdre un contrat lucratif. Pourtant, les notations françaises n'ont cessé de baisser : de AAA en 2012 à **A+** (S&P), **AA-** (Fitch) et **Aa2** (Moody's), selon les agences.
+
+Cette contradiction est instructive : si même des agences structurellement complaisantes envers leur client dégradent la France, c'est que la détérioration des comptes est objectivement grave. Le biais issuer-pays ne joue pas en faveur de la France dans ce cas : il retarde seulement l'échéance, en lissant la baisse pour ne pas brusquer le marché. Il ne l'annule pas. La dégradation est d'autant plus significative qu'elle émane de juges qui avaient intérêt à ne pas la prononcer.
 
 ### Le coût d'un déclassement
 
@@ -108,6 +118,12 @@ Le TPI (bouclier anti-écart de taux) est **conditionné** au respect des règle
 
 La contribution nette de la France au budget de l'UE est d'environ **10 milliards d'euros par an**, selon la Commission. En contrepartie, elle reçoit des fonds structurels (9,6 milliards via le FEDER) et sa part du plan NextGenerationEU (environ 40 milliards en subventions et prêts). Mais ces transferts sont **conditionnés**, fléchés et surveillés. La France a perdu la maîtrise de son budget.
 
+### Les visages de la tutelle
+
+Cette perte de souveraineté a des visages. François Villeroy de Galhau, gouverneur de la Banque de France depuis 2015, siège au Conseil des gouverneurs de la BCE qui fixe les taux et détermine les conditions du TPI. Ancien directeur général de BPCE (groupe bancaire mutualiste), il cumule trois chapeaux : banque privée, banque centrale, régulateur européen. C'est lui qui a validé le resserrement quantitatif à 30 milliards d'euros par mois, dont les conséquences pèsent directement sur le coût de la dette française.
+
+Bruno Le Maire, ministre de l'Économie de 2017 à 2024, a annoncé 60 milliards d'euros d'économies dans le budget 2025. Le Haut Conseil des Finances Publiques a établi que 3 milliards seulement reposaient sur des mesures effectives. Le reste était un chiffrage politique, pas comptable. Le Maire a présenté à la Commission européenne un plan de retour sous les 3 % de déficit que les faits ne soutenaient pas. Ni l'un ni l'autre n'a été sanctionné pour ces écarts entre la parole publique et la réalité comptable.
+
 ---
 
 ## §5 : Le service qui explose : de l'évasion à l'austérité
@@ -126,9 +142,13 @@ La charge de la dette est déjà le deuxième poste de dépenses de l'État, sel
 
 ### Le mécanisme causal
 
-L'évasion fiscale (80 à 100 milliards d'euros par an, documentée dans l'article précédent) prive l'État de recettes. Ce manque est compensé par l'emprunt. L'emprunt augmente la dette. La dette justifie l'austérité. L'austérité détruit les services publics.
+Les recettes non perçues ou gaspillées (évasion fiscale, niches, fraude sociale, gaspillage) atteignent **200 milliards d'euros par an** (voir S2). Ce manque est compensé par l'emprunt. L'emprunt augmente la dette. La dette justifie l'austérité. L'austérité détruit les services publics.
 
 Ce n'est pas une opinion. C'est une **chaîne causale documentée** : les recettes non perçues par l'évasion (article précédent) sont exactement de l'ordre de grandeur du déficit annuel, et la charge de la dette qui en résulte est exactement ce qui justifie les coupes budgétaires à venir.
+
+### Le « fiscal drag », hausse d'impôt sans vote
+
+Pendant que la chaîne causale se déroule au grand jour, un mécanisme silencieux aggrave la pression fiscale sans que personne n'ait à voter. En 2025, les salaires ont progressé de 2 % tandis que le barème de l'impôt sur le revenu n'a été indexé qu'à 0,9 %. Chaque contribuable paie donc plus sans qu'aucun taux n'ait changé. L'État augmente l'impôt en silence, par non-indexation, pendant que le débat public nie toute hausse. L'austérité n'est pas seulement justifiée par la dette : elle est doublée d'une pression fiscale invisible qui finance le service de la dette sans débat parlementaire.
 
 ### L'impasse
 
@@ -138,17 +158,13 @@ L'austérité n'est pas une hypothèse pessimiste. C'est la **trajectoire inscri
 
 L'argent qui disparaît aujourd'hui dans les paradis fiscaux, c'est la dette qui étrangle demain. Et la dette qui étrangle, c'est l'austérité qui justifie le démantèlement des services publics après-demain. Le prochain article montrera comment ce démantèlement se traduit concrètement : des hôpitaux qui ferment, des urgences qui s'effondrent, des EHPAD qui maltraitent.
 
-> **Le « fiscal drag », hausse d'impôt sans vote.** En 2025, les salaires ont progressé de 2 % tandis que le barème de l'impôt sur le revenu n'a été indexé qu'à 0,9 %. Résultat : chaque contribuable paie plus sans qu'aucun taux n'ait changé. L'État augmente l'impôt en silence, par non-indexation, pendant que le débat public nie toute hausse. L'austérité n'est pas seulement justifiée par la dette : elle est doublée d'une pression fiscale invisible qui finance le service de la dette sans que personne n'ait voté.
-
 <!-- ENRICHIE: budget-2026-larchitecture-du-mensonge -->
 <!-- THEME: predation-invisible -->
 <!-- CROSS-REF: S2 -->
 
 ## §6 : Ce que ce chapitre ne dit pas
 
-L'analyse de la dette comme contrainte construite est pertinente mais partielle à plusieurs titres. **Primo**, elle ignore que les dépenses exceptionnelles liées au Covid-19 (116 milliards de mesures d'urgence), à la guerre en Ukraine (bouclier énergétique : 45 milliards) et à l'inflation ont creusé le déficit dans tous les pays européens, pas seulement en France. **Secundo**, le taux d'intérêt bas de la dette française n'est pas qu'un camouflage : il reflète aussi la confiance des marchés dans la signature française, qui reste l'une des mieux notées de la zone euro. **Tertio**, l'article ne mentionne pas que le service de la dette, malgré sa hausse, reste inférieur à ce qu'il était dans les années 1990 où il dépassait 60 milliards d'euros constants. Enfin, la question des investissements d'avenir financés par la dette : notamment le plan France 2030 (54 milliards) : n'est pas abordée.
-
-➡️ **À lire ensuite :** Le Système de santé démantelé : 8 millions de Français sans médecin traitant, 100 000 lits supprimés
+Cette analyse de la dette comme contrainte construite est pertinente mais partielle. Elle ignore que les dépenses exceptionnelles du Covid-19 (116 milliards), du bouclier énergétique (45 milliards) et de l'inflation ont creusé le déficit dans tous les pays européens, pas seulement en France. Le taux bas de la dette française n'est pas qu'un camouflage : il reflète aussi une confiance des marchés qui reste solide malgré tout. Le service de la dette, malgré sa hausse récente, reste inférieur à celui des années 1990, où il dépassait 60 milliards d'euros constants. Enfin, la question des investissements d'avenir financés par l'emprunt (plan France 2030 : 54 milliards) n'est pas abordée ici.
 
 ---
 

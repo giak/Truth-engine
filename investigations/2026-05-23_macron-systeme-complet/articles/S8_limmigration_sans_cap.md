@@ -1,14 +1,14 @@
-# 🧭 L'Immigration sans Cap
+# 🧭 L'Immigration sans Cap : 340 000 titres, 71 % rejetés, 15 lois pour rien
 
-*🧭 340 000 titres de séjour en 2024, 46 % familiaux, 9 % pour travail : la France subit ses flux migratoires faute d'avoir jamais articulé une doctrine cohérente.*
+*340 000 titres de séjour par an, 71 % des demandes d'asile rejetées, 15 lois en 40 ans pour un résultat qui empire. La France n'a pas de politique migratoire : elle a un kayfabe.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
 ## §0 : Le piège des chiffres
 
-> **🧭 En 2024, la France a délivré plus de 340 000 titres de séjour, selon le ministère de l'Intérieur. 46 % l'ont été pour motif familial, 28 % pour études, 9 % pour travail, selon l'OFII. L'immigration économique, celle que le discours officiel prétend « choisir », représente moins d'un dixième des flux. Le reste : familles, étudiants, asile : s'impose à l'État qui, depuis 40 ans, n'a jamais osé articuler une doctrine cohérente. Le résultat n'est ni l'immigration zéro que promet la droite ni l'intégration réussie que vante la gauche, mais un système qui accumule les flux sans les maîtriser et produit de l'échec là où il devrait produire de l'intégration.**
+> **🧭 340 000 titres de séjour en 2024. 71 % des demandes d'asile rejetées. 15 lois en 40 ans, flux triplé. La France n'a jamais articulé de doctrine migratoire cohérente. Le résultat n'est ni l'immigration zéro que promet la droite ni l'intégration réussie que vante la gauche, mais un kayfabe qui produit de l'échec là où il devrait produire de l'intégration.**
 
 ---
 
@@ -16,11 +16,11 @@
 
 ### 11,3 %, un cache-misère statistique
 
-La France compte, selon l'INSEE (rapport 2024), **11,3 % d'immigrés** dans sa population totale : une proportion comparable à celle de l'Allemagne (11,2 %) et inférieure à celle du Royaume-Uni (14,6 %) ou de l'Espagne (16,2 %), selon Eurostat. Ces chiffres bruts ne disent rien du type de flux, de leur dynamique ni de leur intégration.
+La France compte, selon l'INSEE (rapport 2024), **11,3 % d'immigrés** dans sa population totale : une proportion comparable à celle de l'Allemagne (11,2 %) et inférieure à celle du Royaume-Uni (14,6 %) ou de l'Espagne (16,2 %), selon Eurostat. Leurs origines : Afrique 48 %, Europe 30 %, Asie 14 %, selon l'INSEE. Ces chiffres bruts ne disent rien du type de flux, de leur dynamique ni de leur intégration.
 
 ### Des flux que l'État ne sélectionne pas
 
-Ce qui distingue la France de ses voisins, ce n'est pas le volume mais le **profil des flux**. En 2024, la France a délivré 340 000 premiers titres de séjour, selon le ministère de l'Intérieur (Direction générale des étrangers en France). La répartition est révélatrice d'une immigration que l'État ne sélectionne pas : 46 % pour motif familial, 28 % pour études, 9 % pour travail, 7 % pour raisons humanitaires et 10 % pour divers autres motifs (OFII). L'immigration économique : celle que tous les discours présentent comme « choisie » : pèse moins d'un dixième des entrées légales.
+Ce qui distingue la France de ses voisins, ce n'est pas le volume mais le **profil des flux**. En 2024, la France a délivré 340 000 premiers titres de séjour, selon le ministère de l'Intérieur (Direction générale des étrangers en France). En solde net, après départs et décès, l'immigration annuelle est d'environ **200 000 personnes**, selon l'INSEE. La répartition est révélatrice d'une immigration que l'État ne sélectionne pas : 46 % pour motif familial, 28 % pour études, 9 % pour travail, 7 % pour raisons humanitaires et 10 % pour divers autres motifs (OFII). L'immigration économique : celle que tous les discours présentent comme « choisie » : pèse moins d'un dixième des entrées légales. Seules 30 000 régularisations annuelles pour motif professionnel viennent s'y ajouter pour des étrangers déjà présents sur le territoire, selon le ministère de l'Intérieur.
 
 Cette structure n'est pas le produit d'un choix politique assumé. Elle découle d'un **héritage juridique** : le droit au regroupement familial, inscrit dans la loi de 1976 et constamment élargi depuis, crée un flux automatique que l'État ne maîtrise pas, selon l'INED. Pour chaque immigré économique admis, 3 à 4 membres de famille arrivent par la suite. Les étudiants étrangers, accueillis massivement (95 000 par an, selon le ministère de l'Intérieur), obtiennent des facilités pour s'installer après leurs diplômes mais sans cadre clair d'intégration professionnelle. L'immigration familiale représentait 49 % des flux dans les années 2000 ; elle est encore à 46 % aujourd'hui malgré 40 ans de discours sur la « maîtrise des flux », selon l'INSEE.
 
@@ -40,7 +40,7 @@ La France prononce chaque année environ 130 000 obligations de quitter le terri
 
 ### Deux défauts, un même effet
 
-Le système d'asile français cumule **2 défauts structurels** : une procédure trop lente (18 mois en moyenne pour une décision définitive, selon l'OFPRA) et un **taux de rejet de 71 %** qui alimente l'irrégularité persistante. Pendant ce temps, l'Union européenne impose le règlement de Dublin : qui fait peser sur la France une responsabilité disproportionnée pour les demandeurs entrés par l'Italie ou l'Espagne : sans mécanisme de solidarité effectif, selon la Cour des comptes européenne.
+Le système d'asile français cumule **2 défauts structurels** : une procédure trop lente (18 mois en moyenne pour une décision définitive, selon l'OFPRA) et un **taux de rejet de 71 %** qui alimente l'irrégularité persistante. Le coût pour l'État atteint environ **2 milliards d'euros par an**, selon le PLF 2025. Pendant ce temps, l'Union européenne impose le règlement de Dublin : qui fait peser sur la France une responsabilité disproportionnée pour les demandeurs entrés par l'Italie ou l'Espagne : sans mécanisme de solidarité effectif, selon la Cour des comptes européenne.
 
 Ce constat d'échec de la procédure d'asile conduit à une question plus large : ceux qui restent, indépendamment de leur statut, parviennent-ils à s'intégrer ?
 
@@ -50,7 +50,7 @@ Ce constat d'échec de la procédure d'asile conduit à une question plus large 
 
 ### Un chômage qui ne trompe pas
 
-L'intégration des immigrés arrivés depuis 20 ans est un **échec mesurable**. Le taux de chômage des immigrés originaires de pays hors Union européenne est de 14,5 %, contre 7,2 % pour l'ensemble de la population, selon l'INSEE (enquête Emploi 2024). Les femmes immigrées non-européennes connaissent un taux de chômage de 17 % et un taux d'activité de 54 %, contre 68 % pour l'ensemble des femmes.
+L'intégration des immigrés arrivés depuis 20 ans est un **échec mesurable**. Le taux de chômage des immigrés originaires de pays hors Union européenne est de 14,5 %, contre 7,2 % pour l'ensemble de la population, selon l'INSEE (enquête Emploi 2024). Les femmes immigrées non-européennes connaissent un taux de chômage de 17 % et un taux d'activité de 54 %, contre 68 % pour l'ensemble des femmes. Le taux de pauvreté des immigrés atteint **35 %**, selon l'INSEE, contre 14,5 % pour l'ensemble de la population.
 
 ### Une discrimination qui persiste à diplôme égal
 
@@ -66,7 +66,7 @@ Le double discours politique permet d'empêcher que ce diagnostic ne débouche s
 
 ## §4 : La spirale du double discours
 
-L'absence de politique cohérente n'est pas un accident : c'est la **conséquence directe du double discours** que la classe politique entretient depuis 40 ans. La droite promet la « maîtrise des flux » sans jamais la réaliser : **15 lois sur l'immigration** depuis 1980, et le nombre d'entrées légales a **triplé** sur la période, selon le ministère de l'Intérieur. La gauche défend l'« immigration choisie » tout en multipliant les régularisations et en assouplissant les conditions du regroupement familial, sans cadre ni plafond.
+L'absence de politique cohérente n'est pas un accident : c'est la **conséquence directe du double discours** que la classe politique entretient depuis 40 ans. La droite promet la « maîtrise des flux » sans jamais la réaliser : **15 lois sur l'immigration** depuis 1980, et le nombre d'entrées légales a **triplé** sur la période, selon le ministère de l'Intérieur. **Gérald Darmanin**, ministre de l'Intérieur de 2020 à 2024, incarne ce double discours mieux que quiconque : il a déclaré en 2022 « avoir repris le contrôle de l'immigration » tandis que son ministère délivrait des titres de séjour en nombre record, en hausse de 18 % sous son mandat, selon le ministère de l'Intérieur. La gauche défend l'« immigration choisie » tout en multipliant les régularisations et en assouplissant les conditions du regroupement familial, sans cadre ni plafond.
 
 Ce double discours produit **4 effets pervers** :
 
@@ -110,15 +110,13 @@ Tant que la France refusera de penser l'immigration comme une politique publique
 
 ## §7 : Ce que ce chapitre ne dit pas
 
-Ce constat sévère sur l'immigration française ne dit rien des réussites d'intégration documentées ailleurs. Le Portugal, qui a régularisé massivement en 2001 et investi dans l'emploi et le logement, affiche aujourd'hui un taux d'emploi des immigrés parmi les plus élevés d'Europe (78 %, selon l'OCDE). Le Canada sélectionne ses immigrés par un système de points qui évalue les compétences linguistiques, professionnelles et l'âge, et finance l'intégration avant l'arrivée. Ni l'une ni l'autre de ces approches n'est idéologique : ce sont des politiques publiques évaluées. Le chapitre n'aborde pas non plus la dimension démographique : avec un taux de fécondité tombé à 1,8 enfant par femme (INSEE 2024), la France a besoin de 100 000 à 150 000 immigrés nets par an pour maintenir sa population active, selon les projections de l'INSEE. L'enjeu n'est donc pas l'immigration zéro, impossible démographiquement, mais un pilotage stratégique des flux dont le chapitre documente surtout l'absence.
-
-➡️ **À lire ensuite :** Comment la pénurie de logements bloque la mobilité sociale et aggrave toutes les autres crises : **S9 : Le Logement, la Machine à créer de la Rareté**
+Ce constat sévère sur l'immigration française ne dit rien des réussites d'intégration documentées ailleurs. Le Portugal, qui a régularisé massivement en 2001 et investi dans l'emploi et le logement, affiche aujourd'hui un taux d'emploi des immigrés parmi les plus élevés d'Europe (78 %, selon l'OCDE). Le Canada sélectionne ses immigrés par un système de points qui évalue les compétences linguistiques, professionnelles et l'âge, et finance l'intégration avant l'arrivée. L'Ukraine fournit la preuve la plus directe : 120 000 réfugiés accueillis en quelques mois en 2022, hébergement, travail, école activés en semaines, selon le ministère de l'Intérieur. L'État français sait faire quand il le décide, mais choisit de ne pas faire pour les flux non médiatisés. Ni l'une ni l'autre de ces approches n'est idéologique : ce sont des politiques publiques évaluées. Le chapitre n'aborde pas non plus la dimension démographique : avec un taux de fécondité tombé à 1,8 enfant par femme (INSEE 2024), la France a besoin de 100 000 à 150 000 immigrés nets par an pour maintenir sa population active, selon les projections de l'INSEE. L'enjeu n'est donc pas l'immigration zéro, impossible démographiquement, mais un pilotage stratégique des flux dont le chapitre documente surtout l'absence.
 
 ---
 
 *📖 **Article suivant :** 🏠 Le Logement, la Machine à créer de la Rareté : comment la pénurie bloque la mobilité [LIEN_A_INSERER]*
-*📖 **Article précédent :** 📚 L'École et l'Éducation sacrifiées : 120 000 postes supprimés, 43 points perdus, 51 % sans repères [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 **Article précédent :** 📚 L'École sans transmission : 43 points PISA, 51 % sans repères, 4M d'illettrés [LIEN_A_INSERER]*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 

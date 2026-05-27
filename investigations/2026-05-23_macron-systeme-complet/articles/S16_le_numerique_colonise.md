@@ -2,7 +2,7 @@
 
 *💻 70 % des données françaises stockées sur des serveurs américains. 95 % du marché capté par les GAFAM. La souveraineté numérique de la France est une fiction juridique.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
@@ -82,7 +82,7 @@ La France a lancé plusieurs projets de cloud souverain. Tous ont échoué ou n'
 
 ### Andromède et Gaia-X, l'échec français
 
-**Andromède (2012)** : premier grand projet de cloud souverain français. Abandonné après deux ans, selon les archives du Sénat. Coût : plusieurs centaines de millions d'euros pour zéro résultat.
+**Andromède (2012)** : premier grand projet de cloud souverain français. Abandonné après deux ans, selon les archives du Sénat. Deux opérateurs avaient été sélectionnés — Cloudwatt (Orange/Thales) et Numergy (SFR/Bull) — mais les deux ont échoué face aux géants américains, faute de marché public captif et de volonté politique de durer. Coût : plusieurs centaines de millions d'euros pour zéro résultat pérenne.
 
 **Gaia-X (2019)** : lancé par la France et l'Allemagne pour créer un écosystème de données fédéré européen. Critiqué par des experts pour la participation des GAFAM à sa gouvernance, il est devenu un cadre de normalisation technique, utile mais insuffisant pour garantir la souveraineté.
 
@@ -118,7 +118,11 @@ En 2024, l'Éducation nationale a signé un contrat de 152 millions d'euros sur 
 
 ## §6 : Ce que ce chapitre ne dit pas
 
-Ce chapitre dresse un tableau sans concession de la colonisation numérique, mais ne mentionne pas les initiatives qui résistent. Les alternatives open-source : Nextcloud (fichiers), Matrix (messagerie), Mastodon (réseaux sociaux) : existent et sont utilisées par des milliers d'organisations. La Gendarmerie nationale a migré 72 000 postes vers Ubuntu. Framasoft propose 30+ services libres. Ces initiatives prouvent que l'alternative technique existe : ce qui manque, c'est la volonté politique de la généraliser. Le Data Privacy Framework UE-États-Unis (2023) offre des garanties au Cloud Act, même contestées. Enfin, le retard français n'est pas une fatalité : OVHcloud, Scaleway et Outscale progressent, et l'Allemagne (Ionos/SAP) montre qu'une alternative européenne est possible.
+Ce chapitre dresse un tableau sans concession de la colonisation numérique, mais ne mentionne pas les initiatives qui résistent. Les alternatives open-source : Nextcloud (fichiers), Matrix (messagerie), Mastodon (réseaux sociaux) — existent et sont utilisées par des milliers d'organisations. La Gendarmerie nationale a migré 72 000 postes vers Ubuntu, prouvant qu'une administration entière peut fonctionner sans les GAFAM. Framasoft propose 30+ services libres, de l'hébergement de fichiers aux réseaux sociaux, avec des centaines de milliers d'utilisateurs. Le mouvement des « communs numériques » gagne du terrain : la DINUM (Direction interministérielle du numérique) promeut le logiciel libre dans les administrations depuis 2021.
+
+Ces initiatives prouvent que l'alternative technique existe. Ce qui manque, c'est la volonté politique de la généraliser : chaque contrat avec Microsoft ou Google est un choix, pas une fatalité. La loi de programmation pour le numérique (2023-2027) consacre 1,5 milliard d'euros au « cloud de confiance », mais sans clause d'exclusion des GAFAM — un marché public captif aurait suffi à faire émerger un champion national en dix ans.
+
+Le Data Privacy Framework UE-États-Unis (2023) offre des garanties théoriques au Cloud Act, mais les associations (NOYB, La Quadrature du Net) contestent sa robustesse devant la CJUE. Enfin, le retard français n'est pas une fatalité : OVHcloud, Scaleway et Outscale progressent, et l'Allemagne (Ionos/SAP) montre qu'une alternative européenne est possible — y compris en mutualisant les marchés publics au niveau européen.
 
 ---
 
@@ -134,10 +138,17 @@ Ce chapitre dresse un tableau sans concession de la colonisation numérique, mai
 
 **Les petites collectivités sont les plus vulnérables.** Elles n'ont ni les moyens humains, ni les budgets pour se protéger. L'État a promis un plan de cybersécurité territoriale, sans le financer.
 
+### Les fuites massives : l'État fantôme
+
 <!-- ENRICHIE: le-gulag-digital-surveilles-a-100 -->
 <!-- THEME: goulag-digital -->
 <!-- CROSS-REF: S15 -->
-> La réalité dépasse les chiffres officiels. En janvier-février 2026, une cascade de fuites a révélé l'ampleur de la passivité étatique, documentée par le site BonjourLaFuite : **160 000 dossiers sensibles exfiltrés via HubEE** (le concentrateur des mairies), **1,2 million de comptes bancaires exposés via FICOBA**, et **52 millions de Français : noms, adresses, copies de passeports : dans le mégaleak IDMerit** (1 milliard de dossiers global). Même l'Armée de Terre (4,5 Go de documents classifiés) et le CNRS (numéros de Sécurité Sociale et RIB des chercheurs) ont été touchés. Ces fuites posent la question du modèle des prestataires IT de l'État : **Sopra Steria, Capgemini, Atos** facturent la maintenance corrective de systèmes dont les failles structurelles sont connues. Plus le système est vulnérable, plus les audits et correctifs sont facturés : une controverse documentée par des lanceurs d'alerte et des rapports parlementaires.
+
+La réalité dépasse les chiffres officiels. En janvier-février 2026, une cascade de fuites a révélé l'ampleur de la passivité étatique, documentée par le site BonjourLaFuite : **160 000 dossiers sensibles exfiltrés via HubEE** (le concentrateur des mairies), **1,2 million de comptes bancaires exposés via FICOBA**, et **52 millions de Français : noms, adresses, copies de passeports : dans le mégaleak IDMerit** (1 milliard de dossiers global). Même l'Armée de Terre (4,5 Go de documents classifiés) et le CNRS (numéros de Sécurité Sociale et RIB des chercheurs) ont été touchés.
+
+Ces fuites posent la question du modèle des prestataires IT de l'État : **Sopra Steria, Capgemini, Atos** facturent la maintenance corrective de systèmes dont les failles structurelles sont connues. Plus le système est vulnérable, plus les audits et correctifs sont facturés : une controverse documentée par des lanceurs d'alerte et des rapports parlementaires.
+
+### La surveillance sans réciprocité
 
 **La France reste un pays surveillé** par son allié américain (programmes NSA révélés par Snowden en 2013), sans réciprocité ni contrôle démocratique. Les réformes législatives qui ont suivi n'ont pas changé la donne.
 
@@ -157,20 +168,25 @@ Ce chapitre dresse un tableau sans concession de la colonisation numérique, mai
 
 **Créer un champion européen du cloud par consolidation.** Les acteurs français (OVHcloud, Scaleway, Outscale) et européens existent. Mais ils sont dispersés et sous-capitalisés. Une consolidation paneuropéenne, portée par des investissements publics, créerait un acteur capable de peser face aux GAFAM.
 
+### Éviter le piège de la surveillance généralisée
+
 <!-- ENRICHIE: leurope-construit-elle-un-credit-40d -->
 <!-- THEME: credit-social-europeen -->
 <!-- CROSS-REF: S15 -->
-> La deuxième vigilance concerne les « solutions » européennes de contrôle. **Le règlement eIDAS 2.0 (Article 45) obligera les navigateurs à accepter les certificats de sécurité émis par les gouvernements**, selon le texte publié au JOUE : permettant théoriquement d'intercepter tout trafic chiffré (man-in-the-middle). **Le projet Chat Control imposerait le scan automatisé de tous les messages privés**, selon les propositions de la Commission européenne (2022-2024) : 400 experts en cybersécurité ont alerté sur le risque, dans une lettre ouverte coordonnée par AlgorithmWatch (2023). Ces outils, présentés comme une protection des mineurs, créent une infrastructure de contrôle qui transforme la souveraineté numérique en surveillance généralisée.
+
+Toute solution de souveraineté numérique doit éviter un écueil : la transformation de la souveraineté en surveillance. **Le règlement eIDAS 2.0 (Article 45) obligera les navigateurs à accepter les certificats de sécurité émis par les gouvernements**, selon le texte publié au JOUE : permettant théoriquement d'intercepter tout trafic chiffré (man-in-the-middle). **Le projet Chat Control imposerait le scan automatisé de tous les messages privés**, selon les propositions de la Commission européenne (2022-2024). 400 experts en cybersécurité ont alerté sur le risque, dans une lettre ouverte coordonnée par AlgorithmWatch (2023). Ces outils, présentés comme une protection des mineurs, créent une infrastructure de contrôle qui transforme la souveraineté numérique en surveillance généralisée.
+
+### Surveiller sans censurer : le cas Viginum
+
+**Viginum (Service de vigilance et de protection contre les ingérences numériques étrangères)** illustre cette ambivalence. Créé en juillet 2021 (décret n°2021-922), doté de 7,3 M€ en 2024 et de 65 agents, il est officiellement chargé de détecter les manipulations étrangères de l'information. Mais ses rapports (Portal Kombat, Matriochka) servent de base juridique à des blocages administratifs de sites et de canaux Telegram — sans contrôle du juge. En février 2026, son seuil de signalement (5 millions de visiteurs) a été supprimé, étendant encore son périmètre. Viginum n'est pas un outil de censure directe, mais un maillon d'une chaîne d'infrastructure de contrôle dont la vigilance démocratique doit accompagner chaque extension de pouvoir.
 
 **La souveraineté numérique française n'est pas perdue par fatalité technologique : elle résulte d'une séquence de choix politiques : absence de conditionnalité des marchés publics, sous-investissement dans SecNumCloud, acceptation des certifications HDS pour les géants américains : dont aucun n'était inéluctable pris séparément, mais dont l'effet cumulé produit un abandon de fait.**
-
-➡️ **À lire ensuite :** Comment les 5 tensions systémiques convergent en un système irréformable : **🔄 HUB : Le Changement de Régime**
 
 ---
 
 *📖 **Article suivant :** 🔄 Le Changement de Régime : la synthèse de l'enquête [LIEN_HUB_A_INSERER]*
-*📖 **Article précédent :** 🔒 Le Verrou : 23 recours au 49.3, 57 % d'abstention, la démocratie neutralisée [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 **Article précédent :** 🔒 Le Verrou : 28 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias : la démocratie neutralisée [LIEN_A_INSERER]*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
@@ -201,3 +217,7 @@ Ce chapitre dresse un tableau sans concession de la colonisation numérique, mai
 13. **PAC (Pierre Audoin Consultants)** : Analyse du marché cloud France 2025 (+8,2 %), acteurs français (OVHcloud, Scaleway, Outscale), [https://sitsi.pacanalyst.com/why-frances-software-and-cloud-platform-market-is-accelerating-in-2025-and-beyond/](https://sitsi.pacanalyst.com/why-frances-software-and-cloud-platform-market-is-accelerating-in-2025-and-beyond/)
 14. **CNIL** : Recommandations sur le Health Data Hub et Microsoft Azure, 2023, [https://www.cnil.fr/fr/les-principaux-avis-et-recommandations-de-la-cnil-sur-la-plateforme-des-donnees-de-sante](https://www.cnil.fr/fr/les-principaux-avis-et-recommandations-de-la-cnil-sur-la-plateforme-des-donnees-de-sante)
 15. **ZDNet** : En signant avec Microsoft, l'Éducation nationale piétine souveraineté et autonomie numérique, 2025, [https://www.zdnet.fr/actualites/en-signant-avec-microsoft-leducation-nationale-pietine-souverainete-et-autonomie-numerique-408497.htm](https://www.zdnet.fr/actualites/en-signant-avec-microsoft-leducation-nationale-pietine-souverainete-et-autonomie-numerique-408497.htm)
+16. **Viginum** : Décret n°2021-922 du 13 juillet 2021 portant création du service, [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043827196](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043827196)
+17. **Next.ink** : Viginum doté de moyens renforcés — suppression du seuil de 5 millions de visiteurs, février 2026, [https://next.ink/138722/viginum-dote-de-moyens-renforces-suppression-seuil-5-millions-visiteurs/](https://next.ink/138722/viginum-dote-de-moyens-renforces-suppression-seuil-5-millions-visiteurs/)
+18. **AlgorithmWatch** : Lettre ouverte sur Chat Control — 400 experts en cybersécurité, 2023, [https://algorithmwatch.org/en/chat-control-open-letter/](https://algorithmwatch.org/en/chat-control-open-letter/)
+19. **Journal officiel de l'UE** : Règlement (UE) 2024/1183 — eIDAS 2.0 (Article 45), [https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1183](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1183)

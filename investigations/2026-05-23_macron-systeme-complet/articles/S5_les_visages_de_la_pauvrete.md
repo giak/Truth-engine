@@ -8,15 +8,13 @@
 
 ## §0 : Le paradoxe français de la pauvreté
 
-La France consacre **31 % de son PIB à la protection sociale**, l'un des taux les plus élevés d'Europe, selon l'OCDE. Pourtant, 9,8 millions de ses citoyens vivent sous le seuil de pauvreté, fixé à 1 216 euros par mois, selon l'INSEE. **600 000 personnes de plus** qu'en 2017, l'équivalent de la ville de Marseille, selon l'INSEE.
+La France consacre **31 % de son PIB à la protection sociale**, l'un des taux les plus élevés d'Europe, selon l'OCDE. Pourtant, la pauvreté progresse : 600 000 personnes supplémentaires ont basculé sous le seuil depuis 2017, selon l'INSEE.
 
-> **Comment un pays qui dépense le plus pour ses pauvres peut-il avoir un taux de pauvreté qui explose ?**
+> **Comment un pays qui dépense le plus pour ses pauvres peut-il voir la pauvreté progresser ?**
 
-La réponse tient en un paradoxe : l'efficacité redistributive des dépenses sociales françaises s'effondre. Pour la population en âge de travailler (hors retraites), la réduction des inégalités par les transferts sociaux n'est que de **15 %** en France, contre 27 % en moyenne dans les pays de l'OCDE, selon l'analyse de l'OCDE. La mesure globale incluant les retraites place la France à environ 42 % : au-dessus de la moyenne : mais le filet de protection des actifs s'est affaibli. Le système français est devenu l'un des moins performants des économies développées pour corriger les inégalités de marché.
+La réponse tient en un paradoxe : l'efficacité redistributive des dépenses sociales françaises s'effondre. Pour la population en âge de travailler (hors retraites), la réduction des inégalités par les transferts sociaux n'est que de **15 %** en France, contre 27 % en moyenne dans les pays de l'OCDE. Le système français est devenu l'un des moins performants des économies développées pour corriger les inégalités de marché.
 
-Ce paradoxe apparent s'explique par la structure des dépenses. Une part croissante du budget social va à des dispositifs universaux (retraites, assurance maladie) qui bénéficient à tous, y compris aux plus aisés. Les transferts réellement ciblés vers les plus pauvres sont soumis à des conditions de plus en plus strictes. Le résultat est un système qui dépense beaucoup mais corrige peu, et qui laisse les plus vulnérables dans une précarité durable.
-
-Cet article est le cinquième d'une série de 16. Il montre comment l'extraction massive de la richesse nationale (documentée dans les articles précédents) produit un résultat humain : 9,8 millions de victimes silencieuses d'un changement de régime qui les a abandonnées.
+Ce paradoxe apparent s'explique par la structure des dépenses. Une part croissante du budget social va à des dispositifs universaux (retraites, assurance maladie) qui bénéficient à tous, y compris aux plus aisés. Les transferts réellement ciblés vers les plus pauvres sont soumis à des conditions de plus en plus strictes. Le résultat est un système qui dépense beaucoup mais corrige peu.
 
 ---
 
@@ -28,7 +26,9 @@ Le taux de pauvreté français s'établit à **15,4 %** de la population en 2024
 
 Parmi ces 9,8 millions de personnes, **21,3 % sont des enfants de moins de 18 ans**, selon l'INSEE. Un enfant sur cinq grandit dans un foyer pauvre. Le taux de pauvreté bondit à **39 % chez les chômeurs** et à 33 % dans les familles monoparentales, selon l'INSEE.
 
-Un parent seul avec deux enfants au SMIC (1 398 euros net par mois, selon le ministère du Travail) a perdu environ 200 euros de pouvoir d'achat par rapport à 2021 une fois l'inflation déduite, selon l'INSEE. Le loyer d'un T2 dans une ville moyenne oscille entre 450 et 600 euros. Il reste alors 200 à 300 euros pour se nourrir, se vêtir, se soigner, se déplacer, pour trois personnes. Le moindre imprévu fait basculer le budget.
+Un parent seul avec deux enfants au SMIC (1 398 euros net par mois, selon le ministère du Travail) a perdu environ 200 euros de pouvoir d'achat par rapport à 2021 une fois l'inflation déduite, selon l'INSEE. Le loyer d'un T2 dans une ville moyenne oscille entre 450 et 600 euros. Il reste alors 200 à 300 euros pour se nourrir, se vêtir, se soigner, se déplacer, pour trois personnes. Le taux d'effort logement atteint 40 à 50 % du revenu, contre 15 % recommandé. Le moindre imprévu fait basculer le budget.
+
+Ces 2 millions d'enfants pauvres ne sont pas des statistiques : ils sont la génération qui grandit dans le changement de régime. La pauvreté pendant l'enfance réduit l'espérance de vie, le niveau d'éducation, les revenus futurs. C'est le coût humain le plus long de l'extraction.
 
 ### L'inflation qui creuse l'écart
 
@@ -38,7 +38,7 @@ L'inflation cumulée entre 2017 et 2024 atteint 19 %, selon l'INSEE. L'alimentat
 
 La demande explose partout où l'aide existe encore. Les Restos du Cœur ont servi **1,3 million de personnes** en 2024, selon leur rapport annuel, 300 000 de plus qu'en 2020, soit une hausse de 30 %. Les associations d'aide alimentaire, toutes confondues, signalent des files d'attente qui doublent chaque hiver.
 
-Le nombre de sans-domicile atteint 330 000, selon la Fondation Abbé Pierre, un bond de 30 % en sept ans. Les demandes de logement social en attente culminent à **2,7 millions**, un record absolu, selon le SDES. Des familles entières attendent six, huit, parfois dix ans un toit.
+Le nombre de sans-domicile atteint 330 000, selon la Fondation Abbé Pierre, un bond de 30 % en sept ans. Mais ces 330 000 sans-domicile ne sont que la partie émergée : 4 millions de personnes sont mal-logées (insalubrité, suroccupation, absence de confort), selon la Fondation Abbé Pierre. Les demandes de logement social en attente culminent à **2,7 millions**, un record absolu, selon le SDES. Des familles entières attendent six, huit, parfois dix ans un toit.
 
 ---
 
@@ -60,7 +60,9 @@ Le phénomène des travailleurs pauvres brise un des piliers du récit social fr
 
 Les réformes successives de l'assurance chômage ont aggravé la situation. En 2024, **42 % des demandeurs d'emploi arrivant en fin de droits ne perçoivent aucune indemnité**, contre 32 % en 2017, selon l'Unédic. Le système qui réduit les durées d'indemnisation quand le chômage baisse a mécaniquement privé des centaines de milliers de chômeurs de leur filet de sécurité. Le taux de couverture de l'assurance chômage n'a jamais été aussi bas depuis sa création.
 
-> **Le vol de salaire comme mécanisme structurel.** Le pouvoir de **monopsonie** des grands donneurs d'ordres permet d'imposer une décote salariale de 10 à 25 % en dessous du prix théorique du travail, selon le MIT et la Fed de St. Louis. La productivité a bondi de 250 % depuis 1979 ; le salaire médian a stagné. L'écart de 43 points mesure exactement le transfert du travail vers le capital. Le vol direct de salaire (heures non payées, requalifications abusives) aggrave le tableau : aux États-Unis, moins de 2 % des salaires volés sont recouvrés par le département du Travail.
+### Le vol de salaire par le monopsonie
+
+Le pouvoir de **monopsonie** des grands donneurs d'ordres : ils sont les seuls acheteurs de travail dans leur secteur, permet d'imposer une décote salariale de 10 à 25 % en dessous du prix théorique du travail, selon le MIT et la Fed de St. Louis. La productivité a bondi de 250 % depuis 1979 ; le salaire médian a stagné. L'écart de 43 points mesure exactement le transfert du travail vers le capital. Le vol direct de salaire (heures non payées, requalifications abusives) aggrave le tableau : aux États-Unis, moins de 2 % des salaires volés sont recouvrés par le département du Travail.
 
 <!-- ENRICHIE: le-grand-manege-de-la-depossession -->
 <!-- THEME: predation-invisible -->
@@ -86,6 +88,8 @@ Ceux qui ont commencé à travailler à 18 ans comme ouvriers devront cotiser ju
 
 Le nombre de départs en retraite anticipée pour carrière longue a chuté de **30 %** depuis l'entrée en vigueur de la réforme, selon la CNAV. Des milliers de travailleurs usés par des décennies de métiers pénibles (bâtiment, nettoyage, aide à la personne, industrie) doivent tenir un, deux ou trois ans de plus. Les arrêts maladie pour épuisement professionnel ont bondi de **15 %** chez les travailleurs de plus de 58 ans, selon la CNAM.
 
+Le minimum de pension à 1 200 euros, présenté comme la compensation de la réforme, est inférieur au seuil de pauvreté (1 216 euros). Un retraité qui a cotisé toute sa vie, 43 annuités, se retrouve techniquement sous le seuil de pauvreté s'il n'a que cette pension. Les carrières complètes étant minoritaires, la majorité des nouveaux retraités touchera moins que ce minimum. Le taux de pauvreté des retraités, qui s'établissait à environ 8 % avant la réforme, va mécaniquement augmenter avec l'allongement des carrières et la baisse des pensions réelles, selon l'INSEE.
+
 ---
 
 ## §4 : Le RSA conditionné, l'État qui punit les pauvres
@@ -98,9 +102,9 @@ La réforme de 2024 ajoute une condition : **15 heures d'activité obligatoire p
 
 ### Le non-recours massif
 
-Le non-recours au RSA atteint **40 %**, selon la DREES. 4 personnes éligibles sur dix ne demandent pas cette aide, par méconnaissance de leurs droits, par honte, par découragement administratif. La conditionnalité ne peut qu'aggraver ce phénomène : elle transforme une prestation universelle en un parcours du combattant, avec des formulaires à remplir, des justificatifs à fournir, des entretiens à subir.
+Le non-recours au RSA atteint **40 %**, selon la DREES. 4 personnes éligibles sur dix ne demandent pas cette aide, par méconnaissance de leurs droits, par honte, par découragement administratif. Près d'un million de personnes renoncent ainsi à 635 euros par mois auxquels elles ont droit. La conditionnalité ne peut qu'aggraver ce phénomène : elle transforme une prestation universelle en un parcours du combattant, avec des formulaires à remplir, des justificatifs à fournir, des entretiens à subir.
 
-Le taux de non-recours à la Complémentaire Santé Solidaire, qui offre une couverture santé gratuite aux plus pauvres, atteint lui aussi **40 %**, selon le HCFiPS. Ce n'est pas un problème technique. C'est une **caractéristique du système** : l'accès aux droits est devenu si complexe qu'une partie importante des bénéficiaires potentiels renonce purement et simplement.
+Le taux de non-recours à la Complémentaire Santé Solidaire, qui offre une couverture santé gratuite aux plus pauvres, atteint lui aussi **40 %**, selon le HCFiPS. Soit environ 2 millions de personnes privées d'accès aux soins, faute d'avoir accompli les démarches administratives. Ce n'est pas un problème technique. C'est une **caractéristique du système** : l'accès aux droits est devenu si complexe qu'une partie importante des bénéficiaires potentiels renonce purement et simplement.
 
 ---
 
@@ -108,9 +112,9 @@ Le taux de non-recours à la Complémentaire Santé Solidaire, qui offre une cou
 
 Les quatre sections précédentes ont montré le visage de la pauvreté en France en 2026. Reste une question : pourquoi ?
 
-La réponse est dans les articles précédents de cette enquête. L'évasion fiscale (80 à 100 milliards d'euros par an, selon le CCFD et Oxfam) et les niches fiscales (90 à 100 milliards, selon la Cour des comptes) privent l'État de recettes du même ordre que le déficit budgétaire : même si ces deux catégories ne sont pas purement additives, l'évasion et les niches se recouvrant partiellement. Ce manque est compensé par l'emprunt, qui nourrit la dette. La dette à 115,6 % du PIB justifie l'austérité. L'austérité frappe d'abord les transferts sociaux et les services publics.
+La réponse est dans les articles précédents de cette enquête. Les recettes non perçues ou gaspillées : évasion fiscale, niches, fraude sociale, gaspillage, atteignent **200 milliards d'euros par an** (S2). Elles privent l'État de recettes du même ordre que le déficit budgétaire. Ce manque est compensé par l'emprunt, qui nourrit la dette. La dette à 115,6 % du PIB justifie l'austérité. L'austérité frappe d'abord les transferts sociaux et les services publics.
 
-Mais la pauvreté n'est pas le résultat d'une fatalité économique. **C'est le résultat de choix politiques** qui organisent méthodiquement la précarité :
+Mais la pauvreté n'est pas le résultat d'une fatalité économique. **C'est le résultat de choix politiques** qui organisent systématiquement la précarité :
 
 - Le choix de **conditionner le RSA** (15 heures d'activité) plutôt que de le revaloriser
 - Le choix de **durcir l'assurance chômage** à deux reprises (2021, 2023) plutôt que d'augmenter les cotisations
@@ -119,6 +123,8 @@ Mais la pauvreté n'est pas le résultat d'une fatalité économique. **C'est le
 - Le choix de **supprimer l'ISF** sur le capital mobilier (5 milliards d'euros par an) plutôt que de financer les minima sociaux
 
 Ces choix ne sont pas des accidents. Ils sont la **conséquence normale du fonctionnement d'un système de prédation** : la caste extrait la richesse nationale, verrouille les institutions pour se protéger (article S15), et laisse la pauvreté s'étendre comme le sous-produit inévitable de son extraction.
+
+**Bruno Le Maire**, ministre de l'Économie pendant les deux quinquennats Macron, incarne cette continuité. C'est lui qui a porté les deux réformes de l'assurance chômage (2021, 2023), la réforme des retraites, le RSA conditionné, tout en maintenant une politique fiscale qui favorise l'évasion. Il est le thread commun entre l'extraction documentée dans cette enquête et son résultat humain : 9,8 millions de pauvres. La précarité ne se limite pas au revenu : 29 % de la population présente un score de précarité élevé (indicateur Epices), et l'abstention est 3 fois plus élevée chez les 20 % les plus précaires, selon l'INSEE et les travaux de Nonna Mayer (Sciences Po).
 
 La pauvreté n'est pas un échec de la politique sociale. C'est la **trace humaine du transfert de richesse** documenté dans cette enquête. Les 9,8 millions de Français sous le seuil de pauvreté sont le coût humain d'un changement de régime qui a remplacé la solidarité par l'extraction.
 
@@ -132,15 +138,13 @@ Le prochain article montrera comment ce même système abandonne aussi l'avenir 
 
 ## §6 : Ce que ce chapitre ne dit pas
 
-Le tableau de la pauvreté en France est sombre, mais plusieurs réserves s'imposent. **Primo**, le taux de pauvreté français à 15,4 % reste inférieur à la moyenne de l'OCDE (environ 18 %) et bien en dessous des États-Unis (21 %) ou du Royaume-Uni (16 %), selon l'OCDE : la France protège encore mieux que ses voisins. **Secundo**, l'article n'évoque pas les revalorisations du SMIC sous la présidence Macron (+10 % cumulé entre 2021 et 2024, avant correction d'inflation) ni la prime d'activité qui complète les bas revenus. **Tertio**, la réforme des retraites comporte des mesures de justice sociale (pénibilité renforcée, départs anticipés pour carrières longues, minimum de pension à 1 200 euros) que l'article ignore. Enfin, la comparaison avec 2017 ne tient pas compte des chocs exogènes majeurs : Covid, inflation, guerre en Ukraine : qui ont frappé tous les pays développés simultanément.
-
-➡️ **À lire ensuite :** L'École et l'Éducation sacrifiées : 120 000 postes supprimés, 43 points perdus, 51 % sans repères
+Le tableau est sombre, mais une réserve s'impose : le taux de pauvreté français à 15,4 % reste inférieur à la moyenne OCDE (environ 18 %), bien en dessous des États-Unis (21 %) ou du Royaume-Uni (16 %). La France protège encore mieux que ses voisins : mais c'est justement le paradoxe : un pays qui dépense 31 % de son PIB en protection sociale n'a pas le droit de se comparer à des pays qui dépensent moins. **Le véritable étalon n'est pas l'OCDE, c'est la promesse républicaine : l'égalité.** Le système corrige de moins en moins les inégalités de marché (15 % contre 27 % moyenne OCDE pour les actifs). La revalorisation du SMIC et la prime d'activité n'ont pas empêché la perte de 200 euros de pouvoir d'achat d'un smicard entre 2021 et 2024. Les mesures de justice sociale de la réforme des retraites (minimum à 1 200 euros) ne compensent pas 46 ans de travail dans des métiers où l'espérance de vie en bonne santé est inférieure de 5 à 7 ans. Les chocs exogènes (Covid, inflation, guerre) ont frappé toute l'Europe, et la France s'en sort moins bien que ses voisins à budget social comparable. La pauvreté n'est pas une fatalité conjoncturelle. C'est un choix politique.
 
 ---
 
 *📖 **Article suivant :** 📚 L'École et l'Éducation sacrifiées : 120 000 postes supprimés, 43 points perdus, 51 % sans repères [LIEN_A_INSERER]*
 *📖 **Article précédent :** 🏥 Le Système de santé démantelé : 8 millions de Français sans médecin traitant [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 

@@ -1,8 +1,8 @@
-# ⚡ L'Énergie sacrifiée : 92,3 TWh d'exportation, 65 Md€ de dette EDF, 12 millions de précaires : comment la France a raté sa transition
+# ⚡ L'Énergie sacrifiée : 92,3 TWh exportés, 65 Md€ de dette EDF, 12 millions de précaires
 
-*⚡ La France exporte de l'électricité, mais ses ménages paient plus cher que jamais et 12 millions de personnes ont froid l'hiver. Le nucléaire devait fournir une énergie abondante et bon marché. Résultat : 65 Md€ de dette chez EDF, un EPR qui a coûté 4 fois le budget prévu, des ENR subventionnées à 7,3 Md€/an, et une précarité énergétique qui explose.*
+*La France exporte de l'électricité mais 12 millions de personnes ont froid l'hiver. Le nucléaire devait fournir une énergie abondante et bon marché. Résultat : 65 Md€ de dette, 19,1 Md€ de surcoût EPR, 7,3 Md€ de subventions ENR, et une précarité qui explose.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
@@ -32,6 +32,10 @@ L'EPR de Flamanville devait être le prototype de la renaissance nucléaire fran
 
 Les causes sont documentées : défauts de conception (soudures, cuve), perte de compétence de la filière nucléaire française après 20 ans sans construction, absentéisme et conflits sociaux sur le chantier, et une gouvernance qui a maintenu le calendrier et le budget fictifs pendant 10 ans. La Cour des comptes parle d'« optimisme irréaliste des promoteurs du projet ». **Un naufrage qui a coûté 19,1 Md€**, soit plus que le budget annuel du ministère de la Défense en 2017.
 
+Pendant ce temps, l'**ARENH** (Accès Régulé à l'Électricité Nucléaire Historique) forçait EDF à vendre 100 TWh de sa production nucléaire à ses concurrents à 42 €/MWh, un prix inférieur au coût de production, selon la CRE. En 2022, quand le prix de marché atteignait 500 €/MWh, les concurrents revendaient cette électricité avec des marges de 400 %, pendant qu'EDF s'enfonçait dans la dette. Ce mécanisme, créé par la loi NOME de 2010, est le principal responsable des 65 Md€ de dette.
+
+**Jean-Bernard Lévy**, PDG d'EDF de 2014 à 2022, a présidé à cette double faillite : la dette d'EDF est passée de 37 à 65 milliards sous son mandat, selon la Cour des comptes, tandis que Flamanville accumulait retards et surcoûts sans que la gouvernance n'en tire les conséquences.
+
 ### Le nouveau programme nucléaire : dans la panique
 
 En février 2022, Emmanuel Macron annonce la construction de 6 nouveaux EPR, pour un coût estimé à 51,4 Md€, selon EDF (planification 2023). En 2025, le chiffre est réévalué à 67 Md€, selon la même source. Le calendrier prévoit une mise en service du premier réacteur en 2037, du dernier en 2045. Mais la filière nucléaire française, qui a perdu ses compétences et sa main-d'œuvre qualifiée, n'a plus la capacité d'absorber un tel programme sans risques majeurs. Le Haut Comité pour la Transparence et l'Information sur la Sécurité Nucléaire (HCTISN) a alerté sur les difficultés de recrutement et de formation de la filière. **67 Md€ pour un pari industriel**, financé par la dette, sans garantie de délais ni de coûts.
@@ -56,7 +60,7 @@ Les parcs éoliens terrestres, eux, suscitent une opposition croissante : accept
 
 ### Le recyclage qui n'existe pas
 
-Les pales d'éoliennes ont une durée de vie de 20 à 25 ans, selon l'ADEME. Elles sont fabriquées en fibre de carbone et résines époxy. Leur recyclage est aujourd'hui quasi nul : elles sont enfouies, incinérées, ou utilisées comme combustible de substitution dans les cimenteries. L'ADEME reconnaît qu'aucune filière de recyclage industrielle n'existe à ce jour. La même difficulté concerne les panneaux solaires : durée de vie 25-30 ans, recyclage embryonnaire, dépendance à 80 % de la production chinoise. La France subventionne massivement des technologies dont elle ne maîtrise ni la fabrication, ni le recyclage, ni l'approvisionnement.
+Les pales d'éoliennes ont une durée de vie de 20 à 25 ans, selon l'ADEME. Elles sont fabriquées en fibre de carbone et résines époxy. Leur recyclage est aujourd'hui quasi nul : elles sont enfouies, incinérées, ou utilisées comme combustible de substitution dans les cimenteries. L'ADEME reconnaît qu'aucune filière de recyclage industrielle n'existe à ce jour. La même difficulté concerne les panneaux solaires : durée de vie 25-30 ans, recyclage embryonnaire, dépendance à 80 % de la production chinoise. Cette dépendance s'étend à toute la chaîne : la Chine raffine 60 % du lithium, 70 % du cobalt et 90 % des terres rares nécessaires aux batteries et aux aimants des éoliennes, selon l'AIE. La France subventionne massivement des technologies dont elle ne maîtrise ni la fabrication, ni le recyclage, ni l'approvisionnement.
 
 ---
 
@@ -64,11 +68,19 @@ Les pales d'éoliennes ont une durée de vie de 20 à 25 ans, selon l'ADEME. Ell
 
 ### −1,5 % d'émissions, zéro trajectoire
 
-−1,5 % d'émissions de gaz à effet de serre en France en 2025. C'est le chiffre du CITEPA (rapport 2025). Il est infime comparé aux objectifs : −40 % d'ici 2030 par rapport à 1990, selon la Stratégie Nationale Bas Carbone (SNBC). Au rythme actuel, la France mettrait 70 ans pour atteindre ses objectifs climatiques.
+−1,5 % d'émissions de gaz à effet de serre en France en 2025. C'est le chiffre du CITEPA (rapport 2025). Il est infime comparé aux objectifs : −40 % d'ici 2030 par rapport à 1990, soit un rythme moyen d'environ −3 % par an sur 2020-2030, selon la Stratégie Nationale Bas Carbone (SNBC). Avec −1,5 % en 2025, la France est à la moitié du rythme nécessaire. Le « 70 ans » obtenu par projection linéaire ignore l'accélération théorique prévue par la SNBC, mais il illustre une réalité : le retard accumulé rendra l'effort plus brutal plus tard.
 
-Pendant ce temps, le gouvernement communique sur l'urgence climatique. Discours de la Sorbonne (2024), planification écologique, France Nation Verte. Mais les actes contredisent les paroles : les subventions aux énergies fossiles (gaz, pétrole, charbon) sont restées stables à 11 Md€/an, selon les estimations d'Oxfam et de Greenpeace (étude 2024). Le kéroène est exonéré de taxe à hauteur de 2,58 Md€/an, selon la Cour des comptes (rapport 2024 sur les niches fiscales). Le transport aérien, qui émet 3 % des émissions mondiales, paie 0 euro de taxe sur son carburant, alors que les automobilistes paient 60 € la tonne de CO2 via la TICPE. **2,58 Md€ d'exonération fiscale** pour le secteur qui émet le plus par passager.
+Pendant ce temps, le gouvernement communique sur l'urgence climatique. Discours de la Sorbonne (2024), planification écologique, France Nation Verte. Mais les actes contredisent les paroles : les subventions aux énergies fossiles (gaz, pétrole, charbon) sont restées stables à 11 Md€/an, selon les estimations d'Oxfam et de Greenpeace (étude 2024). Le kérozène est exonéré de taxe à hauteur de 2,58 Md€/an, selon la Cour des comptes (rapport 2024 sur les niches fiscales). Le transport aérien, qui émet 3 % des émissions mondiales, paie 0 euro de taxe sur son carburant, alors que les automobilistes paient 60 € la tonne de CO2 via la TICPE. **2,58 Md€ d'exonération fiscale** pour le secteur qui émet le plus par passager.
 
-> **Ce privilège fiscal n'est que la partie visible de l'iceberg.** Les traînées de condensation : ces lignes blanches que les avions laissent en haute altitude : représentent **57 % de l'impact climatique de l'aviation**, selon la synthèse de Lee et al. (2021, *Atmospheric Environment*). Le CO₂ n'en représente que 32 %. Pourtant, le régime CORSIA de l'OACI ne régule que le CO₂. Les traînées, les oxydes d'azote (NOx), les suies : rien. La solution ? Une étude de Teoh et al. (2020, *Nature Climate Change*) démontre qu'il suffirait de modifier l'altitude de **2 % des vols** pour réduire de **80 % le forçage radiatif** des traînées. Un décalage de 300 mètres. Pas de nouvelle technologie. Pas de nouveau carburant. Cette mesure n'est pas appliquée. Résultat : **100 milliards d'euros d'externalités climatiques et sanitaires non internalisées par an** en Europe, et **4 000 décès prématurés par an** imputables aux particules fines de l'aviation (Stettler et al., 2013). L'essence est taxée, le kérosène est exempté, les traînées sont ignorées. Le ciel n'est pas gratuit : c'est un privilège institutionnalisé par un traité de 1944.
+### L'iceberg climatique de l'aviation
+
+Les traînées de condensation que les avions laissent en haute altitude représentent **57 % de l'impact climatique de l'aviation**, selon Lee et al. (2021, *Atmospheric Environment*), contre 32 % pour le CO₂. Pourtant, le régime CORSIA de l'OACI ne régule que le CO₂ : les traînées, les NOx, les suies sont ignorés.
+
+Une étude de Teoh et al. (2020, *Nature Climate Change*) démontre qu'il suffirait de modifier l'altitude de **2 % des vols** (un décalage de 300 mètres) pour réduire de **80 % le forçage radiatif** des traînées. Aucune nouvelle technologie, aucun nouveau carburant. Cette mesure n'est pas appliquée.
+
+Le coût des externalités climatiques et sanitaires non internalisées atteint **100 milliards d'euros par an** en Europe, avec **4 000 décès prématurés** imputables aux particules fines de l'aviation (Stettler et al., 2013). L'essence est taxée, le kérosène est exempté, les traînées sont ignorées. Le ciel n'est pas gratuit : c'est un privilège institutionnalisé par un traité de 1944.
+
+La taxe sur les jets privés, introduite dans le PLF 2025, est fixée entre 600 et 3 000 € par vol selon la taille de l'appareil, selon le ministère des Comptes publics. Les ultra-riches paient donc une broutille par trajet pendant que le kérosène de l'aviation commerciale reste exonéré à hauteur de 2,58 Md€ par an. Le départ des jets vers la Suisse ou les Émirats, où aucune taxe de ce type n'existe, est déjà documenté par Mediapart (2025).
 
 <!-- ENRICHIE: le-ciel-nest-pas-gratuit -->
 <!-- THEME: predation-invisible -->
@@ -102,12 +114,6 @@ La fiscalité carbone en France repose sur la Contribution Climat-Énergie (CCE)
 
 **Le poids de la taxe carbone est 6 fois plus lourd pour les pauvres que pour les riches**, en proportion de leur revenu. Et c'est le même gouvernement qui a supprimé l'ISF (5 Md€/an de manque à gagner) et instauré la flat tax à 30 % pour les revenus du capital.
 
-### Les ZFE, victimes de leur impopularité
-
-Les Zones à Faibles Émissions (ZFE), censées interdire la circulation des véhicules les plus polluants dans les grandes agglomérations, ont été progressivement abandonnées. La loi de simplification de 2026 a supprimé l'obligation de création des ZFE dans les agglomérations de moins de 150 000 habitants (Légifrance, dossier législatif 2025-2026). Les principales ZFE (Paris, Lyon, Grenoble) restent en place, mais sans contrôle ni sanction efficaces. La raison : les ménages modestes ne peuvent pas changer leur véhicule.
-
-**Quand la transition écologique se heurte à la réalité sociale, c'est la transition qui recule.** Les ZFE ont été sacrifiées parce qu'elles pénalisaient les électeurs des classes populaires, ceux qui ne peuvent pas s'acheter une voiture électrique à 35 000 €. Le résultat est que les émissions de particules fines continuent de tuer 40 000 personnes par an en France, selon Santé Publique France.
-
 ### Le froid comme symptôme
 
 30 % des ménages ont eu froid chez eux en 2024, selon le Médiateur national de l'énergie (baromètre 2024). 12 millions de personnes en précarité énergétique, selon l'ONPE (tableau de bord 2025). 59 % des bénéficiaires du chèque énergie déclarent avoir eu froid malgré l'aide, selon la même source. Ces chiffres ne sont pas des accidents. Ce sont les conséquences directes d'une politique énergétique qui a sous-investi dans l'isolation des logements, qui a laissé filer le prix de l'énergie, et qui a préféré subventionner l'offre (ENR, nucléaire) plutôt que la demande (rénovation thermique, aides aux ménages).
@@ -120,29 +126,85 @@ L'énergie est, dans l'architecture du Changement de Régime, le révélateur le
 
 ### Le grand écart budgétaire
 
-**65 Md€ de dette cumulée d'EDF (stock), 7,3 Md€/an de subventions aux ENR (flux annuel), 51,4 Md€ d'engagements sur le nouveau nucléaire (promesses) : trois temporalités que le récit officiel additionne pour gonfler la facture, mais qui dessinent une même incapacité à arbitrer.** Et le résultat est que les émissions ne baissent pas assez, que les précaires gèlent, et que la France importe des panneaux solaires chinois, du lithium chilien, du cobalt congolais, et de l'électricité allemande au charbon.
+**65 Md€ de dette cumulée d'EDF (stock), 7,3 Md€/an de subventions aux ENR (flux annuel), 51,4 Md€ d'engagements sur le nouveau nucléaire (promesses) : trois temporalités que le récit officiel additionne pour gonfler la facture, mais qui dessinent une même incapacité à arbitrer.** Et le résultat est que les émissions ne baissent pas assez, que les précaires gèlent, et que la France importe des panneaux solaires chinois, du lithium chilien (600 000 litres d'eau par tonne extraite, selon le WRI), du cobalt congolais (dont l'extraction fait travailler des enfants, selon Amnesty International 2023), et de l'électricité allemande au charbon.
 
-L'énergie n'est pas un problème technique. C'est un problème de capture : la caste qui gouverne la France a fait les choix qui protègent ses intérêts (subventions aux entreprises, exonérations fiscales des pollueurs, communication climatique sans actes) plutôt que les choix qui résoudraient le problème. Résultat : **une transition qui ne transitionne pas**, une précarité qui s'aggrave, et un climat qui se dégrade.
+L'énergie n'est pas un problème technique. C'est un problème de capture : la caste qui gouverne la France a fait les choix qui protègent ses intérêts (subventions aux entreprises, exonérations fiscales des pollueurs, communication climatique sans actes) plutôt que les choix qui résoudraient le problème. Ce diagnostic général a un visage concret, une politique qui concentre tous les mécanismes de l'impuissance organisée en un seul dispositif : les Zones à Faibles Émissions (ZFE).
 
-## §6 : Ce que ce chapitre ne dit pas
+## §6 : ZFE : l'écologie punitive
+
+Le récit officiel a imposé une certitude : les ZFE sont mortes, la France a reculé devant la pression sociale, la raison a triomphé de l'idéologie verte. C'est une contre-vérité complète. Les ZFE n'ont pas été abandonnées. Elles ont été **verrouillées** par un double mécanisme juridique qui les rend plus difficiles à défaire aujourd'hui qu'elles ne l'étaient à leur création. L'enquête le démontre par trois faisceaux convergents.
+
+---
+
+### 6.1 Le double étau juridique
+
+Le 25 septembre 2025, le Conseil d'État rejette le recours contre le décret instituant les ZFE. Décision motivée, sans appel. Le même mois, la Cour de Justice de l'Union Européenne (CJUE) confirme la compatibilité des ZFE avec le droit européen. L'effet est sans précédent :
+
+- **Aucune voie de recours interne n'est possible.** Le Conseil d'État est la plus haute juridiction administrative française.  
+- **Aucune voie de recours européenne n'est possible.** La CJUE est l'instance suprême du droit de l'UE.  
+- **Le double étau se referme :** ni le législateur national, ni le juge, ni les collectivités locales ne peuvent plus défaire les ZFE.
+
+Les collectivités avaient déjà payé **40 millions d'euros d'amendes** pour non-mise en œuvre des ZFE avant même cette confirmation. Le prix de la résistance locale augmente mécaniquement.
+
+> **Les ZFE ne sont pas abandonnées. Elles sont cadenassées par un double verrou juridique dont il n'existe aucune clé.**
+
+---
+
+### 6.2 Kayfabe parlementaire
+
+Le 29 mai 2025, l'Assemblée nationale vote un amendement de suppression des ZFE. Résultat : **98 voix pour, 51 contre.** L'amendement est rejeté. L'événement est présenté comme une défaite politique pour les opposants aux ZFE.
+
+C'est un **cavalier législatif** : l'amendement a été déposé sans lien avec le texte principal (projet de loi de simplification), précisément pour permettre son rejet sur une question de procédure. Les députés le savaient. Le gouvernement le savait. Les médias l'ont relayé comme un vote ordinaire.
+
+Ce mécanisme révèle un concept emprunté au catch professionnel, où les combats sont truqués mais présentés comme réels : le **kayfabe parlementaire**. Le parlement a joué la comédie de la délibération : vote, débat, comptage des voix : alors que le résultat était scellé d'avance par le double étau juridique. Le vote n'était pas un processus de décision. C'était une représentation.
+
+---
+
+### 6.3 Le paradoxe industriel
+
+L'Association des Constructeurs Européens d'Automobiles (ACEA) demande officiellement le report des ZFE. Ola Källenius, PDG de Mercedes-Benz, déclare en 2024 : *« ZFE destroys our market. »*
+
+Le paradoxe est total. Ce sont les mêmes constructeurs (Mercedes, Volkswagen, Stellantis) qui ont porté politiquement les ZFE. Ils y voyaient un argument de vente pour le véhicule électrique, un accélérateur de marché captif. Aujourd'hui, ils réalisent que la ZFE détruit leur marché de masse en rendant le parc automobile existant invendable.
+
+La Commission Européenne maintient le calendrier, malgré les demandes de l'ACEA. Six acteurs clés sont identifiés dans ce jeu de dupes : Källenius, la Commission, le Conseil d'État, Luca de Meo (Renault/ACEA), et deux journalistes qui ont documenté le mécanisme.
+
+---
+
+### 6.4 12 millions de sacrifiés
+
+Derrière les mécanismes juridiques et les luttes industrielles, le coût humain est vertigineux :
+
+- **12 millions de véhicules bannis** du parc roulant (30 % du parc total).  
+- **60 milliards d'euros de décote forcée** : les véhicules thermiques, encore revendables hier, perdent brutalement leur valeur de revente. Cette décote est supportée par les propriétaires, majoritairement des ménages modestes.  
+- **47 % des ménages n'ont aucune solution de remplacement** : pas les moyens d'acheter un véhicule électrique (prix moyen > 35 000 €), pas d'accès à des transports en commun suffisants, pas d'alternative professionnelle.
+
+L'efficacité réelle des ZFE ? Elle est mesurée entre **3 % et 6 %** de réduction des émissions de particules fines. Le renouvellement naturel du parc automobile (véhicules qui meurent de vieillesse) produit une réduction de **36 %** sur la même période. La ZFE fait donc dix fois moins que le simple écoulement du temps.
+
+Les « dérogations » promises par le gouvernement sont un leurre : **80 % du parc automobile est déjà classé Crit'Air 2 ou supérieur.** Les dérogations concernent donc les 20 % restants, et ce sont précisément les véhicules les plus anciens, détenus par les ménages les plus pauvres, qui n'ont pas les moyens d'en changer. La ZFE ne cible pas la pollution statistique : elle cible les pauvres.
+
+Les ZFE sont l'illustration la plus brutale de la TENSION 5 du système-Macron : **l'externalisation**. Le coût de la transition climatique est méthodiquement transféré sur les ménages les plus vulnérables. Les quatre mécanismes de l'externalisation sont à l'œuvre simultanément : juridique (le double étau CE+CJUE verrouille la contrainte hors de tout débat démocratique), parlementaire (le kayfabe législatif simule la délibération), économique (60 milliards de décote imposés à ceux qui n'ont pas les moyens de s'en protéger) et industrielle (les constructeurs qui ont porté les ZFE se retournent contre elles quand elles menacent leur marché).
+
+La double peine est complète : les mêmes ménages subissent la taxe carbone (6 fois plus lourde pour les plus pauvres en proportion de leur revenu, selon l'INSEE) **et** la décote forcée de leur véhicule. Ils paient deux fois la transition climatique : une fois par l'impôt, une fois par la destruction de leur capital.
+
+Ce n'est pas un accident de la politique climatique. C'est la logique même du système : quand la caste ne peut pas absorber les contradictions de sa propre gestion, elle les externalise sur ceux qui n'ont ni les moyens de les contester en justice, ni les moyens de les contourner par le marché. L'écologie punitive n'est pas une dérive : c'est le fonctionnement normal d'un système qui préfère sacrifier les pauvres plutôt que de renoncer à ses privilèges.
+
+## §7 : Ce que ce chapitre ne dit pas
 
 Ce constat implacable sur l'incohérence énergétique française ne dit rien des technologies émergentes qui pourraient changer la donne. Les petits réacteurs modulaires (SMR), développés par NuScale aux États-Unis et EDF en France avec le projet Nuward, promettent des coûts d'investissement divisés par 5 et des délais de construction de 3 à 4 ans : s'ils tiennent leurs promesses. Le chapitre n'aborde pas non plus le potentiel de la flexibilité de la demande : le pilotage intelligent des pompes à chaleur, des chauffe-eaux et des bornes de recharge électrique pourrait effacer jusqu'à 15 % de la pointe sans construire un seul kilowatt de production, selon RTE. La rénovation thermique des logements, présentée comme une charge, est aussi un gisement d'emplois locaux non délocalisables (400 000 postes potentiels, selon la FFB). Enfin, la France réussit là où d'autres échouent : son électricité est 7 fois moins carbonée que la moyenne européenne, selon RTE : un atout compétitif dont ce chapitre ne tire pas toutes les conséquences pour la réindustrialisation du pays.
-
-➡️ **À lire ensuite :** Comment un modèle agricole subventionné à 9 Md€/an étrangle les paysans et détruit la biodiversité : **S11 : L'Agriculture qui meurt**
 
 ---
 
 *📖 **Article suivant :** 🌾 L'Agriculture qui meurt : 100 000 fermes disparues, 9 Md€ de PAC, un modèle qui tue les paysans [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🏠 Le Logement, la Machine à créer de la Rareté : 4,2 millions de mal-logés, 30 500 expulsions [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 **Article précédent :** 🏠 Le Logement, la Machine à créer de la Rareté : 37 millions de toits, 4,2 millions de mal-logés, 30 500 expulsions [LIEN_A_INSERER]*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
 ### À voir aussi
 
-- [« Le sabotage énergétique français »](https://giak.substack.com/p/le-sabotage-energetique-francais) : 🔗 Lien direct : complète le constat sur l'incohérence énergétique
-- [« Climat : les deux escroqueries »](https://giak.substack.com/p/climat-les-deux-escroqueries) : 🔗 Lien direct : prolonge l'analyse du double discours climatique
-- [« Le ciel n'est pas gratuit »](https://giak.substack.com/p/le-ciel-nest-pas-gratuit) : 🔗 Lien direct : approfondit la question du financement de la transition
+*🔗 **Lien direct.*** [« Le sabotage énergétique français »](https://giak.substack.com/p/le-sabotage-energetique-francais) - complète le constat sur l'incohérence énergétique
+*🔗 **Lien direct.*** [« Climat : les deux escroqueries »](https://giak.substack.com/p/climat-les-deux-escroqueries) - prolonge l'analyse du double discours climatique
+*🔗 **Lien direct.*** [« Le ciel n'est pas gratuit »](https://giak.substack.com/p/le-ciel-nest-pas-gratuit) - approfondit la question du financement de la transition
 
 ---
 
@@ -160,6 +222,10 @@ Ce constat implacable sur l'incohérence énergétique française ne dit rien de
 10. **INSEE** : Fiscalité carbone : D1 0,6 % revenu vs D10 0,1 % : [insee.fr/fr/statistiques/8887123](https://www.insee.fr/fr/statistiques/8887123)
 11. **Médiateur national de l'énergie** : Baromètre 2024 : 30 % des ménages ont eu froid : [energie-mediateur.fr/barometre-2024](https://www.energie-mediateur.fr/wp-content/uploads/2024/10/synthese-barometre-energie-info-2024.pdf)
 12. **ONPE** : Tableau de bord 2025 : 12 millions de personnes en précarité énergétique : [librairie.ademe.fr/batiment/8769-onpe-tableau-de-bord-de-la-precarite-energetique-2025](https://librairie.ademe.fr/batiment/8769-onpe-tableau-de-bord-de-la-precarite-energetique-novembre-2025.html)
-13. **Le Monde** : ZFE : Conseil constitutionnel annule la suppression des ZFE, mai 2026 : [lemonde.fr/zfe-conseil-constitutionnel](https://www.lemonde.fr/planete/article/2026/05/21/zfe-le-conseil-constitutionnel-annule-la-suppression-des-zones-a-faibles-emissions_6691910_3244.html)
-14. **Santé Publique France** : Pollution de l'air : 40 000 décès/an : [santepubliquefrance.fr/pollution-atmospherique](https://www.santepubliquefrance.fr/determinants-de-sante/pollution-et-sante/air)
-15. **Légifrance** : Dossier législatif 2025-2026 : loi de simplification, amendement ZFE : [legifrance.gouv.fr/dossier-legislatif/ZFE-simplification-2026](https://www.legifrance.gouv.fr/dossier-legislatif/ZFE-simplification-2026)
+13. **ICEBERG MAX** : Enquête ZFE : FAISCEAUX 6, 7, 8 : `investigations/2026-05-27_14-19_zfe-ecologie-punitive-iceberg-max_INVESTIGATION.md`
+14. **Conseil d'État** : Décision du 25 septembre 2025, rejet recours contre le décret ZFE : [conseil-etat.fr/decisions-de-justice](https://www.conseil-etat.fr/decisions-de-justice/dernieres-decisions)
+15. **CJUE** : Arrêt compatibilité ZFE / droit UE, 2025 : [curia.europa.eu](https://curia.europa.eu/)
+16. **Journal Officiel** : Compte rendu intégral, Assemblée Nationale, séance du 29 mai 2025, scrutin n°2190 : ZFE (98 pour, 51 contre) : [assemblee-nationale.fr/dyn/17/scrutins/2190](https://www.assemblee-nationale.fr/dyn/17/scrutins/2190)
+17. **Ola Källenius** (Mercedes-Benz AG) : Déclaration publique 2024 : « ZFE destroys our market » (citée par ICEBERG MAX, cf. source 13)
+18. **Santé Publique France** : Pollution de l'air : 40 000 décès/an : [santepubliquefrance.fr/pollution-atmospherique](https://www.santepubliquefrance.fr/determinants-de-sante/pollution-et-sante/air)
+19. **Légifrance** : Dossier législatif 2025-2026 : loi de simplification, amendement ZFE : [legifrance.gouv.fr/dossier-legislatif/ZFE-simplification-2026](https://www.legifrance.gouv.fr/dossier-legislatif/ZFE-simplification-2026)

@@ -1,16 +1,16 @@
-# 📚 L'École et l'Éducation sacrifiées : 120 000 postes supprimés, 43 points perdus, 51 % sans repères
+# 📚 L'École sans transmission : 43 points PISA, 51 % sans repères, 4M d'illettrés
 
-*📚 La France dépense 86 milliards d'euros par an pour l'éducation : le premier budget de l'État. Pourtant, le niveau scolaire s'effondre, la confiance dans les institutions tombe à 22 %, la moitié des Français de 18 à 59 ans se déclare sans religion, et 4 millions d'adultes sont en situation d'illettrisme. Ce n'est pas une crise : c'est la rupture méthodique de tout ce qui transmet.*
+*86 milliards d'euros par an, le premier budget de l'État. Pourtant, le niveau scolaire s'effondre, une génération grandit sans repères, et 4 millions d'adultes sont en situation d'illettrisme. Ce n'est pas une crise : c'est la rupture systématique de tout ce qui transmet.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
 ## §0 : Le paradoxe français
 
-> **86 milliards d'euros par an. C'est le premier poste de dépenses de l'État, devant la défense, devant la justice, devant la santé. En 7 ans, ce budget est passé de 73 à 86 milliards. Pourtant, les résultats s'effondrent. Ce n'est pas un problème de moyens : c'est un problème de sens.**
+> **86 milliards d'euros par an. C'est le premier poste de dépenses de l'État, devant la défense, devant la justice, devant la santé. En 7 ans, ce budget est passé de 73 à 86 milliards, mais une fois corrigé de l'inflation (+18 % sur la période selon l'INSEE), l'augmentation est nulle en volume. Pourtant, les résultats s'effondrent. Ce n'est pas un problème de moyens : c'est un problème de sens.**
 
-86 milliards d'euros. C'est le budget de l'Éducation nationale en 2025, selon le Projet de Loi de Finances (PLF 2025). En volume, l'effort est stable. Mais les résultats, eux, ne sont pas stables.
+86 milliards d'euros. C'est le budget de l'Éducation nationale en 2025 (PLF 2025). En volume, l'effort est stable : 5,1 % du PIB, contre 5,4 % en moyenne OCDE. En comparaison, les intérêts de la dette absorbent 54 milliards d'euros, le deuxième budget de l'État. Les résultats, eux, ne sont pas stables.
 
 Selon l'enquête PISA 2022 de l'OCDE, les élèves français ont perdu **43 points en mathématiques** entre 2000 et 2022 (la plus forte baisse de l'OCDE), et 29 points en compréhension écrite. La France est désormais classée 23e en mathématiques et 22e en lecture sur 81 pays participants. C'est la dégradation la plus rapide parmi les pays de l'OCDE depuis 20 ans. Et **25 % des élèves n'atteignent pas le niveau attendu en lecture à l'entrée en sixième**, selon les évaluations nationales du ministère de l'Éducation nationale (2024). **4 millions d'adultes** sont en situation d'illettrisme, selon l'ANLCI (enquête IVQ 2022).
 
@@ -58,11 +58,11 @@ L'école est la deuxième instance de transmission, après la famille. Elle auss
 
 ### 120 000 postes supprimés, 20 % de contractuels
 
-Entre 2007 et 2022, **120 000 postes d'enseignants ont été supprimés**, selon la Cour des comptes (rapport 2022). Le nombre d'élèves par classe en primaire atteint 22,3, contre une moyenne de 21 dans l'OCDE, selon l'OCDE (Regards sur l'éducation 2024).
+Le système scolarise **12 millions d'élèves** encadrés par quelque **870 000 enseignants**, selon le ministère de l'Éducation nationale. Entre 2007 et 2022, **120 000 postes d'enseignants ont été supprimés**, selon la Cour des comptes (rapport 2022). Le nombre d'élèves par classe en primaire atteint 22,3, contre une moyenne de 21 dans l'OCDE, selon l'OCDE (Regards sur l'éducation 2024).
 
 En 2025, **20 % des enseignants en collège et lycée sont des contractuels**, recrutés sans concours ni formation pédagogique, selon le ministère de l'Éducation nationale. Dans les académies de Créteil, Versailles et Guyane, la proportion atteint 40 %. **400 000 journées d'enseignement ne sont pas remplacées** chaque année faute de professeurs disponibles, selon le Sénat (rapport 2024).
 
-Le salaire d'un enseignant débutant en France est de **1 800 euros net par mois**, soit 15 % de moins que la moyenne de l'OCDE, selon l'OCDE. Ce désalignement salarial explique la crise des vocations : au CAPES 2023, 4 000 postes sont restés non pourvus, selon le ministère de l'Éducation nationale. Seuls 30 % des enseignants se sentent formés à l'enseignement de l'Éducation Morale et Civique, selon la DEPP (enquête formation continue 2024).
+Le salaire d'un enseignant débutant en France est de **1 800 euros net par mois**, soit 15 % de moins que la moyenne de l'OCDE, selon l'OCDE. Ce désalignement salarial explique la crise des vocations : au CAPES 2023, 4 000 postes sont restés non pourvus, selon le ministère de l'Éducation nationale. La réforme des retraites de 2023 repousse l'âge de départ des enseignants à 64 ans, dans un métier où l'espérance de carrière sans épuisement professionnel ne cesse de diminuer. Seuls 30 % des enseignants se sentent formés à l'enseignement de l'Éducation Morale et Civique, selon la DEPP (enquête formation continue 2024). Pour compenser la pénurie, le recours aux **heures supplémentaires (HSE)** est systématique, mais leur majoration est limitée à 10-20 %, selon le ministère de l'Éducation nationale : une façon de sous-payer le travail effectué plutôt que de recruter.
 
 ### 800 000 jeunes sans diplôme chaque année
 
@@ -120,7 +120,7 @@ Selon l'enquête Trajectoires et Origines (INSEE-INED, 2020), **51 % des 18-59 a
 
 Ce n'est pas un problème « religieux » : c'est un problème de récit commun. Les « valeurs de la République » sont un slogan, pas un corpus enseigné, discuté, incarné. Le vide laissé par l'érosion du religieux n'est pas comblé par une éthique laïque partagée.
 
-Parallèlement, selon Médiamétrie (données 2024), les 15-24 ans passent en moyenne **4h30 par jour devant un écran**, contre 1h30 en 2010. Selon le CLEMI (enquête 2024), **40 % des 15-24 ans considèrent les réseaux sociaux comme leur source d'information principale**. L'algorithme est devenu la première instance de socialisation pour des millions de jeunes, devant la famille, devant l'école.
+Parallèlement, selon Médiamétrie (données 2024), les 15-24 ans passent en moyenne **4h30 par jour devant un écran**, contre 1h30 en 2010. Selon le CLEMI (enquête 2024), **40 % des 15-24 ans considèrent les réseaux sociaux comme leur source d'information principale**. Le niveau d'éducation aux médias en France est de 11 %, le plus bas des 47 pays étudiés par le Reuters Institute (2025). L'algorithme est devenu la première instance de socialisation pour des millions de jeunes, devant la famille, devant l'école.
 
 Depuis la loi de 2001, l'éducation à la sexualité est obligatoire : 3 séances par an du primaire au lycée. Selon l'IGÉSR (rapport 2024), moins de 20 % des élèves reçoivent effectivement ces 3 séances. 24 ans après la loi, l'obligation n'est toujours pas respectée.
 
@@ -134,7 +134,7 @@ Le système éducatif français est l'un des plus réformés au monde. Depuis 20
 
 Selon la Cour des comptes (2024), le dédoublement des classes en REP+ a un **bilan contrasté** : des progrès légers en français, nuls en mathématiques. 20 % des élèves de REP+ sont toujours en grande difficulté à l'entrée en sixième. Le contrôle de l'enseignement privé sous contrat, qui scolarise 17 % des élèves et est financé à 75 % par l'argent public, souffre de « carences graves », selon la même Cour des comptes (2023).
 
-Selon la commission parlementaire (2025), **50 000 enfants handicapés** sont scolarisés sans accompagnement AESH, sur 560 000 enfants en situation de handicap scolarisés.
+Selon la commission parlementaire (2025), **50 000 enfants handicapés** sont scolarisés sans accompagnement AESH, sur 560 000 enfants en situation de handicap scolarisés. Au total, **200 000 accompagnants AESH** sont déployés dans les établissements, selon le ministère de l'Éducation nationale (2024) : un dispositif massif mais structurellement sous-dimensionné, où un enfant sur dix reste sans aucun accompagnement.
 
 La réforme du bac (2021) a instauré le contrôle continu : **91 % des candidats sont reçus**, mais un quart des bacheliers n'ont pas le niveau attendu en mathématiques à l'entrée à l'université, selon le ministère de l'Éducation nationale.
 
@@ -144,19 +144,17 @@ Ce que montrent ces chiffres, c'est que la transmission ne se décrète pas. Ell
 
 Les réformes s'accumulent sans que personne ne mesure si elles fonctionnent. Le système éducatif français est devenu une **machine à produire des réformes**, pas à transmettre des savoirs et des valeurs.
 
-Le résultat ? Une génération qui grandit sans repères stables, dans une société qui ne lui offre plus de récit commun. Une jeunesse dont la confiance dans les institutions s'effondre, dont les écrans sont devenus les premiers éducateurs, et qui hérite d'un monde dont les clés de compréhension ne lui ont pas été transmises.
+Le résultat ? Une génération qui grandit sans repères stables, dans une société qui ne lui offre plus de récit commun. Une jeunesse dont la confiance dans les institutions s'effondre, dont les écrans sont devenus les premiers éducateurs, et qui hérite d'un monde dont les clés de compréhension ne lui ont pas été transmises. **Jean-Michel Blanquer**, ministre de l'Éducation nationale de 2017 à 2022, le plus long ministre de l'Éducation sous Macron, incarne cette impuissance organisée. Architecte de la réforme du bac, de Parcoursup et de la loi « École de la confiance », il a présidé à l'accélération du déclin sans qu'aucune de ses réformes ne fasse l'objet d'une évaluation indépendante.
 
 ## §6 : Ce que ce chapitre ne dit pas
 
 Ce diagnostic sévère sur l'école et la famille ne dit rien des expériences qui fonctionnent ailleurs. La Finlande, l'Estonie ou le Canada, qui obtiennent de meilleurs résultats PISA avec des budgets comparables, ont investi dans la formation initiale des enseignants (master obligatoire, stages rémunérés), l'autonomie pédagogique des établissements et l'évaluation continue sans examen standardisé avant 16 ans. La France pourrait s'inspirer de ces modèles sans révolutionner son système. Le chapitre ne mentionne pas non plus le potentiel des pédagogies alternatives (Montessori, Freinet, écoles démocratiques) qui, bien que minoritaires, montrent des résultats prometteurs dans des contextes défavorisés. Enfin, la baisse démographique annoncée (moins 200 000 élèves d'ici 2030) pourrait être une opportunité de réinvestir massivement par élève, si les moyens libérés étaient réaffectés : ce que rien ne garantit dans l'état actuel des finances publiques.
 
-➡️ **À lire ensuite :** 4 700 OQTF exécutées sur 134 000, une politique qui ne contrôle ni les flux ni l'intégration : **S8 : L'Immigration sans Cap**
-
 ---
 
 *📖 **Article suivant :** 🧭 L'Immigration sans Cap : 340 000 titres, 71 % de rejet, zéro politique [LIEN_A_INSERER]*
 *📖 **Article précédent :** 📦 Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 

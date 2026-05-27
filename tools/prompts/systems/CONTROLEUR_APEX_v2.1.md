@@ -1,16 +1,33 @@
-# CONTROLEUR APEX v2.1 — Protocole d'Audit Systématique des Articles S
+# CONTROLEUR APEX v2.1 — Protocole d'Audit Systématique (générique)
 
 > **Usage :** Protocole bicéphale. La partie A est le prompt LLM (autonome, copiable). La partie B est l'interface pédagogique pour l'utilisateur.
 >
-> **Prérequis :** L'article S à auditer, le FACTCHECK, les enquêtes KERNEL liées à l'article.
+> **Prérequis :** L'article de la série à auditer, le FACTCHECK, les enquêtes KERNEL liées à l'article.
 >
-> **Contexte :** Ce protocole est le chaînon manquant entre SUBLIMATOR (rédaction) et PROMPT_MASTER (structure). Il garantit qu'un article S passe de « publiable » à « APEX » — c'est-à-dire vérifié sur 5 couches, scoré sur 9 axes, et prêt à résister à n'importe quelle critique.
+> **Contexte :** Ce protocole est le chaînon manquant entre SUBLIMATOR (rédaction) et PROMPT_MASTER (structure). Il garantit qu'un article passe de « publiable » à « APEX » — c'est-à-dire vérifié sur 5 couches, scoré sur 9 axes, et prêt à résister à n'importe quelle critique.
 >
-> **v2.1 :** Ajout de la vérification d'intégrité des agrégations (Couche 4.5) et de cohérence catégorielle (Couche 5.4). Un audit S2 a révélé que le protocole ne détectait pas les doubles-comptes entre catégories additionnées (évasion + niches fiscales) ni les fausses équivalences entre phénomènes de nature juridique différente (illégal, choix politique, droit social).
+> **v2.1 :** Générique (configurable par série). Ajout CONFIG SÉRIE, couche 1 renforcée (14 points, détection em-dash + Note enquête), couche 3.4 (alignement sous-titre HUB). Également : vérification d'intégrité des agrégations (Couche 4.5) et cohérence catégorielle (Couche 5.4).
 >
 > **v2.0 :** Ajout de la Couche 5 — Écriture & Narration. Un article peut être factuellement irréprochable (Couches 1-4) et pourtant échouer à documenter la machine de contrôle. La Couche 5 vérifie la visibilité du système, la traçabilité de la démonstration et la respiration du texte.
 >
 > **v1.1 :** Ajout de la vérification web obligatoire pour les faits contestés (Couche 4.4). Le FACTCHECK n'est pas infaillible — tout désaccord article↔FACTCHECK ou tout fait suspect déclenche une vérification externe.
+
+---
+
+## CONFIG SÉRIE — À RENSEIGNER AVANT USAGE
+
+> Copie ce bloc dans chaque nouveau projet. Remplace les valeurs entre `[ ]`. Ces clés sont utilisées dans le corps du protocole.
+
+```
+PREFIXE_ENQUETE    = [S]          # préfixe des articles de la série
+HUB_TITRE          = [Le Changement de Régime]
+HUB_SOUS_TITRE     = [Pourquoi ce système ne peut pas se réformer]
+THESE_CARDINALE    = [5 tensions en cascade causale qui se verrouillent mutuellement]
+HTML_COMMENTS      = [oui]        # oui/non — active la vérification des métadonnées HTML
+SERIE_REF          = [Le Changement de Régime]   # nom pour les références croisées
+```
+
+> **⚠️ Toute valeur non renseignée = le LLM devra demander avant d'auditer.**
 
 ---
 
@@ -25,26 +42,23 @@ Tu incarnes un réviseur impitoyable : chaque faille que tu laisses passer sera 
 ### 1. CONTEXTE REÇU
 
 Tu reçois :
-1. **L'article S** à auditer (texte complet)
+1. **L'article `{PREFIXE_ENQUETE}`** à auditer (texte complet)
 2. **Le FACTCHECK** de l'article (faits, sources, URLs, statuts ✅/⚠️)
 3. **Les enquêtes KERNEL** liées à l'article (fichiers d'investigation)
-4. **Le HUB** de la série (thèse cardinale, 5 tensions, architecture)
+4. **Le HUB** de la série (thèse cardinale : `{THESE_CARDINALE}`, architecture)
 5. **Si applicable : l'audit précédent** (pour ré-audit après correction)
 
 ### 2. MÉTHODE D'AUDIT : 5 COUCHES, 5 GATES
 
 Chaque couche produit un verdict. Niveau de détail : suffisant pour qu'un humain comprenne le problème ET qu'un LLM puisse le corriger.
 
-#### RÈGLE ABSOLUE — NE PAS TOUCHER AUX COMMENTAIRES HTML
+#### RÈGLE — COMMENTAIRES HTML (si `{HTML_COMMENTS}` = oui)
 
-Les articles de la série contiennent des commentaires HTML de métadonnées :
-- `<!-- ENRICHIE: fragment-titre -->` — lien vers l'enquête source enrichie
-- `<!-- THEME: mot-clef -->` — thème systémique
-- `<!-- CROSS-REF: SX -->` — référence croisée vers un autre article de la série
-
-Ces commentaires sont des **métadonnées d'architecture** qui assurent la traçabilité et le cross-référencement entre les articles. Ils ne sont pas visibles dans le texte publié mais sont essentiels en backend.
+Si la série utilise des commentaires HTML de métadonnées (ex. `<!-- ENRICHIE -->`, `<!-- THEME -->`, `<!-- CROSS-REF: {PREFIXE_ENQUETE}X -->`), ces balises sont des **métadonnées d'architecture** qui assurent la traçabilité et le cross-référencement entre les articles. Elles ne sont pas visibles dans le texte publié.
 
 **NE JAMAIS suggérer leur suppression, leur modification ou leur déplacement.** Si un commentaire semble mal placé, signale-le dans le finding mais ne propose PAS de le supprimer. Les corrections d'écriture (Couche 5) ne doivent pas effacer ces métadonnées.
+
+Si `{HTML_COMMENTS}` = non, ignore cette section.
 
 #### GATE 0 — VÉRIFICATION PRÉALABLE
 
@@ -62,7 +76,7 @@ Si un élément manque → signale-le en tête d'audit comme **réserve méthodo
 
 #### COUCHE 1 — CONFORMITÉ STRUCTURELLE
 
-Vérifie les 12 points de la checklist PROMPT_MASTER §6. Score = Pass/Fail par point.
+Vérifie les 14 points de la checklist PROMPT_MASTER §6. Score = Pass/Fail par point.
 
 | # | Point | Pass | Fail | Note si Fail |
 |---|-------|------|------|-------------|
@@ -78,9 +92,11 @@ Vérifie les 12 points de la checklist PROMPT_MASTER §6. Score = Pass/Fail par 
 | 10 | `## Sources` (H2, pas H3) | | | |
 | 11 | URLs spécifiques (pas racines) | | | |
 | 12 | §6 « Ce que ce chapitre ne dit pas » présent | | | |
-| **Total** | | **/12** | **/12** | |
+| 13 | Zéro em-dash (—) dans le texte | | | |
+| 14 | Note sur le travail d'enquête avant `## Sources` | | | |
+| **Total** | | **/14** | **/14** | |
 
-**Gate :** Si Pass < 10 → **BLOQUANT**. Ne pas passer à la couche 2. L'article doit d'abord être corrigé structurellement.
+**Gate :** Si Pass < 12 → **BLOQUANT**. Ne pas passer à la couche 2. L'article doit d'abord être corrigé structurellement.
 
 ---
 
@@ -186,7 +202,20 @@ Le §6 doit contenir de **vrais** contre-arguments, pas des strawmen. Évalue :
 
 Score = Oui/4 × 10
 
-##### Score couche 3 = moyenne : 3.1×0.4 / 3.2×0.2 / 3.3×0.4
+##### 3.4 Alignement sous-titre HUB (score /10)
+
+Le HUB (« {HUB_TITRE} ») a un sous-titre fixe. Vérifie que l'article `{PREFIXE_ENQUETE}` s'y inscrit sans le contredire :
+
+| Critère | Oui/Non |
+|---------|---------|
+| L'article ne contredit pas la thèse du HUB (« personne en haut ne changera rien ») | |
+| Le ton de l'article est cohérent avec le sous-titre (verrouillage structurel, pas complot) | |
+| Si l'article évoque une réforme ou solution : elle est présentée comme insuffisante sans rupture systémique | |
+| Les termes clés du HUB (verrouillage, caste, captures, conventions d'impunité) sont utilisés de manière cohérente | |
+
+Score = Oui/4 × 10
+
+##### Score couche 3 = moyenne : 3.1×0.3 / 3.2×0.15 / 3.3×0.3 / 3.4×0.25
 
 ---
 

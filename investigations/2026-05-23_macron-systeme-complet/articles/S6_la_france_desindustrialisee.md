@@ -2,25 +2,23 @@
 
 *🏭 La France était une puissance industrielle. Elle ne l'est plus. 2 millions d'emplois détruits en vingt ans, 81 milliards de déficit commercial, 4 secteurs stratégiques en dépendance critique. Comment le 5e exportateur mondial a-t-il laissé sa base productive se liquéfier ?*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
 ## §0 : Le paradoxe français de l'industrie
 
-La France était une puissance industrielle. Elle était le 5e exportateur mondial en 2000, selon l'OMC. Son tissu productif couvrait l'acier, l'automobile, la chimie, le textile, l'électronique, l'agroalimentaire. Aujourd'hui, l'industrie ne représente plus que **9,7 % du PIB**, selon l'INSEE, la moitié du niveau allemand, loin derrière l'Italie (18 %) et l'Espagne (16 %), selon Eurostat. Le déficit commercial atteint **81 milliards d'euros** en 2024, selon les Douanes françaises. En vingt ans, la France a perdu **2 millions d'emplois industriels**, selon l'INSEE. La part de l'industrie dans la valeur ajoutée totale est passée de **18 % en 1980** à 9,7 % aujourd'hui, selon l'INSEE.
+La France était le 5e exportateur mondial en 2000, selon l'OMC. Aujourd'hui, l'industrie ne représente plus que 9,7 % du PIB, la moitié du niveau allemand, loin derrière l'Italie (18 %) et l'Espagne (16 %). La part de l'industrie dans la valeur ajoutée est passée de 18 % en 1980 à 9,7 %.
 
 > **Comment un pays qui était une puissance industrielle a-t-il pu perdre sa base productive en une génération ?**
 
-Ce déclin n'est pas une fatalité géographique. L'Allemagne, avec moins de ressources naturelles et une démographie plus défavorable, maintient une industrie à 20 % du PIB. La Corée du Sud, Singapour, la Suisse ont construit leur tissu industriel par des politiques volontaristes. La différence n'est pas dans la conjoncture mondiale : elle est dans les choix nationaux.
+Ce déclin n'est pas une fatalité géographique. L'Allemagne maintient une industrie à 20 % du PIB. La Corée du Sud, Singapour, la Suisse ont construit leur tissu industriel par des politiques volontaristes. La différence est dans les choix nationaux.
 
-Le 27 novembre 2025, l'Assemblée nationale a voté la nationalisation d'ArcelorMittal France : 127 voix pour, 41 contre. Vote symbolique : le projet n'a jamais eu de suite. Ce n'est pas un échec du Parlement : c'est le symptôme d'un système où le débat sur la souveraineté industrielle est confisqué par l'exécutif.
+Le 27 novembre 2025, l'Assemblée nationale a voté la nationalisation d'ArcelorMittal France : 127 voix pour, 41 contre. Vote symbolique : le projet n'a jamais eu de suite.
 
 <!-- ENRICHIE: nationalisation-darcelormittal-ce -->
 <!-- THEME: verrouillage-systemique -->
 <!-- CROSS-REF: S15 -->
-
-Cet article est le sixième d'une série de 16. Il montre comment l'extraction massive de la richesse nationale et l'absence de politique industrielle ont méthodiquement liquidé la base productive du pays. La désindustrialisation n'est pas un accident de l'histoire : c'est le résultat d'une abdication politique.
 
 ---
 
@@ -38,7 +36,7 @@ La balance agroalimentaire, longtemps présentée comme un fleuron, s'effondre. 
 
 ### Un déficit structurel, pas cyclique
 
-Le déficit n'est pas conjoncturel : il résulte de 30 ans de choix politiques documentés dans les articles précédents de cette enquête. Le désengagement de l'État, la financiarisation de l'économie, la préférence pour les services et l'absence de politique industrielle forment un cocktail qui a méthodiquement liquidé la base productive. Les plans France Relance (2020, 100 milliards) et France 2030 (54 milliards) n'ont pas inversé la tendance.
+Le déficit n'est pas conjoncturel : il résulte de 30 ans de choix politiques documentés dans les articles précédents de cette enquête. Le désengagement de l'État, la financiarisation de l'économie, la préférence pour les services et l'absence de politique industrielle forment un cocktail qui a progressivement liquidé la base productive. Les plans France Relance (2020, 100 milliards) et France 2030 (54 milliards) n'ont pas inversé la tendance.
 
 ---
 
@@ -62,6 +60,10 @@ La France ne produit aucun composant stratégique. L'Europe entière représente
 
 La souveraineté énergétique, qui était l'atout du nucléaire français, se déplace vers l'étranger. **95 % des panneaux solaires** installés en France sont importés de Chine, selon Bruegel et SolarPower Europe. Les éoliennes dépendent à 70 % de fournisseurs asiatiques. Chaque nouveau parc éolien ou solaire accroît la dépendance technologique au lieu de la réduire.
 
+### Données numériques : hébergées par les GAFAM
+
+Le cloud stratégique français (État, santé, défense) est hébergé à plus de 90 % par Amazon, Microsoft et Google, selon l'ARCEP (rapport 2024). Aucun fournisseur européen ne figure dans le top 5 mondial du cloud. La souveraineté numérique, proclamée par tous les gouvernements depuis dix ans, est une fiction.
+
 ---
 
 ## §3 : La mécanique du déclin, des choix politiques documentés
@@ -74,7 +76,7 @@ Le CAC 40 a versé plus de **70 milliards d'euros de dividendes** en 2024, selon
 
 ### L'absence de conditionnalité des aides publiques
 
-Les aides publiques aux entreprises représentent plus de **150 milliards d'euros par an**, selon France Stratégie et les commissions sénatoriales. CICE, C3, allègements de charges : ces dispositifs sont massifs et inconditionnels. La Cour des comptes a documenté à plusieurs reprises l'absence de contreparties. L'argent public est versé sans exiger de production locale, d'investissement en France, de maintien de l'emploi. Ces aides sont **inconditionnelles**. Résultat : les entreprises prennent l'argent et délocalisent quand même.
+Les aides publiques aux entreprises représentent plus de **150 milliards d'euros par an**, selon France Stratégie et les commissions sénatoriales. CICE (environ 20 Md€/an, transformé en baisse de charges en 2019), C3, allègements de charges : ces dispositifs sont massifs et inconditionnels. La Cour des comptes a documenté à plusieurs reprises l'absence de contreparties. L'argent public est versé sans exiger de production locale, d'investissement en France, de maintien de l'emploi. Ces aides sont **inconditionnelles**. Résultat : les entreprises prennent l'argent et délocalisent quand même.
 
 ### Le libre-échange non régulé
 
@@ -82,15 +84,19 @@ La France a ouvert ses frontières sans construire de protection industrielle. L
 
 ### L'absence de politique industrielle depuis trente ans
 
-La France a renoncé à toute forme de planification industrielle. La Datar a été vidée de ses moyens. Les politiques de filières ont été abandonnées. Les champions nationaux ont été vendus à l'étranger (Alstom, Pechiney, Usinor). L'affaire Alstom est emblématique : vendu à General Electric sous pression du Department of Justice américain : affaire Pierucci, 772 M$ d'amende FCPA : son PDG Patrick Kron est reparti avec 4 à 6,5 M€ de prime et 10,5 M€ de retraite chapeau. Le PNF aurait classé l'enquête en 2024, selon plusieurs sources.
+La France a renoncé à toute forme de planification industrielle. La Datar a été vidée de ses moyens. Les politiques de filières ont été abandonnées. Les champions nationaux ont été vendus à l'étranger (Alstom, Pechiney, Usinor). L'État actionnaire a cédé ses participations sans stratégie industrielle. Le résultat est une **économie sans colonne vertébrale**.
+
+### L'affaire Alstom, symbole de l'abdication
+
+Alstom, fleuron français de l'énergie et du transport, a été vendu à General Electric en 2015 sous pression du Department of Justice américain : affaire Pierucci, 772 M$ d'amende FCPA. Son PDG Patrick Kron est reparti avec 4 à 6,5 M€ de prime et 10,5 M€ de retraite chapeau. Le PNF aurait classé l'enquête en 2024. **Emmanuel Macron était ministre de l'Économie (2014-2016) pendant cette vente. Il n'a pas utilisé son droit d'opposition. Devenu président, il n'a pas davantage inversé la trajectoire de désindustrialisation.**
 
 <!-- ENRICHIE: nationalisation-darcelormittal-ce -->
 <!-- THEME: predation-invisible -->
 <!-- CROSS-REF: S2, S15 -->
 
-L'État actionnaire a cédé ses participations sans stratégie industrielle. Le résultat est une **économie sans colonne vertébrale**.
+### Le sabotage énergétique
 
-Un cinquième mécanisme aggrave les quatre premiers : le sabotage énergétique. Fermeture de Fessenheim (2020, 730 salariés + 300 sous-traitants impactés), arrêt du programme ASTRID (2019, fin de la R&D nucléaire 4e génération), mécanisme ARENH qui a forcé EDF à vendre son électricité à 42 €/MWh : ces choix ont étranglé l'industrie française, dépendante d'une énergie compétitive. Le nucléaire est passé de 68 % à 56 % du mix électrique (RTE). L'industrie allemande, elle, bénéficiait d'un gaz russe bon marché pendant que la France sabotait sa propre filière.
+Un cinquième mécanisme aggrave les quatre premiers : le sabotage énergétique. Fermeture de Fessenheim (2020, 730 salariés + 300 sous-traitants impactés), arrêt du programme ASTRID (2019, fin de la R&D nucléaire 4e génération), mécanisme ARENH qui a forcé EDF à vendre son électricité à 42 €/MWh : ces choix ont étranglé l'industrie française. La France a exporté 92,3 TWh d'électricité en 2024 (RTE), mais ses industries ont payé l'énergie parmi les plus chères d'Europe. Le nucléaire est passé de 68 % à 56 % du mix électrique. L'industrie allemande bénéficiait d'un gaz russe bon marché pendant que la France sabotait sa propre filière. Symbole de ce naufrage : l'EPR de Flamanville, livré en 2024 avec 13 ans de retard pour 19,1 Md€, six fois le budget initial, selon la Cour des comptes. Pendant ce temps, l'éolien perçoit 8 Md€ de subventions publiques par an (CSPE), selon la Cour des comptes.
 
 <!-- ENRICHIE: le-sabotage-energetique-francais -->
 <!-- THEME: predation-invisible -->
@@ -112,32 +118,26 @@ La désindustrialisation n'est pas une fatalité. D'autres pays ont inversé la 
 
 ### Mais ces solutions supposent de rompre avec le système
 
-Ces solutions existent, sont connues, documentées. Elles ne sont pas appliquées parce qu'elles supposent de rompre avec les mécanismes décrits dans les articles précédents de cette enquête : l'extraction massive (évasion fiscale 80 à 100 milliards par an, selon le CCFD et Oxfam ; niches fiscales 90 à 100 milliards, selon la Cour des comptes : ces deux catégories ne sont pas purement additives mais leur ordre de grandeur combiné dépasse le déficit), le verrouillage des institutions (médias, justice, Parlement), la priorité donnée aux intérêts privés sur l'intérêt général.
+Ces solutions existent, sont connues, documentées. Elles ne sont pas appliquées parce qu'elles supposent de rompre avec les mécanismes décrits dans les articles précédents de cette enquête : l'extraction massive (200 milliards d'euros par an, évasion, niches, fraude sociale, gaspillage, voir S2), le verrouillage des institutions (médias, justice, Parlement), la priorité donnée aux intérêts privés sur l'intérêt général.
 
 **Conditionner les aides aux entreprises** supposerait d'affronter le CAC 40 et ses actionnaires. Planifier la réindustrialisation supposerait de rompre avec les traités européens qui interdisent les politiques industrielles protectionnistes. Protéger aux frontières supposerait de s'opposer aux accords de libre-échange que la caste a signés.
 
-La désindustrialisation n'est pas un échec de la politique économique. C'est une **conséquence normale d'un système de prédation** qui privilégie la rente immédiate sur l'investissement productif. Elle ne sera pas résolue par des réformes à la marge parce que les solutions exigent une rupture que le système ne peut pas produire de l'intérieur.
+La désindustrialisation n'est pas un échec de la politique économique. C'est une **conséquence normale d'un système de prédation** qui privilégie la rente immédiate sur l'investissement productif. Elle ne sera pas résolue par des réformes à la marge parce que les solutions exigent une rupture que le système ne peut pas produire de l'intérieur. Le prochain article montrera comment la même logique d'abdication s'applique au cadre européen : la France a délégué sa souveraineté sans obtenir d'influence en retour.
 
 ---
 
-## §5 : De l'industrie à l'Europe, le même abandon
 
-Les sections précédentes ont montré comment la France a méthodiquement liquidé sa base productive. Le résultat est un pays qui importe ce qu'il devrait produire, dépend de l'étranger pour tout ce qui compte, et n'a plus les moyens de sa **souveraineté industrielle**.
-
-Mais la désindustrialisation n'est qu'une facette de **l'abdication des élites**. L'usine a été abandonnée par les mêmes décideurs qui ont choisi la rente contre la production, le court terme contre l'avenir. La même logique s'applique au cadre européen : la France a délégué sa souveraineté sans obtenir d'influence en retour. Le prochain article montrera comment l'Europe, conçue comme un amplificateur de puissance, est devenue un carcan qui verrouille les marges de manœuvre françaises. Mêmes causes, mêmes mécanismes, mêmes **conséquences**.
 
 
 ## §6 : Ce que ce chapitre ne dit pas
 
-Le récit d'une France désindustrialisée par les seuls choix politiques mérite d'être nuancé. **Primo**, la désindustrialisation est un phénomène mondial : entre 2000 et 2020, la part de l'industrie dans le PIB a baissé dans tous les pays développés, des États-Unis (15 % à 11 %) au Royaume-Uni (14 % à 10 %), selon la Banque mondiale. La France n'est pas une exception. **Secundo**, l'article ne mentionne pas les succès industriels français : Airbus, Safran, Thales, Naval Group, EDF, Alstom ferroviaire, LVMH. La France reste leader mondial dans l'aéronautique, le nucléaire, le luxe et les cosmétiques. **Tertio**, les plans France Relance (100 milliards) et France 2030 (54 milliards) ont financé des projets réels : usine de batteries à Douvrin (ACC), gigafactory de semi-conducteurs à Crolles, investissements dans l'hydrogène vert. Leurs effets, insuffisants, sont absents de l'analyse.
-
-➡️ **À lire ensuite :** L'Europe : cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€
+Le récit d'une France désindustrialisée par les seuls choix politiques mérite d'être nuancé. **Primo**, la désindustrialisation est un phénomène mondial : entre 2000 et 2020, la part de l'industrie dans le PIB a baissé dans tous les pays développés, des États-Unis (15 % à 11 %) au Royaume-Uni (14 % à 10 %), selon la Banque mondiale. La France n'est pas une exception. **Secundo**, l'article ne mentionne pas les succès industriels français : Airbus, Safran, Thales, Naval Group, EDF, Alstom ferroviaire, LVMH. La France reste leader mondial dans l'aéronautique, le nucléaire, le luxe et les cosmétiques, et elle est le 3e exportateur mondial d'armement, selon le SIPRI (2024). **Tertio**, les plans France Relance (100 milliards) et France 2030 (54 milliards) ont financé des projets réels : usine de batteries à Douvrin (ACC), gigafactory de semi-conducteurs à Crolles, investissements dans l'hydrogène vert. Leurs effets, insuffisants, sont absents de l'analyse.
 
 ---
 
 *📖 **Article suivant :** 🇪🇺 L'Europe : cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€ [LIEN_A_INSERER]*
 *📖 **Article précédent :** 📦 Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
