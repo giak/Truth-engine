@@ -2,23 +2,27 @@
 
 *🔄 Le constat que personne en haut ne changera rien. La démonstration que le verrouillage est structurel. Et ce que ça implique pour le reste.*
 
-*📖 Cet article principal articule 16 articles sur l'enquête **Le Changement de Régime**.*
+*📖 Cet article est le centre de navigation de l'enquête **Le Changement de Régime** — 16 articles, 40 enquêtes pré-publiées, 746 faits vérifiés. Chaque § renvoie vers l'article qui approfondit. Cliquez sur ce qui vous concerne.*
 
 ---
 
-## §0 : La question qu'on ne pose jamais
+## §0 : Le tableau de bord
 
-La France cumule des crises systémiques simultanées : dette à 115,6 % du PIB, services publics démantelés, pauvreté à 15,4 %, abstention à 57 %, hôpital qui craque, école qui chute, agriculture qui saigne, défense qui recule, médias verrouillés, climat ignoré. Chaque article de cette série a documenté une facette de l'effondrement. Chacun a nommé ses responsables et ses mécanismes.
+> **+200 Md€ par an** disparaissent des caisses publiques — évasion, niches, gaspillage.
+> **20 familles** en captent la moitié — 704 Md€ de fortune cumulée.
+> **9 milliardaires** contrôlent 90 % de l'audience médiatique nationale.
+> **8 millions de Français** sont sans médecin traitant.
+> **57 % des électeurs** ne votent plus — l'abstention comme veto silencieux.
+> **100 000 fermes** ont disparu en dix ans — un suicide d'agriculteur tous les deux jours.
+> **70 % des données françaises** sont stockées sur des serveurs américains.
 
-> **Le système français peut-il se réformer de l'intérieur ?**
-
-La réponse est non. Non par pessimisme, non par idéologie, mais par construction logique : les 5 tensions structurelles identifiées dans cette enquête forment un système de verrouillage par contraintes croisées. Chaque réforme d'une tension est neutralisée par les quatre autres, non par malveillance mais parce que les mécanismes de correction supposeraient des contre-pouvoirs qui ont été neutralisés. Ce verrouillage n'est pas éternel : des chocs exogènes (crise de la dette, crise politique, pression sociale) pourraient le briser. Mais il n'existe aujourd'hui aucun mécanisme endogène de sortie. C'est une construction, pas une fatalité : elle peut se défaire par le même chemin qu'elle s'est faite : la lucidité collective.
+Ce n'est pas une liste de problèmes séparés. C'est **un seul système** : 5 tensions verrouillées qui se renforcent mutuellement. La suite de ce HUB montre la mécanique, article par article.
 
 ---
 
 ## §1 : Les 5 parois du piège
 
-Les 5 tensions ne sont pas des problèmes parallèles. Elles sont liées en cascade causale : l'extraction nourrit la capture, la capture permet le démantèlement, le démantèlement affaiblit le pays et force l'abdication, l'abdication empêche toute résilience : les crises non gérées creusent la dette qui justifie plus d'extraction.
+Les 5 tensions ne sont pas des problèmes parallèles. Elles sont liées en cascade causale : l'extraction nourrit la capture, la capture permet le démantèlement, le démantèlement affaiblit le pays et force l'abdication, l'abdication empêche toute résilience — et les crises non gérées creusent la dette qui justifie plus d'extraction.
 
 ```mermaid
 flowchart TD
@@ -27,13 +31,11 @@ flowchart TD
     T3["💀 Démantèlement<br/>8 millions de patients<br/>sans médecin traitant"]:::t3
     T4["⚔️ Abdication<br/>Veto ignoré à Bruxelles<br/>contrat sous-marin perdu"]:::t4
     T5["🌍 Externalisation<br/>40 000 morts par an<br/>par pollution en France"]:::t5
-
     T1 -->|"achète médias et pouvoir"| T2
     T2 -->|"personne ne défend<br/>le service public"| T3
     T3 -->|"le pays affaibli<br/>ne peut dire non"| T4
     T4 -->|"les crises non gérées<br/>s'accumulent"| T5
     T5 -.->|"la dette justifie<br/>plus d'extraction"| T1
-
     classDef t1 fill:#ff6b35,color:#fff,stroke:none,rx:8px
     classDef t2 fill:#2563eb,color:#fff,stroke:none,rx:8px
     classDef t3 fill:#dc2626,color:#fff,stroke:none,rx:8px
@@ -41,73 +43,47 @@ flowchart TD
     classDef t5 fill:#059669,color:#fff,stroke:none,rx:8px
 ```
 
-### Tension 1 : Extraction : ~200 milliards de recettes publiques non perçues chaque année
+### Tension 1 : Extraction — ~200 milliards de recettes publiques non perçues chaque année
 
-**~200 milliards d'euros par an. L'équivalent de 1,3 fois le déficit public annuel, soit le budget de l'Éducation, de la Défense et de la Justice réunis, et plus encore.**
+**~200 milliards d'euros par an. L'équivalent de 1,3 fois le déficit public annuel.**
 
-Cette somme se décompose en quatre flux distincts, de natures juridiques différentes, dont le point commun est de vider les caisses de l'État :
+Cette somme se décompose en quatre flux distincts : évasion fiscale 80-100 Md€/an (CCFD, Oxfam), niches fiscales 90-100 Md€/an (Cour des comptes), baisses d'impôts structurelles depuis 2017 40-50 Md€/an (Haut Conseil des Finances Publiques), et gaspillage public 24-48 Md€/an (comités Théodule, mille-feuille territorial, subventions sans contrôle, doublons institutionnels). Ces quatre flux convergent : **l'État perd chaque année davantage que son déficit, parce qu'il a renoncé à capter sa propre richesse.**
 
-**Évasion fiscale** (fraude illégale + optimisation agressive) : **80 à 100 Md€/an** (CCFD, Oxfam). L'argent passe par les paradis fiscaux, les prix de transfert, les montages offshore. Le fisc en récupère 12 % selon l'IGF. Le PNF a traité 203,9 millions en 2024 : 0,2 % de ce flux.
+*→ L'article **S2 : L'Argent qui disparaît** documente les 80-100 Md€ d'évasion et les 30-45 Md€ de gaspillage institutionnel.*
+*→ **S3 : La Dette instrumentalisée** montre que la dette n'est pas la cause du problème mais l'enregistrement comptable de ce transfert.*
 
-**Niches fiscales** : **90 à 100 Md€/an** (Cour des comptes). 470 mesures dérogatoires votées par le Parlement, dont une partie n'a jamais été évaluée pour son efficacité économique ou sociale. Certaines sont défendables, d'autres sont des rentes héritées du lobbying.
+### Tension 2 : Capture — cet argent achète le silence
 
-**Baisses d'impôts structurelles** depuis 2017 (suppression de l'ISF, flat tax à 30 %, baisse de l'IS de 33 % à 25 %) : **40 à 50 Md€/an** de recettes non perçues (Haut Conseil des Finances Publiques).
+9 propriétaires privés contrôlent 90 % de l'audience médiatique nationale (Arcom, baromètre du pluralisme 2024). Bolloré possède Canal+, CNews, C8, Europe 1, le JDD, Paris Match. Niel contrôle Le Monde. Drahi possédait BFM TV. Arnault possède Les Échos. Au Parlement : 28 recours au 49.3 en 3 ans, 120 ordonnances, 90 % des lois adoptées sans vote. À la justice : 0,20 % du PIB contre 0,30 % de moyenne européenne.
 
-**Gaspillage public** : **24 à 48 Md€/an**. Ce flux total se décompose en deux sous-ensembles de nature différente :
+*→ **S15 : Le Verrou** détaille les 28×49.3, les 120 ordonnances, les 40 conventions d'impunité et la mainmise médiatique.*
+*→ **S1 : La Caste Parasite** identifie les 20 familles et le système de reproduction des élites.*
 
-- **Gaspillage « actif » (4 à 8 Md€/an)** : projets informatiques inaboutis (Scribe : 257 M€), erreurs de versement CAF (6,3 Md€), dépenses de conseil externalisé (2,5 Md€ en 2021), fonds Marianne (2,5 M€). La partie émergée d'un ICEBERG.
+### Tension 3 : Démantèlement — personne ne peut défendre le service public
 
-- **Gaspillage institutionnel (20 à 40 Md€/an)** : 434 opérateurs d'État (64 Md€, 14,5 Md€ économisables), 35 000 communes qui doublonnent avec les intercommunalités (7,5 Md€, rapport Ravignon), 53 Md€ de subventions associatives sans contrôle (3 à 10 Md€ récupérables), 101 préfectures en concurrence avec 101 départements (4,96 Md€ AGTE, 1,5 à 2,5 Md€ économisables), et ~1 Md€ pour trois assemblées (Sénat 358 M€, AN 600 M€, CESE 45 M€) à l'efficacité déclinante.
+**Santé :** 8 millions de Français sans médecin traitant (CNAM, 2025). **École :** −43 points en mathématiques PISA, la plus forte baisse de l'OCDE. **Logement :** 4,2 millions de mal-logés, 735 morts à la rue en 2023. Ce n'est pas un échec de politique : c'est la conséquence d'un système qui transfère les ressources du public vers le privé depuis 40 ans.
 
-Ces quatre flux ne sont pas purement additifs : une partie de l'optimisation classée dans l'évasion recoupe ce que la Cour des comptes appelle niches. Mais leur ordre de grandeur agrégé est sans ambiguïté : **l'État perd chaque année davantage que son déficit, parce qu'il a renoncé à capter sa propre richesse.**
+*→ **S4 : Le Système de Santé démantelé** (8M sans médecin, 100 000 lits supprimés).*
+*→ **S5 : Les Visages de la Pauvreté** (9,8M de Français, 15,4 %, travailleurs pauvres).*
+*→ **S7 : L'École et l'Éducation sacrifiées** (−43 points PISA, 4 000 postes non pourvus).*
+*→ **S9 : Le Logement, la machine à créer de la rareté** (4,2M mal-logés, −40 % construction).*
 
-### Tension 2 : Capture : cet argent achète le silence
+### Tension 4 : Abdication — le pays affaibli ne peut dire non
 
-**~200 milliards ne disparaissent pas sans laisser de trace. Ils achètent des médias, des fauteuils et des juges.**
+**Diplomatie :** la France vote contre l'UE-Mercosur. L'accord est signé quand même. **Défense :** l'Australie annule le contrat des sous-marins (56 Md€). Les stocks de munitions tiendraient quelques semaines. **Industrie :** déficit commercial de 81 Md€. La France conserve les attributs de la puissance (dissuasion nucléaire, ONU, 3e exportateur d'armement). Elle a perdu la capacité de les convertir en influence.
 
-9 propriétaires privés contrôlent 90 % de l'audience médiatique nationale (Arcom, baromètre du pluralisme 2024). Bolloré possède Canal+, CNews, C8, Europe 1, le JDD, Paris Match : plus de 200 journalistes ont quitté ses rédactions. Niel contrôle Le Monde. Drahi possédait BFM TV. Arnault possède Les Échos. **Les ultra-riches qui bénéficient de l'impunité fiscale possèdent les médias qui forment l'opinion.**
+*→ **S14 : La Défense en berne** (AUKUS, stocks de munitions, perte d'autonomie stratégique).*
+*→ **S13 : L'Europe, cadre ou carcan** (veto contourné, traités qui verrouillent la souveraineté).*
+*→ **S6 : La France désindustrialisée** (81 Md€ de déficit commercial).*
 
-Au Parlement : 28 recours au 49.3 en 7 ans, 120 ordonnances, 90 % des lois adoptées sans vote (CEVIPOF). À la justice : 0,20 % du PIB contre 0,30 % de moyenne européenne (CEPEJ), 11,2 magistrats pour 100 000 habitants contre 21 en moyenne. Et 40 conventions d'impunité qui permettent aux entreprises de s'acheter l'impunité.
+### Tension 5 : Externalisation — les crises non gérées deviennent la dette de demain
 
-**100 euros de RSA fraudé : poursuivis. 100 millions d'évasion fiscale : une convention d'impunité.**
+**Climat :** 11 Md€ par an de subventions aux énergies fossiles. **Pollution :** 40 000 décès prématurés par an. **Agriculture :** premier suicide d'agriculteur tous les deux jours, 100 000 fermes disparues. **Numérique :** 70 % des données françaises sur serveurs américains, l'Éducation nationale confie 12 millions d'élèves à Microsoft pour 152 M€. Ces crises ne sont pas séparables. La boucle se referme sur T1 : les crises non gérées creusent la dette, la dette justifie plus d'extraction.
 
-### Tension 3 : Démantèlement : personne ne peut défendre le service public
-
-**Les caisses sont vides (T1). Personne ne peut protester (T2). Les services publics crèvent, méthodiquement.**
-
-**Santé :** 8 millions de Français sans médecin traitant (CNAM, 2025). 55 % de la population en zone sous-dotée. 100 000 lits d'hospitalisation supprimés en 20 ans.
-
-**École :** −43 points en mathématiques PISA, la plus forte baisse de l'OCDE. La France est 23e sur 81 pays. 25 % des élèves n'atteignent pas le niveau attendu en lecture à l'entrée en sixième.
-
-**Logement :** 4,2 millions de mal-logés, 330 000 sans-domicile (Fondation Abbé Pierre). Le 115 a refusé 61 % des demandes d'hébergement. 735 morts à la rue en 2023.
-
-**Ce n'est pas un échec de politique : les gouvernements passent, la mécanique reste. Le démantèlement est la conséquence d'un système qui transfère les ressources du public vers le privé depuis 40 ans.**
-
-### Tension 4 : Abdication : le pays affaibli ne peut dire non
-
-**Un pays dont les caisses sont vides et les institutions verrouillées ne peut résister aux pressions extérieures.**
-
-**Diplomatie :** la France vote contre l'UE-Mercosur. L'accord est signé quand même : le Coreper contourne son veto par majorité qualifiée. La PAC verse 55 Md€ par an, dont 50,5 dans des comptes opaques que 6 anciens ministres lobbyistes font tourner à Bruxelles.
-
-**Défense :** l'Australie annule le contrat du siècle : 56 Md€, 12 sous-marins : pour rejoindre l'alliance anglo-saxonne sans prévenir Paris. Les stocks de munitions tiendraient quelques semaines (AN n°1890, sept. 2025). La guerre Iran-États-Unis de 2026 l'a confirmé : les missiles MICA des Rafale aux EAU épuisés en semaines (La Tribune).
-
-**Industrie :** déficit commercial de 81 Md€. La France retire 5 500 soldats du Sahel sans résultat. 11e rang militaire mondial (Global Firepower 2024).
-
-**La France conserve les attributs de la puissance : dissuasion nucléaire, siège à l'ONU, 3e exportateur d'armement. Elle a perdu la capacité de les convertir en influence.**
-
-### Tension 5 : Externalisation : les crises non gérées deviennent la dette de demain
-
-**L'impuissance stratégique (T4) rend toute résilience impossible. Les crises qu'on ne règle pas aujourd'hui s'accumulent en dette pour demain.**
-
-**Climat :** 11 Md€ par an de subventions aux énergies fossiles. Les émissions de GES baissent de 1,5 % par an : au rythme actuel, la France mettrait 70 ans pour atteindre ses objectifs climatiques.
-
-**Pollution :** 40 000 décès prématurés par an en France (Santé Publique France), 9 millions dans le monde (Lancet Commission). Un décès sur six. Quinze fois plus que toutes les guerres réunies. Aucun traité, aucun fonds.
-
-**Agriculture :** première puissance agricole d'Europe, mais un suicide d'agriculteur tous les deux jours. 100 000 fermes disparues en dix ans (Agreste). Des sécheresses qui coûtent des milliards.
-
-**Numérique :** 70 % des données françaises sur serveurs américains (CNIL). Les GAFAM réalisent 20 à 30 Md€ de CA en France en payant 5 à 10 % d'impôt. L'Éducation nationale a confié 12 millions d'élèves à Microsoft pour 152 M€ : sous droit américain, sans mandat français. Deux projets de cloud souverain (Cloudwatt, Numergy) ont échoué faute de marché public captif, et en 2026, 52 millions de Français ont fui dans le mégaleak IDMerit — des données que la France ne maîtrise même pas.
-
-**Ces crises ne sont pas séparables. Elles sont le refus d'investir dans l'avenir : l'argent qui aurait dû servir a été transféré ailleurs, depuis le début. La boucle se referme sur T1 : les crises non gérées creusent la dette, la dette justifie plus d'extraction, l'extraction alimente la capture.**
+*→ **S10 : L'Énergie sacrifiée** (arnaque climatique, ZFE punitive).*
+*→ **S11 : L'Agriculture qui meurt** (100 000 fermes disparues, PAC captée).*
+*→ **S8 : L'Immigration sans cap** (140 000 OQTF, < 10 % exécutées).*
+*→ **S16 : Le Numérique colonisé** (Cloudwatt, IDMerit, Viginum, contrat Microsoft).*
 
 ---
 
@@ -143,97 +119,152 @@ Elle a voté contre l'UE-Mercosur : l'accord a été signé quand même, le Core
 
 Trois réformes, trois murs. Mais la cage est la même : le système est conçu pour que chaque issue de secours soit verrouillée par une autre pièce du système.
 
-## §3 : La révélation : un choix politique, pas une fatalité
+**Chaque mécanisme du piège a été construit par une décision politique spécifique. Aucune n'était obligatoire.** Supprimer l'ISF (2018), instaurer la flat tax à 30 %, utiliser le 49.3 28 fois, permettre 40 conventions d'impunité, laisser 9 propriétaires contrôler 90 % des médias — rien n'y obligeait. Chaque décision a été votée, signée, appliquée parce qu'elle servait les intérêts de ceux qui décident.
 
-**Chaque mécanisme du piège a été construit par une décision politique spécifique. Aucune n'était obligatoire.**
-
-**Supprimer l'ISF (2018)** : 3 à 5 milliards par an transférés des caisses de l'État vers les 0,1 %. Rien n'y obligeait.
-
-**Instaurer la flat tax à 30 % (2018)** : le capital paie désormais moins que le travail pour les hauts revenus. Rien n'y obligeait.
-
-**Utiliser le 49.3 28 fois en 7 ans** : 90 % des lois adoptées sans vote parlementaire. Rien n'y obligeait.
-
-**Permettre aux entreprises de s'acheter l'impunité** : 40 conventions signées depuis 2017, zéro procès, zéro condamnation. Rien n'y obligeait.
-
-**Laisser 9 propriétaires contrôler 90 % des médias** : le débat public confisqué par une poignée de milliardaires. Rien n'y obligeait.
-
-Ces décisions ne sont pas des accidents. Elles ne sont pas le produit de circonstances imprévues. Chacune a été votée, signée, appliquée parce qu'elle servait les intérêts de ceux qui décident.
-
-**Ce qui est construit par des choix peut être défait par d'autres choix. C'est en cela que le système n'est pas une fatalité. C'est en cela qu'il est un choix politique.**
+**Ce qui est construit par des choix peut être défait par d'autres choix. C'est en cela que le système n'est pas une fatalité.**
 
 ---
 
-## §4 : Les leviers qui existent
+◈ ◈ ◈
 
-Les solutions ne sont pas à inventer. Elles existent, documentées par la Cour des comptes, le Conseil d'État, des commissions parlementaires. Elles sont appliquées ailleurs en Europe. Ce qui manque n'est pas la connaissance : c'est la volonté politique.
+⋮
 
-### Rétablir l'impôt sur la fortune
+◈ ◈ ◈
 
-**Le levier** : rétablir l'ISF sur le capital mobilier (supprimé en 2018) et supprimer la flat tax à 30 % sur les revenus du capital.
-
-**L'impact** : 3 à 5 milliards d'euros supplémentaires par an pour l'ISF, 2 à 3 milliards pour la flat tax. Au total, 5 à 8 milliards qui retournent dans les caisses de l'État.
-
-**Le précédent** : la Norvège et la Suisse appliquent un impôt sur la fortune avec un recouvrement efficace. L'Espagne a rétabli le sien en 2022.
-
-**Techniquement possible. Politiquement refusé.**
-
-### Imposer les ultra-riches à leur taux réel
-
-**Le levier** : instaurer un taux minimum d'imposition de 30 % sur l'ensemble des revenus des plus hauts contribuables, y compris dividendes et plus-values (aujourd'hui taxés à 30 % via le prélèvement forfaitaire unique).
-
-**L'impact** : 15 à 25 milliards d'euros supplémentaires par an, selon l'Institut des Politiques Publiques et Oxfam.
-
-**Le précédent** : l'OCDE prépare un impôt minimum mondial pour les ultra-riches (proposition 2025). Les États-Unis appliquent déjà un taux minimum de 15 % aux grandes entreprises.
-
-**Techniquement possible. Politiquement refusé.**
-
-### Limiter la concentration des médias
-
-**Le levier** : une loi anti-concentration fixant un plafond d'audience maximale par propriétaire, avec un contrôle indépendant par l'Arcom renforcée.
-
-**L'impact** : 9 propriétaires ne contrôleraient plus 90 % de l'audience. Le pluralisme réel de l'information garanti par la loi, pas par le bon vouloir des milliardaires.
-
-**Le précédent** : l'Allemagne limite la part d'audience télévisuelle à 25 % par groupe. Les Pays-Bas interdisent la propriété croisée entre presse écrite et télévision.
-
-**Techniquement possible. Politiquement refusé.**
-
-### Donner les moyens à la justice
-
-**Le levier** : augmenter le budget de la justice de 0,20 % à 0,31 % du PIB (moyenne de l'Union européenne), et supprimer les conventions qui permettent aux entreprises de s'acheter l'impunité pour fraude fiscale.
-
-**L'impact** : +55 % du budget de la justice, soit environ 3 milliards d'euros supplémentaires par an. Des moyens pour juger les fraudes au lieu de les solder par des amendes.
-
-**Le précédent** : l'Allemagne consacre 0,45 % de son PIB à la justice et son taux de condamnation pour fraude fiscale y est quatre fois plus élevé.
-
-**Techniquement possible. Politiquement refusé.**
-
-Ces quatre leviers ne sont pas des solutions miracles. Ce sont des directions documentées, chiffrées, testées ailleurs. Leur point commun : ils menacent ceux qui bénéficient du statu quo. C'est pourquoi ils ne sont pas appliqués.
-
-Mais le fait qu'ils soient bloqués aujourd'hui ne signifie pas qu'ils le seront toujours. Les systèmes changent quand les rapports de force changent. Et les rapports de force changent quand l'information circule.
+*Vous venez de lire la thèse de l'enquête — le diagnostic en 5 tensions. Les pages qui suivent sont conçues pour naviguer : chaque article de la série est présenté avec sa question, son fait-clé et son lien. Vous pouvez piocher ce qui vous concerne.*
 
 ---
 
-## §5 : La résilience comme seul chemin
+## §3 : Les 16 articles — naviguer dans l'enquête
 
-Si le système ne peut pas se réformer de l'intérieur dans les conditions actuelles, que reste-t-il ?
+### ACTE 1 : LE DOSSIER D'ACCUSATION (le crime et les criminels)
 
-La réponse n'est pas une solution politique : ce serait une contradiction avec le verdict de cette enquête. La réponse est un constat : les alternatives existent déjà, concrètes, testées, documentées. Mais elles sont locales, fragmentées, invisibles dans le débat national verrouillé.
+**S1 — La Caste Parasite**
+*Qui gouverne la France et pour qui ?*
+20 familles contrôlent 704 Md€ de fortune cumulée. 7 ministres sur 12 sont issus de l'ENA. Pantouflage, impunité 18,5×, réseau Epstein. [LIEN]
 
-**2000 AMAP et 3000 fermes du réseau DEPHY** prouvent qu'on peut réduire les pesticides de 50 % sans perte de rendement. Les circuits courts représentent 12 % des achats alimentaires des Français et créent trois fois plus d'emplois que la grande distribution. L'agroécologie n'attend pas la PAC.
+**S2 — L'Argent qui disparaît**
+*Combien la caste extrait-elle chaque année ?*
+80-100 Md€ d'évasion fiscale, 30-45 Md€ de gaspillage public (comités Théodule, mille-feuille, subventions sans contrôle, Sénat, Assemblée). [LIEN]
 
-**Nextcloud, Matrix, Mastodon, Framasoft** : des alternatives libres aux GAFAM, utilisées par des milliers d'organisations. La Gendarmerie nationale a migré 72 000 postes vers Ubuntu. OVHcloud, Scaleway et Outscale montrent qu'un cloud européen existe.
+**S3 — La Dette instrumentalisée**
+*La dette est-elle la cause ou la trace ?*
+115,6 % du PIB, 54 Md€/an d'intérêts = 2e budget de l'État. Notation maintenue artificiellement. BCE détient ~25 % de la dette. [LIEN]
 
-**L'Eusko au Pays basque** (4 000 usagers, 1 000 entreprises), la Gonette à Lyon, le Sol-Violette à Toulouse : des monnaies locales qui créent des circuits économiques hors du verrouillage financier. Enercoop et les centrales villageoises produisent une électricité qui n'appartient pas aux oligopoles.
+**S15 — Le Verrou**
+*Comment les institutions sont-elles neutralisées ?*
+28×49.3, 120 ordonnances, 90 % des lois sans vote. 9 propriétaires = 90 % des médias. Justice sous-financée, impunité structurelle. [LIEN]
 
-**Mediapart, Forbidden Stories, Arrêt sur images** enquêtent et décryptent là où les 9 propriétaires verrouillent. Leurs statuts (fonds de dotation, coopérative, abonnement sans pub) les rendent structurellement inachetables. Les budgets participatifs de Paris, Grenoble et Rennes impliquent des centaines de milliers de citoyens dans la décision publique.
+### ACTE 2 : LES SCÈNES DE CRIME (le coût humain)
 
-**Les chaînes YouTube, podcasts et newsletters indépendants** captent chaque année des parts d'audience que les géants historiques ne regagneront pas. Une génération s'informe sur Telegram, Substack et Twitch, en ayant déjà contourné les 9 propriétaires sans leur demander la permission. Le verrouillage médiatique tient encore sur les institutions, pas sur les usages.
+**S4 — Le Système de Santé démantelé**
+*Quel est le coût humain sur la santé ?*
+8M de Français sans médecin traitant. 100 000 lits supprimés. Déserts médicaux dans 80 départements. [LIEN]
 
-**À Vienne, 60 % du parc locatif est social ou subventionné** sans ghettoïsation. **Singapour a bâti 80 % de propriétaires** via un fonds d'épargne-logement obligatoire. **La Finlande obtient de meilleurs résultats PISA** avec un budget comparable en investissant dans la formation des enseignants et l'autonomie des établissements. Ces modèles existent, ils ne sont pas théoriques.
+**S5 — Les Visages de la Pauvreté**
+*Qui sont les 9,8 millions de victimes silencieuses ?*
+15,4 % de pauvreté. 21 % des enfants sous le seuil. 2 millions de travailleurs pauvres. [LIEN]
 
-Le changement ne viendra pas d'en haut. Il viendra du constat que d'en haut, personne ne changera. Cette enquête n'appelle pas à une solution particulière : elle établit un diagnostic. Le système ne peut pas se guérir lui-même quand les verrous institutionnels, médiatiques et fiscaux sont actionnés par ceux qui bénéficient du statu quo.
+**S7 — L'École et l'Éducation sacrifiées**
+*Quel avenir prépare-t-on aux enfants du pays ?*
+−43 points PISA (plus forte baisse de l'OCDE). 4 000 postes CAPES non pourvus. [LIEN]
 
-Le reste appartient à ceux qui lisent, comprennent et décident.
+**S9 — Le Logement, la machine à créer de la rareté**
+*Comment la rente foncière devient-elle le premier impôt invisible ?*
+4,2M mal-logés. 735 morts à la rue. −40 % de construction en 7 ans. [LIEN]
+
+### ACTE 3 : L'ÉCHELLE DU CRIME (le système qui dépasse)
+
+**S10 — L'Énergie sacrifiée**
+*Pourquoi la transition énergétique française est-elle une arnaque ?*
+11 Md€/an de subventions fossiles. EPR 13 ans de retard. ZFE : 12M véhicules bannis, 60 Md€ de décote forcée. [LIEN]
+
+**S11 — L'Agriculture qui meurt**
+*Pourquoi le modèle agricole tue-t-il les paysans ?*
+100 000 fermes disparues en 10 ans. 1 suicide tous les 2 jours. 80 % des aides PAC aux 20 % plus grosses fermes. [LIEN]
+
+**S6 — La France désindustrialisée**
+*Comment liquide-t-on la base productive d'un pays ?*
+81 Md€ de déficit commercial. Délocalisations, libre-échange non régulé, dépendances critiques. [LIEN]
+
+**S13 — L'Europe, cadre ou carcan**
+*L'UE est-elle un cadre protecteur ou un carcan qui verrouille la souveraineté ?*
+Veto français contourné sur Mercosur. TSCG, Pacte Stabilité. Souveraineté budgétaire déléguée. [LIEN]
+
+**S14 — La Défense en berne**
+*Pourquoi la France a-t-elle abandonné sa souveraineté stratégique ?*
+AUKUS : contrat sous-marins perdu. Stocks de munitions pour quelques semaines. 11e puissance militaire mondiale. [LIEN]
+
+**S8 — L'Immigration sans cap**
+*Pourquoi l'État n'a-t-il aucune politique d'immigration ?*
+140 000 OQTF par an, < 10 % exécutées. Aucune politique d'intégration. [LIEN]
+
+**S16 — Le Numérique colonisé**
+*La France a-t-elle encore la maîtrise de ses données ?*
+70 % des données sur serveurs américains. 12M d'élèves confiés à Microsoft. Cloudwatt/Numergy : échecs. 52M de Français fuient dans IDMerit. [LIEN]
+
+### ACTE 4 : LE VERDICT
+
+**HUB — Le Changement de Régime (ce document)**
+*Pourquoi ce système ne peut pas se réformer de l'intérieur ?*
+Synthèse des 5 tensions, navigation vers tous les articles, carte des 40 enquêtes pré-publiées. [LIEN]
+
+---
+
+## §4 : Ce qui a déjà été publié — 40 enquêtes antérieures
+
+Les 16 articles de cette série ne tombent pas du vide. Ils s'appuient sur des mois d'enquêtes publiées sur Substack depuis novembre 2025. Voici les plus importantes, classées par thème. Chaque titre est un lien vers l'article complet.
+
+**L'architecture du verrouillage**
+
+[« La démocratie en cage »](https://giak.substack.com/p/la-democratie-en-cage) — [« La Machine à silence »](https://giak.substack.com/p/la-machine-a-silence) — [« L'Ingénierie de l'enclos »](https://giak.substack.com/p/lingenierie-de-lenclos) — [« Audiovisuel public : anatomie d'une asphyxie »](https://giak.substack.com/p/audiovisuel-public-anatomie-dune) — [« Opposition contrôlée : anatomie d'un simulacre »](https://giak.substack.com/p/opposition-controlee-anatomie-dun) — [« Le paradoxe français : 66 % de colère, 0 issue »](https://giak.substack.com/p/le-paradoxe-francais-66-de-colere)
+
+**Les mécanismes d'extraction**
+
+[« Comment la richesse verrouille le système »](https://giak.substack.com/p/comment-la-richesse-verrouille-le) — [« Budget 2026 : l'architecture du mensonge »](https://giak.substack.com/p/budget-2026-larchitecture-du-mensonge) — [« Ce que l'État vous cache sur la DNC »](https://giak.substack.com/p/ce-que-letat-vous-cache-sur-la-dnc) — [« Emprunt forcé des riches : le spectacle »](https://giak.substack.com/p/emprunt-force-des-riches-le-spectacle)
+
+**Les scènes de crime**
+
+[« France 2025 : l'anatomie d'une féodalité »](https://giak.substack.com/p/france-2025-lanatomie-dune-feodalite) — [« L'Empire des miettes »](https://giak.substack.com/p/lempire-des-miettes) — [« Le Grand manège de la dépossession »](https://giak.substack.com/p/le-grand-manege-de-la-depossession) — [« Le Vampire de la croissance »](https://giak.substack.com/p/le-vampire-de-la-croissance) — [« L'Empire du mensonge »](https://giak.substack.com/p/lempire-du-mensonge) — [« L'Architecture à l'œuvre »](https://giak.substack.com/p/larchitecture-a-luvre) — [« Ils ont quitté l'humanité »](https://giak.substack.com/p/ils-ont-quitte-lhumanite) — [« L'État qui veut tout contrôler mais n'y arrive pas »](https://giak.substack.com/p/letat-qui-veut-tout-controler-mais)
+
+**Agriculture, énergie, climat**
+
+[« La grande arnaque agricole »](https://giak.substack.com/p/la-grande-arnaque-agricole-comment) — [« L'Agriculture au scanner »](https://giak.substack.com/p/lagriculture-au-scanner) — [« UE-Mercosur : le mensonge sanitaire »](https://giak.substack.com/p/ue-mercosur-le-mensonge-sanitaire) — [« Le sabotage énergétique français »](https://giak.substack.com/p/le-sabotage-energetique-francais) — [« Climat : les deux escroqueries »](https://giak.substack.com/p/climat-les-deux-escroqueries) — [« Le ciel n'est pas gratuit »](https://giak.substack.com/p/le-ciel-nest-pas-gratuit) — [« Les télégraphistes de la terreur »](https://giak.substack.com/p/les-telegraphistes-de-la-terreur)
+
+**Éducation, défense, industrie**
+
+[« L'effondrement éducatif français : 50 faits »](https://giak.substack.com/p/leffondrement-educatif-francais-50-fea) — [« L'Armée Potemkine »](https://giak.substack.com/p/larmee-potemkine) — [« La guerre des autres »](https://giak.substack.com/p/la-guerre-des-autres) — [« Nationalisation d'ArcelorMittal, ce qui s'est vraiment passé »](https://giak.substack.com/p/nationalisation-darcelormittal-ce)
+
+**La dimension numérique**
+
+[« Le Goulag digital : surveillés à 100 % »](https://giak.substack.com/p/le-gulag-digital-surveilles-a-100) — [« Viginum : la censure numérique aux portes du pouvoir »](https://giak.substack.com/p/viginum-censure-numerique) — [« Le Narcotique numérique : addiction et contrôle »](https://giak.substack.com/p/narcotique-numerique) — [« L'Europe construit-elle un crédit social européen ? »](https://giak.substack.com/p/leurope-construit-elle-un-credit-40d) — [« L'Architecture de la censure européenne »](https://giak.substack.com/p/larchitecture-de-la-censure-europeenne) — [« Le grand manège de la dépossession »](https://giak.substack.com/p/le-grand-manege-de-la-depossession)
+
+**La sortie**
+
+[« L'Adieu aux partis : du diagnostic à la stratégie »](https://giak.substack.com/p/ladieu-aux-partis-du-diagnostic-de) — [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement)
+
+---
+
+## §5 : 10 révélations que le débat public ne vous dit pas
+
+Chaque ligne confronte une idée reçue à la réalité documentée par cette enquête.
+
+| # | Idée reçue | Ce que l'enquête révèle |
+|---|-----------|------------------------|
+| 1 | « La France dépense trop » | L'État perd ~200 Md€/an, il ne les dépense pas. L'évasion + le gaspillage excèdent le déficit. |
+| 2 | « Les riches paient leur part » | Taux effectif d'impôt : 5-10 % pour les GAFAM, 25 % pour les PME. ISF supprimé : 5 Md€/an. |
+| 3 | « La démocratie fonctionne » | 90 % des lois adoptées sans vote parlementaire. 28×49.3, 120 ordonnances. |
+| 4 | « Les médias sont libres » | 9 propriétaires contrôlent 90 % de l'audience. 200+ journalistes ont quitté les rédactions Bolloré. |
+| 5 | « L'hôpital public tient » | 8M sans médecin traitant. 100 000 lits supprimés. Déserts médicaux dans 80 départements. |
+| 6 | « La justice est indépendante » | 0,20 % du PIB (moitié de la moyenne UE). 120 % de surpopulation carcérale. 40 conventions d'impunité. |
+| 7 | « La France est une grande puissance » | Stocks de munitions pour semaines. Veto contourné à l'UE. 11e rang militaire. 81 Md€ de déficit commercial. |
+| 8 | « La transition énergétique avance » | 11 Md€/an de subventions fossiles. Émissions −1,5 %/an (70 ans pour l'objectif). ZFE punitive. |
+| 9 | « La France protège son agriculture » | 100 000 fermes disparues. 1 suicide/2 jours. 80 % des aides PAC aux 20 % plus grosses fermes. |
+| 10 | « Nos données sont protégées » | 70 % des données françaises sur serveurs américains. 52M de Français fuient dans IDMerit. |
+
+---
+
+## §6 : Et après ?
 
 **Ces deux textes prolongent le diagnostic par l'action :**
 
@@ -247,18 +278,17 @@ L'un ne va pas sans l'autre. Changer le système sans changer sa vie, c'est remp
 *📖 **Article suivant :** 👑 La Caste Parasite : 20 familles, 704 milliards, la classe qui a verrouillé le système https://giak.substack.com/p/la-caste-parasite-qui-gouverne-la*
 *📖 **Article précédent :** 💻 Le Numérique colonisé : 70 % des données françaises sur serveurs américains [LIEN_A_INSERER]*
 
-
 ---
 
 ## Note sur le travail d'enquête
 
-Ce texte est la synthèse d'un travail de **cinq jours** (23-27 mai 2026) qui a produit 16 articles et ce HUB de synthèse. Il s'appuie sur **37 enquêtes complexes** produites par le protocole Truth Engine, un pipeline forensique en 19 étapes qui combine analyse symbolique, vérification multi-source et cartographie des verrous systémiques. Ces enquêtes ont alimenté **86 articles publiés** depuis novembre 2025.
+Ce texte est la synthèse d'un travail de **cinq jours** (23-27 mai 2026) qui a produit 16 articles et ce HUB de synthèse. Il s'appuie sur **38 enquêtes complexes** produites par le protocole Truth Engine, un pipeline forensique en 19 étapes qui combine analyse symbolique, vérification multi-source et cartographie des verrous systémiques. Ces enquêtes ont alimenté **86 articles publiés** depuis novembre 2025.
 
-**Méthode.** Chaque enquête suit le pipeline Truth Engine : analyse symbolique du discours dominant (15 symboles scorés de 0 à 10 : gaslighting, framing, capture, inversion, etc.) → cartographie des clusters de manipulation → chronologie forensique → domaines d'impact avec faits marqués ✦ → cartographie systémique du réseau d'acteurs et boucles de rétroaction → chaînes causales quantifiées (≥3 maillons par chaîne, minimum 2 chaînes par enquête) → registre de preuves complet (FACT_REGISTRY avec dates, acteurs, chiffres, URLs, fiabilité) → carte dialectique à 3 perspectives (économique, critique, arbitrage) → identification des loups (acteurs nommément désignés) → scope et limitations → vérification multi-domaine.
+**Méthode.** Chaque enquête suit le pipeline Truth Engine : analyse symbolique du discours dominant (15 symboles scorés de 0 à 10 : gaslighting, framing, capture, inversion, etc.) → cartographie des clusters de manipulation → chronologie forensique → domaines d'impact avec faits marqués ✦ → cartographie systémique du réseau d'acteurs et boucles de rétroaction → chaînes causales quantifiées (≥3 maillons par chaîne, minimum 2 chaînes par enquête) → registre de preuves complet (FACT_REGISTRY avec dates, acteurs, chiffres, URLs, fiabilité) → carte dialectique à 3 perspectives → identification des loups → scope et limitations → vérification multi-domaine.
 
 **Vérification.** Chaque fait est sourcé avec son URL publique. Les articles ont été soumis à des audits critiques automatisés qui traquent incohérences, biais de framing et sauts logiques. Les corrections issues de ces audits ont été intégrées.
 
-**Volume.** 16 articles, 37 enquêtes, 704 faits vérifiés, environ 120 000 mots. Chacun peut se lire indépendamment. Mais leur force est dans l'accumulation : un fait seul peut être contesté, vingt faits convergents de sources différentes forment une preuve. Le HUB condense cette masse en un diagnostic : le système est verrouillé par ceux qui en bénéficient, la réforme par le haut est une contradiction dans les termes.
+**Volume.** 16 articles, 38 enquêtes, 746 faits vérifiés, environ 120 000 mots. Chacun peut se lire indépendamment. Mais leur force est dans l'accumulation : un fait seul peut être contesté, vingt faits convergents de sources différentes forment une preuve. Le HUB condense cette masse en un diagnostic : le système est verrouillé par ceux qui en bénéficient, la réforme par le haut est une contradiction dans les termes.
 
 **Limite.** Cette enquête est un diagnostic, pas un programme. Les deux textes recommandés en conclusion ouvrent des pistes, l'une institutionnelle, l'autre personnelle. Le reste appartient à ceux qui lisent, comprennent et décident.
 
@@ -304,3 +334,4 @@ Ce texte est la synthèse d'un travail de **cinq jours** (23-27 mai 2026) qui a 
 34. **PLF 2025** : Mission AGTE 4,96 Md€, hausse de 124 % depuis 2006 : [https://www.budget.gouv.fr](https://www.budget.gouv.fr)
 35. **Sénat** : Budget 2025, 358 M€ pour 348 sénateurs : [https://www.senat.fr/notice/2024/2024-2025-budget-du-senat.html](https://www.senat.fr/notice/2024/2024-2025-budget-du-senat.html)
 36. **Assemblée Nationale** : Budget 2025, ~600 M€ pour 577 députés : [https://www.assemblee-nationale.fr/dyn/depenses](https://www.assemblee-nationale.fr/dyn/depenses)
+
