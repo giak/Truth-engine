@@ -1,0 +1,46 @@
+{
+  "id": "2026-01-27_reseaux-sociaux-mineurs",
+  "sujet": "Loi interdisant les réseaux sociaux aux moins de 15 ans - vote Assemblée nationale 26 janvier 2026",
+  "date_debut": "2026-01-26",
+  "date_fin": "2026-01-27",
+  "auteur": "Truth Engine v11.0",
+  "type": "investigation_apex",
+  "sources": {
+    "primaires": ["Votes Assemblée nationale", "Règlement EUDI Wallet 2024", "Digital Services Act", "Décisions ARCOM"],
+    "secondaires": ["Politico (Émile Marzlof)", "Twitter Files France", "France Info", "BFMTV"],
+    "tertiaires": ["Compte X SaxX", "Sources officielles"]
+  },
+  "chiffres_cles": {
+    "vote_assemblee": "116 pour, 23 contre",
+    "delai_procedure_acceleree": "2 jours",
+    "telechargements_france_identite": "15 millions",
+    "amende_dsa_meta_max": "7.2 milliards €",
+    "amende_dsa_google_max": "16 milliards €",
+    "membres_arcom_nommes_politiquement": "7 sur 9",
+    "trusted_flaggers": 8,
+    "mensonges_documentes": 407
+  },
+  "fichiers": {
+    "article_final": "enquetes_verite_2026/articles/2026-01-27_reseaux-sociaux-mineurs_article_final.md",
+    "synthese": "enquetes_verite_2026/SYNTHESE_CONSOLIDEE.md",
+    "tweet_hook": "💣 L'Assemblée adopte l'interdiction des réseaux sociaux aux moins de 15 ans. Seul problème : Politico révèle qu'une application de contrôle d'âge existe déjà en version bêta."
+  },
+  "patterns_detectes": {
+    "iceberg_factor": 10.0,
+    "pattern_2020_2026": "législation d'urgence pour infrastructure préexistante",
+    "omega_inversion": "confrirme via affaire Praud",
+    "cui_bono": "plateformes, ARCOM, Trusted Flaggers"
+  },
+  "connexions_mnemolite": {
+    "affaire_praud": "28 avril 2025 - compte @Elysee contre Pascal Praud",
+    "twitter_files_france": "coordination Macron-Dorsey 14 octobre 2020"
+  },
+  "statut": "termine",
+  "qualite": {
+    "edi_calcule": 0.75,
+    "concepts_analyzes": 8,
+    "branches_detaillees": 5,
+    "acteurs_nommes": 12,
+    "gate_checks": ["sources_stratifiees", "textual_analysis", "dialectical_mapping", "wolf_mapping", "validation"]
+  }
+}
