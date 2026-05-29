@@ -7,7 +7,7 @@ Registre de toutes les investigations, triées par mois.
 
 - [2026-02-27_lecornu_salon_agriculture_2026.md](2026-02/2026-02-27_lecornu_salon_agriculture_2026.md)
 
-## 2026-03 (125 fichiers)
+## 2026-03 (123 fichiers)
 
 - [2026-03-00_architecture.md](2026-03/2026-03-00_architecture.md)
 - [2026-03-00_iran_2026_complement_INVESTIGATION.md](2026-03/2026-03-00_iran_2026_complement_INVESTIGATION.md)
@@ -48,7 +48,6 @@ Registre de toutes les investigations, triées par mois.
 - [2026-03-12_nucleaire_ARCHITECTURE_V2.md](2026-03/2026-03-12_nucleaire_ARCHITECTURE_V2.md)
 - [2026-03-12_nucleaire_fresque_faisceaux_indices.md](2026-03/2026-03-12_nucleaire_fresque_faisceaux_indices.md)
 - [2026-03-12_nucleaire_fresque_systemique_OPUS_FINAL.md](2026-03/2026-03-12_nucleaire_fresque_systemique_OPUS_FINAL.md)
-- [2026-03-12_nucleaire_fresque_systemique_OPUS_ULTRA_DEEP copy.md](2026-03/2026-03-12_nucleaire_fresque_systemique_OPUS_ULTRA_DEEP copy.md)
 - [2026-03-12_nucleaire_fresque_systemique_OPUS_ULTRA_DEEP.md](2026-03/2026-03-12_nucleaire_fresque_systemique_OPUS_ULTRA_DEEP.md)
 - [2026-03-12_sabotage_energetique_francais_architecture.md](2026-03/2026-03-12_sabotage_energetique_francais_architecture.md)
 - [2026-03-12_sabotage_energetique_francais.md](2026-03/2026-03-12_sabotage_energetique_francais.md)
@@ -108,7 +107,6 @@ Registre de toutes les investigations, triées par mois.
 - [2026-03-29_19-00_autoconsommation_occidentale_REGISTRE.md](2026-03/2026-03-29_19-00_autoconsommation_occidentale_REGISTRE.md)
 - [2026-03-29_19-30_autoconsommation_occidentale_SATURATION_AUDIT.md](2026-03/2026-03-29_19-30_autoconsommation_occidentale_SATURATION_AUDIT.md)
 - [2026-03-29_23-30_pousser_regles_MATRICE_VERIFIEE.md](2026-03/2026-03-29_23-30_pousser_regles_MATRICE_VERIFIEE.md)
-- [2026-03-30_05-46_rn_drapeau_europeen_INVESTIGATION copy.md](2026-03/2026-03-30_05-46_rn_drapeau_europeen_INVESTIGATION copy.md)
 - [2026-03-30_05-46_rn_drapeau_europeen_INVESTIGATION.md](2026-03/2026-03-30_05-46_rn_drapeau_europeen_INVESTIGATION.md)
 - [2026-03-30_09-20_email_remy_juste_milieu_DRAFT.md](2026-03/2026-03-30_09-20_email_remy_juste_milieu_DRAFT.md)
 - [2026-03-30_15-00_industrie_decroissance_business_INVESTIGATION.md](2026-03/2026-03-30_15-00_industrie_decroissance_business_INVESTIGATION.md)
@@ -445,11 +443,10 @@ Registre de toutes les investigations, triées par mois.
 - [06_SATURATION_AUDIT.md](2026-04-08_etat_francais_inefficacite/06_SATURATION_AUDIT.md)
 - **sources/** (1 fichiers)
 
-## 2026-04-09_commission_audiovisuel_public (30 fichiers)
+## 2026-04-09_commission_audiovisuel_public (29 fichiers)
 
 - [00_DIGEST.md](2026-04-09_commission_audiovisuel_public/00_DIGEST.md)
 - [01_MATRICE.md](2026-04-09_commission_audiovisuel_public/01_MATRICE.md)
-- [05_ARTICLE copy.md](2026-04-09_commission_audiovisuel_public/05_ARTICLE copy.md)
 - **06_enquetes/** (26 fichiers)
 - **sources/** (1 fichiers)
 
