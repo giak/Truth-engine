@@ -499,7 +499,7 @@ Registre de toutes les investigations, triées par mois.
 
 - [graph.md](2026-04-13_enracinement/graph.md)
 
-## 2026-04-13_system_possession (13 fichiers)
+## 2026-04-13_system_possession (12 fichiers)
 
 - [00_DIGEST.md](2026-04-13_system_possession/00_DIGEST.md)
 - [01_MATRICE.md](2026-04-13_system_possession/01_MATRICE.md)
@@ -508,7 +508,6 @@ Registre de toutes les investigations, triées par mois.
 - [04_ARCHITECTURE.md](2026-04-13_system_possession/04_ARCHITECTURE.md)
 - [05_ARTICLE.md](2026-04-13_system_possession/05_ARTICLE.md)
 - [06_ARTICLE_PROTOCOLE.md](2026-04-13_system_possession/06_ARTICLE_PROTOCOLE.md)
-- [06_PROTOCOLE_REENRACINEMENT copy v1.md](2026-04-13_system_possession/06_PROTOCOLE_REENRACINEMENT copy v1.md)
 - [06_PROTOCOLE_REENRACINEMENT.md](2026-04-13_system_possession/06_PROTOCOLE_REENRACINEMENT.md)
 - [06_SATURATION_AUDIT.md](2026-04-13_system_possession/06_SATURATION_AUDIT.md)
 - [2026-04-13_08-10_system_possession_PROMPTS.md](2026-04-13_system_possession/2026-04-13_08-10_system_possession_PROMPTS.md)
