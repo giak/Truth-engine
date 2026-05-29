@@ -101,9 +101,9 @@ index_project(project_path="/home/giak/projects/truth-engine/kb", repository="tr
 **Purpose:** Publish investigations to Substack with tweet hooks - **adaptive length + LLM autonomy**
 
 **Files:**
-- System prompt: [prompts/systems/substack-engine-v2.0.md](prompts/systems/substack-engine-v2.0.md)
+- System prompt: [tools/prompts/systems/substack-engine-v2.0.md](tools/prompts/systems/substack-engine-v2.0.md)
 - Design doc: [docs/plans/2025-11-27-substack-engine-v2-design.md](docs/plans/2025-11-27-substack-engine-v2-design.md)
-- Legacy v1.0: [prompts/systems/substack-engine-v1.0.md](prompts/systems/substack-engine-v1.0.md)
+- Legacy v1.0: [archive/v1/systems/substack-engine-v1.0.md](archive/v1/systems/substack-engine-v1.0.md)
 - API: `~/projects/Substack-API/` (external, not in repo)
 
 **Usage:**
