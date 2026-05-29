@@ -4,9 +4,9 @@
 
 **Version :** 1.0  
 **Date :** 2026-05-29  
-**Complète et unifie :** archive/v1/STRUCTURE.md, USER_GUIDE.md (obsolète v8.0), archive/v1/KERNEL_v1_DEPRECATED.md  
+**Complète et unifie :** docs/user/USER_GUIDE.md (obsolète v8.0, remplacé par ce document), archive/ (contient les anciennes versions systèmes)  
 **Ne remplace pas :** SUBLIMATOR_v28.0.md, truth-engine-v2/KERNEL.md — documents spécialisés à charger en complément  
-**Dépend de :** tools/prompts/systems/SUBLIMATOR_v28.0.md, truth-engine-v2/KERNEL.md, tools/scripts/lint-article.sh
+**Dépend de :** tools/engines/SUBLIMATOR_v28.0.md, truth-engine-v2/KERNEL.md, tools/scripts/lint-article.sh
 
 ---
 
@@ -75,7 +75,7 @@ IDÉE / SUJET / FAIT BRUT
 | Fichier | Rôle | Étape |
 |---------|------|-------|
 | `truth-engine-v2/KERNEL.md` | Orchestrateur v2 — 200 lignes, steps 0→19 | §1 |
-| `tools/prompts/systems/SUBLIMATOR_v28.0.md` | Pipeline rédaction — 3 tiers, CP#1→CP#5 | §2 |
+| `tools/engines/SUBLIMATOR_v28.0.md` | Pipeline rédaction — 3 tiers, CP#1→CP#5 | §2 |
 | `tools/scripts/lint-article.sh` | 7 checks automatisés (LOI 1-8) | §3, §5 |
 | `AGENTS.md` | Règles projet, éthique vérité, conventions nommage | §4 |
 | `docs/VISION.md` | Philosophie et principes fondamentaux | Contexte |
@@ -90,16 +90,21 @@ IDÉE / SUJET / FAIT BRUT
 
 Produire des **faits vérifiés** à partir d'un sujet, d'un texte ou d'un corpus. Le template de sortie standard est disponible dans `truth-engine-v2/output/TEMPLATE.md`. L'investigation est la **matière première** de tout article. Un article n'est jamais écrit sans investigation préalable.
 
-### 1.2 Deux KERNELs coexistent
+### 1.2 KERNEL v2 (référence unique)
 
-| | KERNEL v1 (déprécié) | KERNEL v2 (actif) |
-|---|---|---|
-| Fichier | `archive/v1/KERNEL_v1_DEPRECATED.md` | `truth-engine-v2/KERNEL.md` |
-| Version | v15.1 | v2.0 |
-| Lignes | ~400 | ~200 |
-| État | **Ne plus utiliser** | **Référence actuelle** |
-| Architecture | Monolithique | Modular (30+ fichiers) |
-| Fichiers support | `kb/` (inexistant sur disque) | `truth-engine-v2/definitions/`, `clusters/`, `protocol/`, `search/`, `forensic/`, `tools/`, `output/` |
+**Un seul kernel actif :** `truth-engine-v2/KERNEL.md` (v2.0, ~200 lignes, modulaire, 30+ fichiers).  
+L'ancien KERNEL v1 a été supprimé — `archive/` contient les versions antérieures du système.
+
+| Fichier | Rôle |
+|---------|------|
+| `truth-engine-v2/KERNEL.md` | Kernel principal (steps 0→19) |
+| `truth-engine-v2/definitions/` | Symboles, patterns |
+| `truth-engine-v2/clusters/` | Clusters d'investigation |
+| `truth-engine-v2/protocol/` | Protocole détaillé |
+| `truth-engine-v2/search/` | Moteurs de recherche |
+| `truth-engine-v2/forensic/` | Forensique |
+| `truth-engine-v2/tools/` | Utilitaires |
+| `truth-engine-v2/output/` | Templates de sortie |
 
 ### 1.3 Pipeline KERNEL v2 (steps 0→19)
 
@@ -184,7 +189,7 @@ investigations/YYYY-MM-DD_sujet/
 
 ## §2 — PIPELINE SUBLIMATOR (rédaction d'article)
 
-**Document source :** `tools/prompts/systems/SUBLIMATOR_v28.0.md` (v28.4)
+**Document source :** `tools/engines/SUBLIMATOR_v28.0.md` (v28.4)
 
 Le pipeline SUBLIMATOR transforme une investigation brute en **article final prêt à publier**. Il est structuré en 3 tiers, ponctués de checkpoints (CP).
 
@@ -413,9 +418,9 @@ YYYY-MM-DD_HH-MM_sujet-type_TYPE.md
 ```
 truth-engine/
 ├── articles/               # Articles finaux prêts à publier
-│   └── YYYY-MM-DD_*.md
+│   └── YYYY-MM-DD-sujet/   # Format kebab-case avec date
 ├── investigations/         # Dossiers d'enquête par sujet
-│   ├── YYYY-MM-DD_sujet/   # Dossier projet complexe
+│   ├── YYYY-MM-DD-sujet/   # Dossier projet complexe
 │   │   ├── 00_DIGEST.md
 │   │   ├── 01_MATRICE.md
 │   │   ├── 02_CLUSTERING.md
@@ -428,14 +433,10 @@ truth-engine/
 │   │   ├── sources/        # Documents sources
 │   │   └── archive/        # Anciennes versions
 │   └── INDEX.md            # Index de toutes les investigations
-├── audits/                 # Audits SATURATION et APEX
-│   └── YYYY-MM-DD_*.md
 ├── tools/
 │   ├── scripts/            # Scripts de validation
 │   │   └── lint-article.sh
-│   ├── prompts/            # Prompts systèmes
-│   │   ├── systems/        # SUBLIMATOR, etc.
-│   │   └── investigations/ # Prompts spécifiques
+│   ├── engines/            # Moteurs de rédaction (SUBLIMATOR, etc.)
 │   └── tests/              # Tests des outils
 ├── truth-engine-v2/        # KERNEL v2 (30+ fichiers)
 │   ├── KERNEL.md           # Kernel principal (steps 0→19)
@@ -451,15 +452,14 @@ truth-engine/
 │   ├── posts/              # Posts HTML exportés
 │   ├── posts.csv           # Index des posts
 │   └── email_list.giak.csv # Liste des abonnés
-├── sources/                # Documents sources bruts (PDF, etc.)
 ├── docs/
-│   ├── specs/              # Spécifications (PRD, TAD, WARP, PIPELINE)
+│   ├── specs/              # Architecture, designs, DSL, audits système
+│   ├── plans/              # Plans d'implémentation
+│   ├── development/        # Autosave, MnemoLite, handoff
 │   ├── user/               # Guides utilisateur
 │   └── VISION.md           # Philosophie
-├── archive/                # Anciennes versions
-│   └── v1/
-│       ├── KERNEL_v1_DEPRECATED.md # Ancien kernel (obsolète)
-│       └── STRUCTURE.md    # Structure projet (obsolète)
+├── config/                 # Configurations IDE (MCP, etc.)
+├── archive/                # Anciennes versions (archive froide)
 ├── AGENTS.md               # Règles du projet pour l'IA
 ├── README.md               # README du projet
 └── package.json            # Métadonnées projet
@@ -591,12 +591,10 @@ Le prompt SUBLIMATOR (v28.4) liste explicitement les 7 checks du script et deman
 | `truth-engine-v2/ARCHITECTURE.md` | ✅ Actif | Dépendances du module KERNEL v2 |
 | `investigations/` | ✅ Actif | Toutes les investigations récentes |
 | `articles/` | ✅ Actif | Articles finaux publiés |
-| `audits/` | ✅ Actif | Audits SATURATION / APEX |
 | `substack-online/` | ✅ Actif | Export Substack (HTML, CSV) |
-| `sources/` | ✅ Actif | Documents sources bruts |
+| `docs/specs/` | ✅ Actif | Audits système déplacés ici |
+| `config/` | ✅ Actif | Configurations IDE |
 | `archive/` | ⚠️ Archive | Anciennes versions systèmes, à ne pas modifier |
-| `archive/system-versions/` | ⚠️ Archive | Anciennes versions du kernel |
-| `archive/prompts/` | ⚠️ Archive | Anciens prompts systèmes |
 
 
 ### 6.2 Cheatsheet : Où trouver quoi
@@ -614,8 +612,7 @@ Le prompt SUBLIMATOR (v28.4) liste explicitement les 7 checks du script et deman
 | Les articles publiés | `articles/` |
 | Les exports Substack | `substack-online/posts/` + `posts.csv` |
 | Les outils de validation | `tools/scripts/` |
-| Les prompts systèmes | `tools/prompts/systems/` |
-| Les prompts spécifiques (ex: critique série) | `tools/prompts/investigations/` |
+| Les prompts systèmes | `tools/engines/` |
 
 
 ### 6.3 Séquence de chargement recommandée (session IA)

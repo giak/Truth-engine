@@ -121,21 +121,6 @@ Légende : `📁 dossier/ (N fichiers)`
 | [📁 2026-03-divers](2026-03-divers/) | 18 | Fichiers orphelins mars : ingérences, carburants, DSA, shadow banking |
 | [📁 2026-04-divers](2026-04-divers/) | 6 | Fichiers orphelins avril : mercosur, Atos, Durov, système judiciaire |
 
-## 13. ARCHIVES LEGACY
-
-Dossiers d'anciennes investigations conservés pour référence.
-
-| Dossier | Fichiers | Sujet |
-|---------|----------|-------|
-| [📁 autoconsommation-systeme](autoconsommation-systeme/) | 1 | Ancienne enquête autoconsommation |
-| [📁 commission-enquete-audiovisuel](commission-enquete-audiovisuel/) | 2 | Ancienne commission audiovisuel |
-| [📁 dependence-possession](dependence-possession/) | 2 | Ancienne enquête dépendance/possession |
-| [📁 etat-francais-inefficacite](etat-francais-inefficacite/) | 3 | Ancienne enquête inefficacité État |
-| [📁 guerre-iran-2026](guerre-iran-2026/) | 2 | Ancienne enquête guerre Iran |
-| [📁 misc](misc/) | 1 | Fichier dette backup |
-
----
-
 ## Statistiques
 
 | Métrique | Valeur |

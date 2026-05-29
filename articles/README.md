@@ -17,8 +17,8 @@ articles/
 ├── 2026-04-17-ingenierie-enclos/    (2)  Ingénierie de l'enclos — article + visuels
 ├── 2026-04-19-architecture-l-oeuvre/ (2)  Architecture à l'œuvre — article + visuels
 ├── 2026-04-21-constellation-avril/  (3)  Constellation d'avril — article + audit
-├── 2026-04-23_conflit_usa_israel_iran/ (10) Conflit USA/Israël/Iran (structuré 00-07)
-├── 2026-04-30_pourquoi-francais-ne-se-revoltent-pas/ (12) Enquête structurée (00-07+)
+├── 2026-04-23-conflit-usa-israel-iran/   (10) Conflit USA/Israël/Iran (structuré 00-07)
+├── 2026-04-30-pourquoi-francais-ne-se-revoltent-pas/ (12) Enquête structurée (00-07+)
 └── misc/                            (10)  Fichiers divers (assets visuels, prompts)
 ```
 
