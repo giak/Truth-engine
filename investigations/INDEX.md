@@ -1,6 +1,6 @@
 # INDEX — Investigations
 
-Registre de toutes les investigations, organisées par thème. **60 dossiers**, **0 fichier à la racine.**
+Registre de toutes les investigations, organisées par thème. **61 dossiers**, **0 fichier à la racine.**
 
 Légende : `📁 dossier/ (N fichiers)`
 
@@ -140,7 +140,7 @@ Dossiers d'anciennes investigations conservés pour référence.
 
 | Métrique | Valeur |
 |----------|--------|
-| Dossiers projets | 60 |
+| Dossiers projets | 61 |
 | Fichiers à la racine (hors INDEX) | **0** ✅ |
-| Fichiers organisés | ~600 |
+| Fichiers organisés | 663 |
 | Période couverte | Février — Mai 2026 |
