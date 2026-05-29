@@ -4,7 +4,7 @@
 
 **Version :** 1.0  
 **Date :** 2026-05-29  
-**Complète et unifie :** archive/v1/STRUCTURE.md, USER_GUIDE.md (obsolète v8.0), KERNEL_v1_DEPRECATED.md  
+**Complète et unifie :** archive/v1/STRUCTURE.md, USER_GUIDE.md (obsolète v8.0), archive/v1/KERNEL_v1_DEPRECATED.md  
 **Ne remplace pas :** SUBLIMATOR_v28.0.md, truth-engine-v2/KERNEL.md — documents spécialisés à charger en complément  
 **Dépend de :** tools/prompts/systems/SUBLIMATOR_v28.0.md, truth-engine-v2/KERNEL.md, tools/scripts/lint-article.sh
 
@@ -33,7 +33,7 @@ IDÉE / SUJET / FAIT BRUT
 │ §1 — INVESTIGATION (phase amont)                     │
 │                                                      │
 │ 1a. KERNEL v1 (déprécié)   OU   1b. KERNEL v2       │
-│      KERNEL_v1_DEPRECATED.md      truth-engine-v2/   │
+│      archive/v1/KERNEL_v1_DEPRECATED.md      truth-engine-v2/   │
 │                                                      │
 │ Phases : Text Analysis → Protocol (0→19) → Output    │
 │ Livrables : INVESTIGATION, HYPER_MATRICE,            │
@@ -94,7 +94,7 @@ Produire des **faits vérifiés** à partir d'un sujet, d'un texte ou d'un corpu
 
 | | KERNEL v1 (déprécié) | KERNEL v2 (actif) |
 |---|---|---|
-| Fichier | `KERNEL_v1_DEPRECATED.md` | `truth-engine-v2/KERNEL.md` |
+| Fichier | `archive/v1/KERNEL_v1_DEPRECATED.md` | `truth-engine-v2/KERNEL.md` |
 | Version | v15.1 | v2.0 |
 | Lignes | ~400 | ~200 |
 | État | **Ne plus utiliser** | **Référence actuelle** |
@@ -458,9 +458,9 @@ truth-engine/
 │   └── VISION.md           # Philosophie
 ├── archive/                # Anciennes versions
 │   └── v1/
-│       ├── STRUCTURE.md    # Structure projet (obsolète)
+│       ├── KERNEL_v1_DEPRECATED.md # Ancien kernel (obsolète)
+│       └── STRUCTURE.md    # Structure projet (obsolète)
 ├── AGENTS.md               # Règles du projet pour l'IA
-├── KERNEL_v1_DEPRECATED.md # Ancien kernel (ne pas utiliser)
 ├── README.md               # README du projet
 └── package.json            # Métadonnées projet
 ```
@@ -577,7 +577,7 @@ Le prompt SUBLIMATOR (v28.4) liste explicitement les 7 checks du script et deman
 | Fichier / Dossier | Statut | Remarque |
 |-------------------|--------|----------|
 | `truth-engine-v2/` | ✅ Actif | KERNEL v2, utiliser pour toute investigation |
-| `KERNEL_v1_DEPRECATED.md` | ❌ Obsolète | Remplacé par `truth-engine-v2/KERNEL.md` |
+| `archive/v1/KERNEL_v1_DEPRECATED.md` | ❌ Obsolète | Remplacé par `truth-engine-v2/KERNEL.md` |
 | `kb/` | ❌ N'existe pas | Mentionné dans KERNEL_v1 — ne plus référencer |
 | `tools/prompts/systems/SUBLIMATOR_v28.0.md` | ✅ Actif | Pipeline rédaction v28.4 |
 | `tools/scripts/lint-article.sh` | ✅ Actif | 7 checks automatisés |
