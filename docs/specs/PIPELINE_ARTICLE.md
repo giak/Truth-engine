@@ -434,7 +434,8 @@ truth-engine/
 │   ├── scripts/            # Scripts de validation
 │   │   └── lint-article.sh
 │   ├── prompts/            # Prompts systèmes
-│   │   └── systems/        # SUBLIMATOR, etc.
+│   │   ├── systems/        # SUBLIMATOR, etc.
+│   │   └── investigations/ # Prompts spécifiques
 │   └── tests/              # Tests des outils
 ├── truth-engine-v2/        # KERNEL v2 (30+ fichiers)
 │   ├── KERNEL.md           # Kernel principal (steps 0→19)
@@ -451,7 +452,6 @@ truth-engine/
 │   ├── posts.csv           # Index des posts
 │   └── email_list.giak.csv # Liste des abonnés
 ├── sources/                # Documents sources bruts (PDF, etc.)
-├── prompts/                # Prompts spécifiques (non-systèmes)
 ├── docs/
 │   ├── specs/              # Spécifications (PRD, TAD, WARP, PIPELINE)
 │   ├── user/               # Guides utilisateur
@@ -615,7 +615,7 @@ Le prompt SUBLIMATOR (v28.4) liste explicitement les 7 checks du script et deman
 | Les exports Substack | `substack-online/posts/` + `posts.csv` |
 | Les outils de validation | `tools/scripts/` |
 | Les prompts systèmes | `tools/prompts/systems/` |
-| Les prompts spécifiques (ex: critique série) | `prompts/` |
+| Les prompts spécifiques (ex: critique série) | `tools/prompts/investigations/` |
 
 
 ### 6.3 Séquence de chargement recommandée (session IA)

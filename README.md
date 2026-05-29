@@ -19,7 +19,7 @@ Le point d'entrée unique est **`docs/specs/PIPELINE_ARTICLE.md`** — il décri
 | `tools/` | SUBLIMATOR, lint, scripts |
 | `substack-online/` | Posts exportés (86), CSV, emails |
 | `docs/` | Spécifications, guides, VISION |
-| `prompts/` | Prompts spécifiques par investigation |
+| `tools/prompts/investigations/` | Prompts spécifiques par investigation |
 | `sources/` | Documents sources |
 | `config/` | Configurations IDE |
 | `archive/` | Anciennes versions (KERNEL v1, fichiers morts) |

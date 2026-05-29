@@ -138,9 +138,9 @@ claude "Mode SUBSTACK: logs/2025-11-26_investigation.md"
 | APEX | 6000+ | 4000-6000+ |
 
 **Output files:**
-- `prompts/outputs/YYYY-MM-DD_sujet-substack.md` - Article backup
-- `prompts/outputs/YYYY-MM-DD_sujet-tweet.txt` - Tweet ready to post
-- `prompts/outputs/YYYY-MM-DD_sujet-meta.json` - Metadata (extended v2.0)
+- `archive/v1/prompts-outputs/YYYY-MM-DD_sujet-substack.md` - Article backup
+- `archive/v1/prompts-outputs/YYYY-MM-DD_sujet-tweet.txt` - Tweet ready to post
+- `archive/v1/prompts-outputs/YYYY-MM-DD_sujet-meta.json` - Metadata (extended v2.0)
 
 ---
 
