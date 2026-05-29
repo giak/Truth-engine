@@ -15,12 +15,12 @@ Le point d'entrée unique est **`docs/specs/PIPELINE_ARTICLE.md`** — il décri
 | `truth-engine-v2/` | KERNEL v2 — protocole d'investigation (30+ fichiers) |
 | `investigations/` | 100+ enquêtes et rapports |
 | `articles/` | Articles finaux publiés |
-| `audits/` | Audits SATURATION, APEX |
+| `investigations/` | Audits déplacés dans investigations/ |
 | `tools/` | SUBLIMATOR, lint, scripts |
 | `substack-online/` | Posts exportés (86), CSV, emails |
 | `docs/` | Spécifications, guides, VISION |
-| `tools/prompts/investigations/` | Prompts spécifiques par investigation |
-| `sources/` | Documents sources |
+| `docs/specs/` | Spécifications, architecture, audits système |
+| `articles/misc/` | Documents sources (PDF) |
 | `config/` | Configurations IDE |
 | `archive/` | Anciennes versions (KERNEL v1, fichiers morts) |
 
@@ -33,7 +33,7 @@ Le point d'entrée unique est **`docs/specs/PIPELINE_ARTICLE.md`** — il décri
 → truth-engine-v2/KERNEL.md
 
 # Rédiger un article
-→ tools/prompts/systems/SUBLIMATOR_v28.0.md
+→ tools/engines/SUBLIMATOR_v28.0.md
 
 # Valider un article
 ./tools/scripts/lint-article.sh articles/xxx.md

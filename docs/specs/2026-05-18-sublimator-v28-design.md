@@ -154,7 +154,7 @@ Remplace les 5 lignes actuelles par une doctrine complète :
 **Règle** : Glossaire vivant. Tout anglicisme non listé détecté est ajouté avec sa traduction.
 
 **MÉCANISME DE PERSISTANCE** : Le glossaire est stocké dans un fichier maître :
-`tools/prompts/systems/glossaire-anglicismes.md`
+`tools/engines/glossaire-anglicismes.md`
 
 Le Correcteur DOIT :
 1. Détecter tout anglicisme non listé dans le texte
@@ -401,7 +401,7 @@ Après Checkpoint #5 validé :
 
 | Fichier | Modifications |
 |---------|---------------|
-| `tools/prompts/systems/SUBLIMATOR_v27.0.md` | Renommer en `SUBLIMATOR_v28.0.md`. Réécrire §0.2, §5.1, §5.3 (LOI 1, 2, 4), §6.1, §6.4, §7, §11. |
+| `tools/engines/SUBLIMATOR_v27.0.md` | Renommer en `SUBLIMATOR_v28.0.md`. Réécrire §0.2, §5.1, §5.3 (LOI 1, 2, 4), §6.1, §6.4, §7, §11. |
 | `investigations/YYYY-MM-DD_<sujet>/05_ARTICLE.md` | Renommer et migrer vers `articles/YYYY-MM-DD_HH-MM_<sujet>_ARTICLE.md` après régénération. |
 
 ---
@@ -465,4 +465,4 @@ Le pipeline s'adapte au sujet via les mécanismes suivants :
 | Glossaire incomplet | Anglicismes non détectés | Glossaire vivant persisté dans `glossaire-anglicismes.md`, écriture automatique par le Correcteur |
 | DOI introuvables pour certaines sources | Faits non vérifiables | **Purge préventive** avant rédaction (Section 3.2) — le fait est retiré AVANT que le Critique ne puisse pénaliser |
 | Brevet inaccessible (scraping bloqué) | Claim non vérifié | Fallback websearch → résumé USPTO → si échec, purge du fait |
-| Perte du glossaire entre sessions | Réapprentissage nécessaire | Fichier maître persisté dans `tools/prompts/systems/` |
+| Perte du glossaire entre sessions | Réapprentissage nécessaire | Fichier maître persisté dans `tools/engines/` |

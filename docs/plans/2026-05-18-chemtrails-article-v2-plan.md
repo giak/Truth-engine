@@ -10,8 +10,8 @@
 
 **Source files:**
 - `investigations/2026-05-18_08-49_chemtrails_INVESTIGATION.md` (1415 lines, all facts)
-- `tools/prompts/systems/SUBLIMATOR_v28.0.md` (pipeline rules)
-- `tools/prompts/systems/glossaire-anglicismes.md` (anti-anglicismes)
+- `tools/engines/SUBLIMATOR_v28.0.md` (pipeline rules)
+- `tools/engines/glossaire-anglicismes.md` (anti-anglicismes)
 
 **Output:** `articles/2026-05-18_XX-XX_chemtrails-paradoxe-caldeira_ARTICLE.md`
 

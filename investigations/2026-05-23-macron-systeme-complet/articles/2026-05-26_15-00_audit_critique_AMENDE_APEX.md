@@ -467,7 +467,7 @@ Le corpus est déjà rare par sa rigueur de sourçage et son dispositif d'auto-c
 5. **03_ARCHITECTURE.md** : Structure narrative 4 actes
 6. **04_FACTCHECK.md** : 604 faits vérifiés
 7. **PROMPT_ARTICLE_MASTER.md** : 8 LOIS de rédaction
-8. **SUBLIMATOR v28.1** : /tools/prompts/systems/SUBLIMATOR_v28.0.md
+8. **SUBLIMATOR v28.1** : /tools/engines/SUBLIMATOR_v28.0.md
 9. **KERNEL v2.0** : /truth-engine-v2/KERNEL.md
 10. **16 articles S** : S1 à S16 + HUB
 11. **ENRICHISSEMENT_SUBSTACK_CHANGELOG.md** : Traçabilité des 32 injections

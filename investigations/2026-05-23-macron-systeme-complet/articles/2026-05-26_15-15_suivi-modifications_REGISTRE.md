@@ -477,7 +477,7 @@
 |-------|--------|
 | **Date** | 2026-05-26 |
 | **Audit §** | Gap identifié dans audit S4 : protocole ne requérait pas vérification web |
-| **Fichier** | `tools/prompts/systems/CONTROLEUR_APEX_v1.0.md` |
+| **Fichier** | `tools/engines/CONTROLEUR_APEX_v1.0.md` |
 | **Type** | 🔄 Mise à jour protocole |
 | **Changement** | Ajout de la section **4.4 Vérification web des faits contestés** (MANDATORY) : déclencheurs (désaccord article↔FACTCHECK, ordre de grandeur suspect, hyperboles, source sans URL), procédure en 4 étapes, scoring intégré. Pondération couche 4 modifiée : 4.1×0.3 / 4.2×0.2 / 4.3×0.1 / 4.4×0.4. Axe radar S6 mis à jour : 4.1×0.4 + 4.2×0.2 + 4.4×0.4. |
 | **Justification** | Le test sur S4 a révélé que le FACTCHECK peut contenir des erreurs (J22 : 0,34% au lieu de 0,20%). Le protocole v1.0 ne vérifiait les faits que par cross-référencement article↔FACTCHECK, sans recours à la source primaire. La vérification web est indispensable : elle permet de corriger le FACTCHECK lui-même. |
@@ -714,7 +714,7 @@
 |-------|--------|
 | **Date** | 2026-05-26 |
 | **Audit §** | S2 C4/C5 : trous protocole : additivité non vérifiée, étiquetage non vérifié |
-| **Fichier** | `tools/prompts/systems/CONTROLEUR_APEX_v1.0.md` |
+| **Fichier** | `tools/engines/CONTROLEUR_APEX_v1.0.md` |
 | **Type** | 🔄 Mise à jour protocole |
 | **Changement** | **Couche 4.5 (nouveau)** : Intégrité des agrégations : checklist 4 déclencheurs (AGI), scoring 0-10, pondération ×0.1 dans Couche 4. **Couche 5.4 (nouveau)** : Cohérence catégorielle : vérifie que les étiquettes des groupes de faits ne créent pas de fausse équivalence, 4 critères de checklist, scoring 0-10, pondération ×0.15 dans Couche 5. **Pondérations ajustées** : Couche 4.4 passe de ×0.4 à ×0.3 (reversé à 4.5×0.1) ; Couche 5.1 passe de ×0.4 à ×0.35, 5.2 de ×0.3 à ×0.25, 5.3 de ×0.3 à ×0.25 (reversé à 5.4×0.15). **S6 radar** mis à jour : prend 4.5 en compte. |
 | **Justification** | L'audit S2 a révélé que le protocole ne détectait pas (a) les doubles-comptes entre catégories additionnées (évasion + niches fiscales = faux total additif), (b) les fausses équivalences entre phénomènes de nature juridique différente (illégal, choix politique, droit social). |

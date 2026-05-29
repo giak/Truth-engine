@@ -14,7 +14,7 @@ Le corpus « Le Changement de Régime » a été construit en deux temps, sans s
 - **Livrable** : 604 faits vérifiés (✦) organisés par thèmes, avec chronologie et acteurs identifiés
 
 #### Phase 2 : Synthèse et articles (SUBLIMATOR v28.1, écarty)
-- **Protocole visé** : `/home/giak/projects/truth-engine/tools/prompts/systems/SUBLIMATOR_v28.0.md`
+- **Protocole visé** : `/home/giak/projects/truth-engine/tools/engines/SUBLIMATOR_v28.0.md`
 - **Écarts** : Le pipeline SUBLIMATOR n'a pas été suivi stricto sensu
 - **Structure développée** :
   - `00B_CENSUS.md` : Inventaire des 27 enquêtes classées par 5 tensions

@@ -579,7 +579,7 @@ Le prompt SUBLIMATOR (v28.4) liste explicitement les 7 checks du script et deman
 | `truth-engine-v2/` | ✅ Actif | KERNEL v2, utiliser pour toute investigation |
 | `archive/v1/KERNEL_v1_DEPRECATED.md` | ❌ Obsolète | Remplacé par `truth-engine-v2/KERNEL.md` |
 | `kb/` | ❌ N'existe pas | Mentionné dans KERNEL_v1 — ne plus référencer |
-| `tools/prompts/systems/SUBLIMATOR_v28.0.md` | ✅ Actif | Pipeline rédaction v28.4 |
+| `tools/engines/SUBLIMATOR_v28.0.md` | ✅ Actif | Pipeline rédaction v28.4 |
 | `tools/scripts/lint-article.sh` | ✅ Actif | 7 checks automatisés |
 | `AGENTS.md` | ✅ Actif | Règles projet pour l'IA |
 | `docs/VISION.md` | ✅ Actif | Philosophie générale |
@@ -602,7 +602,7 @@ Le prompt SUBLIMATOR (v28.4) liste explicitement les 7 checks du script et deman
 | Je cherche... | Aller dans... |
 |---------------|---------------|
 | Comment lancer une investigation | `truth-engine-v2/KERNEL.md` + `truth-engine-v2/ARCHITECTURE.md` |
-| Comment rédiger un article | `tools/prompts/systems/SUBLIMATOR_v28.0.md` |
+| Comment rédiger un article | `tools/engines/SUBLIMATOR_v28.0.md` |
 | Quelles sont les LOIS | §3 de ce document |
 | Vérifier mon article avant publication | `./tools/scripts/lint-article.sh article.md` |
 | Conventions de nommage | §4.1 de ce document + `AGENTS.md` |
@@ -624,7 +624,7 @@ Quand l'utilisateur dit « écris un article sur X » ou « lance une investigat
 2. docs/specs/PIPELINE_ARTICLE.md  → Vue d'ensemble (ce document)
 3. truth-engine-v2/KERNEL.md    → Kernel investigation
    (ou SUBLIMATOR selon la demande)
-4. tools/prompts/systems/SUBLIMATOR_v28.0.md  → Pipeline rédaction
+4. tools/engines/SUBLIMATOR_v28.0.md  → Pipeline rédaction
 5. tools/scripts/lint-article.sh  → Script de validation final
    (lecture rapide, pas d'exécution)
 ```

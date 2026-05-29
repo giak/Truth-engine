@@ -318,7 +318,7 @@ Décision : ACCEPTER (tous ≥4) | REJETER (≥1 <4)
 
 #### PHASE C — CORRECTEUR
 
-Doctrine : "Rédacteur Français Intraitable" + glossaire (`tools/prompts/systems/glossaire-anglicismes.md`).
+Doctrine : "Rédacteur Français Intraitable" + glossaire (`tools/engines/glossaire-anglicismes.md`).
 
 Actions : (1) Corrections glossaire (2) Formules théâtrales → cliniques (3) Typographie FR (4) Phrases vides (5) Anglicismes syntaxiques (6) Output `corrected_v{N}`.
 
