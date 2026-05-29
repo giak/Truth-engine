@@ -255,13 +255,13 @@ curl -X POST http://localhost:8001/api/v1/index/reindex \
 # 6. Document failures & rejected approaches (NEW in v8.4)
 # If integration/feature tested and REJECTED, create postmortem:
 #
-# docs/postmortems/YYYY-MM-DD-feature-ABANDONED.md
+# archive/v1/postmortems/YYYY-MM-DD-feature-ABANDONED.md
 # ├── Root cause analysis
 # ├── Load test results (quantitative)
 # ├── Decision rationale (why rejected)
 # └── Lessons learned
 #
-# docs/memory/YYYY-MM-DD-feature-abandoned.md (concise version)
+# archive/v1/memory/YYYY-MM-DD-feature-abandoned.md (concise version)
 # └── Quick reference for future similar proposals
 #
 # Example: Google Search MCP (Nov 2025)
@@ -512,8 +512,8 @@ git commit benchmark_results.json -m "Benchmark week 45: overall 0.88"
 3. Existing architecture already optimal (avoid "solutionnisme")
 
 **Documentation**:
-- Postmortem: [docs/postmortems/2025-11-16-google-search-mcp-ABANDONED.md](docs/postmortems/2025-11-16-google-search-mcp-ABANDONED.md:1)
-- Memory: [docs/memory/2025-11-16-google-search-mcp-abandoned.md](docs/memory/2025-11-16-google-search-mcp-abandoned.md:1)
+- Postmortem: [archive/v1/postmortems/2025-11-16-google-search-mcp-ABANDONED.md](archive/v1/postmortems/2025-11-16-google-search-mcp-ABANDONED.md:1)
+- Memory: [archive/v1/memory/2025-11-16-google-search-mcp-abandoned.md](archive/v1/memory/2025-11-16-google-search-mcp-abandoned.md:1)
 
 ---
 

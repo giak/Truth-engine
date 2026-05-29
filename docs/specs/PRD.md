@@ -306,7 +306,7 @@ NOTE: Tous les {X} doivent être remplacés par des valeurs numériques
   - Validation: tests/tree/ (12 files)
 - ❌ **Google Search MCP** (Nov 16, 2025): REJECTED after load testing
   - 0% success rate (25 queries, 100% anti-bot blocking)
-  - Postmortem: docs/postmortems/2025-11-16-google-search-mcp-ABANDONED.md
+  - Postmortem: archive/v1/postmortems/2025-11-16-google-search-mcp-ABANDONED.md
   - Decision: Official APIs (WebSearch) > Scraping (Playwright)
 - ⏳ **v7.9 TIER 2** (Deferred): Specialized compressions (13KB target)
   - INVESTIGATION.md optimization (~1KB)

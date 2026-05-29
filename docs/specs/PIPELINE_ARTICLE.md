@@ -4,7 +4,7 @@
 
 **Version :** 1.0  
 **Date :** 2026-05-29  
-**Complète et unifie :** docs/STRUCTURE.md, USER_GUIDE.md (obsolète v8.0), KERNEL_v1_DEPRECATED.md  
+**Complète et unifie :** archive/v1/STRUCTURE.md, USER_GUIDE.md (obsolète v8.0), KERNEL_v1_DEPRECATED.md  
 **Ne remplace pas :** SUBLIMATOR_v28.0.md, truth-engine-v2/KERNEL.md — documents spécialisés à charger en complément  
 **Dépend de :** tools/prompts/systems/SUBLIMATOR_v28.0.md, truth-engine-v2/KERNEL.md, tools/scripts/lint-article.sh
 
@@ -455,9 +455,10 @@ truth-engine/
 ├── docs/
 │   ├── specs/              # Spécifications (PRD, TAD, WARP, PIPELINE)
 │   ├── user/               # Guides utilisateur
-│   ├── VISION.md           # Philosophie
-│   └── STRUCTURE.md        # Structure projet (obsolète)
-├── archive/                # Anciennes versions (systèmes, prompts)
+│   └── VISION.md           # Philosophie
+├── archive/                # Anciennes versions
+│   └── v1/
+│       ├── STRUCTURE.md    # Structure projet (obsolète)
 ├── AGENTS.md               # Règles du projet pour l'IA
 ├── KERNEL_v1_DEPRECATED.md # Ancien kernel (ne pas utiliser)
 ├── README.md               # README du projet
@@ -582,7 +583,7 @@ Le prompt SUBLIMATOR (v28.4) liste explicitement les 7 checks du script et deman
 | `tools/scripts/lint-article.sh` | ✅ Actif | 7 checks automatisés |
 | `AGENTS.md` | ✅ Actif | Règles projet pour l'IA |
 | `docs/VISION.md` | ✅ Actif | Philosophie générale |
-| `docs/STRUCTURE.md` | ❌ Obsolète | Parle de `kb/`, ne reflète pas la réalité |
+| `archive/v1/STRUCTURE.md` | ❌ Obsolète | Parle de `kb/`, ne reflète pas la réalité |
 | `docs/user/USER_GUIDE.md` | ⚠️ Partiellement obsolète | v8.0 — référence KERNEL v1, pas SUBLIMATOR |
 | `docs/specs/WARP.md` | ⚠️ Non maintenu | Ancien système MCP, pas le pipeline actuel |
 | `docs/specs/PRD.md` | ⚠️ Partiellement obsolète | Écrit pour le système WARP — le pipeline a évolué |

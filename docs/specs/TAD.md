@@ -662,7 +662,7 @@ ENGINE 3 - Google Search MCP (REJECTED):
   Success Rate: 0% (load tested 25 queries, 100% anti-bot blocking)
   Status: ❌ ABANDONED (Nov 16, 2025)
   Rationale: Google anti-bot overlay blocks 100% of automated clicks
-  Reference: docs/postmortems/2025-11-16-google-search-mcp-ABANDONED.md
+  Reference: archive/v1/postmortems/2025-11-16-google-search-mcp-ABANDONED.md
 ```
 
 ### Why Dual-Engine?
