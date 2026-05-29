@@ -1,6 +1,6 @@
 # INDEX — Investigations
 
-Registre de toutes les investigations, organisées par thème. **61 dossiers**, **0 fichier à la racine.**
+Registre de toutes les investigations, organisées par thème. **57 dossiers**, **0 fichier à la racine.**
 
 Légende : `📁 dossier/ (N fichiers)`
 
@@ -77,6 +77,7 @@ Légende : `📁 dossier/ (N fichiers)`
 | Dossier | Fichiers | Sujet |
 |---------|----------|-------|
 | [📁 2026-03-29-autoconsommation-effondrement](2026-03-29-autoconsommation-effondrement/) | 5 | Règles système, effondrement, autoconsommation |
+| [📁 2026-04-01-autoconsommation-systeme](2026-04-01-autoconsommation-systeme/) | 51 | L'auto-consommation du système occidental : méta-enquête systémique |
 | [📁 2026-03-30-decroissance-opposition](2026-03-30-decroissance-opposition/) | 23 | Décroissance, opposition contrôlée, Agenda 2030 |
 | [📁 2026-03-31-travail](2026-03-31-travail/) | 9 | Travail : système, Europe, philosophie, 2026 |
 
@@ -120,12 +121,13 @@ Légende : `📁 dossier/ (N fichiers)`
 | [📁 2026-02-divers](2026-02-divers/) | 1 | Salon agriculture, Lecornu |
 | [📁 2026-03-divers](2026-03-divers/) | 18 | Fichiers orphelins mars : ingérences, carburants, DSA, shadow banking |
 | [📁 2026-04-divers](2026-04-divers/) | 6 | Fichiers orphelins avril : mercosur, Atos, Durov, système judiciaire |
+| [📁 2026-04-21-misc](2026-04-21-misc/) | 1 | Dette publique française, vérification affirmations Marc Touati |
 
 ## Statistiques
 
 | Métrique | Valeur |
 |----------|--------|
-| Dossiers projets | 61 |
+| Dossiers projets | 57 |
 | Fichiers à la racine (hors INDEX) | **0** ✅ |
-| Fichiers organisés | 663 |
+| Fichiers organisés | 919 |
 | Période couverte | Février — Mai 2026 |
