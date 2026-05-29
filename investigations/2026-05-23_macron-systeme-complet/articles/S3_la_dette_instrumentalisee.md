@@ -2,9 +2,11 @@
 
 *📉 54 milliards d'euros d'intérêts par an, bientôt 100 milliards. La dette publique atteint 115,6 % du PIB. Mais le vrai problème n'est pas ce que la France doit : c'est ce qu'elle refuse de récupérer.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+La dette publique française dépasse 100 % du PIB depuis 2014 : elle n'est pas née avec le quinquennat Macron. Mais les choix fiscaux de 2017-2020 (ISF, flat tax, CICE, taxe d'habitation) ont ajouté 40 à 50 milliards par an de recettes non perçues à un problème qui existait déjà.
 
 ## §0 : 55 milliards d'intérêts par an : la dette comme arme politique
 
@@ -42,7 +44,7 @@ Le solde primaire (déficit hors charge de la dette) est déficitaire depuis 201
 
 Aux deux fuites identifiées s'ajoute une troisième hémorragie, de nature différente : le gaspillage systémique. Dépenses de conseil (2,5 Md€ en 2021), projets informatiques abandonnés (257 M€ Scribe, 1,2 Md€ sur 20 ans), erreurs de versement CAF (6,3 Md€), Fonds Marianne (2,5 M€) : autant d'argent qui sort des caisses sans produire le service attendu. Ces gaspillages documentés atteignent 4 à 8 Md€ par an en surface, mais le facteur ICEBERG (marchés sans concurrence, pantouflage non contrôlé, absence d'agrégat officiel) suggère un ordre de grandeur bien plus large.
 
-À ce gaspillage « actif » s'ajoute le **gaspillage institutionnel** : 434 opérateurs d'État pour 64 Md€ dont 14,5 Md€ économisables (comités Théodule), 35 000 communes qui doublonnent avec les intercommunalités pour 7,5 Md€ par an (rapport Ravignon), 53 Md€ de subventions associatives versées sans contrôle dont 3 à 10 Md€ récupérables, 4,96 Md€ d'administration préfectorale territoriale dont 60 à 70 % des missions doublonnent avec les départements, et environ 1 Md€ pour trois assemblées (Sénat, Assemblée, CESE) à l'efficacité déclinante. Au total, le gaspillage institutionnel documenté atteint 20 à 40 Md€ par an. Voir l'enquête détaillée dans **S2 : L'argent qui disparaît** (§5bis et §5ter).
+À ce gaspillage « actif » s'ajoute le **gaspillage institutionnel** : 434 opérateurs d'État pour 64 Md€ dont 14,5 Md€ économisables (comités Théodule), 35 000 communes qui doublonnent avec les intercommunalités pour 7,5 Md€ par an (rapport Ravignon), 53 Md€ de subventions associatives versées sans contrôle dont 3 à 10 Md€ récupérables, 4,96 Md€ d'administration préfectorale territoriale dont 60 à 70 % des missions doublonnent avec les départements, et environ 1 Md€ pour trois assemblées (Sénat, Assemblée, CESE) à l'efficacité déclinante. Au total, le gaspillage institutionnel documenté atteint 20 à 40 Md€ par an. Voir l'enquête détaillée dans **[S2 : L'argent qui disparaît](https://giak.substack.com/p/largent-qui-disparait-80-a-100-milliards)** (§5bis et §5ter).
 
 L'État ne perd pas seulement ce qu'on lui vole : il perd aussi ce qu'il jette.
 
@@ -134,7 +136,7 @@ Le service de la dette française est passé de 40 milliards d'euros en 2020 à 
 
 Cent milliards d'euros par an consacrés aux intérêts, c'est :
 
-- Plus que le budget de l'Éducation nationale (70 Md€) et de la Justice (10 Md€) réunis, selon le PLF 2026.
+- Plus que le budget de l'Éducation nationale (70 Md€) et de la Justice (10 Md€) réunis, selon le PLF 2026. *(Les conséquences de ce sous-financement sur le fonctionnement de la justice sont analysées dans **[S17 : La Justice fantôme](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)**.)*
 - **L'équivalent de 2,5 budgets de la Défense** (55 Md€, selon le PLF 2026).
 - **Plus que la totalité des investissements publics** (75 Md€, selon l'INSEE).
 
@@ -142,7 +144,7 @@ La charge de la dette est déjà le deuxième poste de dépenses de l'État, sel
 
 ### Le mécanisme causal
 
-Les recettes non perçues ou gaspillées (évasion fiscale, niches, fraude sociale, gaspillage) atteignent **200 milliards d'euros par an** (voir S2). Ce manque est compensé par l'emprunt. L'emprunt augmente la dette. La dette justifie l'austérité. L'austérité détruit les services publics.
+Les recettes non perçues ou gaspillées (évasion fiscale, niches, fraude sociale, gaspillage) atteignent **200 milliards d'euros par an** (voir [S2](https://giak.substack.com/p/largent-qui-disparait-80-a-100-milliards)). Ce manque est compensé par l'emprunt. L'emprunt augmente la dette. La dette justifie l'austérité. L'austérité détruit les services publics.
 
 Ce n'est pas une opinion. C'est une **chaîne causale documentée** : les recettes non perçues par l'évasion (article précédent) sont exactement de l'ordre de grandeur du déficit annuel, et la charge de la dette qui en résulte est exactement ce qui justifie les coupes budgétaires à venir.
 
@@ -162,15 +164,15 @@ L'argent qui disparaît aujourd'hui dans les paradis fiscaux, c'est la dette qui
 <!-- THEME: predation-invisible -->
 <!-- CROSS-REF: S2 -->
 
-## §6 : Ce que ce chapitre ne dit pas
+### §5.1 : Ce que les nuances confirment
 
-Cette analyse de la dette comme contrainte construite est pertinente mais partielle. Elle ignore que les dépenses exceptionnelles du Covid-19 (116 milliards), du bouclier énergétique (45 milliards) et de l'inflation ont creusé le déficit dans tous les pays européens, pas seulement en France. Le taux bas de la dette française n'est pas qu'un camouflage : il reflète aussi une confiance des marchés qui reste solide malgré tout. Le service de la dette, malgré sa hausse récente, reste inférieur à celui des années 1990, où il dépassait 60 milliards d'euros constants. Enfin, la question des investissements d'avenir financés par l'emprunt (plan France 2030 : 54 milliards) n'est pas abordée ici.
+Ces objections n'inversent pas le diagnostic : elles en précisent la portée. Oui, le Covid et le bouclier énergétique ont creusé le déficit dans toute l'Europe : mais la France y a répondu par des baisses d'impôts simultanées (62 Md€ depuis 2017), là où l'Allemagne a maintenu ses recettes. Oui, les marchés font encore confiance à la France : mais cette confiance est le produit des rachats massifs de la BCE, qui ont artificiellement soutenu la demande d'OAT pendant une décennie : mécanisme aujourd'hui en voie d'extinction. Oui, le service de la dette reste inférieur aux 60 milliards constants des années 1990 : mais il augmente plus vite que le PIB, et la tendance est à la hausse structurelle (55 Md€ en 2026, 100+ Md€ en 2029). Quant au plan France 2030 (54 Md€), il pose la question exacte que ce chapitre examine : un emprunt peut financer l'avenir : mais seulement si l'argent ainsi mobilisé n'est pas détourné par l'évasion et le service de la dette héritée.
 
 ---
 
-*📖 **Article suivant :** 🏥 Le Système de santé démantelé : Hôpital, déserts médicaux, EHPAD : la santé à deux vitesses [LIEN_A_INSERER]*
-*📖 **Article précédent :** 💰 L'Argent qui disparaît : 80 à 100 milliards d'évasion fiscale par an [LIEN_A_INSERER]*
-*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [LIEN_HUB_A_INSERER]*
+*📖 **Article suivant :** [🔒 Le Verrou : trois lois qui verrouillent l'avenir](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention)
+*📖 **Article précédent :** [💰 L'Argent qui disparaît : 80 à 100 milliards d'évasion fiscale par an](https://giak.substack.com/p/largent-qui-disparait-80-a-100-milliards)
+*📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : [Le Changement de Régime](https://giak.substack.com/p/le-changement-de-regime-pourquoi)*
 
 ---
 
@@ -180,6 +182,8 @@ Cette analyse de la dette comme contrainte construite est pertinente mais partie
 - 🔗 [« LE VAMPIRE DE LA CROISSANCE »](https://giak.substack.com/p/le-vampire-de-la-croissance) : analyse du mécanisme par lequel la dette étouffe l'investissement productif
 - 🔗 [« Budget 2026 : l'architecture du mensonge »](https://giak.substack.com/p/budget-2026-larchitecture-du-mensonge) : décryptage de la construction budgétaire qui masque le vrai coût de la dette
 - 🔗 [« L'Europe construit-elle un crédit social à la française ? »](https://giak.substack.com/p/leurope-construit-elle-un-credit) : sur la tutelle budgétaire européenne
+- 🔗 [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) : 6 étapes pour cesser d'alimenter la machine : comment agir à titre personnel
+- 🔗 [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) : RIC, tirage au sort, OS souverain : comment changer les règles du jeu
 
 ---
 

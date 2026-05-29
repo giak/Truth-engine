@@ -2,9 +2,11 @@
 
 *🌾 La France est la première puissance agricole d'Europe, mais 100 000 fermes ont disparu en 10 ans, 1 agriculteur se suicide tous les 2 jours, et 30 % des exploitants vivent sous le Smic. Le modèle agricole français, subventionné à 9 Md€/an par la PAC, concentre la richesse, empoisonne les sols et étrangle les petits paysans. Enquête sur un système qui tue ceux qui nous nourrissent.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [Le Changement de Régime](https://giak.substack.com/p/le-changement-de-regime-pourquoi)*
 
 ---
+
+La disparition des fermes est un phénomène continu depuis les années 1960 : 1,6 million d'exploitations en 1970 contre 390 000 en 2020. Mais l'accélération post-2017 est liée à la PAC 2023-2027 qui concentre encore 80 % des aides sur 20 % des fermes.
 
 ## §0 : Le paradoxe français
 
@@ -132,17 +134,17 @@ Le paradoxe est total : la France verse 9 Md€/an de PAC à ses agriculteurs po
 
 ### L'abdication organisée
 
-L'agriculture française est, dans l'architecture du Changement de Régime, le révélateur le plus complet de **l'abdication organisée** de la caste dirigeante. Elle concentre la TENSION 5 du système — l'externalisation — dans tous ses mécanismes : l'extraction (les grands groupes captent la valeur, les petits sont écrasés), l'abdication (la souveraineté alimentaire est abandonnée aux traités de libre-échange) et l'externalisation elle-même (le coût climatique, sanitaire et humain est transféré sur les générations futures et les plus vulnérables).
+L'agriculture française est, dans l'architecture du Changement de Régime, le révélateur le plus complet de **l'abdication organisée** de la caste dirigeante. Elle concentre la TENSION 5 du système : l'externalisation : dans tous ses mécanismes : l'extraction (les grands groupes captent la valeur, les petits sont écrasés), l'abdication (la souveraineté alimentaire est abandonnée aux traités de libre-échange) et l'externalisation elle-même (le coût climatique, sanitaire et humain est transféré sur les générations futures et les plus vulnérables).
 
 **100 000 fermes disparues, 9 Md€ de PAC concentrés sur 20 % des exploitations, 75 000 tonnes de pesticides par an, 1 suicide tous les 2 jours : la facture de l'abdication organisée se lit dans les corps, les sols et les comptes.** Et le résultat est que la France importe sa nourriture, délocalise sa production et laisse mourir ceux qui pourraient la nourrir.
 
 ### Les quatre mécanismes de l'externalisation agricole
 
-L'agriculture française externalise méthodiquement ses coûts sur quatre fronts simultanés :
+L'agriculture française externalise systématiquement ses coûts sur quatre fronts simultanés :
 
 - **L'externalisation économique :** 9 Md€/an de PAC concentrés sur 20 % des exploitations. L'argent public, qui devrait soutenir la souveraineté alimentaire, est capté par les plus gros, qui l'utilisent pour s'agrandir encore en absorbant les petites fermes dans un cycle de concentration inexorable.
 - **L'externalisation sanitaire :** 75 000 tonnes de pesticides par an, un suicide tous les 2 jours. Le coût humain du modèle n'est jamais facturé à ses bénéficiaires. Il est supporté par les agriculteurs (maladies, suicide), les riverains (pollution), les consommateurs (résidus, santé).
-- **L'externalisation commerciale :** CETA, Mercosur — la concurrence sans clauses miroir externalise les normes sociales et environnementales hors des frontières. La France importe ce qu'elle pourrait produire, produite dans des conditions qu'elle interdit à ses propres agriculteurs.
+- **L'externalisation commerciale :** CETA, Mercosur : la concurrence sans clauses miroir externalise les normes sociales et environnementales hors des frontières. La France importe ce qu'elle pourrait produire, produite dans des conditions qu'elle interdit à ses propres agriculteurs.
 - **L'externalisation climatique :** sécheresses à répétition, effondrement de la biodiversité, érosion des sols. Le modèle productiviste ignore le coût de sa propre destruction, qui sera payé par les générations futures.
 
 ### Le prix du renoncement
@@ -151,16 +153,16 @@ L'agriculture n'est pas un secteur économique comme les autres. Elle est le soc
 
 Ce n'est pas un accident de la politique agricole. C'est la logique même du système : quand la caste ne peut plus protéger ses producteurs, elle externalise leur survie sur le marché mondial. L'agriculture qui meurt n'est pas une crise : c'est le fonctionnement normal d'un système qui préfère importer sa nourriture plutôt que de renoncer à ses traités de libre-échange.
 
-➡️ **À lire ensuite :** 🇪🇺 L'Europe : cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€ [LIEN_A_INSERER]
+➡️ **À lire ensuite :** 🇪🇺 [L'Europe : cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€](https://giak.substack.com/p/leurope-piege-francais-12-contentieux)
 
-## §6 : Ce que ce chapitre ne dit pas
+### §5.1 : Ce que les alternatives révèlent
 
-Cette mise en accusation du modèle agricole productiviste ne mentionne pas les filières qui réussissent la transition. Les circuits courts, qui représentent aujourd'hui 12 % des achats alimentaires des Français, selon l'INSEE, créent 3 fois plus d'emplois par euro dépensé que la grande distribution et rémunèrent mieux les producteurs. L'agroécologie, testée dans le réseau DEPHY (3 000 fermes pilotes), a montré qu'on peut réduire l'usage des pesticides de 50 % sans perte de rendement, selon le ministère de l'Agriculture. La certification Haute Valeur Environnementale (HVE) concerne aujourd'hui 45 000 exploitations : un levier sous-exploité. Le chapitre n'évoque pas non plus le potentiel de l'agriculture de régénération des sols, qui séquestre le carbone tout en restaurant la fertilité. Enfin, l'essor de la filière des protéines végétales, encouragé par le plan France 2030 (2 Md€ d'investissement), pourrait réduire la dépendance aux importations de soja sud-américain, source majeure de déforestation importée. La question n'est pas seulement la survie du modèle agricole français, mais sa transformation : et les signaux faibles de cette transformation existent, même s'ils sont encore marginaux.
+Les alternatives ne démontrent pas que la transition est en marche : elles démontrent qu'elle est possible, mais verrouillée par les mêmes mécanismes de concentration décrits dans ce chapitre. Les circuits courts représentent 12 % des achats alimentaires et créent 3 fois plus d'emplois par euro dépensé : mais butent sur la grande distribution qui contrôle 80 % de la commercialisation. Le réseau DEPHY (3 000 fermes) prouve qu'on peut réduire les pesticides de 50 % sans perte de rendement : mais 3 000 fermes sur 390 000, c'est moins de 1 %, et le plan Écophyto n'a pas été généralisé en 15 ans. La certification HVE (45 000 exploitations) reste un label de niche sans contrainte sur les producteurs conventionnels. L'agriculture de régénération et les protéines végétales (2 Md€ via France 2030) sont des investissements réels, mais marginaux face aux 9 Md€ de PAC concentrés sur le modèle intensif. La question n'est pas de savoir si la transformation est techniquement possible : DEPHY le prouve. Elle est de savoir pourquoi 1 % des fermes expérimentent pendant que 99 % continuent de recevoir des aides qui les empêchent de changer.
 
 ---
 
-*📖 **Article suivant :** 🇪🇺 L'Europe : cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€ [LIEN_A_INSERER]*
-*📖 **Article précédent :** ⚡ L'Énergie sacrifiée : 92,3 TWh d'exportation, 65 Md€ de dette EDF, 12 millions de précaires [LIEN_A_INSERER]*
+*📖 **Article suivant :** [🇪🇺 L'Europe : cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€](https://giak.substack.com/p/leurope-piege-francais-12-contentieux)
+*📖 **Article précédent :** [⚡ L'Énergie sacrifiée : 92,3 TWh d'exportation, 65 Md€ de dette EDF, 12 millions de précaires](https://giak.substack.com/p/lenergie-sacrifiee-923-twh-exportes)
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
@@ -170,6 +172,8 @@ Cette mise en accusation du modèle agricole productiviste ne mentionne pas les 
 - [« La grande arnaque agricole »](https://giak.substack.com/p/la-grande-arnaque-agricole-comment) : 🔗 Le plus connexe : complète l'analyse des subventions concentrées
 - [« L'agriculture au scanner »](https://giak.substack.com/p/lagriculture-au-scanner) : 🔗 Lien direct : prolonge l'enquête sur le modèle qui tue les paysans
 - [« UE-Mercosur : le mensonge sanitaire »](https://giak.substack.com/p/ue-mercosur-le-mensonge-sanitaire) : 🔗 Le plus connexe : développe le volet libre-échange et concurrence déloyale
+
+*🔗 **Pour sortir du cadre.*** [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) (#9) et [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) (#62) : les deux textes qui esquissent une réponse au verrouillage systémique.
 
 ---
 

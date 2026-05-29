@@ -2,9 +2,11 @@
 
 *🔒 Trois verrous : institutionnel (49.3, ordonnances), médiatique (9 propriétaires, 90 % d'audience), citoyen (57 % d'abstention, 22 % de confiance) : s'emboîtent pour neutraliser toute contestation. Le Parlement est contourné, l'information est verrouillée, le vote est vidé de son sens. Enquête sur un système qui a rendu toute alternance impossible.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+Le 49.3 est utilisé depuis 1958 : entre 1958 et 2017, il a été employé 89 fois. Depuis 2022, il l'a été 23 fois en quatre ans, soit un rythme six fois supérieur à la moyenne historique.
 
 ## §0 : Trois verrous, une seule démocratie neutralisée
 
@@ -44,7 +46,7 @@ Le Conseil constitutionnel a censuré 27 articles de la loi immigration (2023), 
 
 Neuf propriétaires privés contrôlent 90 % de la diffusion médiatique en France, selon l'Arcom (Baromètre du pluralisme 2024). Télévision, radio, presse écrite, principaux sites d'information en ligne. Ce niveau de concentration est l'un des plus élevés d'Europe.
 
-Vincent Bolloré possédait Canal+, CNews, C8, Europe 1, Le Journal du Dimanche, Paris Match et une partie du Parisien. En 2024, l'Arcom a retiré la fréquence TNT de C8, qui a cessé d'émettre le 28 février 2025 après 32 sanctions et 7,5 M€ d'amendes accumulées — une décision inédite qui n'a pas empêché le groupe de conserver CNews, Europe 1 et le JDD. Xavier Niel (Free) contrôle Le Monde, L'Obs, Nice-Matin. Patrick Drahi (Altice) possédait BFM TV et RMC. Le groupe Dassault contrôle Le Figaro. Bernard Arnault (LVMH) possède Les Échos et Radio Classique. La loi anti-concentration (loi de 1986) fixe des seuils de détention systématiquement contournés par des montages juridiques, holdings, filiales, actionnariat croisé. Aucun gouvernement n'a renforcé la loi depuis 1986.
+Vincent Bolloré possédait Canal+, CNews, C8, Europe 1, Le Journal du Dimanche, Paris Match et une partie du Parisien. En 2024, l'Arcom a retiré la fréquence TNT de C8, qui a cessé d'émettre le 28 février 2025 après 32 sanctions et 7,5 M€ d'amendes accumulées : une décision inédite qui n'a pas empêché le groupe de conserver CNews, Europe 1 et le JDD. Xavier Niel (Free) contrôle Le Monde, L'Obs, Nice-Matin. Patrick Drahi (Altice) possédait BFM TV et RMC. Le groupe Dassault contrôle Le Figaro. Bernard Arnault (LVMH) possède Les Échos et Radio Classique. La loi anti-concentration (loi de 1986) fixe des seuils de détention systématiquement contournés par des montages juridiques, holdings, filiales, actionnariat croisé. Aucun gouvernement n'a renforcé la loi depuis 1986.
 
 ### La stratégie Bolloré
 
@@ -159,48 +161,46 @@ Le tabou que ce constat révèle est que la **Ve République est structurellemen
 
 Ce n'est pas une crise de la démocratie : c'est le **fonctionnement normal** d'un système qui a verrouillé les trois canaux de la contestation. Le changement de régime n'est pas seulement fiscal et social. Il est d'abord démocratique. **La démocratie française n'est pas malade. Elle est neutralisée, proprement, légalement, efficacement.**
 
-## §6 : Ce que ce chapitre ne dit pas
+Ce diagnostic ne porte pas sur Emmanuel Macron comme personne : il porte sur la configuration institutionnelle, médiatique et fiscale qui s'est consolidée entre 2017 et 2026. Macron en est l'incarnation, pas la cause. Une autre personne au même poste, avec les mêmes pouvoirs, produirait le même résultat. La question est donc : comment changer les règles du jeu ?
 
-Cette analyse des trois verrous démocratiques ne mentionne pas les innovations démocratiques qui émergent en dehors des canaux verrouillés. Elles sont dispersées, fragiles, souvent locales, mais leur accumulation dessine une résistance que le verrou n'a pas réussi à étouffer.
+Cette neutralisation légale a un nom : le **kayfabe**, concept emprunté au catch professionnel où le spectacle est présenté comme réel et le réel comme spectacle. Ici, le kayfabe ne signifie pas que rien n'est réel : il signifie que le spectacle est devenu le principal mode de gouvernement, et que ce spectacle produit des conséquences réelles : des expulsés, des véhicules bannis, des réformes jamais appliquées. Les acteurs du spectacle ne sont pas interchangeables : certains bénéficient du système, d'autres en sont les victimes, et le public n'est pas dupe.
+
+### §5.1 : Ce que les résistances révèlent
+
+Ces résistances ne contredisent pas le diagnostic du verrouillage : elles en sont la confirmation la plus cruelle. Les budgets participatifs (Paris, Grenoble, Rennes), les monnaies locales (Eusko, 4 000 usagers), les contre-pouvoirs journalistiques (Mediapart) : chacun prouve que la société civile *peut* s'organiser en dehors des canaux verrouillés. Et chacun prouve, par sa marginalité même, que le verrou tient. 4 000 usagers d'une monnaie locale, c'est 0,006 % de la population française. Mediapart, c'est 200 000 abonnés face aux 90 % d'audience que contrôlent 9 propriétaires. Les manifestations de 2023, les plus massives depuis 50 ans, n'ont pas modifié une ligne de la loi retraites.
+
+Le tirage au sort essaime (conventions citoyennes locales, conférence européenne) : mais il reste sans pouvoir décisionnel, comme l'a prouvé la trahison de la Convention citoyenne pour le climat. Les recours juridiques et la désobéissance civile s'intensifient : mais ils n'ont pas ébranlé un seul des trois piliers du verrou : le Parlement reste vidé, les médias restent verrouillés, l'abstention reste à 57 %. **Le verrou n'est pas absolu, mais sa force est précisément d'avoir rendu toute résistance dispersée, marginale, incapable d'atteindre la masse critique.** La question n'est pas de savoir si le verrou sautera, mais comment des résistances aussi fragmentées pourraient un jour ébranler un système qui les a toutes prévues : et qui les tolère parce qu'il les contrôle.
 
 <!-- ENRICHIE: la-constellation-davril -->
 <!-- THEME: resilience-locale -->
 <!-- CROSS-REF: S6, S10, S11 -->
 
-**Démocratie participative locale.** Les budgets participatifs, expérimentés dans des centaines de communes (Paris, Grenoble, Rennes), ont impliqué des centaines de milliers de citoyens dans la décision publique locale, avec des taux de participation bien supérieurs à ceux des élections municipales. Des plateformes comme DemocracyOS, Agora ou Bema testent des mécanismes de démocratie continue, tirage au sort et vote sur enjeux, qui ne passent ni par le Parlement ni par les médias traditionnels.
-
-**Résilience économique par le bas.** Les monnaies locales complémentaires : l'Eusko au Pays basque (plus de 4 000 usagers, 1 000 entreprises adhérentes), la Gonette à Lyon, le Sol-Violette à Toulouse, la Doume en Auvergne : créent des circuits économiques qui échappent à la logique du verrou financier. Les épiceries coopératives et les AMAP tissent des réseaux de résilience alimentaire que ni le marché ni l'État ne contrôlent. Les coopératives énergétiques (Enercoop, les centrales villageoises) produisent une électricité qui n'appartient pas aux oligopoles.
-
-**Conventions citoyennes et tirage au sort.** La Convention citoyenne pour le climat a été trahie, mais le modèle essaime : conventions citoyennes locales sur l'eau, l'alimentation, la mobilité, conventions régionales en Nouvelle-Aquitaine et en Bretagne, conférence européenne de citoyens sur le climat (2022). Le tirage au sort, marginal il y a cinq ans, est devenu une méthode reconnue de participation, même si le pouvoir refuse encore de lui donner un poids décisionnel réel.
-
-**Contre-pouvoirs journalistiques.** Le collectif Forbidden Stories, les enquêtes de Mediapart, le décryptage d'Arrêt sur images, les lanceurs d'alerte (l'affaire McKinsey, les révélations sur les cabinets de conseil) : des poches d'indépendance résistent à la concentration médiatique. Leur audience croît, mais leur modèle économique reste précaire.
-
-**Résistance sociale et syndicale.** Syndicats et associations recomposent un espace citoyen en dehors des canaux verrouillés : les recours juridiques contre les réformes, les actions de désobéissance civile, les grèves reconductibles, les manifestations de plus en plus massives (retraites 2023, plusieurs millions de personnes dans la rue). Le verrou tient, mais la pression monte.
-
-Le verrou est réel, mais il n'est pas absolu : la démocratie française n'est pas morte, elle est neutralisée, et les graines de sa renaissance existent, même si elles sont dispersées et fragiles. La question n'est pas de savoir si le verrou sautera, mais qui le fera sauter, et par quel canal.
-
 ---
 
-*📖 **Article suivant :** 💻 Le Numérique colonisé : 70 % des données sur serveurs américains, zéro souveraineté [LIEN_A_INSERER]*
-*📖 **Article précédent :** ⚔️ La Défense rongée [LIEN_A_INSERER]*
+*📖 **Article suivant :** 🏥 [Le Système de Santé démantelé : 6 000 lits supprimés, 30 % d'augmentation des dépassements d'honoraires](https://giak.substack.com/p/le-systeme-de-sante-demantele-8-millions)*
+*📖 **Article précédent :** [💸 La Dette instrumentalisée : 3 228 Md€, record absolu : le piège à deux doigts](https://giak.substack.com/p/la-dette-instrumentalisee-3-200-milliards)
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
 
 ### À voir aussi
 
+- [« Médias, censure et désinformation : l'architecture du silence »](https://giak.substack.com/p/medias-censure-et-desinformation) : 🔗 S12 : le verrou médiatique détaillé : concentration, arsenal légal, fragmentation algorithmique et guerre de l'information
+- [« La Justice fantôme »](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86) : 🔗 Lien direct : le cinquième verrou du régime, la justice sous-dimensionnée
 - [« La démocratie en cage »](https://giak.substack.com/p/la-democratie-en-cage) : 🔗 Le plus connexe : prolonge l'analyse du verrouillage institutionnel
 - [« Le paradoxe français : 66 % de colère, 0 issue »](https://giak.substack.com/p/le-paradoxe-francais-66-de-colere) : 🔗 Lien direct : complète le volet défiance citoyenne
 - [« Opposition contrôlée : anatomie d'un simulacre démocratique »](https://giak.substack.com/p/opposition-controlee-anatomie-dun) : 🔗 Lien direct : approfondit le verrou médiatique
 - [« Audiovisuel public : anatomie d'une asphyxie »](https://giak.substack.com/p/audiovisuel-public-anatomie-dune) : 🔗 Lien direct : documente la concentration médiatique
 - [« L'ingénierie de l'enclos »](https://giak.substack.com/p/lingenierie-de-lenclos) : 🔗 Lien direct : complète l'analyse des trois verrous
 - [« Les télégraphistes de la terreur »](https://giak.substack.com/p/les-telegraphistes-de-la-terreur) : 🔗 Lien indirect : explore un angle adjacent sur le contrôle de l'information
+- [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) : 🔗 #9 : 6 étapes pour cesser d'alimenter la machine
+- [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) : 🔗 #62 : RIC, tirage au sort, OS souverain
 
 ---
 
 ## Sources
 
-1. **Assemblée nationale** : Engagements de responsabilité et motions de censure depuis 1958. 23 recours par Borne (2022-2024) ; total porté à 28 par Barnier (1, déc. 2024), Bayrou (3, fév. 2025) et Lecornu (1, janv. 2026) : [assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/engagements_responsabilite-motions_censures/engagements-de-responsabilite-du-gouvernement-et-motions-de-censure-depuis-1958) — recoupement avec les relevés de presse (France Info, Vie publique)
+1. **Assemblée nationale** : Engagements de responsabilité et motions de censure depuis 1958. 23 recours par Borne (2022-2024) ; total porté à 28 par Barnier (1, déc. 2024), Bayrou (3, fév. 2025) et Lecornu (1, janv. 2026) : [assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/engagements_responsabilite-motions_censures/engagements-de-responsabilite-du-gouvernement-et-motions-de-censure-depuis-1958) : recoupement avec les relevés de presse (France Info, Vie publique)
 2. **Légifrance** : Loi n° 2021-646 du 25 mai 2021 pour la sécurité globale : [legifrance.gouv.fr](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043530276)
 3. **Conseil constitutionnel** : Décision n° 2023-863 DC du 25 janvier 2024 (loi immigration), censure 27 articles : [conseil-constitutionnel.fr](https://www.conseil-constitutionnel.fr/decision/2024/2023863DC.htm)
 4. **CEVIPOF** : Baromètre de la confiance politique 2025, vague 16 : 22 % de confiance dans la politique, 90 % des lois adoptées sans vote : [sciencespo.fr](https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-du-cevipof-2025-le-grand-desarroi-democratique/)
@@ -226,4 +226,4 @@ Le verrou est réel, mais il n'est pas absolu : la démocratie française n'est 
 24. **La Lettre A** : Audit Sextant confidentiel sur les comptes de CNews, C8 et Canal+, juillet 2023 : chaînes structurellement déficitaires : [lalettrea.fr](https://www.lalettrea.fr/)
 25. **Mediapart / France Inter / Off Investigation** : Enquêtes sur les SLAPP (poursuites-bâillons) de Vincent Bolloré contre des journalistes, 2022-2025 : [mediapart.fr](https://www.mediapart.fr/)
 26. **Nonna Mayer (Sciences Po, CEVIPOF)** : Lien entre précarité et abstention, 2022 : abstention 3× plus élevée chez les 20 % les plus précaires : [sciencespo.fr](https://www.sciencespo.fr/cevipof/)
-27. **Grand Débat national** : 1,9 million de contributions, 10 000 réunions locales, 2019 — bilan sans suite législative directe : [granddebat.fr](https://www.granddebat.fr/) ; analyses CEVIPOF 2020
+27. **Grand Débat national** : 1,9 million de contributions, 10 000 réunions locales, 2019 : bilan sans suite législative directe : [granddebat.fr](https://www.granddebat.fr/) ; analyses CEVIPOF 2020

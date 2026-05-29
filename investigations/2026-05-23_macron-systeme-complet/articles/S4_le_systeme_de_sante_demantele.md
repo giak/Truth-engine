@@ -2,9 +2,11 @@
 
 *🏥 8 millions de Français sans médecin traitant. 100 000 lits d'hôpital supprimés en 20 ans. 120 services d'urgence ferment chaque nuit. Enquête sur la liquidation du système de santé.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+La dégradation de l'hôpital public a commencé avec la T2A (2004), pas avec Macron. Mais entre 2013 et 2023, 43 500 lits ont été supprimés (soit -10,5 %) : une accélération continue. La France compte 2,8 lits pour 1 000 habitants contre 3,8 en Allemagne.
 
 ## §0 : Le paradoxe français de la santé
 
@@ -18,7 +20,7 @@ Le démantèlement du système de santé publique n'est pas un accident. C'est u
 
 Deux ministres de la Santé successifs incarnent ce choix. Olivier Véran a supervisé le Ségur (8,1 milliards) sans toucher à la T2A ni aux fermetures de lits. François Braun, auteur d'un rapport parlementaire dénonçant l'intérim médical en 2022, est devenu ministre la même année sans appliquer ses propres recommandations. Les deux ont présidé au même transfert de l'argent public vers le privé.
 
-Cet article est le quatrième d'une série de 16. Il détaille comment l'extraction de la richesse nationale par la caste (documentée dans les articles précédents) se traduit en souffrance concrète : des urgences qui ferment, des soignants qui fuient, des patients qui renoncent.
+Cet article est le quatrième d'une série de 17. Il détaille comment l'extraction de la richesse nationale par la caste (documentée dans les articles précédents) se traduit en souffrance concrète : des urgences qui ferment, des soignants qui fuient, des patients qui renoncent.
 
 ---
 
@@ -124,15 +126,15 @@ Chaque réforme transfère le risque social des comptes publics vers les comptes
 
 ## §5 : La justice, même démantèlement
 
-Le système judiciaire subit le même sous-financement que l'hôpital : 0,20 % du PIB contre 0,30 % en moyenne européenne (CEPEJ). Les tribunaux comptent 11 magistrats pour 100 000 habitants contre 21 en moyenne. Les 4,5 millions de plaintes annuelles s'engorgent dans cette machine sous-dimensionnée : **74 % sont classées sans suite**, et **86 229 détenus s'entassent dans 63 613 places** (135 % d'occupation, 5 500 matelas au sol, selon l'OIP). Pendant ce temps, le Parquet national financier, en dix ans, a obtenu 532 condamnations pour une fraude fiscale qui soustrait 80 à 100 milliards d'euros par an. **La justice n'est pas en crise : elle fonctionne comme un filtre de classe.** Les pauvres vont en prison, les riches paient des transactions.
+Le système judiciaire subit le même sous-financement que l'hôpital : 0,20 % du PIB contre 0,30 % en moyenne européenne (CEPEJ). → *L'enquête complète sur le verrou judiciaire est dans **[S17 : La Justice fantôme](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)**.* Les tribunaux comptent 11 magistrats pour 100 000 habitants contre 21 en moyenne. Les 4,5 millions de plaintes annuelles s'engorgent dans cette machine sous-dimensionnée : **74 % sont classées sans suite**, et **86 229 détenus s'entassent dans 63 613 places** (135 % d'occupation, 5 500 matelas au sol, selon l'OIP). Pendant ce temps, le Parquet national financier, en dix ans, a obtenu 532 condamnations pour une fraude fiscale qui soustrait 80 à 100 milliards d'euros par an. **La justice n'est pas en crise : elle fonctionne comme un filtre de classe.** Les pauvres vont en prison, les riches paient des transactions.
 
 ---
 
-## §6 : De l'argent qui disparaît à l'hôpital qui craque
+### §5.1 De l'argent qui disparaît à l'hôpital qui craque
 
-Les cinq sections précédentes ont montré le résultat concret du démantèlement sur la santé des Français, la justice et la protection sociale. Reste une question : pourquoi un pays qui dépense 12,3 % de son PIB pour la santé laisse-t-il son système public se dégrader ?
+Ce filtre de classe n'est pas un accident judiciaire : il est le prolongement logique d'un système qui transfère la richesse nationale vers le privé. Les cinq sections précédentes ont montré le résultat concret du démantèlement sur la santé des Français, la justice et la protection sociale. Reste une question : pourquoi un pays qui dépense 12,3 % de son PIB pour la santé laisse-t-il son système public se dégrader ?
 
-Les articles précédents ont documenté le mécanisme général : l'extraction par l'évasion fiscale et le gaspillage institutionnel prive l'État de 200 milliards d'euros par an (S2, S3). Dans le cas de la santé, cette hémorragie comptable se traduit par des choix budgétaires précis : la T2A comme variable d'ajustement, les fermetures de lits comme économie de façade, le sous-investissement chronique comme politique discrète.
+Les articles précédents ont documenté le mécanisme général : l'extraction par l'évasion fiscale (80-100 Md€/an), les niches injustifiées (~50 Md€/an), et le gaspillage institutionnel (~50 Md€/an) privent l'État d'au moins 200 milliards d'euros par an ([S2](https://giak.substack.com/p/largent-qui-disparait-80-a-100-milliards), [S3](https://giak.substack.com/p/la-dette-instrumentalisee-3-200-milliards)). Dans le cas de la santé, cette hémorragie comptable se traduit par des choix budgétaires précis : la T2A comme variable d'ajustement, les fermetures de lits comme économie de façade, le sous-investissement chronique comme politique discrète.
 
 Mais le mécanisme n'est pas comptable, il est **politique**. La T2A, les fermetures de lits, le sous-financement des EHPAD, la désertification médicale : ce ne sont pas des fatalités techniques, ce sont des **choix d'affectation des ressources** qui favorisent systématiquement le secteur privé au détriment du secteur public.
 
@@ -142,14 +144,24 @@ Le résultat est une **médecine à deux vitesses** qui reproduit les inégalit�
 
 Le prochain article montrera comment ce démantèlement des services publics, conjugué à l'extraction massive de la richesse nationale, produit une explosion de la pauvreté : 9,8 millions de Français sous le seuil de pauvreté, dont 2 millions de travailleurs pauvres.
 
-## §7 : Ce que ce chapitre ne dit pas
+### §5.2 Ce que les nuances sanitaires révèlent
 
-Ce constat de délabrement est accablant mais partiel. La dépense de santé (12,3 % du PIB) finance aussi un secteur privé qui répond à une demande réelle : chirurgie ambulatoire, soins programmés, et tout le secteur privé n'est pas une prédation. Les progrès médicaux (immunothérapie, thérapies géniques) et la transformation des pratiques (chirurgie mini-invasive, hospitalisation à domicile) expliquent en partie la baisse du nombre de lits. Le Ségur, bien qu'insuffisant, a apporté des revalorisations salariales (8,1 milliards) qui ont amélioré le quotidien de centaines de milliers de soignants. Enfin, la pyramide des âges des médecins généralistes est une contrainte démographique qu'aucun gouvernement n'a su résoudre.
+Ce constat de démantèlement systémique est accablant, mais quatre nuances méritent examen. Elles ne fragilisent pas le diagnostic : elles en précisent les mécanismes.
+
+**Primo, le secteur privé répond à une demande réelle.** Chirurgie ambulatoire, soins programmés, confort hôtelier : la demande existe, et tout le privé n'est pas une prédation. Mais cette demande est satisfaite par un écrémage systématique : le privé sélectionne les actes rentables, laisse à l'hôpital public les urgences, les pathologies lourdes, les patients non solvables. Le problème n'est pas l'existence d'un secteur privé : c'est l'absence de régulation qui transforme une complémentarité potentielle en pompage organisé des ressources publiques.
+
+**Secundo, les progrès médicaux réduisent le besoin de lits.** Immunothérapie, chirurgie mini-invasive, hospitalisation à domicile : ces innovations expliquent une baisse tendancielle du nombre de lits, constatée dans tous les pays développés. Mais les 28 000 lits supprimés depuis 2017, dont 7 000 en psychiatrie, dépassent largement les besoins structurels liés aux innovations. 120 fermetures d'urgences par nuit, 8 millions de patients sans médecin traitant : la coupe est trop brutale pour être une modernisation : c'est un désinvestissement déguisé.
+
+**Tertio, le Ségur a apporté 8,1 milliards de revalorisations salariales.** Des centaines de milliers de soignants ont vu leur salaire augmenter. Mais cet effort a été annulé par l'inflation, la hausse des charges et la poursuite des fermetures. En 2024, 75 % des hôpitaux publics sont déficitaires, la dette cumulée atteint 30 milliards d'euros : le Ségur était un rattrapage nécessaire mais insuffisant, pas une réforme structurelle.
+
+**Quarto, la pyramide des âges des généralistes est une contrainte démographique.** 8 % de généralistes en moins entre 2010 et 2020, des départs à la retraite massifs. Le numerus clausus, imposé de 1971 à 2020, a artificiellement restreint le nombre de médecins formés pendant un demi-siècle. Une contrainte démographique, oui : mais fabriquée par une politique publique. La suppression du numerus clausus en 2020 ne produira ses effets qu'en 2035. C'est un choix politique maintenu sur trois générations, pas une fatalité.
+
+Ces nuances ne sont pas des excuses : elles dessinent la carte exacte des choix politiques qui ont produit la crise sanitaire. Chaque contre-argument renvoie à une décision : laisser le privé sélectionner les actes, transformer les progrès médicaux en prétexte de coupes, limiter le Ségur à un pansement, maintenir le numerus clausus cinquante ans de trop.
 
 ---
 
-*📖 **Article suivant :** 📦 Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil [LIEN_A_INSERER]*
-*📖 **Article précédent :** 📉 La Dette instrumentalisée : 3 200 milliards qui ne disent pas leur nom [LIEN_A_INSERER]*
+*📖 **Article suivant :** [📦 Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil](https://giak.substack.com/p/les-visages-de-la-pauvrete-98-millions)
+*📖 **Article précédent :** 🔒 [Le Verrou : 28 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias : la démocratie neutralisée](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention)*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
@@ -158,6 +170,8 @@ Ce constat de délabrement est accablant mais partiel. La dépense de santé (12
 
 - 🔗 [« UE-Mercosur : le mensonge sanitaire »](https://giak.substack.com/p/ue-mercosur-le-mensonge-sanitaire) : sur les normes sanitaires sacrifiées sur l'autel du libre-échange
 - 🔗 [« CE QUE L'ÉTAT VOUS CACHE SUR LA DNC »](https://giak.substack.com/p/ce-que-letat-vous-cache-sur-la-dnc) : enquête sur les défaillances du système de santé
+- 🔗 [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) : 6 étapes pour cesser d'alimenter la machine : comment agir à titre personnel
+- 🔗 [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) : RIC, tirage au sort, OS souverain : comment changer les règles du jeu
 
 ---
 

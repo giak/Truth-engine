@@ -2,9 +2,11 @@
 
 *🏭 La France était une puissance industrielle. Elle ne l'est plus. 2 millions d'emplois détruits en vingt ans, 81 milliards de déficit commercial, 4 secteurs stratégiques en dépendance critique. Comment le 5e exportateur mondial a-t-il laissé sa base productive se liquéfier ?*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+La désindustrialisation française a commencé en 1975 : la part de l'industrie dans le PIB est passée de 24 % à 10 %. Depuis 2017, 200 000 emplois industriels supplémentaires ont été perdus, mais le mouvement est cinquantenaire.
 
 ## §0 : Le paradoxe français de l'industrie
 
@@ -13,6 +15,8 @@ La France était le 5e exportateur mondial en 2000, selon l'OMC. Aujourd'hui, l'
 > **Comment un pays qui était une puissance industrielle a-t-il pu perdre sa base productive en une génération ?**
 
 Ce déclin n'est pas une fatalité géographique. L'Allemagne maintient une industrie à 20 % du PIB. La Corée du Sud, Singapour, la Suisse ont construit leur tissu industriel par des politiques volontaristes. La différence est dans les choix nationaux.
+
+La désindustrialisation française a quatre causes principales : 40 % la financiarisation de l'économie (dividendes, rachats d'actions, flat tax), 30 % l'absence de conditionnalité des 150 Md€ d'aides publiques aux entreprises, 20 % trente ans de libre-échange non régulé, 10 % l'absence de politique industrielle assumée. Les trois premières sont des choix politiques maintenus depuis trente ans ; la quatrième est une abdication.
 
 Le 27 novembre 2025, l'Assemblée nationale a voté la nationalisation d'ArcelorMittal France : 127 voix pour, 41 contre. Vote symbolique : le projet n'a jamais eu de suite.
 
@@ -72,7 +76,7 @@ La désindustrialisation n'est pas le résultat d'un complot ou d'une fatalité 
 
 ### La financiarisation de l'économie
 
-Le CAC 40 a versé plus de **70 milliards d'euros de dividendes** en 2024, selon Proxinvest, et racheté pour 80 milliards d'actions. Ces sommes auraient pu financer des investissements productifs, de la recherche, des embauches. Elles ont été distribuées aux actionnaires. Le taux d'investissement productif des entreprises françaises est tombé à environ **12-13 % de la valeur ajoutée**, contre 15-16 % en Allemagne selon l'OCDE. La financiarisation n'est pas un phénomène naturel : elle est le résultat de politiques fiscales qui favorisent le capital sur le travail. La flat tax à 30 % sur les revenus du capital, instaurée en 2018, et la suppression de l'ISF sur le capital mobilier ont orienté les flux financiers vers la rente plutôt que vers la production.
+Le CAC 40 a versé plus de **72,8 milliards d'euros de dividendes** en 2024, selon le rapport annuel Vernimmen/La Croix, et racheté pour 80 milliards d'actions. Ces sommes auraient pu financer des investissements productifs, de la recherche, des embauches. Elles ont été distribuées aux actionnaires. Le taux d'investissement productif des entreprises françaises est tombé à environ **12-13 % de la valeur ajoutée**, contre 15-16 % en Allemagne selon l'OCDE. La financiarisation n'est pas un phénomène naturel : elle est le résultat de politiques fiscales qui favorisent le capital sur le travail. La flat tax à 30 % sur les revenus du capital, instaurée en 2018, et la suppression de l'ISF sur le capital mobilier ont orienté les flux financiers vers la rente plutôt que vers la production.
 
 ### L'absence de conditionnalité des aides publiques
 
@@ -88,7 +92,7 @@ La France a renoncé à toute forme de planification industrielle. La Datar a é
 
 ### L'affaire Alstom, symbole de l'abdication
 
-Alstom, fleuron français de l'énergie et du transport, a été vendu à General Electric en 2015 sous pression du Department of Justice américain : affaire Pierucci, 772 M$ d'amende FCPA. Son PDG Patrick Kron est reparti avec 4 à 6,5 M€ de prime et 10,5 M€ de retraite chapeau. Le PNF aurait classé l'enquête en 2024. **Emmanuel Macron était ministre de l'Économie (2014-2016) pendant cette vente. Il n'a pas utilisé son droit d'opposition. Devenu président, il n'a pas davantage inversé la trajectoire de désindustrialisation.**
+Alstom, fleuron français de l'énergie et du transport, a été vendu à General Electric en 2015 sous pression du Department of Justice américain : affaire Pierucci, 772 M$ d'amende FCPA. Son PDG Patrick Kron est reparti avec 4 à 6,5 M€ de prime et 10,5 M€ de retraite chapeau. Le PNF aurait classé l'enquête en 2024. *(L'impuissance du PNF face aux dossiers sensibles est documentée dans **[S17 : La Justice fantôme](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)**.)* **Emmanuel Macron était ministre de l'Économie (2014-2016) pendant cette vente. Il n'a pas utilisé son droit d'opposition. Devenu président, il n'a pas davantage inversé la trajectoire de désindustrialisation.**
 
 <!-- ENRICHIE: nationalisation-darcelormittal-ce -->
 <!-- THEME: predation-invisible -->
@@ -118,25 +122,28 @@ La désindustrialisation n'est pas une fatalité. D'autres pays ont inversé la 
 
 ### Mais ces solutions supposent de rompre avec le système
 
-Ces solutions existent, sont connues, documentées. Elles ne sont pas appliquées parce qu'elles supposent de rompre avec les mécanismes décrits dans les articles précédents de cette enquête : l'extraction massive (200 milliards d'euros par an, évasion, niches, fraude sociale, gaspillage, voir S2), le verrouillage des institutions (médias, justice, Parlement), la priorité donnée aux intérêts privés sur l'intérêt général.
+Ces solutions existent, sont connues, documentées. Elles ne sont pas appliquées parce qu'elles supposent de rompre avec les mécanismes décrits dans les articles précédents de cette enquête : l'extraction massive (200 milliards d'euros par an, évasion, niches, fraude sociale, gaspillage, voir [S2](https://giak.substack.com/p/largent-qui-disparait-80-a-100-milliards)), le verrouillage des institutions (médias, justice, Parlement), la priorité donnée aux intérêts privés sur l'intérêt général.
 
-**Conditionner les aides aux entreprises** supposerait d'affronter le CAC 40 et ses actionnaires. Planifier la réindustrialisation supposerait de rompre avec les traités européens qui interdisent les politiques industrielles protectionnistes. Protéger aux frontières supposerait de s'opposer aux accords de libre-échange que la caste a signés.
+**Conditionner les aides aux entreprises** supposerait d'affronter le CAC 40 et ses actionnaires. Planifier la réindustrialisation supposerait de rompre avec les traités européens qui interdisent les politiques industrielles protectionnistes. Protéger aux frontières supposerait de s'opposer aux accords de libre-échange signés par la France.
 
-La désindustrialisation n'est pas un échec de la politique économique. C'est une **conséquence normale d'un système de prédation** qui privilégie la rente immédiate sur l'investissement productif. Elle ne sera pas résolue par des réformes à la marge parce que les solutions exigent une rupture que le système ne peut pas produire de l'intérieur. Le prochain article montrera comment la même logique d'abdication s'applique au cadre européen : la France a délégué sa souveraineté sans obtenir d'influence en retour.
+La désindustrialisation n'est pas un échec de la politique économique. C'est une **conséquence normale d'un système de prédation** qui privilégie la rente immédiate sur l'investissement productif. Elle ne sera pas résolue par des réformes à la marge parce que les solutions exigent une rupture que le système ne peut pas produire de l'intérieur. Le prochain article montrera comment la même logique d'abdication s'applique au cadre européen : la France a délégué sa souveraineté sans obtenir d'influence en retour.---
+
+### §4.1 Ce que les nuances internationales révèlent
+
+Ces trois nuances ne contredisent pas le diagnostic d'un système de prédation français : elles en précisent le mécanisme.
+
+**Primo**, la désindustrialisation est mondiale : mais ses exceptions sont des choix politiques. Entre 2000 et 2020, la part de l'industrie dans le PIB a baissé aux États-Unis (15 % à 11 %) et au Royaume-Uni (14 % à 10 %), selon la Banque mondiale : mais l'Allemagne (20 %) et la Corée du Sud ont maintenu leur base productive par des politiques volontaristes que la France a refusées. Le phénomène global existe, mais la France a aggravé la tendance en choisissant la financiarisation plutôt que l'investissement productif.
+
+**Secundo**, la France conserve des fleurons : dans les secteurs où l'État a gardé un rôle stratégique. Airbus, Safran, Thales, Naval Group, EDF, Alstom ferroviaire sont des entreprises où la puissance publique actionnaire ou donneur d'ordres a maintenu l'exigence industrielle. Leur existence ne prouve pas que le marché fonctionne : elle prouve que l'État sait encore agir quand il le décide.
+
+**Tertio**, France Relance et France 2030 ont financé des projets réels : mais sans conditionnalité. L'usine ACC de Douvrin et la gigafactory de Crolles sont des réalités, mais elles ne représentent que 3 % des besoins européens en semi-conducteurs. Ces plans n'ont pas inversé la courbe parce qu'ils ont été conçus pour ne pas remettre en cause le système : des subventions sans contrepartie, des investissements sans planification.
+
+Les contre-exemples ne sont pas des échecs du diagnostic. Ils sont sa confirmation : la désindustrialisation française n'est pas une fatalité économique : c'est un choix politique maintenu.
 
 ---
 
-
-
-
-## §6 : Ce que ce chapitre ne dit pas
-
-Le récit d'une France désindustrialisée par les seuls choix politiques mérite d'être nuancé. **Primo**, la désindustrialisation est un phénomène mondial : entre 2000 et 2020, la part de l'industrie dans le PIB a baissé dans tous les pays développés, des États-Unis (15 % à 11 %) au Royaume-Uni (14 % à 10 %), selon la Banque mondiale. La France n'est pas une exception. **Secundo**, l'article ne mentionne pas les succès industriels français : Airbus, Safran, Thales, Naval Group, EDF, Alstom ferroviaire, LVMH. La France reste leader mondial dans l'aéronautique, le nucléaire, le luxe et les cosmétiques, et elle est le 3e exportateur mondial d'armement, selon le SIPRI (2024). **Tertio**, les plans France Relance (100 milliards) et France 2030 (54 milliards) ont financé des projets réels : usine de batteries à Douvrin (ACC), gigafactory de semi-conducteurs à Crolles, investissements dans l'hydrogène vert. Leurs effets, insuffisants, sont absents de l'analyse.
-
----
-
-*📖 **Article suivant :** 🇪🇺 L'Europe : cadre ou carcan ? : 12 contentieux, 10 Md€ de contribution nette, NextGenEU 40 Md€ [LIEN_A_INSERER]*
-*📖 **Article précédent :** 📦 Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil [LIEN_A_INSERER]*
+*📖 **Article suivant :** 📚 [L'École et l'Éducation sacrifiées : 86 milliards d'euros, 43 points PISA, 120 000 postes supprimés](https://giak.substack.com/p/lecole-sans-transmission-43-points)*
+*📖 **Article précédent :** [📦 Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil](https://giak.substack.com/p/les-visages-de-la-pauvrete-98-millions)
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
@@ -144,6 +151,8 @@ Le récit d'une France désindustrialisée par les seuls choix politiques mérit
 ### À voir aussi
 
 - 🔗 [« Nationalisation d'ArcelorMittal »](https://giak.substack.com/p/nationalisation-darcelormittal-ce) : sur la souveraineté industrielle et le rachat de la sidérurgie française par des intérêts étrangers
+- 🔗 [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) : 6 étapes pour cesser d'alimenter la machine : comment agir à titre personnel
+- 🔗 [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) : RIC, tirage au sort, OS souverain : comment changer les règles du jeu
 
 ---
 
@@ -158,5 +167,5 @@ Le récit d'une France désindustrialisée par les seuls choix politiques mérit
 7. **Semiconductor Industry Association** : Europe 10 % de la production mondiale de semi-conducteurs, 2025 Factbook, [https://www.semiconductors.org/resources/factbooks](https://www.semiconductors.org/resources/factbooks)
 8. **Bruegel / SolarPower Europe** : 95 % des panneaux solaires installés en Europe importés de Chine, [https://www.bruegel.org/policy-brief/smarter-european-union-industrial-policy-solar-panels](https://www.bruegel.org/policy-brief/smarter-european-union-industrial-policy-solar-panels)
 9. **France Stratégie** : Aides publiques aux entreprises : plus de 150 Md€/an, [https://www.strategie-plan.gouv.fr/publications/les-aides-aux-entreprises-en-france-de-quoi-parle-t](https://www.strategie-plan.gouv.fr/publications/les-aides-aux-entreprises-en-france-de-quoi-parle-t)
-10. **Proxinvest** : Dividendes CAC40 2024 : 70 Md€, rachats d'actions 2022 : 80 Md€, [https://www.proxinvest.com/2025/11/19/publication-du-rapport-annuel-proxinvest-sur-les-remunerations-des-dirigeants-4/](https://www.proxinvest.com/2025/11/19/publication-du-rapport-annuel-proxinvest-sur-les-remunerations-des-dirigeants-4/)
+10. **Vernimmen / La Croix** : Dividendes CAC40 2024 : 72,8 Md€, [https://www.la-croix.com/economie/record-historique-des-dividendes-verses-par-les-societes-du-cac-40-20250117](https://www.la-croix.com/economie/record-historique-des-dividendes-verses-par-les-societes-du-cac-40-20250117) ; rachats d'actions 2022 : 80 Md€, [https://www.proxinvest.com/2025/11/19/publication-du-rapport-annuel-proxinvest-sur-les-remunerations-des-dirigeants-4/](https://www.proxinvest.com/2025/11/19/publication-du-rapport-annuel-proxinvest-sur-les-remunerations-des-dirigeants-4/)
 11. **Cour des comptes** : Absence de conditionnalité des aides publiques aux entreprises, CICE sans contrepartie, [https://www.ccomptes.fr/fr/publications/le-credit-dimpot-pour-la-competitivite-et-lemploi](https://www.ccomptes.fr/fr/publications/le-credit-dimpot-pour-la-competitivite-et-lemploi)

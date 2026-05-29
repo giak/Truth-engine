@@ -2,9 +2,11 @@
 
 *📦 9,8 millions de Français vivent sous le seuil de pauvreté. 2 millions de travailleurs pauvres. 330 000 sans-domicile. La France dépense 31 % de son PIB en protection sociale ; et n'a jamais autant abandonné les siens.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [LIEN_HUB_A_INSERER]*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : [Le Changement de Régime](https://giak.substack.com/p/le-changement-de-regime-pourquoi)*
 
 ---
+
+Le taux de pauvreté après transferts est passé de 13 % en 2004 à 14,5 % en 2022 : une tendance lente que les réformes post-2017 (défiscalisation, gel du RSA réel) ont accentuée sans la créer.
 
 ## §0 : Le paradoxe français de la pauvreté
 
@@ -112,7 +114,7 @@ Le taux de non-recours à la Complémentaire Santé Solidaire, qui offre une cou
 
 Les quatre sections précédentes ont montré le visage de la pauvreté en France en 2026. Reste une question : pourquoi ?
 
-La réponse est dans les articles précédents de cette enquête. Les recettes non perçues ou gaspillées : évasion fiscale, niches, fraude sociale, gaspillage, atteignent **200 milliards d'euros par an** (S2). Elles privent l'État de recettes du même ordre que le déficit budgétaire. Ce manque est compensé par l'emprunt, qui nourrit la dette. La dette à 115,6 % du PIB justifie l'austérité. L'austérité frappe d'abord les transferts sociaux et les services publics.
+La réponse est dans les articles précédents de cette enquête. Les recettes non perçues ou gaspillées : évasion fiscale, niches, fraude sociale, gaspillage, atteignent **200 milliards d'euros par an** ([S2](https://giak.substack.com/p/largent-qui-disparait-80-a-100-milliards)). Elles privent l'État de recettes du même ordre que le déficit budgétaire. Ce manque est compensé par l'emprunt, qui nourrit la dette. La dette à 115,6 % du PIB justifie l'austérité. L'austérité frappe d'abord les transferts sociaux et les services publics.
 
 Mais la pauvreté n'est pas le résultat d'une fatalité économique. **C'est le résultat de choix politiques** qui organisent systématiquement la précarité :
 
@@ -122,7 +124,7 @@ Mais la pauvreté n'est pas le résultat d'une fatalité économique. **C'est le
 - Le choix de **maintenir 80 à 100 milliards d'euros d'évasion fiscale** plutôt que de donner à Bercy les moyens de recouvrer l'impôt
 - Le choix de **supprimer l'ISF** sur le capital mobilier (5 milliards d'euros par an) plutôt que de financer les minima sociaux
 
-Ces choix ne sont pas des accidents. Ils sont la **conséquence normale du fonctionnement d'un système de prédation** : la caste extrait la richesse nationale, verrouille les institutions pour se protéger (article S15), et laisse la pauvreté s'étendre comme le sous-produit inévitable de son extraction.
+Ces choix ne sont pas des accidents. Ils sont la **conséquence normale du fonctionnement d'un système de prédation** : la caste extrait la richesse nationale, verrouille les institutions pour se protéger (article [S15](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention), et laisse la pauvreté s'étendre comme le sous-produit inévitable de son extraction.
 
 **Bruno Le Maire**, ministre de l'Économie pendant les deux quinquennats Macron, incarne cette continuité. C'est lui qui a porté les deux réformes de l'assurance chômage (2021, 2023), la réforme des retraites, le RSA conditionné, tout en maintenant une politique fiscale qui favorise l'évasion. Il est le thread commun entre l'extraction documentée dans cette enquête et son résultat humain : 9,8 millions de pauvres. La précarité ne se limite pas au revenu : 29 % de la population présente un score de précarité élevé (indicateur Epices), et l'abstention est 3 fois plus élevée chez les 20 % les plus précaires, selon l'INSEE et les travaux de Nonna Mayer (Sciences Po).
 
@@ -136,14 +138,16 @@ La pauvreté n'est pas un échec de la politique sociale. C'est la **trace humai
 
 Le prochain article montrera comment ce même système abandonne aussi l'avenir du pays : l'école, les enseignants, les enfants.
 
-## §6 : Ce que ce chapitre ne dit pas
+### §5.1 : La comparaison qui confirme la règle
 
-Le tableau est sombre, mais une réserve s'impose : le taux de pauvreté français à 15,4 % reste inférieur à la moyenne OCDE (environ 18 %), bien en dessous des États-Unis (21 %) ou du Royaume-Uni (16 %). La France protège encore mieux que ses voisins : mais c'est justement le paradoxe : un pays qui dépense 31 % de son PIB en protection sociale n'a pas le droit de se comparer à des pays qui dépensent moins. **Le véritable étalon n'est pas l'OCDE, c'est la promesse républicaine : l'égalité.** Le système corrige de moins en moins les inégalités de marché (15 % contre 27 % moyenne OCDE pour les actifs). La revalorisation du SMIC et la prime d'activité n'ont pas empêché la perte de 200 euros de pouvoir d'achat d'un smicard entre 2021 et 2024. Les mesures de justice sociale de la réforme des retraites (minimum à 1 200 euros) ne compensent pas 46 ans de travail dans des métiers où l'espérance de vie en bonne santé est inférieure de 5 à 7 ans. Les chocs exogènes (Covid, inflation, guerre) ont frappé toute l'Europe, et la France s'en sort moins bien que ses voisins à budget social comparable. La pauvreté n'est pas une fatalité conjoncturelle. C'est un choix politique.
+Cette chaîne causale n'est pas démentie par la comparaison internationale : elle en est éclairée. Le taux de pauvreté français (15,4 %) reste inférieur à la moyenne OCDE (18 %), bien en dessous des États-Unis (21 %) ou du Royaume-Uni (16 %). Mais la France dépense 31 % de son PIB en protection sociale, contre 20 % en moyenne dans l'OCDE : ce n'est pas une performance, c'est un paradoxe qui accuse le système. Le véritable étalon n'est pas l'OCDE, c'est la promesse républicaine : l'égalité.
+
+Le système corrige de moins en moins les inégalités de marché (15 % contre 27 % moyenne OCDE pour les actifs). La revalorisation du SMIC et la prime d'activité n'ont pas empêché la perte de 200 euros de pouvoir d'achat d'un smicard entre 2021 et 2024. Les mesures de justice sociale de la réforme des retraites (minimum à 1 200 euros) ne compensent pas 46 ans de travail dans des métiers où l'espérance de vie en bonne santé est inférieure de 5 à 7 ans. Les chocs exogènes (Covid, inflation, guerre) ont frappé toute l'Europe, et la France s'en sort moins bien que ses voisins à budget social comparable. La pauvreté n'est pas une fatalité conjoncturelle. C'est un choix politique.
 
 ---
 
-*📖 **Article suivant :** 📚 L'École et l'Éducation sacrifiées : 120 000 postes supprimés, 43 points perdus, 51 % sans repères [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🏥 Le Système de santé démantelé : 8 millions de Français sans médecin traitant [LIEN_A_INSERER]*
+*📖 **Article suivant :** 🏭 [La France désindustrialisée : 81 milliards de déficit, 9,7 % du PIB, zéro souveraineté](https://giak.substack.com/p/la-france-desindustrialisee-81-milliards)*
+*📖 **Article précédent :** [🏥 Le Système de santé démantelé : 8 millions de Français sans médecin traitant](https://giak.substack.com/p/le-systeme-de-sante-demantele-8-millions)
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
@@ -152,6 +156,8 @@ Le tableau est sombre, mais une réserve s'impose : le taux de pauvreté frança
 
 - 🔗 [« LE GRAND MANÈGE DE LA DÉPOSSESSION »](https://giak.substack.com/p/le-grand-manege-de-la-depossession) : sur le mécanisme par lequel le travail n'empêche plus la pauvreté
 - 🔗 [« L'EMPIRE DES MIETTES »](https://giak.substack.com/p/lempire-des-miettes) : analyse de la précarisation structurelle des classes populaires
+- 🔗 [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) : 6 étapes pour cesser d'alimenter la machine : comment agir à titre personnel
+- 🔗 [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) : RIC, tirage au sort, OS souverain : comment changer les règles du jeu
 
 ---
 

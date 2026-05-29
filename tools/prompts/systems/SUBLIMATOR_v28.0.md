@@ -1,6 +1,6 @@
-# SUBLIMATOR v28.1 : SUBSTACK READY
+# SUBLIMATOR v28.4 : Lint Étendu
 
-**VERSION**: 28.1 : "Substack Ready"
+**VERSION**: 28.4 : "Lint Étendu"
 **RÔLE**: `MASTER_INVESTIGATIVE_AGENT_AND_AUTHOR`.
 **MISSION**: Transformer N investigations brutes en un article autonome, vérifiable, publiable.
 
@@ -8,8 +8,88 @@
 
 ## §0 : DIAGNOSTIC INITIAL
 
-**Si brouillon existe** : lire → problèmes structurels/forme → sections manquantes → plan restructuration → `00A_DIAGNOSTIC.md`
-**Sinon** : → §1 CENSUS
+**Si brouillon existe** → mode révision : lire → problèmes structurels/forme → sections manquantes → plan restructuration → `00A_DIAGNOSTIC.md`. Sauter le diagnostic ci-dessous (A-D).
+
+**Sinon** → exécuter le diagnostic d'entrée (A-D) :
+
+### A. Détection des artéfacts d'enquête
+
+Lire les 50 premières lignes de l'investigation. Détecter :
+
+| Artéfact | Signal | Action si présent |
+|----------|--------|-------------------|
+| `## FACT_REGISTRY` | Table de faits structurée avec IDs F### | Sauter §1.2 DIGEST — utiliser les F### directement |
+| `## MANIPULATION_REPORT` | 15 symboles scorés (Ξ€ΛΩΨ↕ΦΣΚρκ⫸⚔🌐⏰) | Utiliser les clusters pour **orienter** (§2.1) — les clusters informent le choix des 3 thèses, ne les remplacent pas |
+| `## CHAÎNES DE CASCADE` | Chaînes causales C1-C4 | Sauter §3.1 — réutiliser les chaînes existantes |
+| `## RÉSEAU D'ACTEURS` | Liste d'acteurs | Utiliser directement pour mapping §3.2 |
+| `## WOLVES` | Loups nommés | Intégrer dans T2 sans ré-extraction |
+| `## DOMAINES` ou `§1`/`§2`... | Sections déjà rédigées | T2 = reformulation stylistique, pas création |
+| `## FAISCEAUX` | Couches ICEBERG MAX | Intégrer comme sections additionnelles |
+
+### B. Profilage
+
+À partir des artéfacts détectés, classifier dans l'un des 4 profils :
+
+```
+PROFIL A — Enquête complète (FACT_REGISTRY + MANIPULATION + CHAÎNES)
+  → Pipeline allégé : pas de DIGEST manuel, pas de FACTCHECK de masse
+  → §§2-4 : remplacer D### par F### dans tous les tableaux
+
+PROFIL B — Enquête standard (MANIPULATION ± CHAÎNES, sans FACT_REGISTRY)
+  → Si CHAÎNES présente : sauter §3.1
+  → Si CHAÎNES absente : construire normalement
+  → DIGEST manuel, DIALECTIQUE simplifié par clusters
+
+PROFIL C — Enquête légère (prose narrative uniquement, aucun artéfact)
+  → Pipeline complet (comportement SUBLIMATOR actuel)
+  → Signal : extraction manuelle — CP#1A critique
+
+PROFIL D — Brouillon d'article existant
+  → Mode révision (comportement §0 actuel)
+```
+
+### C. Rapport de diagnostic
+
+Produire un rapport en tête de `00B_CENSUS.md` :
+
+```markdown
+## DIAGNOSTIC D'ENTRÉE
+
+PROFIL : [A/B/C/D]
+FACT_REGISTRY : [✓/✗] → [N faits, N✦ N✧]
+MANIPULATION : [✓/✗] → [clusters dominants]
+CHAÎNES : [✓/✗] → [C1-CN]
+DOMAINES/§ : [✓/✗] → [N sections]
+WOLVES : [✓/✗] → [N nommés]
+
+ÉTAPES ADAPTÉES :
+  §1 CENSUS      : [standard/allégé]
+  §1.2 DIGEST    : [extraction]/[sélection F###]/[sauté]
+  §2 DIALECTIQUE : [clusters MANIPULATION]/[test complet]
+  §3 ARCHITECTURE: [chaînes existantes]/[construction]
+  §4 FACTCHECK   : [ciblé ✧ seulement]/[complet]
+  §5 T2          : [reformulation domaines]/[écriture depuis zéro]
+```
+
+### D. Règles d'adaptation
+
+1. **IDS PERSISTANTS** : Si FACT_REGISTRY existe (Profil A), NE PAS renuméroter en D###. Utiliser les F### originaux dans tout le pipeline. Les §§2-4 ci-dessous utilisent D### par défaut — pour le Profil A, remplacer mentalement D### par F###.
+
+2. **FACTCHECK ALLÉGÉ** : Si ratio ✦/total > 50 %, ne vérifier que les faits ✧. Sauf si un fait a >1 an ou est contredit par une source plus récente.
+
+3. **T2 REFORMULATION** : Si des DOMAINES/§ existent, le T2 reformate en style LOI 1-8. La structure est conservée, le style est réécrit.
+
+4. **CHAÎNES EXISTANTES** : Si CHAÎNES DE CASCADE existent, vérifier que chaque chaîne a ≥3 maillons. Compléter si nécessaire. Si absentes : construire normalement (§3.1).
+
+5. **CLUSTERS MANIPULATION** : Les clusters (ICEBERG, FRAMING, INVERSION, CYN, MONEY, etc.) **informent** les 3 thèses candidates (§2.1), ils ne les remplacent pas. Le test de résistance (§2.2) reste inchangé.
+
+6. **PROFIL C** : Signaler que l'extraction des faits est manuelle et peut comporter des omissions. Le CP#1A devient critique.
+
+7. **BROUILLON** : Si un brouillon existe dans `_assemblage/`, passer en mode révision (comportement §0 actuel).
+
+---
+
+**Après §0.D, sortie** : → §1 CENSUS (le rapport §0.C guide l'adaptation)
 
 ---
 
@@ -64,7 +144,9 @@ Types : TRANSCRIPT, PREUVES, FRESQUE, INVESTIGATION, GRAPHE, MATRICE.
 
 ### 1.2 DIGEST → `01_DIGEST.md`
 
-**Orienté thèse, pas exhaustif**. 10-20 faits/thème. Numérotation continue D001, D002...
+*Note §0.4 : Pour le Profil A (FACT_REGISTRY présent), sauter cette étape. Les F### sont utilisés directement — pas de renumérotation D###.*
+
+**Orienté thèse, pas exhaustif**. 10-20 faits/thème. Numérotation continue D001, D002... (sauf Profil A : conserver les F###).
 Faits inutiles pour thèse : `[BRUIT]` (conservés pour traçabilité, exclus saturation).
 
 | # | Catégorie | Élément | Statut | URL | Ligne |
@@ -117,6 +199,8 @@ Questions par section : §1→[Q1], §2→[Q2], ...
 [ATTENDS RÉPONSE]
 ```
 
+*Note §0.4 : Pour le Profil A, remplacer D### par F### dans les tableaux ci-dessous.*
+
 **Rejet** : reformuler → re-tester → max 3 itérations. Si toutes <0.4 : angle descriptif / enrichir / abandonner.
 
 ---
@@ -148,9 +232,11 @@ Questions par section : §1→[Q1], §2→[Q2], ...
 
 ## §4 : TIER 1 — FACT-CHECK
 
+*Note §0.4 : Pour le Profil A, remplacer D### par F### dans les tableaux ci-dessous. Ne vérifier que les faits ✧ conformément à §0.4 Règle 2 (conditionnel au ratio ✦/total > 50 %).*
+
 ### 4.1 Points critiques
 
-| D### | Affirmation | Vérifié (Y/N) | Source prévue | Priorité (H/M/L) |
+| D###/F### | Affirmation | Vérifié (Y/N) | Source prévue | Priorité (H/M/L) |
 
 Priorité : H = chiffres/dates/noms/citations | M = contexte/interprétations | L = consensus
 
@@ -370,10 +456,26 @@ Par section : (1) LOI 1 ✓ (2) LOI 2 ✓ (3) LOI 3 ✓ (4) LOI 4 ✓ (5) LOI 5 
 
 ### 6.4 : CP#5
 
+**LINT OBLIGATOIRE AVANT CP#5** : Exécuter le script de linting avant de soumettre le checkpoint.
+
+```bash
+./tools/scripts/lint-article.sh <chemin_article.md>
+```
+
+Le script vérifie automatiquement :
+- **LOI 8** : absence d'IDs internes (F###, D###) et de `LIEN_A_INSERER` résiduels
+- **LOI 3** : émoji en H1 (warning — vérifier manuellement)
+- **LOI 4** : transitions faibles « Mais »/« Cependant » en début de phrase
+- **LOI 5** : calibration sections (max 800 mots/section)
+- **LOI 6** : gras stratégique (3-5/section)
+- **LOI 1** : section Sources présente avec URLs
+
+**Ne pas soumettre CP#5 si le lint échoue.** Corriger les violations d'abord, re-lancer le script jusqu'à `✅ TOUT OK` ou `⚠️ OK avec warnings`.
+
 ```
 〔VERIFICATION NEEDED #5 : Article Final ?〕
 {N} sections, ~{N} mots | Couverture: {X}/{T} ({%} >80%) | IDs primaires: {N}
-□ Thèse cardinale □ Chaîne respectée □ Verdict □ LOIS 1-8 □ Zéro cuisine interne □ URLs précises □ Prêt auto-renommage ?
+□ Lint ✅ □ Thèse cardinale □ Chaîne respectée □ Verdict □ LOIS 1-8 □ Zéro cuisine interne □ URLs précises □ Prêt auto-renommage ?
 [ATTENDS RÉPONSE]
 ```
 
@@ -420,6 +522,8 @@ MODE: SINGLE (défaut) | PIPELINE (état sauvegardé)
 
 ## §10 : WORKFLOW
 
+> **Note** : Le workflow ci-dessous décrit le pipeline *standard* (Profil C). Pour les profils A/B, les étapes §1.2 (DIGEST), §3.1 (Architecture) et §4 (FACTCHECK) peuvent être allégées ou sautées selon le diagnostic §0.3 — voir règles §0.4.
+
 ```mermaid
 graph TD
     A[§1 Census] --> B[§1.3 Digest]
@@ -455,6 +559,9 @@ graph TD
 
 | Version | Changements |
 |---------|-----------|
+| **v28.4** | **"Lint Étendu"** : Ajout de LOI 6 (gras : 3-5/section) et LOI 4 (transitions faibles « Mais »/« Cependant ») dans le script lint. CP#5 mis à jour avec la liste complète des 6 checks. |
+| **v28.3** | **"Lint intégré"** : CP#5 exige `./tools/scripts/lint-article.sh` avant validation. Ajout de □ Lint ✅ dans le checklist. Script de vérification LOIS 1/3/5/8 automatique. |
+| **v28.2** | **"Pipeline Adaptatif"** : Nouveau §0.3-0.4 DIAGNOSTIC D'ENTRÉE. Détection automatique des artéfacts KERNEL (FACT_REGISTRY, MANIPULATION, CHAÎNES, DOMAINES). 4 profils (A/B/C/D). IDs F### persistants. FACTCHECK allégé si ✦/total > 50 %. T2 reformulation si DOMAINES existent. |
 | **v28.1** | **"Substack Ready"** : LOI 2 réécrite (sources fin d'article, URLs précises). LOI 3 enrichie (sous-titre obligatoire, ¬ tableaux). LOI 8 nouvelle (zéro cuisine interne). §6.2 refondu (sources dans article). §12 ajouté (mode série). |
 | **v28.0** | **"Multi-Agent Pipeline"** : Cycle Écrivain→Critique→Correcteur→Arbitre. Scoring 5 critères. LOI 4 complète + glossaire vivant. DOI enforcement. Vérification brevets. CP#4 scoring. Auto-renommage. Purge préventive. Généricité totale. |
 | **v27.1** | Typographie & Qualité : "—" usage correct, blockquotes réels, calibrage 400-600 mots, transitions explicites, ton H1 forensic, audit déduplication. |
@@ -521,4 +628,4 @@ HUB 🔄 Le Changement de Régime
 
 ---
 
-*Version: 28.1 : "Substack Ready"*
+*Version: 28.4 : "Lint Étendu"*

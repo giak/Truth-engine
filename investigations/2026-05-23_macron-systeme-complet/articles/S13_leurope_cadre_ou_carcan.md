@@ -2,9 +2,11 @@
 
 *🇪🇺 La France paie 10 Md€ par an pour un cadre qu'elle ne maîtrise plus : 12 contentieux ouverts par Bruxelles, une trajectoire budgétaire imposée, des traités qu'elle rejette mais doit appliquer. L'Europe n'est pas un carcan extérieur : c'est une souveraineté que la France a construite... et perdue.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+Les traités qui cadrent l'Union européenne (Maastricht 1992, TSCG 2012) précèdent Macron de vingt à vingt-cinq ans. 2017 n'a pas créé le carcan européen, mais la France a cessé d'en réformer les règles.
 
 ## §0 : Le paradoxe de la construction européenne
 
@@ -14,7 +16,7 @@ Ce calcul a fonctionné pendant 30 ans. La France a obtenu la PAC, l'euro, une C
 
 > **L'UE est-elle un cadre qui amplifie l'influence française, ou un carcan qui verrouille sa souveraineté budgétaire, commerciale et réglementaire ?**
 
-La réponse est plus subtile qu'un simple choix binaire. L'Union européenne est les deux à la fois : un cadre qui a apporté des bénéfices réels (marché unique, fonds structurels, NextGenerationEU) et un carcan qui enserre la France dans des règles qu'elle ne maîtrise plus, qu'elle a parfois signées, et qu'elle ne peut plus renégocier. L'enquête qui suit établit le diagnostic, mécanisme par mécanisme : tutelle budgétaire, carcan réglementaire, impuissance commerciale, influence perdue, souveraineté abandonnée.
+La réponse est sans équivoque : l'Union européenne fonctionne aujourd'hui comme un carcan qui verrouille la souveraineté française : budgétaire, commerciale, réglementaire et désormais informationnelle. La France n'est pas la victime passive d'une machine qu'elle n'aurait pas construite : elle en est l'architecte et le premier prisonnier. L'enquête qui suit établit le diagnostic, mécanisme par mécanisme : tutelle budgétaire, carcan réglementaire, impuissance commerciale, influence perdue, souveraineté abandonnée : et le verrouillage informationnel qui parachève l'édifice.
 
 ---
 
@@ -54,13 +56,30 @@ Au-delà des contentieux, c'est la masse réglementaire européenne qui contrain
 
 Le paradoxe est total : la France, qui a contribué à écrire les règles européennes, se retrouve piégée par leur accumulation. Chaque directive était négociée, chaque règlement voté. Mais l'accumulation produit un effet systémique que personne n'a choisi : **un carcan réglementaire qui verrouille une part croissante de la souveraineté nationale.**
 
-> **Ce carcan n'est pas un accident de construction : il est le produit d'une capture régulatoire. L'ONG Thorn (cofondée par Ashton Kutcher) a dépensé 600 000 € par an en lobbying pour imposer Chat Control : le scanner automatique des messages privés — et vend simultanément Safer, le logiciel de détection qui deviendrait obligatoire si Chat Control passait, selon une enquête de Netzpolitik.org et AlgorithmWatch (2024).**
+> **Ce carcan n'est pas un accident de construction : il est le produit d'une capture régulatoire. L'ONG Thorn (cofondée par Ashton Kutcher) a dépensé 600 000 € par an en lobbying pour imposer Chat Control : le scanner automatique des messages privés : et vend simultanément Safer, le logiciel de détection qui deviendrait obligatoire si Chat Control passait, selon une enquête de Netzpolitik.org et AlgorithmWatch (2024).**
 
 La capture régulatoire n'est pas un phénomène marginal. C'est un marché.
 
 > **Oak Foundation a financé les ONG pro-surveillance pour plus de 24 millions de dollars, et les plateformes risquent jusqu'à 6 % de leur chiffre d'affaires mondial en cas de non-conformité (Digital Services Act, règlement UE 2022/2065).**
 
-<!-- ENRICHIE: leurope-construit-elle-un-credit -->
+### Le carcan informationnel : DSA, eIDAS et Democracy Shield
+
+Le verrouillage réglementaire européen ne s'arrête pas aux contentieux économiques. Il s'étend désormais à la **souveraineté informationnelle** : et c'est peut-être le carcan le plus dangereux parce que le plus silencieux.
+
+Le **Digital Services Act** (règlement UE 2022/2065) crée un mécanisme inédit : la Commission européenne peut exiger des plateformes le retrait de contenus jugés illégaux, sous peine d'amendes pouvant atteindre **6 % de leur chiffre d'affaires mondial**. Mais le DSA ne se contente pas de lutter contre les contenus illicites : il permet au régulateur européen d'imposer ses critères de modération à des plateformes américaines, chinoises, indiennes, dans le cadre d'une **extraterritorialité numérique sans précédent**. Comme l'a documenté l'article *L'Architecture de la censure européenne* :
+
+> **« Le DSA ne se contente pas de réguler les contenus illicites. Il force les plateformes (Facebook, YouTube, X, Telegram) à aligner leurs algorithmes de recommandation sur les priorités politiques définies à Bruxelles. Le régulateur devient rédacteur en chef. »**
+
+Le **projet EU Democracy Shield**, officialisé en 2025, prolonge cette logique. Il prévoit la création d'un centre de **500 analystes** à Bruxelles pour surveiller la désinformation, influencer les discours et coordonner les retraits de contenus à l'échelle européenne : un appareil de contrôle informationnel que les États membres n'ont jamais soumis à débat public.
+
+Le règlement **eIDAS Article 45**, qui autorise les autorités nationales à exiger la levée du chiffrement de bout en bout pour les certificats de confiance, ouvre une brèche technique dans la sécurité numérique de tous les citoyens européens. Comme l'a montré l'enquête *L'Europe construit-elle un crédit social doux ?* :
+
+> **« Les infrastructures de contrôle sont déjà en place. Ce qui manque, c'est le déclic politique : qui viendra après une crise. L'Europe construit un crédit social à la sauce procédurale. »**
+
+L'Union européenne est devenue un **régulateur informationnel global**. Le DSA, l'EU Democracy Shield, eIDAS, la loi sur la liberté des médias : ce ne sont pas des accidents technocratiques. Ce sont les pièces d'un verrouillage informationnel qui complète le verrouillage budgétaire décrit au §1. La France n'a pas seulement perdu la main sur son budget et son commerce. Elle perd aussi la main sur ce que ses citoyens peuvent lire, voir et dire.
+
+Le mot « censure » n'est pas employé par les institutions européennes. Les faits, eux, décrivent ce mécanisme sans équivoque.
+
 <!-- THEME: verrouillage-systemique -->
 <!-- CROSS-REF: S15 -->
 
@@ -126,7 +145,9 @@ Le paradoxe français est historique : la France a conçu l'Union européenne po
 
 **La défense** est le dernier domaine où la France conserve une autonomie réelle : force de frappe nucléaire, siège permanent au Conseil de sécurité, diplomatie active. Mais cette autonomie est érodée par les contraintes budgétaires : la loi de programmation militaire (2024-2030) prévoit 413 Md€, un effort que les règles européennes rendent difficile à soutenir sans coupes ailleurs. Le départ forcé du Sahel, la perte d'influence en Afrique de l'Ouest et l'humiliation AUKUS (contrat de sous-marins australiens annulé sans que l'Europe ne bronche) montrent que la souveraineté militaire française, même réelle, ne pèse plus assez seule.
 
-**NextGenerationEU** illustre le paradoxe dans sa forme la plus pure. Le plan de relève européen a alloué 40 Md€ à la France (dont 40 % en prêts, 60 % en subventions), selon la Commission européenne (NextGenerationEU, page officielle). C'est le plus gros transfert budgétaire vers la France depuis le plan Marshall. Il a financé la transition écologique, la rénovation énergétique, la numérisation et la recherche — des investissements que la France, avec un déficit à 5,5 % du PIB, n'aurait pas pu mener seule. Mais ce cadeau est conditionné à des réformes structurelles définies par Bruxelles (retraites, assurance chômage, formation professionnelle). Les versements sont échelonnés sur des jalons validés par la Commission. La France est sauvée par l'Europe — mais sauvée à ses conditions.
+**NextGenerationEU** illustre le paradoxe dans sa forme la plus pure. Le plan de relève européen a alloué 40 Md€ à la France (dont 40 % en prêts, 60 % en subventions), selon la Commission européenne (NextGenerationEU, page officielle). C'est le plus gros transfert budgétaire vers la France depuis le plan Marshall. Il a financé la transition écologique, la rénovation énergétique, la numérisation et la recherche : des investissements que la France, avec un déficit à 5,5 % du PIB, n'aurait pas pu mener seule. Mais ce cadeau est conditionné à des réformes structurelles définies par Bruxelles (retraites, assurance chômage, formation professionnelle). Les versements sont échelonnés sur des jalons validés par la Commission. La France est sauvée par l'Europe : mais sauvée à ses conditions.
+
+La France a reçu 40 Md€ de NextGenEU et bénéficié de 300 Md€ de REPowerEU (prêts et garanties). Elle a perdu la souveraineté sur ses règles budgétaires et sa politique commerciale. Le bilan net est controversé : mais le seul fait qu'il n'ait jamais été présenté au Parlement est un symptôme de l'abdication (T4) que ce chapitre décrit.
 
 Le verrouillage n'est pas récent. Il s'est construit traité après traité : Maastricht (1992) a interdit le financement monétaire des dettes publiques par la BCE (article 123 TFUE) et imposé les critères de convergence ; le TSCG (2012) a constitutionnalisé la règle d'équilibre budgétaire ; le Pacte Stabilité réformé (2024) a transféré à Bruxelles le contrôle des plans budgétaires nationaux. Chaque traité a été présenté comme une avancée technique. Leur accumulation a verrouillé ce que Maastricht avait ouvert : une perte de souveraineté que la France n'a jamais soumise à référendum.
 
@@ -134,22 +155,18 @@ Le verrouillage n'est pas récent. Il s'est construit traité après traité : M
 
 ### Le prix de l'abdication
 
-Ce n'est pas un procès contre l'Europe. L'Union européenne a apporté des bénéfices réels : 70 ans de paix entre les grandes puissances du continent, un marché de 450 millions de consommateurs, des fonds structurels qui ont modernisé les régions les plus pauvres. Mais ces bénéfices ne justifient pas l'absence de débat sur le coût : la souveraineté perdue, la marge de manœuvre budgétaire disparue, la capacité à mener des politiques industrielles, agricoles et commerciales alignées sur les intérêts nationaux.
+**C'est un procès contre l'Europe.** Pas contre l'idée européenne : contre la machine concrète que la France a contribué à construire et qui la dépouille aujourd'hui de sa souveraineté. Les 70 ans de paix, le marché de 450 millions de consommateurs, les fonds structurels : ces acquis ne sont pas niables, mais ils ne justifient pas l'absence de tout débat sur le coût réel de l'appartenance : la souveraineté budgétaire confisquée par la procédure de déficit excessif, la souveraineté commerciale déléguée à une Commission que la France ne contrôle plus, la souveraineté réglementaire étouffée sous 20 % de droit d'origine européenne, et la souveraineté informationnelle désormais verrouillée par le DSA et l'EU Democracy Shield.
 
-Dans l'architecture du Changement de Régime, cette perte de souveraineté correspond à la TENSION 1 — l'extraction par la dette — et à la TENSION 4 — l'abdication organisée. La dette (T1) a rendu la France vulnérable à la tutelle budgétaire européenne. L'abdication (T4) a fait accepter à ses élites des règles qu'elles ne renégocient plus. Les deux tensions se renforcent mutuellement : plus la France s'endette, plus elle perd de marges de manœuvre ; plus elle perd de marges, plus elle externalise ses choix à Bruxelles.
+Dans l'architecture du Changement de Régime, cette perte de souveraineté correspond à la TENSION 1 (l'extraction par la dette) et à la TENSION 4 (l'abdication organisée). La dette (T1) a rendu la France vulnérable à la tutelle budgétaire européenne. L'abdication (T4) a fait accepter à ses élites des règles qu'elles ne renégocient plus. Les deux tensions se renforcent mutuellement : plus la France s'endette, plus elle perd de marges de manœuvre ; plus elle perd de marges, plus elle externalise ses choix à Bruxelles.
 
 **La France n'est pas victime de l'Europe. Elle est victime d'avoir construit une Europe qui ne lui ressemble plus.** Les règles qu'elle a contribué à écrire se retournent contre elle parce que ses propres élites, affaiblies par 30 ans d'extraction et de capture, n'ont plus la capacité de les renégocier ou de les infléchir. La question n'est plus de savoir si la France doit rester dans l'UE. Elle y restera. La question est de savoir si elle peut retrouver une marge de manœuvre à l'intérieur du cadre européen, ce qui suppose une renégociation des règles qu'elle a contribué à écrire, et des élites capables de la mener.
 
-## §6 : Ce que ce chapitre ne dit pas
-
-Cette analyse de l'Europe comme carcan ne rend pas pleinement justice aux bénéfices structurels que l'UE apporte à ses membres. Le marché unique, qui permet à la France d'exporter 200 Md€ de biens et services vers ses partenaires européens chaque année, selon Eurostat, est une prospérité mutualisée dont aucun État membre ne peut se passer sans coût colossal. Le programme Erasmus a formé plus de 5 millions de jeunes Européens à la mobilité, dont 600 000 Français. Les régulations européennes : RGPD sur les données, DMA sur les marchés numériques, CSRD sur le reporting extra-financier : sont devenues des standards mondiaux que la France seule n'aurait pas imposés. La politique de cohésion a transféré 40 Md€ aux régions françaises les moins favorisées depuis 2014. Le chapitre n'envisage pas non plus l'hypothèse d'une renégociation du cadre européen plutôt que d'un rejet : l'Europe n'est pas un bloc monolithique, elle se réforme (adoption du plan de relève NextGenEU en 2020, réforme du Pacte Stabilité en 2024), et la France pourrait peser davantage si elle retrouvait sa crédibilité budgétaire et diplomatique.
-
-L'UE n'est pas qu'un carcan. La France a obtenu le classement du nucléaire dans la taxonomie verte européenne en 2022, un succès diplomatique direct qui permet de financer la relance nucléaire à des conditions favorables, selon la Commission européenne. Le plan REPowerEU (2022), doté de 300 Md€, a financé la sortie du gaz russe et accéléré les énergies décarbonées. L'UE a aussi mobilisé près de 100 Md€ d'aide à l'Ukraine depuis 2022 : une réponse collective qu'aucun État membre n'aurait pu fournir seul. L'Europe est un cadre qui peut produire des victoires françaises : encore faut-il avoir la force politique de les négocier.
+> **Note** : Ces bénéfices (marché unique, Erasmus, RGPD, NextGenerationEU, classement du nucléaire, REPowerEU) ne contredisent pas le diagnostic du carcan. Ils en sont la confirmation : quand la France a la force politique de négocier, elle gagne dans le cadre européen. Mais ils sont l'exception qui confirme la règle : une règle que les élites françaises, affaiblies par 30 ans d'extraction, ne savent plus faire plier.
 
 ---
 
-*📖 **Article suivant :** ⚔️ La Défense en berne : 56 Md€ de contrats perdus (AUKUS), 11e rang mondial, 3 000 hommes en Afrique [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🌾 L'Agriculture qui meurt : 100 000 fermes disparues, 9 Md€ de PAC, un modèle qui tue les paysans [LIEN_A_INSERER]*
+*📖 **Article suivant :** [⚔️ La Défense en berne : 56 Md€ de contrats perdus (AUKUS), 11e rang mondial, 3 000 hommes en Afrique](https://giak.substack.com/p/la-defense-rongee-449-md-sans-munitions)
+*📖 **Article précédent :** [🌾 L'Agriculture qui meurt : 100 000 fermes disparues, 9 Md€ de PAC, un modèle qui tue les paysans](https://giak.substack.com/p/lagriculture-qui-meurt-100-000-fermes)
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
@@ -159,7 +176,9 @@ L'UE n'est pas qu'un carcan. La France a obtenu le classement du nucléaire dans
 - [« L'Europe construit-elle un crédit social doux ? »](https://giak.substack.com/p/leurope-construit-elle-un-credit) : 🔗 Le plus connexe : explore le volet réglementaire et contrôle européen
 - [« L'Architecture de la censure européenne »](https://giak.substack.com/p/larchitecture-de-la-censure-europeenne) : 🔗 Lien indirect : complète l'analyse de l'influence perdue
 - [« UE-Mercosur : le mensonge sanitaire »](https://giak.substack.com/p/ue-mercosur-le-mensonge-sanitaire) : 🔗 Lien indirect : illustre la souveraineté commerciale déléguée
-- [« 💻 Le Numérique colonisé »](https://giak.substack.com/p/S16-le-numerique-colonise) : 🔗 Le plus connexe : complète l'analyse de la souveraineté numérique
+- [« 💻 Le Numérique colonisé »](https://giak.substack.com/p/le-numerique-colonise-70-des-donnees) : 🔗 Le plus connexe : complète l'analyse de la souveraineté numérique
+
+*🔗 **Pour sortir du cadre.*** [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) (#9) et [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) (#62) : les deux textes qui esquissent une réponse au verrouillage systémique.
 
 ---
 
@@ -185,3 +204,8 @@ L'UE n'est pas qu'un carcan. La France a obtenu le classement du nucléaire dans
 18. **Assemblée nationale** : Rapport d'information sur les relations financières France-UE, contribution nette : [assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/17/rapports/cion_fin/l17b3543_rapport-information#)
 19. **Conseil européen** : Nouvelles règles budgétaires UE, plans PSMT 2024 : [consilium.europa.eu](https://www.consilium.europa.eu/fr/policies/economic-governance-framework/)
 20. **Commission européenne** : Marchés publics UE, directives 2014 : [commission.europa.eu](https://ec.europa.eu/growth/single-market/public-procurement_en)
+21. **Commission européenne** : Digital Services Act, règlement (UE) 2022/2065 : [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32022R2065)
+22. **Commission européenne** : EU Democracy Shield, plan d'action 2025 : [commission.europa.eu](https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/new-push-european-democracy/european-democracy-action-plan_en)
+23. **eIDAS** : Règlement (UE) 2024/1183, article 45, révision du cadre d'identité numérique : [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1183)
+24. **Gaïak** : « L'Architecture de la censure européenne », enquête Substack : [giak.substack.com](https://giak.substack.com/p/larchitecture-de-la-censure-europeenne)
+25. **Gaïak** : « L'Europe construit-elle un crédit social doux ? », enquête Substack : [giak.substack.com](https://giak.substack.com/p/leurope-construit-elle-un-credit)

@@ -2,9 +2,11 @@
 
 *💰 80 à 100 milliards d'euros d'impôts s'évaporent chaque année des caisses de l'État. Le fisc en récupère 12 %. Enquête sur le plus grand transfert de richesse non voté de la République.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+L'évasion fiscale n'est pas une invention de la décennie 2010 : la Suisse et les paradis fiscaux existent depuis les années 1920. Mais la différence est dans l'ampleur : la financiarisation de l'économie a multiplié les flux offshore par 4 depuis 2000.
 
 ## §0 : Le trou de 100 milliards
 
@@ -106,7 +108,7 @@ Avec un contrôleur pour 1 000 contribuables en moyenne, et un seul pour 3 000 t
 
 ### Le Parquet National Financier en sous-effectif
 
-Le PNF a récupéré **203,9 millions d'euros** en 2024, selon son rapport d'activité. C'est 0,2 % des 80 à 100 milliards d'évasion fiscale estimés. Le PNF traite environ 300 dossiers par an avec une équipe de 30 magistrats et 20 assistants spécialisés, selon son rapport d'activité. Pendant ce temps, les montages CumEx totalisent 140 milliards d'euros en Europe, et aucune condamnation pénale majeure n'a été prononcée en France.
+Le PNF a récupéré **203,9 millions d'euros** en 2024, selon son rapport d'activité. C'est 0,2 % des 80 à 100 milliards d'évasion fiscale estimés. Le PNF traite environ 300 dossiers par an avec une équipe de 30 magistrats et 20 assistants spécialisés, selon son rapport d'activité. Pendant ce temps, les montages CumEx totalisent 140 milliards d'euros en Europe, et aucune condamnation pénale majeure n'a été prononcée en France. → Le sous-dimensionnement du parquet et l'impunité structurelle sont analysés dans **[S17 : La Justice fantôme](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)**.
 
 ### La fraude sociale
 
@@ -133,7 +135,7 @@ Ces quatre phénomènes sont de nature juridique différente : l'un est illégal
 
 Pour donner une échelle concrète de ces montants :
 
-- **145 milliards d'euros**, c'est le budget de la Santé (50 Md€, Assurance Maladie), de l'Éducation (70 Md€, État), de la Justice (10 Md€, État) et de la Recherche (15 Md€, État) cumulés : soit les principaux services publics.
+- **145 milliards d'euros**, c'est le budget de la Santé (50 Md€, Assurance Maladie), de l'Éducation (70 Md€, État), de la Justice (10 Md€, État) et de la Recherche (15 Md€, État) cumulés : soit les principaux services publics. Le budget public du logement (43,5 Md€, dont 18 Md€ d'APL) est lui aussi étranglé : voir **[S9 : Le Logement, la Machine à créer de la Rareté](https://giak.substack.com/p/le-logement-la-machine-a-creer-de)**.
 - **100 milliards**, c'est la totalité des dépenses d'investissement public sur cinq ans.
 - **100 milliards**, c'est l'équivalent de la charge annuelle des intérêts de la dette (54 Md€ selon l'Agence France Trésor) multipliée par deux.
 
@@ -171,7 +173,7 @@ Ce n'est pas une coïncidence. C'est le **premier mécanisme de la cascade causa
 
 L'évasion fiscale est une extraction active : l'argent est pris, planifié, organisé vers les paradis fiscaux. Mais il existe une seconde hémorragie, plus silencieuse encore : celle de l'argent que l'État dépense mal, perd dans des projets inaboutis, ou confie sans contrôle.
 
-En mai 2026, le Parquet national financier a perquisitionné le palais de l'Élysée lui-même pour des soupçons de corruption dans l'organisation des panthéonisations. Symbole saisissant : la justice fouille le bureau du président, et toujours aucune condamnation dans le dossier McKinsey ouvert en mars 2022.
+En mai 2026, le Parquet national financier a perquisitionné le palais de l'Élysée lui-même pour des soupçons de corruption dans l'organisation des panthéonisations. Symbole saisissant : la justice fouille le bureau du président, et toujours aucune condamnation dans le dossier McKinsey ouvert en mars 2022. *(Même schéma : justice active sur les symboles, impuissante sur les dossiers structurels : dans **[S17 : La Justice fantôme](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)**.)*
 
 McKinsey France n'a pas payé un euro d'impôt sur les sociétés pendant dix ans, selon la commission d'enquête du Sénat. Dans le même temps, les contrats publics de conseil passaient de 764 M€ à 2,5 Md€. L'écart est instructif : McKinsey facture l'État, mais ne paie pas l'État. Le flux va toujours dans le même sens.
 
@@ -203,9 +205,13 @@ Ce gaspillage institutionnel (20 à 40 milliards d'euros par an selon les estima
 
 ---
 
-## §6 : Ce que ce chapitre ne dit pas
+## §5quater : Ce qu'il faut nuancer
 
-Le chiffrage de l'évasion fiscale (80 à 100 milliards) mérite d'être nuancé. Ces estimations, produites par des ONG et des syndicats, ne font pas consensus : l'administration fiscale évalue la fraude à 30-40 milliards, un écart qui tient à la différence entre évasion (légale) et fraude (illégale) : l'article agrège les deux, ce qui gonfle mécaniquement le total. Par ailleurs, la lutte contre l'évasion a connu des progrès réels depuis 2017 : échange automatique d'informations fiscales (CRS), démantèlement du secret bancaire suisse, premières condamnations dans le cadre des Panama Papers. Le taux de recouvrement, bien que faible, est passé de 7 % à 12 % en cinq ans. Enfin, la dimension européenne manque : sans coordination fiscale au niveau de l'UE, un pays seul est désarmé face à la mobilité du capital.
+Ces nuances ne démentent pas l'ampleur de l'hémorragie : elles en précisent le contour. Le chiffrage de 80 à 100 milliards agrège évasion légale et fraude illégale, ce qui explique l'écart avec l'estimation administrative (30 à 40 Md€ pour la fraude seule). Mais même en retenant le chiffre bas de la fraude, l'extraction annuelle totale (évasion + niches + gaspillage) dépasse la barre des 100 milliards d'euros.
+
+La lutte a connu des progrès réels depuis 2017 : échange automatique CRS, démantèlement du secret bancaire suisse, premières condamnations Panama Papers : et le taux de recouvrement est passé de 7 % à 12 %. Mais 12 % de récupération, c'est 88 % d'impôts impayés. Ces progrès sont réels, marginaux.
+
+La clé manquante est européenne. Sans coordination fiscale au niveau de l'UE, un État seul est désarmé face à la mobilité du capital. Ce n'est pas une excuse : c'est la preuve que le verrou est politique, pas technique.
 
 <!-- ENRICHIE: limites-du-chiffrage -->
 <!-- THEME: honnete-intelectuelle -->
@@ -213,7 +219,7 @@ Le chiffrage de l'évasion fiscale (80 à 100 milliards) mérite d'être nuancé
 
 ---
 
-*📖 **Article suivant :** 📉 La Dette instrumentalisée - 115,6 % du PIB, 3 000 milliards, la contrainte absolue [LIEN_A_INSERER]*
+*📖 **Article suivant :** [📉 La Dette instrumentalisée - 115,6 % du PIB, 3 000 milliards, la contrainte absolue](https://giak.substack.com/p/la-dette-instrumentalisee-3-200-milliards)
 *📖 **Article précédent :** 👑 La Caste Parasite - Qui gouverne la France et pour qui ? https://giak.substack.com/p/la-caste-parasite-qui-gouverne-la*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
@@ -225,6 +231,8 @@ Le chiffrage de l'évasion fiscale (80 à 100 milliards) mérite d'être nuancé
 - 🔗 [« LE VAMPIRE DE LA CROISSANCE »](https://giak.substack.com/p/le-vampire-de-la-croissance) : analyse de la financiarisation qui aspire la richesse productive
 - 🔗 [« Budget 2026 : l'architecture du mensonge »](https://giak.substack.com/p/budget-2026-larchitecture-du-mensonge) : décryptage des choix fiscaux qui organisent l'évasion
 - 🔗 [« L'Europe construit-elle un crédit social à la française ? »](https://giak.substack.com/p/leurope-construit-elle-un-credit) : sur la convergence des politiques de crédit social
+- 🔗 [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) : 6 étapes pour cesser d'alimenter la machine : comment agir à titre personnel
+- 🔗 [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) : RIC, tirage au sort, OS souverain : comment changer les règles du jeu
 
 ---
 

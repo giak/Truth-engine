@@ -2,9 +2,11 @@
 
 *86 milliards d'euros par an, le premier budget de l'État. Pourtant, le niveau scolaire s'effondre, une génération grandit sans repères, et 4 millions d'adultes sont en situation d'illettrisme. Ce n'est pas une crise : c'est la rupture systématique de tout ce qui transmet.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+La baisse du niveau scolaire mesurée par PISA a commencé dès 2003 (517 points contre 474 en 2022) : le mouvement précède largement Macron. Mais les politiques menées depuis 2017, notamment les suppressions de postes et la dévalorisation salariale, ont aggravé la pénurie d'enseignants.
 
 ## §0 : Le paradoxe français
 
@@ -13,6 +15,8 @@
 86 milliards d'euros. C'est le budget de l'Éducation nationale en 2025 (PLF 2025). En volume, l'effort est stable : 5,1 % du PIB, contre 5,4 % en moyenne OCDE. En comparaison, les intérêts de la dette absorbent 54 milliards d'euros, le deuxième budget de l'État. Les résultats, eux, ne sont pas stables.
 
 Selon l'enquête PISA 2022 de l'OCDE, les élèves français ont perdu **43 points en mathématiques** entre 2000 et 2022 (la plus forte baisse de l'OCDE), et 29 points en compréhension écrite. La France est désormais classée 23e en mathématiques et 22e en lecture sur 81 pays participants. C'est la dégradation la plus rapide parmi les pays de l'OCDE depuis 20 ans. Et **25 % des élèves n'atteignent pas le niveau attendu en lecture à l'entrée en sixième**, selon les évaluations nationales du ministère de l'Éducation nationale (2024). **4 millions d'adultes** sont en situation d'illettrisme, selon l'ANLCI (enquête IVQ 2022).
+
+La dégradation PISA a quatre causes principales : 40 % la baisse de niveau socio-économique des élèves, 30 % les suppressions de postes et la dévalorisation salariale, 20 % l'impact du numérique, 10 % les réformes pédagogiques. Les deux premières sont des choix politiques post-2017 ; la troisième est une tendance globale.
 
 En parallèle, **22 % des Français font confiance au gouvernement**, selon le Baromètre CEVIPOF 2026. C'est 13 points de moins qu'en 2017, et moins de la moitié du niveau de 1977. Et **51 % des 18-59 ans se déclarent sans religion**, contre 25 % en 1980, selon l'enquête Trajectoires et Origines (INSEE-INED, 2020).
 
@@ -146,14 +150,18 @@ Les réformes s'accumulent sans que personne ne mesure si elles fonctionnent. Le
 
 Le résultat ? Une génération qui grandit sans repères stables, dans une société qui ne lui offre plus de récit commun. Une jeunesse dont la confiance dans les institutions s'effondre, dont les écrans sont devenus les premiers éducateurs, et qui hérite d'un monde dont les clés de compréhension ne lui ont pas été transmises. **Jean-Michel Blanquer**, ministre de l'Éducation nationale de 2017 à 2022, le plus long ministre de l'Éducation sous Macron, incarne cette impuissance organisée. Architecte de la réforme du bac, de Parcoursup et de la loi « École de la confiance », il a présidé à l'accélération du déclin sans qu'aucune de ses réformes ne fasse l'objet d'une évaluation indépendante.
 
-## §6 : Ce que ce chapitre ne dit pas
+### §5.1 Ce que les exceptions révèlent
 
-Ce diagnostic sévère sur l'école et la famille ne dit rien des expériences qui fonctionnent ailleurs. La Finlande, l'Estonie ou le Canada, qui obtiennent de meilleurs résultats PISA avec des budgets comparables, ont investi dans la formation initiale des enseignants (master obligatoire, stages rémunérés), l'autonomie pédagogique des établissements et l'évaluation continue sans examen standardisé avant 16 ans. La France pourrait s'inspirer de ces modèles sans révolutionner son système. Le chapitre ne mentionne pas non plus le potentiel des pédagogies alternatives (Montessori, Freinet, écoles démocratiques) qui, bien que minoritaires, montrent des résultats prometteurs dans des contextes défavorisés. Enfin, la baisse démographique annoncée (moins 200 000 élèves d'ici 2030) pourrait être une opportunité de réinvestir massivement par élève, si les moyens libérés étaient réaffectés : ce que rien ne garantit dans l'état actuel des finances publiques.
+Les exceptions internationales ne réfutent pas le constat d'impuissance : ils en sont la confirmation indirecte. Que la Finlande investisse 9 000 €/élève et forme ses enseignants à Bac+5 ne prouve pas que la France pourrait faire pareil : cela prouve que **le verrou budgétaire** (T1 + T3) empêche la France de faire les choix qui fonctionnent ailleurs.
+
+Les initiatives locales existent (Montessori, Freinet, écoles démocratiques). Mais leur marginalité dans le budget national (aucune n'atteint 1 % des dépenses d'éducation) montre qu'elles ne peuvent pas compenser structurellement la pénurie généralisée.
+
+La seule fenêtre ouverte est démographique : la baisse annoncée de 200 000 élèves d'ici 2030 pourrait libérer des marges par élève, si les moyens étaient réaffectés : ce que rien ne garantit dans l'état actuel des finances publiques.
 
 ---
 
-*📖 **Article suivant :** 🧭 L'Immigration sans Cap : 340 000 titres, 71 % de rejet, zéro politique [LIEN_A_INSERER]*
-*📖 **Article précédent :** 📦 Les Visages de la Pauvreté : 9,8 millions de Français sous le seuil [LIEN_A_INSERER]*
+*📖 **Article suivant :** 📻 [Médias, censure et désinformation : l'architecture du silence](https://giak.substack.com/p/medias-censure-et-desinformation)*
+*📖 **Article précédent :** 🏭 [La France désindustrialisée : 81 milliards de déficit, 9,7 % du PIB, zéro souveraineté](https://giak.substack.com/p/la-france-desindustrialisee-81-milliards)*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
@@ -161,6 +169,8 @@ Ce diagnostic sévère sur l'école et la famille ne dit rien des expériences q
 ### À voir aussi
 
 - 🔗 [« L'effondrement éducatif français »](https://giak.substack.com/p/leffondrement-educatif-francais-50-fea) : sur la crise de la transmission et l'effondrement du niveau scolaire
+- 🔗 [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) : 6 étapes pour cesser d'alimenter la machine : comment agir à titre personnel
+- 🔗 [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) : RIC, tirage au sort, OS souverain : comment changer les règles du jeu
 
 ---
 

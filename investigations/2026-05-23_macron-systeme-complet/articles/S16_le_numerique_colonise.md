@@ -2,9 +2,11 @@
 
 *💻 70 % des données françaises stockées sur des serveurs américains. 95 % du marché capté par les GAFAM. La souveraineté numérique de la France est une fiction juridique.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+La dépendance numérique française commence avec le choix du Minitel (1980) contre Internet, puis avec l'absence de réaction au Cloud Act américain (2018). Ce n'est pas un abandon de 2017 : c'est l'aboutissement de quarante ans de non-choix industriels.
 
 ## §0 : La colonisation silencieuse
 
@@ -12,7 +14,7 @@ La France a perdu la bataille du numérique. Elle ne l'a même pas livrée.
 
 > **La France a-t-elle encore la maîtrise de ses données, ou sa souveraineté numérique est-elle une fiction juridique ?**
 
-**70 % des données françaises sont stockées sur des serveurs américains.** Aucun grand acteur numérique mondial n'est français. Les GAFAM (Google, Apple, Facebook, Amazon, Microsoft) contrôlent l'infrastructure sur laquelle repose l'économie française, selon la CNIL. **Les données des administrations, des hôpitaux, des entreprises et des citoyens transitent par des serveurs soumis au droit américain.**
+**70 % des données françaises sont stockées sur des serveurs américains.** Aucun grand acteur numérique mondial n'est français. Les GAFAM (Google, Apple, Facebook, Amazon, Microsoft) contrôlent l'infrastructure sur laquelle repose l'économie française, selon la CNIL. **Les données des administrations, des hôpitaux, des entreprises et des citoyens transitent par des serveurs soumis au droit américain.** La même logique d'abandon de souveraineté s'observe dans le logement : 37 millions de toits mais 4,2 millions de mal-logés, la rareté produite non par la pénurie mais par les choix politiques : analysée dans **[S9 : Le Logement, la Machine à créer de la Rareté](https://giak.substack.com/p/le-logement-la-machine-a-creer-de)**.
 
 Ce n'est pas une dépendance économique comme les autres. **C'est une souveraineté neutralisée** : la capacité de décider où sont stockées les données, qui y a accès, sous quel régime juridique elles sont protégées. Cette capacité, la France ne l'a plus.
 
@@ -44,7 +46,7 @@ Les GAFAM réalisent en France un chiffre d'affaires estimé à 20-30 milliards 
 
 ### L'immunité juridique impossible
 
-**Le Cloud Act américain (2018)** autorise les autorités des États-Unis à contraindre les fournisseurs de cloud américains, y compris leurs filiales étrangères, à fournir les données stockées, quel que soit le lieu de stockage physique.
+**Le Cloud Act américain (2018)** autorise les autorités des États-Unis à contraindre les fournisseurs de cloud américains, y compris leurs filiales étrangères, à fournir les données stockées, quel que soit le lieu de stockage physique. *(La justice américaine a un accès direct aux données françaises ; la justice française n'a pas les moyens d'enquêter sur les infractions numériques : voir **[S17 : La Justice fantôme](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)**.)*
 
 **En pratique :** les données des administrations françaises, des hôpitaux, des entreprises, des citoyens, stockées chez Microsoft Azure, Amazon Web Services ou Google Cloud, sont accessibles à la justice américaine sans passer par aucune autorité française. Pas de mandat français requis. Pas de recours possible sous droit français.
 
@@ -82,7 +84,7 @@ La France a lancé plusieurs projets de cloud souverain. Tous ont échoué ou n'
 
 ### Andromède et Gaia-X, l'échec français
 
-**Andromède (2012)** : premier grand projet de cloud souverain français. Abandonné après deux ans, selon les archives du Sénat. Deux opérateurs avaient été sélectionnés — Cloudwatt (Orange/Thales) et Numergy (SFR/Bull) — mais les deux ont échoué face aux géants américains, faute de marché public captif et de volonté politique de durer. Coût : plusieurs centaines de millions d'euros pour zéro résultat pérenne.
+**Andromède (2012)** : premier grand projet de cloud souverain français. Abandonné après deux ans, selon les archives du Sénat. Deux opérateurs avaient été sélectionnés : Cloudwatt (Orange/Thales) et Numergy (SFR/Bull) : mais les deux ont échoué face aux géants américains, faute de marché public captif et de volonté politique de durer. Coût : plusieurs centaines de millions d'euros pour zéro résultat pérenne.
 
 **Gaia-X (2019)** : lancé par la France et l'Allemagne pour créer un écosystème de données fédéré européen. Critiqué par des experts pour la participation des GAFAM à sa gouvernance, il est devenu un cadre de normalisation technique, utile mais insuffisant pour garantir la souveraineté.
 
@@ -116,13 +118,17 @@ En 2024, l'Éducation nationale a signé un contrat de 152 millions d'euros sur 
 
 ---
 
-## §6 : Ce que ce chapitre ne dit pas
+## §6 : Ce que les alternatives révèlent
 
-Ce chapitre dresse un tableau sans concession de la colonisation numérique, mais ne mentionne pas les initiatives qui résistent. Les alternatives open-source : Nextcloud (fichiers), Matrix (messagerie), Mastodon (réseaux sociaux) — existent et sont utilisées par des milliers d'organisations. La Gendarmerie nationale a migré 72 000 postes vers Ubuntu, prouvant qu'une administration entière peut fonctionner sans les GAFAM. Framasoft propose 30+ services libres, de l'hébergement de fichiers aux réseaux sociaux, avec des centaines de milliers d'utilisateurs. Le mouvement des « communs numériques » gagne du terrain : la DINUM (Direction interministérielle du numérique) promeut le logiciel libre dans les administrations depuis 2021.
+Ces alternatives techniques ne contredisent pas le diagnostic de colonisation numérique : elles en démontrent la nature politique. Si la Gendarmerie nationale a pu migrer 72 000 postes vers Ubuntu, alors le contrat Microsoft Éducation à 152 M€ était un choix, pas une fatalité.
 
-Ces initiatives prouvent que l'alternative technique existe. Ce qui manque, c'est la volonté politique de la généraliser : chaque contrat avec Microsoft ou Google est un choix, pas une fatalité. La loi de programmation pour le numérique (2023-2027) consacre 1,5 milliard d'euros au « cloud de confiance », mais sans clause d'exclusion des GAFAM — un marché public captif aurait suffi à faire émerger un champion national en dix ans.
+Les alternatives existent : Nextcloud, Matrix, Mastodon comptent des milliers d'organisations utilisatrices. Framasoft propose 30+ services libres, des centaines de milliers d'utilisateurs. Le mouvement des « communs numériques » gagne du terrain : la DINUM promeut le logiciel libre dans les administrations depuis 2021. Chacune de ces initiatives prouve que le verrou n'est pas technologique : il est politique : la loi de programmation pour le numérique (2023-2027) consacre 1,5 milliard d'euros au « cloud de confiance », mais sans clause d'exclusion des GAFAM. Un marché public captif aurait suffi à faire émerger un champion national en dix ans.
 
-Le Data Privacy Framework UE-États-Unis (2023) offre des garanties théoriques au Cloud Act, mais les associations (NOYB, La Quadrature du Net) contestent sa robustesse devant la CJUE. Enfin, le retard français n'est pas une fatalité : OVHcloud, Scaleway et Outscale progressent, et l'Allemagne (Ionos/SAP) montre qu'une alternative européenne est possible — y compris en mutualisant les marchés publics au niveau européen.
+Le Data Privacy Framework UE-États-Unis (2023) offre des garanties théoriques au Cloud Act, mais les associations (NOYB, La Quadrature du Net) contestent sa robustesse devant la CJUE. OVHcloud, Scaleway, Outscale progressent, l'Allemagne (Ionos/SAP) prouve qu'une alternative européenne est possible : mais rien ne bouge au niveau des marchés publics français.
+
+La conclusion est la même pour chaque contre-exemple : l'alternative existe. Ce qui manque, ce n'est pas la technique : c'est la volonté politique d'y recourir.
+
+> **Deux textes publiés en amont de cette série esquissent une réponse :** [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) (#9) pour l'action personnelle, et [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) (#62) pour le levier institutionnel.
 
 ---
 
@@ -146,46 +152,32 @@ Le Data Privacy Framework UE-États-Unis (2023) offre des garanties théoriques 
 
 La réalité dépasse les chiffres officiels. En janvier-février 2026, une cascade de fuites a révélé l'ampleur de la passivité étatique, documentée par le site BonjourLaFuite : **160 000 dossiers sensibles exfiltrés via HubEE** (le concentrateur des mairies), **1,2 million de comptes bancaires exposés via FICOBA**, et **52 millions de Français : noms, adresses, copies de passeports : dans le mégaleak IDMerit** (1 milliard de dossiers global). Même l'Armée de Terre (4,5 Go de documents classifiés) et le CNRS (numéros de Sécurité Sociale et RIB des chercheurs) ont été touchés.
 
-Ces fuites posent la question du modèle des prestataires IT de l'État : **Sopra Steria, Capgemini, Atos** facturent la maintenance corrective de systèmes dont les failles structurelles sont connues. Plus le système est vulnérable, plus les audits et correctifs sont facturés : une controverse documentée par des lanceurs d'alerte et des rapports parlementaires.
+En avril 2026, c'est **l'ANTS (Agence Nationale des Titres Sécurisés, devenue France Titres)** qui s'est fait pirater : **11,7 millions de comptes** exposés, dont noms, adresses, dates de naissance, numéros de téléphone (Numerama, 20 avril 2026). L'agence qui gère les passeports, cartes d'identité et permis de conduire des Français avait confié sa sécurité à une infrastructure vulnérable. L'auteur présumé du piratage : un mineur de 15 ans identifié comme "breach3d", mis en examen le 29 avril (RGPD Kit). Le Premier ministre Lecornu, en visite sur place le 30 avril, a débloqué 200 M€ d'urgence et reconnu "environ trois vols de données par jour" sur les systèmes de l'État depuis janvier 2026 (RGPD Kit, 30 avril 2026). La même logique que la [Justice fantôme](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86) : l'État sous-traite sa sécurité à des prestataires sans exigence, les failles s'accumulent, et on débloque des milliards après le carnage au lieu d'investir avant.
 
 ### La surveillance sans réciprocité
 
 **La France reste un pays surveillé** par son allié américain (programmes NSA révélés par Snowden en 2013), sans réciprocité ni contrôle démocratique. Les réformes législatives qui ont suivi n'ont pas changé la donne.
 
----
-
-## §8 : Ce que la France pourrait faire
-
-### Imposer l'hébergement souverain
-
-**Imposer un hébergement souverain pour les données sensibles.** Obligation légale d'hébergement sur des serveurs certifiés SecNumCloud pour toutes les données publiques, de santé, d'éducation. C'est techniquement possible, juridiquement faisable, politiquement repoussé.
-
-### Sortir du mirage Bleu
-
-**Sortir de l'hypocrisie du Cloud Bleu.** Refuser les solutions qui paraissent souveraines mais restent sous droit américain. Conditionner les marchés publics à une véritable immunité juridique.
-
-### Créer un champion européen
-
-**Créer un champion européen du cloud par consolidation.** Les acteurs français (OVHcloud, Scaleway, Outscale) et européens existent. Mais ils sont dispersés et sous-capitalisés. Une consolidation paneuropéenne, portée par des investissements publics, créerait un acteur capable de peser face aux GAFAM.
-
-### Éviter le piège de la surveillance généralisée
+### Le piège de la surveillance généralisée
 
 <!-- ENRICHIE: leurope-construit-elle-un-credit-40d -->
 <!-- THEME: credit-social-europeen -->
 <!-- CROSS-REF: S15 -->
 
-Toute solution de souveraineté numérique doit éviter un écueil : la transformation de la souveraineté en surveillance. **Le règlement eIDAS 2.0 (Article 45) obligera les navigateurs à accepter les certificats de sécurité émis par les gouvernements**, selon le texte publié au JOUE : permettant théoriquement d'intercepter tout trafic chiffré (man-in-the-middle). **Le projet Chat Control imposerait le scan automatisé de tous les messages privés**, selon les propositions de la Commission européenne (2022-2024). 400 experts en cybersécurité ont alerté sur le risque, dans une lettre ouverte coordonnée par AlgorithmWatch (2023). Ces outils, présentés comme une protection des mineurs, créent une infrastructure de contrôle qui transforme la souveraineté numérique en surveillance généralisée.
+**Le règlement eIDAS 2.0 (Article 45) obligera les navigateurs à accepter les certificats de sécurité émis par les gouvernements**, selon le texte publié au JOUE : permettant théoriquement d'intercepter tout trafic chiffré (man-in-the-middle). **Le projet Chat Control imposerait le scan automatisé de tous les messages privés**, selon les propositions de la Commission européenne (2022-2024). 400 experts en cybersécurité ont alerté sur le risque, dans une lettre ouverte coordonnée par AlgorithmWatch (2023). Ces outils, présentés comme une protection des mineurs, créent une infrastructure de contrôle qui transforme la souveraineté numérique en surveillance généralisée.
 
 ### Surveiller sans censurer : le cas Viginum
 
-**Viginum (Service de vigilance et de protection contre les ingérences numériques étrangères)** illustre cette ambivalence. Créé en juillet 2021 (décret n°2021-922), doté de 7,3 M€ en 2024 et de 65 agents, il est officiellement chargé de détecter les manipulations étrangères de l'information. Mais ses rapports (Portal Kombat, Matriochka) servent de base juridique à des blocages administratifs de sites et de canaux Telegram — sans contrôle du juge. En février 2026, son seuil de signalement (5 millions de visiteurs) a été supprimé, étendant encore son périmètre. Viginum n'est pas un outil de censure directe, mais un maillon d'une chaîne d'infrastructure de contrôle dont la vigilance démocratique doit accompagner chaque extension de pouvoir.
+**Viginum (Service de vigilance et de protection contre les ingérences numériques étrangères)** illustre cette ambivalence. Créé en juillet 2021 (décret n°2021-922), doté de 7,3 M€ en 2024 et de 65 agents, il est officiellement chargé de détecter les manipulations étrangères de l'information. Mais ses rapports (Portal Kombat, Matriochka) servent de base juridique à des blocages administratifs de sites et de canaux Telegram : sans contrôle du juge. En février 2026, son seuil de signalement (5 millions de visiteurs) a été supprimé, étendant encore son périmètre. Viginum n'est pas un outil de censure directe, mais un maillon d'une chaîne d'infrastructure de contrôle dont la vigilance démocratique doit accompagner chaque extension de pouvoir.
 
-**La souveraineté numérique française n'est pas perdue par fatalité technologique : elle résulte d'une séquence de choix politiques : absence de conditionnalité des marchés publics, sous-investissement dans SecNumCloud, acceptation des certifications HDS pour les géants américains : dont aucun n'était inéluctable pris séparément, mais dont l'effet cumulé produit un abandon de fait.**
+**La même logique traverse tout le volet numérique : l'État construit l'infrastructure de contrôle la plus avancée d'Europe (DSA, eIDAS, Chat Control, Viginum, loi sur la liberté des médias) mais ne peut pas sécuriser ses propres fichiers. L'Agence Nationale des Titres Sécurisés a été piratée par un enfant de 15 ans. Le Premier ministre a débloqué 200 M€ après le carnage. Les certificats d'identité des Français sont en vente sur des forums. Pendant ce temps, Bruxelles prépare le scan de tous les messages privés et l'interception de tout le trafic chiffré. L'État qui veut tout surveiller ne protège rien. C'est le verrou dans toute sa beauté : un système qui capte toute l'énergie citoyenne vers le haut pendant que ses fondations pourrissent.**
+
+**La souveraineté numérique française n'est pas perdue par fatalité technologique : elle résulte d'une séquence de choix politiques dont aucun n'était inéluctable pris séparément, mais dont l'effet cumulé produit un abandon de fait. Et tant que les citoyens continueront à râler sur les réseaux au lieu de construire les alternatives qui existent déjà, le verrou tiendra.**
 
 ---
 
-*📖 **Article suivant :** 🔄 Le Changement de Régime : la synthèse de l'enquête [LIEN_HUB_A_INSERER]*
-*📖 **Article précédent :** 🔒 Le Verrou : 28 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias : la démocratie neutralisée [LIEN_A_INSERER]*
+*📖 **Article suivant :** ⚖️ [La Justice fantôme : 0,20 % PIB, 86 000 détenus, le cinquième verrou du régime](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)*
+*📖 **Article précédent :** ⚔️ [La Défense en berne : 449 Md€ sans munitions, 101 voyages ELNET, 24 pays sans standard français](https://giak.substack.com/p/la-defense-rongee-449-md-sans-munitions)*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
@@ -197,6 +189,8 @@ Toute solution de souveraineté numérique doit éviter un écueil : la transfor
 - [« Viginum : la censure numérique aux portes du pouvoir »](https://giak.substack.com/p/viginum-censure-numerique) : 🔗 Lien direct : complète le volet cybersécurité et manipulation
 - [« Le narcotique numérique : addiction et contrôle »](https://giak.substack.com/p/narcotique-numerique) : 🔗 Lien indirect : explore un angle adjacent sur la dépendance numérique
 - [« L'ingénierie de l'enclos »](https://giak.substack.com/p/lingenierie-de-lenclos) : 🔗 Lien indirect : complète l'analyse du verrouillage informationnel
+- [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) : 🔗 #9 : 6 étapes pour cesser d'alimenter la machine
+- [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) : 🔗 #62 : RIC, tirage au sort, OS souverain
 
 ---
 
@@ -218,6 +212,8 @@ Toute solution de souveraineté numérique doit éviter un écueil : la transfor
 14. **CNIL** : Recommandations sur le Health Data Hub et Microsoft Azure, 2023, [https://www.cnil.fr/fr/les-principaux-avis-et-recommandations-de-la-cnil-sur-la-plateforme-des-donnees-de-sante](https://www.cnil.fr/fr/les-principaux-avis-et-recommandations-de-la-cnil-sur-la-plateforme-des-donnees-de-sante)
 15. **ZDNet** : En signant avec Microsoft, l'Éducation nationale piétine souveraineté et autonomie numérique, 2025, [https://www.zdnet.fr/actualites/en-signant-avec-microsoft-leducation-nationale-pietine-souverainete-et-autonomie-numerique-408497.htm](https://www.zdnet.fr/actualites/en-signant-avec-microsoft-leducation-nationale-pietine-souverainete-et-autonomie-numerique-408497.htm)
 16. **Viginum** : Décret n°2021-922 du 13 juillet 2021 portant création du service, [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043827196](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043827196)
-17. **Next.ink** : Viginum doté de moyens renforcés — suppression du seuil de 5 millions de visiteurs, février 2026, [https://next.ink/138722/viginum-dote-de-moyens-renforces-suppression-seuil-5-millions-visiteurs/](https://next.ink/138722/viginum-dote-de-moyens-renforces-suppression-seuil-5-millions-visiteurs/)
-18. **AlgorithmWatch** : Lettre ouverte sur Chat Control — 400 experts en cybersécurité, 2023, [https://algorithmwatch.org/en/chat-control-open-letter/](https://algorithmwatch.org/en/chat-control-open-letter/)
-19. **Journal officiel de l'UE** : Règlement (UE) 2024/1183 — eIDAS 2.0 (Article 45), [https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1183](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1183)
+17. **Next.ink** : Viginum doté de moyens renforcés : suppression du seuil de 5 millions de visiteurs, février 2026, [https://next.ink/138722/viginum-dote-de-moyens-renforces-suppression-seuil-5-millions-visiteurs/](https://next.ink/138722/viginum-dote-de-moyens-renforces-suppression-seuil-5-millions-visiteurs/)
+18. **AlgorithmWatch** : Lettre ouverte sur Chat Control : 400 experts en cybersécurité, 2023, [https://algorithmwatch.org/en/chat-control-open-letter/](https://algorithmwatch.org/en/chat-control-open-letter/)
+19. **Numerama** : Piratage ANTS (France Titres), 11,7 millions de comptes exposés, 20 avril 2026, [https://www.numerama.com/cyberguerre/2236101-france-titres-ants-a-ete-pirate-ce-que-lon-sait-sur-lincident-qui-touche-le-service-de-vos-papiers-didentite.html](https://www.numerama.com/cyberguerre/2236101-france-titres-ants-a-ete-pirate-ce-que-lon-sait-sur-lincident-qui-touche-le-service-de-vos-papiers-didentite.html)
+20. **RGPD Kit** : Piratage ANTS 2026 : bilan complet, hacker, données et RGPD (mineur de 15 ans, Lecornu 200 M€), [https://www.rgpdkit.fr/blog/piratage-ants-2026-bilan-complet-rgpd](https://www.rgpdkit.fr/blog/piratage-ants-2026-bilan-complet-rgpd)
+21. **Journal officiel de l'UE** : Règlement (UE) 2024/1183 : eIDAS 2.0 (Article 45), [https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1183](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1183)

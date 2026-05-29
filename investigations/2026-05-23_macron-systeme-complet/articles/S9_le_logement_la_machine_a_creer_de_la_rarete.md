@@ -2,9 +2,11 @@
 
 *37 millions de logements. 4,2 millions de mal-logés. 30 500 expulsions par an. Le logement n'est pas une pénurie de toits : c'est une machine à produire de la rareté.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+La rareté du logement s'est construite sur trois décennies : lois SRU (2000), Pinel (2014), suppression de l'APL accession (2018). En 2025, 30 500 ménages ont été expulsés (+27 % en un an) et seulement 279 700 logements construits, bien en deçà des besoins.
 
 ## §0 : Le grand paradoxe
 
@@ -88,7 +90,7 @@ Si une politique du logement échoue à loger les gens, l'expulsion devient la s
 
 ### L'explosion des expulsions
 
-**19 023 expulsions** avec le concours de la force publique en 2023. **24 556 en 2024** (+29 %). **30 500 en 2025** (+27 %), selon la Fondation pour le Logement et la Chambre nationale des commissaires de justice. 3 années de records consécutifs, une progression de 60 % en 2 ans. Ces chiffres ne comptent que les expulsions effectives, pas les départs dits volontaires avant l'intervention des forces de l'ordre, que la Fondation estime 2 à 3 fois plus nombreux (soit 60 000 à 90 000 ménages supplémentaires, selon la Fondation).
+**19 023 expulsions** avec le concours de la force publique en 2023. **24 556 en 2024** (+29 %). **30 500 en 2025** (+27 %), selon la Fondation pour le Logement et la Chambre nationale des commissaires de justice. *(La justice dans l'engrenage des expulsions et la saturation carcérale sont analysées dans **[S17 : La Justice fantôme](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)**.)* 3 années de records consécutifs, une progression de 60 % en 2 ans. Ces chiffres ne comptent que les expulsions effectives, pas les départs dits volontaires avant l'intervention des forces de l'ordre, que la Fondation estime 2 à 3 fois plus nombreux (soit 60 000 à 90 000 ménages supplémentaires, selon la Fondation).
 
 La loi Kasbarian-Bergé du 27 juillet 2023 a facilité ce mouvement en réduisant les délais de procédure et en durcissant les conditions de relogement. **Guillaume Kasbarian**, député LREM et rapporteur du texte, a personnellement porté cette machine à expulser : son nom est devenu le symbole d'une politique qui préfère jeter des familles à la rue plutôt que de réguler le marché. Les préfets peuvent désormais ordonner l'expulsion sans avoir à proposer de solution d'hébergement, contrairement à l'article L.345-2-2 du Code de l'action sociale et des familles qui prévoit un droit à l'hébergement d'urgence opposable.
 
@@ -118,16 +120,14 @@ Un ménage qui paie 50 % de son revenu pour un loyer n'a pas d'énergie pour pro
 
 Cette neutralisation n'est pas un complot, c'est un effet de système. La machine à créer de la rareté produit mécaniquement de l'épuisement, de l'isolement, de l'abstention. Chaque loi qui réduit les APL, chaque norme qui bloque la construction, chaque expulsion exécutée : c'est un boulon de plus dans le verrou. La question n'est pas de savoir si la France a assez de logements : elle a 37 millions de toits pour 68 millions d'habitants. La question est de savoir pourquoi ce parc est réparti de telle manière que 4,2 millions de personnes sont mal logées, 30 500 sont expulsées chaque année et 2,7 millions attendent un toit qu'on ne construit plus.
 
-La réponse tient sur une courbe : **259 000 logements mis en chantier en 2024, contre 435 000 en 2017**. L'offre de logements neufs s'est effondrée. Et quand l'offre s'effondre, ce sont les plus fragiles qui trinquent dans le silence d'une démocratie où ils n'ont plus la force de voter.
+La réponse tient sur une courbe : **259 000 logements mis en chantier en 2024, contre 435 000 en 2017**. L'offre de logements neufs s'est effondrée. Et quand l'offre s'effondre, ce sont les plus fragiles qui trinquent dans le silence d'une démocratie où ils n'ont plus la force de voter.### §5.1 : Ce que l'international révèle
 
-## §6 : Ce que ce chapitre ne dit pas
-
-Cette démonstration de la raréfaction organisée du logement ne mentionne pas les modèles étrangers qui ont réussi à inverser la tendance. Vienne (Autriche) gère 60 % de son parc locatif en logements sociaux ou subventionnés, avec des loyers plafonnés et une qualité d'entretien qui évite la stigmatisation des quartiers. Singapour a bâti un système où 80 % des habitants sont propriétaires grâce à un fonds d'épargne-logement obligatoire adossé aux cotisations retraite. La France, qui a inventé le modèle HLM, a progressivement abandonné la construction publique sans la remplacer. Le chapitre n'explore pas non plus l'opportunité du réemploi des friches et de la densification douce : la loi ZAN pourrait forcer une innovation urbaine que l'étalement pavillonnaire a rendue facultative pendant 50 ans. Enfin, la question des territoires ruraux en déclin démographique (où le logement est abondant et bon marché mais l'emploi absent) mériterait d'être articulée avec la politique d'aménagement du territoire, dont ce chapitre ne parle pas.
+Les modèles étrangers ne démontrent pas que la France aurait pu faire pareil : ils démontrent que le verrou est politique, pas technique. Vienne gère 60 % de son parc en logements sociaux parce que l'Autriche a fait le choix de la construction publique massive après la guerre, sans jamais l'abandonner. Singapour a bâti 80 % de propriétaires par un fonds d'épargne obligatoire adossé aux cotisations retraite : un levier que la France a démantelé (loi Debré 1963, puis abandon des HLM après 1985). La France n'ignore pas ces modèles : elle les a connus, puis abandonnés. Quant à l'opportunité ZAN et au réemploi des friches, ils butent sur le même verrou : ce sont les mêmes élus locaux et les mêmes promoteurs qui contrôlent le foncier : l'innovation urbaine ne survit pas à la captation privée du sol. Les territoires ruraux abondants mais sans emploi confirment que le problème n'est pas quantitatif : c'est le couplage emploi-logement qui a été brisé par la métropolisation. La solution existe : elle est politique, pas technique.
 
 ---
 
-*📖 **Article suivant :** ⚡ L'Énergie sacrifiée : transition, précarité, et l'arnaque climatique [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🧭 L'Immigration sans Cap : 340 000 titres, 71 % rejetés, 15 lois pour rien [LIEN_A_INSERER]*
+*📖 **Article suivant :** [⚡ L'Énergie sacrifiée : transition, précarité, et l'arnaque climatique](https://giak.substack.com/p/lenergie-sacrifiee-923-twh-exportes)
+*📖 **Article précédent :** [🧭 L'Immigration sans Cap : 340 000 titres, 71 % rejetés, 15 lois pour rien](https://giak.substack.com/p/limmigration-sans-cap-340-000-titres)
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
@@ -139,6 +139,8 @@ Cette démonstration de la raréfaction organisée du logement ne mentionne pas 
 *🔗 **Lien indirect.*** [« Le grand manège de la dépossession »](https://giak.substack.com/p/le-grand-manege-de-la-depossession) : sur le travail et l'épuisement, dont le logement est la variable d'ajustement principale (taux d'effort, précarité énergétique).
 
 *🔗 **Lien indirect.*** [« Comment la richesse verrouille le système »](https://giak.substack.com/p/comment-la-richesse-verrouille-le) : sur les deux oligopoles (immobilier et finance) qui captent la richesse nationale et verrouillent l'accès au logement.
+
+*🔗 **Pour sortir du cadre.*** [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) (#9) et [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) (#62) : les deux textes qui esquissent une réponse au verrouillage systémique.
 
 ---
 

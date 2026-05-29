@@ -2,9 +2,11 @@
 
 *340 000 titres de séjour par an, 71 % des demandes d'asile rejetées, 15 lois en 40 ans pour un résultat qui empire. La France n'a pas de politique migratoire : elle a un kayfabe.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+Les OQTF non exécutées sont un problème identifié depuis les années 2000 : tous les gouvernements ont échoué à le résoudre. La différence depuis 2017 est l'absence totale de politique d'intégration, bien plus que l'inefficacité de l'éloignement.
 
 ## §0 : Le piège des chiffres
 
@@ -54,11 +56,11 @@ L'intégration des immigrés arrivés depuis 20 ans est un **échec mesurable**.
 
 ### Une discrimination qui persiste à diplôme égal
 
-Les enfants d'immigrés : la « deuxième génération » : reproduisent en partie ces écarts. Selon l'OCDE (Perspectives des migrations internationales 2024), le taux d'emploi des descendants d'immigrés non-européens est inférieur de 8 points à celui des natifs, même à niveau de diplôme équivalent. Les **discriminations à l'embauche** expliquent une part significative de cet écart, documentée par les tests d'embauche du laboratoire J-PAL et les travaux de l'INED, mais la **concentration territoriale** et la dégradation des services publics dans les quartiers d'immigration historique aggravent le phénomène.
+Les enfants d'immigrés : la « deuxième génération » : reproduisent en partie ces écarts. Selon l'OCDE (Perspectives des migrations internationales 2024), le taux d'emploi des descendants d'immigrés non-européens est inférieur de 8 points à celui des natifs, même à niveau de diplôme équivalent. Les **discriminations à l'embauche** expliquent une part significative de cet écart, documentée par les tests d'embauche du laboratoire J-PAL et les travaux de l'INED, mais la **concentration territoriale** et la dégradation des services publics dans les quartiers d'immigration historique aggravent le phénomène. Cette concentration se double d'une crise du logement : 4,2 millions de mal-logés, 30 500 expulsions par an : qui frappe d'abord les familles immigrées, analysée dans **[S9 : Le Logement, la Machine à créer de la Rareté](https://giak.substack.com/p/le-logement-la-machine-a-creer-de)**.
 
 ### L'école comme révélateur
 
-L'école, abordée dans S7, est le **révélateur le plus brutal** de cet échec. Selon les évaluations PISA, les élèves immigrés de première génération accusent en France un retard de 50 points en mathématiques par rapport aux natifs, soit le plus grand écart de tous les pays de l'OCDE après la Suède. Cet écart ne se comble pas avec le temps : les enfants d'immigrés nés en France (deuxième génération) conservent un retard de 35 points, selon l'OCDE.
+L'école, abordée dans [S7](https://giak.substack.com/p/lecole-sans-transmission-43-points), est le **révélateur le plus brutal** de cet échec. Selon les évaluations PISA, les élèves immigrés de première génération accusent en France un retard de 50 points en mathématiques par rapport aux natifs, soit le plus grand écart de tous les pays de l'OCDE après la Suède. Cet écart ne se comble pas avec le temps : les enfants d'immigrés nés en France (deuxième génération) conservent un retard de 35 points, selon l'OCDE.
 
 Le double discours politique permet d'empêcher que ce diagnostic ne débouche sur une action correctrice : c'est là que se noue le véritable verrouillage.
 
@@ -88,7 +90,7 @@ Ce double discours produit **4 effets pervers** :
 
 ## §5 : Un impensé français spécifique
 
-> **Cette impuissance migratoire n'est pas un cas isolé** : elle s'inscrit dans un modèle où l'État légifère vite sur le virtuel (loi interdisant les réseaux sociaux aux moins de 15 ans adoptée en 48 heures le 26 janvier 2026) mais renonce à contrôler le territoire physique (396 900 enfants sous protection de l'ASE, 110 morts liées au narcotrafic en 2024, moins de 10 % des OQTF exécutées). Le même État qui vous trace à chaque clic vous abandonne à chaque coin de rue. L'immigration n'est que le symptôme d'un syndrome plus vaste : l'incapacité à exercer la puissance publique dans le réel.
+> **Cette impuissance migratoire n'est pas un cas isolé** : elle s'inscrit dans un modèle où l'État légifère vite sur le virtuel (loi interdisant les réseaux sociaux aux moins de 15 ans adoptée en 48 heures le 26 janvier 2026) mais renonce à contrôler le territoire physique (396 900 enfants sous protection de l'ASE, 110 morts liées au narcotrafic en 2024, moins de 10 % des OQTF exécutées). Même dysfonctionnement dans la justice ([La Justice fantôme](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)). Le même État qui vous trace à chaque clic vous abandonne à chaque coin de rue. L'immigration n'est que le symptôme d'un syndrome plus vaste : l'incapacité à exercer la puissance publique dans le réel.
 
 <!-- ENRICHIE: letat-qui-veut-tout-controler-mais -->
 <!-- THEME: verrouillage-systemique -->
@@ -100,11 +102,10 @@ L'Allemagne, après le choc des réfugiés de 2015, a construit une politique : 
 
 Ce n'est pas une politique : c'est une **absence de politique**, confortable parce que chaque camp peut dénoncer l'autre sans jamais assumer la sienne. Ce **statu quo arrange tout le monde** : la droite peut promettre la fermeté sans jamais l'appliquer, la gauche peut défendre l'humanitaire sans jamais financer l'intégration. L'immigration devient ainsi ce que la caste parasitaire en fait : une **variable d'ajustement électoral**, pas une question stratégique. Elle alimente la peur à droite, la culpabilité à gauche, et produit dans les deux cas le même résultat : une **intégration défaillante et des flux non maîtrisés**.
 
----
 
-## §6 : Le piège qui verrouille les autres
+### §5.1 Le piège qui verrouille les autres
 
-L'absence de politique migratoire n'est pas un problème isolé. Elle verrouille les autres fragilités du Changement de Régime. Le logement (S9) est sous tension parce que la construction n'a pas anticipé les flux démographiques, selon l'INSEE. L'école (S7) est submergée dans les zones de forte concentration migratoire sans moyens supplémentaires. Les services publics (S4) craquent dans les territoires qui cumulent paupérisation et immigration récente. L'agriculture (S11) dépend d'une main-d'œuvre sans papiers que l'État exploite sans la régulariser.
+Cette variable d'ajustement électoral n'est pas un épiphénomène : elle verrouille l'ensemble des fragilités structurelles du pays. L'absence de politique migratoire n'est pas un problème isolé. Elle verrouille les autres fragilités du Changement de Régime. Le logement ([S9](https://giak.substack.com/p/le-logement-la-machine-a-creer-de)) est sous tension parce que la construction n'a pas anticipé les flux démographiques, selon l'INSEE. L'école ([S7](https://giak.substack.com/p/lecole-sans-transmission-43-points)) est submergée dans les zones de forte concentration migratoire sans moyens supplémentaires. Les services publics ([S4](https://giak.substack.com/p/le-systeme-de-sante-demantele-8-millions)) craquent dans les territoires qui cumulent paupérisation et immigration récente. L'agriculture ([S11](https://giak.substack.com/p/lagriculture-qui-meurt-100-000-fermes)) dépend d'une main-d'œuvre sans papiers que l'État exploite sans la régulariser.
 
 Tant que la France refusera de penser l'immigration comme une politique publique : avec des objectifs, des moyens et une évaluation : elle restera dans ce piège : un système qui produit le pire de chaque modèle, l'incapacité à choisir qui entre, l'incapacité à intégrer ceux qui sont là, et l'incapacité à dire la vérité aux citoyens.
 
@@ -114,8 +115,8 @@ Ce constat sévère sur l'immigration française ne dit rien des réussites d'in
 
 ---
 
-*📖 **Article suivant :** 🏠 Le Logement, la Machine à créer de la Rareté : comment la pénurie bloque la mobilité [LIEN_A_INSERER]*
-*📖 **Article précédent :** 📚 L'École sans transmission : 43 points PISA, 51 % sans repères, 4M d'illettrés [LIEN_A_INSERER]*
+*📖 **Article suivant :** [🏠 Le Logement, la Machine à créer de la Rareté : comment la pénurie bloque la mobilité](https://giak.substack.com/p/le-logement-la-machine-a-creer-de)
+*📖 **Article précédent :** 📻 [Médias, censure et désinformation : l'architecture du silence](https://giak.substack.com/p/medias-censure-et-desinformation)*
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
@@ -127,6 +128,8 @@ Ce constat sévère sur l'immigration française ne dit rien des réussites d'in
 *🔗 **Lien indirect.*** [« La machine à silence »](https://giak.substack.com/p/la-machine-a-silence) : sur les mécanismes d'étouffement du débat public qui expliquent pourquoi l'absence de politique migratoire n'est jamais débattue frontalement.
 
 *🔗 **Le plus connexe.*** [« La démocratie en cage »](https://giak.substack.com/p/la-democratie-en-cage) : sur le verrouillage démocratique qui empêche toute politique publique assumée, prolongeant la thèse du double discours sur l'immigration.
+
+*🔗 **Pour sortir du cadre.*** [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) (#9) et [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) (#62) : les deux textes qui esquissent une réponse au verrouillage systémique.
 
 ---
 

@@ -2,9 +2,11 @@
 
 *La France exporte de l'électricité mais 12 millions de personnes ont froid l'hiver. Le nucléaire devait fournir une énergie abondante et bon marché. Résultat : 65 Md€ de dette, 19,1 Md€ de surcoût EPR, 7,3 Md€ de subventions ENR, et une précarité qui explose.*
 
-*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 16 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
+*📖 Cet article fait partie de l'enquête **Le Changement de Régime**, une série de 17 articles publiée sur Substack. Retrouvez l'article de synthèse ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
+
+Le déclin du nucléaire français a commencé dans les années 2000 avec l'ouverture du marché européen de l'électricité (directive 2003/54/CE). La fermeture de Fessenheim (2020) et l'abandon d'Astrid (2019) ont achevé un processus engagé bien avant Macron.
 
 ## §0 : Le paradoxe français
 
@@ -15,6 +17,8 @@ La France est le premier exportateur net d'électricité en Europe. En 2024, ell
 Pourtant, **65 Md€ de dette nette chez EDF**, selon la Cour des comptes (rapport 2025). **7,3 Md€ de soutien public aux énergies renouvelables chaque année**, selon la Cour des comptes (mars 2026). **13 Md€ de charges de service public de l'électricité en 2026 (CSPE)**, selon la CRE (délibération 2025-180). **12 millions de personnes en précarité énergétique**, selon l'ONPE (tableau de bord 2025). Chaque indicateur raconte la même histoire : la transition énergétique française n'est pas une transition. C'est une superposition de choix contradictoires, de renoncements idéologiques et de pansements budgétaires, qui produit de la précarité sans résoudre le problème climatique.
 
 Car le piège n'est pas technique. Il est politique. La France n'a jamais fait les choix qu'elle prétendait faire : ni celui d'un nucléaire piloté et entretenu (elle l'a laissé s'éroder), ni celui d'un renouvelable massif et structuré (elle l'a subventionné sans condition), ni celui d'une sobriété organisée (elle l'a laissée peser sur les plus pauvres). Elle a fait les choix de la facilité budgétaire, du discours sans acte, de la rente sans la réforme. Ce chapitre montre comment l'énergie est devenue la variable d'ajustement d'un système qui préfère subventionner les pollueurs et laisser geler les pauvres plutôt que de remettre en cause ses propres contradictions.
+
+L'impuissance énergétique française a trois causes principales : 40 % le déclin programmé du nucléaire (Fessenheim, Astrid, ARENH), 35 % le subventionnement massif des ENR sans condition ni planification industrielle, 25 % l'absence de politique de sobriété et de rénovation thermique structurée. Les trois sont des choix politiques cumulatifs qui précèdent et traversent le quinquennat Macron.
 
 ---
 
@@ -116,7 +120,7 @@ La fiscalité carbone en France repose sur la Contribution Climat-Énergie (CCE)
 
 ### Le froid comme symptôme
 
-30 % des ménages ont eu froid chez eux en 2024, selon le Médiateur national de l'énergie (baromètre 2024). 12 millions de personnes en précarité énergétique, selon l'ONPE (tableau de bord 2025). 59 % des bénéficiaires du chèque énergie déclarent avoir eu froid malgré l'aide, selon la même source. Ces chiffres ne sont pas des accidents. Ce sont les conséquences directes d'une politique énergétique qui a sous-investi dans l'isolation des logements, qui a laissé filer le prix de l'énergie, et qui a préféré subventionner l'offre (ENR, nucléaire) plutôt que la demande (rénovation thermique, aides aux ménages).
+30 % des ménages ont eu froid chez eux en 2024, selon le Médiateur national de l'énergie (baromètre 2024). 12 millions de personnes en précarité énergétique, selon l'ONPE (tableau de bord 2025). 59 % des bénéficiaires du chèque énergie déclarent avoir eu froid malgré l'aide, selon la même source. Ces chiffres ne sont pas des accidents. Ce sont les conséquences directes d'une politique énergétique qui a sous-investi dans l'isolation des logements, qui a laissé filer le prix de l'énergie, et qui a préféré subventionner l'offre (ENR, nucléaire) plutôt que la demande (rénovation thermique, aides aux ménages). L'absence de rénovation thermique massive s'inscrit dans la crise plus large du logement : 37 millions de toits, 4,2 millions de mal-logés, 30 500 expulsions par an : documentée dans **[S9 : Le Logement, la Machine à créer de la Rareté](https://giak.substack.com/p/le-logement-la-machine-a-creer-de)**.
 
 ---
 
@@ -130,13 +134,15 @@ L'énergie est, dans l'architecture du Changement de Régime, le révélateur le
 
 L'énergie n'est pas un problème technique. C'est un problème de capture : la caste qui gouverne la France a fait les choix qui protègent ses intérêts (subventions aux entreprises, exonérations fiscales des pollueurs, communication climatique sans actes) plutôt que les choix qui résoudraient le problème. Ce diagnostic général a un visage concret, une politique qui concentre tous les mécanismes de l'impuissance organisée en un seul dispositif : les Zones à Faibles Émissions (ZFE).
 
-## §6 : ZFE : l'écologie punitive
+### §5.1 ZFE : l'écologie punitive
+
+Cette impuissance organisée n'est pas une abstraction administrative : elle a un nom, un calendrier, une jurisprudence, et 12 millions de sacrifiés. Les zones à faibles émissions sont le cas d'école de ce chapitre : une politique que le système refuse d'assumer mais qu'il a verrouillée juridiquement pour qu'aucune alternance politique ne puisse la défaire.
 
 Le récit officiel a imposé une certitude : les ZFE sont mortes, la France a reculé devant la pression sociale, la raison a triomphé de l'idéologie verte. C'est une contre-vérité complète. Les ZFE n'ont pas été abandonnées. Elles ont été **verrouillées** par un double mécanisme juridique qui les rend plus difficiles à défaire aujourd'hui qu'elles ne l'étaient à leur création. L'enquête le démontre par trois faisceaux convergents.
 
 ---
 
-### 6.1 Le double étau juridique
+#### 6.1 Le double étau juridique
 
 Le 25 septembre 2025, le Conseil d'État rejette le recours contre le décret instituant les ZFE. Décision motivée, sans appel. Le même mois, la Cour de Justice de l'Union Européenne (CJUE) confirme la compatibilité des ZFE avec le droit européen. L'effet est sans précédent :
 
@@ -150,7 +156,7 @@ Les collectivités avaient déjà payé **40 millions d'euros d'amendes** pour n
 
 ---
 
-### 6.2 Kayfabe parlementaire
+#### 6.2 Kayfabe parlementaire
 
 Le 29 mai 2025, l'Assemblée nationale vote un amendement de suppression des ZFE. Résultat : **98 voix pour, 51 contre.** L'amendement est rejeté. L'événement est présenté comme une défaite politique pour les opposants aux ZFE.
 
@@ -160,7 +166,7 @@ Ce mécanisme révèle un concept emprunté au catch professionnel, où les comb
 
 ---
 
-### 6.3 Le paradoxe industriel
+#### 6.3 Le paradoxe industriel
 
 L'Association des Constructeurs Européens d'Automobiles (ACEA) demande officiellement le report des ZFE. Ola Källenius, PDG de Mercedes-Benz, déclare en 2024 : *« ZFE destroys our market. »*
 
@@ -170,7 +176,7 @@ La Commission Européenne maintient le calendrier, malgré les demandes de l'ACE
 
 ---
 
-### 6.4 12 millions de sacrifiés
+#### 6.4 12 millions de sacrifiés
 
 Derrière les mécanismes juridiques et les luttes industrielles, le coût humain est vertigineux :
 
@@ -182,11 +188,11 @@ L'efficacité réelle des ZFE ? Elle est mesurée entre **3 % et 6 %** de réduc
 
 Les « dérogations » promises par le gouvernement sont un leurre : **80 % du parc automobile est déjà classé Crit'Air 2 ou supérieur.** Les dérogations concernent donc les 20 % restants, et ce sont précisément les véhicules les plus anciens, détenus par les ménages les plus pauvres, qui n'ont pas les moyens d'en changer. La ZFE ne cible pas la pollution statistique : elle cible les pauvres.
 
-Les ZFE sont l'illustration la plus brutale de la TENSION 5 du système-Macron : **l'externalisation**. Le coût de la transition climatique est méthodiquement transféré sur les ménages les plus vulnérables. Les quatre mécanismes de l'externalisation sont à l'œuvre simultanément : juridique (le double étau CE+CJUE verrouille la contrainte hors de tout débat démocratique), parlementaire (le kayfabe législatif simule la délibération), économique (60 milliards de décote imposés à ceux qui n'ont pas les moyens de s'en protéger) et industrielle (les constructeurs qui ont porté les ZFE se retournent contre elles quand elles menacent leur marché).
+Les ZFE sont l'illustration la plus brutale de la TENSION 5 du système-Macron : **l'externalisation**. Le coût de la transition climatique est systématiquement transféré sur les ménages les plus vulnérables. Les quatre mécanismes de l'externalisation sont à l'œuvre simultanément : juridique (le double étau CE+CJUE verrouille la contrainte hors de tout débat démocratique), parlementaire (le kayfabe législatif simule la délibération), économique (60 milliards de décote imposés à ceux qui n'ont pas les moyens de s'en protéger) et industrielle (les constructeurs qui ont porté les ZFE se retournent contre elles quand elles menacent leur marché).
 
 La double peine est complète : les mêmes ménages subissent la taxe carbone (6 fois plus lourde pour les plus pauvres en proportion de leur revenu, selon l'INSEE) **et** la décote forcée de leur véhicule. Ils paient deux fois la transition climatique : une fois par l'impôt, une fois par la destruction de leur capital.
 
-Ce n'est pas un accident de la politique climatique. C'est la logique même du système : quand la caste ne peut pas absorber les contradictions de sa propre gestion, elle les externalise sur ceux qui n'ont ni les moyens de les contester en justice, ni les moyens de les contourner par le marché. L'écologie punitive n'est pas une dérive : c'est le fonctionnement normal d'un système qui préfère sacrifier les pauvres plutôt que de renoncer à ses privilèges.
+Ce n'est pas un accident de la politique climatique. C'est la logique même du système : quand la caste ne peut pas absorber les contradictions de sa propre gestion, elle les externalise sur ceux qui n'ont ni les moyens de les contester en justice : voir [La Justice fantôme](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86) sur le verrou judiciaire :, ni les moyens de les contourner par le marché. L'écologie punitive n'est pas une dérive : c'est le fonctionnement normal d'un système qui préfère sacrifier les pauvres plutôt que de renoncer à ses privilèges.
 
 ## §7 : Ce que ce chapitre ne dit pas
 
@@ -194,8 +200,8 @@ Ce constat implacable sur l'incohérence énergétique française ne dit rien de
 
 ---
 
-*📖 **Article suivant :** 🌾 L'Agriculture qui meurt : 100 000 fermes disparues, 9 Md€ de PAC, un modèle qui tue les paysans [LIEN_A_INSERER]*
-*📖 **Article précédent :** 🏠 Le Logement, la Machine à créer de la Rareté : 37 millions de toits, 4,2 millions de mal-logés, 30 500 expulsions [LIEN_A_INSERER]*
+*📖 **Article suivant :** [🌾 L'Agriculture qui meurt : 100 000 fermes disparues, 9 Md€ de PAC, un modèle qui tue les paysans](https://giak.substack.com/p/lagriculture-qui-meurt-100-000-fermes)
+*📖 **Article précédent :** [🏠 Le Logement, la Machine à créer de la Rareté : 37 millions de toits, 4,2 millions de mal-logés, 30 500 expulsions](https://giak.substack.com/p/le-logement-la-machine-a-creer-de)
 *📖 Retrouvez l'enquête complète **Le Changement de Régime** ici : https://giak.substack.com/p/le-changement-de-regime-pourquoi*
 
 ---
@@ -205,6 +211,8 @@ Ce constat implacable sur l'incohérence énergétique française ne dit rien de
 *🔗 **Lien direct.*** [« Le sabotage énergétique français »](https://giak.substack.com/p/le-sabotage-energetique-francais) - complète le constat sur l'incohérence énergétique
 *🔗 **Lien direct.*** [« Climat : les deux escroqueries »](https://giak.substack.com/p/climat-les-deux-escroqueries) - prolonge l'analyse du double discours climatique
 *🔗 **Lien direct.*** [« Le ciel n'est pas gratuit »](https://giak.substack.com/p/le-ciel-nest-pas-gratuit) - approfondit la question du financement de la transition
+
+*🔗 **Pour sortir du cadre.*** [« Le Protocole du ré-enracinement »](https://giak.substack.com/p/le-protocole-du-re-enracinement) (#9) et [« L'Adieu aux partis »](https://giak.substack.com/p/ladieu-aux-partis) (#62) : les deux textes qui esquissent une réponse au verrouillage systémique.
 
 ---
 
