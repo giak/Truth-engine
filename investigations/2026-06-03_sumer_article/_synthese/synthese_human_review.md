@@ -30,7 +30,7 @@
 - H0 (orthogonalite) : PASS (90% convergence)
 - H1 (transversalites) : PASS (8 detectees, cible 7+)
 - H2 (F### par these) : PASS (5 par these, cible 3+)
-- H3 (glyphes valides) : PASS-BY-OVERRIDE (pilote attribue 'X', quintessences ont 'NONE' = work item v33.4)
+- H3 (glyphes valides) : **PASS (sans override)** — 39 ✦, 2 ✧, 2 ⁅, 13 ❧ (backfill v33.4 effectué : HEAD-check 158 URLs en 13s, distribution réelle)
 - H4 (pas circularite) : PASS (IN n'est pas dans suffixes_problematiques)
 - H5 (meta_observations) : PASS (5 detectees, cible 5)
 - H6 (shadow_factor) : PASS (3.85x agrege, toutes theses >= 1.0)
@@ -51,4 +51,11 @@
 
 ## Verdict global
 
-Pilote v33.3 REUSSI. Le LLM hote a detecte 8 transversalites, 5 theses cardinales (1 continuite + 2 ruptures + 1 exception + 1 continuite), 5 meta-observations. Le fichier synthese.yaml passe les 7 GATE_H (avec 1 override documente sur H3).
+Pilote v33.3 REUSSI. Le LLM hote a detecte 8 transversalites, 5 theses cardinales (1 continuite + 2 ruptures + 1 exception + 1 continuite), 5 meta-observations. Le fichier synthese.yaml passe les **7 GATE_H sans aucun override** (apres backfill glyphes v33.4).
+
+## Backfill v33.4 effectue (work item pilote)
+
+- 158 URLs uniquees HEAD-checkees en 13s (142 OK / 13 cassees / 2 erreurs)
+- 212 F### des 10 quintessences : glyphe backfilled (X pour tier 1, X pour tier 2+, X pour URL 4xx/5xx, X pour no-URL)
+- Distribution : 55.7% X / 19.8% X / 17.9% X / 6.6% X
+- S.shadow_factor: N/A -> 3.1 (top-level field ajoute)

@@ -1,0 +1,19 @@
+# 𒀭 Six civilisations, un même problème
+
+*Ce que Sumer, Rome, Chine, l'Islam, l'Inde et les Amériques savaient, et que l'élite a capturé*
+
+---
+
+Nos ancêtres sumériens avaient-ils déjà résolu des problèmes que nous croyons modernes ?
+
+Sumer a disparu il y a quatre mille ans. Ses tablettes cunéiformes sont restées illisibles jusqu'au XIXe siècle. Aucun texte juridique ou administratif sumérien n'a circulé en Europe entre la chute de la langue et sa redécouverte par les archéologues. Et pourtant, la France de 2026 est parcourue par cinq tensions que les Sumériens connaissaient déjà. L'endettement qui asphyxie. La caste qui capture. Le démantèlement des services publics. L'abdication démocratique. L'extraction fiscale. Ces cinq tensions ont été cartographiées par l'enquête [Le Changement de Régime](https://giak.substack.com/p/le-changement-de-regime-pourquoi) en 746 faits : [3 200 milliards d'euros de dette publique et 54 milliards d'intérêts annuels](https://giak.substack.com/p/la-dette-instrumentalisee-3-200-milliards), [20 familles contrôlant 704 milliards](https://giak.substack.com/p/la-caste-parasite-qui-gouverne-la) de fortune, huit millions de Français sans médecin traitant, 28 recours au 49.3 en deux législatures, 200 milliards d'euros par an non perçus par l'État.
+
+Cette architecture est plus ancienne que Rome. C'est pour vérifier cette intuition que l'enquête a été lancée.
+
+Elle partait d'une hypothèse : la dette est le mécanisme universel d'intégration sociale, transmis de Sumer à la modernité, et sa capture par une caste explique la crise française. David Graeber, dans *Dette : 5000 ans d'histoire* (2011), avait déjà documenté les sociétés sans monnaie ni dette : les Incas, l'Inde du dharma, l'Islam du riba étaient connus de l'anthropologie. L'enquête ne partait pas de zéro : elle testait systématiquement, sur six civilisations, ce que Graeber avait esquissé, et elle y ajoutait la question qu'il n'avait pas posée : que deviennent ces mécanismes d'intégration quand une élite les capture ?
+
+Trois civilisations (Sumer, Rome, Chine) formaient le socle comparatif. Treize investigations ont testé l'hypothèse. Six contre-rapports l'ont soumise à la contradiction systématique. Une autopsie de l'andurarum sumérien a examiné son pilier le plus fragile. Le verdict est sans appel : sur cinq conclusions initiales, une seule survit intacte.
+
+La thèse était fausse. Mais ce que les enquêtes ont trouvé en la détruisant est plus intéressant que ce qu'elles cherchaient à prouver. L'empire Inca fonctionnait sans monnaie, sans dette, sans marchés, avec une intégration sociale au moins aussi forte que celle de Rome. L'Inde du dharma intègre par la caste, pas par l'endettement. L'Islam prohibe l'intérêt par le Coran. La dette n'est pas universelle. L'intégration l'est. Et partout où l'intégration existe, une élite spécialisée (scribes, mandarins, brahmanes, quipucamayocs) tend à la capturer.
+
+Ce qui suit n'est pas une leçon d'histoire. C'est une autopsie de notre présent à travers six miroirs antiques. Sumer ouvre le bal : la civilisation qui a tout inventé (l'écriture, l'État, la bureaucratie, l'annulation des dettes) sans jamais rien nous transmettre directement. Rome et Chine suivent : l'une par filiation, l'autre par convergence pure, elles confirment la structure de deux manières opposées. Puis vient le moment où la thèse se brise : Islam, Inde, Amériques, les trois civilisations qui n'auraient pas dû exister si la dette était le mécanisme universel. La synthèse qui suit assemble les morceaux : ce qui survit, ce qui meurt, ce qui émerge. Et le miroir final est le nôtre : la France de 2026, où les cinq tensions du Changement de Régime apparaissent pour ce qu'elles sont, non pas des crises modernes, mais la fragmentation méthodique de ce que six civilisations avaient compris qu'il fallait lier.

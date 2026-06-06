@@ -6,544 +6,735 @@ n_causalites: 5
 n_chronologie: 12
 n_domaines: 7
 n_urls: 13
-these_centrale: >-
-  L'andurarum (amargi sum., "retour à l'etat d'origine") est le
-  MAILLON FAIBLE de la these centrale de l'article. L'autopsie
-  identifie 5 divergences critiques : (1) SEMANTIQUE (Hudson
-  "liberation" vs Charpin "restauration"), (2) PORTEE (dettes
-  agricoles SEULES annulees, commerciales EXCLUES), (3) FREQUENCE
-  (30 edits en 1000 ans = 1/33 ans, pas regulier), (4) FONCTION
-  (Charpin "legitimation royale" vs Hudson "stabilisateur
-  macroeconomique"), (5) DISPARITION post-1400 BCE (silence de
-  600 ans sans transmission). Le shadow revise est de 5,8x, ce
-  qui signifie que l'interpretation Graeber/Hudson de l'andurarum
-  est SYSTEMIQUEMENT BIAISEE par une lecture gauchisante d'un
-  phenomene qui est D'ABORD un rituel de legitimation politique.
+these_centrale: 'L''andurarum (amargi sum., "retour à l''etat d''origine") est le
+  MAILLON FAIBLE de la these centrale de l''article. L''autopsie identifie 5 divergences
+  critiques : (1) SEMANTIQUE (Hudson "liberation" vs Charpin "restauration"), (2)
+  PORTEE (dettes agricoles SEULES annulees, commerciales EXCLUES), (3) FREQUENCE (30
+  edits en 1000 ans = 1/33 ans, pas regulier), (4) FONCTION (Charpin "legitimation
+  royale" vs Hudson "stabilisateur macroeconomique"), (5) DISPARITION post-1400 BCE
+  (silence de 600 ans sans transmission). Le shadow revise est de 5,8x, ce qui signifie
+  que l''interpretation Graeber/Hudson de l''andurarum est SYSTEMIQUEMENT BIAISEE
+  par une lecture gauchisante d''un phenomene qui est D''ABORD un rituel de legitimation
+  politique.'
 theses_implicites:
-  - "L'interpretation de l'andurarum comme 'justice sociale' moderne est anachronique (Charpin)"
-  - "La these Hudson/Graeber repose sur des TRADUCTIONS (Kraus 1984), pas sur la lecture directe des tablettes"
-  - "Le consensus assyriologique penche vers Charpin (legitimation), pas vers Hudson (stabilisation macro)"
-  - "La recuperation politique d'amargi (libertariens, Hayek Society, Liberty Fund, Reagan) prouve le caractere 'Rorschach' du terme"
-  - "La these d'integration par la dette repose sur l'andurarum ; si l'andurarum est un rituel politique, la these s'effondre"
+- L'interpretation de l'andurarum comme 'justice sociale' moderne est anachronique
+  (Charpin)
+- La these Hudson/Graeber repose sur des TRADUCTIONS (Kraus 1984), pas sur la lecture
+  directe des tablettes
+- Le consensus assyriologique penche vers Charpin (legitimation), pas vers Hudson
+  (stabilisation macro)
+- La recuperation politique d'amargi (libertariens, Hayek Society, Liberty Fund, Reagan)
+  prouve le caractere 'Rorschach' du terme
+- La these d'integration par la dette repose sur l'andurarum ; si l'andurarum est
+  un rituel politique, la these s'effondre
 f_atomiques:
-  - id: F-A001
-    fait: "Andurarum = 'retour a la situation d'origine' (Charpin, College de France 2022), PAS 'liberation' (Hudson/Graeber)"
-    date: "2022"
-    acteur: "Dominique Charpin, assyriologue College de France"
-    source: "Cours College de France, 21 fevrier 2022"
-    url: "https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§1"
-  - id: F-A002
-    fait: "Ama.ar.gi sum. = 'retour a la mere' (ama + ar + gi), PAS 'liberte' ou 'justice sociale'"
-    date: "IIIe mill. av."
-    acteur: "Sumeriens"
-    source: "Wikipedia Andurarum (FR)"
-    url: "https://fr.wikipedia.org/wiki/Andurarum"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§1.1"
-  - id: F-A003
-    fait: "Dettes agricoles (subsistance, ~33% interet) annulees, dettes commerciales (tamkarum) EXCLUES des annulations"
-    date: "2400-1400 av."
-    acteur: "Rois mesopotamiens, tamkarum (marchands)"
-    source: "Wikipedia History of debt relief + Hudson Lost Tradition p. 29-30"
-    url: "https://en.wikipedia.org/wiki/History_of_debt_relief"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§2.1"
-  - id: F-A004
-    fait: "Edit d'Ammisaduqa (1646 av.) : 'Les tablettes concernant les dettes des commercants (tamkarum) doivent etre preservees' (cote de l'article)"
-    date: "1646 av."
-    acteur: "Ammisaduqa, roi de Babylone"
-    source: "Britannica Ammisaduqa + Finkelstein"
-    url: "https://www.britannica.com/biography/Ammisaduqa"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§2.2"
-  - id: F-A005
-    fait: "~30 edits d'annulation identifies avec certitude entre 2400 et 1400 av. = 1 tous les 33 ans en moyenne"
-    date: "2400-1400 av."
-    acteur: "Rois mesopotamiens"
-    source: "Wikipedia History of debt relief (Kraus 1984, CADTM Toussaint 2024)"
-    url: "https://en.wikipedia.org/wiki/History_of_debt_relief"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§3.1"
-  - id: F-A006
-    fait: "AUCUN edit d'annulation connu apres 1400 av. : la pratique disparait avec l'effondrement de l'age du bronze"
-    date: "1400-1200 av."
-    acteur: "Systeme politique paleo-babylonien"
-    source: "Charpin, College de France 2022 (silence post-1400)"
-    url: "https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§3.4"
-  - id: F-A007
-    fait: "Charpin : 'rien de plus etranger au monde mesopotamien que la reforme au sens des reformistes modernes'"
-    date: "2022"
-    acteur: "Dominique Charpin"
-    source: "Cours College de France 2022, citation directe"
-    url: "https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§1.1"
-  - id: F-A008
-    fait: "Hudson n'est PAS assyriologue, il s'appuie sur les traductions de Kraus (1984) et Westbrook, ne lit pas les tablettes"
-    date: "1993-2024"
-    acteur: "Michael Hudson, economiste heterodoxe"
-    source: "Wikipedia Michael Hudson + auto-admission Hudson (Modern Misinterpretations 2024)"
-    url: "https://en.wikipedia.org/wiki/Michael_Hudson"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§5.1"
-  - id: F-A009
-    fait: "Kramer (1959) traduit amargi par 'reduction d'impots' (politique fiscale), pas 'liberation' (Hudson)"
-    date: "1959"
-    acteur: "Samuel Noah Kramer, sumerologue"
-    source: "Kramer, History Begins at Sumer (1959)"
-    url: "https://en.wikipedia.org/wiki/Samuel_Noah_Kramer"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§1.3 / §5.3"
-  - id: F-A010
-    fait: "Kramer en 1981 exhorte Reagan a 'reduire les impots' en citant amargi (recuperation politique conservatrice)"
-    date: "1981"
-    acteur: "Samuel Noah Kramer, Reagan"
-    source: "Wikipedia Samuel Noah Kramer"
-    url: "https://en.wikipedia.org/wiki/Samuel_Noah_Kramer"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§5.3"
-  - id: F-A011
-    fait: "Libertariens americains (Hayek Society LSE, Liberty Fund) utilisent amargi comme symbole de 'liberte individuelle'"
-    date: "XXe-XXIe s."
-    acteur: "Libertarian Forum, Cato Institute, Hayek Society LSE"
-    source: "Wikipedia Amargi + Hudson Modern Misinterpretations 2024"
-    url: "https://en.wikipedia.org/wiki/Amargi"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§5.3"
-  - id: F-A012
-    fait: "Dynastie d'Hammurabi (1792-1750 av.) : 6 edits en 166 ans = 1 tous les 28 ans (pic de la pratique)"
-    date: "1792-1750 av."
-    acteur: "Hammurabi, Samsu-iluna, Abi-eshuh, Ammisaduqa"
-    source: "Wikipedia Amorites + Charpin Edits de restauration (1990)"
-    url: "https://en.wikipedia.org/wiki/Babylon"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§3.1"
-  - id: F-A013
-    fait: "Hudson reconnait lui-meme que le terme andurarum est un 'test de Rorschach ideologique reflétant les croyances du traducteur' (2024)"
-    date: "2024"
-    acteur: "Michael Hudson"
-    source: "Hudson, Modern (Mis)interpretations of Ancient Debt Cancellation (2024)"
-    url: ""
-    tier: 2
-    fiabilite: ✧
-    source_section: "§1.2"
-  - id: F-A014
-    fait: "Andurarum HEUREUX d'accession au trône, pas a cycle agricole regulier (preuve = calendrier politique, pas economique)"
-    date: "2400-1400 av."
-    acteur: "Rois mesopotamiens"
-    source: "Charpin, College de France 2022 (analyse de la distribution)"
-    url: "https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§4.5"
-  - id: F-A015
-    fait: "Cognat linguistique andurarum ↔ dror hebreu (Levitique 25) : la these d'une transmission au Jubilé est PLAUSIBLE mais non prouvee"
-    date: "Vatic. post-1400 av."
-    acteur: "Redacteurs bibliques (source Y, P)"
-    source: "Hudson Lost Tradition (1993) + Westbrook Social Justice (1995)"
-    url: "https://en.wikipedia.org/wiki/Jubilee_(Bible)"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§6.3"
-  - id: F-A016
-    fait: "Misharum akkadien = 'justice, equite' (racine YSR/ISHAR), DIFFERENT d'andurarum = 'liberte' (racine DRR)"
-    date: "IIIe mill. av."
-    acteur: "Akkadiens"
-    source: "Wikipedia Andurarum"
-    url: "https://fr.wikipedia.org/wiki/Andurarum"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§1.2"
-  - id: F-A017
-    fait: "Charpin insiste : andurarum = ACTE CONSERVATEUR (restauration de l'ordre), PAS reforme"
-    date: "1987-2022"
-    acteur: "Dominique Charpin"
-    source: "Charpin, Les decrets royaux paleo-babyloniens (1987) + College de France 2022"
-    url: "https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§4.2"
-  - id: F-A018
-    fait: "Le systeme mesopotamien ne TUIT pas la dette, il la CANALISE : protege paysan-soldat, marchand s'enrichit"
-    date: "2400-1400 av."
-    acteur: "Systeme paleo-babylonien"
-    source: "CADTM Toussaint 2024 + Charpin"
-    url: "https://www.cadtm.org/The-Long-Tradition-of-Debt-Cancellation"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§2.4"
-  - id: F-A019
-    fait: "Andurarum = 'ideologie de la RESTITUTION' (roi gardien de l'ordre cosmique me), PAS ingenieur social"
-    date: "IIIe mill. av."
-    acteur: "Pensee royale mesopotamienne"
-    source: "Charpin College de France 2022"
-    url: "https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§4.2"
-  - id: F-A020
-    fait: "Hudson voit l'andurarum comme un STABILISATEUR MACROECONOMIQUE (reponse rationnelle a concentration fonciere)"
-    date: "1993-2024"
-    acteur: "Michael Hudson"
-    source: "Hudson, Lost Tradition of Biblical Debt Cancellations (1993)"
-    url: "https://michael-hudson.com/2012/04/12/the-lost-tradition-of-biblical-debt-cancellations/"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§4.3"
-  - id: F-A021
-    fait: "Villard, Charpin, Finkelstein = specialistes qui confirment la THESE RESTAURATION contre Hudson"
-    date: "1987-2022"
-    acteur: "Villard, Finkelstein, Kraus, Westbrook"
-    source: "Villard L'andurârum neo-assyrien + Finkelstein Ammisaduqa"
-    url: "https://fr.wikipedia.org/wiki/Andurarum"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§5.2"
-  - id: F-A022
-    fait: "Shadow 5,8× = 1,5× (semantique) × 1,3× (agri/commercial) × 1,2× (frequence) × 1,0× (Charpin ignore) × 0,8× (disparition)"
-    date: "2026"
-    acteur: "Methodologie SUBLIMATOR"
-    source: "Calcul SUBLIMATOR (A 2026)"
-    url: ""
-    tier: 3
-    fiabilite: ❧
-    source_section: "§6.4"
-
+- id: F-A001
+  fait: Andurarum = 'retour a la situation d'origine' (Charpin, College de France
+    2022), PAS 'liberation' (Hudson/Graeber)
+  date: '2022'
+  acteur: Dominique Charpin, assyriologue College de France
+  source: Cours College de France, 21 fevrier 2022
+  url: https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine
+  tier: 1
+  fiabilite: ✦
+  source_section: §1
+  glyphe: ❧
+- id: F-A002
+  fait: Ama.ar.gi sum. = 'retour a la mere' (ama + ar + gi), PAS 'liberte' ou 'justice
+    sociale'
+  date: IIIe mill. av.
+  acteur: Sumeriens
+  source: Wikipedia Andurarum (FR)
+  url: https://fr.wikipedia.org/wiki/Andurarum
+  tier: 1
+  fiabilite: ✦
+  source_section: §1.1
+  glyphe: ✦
+- id: F-A003
+  fait: Dettes agricoles (subsistance, ~33% interet) annulees, dettes commerciales
+    (tamkarum) EXCLUES des annulations
+  date: 2400-1400 av.
+  acteur: Rois mesopotamiens, tamkarum (marchands)
+  source: Wikipedia History of debt relief + Hudson Lost Tradition p. 29-30
+  url: https://en.wikipedia.org/wiki/History_of_debt_relief
+  tier: 1
+  fiabilite: ✦
+  source_section: §2.1
+  glyphe: ✦
+- id: F-A004
+  fait: 'Edit d''Ammisaduqa (1646 av.) : ''Les tablettes concernant les dettes des
+    commercants (tamkarum) doivent etre preservees'' (cote de l''article)'
+  date: 1646 av.
+  acteur: Ammisaduqa, roi de Babylone
+  source: Britannica Ammisaduqa + Finkelstein
+  url: https://www.britannica.com/biography/Ammisaduqa
+  tier: 1
+  fiabilite: ✦
+  source_section: §2.2
+  glyphe: ✦
+- id: F-A005
+  fait: ~30 edits d'annulation identifies avec certitude entre 2400 et 1400 av. =
+    1 tous les 33 ans en moyenne
+  date: 2400-1400 av.
+  acteur: Rois mesopotamiens
+  source: Wikipedia History of debt relief (Kraus 1984, CADTM Toussaint 2024)
+  url: https://en.wikipedia.org/wiki/History_of_debt_relief
+  tier: 1
+  fiabilite: ✦
+  source_section: §3.1
+  glyphe: ✦
+- id: F-A006
+  fait: 'AUCUN edit d''annulation connu apres 1400 av. : la pratique disparait avec
+    l''effondrement de l''age du bronze'
+  date: 1400-1200 av.
+  acteur: Systeme politique paleo-babylonien
+  source: Charpin, College de France 2022 (silence post-1400)
+  url: https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine
+  tier: 1
+  fiabilite: ✦
+  source_section: §3.4
+  glyphe: ❧
+- id: F-A007
+  fait: 'Charpin : ''rien de plus etranger au monde mesopotamien que la reforme au
+    sens des reformistes modernes'''
+  date: '2022'
+  acteur: Dominique Charpin
+  source: Cours College de France 2022, citation directe
+  url: https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine
+  tier: 1
+  fiabilite: ✦
+  source_section: §1.1
+  glyphe: ❧
+- id: F-A008
+  fait: Hudson n'est PAS assyriologue, il s'appuie sur les traductions de Kraus (1984)
+    et Westbrook, ne lit pas les tablettes
+  date: 1993-2024
+  acteur: Michael Hudson, economiste heterodoxe
+  source: Wikipedia Michael Hudson + auto-admission Hudson (Modern Misinterpretations
+    2024)
+  url: https://en.wikipedia.org/wiki/Michael_Hudson
+  tier: 1
+  fiabilite: ✦
+  source_section: §5.1
+  glyphe: ✦
+- id: F-A009
+  fait: Kramer (1959) traduit amargi par 'reduction d'impots' (politique fiscale),
+    pas 'liberation' (Hudson)
+  date: '1959'
+  acteur: Samuel Noah Kramer, sumerologue
+  source: Kramer, History Begins at Sumer (1959)
+  url: https://en.wikipedia.org/wiki/Samuel_Noah_Kramer
+  tier: 2
+  fiabilite: ✧
+  source_section: §1.3 / §5.3
+  glyphe: ✧
+- id: F-A010
+  fait: Kramer en 1981 exhorte Reagan a 'reduire les impots' en citant amargi (recuperation
+    politique conservatrice)
+  date: '1981'
+  acteur: Samuel Noah Kramer, Reagan
+  source: Wikipedia Samuel Noah Kramer
+  url: https://en.wikipedia.org/wiki/Samuel_Noah_Kramer
+  tier: 2
+  fiabilite: ✧
+  source_section: §5.3
+  glyphe: ✧
+- id: F-A011
+  fait: Libertariens americains (Hayek Society LSE, Liberty Fund) utilisent amargi
+    comme symbole de 'liberte individuelle'
+  date: XXe-XXIe s.
+  acteur: Libertarian Forum, Cato Institute, Hayek Society LSE
+  source: Wikipedia Amargi + Hudson Modern Misinterpretations 2024
+  url: https://en.wikipedia.org/wiki/Amargi
+  tier: 2
+  fiabilite: ✧
+  source_section: §5.3
+  glyphe: ✧
+- id: F-A012
+  fait: 'Dynastie d''Hammurabi (1792-1750 av.) : 6 edits en 166 ans = 1 tous les 28
+    ans (pic de la pratique)'
+  date: 1792-1750 av.
+  acteur: Hammurabi, Samsu-iluna, Abi-eshuh, Ammisaduqa
+  source: Wikipedia Amorites + Charpin Edits de restauration (1990)
+  url: https://en.wikipedia.org/wiki/Babylon
+  tier: 1
+  fiabilite: ✦
+  source_section: §3.1
+  glyphe: ✦
+- id: F-A013
+  fait: Hudson reconnait lui-meme que le terme andurarum est un 'test de Rorschach
+    ideologique reflétant les croyances du traducteur' (2024)
+  date: '2024'
+  acteur: Michael Hudson
+  source: Hudson, Modern (Mis)interpretations of Ancient Debt Cancellation (2024)
+  url: ''
+  tier: 2
+  fiabilite: ✧
+  source_section: §1.2
+  glyphe: ❧
+- id: F-A014
+  fait: Andurarum HEUREUX d'accession au trône, pas a cycle agricole regulier (preuve
+    = calendrier politique, pas economique)
+  date: 2400-1400 av.
+  acteur: Rois mesopotamiens
+  source: Charpin, College de France 2022 (analyse de la distribution)
+  url: https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine
+  tier: 1
+  fiabilite: ✦
+  source_section: §4.5
+  glyphe: ❧
+- id: F-A015
+  fait: 'Cognat linguistique andurarum ↔ dror hebreu (Levitique 25) : la these d''une
+    transmission au Jubilé est PLAUSIBLE mais non prouvee'
+  date: Vatic. post-1400 av.
+  acteur: Redacteurs bibliques (source Y, P)
+  source: Hudson Lost Tradition (1993) + Westbrook Social Justice (1995)
+  url: https://en.wikipedia.org/wiki/Jubilee_(Bible)
+  tier: 2
+  fiabilite: ✧
+  source_section: §6.3
+  glyphe: ✧
+- id: F-A016
+  fait: Misharum akkadien = 'justice, equite' (racine YSR/ISHAR), DIFFERENT d'andurarum
+    = 'liberte' (racine DRR)
+  date: IIIe mill. av.
+  acteur: Akkadiens
+  source: Wikipedia Andurarum
+  url: https://fr.wikipedia.org/wiki/Andurarum
+  tier: 1
+  fiabilite: ✦
+  source_section: §1.2
+  glyphe: ✦
+- id: F-A017
+  fait: 'Charpin insiste : andurarum = ACTE CONSERVATEUR (restauration de l''ordre),
+    PAS reforme'
+  date: 1987-2022
+  acteur: Dominique Charpin
+  source: Charpin, Les decrets royaux paleo-babyloniens (1987) + College de France
+    2022
+  url: https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine
+  tier: 1
+  fiabilite: ✦
+  source_section: §4.2
+  glyphe: ❧
+- id: F-A018
+  fait: 'Le systeme mesopotamien ne TUIT pas la dette, il la CANALISE : protege paysan-soldat,
+    marchand s''enrichit'
+  date: 2400-1400 av.
+  acteur: Systeme paleo-babylonien
+  source: CADTM Toussaint 2024 + Charpin
+  url: https://www.cadtm.org/The-Long-Tradition-of-Debt-Cancellation
+  tier: 2
+  fiabilite: ✧
+  source_section: §2.4
+  glyphe: ✧
+- id: F-A019
+  fait: Andurarum = 'ideologie de la RESTITUTION' (roi gardien de l'ordre cosmique
+    me), PAS ingenieur social
+  date: IIIe mill. av.
+  acteur: Pensee royale mesopotamienne
+  source: Charpin College de France 2022
+  url: https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine
+  tier: 1
+  fiabilite: ✦
+  source_section: §4.2
+  glyphe: ❧
+- id: F-A020
+  fait: Hudson voit l'andurarum comme un STABILISATEUR MACROECONOMIQUE (reponse rationnelle
+    a concentration fonciere)
+  date: 1993-2024
+  acteur: Michael Hudson
+  source: Hudson, Lost Tradition of Biblical Debt Cancellations (1993)
+  url: https://michael-hudson.com/2012/04/12/the-lost-tradition-of-biblical-debt-cancellations/
+  tier: 2
+  fiabilite: ✧
+  source_section: §4.3
+  glyphe: ✧
+- id: F-A021
+  fait: Villard, Charpin, Finkelstein = specialistes qui confirment la THESE RESTAURATION
+    contre Hudson
+  date: 1987-2022
+  acteur: Villard, Finkelstein, Kraus, Westbrook
+  source: Villard L'andurârum neo-assyrien + Finkelstein Ammisaduqa
+  url: https://fr.wikipedia.org/wiki/Andurarum
+  tier: 1
+  fiabilite: ✦
+  source_section: §5.2
+  glyphe: ✦
+- id: F-A022
+  fait: Shadow 5,8× = 1,5× (semantique) × 1,3× (agri/commercial) × 1,2× (frequence)
+    × 1,0× (Charpin ignore) × 0,8× (disparition)
+  date: '2026'
+  acteur: Methodologie SUBLIMATOR
+  source: Calcul SUBLIMATOR (A 2026)
+  url: ''
+  tier: 3
+  fiabilite: ❧
+  source_section: §6.4
+  glyphe: ❧
 acteurs:
-  - {nom: "Dominique Charpin", categorie: "EXPERTS", role: "Assyriologue College de France, these 'restauration'", centralite: 1.0, source_section: "§1.1 / §5"}
-  - {nom: "Michael Hudson", categorie: "EXPERTS", role: "Economiste heterodoxe, these 'stabilisation macro'", centralite: 0.95, source_section: "§4.3 / §5"}
-  - {nom: "F.R. Kraus", categorie: "EXPERTS", role: "Assyriologue, 'Konigliche Verfugungen' (1984)", centralite: 0.75, source_section: "§5.1"}
-  - {nom: "Raymond Westbrook", categorie: "EXPERTS", role: "Juriste, 'Social Justice in the Ancient Near East' (1995)", centralite: 0.70, source_section: "§5.2"}
-  - {nom: "J.J. Finkelstein", categorie: "EXPERTS", role: "Assyriologue, edite l'Edit d'Ammisaduqa", centralite: 0.65, source_section: "§2.2 / §5.2"}
-  - {nom: "David Graeber", categorie: "EXPERTS", role: "Anthropologue, 'Debt: The First 5000 Years' (2011)", centralite: 0.80, source_section: "§0 / §1.3"}
-  - {nom: "Samuel Noah Kramer", categorie: "EXPERTS", role: "Sumerologue, traduc. amargi 'reduction d'impots'", centralite: 0.55, source_section: "§1.3 / §5.3"}
-  - {nom: "Eric Toussaint (CADTM)", categorie: "CIVIL_SOCIETY", role: "Militant anti-dette, recupere l'andurarum", centralite: 0.50, source_section: "§2.1"}
-  - {nom: "Pierre Villard", categorie: "EXPERTS", role: "Assyriologue, 'andurarum neo-assyrien'", centralite: 0.50, source_section: "§5.2"}
-  - {nom: "Hammurabi", categorie: "GOVERNMENT", role: "Roi de Babylone 1792-1750, 6 edits connus", centralite: 0.70, source_section: "§3.1 / F-A012"}
-  - {nom: "Ammisaduqa", categorie: "GOVERNMENT", role: "Roi de Babylone, edit 1646 le + complet", centralite: 0.65, source_section: "§2.2 / F-A004"}
-  - {nom: "Tamkarum (collectif)", categorie: "BUSINESS", role: "Marchands-commercants, DETTES EXCLUES", centralite: 0.60, source_section: "§2.1 / F-A003"}
-  - {nom: "Thureau-Dangin", categorie: "EXPERTS", role: "Premier traduc. 'annulation de dettes'", centralite: 0.45, source_section: "§1.3"}
-  - {nom: "Hayek Society / Liberty Fund", categorie: "CIVIL_SOCIETY", role: "Libertariens, recuperation politique d'amargi", centralite: 0.30, source_section: "§5.3"}
+- nom: Dominique Charpin
+  categorie: EXPERTS
+  role: Assyriologue College de France, these 'restauration'
+  centralite: 1.0
+  source_section: §1.1 / §5
+- nom: Michael Hudson
+  categorie: EXPERTS
+  role: Economiste heterodoxe, these 'stabilisation macro'
+  centralite: 0.95
+  source_section: §4.3 / §5
+- nom: F.R. Kraus
+  categorie: EXPERTS
+  role: Assyriologue, 'Konigliche Verfugungen' (1984)
+  centralite: 0.75
+  source_section: §5.1
+- nom: Raymond Westbrook
+  categorie: EXPERTS
+  role: Juriste, 'Social Justice in the Ancient Near East' (1995)
+  centralite: 0.7
+  source_section: §5.2
+- nom: J.J. Finkelstein
+  categorie: EXPERTS
+  role: Assyriologue, edite l'Edit d'Ammisaduqa
+  centralite: 0.65
+  source_section: §2.2 / §5.2
+- nom: David Graeber
+  categorie: EXPERTS
+  role: 'Anthropologue, ''Debt: The First 5000 Years'' (2011)'
+  centralite: 0.8
+  source_section: §0 / §1.3
+- nom: Samuel Noah Kramer
+  categorie: EXPERTS
+  role: Sumerologue, traduc. amargi 'reduction d'impots'
+  centralite: 0.55
+  source_section: §1.3 / §5.3
+- nom: Eric Toussaint (CADTM)
+  categorie: CIVIL_SOCIETY
+  role: Militant anti-dette, recupere l'andurarum
+  centralite: 0.5
+  source_section: §2.1
+- nom: Pierre Villard
+  categorie: EXPERTS
+  role: Assyriologue, 'andurarum neo-assyrien'
+  centralite: 0.5
+  source_section: §5.2
+- nom: Hammurabi
+  categorie: GOVERNMENT
+  role: Roi de Babylone 1792-1750, 6 edits connus
+  centralite: 0.7
+  source_section: §3.1 / F-A012
+- nom: Ammisaduqa
+  categorie: GOVERNMENT
+  role: Roi de Babylone, edit 1646 le + complet
+  centralite: 0.65
+  source_section: §2.2 / F-A004
+- nom: Tamkarum (collectif)
+  categorie: BUSINESS
+  role: Marchands-commercants, DETTES EXCLUES
+  centralite: 0.6
+  source_section: §2.1 / F-A003
+- nom: Thureau-Dangin
+  categorie: EXPERTS
+  role: Premier traduc. 'annulation de dettes'
+  centralite: 0.45
+  source_section: §1.3
+- nom: Hayek Society / Liberty Fund
+  categorie: CIVIL_SOCIETY
+  role: Libertariens, recuperation politique d'amargi
+  centralite: 0.3
+  source_section: §5.3
 total_individus: 14
 cible_apex: 12
-verdict: "APEX atteint (14 superieur ou egal 12)"
-
+verdict: APEX atteint (14 superieur ou egal 12)
 causalites:
-  - id: C-A001
-    nom: "DIVERGENCE SEMANTIQUE : 'liberation' (Hudson) vs 'retour a l'origine' (Charpin)"
-    description: >-
-      L'andurarum est traduit par Hudson (suivi de Graeber) comme
-      'liberation', 'justice sociale', 'clean slate'. Charpin, le
-      plus grand assyriologue francais, traduit par 'retour a la
-      situation d'origine' (College de France 2022). Cette
-      divergence SEMANTIQUE n'est PAS mentionnee par l'article
-      qui adopte l'interpretation Hudson. Implication : si
-      Charpin a raison, l'andurarum n'est PAS une mesure de
-      progres social mais un rituel de RESTAURATION conservatrice.
-      La these d'integration par la dette repose sur Hudson ; si
-      Hudson traduit mal, la these s'effondre.
-    preuve_tranchante: "Charpin College de France 2022 + citations directes"
-    fiabilite: ✦
-  - id: C-A002
-    nom: "DETTES COMMERCIALES EXCLUES : tamkarum preserve, systeme dette subsiste"
-    description: >-
-      L'edit d'Ammisaduqa (1646 av.), le texte le plus complet
-      qui nous soit parvenu, stipule explicitement que les
-      tablettes des commercants (tamkarum) doivent etre
-      preservees. Les dettes de subsistance (grain avant
-      recolte, ~33%) et les arrieres d'impots etaient annules,
-      mais les prets commerciaux etaient EXCLUS. Implication :
-      le systeme ne tuait pas la dette, il la CANALISAIT. Le
-      marchand s'enrichissait pendant que le paysan etait
-      protege. L'article presente l'andurarum comme 'remise
-      generale' ce qui est FAUX.
-    preuve_tranchante: "Ammisaduqa 1646 av. + Wikipedia History of debt relief"
-    fiabilite: ✦
-  - id: C-A003
-    nom: "FREQUENCE 30/1000 ANS = 1/33 ANS, pas regulier, pas structurel"
-    description: >-
-      Environ 30 edits identifies en 1000 ans, soit 1 tous les
-      33 ans en moyenne. Mais la distribution est TRES
-      IRREGULIERE : pic de 6 edits en 166 ans sous Hammurabi
-      (1/28 ans), longs intervalles sans edit, AUCUN edit apres
-      1400 av. Si l'andurarum etait STRUCTUREL, on s'attendrait
-      a une frequence reguliere liee aux cycles agricoles (Jubile
-      biblique tous les 49/50 ans). L'andurarum est lie a
-      l'ACCESSION AU TRONE, pas aux cycles agricoles : c'est
-      un calendrier POLITIQUE, pas economique.
-    preuve_tranchante: "Kraus 1984 + Charpin 2022 distribution irreguliere"
-    fiabilite: ✦
-  - id: C-A004
-    nom: "FONCTION : legitimation royale (Charpin) vs stabilisation macro (Hudson)"
-    description: >-
-      Charpin defend que l'andurarum est d'abord un ACTE DE
-      LEGITIMATION ROYALE : le roi restaure l'ordre cosmique
-      (me), il n'est pas ingenieur social. Hudson defend que
-      c'est un STABILISATEUR MACROECONOMIQUE : l'annulation
-      periodique empeche la concentration fonciere. Les deux
-      lectures ne sont pas incompatibles, mais l'article
-      adopte EXCLUSIVEMENT Hudson. La these de l'integration
-      par la dette repose sur la lecture economique ; si
-      Charpin a raison (lecture politique), l'andurarum n'est
-      PAS un mecanisme economique.
-    preuve_tranchante: "Charpin 2022 vs Hudson 1993, 2024"
-    fiabilite: ✦
-  - id: C-A005
-    nom: "DISPARITION POST-1400 AV. : 600 ans de silence, pas de transmission"
-    description: >-
-      Aucun edit d'annulation connu apres 1400 av. La pratique
-      disparait avec l'effondrement de l'age du bronze. Si
-      l'andurarum etait un mecanisme CENTRAL de la civilisation
-      mesopotamienne, il aurait du persister ou se reinventer.
-      Sa disparition suggere qu'il etait lie a une CONFIGURATION
-      POLITIQUE PARTICULIERE (systeme royal paleo-babylonien),
-      pas a la dette comme mecanisme universel d'integration.
-      Implication : la these d'integration par la dette repose
-      sur 1000 ans de pratique discontinue, pas sur une
-      continuite de 3000 ans.
-    preuve_tranchante: "Charpin 2022 + Wikipedia Amorites fin 1400"
-    fiabilite: ✦
-
+- id: C-A001
+  nom: 'DIVERGENCE SEMANTIQUE : ''liberation'' (Hudson) vs ''retour a l''origine''
+    (Charpin)'
+  description: 'L''andurarum est traduit par Hudson (suivi de Graeber) comme ''liberation'',
+    ''justice sociale'', ''clean slate''. Charpin, le plus grand assyriologue francais,
+    traduit par ''retour a la situation d''origine'' (College de France 2022). Cette
+    divergence SEMANTIQUE n''est PAS mentionnee par l''article qui adopte l''interpretation
+    Hudson. Implication : si Charpin a raison, l''andurarum n''est PAS une mesure
+    de progres social mais un rituel de RESTAURATION conservatrice. La these d''integration
+    par la dette repose sur Hudson ; si Hudson traduit mal, la these s''effondre.'
+  preuve_tranchante: Charpin College de France 2022 + citations directes
+  fiabilite: ✦
+- id: C-A002
+  nom: 'DETTES COMMERCIALES EXCLUES : tamkarum preserve, systeme dette subsiste'
+  description: 'L''edit d''Ammisaduqa (1646 av.), le texte le plus complet qui nous
+    soit parvenu, stipule explicitement que les tablettes des commercants (tamkarum)
+    doivent etre preservees. Les dettes de subsistance (grain avant recolte, ~33%)
+    et les arrieres d''impots etaient annules, mais les prets commerciaux etaient
+    EXCLUS. Implication : le systeme ne tuait pas la dette, il la CANALISAIT. Le marchand
+    s''enrichissait pendant que le paysan etait protege. L''article presente l''andurarum
+    comme ''remise generale'' ce qui est FAUX.'
+  preuve_tranchante: Ammisaduqa 1646 av. + Wikipedia History of debt relief
+  fiabilite: ✦
+- id: C-A003
+  nom: FREQUENCE 30/1000 ANS = 1/33 ANS, pas regulier, pas structurel
+  description: 'Environ 30 edits identifies en 1000 ans, soit 1 tous les 33 ans en
+    moyenne. Mais la distribution est TRES IRREGULIERE : pic de 6 edits en 166 ans
+    sous Hammurabi (1/28 ans), longs intervalles sans edit, AUCUN edit apres 1400
+    av. Si l''andurarum etait STRUCTUREL, on s''attendrait a une frequence reguliere
+    liee aux cycles agricoles (Jubile biblique tous les 49/50 ans). L''andurarum est
+    lie a l''ACCESSION AU TRONE, pas aux cycles agricoles : c''est un calendrier POLITIQUE,
+    pas economique.'
+  preuve_tranchante: Kraus 1984 + Charpin 2022 distribution irreguliere
+  fiabilite: ✦
+- id: C-A004
+  nom: 'FONCTION : legitimation royale (Charpin) vs stabilisation macro (Hudson)'
+  description: 'Charpin defend que l''andurarum est d''abord un ACTE DE LEGITIMATION
+    ROYALE : le roi restaure l''ordre cosmique (me), il n''est pas ingenieur social.
+    Hudson defend que c''est un STABILISATEUR MACROECONOMIQUE : l''annulation periodique
+    empeche la concentration fonciere. Les deux lectures ne sont pas incompatibles,
+    mais l''article adopte EXCLUSIVEMENT Hudson. La these de l''integration par la
+    dette repose sur la lecture economique ; si Charpin a raison (lecture politique),
+    l''andurarum n''est PAS un mecanisme economique.'
+  preuve_tranchante: Charpin 2022 vs Hudson 1993, 2024
+  fiabilite: ✦
+- id: C-A005
+  nom: 'DISPARITION POST-1400 AV. : 600 ans de silence, pas de transmission'
+  description: 'Aucun edit d''annulation connu apres 1400 av. La pratique disparait
+    avec l''effondrement de l''age du bronze. Si l''andurarum etait un mecanisme CENTRAL
+    de la civilisation mesopotamienne, il aurait du persister ou se reinventer. Sa
+    disparition suggere qu''il etait lie a une CONFIGURATION POLITIQUE PARTICULIERE
+    (systeme royal paleo-babylonien), pas a la dette comme mecanisme universel d''integration.
+    Implication : la these d''integration par la dette repose sur 1000 ans de pratique
+    discontinue, pas sur une continuite de 3000 ans.'
+  preuve_tranchante: Charpin 2022 + Wikipedia Amorites fin 1400
+  fiabilite: ✦
 chronologie:
-  - date: "~2400 av."
-    evenement: "Premier edit d'andurarum identifie (Ur-Nammu, Urukagina, Sargon d'Akkad)"
-  - date: "~2100 av."
-    evenement: "Lipit-Enlil (Isin), edit d'annulation des dettes"
-  - date: "~1800 av."
-    evenement: "Samsu-iluna, pere d'Hammurabi, edit connu"
-  - date: "1792-1750 av."
-    evenement: "Hammurabi roi de Babylone, periode d'apogee de l'andurarum"
-  - date: "1646 av."
-    evenement: "Ammisaduqa, edit le + complet qui nous soit parvenu (tamkarum explicite)"
-  - date: "~1400 av."
-    evenement: "DERNIER edit d'annulation connu, fin de la pratique"
-  - date: "1200 av."
-    evenement: "Effondrement de l'age du bronze, disparition des monarchies paleo-babyloniennes"
-  - date: "~538 av."
-    evenement: "Cyrus le Grand, edit de retour (cognat possible)"
-  - date: "VIe s. av."
-    evenement: "Jubile biblique (Levitique 25, source P), cognat linguistique dror"
-  - date: "Vatic."
-    evenement: "Codification du Jubile tous les 49/50 ans (texte actuel)"
-  - date: "1984"
-    evenement: "Kraus, 'Konigliche Verfugungen' (source traductions Hudson)"
-  - date: "2022"
-    evenement: "Charpin, cours College de France, these 'restauration' explicitee"
-
+- date: ~2400 av.
+  evenement: Premier edit d'andurarum identifie (Ur-Nammu, Urukagina, Sargon d'Akkad)
+- date: ~2100 av.
+  evenement: Lipit-Enlil (Isin), edit d'annulation des dettes
+- date: ~1800 av.
+  evenement: Samsu-iluna, pere d'Hammurabi, edit connu
+- date: 1792-1750 av.
+  evenement: Hammurabi roi de Babylone, periode d'apogee de l'andurarum
+- date: 1646 av.
+  evenement: Ammisaduqa, edit le + complet qui nous soit parvenu (tamkarum explicite)
+- date: ~1400 av.
+  evenement: DERNIER edit d'annulation connu, fin de la pratique
+- date: 1200 av.
+  evenement: Effondrement de l'age du bronze, disparition des monarchies paleo-babyloniennes
+- date: ~538 av.
+  evenement: Cyrus le Grand, edit de retour (cognat possible)
+- date: VIe s. av.
+  evenement: Jubile biblique (Levitique 25, source P), cognat linguistique dror
+- date: Vatic.
+  evenement: Codification du Jubile tous les 49/50 ans (texte actuel)
+- date: '1984'
+  evenement: Kraus, 'Konigliche Verfugungen' (source traductions Hudson)
+- date: '2022'
+  evenement: Charpin, cours College de France, these 'restauration' explicitee
 domaines:
-  - nom: "DETTE"
-    description: "Dettes de subsistance annulees, dettes commerciales (tamkarum) EXCLUES, systeme dette canalise, pas tue"
-    parallele_fr: "Surendettement 120K dossiers/an, loi Lagarde 2010, Commission surendettement, 4% PIB dette privee"
-  - nom: "SEMANTIQUE"
-    description: "5 traductions d'amargi : liberation (Hudson), restauration (Charpin), reduction impots (Kramer), liberte individuelle (libertariens), annulation (Thureau-Dangin)"
-    parallele_fr: "5 traductions de 'dette' en francais (devoir, creance, obligation, engagement, fatalite)"
-  - nom: "ROYALTE"
-    description: "Roi gardien de l'ordre cosmique (me), andurarum = restauration ordre, pas reforme, ideologie de la restitution"
-    parallele_fr: "Monarque de droit divin (Ancien Regime), Restauration 1814-1830, ordre naturel Catholicisme"
-  - nom: "DEBAT ACADEMIQUE"
-    description: "Hudson (economiste heterodoxe) vs Charpin (assyriologue), Finkelstein, Kraus, Westbrook, Villard (consensus Charpin)"
-    parallele_fr: "Debats academiques (Annales vs EHESS), economistes heterodoxes (Chavagneux, Todd)"
-  - nom: "RECUPERATION POLITIQUE"
-    description: "Libertariens (Hayek Society LSE, Liberty Fund, Cato), Reagan 1981 (Kramer), gauchistes anti-dette (CADTM, Graeber), recuperations opposees"
-    parallele_fr: "Recuperations politiques opposees du Jubile (PMAE credit, Jubilee 2000)"
-  - nom: "TRANSMISSION"
-    description: "Andurarum → dror hebreu (Levitique 25, Jubile), plausibilite linguistique mais non prouvee, saut de 600 ans"
-    parallele_fr: "Transmission juridique Code civil France, coutumier, tradition orale"
-  - nom: "DISPARITION"
-    description: "Aucun edit apres 1400 av., effondrement age du bronze, pas de renaissance, pratique dependante du contexte politique"
-    parallele_fr: "Disparition de pratiques (servage 1789, corporation 1791, monarchie 1848)"
-
+- nom: DETTE
+  description: Dettes de subsistance annulees, dettes commerciales (tamkarum) EXCLUES,
+    systeme dette canalise, pas tue
+  parallele_fr: Surendettement 120K dossiers/an, loi Lagarde 2010, Commission surendettement,
+    4% PIB dette privee
+- nom: SEMANTIQUE
+  description: '5 traductions d''amargi : liberation (Hudson), restauration (Charpin),
+    reduction impots (Kramer), liberte individuelle (libertariens), annulation (Thureau-Dangin)'
+  parallele_fr: 5 traductions de 'dette' en francais (devoir, creance, obligation,
+    engagement, fatalite)
+- nom: ROYALTE
+  description: Roi gardien de l'ordre cosmique (me), andurarum = restauration ordre,
+    pas reforme, ideologie de la restitution
+  parallele_fr: Monarque de droit divin (Ancien Regime), Restauration 1814-1830, ordre
+    naturel Catholicisme
+- nom: DEBAT ACADEMIQUE
+  description: Hudson (economiste heterodoxe) vs Charpin (assyriologue), Finkelstein,
+    Kraus, Westbrook, Villard (consensus Charpin)
+  parallele_fr: Debats academiques (Annales vs EHESS), economistes heterodoxes (Chavagneux,
+    Todd)
+- nom: RECUPERATION POLITIQUE
+  description: Libertariens (Hayek Society LSE, Liberty Fund, Cato), Reagan 1981 (Kramer),
+    gauchistes anti-dette (CADTM, Graeber), recuperations opposees
+  parallele_fr: Recuperations politiques opposees du Jubile (PMAE credit, Jubilee
+    2000)
+- nom: TRANSMISSION
+  description: Andurarum → dror hebreu (Levitique 25, Jubile), plausibilite linguistique
+    mais non prouvee, saut de 600 ans
+  parallele_fr: Transmission juridique Code civil France, coutumier, tradition orale
+- nom: DISPARITION
+  description: Aucun edit apres 1400 av., effondrement age du bronze, pas de renaissance,
+    pratique dependante du contexte politique
+  parallele_fr: Disparition de pratiques (servage 1789, corporation 1791, monarchie
+    1848)
 urls:
-  - {url: "https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine", type: "Cours Charpin", fiabilite: ✦, source_faits: ["F-A001", "F-A007", "F-A014", "F-A017", "F-A019"]}
-  - {url: "https://fr.wikipedia.org/wiki/Andurarum", type: "Wikipedia FR", fiabilite: ✦, source_faits: ["F-A002", "F-A016", "F-A021"]}
-  - {url: "https://en.wikipedia.org/wiki/History_of_debt_relief", type: "Wikipedia EN", fiabilite: ✦, source_faits: ["F-A003", "F-A005"]}
-  - {url: "https://www.britannica.com/biography/Ammisaduqa", type: "Britannica", fiabilite: ✦, source_faits: ["F-A004"]}
-  - {url: "https://en.wikipedia.org/wiki/Michael_Hudson", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-A008"]}
-  - {url: "https://en.wikipedia.org/wiki/Samuel_Noah_Kramer", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-A009", "F-A010"]}
-  - {url: "https://en.wikipedia.org/wiki/Amargi", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-A011"]}
-  - {url: "https://en.wikipedia.org/wiki/Babylon", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-A012"]}
-  - {url: "https://en.wikipedia.org/wiki/Jubilee_(Bible)", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-A015"]}
-  - {url: "https://www.cadtm.org/The-Long-Tradition-of-Debt-Cancellation", type: "CADTM", fiabilite: ✦, source_faits: ["F-A018"]}
-  - {url: "https://michael-hudson.com/2012/04/12/the-lost-tradition-of-biblical-debt-cancellations/", type: "Hudson", fiabilite: ✧, source_faits: ["F-A020"]}
-  - {url: "https://www.persee.fr/doc/reo_0035-2004_1990_num_42_1_2540", type: "Persee (Charpin 1990)", fiabilite: ✦, source_faits: ["F-A017"]}
-  - {url: "https://fr.wikipedia.org/wiki/Dominique_Charpin", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-A001", "F-A007"]}
-
+- url: https://www.college-de-france.fr/fr/agenda/cours-2022/andurârum-retour-au-statut-d-origine
+  type: Cours Charpin
+  fiabilite: ✦
+  source_faits:
+  - F-A001
+  - F-A007
+  - F-A014
+  - F-A017
+  - F-A019
+- url: https://fr.wikipedia.org/wiki/Andurarum
+  type: Wikipedia FR
+  fiabilite: ✦
+  source_faits:
+  - F-A002
+  - F-A016
+  - F-A021
+- url: https://en.wikipedia.org/wiki/History_of_debt_relief
+  type: Wikipedia EN
+  fiabilite: ✦
+  source_faits:
+  - F-A003
+  - F-A005
+- url: https://www.britannica.com/biography/Ammisaduqa
+  type: Britannica
+  fiabilite: ✦
+  source_faits:
+  - F-A004
+- url: https://en.wikipedia.org/wiki/Michael_Hudson
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-A008
+- url: https://en.wikipedia.org/wiki/Samuel_Noah_Kramer
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-A009
+  - F-A010
+- url: https://en.wikipedia.org/wiki/Amargi
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-A011
+- url: https://en.wikipedia.org/wiki/Babylon
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-A012
+- url: https://en.wikipedia.org/wiki/Jubilee_(Bible)
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-A015
+- url: https://www.cadtm.org/The-Long-Tradition-of-Debt-Cancellation
+  type: CADTM
+  fiabilite: ✦
+  source_faits:
+  - F-A018
+- url: https://michael-hudson.com/2012/04/12/the-lost-tradition-of-biblical-debt-cancellations/
+  type: Hudson
+  fiabilite: ✧
+  source_faits:
+  - F-A020
+- url: https://www.persee.fr/doc/reo_0035-2004_1990_num_42_1_2540
+  type: Persee (Charpin 1990)
+  fiabilite: ✦
+  source_faits:
+  - F-A017
+- url: https://fr.wikipedia.org/wiki/Dominique_Charpin
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-A001
+  - F-A007
 wolves:
-  - {nom: "Charpin", categorie: "EXPERTS", role: "College de France, these restauration", centralite: 1.0, source_section: "§5"}
-  - {nom: "Hudson", categorie: "EXPERTS", role: "Economiste, these stabilisation", centralite: 0.95, source_section: "§4.3"}
-  - {nom: "Kraus", categorie: "EXPERTS", role: "Assyriologue Konigliche", centralite: 0.75, source_section: "§5.1"}
-  - {nom: "Westbrook", categorie: "EXPERTS", role: "Juriste Social Justice", centralite: 0.70, source_section: "§5.2"}
-  - {nom: "Finkelstein", categorie: "EXPERTS", role: "Ammisaduqa ed.", centralite: 0.65, source_section: "§2.2"}
-  - {nom: "Graeber", categorie: "EXPERTS", role: "Debt 5000 Years", centralite: 0.80, source_section: "§0"}
-  - {nom: "Kramer", categorie: "EXPERTS", role: "Reduction impots", centralite: 0.55, source_section: "§1.3"}
-  - {nom: "Toussaint CADTM", categorie: "CIVIL_SOCIETY", role: "Militant anti-dette", centralite: 0.50, source_section: "§2.1"}
-  - {nom: "Villard", categorie: "EXPERTS", role: "Andurarum neo-assyrien", centralite: 0.50, source_section: "§5.2"}
-  - {nom: "Hammurabi", categorie: "GOVERNMENT", role: "6 edits 166 ans", centralite: 0.70, source_section: "§3.1"}
-  - {nom: "Ammisaduqa", categorie: "GOVERNMENT", role: "Edit 1646", centralite: 0.65, source_section: "§2.2"}
-  - {nom: "Tamkarum", categorie: "BUSINESS", role: "Dettes preservees", centralite: 0.60, source_section: "§2.1"}
-  - {nom: "Thureau-Dangin", categorie: "EXPERTS", role: "Annulation dettes", centralite: 0.45, source_section: "§1.3"}
-  - {nom: "Hayek Society", categorie: "CIVIL_SOCIETY", role: "Recuperation libertarienne", centralite: 0.30, source_section: "§5.3"}
-total_individus: 14
-cible_apex: 12
-verdict: "APEX atteint (14 superieur ou egal 12)"
-
+- nom: Charpin
+  categorie: EXPERTS
+  role: College de France, these restauration
+  centralite: 1.0
+  source_section: §5
+- nom: Hudson
+  categorie: EXPERTS
+  role: Economiste, these stabilisation
+  centralite: 0.95
+  source_section: §4.3
+- nom: Kraus
+  categorie: EXPERTS
+  role: Assyriologue Konigliche
+  centralite: 0.75
+  source_section: §5.1
+- nom: Westbrook
+  categorie: EXPERTS
+  role: Juriste Social Justice
+  centralite: 0.7
+  source_section: §5.2
+- nom: Finkelstein
+  categorie: EXPERTS
+  role: Ammisaduqa ed.
+  centralite: 0.65
+  source_section: §2.2
+- nom: Graeber
+  categorie: EXPERTS
+  role: Debt 5000 Years
+  centralite: 0.8
+  source_section: §0
+- nom: Kramer
+  categorie: EXPERTS
+  role: Reduction impots
+  centralite: 0.55
+  source_section: §1.3
+- nom: Toussaint CADTM
+  categorie: CIVIL_SOCIETY
+  role: Militant anti-dette
+  centralite: 0.5
+  source_section: §2.1
+- nom: Villard
+  categorie: EXPERTS
+  role: Andurarum neo-assyrien
+  centralite: 0.5
+  source_section: §5.2
+- nom: Hammurabi
+  categorie: GOVERNMENT
+  role: 6 edits 166 ans
+  centralite: 0.7
+  source_section: §3.1
+- nom: Ammisaduqa
+  categorie: GOVERNMENT
+  role: Edit 1646
+  centralite: 0.65
+  source_section: §2.2
+- nom: Tamkarum
+  categorie: BUSINESS
+  role: Dettes preservees
+  centralite: 0.6
+  source_section: §2.1
+- nom: Thureau-Dangin
+  categorie: EXPERTS
+  role: Annulation dettes
+  centralite: 0.45
+  source_section: §1.3
+- nom: Hayek Society
+  categorie: CIVIL_SOCIETY
+  role: Recuperation libertarienne
+  centralite: 0.3
+  source_section: §5.3
 iceberg:
-  - angle: "L'andurarum est d'abord un RITUEL POLITIQUE, pas un mecanisme economique (Charpin)"
-    convergence: 0.95
-    description: >-
-      Charpin (College de France) demontre que l'andurarum est
-      d'abord un ACTE DE LEGITIMATION ROYALE. Le roi restaure
-      l'ordre cosmique (me), il n'est pas ingenieur social.
-      L'interpretation economique de Hudson est un CALQUE
-      ANACHRONIQUE de concepts modernes. Si l'andurarum est un
-      rituel politique, la these d'integration par la dette
-      s'effondre : la dette est INSTRUMENTALISEE pour la
-      legitimation, pas l'inverse.
-    source_section: "§4.2 / §4.4 / §6.1"
-  - angle: "Les dettes COMMERCIALES sont EXCLUES (Ammisaduqa), le systeme dette subsiste"
-    convergence: 0.90
-    description: >-
-      L'edit d'Ammisaduqa stipule explicitement que les tablettes
-      des tamkarum (commercants) doivent etre preservees. Les
-      dettes annulees sont UNIQUEMENT agricoles (subsistance,
-      arrieres d'impots). Le systeme ne tue pas la dette, il
-      la CANALISE : paysan-soldat protege, marchand s'enrichit.
-      L'article presente l'andurarum comme 'remise generale',
-      c'est FAUX. C'est un mecanisme de protection du
-      contribuable-soldat, pas un mecanisme d'integration
-      universelle.
-    source_section: "§2.2 / §2.4 / F-A004"
-  - angle: "30 edits en 1000 ans = 1/33 ans, PAS une frequence reguliere ni structurelle"
-    convergence: 0.85
-    description: >-
-      La distribution est TRES IRREGULIERE : pic de 6 edits en
-      166 ans sous Hammurabi (1/28 ans), longs intervalles sans
-      edit, AUCUN edit apres 1400 av. Si l'andurarum etait
-      STRUCTUREL, on s'attendrait a un cycle regulier lie aux
-      recoltes. L'andurarum est lie a l'ACCESSION AU TRONE,
-      pas aux cycles agricoles. C'est un calendrier POLITIQUE.
-      La these d'un 'mecanisme central de la civilisation' est
-      FRAGILISEE par cette distribution.
-    source_section: "§3.1 / §3.4 / §4.5"
-  - angle: "Hudson n'est PAS assyriologue, il s'appuie sur les TRADUCTIONS de Kraus 1984"
-    convergence: 0.80
-    description: >-
-      Michael Hudson est ECONOMISTE HETERODOXE, pas
-      assyriologue. Il ne lit pas les tablettes, il s'appuie
-      sur les traductions de Kraus (1984) et Westbrook (1995).
-      Cette dependance aux traductions est la source de sa
-      lecture gauchisante. Le consensus assyriologique
-      (Charpin, Villard, Finkelstein) penche vers
-      'restauration', pas vers 'stabilisation macro'. L'article
-      ne mentionne pas cette cascade de traductions.
-    source_section: "§5.1 / §5.2 / F-A008"
-  - angle: "RECUPERATIONS POLITIQUES opposees : libertariens ET gauchistes (Rorschach)"
-    convergence: 0.75
-    description: >-
-      Le terme amargi a ete recupere par des camps
-      ideologiquement opposes : libertariens americains (Hayek
-      Society LSE, Liberty Fund, Cato Institute, Reagan 1981)
-      comme 'liberte individuelle', ET gauchistes anti-dette
-      (CADTM, Graeber) comme 'justice sociale'. Hudson
-      reconnait ce 'test de Rorschach' mais n'applique pas
-      cette critique a sa propre lecture. Le terme est un
-      PROJECTEUR IDEOLOGIQUE, pas un concept defini.
-    source_section: "§5.3 / F-A010 / F-A011"
+- angle: L'andurarum est d'abord un RITUEL POLITIQUE, pas un mecanisme economique
+    (Charpin)
+  convergence: 0.95
+  description: 'Charpin (College de France) demontre que l''andurarum est d''abord
+    un ACTE DE LEGITIMATION ROYALE. Le roi restaure l''ordre cosmique (me), il n''est
+    pas ingenieur social. L''interpretation economique de Hudson est un CALQUE ANACHRONIQUE
+    de concepts modernes. Si l''andurarum est un rituel politique, la these d''integration
+    par la dette s''effondre : la dette est INSTRUMENTALISEE pour la legitimation,
+    pas l''inverse.'
+  source_section: §4.2 / §4.4 / §6.1
+- angle: Les dettes COMMERCIALES sont EXCLUES (Ammisaduqa), le systeme dette subsiste
+  convergence: 0.9
+  description: 'L''edit d''Ammisaduqa stipule explicitement que les tablettes des
+    tamkarum (commercants) doivent etre preservees. Les dettes annulees sont UNIQUEMENT
+    agricoles (subsistance, arrieres d''impots). Le systeme ne tue pas la dette, il
+    la CANALISE : paysan-soldat protege, marchand s''enrichit. L''article presente
+    l''andurarum comme ''remise generale'', c''est FAUX. C''est un mecanisme de protection
+    du contribuable-soldat, pas un mecanisme d''integration universelle.'
+  source_section: §2.2 / §2.4 / F-A004
+- angle: 30 edits en 1000 ans = 1/33 ans, PAS une frequence reguliere ni structurelle
+  convergence: 0.85
+  description: 'La distribution est TRES IRREGULIERE : pic de 6 edits en 166 ans sous
+    Hammurabi (1/28 ans), longs intervalles sans edit, AUCUN edit apres 1400 av. Si
+    l''andurarum etait STRUCTUREL, on s''attendrait a un cycle regulier lie aux recoltes.
+    L''andurarum est lie a l''ACCESSION AU TRONE, pas aux cycles agricoles. C''est
+    un calendrier POLITIQUE. La these d''un ''mecanisme central de la civilisation''
+    est FRAGILISEE par cette distribution.'
+  source_section: §3.1 / §3.4 / §4.5
+- angle: Hudson n'est PAS assyriologue, il s'appuie sur les TRADUCTIONS de Kraus 1984
+  convergence: 0.8
+  description: Michael Hudson est ECONOMISTE HETERODOXE, pas assyriologue. Il ne lit
+    pas les tablettes, il s'appuie sur les traductions de Kraus (1984) et Westbrook
+    (1995). Cette dependance aux traductions est la source de sa lecture gauchisante.
+    Le consensus assyriologique (Charpin, Villard, Finkelstein) penche vers 'restauration',
+    pas vers 'stabilisation macro'. L'article ne mentionne pas cette cascade de traductions.
+  source_section: §5.1 / §5.2 / F-A008
+- angle: 'RECUPERATIONS POLITIQUES opposees : libertariens ET gauchistes (Rorschach)'
+  convergence: 0.75
+  description: 'Le terme amargi a ete recupere par des camps ideologiquement opposes
+    : libertariens americains (Hayek Society LSE, Liberty Fund, Cato Institute, Reagan
+    1981) comme ''liberte individuelle'', ET gauchistes anti-dette (CADTM, Graeber)
+    comme ''justice sociale''. Hudson reconnait ce ''test de Rorschach'' mais n''applique
+    pas cette critique a sa propre lecture. Le terme est un PROJECTEUR IDEOLOGIQUE,
+    pas un concept defini.'
+  source_section: §5.3 / F-A010 / F-A011
 shadow_factor: 5.8
 ce_qui_tient:
-  - "Andurarum traduit 'retour a l'origine' par Charpin (College de France 2022, F-A001)"
-  - "Dettes commerciales (tamkarum) EXCLUES par Ammisaduqa 1646 av. (F-A003, F-A004)"
-  - "~30 edits en 1000 ans = 1/33 ans, distribution irreguliere (F-A005)"
-  - "Aucun edit apres 1400 av., pratique disparait (F-A006)"
-  - "Hudson n'est pas assyriologue, depend des traductions Kraus 1984 (F-A008)"
-  - "Roi gardien de l'ordre cosmique (me), PAS ingenieur social (F-A019)"
+- Andurarum traduit 'retour a l'origine' par Charpin (College de France 2022, F-A001)
+- Dettes commerciales (tamkarum) EXCLUES par Ammisaduqa 1646 av. (F-A003, F-A004)
+- ~30 edits en 1000 ans = 1/33 ans, distribution irreguliere (F-A005)
+- Aucun edit apres 1400 av., pratique disparait (F-A006)
+- Hudson n'est pas assyriologue, depend des traductions Kraus 1984 (F-A008)
+- Roi gardien de l'ordre cosmique (me), PAS ingenieur social (F-A019)
 ce_qui_tombe:
-  - "L'article presente l'andurarum comme 'remise generale' : FAUX, dettes commerciales preservees"
-  - "L'andurarum comme 'stabilisateur macro' (Hudson) : FRAGILISE par Charpin 'rituel politique'"
-  - "La these d'integration par la dette repose sur Hudson : si Hudson traduit mal, these s'effondre"
-  - "Le consensus assyriologique penche vers Charpin (legitimation), pas Hudson (stabilisation)"
-
+- 'L''article presente l''andurarum comme ''remise generale'' : FAUX, dettes commerciales
+  preservees'
+- 'L''andurarum comme ''stabilisateur macro'' (Hudson) : FRAGILISE par Charpin ''rituel
+  politique'''
+- 'La these d''integration par la dette repose sur Hudson : si Hudson traduit mal,
+  these s''effondre'
+- Le consensus assyriologique penche vers Charpin (legitimation), pas Hudson (stabilisation)
 limites:
-  - "Shadow 5,8× : deuxieme shadow le plus eleve, derriere AM 6.4×"
-  - "Bilateralisme Hudson/Charpin : sources Hudson en anglais, Charpin en francais, biais d'acces"
-  - "Hudson 'Modern Misinterpretations' 2024 n'est pas encore refere par tous les assyriologues"
-  - "Pas de lecture directe des tablettes par moi (sources 2ndaires uniquement)"
-  - "10 faits marques ✧ sur 22 : F-A009, F-A010, F-A011, F-A013, F-A015, F-A020 sont des debats"
-  - "Date de disparition post-1400 av. : 'aucun edit connu' vs 'aucun edit conserve' (biais documentaire)"
-  - "Cognat andurarum-dror : linguistique ne prouve pas transmission historique (F-A015 ✧)"
-
+- 'Shadow 5,8× : deuxieme shadow le plus eleve, derriere AM 6.4×'
+- 'Bilateralisme Hudson/Charpin : sources Hudson en anglais, Charpin en francais,
+  biais d''acces'
+- Hudson 'Modern Misinterpretations' 2024 n'est pas encore refere par tous les assyriologues
+- Pas de lecture directe des tablettes par moi (sources 2ndaires uniquement)
+- '10 faits marques ✧ sur 22 : F-A009, F-A010, F-A011, F-A013, F-A015, F-A020 sont
+  des debats'
+- 'Date de disparition post-1400 av. : ''aucun edit connu'' vs ''aucun edit conserve''
+  (biais documentaire)'
+- 'Cognat andurarum-dror : linguistique ne prouve pas transmission historique (F-A015
+  ✧)'
 perspectives_dialectiques:
-  - scenario: "A - L'article est victime d'un biais d'interpretation (these Charpin validee)"
-    these: >-
-      L'article adopte l'interpretation Hudson (Graeber)
-      SANS mentionner que Charpin (le + grand assyriologue
-      francais vivant) la contredit frontalement. L'andurarum
-      est d'abord un RITUEL POLITIQUE de legitimation royale,
-      PAS un mecanisme economique d'integration. La these
-      d'integration par la dette repose sur une lecture
-      anachronique. Article doit etre REVISE pour mentionner
-      la these Charpin et admettre la nature politique de
-      l'andurarum.
-    cui_bono: "Assyriologues, philologues, historiens de l'Antiquite"
-    score: 0.80
-  - scenario: "B - L'article a partiellement raison : andurarum = mecanisme + rituel (these Hudson modifiee)"
-    these: >-
-      Les deux lectures ne sont pas incompatibles (Charpin
-      legitimation + Hudson stabilisation). L'andurarum est
-      a la fois un rituel politique ET un mecanisme
-      economique. L'article a raison de souligner la
-      dimension economique, meme si elle n'est pas
-      exclusive. La these d'integration par la dette est
-      PARTIELLEMENT validee, mais COMPLETEE par la these
-      legitimation.
-    cui_bono: "Economistes historiques, anthropologues"
-    score: 0.55
-  - scenario: "C - L'article repose sur un EFFET DE SOURCE : Hudson = economiste heterodoxe populaire (these methodologique)"
-    these: >-
-      L'article utilise Hudson (economiste heterodoxe,
-      populaire, media) au detriment de Charpin
-      (assyriologue, academique, College de France). C'est
-      un EFFET DE SOURCE : la these populaire est reprise
-      par les medias, pas la these academique. L'article
-      reproduit ce biais de popularite. La these
-      d'integration par la dette est en partie un PRODUIT
-      de la popularite de Hudson/Graeber, pas une these
-      scientifique etablie.
-    cui_bono: "Methodologues, sociologues des sciences"
-    score: 0.65
+- scenario: A - L'article est victime d'un biais d'interpretation (these Charpin validee)
+  these: L'article adopte l'interpretation Hudson (Graeber) SANS mentionner que Charpin
+    (le + grand assyriologue francais vivant) la contredit frontalement. L'andurarum
+    est d'abord un RITUEL POLITIQUE de legitimation royale, PAS un mecanisme economique
+    d'integration. La these d'integration par la dette repose sur une lecture anachronique.
+    Article doit etre REVISE pour mentionner la these Charpin et admettre la nature
+    politique de l'andurarum.
+  cui_bono: Assyriologues, philologues, historiens de l'Antiquite
+  score: 0.8
+- scenario: 'B - L''article a partiellement raison : andurarum = mecanisme + rituel
+    (these Hudson modifiee)'
+  these: Les deux lectures ne sont pas incompatibles (Charpin legitimation + Hudson
+    stabilisation). L'andurarum est a la fois un rituel politique ET un mecanisme
+    economique. L'article a raison de souligner la dimension economique, meme si elle
+    n'est pas exclusive. La these d'integration par la dette est PARTIELLEMENT validee,
+    mais COMPLETEE par la these legitimation.
+  cui_bono: Economistes historiques, anthropologues
+  score: 0.55
+- scenario: 'C - L''article repose sur un EFFET DE SOURCE : Hudson = economiste heterodoxe
+    populaire (these methodologique)'
+  these: 'L''article utilise Hudson (economiste heterodoxe, populaire, media) au detriment
+    de Charpin (assyriologue, academique, College de France). C''est un EFFET DE SOURCE
+    : la these populaire est reprise par les medias, pas la these academique. L''article
+    reproduit ce biais de popularite. La these d''integration par la dette est en
+    partie un PRODUIT de la popularite de Hudson/Graeber, pas une these scientifique
+    etablie.'
+  cui_bono: Methodologues, sociologues des sciences
+  score: 0.65
 tensions_non_resolues:
-  - "L'andurarum est-il structurel (Hudson) ou conjoncturel (Charpin) ? debat non tranche"
-  - "Fonction economique ou ideologique ? complementaire ou exclusive ?"
-  - "Pratique universelle ou propre a certaines dynasties paleo-babyloniennes ?"
-  - "Transmission au Jubile biblique : linguistiquement plausible, mais historiquement non prouvee"
-  - "Pourquoi la pratique disparait-elle apres 1400 av. ? effondrement systeme politique ou autre facteur"
-  - "Dettes commerciales reellement exclues de TOUS les edits ? Ammisaduqa explicite, mais autres ?"
-
+- L'andurarum est-il structurel (Hudson) ou conjoncturel (Charpin) ? debat non tranche
+- Fonction economique ou ideologique ? complementaire ou exclusive ?
+- Pratique universelle ou propre a certaines dynasties paleo-babyloniennes ?
+- 'Transmission au Jubile biblique : linguistiquement plausible, mais historiquement
+  non prouvee'
+- Pourquoi la pratique disparait-elle apres 1400 av. ? effondrement systeme politique
+  ou autre facteur
+- Dettes commerciales reellement exclues de TOUS les edits ? Ammisaduqa explicite,
+  mais autres ?
 metadata:
-  source_file: "investigations/2026-06-03_sumer_article/2026-06-04_14-30_andurarum_autopsy_INVESTIGATION.md"
+  source_file: investigations/2026-06-03_sumer_article/2026-06-04_14-30_andurarum_autopsy_INVESTIGATION.md
   source_lignes: 256
-  source_taille: "14.5K"
-  date_enrichissement: "2026-06-06"
-  methode: "LLM hote (opencode) - lecture cursive + 12 sections quintessence + autopsy recursive"
-  gate_g_mecanique: "22.22% (10 F### bruts sur 7/18 sections)"
-  gate_g_estime_apres_enrichissement: "~85-90% (cible APEX 90%)"
+  source_taille: 14.5K
+  date_enrichissement: '2026-06-06'
+  methode: LLM hote (opencode) - lecture cursive + 12 sections quintessence + autopsy
+    recursive
+  gate_g_mecanique: 22.22% (10 F### bruts sur 7/18 sections)
+  gate_g_estime_apres_enrichissement: ~85-90% (cible APEX 90%)
   shadow_factor: 5.8
-  fiabilite_globale: "Bonne (Charpin, Hudson, Kraus, Westbrook, Finkelstein, CADTM, Wikipedia, Britannica, 13 URLs, 17/22 ✦)"
-  position_dans_enquete: "AUTOPSIE du maillon faible de la these dette, 5 divergences critiques identifiees"
-  particularite: "Fiche autopsy recursive (enquete sur la these, pas sur une civilisation). Shadow 5,8× = 2e plus eleve"
+  fiabilite_globale: Bonne (Charpin, Hudson, Kraus, Westbrook, Finkelstein, CADTM,
+    Wikipedia, Britannica, 13 URLs, 17/22 ✦)
+  position_dans_enquete: AUTOPSIE du maillon faible de la these dette, 5 divergences
+    critiques identifiees
+  particularite: Fiche autopsy recursive (enquete sur la these, pas sur une civilisation).
+    Shadow 5,8× = 2e plus eleve

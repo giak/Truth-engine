@@ -1,10 +1,3 @@
-# Quintessence Islam/France — generee par LLM hote (opencode) le 2026-06-06
-# Spec : tools/engines/sublimator/2026-06-06_spec_v33.2.md §W QUINTESSENCE
-# Methodologie : Python pur (parse_atomic + extract_utile) + LLM hote (lecture cursive 12 sections)
-# Source : investigations/2026-06-03_sumer_article/2026-06-04_10-00_islam_golden_age_CIVILISATION_MANQUANTE.md (107 lignes, 8.7K)
-# GATE_G : 123.81% MECHANIQUE aberrant (26 F### bruts sur 1 section, 26 > 21 phrases), enrichi ci-dessous a 22 F### + 12 sections
-# Complexite : MEDIUM, Shadow Factor 2.8x
-
 civ_prefix: I
 complexity: MEDIUM
 n_f_atomiques: 22
@@ -13,572 +6,726 @@ n_causalites: 5
 n_chronologie: 14
 n_domaines: 7
 n_urls: 12
-
-these_centrale: >-
-  L'Islam (VIIe-XIIIe s.) est la grande absente du recit "3 civilisations
-  antiques" et le chainon MANQUANT de la transmission vers l'Europe. La
-  these SYSTEME est renforcee : la charia integre culte, transactions,
-  droit penal, droit familial, ethique et economie dans un MEME cadre
-  juridique, plus complet que Sumer, Rome ou Chine. La these TRANSMISSION
-  est BOULEVERSEE : Rome -> MA -> France est un recit eurocentrique. La
-  chaine reelle est Rome -> Bagdad (Bayt al-Hikma) -> Cordoue -> Tolede
-  -> Paris. Sans les traductions arabes, Irnerius n'aurait pas retrouve
-  le CJC a Bologne. La these CAPTURE est RELATIVISEE : les oulemas
-  (specialistes religieux du droit) fonctionnent comme un corps separe,
-  endogame, coopte par le calife/sultan. La capture n'est pas un
-  accident europeen mais une TENDANCE universelle des societes complexes.
-
+these_centrale: 'L''Islam (VIIe-XIIIe s.) est la grande absente du recit "3 civilisations
+  antiques" et le chainon MANQUANT de la transmission vers l''Europe. La these SYSTEME
+  est renforcee : la charia integre culte, transactions, droit penal, droit familial,
+  ethique et economie dans un MEME cadre juridique, plus complet que Sumer, Rome ou
+  Chine. La these TRANSMISSION est BOULEVERSEE : Rome -> MA -> France est un recit
+  eurocentrique. La chaine reelle est Rome -> Bagdad (Bayt al-Hikma) -> Cordoue ->
+  Tolede -> Paris. Sans les traductions arabes, Irnerius n''aurait pas retrouve le
+  CJC a Bologne. La these CAPTURE est RELATIVISEE : les oulemas (specialistes religieux
+  du droit) fonctionnent comme un corps separe, endogame, coopte par le calife/sultan.
+  La capture n''est pas un accident europeen mais une TENDANCE universelle des societes
+  complexes.'
 theses_implicites:
-  - >-
-    Le "trou de 594 ans" (476-1070) entre la chute de Rome et la
-    redecouverte du CJC a Bologne n'est pas un vide europeen : il
-    est comble par l'Islam. Bayt al-Hikma (~830) traduit systematiquement
-    Aristote, Galien, Ptolemee du grec vers l'arabe. Cordoue (Xe-XIIe)
-    et Tolede (XIIe) traduisent ensuite de l'arabe vers le latin. Sans
-    l'Islam, pas de redecouverte europeenne des textes antiques.
-  - >-
-    Le riba (interdiction coranique de l'interet) est PLUS radical que
-    l'andurarum sumerien : il interdit la CREATION MEME de la dette a
-    interet, pas seulement l'annulation periodique. Il est plus durable
-    (interdiction permanente) et plus systematique (tous les prets, pas
-    seulement agricoles). MAIS les contournements (hiyal, montages
-    juridiques) demontre que l'interdit theorique est contourne
-    structurellement. Lecon : l'integration maximale n'empeche pas la
-    capture.
-  - >-
-    Les oulemas (specialistes du droit religieux) sont comparables aux
-    scribes sumeriens, juristes romains, mandarins chinois, enarques
-    francais. MEME fonction (interpreter la norme), MEME endogamie
-    (reproduction par filiation + madrasa), MEME capture potentielle
-    (alliance avec calife/sultan). MAIS contrepoids unique : ils ne
-    sont PAS nommes par le pouvoir politique (autorite par le savoir,
-    pas par nomination). Ce contrepoids a partiellement fonctionne.
-
+- 'Le "trou de 594 ans" (476-1070) entre la chute de Rome et la redecouverte du CJC
+  a Bologne n''est pas un vide europeen : il est comble par l''Islam. Bayt al-Hikma
+  (~830) traduit systematiquement Aristote, Galien, Ptolemee du grec vers l''arabe.
+  Cordoue (Xe-XIIe) et Tolede (XIIe) traduisent ensuite de l''arabe vers le latin.
+  Sans l''Islam, pas de redecouverte europeenne des textes antiques.'
+- 'Le riba (interdiction coranique de l''interet) est PLUS radical que l''andurarum
+  sumerien : il interdit la CREATION MEME de la dette a interet, pas seulement l''annulation
+  periodique. Il est plus durable (interdiction permanente) et plus systematique (tous
+  les prets, pas seulement agricoles). MAIS les contournements (hiyal, montages juridiques)
+  demontre que l''interdit theorique est contourne structurellement. Lecon : l''integration
+  maximale n''empeche pas la capture.'
+- 'Les oulemas (specialistes du droit religieux) sont comparables aux scribes sumeriens,
+  juristes romains, mandarins chinois, enarques francais. MEME fonction (interpreter
+  la norme), MEME endogamie (reproduction par filiation + madrasa), MEME capture potentielle
+  (alliance avec calife/sultan). MAIS contrepoids unique : ils ne sont PAS nommes
+  par le pouvoir politique (autorite par le savoir, pas par nomination). Ce contrepoids
+  a partiellement fonctionne.'
 f_atomiques:
-  - id: F-I001
-    fait: "Bayt al-Hikma (Maison de la Sagesse) fondee a Bagdad"
-    date: "~830"
-    acteur: "Calife al-Ma'mun (Abbassides)"
-    source: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Bayt_al-Hikma"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F001 / §2"
-  - id: F-I002
-    fait: "Traduction systematique des textes grecs (Aristote, Galien, Ptolemee) en arabe"
-    date: "VIIIe-IXe s."
-    acteur: "Traducteurs de Bayt al-Hikma (Hunayn ibn Ishaq et autres)"
-    source: "Wikipedia, Gutas (Greek Thought, Arabic Culture)"
-    url: "https://en.wikipedia.org/wiki/Translation_movement"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F002 / §2"
-  - id: F-I003
-    fait: "Charia : integration du religieux, juridique, economique et politique"
-    date: "VIIe s.+"
-    acteur: "Juristes musulmans, tradition prophetique"
-    source: "Wikipedia, cours droit islamique"
-    url: "https://en.wikipedia.org/wiki/Sharia"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F003 / §1"
-  - id: F-I-I004
-    fait: "Riba (interet/usure) prohibe par le Coran"
-    date: "VIIe s."
-    acteur: "Coran, sourate 2:275-279"
-    source: "Coran"
-    url: "https://en.wikipedia.org/wiki/Riba"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F004 / §3"
-  - id: F-I005
-    fait: "Systeme des diwans : Kharaj (revenus), Jund (armee), Rasa'il (chancellerie), Barid (postes), Qudat (justice)"
-    date: "VIIIe-IXe s."
-    acteur: "Califes abbassides"
-    source: "Legalversity"
-    url: "https://en.wikipedia.org/wiki/Diwan"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F005"
-  - id: F-I006
-    fait: "Vizir (wazir) comme chef de l'administration, precurseur du Premier ministre"
-    date: "VIIIe s."
-    acteur: "Califes abbassides"
-    source: "Legalversity"
-    url: "https://en.wikipedia.org/wiki/Vizier"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F006"
-  - id: F-I007
-    fait: "Cordoue : centre de traduction arabe->latin, transmission vers l'Europe chretienne"
-    date: "Xe-XIIe s."
-    acteur: "Ecole de traducteurs de Tolede (XIIe s.)"
-    source: "L'Orient-Le Jour, Wikipedia"
-    url: "https://en.wikipedia.org/wiki/School_of_Toledo"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F007 / §2"
-  - id: F-I008
-    fait: "Frederic II de Sicile favorise la traduction de l'arabe au latin"
-    date: "1194-1250"
-    acteur: "Frederic II Hohenstaufen"
-    source: "L'Orient-Le Jour"
-    url: "https://en.wikipedia.org/wiki/Frederick_II,_Holy_Roman_Emperor"
-    tier: 2
-    fiabilite: ✧
-    source_section: "FACT_REGISTRY F008"
-  - id: F-I009
-    fait: "Scolastique medievale (Thomas d'Aquin, Abelard) influencee par Avicenne et Averroes"
-    date: "XIIe-XIIIe s."
-    acteur: "Thomas d'Aquin, Abelard, Avicenne, Averroes"
-    source: "Wikipedia, L'Orient-Le Jour"
-    url: "https://en.wikipedia.org/wiki/Averroism"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F009 / §2"
-  - id: F-I010
-    fait: "Universites medievales (Bologne, Paris) heritieres du modele islamique d'enseignement (madrasa)"
-    date: "XIIe s."
-    acteur: "Fondateurs des premieres universites"
-    source: "Wikipedia, multiple"
-    url: "https://en.wikipedia.org/wiki/Medieval_university"
-    tier: 2
-    fiabilite: ✧
-    source_section: "FACT_REGISTRY F010"
-  - id: F-I011
-    fait: "Zakat (impot religieux obligatoire) comme redistribution integree : 2.5% du patrimoine annuel"
-    date: "VIIe s.+"
-    acteur: "Tous musulmans solvables"
-    source: "Wikipedia Islamic economics"
-    url: "https://en.wikipedia.org/wiki/Zakat"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F011"
-  - id: F-I012
-    fait: "Finance islamique : sukuk (obligations), sakk (certificats), murabaha (marge) - alternatives a l'interet"
-    date: "VIIIe s.+"
-    acteur: "Banquiers musulmans, juristes"
-    source: "Wikipedia Islamic finance"
-    url: "https://en.wikipedia.org/wiki/Islamic_banking"
-    tier: 2
-    fiabilite: ✧
-    source_section: "FACT_REGISTRY F012"
-  - id: F-I013
-    fait: "Role des traducteurs de Tolede (XIIe s.) dans la transmission du savoir antique"
-    date: "XIe-XIIIe s."
-    acteur: "Dominique Gundisalvi, Jean de Seville, Gerard de Cremone"
-    source: "Wikipedia, multiple"
-    url: "https://en.wikipedia.org/wiki/School_of_Toledo"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F013 / §2"
-  - id: F-I014
-    fait: "Interdiction chretienne de l'usure (jusqu'au XVIe s.) similaire au riba islamique"
-    date: "Medieval"
-    acteur: "Eglise catholique, conciles"
-    source: "Histoire dette, Jacques Le Goff"
-    url: "https://fr.wikipedia.org/wiki/Usure"
-    tier: 2
-    fiabilite: ✧
-    source_section: "FACT_REGISTRY F014 / §3"
-  - id: F-I015
-    fait: "Avicenne (Ibn Sina) : Canon de la medecine, reference jusqu'au XVIIe s."
-    date: "980-1037"
-    acteur: "Avicenne"
-    source: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Avicenna"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§2"
-  - id: F-I016
-    fait: "Averroes (Ibn Rushd) : commentateur d'Aristote, influencent la scolastique latine"
-    date: "1126-1198"
-    acteur: "Averroes"
-    source: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Averroes"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§2"
-  - id: F-I017
-    fait: "Al-Khwarizmi : algebre, algorithmes, systeme decimal (transmis via l'arabe a l'Europe)"
-    date: "~780-850"
-    acteur: "Al-Khwarizmi"
-    source: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Al-Khwarizmi"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§2"
-  - id: F-I018
-    fait: "Hiyal : montages juridiques musulmans pour contourner l'interdiction du riba"
-    date: "VIIIe-Xe s."
-    acteur: "Juristes musulmans (hanafites, malikites)"
-    source: "Wikipedia Islamic finance"
-    url: "https://en.wikipedia.org/wiki/Hiyal"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§3"
-  - id: F-I019
-    fait: "Oulemas : corps de specialistes religieux du droit, contrepouvoir au calife"
-    date: "VIIe-XIIIe s."
-    acteur: "Oulemas (savants religieux)"
-    source: "Wikipedia Ulema"
-    url: "https://en.wikipedia.org/wiki/Ulema"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§4"
-  - id: F-I020
-    fait: "Mahomet : prophete, fondateur de l'Islam, source du Coran et de la charia"
-    date: "570-632"
-    acteur: "Mahomet"
-    source: "Wikipedia"
-    url: "https://en.wikipedia.org/wiki/Muhammad"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§1"
-  - id: F-I021
-    fait: "Chute de Grenade (1492) : fin de l'Islam en Europe occidentale, expulsion des Morisques (1609)"
-    date: "1492-1609"
-    acteur: "Royaume de Grenade, Espagne des Rois Catholiques"
-    source: "Wikipedia Fall of Granada"
-    url: "https://en.wikipedia.org/wiki/Granada"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§2"
-  - id: F-I022
-    fait: "Al-Andalus : Espagne islamique 711-1492 (781 ans), apogee Cordoue Xe s. (500 000 habitants)"
-    date: "711-1492"
-    acteur: "Califat de Cordoue"
-    source: "Wikipedia Al-Andalus"
-    url: "https://en.wikipedia.org/wiki/Al-Andalus"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§2"
-
+- id: F-I001
+  fait: Bayt al-Hikma (Maison de la Sagesse) fondee a Bagdad
+  date: ~830
+  acteur: Calife al-Ma'mun (Abbassides)
+  source: Wikipedia
+  url: https://en.wikipedia.org/wiki/Bayt_al-Hikma
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F001 / §2
+  glyphe: ✦
+- id: F-I002
+  fait: Traduction systematique des textes grecs (Aristote, Galien, Ptolemee) en arabe
+  date: VIIIe-IXe s.
+  acteur: Traducteurs de Bayt al-Hikma (Hunayn ibn Ishaq et autres)
+  source: Wikipedia, Gutas (Greek Thought, Arabic Culture)
+  url: https://en.wikipedia.org/wiki/Translation_movement
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F002 / §2
+  glyphe: ✦
+- id: F-I003
+  fait: 'Charia : integration du religieux, juridique, economique et politique'
+  date: VIIe s.+
+  acteur: Juristes musulmans, tradition prophetique
+  source: Wikipedia, cours droit islamique
+  url: https://en.wikipedia.org/wiki/Sharia
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F003 / §1
+  glyphe: ✦
+- id: F-I-I004
+  fait: Riba (interet/usure) prohibe par le Coran
+  date: VIIe s.
+  acteur: Coran, sourate 2:275-279
+  source: Coran
+  url: https://en.wikipedia.org/wiki/Riba
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F004 / §3
+  glyphe: ✦
+- id: F-I005
+  fait: 'Systeme des diwans : Kharaj (revenus), Jund (armee), Rasa''il (chancellerie),
+    Barid (postes), Qudat (justice)'
+  date: VIIIe-IXe s.
+  acteur: Califes abbassides
+  source: Legalversity
+  url: https://en.wikipedia.org/wiki/Diwan
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F005
+  glyphe: ✦
+- id: F-I006
+  fait: Vizir (wazir) comme chef de l'administration, precurseur du Premier ministre
+  date: VIIIe s.
+  acteur: Califes abbassides
+  source: Legalversity
+  url: https://en.wikipedia.org/wiki/Vizier
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F006
+  glyphe: ✦
+- id: F-I007
+  fait: 'Cordoue : centre de traduction arabe->latin, transmission vers l''Europe
+    chretienne'
+  date: Xe-XIIe s.
+  acteur: Ecole de traducteurs de Tolede (XIIe s.)
+  source: L'Orient-Le Jour, Wikipedia
+  url: https://en.wikipedia.org/wiki/School_of_Toledo
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F007 / §2
+  glyphe: ✦
+- id: F-I008
+  fait: Frederic II de Sicile favorise la traduction de l'arabe au latin
+  date: 1194-1250
+  acteur: Frederic II Hohenstaufen
+  source: L'Orient-Le Jour
+  url: https://en.wikipedia.org/wiki/Frederick_II,_Holy_Roman_Emperor
+  tier: 2
+  fiabilite: ✧
+  source_section: FACT_REGISTRY F008
+  glyphe: ✧
+- id: F-I009
+  fait: Scolastique medievale (Thomas d'Aquin, Abelard) influencee par Avicenne et
+    Averroes
+  date: XIIe-XIIIe s.
+  acteur: Thomas d'Aquin, Abelard, Avicenne, Averroes
+  source: Wikipedia, L'Orient-Le Jour
+  url: https://en.wikipedia.org/wiki/Averroism
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F009 / §2
+  glyphe: ✦
+- id: F-I010
+  fait: Universites medievales (Bologne, Paris) heritieres du modele islamique d'enseignement
+    (madrasa)
+  date: XIIe s.
+  acteur: Fondateurs des premieres universites
+  source: Wikipedia, multiple
+  url: https://en.wikipedia.org/wiki/Medieval_university
+  tier: 2
+  fiabilite: ✧
+  source_section: FACT_REGISTRY F010
+  glyphe: ✧
+- id: F-I011
+  fait: 'Zakat (impot religieux obligatoire) comme redistribution integree : 2.5%
+    du patrimoine annuel'
+  date: VIIe s.+
+  acteur: Tous musulmans solvables
+  source: Wikipedia Islamic economics
+  url: https://en.wikipedia.org/wiki/Zakat
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F011
+  glyphe: ✦
+- id: F-I012
+  fait: 'Finance islamique : sukuk (obligations), sakk (certificats), murabaha (marge)
+    - alternatives a l''interet'
+  date: VIIIe s.+
+  acteur: Banquiers musulmans, juristes
+  source: Wikipedia Islamic finance
+  url: https://en.wikipedia.org/wiki/Islamic_banking
+  tier: 2
+  fiabilite: ✧
+  source_section: FACT_REGISTRY F012
+  glyphe: ✧
+- id: F-I013
+  fait: Role des traducteurs de Tolede (XIIe s.) dans la transmission du savoir antique
+  date: XIe-XIIIe s.
+  acteur: Dominique Gundisalvi, Jean de Seville, Gerard de Cremone
+  source: Wikipedia, multiple
+  url: https://en.wikipedia.org/wiki/School_of_Toledo
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F013 / §2
+  glyphe: ✦
+- id: F-I014
+  fait: Interdiction chretienne de l'usure (jusqu'au XVIe s.) similaire au riba islamique
+  date: Medieval
+  acteur: Eglise catholique, conciles
+  source: Histoire dette, Jacques Le Goff
+  url: https://fr.wikipedia.org/wiki/Usure
+  tier: 2
+  fiabilite: ✧
+  source_section: FACT_REGISTRY F014 / §3
+  glyphe: ✧
+- id: F-I015
+  fait: 'Avicenne (Ibn Sina) : Canon de la medecine, reference jusqu''au XVIIe s.'
+  date: 980-1037
+  acteur: Avicenne
+  source: Wikipedia
+  url: https://en.wikipedia.org/wiki/Avicenna
+  tier: 1
+  fiabilite: ✦
+  source_section: §2
+  glyphe: ✦
+- id: F-I016
+  fait: 'Averroes (Ibn Rushd) : commentateur d''Aristote, influencent la scolastique
+    latine'
+  date: 1126-1198
+  acteur: Averroes
+  source: Wikipedia
+  url: https://en.wikipedia.org/wiki/Averroes
+  tier: 1
+  fiabilite: ✦
+  source_section: §2
+  glyphe: ✦
+- id: F-I017
+  fait: 'Al-Khwarizmi : algebre, algorithmes, systeme decimal (transmis via l''arabe
+    a l''Europe)'
+  date: ~780-850
+  acteur: Al-Khwarizmi
+  source: Wikipedia
+  url: https://en.wikipedia.org/wiki/Al-Khwarizmi
+  tier: 1
+  fiabilite: ✦
+  source_section: §2
+  glyphe: ✦
+- id: F-I018
+  fait: 'Hiyal : montages juridiques musulmans pour contourner l''interdiction du
+    riba'
+  date: VIIIe-Xe s.
+  acteur: Juristes musulmans (hanafites, malikites)
+  source: Wikipedia Islamic finance
+  url: https://en.wikipedia.org/wiki/Hiyal
+  tier: 2
+  fiabilite: ✧
+  source_section: §3
+  glyphe: ✧
+- id: F-I019
+  fait: 'Oulemas : corps de specialistes religieux du droit, contrepouvoir au calife'
+  date: VIIe-XIIIe s.
+  acteur: Oulemas (savants religieux)
+  source: Wikipedia Ulema
+  url: https://en.wikipedia.org/wiki/Ulema
+  tier: 1
+  fiabilite: ✦
+  source_section: §4
+  glyphe: ✦
+- id: F-I020
+  fait: 'Mahomet : prophete, fondateur de l''Islam, source du Coran et de la charia'
+  date: 570-632
+  acteur: Mahomet
+  source: Wikipedia
+  url: https://en.wikipedia.org/wiki/Muhammad
+  tier: 1
+  fiabilite: ✦
+  source_section: §1
+  glyphe: ✦
+- id: F-I021
+  fait: 'Chute de Grenade (1492) : fin de l''Islam en Europe occidentale, expulsion
+    des Morisques (1609)'
+  date: 1492-1609
+  acteur: Royaume de Grenade, Espagne des Rois Catholiques
+  source: Wikipedia Fall of Granada
+  url: https://en.wikipedia.org/wiki/Granada
+  tier: 1
+  fiabilite: ✦
+  source_section: §2
+  glyphe: ✦
+- id: F-I022
+  fait: 'Al-Andalus : Espagne islamique 711-1492 (781 ans), apogee Cordoue Xe s. (500
+    000 habitants)'
+  date: 711-1492
+  acteur: Califat de Cordoue
+  source: Wikipedia Al-Andalus
+  url: https://en.wikipedia.org/wiki/Al-Andalus
+  tier: 1
+  fiabilite: ✦
+  source_section: §2
+  glyphe: ✦
 acteurs:
-  - {nom: "Mahomet", categorie: "GOVERNMENT", role: "Prophete, fondateur Islam, source Coran et charia", centralite: 0.95, source_section: "F020"}
-  - {nom: "Al-Ma'mun", categorie: "GOVERNMENT", role: "Calife abbasside, fonde Bayt al-Hikma ~830", centralite: 0.90, source_section: "F001"}
-  - {nom: "Avicenne (Ibn Sina)", categorie: "EXPERTS", role: "Canon de la medecine, philosophie, influence scolastique", centralite: 0.90, source_section: "F015"}
-  - {nom: "Averroes (Ibn Rushd)", categorie: "EXPERTS", role: "Commentateur Aristote, averroisme, scolastique latine", centralite: 0.85, source_section: "F016"}
-  - {nom: "Al-Khwarizmi", categorie: "EXPERTS", role: "Algebre, algorithmes, systeme decimal transmis a l'Europe", centralite: 0.85, source_section: "F017"}
-  - {nom: "Hunayn ibn Ishaq", categorie: "EXPERTS", role: "Traducteur de Galien et Aristote en arabe", centralite: 0.75, source_section: "F002"}
-  - {nom: "Gerard de Cremone", categorie: "EXPERTS", role: "Traducteur de l'arabe au latin a Tolede, transmet Aristote et Almageste", centralite: 0.75, source_section: "F013"}
-  - {nom: "Frederic II Hohenstaufen", categorie: "GOVERNMENT", role: "Empereur, favorise traduction arabe-latin en Sicile", centralite: 0.70, source_section: "F008"}
-  - {nom: "Thomas d'Aquin", categorie: "EXPERTS", role: "Theologien, scolastique, influence par Averroes/Avicenne", centralite: 0.85, source_section: "F009"}
-  - {nom: "Oulemas", categorie: "CIVIL_SOCIETY", role: "Corps de specialistes religieux du droit, contrepouvoir au calife", centralite: 0.85, source_section: "F019"}
-  - {nom: "Vizir (wazir)", categorie: "GOVERNMENT", role: "Chef de l'administration abbasside, precurseur PM", centralite: 0.65, source_section: "F006"}
-  - {nom: "Dominique Gundisalvi", categorie: "EXPERTS", role: "Traducteur de Tolede, transmet philosophie arabe", centralite: 0.60, source_section: "F013"}
-  - {nom: "Banquier de Cordoue", categorie: "CIVIL_SOCIETY", role: "Categorie : preteurs, lettres de change (sakk) au Moyen Age", centralite: 0.60, source_section: "F012"}
-  - {nom: "Juriste hanafite/malikite", categorie: "EXPERTS", role: "Specialistes des hiyal, contournement du riba", centralite: 0.55, source_section: "F018"}
-  - {nom: "Rois Catholiques", categorie: "GOVERNMENT", role: "Isabelle et Ferdinand, chute de Grenade 1492, expulsion Morisques 1609", centralite: 0.70, source_section: "F021"}
+- nom: Mahomet
+  categorie: GOVERNMENT
+  role: Prophete, fondateur Islam, source Coran et charia
+  centralite: 0.95
+  source_section: F020
+- nom: Al-Ma'mun
+  categorie: GOVERNMENT
+  role: Calife abbasside, fonde Bayt al-Hikma ~830
+  centralite: 0.9
+  source_section: F001
+- nom: Avicenne (Ibn Sina)
+  categorie: EXPERTS
+  role: Canon de la medecine, philosophie, influence scolastique
+  centralite: 0.9
+  source_section: F015
+- nom: Averroes (Ibn Rushd)
+  categorie: EXPERTS
+  role: Commentateur Aristote, averroisme, scolastique latine
+  centralite: 0.85
+  source_section: F016
+- nom: Al-Khwarizmi
+  categorie: EXPERTS
+  role: Algebre, algorithmes, systeme decimal transmis a l'Europe
+  centralite: 0.85
+  source_section: F017
+- nom: Hunayn ibn Ishaq
+  categorie: EXPERTS
+  role: Traducteur de Galien et Aristote en arabe
+  centralite: 0.75
+  source_section: F002
+- nom: Gerard de Cremone
+  categorie: EXPERTS
+  role: Traducteur de l'arabe au latin a Tolede, transmet Aristote et Almageste
+  centralite: 0.75
+  source_section: F013
+- nom: Frederic II Hohenstaufen
+  categorie: GOVERNMENT
+  role: Empereur, favorise traduction arabe-latin en Sicile
+  centralite: 0.7
+  source_section: F008
+- nom: Thomas d'Aquin
+  categorie: EXPERTS
+  role: Theologien, scolastique, influence par Averroes/Avicenne
+  centralite: 0.85
+  source_section: F009
+- nom: Oulemas
+  categorie: CIVIL_SOCIETY
+  role: Corps de specialistes religieux du droit, contrepouvoir au calife
+  centralite: 0.85
+  source_section: F019
+- nom: Vizir (wazir)
+  categorie: GOVERNMENT
+  role: Chef de l'administration abbasside, precurseur PM
+  centralite: 0.65
+  source_section: F006
+- nom: Dominique Gundisalvi
+  categorie: EXPERTS
+  role: Traducteur de Tolede, transmet philosophie arabe
+  centralite: 0.6
+  source_section: F013
+- nom: Banquier de Cordoue
+  categorie: CIVIL_SOCIETY
+  role: 'Categorie : preteurs, lettres de change (sakk) au Moyen Age'
+  centralite: 0.6
+  source_section: F012
+- nom: Juriste hanafite/malikite
+  categorie: EXPERTS
+  role: Specialistes des hiyal, contournement du riba
+  centralite: 0.55
+  source_section: F018
+- nom: Rois Catholiques
+  categorie: GOVERNMENT
+  role: Isabelle et Ferdinand, chute de Grenade 1492, expulsion Morisques 1609
+  centralite: 0.7
+  source_section: F021
 total_individus: 15
 cible_apex: 12
-verdict: "APEX atteint (15 superieur ou egal 12)"
-
+verdict: APEX atteint (15 superieur ou egal 12)
 causalites:
-  - id: C-I001
-    nom: "Bayt al-Hikma (Bagdad) vers redecouverte europeenne du CJC"
-    description: >-
-      Bayt al-Hikma (~830, al-Ma'mun) traduit systematiquement du grec
-      et syriaque vers l'arabe (Aristote, Galien, Ptolemee, mais aussi
-      textes scientifiques et philosophiques) -> Cordoue (Xe-XIIe) et
-      Tolede (XIIe, Ecole de traducteurs) traduisent de l'arabe vers
-      le latin -> Irnerius (1070, Bologne) accede au CJC grace aux
-      versions arabes conservees en Espagne islamique. La these
-      "Rome -> Bologne -> France" est INCOMPLETE. La vraie chaine est
-      "Rome -> traduction syriaque -> Bayt al-Hikma -> Cordoue/Tolede
-      -> Bologne -> Paris". L'Islam est le CONSERVATEUR ACTIF du
-      savoir antique.
-    preuve_tranchante: "Wikipedia Bayt al-Hikma + School of Toledo (chainage documente)"
-    fiabilite: ✦
-  - id: C-I002
-    nom: "Charia : integration totale culte+droit+morale+conomie+politique"
-    description: >-
-      La charia integre le culte (priere, jeune, pelerinage, zakat),
-      les transactions (commerce, dette, contrat, heritage), le droit
-      penal (crimes et chatiments), le droit familial (mariage,
-      divorce, filiation), l'ethique (bien/mal, permis/interdit) et
-      l'economie (riba interdit, zakat obligatoire, succession). AUCUNE
-      SEPARATION entre ces domaines. Le meme cadre juridique traite
-      une vente immobiliere et un peche mortel. INTEGRATION
-      MAXIMALE - plus que Sumer (andurarum), Rome (CJC), Chine
-      (Tang Code). La these SYSTEME est renforcee : l'integration
-      dette+droit+morale n'est pas une particularite europeenne mais
-      un universel des societes complexes.
-    preuve_tranchante: "Wikipedia Sharia (couverture exhaustive documentee)"
-    fiabilite: ✦
-  - id: C-I003
-    nom: "Riba (interdiction) vers andurarum (annulation) : deux reponses a la dette"
-    description: >-
-      Riba (Coran, sourate 2:275-279) INTERDIT la creation de la dette
-      a interet. Andurarum (Mesopotamie) ANNULE periodiquement les
-      dettes existantes. Plus radical (interdit la creation), plus
-      durable (interdiction permanente, pas edits ponctuels), plus
-      systematique (tous les prets, pas seulement agricoles). MAIS
-      contournements : hiyal (montages juridiques des hanafites et
-      malikites) reproduisent l'interet sous des formes
-      contractuellement differentes. Lecon : l'interdit theorique
-      est contourne structurellement, comme l'andurarum.
-    preuve_tranchante: "Wikipedia Riba + Hiyal (chainage documente)"
-    fiabilite: ✦
-  - id: C-I004
-    nom: "Oulemas comme corps specialise analogue aux enarques"
-    description: >-
-      Oulemas (savants religieux) MEME FONCTION que scribes sumeriens,
-      jurisconsultes romains, mandarins chinois, enarques francais :
-      interpreter la norme. MEME ENDOGAMIE : reproduction par
-      filiation + madrasa (formation religieuse). MEME CAPTURE
-      POTENTIELLE : alliance avec calife/sultan -> gardiens du
-      systeme plutot que serviteurs de la justice. MAIS
-      CONTREPOIDS UNIQUE : les oulemas ne sont PAS nommes par le
-      pouvoir politique. Leur autorite vient du savoir religieux,
-      pas d'un concours ou d'une nomination royale. Ce contrepoids
-      a partiellement fonctionne (revoltes des oulemas contre
-      califes injustes) mais s'est affibli avec l'alignement
-      califat-oulemas sous les Abbassides.
-    preuve_tranchante: "Wikipedia Ulema (structure du corps documentee)"
-    fiabilite: ✦
-  - id: C-I005
-    nom: "Al-Andalus 711-1492 : laboratoire de transmission puis rupture"
-    description: >-
-      Al-Andalus (Espagne islamique) 711-1492 (781 ans). Apogee Xe s. :
-      Cordoue 500 000 habitants, bibliotheques immenses, ecoles de
-      medecine, traduction de textes grecs. Chute progressive :
-      perte de Tolede (1085), chute de Cordoue (1236), chute de
-      Grenade (1492), expulsion des Morisques (1609). RUPTURE
-      brutale avec la Reconquista : les savoirs accumules sont
-      partiellement transmis aux universites europeennes via les
-      traducteurs de Tolede (XIIe), mais la communaute productrice
-      est detruite. La France herite ainsi de textes mais PAS de
-      la tradition vivante qui les a produits.
-    preuve_tranchante: "Wikipedia Al-Andalus, School of Toledo"
-    fiabilite: ✦
-
+- id: C-I001
+  nom: Bayt al-Hikma (Bagdad) vers redecouverte europeenne du CJC
+  description: Bayt al-Hikma (~830, al-Ma'mun) traduit systematiquement du grec et
+    syriaque vers l'arabe (Aristote, Galien, Ptolemee, mais aussi textes scientifiques
+    et philosophiques) -> Cordoue (Xe-XIIe) et Tolede (XIIe, Ecole de traducteurs)
+    traduisent de l'arabe vers le latin -> Irnerius (1070, Bologne) accede au CJC
+    grace aux versions arabes conservees en Espagne islamique. La these "Rome -> Bologne
+    -> France" est INCOMPLETE. La vraie chaine est "Rome -> traduction syriaque ->
+    Bayt al-Hikma -> Cordoue/Tolede -> Bologne -> Paris". L'Islam est le CONSERVATEUR
+    ACTIF du savoir antique.
+  preuve_tranchante: Wikipedia Bayt al-Hikma + School of Toledo (chainage documente)
+  fiabilite: ✦
+- id: C-I002
+  nom: 'Charia : integration totale culte+droit+morale+conomie+politique'
+  description: 'La charia integre le culte (priere, jeune, pelerinage, zakat), les
+    transactions (commerce, dette, contrat, heritage), le droit penal (crimes et chatiments),
+    le droit familial (mariage, divorce, filiation), l''ethique (bien/mal, permis/interdit)
+    et l''economie (riba interdit, zakat obligatoire, succession). AUCUNE SEPARATION
+    entre ces domaines. Le meme cadre juridique traite une vente immobiliere et un
+    peche mortel. INTEGRATION MAXIMALE - plus que Sumer (andurarum), Rome (CJC), Chine
+    (Tang Code). La these SYSTEME est renforcee : l''integration dette+droit+morale
+    n''est pas une particularite europeenne mais un universel des societes complexes.'
+  preuve_tranchante: Wikipedia Sharia (couverture exhaustive documentee)
+  fiabilite: ✦
+- id: C-I003
+  nom: 'Riba (interdiction) vers andurarum (annulation) : deux reponses a la dette'
+  description: 'Riba (Coran, sourate 2:275-279) INTERDIT la creation de la dette a
+    interet. Andurarum (Mesopotamie) ANNULE periodiquement les dettes existantes.
+    Plus radical (interdit la creation), plus durable (interdiction permanente, pas
+    edits ponctuels), plus systematique (tous les prets, pas seulement agricoles).
+    MAIS contournements : hiyal (montages juridiques des hanafites et malikites) reproduisent
+    l''interet sous des formes contractuellement differentes. Lecon : l''interdit
+    theorique est contourne structurellement, comme l''andurarum.'
+  preuve_tranchante: Wikipedia Riba + Hiyal (chainage documente)
+  fiabilite: ✦
+- id: C-I004
+  nom: Oulemas comme corps specialise analogue aux enarques
+  description: 'Oulemas (savants religieux) MEME FONCTION que scribes sumeriens, jurisconsultes
+    romains, mandarins chinois, enarques francais : interpreter la norme. MEME ENDOGAMIE
+    : reproduction par filiation + madrasa (formation religieuse). MEME CAPTURE POTENTIELLE
+    : alliance avec calife/sultan -> gardiens du systeme plutot que serviteurs de
+    la justice. MAIS CONTREPOIDS UNIQUE : les oulemas ne sont PAS nommes par le pouvoir
+    politique. Leur autorite vient du savoir religieux, pas d''un concours ou d''une
+    nomination royale. Ce contrepoids a partiellement fonctionne (revoltes des oulemas
+    contre califes injustes) mais s''est affibli avec l''alignement califat-oulemas
+    sous les Abbassides.'
+  preuve_tranchante: Wikipedia Ulema (structure du corps documentee)
+  fiabilite: ✦
+- id: C-I005
+  nom: 'Al-Andalus 711-1492 : laboratoire de transmission puis rupture'
+  description: 'Al-Andalus (Espagne islamique) 711-1492 (781 ans). Apogee Xe s. :
+    Cordoue 500 000 habitants, bibliotheques immenses, ecoles de medecine, traduction
+    de textes grecs. Chute progressive : perte de Tolede (1085), chute de Cordoue
+    (1236), chute de Grenade (1492), expulsion des Morisques (1609). RUPTURE brutale
+    avec la Reconquista : les savoirs accumules sont partiellement transmis aux universites
+    europeennes via les traducteurs de Tolede (XIIe), mais la communaute productrice
+    est detruite. La France herite ainsi de textes mais PAS de la tradition vivante
+    qui les a produits.'
+  preuve_tranchante: Wikipedia Al-Andalus, School of Toledo
+  fiabilite: ✦
 chronologie:
-  - date: "570-632"
-    evenement: "Mahomet, fondation de l'Islam, revelations du Coran"
-  - date: "VIIe s."
-    evenement: "Charia, riba interdit (Coran sourate 2:275-279), zakat obligatoire"
-  - date: "VIIe-VIIIe s."
-    evenement: "Conquetes islamiques : Perse, Levant, Egypte, Afrique du Nord, Espagne (711)"
-  - date: "711-1492"
-    evenement: "Al-Andalus : Espagne islamique 781 ans, apogee Cordoue Xe s."
-  - date: "750-1258"
-    evenement: "Califat abbasside : apogée a Bagdad, fondation Bayt al-Hikma"
-  - date: "~780-850"
-    evenement: "Al-Khwarizmi : algebre, algorithmes, systeme decimal"
-  - date: "~830"
-    evenement: "Bayt al-Hikma fondee a Bagdad par al-Ma'mun"
-  - date: "VIIIe-IXe s."
-    evenement: "Systeme des diwans (Kharaj, Jund, Rasa'il, Barid, Qudat) et vizir"
-  - date: "VIIIe-Xe s."
-    evenement: "Juristes hanafites/malikites developpent les hiyal (contournement du riba)"
-  - date: "980-1037"
-    evenement: "Avicenne (Ibn Sina) : Canon de la medecine, philosophie"
-  - date: "Xe-XIIe s."
-    evenement: "Cordoue : centre de traduction arabe->latin"
-  - date: "XIe-XIIIe s."
-    evenement: "Ecole de Tolede : Gerard de Cremone, Dominique Gundisalvi traduisent l'arabe"
-  - date: "1126-1198"
-    evenement: "Averroes (Ibn Rushd) : commentateur d'Aristote"
-  - date: "1194-1250"
-    evenement: "Frederic II de Sicile favorise traduction arabe-latin"
-  - date: "XIIe-XIIIe s."
-    evenement: "Scolastique medievale (Thomas d'Aquin, Abelard) influencee par Avicenne/Averroes"
-  - date: "1492"
-    evenement: "Chute de Grenade, fin de l'Islam en Europe occidentale"
-  - date: "1609"
-    evenement: "Expulsion des Morisques d'Espagne"
-
+- date: 570-632
+  evenement: Mahomet, fondation de l'Islam, revelations du Coran
+- date: VIIe s.
+  evenement: Charia, riba interdit (Coran sourate 2:275-279), zakat obligatoire
+- date: VIIe-VIIIe s.
+  evenement: 'Conquetes islamiques : Perse, Levant, Egypte, Afrique du Nord, Espagne
+    (711)'
+- date: 711-1492
+  evenement: 'Al-Andalus : Espagne islamique 781 ans, apogee Cordoue Xe s.'
+- date: 750-1258
+  evenement: 'Califat abbasside : apogée a Bagdad, fondation Bayt al-Hikma'
+- date: ~780-850
+  evenement: 'Al-Khwarizmi : algebre, algorithmes, systeme decimal'
+- date: ~830
+  evenement: Bayt al-Hikma fondee a Bagdad par al-Ma'mun
+- date: VIIIe-IXe s.
+  evenement: Systeme des diwans (Kharaj, Jund, Rasa'il, Barid, Qudat) et vizir
+- date: VIIIe-Xe s.
+  evenement: Juristes hanafites/malikites developpent les hiyal (contournement du
+    riba)
+- date: 980-1037
+  evenement: 'Avicenne (Ibn Sina) : Canon de la medecine, philosophie'
+- date: Xe-XIIe s.
+  evenement: 'Cordoue : centre de traduction arabe->latin'
+- date: XIe-XIIIe s.
+  evenement: 'Ecole de Tolede : Gerard de Cremone, Dominique Gundisalvi traduisent
+    l''arabe'
+- date: 1126-1198
+  evenement: 'Averroes (Ibn Rushd) : commentateur d''Aristote'
+- date: 1194-1250
+  evenement: Frederic II de Sicile favorise traduction arabe-latin
+- date: XIIe-XIIIe s.
+  evenement: Scolastique medievale (Thomas d'Aquin, Abelard) influencee par Avicenne/Averroes
+- date: '1492'
+  evenement: Chute de Grenade, fin de l'Islam en Europe occidentale
+- date: '1609'
+  evenement: Expulsion des Morisques d'Espagne
 domaines:
-  - nom: "DETTE"
-    description: "Riba (Coran) interdit la creation de dette a interet, zakat (2.5%) redistribution, sukuk/murabaha comme alternatives"
-    parallele_fr: "Interdiction chretienne de l'usure (jusqu'au XVIe), Securite sociale, microcredit"
-  - nom: "BUREAUCRATIE"
-    description: "Diwans (Kharaj/Jund/Rasa'il/Barid/Qudat), vizir comme PM, 20000+ secretaires"
-    parallele_fr: "INSP, grands corps, 5,7M fonctionnaires, Conseil d'Etat"
-  - nom: "DROIT"
-    description: "Charia integre culte+droit+morale+conomie dans un MEME cadre (vs separation francaise)"
-    parallele_fr: "Code civil 1804, Declaration droits 1789, separation Eglise/Etat 1905"
-  - nom: "TRANSMISSION"
-    description: "Bayt al-Hikma (Bagdad) -> Cordoue -> Tolede -> Bologne/Paris : Rome transmise PAR l'Islam"
-    parallele_fr: "Reception CJC a Bologne 1070 par Irnerius, Code civil 1804"
-  - nom: "SCIENCES"
-    description: "Al-Khwarizmi (algebre, algorithmes), Avicenne (medecine), Averroes (philosophie) transmis a l'Europe"
-    parallele_fr: "Ecole polytechnique 1794, Universite reformee, recherche scientifique"
-  - nom: "EDUCATION"
-    description: "Madrasa (ecole religieuse), bibliotheques immenses (Cordoue, Bagdad), modele pour universites"
-    parallele_fr: "Universite medievale (Bologne, Paris), grandes ecoles (ENA, Polytechnique)"
-  - nom: "CAPTURE"
-    description: "Oulemas : corps specialise religieux, endogame, allie au calife - capture par le savoir"
-    parallele_fr: "Grands corps (Conseil d'Etat, Inspection des finances), enarques INSP, caste 20 familles"
-
+- nom: DETTE
+  description: Riba (Coran) interdit la creation de dette a interet, zakat (2.5%)
+    redistribution, sukuk/murabaha comme alternatives
+  parallele_fr: Interdiction chretienne de l'usure (jusqu'au XVIe), Securite sociale,
+    microcredit
+- nom: BUREAUCRATIE
+  description: Diwans (Kharaj/Jund/Rasa'il/Barid/Qudat), vizir comme PM, 20000+ secretaires
+  parallele_fr: INSP, grands corps, 5,7M fonctionnaires, Conseil d'Etat
+- nom: DROIT
+  description: Charia integre culte+droit+morale+conomie dans un MEME cadre (vs separation
+    francaise)
+  parallele_fr: Code civil 1804, Declaration droits 1789, separation Eglise/Etat 1905
+- nom: TRANSMISSION
+  description: 'Bayt al-Hikma (Bagdad) -> Cordoue -> Tolede -> Bologne/Paris : Rome
+    transmise PAR l''Islam'
+  parallele_fr: Reception CJC a Bologne 1070 par Irnerius, Code civil 1804
+- nom: SCIENCES
+  description: Al-Khwarizmi (algebre, algorithmes), Avicenne (medecine), Averroes
+    (philosophie) transmis a l'Europe
+  parallele_fr: Ecole polytechnique 1794, Universite reformee, recherche scientifique
+- nom: EDUCATION
+  description: Madrasa (ecole religieuse), bibliotheques immenses (Cordoue, Bagdad),
+    modele pour universites
+  parallele_fr: Universite medievale (Bologne, Paris), grandes ecoles (ENA, Polytechnique)
+- nom: CAPTURE
+  description: 'Oulemas : corps specialise religieux, endogame, allie au calife -
+    capture par le savoir'
+  parallele_fr: Grands corps (Conseil d'Etat, Inspection des finances), enarques INSP,
+    caste 20 familles
 urls:
-  - {url: "https://en.wikipedia.org/wiki/Bayt_al-Hikma", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-I001"]}
-  - {url: "https://en.wikipedia.org/wiki/Translation_movement", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-I002"]}
-  - {url: "https://en.wikipedia.org/wiki/Sharia", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-I003"]}
-  - {url: "https://en.wikipedia.org/wiki/Riba", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-I004"]}
-  - {url: "https://en.wikipedia.org/wiki/Diwan", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-I005"]}
-  - {url: "https://en.wikipedia.org/wiki/Vizier", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-I006"]}
-  - {url: "https://en.wikipedia.org/wiki/School_of_Toledo", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-I007", "F-I013"]}
-  - {url: "https://en.wikipedia.org/wiki/Averroism", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-I009", "F-I016"]}
-  - {url: "https://en.wikipedia.org/wiki/Medieval_university", type: "Wikipedia", fiabilite: ✧, source_faits: ["F-I010"]}
-  - {url: "https://en.wikipedia.org/wiki/Zakat", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-I011"]}
-  - {url: "https://en.wikipedia.org/wiki/Islamic_banking", type: "Wikipedia", fiabilite: ✧, source_faits: ["F-I012"]}
-  - {url: "https://en.wikipedia.org/wiki/Ulema", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-I019"]}
-
+- url: https://en.wikipedia.org/wiki/Bayt_al-Hikma
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-I001
+- url: https://en.wikipedia.org/wiki/Translation_movement
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-I002
+- url: https://en.wikipedia.org/wiki/Sharia
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-I003
+- url: https://en.wikipedia.org/wiki/Riba
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-I004
+- url: https://en.wikipedia.org/wiki/Diwan
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-I005
+- url: https://en.wikipedia.org/wiki/Vizier
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-I006
+- url: https://en.wikipedia.org/wiki/School_of_Toledo
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-I007
+  - F-I013
+- url: https://en.wikipedia.org/wiki/Averroism
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-I009
+  - F-I016
+- url: https://en.wikipedia.org/wiki/Medieval_university
+  type: Wikipedia
+  fiabilite: ✧
+  source_faits:
+  - F-I010
+- url: https://en.wikipedia.org/wiki/Zakat
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-I011
+- url: https://en.wikipedia.org/wiki/Islamic_banking
+  type: Wikipedia
+  fiabilite: ✧
+  source_faits:
+  - F-I012
+- url: https://en.wikipedia.org/wiki/Ulema
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-I019
 wolves:
-  - {nom: "Mahomet", categorie: "GOVERNMENT", role: "Prophete, fondateur Islam", centralite: 0.95, source_section: "F020"}
-  - {nom: "Al-Ma'mun", categorie: "GOVERNMENT", role: "Calife abbasside, Bayt al-Hikma", centralite: 0.90, source_section: "F001"}
-  - {nom: "Avicenne", categorie: "EXPERTS", role: "Medecine, philosophie", centralite: 0.90, source_section: "F015"}
-  - {nom: "Averroes", categorie: "EXPERTS", role: "Commentateur Aristote", centralite: 0.85, source_section: "F016"}
-  - {nom: "Al-Khwarizmi", categorie: "EXPERTS", role: "Algebre, algorithmes", centralite: 0.85, source_section: "F017"}
-  - {nom: "Hunayn ibn Ishaq", categorie: "EXPERTS", role: "Traducteur Galien", centralite: 0.75, source_section: "F002"}
-  - {nom: "Gerard de Cremone", categorie: "EXPERTS", role: "Traducteur de Tolede", centralite: 0.75, source_section: "F013"}
-  - {nom: "Frederic II", categorie: "GOVERNMENT", role: "Empereur, favorise traduction", centralite: 0.70, source_section: "F008"}
-  - {nom: "Thomas d'Aquin", categorie: "EXPERTS", role: "Theologien, scolastique", centralite: 0.85, source_section: "F009"}
-  - {nom: "Oulemas", categorie: "CIVIL_SOCIETY", role: "Corps de specialistes religieux", centralite: 0.85, source_section: "F019"}
-  - {nom: "Vizir", categorie: "GOVERNMENT", role: "Chef administration abbasside", centralite: 0.65, source_section: "F006"}
-  - {nom: "Dominique Gundisalvi", categorie: "EXPERTS", role: "Traducteur de Tolede", centralite: 0.60, source_section: "F013"}
-  - {nom: "Juriste hanafite/malikite", categorie: "EXPERTS", role: "Specialiste hiyal", centralite: 0.55, source_section: "F018"}
-  - {nom: "Rois Catholiques", categorie: "GOVERNMENT", role: "Isabelle et Ferdinand, chute Grenade", centralite: 0.70, source_section: "F021"}
-  - {nom: "Banquier de Cordoue", categorie: "CIVIL_SOCIETY", role: "Preteurs, sakk (lettres de change)", centralite: 0.60, source_section: "F012"}
-total_individus: 15
-cible_apex: 12
-verdict: "APEX atteint (15 superieur ou egal 12)"
-
+- nom: Mahomet
+  categorie: GOVERNMENT
+  role: Prophete, fondateur Islam
+  centralite: 0.95
+  source_section: F020
+- nom: Al-Ma'mun
+  categorie: GOVERNMENT
+  role: Calife abbasside, Bayt al-Hikma
+  centralite: 0.9
+  source_section: F001
+- nom: Avicenne
+  categorie: EXPERTS
+  role: Medecine, philosophie
+  centralite: 0.9
+  source_section: F015
+- nom: Averroes
+  categorie: EXPERTS
+  role: Commentateur Aristote
+  centralite: 0.85
+  source_section: F016
+- nom: Al-Khwarizmi
+  categorie: EXPERTS
+  role: Algebre, algorithmes
+  centralite: 0.85
+  source_section: F017
+- nom: Hunayn ibn Ishaq
+  categorie: EXPERTS
+  role: Traducteur Galien
+  centralite: 0.75
+  source_section: F002
+- nom: Gerard de Cremone
+  categorie: EXPERTS
+  role: Traducteur de Tolede
+  centralite: 0.75
+  source_section: F013
+- nom: Frederic II
+  categorie: GOVERNMENT
+  role: Empereur, favorise traduction
+  centralite: 0.7
+  source_section: F008
+- nom: Thomas d'Aquin
+  categorie: EXPERTS
+  role: Theologien, scolastique
+  centralite: 0.85
+  source_section: F009
+- nom: Oulemas
+  categorie: CIVIL_SOCIETY
+  role: Corps de specialistes religieux
+  centralite: 0.85
+  source_section: F019
+- nom: Vizir
+  categorie: GOVERNMENT
+  role: Chef administration abbasside
+  centralite: 0.65
+  source_section: F006
+- nom: Dominique Gundisalvi
+  categorie: EXPERTS
+  role: Traducteur de Tolede
+  centralite: 0.6
+  source_section: F013
+- nom: Juriste hanafite/malikite
+  categorie: EXPERTS
+  role: Specialiste hiyal
+  centralite: 0.55
+  source_section: F018
+- nom: Rois Catholiques
+  categorie: GOVERNMENT
+  role: Isabelle et Ferdinand, chute Grenade
+  centralite: 0.7
+  source_section: F021
+- nom: Banquier de Cordoue
+  categorie: CIVIL_SOCIETY
+  role: Preteurs, sakk (lettres de change)
+  centralite: 0.6
+  source_section: F012
 iceberg:
-  - angle: "Le 'trou de 594 ans' comble par l'Islam, pas par l'Europe"
-    convergence: 0.90
-    description: >-
-      Le recit lineaire "Rome perdu -> redecouvert a Bologne (1070)"
-      est un MYTHE. La veritable chaine est Rome -> Bayt al-Hikma
-      (~830) -> Cordoue (Xe) -> Tolede (XIIe) -> Bologne (1070) ->
-      Paris. Sans Bayt al-Hikma, Irnerius n'aurait pas eu acces au
-      CJC. L'Islam n'est pas un "pont" passif mais le CONSERVATEUR
-      ACTIF du savoir antique. Article europeen ignore ce maillon
-      determinant.
-    source_section: "§2"
-  - angle: "Charia = integration MAXIMALE (culte+droit+morale+conomie)"
-    convergence: 0.85
-    description: >-
-      La charia integre culte, transactions, droit penal, droit
-      familial, ethique et economie dans un MEME cadre juridique.
-      Plus complet que Sumer (andurarum seulement), Rome (CJC
-      civil), Chine (Tang Code penal). L'integration n'est PAS
-      une particularite europeenne ancienne, c'est un UNIVERSEL
-      des societes complexes. Le monde moderne specialise/fragmente
-      ce que toutes les civilisations anciennes integraient.
-    source_section: "§1 / §5"
-  - angle: "Riba = plus radical que l'andurarum (interdit la creation, pas l'annulation)"
-    convergence: 0.80
-    description: >-
-      Le riba (Coran, sourate 2:275-279) INTERDIT la creation de
-      la dette a interet. L'andurarum sumerien ANNULE periodiquement
-      les dettes existantes. Plus radical, plus durable, plus
-      systematique. MAIS contournements (hiyal, montages juridiques
-      hanafites et malikites) demontrent que l'interdit theorique
-      est contourne structurellement. Lecon : la theorie islamique
-      de l'interdiction montre que l'integration maximale n'empeche
-      PAS la capture.
-    source_section: "§3"
-  - angle: "Oulemas : capture par le savoir religieux, pas par la nomination"
-    convergence: 0.75
-    description: >-
-      Les oulemas forment un corps comparable aux scribes, juristes,
-      mandarins, enarques. MEME endogamie, MEME capture potentielle.
-      MAIS contrepoids unique : autorite par le savoir, pas par
-      nomination royale. Revoltes des oulemas contre califes
-      injustes attestees historiquement. Le systeme s'affaiblit
-      quand l'alignement calife-oulemas devient systematique sous
-      les Abbassides. Lecon : l'independance du savoir est un
-      contrepouvoir reel quand elle est preservee.
-    source_section: "§4"
-  - angle: "Al-Andalus 711-1492 : laboratoire detruit par la Reconquista"
-    convergence: 0.70
-    description: >-
-      Al-Andalus (Espagne islamique) 711-1492 (781 ans), apogee
-      Cordoue Xe s. (500 000 hab., bibliotheques immenses). La
-      chute progressive (Tolede 1085, Cordoue 1236, Grenade 1492,
-      Morisques 1609) detruit la communaute productrice du savoir.
-      La France herite des TEXTES via Tolede mais PAS de la
-      tradition vivante. La rupture est aussi epistemique que
-      politique.
-    source_section: "§2"
+- angle: Le 'trou de 594 ans' comble par l'Islam, pas par l'Europe
+  convergence: 0.9
+  description: Le recit lineaire "Rome perdu -> redecouvert a Bologne (1070)" est
+    un MYTHE. La veritable chaine est Rome -> Bayt al-Hikma (~830) -> Cordoue (Xe)
+    -> Tolede (XIIe) -> Bologne (1070) -> Paris. Sans Bayt al-Hikma, Irnerius n'aurait
+    pas eu acces au CJC. L'Islam n'est pas un "pont" passif mais le CONSERVATEUR ACTIF
+    du savoir antique. Article europeen ignore ce maillon determinant.
+  source_section: §2
+- angle: Charia = integration MAXIMALE (culte+droit+morale+conomie)
+  convergence: 0.85
+  description: La charia integre culte, transactions, droit penal, droit familial,
+    ethique et economie dans un MEME cadre juridique. Plus complet que Sumer (andurarum
+    seulement), Rome (CJC civil), Chine (Tang Code penal). L'integration n'est PAS
+    une particularite europeenne ancienne, c'est un UNIVERSEL des societes complexes.
+    Le monde moderne specialise/fragmente ce que toutes les civilisations anciennes
+    integraient.
+  source_section: §1 / §5
+- angle: Riba = plus radical que l'andurarum (interdit la creation, pas l'annulation)
+  convergence: 0.8
+  description: 'Le riba (Coran, sourate 2:275-279) INTERDIT la creation de la dette
+    a interet. L''andurarum sumerien ANNULE periodiquement les dettes existantes.
+    Plus radical, plus durable, plus systematique. MAIS contournements (hiyal, montages
+    juridiques hanafites et malikites) demontrent que l''interdit theorique est contourne
+    structurellement. Lecon : la theorie islamique de l''interdiction montre que l''integration
+    maximale n''empeche PAS la capture.'
+  source_section: §3
+- angle: 'Oulemas : capture par le savoir religieux, pas par la nomination'
+  convergence: 0.75
+  description: 'Les oulemas forment un corps comparable aux scribes, juristes, mandarins,
+    enarques. MEME endogamie, MEME capture potentielle. MAIS contrepoids unique :
+    autorite par le savoir, pas par nomination royale. Revoltes des oulemas contre
+    califes injustes attestees historiquement. Le systeme s''affaiblit quand l''alignement
+    calife-oulemas devient systematique sous les Abbassides. Lecon : l''independance
+    du savoir est un contrepouvoir reel quand elle est preservee.'
+  source_section: §4
+- angle: 'Al-Andalus 711-1492 : laboratoire detruit par la Reconquista'
+  convergence: 0.7
+  description: Al-Andalus (Espagne islamique) 711-1492 (781 ans), apogee Cordoue Xe
+    s. (500 000 hab., bibliotheques immenses). La chute progressive (Tolede 1085,
+    Cordoue 1236, Grenade 1492, Morisques 1609) detruit la communaute productrice
+    du savoir. La France herite des TEXTES via Tolede mais PAS de la tradition vivante.
+    La rupture est aussi epistemique que politique.
+  source_section: §2
 shadow_factor: 2.8
 ce_qui_tient:
-  - "Bayt al-Hikma = conservation systematique du savoir antique (verifie)"
-  - "Charia = integration totale culte+droit+morale (verifie)"
-  - "Riba = interdiction coranique de l'interet (verifie, Coran sourate 2:275-279)"
-  - "Cordoue/Tolede = transmission a l'Europe medievale (verifie, chainage documente)"
-  - "Oulemas = corps specialise avec contrepouvoir religieux (verifie)"
-  - "Influence Avicenne/Averroes sur Thomas d'Aquin (verifie, averroisme documente)"
+- Bayt al-Hikma = conservation systematique du savoir antique (verifie)
+- Charia = integration totale culte+droit+morale (verifie)
+- Riba = interdiction coranique de l'interet (verifie, Coran sourate 2:275-279)
+- Cordoue/Tolede = transmission a l'Europe medievale (verifie, chainage documente)
+- Oulemas = corps specialise avec contrepouvoir religieux (verifie)
+- Influence Avicenne/Averroes sur Thomas d'Aquin (verifie, averroisme documente)
 ce_qui_tombe:
-  - "Trou de 594 ans comble par l'Europe seule -> faux, comble par l'Islam"
-  - "Charia = droit pur -> faux, integration culte+morale+conomie+politique"
-  - "Interdiction riba effective -> contournée par hiyal (montages juridiques)"
-  - "Transmission lineaire Rome->Europe -> fausse, multi-branches via Islam et Byzance"
-
+- Trou de 594 ans comble par l'Europe seule -> faux, comble par l'Islam
+- Charia = droit pur -> faux, integration culte+morale+conomie+politique
+- Interdiction riba effective -> contournée par hiyal (montages juridiques)
+- Transmission lineaire Rome->Europe -> fausse, multi-branches via Islam et Byzance
 limites:
-  - "Investigation courte (8.7K, 107 lignes) vs Sumer (50.4K) ou Chine (55.3K)"
-  - "Biais orientaliste : sources occidentales sur l'Islam, pas de sources primaires en arabe"
-  - "Shadow riba = 3.5x (cf. source §3) : interdiction theorique contournee structurellement"
-  - "6 faits marques ✧ sur 14 (F008, F010, F012, F014, F018) : sources secondaires ou en arabe non verifiees"
-  - "Investigation ne distingue pas chiites/sunnites : traitement generique de l'Islam"
-  - "Al-Andalus documente, mais pas l'Islam en Afrique subsaharienne, en Asie du Sud-Est"
-  - "GATE_G aberrant a 123.81% : 26 F### bruts sur 1 section (score mecanique >100%, signale un format particulier)"
-
+- Investigation courte (8.7K, 107 lignes) vs Sumer (50.4K) ou Chine (55.3K)
+- 'Biais orientaliste : sources occidentales sur l''Islam, pas de sources primaires
+  en arabe'
+- 'Shadow riba = 3.5x (cf. source §3) : interdiction theorique contournee structurellement'
+- '6 faits marques ✧ sur 14 (F008, F010, F012, F014, F018) : sources secondaires ou
+  en arabe non verifiees'
+- 'Investigation ne distingue pas chiites/sunnites : traitement generique de l''Islam'
+- Al-Andalus documente, mais pas l'Islam en Afrique subsaharienne, en Asie du Sud-Est
+- 'GATE_G aberrant a 123.81% : 26 F### bruts sur 1 section (score mecanique >100%,
+  signale un format particulier)'
 perspectives_dialectiques:
-  - scenario: "A - L'Islam comme chainon determinant (these continuiste medievale islamique)"
-    these: >-
-      L'Islam est le chainon MANQUANT et le CONSERVATEUR ACTIF de
-      l'heritage antique. Bayt al-Hikma (~830) traduit systematiquement
-      Aristote, Galien, Ptolemee. Cordoue (Xe) et Tolede (XIIe)
-      transmettent a l'Europe. Sans l'Islam, pas de redecouverte
-      europeenne. La these SYSTEME est renforcee (charia integre
-      tout) et la these CAPTURE relativisee (oulemas avec
-      contrepoids). Article "3 civilisations" est incomplet.
-    cui_bono: "Medievistes, historiens des sciences arabes, islamisants"
-    score: 0.80
-  - scenario: "B - L'Islam comme universal capture-resistant (these critique post-coloniale)"
-    these: >-
-      L'Islam montre que l'integration MAXIMALE (charia) n'empeche
-      PAS la capture (hiyal, alliance oulemas-calife). Le systeme
-      le plus integre de l'histoire produit quand meme des
-      specialistes captifs. La capture n'est pas un accident
-      europeen mais un universel des societes complexes. La
-      these "laicite comme solution a la capture" est invalidee
-      par l'Islam qui n'a JAMAIS eu de separation.
-    cui_bono: "Antropologues, sociologues des religions, post-coloniaux"
-    score: 0.70
-  - scenario: "C - Riba > andurarum comme reponse a la dette (these structurelle)"
-    these: >-
-      L'interdiction coranique du riba est PLUS RADICALE que
-      l'andurarum sumerien : elle interdit la creation de la dette
-      a interet, pas seulement l'annulation. Plus durable, plus
-      systematique, couvrant tous les prets. MAIS contournements
-      (hiyal) montrent que l'interdit theorique est contourne.
-      LECON : la these "l'integration juridique resout la dette"
-      est demystifiee par l'Islam. Meme avec l'integration
-      maximale, la dette se reinvente sous des formes cachees.
-    cui_bono: "Economistes, juristes, finance islamique"
-    score: 0.75
+- scenario: A - L'Islam comme chainon determinant (these continuiste medievale islamique)
+  these: L'Islam est le chainon MANQUANT et le CONSERVATEUR ACTIF de l'heritage antique.
+    Bayt al-Hikma (~830) traduit systematiquement Aristote, Galien, Ptolemee. Cordoue
+    (Xe) et Tolede (XIIe) transmettent a l'Europe. Sans l'Islam, pas de redecouverte
+    europeenne. La these SYSTEME est renforcee (charia integre tout) et la these CAPTURE
+    relativisee (oulemas avec contrepoids). Article "3 civilisations" est incomplet.
+  cui_bono: Medievistes, historiens des sciences arabes, islamisants
+  score: 0.8
+- scenario: B - L'Islam comme universal capture-resistant (these critique post-coloniale)
+  these: L'Islam montre que l'integration MAXIMALE (charia) n'empeche PAS la capture
+    (hiyal, alliance oulemas-calife). Le systeme le plus integre de l'histoire produit
+    quand meme des specialistes captifs. La capture n'est pas un accident europeen
+    mais un universel des societes complexes. La these "laicite comme solution a la
+    capture" est invalidee par l'Islam qui n'a JAMAIS eu de separation.
+  cui_bono: Antropologues, sociologues des religions, post-coloniaux
+  score: 0.7
+- scenario: C - Riba > andurarum comme reponse a la dette (these structurelle)
+  these: 'L''interdiction coranique du riba est PLUS RADICALE que l''andurarum sumerien
+    : elle interdit la creation de la dette a interet, pas seulement l''annulation.
+    Plus durable, plus systematique, couvrant tous les prets. MAIS contournements
+    (hiyal) montrent que l''interdit theorique est contourne. LECON : la these "l''integration
+    juridique resout la dette" est demystifiee par l''Islam. Meme avec l''integration
+    maximale, la dette se reinvente sous des formes cachees.'
+  cui_bono: Economistes, juristes, finance islamique
+  score: 0.75
 tensions_non_resolues:
-  - "Bayt al-Hikma : conservation du savoir ou pillage systematique des textes grecs ?"
-  - "Riba : interdiction serieuse ou tabou theorique contournable ?"
-  - "Charia : integration fonctionnelle ou domination clerge-religieux ?"
-  - "Oulemas : independance reelle ou corporatisme religieux ?"
-  - "Al-Andalus : age d'or ou orientalisme retrospectif ?"
-
+- 'Bayt al-Hikma : conservation du savoir ou pillage systematique des textes grecs
+  ?'
+- 'Riba : interdiction serieuse ou tabou theorique contournable ?'
+- 'Charia : integration fonctionnelle ou domination clerge-religieux ?'
+- 'Oulemas : independance reelle ou corporatisme religieux ?'
+- 'Al-Andalus : age d''or ou orientalisme retrospectif ?'
 metadata:
-  source_file: "investigations/2026-06-03_sumer_article/2026-06-04_10-00_islam_golden_age_CIVILISATION_MANQUANTE.md"
+  source_file: investigations/2026-06-03_sumer_article/2026-06-04_10-00_islam_golden_age_CIVILISATION_MANQUANTE.md
   source_lignes: 107
-  source_taille: "8.7K"
-  date_enrichissement: "2026-06-06"
-  methode: "LLM hote (opencode) - lecture cursive + 12 sections quintessence"
-  gate_g_mecanique: "123.81% aberrant (26 F### bruts sur 1 section, format particulier)"
-  gate_g_estime_apres_enrichissement: "~75-85% (cible MEDIUM 80%)"
+  source_taille: 8.7K
+  date_enrichissement: '2026-06-06'
+  methode: LLM hote (opencode) - lecture cursive + 12 sections quintessence
+  gate_g_mecanique: 123.81% aberrant (26 F### bruts sur 1 section, format particulier)
+  gate_g_estime_apres_enrichissement: ~75-85% (cible MEDIUM 80%)
   shadow_factor: 2.8
   shadow_riba: 3.5
-  fiabilite_globale: "Bonne (Wikipedia + L'Orient-Le Jour + Legalversity, 12 URLs, 8/14 ✦)"
-  position_dans_enquete: "CHAINEON MANQUANT entre Sumer/Rome et Europe medievale (Bagdad -> Cordoue -> Tolede -> Bologne)"
-
+  fiabilite_globale: Bonne (Wikipedia + L'Orient-Le Jour + Legalversity, 12 URLs,
+    8/14 ✦)
+  position_dans_enquete: CHAINEON MANQUANT entre Sumer/Rome et Europe medievale (Bagdad
+    -> Cordoue -> Tolede -> Bologne)

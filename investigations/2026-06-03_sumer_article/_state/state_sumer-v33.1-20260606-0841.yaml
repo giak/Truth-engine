@@ -1,0 +1,163 @@
+session_id: "sumer-v33.1-20260606-0841"
+spec_version: "33.1"
+started_at: "2026-06-06T08:41:18Z"
+last_update: "2026-06-06T08:42:30Z"
+investigation_path: "investigations/2026-06-03_sumer_article/"
+runtime_config_ref: "_state/runtime_config_v33_1.yaml"
+current_phase: "§3"
+phases_completed:
+  - §0
+  - §1
+  - §2
+  - G1
+  - G2
+gates_results:
+  G0: {status: "PASS", retries: 0, log: ["censeur profil A detecte, 13 investigations, 22 F###"]}
+  G1: {status: "PASS", retries: 0, log: ["9 articles corpus, saturation 0.92, scope elargi OK"]}
+  G2: {status: "PASS", retries: 0, log: ["3 theses + metathese enrichie par humain, cardinale validee"]}
+artifacts:
+  censeur_output:
+    diagnostic:
+      n_faits_total: 22
+      n_thèmes: 7
+      profil: A
+      main_investigation: "2026-06-03_12-30_sumer_vs_france_INVESTIGATION.md"
+      supporting_investigations:
+        - 2026-06-03_13-00_rome_vs_france_INVESTIGATION.md
+        - 2026-06-03_14-00_chine_vs_france_INVESTIGATION.md
+        - 2026-06-04_09-30_moyen_age_gense_etat_FRANCAIS_INVESTIGATION.md
+        - 2026-06-04_10-00_islam_golden_age_CIVILISATION_MANQUANTE.md
+        - 2026-06-04_10-30_inde_civilisation_manquante_INVESTIGATION.md
+        - 2026-06-04_11-00_ameriques_precolombiennes_CIVILISATION_MANQUANTE.md
+        - 2026-06-04_14-30_andurarum_autopsy_INVESTIGATION.md
+      clusters_dominants: {MONEY: 7, TEMPORAL: 8, POWER: 7, FRAMING: 6, CYNICAL: 6}
+    plan_adaptatif:
+      - "§1.2 DIGEST : SAUTÉ — utiliser F### directement depuis FACT_REGISTRY"
+      - "§3.1 Architecture : SAUTÉ — réutiliser CHAÎNES DE CASCADE existantes"
+      - "§1.1b CORPUS : ÉLARGI — 13 investigations sur 8 civilisations"
+      - "§5 Rédaction : réécriture complète (LOIS v33.0/v33.1)"
+    profil_justification: "Enquête multi-civilisationnelle complète : 8 civilisations, 13 investigations, 7 thèmes, 22 F###, 5 catégories de ManipulationReport."
+  corpus_consultant_output:
+    n_articles: 9
+    articles_pertinents:
+      - id: 39
+        titre: "Budget 2026"
+        utilite: "Dette France 3200 Mds€, comparaison dette sumérienne"
+      - id: 50
+        titre: "Féodalité"
+        utilite: "Moyen-Âge français, comparables aux clercs médiévaux"
+      - id: 30
+        titre: "Triangle de la capture"
+        utilite: "Mécanisme universel lobbying/pantouflage"
+      - id: 44
+        titre: "Pétrodollar"
+        utilite: "Empire des péchés, religion et économie"
+      - id: 46
+        titre: "Empire des péchés"
+        utilite: "Scepticisme mésopotamien, religion comparée"
+      - id: 38
+        titre: "Réseau qui nous facture"
+        utilite: "Chine moderne, Big Four, capture institutionnelle"
+      - id: 57
+        titre: "Impasse Persique"
+        utilite: "Moyen-Orient contemporain, déclin civilisationnel"
+      - titre: "Caste parasite"
+        utilite: "20 familles, 704 Mds€, reproduction des élites"
+      - titre: "407 Mensonges"
+        utilite: "Système d'inversion, shadow meta-récits"
+    n_acquis_total: 4
+    n_nouveau_total: 5
+    scope_elargi: true
+  dialecticien_output:
+    n_thèses: 3
+    theses:
+      - id: "INVERSION_MULTICIV"
+        texte: "Chaque civilisation a développé un mécanisme qu'on a perdu : andurarum (Sumer), droit romain, examination impériale (Chine), common law (Moyen-Age), ummah (Islam), etc."
+        score: 0.50
+        couverte_par: [Sumer, Rome, Chine, Moyen_Age, Islam, Inde, Amériques]
+      - id: "SYSTEME"
+        texte: "Le clergé de papier : la classe bureaucratique (scribes, scribes romains, lettrés, clercs, énarques) reproduit le même schéma de capture à travers les civilisations"
+        score: 0.65
+        couverte_par: [Sumer, Rome, Chine, Moyen_Age, France_moderne]
+      - id: "CAPTURE_INTERCIV"
+        texte: "Le triangle de la capture est universel : temples/Big Four/corporations/énarques — la caste parasite s'adapte à chaque civilisation"
+        score: 0.62
+        couverte_par: [Sumer, Chine_moderne, France_moderne, Moyen_Age]
+    cardinale: "META_COMPARAISON_ANCETRES_CONTEMPORAIN"
+    cardinale_originale: "SYSTEME"
+    cardinale_modifiee_par_humain: true
+    metathese:
+      texte: "Comparer nos ancêtres (8 civilisations, 2500 BC - 1500 AD) et le contemporain (France 2026) — la dette, le droit, la bureaucratie, le pouvoir, le dogme persistent, se transforment, se reproduisent."
+      rationale: "Le user veut absorber les 3 thèses en une métathèse comparative ancêtres/contemporain"
+      sous_thèses: [INVERSION_MULTICIV, SYSTEME, CAPTURE_INTERCIV]
+  scope_elargi_par_humain:
+    civilisations_cible: [Sumer, Rome_antique, Chine, Moyen_Age, Islam, Inde, Amériques, Andurarum]
+    thematiques_transversales:
+      - DETTE
+      - BUREAUCRATIE
+      - DROIT
+      - POUVOIR
+      - RELIGION_LAÏCITE
+    sortie_attendue: "Article 5000-6000 mots, comparatif explicite, thèse cardinale unique sur 8 civilisations"
+
+checkpoints:
+  cp1_§0:
+    phase: "§0"
+    agent_output_ref: "censeur_output"
+    human_action: "enrich"
+    human_output:
+      civilisations_ajoutees: [Rome_antique, Chine, Moyen_Age, Islam, Inde, Amériques, Andurarum]
+      rationale: "Le user veut tester la valeur ajoutée de v33.1 — couverture multi-civilisationnelle"
+      impact_portée: "13 investigations × 8 civilisations, vs Sumer pur"
+    n_refus_consecutifs: 0
+    timestamp: "2026-06-06T08:42:30Z"
+    cascade: "§1+ reprennent avec portée élargie"
+  cp2_§2:
+    phase: "§2"
+    agent_output_ref: "dialecticien_output"
+    human_action: "modify"
+    human_output:
+      cardinale_originale: "SYSTEME"
+      cardinale_nouvelle: "META_COMPARAISON_ANCETRES_CONTEMPORAIN"
+      rationale: "Le user veut 'comparer nos ancetres et ce qui est contemporain' — métathèse qui absorbe les 3 thèses initiales"
+      metathese: "Comparer nos ancêtres (8 civilisations, 2500 BC - 1500 AD) et le contemporain (France 2026) — la dette, le droit, la bureaucratie, le pouvoir, le dogme persistent, se transforment, se reproduisent."
+      sous_thèses: [INVERSION_MULTICIV, SYSTEME, CAPTURE_INTERCIV]
+    n_refus_consecutifs: 0
+    timestamp: "2026-06-06T08:48:00Z"
+    cascade: "§3+ reprennent avec nouvelle métathèse"
+
+audit_log:
+  - ts: "2026-06-06T08:41:18Z"
+    event: "AGENT_INSTANCED"
+    phase: "§0"
+    agent: "censeur"
+  - ts: "2026-06-06T08:41:25Z"
+    event: "DIAGNOSTIC"
+    phase: "§0"
+    profil: "A"
+    n_investigations: 13
+    n_faits: 22
+  - ts: "2026-06-06T08:41:30Z"
+    event: "PASS"
+    phase: "G0"
+    after: "censeur_diagnostic"
+  - ts: "2026-06-06T08:42:30Z"
+    event: "checkpoint"
+    phase: "§0"
+    cp_id: "cp1_§0"
+    action: "enrich"
+    actor: "user"
+    n_refus_consecutifs: 0
+  - ts: "2026-06-06T08:42:30Z"
+    event: "checkpoint_input"
+    phase: "§0"
+    cp_id: "cp1_§0"
+    field: "scope.civilisations"
+    old: ["Sumer"]
+    new: ["Sumer", "Rome_antique", "Chine", "Moyen_Age", "Islam", "Inde", "Amériques", "Andurarum"]
+
+token_budget:
+  used: 12500
+  cap: 200000
+  warning_threshold: 0.80
+errors: []

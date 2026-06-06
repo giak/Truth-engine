@@ -1,0 +1,24 @@
+spec_version: "33.0"
+investigation_path: "investigations/2026-06-03_sumer_article/"
+corpus_index: "substack-online/index.md"
+profil_auto_detect: true
+saturation_target: 0.80
+max_retries_per_gate: 2
+enable_auditeur: true
+token_budget:
+  cap: 200000
+  warning_threshold: 0.80
+parallelism:
+  - phase: "§1"
+    agents: ["censeur", "corpus-consultant"]
+  - phase: "§6"
+    agents: ["auditeur", "titre-createur"]
+output_paths:
+  article: "articles/2026-06-XX_XX-XX_sumer_5000_ans_civilisations_ARTICLE.md"
+  state: "investigations/2026-06-03_sumer_article/_state/state_<session_id>.yaml"
+  audit_log: "investigations/2026-06-03_sumer_article/_state/audit_<session_id>.ndjson"
+session_metadata:
+  started_at: "2026-06-06T05:30:00Z"
+  topic_hint: "Sumer/Rome/Chine/France - 5000 ans de civilisations comparées"
+  investigations_count: 13
+  investigations_main: "2026-06-03_12-30_sumer_vs_france_INVESTIGATION.md"

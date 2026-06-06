@@ -6,524 +6,709 @@ n_causalites: 5
 n_chronologie: 14
 n_domaines: 7
 n_urls: 12
-these_centrale: >-
-  Les 16+ civilisations precolombiennes (Caral, Olmèque, Maya, Teotihuacan,
-  Toltèque, Zapotèque, Mixtèque, Inca, Chimú, Moche, Nazca, Tiwanaku, Wari,
-  Aztèque, Mississippienne, Pueblo, Hohokam) constituent le REFUTATEUR EN
-  CHEF de l'article "3 civilisations". AUCUNE ne pratique la dette
-  monetaire à l'occidentale, AUCUNE ne fonctionne sur le modele
-  d'integration dettes/droit/morale europeen. Le Shadow Factor 6.4x
-  (16 candidates / 3 selectionnees × 1,2 coefficient eurocentrisme) est
-  le plus eleve de toutes les enquetes, ce qui demontre que l'article
-  est victime d'un biais de selection ARCHITECTURAL, pas accidentel.
+these_centrale: Les 16+ civilisations precolombiennes (Caral, Olmèque, Maya, Teotihuacan,
+  Toltèque, Zapotèque, Mixtèque, Inca, Chimú, Moche, Nazca, Tiwanaku, Wari, Aztèque,
+  Mississippienne, Pueblo, Hohokam) constituent le REFUTATEUR EN CHEF de l'article
+  "3 civilisations". AUCUNE ne pratique la dette monetaire à l'occidentale, AUCUNE
+  ne fonctionne sur le modele d'integration dettes/droit/morale europeen. Le Shadow
+  Factor 6.4x (16 candidates / 3 selectionnees × 1,2 coefficient eurocentrisme) est
+  le plus eleve de toutes les enquetes, ce qui demontre que l'article est victime
+  d'un biais de selection ARCHITECTURAL, pas accidentel.
 theses_implicites:
-  - "L'isolement geographique des Amériques (1492) a permis des systemes alternatifs SANS dette"
-  - "Le concept de 'civilisation' est eurocentre (implicite : seules les civilisations avec ecriture alphabetique et dette documentee 'comptent')"
-  - "La capture peut s'exercer SANS dette : monopole d'information (quipu), monopole foncier (Sapa Inca proprietaire), tribut en nature (azteque)"
+- L'isolement geographique des Amériques (1492) a permis des systemes alternatifs
+  SANS dette
+- 'Le concept de ''civilisation'' est eurocentre (implicite : seules les civilisations
+  avec ecriture alphabetique et dette documentee ''comptent'')'
+- 'La capture peut s''exercer SANS dette : monopole d''information (quipu), monopole
+  foncier (Sapa Inca proprietaire), tribut en nature (azteque)'
 f_atomiques:
-  - id: F-AM001
-    fait: "Caral : plus ancienne civilisation americaine (2600 av. J.-C.), contemporaine des pyramides egyptiennes, PAS de dette documentee"
-    date: "~2600 av."
-    acteur: "Civilisation de Caral-Supe (Perou)"
-    source: "Wikipedia Caral-Supe civilization"
-    url: "https://en.wikipedia.org/wiki/Caral%E2%80%93Supe_civilization"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F001"
-  - id: F-AM002
-    fait: "Economie inca : PAS de monnaie, PAS de marches, PAS de dette monetaire occidentale, redistribution imperiale centralisee"
-    date: "~1200-1532 ap."
-    acteur: "Empire Tawantinsuyu (Inca)"
-    source: "Wikipedia Economy of the Inca Empire"
-    url: "https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F002"
-  - id: F-AM003
-    fait: "Mit'a : impot-travail rotationnel obligatoire, base de l'economie inca, alternative au tribut monetaire"
-    date: "~1430-1532 ap."
-    acteur: "Sapa Inca, administration imperiale"
-    source: "Wikipedia Mita (Inca)"
-    url: "https://en.wikipedia.org/wiki/Mita_(Inca)"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F003"
-  - id: F-AM004
-    fait: "Ayni/minka : reciprocite et travail collectif, principe social andin alternatif a l'echange marchand"
-    date: "Precolombien, persistant"
-    acteur: "Communautes andines (ayllu)"
-    source: "Wikipedia Ayni"
-    url: "https://en.wikipedia.org/wiki/Ayni"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F004"
-  - id: F-AM005
-    fait: "Qhapaq Nan : 40 000 km de routes (le plus long reseau routier de l'epoque, > reseau romain)"
-    date: "~1400-1532 ap."
-    acteur: "Empire inca, administration centrale"
-    source: "Wikipedia Inca road system"
-    url: "https://en.wikipedia.org/wiki/Inca_road_system"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F005"
-  - id: F-AM006
-    fait: "Quipu : systeme decimal positionnel de cordelettes, census, fiscalite, 1 400 exemplaires conserves"
-    date: "~1400-1532 ap."
-    acteur: "Quipucamayocs (caste comptable)"
-    source: "Wikipedia Quipu"
-    url: "https://en.wikipedia.org/wiki/Quipu"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F006"
-  - id: F-AM007
-    fait: "Quipucamayocs : caste specialisee de comptables, formation par Etat, monopole de l'information economique"
-    date: "~1430-1532 ap."
-    acteur: "Administration imperiale inca"
-    source: "Wikipedia Quipu (Ashok Hinsch, Quipu Database Project)"
-    url: "https://en.wikipedia.org/wiki/Quipu"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§11 / F007"
-  - id: F-AM008
-    fait: "Azteque : cacao comme monnaie, tribut en nature, pochteca (marchands longue distance), chinampa (agriculture intensive)"
-    date: "~1325-1521 ap."
-    acteur: "Empire mexica (azteque)"
-    source: "Wikipedia Pochteca"
-    url: "https://en.wikipedia.org/wiki/Pochteca"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F008"
-  - id: F-AM009
-    fait: "Maya : zero mathematique independent, systeme juridique integre droit/religion, cites-Etats"
-    date: "~2000 av. - 900 ap."
-    acteur: "Civilisation maya"
-    source: "Wikipedia Maya civilization"
-    url: "https://en.wikipedia.org/wiki/Maya_civilization"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F009"
-  - id: F-AM010
-    fait: "Tenochtitlan : 200 000+ habitants en 1519, plus grande ville du monde a l'epoque ( > Paris, Londres, Rome)"
-    date: "1519"
-    acteur: "Empire azteque"
-    source: "Wikipedia Tenochtitlan"
-    url: "https://en.wikipedia.org/wiki/Tenochtitlan"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F010"
-  - id: F-AM011
-    fait: "Olmeque : ecriture glyphique, calendrier, civilisation 'mere' de la Mesoamerique, des 1500-400 av."
-    date: "~1500-400 av."
-    acteur: "Civilisation olmeque"
-    source: "Wikipedia Olmec"
-    url: "https://en.wikipedia.org/wiki/Olmec"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F011"
-  - id: F-AM012
-    fait: "Pas d'interet compose documente dans les civilisations precolombiennes (systemes alternatifs au capitalisme)"
-    date: "Precolombien"
-    acteur: "Toutes civilisations amerindiennes"
-    source: "Wikipedia Inca economy (verifie absence)"
-    url: "https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F012"
-  - id: F-AM013
-    fait: "Pas de marche au sens capitaliste (incroyable mais vrai pour Inca) : redistribution par l'Etat, pas d'echange marchand libre"
-    date: "~1430-1532 ap."
-    acteur: "Empire inca"
-    source: "Wikipedia Economy of the Inca Empire (Murra, Rostworowski)"
-    url: "https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§11 / F012"
-  - id: F-AM014
-    fait: "Teotihuacan : 125 000 habitants au pic (~100-650 ap.), plus grande ville des Ameriques precolombiennes"
-    date: "~100-650 ap."
-    acteur: "Metropole de Teotihuacan"
-    source: "Wikipedia Teotihuacan"
-    url: "https://en.wikipedia.org/wiki/Teotihuacan"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§7"
-  - id: F-AM015
-    fait: "Mississippienne (Cahokia, ~1050-1200 ap.) : 20 000+ habitants, parallel independant avec les Ameriques du Sud"
-    date: "~1050-1200 ap."
-    acteur: "Cahokia (Mississippienne)"
-    source: "Wikipedia Cahokia"
-    url: "https://en.wikipedia.org/wiki/Cahokia"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§7"
-  - id: F-AM016
-    fait: "Capture PAR MONOPOLE D'INFORMATION : quipu illisible sans formation, monopole d'Etat (Sapa Inca + quipucamayocs)"
-    date: "~1430-1532 ap."
-    acteur: "Sapa Inca, quipucamayocs"
-    source: "Wikipedia Quipu (analyses modernes)"
-    url: "https://en.wikipedia.org/wiki/Quipu"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§12 / F-AM007"
-  - id: F-AM017
-    fait: "Capture PAR MONOPOLE FONCIER : Sapa Inca proprietaire de TOUTE terre, systeme anti-marchand"
-    date: "~1430-1532 ap."
-    acteur: "Sapa Inca"
-    source: "Wikipedia Sapa Inca"
-    url: "https://en.wikipedia.org/wiki/Sapa_Inca"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§9"
-  - id: F-AM018
-    fait: "Tribut azteque : paiement en nature (cacao, textiles, plumes, jade), pas en monnaie, 23 peuples soumis"
-    date: "~1440-1519 ap."
-    acteur: "Empire azteque (Triple Alliance)"
-    source: "Wikipedia Aztec Empire"
-    url: "https://en.wikipedia.org/wiki/Aztec_Empire"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§11 / F008"
-  - id: F-AM019
-    fait: "Pizarro capture Atahualpa (1532) : fin de l'Empire inca, 168 soldats espagnols vs 80 000 Incas, capture par trahison"
-    date: "1532"
-    acteur: "Francisco Pizarro, Atahualpa"
-    source: "Wikipedia Capture of Atahualpa"
-    url: "https://en.wikipedia.org/wiki/Atahualpa"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§7 / §10"
-  - id: F-AM020
-    fait: "90% de la population amerindienne exterminée entre 1492 et 1650 (guerres, maladies, famine, esclavagisme)"
-    date: "1492-1650"
-    acteur: "Conquistadors, virus, systeme colonial"
-    source: "Wikipedia Population history of indigenous peoples of the Americas"
-    url: "https://en.wikipedia.org/wiki/Population_history_of_indigenous_peoples_of_the_Americas"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§13"
-  - id: F-AM021
-    fait: "Sources de l'article 100% occidentales : aucun specialiste amérindien cité (bias d'attribution documenté)"
-    date: "2026"
-    acteur: "Redaction article"
-    source: "Wikipedia Cieza de Leon, Murra, Rostworowski (specialistes absents)"
-    url: "https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§12 / §15"
-  - id: F-AM022
-    fait: "Shadow Factor 6.4x = N(16 civilisations candidates) / R(3 selectionnées) × coefficient eurocentrisme 1,2"
-    date: "2026"
-    acteur: "Methodologie SUBLIMATOR"
-    source: "Calcul SUBLIMATOR (AM 2026)"
-    url: ""
-    tier: 3
-    fiabilite: ❧
-    source_section: "§0 / §12"
-
+- id: F-AM001
+  fait: 'Caral : plus ancienne civilisation americaine (2600 av. J.-C.), contemporaine
+    des pyramides egyptiennes, PAS de dette documentee'
+  date: ~2600 av.
+  acteur: Civilisation de Caral-Supe (Perou)
+  source: Wikipedia Caral-Supe civilization
+  url: https://en.wikipedia.org/wiki/Caral%E2%80%93Supe_civilization
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F001
+  glyphe: ✦
+- id: F-AM002
+  fait: 'Economie inca : PAS de monnaie, PAS de marches, PAS de dette monetaire occidentale,
+    redistribution imperiale centralisee'
+  date: ~1200-1532 ap.
+  acteur: Empire Tawantinsuyu (Inca)
+  source: Wikipedia Economy of the Inca Empire
+  url: https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F002
+  glyphe: ✦
+- id: F-AM003
+  fait: 'Mit''a : impot-travail rotationnel obligatoire, base de l''economie inca,
+    alternative au tribut monetaire'
+  date: ~1430-1532 ap.
+  acteur: Sapa Inca, administration imperiale
+  source: Wikipedia Mita (Inca)
+  url: https://en.wikipedia.org/wiki/Mita_(Inca)
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F003
+  glyphe: ✦
+- id: F-AM004
+  fait: 'Ayni/minka : reciprocite et travail collectif, principe social andin alternatif
+    a l''echange marchand'
+  date: Precolombien, persistant
+  acteur: Communautes andines (ayllu)
+  source: Wikipedia Ayni
+  url: https://en.wikipedia.org/wiki/Ayni
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F004
+  glyphe: ✦
+- id: F-AM005
+  fait: 'Qhapaq Nan : 40 000 km de routes (le plus long reseau routier de l''epoque,
+    > reseau romain)'
+  date: ~1400-1532 ap.
+  acteur: Empire inca, administration centrale
+  source: Wikipedia Inca road system
+  url: https://en.wikipedia.org/wiki/Inca_road_system
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F005
+  glyphe: ✦
+- id: F-AM006
+  fait: 'Quipu : systeme decimal positionnel de cordelettes, census, fiscalite, 1
+    400 exemplaires conserves'
+  date: ~1400-1532 ap.
+  acteur: Quipucamayocs (caste comptable)
+  source: Wikipedia Quipu
+  url: https://en.wikipedia.org/wiki/Quipu
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F006
+  glyphe: ✦
+- id: F-AM007
+  fait: 'Quipucamayocs : caste specialisee de comptables, formation par Etat, monopole
+    de l''information economique'
+  date: ~1430-1532 ap.
+  acteur: Administration imperiale inca
+  source: Wikipedia Quipu (Ashok Hinsch, Quipu Database Project)
+  url: https://en.wikipedia.org/wiki/Quipu
+  tier: 2
+  fiabilite: ✧
+  source_section: §11 / F007
+  glyphe: ✧
+- id: F-AM008
+  fait: 'Azteque : cacao comme monnaie, tribut en nature, pochteca (marchands longue
+    distance), chinampa (agriculture intensive)'
+  date: ~1325-1521 ap.
+  acteur: Empire mexica (azteque)
+  source: Wikipedia Pochteca
+  url: https://en.wikipedia.org/wiki/Pochteca
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F008
+  glyphe: ✦
+- id: F-AM009
+  fait: 'Maya : zero mathematique independent, systeme juridique integre droit/religion,
+    cites-Etats'
+  date: ~2000 av. - 900 ap.
+  acteur: Civilisation maya
+  source: Wikipedia Maya civilization
+  url: https://en.wikipedia.org/wiki/Maya_civilization
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F009
+  glyphe: ✦
+- id: F-AM010
+  fait: 'Tenochtitlan : 200 000+ habitants en 1519, plus grande ville du monde a l''epoque
+    ( > Paris, Londres, Rome)'
+  date: '1519'
+  acteur: Empire azteque
+  source: Wikipedia Tenochtitlan
+  url: https://en.wikipedia.org/wiki/Tenochtitlan
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F010
+  glyphe: ✦
+- id: F-AM011
+  fait: 'Olmeque : ecriture glyphique, calendrier, civilisation ''mere'' de la Mesoamerique,
+    des 1500-400 av.'
+  date: ~1500-400 av.
+  acteur: Civilisation olmeque
+  source: Wikipedia Olmec
+  url: https://en.wikipedia.org/wiki/Olmec
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F011
+  glyphe: ✦
+- id: F-AM012
+  fait: Pas d'interet compose documente dans les civilisations precolombiennes (systemes
+    alternatifs au capitalisme)
+  date: Precolombien
+  acteur: Toutes civilisations amerindiennes
+  source: Wikipedia Inca economy (verifie absence)
+  url: https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F012
+  glyphe: ✦
+- id: F-AM013
+  fait: 'Pas de marche au sens capitaliste (incroyable mais vrai pour Inca) : redistribution
+    par l''Etat, pas d''echange marchand libre'
+  date: ~1430-1532 ap.
+  acteur: Empire inca
+  source: Wikipedia Economy of the Inca Empire (Murra, Rostworowski)
+  url: https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire
+  tier: 2
+  fiabilite: ✧
+  source_section: §11 / F012
+  glyphe: ✧
+- id: F-AM014
+  fait: 'Teotihuacan : 125 000 habitants au pic (~100-650 ap.), plus grande ville
+    des Ameriques precolombiennes'
+  date: ~100-650 ap.
+  acteur: Metropole de Teotihuacan
+  source: Wikipedia Teotihuacan
+  url: https://en.wikipedia.org/wiki/Teotihuacan
+  tier: 1
+  fiabilite: ✦
+  source_section: §7
+  glyphe: ✦
+- id: F-AM015
+  fait: 'Mississippienne (Cahokia, ~1050-1200 ap.) : 20 000+ habitants, parallel independant
+    avec les Ameriques du Sud'
+  date: ~1050-1200 ap.
+  acteur: Cahokia (Mississippienne)
+  source: Wikipedia Cahokia
+  url: https://en.wikipedia.org/wiki/Cahokia
+  tier: 1
+  fiabilite: ✦
+  source_section: §7
+  glyphe: ✦
+- id: F-AM016
+  fait: 'Capture PAR MONOPOLE D''INFORMATION : quipu illisible sans formation, monopole
+    d''Etat (Sapa Inca + quipucamayocs)'
+  date: ~1430-1532 ap.
+  acteur: Sapa Inca, quipucamayocs
+  source: Wikipedia Quipu (analyses modernes)
+  url: https://en.wikipedia.org/wiki/Quipu
+  tier: 2
+  fiabilite: ✧
+  source_section: §12 / F-AM007
+  glyphe: ✧
+- id: F-AM017
+  fait: 'Capture PAR MONOPOLE FONCIER : Sapa Inca proprietaire de TOUTE terre, systeme
+    anti-marchand'
+  date: ~1430-1532 ap.
+  acteur: Sapa Inca
+  source: Wikipedia Sapa Inca
+  url: https://en.wikipedia.org/wiki/Sapa_Inca
+  tier: 1
+  fiabilite: ✦
+  source_section: §9
+  glyphe: ✦
+- id: F-AM018
+  fait: 'Tribut azteque : paiement en nature (cacao, textiles, plumes, jade), pas
+    en monnaie, 23 peuples soumis'
+  date: ~1440-1519 ap.
+  acteur: Empire azteque (Triple Alliance)
+  source: Wikipedia Aztec Empire
+  url: https://en.wikipedia.org/wiki/Aztec_Empire
+  tier: 1
+  fiabilite: ✦
+  source_section: §11 / F008
+  glyphe: ✦
+- id: F-AM019
+  fait: 'Pizarro capture Atahualpa (1532) : fin de l''Empire inca, 168 soldats espagnols
+    vs 80 000 Incas, capture par trahison'
+  date: '1532'
+  acteur: Francisco Pizarro, Atahualpa
+  source: Wikipedia Capture of Atahualpa
+  url: https://en.wikipedia.org/wiki/Atahualpa
+  tier: 1
+  fiabilite: ✦
+  source_section: §7 / §10
+  glyphe: ✦
+- id: F-AM020
+  fait: 90% de la population amerindienne exterminée entre 1492 et 1650 (guerres,
+    maladies, famine, esclavagisme)
+  date: 1492-1650
+  acteur: Conquistadors, virus, systeme colonial
+  source: Wikipedia Population history of indigenous peoples of the Americas
+  url: https://en.wikipedia.org/wiki/Population_history_of_indigenous_peoples_of_the_Americas
+  tier: 1
+  fiabilite: ✦
+  source_section: §13
+  glyphe: ✦
+- id: F-AM021
+  fait: 'Sources de l''article 100% occidentales : aucun specialiste amérindien cité
+    (bias d''attribution documenté)'
+  date: '2026'
+  acteur: Redaction article
+  source: Wikipedia Cieza de Leon, Murra, Rostworowski (specialistes absents)
+  url: https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire
+  tier: 2
+  fiabilite: ✧
+  source_section: §12 / §15
+  glyphe: ✧
+- id: F-AM022
+  fait: Shadow Factor 6.4x = N(16 civilisations candidates) / R(3 selectionnées) ×
+    coefficient eurocentrisme 1,2
+  date: '2026'
+  acteur: Methodologie SUBLIMATOR
+  source: Calcul SUBLIMATOR (AM 2026)
+  url: ''
+  tier: 3
+  fiabilite: ❧
+  source_section: §0 / §12
+  glyphe: ❧
 acteurs:
-  - {nom: "Sapa Inca", categorie: "GOVERNMENT", role: "Empereur divin, proprietaire de toute terre", centralite: 1.0, source_section: "§9 / F-AM017"}
-  - {nom: "Quipucamayocs", categorie: "EXPERTS", role: "Caste specialisee de comptables, monopole information", centralite: 0.85, source_section: "§9 / F-AM007"}
-  - {nom: "Kurakas", categorie: "CIVIL_SOCIETY", role: "Chefs locaux, intermediaires Etat-peuple", centralite: 0.70, source_section: "§9"}
-  - {nom: "Chasquis", categorie: "GOVERNMENT", role: "Messagers, reseau rapide du Qhapaq Nan", centralite: 0.40, source_section: "§9"}
-  - {nom: "Amauta", categorie: "EXPERTS", role: "Sages/enseignants (Inca Garcilaso de la Vega, litterature)", centralite: 0.50, source_section: "§9"}
-  - {nom: "Mit'a", categorie: "CIVIL_SOCIETY", role: "Travailleurs en rotation (impot-travail)", centralite: 0.30, source_section: "§9 / F-AM003"}
-  - {nom: "Tlatoani (azteque)", categorie: "GOVERNMENT", role: "Roi/chef, Triple Alliance", centralite: 0.90, source_section: "§9"}
-  - {nom: "Pochteca (azteque)", categorie: "BUSINESS", role: "Marchands longue distance, ambassadeurs-espions", centralite: 0.60, source_section: "§9 / F-AM008"}
-  - {nom: "Cieza de Leon", categorie: "EXPERTS", role: "Chroniqueur espagnol XVIe s., sources primaires", centralite: 0.55, source_section: "§14"}
-  - {nom: "Murra (John)", categorie: "EXPERTS", role: "Anthropologue, specialiste economie andine", centralite: 0.60, source_section: "§14"}
-  - {nom: "Rostworowski (Maria)", categorie: "EXPERTS", role: "Historienne peruvienne, specialiste Inca", centralite: 0.55, source_section: "§14"}
-  - {nom: "Atahualpa", categorie: "GOVERNMENT", role: "Dernier Sapa Inca, capture 1532", centralite: 0.75, source_section: "§7 / F-AM019"}
-  - {nom: "Francisco Pizarro", categorie: "GOVERNMENT", role: "Conquistador, capture Atahualpa, fin Inca", centralite: 0.70, source_section: "§7 / F-AM019"}
-  - {nom: "Ayllu", categorie: "CIVIL_SOCIETY", role: "Communaute andine de base, reciprocite (ayni)", centralite: 0.65, source_section: "§9 / F-AM004"}
+- nom: Sapa Inca
+  categorie: GOVERNMENT
+  role: Empereur divin, proprietaire de toute terre
+  centralite: 1.0
+  source_section: §9 / F-AM017
+- nom: Quipucamayocs
+  categorie: EXPERTS
+  role: Caste specialisee de comptables, monopole information
+  centralite: 0.85
+  source_section: §9 / F-AM007
+- nom: Kurakas
+  categorie: CIVIL_SOCIETY
+  role: Chefs locaux, intermediaires Etat-peuple
+  centralite: 0.7
+  source_section: §9
+- nom: Chasquis
+  categorie: GOVERNMENT
+  role: Messagers, reseau rapide du Qhapaq Nan
+  centralite: 0.4
+  source_section: §9
+- nom: Amauta
+  categorie: EXPERTS
+  role: Sages/enseignants (Inca Garcilaso de la Vega, litterature)
+  centralite: 0.5
+  source_section: §9
+- nom: Mit'a
+  categorie: CIVIL_SOCIETY
+  role: Travailleurs en rotation (impot-travail)
+  centralite: 0.3
+  source_section: §9 / F-AM003
+- nom: Tlatoani (azteque)
+  categorie: GOVERNMENT
+  role: Roi/chef, Triple Alliance
+  centralite: 0.9
+  source_section: §9
+- nom: Pochteca (azteque)
+  categorie: BUSINESS
+  role: Marchands longue distance, ambassadeurs-espions
+  centralite: 0.6
+  source_section: §9 / F-AM008
+- nom: Cieza de Leon
+  categorie: EXPERTS
+  role: Chroniqueur espagnol XVIe s., sources primaires
+  centralite: 0.55
+  source_section: §14
+- nom: Murra (John)
+  categorie: EXPERTS
+  role: Anthropologue, specialiste economie andine
+  centralite: 0.6
+  source_section: §14
+- nom: Rostworowski (Maria)
+  categorie: EXPERTS
+  role: Historienne peruvienne, specialiste Inca
+  centralite: 0.55
+  source_section: §14
+- nom: Atahualpa
+  categorie: GOVERNMENT
+  role: Dernier Sapa Inca, capture 1532
+  centralite: 0.75
+  source_section: §7 / F-AM019
+- nom: Francisco Pizarro
+  categorie: GOVERNMENT
+  role: Conquistador, capture Atahualpa, fin Inca
+  centralite: 0.7
+  source_section: §7 / F-AM019
+- nom: Ayllu
+  categorie: CIVIL_SOCIETY
+  role: Communaute andine de base, reciprocite (ayni)
+  centralite: 0.65
+  source_section: §9 / F-AM004
 total_individus: 14
 cible_apex: 12
-verdict: "APEX atteint (14 superieur ou egal 12)"
-
+verdict: APEX atteint (14 superieur ou egal 12)
 causalites:
-  - id: C-AM001
-    nom: "L'ISOLEMENT GEOGRAPHIQUE post-1492 = VARIABLES INDEPENDANTES (systeme SANS dette)"
-    description: >-
-      Les civilisations americaines ont developpe des systemes INTEGRES
-      SANS dette monetaire. L'isolement pre-1492 a empeche la
-      contamination par le modele europeen. Resultat : Incas sans
-      monnaie, Azteques avec cacao non convertible, Mayas avec
-      tribut symbolique. Le "test naturel" est REUSSI : on peut
-      faire une civilisation sophistiquee (Qhapaq Nan 40 000 km,
-      quipu decimal, Tenochtitlan 200K hab) SANS dette. C'est
-      l'ARGUMENT EMPIRIQUE le plus devastateur contre la these
-      "l'integration necessite la dette".
-    preuve_tranchante: "Inca economie reelle (pas de monnaie, pas de marche)"
-    fiabilite: ✦
-  - id: C-AM002
-    nom: "La CAPTURE SANS DETTE est possible : monopole d'information (quipu) + monopole foncier (Sapa)"
-    description: >-
-      Le systeme inca est une demonstration que la CAPTURE
-      POLITIQUE peut s'exercer SANS dette. Mecanismes : (1)
-      MONOPOLE D'INFORMATION : quipu illisible hors caste
-      comptable, peuple exclu de la lecture, (2) MONOPOLE FONCIER :
-      Sapa Inca proprietaire de TOUTE terre, paysan = locataire
-      de fait, (3) MONOPOLE RELIGIEUX : Inca = fils du Soleil,
-      Inti. La these CAPTURE est CONFIRMEE mais TRANSFORMEE : la
-      dette n'est pas le seul mecanisme, le monopole d'information
-      ET foncier suffisent.
-    preuve_tranchante: "Wikipedia Quipu + Sapa Inca (propriete fonciere)"
-    fiabilite: ✦
-  - id: C-AM003
-    nom: "La THESE TRANSMISSION EST INVALIDEE : pas de continuite juridique Ameriques -> Europe"
-    description: >-
-      Contrairement a Sumer->Rome->CJC->Code civil (transmission
-      JURIDIQUE documentee), il n'y a PAS de transmission
-      juridique des Ameriques vers l'Europe. La conquete de 1532
-      est une RUPTURE, pas une transmission. Les systemes
-      juridiques americains (droit maya integre, droit coutumier
-      andin) sont PERDUS, pas transmis. La these "transmission
-      entre civilisations" ne fonctionne que dans l'Ancien Monde.
-      C'est une CONFIRMATION indirecte de la these de l'article :
-      l'integration juridique est une specificite eurasienne.
-    preuve_tranchante: "Wikipedia Capture of Atahualpa + absence code juridique amérindien conserve"
-    fiabilite: ✦
-  - id: C-AM004
-    nom: "90% d'extermination post-1492 = MANIPULATION STATISTIQUE de l'eurocentrisme"
-    description: >-
-      90% de la population amerindienne est exterminée entre 1492
-      et 1650. L'article "3 civilisations" omet cet EVENEMENT
-      FONDAMENTAL : la conquete n'est pas une "decouverte", c'est
-      une CATASTROPHE DEMOGRAPHIQUE qui elimine la preuve. Les
-      civilisations americaines sont absentes de l'article non
-      par hasard mais PARCE QU'ELLES ONT ETE DETRUITES. Le shadow
-      factor 6.4x n'est pas un biais de selection, c'est un
-      CRIME EPISTEMIQUE : la conquete a detruit l'objet d'etude.
-    preuve_tranchante: "Wikipedia Population history (90% en 150 ans)"
-    fiabilite: ✦
-  - id: C-AM005
-    nom: "Sources 100% occidentales = BIAS D'AUTO-REFERENCE qui confirme l'eurocentrisme"
-    description: >-
-      L'article cite 100% de sources occidentales (aucun specialiste
-      amerindien Cieza de Leon, Murra, Rostworowski). Ce BIAS
-      D'AUTO-REFERENCE est la preuve DIRECTE de l'eurocentrisme
-      architectural. Si l'article etait equilibre, il citerait
-      : (1) Felipe Guaman Poma de Ayala (chroniqueur quechua),
-      (2) John Murra (anthropologue americaniste), (3) Maria
-      Rostworowski (historienne peruvienne), (4) Matthew Restall
-      (mythes de la conquete), (5) Charles Mann (1491).
-      L'absence de ces sources EST le shadow factor 6.4x.
-    preuve_tranchante: "Audit des sources (100% occidentales, 0% amérindiennes)"
-    fiabilite: ✧
-
+- id: C-AM001
+  nom: L'ISOLEMENT GEOGRAPHIQUE post-1492 = VARIABLES INDEPENDANTES (systeme SANS
+    dette)
+  description: 'Les civilisations americaines ont developpe des systemes INTEGRES
+    SANS dette monetaire. L''isolement pre-1492 a empeche la contamination par le
+    modele europeen. Resultat : Incas sans monnaie, Azteques avec cacao non convertible,
+    Mayas avec tribut symbolique. Le "test naturel" est REUSSI : on peut faire une
+    civilisation sophistiquee (Qhapaq Nan 40 000 km, quipu decimal, Tenochtitlan 200K
+    hab) SANS dette. C''est l''ARGUMENT EMPIRIQUE le plus devastateur contre la these
+    "l''integration necessite la dette".'
+  preuve_tranchante: Inca economie reelle (pas de monnaie, pas de marche)
+  fiabilite: ✦
+- id: C-AM002
+  nom: 'La CAPTURE SANS DETTE est possible : monopole d''information (quipu) + monopole
+    foncier (Sapa)'
+  description: 'Le systeme inca est une demonstration que la CAPTURE POLITIQUE peut
+    s''exercer SANS dette. Mecanismes : (1) MONOPOLE D''INFORMATION : quipu illisible
+    hors caste comptable, peuple exclu de la lecture, (2) MONOPOLE FONCIER : Sapa
+    Inca proprietaire de TOUTE terre, paysan = locataire de fait, (3) MONOPOLE RELIGIEUX
+    : Inca = fils du Soleil, Inti. La these CAPTURE est CONFIRMEE mais TRANSFORMEE
+    : la dette n''est pas le seul mecanisme, le monopole d''information ET foncier
+    suffisent.'
+  preuve_tranchante: Wikipedia Quipu + Sapa Inca (propriete fonciere)
+  fiabilite: ✦
+- id: C-AM003
+  nom: 'La THESE TRANSMISSION EST INVALIDEE : pas de continuite juridique Ameriques
+    -> Europe'
+  description: 'Contrairement a Sumer->Rome->CJC->Code civil (transmission JURIDIQUE
+    documentee), il n''y a PAS de transmission juridique des Ameriques vers l''Europe.
+    La conquete de 1532 est une RUPTURE, pas une transmission. Les systemes juridiques
+    americains (droit maya integre, droit coutumier andin) sont PERDUS, pas transmis.
+    La these "transmission entre civilisations" ne fonctionne que dans l''Ancien Monde.
+    C''est une CONFIRMATION indirecte de la these de l''article : l''integration juridique
+    est une specificite eurasienne.'
+  preuve_tranchante: Wikipedia Capture of Atahualpa + absence code juridique amérindien
+    conserve
+  fiabilite: ✦
+- id: C-AM004
+  nom: 90% d'extermination post-1492 = MANIPULATION STATISTIQUE de l'eurocentrisme
+  description: '90% de la population amerindienne est exterminée entre 1492 et 1650.
+    L''article "3 civilisations" omet cet EVENEMENT FONDAMENTAL : la conquete n''est
+    pas une "decouverte", c''est une CATASTROPHE DEMOGRAPHIQUE qui elimine la preuve.
+    Les civilisations americaines sont absentes de l''article non par hasard mais
+    PARCE QU''ELLES ONT ETE DETRUITES. Le shadow factor 6.4x n''est pas un biais de
+    selection, c''est un CRIME EPISTEMIQUE : la conquete a detruit l''objet d''etude.'
+  preuve_tranchante: Wikipedia Population history (90% en 150 ans)
+  fiabilite: ✦
+- id: C-AM005
+  nom: Sources 100% occidentales = BIAS D'AUTO-REFERENCE qui confirme l'eurocentrisme
+  description: 'L''article cite 100% de sources occidentales (aucun specialiste amerindien
+    Cieza de Leon, Murra, Rostworowski). Ce BIAS D''AUTO-REFERENCE est la preuve DIRECTE
+    de l''eurocentrisme architectural. Si l''article etait equilibre, il citerait
+    : (1) Felipe Guaman Poma de Ayala (chroniqueur quechua), (2) John Murra (anthropologue
+    americaniste), (3) Maria Rostworowski (historienne peruvienne), (4) Matthew Restall
+    (mythes de la conquete), (5) Charles Mann (1491). L''absence de ces sources EST
+    le shadow factor 6.4x.'
+  preuve_tranchante: Audit des sources (100% occidentales, 0% amérindiennes)
+  fiabilite: ✧
 chronologie:
-  - date: "~2600 av."
-    evenement: "Caral, plus ancienne civilisation americaine (pyramides, quipus proto)"
-  - date: "~1500-400 av."
-    evenement: "Olmeque, ecriture glyphique, calendrier, 'civilisation mere' de la Mesoamerique"
-  - date: "~2000 av. - 900 ap."
-    evenement: "Civilisation maya, ecriture, zero mathematique, cites-Etats"
-  - date: "~100-650 ap."
-    evenement: "Teotihuacan, 125 000 habitants, plus grande ville des Ameriques"
-  - date: "~500-1521 ap."
-    evenement: "Civilisation toltèque puis aztèque, Triple Alliance"
-  - date: "~800-1532 ap."
-    evenement: "Civilisation Chimú (cote peruvienne), metallurgie, canaux"
-  - date: "~1100-1532 ap."
-    evenement: "Empire inca, Tawantinsuyu, Qhapaq Nan, quipus"
-  - date: "~1050-1200 ap."
-    evenement: "Cahokia (Mississippienne), 20 000+ habitants, parallele Nord"
-  - date: "1325"
-    evenement: "Fondation de Tenochtitlan par les Mexicas"
-  - date: "1438-1471"
-    evenement: "Pachacutec reordonne l'Empire inca, expansion rapide"
-  - date: "1492"
-    evenement: "Christophe Colomb arrive aux Ameriques, contact"
-  - date: "1519"
-    evenement: "Cortès arrive a Tenochtitlan, 200 000 habitants"
-  - date: "1521"
-    evenement: "Chute de Tenochtitlan, fin Empire aztèque"
-  - date: "1532"
-    evenement: "Pizarro capture Atahualpa, fin Empire inca, 90% population exterminée en 150 ans"
-
+- date: ~2600 av.
+  evenement: Caral, plus ancienne civilisation americaine (pyramides, quipus proto)
+- date: ~1500-400 av.
+  evenement: Olmeque, ecriture glyphique, calendrier, 'civilisation mere' de la Mesoamerique
+- date: ~2000 av. - 900 ap.
+  evenement: Civilisation maya, ecriture, zero mathematique, cites-Etats
+- date: ~100-650 ap.
+  evenement: Teotihuacan, 125 000 habitants, plus grande ville des Ameriques
+- date: ~500-1521 ap.
+  evenement: Civilisation toltèque puis aztèque, Triple Alliance
+- date: ~800-1532 ap.
+  evenement: Civilisation Chimú (cote peruvienne), metallurgie, canaux
+- date: ~1100-1532 ap.
+  evenement: Empire inca, Tawantinsuyu, Qhapaq Nan, quipus
+- date: ~1050-1200 ap.
+  evenement: Cahokia (Mississippienne), 20 000+ habitants, parallele Nord
+- date: '1325'
+  evenement: Fondation de Tenochtitlan par les Mexicas
+- date: 1438-1471
+  evenement: Pachacutec reordonne l'Empire inca, expansion rapide
+- date: '1492'
+  evenement: Christophe Colomb arrive aux Ameriques, contact
+- date: '1519'
+  evenement: Cortès arrive a Tenochtitlan, 200 000 habitants
+- date: '1521'
+  evenement: Chute de Tenochtitlan, fin Empire aztèque
+- date: '1532'
+  evenement: Pizarro capture Atahualpa, fin Empire inca, 90% population exterminée
+    en 150 ans
 domaines:
-  - nom: "DETTE"
-    description: "AUCUNE civilisation precolombienne ne pratique la dette monetaire a l'occidentale, alternative = tribut, mit'a, reciprocite (ayni)"
-    parallele_fr: "Taux usuraire medieval, microcredit, securite sociale 1945, 120K dossiers surendettement/an"
-  - nom: "MONNAIE"
-    description: "Inca : ZERO monnaie, ZERO marche, redistribution. Azteque : cacao + tissu comme monnaie NON convertible en or"
-    parallele_fr: "Monnaie fiduciaire (Franc 1360, Euro 2002), capitalisme monetaire moderne"
-  - nom: "BUREAUCRATIE"
-    description: "Quipucamayocs (caste comptable), Kurakas (chefs locaux), Chasquis (messagers), Census exhaustif 'des nourrissons aux aveugles de 80 ans'"
-    parallele_fr: "INSP, grands corps, 5,7M fonctionnaires, Conseil d'Etat, Conseil Constitutionnel"
-  - nom: "CAPTURE"
-    description: "Capture PAR MONOPOLE D'INFORMATION (quipu illisible) + MONOPOLE FONCIER (Sapa proprietaire) + MONOPOLE RELIGIEUX (Inti)"
-    parallele_fr: "Grands corps (Conseil d'Etat, Inspection des finances), caste 20 familles, reproduction elite"
-  - nom: "INFRASTRUCTURE"
-    description: "Qhapaq Nan 40 000 km, le plus long reseau routier de l'epoque, > reseau romain (80 000 km au pic)"
-    parallele_fr: "Reseau routier francais 1 050 000 km, SNCF, TGV"
-  - nom: "SCIENCES"
-    description: "ZERO mathematique maya, calendrier de Compte Long, astronomie, ecriture glyphique, geometrie"
-    parallele_fr: "Ecole polytechnique 1794, CNRS, INRIA, calcul decimale (decimal base)"
-  - nom: "URBANISME"
-    description: "Tenochtitlan 200 000+ hab. (1519) > Paris, chinampas (agriculture flottante), Teotihuacan 125 000 hab."
-    parallele_fr: "Paris 2,1M hab. (2026), Toulouse 1M, aires urbaines, FAO agriculture"
-
+- nom: DETTE
+  description: AUCUNE civilisation precolombienne ne pratique la dette monetaire a
+    l'occidentale, alternative = tribut, mit'a, reciprocite (ayni)
+  parallele_fr: Taux usuraire medieval, microcredit, securite sociale 1945, 120K dossiers
+    surendettement/an
+- nom: MONNAIE
+  description: 'Inca : ZERO monnaie, ZERO marche, redistribution. Azteque : cacao
+    + tissu comme monnaie NON convertible en or'
+  parallele_fr: Monnaie fiduciaire (Franc 1360, Euro 2002), capitalisme monetaire
+    moderne
+- nom: BUREAUCRATIE
+  description: Quipucamayocs (caste comptable), Kurakas (chefs locaux), Chasquis (messagers),
+    Census exhaustif 'des nourrissons aux aveugles de 80 ans'
+  parallele_fr: INSP, grands corps, 5,7M fonctionnaires, Conseil d'Etat, Conseil Constitutionnel
+- nom: CAPTURE
+  description: Capture PAR MONOPOLE D'INFORMATION (quipu illisible) + MONOPOLE FONCIER
+    (Sapa proprietaire) + MONOPOLE RELIGIEUX (Inti)
+  parallele_fr: Grands corps (Conseil d'Etat, Inspection des finances), caste 20 familles,
+    reproduction elite
+- nom: INFRASTRUCTURE
+  description: Qhapaq Nan 40 000 km, le plus long reseau routier de l'epoque, > reseau
+    romain (80 000 km au pic)
+  parallele_fr: Reseau routier francais 1 050 000 km, SNCF, TGV
+- nom: SCIENCES
+  description: ZERO mathematique maya, calendrier de Compte Long, astronomie, ecriture
+    glyphique, geometrie
+  parallele_fr: Ecole polytechnique 1794, CNRS, INRIA, calcul decimale (decimal base)
+- nom: URBANISME
+  description: Tenochtitlan 200 000+ hab. (1519) > Paris, chinampas (agriculture flottante),
+    Teotihuacan 125 000 hab.
+  parallele_fr: Paris 2,1M hab. (2026), Toulouse 1M, aires urbaines, FAO agriculture
 urls:
-  - {url: "https://en.wikipedia.org/wiki/Caral%E2%80%93Supe_civilization", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM001"]}
-  - {url: "https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM002", "F-AM012", "F-AM013"]}
-  - {url: "https://en.wikipedia.org/wiki/Mita_(Inca)", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM003"]}
-  - {url: "https://en.wikipedia.org/wiki/Ayni", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM004"]}
-  - {url: "https://en.wikipedia.org/wiki/Inca_road_system", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM005"]}
-  - {url: "https://en.wikipedia.org/wiki/Quipu", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM006", "F-AM007", "F-AM016"]}
-  - {url: "https://en.wikipedia.org/wiki/Pochteca", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM008"]}
-  - {url: "https://en.wikipedia.org/wiki/Maya_civilization", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM009"]}
-  - {url: "https://en.wikipedia.org/wiki/Tenochtitlan", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM010"]}
-  - {url: "https://en.wikipedia.org/wiki/Olmec", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM011"]}
-  - {url: "https://en.wikipedia.org/wiki/Atahualpa", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM019"]}
-  - {url: "https://en.wikipedia.org/wiki/Population_history_of_indigenous_peoples_of_the_Americas", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-AM020"]}
-
+- url: https://en.wikipedia.org/wiki/Caral%E2%80%93Supe_civilization
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM001
+- url: https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM002
+  - F-AM012
+  - F-AM013
+- url: https://en.wikipedia.org/wiki/Mita_(Inca)
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM003
+- url: https://en.wikipedia.org/wiki/Ayni
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM004
+- url: https://en.wikipedia.org/wiki/Inca_road_system
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM005
+- url: https://en.wikipedia.org/wiki/Quipu
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM006
+  - F-AM007
+  - F-AM016
+- url: https://en.wikipedia.org/wiki/Pochteca
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM008
+- url: https://en.wikipedia.org/wiki/Maya_civilization
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM009
+- url: https://en.wikipedia.org/wiki/Tenochtitlan
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM010
+- url: https://en.wikipedia.org/wiki/Olmec
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM011
+- url: https://en.wikipedia.org/wiki/Atahualpa
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM019
+- url: https://en.wikipedia.org/wiki/Population_history_of_indigenous_peoples_of_the_Americas
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-AM020
 wolves:
-  - {nom: "Sapa Inca", categorie: "GOVERNMENT", role: "Empereur divin, proprietaire", centralite: 1.0, source_section: "§9"}
-  - {nom: "Quipucamayocs", categorie: "EXPERTS", role: "Monopole information", centralite: 0.85, source_section: "§9"}
-  - {nom: "Kurakas", categorie: "CIVIL_SOCIETY", role: "Intermediaires", centralite: 0.70, source_section: "§9"}
-  - {nom: "Chasquis", categorie: "GOVERNMENT", role: "Messagers", centralite: 0.40, source_section: "§9"}
-  - {nom: "Amauta", categorie: "EXPERTS", role: "Sages", centralite: 0.50, source_section: "§9"}
-  - {nom: "Mit'a", categorie: "CIVIL_SOCIETY", role: "Travailleurs rotation", centralite: 0.30, source_section: "§9"}
-  - {nom: "Tlatoani", categorie: "GOVERNMENT", role: "Roi azteque", centralite: 0.90, source_section: "§9"}
-  - {nom: "Pochteca", categorie: "BUSINESS", role: "Marchands espions", centralite: 0.60, source_section: "§9"}
-  - {nom: "Cieza de Leon", categorie: "EXPERTS", role: "Chroniqueur", centralite: 0.55, source_section: "§14"}
-  - {nom: "Murra", categorie: "EXPERTS", role: "Anthropologue", centralite: 0.60, source_section: "§14"}
-  - {nom: "Rostworowski", categorie: "EXPERTS", role: "Historienne", centralite: 0.55, source_section: "§14"}
-  - {nom: "Atahualpa", categorie: "GOVERNMENT", role: "Dernier Inca", centralite: 0.75, source_section: "§7"}
-  - {nom: "Pizarro", categorie: "GOVERNMENT", role: "Conquistador", centralite: 0.70, source_section: "§7"}
-  - {nom: "Ayllu", categorie: "CIVIL_SOCIETY", role: "Communaute andine", centralite: 0.65, source_section: "§9"}
-total_individus: 14
-cible_apex: 12
-verdict: "APEX atteint (14 superieur ou egal 12)"
-
+- nom: Sapa Inca
+  categorie: GOVERNMENT
+  role: Empereur divin, proprietaire
+  centralite: 1.0
+  source_section: §9
+- nom: Quipucamayocs
+  categorie: EXPERTS
+  role: Monopole information
+  centralite: 0.85
+  source_section: §9
+- nom: Kurakas
+  categorie: CIVIL_SOCIETY
+  role: Intermediaires
+  centralite: 0.7
+  source_section: §9
+- nom: Chasquis
+  categorie: GOVERNMENT
+  role: Messagers
+  centralite: 0.4
+  source_section: §9
+- nom: Amauta
+  categorie: EXPERTS
+  role: Sages
+  centralite: 0.5
+  source_section: §9
+- nom: Mit'a
+  categorie: CIVIL_SOCIETY
+  role: Travailleurs rotation
+  centralite: 0.3
+  source_section: §9
+- nom: Tlatoani
+  categorie: GOVERNMENT
+  role: Roi azteque
+  centralite: 0.9
+  source_section: §9
+- nom: Pochteca
+  categorie: BUSINESS
+  role: Marchands espions
+  centralite: 0.6
+  source_section: §9
+- nom: Cieza de Leon
+  categorie: EXPERTS
+  role: Chroniqueur
+  centralite: 0.55
+  source_section: §14
+- nom: Murra
+  categorie: EXPERTS
+  role: Anthropologue
+  centralite: 0.6
+  source_section: §14
+- nom: Rostworowski
+  categorie: EXPERTS
+  role: Historienne
+  centralite: 0.55
+  source_section: §14
+- nom: Atahualpa
+  categorie: GOVERNMENT
+  role: Dernier Inca
+  centralite: 0.75
+  source_section: §7
+- nom: Pizarro
+  categorie: GOVERNMENT
+  role: Conquistador
+  centralite: 0.7
+  source_section: §7
+- nom: Ayllu
+  categorie: CIVIL_SOCIETY
+  role: Communaute andine
+  centralite: 0.65
+  source_section: §9
 iceberg:
-  - angle: "16 civilisations precolombiennes omet 6.4x = la plus grande lacune de l'article"
-    convergence: 0.95
-    description: >-
-      L'article choisit 3 civilisations de l'Ancien Monde alors
-      qu'il existe 16+ civilisations precolombiennes. Ce shadow
-      factor 6.4x est le PLUS ELEVE de toutes les enquetes. La
-      selection n'est pas accidentelle : elle reflete un
-      EUROCENTRISME ARCHITECTURAL profond. Les Amériques
-      representaient 10-25% de la population mondiale en 1492.
-      C'est l'ANGLE MORT LE PLUS GRAVE.
-    source_section: "§0 / §12 / §15"
-  - angle: "Pas de dette monetaire ne disqualifie pas la these CAPTURE (monopole info + foncier)"
-    convergence: 0.90
-    description: >-
-      L'absence de dette monetaire chez les Incas ne signifie pas
-      absence de capture. La capture s'exerce par MONOPOLE
-      D'INFORMATION (quipu illisible) + MONOPOLE FONCIER (Sapa
-      proprietaire) + MONOPOLE RELIGIEUX. La these CAPTURE est
-      donc CONFIRMEE mais TRANSFORMEE : la dette n'est qu'un
-      mecanisme parmi d'autres.
-    source_section: "§12 / F-AM016 / F-AM017"
-  - angle: "90% d'extermination = destruction de la preuve (crime epistemique)"
-    convergence: 0.85
-    description: >-
-      L'extermination de 90% de la population amerindienne entre
-      1492 et 1650 detruit l'objet d'etude. Les 16 civilisations
-      sont absentes non par hasard mais par CRIME. L'article qui
-      pretend faire l'inventaire des civilisations integrees sans
-      mentionner cette extermination manque le fait le plus
-      determinant des 500 dernieres annees.
-    source_section: "§13 / F-AM020"
-  - angle: "Sources 100% occidentales = bias d'auto-reference"
-    convergence: 0.80
-    description: >-
-      L'article cite 100% de sources occidentales. Aucun specialiste
-      amerindien (Murra, Rostworowski, Restall, Mann) n'est
-      mentionne. Ce BIAS D'AUTO-REFERENCE est la preuve directe
-      de l'eurocentrisme. La redaction pourrait corriger
-      immediatement en ajoutant 5 sources amerindiennes.
-    source_section: "§12 / §14"
-  - angle: "Le ZERO maya est INDEPENDANT du ZERO indien (decouverte separee)"
-    convergence: 0.75
-    description: >-
-      Le systeme maya de mathematiques (zero positionnel,
-      calendrier Compte Long, astronomie) est une DECOUVERTE
-      INDEPENDANTE du zero indien d'Aryabhata. C'est une preuve
-      que la pensee mathematique emerge dans des contextes
-      isoles, ce qui AFFAIBLIT la these "transmission obligatoire"
-      de l'article. La pluralite des zeros (Inde, Maya, Babel
-      proto) suggere des convergences, pas des transmissions.
-    source_section: "F-AM009"
+- angle: 16 civilisations precolombiennes omet 6.4x = la plus grande lacune de l'article
+  convergence: 0.95
+  description: 'L''article choisit 3 civilisations de l''Ancien Monde alors qu''il
+    existe 16+ civilisations precolombiennes. Ce shadow factor 6.4x est le PLUS ELEVE
+    de toutes les enquetes. La selection n''est pas accidentelle : elle reflete un
+    EUROCENTRISME ARCHITECTURAL profond. Les Amériques representaient 10-25% de la
+    population mondiale en 1492. C''est l''ANGLE MORT LE PLUS GRAVE.'
+  source_section: §0 / §12 / §15
+- angle: Pas de dette monetaire ne disqualifie pas la these CAPTURE (monopole info
+    + foncier)
+  convergence: 0.9
+  description: 'L''absence de dette monetaire chez les Incas ne signifie pas absence
+    de capture. La capture s''exerce par MONOPOLE D''INFORMATION (quipu illisible)
+    + MONOPOLE FONCIER (Sapa proprietaire) + MONOPOLE RELIGIEUX. La these CAPTURE
+    est donc CONFIRMEE mais TRANSFORMEE : la dette n''est qu''un mecanisme parmi d''autres.'
+  source_section: §12 / F-AM016 / F-AM017
+- angle: 90% d'extermination = destruction de la preuve (crime epistemique)
+  convergence: 0.85
+  description: L'extermination de 90% de la population amerindienne entre 1492 et
+    1650 detruit l'objet d'etude. Les 16 civilisations sont absentes non par hasard
+    mais par CRIME. L'article qui pretend faire l'inventaire des civilisations integrees
+    sans mentionner cette extermination manque le fait le plus determinant des 500
+    dernieres annees.
+  source_section: §13 / F-AM020
+- angle: Sources 100% occidentales = bias d'auto-reference
+  convergence: 0.8
+  description: L'article cite 100% de sources occidentales. Aucun specialiste amerindien
+    (Murra, Rostworowski, Restall, Mann) n'est mentionne. Ce BIAS D'AUTO-REFERENCE
+    est la preuve directe de l'eurocentrisme. La redaction pourrait corriger immediatement
+    en ajoutant 5 sources amerindiennes.
+  source_section: §12 / §14
+- angle: Le ZERO maya est INDEPENDANT du ZERO indien (decouverte separee)
+  convergence: 0.75
+  description: Le systeme maya de mathematiques (zero positionnel, calendrier Compte
+    Long, astronomie) est une DECOUVERTE INDEPENDANTE du zero indien d'Aryabhata.
+    C'est une preuve que la pensee mathematique emerge dans des contextes isoles,
+    ce qui AFFAIBLIT la these "transmission obligatoire" de l'article. La pluralite
+    des zeros (Inde, Maya, Babel proto) suggere des convergences, pas des transmissions.
+  source_section: F-AM009
 shadow_factor: 6.4
 ce_qui_tient:
-  - "Pas de dette monetaire chez Incas, Azteques, Mayas (F-AM002, F-AM012, F-AM013)"
-  - "Tenochtitlan 200 000+ hab. en 1519 > Paris (F-AM010)"
-  - "Qhapaq Nan 40 000 km > reseau romain au pic (F-AM005)"
-  - "Zero maya independant du zero indien (F-AM009)"
-  - "Capture SANS dette : monopole info + foncier (F-AM016, F-AM017)"
-  - "90% extermination post-1492 documentee (F-AM020)"
+- Pas de dette monetaire chez Incas, Azteques, Mayas (F-AM002, F-AM012, F-AM013)
+- Tenochtitlan 200 000+ hab. en 1519 > Paris (F-AM010)
+- Qhapaq Nan 40 000 km > reseau romain au pic (F-AM005)
+- Zero maya independant du zero indien (F-AM009)
+- 'Capture SANS dette : monopole info + foncier (F-AM016, F-AM017)'
+- 90% extermination post-1492 documentee (F-AM020)
 ce_qui_tombe:
-  - "La these 'integration necessite dette' est INFIRMEE par les Amériques (systemes alternatifs viables)"
-  - "L'eurocentrisme de l'article est DEMONTRE par le shadow factor 6.4x"
-  - "Le concept de 'civilisation' est lui-meme biaise (exclut les systemes SANS ecriture alphabetique)"
-  - "La conquete 1532 n'est pas 'decouverte' mais CATASTROPHE (90% exterminés)"
-
+- La these 'integration necessite dette' est INFIRMEE par les Amériques (systemes
+  alternatifs viables)
+- L'eurocentrisme de l'article est DEMONTRE par le shadow factor 6.4x
+- Le concept de 'civilisation' est lui-meme biaise (exclut les systemes SANS ecriture
+  alphabetique)
+- La conquete 1532 n'est pas 'decouverte' mais CATASTROPHE (90% exterminés)
 limites:
-  - "Shadow Factor 6.4x le plus eleve : biais epistemique extreme, l'enquete EST le refute de l'article"
-  - "15 faits marques ✧ sur 22 (F-AM007, F-AM013, F-AM016, F-AM021) : sources debattues par specialistes"
-  - "Sources amérindiennes absentes (Cieza, Murra, Rostworowski) : l'enquete reproduit le meme biais qu'elle denonce"
-  - "Pas de source en quechua, nahuatl, maya dans l'enquete (vs 12 sources Wikipedia)"
-  - "Tenochtitlan 200 000+ : estimation debattue (100 000 a 300 000)"
-  - "Qhapaq Nan 40 000 km : estimation varie 30 000 a 50 000 km"
-  - "Population exterminée 90% : estimation 70% a 95% (Mann, Diamond)"
-
+- 'Shadow Factor 6.4x le plus eleve : biais epistemique extreme, l''enquete EST le
+  refute de l''article'
+- '15 faits marques ✧ sur 22 (F-AM007, F-AM013, F-AM016, F-AM021) : sources debattues
+  par specialistes'
+- 'Sources amérindiennes absentes (Cieza, Murra, Rostworowski) : l''enquete reproduit
+  le meme biais qu''elle denonce'
+- Pas de source en quechua, nahuatl, maya dans l'enquete (vs 12 sources Wikipedia)
+- 'Tenochtitlan 200 000+ : estimation debattue (100 000 a 300 000)'
+- 'Qhapaq Nan 40 000 km : estimation varie 30 000 a 50 000 km'
+- 'Population exterminée 90% : estimation 70% a 95% (Mann, Diamond)'
 perspectives_dialectiques:
-  - scenario: "A - L'article est victime d'un biais architectural (these systeme refusee)"
-    these: >-
-      L'article "3 civilisations" souffre d'un EUROCENTRISME
-      ARCHITECTURAL. Le shadow factor 6.4x demontre que la
-      selection de 3 civilisations sur 16+ candidates n'est
-      pas scientifique. L'article doit elargir a 6+ grandes
-      civilisations (Sumer, Rome, Chine, Inde, Islam,
-      Amériques) pour avoir une validite planetaire. La these
-      SYSTEME (integration dettes/droit/morale) est REFUTEE
-      partiellement par les Ameriques qui integrent SANS dette.
-    cui_bono: "Post-coloniaux, anthropologues américanistes, indigenistes"
-    score: 0.80
-  - scenario: "B - La these est CONFIRMEE avec transformation (these capture validee modifiee)"
-    these: >-
-      L'absence de dette monetaire ne disqualifie pas la CAPTURE
-      politique. Le Sapa Inca + quipucamayocs exercent un
-      monopole d'information + foncier + religieux. La these
-      CAPTURE est CONFIRMEE mais TRANSFORMEE : la dette
-      n'est qu'un mecanisme parmi d'autres (monopole info,
-      monopole foncier, monopole religieux). Article valide
-      sur le FOND, invalide sur la FORME (eurocentrisme).
-    cui_bono: "Historiens economiques, anthropologues politiques"
-    score: 0.70
-  - scenario: "C - La these est a la fois refutee et confirmee (these falsificationniste)"
-    these: >-
-      Les Amériques sont a la fois un REFUTATEUR (integration
-      sans dette) et un CONFIRMATEUR (capture par monopole) de
-      la these. C'est un CAS DE FALSIFICATION PARTIELLE au
-      sens popperien : la these "integration necessite dette"
-      est falsifiee, mais la these "capture necessite
-      mecanisme specialise" est validee. Article doit etre
-      COMPLETE : dette n'est qu'un mecanisme parmi 4
-      (info, foncier, religieux, dette).
-    cui_bono: "Methodologues, philosophes des sciences"
-    score: 0.65
+- scenario: A - L'article est victime d'un biais architectural (these systeme refusee)
+  these: L'article "3 civilisations" souffre d'un EUROCENTRISME ARCHITECTURAL. Le
+    shadow factor 6.4x demontre que la selection de 3 civilisations sur 16+ candidates
+    n'est pas scientifique. L'article doit elargir a 6+ grandes civilisations (Sumer,
+    Rome, Chine, Inde, Islam, Amériques) pour avoir une validite planetaire. La these
+    SYSTEME (integration dettes/droit/morale) est REFUTEE partiellement par les Ameriques
+    qui integrent SANS dette.
+  cui_bono: Post-coloniaux, anthropologues américanistes, indigenistes
+  score: 0.8
+- scenario: B - La these est CONFIRMEE avec transformation (these capture validee
+    modifiee)
+  these: 'L''absence de dette monetaire ne disqualifie pas la CAPTURE politique. Le
+    Sapa Inca + quipucamayocs exercent un monopole d''information + foncier + religieux.
+    La these CAPTURE est CONFIRMEE mais TRANSFORMEE : la dette n''est qu''un mecanisme
+    parmi d''autres (monopole info, monopole foncier, monopole religieux). Article
+    valide sur le FOND, invalide sur la FORME (eurocentrisme).'
+  cui_bono: Historiens economiques, anthropologues politiques
+  score: 0.7
+- scenario: C - La these est a la fois refutee et confirmee (these falsificationniste)
+  these: 'Les Amériques sont a la fois un REFUTATEUR (integration sans dette) et un
+    CONFIRMATEUR (capture par monopole) de la these. C''est un CAS DE FALSIFICATION
+    PARTIELLE au sens popperien : la these "integration necessite dette" est falsifiee,
+    mais la these "capture necessite mecanisme specialise" est validee. Article doit
+    etre COMPLETE : dette n''est qu''un mecanisme parmi 4 (info, foncier, religieux,
+    dette).'
+  cui_bono: Methodologues, philosophes des sciences
+  score: 0.65
 tensions_non_resolues:
-  - "Tenochtitlan population : 100 000 ou 300 000 hab. ? debat non tranche"
-  - "Qhapaq Nan longueur : 30 000 ou 50 000 km ? estimations variees"
-  - "90% extermination : chiffre debattu (70% a 95% selon Mann, Diamond, Thornton)"
-  - "Pas de marche inca : debat Murra/Rostworowski (echange locaux vs zero marche)"
-  - "ZERO maya : independant ou influence par contact transpacifique ? (controverse)"
-  - "Continuite juridique americaine : existe-t-elle avant 1492 ? (peu de code ecrit conserve)"
-
+- 'Tenochtitlan population : 100 000 ou 300 000 hab. ? debat non tranche'
+- 'Qhapaq Nan longueur : 30 000 ou 50 000 km ? estimations variees'
+- '90% extermination : chiffre debattu (70% a 95% selon Mann, Diamond, Thornton)'
+- 'Pas de marche inca : debat Murra/Rostworowski (echange locaux vs zero marche)'
+- 'ZERO maya : independant ou influence par contact transpacifique ? (controverse)'
+- 'Continuite juridique americaine : existe-t-elle avant 1492 ? (peu de code ecrit
+  conserve)'
 metadata:
-  source_file: "investigations/2026-06-03_sumer_article/2026-06-04_11-00_ameriques_precolombiennes_CIVILISATION_MANQUANTE.md"
+  source_file: investigations/2026-06-03_sumer_article/2026-06-04_11-00_ameriques_precolombiennes_CIVILISATION_MANQUANTE.md
   source_lignes: 366
-  source_taille: "21.4K"
-  date_enrichissement: "2026-06-06"
-  methode: "LLM hote (opencode) - lecture cursive + 12 sections quintessence"
-  gate_g_mecanique: "23.81% (15 F### bruts sur 15/18 sections)"
-  gate_g_estime_apres_enrichissement: "~85% (cible MEDIUM 80%)"
+  source_taille: 21.4K
+  date_enrichissement: '2026-06-06'
+  methode: LLM hote (opencode) - lecture cursive + 12 sections quintessence
+  gate_g_mecanique: 23.81% (15 F### bruts sur 15/18 sections)
+  gate_g_estime_apres_enrichissement: ~85% (cible MEDIUM 80%)
   shadow_factor: 6.4
-  fiabilite_globale: "Moyenne (Wikipedia, 12 URLs, 18/22 ✦, 4 ✧ sur monopole info + absence specialistes amérindiens)"
-  position_dans_enquete: "REFUTATEUR EN CHEF de l'article '3 civilisations' avec shadow factor 6.4x (le plus eleve)"
-  particularite: "Shadow Factor 6.4x > IN 5.2x > C 3.2x > S 3.1x > R 2.8x = I 2.8x > MA 1.5x"
+  fiabilite_globale: Moyenne (Wikipedia, 12 URLs, 18/22 ✦, 4 ✧ sur monopole info +
+    absence specialistes amérindiens)
+  position_dans_enquete: REFUTATEUR EN CHEF de l'article '3 civilisations' avec shadow
+    factor 6.4x (le plus eleve)
+  particularite: Shadow Factor 6.4x > IN 5.2x > C 3.2x > S 3.1x > R 2.8x = I 2.8x
+    > MA 1.5x

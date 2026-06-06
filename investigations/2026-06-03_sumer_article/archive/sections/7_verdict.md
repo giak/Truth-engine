@@ -1,0 +1,19 @@
+## Verdict : ce qui est mort, ce qui survit, ce qui a été corrigé
+
+L'enquête partait d'une question : *« Nos ancêtres sumériens avaient-ils déjà résolu des problèmes que nous croyons modernes ? »* Treize investigations, six civilisations, une thèse initiale, et une réponse que les faits ont imposée.
+
+Non, les Sumériens n'avaient pas résolu le problème. Mais ils avaient intégré ce que nous avons fragmenté. Et c'est dans les interstices de cette fragmentation que la caste opère.
+
+Ce qui est mort : la dette comme mécanisme universel et nécessaire. L'empire Inca fonctionnait sans monnaie, sans dette privée, sans marchés, avec une intégration sociale au moins aussi forte que celle de Rome. Le dharma indien intègre par la caste, pas par l'endettement. L'Islam prohibe l'intérêt par le Coran. L'andurarum sumérien, présenté comme une réforme sociale progressiste, était une restauration conservatrice de l'ordre originel. La thèse dette était une généralisation abusive d'un outil local.
+
+Ce qui a survécu : l'intégration comme besoin universel. Partout où une société complexe émerge, elle produit des mécanismes pour lier la fiscalité (ou son équivalent), le droit, l'administration, la morale et la justice. Six civilisations, six mécanismes : andurarum, dharma, mit'a, riba, nexum, jiaozi. Et dans chaque cas, un corps de spécialistes (scribes, juristes, mandarins, oulémas, brahmanes, quipucamayocs) tend à capturer le mécanisme qu'il administre. La capture n'est pas une anomalie moderne. Elle est aussi ancienne que l'intégration elle-même. La France de 2026 l'a poussée à un degré inédit, [cinq tensions en cascade, 746 faits](https://giak.substack.com/p/le-changement-de-regime-pourquoi), mais elle n'a rien inventé.
+
+Ce qui a été corrigé : la transmission. Le récit scolaire (Sumer invente, Rome transmet, l'Europe hérite) est une reconstruction du XIXe siècle. La réalité est plus riche. Deux canaux distincts ont ramené le savoir antique. La philosophie et la science grecque sont passées par l'Islam : Bagdad, Cordoue, Tolède ont traduit Aristote et Galien avant de les transmettre à l'Europe latine. Le droit romain, lui, a suivi une voie distincte : Byzance ne l'a jamais cessé de l'appliquer, et les manuscrits italiens l'ont redécouvert à Bologne. Deux canaux, deux contenus. Et les Amériques prouvent que la convergence pure existe : Caral a développé bureaucratie et hiérarchie sociale sans aucun contact avec l'Ancien Monde.
+
+La leçon n'est pas de restaurer l'andurarum sumérien ou le dharma indien. Aucune civilisation antique n'a résolu le problème définitivement : les annulations sumériennes n'ont pas empêché les crises suivantes, le prêt de Tibère n'a pas aboli l'endettement romain, le jiaozi chinois a produit bulles et effondrements. Mais dans chaque cas, l'endettement était traité comme un problème collectif relevant de la décision politique, pas comme une fatalité technique confiée à une élite qui la gère comme une rente.
+
+La réponse que l'histoire fournit n'est pas un mode d'emploi. C'est un diagnostic. L'intégration est la condition de tout système qui ne veut pas être capturé. Les formes de cette intégration sont aussi diverses que les civilisations qui les ont inventées. La question n'est pas de copier le passé. Elle est de réapprendre à lier ce que la modernité a défait.
+
+---
+
+**Note méthodologique.** Cette enquête compare six civilisations sans accéder à aucune d'entre elles dans sa langue d'origine : les sources sont françaises ou anglaises, via les travaux d'historiens occidentaux (Hudson, Charpin, Elman, Broadberry). Aucune source en arabe, sanskrit, chinois, quechua ou sumérien n'a été consultée. Par ailleurs, le comparatisme a ses angles morts : les sociétés nomades (Mongols, Vikings), l'Afrique subsaharienne (Ghana, Mali, Songhaï) et l'Océanie (sociétés polynésiennes) sont absentes de cette enquête. Elles ne l'infirment pas, mais elles en bornent la portée.

@@ -1,10 +1,3 @@
-# Quintessence Chine/France — generee par LLM hote (opencode) le 2026-06-06
-# Spec : tools/engines/sublimator/2026-06-06_spec_v33.2.md §W QUINTESSENCE
-# Methodologie : Python pur (parse_atomic + extract_utile) + LLM hote (lecture cursive 12 sections)
-# Source : investigations/2026-06-03_sumer_article/2026-06-03_14-00_chine_vs_france_INVESTIGATION.md (659 lignes, 55.3K)
-# GATE_G : 0% MECHANIQUE (0 F### balises), enrichi ci-dessous a 22 F### + 12 sections
-# Complexite : APEX (16/24), Shadow Factor 3.2x
-
 civ_prefix: C
 complexity: APEX
 n_f_atomiques: 22
@@ -13,579 +6,777 @@ n_causalites: 5
 n_chronologie: 18
 n_domaines: 7
 n_urls: 12
-
-these_centrale: >-
-  La Chine a precede la France de 700 a 2300 ans sur 5 des 7 themes de la
-  comparaison : monnaie fiduciaire (Jiaozi 1024, 780 ans avant la Banque de
-  France), concours administratif (keju 605, 1350 ans avant l'ENA), code
-  ecrit (Tang Code 624, 1180 ans avant le Code civil), monopole d'Etat
-  strategique (sel/fer 117 av., ~2000 ans), stabilisation agricole
-  (ever-normal granaries 400 av., 2350 ans avant la PAC). MAIS la France a
-  ajoute ce que la Chine n'a jamais eu : les contrepouvoirs democratiques
-  (Declaration des droits 1789, Etat de droit, justice independante). Le
-  paradoxe actuel : la France perd ce qu'elle avait ajoute au moment meme
-  ou la Chine continue a developper ses mecanismes d'origine. La convergence
-  se fait par le bas, et le Grand Bond en Avant (20-30M morts) rappelle
-  que la puissance bureaucratique sans contrepouvoir detruit ses propres
-  citoyens.
-
+these_centrale: 'La Chine a precede la France de 700 a 2300 ans sur 5 des 7 themes
+  de la comparaison : monnaie fiduciaire (Jiaozi 1024, 780 ans avant la Banque de
+  France), concours administratif (keju 605, 1350 ans avant l''ENA), code ecrit (Tang
+  Code 624, 1180 ans avant le Code civil), monopole d''Etat strategique (sel/fer 117
+  av., ~2000 ans), stabilisation agricole (ever-normal granaries 400 av., 2350 ans
+  avant la PAC). MAIS la France a ajoute ce que la Chine n''a jamais eu : les contrepouvoirs
+  democratiques (Declaration des droits 1789, Etat de droit, justice independante).
+  Le paradoxe actuel : la France perd ce qu''elle avait ajoute au moment meme ou la
+  Chine continue a developper ses mecanismes d''origine. La convergence se fait par
+  le bas, et le Grand Bond en Avant (20-30M morts) rappelle que la puissance bureaucratique
+  sans contrepouvoir detruit ses propres citoyens.'
 theses_implicites:
-  - >-
-    Le parallelisme Chancel/Banque de France est STRUCTUREL, pas causal.
-    Marco Polo rapporte le papier-monnaie chinois en Europe (XIIIe s.),
-    Law l'a peut-etre lu (1716-1720, systeme de Law), les assignats (1790)
-    sont une experience francaise independante. La France n'a PAS copie la
-    Chine, elle a reinvente la meme solution a 766 ans d'ecart. Le parallelisme
-    releve de la convergence de problemes universels, pas d'une filiation.
-  - >-
-    Le parallelisme keju (605)/INSP (1945) est plus causal que les autres,
-    grace a un intermediaire documente : les jesuites (Ricci, XVIIe s.) ont
-    traduit les classiques confuciens en latin, Voltaire (Essai sur les moeurs
-    1756) cite le keju comme modele de gouvernement rationnel, Quesnay est
-    surnomme "le Confucius europeen" (physiocratie). La filiation intellectuelle
-    INSP <- grands corps <- polytechnique (1794) <- concours <- Montesquieu
-    <- Voltaire <- Quesnay <- jesuites <- Chine est largement meconnue des
-    hauts fonctionnaires francais.
-  - >-
-    L'advantage chinois sur la France se mesure a un ratio x570 de
-    fonctionnaires/habitants : Chine Ming/Qing ~20000 fonctionnaires pour
-    150-300M d'habitants (1/10-15K) vs France 5,7M pour 68M (1/12). MAIS
-    ce ratio cache une "administration fantome" chinoise : elites locales,
-    clans, guildes qui gerent l'administration reelle hors des structures
-    officielles. Les sources occidentales ne documentent pas cette
-    administration informelle qui est le plus grand angle mort de l'enquete.
-
+- Le parallelisme Chancel/Banque de France est STRUCTUREL, pas causal. Marco Polo
+  rapporte le papier-monnaie chinois en Europe (XIIIe s.), Law l'a peut-etre lu (1716-1720,
+  systeme de Law), les assignats (1790) sont une experience francaise independante.
+  La France n'a PAS copie la Chine, elle a reinvente la meme solution a 766 ans d'ecart.
+  Le parallelisme releve de la convergence de problemes universels, pas d'une filiation.
+- 'Le parallelisme keju (605)/INSP (1945) est plus causal que les autres, grace a
+  un intermediaire documente : les jesuites (Ricci, XVIIe s.) ont traduit les classiques
+  confuciens en latin, Voltaire (Essai sur les moeurs 1756) cite le keju comme modele
+  de gouvernement rationnel, Quesnay est surnomme "le Confucius europeen" (physiocratie).
+  La filiation intellectuelle INSP <- grands corps <- polytechnique (1794) <- concours
+  <- Montesquieu <- Voltaire <- Quesnay <- jesuites <- Chine est largement meconnue
+  des hauts fonctionnaires francais.'
+- 'L''advantage chinois sur la France se mesure a un ratio x570 de fonctionnaires/habitants
+  : Chine Ming/Qing ~20000 fonctionnaires pour 150-300M d''habitants (1/10-15K) vs
+  France 5,7M pour 68M (1/12). MAIS ce ratio cache une "administration fantome" chinoise
+  : elites locales, clans, guildes qui gerent l''administration reelle hors des structures
+  officielles. Les sources occidentales ne documentent pas cette administration informelle
+  qui est le plus grand angle mort de l''enquete.'
 f_atomiques:
-  - id: F-C001
-    fait: "Keju (examen imperial) etabli sous les Sui, 605 ap., 3 niveaux (xiucai/juren/jinshi)"
-    date: "~605 ap."
-    acteur: "Dynastie Sui (Yang Guang), systematise sous les Tang"
-    source: "Wikipedia Imperial examination, Elman (2000)"
-    url: "https://en.wikipedia.org/wiki/Imperial_examination"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.3 / §11"
-  - id: F-C002
-    fait: "Jiaozi (premier papier-monnaie d'Etat) emis par la dynastie Song, 1024"
-    date: "1024 ap."
-    acteur: "Etat Song (Chengdu, Sichuan)"
-    source: "Wikipedia Jiaozi, Economic history of China"
-    url: "https://en.wikipedia.org/wiki/Jiaozi_(currency)"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.1 / §11"
-  - id: F-C003
-    fait: "Production de fer Song : 125000 t/an au XIe s. (plus que l'Angleterre XVIIIe)"
-    date: "XIe s."
-    acteur: "Empire Song"
-    source: "Maddison / Wikipedia Economic history China"
-    url: "https://en.wikipedia.org/wiki/Economic_history_of_China_before_1912"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§8.2 / §11"
-  - id: F-C004
-    fait: "Grand Bond en Avant (1959-1961) : 20 a 30 millions de morts, 3.4 a 5.1% de la population"
-    date: "1959-1961"
-    acteur: "Mao Zedong, communes populaires"
-    source: "Wikipedia Great Chinese Famine, Britannica (2026)"
-    url: "https://en.wikipedia.org/wiki/Great_Chinese_Famine"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.6 / §11"
-  - id: F-C005
-    fait: "Tang Code (Tanglü shuyi) : code penal-administratif, 624 ap., 500 articles, base droit E-Asie"
-    date: "624 ap."
-    acteur: "Dynastie Tang"
-    source: "World History Encyclopedia, Wikipedia Tang Code"
-    url: "https://en.wikipedia.org/wiki/Tang_Code"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.5 / §11"
-  - id: F-C006
-    fait: "Monopole d'Etat sur le sel et le fer instaure par Han Wudi en 117 av."
-    date: "117 av."
-    acteur: "Empereur Han Wudi (r. 141-87 av.)"
-    source: "Wikipedia Economy of Han dynasty"
-    url: "https://en.wikipedia.org/wiki/Economy_of_the_Han_dynasty"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.2 / §11"
-  - id: F-C007
-    fait: "Voltaire et Quesnay influences par le modele chinois (keju)"
-    date: "1756-1774"
-    acteur: "Voltaire, Quesnay (Confucius europeen)"
-    source: "Voltaire Essai sur les moeurs, Wikipedia Imperial examination, Maverick (1938)"
-    url: "https://en.wikipedia.org/wiki/Voltaire"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.3 / §11"
-  - id: F-C008
-    fait: "Greniers ever-normal (changpingcang) : systeme de stabilisation des prix, propose par Li Kui vers 400 av."
-    date: "~400 av."
-    acteur: "Li Kui, systematise par Hu Chang (54 av.)"
-    source: "Wikipedia Ever-normal granary"
-    url: "https://en.wikipedia.org/wiki/Ever-normal_granary"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.7 / §11"
-  - id: F-C009
-    fait: "Pieds bandes (chanzu) : 50% des femmes chinoises au XIXe s. (urbain >80%), aboli en 1912"
-    date: "Xe s. - 1911"
-    acteur: "Societe confuceenne, abolis par la Republique"
-    source: "Wikipedia Foot binding, BBC (2015)"
-    url: "https://en.wikipedia.org/wiki/Foot_binding"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.4 / §11"
-  - id: F-C010
-    fait: "Guerres de l'Opium (1840-1842, 1856-1860) : France agresseur dans la 2e, sac du Palais d'Ete 1860"
-    date: "1840-1860"
-    acteur: "Grande-Bretagne, France (Napoléon III), Qing"
-    source: "Wikipedia Opium Wars, Britannica"
-    url: "https://en.wikipedia.org/wiki/Opium_Wars"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.6 / §11"
-  - id: F-C011
-    fait: "Revolution culturelle (1966-1976) : 1.5 a 3 millions de morts, destructions patrimoine"
-    date: "1966-1976"
-    acteur: "Mao Zedong, Gardes Rouges"
-    source: "Wikipedia Cultural Revolution"
-    url: "https://en.wikipedia.org/wiki/Cultural_Revolution"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.6 / §11"
-  - id: F-C012
-    fait: "Dette locale chinoise 2024 : ~290% PIB, $18,9 billions caches via les LGFV"
-    date: "2024"
-    acteur: "Gouvernements locaux chinois, LGFV"
-    source: "IW Köln (2025), ThinkChina SG (2025), The Diplomat (2025)"
-    url: "https://www.iwkoeln.de/en/articles/great-uncertainty-in-china.html"
-    tier: 2
-    fiabilite: ✦
-    source_section: "§1 / §8.1"
-  - id: F-C013
-    fait: "Assignats francais (1790-1796) : hyperinflation 0.5% du pair en 1796, parallelisme Jiaozi"
-    date: "1790-1796"
-    acteur: "Revolution francaise, Convention"
-    source: "Wikipedia Assignat"
-    url: "https://en.wikipedia.org/wiki/Assignat"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.1 / §11"
-  - id: F-C014
-    fait: "Politique de l'enfant unique (1980-2015) : fecondite passee de 5.8 a 1.5, 30M hommes surnumeraires"
-    date: "1980-2015"
-    acteur: "Deng Xiaoping, regime communiste"
-    source: "Wikipedia One-child policy, UN Population Division"
-    url: "https://en.wikipedia.org/wiki/One-child_policy"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.4 / §11"
-  - id: F-C015
-    fait: "Coefficient de Gini : Chine 0.37-0.50 (officieux 0.47-0.50) vs France 0.29-0.32"
-    date: "2024"
-    acteur: "World Bank, estimations independentes"
-    source: "Wikipedia Gini coefficient, World Bank"
-    url: "https://en.wikipedia.org/wiki/Gini_coefficient"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§8.7 / §11"
-  - id: F-C016
-    fait: "Unification Qin 221 av. : standardisation ecriture/poids/mesures/lois, premier Etat centralise"
-    date: "221 av."
-    acteur: "Qin Shi Huang (r. 221-210 av.)"
-    source: "Wikipedia Qin dynasty"
-    url: "https://en.wikipedia.org/wiki/Qin%E2%80%93Han_unification"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§7 / §11"
-  - id: F-C017
-    fait: "Social Credit System (2014-) : notation comportementale, 2025 cible defaut de pret/fraude/infractions"
-    date: "2014-present"
-    acteur: "Etat chinois, Commission du SCS"
-    source: "Werbach (2022) Illinois Law Review, NBER (2021)"
-    url: "https://www.nber.org/papers/w29451"
-    tier: 2
-    fiabilite: ✦
-    source_section: "§8.7 / §11"
-  - id: F-C018
-    fait: "Jesuites (Matteo Ricci 1601) : traduction classiques confuciens en latin, mediation Volatire/Quesnay"
-    date: "1601-XVIIIe"
-    acteur: "Compagnie de Jesus, Matteo Ricci"
-    source: "Wikipedia Jesuit China missions, Voltaire"
-    url: "https://en.wikipedia.org/wiki/Matteo_Ricci"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.3 / §11"
-  - id: F-C019
-    fait: "Huizi Song (1159-1160) : inflation de guerre, valeur tombee a 5% en 1215"
-    date: "1159-1215"
-    acteur: "Song du Sud, Song Huizong"
-    source: "Wikipedia Huizi, History of Chinese currency"
-    url: "https://en.wikipedia.org/wiki/Huizi_(currency)"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8.1 / §11"
-  - id: F-C020
-    fait: "20 000 fonctionnaires civils imperiaux Ming/Qing pour 150-300M d'habitants (ratio 1/10-15K)"
-    date: "Ming-Qing"
-    acteur: "Dynasties Ming et Qing"
-    source: "Estimations savantes (citées §8.3)"
-    url: "https://en.wikipedia.org/wiki/Imperial_Chinese_bureaucracy"
-    tier: 2
-    fiabilite: ✧
-    source_section: "§8.3 / §11"
-  - id: F-C021
-    fait: "Reformes de Shang Yang (356-338 av.) : legalisme, bureaucratie meritocratique avant le keju"
-    date: "356-338 av."
-    acteur: "Shang Yang, etat de Qin"
-    source: "Wikipedia Shang Yang, Legalism"
-    url: "https://en.wikipedia.org/wiki/Shang_Yang"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§7 / §11"
-  - id: F-C022
-    fait: "Reforme Deng Xiaoping (1978) : ouverture economique, transition vers economie de marche"
-    date: "1978"
-    acteur: "Deng Xiaoping"
-    source: "Wikipedia Chinese economic reform"
-    url: "https://en.wikipedia.org/wiki/Chinese_economic_reform"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§7 / §11"
-
+- id: F-C001
+  fait: Keju (examen imperial) etabli sous les Sui, 605 ap., 3 niveaux (xiucai/juren/jinshi)
+  date: ~605 ap.
+  acteur: Dynastie Sui (Yang Guang), systematise sous les Tang
+  source: Wikipedia Imperial examination, Elman (2000)
+  url: https://en.wikipedia.org/wiki/Imperial_examination
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.3 / §11
+  glyphe: ✦
+- id: F-C002
+  fait: Jiaozi (premier papier-monnaie d'Etat) emis par la dynastie Song, 1024
+  date: 1024 ap.
+  acteur: Etat Song (Chengdu, Sichuan)
+  source: Wikipedia Jiaozi, Economic history of China
+  url: https://en.wikipedia.org/wiki/Jiaozi_(currency)
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.1 / §11
+  glyphe: ✦
+- id: F-C003
+  fait: 'Production de fer Song : 125000 t/an au XIe s. (plus que l''Angleterre XVIIIe)'
+  date: XIe s.
+  acteur: Empire Song
+  source: Maddison / Wikipedia Economic history China
+  url: https://en.wikipedia.org/wiki/Economic_history_of_China_before_1912
+  tier: 2
+  fiabilite: ✧
+  source_section: §8.2 / §11
+  glyphe: ✧
+- id: F-C004
+  fait: 'Grand Bond en Avant (1959-1961) : 20 a 30 millions de morts, 3.4 a 5.1% de
+    la population'
+  date: 1959-1961
+  acteur: Mao Zedong, communes populaires
+  source: Wikipedia Great Chinese Famine, Britannica (2026)
+  url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.6 / §11
+  glyphe: ✦
+- id: F-C005
+  fait: 'Tang Code (Tanglü shuyi) : code penal-administratif, 624 ap., 500 articles,
+    base droit E-Asie'
+  date: 624 ap.
+  acteur: Dynastie Tang
+  source: World History Encyclopedia, Wikipedia Tang Code
+  url: https://en.wikipedia.org/wiki/Tang_Code
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.5 / §11
+  glyphe: ✦
+- id: F-C006
+  fait: Monopole d'Etat sur le sel et le fer instaure par Han Wudi en 117 av.
+  date: 117 av.
+  acteur: Empereur Han Wudi (r. 141-87 av.)
+  source: Wikipedia Economy of Han dynasty
+  url: https://en.wikipedia.org/wiki/Economy_of_the_Han_dynasty
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.2 / §11
+  glyphe: ✦
+- id: F-C007
+  fait: Voltaire et Quesnay influences par le modele chinois (keju)
+  date: 1756-1774
+  acteur: Voltaire, Quesnay (Confucius europeen)
+  source: Voltaire Essai sur les moeurs, Wikipedia Imperial examination, Maverick
+    (1938)
+  url: https://en.wikipedia.org/wiki/Voltaire
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.3 / §11
+  glyphe: ✦
+- id: F-C008
+  fait: 'Greniers ever-normal (changpingcang) : systeme de stabilisation des prix,
+    propose par Li Kui vers 400 av.'
+  date: ~400 av.
+  acteur: Li Kui, systematise par Hu Chang (54 av.)
+  source: Wikipedia Ever-normal granary
+  url: https://en.wikipedia.org/wiki/Ever-normal_granary
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.7 / §11
+  glyphe: ✦
+- id: F-C009
+  fait: 'Pieds bandes (chanzu) : 50% des femmes chinoises au XIXe s. (urbain >80%),
+    aboli en 1912'
+  date: Xe s. - 1911
+  acteur: Societe confuceenne, abolis par la Republique
+  source: Wikipedia Foot binding, BBC (2015)
+  url: https://en.wikipedia.org/wiki/Foot_binding
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.4 / §11
+  glyphe: ✦
+- id: F-C010
+  fait: 'Guerres de l''Opium (1840-1842, 1856-1860) : France agresseur dans la 2e,
+    sac du Palais d''Ete 1860'
+  date: 1840-1860
+  acteur: Grande-Bretagne, France (Napoléon III), Qing
+  source: Wikipedia Opium Wars, Britannica
+  url: https://en.wikipedia.org/wiki/Opium_Wars
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.6 / §11
+  glyphe: ✦
+- id: F-C011
+  fait: 'Revolution culturelle (1966-1976) : 1.5 a 3 millions de morts, destructions
+    patrimoine'
+  date: 1966-1976
+  acteur: Mao Zedong, Gardes Rouges
+  source: Wikipedia Cultural Revolution
+  url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.6 / §11
+  glyphe: ✦
+- id: F-C012
+  fait: 'Dette locale chinoise 2024 : ~290% PIB, $18,9 billions caches via les LGFV'
+  date: '2024'
+  acteur: Gouvernements locaux chinois, LGFV
+  source: IW Köln (2025), ThinkChina SG (2025), The Diplomat (2025)
+  url: https://www.iwkoeln.de/en/articles/great-uncertainty-in-china.html
+  tier: 2
+  fiabilite: ✦
+  source_section: §1 / §8.1
+  glyphe: ⁅
+- id: F-C013
+  fait: 'Assignats francais (1790-1796) : hyperinflation 0.5% du pair en 1796, parallelisme
+    Jiaozi'
+  date: 1790-1796
+  acteur: Revolution francaise, Convention
+  source: Wikipedia Assignat
+  url: https://en.wikipedia.org/wiki/Assignat
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.1 / §11
+  glyphe: ✦
+- id: F-C014
+  fait: 'Politique de l''enfant unique (1980-2015) : fecondite passee de 5.8 a 1.5,
+    30M hommes surnumeraires'
+  date: 1980-2015
+  acteur: Deng Xiaoping, regime communiste
+  source: Wikipedia One-child policy, UN Population Division
+  url: https://en.wikipedia.org/wiki/One-child_policy
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.4 / §11
+  glyphe: ✦
+- id: F-C015
+  fait: 'Coefficient de Gini : Chine 0.37-0.50 (officieux 0.47-0.50) vs France 0.29-0.32'
+  date: '2024'
+  acteur: World Bank, estimations independentes
+  source: Wikipedia Gini coefficient, World Bank
+  url: https://en.wikipedia.org/wiki/Gini_coefficient
+  tier: 2
+  fiabilite: ✧
+  source_section: §8.7 / §11
+  glyphe: ✧
+- id: F-C016
+  fait: 'Unification Qin 221 av. : standardisation ecriture/poids/mesures/lois, premier
+    Etat centralise'
+  date: 221 av.
+  acteur: Qin Shi Huang (r. 221-210 av.)
+  source: Wikipedia Qin dynasty
+  url: https://en.wikipedia.org/wiki/Qin%E2%80%93Han_unification
+  tier: 1
+  fiabilite: ✦
+  source_section: §7 / §11
+  glyphe: ⁅
+- id: F-C017
+  fait: 'Social Credit System (2014-) : notation comportementale, 2025 cible defaut
+    de pret/fraude/infractions'
+  date: 2014-present
+  acteur: Etat chinois, Commission du SCS
+  source: Werbach (2022) Illinois Law Review, NBER (2021)
+  url: https://www.nber.org/papers/w29451
+  tier: 2
+  fiabilite: ✦
+  source_section: §8.7 / §11
+  glyphe: ✧
+- id: F-C018
+  fait: 'Jesuites (Matteo Ricci 1601) : traduction classiques confuciens en latin,
+    mediation Volatire/Quesnay'
+  date: 1601-XVIIIe
+  acteur: Compagnie de Jesus, Matteo Ricci
+  source: Wikipedia Jesuit China missions, Voltaire
+  url: https://en.wikipedia.org/wiki/Matteo_Ricci
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.3 / §11
+  glyphe: ✦
+- id: F-C019
+  fait: 'Huizi Song (1159-1160) : inflation de guerre, valeur tombee a 5% en 1215'
+  date: 1159-1215
+  acteur: Song du Sud, Song Huizong
+  source: Wikipedia Huizi, History of Chinese currency
+  url: https://en.wikipedia.org/wiki/Huizi_(currency)
+  tier: 1
+  fiabilite: ✦
+  source_section: §8.1 / §11
+  glyphe: ✦
+- id: F-C020
+  fait: 20 000 fonctionnaires civils imperiaux Ming/Qing pour 150-300M d'habitants
+    (ratio 1/10-15K)
+  date: Ming-Qing
+  acteur: Dynasties Ming et Qing
+  source: Estimations savantes (citées §8.3)
+  url: https://en.wikipedia.org/wiki/Imperial_Chinese_bureaucracy
+  tier: 2
+  fiabilite: ✧
+  source_section: §8.3 / §11
+  glyphe: ✧
+- id: F-C021
+  fait: 'Reformes de Shang Yang (356-338 av.) : legalisme, bureaucratie meritocratique
+    avant le keju'
+  date: 356-338 av.
+  acteur: Shang Yang, etat de Qin
+  source: Wikipedia Shang Yang, Legalism
+  url: https://en.wikipedia.org/wiki/Shang_Yang
+  tier: 1
+  fiabilite: ✦
+  source_section: §7 / §11
+  glyphe: ✦
+- id: F-C022
+  fait: 'Reforme Deng Xiaoping (1978) : ouverture economique, transition vers economie
+    de marche'
+  date: '1978'
+  acteur: Deng Xiaoping
+  source: Wikipedia Chinese economic reform
+  url: https://en.wikipedia.org/wiki/Chinese_economic_reform
+  tier: 1
+  fiabilite: ✦
+  source_section: §7 / §11
+  glyphe: ✦
 acteurs:
   chine_imperiale_gouvernement:
-    - {nom: "Qin Shi Huang", role: "Unificateur Chine 221 av., standardisation", centralite: 0.95, categorie: "GOVERNMENT", source_section: "§9"}
-    - {nom: "Shang Yang", role: "Reformateur legaliste, bureaucratie meritocratique", centralite: 0.85, categorie: "EXPERTS", source_section: "§9"}
-    - {nom: "Han Wudi", role: "Empereur expansionniste, monopole sel/fer", centralite: 0.90, categorie: "GOVERNMENT", source_section: "§9"}
-    - {nom: "Song Huizong", role: "Empereur, promoteur papier-monnaie", centralite: 0.75, categorie: "GOVERNMENT", source_section: "§9"}
-    - {nom: "Kangxi", role: "Empereur eclaire Qing, code Qing", centralite: 0.80, categorie: "GOVERNMENT", source_section: "§9"}
-    - {nom: "Li Kui", role: "Proposeur greniers ever-normal vers 400 av.", centralite: 0.70, categorie: "EXPERTS", source_section: "§8.7"}
+  - nom: Qin Shi Huang
+    role: Unificateur Chine 221 av., standardisation
+    centralite: 0.95
+    categorie: GOVERNMENT
+    source_section: §9
+  - nom: Shang Yang
+    role: Reformateur legaliste, bureaucratie meritocratique
+    centralite: 0.85
+    categorie: EXPERTS
+    source_section: §9
+  - nom: Han Wudi
+    role: Empereur expansionniste, monopole sel/fer
+    centralite: 0.9
+    categorie: GOVERNMENT
+    source_section: §9
+  - nom: Song Huizong
+    role: Empereur, promoteur papier-monnaie
+    centralite: 0.75
+    categorie: GOVERNMENT
+    source_section: §9
+  - nom: Kangxi
+    role: Empereur eclaire Qing, code Qing
+    centralite: 0.8
+    categorie: GOVERNMENT
+    source_section: §9
+  - nom: Li Kui
+    role: Proposeur greniers ever-normal vers 400 av.
+    centralite: 0.7
+    categorie: EXPERTS
+    source_section: §8.7
   chine_moderne_gouvernement:
-    - {nom: "Mao Zedong", role: "Fondateur RPC, GLF, Revolution culturelle", centralite: 0.95, categorie: "GOVERNMENT", source_section: "§9"}
-    - {nom: "Deng Xiaoping", role: "Reformateur post-Mao, ouverture 1978", centralite: 0.90, categorie: "GOVERNMENT", source_section: "§9"}
-    - {nom: "Xi Jinping", role: "President, centralisation, SCS, zero-COVID", centralite: 0.90, categorie: "GOVERNMENT", source_section: "§9"}
+  - nom: Mao Zedong
+    role: Fondateur RPC, GLF, Revolution culturelle
+    centralite: 0.95
+    categorie: GOVERNMENT
+    source_section: §9
+  - nom: Deng Xiaoping
+    role: Reformateur post-Mao, ouverture 1978
+    centralite: 0.9
+    categorie: GOVERNMENT
+    source_section: §9
+  - nom: Xi Jinping
+    role: President, centralisation, SCS, zero-COVID
+    centralite: 0.9
+    categorie: GOVERNMENT
+    source_section: §9
   france_connectee:
-    - {nom: "Voltaire", role: "Sinophile, admirait Confucius, importa le keju", centralite: 0.75, categorie: "EXPERTS", source_section: "§9"}
-    - {nom: "Quesnay", role: "Confucius europeen, physocratie", centralite: 0.70, categorie: "EXPERTS", source_section: "§9"}
-    - {nom: "Napoleon III", role: "2e guerre de l'Opium, sac du Palais d'Ete 1860", centralite: 0.65, categorie: "GOVERNMENT", source_section: "§9"}
-    - {nom: "Matteo Ricci", role: "Jesuite, traduction classiques confuciens", centralite: 0.70, categorie: "EXPERTS", source_section: "§9"}
+  - nom: Voltaire
+    role: Sinophile, admirait Confucius, importa le keju
+    centralite: 0.75
+    categorie: EXPERTS
+    source_section: §9
+  - nom: Quesnay
+    role: Confucius europeen, physocratie
+    centralite: 0.7
+    categorie: EXPERTS
+    source_section: §9
+  - nom: Napoleon III
+    role: 2e guerre de l'Opium, sac du Palais d'Ete 1860
+    centralite: 0.65
+    categorie: GOVERNMENT
+    source_section: §9
+  - nom: Matteo Ricci
+    role: Jesuite, traduction classiques confuciens
+    centralite: 0.7
+    categorie: EXPERTS
+    source_section: §9
   chine_societe_civile:
-    - {nom: "20 000 fonctionnaires imperiaux", role: "Bureaucratie Ming/Qing pour 150-300M d'habitants", centralite: 0.85, categorie: "CIVIL_SOCIETY", source_section: "§8.3"}
-    - {nom: "1,4 milliard de Chinois", role: "Population, soumis au SCS depuis 2014", centralite: 0.95, categorie: "CIVIL_SOCIETY", source_section: "§1 / §8.7"}
+  - nom: 20 000 fonctionnaires imperiaux
+    role: Bureaucratie Ming/Qing pour 150-300M d'habitants
+    centralite: 0.85
+    categorie: CIVIL_SOCIETY
+    source_section: §8.3
+  - nom: 1,4 milliard de Chinois
+    role: Population, soumis au SCS depuis 2014
+    centralite: 0.95
+    categorie: CIVIL_SOCIETY
+    source_section: §1 / §8.7
   autres:
-    - {nom: "Lin Zexu", role: "Commissaire anti-opium, symbole resistance", centralite: 0.60, categorie: "INSURGENT", source_section: "§9"}
-    - {nom: "François Mitterrand", role: "President, reconnaissance RPC 1964", centralite: 0.55, categorie: "GOVERNMENT", source_section: "§9"}
+  - nom: Lin Zexu
+    role: Commissaire anti-opium, symbole resistance
+    centralite: 0.6
+    categorie: INSURGENT
+    source_section: §9
+  - nom: François Mitterrand
+    role: President, reconnaissance RPC 1964
+    centralite: 0.55
+    categorie: GOVERNMENT
+    source_section: §9
   total_individus: 18
   cible_apex: 12
-  verdict: "APEX atteint (18 superieur ou egal 12)"
-
+  verdict: APEX atteint (18 superieur ou egal 12)
 causalites:
-  - id: C-C001
-    nom: "Keju vers INSP via jesuites et physiocrates"
-    description: >-
-      Keju (605, Chine) -> traduit par les jesuites (Ricci, XVIIe s.) ->
-      Voltaire (Essai sur les moeurs 1756) et Quesnay ("Confucius europeen")
-      admirent le modele -> Montesquieu (De l'esprit des lois 1748,
-      separation des pouvoirs) -> Revolution francaise (concours interrompu)
-      -> Napoleon (Polytechnique 1794, Normale 1795) -> IIIe Republique (loi
-      1853 sur concours fonction publique) -> Sciences Po 1872 -> ENA 1945 ->
-      INSP 2022. Filiation INTELLECTUELLE documentee, pas une copie
-      mecanique. La France a filtre le modele chinois a travers 3 siecles
-      de transformations, ajoutant les contrepouvoirs democratiques.
-    preuve_tranchante: "Lettres de Voltaire, traductions jesuites, travaux Quesnay"
-    fiabilite: ✦
-  - id: C-C002
-    nom: "Jiaozi vers Banque de France (monnaie d'Etat)"
-    description: >-
-      Jiaozi (1024, Song Chine) -> Marco Polo rapporte le papier-monnaie
-      chinois en Europe (XIIIe) -> experiences europeennes -> Law
-      (1716-1720, Systeme de Law = papier-monnaie francais) ->
-      Hyperinflation des assignats (1790-1796, abandon du papier) ->
-      Banque de France (1803, monnaie metallique jusqu'en 1914) -> Franc
-      Poincare (1928, etalon-or) -> Euro (1999, monnaie fiduciaire).
-      Verdict : influence POSSIBLE Marco Polo -> Law, mais non documentee
-      directement. Le parallele est STRUCTUREL, pas causal. La France a
-      reinvente la meme solution a 780 ans d'ecart apres un echec
-      (assignats) et un delai d'un siecle.
-    preuve_tranchante: "Pas de preuve directe, parallele structurel date"
-    fiabilite: ✧
-  - id: C-C003
-    nom: "Ever-normal granaries vers PAC (stabilisation des prix)"
-    description: >-
-      Li Kui (~400 av.) propose le principe d'achat/revente etatique du
-      grain -> Hu Chang (54 av.) systematisation Han -> maintenu par 15
-      dynasties sur 2000 ans -> (AUCUNE transmission connue vers l'Europe)
-      -> PAC (1962, France/Europe) -> stockage public, subventions,
-      stabilisation. Invention INDEPENDANTE : la Chine a teste un
-      mecanisme que la France a reinvente 2350 ans plus tard, sans
-      transmission documentee. Mais les principes sont identiques (l'Etat
-      lisse les fluctuations de prix via stockage).
-    preuve_tranchante: "Aucune transmission documentee, invention parallele"
-    fiabilite: ✦
-  - id: C-C004
-    nom: "Confucianisme (124 av.) vers catholicisme d'Etat (496-1905) comme ideologie de legitimation"
-    description: >-
-      Han Wudi etablit l'Academie imperiale (124 av.), confucianisme =
-      dogme d'Etat -> maintenu 2000 ans -> Confucianisme n'est PAS une
-      religion (pas de clerge, pas de dieu) -> ethique sociale, pas
-      theologie -> separation IMPOSSIBLE (l'Etat est reste confuceen
-      jusqu'en 1911). France : catholicisme religion d'Etat (bapteme de
-      Clovis 496) -> separation 1905 (1409 ans de monopole ideologique).
-      FONCTION ANALOGUE de legitimation du pouvoir. DIFFERENCE
-      categorique : le confucianisme n'a pas de transcendance, le
-      christianisme oui. La France a pu se laiciser, la Chine non.
-    preuve_tranchante: "Wikipedia Confucianism, Han dynasty"
-    fiabilite: ✦
-  - id: C-C005
-    nom: "GLF (1959-1961) et Revolution culturelle (1966-1976) : violence d'Etat sans contrepouvoir"
-    description: >-
-      GLF : politique agricole catastrophique + communes populaires +
-      fission des rizieres + destruction des outils prives + propagande
-      irrealiste + REQUISITIONS FORCEES cachant la famine aux autorites
-      centrales. Resultat : 20-30M morts, ratio 3.4-5.1% population.
-      Revolution culturelle : Gardes Rouges (jeunes) attaques
-      intellectuels, destructions temples/artefacts, humiliations
-      publiques, 1.5-3M morts. France n'a AUCUN equivalent a cette
-      echelle. Cause structurelle : bureaucratie qui PUNIT les mauvaises
-      nouvelles produit des catastrophes inaudibles. Lecon : la
-      concentration du pouvoir ETATIQUE sans contrepouvoir democratique
-      detruit le peuple qu'elle pretend servir.
-    preuve_tranchante: "Wikipedia Great Chinese Famine, Cultural Revolution"
-    fiabilite: ✦
-
+- id: C-C001
+  nom: Keju vers INSP via jesuites et physiocrates
+  description: Keju (605, Chine) -> traduit par les jesuites (Ricci, XVIIe s.) ->
+    Voltaire (Essai sur les moeurs 1756) et Quesnay ("Confucius europeen") admirent
+    le modele -> Montesquieu (De l'esprit des lois 1748, separation des pouvoirs)
+    -> Revolution francaise (concours interrompu) -> Napoleon (Polytechnique 1794,
+    Normale 1795) -> IIIe Republique (loi 1853 sur concours fonction publique) ->
+    Sciences Po 1872 -> ENA 1945 -> INSP 2022. Filiation INTELLECTUELLE documentee,
+    pas une copie mecanique. La France a filtre le modele chinois a travers 3 siecles
+    de transformations, ajoutant les contrepouvoirs democratiques.
+  preuve_tranchante: Lettres de Voltaire, traductions jesuites, travaux Quesnay
+  fiabilite: ✦
+- id: C-C002
+  nom: Jiaozi vers Banque de France (monnaie d'Etat)
+  description: 'Jiaozi (1024, Song Chine) -> Marco Polo rapporte le papier-monnaie
+    chinois en Europe (XIIIe) -> experiences europeennes -> Law (1716-1720, Systeme
+    de Law = papier-monnaie francais) -> Hyperinflation des assignats (1790-1796,
+    abandon du papier) -> Banque de France (1803, monnaie metallique jusqu''en 1914)
+    -> Franc Poincare (1928, etalon-or) -> Euro (1999, monnaie fiduciaire). Verdict
+    : influence POSSIBLE Marco Polo -> Law, mais non documentee directement. Le parallele
+    est STRUCTUREL, pas causal. La France a reinvente la meme solution a 780 ans d''ecart
+    apres un echec (assignats) et un delai d''un siecle.'
+  preuve_tranchante: Pas de preuve directe, parallele structurel date
+  fiabilite: ✧
+- id: C-C003
+  nom: Ever-normal granaries vers PAC (stabilisation des prix)
+  description: 'Li Kui (~400 av.) propose le principe d''achat/revente etatique du
+    grain -> Hu Chang (54 av.) systematisation Han -> maintenu par 15 dynasties sur
+    2000 ans -> (AUCUNE transmission connue vers l''Europe) -> PAC (1962, France/Europe)
+    -> stockage public, subventions, stabilisation. Invention INDEPENDANTE : la Chine
+    a teste un mecanisme que la France a reinvente 2350 ans plus tard, sans transmission
+    documentee. Mais les principes sont identiques (l''Etat lisse les fluctuations
+    de prix via stockage).'
+  preuve_tranchante: Aucune transmission documentee, invention parallele
+  fiabilite: ✦
+- id: C-C004
+  nom: Confucianisme (124 av.) vers catholicisme d'Etat (496-1905) comme ideologie
+    de legitimation
+  description: 'Han Wudi etablit l''Academie imperiale (124 av.), confucianisme =
+    dogme d''Etat -> maintenu 2000 ans -> Confucianisme n''est PAS une religion (pas
+    de clerge, pas de dieu) -> ethique sociale, pas theologie -> separation IMPOSSIBLE
+    (l''Etat est reste confuceen jusqu''en 1911). France : catholicisme religion d''Etat
+    (bapteme de Clovis 496) -> separation 1905 (1409 ans de monopole ideologique).
+    FONCTION ANALOGUE de legitimation du pouvoir. DIFFERENCE categorique : le confucianisme
+    n''a pas de transcendance, le christianisme oui. La France a pu se laiciser, la
+    Chine non.'
+  preuve_tranchante: Wikipedia Confucianism, Han dynasty
+  fiabilite: ✦
+- id: C-C005
+  nom: 'GLF (1959-1961) et Revolution culturelle (1966-1976) : violence d''Etat sans
+    contrepouvoir'
+  description: 'GLF : politique agricole catastrophique + communes populaires + fission
+    des rizieres + destruction des outils prives + propagande irrealiste + REQUISITIONS
+    FORCEES cachant la famine aux autorites centrales. Resultat : 20-30M morts, ratio
+    3.4-5.1% population. Revolution culturelle : Gardes Rouges (jeunes) attaques intellectuels,
+    destructions temples/artefacts, humiliations publiques, 1.5-3M morts. France n''a
+    AUCUN equivalent a cette echelle. Cause structurelle : bureaucratie qui PUNIT
+    les mauvaises nouvelles produit des catastrophes inaudibles. Lecon : la concentration
+    du pouvoir ETATIQUE sans contrepouvoir democratique detruit le peuple qu''elle
+    pretend servir.'
+  preuve_tranchante: Wikipedia Great Chinese Famine, Cultural Revolution
+  fiabilite: ✦
 chronologie:
-  - date: "~551-479 av."
-    evenement: "Confucius (Kongzi), base philosophique de l'administration imperiale"
-  - date: "~400 av."
-    evenement: "Li Kui propose les greniers ever-normal, premier mecanisme etatique de stabilisation des prix"
-  - date: "356-338 av."
-    evenement: "Reformes de Shang Yang (Qin) : legalisme, bureaucratie meritocratique"
-  - date: "221 av."
-    evenement: "Qin Shi Huang unifie la Chine : standardisation ecriture/poids/mesures/lois, premier Etat centralise"
-  - date: "141-87 av."
-    evenement: "Han Wudi : monopole d'Etat sel/fer, Academie imperiale (124 av.)"
-  - date: "117 av."
-    evenement: "Monopole d'Etat sur le sel et le fer instaure par Han Wudi"
-  - date: "~605 ap."
-    evenement: "Keju (examen imperial) etabli sous les Sui, systematise sous les Tang"
-  - date: "624 ap."
-    evenement: "Tang Code (Tanglü shuyi) : code penal-administratif, base droit E-Asie"
-  - date: "~1024 ap."
-    evenement: "Jiaozi : premier papier-monnaie d'Etat (Song), 780 ans avant la Banque de France"
-  - date: "1159-1215"
-    evenement: "Huizi Song : inflation de guerre, valeur tombee a 5% en 1215"
-  - date: "1662-1722"
-    evenement: "Kangxi (Qing) : code Qing, expansion territoriale maximale, tolerance religieuse"
-  - date: "1840-1860"
-    evenement: "Guerres de l'Opium (1ere 1840-1842 GB, 2e 1856-1860 GB+France), sac Palais d'Ete 1860"
-  - date: "1911-1912"
-    evenement: "Chute des Qing, fin de l'empire, keju aboli 1905"
-  - date: "1949"
-    evenement: "RPC fondee par Mao Zedong"
-  - date: "1959-1961"
-    evenement: "Grand Bond en Avant : famine 20-30M morts, 3.4-5.1% population"
-  - date: "1966-1976"
-    evenement: "Revolution culturelle : 1.5-3M morts, destruction patrimoine"
-  - date: "1978"
-    evenement: "Deng Xiaoping : reforme ouverture, transition vers economie de marche"
-  - date: "1980-2015"
-    evenement: "Politique de l'enfant unique : fecondite de 5.8 a 1.5, 30M hommes surnumeraires"
-  - date: "2014-present"
-    evenement: "Social Credit System (SCS) : notation comportementale etatique"
-  - date: "2024"
-    evenement: "Dette locale chinoise : ~290% PIB, $18,9 billions via LGFV, plan sauvetage 10T RMB"
-
+- date: ~551-479 av.
+  evenement: Confucius (Kongzi), base philosophique de l'administration imperiale
+- date: ~400 av.
+  evenement: Li Kui propose les greniers ever-normal, premier mecanisme etatique de
+    stabilisation des prix
+- date: 356-338 av.
+  evenement: 'Reformes de Shang Yang (Qin) : legalisme, bureaucratie meritocratique'
+- date: 221 av.
+  evenement: 'Qin Shi Huang unifie la Chine : standardisation ecriture/poids/mesures/lois,
+    premier Etat centralise'
+- date: 141-87 av.
+  evenement: 'Han Wudi : monopole d''Etat sel/fer, Academie imperiale (124 av.)'
+- date: 117 av.
+  evenement: Monopole d'Etat sur le sel et le fer instaure par Han Wudi
+- date: ~605 ap.
+  evenement: Keju (examen imperial) etabli sous les Sui, systematise sous les Tang
+- date: 624 ap.
+  evenement: 'Tang Code (Tanglü shuyi) : code penal-administratif, base droit E-Asie'
+- date: ~1024 ap.
+  evenement: 'Jiaozi : premier papier-monnaie d''Etat (Song), 780 ans avant la Banque
+    de France'
+- date: 1159-1215
+  evenement: 'Huizi Song : inflation de guerre, valeur tombee a 5% en 1215'
+- date: 1662-1722
+  evenement: 'Kangxi (Qing) : code Qing, expansion territoriale maximale, tolerance
+    religieuse'
+- date: 1840-1860
+  evenement: Guerres de l'Opium (1ere 1840-1842 GB, 2e 1856-1860 GB+France), sac Palais
+    d'Ete 1860
+- date: 1911-1912
+  evenement: Chute des Qing, fin de l'empire, keju aboli 1905
+- date: '1949'
+  evenement: RPC fondee par Mao Zedong
+- date: 1959-1961
+  evenement: 'Grand Bond en Avant : famine 20-30M morts, 3.4-5.1% population'
+- date: 1966-1976
+  evenement: 'Revolution culturelle : 1.5-3M morts, destruction patrimoine'
+- date: '1978'
+  evenement: 'Deng Xiaoping : reforme ouverture, transition vers economie de marche'
+- date: 1980-2015
+  evenement: 'Politique de l''enfant unique : fecondite de 5.8 a 1.5, 30M hommes surnumeraires'
+- date: 2014-present
+  evenement: 'Social Credit System (SCS) : notation comportementale etatique'
+- date: '2024'
+  evenement: 'Dette locale chinoise : ~290% PIB, $18,9 billions via LGFV, plan sauvetage
+    10T RMB'
 domaines:
-  - nom: "DETTE"
-    description: "Jiaozi 1024 (premier papier-monnaie d'Etat) -> huizi inflation -> dette locale 290% PIB 2024 via LGFV"
-    parallele_fr: "Assignats 1790-1796 -> Banque de France 1803 -> dette publique 111.8% PIB 2024"
-  - nom: "ECONOMIE"
-    description: "Monopole d'Etat sel/fer 117 av. maintenu 2000 ans, Song PIB/hab le plus eleve du monde (Maddison)"
-    parallele_fr: "Gabelle (sel, supprimee 1790), tabac (monopole 1811-1995), industrialisation tardive 1830-1860"
-  - nom: "BUREAUCRATIE"
-    description: "Keju 605-1905 (meritocratie lettree), 20000 fonctionnaires pour 150-300M d'habitants (ratio 1/10-15K)"
-    parallele_fr: "Concours 1853, ENA 1945, INSP 2022, 5,7M fonctionnaires pour 68M (ratio 1/12)"
-  - nom: "NORMES_SOCIALES"
-    description: "Confucianisme d'Etat 124 av. - 1911, pieds bandes Xe-1911, enfant unique 1980-2015"
-    parallele_fr: "Catholicisme d'Etat 496-1905, corset XVIe-XIXe, politique nataliste (Code 1939, allocations familiales)"
-  - nom: "DROIT"
-    description: "Tang Code 624 (penal hierarchique, privilege du rang), pas de propriete privee absolue, rule BY law pas rule OF law"
-    parallele_fr: "Code civil 1804 (civil, droit subjectif, propriete absolue art. 544), Declaration droits 1789, rule of law"
-  - nom: "DOGME"
-    description: "Confucianisme comme ideologie d'Etat (legitimation hierarchique), GLF 20-30M morts 1959-61, Revolution culturelle 1.5-3M"
-    parallele_fr: "Catholicisme d'Etat 496-1905, Terreur 1793-94 (40K), guerres de religion 1-4M, guerres mondiales 1.5M"
-  - nom: "JUSTICE"
-    description: "Ever-normal granaries (~400 av., stabilisation prix), SCS 2014 (notation comportementale etatique)"
-    parallele_fr: "Securite sociale 1945, PAC 1962 (stockage+subventions), FICO (credit prive), casier judiciaire"
-
+- nom: DETTE
+  description: Jiaozi 1024 (premier papier-monnaie d'Etat) -> huizi inflation -> dette
+    locale 290% PIB 2024 via LGFV
+  parallele_fr: Assignats 1790-1796 -> Banque de France 1803 -> dette publique 111.8%
+    PIB 2024
+- nom: ECONOMIE
+  description: Monopole d'Etat sel/fer 117 av. maintenu 2000 ans, Song PIB/hab le
+    plus eleve du monde (Maddison)
+  parallele_fr: Gabelle (sel, supprimee 1790), tabac (monopole 1811-1995), industrialisation
+    tardive 1830-1860
+- nom: BUREAUCRATIE
+  description: Keju 605-1905 (meritocratie lettree), 20000 fonctionnaires pour 150-300M
+    d'habitants (ratio 1/10-15K)
+  parallele_fr: Concours 1853, ENA 1945, INSP 2022, 5,7M fonctionnaires pour 68M (ratio
+    1/12)
+- nom: NORMES_SOCIALES
+  description: Confucianisme d'Etat 124 av. - 1911, pieds bandes Xe-1911, enfant unique
+    1980-2015
+  parallele_fr: Catholicisme d'Etat 496-1905, corset XVIe-XIXe, politique nataliste
+    (Code 1939, allocations familiales)
+- nom: DROIT
+  description: Tang Code 624 (penal hierarchique, privilege du rang), pas de propriete
+    privee absolue, rule BY law pas rule OF law
+  parallele_fr: Code civil 1804 (civil, droit subjectif, propriete absolue art. 544),
+    Declaration droits 1789, rule of law
+- nom: DOGME
+  description: Confucianisme comme ideologie d'Etat (legitimation hierarchique), GLF
+    20-30M morts 1959-61, Revolution culturelle 1.5-3M
+  parallele_fr: Catholicisme d'Etat 496-1905, Terreur 1793-94 (40K), guerres de religion
+    1-4M, guerres mondiales 1.5M
+- nom: JUSTICE
+  description: Ever-normal granaries (~400 av., stabilisation prix), SCS 2014 (notation
+    comportementale etatique)
+  parallele_fr: Securite sociale 1945, PAC 1962 (stockage+subventions), FICO (credit
+    prive), casier judiciaire
 urls:
-  - {url: "https://en.wikipedia.org/wiki/Imperial_examination", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C001"]}
-  - {url: "https://en.wikipedia.org/wiki/Jiaozi_(currency)", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C002"]}
-  - {url: "https://en.wikipedia.org/wiki/Great_Chinese_Famine", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C004"]}
-  - {url: "https://en.wikipedia.org/wiki/Tang_Code", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C005"]}
-  - {url: "https://en.wikipedia.org/wiki/Economy_of_the_Han_dynasty", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C006"]}
-  - {url: "https://en.wikipedia.org/wiki/Voltaire", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C007"]}
-  - {url: "https://en.wikipedia.org/wiki/Ever-normal_granary", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C008"]}
-  - {url: "https://en.wikipedia.org/wiki/Foot_binding", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C009"]}
-  - {url: "https://en.wikipedia.org/wiki/Opium_Wars", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C010"]}
-  - {url: "https://en.wikipedia.org/wiki/Cultural_Revolution", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C011"]}
-  - {url: "https://en.wikipedia.org/wiki/One-child_policy", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-C014"]}
-  - {url: "https://en.wikipedia.org/wiki/Gini_coefficient", type: "Wikipedia", fiabilite: ✧, source_faits: ["F-C015"]}
-
+- url: https://en.wikipedia.org/wiki/Imperial_examination
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C001
+- url: https://en.wikipedia.org/wiki/Jiaozi_(currency)
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C002
+- url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C004
+- url: https://en.wikipedia.org/wiki/Tang_Code
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C005
+- url: https://en.wikipedia.org/wiki/Economy_of_the_Han_dynasty
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C006
+- url: https://en.wikipedia.org/wiki/Voltaire
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C007
+- url: https://en.wikipedia.org/wiki/Ever-normal_granary
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C008
+- url: https://en.wikipedia.org/wiki/Foot_binding
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C009
+- url: https://en.wikipedia.org/wiki/Opium_Wars
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C010
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C011
+- url: https://en.wikipedia.org/wiki/One-child_policy
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-C014
+- url: https://en.wikipedia.org/wiki/Gini_coefficient
+  type: Wikipedia
+  fiabilite: ✧
+  source_faits:
+  - F-C015
 wolves:
-  - {nom: "Qin Shi Huang", categorie: "GOVERNMENT", role: "Unificateur Chine 221 av.", centralite: 0.95, source_section: "§16"}
-  - {nom: "Shang Yang", categorie: "EXPERTS", role: "Reformateur legaliste, bureaucratie avant le keju", centralite: 0.85, source_section: "§16"}
-  - {nom: "Han Wudi", categorie: "GOVERNMENT", role: "Empereur expansionniste, monopole sel/fer", centralite: 0.90, source_section: "§16"}
-  - {nom: "Song Huizong", categorie: "GOVERNMENT", role: "Empereur, promoteur papier-monnaie", centralite: 0.75, source_section: "§16"}
-  - {nom: "Kangxi", categorie: "GOVERNMENT", role: "Empereur eclaire Qing", centralite: 0.80, source_section: "§16"}
-  - {nom: "Mao Zedong", categorie: "GOVERNMENT", role: "Fondateur RPC, GLF, Revolution culturelle", centralite: 0.95, source_section: "§16"}
-  - {nom: "Deng Xiaoping", categorie: "GOVERNMENT", role: "Reformateur post-Mao, ouverture 1978", centralite: 0.90, source_section: "§16"}
-  - {nom: "Xi Jinping", categorie: "GOVERNMENT", role: "President actuel, centralisation, SCS", centralite: 0.90, source_section: "§16"}
-  - {nom: "Voltaire", categorie: "EXPERTS", role: "Sinophile, importa le keju dans les Lumieres", centralite: 0.75, source_section: "§16"}
-  - {nom: "Quesnay", categorie: "EXPERTS", role: "Confucius europeen, physocratie", centralite: 0.70, source_section: "§16"}
-  - {nom: "Napoleon III", categorie: "GOVERNMENT", role: "Agresseur 2e guerre Opium, sac Palais d'Ete", centralite: 0.65, source_section: "§16"}
-  - {nom: "Matteo Ricci", categorie: "EXPERTS", role: "Jesuite, traduction classiques confuciens", centralite: 0.70, source_section: "§16"}
-  - {nom: "20 000 fonctionnaires imperiaux", categorie: "CIVIL_SOCIETY", role: "Bureaucratie Ming/Qing", centralite: 0.85, source_section: "§16"}
-  - {nom: "1,4 milliard Chinois", categorie: "CIVIL_SOCIETY", role: "Population sous SCS", centralite: 0.95, source_section: "§16"}
-  - {nom: "Lin Zexu", categorie: "INSURGENT", role: "Commissaire anti-opium, symbole resistance", centralite: 0.60, source_section: "§16"}
-  - {nom: "Francois Mitterrand", categorie: "GOVERNMENT", role: "President, reconnaissance RPC 1964", centralite: 0.55, source_section: "§16"}
-  - {nom: "Li Kui", categorie: "EXPERTS", role: "Proposeur greniers ever-normal ~400 av.", centralite: 0.70, source_section: "§16"}
-  - {nom: "Deng Xiaoping 2e", categorie: "GOVERNMENT", role: "Reformateur", centralite: 0.80, source_section: "§16"}
+- nom: Qin Shi Huang
+  categorie: GOVERNMENT
+  role: Unificateur Chine 221 av.
+  centralite: 0.95
+  source_section: §16
+- nom: Shang Yang
+  categorie: EXPERTS
+  role: Reformateur legaliste, bureaucratie avant le keju
+  centralite: 0.85
+  source_section: §16
+- nom: Han Wudi
+  categorie: GOVERNMENT
+  role: Empereur expansionniste, monopole sel/fer
+  centralite: 0.9
+  source_section: §16
+- nom: Song Huizong
+  categorie: GOVERNMENT
+  role: Empereur, promoteur papier-monnaie
+  centralite: 0.75
+  source_section: §16
+- nom: Kangxi
+  categorie: GOVERNMENT
+  role: Empereur eclaire Qing
+  centralite: 0.8
+  source_section: §16
+- nom: Mao Zedong
+  categorie: GOVERNMENT
+  role: Fondateur RPC, GLF, Revolution culturelle
+  centralite: 0.95
+  source_section: §16
+- nom: Deng Xiaoping
+  categorie: GOVERNMENT
+  role: Reformateur post-Mao, ouverture 1978
+  centralite: 0.9
+  source_section: §16
+- nom: Xi Jinping
+  categorie: GOVERNMENT
+  role: President actuel, centralisation, SCS
+  centralite: 0.9
+  source_section: §16
+- nom: Voltaire
+  categorie: EXPERTS
+  role: Sinophile, importa le keju dans les Lumieres
+  centralite: 0.75
+  source_section: §16
+- nom: Quesnay
+  categorie: EXPERTS
+  role: Confucius europeen, physocratie
+  centralite: 0.7
+  source_section: §16
+- nom: Napoleon III
+  categorie: GOVERNMENT
+  role: Agresseur 2e guerre Opium, sac Palais d'Ete
+  centralite: 0.65
+  source_section: §16
+- nom: Matteo Ricci
+  categorie: EXPERTS
+  role: Jesuite, traduction classiques confuciens
+  centralite: 0.7
+  source_section: §16
+- nom: 20 000 fonctionnaires imperiaux
+  categorie: CIVIL_SOCIETY
+  role: Bureaucratie Ming/Qing
+  centralite: 0.85
+  source_section: §16
+- nom: 1,4 milliard Chinois
+  categorie: CIVIL_SOCIETY
+  role: Population sous SCS
+  centralite: 0.95
+  source_section: §16
+- nom: Lin Zexu
+  categorie: INSURGENT
+  role: Commissaire anti-opium, symbole resistance
+  centralite: 0.6
+  source_section: §16
+- nom: Francois Mitterrand
+  categorie: GOVERNMENT
+  role: President, reconnaissance RPC 1964
+  centralite: 0.55
+  source_section: §16
+- nom: Li Kui
+  categorie: EXPERTS
+  role: Proposeur greniers ever-normal ~400 av.
+  centralite: 0.7
+  source_section: §16
+- nom: Deng Xiaoping 2e
+  categorie: GOVERNMENT
+  role: Reformateur
+  centralite: 0.8
+  source_section: §16
 total_individus: 18
 cible_apex: 12
-verdict: "APEX atteint (18 superieur ou egal 12)"
-
+verdict: APEX atteint (18 superieur ou egal 12)
 iceberg:
-  - angle: "Orientalisme epistemique (toutes sources en anglais/francais, zero chinois)"
-    convergence: 0.85
-    description: >-
-      Toutes les 27 sources de l'enquete sont en anglais ou francais.
-      Aucune source en chinois n'a ete consultee. La Chine imperiale n'est
-      accessible qu'a travers des filtres occidentaux (jesuites, sinologues
-      anglo-saxons, donnees chinoises officielles tordues par la propagande).
-      Une enquete avec sources primaires chinoises aurait probablement un
-      facteur 3-5x de faits supplementaires.
-    source_section: "§18 ICEBERG"
-  - angle: "Complexite bureaucratique sous-estimee (ratio x570 mais administration fantome)"
-    convergence: 0.75
-    description: >-
-      La Chine imperiale gerait 60-400M d'habitants avec ~20 000
-      fonctionnaires (ratio 1/10-15K) contre 5,7M pour 68M en France
-      (1/12). Cela signifie que la Chine avait un ratio
-      administration/population x570 plus faible. OU BIEN les Chinois
-      pre-modernes etaient extremement efficaces, OU BIEN la majeure
-      partie de l'administration se faisait hors des structures
-      officielles (elites locales, clans, guildes). Cette "administration
-      fantome" est le plus grand angle mort de l'enquete.
-    source_section: "§18 / §14"
-  - angle: "Invention simultanee (convergence independante, pas filiation)"
-    convergence: 0.80
-    description: >-
-      La majorite des paralleles degages sont des inventions
-      independantes, pas des filiations. La Chine et la France ont
-      resolu separement des problemes similaires (recruter des
-      fonctionnaires, stabiliser la monnaie, prevenir les famines). Le
-      fait que les solutions chinoises precedent les francaises de 700 a
-      2300 ans suggere que la Chine a commence plus tot a se poser ces
-      questions, pas qu'elle etait en avance au sens teleologique.
-    source_section: "§18 / §12"
-  - angle: "France perd les contrepouvoirs qu'elle avait ajoutes"
-    convergence: 0.65
-    description: >-
-      La France se croit unique avec ses concours INSP et ses grands
-      corps. En realite, elle a redevouvre (via Voltaire/Quesnay) des
-      mecanismes que la Chine experimentait depuis le VIIe s. La
-      specificite francaise n'est pas le concours, c'est d'y avoir ajoute
-      les contrepouvoirs democratiques. Mais la France PERD ces
-      piliers (privatisation rampante de la justice, affaiblissement
-      des contre-pouvoirs) au moment meme ou la Chine les ignore
-      deliberement. La convergence se fait par le bas.
-    source_section: "§18 / §6 Perspective C"
-  - angle: "GLF : limite extreme de la bureaucratie sans contrepouvoir"
-    convergence: 0.70
-    description: >-
-      Le Grand Bond en Avant (20-30M morts) est le crime le plus massif
-      de l'histoire humaine en temps de paix. Aucune comparaison
-      francaise n'approche. C'est un rappel que la puissance de l'Etat
-      bureaucratique n'a pas de garde-fou sans contrepouvoir. Lecon
-      structurelle : une bureaucratie qui punit les mauvaises nouvelles
-      produit des catastrophes inaudibles.
-    source_section: "§18 / §8.6 / §4 L6"
+- angle: Orientalisme epistemique (toutes sources en anglais/francais, zero chinois)
+  convergence: 0.85
+  description: Toutes les 27 sources de l'enquete sont en anglais ou francais. Aucune
+    source en chinois n'a ete consultee. La Chine imperiale n'est accessible qu'a
+    travers des filtres occidentaux (jesuites, sinologues anglo-saxons, donnees chinoises
+    officielles tordues par la propagande). Une enquete avec sources primaires chinoises
+    aurait probablement un facteur 3-5x de faits supplementaires.
+  source_section: §18 ICEBERG
+- angle: Complexite bureaucratique sous-estimee (ratio x570 mais administration fantome)
+  convergence: 0.75
+  description: La Chine imperiale gerait 60-400M d'habitants avec ~20 000 fonctionnaires
+    (ratio 1/10-15K) contre 5,7M pour 68M en France (1/12). Cela signifie que la Chine
+    avait un ratio administration/population x570 plus faible. OU BIEN les Chinois
+    pre-modernes etaient extremement efficaces, OU BIEN la majeure partie de l'administration
+    se faisait hors des structures officielles (elites locales, clans, guildes). Cette
+    "administration fantome" est le plus grand angle mort de l'enquete.
+  source_section: §18 / §14
+- angle: Invention simultanee (convergence independante, pas filiation)
+  convergence: 0.8
+  description: La majorite des paralleles degages sont des inventions independantes,
+    pas des filiations. La Chine et la France ont resolu separement des problemes
+    similaires (recruter des fonctionnaires, stabiliser la monnaie, prevenir les famines).
+    Le fait que les solutions chinoises precedent les francaises de 700 a 2300 ans
+    suggere que la Chine a commence plus tot a se poser ces questions, pas qu'elle
+    etait en avance au sens teleologique.
+  source_section: §18 / §12
+- angle: France perd les contrepouvoirs qu'elle avait ajoutes
+  convergence: 0.65
+  description: La France se croit unique avec ses concours INSP et ses grands corps.
+    En realite, elle a redevouvre (via Voltaire/Quesnay) des mecanismes que la Chine
+    experimentait depuis le VIIe s. La specificite francaise n'est pas le concours,
+    c'est d'y avoir ajoute les contrepouvoirs democratiques. Mais la France PERD ces
+    piliers (privatisation rampante de la justice, affaiblissement des contre-pouvoirs)
+    au moment meme ou la Chine les ignore deliberement. La convergence se fait par
+    le bas.
+  source_section: §18 / §6 Perspective C
+- angle: 'GLF : limite extreme de la bureaucratie sans contrepouvoir'
+  convergence: 0.7
+  description: 'Le Grand Bond en Avant (20-30M morts) est le crime le plus massif
+    de l''histoire humaine en temps de paix. Aucune comparaison francaise n''approche.
+    C''est un rappel que la puissance de l''Etat bureaucratique n''a pas de garde-fou
+    sans contrepouvoir. Lecon structurelle : une bureaucratie qui punit les mauvaises
+    nouvelles produit des catastrophes inaudibles.'
+  source_section: §18 / §8.6 / §4 L6
 shadow_factor: 3.2
 ce_qui_tient:
-  - "Keju precede INSP de 1350 ans (filiation intellectuelle via Voltaire)"
-  - "Jiaozi precede BdF de 780 ans (parallele structurel, pas causal)"
-  - "Tang Code precede Code civil de 1180 ans (mais pas un code civil)"
-  - "Monopole sel/fer precede nationalisations de ~2000 ans"
-  - "Ever-normal granaries precedent PAC de 2350 ans"
-  - "Ratio fonctionnaires x570 plus faible en Chine imperiale"
+- Keju precede INSP de 1350 ans (filiation intellectuelle via Voltaire)
+- Jiaozi precede BdF de 780 ans (parallele structurel, pas causal)
+- Tang Code precede Code civil de 1180 ans (mais pas un code civil)
+- Monopole sel/fer precede nationalisations de ~2000 ans
+- Ever-normal granaries precedent PAC de 2350 ans
+- Ratio fonctionnaires x570 plus faible en Chine imperiale
 ce_qui_tombe:
-  - "Keju pas une 'meritocratie universelle' (limite aux lettres)"
-  - "Jiaozi-BdF pas une filiation directe (convergence independante)"
-  - "Ever-normal n'ont pas empeche les grandes famines (GLF)"
-  - "Tang Code pas un code civil (penal hierarchique)"
-  - "SCS moins omnipotent que la legende mediatique (mais potentiel reel)"
-
+- Keju pas une 'meritocratie universelle' (limite aux lettres)
+- Jiaozi-BdF pas une filiation directe (convergence independante)
+- Ever-normal n'ont pas empeche les grandes famines (GLF)
+- Tang Code pas un code civil (penal hierarchique)
+- SCS moins omnipotent que la legende mediatique (mais potentiel reel)
 limites:
-  - "Orientalisme : zero source en chinois sur 27"
-  - "Selection teleologique : choix des faits guides par la these (5/7 themes positifs)"
-  - "Presentisme : categories francaises (dette, bureaucratie, Etat de droit) appliquees a la Chine"
-  - "Donnees economiques chinoises avant 1912 : estimations revisees (Maddison/Broadberry)"
-  - "Donnees chinoises modernes (dette, Gini) officielles et potentiellement manipulees"
-  - "20 000 fonctionnaires imperiaux : estimation savante, pas un recensement"
-  - "Population historique chinoise debattue (Ming : 60-200M selon sources)"
-  - "Aucune source documentaire directe pour la filiation Marco Polo -> Law"
-  - "Le chiffre GLF (20-30M) varie selon les sources (15-45M dans la litterature)"
-
+- 'Orientalisme : zero source en chinois sur 27'
+- 'Selection teleologique : choix des faits guides par la these (5/7 themes positifs)'
+- 'Presentisme : categories francaises (dette, bureaucratie, Etat de droit) appliquees
+  a la Chine'
+- 'Donnees economiques chinoises avant 1912 : estimations revisees (Maddison/Broadberry)'
+- Donnees chinoises modernes (dette, Gini) officielles et potentiellement manipulees
+- '20 000 fonctionnaires imperiaux : estimation savante, pas un recensement'
+- 'Population historique chinoise debattue (Ming : 60-200M selon sources)'
+- Aucune source documentaire directe pour la filiation Marco Polo -> Law
+- Le chiffre GLF (20-30M) varie selon les sources (15-45M dans la litterature)
 perspectives_dialectiques:
-  - scenario: "A - La Chine a montre la voie (continuisme)"
-    these: >-
-      Sur 7 themes, la Chine precede la France de 700 a 2300 ans pour 5
-      d'entre eux : monnaie (780), concours (1350), greniers (2350),
-      code (1180), monopole (1950). La France n'a invente que la forme,
-      l'idee etait chinoise. Filiation intellectuelle documentee pour
-      le keju (Voltaire, Quesnay).
-    cui_bono: "Sinologues, historiens des idees politiques, lecteurs d'Elman"
-    score: 0.55
-  - scenario: "B - La comparaison est un trompe-l'oeil (scepticisme)"
-    these: >-
-      Le keju n'est pas l'INSP (lettres vs gestionnaires). Le Jiaozi
-      n'est pas la Banque de France (credit vs institution). Les
-      ever-normal ne sont pas la PAC (stabilisation vs subvention+revenu).
-      Le parallele formel cache des differences structurelles
-      irreductibles. La majorite des convergences sont des inventions
-      independantes.
-    cui_bono: "Methodologues, sinologues critiques, historiens du droit compare"
-    score: 0.70
-  - scenario: "C - Memes pieges bureaucratiques (convergence pathologique)"
-    these: >-
-      La Chine et la France souffrent de la meme hypertrophie
-      bureaucratique. La Chine des Song avait trop de fonctionnaires pour
-      sa base fiscale (1 admin/10K hab). La France a 5,7M fonctionnaires
-      pour 68M hab. Les deux Etats peinent a se reformer. MAIS les
-      regimes politiques (autoritaire vs democratie liberale) differents
-      impliquent des mecanismes de sortie de crise tres differents.
-    cui_bono: "Reformateurs, observateurs des institutions, lecteurs de North/Wallis/Weingast"
-    score: 0.65
+- scenario: A - La Chine a montre la voie (continuisme)
+  these: 'Sur 7 themes, la Chine precede la France de 700 a 2300 ans pour 5 d''entre
+    eux : monnaie (780), concours (1350), greniers (2350), code (1180), monopole (1950).
+    La France n''a invente que la forme, l''idee etait chinoise. Filiation intellectuelle
+    documentee pour le keju (Voltaire, Quesnay).'
+  cui_bono: Sinologues, historiens des idees politiques, lecteurs d'Elman
+  score: 0.55
+- scenario: B - La comparaison est un trompe-l'oeil (scepticisme)
+  these: Le keju n'est pas l'INSP (lettres vs gestionnaires). Le Jiaozi n'est pas
+    la Banque de France (credit vs institution). Les ever-normal ne sont pas la PAC
+    (stabilisation vs subvention+revenu). Le parallele formel cache des differences
+    structurelles irreductibles. La majorite des convergences sont des inventions
+    independantes.
+  cui_bono: Methodologues, sinologues critiques, historiens du droit compare
+  score: 0.7
+- scenario: C - Memes pieges bureaucratiques (convergence pathologique)
+  these: La Chine et la France souffrent de la meme hypertrophie bureaucratique. La
+    Chine des Song avait trop de fonctionnaires pour sa base fiscale (1 admin/10K
+    hab). La France a 5,7M fonctionnaires pour 68M hab. Les deux Etats peinent a se
+    reformer. MAIS les regimes politiques (autoritaire vs democratie liberale) differents
+    impliquent des mecanismes de sortie de crise tres differents.
+  cui_bono: Reformateurs, observateurs des institutions, lecteurs de North/Wallis/Weingast
+  score: 0.65
 tensions_non_resolues:
-  - "Monopole sel/fer : succes chinois 2000 ans vs echec francais (gabelle supprimee 1790)"
-  - "Meritocratie : keju limitee (1/1000) vs INSP ouverte a tous les bacheliers"
-  - "Contrepouvoirs : Chine zero vs France post-1789 (en regression actuelle)"
-  - "GLF : crime massif sans equivalent francais, mais c'est un probleme pas une solution"
-  - "SCS : extension logique du legalisme ou innovation technique ?"
-
+- 'Monopole sel/fer : succes chinois 2000 ans vs echec francais (gabelle supprimee
+  1790)'
+- 'Meritocratie : keju limitee (1/1000) vs INSP ouverte a tous les bacheliers'
+- 'Contrepouvoirs : Chine zero vs France post-1789 (en regression actuelle)'
+- 'GLF : crime massif sans equivalent francais, mais c''est un probleme pas une solution'
+- 'SCS : extension logique du legalisme ou innovation technique ?'
 metadata:
-  source_file: "investigations/2026-06-03_sumer_article/2026-06-03_14-00_chine_vs_france_INVESTIGATION.md"
+  source_file: investigations/2026-06-03_sumer_article/2026-06-03_14-00_chine_vs_france_INVESTIGATION.md
   source_lignes: 659
-  source_taille: "55.3K"
-  date_enrichissement: "2026-06-06"
-  methode: "LLM hote (opencode) - lecture cursive + 12 sections quintessence"
-  gate_g_mecanique: "0% (0 F### balises, format texte)"
-  gate_g_estime_apres_enrichissement: "~80-85% (cible MEDIUM 80%, APEX 90%)"
+  source_taille: 55.3K
+  date_enrichissement: '2026-06-06'
+  methode: LLM hote (opencode) - lecture cursive + 12 sections quintessence
+  gate_g_mecanique: 0% (0 F### balises, format texte)
+  gate_g_estime_apres_enrichissement: ~80-85% (cible MEDIUM 80%, APEX 90%)
   shadow_factor: 3.2
-  fiabilite_globale: "Elevee (17 F### sur 22 verifies, sources Wikipedia + Britannica + NBER + Werbach)"
-  parallelisme_temps: "Chine precede France de 700 a 2300 ans sur 5/7 themes"
-
+  fiabilite_globale: Elevee (17 F### sur 22 verifies, sources Wikipedia + Britannica
+    + NBER + Werbach)
+  parallelisme_temps: Chine precede France de 700 a 2300 ans sur 5/7 themes

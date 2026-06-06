@@ -1,10 +1,3 @@
-# Quintessence Moyen-Age/France — generee par LLM hote (opencode) le 2026-06-06
-# Spec : tools/engines/sublimator/2026-06-06_spec_v33.2.md §W QUINTESSENCE
-# Methodologie : Python pur (parse_atomic + extract_utile) + LLM hote (lecture cursive 12 sections)
-# Source : investigations/2026-06-03_sumer_article/2026-06-04_09-30_moyen_age_gense_etat_FRANCAIS_INVESTIGATION.md (234 lignes, 22.0K)
-# GATE_G : 53.91% MECHANIQUE (62 F### bruts, 14/18 sections), enrichi ci-dessous a 22 F### + 12 sections
-# Complexite : MEDIUM, Shadow Factor 1.5x
-
 civ_prefix: MA
 complexity: MEDIUM
 n_f_atomiques: 22
@@ -13,570 +6,722 @@ n_causalites: 5
 n_chronologie: 14
 n_domaines: 7
 n_urls: 12
-
-these_centrale: >-
-  Le Moyen Age (987-1515) n'est pas une parenthese entre l'Antiquite et la
-  modernite — il est la CEINTURE DE TRANSMISSION qui fait passer l'heritage
-  antique vers la France moderne. Trois inventions medievales comblent le
-  trou de 594 ans entre la chute de Rome (476) et la France :
-  (1) la REDECOUVERTE du Corpus Juris Civilis a Bologne (~1070, Irnerius)
-  sans laquelle le Code civil de 1804 n'existerait pas ;
-  (2) l'INVENTION de la dette publique par la rente sur l'Hotel de Ville
-  (1522, Francois Ier) — passage de la spoliation (Templiers 1307) au
-  marche des titres negociables, fondation du systeme que la caste
-  contemporaine utilise encore ;
-  (3) l'INVENTION de l'Etat fiscal par la taille permanente (1439,
-  Charles VII) — transition du domaine royal patrimonial a l'impot
-  national, qui cree la bureaucratie ancetre des grands corps INSP.
-  Sans cette traduction medievale, la filiation Rome -> France serait
-  restee lettre morte.
-
+these_centrale: 'Le Moyen Age (987-1515) n''est pas une parenthese entre l''Antiquite
+  et la modernite — il est la CEINTURE DE TRANSMISSION qui fait passer l''heritage
+  antique vers la France moderne. Trois inventions medievales comblent le trou de
+  594 ans entre la chute de Rome (476) et la France : (1) la REDECOUVERTE du Corpus
+  Juris Civilis a Bologne (~1070, Irnerius) sans laquelle le Code civil de 1804 n''existerait
+  pas ; (2) l''INVENTION de la dette publique par la rente sur l''Hotel de Ville (1522,
+  Francois Ier) — passage de la spoliation (Templiers 1307) au marche des titres negociables,
+  fondation du systeme que la caste contemporaine utilise encore ; (3) l''INVENTION
+  de l''Etat fiscal par la taille permanente (1439, Charles VII) — transition du domaine
+  royal patrimonial a l''impot national, qui cree la bureaucratie ancetre des grands
+  corps INSP. Sans cette traduction medievale, la filiation Rome -> France serait
+  restee lettre morte.'
 theses_implicites:
-  - >-
-    Le Moyen Age est meconnu parce qu'il a ete delegitime par DEUX
-    recits ulterieurs : (1) le BIAIS RENAISSANCE des humanistes qui
-    inventent le terme "Moyen Age" pour delegitimer la periode au
-    profit de l'Antiquite retrouvee, (2) le BIAIS REVOLUTIONNAIRE
-    qui rejette l'Ancien Regime comme un bloc. Le MA est un AGE
-    FONDATEUR, pas une transition obscure.
-  - >-
-    La filiation Rome -> France n'est PAS continue : elle est
-    RECONSTRUITE par les glossateurs de Bologne (1070) qui comblent
-    un trou documentaire de 594 ans (476-1070). Cette reconstruction
-    est le premier exemple de "rattrapage" de l'heritage antique
-    par une civilisation qui se pense comme son heritier. Le Code
-    civil 1804 est une TROISIEME vague de transmission (apres Justinien
-    529-534 et Irnerius 1070).
-  - >-
-    Les 5 tensions du Changement de Regime (extraction, capture,
-    demantelement, abdication, dette) trouvent toutes leur PRECEDENT
-    medieval : la Guerre de Cent Ans + Peste noire + taille
-    permanente reproduisent les memes structures. La difference : au
-    XIVe, la crise produit PLUS D'ETAT ; au XXIe, elle produit PLUS
-    DE CAPTURE. Le mecanisme est identique, la trajectoire diverge.
-
+- 'Le Moyen Age est meconnu parce qu''il a ete delegitime par DEUX recits ulterieurs
+  : (1) le BIAIS RENAISSANCE des humanistes qui inventent le terme "Moyen Age" pour
+  delegitimer la periode au profit de l''Antiquite retrouvee, (2) le BIAIS REVOLUTIONNAIRE
+  qui rejette l''Ancien Regime comme un bloc. Le MA est un AGE FONDATEUR, pas une
+  transition obscure.'
+- 'La filiation Rome -> France n''est PAS continue : elle est RECONSTRUITE par les
+  glossateurs de Bologne (1070) qui comblent un trou documentaire de 594 ans (476-1070).
+  Cette reconstruction est le premier exemple de "rattrapage" de l''heritage antique
+  par une civilisation qui se pense comme son heritier. Le Code civil 1804 est une
+  TROISIEME vague de transmission (apres Justinien 529-534 et Irnerius 1070).'
+- 'Les 5 tensions du Changement de Regime (extraction, capture, demantelement, abdication,
+  dette) trouvent toutes leur PRECEDENT medieval : la Guerre de Cent Ans + Peste noire
+  + taille permanente reproduisent les memes structures. La difference : au XIVe,
+  la crise produit PLUS D''ETAT ; au XXIe, elle produit PLUS DE CAPTURE. Le mecanisme
+  est identique, la trajectoire diverge.'
 f_atomiques:
-  - id: F-MA001
-    fait: "Redecouverte du Corpus Juris Civilis a Bologne par Irnerius"
-    date: "~1070"
-    acteur: "Irnerius, comtesse Mathilde"
-    source: "Wikipedia Irnerius"
-    url: "https://en.wikipedia.org/wiki/Irnerius"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F001"
-  - id: F-MA002
-    fait: "CJC promulgue par Justinien a Constantinople en 4 parties (Codex, Digeste, Institutes, Novelles)"
-    date: "529-534"
-    acteur: "Justinien, Tribonien"
-    source: "Wikipedia Corpus Juris Civilis"
-    url: "https://en.wikipedia.org/wiki/Corpus_Juris_Civilis"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F002"
-  - id: F-MA003
-    fait: "Creation de la rente sur l'Hotel de Ville de Paris, premiere dette publique francaise"
-    date: "1522"
-    acteur: "Francois Ier"
-    source: "Histoire dette France"
-    url: "https://dettedelafrance.fr/histoire-de-la-dette-de-la-france"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F003 / §3"
-  - id: F-MA004
-    fait: "Arrestation des Templiers par Philippe le Bel — motif financier (saisie tresor du Temple)"
-    date: "13 oct. 1307"
-    acteur: "Philippe IV, Guillaume de Nogaret"
-    chiffre: "15 000 hommes arrêtes en une nuit"
-    source: "Wikipedia Philippe le Bel / Herodote"
-    url: "https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F004 / §3"
-  - id: F-MA005
-    fait: "Philippe Auguste : administration royale modernisee, revenu royal 150 000 livres/an"
-    date: "1180-1223"
-    acteur: "Philippe II Auguste"
-    chiffre: "150 000 livres/an, domaine 800 000 livres"
-    source: "EHNE"
-    url: "https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F005 / §4"
-  - id: F-MA006
-    fait: "Creation du Parlement de Paris comme cour souveraine (issu de la Curia Regis)"
-    date: "~1250"
-    acteur: "Louis IX (Saint Louis)"
-    source: "Wikipedia Parlement"
-    url: "https://fr.wikipedia.org/wiki/Parlement_(royaume_de_France)"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F006 / §5"
-  - id: F-MA007
-    fait: "Premiers Etats generaux convoques par Philippe le Bel"
-    date: "10 avril 1302"
-    acteur: "Philippe IV"
-    source: "Herodote"
-    url: "https://www.herodote.net/almanach-ID-3494.php"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F007 / §4"
-  - id: F-MA008
-    fait: "Ordonnances de Saint Louis reformant la justice et encadrant les officiers"
-    date: "1254"
-    acteur: "Louis IX"
-    source: "Herodote Saint Louis"
-    url: "https://www.herodote.net/Un_attribut_royal-synthese-2964.php"
-    tier: 2
-    fiabilite: ✧
-    source_section: "FACT_REGISTRY F008 / §5"
-  - id: F-MA009
-    fait: "Creation de l'impot permanent (taille royale) par Charles VII"
-    date: "1439"
-    acteur: "Charles VII"
-    source: "Cours-de-droit histoire impot"
-    url: "https://cours-de-droit.net/legislation-royale-moyen-age/"
-    tier: 2
-    fiabilite: ✧
-    source_section: "FACT_REGISTRY F009 / §4"
-  - id: F-MA010
-    fait: "Peste noire : effondrement demographique et social, 30-50% de la population"
-    date: "1347-1351"
-    acteur: "Pandemie Yersinia pestis"
-    source: "Consensus historique"
-    url: "https://fr.wikipedia.org/wiki/Peste_noire"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F010 / §7"
-  - id: F-MA011
-    fait: "Abolition du servage en France par Louis X"
-    date: "1315"
-    acteur: "Louis X"
-    source: "Wikipedia servage"
-    url: "https://fr.wikipedia.org/wiki/Servage"
-    tier: 2
-    fiabilite: ✧
-    source_section: "FACT_REGISTRY F011 / §6"
-  - id: F-MA012
-    fait: "Feodalite : systeme de vassalite, fief, hommage, seigneurie (Xe-XVe s.)"
-    date: "Xe-XVe s."
-    acteur: "Systeme social medieval"
-    source: "Cours-de-droit feodalite"
-    url: "https://cours-de-droit.net/feodalite-au-moyen-age/"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F013 / §6"
-  - id: F-MA013
-    fait: "Irnerius fonde l'Ecole de Bologne, debut de la tradition glossatrice"
-    date: "1084/1088"
-    acteur: "Irnerius"
-    source: "Wikipedia Irnerius"
-    url: "https://en.wikipedia.org/wiki/Irnerius"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F014 / §2"
-  - id: F-MA014
-    fait: "Premier marche des titres publics en France (rente HDV) — avant la dette publique moderne"
-    date: "1522-1789"
-    acteur: "Rois de France, financiers italiens"
-    source: "Persee / Béguin"
-    url: "https://www.persee.fr/doc/hes_0752-5702_1998_num_17_4_2005"
-    tier: 2
-    fiabilite: ✧
-    source_section: "FACT_REGISTRY F015-F017 / §3"
-  - id: F-MA015
-    fait: "Les legistes de Philippe le Bel : Pierre Flotte, G. de Nogaret, E. de Marigny"
-    date: "1285-1314"
-    acteur: "Legistes royaux formes au droit romain"
-    source: "Wikipedia Philippe IV"
-    url: "https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F016 / §8"
-  - id: F-MA016
-    fait: "Passage de Rex Francorum a Rex Francie sous Philippe Auguste"
-    date: "1190-1204"
-    acteur: "Philippe II Auguste"
-    source: "Wikipedia Philippe II"
-    url: "https://fr.wikipedia.org/wiki/Philippe_II_Auguste"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F018 / §4"
-  - id: F-MA017
-    fait: "Conflit Philippe le Bel - Boniface VIII : taxation du clerge"
-    date: "1296-1303"
-    acteur: "Philippe IV, Boniface VIII"
-    source: "Wikipedia Etats generaux 1302"
-    url: "https://fr.wikipedia.org/wiki/%C3%89tats_g%C3%A9n%C3%A9raux_de_1302-1303"
-    tier: 1
-    fiabilite: ✦
-    source_section: "FACT_REGISTRY F019 / §4 / §8"
-  - id: F-MA018
-    fait: "Transition Curia Regis vers Parlement : professionnalisation de la justice (XIIIe s.)"
-    date: "XIIIe s."
-    acteur: "Louis IX, Philippe IV"
-    source: "Cours-de-droit Parlement"
-    url: "https://cours-de-droit.net/histoire-du-parlement/"
-    tier: 2
-    fiabilite: ✧
-    source_section: "FACT_REGISTRY F020 / §5"
-  - id: F-MA019
-    fait: "Etienne Marcel (1355-1358) : premiere tentative parlementaire de controle de l'impot"
-    date: "1355-1358"
-    acteur: "Etienne Marcel, prevot des marchands de Paris"
-    source: "Wikipedia Etienne Marcel"
-    url: "https://fr.wikipedia.org/wiki/%C3%89tienne_Marcel"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§7 / §11 WOLVES"
-  - id: F-MA020
-    fait: "Phrase quod principi placuit legis habet vigorem (Digeste) -> fondement monarchie absolue"
-    date: "529-534 (Digeste), appliquee XIIIe-XVIIe s."
-    acteur: "Legistes royaux francais"
-    source: "Wikipedia Digeste"
-    url: "https://en.wikipedia.org/wiki/Digest_(Roman_law)"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§8"
-  - id: F-MA021
-    fait: "Jacquerie (1358) et revoltes urbaines : colere fiscale medievale"
-    date: "1358"
-    acteur: "Paysans, bourgeois"
-    source: "Wikipedia Jacquerie"
-    url: "https://fr.wikipedia.org/wiki/Jacquerie"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§7"
-  - id: F-MA022
-    fait: "Guerre de Cent Ans (1337-1453) : 116 ans de guerre, catalyseur de l'Etat fiscal"
-    date: "1337-1453"
-    acteur: "Rois de France, royaume d'Angleterre"
-    source: "Wikipedia Guerre de Cent Ans"
-    url: "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans"
-    tier: 1
-    fiabilite: ✦
-    source_section: "§1 / §7"
-
+- id: F-MA001
+  fait: Redecouverte du Corpus Juris Civilis a Bologne par Irnerius
+  date: ~1070
+  acteur: Irnerius, comtesse Mathilde
+  source: Wikipedia Irnerius
+  url: https://en.wikipedia.org/wiki/Irnerius
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F001
+  glyphe: ✦
+- id: F-MA002
+  fait: CJC promulgue par Justinien a Constantinople en 4 parties (Codex, Digeste,
+    Institutes, Novelles)
+  date: 529-534
+  acteur: Justinien, Tribonien
+  source: Wikipedia Corpus Juris Civilis
+  url: https://en.wikipedia.org/wiki/Corpus_Juris_Civilis
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F002
+  glyphe: ✦
+- id: F-MA003
+  fait: Creation de la rente sur l'Hotel de Ville de Paris, premiere dette publique
+    francaise
+  date: '1522'
+  acteur: Francois Ier
+  source: Histoire dette France
+  url: https://dettedelafrance.fr/histoire-de-la-dette-de-la-france
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F003 / §3
+  glyphe: ✦
+- id: F-MA004
+  fait: Arrestation des Templiers par Philippe le Bel — motif financier (saisie tresor
+    du Temple)
+  date: 13 oct. 1307
+  acteur: Philippe IV, Guillaume de Nogaret
+  chiffre: 15 000 hommes arrêtes en une nuit
+  source: Wikipedia Philippe le Bel / Herodote
+  url: https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F004 / §3
+  glyphe: ✦
+- id: F-MA005
+  fait: 'Philippe Auguste : administration royale modernisee, revenu royal 150 000
+    livres/an'
+  date: 1180-1223
+  acteur: Philippe II Auguste
+  chiffre: 150 000 livres/an, domaine 800 000 livres
+  source: EHNE
+  url: https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F005 / §4
+  glyphe: ✦
+- id: F-MA006
+  fait: Creation du Parlement de Paris comme cour souveraine (issu de la Curia Regis)
+  date: ~1250
+  acteur: Louis IX (Saint Louis)
+  source: Wikipedia Parlement
+  url: https://fr.wikipedia.org/wiki/Parlement_(royaume_de_France)
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F006 / §5
+  glyphe: ✦
+- id: F-MA007
+  fait: Premiers Etats generaux convoques par Philippe le Bel
+  date: 10 avril 1302
+  acteur: Philippe IV
+  source: Herodote
+  url: https://www.herodote.net/almanach-ID-3494.php
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F007 / §4
+  glyphe: ✦
+- id: F-MA008
+  fait: Ordonnances de Saint Louis reformant la justice et encadrant les officiers
+  date: '1254'
+  acteur: Louis IX
+  source: Herodote Saint Louis
+  url: https://www.herodote.net/Un_attribut_royal-synthese-2964.php
+  tier: 2
+  fiabilite: ✧
+  source_section: FACT_REGISTRY F008 / §5
+  glyphe: ✧
+- id: F-MA009
+  fait: Creation de l'impot permanent (taille royale) par Charles VII
+  date: '1439'
+  acteur: Charles VII
+  source: Cours-de-droit histoire impot
+  url: https://cours-de-droit.net/legislation-royale-moyen-age/
+  tier: 2
+  fiabilite: ✧
+  source_section: FACT_REGISTRY F009 / §4
+  glyphe: ✧
+- id: F-MA010
+  fait: 'Peste noire : effondrement demographique et social, 30-50% de la population'
+  date: 1347-1351
+  acteur: Pandemie Yersinia pestis
+  source: Consensus historique
+  url: https://fr.wikipedia.org/wiki/Peste_noire
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F010 / §7
+  glyphe: ✦
+- id: F-MA011
+  fait: Abolition du servage en France par Louis X
+  date: '1315'
+  acteur: Louis X
+  source: Wikipedia servage
+  url: https://fr.wikipedia.org/wiki/Servage
+  tier: 2
+  fiabilite: ✧
+  source_section: FACT_REGISTRY F011 / §6
+  glyphe: ✧
+- id: F-MA012
+  fait: 'Feodalite : systeme de vassalite, fief, hommage, seigneurie (Xe-XVe s.)'
+  date: Xe-XVe s.
+  acteur: Systeme social medieval
+  source: Cours-de-droit feodalite
+  url: https://cours-de-droit.net/feodalite-au-moyen-age/
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F013 / §6
+  glyphe: ✦
+- id: F-MA013
+  fait: Irnerius fonde l'Ecole de Bologne, debut de la tradition glossatrice
+  date: 1084/1088
+  acteur: Irnerius
+  source: Wikipedia Irnerius
+  url: https://en.wikipedia.org/wiki/Irnerius
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F014 / §2
+  glyphe: ✦
+- id: F-MA014
+  fait: Premier marche des titres publics en France (rente HDV) — avant la dette publique
+    moderne
+  date: 1522-1789
+  acteur: Rois de France, financiers italiens
+  source: Persee / Béguin
+  url: https://www.persee.fr/doc/hes_0752-5702_1998_num_17_4_2005
+  tier: 2
+  fiabilite: ✧
+  source_section: FACT_REGISTRY F015-F017 / §3
+  glyphe: ❧
+- id: F-MA015
+  fait: 'Les legistes de Philippe le Bel : Pierre Flotte, G. de Nogaret, E. de Marigny'
+  date: 1285-1314
+  acteur: Legistes royaux formes au droit romain
+  source: Wikipedia Philippe IV
+  url: https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F016 / §8
+  glyphe: ✦
+- id: F-MA016
+  fait: Passage de Rex Francorum a Rex Francie sous Philippe Auguste
+  date: 1190-1204
+  acteur: Philippe II Auguste
+  source: Wikipedia Philippe II
+  url: https://fr.wikipedia.org/wiki/Philippe_II_Auguste
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F018 / §4
+  glyphe: ✦
+- id: F-MA017
+  fait: 'Conflit Philippe le Bel - Boniface VIII : taxation du clerge'
+  date: 1296-1303
+  acteur: Philippe IV, Boniface VIII
+  source: Wikipedia Etats generaux 1302
+  url: https://fr.wikipedia.org/wiki/%C3%89tats_g%C3%A9n%C3%A9raux_de_1302-1303
+  tier: 1
+  fiabilite: ✦
+  source_section: FACT_REGISTRY F019 / §4 / §8
+  glyphe: ✦
+- id: F-MA018
+  fait: 'Transition Curia Regis vers Parlement : professionnalisation de la justice
+    (XIIIe s.)'
+  date: XIIIe s.
+  acteur: Louis IX, Philippe IV
+  source: Cours-de-droit Parlement
+  url: https://cours-de-droit.net/histoire-du-parlement/
+  tier: 2
+  fiabilite: ✧
+  source_section: FACT_REGISTRY F020 / §5
+  glyphe: ✧
+- id: F-MA019
+  fait: 'Etienne Marcel (1355-1358) : premiere tentative parlementaire de controle
+    de l''impot'
+  date: 1355-1358
+  acteur: Etienne Marcel, prevot des marchands de Paris
+  source: Wikipedia Etienne Marcel
+  url: https://fr.wikipedia.org/wiki/%C3%89tienne_Marcel
+  tier: 1
+  fiabilite: ✦
+  source_section: §7 / §11 WOLVES
+  glyphe: ✦
+- id: F-MA020
+  fait: Phrase quod principi placuit legis habet vigorem (Digeste) -> fondement monarchie
+    absolue
+  date: 529-534 (Digeste), appliquee XIIIe-XVIIe s.
+  acteur: Legistes royaux francais
+  source: Wikipedia Digeste
+  url: https://en.wikipedia.org/wiki/Digest_(Roman_law)
+  tier: 1
+  fiabilite: ✦
+  source_section: §8
+  glyphe: ✦
+- id: F-MA021
+  fait: 'Jacquerie (1358) et revoltes urbaines : colere fiscale medievale'
+  date: '1358'
+  acteur: Paysans, bourgeois
+  source: Wikipedia Jacquerie
+  url: https://fr.wikipedia.org/wiki/Jacquerie
+  tier: 1
+  fiabilite: ✦
+  source_section: §7
+  glyphe: ✦
+- id: F-MA022
+  fait: 'Guerre de Cent Ans (1337-1453) : 116 ans de guerre, catalyseur de l''Etat
+    fiscal'
+  date: 1337-1453
+  acteur: Rois de France, royaume d'Angleterre
+  source: Wikipedia Guerre de Cent Ans
+  url: https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans
+  tier: 1
+  fiabilite: ✦
+  source_section: §1 / §7
+  glyphe: ✦
 acteurs:
-  - {nom: "Irnerius", categorie: "EXPERTS", role: "Redecouvreur CJC, fondateur Ecole de Bologne", centralite: 0.90, source_section: "§11 WOLVES"}
-  - {nom: "Pierre Flotte", categorie: "EXPERTS", role: "Chancelier Philippe le Bel, legiste, organise Etats generaux 1302", centralite: 0.70, source_section: "§11"}
-  - {nom: "Guillaume de Nogaret", categorie: "GOVERNMENT", role: "Garde des Sceaux, arrete les Templiers 1307, attentat Anagni", centralite: 0.80, source_section: "§11"}
-  - {nom: "Enguerrand de Marigny", categorie: "GOVERNMENT", role: "Conseiller financier Philippe le Bel", centralite: 0.65, source_section: "§11"}
-  - {nom: "Louis IX (Saint Louis)", categorie: "GOVERNMENT", role: "Roi, reforme justice, fonde le Parlement, ordonnances 1254", centralite: 0.95, source_section: "§11"}
-  - {nom: "Philippe IV le Bel", categorie: "GOVERNMENT", role: "Roi, centralise l'Etat, fiscalise, spolie les Templiers", centralite: 0.95, source_section: "§11"}
-  - {nom: "Boniface VIII", categorie: "INSURGENT", role: "Pape, conflit avec Philippe le Bel", centralite: 0.75, source_section: "§11"}
-  - {nom: "Francois Ier", categorie: "GOVERNMENT", role: "Roi, cree la rente HDV 1522, premiere dette publique", centralite: 0.90, source_section: "§11"}
-  - {nom: "Charles VII", categorie: "GOVERNMENT", role: "Roi, rend l'impot permanent 1439 (taille)", centralite: 0.85, source_section: "§11"}
-  - {nom: "Etienne Marcel", categorie: "INSURGENT", role: "Prevot des marchands, tentative controle parlementaire impot 1355-58", centralite: 0.65, source_section: "§11"}
-  - {nom: "Philippe II Auguste", categorie: "GOVERNMENT", role: "Roi, modernise administration, domaine 150K livres/an", centralite: 0.85, source_section: "§4 / §11"}
-  - {nom: "Justinien", categorie: "GOVERNMENT", role: "Empereur byzantin, compile le CJC 529-534", centralite: 0.85, source_section: "F002"}
-  - {nom: "Tribonien", categorie: "EXPERTS", role: "Juriste en chef de la compilation justinienne", centralite: 0.65, source_section: "F002"}
-  - {nom: "Banquiers lombards", categorie: "CIVIL_SOCIETY", role: "Preteurs aux rois de France XIVe-XVe, ancetres des financiers modernes", centralite: 0.70, source_section: "§3"}
+- nom: Irnerius
+  categorie: EXPERTS
+  role: Redecouvreur CJC, fondateur Ecole de Bologne
+  centralite: 0.9
+  source_section: §11 WOLVES
+- nom: Pierre Flotte
+  categorie: EXPERTS
+  role: Chancelier Philippe le Bel, legiste, organise Etats generaux 1302
+  centralite: 0.7
+  source_section: §11
+- nom: Guillaume de Nogaret
+  categorie: GOVERNMENT
+  role: Garde des Sceaux, arrete les Templiers 1307, attentat Anagni
+  centralite: 0.8
+  source_section: §11
+- nom: Enguerrand de Marigny
+  categorie: GOVERNMENT
+  role: Conseiller financier Philippe le Bel
+  centralite: 0.65
+  source_section: §11
+- nom: Louis IX (Saint Louis)
+  categorie: GOVERNMENT
+  role: Roi, reforme justice, fonde le Parlement, ordonnances 1254
+  centralite: 0.95
+  source_section: §11
+- nom: Philippe IV le Bel
+  categorie: GOVERNMENT
+  role: Roi, centralise l'Etat, fiscalise, spolie les Templiers
+  centralite: 0.95
+  source_section: §11
+- nom: Boniface VIII
+  categorie: INSURGENT
+  role: Pape, conflit avec Philippe le Bel
+  centralite: 0.75
+  source_section: §11
+- nom: Francois Ier
+  categorie: GOVERNMENT
+  role: Roi, cree la rente HDV 1522, premiere dette publique
+  centralite: 0.9
+  source_section: §11
+- nom: Charles VII
+  categorie: GOVERNMENT
+  role: Roi, rend l'impot permanent 1439 (taille)
+  centralite: 0.85
+  source_section: §11
+- nom: Etienne Marcel
+  categorie: INSURGENT
+  role: Prevot des marchands, tentative controle parlementaire impot 1355-58
+  centralite: 0.65
+  source_section: §11
+- nom: Philippe II Auguste
+  categorie: GOVERNMENT
+  role: Roi, modernise administration, domaine 150K livres/an
+  centralite: 0.85
+  source_section: §4 / §11
+- nom: Justinien
+  categorie: GOVERNMENT
+  role: Empereur byzantin, compile le CJC 529-534
+  centralite: 0.85
+  source_section: F002
+- nom: Tribonien
+  categorie: EXPERTS
+  role: Juriste en chef de la compilation justinienne
+  centralite: 0.65
+  source_section: F002
+- nom: Banquiers lombards
+  categorie: CIVIL_SOCIETY
+  role: Preteurs aux rois de France XIVe-XVe, ancetres des financiers modernes
+  centralite: 0.7
+  source_section: §3
 total_individus: 14
 cible_apex: 12
-verdict: "APEX atteint (14 superieur ou egal 12)"
-
+verdict: APEX atteint (14 superieur ou egal 12)
 causalites:
-  - id: C-MA001
-    nom: "Redecouverte CJC (Bologne 1070) vers Code civil 1804"
-    description: >-
-      Chute de Rome (476) -> perte de l'integralite du CJC ->
-      survivance fragmentaire chez les legistes carolingiens et a Pavie
-      -> Irnerius (1070) retrouve un manuscrit complet a Bologne ->
-      fonde l'Ecole de Bologne et la tradition des glossateurs
-      (Summa Codicis) -> diffusion europeenne via les universites
-      (XIIe-XIIIe) -> reception en France par les legistes royaux
-      (Pierre Flotte, Nogaret) -> Code civil francais 1804 (Napoléon,
-      Portalis) qui compile 2300 articles inspires du CJC. Le MA
-      comble un TROU DE 594 ANS par reconstruction active.
-    preuve_tranchante: "Wikipedia Irnerius + Corpus Juris Civilis (chainage documente)"
-    fiabilite: ✦
-  - id: C-MA002
-    nom: "Spoliation Templiers (1307) vers dette publique institutionnalisee (rente HDV 1522)"
-    description: >-
-      Phase 1 : Philippe le Bel endette par les guerres flamandes et
-      le conflit Boniface VIII -> arret des Templiers (13 oct. 1307),
-      motif financier (saisie tresor du Temple = effacement dette).
-      Phase 2 : XIVe-XVe, emprunt force aux banquiers lombards et
-      grandes villes, taux eleves, defaut frequent. Phase 3 : Francois
-      Ier (1522) cree la rente sur l'Hotel de Ville de Paris ->
-      premier instrument de dette publique NEGOCIABLE. Le marche des
-      rentes finance l'Etat jusqu'a la Revolution. MECANISME TOUJOURS
-      EN VIGUEUR : 54 Mds€ d'interets annuels en France 2024.
-    preuve_tranchante: "Wikipedia Philippe le Bel + Persee rentes HDV"
-    fiabilite: ✦
-  - id: C-MA003
-    nom: "Domaine royal vers impot national (taille permanente 1439)"
-    description: >-
-      Avant XIIIe : roi vit de son domaine (150 000 livres/an sous
-      Philippe Auguste) -> impots exceptionnels seulement. Philippe le
-      Bel (1285-1314) : taxation clerge, saisie Juifs/Lombards,
-      devaluation, convocation Etats generaux 1302 -> Charles VII
-      (1439) : Guerre de Cent Ans impose effort permanent -> Etats
-      generaux autorisent la taille royale PERPETUELLE -> premier
-      impot direct permanent. Naissance de la bureaucratie fiscale
-      (officiers, tresoriers, elus) -> ancetres des grands corps INSP.
-    preuve_tranchante: "EHNE Philippe Auguste + cours-de-droit legislation royale"
-    fiabilite: ✦
-  - id: C-MA004
-    nom: "Curia Regis vers Parlement de Paris (professionnalisation justice)"
-    description: >-
-      Justice royale personnelle (Louis IX rend la justice sous le
-      chene de Vincennes) -> delegation a des juges professionnels
-      (XIIIe) -> Parlement de Paris (~1250) devient cour souveraine
-      -> magistrats professionnels (premiers 'gens de robe') ->
-      attribution : jugement en dernier ressort, enregistrement
-      ordonnances, droit de remontrance. PARALLELE avec Code Ur-Nammu
-      sum (justice ecrite), Douze Tables rom (loi affichee forum).
-      La specialisation du droit cree la distance entre le droit et
-      le citoyen, premiere etape de la CAPTURE institutionnelle.
-    preuve_tranchante: "Wikipedia Parlement + cours-de-droit histoire Parlement"
-    fiabilite: ✧
-  - id: C-MA005
-    nom: "Feodalite (asymetrie verticale) vers caste contemporaine des 20 familles"
-    description: >-
-      Feodalite (Xe-XVe) : systeme de dependances personnelles,
-      vassalite/fief/hommage/seigneurie, trois ordres juridiques
-      (clerge, noblesse, tiers), servage attache paysan a la terre
-      (aboli 1315 par Louis X). ASYMETRIE VERTICALE (symbole
-      ↕) : regles differentes selon ordre. La caste des 20 familles
-      modernes (HUB Changement de Regime) en est une VERSION
-      DEGUISEE : noblesse d'Etat au lieu de noblesse de sang, mais
-      meme endogamie, meme capture des institutions, meme extraction
-      (par l'impot plutot que par la corvee).
-    preuve_tranchante: "Cours-de-droit feodalite + HUB Changement de Regime"
-    fiabilite: ✦
-
+- id: C-MA001
+  nom: Redecouverte CJC (Bologne 1070) vers Code civil 1804
+  description: Chute de Rome (476) -> perte de l'integralite du CJC -> survivance
+    fragmentaire chez les legistes carolingiens et a Pavie -> Irnerius (1070) retrouve
+    un manuscrit complet a Bologne -> fonde l'Ecole de Bologne et la tradition des
+    glossateurs (Summa Codicis) -> diffusion europeenne via les universites (XIIe-XIIIe)
+    -> reception en France par les legistes royaux (Pierre Flotte, Nogaret) -> Code
+    civil francais 1804 (Napoléon, Portalis) qui compile 2300 articles inspires du
+    CJC. Le MA comble un TROU DE 594 ANS par reconstruction active.
+  preuve_tranchante: Wikipedia Irnerius + Corpus Juris Civilis (chainage documente)
+  fiabilite: ✦
+- id: C-MA002
+  nom: Spoliation Templiers (1307) vers dette publique institutionnalisee (rente HDV
+    1522)
+  description: 'Phase 1 : Philippe le Bel endette par les guerres flamandes et le
+    conflit Boniface VIII -> arret des Templiers (13 oct. 1307), motif financier (saisie
+    tresor du Temple = effacement dette). Phase 2 : XIVe-XVe, emprunt force aux banquiers
+    lombards et grandes villes, taux eleves, defaut frequent. Phase 3 : Francois Ier
+    (1522) cree la rente sur l''Hotel de Ville de Paris -> premier instrument de dette
+    publique NEGOCIABLE. Le marche des rentes finance l''Etat jusqu''a la Revolution.
+    MECANISME TOUJOURS EN VIGUEUR : 54 Mds€ d''interets annuels en France 2024.'
+  preuve_tranchante: Wikipedia Philippe le Bel + Persee rentes HDV
+  fiabilite: ✦
+- id: C-MA003
+  nom: Domaine royal vers impot national (taille permanente 1439)
+  description: 'Avant XIIIe : roi vit de son domaine (150 000 livres/an sous Philippe
+    Auguste) -> impots exceptionnels seulement. Philippe le Bel (1285-1314) : taxation
+    clerge, saisie Juifs/Lombards, devaluation, convocation Etats generaux 1302 ->
+    Charles VII (1439) : Guerre de Cent Ans impose effort permanent -> Etats generaux
+    autorisent la taille royale PERPETUELLE -> premier impot direct permanent. Naissance
+    de la bureaucratie fiscale (officiers, tresoriers, elus) -> ancetres des grands
+    corps INSP.'
+  preuve_tranchante: EHNE Philippe Auguste + cours-de-droit legislation royale
+  fiabilite: ✦
+- id: C-MA004
+  nom: Curia Regis vers Parlement de Paris (professionnalisation justice)
+  description: 'Justice royale personnelle (Louis IX rend la justice sous le chene
+    de Vincennes) -> delegation a des juges professionnels (XIIIe) -> Parlement de
+    Paris (~1250) devient cour souveraine -> magistrats professionnels (premiers ''gens
+    de robe'') -> attribution : jugement en dernier ressort, enregistrement ordonnances,
+    droit de remontrance. PARALLELE avec Code Ur-Nammu sum (justice ecrite), Douze
+    Tables rom (loi affichee forum). La specialisation du droit cree la distance entre
+    le droit et le citoyen, premiere etape de la CAPTURE institutionnelle.'
+  preuve_tranchante: Wikipedia Parlement + cours-de-droit histoire Parlement
+  fiabilite: ✧
+- id: C-MA005
+  nom: Feodalite (asymetrie verticale) vers caste contemporaine des 20 familles
+  description: 'Feodalite (Xe-XVe) : systeme de dependances personnelles, vassalite/fief/hommage/seigneurie,
+    trois ordres juridiques (clerge, noblesse, tiers), servage attache paysan a la
+    terre (aboli 1315 par Louis X). ASYMETRIE VERTICALE (symbole ↕) : regles differentes
+    selon ordre. La caste des 20 familles modernes (HUB Changement de Regime) en est
+    une VERSION DEGUISEE : noblesse d''Etat au lieu de noblesse de sang, mais meme
+    endogamie, meme capture des institutions, meme extraction (par l''impot plutot
+    que par la corvee).'
+  preuve_tranchante: Cours-de-droit feodalite + HUB Changement de Regime
+  fiabilite: ✦
 chronologie:
-  - date: "476"
-    evenement: "Chute de l'Empire romain d'Occident -> perte du CJC integral"
-  - date: "987-1108"
-    evenement: "Capetiens directs (Hugues Capet a Philippe Ier) : maintien dynastique, domaine royal"
-  - date: "~1070"
-    evenement: "Irnerius redécouvre le CJC a Bologne, fonde l'Ecole de Bologne et la tradition glossatrice"
-  - date: "1084-1088"
-    evenement: "Ecole de Bologne officiellement fondee, debut des universites medievales"
-  - date: "1108-1223"
-    evenement: "Expansion capetienne (Louis VI a Philippe Auguste) : 150 000 livres/an, baillis, senechaux"
-  - date: "1180-1223"
-    evenement: "Philippe Auguste modernise l'administration royale, transition Rex Francorum -> Rex Francie (1190-1204)"
-  - date: "~1250"
-    evenement: "Creation du Parlement de Paris comme cour souveraine (issu de la Curia Regis)"
-  - date: "1254"
-    evenement: "Ordonnances de Saint Louis reformant la justice et encadrant les officiers"
-  - date: "1285-1314"
-    evenement: "Regne de Philippe le Bel : legistes, Etats generaux, fiscalite, conflit Boniface VIII"
-  - date: "10 avril 1302"
-    evenement: "Premiers Etats generaux convoques par Philippe le Bel"
-  - date: "13 oct. 1307"
-    evenement: "Arrestation des Templiers (15 000 hommes) -> spoliation tresor du Temple"
-  - date: "1315"
-    evenement: "Abolition du servage en France par Louis X"
-  - date: "1337-1453"
-    evenement: "Guerre de Cent Ans (116 ans), catalyseur de l'Etat fiscal"
-  - date: "1347-1351"
-    evenement: "Peste noire : 30-50% de la population, effondrement demographique"
-  - date: "1355-1358"
-    evenement: "Etienne Marcel tente le controle parlementaire de l'impot (echec)"
-  - date: "1358"
-    evenement: "Jacquerie et revoltes urbaines : colere fiscale medievale"
-  - date: "1439"
-    evenement: "Charles VII instaure la taille royale PERPETUELLE, premier impot direct permanent"
-  - date: "1522"
-    evenement: "Francois Ier cree la rente sur l'Hotel de Ville de Paris, premiere dette publique francaise"
-
+- date: '476'
+  evenement: Chute de l'Empire romain d'Occident -> perte du CJC integral
+- date: 987-1108
+  evenement: 'Capetiens directs (Hugues Capet a Philippe Ier) : maintien dynastique,
+    domaine royal'
+- date: ~1070
+  evenement: Irnerius redécouvre le CJC a Bologne, fonde l'Ecole de Bologne et la
+    tradition glossatrice
+- date: 1084-1088
+  evenement: Ecole de Bologne officiellement fondee, debut des universites medievales
+- date: 1108-1223
+  evenement: 'Expansion capetienne (Louis VI a Philippe Auguste) : 150 000 livres/an,
+    baillis, senechaux'
+- date: 1180-1223
+  evenement: Philippe Auguste modernise l'administration royale, transition Rex Francorum
+    -> Rex Francie (1190-1204)
+- date: ~1250
+  evenement: Creation du Parlement de Paris comme cour souveraine (issu de la Curia
+    Regis)
+- date: '1254'
+  evenement: Ordonnances de Saint Louis reformant la justice et encadrant les officiers
+- date: 1285-1314
+  evenement: 'Regne de Philippe le Bel : legistes, Etats generaux, fiscalite, conflit
+    Boniface VIII'
+- date: 10 avril 1302
+  evenement: Premiers Etats generaux convoques par Philippe le Bel
+- date: 13 oct. 1307
+  evenement: Arrestation des Templiers (15 000 hommes) -> spoliation tresor du Temple
+- date: '1315'
+  evenement: Abolition du servage en France par Louis X
+- date: 1337-1453
+  evenement: Guerre de Cent Ans (116 ans), catalyseur de l'Etat fiscal
+- date: 1347-1351
+  evenement: 'Peste noire : 30-50% de la population, effondrement demographique'
+- date: 1355-1358
+  evenement: Etienne Marcel tente le controle parlementaire de l'impot (echec)
+- date: '1358'
+  evenement: 'Jacquerie et revoltes urbaines : colere fiscale medievale'
+- date: '1439'
+  evenement: Charles VII instaure la taille royale PERPETUELLE, premier impot direct
+    permanent
+- date: '1522'
+  evenement: Francois Ier cree la rente sur l'Hotel de Ville de Paris, premiere dette
+    publique francaise
 domaines:
-  - nom: "DETTE"
-    description: "Spoliation Templiers 1307 (annulation par violence) -> rente HDV 1522 (marche titres negociables)"
-    parallele_fr: "Defaut 1790-1796 (assignats) -> dette 3416 Mds€ 2025 (115,6% PIB)"
-  - nom: "BUREAUCRATIE"
-    description: "Baillis/senechaux de Philippe Auguste -> Parlement de Paris 1250 -> officiers/tresoriers/legistes"
-    parallele_fr: "INSP/ENA 1945-2022, 5,7M fonctionnaires, grands corps"
-  - nom: "DROIT"
-    description: "Reception CJC par glossateurs de Bologne (1070) -> legistes royaux -> Code civil 1804"
-    parallele_fr: "Code civil 1804 (Portalis) compile 2300 articles inspires du CJC"
-  - nom: "FISCALITE"
-    description: "Domaine royal (150K livres) -> impots exceptionnels Philippe le Bel -> taille permanente 1439"
-    parallele_fr: "TVA, IR, IS, CSG, 15 codes, 400 000 pages, dette 115,6% PIB"
-  - nom: "JUSTICE"
-    description: "Justice personnelle Louis IX (chene de Vincennes) -> Parlement de Paris (gens de robe) -> enregistrement des lois"
-    parallele_fr: "Conseil d'Etat 1799, Cour de cassation, Conseil constitutionnel"
-  - nom: "DOGME"
-    description: "Catholicisme d'Etat (bapteme Clovis 496) -> legistes invoquent 'quod principi placuit'"
-    parallele_fr: "Laicite 1905, Etat de droit, Declaration droits de l'homme 1789"
-  - nom: "CAPTURE"
-    description: "Feodalite (asymetrie verticale, 3 ordres, servage 1315) -> noblesse d'Etat -> caste 20 familles"
-    parallele_fr: "Caste contemporaine (HUB Changement de Regime), reproduction des elites, endogamie grands corps"
-
+- nom: DETTE
+  description: Spoliation Templiers 1307 (annulation par violence) -> rente HDV 1522
+    (marche titres negociables)
+  parallele_fr: Defaut 1790-1796 (assignats) -> dette 3416 Mds€ 2025 (115,6% PIB)
+- nom: BUREAUCRATIE
+  description: Baillis/senechaux de Philippe Auguste -> Parlement de Paris 1250 ->
+    officiers/tresoriers/legistes
+  parallele_fr: INSP/ENA 1945-2022, 5,7M fonctionnaires, grands corps
+- nom: DROIT
+  description: Reception CJC par glossateurs de Bologne (1070) -> legistes royaux
+    -> Code civil 1804
+  parallele_fr: Code civil 1804 (Portalis) compile 2300 articles inspires du CJC
+- nom: FISCALITE
+  description: Domaine royal (150K livres) -> impots exceptionnels Philippe le Bel
+    -> taille permanente 1439
+  parallele_fr: TVA, IR, IS, CSG, 15 codes, 400 000 pages, dette 115,6% PIB
+- nom: JUSTICE
+  description: Justice personnelle Louis IX (chene de Vincennes) -> Parlement de Paris
+    (gens de robe) -> enregistrement des lois
+  parallele_fr: Conseil d'Etat 1799, Cour de cassation, Conseil constitutionnel
+- nom: DOGME
+  description: Catholicisme d'Etat (bapteme Clovis 496) -> legistes invoquent 'quod
+    principi placuit'
+  parallele_fr: Laicite 1905, Etat de droit, Declaration droits de l'homme 1789
+- nom: CAPTURE
+  description: Feodalite (asymetrie verticale, 3 ordres, servage 1315) -> noblesse
+    d'Etat -> caste 20 familles
+  parallele_fr: Caste contemporaine (HUB Changement de Regime), reproduction des elites,
+    endogamie grands corps
 urls:
-  - {url: "https://en.wikipedia.org/wiki/Irnerius", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-MA001", "F-MA013"]}
-  - {url: "https://en.wikipedia.org/wiki/Corpus_Juris_Civilis", type: "Wikipedia", fiabilite: ✦, source_faits: ["F-MA002"]}
-  - {url: "https://dettedelafrance.fr/histoire-de-la-dette-de-la-france", type: "Histoire dette France", fiabilite: ✦, source_faits: ["F-MA003"]}
-  - {url: "https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel", type: "Wikipedia FR", fiabilite: ✦, source_faits: ["F-MA004", "F-MA015"]}
-  - {url: "https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le", type: "EHNE", fiabilite: ✦, source_faits: ["F-MA005"]}
-  - {url: "https://fr.wikipedia.org/wiki/Parlement_(royaume_de_France)", type: "Wikipedia FR", fiabilite: ✦, source_faits: ["F-MA006"]}
-  - {url: "https://www.herodote.net/almanach-ID-3494.php", type: "Herodote", fiabilite: ✦, source_faits: ["F-MA007"]}
-  - {url: "https://cours-de-droit.net/legislation-royale-moyen-age/", type: "Cours-de-droit", fiabilite: ✧, source_faits: ["F-MA009"]}
-  - {url: "https://www.persee.fr/doc/hes_0752-5702_1998_num_17_4_2005", type: "Persée", fiabilite: ✧, source_faits: ["F-MA014"]}
-  - {url: "https://fr.wikipedia.org/wiki/%C3%89tats_g%C3%A9n%C3%A9raux_de_1302-1303", type: "Wikipedia FR", fiabilite: ✦, source_faits: ["F-MA017"]}
-  - {url: "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans", type: "Wikipedia FR", fiabilite: ✦, source_faits: ["F-MA022"]}
-  - {url: "https://fr.wikipedia.org/wiki/Peste_noire", type: "Wikipedia FR", fiabilite: ✦, source_faits: ["F-MA010"]}
-
+- url: https://en.wikipedia.org/wiki/Irnerius
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-MA001
+  - F-MA013
+- url: https://en.wikipedia.org/wiki/Corpus_Juris_Civilis
+  type: Wikipedia
+  fiabilite: ✦
+  source_faits:
+  - F-MA002
+- url: https://dettedelafrance.fr/histoire-de-la-dette-de-la-france
+  type: Histoire dette France
+  fiabilite: ✦
+  source_faits:
+  - F-MA003
+- url: https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel
+  type: Wikipedia FR
+  fiabilite: ✦
+  source_faits:
+  - F-MA004
+  - F-MA015
+- url: https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le
+  type: EHNE
+  fiabilite: ✦
+  source_faits:
+  - F-MA005
+- url: https://fr.wikipedia.org/wiki/Parlement_(royaume_de_France)
+  type: Wikipedia FR
+  fiabilite: ✦
+  source_faits:
+  - F-MA006
+- url: https://www.herodote.net/almanach-ID-3494.php
+  type: Herodote
+  fiabilite: ✦
+  source_faits:
+  - F-MA007
+- url: https://cours-de-droit.net/legislation-royale-moyen-age/
+  type: Cours-de-droit
+  fiabilite: ✧
+  source_faits:
+  - F-MA009
+- url: https://www.persee.fr/doc/hes_0752-5702_1998_num_17_4_2005
+  type: Persée
+  fiabilite: ✧
+  source_faits:
+  - F-MA014
+- url: https://fr.wikipedia.org/wiki/%C3%89tats_g%C3%A9n%C3%A9raux_de_1302-1303
+  type: Wikipedia FR
+  fiabilite: ✦
+  source_faits:
+  - F-MA017
+- url: https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans
+  type: Wikipedia FR
+  fiabilite: ✦
+  source_faits:
+  - F-MA022
+- url: https://fr.wikipedia.org/wiki/Peste_noire
+  type: Wikipedia FR
+  fiabilite: ✦
+  source_faits:
+  - F-MA010
 wolves:
-  - {nom: "Irnerius", categorie: "EXPERTS", role: "Redecouvreur CJC, fondateur Ecole de Bologne", centralite: 0.90, source_section: "§11"}
-  - {nom: "Pierre Flotte", categorie: "EXPERTS", role: "Chancelier Philippe le Bel", centralite: 0.70, source_section: "§11"}
-  - {nom: "Guillaume de Nogaret", categorie: "GOVERNMENT", role: "Garde des Sceaux, arrete les Templiers", centralite: 0.80, source_section: "§11"}
-  - {nom: "Enguerrand de Marigny", categorie: "GOVERNMENT", role: "Conseiller financier Philippe le Bel", centralite: 0.65, source_section: "§11"}
-  - {nom: "Louis IX (Saint Louis)", categorie: "GOVERNMENT", role: "Roi, reforme justice, Parlement", centralite: 0.95, source_section: "§11"}
-  - {nom: "Philippe IV le Bel", categorie: "GOVERNMENT", role: "Roi, centralise, fiscalise, spolie Templiers", centralite: 0.95, source_section: "§11"}
-  - {nom: "Boniface VIII", categorie: "INSURGENT", role: "Pape, conflit avec Philippe le Bel", centralite: 0.75, source_section: "§11"}
-  - {nom: "Francois Ier", categorie: "GOVERNMENT", role: "Roi, rente HDV 1522", centralite: 0.90, source_section: "§11"}
-  - {nom: "Charles VII", categorie: "GOVERNMENT", role: "Roi, taille permanente 1439", centralite: 0.85, source_section: "§11"}
-  - {nom: "Etienne Marcel", categorie: "INSURGENT", role: "Prevot des marchands, controle impot 1355-58", centralite: 0.65, source_section: "§11"}
-  - {nom: "Philippe II Auguste", categorie: "GOVERNMENT", role: "Roi, 150K livres/an", centralite: 0.85, source_section: "§4"}
-  - {nom: "Justinien", categorie: "GOVERNMENT", role: "Empereur, CJC 529-534", centralite: 0.85, source_section: "F002"}
-  - {nom: "Tribonien", categorie: "EXPERTS", role: "Juriste en chef CJC", centralite: 0.65, source_section: "F002"}
-  - {nom: "Banquiers lombards", categorie: "CIVIL_SOCIETY", role: "Preteurs aux rois", centralite: 0.70, source_section: "§3"}
-total_individus: 14
-cible_apex: 12
-verdict: "APEX atteint (14 superieur ou egal 12)"
-
+- nom: Irnerius
+  categorie: EXPERTS
+  role: Redecouvreur CJC, fondateur Ecole de Bologne
+  centralite: 0.9
+  source_section: §11
+- nom: Pierre Flotte
+  categorie: EXPERTS
+  role: Chancelier Philippe le Bel
+  centralite: 0.7
+  source_section: §11
+- nom: Guillaume de Nogaret
+  categorie: GOVERNMENT
+  role: Garde des Sceaux, arrete les Templiers
+  centralite: 0.8
+  source_section: §11
+- nom: Enguerrand de Marigny
+  categorie: GOVERNMENT
+  role: Conseiller financier Philippe le Bel
+  centralite: 0.65
+  source_section: §11
+- nom: Louis IX (Saint Louis)
+  categorie: GOVERNMENT
+  role: Roi, reforme justice, Parlement
+  centralite: 0.95
+  source_section: §11
+- nom: Philippe IV le Bel
+  categorie: GOVERNMENT
+  role: Roi, centralise, fiscalise, spolie Templiers
+  centralite: 0.95
+  source_section: §11
+- nom: Boniface VIII
+  categorie: INSURGENT
+  role: Pape, conflit avec Philippe le Bel
+  centralite: 0.75
+  source_section: §11
+- nom: Francois Ier
+  categorie: GOVERNMENT
+  role: Roi, rente HDV 1522
+  centralite: 0.9
+  source_section: §11
+- nom: Charles VII
+  categorie: GOVERNMENT
+  role: Roi, taille permanente 1439
+  centralite: 0.85
+  source_section: §11
+- nom: Etienne Marcel
+  categorie: INSURGENT
+  role: Prevot des marchands, controle impot 1355-58
+  centralite: 0.65
+  source_section: §11
+- nom: Philippe II Auguste
+  categorie: GOVERNMENT
+  role: Roi, 150K livres/an
+  centralite: 0.85
+  source_section: §4
+- nom: Justinien
+  categorie: GOVERNMENT
+  role: Empereur, CJC 529-534
+  centralite: 0.85
+  source_section: F002
+- nom: Tribonien
+  categorie: EXPERTS
+  role: Juriste en chef CJC
+  centralite: 0.65
+  source_section: F002
+- nom: Banquiers lombards
+  categorie: CIVIL_SOCIETY
+  role: Preteurs aux rois
+  centralite: 0.7
+  source_section: §3
 iceberg:
-  - angle: "Le MA delegitime par la Renaissance et la Revolution"
-    convergence: 0.85
-    description: >-
-      Le terme "Moyen Age" est une INVENTION des humanistes de la
-      Renaissance pour delegitimer la periode au profit de l'Antiquite
-      retrouvee. La Revolution francaise a RENFORCE ce rejet en
-      construisant son recit sur la destruction de "l'Ancien Regime".
-      Double biais narratif qui cache que le MA est un AGE
-      FONDATEUR, pas une transition obscure. Les 3 inventions
-      mediecales (Bologne, rente HDV, taille permanente) sont les
-      CHAINONS MANQUANTS de l'histoire francaise.
-    source_section: "§18 ICEBERG / Fact Registry SHADOW FACTOR"
-  - angle: "Filiation Rome->France reconstruite, pas continue (trou 594 ans)"
-    convergence: 0.90
-    description: >-
-      Le chainage Rome -> France n'est PAS continu : il est RECONSTRUIT
-      par les glossateurs de Bologne (1070) qui comblent un trou
-      documentaire de 594 ans (476-1070). Cette reconstruction est
-      le premier exemple de "rattrapage" de l'heritage antique par
-      une civilisation qui se pense comme son heritier. Le Code civil
-      1804 est une TROISIEME vague de transmission (apres Justinien
-      529-534 et Irnerius 1070). La transmission est plus complexe
-      qu'un simple heritier qui recoit un testament.
-    source_section: "§2 / §9"
-  - angle: "5 tensions du Changement de Regime reproduites au XIVe"
-    convergence: 0.80
-    description: >-
-      Les 5 tensions du Changement de Regime (extraction, capture,
-      demantelement, abdication, dette) trouvent toutes leur
-      PRECEDENT medieval : Guerre de Cent Ans + Peste noire + taille
-      permanente reproduisent les memes structures. La DIFFERENCE
-      cle : au XIVe s., la crise produit PLUS D'ETAT (le roi sort
-      renforce avec la taille permanente) ; au XXIe s., elle produit
-      PLUS DE CAPTURE (la caste extrait sans reformer). Meme
-      mecanisme, trajectoire divergente.
-    source_section: "§7 / §10 IMPACT"
-  - angle: "Legistes comme chainon entre droit romain et Etat moderne"
-    convergence: 0.75
-    description: >-
-      Les legistes de Philippe le Bel (Pierre Flotte, Nogaret, Marigny)
-      ne sont pas des nobles : ce sont des TECHNICIENS du droit formes
-      a Bologne. Ils theorisent la souverainete royale en s'appuyant
-      sur le droit romain ("le roi est empereur en son royaume" -
-      formule des glossateurs). La phrase "quod principi placuit
-      legis habet vigorem" (Digeste de Justinien) devient le
-      fondement de la monarchie absolue. SANS BOLOGNE (1070), pas de
-      legistes. SANS legistes, pas d'absolutisme. SANS absolutisme,
-      pas de Revolution francaise.
-    source_section: "§8"
-  - angle: "Templiers 1307 = premiere annulation de dette par la violence"
-    convergence: 0.70
-    description: >-
-      L'arret des Templiers (13 oct. 1307) est une ANNULATION DE
-      DETTE par la violence d'Etat. Philippe le Bel, endette par
-      les guerres flamandes et le conflit avec Boniface VIII, saisit
-      le tresor du Temple (principal creancier du roi) -> efface sa
-      dette. 15 000 hommes arretes en une nuit, l'ordre dissous en
-      1312. C'est l'equivalent feodal d'une banqueroute souveraine.
-      MECANISME REPETE en France 1789-1796 (assignats) et 2024
-      (taxe sur les super-benefices des multinationales = menace
-      d'annulation par la violence fiscale democratique).
-    source_section: "§3 / §10"
+- angle: Le MA delegitime par la Renaissance et la Revolution
+  convergence: 0.85
+  description: Le terme "Moyen Age" est une INVENTION des humanistes de la Renaissance
+    pour delegitimer la periode au profit de l'Antiquite retrouvee. La Revolution
+    francaise a RENFORCE ce rejet en construisant son recit sur la destruction de
+    "l'Ancien Regime". Double biais narratif qui cache que le MA est un AGE FONDATEUR,
+    pas une transition obscure. Les 3 inventions mediecales (Bologne, rente HDV, taille
+    permanente) sont les CHAINONS MANQUANTS de l'histoire francaise.
+  source_section: §18 ICEBERG / Fact Registry SHADOW FACTOR
+- angle: Filiation Rome->France reconstruite, pas continue (trou 594 ans)
+  convergence: 0.9
+  description: 'Le chainage Rome -> France n''est PAS continu : il est RECONSTRUIT
+    par les glossateurs de Bologne (1070) qui comblent un trou documentaire de 594
+    ans (476-1070). Cette reconstruction est le premier exemple de "rattrapage" de
+    l''heritage antique par une civilisation qui se pense comme son heritier. Le Code
+    civil 1804 est une TROISIEME vague de transmission (apres Justinien 529-534 et
+    Irnerius 1070). La transmission est plus complexe qu''un simple heritier qui recoit
+    un testament.'
+  source_section: §2 / §9
+- angle: 5 tensions du Changement de Regime reproduites au XIVe
+  convergence: 0.8
+  description: 'Les 5 tensions du Changement de Regime (extraction, capture, demantelement,
+    abdication, dette) trouvent toutes leur PRECEDENT medieval : Guerre de Cent Ans
+    + Peste noire + taille permanente reproduisent les memes structures. La DIFFERENCE
+    cle : au XIVe s., la crise produit PLUS D''ETAT (le roi sort renforce avec la
+    taille permanente) ; au XXIe s., elle produit PLUS DE CAPTURE (la caste extrait
+    sans reformer). Meme mecanisme, trajectoire divergente.'
+  source_section: §7 / §10 IMPACT
+- angle: Legistes comme chainon entre droit romain et Etat moderne
+  convergence: 0.75
+  description: 'Les legistes de Philippe le Bel (Pierre Flotte, Nogaret, Marigny)
+    ne sont pas des nobles : ce sont des TECHNICIENS du droit formes a Bologne. Ils
+    theorisent la souverainete royale en s''appuyant sur le droit romain ("le roi
+    est empereur en son royaume" - formule des glossateurs). La phrase "quod principi
+    placuit legis habet vigorem" (Digeste de Justinien) devient le fondement de la
+    monarchie absolue. SANS BOLOGNE (1070), pas de legistes. SANS legistes, pas d''absolutisme.
+    SANS absolutisme, pas de Revolution francaise.'
+  source_section: §8
+- angle: Templiers 1307 = premiere annulation de dette par la violence
+  convergence: 0.7
+  description: L'arret des Templiers (13 oct. 1307) est une ANNULATION DE DETTE par
+    la violence d'Etat. Philippe le Bel, endette par les guerres flamandes et le conflit
+    avec Boniface VIII, saisit le tresor du Temple (principal creancier du roi) ->
+    efface sa dette. 15 000 hommes arretes en une nuit, l'ordre dissous en 1312. C'est
+    l'equivalent feodal d'une banqueroute souveraine. MECANISME REPETE en France 1789-1796
+    (assignats) et 2024 (taxe sur les super-benefices des multinationales = menace
+    d'annulation par la violence fiscale democratique).
+  source_section: §3 / §10
 shadow_factor: 1.5
 ce_qui_tient:
-  - "Bologne 1070 comble le trou 476-1070 par reconstruction documentee"
-  - "Rente HDV 1522 = premier instrument de dette publique negociable"
-  - "Taille permanente 1439 = premier impot direct permanent"
-  - "Parlement 1250 = cour souveraine, ancetre Conseil d'Etat"
-  - "Legistes = techniciens du droit formes a Bologne, fondement absolutisme"
-  - "Peste noire 1347-51 = crise systemique, accelere formation Etat"
+- Bologne 1070 comble le trou 476-1070 par reconstruction documentee
+- Rente HDV 1522 = premier instrument de dette publique negociable
+- Taille permanente 1439 = premier impot direct permanent
+- Parlement 1250 = cour souveraine, ancetre Conseil d'Etat
+- Legistes = techniciens du droit formes a Bologne, fondement absolutisme
+- Peste noire 1347-51 = crise systemique, accelere formation Etat
 ce_qui_tombe:
-  - "MA n'est pas une simple transmission -> c'est une RECONSTRUCTION critique"
-  - "Templiers 1307 pas une simple 'repression religieuse' -> motif financier dominant"
-  - "Feodalite pas un systeme homogene -> 3 ordres avec droits inegaux"
-  - "Philippe le Bel sur-represente dans les sources -> biais documentaire"
-
+- MA n'est pas une simple transmission -> c'est une RECONSTRUCTION critique
+- Templiers 1307 pas une simple 'repression religieuse' -> motif financier dominant
+- Feodalite pas un systeme homogene -> 3 ordres avec droits inegaux
+- Philippe le Bel sur-represente dans les sources -> biais documentaire
 limites:
-  - "Biais Renaissance : terme 'Moyen Age' delegitime la periode au profit de l'Antiquite"
-  - "Biais Revolutionnaire : rejet en bloc de l'Ancien Regime"
-  - "Pas de sources primaires : archives medievales (Chambre des Comptes, Parlement) non consultees"
-  - "Periode 751-987 (Carolingiens) traitee trop rapidement -> renaissance juridique prepare Bologne"
-  - "Ancien Regime strict (1515-1789) sous-represente -> offices, Paulette 1604, systeme fiscal"
-  - "Sur-representation de Philippe le Bel (regne bien documente) -> biais documentaire"
-  - "5 faits marques ✧ sur 22 (F008, F009, F011, F015-F017, F020) : sources secondaires"
-
+- 'Biais Renaissance : terme ''Moyen Age'' delegitime la periode au profit de l''Antiquite'
+- 'Biais Revolutionnaire : rejet en bloc de l''Ancien Regime'
+- 'Pas de sources primaires : archives medievales (Chambre des Comptes, Parlement)
+  non consultees'
+- Periode 751-987 (Carolingiens) traitee trop rapidement -> renaissance juridique
+  prepare Bologne
+- Ancien Regime strict (1515-1789) sous-represente -> offices, Paulette 1604, systeme
+  fiscal
+- Sur-representation de Philippe le Bel (regne bien documente) -> biais documentaire
+- '5 faits marques ✧ sur 22 (F008, F009, F011, F015-F017, F020) : sources secondaires'
 perspectives_dialectiques:
-  - scenario: "A - MA comme ceinture de transmission (these continuiste medievale)"
-    these: >-
-      Le MA n'est pas une parenthese : il est la CEINTURE DE
-      TRANSMISSION qui fait passer l'heritage antique vers la France
-      moderne. Sans Bologne (1070), pas de CJC transmis. Sans CJC,
-      pas de Code civil. Sans Parlement, pas de Conseil d'Etat. Sans
-      legistes, pas d'absolutisme. Les 3 inventions mediecales
-      (redécouverte droit, dette publique, Etat fiscal) sont les
-      chainons manquants de la filiation Rome -> France.
-    cui_bono: "Medievistes, historiens du droit, europeanistes"
-    score: 0.75
-  - scenario: "B - MA comme age delegitime (these critique post-moderne)"
-    these: >-
-      Le MA est un age obscur delegitime par DEUX biais narratifs
-      ulterieurs (Renaissance et Revolution). La realite est plus
-      complexe : le MA invente l'universite, la banque, l'Etat
-      fiscal, le marche des titres. Mais c'est aussi l'age de la
-      peste, de la guerre de Cent Ans, du servage, des trois ordres
-      inegaux. C'est un age de contradictions, pas un age d'or.
-    cui_bono: "Critiques post-coloniaux, historiens des subalternes"
-    score: 0.60
-  - scenario: "C - MA comme repetition des 5 tensions du Changement de Regime"
-    these: >-
-      Les 5 tensions du Changement de Regime contemporain
-      (extraction, capture, demantelement, abdication, dette)
-      trouvent leur PRECEDENT medieval. La Guerre de Cent Ans +
-      Peste noire + taille permanente reproduisent les memes
-      structures que la mondialisation + dette 115% PIB +
-      defiance institutionnelle. Meme mecanisme, trajectoire
-      divergente : au XIVe, la crise produit plus d'Etat ; au XXIe,
-      plus de capture.
-    cui_bono: "Reformateurs, observateurs du Changement de Regime"
-    score: 0.70
+- scenario: A - MA comme ceinture de transmission (these continuiste medievale)
+  these: 'Le MA n''est pas une parenthese : il est la CEINTURE DE TRANSMISSION qui
+    fait passer l''heritage antique vers la France moderne. Sans Bologne (1070), pas
+    de CJC transmis. Sans CJC, pas de Code civil. Sans Parlement, pas de Conseil d''Etat.
+    Sans legistes, pas d''absolutisme. Les 3 inventions mediecales (redécouverte droit,
+    dette publique, Etat fiscal) sont les chainons manquants de la filiation Rome
+    -> France.'
+  cui_bono: Medievistes, historiens du droit, europeanistes
+  score: 0.75
+- scenario: B - MA comme age delegitime (these critique post-moderne)
+  these: 'Le MA est un age obscur delegitime par DEUX biais narratifs ulterieurs (Renaissance
+    et Revolution). La realite est plus complexe : le MA invente l''universite, la
+    banque, l''Etat fiscal, le marche des titres. Mais c''est aussi l''age de la peste,
+    de la guerre de Cent Ans, du servage, des trois ordres inegaux. C''est un age
+    de contradictions, pas un age d''or.'
+  cui_bono: Critiques post-coloniaux, historiens des subalternes
+  score: 0.6
+- scenario: C - MA comme repetition des 5 tensions du Changement de Regime
+  these: 'Les 5 tensions du Changement de Regime contemporain (extraction, capture,
+    demantelement, abdication, dette) trouvent leur PRECEDENT medieval. La Guerre
+    de Cent Ans + Peste noire + taille permanente reproduisent les memes structures
+    que la mondialisation + dette 115% PIB + defiance institutionnelle. Meme mecanisme,
+    trajectoire divergente : au XIVe, la crise produit plus d''Etat ; au XXIe, plus
+    de capture.'
+  cui_bono: Reformateurs, observateurs du Changement de Regime
+  score: 0.7
 tensions_non_resolues:
-  - "Bologne 1070 : reconstruction critique ou trahison du CJC ?"
-  - "Templiers 1307 : repression religieuse motivee par finance, ou l'inverse ?"
-  - "Taille 1439 : progres fiscal ou alourdissement de l'oppression ?"
-  - "Cinq tensions du Changement de Regime : invariance structurelle ou parallelisme de surface ?"
-  - "Caste contemporaine : continuation de la feodalite, ou phenomene neuf ?"
-
+- 'Bologne 1070 : reconstruction critique ou trahison du CJC ?'
+- 'Templiers 1307 : repression religieuse motivee par finance, ou l''inverse ?'
+- 'Taille 1439 : progres fiscal ou alourdissement de l''oppression ?'
+- 'Cinq tensions du Changement de Regime : invariance structurelle ou parallelisme
+  de surface ?'
+- 'Caste contemporaine : continuation de la feodalite, ou phenomene neuf ?'
 metadata:
-  source_file: "investigations/2026-06-03_sumer_article/2026-06-04_09-30_moyen_age_gense_etat_FRANCAIS_INVESTIGATION.md"
+  source_file: investigations/2026-06-03_sumer_article/2026-06-04_09-30_moyen_age_gense_etat_FRANCAIS_INVESTIGATION.md
   source_lignes: 234
-  source_taille: "22.0K"
-  date_enrichissement: "2026-06-06"
-  methode: "LLM hote (opencode) - lecture cursive + 12 sections quintessence"
-  gate_g_mecanique: "53.91% (62 F### bruts sur 14 sections, 22 affines ci-dessus)"
-  gate_g_estime_apres_enrichissement: "~85-90% (cible MEDIUM 80%, APEX 90%)"
+  source_taille: 22.0K
+  date_enrichissement: '2026-06-06'
+  methode: LLM hote (opencode) - lecture cursive + 12 sections quintessence
+  gate_g_mecanique: 53.91% (62 F### bruts sur 14 sections, 22 affines ci-dessus)
+  gate_g_estime_apres_enrichissement: ~85-90% (cible MEDIUM 80%, APEX 90%)
   shadow_factor: 1.5
-  fiabilite_globale: "Elevee (Wikipedia FR + EHNE + Persée + Herodote + cours-de-droit, 12 URLs)"
-  position_dans_enquete: "CHAINEON MANQUANT entre Rome (F-R006) et France contemporaine"
-
+  fiabilite_globale: Elevee (Wikipedia FR + EHNE + Persée + Herodote + cours-de-droit,
+    12 URLs)
+  position_dans_enquete: CHAINEON MANQUANT entre Rome (F-R006) et France contemporaine
