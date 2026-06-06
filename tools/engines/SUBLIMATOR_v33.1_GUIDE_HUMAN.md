@@ -1009,6 +1009,58 @@ sequenceDiagram
 
 ---
 
+## §9.5 Checkpoints humains (v33.1+)
+
+### Quand l'humain intervient
+
+À **3 moments** du pipeline, l'agent s'arrête et demande une décision humaine via question tool :
+
+| Checkpoint | Phase amont | Question type |
+|------------|-------------|---------------|
+| **CP1** | §0 Censeur (profil/portée) | « Quel profil/portée veux-tu ? » |
+| **CP2** | §2 Dialecticien (3 thèses) | « Quelle thèse cardinale ? » |
+| **CP3** | §3 Architecte (chaîne 8 sections) | « Quel plan narratif ? » |
+
+### Les 4 actions
+
+L'agent pose systématiquement la question :
+
+```
+L'agent a produit [description courte].
+
+Options :
+1. Valider — continuer avec cette sortie
+2. Modifier — coller ta version
+3. Refuser — retour à [phase précédente]
+4. Enrichir — ajouter des inputs
+```
+
+**Valider** = OK, on continue. **Modifier** = tu colles ta propre version, l'agent l'utilise. **Refuser** = retour à la phase précédente (max 3 fois). **Enrichir** = tu ajoutes des inputs (F### externes, thèses, sections), l'agent fusionne.
+
+### Boucle bornée (L14)
+
+Si tu refuses 3 fois de suite le même checkpoint, l'agent s'arrête et fait un bilan. Tu peux alors reprendre manuellement. Le compteur `n_refus_consecutifs` est remis à zéro si tu valides, modifies ou enrichis.
+
+### Cascade
+
+Si tu modifies CP1, tout le pipeline redémarre depuis §1. Si tu modifies CP2, §1 reste acquis, mais §3-§6 redémarrent. Si tu modifies CP3, §1-§2 restent acquis, §4-§6 redémarrent.
+
+### Différence avec v33.0
+
+En v33.0, l'agent autopilotait toutes les phases. En v33.1, **tu gardes le contrôle** sur les 3 décisions sémantiques les plus structurantes : portée (§0), thèse cardinale (§2), plan narratif (§3). L'agent continue d'arbitrer les critères techniques (gates, sourcing, formatting).
+
+### Exemple concret (Sumer/France)
+
+L'article Sumer/France 2026 (4233 mots) a été produit en v33.0 sans intervention humaine. En v33.1, l'agent aurait posé 3 questions :
+
+1. **CP1 §0** : « J'ai détecté un profil A, 13 investigations mappées (Sumer, Rome, Chine, Moyen-Âge, Islam, Inde, Amériques, Andurarum). Veux-tu rester sur Sumer pur ou élargir en comparatif multi-civilisationnel ? »
+2. **CP2 §2** : « 3 thèses détectées : INVERSION (0.477), SYSTEME (0.618 cardinale), CAPTURE (0.618). Veux-tu garder SYSTEME ou imposer une direction différente ? » (Si tu modifies ici, tu peux imposer une thèse multi-civilisationnelle.)
+3. **CP3 §3** : « Plan proposé : 8 sections, intro 360 mots, 22 F###. Veux-tu ajouter une section comparative Andurarum ? »
+
+Avec v33.1, l'article Sumer aurait pu être multi-civilisationnel grâce à un seul enrichissement en CP2 ou CP3.
+
+---
+
 ## §10 Glossaire
 
 | Terme | Définition |
@@ -1399,6 +1451,23 @@ v33.0 est une **refonte agent-pure** de v32.0, pas une évolution cosmétique. T
 - v33.0 (2026 Q2) : refonte agent-pure, 9 agents, 7 gates auto, A/B vs v32.0
 - v33.0-beta (2026 Q2-Q3) : validation A/B sur 3 pilotes
 - v33.0-stable (à venir) : promotion si A/B favorable
+
+### 15.8 v33.1 (2026-06-06) — Checkpoints humains
+
+**Type** : mineur (rétrocompatible)
+
+**Nouveautés** :
+- 3 checkpoints structurés (CP1 §0, CP2 §2, CP3 §3) avec 4 actions V/M/R/E
+- 2 nouvelles LOIS : L13 (CP obligatoire), L14 (boucle bornée 3 max)
+- Section §9.5 « Checkpoints humains » dans ce guide
+- Section §10 « CHECKPOINTS » dans la spec agent
+- Slot `checkpoints` dans le schéma d'état §4.2
+
+**Différence clé vs v33.0** : l'agent autopilotait toutes les phases. v33.1 introduit 3 points d'arbitrage humain (portée, thèse cardinale, plan) sur les décisions sémantiques structurantes.
+
+**Test live** : Sumer/France 2026 (4233 mots, publié 2026-06-06) sera rejoué en v33.1 pour mesurer l'apport des checkpoints (couverture multi-civilisationnelle attendue).
+
+**Migration** : aucune action manuelle. Les state v33.0 existants continuent de fonctionner (fallback CP validate).
 
 
 

@@ -1319,6 +1319,21 @@ v33.0 "L'Orchestrateur" — 2026-XX-XX
 − 4 profils hardcodés (transformés en runtime_config.profil_auto_detect)
 − 6 CPs manuels (remplacés par 7 gates auto)
 − 825 lignes → 550 lignes (cible)
+
+v33.1 "L'Orchestrateur + Humain" — 2026-06-06
+─────────────────────────────────────────────
++ 3 checkpoints structurés (CP1 §0, CP2 §2, CP3 §3) avec 4 actions V/M/R/E
++ 2 nouvelles LOIS : L13 (CP obligatoire) + L14 (boucle bornée 3 max)
++ Slot `checkpoints` dans le schéma d'état §4.2
++ §4.4.bis algorithme checkpoint.executor()
++ §4.7 events NDJSON `checkpoint` + `checkpoint_input`
++ §5.1.bis table 3 CP + diagramme mermaid topologique
++ §10 CHECKPOINTS section dédiée (7 sous-sections)
++ §9.5 Checkpoints humains dans le guide compagnon
+
+Type : mineur (rétrocompatible)
+Migration : aucune action requise (fallback CP validate sur state v33.0)
+Test A/B : Sumer/France 2026 rejoué pour mesurer apport CP
 ```
 
 **Légende** : `+` ajout, `−` suppression/remplacement.
