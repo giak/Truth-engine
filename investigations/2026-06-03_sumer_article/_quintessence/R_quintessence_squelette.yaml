@@ -1,0 +1,568 @@
+civ_prefix: R
+complexity: MEDIUM
+n_f_candidats: 16
+n_matrice_fusionnee: 16
+completude_pct: 5.11
+gate_g_pass: false
+f_atomiques:
+- id_target: F-R001
+  fait: Grèce ancienne
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R002
+  fait: Byzance
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R003
+  fait: Carthage
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R004
+  fait: Christianisme tardif
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R005
+  fait: Droit canon
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R006
+  fait: Architecture, art romain
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R007
+  fait: Biais élitaire des sources
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R008
+  fait: Temporalité compressée
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R009
+  fait: Biais Gibbon
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R010
+  fait: Instrumentalisation moderne
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R011
+  fait: Données économiques lacunaires
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R012
+  fait: Filiation directe
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R013
+  fait: Mieux documentée
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R014
+  fait: Échelle comparable
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R015
+  fait: Même risque romantique
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-R016
+  fait: Données plus fiables
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+utile:
+  n_dates: 11
+  n_sommes: 78
+  n_citations: 0
+  n_urls: 20
+  n_acteurs_nommes: 31
+  n_marqueurs_causalite: 6
+  n_marqueurs_rhetorique: 6
+  n_sections_plan: 18
+  sections_plan:
+  - section_num: 1
+    section_titre: RÉSUMÉ EXÉCUTIF
+    line_no: 7
+  - section_num: 2
+    section_titre: MANIPULATION_REPORT
+    line_no: 25
+  - section_num: 3
+    section_titre: CLUSTERS
+    line_no: 54
+  - section_num: 4
+    section_titre: HERMÉNEUTIQUE (L1-L6)
+    line_no: 78
+  - section_num: 5
+    section_titre: FORENSIC REASONING
+    line_no: 94
+  - section_num: 6
+    section_titre: PRISME DIALECTIQUE — 3 perspectives force égale
+    line_no: 109
+  - section_num: 7
+    section_titre: CHRONOLOGIE
+    line_no: 142
+  - section_num: 8
+    section_titre: DOMAINES
+    line_no: 169
+  - section_num: 9
+    section_titre: RÉSEAU D'ACTEURS
+    line_no: 224
+  - section_num: 10
+    section_titre: CHAÎNES DE CASCADE
+    line_no: 261
+  - section_num: 11
+    section_titre: CARTE DES PREUVES
+    line_no: 288
+  - section_num: 12
+    section_titre: CARTE DIALECTIQUE
+    line_no: 334
+  - section_num: 13
+    section_titre: PÉRIMÈTRE & LIMITES
+    line_no: 367
+  - section_num: 14
+    section_titre: ÉTAT DES CONNAISSANCES
+    line_no: 385
+  - section_num: 15
+    section_titre: SUSPICION SCORES
+    line_no: 416
+  - section_num: 16
+    section_titre: WOLVES
+    line_no: 437
+  - section_num: 17
+    section_titre: REQUEST_LOG
+    line_no: 472
+  - section_num: 18
+    section_titre: ICEBERG MAX SYNTHÈSE — Ce que la contre-enquête révèle
+    line_no: 512
+  dates:
+  - date: '2026-06-03'
+    format: ISO
+    line_no: 3
+    contexte_brut: :** APEX (16/24) | **Date :** 2026-06-03 | **Auteur :** Truth Engine
+      v
+  - date: IIIe siècle
+    format: SIECLE
+    line_no: 30
+    contexte_brut: '(Catilina, 33 ap.), inflation IIIe siècle |
+
+      | Λ Framing | 6 | Rome cadr'
+  - date: IIIe siècle
+    format: SIECLE
+    line_no: 99
+    contexte_brut: 'es économiques structurelles (IIIe siècle : inflation 1000%).
+
+      Factor N/'
+  - date: IIIe siècle
+    format: SIECLE
+    line_no: 157
+    contexte_brut: 'ée |
+
+      | 235-284 ap. | Crise du IIIe siècle : inflation (1000%), 26 emper'
+  - date: IVe siècle
+    format: SIECLE
+    line_no: 205
+    contexte_brut: ) → christianisation tardive (IVe siècle). La transition paganisme
+      → c
+  - date: IIe siècle
+    format: SIECLE
+    line_no: 238
+    contexte_brut: 'ulte, Institutes (~160 ap.) | IIe siècle | Maximale (droit) |
+
+      | Justin'
+  - date: IIIe siècle
+    format: SIECLE
+    line_no: 308
+    contexte_brut: '|
+
+      | 15 | ✧ Inflation romaine IIIe siècle : débasement denarius, 1000%'
+  - date: '326'
+    format: AN
+    line_no: 13
+    contexte_brut: '''esclavage pour dette (nexum) en 326 av. par la lex Poetelia
+      Papir'
+  - date: '1867'
+    format: AN
+    line_no: 13
+    contexte_brut: 'aboli la prison pour dette qu''en 1867, soit 2193 ans plus tard.
+
+      2.'
+  - date: '326'
+    format: AN
+    line_no: 173
+    contexte_brut: dance pour dette) a été aboli en 326 av. par la lex Poetelia Papir
+  - date: '1867'
+    format: AN
+    line_no: 175
+    contexte_brut: ':** Prison pour dette abolie en 1867. Dette publique : 3 416,3
+      Mds'
+  sommes:
+  - montant: '55'
+    format: Mds
+    line_no: 16
+    contexte_brut: — l'État-providence français (55 Mds€/an) remplit la même fonction
+  - montant: 3 416
+    format: Mds
+    line_no: 102
+    contexte_brut: nce) :** 5,7M fonctionnaires, 3 416 Mds€ dette (115,6% PIB), 15
+      000 l
+  - montant: '800'
+    format: Mds
+    line_no: 103
+    contexte_brut: Engagements hors-bilan (+500-800 Mds€), reproduction des élites
+      (8
+  - montant: 3 416
+    format: Mds
+    line_no: 137
+    contexte_brut: 'abolie 1848.
+
+      ◈ Dette France : 3 416 Mds€ (115,6% PIB) — Rome : pas de'
+  - montant: 3 416,3
+    format: Mds
+    line_no: 165
+    contexte_brut: '|
+
+      | 2025 | Dette française : 3 416,3 Mds€ (115,6% PIB) | INSEE, Banque'
+  - montant: 3 416,3
+    format: Mds
+    line_no: 175
+    contexte_brut: 'lie en 1867. Dette publique : 3 416,3 Mds€ (115,6% PIB, T2 2025).
+      Endet'
+  - montant: '550'
+    format: Mds
+    line_no: 183
+    contexte_brut: État-providence redistribue ~550 Mds€/an (prestations, retraites,
+  - montant: '400'
+    format: Mds
+    line_no: 265
+    contexte_brut: 'urs % du PIB impérial. 2008 : 400 Mds€ renflouement banques France.'
+  - montant: 3 416
+    format: Mds
+    line_no: 269
+    contexte_brut: 'tion :** 120 000 dossiers/an, 3 416 Mds€ dette publique.
+
+      **Cross-doma'
+  - montant: 3 416,3
+    format: Mds
+    line_no: 303
+    contexte_brut: '0 | ✦ Dette publique France : 3 416,3 Mds€ (115,6% PIB) | T2 2025
+      | Éta'
+  - montant: 3 416
+    format: Mds
+    line_no: 395
+    contexte_brut: 'universelle (212)
+
+      - France : 3 416 Mds€ dette, 5,7M fonctionnaires
+
+      -'
+  - montant: 5,7
+    format: M
+    line_no: 19
+    contexte_brut: 'ibbon, Mommsen (historiens) / 5,7M fonctionnaires français.
+
+
+      **G'
+  - montant: '1'
+    format: M
+    line_no: 57
+    contexte_brut: 'génocide des Gaules (César : 1M morts), guerre civile permane'
+  - montant: 5,7
+    format: M
+    line_no: 66
+    contexte_brut: et verticalement. La France (5,7M fonctionnaires, 22% emploi) a
+  - montant: '1'
+    format: M
+    line_no: 99
+    contexte_brut: 'e), génocide gaulois (César : 1M morts), crises économiques st'
+  - montant: 5,7
+    format: M
+    line_no: 102
+    contexte_brut: ': 2.8×.
+
+
+      **Shown (France) :** 5,7M fonctionnaires, 3 416 Mds€ de'
+  - montant: '68'
+    format: M
+    line_no: 134
+    contexte_brut: 'masculins) — Sécu française : 68M de bénéficiaires universels.'
+  - montant: '100'
+    format: M
+    line_no: 173
+    contexte_brut: Tibère (l'empereur a injecté 100M sesterces dans les banques).
+  - montant: '68'
+    format: M
+    line_no: 185
+    contexte_brut: rovinciaux). La France couvre 68M de personnes sans distinction
+  - montant: 5,7
+    format: M
+    line_no: 191
+    contexte_brut: 'rts juridiques.
+
+
+      **France :** 5,7M fonctionnaires (76/1000 hab.,'
+  - montant: 5,7
+    format: M
+    line_no: 193
+    contexte_brut: 't ×1000 plus élevé en France (5,7M vs ~5 000).
+
+
+      ### THÈME 4 — RÈ'
+  - montant: 5,7
+    format: M
+    line_no: 257
+    contexte_brut: 'E | Statistiques | Élevée |
+
+      | 5,7M fonctionnaires | Administrati'
+  - montant: '100'
+    format: M
+    line_no: 264
+    contexte_brut: nflouement d'État par Tibère (100M sesterces)] → [Pas de réforme
+  - montant: '100'
+    format: M
+    line_no: 265
+    contexte_brut: 'ommence]
+
+      **Quantification :** 100M sesterces injectés (Tibère).'
+  - montant: '80'
+    format: M
+    line_no: 274
+    contexte_brut: ~5 000 fonctionnaires pour 50-80M d'habitants (1/10 000). Franc
+  - montant: 5,7
+    format: M
+    line_no: 274
+    contexte_brut: 'abitants (1/10 000). France : 5,7M pour 68M (1/12). Le ratio fon'
+  - montant: '68'
+    format: M
+    line_no: 274
+    contexte_brut: '1/10 000). France : 5,7M pour 68M (1/12). Le ratio fonctionnair'
+  - montant: '1.5'
+    format: M
+    line_no: 278
+    contexte_brut: 'servation : le CJC a préservé 1.5M mots de droit romain.
+
+      **Note'
+  - montant: 5,7
+    format: M
+    line_no: 304
+    contexte_brut: 'blique | Confirmed |
+
+      | 11 | ✦ 5,7M fonctionnaires France (76/100'
+  - montant: 5,7
+    format: M
+    line_no: 395
+    contexte_brut: '- France : 3 416 Mds€ dette, 5,7M fonctionnaires
+
+      - Douze Tables'
+  citations: []
+  urls:
+  - url: https://en.wikipedia.org/wiki/Nexum
+    line_no: 294
+  - url: https://en.wikipedia.org/wiki/Gracchi_brothers
+    line_no: 295
+  - url: https://en.wikipedia.org/wiki/Financial_crisis_of_33
+    line_no: 296
+  - url: https://en.wikipedia.org/wiki/Cura_annonae
+    line_no: 297
+  - url: https://www.questjournals.org/jrhss/papers/vol12-issue8/1208384391.pdf
+    line_no: 298
+  - url: https://en.wikipedia.org/wiki/Napoleonic_Code
+    line_no: 299
+  - url: https://en.wikipedia.org/wiki/Cursus_honorum
+    line_no: 300
+  - url: https://web.archive.org/web/20090203055358/http://abacus.bates.edu/~mimber/Rciv/slavery.htm
+    line_no: 301
+  - url: https://en.wikipedia.org/wiki/Constitutio_Antoniniana
+    line_no: 302
+  - url: https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique
+    line_no: 303
+  - url: https://www.ifrap.org/fonction-publique-et-administration/combien-la-france-compte-deffectifs-publics-en-plus-par-rapport-la-moyenne-europeenne
+    line_no: 304
+  - url: https://en.wikipedia.org/wiki/Twelve_Tables
+    line_no: 305
+  - url: https://en.wikipedia.org/wiki/Catilinarian_conspiracy
+    line_no: 306
+  - url: https://en.wikipedia.org/wiki/Patronage_in_ancient_Rome
+    line_no: 307
+  - url: https://www.unrv.com/economy/inflation.php
+    line_no: 308
+  - url: https://en.wikipedia.org/wiki/Roman_citizenship
+    line_no: 309
+  - url: https://www.unrv.com/government/how-the-roman-census-worked-and-why-it-mattered.php
+    line_no: 310
+  - url: https://web.ics.purdue.edu/~rauhn/Hist_416/hist420/City+Life.htm
+    line_no: 311
+  - url: https://en.wikipedia.org/wiki/Historiography_of_the_fall_of_the_Western_Roman_Empire
+    line_no: 313
+  - url: https://antigonejournal.com/2023/07/roman-fasces/
+    line_no: 314
+  acteurs_nommes:
+  - nom: Rome versus France
+    line_no: 1
+  - nom: Contrairement à Sumer
+    line_no: 9
+  - nom: Le Corpus Juris
+    line_no: 15
+  - nom: État-entreprises en France
+    line_no: 75
+  - nom: Corpus Juris Civilis
+    line_no: 80
+  - nom: Banque de France
+    line_no: 90
+  - nom: Collège de France
+    line_no: 116
+  - nom: Académie des Inscriptions
+    line_no: 116
+  - nom: Rémus et Romulus
+    line_no: 146
+  - nom: Loi des Douze
+    line_no: 148
+  - nom: Lex Poetelia Papiria
+    line_no: 150
+  - nom: Conjuration de Catilina
+    line_no: 152
+  - nom: État par Tibère
+    line_no: 173
+  - nom: Cour des Comptes
+    line_no: 191
+  - nom: Inspection des Finances
+    line_no: 191
+  - nom: La Constitutio Antoniniana
+    line_no: 217
+  - nom: Dette publique France
+    line_no: 303
+  - nom: Cens de Servius
+    line_no: 310
+  - nom: Decline and Fall
+    line_no: 313
+  - nom: Mussolini et États-
+    line_no: 314
+  - nom: L'instrumentalisation de Rome
+    line_no: 360
+  - nom: Justinian influence Napoleon
+    line_no: 485
+  - nom: Republic fall Gibbon
+    line_no: 489
+  - nom: Roman census Servius
+    line_no: 496
+  - nom: Roman Twelve Tables
+    line_no: 497
+  - nom: Roman citizenship Caracalla Constitutio Antoniniana
+    line_no: 505
+  - nom: Sumer ou Rome
+    line_no: 523
+  - nom: Chute de Rome
+    line_no: 524
+  - nom: Sumer vs France
+    line_no: 526
+  - nom: Comparée à Sumer
+    line_no: 528
+  - nom: 'Leçon finale
+
+      Rome'
+    line_no: 549
+prompt_hote: "# PROMPT STRUCTURÉ POUR LLM HÔTE (Agent B + D)\n\nTu es le LLM hôte\
+  \ de Truth Engine. Tu reçois une enquête Sumer/Rome/Chine/etc.\net tu dois produire\
+  \ une fiche de quintessence de 12 sections.\n\n## Contexte mécanique (déjà extrait\
+  \ par Python pur)\n\n- Civ_prefix : R\n- Complexité : MEDIUM\n- Score GATE_G actuel\
+  \ : 5.11% (FAIL)\n- F### candidats (Agent A) : 16\n- F### matrice fusionnée (Agent\
+  \ C) : 16\n- Dates extraites : 11\n- Sommes extraites : 78\n- Citations extraites\
+  \ : 0\n- URLs extraites : 20\n- Acteurs nommés (heuristique) : 31\n- Sections du\
+  \ plan SUBLIMATOR : 18/18\n\n## Sections du plan SUBLIMATOR détectées\n\n  - §1\
+  \ RÉSUMÉ EXÉCUTIF (L7)\n  - §2 MANIPULATION_REPORT (L25)\n  - §3 CLUSTERS (L54)\n\
+  \  - §4 HERMÉNEUTIQUE (L1-L6) (L78)\n  - §5 FORENSIC REASONING (L94)\n  - §6 PRISME\
+  \ DIALECTIQUE — 3 perspectives force égale (L109)\n  - §7 CHRONOLOGIE (L142)\n \
+  \ - §8 DOMAINES (L169)\n  - §9 RÉSEAU D'ACTEURS (L224)\n  - §10 CHAÎNES DE CASCADE\
+  \ (L261)\n  - §11 CARTE DES PREUVES (L288)\n  - §12 CARTE DIALECTIQUE (L334)\n \
+  \ - §13 PÉRIMÈTRE & LIMITES (L367)\n  - §14 ÉTAT DES CONNAISSANCES (L385)\n  - §15\
+  \ SUSPICION SCORES (L416)\n  - §16 WOLVES (L437)\n  - §17 REQUEST_LOG (L472)\n \
+  \ - §18 ICEBERG MAX SYNTHÈSE — Ce que la contre-enquête révèle (L512)\n\n## Quelques\
+  \ sommes extraites (échantillon)\n\n  - 55 (Mds) L16: — l'État-providence français\
+  \ (55 Mds€/an) remplit la même fonction\n  - 3 416 (Mds) L102: nce) :** 5,7M fonctionnaires,\
+  \ 3 416 Mds€ dette (115,6% PIB), 15 000 l\n  - 800 (Mds) L103: Engagements hors-bilan\
+  \ (+500-800 Mds€), reproduction des élites (8\n  - 3 416 (Mds) L137: abolie 1848.\n\
+  ◈ Dette France : 3 416 Mds€ (115,6% PIB) — Rome : pas de\n  - 3 416,3 (Mds) L165:\
+  \ |\n| 2025 | Dette française : 3 416,3 Mds€ (115,6% PIB) | INSEE, Banque\n  - 3\
+  \ 416,3 (Mds) L175: lie en 1867. Dette publique : 3 416,3 Mds€ (115,6% PIB, T2 2025).\
+  \ Endet\n  - 550 (Mds) L183: État-providence redistribue ~550 Mds€/an (prestations,\
+  \ retraites,\n  - 400 (Mds) L265: urs % du PIB impérial. 2008 : 400 Mds€ renflouement\
+  \ banques France.\n  - 3 416 (Mds) L269: tion :** 120 000 dossiers/an, 3 416 Mds€\
+  \ dette publique.\n**Cross-doma\n  - 3 416,3 (Mds) L303: 0 | ✦ Dette publique France\
+  \ : 3 416,3 Mds€ (115,6% PIB) | T2 2025 | Éta\n\n## Quelques URLs extraites\n\n\
+  \  - https://en.wikipedia.org/wiki/Nexum (L294)\n  - https://en.wikipedia.org/wiki/Gracchi_brothers\
+  \ (L295)\n  - https://en.wikipedia.org/wiki/Financial_crisis_of_33 (L296)\n  - https://en.wikipedia.org/wiki/Cura_annonae\
+  \ (L297)\n  - https://www.questjournals.org/jrhss/papers/vol12-issue8/1208384391.pdf\
+  \ (L298)\n  - https://en.wikipedia.org/wiki/Napoleonic_Code (L299)\n  - https://en.wikipedia.org/wiki/Cursus_honorum\
+  \ (L300)\n  - https://web.archive.org/web/20090203055358/http://abacus.bates.edu/~mimber/Rciv/slavery.htm\
+  \ (L301)\n  - https://en.wikipedia.org/wiki/Constitutio_Antoniniana (L302)\n  -\
+  \ https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique\
+  \ (L303)\n\n## F### candidats\n\n  - F-R001 (L370): Grèce ancienne\n  - F-R002 (L371):\
+  \ Byzance\n  - F-R003 (L372): Carthage\n  - F-R004 (L373): Christianisme tardif\n\
+  \  - F-R005 (L374): Droit canon\n  - F-R006 (L375): Architecture, art romain\n \
+  \ - F-R007 (L378): Biais élitaire des sources\n  - F-R008 (L379): Temporalité compressée\n\
+  \  - F-R009 (L380): Biais Gibbon\n  - F-R010 (L381): Instrumentalisation moderne\n\
+  \  - F-R011 (L382): Données économiques lacunaires\n  - F-R012 (L529): Filiation\
+  \ directe\n  - F-R013 (L530): Mieux documentée\n  - F-R014 (L531): Échelle comparable\n\
+  \  - F-R015 (L532): Même risque romantique\n  - F-R016 (L533): Données plus fiables\n\
+  \n## 12 sections à produire\n\n1. **these_centrale** : 1 phrase résumant la thèse\
+  \ centrale\n2. **theses_implicites** : 3 thèses implicites (non explicites mais\
+  \ sous-jacentes)\n3. **f_atomiques** : compléter la matrice F### (les candidats\
+  \ ci-dessus + ajouts)\n4. **acteurs_network** : 5-15 acteurs principaux (à filtrer\
+  \ depuis la liste)\n5. **causalites** : 3-5 chaînes de causalité (≥3 liens chacune)\n\
+  6. **perspectives_dialectiques** : 3 perspectives (auteur, adverse, arbitre)\n7.\
+  \ **limites** : 3-5 limites méthodologiques\n8. **wolves** : 3-5 acteurs malveillants\
+  \ identifiés\n9. **iceberg** : 3-5 angles morts / auto-critiques\n10. **chronologie**\
+  \ : 5-10 dates clés (depuis les dates extraites + ajouts)\n11. **domaines** : 5-7\
+  \ thématiques couvertes\n12. **urls_prioritaires** : 5-10 sources clés (depuis les\
+  \ URLs extraites + ajouts)\n\n## Méthode\n\n1. Lis l'enquête complète (42,982 chars,\
+  \ en sections §1 à §18).\n2. Pour chaque section, croise les extractions mécaniques\
+  \ avec ta lecture cursive.\n3. Pour F###, enrichis chaque candidat avec date/acteur/chiffre/source/notes.\n\
+  4. Pour les acteurs, distingue les VRAIS acteurs (personnes/institutions) des expressions\
+  \ incidentes.\n5. Pour les URLs, classe par tier (1=primaire, 2=secondaire, 3=inconnu).\n\
+  \n## Output attendu\n\nYAML valide, UTF-8, structuré selon les 12 sections. Pas\
+  \ de Markdown.\n"

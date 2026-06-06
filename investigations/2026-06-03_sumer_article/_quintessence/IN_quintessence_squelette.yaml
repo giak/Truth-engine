@@ -1,0 +1,508 @@
+civ_prefix: IN
+complexity: MEDIUM
+n_f_candidats: 16
+n_matrice_fusionnee: 16
+completude_pct: 20.51
+gate_g_pass: false
+f_atomiques:
+- id_target: F-IN001
+  fait: '| URL |
+
+    |---|------|--------|-----------|-----|
+
+    | F001 | IVC : civilisation urbaine avancée (3300-1300 B'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN002
+  fait: '.wikipedia.org/wiki/Indus_Valley_Civilisation |
+
+    | F002 | Shreni (guildes) : personnalité juridique, cont'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN003
+  fait: '.wikipedia.org/wiki/Economic_history_of_India |
+
+    | F003 | Arthashastra : 15 livres, traité complet état/é'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN004
+  fait: '| https://en.wikipedia.org/wiki/Arthashastra |
+
+    | F004 | Manusmriti : 18 titres de droit, intérêt différ'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN005
+  fait: 's://en.wikipedia.org/wiki/Hindu_titles_of_law |
+
+    | F005 | Dharma : concept intégrant loi, morale, religio'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN006
+  fait: '✧ | https://ijcrt.org/papers/IJCRT2510218.pdf |
+
+    | F006 | Économie indienne : ~32% PIB mondial en 1 CE, ~'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN007
+  fait: '.wikipedia.org/wiki/Economic_history_of_India |
+
+    | F007 | Empire Maurya (322-185 BCE) : bureaucratie cent'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN008
+  fait: '-level/mauryan-administrative-system-analysis |
+
+    | F008 | Pas d''andurarum indien — dette est obligation k'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN009
+  fait: 'ntent/uploads/2010/03/HudsonLostTradition.pdf |
+
+    | F009 | Jajmani system : économie villageoise autosuffi'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN010
+  fait: 'https://en.wikipedia.org/wiki/Jajmani_system |
+
+    | F010 | Route maritime océan Indien : commerce Inde-Rom'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN011
+  fait: 'houghtco.com/indian-ocean-trade-routes-195514 |
+
+    | F011 | Universités Nalanda/Taxila : les plus grandes d'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN012
+  fait: 'Wikipedia | ✦ | (not fetched but well-known) |
+
+    | F012 | Taux d''intérêt indiens : 24%-60% annuel selon M'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN013
+  fait: 'nterest-in-ancient-india-way-towards/43890021 |
+
+    | F013 | Brahmadeya : terres données aux brahmanes, exon'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN014
+  fait: 'Thèse SYSTÈME (intégration dettes/droit/morale) : CONFIRMÉE mais TRANSFORMÉE.'
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN015
+  fait: 'Thèse CAPTURE (corps spécialisé) : CONFIRMÉE mais NUANCÉE.'
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-IN016
+  fait: 'Thèse TRANSMISSION : TRANSFORMÉE.'
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+utile:
+  n_dates: 1
+  n_sommes: 26
+  n_citations: 3
+  n_urls: 11
+  n_acteurs_nommes: 12
+  n_marqueurs_causalite: 4
+  n_marqueurs_rhetorique: 0
+  n_sections_plan: 15
+  sections_plan:
+  - section_num: 0
+    section_titre: RÉSUMÉ — le test décisif
+    line_no: 9
+  - section_num: 1
+    section_titre: MANIPULATION_REPORT
+    line_no: 23
+  - section_num: 3
+    section_titre: CLUSTERS
+    line_no: 45
+  - section_num: 4
+    section_titre: HERMÉNEUTIQUE (L1-L6)
+    line_no: 85
+  - section_num: 5
+    section_titre: FORENSIC REASONING
+    line_no: 101
+  - section_num: 6
+    section_titre: PRISME DIALECTIQUE — 3 Perspectives
+    line_no: 119
+  - section_num: 7
+    section_titre: CHRONOLOGIE
+    line_no: 144
+  - section_num: 8
+    section_titre: DOMAINES
+    line_no: 163
+  - section_num: 9
+    section_titre: RÉSEAU D'ACTEURS
+    line_no: 252
+  - section_num: 10
+    section_titre: CHAÎNES DE CASCADE
+    line_no: 267
+  - section_num: 11
+    section_titre: CARTE DES PREUVES
+    line_no: 298
+  - section_num: 12
+    section_titre: CARTE DIALECTIQUE
+    line_no: 318
+  - section_num: 13
+    section_titre: PÉRIMÈTRE & LIMITES
+    line_no: 349
+  - section_num: 14
+    section_titre: ÉTAT DES CONNAISSANCES
+    line_no: 367
+  - section_num: 15
+    section_titre: SUSPICION SCORES
+    line_no: 388
+  dates:
+  - date: '1000'
+    format: AN
+    line_no: 307
+    contexte_brut: 32% PIB mondial en 1 CE, ~28% en 1000 CE | Maddison | ✦ | https://e
+  sommes:
+  - montant: '32'
+    format: pct
+    line_no: 27
+    contexte_brut: 'sations. L''Inde représentait ~32% du PIB mondial en 1 CE |
+
+      | **'
+  - montant: '30'
+    format: pct
+    line_no: 56
+    contexte_brut: ION (✓) — L'Inde représentait 30% de la population mondiale en
+  - montant: '2'
+    format: pct
+    line_no: 71
+    contexte_brut: 'ifférenciés par caste (Manu : 2%/mois Brahmin, 5%/mois Shudra)'
+  - montant: '5'
+    format: pct
+    line_no: 71
+    contexte_brut: 'aste (Manu : 2%/mois Brahmin, 5%/mois Shudra)
+
+
+      ### TEMPORAL (⏰'
+  - montant: '32'
+    format: pct
+    line_no: 108
+    contexte_brut: 'rrompue
+
+      - L''Inde représentait 32% du PIB mondial en 1 CE (vs Ro'
+  - montant: '25'
+    format: pct
+    line_no: 108
+    contexte_brut: 'PIB mondial en 1 CE (vs Rome ~25%, Chine ~26%)
+
+      - L''Inde avait l'
+  - montant: '26'
+    format: pct
+    line_no: 108
+    contexte_brut: 'en 1 CE (vs Rome ~25%, Chine ~26%)
+
+      - L''Inde avait le système ju'
+  - montant: '2'
+    format: pct
+    line_no: 172
+    contexte_brut: 'IIIe s. CE) :**
+
+      - Brahmanes : 2% par mois (24% annuel)
+
+      - Kshat'
+  - montant: '24'
+    format: pct
+    line_no: 172
+    contexte_brut: '**
+
+      - Brahmanes : 2% par mois (24% annuel)
+
+      - Kshatriyas : 3% par'
+  - montant: '3'
+    format: pct
+    line_no: 173
+    contexte_brut: 's (24% annuel)
+
+      - Kshatriyas : 3% par mois (36% annuel)
+
+      - Vaish'
+  - montant: '36'
+    format: pct
+    line_no: 173
+    contexte_brut: ')
+
+      - Kshatriyas : 3% par mois (36% annuel)
+
+      - Vaishyas : 4% par m'
+  - montant: '4'
+    format: pct
+    line_no: 174
+    contexte_brut: 'ois (36% annuel)
+
+      - Vaishyas : 4% par mois (48% annuel)
+
+      - Shudr'
+  - montant: '48'
+    format: pct
+    line_no: 174
+    contexte_brut: 'el)
+
+      - Vaishyas : 4% par mois (48% annuel)
+
+      - Shudras : 5% par mo'
+  - montant: '5'
+    format: pct
+    line_no: 175
+    contexte_brut: 'mois (48% annuel)
+
+      - Shudras : 5% par mois (60% annuel)
+
+
+      Ces ta'
+  - montant: '60'
+    format: pct
+    line_no: 175
+    contexte_brut: 'uel)
+
+      - Shudras : 5% par mois (60% annuel)
+
+
+      Ces taux sont TRÈS É'
+  - montant: '12'
+    format: pct
+    line_no: 177
+    contexte_brut: ÉS comparés aux taux romains (12% usuram) et mésopotamiens (20%
+  - montant: '20'
+    format: pct
+    line_no: 177
+    contexte_brut: 12% usuram) et mésopotamiens (20% argent, 33% orge). Le différe
+  - montant: '33'
+    format: pct
+    line_no: 177
+    contexte_brut: et mésopotamiens (20% argent, 33% orge). Le différentiel par ca
+  - montant: '32'
+    format: pct
+    line_no: 276
+    contexte_brut: '''article. Perte épistémique = 32% du PIB mondial antique ignoré'
+  - montant: '5'
+    format: pct
+    line_no: 305
+    contexte_brut: érêt différencié par caste (2-5%/mois) | Wikipedia | ✦ | https
+  - montant: '32'
+    format: pct
+    line_no: 307
+    contexte_brut: '| F006 | Économie indienne : ~32% PIB mondial en 1 CE, ~28% en'
+  - montant: '28'
+    format: pct
+    line_no: 307
+    contexte_brut: ': ~32% PIB mondial en 1 CE, ~28% en 1000 CE | Maddison | ✦ | h'
+  - montant: '24'
+    format: pct
+    line_no: 313
+    contexte_brut: '12 | Taux d''intérêt indiens : 24%-60% annuel selon Manu | SlidS'
+  - montant: '60'
+    format: pct
+    line_no: 313
+    contexte_brut: 'Taux d''intérêt indiens : 24%-60% annuel selon Manu | SlidShare'
+  - montant: '32'
+    format: pct
+    line_no: 373
+    contexte_brut: 'caste
+
+      - L''Inde représentait ~32% du PIB mondial en 1 CE
+
+      - Il n'
+  - montant: '20'
+    format: pct
+    line_no: 393
+    contexte_brut: ',75 | Estimations PIB ancien ±20% |
+
+      | IJCRT (dharma) | 0,50 | J'
+  citations:
+  - citation: grandes civilisations
+    line_no: 29
+    contexte_brut: '**7** | Cadrage « 3 civilisations » exclut l''Inde sans justification.
+      Eurocentrisme implicite : les « grandes civilisations » sont celles qui mènent
+      à l''Eu'
+  - citation: debt + droit + morale
+    line_no: 61
+    contexte_brut: 'ions
+
+
+      ### FRAMING (Λ:7 — Λ++)
+
+      **Formule : Frame = overlap_count × salience × repetition**
+
+      - Cadrage « debt + droit + morale » construit POUR exclure l''Inde'
+  - citation: Comme on recueille des fruits d'un jardin à mesure qu'ils mûrissent,
+      ainsi le roi doit collecter les taxes sans les faire souffrir.
+    line_no: 231
+    contexte_brut: 'ionnelles
+
+      - Amendes judiciaires
+
+      - Revenus des monopoles d''État (mines, forêts, sel)
+
+
+      **Principe :** « Comme on recueille des fruits d''un jardin à mesure qu''ils
+      mûrissent, ainsi le roi doit collecter les taxes sans les faire souffrir. »
+      (Arthashastra)
+
+
+      Citation cité'
+  urls:
+  - url: https://en.wikipedia.org/wiki/Indus_Valley_Civilisation
+    line_no: 302
+  - url: https://en.wikipedia.org/wiki/Economic_history_of_India
+    line_no: 303
+  - url: https://en.wikipedia.org/wiki/Arthashastra
+    line_no: 304
+  - url: https://en.wikipedia.org/wiki/Hindu_titles_of_law
+    line_no: 305
+  - url: https://ijcrt.org/papers/IJCRT2510218.pdf
+    line_no: 306
+  - url: https://en.wikipedia.org/wiki/Economic_history_of_India
+    line_no: 307
+  - url: https://pubadmin.institute/administrative-system-at-union-level/mauryan-administrative-system-analysis
+    line_no: 308
+  - url: https://michael-hudson.com/wp-content/uploads/2010/03/HudsonLostTradition.pdf
+    line_no: 309
+  - url: https://en.wikipedia.org/wiki/Jajmani_system
+    line_no: 310
+  - url: https://www.thoughtco.com/indian-ocean-trade-routes-195514
+    line_no: 311
+  - url: https://www.slideshare.net/slideshow/rate-of-interest-in-ancient-india-way-towards/43890021
+    line_no: 313
+  acteurs_nommes:
+  - nom: Rome ou Chine
+    line_no: 13
+  - nom: Asie du Sud-
+    line_no: 17
+  - nom: Aucune comparaison Inde
+    line_no: 57
+  - nom: L'article étudie Sumer
+    line_no: 87
+  - nom: Empire of Lies
+    line_no: 115
+  - nom: Début civilisation Indus
+    line_no: 148
+  - nom: Commerce avec Mésopotamie
+    line_no: 149
+  - nom: Formation des Vedas
+    line_no: 150
+  - nom: Sultanat de Delhi
+    line_no: 157
+  - nom: Arthashastra de Kautilya
+    line_no: 211
+  - nom: Orient et Rome
+    line_no: 233
+  - nom: Auteur légendaire Manusmriti
+    line_no: 263
+prompt_hote: "# PROMPT STRUCTURÉ POUR LLM HÔTE (Agent B + D)\n\nTu es le LLM hôte\
+  \ de Truth Engine. Tu reçois une enquête Sumer/Rome/Chine/etc.\net tu dois produire\
+  \ une fiche de quintessence de 12 sections.\n\n## Contexte mécanique (déjà extrait\
+  \ par Python pur)\n\n- Civ_prefix : IN\n- Complexité : MEDIUM\n- Score GATE_G actuel\
+  \ : 20.51% (FAIL)\n- F### candidats (Agent A) : 16\n- F### matrice fusionnée (Agent\
+  \ C) : 16\n- Dates extraites : 1\n- Sommes extraites : 26\n- Citations extraites\
+  \ : 3\n- URLs extraites : 11\n- Acteurs nommés (heuristique) : 12\n- Sections du\
+  \ plan SUBLIMATOR : 15/18\n\n## Sections du plan SUBLIMATOR détectées\n\n  - §0\
+  \ RÉSUMÉ — le test décisif (L9)\n  - §1 MANIPULATION_REPORT (L23)\n  - §3 CLUSTERS\
+  \ (L45)\n  - §4 HERMÉNEUTIQUE (L1-L6) (L85)\n  - §5 FORENSIC REASONING (L101)\n\
+  \  - §6 PRISME DIALECTIQUE — 3 Perspectives (L119)\n  - §7 CHRONOLOGIE (L144)\n\
+  \  - §8 DOMAINES (L163)\n  - §9 RÉSEAU D'ACTEURS (L252)\n  - §10 CHAÎNES DE CASCADE\
+  \ (L267)\n  - §11 CARTE DES PREUVES (L298)\n  - §12 CARTE DIALECTIQUE (L318)\n \
+  \ - §13 PÉRIMÈTRE & LIMITES (L349)\n  - §14 ÉTAT DES CONNAISSANCES (L367)\n  - §15\
+  \ SUSPICION SCORES (L388)\n\n## Quelques sommes extraites (échantillon)\n\n  - 32\
+  \ (pct) L27: sations. L'Inde représentait ~32% du PIB mondial en 1 CE |\n| **\n\
+  \  - 30 (pct) L56: ION (✓) — L'Inde représentait 30% de la population mondiale en\n\
+  \  - 2 (pct) L71: ifférenciés par caste (Manu : 2%/mois Brahmin, 5%/mois Shudra)\n\
+  \  - 5 (pct) L71: aste (Manu : 2%/mois Brahmin, 5%/mois Shudra)\n\n### TEMPORAL\
+  \ (⏰\n  - 32 (pct) L108: rrompue\n- L'Inde représentait 32% du PIB mondial en 1\
+  \ CE (vs Ro\n  - 25 (pct) L108: PIB mondial en 1 CE (vs Rome ~25%, Chine ~26%)\n\
+  - L'Inde avait l\n  - 26 (pct) L108: en 1 CE (vs Rome ~25%, Chine ~26%)\n- L'Inde\
+  \ avait le système ju\n  - 2 (pct) L172: IIIe s. CE) :**\n- Brahmanes : 2% par mois\
+  \ (24% annuel)\n- Kshat\n  - 24 (pct) L172: **\n- Brahmanes : 2% par mois (24% annuel)\n\
+  - Kshatriyas : 3% par\n  - 3 (pct) L173: s (24% annuel)\n- Kshatriyas : 3% par mois\
+  \ (36% annuel)\n- Vaish\n\n## Quelques URLs extraites\n\n  - https://en.wikipedia.org/wiki/Indus_Valley_Civilisation\
+  \ (L302)\n  - https://en.wikipedia.org/wiki/Economic_history_of_India (L303)\n \
+  \ - https://en.wikipedia.org/wiki/Arthashastra (L304)\n  - https://en.wikipedia.org/wiki/Hindu_titles_of_law\
+  \ (L305)\n  - https://ijcrt.org/papers/IJCRT2510218.pdf (L306)\n  - https://en.wikipedia.org/wiki/Economic_history_of_India\
+  \ (L307)\n  - https://pubadmin.institute/administrative-system-at-union-level/mauryan-administrative-system-analysis\
+  \ (L308)\n  - https://michael-hudson.com/wp-content/uploads/2010/03/HudsonLostTradition.pdf\
+  \ (L309)\n  - https://en.wikipedia.org/wiki/Jajmani_system (L310)\n  - https://www.thoughtco.com/indian-ocean-trade-routes-195514\
+  \ (L311)\n\n## F### candidats\n\n  - F-IN001 (L302): | URL |\n|---|------|--------|-----------|-----|\n\
+  | F001 | IVC : civilisation urba\n  - F-IN002 (L303): .wikipedia.org/wiki/Indus_Valley_Civilisation\
+  \ |\n| F002 | Shreni (guildes) : pers\n  - F-IN003 (L304): .wikipedia.org/wiki/Economic_history_of_India\
+  \ |\n| F003 | Arthashastra : 15 livre\n  - F-IN004 (L305): | https://en.wikipedia.org/wiki/Arthashastra\
+  \ |\n| F004 | Manusmriti : 18 titres d\n  - F-IN005 (L306): s://en.wikipedia.org/wiki/Hindu_titles_of_law\
+  \ |\n| F005 | Dharma : concept intégr\n  - F-IN006 (L307): ✧ | https://ijcrt.org/papers/IJCRT2510218.pdf\
+  \ |\n| F006 | Économie indienne : ~32\n  - F-IN007 (L308): .wikipedia.org/wiki/Economic_history_of_India\
+  \ |\n| F007 | Empire Maurya (322-185 \n  - F-IN008 (L309): -level/mauryan-administrative-system-analysis\
+  \ |\n| F008 | Pas d'andurarum indien \n  - F-IN009 (L310): ntent/uploads/2010/03/HudsonLostTradition.pdf\
+  \ |\n| F009 | Jajmani system : économ\n  - F-IN010 (L311): https://en.wikipedia.org/wiki/Jajmani_system\
+  \ |\n| F010 | Route maritime océan Ind\n  - F-IN011 (L312): houghtco.com/indian-ocean-trade-routes-195514\
+  \ |\n| F011 | Universités Nalanda/Tax\n  - F-IN012 (L313): Wikipedia | ✦ | (not\
+  \ fetched but well-known) |\n| F012 | Taux d'intérêt indiens :\n  - F-IN013 (L314):\
+  \ nterest-in-ancient-india-way-towards/43890021 |\n| F013 | Brahmadeya : terres\
+  \ don\n  - F-IN014 (L12): Thèse SYSTÈME (intégration dettes/droit/morale) : CONFIRMÉE\
+  \ mais TRANSFORMÉE.\n  - F-IN015 (L14): Thèse CAPTURE (corps spécialisé) : CONFIRMÉE\
+  \ mais NUANCÉE.\n  - F-IN016 (L16): Thèse TRANSMISSION : TRANSFORMÉE.\n\n## 12 sections\
+  \ à produire\n\n1. **these_centrale** : 1 phrase résumant la thèse centrale\n2.\
+  \ **theses_implicites** : 3 thèses implicites (non explicites mais sous-jacentes)\n\
+  3. **f_atomiques** : compléter la matrice F### (les candidats ci-dessus + ajouts)\n\
+  4. **acteurs_network** : 5-15 acteurs principaux (à filtrer depuis la liste)\n5.\
+  \ **causalites** : 3-5 chaînes de causalité (≥3 liens chacune)\n6. **perspectives_dialectiques**\
+  \ : 3 perspectives (auteur, adverse, arbitre)\n7. **limites** : 3-5 limites méthodologiques\n\
+  8. **wolves** : 3-5 acteurs malveillants identifiés\n9. **iceberg** : 3-5 angles\
+  \ morts / auto-critiques\n10. **chronologie** : 5-10 dates clés (depuis les dates\
+  \ extraites + ajouts)\n11. **domaines** : 5-7 thématiques couvertes\n12. **urls_prioritaires**\
+  \ : 5-10 sources clés (depuis les URLs extraites + ajouts)\n\n## Méthode\n\n1. Lis\
+  \ l'enquête complète (22,320 chars, en sections §1 à §18).\n2. Pour chaque section,\
+  \ croise les extractions mécaniques avec ta lecture cursive.\n3. Pour F###, enrichis\
+  \ chaque candidat avec date/acteur/chiffre/source/notes.\n4. Pour les acteurs, distingue\
+  \ les VRAIS acteurs (personnes/institutions) des expressions incidentes.\n5. Pour\
+  \ les URLs, classe par tier (1=primaire, 2=secondaire, 3=inconnu).\n\n## Output\
+  \ attendu\n\nYAML valide, UTF-8, structuré selon les 12 sections. Pas de Markdown.\n"

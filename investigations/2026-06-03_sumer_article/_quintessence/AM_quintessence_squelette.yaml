@@ -1,0 +1,349 @@
+civ_prefix: AM
+complexity: MEDIUM
+n_f_candidats: 15
+n_matrice_fusionnee: 15
+completude_pct: 23.81
+gate_g_pass: false
+f_atomiques:
+- id_target: F-AM001
+  fait: '| URL |
+
+    |---|------|--------|-----------|-----|
+
+    | F001 | Caral : plus ancienne civilisation américaine ('
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM002
+  fait: 'en.wikipedia.org/wiki/Caral–Supe_civilization |
+
+    | F002 | Économie inca : PAS de monnaie, PAS de marchés,'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM003
+  fait: 'wikipedia.org/wiki/Economy_of_the_Inca_Empire |
+
+    | F003 | Mit''a : impôt-travail rotationnel, base de l''éc'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM004
+  fait: '✦ | https://en.wikipedia.org/wiki/Mita_(Inca) |
+
+    | F004 | Ayni/minka : réciprocité et travail collectif c'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM005
+  fait: 'edia | ✦ | https://en.wikipedia.org/wiki/Ayni |
+
+    | F005 | Qhapaq Ñan : 40 000 km de routes, plus long que'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM006
+  fait: 'ttps://en.wikipedia.org/wiki/Inca_road_system |
+
+    | F006 | Quipu : système décimal positionnel, census, fi'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM007
+  fait: 'dia | ✦ | https://en.wikipedia.org/wiki/Quipu |
+
+    | F007 | Quipucamayocs : caste spécialisée de comptables'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM008
+  fait: 'dia | ✧ | https://en.wikipedia.org/wiki/Quipu |
+
+    | F008 | Aztèque : cacao monnaie, tribut, pochteca march'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM009
+  fait: '| ✦ | https://en.wikipedia.org/wiki/Pochteca |
+
+    | F009 | Maya : zéro mathématique, système juridique int'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM010
+  fait: 'tps://en.wikipedia.org/wiki/Maya_civilization |
+
+    | F010 | Tenochtitlan : 200 000+ habitants en 1519, plus'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM011
+  fait: '| https://en.wikipedia.org/wiki/Tenochtitlan |
+
+    | F011 | Olmèque : écriture glyphique, calendrier, dès 1'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM012
+  fait: 'dia | ✦ | https://en.wikipedia.org/wiki/Olmec |
+
+    | F012 | Pas d''intérêt composé documenté dans les civili'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM013
+  fait: 'Thèse SYSTÈME (intégration dettes/droit/morale) : RÉFUTÉE partiellement.'
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM014
+  fait: 'Thèse CAPTURE : CONFIRMÉE mais TRANSFORMÉE.'
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-AM015
+  fait: 'Thèse TRANSMISSION : INVALIDÉE.'
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+utile:
+  n_dates: 1
+  n_sommes: 4
+  n_citations: 3
+  n_urls: 11
+  n_acteurs_nommes: 8
+  n_marqueurs_causalite: 2
+  n_marqueurs_rhetorique: 1
+  n_sections_plan: 15
+  sections_plan:
+  - section_num: 0
+    section_titre: RÉSUMÉ — le réfutateur en chef
+    line_no: 9
+  - section_num: 1
+    section_titre: MANIPULATION_REPORT
+    line_no: 23
+  - section_num: 3
+    section_titre: CLUSTERS
+    line_no: 45
+  - section_num: 4
+    section_titre: HERMÉNEUTIQUE (L1-L6)
+    line_no: 87
+  - section_num: 5
+    section_titre: FORENSIC REASONING
+    line_no: 103
+  - section_num: 6
+    section_titre: PRISME DIALECTIQUE — 3 Perspectives
+    line_no: 123
+  - section_num: 7
+    section_titre: CHRONOLOGIE
+    line_no: 144
+  - section_num: 8
+    section_titre: DOMAINES
+    line_no: 159
+  - section_num: 9
+    section_titre: RÉSEAU D'ACTEURS
+    line_no: 215
+  - section_num: 10
+    section_titre: CHAÎNES DE CASCADE
+    line_no: 230
+  - section_num: 11
+    section_titre: CARTE DES PREUVES
+    line_no: 261
+  - section_num: 12
+    section_titre: CARTE DIALECTIQUE
+    line_no: 280
+  - section_num: 13
+    section_titre: PÉRIMÈTRE & LIMITES
+    line_no: 316
+  - section_num: 14
+    section_titre: ÉTAT DES CONNAISSANCES
+    line_no: 334
+  - section_num: 15
+    section_titre: SUSPICION SCORES
+    line_no: 355
+  dates:
+  - date: '1519'
+    format: AN
+    line_no: 274
+    contexte_brut: 'chtitlan : 200 000+ habitants en 1519, plus grande ville du monde
+      |'
+  sommes:
+  - montant: '10'
+    format: M
+    line_no: 110
+    contexte_brut: 'ccidentale
+
+      - Inca : empire de 10 millions d''habitants, 40 000 km de rou'
+  - montant: '100'
+    format: pct
+    line_no: 99
+    contexte_brut: Les sources de l'article sont 100% occidentales. Aucun spécialis
+  - montant: 15,7
+    format: pct
+    line_no: 117
+    contexte_brut: ':** 6,4×
+
+      **Shown % :** 3/19 = 15,7%
+
+
+      **Empire of Lies synthesis :'
+  - montant: '90'
+    format: pct
+    line_no: 309
+    contexte_brut: ente de systèmes alternatifs, 90% de la population amérindienne
+  citations:
+  - citation: civilisations antiques
+    line_no: 29
+    contexte_brut: ': cacao + tissu comme monnaie. Pas de dette au sens occidental
+      |
+
+      | **Λ** FRAMING | **8** | Cadrage « civilisations antiques » = implicitement
+      « Ancien Mond'
+  - citation: civilisations antiques
+    line_no: 89
+    contexte_brut: 'e sur le plan épistémique
+
+
+      ---
+
+
+      ## §4 HERMÉNEUTIQUE (L1-L6)
+
+
+      **L1 — EXPLICIT** : L''article parle de « civilisations antiques » sans préciser
+      qu''il ne couvre'
+  - citation: des nourrissons aux aveugles de plus de 80 ans
+    line_no: 178
+    contexte_brut: '* : addition, soustraction, multiplication, division
+
+      - **Census** : recensement de TOUS les sujets, « des nourrissons aux aveugles
+      de plus de 80 ans »
+
+      - **Fiscalité** : enregistrem'
+  urls:
+  - url: https://en.wikipedia.org/wiki/Caral–Supe_civilization
+    line_no: 265
+  - url: https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire
+    line_no: 266
+  - url: https://en.wikipedia.org/wiki/Mita_(Inca
+    line_no: 267
+  - url: https://en.wikipedia.org/wiki/Ayni
+    line_no: 268
+  - url: https://en.wikipedia.org/wiki/Inca_road_system
+    line_no: 269
+  - url: https://en.wikipedia.org/wiki/Quipu
+    line_no: 270
+  - url: https://en.wikipedia.org/wiki/Quipu
+    line_no: 271
+  - url: https://en.wikipedia.org/wiki/Pochteca
+    line_no: 272
+  - url: https://en.wikipedia.org/wiki/Maya_civilization
+    line_no: 273
+  - url: https://en.wikipedia.org/wiki/Tenochtitlan
+    line_no: 274
+  - url: https://en.wikipedia.org/wiki/Olmec
+    line_no: 275
+  acteurs_nommes:
+  - nom: Le Sapa Inca
+    line_no: 15
+  - nom: L'absence des Amériques
+    line_no: 30
+  - nom: Chez les Aztèques
+    line_no: 70
+  - nom: Empire of Lies
+    line_no: 119
+  - nom: Pizarro capture Atahualpa
+    line_no: 155
+  - nom: Inca vs Aztèque vs Articles
+    line_no: 184
+  - nom: Isolement des Amériques
+    line_no: 252
+  - nom: Quipu Database Project
+    line_no: 364
+prompt_hote: "# PROMPT STRUCTURÉ POUR LLM HÔTE (Agent B + D)\n\nTu es le LLM hôte\
+  \ de Truth Engine. Tu reçois une enquête Sumer/Rome/Chine/etc.\net tu dois produire\
+  \ une fiche de quintessence de 12 sections.\n\n## Contexte mécanique (déjà extrait\
+  \ par Python pur)\n\n- Civ_prefix : AM\n- Complexité : MEDIUM\n- Score GATE_G actuel\
+  \ : 23.81% (FAIL)\n- F### candidats (Agent A) : 15\n- F### matrice fusionnée (Agent\
+  \ C) : 15\n- Dates extraites : 1\n- Sommes extraites : 4\n- Citations extraites\
+  \ : 3\n- URLs extraites : 11\n- Acteurs nommés (heuristique) : 8\n- Sections du\
+  \ plan SUBLIMATOR : 15/18\n\n## Sections du plan SUBLIMATOR détectées\n\n  - §0\
+  \ RÉSUMÉ — le réfutateur en chef (L9)\n  - §1 MANIPULATION_REPORT (L23)\n  - §3\
+  \ CLUSTERS (L45)\n  - §4 HERMÉNEUTIQUE (L1-L6) (L87)\n  - §5 FORENSIC REASONING\
+  \ (L103)\n  - §6 PRISME DIALECTIQUE — 3 Perspectives (L123)\n  - §7 CHRONOLOGIE\
+  \ (L144)\n  - §8 DOMAINES (L159)\n  - §9 RÉSEAU D'ACTEURS (L215)\n  - §10 CHAÎNES\
+  \ DE CASCADE (L230)\n  - §11 CARTE DES PREUVES (L261)\n  - §12 CARTE DIALECTIQUE\
+  \ (L280)\n  - §13 PÉRIMÈTRE & LIMITES (L316)\n  - §14 ÉTAT DES CONNAISSANCES (L334)\n\
+  \  - §15 SUSPICION SCORES (L355)\n\n## Quelques sommes extraites (échantillon)\n\
+  \n  - 10 (M) L110: ccidentale\n- Inca : empire de 10 millions d'habitants, 40 000\
+  \ km de rou\n  - 100 (pct) L99: Les sources de l'article sont 100% occidentales.\
+  \ Aucun spécialis\n  - 15,7 (pct) L117: :** 6,4×\n**Shown % :** 3/19 = 15,7%\n\n\
+  **Empire of Lies synthesis :\n  - 90 (pct) L309: ente de systèmes alternatifs, 90%\
+  \ de la population amérindienne\n\n## Quelques URLs extraites\n\n  - https://en.wikipedia.org/wiki/Caral–Supe_civilization\
+  \ (L265)\n  - https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire (L266)\n\
+  \  - https://en.wikipedia.org/wiki/Mita_(Inca (L267)\n  - https://en.wikipedia.org/wiki/Ayni\
+  \ (L268)\n  - https://en.wikipedia.org/wiki/Inca_road_system (L269)\n  - https://en.wikipedia.org/wiki/Quipu\
+  \ (L270)\n  - https://en.wikipedia.org/wiki/Quipu (L271)\n  - https://en.wikipedia.org/wiki/Pochteca\
+  \ (L272)\n  - https://en.wikipedia.org/wiki/Maya_civilization (L273)\n  - https://en.wikipedia.org/wiki/Tenochtitlan\
+  \ (L274)\n\n## F### candidats\n\n  - F-AM001 (L265): | URL |\n|---|------|--------|-----------|-----|\n\
+  | F001 | Caral : plus ancienne c\n  - F-AM002 (L266): en.wikipedia.org/wiki/Caral–Supe_civilization\
+  \ |\n| F002 | Économie inca : PAS de \n  - F-AM003 (L267): wikipedia.org/wiki/Economy_of_the_Inca_Empire\
+  \ |\n| F003 | Mit'a : impôt-travail r\n  - F-AM004 (L268): ✦ | https://en.wikipedia.org/wiki/Mita_(Inca)\
+  \ |\n| F004 | Ayni/minka : réciprocit\n  - F-AM005 (L269): edia | ✦ | https://en.wikipedia.org/wiki/Ayni\
+  \ |\n| F005 | Qhapaq Ñan : 40 000 km \n  - F-AM006 (L270): ttps://en.wikipedia.org/wiki/Inca_road_system\
+  \ |\n| F006 | Quipu : système décimal\n  - F-AM007 (L271): dia | ✦ | https://en.wikipedia.org/wiki/Quipu\
+  \ |\n| F007 | Quipucamayocs : caste s\n  - F-AM008 (L272): dia | ✧ | https://en.wikipedia.org/wiki/Quipu\
+  \ |\n| F008 | Aztèque : cacao monnaie\n  - F-AM009 (L273): | ✦ | https://en.wikipedia.org/wiki/Pochteca\
+  \ |\n| F009 | Maya : zéro mathématique\n  - F-AM010 (L274): tps://en.wikipedia.org/wiki/Maya_civilization\
+  \ |\n| F010 | Tenochtitlan : 200 000+\n  - F-AM011 (L275): | https://en.wikipedia.org/wiki/Tenochtitlan\
+  \ |\n| F011 | Olmèque : écriture glyph\n  - F-AM012 (L276): dia | ✦ | https://en.wikipedia.org/wiki/Olmec\
+  \ |\n| F012 | Pas d'intérêt composé d\n  - F-AM013 (L12): Thèse SYSTÈME (intégration\
+  \ dettes/droit/morale) : RÉFUTÉE partiellement.\n  - F-AM014 (L14): Thèse CAPTURE\
+  \ : CONFIRMÉE mais TRANSFORMÉE.\n  - F-AM015 (L16): Thèse TRANSMISSION : INVALIDÉE.\n\
+  \n## 12 sections à produire\n\n1. **these_centrale** : 1 phrase résumant la thèse\
+  \ centrale\n2. **theses_implicites** : 3 thèses implicites (non explicites mais\
+  \ sous-jacentes)\n3. **f_atomiques** : compléter la matrice F### (les candidats\
+  \ ci-dessus + ajouts)\n4. **acteurs_network** : 5-15 acteurs principaux (à filtrer\
+  \ depuis la liste)\n5. **causalites** : 3-5 chaînes de causalité (≥3 liens chacune)\n\
+  6. **perspectives_dialectiques** : 3 perspectives (auteur, adverse, arbitre)\n7.\
+  \ **limites** : 3-5 limites méthodologiques\n8. **wolves** : 3-5 acteurs malveillants\
+  \ identifiés\n9. **iceberg** : 3-5 angles morts / auto-critiques\n10. **chronologie**\
+  \ : 5-10 dates clés (depuis les dates extraites + ajouts)\n11. **domaines** : 5-7\
+  \ thématiques couvertes\n12. **urls_prioritaires** : 5-10 sources clés (depuis les\
+  \ URLs extraites + ajouts)\n\n## Méthode\n\n1. Lis l'enquête complète (21,060 chars,\
+  \ en sections §1 à §18).\n2. Pour chaque section, croise les extractions mécaniques\
+  \ avec ta lecture cursive.\n3. Pour F###, enrichis chaque candidat avec date/acteur/chiffre/source/notes.\n\
+  4. Pour les acteurs, distingue les VRAIS acteurs (personnes/institutions) des expressions\
+  \ incidentes.\n5. Pour les URLs, classe par tier (1=primaire, 2=secondaire, 3=inconnu).\n\
+  \n## Output attendu\n\nYAML valide, UTF-8, structuré selon les 12 sections. Pas\
+  \ de Markdown.\n"

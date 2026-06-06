@@ -1,0 +1,340 @@
+civ_prefix: A
+complexity: MEDIUM
+n_f_candidats: 10
+n_matrice_fusionnee: 10
+completude_pct: 22.22
+gate_g_pass: false
+f_atomiques:
+- id_target: F-A001
+  fait: Dettes de subsistance
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-A002
+  fait: Arriérés d'impôts
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-A003
+  fait: Dettes sur gage
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-A004
+  fait: Prêts commerciaux
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-A005
+  fait: Dettes entre marchands
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-A006
+  fait: Dettes internationales/commerciales
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-A007
+  fait: Charpin rejette explicitement
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-A008
+  fait: Les sources primaires ne soutiennent pas Hudson à 100%
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-A009
+  fait: Le consensus assyriologique
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-A010
+  fait: Hudson n'est pas assyriologue
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+utile:
+  n_dates: 7
+  n_sommes: 2
+  n_citations: 32
+  n_urls: 0
+  n_acteurs_nommes: 17
+  n_marqueurs_causalite: 1
+  n_marqueurs_rhetorique: 0
+  n_sections_plan: 7
+  sections_plan:
+  - section_num: 0
+    section_titre: NATURE DE L'ENQUÊTE
+    line_no: 11
+  - section_num: 1
+    section_titre: 'TERMINOLOGIE : CE QUE DISENT LES MOTS'
+    line_no: 19
+  - section_num: 2
+    section_titre: LA DISTINCTION DETTES AGRICOLES vs COMMERCIALES
+    line_no: 49
+  - section_num: 3
+    section_titre: 'FRÉQUENCE : 30 ÉDITS EN 1000 ANS'
+    line_no: 89
+  - section_num: 4
+    section_titre: 'FONCTION : LÉGITIMATION ROYALE vs POLITIQUE ÉCONOMIQUE'
+    line_no: 125
+  - section_num: 5
+    section_titre: 'LE DÉBAT ASSYRIOLOGIQUE CONTEMPORAIN : HUDSON vs CHARPIN'
+    line_no: 167
+  - section_num: 6
+    section_titre: VERDICT DE L'AUTOPSIE
+    line_no: 198
+  dates:
+  - date: '2026-06-04'
+    format: ISO
+    line_no: 4
+    contexte_brut: 'rpsage forensique)
+
+      **Date** : 2026-06-04
+
+      **Auteur** : Agent SUBLIMATOR'
+  - date: 21 février 2022
+    format: FR
+    line_no: 142
+    contexte_brut: '— Charpin, Collège de France, 21 février 2022
+
+
+      C''est une idéologie de la RE'
+  - date: 21 février 2022
+    format: FR
+    line_no: 240
+    contexte_brut: 'D. — Cours Collège de France, 21 février 2022 : « La justice :
+      l''andurârum,'
+  - date: '1000'
+    format: AN
+    line_no: 89
+    contexte_brut: '-
+
+
+      ## §3 FRÉQUENCE : 30 ÉDITS EN 1000 ANS
+
+
+      ### 3.1 Le chiffre
+
+
+      Les'
+  - date: '166'
+    format: AN
+    line_no: 97
+    contexte_brut: "dynastie d'Hammurabi (6 édits en 166 ans = 1/28 ans)\n  - Longs\
+      \ int"
+  - date: '1981'
+    format: AN
+    line_no: 192
+    contexte_brut: 't Reagan à réduire les impôts en 1981
+
+
+      Hudson reconnaît ce « test d'
+  - date: '1000'
+    format: AN
+    line_no: 222
+    contexte_brut: 'es dettes agricoles, ~30 fois en 1000 ans |
+
+      | « La dette était neut'
+  sommes:
+  - montant: '33'
+    format: pct
+    line_no: 72
+    contexte_brut: 'grain avant la récolte (taux ~33%)
+
+      2. **Arriérés d''impôts** : d'
+  - montant: '100'
+    format: pct
+    line_no: 182
+    contexte_brut: 's ne soutiennent pas Hudson à 100%** : Ammisaduqa exclut les det'
+  citations:
+  - citation: annulation générale des dettes
+    line_no: 13
+    contexte_brut: 'pilier central de l''article : l''affirmation selon laquelle l''andurarum
+      (amargi sumérien) était une « annulation générale des dettes » pratiquée systématiquement
+      pa'
+  - citation: retour à la mère/origine
+    line_no: 21
+    contexte_brut: 'gences critiques.
+
+
+      ---
+
+
+      ## §1 TERMINOLOGIE : CE QUE DISENT LES MOTS
+
+
+      ### 1.1 Sumérien : ama.ar.gi — « retour à la mère/origine »
+
+
+      Le terme sumérien ama.ar.gi'
+  - citation: servent de test de Rorschach idéologique reflétant les croyances du
+      traducteur
+    line_no: 33
+    contexte_brut: 'ncluant mais ne se limitant pas à l''annulation de dettes.
+
+
+      Hudson lui-même reconnaît que ces termes « servent de test de Rorschach idéologique
+      reflétant les croyances du traducteur » (Modern (Mis)interpretations,'
+  - citation: Retour à l'état originel
+    line_no: 40
+    contexte_brut: '| Graeber/Hudson | « Liberté », « libération » | Émancipation,
+      justice sociale |
+
+      | Charpin/Kraus | « Retour à l''état originel » | Restauration conservatrice'
+  - citation: Réduction d'impôts
+    line_no: 41
+    contexte_brut: 'e |
+
+      | Charpin/Kraus | « Retour à l''état originel » | Restauration conservatrice
+      |
+
+      | Kramer (1959) | « Réduction d''impôts » | Politique fiscale |
+
+      | Liber'
+  - citation: Liberté individuelle
+    line_no: 42
+    contexte_brut: 'ion conservatrice |
+
+      | Kramer (1959) | « Réduction d''impôts » | Politique fiscale |
+
+      | Libertariens | « Liberté individuelle » | Droit naturel |
+
+      | Thureau-D'
+  - citation: Annulation de dettes
+    line_no: 43
+    contexte_brut: 'Politique fiscale |
+
+      | Libertariens | « Liberté individuelle » | Droit naturel |
+
+      | Thureau-Dangin | « Annulation de dettes » | Technique juridique |
+
+
+      La t'
+  - citation: Usually only personal debt was cancelled, whereas debts incurred by
+      merchants were unaffected.
+    line_no: 55
+    contexte_brut: 'dettes commerciales étaient EXCLUES des annulations.**
+
+
+      - **Wikipedia** (History of debt relief) : « Usually only personal debt was
+      cancelled, whereas debts incurred by merchants were unaffected. »
+
+      - **CADTM** (Toussaint) : « D'
+  - citation: Debts between traders were not concerned by these cancellations.
+    line_no: 56
+    contexte_brut: 'ebt was cancelled, whereas debts incurred by merchants were unaffected.
+      »
+
+      - **CADTM** (Toussaint) : « Debts between traders were not concerned by these
+      cancellations. » Note 1 de l''article.
+
+      - **Brit'
+  - citation: private debts in silver and grain, if arising out of loans, were canceled;
+      also canceled were back taxes.
+    line_no: 57
+    contexte_brut: 's were not concerned by these cancellations. » Note 1 de l''article.
+
+      - **Britannica** (Ammisaduqa) : « private debts in silver and grain, if arising
+      out of loans, were canceled; also canceled were back taxes. »
+
+      - **Hudson** (Lost Tradition,'
+  urls: []
+  acteurs_nommes:
+  - nom: Le Maillon Faible
+    line_no: 1
+  - nom: Hudson et David
+    line_no: 15
+  - nom: Collège de France
+    line_no: 25
+  - nom: 'Le chiffre
+
+
+      Les'
+    line_no: 91
+  - nom: La divergence Hudson
+    line_no: 101
+  - nom: Traductions de Kraus
+    line_no: 174
+  - nom: Textes de Mari
+    line_no: 176
+  - nom: Kraus et Westbrook
+    line_no: 184
+  - nom: La Hayek Society
+    line_no: 190
+  - nom: Le Liberty Fund
+    line_no: 191
+  - nom: Kramer exhortant Reagan
+    line_no: 192
+  - nom: Hudson et Charpin
+    line_no: 208
+  - nom: The Lost Tradition of Biblical Debt Cancellations
+    line_no: 243
+  - nom: Ancient Debt Cancellation
+    line_no: 244
+  - nom: Ancient Near East
+    line_no: 246
+  - nom: The Long Tradition of Debt
+    line_no: 250
+  - nom: Edict of Ammisaduqa
+    line_no: 251
+prompt_hote: "# PROMPT STRUCTURÉ POUR LLM HÔTE (Agent B + D)\n\nTu es le LLM hôte\
+  \ de Truth Engine. Tu reçois une enquête Sumer/Rome/Chine/etc.\net tu dois produire\
+  \ une fiche de quintessence de 12 sections.\n\n## Contexte mécanique (déjà extrait\
+  \ par Python pur)\n\n- Civ_prefix : A\n- Complexité : MEDIUM\n- Score GATE_G actuel\
+  \ : 22.22% (FAIL)\n- F### candidats (Agent A) : 10\n- F### matrice fusionnée (Agent\
+  \ C) : 10\n- Dates extraites : 7\n- Sommes extraites : 2\n- Citations extraites\
+  \ : 32\n- URLs extraites : 0\n- Acteurs nommés (heuristique) : 17\n- Sections du\
+  \ plan SUBLIMATOR : 7/18\n\n## Sections du plan SUBLIMATOR détectées\n\n  - §0 NATURE\
+  \ DE L'ENQUÊTE (L11)\n  - §1 TERMINOLOGIE : CE QUE DISENT LES MOTS (L19)\n  - §2\
+  \ LA DISTINCTION DETTES AGRICOLES vs COMMERCIALES (L49)\n  - §3 FRÉQUENCE : 30 ÉDITS\
+  \ EN 1000 ANS (L89)\n  - §4 FONCTION : LÉGITIMATION ROYALE vs POLITIQUE ÉCONOMIQUE\
+  \ (L125)\n  - §5 LE DÉBAT ASSYRIOLOGIQUE CONTEMPORAIN : HUDSON vs CHARPIN (L167)\n\
+  \  - §6 VERDICT DE L'AUTOPSIE (L198)\n\n## Quelques sommes extraites (échantillon)\n\
+  \n  - 33 (pct) L72: grain avant la récolte (taux ~33%)\n2. **Arriérés d'impôts**\
+  \ : d\n  - 100 (pct) L182: s ne soutiennent pas Hudson à 100%** : Ammisaduqa exclut\
+  \ les det\n\n## Quelques URLs extraites\n\n\n\n## F### candidats\n\n  - F-A001 (L72):\
+  \ Dettes de subsistance\n  - F-A002 (L73): Arriérés d'impôts\n  - F-A003 (L74):\
+  \ Dettes sur gage\n  - F-A004 (L77): Prêts commerciaux\n  - F-A005 (L78): Dettes\
+  \ entre marchands\n  - F-A006 (L79): Dettes internationales/commerciales\n  - F-A007\
+  \ (L180): Charpin rejette explicitement\n  - F-A008 (L182): Les sources primaires\
+  \ ne soutiennent pas Hudson à 100%\n  - F-A009 (L183): Le consensus assyriologique\n\
+  \  - F-A010 (L184): Hudson n'est pas assyriologue\n\n## 12 sections à produire\n\
+  \n1. **these_centrale** : 1 phrase résumant la thèse centrale\n2. **theses_implicites**\
+  \ : 3 thèses implicites (non explicites mais sous-jacentes)\n3. **f_atomiques**\
+  \ : compléter la matrice F### (les candidats ci-dessus + ajouts)\n4. **acteurs_network**\
+  \ : 5-15 acteurs principaux (à filtrer depuis la liste)\n5. **causalites** : 3-5\
+  \ chaînes de causalité (≥3 liens chacune)\n6. **perspectives_dialectiques** : 3\
+  \ perspectives (auteur, adverse, arbitre)\n7. **limites** : 3-5 limites méthodologiques\n\
+  8. **wolves** : 3-5 acteurs malveillants identifiés\n9. **iceberg** : 3-5 angles\
+  \ morts / auto-critiques\n10. **chronologie** : 5-10 dates clés (depuis les dates\
+  \ extraites + ajouts)\n11. **domaines** : 5-7 thématiques couvertes\n12. **urls_prioritaires**\
+  \ : 5-10 sources clés (depuis les URLs extraites + ajouts)\n\n## Méthode\n\n1. Lis\
+  \ l'enquête complète (14,312 chars, en sections §1 à §18).\n2. Pour chaque section,\
+  \ croise les extractions mécaniques avec ta lecture cursive.\n3. Pour F###, enrichis\
+  \ chaque candidat avec date/acteur/chiffre/source/notes.\n4. Pour les acteurs, distingue\
+  \ les VRAIS acteurs (personnes/institutions) des expressions incidentes.\n5. Pour\
+  \ les URLs, classe par tier (1=primaire, 2=secondaire, 3=inconnu).\n\n## Output\
+  \ attendu\n\nYAML valide, UTF-8, structuré selon les 12 sections. Pas de Markdown.\n"

@@ -1,0 +1,932 @@
+civ_prefix: MA
+complexity: MEDIUM
+n_f_candidats: 62
+n_matrice_fusionnee: 62
+completude_pct: 53.91
+gate_g_pass: false
+f_atomiques:
+- id_target: F-MA001
+  fait: '|--------|---------|--------|-----|-----------|
+
+    | F001 | Redécouverte du Corpus Juris Civilis à Bologne'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA002
+  fait: '| https://en.wikipedia.org/wiki/Irnerius | ✦ |
+
+    | F002 | CJC promulgué par Justinien à Constantinople |'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA003
+  fait: 'n.wikipedia.org/wiki/Corpus_Juris_Civilis | ✦ |
+
+    | F003 | Création de la rente sur l''Hôtel de Ville de Pa'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA004
+  fait: 'ance.fr/histoire-de-la-dette-de-la-france | ✦ |
+
+    | F004 | Arrestation des Templiers par Philippe le Bel —'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA005
+  fait: '/fr.wikipedia.org/wiki/Philippe_IV_le_Bel | ✦ |
+
+    | F005 | Philippe Auguste : administration royale modern'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA006
+  fait: '-royal-sous-philippe-auguste-1180-1223-le | ✦ |
+
+    | F006 | Création du Parlement de Paris comme cour souve'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA007
+  fait: 'ia.org/wiki/Parlement_(royaume_de_France) | ✦ |
+
+    | F007 | Premiers États généraux convoqués par Philippe'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA008
+  fait: 's://www.herodote.net/almanach-ID-3494.php | ✦ |
+
+    | F008 | Ordonnances de Saint Louis réformant la justice'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA009
+  fait: 'e.net/Un_attribut_royal-synthese-2964.php | ✧ |
+
+    | F009 | Création de l''impôt permanent (taille royale) p'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA010
+  fait: 'e-droit.net/legislation-royale-moyen-age/ | ✧ |
+
+    | F010 | Peste noire : effondrement démographique et soc'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA011
+  fait: 'la population | Consensus historique | — | ✦ |
+
+    | F011 | Abolition du servage en France par Louis X | 13'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA012
+  fait: '315 | Louis X | — | Wikipedia servage | — | ✧ |
+
+    | F012 | Mort de Philippe le Bel | 29 nov. 1314 | Philip'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA013
+  fait: '/fr.wikipedia.org/wiki/Philippe_IV_le_Bel | ✦ |
+
+    | F013 | Féodalité : système de vassalité, fief, hommage'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA014
+  fait: 'ours-de-droit.net/feodalite-au-moyen-age/ | ✦ |
+
+    | F014 | Irnerius fonde l''École de Bologne, début de la'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA015
+  fait: '| https://en.wikipedia.org/wiki/Irnerius | ✦ |
+
+    | F015 | François Ier : première rente sur Hôtel de Vill'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA016
+  fait: 'e.fr/doc/hes_0752-5702_1998_num_17_4_2005 | ✧ |
+
+    | F016 | Les légistes de Philippe le Bel : Pierre Flotte'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA017
+  fait: '/fr.wikipedia.org/wiki/Philippe_IV_le_Bel | ✦ |
+
+    | F017 | Institutionnalisation de la dette publique sous'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA018
+  fait: '-au-xviie-siecle-la-dette-publique-et-les | ✧ |
+
+    | F018 | Passage de Rex Francorum à Rex Franciæ sous Phi'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA019
+  fait: 'fr.wikipedia.org/wiki/Philippe_II_Auguste | ✦ |
+
+    | F019 | Conflit Philippe le Bel — Boniface VIII : taxat'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA020
+  fait: 'C3%89tats_g%C3%A9n%C3%A9raux_de_1302-1303 | ✦ |
+
+    | F020 | Transition Curia Regis → Parlement : profession'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA021
+  fait: Redécouverte du droit romain
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA022
+  fait: Invention de la dette publique
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA023
+  fait: Invention de l'État fiscal
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA024
+  fait: Sous Philippe Auguste (1180-1223)
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA025
+  fait: Philippe le Bel (1285-1314)
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA026
+  fait: Charles VII (1439)
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA027
+  fait: Irnerius
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA028
+  fait: Pierre Flotte
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA029
+  fait: Guillaume de Nogaret
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA030
+  fait: Enguerrand de Marigny
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA031
+  fait: Louis IX (Saint Louis)
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA032
+  fait: Philippe IV le Bel
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA033
+  fait: Boniface VIII
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA034
+  fait: François Ier
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA035
+  fait: Charles VII
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA036
+  fait: Étienne Marcel
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA037
+  fait: Biais du récit national
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA038
+  fait: Période 751-987
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA039
+  fait: Pas de sources primaires
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA040
+  fait: Période moderne (1515-1789)
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA041
+  fait: Sur-représentation de Philippe le Bel
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA042
+  fait: Wikipedia Irnerius
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA043
+  fait: Wikipedia Parlement (royaume de France)
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA044
+  fait: Wikipedia Philippe IV le Bel
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA045
+  fait: Wikipedia Philippe II Auguste
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA046
+  fait: Histoire de la dette publique française
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA047
+  fait: Histoire dette publique Wikipedia
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA048
+  fait: Histoire impôt France Wikipedia
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA049
+  fait: États généraux 1302-1303 Wikipedia
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA050
+  fait: Herodote — Saint Louis
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA051
+  fait: Herodote — États généraux 1302
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA052
+  fait: EHNE — Philippe Auguste et pouvoir royal
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA053
+  fait: Katia Béguin — Financer la guerre au XVIIe siècle
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA054
+  fait: Persée — Rentes sur l'Hôtel de Ville
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA055
+  fait: JSTOR — Commencements du crédit public
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA056
+  fait: Cours-de-droit — Féodalité
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA057
+  fait: Cours-de-droit — Histoire du Parlement
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA058
+  fait: Cours-de-droit — Législation royale
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA059
+  fait: Herodote — 13 octobre 1307, Arrestation des Templiers
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA060
+  fait: Féodalité à l'État moderne
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA061
+  fait: Changement de Régime — HUB
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-MA062
+  fait: Changement de Régime — S3 La Dette instrumentalisée
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+utile:
+  n_dates: 16
+  n_sommes: 4
+  n_citations: 8
+  n_urls: 37
+  n_acteurs_nommes: 53
+  n_marqueurs_causalite: 2
+  n_marqueurs_rhetorique: 2
+  n_sections_plan: 14
+  sections_plan:
+  - section_num: 0
+    section_titre: RÉSUMÉ — le chaînon manquant
+    line_no: 37
+  - section_num: 1
+    section_titre: CHRONOLOGIE — les scans de l'État
+    line_no: 49
+  - section_num: 2
+    section_titre: REDÉCOUVERTE DU DROIT ROMAIN — la traduction savante
+    line_no: 64
+  - section_num: 3
+    section_titre: INVENTION DE LA DETTE PUBLIQUE — du trésor au marché
+    line_no: 76
+  - section_num: 4
+    section_titre: ÉTAT FISCAL — de la terre à l'impôt
+    line_no: 90
+  - section_num: 5
+    section_titre: JUSTICE ET PARLEMENTS — professionnalisation du droit
+    line_no: 106
+  - section_num: 6
+    section_titre: FÉODALITÉ COMME SYSTÈME VERTICAL
+    line_no: 121
+  - section_num: 7
+    section_titre: LA CRISE DU XIVe SIÈCLE — effondrement et réinvention
+    line_no: 133
+  - section_num: 8
+    section_titre: LES LÉGISTES ET LA THÉORIE DE L'ÉTAT
+    line_no: 148
+  - section_num: 9
+    section_titre: MOYEN ÂGE COMME CEINTURE DE TRANSMISSION — conclusion
+    line_no: 158
+  - section_num: 10
+    section_titre: IMPACT — qui gagne, qui perd
+    line_no: 175
+  - section_num: 11
+    section_titre: WOLVES — acteurs individuels nommés
+    line_no: 187
+  - section_num: 12
+    section_titre: LIMITES
+    line_no: 202
+  - section_num: 13
+    section_titre: SOURCES
+    line_no: 212
+  dates:
+  - date: 10 avril 1302
+    format: FR
+    line_no: 13
+    contexte_brut: nvoqués par Philippe le Bel | 10 avril 1302 | Philippe IV | Trois
+      ordres
+  - date: 13 octobre 1307
+    format: FR
+    line_no: 80
+    contexte_brut: 'fait arrêter les Templiers le 13 octobre 1307. Motif officiel
+      : hérésie. Mo'
+  - date: 13 octobre 1307
+    format: FR
+    line_no: 231
+    contexte_brut: 'e-moyen-age/
+
+      18. **Herodote — 13 octobre 1307, Arrestation des Templiers**'
+  - date: XXIe siècle
+    format: SIECLE
+    line_no: 43
+    contexte_brut: 'ratie que la caste capture au XXIe siècle.
+
+
+      Ces trois inventions ne son'
+  - date: XIIe siècle
+    format: SIECLE
+    line_no: 70
+    contexte_brut: complète. La « Renaissance du XIIe siècle » (Haskins) commence
+      par cett
+  - date: XIIIe siècle
+    format: SIECLE
+    line_no: 92
+    contexte_brut: 'la terre à l''impôt
+
+
+      Avant le XIIIe siècle, le roi de France vit de son'
+  - date: XIVe SIÈCLE
+    format: SIECLE
+    line_no: 133
+    contexte_brut: 'amie.
+
+
+      ---
+
+
+      ## §7 LA CRISE DU XIVe SIÈCLE — effondrement et réinvention'
+  - date: XIVe siècle
+    format: SIECLE
+    line_no: 142
+    contexte_brut: 'à l''absolutisme.
+
+
+      La crise du XIVe siècle ressemble aux 5 tensions du C'
+  - date: XVIIe siècle
+    format: SIECLE
+    line_no: 225
+    contexte_brut: éguin — Financer la guerre au XVIIe siècle** — https://cour-de-france.fr
+  - date: '1312'
+    format: AN
+    line_no: 80
+    contexte_brut: en une nuit, l'ordre dissous en 1312. C'est une annulation unilaté
+  - date: '1302'
+    format: AN
+    line_no: 98
+    contexte_brut: l convoque les États généraux en 1302 pour légitimer l'impôt de
+      gue
+  - date: '1250'
+    format: AN
+    line_no: 110
+    contexte_brut: Le Parlement de Paris, créé vers 1250, devient la cour souveraine
+      d
+  - date: '1315'
+    format: AN
+    line_no: 127
+    contexte_brut: 'à la terre — abolie seulement en 1315 par Louis X.
+
+
+      Ce système écla'
+  - date: '1070'
+    format: AN
+    line_no: 150
+    contexte_brut: au droit romain (redécouvert en 1070). Pierre Flotte, Guillaume
+      de
+  - date: '1522'
+    format: AN
+    line_no: 196
+    contexte_brut: 'la rente sur l''Hôtel de Ville en 1522
+
+      9. **Charles VII** (1403-1461'
+  - date: '1439'
+    format: AN
+    line_no: 197
+    contexte_brut: '461) : rend l''impôt permanent en 1439
+
+      10. **Étienne Marcel** (v. 13'
+  sommes:
+  - montant: '54'
+    format: Mds
+    line_no: 42
+    contexte_brut: rançaise utilise aujourd'hui. 54 milliards d'euros d'intérêts annuels
+      on
+  - montant: '15'
+    format: M
+    line_no: 117
+    contexte_brut: essaire (on ne peut pas juger 15 millions de sujets sous un chêne)
+      mais
+  - montant: '50'
+    format: pct
+    line_no: 16
+    contexte_brut: social | 1347-1351 | — | ~30-50% de la population | Consensus
+  - montant: '50'
+    format: pct
+    line_no: 137
+    contexte_brut: te noire (1347-1351) tue 30 à 50% de la population. Les campagn
+  citations:
+  - citation: Trois civilisations, un même problème
+    line_no: 39
+    contexte_brut: 'tage antique en État français. Trois inventions médiévales sont
+      les chaînons manquants de l''article « Trois civilisations, un même problème
+      » :
+
+
+      1. **Redécouverte du droit'
+  - citation: droit européen écrit, systématique, complet et rationnel, fondé sur
+      le droit romain
+    line_no: 68
+    contexte_brut: 'taires interlinéaires puis marginaux du Corpus Juris Civilis.
+      Sa Summa Codicis marque le début d''un « droit européen écrit, systématique,
+      complet et rationnel, fondé sur le droit romain » (Wikipedia).
+
+
+      Le trou de 594'
+  - citation: Renaissance du XIIe siècle
+    line_no: 70
+    contexte_brut: oit romain avaient survécu chez les légistes carolingiens et à
+      Pavie, mais pas l'œuvre complète. La « Renaissance du XIIe siècle » (Haskins)
+      commence par cette
+  - citation: dette instrumentalisée
+    line_no: 86
+    contexte_brut: 'ermanente) jusqu''à la Révolution.
+
+
+      C''est ce mécanisme que le Changement de Régime (S3) décrit comme « dette instrumentalisée
+      ». L''invention médiévale de la'
+  - citation: sous le chêne de Vincennes
+    line_no: 108
+    contexte_brut: Saint Louis (Louis IX, 1226-1270), la justice royale se professionnalise.
+      Le roi rendait la justice « sous le chêne de Vincennes » comme acte personnel.
+      Ses suc
+  - citation: le roi est empereur en son royaume
+    line_no: 150
+    contexte_brut: des techniciens du droit. Ils théorisent la souveraineté royale
+      en s'appuyant sur le droit romain (« le roi est empereur en son royaume » —
+      formules des glossateurs de
+  - citation: quod principi placuit legis habet vigorem
+    line_no: 152
+    contexte_brut: 't romain (« le roi est empereur en son royaume » — formules des
+      glossateurs de Bologne).
+
+
+      La phrase « quod principi placuit legis habet vigorem » (ce qui plaît au prince
+      a for'
+  - citation: grands commis de l'État
+    line_no: 154
+    contexte_brut: '. La chaîne est longue, mais chaque maillon est documenté. Les
+      légistes sont aussi les ancêtres des « grands commis de l''État » — les énarques
+      modernes.
+
+
+      ---'
+  urls:
+  - url: https://en.wikipedia.org/wiki/Irnerius
+    line_no: 7
+  - url: https://en.wikipedia.org/wiki/Corpus_Juris_Civilis
+    line_no: 8
+  - url: https://dettedelafrance.fr/histoire-de-la-dette-de-la-france
+    line_no: 9
+  - url: https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel
+    line_no: 10
+  - url: https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le
+    line_no: 11
+  - url: https://fr.wikipedia.org/wiki/Parlement_(royaume_de_France
+    line_no: 12
+  - url: https://www.herodote.net/almanach-ID-3494.php
+    line_no: 13
+  - url: https://www.herodote.net/Un_attribut_royal-synthese-2964.php
+    line_no: 14
+  - url: https://cours-de-droit.net/legislation-royale-moyen-age/
+    line_no: 15
+  - url: https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel
+    line_no: 18
+  - url: https://cours-de-droit.net/feodalite-au-moyen-age/
+    line_no: 19
+  - url: https://en.wikipedia.org/wiki/Irnerius
+    line_no: 20
+  - url: https://www.persee.fr/doc/hes_0752-5702_1998_num_17_4_2005
+    line_no: 21
+  - url: https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel
+    line_no: 22
+  - url: https://cour-de-france.fr/actualites/parutions/article/financer-la-guerre-au-xviie-siecle-la-dette-publique-et-les
+    line_no: 23
+  - url: https://fr.wikipedia.org/wiki/Philippe_II_Auguste
+    line_no: 24
+  - url: https://fr.wikipedia.org/wiki/%C3%89tats_g%C3%A9n%C3%A9raux_de_1302-1303
+    line_no: 25
+  - url: https://cours-de-droit.net/histoire-du-parlement/
+    line_no: 26
+  - url: https://en.wikipedia.org/wiki/Irnerius
+    line_no: 214
+  - url: https://fr.wikipedia.org/wiki/Parlement_(royaume_de_France
+    line_no: 215
+  - url: https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel
+    line_no: 216
+  - url: https://fr.wikipedia.org/wiki/Philippe_II_Auguste
+    line_no: 217
+  - url: https://dettedelafrance.fr/histoire-de-la-dette-de-la-france
+    line_no: 218
+  - url: https://fr.wikipedia.org/wiki/Histoire_de_la_dette_publique_française
+    line_no: 219
+  - url: https://fr.wikipedia.org/wiki/Histoire_de_l%27imp%C3%B4t_en_France
+    line_no: 220
+  - url: https://fr.wikipedia.org/wiki/%C3%89tats_g%C3%A9n%C3%A9raux_de_1302-1303
+    line_no: 221
+  - url: https://www.herodote.net/Un_attribut_royal-synthese-2964.php
+    line_no: 222
+  - url: https://www.herodote.net/almanach-ID-3494.php
+    line_no: 223
+  - url: https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le
+    line_no: 224
+  - url: https://cour-de-france.fr/actualites/parutions/article/financer-la-guerre-au-xviie-siecle-la-dette-publique-et-les
+    line_no: 225
+  acteurs_nommes:
+  - nom: Redécouverte du Corpus Juris Civilis à Bologne
+    line_no: 7
+  - nom: Justinien à Constantinople
+    line_no: 8
+  - nom: Hôtel de Ville de Paris
+    line_no: 9
+  - nom: Histoire dette France
+    line_no: 9
+  - nom: Arrestation des Templiers par Philippe le Bel
+    line_no: 10
+  - nom: Guillaume de Nogaret
+    line_no: 10
+  - nom: Philippe le Bel
+    line_no: 10
+  - nom: Philippe II Auguste
+    line_no: 11
+  - nom: Création du Parlement de Paris
+    line_no: 12
+  - nom: Ordonnances de Saint
+    line_no: 14
+  - nom: Herodote Saint Louis
+    line_no: 14
+  - nom: France par Louis
+    line_no: 17
+  - nom: Mort de Philippe le Bel
+    line_no: 18
+  - nom: École de Bologne
+    line_no: 20
+  - nom: Hôtel de Ville
+    line_no: 21
+  - nom: Rois de France
+    line_no: 23
+  - nom: Cour de France
+    line_no: 23
+  - nom: Passage de Rex
+    line_no: 24
+  - nom: Francorum à Rex
+    line_no: 24
+  - nom: Franciæ sous Philippe
+    line_no: 24
+  - nom: Transition Curia Regis
+    line_no: 26
+  - nom: Cours-de-droit histoire Parlement
+    line_no: 26
+  - nom: Le Moyen Âge
+    line_no: 39
+  - nom: Corpus Juris Civilis
+    line_no: 41
+  - nom: Hugues à Philippe
+    line_no: 53
+  - nom: Guerre Cent Ans
+    line_no: 58
+  - nom: Rente sur Hôtel de Ville
+    line_no: 60
+  - nom: Prêt de Tibère
+    line_no: 60
+  - nom: Corpus Juris Civilis à Bologne
+    line_no: 66
+  - nom: Université de Bologne
+    line_no: 68
+  - nom: Sa Summa Codicis
+    line_no: 68
+  - nom: Trésor du Temple
+    line_no: 80
+  - nom: Ville de Paris
+    line_no: 84
+  - nom: Changement de Régime
+    line_no: 86
+  - nom: Sous Philippe Auguste
+    line_no: 96
+  - nom: Guerre de Cent
+    line_no: 100
+  - nom: Sous Saint Louis
+    line_no: 108
+  - nom: Parlement de Paris
+    line_no: 110
+  - nom: Le code Ur-
+    line_no: 113
+  - nom: Les Douze Tables
+    line_no: 114
+  - nom: La lutte Capétienne
+    line_no: 125
+  - nom: Jean le Bon
+    line_no: 142
+  - nom: Enguerrand de Marigny
+    line_no: 150
+  - nom: Raoul de Presles
+    line_no: 150
+  - nom: Digeste de Justinien
+    line_no: 152
+  - nom: Sans le Moyen
+    line_no: 171
+  - nom: Roi de France
+    line_no: 179
+  - nom: Magistrats du Parlement
+    line_no: 182
+  - nom: Chambre des Comptes
+    line_no: 206
+  - nom: Sur-représentation de Philippe le Bel
+    line_no: 208
+prompt_hote: "# PROMPT STRUCTURÉ POUR LLM HÔTE (Agent B + D)\n\nTu es le LLM hôte\
+  \ de Truth Engine. Tu reçois une enquête Sumer/Rome/Chine/etc.\net tu dois produire\
+  \ une fiche de quintessence de 12 sections.\n\n## Contexte mécanique (déjà extrait\
+  \ par Python pur)\n\n- Civ_prefix : MA\n- Complexité : MEDIUM\n- Score GATE_G actuel\
+  \ : 53.91% (FAIL)\n- F### candidats (Agent A) : 62\n- F### matrice fusionnée (Agent\
+  \ C) : 62\n- Dates extraites : 16\n- Sommes extraites : 4\n- Citations extraites\
+  \ : 8\n- URLs extraites : 37\n- Acteurs nommés (heuristique) : 53\n- Sections du\
+  \ plan SUBLIMATOR : 14/18\n\n## Sections du plan SUBLIMATOR détectées\n\n  - §0\
+  \ RÉSUMÉ — le chaînon manquant (L37)\n  - §1 CHRONOLOGIE — les scans de l'État (L49)\n\
+  \  - §2 REDÉCOUVERTE DU DROIT ROMAIN — la traduction savante (L64)\n  - §3 INVENTION\
+  \ DE LA DETTE PUBLIQUE — du trésor au marché (L76)\n  - §4 ÉTAT FISCAL — de la terre\
+  \ à l'impôt (L90)\n  - §5 JUSTICE ET PARLEMENTS — professionnalisation du droit\
+  \ (L106)\n  - §6 FÉODALITÉ COMME SYSTÈME VERTICAL (L121)\n  - §7 LA CRISE DU XIVe\
+  \ SIÈCLE — effondrement et réinvention (L133)\n  - §8 LES LÉGISTES ET LA THÉORIE\
+  \ DE L'ÉTAT (L148)\n  - §9 MOYEN ÂGE COMME CEINTURE DE TRANSMISSION — conclusion\
+  \ (L158)\n  - §10 IMPACT — qui gagne, qui perd (L175)\n  - §11 WOLVES — acteurs\
+  \ individuels nommés (L187)\n  - §12 LIMITES (L202)\n  - §13 SOURCES (L212)\n\n\
+  ## Quelques sommes extraites (échantillon)\n\n  - 54 (Mds) L42: rançaise utilise\
+  \ aujourd'hui. 54 milliards d'euros d'intérêts annuels on\n  - 15 (M) L117: essaire\
+  \ (on ne peut pas juger 15 millions de sujets sous un chêne) mais\n  - 50 (pct)\
+  \ L16: social | 1347-1351 | — | ~30-50% de la population | Consensus\n  - 50 (pct)\
+  \ L137: te noire (1347-1351) tue 30 à 50% de la population. Les campagn\n\n## Quelques\
+  \ URLs extraites\n\n  - https://en.wikipedia.org/wiki/Irnerius (L7)\n  - https://en.wikipedia.org/wiki/Corpus_Juris_Civilis\
+  \ (L8)\n  - https://dettedelafrance.fr/histoire-de-la-dette-de-la-france (L9)\n\
+  \  - https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel (L10)\n  - https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le\
+  \ (L11)\n  - https://fr.wikipedia.org/wiki/Parlement_(royaume_de_France (L12)\n\
+  \  - https://www.herodote.net/almanach-ID-3494.php (L13)\n  - https://www.herodote.net/Un_attribut_royal-synthese-2964.php\
+  \ (L14)\n  - https://cours-de-droit.net/legislation-royale-moyen-age/ (L15)\n  -\
+  \ https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel (L18)\n\n## F### candidats\n\n\
+  \  - F-MA001 (L7): |--------|---------|--------|-----|-----------|\n| F001 | Redécouverte\
+  \ du Corpus \n  - F-MA002 (L8): | https://en.wikipedia.org/wiki/Irnerius | ✦ |\n\
+  | F002 | CJC promulgué par Justin\n  - F-MA003 (L9): n.wikipedia.org/wiki/Corpus_Juris_Civilis\
+  \ | ✦ |\n| F003 | Création de la rente su\n  - F-MA004 (L10): ance.fr/histoire-de-la-dette-de-la-france\
+  \ | ✦ |\n| F004 | Arrestation des Templie\n  - F-MA005 (L11): /fr.wikipedia.org/wiki/Philippe_IV_le_Bel\
+  \ | ✦ |\n| F005 | Philippe Auguste : admi\n  - F-MA006 (L12): -royal-sous-philippe-auguste-1180-1223-le\
+  \ | ✦ |\n| F006 | Création du Parlement d\n  - F-MA007 (L13): ia.org/wiki/Parlement_(royaume_de_France)\
+  \ | ✦ |\n| F007 | Premiers États généraux\n  - F-MA008 (L14): s://www.herodote.net/almanach-ID-3494.php\
+  \ | ✦ |\n| F008 | Ordonnances de Saint Lo\n  - F-MA009 (L15): e.net/Un_attribut_royal-synthese-2964.php\
+  \ | ✧ |\n| F009 | Création de l'impôt per\n  - F-MA010 (L16): e-droit.net/legislation-royale-moyen-age/\
+  \ | ✧ |\n| F010 | Peste noire : effondrem\n  - F-MA011 (L17): la population | Consensus\
+  \ historique | — | ✦ |\n| F011 | Abolition du servage en \n  - F-MA012 (L18): 315\
+  \ | Louis X | — | Wikipedia servage | — | ✧ |\n| F012 | Mort de Philippe le Bel\n\
+  \  - F-MA013 (L19): /fr.wikipedia.org/wiki/Philippe_IV_le_Bel | ✦ |\n| F013 | Féodalité\
+  \ : système de \n  - F-MA014 (L20): ours-de-droit.net/feodalite-au-moyen-age/ |\
+  \ ✦ |\n| F014 | Irnerius fonde l'École \n  - F-MA015 (L21): | https://en.wikipedia.org/wiki/Irnerius\
+  \ | ✦ |\n| F015 | François Ier : première \n  - F-MA016 (L22): e.fr/doc/hes_0752-5702_1998_num_17_4_2005\
+  \ | ✧ |\n| F016 | Les légistes de Philipp\n  - F-MA017 (L23): /fr.wikipedia.org/wiki/Philippe_IV_le_Bel\
+  \ | ✦ |\n| F017 | Institutionnalisation d\n  - F-MA018 (L24): -au-xviie-siecle-la-dette-publique-et-les\
+  \ | ✧ |\n| F018 | Passage de Rex Francoru\n  - F-MA019 (L25): fr.wikipedia.org/wiki/Philippe_II_Auguste\
+  \ | ✦ |\n| F019 | Conflit Philippe le Bel\n  - F-MA020 (L26): C3%89tats_g%C3%A9n%C3%A9raux_de_1302-1303\
+  \ | ✦ |\n| F020 | Transition Curia Regis \n\n## 12 sections à produire\n\n1. **these_centrale**\
+  \ : 1 phrase résumant la thèse centrale\n2. **theses_implicites** : 3 thèses implicites\
+  \ (non explicites mais sous-jacentes)\n3. **f_atomiques** : compléter la matrice\
+  \ F### (les candidats ci-dessus + ajouts)\n4. **acteurs_network** : 5-15 acteurs\
+  \ principaux (à filtrer depuis la liste)\n5. **causalites** : 3-5 chaînes de causalité\
+  \ (≥3 liens chacune)\n6. **perspectives_dialectiques** : 3 perspectives (auteur,\
+  \ adverse, arbitre)\n7. **limites** : 3-5 limites méthodologiques\n8. **wolves**\
+  \ : 3-5 acteurs malveillants identifiés\n9. **iceberg** : 3-5 angles morts / auto-critiques\n\
+  10. **chronologie** : 5-10 dates clés (depuis les dates extraites + ajouts)\n11.\
+  \ **domaines** : 5-7 thématiques couvertes\n12. **urls_prioritaires** : 5-10 sources\
+  \ clés (depuis les URLs extraites + ajouts)\n\n## Méthode\n\n1. Lis l'enquête complète\
+  \ (21,762 chars, en sections §1 à §18).\n2. Pour chaque section, croise les extractions\
+  \ mécaniques avec ta lecture cursive.\n3. Pour F###, enrichis chaque candidat avec\
+  \ date/acteur/chiffre/source/notes.\n4. Pour les acteurs, distingue les VRAIS acteurs\
+  \ (personnes/institutions) des expressions incidentes.\n5. Pour les URLs, classe\
+  \ par tier (1=primaire, 2=secondaire, 3=inconnu).\n\n## Output attendu\n\nYAML valide,\
+  \ UTF-8, structuré selon les 12 sections. Pas de Markdown.\n"

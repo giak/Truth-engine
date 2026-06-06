@@ -1,0 +1,310 @@
+civ_prefix: I
+complexity: MEDIUM
+n_f_candidats: 26
+n_matrice_fusionnee: 26
+completude_pct: 123.81
+gate_g_pass: true
+f_atomiques:
+- id_target: F-I001
+  fait: 'lité |
+
+    |---|------|------|--------|-----------|
+
+    | F001 | Bayt al-Hikma (Maison de la Sagesse) fondée à B'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I002
+  fait: 'gdad | ~830, calife al-Ma''mun | Wikipedia | ✦ |
+
+    | F002 | Traduction systématique des textes grecs (Arist'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I003
+  fait: 'n arabe | VIIIe-IXe s. | Wikipedia, Gutas | ✦ |
+
+    | F003 | Charia : intégration du religieux, juridique, é'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I004
+  fait: 'tique | VIIe s.+ | Wikipedia, cours droit | ✦ |
+
+    | F004 | Riba (intérêt/usure) prohibé par le Coran | VII'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I005
+  fait: 'oran | VIIe s. | Coran, sourate 2:275-279 | ✦ |
+
+    | F005 | Système des diwans : départements bureaucratiqu'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I006
+  fait: 'at/justice) | VIIIe-IXe s. | Legalversity | ✦ |
+
+    | F006 | Vizir (wazir) comme chef de l''administration —'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I007
+  fait: 'remier ministre | VIIIe s. | Legalversity | ✦ |
+
+    | F007 | Córdoba : centre de traduction arabe→latin, tra'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I008
+  fait: 'l''Europe | Xe-XIIe s. | L''Orient-Le Jour | ✦ |
+
+    | F008 | Frédéric II de Sicile favorise la traduction de'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I009
+  fait: 'e au latin | 1194-1250 | L''Orient-Le Jour | ✧ |
+
+    | F009 | Scolastique médiévale (Thomas d''Aquin, Abélard)'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I010
+  fait: 'Ie-XIIIe s. | Wikipedia, L''Orient-Le Jour | ✦ |
+
+    | F010 | Universités médiévales (Bologne, Paris) héritiè'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I011
+  fait: 'eignement | XIIe s. | Wikipedia, multiple | ✧ |
+
+    | F011 | Zakat (impôt religieux obligatoire) comme redis'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I012
+  fait: '| VIIe s.+ | Wikipedia Islamic economics | ✦ |
+
+    | F012 | Finance islamique : sukuk, sakk, murabaha — alt'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I013
+  fait: 'tives à l''intérêt | VIIIe s.+ | Wikipedia | ✧ |
+
+    | F013 | Rôle des traducteurs de Tolède (XIIe s.) dans l'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I014
+  fait: 'ique | XIe-XIIIe s. | Wikipedia, multiple | ✦ |
+
+    | F014 | Interdiction chrétienne de l''usure (jusqu''au XV'
+  input_format: F001
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I015
+  fait: La thèse SYSTÈME est renforcée
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I016
+  fait: La thèse TRANSMISSION est bouleversée
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I017
+  fait: La thèse CAPTURE est relativisée
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I018
+  fait: Rome classique et hellénistique
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I019
+  fait: Traduction en syriaque et persan
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I020
+  fait: Bagdad — Bayt al-Hikma
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I021
+  fait: Cordoue et Tolède
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I022
+  fait: Universités européennes
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I023
+  fait: Renaissance
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I024
+  fait: La thèse SYSTÈME passe de 0,72 à ~0,85.
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I025
+  fait: La thèse TRANSMISSION est corrigée.
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+- id_target: F-I026
+  fait: La thèse CAPTURE est relativisée.
+  input_format: item
+  source_section: '?'
+  url: ''
+  tier: null
+  fiabilite: ❧
+utile:
+  n_dates: 0
+  n_sommes: 0
+  n_citations: 1
+  n_urls: 0
+  n_acteurs_nommes: 6
+  n_marqueurs_causalite: 0
+  n_marqueurs_rhetorique: 1
+  n_sections_plan: 1
+  sections_plan:
+  - section_num: 0
+    section_titre: RÉSUMÉ — le miroir intégrateur
+    line_no: 27
+  dates: []
+  sommes: []
+  citations:
+  - citation: Rome perdu → redécouvert à Bologne (1070)
+    line_no: 58
+    contexte_brut: 'même du système.
+
+
+      ---
+
+
+      ## §2 — LA TRANSMISSION ISLAMIQUE (Rome → Islam → Europe)
+
+
+      Le récit linéaire « Rome perdu → redécouvert à Bologne (1070) » est un mythe.
+      La véritable ch'
+  urls: []
+  acteurs_nommes:
+  - nom: Avicenne et Averroès
+    line_no: 17
+  - nom: Rome ou Chine
+    line_no: 31
+  - nom: Nestoriens et Sassanides
+    line_no: 61
+  - nom: Cordoue et Tolède
+    line_no: 63
+  - nom: Elle est Bagdad
+    line_no: 69
+  - nom: Elle est Rome
+    line_no: 104
+prompt_hote: "# PROMPT STRUCTURÉ POUR LLM HÔTE (Agent B + D)\n\nTu es le LLM hôte\
+  \ de Truth Engine. Tu reçois une enquête Sumer/Rome/Chine/etc.\net tu dois produire\
+  \ une fiche de quintessence de 12 sections.\n\n## Contexte mécanique (déjà extrait\
+  \ par Python pur)\n\n- Civ_prefix : I\n- Complexité : MEDIUM\n- Score GATE_G actuel\
+  \ : 123.81% (PASS)\n- F### candidats (Agent A) : 26\n- F### matrice fusionnée (Agent\
+  \ C) : 26\n- Dates extraites : 0\n- Sommes extraites : 0\n- Citations extraites\
+  \ : 1\n- URLs extraites : 0\n- Acteurs nommés (heuristique) : 6\n- Sections du plan\
+  \ SUBLIMATOR : 1/18\n\n## Sections du plan SUBLIMATOR détectées\n\n  - §0 RÉSUMÉ\
+  \ — le miroir intégrateur (L27)\n\n## Quelques sommes extraites (échantillon)\n\n\
+  \n\n## Quelques URLs extraites\n\n\n\n## F### candidats\n\n  - F-I001 (L9): lité\
+  \ |\n|---|------|------|--------|-----------|\n| F001 | Bayt al-Hikma (Maison d\n\
+  \  - F-I002 (L10): gdad | ~830, calife al-Ma'mun | Wikipedia | ✦ |\n| F002 | Traduction\
+  \ systématique\n  - F-I003 (L11): n arabe | VIIIe-IXe s. | Wikipedia, Gutas | ✦\
+  \ |\n| F003 | Charia : intégration du\n  - F-I004 (L12): tique | VIIe s.+ | Wikipedia,\
+  \ cours droit | ✦ |\n| F004 | Riba (intérêt/usure) pr\n  - F-I005 (L13): oran |\
+  \ VIIe s. | Coran, sourate 2:275-279 | ✦ |\n| F005 | Système des diwans : dé\n \
+  \ - F-I006 (L14): at/justice) | VIIIe-IXe s. | Legalversity | ✦ |\n| F006 | Vizir\
+  \ (wazir) comme che\n  - F-I007 (L15): remier ministre | VIIIe s. | Legalversity\
+  \ | ✦ |\n| F007 | Córdoba : centre de tra\n  - F-I008 (L16): l'Europe | Xe-XIIe\
+  \ s. | L'Orient-Le Jour | ✦ |\n| F008 | Frédéric II de Sicile fa\n  - F-I009 (L17):\
+  \ e au latin | 1194-1250 | L'Orient-Le Jour | ✧ |\n| F009 | Scolastique médiévale\
+  \ (\n  - F-I010 (L18): Ie-XIIIe s. | Wikipedia, L'Orient-Le Jour | ✦ |\n| F010 |\
+  \ Universités médiévales \n  - F-I011 (L19): eignement | XIIe s. | Wikipedia, multiple\
+  \ | ✧ |\n| F011 | Zakat (impôt religieux \n  - F-I012 (L20): | VIIe s.+ | Wikipedia\
+  \ Islamic economics | ✦ |\n| F012 | Finance islamique : suku\n  - F-I013 (L21):\
+  \ tives à l'intérêt | VIIIe s.+ | Wikipedia | ✧ |\n| F013 | Rôle des traducteurs\
+  \ de\n  - F-I014 (L22): ique | XIe-XIIIe s. | Wikipedia, multiple | ✦ |\n| F014\
+  \ | Interdiction chrétienne\n  - F-I015 (L30): La thèse SYSTÈME est renforcée\n\
+  \  - F-I016 (L32): La thèse TRANSMISSION est bouleversée\n  - F-I017 (L34): La thèse\
+  \ CAPTURE est relativisée\n  - F-I018 (L59): Rome classique et hellénistique\n \
+  \ - F-I019 (L61): Traduction en syriaque et persan\n  - F-I020 (L62): Bagdad — Bayt\
+  \ al-Hikma\n\n## 12 sections à produire\n\n1. **these_centrale** : 1 phrase résumant\
+  \ la thèse centrale\n2. **theses_implicites** : 3 thèses implicites (non explicites\
+  \ mais sous-jacentes)\n3. **f_atomiques** : compléter la matrice F### (les candidats\
+  \ ci-dessus + ajouts)\n4. **acteurs_network** : 5-15 acteurs principaux (à filtrer\
+  \ depuis la liste)\n5. **causalites** : 3-5 chaînes de causalité (≥3 liens chacune)\n\
+  6. **perspectives_dialectiques** : 3 perspectives (auteur, adverse, arbitre)\n7.\
+  \ **limites** : 3-5 limites méthodologiques\n8. **wolves** : 3-5 acteurs malveillants\
+  \ identifiés\n9. **iceberg** : 3-5 angles morts / auto-critiques\n10. **chronologie**\
+  \ : 5-10 dates clés (depuis les dates extraites + ajouts)\n11. **domaines** : 5-7\
+  \ thématiques couvertes\n12. **urls_prioritaires** : 5-10 sources clés (depuis les\
+  \ URLs extraites + ajouts)\n\n## Méthode\n\n1. Lis l'enquête complète (8,623 chars,\
+  \ en sections §1 à §18).\n2. Pour chaque section, croise les extractions mécaniques\
+  \ avec ta lecture cursive.\n3. Pour F###, enrichis chaque candidat avec date/acteur/chiffre/source/notes.\n\
+  4. Pour les acteurs, distingue les VRAIS acteurs (personnes/institutions) des expressions\
+  \ incidentes.\n5. Pour les URLs, classe par tier (1=primaire, 2=secondaire, 3=inconnu).\n\
+  \n## Output attendu\n\nYAML valide, UTF-8, structuré selon les 12 sections. Pas\
+  \ de Markdown.\n"

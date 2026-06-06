@@ -1,0 +1,563 @@
+civ_prefix: C
+complexity: MEDIUM
+n_f_candidats: 0
+n_matrice_fusionnee: 0
+completude_pct: 0.0
+gate_g_pass: false
+f_atomiques: []
+utile:
+  n_dates: 21
+  n_sommes: 60
+  n_citations: 31
+  n_urls: 0
+  n_acteurs_nommes: 68
+  n_marqueurs_causalite: 2
+  n_marqueurs_rhetorique: 0
+  n_sections_plan: 18
+  sections_plan:
+  - section_num: 1
+    section_titre: RÉSUMÉ EXÉCUTIF
+    line_no: 7
+  - section_num: 2
+    section_titre: MANIPULATION_REPORT
+    line_no: 25
+  - section_num: 3
+    section_titre: CLUSTERS
+    line_no: 50
+  - section_num: 4
+    section_titre: HERMÉNEUTIQUE (L1-L6)
+    line_no: 74
+  - section_num: 5
+    section_titre: FORENSIC REASONING
+    line_no: 96
+  - section_num: 6
+    section_titre: PRISME DIALECTIQUE — 3 perspectives force égale
+    line_no: 106
+  - section_num: 7
+    section_titre: CHRONOLOGIE
+    line_no: 125
+  - section_num: 8
+    section_titre: DOMAINES — 7 thèmes
+    line_no: 167
+  - section_num: 9
+    section_titre: RÉSEAU D'ACTEURS
+    line_no: 326
+  - section_num: 10
+    section_titre: CHAÎNES DE CASCADE
+    line_no: 357
+  - section_num: 11
+    section_titre: CARTE DES PREUVES
+    line_no: 405
+  - section_num: 12
+    section_titre: CARTE DIALECTIQUE
+    line_no: 443
+  - section_num: 13
+    section_titre: PÉRIMÈTRE & LIMITES
+    line_no: 462
+  - section_num: 14
+    section_titre: ÉTAT DES CONNAISSANCES
+    line_no: 489
+  - section_num: 15
+    section_titre: SUSPICION SCORES
+    line_no: 515
+  - section_num: 16
+    section_titre: WOLVES — Weighted Objective Limits Verification System
+    line_no: 532
+  - section_num: 17
+    section_titre: REQUEST_LOG
+    line_no: 563
+  - section_num: 18
+    section_titre: ICEBERG MAX SYNTHÈSE — Ce que la contre-enquête révèle
+    line_no: 606
+  dates:
+  - date: '2026-06-03'
+    format: ISO
+    line_no: 3
+    contexte_brut: :** APEX (16/24) | **Date :** 2026-06-03 | **Auteur :** Truth Engine
+      v
+  - date: XVIIIe siècle
+    format: SIECLE
+    line_no: 13
+    contexte_brut: 'oise, filtrée par l''Europe du XVIIIe siècle.
+
+      2. Le **Jiaozi** (~1024 ap.,'
+  - date: XIe siècle
+    format: SIECLE
+    line_no: 194
+    contexte_brut: ait ~125 000 tonnes par an au XIe siècle — plus que l'Angleterre
+      du XV
+  - date: XVIIIe siècle
+    format: SIECLE
+    line_no: 194
+    contexte_brut: le — plus que l'Angleterre du XVIIIe siècle. La révolution industrielle
+      c
+  - date: XXe siècle
+    format: SIECLE
+    line_no: 200
+    contexte_brut: 'le du sel n''a été aboli qu''au XXe siècle.
+
+      - **Source :** Wikipedia « E'
+  - date: Xe siècle
+    format: SIECLE
+    line_no: 244
+    contexte_brut: 'andés : contrôle patriarcal (~Xe siècle – 1911)**
+
+      La pratique du band'
+  - date: Xe siècle
+    format: SIECLE
+    line_no: 245
+    contexte_brut: ) est apparue sous les Song (~Xe siècle) et s'est généralisée sous
+      le
+  - date: XIXe siècle
+    format: SIECLE
+    line_no: 247
+    contexte_brut: llèle France :** Corset (XVIe-XIXe siècle) — contrôle du corps
+      féminin,
+  - date: XIXe siècle
+    format: SIECLE
+    line_no: 248
+    contexte_brut: 's avaient les pieds bandés au XIXe siècle (régions urbaines :
+      >80%)
+
+      - *'
+  - date: IVe siècle
+    format: SIECLE
+    line_no: 268
+    contexte_brut: aliste (Shang Yang, Han Fei, ~IVe siècle av.) prône l'usage de
+      la loi
+  - date: XXe siècle
+    format: SIECLE
+    line_no: 273
+    contexte_brut: 'e propriété : absent jusqu''au XXe siècle**
+
+      La Chine impériale n''a jama'
+  - date: Xe siècle
+    format: SIECLE
+    line_no: 419
+    contexte_brut: 'vée |
+
+      | ✦9 | Foot binding pré-Xe siècle – 1911 | Wikipedia « Foot bin'
+  - date: VIIe siècle
+    format: SIECLE
+    line_no: 623
+    contexte_brut: Chine expérimentait depuis le VIIe siècle. La spécificité française
+      n'e
+  - date: '1789'
+    format: AN
+    line_no: 54
+    contexte_brut: 'tive
+
+      - France : rupture nette en 1789, puis 5 républiques, 2 empire'
+  - date: '1024'
+    format: AN
+    line_no: 172
+    contexte_brut: rt des lourdes pièces de fer. En 1024, l'État Song reprend l'émissi
+  - date: '1215'
+    format: AN
+    line_no: 184
+    contexte_brut: sant une inflation chronique. En 1215, le huizi valait ~5% de sa
+      va
+  - date: '1796'
+    format: AN
+    line_no: 186
+    contexte_brut: 'valeur tombée à 0.5% du pair en 1796
+
+      - **Leçon :** Les deux États'
+  - date: '124'
+    format: AN
+    line_no: 239
+    contexte_brut: 'gie d''État (124 av. – 1911)**
+
+      En 124 av., Han Wudi établit l''Acadé'
+  - date: '1911'
+    format: AN
+    line_no: 242
+    contexte_brut: 'est resté « confucéen » jusqu''en 1911
+
+
+      **✦11 — Pieds bandés : contr'
+  - date: '1912'
+    format: AN
+    line_no: 245
+    contexte_brut: 'confinées à la maison). Aboli en 1912 par la République.
+
+      - **Source'
+  sommes:
+  - montant: '30'
+    format: M
+    line_no: 16
+    contexte_brut: ant** (1959-1961) a causé ~20-30 millions de morts — la plus grande
+      fam
+  - montant: '30'
+    format: M
+    line_no: 92
+    contexte_brut: Avant (1959-1961) a causé ~20-30 millions de morts. Les causes
+      sont mix
+  - montant: '30'
+    format: M
+    line_no: 144
+    contexte_brut: 'Bond en Avant | Famine : ~20-30 millions de morts |
+
+      | 1966-1976 | Révo'
+  - montant: '30'
+    format: M
+    line_no: 147
+    contexte_brut: 'ôlée, déséquilibre de genre (~30M hommes surnuméraires) |
+
+      | 202'
+  - montant: '300'
+    format: M
+    line_no: 218
+    contexte_brut: ls impériaux (Ming/Qing, ~150-300M de population) — ratio ~1:10
+  - montant: '5.7'
+    format: M
+    line_no: 219
+    contexte_brut: ':** INSP : ~80-100 élèves/an, 5.7M fonctionnaires (fonction publ'
+  - montant: '30'
+    format: M
+    line_no: 252
+    contexte_brut: léré, déséquilibre de genre (~30 millions d'hommes surnuméraires
+      estimé
+  - montant: '30'
+    format: M
+    line_no: 283
+    contexte_brut: '16 — Grand Bond en Avant : 20-30 millions de morts (1959-1961)**
+
+      Le Gra'
+  - montant: '45'
+    format: M
+    line_no: 285
+    contexte_brut: « Great Chinese Famine » (15-45M estimés, clustering 20-30M),
+  - montant: '30'
+    format: M
+    line_no: 285
+    contexte_brut: '15-45M estimés, clustering 20-30M), Britannica (2026)
+
+      - **Paral'
+  - montant: '4'
+    format: M
+    line_no: 286
+    contexte_brut: ', les guerres de religion (~1-4M), les deux guerres mondiales'
+  - montant: '1.5'
+    format: M
+    line_no: 286
+    contexte_brut: les deux guerres mondiales (~1.5M) — même combinés, la France n
+  - montant: '30'
+    format: M
+    line_no: 287
+    contexte_brut: '- **Comparaison :** GLF = 20-30M / 593M (pop 1960) = 3.4-5.1%'
+  - montant: '593'
+    format: M
+    line_no: 287
+    contexte_brut: omparaison :** GLF = 20-30M / 593M (pop 1960) = 3.4-5.1% de la
+      p
+  - montant: '41'
+    format: M
+    line_no: 287
+    contexte_brut: tion. France 1940-45 = 600K / 41M = 1.5%. Le ratio chinois est
+  - montant: '3'
+    format: M
+    line_no: 296
+    contexte_brut: ontre-révolutionnaires ». 1.5-3M morts estimés. Des centaines
+  - montant: '30'
+    format: M
+    line_no: 414
+    contexte_brut: 'ison | Élevée |
+
+      | ✦4 | GLF 20-30M morts 1959-61 | Wikipedia « G'
+  - montant: '3'
+    format: M
+    line_no: 421
+    contexte_brut: tural Revolution 1966-76, 1.5-3M morts | Wikipedia « Cultural
+  - montant: '300'
+    format: M
+    line_no: 435
+    contexte_brut: ~20K fonctionnaires pour 150-300M ; chiffres de population inst
+  - montant: '30'
+    format: M
+    line_no: 436
+    contexte_brut: 'population instables |
+
+      | ✧4 | 30M hommes surnuméraires (enfant'
+  - montant: '5.7'
+    format: M
+    line_no: 456
+    contexte_brut: était agricole). La France a 5.7M fonctionnaires pour 68M hab.
+  - montant: '68'
+    format: M
+    line_no: 456
+    contexte_brut: ce a 5.7M fonctionnaires pour 68M hab. Les deux États peinent à
+  - montant: '200'
+    format: M
+    line_no: 485
+    contexte_brut: 'noise est débattue (Ming : 60-200M selon les sources)
+
+
+      ---
+
+
+      ## §'
+  - montant: '400'
+    format: M
+    line_no: 507
+    contexte_brut: '0K-40K fonctionnaires pour 60-400M)
+
+      2. Le keju a-t-il directemen'
+  - montant: '30'
+    format: M
+    line_no: 541
+    contexte_brut: 'suelle | Vérifié |
+
+      | GLF : 20-30M morts 1959-61 | Consensus sav'
+  - montant: '60'
+    format: M
+    line_no: 578
+    contexte_brut: 'dynasty census historical | ~60M officiel, 150-300M réel |
+
+      | 1'
+  - montant: '300'
+    format: M
+    line_no: 578
+    contexte_brut: 'storical | ~60M officiel, 150-300M réel |
+
+      | 11 | Chinese Opium W'
+  - montant: '30'
+    format: M
+    line_no: 582
+    contexte_brut: 'mine deaths number scale | 20-30M, clustering récent |
+
+      | 15 | C'
+  - montant: '30'
+    format: M
+    line_no: 588
+    contexte_brut: 'sequences gender imbalance | ~30M hommes surnuméraires |
+
+      | 21 |'
+  - montant: '3'
+    format: M
+    line_no: 589
+    contexte_brut: 'eaths scale destruction | 1.5-3M morts, 1966-76 |
+
+      | 22 | China'
+  citations:
+  - citation: Economic history of China before 1912
+    line_no: 173
+    contexte_brut: 'l''expérience, avec des épisodes d''hyperinflation (Ming, Yuan).
+
+      - **Source :** Wikipedia « Jiaozi », « Economic history of China before 1912
+      »
+
+      - **Parallèle France :** Assi'
+  - citation: History of Chinese currency
+    line_no: 185
+    contexte_brut: 'lation par émission monétaire pour financer l''effort de guerre.
+
+      - **Source :** Wikipedia « Huizi », « History of Chinese currency »
+
+      - **Parallèle France :** Assi'
+  - citation: Economic history of China before 1912
+    line_no: 195
+    contexte_brut: 'p abondantes, main-d''œuvre trop bon marché, bureaucratie trop
+      étouffante).
+
+      - **Source :** Wikipedia « Economic history of China before 1912 », Maddison
+
+      - **Parallèle Franc'
+  - citation: Economy of the Han dynasty
+    line_no: 201
+    contexte_brut: 'à toutes les dynasties. Le monopole du sel n''a été aboli qu''au
+      XXe siècle.
+
+      - **Source :** Wikipedia « Economy of the Han dynasty », « Salt in Chinese history
+      »'
+  - citation: Salt in Chinese history
+    line_no: 201
+    contexte_brut: 'ole du sel n''a été aboli qu''au XXe siècle.
+
+      - **Source :** Wikipedia « Economy of the Han dynasty », « Salt in Chinese history
+      »
+
+      - **Parallèle France :** Mono'
+  - citation: Imperial examination
+    line_no: 217
+    contexte_brut: 't massivement les fils de lettrés qui pouvaient payer des années
+      d''études.
+
+      - **Source :** Wikipedia « Imperial examination », Elman (2000) *A Cultural
+      His'
+  - citation: supérieur à Socrate
+    line_no: 223
+    contexte_brut: 'l''influence chinoise sur l''administration française**
+
+      Voltaire (1694-1778) admirait Confucius comme « supérieur à Socrate ». Dans
+      son *Essai sur les mœur'
+  - citation: le Confucius européen
+    line_no: 223
+    contexte_brut: ationnel. François Quesnay, médecin de Louis XV et fondateur de
+      l'école physiocrate, était surnommé « le Confucius européen ». Les physiocrates
+      prônaient u
+  - citation: Imperial examination
+    line_no: 224
+    contexte_brut: 'tuelle relie le keju à la formation des élites administratives
+      françaises.
+
+      - **Source :** Wikipedia « Imperial examination », Maverick (1938), Voltaire
+      *E'
+  - citation: gouverner par la loi
+    line_no: 268
+    contexte_brut: Yang, Han Fei, ~IVe siècle av.) prône l'usage de la loi comme instrument
+      du souverain (法治, fazhi — « gouverner par la loi »). Confucianisme préfère le
+      go
+  urls: []
+  acteurs_nommes:
+  - nom: Chine versus France
+    line_no: 1
+  - nom: Contrairement à Rome
+    line_no: 9
+  - nom: Banque de France
+    line_no: 14
+  - nom: Bond en Avant
+    line_no: 16
+  - nom: Local Government Financing
+    line_no: 17
+  - nom: Qin Shi Huang
+    line_no: 19
+  - nom: 'Distorsions structurelles
+
+
+      La'
+    line_no: 37
+  - nom: Comparer le Tang
+    line_no: 39
+  - nom: Code au Code
+    line_no: 39
+  - nom: 'Factor detail
+
+
+      L'''
+    line_no: 41
+  - nom: Pour la Chine
+    line_no: 43
+  - nom: La comparaison France-
+    line_no: 80
+  - nom: Le Code Napoléon
+    line_no: 86
+  - nom: Social Credit System
+    line_no: 88
+  - nom: Le Grand Bond en Avant
+    line_no: 92
+  - nom: Voltaire et Quesnay
+    line_no: 109
+  - nom: Comparer le Jiaozi
+    line_no: 114
+  - nom: Les deux États
+    line_no: 119
+  - nom: Réformes de Shang
+    line_no: 133
+  - nom: Rébellion du Lotus
+    line_no: 140
+  - nom: Déclin des Qing
+    line_no: 140
+  - nom: Chute des Qing
+    line_no: 142
+  - nom: Song du Sud
+    line_no: 184
+  - nom: History of Chinese
+    line_no: 185
+  - nom: Chine des Song
+    line_no: 194
+  - nom: Salt in Chinese
+    line_no: 201
+  - nom: History of Civil
+    line_no: 217
+  - nom: Examinations in Late Imperial China
+    line_no: 217
+  - nom: Chine des Tang
+    line_no: 226
+  - nom: Guanxi and Business
+    line_no: 230
+  - nom: Les Cinq Classiques
+    line_no: 239
+  - nom: Le Tang Code
+    line_no: 262
+  - nom: World History Encyclopedia
+    line_no: 263
+  - nom: Livre des Odes
+    line_no: 274
+  - nom: Great Chinese Famine
+    line_no: 285
+  - nom: Traité de Nankin
+    line_no: 290
+  - nom: Lancée par Mao
+    line_no: 296
+  - nom: Les Gardes Rouges
+    line_no: 296
+  - nom: Illinois Law Review
+    line_no: 313
+  - nom: Empereur éclairé Qing
+    line_no: 336
+  - nom: Visites en France
+    line_no: 349
+  - nom: Libre des Sciences
+    line_no: 369
+  - nom: Expansion sous Yuan
+    line_no: 379
+  - nom: Bank of England
+    line_no: 381
+  - nom: Système de Law
+    line_no: 382
+  - nom: Economic history China
+    line_no: 413
+  - nom: Economy of Han
+    line_no: 416
+  - nom: Dette locale Chine
+    line_no: 422
+  - nom: One Child Policy
+    line_no: 424
+  - nom: Production fer Song
+    line_no: 433
+prompt_hote: "# PROMPT STRUCTURÉ POUR LLM HÔTE (Agent B + D)\n\nTu es le LLM hôte\
+  \ de Truth Engine. Tu reçois une enquête Sumer/Rome/Chine/etc.\net tu dois produire\
+  \ une fiche de quintessence de 12 sections.\n\n## Contexte mécanique (déjà extrait\
+  \ par Python pur)\n\n- Civ_prefix : C\n- Complexité : MEDIUM\n- Score GATE_G actuel\
+  \ : 0.0% (FAIL)\n- F### candidats (Agent A) : 0\n- F### matrice fusionnée (Agent\
+  \ C) : 0\n- Dates extraites : 21\n- Sommes extraites : 60\n- Citations extraites\
+  \ : 31\n- URLs extraites : 0\n- Acteurs nommés (heuristique) : 68\n- Sections du\
+  \ plan SUBLIMATOR : 18/18\n\n## Sections du plan SUBLIMATOR détectées\n\n  - §1\
+  \ RÉSUMÉ EXÉCUTIF (L7)\n  - §2 MANIPULATION_REPORT (L25)\n  - §3 CLUSTERS (L50)\n\
+  \  - §4 HERMÉNEUTIQUE (L1-L6) (L74)\n  - §5 FORENSIC REASONING (L96)\n  - §6 PRISME\
+  \ DIALECTIQUE — 3 perspectives force égale (L106)\n  - §7 CHRONOLOGIE (L125)\n \
+  \ - §8 DOMAINES — 7 thèmes (L167)\n  - §9 RÉSEAU D'ACTEURS (L326)\n  - §10 CHAÎNES\
+  \ DE CASCADE (L357)\n  - §11 CARTE DES PREUVES (L405)\n  - §12 CARTE DIALECTIQUE\
+  \ (L443)\n  - §13 PÉRIMÈTRE & LIMITES (L462)\n  - §14 ÉTAT DES CONNAISSANCES (L489)\n\
+  \  - §15 SUSPICION SCORES (L515)\n  - §16 WOLVES — Weighted Objective Limits Verification\
+  \ System (L532)\n  - §17 REQUEST_LOG (L563)\n  - §18 ICEBERG MAX SYNTHÈSE — Ce que\
+  \ la contre-enquête révèle (L606)\n\n## Quelques sommes extraites (échantillon)\n\
+  \n  - 30 (M) L16: ant** (1959-1961) a causé ~20-30 millions de morts — la plus grande\
+  \ fam\n  - 30 (M) L92: Avant (1959-1961) a causé ~20-30 millions de morts. Les causes\
+  \ sont mix\n  - 30 (M) L144: Bond en Avant | Famine : ~20-30 millions de morts |\n\
+  | 1966-1976 | Révo\n  - 30 (M) L147: ôlée, déséquilibre de genre (~30M hommes surnuméraires)\
+  \ |\n| 202\n  - 300 (M) L218: ls impériaux (Ming/Qing, ~150-300M de population)\
+  \ — ratio ~1:10\n  - 5.7 (M) L219: :** INSP : ~80-100 élèves/an, 5.7M fonctionnaires\
+  \ (fonction publ\n  - 30 (M) L252: léré, déséquilibre de genre (~30 millions d'hommes\
+  \ surnuméraires estimé\n  - 30 (M) L283: 16 — Grand Bond en Avant : 20-30 millions\
+  \ de morts (1959-1961)**\nLe Gra\n  - 45 (M) L285: « Great Chinese Famine » (15-45M\
+  \ estimés, clustering 20-30M),\n  - 30 (M) L285: 15-45M estimés, clustering 20-30M),\
+  \ Britannica (2026)\n- **Paral\n\n## Quelques URLs extraites\n\n\n\n## F### candidats\n\
+  \n\n\n## 12 sections à produire\n\n1. **these_centrale** : 1 phrase résumant la\
+  \ thèse centrale\n2. **theses_implicites** : 3 thèses implicites (non explicites\
+  \ mais sous-jacentes)\n3. **f_atomiques** : compléter la matrice F### (les candidats\
+  \ ci-dessus + ajouts)\n4. **acteurs_network** : 5-15 acteurs principaux (à filtrer\
+  \ depuis la liste)\n5. **causalites** : 3-5 chaînes de causalité (≥3 liens chacune)\n\
+  6. **perspectives_dialectiques** : 3 perspectives (auteur, adverse, arbitre)\n7.\
+  \ **limites** : 3-5 limites méthodologiques\n8. **wolves** : 3-5 acteurs malveillants\
+  \ identifiés\n9. **iceberg** : 3-5 angles morts / auto-critiques\n10. **chronologie**\
+  \ : 5-10 dates clés (depuis les dates extraites + ajouts)\n11. **domaines** : 5-7\
+  \ thématiques couvertes\n12. **urls_prioritaires** : 5-10 sources clés (depuis les\
+  \ URLs extraites + ajouts)\n\n## Méthode\n\n1. Lis l'enquête complète (54,465 chars,\
+  \ en sections §1 à §18).\n2. Pour chaque section, croise les extractions mécaniques\
+  \ avec ta lecture cursive.\n3. Pour F###, enrichis chaque candidat avec date/acteur/chiffre/source/notes.\n\
+  4. Pour les acteurs, distingue les VRAIS acteurs (personnes/institutions) des expressions\
+  \ incidentes.\n5. Pour les URLs, classe par tier (1=primaire, 2=secondaire, 3=inconnu).\n\
+  \n## Output attendu\n\nYAML valide, UTF-8, structuré selon les 12 sections. Pas\
+  \ de Markdown.\n"

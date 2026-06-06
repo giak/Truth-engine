@@ -1,0 +1,310 @@
+civ_prefix: HUB
+complexity: MEDIUM
+n_f_candidats: 0
+n_matrice_fusionnee: 0
+completude_pct: 0.0
+gate_g_pass: false
+f_atomiques: []
+utile:
+  n_dates: 1
+  n_sommes: 15
+  n_citations: 10
+  n_urls: 0
+  n_acteurs_nommes: 7
+  n_marqueurs_causalite: 0
+  n_marqueurs_rhetorique: 0
+  n_sections_plan: 5
+  sections_plan:
+  - section_num: 0
+    section_titre: MÉTHODE
+    line_no: 11
+  - section_num: 1
+    section_titre: RÉPARTITION DES SOURCES PAR CATÉGORIE
+    line_no: 21
+  - section_num: 2
+    section_titre: PROBLÈMES IDENTIFIÉS
+    line_no: 105
+  - section_num: 3
+    section_titre: VERDICT
+    line_no: 150
+  - section_num: 4
+    section_titre: SOURCES DE CET AUDIT
+    line_no: 179
+  dates:
+  - date: '2026-06-04'
+    format: ISO
+    line_no: 7
+    contexte_brut: 'nelles françaises)
+
+      **Date** : 2026-06-04
+
+
+      ---
+
+
+      ## §0 MÉTHODE
+
+
+      Analyse'
+  sommes:
+  - montant: 1 000
+    format: Mds
+    line_no: 115
+    contexte_brut: 'FR7 : « Transfert ascendant ~1 000 Md€ (2017-2026) » — estimation
+      n'
+  - montant: '200'
+    format: Mds
+    line_no: 117
+    contexte_brut: 'em
+
+      - EF4 : actifs suisses 150-200 Md€ — estimation FMI/UBS
+
+      - CP26'
+  - montant: 14,5
+    format: Mds
+    line_no: 119
+    contexte_brut: 'GE20 : « Économie potentielle 14,5 Md€ » — estimation parlementaire'
+  - montant: '55'
+    format: pct
+    line_no: 23
+    contexte_brut: 'ouvernementales françaises ( ~55% )
+
+
+      | Source | Utilisation | T'
+  - montant: '55'
+    format: pct
+    line_no: 38
+    contexte_brut: '| Justice |
+
+
+      **Problème :** ~55% des faits s''appuient sur des'
+  - montant: '55'
+    format: pct
+    line_no: 38
+    contexte_brut: re de l'État » qui s'appuie à 55% sur des données de l'État cré
+  - montant: '20'
+    format: pct
+    line_no: 40
+    contexte_brut: 'nternationales/officielles ( ~20% )
+
+
+      | Source | Utilisation | F'
+  - montant: '20'
+    format: pct
+    line_no: 53
+    contexte_brut: 'elles représentent seulement ~20% du corpus.
+
+
+      ### 1.3 Médias d'''
+  - montant: '10'
+    format: pct
+    line_no: 55
+    contexte_brut: '1.3 Médias d''investigation ( ~10% )
+
+
+      | Source | Utilisation |
+
+      |'
+  - montant: '8'
+    format: pct
+    line_no: 66
+    contexte_brut: '### 1.4 ONG / Think Tanks ( ~8% )
+
+
+      | Source | Utilisation |
+
+      |'
+  - montant: '5'
+    format: pct
+    line_no: 79
+    contexte_brut: '.5 Académiques / Recherche ( ~5% )
+
+
+      | Source | Utilisation |
+
+      |'
+  - montant: '2'
+    format: pct
+    line_no: 91
+    contexte_brut: 'es / Investigations KERNEL ( ~2% )
+
+
+      | Fait | Source citée |
+
+      |-'
+  - montant: '30'
+    format: pct
+    line_no: 109
+    contexte_brut: tée comme source unique pour ~30% des faits économiques. Problè
+  - montant: '5'
+    format: pct
+    line_no: 111
+    contexte_brut: 'aits non-recoupés marqués ⚠ (~5% = ~37 faits)
+
+
+      Les faits ⚠ inc'
+  - montant: '30'
+    format: pct
+    line_no: 164
+    contexte_brut: '5× pour concentration INSEE (~30% des faits)
+
+      - 1,3× pour absenc'
+  citations:
+  - citation: Investigation multi-sources
+    line_no: 96
+    contexte_brut: '~2% )
+
+
+      | Fait | Source citée |
+
+      |------|-------------|
+
+      | ZF1-ZF14 | « ICEBERG MAX » |
+
+      | GE13-GE15 | « Investigation multi-sources », « Analyse forensique » |
+
+      | C'
+  - citation: Analyse forensique
+    line_no: 96
+    contexte_brut: '------|-------------|
+
+      | ZF1-ZF14 | « ICEBERG MAX » |
+
+      | GE13-GE15 | « Investigation multi-sources », « Analyse forensique » |
+
+      | CC1-CC6 | « Identifié par'
+  - citation: Identifié par l'enquête
+    line_no: 97
+    contexte_brut: 'ICEBERG MAX » |
+
+      | GE13-GE15 | « Investigation multi-sources », « Analyse forensique » |
+
+      | CC1-CC6 | « Identifié par l''enquête » |
+
+      | CP37 | « Analyse forensiq'
+  - citation: Analyse forensique
+    line_no: 98
+    contexte_brut: 'gation multi-sources », « Analyse forensique » |
+
+      | CC1-CC6 | « Identifié par l''enquête » |
+
+      | CP37 | « Analyse forensique » |
+
+      | CP13 | « Analyse forensiq'
+  - citation: Analyse forensique
+    line_no: 99
+    contexte_brut: 'forensique » |
+
+      | CC1-CC6 | « Identifié par l''enquête » |
+
+      | CP37 | « Analyse forensique » |
+
+      | CP13 | « Analyse forensique » |
+
+
+      Ces faits ne sont PAS indé'
+  - citation: 746 faits vérifiés
+    line_no: 109
+    contexte_brut: ', mais ne documente PAS les mécanismes de capture, pantouflage,
+      ou évasion fiscale. L''impression de « 746 faits vérifiés » masque que la majorité
+      sont d'
+  - citation: Trajectoire dette non soutenable avant 2028
+    line_no: 114
+    contexte_brut: 's ⚠ (~5% = ~37 faits)
+
+
+      Les faits ⚠ incluent les affirmations les PLUS fortes de la thèse :
+
+      - FT12 : « Trajectoire dette non soutenable avant 2028 » — source unique Touati
+
+      - FR7'
+  - citation: Transfert ascendant ~1 000 Md€ (2017-2026)
+    line_no: 115
+    contexte_brut: 'la thèse :
+
+      - FT12 : « Trajectoire dette non soutenable avant 2028 » — source unique Touati
+
+      - FR7 : « Transfert ascendant ~1 000 Md€ (2017-2026) » — estimation non recoupée
+
+      - E'
+  - citation: ASE produit-elle les victimes ?
+    line_no: 118
+    contexte_brut: 'timation non recoupée
+
+      - ES6 : idem
+
+      - EF4 : actifs suisses 150-200 Md€ — estimation FMI/UBS
+
+      - CP26 : « ASE produit-elle les victimes ? » — hypothèse
+
+      - GE20 : « Économ'
+  - citation: Économie potentielle 14,5 Md€
+    line_no: 119
+    contexte_brut: '150-200 Md€ — estimation FMI/UBS
+
+      - CP26 : « ASE produit-elle les victimes ? » — hypothèse
+
+      - GE20 : « Économie potentielle 14,5 Md€ » — estimation parlementaire
+
+
+      C'
+  urls: []
+  acteurs_nommes:
+  - nom: Changement de Régime
+    line_no: 1
+  - nom: Banque de France
+    line_no: 28
+  - nom: Le Canard Enchaîné
+    line_no: 61
+  - nom: Fondation Abbé Pierre
+    line_no: 74
+  - nom: World Inequality Lab
+    line_no: 84
+  - nom: 'Qualité globale
+
+
+      Les'
+    line_no: 152
+  - nom: 'Problème structurel
+
+
+      Le'
+    line_no: 156
+prompt_hote: "# PROMPT STRUCTURÉ POUR LLM HÔTE (Agent B + D)\n\nTu es le LLM hôte\
+  \ de Truth Engine. Tu reçois une enquête Sumer/Rome/Chine/etc.\net tu dois produire\
+  \ une fiche de quintessence de 12 sections.\n\n## Contexte mécanique (déjà extrait\
+  \ par Python pur)\n\n- Civ_prefix : HUB\n- Complexité : MEDIUM\n- Score GATE_G actuel\
+  \ : 0.0% (FAIL)\n- F### candidats (Agent A) : 0\n- F### matrice fusionnée (Agent\
+  \ C) : 0\n- Dates extraites : 1\n- Sommes extraites : 15\n- Citations extraites\
+  \ : 10\n- URLs extraites : 0\n- Acteurs nommés (heuristique) : 7\n- Sections du\
+  \ plan SUBLIMATOR : 5/18\n\n## Sections du plan SUBLIMATOR détectées\n\n  - §0 MÉTHODE\
+  \ (L11)\n  - §1 RÉPARTITION DES SOURCES PAR CATÉGORIE (L21)\n  - §2 PROBLÈMES IDENTIFIÉS\
+  \ (L105)\n  - §3 VERDICT (L150)\n  - §4 SOURCES DE CET AUDIT (L179)\n\n## Quelques\
+  \ sommes extraites (échantillon)\n\n  - 1 000 (Mds) L115: FR7 : « Transfert ascendant\
+  \ ~1 000 Md€ (2017-2026) » — estimation n\n  - 200 (Mds) L117: em\n- EF4 : actifs\
+  \ suisses 150-200 Md€ — estimation FMI/UBS\n- CP26\n  - 14,5 (Mds) L119: GE20 :\
+  \ « Économie potentielle 14,5 Md€ » — estimation parlementaire\n  - 55 (pct) L23:\
+  \ ouvernementales françaises ( ~55% )\n\n| Source | Utilisation | T\n  - 55 (pct)\
+  \ L38: | Justice |\n\n**Problème :** ~55% des faits s'appuient sur des\n  - 55 (pct)\
+  \ L38: re de l'État » qui s'appuie à 55% sur des données de l'État cré\n  - 20 (pct)\
+  \ L40: nternationales/officielles ( ~20% )\n\n| Source | Utilisation | F\n  - 20\
+  \ (pct) L53: elles représentent seulement ~20% du corpus.\n\n### 1.3 Médias d'\n\
+  \  - 10 (pct) L55: 1.3 Médias d'investigation ( ~10% )\n\n| Source | Utilisation\
+  \ |\n|\n  - 8 (pct) L66: ### 1.4 ONG / Think Tanks ( ~8% )\n\n| Source | Utilisation\
+  \ |\n|\n\n## Quelques URLs extraites\n\n\n\n## F### candidats\n\n\n\n## 12 sections\
+  \ à produire\n\n1. **these_centrale** : 1 phrase résumant la thèse centrale\n2.\
+  \ **theses_implicites** : 3 thèses implicites (non explicites mais sous-jacentes)\n\
+  3. **f_atomiques** : compléter la matrice F### (les candidats ci-dessus + ajouts)\n\
+  4. **acteurs_network** : 5-15 acteurs principaux (à filtrer depuis la liste)\n5.\
+  \ **causalites** : 3-5 chaînes de causalité (≥3 liens chacune)\n6. **perspectives_dialectiques**\
+  \ : 3 perspectives (auteur, adverse, arbitre)\n7. **limites** : 3-5 limites méthodologiques\n\
+  8. **wolves** : 3-5 acteurs malveillants identifiés\n9. **iceberg** : 3-5 angles\
+  \ morts / auto-critiques\n10. **chronologie** : 5-10 dates clés (depuis les dates\
+  \ extraites + ajouts)\n11. **domaines** : 5-7 thématiques couvertes\n12. **urls_prioritaires**\
+  \ : 5-10 sources clés (depuis les URLs extraites + ajouts)\n\n## Méthode\n\n1. Lis\
+  \ l'enquête complète (6,874 chars, en sections §1 à §18).\n2. Pour chaque section,\
+  \ croise les extractions mécaniques avec ta lecture cursive.\n3. Pour F###, enrichis\
+  \ chaque candidat avec date/acteur/chiffre/source/notes.\n4. Pour les acteurs, distingue\
+  \ les VRAIS acteurs (personnes/institutions) des expressions incidentes.\n5. Pour\
+  \ les URLs, classe par tier (1=primaire, 2=secondaire, 3=inconnu).\n\n## Output\
+  \ attendu\n\nYAML valide, UTF-8, structuré selon les 12 sections. Pas de Markdown.\n"

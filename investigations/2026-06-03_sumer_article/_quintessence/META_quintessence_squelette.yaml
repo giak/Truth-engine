@@ -1,0 +1,160 @@
+civ_prefix: META
+complexity: MEDIUM
+n_f_candidats: 0
+n_matrice_fusionnee: 0
+completude_pct: 0.0
+gate_g_pass: false
+f_atomiques: []
+utile:
+  n_dates: 1
+  n_sommes: 11
+  n_citations: 0
+  n_urls: 0
+  n_acteurs_nommes: 3
+  n_marqueurs_causalite: 0
+  n_marqueurs_rhetorique: 0
+  n_sections_plan: 6
+  sections_plan:
+  - section_num: 1
+    section_titre: RAPPEL DES CONCLUSIONS DE L'ARTICLE ORIGINAL
+    line_no: 9
+  - section_num: 2
+    section_titre: IMPACT PAR INVESTIGATION
+    line_no: 21
+  - section_num: 3
+    section_titre: CALCUL PONDÉRÉ
+    line_no: 36
+  - section_num: 4
+    section_titre: VENTILATION PAR CONCLUSION
+    line_no: 52
+  - section_num: 5
+    section_titre: CONCLUSION
+    line_no: 64
+  - section_num: 6
+    section_titre: SOURCES DU RECALCUL
+    line_no: 85
+  dates:
+  - date: '2026-06-04'
+    format: ISO
+    line_no: 3
+    contexte_brut: 'SHADOW MÉTA FINAL
+
+
+      **Date** : 2026-06-04
+
+      **Objet** : Shadow méta final'
+  sommes:
+  - montant: '35'
+    format: pct
+    line_no: 13
+    contexte_brut: 'ersel d''intégration sociale | 35% |
+
+      | C2 | Transmission linéair'
+  - montant: '20'
+    format: pct
+    line_no: 14
+    contexte_brut: 're Sumer → Rome → Modernité | 20% |
+
+      | C3 | Andurarum = précéden'
+  - montant: '20'
+    format: pct
+    line_no: 15
+    contexte_brut: 'storique de restructuration | 20% |
+
+      | C4 | 5 tensions en cascad'
+  - montant: '15'
+    format: pct
+    line_no: 16
+    contexte_brut: 'en cascade = cadre cohérent | 15% |
+
+      | C5 | Capture moderne = ph'
+  - montant: '10'
+    format: pct
+    line_no: 17
+    contexte_brut: 'phénomène extrême documenté | 10% |
+
+
+      ---
+
+
+      ## §2 IMPACT PAR INVE'
+  - montant: '35'
+    format: pct
+    line_no: 23
+    contexte_brut: Investigation | Shadow | C1 (35%) | C2 (20%) | C3 (20%) | C4 (
+  - montant: '20'
+    format: pct
+    line_no: 23
+    contexte_brut: ion | Shadow | C1 (35%) | C2 (20%) | C3 (20%) | C4 (15%) | C5 (
+  - montant: '20'
+    format: pct
+    line_no: 23
+    contexte_brut: 'w | C1 (35%) | C2 (20%) | C3 (20%) | C4 (15%) | C5 (10%) |
+
+      |---'
+  - montant: '15'
+    format: pct
+    line_no: 23
+    contexte_brut: ') | C2 (20%) | C3 (20%) | C4 (15%) | C5 (10%) |
+
+      |--------------'
+  - montant: '10'
+    format: pct
+    line_no: 23
+    contexte_brut: ') | C3 (20%) | C4 (15%) | C5 (10%) |
+
+      |--------------|--------|-'
+  - montant: '55'
+    format: pct
+    line_no: 59
+    contexte_brut: 'artefact d''analyse. Sources à 55% étatiques (faiblesse). |
+
+      | **'
+  citations: []
+  urls: []
+  acteurs_nommes:
+  - nom: Transmission linéaire Sumer
+    line_no: 14
+  - nom: Ajustement pour Amériques
+    line_no: 48
+  - nom: Charpin contredit Hudson
+    line_no: 58
+prompt_hote: "# PROMPT STRUCTURÉ POUR LLM HÔTE (Agent B + D)\n\nTu es le LLM hôte\
+  \ de Truth Engine. Tu reçois une enquête Sumer/Rome/Chine/etc.\net tu dois produire\
+  \ une fiche de quintessence de 12 sections.\n\n## Contexte mécanique (déjà extrait\
+  \ par Python pur)\n\n- Civ_prefix : META\n- Complexité : MEDIUM\n- Score GATE_G\
+  \ actuel : 0.0% (FAIL)\n- F### candidats (Agent A) : 0\n- F### matrice fusionnée\
+  \ (Agent C) : 0\n- Dates extraites : 1\n- Sommes extraites : 11\n- Citations extraites\
+  \ : 0\n- URLs extraites : 0\n- Acteurs nommés (heuristique) : 3\n- Sections du plan\
+  \ SUBLIMATOR : 6/18\n\n## Sections du plan SUBLIMATOR détectées\n\n  - §1 RAPPEL\
+  \ DES CONCLUSIONS DE L'ARTICLE ORIGINAL (L9)\n  - §2 IMPACT PAR INVESTIGATION (L21)\n\
+  \  - §3 CALCUL PONDÉRÉ (L36)\n  - §4 VENTILATION PAR CONCLUSION (L52)\n  - §5 CONCLUSION\
+  \ (L64)\n  - §6 SOURCES DU RECALCUL (L85)\n\n## Quelques sommes extraites (échantillon)\n\
+  \n  - 35 (pct) L13: ersel d'intégration sociale | 35% |\n| C2 | Transmission linéair\n\
+  \  - 20 (pct) L14: re Sumer → Rome → Modernité | 20% |\n| C3 | Andurarum = précéden\n\
+  \  - 20 (pct) L15: storique de restructuration | 20% |\n| C4 | 5 tensions en cascad\n\
+  \  - 15 (pct) L16: en cascade = cadre cohérent | 15% |\n| C5 | Capture moderne =\
+  \ ph\n  - 10 (pct) L17: phénomène extrême documenté | 10% |\n\n---\n\n## §2 IMPACT\
+  \ PAR INVE\n  - 35 (pct) L23: Investigation | Shadow | C1 (35%) | C2 (20%) | C3\
+  \ (20%) | C4 (\n  - 20 (pct) L23: ion | Shadow | C1 (35%) | C2 (20%) | C3 (20%)\
+  \ | C4 (15%) | C5 (\n  - 20 (pct) L23: w | C1 (35%) | C2 (20%) | C3 (20%) | C4 (15%)\
+  \ | C5 (10%) |\n|---\n  - 15 (pct) L23: ) | C2 (20%) | C3 (20%) | C4 (15%) | C5\
+  \ (10%) |\n|--------------\n  - 10 (pct) L23: ) | C3 (20%) | C4 (15%) | C5 (10%)\
+  \ |\n|--------------|--------|-\n\n## Quelques URLs extraites\n\n\n\n## F### candidats\n\
+  \n\n\n## 12 sections à produire\n\n1. **these_centrale** : 1 phrase résumant la\
+  \ thèse centrale\n2. **theses_implicites** : 3 thèses implicites (non explicites\
+  \ mais sous-jacentes)\n3. **f_atomiques** : compléter la matrice F### (les candidats\
+  \ ci-dessus + ajouts)\n4. **acteurs_network** : 5-15 acteurs principaux (à filtrer\
+  \ depuis la liste)\n5. **causalites** : 3-5 chaînes de causalité (≥3 liens chacune)\n\
+  6. **perspectives_dialectiques** : 3 perspectives (auteur, adverse, arbitre)\n7.\
+  \ **limites** : 3-5 limites méthodologiques\n8. **wolves** : 3-5 acteurs malveillants\
+  \ identifiés\n9. **iceberg** : 3-5 angles morts / auto-critiques\n10. **chronologie**\
+  \ : 5-10 dates clés (depuis les dates extraites + ajouts)\n11. **domaines** : 5-7\
+  \ thématiques couvertes\n12. **urls_prioritaires** : 5-10 sources clés (depuis les\
+  \ URLs extraites + ajouts)\n\n## Méthode\n\n1. Lis l'enquête complète (4,291 chars,\
+  \ en sections §1 à §18).\n2. Pour chaque section, croise les extractions mécaniques\
+  \ avec ta lecture cursive.\n3. Pour F###, enrichis chaque candidat avec date/acteur/chiffre/source/notes.\n\
+  4. Pour les acteurs, distingue les VRAIS acteurs (personnes/institutions) des expressions\
+  \ incidentes.\n5. Pour les URLs, classe par tier (1=primaire, 2=secondaire, 3=inconnu).\n\
+  \n## Output attendu\n\nYAML valide, UTF-8, structuré selon les 12 sections. Pas\
+  \ de Markdown.\n"
