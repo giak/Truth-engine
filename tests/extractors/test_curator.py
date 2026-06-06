@@ -1,5 +1,5 @@
 from unittest.mock import patch, MagicMock
-from tools.engines.sublimator.extractors.llm_curator import curator_fusion, score_fiabilite, jaccard
+from tools.engines.sublimator.extractors.curator import curator_fusion, score_fiabilite, jaccard
 
 
 def test_score_fiabilite_pas_url():
