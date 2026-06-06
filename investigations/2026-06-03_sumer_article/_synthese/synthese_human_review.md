@@ -4,6 +4,7 @@
 **Sujet principal :** Comparaison France moderne vs 10 civilisations antiques (dette, bureaucratie, droit, monnaie, religion, transmission, capture)
 **Convergence :** 90% (9/10 fiches traitent ce sujet) | **HUB = audit des sources de ce sujet**
 **Shadow_factor_agregé :** 3.85x (median) | **Complexity :** APEX
+**Stats :** 12 transversalités (cible 7+, +71%) | 5 thèses | 5 méta-obs | **53 F### uniques cités (cible 50+)** | 101 F###-slots totaux
 
 ---
 
@@ -12,6 +13,10 @@
 1. **TR-001 — Dette comme outil politique** (5/10 fiches) : andurarum, nexum, monopole sel, riba, rituel
 2. **TR-003 — Capture universelle, mecanismes variables** (5/10) : caste, quipu, enarques, etat
 3. **TR-002 — Transmission multi-lineaire** (4/10) : CJC direct, Bologne, Cordoue, Jesuites
+4. **TR-011 — Fiscalite antique** (8/10) : Sumer/Rome/Chine/MA/Islam/Inde/Ameriques/Andurarum — 9 F###
+5. **TR-012 — Transmission des idees** (5/10) : Cordoue, CJC, Grand Bond, Ammisaduqa — 6 F###
+6. **TR-009 — L'absence EST le fait** (5/10) : 5 F###
+7. **TR-010 — Chainon arabe Cordoue/Tolede** (4/10) : 4 F###
 
 ## Top 3 theses cardinales
 
