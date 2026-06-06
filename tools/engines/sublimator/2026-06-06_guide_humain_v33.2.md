@@ -1379,36 +1379,156 @@ Cette section permet de naviguer du guide vers la spec et vice-versa.
 
 ## §16 Extraction atomique v33.2 (référence rapide)
 
-### 16.1 Quand lancer l'extraction ?
+### 16.1 Qu'est-ce qu'un fichier `_quintessence/*.yaml` ?
 
-À chaque nouvelle enquête (nouveau fichier .md dans investigations/), ou pour rétro-exploiter une enquête existante.
+C'est une **fiche de quintessence** : matrice de 12 sections qui résume une enquête brute en éléments atomiques exploitables pour un article. C'est le **produit fini** de SUBLIMATOR v33.2, pas un brouillon.
 
-### 16.2 Commande type
+**Localisation** : `investigations/<sujet>/_quintessence/<prefix>_quintessence.yaml`
 
-```bash
-python3 tools/engines/extractors/orchestrator.py \
-  --input investigations/<sujet>/<civ>_INVESTIGATION.md \
-  --civ <prefix> \
-  --output investigations/<sujet>/_quintessence/<civ>_quintessence.yaml \
-  --complexity MEDIUM
+**Deux états possibles** :
+
+| État | Suffixe | Contenu | Comment l'obtenir |
+|------|---------|---------|-------------------|
+| **Squelette** | `_squelette.yaml` | 17-80 F### candidats + 8 catégories d'extraction mécanique (dates, sommes, URLs, etc.) | Orchestrateur Python seul |
+| **Enrichi** | `_quintessence.yaml` (sans suffixe) | 12 sections complètes : these_centrale, theses_implicites, f_atomiques, acteurs, causalités, perspectives, limites, wolves, iceberg, chronologie, domaines, urls | Squelette + LLM hôte (opencode = moi) qui lit l'enquête et complète |
+
+**Ne pas confondre** :
+- `S_quintessence.yaml` = **enrichi** (à valider par humain)
+- `S_quintessence_squelette.yaml` = squelette Python (à enrichir par LLM hôte)
+
+### 16.2 Cycle de vie d'une fiche
+
+```
+Enquête brute (.md, 8-55K chars)
+       ↓
+[1] Python pur : orchestrateur produit le SQUELETTE
+       ↓  (parse_atomic + extract_utile + curator + GATE_G)
+Squelette YAML (17-80 F### + extractions mécaniques)
+       ↓
+[2] LLM hôte (opencode) lit l'enquête + squelette, complète les 12 sections
+       ↓  (~5-15 min, dépend de la taille)
+Fiche enrichie YAML (12 sections, 22+ F###, 5+ causalités)
+       ↓
+[3] HUMAIN (toi) : valide, modifie, refuse, enrichit (5 min)
+       ↓
+Fiche validée → base pour rédaction article
 ```
 
-### 16.3 Outputs
+**Pourquoi 3 étapes** : Python seul capture les **faits objectifs** (F###, dates, sommes, URLs). Le LLM hôte capture les **interprétations** (thèses, causalités, angles morts). L'humain arbitre les **décisions éditoriales** (quelles thèses privilégier, quels F### corriger).
 
-- `_quintessence/<civ>_quintessence.yaml` : 12 sections de quintessence
-- Console : progression Agent A → B → C → D → E
-- Code retour : 0 (succès) / 1 (GATE_G fail) / 2 (refus humain)
+### 16.3 Anatomie d'une fiche enrichie (12 sections)
 
-### 16.4 Validation humaine (Agent E)
+Voici les 12 sections que tu vas trouver dans un fichier `_quintessence/<civ>_quintessence.yaml`, avec pour chacune : **ce que c'est**, **quoi vérifier**, **exemple Sumer**.
 
-Le curator (C) produit une matrice YAML. Le verifier (D) signale les trous. L'humain :
-1. Lit les 2 outputs (~5 min)
-2. Décide : valider / modifier / refuser (cf. CP4 v33.1)
-3. Max 2 boucles
+| # | Section | Type | Contenu attendu | Quoi vérifier | Exemple Sumer |
+|---|---------|------|-----------------|---------------|---------------|
+| 1 | `these_centrale` | str (1 phrase) | La thèse principale de l'enquête | 1 phrase affirmative, pas une question | « Sumer et la France partagent des structures fonctionnelles communes à des échelles incommensurables... » |
+| 2 | `theses_implicites` | list[3] | 3 thèses non explicites mais sous-jacentes | 3 thèses qui n'apparaissent pas mot pour mot dans l'enquête | « L'andurarum n'est pas un jubilé moderne » |
+| 3 | `f_atomiques` | list[≥22] | Faits atomiques avec date/acteur/chiffre/source/URL | ≥22 items, URLs qui répondent en HEAD 200, fiabilite ✦/✧/⁅/❧ cohérente | F-S001 (dette 3 416,3 Mds€) à F-S022 (Hammourabi 282 art.) |
+| 4 | `acteurs_network` | dict[3 catégories] | 5-15 acteurs : sumeriens / interpretes / france_contemporaine | 3 catégories remplies, pas de doublons | Urukagina, Gudea, Ur-Nammu, Shulgi, Lipit-Ishtar, Scribes, Hudson, Charpin, Kramer, Polanyi, Silver, État, INSP, Conseil d'État, Banque de France, INSEE |
+| 5 | `causalites` | list[3-5] | Chaînes logiques ≥3 liens chacune | Chaque chaîne a ≥3 maillons logiques, quantification présente | Dette paysan → esclavage → crise → andurarum → stabilisation |
+| 6 | `perspectives_dialectiques` | dict[3] | p1_officielle, p2_critique, p3_arbitrage | 3 forces en équilibre, suspicion_score 0-1 | Officielle « complexité = progrès » vs critique « complexité = capture » |
+| 7 | `limites` | list[3-5] | Limites méthodologiques de l'enquête | Auto-critique, pas simples caveats | Asymétrie temporelle, biais Kramer/Hudson/Polanyi, filiation non documentée |
+| 8 | `wolves` | list[3-5] | Acteurs malveillants ou à pouvoir disproportionné | Nommés, pas catégoriels (« les élites » non, « INSP » oui) | Urukagina, Ur-Nammu, Shulgi, Hudson, Bercy |
+| 9 | `iceberg` | list[3-5] | Angles morts, auto-critiques, silences | Convergence 0-1 (probabilité que l'angle soit réel) | Sumer comme construction occidentale, absence irakienne, Urukagina = restauration |
+| 10 | `chronologie` | list[5-12] | Dates clés | Dates absolues ou relatives, sources citables | -3400 écriture, -2350 Urukagina, -2100 Ur-Nammu, 1804 Code civil, 2025 dette |
+| 11 | `domaines` | list[5-7] | Thématiques couvertes | Pas de doublon, granularité cohérente | Dette, Économie, Bureaucratie, Normes, Dogme, Justice, Épistémologie |
+| 12 | `urls_prioritaires` | list[5-12] | Sources classées par tier (1=primaire, 2=secondaire, 3=inconnu) | tier=1 doit pointer vers PDF/source originale, tier=2 vers Wikipedia, tier=3 vers blog | ISAC Chicago (tier 1), Wikipedia (tier 2), zap.cool (tier 3) |
 
-### 16.5 Mapping F001 → F-CIV-XXX
+### 16.4 Check-list de validation humaine (5 minutes)
 
-Voir spec §X.2.
+Quand tu ouvres une fiche `_quintessence/*.yaml`, voici l'ordre de lecture :
+
+1. **30 sec** : Lis `these_centrale`. La phrase capture-t-elle vraiment l'argument central ? Sinon, **MODIFIER**.
+2. **30 sec** : Compte `f_atomiques`. Doit être ≥ 22 (MEDIUM) ou ≥ 35 (APEX). Si <15, **ENRICHIR** (le LLM hôte doit en ajouter).
+3. **2 min** : Vérifie 3 F### au hasard. Pour chacun, ouvre l'URL, vérifie que :
+   - La page existe (HTTP 200)
+   - Le fait avancé est cohérent avec la source
+   - La date et l'acteur sont exacts
+   Si une URL est cassée (⁅) ou fausse, **MODIFIER** ou **REFUSER**.
+4. **1 min** : Lis 1 `causalite`. La chaîne a-t-elle ≥3 maillons logiques ? La quantification est-elle chiffrée ? Sinon, **MODIFIER**.
+5. **1 min** : Lis `iceberg`. Y a-t-il un angle mort que tu connais mais qui n'est pas listé ? Si oui, **ENRICHIR**.
+6. **Décision finale** : voir §16.5.
+
+### 16.5 Critères d'acceptation (4 actions possibles)
+
+| Action | Quand | Comment |
+|--------|-------|---------|
+| **V** Valider | 22+ F###, 5+ acteurs, 3+ causalités, URLs tier 1-2 valides, these_centrale claire | Supprimer la fiche, garder comme base pour l'article |
+| **M** Modifier | these_centrale mal formulée, 1-2 F### faux, 1 section incomplète | Éditer le YAML directement, ou dicter au LLM hôte la modification |
+| **R** Refuser | <15 F###, 0 causalité, URLs inventées (tier ✦ mais page inexistante), these_centrale incohérente | Demander au LLM hôte de re-traiter l'enquête depuis zéro |
+| **E** Enrichir | Section correcte mais incomplète (ex : 2 causalités au lieu de 3) | Demander au LLM hôte d'ajouter la section manquante |
+
+**Règle d'or** : un **REFUSER** doit être rare. Si la fiche est à 80% correcte, c'est un **MODIFIER**, pas un refuser.
+
+### 16.6 Commandes utiles (à copier-coller)
+
+```bash
+# 1. Voir le sommaire d'une fiche
+head -50 investigations/2026-06-03_sumer_article/_quintessence/S_quintessence.yaml
+
+# 2. Compter les F### (doit être ≥ 22 pour MEDIUM)
+grep -c "  - id: F-" investigations/2026-06-03_sumer_article/_quintessence/S_quintessence.yaml
+
+# 3. Lister les F### avec leurs faits
+grep -A 1 "  - id: F-" investigations/2026-06-03_sumer_article/_quintessence/S_quintessence.yaml | head -30
+
+# 4. Vérifier qu'une URL répond (HEAD 200 attendu pour fiabilite ✦)
+curl -I "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/sumerians.pdf" | head -3
+
+# 5. Re-générer un squelette (si l'enquête a été modifiée)
+PYTHONPATH=. python3 -m tools.engines.sublimator.extractors.orchestrator \
+  --input investigations/2026-06-03_sumer_article/2026-06-03_12-30_sumer_vs_france_INVESTIGATION.md \
+  --civ S \
+  --output investigations/2026-06-03_sumer_article/_quintessence/S_quintessence_squelette.yaml \
+  --complexity MEDIUM
+
+# 6. Lancer l'orchestrateur sur TOUTES les enquêtes d'un dossier
+PYTHONPATH=. python3 tools/engines/sublimator/extractors/_lancer_tout.py
+```
+
+### 16.7 Quand relancer l'orchestrateur ?
+
+| Situation | Action |
+|-----------|--------|
+| Nouvelle enquête créée | Lancer squelette + demander enrichissement LLM hôte |
+| Enquête brute modifiée | Re-générer squelette (les ajouts manuels sont perdus) |
+| Fiche enrichie validée | Ne rien faire, base pour rédaction |
+| Fiche enrichie refusée | Re-traiter l'enquête (LLM hôte refait la lecture cursive) |
+
+**Important** : `_quintessence/<civ>_quintessence_squelette.yaml` (squelette) et `_quintessence/<civ>_quintessence.yaml` (enrichi) sont **deux fichiers distincts**. Renommer le squelette ne transforme pas la fiche enrichie.
+
+### 16.8 Mapping F001 → F-CIV-XXX
+
+Pour les enquêtes qui utilisent encore l'ancien format `F001`, conversion automatique :
+
+| Ancien ID | Nouveau ID | Civ |
+|-----------|-----------|-----|
+| F001-F020 (M-A) | F-MA001 à F-MA020 | Moyen Âge |
+| F001-F014 (Islam) | F-I001 à F-I014 | Islam |
+| F001-F013 (Inde) | F-IN001 à F-IN013 | Inde |
+| F001-F012 (Amériques) | F-AM001 à F-AM012 | Amériques |
+| F001-F020+ (Sumer) | F-S001+ (extraction directe) | Sumer |
+| F001-F020+ (Rome) | F-R001+ | Rome |
+| F001-F020+ (Chine) | F-C001+ | Chine |
+
+L'orchestrateur fait le mapping automatiquement (voir spec §X.2). Si tu vois un F001 brut dans une fiche enrichie, signale-le : c'est un bug.
+
+### 16.9 Limites connues de l'extraction atomique
+
+- **F### manquants pour enquêtes narratives** : certaines enquêtes (ex. Chine 14:00) n'ont pas de F### pré-balisés. Le squelette est vide (0 F###). L'enrichissement LLM hôte peut en ajouter, mais c'est plus lent.
+- **Faux positifs acteurs** : la regex heuristique capte 30-50 « noms propres » par enquête, dont 50% sont des expressions incidentes (« En France », « La Sécurité »). Le LLM hôte filtre, mais quelques faux positifs peuvent rester.
+- **Citations françaises « »** : si l'enquête n'utilise pas les guillemets français, 0 citation est extraite. C'est correct, pas un bug.
+- **Chronologies partielles** : pour les enquêtes sans dates précises (ex. dialogues philosophiques), `chronologie` peut être vide. C'est attendu.
+
+### 16.10 Résumé en 30 secondes
+
+- **Fichier `_quintessence/<civ>_quintessence.yaml`** = fiche enrichie, 12 sections, à valider par toi
+- **Check-list en 5 min** : these_centrale (30s) + f_atomiques count (30s) + 3 URLs au hasard (2 min) + 1 causalité (1 min) + iceberg (1 min)
+- **Action** : V (valider) / M (modifier) / R (refuser) / E (enrichir)
+- **Commande clé** : `PYTHONPATH=. python3 -m tools.engines.sublimator.extractors.orchestrator --input ... --output ...`
+
+Si après ça c'est encore abscond, c'est que le doc est mal écrit. Dis-moi quelle section est obscure.
 
 ---
 
