@@ -1,0 +1,554 @@
+synthese:
+  meta:
+    date: "2026-06-06"
+    source_fiches: 10
+    complexity: APEX
+    sujet_principal:
+      these_testee: "Comparaison France moderne vs 10 civilisations antiques sur 7 themes (dette, bureaucratie, droit, monnaie, religion, transmission, capture)"
+      faits_cles:
+        - "Sumer : 30 annulations de dettes documentees 2400-1400 av. (andurarum)"
+        - "Rome : filiation DIRECTE Corpus Juris Civilis 529-534 dans Code civil 1804"
+        - "Chine : precede la France 700-2300 ans sur 5/7 themes (Jiaozi 1024, keju 605, Tang Code 624)"
+        - "Inde : 32% PIB mondial en 1 CE, integration SANS dette via dharma"
+        - "Ameriques : 16+ civilisations, AUCUNE dette monetaire, capture par monopole info (quipu)"
+      acteurs_principaux:
+        - "Hudson (theoriste dette)"
+        - "Charpin (assyriologue, contre-Hudson)"
+        - "Kramer (sumerologue)"
+        - "Polanyi (economiste antique)"
+    shadow_factor_agregé: 3.85
+    sujet_source_detection: "titre H1 + §1 RESUME EXECUTIF (8/10 fiches)"
+    convergence: "90% (9/10 fiches traitent comparaison France/civilisations antiques)"
+    annexes_detectees:
+      - fiche_id: AM
+        type: annexe-refutative
+        criteres_match: ["shadow_factor 6.4 > 3.0", "these REFUTATEUR contient 'AUCUNE dette'"]
+        score: 2
+      - fiche_id: A
+        type: annexe-refutative
+        criteres_match: ["shadow_factor 5.8 > 3.0", "complexity APEX", "MAILLON FAIBLE + 5 divergences"]
+        score: 3
+      - fiche_id: IN
+        type: annexe-refutative
+        criteres_match: ["shadow_factor 5.2 > 3.0", "complexity APEX", "ABSENTE + TRANSFORMEE"]
+        score: 3
+      - fiche_id: META
+        type: annexe-refutative
+        criteres_match: ["shadow_factor 5.0 > 3.0", "complexity APEX", "REFUTEE + 1/5 tient"]
+        score: 3
+      - fiche_id: C
+        type: annexe-complementaire
+        criteres_match: ["shadow_factor 3.2 > 3.0", "complexity APEX"]
+        score: 2
+    principales: ["S", "R", "MA", "HUB", "I"]
+
+  transversalites:
+    - id: TR-001
+      label: "Dette comme outil politique, pas seulement economique"
+      type: these
+      fiches_concernees: [S, R, C, I, A]
+      f_atomiques:
+        - id: F-S001
+          enonce: "30 annulations de dettes sumériennes entre 2400 et 1400 av."
+          glyphe: "X"
+        - id: F-R001
+          enonce: "Abolition du nexum 326 av. (lex Poetelia Papiria) n'a PAS resolu la dette"
+          glyphe: "X"
+        - id: F-C001
+          enonce: "Monopole du sel etablit un controle de l'Etat sur l'economie"
+          glyphe: "X"
+        - id: F-I001
+          enonce: "Riba (interdiction coranique de l'interet) integre transactions + ethique"
+          glyphe: "X"
+        - id: F-A001
+          enonce: "Andurarum = rituel politique (Charpin) pas mecanisme economique (Hudson)"
+          glyphe: "X"
+      force: "50% des fiches (5/10)"
+      glyphe_agregé: "X"
+
+    - id: TR-002
+      label: "Transmission multi-lineaire (pas unidirectionnelle Sumer->France)"
+      type: these
+      fiches_concernees: [R, MA, I, C]
+      f_atomiques:
+        - id: F-R002
+          enonce: "Corpus Juris Civilis 529-534 INCLUS dans Code civil 1804 (filiation DIRECTE)"
+          glyphe: "X"
+        - id: F-MA001
+          enonce: "Glossateurs de Bologne 1070 reconstruisent le droit romain (3 inventions medievales)"
+          glyphe: "X"
+        - id: F-I002
+          enonce: "Cordoue/Tolede transmettent le savoir grec+arabe vers l'Europe (chainon manquant)"
+          glyphe: "X"
+        - id: F-C002
+          enonce: "Jesuites transmettent le modele keju (concours administratif) en Europe 17e-18e s."
+          glyphe: "X"
+      force: "40% des fiches (4/10)"
+      glyphe_agregé: "X"
+
+    - id: TR-003
+      label: "Capture universelle, mecanismes variables"
+      type: these
+      fiches_concernees: [IN, AM, R, HUB, S]
+      f_atomiques:
+        - id: F-IN001
+          enonce: "Systeme des castes indien : capture par naissance, 3000 ans sans reforme reussie"
+          glyphe: "X"
+        - id: F-AM001
+          enonce: "Quipu = monopole d'information (cordes nouees) reserve a une elite de quipucamayocs"
+          glyphe: "X"
+        - id: F-AM002
+          enonce: "Sapa Inca = proprietaire FONCIER absolu, capture par le foncier"
+          glyphe: "X"
+        - id: F-R003
+          enonce: "Grands corps francais (ENA/INSP) = noblesse d'Etat, recrutement endogame"
+          glyphe: "X"
+        - id: F-HUB001
+          enonce: "55% des sources de l'audit sont gouvernementales francaises (capture par auto-citation)"
+          glyphe: "X"
+      force: "50% des fiches (5/10)"
+      glyphe_agregé: "X"
+
+    - id: TR-004
+      label: "Le biais de sources EST un objet d'etude (pas un defaut methodologique)"
+      type: meta
+      fiches_concernees: [HUB, AM, A, META]
+      f_atomiques:
+        - id: F-HUB002
+          enonce: "ZERO source pro-reforme dans 04_FACTCHECK.md (746 faits)"
+          glyphe: "X"
+        - id: F-AM003
+          enonce: "ZERO source amerindienne (colonise parle, pas par lui-meme)"
+          glyphe: "X"
+        - id: F-A002
+          enonce: "Interpretation Hudson repose sur traductions Kraus 1984, pas lecture directe tablettes"
+          glyphe: "X"
+        - id: F-META001
+          enonce: "Recalcul META : shadow moyen 5.0x, 1/5 conclusions tient intact"
+          glyphe: "X"
+      force: "40% des fiches (4/10)"
+      glyphe_agregé: "X"
+
+    - id: TR-005
+      label: "Andurarum = rituel de legitimite royale, pas mecanisme economique"
+      type: these
+      fiches_concernees: [A, META, S]
+      f_atomiques:
+        - id: F-A003
+          enonce: "Frequence andurarum : 1 tous les 33 ans en moyenne (30 annulations / 1000 ans)"
+          glyphe: "X"
+        - id: F-A004
+          enonce: "Consensus assyriologique : Charpin (legitimation) > Hudson (stabilisation macro)"
+          glyphe: "X"
+        - id: F-META002
+          enonce: "META recalcul : C3 (andurarum = jubilé moderne) REFUTEE 6.5x"
+          glyphe: "X"
+        - id: F-S002
+          enonce: "Andurarum annulait dettes agricoles SEULES, dettes commerciales EXCLUES"
+          glyphe: "X"
+      force: "30% des fiches (3/10)"
+      glyphe_agregé: "X"
+
+    - id: TR-006
+      label: "Filiation Rome/France DIRECTE, pas influence (malgre la 'parenthese' medievale)"
+      type: fait
+      fiches_concernees: [R, MA, META]
+      f_atomiques:
+        - id: F-R002
+          enonce: "Corpus Juris Civilis 529-534 INCLUS dans Code civil 1804 (filiation DIRECTE)"
+          glyphe: "X"
+        - id: F-MA002
+          enonce: "Bologne 1070 : reconstruction TEXTUELLE (pas re-invention) du droit romain"
+          glyphe: "X"
+        - id: F-META003
+          enonce: "META : C2 (transmission) AFFAIBLIE 2.5x car multi-lineaire (Cordoue + Bologne + Jesuites)"
+          glyphe: "X"
+      force: "30% des fiches (3/10)"
+      glyphe_agregé: "X"
+
+    - id: TR-007
+      label: "La dette N'EST PAS un mecanisme d'integration universel"
+      type: fait
+      fiches_concernees: [AM, IN, META]
+      f_atomiques:
+        - id: F-AM004
+          enonce: "16+ civilisations precolombiennes (Inca, Maya, Azteque) : AUCUNE dette monetaire"
+          glyphe: "X"
+        - id: F-IN002
+          enonce: "Dharma indien integre SANS annulation de dette (3eme these IN)"
+          glyphe: "X"
+        - id: F-META004
+          enonce: "META : C1 (dette universelle) REFUTEE 6.5x par 4 civilisations temoins"
+          glyphe: "X"
+      force: "30% des fiches (3/10)"
+      glyphe_agregé: "X"
+
+    - id: TR-008
+      label: "La ceinture de transmission medievale (MA) comble le 'trou de 594 ans'"
+      type: these
+      fiches_concernees: [MA, I, R]
+      f_atomiques:
+        - id: F-MA003
+          enonce: "Bologne 1070 + rente HDV 1522 + taille 1439 = 3 inventions medievales qui recreent l'Etat"
+          glyphe: "X"
+        - id: F-I003
+          enonce: "Charia integre culte + transactions + penal + familial dans 1 cadre (avant Cordoue)"
+          glyphe: "X"
+        - id: F-R004
+          enonce: "Reconstruction du CJC par les glossateurs (1080-1230) precede de 700 ans le Code civil"
+          glyphe: "X"
+      force: "30% des fiches (3/10)"
+      glyphe_agregé: "X"
+
+  theses_cardinales:
+    - id: THESE-001
+      label: "TRANSMISSION MULTI-LINEAIRE : Sumer->Grèce->Rome->France est une illusion d'optique occidentale"
+      position: continuite
+      theses_implicites_alignees:
+        - "Rome est dans le Code civil francais par filiation DIRECTE (CJC 529-534)"
+        - "Le Moyen Age est la CEINTURE DE TRANSMISSION entre Rome et la France"
+        - "L'Islam est le chainon MANQUANT de la transmission vers l'Europe"
+        - "Les Jesuites transmettent le modele chinois du keju en Europe"
+      f_atomiques_justificatifs:
+        - id: F-R002
+          enonce: "Corpus Juris Civilis 529-534 INCLUS dans Code civil 1804"
+          glyphe: "X"
+        - id: F-MA001
+          enonce: "Glossateurs Bologne 1070 reconstruisent TEXTUELLEMENT le droit romain"
+          glyphe: "X"
+        - id: F-I002
+          enonce: "Cordoue/Tolede transmettent savoir grec+arabe vers l'Europe"
+          glyphe: "X"
+        - id: F-C002
+          enonce: "Jesuites transmettent le modele keju en Europe (17e-18e s.)"
+          glyphe: "X"
+        - id: F-META003
+          enonce: "C2 (transmission) AFFAIBLIE 2.5x car multi-lineaire"
+          glyphe: "X"
+      fiches_soutien: [R, MA, I, C]
+      fiches_opposition: [AM]
+      shadow_factor: 2.5
+      glyphe_min: "X"
+
+    - id: THESE-002
+      label: "LA DETTE N'EST PAS LE SEUL MECANISME D'INTEGRATION SOCIALE"
+      position: rupture
+      theses_implicites_alignees:
+        - "Dharma indien integre SANS annulation de dette"
+        - "16+ civilisations precolombiennes integrent SANS dette monetaire"
+        - "C1 (dette universelle) REFUTEE 6.5x par 4 civilisations temoins"
+        - "Capture possible SANS dette (monopole info, caste, foncier)"
+      f_atomiques_justificatifs:
+        - id: F-IN002
+          enonce: "Dharma integre SANS annulation de dette (3eme these IN)"
+          glyphe: "X"
+        - id: F-AM001
+          enonce: "Quipu = monopole d'information (capture sans dette)"
+          glyphe: "X"
+        - id: F-AM002
+          enonce: "Sapa Inca = proprietaire FONCIER absolu (capture par foncier)"
+          glyphe: "X"
+        - id: F-META004
+          enonce: "C1 (dette universelle) REFUTEE 6.5x par 4 civilisations"
+          glyphe: "X"
+        - id: F-IN001
+          enonce: "Systeme des castes = capture par naissance, 3000 ans"
+          glyphe: "X"
+      fiches_soutien: [IN, AM, META]
+      fiches_opposition: [S, C]
+      shadow_factor: 5.4
+      glyphe_min: "X"
+
+    - id: THESE-003
+      label: "L'ANDURARUM EST UN RITUEL POLITIQUE, PAS UN MECANISME ECONOMIQUE"
+      position: exception
+      theses_implicites_alignees:
+        - "Andurarum = legitimation royale (Charpin, consensus assyriologique)"
+        - "Frequence 1/33 ans = trop rare pour etre un mecanisme de stabilisation"
+        - "Annule dettes agricoles SEULES, dettes commerciales EXCLUES"
+        - "META C3 REFUTEE 6.5x (andurarum ≠ jubilé moderne)"
+      f_atomiques_justificatifs:
+        - id: F-A001
+          enonce: "Andurarum = rituel politique (Charpin) pas mecanisme economique (Hudson)"
+          glyphe: "X"
+        - id: F-A003
+          enonce: "Frequence andurarum : 1 tous les 33 ans (trop rare pour stabilisation macro)"
+          glyphe: "X"
+        - id: F-A004
+          enonce: "Consensus assyriologique : Charpin > Hudson"
+          glyphe: "X"
+        - id: F-META002
+          enonce: "C3 (andurarum = jubilé moderne) REFUTEE 6.5x"
+          glyphe: "X"
+        - id: F-S002
+          enonce: "Annule dettes agricoles SEULES, commerciales EXCLUES"
+          glyphe: "X"
+      fiches_soutien: [A, META, S]
+      fiches_opposition: []
+      shadow_factor: 5.0
+      glyphe_min: "X"
+
+    - id: THESE-004
+      label: "LE BIAIS DE SOURCES EST LUI-MEME UN OBJET D'ETUDE"
+      position: rupture
+      theses_implicites_alignees:
+        - "55% sources etatiques dans l'audit = logique contradictoire"
+        - "ZERO source amerindienne (colonise parle, pas par lui-meme)"
+        - "Interpretation Hudson repose sur traductions Kraus 1984"
+        - "L'absence d'une civilisation dans le recit EST le fait"
+      f_atomiques_justificatifs:
+        - id: F-HUB001
+          enonce: "55% des sources de l'audit sont gouvernementales francaises"
+          glyphe: "X"
+        - id: F-HUB002
+          enonce: "ZERO source pro-reforme dans 04_FACTCHECK.md (746 faits)"
+          glyphe: "X"
+        - id: F-AM003
+          enonce: "ZERO source amerindienne (16+ civilisations reduites au silence)"
+          glyphe: "X"
+        - id: F-A002
+          enonce: "Interpretation Hudson repose sur traductions Kraus 1984, pas lecture directe"
+          glyphe: "X"
+        - id: F-META001
+          enonce: "Recalcul META : shadow moyen 5.0x, 1/5 conclusions tient"
+          glyphe: "X"
+      fiches_soutien: [HUB, AM, A, META]
+      fiches_opposition: [S]
+      shadow_factor: 4.0
+      glyphe_min: "X"
+
+    - id: THESE-005
+      label: "LA CAPTURE EST UNIVERSELLE MAIS SES MECANISMES VARIENT"
+      position: continuite
+      theses_implicites_alignees:
+        - "Caste (IN, 3000 ans) : capture par naissance"
+        - "Monopole d'info (AM, quipu) : capture par savoir"
+        - "Enarques (R, HUB) : capture par l'Etat"
+        - "Dogme (I, charia) : capture par integration systemique"
+      f_atomiques_justificatifs:
+        - id: F-IN001
+          enonce: "Systeme des castes indien : capture par naissance, 3000 ans"
+          glyphe: "X"
+        - id: F-AM001
+          enonce: "Quipu = monopole d'information reserve a une elite"
+          glyphe: "X"
+        - id: F-AM002
+          enonce: "Sapa Inca = proprietaire FONCIER absolu"
+          glyphe: "X"
+        - id: F-R003
+          enonce: "Grands corps francais (ENA/INSP) = noblesse d'Etat"
+          glyphe: "X"
+        - id: F-HUB001
+          enonce: "55% sources gouvernementales = capture par auto-citation"
+          glyphe: "X"
+      fiches_soutien: [IN, AM, R, HUB]
+      fiches_opposition: []
+      shadow_factor: 3.4
+      glyphe_min: "X"
+
+  meta_observations:
+    - id: OBS-001
+      observation: "CORRELATION SHADOW <-> MARGINALISATION OCCIDENTALE : AM 6.4x (la plus exclue) ↔ MA 1.5x (la plus integree au recit Renaissance). Plus une civilisation est absente du recit occidental dominant, plus son enquete produit des insights qui REFUTENT la these originale."
+      evidence: "Distribution shadows : AM 6.4 > A 5.8 > IN 5.2 > META 5.0 > C 3.2 > S 3.1 > R=I=HUB 2.8 > MA 1.5. Les 4 ombres les plus hautes sont sur des civilisations que le recit '3 civilisations' occulte (Ameriques, Inde) ou contredit (A = andurarum refute, META = recalcul)."
+      fiches_concernees: [AM, A, IN, META, MA]
+      implication: "L'ombre n'est pas un defaut methodologique, c'est un OBJET D'ETUDE. Le shadow capture l'INTENSITE DU DEBAT, pas la qualite de l'enquete. Travail futur : transformer la matrice shadow en matrice de visibilite historiographique."
+
+    - id: OBS-002
+      observation: "REFUTATION ASYMETRIQUE : 5 conclusions testees, 1 tient (C4, transmission), 1 AFFAIBLIE (C2, multi-lineaire), 2 REFUTEES (C1 dette universelle 6.5x, C3 andurarum 6.5x), 1 INTACTE avec biais (C5 capture). Taux de survie des theses 'fortes' = 40% (2/5)."
+      evidence: "META recalcul : shadow moyen 5.0x = ECHEC MAJEUR (cible 1.5x = PASS). 60% des conclusions fortes sont AFFAIBLIES ou REFUTEES. Seul C4 (transmission) tient INTACT, et encore : il est AFFAIBLI 2.5x (multi-lineaire) et non direct."
+      fiches_concernees: [META, A, AM, IN]
+      implication: "L'article original 'nos ancetres sumeriens avaient resolu des problemes que nous croyons modernes' est en partie contredit par les 9 autres enquetes. Le 'miracle grec' est en partie une illusion d'optique."
+
+    - id: OBS-003
+      observation: "ASYMETRIE EST/OUEST DANS LES OMBRES : 4 fiches sur civilisations non-occidentales (C, I, IN, AM) ont shadow moyen 4.4x. 4 fiches sur occident/Rome/Sumer/MA ont shadow moyen 2.55x (avec META = recalcul qui est 5.0x et HUB = 2.8x). L'exotisme produit plus d'ombre que la normalite."
+      evidence: "shadows : C 3.2 + I 2.8 + IN 5.2 + AM 6.4 = moyenne 4.4. S 3.1 + R 2.8 + MA 1.5 + HUB 2.8 = moyenne 2.55. Ratio 1.7x. META 5.0 (recalcul) et A 5.8 (andurarum refute) sont les perturbateurs qui confirment la tendance."
+      fiches_concernees: [C, I, IN, AM, S, R, MA, HUB]
+      implication: "Le regard occidental applique des standards plus stricts aux civilisations non-occidentales (biblio recente, sources directes, comparaison systematique). Resultat : plus d'incertitude documentee. Mais cette asymetrie EST la preuve du biais documentaire."
+
+    - id: OBS-004
+      observation: "PARADOXE DU HUB : l'audit des sources biaisees (55% etatiques, 0% contre-argument) a le shadow LE PLUS BAS parmi les fiches meta (2.8x vs META 5.0x, A 5.8x). Plus on est reflexif, MOINS on a d'ombre."
+      evidence: "HUB : shadow 2.8x, complexity SIMPLE, 18 F###. META : shadow 5.0x, complexity APEX, 18 F###. A : shadow 5.8x, complexity APEX, 22 F###. Le HUB est le seul audit methodologique des sources, et il a l'ombre la plus basse. Les 2 autres (META, A) sont des RECALCULS ou REFUTATIONS qui REVEILLENT desombres."
+      fiches_concernees: [HUB, META, A]
+      implication: "Le paradoxe : la reflexivite methodologique (HUB) est un acte de stabilisation, pas de perturbation. Les recalculs (META) et les refutations (A) sont des actes de perturbation qui augmentent l'ombre. En termes d'evidence-based journalism : un audit sobre est plus credible qu'un recalcul aggressif."
+
+    - id: OBS-005
+      observation: "SUMER EST L'EXCEPTION 'NORMALE' : S a shadow 3.1x (modeste), pas le plus bas. Mais S est la fiche SOURCE (premier article, premier recit). Les fiches posterieures (AM, A, IN, META) ont des ombres PLUS HAUTES parce qu'elles QUESTIONNENT S."
+      evidence: "S : shadow 3.1x, complexity MEDIUM, these 'structures communes'. Post-S : AM 6.4x (refutateur en chef), A 5.8x (autopsie andurarum), IN 5.2x (revele capture par caste), META 5.0x (recalcul general). Les 4 ombres les plus hautes sont TOUTES des reponses a S."
+      fiches_concernees: [S, AM, A, IN, META]
+      implication: "Le shadow capture l'INTENSITE DU DEBAT, pas la qualite methodologique isolee. S est la these 'hautaine' que les suivantes tentent de refuter, nuancer, ou etendre. La distribution des ombres raconte l'HISTOIRE DU DEBAT, pas l'HISTOIRE DES CIVILISATIONS."
+
+  gaps:
+    - id: GAP-001
+      gap: "F-I004 (riba + mecanisme d'application reel 7e-13e s.) non couvert par transversalites ni theses"
+      f_atomiques: [F-I004]
+      fiches: [I]
+      raison: "Singularite I (charia), pas de recurrence >=3 fiches"
+
+    - id: GAP-002
+      gap: "F-C003 (concours imperial keju : details procedures, taux de reussite) non couvert"
+      f_atomiques: [F-C003]
+      fiches: [C]
+      raison: "Detail operationnel non pertinent pour transversalites politiques"
+
+    - id: GAP-003
+      gap: "F-MA004 (rente HDV 1522, calcul du rendement) non couvert"
+      f_atomiques: [F-MA004]
+      fiches: [MA]
+      raison: "Detail economique technique, pas de recurrence"
+
+    - id: GAP-004
+      gap: "F-MA005 (taille 1439, mode de calcul et exemptions) non couvert"
+      f_atomiques: [F-MA005]
+      fiches: [MA]
+      raison: "Detail fiscal, pas de recurrence"
+
+    - id: GAP-005
+      gap: "F-IN003 (Aryabhata et mathematiques indiennes, ZERO occurrence dans recit occidental) non couvert"
+      f_atomiques: [F-IN003]
+      fiches: [IN]
+      raison: "Fait temoin de l'absence, pas un fait recurrant"
+
+    - id: GAP-006
+      gap: "F-AM005 (civilisation Pueblo et Hohokam, marginalisees encore plus que Inca/Maya/Azteque) non couvert"
+      f_atomiques: [F-AM005]
+      fiches: [AM]
+      raison: "Cas limites, n'apparaissent pas dans le debat C1/C3"
+
+    - id: GAP-007
+      gap: "F-A005 (Ammisaduqa tamkarum preserve, exception qui confirme la regle Charpin) non couvert"
+      f_atomiques: [F-A005]
+      fiches: [A]
+      raison: "Cas d'exception documente, pas pertinent pour theses cardinales"
+
+    - id: GAP-008
+      gap: "F-S003 (edubba formation scribes, 8-12 ans) non couvert par transversalites"
+      f_atomiques: [F-S003]
+      fiches: [S]
+      raison: "Detail pedagogique, transversalites sont politiques/structurelles"
+
+    - id: GAP-009
+      gap: "F-S004 (Dialogue du Pessimisme, scepticisme religieux sum) non couvert"
+      f_atomiques: [F-S004]
+      fiches: [S]
+      raison: "Fait de civilisation isole, pas de recurrence"
+
+    - id: GAP-010
+      gap: "F-HUB003 (sources Mediapart et Le Monde, identification des 'medias d'investigation' eux-memes) non couvert"
+      f_atomiques: [F-HUB003]
+      fiches: [HUB]
+      raison: "Meta-critique, sort du perimetre des theses cardinales"
+
+  ce_qui_tient:
+    - these_originale: "Les structures etatiques (dette, bureaucratie, droit) se transmettent entre civilisations antiques et la France moderne"
+      soutient_transversalites: [TR-001, TR-002, TR-003, TR-005, TR-008]
+      soutient_theses: [THESE-001, THESE-005]
+      force: "5 transversalites + 2 theses cardinales la soutiennent"
+
+    - these_originale: "Le biais de selection documentaire (le recit occidental est partiel) est un objet legitime d'investigation"
+      soutient_transversalites: [TR-004]
+      soutient_theses: [THESE-004]
+      force: "1 transversalite + 1 these cardinale, avec shadow 4.0x (modere)"
+
+    - these_originale: "La capture de l'Etat par une elite existe dans TOUTES les civilisations (universel)"
+      soutient_transversalites: [TR-003]
+      soutient_theses: [THESE-005]
+      force: "1 transversalite + 1 these cardinale, soutenue par 5 fiches"
+
+  ce_qui_tombe:
+    - these_originale: "L'article original est a l'envers : les modernes ont PERDU des solutions anciennes (andurarum, capture par info, etc.)"
+      contredit_par: [THESE-002, THESE-003]
+      f_atomiques_contraires: [F-META004, F-META002, F-AM001, F-IN002]
+      shadow_factor: 5.4
+      raisonnement: "C1 (dette universelle) REFUTEE 6.5x, C3 (andurarum = jubilé moderne) REFUTEE 6.5x. Les modernes n'ont pas PERDU l'integration par dette (qui etait marginale), ils l'ont TRANSFORMEE en integration par Etat-providence (avec ses propres defauts)."
+
+    - these_originale: "L'andurarum sumérien est l'ancetre direct du jubile moderne et de l'annulation de dette comme mecanisme economique"
+      contredit_par: [THESE-003]
+      f_atomiques_contraires: [F-A001, F-A003, F-A004, F-META002]
+      shadow_factor: 5.0
+      raisonnement: "Consensus assyriologique (Charpin) : andurarum = rituel politique, pas mecanisme eco. Frequence 1/33 ans = trop rare. Annulait dettes agricoles SEULES. META C3 REFUTEE 6.5x."
+
+    - these_originale: "Le '3 civilisations' (Sumer/Grece/Rome) est un recit valide de l'histoire des transmissions"
+      contredit_par: [THESE-001, THESE-002]
+      f_atomiques_contraires: [F-MA001, F-I002, F-C002, F-AM001, F-IN001]
+      shadow_factor: 3.5
+      raisonnement: "Au moins 6 autres civilisations (C, I, IN, AM, MA, A) sont des acteurs MAJEURS de la transmission. Le '3 civilisations' est une illusion d'optique occidentale construite a la Renaissance (MA these implicite #1)."
+
+    - these_originale: "La dette est le mecanisme universel d'integration des societes complexes"
+      contredit_par: [THESE-002]
+      f_atomiques_contraires: [F-AM001, F-AM004, F-IN002, F-META004]
+      shadow_factor: 5.4
+      raisonnement: "4 civilisations temoins (Inca, Maya, Azteque, Inde dharma) INTEGRENT SANS dette monetaire. C1 REFUTEE 6.5x par META. La capture peut s'exercer par monopole d'info (quipu), caste (IN), ou foncier (Sapa)."
+
+  erreurs_detectees:
+    - type: glyphe_manquant
+      description: "Les 212 F### dans les 10 quintessences ont glyphe: 'NONE' (placeholder v33.1, non calcule en v33.2). Le pilote attribue 'X' (tier 1 par defaut) aux F### cites. Work item v33.4 : backfill des glyphes reels sur les 10 quintessences (script batch glyphe_backfill.py)."
+      action: "Work item v33.4, hors perimetre pilote"
+
+    - type: shadow_s_manquant
+      description: "Fiche S a shadow_factor: N/A (champ non renseigne dans le YAML). Le pilote utilise 3.1x (source : previous summary manuel). Pour la coherence H6 (GATE_H), il faudrait que le YAML S contienne shadow_factor: 3.1. Work item mineur."
+      action: "Patch S_quintessence.yaml (ajouter shadow_factor: 3.1)"
+
+    - type: cible_apex_non_atteinte
+      description: "Cible APEX : 7+ transversalites, 5 theses, 5 meta-observations, 50-80 F### cites. Pilote : 8 transversalites (OK), 5 theses (OK), 5 meta-obs (OK), 38 F### uniques cites (sous cible 50). Les theses utilisent 5 F### chacune = 25 F### theses, plus 5+5+5+5+5+4+4+3 = 36 F### dans transversalites, plus quelques overlaps. Total : ~38 uniques (cible 50). Le pilote est fonctionnel mais sous la cible APEX en F###."
+      action: "Pour run APEX conforme, augmenter a 7+ F### par transversalite (actuellement 4-5) et 6+ par these (actuellement 5)."
+
+    - type: pas_circulaire_par_design
+      description: "THESE-002 (capture universelle) inclut F-IN001 (caste) parmi ses F### justificatifs. La fiche IN est listee en 'fiches_soutien', pas en opposition. H4 (pas de circularite) verifie que les fiches AUDIT/META/AUTOP n'auto-valident pas, mais IN n'est pas dans suffixes_problematiques du GATE_H. Pas de probleme. Note pour memoire."
+      action: "RAS, design conforme"
+
+    - type: meta_observation_5_capture_debat
+      description: "OBS-005 ('shadow capture l'intensite du debat') contredit partiellement OBS-001 ('shadow ↔ marginalisation'). OBS-005 dit que S est la 'source du debat' qui declenche les recalculs AM/A/IN/META. OBS-001 dit que le shadow est lie a la marginalisation occidentale. Les 2 sont compatibles : S (Occident, shadow 3.1x) declenche le debat, AM (Ameriques, shadow 6.4x) y repond. Pas de contradiction."
+      action: "RAS, observations compatibles"
+
+  fiches_metadata:
+    S:
+      civ_prefix: S
+      complexity: MEDIUM
+      shadow_factor: 3.1
+      n_f_atomiques: 22
+      shadow_source: previous_summary
+    R:
+      civ_prefix: R
+      complexity: MEDIUM
+      shadow_factor: 2.8
+      n_f_atomiques: 22
+    C:
+      civ_prefix: C
+      complexity: APEX
+      shadow_factor: 3.2
+      n_f_atomiques: 22
+    MA:
+      civ_prefix: MA
+      complexity: MEDIUM
+      shadow_factor: 1.5
+      n_f_atomiques: 22
+    I:
+      civ_prefix: I
+      complexity: MEDIUM
+      shadow_factor: 2.8
+      n_f_atomiques: 22
+    IN:
+      civ_prefix: IN
+      complexity: APEX
+      shadow_factor: 5.2
+      n_f_atomiques: 22
+    AM:
+      civ_prefix: AM
+      complexity: MEDIUM
+      shadow_factor: 6.4
+      n_f_atomiques: 22
+    A:
+      civ_prefix: A
+      complexity: APEX
+      shadow_factor: 5.8
+      n_f_atomiques: 22
+    HUB:
+      civ_prefix: HUB
+      complexity: SIMPLE
+      shadow_factor: 2.8
+      n_f_atomiques: 18
+    META:
+      civ_prefix: META
+      complexity: APEX
+      shadow_factor: 5.0
+      n_f_atomiques: 18
