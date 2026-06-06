@@ -1,4 +1,4 @@
-from tools.engines.extractors.parse_atomic import parse_f001, parse_f_civ, parse_items
+from tools.engines.sublimator.extractors.parse_atomic import parse_f001, parse_f_civ, parse_items, parse_all
 
 def test_parse_f001_basic():
     text = "F001 dette annulée par Urukagina. F002 autre fait."
@@ -22,3 +22,24 @@ def test_parse_items_basic():
     assert result[0]["num"] == 1
     assert result[0]["item_brut"] == "Premier item"
     assert result[2]["num"] == 3
+
+def test_parse_all_combines_3_formats():
+    text = """
+    F001 annulation dette.
+    F-S001 autre fait.
+    1. **Item un**
+    F002 deuxième fait.
+    2. **Item deux**
+    """
+    result = parse_all(text, civ_prefix="S")
+    formats = {r["input_format"] for r in result}
+    assert "F001" in formats
+    assert "F-CIV-XXX" in formats
+    assert "item" in formats
+
+def test_parse_all_maps_f001_to_civ():
+    text = "F001 fait ancien. F002 deuxième."
+    result = parse_all(text, civ_prefix="MA")
+    f001_targets = [r["id_target"] for r in result if r["input_format"] == "F001"]
+    assert "F-MA001" in f001_targets
+    assert "F-MA002" in f001_targets
