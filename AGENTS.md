@@ -260,3 +260,87 @@ Configuré dans `.codebuff/config.json` pour les clients supportant MCP (Claude 
 - **Recherche contextuelle** : avant d'écrire un article, cherche dans les mémoires pour trouver les faits et analyses existants
 - **Cross-référencement** : vérifie si un sujet a déjà été traité dans une investigation ou un article Substack
 - **Exploration de données** : utilise `mnemo search` avec des requêtes larges pour découvrir des connexions entre sujets
+
+---
+
+## SUBLIMATOR v33.2 : Extraction Rigoureuse
+
+SUBLIMATOR v33.2 étend v33.1 avec un pipeline d'extraction atomique structurée (5 ajouts intégrés : §X EXTRACTION ATOMIQUE, §W QUINTESSENCE, §W.13 AGRÉGATION, scoring ✦, GATE_G). Il transforme une enquête brute (60K mots) en une fiche de quintessence de 12 sections (thèse centrale, 3 thèses implicites, F### atomiques, acteurs, causalités, 3 perspectives dialectiques, limites, wolves, iceberg, chronologie, domaines, URLs prioritaires). Une cellule traite 1 enquête ; le système reste scalable de 2 à 20+ enquêtes.
+
+### Architecture
+
+La documentation canonique v33.2 vit dans 4 fichiers complémentaires :
+
+- **Spec** : `tools/engines/sublimator/2026-06-06_spec_v33.2.md` (1493 lignes, contient §X EXTRACTION ATOMIQUE et §W QUINTESSENCE)
+- **Guide humain** : `tools/engines/sublimator/2026-06-06_guide_humain_v33.2.md` (1510 lignes, contient §16 EXTRACTION v33.2)
+- **Design** : `docs/superpowers/specs/2026-06-06-sublimator-v33.2-extraction-design.md`
+- **Plan** : `docs/superpowers/plans/2026-06-06-sublimator-v33.2-extraction.md`
+
+### Workflow cellule 5 agents
+
+Une cellule exécute 5 étapes séquentielles sur 1 enquête :
+
+- **Agent A (parseur regex)** : détecte 3 formats (`F001`, `F-CIV-XXX`, items `N. **X**`) puis mappe automatiquement `F001` vers `F-CIV-XXX`.
+- **Agent B (LLM lecteur cursif)** : lit l'enquête et produit 11 sections de quintessence (thèse centrale, thèses implicites, acteurs, causalités, perspectives dialectiques, limites, wolves, iceberg, chronologie, domaines, URLs).
+- **Agent C (LLM curator)** : fusionne candidats A et apports B, dédoublonne (Jaccard < 0.7), attribue le scoring fiabilité.
+- **Agent D (LLM verifier)** : cross-check, signale les F### manquants, les incohérences, les acteurs oubliés, les fausses URLs et l'iceberg sous-exploité.
+- **Agent E (humain)** : valide ou refuse la fiche, avec un maximum de 2 boucles curator.
+
+### Modules Python
+
+Les 6 modules résident dans `tools/engines/sublimator/extractors/` :
+
+- `parse_atomic.py` : Agent A, parseur regex 3 formats + mapping `F001` vers `F-CIV-XXX`
+- `llm_lecteur.py` : Agent B, LLM lecteur cursif 11 sections
+- `llm_curator.py` : Agent C, fusion Jaccard + scoring fiabilité ✦/✧/⁅/❧
+- `llm_verifier.py` : Agent D, cross-check + rapport de trous
+- `gate_g.py` : audit de complétude, cibles par tier
+- `orchestrator.py` : coordinateur A → B → C → D → E, sérialisation YAML
+
+### Tests
+
+Le package `tests/extractors/` contient **18 tests PASS** couvrant parseur, scoring, Jaccard, GATE_G, lecteur, orchestrateur et verifier. Lancement :
+
+```bash
+pytest tests/extractors/ -v
+```
+
+### GATE_G : audit complétude
+
+Avant écriture de la fiche YAML, l'orchestrateur calcule un score (`n_faits_matrice / n_phrases_faits * 100`) puis le compare aux seuils :
+
+| Complexité | Seuil minimum |
+|------------|---------------|
+| SIMPLE | 70 % |
+| MEDIUM | 80 % |
+| COMPLEX | 85 % |
+| APEX | 90 % |
+
+Un échec déclenche une HALTE et impose une re-extraction.
+
+### Scoring fiabilité
+
+Chaque fait `F###` reçoit un glyphe selon la disponibilité de sa source :
+
+- **✦** : tier 1 + URL HEAD 200 OK (source primaire fiable)
+- **✧** : tier ≥ 2 + URL HEAD 200 OK (source secondaire)
+- **⁅** : URL présente mais 4xx/5xx (source cassée)
+- **❧** : pas d'URL (source absente)
+
+### Lancement
+
+Pour traiter une enquête isolée :
+
+```bash
+python3 -m tools.engines.sublimator.extractors.orchestrator \
+  --input investigations/<sujet>/<civ>_INVESTIGATION.md \
+  --civ <prefix> \
+  --output investigations/<sujet>/_quintessence/<civ>_quintessence.yaml \
+  --complexity MEDIUM
+```
+
+Code retour : `0` (succès), `1` (GATE_G fail), `2` (refus humain).
+
+### Limitation actuelle
+
+`call_llm` lève `NotImplementedError` tant que la variable d'environnement `LLM_API_KEY` n'est pas définie et que le provider (Anthropic, OpenAI, autre) n'est pas câblé. Le pipeline complet (Agents B, C, D) reste donc dépendant de l'implémentation réelle de l'appel API. Les tests passent via mocks ; le pilote Sumer attend cette brique.
