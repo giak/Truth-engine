@@ -802,7 +802,7 @@ L'orchestrateur est le LLM principal qui charge cette spec. Il N'EST PAS dans le
 ```yaml
 state:
   session_id: string                # uuid v4, généré à l'init
-  spec_version: "33.0"
+  spec_version: "33.1"
   started_at: ISO8601
   last_update: ISO8601
   investigation_path: string
@@ -827,6 +827,28 @@ state:
     G4: {status, retries, log}
     G5: {status, retries, log}
     G6: {status, retries, log}
+  checkpoints:                      # v33.1 — 3 CP obligatoires (L13)
+    cp1_§0:
+      phase: "§0"
+      agent_output_ref: "censeur_output"
+      human_action: "validate"      # validate | modify | refuse | enrich
+      human_output: null
+      n_refus_consecutifs: 0
+      timestamp: ISO8601
+    cp2_§2:
+      phase: "§2"
+      agent_output_ref: "dialecticien_output"
+      human_action: "validate"
+      human_output: null
+      n_refus_consecutifs: 0
+      timestamp: ISO8601
+    cp3_§3:
+      phase: "§3"
+      agent_output_ref: "architecte_output"
+      human_action: "validate"
+      human_output: null
+      n_refus_consecutifs: 0
+      timestamp: ISO8601
   audit_log: [event]                # append-only NDJSON, cf. §4.7
   token_budget: {used: 0, cap: 200000, warning_threshold: 0.80}
   errors: [event]                   # halts avec journal
@@ -874,6 +896,52 @@ gate.executor(artifact):
 
 **Règle d'or** : un gate FAIL ne produit JAMAIS de publication partielle. Pas d'article à 80 %. Halte propre avec traçabilité complète.
 
+### 4.4.bis Boucle bornée des checkpoints (L14)
+
+```
+checkpoint.executor(cp_id, agent_output):
+  cp = state.checkpoints[cp_id]
+  cp.agent_output_ref_output = agent_output
+  cp.human_action = human_input.action  # validate | modify | refuse | enrich
+
+  if cp.human_action == "validate":
+    cp.n_refus_consecutifs = 0
+    append_audit_log({event: "checkpoint", cp_id, action: "validate", actor: "user"})
+    return NEXT_PHASE
+
+  elif cp.human_action == "modify":
+    cp.n_refus_consecutifs = 0
+    cp.human_output = human_input.payload
+    append_audit_log({event: "checkpoint", cp_id, action: "modify", payload_size})
+    append_audit_log({event: "checkpoint_input", cp_id, field, old, new})
+    re_invoke_downstream_phase_with_human_output()
+    return NEXT_PHASE
+
+  elif cp.human_action == "enrich":
+    cp.n_refus_consecutifs = 0
+    cp.human_output = human_input.payload
+    effective_output = merge(agent_output, human_input.payload)  # LLM-driven merge
+    append_audit_log({event: "checkpoint", cp_id, action: "enrich", n_inputs_added})
+    re_invoke_downstream_phase_with_merged_output()
+    return NEXT_PHASE
+
+  elif cp.human_action == "refuse":
+    cp.n_refus_consecutifs += 1
+    append_audit_log({event: "checkpoint", cp_id, action: "refuse", n_refus_consecutifs: cp.n_refus_consecutifs})
+    if cp.n_refus_consecutifs < 3:
+      re_invoke_agent_with_zero_state()  # régénère sortie CP depuis zéro
+      return RE_PROMPT_CP
+    else:
+      state.errors.append({cp_id, halte_reason: "3 refus consécutifs", snapshot})
+      save_state()
+      HALT with bilan
+      return HALTED
+```
+
+**Règle d'or (L14)** : un checkpoint peut être refusé 3 fois max. Au 4e cycle, halte pipeline + bilan explicite. État préservé pour reprise manuelle. Compteur `n_refus_consecutifs` reset à 0 sur V/M/E.
+
+**Cascade** : si CP1 modifié, reset §1 à §6. Si CP2 modifié, §1 OK, reset §3 à §6. Si CP3 modifié, §1-§2 OK, reset §4 à §6.
+
 ### 4.5 Budget tokens
 
 - **Cap par défaut** : 200 000 tokens par article (override via `runtime_config.token_budget.cap`)
@@ -901,6 +969,19 @@ Chaque événement est une ligne JSON dans `investigations/<sujet>/_state/audit_
 ```
 
 G6 vérifie : `len(audit_log) > 0` AND `NDJSON valide` AND `chaque gate a au moins 2 entrées (instancier + verdict)`.
+
+**Événements de checkpoints (v33.1)** :
+
+```json
+{"ts":"2026-XX-XXTXX:XX:XXZ","event":"checkpoint","phase":"§0","cp_id":"cp1_§0","action":"validate","actor":"user","n_refus_consecutifs":0}
+{"ts":"...","event":"checkpoint","phase":"§2","cp_id":"cp2_§2","action":"modify","actor":"user","payload_size":1024}
+{"ts":"...","event":"checkpoint","phase":"§2","cp_id":"cp2_§2","action":"refuse","actor":"user","n_refus_consecutifs":1}
+{"ts":"...","event":"checkpoint","phase":"§3","cp_id":"cp3_§3","action":"enrich","actor":"user","n_inputs_added":2}
+{"ts":"...","event":"checkpoint_input","phase":"§2","cp_id":"cp2_§2","field":"cardinale","old":"SYSTEME","new":"AUTRE"}
+{"ts":"...","event":"checkpoint","phase":"§2","cp_id":"cp2_§2","action":"refuse","actor":"user","n_refus_consecutifs":3,"halte":true}
+```
+
+**Règle d'audit checkpoints** : chaque CP doit produire au minimum 1 event `checkpoint` (l'action finale acceptée). Les actions M et E produisent en plus 1 event `checkpoint_input` par champ modifié. Halte produit 1 event avec `halte: true`.
 
 ### 4.8 Comportements interdits à l'orchestrateur
 
@@ -930,6 +1011,45 @@ Toute violation de ces règles = halte immédiate + entrée dans `state.errors`.
               G0-FAIL   G1-FAIL   G2-FAIL   G3-FAIL   G4-FAIL   G5-FAIL   G6-FAIL
               ↓         ↓         ↓         ↓         ↓         ↓         ↓
               retry × N → AUDITEUR → si toujours FAIL → HALT
+```
+
+### 5.1.bis Checkpoints humains (v33.1)
+
+Trois points d'insertion bloquants dans le pipeline :
+
+| CP | Phase amont | Phase aval | Slot state | Sortie validée |
+|----|-------------|------------|------------|----------------|
+| **CP1** | Censeur (§0) | Corpus-Consultant (§1) | `checkpoints.cp1_§0` | `censeur_output` |
+| **CP2** | Dialecticien (§2) | Architecte (§3) | `checkpoints.cp2_§2` | `dialecticien_output` |
+| **CP3** | Architecte (§3) | Fact-Checker (§4) | `checkpoints.cp3_§3` | `architecte_output` |
+
+Pas de checkpoint en §1 (saturation auto), §4 (fact-check auto), §5 (drafting auto), §6 (audit/auto).
+
+```mermaid
+---
+title: SUBLIMATOR v33.1 — Topologie avec checkpoints
+config:
+  theme: base
+  themeVariables:
+    primaryColor: "#fff5e6"
+    primaryBorderColor: "#d4a017"
+---
+flowchart LR
+    P0["§0 Censeur"]:::phase --> CP1{{"CP1<br/>V/M/R/E"}}:::cp
+    CP1 --> P1["§1 Corpus"]:::phase
+    P1 --> G1[/"G1"/]:::gate
+    G1 --> P2["§2 Dialecticien"]:::phase
+    P2 --> CP2{{"CP2<br/>V/M/R/E"}}:::cp
+    CP2 --> P3["§3 Architecte"]:::phase
+    P3 --> CP3{{"CP3<br/>V/M/R/E"}}:::cp
+    CP3 --> P4["§4 Fact-Check"]:::phase
+    P4 --> G4[/"G4"/]:::gate
+    G4 --> P5["§5 Rédacteur"]:::phase
+    P5 --> P6["§6 Audit"]:::phase
+
+    classDef phase fill:#e6f0ff,stroke:#0066cc
+    classDef cp fill:#fff5e6,stroke:#d4a017,stroke-width:3px
+    classDef gate fill:#e6ffe6,stroke:#009900
 ```
 
 ### 5.2 Légende
@@ -977,7 +1097,7 @@ final_state:
 
 ```yaml
 runtime_config:
-  spec_version: "33.0"            # figé
+  spec_version: "33.1"            # figé
   investigation_path: string       # chemin absolu vers le dossier investigation
   corpus_index: string             # chemin vers substack-online/index.md
   profil_auto_detect: boolean      # défaut : true (le Censeur détecte le profil)
@@ -1004,7 +1124,7 @@ runtime_config:
 
 ```yaml
 runtime_config:
-  spec_version: "33.0"
+  spec_version: "33.1"
   investigation_path: "investigations/2026-06-06_sujet_lourd/"
   corpus_index: "substack-online/index.md"
   profil_auto_detect: true
@@ -1027,7 +1147,7 @@ runtime_config:
 
 ```yaml
 runtime_config:
-  spec_version: "33.0"
+  spec_version: "33.1"
   investigation_path: "investigations/2026-06-06_sujet_standard/"
   corpus_index: "substack-online/index.md"
   profil_auto_detect: true
@@ -1046,7 +1166,7 @@ runtime_config:
 
 ```yaml
 runtime_config:
-  spec_version: "33.0"
+  spec_version: "33.1"
   investigation_path: "investigations/2026-06-06_sujet_leger/"
   corpus_index: "substack-online/index.md"
   profil_auto_detect: true
@@ -1131,7 +1251,7 @@ Pendant la phase A/B et tant que v33.0 n'est pas stable, les deux specs coexiste
 ```yaml
 # Pour utiliser v33.0
 runtime_config:
-  spec_version: "33.0"
+  spec_version: "33.1"
 
 # Pour utiliser v32.0 (défaut)
 runtime_config:
@@ -1206,3 +1326,82 @@ v33.0 "L'Orchestrateur" — 2026-XX-XX
 ---
 
 *Fin de la spec SUBLIMATOR v33.0. Statut : BETA. Promotion v33-stable conditionnée par A/B réussi sur 3 pilotes.*
+
+---
+
+## §10 CHECKPOINTS (v33.1+)
+
+### 10.1 Principe
+
+Les 3 checkpoints (CP1 §0, CP2 §2, CP3 §3) sont des points d'insertion **obligatoires et bloquants** où l'humain arbitre la sortie de l'agent amont avant passage à l'agent aval. Implémentés via question tool, format V/M/R/E.
+
+L'axiome « L'orchestrateur est le seul juge » (v33.0) est préservé : l'orchestrateur arbitre les critères, l'humain arbitre les choix sémantiques. Les deux juges sont complémentaires, pas concurrents.
+
+### 10.2 Les 4 actions
+
+#### Valider (V)
+- L'agent continue avec la sortie actuelle
+- Trace : `{"event":"checkpoint","phase":"§X","action":"validate",...}`
+- Effet : passage à la phase suivante
+
+#### Modifier (M)
+- L'agent pose : « Colle ta version modifiée »
+- L'humain colle texte libre OU YAML structuré
+- L'agent remplace sa sortie par la version humaine
+- Trace : `{"event":"checkpoint","action":"modify","payload_size":N,...}`
+- Effet : phase reprend avec nouvel input, recalcul gates si impact
+
+#### Refuser (R)
+- L'agent retourne à la phase précédente
+- `n_refus_consecutifs += 1`
+- Trace : `{"event":"checkpoint","action":"refuse","n_refus_consecutifs":N,...}`
+- Effet : retry phase avec **nouveaux inputs** (sortie précédente invalidée), max 3
+
+#### Enrichir (E)
+- L'agent pose : « Colle tes ajouts (F### externes, thèses, sections) »
+- L'humain colle YAML/texte
+- L'agent **fusionne** (sans remplacer) ses outputs + ajouts (LLM-driven merge, halte + sous-question si contradiction)
+- Trace : `{"event":"checkpoint","action":"enrich","n_inputs_added":N,...}`
+- Effet : phase reprend avec inputs augmentés
+
+### 10.3 Boucle bornée (L14)
+
+Compteur `n_refus_consecutifs` reset à 0 sur V/M/E. Si == 3 → HALTE pipeline + bilan explicite, état préservé pour reprise manuelle.
+
+### 10.4 Cascade
+
+| CP modifié | Impact aval |
+|---|---|
+| §0 | Reset §1 à §6 (portée changée) |
+| §2 | §1 OK, reset §3 à §6 (nouvelle cardinale) |
+| §3 | §1, §2 OK, reset §4 à §6 (nouveau plan) |
+
+### 10.5 Question type (template)
+
+```
+L'agent a produit [description courte, 2-3 phrases].
+
+Options :
+1. Valider — continuer avec cette sortie
+2. Modifier — coller ta version
+3. Refuser — retour à [phase précédente]
+4. Enrichir — ajouter des inputs
+```
+
+### 10.6 Rétrocompatibilité
+
+state_*.yaml v33.0 sans slot `checkpoints` → fallback CP validate (aucune interférence). Les runs anciens continuent de fonctionner comme v33.0. La migration v33.0 → v33.1 est **transparente** : pas de script de migration, pas d'action manuelle requise sur les state existants.
+
+### 10.7 Test live A/B
+
+Pour valider v33.1 contre v33.0, on relance l'article Sumer/France publié en v33.0 (article `2026-06-06_07-49_sumer_france_bureaucratie_ARTICLE.md`, 4233 mots). L'humain peut utiliser les CP pour :
+
+- **CP1 §0** : élargir la portée de Sumer/France vers comparaisons multi-civilisationnelles (Rome, Chine, Andurarum)
+- **CP2 §2** : imposer une thèse cardinale différente de SYSTEME (ex : tester INVERSION ou CAPTURE)
+- **CP3 §3** : ajouter/réordonner des sections (ex : insérer une section Andurarum manquante)
+
+Critère de promotion v33.0 → v33.1 : couverture ≥ 80 % des cas de test, score A/B ≥ v33.0 sur 2/3 critères pondérés.
+
+---
+
+*Fin de la spec SUBLIMATOR v33.1. Statut : BETA. Promotion v33-stable conditionnée par A/B réussi sur 3 pilotes avec checkpoints humains.*
