@@ -147,6 +147,16 @@ Chaque token économisé = moins de contexte consommé = plus de capacité pour 
 
 ---
 
+## Compression Contexte (Headroom)
+**CTX:** headroom MCP serveur disponible — compresser les tool outputs volumineux
+- Si tool output > 1000 tokens : appeler `headroom_compress` sur le contenu
+- headroom_compress supporte JSON/texte, préserve erreurs/anomalies
+- Si besoin de détail supplémentaire : `headroom_retrieve(hash)`
+- `headroom_stats` pour économies session
+- `memory_search` / `memory_save` pour mémoire persistante cross-agent
+
+---
+
 ## ⚠️ ANTI-PATTERN : Appels tool `write()` (OBLIGATOIRE)
 
 **JAMAIS appeler `write()` sans les DEUX paramètres `content` et `filePath`.**
@@ -218,54 +228,124 @@ edit(filePath="/path/file.md",
 
 ## 🧠 Mnemolite — Base de connaissance vectorielle (RAG)
 
-**Mnemolite** est un moteur RAG (Retrieval-Augmented Generation) qui indexe toute la connaissance du projet — investigations, articles, code, notes. Il expose **deux interfaces** :
+**Mnemolite** est un moteur RAG (Retrieval-Augmented Generation) qui indexe toute la connaissance du projet — investigations, articles, code, notes. Le LLM hôte l'interroge directement via ses **outils MCP** (port 8002), configurés dans `.codebuff/config.json`.
 
-### API REST (port 8001) — recommandée
+### ⚠️ Règle absolue : utiliser les outils MCP, PAS le CLI `mnemo`
 
-Un wrapper shell `mnemo` est disponible dans le PATH pour interroger Mnemolite directement depuis Freebuff (via `@basher`).
+Le wrapper shell `mnemo` (port 8001) existe pour le debug humain. **Dans les prompts agentiques (SUBLIMATOR, agents, instructions), on référence TOUJOURS les noms d'outils MCP**, jamais `mnemo search` ou `mnemo health`.
 
-```
-# État du serveur
-mnemo health
-mnemo status
+### Catalogue complet des outils MCP (29 outils)
 
-# Recherche vectorielle dans les mémoires
-mnemo search "immigration France politique"
-
-# Lister les mémoires récentes
-mnemo memories --limit 10
-
-# Lire une mémoire par son ID
-mnemo read <uuid>
-
-# Recherche dans le code indexé
-mnemo code "algorithme de routage"
-
-# Lister les projets indexés
-mnemo projects
-
-# Écrire une nouvelle mémoire
-mnemo write --title "Analyse dette publique" --content "..." --tags "dette,économie"
-
-# Événements récents
-mnemo events --limit 5
-```
-
-### MCP Server (port 8002)
-
-Configuré dans `.codebuff/config.json` pour les clients supportant MCP (Claude Code, Cursor, Kilocode).
-
-### Quand utiliser Mnemolite
-
-- **Recherche contextuelle** : avant d'écrire un article, cherche dans les mémoires pour trouver les faits et analyses existants
-- **Cross-référencement** : vérifie si un sujet a déjà été traité dans une investigation ou un article Substack
-- **Exploration de données** : utilise `mnemo search` avec des requêtes larges pour découvrir des connexions entre sujets
+Organisés par catégorie fonctionnelle. Les paramètres **obligatoires** sont en gras.
 
 ---
 
-## SUBLIMATOR v33.2 : Extraction Rigoureuse
+#### 🔌 Connectivité
 
-SUBLIMATOR v33.2 étend v33.1 avec un pipeline d'extraction atomique structurée (5 ajouts intégrés : §X EXTRACTION ATOMIQUE, §W QUINTESSENCE, §W.13 AGRÉGATION, scoring ✦, GATE_G). Il transforme une enquête brute (60K mots) en une fiche de quintessence de 12 sections (thèse centrale, 3 thèses implicites, F### atomiques, acteurs, causalités, 3 perspectives dialectiques, limites, wolves, iceberg, chronologie, domaines, URLs prioritaires). Une cellule traite 1 enquête ; le système reste scalable de 2 à 20+ enquêtes.
+| Outil | Description | Paramètres |
+|-------|-------------|------------|
+| `ping` | Test de connectivité. Retourne Pong + timestamp. | _aucun_ |
+
+---
+
+#### 🧠 Mémoire — CRUD
+
+| Outil | Description | Paramètres |
+|-------|-------------|------------|
+| `write_memory` | Créer une mémoire persistante avec embedding sémantique. | **title** (string), **content** (string), memory_type (string), tags (list), author, project_id, related_chunks, resource_links, dedup_check (bool) |
+| `read_memory` | Lire le contenu complet d'une mémoire par son ID. | **id** (string) |
+| `search_memory` | Recherche sémantique dans les mémoires (vectorielle). | query (string), limit (int), offset (int), memory_type, tags, consumed, lifecycle_state, include_outcome (bool), search_mode (string) |
+| `update_memory` | Mise à jour partielle d'une mémoire existante. | **id** (string), title, content, memory_type, tags, author, related_chunks, resource_links |
+| `delete_memory` | Supprimer une mémoire (soft delete par défaut). | **id** (string), permanent (bool) |
+
+---
+
+#### ⚙️ Mémoire — Gestion & Cycle de vie
+
+| Outil | Description | Paramètres |
+|-------|-------------|------------|
+| `consolidate_memory` | Fusionner plusieurs mémoires en une seule synthèse. | **title** (string), **summary** (string), **source_ids** (string[]), tags, memory_type, author |
+| `mark_consumed` | Marquer des mémoires comme consommées par un agent. | **memory_ids** (string[]), **consumed_by** (string) |
+| `rate_memory` | Évaluer l'utilité d'une mémoire (feedback). | **id** (string), **helpful** (bool), score |
+| `configure_decay` | Configurer les règles de dégradation pour un tag. | **tag_pattern** (string), **decay_rate** (number), auto_consolidate_threshold, priority_boost (number) |
+| `export_memories` | Exporter les mémoires en JSON (sans embeddings). | project_id, include_deleted (bool) |
+| `get_system_snapshot` | État complet du système en un appel (remplace 4 requêtes). | repository (string), context_budget (int) |
+| `get_memory_health` | État de santé du système de mémoire. | _aucun_ |
+
+---
+
+#### 🔍 Code & Recherche
+
+| Outil | Description | Paramètres |
+|-------|-------------|------------|
+| `search_code` | Recherche hybride (lexicale + vectorielle) avec fusion RRF. | **query** (string), filters (object), limit (int), offset (int), enable_lexical (bool), enable_vector (bool), lexical_weight (number), vector_weight (number) |
+| `index_project` | Indexer un répertoire projet complet. | **project_path** (string), repository (string), include_gitignored (bool) |
+| `reindex_file` | Réindexer un fichier après modification. | **file_path** (string), repository (string) |
+| `index_incremental` | Indexer uniquement les fichiers modifiés depuis le dernier index. | **project_path** (string), repository (string), include_gitignored (bool) |
+| `index_markdown_workspace` | Indexer un workspace markdown (mémoire agent, rapide). | **root_path** (string), repository (string), max_file_size_kb (int) |
+| `get_indexing_status` | État d'avancement de l'indexation. | repository (string) |
+| `get_indexing_errors` | Erreurs récentes d'indexation. | repository (string), limit (int) |
+| `retry_indexing` | Réindexer des fichiers après correction d'erreurs. | **file_paths** (string[]), repository (string) |
+| `get_indexing_stats` | Statistiques d'indexation. | repository (string) |
+
+---
+
+#### 🛜 Graphe de code
+
+| Outil | Description | Paramètres |
+|-------|-------------|------------|
+| `get_graph_stats` | Statistiques du graphe de code. | repository (string) |
+| `traverse_graph` | Parcourir le graphe depuis un nœud. | **node_id** (string), direction (string), depth (int), repository (string) |
+| `find_path` | Trouver un chemin entre deux nœuds. | **source_id** (string), **target_id** (string), repository (string), max_depth (int) |
+| `get_module_data` | Données détaillées d'un module. | **module_path** (string), repository (string) |
+
+---
+
+#### 🛠️ Administration
+
+| Outil | Description | Paramètres |
+|-------|-------------|------------|
+| `clear_cache` | Vider les caches (opération admin). | layer (string) |
+| `get_cache_stats` | Statistiques des caches (L1 mémoire + L2 Redis). | _aucun_ |
+| `switch_project` | Changer le projet actif pour la recherche/indexation. | **repository** (string), confirm (bool) |
+
+---
+
+**Types de mémoire (`memory_type`) :** `investigation`, `article`, `note`, `quintessence`.
+
+**Exemples d'appels MCP :**
+```
+# CRUD
+write_memory(title="Analyse dette", content="...", memory_type="investigation", tags=["dette", "économie"])
+search_memory(query="immigration France politique", limit=10, memory_type="article")
+read_memory(id="<uuid>")
+delete_memory(id="<uuid>", permanent=false)
+
+# Recherche code
+search_code(query="function encode_text", limit=5, enable_vector=false)
+
+# Système
+get_system_snapshot()
+get_memory_health()
+mark_consumed(memory_ids=["<uuid1>", "<uuid2>"], consumed_by="agent-sublimator")
+
+# Indexation
+index_markdown_workspace(root_path="/home/giak/projects/truth-engine/articles")
+```
+
+### Quand utiliser Mnemolite
+
+- **Avant toute session** : `get_system_snapshot` — si DOWN, HALTE. Aucun fichier produit tant que Mnemolite n'est pas UP.
+- **Recherche contextuelle** : `search_memory` avant d'écrire pour trouver les faits et analyses existants
+- **Cross-référencement** : `search_memory` pour vérifier si un sujet a déjà été traité
+- **Sauvegarde** : `write_memory` pour indexer une nouvelle investigation, quintessence, ou article
+- **Exploration de données** : `search_memory` avec des requêtes larges pour découvrir des connexions entre sujets
+
+---
+
+## SUBLIMATOR v33.2 → v34 : Extraction Rigoureuse
+
+SUBLIMATOR v33.2 (spec actuelle) étend v33.1 avec un pipeline d'extraction atomique structurée. La **Vision v34** (voir `docs/superpowers/vision/2026-06-07-sublimator-vision.md`) cible l'intégration Mnemolite en MCP direct, la suppression des stubs inopérants, et la fusion des gates. Ce qui suit décrit l'état actuel (v33.2 opérationnel).
 
 ### Architecture
 
@@ -274,7 +354,7 @@ La documentation canonique v33.2 vit dans 4 fichiers complémentaires :
 - **Spec** : `tools/engines/sublimator/2026-06-06_spec_v33.2.md` (1493 lignes, contient §X EXTRACTION ATOMIQUE et §W QUINTESSENCE)
 - **Guide humain** : `tools/engines/sublimator/2026-06-06_guide_humain_v33.2.md` (1510 lignes, contient §16 EXTRACTION v33.2)
 - **Design** : `docs/superpowers/specs/2026-06-06-sublimator-v33.2-extraction-design.md`
-- **Plan** : `docs/superpowers/plans/2026-06-06-sublimator-v33.2-extraction.md`
+- **Plan** : `docs/superpowers/archive/_archive_plan_v33.2-extraction.md` (archivé — obsolète, remplacé par la Vision v34)
 
 ### Workflow cellule 5 agents
 
@@ -288,18 +368,27 @@ Une cellule exécute 5 étapes séquentielles sur 1 enquête :
 
 ### Modules Python
 
-Les 6 modules résident dans `tools/engines/sublimator/extractors/` :
+Les 5 modules opérationnels résident dans `tools/engines/sublimator/extractors/` :
 
 - `parse_atomic.py` : Agent A, parseur regex 3 formats + mapping `F001` vers `F-CIV-XXX`
-- `llm_lecteur.py` : Agent B, LLM lecteur cursif 11 sections
-- `llm_curator.py` : Agent C, fusion Jaccard + scoring fiabilité ✦/✧/⁅/❧
-- `llm_verifier.py` : Agent D, cross-check + rapport de trous
-- `gate_g.py` : audit de complétude, cibles par tier
-- `orchestrator.py` : coordinateur A → B → C → D → E, sérialisation YAML
+- `extract_utile.py` : Agent A++, extraction article-utile (dates, sommes, citations, URLs, acteurs, causalités, sections) — patterns mécaniques pour le LLM hôte
+- `curator.py` : Fusion Jaccard + scoring fiabilité ✦/✧/⁅/❧ + HEAD-check URLs
+- `gate_g.py` : Audit de complétude, cibles par tier
+- `orchestrator.py` : Coordinateur A → A++ → C → GATE_G → prompt LLM hôte → E, sérialisation YAML
+
+Les modules Agents B/C/D (`llm_lecteur.py`, `llm_curator.py`, `llm_verifier.py`) sont spécifiés mais **jamais implémentés** — ces fichiers n'existent pas. Le LLM hôte (l'agent conversationnel opencode/Codebuff) remplit leurs rôles directement dans la conversation. La v34 (Vision) prévoit de supprimer ces artefacts de spec et d'intégrer Mnemolite via son MCP Server natif.
 
 ### Tests
 
-Le package `tests/extractors/` contient **18 tests PASS** couvrant parseur, scoring, Jaccard, GATE_G, lecteur, orchestrateur et verifier. Lancement :
+Le package `tests/extractors/` contient **26 tests PASS** (0 fail, 0 skip) couvrant les 5 modules opérationnels :
+
+- `test_parse_atomic.py` (5 tests) — parseur regex
+- `test_extract_utile.py` (11 tests) — extraction article-utile
+- `test_curator.py` (6 tests) — scoring, Jaccard, déduplication
+- `test_gate_g.py` (2 tests) — audit complétude
+- `test_orchestrator.py` (2 tests) — coordination, sérialisation YAML
+
+Lancement :
 
 ```bash
 pytest tests/extractors/ -v
@@ -343,4 +432,4 @@ Code retour : `0` (succès), `1` (GATE_G fail), `2` (refus humain).
 
 ### Limitation actuelle
 
-`call_llm` lève `NotImplementedError` tant que la variable d'environnement `LLM_API_KEY` n'est pas définie et que le provider (Anthropic, OpenAI, autre) n'est pas câblé. Le pipeline complet (Agents B, C, D) reste donc dépendant de l'implémentation réelle de l'appel API. Les tests passent via mocks ; le pilote Sumer attend cette brique.
+Les modules Agents B/C/D n'ont jamais été codés. Il n'y a pas d'API LLM externe à « câbler » : le LLM hôte (l'agent conversationnel opencode/Codebuff) **est** l'agent sémantique. Il lit les prompts générés par l'orchestrateur Python et produit les sections de quintessence directement dans la conversation. Les 26 tests exercent du vrai code déterministe (regex, Jaccard, HEAD-check, YAML). La Vision v34 prévoit de supprimer les artefacts de spec inutilisés (B/C/D) et d'intégrer Mnemolite comme 4e brique via son MCP Server natif.
