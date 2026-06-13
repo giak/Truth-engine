@@ -234,7 +234,30 @@ edit(filePath="/path/file.md",
 
 Le wrapper shell `mnemo` (port 8001) existe pour le debug humain. **Dans les prompts agentiques (SUBLIMATOR, agents, instructions), on référence TOUJOURS les noms d'outils MCP**, jamais `mnemo search` ou `mnemo health`.
 
-### Catalogue complet des outils MCP (29 outils)
+### ⚠️ Protocole MCP : comment appeler un outil (PIÈGE FRÉQUENT)
+
+**Ne pas confondre le nom logique de l'outil avec le protocole JSON-RPC.**
+
+Le protocole MCP n'accepte PAS le nom de l'outil comme méthode directe :
+
+```
+❌ FAUX — le serveur renvoie -32602 Invalid request parameters :
+method: "search_memory"
+params: {"query": "gilets jaunes"}
+
+✅ CORRECT — utiliser tools/call :
+method: "tools/call"
+params: {
+  "name": "search_memory",
+  "arguments": {"query": "gilets jaunes", "search_mode": "hybrid"}
+}
+```
+
+**Règle :** Tout outil s'appelle via `method: "tools/call"` avec `params: {name: "<nom_outil>", arguments: {...}}`. Les seules exceptions sont `ping` et `tools/list` qui sont des méthodes JSON-RPC standards.
+
+**Piège `search_mode` :** Pour la recherche vectorielle (recherche par similarité sémantique), TOUJOURS passer `search_mode: "hybrid"` ou `"semantic"`. La valeur par défaut est `"tag"` qui ignore la sémantique du query.
+
+### Catalogue complet des outils MCP (31 outils)
 
 Organisés par catégorie fonctionnelle. Les paramètres **obligatoires** sont en gras.
 
@@ -301,6 +324,15 @@ Organisés par catégorie fonctionnelle. Les paramètres **obligatoires** sont e
 
 ---
 
+#### 🏷️ Extraction d'entités
+
+| Outil | Description | Paramètres |
+|-------|-------------|------------|
+| `extract_entities` | Ré-extraction manuelle des entités d'une mémoire existante (GLiNER). | **memory_id** (string) |
+| `search_by_entity` | Rechercher des mémoires contenant une entité spécifique. | **entity_name** (string), limit (int) |
+
+---
+
 #### 🛠️ Administration
 
 | Outil | Description | Paramètres |
@@ -311,7 +343,17 @@ Organisés par catégorie fonctionnelle. Les paramètres **obligatoires** sont e
 
 ---
 
-**Types de mémoire (`memory_type`) :** `investigation`, `article`, `note`, `quintessence`.
+### ⚠️ Bugs connus (Mnemolite MCP Server)
+
+| Bug | Statut | Symptôme | Workaround |
+|-----|--------|----------|------------|
+| `cache_key UnboundLocalError` dans `search_memory` | ✅ **Corrigé** (commit `1e845a3`) | `Error executing tool search_memory: cannot access local variable 'cache_key'` | Redémarrer le container MCP (`make mcp-restart`) |
+| Service GLiNER non disponible | ✅ **Corrigé** (commit `f91d48c`) | Outils `extract_entities` et `search_by_entity` absents de `tools/list` | `make mcp-restart` (ou rebuild si image Docker) |
+| `@mcp.tool()` conditionnel cassé | ✅ **Corrigé** (commit `2ebec11`) | Outils entity non exposés malgré service GLiNER OK | Registration rendue inconditionnelle avec check à l'appel |
+
+---
+
+**Types de mémoire** (`memory_type`) :** `investigation`, `article`, `note`, `quintessence`.
 
 **Exemples d'appels MCP :**
 ```
