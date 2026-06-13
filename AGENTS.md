@@ -277,7 +277,7 @@ Organisés par catégorie fonctionnelle. Les paramètres **obligatoires** sont e
 |-------|-------------|------------|
 | `write_memory` | Créer une mémoire persistante avec embedding sémantique. | **title** (string), **content** (string), memory_type (string), tags (list), author, project_id, related_chunks, resource_links, dedup_check (bool) |
 | `read_memory` | Lire le contenu complet d'une mémoire par son ID. | **id** (string) |
-| `search_memory` | Recherche sémantique dans les mémoires (vectorielle). | query (string), limit (int), offset (int), memory_type, tags, consumed, lifecycle_state, include_outcome (bool), search_mode (string) |
+| `search_memory` | Recherche sémantique dans les mémoires (vectorielle). | query (string), limit (int), offset (int), memory_type, tags, consumed, lifecycle_state, include_outcome (bool), **search_mode** (string, défaut=`"tag"` → **utiliser `"hybrid"`** pour recherche vectorielle, `"semantic"` pour vectorielle pure) |
 | `update_memory` | Mise à jour partielle d'une mémoire existante. | **id** (string), title, content, memory_type, tags, author, related_chunks, resource_links |
 | `delete_memory` | Supprimer une mémoire (soft delete par défaut). | **id** (string), permanent (bool) |
 
