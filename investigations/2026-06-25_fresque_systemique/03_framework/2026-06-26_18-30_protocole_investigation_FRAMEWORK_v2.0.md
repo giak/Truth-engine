@@ -66,7 +66,7 @@ Ce protocole est la version 2.1 NREF (Non Refutable). Il herite des versions 1.0
 
 ---
 
-## PARTIE II : FORMAT DE LA FICHE D'ENQUETE (YAML v2.0)
+## PARTIE II : FORMAT DE LA FICHE D'ENQUETE (YAML v2.1)
 
 Le schema YAML ci-dessous est la contrainte forte du protocole v2.1. Il comporte **12 chapitres** (5 herites de v1.3, 7 nouveaux/renforces en v2.0/v2.1).
 
@@ -295,7 +295,7 @@ Une enquete NREF n'est pas un texte convaincant — c'est un **dossier de preuve
 
 ---
 
-## PARTIE V : WORKFLOW D'EXECUTION (v2.0)
+## PARTIE V : WORKFLOW D'EXECUTION (v2.1)
 
 ### Etape 1 — Lancer l'enquete
 
