@@ -6,9 +6,9 @@
 
 ## PREAMBULE
 
-Ce protocole est la version 1.3, reference des mecanismes, fils et strategies de la Resistance Cognitive. La version 1.0 avait identifie 8 fils systemiques. Les versions 1.1 et 1.2 ont enrichi 42 mecanismes actifs et 10 strategies de resistance. Cette version 1.3 separe la **connaissance** (ce protocole) de la **mission** (desormais dans `PROMPT_INVESTIGATION_v1.md`). Le protocole est un document de reference, pas un formulaire a remplir. L'agent d'enquete le consulte a sa discretion.
+Ce protocole est la version 1.3, reference des mecanismes, fils et strategies de la Resistance Cognitive. La version 1.0 avait identifie 8 fils systemiques. Les versions 1.1 et 1.2 ont enrichi 42 mecanismes actifs et 10 strategies de resistance. Cette version 1.3 separe la **connaissance** (ce protocole) de la **mission** (desormais dans `2026-06-25_21-00_prompt_investigation_v1_PROMPT.md`). Le protocole est un document de reference, pas un formulaire a remplir. L'agent d'enquete le consulte a sa discretion.
 
-**These centrale :** Les defaillances françaises ne sont pas des accidents. Elles sont le produit d'une architecture systemique construite sur 200+ ans, maintenue par un ensemble de mecanismes homéostatiques qui transforment la colere en carburant, la resistance en maintenance, et la lucidite en fonction du systeme.
+**These centrale :** Les defaillances françaises ne sont pas des accidents. Elles sont le produit d'une architecture systemique construite sur 200+ ans, maintenue par un ensemble de mecanismes homeostatiques qui transforment la colere en carburant, la resistance en maintenance, et la lucidite en fonction du systeme.
 
 **Constats fondateurs (inchanges) :**
 - Le systeme francais produit des defaillances silencieuses sans generer de contre-reaction citoyenne proportionnee
@@ -73,7 +73,7 @@ Chaque enquete doit desormais identifier, en plus des 8 fils, les mecanismes act
 | ID | Mecanisme | Definition | Article-source |
 |----|-----------|------------|----------------|
 | M22 | Opposition controlee | Le systeme n'ecrase plus la dissidence : il la selectionne. 88% de la dissidence apparente est absorbee par l'infrastructure qu'elle pretend combattre. 5 types : spectaculaire, rentable, toleree, systemique, materielle | Opposition controlee |
-| M23 | Ingenierie de la possession | "Nous sommes possedes par ce par quoi nous dependons" (Simone Weil). Machins acephale construite en 350 ans sans architecte. Personne a accuser. | Ingenierie de la Possession (2026-04-13) |
+| M23 | Ingenierie de la possession | "Nous sommes possedes par ce par quoi nous dependons" (Simone Weil). Machine acephale construite en 350 ans sans architecte. Personne a accuser. | Ingenierie de la Possession (2026-04-13) |
 | M24 | Antifragilite du systeme | Chaque attaque renforce le systeme. La resistance est la maintenance du systeme. Le dissident debugue la machine. | Ingenierie de la Possession |
 | M25 | Syndrome de l'ingenieur cauterise | L'individu lucide qui sait qu'il repare sa propre prison, ne peut pas s'en empecher, et dont la lucidite est devenue une fonction du systeme | Ingenierie de la Possession |
 | M26 | 5% refractaires | Les 5% qui refusent. Identifies des 7 ans (diagnostic TDAH, trouble oppositionnel). Neutralises par medicalisation, exclusion, conditionnement. Jamais etudies par la recherche. | Ingenierie de la Possession |
@@ -108,7 +108,7 @@ L'Empire du Mensonge ne peut etre combattu par les memes methodes qu'il utilise.
 | R04 | Retrait du consentement (La Boetie) | "Soyez resolus de ne servir plus, et vous voila libres." Le tyran n'a aucune force propre. Il ne tire son pouvoir que de la soumission volontaire. Retirer le pied de l'etrier, et le colosse s'effondre. | M14 Impuissance apprise, M30 Stockholm, M25 Ingenieur cauterise | Empire du Mensonge (§VII), Discours de la Servitude Volontaire |
 | R05 | Polis parallele (V. Benda) | Ne plus essayer de reformer un systeme corrompu, mais construire a cote, dans les marges, des structures de vie autonomes : ecoles independantes, reseaux d'entraide, medias citoyens, banques de services. Rendre le systeme obsolete par l'exemple. | M23 Ingenierie possession, M22 Opposition controlee, M06 Verrouillage | Empire du Mensonge (§VII), Charte 77 |
 | R06 | Guerilla semiotique (Eco) | Ne pas seulement recuser le message du pouvoir, mais detourner ses signes. Inverser ses symboles par le meme, la parodie subversive, le graffiti. L'humour est le dissolvant ultime des tyrannies. | M12 Novlangue, M13 Spectacle, M28 DARVO | Empire du Mensonge (§VII) |
-| R07 | Hygiène numerique de combat | Abandonner les GAFAM pour des alternatives respectueuses (Linux, Proton, Brave, Signal, VPN). Sortir de la diete mediatique mainstream. S'informer a la source, verifier les faits soi-meme, lire des essais. Sanctuariser ses donnees. | M40 Propagande algo, M09 Gouv. technique, M16 Censure algo | Empire du Mensonge (§VII) |
+| R07 | Hygiene numerique de combat | Abandonner les GAFAM pour des alternatives respectueuses (Linux, Proton, Brave, Signal, VPN). Sortir de la diete mediatique mainstream. S'informer a la source, verifier les faits soi-meme, lire des essais. Sanctuariser ses donnees. | M40 Propagande algo, M09 Gouv. technique, M16 Censure algo | Empire du Mensonge (§VII) |
 | R08 | Secession economique / Agorisme | Favoriser les circuits courts, le troc, l'economie parallele, le don, l'argent liquide. Minimalisme choisi pour reduire sa dependance au salariat alienant et a la consommation pulsionnelle qui finance l'Empire. | M17 Endettement, M18 Financement opposition, M19 Dette horizon | Empire du Mensonge (§VII) |
 | R09 | Parresia (Foucault) | Courage de la parole franche face au pouvoir, au risque du sacrifice personnel. La verite n'est pas une donnee : c'est un acte de guerre contre l'anesthesie cognitive. Briser la spirale du silence dans son cercle social. | M27 Pathologisation, M29 Spirale silence, M38 Lawfare | Empire du Mensonge (§VII), Foucault |
 | R10 | Methode SIFT (Caulfield) | Protocole citoyen de verification : **S**top (ralentir), **I**nvestigate (qui est la source ?), **F**ind (trouver meilleure couverture), **T**race (remonter au contexte original). Armer chaque citoyen contre la manipulation. | M34 Firehose, M10 Fabrique opinion, M32 Fenetre Overton | Empire du Mensonge (§VII) |
@@ -259,7 +259,7 @@ DEGRE_SYSTEMICITE: [1-5]
 
 Le prompt a ete separe du protocole pour donner a l'agent sa liberte d'investigation.
 
-→ Utiliser `PROMPT_INVESTIGATION_v1.md` pour lancer chaque enquete.
+→ Utiliser `2026-06-25_21-00_prompt_investigation_v1_PROMPT.md` pour lancer chaque enquete.
 
 Ce fichier contient :
 - La mission d'investigation (2 paragraphes)
@@ -270,7 +270,7 @@ Ce fichier contient :
 
 ## EXIGENCES DE QUALITE
 
-1. **Precision factuelle** : chaque affirmation doit etre verifiable. Citer les sources et noter les URL précises.
+1. **Precision factuelle** : chaque affirmation doit etre verifiable. Citer les sources et noter les URL precises.
 
 2. **Remontee jusqu'a la racine** : ne pas s'arreter au premier niveau de cause. Une loi, une institution, une decision fondatrice.
 
@@ -286,21 +286,12 @@ Ce fichier contient :
    - 1 : defaillance individuelle, le systeme a bien fonctionne par ailleurs
    - 2 : defaillance locale, quelques verrous actives
    - 3 : defaillance structurelle, plusieurs verrous, pattern connu
-   - 4 : defaillance systemique, la plupart des verrous actives, mecanismes multiples identifiés
+   - 4 : defaillance systemique, la plupart des verrous actives, mecanismes multiples identifies
    - 5 : effondrement inscrit dans le code genetique du systeme (sang contamine, 13 novembre, Outreau)
 
 8. **Resistance** : identifier les strategies de resistance pertinentes face aux mecanismes dominants. Ne pas se limiter au diagnostic — proposer des voies de souverainete.
 
-6. **Citation cle** : trouver la phrase qui resume l'affaire. Celle que les historiens retiendront.
-
-7. **Degre de systemicite** :
-   - 1 : defaillance individuelle, le systeme a bien fonctionne par ailleurs
-   - 2 : defaillance locale, quelques verrous actives
-   - 3 : defaillance structurelle, plusieurs verrous, pattern connu
-   - 4 : defaillance systemique, la plupart des verrous actives, mecanismes multiples identifiés
-   - 5 : effondrement inscrit dans le code genetique du systeme (sang contamine, 13 novembre, Outreau)
-
-8. **Taille** : chaque enquete doit etre substantielle (minimum 200 lignes). Ne pas survoler.
+9. **Taille** : chaque enquete doit etre substantielle (minimum 200 lignes). Ne pas survoler.
 
 ---
 
@@ -339,7 +330,7 @@ Tu as produit une fiche YAML initiale. Maintenant, approfondis et multiplie les 
 4. SOULEVE LES LIEVRES, LES LOUPS, LES ZONES D'OMBRE, LES FAISCEAUX
    - Quelles rumeurs sourcees meriteraient une investigation dediee ?
    - Quels faisceaux d'indices, mis bout a bout, depassent le statut de simple piste ?
-   - Quelles suspicions legitimues n'ont pas ete levees faute de preuve — mais constituent des directions de recherche prioritaires ?
+   - Quelles suspicions legitimes n'ont pas ete levees faute de preuve — mais constituent des directions de recherche prioritaires ?
    - Si l'on met bout a bout tous les elements disperses, cela donne-t-il plus que des pistes isolees ? Une hypothese systemique se dessine-t-elle ?
    - Quels acteurs beneficient du silence autour de cette affaire ? (cui bono)
    - Quels temoins n'ont pas ete entendus ?
@@ -414,7 +405,7 @@ Chaque dimension evenementielle active prioritairement certains mecanismes. L'en
 
 ### Lancer une enquete
 
-Utiliser `PROMPT_INVESTIGATION_v1.md` — c'est le point d'entree unique. Ce protocole est la documentation de reference.
+Utiliser `2026-06-25_21-00_prompt_investigation_v1_PROMPT.md` — c'est le point d'entree unique. Ce protocole est la documentation de reference.
 
 ### Ordre de priorite (indicatif)
 
@@ -511,13 +502,13 @@ Mettre a jour le fichier `TABLEAU_DE_BORD.md` apres chaque enquete avec les colo
 ## CONSOLIDATION PERIODIQUE (v1.1)
 
 Toutes les 10 enquetes (ou sur demande) :
-1. Analyser les fils les plus actives (pattern detection) [inchangé]
+1. Analyser les fils les plus actives (pattern detection) [inchange]
 2. Analyser les mecanismes les plus frequents [v1.1] – quels M## reviennent le plus souvent ?
 3. Analyser les strategies de resistance les plus pertinentes [v1.2] – quels R## sont les plus adaptes aux mecanismes dominants ?
-4. Verifier si un 9e fil emerge ou si un nouveau mecanisme doit etre ajoute a la liste [étendu]
+4. Verifier si un 9e fil emerge ou si un nouveau mecanisme doit etre ajoute a la liste [etendu]
 5. Croiser les resultats avec les articles Substack existants [v1.1] – les mecanismes identifies confirment-ils, infirment-ils, ou nuancent-ils les theses de la Resistance Cognitive ?
 6. Mettre a jour l'architecture systemique globale
-7. Rediger un rapport de synthese incluant les recommandations de resistance [étendu v1.2]
+7. Rediger un rapport de synthese incluant les recommandations de resistance [etendu v1.2]
 
 ---
 
@@ -526,7 +517,7 @@ Toutes les 10 enquetes (ou sur demande) :
 Le fichier suivant est l'enquete fondatrice qui a revele les 8 fils :
 
 ```
-archives/2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md
+investigations/2026-06-25_fresque_systemique/02_enquetes/2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md
 Evenement : Sang contamine (1984-1991)
 Degre de systemicite : 5
 Verrous actives : A, B, C, D, E, F, G, H (les 8)
@@ -553,5 +544,5 @@ Resistance possible (v1.2) :
 - **v1.0** (2026-06-25) : Version fondatrice. 8 fils identifies a partir de l'enquete sur le sang contamine.
 - **v1.1** (2026-06-25) : Enrichissement par 33 mecanismes actifs extraits de 7 articles de la Resistance Cognitive.
 - **v1.2** (2026-06-25) : Enrichissement par 9 nouveaux mecanismes (M34-M42) et 10 strategies de resistance (R01-R10) issus de l'article *L'Empire du Mensonge*.
-- **v1.3** (2026-06-25) : Separation stricte entre **connaissance** (ce protocole) et **mission** (`PROMPT_INVESTIGATION_v1.md`). Simplification du format YAML de sortie. Recriture du workflow : l'agent enquete librement, le protocole est reference optionnelle. Suppression de tout cadrage procedural du prompt.
+- **v1.3** (2026-06-25) : Separation stricte entre **connaissance** (ce protocole) et **mission** (`2026-06-25_21-00_prompt_investigation_v1_PROMPT.md`). Simplification du format YAML de sortie. Recriture du workflow : l'agent enquete librement, le protocole est reference optionnelle. Suppression de tout cadrage procedural du prompt.
 - **v1.3+** (2026-06-26) : Ajout de la **Phase d'Approfondissement Ultrathinking** (§ post-EXIGENCES DE QUALITE). Protocole de contre-biais post-enquete : diversification des angles, ICEBERG MAX, faisceaux d'indices, double-check forensique, zero flagornerie. Adapte du prompt utilisateur "Brainstorm deeper and ultrathinking" au vocabulaire M##/R##/fils/patterns.
