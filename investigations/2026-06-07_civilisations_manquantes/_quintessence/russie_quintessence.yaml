@@ -1,0 +1,111 @@
+enquete_id: russie
+complexity: SIMPLE
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-07_civilisations_manquantes/2026-06-07_16-45_russie_INVESTIGATION.md
+these_centrale: La Russie offre le test le plus pur de la thèse de capture par corps spécialisé : elle a connu TROIS
+  effondrements idéologiques complets (Tsarat→URSS 1917, URSS→Fédération 1991) sans que l'ÉTAT administratif ne disparaisse.
+  La nomenklatura soviétique se reconvertit en oligarchie postsoviétique, puis les siloviki re-capturent l'État sous Poutine
+  — le corps administratif survit à l'idéologie.
+theses_implicites:
+- Le Table des Rangs (1722) est l'équivalent russe du keju chinois et du concours ENA.
+- La nomenklatura soviétique (~1,5M de postes contrôlés) est le plus grand corps spécialisé de l'enquête.
+- La transition nomenklatura→oligarchie→siloviki prouve que le corps administratif survit aux révolutions.
+- La Russie = 3 systèmes, 1 État — la France = 1 État, 5 républiques. Permanence russe > permanence française.
+faits_atomiques:
+- id: F-RUS-001
+  enonce: Pierre le Grand crée le Table des Rangs, hiérarchie administrative en 14 grades basée sur le service de l'État
+  source_url: https://www.britannica.com/topic/Table-of-Ranks
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-RUS-002
+  enonce: La nomenklatura soviétique contrôle ~1,5 million de postes clés à son apogée (années 1980)
+  source_url: https://www.britannica.com/topic/nomenklatura
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-RUS-003
+  enonce: Les prêts contre actions (1995-1996) privatisent les actifs d'État au profit d'une poignée d'oligarques
+  source_url: https://www.britannica.com/topic/loans-for-shares
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-RUS-004
+  enonce: La part des siloviki dans l'élite dirigeante passe de ~11% à ~42% sous Poutine (2000-2015)
+  source_url: https://www.britannica.com/topic/siloviki
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-RUS-005
+  enonce: L'URSS s'effondre en 1991 sans guerre civile — la nomenklatura se reconvertit en élite capitaliste
+  source_url: https://www.britannica.com/event/the-collapse-of-the-Soviet-Union
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+acteurs:
+- nom: Pierre le Grand
+  role: Tsar (1682-1725), créateur du Table des Rangs
+  faits_lies:
+  - F-RUS-001
+- nom: Nomenklatura soviétique
+  role: Corps spécialisé de ~1,5M de postes, contrôle total de l'État
+  faits_lies:
+  - F-RUS-002
+- nom: Siloviki
+  role: Anciens du KGB/FSB, re-capture de l'État sous Poutine
+  faits_lies:
+  - F-RUS-004
+causalites:
+- cause: F-RUS-002
+  effet: F-RUS-005
+  mecanisme: La nomenklatura contrôle tous les postes clés → à la chute de l'URSS, elle privatise les actifs qu'elle gérait → transition sans guerre civile
+- cause: F-RUS-003
+  effet: F-RUS-004
+  mecanisme: La privatisation sauvage (1995-1996) discrédite les oligarques → les silovki re-capturent l'État au nom de la stabilité
+perspectives_dialectiques:
+- position: Thèse — La Russie prouve la permanence du corps administratif
+  argument: Nomenklatura→oligarchie→siloviki. Le personnel survit aux révolutions. La capture est PLUS résiliente que l'idéologie.
+- position: Antithèse — La Russie est un cas pathologique
+  argument: La capture totale par les siloviki n'est pas un modèle mais une pathologie politique. La France n'a jamais connu ça.
+limites:
+- SIMPLE : pas de sections KERNEL complètes
+- 0 source primaire ✦
+wolves:
+- nom: Libéraux russes
+  argument: La transition postsoviétique a échoué — la démocratie n'a pas pris
+  reponse: La démocratie n'a pas pris parce que le corps administratif (nomenklatura) n'a jamais été démantelé — il s'est reconverti
+iceberg:
+- Sujet immergé : La Russie est le seul cas documenté où un corps spécialisé survit à TROIS systèmes politiques différents
+chronologie:
+- date: '1722'
+  evenement: Pierre le Grand crée le Table des Rangs (14 grades)
+  source_fait: F-RUS-001
+- date: '1917'
+  evenement: Révolution bolchevique — fin du Tsarat, début de l'URSS
+  source_fait: F-RUS-002
+- date: '1991'
+  evenement: Effondrement de l'URSS — la nomenklatura devient l'oligarchie
+  source_fait: F-RUS-005
+- date: 2000-2015
+  evenement: Les siloviki passent de 11% à 42% de l'élite dirigeante
+  source_fait: F-RUS-004
+domaines:
+- Administration : Table des Rangs (1722) → nomenklatura → siloviki
+- Capture : survie du corps administratif à travers 3 systèmes
+- Économie : privatisation postsoviétique (prêts contre actions 1995-1996)
+- Permanence : l'État survit à l'idéologie
+urls_prioritaires:
+- url: https://www.britannica.com/topic/nomenklatura
+  description: Nomenklatura soviétique — corps spécialisé de 1,5M
+  head_status: 200
+- url: https://www.britannica.com/topic/siloviki
+  description: Siloviki — re-capture de l'État russe
+  head_status: 200
+shadow_factor: 4.0
+mnemo_queries: []
+mnemo_cross_refs: []

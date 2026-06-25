@@ -1,0 +1,71 @@
+enquete_id: "friction_violente"
+complexity: "MEDIUM"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_sub_friction_violente/2026-06-12_12-00_friction_violente_impact_psychologique_INVESTIGATION.md"
+
+these_centrale: "La répression ne vise pas la structure : elle vise les individus qui la composent. Une structure acéphale sans préparation psychologique collective est détruite par la première vague d'arrestations, indépendamment de sa topologie. Le corpus traite les militants comme des bots incorporels — des nœuds dans un réseau qui, s'ils sont arrêtés, sont simplement retirés du graphe. Cette sous-enquête documente la réalité physique : garde à vue, isolement, burn-out militant, lawfare, suspicion post-arrestation. La préparation psychologique collective (OPSEC psy, groupes de soutien, protocoles post-arrestation) est un pilier défensif manquant."
+
+theses_implicites:
+  - "Le burn-out militant n'est pas une faiblesse individuelle : c'est une arme de répression structurelle produite par la pression continue (GAV répétées, perquisitions, contrôles judiciaires)."
+  - "Le lawfare (guerre juridique) utilise la procédure pour ÉPUISER, pas pour condamner — Tarnac est le cas d'école."
+  - "Les structures acéphales sont PLUS vulnérables aux arrestations de masse que les structures hiérarchiques (perte des nœuds, crise de gouvernance, fracturation en sous-groupes isolés)."
+
+acteurs:
+  - "Militants soumis à la répression (GAV, contrôle judiciaire, détention provisoire)"
+  - "Balazard & Cottin-Marx (2025) : Burn-out militant"
+  - "Codaccioni (2019) : La répression indirecte"
+  - "DicoPart (2022) : notice 'Répression'"
+  - "SLAPP : poursuites-bâillons civiles"
+  - "Tarnac (2008-2018) : cas d'école du lawfare"
+
+causalites:
+  - "Arrestations même sans suite → suspicion (qui a parlé ?) → fragmentation du collectif"
+  - "Pression répressive continue → burn-out militant → retrait des plus exposés"
+  - "Détention provisoire de 30%+ des membres → perte des nœuds du réseau → coordination grippée"
+  - "Traumatisme vicariant (par procuration) → anxiété généralisée → retrait des plus vulnérables (précaires, parents, étrangers)"
+  - "Lawfare → épuisement financier et mental sans condamnation → neutralisation de facto"
+
+faits_atomiques:
+  - F-fri-001: "Burn-out militant : phénomène d'épuisement émotionnel, physique et cognitif produit par pression répressive continue. GAV répétées, perquisitions, convocations, CJ créent 'torture administrative'."
+    glyph: "✧"
+  - F-fri-002: "Arrestation même sans suite → suspicion dans les structures horizontales fondées sur la confiance. La paranoïa post-arrestation fragmente le collectif plus efficacement que la prison."
+    glyph: "❧"
+  - F-fri-003: "Quand 30% des membres sont en prison ou sous CJ : (1) perte des nœuds du réseau, (2) crise de gouvernance, (3) fracturation en sous-groupes isolés sans communication."
+    glyph: "❧"
+  - F-fri-004: "Traumatisme vicariant : membres non arrêtés subissent anxiété généralisée. Les plus vulnérables (précaires, parents, étrangers) se retirent. Le collectif perd ses membres les plus exposés."
+    glyph: "❧"
+  - F-fri-005: "Lawfare : usage de la procédure judiciaire non pour condamner mais pour ÉPUISER. Tarnac = 10 ans procédure, relaxe, réseau détruit."
+    glyph: "✧"
+  - F-fri-006: "SLAPP : poursuites civiles (diffamation, troubles voisinage) pour étouffer financièrement. France condamnée par CEDH pour absence de protection anti-SLAPP."
+    glyph: "✧"
+  - F-fri-007: "Formations OPSEC psy existent (droits en GAV, gestion stress, anticipation isolement) mais quasi inexistantes en France et non intégrées au corpus."
+    glyph: "❧"
+  - F-fri-008: "Groupes de soutien aux prisonniers (cagnottes, courriers, visites) = contre-mesure documentée. Solidarité matérielle et morale empêche l'isolement et maintient la cohésion du collectif."
+    glyph: "❧"
+
+limites:
+  - "Aucune enquête de terrain auprès de militants ayant subi la répression — analyse de sources secondaires."
+  - "Protocoles de résilience psychologique documentés = pratiques informelles, pas standardisées."
+  - "Dimension internationale (mouvements turcs, biélorusses, hongkongais) non explorée."
+
+wolves: []
+
+iceberg:
+  - "La répression vise les individus, pas les structures"
+  - "Pilier défensif manquant : PRÉPARATION PSYCHOLOGIQUE COLLECTIVE"
+  - "Structures acéphales PLUS vulnérables aux arrestations de masse que les structures hiérarchiques"
+  - "3 armes de destruction sans condamnation : burn-out, lawfare, SLAPP"
+
+chronologie:
+  - "2008-2018 : Tarnac (lawfare)"
+  - "2019 : Codaccioni, La répression indirecte"
+  - "2022 : DicoPart, notice Répression"
+  - "2025 : Balazard & Cottin-Marx, Burn-out militant"
+
+domaines:
+  - "psychologie_militante"
+  - "repression_etatique"
+  - "resilience_collective"
+  - "lawfare"
+
+urls: []

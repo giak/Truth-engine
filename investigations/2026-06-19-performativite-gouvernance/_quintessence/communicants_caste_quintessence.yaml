@@ -1,0 +1,290 @@
+enquete_id: "communicants"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "investigations/2026-06-19-performativite-gouvernance/2026-06-19_08-50_1500_communicants_etat_caste_INVESTIGATION.md"
+
+these_centrale: "Les 1500 communicants de l'État forment une caste administratively-privée qui a capturé l'appareil de production du récit gouvernemental, formée au même moule (CELSA/INSP/Sciences Po), circulant entre public et privé sans friction, avec un coût annuel dissimulé de 1 milliard d'euros."
+
+theses_implicites:
+  - "Le SIG est passé d'un service technique de diffusion à une machine de cadrage narratif (glissement sémantique du décret 2024 : « diffuser » → « valoriser »)"
+  - "La réforme Lecornu 2026 est un correctif budgétaire qui renforce paradoxalement le pouvoir centralisé de la caste"
+  - "Le monopole CELSA sur la formation des communicants d'État verrouille la reproduction de la caste"
+  - "L'insuffisance du contrôle HATVP (77% réserves non suivies) rend les portes tournantes effectives sans sanction"
+
+faits_atomiques:
+  - id: "F-COMM-001"
+    enonce: "Le SIG emploie 87 fonctionnaires"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-service-dinformation-du-gouvernement-sig"
+    source_section: "§5 F001"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-002"
+    enonce: "Budget SIG officiel 2023: 14,1M€"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-service-dinformation-du-gouvernement-sig"
+    source_section: "§5 F002"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-003"
+    enonce: "Budget réel SIG avec sondages et campagnes: ~23,4M€"
+    source_url: "https://www.humanite.fr/"
+    source_section: "§5 F003"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-COMM-004"
+    enonce: "Budget total consolidé communication État: 1 milliard € (2024)"
+    source_url: "https://www.lejdd.fr/politique/exclusif-communication-de-letat-sebastien-lecornu-taille-dans-le-milliard-164525"
+    source_section: "§5 F004"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-005"
+    enonce: "Objectif économies 2026: -300M€ (-20% ministères, -40% opérateurs)"
+    source_url: "https://www.vie-publique.fr/actualites/299599-communication-de-letat-sebastien-lecornu-annonce-une-reforme"
+    source_section: "§5 F005"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-006"
+    enonce: "Accords-cadres interministériels SIG: 527,2M€ (2017-2022)"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-service-dinformation-du-gouvernement-sig"
+    source_section: "§5 F006"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-007"
+    enonce: "Turn-over SIG: 41% fin 2022, démissions majoritaires"
+    source_url: "https://acteurspublics.fr/articles/le-service-dinformation-du-gouvernement-appele-a-clarifier-son-positionnement/"
+    source_section: "§5 F007"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-008"
+    enonce: "Contractuels: ~90% des effectifs SIG"
+    source_url: "https://acteurspublics.fr/articles/le-service-dinformation-du-gouvernement-appele-a-clarifier-son-positionnement/"
+    source_section: "§5 F008"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-COMM-009"
+    enonce: "DICOM Intérieur: 13M€ (2023), 50% contractuels"
+    source_url: "https://www.ccomptes.fr/sites/default/files/2024-01/20240111-S2023-1323-Service-information-Gouvernement-SIG_0.pdf"
+    source_section: "§5 F009"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-010"
+    enonce: "Marché Dentsu Aegis Network: 75M€/an budget média SIG"
+    source_url: "https://fr.wikipedia.org/wiki/Service_d%27information_du_Gouvernement"
+    source_section: "§5 F012"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-COMM-011"
+    enonce: "Master Communication publique et politique CELSA forme aux cabinets ministériels"
+    source_url: "https://www.celsa.fr/nos-formations/master-communication-publique-et-politique/"
+    source_section: "§5 F016"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-012"
+    enonce: "82% diplômés CELSA employés en 3 mois"
+    source_url: "https://www.celsa.fr/"
+    source_section: "§5 F017"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-013"
+    enonce: "Partenariat formel CELSA-Ministère des Armées (2024)"
+    source_url: "https://www.celsa.fr/actualites"
+    source_section: "§5 F018"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-014"
+    enonce: "500+ cas portes tournantes documentés (2022-2025)"
+    source_url: "https://multinationales.org/fr/enquetes/les-portes-tournantes/portes-tournantes-comment-la-circulation-des-elites-entre-secteurs-public-et"
+    source_section: "§5 F019"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-COMM-015"
+    enonce: "98% portes tournantes vers grands groupes et cabinets conseil"
+    source_url: "https://multinationales.org/fr/enquetes/les-portes-tournantes/portes-tournantes-comment-la-circulation-des-elites-entre-secteurs-public-et"
+    source_section: "§5 F020"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-COMM-016"
+    enonce: "75% portes tournantes vers postes de lobbying"
+    source_url: "https://multinationales.org/fr/enquetes/les-portes-tournantes/portes-tournantes-comment-la-circulation-des-elites-entre-secteurs-public-et"
+    source_section: "§5 F021"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-COMM-017"
+    enonce: "Sibeth Ndiaye: « J'assume de mentir pour protéger le président » (2017)"
+    source_url: "https://www.liberation.fr/checknews/2019/04/02/sibeth-ndiaye-a-t-elle-vraiment-dit-j-assume-parfaitement-de-mentir-pour-proteger-le-president_1718838/"
+    source_section: "§5 F023"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-COMM-018"
+    enonce: "23 objets de communication interministériels imposés (mars 2026)"
+    source_url: "https://www.strategies.fr/actualites/marques/LQ6092283C/communication-de-letat-les-nouvelles-regles-du-jeu.html"
+    source_section: "§5 F025"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-019"
+    enonce: "SIG valide opérations >50 000€ et nouveaux sites web"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-service-dinformation-du-gouvernement-sig"
+    source_section: "§5 F026"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-020"
+    enonce: "1500 communicants dans la fonction publique d'État (source Matignon)"
+    source_url: "https://www.politico.eu/tag/france/"
+    source_section: "§5 F028"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-COMM-021"
+    enonce: "10% fonctionnaires quittent FP/an, ~10 000 pantouflages"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§5 F030"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COMM-022"
+    enonce: "Budget SIG +70% sous Macron (passé de ~13,8M€ à 23,4M€)"
+    source_url: "https://www.humanite.fr/"
+    source_section: "§5 F027"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Michael Nathan"
+    role: "Directeur du SIG depuis 2018, management contesté (audit 2021)"
+    faits_lies: ["F-COMM-001", "F-COMM-007"]
+  - nom: "Sébastien Lecornu"
+    role: "Ministre, pilote réforme 2025-2026"
+    faits_lies: ["F-COMM-004", "F-COMM-005"]
+  - nom: "Sibeth Ndiaye"
+    role: "Ancienne porte-parole, spin doctor, passage Adecco"
+    faits_lies: ["F-COMM-017"]
+  - nom: "Clément Léonarduzzi"
+    role: "Spin doctor, VP Publicis, aller-retour Publicis/Élysée/Publicis"
+    faits_lies: []
+  - nom: "Alexis Kohler"
+    role: "SG Élysée → Société générale (pantouflage 2025)"
+    faits_lies: []
+  - nom: "Christophe Castaner"
+    role: "Ex-ministre Intérieur → Shein (2024)"
+    faits_lies: []
+  - nom: "HATVP"
+    role: "Autorité contrôle déontologique, 77% réserves non suivies"
+    faits_lies: []
+
+causalites:
+  - cause: "F-COMM-011"
+    effet: "F-COMM-012"
+    mecanisme: "Formation CELSA → insertion quasi-garantie dans appareil d'État → reproduction caste"
+  - cause: "F-COMM-002"
+    effet: "F-COMM-004"
+    mecanisme: "Opacité budgétaire → sous-estimation officielle → révélation 1 Md€ → choc politique"
+  - cause: "F-COMM-007"
+    effet: "Turn-over 41%"
+    mecanisme: "Management contesté (audit 2021) + 90% contractuels → précarité → démissions"
+
+perspectives_dialectiques:
+  - position: "Thèse (défense du système)"
+    argument: "Les communicants d'État sont des techniciens neutres assurant l'information du public. La réforme Lecornu apporte transparence et économies. Le CELSA garantit l'excellence."
+  - position: "Antithèse (critique radicale)"
+    argument: "Les 1500 communicants sont une caste verrouillée qui a capturé la parole publique. Le 1 Md€ dissimulé, le glissement sémantique du décret 2024, et les 500+ portes tournantes constituent une confiscation antidémocratique."
+  - position: "Synthèse (systémique)"
+    argument: "La caste est le produit de 60 ans de construction institutionnelle (SLII 1963 → SIG 2026). La réforme Lecornu résout le problème budgétaire mais aggrave le problème démocratique en centralisant le pouvoir de cadrage."
+
+limites:
+  - "Le chiffre 1500 communicants est cité par POLITICO avec source Matignon mais le périmètre exact est flou"
+  - "Données DICOM de 2010 (Écologie 84,3 ETP, Justice 24 ETP) obsolètes — dernières disponibles publiquement"
+  - "Budget consolidé de 1 Md€ est une estimation (source JDD), pas un document officiel consolidé"
+  - "Le taux d'insertion CELSA 82% est auto-déclaré par l'école"
+
+wolves:
+  - nom: "Michael Nathan"
+    argument: "Directeur SIG depuis 2018, management contesté, préside à l'extension du pouvoir du SIG"
+    reponse: "Nommé en Conseil des ministres, sous autorité directe du Premier ministre"
+  - nom: "Sibeth Ndiaye"
+    argument: "Spin doctor assumant le mensonge d'État, porte-parole, pantoufle chez Adecco"
+    reponse: "Incarnation du cynisme structurel de la caste"
+  - nom: "Clément Léonarduzzi"
+    argument: "Prototype du spin doctor-gatekeeper, aller-retour Publicis/Élysée"
+    reponse: "Nœud central entre caste des communicants et intérêts privés du CAC 40"
+  - nom: "Sébastien Lecornu"
+    argument: "Réformateur paradoxal : centralise le pouvoir de communication en prétendant le réduire"
+    reponse: "Le tour de contrôle unique du SIG est pire que la dispersion"
+
+iceberg:
+  - "Léonarduzzi est le versant privé de la même caste : formé Sciences Po, carrière Publicis/Élysée/Publicis, porte tournante parfaite"
+  - "La concentration médiatique Bolloré (Prisma Media, Voici, CNews) et Niel (Nice-Matin, Le Monde) sont les réceptacles de la production narrative de la caste"
+  - "La performativité comme mensonge systémique est le carburant idéologique qui justifie l'existence de cette caste"
+
+chronologie:
+  - date: "1963"
+    evenement: "Création SLII (ancêtre SIG)"
+    source_fait: null
+  - date: "1996"
+    evenement: "SLII devient SIG"
+    source_fait: "F-COMM-013"
+  - date: "2018"
+    evenement: "Michael Nathan nommé directeur SIG"
+    source_fait: null
+  - date: "2024"
+    evenement: "Décret élargit mission SIG: « diffuser » → « valoriser »"
+    source_fait: null
+  - date: "2025-11"
+    evenement: "Révélation 1 Md€ budget communication (JDD)"
+    source_fait: "F-COMM-004"
+  - date: "2025-12"
+    evenement: "Circulaire réforme structurelle Lecornu"
+    source_fait: "F-COMM-005"
+  - date: "2026-03"
+    evenement: "23 objets de communication interministériels imposés"
+    source_fait: "F-COMM-018"
+
+domaines:
+  - "Communication publique"
+  - "Formation des élites (CELSA)"
+  - "Portes tournantes et pantouflage"
+  - "Budget et finances publiques"
+  - "Propagande gouvernementale"
+
+urls_prioritaires:
+  - url: "https://www.ccomptes.fr/fr/publications/le-service-dinformation-du-gouvernement-sig"
+    description: "Cour des comptes — Rapport SIG 2024"
+    head_status: 200
+  - url: "https://www.lejdd.fr/politique/exclusif-communication-de-letat-sebastien-lecornu-taille-dans-le-milliard-164525"
+    description: "JDD — Révélation 1 Md€ budget communication"
+    head_status: 200
+  - url: "https://www.vie-publique.fr/actualites/299599-communication-de-letat-sebastien-lecornu-annonce-une-reforme"
+    description: "Vie-publique.fr — Réforme Lecornu"
+    head_status: 200
+  - url: "https://www.celsa.fr/nos-formations/master-communication-publique-et-politique/"
+    description: "CELSA — Master Communication publique et politique"
+    head_status: 200
+  - url: "https://multinationales.org/fr/enquetes/les-portes-tournantes/portes-tournantes-comment-la-circulation-des-elites-entre-secteurs-public-et"
+    description: "Observatoire Multinationales — Portes tournantes"
+    head_status: 200
+
+shadow_factor: 5.0
+
+mnemo_queries:
+  - query: "1500 communicants État SIG CELSA caste communication gouvernementale"
+    results_count: 5
+  - query: "porte tournante communication publique pantouflage HATVP"
+    results_count: 5

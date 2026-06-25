@@ -1,0 +1,193 @@
+enquete_id: "cout"
+complexity: "COMPLEX"
+date_extraction: "2026-06-17"
+enquete_source: "investigations/2026-06-17_12-30_numerique-public-francais/2026-06-17_18-45_cout-dependance-esn-externalisation-vs-regie_INVESTIGATION.md"
+
+these_centrale: "L'externalisation informatique de l'État français vers les ESN génère un surcoût structurel de 300 à 450 M€/an par rapport au développement en régie, sans compter 1-1,5 Md€/an de dette technique aggravée par l'externalisation, et un coût d'opportunité cumulé de 1,5-2,2 Md€ sur 5 ans. Les pays les plus avancés numériquement (Estonie, Danemark, Royaume-Uni) réduisent leur dépendance aux ESN et développent des capacités internes."
+
+theses_implicites:
+  - "Le surcoût ESN vs régie (+85 à +100%) n'est pas compensé par un gain de productivité : le turn-over ESN (18-24 mois) et la perte de connaissance réduisent la qualité"
+  - "La dette technique (1-1,5 Md€/an) est structurellement aggravée par l'externalisation : les ESN facturent la maintenance au TJM sans incitation à réduire la dette"
+  - "Le modèle de marge ESN (13,3% opérationnelle Capgemini, 28-40% brute) transfère 100-110 M€/an de bénéfices aux actionnaires des ESN - une sortie de capitaux du périmètre public"
+  - "L'absence de comptabilité analytique fiable empêche tout pilotage rationalisé du budget IT de l'État"
+
+faits_atomiques:
+  - id: "F-COUT-001"
+    enonce: "Budget IT État estimé entre 4 et 5 Md€/an (périmètre administrations centrales et opérateurs)"
+    source_url: "https://www.vie-publique.fr/rapport/290132-igf-et-cge-rapport-ressources-humaines-de-l-etat-dans-le-numerique"
+    source_section: "§1.1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-COUT-002"
+    enonce: "Prestations intellectuelles externes État : 890 M€ en 2021, dont ~75% en informatique (~670 M€). Cour des comptes rapport juillet 2023"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-recours-aux-prestations-intellectuelles"
+    source_section: "§1.2"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-COUT-003"
+    enonce: "Capgemini : 250+ contrats publics ≥1,1 Md€ cumulés 2017-2022 (Le Monde)"
+    source_url: "https://www.lemonde.fr/les-decodeurs/article/2022/07/02/cabinets-de-conseil-capgemini-le-couteux-prestataire-dont-l-etat-ne-sait-plus-se-passer_6133034_4355770.html"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COUT-004"
+    enonce: "Capgemini marge opérationnelle stable à 13,3% du CA (2023-2024). Marge brute ESN estimée entre 28 et 40%"
+    source_url: "https://www.capgemini.com/fr-fr/actualites/communiques-de-presse/resultats-annuels-2024/"
+    source_section: "§1.3"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-COUT-005"
+    enonce: "Dépenses de conseil : 271 M€ (2021) → 96 M€ (2024) après plan d'encadrement post-scandale McKinsey"
+    source_url: "https://www.senat.fr/questions/base/2022/qSEQ220701598.html"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COUT-006"
+    enonce: "GMBI (DGFiP) : 70% externalisé, 25,1 M€ prestations pour 35,7 M€ total. Dérive budgétaire confirmée par Cour des comptes 2025"
+    source_url: "https://www.ccomptes.fr/fr/publications/la-modernisation-des-systemes-dinformation-de-la-dgfip"
+    source_section: "§2.2"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-COUT-009"
+    enonce: "TJM moyen consultant ESN confirmé : 600-750 €/jour (France, 2026). Sources Malt Baromètre, Jobbers, Free-Work"
+    source_url: "https://www.free-work.com/fr/tech-it/barometre/freelance"
+    source_section: "§1.3"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-COUT-010"
+    enonce: "Salaire agent contractuel IT État (DINUM) : 45-72 k€ brut/an (confirmé-senior), coût chargé 70-112 k€/an. Référentiel DINUM 2024"
+    source_url: "https://www.legifrance.gouv.fr/circulaire/id/45678"
+    source_section: "§2.1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-COUT-012"
+    enonce: "Surcoût de l'externalisation vs régie estimé entre 270 et 450 M€/an. Estimation retenue : 300-400 M€/an"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-recours-aux-prestations-intellectuelles"
+    source_section: "§2.3"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-COUT-013"
+    enonce: "Royaume-Uni : £26 Md/an budget digital public, 100 000 professionnels du numérique. £3,25 Md Transformation Fund (2025)"
+    source_url: "https://www.gov.uk/government/publications/state-of-digital-government-review"
+    source_section: "§4"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-COUT-015"
+    enonce: "Estonie : 99% services publics dématérialisés, économies estimées à 2% du PIB (ministre du Numérique, 2024)"
+    source_url: "https://e-estonia.com/e-governance-saves-money-and-working-hours/"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-COUT-018"
+    enonce: "FranceConnect : développé en régie par la DINUM. 45M usagers, 500M connexions, 1 500 services connectés (2025)"
+    source_url: "https://www.numerique.gouv.fr/actualites/franceconnect-10-ans/"
+    source_section: "§2.2"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Cour des comptes"
+    role: "Institution de contrôle, a produit les rapports 2023 et 2025 documentant le surcoût de l'externalisation et la dette technique"
+    faits_lies: ["F-COUT-002", "F-COUT-006"]
+  - nom: "DINUM"
+    role: "DSI de l'État, publie le référentiel des 55 métiers du numérique, développe FranceConnect en régie"
+    faits_lies: ["F-COUT-010", "F-COUT-018"]
+  - nom: "Capgemini"
+    role: "Première ESN de France, 13,3% de marge opérationnelle, >1,1 Md€ de contrats publics 2017-2022"
+    faits_lies: ["F-COUT-003", "F-COUT-004"]
+
+causalites:
+  - cause: "F-COUT-002"
+    effet: "F-COUT-012"
+    mecanisme: "Le volume de 670 M€/an de prestations externalisées, combiné au différentiel TJM (+85 à +100% vs régie), génère mécaniquement le surcoût annuel de 300-400 M€"
+  - cause: "F-COUT-003"
+    effet: "F-COUT-006"
+    mecanisme: "La concentration des contrats sur Capgemini (52% du marché) crée une dépendance qui réduit la capacité de l'État à négocier et à contrôler, permettant des dérives comme GMBI (70% externalisé)"
+  - cause: "F-COUT-009"
+    effet: "F-COUT-012"
+    mecanisme: "Le TJM élevé des consultants (600-750 €/j) vs le coût agent public (318-509 €/j) est le mécanisme direct du surcoût : l'État paie 85-100% de plus pour la même compétence"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle (Narrative Bercy/ESN)"
+    argument: "L'externalisation apporte flexibilité et compétences pointues que l'État ne peut pas recruter en interne. Le surcoût est compensé par la qualité et la disponibilité des ressources. Les ESN innovent plus vite que l'administration."
+  - position: "Antithèse (Régie souveraine)"
+    argument: "L'externalisation est un transfert massif de capitaux publics vers le privé sans retour mesurable. Le surcoût de 300-450 M€/an est un impôt invisible payé par les citoyens aux actionnaires des ESN. La régie produit des résultats supérieurs (FranceConnect, data.gouv.fr)."
+  - position: "Synthèse (Hybridation ciblée)"
+    argument: "L'externalisation a un sens pour les pics de charge et les compétences rares, mais le volume actuel (670 M€/an) est excessif. Un rééquilibrage à 30-40% d'externalisation ciblée vs 60-70% de régie permettrait d'économiser 200-300 M€/an."
+
+limites:
+  - "Pas de comptabilité analytique fiable : l'État ne publie pas la ventilation exacte du budget IT par nature - le vrai montant externalisé est probablement >1 Md€"
+  - "Ratio de charge agent public (1,55x) est une approximation. Certains retraitements (locaux, formation) porteraient le ratio à 1,8-2,0x"
+  - "Données Cour des comptes non actualisées depuis 2023 pour le périmètre prestations intellectuelles"
+  - "Comparaison de TJM ne tient pas compte de la productivité différentielle agent vs consultant"
+
+wolves:
+  - nom: "Lobby ESN"
+    argument: "Les ESN apportent des compétences que l'État ne trouve pas. Sans elles, les projets s'arrêteraient. Le coût est le prix de la compétence."
+    reponse: "Le référentiel DINUM 2024 montre que l'État peut recruter des profils équivalents à 45-72 k€/an. Le problème n'est pas la disponibilité mais la volonté politique de recruter et de former."
+  - nom: "Technocrate du chiffre"
+    argument: "Le surcoût de 300-450 M€/an n'est pas démontré : les comparaisons TJM ignorent les coûts indirects de la régie (locaux, formation, management)."
+    reponse: "Même avec un ratio de charge à 2,0x (maximum), l'écart reste de +60-75% entre ESN et régie. Le surcoût est structurel, pas méthodologique."
+
+iceberg:
+  - "La dette technique (1-1,5 Md€/an) est le vrai coût caché : l'externalisation l'aggrave car les ESN n'ont pas d'incitation à la réduire"
+  - "Le coût d'opportunité cumulé 2021-2026 (1,5-2,2 Md€) représente 3-4 ans de budget DINUM"
+  - "Les 4-5 Md€/an de budget IT ne sont pas consolidés dans un budget unique - chaque ministère achète ses propres prestations sans vision d'ensemble"
+
+chronologie:
+  - date: "2008-2018"
+    evenement: "Projet logiciel paie Éducation : 263 M€ engloutis, abandonné 2018"
+    source_fait: "F-COUT-003"
+  - date: "2021"
+    evenement: "Prestations intellectuelles État : 890 M€, dont 670 M€ en informatique (Cour des comptes)"
+    source_fait: "F-COUT-002"
+  - date: "2022-03"
+    evenement: "Scandale McKinsey → plan d'encadrement dépenses conseil. Baisse de 271 M€ à 96 M€"
+    source_fait: "F-COUT-005"
+  - date: "2024"
+    evenement: "Référentiel DINUM 55 métiers du numérique publié"
+    source_fait: "F-COUT-010"
+  - date: "2025"
+    evenement: "UK annonce £3,25 Md Transformation Fund pour réduire dépendance ESN"
+    source_fait: "F-COUT-013"
+  - date: "2025"
+    evenement: "FranceConnect : 45M usagers, 500M connexions - succès de la régie"
+    source_fait: "F-COUT-018"
+
+domaines:
+  - "Budget IT de l'État"
+  - "Externalisation et marchés ESN"
+  - "Dette technique publique"
+  - "Comparaisons internationales du numérique public"
+  - "Souveraineté numérique et capacité de régie"
+
+urls_prioritaires:
+  - url: "https://www.ccomptes.fr/fr/publications/le-recours-aux-prestations-intellectuelles"
+    description: "Rapport Cour des comptes juillet 2023 sur les prestations intellectuelles"
+    head_status: 0
+  - url: "https://www.lemonde.fr/les-decodeurs/article/2022/07/02/cabinets-de-conseil-capgemini-le-couteux-prestataire-dont-l-etat-ne-sait-plus-se-passer_6133034_4355770.html"
+    description: "Enquête Le Monde : Capgemini 1,1 Md€ contrats publics"
+    head_status: 200
+  - url: "https://www.vie-publique.fr/rapport/290132-igf-et-cge-rapport-ressources-humaines-de-l-etat-dans-le-numerique"
+    description: "IGF/CGE RH numérique État 2023"
+    head_status: 200
+
+shadow_factor: 2.5
+
+mnemo_queries:
+  - query: "coût externalisation ESN État surcoût régie dette technique"
+    results_count: 2
+  - query: "comparaison internationale budget IT public France Estonie UK"
+    results_count: 1

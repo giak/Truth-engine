@@ -1,0 +1,323 @@
+enquete_id: sanctuaire
+complexity: COMPLEX
+date_extraction: '2026-06-12'
+enquete_source:
+- investigations/2026-06-11_addendum_defeat_v2/2026-06-11_00-00_addendum_defeat_v2_APEX.md
+- type: ADDENDUM
+- lignes: 700
+- fichiers: 1
+these_centrale: 'Le sanctuaire (physique, diasporique, territorial, virtuel, etatique) est le meilleur predicteur de la longevite
+  d''un mouvement. Tous les mouvements ayant dure plus de 10 ans avaient un sanctuaire physique. Tous les mouvements sans
+  sanctuaire ont dure moins de 2 ans. La France n''a pas de sanctuaire physique disponible — il faut le construire. Suspicion
+  score : 7.8/10.
+
+  '
+theses_implicites:
+- TI1: 'La question strategique centrale n''est pas "comment agir" mais "ou exister". Sans sanctuaire, le plus beau protocole
+    de coordination est une liste de taches pour epuises.
+
+    '
+- TI2: 'Le sanctuaire cree une dependance strategique : chaque type de sanctuaire peut fermer (Etat-hote, diaspora sous pression,
+    plateforme qui bannit). Le modele PKK (sanctuaires multiples) est le plus resilient.
+
+    '
+- TI3: 'Le sanctuaire psychologique (inner sanctuary) est le sanctuaire primaire en France : en l''absence de sanctuaire physique
+    durable, l''abri interieur (communaute, recit, rituels) devient la protection accessible.
+
+    '
+faits_atomiques:
+- id: F-SANC-001
+  enonce: 'LTTE (1983-2009) : 26 ans de survie grace a deux sanctuaires successifs (Inde Tamil Nadu 1983-87, diaspora mondiale
+    1987-2009). Defaite en 3 mois apres fermeture des deux sanctuaires.
+
+    '
+  source_url: https://tamilnation.org/intframe/india/jaincommission/growth_of_tamil_militancy/ch1sec1
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-SANC-002
+  enonce: 'ETA (1959-2018) : 59 ans de survie grace au sanctuaire francais (Pays Basque). Apres 2002 (cooperation franco-espagnole,
+    fermeture sanctuaire), declin puis disparition en 16 ans.
+
+    '
+  source_url: https://www.ladepeche.fr/article/2001/11/30/212394-les-pyrenees-refuge-de-l-eta.html
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-SANC-003
+  enonce: 'PKK (1984-) : 40+ ans de survie grace a sanctuaires multiples (Qandil geographique + Syrie/Rojava + diaspora europeenne
+    + tolerance etatique intermittente).
+
+    '
+  source_url: https://jamestown.org/program/mount-qandil-a-safe-haven-for-kurdish-militants-part-2/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-SANC-004
+  enonce: 'FARC (1964-2016) : 52 ans de survie grace au sanctuaire transfrontalier venezuelien (Chavez). IISS confirme activite
+    +0.3 ecart-type dans les municipalites frontalieres.
+
+    '
+  source_url: https://www.iiss.org/publications/strategic-dossiers/the-farc-files/
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-SANC-005
+  enonce: 'Hong Kong 2019 : sanctuaire virtuel (18 publicites pleine page dans 13 pays, soutien US, hashtags mondiaux) mais
+    ZERO sanctuaire physique → ecrasement en 6 mois, 10 000 arrestations.
+
+    '
+  source_url: https://journals.publishing.umich.edu/gs/article/id/830/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-SANC-006
+  enonce: 'Correlation sanctuaire-duree : 8/8 cas historiques confirment. Tous les mouvements >10 ans = sanctuaire physique.
+    Tous les <2 ans = pas de sanctuaire. N=8, pas de test statistique formel.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Synthese de l'enqueteur.
+- id: F-SANC-007
+  enonce: 'ZAD Notre-Dame-des-Landes (2009-2018) : 1 650 ha, 200+ occupants, 8 ans. Demantelee par 2 500 gendarmes. Preuve
+    qu''un sanctuaire francais est possible mais vulnerable.
+
+    '
+  source_url: https://www.lemonde.fr/zad-de-notre-dame-des-landes/
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-SANC-008
+  enonce: 'Diaspora francaise : 2.5 M de Francais etablis a l''etranger — sanctuaire diasporique sous-exploite.
+
+    '
+  source_url: https://www.diplomatie.gouv.fr/fr/services-aux-citoyens/les-francais-etrangers/
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-SANC-009
+  enonce: 'RIC : 73% de soutien populaire. Le RIC et l''assemblee constituante sont des sanctuaires politiques : droits constitutionnels,
+    legitime democratique, impossibles a dissoudre comme un mouvement social.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Reference CEVIPOF/Ifop non URL-fournie.
+- id: F-SANC-010
+  enonce: 'Le sanctuaire cree une dependance strategique : LTTE dependait de l''Inde, ETA de la France, FARC du Venezuela.
+    Quand l''Etat-hote ferme, le mouvement meurt.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Synthese de l'enqueteur.
+- id: F-SANC-011
+  enonce: 'Les Soulevements de la Terre : dissous par decret juin 2023, annulation en appel novembre 2023. Tentative de construire
+    un maillage rural decentralise — sanctuaire sous pression judiciaire constante.
+
+    '
+  source_url: https://www.lemonde.fr/societe/article/2023/06/21/les-soulevements-de-la-terre-dissous-en-conseil-des-ministres_6178674_3224.html
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-SANC-012
+  enonce: '5 types de sanctuaire identifies : physique frontalier, diasporique, territorial, virtuel, etatique. Chaque type
+    a ses forces et faiblesses.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Taxonomie originale de l'enquete.
+- id: F-SANC-013
+  enonce: 'Suspicion score revise : 7.8/10 (contre 8.4 initial). Biais identifies : determinisme (N=8), militantisme (cherche
+    solution), politique (RIC non teste), survivorship (mouvements morts absents), confirmation structurelle.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Auto-critique du fichier.
+- id: F-SANC-014
+  enonce: 'Le sanctuaire psychologique (inner sanctuary) : communaute de soin, recit interieur, rituels collectifs. En l''absence
+    de sanctuaire physique en France, l''abri interieur devient le sanctuaire primaire.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-SANC-015
+  enonce: 'Campus Sciences Po 2024 : encampment palestinien, demantelement rapide par police. Le sanctuaire universitaire
+    est trop fragile sans soutien institutionnel.
+
+    '
+  source_url: https://apnews.com/article/france-paris-university-campus-protests-israel-palestinians-gaza-b2743b076ff31a8dbe74478a046c1379
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+acteurs:
+- nom: LTTE (Tigres tamouls)
+  role: 26 ans, deux sanctuaires successifs (Inde puis diaspora)
+  faits_lies: []
+- nom: ETA
+  role: 59 ans, sanctuaire francais
+  faits_lies: []
+- nom: PKK
+  role: 40+ ans, sanctuaires multiples (Qandil, Syrie, diaspora)
+  faits_lies: []
+- nom: FARC
+  role: 52 ans, sanctuaire venezuelien (Chavez, Maduro)
+  faits_lies: []
+- nom: Hong Kong 2019
+  role: Contre-modele — sanctuaire virtuel seul = echec
+  faits_lies: []
+- nom: ZAD NDDL
+  role: Sanctuaire physique francais, 8 ans, demantele
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: '[Sanctuaire physique] → [Repos, rearmement, formation] → [Survie aux offensives] → [Duree > 10 ans] → [Legitimite
+    temporelle]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Absence sanctuaire] → [Pression permanente] → [Pas de repit strategique] → [Epuisement + erreurs] → [Effondrement
+    en mois]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Fermeture sanctuaire (pression diplomatique)] → [Perte base arriere] → [Combat a decouvert] → [Defaite rapide]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Sanctuaires multiples (PKK)] → [Redondance] → [Fermeture d''un sanctuaire non fatale] → [Resilience maximale]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Sanctuaire psychologique] → [Protection mentale] → [Resistance a l''epuisement] → [Longevite militante individuelle]
+
+    '
+perspectives_dialectiques:
+- P1: 'Favorable : La France n''a pas de Qandil mais peut construire des sanctuaires (ZAD 8 ans, diaspora 2.5M, RIC a 73%,
+    campus). Le sanctuaire n''est pas donne par la geographie — il se construit.
+
+    '
+- P2: 'Defavorable : Aucun sanctuaire construit en France n''a survecu a un Etat determine (NDDL demantelee, SdT dissous).
+    Les sanctuaires virtuels ne suffisent pas (HK 2019). Le territoire est sature.
+
+    '
+- P3: 'Synthese : La seule voie francaise est la combinaison : sanctuaire politique (RIC, constituante) + sanctuaire diasporique
+    (2.5M Francais etranger) + sanctuaire psychologique (inner sanctuary). Aucun sanctuaire unique ne suffit — il faut la
+    redondance du modele PKK.
+
+    '
+limites:
+- Correlation sanctuaire-duree basee sur N=8, pas de test statistique.
+- Biais de survivorship: mouvements morts en 6 mois absents de l'analyse.
+- La France n'a pas de sanctuaire physique disponible.
+- Sanctuaires francais (NDDL, SdT) demanteles par l'Etat.
+- Le RIC comme sanctuaire politique est une these non testee.
+- Le sanctuaire est une dependance, pas une solution permanente.
+wolves:
+- nom: Si aucun sanctuaire durable n'est possible en France, alors la coordination acep...
+  argument: 'Si aucun sanctuaire durable n''est possible en France, alors la coordination acephale est impossible — pas pour
+    des raisons tactiques mais spatiales. Sans "ou exister", le "comment agir" est futile.
+
+    '
+  reponse: ''
+- nom: Le sanctuaire psychologique est-il un vrai sanctuaire ou un placebo ? Un militan...
+  argument: 'Le sanctuaire psychologique est-il un vrai sanctuaire ou un placebo ? Un militant peut avoir le plus bel inner
+    sanctuary du monde — il reste vulnerable a la LBD, a la garde a vue, a la detention provisoire.
+
+    '
+  reponse: ''
+iceberg:
+- item: 'Le modele PKK (sanctuaires multiples) est le plus resilient mais aussi le plus dependant d''un contexte geopolitique
+    (guerre syrienne, tolerance irakienne). Non reproductible en France.
+
+    '
+- item: 'La diaspora francaise (2.5M) est un sanctuaire sous-exploite. Financement, relais mediatique, protection juridique
+    (extradition limitee pour motifs politiques).
+
+    '
+- item: 'Le RIC comme sanctuaire politique est une these originale qui merite investigation dediee. 73% de soutien = protection
+    narrative.
+
+    '
+- item: 'Mnemolite: DOWN.
+
+    '
+chronologie:
+- date: 1959-2018
+  evenement: ETA — 59 ans avec sanctuaire francais
+- date: 1964-2016
+  evenement: FARC — 52 ans avec sanctuaire venezuelien
+- date: 1983-2009
+  evenement: LTTE — 26 ans avec sanctuaire Inde puis diaspora
+- date: 1984-present
+  evenement: PKK — 40+ ans avec sanctuaires multiples
+- date: 2009-2018
+  evenement: ZAD NDDL — 8 ans, sanctuaire francais demantele
+- date: 2018-2019
+  evenement: Gilets jaunes — 6 mois, 0 sanctuaire
+- date: '2019'
+  evenement: Hong Kong — 6 mois, sanctuaire virtuel seul
+- date: '2023'
+  evenement: SdT dissous puis annulation — sanctuaire sous pression
+domaines:
+- Strategie des mouvements armes (LTTE, ETA, PKK, FARC)
+- Geopolitique des sanctuaires
+- Resistance non-violente (HK 2019, GJ, Occupy)
+- Sanctuaire psychologique
+- Droit constitutionnel (RIC, constituante)
+urls_prioritaires:
+- url: https://www.iiss.org/publications/strategic-dossiers/the-farc-files/
+  description: ''
+  head_status: 0
+- url: https://jamestown.org/program/mount-qandil-a-safe-haven-for-kurdish-militants-part-2/
+  description: ''
+  head_status: 0
+- url: https://journals.publishing.umich.edu/gs/article/id/830/
+  description: ''
+  head_status: 0
+- url: https://www.diplomatie.gouv.fr/fr/services-aux-citoyens/les-francais-etrangers/
+  description: ''
+  head_status: 0
+shadow_factor: 2.0
+shadow_justification: 'Le fichier source est bien documente (19 faits, 12+ URLs) mais la these centrale repose sur une correlation
+  N=8 sans test statistique formel. Biais de survivorship identifie. La transposition au contexte francais est speculative
+  (pas de sanctuaire physique disponible). Suspicion score : 7.8/10.
+
+  '
+mnemo_queries:
+- note: Mnemolite DOWN.

@@ -1,0 +1,357 @@
+civ: "AM"
+complexity: "COMPLEX"
+date_extraction: "2026-06-07"
+enquete_source: "investigations/2026-06-03_sumer_article/2026-06-04_11-00_ameriques_precolombiennes_CIVILISATION_MANQUANTE.md"
+
+these_centrale: "Les civilisations americaines precolombiennes (Caral 2600 BCE, Olmèque, Maya, Teotihuacan, Inca, Aztèque) constituent le refutateur en chef de la these dette/droit/morale: l empire inca a fonctionne avec ZERO monnaie, ZERO dette monetaire et ZERO marché, tout en developpant une bureaucratie sophistiquee, un impôt-travail (mit a), un réseau routier de 40 000 km et une redistribution etatique integrale, ce qui prouve que l integration sociale est un universel humain et non un mecanisme dependant de la dette."
+
+theses_implicites:
+  - "L absence totale de contact avec l Ancien Monde avant 1492 invalide toute these de transmission/filiation civilisationnelle entre continents et impose de traiter l integration comme un phenomene convergent independant."
+  - "La capture du pouvoir peut s exercer SANS dette monetaire: l empire inca l a prouve par le monopole d information (quipu illisible sans formation specialisee), le monopole foncier (Sapa Inca proprietaire de toute terre) et le tribut en nature (azteque)."
+  - "L exclusion des Ameriques du recit civilisationnel dominant releve d un biais structurel (eurocentrisme epistemique) et non d un simple oubli, ce que confirme le shadow factor 6,4 soit le plus eleve de toutes les enquetes de l article."
+
+faits_atomiques:
+  - id: "F-AM001"
+    enonce: "La civilisation de Caral (Perou) est la plus ancienne des Ameriques (environ 2600 avant J.-C.), contemporaine des pyramides d Egypte, avec des quipus proto-documentes et aucune dette monetaire connue."
+    source_url: "https://en.wikipedia.org/wiki/Caral%E2%80%93Supe_civilization"
+    source_section: "§11 F001"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM002"
+    enonce: "L economie de l empire inca (Tawantinsuyu, environ 1200-1532) ne possedait aucune monnaie, aucun marche et aucune dette monetaire au sens occidental: le troc et la redistribution imperiale remplaçaient l echange marchand."
+    source_url: "https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire"
+    source_section: "§11 F002"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM003"
+    enonce: "Le mit a etait un impôt-travail rotationnel obligatoire: chaque foyer devait un certain nombre de jours de travail a l Etat en echange de nourriture, vetements et logement en periode de disette, sans possibilite d endettement pour acquitter l impôt."
+    source_url: "https://en.wikipedia.org/wiki/Mita_(Inca)"
+    source_section: "§11 F003"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM004"
+    enonce: "Le principe ayni designe la reciprocite andine (donne et recoit) comme obligation sociale, distincte de la dette contractuelle occidentale; il s inscrit dans le triptyque ayni/minka/mit a qui structure la vie economique andine."
+    source_url: "https://en.wikipedia.org/wiki/Ayni"
+    source_section: "§11 F004"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM005"
+    enonce: "Le Qhapaq Nan representait 40 000 km de routes pavees, soit le plus long reseau routier de toutes les civilisations etudiees, avec des tambos (relais logistiques) espaces d environ 20 km."
+    source_url: "https://en.wikipedia.org/wiki/Inca_road_system"
+    source_section: "§11 F005"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM006"
+    enonce: "Le quipu etait un systeme comptable decimal positionnel (base 10) a cordelettes nouees, permettant addition, soustraction, multiplication, division, recensement exhaustif de la population et enregistrement des obligations fiscales; environ 1 400 exemplaires subsistent."
+    source_url: "https://en.wikipedia.org/wiki/Quipu"
+    source_section: "§11 F006"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM007"
+    enonce: "Les quipucamayocs constituaient une caste specialisee de comptables formes dans les yachay wasi (ecoles d Etat), detenant un monopole effectif sur le savoir comptable en l absence d ecriture phonetique."
+    source_url: "https://en.wikipedia.org/wiki/Quipucamayoc"
+    source_section: "§11 F007"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM008"
+    enonce: "L empire aztque (1325-1521) utilisait le cacao et les tissus de coton comme monnaie, percevait un tribut en nature (mais, cacao, plumes, or) et developpait un corps de marchands longue distance appeles pochtecas; aucun pret a interet compose documente."
+    source_url: "https://en.wikipedia.org/wiki/Pochteca"
+    source_section: "§11 F008"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM009"
+    enonce: "La civilisation maya (environ 2000 avant J.-C. - 900 apres J.-C.) developpa un systeme d ecriture glyphique, le zero mathematique, un calendrier sophistique et un systeme juridique integrant droit civil, penal et religieux avec des peines variables selon le statut social."
+    source_url: "https://en.wikipedia.org/wiki/Maya_civilization"
+    source_section: "§11 F009"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM010"
+    enonce: "Tenochtitlan, capitale aztque, comptait plus de 200 000 habitants en 1519, ce qui en faisait l une des plus grandes villes du monde a la veille de la conquete espagnole."
+    source_url: "https://en.wikipedia.org/wiki/Tenochtitlan"
+    source_section: "§11 F010"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM011"
+    enonce: "La civilisation olmeque (environ 1500-400 avant J.-C.) est consideree comme la culture mere de la Mesoamerique: ecriture glyphique, calendrier, pratiques commerciales et religieuses structurees."
+    source_url: "https://en.wikipedia.org/wiki/Olmec"
+    source_section: "§11 F011"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM012"
+    enonce: "Aucune source ne documente l existence d un pret a interet compose dans les civilisations americaines precolombiennes, qu il s agisse de l espace andin (Inca) ou de la Mesoamerique (Aztèque, Maya)."
+    source_url: ""
+    source_section: "§11 F012"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-AM013"
+    enonce: "Teotihuacan (environ 100-650 apres J.-C.) etait la plus grande ville des Ameriques precolombiennes avec quelque 125 000 habitants au pic de son extension, precede par les pyramides du Soleil et de la Lune."
+    source_url: "https://en.wikipedia.org/wiki/Teotihuacan"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM014"
+    enonce: "Le Sapa Inca etait considere comme le proprietaire divin de toute terre de l empire Tawantinsuyu, detenant une centralite politique absolue (1,0) sur les 10 millions de sujets."
+    source_url: "https://en.wikipedia.org/wiki/Tawantinsuyu"
+    source_section: "§9"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM015"
+    enonce: "Les chasquis etaient des messagers professionnels capables de transmettre un message sur 250 miles par jour le long du Qhapaq Nan, formant un reseau d information rapide au service de l administration imperiale."
+    source_url: "https://en.wikipedia.org/wiki/Chasqui"
+    source_section: "§3 NETWORK"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM016"
+    enonce: "Les tambos, relais espaces d environ 20 km le long du Qhapaq Nan, servaient de points logistiques pour l armee, l administration et le transport des marchandises redistribuees par l Etat."
+    source_url: "https://en.wikipedia.org/wiki/Inca_road_system"
+    source_section: "§8E"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM017"
+    enonce: "La civilisation mississippienne (Cahokia, vers 1100 apres J.-C.) reunissait quelque 20 000 habitants et constitue un cas de societe complexe am ericaine non traite dans l enquete."
+    source_url: ""
+    source_section: "§13"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-AM018"
+    enonce: "Le tribut aztèque etait paye en nature (mais, cacao, tissus, plumes, or) par les provinces conquises, stocke dans des entrepots centraux, puis redistribue par l Etat mexica."
+    source_url: "https://en.wikipedia.org/wiki/Pochteca"
+    source_section: "§8C"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-AM019"
+    enonce: "La conquete espagnole provoque la mort d environ 90 pour cent de la population amerindienne, du fait des epidemies, des guerres et du systeme de l encomienda."
+    source_url: ""
+    source_section: "§12 LOUPS"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-AM020"
+    enonce: "Francisco Pizarro capture l empereur Atahualpa en 1532, marquant la fin de l empire inca et le debut de la domination espagnole sur le Tawantinsuyu."
+    source_url: ""
+    source_section: "§7"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-AM021"
+    enonce: "Christophe Colomb arrive dans le Nouveau Monde en 1492, date marquant le premier contact documente entre les civilisations de l Ancien Monde et celles des Ameriques."
+    source_url: ""
+    source_section: "§7"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-AM022"
+    enonce: "L empire inca (Tawantinsuyu) rassemblait environ 10 millions d habitants au moment de la conquete espagnole, soit une population superieure a la majeure partie des royaumes europeens contemporains."
+    source_url: "https://en.wikipedia.org/wiki/Tawantinsuyu"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Sapa Inca"
+    role: "Empereur divin, proprietaire de toute terre de l empire Tawantinsuyu, sommet absolu de la hierarchie politique et religieuse"
+    faits_lies: ["F-AM002", "F-AM003", "F-AM014", "F-AM022"]
+
+  - nom: "Quipucamayocs"
+    role: "Caste specialisee de comptables formes dans les yachay wasi, detenant le monopole du savoir comptable via le quipu"
+    faits_lies: ["F-AM006", "F-AM007"]
+
+  - nom: "Kurakas"
+    role: "Chefs locaux andins, intermediaires entre l Etat inca et les communautes de base"
+    faits_lies: ["F-AM003", "F-AM004"]
+
+  - nom: "Chasquis"
+    role: "Messagers professionnels du Qhapaq Nan, transmettant ordres et informations a 250 miles par jour"
+    faits_lies: ["F-AM015", "F-AM005"]
+
+  - nom: "Tlatoani aztèque"
+    role: "Roi-chef de cite, sommet politique de chaque cite-Etat aztque"
+    faits_lies: ["F-AM008", "F-AM010", "F-AM018"]
+
+  - nom: "Pochteca"
+    role: "Marchands longue distance de l empire aztque, organe commercial specialise"
+    faits_lies: ["F-AM008", "F-AM018"]
+
+  - nom: "Conquistadors espagnols"
+    role: "Acteurs militaires de la conquete, destructeurs des systemes politiques precolombiens entre 1492 et 1572"
+    faits_lies: ["F-AM019", "F-AM020", "F-AM021"]
+
+causalites:
+  - cause: "F-AM002"
+    effet: "F-AM003"
+    mecanisme: "L absence de monnaie dans l economie inca interdit l impôt monetaire et impose le mit a comme impôt-travail, evitant tout endettement fiscal."
+
+  - cause: "F-AM006"
+    effet: "F-AM007"
+    mecanisme: "Le quipu, systeme comptable illisible sans formation, cree une barriere a l entree qui favorise l emergence d une caste de specialistes (quipucamayocs) detenant un monopole informationnel."
+
+  - cause: "F-AM002"
+    effet: "F-AM022"
+    mecanisme: "L efficacite de la redistribution etatique sans monnaie permet de soutenir une population d environ 10 millions d habitants sans crise fiscale."
+
+  - cause: "F-AM021"
+    effet: "F-AM019"
+    mecanisme: "Le contact de 1492 introduit des pathogenes (variole, rougeole) et declenche une conquete militaire entrainant une mortalite de l ordre de 90 pour cent."
+
+  - cause: "F-AM005"
+    effet: "F-AM015"
+    mecanisme: "Le Qhapaq Nan de 40 000 km fournit l infrastructure physique sur laquelle les chasquis peuvent relayer un message de Cusco a 2 500 km en cinq jours."
+
+  - cause: "F-AM003"
+    effet: "F-AM006"
+    mecanisme: "L enregistrement du mit a sur quipus necessite un systeme comptable standardise, stimulant le developpement et la specialisation du quipu base-10."
+
+perspectives_dialectiques:
+  - position: "These: les Ameriques confirment l integration sociale mais refutent la dette comme mecanisme central"
+    argument: "L empire inca etait parfaitement integre (Etat, fiscalite, droit, morale) sans dette monetaire; la these large d integration tient, la these specifique dette/morale s effondre."
+
+  - position: "Antithese: les Ameriques invalident la these entiere de l article"
+    argument: "Si l integration fonctionne SANS dette (Inca) et que la capture existe AUSSI sans dette (quipucamayocs), alors l article a confondu correlation et causalite en presentant la dette comme mecanisme central."
+
+  - position: "Synthese: reformulation universaliste"
+    argument: "Les civilisations americaines prouvent que l integration droit/economie/morale est un universel humain independant de la dette; la dette est un mecanisme parmi d autres (mit a, tribut, monopole informationnel) et non le mecanisme central."
+
+limites:
+  - "La civilisation mississippienne (Cahokia, environ 20 000 habitants vers 1100) n est pas traitee dans l enquete."
+  - "Les societes pueblo (Chaco Canyon) et les societes amazoniennes (complexes sans Etat centralise) sont exclues du perimetre."
+  - "Les sources europeennes (chroniqueurs espagnols) sont affectees par un biais de conquete: elles tendent a presenter l economie inca comme exotique ou primitive."
+  - "Les quipus ne sont que partiellement dechiffres; leurs composantes non numeriques (histoire, lois) restent inaccessibles."
+  - "L acces a l archeologie andine recente et aux sources en quechua, nahuatl et maya est limite dans l enquete."
+
+wolves:
+  - nom: "Sapa Inca comme loup capture"
+    argument: "Le monarque absolu a la tete d une economie planifiee sans monnaie represente la forme la plus extreme de capture verticale jamais observee."
+    reponse: "La capture verticale inca est compensee par la redistribution en periode de disette et par l impôt-travail qui n endette pas; le contrat social andin differe structurellement de la capture par la dette de l Ancien Monde."
+
+  - nom: "Quipucamayocs comme caste informationnelle"
+    argument: "La caste des comptables detenait un monopole de l information economique, comparable aux scribes mesopotamiens ou aux mandarins chinois."
+    reponse: "La capture informationnelle inca opere SANS ecriture phonetique, donc SANS dette contractuelle; elle releve d un monopole technique sur un code comptable inaccessible, distinct du monopole juridique-crediteur de l Ancien Monde."
+
+  - nom: "Conquistadors comme destruction violente"
+    argument: "La conquete espagnole detruit 90 pour cent de la population amerindienne et efface des systemes politiques alternatifs, contaminant toute description externe."
+    reponse: "Le biais de conquete est reconnu (L4, L6) et contrebalance par l archeologie; l effet de la conquete renforce la these d invisibilisation epistemique des Ameriques dans l article."
+
+  - nom: "Historiens occidentalocentristes"
+    argument: "Les historiens occidentaux invisibilisent les Ameriques dans les recits de civilisation, perpetuant le biais de l Ancien Monde."
+    reponse: "Le shadow factor 6,4 documente precisement ce biais; les sources comme Murra, Rostworowski et Urton sont referencees (score de suspicion 0,75-0,80) comme contre-poids."
+
+iceberg:
+  - "La question du quipu narratif: les quipus encodaient-ils des informations non numeriques (histoires, lois, genealogies) qui pourraient reveler un droit ecrit sans ecriture phonetique?"
+  - "Les societes andines pre-incas (Chavin, Moche, Nazca, Wari, Tiwanaku) ont-elles experimente des formes de dette avant l unification inca?"
+  - "L impact des epidemies pre-contact sur l effondrement maya classique reste mal calibre et pourrait expliquer une partie de la decadence."
+  - "L economie politique de l Empire espagnol: dans quelle mesure les systemes de l encomienda et de la mita miniere sont-ils des reformulations de la mit a precolombienne au service de l accumulation monetaire?"
+  - "Resultat Mnemolite: zero memoire indexee pour les requetes Inca quipu mit a, Ameriques precolombiennes Azteque Maya tribut, Caral pyramides civilisation andine, Qhapaq Nan routes chasquis (4/4 requetes vides) - le sujet est neuf dans la base vectorielle du projet."
+
+chronologie:
+  - date: "~-2600"
+    evenement: "Construction de la cite de Caral (Perou), plus ancienne civilisation des Ameriques"
+    source_fait: "F-AM001"
+
+  - date: "~-1500"
+    evenement: "Emergence de la civilisation olmeque en Mesoamerique (ecriture, calendrier)"
+    source_fait: "F-AM011"
+
+  - date: "~-2000/900"
+    evenement: "Apogee et effondrement classique de la civilisation maya (zero, ecriture glyphique, droit integre)"
+    source_fait: "F-AM009"
+
+  - date: "~100/650"
+    evenement: "Teotihuacan devient la plus grande ville des Ameriques avec 125 000 habitants"
+    source_fait: "F-AM013"
+
+  - date: "~1200/1532"
+    evenement: "Empire Tawantinsuyu (Inca): Qhapaq Nan, quipus, mit a, ZERO monnaie"
+    source_fait: "F-AM002"
+
+  - date: "1492"
+    evenement: "Christophe Colomb arrive dans le Nouveau Monde, premier contact avec l Ancien Monde"
+    source_fait: "F-AM021"
+
+  - date: "1532"
+    evenement: "Pizarro capture Atahualpa, fin de l empire inca"
+    source_fait: "F-AM020"
+
+domaines:
+  - "Antiquite americaine (Caral, Olmèque, Maya, Teotihuacan, Inca, Aztèque)"
+  - "Economie non monetaire (troc, redistribution etatique, impôt-travail)"
+  - "Bureaucratie et information (quipu, quipucamayocs, tambos, chasquis)"
+  - "Infrastructure et logistique (Qhapaq Nan, 40 000 km de routes)"
+  - "Droit et religion (systeme juridique maya, droit coutumier inca, culte du Soleil Inti)"
+  - "Histoire epistemique (eurocentrisme, biais de conquete, invisibilisation)"
+
+urls_prioritaires:
+  - url: "https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire"
+    description: "Source centrale pour l absence de monnaie, de marche et de dette dans l economie inca"
+    head_status: 200
+
+  - url: "https://en.wikipedia.org/wiki/Quipu"
+    description: "Source de reference sur le systeme comptable decimal positionnel andin"
+    head_status: 200
+
+  - url: "https://en.wikipedia.org/wiki/Inca_road_system"
+    description: "Documentation du Qhapaq Nan (40 000 km), infrastructure de capture logistique"
+    head_status: 200
+
+  - url: "https://en.wikipedia.org/wiki/Mita_(Inca)"
+    description: "Source primaire sur le mit a, impôt-travail rotationnel"
+    head_status: 200
+
+  - url: "https://en.wikipedia.org/wiki/Caral%E2%80%93Supe_civilization"
+    description: "Source sur la plus ancienne civilisation des Ameriques (2600 BCE)"
+    head_status: 200
+
+  - url: "https://en.wikipedia.org/wiki/Maya_civilization"
+    description: "Source sur le systeme juridique maya integre droit/religion et le zero mathematique"
+    head_status: 200
+
+shadow_factor: 6.4
+
+mnemo_queries:
+  - query: "Inca quipu mit a economie dette"
+    results_count: 0
+  - query: "Ameriques precolombiennes Azteque Maya tribut"
+    results_count: 0
+  - query: "Caral pyramides civilisation andine"
+    results_count: 0
+  - query: "Qhapaq Nan routes chasquis"
+    results_count: 0

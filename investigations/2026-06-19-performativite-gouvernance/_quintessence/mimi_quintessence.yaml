@@ -1,0 +1,267 @@
+enquete_id: "mimi"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "investigations/2026-06-19-performativite-gouvernance/2026-06-19_mimi_marchand_bestimage_bollore/2026-06-19_08-50_mimi_marchand_bestimage_bollore_INVESTIGATION.md"
+
+these_centrale: "Mimi Marchand (Michèle Marchand) est l'agent trouble de la communication people macronienne : patronne de Bestimage, elle a bâti un monopole de l'imagerie people française, monétisé auprès du pouvoir politique (Sarkozy, Macron) via un réseau convergent Bolloré/Niel où la presse people sert d'arme de communication politique intégrée."
+
+theses_implicites:
+  - "La people-isation de la campagne Macron 2017 (29 couvertures, fausses paparazzades) a été orchestrée par Bestimage via Xavier Niel, sans laquelle Macron serait resté un candidat peu connu"
+  - "Bestimage a servi d'intermédiaire dans la tentative de subornation de témoin (affaire Takieddine) pour blanchir Sarkozy — réseau people utilisé comme outil de subversion judiciaire"
+  - "La concentration Bolloré (Prisma Media → Voici, Ici Paris) et le rachat de Bestimage par Niel créent un monopole total sur la narration people française"
+
+faits_atomiques:
+  - id: "F-MIMI-001"
+    enonce: "Michèle Marchand née le 24 mars 1947 à Vincennes"
+    source_url: "https://en.wikipedia.org/wiki/Mich%C3%A8le_Marchand"
+    source_section: "§2 F-001"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-002"
+    enonce: "Bestimage créée en 2011 par rachat fonds Daniel Angeli, CA ~5M€, 12M clichés archives, 25 salariés"
+    source_url: "https://fr.wikipedia.org/wiki/Bestimage"
+    source_section: "§2 F-002"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-003"
+    enonce: "Bestimage rachetée par Xavier Niel/Nice-Matin juin 2024 à 1€ symbolique + reprise dettes ~3M€"
+    source_url: "https://www.liberation.fr/economie/medias/lagence-bestimage-de-mimi-marchand-rachetee-par-nice-matin-et-xavier-niel-20240612_ILCOZ5Z3DFHAZGOLN2FH2QMCXQ/"
+    source_section: "§2 F-003"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-004"
+    enonce: "Xavier Niel présente Mimi Marchand aux Macron printemps 2016 dans son hôtel particulier"
+    source_url: "https://lesjours.fr/obsessions/les-conseillers-saison-3/ep5-enquete-mimi-marchand/"
+    source_section: "§2 F-004"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-005"
+    enonce: "Fausses paparazzades Macron en amoureux à la plage (Paris Match août 2016), photos Bestimage"
+    source_url: "https://www.nouvelobs.com/presidentielle-2017/20170329.OBS7271/comment-les-macron-s-assurent-des-cliches-avantageux-dans-la-presse-people.html"
+    source_section: "§2 F-005"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-006"
+    enonce: "Bestimage place les Macron sur 29 couvertures de magazines pendant campagne 2017"
+    source_url: "https://lesjours.fr/obsessions/les-conseillers-saison-3/ep5-enquete-mimi-marchand/"
+    source_section: "§2 F-006"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-007"
+    enonce: "Bestimage devient membre du comité de liaison presse présidentielle (2018) — filtre images Élysée"
+    source_url: "https://fr.wikipedia.org/wiki/Bestimage"
+    source_section: "§2 F-007"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-008"
+    enonce: "Mimi a rendez-vous hebdomadaire avec cabinet Brigitte Macron à l'Élysée"
+    source_url: "https://www.lepoint.fr/politique/exclusif-mimi-marchand-au-service-de-brigitte-macron-10-10-2018-2261851_20.php"
+    source_section: "§2 F-008"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-009"
+    enonce: "Mimi organisé déplacement Beyrouth pour rétractation Takieddine (nov 2020), publiée Paris Match + BFMTV"
+    source_url: "https://www.mediapart.fr/journal/france/120624/le-milliardaire-xavier-niel-vole-au-secours-de-mimi-marchand"
+    source_section: "§2 F-009"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-010"
+    enonce: "Mimi mise en examen juin 2021 pour subornation de témoin et association de malfaiteurs (affaire Takieddine)"
+    source_url: "https://www.france24.com/fr/info-en-continu/20210605-financement-libyen-mimi-marchand-figure-de-la-presse-people-mise-en-examen-1"
+    source_section: "§2 F-010"
+    head_status: 200
+    tier: 3
+    glyphe: "⁅"
+  - id: "F-MIMI-011"
+    enonce: "Incarcérée juin 2021 pour violation contrôle judiciaire, libérée 21 juillet 2021"
+    source_url: "https://www.liberation.fr/societe/police-justice/financement-libyen-mimi-marchand-la-papesse-de-la-presse-people-incarceree-20210619_LXAYENUTVNFPDJKYMAAII32MGE/"
+    source_section: "§2 F-011"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-012"
+    enonce: "Condamnée 18 mois avec sursis + 25 000€ amende pour extorsion Karine Le Marchand (juillet 2025)"
+    source_url: "https://www.huffingtonpost.fr/justice/article/mimi-marchand-reine-des-paparazzi-condamnee-pour-avoir-fait-chanter-karine-le-marchand_252062.html"
+    source_section: "§2 F-012"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-013"
+    enonce: "Procès requis déc 2025 contre Sarkozy, Carla Bruni, Mimi Marchand pour subornation de témoin Takieddine"
+    source_url: "https://www.leparisien.fr/politique/retractation-de-takieddine-un-proces-requis-contre-nicolas-sarkozy-carla-bruni-et-mimi-marchand-16-12-2025-22I25T4MSFDE7BHV4ESCBEHEV4.php"
+    source_section: "§2 F-013"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-014"
+    enonce: "Tentative de corruption de magistrats libanais via Mimi pour libérer Hannibal Kadhafi et innocenter Sarkozy"
+    source_url: "https://www.mediapart.fr/journal/france/041121/liberer-un-fils-kadhafi-le-projet-fou-au-service-de-sarkozy"
+    source_section: "§2 F-014"
+    head_status: 200
+    tier: 3
+    glyphe: "⁅"
+  - id: "F-MIMI-015"
+    enonce: "Prisma Media (Bolloré/Vivendi) rachète Ici Paris et France Dimanche (décembre 2025)"
+    source_url: "https://www.lemonde.fr/actualite-medias/article/2025/12/01/prisma-media-a-rachete-les-magazines-people-ici-paris-et-france-dimanche-qui-entrent-dans-le-giron-de-vincent-bollore_6655611_3236.html"
+    source_section: "§2 F-015"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-016"
+    enonce: "Bolloré contrôle Canal+, CNews, C8, Europe 1, JDD, Hachette, Editis, Prisma Media, Havas. 500+ journalistes clauses silence."
+    source_url: "https://multinationales.org/fr/enquetes/le-systeme-bollore/la-machine-de-guerre-mediatique-et-culturelle-de-vincent-bollore"
+    source_section: "§2 F-016"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-017"
+    enonce: "Bestimage clients politiques: Sarkozy, Macron, Hollande (via Gayet), Royal"
+    source_url: "https://fr.wikipedia.org/wiki/Bestimage"
+    source_section: "§2 F-018"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MIMI-018"
+    enonce: "Réseau policier 16e arrondissement informe illégalement Bestimage des plaintes célébrités"
+    source_url: "https://www.franceinfo.fr/faits-divers/justice-proces/affaire-karine-le-marchand-dans-quels-dossiers-mimi-marchand-soupconnee-d-avoir-fait-chanter-l-animatrice-tv-est-elle-citee_7258620.html"
+    source_section: "§2 F-019"
+    head_status: 200
+    tier: 3
+    glyphe: "⁅"
+
+acteurs:
+  - nom: "Mimi Marchand (Michèle Marchand)"
+    role: "Patronne Bestimage, agent trouble, intermédiaire pouvoir-presse people"
+    faits_lies: ["F-MIMI-001", "F-MIMI-002", "F-MIMI-008", "F-MIMI-009"]
+  - nom: "Xavier Niel"
+    role: "Milliardaire Free/Le Monde, introducteur Macron, repreneur Bestimage"
+    faits_lies: ["F-MIMI-003", "F-MIMI-004"]
+  - nom: "Emmanuel Macron"
+    role: "Président, bénéficiaire people-isation campagne 2017"
+    faits_lies: ["F-MIMI-005", "F-MIMI-006"]
+  - nom: "Brigitte Macron"
+    role: "Première dame, réunions hebdo avec Mimi"
+    faits_lies: ["F-MIMI-008"]
+  - nom: "Vincent Bolloré"
+    role: "Milliardaire, empire médiatique Prisma Media, convergence people"
+    faits_lies: ["F-MIMI-015", "F-MIMI-016"]
+  - nom: "Nicolas Sarkozy"
+    role: "Ex-président, client Bestimage, bénéficiaire rétractation Takieddine"
+    faits_lies: ["F-MIMI-009", "F-MIMI-013"]
+  - nom: "Ziad Takieddine"
+    role: "Témoin rétracté financement libyen"
+    faits_lies: ["F-MIMI-009"]
+
+causalites:
+  - cause: "F-MIMI-004"
+    effet: "F-MIMI-005"
+    mecanisme: "Niel présente Mimi aux Macron → Bestimage produit fausses paparazzades → humanisation candidat → 29 couvertures"
+  - cause: "F-MIMI-005"
+    effet: "F-MIMI-006"
+    mecanisme: "Fausses paparazzades → couvertures people → notoriété nationale → élection Macron 2017"
+  - cause: "F-MIMI-009"
+    effet: "F-MIMI-010"
+    mecanisme: "Organisation rétractation Takieddine → subornation témoin → mise en examen"
+
+perspectives_dialectiques:
+  - position: "Thèse (défense people)"
+    argument: "Mimi Marchand est une entrepreneur de presse people qui a su capitaliser sur son réseau. Les fausses paparazzades sont une pratique courante. Bestimage était une agence comme une autre."
+  - position: "Antithèse (critique radicale)"
+    argument: "Mimi Marchand a construit un monopole mafieux sur l'imagerie people française, utilisé pour fabriquer le récit présidentiel, faire chanter des célébrités, et subvertir la justice. C'est une criminelle en col blanc."
+  - position: "Synthèse (systémique)"
+    argument: "Mimi Marchand est le produit d'un système où la frontière entre information people et communication politique s'est effondrée. Son réseau (Niel, Bolloré, Sarkozy, Macron) n'est pas accidentel mais structurel. La justice a fragmenté le réseau sans le démanteler."
+
+limites:
+  - "Le lien direct Bolloré-Macron via Bestimage n'est pas documenté — Bolloré n'a pas de contrat direct avec Bestimage"
+  - "Le financement exact de l'opération Takieddine reste opaque (60 000€ constatés, mais montage plus large probable)"
+  - "Les réunions Mimi-Brigitte Macron n'ont pas de compte-rendu — degré exact d'influence opaque"
+  - "Le rachat à 1€ par Niel peut être un sauvetage amical ou une prise de contrôle stratégique — motivations exactes non documentées"
+
+wolves:
+  - nom: "Mimi Marchand"
+    argument: "Papesse de la presse people, intermédiaire de la subornation, conseillère officieuse Élysée"
+    reponse: "Multirécidiviste (extorsion, subornation), condamnée 2025, mise en examen affaire Takieddine"
+  - nom: "Xavier Niel"
+    argument: "Faiseur de rois : présente Mimi aux Macron, rachète Bestimage, contrôle Le Monde et Nice-Matin"
+    reponse: "Son rôle exact dans la stratégie de communication Macron reste sous-documenté"
+  - nom: "Vincent Bolloré"
+    argument: "Architecte de la convergence médiatique d'extrême droite, contrôle Voici, Ici Paris, France Dimanche"
+    reponse: "Bestimage alimente ses magazines people — convergence sans contrat formel"
+  - nom: "Nicolas Sarkozy"
+    argument: "Bénéficiaire et commanditaire de l'opération Takieddine via Mimi"
+    reponse: "Condamné affaire libyenne, procès requis pour subornation"
+
+iceberg:
+  - "Le réseau Mimi Marchand converge avec Léonarduzzi via Niel et Bolloré : Niel (actionnaire Le Monde) est le dénominateur commun entre le spin doctor présidentiel et la paparazza"
+  - "La caste des 1500 communicants et le système Mimi/Bestimage sont deux faces de la même fabrique du consentement : l'une institutionnelle (SIG/CELSA), l'autre people (Bestimage/Prisma Media)"
+  - "La performativité politique : la people-isation (fausses paparazzades, 29 couvertures) a permis à Macron de gagner sans programme détaillé — l'image a remplacé le fond"
+
+chronologie:
+  - date: "2016-04"
+    evenement: "Niel présente Mimi aux Macron"
+    source_fait: "F-MIMI-004"
+  - date: "2016-08"
+    evenement: "Fausses paparazzades Macron Paris Match"
+    source_fait: "F-MIMI-005"
+  - date: "2017"
+    evenement: "29 couvertures campagne Macron"
+    source_fait: "F-MIMI-006"
+  - date: "2018"
+    evenement: "Bestimage au comité liaison presse Élysée"
+    source_fait: "F-MIMI-007"
+  - date: "2020-11"
+    evenement: "Rétractation Takieddine organisée par Mimi"
+    source_fait: "F-MIMI-009"
+  - date: "2021-06"
+    evenement: "Mise en examen Mimi subornation"
+    source_fait: "F-MIMI-010"
+  - date: "2024-06"
+    evenement: "Rachat Bestimage par Niel/Nice-Matin"
+    source_fait: "F-MIMI-003"
+  - date: "2025-07"
+    evenement: "Condamnation Mimi extorsion K. Le Marchand"
+    source_fait: "F-MIMI-012"
+  - date: "2025-12"
+    evenement: "Prisma Media (Bolloré) rachète Ici Paris, France Dimanche"
+    source_fait: "F-MIMI-015"
+
+domaines:
+  - "Presse people et paparazzade"
+  - "Communication politique"
+  - "Concentration des médias"
+  - "Subornation de témoin et perversion de justice"
+  - "Réseaux d'influence milliardaires (Niel, Bolloré)"
+
+urls_prioritaires:
+  - url: "https://fr.wikipedia.org/wiki/Mich%C3%A8le_Marchand"
+    description: "Wikipédia — biographie Mimi Marchand"
+    head_status: 200
+  - url: "https://www.liberation.fr/economie/medias/lagence-bestimage-de-mimi-marchand-rachetee-par-nice-matin-et-xavier-niel-20240612_ILCOZ5Z3DFHAZGOLN2FH2QMCXQ/"
+    description: "Libération — rachat Bestimage par Niel"
+    head_status: 200
+  - url: "https://lesjours.fr/obsessions/les-conseillers-saison-3/ep5-enquete-mimi-marchand/"
+    description: "Les Jours — enquête Mimi Marchand"
+    head_status: 200
+  - url: "https://www.lepoint.fr/politique/exclusif-mimi-marchand-au-service-de-brigitte-macron-10-10-2018-2261851_20.php"
+    description: "Le Point — Mimi à l'Élysée"
+    head_status: 200
+  - url: "https://www.lemonde.fr/actualite-medias/article/2025/12/01/prisma-media-a-rachete-les-magazines-people-ici-paris-et-france-dimanche-qui-entrent-dans-le-giron-de-vincent-bollore_6655611_3236.html"
+    description: "Le Monde — rachat Ici Paris/France Dimanche par Bolloré"
+    head_status: 200
+
+shadow_factor: 5.5
+
+mnemo_queries:
+  - query: "Mimi Marchand Bestimage Bolloré presse people Macron Niel"
+    results_count: 5
+  - query: "Bestimage communication politique people paparazzade subornation"
+    results_count: 5

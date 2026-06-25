@@ -1,0 +1,94 @@
+date_synthese: "2026-06-09"
+complexity: "APEX"
+n_enquetes: 4
+enquetes_concernees: ["faillite", "angles", "fresque", "castelnau"]
+total_faits_atomiques: 39
+
+sujet_majoritaire: "L'assassinat de Lyhanna (11 ans, 29 mai 2026) révèle une architecture institutionnelle de protection de la pédocriminalité opérant à 4 niveaux interconnectés : local (silence administratif et inertie du parquet), national (asymétrie pénale structurelle documentée par les circulaires), historique (infrastructure culturelle de 50 ans, de la pétition Foucault 1977 au démantèlement de la CIIVISE), et médiatique (diversion et spectacularisation)."
+
+theses_cardinales:
+  - titre: "THESE-001 : Asymétrie pénale structurelle"
+    enonce: "La justice française alloue ses ressources de répression avec une précision chirurgicale qui révèle sa finalité réelle : ~400 prison ferme pour Gilets Jaunes, 350+ condamnations pour apologie du terrorisme (circulaire JUSD2327199C du 10 oct 2023), zéro interpellation de Barella malgré 9 procédures antérieures dont 4 plaintes pour viol sur mineur. La dépêche interministérielle du 31 mai 2021 ordonnant le classement sans suite pour 'apurer les stocks' documente la face administrative de cette asymétrie."
+    f_atomiques_justificatifs: ["F-LYH-005", "F-LYH-016", "F-CAS-005a", "F-CAS-005b", "F-CAS-007", "F-CAS-011"]
+    fiches_sources: ["faillite", "castelnau"]
+    shadow: 3.5
+    etendue: "2/4 fiches"
+    condition_refutation: "Si le gouvernement alignait les condamnations pour violences sexuelles sur mineurs sur le rythme des condamnations pour apologie du terrorisme, la thèse d'asymétrie serait fragilisée."
+
+  - titre: "THESE-002 : Protection de caste"
+    enonce: "La même logique qui protège Barella par négligence locale (9 procédures, zéro interpellation) protège Duhamel par prescription nationale et Matzneff par immunité culturelle (40 ans). Le système punit les protecteurs d'enfants avec célérité maximale (Tabard licencié en 2022, débouté aux prud'hommes en 2026) et protège les prédateurs par inertie administrative. La verticale Duhamel→Bigorgne→Barella n'est pas une conspiration mais un effet de système : la même logique de caste opère à tous les niveaux."
+    f_atomiques_justificatifs: ["F-ANG-001", "F-ANG-005", "F-FR-001", "F-FR-006", "F-FR-008", "F-LYH-005"]
+    fiches_sources: ["angles", "fresque", "faillite"]
+    shadow: 5.0
+    etendue: "3/4 fiches"
+    condition_refutation: "Si un cas documenté de prédateur d'élite sanctionné avec la même célérité qu'un Gilet Jaune était produit, la thèse de protection de caste serait nuancée."
+
+  - titre: "THESE-003 : Vidage méthodique des contre-pouvoirs"
+    enonce: "La CIIVISE (2021-2026) illustre le mécanisme de neutralisation des contre-pouvoirs : création sous pression médiatique (janvier 2021) → 30 000 témoignages recueillis → 82 recommandations (novembre 2023) → écartement du président Durand (décembre 2023) → 11 démissions en cascade → taux d'application <15% → nouvelle vague de démissions (janvier 2026) → mission de transformation (reprise en main gouvernementale). La CEDH condamne la France (avril 2025) sans qu'aucune conséquence institutionnelle n'en découle."
+    f_atomiques_justificatifs: ["F-FR-010", "F-FR-012", "F-FR-013", "F-FR-016", "F-LYH-015", "F-FR-014"]
+    fiches_sources: ["fresque", "faillite"]
+    shadow: 4.0
+    etendue: "2/4 fiches"
+    condition_refutation: "Si le taux d'application des 82 recommandations CIIVISE dépassait 50%, la thèse de vidage serait affaiblie."
+
+  - titre: "THESE-004 : Sous-dimensionnement budgétaire chronique"
+    enonce: "Le budget justice français est à 0.20% du PIB depuis 2017 (médiane UE : 0.31%). La France compte 11.3 juges pour 100 000 habitants (moyenne UE : 21.9), la plaçant au 4e rang des budgets les plus faibles d'Europe en part du PIB. Ce sous-dimensionnement n'est pas un accident conjoncturel : il est la constante des 9 années de présidence Macron, malgré une promesse publique en 2022. Le résultat mécanique est un parquet d'Auch disposant de 3 procureurs pour 190 000 habitants, structurellement incapable de traiter les plaintes pour viol sur mineur."
+    f_atomiques_justificatifs: ["F-LYH-012", "F-LYH-014", "F-CAS-011", "F-FR-014"]
+    fiches_sources: ["faillite", "castelnau", "fresque"]
+    shadow: 3.0
+    etendue: "3/4 fiches"
+    condition_refutation: "Si le budget justice 2027 atteignait 0.31% du PIB (médiane UE), la thèse de sous-dimensionnement volontaire serait fragilisée."
+
+  - titre: "THESE-005 : Convergence médiatique et diversion"
+    enonce: "L'affaire Lyhanna déclenche une séquence médiatique identifiable : (1) émotion légitime (marche blanche, 6 000 personnes), (2) diversion (Rizet/BFMTV pointe l'Islam en prison plutôt que la défaillance judiciaire), (3) spectacularisation politique (Darmanin annonce une revue cosmétique de 70 000 dossiers sans moyens supplémentaires), (4) contre-narration indépendante (Le Monde Moderne/Castelnau) qui produit une analyse structurelle absente des médias dominants. Le transcript Castelnau est un artefact de résistance mais son EDI de 0.17 impose de le traiter comme une source parmi d'autres."
+    f_atomiques_justificatifs: ["F-LYH-008", "F-ANG-002", "F-CAS-001", "F-CAS-003"]
+    fiches_sources: ["faillite", "angles", "castelnau"]
+    shadow: 5.5
+    etendue: "3/4 fiches"
+    condition_refutation: "Si un grand média français produisait une enquête structurelle sur l'asymétrie pénale (et non sur le 'manque de moyens'), la thèse de diversion médiatique serait nuancée."
+
+meta_observations:
+  - id: "OBS-001"
+    enonce: "Pattern de défausse de Darmanin documenté sur 3 scandales distincts (Stade de France 2022, SMS 2023, Lyhanna 2026). La non-démission est devenue une constante du système : zéro démission pour défaillance de protection de l'enfance en 12 ans."
+    fiches_concernees: ["faillite", "castelnau", "fresque"]
+  - id: "OBS-002"
+    enonce: "La France dispose de l'arsenal juridique (loi 2021, seuil de 15 ans) mais le droit change plus vite que la culture institutionnelle. Le test : les 82 recommandations CIIVISE. Taux d'application <15%."
+    fiches_concernees: ["fresque", "faillite"]
+  - id: "OBS-003"
+    enonce: "Le cycle scandale→émotion→promesses→commission→rapport→écartement→enterrement→prochain scandale est documenté sur deux séquences complètes (CIIVISE 2021-2026, Lyhanna 2026-?)."
+    fiches_concernees: ["fresque", "faillite", "castelnau"]
+
+transversalites:
+  - id: "TR-001"
+    concept: "Asymétrie pénale : répression politique prioritaire, inertie violences sexuelles"
+    description: "Les circulaires Dupond-Moretti (2021, 2023) documentent la trace écrite de cette asymétrie : réponse pénale ferme et rapide pour apologie du terrorisme (350+ condamnations en 2 ans), classement sans suite pour apurer les stocks de plaintes pour violences sexuelles. La France a résisté jusqu'en 2021 pour instaurer un seuil de non-consentement à 15 ans (loi du 21 avril 2021) — l'un des derniers pays européens sans âge légal explicite — alors qu'elle condamnait des Gilets Jaunes primo-délinquants à de la prison ferme dès 2018."
+    fiches_concernees: ["faillite", "castelnau", "fresque"]
+    faits_communs: ["F-LYH-016", "F-CAS-005a", "F-CAS-005b", "F-FR-011"]
+  - id: "TR-002"
+    concept: "Budget justice 0.20% PIB comme constante structurelle"
+    description: "Présent dans 3 fiches sur 4, le chiffre de 0.20% PIB est la donnée la plus transversale du dossier. Inchangé depuis 2017, il est le dénominateur commun de toutes les défaillances documentées."
+    fiches_concernees: ["faillite", "castelnau", "fresque"]
+    faits_communs: ["F-LYH-014", "F-CAS-011"]
+  - id: "TR-003"
+    concept: "Zéro démission comme mécanisme de reproduction"
+    description: "La non-démission est normalisée à tous les échelons : Darmanin (Garde des Sceaux), Dupond-Moretti (prédécesseur), Macron (Président). Aucun responsable n'a jamais démissionné pour une défaillance de protection de l'enfance."
+    fiches_concernees: ["faillite", "angles", "fresque"]
+    faits_communs: ["F-LYH-008", "F-ANG-006", "F-FR-013"]
+  - id: "TR-004"
+    concept: "Cycle scandale→émotion→promesse→oubli→prochaine victime"
+    description: "Documenté sur 50 ans : Matzneff (1977→2020, 43 ans d'impunité), CIIVISE (2021→2026, 5 ans de démantèlement), Lyhanna (2026→?). La prédiction forensique : la revue des 70 000 dossiers annoncée par Darmanin sera oubliée avant la prochaine victime."
+    fiches_concernees: ["fresque", "faillite", "castelnau"]
+    faits_communs: ["F-FR-008", "F-LYH-015", "F-CAS-003"]
+
+gaps:
+  - "GAP-001 — Absence de contradictoire direct : aucun des 4 enquêtes n'a interrogé Darmanin, la procureure d'Auch (Clémence Meyer), les magistrats concernés, ou les acteurs nommés (Rizet, Fourar, Philippe). Cette absence est structurelle (enquête en source ouverte) mais constitue une limite forensique majeure."
+  - "GAP-002 — Comparaison internationale qualitative : les données CEPEJ (11.3 juges/100k) sont citées mais aucune comparaison qualitative avec l'Allemagne, les Pays-Bas ou la Suède n'est produite. Comment ces pays traitent-ils les violences sexuelles sur mineurs ?"
+  - "GAP-003 — Voix des victimes : aucun témoignage direct de victime (hors Springora citée dans la fresque). Les 30 000 témoignages CIIVISE sont mentionnés mais leur contenu n'est pas analysé. La famille de Lyhanna n'a pas été contactée."
+  - "GAP-004 — Maillon manquant : le proviseur de Lectoure (2021) n'est pas nommé. La chaîne de remontée administrative (proviseur → DASEN → recteur → ministre) n'est pas documentée."
+
+shadow_factor_global: 5.5
+
+mnemo_context:
+  searches: []
+  cross_series_detected: false
+  cross_series_details: "Mnemolite non interrogé (MCP non disponible). La détection des transversalités a été faite par analyse directe des 4 YAML de quintessence."

@@ -1,0 +1,206 @@
+enquete_id: narratif
+enquete_source:
+- chemin: investigations/2026-06-11_narratif_opinion_publique/2026-06-11_00-00_narratif_opinion_publique_APEX.md
+  type: APEX
+  lignes: ~550
+date_extraction: '2026-06-12'
+complexity: COMPLEX
+these_centrale: 'La coordination acéphalique ne peut vaincre sans un narratif qui perce le filtre médiatique. Le corpus identifie
+  4 canaux (médias, réseaux sociaux, viralité organique, bouche-à-oreille) et 3 récits-cadres (dépossession, souveraineté
+  volée, fracture élite/peuple). Mais le narratif n''a jamais été testé.
+
+  '
+theses_implicites:
+- label: T1
+  texte: 'Le narratif n''est pas un accessoire — il est l''arme principale. Sans narratif, la coordination reste un concept
+    académique invisible.
+
+    '
+- label: T2
+  texte: 'Le corpus Substack actuel EST le narratif. Chaque article est un test de cadre narratif. Les 20+ articles publiés
+    sont un laboratoire de framing.
+
+    '
+- label: T3
+  texte: 'La viralité organique est le seul canal non-contrôlable par l''État. Elle ne peut pas être achetée, seulement méritée.
+
+    '
+faits_atomiques:
+- id: F-NAR-001
+  enonce: '4 canaux de diffusion identifiés : médias traditionnels, réseaux sociaux, viralité organique, bouche-à-oreille'
+  source_url: Fichier source — analyse théorique
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-002
+  enonce: '3 récits-cadres testables : Dépossession (on vous a tout pris), Souveraineté volée (vous n''avez plus le contrôle),
+    Fracture élite/peuple (ils sont contre vous)'
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-003
+  enonce: Le cadrage 'Dépossession' est le plus documenté empiriquement dans le corpus (12 articles Substack)
+  source_url: Vérification corpus
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-004
+  enonce: Le framing 'Souveraineté volée' est testé dans l'article sur le 49-3 et l'abstention (199655164)
+  source_url: substack-online/posts/199655164
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-005
+  enonce: Le framing 'Fracture élite/peuple' est testé dans l'article 'Le Grand Manège de la Dépossession' (190192234)
+  source_url: substack-online/posts/190192234
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-006
+  enonce: Aucun test A/B de framing n'a été réalisé — 0 données empiriques sur l'efficacité comparative des 3 cadres
+  source_url: Fichier source — auto-critique
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-007
+  enonce: La viralité organique est le SEUL canal non-contrôlable par l'État (censure impossible si distribution P2P/native)
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-008
+  enonce: Le bouche-à-oreille est le canal le plus ancien et le plus résilient mais aussi le plus lent
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-009
+  enonce: Les algorithmes des réseaux sociaux favorisent la colère et la division — alignement involontaire avec le cadrage
+    'Fracture'
+  source_url: Analyse du fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-010
+  enonce: La théorie du 'nudge narratif' est mentionnée mais non-développée
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-011
+  enonce: 'Le public cible principal identifié : ''les 57% d''abstentionnistes'' + ''les classes populaires CSP- dépolitisées'''
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NAR-012
+  enonce: Zéro budget publicitaire — 100% organique — contrainte absolue
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: Médias traditionnels
+  role: Canal hostile — gatekeepers
+  faits_lies: []
+- nom: Réseaux sociaux
+  role: Canal ambigu — algorithmes = alliés involontaires
+  faits_lies: []
+- nom: Public cible (57% abstentionnistes + CSP-)
+  role: Destinataire du narratif
+  faits_lies: []
+- nom: Giak/Substack
+  role: Émetteur — laboratoire de framing
+  faits_lies: []
+- nom: État
+  role: Adversaire narratif — contrôle des médias audiovisuels
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: C1
+- cause: null
+  effet: null
+  mecanisme: C2
+- cause: null
+  effet: null
+  mecanisme: C3
+perspectives_dialectiques:
+- etiquette: Le narratif est-il l'arme ou la distraction ?
+  position_A: Le narratif est l'arme principale — sans récit, pas de mobilisation
+  position_B: Le narratif est une distraction — l'action coordonnée parle plus fort que les mots
+  synthese: 'Faux dilemme. Le narratif sans action = bavardage. L''action sans narratif = chaos incompréhensible. Les deux
+    sont nécessaires, le narratif d''abord.
+
+    '
+- etiquette: Quel framing est le plus efficace ?
+  position_A: Dépossession — empirique, documentable, incontestable
+  position_B: Fracture élite/peuple — émotionnel, viral, algorithmiquement favorisé
+  synthese: 'Aucune donnée pour trancher. La réponse empirique exige des tests A/B qui n''ont pas été faits.
+
+    '
+limites:
+- 0 test empirique de framing
+- Théorie narrative non-spécialiste (pas de neurosciences cognitives, pas de psychologie sociale)
+- 'Biais de l''auteur : le narratif est le métier de Giak'
+- Le public cible (abstentionnistes + CSP-) est le plus difficile à atteindre
+- 'Suspicion : 4.0/10'
+wolves:
+- nom: Aucun narratif n'a jamais suffi à renverser un système sans action coordonnée
+  argument: Aucun narratif n'a jamais suffi à renverser un système sans action coordonnée
+  reponse: ''
+- nom: Les 3 framings proposés peuvent être récupérés par l'extrême-droite (souverainet...
+  argument: Les 3 framings proposés peuvent être récupérés par l'extrême-droite (souveraineté volée) ou l'extrême-gauche (fracture
+    élite/peuple)
+  reponse: ''
+iceberg:
+- profondeur: 0
+  item: 4 canaux + 3 framings — surface
+- profondeur: 1
+  item: Tests A/B de framing — jamais faits
+- profondeur: 2
+  item: Psychologie cognitive du public cible (CSP-)
+- profondeur: 3
+  item: Qui contrôle le narratif dominant en France ? (Bolloré, Arnault, Bouygues)
+chronologie:
+- date: 2023-2026
+  evenement: 20+ articles Substack publiés — laboratoire de framing
+- date: 2026-06
+  evenement: APEX narratif — systématisation des canaux et framings
+domaines:
+- communication
+- psychologie_sociale
+- strategie
+- medias
+urls_prioritaires:
+- url: https://giak.substack.com/
+  description: Corpus Substack — laboratoire de framing existant
+  head_status: 0
+- url: https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024
+  description: Reuters Institute — consommation médias France
+  head_status: 0
+shadow_factor: 2.0
+shadow_justification: 'Analyse spéculative. 0 test empirique. Les 3 framings sont des hypothèses non-validées. La théorie
+  narrative est construite intuivement, pas scientifiquement. Forte dépendance à l''expérience personnelle de l''auteur.
+
+  '
+mnemo_queries:
+- query: narratif opinion publique mobilisation
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'
+- query: framing communication politique mobilisation
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'

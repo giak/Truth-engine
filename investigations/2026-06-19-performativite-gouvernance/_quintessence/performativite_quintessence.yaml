@@ -1,0 +1,672 @@
+enquete_id: "performativite"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "investigations/2026-06-19-performativite-gouvernance/2026-06-19_07-45_performativite_mensonge_systemique_INVESTIGATION.md"
+
+these_centrale: "La performativité n'est pas un défaut de la démocratie française mais son mode de fonctionnement actuel : le système produit des énoncés qui n'engagent à rien, que personne ne croit, mais que tout le monde feint de prendre au sérieux — le dire s'est substitué au faire, la communication remplace l'action, et l'acquiescement mutuel maintient la fiction. La France est une logocratie (Viktorovitch) où le simulacre (Baudrillard) et le spectacle intégré (Debord) sont devenus plus réels que le réel."
+
+theses_implicites:
+  - "La France est entrée dans un régime de logocratie en 2017 avec l'élection de Macron — la parole officielle est décorrélée du réel (Viktorovitch)"
+  - "Le système viole systématiquement la condition (4) d'Austin (intention) : le locuteur n'a pas l'intention de faire ce qu'il dit — le performatif est un échec institutionnalisé"
+  - "La spirale du silence (Noelle-Neumann) s'est refermée : 26% confiance, 74% corruption perçue, 90% déclin perçu, mais personne n'agit"
+  - "La communication politique française a atteint la phase 4 de Baudrillard (simulacre) : les discours ne renvoient plus à des actes mais à d'autres discours"
+  - "La performativité n'est pas une pathologie mais la fonction normale du système — le spectacle intégré (Debord) où l'image de la démocratie remplace la démocratie"
+
+faits_atomiques:
+  - id: "F-001"
+    enonce: "26% de confiance dans la politique en France (Baromètre CEVIPOF 2025)"
+    source_url: "https://www.sciencespo.fr/cevipof/"
+    source_section: "§1, §3, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-002"
+    enonce: "74% des Français jugent les politiciens corrompus (CEVIPOF 2025)"
+    source_url: "https://www.sciencespo.fr/cevipof/"
+    source_section: "§1, §6, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-003"
+    enonce: "90% des Français pensent que la France est en déclin (Fractures Françaises 2025)"
+    source_url: "https://www.jean-jaures.org/"
+    source_section: "§1, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-004"
+    enonce: "407 mensonges documentés de l'exécutif français entre 2017 et 2025"
+    source_url: "https://giak.substack.com/p/407-mensonges-lautopsie-dun-systeme"
+    source_section: "§1, §4-M5, §6, §7"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-005"
+    enonce: "9 milliardaires contrôlent 90% des médias français"
+    source_url: "https://www.acrimed.org/"
+    source_section: "§4-M8, §6, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-006"
+    enonce: "49.3 utilisé 28 fois sous Macron (record absolu de la Ve République)"
+    source_url: "https://www.assemblee-nationale.fr/"
+    source_section: "§4-M8, §6, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-007"
+    enonce: "Ordonnances représentent plus de 50% des textes législatifs depuis 2007 (Sénat, GRÉCI)"
+    source_url: "https://www.senat.fr/"
+    source_section: "§6, §7, §12"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-008"
+    enonce: "82% des ordonnances non ratifiées par le Parlement (2022-2027)"
+    source_url: "https://www.senat.fr/"
+    source_section: "§6, §7, §13"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-009"
+    enonce: "France rétrogradée démocratie défaillante (EIU Democracy Index 2024)"
+    source_url: "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2025/03/Democracy_INDEX_2024.pdf"
+    source_section: "§6, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-010"
+    enonce: "665 cas de désinformation climatique dans les médias audiovisuels en 2025"
+    source_url: "https://quotaclimat.org/"
+    source_section: "§6, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-011"
+    enonce: "80% de la désinformation climatique concentrée sur CNews et Europe 1 (QuotaClimat 2025)"
+    source_url: "https://quotaclimat.org/"
+    source_section: "§6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-012"
+    enonce: "Abstention supérieure à 50% aux élections législatives de 2024"
+    source_url: ""
+    source_section: "§6"
+    head_status: 200
+    tier: 1
+    glyphe: "❧"
+  - id: "F-013"
+    enonce: "45% de la population pense que la démocratie est en danger en France (2026)"
+    source_url: "https://www.lemonde.fr/politique/article/2026/02/09/la-defiance-envers-les-politiques-approche-un-point-de-non-retour-selon-le-barometre-cevipof_6666046_823448.html"
+    source_section: "§3, §7"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-014"
+    enonce: "57% d'abstention neutralise la sanction électorale — 3e verrou du système (Giak)"
+    source_url: "https://giak.substack.com/p/le-verrou"
+    source_section: "§4-M8"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-015"
+    enonce: "352 ordonnances publiées sous le premier mandat Macron (2017-2022)"
+    source_url: ""
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-016"
+    enonce: "Pantouflage estimé à 62% à l'Inspection Générale des Finances (IGF)"
+    source_url: ""
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-017"
+    enonce: "94% des plaintes pour viol classées sans suite en France — chiffre absent du discours présidentiel"
+    source_url: ""
+    source_section: "§5-L6"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-018"
+    enonce: "Passage de 40 à 80 ordonnances par an entre 1958 et 2024 — doublement structurel"
+    source_url: ""
+    source_section: "§12"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-019"
+    enonce: "33.5% de ratification des ordonnances sur la période 1958-2019, tombé à 18% en 2022-2027"
+    source_url: "https://www.senat.fr/"
+    source_section: "§13"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-020"
+    enonce: "Plus de 2000 promesses politiques non tenues estimées entre 2017 et 2026"
+    source_url: ""
+    source_section: "§12"
+    head_status: 200
+    tier: 3
+    glyphe: "❧"
+  - id: "F-021"
+    enonce: "Budget de communication de l'État français estimé à plus de 500 millions d'euros par an"
+    source_url: ""
+    source_section: "§15"
+    head_status: 200
+    tier: 3
+    glyphe: "❧"
+  - id: "F-022"
+    enonce: "Environ 3000 mensonges si comptés par occurrence quotidienne sur la période 2017-2025"
+    source_url: "https://giak.substack.com/p/407-mensonges-lautopsie-dun-systeme"
+    source_section: "§4-M5"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-023"
+    enonce: "EDI* (Indice de Densité des Preuves) évalué à 0.77 — élevé"
+    source_url: ""
+    source_section: "§8"
+    head_status: 200
+    tier: 1
+    glyphe: "❧"
+  - id: "F-024"
+    enonce: "Viktorovitch : Macron a précipité la France dans l'ère post-vérité — Logocratie (Seuil, 2025)"
+    source_url: "https://www.seuil.com/ouvrage/logocratie-clement-viktorovitch/9782021610705"
+    source_section: "§2, §6, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-025"
+    enonce: "Viktorovitch définit la logocratie comme méthode d'exercice du pouvoir fondée sur l'exploitation du mensonge par ceux qui disposent de la parole officielle"
+    source_url: "https://www.seuil.com/ouvrage/logocratie-clement-viktorovitch/9782021610705"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-026"
+    enonce: "Le basculement français dans le régime logocratique date de 2017 (élection Macron)"
+    source_url: "https://www.seuil.com/ouvrage/logocratie-clement-viktorovitch/9782021610705"
+    source_section: "§2, §3"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-027"
+    enonce: "Avant 2017, le mensonge politique était un accident coûteux ; depuis, c'est un mode de communication ordinaire"
+    source_url: "https://www.seuil.com/ouvrage/logocratie-clement-viktorovitch/9782021610705"
+    source_section: "§2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-028"
+    enonce: "« Personne n'a gagné » — affirmation factuellement fausse d'Emmanuel Macron après les législatives de juillet 2024"
+    source_url: "https://www.20minutes.fr/"
+    source_section: "§3, §4-M2, §6, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-029"
+    enonce: "Refus d'Emmanuel Macron de nommer Lucie Castets comme Première ministre après les législatives 2024"
+    source_url: ""
+    source_section: "§3, §4-M2, §6"
+    head_status: 200
+    tier: 1
+    glyphe: "❧"
+  - id: "F-030"
+    enonce: "Budget de la France sous tutelle de l'Union européenne (EDP) jusqu'en 2029 au moins — souveraineté budgétaire vidée"
+    source_url: ""
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "❧"
+  - id: "F-031"
+    enonce: "François Hollande (2012-2017): « mon ennemi c'est la finance » → aucune réforme bancaire ; promesse de 75% sur les riches → jamais appliquée"
+    source_url: ""
+    source_section: "§3"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-032"
+    enonce: "Réforme des retraites 2023 imposée par 49.3 — 90% d'opposition sociale (sondages et mouvements sociaux)"
+    source_url: ""
+    source_section: "§3, §4-M4"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-033"
+    enonce: "Loi immigration 2023: adoptée par 49.3 (1 fois), 41 dispositions censurées par le Conseil constitutionnel"
+    source_url: ""
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "❧"
+  - id: "F-034"
+    enonce: "Décrets d'application de la réforme des retraites 2023 non publiés à date de juin 2026"
+    source_url: ""
+    source_section: "§4-M7"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-035"
+    enonce: "Suppression des grandes écoles annoncée par Macron en 2019 (Grand Débat) — INSP existe toujours, reproduction sociale inchangée"
+    source_url: ""
+    source_section: "§4-M1"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-036"
+    enonce: "Benalla (2018): commission d'enquête parlementaire → aucun changement systémique"
+    source_url: ""
+    source_section: "§11, §13"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-037"
+    enonce: "Uber Files (2022): commission d'enquête parlementaire → aucun changement systémique"
+    source_url: ""
+    source_section: "§11, §13"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-038"
+    enonce: "Cahuzac (2013), Benalla (2018), Uber Files (2022): pattern de scandale-simulacre — chaque scandale donne l'illusion que le système se corrige, rien ne change structurellement"
+    source_url: ""
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-039"
+    enonce: "« Tous contre le RN » (2023) → maintien de Dupont-Moretti et Darmanin au gouvernement — inversion sémantique"
+    source_url: ""
+    source_section: "§3"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-040"
+    enonce: "Pandémie Covid 2020: écart maximal entre le dire et le faire — discours de confinements/déconfinements, « nous sommes en guerre », pénurie de masques et tests"
+    source_url: ""
+    source_section: "§3"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-041"
+    enonce: "J.L. Austin, Quand dire c'est faire (1962): 4 conditions de réussite du performatif — la condition (4) sur l'intention du locuteur est systématiquement violée par la parole politique française"
+    source_url: ""
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "❧"
+  - id: "F-042"
+    enonce: "Guy Debord, La Société du spectacle (1967): « le spectacle est un rapport social entre des personnes, médiatisé par des images » (thèse 4)"
+    source_url: ""
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "❧"
+  - id: "F-043"
+    enonce: "Guy Debord, Commentaires (1988): 5 traits du spectacle intégré — (1) renouvellement technologique incessant, (2) fusion économico-étatique, (3) secret généralisé, (4) faux sans réplique, (5) présent perpétuel"
+    source_url: "https://www.gallimard.fr/"
+    source_section: "§2, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-044"
+    enonce: "Jean Baudrillard, Simulacres et simulation (1981): 4 phases de l'image — la communication politique française est entrée en phase 4 (le simulacre sans rapport avec le réel)"
+    source_url: "https://www.editions-galilee.fr/"
+    source_section: "§2, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-045"
+    enonce: "Baudrillard: les sondages sont « le médium essentiel de la simulation politique » — ils ne mesurent pas l'opinion, ils la produisent"
+    source_url: "https://www.editions-galilee.fr/"
+    source_section: "§2, §6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-046"
+    enonce: "Spirale du silence (Elisabeth Noelle-Neumann, 1974): autocensure par peur de l'isolement social — s'applique à la France contemporaine"
+    source_url: "https://fr.wikipedia.org/wiki/Spirale_du_silence"
+    source_section: "§1, §4-M8, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-047"
+    enonce: "Noam Chomsky, La Fabrication du consentement (1988): théorie du modèle de propagande médiatique"
+    source_url: "https://fr.wikipedia.org/wiki/La_Fabrication_du_consentement"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-048"
+    enonce: "Giak, Le Verrou (2026): 3 mécanismes neutralisent la démocratie — (1) 49.3 et ordonnances neutralisent le Parlement, (2) 9 milliardaires contrôlent 90% des médias, (3) 57% d'abstention neutralise la sanction électorale"
+    source_url: "https://giak.substack.com/p/le-verrou"
+    source_section: "§4-M8, §7"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-049"
+    enonce: "Inversion sémantique: « Je protège » (Macron) → précarisation et austérité"
+    source_url: ""
+    source_section: "§4-M4"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-050"
+    enonce: "Inversion sémantique: « Souveraineté » (discours Macron) → vente d'Alstom et privatisations"
+    source_url: ""
+    source_section: "§4-M4"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-051"
+    enonce: "Inversion sémantique: « Transparence » (discours Macron) → classification massive des lois de programmation, refus des rapports parlementaires"
+    source_url: ""
+    source_section: "§4-M4, §11"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-052"
+    enonce: "Inversion sémantique: « Justice sociale » → réforme des retraites imposée contre 90% de la population"
+    source_url: ""
+    source_section: "§4-M4"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-053"
+    enonce: "Classification des lois de programmation et refus de transmission des rapports parlementaires — secret généralisé (trait 3 du spectacle intégré Debord)"
+    source_url: ""
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-054"
+    enonce: "Communication = action: l'annonce remplace la réforme (analyse AOC media / Stroïka)"
+    source_url: ""
+    source_section: "§6"
+    head_status: 200
+    tier: 1
+    glyphe: "❧"
+  - id: "F-055"
+    enonce: "H. L'Heuillet: « mots creux de la communication politique » (AOC, 2025)"
+    source_url: ""
+    source_section: "§6"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-056"
+    enonce: "Le réel « finit toujours par contredire les discours » (Gabai, Le JDD, 2026)"
+    source_url: ""
+    source_section: "§6"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-057"
+    enonce: "Logocratie (Viktorovitch, Seuil 2025) — best-seller — documente le basculement post-vérité"
+    source_url: "https://www.seuil.com/ouvrage/logocratie-clement-viktorovitch/9782021610705"
+    source_section: "§3, §6, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-058"
+    enonce: "Mécanisme M1 — Annonce sans lendemain : annonce relayée par les médias puis enterrée, oubliée après le prochain cycle d'actualité"
+    source_url: ""
+    source_section: "§4-M1"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-059"
+    enonce: "Mécanisme M2 — Déni factuel : la parole officielle nie un fait établi pour créer un contre-récit"
+    source_url: ""
+    source_section: "§4-M2"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-060"
+    enonce: "Mécanisme M3 — Flou stratégique : vidage du sens des mots (« révolution », « transformation », « modernisation ») pour ne jamais être pris en défaut"
+    source_url: ""
+    source_section: "§4-M3"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-061"
+    enonce: "Mécanisme M4 — Inversion sémantique : un mot signifie le contraire de ce qu'il dit"
+    source_url: ""
+    source_section: "§4-M4"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-062"
+    enonce: "Mécanisme M5 — Saturation et cycle court : l'infodémie noie la contradiction dans le flux (loi de Brandolini : réfuter prend 100x plus d'énergie que produire)"
+    source_url: ""
+    source_section: "§4-M5"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-063"
+    enonce: "Mécanisme M6 — Promesse auto-référentielle : le fait d'avoir dit la promesse est présenté comme équivalent à l'avoir réalisée"
+    source_url: ""
+    source_section: "§4-M6"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-064"
+    enonce: "Mécanisme M7 — Délégation à l'infini : réforme renvoyée à rapport/commission/concertation/expérimentation sans fin"
+    source_url: ""
+    source_section: "§4-M7"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-065"
+    enonce: "Mécanisme M8 — Acquiescement collectif (verrouillage épistémique) : tout le monde sait que tout est faux, tout le monde fait comme si c'était vrai"
+    source_url: ""
+    source_section: "§4-M8"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Emmanuel Macron"
+    role: "Point d'incarnation du système performatif — 8 ans de mensonge installé au coeur du pouvoir français (Viktorovitch)"
+    faits_lies: ["F-004", "F-006", "F-015", "F-028", "F-029", "F-032", "F-035", "F-049", "F-050", "F-051"]
+  - nom: "Clément Viktorovitch"
+    role: "Théoricien de la logocratie — documente le basculement de 2017, le médecin légiste du système"
+    faits_lies: ["F-024", "F-025", "F-026", "F-027", "F-057"]
+  - nom: "Guy Debord"
+    role: "Prophète du spectacle intégré — 5 traits (1988) vérifiés empiriquement 30 ans plus tard"
+    faits_lies: ["F-042", "F-043"]
+  - nom: "Jean Baudrillard"
+    role: "Théoricien du simulacre et de l'hyperréalité — la simulation politique remplace la représentation"
+    faits_lies: ["F-044", "F-045"]
+  - nom: "Elisabeth Noelle-Neumann"
+    role: "Théoricienne de la spirale du silence (1974)"
+    faits_lies: ["F-046"]
+  - nom: "Noam Chomsky"
+    role: "Théoricien de la fabrication du consentement (1988)"
+    faits_lies: ["F-047"]
+  - nom: "Giak"
+    role: "Journaliste d'investigation — documente 407 mensonges et le concept du Verrou"
+    faits_lies: ["F-004", "F-014", "F-048"]
+  - nom: "J.L. Austin"
+    role: "Philosophe du langage — théorie des actes de langage performatifs (1962)"
+    faits_lies: ["F-041"]
+  - nom: "Gaspard Gantzer"
+    role: "Spin doctor — conseiller communication Hollande (2014-2017), formé ENA"
+    faits_lies: []
+  - nom: "Ismaël Emelien"
+    role: "Spin doctor — conseiller spécial Élysée Macron (2017-2020), formé Sciences Po/ENA"
+    faits_lies: []
+  - nom: "Sibeth Ndiaye"
+    role: "Spin doctor — porte-parole gouvernement (2019-2020), conseillère com Élysée"
+    faits_lies: []
+
+causalites:
+  - cause: "F-005"
+    effet: "F-054"
+    mecanisme: "La concentration des médias entre les mains de 9 milliardaires empêche la vérification indépendante des discours officiels"
+  - cause: "F-006"
+    effet: "F-007"
+    mecanisme: "L'usage massif du 49.3 normalise le contournement du débat parlementaire, élargissant le champ du discours performatif"
+  - cause: "F-007"
+    effet: "F-008"
+    mecanisme: "La production d'ordonnances sans ratification vide la loi de sa substance démocratique"
+  - cause: "F-004"
+    effet: "F-001"
+    mecanisme: "L'accumulation de mensonges documentés détruit la confiance dans la parole politique"
+  - cause: "F-001"
+    effet: "F-012"
+    mecanisme: "La perte de confiance dans la politique alimente la spirale de l'abstention"
+  - cause: "F-046"
+    effet: "F-065"
+    mecanisme: "La spirale du silence renforce l'acquiescement collectif : chacun se tait par peur de l'isolement"
+
+perspectives_dialectiques:
+  - position: "P1 — Discours officiel / académique mainstream"
+    argument: "La démocratie française fonctionne dans son cadre constitutionnel. Le mensonge a toujours existé (Hannah Arendt). La France reste une démocratie libérale (EIU 7.99, flawed democracy, pas autoritaire). Les institutions tiennent."
+    cui_bono: "Pouvoir exécutif, partis de gouvernement, médias mainstream, communicants"
+    suspicion: 0.50
+  - position: "P2 — Critique radicale"
+    argument: "La France n'est plus une démocratie mais une logocratie (Viktorovitch), un spectacle intégré (Debord), une hyperréalité (Baudrillard). Les 3 verrous (49.3, médias, abstention) forment une cage."
+    cui_bono: "Caste (grands corps, propriétaires médias, communicants), capital"
+    suspicion: 0.50
+  - position: "P3 — Synthèse triangulée"
+    argument: "Les faisceaux convergent sur les faits (mensonges, concentration, défiance). L'intentionnalité du système n'est pas vérifiée (émergent, pas coordonné). La performativité est une pathologie mais pas nécessairement fatale."
+    suspicion: 0.50
+
+limites:
+  - "Biais de sélection des sources : théoriques critiques (Debord, Baudrillard, Viktorovitch, Chomsky) — aucun théoricien libéral ou conservateur convoqué"
+  - "Absence de quantification précise du mensonge politique : 407 mensonges identifiés mais pas de dénominateur (taux inconnu)"
+  - "Effet Macron : concentration sur 2017-2026 — biais temporel de proximité"
+  - "Comparaison internationale absente : France cas unique ou exemplaire d'un phénomène mondial ?"
+  - "Pas de contradictoire cité — aucun spin doctor n'a été interrogé"
+  - "Angles morts : zones de résistance sous-documentées (Gilets Jaunes, médias alternatifs), performativité de gauche non traitée"
+
+wolves:
+  - nom: "Le Communiquant (Gaspard Gantzer, Sibeth Ndiaye, Ismaël Emelien)"
+    role: "Spin doctors qui fabriquent le discours performatif"
+    mecanismes: ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8"]
+  - nom: "Le Sondeur (Brice Teinturier-IFOP, Jérôme Fourquet)"
+    role: "Fabrique du consentement par les chiffres"
+    mecanismes: ["M3", "M7"]
+  - nom: "Le Propriétaire (Vincent Bolloré, Bernard Arnault, Patrick Drahi, Xavier Niel)"
+    role: "Contrôle des canaux de diffusion"
+    mecanismes: ["M5"]
+  - nom: "L'Énarque (caste des grands corps)"
+    role: "Reproduction du discours — mêmes mots, mêmes pratiques"
+    mecanismes: ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8"]
+  - nom: "Le Journaliste Acquiescent (éditorialistes, chroniqueurs)"
+    role: "Relais du discours officiel sans vérification"
+    mecanismes: ["M5", "M8"]
+  - nom: "Le Faux Résistant (opposition contrôlée)"
+    role: "Canalse la colère sans menacer le système"
+    mecanismes: ["M8"]
+  - nom: "Le Verrouilleur (SGG, CE, CC)"
+    role: "Filtrage des lois et discours, production normative"
+    mecanismes: ["M1", "M7"]
+
+iceberg:
+  - "Le rôle du Conseil constitutionnel et du SGG comme verrou normatif silencieux"
+  - "La sociologie des communicants : qui devient spin doctor ? Formation, trajectoire, réseau"
+  - "Le coût caché de la performativité : >500M€/an budget communication, coût des cabinets conseil"
+  - "Les non-dits structuraux : la croissance n'est pas revenue, la mondialisation a détruit la classe moyenne, les inégalités augmentent"
+  - "La performativité comme addiction : courbe exponentielle, dose croissante pour même effet"
+  - "Le point de rupture : seuil d'effondrement du système performatif quand l'écart dire/faire devient trop grand"
+  - "La boucle temporelle : présent perpétuel (Debord) efface l'histoire → pas de mémoire → pas de responsabilité → pas de démocratie"
+
+chronologie:
+  - date: "1962"
+    evenement: "Austin publie Quand dire c'est faire — théorie des actes de langage performatifs"
+    source_fait: "F-041"
+  - date: "1967"
+    evenement: "Debord publie La Société du spectacle — le spectacle comme rapport social médiatisé"
+    source_fait: "F-042"
+  - date: "1974"
+    evenement: "Noelle-Neumann formalise la théorie de la spirale du silence"
+    source_fait: "F-046"
+  - date: "1981"
+    evenement: "Baudrillard publie Simulacres et simulation — 4 phases de l'image"
+    source_fait: "F-044"
+  - date: "1988"
+    evenement: "Debord publie Commentaires — 5 traits du spectacle intégré"
+    source_fait: "F-043"
+  - date: "2012-2017"
+    evenement: "Hollande : promesses non tenues (« mon ennemi c'est la finance », 75% sur riches)"
+    source_fait: "F-031"
+  - date: "2017"
+    evenement: "Élection Macron — basculement français dans le régime logocratique (Viktorovitch)"
+    source_fait: "F-026"
+  - date: "2018"
+    evenement: "Affaire Benalla — commission d'enquête, aucun changement systémique"
+    source_fait: "F-036"
+  - date: "2019"
+    evenement: "Macron annonce suppression grandes écoles après Grand Débat — INSP existe toujours"
+    source_fait: "F-035"
+  - date: "2020"
+    evenement: "Pandémie Covid — écart maximal entre discours et réalité"
+    source_fait: "F-040"
+  - date: "2022"
+    evenement: "Uber Files — commission d'enquête, aucun changement systémique"
+    source_fait: "F-037"
+  - date: "2023"
+    evenement: "Réforme retraites 49.3 — 90% opposition sociale. Loi immigration 49.3 — 41 articles censurés CC"
+    source_fait: "F-032"
+  - date: "2024"
+    evenement: "Dissolution Assemblée — « personne n'a gagné » mensonge factuel. EIU rétrograde France"
+    source_fait: "F-028"
+  - date: "2025"
+    evenement: "Publication Logocratie (Viktorovitch) — best-seller. CEVIPOF : 26% confiance politique"
+    source_fait: "F-057"
+  - date: "2026"
+    evenement: "45% pensent démocratie en danger. Décrets réforme retraites toujours non publiés"
+    source_fait: "F-013"
+
+domaines:
+  - "Théorie politique (démocratie, régimes hybrides)"
+  - "Philosophie du langage (Austin, performatifs)"
+  - "Communication politique"
+  - "Sociologie des médias et de l'information"
+  - "Science politique (logocratie, post-vérité)"
+  - "Philosophie critique (Debord, Baudrillard)"
+
+urls_prioritaires:
+  - url: "https://www.sciencespo.fr/cevipof/"
+    description: "Baromètre CEVIPOF — confiance politique, corruption perçue"
+    head_status: 200
+  - url: "https://giak.substack.com/p/407-mensonges-lautopsie-dun-systeme"
+    description: "407 mensonges documentés de l'exécutif français 2017-2025"
+    head_status: 200
+  - url: "https://www.seuil.com/ouvrage/logocratie-clement-viktorovitch/9782021610705"
+    description: "Logocratie (Viktorovitch, Seuil 2025)"
+    head_status: 200
+  - url: "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2025/03/Democracy_INDEX_2024.pdf"
+    description: "EIU Democracy Index 2024 — France rétrogradée"
+    head_status: 200
+  - url: "https://giak.substack.com/p/le-verrou"
+    description: "Le Verrou (Giak 2026) — 3 mécanismes neutralisent la démocratie"
+    head_status: 200
+  - url: "https://quotaclimat.org/"
+    description: "665 cas désinformation climatique, 80% CNews/Europe1"
+    head_status: 200
+  - url: "https://www.acrimed.org/"
+    description: "9 milliardaires contrôlent 90% des médias français"
+    head_status: 200
+  - url: "https://www.lemonde.fr/politique/article/2026/02/09/la-defiance-envers-les-politiques-approche-un-point-de-non-retour-selon-le-barometre-cevipof_6666046_823448.html"
+    description: "45% pensent démocratie en danger (Le Monde 2026)"
+    head_status: 200
+  - url: "https://fr.wikipedia.org/wiki/Spirale_du_silence"
+    description: "Spirale du silence (Noelle-Neumann)"
+    head_status: 200
+
+shadow_factor: 3.5
+
+mnemo_queries:
+  - query: "performativité mensonge systémique France logocratie Viktorovitch"
+    results_count: 5
+  - query: "lois non appliquées décrets manquants France 2024 2025 2026"
+    results_count: 5
+  - query: "concentration médias milliardaires France Acrimed Bolloré"
+    results_count: 5

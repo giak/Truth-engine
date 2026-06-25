@@ -1,0 +1,217 @@
+enquete_id: police
+enquete_source:
+- chemin: investigations/2026-06-11_police_maintien_ordre_france/2026-06-11_00-00_police_maintien_ordre_APEX.md
+  type: APEX
+  lignes: ~500
+date_extraction: '2026-06-12'
+complexity: COMPLEX
+these_centrale: 'La doctrine française de maintien de l''ordre (MO) a subi une mutation radicale entre 2016 et 2025 : du modèle
+  « défensif négocié » au modèle « offensif dissuasif ». Cette mutation rend caduques les stratégies de confrontation classiques
+  et renforce la nécessité du modèle non-escalade zapatiste.
+
+  '
+theses_implicites:
+- label: T1
+  texte: 'La mutation du MO n''est pas une réponse à une menace réelle mais une anticipation préemptive. L''État se prépare
+    à une insurrection qui n''existe pas encore.
+
+    '
+- label: T2
+  texte: 'Le MO français post-2016 est le plus agressif d''Europe occidentale. Aucun autre pays de l''UE n''a adopté le niveau
+    de létalité et de discrétion policière français.
+
+    '
+- label: T3
+  texte: 'La non-escalade zapatiste est la SEULE réponse viable face à cette doctrine. Toute confrontation frontale est mathématiquement
+    perdante.
+
+    '
+faits_atomiques:
+- id: F-POL-001
+  enonce: 'La doctrine MO a muté en 3 phases : classique (1980-2016), intermédiaire (2016-2020), offensive (2020-2025)'
+  source_url: Analyse chronologique dans fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-002
+  enonce: La loi du 24 janvier 2022 (article L.435-1 CSI) autorise l'usage d'armes à feu sur 'véhicule en mouvement' perçu
+    comme menace
+  source_url: Légifrance — article L.435-1 CSI
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-003
+  enonce: La loi Sécurité Globale (2021) restreint la diffusion d'images de policiers — article 24 (censure visuelle)
+  source_url: Légifrance — loi 2021-646
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-004
+  enonce: Le nombre de manifestants blessés graves (yeux, mains, fractures) a augmenté de 400% entre 2016 et 2023
+  source_url: Fichier source — données compilées
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-005
+  enonce: La France a été condamnée par la CEDH 7 fois entre 2018 et 2024 pour usage excessif de la force en manifestation
+  source_url: CEDH — arrêts cités dans fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-006
+  enonce: Les LBD (lanceurs de balles de défense) ont causé 39 pertes d'œil depuis 2018
+  source_url: Fichier source — recensement
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-007
+  enonce: La doctrine actuelle (schéma national MO 2020) privilégie la 'dispersion rapide' par saturation de force sur la
+    'négociation'
+  source_url: Schéma national MO 2020 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-008
+  enonce: Les unités BRAV-M (créées 2019) sont des unités mobiles sans insigne nominatif individuel = anonymat policier
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-009
+  enonce: Le budget MO est passé de 4.2 Mds€ (2015) à 6.8 Mds€ (2025) — +62% en 10 ans
+  source_url: Fichier source — données budgétaires
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-010
+  enonce: Les forces de l'ordre françaises comptent 275 000 agents (police + gendarmerie) — ratio 1/245 habitants, le plus
+    élevé d'Europe
+  source_url: Eurostat 2024 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-011
+  enonce: La stratégie de non-escalade zapatiste est la SEULE qui neutralise la doctrine MO offensive (dispersion impossible
+    si pas de groupe à disperser)
+  source_url: Déduction stratégique dans fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-POL-012
+  enonce: Aucun mouvement de contestation n'a testé la non-escalade zapatiste en France
+  source_url: Constat empirique — fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: Forces de l'ordre (police + gendarmerie)
+  role: Instrument de répression — 275 000 agents
+  faits_lies: []
+- nom: État français (Intérieur)
+  role: Concepteur de la doctrine MO offensive
+  faits_lies: []
+- nom: Gilets jaunes
+  role: Cas documenté de répression (2018-2019)
+  faits_lies: []
+- nom: CEDH
+  role: Contre-pouvoir juridique (faible)
+  faits_lies: []
+- nom: Coordination acéphalique
+  role: Cible de la doctrine MO
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: C1
+- cause: null
+  effet: null
+  mecanisme: C2
+- cause: null
+  effet: null
+  mecanisme: C3
+perspectives_dialectiques:
+- etiquette: La police est-elle une variable indépendante ou un symptôme ?
+  position_A: La police est l'outil de la volonté politique — variable dépendante
+  position_B: La police a son autonomie doctrinale, budgétaire, syndicale — variable indépendante
+  synthese: 'Les deux sont vrais à des niveaux différents. La police a une autonomie croissante (budget, doctrine) mais reste
+    subordonnée au politique. L''autonomie est le problème.
+
+    '
+- etiquette: La non-violence zapatiste est-elle applicable face à une police offensive ?
+  position_A: Impossible — la police attaque même les non-violents
+  position_B: La non-violence zapatiste n'est pas passive — c'est une stratégie d'évitement, pas de soumission
+  synthese: 'La non-escalade zapatiste = décentralisation + autonomie locale + invisibilité stratégique. Pas de cible = pas
+    de répression possible. Reste théorique.
+
+    '
+limites:
+- Données de blessures compilées mais pas vérifiées auprès des sources primaires
+- Analyse doctrinale sans accès aux documents internes de la police
+- Biais possible de victimisation (surestimation de la dangerosité policière)
+- La solution zapatiste est théorique — jamais testée en France
+- 'Suspicion : 6.0/10'
+wolves:
+- nom: La doctrine MO offensive est IRREVERSIBLE — aucun gouvernement ne la démantèlera
+  argument: La doctrine MO offensive est IRREVERSIBLE — aucun gouvernement ne la démantèlera
+  reponse: ''
+- nom: La non-escalade zapatiste peut échouer si l'État cible les personnes, pas les fo...
+  argument: La non-escalade zapatiste peut échouer si l'État cible les personnes, pas les foules
+  reponse: ''
+iceberg:
+- profondeur: 0
+  item: Lois, budgets, effectifs — surface
+- profondeur: 1
+  item: Doctrine MO — documents internes, schémas
+- profondeur: 2
+  item: Pourquoi cette mutation maintenant ? Anticipation de quoi ?
+- profondeur: 3
+  item: Qui contrôle vraiment la doctrine MO ? (Intérieur, syndicats, industriels de l'armement)
+chronologie:
+- date: 1980-2016
+  evenement: Doctrine MO classique — défensive négociée
+- date: 2018-2019
+  evenement: Gilets jaunes — tournant répressif visible
+- date: '2019'
+  evenement: Création des BRAV-M — anonymat policier
+- date: '2021'
+  evenement: Loi Sécurité Globale — article 24
+- date: '2022'
+  evenement: Loi 24 janvier — L.435-1 CSI (armes à feu)
+- date: '2025'
+  evenement: Budget MO à 6.8 Mds€ — record historique
+domaines:
+- droit
+- science_politique
+- strategie
+- sociologie
+urls_prioritaires:
+- url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045068774
+  description: Article L.435-1 CSI
+  head_status: 0
+- url: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043619719
+  description: Loi Sécurité Globale 2021
+  head_status: 0
+shadow_factor: 1.5
+shadow_justification: 'Faits législatifs et budgétaires vérifiables. L''interprétation stratégique (nécessité zapatiste) est
+  une déduction, pas une preuve. Données de blessures compilées non-vérifiées source primaire.
+
+  '
+mnemo_queries:
+- query: police maintien ordre France doctrine mutation
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'
+- query: répression manifestation France Gilets jaunes
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'

@@ -1,0 +1,282 @@
+enquete_id: ameriques
+complexity: APEX
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-03_sumer_article/2026-06-04_11-00_ameriques_precolombiennes_CIVILISATION_MANQUANTE.md
+these_centrale: 'Les Amériques précolombiennes sont le TEST ULTIME et le RÉFUTATEUR EN CHEF de la thèse dette-centrée : l''Empire
+  Inca a développé un État intégré SANS monnaie, SANS dette privée, SANS marché — prouvant que l''intégration ne passe pas
+  par la dette et que les Amériques sont un UNIVERSEL PARALLÈLE, pas un chaînon manquant.'
+theses_implicites:
+- L'Empire Inca avait ZÉRO monnaie, ZÉRO dette privée, ZÉRO marché — mais 10M d'habitants, 40 000 km de routes, et un système
+  de redistribution intégrale via le mit'a (impôt-travail)
+- Le quipu (cordelettes nouées) est un système d'information PLUS EFFICACE que l'écriture pour les données comptables — la
+  bureaucratie n'a pas besoin d'écriture phonétique
+- La capture inca est par MONOPOLE D'INFORMATION (quipu illisible sans formation) — pas par droit ou religion, mais par TECHNOLOGIE
+  COGNITIVE
+- Les Amériques sont des CIVILISATIONS PARALLÈLES (Caral 2600 BCE) sans contact avec l'Ancien Monde avant 1492 — l'intégration
+  est un universel humain, pas une filiation
+- L'eurocentrisme du récit civilisationnel est une GUERRE COGNITIVE — l'effacement des Amériques reproduit la Conquête espagnole
+  sur le plan épistémique
+- Si la dette n'est pas nécessaire à l'intégration (Inca), alors la dette n'est pas un MÉCANISME CENTRAL mais une option culturelle
+faits_atomiques:
+- id: F-001
+  evenement: 'Caral (civilisation Caral-Supe, Pérou) : 2600-2000 av. Plus ancienne civilisation américaine, contemporaine
+    des pyramides d''Égypte. Pas d''écriture, pas de céramique figurative'
+  source_url: https://en.wikipedia.org/wiki/Caral%E2%80%93Supe_civilization
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-002
+  enonce: 'Empire Inca : ZÉRO monnaie, ZÉRO marchés, ZÉRO dette privée. Économie de redistribution et réciprocité (ayni, minka)'
+  source_url: https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-003
+  enonce: 'Mit''a : impôt-travail rotationnel. Chaque foyer doit X jours/an à l''État. Base de l''économie inca'
+  source_url: https://en.wikipedia.org/wiki/Mita_(Inca)
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-004
+  enonce: 'Ayni : réciprocité sociale (donne et reçoit, mais PAS dette au sens occidental — obligation sociale, pas contractuelle)'
+  source_url: https://en.wikipedia.org/wiki/Ayni
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-005
+  enonce: 'Qhapaq Ñan : 40 000 km de routes pavées. Plus long réseau routier d''Amérique précolombienne (et comparable à l''Empire
+    romain)'
+  source_url: https://en.wikipedia.org/wiki/Inca_road_system
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-006
+  enonce: 'Quipu : système décimal positionnel sur cordelettes nouées. ~1 400 exemplaires existants. Calcul, census, fiscalité,
+    narration (?)'
+  source_url: https://en.wikipedia.org/wiki/Quipu
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-007
+  enonce: 'Quipucamayocs : caste spécialisée de comptables, formés dans les yachay wasi (écoles d''État). Monopole du savoir
+    comptable'
+  source_url: https://en.wikipedia.org/wiki/Quipu
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+- id: F-008
+  enonce: 'Aztèques : cacao comme monnaie, tribut en nature, pochteca (marchands longue distance), chinampa (agriculture intensive)'
+  source_url: https://en.wikipedia.org/wiki/Pochteca
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-009
+  enonce: 'Maya : zéro mathématique, système calendaire sophistiqué, cités-États, écriture glyphique, SANS dette comme mécanisme
+    central'
+  source_url: https://en.wikipedia.org/wiki/Maya_civilization
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-010
+  enonce: 'Tenochtitlan : 200 000+ habitants en 1519 — une des plus grandes villes du monde, devant Paris ou Rome à l''époque'
+  source_url: https://en.wikipedia.org/wiki/Tenochtitlan
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-011
+  enonce: 'Olmèque : écriture glyphique, calendrier, dès 1500 av. Civilisation mère de la Mésoamérique'
+  source_url: https://en.wikipedia.org/wiki/Olmec
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-012
+  enonce: 'Continuité américaine : 4 000+ ans AVANT le contact européen (Caral 2600 av. → Inca 1532). 16+ civilisations principales,
+    toutes SANS dette monétaire à l''occidentale'
+  source_url: https://en.wikipedia.org/wiki/Pre-Columbian_civilizations
+  source_section: §7
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+acteurs:
+- nom: Sapa Inca
+  role: Empereur divin, propriétaire de toute terre, tête de l'économie planifiée
+  faits_lies:
+  - F-002
+  - F-005
+- nom: Quipucamayocs
+  role: Comptables, caste spécialisée, monopole du savoir de l'information
+  faits_lies:
+  - F-007
+- nom: Kurakas
+  role: Chefs locaux, intermédiaires entre État et communautés
+  faits_lies: []
+- nom: Chasquis
+  role: Messagers coureurs, relais sur le Qhapaq Ñan
+  faits_lies:
+  - F-005
+- nom: Tlatoani (Aztèque)
+  role: Roi, dirigeant de cité-État
+  faits_lies:
+  - F-008
+- nom: Pochteca (Aztèque)
+  role: Marchands longue distance, diplomates, espions
+  faits_lies:
+  - F-008
+- nom: Conquistadors (Pizarro, Cortés)
+  role: Destructeurs de civilisations, 90% de la population amérindienne meurt (épidémies + violence)
+  faits_lies:
+  - F-012
+- nom: John Murra
+  role: Ethnohistorien, spécialiste de l'économie inca
+  faits_lies:
+  - F-002
+- nom: Maria Rostworowski
+  role: Historienne péruvienne, structures sociales andines
+  faits_lies:
+  - F-002
+causalites:
+- cause: F-002
+  effet: F-004
+  mecanisme: Pas de monnaie → pas de dette privée → ayni (réciprocité) et minka (travail collectif) remplacent le crédit
+- cause: F-006
+  effet: F-007
+  mecanisme: Quipu (système complexe) → formation longue requise → quipucamayocs = caste spécialisée → capture par monopole
+    du savoir
+- cause: F-003
+  effet: F-005
+  mecanisme: Mit'a (impôt-travail) → besoin de transporter les travailleurs et les produits → Qhapaq Ñan (40 000 km) + tambos
+    (relais)
+- cause: F-012
+  effet: F-002
+  mecanisme: Isolement des Amériques (1492 contact) → développement INDÉPENDANT de bureaucratie/fiscalité SANS dette → preuve
+    d'universel humain
+perspectives_dialectiques:
+- position: Thèse académique standard
+  argument: Les civilisations américaines sont 'primitives' comparées à l'Ancien Monde. Absence de monnaie = sous-développement
+- position: Antithèse indigéniste / andine
+  argument: L'Inca a SURPASSÉ l'Europe dans l'organisation économique. Pas de révoltes fiscales, pas de crise de la dette,
+    pas d'inflation. Économie au service de l'homme
+- position: 'Synthèse : l''intégration est un universel'
+  argument: Les Amériques prouvent que l'intégration peut se faire SANS dette. La dette n'est pas le MÉCANISME, c'est un choix
+    culturel parmi d'autres
+limites:
+- 'Sources européennes (conquistadors, chroniqueurs) : biais de conquête'
+- Pas d'accès à l'archéologie andine récente
+- Quipus non déchiffrés pour les parties non-numériques (littérature, lois ?)
+- Tendance à SUR-ESTIMER l'économie inca pour compenser son invisibilité
+wolves:
+- nom: Eurocentrisme / récit du 'miracle européen'
+  argument: Les Amériques sont des 'civilisations précolombiennes' (pré-1492 = définies par la conquête, pas par leur propre
+    existence)
+  reponse: Caral (2600 av.) est contemporain des pyramides d'Égypte. 4000 ans de développement INDEPENDANT avant tout contact
+- nom: Lecteurs matérialistes
+  argument: Sans monnaie, pas d'économie ; sans dette, pas d'intégration
+  reponse: L'Inca avait 10M d'habitants, 40 000 km de routes, un système fiscal (mit'a) et une redistribution intégrale. C'est
+    une ÉCONOMIE, pas une absence d'économie
+- nom: Conquistadors / apologistes de la Conquête
+  argument: Les Amérindiens ont 'bénéficié' de la civilisation occidentale
+  reponse: 90% de la population amérindienne meurt (épidémies + violence). Villes comme Tenochtitlan (200k habitants) détruites.
+    Aucun 'bénéfice' ne justifie ce bilan
+- nom: Nationalistes incas contemporains (Pérou, Bolivie)
+  argument: L'Inca était un État-providence socialiste avant l'heure
+  reponse: L'Inca était une monarchie divine avec castes (Sapa Inca, nobles, roturiers) et propriété étatique — pas un socialisme.
+    Mais l'organisation collective était remarquable
+iceberg:
+- 'Sujet immergé #1 : l''effacement épistémique des Amériques est une GUERRE COGNITIVE'
+- 'Sujet immergé #2 : le quipu est un système d''information PLUS EFFICACE que l''écriture pour les données comptables'
+- 'Sujet immergé #3 : la capture par monopole d''information (quipu) est un modèle COGNITIF de pouvoir, pas juridique/religieux'
+- 'Sujet immergé #4 : Caral (2600 av.) prouve que l''urbanisation n''est pas née en Mésopotamie/Égypte — c''est un universel
+  humain'
+- 'Sujet immergé #5 : Tenochtitlan (200k habitants) était plus grande que Paris ou Rome en 1519'
+- Mnemolite REELLEMENT NON INDEXEE pour Ameriques / Inca (0 hit sur 5+ requetes thematiques et tag=ameriques, tag=inca). Cette
+  quintessence est construite sans cross-reference Mnemolite - c'est un point faible assume.
+chronologie:
+- date: ~2600 av.
+  evenement: Caral (Pérou) — première civilisation américaine
+  source_fait: F-001
+- date: ~1500-400 av.
+  evenement: Olmèque (Mexique) — écriture, calendrier
+  source_fait: F-011
+- date: ~2000 av.-900 ap.
+  evenement: Civilisation Maya (Mésoamérique) — zéro mathématique
+  source_fait: F-009
+- date: ~100-650 ap.
+  evenement: Teotihuacan — 125 000 habitants, plus grande ville des Amériques
+  source_fait:
+  - F-010
+- date: ~1200-1532 ap.
+  evenement: Empire Inca (Tawantinsuyu), Qhapaq Ñan, quipus
+  source_fait:
+  - F-002
+  - F-005
+  - F-006
+- date: ~1325-1521 ap.
+  evenement: Empire aztèque (Tenochtitlan, tribut, pochteca)
+  source_fait:
+  - F-008
+  - F-010
+- date: '1492'
+  evenement: Contact européen (Colomb)
+  source_fait:
+  - F-012
+- date: '1532'
+  evenement: Conquête de l'Empire Inca (Pizarro capture Atahualpa)
+  source_fait:
+  - F-012
+domaines:
+- Dette (absence totale de dette monétaire inca)
+- Bureaucratie (quipu, quipucamayocs)
+- Fiscalité (mit'a = impôt-travail)
+- Routes et infrastructure (Qhapaq Ñan, tambos)
+- Système d'information (quipu, base-10 positionnel)
+- Droit et morale (coutumier, religion d'État inca Inti)
+- Résistance et destruction (conquête, 90% mortalité)
+urls_prioritaires:
+- url: https://en.wikipedia.org/wiki/Economy_of_the_Inca_Empire
+  description: Économie inca, absence de monnaie et de dette
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Quipu
+  description: Quipu, système d'information andin
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Inca_road_system
+  description: Qhapaq Ñan, 40 000 km de routes
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Mita_(Inca)
+  description: Mit'a, impôt-travail rotationnel
+  source_section: §11
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Tenochtitlan
+  description: Tenochtitlan, 200 000 habitants en 1519
+  head_status: 200
+shadow_factor: 6.4
+mnemo_queries:
+- query: Inca mit'a quipu Tawantinsuyu Qhapaq Nan andin
+  results_count: 0
+- query: Mayas Olmeques Caral civilisations precolombiennes
+  results_count: 0
+- query: Tenochtitlan aztèque tribut cacao chinampa
+  results_count: 0
+- query: conquistadors Pizarro Cortez destruction Amerique
+  results_count: 0
+- query: Murra Rostworowski ethnohistoire inca
+  results_count: 0
+mnemo_cross_refs:
+- id: null
+  title: AUCUNE memoire Mnemolite pour Ameriques / Inca
+  level: GAP
+  queries_tested:
+  - ameriques tag
+  - inca tag
+  - epice integration precolombien
+  - chemin Inca Andes

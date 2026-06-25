@@ -1,0 +1,274 @@
+enquete_id: andurarum_autopsy
+complexity: APEX
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-03_sumer_article/2026-06-04_14-30_andurarum_autopsy_INVESTIGATION.md
+these_centrale: 'L''andurarum (amargi sumérien) — pilier central de la thèse dette de l''article — est une RUPTURE entre le
+  récit Graeber/Hudson (annulation générale, politique macroéconomique) et les sources assyriologiques primaires (Charpin
+  : restauration du statut d''origine, rituel de légitimation). Shadow Factor révisé : 5.8×.'
+theses_implicites:
+- L'andurarum n'est PAS une 'annulation générale des dettes' mais un édit qui restaure l'ordre COSMIQUE perturbé (Charpin,
+  Collège de France)
+- Seules les dettes AGRICOLES de subsistance étaient annulées ; les dettes COMMERCIALES (tamkārum) étaient EXCLUES (Ammisaduqa,
+  ~1646 av.)
+- La fréquence de 30 édits en 1000 ans = 1 tous les 33 ans, comparable aux crises financières françaises (1/30-40 ans)
+- L'andurarum DISPARAÎT après 1400 av. sans laisser de trace — incompatible avec un 'mécanisme central de la civilisation'
+- Hudson n'est PAS assyriologue — il s'appuie sur les traductions de Kraus. Charpin lit les tablettes directement
+- Le terme 'amargi' est un 'Rorschach idéologique' (Hudson) — libertariens (Hayek Society, Liberty Fund), gauche radicale
+  (CADTM), tous se l'approprient
+faits_atomiques:
+- id: F-001
+  enonce: 'Ammisaduqa (1646 av., édit le mieux préservé) : annule les dettes privées en argent et grain si elles résultent
+    de prêts. EXCLUT explicitement les dettes des commerçants (tamkārum)'
+  source_url: https://en.wikipedia.org/wiki/Ammisaduqa
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-002
+  enonce: 'Terme sumérien ama.ar.gi = ''retour à la mère/origine'' (ama = mère, ar = retour, gi = réclamer/rendre). Traduction
+    littérale : retour à l''état originel'
+  source_url: https://shs.cairn.info/revue-d-assyriologie-2008-1-page-149
+  source_section: §1
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-003
+  enonce: 'Akkadien : deux termes distincts. Andurarum = ''liberté'' (racine : se déplacer librement, comme l''eau). Misharum
+    = ''justice/équité'' (racine sémitique YSR/ISHAR)'
+  source_url: https://en.wikipedia.org/wiki/Andurarum
+  source_section: §1
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-004
+  enonce: 30 annulations identifiées avec certitude entre 2400 et 1400 av. (Hudson, Kraus, CADTM). 1 édit tous les 33 ans
+    en moyenne
+  source_url: https://www.cadtm.org/The-Long-Tradition-of-Debt
+  source_section: §3
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-005
+  enonce: Aucun édit andurarum connu APRÈS 1400 av. — coïncide avec l'effondrement de l'âge du bronze. Incompatible avec un
+    'mécanisme central'
+  source_url: https://en.wikipedia.org/wiki/Bronze_Age_collapse
+  source_section: §3
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-006
+  enonce: 'Charpin (Collège de France, cours 2022) : ''L''andurârum, qu''il faut comprendre comme le retour au statut d''origine
+    : cette mesure royale annulait les dettes... Il ne s''agissait pas de mesures de progrès social : rien de plus étranger
+    au monde mésopotamien que la réforme au sens des réformistes modernes'''
+  source_url: https://shs.cairn.info/revue-d-assyriologie-2008-1-page-149
+  source_section: §4
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-007
+  enonce: 'Charpin : ''Le mot ne peut être employé que comme lorsqu''il s''agit de réformes religieuses : l''andurârum témoigne
+    de la volonté de revenir à ce qu''on croyait être la perfection des origines'' (Collège de France, 21 février 2022)'
+  source_url: https://shs.cairn.info/revue-d-assyriologie-2008-1-page-149
+  source_section: §4
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-008
+  enonce: Hudson (2024, Modern Misinterpretations) reconnaît que 'amargi sert de test de Rorschach idéologique reflétant les
+    croyances du traducteur' — mais n'applique pas la critique à sa propre lecture
+  source_url: https://michael-hudson.com/2024/modern-misinterpretations-of-ancient-debt-cancellation/
+  source_section: §1
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-009
+  enonce: 'Wikipedia (History of debt relief) : ''Usually only personal debt was cancelled, whereas debts incurred by merchants
+    were unaffected'''
+  source_url: https://en.wikipedia.org/wiki/History_of_debt_relief
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-010
+  enonce: 'Récupération politique d''amargi : libertariens américains (Hayek Society LSE, logo officiel), Liberty Fund, Samuel
+    Kramer exhortant Reagan en 1981'
+  source_url: https://michael-hudson.com/2000/03/how-interest-rates-were-set-2500-bc-1000-ad/
+  source_section: §5
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-011
+  enonce: 'Distinction dettes agricoles (annulées) vs dettes commerciales (préservées) : ''Le système ne tuait pas la dette
+    — il la canalisait. Il protégeait le paysan-soldat mais laissait le marchand s''enrichir'''
+  source_url: https://en.wikipedia.org/wiki/Ammisaduqa
+  source_section: §2.4
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-012
+  enonce: 'Shadow Factor révisé de l''andurarum comme pilier central : 5.8× (1,5 sémantique + 1,3 agri/commercial + 1,2 fréquence
+    + 1,0 silence Charpin + 0,8 disparition 1400)'
+  source_url: Métriques révisées
+  source_section: §6.4
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+acteurs:
+- nom: Dominique Charpin
+  role: 'Assyriologue (Collège de France), spécialiste paléo-babylonien. Lecture : andurarum = restauration, pas réforme'
+  faits_lies:
+  - F-006
+  - F-007
+- nom: Michael Hudson
+  role: 'Économiste hétérodoxe (CADTM). Lecture : andurarum = stabilisateur macroéconomique'
+  faits_lies:
+  - F-008
+  - F-010
+- nom: F.R. Kraus (1984)
+  role: Assyriologue, 'Königliche Verfügungen in altbabylonischer Zeit'. Source des traductions Hudson
+  faits_lies: []
+- nom: R. Westbrook
+  role: Juriste-historien, 'Social Justice in the Ancient Near East' (1995)
+  faits_lies: []
+- nom: David Graeber (1961-2020)
+  role: 'Anthropologue, ''Debt: The First 5,000 Years'' (2011). Lecture militante de l''andurarum'
+  faits_lies: []
+- nom: J.J. Finkelstein
+  role: Assyriologue, 'The Edict of Ammisaduqa'
+  faits_lies:
+  - F-001
+- nom: Samuel N. Kramer (1959)
+  role: 'Sumérologue, ''Reformation: Amargi'' — lecture progressiste'
+  faits_lies:
+  - F-010
+- nom: Éric Toussaint (CADTM)
+  role: Militant anti-dette, 'Long Tradition of Debt Cancellation' (2024)
+  faits_lies: []
+causalites:
+- cause: F-001
+  effet: F-005
+  mecanisme: Exclusion des dettes commerciales (tamkārum) → le système ne tue pas la dette marchande → sa disparition après
+    1400 av. n'est pas une perte économique mais un changement de configuration politique
+- cause: F-002
+  effet: F-006
+  mecanisme: Étymologie 'retour à la mère' → sens RESTAURATEUR (retour à l'état originel) et non RÉFORMATEUR (innovation sociale)
+    — la thèse Charpin s'ancre dans la langue
+- cause: F-008
+  effet: F-010
+  mecanisme: Polysémie d'amargi → récupération par tous les bords (libertariens, gauche, Reagan) → 'Rorschach idéologique'
+    (Hudson reconnaît mais ne s'auto-critique pas)
+perspectives_dialectiques:
+- position: Thèse Hudson (lecture économique)
+  argument: Andurarum = clean slate macroéconomique, stabilisateur cyclique. Dette = mécanisme central d'intégration de l'âge
+    du bronze
+- position: Thèse Charpin (lecture assyriologique)
+  argument: Andurarum = restauration conservatrice, rituel de légitimation, geste idéologique. Pas une politique économique
+    moderne
+- position: 'Synthèse : incompatibilité des deux lectures'
+  argument: Les deux lectures ne sont pas incompatibles (un acte peut être à la fois rituel et économique), mais la thèse
+    de l'article penche EXCLUSIVEMENT vers Hudson sans mentionner Charpin — biais directionnel
+limites:
+- 'L''enquête prend parti : penche vers Charpin contre Hudson, avec preuve documentaire'
+- Le consensus assyriologique penche vers Charpin (Westbrook, Kraus, Villard), mais Hudson a une audience grand public plus
+  large
+- Hudson reconnaît certaines critiques d'Ammisaduqa mais MINIMISE l'impact
+- L'andurarum comme 'jubilé biblique' reste POSSIBLE (cognat linguistique hébreu dror dans Lévitique 25) mais non prouvé directement
+wolves:
+- nom: Hudson / Graeber / CADTM
+  argument: L'andurarum prouve que la dette peut être abolie par la volonté politique — leçon pour aujourd'hui
+  reponse: L'andurarum était limité aux dettes agricoles de subsistance, pas une politique macroéconomique moderne. Sa fréquence
+    (1/33 ans) est comparable aux crises françaises (1/30-40 ans)
+- nom: Libertariens (Hayek Society, Liberty Fund)
+  argument: Amargi = liberté individuelle, opposé à l'État
+  reponse: Amargi = retour au statut d'origine (famille, terre), pas liberté abstraite. Le créancier perd sa créance, ce n'est
+    pas un 'droit naturel'
+- nom: Kramer (1959)
+  argument: Andurarum = réforme progressiste sumérienne
+  reponse: 'Schrakamp 2025 : les ''réformes'' d''Urukagina sont une RESTAURATION conservatrice, pas une innovation. La lecture
+    progressiste est anachronique'
+- nom: Thèse de l'article (Truth Engine)
+  argument: L'andurarum prouve que la dette était le mécanisme d'intégration central
+  reponse: 'Charpin : l''andurarum était un rituel de légitimation. La dette n''est ni nécessaire ni suffisante à l''intégration
+    (l''Inca prouve l''intégration sans dette)'
+iceberg:
+- 'Sujet immergé #1 : le débat Charpin vs Hudson n''est PAS un simple désaccord académique — c''est une GUERRE DE PARADIGMES
+  (lecture économique vs lecture philologique)'
+- 'Sujet immergé #2 : le terme ''amargi'' est un ''Rorschach idéologique'' (Hudson) — chaque époque projette ses valeurs'
+- 'Sujet immergé #3 : la DISTINCTION agri/commercial est la clé — Sumer avait un système à deux vitesses (protection paysan-soldat,
+  enrichissement marchand)'
+- 'Sujet immergé #4 : la DISPARITION après 1400 av. prouve que l''andurarum était lié à une configuration politique SPÉCIFIQUE
+  (royauté paléo-babylonienne), pas un universel'
+- 'Sujet immergé #5 : la ''leçon pour aujourd''hui'' est plus compliquée que le récit Hudson — une société peut annuler des
+  dettes privées sans résoudre structurellement le problème de l''endettement'
+- 'Mnemolite INDEXEE pour Andurarum : 2 memoires identiques (doublon). Cette quintessence = memoire source. Le verdict ''base
+  non indexee'' est INVALIDE.'
+- 'Cross-references Mnemolite integrees : 1 memoires directes ou d''enrichissement'
+chronologie:
+- date: ~2400 av.
+  evenement: Début de la pratique andurarum (début période sumérienne tardive)
+  source_fait: F-004
+- date: 1646 av.
+  evenement: Édit d'Ammisaduqa (texte le mieux préservé, distinction agri/commercial)
+  source_fait: F-001
+- date: 1400 av.
+  evenement: FIN de la pratique andurarum (effondrement âge du bronze)
+  source_fait: F-005
+- date: '1984'
+  evenement: Kraus publie 'Königliche Verfügungen' — base des traductions ultérieures
+  source_fait: []
+- date: '1993'
+  evenement: Hudson publie 'The Lost Tradition of Biblical Debt Cancellations'
+  source_fait: []
+- date: '2011'
+  evenement: 'Graeber publie ''Debt: The First 5,000 Years'' — succès populaire'
+  source_fait: []
+- date: '2022'
+  evenement: 'Charpin (Collège de France) : cours sur andurarum = retour au statut d''origine'
+  source_fait: F-006
+- date: '2024'
+  evenement: Hudson publie 'Modern (Mis)interpretations' — reconnaît le Rorschach idéologique
+  source_fait: F-008
+domaines:
+- Autopsie forensique d'un pilier argumentatif (méta-domaine)
+- Sémantique de l'andurarum (amargi = retour à la mère)
+- Distinction dettes agricoles vs commerciales (Ammisaduqa)
+- Fréquence et disparition (2400-1400 av., 1/33 ans)
+- Débat Charpin vs Hudson (lecture assyriologique vs lecture économique)
+- Récupération politique (libertariens, gauche, Reagan)
+urls_prioritaires:
+- url: https://shs.cairn.info/revue-d-assyriologie-2008-1-page-149
+  description: Charpin, contre-position académique sur l'andurarum
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Ammisaduqa
+  description: Édit d'Ammisaduqa, distinction agri/commercial
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/History_of_debt_relief
+  description: 'Wikipedia : annulations dettes, exclusion marchande'
+  head_status: 200
+- url: https://michael-hudson.com/2000/03/how-interest-rates-were-set-2500-bc-1000-ad/
+  description: Hudson, taux d'intérêt 2500 av. - 1000 ap.
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Andurarum
+  description: Andurarum, source primaire française
+  head_status: 200
+shadow_factor: 5.8
+mnemo_queries:
+- query: andurarum Charpin Kraus restauration
+  results_count: 0
+- query: amargi Misharum annulation dette Mésopotamie
+  results_count: 0
+- query: Ammisaduqa edict tamkarum commercial agricultural
+  results_count: 0
+- query: Hudson Graeber Debt First 5000 Years
+  results_count: 0
+- query: Hayek Society Liberty Fund amarigi libertariens
+  results_count: 0
+mnemo_cross_refs:
+- id: 627f9e5d-2dc2-4bf5-99aa-d02a21764140
+  title: AUTOPSIE ANDURARUM (08:53)
+  level: IDENTITY
+  matches: contenu EXACTEMENT identique a cette quintessence - c'est la memoire-source
+- id: b954741d-13fa-4c51-a8a0-4d9b08282806
+  title: AUTOPSIE ANDURARUM (08:51) DOUBLON
+  level: DOUBLON
+  matches: contenu EXACTEMENT identique, cree 2 minutes avant 627f9e5d - duplication accidentelle

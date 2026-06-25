@@ -1,0 +1,278 @@
+enquete_id: "lois_performatives_france"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "2026-06-19_10-23_lois_performatives_france_APEX.md"
+
+these_centrale: "Le Parlement francais vote des lois qui ne sont pas appliquees — 36 lois votees depuis la dissolution de juillet 2024, 1 seule avec ses decrets d'application complets. 23 lois depuis janvier 2025 sans aucun decret publie. 69 ordonnances publiees, 12 ratifiees (82% non ratifiees). OQTF: 4,865 executees sur 34,000 (14,3%). La loi n'est plus un instrument de gouvernement mais un instrument de communication politique — Etat performatif."
+
+theses_implicites:
+  - "Les decrets d'application sont volontairement retardes quand le cout politique de l'application depasse le cout politique du vote"
+  - "L'article 38 desordonnances permet de contourner le debat parlementaire; la non-ratification maintient un flou juridique favorable a l'executif"
+  - "Les electeurs ne sanctionnent pas la non-application car ils n'en ont pas conscience (asymetrie d'information)"
+  - "L'administration est structurellement sous-dimensionnee: ~120 redacteurs DAJ pour ~15 000 pages de lois par an"
+
+faits_atomiques:
+  - id: "F-lois_perf-001"
+    enonce: "36 lois votees depuis dissolution juillet 2024, 1 seule a ses decrets (2,8%)"
+    source_url: "https://www.leparisien.fr/politique/on-les-vote-pour-rien-ces-dizaines-de-lois-pas-appliquees-depuis-la-dissolution-18-10-2025-YQEBBBMD2ZCU5LLTVMUHX5KIQA.php"
+    source_section: "§11 FACT_REGISTRY (fait 1)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-lois_perf-002"
+    enonce: "23 lois depuis janvier 2025 sans aucun decret publie (100%)"
+    source_url: "https://www.leparisien.fr/politique/on-les-vote-pour-rien-ces-dizaines-de-lois-pas-appliquees-depuis-la-dissolution-18-10-2025-YQEBBBMD2ZCU5LLTVMUHX5KIQA.php"
+    source_section: "§11 FACT_REGISTRY (fait 2)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-lois_perf-003"
+    enonce: "69 ordonnances publiees sous article 38, 12 seules ratifiees (82% non ratifiees)"
+    source_url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances.html"
+    source_section: "§11 FACT_REGISTRY (fait 4)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-lois_perf-004"
+    enonce: "51% des textes du domaine legislatif proviennent d'ordonnances (2007-2020)"
+    source_url: "https://www.philippebonnecarrere.fr/2021/11/ordonnances/"
+    source_section: "§11 FACT_REGISTRY (fait 5)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-lois_perf-005"
+    enonce: "OQTF: France championne d'Europe, 34,000 decisions en cours"
+    source_url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    source_section: "§11 FACT_REGISTRY (fait 7)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-lois_perf-006"
+    enonce: "Seuls 4,865 migrants ont quitte le territoire sur OQTF — 14,3% d'execution"
+    source_url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    source_section: "§11 FACT_REGISTRY (fait 8)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-lois_perf-007"
+    enonce: "France 3x plus d'OQTF que l'Espagne (12,380) ou l'Allemagne (10,720)"
+    source_url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    source_section: "§11 FACT_REGISTRY (fait 9)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-lois_perf-008"
+    enonce: "Loi SILT 30 oct 2017 — perennise l'etat d'urgence (10 articles dans le CSIS)"
+    source_url: "https://fr.wikipedia.org/wiki/Loi_renfor%C3%A7ant_la_s%C3%A9curit%C3%A9_int%C3%A9rieure_et_la_lutte_contre_le_terrorisme"
+    source_section: "§11 FACT_REGISTRY (fait 13)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-lois_perf-009"
+    enonce: "CNR lance 8 sept 2022: 10 thematiques, zero loi produite — syntheses sans force contraignante"
+    source_url: "https://conseil-refondation.fr/"
+    source_section: "§11 FACT_REGISTRY (fait 15)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-lois_perf-010"
+    enonce: "FranceInfo: 47% des 100 promesses Macron 2017 tenues"
+    source_url: "https://www.franceinfo.fr/elections/presidentielle/bilan-macron-on-a-verifie-100-promesses-phares-programme-2017-combien-en-a-t-il-tenues.html"
+    source_section: "§11 FACT_REGISTRY (fait 17)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-lois_perf-011"
+    enonce: "Promesse 'zero SDF' fin 2017 (Macron): non tenue"
+    source_url: "https://www.20minutes.fr/politique/2436007-20190125-emmanuel-macron-vraiment-promis-plus-sdf-france-fin-2017"
+    source_section: "§11 FACT_REGISTRY (fait 18)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-lois_perf-012"
+    enonce: "Recours 49.3: 23 fois sous Macron (2017-2024) — record Ve Republique"
+    source_url: "https://www.leparisien.fr/politique/on-les-vote-pour-rien-ces-dizaines-de-lois-pas-appliquees-depuis-la-dissolution-18-10-2025-YQEBBBMD2ZCU5LLTVMUHX5KIQA.php"
+    source_section: "§11 FACT_REGISTRY (fait 20)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-lois_perf-013"
+    enonce: "8 annees consecutives de regime derogatoire (2015-2023+)"
+    source_url: "https://www.cambridge.org/core/journals/european-constitutional-law-review/article/state-of-emergency-in-france-days-without-end/4187319346967B43779DE75B1E59AF87"
+    source_section: "§11 FACT_REGISTRY (fait 21)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-lois_perf-014"
+    enonce: "LOPMI adoptee janv 2023: 15 MdE promis, 6,2 MdE debloques"
+    source_url: "https://blogs.manageengine.com/fr/2025/04/18/lopmi-entre-securite-et-surveillance-ou-est-la-limite.html"
+    source_section: "§11 FACT_REGISTRY (fait 22)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-lois_perf-015"
+    enonce: "Pas de sanction juridique pour absence de decrets d'application (art. 21 non justiciable)"
+    source_url: "https://www.conseil-etat.fr/actualites/discours-et-interventions/le-defaut-de-publication-des-decrets-d-application"
+    source_section: "§11 FACT_REGISTRY (fait 23)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-lois_perf-016"
+    enonce: "Inflation legislative: +73% pages de lois par an depuis 2000"
+    source_url: "https://www.senat.fr/rap/r24-217/r24-217_mono.html"
+    source_section: "§11 FACT_REGISTRY (fait 24)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-lois_perf-017"
+    enonce: "Moyenne de 8 decrets et 15 arretes par loi promulguée"
+    source_url: "https://www.conseil-etat.fr/publications/etudes/etude-annuelle-2024"
+    source_section: "§11 FACT_REGISTRY (fait 25)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-lois_perf-018"
+    enonce: "Proposition de loi constitutionnelle pour restaurer ratification ordonnances (adoptee Senat nov 2021)"
+    source_url: "https://www.dalloz-actualite.fr/flash/senat-veut-redonner-pouvoir-au-legislateur-sur-ordonnances-non-ratifiees"
+    source_section: "§11 FACT_REGISTRY (fait 27)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Emmanuel Macron"
+    role: "President — impulseur legislatif, 23× 49.3, inflation legislative sans suivi reglementaire"
+    faits_lies: ["F-lois_perf-010", "F-lois_perf-012"]
+  - nom: "Michel Barnier"
+    role: "Premier ministre (sept 2024-) — herite 36 lois sans decrets, aucune action de rattrapage connue"
+    faits_lies: ["F-lois_perf-001"]
+  - nom: "Gerald Darmanin"
+    role: "Ex-ministre Interieur — auteur Loi Immigration 2024, decrets partiels en juillet 2024"
+    faits_lies: ["F-lois_perf-005"]
+  - nom: "Bruno Retailleau"
+    role: "Ministre Interieur (2024-) — charge des OQTF, taux execution 14,3%"
+    faits_lies: ["F-lois_perf-006"]
+  - nom: "Francois Bayrou"
+    role: "Haut-commissaire au Plan / CNR — zero loi produite en 3 ans"
+    faits_lies: ["F-lois_perf-009"]
+  - nom: "Senat (commission lois)"
+    role: "Controle application — rapports annuels depuis 1995 sans effet"
+    faits_lies: ["F-lois_perf-003"]
+
+causalites:
+  - cause: "F-lois_perf-016"
+    effet: "F-lois_perf-001"
+    mecanisme: "Inflation legislative +73% → surcharge DAJ (~120 personnes) → 36 lois sans decrets"
+  - cause: "F-lois_perf-012"
+    effet: "F-lois_perf-003"
+    mecanisme: "49.3×23 → Parlement affaibli → 82% ordonnances non ratifiees"
+  - cause: "F-lois_perf-005"
+    effet: "F-lois_perf-006"
+    mecanisme: "Discours politique repressif → vote lois restrictives → absence de moyens → 14,3% execution OQTF"
+
+perspectives_dialectiques:
+  - position: "These"
+    argument: "Le gouvernement utilise deliberement la non-publication des decrets pour enterrer les lois qu'il ne souhaite pas appliquer. Les lois sont des leurres mediatiques, les ordonnances non ratifiees a 82% un detournement de procedure."
+  - position: "Antithese"
+    argument: "Le gouvernement est de bonne foi. Les decrets suivront. La complexite technique justifie les delais. Depuis la dissolution, le contexte politique a ralenti la machine administrative."
+  - position: "Synthese"
+    argument: "Ni complot ni simple lenteur. Le desequilibre entre capacite de voter (illimitee, rapide, mediatique) et capacite d'appliquer (limitee, lente, invisible) est structurel. La loi performative est le symptome d'un Etat qui prefer l'apparence a l'efficacite."
+
+limites:
+  - "Article Le Parisien derriere un paywall (resume accessible, details complets via lead)"
+  - "Donnees Eurostat OQTF non verifiees directement sur la base Eurostat"
+  - "Chiffre '47% promesses tenues' date de 2022 — non actualise"
+  - "Certains faits issus de sources d'opinion (Obs. Mensonge, Le Media) — croises avec sources institutionnelles"
+  - "23 recours 49.3 couvre 2017-2024 (inclut deux premiers ministeres) — contexte change apres dissolution"
+
+wolves:
+  - nom: "Emmanuel Macron"
+    argument: "A impulse l'inflation legislative sans assurer le suivi reglementaire. Dissolution juillet 2024 a paralyse le travail legislatif."
+    reponse: "Le phenomene depasse Macron — il est structurel et precede 2017"
+  - nom: "Gerald Darmanin"
+    argument: "Loi Immigration 2024 comme signal politique, decrets bacles en juillet 2024 en sortant"
+    reponse: "Le biais repressif du discours migratoire contredit l'absence d'execution — mais la loi etait un totem politique"
+  - nom: "Gouvernement Barnier"
+    argument: "N'a pas pris les decrets pour 36 lois — premiere responsabilite constitutionnelle (art. 21)"
+    reponse: "Heritage de la dissolution — mais aucune action corrective identifiee"
+  - nom: "Francois Bayrou (CNR)"
+    argument: "Animation d'une structure couteuse sans aucun texte legislatif contraignant"
+    reponse: "Zero loi en 3 ans — echec total de la participation citoyenne institutionnalisee"
+  - nom: "Le Parlement (collectivement)"
+    argument: "A laisse le gouvernement capter 51% de la production legislative via ordonnances"
+    reponse: "N'a pas exige la ratification des 57 ordonnances non ratifiees"
+
+iceberg:
+  - "Le taux reel de non-application de toutes les lois francaises est inconnu — pas de suivi centralise automatique"
+  - "La DAJ sous-dimensionnee est un choix politique: maintenir l'incapacite d'appliquer pour justifier l'absence d'application"
+  - "L'absence de mecanisme de sanction (art. 21 non justiciable) est le verrou invisible du systeme"
+  - "Le phenomene precede 2017: les rapports Senat sur l'application des lois existent depuis 1995 sans effet"
+  - "L'Allemagne applique >85% de ses lois en 12 mois, le Royaume-Uni a 3 mois — la France n'a ni delai ni sanction"
+
+chronologie:
+  - date: "1995"
+    evenement: "Premier rapport Senat sur l'application des lois — mecanisme ineffectif depuis 30 ans"
+    source_fait: "F-lois_perf-015"
+  - date: "2017-10-30"
+    evenement: "Loi SILT promulgee — perennise l'etat d'urgence, jamais reformee"
+    source_fait: "F-lois_perf-008"
+  - date: "2017-2022"
+    evenement: "Cycle presidentiel: ~47% des promesses tenues"
+    source_fait: "F-lois_perf-010"
+  - date: "2023-01-25"
+    evenement: "LOPMI promulgee — 15 MdE promis, 6,2 MdE debloques"
+    source_fait: "F-lois_perf-014"
+  - date: "2022-09-08"
+    evenement: "Lancement CNR par Macron — zero loi produite"
+    source_fait: "F-lois_perf-009"
+  - date: "2024-01-26"
+    evenement: "Loi Immigration promulgee (Loi Darmanin)"
+    source_fait: null
+  - date: "2024-07"
+    evenement: "Dissolution Assemblee nationale par Macron — paralysie legislatif"
+    source_fait: "F-lois_perf-001"
+  - date: "2024-07"
+    evenement: "~10 decrets Immigration publies par Darmanin demissionnaire — partiels"
+    source_fait: null
+  - date: "2025-10-18"
+    evenement: "Article Le Parisien: 36 lois / 1 seule appliquee"
+    source_fait: "F-lois_perf-001"
+  - date: "2025-T4"
+    evenement: "34,000 OQTF en France, 4,865 executees (14,3%)"
+    source_fait: "F-lois_perf-006"
+  - date: "2025"
+    evenement: "Senat: 69 ordonnances publiees, 12 ratifiees (18%)"
+    source_fait: "F-lois_perf-003"
+
+domaines:
+  - "Droit constitutionnel — articles 21 et 38, ordonnances, 49.3"
+  - "Politique — inflation legislative, dissolution, presidence Macron"
+  - "Administration — DAJ sous-dimensionnee, SGG, retard decrets"
+  - "Immigration — OQTF, ecart loi/execution"
+  - "Justice administrative — Conseil d'Etat engorge, absence sanction"
+  - "Comparatif europeen — France pire taux execution OQTF"
+
+urls_prioritaires:
+  - url: "https://www.leparisien.fr/politique/on-les-vote-pour-rien-ces-dizaines-de-lois-pas-appliquees-depuis-la-dissolution-18-10-2025-YQEBBBMD2ZCU5LLTVMUHX5KIQA.php"
+    description: "Le Parisien — 36 lois votees, 1 seule appliquee"
+    head_status: 200
+  - url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances.html"
+    description: "Senat — 82% ordonnances non ratifiees"
+    head_status: 200
+  - url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    description: "Obs. Mensonge — OQTF France championne Europe"
+    head_status: 200
+  - url: "https://fr.wikipedia.org/wiki/Loi_renforçant_la_sécurité_intérieure_et_la_lutte_contre_le_terrorisme"
+    description: "Loi SILT 2017 — etat d'urgence perennisé"
+    head_status: 200
+  - url: "https://conseil-refondation.fr/"
+    description: "CNR — zero loi produite"
+    head_status: 200
+
+shadow_factor: 5.0
+
+mnemo_queries:
+  - query: "lois performatives France non-application decrets ordonnances non ratifiees"
+    results_count: 5
+  - query: "OQTF inexecutees France loi SILT LOPMI CNR"
+    results_count: 5

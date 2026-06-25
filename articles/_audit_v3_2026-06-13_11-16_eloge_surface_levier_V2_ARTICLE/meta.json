@@ -1,0 +1,68 @@
+{
+  "article": "2026-06-13_11-16_eloge_surface_levier_V2_ARTICLE",
+  "date": "2026-06-14 16:19",
+  "phases": {
+    "phase0_metatexte": {
+      "model": "phi4-mini:latest",
+      "secs": 0,
+      "tokens": 111,
+      "warning": ""
+    },
+    "phase1_single_model": {
+      "model": "qwen3:8b",
+      "secs": 0,
+      "tokens": 47,
+      "warning": ""
+    },
+    "g1_greffier": {
+      "model": "granite3.2:8b",
+      "secs": 0,
+      "tokens": 319,
+      "warning": ""
+    },
+    "g2_logicien": {
+      "model": "qwen3:8b",
+      "secs": 0,
+      "tokens": 259,
+      "warning": ""
+    },
+    "g3_cartographe": {
+      "model": "granite3.2:8b",
+      "secs": 0,
+      "tokens": 394,
+      "warning": ""
+    },
+    "g4_contrebandier": {
+      "model": "granite3.2:8b",
+      "secs": 0,
+      "tokens": 376,
+      "warning": ""
+    },
+    "phase3_deepdive": {
+      "model": "qwen3:8b",
+      "secs": 0,
+      "tokens": 213,
+      "warning": ""
+    },
+    "phase4_synthesis": {
+      "model": "qwen3:8b",
+      "secs": 159.7491455078125,
+      "tokens": 1283,
+      "warning": ""
+    },
+    "phase5_cannot_assess": {
+      "model": "qwen3:8b",
+      "secs": 60.57284140586853,
+      "tokens": 403,
+      "warning": ""
+    },
+    "phase6_veto": {
+      "model": "qwen3:8b",
+      "secs": 75.83878946304321,
+      "tokens": 6,
+      "warning": "VIDE: output < 20 caractères"
+    }
+  },
+  "total_secs": 296.16077637672424,
+  "total_tokens": 3411
+}

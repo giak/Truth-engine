@@ -1,0 +1,206 @@
+enquete_id: "fresque"
+complexity: "APEX"
+date_extraction: "2026-06-09"
+enquete_source: "2026-06-08_22-00_fresque_pedocriminalite_INVESTIGATION.md"
+
+these_centrale: "L'assassinat de Lyhanna (juin 2026) est le point d'arrivée d'une trajectoire de 50 ans pendant laquelle l'establishment intellectuel, médiatique, politique et judiciaire français a construit une infrastructure de protection de la pédocriminalité : théorisation philosophique (1975-1978), complaisance médiatique (1990-2020), lois retardées (2021), commissions vidées (CIIVISE 2023-2026). Cette architecture culmine avec la mort d'une enfant de 11 ans dont le meurtrier était connu de la justice."
+
+theses_implicites:
+  - "La pétition de 1977 et le moment Foucault (1977-1978) ne sont pas des accidents historiques : ils ont fourni le cadre philosophique qui a légitimé 40 ans d'impunité culturelle pour les pédocriminels d'élite."
+  - "La CIIVISE n'a pas été dissoute, elle a été vidée : technique plus subtile que la dissolution, qui permet au gouvernement de dire qu'elle existe encore tout en neutralisant ses recommandations."
+  - "Le double standard de caste est le mécanisme central : sévérité maximale pour les déviants d'en bas (Barella lynché médiatiquement), indulgence systémique pour les déviants d'en haut (Duhamel prescrit, Lang jamais poursuivi, Matzneff intouchable 40 ans)."
+
+faits_atomiques:
+  - id: "F-FR-001"
+    enonce: "Pétition dans Le Monde du 26 janvier 1977 réclamant la dépénalisation des relations sexuelles entre adultes et mineurs. Signataires : Foucault, Sartre, de Beauvoir, Barthes, Deleuze, Guattari, Derrida, Aragon, Dolto, Lang, Kouchner, Sollers, Matzneff."
+    source_url: ""
+    source_section: "§1.1"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-FR-002"
+    enonce: "Daniel Cohn-Bendit publie Le Grand Bazar (1975) décrivant des jeux sexuels avec des enfants de 5-6 ans dans un Kinderladen à Francfort. Jamais poursuivi."
+    source_url: ""
+    source_section: "§1.1"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-FR-006"
+    enonce: "Gabriel Matzneff invité d'Apostrophes (Bernard Pivot) le 2 mars 1990. Pivot minimise : Ce que je vous reproche, c'est de nous en faire part. Denise Bombardier, seule à le confronter, marginalisée."
+    source_url: ""
+    source_section: "§1.1"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-FR-008"
+    enonce: "Vanessa Springora publie Le Consentement le 2 janvier 2020 : violée par Matzneff à 14 ans (lui 50). Il faut un livre pour que Matzneff soit enfin inquiété, après 40 ans d'impunité."
+    source_url: ""
+    source_section: "§1.2"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-FR-010"
+    enonce: "CIIVISE créée en janvier 2021, présidée par Édouard Durand. 30 000 témoignages recueillis en 3 ans."
+    source_url: ""
+    source_section: "§1.3"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-FR-013"
+    enonce: "Édouard Durand écarté de la présidence de la CIIVISE en décembre 2023. 11 membres démissionnent en protestation. Tribune dans Libération : La Ciivise change et nous sommes très inquiets."
+    source_url: ""
+    source_section: "§1.3"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-FR-011"
+    enonce: "Loi du 21 avril 2021 instaurant un seuil de non-consentement à 15 ans. La France était l'un des derniers pays européens sans âge légal explicite."
+    source_url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043426019/"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-FR-014"
+    enonce: "CEDH condamne la France le 24 avril 2025 pour défaut de protection des mineurs (L. and Others v. France)."
+    source_url: "https://hudoc.echr.coe.int/eng?i=002-14454"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-FR-012"
+    enonce: "CIIVISE remet 82 recommandations au gouvernement en novembre 2023. Taux d'application estimé < 15%."
+    source_url: ""
+    source_section: "§1.3"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-FR-016"
+    enonce: "Janvier 2026 : nouvelle vague de démissions à la CIIVISE. Face à l'inceste se retire. Stéphanie Rist lance une mission de transformation (reprise en main gouvernementale)."
+    source_url: ""
+    source_section: "§1.3"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Michel Foucault"
+    role: "Philosophe, signataire pétition 1977, auditionné par la Commission de réforme du Code pénal (1977), débat France Culture 1978. Cadre philosophique de la dépénalisation."
+    faits_lies: ["F-FR-001"]
+  - nom: "Gabriel Matzneff"
+    role: "Écrivain, initiateur de la pétition 1977, a décrit ses viols sur mineurs dans ses livres pendant 40 ans, protégé par Gallimard, Pivot, Sollers. Inquiété seulement en 2020."
+    faits_lies: ["F-FR-001", "F-FR-006", "F-FR-008"]
+  - nom: "Bernard Pivot"
+    role: "Animateur d'Apostrophes, a validé Matzneff en direct le 2 mars 1990 devant des millions de téléspectateurs."
+    faits_lies: ["F-FR-006"]
+  - nom: "Vanessa Springora"
+    role: "Écrivaine, victime de Matzneff à 14 ans. A brisé le silence en 2020 avec Le Consentement. A subi des attaques du milieu littéraire."
+    faits_lies: ["F-FR-008"]
+  - nom: "Édouard Durand"
+    role: "Juge des enfants, 1er président CIIVISE (2021-2023), écarté en décembre 2023. Auteur de 160 000 Enfants (2024). Contre-pouvoir neutralisé."
+    faits_lies: ["F-FR-010", "F-FR-013"]
+  - nom: "Gérald Darmanin"
+    role: "Garde des Sceaux (2026), deux accusations sexuelles classées/non-lieu. Refuse de démissionner après Lyhanna. A ordonné le départ de Durand de la CIIVISE."
+    faits_lies: ["F-FR-017"]
+  - nom: "Emmanuel Macron"
+    role: "Président, promesse 2022 non tenue. Son gouvernement a démantelé la CIIVISE. 9 ans au pouvoir, budget justice inchangé à 0,20% PIB."
+    faits_lies: ["F-FR-013"]
+
+causalites:
+  - cause: "F-FR-001"
+    effet: "F-FR-006"
+    mecanisme: "Pétition 1977 légitime intellectuellement la pédocriminalité → climat culturel permissif → Matzneff invité à Apostrophes 1990 sans contradiction sérieuse → 40 ans d'impunité"
+  - cause: "F-FR-013"
+    effet: "F-FR-016"
+    mecanisme: "Durand écarté (déc 2023) → perte de légitimité → démissions en cascade → CIIVISE vidée → mission de transformation (jan 2026) → 82 recommandations non appliquées → enfants non protégés"
+  - cause: "F-FR-006"
+    effet: "F-FR-008"
+    mecanisme: "Validation médiatique de Matzneff (1990) → impunité culturelle → il faut attendre 2020 et un livre de sa victime pour qu'il soit inquiété → 30 ans perdus"
+  - cause: "F-FR-014"
+    effet: "F-LYH-001"
+    mecanisme: "CEDH condamne la France (avril 2025) → aucune conséquence → Lyhanna meurt (juin 2026) → Darmanin refuse de démissionner → cycle continue"
+
+perspectives_dialectiques:
+  - position: "Thèse (officielle)"
+    argument: "La France a tourné la page des années 1970. L'arsenal juridique a été considérablement renforcé : loi Schiappa 2018, loi Taquet 2021 (seuil de 15 ans), CIIVISE créée en 2021. Le problème actuel est un problème de moyens, pas de volonté politique."
+  - position: "Antithèse (critique)"
+    argument: "La protection de la pédocriminalité n'a jamais cessé, elle a simplement changé de forme. Hier : arguments philosophiques. Aujourd'hui : enterrement administratif des réformes, sous-financement chronique, démantèlement discret des contre-pouvoirs. Le même mécanisme opère depuis 50 ans."
+  - position: "Synthèse"
+    argument: "La France a renforcé son arsenal juridique mais le droit change plus vite que la culture institutionnelle. La véritable question n'est pas la loi, c'est son application. Le test : les 82 recommandations CIIVISE. Taux d'application < 15% = verdict."
+
+limites:
+  - "Période 1990-2020 : trou de 30 ans dans la chronologie. Des affaires (Outreau, etc.) existent mais n'ont pas été explorées."
+  - "Complexité du moment Foucault : sa position s'inscrit dans une critique plus large du biopouvoir. La fresque perd cette nuance."
+  - "La pétition de 1977 : tous les signataires n'avaient pas le même degré d'implication. La fresque les traite comme un bloc."
+  - "Aucun acteur nommé (hors personnes décédées) n'a été contacté pour contradiction."
+
+wolves:
+  - nom: "Michel Foucault"
+    argument: "A fourni le cadre philosophique de la dépénalisation. Audition officielle, débat France Culture. Son autorité intellectuelle a légitimé 40 ans d'impunité."
+    reponse: "Foucault est mort en 1984. La question n'est pas de le juger mais de documenter l'impact institutionnel de ses positions : elles ont été utilisées pour justifier l'impunité bien au-delà de sa mort."
+  - nom: "Gabriel Matzneff"
+    argument: "Initiateur de la pétition 1977. A violé des enfants pendant 40 ans en le racontant dans ses livres. Protégé par Gallimard, Pivot, Sollers. Inquiété seulement en 2020."
+    reponse: "Le cas Matzneff est la preuve par l'exemple que l'impunité culturelle se traduit en impunité judiciaire. Le milieu littéraire français a fonctionné comme un système de protection corporatiste."
+  - nom: "Bernard Pivot"
+    argument: "A validé Matzneff en direct sur Apostrophes devant des millions de téléspectateurs. Ce que je vous reproche, c'est de nous en faire part."
+    reponse: "Apostrophes 1990 est le symbole de la complaisance médiatique. La question n'est pas Pivot individuellement mais le système médiatique qui a offert une tribune à un pédocriminel sans contradiction sérieuse."
+
+iceberg:
+  - "30 000 témoignages CIIVISE = 30 000 enfants dont la parole n'a pas été entendue pendant des années"
+  - "Les 69 signataires de la pétition de 1977 : aucun n'a jamais eu à rendre de comptes. Leurs œuvres sont toujours enseignées, leurs noms honorés"
+  - "Gallimard continue d'exister sans avoir jamais rendu de comptes pour 40 ans de publication de Matzneff"
+  - "Le cycle : scandale → commission → rapport → écartement du président → démissions → enterrement administratif → prochain scandale"
+  - "Résultat Mnemolite: non interrogé (MCP non disponible)"
+
+chronologie:
+  - date: "1975-01-01"
+    evenement: "Cohn-Bendit publie Le Grand Bazar décrivant des jeux sexuels avec des enfants."
+    source_fait: "F-FR-002"
+  - date: "1977-01-26"
+    evenement: "Pétition dans Le Monde réclamant la dépénalisation des relations sexuelles entre adultes et mineurs. 69 signataires."
+    source_fait: "F-FR-001"
+  - date: "1990-03-02"
+    evenement: "Matzneff invité d'Apostrophes. Pivot minimise. Bombardier marginalisée."
+    source_fait: "F-FR-006"
+  - date: "2020-01-02"
+    evenement: "Vanessa Springora publie Le Consentement. Onde de choc nationale."
+    source_fait: "F-FR-008"
+  - date: "2021-01-01"
+    evenement: "Création de la CIIVISE, présidée par Édouard Durand."
+    source_fait: "F-FR-010"
+  - date: "2021-04-21"
+    evenement: "Loi instaurant un seuil de non-consentement à 15 ans."
+    source_fait: "F-FR-011"
+  - date: "2023-11-01"
+    evenement: "CIIVISE remet 82 recommandations après 30 000 témoignages."
+    source_fait: "F-FR-012"
+  - date: "2023-12-01"
+    evenement: "Durand écarté de la CIIVISE. 11 membres démissionnent."
+    source_fait: "F-FR-013"
+  - date: "2025-04-24"
+    evenement: "CEDH condamne la France pour défaut de protection des mineurs."
+    source_fait: "F-FR-014"
+  - date: "2026-05-29"
+    evenement: "Lyhanna, 11 ans, assassinée par un prédateur que la justice connaissait."
+    source_fait: "F-LYH-001"
+
+domaines:
+  - "Histoire intellectuelle"
+  - "Justice"
+  - "Médias"
+  - "Politique"
+  - "Protection de l'enfance"
+
+urls_prioritaires:
+  - url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043426019/"
+    description: "Loi du 21 avril 2021 : seuil de non-consentement à 15 ans. Preuve que la France a résisté jusqu'en 2021."
+    head_status: 200
+  - url: "https://hudoc.echr.coe.int/eng?i=002-14454"
+    description: "Arrêt CEDH L. and Others v. France : condamnation pour défaut de protection des mineurs"
+    head_status: 200
+
+shadow_factor: 7.0
+mnemo_queries:
+  - query: "pétition 1977 Le Monde dépénalisation mineurs"
+    results_count: 0
+  - query: "CIIVISE Durand démission 2023"
+    results_count: 0

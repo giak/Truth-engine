@@ -1,0 +1,79 @@
+enquete_id: "succes_sous_marins"
+complexity: "MEDIUM"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p2_succes_sous_marins/2026-06-12_12-00_succes_sous_marins_reseaux_france_INVESTIGATION.md"
+
+these_centrale: "La coordination acéphale fonctionne EN CE MOMENT en France (Soulèvements de la Terre, anti-A69, anti-bassines, ZAD Notre-Dame-des-Landes) grâce à trois adaptations que le corpus n'a pas documentées : (1) la professionnalisation de la défense juridique (Conseil d'État, QPC), (2) le compartimentage financier (multiplication de petites associations 1901), (3) l'ancrage dans des alliés institutionnels (Confédération paysanne, syndicats, collectivités). Ces succès contredisent TC3 (coordination quasi-impossible) mais sont structurellement CSP+ : ils exigent capital économique et réseau d'avocats."
+
+theses_implicites:
+  - "La légalité est une arme : quand l'État tente de dissoudre, le Conseil d'État peut bloquer — la bataille juridique est plus efficace que la clandestinité dans une démocratie encore fonctionnelle."
+  - "La transparence financière est une contre-mesure paradoxale à TRACFIN : une cagnotte déclarée est moins suspecte qu'un financement opaque."
+  - "Ces mouvements survivent parce qu'ils sont marginaux et locaux — pas parce qu'ils sont résilients. S'ils devenaient un mouvement de MASSE, la réponse de l'État serait d'une tout autre nature."
+
+acteurs:
+  - "Soulèvements de la Terre (LST) : coalition de collectifs, dissolution suspendue par Conseil d'État (2024)"
+  - "Anti-A69 (Castres-Toulouse) : organisations horizontales, cagnottes HelloAsso, contentieux environnementaux"
+  - "Anti-bassines (Sainte-Soline) : compartimentage financier multi-associations, ancrage Confédération paysanne"
+  - "ZAD Notre-Dame-des-Landes (2012-2018) : fragments collectifs sans gouvernance unique, décisions par consensus, abandon projet aéroport"
+  - "Conseil d'État, TRACFIN, Confédération paysanne"
+
+causalites:
+  - "Défense juridique haut niveau (Conseil d'État) → suspension des dissolutions administratives (LST)"
+  - "Compartimentage financier (multi-associations 1901) → TRACFIN peut geler UNE association, pas le mouvement"
+  - "Ancrage syndical (Confédération paysanne) → criminalisation politiquement coûteuse"
+  - "Transparence financière → désamorce le soupçon TRACFIN (flux déclarés = pas de blanchiment)"
+  - "Marginalité des mouvements → tolérance implicite de l'État"
+
+perspectives_dialectiques:
+  - "Thèse : coordination acéphale quasi-impossible en France (TC3). Antithèse : elle existe et fonctionne (LST, ZAD). Synthèse : elle fonctionne pour des mouvements marginaux CSP+, pas pour des mouvements de masse populaires."
+  - "Thèse : la transparence protège. Antithèse (Wolf 2) : la transparence donne à l'État la liste de vos donateurs. Synthèse : déplacement du risque du pénal (blanchiment) vers l'administratif (gel de cagnotte) — moins lourd."
+  - "Thèse : ce sont des succès de lobbying institutionnel bourgeois (Wolf 1). Antithèse : le précédent juridique créé (suspension dissolution) protège TOUS les mouvements futurs."
+
+faits_atomiques:
+  - F-ssm-001: "LST : dissolution gouvernementale 2023, suspension par Conseil d'État 2024 — 'doute sérieux' sur qualification 'provocation à la violence'."
+    glyph: "✦"
+  - F-ssm-002: "LST = coalition de groupes locaux autonomes, pas association unique — si une composante entravée, autres continuent."
+    glyph: "❧"
+  - F-ssm-003: "Anti-A69 : cagnottes HelloAsso pour frais juridiques, contentieux droit de l'environnement, structures horizontales."
+    glyph: "✧"
+  - F-ssm-004: "Anti-bassines : compartimentage financier multi-associations 1901 — TRACFIN peut geler UNE association sans stopper le mouvement."
+    glyph: "❧"
+  - F-ssm-005: "ZAD Notre-Dame-des-Landes (2012-2018) : 6 ans d'organisation libertaire sans hiérarchie, abandon projet aéroport 2018 — victoire politique."
+    glyph: "✦"
+  - F-ssm-006: "Recours Conseil d'État : 5 000-10 000 € minimum (avocats aux Conseils, monopole ~100 avocats). AJ plafonnée, inadaptée aux contentieux politiques complexes."
+    glyph: "✧"
+
+limites:
+  - "Mouvements documentés principalement ruraux/environnementaux — pas de mouvements urbains de masse."
+  - "Victoire LST au Conseil d'État fragile (suspension, pas annulation définitive)."
+  - "Cagnottes en ligne vulnérables à un durcissement législatif futur."
+  - "Modèle structurellement CSP+ : coût d'entrée prohibitif pour classes populaires."
+
+wolves:
+  - loup: "Ce ne sont pas des succès 'acéphales' mais du lobbying institutionnel bourgeois"
+    reponse: "Partiellement juste. LST a des ressources CSP+. Mais le PRÉCÉDENT juridique créé protège tous les mouvements futurs. Reste : combien coûte un recours au Conseil d'État ?"
+  - loup: "La transparence est une vulnérabilité, pas une protection"
+    reponse: "Exact sur le gel des cagnottes. Différence : gel administratif (réversible) vs poursuite pour blanchiment (irréversible). Déplacement du risque du pénal vers l'administratif."
+  - loup: "Ces mouvements survivent parce qu'ils sont marginaux, pas parce qu'ils sont résilients"
+    reponse: "Wolf le plus stratégique. Question du SCALING (P2#3) non résolue : comment passer de la marge à la masse sans se faire écraser ?"
+
+iceberg:
+  - "3 adaptations documentées : défense juridique, compartimentage financier, ancrage institutionnel"
+  - "Inversion du modèle corpus : public et légal plutôt que clandestin et chiffré"
+  - "Coût d'entrée du modèle 'transparence juridique' : 5 000-10 000 € minimum"
+  - "La marginalité comme condition de survie : question du scaling non résolue"
+
+chronologie:
+  - "2012-2018 : ZAD Notre-Dame-des-Landes"
+  - "2018 : Abandon projet aéroport NDDL"
+  - "2023 : Dissolution LST par le gouvernement"
+  - "2023 : Sainte-Soline"
+  - "2024 : Suspension dissolution LST par Conseil d'État"
+
+domaines:
+  - "mouvements_sociaux_france"
+  - "defense_juridique"
+  - "financement_militant"
+  - "droit_administratif"
+
+urls: []

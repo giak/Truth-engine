@@ -1,0 +1,91 @@
+enquete_id: "obsolescence_ia"
+complexity: "APEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p1_obsolescence_ia/2026-06-12_12-00_obsolescence_ia_ira_solidarnosc_zapatistes_INVESTIGATION.md"
+
+these_centrale: "Les succès historiques (IRA, Solidarnosc, Zapatistes) ne sont pas rendus obsolètes par nature sous LOPMI 2023, mais leurs supports de communication le sont. La survie dépend de facteurs POLITIQUES (sanctuaires extérieurs, équilibres géopolitiques, coût de la répression), pas techniques (low-tech, vide numérique). Le 'retour à l'analogique' n'est pas scalable (empreintes physiques exploitables par l'IA vidéo). La solution : compartimentation cellulaire (ASU IRA), sanctuaires politiques, hybridation numérique/analogique, et leurres numériques."
+
+theses_implicites:
+  - "La surveillance algorithmique est optimisée pour la MASSE visible, pas pour la CLANDESTINITÉ — mais l'IA vidéo LOPMI comble cet angle mort en exploitant les traces physiques."
+  - "Le 'vide numérique' est une illusion : toute coordination physique génère des patterns exploitables par 1,5M caméras et Palantir."
+  - "La résilience est politique, pas technique : les Zapatistes survivent grâce à l'équilibre politique avec l'État mexicain, pas grâce à la jungle."
+
+acteurs:
+  - "IRA (1969-1998) : ASU cellule 4-5 pers., sanctuaires République d'Irlande, NORAID, Sinn Féin"
+  - "Solidarnosc (1980-1989) : 17 → 10M membres, bulletins imprimés, églises, Wałęsa"
+  - "Zapatistes/EZLN (1994-2026) : jungle Chiapas, équilibre politique avec État mexicain"
+  - "LOPMI 2023 : IA prédictive, reconnaissance faciale, traitement algorithmique vidéosurveillance"
+  - "Palantir/DGSI : contrat renouvelé 2025, Foundry — croisement données hétérogènes"
+  - "Keck & Sikkink (1998) : Boomerang Effect, Transnational Advocacy Networks"
+
+causalites:
+  - "LOPMI 2023 + Palantir + 1,5M caméras → obsolescence des supports de communication historiques"
+  - "Équilibre politique (coût répression > coût tolérance) → survie des Zapatistes, pas le vide numérique"
+  - "Boomerang Effect (Keck & Sikkink) → mécanisme de création d'équilibre politique par pression externe"
+  - "ASU cellulaire 4-5 pers. → seul modèle scalable de clandestinité analogique (IRA)"
+  - "IA vidéo pattern detection → détecte les empreintes physiques aussi efficacement que les métadonnées"
+
+perspectives_dialectiques:
+  - "Thèse : l'analogique protège (pas de signal numérique). Antithèse : l'IA vidéo LOPMI détecte les empreintes physiques aussi bien — le vide numérique est un mythe."
+  - "Thèse : la survie dépend de la technologie (low-tech). Antithèse corrigée : la survie dépend de l'équilibre politique (coût répression vs tolérance) — le low-tech est un facilitateur, pas la cause."
+  - "Thèse : les modèles historiques sont transposables. Antithèse : le corpus confond 'documentation de succès passés' et 'preuve de possibilité future' sans identifier les variables discriminantes."
+
+faits_atomiques:
+  - F-obs-001: "LOPMI 24 janvier 2023 autorise le traitement algorithmique des images de vidéosurveillance et l'IA prédictive. QPC 2024 : censure partielle reconnaissance faciale temps réel."
+    glyph: "✦"
+    url: "https://www.vie-publique.fr/loi/287605-loi-24-janvier-2023-lopmi"
+  - F-obs-002: "Contrat Palantir/DGSI renouvelé 2025 — Foundry croise téléphonie, réseaux sociaux, transactions, données mobilité."
+    glyph: "✧"
+  - F-obs-003: "PAVED (gendarmerie) et PredVol (Val d'Oise) : échecs de la police prédictive — mais ces échecs concernent la PRÉDICTION, pas la SURVEILLANCE."
+    glyph: "✧"
+  - F-obs-004: "IRA (1969-1998) : compartimentation cellulaire ASU 4-5 pers., sanctuaires Irlande, NORAID cash, communication courriers/cabines — 29 ans de survie."
+    glyph: "❧"
+  - F-obs-005: "Solidarnosc (1980-1989) : 17 → 10M membres en 16 mois — modèle le PLUS vulnérable à la surveillance algorithmique (visibilité de masse)."
+    glyph: "❧"
+  - F-obs-006: "Zapatistes : survie 30+ ans grâce à l'équilibre politique avec l'État mexicain, PAS grâce au vide numérique. Correction d'erreur de la version précédente."
+    glyph: "❧"
+  - F-obs-007: "Keck & Sikkink (1998) : Boomerang Effect — mouvement domestique bloqué → alliés ONG internationales → pression externe sur État répressif. Condition : reformuler en 'droits humains'."
+    glyph: "✦"
+  - F-obs-008: "Retour à l'analogique : limite d'échelle fatale — coordination 100% analogique de 10 000 pers. génère empreintes physiques massives exploitables par IA vidéo."
+    glyph: "❧"
+  - F-obs-009: "France : ~1,5M caméras vidéosurveillance (2023, estimation CNIL) — traitement algorithmique autorisé par LOPMI."
+    glyph: "✧"
+
+limites:
+  - "Analyse contrefactuelle invérifiable par définition."
+  - "Données Palantir/DGSI opaques (secret-défense)."
+  - "Contre-mesures low-tech jamais testées à l'échelle en France."
+  - "QPC 2024 a censuré PARTIELLEMENT la reconnaissance faciale — cadre juridique évolutif."
+
+wolves:
+  - loup: "Le corpus confond 'documentation de succès passés' et 'preuve de possibilité future'"
+    reponse: "Le corpus compare, pas transpose. Mais la comparaison reste qualitative — une QCA (Qualitative Comparative Analysis) renforcerait la validité."
+  - loup: "Le 'vide numérique' est un wishful thinking : 1,5M caméras LOPMI détectent les empreintes physiques"
+    reponse: "Exact. La différence est quantitative : surface d'attaque réduite (physique seulement vs numérique+physique), pas éliminée."
+  - loup: "Si la survie dépend d'un équilibre politique avec l'État, le corpus n'a aucune stratégie pour le créer"
+    reponse: "Wolf le plus profond. Stratégies existent (Boomerang Effect, internationalisation, réseaux transnationaux) mais non testées en France 2026. Investigation 'Boomerang Mapping' nécessaire."
+
+iceberg:
+  - "3 mécanismes de création d'équilibre politique : désenclaver le conflit, convertir les alliés en monnaie politique, reformuler en normes internationales"
+  - "Hybridation numérique/analogique : numérique pour visibilité légale (front politique), analogique pour coordination opérationnelle (modèle IRA)"
+  - "Leurres numériques : génération de bruit algorithmique pour saturer la surveillance"
+  - "Boomerang Mapping : investigation manquante sur les alliés internationaux mobilisables"
+
+chronologie:
+  - "1969-1998 : IRA (Good Friday Agreement)"
+  - "1980-1989 : Solidarnosc"
+  - "1994-2026 : Zapatistes/EZLN"
+  - "1998 : Keck & Sikkink, Activists Beyond Borders"
+  - "2023 : LOPMI"
+  - "2024 : QPC reconnaissance faciale"
+  - "2025 : Renouvellement contrat Palantir/DGSI"
+
+domaines:
+  - "surveillance_algorithmique"
+  - "mouvements_historiques"
+  - "strategie_politique"
+  - "contre_mesures_numeriques"
+
+urls:
+  - "https://www.vie-publique.fr/loi/287605-loi-24-janvier-2023-lopmi"
+  - "https://www.conseil-constitutionnel.fr/decision/2024/20241065_QPC.htm"

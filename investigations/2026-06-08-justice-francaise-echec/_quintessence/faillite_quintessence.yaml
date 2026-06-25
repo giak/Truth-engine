@@ -1,0 +1,210 @@
+enquete_id: "faillite"
+complexity: "APEX"
+date_extraction: "2026-06-09"
+enquete_source: "2026-06-08_18-00_lyhanna_faillite_judiciaire_INVESTIGATION.md"
+
+these_centrale: "L'assassinat de Lyhanna (11 ans, 29 mai 2026) est le produit direct de 5 défaillances systémiques convergentes : sous-dimensionnement budgétaire chronique de la justice (0,20% PIB), allocation asymétrique des ressources pénales (répression politique prioritaire sur protection des mineurs), dépendance du parquet à l'exécutif, culture d'impunité institutionnelle (zéro démission), et inversion des priorités pénales (350+ condamnations apologie terrorisme vs zéro interpellation Barella)."
+
+theses_implicites:
+  - "Le système judiciaire n'est pas défaillant : il fonctionne exactement comme conçu, allouant ses ressources de contrôle et de punition avec une précision chirurgicale qui révèle sa finalité réelle (protéger l'ordre établi, pas les citoyens)."
+  - "L'absence de sanction des responsables (zéro démission, zéro limogeage) n'est pas un accident mais le mécanisme central de reproduction du système."
+  - "La revue des 70 000 dossiers annoncée par Darmanin sans moyens supplémentaires est un exercice cosmétique destiné à gagner du temps jusqu'à l'oubli médiatique."
+
+faits_atomiques:
+  - id: "F-LYH-001"
+    enonce: "Lyhanna, 11 ans, disparaît à Fleurance (Gers) le 29 mai 2026."
+    source_url: "https://www.franceinfo.fr/faits-divers/disparition-de-lyhanna-dans-le-gers/"
+    source_section: "§1.2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LYH-003"
+    enonce: "Le corps de Lyhanna est retrouvé le 4 juin 2026 à Puycasquier (Gers), dans un silo agricole désaffecté. Autopsie : enlèvement, séquestration, viol et assassinat."
+    source_url: "https://www.sudouest.fr/faits-divers/disparition-de-lyhanna/"
+    source_section: "§1.2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LYH-005"
+    enonce: "Jérôme Barella, 41 ans, avait un casier judiciaire vierge malgré au moins 9 procédures antérieures (dont 4 plaintes pour viol sur mineur) sans aucune interpellation."
+    source_url: "https://www.sudouest.fr/faits-divers/disparition-de-lyhanna/affaire-lyhanna-un-casier-vierge-mais-plusieurs-plaintes-et-signalements-pour-viol-ou-agressions-jerome-barella-cet-homme-reste-sous-les-radars-de-la-justice-29374762.php"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LYH-006"
+    enonce: "Barella licencié en 2021 d'un lycée de Lectoure pour comportement inapproprié envers une élève. Aucun signalement Article 40 documenté."
+    source_url: "https://www.franceinfo.fr/faits-divers/disparition-de-lyhanna-dans-le-gers/il-donnait-l-impression-de-rechercher-des-filles-plus-jeunes-le-profil-trouble-de-jerome-barella-principal-suspect-dans-la-disparition-de-lyhanna-dans-le-gers_8046080.html"
+    source_section: "§1.1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LYH-008"
+    enonce: "Marche blanche à Fleurance le 7 juin 2026 : ~6 000 participants. Les parents refusent la présence des politiques. « Plus jamais ça ! »"
+    source_url: "https://www.theguardian.com/world/2026/jun/07/thousands-march-for-french-schoolgirl-murdered-after-police-failed-to-question-suspect"
+    source_section: "§1.2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LYH-012"
+    enonce: "France : 11,3 juges pour 100 000 habitants (moyenne UE : 21,9) selon CEPEJ 2024."
+    source_url: "https://www.coe.int/fr/web/portal/-/efficacit%C3%A9-et-qualit%C3%A9-de-la-justice-en-europe-le-conseil-de-l-europe-publie-son-rapport-2024"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LYH-014"
+    enonce: "Budget justice France : 0,20% du PIB (médiane UE : 0,31%). Justice ~10,7 Md€ 2026 vs Défense 45-50 Md€ vs Intérieur 20-25 Md€."
+    source_url: "https://www.coe.int/fr/web/portal/-/efficacit%C3%A9-et-qualit%C3%A9-de-la-justice-en-europe-le-conseil-de-l-europe-publie-son-rapport-2024"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LYH-015"
+    enonce: "CEDH condamne la France le 24 avril 2025 pour défaut de protection des mineurs contre les violences sexuelles (L. and Others v. France)."
+    source_url: "https://hudoc.echr.coe.int/eng?i=002-14454"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LYH-020"
+    enonce: "Confiance dans la justice française : 27% (CEVIPOF 2025)."
+    source_url: "https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-du-cevipof-2025-le-grand-desarroi-democratique/"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LYH-016"
+    enonce: "Circulaire Dupond-Moretti post-7 octobre 2023 : 350+ condamnations pour apologie du terrorisme en 2 ans."
+    source_url: ""
+    source_section: "§1.3"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Lyhanna"
+    role: "Victime, 11 ans, assassinée le 29 mai 2026 à Fleurance (Gers)"
+    faits_lies: ["F-LYH-001", "F-LYH-003"]
+  - nom: "Jérôme Barella"
+    role: "Suspect principal, 41 ans, agent de maintenance, 9 procédures antérieures sans interpellation, casier vierge"
+    faits_lies: ["F-LYH-005", "F-LYH-006"]
+  - nom: "Clémence Meyer"
+    role: "Procureure de la République d'Auch, 3 procureurs pour ~190 000 habitants, n'a pas ordonné de poursuites malgré 4+ plaintes pour viol sur mineur"
+    faits_lies: ["F-LYH-005"]
+  - nom: "Gérald Darmanin"
+    role: "Garde des Sceaux depuis 2026, refuse de démissionner, ordonne revue cosmétique de 70 000 dossiers sans moyens supplémentaires, pattern de défausse documenté (Stade de France, SMS)"
+    faits_lies: ["F-LYH-016"]
+  - nom: "Emmanuel Macron"
+    role: "Président, promesse 2022 non tenue, budget justice stagnant à 0,20% PIB depuis 2017, son gouvernement a écarté Durand de la CIIVISE"
+    faits_lies: ["F-LYH-014", "F-LYH-015"]
+  - nom: "Éric Dupond-Moretti"
+    role: "Ex-Garde des Sceaux (2020-2023), circulaire post-7 octobre appliquée avec zèle, circulaire protection mineurs restée lettre morte"
+    faits_lies: ["F-LYH-016"]
+  - nom: "Édouard Durand"
+    role: "Juge des enfants, 1er président de la CIIVISE, écarté en décembre 2023, auteur de 160 000 Enfants (2024)"
+    faits_lies: []
+
+causalites:
+  - cause: "F-LYH-006"
+    effet: "F-LYH-001"
+    mecanisme: "Licenciement discret sans signalement Article 40 en 2021 → Barella jamais fiché → plaintes ultérieures non croisées → prédateur libre → Lyhanna enlevée et assassinée"
+  - cause: "F-LYH-016"
+    effet: "F-LYH-005"
+    mecanisme: "Circulaire post-7 octobre = 350+ condamnations rapides. Circulaire protection mineurs = zéro application. Asymétrie des priorités pénales : répression politique prioritaire, protection enfants négligée"
+  - cause: "F-LYH-014"
+    effet: "F-LYH-003"
+    mecanisme: "Budget justice stagnant à 0,20% PIB depuis 2017 → sous-effectif chronique → plaintes non traitées → prédateur libre → enfant morte"
+  - cause: "F-LYH-015"
+    effet: "F-LYH-014"
+    mecanisme: "CEDH condamne la France (avril 2025) → aucune conséquence institutionnelle → budget justice inchangé → prochaine victime"
+
+perspectives_dialectiques:
+  - position: "Thèse (officielle)"
+    argument: "Défaillances individuelles, pas systémiques. Le budget a augmenté en valeur absolue (7 Md€ → 10,7 Md€). Des circulaires existent, elles n'ont simplement pas été appliquées. L'IGJ enquête."
+  - position: "Antithèse (critique)"
+    argument: "Système conçu pour échouer. La justice est maintenue dans un sous-dimensionnement chronique qui sert le pouvoir. Le parquet, dépendant de l'exécutif, priorise la répression politique sur la protection des citoyens. Zéro démission = reproduction garantie."
+  - position: "Synthèse"
+    argument: "Les deux thèses décrivent deux niveaux du même phénomène. La condition de réfutation : si le gouvernement alignait le budget justice sur la moyenne UE (0,31% PIB) et réformait le CSM, la thèse systémique serait fragilisée. L'absence de ces engagements renforce la thèse critique."
+
+limites:
+  - "Sources primaires limitées : l'enquête repose principalement sur des sources secondaires (presse, transcript, rapports publics). Les pièces judiciaires ne sont pas accessibles."
+  - "Biais de confirmation : l'enquête s'inscrit dans une œuvre dont la thèse (système verrouillé) préexiste à l'affaire Lyhanna."
+  - "Absence de contradictoire direct : ni la procureure d'Auch, ni Darmanin, ni les magistrats n'ont été interrogés."
+  - "Temporalité : enquête rédigée 4 jours après la découverte du corps. Des informations nouvelles peuvent émerger."
+  - "Effet de loupe : l'affaire Lyhanna est exceptionnelle par sa médiatisation. Des milliers d'autres violences sur mineurs ne font jamais la une."
+
+wolves:
+  - nom: "Clémence Meyer"
+    argument: "La procureure d'Auch disposait d'un seul dossier criminel grave et ne l'a pas traité, invoquant une compétence territoriale discutable."
+    reponse: "Le parquet d'Auch comptait 3 procureurs pour 190 000 habitants. La charge de travail était structurellement excessive. Mais le choix de ne pas traiter le seul dossier grave relève d'une priorisation défaillante."
+  - nom: "Gérald Darmanin"
+    argument: "Garde des Sceaux depuis 2026, refuse de démissionner après un scandale relevant de sa responsabilité ministérielle. Pattern de défausse : Stade de France → SMS → Lyhanna."
+    reponse: "La non-démission est devenue une constante du système. Darmanin n'est pas l'exception, il est la règle. La question n'est pas individuelle, elle est structurelle."
+  - nom: "Emmanuel Macron"
+    argument: "Promesse 2022 non tenue. Son gouvernement a écarté Durand de la CIIVISE. Budget justice stagnant depuis 9 ans."
+    reponse: "La destruction est méthodique : promesses non tenues, commissions vidées, budgets gelés. Le constat de fonction suffit, nul besoin d'imputer une intention malveillante."
+
+iceberg:
+  - "396 900 enfants suivis par l'ASE : combien sont réellement protégés ?"
+  - "Pour chaque Lyhanna médiatisée, combien d'enfants victimes de prédateurs connus mais jamais interpellés ?"
+  - "La justice française est le 4e budget le plus faible d'Europe en part du PIB"
+  - "Le cycle : scandale → émotion → promesses → oubli → prochaine victime"
+  - "Résultat Mnemolite: non interrogé (MCP non disponible)"
+
+chronologie:
+  - date: "2021-01-01"
+    evenement: "Barella licencié du lycée de Lectoure pour comportement inapproprié envers une élève. Aucun signalement Article 40 documenté."
+    source_fait: "F-LYH-006"
+  - date: "2022-01-01"
+    evenement: "Macron promet : La protection de l'enfance sera au cœur des 5 années qui viennent."
+    source_fait: "F-LYH-023"
+  - date: "2023-10-10"
+    evenement: "Circulaire Dupond-Moretti JUSD2327199C post-7 octobre : réponse pénale ferme et rapide pour apologie du terrorisme."
+    source_fait: "F-LYH-016"
+  - date: "2023-12-01"
+    evenement: "Édouard Durand écarté de la présidence de la CIIVISE. 11 membres démissionnent."
+    source_fait: "F-FR-013"
+  - date: "2024-01-01"
+    evenement: "2024-2025 : au moins 4 plaintes pour viol sur mineur déposées contre Barella, transmises au parquet d'Auch, jamais traitées."
+    source_fait: "F-LYH-005"
+  - date: "2025-04-24"
+    evenement: "CEDH condamne la France pour défaut de protection des mineurs (L. and Others v. France)."
+    source_fait: "F-LYH-015"
+  - date: "2026-05-29"
+    evenement: "Lyhanna, 11 ans, disparaît à Fleurance (Gers)."
+    source_fait: "F-LYH-001"
+  - date: "2026-06-04"
+    evenement: "Corps de Lyhanna retrouvé à Puycasquier. Autopsie : enlèvement, séquestration, viol, assassinat."
+    source_fait: "F-LYH-003"
+  - date: "2026-06-07"
+    evenement: "Marche blanche à Fleurance : ~6 000 personnes. Darmanin reconnaît des défaillances graves sur LCI."
+    source_fait: "F-LYH-008"
+  - date: "2026-06-08"
+    evenement: "Darmanin ordonne revue de 70 000 dossiers, deadline 14 juillet. Refuse de démissionner."
+    source_fait: "F-LYH-010"
+
+domaines:
+  - "Justice"
+  - "Politique"
+  - "Sociologie"
+  - "Médias"
+  - "Protection de l'enfance"
+
+urls_prioritaires:
+  - url: "https://www.coe.int/fr/web/portal/-/efficacit%C3%A9-et-qualit%C3%A9-de-la-justice-en-europe-le-conseil-de-l-europe-publie-son-rapport-2024"
+    description: "Rapport CEPEJ 2024 : données officielles sur le sous-dimensionnement de la justice française (11,3 juges/100k, 0,20% PIB)"
+    head_status: 200
+  - url: "https://hudoc.echr.coe.int/eng?i=002-14454"
+    description: "Arrêt CEDH L. and Others v. France (24 avril 2025) : condamnation pour défaut de protection des mineurs"
+    head_status: 200
+  - url: "https://www.sudouest.fr/faits-divers/disparition-de-lyhanna/affaire-lyhanna-un-casier-vierge-mais-plusieurs-plaintes-et-signalements-pour-viol-ou-agressions-jerome-barella-cet-homme-reste-sous-les-radars-de-la-justice-29374762.php"
+    description: "Sud Ouest : article de référence sur le casier vierge de Barella malgré 9 procédures antérieures"
+    head_status: 200
+
+shadow_factor: 5.0
+mnemo_queries:
+  - query: "justice France budget PIB magistrats"
+    results_count: 0
+  - query: "Lyhanna Barella pédocriminalité système"
+    results_count: 0

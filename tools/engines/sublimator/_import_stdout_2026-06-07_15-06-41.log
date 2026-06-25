@@ -1,0 +1,29 @@
+Fichiers INVESTIGATION.md : 400
+API : http://localhost:8001/api/v1/memories
+Delai : 0.5s | Timeout : 120s | Retries : 3
+Log  : /home/giak/projects/truth-engine/tools/engines/sublimator/_import_log.jsonl
+Progres : /home/giak/projects/truth-engine/tools/engines/sublimator/_import_progress.json
+
+  [40/400] ✓3 ✗0 ↷37 | 200s | ~1804s restants
+  [220/400] ✓23 ✗0 ↷197 | 1585s | ~1297s restants
+  [240/400] ✓43 ✗0 ↷197 | 2874s | ~1916s restants
+  [260/400] ✓63 ✗0 ↷197 | 4659s | ~2509s restants
+  [280/400] ✓83 ✗0 ↷197 | 6513s | ~2791s restants
+  [300/400] ✓103 ✗0 ↷197 | 7487s | ~2496s restants
+  [320/400] ✓123 ✗0 ↷197 | 8278s | ~2070s restants
+  [340/400] ✓143 ✗0 ↷197 | 9038s | ~1595s restants
+  [360/400] ✓163 ✗0 ↷197 | 10592s | ~1177s restants
+  [380/400] ✓183 ✗0 ↷197 | 12260s | ~645s restants
+  [400/400] ✓203 ✗0 ↷197 | 12796s | ~0s restants
+
+============================================================
+IMPORT TERMINE
+  Importes : 203
+  Echecs   : 0
+  Ignores  : 197
+  Total    : 400
+  Duree    : 12796s (213.3 min)
+  Log      : /home/giak/projects/truth-engine/tools/engines/sublimator/_import_log.jsonl
+  Progres  : /home/giak/projects/truth-engine/tools/engines/sublimator/_import_progress.json
+
+⚠ Email erreur: Command '['/usr/sbin/sendmail', '-t', '-oi']' timed out after 30 seconds

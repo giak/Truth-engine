@@ -1,0 +1,278 @@
+enquete_id: "leonarduzzi"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "investigations/2026-06-19-performativite-gouvernance/2026-06-19_08-45_leonarduzzi_telling_spin_INVESTIGATION.md"
+
+these_centrale: "Clément Léonarduzzi est l'architecte invisible de la communication d'Emmanuel Macron, nœud Élysée/CAC40/Publicis, opérateur de la porte tournante entre pouvoir politique et intérêts privés du conseil en communication."
+
+theses_implicites:
+  - "Le spin doctor n'est plus un technicien mais un acteur politique de facto, participant aux décisions d'État sans mandat électif"
+  - "La porte tournante Élysée-Publicis est structurelle : le capital social accumulé au service de l'État est monétisé dans le privé"
+  - "Le système HATVP est un paravent : quitus donné sans transparence publique, 77% des réserves non suivies"
+  - "Le recrutement par SMS révèle une informalité décisionnelle au sommet de l'État"
+
+faits_atomiques:
+  - id: "F-LEONARDUZZI-001"
+    enonce: "Né le 19 novembre 1979 à Nogent-sur-Marne"
+    source_url: "https://fr.wikipedia.org/wiki/Cl%C3%A9ment_L%C3%A9onarduzzi"
+    source_section: "§11 #1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-002"
+    enonce: "Diplômé Sciences Po Bordeaux (2000) et ICP master relations européennes (2003)"
+    source_url: "https://fr.wikipedia.org/wiki/Cl%C3%A9ment_L%C3%A9onarduzzi"
+    source_section: "§11 #2-3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-003"
+    enonce: "Fonde Clekom Conseil en 2011, agence de communication de crise"
+    source_url: "https://fr.wikipedia.org/wiki/Cl%C3%A9ment_L%C3%A9onarduzzi"
+    source_section: "§11 #4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-004"
+    enonce: "Président exécutif de Publicis Consultants depuis 2017"
+    source_url: "https://fr.wikipedia.org/wiki/Cl%C3%A9ment_L%C3%A9onarduzzi"
+    source_section: "§11 #5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-005"
+    enonce: "Recruté été 2020 par SMS de Macron comme conseiller communication Élysée"
+    source_url: "https://www.dna.fr/politique/2021/11/10/qui-est-clement-leonarduzzi-le-monsieur-communication-d-emmanuel-macron"
+    source_section: "§11 #6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-006"
+    enonce: "Principal stratège campagne réélection Macron 2022"
+    source_url: "https://www.lemonde.fr/m-le-mag/article/2022/04/27/clement-leonarduzzi-le-spin-doctor-de-choc-d-emmanuel-macron_6123930_4500055.html"
+    source_section: "§11 #7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-007"
+    enonce: "Conseille Bernard Arnault (LVMH) depuis 2015"
+    source_url: "https://www.nouvelobs.com/politique/20240425.OBS87561/de-macron-aux-grands-patrons-enquete-sur-l-influent-m-leonarduzzi.html"
+    source_section: "§11 #8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-008"
+    enonce: "Nommé VP Publicis France juin 2022, immédiatement après départ Élysée"
+    source_url: "https://www.publicisgroupe.com/fr/news-fr/communiques-de-presse/publicis-groupe-nomme-clement-leonarduzzi-president-executif-de-publicis-consultants"
+    source_section: "§11 #9"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-009"
+    enonce: "Maintient un « contact étroit » avec Macron post-Élysée"
+    source_url: "https://www.latribune.fr/economie/legislatives-2017/legislatives-le-retour-de-leonarduzzi-dans-l-equipe-renaissance-999658.html"
+    source_section: "§11 #10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-LEONARDUZZI-010"
+    enonce: "Sarkozy entremetteur pour contrat PSG (octobre 2022)"
+    source_url: "https://www.lalettre.fr/fr/entreprises_conseil-et-services/2022/10/25/sarkozy-aide-leonarduzzi-a-seduire-le-psg,109838320-art"
+    source_section: "§11 #12"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-LEONARDUZZI-011"
+    enonce: "HATVP saisie sept 2023 pour connexions élyséennes, quitus nov 2023"
+    source_url: "https://www.lalettre.fr/fr/politique_lobbying/2023/11/10/la-hatvp-donne-quitus-a-clement-leonarduzzi,110086213-bre"
+    source_section: "§11 #13"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-012"
+    enonce: "Associé à la décision de dissolution de l'Assemblée (juin 2024)"
+    source_url: "https://www.lemonde.fr/m-le-mag/article/2024/06/12/aupres-d-emmanuel-macron-les-apprentis-sorciers-de-la-dissolution_6239041_4500055.html"
+    source_section: "§11 #14"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-013"
+    enonce: "Bénévole campagne législatives 2024 avec Renaissance"
+    source_url: "https://www.latribune.fr/economie/legislatives-2017/legislatives-le-retour-de-leonarduzzi-dans-l-equipe-renaissance-999658.html"
+    source_section: "§11 #15"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-LEONARDUZZI-014"
+    enonce: "Publicis Consultants: 31M€ CA, 160 personnes"
+    source_url: "https://www.strategies.fr/actualites/agences/LQ4627712C/les-5-recos-de-clement-leonarduzzi-publicis-pour-gerer-des-annonces-difficiles.html"
+    source_section: "§11 #16"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-LEONARDUZZI-015"
+    enonce: "Décoré Chevalier du Mérite à l'Élysée (décembre 2024)"
+    source_url: "https://www.lemonde.fr/politique/article/2024/12/07/a-l-elysee-l-ex-conseiller-presidentiel-clement-leonarduzzi-decore_6435090_823448.html"
+    source_section: "§11 #17"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-LEONARDUZZI-016"
+    enonce: "Décoration réunit parterre de patrons CAC 40"
+    source_url: "https://www.lefigaro.fr/politique/de-l-elysee-a-notre-dame-clement-leonarduzzi-l-homme-des-missions-impossibles-d-emmanuel-macron-20241206"
+    source_section: "§11 #18"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-LEONARDUZZI-017"
+    enonce: "Lance boutique conseil stratégique Publicis (oct 2024), concurrence BCG/McKinsey"
+    source_url: "https://www.lalettre.fr/fr/entreprises_conseil-et-services/2024/10/23/publicis--leonarduzzi-lance-une-boutique-interne-pour-marcher-sur-les-plates-bandes-du-bcg-et-de-mckinsey,110330607-eve"
+    source_section: "§11 #19"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-LEONARDUZZI-018"
+    enonce: "Publicis Consultants passe de 8 à 10 directeurs associés (juin 2023), afflux clients post-Élysée"
+    source_url: "https://www.lalettre.fr/fr/entreprises_conseil-et-services/2023/06/07/publicis-consultants-elargit-son-partenariat-et-accueille-dix-directeurs-associes,109964938-bre"
+    source_section: "§10 Chaîne 1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Clément Léonarduzzi"
+    role: "Spin doctor, VP Publicis France, hub central du réseau"
+    faits_lies: ["F-LEONARDUZZI-001", "F-LEONARDUZZI-005", "F-LEONARDUZZI-008"]
+  - nom: "Emmanuel Macron"
+    role: "Président, donneur d'ordre, relation personnelle directe"
+    faits_lies: ["F-LEONARDUZZI-005", "F-LEONARDUZZI-006", "F-LEONARDUZZI-012"]
+  - nom: "Alexis Kohler"
+    role: "Secrétaire général Élysée, rival"
+    faits_lies: ["F-LEONARDUZZI-019"]
+  - nom: "Bernard Arnault"
+    role: "Client privé (LVMH) depuis 2015"
+    faits_lies: ["F-LEONARDUZZI-007"]
+  - nom: "Nicolas Sarkozy"
+    role: "Ex-président, entremetteur contrat PSG"
+    faits_lies: ["F-LEONARDUZZI-010"]
+  - nom: "Agathe Bousquet"
+    role: "Présidente Publicis France, nomme Léonarduzzi VP"
+    faits_lies: ["F-LEONARDUZZI-008"]
+  - nom: "Arthur Sadoun"
+    role: "PDG Publicis Groupe"
+    faits_lies: []
+  - nom: "Jonathan Guémas"
+    role: "Poulain formé par Léonarduzzi, conseiller presse Élysée"
+    faits_lies: ["F-LEONARDUZZI-020"]
+  - nom: "HATVP"
+    role: "Autorité de contrôle déontologique"
+    faits_lies: ["F-LEONARDUZZI-011"]
+  - nom: "Frédéric Michel"
+    role: "Successeur comme conseiller com' Élysée, ex-Murdoch"
+    faits_lies: []
+
+causalites:
+  - cause: "F-LEONARDUZZI-005"
+    effet: "F-LEONARDUZZI-006"
+    mecanisme: "Recrutement Élysée → accès pouvoir → position de stratège campagne présidentielle"
+  - cause: "F-LEONARDUZZI-005"
+    effet: "F-LEONARDUZZI-008"
+    mecanisme: "Capital social accumulé à l'Élysée → monétisation immédiate chez Publicis comme VP"
+  - cause: "F-LEONARDUZZI-012"
+    effet: "Dissolution Assemblée 2024"
+    mecanisme: "Participation non-élu aux cercles décisionnels → influence sur décision d'État majeure"
+
+perspectives_dialectiques:
+  - position: "Thèse (défenseur du système)"
+    argument: "Léonarduzzi est un professionnel talentueux qui a mis son expertise au service de l'État puis l'a valorisée dans le privé légitimement. La HATVP l'a blanchi. Le système des portes tournantes permet l'expertise croisée."
+  - position: "Antithèse (critique radicale)"
+    argument: "Léonarduzzi illustre la capture démocratique : un homme sans mandat participant aux décisions d'État, monnayant son accès au pouvoir, utilisant la HATVP comme paravent. La Macronie est un système de connivence."
+  - position: "Synthèse (systémique)"
+    argument: "Léonarduzzi n'est ni génie ni corrompu mais la conséquence logique d'un système où la communication est devenue le cœur du pouvoir politique. Le problème est l'hypertrophie de la communication qui vide la démocratie."
+
+limites:
+  - "Sources presse principalement (Le Monde, Le Figaro, La Lettre) — potentiel biais pro-système ou réceptacle de fuites off"
+  - "Absence de données financières personnelles (rémunération exacte chez Publicis non publique)"
+  - "Dossier HATVP clos mais contenu non public"
+  - "Relation post-Élysée avec Macron documentée par sources indirectes seulement"
+
+wolves:
+  - nom: "Clément Léonarduzzi"
+    argument: "Opérateur de l'ombre, gatekeeper de l'info présidentielle, monnaye son accès au pouvoir"
+    reponse: "Son pouvoir tient à sa position de nœud entre Élysée, Publicis, CAC 40 et médias"
+  - nom: "Alexis Kohler"
+    argument: "Rival, contre-pouvoir dans l'ombre, secrétaire général Élysée"
+    reponse: "Rivalité structurelle entre le communicant et le bureaucrate"
+  - nom: "Nicolas Sarkozy"
+    argument: "Wolf historique, entremetteur pour contrat PSG"
+    reponse: "Normalisation de l'utilisation du capital politique à des fins commerciales"
+  - nom: "Frédéric Michel"
+    argument: "Successeur, wolf international, ex-Murdoch"
+    reponse: "Internationalisation du spin doctoring macroniste"
+
+iceberg:
+  - "Léonarduzzi est connecté à la caste des 1500 communicants d'État (formation CELSA, circulation public-privé) — voir investigation communicants_caste"
+  - "Le rachat de Bestimage par Xavier Niel (2024) et la concentration Bolloré sur la presse people créent un écosystème où le contrôle narratif s'exerce à tous les niveaux : spin doctors présidentiels + agences people + médias Bolloré"
+  - "La performativité comme mensonge systémique : Léonarduzzi est un rouage de la machine performative où la communication remplace l'action publique"
+  - "Le lien avec Mimi Marchand/Bestimage n'est pas documenté directement mais converge via Niel et Bolloré dans le même système de fabrique du consentement"
+
+chronologie:
+  - date: "2011-10"
+    evenement: "Fonde Clekom Conseil"
+    source_fait: "F-LEONARDUZZI-003"
+  - date: "2020-06"
+    evenement: "Recruté par SMS de Macron"
+    source_fait: "F-LEONARDUZZI-005"
+  - date: "2022-04"
+    evenement: "Stratège principal campagne réélection"
+    source_fait: "F-LEONARDUZZI-006"
+  - date: "2022-06"
+    evenement: "Nommé VP Publicis France"
+    source_fait: "F-LEONARDUZZI-008"
+  - date: "2022-10"
+    evenement: "Sarkozy entremetteur contrat PSG"
+    source_fait: "F-LEONARDUZZI-010"
+  - date: "2023-11"
+    evenement: "HATVP donne quitus"
+    source_fait: "F-LEONARDUZZI-011"
+  - date: "2024-06"
+    evenement: "Associé décision dissolution Assemblée"
+    source_fait: "F-LEONARDUZZI-012"
+  - date: "2024-10"
+    evenement: "Lance boutique conseil stratégique"
+    source_fait: "F-LEONARDUZZI-017"
+  - date: "2024-12"
+    evenement: "Décoré Chevalier du Mérite"
+    source_fait: "F-LEONARDUZZI-015"
+
+domaines:
+  - "Communication politique"
+  - "Conseil corporate et crise (Publicis)"
+  - "Réseautage politique (Les Gracques → Macronie)"
+  - "Médias et contrôle narratif"
+  - "Financement et flux d'argent (CAC 40, Publicis)"
+
+urls_prioritaires:
+  - url: "https://fr.wikipedia.org/wiki/Cl%C3%A9ment_L%C3%A9onarduzzi"
+    description: "Biographie Wikipédia Léonarduzzi"
+    head_status: 200
+  - url: "https://www.lemonde.fr/m-le-mag/article/2022/04/27/clement-leonarduzzi-le-spin-doctor-de-choc-d-emmanuel-macron_6123930_4500055.html"
+    description: "Le Monde — portrait du spin doctor de choc"
+    head_status: 200
+  - url: "https://www.nouvelobs.com/politique/20240425.OBS87561/de-macron-aux-grands-patrons-enquete-sur-l-influent-m-leonarduzzi.html"
+    description: "Nouvel Obs — enquête De Macron aux grands patrons"
+    head_status: 200
+  - url: "https://www.lalettre.fr/fr/politique_lobbying/2023/11/10/la-hatvp-donne-quitus-a-clement-leonarduzzi,110086213-bre"
+    description: "La Lettre — HATVP donne quitus"
+    head_status: 200
+  - url: "https://www.lemonde.fr/politique/article/2024/12/07/a-l-elysee-l-ex-conseiller-presidentiel-clement-leonarduzzi-decore_6435090_823448.html"
+    description: "Le Monde — décoration Chevalier du Mérite"
+    head_status: 200
+
+shadow_factor: 5.5
+
+mnemo_queries:
+  - query: "Clément Léonarduzzi spin doctor Macron Publicis revolving door communication présidentielle"
+    results_count: 5
+  - query: "Léonarduzzi telling communication politique HATVP"
+    results_count: 5

@@ -1,0 +1,149 @@
+enquete_id: "infiltration"
+complexity: "MEDIUM"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_sub_infiltration_systemique/2026-06-12_12-00_infiltration_systemique_probabilite_penetration_INVESTIGATION.md"
+
+these_centrale: "La probabilite de penetration d'une structure acephale par au moins un informateur sur 10 ans est >50% si le service adverse investit des ressources continues. L'acephalie protege contre la decapitation mais expose a l'infiltration massive : l'absence de structure de contre-espionnage rend l'horizontalite paradoxalement PLUS vulnerable que les structures pyramidales."
+
+theses_implicites:
+  - "Le corpus ne peut pas simultanement revendiquer l'etancheite (P3#8) et refuser la hierarchie (TC3) : le contre-espionnage exige une hierarchie disciplinaire que l'acephalie interdit."
+  - "L'infiltration ne detruit pas seulement par l'information qu'elle fournit mais par la PARANOIA qu'elle genere (purges internes FLN, supergrasses IRA)."
+  - "La surveillance technique contemporaine (IMSI-catchers, honeypots numeriques) rend l'infiltration possible sans agent humain sur le terrain."
+
+faits_atomiques:
+  - id: "F-inf-001"
+    enonce: "A la fin du conflit nord-irlandais, le niveau de penetration de l'IRA par les services britanniques (MI5, FRU) etait si eleve que des dirigeants de haut niveau etaient des informateurs (Stakeknife, 25 ans d'activite)."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-inf-002"
+    enonce: "Le FLN algerien a subi des purges internes massives provoquees par la crainte des taupes — les purges ont parfois tue plus de membres que les combats contre l'armee francaise."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-inf-003"
+    enonce: "Le recrutement d'informateurs suit le modele MICE : Money (argent), Ideology (retournement ideologique), Compromise (chantage), Ego (valorisation narcissique). Aucun levier n'est neutralise par l'acephalie."
+    source_url: null
+    source_section: "par2"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-inf-004"
+    enonce: "La surveillance technique (IMSI-catchers, honeypots numeriques) permet de cartographier un reseau acephale sans agent humain sur le terrain : les metadonnees de connexion suffisent."
+    source_url: null
+    source_section: "par2"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-inf-005"
+    enonce: "Paradoxe de l'acephalie : protege contre la decapitation (arreter le chef ne tue pas le mouvement) mais expose a l'infiltration massive (absence de structure de contre-espionnage)."
+    source_url: null
+    source_section: "par3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-inf-006"
+    enonce: "Probabilite de penetration sur 10 ans pour N>20 : >50% par analogie epidemiologique (loi de Poisson). Extrapolation theorique — aucune mesure empirique n'existe pour les structures acephales contemporaines."
+    source_url: null
+    source_section: "par3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-inf-007"
+    enonce: "Les contre-mesures historiques (cloisonnement pyramidal FLN, nutting squads IRA, formation OPSEC ANC) sont inapplicables a une structure acephale : elles exigent toutes une hierarchie."
+    source_url: null
+    source_section: "par4"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-inf-008"
+    enonce: "L'hygienisme numerique radical (changement frequent de canaux, limitation a 3-5 contacts par individu, offline-first pour le strategique) est la seule contre-mesure viable pour l'acephalie."
+    source_url: null
+    source_section: "par4"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Freddie Scappaticci (Stakeknife)"
+    role: "Haut responsable securite interne IRA — agent double du MI5 pendant 25 ans"
+    faits_lies: ["F-inf-001"]
+  - nom: "MI5 / FRU (Force Research Unit)"
+    role: "Services britanniques — ont penetre l'IRA au plus haut niveau"
+    faits_lies: ["F-inf-001"]
+  - nom: "SDECE (Service de Documentation Exterieure et de Contre-Espionnage)"
+    role: "Services francais — ont massivement infiltre le FLN via les 'rallies'"
+    faits_lies: ["F-inf-002"]
+
+causalites:
+  - cause: "F-inf-005"
+    effet: "F-inf-006"
+    mecanisme: "L'absence de contre-espionnage supprime le seul mecanisme de detection des informateurs. La probabilite cumulee de penetration tend vers 1 si le service adverse investit des ressources continues."
+  - cause: "F-inf-003"
+    effet: "F-inf-002"
+    mecanisme: "Les leviers MICE permettent le recrutement d'informateurs. La crainte de l'infiltration genere des purges internes (paranoia) qui detruisent la cohesion independamment de l'information transmise."
+
+perspectives_dialectiques:
+  - position: "These"
+    argument: "L'infiltration est une constante historique irreversible : toute structure clandestine finit par etre penetrate. L'acephalie, en supprimant le contre-espionnage, aggrave ce risque."
+  - position: "Antithese"
+    argument: "L'acephalie reduit l'impact de l'infiltration : un informateur dans une structure plate ne peut identifier que ses contacts immediats, pas les chefs ni les plans strategiques."
+  - position: "Synthese"
+    argument: "L'impact est reduit mais pas nul. Et l'infiltration genere de la paranoia qui detruit la cohesion. L'hygienisme numerique radical est la seule mitigation, au prix d'un ralentissement de la coordination."
+
+limites:
+  - "Probabilite >50% est une extrapolation theorique par analogie epidemiologique — aucune mesure empirique n'existe."
+  - "Les mouvements acephales documentes (LST, ZAD) sont jeunes (<5 ans) et n'ont pas encore ete testes sur une decennie."
+  - "L'hygienisme numerique radical (F-inf-008) ralentit la coordination et limite la taille du reseau."
+
+wolves:
+  - nom: "Impact reduit par l'horizontalite"
+    argument: "Dans une structure acephale, un informateur ne peut identifier que ses contacts immediats. L'information obtenue est moins dommageable que dans une structure hierarchique."
+    reponse: "Partiellement recevable. Mais l'impact n'est pas nul : l'informateur identifie les nœuds actifs, les methodes de communication, les cagnottes. Et la paranoia (F-inf-002) detruit independamment de l'information transmise."
+  - nom: "Assertion sans donnees"
+    argument: "La probabilite >50% est une modelisation theorique, pas une mesure empirique. Les mouvements acephales documentes fonctionnent sans avoir ete detruits par l'infiltration."
+    reponse: "Recevable — et l'enquete l'admet explicitement (note F-inf-006). Mais l'absence de donnees n'est pas une preuve d'absence de risque. Le temps tranchera."
+
+iceberg:
+  - "Quel est le taux de penetration REEL des mouvements acephales contemporains en France ? Donnees inexistantes — DGSI ne publie pas."
+  - "Mnemolite: UP (36942 memoires) mais API search en erreur 500."
+  - "Sujet immerge : la paranoia generee par l'infiltration est-elle plus destructrice que l'infiltration elle-meme ?"
+
+chronologie:
+  - date: "1970"
+    evenement: "Debut des Troubles — IRA structure compartimentee"
+    source_fait: "F-inf-001"
+  - date: "1980"
+    evenement: "Supergrass trials — tentatives de briser l'IRA via informateurs"
+    source_fait: "F-inf-001"
+  - date: "1998"
+    evenement: "Good Friday Agreement — fin du conflit arme"
+    source_fait: "F-inf-001"
+  - date: "2026"
+    evenement: "Modelisation probabilite de penetration acephale (extrapolation theorique)"
+    source_fait: "F-inf-006"
+
+domaines:
+  - "Contre-espionnage"
+  - "Renseignement"
+  - "OPSEC"
+  - "Theorie des organisations clandestines"
+
+urls_prioritaires:
+  - url: null
+    description: "Rapport d'enquete sur Stakeknife (Operation Kenova, 2024) — source primaire"
+    head_status: null
+
+shadow_factor: 3.5
+
+mnemo_queries:
+  - query: "coordination acephale"
+    results_count: 0
+    error: "API error 500"
+  - query: "OPSEC infiltration double structure"
+    results_count: 0
+    error: "API error 500"

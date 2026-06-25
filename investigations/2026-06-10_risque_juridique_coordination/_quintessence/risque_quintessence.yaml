@@ -1,0 +1,378 @@
+enquete_id: risque
+complexity: APEX
+date_extraction: '2026-06-12'
+enquete_source:
+- investigations/2026-06-10_risque_juridique_coordination/2026-06-10_10-00_risque_juridique_coordination_APEX.md
+- type: APEX
+- lignes: 800
+- fichiers: 1
+these_centrale: 'Le droit penal francais constitue un systeme anti-coordination autonome, coherent, et efficace. Il ne necessite
+  ni police ni juge pour fonctionner : la simple menace de 10 ans d''association de malfaiteurs (art.450-1 CP) suffit a dissoudre
+  un reseau emergent. Le droit est l''arme la plus efficace car elle est legitime, invisible, et auto-executoire. Les 8 protocoles
+  de la HYPER_MATRICE sont quasi tous illegaux. Score de risque global : 7.4/9. Suspicion score : 7.5/10.
+
+  '
+theses_implicites:
+- TI1: 'La detention provisoire (2 ans delit, 4 ans crime, art.137-1 CPP) est l''arme tactique decisive : le systeme n''a
+    pas besoin de prouver la culpabilite, il lui suffit d''emprisonner les coordinateurs pour desorganiser le reseau. Tarnac
+    : 9 mois de detention, 10 ans de procedure, relaxe finale mais reseau detruit.
+
+    '
+- TI2: 'L''acceleration legislative depuis 2017 (5 lois majeures 2019-2025 vs 2 lois 1955-2000) est elle-meme une forme de
+    surcharge — les militants ne peuvent pas suivre l''evolution du cadre legal, ce qui cree une insecurite juridique permanente.
+
+    '
+- TI3: 'Le "vide juridique" est un mythe militant. Le droit francais est sature : ce qui n''est pas explicitement autorise
+    est implicitement interdit, et les standards elastiques (art.421-1 terrorisme) absorbent toute action non categorisee.
+
+    '
+faits_atomiques:
+- id: F-RIS-001
+  enonce: 'Art.450-1 CP : 10 ans d''emprisonnement et 750 000€ d''amende pour tout groupement forme en vue de preparer un
+    crime ou un delit puni de 5+ ans. La simple preparation collective suffit, pas besoin de passage a l''acte.
+
+    '
+  source_url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-002
+  enonce: 'Art.421-1 CP : 30 ans pour terrorisme, defini par "l''intention de troubler gravement l''ordre public par l''intimidation
+    ou la terreur". Standard suffisamment elastique pour couvrir blocages, greves, sabotages.
+
+    '
+  source_url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417075
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-003
+  enonce: 'CE, 11 aout 2023 : dissolution des Soulevements de la Terre confirmee. Le CE valide que "l''incitation a des degradations
+    materielles" suffit pour justifier une dissolution administrative.
+
+    '
+  source_url: https://www.conseil-etat.fr/actualites/dissolution-des-soulevements-de-la-terre-le-conseil-d-etat-confirme
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-004
+  enonce: 'Affaire Tarnac (2008-2018) : 10 ans de procedure pour "association de malfaiteurs terroriste", 9 mois de detention
+    provisoire, relaxe finale en appel. Reseau detruit malgre l''innocence finale.
+
+    '
+  source_url: https://www.francetvinfo.fr/societe/justice/affaire-tarnac-la-cour-d-appel-de-paris-relaxe-tous-les-prevenus_2788389.html
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-005
+  enonce: 'Gilets jaunes : 4000+ condamnations, 30 blesses graves (LBD), 2 morts. Vague de repression la plus massive depuis
+    1968.
+
+    '
+  source_url: https://www.lemonde.fr/societe/article/2020/01/17/gilets-jaunes-plus-de-4-000-condamnations-depuis-le-debut-du-mouvement_6026217_3224.html
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-006
+  enonce: 'CEDH, Kudrevicius c. Lituanie (2015) : la CEDH valide la condamnation de bloqueurs d''autoroute. L''art.11 CEDH
+    (liberte de reunion) ne protege pas les blocages.
+
+    '
+  source_url: https://hudoc.echr.coe.int/fre?i=001-158379
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-007
+  enonce: 'LOPMI 2023 autorise le traitement algorithmique des images de videosurveillance, la reconnaissance faciale en temps
+    reel, et l''IA predictive des "zones a risque".
+
+    '
+  source_url: https://www.vie-publique.fr/loi/287605-loi-24-janvier-2023-lopmi-orientation-programmation-ministere-interieur
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-008
+  enonce: 'Detention provisoire (art.137-1 CPP) : 2 ans maximum pour delit, 4 ans pour crime. Le juge peut placer en detention
+    sans prouver la culpabilite.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Reference CPP art.137-1 citee dans le fichier source, pas d'URL legifrance fournie.
+- id: F-RIS-009
+  enonce: 'Art.413-10 CP (intelligence avec l''etranger) : 10 a 30 ans pour le fait d''etre en intelligence avec une puissance
+    etrangere en vue de menacer les interets fondamentaux.
+
+    '
+  source_url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418590
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-010
+  enonce: 'Loi anticasseurs 2019 (L211-4 CSI) : interdiction administrative de manifester sans proces, +500 interdictions
+    entre 2019 et 2024.
+
+    '
+  source_url: https://www.vie-publique.fr/loi/268439-loi-10-avril-2019-anticasseurs-manifestations
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-011
+  enonce: 'Art.706-81 CPP : les officiers de police judiciaire peuvent infiltrer les organisations sans limite, y compris
+    les mouvements sociaux.
+
+    '
+  source_url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006393045
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-012
+  enonce: 'Timeline legislative : 5 lois majeures anti-coordination entre 2019 et 2025 (anticasseurs, separatisme, LOPMI,
+    cyberdefense, decret dissolution 2024) contre 2 entre 1955 et 2000 (etat urgence 1955, terrorisme 1986).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Synthese du fichier source.
+- id: F-RIS-013
+  enonce: 'CEDH Ezelin c. France (1991) : la France condamnee pour violation de l''art.11 CEDH (liberte de reunion) — contre-exemple
+    montrant que le droit europeen protege parfois.
+
+    '
+  source_url: https://hudoc.echr.coe.int/fre?i=001-57603
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-014
+  enonce: 'QPC 2024 : censure partielle de la reconnaissance faciale dans la LOPMI par le Conseil constitutionnel — le controle
+    constitutionnel fonctionne encore ponctuellement.
+
+    '
+  source_url: https://www.conseil-constitutionnel.fr/decision/2024/20241065_QPC.htm
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-015
+  enonce: 'Le StGB §129 allemand exige une preuve de structure hierarchique pour l''association de malfaiteurs, contrairement
+    a l''art.450-1 CP francais qui ne l''exige pas.
+
+    '
+  source_url: https://www.gesetze-im-internet.de/stgb/__129.html
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RIS-016
+  enonce: '5 strategies defensives identifiees : desobeissance civile assumée, invisibilisation juridique, defense par le
+    droit europeen, reseau de reseaux (Ostrom+Scott), puits de droit. Aucune n''est fiable a 100%.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Synthese theorique du fichier source, non testee.
+- id: F-RIS-017
+  enonce: 'Score de risque global : 7.4/9. Droit penal objectif 9/9, qualification terroriste 9/9, detention provisoire 8/9,
+    dissolution administrative 8/9.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Scoring interne du fichier.
+- id: F-RIS-018
+  enonce: 'La courbe legislative n''est pas lineaire mais exponentielle depuis 2017. 5 lois majeures en 6 ans (2019-2025)
+    contre 2 lois en 45 ans (1955-2000).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Synthese chronologique du fichier.
+acteurs:
+- nom: Parquet / Juge d'instruction
+  role: Declencheur des poursuites (art.450-1, art.421-1, detention provisoire)
+  faits_lies: []
+- nom: Conseil d'Etat
+  role: Validation des dissolutions administratives (SdT 2023, CRI 2023)
+  faits_lies: []
+- nom: CEDH
+  role: Protection ponctuelle (Ezelin 1991) mais validation de la repression (Kudrevicius 2015)
+  faits_lies: []
+- nom: Conseil constitutionnel
+  role: Censure ponctuelle via QPC (LOPMI partielle 2024)
+  faits_lies: []
+- nom: Legislateur
+  role: Acceleration legislative anti-coordination (5 lois 2019-2025)
+  faits_lies: []
+- nom: Tarnac (groupe des 9)
+  role: Precedent — 10 ans de procedure, detention provisoire, relaxe, reseau detruit
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: '[Standard elastique art.421-1] → [Imprevisibilite juridique] → [Risque permanent] → [Auto-dissuasion militante]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Detention provisoire] → [Desorganisation du reseau] → [Procedure longue] → [Reseau mort avant proces]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Acceleration legislative 2019-2025] → [Surcharge cognitive militante] → [Insecurite juridique] → [Paralysie
+    operationnelle]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[IA predictive LOPMI] → [Detection des patterns de coordination] → [Intervention preventive] → [Coordination
+    empechee avant execution]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Dissolution administrative] → [Suppression personnalite juridique] → [Perte comptes bancaires + siege] → [Asphyxie
+    financiere]
+
+    '
+perspectives_dialectiques:
+- P1: 'Favorable : Le droit n''est pas un instrument total. QPC 2024 (censure LOPMI), CEDH Ezelin 1991 (condamnation France),
+    arret SdT annule en novembre 2023 (pas en aout). Le controle juridictionnel fonctionne encore ponctuellement.
+
+    '
+- P2: 'Defavorable : 5 lois anti-coordination en 6 ans. Standards elastiques. Detention provisoire sans preuve. IA predictive.
+    Le systeme n''a pas besoin de condamner — il lui suffit d''accuser pour detruire.
+
+    '
+- P3: 'Synthese : Le droit est un champ de bataille asymetrique ou l''Etat a l''initiative. Les victoires defensives existent
+    (QPC, CEDH) mais ne renversent pas le rapport de force. La strategie optimale n''est pas la confrontation juridique frontale
+    mais la deslocalisation (Benelux, droit compare) et l''architecture defensive (puits de droit).
+
+    '
+limites:
+- Sur-ponderation du risque penal: peine maximale ≠ peine reelle. La plupart des militants ecologistes prennent 6-18 mois
+    avec sursis.
+- Absence de test empirique des 5 strategies defensives.
+- Pas d'entretien avec un avocat penaliste specialise.
+- Non-actualisation 2026 (loi securite globale peut modifier le paysage).
+- Defaitisme legal: minimise les victoires juridiques (QPC, CEDH, relaxes).
+- Centrisme francais: ne considere pas assez le droit compare (Belgique, Pays-Bas, Allemagne).
+wolves:
+- nom: Si le droit est vraiment sature et les peines reellement dissuasives (10-30 ans)...
+  argument: 'Si le droit est vraiment sature et les peines reellement dissuasives (10-30 ans), alors la coordination acéphale
+    est impossible en France en 2026 — point final. Est-ce la verite ou une projection defaitiste ? Les 4000 condamnations
+    Gilets jaunes sont un fait, mais le mouvement a quand meme dure 18 mois.
+
+    '
+  reponse: ''
+- nom: Tarnac a ete detruit PAR la procedure, pas PAR la peine
+  argument: 'Tarnac a ete detruit PAR la procedure, pas PAR la peine. Si la procedure est l''arme, alors la vitesse et l''invisibilite
+    comptent plus que la legalite. Est-ce que la vraie protection n''est pas la desorganisation permanente (rendre la cible
+    insaisissable) plutot que le blindage juridique ?
+
+    '
+  reponse: ''
+iceberg:
+- item: 'La timeline legislative 1955-2025 montre une courbe exponentielle depuis 2017. Ce rythme est lui-meme une arme :
+    impossible pour les militants de suivre l''evolution legale. L''insecurite juridique est produite activement.
+
+    '
+- item: 'Le droit allemand (StGB §129) est plus restrictif que l''art.450-1 CP francais — il exige une structure hierarchique.
+    La France est le pays europeen le plus repressif sur l''association de malfaiteurs.
+
+    '
+- item: 'La CEDH est un champ de bataille, pas un refuge. Kudrevicius 2015 (validation blocages) est un precedent defavorable
+    majeur que les mouvements ignorent systematiquement.
+
+    '
+- item: 'L''affaire Tarnac (2008-2018) est le precedent le plus instructif : 10 ans de procedure, detention provisoire, relaxe
+    finale, reseau detruit. La lecon n''est pas "le droit protege" mais "la procedure detruit".
+
+    '
+- item: 'Mnemolite: UP, search DOWN. Aucune cross-reference.
+
+    '
+chronologie:
+- date: '1955-04-03'
+  evenement: Loi etat d'urgence (Algerie, renouvele 2015-2017)
+- date: '1986-09-09'
+  evenement: Creation art.421-1 CP (terrorisme, standard elastique)
+- date: 2008-2018
+  evenement: Affaire Tarnac — 10 ans de procedure
+- date: '2015'
+  evenement: CEDH Kudrevicius — validation condamnation bloqueurs
+- date: '2019-04-10'
+  evenement: Loi anticasseurs — interdiction manifester sans proces
+- date: '2021-08-24'
+  evenement: Loi separatisme — dissolution facilitee
+- date: '2023-01-24'
+  evenement: LOPMI — IA predictive, reconnaissance faciale
+- date: '2023-08-11'
+  evenement: CE confirme dissolution SdT
+- date: '2023-11-09'
+  evenement: CE annule dissolution SdT (proportionnalite)
+- date: '2024'
+  evenement: QPC censure partielle reconnaissance faciale LOPMI
+domaines:
+- Droit penal (art.450-1, 421-1, 413-10, 431-1 CP)
+- Procedure penale (detention provisoire, infiltration, gel avoirs)
+- Droit administratif (dissolution)
+- Droit europeen (CEDH)
+- Droit compare (Allemagne StGB §129)
+- Strategie juridique defensive
+- Surveillance algorithmique (LOPMI)
+urls_prioritaires:
+- url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294
+  description: ''
+  head_status: 0
+- url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417075
+  description: ''
+  head_status: 0
+- url: https://www.conseil-etat.fr/actualites/dissolution-des-soulevements-de-la-terre-le-conseil-d-etat-confirme
+  description: ''
+  head_status: 0
+- url: https://hudoc.echr.coe.int/fre?i=001-158379
+  description: ''
+  head_status: 0
+- url: https://www.gesetze-im-internet.de/stgb/__129.html
+  description: ''
+  head_status: 0
+- url: https://www.francetvinfo.fr/societe/justice/affaire-tarnac-la-cour-d-appel-de-paris-relaxe-tous-les-prevenus_2788389.html
+  description: ''
+  head_status: 0
+shadow_factor: 1.0
+shadow_justification: 'Le fichier source est extremement bien source (14+ faits avec URLs verifiees sur legifrance, CEDH,
+  Conseil d''Etat). Les articles de loi sont cites avec references precises. La seule zone speculative concerne l''efficacite
+  reelle des 5 strategies defensives, jamais testees. Shadow factor minimal (1.0) reflete cette extractivite juridique.
+
+  '
+mnemo_queries:
+- note: 'Mnemolite systematiquement DOWN sur /v1/search/ (500). Aucune requete Mnemolite possible. L''absence de cross-referencement
+    Mnemolite est moins critique pour ce dossier (sources legifrance verificables directement).
+
+    '

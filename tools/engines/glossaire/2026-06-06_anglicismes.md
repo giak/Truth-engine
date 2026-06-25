@@ -56,6 +56,3 @@
 | branch | branche | git |
 | fork | duplication / bifurcation | git |
 | repo | dépôt | git |
-| repo | dépôt | git |
-| repo | dépôt | git |
-| repo | dépôt | git |

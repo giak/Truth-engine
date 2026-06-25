@@ -1,0 +1,194 @@
+enquete_id: egypte_pharaonique
+complexity: MEDIUM
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-07_civilisations_manquantes/2026-06-07_15-00_egypte_pharaonique_INVESTIGATION.md
+these_centrale: L'Égypte pharaonique a fonctionné 3000 ans sans code juridique écrit, sans école de scribes standardisée,
+  et sans annulation générale de dettes — elle invalide la thèse selon laquelle les institutions sumériennes (code écrit,
+  edubba, andurarum) sont des universaux civilisationnels. La fusion totale droit/religion/économie/morale (Maât), commune
+  à Sumer et à l'Égypte, est le vrai universel.
+theses_implicites:
+- L'absence de code écrit en Égypte n'est pas un 'manque' mais un CHOIX de civilisation — la formalisation juridique écrite est un trait mésopotamien, pas universel.
+- Les temples égyptiens capturent l'économie par exemption fiscale (~30% des terres sous Ramsès III), un mécanisme de capture ALTERNATIF à la capture par les scribes sumériens.
+- L'Égypte = État unifié centralisé vs Sumer = cités-États fragmentées. Cette différence d'échelle politique fausse toute comparaison directe.
+- Le nilomètre est un instrument fiscal qui lie environnement, économie et administration — le déterminisme géographique nilotique n'a pas d'équivalent à Sumer.
+- L'absence d'andurarum en Égypte confirme que l'annulation de dette est un trait sumérien contingent, pas un universel.
+faits_atomiques:
+- id: F-EGY-001
+  enonce: L'Égypte pharaonique n'a produit aucun code juridique écrit comparable à Ur-Nammu ou Hammurabi
+  source_url: https://www.britannica.com/topic/Egyptian-law
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-002
+  enonce: Le concept de Maât (ordre cosmique, justice, vérité) fonctionne comme principe juridique ET religieux ET moral indissociable
+  source_url: https://www.worldhistory.org/Egyptian_Law/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-003
+  enonce: Le Vizir (tjaty) cumule les fonctions de Premier ministre, juge suprême, et contrôleur du Trésor et des greniers
+  source_url: https://www.worldhistory.org/article/1012/ancient-egyptian-taxes--the-cattle-count/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-004
+  enonce: L'Égypte est divisée en 42 nomes (districts administratifs), chacun gouverné par un nomarque responsable de la collecte fiscale
+  source_url: https://www.britannica.com/topic/nome-ancient-Egyptian-government
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-005
+  enonce: Sous Ramsès III (c. 1180 av.), les temples possèdent environ 30% des terres arables et sont exemptés d'impôts
+  source_url: https://www.britannica.com/biography/Ramses-III
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-006
+  enonce: Le nilomètre mesure la crue du Nil : 16 coudées = récolte optimale = impôt maximal ; <12 coudées = famine = exemption fiscale
+  source_url: https://www.worldhistory.org/article/1012/ancient-egyptian-taxes--the-cattle-count/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-007
+  enonce: La corvée royale (bak) mobilise chaque paysan plusieurs semaines par an pour les chantiers d'État
+  source_url: https://www.worldhistory.org/article/1012/ancient-egyptian-taxes--the-cattle-count/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-008
+  enonce: Il n'existe pas d'école de scribes centralisée équivalente à l'edubba sumérienne : formation par apprentissage père→fils
+  source_url: https://www.worldhistory.org/Egyptian_Scribes/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-009
+  enonce: Population égyptienne estimée entre 1 et 4 millions selon les périodes
+  source_url: https://www.worldhistory.org/article/1012/ancient-egyptian-taxes--the-cattle-count/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-010
+  enonce: Le pharaon est théoriquement propriétaire de TOUTE la terre d'Égypte
+  source_url: https://www.britannica.com/topic/pharaoh
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-011
+  enonce: La justice égyptienne est administrée par des cours locales (kenbet) composées de notables et de prêtres ; procès oraux basés sur le serment
+  source_url: https://www.worldhistory.org/Egyptian_Law/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-EGY-012
+  enonce: Le 'Conte du Paysan éloquent' (c. 1800 av.) documente l'attente populaire que l'administration royale protège le faible
+  source_url: https://www.britannica.com/topic/The-Eloquent-Peasant
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+acteurs:
+- nom: Pharaon
+  role: Propriétaire théorique de toute terre, chef militaire, garant de Maât
+  faits_lies:
+  - F-EGY-010
+- nom: Vizir (tjaty)
+  role: Premier ministre, juge suprême, contrôleur du Trésor
+  faits_lies:
+  - F-EGY-003
+- nom: Nomarques
+  role: Gouverneurs des 42 nomes, collecte fiscale locale
+  faits_lies:
+  - F-EGY-004
+- nom: Prêtres d'Amon
+  role: Bénéficiaires de l'exemption fiscale, accumulation foncière
+  faits_lies:
+  - F-EGY-005
+- nom: Scribes égyptiens
+  role: Colonne vertébrale administrative, formés par apprentissage
+  faits_lies:
+  - F-EGY-008
+causalites:
+- cause: F-EGY-006
+  effet: F-EGY-007
+  mecanisme: La crue du Nil (nilomètre) détermine le taux d'imposition → la corvée et l'impôt en grain financent l'État
+- cause: F-EGY-005
+  effet: F-EGY-010
+  mecanisme: L'exemption fiscale des temples transfère la richesse du Trésor royal vers le clergé → affaiblissement structurel de l'État central
+perspectives_dialectiques:
+- position: Thèse — L'Égypte est l'anti-Sumer
+  argument: L'Égypte prouve qu'un État complexe peut fonctionner 3000 ans sans code écrit, sans école de scribes standardisée, et sans annulation de dette. Les patterns sumériens ne sont PAS des universaux.
+- position: Antithèse — L'Égypte confirme la fusion des 4 dimensions
+  argument: L'Égypte partage avec Sumer la fusion totale droit/religion/économie/morale (Maât). C'est CETTE fusion qui est l'universel civilisationnel — pas les institutions spécifiques.
+- position: Synthèse — L'Égypte affine la thèse sans la détruire
+  argument: L'universel est la FUSION ; les institutions sont des VARIANTES locales. L'article Sumer doit distinguer le pattern (universel) des institutions (contingentes).
+limites:
+- Sources primaires lacunaires : papyrus du Delta perdus (milieu humide), biais Haute-Égypte
+- 30% terres temples (Ramsès III) est une estimation, marge d'erreur significative
+- Comparaison synchronique (IIIe millénaire) plus rigoureuse que la comparaison structurale abstraite
+- Période ptolémaïque (hybride gréco-égyptienne) sous-exploitée comme contre-test
+wolves:
+- nom: Dominique Charpin
+  argument: L'absence de code écrit est un argument par absence — les sources ont pu être perdues
+  reponse: 200 ans de fouilles sans trouver de code, alors que les codes mésopotamiens abondent, rendent cette hypothèse improbable
+- nom: Jan Assmann
+  argument: Maât est un concept cosmologique, pas juridique — projeter nos catégories est anachronique
+  reponse: Objection valide. L'enquête cherche précisément à documenter cette inadéquation entre nos catégories et les catégories antiques
+- nom: Juan Carlos Moreno García
+  argument: L'administration égyptienne était plus sophistiquée que les sources conservées ne le suggèrent
+  reponse: Exact. Le biais de conservation est documenté dans les LIMITES
+iceberg:
+- Sujet immergé #1 : 0 source primaire ✦ — tous les faits sont ✧, l'enquête repose sur des sources secondaires
+- Sujet immergé #2 : Biais Haute-Égypte — le Delta (milieu humide) a perdu ses papyrus, rendant la Basse-Égypte invisible
+- Sujet immergé #3 : La période ptolémaïque (332-30 av.) comme laboratoire d'hybridation gréco-égyptienne — non exploitée
+chronologie:
+- date: c. 3100 av.
+  evenement: Unification de la Haute et Basse Égypte sous Narmer (Ière dynastie)
+  source_fait: F-EGY-001
+- date: c. 2686-2181 av.
+  evenement: Ancien Empire — centralisation administrative maximale, pyramides via corvée
+  source_fait: F-EGY-007
+- date: c. 2100 av.
+  evenement: Code d'Ur-Nammu en Sumer — contemporain de la Première Période Intermédiaire égyptienne
+  source_fait: F-EGY-001
+- date: c. 1800 av.
+  evenement: 'Conte du Paysan éloquent' — document littéraire sur l'attente de justice
+  source_fait: F-EGY-012
+- date: c. 1180 av.
+  evenement: Ramsès III — les temples possèdent ~30% des terres arables
+  source_fait: F-EGY-005
+- date: 332 av.
+  evenement: Conquête d'Alexandre — fin de l'Égypte pharaonique indépendante
+  source_fait: F-EGY-001
+domaines:
+- Droit : absence de code écrit, justice par Maât + précédent
+- Religion : Maât comme fondement cosmique du droit et de l'économie
+- Économie : redistribution nilotique, temple-économie, corvée
+- Administration : vizir → nomarques → scribes (apprentissage, pas école)
+- Capture : exemption fiscale des temples → affaiblissement du Trésor → fragmentation politique
+urls_prioritaires:
+- url: https://www.britannica.com/topic/Egyptian-law
+  description: Droit égyptien, absence de code écrit documentée
+  head_status: 200
+- url: https://www.worldhistory.org/Egyptian_Law/
+  description: Maât comme fondement juridique et cosmologique
+  head_status: 200
+- url: https://www.worldhistory.org/article/1012/ancient-egyptian-taxes--the-cattle-count/
+  description: Nilomètre, fiscalité nilotique, corvée royale
+  head_status: 200
+- url: https://www.britannica.com/biography/Ramses-III
+  description: Ramsès III, 30% terres aux temples
+  head_status: 200
+shadow_factor: 4.2
+mnemo_queries: []
+mnemo_cross_refs: []

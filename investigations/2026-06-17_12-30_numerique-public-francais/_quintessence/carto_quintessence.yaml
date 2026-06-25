@@ -1,0 +1,219 @@
+enquete_id: "carto"
+complexity: "COMPLEX"
+date_extraction: "2026-06-17"
+enquete_source: "investigations/2026-06-17_12-30_numerique-public-francais/2026-06-17_18-30_cartographie-reseau-dinum-anssi-ditp-esn_INVESTIGATION.md"
+
+these_centrale: "Les mobilités public-privé entre DINUM, ANSSI, DITP et les ESN (Capgemini, Atos, Sopra Steria, Accenture, McKinsey, Docaposte) forment un système de 'porte tournante' où 12 directeurs/anciens directeurs sur la période 2016-2026 ont transité entre régulation et prestation, avec un contrôle HATVP lacunaire (4,5% d'incompatibilité seulement, 0 suivi des réserves) et un rétro-pantouflage massif non documenté (3 directeurs DITP/DINUM sur 5 viennent du privé)."
+
+theses_implicites:
+  - "Le rétro-pantouflage (privé → public) est plus structurant que le pantouflage direct : il importe les logiques commerciales dans la définition des politiques publiques numériques"
+  - "La HATVP est un filtre administratif inopérant : 74,3% d'avis favorables sans réserves, 4,5% d'incompatibilité, et aucun suivi des réserves émises dans 77% des cas"
+  - "Le double standard Atos (Édouard Philippe autorisé en 2020, Cédric O bloqué en 2022) révèle un traitement politique des avis de compatibilité, non technique"
+  - "Le corps des ingénieurs des mines (29% dans le privé) est le vecteur principal de circulation DINUM/ANSSI ↔ ESN"
+
+faits_atomiques:
+  - id: "F-RES-011"
+    enonce: "Nadi Bou Hanna, PDG de PME conseil (Workibox, Adminext, 6Tzen) avant de diriger DINUM (2018-2022) - rétro-pantouflage significatif"
+    source_url: "https://www.cio-online.com/actualites/lire-nadi-bou-hanna-un-chef-de-projet-nomme-directeur-interministeriel-du-numerique-7923.html"
+    source_section: "§2.1"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-RES-012"
+    enonce: "Xavier Albouy, adjoint DINUM (2016-2023) puis intérim DINUM (2022), rejoint OSS Ventures (startup IA) en 2023-2024 - pantouflage non soumis à HATVP (CDD)"
+    source_url: "https://linkedin.com/in/xavieralbouy"
+    source_section: "§2.1"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-RES-019"
+    enonce: "Guillaume Poupard, DG ANSSI (2014-2022), recruté par Docaposte (groupe La Poste) comme DGA cloud/cyber/IA dès janvier 2023. Puis board Sekoia.io (2024), puis Orange (2026)"
+    source_url: "https://www.sekoia.io/fr/presse/guillaume-poupard-entre-au-conseil-dadministration-de-sekoia-io/"
+    source_section: "§2.2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-RES-026"
+    enonce: "Thomas Cazenave, Insp. Finances passé par Orange (2010-2014), crée la DITP (2017-2019) puis devient Ministre des Comptes publics (2022-2024) - supervise les marchés conseil après son passage privé"
+    source_url: "https://www.aefinfo.fr/depeche/575750-thomas-cazenave-est-nomme-delegue-interministeriel-a-la-transformation-publique-conseil-des-ministres"
+    source_section: "§2.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-RES-028"
+    enonce: "Thierry Lambert, cadre Saint-Gobain 11 ans (2007-2018, DG Nordiques), puis Insp. Finances → DITP (2019-2026) - dirige la transformation publique après 11 ans dans le privé"
+    source_url: "https://www.oecd-events.org/e/oecd-high-level-symposium-simplifying-for-success-/en/speaker/f8224e48-2cae-4f55-a9ee-9cda81eb09f2/thierry-lambert"
+    source_section: "§2.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-RES-032"
+    enonce: "Édouard Philippe, Premier ministre (2017-2020), nommé administrateur indépendant d'Atos en septembre 2020, 2 mois après sa sortie de Matignon. Avis favorable HATVP. 72 000€/an de jetons de présence"
+    source_url: "https://www.lemonde.fr/politique/article/2020/09/15/edouard-philippe-va-devenir-administrateur-independant-d-atos_6052272_823448.html"
+    source_section: "§2.4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-RES-033"
+    enonce: "Cédric O, Secrétaire d'État au Numérique (2019-2022), bloqué par la HATVP pour entrer au CA d'Atos (novembre 2022) - avis d'incompatibilité confirmé par le Conseil d'État (juin 2023)"
+    source_url: "https://www.frenchweb.fr/le-conseil-detat-confirme-linterdiction-pour-cedric-o-dentrer-au-ca-datos/443830"
+    source_section: "§2.4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-RES-036"
+    enonce: "Nathalie Kosciusko-Morizet, Ministre Écologie/Numerique (2009-2012), rejoint Capgemini US comme directrice cloud/cyber (2018) - recrutée par Paul Hermelin"
+    source_url: "https://www.challenges.fr/politique/nathalie-kosciusko-morizet-va-rejoindre-a-compter-de-mars-prochain-capgemini-a-new-york_565574"
+    source_section: "§2.4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-RES-040"
+    enonce: "Rétro-pantouflage Thierry Lambert : 11 ans chez Saint-Gobain → direction DITP (2019-2026). La transformation publique dirigée par un ex-cadre du CAC40"
+    source_url: "https://linkedin.com/in/thierrylambert75"
+    source_section: "§4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-RES-044"
+    enonce: "Emmanuel Macron : banquier Rothschild (2008-2012) → SG Elysée → Ministre → Président. Pantoufle payée pour quitter l'ENA. Lien historique avec Karim Tadjeddine (McKinsey) depuis la commission Attali (2007)"
+    source_url: "https://www.politis.fr/articles/2023/02/macron-et-mckinsey-le-tres-loyal-conseiller-tadjeddine/"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-RES-045"
+    enonce: "Taux d'ingénieurs des mines dans le privé : 29% (Cour des comptes, mai 2025) - le plus élevé de tous les grands corps. Concerne directement DINUM et ANSSI"
+    source_url: "https://www.ccomptes.fr/sites/default/files/2025-05/20250514-Mobilites-public-prive.pdf"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-RES-046"
+    enonce: "Taux d'incompatibilité HATVP : 4,5% seulement. 74,3% d'avis favorables sans réserves, 21,3% avec réserves. Aucun suivi systématique des réserves (Cour des comptes, 2025)"
+    source_url: "https://www.hatvp.fr/wordpress/wp-content/uploads/2025/05/HATVP-synthese-RA-2024-web.pdf"
+    source_section: "§6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-RES-047"
+    enonce: "La Cour des comptes (2025) confirme que le contrôle HATVP du rétro-pantouflage est 'partiellement mis en œuvre' - les retours privé → public échappent au contrôle systématique"
+    source_url: "https://www.vie-publique.fr/rapport/298578-mobilites-entre-les-secteurs-public-et-prive-rapport-cour-des-comptes"
+    source_section: "§6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Guillaume Poupard"
+    role: "Ex-DG ANSSI (2014-2022) → DGA Docaposte → board Sekoia.io → Orange. Cas le plus documenté de pantouflage cyber"
+    faits_lies: ["F-RES-019"]
+  - nom: "Thomas Cazenave"
+    role: "Créateur DITP (2017-2019), ex-Orange, ex-Ministre Comptes publics. Supervision des marchés conseil"
+    faits_lies: ["F-RES-026"]
+  - nom: "Thierry Lambert"
+    role: "Dirige la DITP (2019-2026) après 11 ans chez Saint-Gobain. Rétro-pantouflage structurel"
+    faits_lies: ["F-RES-028", "F-RES-040"]
+  - nom: "Édouard Philippe"
+    role: "Ex-Premier ministre → CA Atos (2 mois après Matignon). Double standard avec Cédric O"
+    faits_lies: ["F-RES-032"]
+  - nom: "Cédric O"
+    role: "Ex-Secrétaire d'État au Numérique. Bloqué HATVP pour Atos, autorisé avec réserves pour fonds conseil"
+    faits_lies: ["F-RES-033"]
+  - nom: "Karim Tadjeddine"
+    role: "Directeur secteur public McKinsey France. Lien Macron depuis commission Attali (2007)"
+    faits_lies: ["F-RES-044"]
+
+causalites:
+  - cause: "F-RES-045"
+    effet: "F-RES-019"
+    mecanisme: "La culture du pantouflage institutionnalisée chez les ingénieurs des mines (29% dans le privé) normalise le passage ANSSI → ESN. Poupard (X-Mines) suit la trajectoire majoritaire de son corps"
+  - cause: "F-RES-046"
+    effet: "F-RES-032, F-RES-033"
+    mecanisme: "Le taux d'incompatibilité HATVP de 4,5% crée un quasi-automatisme d'autorisation, mais l'application est politisée (Philippe autorisé, O bloqué pour le même Atos), sans critère objectif transparent"
+  - cause: "F-RES-044"
+    effet: "F-RES-026"
+    mecanisme: "Le lien Macron-Tadjeddine (Attali 2007) → Cazenave supervise McKinsey à la DITP → les marchés McKinsey explosent (+136% entre 2018-2021). La filiation politique structure la commande publique"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle (Narrative d'État)"
+    argument: "La mobilité public-privé est un enrichissement réciproque : l'expérience privée des hauts fonctionnaires améliore la transformation publique. La HATVP filtre efficacement les cas problématiques (4,5% d'incompatibilité). Les règles de déontologie sont respectées."
+  - position: "Antithèse (Critique du pantouflage)"
+    argument: "La porte tournante est un mécanisme de capture réglementaire : les régulateurs du numérique (ANSSI, DINUM) sont recrutés par les entreprises qu'ils régulaient, les marchés publics sont attribués aux anciens employeurs des directeurs. Le contrôle HATVP est un filtre de papier sans suivi des réserves."
+  - position: "Synthèse (Analyse systémique)"
+    argument: "Le pantouflage et le rétro-pantouflage sont deux faces du même mécanisme de circulation des élites. Le privé forme aux logiques commerciales que le public importe (Lambert/Saint-Gobain → DITP). La réforme de 2019 n'a pas résolu le problème car elle n'a pas créé de registre consolidé ni de suivi des réserves."
+
+limites:
+  - "Le périmètre se limite à 3 directions (DINUM, ANSSI, DITP) et ne couvre pas les ESN de taille moyenne ni les administrations déconcentrées"
+  - "Les sources LinkedIn ne sont pas vérifiées par un tiers indépendant"
+  - "Les données HATVP sont dépouillées au cas par cas, pas de base de données consolidée - risque d'omission"
+  - "Le nombre de cas de pantouflage (34) est un minimum, la réalité est probablement plus étendue"
+
+wolves:
+  - nom: "Défenseur du statu quo"
+    argument: "Le pantouflage est une pratique normale dans toutes les démocraties. La France a des règles parmi les plus strictes d'Europe avec la HATVP."
+    reponse: "Le taux d'incompatibilité de 4,5% et l'absence de suivi des réserves (77% des avis) montrent que les règles ne sont pas appliquées en pratique. La HATVP est un guichet, pas un filtre."
+  - nom: "Relativiste culturel"
+    argument: "Les ingénieurs des mines ont toujours eu un lien fort avec l'industrie. Le taux de 29% est historique et ne pose pas de problème spécifique."
+    reponse: "Ce taux devient problématique quand les mêmes corps dirigent les administrations qui régulent l'industrie du numérique et attribuent les marchés. Le conflit d'intérêts est structurel."
+
+iceberg:
+  - "Le système de contrôle HATVP est conçu pour produire de la conformité apparente, pas du contrôle réel - 74,3% d'avis favorables sans réserves"
+  - "La fusion DINUM-DITP annoncée (Walter Arnaud, 2026) pourrait réduire encore le contrôle en concentrant les directions"
+  - "Le corps des mines fonctionne comme un réseau d'entre-soi : la loyauté au corps prime sur la séparation public-privé"
+  - "L'absence de registre consolidé rend impossible le contrôle citoyen automatisé"
+
+chronologie:
+  - date: "2007"
+    evenement: "Commission Attali crée le lien Tadjeddine-Macron. McKinsey entre dans l'orbite du futur président"
+    source_fait: "F-RES-044"
+  - date: "2012-2014"
+    evenement: "Stephane Schaer (future DINUM) chez Ergo (assurance privée)"
+    source_fait: "F-RES-022"
+  - date: "2007-2018"
+    evenement: "Thierry Lambert chez Saint-Gobain (11 ans) avant de diriger la DITP"
+    source_fait: "F-RES-028"
+  - date: "2020-09"
+    evenement: "Édouard Philippe nommé CA Atos (avis favorable HATVP, 2 mois après Matignon)"
+    source_fait: "F-RES-032"
+  - date: "2022-11"
+    evenement: "Cédric O bloqué par HATVP pour le même Atos. Conseil d'État confirme juin 2023"
+    source_fait: "F-RES-033"
+  - date: "2023-01"
+    evenement: "Guillaume Poupard rejoint Docaposte (DGA cloud/cyber/IA) - 1 mois après son départ ANSSI"
+    source_fait: "F-RES-019"
+  - date: "2025-05"
+    evenement: "Cour des comptes : 29% des mines dans le privé, contrôle rétro-pantouflage lacunaire"
+    source_fait: "F-RES-045, F-RES-047"
+  - date: "2026-06"
+    evenement: "Walter Arnaud nommé DINUM, Pierre Bouillon DITP - fusion des directions annoncée"
+    source_fait: "F-RES-018"
+
+domaines:
+  - "Pantouflage et déontologie publique"
+  - "Gouvernance du numérique d'État"
+  - "Marchés publics et ESN"
+  - "Corps d'État et réseaux d'influence"
+  - "Contrôle HATVP et régulation des conflits d'intérêts"
+
+urls_prioritaires:
+  - url: "https://www.ccomptes.fr/sites/default/files/2025-05/20250514-Mobilites-public-prive.pdf"
+    description: "Rapport Cour des comptes mai 2025 sur les mobilités public-privé - source centrale"
+    head_status: 200
+  - url: "https://www.hatvp.fr/wordpress/wp-content/uploads/2025/05/HATVP-synthese-RA-2024-web.pdf"
+    description: "Synthèse HATVP 2024 : 74,3% avis favorables, 4,5% incompatibilité"
+    head_status: 200
+  - url: "https://www.lemonde.fr/politique/article/2020/09/15/edouard-philippe-va-devenir-administrateur-independant-d-atos_6052272_823448.html"
+    description: "Le Monde : Édouard Philippe chez Atos"
+    head_status: 200
+  - url: "https://www.politis.fr/articles/2023/02/macron-et-mckinsey-le-tres-loyal-conseiller-tadjeddine/"
+    description: "POLITIS : lien Tadjeddine-Macron documenté"
+    head_status: 200
+
+shadow_factor: 2.8
+
+mnemo_queries:
+  - query: "pantouflage DINUM ANSSI DITP ESN HATVP"
+    results_count: 2
+  - query: "porte tournante numérique État ingénieurs mines"
+    results_count: 1

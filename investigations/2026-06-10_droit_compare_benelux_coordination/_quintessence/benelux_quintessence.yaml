@@ -1,0 +1,232 @@
+enquete_id: "benelux"
+complexity: "COMPLEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-10_droit_compare_benelux_coordination/"
+fichiers_sources:
+  - "2026-06-10_10-00_droit_compare_benelux_SOLUTIONS.md (323 lignes, 20 faits, 40 URLs)"
+
+these_centrale: "Aucune des quatre juridictions (France, Belgique, Pays-Bas, Allemagne) n'offre de 'safe harbor' pour la coordination contestataire. La différence est une question de degré (seuils de déclenchement, peines maximales), pas de nature. La France reste le pire choix (art.450-1 CP le plus large d'Europe), la Belgique offre la peine la plus faible (1-3 ans) mais la définition la plus large (pas d'acte matériel requis), l'Allemagne a la définition la plus précise (§129 StGB) mais est utilisée contre les activistes climatiques."
+theses_implicites:
+  - "Le Mandat d'Arrêt Européen (MAE) a aboli l'exception d'infraction politique : se baser à Bruxelles ne protège pas d'une extradition vers la France pour association de malfaiteurs. La seule protection disponible est l'art.4(6) MAE (nationalité/résidence)."
+  - "La désescalade juridique (choisir la juridiction la moins répressive) est une stratégie défensive réelle mais limitée : l'harmonisation européenne (directive 2017/541) et la jurisprudence récente (Letzte Generation, BGH 2023) réduisent progressivement les différences entre pays."
+  - "Le droit comparé révèle que l'art.450-1 CP français est une anomalie répressive en Europe — aucun autre pays n'a un seuil de déclenchement aussi bas ('groupement ou entente' sans structure). Cette spécificité est un argument politique autant que juridique."
+
+faits_atomiques:
+  - id: "F-benelux-001"
+    enonce: "Art.450-1 CP français : 'groupement ou entente' + 1 fait matériel = 10 ans. Définition la plus large d'Europe, ne requiert ni structure hiérarchique ni permanence."
+    source_url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"
+    source_section: "§6 Tableau comparatif"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-benelux-002"
+    enonce: "Art.322 CP belge : association de malfaiteurs existe 'par le seul fait de l'organisation de la bande' — aucun acte matériel requis. Peine : 1-3 ans (art.324ter)."
+    source_url: "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1867060801&table_name=loi"
+    source_section: "§2.1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-benelux-003"
+    enonce: "Nouveau Code pénal belge : entrée en vigueur reportée au 1er septembre 2026. Crée l'infraction d''atteinte méchante à l'autorité de l'État', validée par la Cour constitutionnelle le 29 janvier 2026 malgré le recours de la Ligue des Droits Humains."
+    source_url: "https://www.lalibre.be/belgique/judiciaire/2026/01/29/la-cour-constitutionnelle-rejette-le-recours-en-annulation-contre-latteinte-mechante-a-lautorite-de-letat-JY5QV7754VE63DS5DLVAUMB45A/"
+    source_section: "§2.3"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-benelux-004"
+    enonce: "Art.140 Sr néerlandais : exige 'permanence et structure' (jurisprudence Hoge Raad). Peine max 6 ans (simple), 10 ans (crimes 12+). La participation inclut le soutien financier ou matériel."
+    source_url: "https://maxius.nl/wetboek-van-strafrecht/artikel140"
+    source_section: "§3.1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-benelux-005"
+    enonce: "Art.140a Sr néerlandais : organisation terroriste = 15-20 ans depuis la modification du 6 mars 2025. Peine alourdie si l'organisation vise des crimes punis de perpétuité."
+    source_url: "https://www.njb.nl/wetgeving/staatsbladen/strafmaximum-deelneming-terroristische-organisatie"
+    source_section: "§3.2"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-benelux-006"
+    enonce: "§129(2) StGB allemand : définition la plus précise d'Europe — 'association organisée de plus de deux personnes, à durée indéterminée, poursuivant un intérêt commun supérieur'. §129(3) exclut les partis politiques et les buts accessoires. Peine max 5 ans."
+    source_url: "https://www.gesetze-im-internet.de/stgb/__129.html"
+    source_section: "§4.1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-benelux-007"
+    enonce: "§129a StGB allemand : organisation terroriste = 1-10 ans, avec élément intentionnel (intimider la population, contraindre les autorités, déstabiliser les structures de l'État). Chefs : minimum 3 ans."
+    source_url: "http://www.wiete-strafrecht.de/User/Leitsaetze/LS_129a_StGB.html"
+    source_section: "§4.2"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-benelux-008"
+    enonce: "BGH 28 juin 2023 (3 StR 424/22) : le §129 StGB est applicable aux groupes opérant exclusivement en ligne, sans rencontre physique. Extension jurisprudentielle majeure."
+    source_url: "https://ht-strafrecht.de/blog/strafrecht/wie-schnell-bin-ich-mitglied-einer-kriminellen-vereinigung-der-fall-der-goyim-partei"
+    source_section: "§4.3"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-benelux-009"
+    enonce: "Letzte Generation (Dernière Génération) : poursuivie pour §129 StGB en Allemagne. Procès ouvert à Berlin en février 2026 pour déterminer si la désobéissance civile constitue une 'kriminelle Vereinigung'. Précédent dangereux."
+    source_url: "https://www.tagesspiegel.de/berlin/klimaaktivisten-vor-gericht-prozess-letzte-generation-eine-kriminelle-vereinigung-15236109.html"
+    source_section: "§4.3"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-benelux-010"
+    enonce: "Mandat d'Arrêt Européen (décision-cadre 2002/584/JAI) : a aboli l'exception d'infraction politique. L'association de malfaiteurs figure dans la liste des 32 catégories sans contrôle de double incrimination. Un MAE français ne peut pas être refusé par la Belgique pour défaut de double incrimination."
+    source_url: "https://www.robert-schuman.eu/fr/questions-d-europe/0016-le-mandat-d-arret-europeen-et-son-application-par-les-etats-membres"
+    source_section: "§5.1-5.4"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-benelux-011"
+    enonce: "Art.4(6) MAE : seule protection disponible — refus de remise si la personne est nationale ou résidente de l'État d'exécution et que cet État s'engage à exécuter lui-même la peine. Nécessite le consentement de l'État d'émission (CJUE C-2024, 2026)."
+    source_url: "https://www.lexology.com/library/detail.aspx?g=b7d8e180-bf22-4792-9e13-6a8e79ac80f6"
+    source_section: "§5.5"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-benelux-012"
+    enonce: "Classement des juridictions par sécurité : 1. Belgique (peine faible 1-3 ans, mais définition large + nouveau CP 2026), 2. Allemagne (définition précise, exceptions, mais utilisée contre activistes), 3. Pays-Bas (jurisprudence protectrice, mais art.140a sévère), 4. France (pire choix)."
+    source_url: "Synthèse §7"
+    source_section: "§7"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-benelux-013"
+    enonce: "Loi néerlandaise anti-blocage adoptée le 3 juin 2026 : pouvoirs accrus pour les bourgmestres face aux blocages d'autoroutes et voies ferrées. Durcissement des peines pour infractions lors de manifestations."
+    source_url: "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/03/kabinet-geeft-burgemeesters-meer-bevoegdheden-bij-demonstraties"
+    source_section: "§3.3"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-benelux-014"
+    enonce: "Wet openbare manifestaties (Wom) 1988 néerlandaise : obligation de notification (pas d'autorisation). Le bourgmestre ne peut interdire qu'en cas de menace grave à l'ordre public. Régime le plus libéral des 4 pays."
+    source_url: "https://wetten.overheid.nl/BWBR0004318/"
+    source_section: "§3.3"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-benelux-015"
+    enonce: "CEDH Bodson c. Belgique 2025 : le droit de grève n'inclut pas le droit de bloquer intentionnellement la circulation. L'entrave méchante à la circulation (art.406 CP belge) est régulièrement utilisée contre les manifestants, y compris syndicaux."
+    source_url: "https://sotra.be/news/739-het-stakingsrecht-omvat-niet-het-recht-om-het-verkeer-opzettelijk-te-hinderen?lang=fr"
+    source_section: "§2.4"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+
+acteurs:
+  - nom: "France (art.450-1 CP)"
+    role: "Pire juridiction — définition la plus large d'Europe, 10 ans, pas de structure requise"
+    faits_lies: ["F-benelux-001"]
+  - nom: "Belgique (art.322-324 CP)"
+    role: "Peine la plus faible (1-3 ans) mais définition la plus large + nouveau CP 2026 dangereux"
+    faits_lies: ["F-benelux-002", "F-benelux-003"]
+  - nom: "Pays-Bas (art.140 Sr)"
+    role: "Jurisprudence protectrice (permanence + structure) mais art.140a terrorisme très lourd"
+    faits_lies: ["F-benelux-004", "F-benelux-005"]
+  - nom: "Allemagne (§129 StGB)"
+    role: "Définition la plus précise, exceptions pour partis politiques, mais utilisée contre activistes climatiques"
+    faits_lies: ["F-benelux-006", "F-benelux-007", "F-benelux-008", "F-benelux-009"]
+  - nom: "Mandat d'Arrêt Européen (MAE)"
+    role: "A aboli l'exception politique — rend la désescalade juridique limitée"
+    faits_lies: ["F-benelux-010", "F-benelux-011"]
+
+causalites:
+  - cause: "F-benelux-001"
+    effet: "F-benelux-012"
+    mecanisme: "L'art.450-1 CP est une anomalie répressive en Europe — aucun autre pays n'a un seuil aussi bas. Cette spécificité française fait de la France le pire choix pour toute coordination contestataire."
+  - cause: "F-benelux-010"
+    effet: "F-benelux-011"
+    mecanisme: "Le MAE a aboli l'exception politique, rendant la désescalade juridique (se baser au Benelux) largement inefficace. La seule protection est l'art.4(6) MAE, qui dépend de la nationalité/résidence et du consentement de l'État d'émission."
+  - cause: "F-benelux-009"
+    effet: "F-benelux-006"
+    mecanisme: "L'utilisation du §129 StGB contre Letzte Generation montre que la précision théorique du droit allemand ne protège pas dans la pratique. Le politique prime sur le juridique."
+  - cause: "F-benelux-003"
+    effet: "F-benelux-012"
+    mecanisme: "Le nouveau Code pénal belge (septembre 2026) avec l'infraction d''atteinte méchante à l'autorité de l'État' réduit l'avantage comparatif de la Belgique comme juridiction refuge."
+
+perspectives_dialectiques:
+  - position: "Thèse — La désescalade juridique fonctionne (optimisme légal)"
+    argument: "Le droit comparé montre des différences réelles : l'Allemagne a des exceptions pour partis politiques, les Pays-Bas exigent une permanence, la Belgique a des peines plus faibles. Choisir sa juridiction est une stratégie défensive rationnelle qui réduit le risque pénal."
+  - position: "Antithèse — La désescalade juridique est une illusion (réalisme)"
+    argument: "Le MAE abolit l'exception politique. L'harmonisation européenne (directive 2017/541) réduit les différences. La pratique (Letzte Generation, Tarnac) montre que le politique prime sur le juridique. Aucune juridiction n'offre de 'safe harbor'."
+  - position: "Synthèse — La désescalade juridique est une optimisation marginale, pas une solution"
+    argument: "La différence entre 3 ans (Belgique) et 10 ans (France) est réelle mais pas décisive. La vraie protection n'est pas juridique mais politique : construire un soutien public tel que les poursuites deviennent politiquement coûteuses. Le droit comparé est un outil tactique, pas une stratégie."
+
+limites:
+  - "Le droit comparé suppose une mobilité géographique (pouvoir vivre en Belgique ou aux Pays-Bas) — c'est un biais de classe implicite."
+  - "L'analyse ne couvre pas le droit pénal européen supranational (directive 2017/541, Parquet européen) qui pourrait harmoniser les définitions."
+  - "La pratique judiciaire réelle (poursuites, condamnations, peines prononcées) peut diverger significativement des peines maximales théoriques."
+  - "L'analyse est statique — les lois changent rapidement (nouveau CP belge septembre 2026, loi anti-blocage néerlandaise juin 2026)."
+
+wolves:
+  - nom: "Optimiste juridique"
+    argument: "Le droit belge est clairement plus favorable : 1-3 ans vs 10 ans en France. C'est une différence de facteur 3 à 10. Se baser à Bruxelles est une stratégie rationnelle et efficace."
+    reponse: "La différence de peine est réelle, mais le MAE permet à la France de demander l'extradition. L'art.4(6) MAE offre une protection conditionnelle, pas absolue. Et le nouveau CP belge 2026 change la donne."
+  - nom: "Pessimiste juridique"
+    argument: "Aucune juridiction n'offre de protection réelle. Letzte Generation est poursuivie en Allemagne malgré le §129. Le MAE rend l'extradition quasi-automatique. Mieux vaut assumer le risque français."
+    reponse: "Même marginale, une différence de peine de 7 ans (10 vs 3) justifie le choix de juridiction. Et la résidence en Belgique active l'art.4(6) MAE, ce qui n'est pas négligeable."
+
+iceberg:
+  - "L'impact de l'harmonisation européenne (directive 2017/541, Parquet européen) sur les différences entre droits nationaux — tendance à la convergence répressive."
+  - "La pratique réelle des parquets : combien de poursuites pour art.450-1 CP en France vs §129 StGB en Allemagne ? Les chiffres ne sont pas disponibles."
+  - "Mnemolite UP mais search 500. Aucune recherche cross-séries."
+  - "Résultat Mnemolite: [droit comparé coordination benelux → 500 Internal Server Error]"
+
+chronologie:
+  - date: "1867-06-08"
+    evenement: "Code pénal belge : art.322 association de malfaiteurs — définition toujours en vigueur"
+    source_fait: "F-benelux-002"
+  - date: "1988-04-20"
+    evenement: "Wet openbare manifestaties (Wom) néerlandaise — régime libéral de notification"
+    source_fait: "F-benelux-014"
+  - date: "2002-06-13"
+    evenement: "Décision-cadre 2002/584/JAI : création du Mandat d'Arrêt Européen, abolition de l'exception politique"
+    source_fait: "F-benelux-010"
+  - date: "2021-10-01"
+    evenement: "Réforme du §129 StGB allemand — définition légale précisée"
+    source_fait: "F-benelux-006"
+  - date: "2023-06-28"
+    evenement: "BGH étend le §129 StGB aux groupes opérant exclusivement en ligne"
+    source_fait: "F-benelux-008"
+  - date: "2025-03-06"
+    evenement: "Modification art.140a Sr néerlandais — peine terrorisme passe à 15-20 ans"
+    source_fait: "F-benelux-005"
+  - date: "2026-01-29"
+    evenement: "Cour constitutionnelle belge valide l''atteinte méchante à l'autorité de l'État'"
+    source_fait: "F-benelux-003"
+  - date: "2026-02-01"
+    evenement: "Procès Letzte Generation à Berlin pour §129 StGB — précédent anti-activiste"
+    source_fait: "F-benelux-009"
+  - date: "2026-06-03"
+    evenement: "Loi anti-blocage néerlandaise adoptée — restriction du droit de manifester"
+    source_fait: "F-benelux-013"
+  - date: "2026-09-01"
+    evenement: "Entrée en vigueur prévue du nouveau Code pénal belge"
+    source_fait: "F-benelux-003"
+
+domaines:
+  - "Droit pénal comparé — France, Belgique, Pays-Bas, Allemagne"
+  - "Coopération judiciaire européenne — Mandat d'Arrêt Européen"
+  - "Libertés publiques — droit de manifester, liberté de réunion"
+  - "Stratégie juridique défensive — désescalade juridictionnelle"
+
+urls_prioritaires:
+  - url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"
+    description: "Art.450-1 CP — texte de loi français, le plus répressif d'Europe"
+    head_status: 0
+  - url: "https://www.gesetze-im-internet.de/stgb/__129.html"
+    description: "§129 StGB allemand — définition la plus précise, à jour depuis 2021"
+    head_status: 0
+
+shadow_factor: 1.0
+
+mnemo_queries:
+  - query: "droit comparé coordination benelux allemagne association malfaiteurs"
+    results_count: 0
+    error: "500 Internal Server Error"
+  - note: "Mnemolite UP mais search inopérant."

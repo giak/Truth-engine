@@ -1,0 +1,72 @@
+enquete_id: "dependance_num"
+complexity: "MEDIUM"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_sub_dependance_numerique/2026-06-12_12-00_dependance_numerique_sevrage_INVESTIGATION.md"
+
+these_centrale: "La dépendance numérique est une fatalité pour les mouvements SPONTANÉS qui cherchent une croissance rapide. Elle ne l'est pas pour les mouvements qui acceptent une croissance lente basée sur des communautés réelles et autonomes. Le sevrage n'est pas technique (trouver une alternative à Twitter) : il est CULTUREL (accepter de perdre en visibilité ce qu'on gagne en sécurité). Le piège des métadonnées aggrave le diagnostic : Signal/Telegram chiffrent le contenu mais exposent les graphes sociaux (qui contacte qui, quand, depuis où) — et la collecte de métadonnées est légale en France (Loi Renseignement 2015, LOPMI 2023)."
+
+theses_implicites:
+  - "Le 'coût de sortie' des réseaux sociaux est prohibitif : migrer vers des outils chiffrés (Matrix, Signal) = perte immédiate de visibilité et d'accessibilité."
+  - "Le chiffrement du contenu est une protection illusoire si les métadonnées (graphes sociaux) sont légalement collectables."
+  - "Les mouvements qui survivent au sevrage (Zapatistes, LRC Soudan) ne cherchent pas la viralité : ils construisent des communautés."
+
+acteurs:
+  - "Réseaux sociaux : Twitter/X, Facebook, Instagram, WhatsApp"
+  - "Outils chiffrés : Signal, Telegram, Matrix, Mastodon"
+  - "Régimes de surveillance : Loi Renseignement 2015, LOPMI 2023"
+  - "Mouvements dépendants : Printemps arabe (2011), Gilets Jaunes (2018), Iran (2022)"
+  - "Mouvements sevrés : Zapatistes/EZLN, LRC Soudan"
+  - "Zuboff (The Age of Surveillance Capitalism, 2019)"
+
+causalites:
+  - "Plateformes = seuls espaces publics numériques → dépendance structurelle des mouvements de masse"
+  - "Métadonnées légalement collectables → le chiffrement du contenu ne protège pas les graphes sociaux"
+  - "Stratégie hybride : réseaux sociaux pour visibilité/agitation + outils hors-plateforme pour coordination interne"
+  - "Acceptation de la lenteur → condition du sevrage (Zapatistes, LRC)"
+
+perspectives_dialectiques:
+  - "Thèse : le sevrage numérique est impossible pour les mouvements de masse. Antithèse : les Zapatistes et LRC prouvent le contraire — mais ce sont des mouvements ruraux ou de petite échelle."
+  - "Thèse : le chiffrement protège. Antithèse : les métadonnées révèlent les graphes sociaux sans besoin de lire les messages — et leur collecte est légale."
+  - "Thèse : les DAO/Web3 sont l'avenir de la coordination décentralisée. Antithèse : tout médium numérique laisse une trace métadonnée indélébile."
+
+faits_atomiques:
+  - F-dep-001: "Printemps arabe (2011) : Twitter = visibilité internationale initiale. Répression a suivi quand régimes ont compris qu'ils pouvaient utiliser mêmes données pour cartographier réseaux militants."
+    glyph: "✧"
+  - F-dep-002: "Signal/Telegram chiffrent le CONTENU, pas les MÉTADONNÉES (qui contacte qui, quand, depuis où). Pour le renseignement, le graphe social est plus précieux que le contenu."
+    glyph: "✧"
+  - F-dep-003: "Loi Renseignement 2015 + LOPMI 2023 : collecte de métadonnées légale sans contrôle judiciaire préalable, sur autorisation Premier ministre après avis CNCTR."
+    glyph: "✦"
+  - F-dep-004: "Zapatistes : numérique = outil supplétif (visibilité externe), pas infrastructure centrale. Organisation interne (Caracoles, assemblées) ne dépend PAS du web."
+    glyph: "✧"
+  - F-dep-005: "LRC Soudan : maillage physique de quartier — numérique supplétif. Clé du sevrage = structuration de COMMUNAUTÉS RÉELLES."
+    glyph: "✧"
+  - F-dep-006: "Stratégies de sevrage : (1) numérique hybride, (2) compartimentation (outils anti-forensiques pour stratégique, réseaux sociaux pour public), (3) acceptation de la lenteur."
+    glyph: "❧"
+
+limites:
+  - "Stratégies de sevrage documentées = mouvements ruraux/petite échelle. Aucun mouvement de masse urbain n'a réussi le sevrage."
+  - "Distinction métadonnées/contenu juridiquement complexe et évolutive."
+
+wolves: []
+
+iceberg:
+  - "Dépendance numérique = fatalité pour croissance rapide, pas pour croissance lente"
+  - "Métadonnées : le vrai vecteur de surveillance (graphes sociaux), pas le contenu"
+  - "Sevrage culturel > sevrage technique : accepter de perdre en visibilité"
+  - "Hybridation numérique/analogique : seule stratégie documentée de transition"
+
+chronologie:
+  - "2011 : Printemps arabe"
+  - "2015 : Loi Renseignement"
+  - "2018 : Gilets Jaunes"
+  - "2019 : Zuboff, Surveillance Capitalism"
+  - "2022 : Mouvement Femme Vie Liberté Iran"
+  - "2023 : LOPMI"
+
+domaines:
+  - "surveillance_numerique"
+  - "dependance_plateformes"
+  - "metadonnees"
+  - "mouvements_sociaux"
+
+urls: []

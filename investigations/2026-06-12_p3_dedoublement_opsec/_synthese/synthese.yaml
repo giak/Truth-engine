@@ -1,0 +1,81 @@
+date_synthese: "2026-06-12"
+complexity: "APEX"
+n_enquetes: 46
+perimetre: "Toutes les enquetes du 10-12 juin 2026"
+enquetes_concernees:
+  - "10 juin (13) : defaite, verrou, fresque, ace, audit, benelux, finance, leadership, modele, puits, risque, fininv, succession"
+  - "11 juin (12) : sanctuaire, classe, racegenre, empirique, etatfragile, nonocc, narratif, police, projetpol, protosrc, psychomil, violinter"
+  - "12 juin (21) : opsec, repression, swarm, censure, gramsci, killswitch, economie, victoire, infiltration, redteaming, nonviolence, obsolescence, classespop, regimesaut, scaling, succes, topologie, attrition, crimintention, dependance, friction"
+total_faits_atomiques: "~500+ (estimation, non recompte systematiquement sur les 46 enquetes)"
+
+sujet_majoritaire: "Le corpus Coordination Acéphale (46 enquetes, ~370 faits atomiques, 10-12 juin 2026) documente hyper-forensiquement l'impossibilite de la coordination acéphale en France 2026. Les 5 P3-P5 challengent le corpus sur ses angles morts. Les 4 sous-enquetes comblent des gaps identifies. Les 12 nouvelles enquetes (P1, P2, Sub) elargissent le diagnostic au facteur humain, au scaling, a la topologie pénale, aux classes populaires, et aux succès français contemporains."
+
+theses_cardinales:
+  - titre: "THESE-001 : Le paradoxe de l'acephalie (protege de la decapitation, expose a l'infiltration et a l'incapacite de negocier)"
+    enonce: "L'architecture acéphale est un compromis fondamental : elle protege de la decapitation (pas de chef a arreter) mais expose a l'infiltration massive (pas de hierarchie pour le contre-espionnage), empeche la negociation (pas d'interlocuteur identifiable), et interdit le financement structurel (pas de personnalite juridique). Ce paradoxe traverse 6 enquetes (opsec, infiltration, victoire, topologie, attrition, crimintention) et n'est resolu par aucune."
+    shadow: 3.8
+    etendue: "18/46"
+  - titre: "THESE-002 : La coordination acéphale est économiquement prisonnière d'un trilemme  : disponibilité, acéphalie, légalité (choisissez deux)"
+    enonce: "Sans personnalite juridique, pas de financement pérenne. Avec personnalite juridique, vulnerabilite a la dissolution. Sans disponibilite (coordinateurs a temps plein), pas de strategie. Le modele 'transparence juridique' (LST, ZAD) coute 5 000-10 000 € minimum par recours et exclut les classes populaires. Aucune solution de financement invisible scalable n'est documentee."
+    shadow: 3.5
+    etendue: "12/46"
+  - titre: "THESE-003 : La coordination acéphale ne peut pas 'gagner' au sens classique  : sa victoire est l'erosion, pas la capture"
+    enonce: "La victoire totale exige une organisation capable de negocier, signer et garantir des accords. L'acephalie, par definition, ne peut remplir aucune de ces fonctions. Les objectifs du corpus (RIC, demantelement LOPMI) exigent une reforme constitutionnelle, donc une organisation politique structuree. La seule 'victoire' documentee est defensive (ZAD, LST)  : bloquer un projet, pas prendre le pouvoir. La survie n'est pas la victoire."
+    shadow: 4.0
+    etendue: "10/46"
+  - titre: "THESE-004 : L'infrastructure technique et cognitive du corpus est possedee par l'adversaire"
+    enonce: "LLMs proprietaires, GitHub/Microsoft, cloud AWS  : le kill-switch est documente (Parler 2021) et applicable au corpus lui-meme. Les metadonnees (graphes sociaux) sont legalement collectables (Loi Renseignement 2015, LOPMI 2023). La dependance numerique est une fatalite pour les mouvements de croissance rapide. Le 'retour a l'analogique' n'est pas scalable (1,5M cameras LOPMI)."
+    shadow: 3.2
+    etendue: "8/46"
+  - titre: "THESE-005 : Le corpus est une therapie comportementale pour elite paralysee  : pas un manuel de resistance"
+    enonce: "La boucle d'auto-referencement (le corpus s'analyse lui-meme), le defaut de maintenance du KERNEL, l'absence de test empirique (0 test terrain), le biais CSP+ systematique (65% de la population exclue), le desequilibre 95% diagnostic / 5% proposition, et la fonction objective de production editoriale (Substack) convergent vers une fonction reelle : rationaliser sociologiquement l'inaction. Le corpus transforme l'angoisse politique CSP+ en production intellectuelle valorisee. C'est du defaitisme methodologique de tres grand luxe."
+    shadow: 4.5
+    etendue: "15/46"
+
+transversalites:
+  - id: "TR-001"
+    concept: "Paradoxe de l'acephalie (protege ET expose)"
+    description: "L'architecture acéphale est un compromis qui protege de la decapitation mais expose a l'infiltration, empeche la negociation, et interdit le financement structurel. Ce paradoxe est le fil rouge de 6 enquetes."
+    fiches_concernees: ["opsec", "infiltration", "victoire", "topologie", "attrition", "crimintention"]
+  - id: "TR-002"
+    concept: "Tension TRANSPARENCE vs CLANDESTINITE"
+    description: "Le modele LST/ZAD (public, legal, transparent) contredit le modele IRA/FLN (clandestin, compartimente, opaque). Les deux fonctionnent dans leurs contextes respectifs mais aucun n'est generalisable : la transparence expose a TRACFIN, la clandestinite expose a l'art.450-1 CP. 4 enquetes documentent cette tension."
+    fiches_concernees: ["succes", "opsec", "killswitch", "dependance"]
+  - id: "TR-003"
+    concept: "Solutions TECHNIQUES vs SOLUTIONS SOCIALES"
+    description: "Le corpus focalise sur les solutions techniques (chiffrement, OPSEC, low-tech) mais les enquetes sur les regimes autoritaires, les classes populaires et la friction violente montrent que la protection SOCIALE (legitimite locale, utilite, ancrage syndical) est superieure. Un reseau utile est plus protege qu'un reseau chiffre."
+    fiches_concernees: ["regimesaut", "classespop", "friction", "succes", "obsolescence"]
+  - id: "TR-004"
+    concept: "La procedure EST la peine"
+    description: "Tarnac (2008-2018) est le cas d'ecole : relaxe finale mais reseau detruit par 10 ans de procedure. La garde a vue, le controle judiciaire et la detention provisoire detruisent le mouvement independamment du jugement. Cette realite traverse 5 enquetes."
+    fiches_concernees: ["topologie", "crimintention", "friction", "redteaming", "defaite"]
+  - id: "TR-005"
+    concept: "La boucle recursive : pour se coordonner, il faut deja etre coordonne"
+    description: "Le paradoxe traverse verrou (HYPER_MATRICE V1 : le goulot d'etranglement recursif), audit (auto-immunite du corpus), redteaming (impossibilite juridique de tester sans risquer l'art.450-1 CP), et la synthese elle-meme (produire de l'analyse sur l'analyse est la boucle que le corpus denonce). Aucune enquete ne resout ce paradoxe."
+    fiches_concernees: ["verrou", "audit", "redteaming", "censure", "gramsci"]
+
+gaps:
+  - "GAP-001 : Strategie de la VICTOIRE positive  : a quoi ressemble 'gagner' pour une coordination acéphale en France 2026 ?"
+  - "GAP-002 : Test empirique  : aucun protocole n'a ete teste en conditions reelles. La pyramide de validation (P1#1) est theorique."
+  - "GAP-003 : Integration des classes populaires  : le corpus est structurellement CSP+. Aucun protocole ne depasse 2/10 d'accessibilite pour les 65%."
+  - "GAP-004 : Boomerang Mapping  : cartographie des allies internationaux mobilisables (ONG, CEDH, UE, diasporas) pour creer un equilibre politique."
+  - "GAP-005 : Horizon temporel  : aucun modele ne projette la survie a 20-30 ans. La question generationnelle est absente."
+  - "GAP-006 : Profil socio-economique des lecteurs  : donnees Substack non exploitees. Qui lit le corpus ?"
+
+surprises:
+  - "SURPRISE-001 : La coordination acéphale EXISTE en France (LST, ZAD, anti-A69)  : contredisant TC3. Mais elle est structurellement CSP+ et marginale."
+  - "SURPRISE-002 : La transparence financiere est une contre-mesure paradoxale a TRACFIN  : les mouvements reels font l'INVERSE de ce que recommande le corpus."
+  - "SURPRISE-003 : Les classes populaires sont peut-etre les PLUS coordonnees de France  : mais sous des formes que le corpus ne sait pas lire (reseaux Bourdieu vs institutions Putnam)."
+  - "SURPRISE-004 : Le corpus passe de 'comment rendre la coordination possible ?' a 'comment fonctionnent les coordinations qui existent deja ?'  : pivot documente par P2#9."
+
+shadow_factor_global: 3.6
+shadow_note: "Estimation heritee de la META originale (9 enquetes). Non recalcule sur les 46. Les quintessences du 10-11 juin ont leurs propres shadow_factors (defaite: 2.0, classe: 1.5, projetpol: 2.0). Un recalcul systematique donnerait probablement 2.5-3.0  : a verifier."
+shadow_justification: "Les 46 enquetes couvrent un spectre impressionnant (droit, economie, technologie, psychologie, sociologie, histoire) mais 95% des faits sont des analyses de second ordre sans donnee primaire. La recherche cross-series Mnemolite est inoperante (API error 500)."
+
+mnemo_context:
+  status: "UP (36 942 memoires) mais API search en erreur 500"
+  cross_series_detected: false
+  note: "Synthese produite sans memoire vectorielle  : limitation documentee."
+
+recommandation_article: "OUI"
+justification_article: "Le corpus a atteint une masse critique de diagnostic. La these ICEBERG MAX (THESE-005) merite un article autonome de 3 000-5 000 mots : 'Comment un corpus de 46 enquetes et ~370 faits a fini par demontrer sa propre inutilite strategique'. Angle : autopsie d'un outil qui a produit de la lucidite paralysante au lieu de l'action. Risques documentes : perception d'auto-destruction, recursivite (l'article reproduit le defaut qu'il denonce), absence de connexions Mnemolite cross-series."

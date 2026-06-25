@@ -1,0 +1,290 @@
+enquete_id: "defaite"
+complexity: "APEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-10_analyse_defaite_guerilla/"
+fichiers_sources:
+  - "2026-06-10_10-00_analyse_defaite_guerilla_APEX.md (577 lignes, 22 faits, 6 cas)"
+  - "_gaps/2026-06-10_23-30_gap4_cas_manquants_DEFEAT.md (gap analysis, 12 faits, 7 cas manquants)"
+
+these_centrale: "La guérilla armée est un suicide politique dans une démocratie occidentale : les 4 mouvements armés occidentaux (AD, BR, RAF, WUO) ont tous été détruits en moins de 30 ans par l'infiltration, l'escalade, la perte de base sociale, l'absence de sortie politique et l'épuisement générationnel. Le seul modèle viable est le modèle zapatiste adapté : zéro violence armée, refus du pouvoir d'État, communication, base sociale préexistante, durabilité — mais ce modèle n'a jamais été testé hors du Chiapas."
+theses_implicites:
+  - "Les sanctuaires imperméables sont le discriminant principal entre succès et échec : l'IRA (sanctuaire irlandais), le FLN (sanctuaires marocain/tunisien), les Zapatistes (jungle du Chiapas), la FARC (jungle colombienne) et le PKK (monts Qandil) ont tous survécu grâce à des sanctuaires que l'État adverse ne pouvait pas pénétrer. Aucun sanctuaire de ce type n'existe en France 2026."
+  - "La taille critique du mouvement détermine la possibilité de négociation : les micro-groupes (<200 membres : AD, BR, RAF, WUO) sont trop petits pour négocier et sont écrasés ; les mouvements massifs (>1000 combattants : FARC, LTTE, IRA) peuvent forcer une négociation par épuisement mutuel. La France 2026 ne permet pas la constitution de mouvements massifs armés."
+  - "Les mouvements leaderless (HK 2019, Arab Spring) sont imperméables à la décapitation mais incapables de négocier ou de consolider une victoire. Le modèle 'Be Water' résout le problème de l'infiltration mais crée un problème de gouvernance post-victoire."
+
+faits_atomiques:
+  - id: "F-defaite-001"
+    enonce: "Les 4 mouvements armés occidentaux des années 1970-80 (Action Directe, Brigades Rosse, RAF, Weather Underground) ont tous été détruits ou dissous en moins de 30 ans. Aucun n'a conquis le pouvoir politique."
+    source_url: "Synthèse 4 cas, §1"
+    source_section: "§1 Problem Statement"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-defaite-002"
+    enonce: "La RAF (Allemagne, 1970-1998) : ~30% des membres de la 1ère génération étaient des informateurs du BKA ou du Verfassungsschutz. Autodissolution le 20 avril 1998 sans défaite militaire mais défaite stratégique totale. Aucun impact sur les lois allemandes."
+    source_url: "Aust, Der Baader Meinhof Komplex (1985)"
+    source_section: "§3.1, §5.3"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-003"
+    enonce: "Action Directe (France, 1979-1987) : le téléphone de Rouillan était sur écoute dès 1977. La DST a attendu 8 ans pour arrêter tous les dirigeants simultanément au lieu-dit 'La Ferme' (1987). L'assassinat de Georges Besse (PDG de Renault, 1986) a été condamné par TOUTE la classe politique française."
+    source_url: "Dammame, Action Directe : chronique d'une liquidation (1987)"
+    source_section: "§5.1"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-004"
+    enonce: "Brigades Rosse (Italie, 1970-1988) : 800 brigadistes se sont repentis entre 1980-1990 (sur ~4 000 membres). La loi Cossiga (1980) offrait une réduction de peine massive pour dénonciation. L'assassinat d'Aldo Moro (1978) a coupé les BR de toute la gauche italienne."
+    source_url: "Galleni, Rapporto sul terrorismo (1981) ; Drake, The Aldo Moro Murder Case (1995)"
+    source_section: "§5.2"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-005"
+    enonce: "Weather Underground (USA, 1969-1977) : seul mouvement armé occidental à n'avoir JAMAIS tué un civil intentionnellement. La townhouse explosion (6 mars 1970) a tué 3 de leurs propres membres. Dissolution par exhaustion en 1977."
+    source_url: "Varon, Bringing the War Home (2004) ; Ayers, Fugitive Days (2001)"
+    source_section: "§5.4"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-006"
+    enonce: "Les 4 mouvements échoués ont TOUS commis l'erreur fatale de l'assassinat politique. Chaque assassinat a détruit le soutien social résiduel : Schleyer (RAF, 1977), Moro (BR, 1978), Besse (AD, 1986). L'assassinat politique est un suicide politique dans une démocratie."
+    source_url: "Synthèse §6.1"
+    source_section: "§6.1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-defaite-007"
+    enonce: "Les 4 mouvements n'avaient AUCUNE stratégie de sortie politique. Leur horizon stratégique était soit la victoire totale (impossible), soit la mort. Sans perspective de sortie, la rétention des membres et le recrutement deviennent impossibles."
+    source_url: "Synthèse §3.4"
+    source_section: "§3.4"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-defaite-008"
+    enonce: "La durée de vie moyenne d'un militant clandestin armé est de 2-3 ans avant la mort, l'arrestation ou l'exil (RAF), 3-4 ans avant la repentance ou la capture (BR). La clandestinité est psychologiquement destructrice : paranoïa permanente, isolement social, rupture familiale."
+    source_url: "Della Porta, Clandestine Political Violence (2013)"
+    source_section: "§3.5"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-009"
+    enonce: "L'État dispose d'un avantage de ressources de 1:10 000 sur les mouvements armés (budget DST vs AD). L'asymétrie n'est pas une faiblesse de l'État — c'est sa force maximale. L'État peut attendre 10-30 ans ; le mouvement a besoin de résultats en mois."
+    source_url: "Shapiro, The Terrorist's Dilemma (2013)"
+    source_section: "§4.1, §4.4"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-010"
+    enonce: "Le FLN (Algérie, 1954-1962) a réussi grâce à 6 conditions ABSENTES en France 2026 : (1) contexte colonial, (2) base sociale massive préexistante (9M d'Algériens), (3) sanctuaires extérieurs (Maroc, Tunisie), (4) soutien international (ONU, URSS, non-alignés), (5) objectif clair et négociable (indépendance), (6) symétrie partielle (armée coloniale pratiquant la torture)."
+    source_url: "Horne, A Savage War of Peace (1977) ; Stora, Histoire de la guerre d'Algérie (1993)"
+    source_section: "§5.5"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-defaite-011"
+    enonce: "Les Zapatistes (Chiapas, 1994-présent) sont le seul modèle viable : 12 jours de combats puis abandon des armes, refus du pouvoir d'État, communication poétique (Marcos), base sociale indigène préexistante, 30+ ans de survie par autonomie locale. Modèle jamais testé hors du Chiapas."
+    source_url: "Tello Diaz, EZLN : la guerra y la paz (1995) ; Holloway, Change the World Without Taking Power (2002)"
+    source_section: "§5.6"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-defaite-012"
+    enonce: "Le modèle Mao-Che (guerre prolongée, foco) présuppose 4 conditions ABSENTES en France 2026 : sanctuaires ruraux, population hostile à l'État, État faible, économie locale de survie. Citer Mao et Che dans la stratégie, c'est citer une doctrine inapplicable en démocratie occidentale."
+    source_url: "Synthèse §6.4"
+    source_section: "§6.4"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-defaite-013"
+    enonce: "L'IRA (1969-2005) est le SEUL mouvement armé ayant forcé un État de l'OTAN à négocier (Good Friday Agreement, 1998). Facteurs décisifs : sanctuaires en République d'Irlande, diaspora US (NORAID), bras politique légal (Sinn Féin), restructuration cellulaire (ASU, 4-5 personnes)."
+    source_url: "Moloney, A Secret History of the IRA (2002) ; BBC, Good Friday Agreement explainer (2023)"
+    source_section: "GAP §2.1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-defaite-014"
+    enonce: "Les sanctuaires imperméables sont le discriminant principal entre succès et échec : IRA (Irlande), FLN (Maroc/Tunisie), Zapatistes (jungle Chiapas), FARC (jungle Colombie), PKK (monts Qandil) ont tous survécu grâce à des sanctuaires. Aucun sanctuaire de ce type n'existe en France 2026 — le territoire est intégralement cartographié et surveillé."
+    source_url: "Synthèse GAP §3"
+    source_section: "GAP §3"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-defaite-015"
+    enonce: "La FARC (Colombie, 1964-2016) a forcé un accord de paix après 52 ans de conflit — ni victoire ni défaite. Facteurs : sanctuaires dans la jungle, financement autonome via narcotrafic (~$500M/an), structure trop grande pour être écrasée, médiation internationale (Cuba, Norvège)."
+    source_url: "Peace Accords Matrix, Final Agreement (2016)"
+    source_section: "GAP §2.5"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-016"
+    enonce: "Hong Kong 2019 : mouvement leaderless 'Be Water' — 2M de manifestants (25% de la population), imperméable à la décapitation mais incapable de négocier. Écrasé par la Loi sur la sécurité nationale chinoise (juin 2020). 10 000+ arrestations entre 2019 et 2024."
+    source_url: "ResearchGate, Solidarity and Implications of a Leaderless Movement in Hong Kong (2020) ; The Guardian (2019)"
+    source_section: "GAP §2.7"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-017"
+    enonce: "Le paradoxe de la propagande dans une démocratie médiatique : la violence armée est TOUJOURS une propagande négative pour celui qui la commet. Les médias sont structurés pour rapporter la violence comme déviance criminelle, pas comme action politique. Chaque 'coup' médiatique est un coup POUR l'État."
+    source_url: "Herman & Chomsky, Manufacturing Consent (1988)"
+    source_section: "§4.3"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-018"
+    enonce: "L'ETA (1959-2018) a survécu 59 ans sans jamais forcer l'Espagne à négocier. Effondrement par coordination policière franco-espagnole (2007+), perte du soutien social basque, interdiction de Batasuna, isolement international post-9/11."
+    source_url: "BBC, ETA: Key events (2018) ; Britannica, ETA (2024)"
+    source_section: "GAP §2.3"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-019"
+    enonce: "Les BR sont le SEUL mouvement armé occidental ayant eu une véritable base sociale ouvrière (FIAT, Pirelli, Alfa Romeo). Même avec cette base, l'assassinat Moro a détruit le soutien. La base se désolidarise quand le mouvement tue."
+    source_url: "Della Porta, Social Movements, Political Violence, and the State (1995)"
+    source_section: "§5.2"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-defaite-020"
+    enonce: "Sous le droit français, toute organisation de 5+ personnes en vue d'actions collectives non autorisées = association de malfaiteurs (art.450-1 CP, 10 ans). Toute action visant à 'troubler l'ordre public par l'intimidation' = terrorisme (art.421-1 CP, 30 ans)."
+    source_url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"
+    source_section: "§6.5"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Action Directe (AD)"
+    role: "Mouvement armé français (1979-1987), ~30 membres, détruit par infiltration DST et erreur Besse (1986)"
+    faits_lies: ["F-defaite-003", "F-defaite-006"]
+  - nom: "Brigades Rosse (BR)"
+    role: "Mouvement armé italien (1970-1988), ~4000 membres au pic, seul mouvement avec base ouvrière, détruit par pentiti"
+    faits_lies: ["F-defaite-004", "F-defaite-019", "F-defaite-006"]
+  - nom: "RAF / Baader-Meinhof"
+    role: "Mouvement armé allemand (1970-1998), 28 ans, le plus long des 4, autodissolution sans défaite militaire"
+    faits_lies: ["F-defaite-002", "F-defaite-006"]
+  - nom: "Weather Underground (WUO)"
+    role: "Mouvement armé américain (1969-1977), seul à n'avoir jamais tué de civil, dissolution par exhaustion"
+    faits_lies: ["F-defaite-005"]
+  - nom: "FLN"
+    role: "Contre-exemple réussi (Algérie, 1954-1962) mais inapplicable en France : contexte colonial, sanctuaires, soutien international"
+    faits_lies: ["F-defaite-010"]
+  - nom: "Zapatistes (EZLN)"
+    role: "Seul modèle viable : 12 jours de combat puis abandon des armes, autonomie locale, 30+ ans de survie"
+    faits_lies: ["F-defaite-011"]
+  - nom: "IRA"
+    role: "Contre-exemple GAP : seul mouvement armé ayant forcé un État de l'OTAN à négocier (Good Friday 1998) grâce aux sanctuaires irlandais"
+    faits_lies: ["F-defaite-013"]
+  - nom: "État français (DST, justice)"
+    role: "Adversaire disposant d'un avantage 1:10 000 en ressources, horizon temporel infini, monopole de la violence légitime"
+    faits_lies: ["F-defaite-009", "F-defaite-020"]
+
+causalites:
+  - cause: "F-defaite-014"
+    effet: "F-defaite-001"
+    mecanisme: "L'absence de sanctuaires imperméables en France rend impossible la survie d'un mouvement armé au-delà de quelques années. Sans sanctuaire, l'infiltration et la surveillance totale (téléphone, numérique, agents doubles) sont inévitables."
+  - cause: "F-defaite-006"
+    effet: "F-defaite-007"
+    mecanisme: "L'assassinat politique brûle les ponts : il coupe le mouvement de sa base sociale ET rend toute négociation impossible. Sans base sociale et sans perspective de négociation, la seule 'sortie' est la mort ou la prison."
+  - cause: "F-defaite-008"
+    effet: "F-defaite-001"
+    mecanisme: "Le burn-out générationnel (2-3 ans de vie clandestine avant effondrement psychologique) rend le recrutement impossible à maintenir. L'État, lui, recrute des informateurs en continu. Le ratio informateur/militant augmente jusqu'au point de rupture."
+  - cause: "F-defaite-009"
+    effet: "F-defaite-002"
+    mecanisme: "L'asymétrie de ressources (1:10 000) + l'horizon temporel infini de l'État créent une guerre d'usure que le mouvement ne peut pas gagner. L'État n'a pas besoin de gagner vite — il lui suffit de ne pas perdre."
+  - cause: "F-defaite-017"
+    effet: "F-defaite-006"
+    mecanisme: "Dans une démocratie médiatique, la violence armée génère une propagande négative automatique. Chaque attentat renforce le soutien public à la répression étatique et isole davantage le mouvement."
+
+perspectives_dialectiques:
+  - position: "Thèse — La guérilla armée est un suicide politique garanti en Occident"
+    argument: "Les 4 cas (AD, BR, RAF, WUO) + ETA prouvent empiriquement que tout mouvement armé en démocratie occidentale est détruit en moins de 30 ans. L'État dispose d'un avantage structurel insurmontable : monopole de la violence légitime, ressources infinies, horizon temporel illimité, médias alliés, lois d'exception. Tenter la guérilla armée en France 2026, c'est garantir la prison ou la mort."
+  - position: "Antithèse — L'IRA et la FARC prouvent que la négociation est possible"
+    argument: "L'IRA a forcé le Royaume-Uni à négocier (Good Friday Agreement, 1998). La FARC a signé un accord de paix avec la Colombie (2016). Le PKK est en transition politique (cessez-le-feu 2025). La variable n'est pas 'démocratie vs non-démocratie' mais 'sanctuaire vs absence de sanctuaire'. Avec un sanctuaire imperméable, un mouvement armé peut survivre assez longtemps pour forcer une négociation."
+  - position: "Synthèse — Le modèle zapatiste adapté est la seule voie, mais non testée"
+    argument: "En l'absence de sanctuaires en France 2026, la guérilla armée est effectivement impossible. Mais le modèle zapatiste (zéro violence après la phase 1, autonomie locale, communication, base sociale préexistante, durabilité) est transposable en principe — à condition d'accepter qu'il n'a jamais été testé hors du Chiapas. Le modèle 'Be Water' de HK 2019 ajoute l'imperméabilité à la décapitation mais au prix de l'incapacité à négocier. La synthèse est un mouvement non-violent, leaderless-résilient, à objectif local plutôt qu'étatique, avec une stratégie de communication plutôt que de confrontation."
+
+limites:
+  - "Les 4 cas sont concentrés sur les années 1970-80 — les dynamiques de surveillance numérique (IA prédictive, LOPMI 2023, reconnaissance faciale) ont radicalement changé la donne et rendent l'analyse potentiellement optimiste."
+  - "Le modèle zapatiste adapté est hypothétique : il n'a JAMAIS été testé hors du Chiapas rural, pauvre, indigène. Le transposer à la France urbaine, riche, atomisée de 2026 est un saut dans l'inconnu."
+  - "Les sources sont secondaires (livres, analyses académiques) — les archives des services de renseignement (DST, BKA, FBI) ne sont pas consultables, ce qui limite la vérification des taux d'infiltration."
+  - "L'enquête principale (APEX) a un biais de sélection : elle choisit 4 échecs et 2 succès atypiques (FLN colonial, Zapatistes rural). Le GAP corrige partiellement ce biais en ajoutant 7 cas, mais l'échantillon reste limité."
+  - "Aucune analyse quantitative de la perte de soutien (les sondages cités sont indicatifs, pas systématiques)."
+
+wolves:
+  - nom: "Partisan de la lutte armée"
+    argument: "Les 4 mouvements ont échoué parce qu'ils étaient trop petits et mal organisés, pas parce que la lutte armée est impossible. Avec une discipline FLN, des cellules compartimentées, et des sanctuaires numériques (crypto, darknet), un mouvement armé du 21e siècle pourrait survivre."
+    reponse: "Les sanctuaires numériques ne sont PAS des sanctuaires physiques. La LOPMI 2023 permet la surveillance algorithmique prédictive. Un mouvement armé en 2026 serait détecté avant son premier acte — pas par un informateur, mais par un algorithme. Le darknet n'offre pas de refuge contre les mandats d'arrêt."
+  - nom: "Pacifiste absolu"
+    argument: "Même le modèle zapatiste est trop risqué. L'autonomie territoriale en France tombe sous l'art.450-1 CP. Toute coordination de 5+ personnes est une association de malfaiteurs. La seule action légitime est le vote et la manifestation déclarée."
+    reponse: "Les Soulèvements de la Terre ont survécu à une tentative de dissolution (2023) en restant dans le cadre légal. Le modèle zapatiste adapté ne propose PAS la violence — il propose l'autonomie locale par des moyens légaux ou a-légaux (SEL, coopératives, ZAD). La frontière entre légal et légitime est l'objet même de la lutte."
+  - nom: "Chenoweth & Stephan"
+    argument: "L'étude quantitative de 323 mouvements (2011) montre que les mouvements non-violents ont 2x plus de chances de succès que les violents. La non-violence n'est pas un idéal — c'est une stratégie empiriquement supérieure."
+    reponse: "Exact. Cette enquête le confirme pour les démocraties occidentales. La non-violence n'est pas une garantie de succès (Occupy, HK 2019, Gilets Jaunes ont tous échoué), mais la violence est une garantie d'échec. La question n'est pas 'violence ou non-violence' mais 'quelle non-violence fonctionne'."
+
+iceberg:
+  - "La démocratie occidentale comme système immunitaire : toute menace (violente ou non) génère une réponse qui renforce le système. Les mouvements violents accélèrent la réponse. Les mouvements non-violents la ralentissent mais ne l'empêchent pas."
+  - "La surveillance numérique (LOPMI 2023, IA prédictive, reconnaissance faciale) comme nouvelle arme absolue : un mouvement armé en 2026 serait détecté avant son premier acte."
+  - "La question de la taille critique : existe-t-il un seuil (en nombre de membres) en dessous duquel un mouvement est 'trop petit pour négocier' et au-dessus duquel il est 'trop grand pour être écrasé' ?"
+  - "Le paradoxe leaderless : les mouvements sans chef (HK 2019, Arab Spring) résolvent l'infiltration mais créent une incapacité à négocier. Le modèle 'Be Water' est le plus adapté à la France 2026 mais sa limite fatale (pas de contrepartie à offrir) n'est pas résolue."
+  - "Mnemolite: UP (health OK) mais endpoint /v1/search/ retourne 500. Aucune recherche cross-séries possible."
+  - "Résultat Mnemolite: [defaite guerilla armee democratie → 500 Internal Server Error]"
+
+chronologie:
+  - date: "1959-01-01"
+    evenement: "Création de l'ETA (Espagne) — survivra 59 ans sans victoire"
+    source_fait: "F-defaite-018"
+  - date: "1964-01-01"
+    evenement: "Création des FARC (Colombie) — 52 ans de guerre, accord de paix en 2016"
+    source_fait: "F-defaite-015"
+  - date: "1969-01-01"
+    evenement: "Début du conflit nord-irlandais — IRA vs Royaume-Uni"
+    source_fait: "F-defaite-013"
+  - date: "1970-01-01"
+    evenement: "Création de la RAF (Allemagne) et des Brigades Rosse (Italie)"
+    source_fait: "F-defaite-002"
+  - date: "1979-01-01"
+    evenement: "Création d'Action Directe (France)"
+    source_fait: "F-defaite-003"
+  - date: "1987-01-01"
+    evenement: "Arrestation des dirigeants d'AD au lieu-dit 'La Ferme' — fin d'Action Directe"
+    source_fait: "F-defaite-003"
+  - date: "1994-01-01"
+    evenement: "Soulèvement zapatiste (Chiapas) — 12 jours de combat, puis abandon des armes"
+    source_fait: "F-defaite-011"
+  - date: "1998-04-20"
+    evenement: "Autodissolution de la RAF après 28 ans d'existence"
+    source_fait: "F-defaite-002"
+  - date: "1998-05-22"
+    evenement: "Good Friday Agreement — l'IRA force le Royaume-Uni à négocier"
+    source_fait: "F-defaite-013"
+  - date: "2019-01-01"
+    evenement: "Mouvement 'Be Water' à Hong Kong — 2M de manifestants, leaderless, écrasé en 2020"
+    source_fait: "F-defaite-016"
+  - date: "2025-03-01"
+    evenement: "Le PKK déclare un cessez-le-feu unilatéral après l'appel d'Öcalan"
+    source_fait: "F-defaite-014"
+
+domaines:
+  - "Stratégie insurrectionnelle — analyse comparée des défaites"
+  - "Histoire des mouvements armés occidentaux (1970-1998)"
+  - "Théorie des sanctuaires — condition de survie des mouvements"
+  - "Droit pénal français — cadre répressif (art.450-1, 421-1 CP)"
+  - "Modèles post-modernes — leaderless, Be Water, zapatisme adapté"
+
+urls_prioritaires:
+  - url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"
+    description: "Article 450-1 du Code pénal — association de malfaiteurs (10 ans). Texte de loi fondamental pour toute discussion sur la coordination."
+    head_status: 0
+  - url: "https://www.nonviolent-conflict.org/polands-solidarity-movement-1980-1989/"
+    description: "Solidarnosc — cas historique vérifié (HEAD 200) de mouvement non-violent massif ayant réussi sans structure armée."
+    head_status: 200
+
+shadow_factor: 2.0
+
+mnemo_queries:
+  - query: "défaite guérilla armée démocratie occidentale"
+    results_count: 0
+    error: "500 Internal Server Error — recherche Mnemolite inopérante"
+  - note: "Mnemolite UP (health check OK) mais moteur de recherche cassé. Aucune recherche cross-séries possible."

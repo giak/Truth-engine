@@ -1,0 +1,201 @@
+enquete_id: "leadership"
+complexity: "APEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-10_leadership_acephalique/"
+fichiers_sources:
+  - "2026-06-10_10-00_leadership_acephalique_APEX.md (477 lignes, 18+25 faits, 6 cas, 5 modèles)"
+
+these_centrale: "Le leadership acéphale est une contradiction dans les termes — mais c'est la seule forme de leadership compatible avec les contraintes de sécurité d'un mouvement sous répression. Le problème est insoluble mais gérable : tout groupe produit des leaders informels ; les nier les rend non-responsables et dangereux ; les reconnaître explicitement avec rotation, mandat impératif et compartimentation est la moins mauvaise solution."
+theses_implicites:
+  - "Le leadership n'est pas une construction sociale — c'est un instinct biologique (primates, hierarchies de dominance). L'acéphalie consciente est un artefact culturel qui s'effondre sous stress."
+  - "Le paradoxe vitesse-démocratie est irréconciliable sans mécanisme de bascule : démocratie en temps normal, commandement en temps de crise. Aucun des 5 modèles proposés ne le résout complètement."
+  - "Le leadership explicite est juridiquement suicidal (art.450-1 CP). Le leadership implicite est opérationnellement fragile. Le dilemme est fondamental et aucune solution technique ne le résout — seulement des compromis organisationnels."
+
+faits_atomiques:
+  - id: "F-lead-001"
+    enonce: "L'arrestation d'Abimael Guzmán (Sendero Luminoso, 1992) a détruit le mouvement en 18 mois — de 10 000 combattants à quelques centaines. Aucun successeur n'était préparé."
+    source_url: "https://www.bbc.com/news/world-latin-america-20251909"
+    source_section: "§3.1"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-lead-002"
+    enonce: "L'IRA a survécu à l'arrestation de McGuinness (1974-75) grâce à un Army Council de 7 membres avec successeur toujours prédésigné. Leadership collectif institutionnalisé."
+    source_url: "https://cain.ulster.ac.uk/othelem/organ/docs/organ.htm"
+    source_section: "§3.1"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-lead-003"
+    enonce: "Chenoweth & Stephan (2011) : mouvements horizontalistes = 26% de réussite vs 52% pour les centralisés. Mais les centralisés sont 3× plus vulnérables à la décapitation."
+    source_url: "https://www.oxfordbibliographies.com/view/document/obo-9780199756223/obo-9780199756223-0169.xml"
+    source_section: "§3.2"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-lead-004"
+    enonce: "Occupy Wall Street (2011) : horizontalité pure, effondrement en 6 mois. Aucune revendication concrète obtenue. Paralysie décisionnelle, capture par éléments extrêmes, épuisement des organisateurs."
+    source_url: "Graeber, The Democracy Project (2013)"
+    source_section: "§5.3"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-lead-005"
+    enonce: "Zapatistes (EZLN, 1994-2024) : 30 ans de fonctionnement avec conseils rotatifs, 'mandar obedeciendo', porte-parole révocables. Impossible de décapiter un mouvement sans tête."
+    source_url: "https://enlacezapatista.ezln.org.mx/"
+    source_section: "§5.1"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-lead-006"
+    enonce: "Solidarnosc (1980-1989) : double leadership public (Wałęsa, emprisonné) + souterrain (conseil clandestin). A survécu 8 ans de clandestinité grâce à cette structure à deux étages."
+    source_url: "https://www.britannica.com/topic/Solidarity"
+    source_section: "§5.2"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-lead-007"
+    enonce: "Gilets jaunes (2018-2019) : les leaders informels (Ludosky, Drouet, Nicolle) ont été identifiés et arrêtés/neutralisés en 6 mois. Le mouvement n'avait pas de mécanisme pour gérer l'émergence de leaders."
+    source_url: "https://www.lemonde.fr/societe/article/2019/03/15/gilets-jaunes-les-figures-du-mouvement-ciblees-par-la-police_5436479_3224.html"
+    source_section: "§4.4"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-lead-008"
+    enonce: "Organisations à responsabilité diffuse : taux d'apprentissage 40% plus faible que les organisations hiérarchiques (Argyris & Schön, Organizational Learning, 1978). Les erreurs se répètent."
+    source_url: "https://hbr.org/1978/09/organizational-learning"
+    source_section: "§3.5"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-lead-009"
+    enonce: "Loi de Reed appliquée aux cellules clandestines : point optimal N=5-7 membres. Au-delà, coût de coordination > valeur de connectivité. En crise, le modèle consensus échoue — nécessite mécanisme de bascule."
+    source_url: "Reed's Law / dérivation interne"
+    source_section: "§4.1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-lead-010"
+    enonce: "Black Panthers (1966-1982) : hiérarchie claire + redevabilité communautaire. Survie 16 ans malgré COINTELPRO (FBI). Décentralisation opérationnelle + programmes locaux = protection."
+    source_url: "Newton, Revolutionary Suicide (1973)"
+    source_section: "§5.5"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-lead-011"
+    enonce: "Anonymous (2003-2024+) : 21 ans de survie — le mouvement horizontal le plus durable. Mais incapable d'actions complexes coordonnées dans la durée. Survie ≠ efficacité."
+    source_url: "Olson, We Are Anonymous (2012)"
+    source_section: "§5.6"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-lead-012"
+    enonce: "5 modèles de leadership acéphale proposés : (1) Conseil de Porte-Parole (Zapatiste), (2) Dead Man's Switch, (3) Cut-Out Chain (Rose Blanche), (4) Coordination Algorithmique (DAO/blockchain), (5) Leadership Émergent (Anonymous). Aucun n'a été testé empiriquement en contexte de répression 2026."
+    source_url: "Synthèse §6"
+    source_section: "§6"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Zapatistes (EZLN)"
+    role: "Modèle de référence — 30 ans de leadership rotatif, mandat impératif, 'mandar obedeciendo'"
+    faits_lies: ["F-lead-005"]
+  - nom: "IRA (Army Council)"
+    role: "Leadership collectif institutionnalisé — 7 membres, successeur toujours prédésigné"
+    faits_lies: ["F-lead-002"]
+  - nom: "Sendero Luminoso"
+    role: "Contre-exemple — leader unique, décapitation fatale en 18 mois"
+    faits_lies: ["F-lead-001"]
+  - nom: "Occupy Wall Street"
+    role: "Échec de l'horizontalité pure — 6 mois, zéro conquête"
+    faits_lies: ["F-lead-004"]
+  - nom: "Gilets jaunes"
+    role: "Leaders informels émergents neutralisés en 6 mois sans mécanisme de protection"
+    faits_lies: ["F-lead-007"]
+
+causalites:
+  - cause: "F-lead-001"
+    effet: "F-lead-002"
+    mecanisme: "Sendero Luminoso (leader unique) vs IRA (conseil de 7) : la différence de survie après décapitation tient entièrement au mécanisme de succession préétabli."
+  - cause: "F-lead-003"
+    effet: "F-lead-012"
+    mecanisme: "Le paradoxe Chenoweth & Stephan (centralisés = 2× plus de succès mais 3× plus vulnérables) impose de trouver un modèle hybride qui capture les avantages des deux sans leurs vulnérabilités respectives."
+  - cause: "F-lead-008"
+    effet: "F-lead-004"
+    mecanisme: "L'absence de responsabilité désignée (pas de leader = pas d'apprentissage) condamne les mouvements horizontalistes à répéter les mêmes erreurs jusqu'à épuisement."
+
+perspectives_dialectiques:
+  - position: "Thèse — Le leadership est inévitable, mieux vaut l'assumer"
+    argument: "Tout groupe produit des leaders informels. Les nier les rend non-responsables. Mieux vaut un leadership explicite, rotatif, avec mandat impératif et mécanisme de succession."
+  - position: "Antithèse — Le leadership explicite est une cible, l'acéphalie protège"
+    argument: "Tout leader identifiable est une cible juridique (art.450-1 CP) et policière. L'anonymat structurel (Anonymous, cellules compartimentées) est la seule protection dans un État de surveillance totale."
+  - position: "Synthèse — Leadership de fonction, pas de personne"
+    argument: "Séparer la fonction (coordonner, décider) de la personne. Rotation obligatoire, mandat impératif, dead man's switch. Le leadership devient un rôle temporaire, pas une identité. C'est la leçon zapatiste."
+
+limites:
+  - "Aucun des 5 modèles proposés n'a été testé empiriquement en contexte de répression française 2026 (LOPMI, surveillance algorithmique)."
+  - "Les 6 cas historiques sont majoritairement occidentaux — absence des modèles asiatiques (PCC, Dalai Lama, Aung San Suu Kyi)."
+  - "Biais techno-solutionniste : les solutions blockchain/ZKP supposent une infrastructure que la clandestinité ne permet pas."
+  - "Le biais biologique (leadership = instinct primate) est mentionné mais pas intégré aux solutions proposées."
+
+wolves:
+  - nom: "Partisan de l'horizontalité pure"
+    argument: "Toute structure de leadership, même rotative, finit par créer une caste. Les Zapatistes eux-mêmes ont des 'commandants' qui ne tournent pas vraiment. L'horizontalité pure (Occupy) a échoué mais par manque de temps, pas de principe."
+    reponse: "21 ans d'Anonymous et 6 mois d'Occupy — la durée tranche. L'horizontalité pure survit (Anonymous) mais n'agit pas. L'action exige une coordination que seul un leadership (même temporaire) peut fournir."
+  - nom: "Réaliste juridique"
+    argument: "Art.450-1 CP qualifie TOUTE structure de commandement d'association de malfaiteurs. Même un conseil rotatif de porte-parole est une cible. Le seul leadership sûr est l'absence de leadership."
+    reponse: "L'art.450-1 CP criminalise l'organisation, pas le leadership. C'est l'existence d'une structure qui déclenche l'infraction, pas la présence d'un chef. L'acéphalie ne protège pas juridiquement."
+
+iceberg:
+  - "La psychologie évolutionnaire du leadership : le besoin de leader est un instinct biologique, pas un choix politique. Les solutions organisationnelles luttent contre 2 millions d'années d'évolution primate."
+  - "Mnemolite UP mais search 500. Aucune recherche cross-séries."
+  - "Résultat Mnemolite: [leadership acéphale succession dead man switch → 500 Internal Server Error]"
+
+chronologie:
+  - date: "1966-01-01"
+    evenement: "Création du Black Panther Party — hiérarchie + redevabilité communautaire"
+    source_fait: "F-lead-010"
+  - date: "1971-01-01"
+    evenement: "Stanford Prison Experiment — le rôle transforme l'identité en 6 jours"
+    source_fait: "F-lead-009"
+  - date: "1980-01-01"
+    evenement: "Solidarnosc — Walesa arrêté, le mouvement survit 8 ans grâce au double leadership"
+    source_fait: "F-lead-006"
+  - date: "1992-01-01"
+    evenement: "Arrestation de Guzmán — Sendero Luminoso détruit en 18 mois"
+    source_fait: "F-lead-001"
+  - date: "1994-01-01"
+    evenement: "Soulèvement zapatiste — 'mandar obedeciendo', 30 ans de leadership rotatif"
+    source_fait: "F-lead-005"
+  - date: "2003-01-01"
+    evenement: "Émergence d'Anonymous — 21 ans de survie sans leadership"
+    source_fait: "F-lead-011"
+  - date: "2011-01-01"
+    evenement: "Occupy Wall Street — effondrement en 6 mois, horizontalité pure"
+    source_fait: "F-lead-004"
+  - date: "2018-01-01"
+    evenement: "Gilets jaunes — leaders informels neutralisés en 6 mois"
+    source_fait: "F-lead-007"
+
+domaines:
+  - "Théorie des organisations — leadership, hiérarchie, responsabilité"
+  - "Histoire des mouvements sociaux — cas comparatifs"
+  - "Psychologie sociale — charisme, obéissance, dynamique de groupe"
+  - "Sécurité opérationnelle — dead man's switch, cut-out chain, ZKP"
+
+urls_prioritaires:
+  - url: "https://www.bbc.com/news/world-latin-america-20251909"
+    description: "BBC — analyse de la chute de Sendero Luminoso après l'arrestation de Guzmán"
+    head_status: 0
+  - url: "https://enlacezapatista.ezln.org.mx/"
+    description: "EZLN — source primaire du modèle de leadership zapatiste"
+    head_status: 0
+
+shadow_factor: 1.8
+
+mnemo_queries:
+  - query: "leadership acéphale succession dead man switch"
+    results_count: 0
+    error: "500 Internal Server Error"
+  - note: "Mnemolite UP mais search inopérant."

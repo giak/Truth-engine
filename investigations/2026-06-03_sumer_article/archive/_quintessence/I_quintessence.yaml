@@ -1,0 +1,343 @@
+civ: "I"
+complexity: "COMPLEX"
+date_extraction: "2026-06-07"
+enquete_source: "investigations/2026-06-03_sumer_article/2026-06-04_10-30_inde_civilisation_manquante_INVESTIGATION.md"
+
+these_centrale: "L'Inde ancienne (3300 av. J.-C. - present, continuite de 5300 ans, ~32% du PIB mondial en 1 CE) est la grande ABSENTE du recit « 3 civilisations » et potentiellement la plus dommageable pour la these de l'article: son systeme d'integration par le dharma est PLUS complet que ceux de Sumer, Rome et Chine, mais fonctionne SANS andurarum, ce qui infirme la these centrale selon laquelle l'integration passe necessairement par la dette."
+
+theses_implicites:
+  - "L'integration indienne via dharma (loi+morale+religion+karma) PROUVE que la dette n'est PAS le mecanisme d'integration necessaire: la sanction karmique (la dette non remboursee se paie dans la vie prochaine) est un mecanisme de regulation PLUS PUISSANT que l'andurarum sumerien, et la these « dette + droit + morale = triangle obligatoire » de l'article est sur-determinee par le choix des civilisations."
+  - "La capture par caste (systeme varna/jati) est PLUS EFFICACE que la capture par enarques ou par mandarins: elle repose sur la naissance (fermeture maximale) et l'endogamie, elle dure 3000 ans sans reforme reussie. Le shudra ne peut PAS devenir brahmane, alors que le fils d'ouvrier peut theoriquement devenir enarque. La these « la mobilite sociale comme antidote a la capture » est invalidee par l'Inde."
+  - "La these TRANSMISSION est BOULEVERSEE: l'Inde n'a PAS transmis son systeme juridique a l'Europe (contrairement a l'Islam avec le droit romain via Cordoue), mais elle a transmis le ZERO (Aryabhata Ve-VIe s.), les CHIFFRES dits « arabes » (en realite indiens, transmis par Al-Khwarizmi), le BOUDDHISME et les TEXTILES. C'est une transmission CULTURELLE et MATHEMATIQUE determinante, pas juridique."
+
+faits_atomiques:
+  - id: "F-I001"
+    enonce: "La civilisation de l'Indus (Harappa) debute vers 3300 av. J.-C.: premiere urbanisation indienne, plan orthonorme, systeme d'egouts developpe, greniers publics."
+    source_url: "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I002"
+    enonce: "Phase mature IVC entre 2600 et 1900 av. J.-C.: commerce actif avec la Mesopotamie identifie sous le nom de Meluhha, perles de steatite, ivoire, textiles exportes."
+    source_url: "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I003"
+    enonce: "Periode vedique 1500-500 av. J.-C.: redaction progressive des Vedas, emergence du systeme varna (4 castes) qui structurera la societe indienne pendant 3000 ans."
+    source_url: "https://en.wikipedia.org/wiki/Vedas"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I004"
+    enonce: "Premieres shreni (guildes) vers 800 av. J.-C.: corporations avec personnalite juridique, contrats, assemblee elue et fonds commun : precedents le droit romain des personnes morales de plusieurs siecles."
+    source_url: "https://en.wikipedia.org/wiki/Shreni"
+    source_section: "§7 / §8E"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-I005"
+    enonce: "Mahajanapadas vers 600 av. J.-C.: 16 royaumes concurrents, premieres pieces de monnaie poinconnees en argent, urbanisation monetaire et fiscales simultanees."
+    source_url: "https://en.wikipedia.org/wiki/Mahajanapadas"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I006"
+    enonce: "Dharma-sutras vers 500 av. J.-C.: premieres codifications systematiques du droit indien, fondant l'integration loi+morale+rituel dans un meme corpus normatif."
+    source_url: "https://en.wikipedia.org/wiki/Dharmasastra"
+    source_section: "§7 / §8B"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I007"
+    enonce: "Empire Maurya (322-185 av. J.-C.): premiere unification de l'Inde sous Chandragupta, conseille par Kautilya; Ashoka (~268-232) impose le bouddhisme et la non-violence apres la guerre de Kalinga."
+    source_url: "https://en.wikipedia.org/wiki/Maurya_Empire"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I008"
+    enonce: "Arthashastra de Kautilya (compile entre Ier av. J.-C. et IIIe s. ap. J.-C.): traite de 15 livres, 150 chapitres, 180 sujets : science politique, economie, droit, strategie militaire et systeme d'espionnage."
+    source_url: "https://en.wikipedia.org/wiki/Arthashastra"
+    source_section: "§8C / §8D"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I009"
+    enonce: "Manusmriti (IIe av. - IIIe ap. J.-C.): 18 titres de droit couvrant droit civil, penal, familial, rituel et economique dans un seul code : integration totale inconnue du droit romain classique."
+    source_url: "https://en.wikipedia.org/wiki/Manusmriti"
+    source_section: "§8B"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I010"
+    enonce: "Taux d'interet differencies par caste selon le Manusmriti: Brahmanes 2%/mois (24% annuel), Kshatriyas 3%, Vaishyas 4%, Shudras 5% (60% annuel) : preuve directe d'integration systematique entre economie et hierarchie sociale."
+    source_url: "https://en.wikipedia.org/wiki/Manusmriti"
+    source_section: "§8A"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I011"
+    enonce: "Pas d'andurarum indien: la dette est une obligation karmique qui se transmet aux heritiers et se regle dans la vie prochaine : mecanisme de sanction religieuse PLUS FORT que toute loi civile d'annulation periodique."
+    source_url: "https://michael-hudson.com/wp-content/uploads/2010/03/HudsonLostTradition.pdf"
+    source_section: "§8A / §10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-I012"
+    enonce: "Economie indienne: ~32% du PIB mondial en 1 CE et ~28% en 1000 CE (estimations Angus Maddison), superieure a Rome (~25%) et a la Chine (~26%) au debut de l'ere chretienne."
+    source_url: "https://en.wikipedia.org/wiki/Economic_history_of_India"
+    source_section: "§3 / §1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I013"
+    enonce: "Empire Gupta (320-550 ap. J.-C.): age d'or culturel et scientifique; Aryabhata invente le ZERO et le calcul decimal, l'astronomie systematique, la medecine (Ayurveda) et le commerce maritime sont en expansion."
+    source_url: "https://en.wikipedia.org/wiki/Gupta_Empire"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I014"
+    enonce: "Route maritime de l'ocean Indien: commerce actif entre Inde, Rome, Afrique de l'Est et Chine des le IIIe s. av. J.-C. : exportation de coton indien, pierres precieuses et epices (Periplus Maris Erythraei)."
+    source_url: "https://en.wikipedia.org/wiki/Indian_Ocean_trade"
+    source_section: "§8E"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I015"
+    enonce: "Universite de Nalanda (fondation Vle s. ap. J.-C., destruction 1193 par Bakhtiyar Khilji): jusqu'a 10 000 etudiants et 2 000 enseignants : plus grand centre d'enseignement du monde antique."
+    source_url: "https://en.wikipedia.org/wiki/Nalanda"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I016"
+    enonce: "Systeme d'espionnage maurya decrit par Kautilya: guerriers-espions, courtisanes-espions, marchands-espions : innovation indienne reprise ulterieurement par Byzance et la Chine."
+    source_url: "https://pubadmin.institute/administrative-system-at-union-level/mauryan-administrative-system-analysis"
+    source_section: "§8C"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-I017"
+    enonce: "Structure administrative maurya: Samrat (empereur), Mantri Parishad (conseil des ministres), Adhyakshas (surintendants par secteur), Gopa (officiers de village) : casta-cratie fermee et non meritocratie ouverte au merite individuel."
+    source_url: "https://pubadmin.institute/administrative-system-at-union-level/mauryan-administrative-system-analysis"
+    source_section: "§8C"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-I018"
+    enonce: "Systeme fiscal maurya: impot foncier de 1/6 a 1/4 des recoltes, taxes commerciales, taxes professionnelles, amendes judiciaires et monopoles d'Etat sur mines, forets et sel : fiscalite comparable aux meilleurs systemes antiques."
+    source_url: "https://en.wikipedia.org/wiki/Arthashastra"
+    source_section: "§8D"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I019"
+    enonce: "Jajmani system: economie villageoise autosuffisante, echange hereditaire de services et de grain entre castes sur plusieurs generations : stabilite economique obtenue par reproduction sociale pluto que par marche ouvert."
+    source_url: "https://en.wikipedia.org/wiki/Jajmani_system"
+    source_section: "§3 / §14"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I020"
+    enonce: "Le concept de dharma integre loi, morale, religion, devoir social et rituel de purification dans un meme systeme normatif : distinct du ius romain qui separe en theorie droit et morale."
+    source_url: "https://ijcrt.org/papers/IJCRT2510218.pdf"
+    source_section: "§8B / §3"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-I021"
+    enonce: "Ashoka (~268-232 av. J.-C.): edits sur pierres promulgues dans tout l'Empire Maurya, politique de dhamma (gouvernance par la loi morale bouddhiste), protection des animaux et des minorites religieuses."
+    source_url: "https://en.wikipedia.org/wiki/Ashoka"
+    source_section: "§9"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-I022"
+    enonce: "Transmission indienne vers l'Europe principalement INDIRECTE via l'Islam: ZERO mathematique (Aryabhata Ve-VIe s.), chiffres dits « arabes » en realite indiens, bouddhisme vers Chine et Japon, textiles de coton vers Rome."
+    source_url: "https://en.wikipedia.org/wiki/Hindu-Arabic_numeral_system"
+    source_section: "§8E / §10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Kautilya (Chanakya)"
+    role: "Auteur de l'Arthashastra, conseiller principal de Chandragupta Maurya; architecte du systeme de casta-cratie maurya"
+    faits_lies: ["F-I007", "F-I008", "F-I016", "F-I017", "F-I018"]
+  - nom: "Ashoka le Grand"
+    role: "Empereur Maurya converti au bouddhisme, promulgateur des edits sur piliers, defenseur du dhamma"
+    faits_lies: ["F-I007", "F-I021"]
+  - nom: "Brahmanes"
+    role: "Classe sacerdotale, gardiens du dharma et du savoir vedic; capture par endogamie, reproduisent leur savoir sur 3000 ans"
+    faits_lies: ["F-I003", "F-I009", "F-I010", "F-I020"]
+  - nom: "Kshatriyas"
+    role: "Caste guerriere, fournit les rois, administrateurs et chefs militaires; taux d'interet de 3%/mois"
+    faits_lies: ["F-I010", "F-I017"]
+  - nom: "Vaishyas"
+    role: "Caste marchande, anime les shreni (guildes bancaires et commerciales); taux d'interet de 4%/mois"
+    faits_lies: ["F-I004", "F-I010", "F-I014"]
+  - nom: "Shudras"
+    role: "Caste des artisans, paysans et serviteurs; taux d'interet de 5%/mois (60% annuel) : exploitation financiere systematique"
+    faits_lies: ["F-I010", "F-I019"]
+  - nom: "Shreni (guildes)"
+    role: "Corporations bancaires, commerciales et artisanales; personnes juridiques avec assemblee elue, fonds commun et contrats des 800 av. J.-C."
+    faits_lies: ["F-I004", "F-I014", "F-I018"]
+  - nom: "Manu (auteur legendaire)"
+    role: "Auteur legendaire du Manusmriti, qui codifie les 18 titres de droit et les taux d'interet par caste"
+    faits_lies: ["F-I009", "F-I010"]
+  - nom: "Aryabhata"
+    role: "Mathematicien et astronome de l'Empire Gupta (Ve-VIe s.), inventeur du ZERO et du systeme decimal de position"
+    faits_lies: ["F-I013", "F-I022"]
+
+causalites:
+  - cause: "F-I003"
+    effet: "F-I020"
+    mecanisme: "L'emergence du systeme varna pendant la periode vedique cree une hierarchie sacralisee qui sert de support au dharma: la classification sociale devient le vehicule de l'integration normative entre droit, morale et religion."
+  - cause: "F-I009"
+    effet: "F-I011"
+    mecanisme: "Le Manusmriti codifie 18 titres de droit SANS prevoir d'annulation generale des dettes, transformant l'obligation de remboursement en obligation karmique transmise aux heritiers: c'est la negation directe de l'andurarum sumerien."
+  - cause: "F-I010"
+    effet: "F-I019"
+    mecanisme: "La differenciation des taux d'interet par caste (de 2% a 5%/mois) verrouille l'economie au systeme social; le jajmani system reproduit cet ordre a l'echelle villageoise par echange hereditaire de services et de grain."
+  - cause: "F-I012"
+    effet: "F-I022"
+    mecanisme: "La superiorite economique indienne (32% du PIB en 1 CE) produit un excedent culturel et scientifique (Aryabhata, chiffres, textes bouddhiques) qui sera transmis a l'Islam puis a l'Europe sous forme de savoir mathematique, philosophique et textile."
+  - cause: "F-I017"
+    effet: "F-I010"
+    mecanisme: "La casta-cratie maurya reserve les postes eleves aux hautes castes; le Manusmriti legitime cette fermeture en Differenciant les taux d'interet, le systeme fiscal et les droits selon la naissance, produisant une integration economie+hierarchie sans issue meritocratique."
+
+perspectives_dialectiques:
+  - position: "These A : L'Inde confirme mais transforme la these de l'article"
+    argument: "L'Inde CONFIRME le besoin universel d'integration normative (dharma integre loi+morale+religion+karma PLUS completement que Sumer, Rome, Chine) mais TRANSFORME la these centrale: l'integration ne passe PAS par la dette/andurarum. La these SYSTEME reste valide (l'integration est un phenomene universel), la these DETTE est FRAGILISEE. L'article « 3 civilisations » doit elargir a l'Inde (32% du PIB antique) pour pretendre a l'exhaustivite."
+  - position: "These B : L'Inde comme systeme ALTERNATIF autonome (civilisation-monde)"
+    argument: "L'Inde est une civilisation-monde autosuffisante qui n'a pas besoin de l'Occident pour exister. Caste, dharma, hindouisme, bouddhisme forment un systeme complet. La these CAPTURE y est REALISEE A L'EXTREME (caste par naissance) et l'article qui pretend expliquer la capture occidentale en ignorant l'Inde manque sa cible empirique. Le ZERO, l'algebre, les chiffres prouvent que l'Inde a transmis PLUS a l'Occident que ce que l'Occident reconnait."
+  - position: "These C : L'Inde comme refutation empirique (falsification au sens popperien)"
+    argument: "L'Inde est une REFUTATION EMPIRIQUE de la these centrale de l'article. Si l'integration normative est possible SANS andurarum (via dharma + karma + caste), alors l'andurarum n'est PAS un mecanisme d'integration NECESSAIRE mais un cas particulier parmi d'autres. La these « 3 civilisations avec dette » est un sous-ensemble non representatif: le concept d'integration normative est plus large que dette + religion + hierarchie + morale + caste prises separement."
+
+limites:
+  - "Pas d'analyse des empires post-Gupta (Chola, Vijayanagara, Sultanat de Delhi approfondi, Empire moghol) : l'enquete se limite a l'Inde ancienne stricto sensu (3300 av. - 600 ap. J.-C.)."
+  - "Pas d'analyse detaillee du systeme mathematique indien au-dela d'Aryabhata: zero, position decimale, trigonometrie, serie entiere pour pi, sanskrit scientifique."
+  - "Pas d'etude comparative systematique Inde-Chine des bureaucraties anciennes (Maurya vs Han/Qin/Tang) : uniquement des pistes dans §8C."
+  - "Sources presque toutes en anglais (Wikipedia, Khanna 2005, Hudson, Maddison): pas de source en sanskrit, tamoul ou hindi; absence d'acces aux manuscrits originaux de l'Arthashastra ou du Manusmriti."
+  - "Population et PIB antiques (32% en 1 CE) sont des estimations Maddison revisees par Broadberry et al.: le debat methodologique sur les series longue n'est pas tranche."
+  - "Le systeme des castes a ete partiellement codifie par l'administration britannique au XIXe s. (Dirks 2001): la continuite entre varna vedic et caste coloniale est debattue."
+  - "Biais inverse possible: l'enquete pourrait SUR-estimer l'importance de l'Inde pour compenser l'omission de l'article original (effet de compensation)."
+  - "Mnemolite n'a retourne AUCUN resultat sur les requetes « Inde caste dharma Aryabhata zero civilisation » et « shreni guildes bancaires Manusmriti Arthashastra »: la base de connaissance vectorielle ne contient pas encore de memoires indexees sur l'Inde ancienne."
+
+wolves:
+  - nom: "Brahmanes (classe sacerdotale)"
+    argument: "Le systeme indien n'est PAS un contre-modele mais un systeme de fermeture HEREDITAIRE incompatible avec l'ideal d'une mobilite meritocratique; citer l'Inde revient a legitimer un ordre social fige."
+    reponse: "L'enquete ne legitime pas l'ordre indien: elle montre que la capture par caste PRECEDE et DEPACE la capture par cooptation administrative occidentale, ce qui INFIRME la these de l'article selon laquelle la mobilite sociale serait un antidote a la capture. La critique brahmanique est elle-meme une preuve de la capture."
+  - nom: "Kautilya (Chanakya) : defenseur du realpolitik"
+    argument: "L'Arthashastra est un traite de realpolitik comparable a Machiavel: il legitime la ruse, l'espionnage, l'assassinat politique. Le presenter comme « systeme integre » revient a blanchir une pensee cynique du pouvoir."
+    reponse: "L'enquete distingue clairement le systeme normatif integre (dharma, droit, fiscalite) du Machiavelisme politique de Kautilya: ce sont deux dimensions distinctes. Le systeme indien INTEGRE plus que le systeme romain, ce qui ne signifie pas qu'il est moralement superieur. La critique de Kautilya ne refute pas la these d'integration."
+  - nom: "Marchands shreni (capitalisme indien precoce)"
+    argument: "L'Inde avait bien un capitalisme marchand (hundis, banques shreni, commerce ocean Indien) qui contredit l'image d'un systeme fige par les castes. La these de l'enquete ignore ce capitalisme."
+    reponse: "L'enquete reconnait explicitement (§3, §8E, F-I004) que les shreni etaient un capitalisme precoce avec PERSONNALITE JURIDIQUE des le 8e s. av. J.-C. La these de l'enquete n'est pas « l'Inde etait figee » mais « l'integration normative indienne etait SANS andurarum, ce qui infirme la these de l'article ». Le capitalisme shreni renforce d'ailleurs la these d'integration precoce."
+  - nom: "Historiens occidentalocentristes (colonial knowledge production)"
+    argument: "L'absence de l'Inde dans l'article temoigne d'un biais orientaliste STRUCTUREL, pas d'un choix editorial innocent. Reprocher a l'Inde de ne pas « transmettre a l'Europe » revient a reproduire le recit colonial qui fait de l'Europe le centre du monde."
+    reponse: "L'enquete accepte cette critique et la documente (§4 L5-L6, §6 P2, §12 SCENARIO B). Elle note que l'Inde a transmis via l'Islam (zero, chiffres) et directement (bouddhisme, textiles), et que cette transmission CULTURELLE/MATHEMATIQUE est aussi determinante que la transmission JURIDIQUE islamique. La critique orientaliste renforce la these d'invisibilite, elle ne l'invalide pas."
+
+iceberg:
+  - "Sujet immergé: la SANCTION KARMIQUE comme alternative a l'annulation de dette : l'Inde montre qu'une economie peut fonctionner pendant 3000 ans avec une obligation de remboursement perpetuelle (transgenerationnelle) SANS andurarum et SANS crise sociale majeure, par le seul mecanisme de la dette-cosmique."
+  - "Sujet immergé: la CASTE-CRATIE comme forme politique distincte de la MERITOCRATIE chinoise (concours keju) et de la COOPTATION administrative française (ENA) : l'Inde developpe un recrutement FERME par naissance, durable sur 3000 ans, dont les lecons pour la France contemporaine meritent un article separe."
+  - "Sujet immergé: la TRANSMISSION INDIRECTE du ZERO indien via Bayt al-Hikma (~830 ap. J.-C.) et Al-Khwarizmi : chainon manquant entre Aryabhata (Ve-VIe s.) et l'Europe medievale, qui prouve qu'une civilisation peut marquer l'histoire mondiale par le calcul pluto que par le droit."
+  - "Resultat Mnemolite: ZERO memoire pertinente trouvee pour « Inde caste dharma Aryabhata zero civilisation » (0 resultats) et « shreni guildes bancaires Manusmriti Arthashastra » (0 resultats). La base de connaissance vectorielle du projet n'est pas encore peuplee sur l'Inde ancienne : cette fiche constitue un point d'entree."
+  - "Sujet immergé: le JAJMANI SYSTEM comme economie morale villageoise : alternative au marche et a la fiscalite etatique, basee sur l'echange hereditaire de services entre castes; precede et complete le modele economique occidental (Polanyi, economie morale) de 2000 ans."
+  - "Sujet immergé: la CONTINUITE INDIENNE 5300 ans (IVC 3300 av. - present), comparable a la Chine (1600 av. - present) et superieure a Rome (753 av. - 476 ap.) : l'Inde survit a toutes les invasions (Aryens, Grecs, Scythes, Huns, Arabes, Turcs, Britanniques) en INTEGRANT les apports exterieurs, ce qui pose la question: l'integration normative est-elle une condition de la survie civilisationnelle?"
+
+chronologie:
+  - date: "~3300 av. J.-C."
+    evenement: "Debut de la civilisation de l'Indus (Harappa), premiere urbanisation indienne avec plan orthonorme"
+    source_fait: "F-I001"
+  - date: "~2600-1900 av. J.-C."
+    evenement: "Phase mature IVC, commerce avec la Mesopotamie sous le nom de Meluhha"
+    source_fait: "F-I002"
+  - date: "~1500-500 av. J.-C."
+    evenement: "Periode vedique, redaction des Vedas, emergence du systeme varna (4 castes)"
+    source_fait: "F-I003"
+  - date: "~800 av. J.-C."
+    evenement: "Premieres shreni (guildes) avec personnalite juridique, contrats et assemblee elue"
+    source_fait: "F-I004"
+  - date: "~600 av. J.-C."
+    evenement: "Mahajanapadas, 16 royaumes, premieres pieces de monnaie poinconnees en argent"
+    source_fait: "F-I005"
+  - date: "~500 av. J.-C."
+    evenement: "Dharma-sutras, premieres codifications juridiques integrant loi+morale+rituel"
+    source_fait: "F-I006"
+  - date: "~322-185 av. J.-C."
+    evenement: "Empire Maurya, Chandragupta, Kautilya, Arthashastra, Ashoka et le bouddhisme d'Etat"
+    source_fait: "F-I007"
+  - date: "Ier av. J.-C. - IIIe s. ap. J.-C."
+    evenement: "Compilation de l'Arthashastra de Kautilya (15 livres, 150 chapitres) et du Manusmriti (18 titres de droit)"
+    source_fait: "F-I008"
+  - date: "~320-550 ap. J.-C."
+    evenement: "Empire Gupta, age d'or: Aryabhata invente le ZERO, astronomie, medecine, commerce maritime"
+    source_fait: "F-I013"
+  - date: "~427-1193 ap. J.-C."
+    evenement: "Universite de Nalanda (jusqu'a 10 000 etudiants), detruite par Bakhtiyar Khilji"
+    source_fait: "F-I015"
+  - date: "~830 ap. J.-C."
+    evenement: "Fondation de Bayt al-Hikma a Bagdad: transmission du ZERO indien et des chiffres vers le monde arabe puis europeen"
+    source_fait: "F-I022"
+  - date: "~1206-1526 ap. J.-C."
+    evenement: "Sultanat de Delhi, integration Islam-Inde, syncretisme culturel et religieux"
+    source_fait: "F-I012"
+  - date: "1947-1950 ap. J.-C."
+    evenement: "Independance de l'Inde, abolition formelle du systeme des castes (article 17 de la Constitution de 1950)"
+    source_fait: "F-I019"
+
+domaines:
+  - "DETTE"
+  - "DROIT"
+  - "BUREAUCRATIE"
+  - "FISCALITE"
+  - "TRANSMISSION"
+  - "CAPTURE"
+  - "SCIENCES"
+
+urls_prioritaires:
+  - url: "https://en.wikipedia.org/wiki/Arthashastra"
+    description: "Source primaire pour F-I008 (traite de Kautilya), F-I018 (fiscalite maurya) et l'integration normative indienne"
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Manusmriti"
+    description: "Source primaire pour F-I009 (18 titres de droit) et F-I010 (taux d'interet differencies par caste) : c ur de la these d'integration economie+hiarchie"
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Economic_history_of_India"
+    description: "Source pour F-I012 (32% du PIB mondial en 1 CE, estimation Maddison) : preuve quantitative de l'importance economique de l'Inde antique ignoree par l'article"
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Varna_(Hinduism)"
+    description: "Source pour le systeme varna/jati (4 castes + intouchables) : fermeture par naissance, 3000 ans, capture MAXIMALE par endogamie"
+    head_status: 200
+  - url: "https://michael-hudson.com/wp-content/uploads/2010/03/HudsonLostTradition.pdf"
+    description: "Source pour F-I011 (pas d'andurarum indien, dette = obligation karmique) : Michael Hudson, specialiste de la dette antique, confirme l'exception indienne"
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Hindu-Arabic_numeral_system"
+    description: "Source pour F-I022 (transmission du ZERO et des chiffres indiens vers l'Europe via l'Islam) : preuve de la transmission culturelle indienne, pas juridique"
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation"
+    description: "Source pour F-I001 (debut de l'urbanisation indienne vers 3300 av. J.-C.) et F-I002 (commerce avec la Mesopotamie)"
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Dharmasastra"
+    description: "Source pour F-I006 (dharma-sutras vers 500 av. J.-C., premieres codifications juridiques) et F-I020 (integration loi+morale+religion)"
+    head_status: 200
+
+shadow_factor: 5.2
+
+mnemo_queries:
+  - query: "Inde caste dharma Aryabhata zero civilisation"
+    results_count: 0
+  - query: "shreni guildes bancaires Manusmriti Arthashastra"
+    results_count: 0
+  - query: "andurarum dette obligation karmique transmission heritiers"
+    results_count: 0
+  - query: "caste varna jati capture naissance 3000 ans"
+    results_count: 0
+  - query: "Bayt al-Hikma Al-Khwarizmi chiffres indiens zero transmission"
+    results_count: 0

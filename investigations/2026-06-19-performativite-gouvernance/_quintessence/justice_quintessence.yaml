@@ -1,0 +1,296 @@
+enquete_id: "justice"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "investigations/2026-06-19-performativite-gouvernance/2026-06-19_11-30_justice_independance_parquet_APEX.md"
+these_centrale: "La justice française présente la FORME de l'indépendance sans la SUBSTANCE — le parquet (magistrats du ministère public) reste structurellement subordonné au pouvoir exécutif par un verrou constitutionnel (art. 65 al. 5 : avis simple du CSM, pas conforme) que la classe politique refuse de faire sauter depuis 10 ans, malgré les condamnations de la CEDH et les alertes du CSM."
+theses_implicites:
+  - "La réforme constitutionnelle votée par l'Assemblée et le Sénat le 26 avril 2016, qui instaurait l'avis conforme du CSM pour les nominations du parquet, n'a jamais été soumise au Congrès — Hollande puis Macron l'ont enterrée"
+  - "La CEDH a dit deux fois (Medvedyev 2010, Moulin 2010) que le parquet français n'est 'pas une autorité judiciaire indépendante' — 15 ans sans réforme"
+  - "La Commission de Venise (2023) recommande explicitement l'avis conforme — recommandations non suivies"
+  - "Le système est conçu pour que le parquet soit indépendant en apparence et contrôlé en réalité : l'abstinence politique (aucun ministre n'a passé outre un avis CSM depuis 2007) est réversible à tout moment"
+faits_atomiques:
+  - id: "F-justice-001"
+    enonce: "Le parquet français est subordonné au Garde des Sceaux (art. 65 al. 5 : avis simple, pas conforme)"
+    source_url: "https://www.justice.gouv.fr/justice-france/acteurs-justice/magistrats/magistrats-du-parquet"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-002"
+    enonce: "L'art. 65 prévoit un avis simple (pas conforme) pour les nominations du parquet — le ministre peut passer outre"
+    source_url: "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006527556"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-003"
+    enonce: "Aucun garde des Sceaux n'a passé outre un avis négatif du CSM depuis 2007 — 'élégance politique' réversible"
+    source_url: "https://www.legiwatch.fr/lexique/conseil-magistrature"
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-justice-004"
+    enonce: "Réforme constitutionnelle (avis conforme CSM) votée dans les mêmes termes par AN + Sénat le 26 avril 2016"
+    source_url: "https://www.assemblee-nationale.fr/14/ta/ta0720.asp"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-005"
+    enonce: "Réforme de 2016 jamais soumise au Congrès en 10 ans (Hollande puis Macron ne l'ont pas convoqué)"
+    source_url: "https://lcp.fr/actualites/independance-de-la-justice-yael-braun-pivet-veut-un-congres-pour-faire-appliquer-une"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-006"
+    enonce: "CEDH arrêt Moulin c. France (23 novembre 2010) : le parquet français n'est pas une 'autorité judiciaire indépendante'"
+    source_url: "https://hudoc.echr.coe.int/fre?i=001-101876"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-007"
+    enonce: "Les procureurs ne sont pas inamovibles (contrairement aux juges du siège)"
+    source_url: "https://www.conseil-constitutionnel.fr/decision/2010/20101422QPC.htm"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-008"
+    enonce: "Commission de Venise (juin 2023) : 'niveau différent de garantie d'indépendance' entre siège et parquet"
+    source_url: "https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2023)015-f"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-009"
+    enonce: "CSM rapport annuel 2025 : 'montée d'un populisme anti-justice et anti-juges'"
+    source_url: "https://www.conseil-superieur-magistrature.fr/publications/rapport-annuel-dactivite-2025"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-010"
+    enonce: "CSM a traité 2 753 avis sur nominations en 2025, dont 59 nominations formelles"
+    source_url: "https://documentation.insp.gouv.fr/insp/doc/VIEPUBLIQUE/86AB375EDE5E6DF19DB54F12030BDDA1/conseil-superieur-de-la-magistrature-rapport-d-activite-2025"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-011"
+    enonce: "Rémy Heitz (procureur général Cour de cassation, janvier 2026) : 'Rien n'interdirait au pouvoir exécutif d'engager une stratégie de politisation du ministère public'"
+    source_url: "https://www.lemonde.fr/societe/article/2026/01/09/a-la-cour-de-cassation-une-audience-solennelle-sur-les-vents-mauvais-qui-soufflent-sur-l-etat-de-droit_6661214_3224.html"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-012"
+    enonce: "Yaël Braun-Pivet (présidente AN, janvier 2026) propose la convocation du Congrès pour adopter la réforme de 2016"
+    source_url: "https://lcp.fr/actualites/independance-de-la-justice-yael-braun-pivet-veut-un-congres-pour-faire-appliquer-une"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-013"
+    enonce: "Loi du 25 juillet 2013 (Taubira) : suppression des instructions individuelles aux procureurs, maintien de la subordination hiérarchique"
+    source_url: "https://www.vie-publique.fr/loi/20672-garde-des-sceaux-magistrats-du-ministere-public-politique-penale-acti"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-014"
+    enonce: "Conseil constitutionnel QPC 2017-680 : valide l'équilibre actuel comme 'conciliation équilibrée'"
+    source_url: "https://www.conseil-constitutionnel.fr/decision/2017/2017680QPC.htm"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-015"
+    enonce: "Commission d'enquête AN 2020 (rapport n°3296) : 41 propositions adoptées à l'unanimité"
+    source_url: "https://www.assemblee-nationale.fr/dyn/15/rapports/cejustice/l15b3296_rapport-enquete"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-016"
+    enonce: "États Généraux de la Justice (oct. 2021-avril 2022) : 'crise majeure de l'institution judiciaire'"
+    source_url: "https://www.justice.gouv.fr/sites/default/files/2024-09/rapport_EGJ.pdf"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-017"
+    enonce: "150 magistrats directement menacés physiquement (Unité Magistrats, via CSM 2025)"
+    source_url: "https://unite-magistrats.org/storage/3229/COMMUNIQUE-CSM-2025.pdf"
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-justice-018"
+    enonce: "Macron (octobre 2023) : 'n'exclut pas' de constitutionnaliser l'indépendance du parquet"
+    source_url: "https://www.leclubdesjuristes.com/justice/constitutionnaliser-lindependance-du-parquet-quelles-implications-1074/"
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-justice-019"
+    enonce: "Italie : parquet constitutionnellement indépendant, corps unique avec les juges (art. 101-110 Constitution italienne)"
+    source_url: "https://www.vie-publique.fr/eclairage/302461-le-parquet-francais-missions-evolutions-et-independance"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-020"
+    enonce: "La discipline des procureurs est sous l'autorité du Garde des Sceaux, pas du CSM"
+    source_url: "https://www.conseil-superieur-magistrature.fr/publications/rapport-annuel-dactivite-2025"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-021"
+    enonce: "Référendum Italie 23 mars 2026 : rejet à 53,2 % de la réforme Meloni visant à séparer les carrières"
+    source_url: "https://www.vie-publique.fr/eclairage/302461-le-parquet-francais-missions-evolutions-et-independance"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-022"
+    enonce: "CSM communiqué 27 mars 2026 : 'Unité du corps judiciaire français et réforme statutaire du parquet'"
+    source_url: "https://www.conseil-superieur-magistrature.fr/publications"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-023"
+    enonce: "Rapport Nadal 2013 'Refonder le ministère public' — préconise l'avis conforme"
+    source_url: "https://www.vie-publique.fr/eclairage/302461-le-parquet-francais-missions-evolutions-et-independance"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-justice-024"
+    enonce: "Budget de la justice 2025 : 10,8 Md€ (promesse : 11,7 Md€) — sous-dotation chronique"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§13"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-justice-025"
+    enonce: "49 % des Français ont confiance dans l'institution judiciaire (sondages, période 2020-2025)"
+    source_url: "https://www.justice.gouv.fr/sites/default/files/2024-09/rapport_EGJ.pdf"
+    source_section: "§14"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+acteurs:
+  - nom: "Emmanuel Macron"
+    role: "Président, garant constitutionnel de l'indépendance judiciaire (art. 64) — n'a jamais convoqué le Congrès pour la réforme de 2016"
+    faits_lies: ["F-justice-005", "F-justice-018"]
+  - nom: "Rémy Heitz"
+    role: "Procureur général près la Cour de cassation, président CSM parquet — alerte publiquement sur la politisation potentielle"
+    faits_lies: ["F-justice-011"]
+  - nom: "Yaël Braun-Pivet"
+    role: "Présidente de l'Assemblée nationale — propose la convocation du Congrès pour la réforme de 2016"
+    faits_lies: ["F-justice-012"]
+  - nom: "Gérald Darmanin"
+    role: "Garde des Sceaux (nommé octobre 2025) — applique la politique pénale, nomme les procureurs"
+    faits_lies: ["F-justice-001", "F-justice-002"]
+  - nom: "CSM (Conseil Supérieur de la Magistrature)"
+    role: "Organe constitutionnel de garantie de l'indépendance — avis simple pour le parquet = pouvoir faible, alerte sur le populisme anti-justice"
+    faits_lies: ["F-justice-009", "F-justice-010", "F-justice-020", "F-justice-022"]
+causalites:
+  - cause: "F-justice-002"
+    effet: "F-justice-001"
+    mecanisme: "L'avis simple du CSM (art. 65 al. 5) permet constitutionnellement au Garde des Sceaux de passer outre l'avis du CSM, maintenant le parquet en subordination"
+  - cause: "F-justice-004"
+    effet: "F-justice-005"
+    mecanisme: "La réforme votée en 2016 mais jamais soumise au Congrès par Hollande puis Macron est le mécanisme central de blocage : on vote pour dire qu'on agit, on n'exécute pas pour conserver le pouvoir"
+  - cause: "F-justice-006"
+    effet: "F-justice-008"
+    mecanisme: "La CEDH condamne la France en 2010, la Commission de Venise confirme en 2023 — l'absence de réforme malgré ces condamnations européennes constitue un déni d'état de droit"
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "Le parquet doit rester sous contrôle du pouvoir exécutif car le gouvernement est responsable de la politique pénale devant le Parlement — l'avis conforme serait une 'confiscation démocratique'"
+  - position: "Antithèse"
+    argument: "La subordination du parquet viole la séparation des pouvoirs, expose les procureurs aux pressions politiques, et prive les citoyens d'une justice réellement indépendante — la CEDH le dit depuis 15 ans"
+  - position: "Synthèse"
+    argument: "Un parquet indépendant dans ses nominations et sa discipline mais intégré à la politique pénale via des instructions générales publiques (pas individuelles). L'avis conforme du CSM est le minimum vital. La réforme de 2016 est ce compromis — son blocage est un scandale démocratique silencieux"
+limites:
+  - "Les sources institutionnelles (CSM, Conseil constitutionnel) sont fiables mais représentent le discours officiel"
+  - "La pratique réelle des relations parquet-Garde des Sceaux est opaque (instructions non écrites, pressions informelles)"
+  - "Ne couvre pas le fonctionnement des parquets spécialisés (PNF, PNAT, Pnaco)"
+  - "Comparaison européenne limitée à l'Italie"
+wolves:
+  - nom: "L'élégance politique comme garantie"
+    argument: "Aucun ministre n'a passé outre un avis CSM depuis 2007 — la preuve que le système fonctionne par la vertu"
+    reponse: "L'abstinence volontaire n'est pas une garantie constitutionnelle. Rémy Heitz le dit : 'Rien n'interdirait la politisation du parquet' — une garantie réversible n'est pas une garantie"
+  - nom: "La réforme est trop compliquée"
+    argument: "La majorité des 3/5e nécessaire au Congrès est difficile à réunir, et le sujet ne passionne pas l'opinion"
+    reponse: "Le texte a déjà été voté dans les mêmes termes par AN et Sénat en 2016 — la majorité existe. Le blocage est un choix politique, pas une impossibilité technique"
+iceberg:
+  - "Lien avec enquête performativité : la réforme de 2016 jamais promulguée est un cas paradigmatique de loi fantôme — signifiant sans signifié"
+  - "Lien avec enquête climat : même mécanisme de plan sans exécution, de promesse sans livraison (LPEC, réforme CSM)"
+  - "L'affaire Lyhanna (communiqué CSM 9 juin 2026) comme test de la pression politique sur les magistrats"
+  - "La baisse de confiance des citoyens dans la justice (49 %) en écho à la défiance politique généralisée (26 % CEVIPOF)"
+  - "Mnemolite : enquête franc-maçonnerie et pouvoir (2026-04-05) — liens avec la nomination des magistrats et les réseaux d'influence"
+chronologie:
+  - date: "1958-10-04"
+    evenement: "Constitution Ve République : CSM subordonné au Président"
+    source_fait: null
+  - date: "1993-02-05"
+    evenement: "Avis conforme pour le siège, simple pour le parquet (loi organique)"
+    source_fait: null
+  - date: "2010-11-23"
+    evenement: "CEDH arrêt Moulin c. France : parquet pas 'autorité judiciaire indépendante'"
+    source_fait: "F-justice-006"
+  - date: "2013-07-25"
+    evenement: "Loi Taubira : suppression instructions individuelles aux procureurs"
+    source_fait: "F-justice-013"
+  - date: "2016-04-26"
+    evenement: "Réforme constitutionnelle avis conforme votée par AN+Sénat — jamais soumise au Congrès"
+    source_fait: "F-justice-004"
+  - date: "2023-06"
+    evenement: "Commission de Venise : avis conjoint sur CSM et statut magistrature"
+    source_fait: "F-justice-008"
+  - date: "2026-01-09"
+    evenement: "Heitz alerte sur la politisation potentielle du parquet"
+    source_fait: "F-justice-011"
+  - date: "2026-01-13"
+    evenement: "Braun-Pivet propose convocation du Congrès"
+    source_fait: "F-justice-012"
+  - date: "2026-04-29"
+    evenement: "CSM rapport annuel 2025 : 'populisme anti-justice'"
+    source_fait: "F-justice-009"
+  - date: "2026-06-19"
+    evenement: "Jour de l'enquête — réforme toujours pas convoquée (10 ans)"
+    source_fait: "F-justice-005"
+domaines:
+  - "Droit constitutionnel"
+  - "Justice / Organisation judiciaire"
+  - "Droit européen (CEDH)"
+  - "Science politique"
+  - "Relations internationales"
+urls_prioritaires:
+  - url: "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006527556"
+    description: "Art. 65 al. 5 — avis simple CSM pour nominations parquet"
+    head_status: 200
+  - url: "https://www.assemblee-nationale.fr/14/ta/ta0720.asp"
+    description: "Réforme constitutionnelle votée le 26 avril 2016"
+    head_status: 200
+  - url: "https://hudoc.echr.coe.int/fre?i=001-101876"
+    description: "CEDH arrêt Moulin c. France 2010 — parquet pas autorité judiciaire"
+    head_status: 200
+  - url: "https://lcp.fr/actualites/independance-de-la-justice-yael-braun-pivet-veut-un-congres-pour-faire-appliquer-une"
+    description: "Braun-Pivet propose Congrès janvier 2026"
+    head_status: 200
+  - url: "https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2023)015-f"
+    description: "Commission de Venise 2023 — recommandations"
+    head_status: 200
+shadow_factor: 5.6
+mnemo_queries:
+  - query: "justice indépendance parquet France réforme constitutionnelle"
+    results_count: 5
+  - query: "parquet français subordination exécutif CSM avis conforme blocage"
+    results_count: 5

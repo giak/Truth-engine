@@ -1,0 +1,362 @@
+enquete_id: verrou
+complexity: APEX
+date_extraction: '2026-06-12'
+enquete_source:
+- investigations/2026-06-10_verrou_coordination_guerilla/2026-06-10_coordination_verrou_guerilla_APEX.md
+- investigations/2026-06-10_verrou_coordination_guerilla/2026-06-10_coordination_protocols_manuel_HYPER_MATRICE.md
+- investigations/2026-06-10_verrou_coordination_guerilla/2026-06-10_auto-audit_brutal_AUDIT.md
+- investigations/2026-06-10_verrou_coordination_guerilla/2026-06-10_zones_ombre_loups_faisceaux_WOLVES.md
+- investigations/2026-06-10_verrou_coordination_guerilla/2026-06-10_url_registry_central_SOURCES.md
+- investigations/2026-06-10_verrou_coordination_guerilla/2026-06-10_auto-immunite_corpus_AUDIT.md
+- type: APEX + HYPER_MATRICE + 2 AUDITS + WOLVES + SOURCES
+- lignes: 2500+
+- fichiers: 6
+these_centrale: 'Le systeme ne maintient pas son controle par la repression seule mais en empechant activement la coordination
+  entre les individus. La reponse historiquement validee est une contre-organisation de type guerilla : chaines de commandement,
+  separation des pouvoirs, patience strategique, discipline de fer. La HYPER_MATRICE propose 15 protocoles operationnels (cellules
+  3-5, mitose, socio-cratie, caisse commune, compartimentation FLN, care politique, temps long) mais un auto-audit brutal
+  revele que cette V1 est structurellement inadequate face aux menaces du 21e siecle (repression algorithmique, guerre de
+  l''information IA, sterilisation legale de l''espace associatif).
+
+  '
+theses_implicites:
+- TI1: 'La contradiction systemique est mortelle pour l''individu mais vitale pour le systeme : l''individualisme est promu
+    tandis que la cooperation est exigee. Cette contradiction atomise la societe et empeche la coordination par defaut.
+
+    '
+- TI2: 'La V1 HYPER_MATRICE est un manuel de guerilla du 20e siecle face a une repression algorithmique du 21e. Le systeme
+    apprend et neutralise les structures de resistance plus vite qu''elles ne se construisent.
+
+    '
+- TI3: 'Les 5 loups identifies (repression algorithmique, climat comme pretexte, guerre information IA, sterilisation legale,
+    fragilite demographique) menacent la coordination a un niveau que la V1 n''anticipe pas.
+
+    '
+faits_atomiques:
+- id: F-VER-001
+  enonce: 'La these centrale : un systeme qui ne peut pas empecher la coordination ne peut pas survivre. Le controle ne passe
+    pas par la repression mais par l''empechement de la coordination.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-002
+  enonce: '12 mecanismes de verrouillage identifies : POWER (elite capture) 8.8/9, NETWORK (fragmentation) 8.6/9, MONEY (dette)
+    8.5/9, OVERLOAD (surcharge cognitive) 8.2/9, ICEBERG (invisibilisation) 7.8/9, etc.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-003
+  enonce: '25% des individus ne se conforment jamais (experience d''Asch) — vivier potentiel pour une avant-garde de coordination.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-004
+  enonce: 'HYPER_MATRICE : structure a 3 niveaux. Micro (cellule 3-5 personnes, confiance directe), Meso (reseau indirect
+    jusqu''a 5000), Macro (institutions paralleles, coordination symbolique).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-005
+  enonce: 'Protocole mitose : quand une cellule atteint 7 membres, elle se scinde pour maintenir la securite et la manœuvrabilite.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-006
+  enonce: 'Socio-cratie : abandon du consensus pur au profit du consentement (absence d''objection argumentee plutot qu''unanimite).
+    Seuils adaptes selon la criticite des decisions.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-007
+  enonce: 'Modele MST bresilien : caisse commune mutualisant progressivement les ressources (consommables → caisse de resistance
+    → cooperative autonome).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-008
+  enonce: 'Compartimentation FLN : chaque agent ne connait que son niveau immediat. Rencontres physiques privilegiees, canaris
+    (mots de passe de securite), rendez-vous en 3 etapes, droit de silence 48h post-arrestation.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-009
+  enonce: 'Care politique : le soin est une tache politique prioritaire. Le burnout militant est identifie comme la cause
+    majeure de dissolution des groupes.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-010
+  enonce: 'Temps long : protocoles d''archivage des decisions, transmission intergenerationnelle, rituels unificateurs pour
+    eviter l''extinction avec les fondateurs.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-011
+  enonce: 'AUTO-AUDIT V1 : structurellement inadequate. Manque : genre (care work), terrain numerique, facteurs psychologiques,
+    durabilite (memoire/formation), realite technique de la trahison/infiltration.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-012
+  enonce: 'Biais identifies par l''audit : romantisme de la guerilla, elitisme d''avant-garde, masculinite (langage militariste
+    alienant), centrisme occidental.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-013
+  enonce: 'WOLVES : 5 menaces existentielles non anticipees par la V1. Repression algorithmique (detection des patterns et
+    metadonnees), climat comme pretexte (etat d''urgence permanent), guerre information IA (deepfakes, polarisation automatisee),
+    sterilisation de l''espace associatif (loi separatisme), fragilite demographique (pool refractaire vieillissant).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-014
+  enonce: 'Le systeme apprend et neutralise les structures de resistance plus vite qu''elles ne se construisent. Contre-mesures
+    specifiques deja deployees contre l''organisation cellulaire.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-015
+  enonce: 'Boucle recursive : la coordination est necessaire pour appliquer les solutions de coordination — goulot d''etranglement
+    recursif.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-016
+  enonce: 'Les solutions V1 sont concues pour un modele de controle du 20e siecle (policier/mecanique). Inefficaces contre
+    la surveillance algorithmique et predictive du 21e.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-017
+  enonce: 'Necessite strategique : pivot vers l''imprevisibilite, la ruse, et l''improvisation soutenues par une discipline
+    de fer.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-018
+  enonce: 'Protocole securite FLN adapte : canaris (mots de passe), signalement d''infiltration (empressement, richesse injustifiee,
+    provocation a l''illegalite), preparation anti-interrogatoire.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-019
+  enonce: 'Seuils de bascule : objectif 10-15% d''activistes pour amorcer un changement de norme sociale.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VER-020
+  enonce: 'Engagement progressif (pied-dans-la-porte) : recrutement par paliers d''action volontaire, transformant l''adhesion
+    theorique en engagement reel.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: FLN (Front de Liberation Nationale)
+  role: Modele de compartimentation totale, guerre d'Algerie
+  faits_lies: []
+- nom: MST (Mouvement des Sans Terre, Bresil)
+  role: Modele de caisse commune mutualisee
+  faits_lies: []
+- nom: Asch (Solomon)
+  role: Experience de conformite — 25% de refractaires = vivier
+  faits_lies: []
+- nom: Systeme (Oligarchie)
+  role: 12 mecanismes de verrouillage, apprentissage algorithmique
+  faits_lies: []
+- nom: HYPER_MATRICE V1
+  role: 15 protocoles operationnels, juge insuffisante par l'auto-audit
+  faits_lies: []
+- nom: Loups (Wolves)
+  role: 5 menaces existentielles non anticipees
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: '[Systeme empeche coordination] → [Atomisation sociale] → [Pas d''action collective] → [Controle sans repression
+    visible]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Mitose cellules 3-5 → 7] → [Compartimentation] → [Securite] → [Survie organisationnelle]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Socio-cratie (consentement)] → [Decisions sans blocage] → [Efficacite operationnelle sans chef]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Algorithmes detection patterns] → [Neutralisation structures cellulaires] → [V1 obsoletes en moins de 5 ans]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Care politique] → [Prevention burnout] → [Longevite militante] → [Resilience mouvement]
+
+    '
+perspectives_dialectiques:
+- P1: 'Favorable : La HYPER_MATRICE est le manuel de coordination le plus complet jamais produit pour le contexte francais.
+    15 protocoles, structures claires, modeles historiques valides (FLN, MST).
+
+    '
+- P2: 'Defavorable : La V1 est un manuel du 20e siecle. L''auto-audit est devastateur : le systeme algorithmique neutralise
+    les structures cellulaires plus vite qu''elles ne se construisent. Cinq loups existentiels non anticipés.
+
+    '
+- P3: 'Synthese : La HYPER_MATRICE est necessaire mais insuffisante. Elle fournit le squelette organisationnel mais doit etre
+    completee par : contre-mesures algorithmiques, guerre informationnelle, sanctuaires numeriques, regeneration demographique.
+
+    '
+limites:
+- V1 concue pour controle 20e siecle, pas pour surveillance algorithmique 21e.
+- Absence de dimension genre (care work, reproduction militante).
+- Terrain numerique traite comme outil, pas comme terrain de lutte.
+- Facteurs psychologiques (peur, epuisement, trahison) sous-traites.
+- Transmission intergenerationnelle theorique, non testee.
+- Biais: romantisme guerilla, elitisme avant-garde, masculinite, occidentalo-centrisme.
+- Systeme apprend plus vite que la resistance — obsolescence programmee.
+wolves:
+- nom: Si le systeme algorithmique detecte les patterns de coordination plus vite qu'il...
+  argument: 'Si le systeme algorithmique detecte les patterns de coordination plus vite qu''ils ne se forment, alors toute
+    structure cellulaire est obsolete avant d''avoir agi. La V1 est-elle deja morte au moment de sa publication ?
+
+    '
+  reponse: ''
+- nom: Les 25% de refractaires d'Asch sont un vivier theorique
+  argument: 'Les 25% de refractaires d''Asch sont un vivier theorique. Mais ces 25% sont isoles les uns des autres, ne se
+    connaissent pas, n''ont pas de canal de coordination. Le vivier existe mais le fosse est infranchissable sans pont de
+    coordination initial.
+
+    '
+  reponse: ''
+iceberg:
+- item: 'La boucle recursive est le verrou ultime : pour se coordonner, il faut deja etre coordonne. Ce paradoxe n''est resolu
+    par aucun protocole V1.
+
+    '
+- item: 'Le systeme deploye des contre-mesures specifiques contre l''organisation cellulaire (LOPMI, algorithmes anti-structuring,
+    infiltration numerique). La V1 est la cible que le systeme attend.
+
+    '
+- item: 'La fragilite demographique (pool refractaire vieillissant, jeunes sans competences de coordination) est une bombe
+    a retardement que la V1 ignore.
+
+    '
+- item: 'Mnemolite: DOWN.
+
+    '
+chronologie:
+- date: 1954-1962
+  evenement: FLN — guerre d'Algerie, compartimentation totale
+- date: 1984-2026
+  evenement: MST bresilien — caisse commune mutualisee
+- date: '2023'
+  evenement: LOPMI — surveillance algorithmique
+- date: '2024'
+  evenement: Loi separatisme — sterilisation espace associatif
+- date: '2026-06-10'
+  evenement: HYPER_MATRICE V1 — 15 protocoles operationnels
+- date: '2026-06-10'
+  evenement: Auto-audit V1 — structurellement inadequate
+- date: '2026-06-10'
+  evenement: WOLVES — 5 menaces existentielles identifies
+domaines:
+- Strategie de coordination
+- Organisation clandestine (FLN, IRA, MST)
+- Socio-cratie et consentement
+- Securite operationnelle (compartimentation, canaris)
+- Care politique
+- Menaces algorithmiques (LOPMI, IA)
+urls_prioritaires: []
+shadow_factor: 2.0
+shadow_justification: 'Le fichier source est massif (6 fichiers, 2500+ lignes) mais les faits extraits sont majoritairement
+  ❧ (pas d''URLs verificables) car la HYPER_MATRICE est un manuel operationnel original, pas une compilation de sources externes.
+  L''auto-audit est brutal et honnete : la V1 est obsolete avant publication. Ce niveau d''auto-critique reduit partiellement
+  le shadow factor.
+
+  '
+mnemo_queries:
+- note: Mnemolite DOWN. Aucune requete possible.

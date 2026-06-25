@@ -142,9 +142,6 @@ command: "rtk find . -name '*.ts'"
 - Commandes interactives : `vim`, `htop`, `less`
 - Commandes dont tu as besoin de la sortie complète non filtrée (rare, utiliser `rtk proxy <cmd>` si besoin)
 
-### Pourquoi c'est important
-Chaque token économisé = moins de contexte consommé = plus de capacité pour l'analyse réelle. Sur 2 450 commandes, RTK a déjà économisé **57.8M tokens (99.4%)**.
-
 ---
 
 ## Compression Contexte (Headroom)
@@ -295,35 +292,6 @@ Organisés par catégorie fonctionnelle. Les paramètres **obligatoires** sont e
 | `get_system_snapshot` | État complet du système en un appel (remplace 4 requêtes). | repository (string), context_budget (int) |
 | `get_memory_health` | État de santé du système de mémoire. | _aucun_ |
 
----
-
-#### 🔍 Code & Recherche
-
-| Outil | Description | Paramètres |
-|-------|-------------|------------|
-| `search_code` | Recherche hybride (lexicale + vectorielle) avec fusion RRF. | **query** (string), filters (object), limit (int), offset (int), enable_lexical (bool), enable_vector (bool), lexical_weight (number), vector_weight (number) |
-| `index_project` | Indexer un répertoire projet complet. | **project_path** (string), repository (string), include_gitignored (bool) |
-| `reindex_file` | Réindexer un fichier après modification. | **file_path** (string), repository (string) |
-| `index_incremental` | Indexer uniquement les fichiers modifiés depuis le dernier index. | **project_path** (string), repository (string), include_gitignored (bool) |
-| `index_markdown_workspace` | Indexer un workspace markdown (mémoire agent, rapide). | **root_path** (string), repository (string), max_file_size_kb (int) |
-| `get_indexing_status` | État d'avancement de l'indexation. | repository (string) |
-| `get_indexing_errors` | Erreurs récentes d'indexation. | repository (string), limit (int) |
-| `retry_indexing` | Réindexer des fichiers après correction d'erreurs. | **file_paths** (string[]), repository (string) |
-| `get_indexing_stats` | Statistiques d'indexation. | repository (string) |
-
----
-
-#### 🛜 Graphe de code
-
-| Outil | Description | Paramètres |
-|-------|-------------|------------|
-| `get_graph_stats` | Statistiques du graphe de code. | repository (string) |
-| `traverse_graph` | Parcourir le graphe depuis un nœud. | **node_id** (string), direction (string), depth (int), repository (string) |
-| `find_path` | Trouver un chemin entre deux nœuds. | **source_id** (string), **target_id** (string), repository (string), max_depth (int) |
-| `get_module_data` | Données détaillées d'un module. | **module_path** (string), repository (string) |
-
----
-
 #### 🏷️ Extraction d'entités
 
 | Outil | Description | Paramètres |
@@ -340,16 +308,6 @@ Organisés par catégorie fonctionnelle. Les paramètres **obligatoires** sont e
 | `clear_cache` | Vider les caches (opération admin). | layer (string) |
 | `get_cache_stats` | Statistiques des caches (L1 mémoire + L2 Redis). | _aucun_ |
 | `switch_project` | Changer le projet actif pour la recherche/indexation. | **repository** (string), confirm (bool) |
-
----
-
-### ⚠️ Bugs connus (Mnemolite MCP Server)
-
-| Bug | Statut | Symptôme | Workaround |
-|-----|--------|----------|------------|
-| `cache_key UnboundLocalError` dans `search_memory` | ✅ **Corrigé** (commit `1e845a3`) | `Error executing tool search_memory: cannot access local variable 'cache_key'` | Redémarrer le container MCP (`make mcp-restart`) |
-| Service GLiNER non disponible | ✅ **Corrigé** (commit `f91d48c`) | Outils `extract_entities` et `search_by_entity` absents de `tools/list` | `make mcp-restart` (ou rebuild si image Docker) |
-| `@mcp.tool()` conditionnel cassé | ✅ **Corrigé** (commit `2ebec11`) | Outils entity non exposés malgré service GLiNER OK | Registration rendue inconditionnelle avec check à l'appel |
 
 ---
 

@@ -1,0 +1,64 @@
+{
+  "problemes": [
+    {
+      "ligne": "12",
+      "citation": "Le texte mentionne des lois comme l'article 450-1 du Code pénal sans préciser leur existence réelle.",
+      "code": "FACT",
+      "gravite": 4,
+      "confiance": 3,
+      "correction": "Vérifier si ces articles existent dans le droit français"
+    },
+    {
+      "ligne": "28",
+      "citation": "L'article affirme que l'amendement CL46 est prêt à être voté sans mentionner son statut législatif.",
+      "code": "FACT",
+      "gravite": 4,
+      "confiance": 3,
+      "correction": "Vérifier la légitimité de l'amendement CL46"
+    },
+    {
+      "ligne": "58",
+      "citation": "Le texte prétend que les Gilets jaunes ont obtenu 17 milliards d'euros de concessions sans données chiffrées.",
+      "code": "SURETAB",
+      "gravite": 4,
+      "confiance": 3,
+      "correction": "Ajouter des sources ou chiffres précis"
+    },
+    {
+      "ligne": "89",
+      "citation": "L'argument sur la dégradation de l'ICRG comme levier économique est théorique sans preuves empiriques.",
+      "code": "LOGIC",
+      "gravite": 4,
+      "confiance": 3,
+      "correction": "Intégrer des études ou cas concrets"
+    },
+    {
+      "ligne": "125",
+      "citation": "Le texte évoque un 'feu de palettes' sans préciser son lien avec les Gilets jaunes.",
+      "code": "GLISS",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "Clarifier la métaphore et ses implications"
+    },
+    {
+      "ligne": "152",
+      "citation": "L'analyse des 'circuits V2' est vague sans exemples concrets de structures économiques.",
+      "code": "BIAIS",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "Préciser les modèles économiques cités"
+    },
+    {
+      "ligne": "178",
+      "citation": "Le texte affirme que la CEDH protège le boycott sans mentionner ses limites juridiques.",
+      "code": "FACT",
+      "gravite": 4,
+      "confiance": 3,
+      "correction": "Vérifier les décisions de la CEDH"
+    }
+  ],
+  "solide": [
+    "Ligne 10 : « La bombe explose accidentellement. Les trois meurent sur le coup » (exemples historiques précis)"
+  ],
+  "cannot_assess": []
+}

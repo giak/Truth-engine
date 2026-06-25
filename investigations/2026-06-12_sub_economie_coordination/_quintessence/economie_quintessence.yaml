@@ -1,0 +1,131 @@
+enquete_id: "economie"
+complexity: "MEDIUM"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_sub_economie_coordination/2026-06-12_12-00_economie_coordination_trilemme_financement_INVESTIGATION.md"
+
+these_centrale: "La coordination acephale exige un niveau de disponibilite economiquement insoutenable sans professionnalisation. La professionnalisation exige une structure juridique. La structure juridique rend le mouvement vulnerable. Le financement est un trilemme : disponibilite, acephalie, legalite — choisissez deux."
+
+theses_implicites:
+  - "Le trilemme economique est structurel : aucun arrangement ne satisfait les trois exigences simultanement. Le corpus ignore cette contrainte."
+  - "Le modele transparence juridique (P2#9) est structurellement dependant de donateurs CSP+, ce qui contredit l'ambition d'inclusion du corpus (P3#12)."
+  - "La mutualisation de la precarite (habitats partages, caisses de greve locales) est une quatrieme voie partielle mais marginale et difficilement scalable."
+
+faits_atomiques:
+  - id: "F-eco-001"
+    enonce: "Le cout de vie minimal d'un coordinateur a temps plein en France 2026 est estime entre 1000 et 1500 euros par mois (logement frugal, nourriture, transport, fonds d'urgence juridique)."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-eco-002"
+    enonce: "Sans personnalite juridique, une coordination acephale ne peut pas percevoir de subventions, ouvrir de compte bancaire collectif, ou etablir de contrat de travail."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-eco-003"
+    enonce: "L'IRA/Sinn Fein etait massivement financee par la diaspora irlandaise aux USA via NORAID : collectes humanitaires servant de couverture legale au financement politique. Modele inapplicable en France 2026 (pas de diaspora structuree, controle TRACFIN)."
+    source_url: null
+    source_section: "par2"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-eco-004"
+    enonce: "Les ONG et syndicats financent leurs permanents via cotisations et subventions publiques — modele structurellement dependant de l'Etat que le corpus pretend combattre."
+    source_url: null
+    source_section: "par2"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-eco-005"
+    enonce: "Le benevolat de masse (Gilets Jaunes) mene a l'epuisement en 3-6 mois. Sans releve organisee, les competences (procedures, contacts, logistique) sont perdues."
+    source_url: null
+    source_section: "par3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-eco-006"
+    enonce: "Trilemme economique : Disponibilite + Acephalie = clandestinite illegale | Disponibilite + Legalite = professionnalisation (perte acephalie) | Acephalie + Legalite = benevolat (perte disponibilite strategique)."
+    source_url: null
+    source_section: "par3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+
+acteurs:
+  - nom: "NORAID (Irish Northern Aid Committee)"
+    role: "Organisation de financement de l'IRA via la diaspora americaine"
+    faits_lies: ["F-eco-003"]
+  - nom: "Gilets Jaunes"
+    role: "Mouvement de masse — modele de benevolat avec epuisement documente"
+    faits_lies: ["F-eco-005"]
+  - nom: "TRACFIN"
+    role: "Organisme de controle des flux financiers — rend le financement occulte quasi impossible en France"
+    faits_lies: ["F-eco-002"]
+
+causalites:
+  - cause: "F-eco-002"
+    effet: "F-eco-006"
+    mecanisme: "L'absence de personnalite juridique interdit les mecanismes de financement perennes, ce qui cree le trilemme : aucun arrangement ne satisfait simultanement disponibilite, acephalie et legalite."
+  - cause: "F-eco-005"
+    effet: "F-eco-001"
+    mecanisme: "Le benevolat mene a l'epuisement et a la perte de competences, ce qui rend la disponibilite strategique insoutenable sans financement."
+
+perspectives_dialectiques:
+  - position: "These"
+    argument: "Le trilemme est structurel et insurmontable : la coordination acephale est economiquement condamnee a la marginalite ou a l'illegalite."
+  - position: "Antithese"
+    argument: "Le trilemme est un faux trilemme : des modeles hybrides existent (crowdfunding ponctuel + benevolat + economie informelle) comme le montrent LST, ZAD, anti-bassines."
+  - position: "Synthese"
+    argument: "Les solutions hybrides existent mais sont fragiles, contextuelles, et non scalables. Le trilemme n'est pas un faux probleme : il est la contrainte que toute coordination doit gerer sans la resoudre."
+
+limites:
+  - "Le trilemme est un concept theorique non teste contre des cas historiques (IRA, FLN, Zapatistes)."
+  - "Cout de vie estime (1000-1500 euros) est une extrapolation, pas une mesure empirique."
+  - "Les solutions hybrides documentees (LST, ZAD) reposent sur des donateurs CSP+ — modele non generalisable."
+
+wolves:
+  - nom: "Mutualisation de la precarite"
+    argument: "Le trilemme est un faux trilemme : habitats partages, caisses de greve locales, cooperatives autogerees permettent une disponibilite partielle sans professionnalisation ni illegalite."
+    reponse: "Partiellement recevable. La mutualisation existe (ZAD, squats) mais est marginale et difficilement scalable. Elle ne resout pas la disponibilite strategique a 40h/semaine."
+  - nom: "Les coordinations existent deja"
+    argument: "Les mouvements documentes (LST, ZAD, anti-bassines) ont trouve des solutions de financement sans professionnalisation. Le trilemme est theorique : empiriquement, ca marche."
+    reponse: "Recevable. Mais les solutions dependent de donateurs CSP+ (Sub#1) ou d'economie informelle non replicable. Le loup force a reconnaitre que les solutions sont fragiles et contextuelles."
+
+iceberg:
+  - "Quel est le profil socio-economique REEL des coordinateurs des mouvements documentes ? Donnees manquantes."
+  - "Mnemolite: UP (36942 memoires) mais API search en erreur 500."
+  - "Sujet immerge : la mutualisation de la precarite est-elle scalable au-dela de 100 personnes ?"
+
+chronologie:
+  - date: "1970"
+    evenement: "Creation de NORAID — financement diaspora IRA"
+    source_fait: "F-eco-003"
+  - date: "2018"
+    evenement: "Gilets Jaunes — benevolat de masse, epuisement documente"
+    source_fait: "F-eco-005"
+  - date: "2026"
+    evenement: "Estimation cout de vie coordinateur : 1000-1500 euros/mois"
+    source_fait: "F-eco-001"
+
+domaines:
+  - "Economie politique"
+  - "Sociologie du militantisme"
+  - "Financement des mouvements sociaux"
+
+urls_prioritaires:
+  - url: null
+    description: "Gaxie, Economie des partis et retributions du militantisme (1977) — theorie fondatrice"
+    head_status: null
+
+shadow_factor: 3.5
+
+mnemo_queries:
+  - query: "economie coordination victoire financement"
+    results_count: 0
+    error: "API error 500"
+  - query: "coordination acephale"
+    results_count: 0
+    error: "API error 500"

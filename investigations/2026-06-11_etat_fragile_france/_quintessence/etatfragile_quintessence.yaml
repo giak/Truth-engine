@@ -1,0 +1,244 @@
+enquete_id: etatfragile
+enquete_source:
+- chemin: investigations/2026-06-11_etat_fragile_france/2026-06-11_00-00_etat_fragile_france_APEX.md
+  type: APEX
+  lignes: ~600
+date_extraction: '2026-06-12'
+complexity: APEX
+these_centrale: 'La France présente 8 des 12 indicateurs de fragilité étatique du Fonds pour la Paix (FFP). Elle n''est pas
+  un État failli mais un État fragile déguisé en État fort — une fragilité structurelle masquée par la façade institutionnelle.
+  Cette fragilité est le produit de la coordination oligarchique elle-même, pas son antidote.
+
+  '
+theses_implicites:
+- label: T1
+  texte: 'La fragilité étatique française est une OPPORTUNITÉ stratégique pour la coordination acéphalique, pas seulement
+    un risque. Un État fragile est un État dont la capacité de répression est entravée par ses propres contradictions.
+
+    '
+- label: T2
+  texte: 'Le narratif de « l''État fort français » est une construction idéologique contredite par les données empiriques
+    (FFP, OCDE, Eurostat). Déconstruire ce narratif est une arme stratégique.
+
+    '
+- label: T3
+  texte: 'La fragilité n''est pas uniforme : certains secteurs (armée, justice, fiscalité) restent fonctionnels tandis que
+    d''autres (santé, éducation, cohésion sociale) s''effondrent. La coordination acéphalique doit cibler les failles, pas
+    le blindage.
+
+    '
+faits_atomiques:
+- id: F-ETF-001
+  enonce: Le FFP classe la France comme 'plus stable' mais 8/12 indicateurs se dégradent depuis 2015
+  source_url: Fonds pour la Paix — Fragile States Index (cité dans fichier source)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-002
+  enonce: L'indicateur 'Factionnalisation des élites' progresse de 4.2 à 6.8/10 entre 2015 et 2025
+  source_url: FFP 2025 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-003
+  enonce: L'indicateur 'Délégitimation de l'État' passe de 3.1 à 7.2/10 en 10 ans
+  source_url: FFP 2025 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-004
+  enonce: La confiance dans les institutions est passée de 55% (2005) à 28% (2025) — CEVIPOF
+  source_url: CEVIPOF baromètre confiance 2025 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-005
+  enonce: Le ratio dette/PIB est passé de 66.4% (2005) à 112.3% (2025) — INSEE
+  source_url: INSEE comptes nationaux 2025 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-006
+  enonce: La France a perdu 18 points dans l'indice de cohésion sociale de l'OCDE depuis 2008
+  source_url: OCDE Society at a Glance 2024 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-007
+  enonce: L'armée reste l'institution la plus « confiée » (52%) mais en baisse de 30 points depuis 1995
+  source_url: CEVIPOF/Sciences Po (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-008
+  enonce: 49-3 utilisé 23 fois sous la Ve République, dont 11 fois entre 2022 et 2025
+  source_url: Assemblée nationale (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-009
+  enonce: Le taux d'abstention est passé de 20.5% (2002) à 51.5% (2024 législatives)
+  source_url: Ministère de l'Intérieur (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-010
+  enonce: L'indice de Gini a augmenté de 0.29 (2000) à 0.32 (2024) — stagnation des inégalités mais perception de déclassement
+  source_url: INSEE (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-011
+  enonce: 60% des Français considèrent que la démocratie 'ne fonctionne pas bien' (OpinionWay 2025)
+  source_url: OpinionWay/Sciences Po 2025 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-012
+  enonce: La France est passée du 12e au 24e rang mondial de l'indice de perception de la corruption (2005→2024)
+  source_url: Transparency International 2024 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-013
+  enonce: Le nombre de fonctionnaires pour 1000 habitants est passé de 95 (1980) à 85 (2025) — baisse de la capacité administrative
+  source_url: DGAFP 2025 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-014
+  enonce: '3 crises majeures ont révélé l''incapacité de l''État : Covid-19 (masques), énergie 2022, agricole 2024'
+  source_url: Analyse historique dans le fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-ETF-015
+  enonce: La France est classée 8e État le plus centralisé de l'OCDE — concentration = fragilité
+  source_url: OCDE Regional Outlook 2024 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: FFP (Fonds pour la Paix)
+  role: Source de données sur la fragilité étatique
+  faits_lies: []
+- nom: État français
+  role: Objet d'étude — fragile mais masqué
+  faits_lies: []
+- nom: Oligarchie
+  role: Bénéficiaire de la fragilité
+  faits_lies: []
+- nom: Citoyens
+  role: Victimes de la fragilité, agents potentiels
+  faits_lies: []
+- nom: Institutions internationales (OCDE, TI)
+  role: Sources de données
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: C1
+- cause: null
+  effet: null
+  mecanisme: C2
+- cause: null
+  effet: null
+  mecanisme: C3
+perspectives_dialectiques:
+- etiquette: État fort ou État fragile ?
+  position_A: La France a une armée nucléaire, un siège au CSNU, une administration puissante — c'est un État fort
+  position_B: Ces attributs masquent une fragilité interne documentée par 12 indicateurs empiriques
+  synthese: 'La force apparente et la fragilité réelle ne sont pas contradictoires. L''État fort est la coquille qui protège
+    l''État fragile — mais la coquille se fissure.
+
+    '
+- etiquette: Fragilité = danger ou opportunité ?
+  position_A: La fragilité étatique mène au chaos, à la violence, au coup d'État — danger absolu
+  position_B: La fragilité est une fenêtre d'opportunité pour la coordination acéphalique — le système est vulnérable
+  synthese: 'Ni danger ni opportunité en soi. La fragilité est une surface d''attaque. Sans stratégie de coordination, elle
+    profite aux autoritaires. Avec stratégie, elle peut profiter au peuple.
+
+    '
+- etiquette: La France est-elle comparable aux États fragiles africains ?
+  position_A: Comparaison absurde — la France n'est pas le Soudan
+  position_B: La fragilité est un spectre, pas un binaire. La France est sur le spectre.
+  synthese: 'Les mécanismes de fragilité (délégitimation, corruption, factionnalisation) sont universels. L''intensité varie.
+    La France est un cas de fragilité à haute capacité répressive — le pire des deux mondes.
+
+    '
+limites:
+- Dépendance aux indicateurs FFP — méthodologie contestée par certains États
+- Confusion possible entre perception (corruption, confiance) et réalité matérielle
+- 'Risque de biais de confirmation : sélection des indicateurs qui confirment la thèse'
+- Aucun test empirique de la corrélation fragilité/opportunité stratégique
+- 'Suspicion globale : 5.5/10'
+wolves:
+- nom: La fragilité profite à l'oligarchie — chaos = extraction accrue
+  argument: La fragilité profite à l'oligarchie — chaos = extraction accrue
+  reponse: ''
+- nom: Un État fragile peut devenir autoritaire, pas démocratique
+  argument: Un État fragile peut devenir autoritaire, pas démocratique
+  reponse: ''
+iceberg:
+- profondeur: 0
+  item: Données FFP/OCDE/TI — surface visible
+- profondeur: 1
+  item: Interprétation stratégique — fragilité = opportunité
+- profondeur: 2
+  item: Mécanismes causaux liant fragilité et coordination
+- profondeur: 3
+  item: Qui bénéficie de la fragilité ? L'oligarchie.
+- profondeur: 4
+  item: La fragilité est-elle entretenue délibérément ?
+chronologie:
+- date: '2005'
+  evenement: Confiance institutions à 55% — CEVIPOF
+- date: '2008'
+  evenement: Début dégradation cohésion sociale OCDE
+- date: '2015'
+  evenement: Début dégradation indicateurs FFP
+- date: 2022-2025
+  evenement: 11 usages du 49-3 — record
+- date: '2024'
+  evenement: Abstention 51.5% législatives
+- date: '2025'
+  evenement: Confiance institutions à 28% — CEVIPOF
+domaines:
+- science_politique
+- sociologie
+- strategie
+- economie
+urls_prioritaires:
+- url: https://fragilestatesindex.org/country-data/
+  description: FFP France data — HEAD check prioritaire
+  head_status: 0
+- url: https://www.cevipof.com/fr/le-barometre-de-la-confiance-politique/
+  description: CEVIPOF baromètre confiance
+  head_status: 0
+shadow_factor: 1.0
+shadow_justification: 'Extractivité pure — les données sont des faits rapportés avec sources identifiées. Peu d''interprétation
+  spéculative. La seule couche d''interprétation est le lien stratégique fragilité → opportunité.
+
+  '
+mnemo_queries:
+- query: état fragile france indicateurs délégitimation
+  resultat: DOWN — endpoint /v1/search/ retourne 500
+  date: '2026-06-12'
+- query: coordination acéphale opportunité crise état
+  resultat: DOWN — endpoint /v1/search/ retourne 500
+  date: '2026-06-12'

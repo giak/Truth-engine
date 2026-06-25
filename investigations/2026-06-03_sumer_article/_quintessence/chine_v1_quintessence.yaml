@@ -1,0 +1,296 @@
+enquete_id: chine_v1
+complexity: APEX
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-03_sumer_article/2026-06-03_14-00_chine_vs_france_INVESTIGATION.md
+these_centrale: La Chine a résolu ou expérimenté avant la France 5 mécanismes institutionnels majeurs (méritocratie de concours,
+  papier-monnaie d'État, stabilisation des prix, monopoles stratégiques, code administratif) avec une avance de 700 à 2350
+  ans, mais ces parallèles sont des CONVERGENCES INDÉPENDANTES, pas des filiations — sauf pour le keju (Voltaire/physiocrates,
+  XVIIIe).
+theses_implicites:
+- Le keju (examen impérial, ~605 ap.) est l'ancêtre CONCEPTUEL de la méritocratie administrative française, transmis via Voltaire
+  et Quesnay (sinophiles)
+- Le Jiaozi (~1024, Song) est le premier papier-monnaie d'État au monde, 780 ans avant la Banque de France (1803)
+- Les greniers ever-normal (~400 av.) sont le premier système étatique de stabilisation des prix, 2350 ans avant la PAC (1962)
+- La Chine impériale n'avait PAS de propriété privée au sens romain (dominium) — un fait qui peut expliquer partiellement
+  l'absence de révolution industrielle endogène
+- Le Grand Bond en Avant (1959-1961) a tué 20-30 millions de personnes — la plus grande famine en temps de paix de l'histoire
+  humaine
+- La Chine moderne (dette locale 290% PIB, SCS, parti-État) a conservé la structure bureaucratique impériale sous une forme
+  communiste
+faits_atomiques:
+- id: F-001
+  enonce: 'Keju (examen impérial) : formellement établi ~605 ap. (Sui), développé sous Tang. 3 niveaux (xiucai, juren, jinshi),
+    curriculum confucéen'
+  source_url: https://en.wikipedia.org/wiki/Imperial_examination
+  source_section: §8.3
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-002
+  enonce: 'Jiaozi (~1024 ap., Song) : premier papier-monnaie d''État au monde. Émission privée à l''origine (998-1022), étatisée
+    en 1024'
+  source_url: https://en.wikipedia.org/wiki/Jiaozi_(currency)
+  source_section: §8.1
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-003
+  enonce: 'Greniers ever-normal (changpingcang) : proposés par Li Kui ~400 av., systématisés sous les Han (Hu Chang, 54 av.).
+    2000 ans de continuité'
+  source_url: https://en.wikipedia.org/wiki/Ever-normal_granary
+  source_section: §8.7
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-004
+  enonce: 'Grand Bond en Avant (1959-1961) : 20-30 millions de morts. Plus grande famine en temps de paix de l''histoire humaine'
+  source_url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  source_section: §8.6
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-005
+  enonce: 'Tang Code (624 ap., Tanglü shuyi) : 500 articles, code pénal-administratif. Influence Corée (Goryeo), Japon (Nara),
+    Vietnam (Le)'
+  source_url: https://www.worldhistory.org/Tang-Law-Code/
+  source_section: §8.5
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-006
+  enonce: 'Han Wudi (117 av.) : monopole d''État sur le sel et le fer. Survit 2000 ans, aboli au XXe siècle'
+  source_url: https://en.wikipedia.org/wiki/Economy_of_the_Han_dynasty
+  source_section: §8.2
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-007
+  enonce: Voltaire (Essai sur les mœurs, 1756) admire Confucius ; Quesnay surnommé 'Confucius européen'. Influence directe
+    du keju sur les Lumières françaises
+  source_url: https://en.wikipedia.org/wiki/Imperial_examination
+  source_section: §8.3
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-008
+  enonce: 'Dette locale Chine 2024 : ~290% PIB. 18,9 billions de dollars via LGFV (Local Government Financing Vehicles). Programme
+    10T RMB de sauvetage (nov 2024)'
+  source_url: https://www.iwkoeln.de/fileadmin/user_upload/HTML/2024/China-Watch/China-Watch_2024.pdf
+  source_section: §8.1
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-009
+  enonce: 'Révolution culturelle (1966-1976) : 1,5-3M de morts, purges massives, destructions patrimoine'
+  source_url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  source_section: §8.6
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-010
+  enonce: 'Guerres de l''Opium (1840-1860) : GB force importation opium pour équilibrer balance. Traité de Nankin (1842) cède
+    Hong Kong, 5 ports ouverts, extraterritorialité'
+  source_url: https://en.wikipedia.org/wiki/Opium_Wars
+  source_section: §8.6
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-011
+  enonce: 'Politique de l''enfant unique (1980-2015) : fécondité de 5,8 à 1,5 enfants/femme. ~30M d''hommes surnuméraires
+    estimés'
+  source_url: https://en.wikipedia.org/wiki/One-child_policy
+  source_section: §8.4
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+- id: F-012
+  enonce: 'Social Credit System (2014-) : notation étatique des comportements. Dans sa forme 2025, ciblent comportements économiques
+    et infractions, pas un ''Big Brother'' total'
+  source_url: https://illinoislawreview.org/wp-content/uploads/2022/02/Werbach.pdf
+  source_section: §8.7
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-013
+  enonce: Code civil français 1804 — Napoléon l'a voulu 'Code des Français' universel. Pas directement inspiré du Tang Code
+    (séparés par 1180 ans et 8000 km)
+  source_url: https://en.wikipedia.org/wiki/Napoleonic_Code
+  source_section: §8.5
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+acteurs:
+- nom: Qin Shi Huang (r. 221-210 av.)
+  role: Premier empereur, unifie la Chine, standardise écriture/poids/mesures/lois
+  faits_lies:
+  - F-001
+  - F-005
+- nom: Han Wudi (r. 141-87 av.)
+  role: Empereur expansionniste, monopole sel/fer, Académie impériale
+  faits_lies:
+  - F-006
+- nom: Song Huizong (r. 1100-1126)
+  role: Promoteur du Jiaozi, papier-monnaie d'État
+  faits_lies:
+  - F-002
+- nom: Voltaire (1694-1778)
+  role: Sinophile, admire Confucius et le keju dans Essai sur les mœurs (1756)
+  faits_lies:
+  - F-007
+- nom: François Quesnay (1694-1774)
+  role: Médecin de Louis XV, physiocrate, 'Confucius européen'
+  faits_lies:
+  - F-007
+- nom: Mao Zedong (1893-1976)
+  role: GLF (1959-61), Révolution culturelle (1966-76)
+  faits_lies:
+  - F-004
+  - F-009
+- nom: Deng Xiaoping (1904-1997)
+  role: Réforme 1978, ouverture, 'Enrichissez-vous'
+  faits_lies: []
+- nom: Xi Jinping (r. 2012-)
+  role: Centralisation, SCS, zéro-COVID, purge tech
+  faits_lies:
+  - F-008
+  - F-012
+causalites:
+- cause: F-001
+  effet: F-007
+  mecanisme: Keju (605) → traductions jésuites (XVIIe) → Voltaire/physiocrates (XVIIIe) → concours administration française
+    (XIXe) → ENA/INSP (1945/2022)
+- cause: F-002
+  effet: F-008
+  mecanisme: Monnaie fiduciaire Song → assignats (1790) → hyperinflation → rejet papier → BdF (1803) → euro fiduciaire (1999)
+- cause: F-006
+  effet: F-008
+  mecanisme: Tradition interventionniste d'État (sel, fer) → LGFV modernes (entités semi-publiques) → crise dette locale
+- cause: F-004
+  effet: F-012
+  mecanisme: Bureaucratie qui punit les mauvaises nouvelles → catastrophe inaudible → renforcement du contrôle (SCS)
+perspectives_dialectiques:
+- position: Thèse continuiste (la Chine a montré la voie)
+  argument: 5 mécanismes (concours, monnaie, greniers, code, monopole) précèdent la France de 700-2350 ans. Voltaire et Quesnay
+    ont importé le modèle
+- position: Antithèse sceptique (artefact épistémique)
+  argument: Keju (lettrés) ≠ INSP (gestionnaires) ; Jiaozi (billet de crédit) ≠ BdF (institution moderne). Convergences indépendantes,
+    pas filiations
+- position: 'Synthèse : piège bureaucratique commun'
+  argument: Les deux États partagent hypertrophie bureaucratique, méritocratie de concours, dette publique accumulée. Trajectoire
+    décalée mais parallèle
+limites:
+- 'Biais orientaliste : 0 source en chinois, 0 en russe/arabe/japonais'
+- Données chinoises modernes opaques (censure, manipulation)
+- Population chinoise historique débattue (Ming 60-200M selon sources)
+- 'Comparaison asymétrique : Chine impériale 2000+ ans vs France 200 ans depuis 1789'
+wolves:
+- nom: Voltaire / sinophiles XVIIIe
+  argument: Le keju est un modèle de méritocratie universelle
+  reponse: Keju formait des LETTRÉS (mémorisation confucéenne), pas des gestionnaires. Taux jinshi ~1/2-4M habitants
+- nom: Maddison (économie historique)
+  argument: Chine Song = PIB/hab le plus élevé au monde
+  reponse: 'Broadberry (2015) conteste : parité ou infériorité européenne. Données ±50-100%'
+- nom: Polanyi / redistributeurs
+  argument: Temple redistributeur = sécurité sociale antique
+  reponse: 'Silver 2007 : marchés privés existaient ; redistribuait à personnel, pas population'
+- nom: État chinois moderne
+  argument: SCS = Big Brother totalitaire
+  reponse: 'Werbach 2022 : SCS réel = système de crédit + sanctions, pas un score social unique. Mais potentiel d''extension
+    réel'
+- nom: Idéologues du 'modèle chinois'
+  argument: Le SCS est efficace, la Chine l'a prouvé
+  reponse: 'Piketty 2025 : la Chine est plus inégalitaire que la France (Gini 0.37-0.50 vs 0.29-0.32)'
+iceberg:
+- 'Sujet immergé #1 : la Chine a testé le ''rule by law'' (fazhi) pendant 2000 ans, jamais ''rule of law'' (rule of law implique
+  que la loi contraint le souverain)'
+- 'Sujetimmergé #2 : pas de propriété privée romaine — conséquence possible : pas de bourgeoisie indépendante, pas de révolution
+  industrielle endogène'
+- 'Sujet immergé #3 : Tiananmen 1989 (3-4 juin) — absent de V1, omission politique majeure'
+- 'Sujet immergé #4 : Grand Firewall (2000-) — censure Internet, sans équivalent en France'
+- 'Sujet immergé #5 : parti-État (PCC 100M membres) — fusion bureaucratie/parti, France a une fonction publique APOLITIQUE'
+- 'Sujet immergé #6 : miracle économique (1978-2024) — 800M de personnes sorties de la pauvreté, plus grand développement
+  de l''histoire humaine'
+- 'Mnemolite INDEXEE pour Chine : 12 memoires (tag=chine), dont cette v1. Le verdict ''base non indexee'' est INVALIDE.'
+- 'Cross-references Mnemolite integrees : 1 memoires directes ou d''enrichissement'
+chronologie:
+- date: ~400 av.
+  evenement: Li Kui propose les greniers ever-normal
+  source_fait: F-003
+- date: 117 av.
+  evenement: 'Han Wudi : monopole sel/fer'
+  source_fait: F-006
+- date: ~605 ap.
+  evenement: Keju (examen impérial) établi sous Sui
+  source_fait: F-001
+- date: 624 ap.
+  evenement: Tang Code (Tanglü shuyi)
+  source_fait: F-005
+- date: ~1024 ap.
+  evenement: 'Jiaozi : premier papier-monnaie d''État (Song)'
+  source_fait: F-002
+- date: '1756'
+  evenement: Voltaire publie Essai sur les mœurs — sinophilie des Lumières
+  source_fait: F-007
+- date: 1945/2022
+  evenement: ENA / INSP (héritier lointain du keju via physiocrates)
+  source_fait: F-001
+- date: 1959-1961
+  evenement: 'Grand Bond en Avant : 20-30M morts'
+  source_fait: F-004
+- date: 1966-1976
+  evenement: Révolution culturelle
+  source_fait: F-009
+- date: '1978'
+  evenement: 'Deng Xiaoping : Réforme ouverture'
+  source_fait:
+  - F-001
+- date: 1980-2015
+  evenement: Politique de l'enfant unique
+  source_fait: F-011
+- date: 2014-
+  evenement: Social Credit System
+  source_fait: F-012
+- date: '2024'
+  evenement: 'Dette locale Chine : 290% PIB, programme 10T RMB'
+  source_fait: F-008
+domaines:
+- Méritocratie de concours (keju / INSP)
+- Monnaie fiduciaire d'État (Jiaozi / Banque de France)
+- Stabilisation des prix agricoles (greniers ever-normal / PAC)
+- Monopoles d'État stratégiques (sel, fer / tabac, énergie)
+- Code juridique (Tang Code / Code civil)
+- Catastrophe idéologique étatique (GLF / Répression 1940-45)
+- Contrôle social numérique (SCS / CNIL)
+urls_prioritaires:
+- url: https://en.wikipedia.org/wiki/Imperial_examination
+  description: Keju, source primaire, influence Voltaire documentée
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Jiaozi_(currency)
+  description: 'Jiaozi : premier papier-monnaie d''État'
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  description: 'GLF : 20-30M morts, sources multiples'
+  head_status: 200
+- url: https://illinoislawreview.org/wp-content/uploads/2022/02/Werbach.pdf
+  description: 'Werbach 2022 : SCS réel vs légende'
+  head_status: 200
+- url: https://www.iwkoeln.de/fileadmin/user_upload/HTML/2024/China-Watch/China-Watch_2024.pdf
+  description: 'IW Köln 2024 : dette locale Chine 290% PIB'
+  head_status: 200
+shadow_factor: 3.2
+mnemo_queries:
+- query: Chine keju examen impérial méritocratie Voltaire Quesnay
+  results_count: 0
+- query: Chine Jiaozi papier monnaie Song dette locale LGFV
+  results_count: 0
+- query: Tang Code Song Huizong Legalism Confucianism rule of law
+  results_count: 0
+- query: Grand Bond en avant Révolution culturelle Tiananmen
+  results_count: 0
+- query: parti communiste chinois nomenklatura bureaucratie
+  results_count: 0
+mnemo_cross_refs:
+- id: 8724ff58-20a8-4f81-a488-f89e5ea96a25
+  title: Chine vs France APEX 18 sections
+  level: DIRECT
+  matches: cette quintessence = extraction directe

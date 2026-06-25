@@ -1,0 +1,114 @@
+enquete_id: carthage
+complexity: SIMPLE
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-07_civilisations_manquantes/2026-06-07_15-45_carthage_INVESTIGATION.md
+these_centrale: Carthage (814-146 av. J.-C.) est une république oligarchique commerciale effacée par Rome — ses sources
+  ayant été détruites en 146 av. J.-C. C'est le contre-test méditerranéen à Rome que l'enquête Sumer n'a pas fait : un
+  modèle alternatif (thalassocratie commerciale, armée mercenaire) qui a perdu. La France est l'héritière du vainqueur
+  (Rome territoriale), pas du vaincu (Carthage maritime).
+theses_implicites:
+- La destruction totale des archives puniques par Rome est un cas unique de biais de source maximal.
+- Carthage = Rome sans la victoire — république aristocratique fondée sur le commerce, pas l'agriculture.
+- L'armée mercenaire carthaginoise crée une dépendance fatale (Guerre des Mercenaires, 240-238 av.).
+- Aristote cite Carthage comme exemple de constitution mixte stable — au même titre que Sparte.
+faits_atomiques:
+- id: F-CAR-001
+  enonce: Carthage est fondée par des colons phéniciens de Tyr en 814 av.
+  source_url: https://www.worldhistory.org/Carthaginian_Government/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-CAR-002
+  enonce: La constitution carthaginoise fonctionne avec deux suffètes élus annuellement, un Sénat et une Assemblée populaire
+  source_url: https://en.wikipedia.org/wiki/Constitution_of_Carthage
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-CAR-003
+  enonce: Aristote cite Carthage comme exemple de constitution mixte stable dans La Politique
+  source_url: https://www.worldhistory.org/Carthaginian_Government/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-CAR-004
+  enonce: L'armée carthaginoise est majoritairement mercenaire (Numides, Ibères, Gaulois)
+  source_url: https://www.worldhistory.org/Carthaginian_Government/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-CAR-006
+  enonce: Rome rase Carthage et détruit la quasi-totalité des archives puniques en 146 av.
+  source_url: https://www.worldhistory.org/Carthaginian_Government/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-CAR-008
+  enonce: Carthage contrôle des comptoirs en Sicile, Sardaigne, Baléares et Espagne par réseau de traités commerciaux
+  source_url: https://www.historyextra.com/period/ancient-history/phoenicians-carthage/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+acteurs:
+- nom: Suffètes
+  role: Deux magistrats élus annuellement, exécutif de la République
+  faits_lies:
+  - F-CAR-002
+- nom: Hannibal Barca
+  role: Général, traversée des Alpes (218 av.), défaite à Zama (202 av.)
+  faits_lies: []
+- nom: Sénat carthaginois
+  role: Aristocratie marchande contrôlant la politique commerciale
+  faits_lies:
+  - F-CAR-002
+causalites:
+- cause: F-CAR-004
+  effet: F-CAR-006
+  mecanisme: La dépendance aux mercenaires crée une fragilité financière → Guerre des Mercenaires (240-238) → Carthage affaiblie face à Rome
+perspectives_dialectiques:
+- position: Thèse — Carthage était une alternative viable à Rome
+  argument: République commerciale stable pendant 600 ans, citée par Aristote comme modèle — Carthage prouve qu'un autre modèle méditerranéen existait
+- position: Antithèse — Carthage était structurellement condamnée
+  argument: Armée mercenaire = dépendance fatale. Pas de citoyen-soldat = pas de résilience militaire. Le modèle romain était supérieur
+limites:
+- Biais de source maximal : tout ce qu'on sait de Carthage a été écrit par ses ennemis (Polybe, Tite-Live)
+- Pas de sources primaires puniques survivantes
+wolves:
+- nom: Historiographie romaine
+  argument: Carthage = perfidie, cruauté, sacrifices d'enfants — propagande de guerre romaine
+  reponse: Les sacrifices d'enfants (tophet) sont archéologiquement attestés mais leur ampleur est débattue
+iceberg:
+- Sujet immergé : 0 source primaire — toutes les sources sont grecques ou romaines
+chronologie:
+- date: 814 av.
+  evenement: Fondation de Carthage par des colons phéniciens
+  source_fait: F-CAR-001
+- date: 264-241 av.
+  evenement: Première Guerre punique — Carthage perd la Sicile
+  source_fait: F-CAR-004
+- date: 218-201 av.
+  evenement: Deuxième Guerre punique — Hannibal traverse les Alpes, défait à Zama
+  source_fait: F-CAR-006
+- date: 146 av.
+  evenement: Rome rase Carthage, détruit les archives
+  source_fait: F-CAR-006
+domaines:
+- Gouvernement : république oligarchique, suffètes + Sénat + Assemblée
+- Économie : thalassocratie commerciale, comptoirs maritimes
+- Militaire : armée mercenaire professionnelle
+- Sources : destruction totale par Rome en 146 av.
+urls_prioritaires:
+- url: https://www.worldhistory.org/Carthaginian_Government/
+  description: Gouvernement carthaginois — suffètes, Sénat
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Constitution_of_Carthage
+  description: Constitution de Carthage — analyse aristotélicienne
+  head_status: 200
+shadow_factor: 6.5
+mnemo_queries: []
+mnemo_cross_refs: []

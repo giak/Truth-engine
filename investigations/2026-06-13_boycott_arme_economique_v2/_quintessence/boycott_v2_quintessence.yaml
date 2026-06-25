@@ -1,0 +1,243 @@
+enquete_id: "boycott_v2"
+complexity: "APEX"
+date_extraction: "2026-06-13"
+enquete_source: "investigations/2026-06-13_boycott_arme_economique_v2/2026-06-13_23-30_boycott_arme_economique_INVESTIGATION_V2.md"
+
+these_centrale: "Le boycott est une arme économique asymétrique viable contre l'État — son vrai pouvoir n'est pas dans l'assec fiscal direct (l'État emprunte 310 Md€/an) mais dans le SIGNAL envoyé aux marchés financiers (ICRG rating, spreads, notation souveraine), combiné à la construction d'alternatives économiques (V2) qui seules empêchent l'épuisement du mouvement."
+
+theses_implicites:
+  - "La correction §29 invalide l'analyse initiale : le pouvoir du boycott n'est pas comptable (baisse TVA) mais financier (perte de confiance des marchés) — -10 points ICRG = +106bp spreads + -2% PIB"
+  - "Le modèle Swadeshi (boycott + construction d'alternative) est la clé : V1 sans V2 meurt (GJ l'ont prouvé expérimentalement), V2 sans V1 est un marché de niche"
+  - "La fenêtre de protection juridique du boycott (CEDH Baldassi 2020) est étroite — l'amendement CL46 (3 ans + 45k€) est déjà écrit ; elle se fermera quand le boycott deviendra une menace réelle"
+
+faits_atomiques:
+  - id: "F-V2-001"
+    enonce: "TVA brute 2025 : 175,1 Md€, soit 35,4% des recettes fiscales nettes de l'État — l'impôt le plus important et le moins visible."
+    source_url: "https://www.insee.fr/fr/statistiques/2381416"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-V2-002"
+    enonce: "Seulement 50% des ménages français paient l'impôt sur le revenu. Les 50% qui ne le paient pas sont insensibles à la pression fiscale directe mais TOUS paient la TVA."
+    source_url: "https://www.vie-publique.fr/en-bref/302473-hausse-de-71-des-recettes-fiscales-en-2025"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-V2-003"
+    enonce: "Swadeshi (Inde, 1905-1908) : importations de coton britannique en baisse de -22% à -44% ; partition du Bengal annulée en 1911. Modèle boycott + construction d'alternative."
+    source_section: "§1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-V2-004"
+    enonce: "Montgomery Bus Boycott (1955-1956) : 381 jours, 750 000 $ de pertes pour la compagnie de bus, ségrégation abolie. Soutenu par un carpool (V2) qui a permis la durée."
+    source_url: "https://www.nps.gov/articles/montgomery-bus-boycott.htm"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-V2-005"
+    enonce: "Addiopizzo (Sicile, 2004-2026) : 1000+ commerçants et 9000+ consommateurs labellisés 'Pago chi non paga' — consommation critique contre la mafia."
+    source_section: "§1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-V2-006"
+    enonce: "Grève des loyers Sonacotra (1975-1981) : 20 000 résidents, 100+ foyers, 6 ans de résistance sans leader ni structure formelle."
+    source_url: "https://vacarme.org/article115.html"
+    source_section: "§1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-V2-007"
+    enonce: "CEDH, arrêt Baldassi c. France (11 juin 2020) : l'appel au boycott de produits d'un État relève de la liberté d'expression politique (article 10 CEDH). La France condamnée."
+    source_section: "§17"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-V2-008"
+    enonce: "Amendement CL46 (25 janvier 2025) : tentative de criminalisation du boycott (3 ans d'emprisonnement + 45 000 € d'amende) — repoussée, mais prête à être votée en 72h."
+    source_section: "§17"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-V2-009"
+    enonce: "Déficit de l'État 2025 : 124,7 Md€. Besoin de financement 2026 : 310 Md€. Dette publique : 114% du PIB."
+    source_section: "§18"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-V2-010"
+    enonce: "98% des révoltes fiscales historiques échouent, réprimées dans le sang (Éric Anceau, professeur Université Lorraine, Ca m'intéresse 2025)."
+    source_section: "§19"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-V2-011"
+    enonce: "TRACFIN a traité 180 000 déclarations de soupçon en 2024. Seuil de déclenchement : 10 000 € pour opération atypique. Smurfing (fractionnement) = motif explicite de déclaration."
+    source_url: "https://www.economie.gouv.fr"
+    source_section: "§21"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-V2-012"
+    enonce: "FranceConnect : 1800 services connectés, 62% des Français utilisateurs, 30 millions d'utilisateurs fin 2024."
+    source_section: "§24"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-V2-013"
+    enonce: "Les Gilets jaunes (287 700 manifestants au pic) ont validé expérimentalement la thèse V1-sans-V2 : zéro infrastructure survivante en 2026."
+    source_section: "§25"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-V2-014"
+    enonce: "Bruegel Analysis 43/2024 : l'ICRG rating de la France a crashé à l'été 2024. -10 points ICRG = +106bp de spreads souverains + -2 points de PIB de croissance. Effet non-linéaire amplifié par la dette."
+    source_section: "§29"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-V2-015"
+    enonce: "Cinq fronts de pression externe en 2026 : tarifs Trump 20%, NATO 3.5% PIB, procédure déficit UE, BCE restrictive, concurrence Chine + Allemagne en récession."
+    source_section: "§29"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-V2-016"
+    enonce: "Le spread OAT/Bund a culminé à 88bp. La charge de la dette est de ~50 Md€/an. Un spread à 250bp doublerait cette charge à ~80-90 Md€/an."
+    source_section: "§29"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-V2-017"
+    enonce: "17 millions de retraités, 12 millions de bénéficiaires de minima sociaux, 5,7 millions de fonctionnaires — soit 35 millions de personnes dépendant financièrement de l'État."
+    source_section: "§14"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Macron, Emmanuel"
+    role: "Président français — cible GJ, hélicoptère exfiltration confirmé"
+    faits_lies: ["F-V2-013"]
+  - name: "Anceau, Éric"
+    role: "Professeur histoire politique, Université Lorraine — révoltes fiscales"
+    faits_lies: ["F-V2-010"]
+  - name: "Gandhi, Mahatma"
+    role: "Figure centrale du Swadeshi — boycott + construction alternative"
+    faits_lies: ["F-V2-003"]
+  - name: "Parks, Rosa"
+    role: "Déclencheur Montgomery Bus Boycott"
+    faits_lies: ["F-V2-004"]
+
+causalites:
+  - cause: "F-V2-001"
+    effet: "F-V2-002"
+    mecanisme: "La TVA est l'impôt universel invisible (35,4% des recettes) — toucher TOUS les consommateurs sans distinction, contrairement à l'IR"
+  - cause: "F-V2-014"
+    effet: "F-V2-016"
+    mecanisme: "La dégradation du rating ICRG (-10pts = +106bp spreads) combinée à la dette 114% PIB crée une boucle auto-réalisatrice : plus de spreads = plus de dette = moins de confiance"
+  - cause: "F-V2-007"
+    effet: "F-V2-008"
+    mecanisme: "La protection juridique (CEDH Baldassi 2020) est activement menacée par l'amendement CL46 — la fenêtre de légalité du boycott est étroite et temporaire"
+
+perspectives_dialectiques:
+  - position: "Thèse — Le boycott est l'arme asymétrique ultime"
+    argument: "Il ne nécessite pas de coordination préalable, il est contagieux par imitation sociale, légal (Baldassi 2020), et il frappe le seul langage que l'État comprend : l'argent. Le signal aux marchés (ICRG, spreads) est plus puissant que l'impact comptable direct."
+  - position: "Antithèse — Le boycott est une illusion de résistance"
+    argument: "Aucun boycott n'a jamais fait plier un État moderne (Anceau : 98% échouent). L'État emprunte 310 Md€/an, la BCE soutient la dette. Le boycott pénalise les pauvres (TVA régressive) et les alternatives (V2) sont 20-40% plus chères."
+  - position: "Synthèse — Le boycott est un levier de pression, pas une solution"
+    argument: "Le vrai pouvoir est le SIGNAL (ICRG + spreads), pas l'assec fiscal. Combiné aux 5 fronts externes (Trump, NATO, UE, BCE, Chine), même une perte de confiance limitée des marchés peut déclencher une spirale. Mais sans V2 (construction d'alternative), le boycott meurt comme les GJ."
+
+limites:
+  - "Pas de données précises sur l'élasticité de la TVA face à un boycott coordonné"
+  - "Aucun boycott n'a jamais fait tomber un État moderne disposant d'une banque centrale, d'une armée et d'une police"
+  - "La contradiction V1/V2 sans structure de leadership n'est résolue par aucun précédent historique"
+  - "Les circuits alternatifs (AMAP, bio) sont 20-40% plus chers — le boycott est structurellement un luxe de classe moyenne"
+  - "35M de dépendants financiers de l'État ne soutiendront pas un boycott qui menace leur survie"
+  - "TRACFIN détecte les patterns de smurfing — l'économie parallèle plafonne à ~15-20% du PIB"
+
+wolves:
+  - nom: "Macro-économiste libéral"
+    argument: "L'État emprunte 310 Md€/an à 2.8%. Une baisse de TVA de 10% = 17.5 Md€, soit 5.6% de l'emprunt annuel. C'est une variation négligeable pour un État qui a levé 2 300 Md€ de PIB."
+    reponse: "L'erreur est de ne regarder que les flux réels. Le SIGNAL d'un boycott massif — perte de consentement fiscal — déclenche une spirale sur les marchés (ICRG → spreads → dette auto-alimentée) qui est sans commune mesure avec l'impact comptable direct."
+  - nom: "Juriste pénaliste"
+    argument: "La protection Baldassi est fragile. L'amendement CL46 (3 ans + 45k€) montre que le législateur peut criminaliser le boycott en 72h par ordonnance ou 49.3."
+    reponse: "Le boycott viral (sans coordination, sans structure) est indétectable et inarrêtable. On ne peut pas criminaliser l'imitation sociale."
+
+iceberg:
+  - "Le comportement de la BCE face à une crise de boycott politique est inconnu — la BCE est 'apolitique' en théorie mais une révolte fiscale est intrinsèquement politique"
+  - "Résultat Mnemolite: [query=boycott TVA V1 V2, 1588 mémoires, 3 quintessences liées: saturation, boycott_usa, gilets_jaunes]"
+  - "Résultat Mnemolite: [query=État résilience financière, 1588 mémoires, réseau complet de quintessences]"
+
+chronologie:
+  - date: "1905"
+    evenement: "Début Swadeshi (Inde) — boycott coton britannique"
+    source_fait: "F-V2-003"
+  - date: "1955-12"
+    evenement: "Début Montgomery Bus Boycott (381 jours)"
+    source_fait: "F-V2-004"
+  - date: "1975"
+    evenement: "Début grève loyers Sonacotra (6 ans)"
+    source_fait: "F-V2-006"
+  - date: "2004"
+    evenement: "Fondation Addiopizzo (Sicile)"
+    source_fait: "F-V2-005"
+  - date: "2020-06-11"
+    evenement: "CEDH Baldassi c. France — appel au boycott protégé"
+    source_fait: "F-V2-007"
+  - date: "2025-01-25"
+    evenement: "Amendement CL46 — tentative criminalisation boycott (repoussée)"
+    source_fait: "F-V2-008"
+  - date: "2025"
+    evenement: "Budget État : TVA 175 Md€, déficit 124,7 Md€, dette 114% PIB"
+    source_fait: "F-V2-001"
+  - date: "2026"
+    evenement: "Correction §29 : multiplicateur de signal ICRG identifié"
+    source_fait: "F-V2-014"
+
+domaines:
+  - "Boycott économique"
+  - "Fiscalité et finances publiques"
+  - "Droit européen (CEDH)"
+  - "Résistance civile non-violente"
+  - "Économie alternative et circuits courts"
+  - "Analyse forensique de l'État"
+
+urls_prioritaires:
+  - url: "https://www.insee.fr/fr/statistiques/2381416"
+    description: "Recettes fiscales brutes de l'État 1974-2024 — TVA 175 Md€"
+    head_status: 200
+  - url: "https://www.vie-publique.fr/en-bref/302473-hausse-de-71-des-recettes-fiscales-en-2025"
+    description: "50% des ménages ne paient pas l'IR — DGFiP 2025"
+    head_status: 200
+  - url: "https://www.nps.gov/articles/montgomery-bus-boycott.htm"
+    description: "Montgomery Bus Boycott — 381 jours, NPS"
+    head_status: 200
+  - url: "https://www.econstor.eu/handle/10419/330397"
+    description: "Jenkins 2025 — impact économique Montgomery"
+    head_status: 200
+  - url: "https://www.credoc.fr/publications/guerre-commerciale-les-francais-prets-a-boycotter-les-produits-americains"
+    description: "CRÉDOC 2025 — 62% Français prêts à boycotter produits US"
+    head_status: 200
+  - url: "https://www.telos-eu.com/fr/economie/quelle-est-lefficacite-economique-des-appels-au-bo.html"
+    description: "Telos 2007 — efficacité économique des appels au boycott"
+    head_status: 200
+  - url: "https://www.budget.gouv.fr/documentation/file-download/32188"
+    description: "Budget État 2025 — recettes DGFiP 610 Md€"
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Addiopizzo"
+    description: "Addiopizzo — 1000+ commerçants, 9000+ consommateurs"
+    head_status: 200
+
+shadow_factor: 4.5
+mnemo_queries:
+  - query: "boycott arme économique TVA V1 V2"
+    results_count: 5
+    notes: "1588 mémoires ; 3 quintessences liées (saturation, boycott_usa, gilets_jaunes)"
+  - query: "État mafieux résilience financière emprunt dette"
+    results_count: 5
+    notes: "1588 mémoires ; réseau complet de quintessences détecté"

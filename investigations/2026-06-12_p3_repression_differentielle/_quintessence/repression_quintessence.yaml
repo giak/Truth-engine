@@ -1,0 +1,136 @@
+enquete_id: "repression"
+complexity: "MEDIUM"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p3_repression_differentielle/2026-06-12_12-00_repression_differentielle_race_genre_INVESTIGATION.md"
+
+these_centrale: "La matrice pénale française applique un multiplicateur asymétrique de risque : les racisés subissent un contrôle au faciès ×20 plus probable et des peines plus lourdes à infraction égale ; les femmes bénéficient d'une clémence relative. Le corpus, en ignorant cette asymétrie, produit des 'solutions' calibrées pour le profil le moins exposé."
+
+theses_implicites:
+  - "L'enquête confond deux matrices répressives distinctes : la BAC (délinquance de droit commun, biaisée racialement) et la DGSI/SDAT (répression politique, ciblant les réseaux indépendamment du phénotype)."
+  - "Suggérer que les femmes sont 'moins ciblées' donc mieux placées pour la coordination est naïf : l'IA prédictive LOPMI ne fait pas de sentimentalisme genré."
+  - "L'intersectionnalité répressive (race × genre × classe) n'est pas additive mais multiplicative : chaque strate transforme qualitativement l'expérience de la justice."
+
+faits_atomiques:
+  - id: "F-repr-001"
+    enonce: "Les hommes perçus comme noirs ou arabes ont 20 fois plus de risques d'être contrôlés par la police (Défenseur des Droits, 2017 ; Conseil d'État, octobre 2023)."
+    source_url: null
+    source_section: "§1"
+    head_status: null
+    tier: 1
+    glyphe: "✦"
+  - id: "F-repr-002"
+    enonce: "Le traitement pénal différencié : les peines sont plus lourdes pour les racisés à infraction égale via l'effet de sélection sociale (absence d'emploi, logement stable, garanties de représentation)."
+    source_url: null
+    source_section: "§1"
+    head_status: null
+    tier: 2
+    glyphe: "✧"
+  - id: "F-repr-003"
+    enonce: "Les femmes bénéficient de peines moins lourdes et de plus de mesures alternatives via le stéréotype de la maternalisation (Ministère de la Justice)."
+    source_url: null
+    source_section: "§2"
+    head_status: null
+    tier: 1
+    glyphe: "✦"
+  - id: "F-repr-004"
+    enonce: "La clémence genrée est une arme à double tranchant : elle protège les femmes mais rend la coordination féminine invisible comme actrice politique."
+    source_url: null
+    source_section: "§2"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-repr-005"
+    enonce: "Le cumul race + genre + classe crée un multiplicateur de risque pénal multiplicatif, pas additif. Le jeune homme racisé sans emploi est la cible privilégiée du système."
+    source_url: null
+    source_section: "§3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-repr-006"
+    enonce: "La répression des émeutes 2023 (post-Nahel) vs Gilets Jaunes montre une asymétrie : violence physique pour les mouvements blancs 'légitimes', procédure expéditive pour les mouvements racisés 'menaçants'."
+    source_url: null
+    source_section: "§3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Défenseur des Droits"
+    role: "Auteur de l'enquête 'Accès aux droits' (2017) documentant le contrôle au faciès"
+    faits_lies: ["F-repr-001"]
+  - nom: "Conseil d'État"
+    role: "A reconnu le caractère systémique des contrôles discriminatoires (octobre 2023)"
+    faits_lies: ["F-repr-001"]
+  - nom: "Observatoire International des Prisons (OIP)"
+    role: "Documente le traitement pénal différencié"
+    faits_lies: ["F-repr-002"]
+
+causalites:
+  - cause: "F-repr-001"
+    effet: "F-repr-005"
+    mecanisme: "Le contrôle au faciès est la porte d'entrée vers la machine pénale. Chaque contrôle découverte (téléphone, carnet, connexion militante) peut déclencher une procédure, indépendamment de la qualification finale (droit commun ou terroriste)."
+  - cause: "F-repr-003"
+    effet: "F-repr-004"
+    mecanisme: "La clémence genrée protège pénalement mais invisibilise politiquement — les femmes sont sous-représentées comme actrices politiques dans le corpus parce que le système les traite comme 'moins dangereuses'."
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "La matrice pénale est structurellement raciste et genrée : les données (Défenseur des Droits, OIP) l'établissent. Ignorer cette asymétrie rend le corpus inutilisable pour les populations les plus exposées."
+  - position: "Antithèse"
+    argument: "L'enquête confond BAC (délinquance de rue) et DGSI (répression politique). L'appareil anti-terroriste cible les réseaux, pas les phénotypes. Tarnac (blancs, CSP+) l'a démontré."
+  - position: "Synthèse"
+    argument: "Les deux matrices sont distinctes mais connectées : le contrôle au faciès est la porte d'entrée vers la machine pénale, même si la qualification finale est politique. L'asymétrie est réelle au premier contact, pas nécessairement à la condamnation finale."
+
+limites:
+  - "Données sur le traitement pénal différencié agrégées — pas d'accès aux données individuelles du casier judiciaire."
+  - "Intersectionnalité absente du droit français : l'analyse est sociologique, pas juridique."
+  - "Comparaison GJ vs émeutes 2023 qualitative — pas d'étude comparative systématique disponible."
+  - "Confusion non résolue entre matrice BAC (droit commun) et matrice DGSI (répression politique)."
+
+wolves:
+  - nom: "Fausse équivalence BAC/DGSI"
+    argument: "L'enquête analyse le contrôle au faciès (BAC) et l'applique à la répression politique (DGSI). L'appareil anti-terroriste cible les réseaux et l'intention, pas les phénotypes. Tarnac (blancs, CSP+) = 10 ans de procédure sans privilège blanc."
+    reponse: "Partiellement recevable : l'enquête aurait dû distinguer plus clairement les deux matrices. Mais la sur-exposition au premier contact policier reste un multiplicateur de risque pour toute forme d'action, politique incluse."
+  - nom: "Leurre opérationnel"
+    argument: "Suggérer que les profils 'moins ciblés par la BAC' devraient mener la coordination les expose à la machine anti-terroriste sans préparation — ils deviennent PLUS vulnérables, pas moins."
+    reponse: "Recevable. L'enquête n'a pas suffisamment problématisé les risques spécifiques de l'exposition des profils 'protégés' à la machine anti-terroriste."
+
+iceberg:
+  - "L'impact de l'IA prédictive LOPMI sur la détection genrée : les algorithmes ne font pas de sentimentalisme mais peuvent reproduire des biais statistiques de la base d'entraînement."
+  - "Mnemolite: UP (36 942 mémoires) mais API search en erreur 500 — recherche cross-séries impossible."
+  - "Sujet immergé : la DGSI recrute-t-elle des informateurs différemment selon le profil ethnique ou genré ?"
+
+chronologie:
+  - date: "2017"
+    evenement: "Enquête Défenseur des Droits sur le contrôle au faciès (×20)"
+    source_fait: "F-repr-001"
+  - date: "2023-10"
+    evenement: "Conseil d'État reconnaît le caractère systémique des contrôles discriminatoires"
+    source_fait: "F-repr-001"
+  - date: "2023-06"
+    evenement: "Émeutes post-Nahel — répression expéditive massive"
+    source_fait: "F-repr-006"
+
+domaines:
+  - "Sociologie pénale"
+  - "Droit pénal"
+  - "Études intersectionnelles"
+  - "Sécurité intérieure"
+
+urls_prioritaires:
+  - url: null
+    description: "Défenseur des Droits, enquête 'Accès aux droits' (2017) — source primaire"
+    head_status: null
+  - url: null
+    description: "Conseil d'État, décision octobre 2023 sur les contrôles discriminatoires"
+    head_status: null
+
+shadow_factor: 3.8
+
+mnemo_queries:
+  - query: "répression France matrice pénale"
+    results_count: 0
+    error: "API error 500"
+  - query: "OPSEC infiltration double structure"
+    results_count: 0
+    error: "API error 500"

@@ -1,0 +1,756 @@
+date_synthese: '2026-06-19'
+complexity: APEX
+n_enquetes: 23
+enquetes_concernees:
+- performativite
+- performativite_v3
+- legalite
+- legalite_v2
+- leonarduzzi
+- communicants
+- addiction
+- lois_perf
+- pgi_map
+- climat
+- justice
+- medias
+- diplomatie
+- education
+- sante
+- mimi
+- conseil_etat_sgg
+- conseil_constitutionnel
+- performativite_opposition
+- verrou_ue
+- comparaison_internationale
+- contre_pouvoirs
+- cabinets_lobbys
+total_faits_atomiques: 754
+shadow_factor_global: 3.5
+sujet_majoritaire: 'Le système politique français présente un écart structurel croissant entre sa légalité formelle (conformité
+  aux procédures constitutionnelles) et sa légitimité substantielle (consentement populaire, justice sociale, attentes démocratiques).
+  23 enquêtes, 754 faits atomiques et environ 230 sources documentent cet écart à travers 7 domaines sectoriels et 5 mécanismes systémiques.
+  La thèse centrale : la France n''est pas une démocratie qui dysfonctionne — c''est un régime hybride stabilisé où la forme
+  légale maintient l''apparence démocratique tandis que la substance du pouvoir (délibération parlementaire, consentement
+  populaire, justice sociale) est structurellement neutralisée par 5 mécanismes convergents. Le concept de post-démocratie
+  (Crouch, 2004) capture la dynamique : les institutions formelles persistent, mais la participation citoyenne et la délibération
+  sont vidées de leur contenu.'
+theses_cardinales:
+- titre: 'THESE-001 : L''écart entre légalité formelle et légitimité substantielle est structurel et s''aggrave — c''est la
+    signature du régime politique français'
+  enonce: 'La France maintient scrupuleusement la légalité formelle de ses procédures constitutionnelles (élections régulières,
+    contrôle de constitutionnalité, séparation des pouvoirs) mais la légitimité substantielle de son système politique s''effondre.
+    Les indicateurs de consentement populaire sont au plus bas historique : 26 % de confiance dans la politique (CEVIPOF 2025),
+    74 % des Français jugent les politiciens corrompus (Transparency International 2024), 57 % d''abstention aux législatives
+    2024, 49 % de confiance dans la justice. La France est classée ''démocratie défaillante'' par l''EIU (7.99/10, rang 23)
+    et en déclin continu par V-Dem (0.799, -0.03 depuis 2017). Cet écart entre forme et substance n''est pas un accident conjoncturel
+    : il est le produit de 5 mécanismes systémiques documentés ci-dessous, et sa trajectoire est monotone sur l''ensemble
+    de la Ve République, avec une accélération nette depuis 2017.'
+  f_atomiques_justificatifs:
+  - F-001
+  - F-002
+  - F-003
+  - F-004
+  - F-005
+  - F-008
+  - F-009
+  - F-013
+  - F-014
+  - F-015
+  - F-016
+  - F-018
+  - F-019
+  - F-map-009
+  - F-map-010
+  - F-map-011
+  - F-pgimap-019
+  n_faits_justificatifs: 17
+  note: Les F-NNN génériques réfèrent à legalite/legalite_v2 (confiance, abstention, classements internationaux) et performativite
+    (perception corruption). Voir note globale sur l'ambiguïté des IDs.
+  contre_hypothese: Si cet écart était conjoncturel (dû à Macron), on observerait une corrélation avec l'alternance. Or les
+    indicateurs se dégradent de façon monotone depuis 2007 (Sarkozy), voire 1958 pour certains (abstention). Si c'était un
+    simple 'déficit de communication', les 1 Md€/an de budget com' l'auraient résorbé — il l'aggravent.
+  shadow: 3.0
+- titre: 'THESE-002 : La performativité est le mécanisme principal qui produit et entretient l''écart — le discours s''est
+    substitué à l''action comme mode de gouvernement'
+  enonce: 'La France ne souffre pas d''une pathologie conjoncturelle du mensonge politique mais fonctionne structurellement
+    comme une logocratie (Viktorovitch, 2025) : un régime où la production de discours performatifs s''est substituée à l''action
+    publique. 8 mécanismes documentés (M1 à M8) décrivent le système : l''annonce vaut réalisation (M1), le déni factuel est
+    ordinaire (M2), l''inversion sémantique est la norme (M3), la promesse auto-référentielle clôt le débat (M6). 407 mensonges
+    documentés (2017-2025), 47 % de promesses tenues, 36 lois votées depuis la dissolution / 1 seule appliquée, 82 % d''ordonnances
+    non ratifiées, 1 Md€/an de budget communication — ces chiffres ne sont pas des symptômes mais le mode de fonctionnement
+    normal. Le système est structurellement dépendant du discours : la tolérance augmente (dose croissante pour même effet),
+    l''addiction épistémique capture les citoyens (consommation d''indignation sans action), l''addiction économique verrouille
+    le budget (2+ Md€/an de dépenses performatives : 1 Md€ communication + 1 Md€ cabinets conseil), et la caste des communicants
+    s''auto-reproduit (CELSA → cabinet → Élysée → agence privée). Score API 78/100 — Stade 4 Addiction Chronique.'
+  f_atomiques_justificatifs:
+  - F-004
+  - F-024
+  - F-025
+  - F-026
+  - F-027
+  - F-057
+  - F-lois_perf-001
+  - F-lois_perf-002
+  - F-lois_perf-003
+  - F-317
+  - F-301
+  - F-302
+  - F-304
+  - F-307
+  - F-map-001
+  - F-map-006
+  - F-map-007
+  - F-map-009
+  - F-map-010
+  - F-map-011
+  - F-map-012
+  - F-046
+  - F-333
+  - F-334
+  - F-335
+  n_faits_justificatifs: 25
+  contre_hypothese: 'Si la performativité était une stratégie contingente, elle s''ajusterait aux résultats. Or 47 % de promesses
+    tenues depuis 2017 n''ont produit aucune correction du comportement — le système augmente la dose. Si c''était un simple
+    problème de ''com'''', les citoyens ne le percevraient pas : or 74 % jugent les politiciens corrompus, ce qui indique
+    une détection empirique du découplage dire/faire.'
+  shadow: 3.5
+- titre: 'THESE-003 : Le verrouillage institutionnel garantit la légalité formelle tout en neutralisant la légitimité substantielle
+    — Parlement, justice et autorités indépendantes forment un système convergent'
+  enonce: 'Trois mécanismes institutionnels distincts convergent pour neutraliser le pouvoir législatif tout en maintenant
+    l''apparence constitutionnelle : le 49.3 (28 fois sous Macron, record absolu — utilisé 113 fois depuis 1958 mais 25 %
+    des usages concentrés sur 2017-2025), les ordonnances (>50 % des textes législatifs depuis 2007, 82 % non ratifiées),
+    et le double filtre QPC (environ 75 % des recours non transmis par le Conseil d''État et la Cour de cassation, 95 % de validation par le Conseil constitutionnel). La justice est
+    structurellement sous-dotée (0,19 % du PIB, 17 juges/100k habitants — 3 fois moins que la moyenne européenne, 94 % des
+    plaintes pour viol classées sans suite). Les autorités administratives indépendantes (CSM : 0 nomination refusée depuis
+    1958 ; HATVP : 77 % d''avis avec réserves non suivis ; Arcom : 0 sanction contre Bolloré) fonctionnent comme des théâtres
+    de légitimation sans pouvoir de contrôle effectif. La convergence de ces mécanismes produit un verrouillage systémique
+    : chaque contre-pouvoir potentiel est neutralisé par un dispositif légalement irréprochable.'
+  f_atomiques_justificatifs:
+  - F-001
+  - F-002
+  - F-006
+  - F-007
+  - F-008
+  - F-009
+  - F-011
+  - F-014
+  - F-005
+  - F-018
+  - F-019
+  - F-020
+  - F-048
+  - F-065
+  - F-080
+  - F-081
+  - F-082
+  - F-083
+  - F-084
+  - F-085
+  - F-lois_perf-012
+  - F-justice-024
+  n_faits_justificatifs: 22
+  note: Les F-NNN génériques réfèrent à legalite/legalite_v2. Voir note globale.
+  contre_hypothese: Si le Parlement était simplement 'paresseux' ou 'inefficace', on observerait un usage cyclique du 49.3
+    selon les majorités. Or l'usage est strictement croissant depuis 2007 quelle que soit la majorité (droite, centre, macronie).
+    Si les AAI étaient indépendantes, on observerait au moins un cas de décision contraire à l'exécutif — zéro en 66 ans pour
+    le CSM.
+  shadow: 3.0
+- titre: 'THESE-004 : La concentration médiatique verrouille l''espace délibératif — 5 milliardaires contrôlent la formation
+    de l''opinion sous couvert de pluralisme légal'
+  enonce: 'Cinq milliardaires (Bolloré, Arnault, Saadé, Niel, Bouygues) contrôlent plus de 75 % des audiences médiatiques
+    ; 9 contrôlent plus de 90 % des médias. La concentration est légale (Arcom impuissante : 0 sanction contre Bolloré) mais
+    vide le pluralisme de sa substance. Vincent Bolloré a méthodiquement construit le premier groupe médiatique d''extrême
+    droite (CNews, Europe 1, JDD, Paris Match, Hachette, Grasset) par une stratégie d''éviction des journalistes réfractaires.
+    La presse people (Mimi Marchand/Bestimage, rachetée par Niel) a été utilisée comme arme de communication politique (29
+    couvertures Macron en 2017). Les spin doctors (Léonarduzzi, CELSA → 1500 communicants d''État) forment l''écosystème de
+    fabrication du consentement. Résultat : 62 % des Français se méfient des médias traditionnels, 665 cas de désinformation
+    climatique concentrés à 80 % sur CNews/Europe1, et un espace délibératif où le débat contradictoire est remplacé par la
+    polarisation spectacle — débat qui valide la forme du pluralisme sans jamais menacer les structures de pouvoir.'
+  f_atomiques_justificatifs:
+  - F-005
+  - F-medias-001
+  - F-medias-006
+  - F-medias-007
+  - F-medias-002
+  - F-010
+  - F-023
+  - F-024
+  - F-025
+  - F-339
+  - F-336
+  - F-MIMI-005
+  - F-MIMI-006
+  - F-LEONARDUZZI-005
+  - F-LEONARDUZZI-008
+  - F-climat-018
+  - F-map-005
+  n_faits_justificatifs: 17
+  contre_hypothese: Si la concentration médiatique était un simple phénomène de marché, elle serait distribuée aléatoirement
+    et réversible. Or elle suit une trajectoire d'acquisition politique (Bolloré vise explicitement l'influence, pas la rentabilité).
+    Si les médias alternatifs compensaient, leur audience croiserait celle des médias traditionnels — or CNews + Europe 1
+    pèsent 15 % de l'audience TV seuls.
+  shadow: 3.0
+- titre: 'THESE-005 : L''écart légalité/légitimité produit des catastrophes sectorielles mesurables — le pattern est identique
+    dans tous les domaines documentés'
+  enonce: 'Chaque secteur documenté présente le même pattern : annonce chiffrée massive → sous-exécution chronique → dégradation
+    réelle → nouvelle annonce. Ségur santé : 19 Md€ promis, 37 % des projets validés à mi-2024, déficit hospitalier 2,9 Md€,
+    73 % des Français renoncent à des soins. Climat : Fonds vert réduit de 74 % en 3 ans, LPEC avec 3 ans de retard, SNBC3
+    publiée le jour anniversaire de l''Accord de Paris (date de communication), besoin +82 Md€/an identifié (Pisani-Ferry)
+    mais non financé — condamnation de l''État pour inaction climatique (Grande-Synthe, 2021 ; Avenir, 2023). Éducation :
+    10 000 postes supprimés depuis 2017, Pacte enseignant 38 % de sous-exécution, salaire français 53 % du salaire allemand,
+    classement PISA en baisse continue. Diplomatie africaine : discours de rupture (Ouagadougou 2017, Africa Forward 2026)
+    accompagnés d''un effondrement militaire et diplomatique total (5 bases fermées, Wagner/Africa Corps dans 44 pays, Tchad/Sénégal/Côte
+    d''Ivoire demandent le départ des troupes françaises). Le pattern est invariant quel que soit le ministre, le gouvernement
+    ou la majorité : la performativité produit des conséquences matérielles mesurables, et l''écart entre le discours et le
+    réel s''accroît dans tous les secteurs.'
+  f_atomiques_justificatifs:
+  - F-sante-001
+  - F-sante-003
+  - F-sante-005
+  - F-sante-013
+  - F-sante-025
+  - F-climat-001
+  - F-climat-008
+  - F-climat-010
+  - F-climat-012
+  - F-education-001
+  - F-education-011
+  - F-education-016
+  - F-education-017
+  - F-diplomatie-001
+  - F-diplomatie-007
+  - F-diplomatie-014
+  - F-diplomatie-027
+  n_faits_justificatifs: 17
+  contre_hypothese: Si ces échecs étaient sectoriels et contingents (dus à des ministres incompétents ou à des circonstances),
+    on observerait de la variance entre secteurs. Or le pattern est identique dans 5 domaines sans lien opérationnel entre
+    eux. Si c'était un problème de moyens, l'augmentation massive des budgets (Ségur, Fonds vert, Pacte enseignant) aurait
+    produit des résultats — ils produisent des annonces, pas des améliorations.
+  shadow: 3.5
+hierarchie_causale:
+  description: 'Les 5 mécanismes ne sont pas équivalents : deux sont primaires (causes), deux sont secondaires (amplificateurs),
+    un est le produit observable (conséquence). Distinguer les niveaux est essentiel pour comprendre pourquoi le système est
+    stable et ce qui pourrait le faire basculer.'
+  tier_1_primaires:
+  - mecanisme: Verrouillage institutionnel (THESE-003)
+    role: Cause première. Sans 49.3/ordonnances/AAI neutralisées, la performativité serait sanctionnée électoralement et le
+      Parlement exercerait un contre-pouvoir effectif. Le verrouillage est la condition de possibilité de tout le reste.
+  - mecanisme: Concentration médiatique (THESE-004)
+    role: Cause première. Sans contrôle de l'espace délibératif, la performativité serait exposée, contredite, et perdrait
+      son efficacité. Le verrouillage médiatique est le bouclier du verrouillage institutionnel.
+  tier_2_secondaires:
+  - mecanisme: Performativité/logocratie (THESE-002)
+    role: 'Mécanisme opérationnel. C''est le ''comment'' quotidien : ce que le verrouillage institutionnel et médiatique rendent
+      possible. La performativité n''est pas la cause — elle est le mode de fonctionnement normal une fois les contre-pouvoirs
+      neutralisés.'
+  - mecanisme: Caste des communicants et pantouflage (TR-004, TR-007)
+    role: Infrastructure humaine. Les 1500 communicants d'État, les portes tournantes CELSA→cabinet→agence, et le pantouflage
+      des grands corps (62 % IGF, 50 % CAC40) forment le 'qui' derrière le 'comment'. Sans cette caste auto-reproduite, la
+      performativité manquerait de personnel qualifié.
+  tier_3_consequences:
+  - mecanisme: Catastrophes sectorielles (THESE-005)
+    role: Produit observable. Les catastrophes ne sont pas un mécanisme autonome mais la conséquence mesurable de l'écart
+      légalité/légitimité. Elles sont le symptôme, pas la maladie.
+dynamique_systemique:
+  description: Le système est stable parce que 5 boucles de rétroaction se renforcent mutuellement. Aucune boucle isolée ne
+    suffirait à maintenir l'écart — c'est leur convergence qui rend le système résilient.
+  boucles:
+  - id: BOUCLE-1
+    nom: Verrouillage → défiance → abstention → renforcement du verrouillage
+    mecanisme: 'Le 49.3 et les ordonnances contournent le Parlement → les électeurs constatent l''impuissance de leurs élus
+      → abstention croissante (57 %) → le gouvernement peut gouverner avec une légitimité électorale encore plus faible →
+      usage accru du 49.3. Boucle de renforcement : chaque tour renforce le suivant.'
+    faits:
+    - F-001
+    - F-002
+    - F-006
+    - F-007
+  - id: BOUCLE-2
+    nom: Concentration médiatique → fabrication du consentement → maintien du verrouillage
+    mecanisme: 5 milliardaires contrôlent l'information → l'agenda médiatique est aligné sur les intérêts du pouvoir → les
+      alternatives politiques ne percent pas → le verrouillage institutionnel n'est jamais un enjeu électoral → la concentration
+      médiatique continue. Le pluralisme formel (multiplicité des titres) masque l'absence de pluralisme substantiel.
+    faits:
+    - F-medias-001
+    - F-medias-007
+    - F-005
+  - id: BOUCLE-3
+    nom: Performativité → promesses non tenues → défiance → demande de plus de discours
+    mecanisme: Le gouvernement annonce (Ségur, Fonds vert, Pacte enseignant) → sous-exécution → les citoyens constatent l'écart
+      → la défiance augmente → le gouvernement répond par de nouvelles annonces pour restaurer la confiance → l'écart se creuse.
+      La solution (plus de discours) aggrave le problème (écart croissant). C'est le cœur du modèle d'addiction performative
+      (MAP).
+    faits:
+    - F-sante-001
+    - F-climat-008
+    - F-education-011
+    - F-map-001
+  - id: BOUCLE-4
+    nom: Sous-dotation → dégradation des services → perte de légitimité → justification de l'austérité
+    mecanisme: Justice à 0,19 % du PIB → 94 % des plaintes pour viol classées → les citoyens perdent confiance dans la justice
+      → 'la justice ne fonctionne pas, pourquoi y mettre plus ?' → le budget stagne. Même logique pour la santé (déficit 2,9
+      Md€ → renoncement aux soins → 'le public est inefficace' → nouvelles coupes).
+    faits:
+    - F-012
+    - F-016
+    - F-sante-005
+  - id: BOUCLE-5
+    nom: Caste auto-reproduite → capture institutionnelle → fabrication du consentement → reproduction de la caste
+    mecanisme: CELSA forme les communicants → ils peuplent les cabinets ministériels → ils passent dans les agences privées
+      (Publicis, Havas) → ils reviennent comme conseillers → le réseau se densifie → l'entrée dans le système est verrouillée
+      pour les outsiders → la pensée unique de la communication se perpétue. 500+ portes tournantes documentées.
+    faits:
+    - F-310
+    - F-311
+    - F-312
+    - F-LEONARDUZZI-005
+cadre_theorique:
+  description: Trois cadres théoriques éclairent le phénomène. Aucun n'est parfaitement ajusté au cas français — c'est leur
+    combinaison qui capture la spécificité du régime.
+  cadres:
+  - concept: Post-démocratie (Colin Crouch, 2004)
+    application: 'Crouch décrit des régimes où les institutions démocratiques persistent formellement mais où la substance
+      de la démocratie (délibération, participation) est vidée par le pouvoir des élites économiques et la professionnalisation
+      de la communication politique. Le cas français correspond au modèle : élections maintenues, Parlement formellement actif,
+      mais décisions prises ailleurs (exécutif, cabinets de conseil, UE). La concentration médiatique par 5 milliardaires
+      est l''incarnation du ''pouvoir des élites économiques'' décrit par Crouch.'
+  - concept: Régime hybride / Autoritarisme compétitif (Levitsky & Way, Diamond)
+    application: 'Les classements EIU (7.99/10) et V-Dem (0.799) placent la France en ''démocratie défaillante'', à la frontière
+      des régimes hybrides. Le concept d''autoritarisme compétitif décrit des régimes où les élections existent mais le terrain
+      de jeu est structurellement inégal : médias capturés, justice sous influence, opposition délégitimée. La France n''est
+      pas une dictature — mais elle n''est plus classée comme démocratie pleine par l''EIU depuis 2018.'
+  - concept: Logocratie (Clément Viktorovitch, 2025)
+    application: 'Viktorovitch théorise un régime où le discours n''est plus un outil du pouvoir mais le pouvoir lui-même.
+      La logocratie capture spécifiquement le mécanisme opérationnel quotidien du régime français : la production de discours
+      performatifs comme substitut à l''action. Ce concept est complémentaire des deux premiers : Crouch décrit le résultat
+      (post-démocratie), Levitsky décrit le type de régime (hybride), Viktorovitch décrit le mode de fonctionnement (logocratie).'
+contre_hypotheses_ecartees:
+- hypothese: C'est uniquement lié à Emmanuel Macron
+  rejet: Le 49.3 existe depuis 1958, les ordonnances depuis l'article 38 de la Constitution, le pantouflage est documenté
+    depuis les années 1980, la concentration médiatique s'accélère depuis 2000. L'abstention croît de façon monotone depuis
+    1958, les classements EIU/V-Dem se dégradent depuis 2007. Macron intensifie les tendances (28×49.3, 1 Md€ com') mais ne
+    les crée pas.
+  contre_preuve: F-006 (usage 49.3 depuis 1958), F-042 (pantouflage historique), F-005 (concentration médias antérieure à
+    2017)
+- hypothese: C'est inhérent à la Ve République / au présidentialisme
+  rejet: 'Si la Ve République était la cause, l''écart serait stable depuis 1958. Or il s''aggrave : l''abstention passe de
+    20 % (1960) à 57 % (2024), le 49.3 passe de 1-2×/mandat à 28×, le budget communication passe de 200 M€ (2000) à 1 Md€
+    (2025). La Ve République fournit le cadre légal mais n''explique pas l''intensification.'
+  contre_preuve: F-lois_perf-001, F-lois_perf-002, F-001 (abstention 1958-2025)
+- hypothese: Tous les pays démocratiques traversent la même crise
+  rejet: 'La France est un outlier sur plusieurs métriques : 49.3 (aucun équivalent dans les démocraties parlementaires),
+    budget communication étatique (1 Md€ — 3× le budget du Royaume-Uni en proportion du PIB), concentration médiatique (5
+    milliardaires pour >75 % audiences — situation unique en Europe occidentale), nombre d''ordonnances (>50 % des textes
+    — aucun équivalent en Allemagne, Italie, Espagne).'
+  contre_preuve: F-014 (classement EIU), F-015 (comparaison internationale budget justice), F-018 (comparaison ordonnances)
+- hypothese: C'est une crise temporaire — les institutions vont s'autocorriger
+  rejet: 'Les 5 boucles de rétroaction (cf. dynamique_systemique) sont des mécanismes de renforcement, pas d''autocorrection.
+    Chaque boucle est un cercle vicieux : la défiance produit l''abstention qui produit le verrouillage qui produit la défiance.
+    Sans choc externe (crise de régime, décision CJUE/CEDH, rupture générationnelle), le système est conçu pour se perpétuer,
+    pas pour se corriger.'
+  contre_preuve: F-map-009, F-map-010, F-map-011 (modèle addiction) ; BOUCLE-1 à BOUCLE-5 (cf. dynamique_systemique)
+- hypothese: Les citoyens sont apathiques ou mal informés
+  rejet: 'Les citoyens perçoivent empiriquement l''écart : 74 % jugent les politiciens corrompus, 62 % se méfient des médias,
+    45 % pensent la démocratie en danger. La défiance n''est pas de l''apathie — c''est un jugement rationnel sur le fonctionnement
+    réel des institutions. L''abstention n''est pas un désintérêt mais un rejet d''un système perçu comme verrouillé (57 %
+    d''abstention = 26 millions d''électeurs).'
+  contre_preuve: F-001, F-002, F-003
+predictions:
+- id: PRED-001
+  enonce: Usage du 49.3 ≥30 fois d'ici 2032 (prochaine présidentielle + législatives). La trajectoire actuelle (28× sur 2017-2027)
+    et la probabilité d'absence de majorité absolue rendent ce seuil quasi certain.
+  shadow: 2.0
+  horizon: '2032'
+- id: PRED-002
+  enonce: Abstention >60 % aux présidentielles 2027 et/ou 2032. La tendance monotone depuis 1958 (20 % → 57 %) et l'absence
+    de réforme institutionnelle rendent la poursuite de la hausse probable.
+  shadow: 2.5
+  horizon: 2027-2032
+- id: PRED-003
+  enonce: Budget communication étatique >1,2 Md€/an d'ici 2030. La trajectoire (200 M€ en 2000 → 1 Md€ en 2025) et la dépendance
+    croissante au discours (BOUCLE-3) rendent l'augmentation quasi mécanique.
+  shadow: 2.0
+  horizon: '2030'
+- id: PRED-004
+  enonce: 'Concentration médiatique : ≥6 milliardaires contrôlant >80 % des audiences d''ici 2030. La tendance d''acquisition
+    (Bolloré 2015-2023, Niel 2024, Arnault 2025) se poursuit en l''absence de régulation effective (Arcom : 0 sanction).'
+  shadow: 3.0
+  horizon: '2030'
+- id: PRED-005
+  enonce: Nouvelle crise sociale de type Gilets Jaunes dans les 3-5 ans, absorbée sans réforme structurelle. Définition --
+    mobilisation nationale >2 semaines, >100 000 manifestants en pic, couverture médiatique continue, revendications centrées
+    sur la justice sociale et/ou la réforme institutionnelle. Le pattern Gilets Jaunes (2018-2019) → absorption par le débat
+    public sans changement institutionnel est réplicable. La crise sera un symptôme, pas un facteur de changement, tant que
+    les 5 boucles persistent.
+  shadow: 4.0
+  horizon: 2028-2030
+points_rupture:
+- id: RUPT-001
+  scenario: Crise de légitimité aiguë — convergence Gilets Jaunes + syndicats + jeunesse
+  mecanisme: Si une réforme impopulaire (retraites, austérité budgétaire UE) déclenche une mobilisation massive et convergente
+    (syndicats + mouvements spontanés + jeunesse), la légitimité formelle du gouvernement (élu par 25 % des inscrits) pourrait
+    être contestée frontalement. Le précédent Gilets Jaunes a montré la capacité de mobilisation — ce qui a manqué était la
+    convergence avec les corps intermédiaires.
+  probabilite: Moyenne (40 %)
+- id: RUPT-002
+  scenario: Décision CJUE/CEDH invalidant un mécanisme de verrouillage
+  mecanisme: Une condamnation de la France par la Cour Européenne des Droits de l'Homme sur l'usage du 49.3, la composition
+    du Conseil constitutionnel, ou l'absence de contrôle effectif des AAI obligerait à une réforme. La France a déjà été condamnée
+    pour inaction climatique (Grande-Synthe, Avenir) sans effet structurel — mais une condamnation touchant au cœur du verrouillage
+    (Parlement, justice) serait plus difficile à ignorer.
+  probabilite: Faible (20 %)
+- id: RUPT-003
+  scenario: Rupture générationnelle — les 18-35 ans basculent dans la contestation active
+  mecanisme: La génération 18-35 ans est la plus abstentionniste (71 % aux législatives 2024), la plus exposée à la précarité
+    économique, et la plus consommatrice de médias alternatifs (YouTube, Twitch, Substack). Si cette génération passe de l'abstention
+    passive à la contestation active (type Nuit Debout mais massifié), le système perd sa base de consentement résiduel.
+  probabilite: Moyenne (35 %)
+- id: RUPT-004
+  scenario: Crise économique majeure + austérité UE → impossibilité de maintenir les promesses
+  mecanisme: Si la procédure de déficit excessif (EDP 2024-2029) impose des coupes budgétaires massives, le gouvernement perd
+    sa capacité à financer les promesses performatives (Ségur, Fonds vert, Pacte enseignant). L'écart dire/faire deviendrait
+    visible même pour les électeurs les moins politisés. Le mécanisme de la performativité s'effondre quand le budget ne suit
+    plus.
+  probabilite: Élevée (60 %)
+- id: RUPT-005
+  scenario: Contre-pouvoir médiatique émergeant — un média indépendant atteint une masse critique
+  mecanisme: Si un média indépendant (Blast, Off Investigation, ou un nouvel entrant) atteint une audience comparable à CNews
+    (10-15 %), le monopole de fabrication du consentement est brisé. La BOUCLE-2 (concentration → consentement → verrouillage)
+    est rompue. Actuellement, l'audience cumulée des médias alternatifs reste <5 % — le seuil critique est estimé à 10-15
+    %.
+  probabilite: Faible (15 %)
+gradation:
+  description: La gradation couvre les 5 domaines ou l'ecart dire/faire produit des consequences materielles mesurables sur
+    les services publics et l'infrastructure (sante, justice, education, climat, diplomatie). Les domaines Medias et Institutions
+    sont exclus de cette gradation car ils sont traites dans la hierarchie causale comme mecanismes (Tier 1), pas comme secteurs
+    d'impact.
+  domaines:
+  - domaine: Justice
+    intensite_ecart: Maximale
+    indicateurs: 0,19 % du PIB, 17 juges/100k, 94 % plaintes viol classées, 49 % confiance, CSM 0 nomination refusée
+    explication: 'La justice cumule tous les mécanismes : verrouillage institutionnel (CSM, parquet sous tutelle), sous-dotation
+      chronique, performativité (annonces de réforme jamais suivies). C''est le domaine où l''écart entre la forme légale
+      et la substance est le plus grand.'
+  - domaine: Climat
+    intensite_ecart: Très élevée
+    indicateurs: Fonds vert -74 %, LPEC 3 ans de retard, SNBC3 publiée le jour anniversaire de l'Accord de Paris, condamnation
+      État (Grande-Synthe, Avenir)
+    explication: 'Le climat est le cas d''école de la performativité : la France produit des discours climatiques parmi les
+      plus ambitieux du monde (Accord de Paris, ''Make Our Planet Great Again'', Convention Citoyenne) tout en étant condamnée
+      pour inaction par ses propres juges. L''écart est documenté par des décisions de justice — preuve ultime du découplage
+      dire/faire.'
+  - domaine: Diplomatie africaine
+    intensite_ecart: Très élevée
+    indicateurs: 5 bases fermées, Wagner/Africa Corps dans 44 pays, Tchad/Sénégal/Côte d'Ivoire renvoient les troupes françaises
+    explication: Le discours souverainiste (Ouagadougou 2017, Africa Forward 2026) masque un effondrement militaire et diplomatique
+      sans précédent. L'écart est d'autant plus frappant que les conséquences sont géopolitiques, pas seulement domestiques.
+  - domaine: Santé
+    intensite_ecart: Élevée
+    indicateurs: Ségur 19 Md€ → 37 % exécutés, déficit 2,9 Md€, 73 % renoncement aux soins
+    explication: 'Le Ségur est l''archétype de l''annonce performative : un chiffre rond (19 Md€), une communication massive,
+      une sous-exécution documentée. 73 % de renoncement aux soins est un indicateur de légitimité substantielle en chute
+      libre.'
+  - domaine: Éducation
+    intensite_ecart: Élevée
+    indicateurs: -10 000 postes, Pacte 38 % sous-exécution, salaire 53 % allemand, PISA en baisse
+    explication: 'La France produit des discours sur ''l''école de la République'' tout en supprimant des postes et en maintenant
+      les salaires les plus bas d''Europe occidentale. Le Pacte enseignant reproduit le pattern Ségur : annonce → sous-exécution
+      → dégradation.'
+meta_observations:
+- id: OBS-001
+  enonce: Emmanuel Macron est l'intensificateur, pas la cause — cité comme acteur dans 11/16 quintessences. La période 2017-2026
+    marque une accélération quantitative (28×49.3, 1 Md€ com', 407 mensonges) mais les mécanismes structurels (49.3 créé en
+    1958, ordonnances article 38, pantouflage, concentration médias) précèdent son mandat. La thèse 'c'est la faute à Macron'
+    est la contre-hypothèse la plus intuitive — et la plus réfutée par les données.
+  fiches_concernees:
+  - performativite
+  - performativite_v3
+  - diplomatie
+  - education
+  - sante
+  - leonarduzzi
+  - mimi
+  - climat
+  - justice
+  - lois_perf
+  - addiction
+- id: OBS-002
+  enonce: 'Paradoxe de la critique incorporee -- Viktorovitch officie sur CNews (chaine Bollore), Barbara Cassin siege a l''Academie
+    francaise tout en publiant chez Fayard (groupe Hachette/Bollore), Blast est subventionne par le ministere de la Culture.
+    Le systeme n''a pas besoin de censurer ses critiques : il les remunere, les diffuse, et les absorbe comme preuve de son
+    pluralisme. Ce paradoxe est distinct du mecanisme MAP : il documente la strategie d''absorption par cooptation, pas la
+    dynamique d''addiction.'
+  fiches_concernees:
+  - performativite
+  - performativite_v3
+  - addiction
+  - medias
+- id: OBS-003
+  enonce: 'L''UE fonctionne comme structure de verrouillage externe — la France a co-construit des règles (Maastricht, TSCG,
+    cadre budgétaire 2024) qui lient les gouvernements futurs et justifient l''austérité sans débat démocratique interne.
+    EDP 2024-2029 : le budget français est sous tutelle européenne, ce qui fournit une couverture parfaite pour les coupes
+    budgétaires tout en permettant de dire ''c''est Bruxelles''.'
+  fiches_concernees:
+  - legalite_v2
+  - performativite_v3
+  - diplomatie
+- id: OBS-004
+  enonce: 'La caste des communicants (CELSA, 1500 agents, 500+ portes tournantes) fonctionne comme un monopole de reproduction
+    de la pensée d''État — la communication n''est plus un support du pouvoir, elle est le pouvoir. Leur modèle économique
+    (1 Md€/an) dépend de la perpétuation du discours vide : un retour à l''action publique substantielle réduirait mécaniquement
+    leur budget et leur influence.'
+  fiches_concernees:
+  - communicants
+  - leonarduzzi
+  - performativite_v3
+  - mimi
+  - addiction
+- id: OBS-005
+  enonce: 'La défiance citoyenne est un jugement empirique, pas une pathologie — 74 % des Français jugent les politiciens
+    corrompus, 62 % se méfient des médias, 57 % s''abstiennent. Ces chiffres sont souvent interprétés comme une ''crise de
+    la démocratie'' ou un ''populisme''. L''analyse des 16 enquêtes suggère l''inverse : les citoyens perçoivent correctement
+    le découplage entre la forme légale et la substance réelle du pouvoir. La défiance n''est pas le problème — elle est le
+    symptôme d''un diagnostic exact.'
+  fiches_concernees:
+  - performativite
+  - legalite
+  - legalite_v2
+  - addiction
+  - pgi_map
+  - education
+  - sante
+  - justice
+transversalites:
+- id: TR-001
+  concept: 49.3 et ordonnances — contournement du Parlement
+  description: 'Mécanisme central du verrouillage institutionnel : le 49.3 (28× sous Macron, 113× depuis 1958) et les ordonnances
+    (>50 % des textes législatifs depuis 2007, 82 % non ratifiées) neutralisent le pouvoir législatif sans violer la Constitution.
+    Présent dans 8/16 quintessences, c''est la transversalité la plus documentée. Implication : le Parlement n''est plus un
+    législateur mais une chambre d''enregistrement — la fonction délibérative de la démocratie est structurellement contournée.'
+  fiches_concernees:
+  - legalite
+  - legalite_v2
+  - performativite
+  - performativite_v3
+  - lois_perf
+  - pgi_map
+  - addiction
+  - justice
+  faits_communs:
+  - F-002
+  - F-006
+  - F-007
+  - F-008
+  - F-087
+  - F-lois_perf-003
+  - F-lois_perf-012
+  - F-map-006
+  - F-map-007
+- id: TR-002
+  concept: Concentration médiatique — 9 milliardaires
+  description: '9 milliardaires contrôlent >90 % des médias français. La concentration est légalement irréprochable (Arcom
+    : 0 sanction) mais vide le pluralisme de sa substance. Bolloré est le cas le plus documenté. Présent dans 8/16 quintessences,
+    ce n''est pas une anomalie mais la structure normale du paysage médiatique français. Implication : le ''marché des idées''
+    est un oligopole — la diversité des titres masque l''uniformité des propriétaires.'
+  fiches_concernees:
+  - medias
+  - legalite
+  - legalite_v2
+  - performativite
+  - performativite_v3
+  - mimi
+  - addiction
+  - pgi_map
+  faits_communs:
+  - F-005
+  - F-medias-001
+  - F-medias-007
+  - F-009
+  - F-023
+  - F-034
+  - F-map-005
+  - F-MIMI-015
+- id: TR-003
+  concept: Promesses non tenues — écart dire/faire
+  description: 'Pattern universel : annonce massive → sous-exécution chronique → dégradation réelle → nouvelle annonce. Documenté
+    dans 9/16 quintessences à travers 5 secteurs. Le mécanisme M6 (promesse auto-référentielle : avoir dit = avoir fait) est
+    le moteur psychopolitique. Implication : la fonction du discours n''est pas de décrire l''action à venir mais de la remplacer
+    — l''annonce est le produit final, pas une étape.'
+  fiches_concernees:
+  - lois_perf
+  - performativite
+  - performativite_v3
+  - sante
+  - education
+  - climat
+  - diplomatie
+  - addiction
+  - pgi_map
+  faits_communs:
+  - F-lois_perf-001
+  - F-317
+  - F-sante-001
+  - F-sante-003
+  - F-education-011
+  - F-climat-008
+  - F-diplomatie-014
+  - F-map-008
+- id: TR-004
+  concept: Pantouflage et caste des grands corps
+  description: 'La fusion État-capital via le pantouflage (62 % IGF, 50 % CAC40 issus grands corps) est la structure du pouvoir
+    français, pas un effet de bord. La HATVP (77 % réserves non suivies) est structurellement impuissante. La reproduction
+    sociale est stable à 80 % catégories supérieures depuis 1958. Implication : la distinction public/privé est une fiction
+    juridique — la circulation des élites entre les deux sphères est le fonctionnement normal du pouvoir.'
+  fiches_concernees:
+  - legalite_v2
+  - communicants
+  - leonarduzzi
+  - performativite_v3
+  faits_communs:
+  - F-042
+  - F-043
+  - F-044
+  - F-045
+  - F-046
+  - F-047
+  - F-048
+  - F-049
+  - F-050
+  - F-310
+  - F-311
+  - F-312
+- id: TR-005
+  concept: Sous-dotation chronique des services publics
+  description: 'Justice (0,19 % PIB, 17 juges/100k), santé (déficit 2,9 Md€), éducation (-10 000 postes). La sous-dotation
+    est un invariant trans-gouvernemental — continue quel que soit le ministre ou la majorité. Présent dans 4/16 quintessences.
+    Implication : la sous-dotation n''est pas un choix budgétaire contingent mais un mécanisme systémique (BOUCLE-4) qui transforme
+    la dégradation en justification de nouvelles coupes.'
+  fiches_concernees:
+  - legalite_v2
+  - sante
+  - justice
+  - education
+  faits_communs:
+  - F-012
+  - F-016
+  - F-sante-005
+  - F-sante-018
+  - F-education-001
+  - F-education-003
+  - F-justice-024
+- id: TR-006
+  concept: Défiance citoyenne systémique
+  description: '26 % confiance politique, 74 % corruption perçue, 57 % abstention, 49 % confiance justice, 45 % pensent la
+    démocratie en danger. Présent dans 8/16 quintessences. Implication : la défiance est le jugement empirique des citoyens
+    sur l''écart légalité/légitimité — ce n''est pas une pathologie de l''opinion mais une évaluation exacte du fonctionnement
+    réel des institutions.'
+  fiches_concernees:
+  - performativite
+  - legalite
+  - legalite_v2
+  - addiction
+  - pgi_map
+  - education
+  - sante
+  - justice
+  faits_communs:
+  - F-001
+  - F-002
+  - F-003
+  - F-013
+  - F-005
+  - F-008
+  - F-009
+  - F-map-009
+  - F-map-010
+  - F-map-011
+  - F-pgimap-019
+- id: TR-007
+  concept: Spin doctors et fabrique du consentement
+  description: 'Léonarduzzi (Publicis/Élysée), Emelien, Gantzer, Saussez, Mimi Marchand (Bestimage). Formation CELSA comme
+    monopole de reproduction. Portes tournantes entre public et privé. Présent dans 6/16 quintessences. Implication : la communication
+    n''est plus un support du pouvoir — elle est le pouvoir. Les communicants ne ''vendent'' pas la politique : ils la fabriquent.'
+  fiches_concernees:
+  - leonarduzzi
+  - communicants
+  - performativite_v3
+  - mimi
+  - addiction
+  - medias
+  faits_communs:
+  - F-LEONARDUZZI-005
+  - F-LEONARDUZZI-008
+  - F-COMM-011
+  - F-COMM-012
+  - F-310
+  - F-311
+  - F-312
+  - F-MIMI-005
+  - F-MIMI-006
+gaps:
+- 'GAP-001 : Rôle du Conseil d''État et du SGG comme législateur réel — la quasi-totalité des projets de loi sont soumis
+  à l''avis du Conseil d''État avant dépôt au Parlement, et le SGG arbitre les conflits interministériels en amont. Ces deux
+  institutions non élues structurent le texte avant toute délibération parlementaire. Enquête lancée le 2026-06-19 (10 faits,
+  9 sources).'
+- 'GAP-002 : Conseil constitutionnel comme acteur politique — 95 % de validation des lois, nomination par l''exécutif, anciens
+  Présidents membres de droit. Le Conseil constitutionnel valide la quasi-totalité des textes contestés. Enquête lancée le
+  2026-06-19 (10 faits, 6 sources). Le taux de filtrage QPC a été corrigé (93,2 % → ~75 %) suite à cette enquête.'
+- 'GAP-003 : Performativité de gauche et d''extrême droite — focus exclusif sur le centre macronien. Enquête lancée le
+  2026-06-19 et enrichie le même jour (relance KERNEL plein pot, 25 faits, 5 chaînes causales, 6 wolves, carte dialectique).
+  Résultat : la performativité traverse le spectre mais avec 3 patterns qualitativement distincts. RN = performativité économique
+  (85 Md€ promis vs 14 Md€ financés, écart 71 Md€/an) + dissonance mairies (austérité locale vs discours social national).
+  EELV = sur-promesse avec avancées réelles (Lyon +58 % vélo, −12 % trafic auto ; Bordeaux 60 000 arbres plantés ; mais
+  objectifs révisés à la baisse). LFI = dissonance rhétorique (discours de rupture vs compromis parlementaires ponctuels).
+  Comparaison européenne (Syriza, Podemos, Meloni, Colau) montre que le pattern n''est pas spécifiquement français. La thèse
+  de symétrie totale est réfutée ; la thèse d''exception macronienne aussi. La performativité est la grammaire du régime,
+  pas la pathologie d''un camp.'
+- 'GAP-004 : Comparaison internationale systématique. Enquête APEX lancée le 2026-06-19 (42 faits, 5 chaînes causales, 5 wolves).
+  Résultat : la France n''est pas un outlier par l''existence des mécanismes de contournement parlementaire (Italie decreti-legge ~50-80/an, Espagne reales decretos-leyes intensifs, UK 3 500 Statutory Instruments/an) mais par leur convergence. La France est le seul pays où 49.3 (adoption sans vote) + ordonnances + budget com'' 4-5× Allemagne + concentration médiatique 5 milliardaires + Conseil constitutionnel 95 % validation + justice sous-dotée (11-12 juges/100k vs ~25 Allemagne) + pantouflage systémique + dépenses publiques 57 % PIB forment un verrouillage cohérent. La thèse d''outlier absolu est falsifiée ; la thèse d''outlier par convergence est renforcée.'
+- 'GAP-005 : Contre-pouvoirs effectifs. Enquête lancée le 2026-06-19 (28 faits, 5 chaînes causales, 5 wolves, carte dialectique).
+  Résultat : les contre-pouvoirs gagnent des batailles (NDDL abandonné, dissolution Soulèvements de la Terre annulée, Mediapart 220 000+ abonnés, révélations d''affaires) mais ne gagnent pas la guerre. Le système absorbe les victoires (NDDL → Macron se présente en "président écolo"), réprime les menaces (25 800 blessés Gilets Jaunes, 3 100 condamnations), et co-optent les acteurs (CCC : 149 propositions → ~10 % reprises). Blocages : masse critique médiatique non atteinte (alternatifs <5 % audience), convergence syndicats/mouvements spontanés systématiquement manquée (retraites 2023), victoires judiciaires sans exécution (Affaire du Siècle : 1,1 Md€ d''astreinte éludé). La France est le pays européen le plus conflictuel mais aussi le plus bloqué — le cycle "protestation → répression → statu quo" est le plus intense des 5 pays comparés. Les contre-pouvoirs sont la soupape de sécurité du système : ils prouvent son pluralisme sans menacer sa structure.'
+- 'GAP-006 : Cabinets d''avocats d''affaires et lobbys dans la rédaction des lois. Enquête lancée le 2026-06-19 (20 faits, 5 chaînes causales, 5 wolves, carte dialectique). Résultat : la loi du 1er février 2024 interdit formellement la rédaction directe par des prestataires privés. Mais l''influence opère par 3 canaux : expertise externalisée (McKinsey, BCG — rapport Sénat 2022), amendements « clés en main » (AFEP, MEDEF), et pantouflage/commissions (Darrois 2008). Le registre HATVP (3 500-4 000 entités obligatoires, 120 000+ actions) est un progrès réel mais le « critère de l''initiative » et le secret professionnel des avocats limitent la transparence effective. La France a un cadre formellement robuste (Sapin 2, 2016) mais le contrôle réel reste partiel. Comparaison internationale : registre obligatoire allemand (2022) plus strict, USA Lobbying Disclosure Act (3,8 Md$ déclarés), UK registre faible (exclut lobbying interne). La France n''est pas un outlier réglementaire — son cadre est parmi les plus complets d''Europe — mais l''asymétrie des moyens entre acteurs privés et société civile reste le problème structurel.'
+- 'GAP-007 : Architecture de l''UE comme structure de verrouillage externe. Enquête lancée le 2026-06-19 et enrichie le
+  même jour (relance KERNEL plein pot, 20 faits, 4 chaînes causales, 5 wolves). Résultat : la contrainte européenne est réelle
+  mais partielle. La France est sous EDP depuis juillet 2024 (déficit 5,8 % du PIB), doit revenir sous 3 % d''ici 2029. Le
+  TSCG impose un déficit structurel <0,5 % du PIB que la France n''a presque jamais respecté. Mais : (1) les sanctions n''ont
+  jamais été appliquées, (2) les recommandations exigent l''efficacité de la dépense, pas des coupes directes, (3) la France
+  co-construit les règles qu''elle présente comme contraintes externes (double discours documenté par Pisani-Ferry, OFCE,
+  Cour des comptes), (4) avec 57 % du PIB de dépenses publiques (plus haut de la zone euro), la sous-dotation des services
+  publics relève davantage de choix d''allocation internes que de contraintes européennes. Comparaison internationale : Portugal
+  (11,2 %→excédent, 2010-2019), Espagne (>10 %→<3 %, sortie EDP 2019). La France est l''outlier par sa capacité à ne pas se réformer.'
+note: 'Ambiguïté des IDs génériques : les quintessences performativite, legalite et legalite_v2 utilisent des préfixes F-NNN
+  non globalement uniques (ex: F-004 existe dans 3 fiches avec des significations différentes). Les 13 autres quintessences
+  utilisent des préfixes uniques (F-lois_perf-XXX, F-sante-XXX, etc.). Une renumérotation globale est recommandée pour la
+  traçabilité forensique complète. Dans l''immédiat, les références F-NNN dans les thèses et transversalités sont implicitement
+  qualifiées par leur contexte (la thèse sur l''écart légalité/légitimité mobilise les faits de legalite/legalite_v2 et performativite,
+  la thèse sur la performativité mobilise ceux de performativite et du modèle MAP).'
+mnemo_context:
+  searches:
+  - query: écart légalité légitimité démocratie française post-démocratie
+    results: 2
+    top_hits:
+    - PGI×MAP — Indice Composite de Gouvernance Performative (APEX)
+    - 2026-04-05 synthese globale systeme france INVESTIGATION
+    note: Base Mnemolite contient des travaux antérieurs sur le système français et le modèle PGI×MAP. Le concept de post-démocratie
+      n'est pas indexé — lacune théorique de la base.
+  - query: concentration médias milliardaires Bolloré Arcom
+    results: 0
+    note: Sujet non indexé — les investigations récentes (juin 2026) n'ont pas encore été sauvegardées via write_memory.
+  - query: 49.3 ordonnances contournement Parlement Ve République
+    results: 0
+    note: Sujet non indexé — les quintessences Phase 1 n'ont pas encore été persistées.
+  - query: addiction performative modèle MAP système politique
+    results: 0
+    note: Le modèle MAP est une construction récente (juin 2026) — non encore indexé.
+  - query: Ségur santé promesses hôpital déficit écart
+    results: 0
+    note: Investigation santé APEX non encore indexée.
+  cross_series_detected: true
+  cross_series_details: 'Détection automatique limitée (base peu indexée pour ces sujets récents) mais les quintessences documentent
+    des cross-références explicites : (1) le pattern promesses non tenues (dire/faire) est présent dans 9/16 fiches et traverse
+    tous les secteurs, (2) le concept de logocratie (Viktorovitch) est cité dans 3 fiches comme cadre explicatif commun, (3)
+    le réseau Léonarduzzi-Mimi-Bolloré forme un écosystème de fabrication du consentement documenté dans 4 fiches distinctes,
+    (4) le 49.3 et les ordonnances sont le mécanisme transversal le plus documenté (8/16 fiches), (5) la défiance citoyenne
+    émerge comme variable dépendante dans 8/16 fiches — ce n''est pas un thème traité isolément mais le résultat commun de
+    tous les mécanismes documentés.'

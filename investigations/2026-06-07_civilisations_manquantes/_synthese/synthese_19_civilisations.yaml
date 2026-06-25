@@ -1,0 +1,146 @@
+# SUBLIMATOR v33.4 - Phase 2 : Synthese YAML croisee
+# 20 quintessences (11 existantes + 9 nouvelles), 8 theses cardinales, 15 transversalites
+# Date : 2026-06-07 | Shadow global : 4.1 | Total faits : 220+
+
+date_synthese: '2026-06-07'
+complexity: APEX
+n_enquetes: 20
+enquetes_concernees:
+- sumer_v1
+- rome_v1
+- sumer_iceberg
+- chine_v1
+- rome_iceberg
+- chine_iceberg
+- moyen_age
+- islam
+- inde
+- ameriques
+- andurarum_autopsy
+- egypte_pharaonique
+- grece_classique
+- perse_achemenide
+- carthage
+- mesoamerique
+- afrique_subsaharienne
+- japon_imperial
+- russie
+- byzance
+total_faits_atomiques: 220
+shadow_factor_moyen: 4.5
+gaps_combles: 9
+sujet_majoritaire: '19 civilisations (10 originales + 9 manquantes) testent 8 thèses cardinales sur 5000 ans. La fusion 4D (droit+religion+économie+morale) est le vrai universel. La capture par corps spécialisé est confortée par 6 nouveaux cas (Égypte/clergé, Japon/armée, Russie/nomenklatura). Le code écrit est MÉSOPOTAMIEN, pas universel — Égypte, Mésoamérique, Perse le confirment. La transmission Rome→Paris passe par Byzance (conservation CJC 1000 ans) ET l''Islam. La Grèce invente les mécanismes ANTI-CAPTURE (sortition) que la France a oubliés.'
+theses_cardinales:
+- id: THESE-001
+  titre: La dette n'est PAS le mécanisme central — l'andurarum est sumérien, pas universel
+  enonce: Confirmé par Égypte (aucune annulation en 3000 ans), Perse (pas de code juridique), Mésoamérique (pas d'annulation), Afrique (pas documenté). L'andurarum est un trait mésopotamien contingent. Thèse Graeber/Hudson réfutée sur 8 civilisations.
+  shadow: 5.0
+  enquetes_support:
+  - egypte_pharaonique
+  - perse_achemenide
+  - mesoamerique
+  - afrique_subsaharienne
+  - andurarum_autopsy
+- id: THESE-002
+  titre: La fusion totale 4D (droit+religion+économie+morale) est l'universel civilisationnel
+  enonce: Confirmé et ÉLARGI. Égypte (Maât), Mésoamérique (sacrifice humain comme obligation d'État), Byzance (césaropapisme 1000 ans), Japon (shintoïsme d'État 1868-1945), Russie (URSS = fusion totale) ajoutent 5 nouveaux cas. La France post-1789/1905 est l'EXCEPTION HISTORIQUE.
+  shadow: 2.2
+  enquetes_support:
+  - egypte_pharaonique
+  - byzance
+  - mesoamerique
+  - japon_imperial
+  - russie
+- id: THESE-003
+  titre: La transmission est un RÉSEAU (Rome→Byzance→Bagdad→Cordoue→Tolède→Bologne), pas une flèche
+  enonce: Confirmé et ÉLARGI. Byzance (conservation CJC 534-1453) comble le trou de 594 ans. L'Islam (Bayt al-Hikma, Cordoue, Tolède) est le deuxième maillon. La transmission est multi-linéaire, multi-séculaire.
+  shadow: 1.8
+  enquetes_support:
+  - byzance
+  - islam
+  - moyen_age
+- id: THESE-004
+  titre: La capture par corps spécialisé est un universel — 12 cas documentés
+  enonce: ÉLARGI. Égypte (clergé/30% terres), Japon (armée capture l'État 1931-45), Russie (nomenklatura→oligarchie→siloviki), Perse (satrapes/inspecteurs), Afrique (griots/caste), Mésoamérique (pochteca/guilde) s'ajoutent aux 6 cas originaux. La Grèce (sortition) est le SEUL cas de mécanisme anti-capture documenté.
+  shadow: 2.5
+  enquetes_support:
+  - egypte_pharaonique
+  - japon_imperial
+  - russie
+  - perse_achemenide
+  - grece_classique
+- id: THESE-005
+  titre: Le code juridique écrit est MÉSOPOTAMIEN, pas universel
+  enonce: NOUVELLE THÈSE. Égypte (0 code en 3000 ans), Mésoamérique (0 code), Perse (0 code) prouvent que le code écrit est un trait sumérien contingent. L'OBS-004 (code écrit = universel 6/11) est RÉTRACTÉE. 6/20 civilisations ont un code écrit. L'absence de code n'empêche pas la complexité étatique.
+  shadow: 3.0
+  enquetes_support:
+  - egypte_pharaonique
+  - mesoamerique
+  - perse_achemenide
+- id: THESE-006
+  titre: La destruction des sources est un pattern récurrent de domination
+  enonce: NOUVELLE THÈSE. Carthage (archives détruites par Rome 146 av.), Mésoamérique (codex brûlés <20 survivants), Afrique (historiographie coloniale nie les empires) partagent un même mécanisme d'effacement. Le vainqueur détruit les sources du vaincu.
+  shadow: 4.5
+  enquetes_support:
+  - carthage
+  - mesoamerique
+  - afrique_subsaharienne
+- id: THESE-007
+  titre: La dissociation 4D peut être INTERNE (France 1789) ou IMPOSÉE (Japon 1947)
+  enonce: NOUVELLE THÈSE. Grèce (dissociation partielle antique), Japon (dissociation imposée par occupation US 1947), France (dissociation produite de l'intérieur 1789/1905). La dissociation n'est pas un progrès linéaire — elle peut être forcée.
+  shadow: 3.2
+  enquetes_support:
+  - grece_classique
+  - japon_imperial
+- id: THESE-008
+  titre: Les mécanismes anti-capture existent depuis l'Antiquité — la France les a oubliés
+  enonce: NOUVELLE THÈSE. Grèce (sortition, rotation, euthynai, ostracisme), Perse (inspecteurs itinérants 'Yeux et Oreilles'), Byzance (thèmes = fusion civil/militaire empêche armée autonome). La France a BESOIN de réinventer ses mécanismes anti-capture.
+  shadow: 3.5
+  enquetes_support:
+  - grece_classique
+  - perse_achemenide
+  - byzance
+meta_observations:
+- id: OBS-001
+  enonce: 'OBS-004 (code écrit = universel) est RÉTRACTÉE. Seulement 6/20 civilisations ont produit un code juridique écrit (Sumer, Rome, Chine, Islam, Inde, Grèce partiel). Égypte, Perse, Mésoamérique, Afrique prouvent qu''un État complexe fonctionne sans code écrit.'
+- id: OBS-002
+  enonce: 'Byzance + Islam = les DEUX maillons manquants de la transmission. Sans Byzance (conservation CJC 534-1453) ET sans Islam (traduction grec→arabe→latin), la transmission Rome→Paris est impossible.'
+- id: OBS-003
+  enonce: 'La capture par corps spécialisé est documentée dans 12 civilisations sur 20. La Grèce (sortition) est le SEUL cas de mécanisme ANTI-CAPTURE explicite. La France (ENA 1945) a fait le CHOIX INVERSE de la Grèce.'
+- id: OBS-004
+  enonce: 'La destruction des sources (Carthage, Mésoamérique, Afrique) est un MÉCANISME DE DOMINATION aussi efficace que la conquête militaire. Le vainqueur écrit l''histoire.'
+- id: OBS-005
+  enonce: 'Le shadow factor est inversement proportionnel à la densité documentaire : Carthage (6.5, 0 source primaire), Mésoamérique (6.4, <20 codex), Afrique (5.0, historiographie coloniale) vs Moyen Âge (1.5, archives abondantes).'
+transversalites:
+- id: TR-001
+  concept: Fusion 4D (droit+religion+économie+morale)
+  description: 14/20 civilisations documentent cette fusion. Seules 6 la dissocient partiellement (Grèce, Rome tardif, Islam classique, France post-1789, Japon post-1947, Russie post-1991). La fusion est la NORME, la dissociation l'EXCEPTION.
+  fiches_concernees:
+  - sumer_v1, rome_v1, chine_v1, islam, inde, egypte_pharaonique, byzance, mesoamerique, japon_imperial, russie, moyen_age, afrique_subsaharienne, perse_achemenide, carthage
+- id: TR-002
+  concept: Capture par corps spécialisé (12 cas)
+  description: Scribes (Sumer), juristes (Rome), mandarins (Chine), oulémas (Islam), brahmanes (Inde), énarques (France), clergé (Égypte), armée (Japon), nomenklatura→siloviki (Russie), griots (Afrique), pochteca (Mésoamérique), satrapes (Perse).
+  fiches_concernees:
+  - sumer_v1, rome_v1, chine_iceberg, islam, inde, egypte_pharaonique, japon_imperial, russie, afrique_subsaharienne, mesoamerique, perse_achemenide
+- id: TR-003
+  concept: Mécanismes ANTI-CAPTURE (3 cas)
+  description: Sortition+rotation+euthynai (Grèce), inspecteurs itinérants (Perse), thèmes (Byzance). La France n'a AUCUN mécanisme anti-capture intégré à ses institutions.
+  fiches_concernees:
+  - grece_classique, perse_achemenide, byzance
+- id: TR-004
+  concept: Code juridique écrit (6/20)
+  description: Ur-Nammu (Sumer), CJC (Rome/Byzance), Tang Code (Chine), charia (Islam), dharma/Manu (Inde), Code civil (France). Les 14 autres civilisations fonctionnent sans code écrit unifié.
+  fiches_concernees:
+  - sumer_v1, rome_v1, chine_v1, islam, inde, byzance
+- id: TR-005
+  concept: Destruction des sources par le vainqueur (3 cas)
+  description: Carthage (Rome 146 av.), Mésoamérique (Espagne 1521), Afrique (colonisation XIXe-XXe). Pattern : le vainqueur détruit les archives du vaincu pour contrôler le récit historique.
+  fiches_concernees:
+  - carthage, mesoamerique, afrique_subsaharienne
+gaps:
+- 'GAP-001 à GAP-009 : COMBLÉS. Les 9 civilisations manquantes sont maintenant documentées avec quintessences YAML et investigations KERNEL.'
+- 'GAP-010 : Mnemolite non indexé pour les 9 nouvelles civilisations — à indexer après validation.'
+- 'NOUVEAU GAP-011 : Assyrie, Babylonie, Akkad — les civilisations mésopotamiennes non-sumériennes ne sont pas traitées.'
+- 'NOUVEAU GAP-012 : Civilisations pré-dynastiques (âge du bronze, néolithique) — l''enquête commence à Sumer (3400 av.) mais des États existaient avant.'
+shadow_factor_global: 4.1
+shadow_factor_justification: 'Moyenne pondérée des 20 enquêtes relevée à 4.1. Les 9 nouvelles civilisations ont un shadow médian de 4.5 (Carthage 6.5, Mésoamérique 6.4, Afrique 5.0, Égypte 4.2, Russie 4.0, Perse 3.8, Grèce 3.5, Japon 4.5, Byzance 3.0) — plus élevé que les 11 originales (3.74) car les sources sont moins denses et plus biaisées. Les 8 thèses tiennent avec un shadow médian de 3.2. La thèse la plus solide : transmission réseau (shadow 1.8). La plus fragile : destruction des sources (shadow 4.5, peu de cas mais pattern clair).'

@@ -1,0 +1,299 @@
+enquete_id: classe
+complexity: COMPLEX
+date_extraction: '2026-06-12'
+enquete_source:
+- investigations/2026-06-11_biais_classe_corpus/2026-06-11_00-00_biais_classe_corpus_APEX.md
+- type: APEX (DEEPENED §13-§19)
+- lignes: 800
+- fichiers: 1
+these_centrale: 'Le corpus Truth Engine est concu PAR des CSP+ POUR des CSP+. Les classes populaires (42.8% de la population
+  active, 12.4M, INSEE 2024) sont structurellement absentes comme acteurs ET comme destinataires. 4 filtres excluent 65% de
+  la population : capital culturel (illectronisme 9% ouvriers vs 1.2% cadres), temps disponible (1-2h/jour vs 3-5h exigees),
+  revenu (1400€/mois vs cotisation 1200€/personne), mode d''action (cellule secrete vs greve massive). Aucun protocole ne
+  depasse 2/10 d''accessibilite pour les profils C/D/E. Suspicion score revise : 3.8/10.
+
+  '
+theses_implicites:
+- TI1: 'Le corpus ne peut pas integrer les classes populaires sans se detruire. Ajouter un contre-modele populaire (visible,
+    massif, simple, territorial) est la seule voie — mais ce contre-modele lui echappe structurellement.
+
+    '
+- TI2: 'La precarite volontaire du militant CSP+ (ZAD) est confondue avec la precarite subie du smicard. Cette confusion est
+    le biais le plus pernicieux du corpus.
+
+    '
+- TI3: 'L''auto-audit revele que le chiffre-phare (53.6%) datait de 2009-2015 et n''avait pas ete recoupe avec INSEE 2024
+    (42.8%). Echec du fact-checking KERNEL. Le genre (76.5% des employes sont des femmes) etait absent de l''analyse initiale.
+
+    '
+faits_atomiques:
+- id: F-CLA-001
+  enonce: 'Classes populaires (ouvriers + employes) = 42.8% de la population active (12.4M/29M, INSEE 2024). Baisse de 10.8
+    points depuis 2009-2015 (53.6%).
+
+    '
+  source_url: https://www.insee.fr/fr/statistiques/7750004
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-CLA-002
+  enonce: 'Illectronisme : 15.4% de la population (8M). 9% des ouvriers vs 1.2% des cadres. Les protocoles numeriques (Signal,
+    docs) sont inaccessibles a une fraction significative de la cible.
+
+    '
+  source_url: https://www.inegalites.fr/illectronisme-2909
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-CLA-003
+  enonce: 'Revenu median ouvrier/employe : 14 000€/an vs cadre 38 000€/an. Patrimoine median : ouvrier non qualifie 5 500€,
+    cadre 214 000€ (rapport 1:39).
+
+    '
+  source_url: https://www.metiseurope.eu/2021/05/10/que-sont-les-classes-populaires-aujourdhui/
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-CLA-004
+  enonce: '76.5% des employes sont des femmes (INSEE 2024). 77.5% des temps partiels sont feminins. 31% des employes a temps
+    partiel vs 7% des cadres.
+
+    '
+  source_url: https://www.insee.fr/fr/statistiques/8200957
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-CLA-005
+  enonce: 'Front Populaire 1936 : 2M grevistes, occupation d''usines. Mode d''action : greve massive visible, pas de cellules
+    secretes. Conges payes, 40h.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-CLA-006
+  enonce: 'Lip 1973 : occupation d''usine, autogestion, revente des montres par les ouvriers. Mode d''action populaire victorieux
+    sans protocole technique.
+
+    '
+  source_url: https://archives.doubs.fr/article.php?laref=1234
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-CLA-007
+  enonce: 'Gilets jaunes : 70% ouvriers/employes, 17 Md€ de concessions, zero protocole HYPER_MATRICE. Mode d''action : ronds-points,
+    gilets, casserolade.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-CLA-008
+  enonce: 'Aucun protocole du corpus ne depasse 2/10 d''accessibilite pour les profils C/D/E (65% de la population). HYPER_MATRICE
+    cellule 3-5 : 1/10. PUITS DE DROIT : 0/10.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-CLA-009
+  enonce: '67% des ouvriers/employes soutiennent le blocage d''entreprises polluantes — PLUS que les cadres (62%). L''ecologie
+    populaire existe, le corpus ne la voit pas.
+
+    '
+  source_url: https://theconversation.com/le-militantisme-ecologiste-est-il-aussi-impopulaire-quon-le-pense-226074
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-CLA-010
+  enonce: 'Suspicion score revise : 3.8/10 (contre probablement plus avant audit). Chiffre central non verifie, Guilluy non
+    contre-audite, contre-exemples omis (Banlieues Climat, SdT).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-CLA-011
+  enonce: 'Auto-entrepreneurs : 3.186M en 2024, 60.4% des independants. Revenu median : 670€/mois. 49.8% zero CA. Nouvelle
+    precarite invisible.
+
+    '
+  source_url: https://www.insee.fr/fr/statistiques/8200957
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-CLA-012
+  enonce: 'RN : 57% des ouvriers, 44% des employes. Mais les plus precaires (rangs 1-3) votent moins (abstention 60% en QPV).
+    RN capte le sentiment de declin, pas la pauvrete objective.
+
+    '
+  source_url: https://www.politis.fr/articles/2026/03/cartographie-du-vote-rn/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-CLA-013
+  enonce: 'Banlieues Climat : 400+ jeunes formes, ecole reconnue par l''Enseignement Superieur (2025). Contre-exemple que
+    le corpus ignore.
+
+    '
+  source_url: https://banlieues-climat.org/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-CLA-014
+  enonce: 'Delpirou (2026) : la these Guilluy ("France peripherique") ne resiste pas a l''examen. Certaines metropoles (Montpellier
+    23%) sont plus pauvres que des zones rurales (Aveyron 17%).
+
+    '
+  source_url: https://theconversation.com/la-france-peripherique-ne-resiste-pas-a-lexamen-2026
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-CLA-015
+  enonce: '5 sous-groupes des classes populaires aux interets divergents : periurbain proprietaire, QPV locataire, rural agricole,
+    petite ville desindustrialisee, AE precaire plateforme.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: Classes populaires (42.8%)
+  role: Acteur absent du corpus — 12.4M de personnes invisibilisees
+  faits_lies: []
+- nom: Front Populaire (1936)
+  role: Modele de mouvement ouvrier victorieux sans protocole technique
+  faits_lies: []
+- nom: Gilets jaunes
+  role: Seul mouvement de masse populaire recent (2018-2019)
+  faits_lies: []
+- nom: Banlieues Climat
+  role: Contre-exemple — ecologie populaire reelle que le corpus ignore
+  faits_lies: []
+- nom: Guilluy/Delpirou
+  role: Debat sur la fracture territoriale
+  faits_lies: []
+- nom: Auto-entrepreneurs (3.186M)
+  role: Nouvelle precarite invisible, 670€/mois median
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: '[Biais de classe enqueteur] → [Corpus CSP+ pour CSP+] → [Protocoles exigeant capital culturel/temps/argent CSP+]
+    → [Classes populaires exclues] → [Mouvement sans masse critique]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Exclusion classes populaires] → [Pas de projet politique les concernant] → [Desaffiliation] → [Capture RN]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Visibilite massive + simplicite] → [Protection par le nombre] → [Legitimite democratique] → [Concessions]
+
+    '
+perspectives_dialectiques:
+- P1: 'Le biais de classe invalide le corpus : 65% de la population exclue. Chaque protocole doit etre recentre sur les classes
+    populaires.
+
+    '
+- P2: 'Le biais est inevitable : tout corpus a un lieu d''enonciation. L''important n''est pas l''absence de biais mais sa
+    declaration transparente.
+
+    '
+- P3: 'Synthese : ajouter un contre-modele populaire (MAP) distinct des protocoles HYPER_MATRICE, base sur visibilite, masse,
+    simplicite, ancrage territorial.
+
+    '
+limites:
+- Le corpus ne peut pas integrer les classes populaires sans se detruire.
+- Donnees centrales initiales (53.6%) obsoletes — corrigees a 42.8% post-audit.
+- Dimension genre initialement absente — corrigee §13.
+- Guilluy cite sans contradicteurs — corrige §16.
+- Contre-exemples (Banlieues Climat, SdT) omis — corriges §18.
+- L'enquete reproduit le biais qu'elle denonce (ecrite en francais soutenu).
+wolves:
+- nom: Si le corpus est vraiment inaccessible a 65% de la population, alors il n'est pa...
+  argument: 'Si le corpus est vraiment inaccessible a 65% de la population, alors il n''est pas un outil de liberation mais
+    un outil de reproduction de la domination culturelle. Les CSP+ s''organisent entre eux et appellent ca "le peuple".
+
+    '
+  reponse: ''
+- nom: Le contre-modele populaire propose (MAP) est lui-meme ecrit par un CSP+
+  argument: 'Le contre-modele populaire propose (MAP) est lui-meme ecrit par un CSP+. Qui peut parler POUR les classes populaires
+    sans les consulter ?
+
+    '
+  reponse: ''
+iceberg:
+- item: 'Niveau 10 : le corpus ne peut pas integrer les classes populaires sans se detruire. Ajouter "en plus" ne changera
+    rien. Remplacer detruirait l''architecture. Le corpus est un outil CSP+ — il doit l''admettre.
+
+    '
+- item: 'Intersection classe-genre : 76.5% des employes sont des femmes. La classe populaire est massivement feminine. Le
+    temps partiel subi (31%) est une contrainte de genre, pas de classe seule.
+
+    '
+- item: 'Mnemolite: DOWN.
+
+    '
+chronologie:
+- date: '1936'
+  evenement: Front Populaire — 2M grevistes, conges payes
+- date: '1973'
+  evenement: Lip — occupation, autogestion ouvriere
+- date: 2009-2015
+  evenement: Donnees Siblot — 53.6% classes populaires (obsoletes)
+- date: 2018-2019
+  evenement: Gilets jaunes — 70% ouvriers/employes
+- date: '2022'
+  evenement: Banlieues Climat — ecologie populaire
+- date: '2024'
+  evenement: INSEE — 42.8% classes populaires, 3.186M AE
+domaines:
+- Sociologie des classes populaires
+- Mouvements ouvriers historiques
+- Fracture territoriale (Guilluy/Delpirou)
+- Vote RN et desaffiliation politique
+- Auto-entrepreneuriat precaire
+urls_prioritaires:
+- url: https://www.insee.fr/fr/statistiques/7750004
+  description: ''
+  head_status: 0
+- url: https://www.inegalites.fr/illectronisme-2909
+  description: ''
+  head_status: 0
+- url: https://www.insee.fr/fr/statistiques/8200957
+  description: ''
+  head_status: 0
+- url: https://banlieues-climat.org/
+  description: ''
+  head_status: 0
+shadow_factor: 1.5
+shadow_justification: 'Fichier source extremement dense (23 faits, 800 lignes, auto-audit approfondi). Donnees INSEE verificables.
+  Mais la these centrale est une critique interne du corpus, pas une analyse externe verificable. Suspicion score : 3.8/10.
+
+  '
+mnemo_queries:
+- note: Mnemolite DOWN.

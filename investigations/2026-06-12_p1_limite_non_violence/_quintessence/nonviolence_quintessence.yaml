@@ -1,0 +1,97 @@
+enquete_id: "nonviolence"
+complexity: "COMPLEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p1_limite_non_violence/2026-06-12_12-00_limite_non_violence_sharp_vs_snmo_INVESTIGATION.md"
+
+these_centrale: "La non-violence reste stratégiquement supérieure pour obtenir des changements durables (Chenoweth : 53% succès vs 26%), mais elle est tactiquement vulnérable face à la doctrine SNMO 2021 qui privilégie le 'contact offensif'. La solution n'est pas d'abandonner la non-violence mais de la réinventer : basculer de la présence physique statique (manifestations) vers le retrait de coopération (grèves, boycotts, désobéissance administrative) — là où la non-violence redevient supérieure même face à un État qui tire."
+
+theses_implicites:
+  - "La France SNMO 2021 se rapproche des 'démocraties illibérales' où le backfire effect de Chenoweth ne fonctionne plus pleinement."
+  - "Le retrait de coopération est moins exposé physiquement mais plus exposé à la surveillance algorithmique (TRACFIN, Palantir) — le déplacement n'est pas un contournement."
+  - "Les conditions sociologiques du succès du retrait de coopération (unité syndicale, légitimité dans l'opinion, capacité de l'exécutif à segmenter) se sont dégradées depuis 1995."
+
+acteurs:
+  - "Chenoweth & Stephan (Why Civil Resistance Works, 2011)"
+  - "Gene Sharp (198 Methods of Nonviolent Action, 1973)"
+  - "Ministère de l'Intérieur français (doctrine SNMO 2021)"
+  - "Gilets jaunes (2018-2020) : 4000+ condamnations, 30 mutilations LBD"
+  - "Sainte-Soline (mars 2023) : grenades GM2L, dizaines de blessés graves"
+  - "CEDH (Ezelin c. France 1991, Kudrevicius c. Lituanie 2015)"
+  - "Grèves de 1995 (victoire) ; Grève SNCF 2018 (échec) ; Mouvement anti-CPE 2006 (victoire)"
+
+causalites:
+  - "Doctrine SNMO 2021 (offensive) → vulnérabilité tactique de la présence physique dans la rue"
+  - "Backfire effect (Sharp/Chenoweth) → fonctionne si le régime est sensible à l'opinion ; défaillant si le régime assume la répression"
+  - "Retrait de coopération → contourne la doctrine SNMO (conçue pour la rue) mais expose à TRACFIN/Palantir"
+  - "Érosion des 3 piliers du succès (unité syndicale, légitimité opinion, segmentation exécutif) → le retrait de coopération est moins efficace qu'en 1995"
+
+perspectives_dialectiques:
+  - "Thèse : la non-violence a déjà échoué en France (Gilets jaunes, Sainte-Soline). Antithèse : elle a obtenu des concessions partielles (10 Md€ GJ) mais pas structurelles — échec du système à céder du pouvoir, pas de la méthode à obtenir des résultats."
+  - "Thèse : Chenoweth est obsolète face à la technologie de répression 2026. Antithèse : Chenoweth (2021) maintient que le backfire effect fonctionne dans les démocraties — la France reste une démocratie sensible à l'opinion."
+  - "Thèse : le retrait de coopération est aussi surveillé que la rue. Antithèse : la riposte à une grève est plus lente et plus coûteuse politiquement que la matraque — le backfire effect y est plus efficace."
+
+faits_atomiques:
+  - F-nv-001: "Chenoweth & Stephan (2011) : 53% succès campagnes non-violentes vs 26% violentes (323 campagnes, 1900-2006)."
+    glyph: "✦"
+  - F-nv-002: "Chenoweth (2021) : le modèle ne s'applique pas aux régimes insensibles à l'opinion."
+    glyph: "✧"
+  - F-nv-003: "Doctrine SNMO 2021 : abandon du modèle défensif au profit d'une gestion 'dynamique et offensive' du maintien de l'ordre."
+    glyph: "✧"
+  - F-nv-004: "Gilets jaunes : ~2500 blessés documentés, ~30 mutilations LBD, 2 morts. Source : David Dufresne, Amnesty International."
+    glyph: "✦"
+  - F-nv-005: "Sainte-Soline (25 mars 2023) : grenades GM2L (26 plots explosifs), dizaines de blessés graves."
+    glyph: "✧"
+  - F-nv-006: "Sharp (1973) : sur 198 méthodes, minorité = présence physique. Majorité = retrait de coopération (grèves, boycotts, désobéissance administrative)."
+    glyph: "✦"
+    url: "https://www.nonviolent-conflict.org/resource/198-methods-of-nonviolent-action/"
+  - F-nv-007: "Grèves 1995 contre plan Juppé : 2M grévistes, 3 semaines paralysie transports, retrait réforme retraites fonctionnaires. Conditions : unité syndicale, jonction interprofessionnelle, 60% soutien opinion."
+    glyph: "✦"
+  - F-nv-008: "Mouvement anti-CPE 2006 : mobilisation massive jeunes, retrait total loi. Conditions : jeunesse unifiée, front commun syndicats, pression constante."
+    glyph: "✦"
+  - F-nv-009: "Grève SNCF 2018 : grèves perlées 3 mois, échec (réforme votée). Causes : syndicats fragmentés, opinion défavorable, méthode législative expéditive (ordonnances)."
+    glyph: "✦"
+  - F-nv-010: "Gilets jaunes : concessions économiques immédiates (10 Md€) mais aucune concession structurelle (RIC, réforme institutionnelle)."
+    glyph: "✦"
+
+limites:
+  - "Données blessés GJ/Sainte-Soline contestées — sources officielles (IGPN) minimisent systématiquement."
+  - "Doctrine SNMO 2021 analysée via sources secondaires, pas document officiel complet."
+  - "Recommandation retrait de coopération non testée en contexte français 2026."
+  - "Sharp mort en 2018 — position sur surveillance algorithmique inconnue."
+
+wolves:
+  - loup: "Chenoweth est obsolète : données 1900-2006, pas de LBD ni Palantir dans l'échantillon"
+    reponse: "Chenoweth (2021) actualise et maintient le backfire effect dans les démocraties. Mais question dérive autoritaire légitime — investigation séparée nécessaire (indices V-Dem, Freedom House)."
+  - loup: "Le retrait de coopération est aussi surveillé que la rue (TRACFIN, Palantir)"
+    reponse: "La différence est dans la riposte : économique/judiciaire vs physique. La riposte économique est plus lente, visible, coûteuse politiquement. Le backfire effect y est plus efficace."
+  - loup: "La non-violence a déjà échoué en France 2018-2023 (GJ, Sainte-Soline)"
+    reponse: "Wolf le plus lourd. Concessions partielles obtenues mais pas structurelles. Question ouverte : échec de la non-violence ou succès partiel dans un système conçu pour absorber sans céder ?"
+
+iceberg:
+  - "3 conditions du succès du retrait de coopération érodées depuis 1995"
+  - "Nécessité d'un pilier de RECONSTRUCTION SOCIALE (solidarités interprofessionnelles, légitimité opinion)"
+  - "Backfire effect : fonctionne à court terme (sondages), pas à long terme (réélection Macron 2022)"
+  - "198 méthodes Sharp : basculer de 'protestation/persuasion' vers 'non-coopération'"
+
+chronologie:
+  - "1973 : Sharp, 198 Methods"
+  - "1991 : CEDH Ezelin c. France (protège liberté de réunion)"
+  - "1995 : Grèves Juppé (victoire)"
+  - "2006 : Mouvement anti-CPE (victoire)"
+  - "2011 : Chenoweth & Stephan, Why Civil Resistance Works"
+  - "2018-2020 : Gilets jaunes (concessions partielles, échec structurel)"
+  - "2018 : Grève SNCF (échec)"
+  - "2021 : Doctrine SNMO"
+  - "2023 : Sainte-Soline"
+  - "2026 : Corpus Truth Engine"
+
+domaines:
+  - "non_violence"
+  - "maintien_ordre"
+  - "mouvements_sociaux"
+  - "droit_penal"
+  - "sociologie_militante"
+
+urls:
+  - "https://www.nonviolent-conflict.org/resource/198-methods-of-nonviolent-action/"
+  - "https://hudoc.echr.coe.int/fre?i=001-57603"

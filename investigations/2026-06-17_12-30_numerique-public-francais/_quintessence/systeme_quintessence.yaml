@@ -1,0 +1,363 @@
+enquete_id: "systeme"
+enquete_source: "2026-06-17_15-45_systeme-it-etat-francais-chaine-complete_INVESTIGATION.md"
+date_extraction: 2026-06-17
+complexity: "APEX"
+
+these_centrale: "Le systeme IT de l'Etat francais est sous-traite a un oligopole d'ESN privees (Capgemini, Sopra Steria, Atos, Accenture) qui captent l'essentiel des 4-5 Mds€ annuels. Les organes de controle (DINUM, ANSSI) sont structurellement sous-dimensionnes. Le pantouflage et la porosite public-prive verrouillent le systeme. Les alertes recurrentes de la Cour des Comptes depuis 2015 n'ont jamais ete suivies d'effets structurels."
+
+theses_implicites:
+  - "L'Etat a structurellement renonce a maitriser son SI : la sous-traitance n'est pas une solution temporaire mais un abandon definitif de competence. Revenir en arriere couterait 5-10 ans et des milliards"
+  - "Le pantouflage cree une communaute d'interets entre decideurs publics et ESN : ceux qui ecrivent les appels d'offres seront demain chez ceux qui y repondent"
+  - "La 'souverainete numerique' francaise est un cadre vide : donnees de sante sur Azure, cloud 'de confiance' Bleu est une coentreprise avec Microsoft, Chorus est chez SAP"
+
+faits_atomiques:
+  - id: F301
+    enonce: "Budget IT de l'Etat estime entre 4 et 5 Mds€ par an (0.9% du budget general)"
+    date: 2024-2026
+    source_url: itforbusiness.fr/strategies/move-to-cloud-90338
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F302
+    enonce: "45 grands projets IT suivis par DINUM pour 3.3 Mds€ cumules"
+    date: 2025-12
+    source_url: cio-online.com/actualites/.../16500/
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F303
+    enonce: "Duree moyenne des projets IT Etat : 6.3 ans. Ecart budgetaire : 6.5%. Retard : 21%."
+    date: 2025
+    source_url: zdnet.fr/actualites/grands-projets-it-letat-du-mieux-481086.htm
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F304
+    enonce: "Capgemini a obtenu plus de 1.1 Md€ de contrats Etat sur 5 ans (2017-2022)"
+    date: 2022
+    source_url: lemonde.fr/les-decodeurs/.../capgemini-6133034_4355770.html
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F305
+    enonce: "McKinsey : 0€ d'impot sur les societes en France entre 2011 et 2020"
+    date: 2022
+    source_url: senat.fr/rap/r21-578-1/r21-578-1_mono.html
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F306
+    enonce: "McKinsey COVID : 11.6M€ pour 7 missions, certaines sans appel d'offres"
+    date: 2022
+    source_url: consultor.fr/articles/...
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F307
+    enonce: "Depenses de conseil Etat : record de 271M€ en 2021, remontee a 96M€ en 2024 (+31%)"
+    date: 2025
+    source_url: publicsenat.fr/actualites/.../cabinets-conseil-hausse-2024
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F308
+    enonce: "ANSSI : 32 audits de securite en 2024. Cour des Comptes juge la 'portee relativement faible'"
+    date: 2025
+    source_url: zdnet.fr/actualites/cybersecurite-cour-comptes-anssi-477425.htm
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F309
+    enonce: "ANTS : 85-90% d'externalisation sur projets strategiques. 'Risques majeurs de perte de competences' (CdC)"
+    date: 2026
+    source_url: itforbusiness.fr/anssi-ants-rgs-cybersecurite-103723
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F310
+    enonce: "L'ANTS sous-traite sa PROPRE strategie d'audit de securite a des consultants prives"
+    date: 2026
+    source_url: itforbusiness.fr/anssi-ants-rgs-cybersecurite-103723
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F311
+    enonce: "DINUM : budget 79M€ pour un SI Etat total estime a 5 Mds€ (ratio 1.6%)"
+    date: 2024
+    source_url: ccomptes.fr/fr/publications/pilotage-transformation-numerique-dinum
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F312
+    enonce: "5 directeurs de la DINUM depuis sa creation en 2018"
+    date: 2024
+    source_url: itforbusiness.fr/strategies/move-to-cloud-90338
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F313
+    enonce: "Health Data Hub (donnees sante 67M Francais) heberge chez Microsoft Azure pendant 7 ans (2019-2026)"
+    date: 2026
+    source_url: lemonde.fr/economie/.../health-data-hub-migre-microsoft-6683082.html
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F314
+    enonce: "Conseil d'Etat mars 2026 : le risque Cloud Act americain sur les donnees de sante 'ne peut etre totalement exclu'"
+    date: 2026-03
+    source_url: lemondeinformatique.fr/actualites/.../conseil-etat-azure-99707.html
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F315
+    enonce: "Fournisseurs SecNumCloud qualifies en 2026 : OVHcloud, Outscale (Dassault), Scaleway, Numspot, Cloud Temple"
+    date: 2026
+    source_url: legiscope.com/blog/secnumcloud-rgpd-cloud-souverain.html
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F316
+    enonce: "Bleu (coentreprise Orange+Capgemini+Microsoft) vise SecNumCloud en 2026"
+    date: 2024
+    source_url: zdnet.fr/actualites/debuts-officiels-bleu-cloud-39963592.htm
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F317
+    enonce: "29% des ingenieurs des mines et 22% des anciens ENA ont rejoint le prive"
+    date: 2025
+    source_url: ouest-france.fr/economie/.../pantouflage-cour-des-comptes
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F318
+    enonce: "HATVP : 77% des avis comportent des reserves. Poursuites quasi inexistantes."
+    date: 2025
+    source_url: ouest-france.fr/economie/.../pantouflage-cour-des-comptes
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F319
+    enonce: "Chorus (SAP) migration S/4HANA : 78.4M€, 18 mois, 24 000 utilisateurs"
+    date: 2024-05
+    source_url: news.sap.com/france/2024/07/pouvoirs-publics-sap/
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F320
+    enonce: "Les ministeres contournent la DINUM : 'politique de l'evitement' (depots tardifs, derogations)"
+    date: 2024
+    source_url: cio-online.com/actualites/.../16500/
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F321
+    enonce: "3 586 evenements de securite ANSSI en 2025, 1 366 incidents"
+    date: 2026
+    source_url: cyber.gouv.fr/actualites/rapport-activite-2025
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F322
+    enonce: "Budget capacitaire ANSSI : pas de programmation pluriannuelle (recommandation CdC non suivie)"
+    date: 2025
+    source_url: ccomptes.fr/.../reponse-etat-cybermenaces.pdf
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F323
+    enonce: "NIS2 non transposee en droit francais (echeance 17 octobre 2024 depassee)"
+    date: 2026
+    source_url: zdnet.fr/actualites/cybersecurite-cour-comptes-anssi-477425.htm
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F324
+    enonce: "Budget IT DGFiP 2025 : 489.9M€ (+4.4%), principalement pour resorption dette technique"
+    date: 2025
+    source_url: senat.fr/rap/l24-144-315-1/...html
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F325
+    enonce: "84M€ de commandes cloud DINUM en 2025 (+62%), 847 projets, 99% europeen"
+    date: 2026
+    source_url: itforbusiness.fr/cloud-letat-dinum-accelere-101847
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F326
+    enonce: "Rapport Senat 'cabinets conseil' : PPL adoptee mai 2024 au Senat, bloquee a l'Assemblee nationale"
+    date: 2024
+    source_url: publicsenat.fr/actualites/.../cabinets-conseil-hausse-2024
+    source_section: "§ CARTE DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "DINUM (Stephanie Schaer)"
+    role: "DSI de l'Etat theorique - pilote transformation numerique"
+    interet: "Controle et coordination du SI Etat"
+    position: "Budget 79M€ face a 5 Mds€, 5 directeurs depuis 2018, sous-dimensionnee"
+  - nom: "ANSSI (Vincent Strubel)"
+    role: "Autorite de cybersecurite"
+    interet: "Securisation du SI Etat"
+    position: "32 audits/an, accompagne plus que ne contraint, pouvoir de sanction jamais utilise"
+  - nom: "Capgemini"
+    role: "N°1 des ESN prestataires de l'Etat"
+    interet: "1.1 Md€ contrats 2017-2022, JV Bleu avec Microsoft"
+    position: "Gagnant principal du systeme"
+  - nom: "Sopra Steria"
+    role: "ESN n°2"
+    interet: "Radars (82M€), ASP (27M€), commande publique"
+    position: "Gagnant"
+  - nom: "Atos"
+    role: "ESN n°3"
+    interet: "CANUT, identites, defense (120M€/an)"
+    position: "Gagnant en difficulte financiere 2024-2026"
+  - nom: "Accenture"
+    role: "ESN n°4"
+    interet: "UGAP, ministeres sociaux, COVID (~100M€/an)"
+    position: "Gagnant"
+  - nom: "Cour des Comptes"
+    role: "Controleur budgetaire"
+    interet: "Alertes recurrentes depuis 2015"
+    position: "Observateur critique ignore"
+  - nom: "Sénat (Assassi/Bazin)"
+    role: "Commission d'enquête cabinets conseil"
+    interet: "Rapport 2022, PPL bloquée"
+    position: "Contre-pouvoir partiel"
+
+causalites:
+  - cause: "Sous-dimensionnement chronique de la DINUM (79M€ pour 5 Mds€ de SI)"
+    effet: "Impossibilite structurelle de controler les projets IT des ministeres, 'politique de l'evitement' generalisee"
+    confiance: Haute
+  - cause: "Capacite d'audit ANSSI derisoire (32 audits/an) et pouvoir de sanction jamais utilise"
+    effet: "La securite du SI Etat est largement non-auditee, les vulnerabilites persistent"
+    confiance: Haute
+  - cause: "Pantouflage massif (29% mines, 22% ENA) et allers-retours public-prive"
+    effet: "Dependance cognitive : les decideurs publics savent qu'ils travailleront pour les ESN demain"
+    confiance: Moyenne
+  - cause: "Contrats ESN longs (4-8 ans) sans transfert de competence"
+    effet: "Dependance technique irreversible : seul le prestataire sortant peut maintenir le systeme"
+    confiance: Haute
+  - cause: "Donnees sensibles hebergees chez fournisseurs soumis au Cloud Act (Microsoft Azure pour HDH 7 ans)"
+    effet: "Donnees de sante de 67M Francais potentiellement accessibles aux autorites americaines"
+    confiance: Haute
+
+perspectives_dialectiques:
+  - perspective: "Officielle"
+    resume: "La transformation numerique de l'Etat est en marche. DINUM pilote la strategie 'Cloud au centre'. 84M€ cloud europeen en 2025 (+62%). 99% des commandes cloud vers fournisseurs europeens. 45 grands projets suivis avec ecart budgetaire reduit a 6.5%. HDH migre vers Scaleway. ANSSI reconnue internationalement."
+    validite_partielle: "La doctrine 'Cloud au centre' existe, les ecarts budgetaires se reduisent, HDH quitte effectivement Azure."
+    limite: "Ignore que 84M€ cloud est infime face aux 5 Mds€ totaux, que 21% de retard reste enorme, que 32 audits/an est derisoire."
+  - perspective: "Critique"
+    resume: "5 Mds€/an gaspilles dans un systeme verrouille par les ESN. Capgemini 1.1 Md€ en 5 ans. ANSSI 32 audits/an. Ministeres contournent la DINUM. Donnees sensibles chez Microsoft. Pantouflage verrouille le systeme. McKinsey : 0€ IS. Le 'Cloud de confiance' Bleu est une coentreprise avec Microsoft."
+    validite_partielle: "Tous les faits invoques sont verifies par des sources multiples (CdC, Senat, Le Monde)."
+    limite: "Ignore que la transformation est reelle sur certains perimetres (Chorus S/4HANA reussi, cloud DINUM en croissance)."
+  - perspective: "Triangulation"
+    resume: "Les deux perspectives contiennent du vrai. La doctrine 'Cloud au centre' existe (P1) mais son budget (84M€) est infime face aux 5 Mds€ totaux (P2). DINUM a reduit les ecarts budgetaires (P1) mais 21% de retard reste enorme (P2). ANSSI est reconnue (P1) mais 32 audits/an est derisoire (P2). La verite : le systeme est en transition, mais la dependance aux ESN et au cloud US est structurelle, pas conjoncturelle."
+    validite_partielle: "Synthese equilibree : transformation partielle dans un cadre de dependance structurelle. Les faits des deux lectures sont verifies."
+
+limites:
+  - "Absence de donnee primaire centralisee : la France ne publie pas de 'digital budget' agrege. Les 4-5 Mds€ sont une estimation."
+  - "Biais de disponibilite : les donnees sur les contrats sont partielles (macellum.fr, openprocurements)"
+  - "Pas d'acces aux contrats : analyse basee sur les marches notifies, pas sur les avenants"
+  - "Conjecture sur le pantouflage : impact precis sur les decisions d'achat public non quantifiable"
+  - "Biais temporel : focus 2017-2026, pas d'analyse de la sous-traitance pre-2017"
+  - "Exclusion du SI defense et renseignement (classifie)"
+
+wolves:
+  - "Capgemini (1.1 Md€ 2017-2022, ~220M€/an)"
+  - "Sopra Steria (~150M€/an)"
+  - "Atos (~120M€/an)"
+  - "Accenture (~100M€/an)"
+  - "McKinsey et consorts (~96M€ consulting 2024, 0€ IS)"
+  - "Microsoft (~5M€/an pour HDH, Office 365 Etat)"
+  - "SAP (~10M€/an licences Chorus)"
+  - "Anciens fonctionnaires pantouflards (double salaire public-prive)"
+
+iceberg:
+  visible: "4-5 Mds€ budget IT Etat, 45 grands projets, ANSSI, DINUM, 'Cloud au centre', 'SecNumCloud'"
+  cache_niveau1: "Capgemini 1.1 Md€ contrats, 32 audits ANSSI/an, 79M€ DINUM, HDH 7 ans sur Azure, 85-90% externalisation ANTS"
+  cache_niveau2: "Pantouflage (29% mines, 22% ENA), 'politique de l'evitement' des ministeres, ANTS sous-traite sa propre strategie d'audit, Bleu est Microsoft deguise"
+  cache_niveau3: "Abandon definitif de competence par l'Etat, dependance irreversible, retour impossible (<5-10 ans), privatisation silencieuse du SI public, McKinsey 0€ IS et missions pro bono pendant campagne 2017"
+  facteur_invisibilite: 4.5
+
+chronologie:
+  - date: 2008
+    evenement: "Chorus (SAP) : SI financier de l'Etat en production"
+  - date: 2009
+    evenement: "ANSSI creee sous autorite SGDSN"
+  - date: 2014
+    evenement: "Decret projets IT >9M€ soumis a audit DINUM"
+  - date: 2019
+    evenement: "DINUM creee (remplace DINSIC). Health Data Hub sur Azure."
+  - date: 2021-05
+    evenement: "Circulaire 'Cloud au centre' : doctrine cloud Etat"
+  - date: 2022-03
+    evenement: "Rapport Senat 'phenomene tentaculaire et opaque' cabinets conseil"
+  - date: 2022-10
+    evenement: "PNF ouvre enquete favoritisme McKinsey"
+  - date: 2024-05
+    evenement: "Chorus migre vers SAP S/4HANA (78.4M€, 18 mois)"
+  - date: 2026-02
+    evenement: "Migration HDH decidée: Microsoft -> Scaleway (fin 2026)"
+  - date: 2026-03
+    evenement: "Conseil d'Etat valide HDH sur Azure : 'risque ne peut etre exclu'"
+  - date: 2026-05
+    evenement: "ANSSI rapport 2025 : budget insuffisant, NIS2 pas transposee"
+  - date: 2026-06
+    evenement: "Cour des Comptes : ANSSI audits 'portee faible', DINUM instable"
+
+domaines:
+  - "PRODUCTION : Oligopole de 4-5 ESN (Capgemini, Sopra Steria, Atos, Accenture, CGI) captent 4-5 Mds€/an"
+  - "STOCKAGE : Donnees sante sur Azure (7 ans), donnees financieres sur SAP, donnees identite sous-traitees"
+  - "SECURITE : ANSSI 32 audits/an, 1366 incidents, pouvoir de sanction jamais utilise"
+  - "GOUVERNANCE : DINUM 79M€/5 Mds€ (1.6%), 5 directeurs en 8 ans, 'politique de l'evitement'"
+  - "CONSULTING : Record 271M€ (2021), McKinsey 0€ IS, PPL bloquee AN"
+  - "PANTOUFLAGE : 29% mines en prive, 77% avis HATVP reserves, 0 poursuites"
+
+urls_prioritaires:
+  - url: lemonde.fr/les-decodeurs/.../capgemini-6133034_4355770.html
+    pertinence: "Enquete Le Monde sur les 1.1 Md€ de contrats Capgemini"
+  - url: senat.fr/rap/r21-578-1/r21-578-1_mono.html
+    pertinence: "Rapport Senat 'phenomene tentaculaire et opaque' cabinets conseil"
+  - url: ccomptes.fr/fr/publications/pilotage-transformation-numerique-dinum
+    pertinence: "Rapport Cour des Comptes sur la DINUM"
+  - url: lemonde.fr/economie/.../health-data-hub-migre-microsoft-6683082.html
+    pertinence: "Migration HDH de Microsoft Azure vers Scaleway"
+  - url: itforbusiness.fr/anssi-ants-rgs-cybersecurite-103723
+    pertinence: "ANTS sous-traite sa strategie d'audit de securite"
+  - url: zdnet.fr/actualites/cybersecurite-cour-comptes-anssi-477425.htm
+    pertinence: "Cour des Comptes etrangle ANSSI : 32 audits/an, 'portee faible'"
+
+shadow_factor: 9.2
+
+mnemo_queries:
+  - "requete automatique sujet enquete numerique"

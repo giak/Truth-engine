@@ -1,0 +1,194 @@
+enquete_id: grece_classique
+complexity: MEDIUM
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-07_civilisations_manquantes/2026-06-07_15-15_grece_classique_INVESTIGATION.md
+these_centrale: La démocratie athénienne (508-322 av. J.-C.) est la première société complexe à dissocier partiellement les
+  quatre dimensions (droit/religion/économie/morale) et à concevoir des mécanismes ANTI-CAPTURE explicites (sortition,
+  rotation, euthynai). Elle n'est PAS l'ancêtre de la démocratie représentative française — c'est un système anti-bureaucratique
+  dont la France a fait le CHOIX INVERSE en créant l'ENA en 1945.
+theses_implicites:
+- La sortition est la solution grecque au problème de capture documenté à Sumer (scribes) — personne n'y pense en France 2026.
+- Solon annule les dettes comme LÉGISLATEUR élu, pas comme roi : l'annulation survit au changement de régime politique.
+- La liturgie (taxation contrainte des riches) remplace l'impôt progressif sans bureaucratie fiscale permanente.
+- La démocratie athénienne exclut 80-90% de la population (femmes, esclaves, métèques) — ce n'est pas un modèle transférable.
+- Athènes importe son grain de la mer Noire — dépendance stratégique comparable à la dépendance énergétique française.
+faits_atomiques:
+- id: F-GRE-001
+  enonce: Solon annule les dettes (seisachtheia) et abolit l'esclavage pour dette à Athènes — annulation LÉGISLATIVE, pas royale
+  source_url: https://www.britannica.com/biography/Solon
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-002
+  enonce: Clisthène instaure la démocratie athénienne par redistribution tribale et création de la Boulè des 500
+  source_url: https://www.britannica.com/biography/Cleisthenes-of-Athens
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-003
+  enonce: La Boulè (Conseil des 500) est tirée au sort annuellement parmi les citoyens volontaires, mandat limité à 2 fois dans une vie
+  source_url: https://www.worldhistory.org/Athenian_Democracy/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-004
+  enonce: Les jurys populaires (dikasteria) comptent de 201 à 2501 citoyens tirés au sort pour chaque procès
+  source_url: https://www.worldhistory.org/Athenian_Democracy/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-005
+  enonce: Le système de liturgie (leitourgia) contraint les citoyens riches à financer biens publics : trières, festivals, théâtre
+  source_url: https://www.britannica.com/topic/leitourgia
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-006
+  enonce: Draco rédige le premier code écrit d'Athènes, connu pour sa sévérité
+  source_url: https://www.britannica.com/topic/Draconian-laws
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-007
+  enonce: Population athénienne : 30000-60000 citoyens (hommes adultes), soit 10-20% de la population totale
+  source_url: https://www.worldhistory.org/Athenian_Democracy/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-008
+  enonce: L'ostracisme permet d'exiler un citoyen pour 10 ans par vote populaire annuel sur tessons de poterie
+  source_url: https://www.britannica.com/topic/ostracism
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-009
+  enonce: Athènes importe la majorité de son grain de la mer Noire (Crimée), créant une dépendance stratégique
+  source_url: https://www.worldhistory.org/article/115/trade-in-ancient-greece/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-010
+  enonce: Les magistrats athéniens sont soumis à la reddition de comptes (euthynai) obligatoire en fin de mandat
+  source_url: https://www.worldhistory.org/Athenian_Democracy/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-011
+  enonce: Le Code de Gortyne (Crète, c. 450 av.) est le code juridique grec le plus complet conservé
+  source_url: https://www.britannica.com/topic/Gortyn-Code
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-GRE-012
+  enonce: L'oracle de Delphes fonctionne comme arbitre géopolitique — les cités le consultent avant guerre, colonisation, ou réforme
+  source_url: https://www.britannica.com/topic/Delphic-oracle
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+acteurs:
+- nom: Solon
+  role: Législateur élu, annulation des dettes (594 av.)
+  faits_lies:
+  - F-GRE-001
+- nom: Clisthène
+  role: Fondateur de la démocratie athénienne (508 av.)
+  faits_lies:
+  - F-GRE-002
+- nom: Boulè (Conseil des 500)
+  role: Organe exécutif tiré au sort annuellement
+  faits_lies:
+  - F-GRE-003
+- nom: Citoyens athéniens
+  role: 30000-60000 hommes adultes, 10-20% de la population
+  faits_lies:
+  - F-GRE-007
+- nom: Liturgistes
+  role: Citoyens riches contraints de financer les biens publics
+  faits_lies:
+  - F-GRE-005
+causalites:
+- cause: F-GRE-003
+  effet: F-GRE-010
+  mecanisme: La sortition (pas de corps permanent) + euthynai (reddition de comptes) empêchent la capture administrative documentée à Sumer et en France
+- cause: F-GRE-009
+  effet: F-GRE-005
+  mecanisme: La dépendance au grain importé contraint la politique étrangère athénienne → la liturgie navale (triérarchie) devient vitale pour sécuriser les routes commerciales
+perspectives_dialectiques:
+- position: Thèse — La Grèce invente la solution au problème sumérien
+  argument: La sortition, la rotation et l'euthynai sont des mécanismes explicites ANTI-CAPTURE. Athènes identifie le problème et le résout en supprimant la bureaucratie permanente.
+- position: Antithèse — La Grèce est un cas exceptionnel, pas un modèle
+  argument: La démocratie athénienne exclut 80% de la population, repose sur l'esclavage, et ne dure que 186 ans. Ce n'est PAS transférable à un État-nation de 68M d'habitants.
+- position: Synthèse — La Grèce inspire sans être copiable
+  argument: Le principe grec (mécanismes anti-capture intégrés aux institutions) est universel. La forme grecque (sortition, petite cité-État) est contingente. La France doit inventer SES propres mécanismes.
+limites:
+- Sources athénocentriques : Sparte, Thèbes, Corinthe sont sous-documentées
+- Démocratie exclusive : 10-20% de la population est citoyenne, 80% exclue
+- Anachronisme : projeter la démocratie représentative moderne sur la démocratie directe athénienne est une erreur
+- Absence de comparaison avec Sparte (contre-test oligarchique)
+wolves:
+- nom: Moses Finley
+  argument: La démocratie athénienne était un face-à-face, pas un gouvernement représentatif — inapplicable à un État-nation moderne
+  reponse: La comparaison n'est pas institutionnelle mais principielle : la Grèce a IDENTIFIÉ le problème de capture et y a répondu
+- nom: Josiah Ober
+  argument: La démocratie athénienne était PLUS efficace que les États modernes grâce à la dispersion du savoir
+  reponse: Argument provocateur qui renforce la thèse — si Ober a raison, l'ENA/INSP est un recul par rapport à la Boulè
+- nom: Paul Cartledge
+  argument: Athènes n'est pas la Grèce — Sparte, Thèbes, Corinthe avaient des systèmes radicalement différents
+  reponse: Objection structurelle valide. L'enquête le reconnaît dans les LIMITES
+iceberg:
+- Sujet immergé #1 : 0 source primaire ✦ — tous les faits sont ✧
+- Sujet immergé #2 : Sparte (diarchie, gérousia, éphores) comme contre-test oligarchique — non traité
+- Sujet immergé #3 : La démocratie athénienne exclut 80% de la population — angle mort du récit « berceau de la démocratie »
+chronologie:
+- date: 621 av.
+  evenement: Draco rédige le premier code écrit d'Athènes
+  source_fait: F-GRE-006
+- date: 594 av.
+  evenement: Solon annule les dettes et abolit l'esclavage pour dette
+  source_fait: F-GRE-001
+- date: 508 av.
+  evenement: Clisthène instaure la démocratie : Boulè des 500, redistribution tribale
+  source_fait: F-GRE-002
+- date: c. 450 av.
+  evenement: Code de Gortyne (Crète) — code juridique grec le plus complet
+  source_fait: F-GRE-011
+- date: 431-404 av.
+  evenement: Guerre du Péloponnèse — épuisement de la démocratie athénienne
+  source_fait: F-GRE-009
+- date: 322 av.
+  evenement: Conquête macédonienne — fin de la démocratie athénienne classique
+  source_fait: F-GRE-002
+domaines:
+- Droit : codes écrits (Draco, Solon, Gortyne) coexistent avec justice populaire (jurys tirés au sort)
+- Religion : cultes civiques, oracle de Delphes comme arbitre géopolitique — PAS de théocratie
+- Économie : liturgie (taxation contrainte des riches), dépendance au grain importé
+- Administration : sortition, rotation, amateurisme — PAS de bureaucratie permanente
+- Capture : mécanismes anti-capture intégrés (ostracisme, euthynai, rotation)
+urls_prioritaires:
+- url: https://www.worldhistory.org/Athenian_Democracy/
+  description: Boulè, sortition, euthynai — mécanismes anti-capture
+  head_status: 200
+- url: https://www.britannica.com/biography/Solon
+  description: Seisachtheia — annulation de dette législative
+  head_status: 200
+- url: https://www.britannica.com/topic/ostracism
+  description: Ostracisme — mécanisme de contre-pouvoir
+  head_status: 200
+- url: https://www.britannica.com/topic/Gortyn-Code
+  description: Code de Gortyne — droit grec écrit
+  head_status: 200
+shadow_factor: 3.5
+mnemo_queries: []
+mnemo_cross_refs: []

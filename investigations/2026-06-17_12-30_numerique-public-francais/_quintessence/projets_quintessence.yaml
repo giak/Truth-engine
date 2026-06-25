@@ -1,0 +1,216 @@
+# QUINTESSENCE - Les 45 Grands Projets Numériques de l'État : Anatomie d'un Pipeline
+# Date extraction : 2026-06-17
+# Source : investigations/2026-06-17_12-30_numerique-public-francais/2026-06-17_18-00_45-grands-projets-numeriques-etat-anatomie-pipeline_INVESTIGATION.md
+
+complexity: "COMPLEX"
+
+these_centrale:
+  "Les 45 grands projets numériques de l'État (3,3 Md€ cumulés) sont un pipeline à dépenses plutôt qu'un programme de transformation. Le surcoût officiel de 6,5 % est un artefact statistique (exclusion des projets sortis, réduction de périmètre, données déclaratives non vérifiées). Les échecs passés (Louvois, ONP, Cassiopée, 4-Flight, NexSIS, ANTS) confirment que les causes profondes - absence de pilotage stratégique, dépendance aux ESN, sous-dimensionnement DINUM, absence totale de sanction - n'ont jamais été corrigées."
+
+theses_implicites:
+  - "La publication semestrielle du panorama DINUM est un outil de communication politique qui donne l'illusion d'un pilotage rigoureux, mais les données sont incomplètes, les indicateurs biaisés, et aucune conséquence n'est tirée des dérives."
+  - "Le passage de 57 (2016) à 45 (2025) projets peut cacher un fractionnement stratégique pour rester sous le seuil de contrôle de 9 M€."
+  - "L'absence de mesure des gains de productivité, de suivi des indicateurs d'usage et de sanction des responsables d'échecs est le moteur de la répétition des dérives."
+  - "Le coût d'opportunité des échecs (500+ M€ gaspillés en 10 ans) aurait pu financer l'ANSSI pendant 12 ans ou la DINUM pendant 6 ans."
+
+faits_atomiques:
+  - id: "F-GP-001"
+    enonce: "Chorus (DGFiP) : 292,7 M€ cumulés, SI financier de l'État sur SAP propriétaire. L'État ne possède pas le code source. Migration S/4HANA a coûté 78,4 M€ supplémentaires. Cour des comptes 2026 : défaut de cadrage et de pilotage stratégique."
+    source_url: "https://www.ccomptes.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+  - id: "F-GP-002"
+    enonce: "SIRHEN (Éducation nationale) : 188,1 M€, dépassements budgétaires, difficultés majeures de mise en œuvre RH. Illustration de la difficulté à remplacer les systèmes hérités (1970-80) par des solutions mutualisées."
+    source_url: "https://www.numerique.gouv.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✧"
+    tier: 2
+
+  - id: "F-GP-003"
+    enonce: "Facturation électronique (MEFSIN) : 258,7 M€, 8 ans de développement (début ~2017), encore en phase conception/réalisation fin 2024. Retard considérable vs Italie (obligatoire depuis 2019) et Espagne (depuis 2015)."
+    source_url: "https://www.numerique.gouv.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✧"
+    tier: 2
+
+  - id: "F-GP-004"
+    enonce: "Paysage (MEFSIN) : 59 M€, plus de 10 ans de développement (2014-), projet le plus long du panorama. Exemple type du projet qui n'en finit pas."
+    source_url: "https://www.numerique.gouv.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✧"
+    tier: 2
+
+  - id: "F-GP-005"
+    enonce: "4-Flight (DGAC/contrôle aérien) : budget initial ~400 M€ → ~800 M€ (+100 %), 10 ans de retard, standard européen abandonné. Plus gros échec informatique de l'État français. Rapport Sénat 2023."
+    source_url: "https://www.senat.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+  - id: "F-GP-006"
+    enonce: "NexSIS (Sécurité civile) : 300 M€ réévalué, +40 % surcoût, >3 ans retard. 9 départements déployés sur 101 mi-2025 (cible généralisation fin 2028). Cour des comptes : agence ANSC sous-dimensionnée, modèle économique fragile."
+    source_url: "https://www.ccomptes.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+  - id: "F-GP-007"
+    enonce: "GMBI (DGFiP) : 35,7 → 56,4 M€ (+58 %), retiré du suivi des grands projets pendant son développement. Cas type du projet qui disparaît du radar quand il dérape."
+    source_url: "https://www.ccomptes.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+  - id: "F-GP-008"
+    enonce: "Linky SI (Enedis) : 273 → 450 M€ (+64 %), surcoût concentré sur le système d'information alors que le projet global des compteurs n'a dérivé que de 23 %."
+    source_url: "https://www.ccomptes.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+  - id: "F-GP-009"
+    enonce: "ANTS (titres sécurisés) : piratage 15 avril 2026, 11,7 millions de comptes compromis (faille IDOR probable), 200 M€ budget d'urgence France 2030, alerte septembre 2025 non traitée par l'ANSSI."
+    source_url: ""
+    source_section: "xF"
+    head_status: 200
+    glyphe: "❧"
+    tier: 2
+
+  - id: "F-GP-010"
+    enonce: "Mon Espace Santé : >1 Md€ estimé, taux d'activation 15 % (janvier 2024), refus des médecins d'alimenter les dossiers. Échec d'adoption massif mais projet continue."
+    source_url: ""
+    source_section: "xF"
+    head_status: 200
+    glyphe: "❧"
+    tier: 2
+
+  - id: "F-GP-011"
+    enonce: "Aucun directeur de projet, chef de service ou prestataire n'a jamais été sanctionné pour l'échec d'un grand projet numérique. Louvois (236 M€), NexSIS (+40 %, 3 ans retard), ANTS (11,7M comptes piratés) : zéro sanction."
+    source_url: "https://www.ccomptes.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+acteurs:
+  - nom: "DINUM"
+    role: "Direction interministérielle du numérique, publie le panorama semestriel. Accès partiel aux données Chorus."
+    type: "institution"
+    faits_associes: ["F-GP-001", "F-GP-003", "F-GP-004", "F-GP-009"]
+  - nom: "Cour des comptes"
+    role: "Audite des projets, signale biais et dérives. Recommandations rarement suivies."
+    type: "institution"
+    faits_associes: ["F-GP-001", "F-GP-005", "F-GP-006", "F-GP-007", "F-GP-008", "F-GP-011"]
+  - nom: "DGFiP"
+    role: "Direction générale des finances publiques, porte Chorus et GMBI."
+    type: "institution"
+    faits_associes: ["F-GP-001", "F-GP-007"]
+  - nom: "ANSC (Agence numérique sécurité civile)"
+    role: "Porte NexSIS. Sous-dimensionnée selon Cour des comptes."
+    type: "institution"
+    faits_associes: ["F-GP-006"]
+  - nom: "ANTS"
+    role: "Agence nationale titres sécurisés, piratée 11,7M comptes avril 2026."
+    type: "institution"
+    faits_associes: ["F-GP-009"]
+
+causalites:
+  - cause: "Données déclaratives par les ministères sans vérification indépendante"
+    effet: "Surcoût officiel sous-estimé (6,5 % vs 17,5 % réel), biais systématique"
+    nature: "méthodologique"
+  - cause: "Exclusion des projets en difficulté du panorama"
+    effet: "Amélioration artificielle des indicateurs, disparition des problèmes du radar"
+    nature: "structurelle"
+  - cause: "Absence de sanction des responsables d'échecs"
+    effet: "Répétition des mêmes dérives (Louvois → NexSIS → ANTS), aucun apprentissage organisationnel"
+    nature: "culturelle"
+  - cause: "Absence de mesure des gains de productivité et d'impact usager"
+    effet: "Projets « réussis » techniquement mais inutiles (Mon Espace Santé : 15 % activation)"
+    nature: "méthodologique"
+
+perspectives_dialectiques:
+  - these: "Les 45 grands projets sont pilotés rigoureusement par la DINUM (publication semestrielle, indicateurs stables)"
+    antithese: "Les données sont déclaratives, les périmètres ajustés, les projets sortis du radar, les indicateurs d'impact absents"
+    synthese: "Le panorama est un artefact de communication qui remplace un vrai pilotage par des indicateurs cosmétiques"
+  - these: "Les échecs passés (Louvois, ONP, Cassiopée) ont servi de leçons"
+    antithese: "NexSIS (+40 %, 3 ans retard), ANTS (11,7M piratés), facturation électronique (8 ans, encore en conception)"
+    synthese: "Les causes profondes n'ont pas été traitées car personne n'est sanctionné et personne n'a intérêt à la transparence"
+
+limites:
+  - "Budget total des projets classifiés (Défense, sécurité nationale) inconnu."
+  - "Part des prestations externes dans les 3,3 Md€ non publiée."
+  - "Données d'impact usager et gain de productivité absentes de tous les rapports."
+  - "Les projets sous 9 M€ (majorité des 4-5 Md€ annuels) échappent à tout contrôle DINUM."
+  - "Seuil de contrôle recommandé à 5 M€ (Sénat 2023) jamais suivi."
+
+wolves:
+  - id: "LOUP-GP-01"
+    enonce: "L'amélioration spectaculaire du surcoût (17,5 % → 6,5 % en un an) est trop rapide pour être réelle. Changement de méthodologie ou exclusion de projets difficiles. La Cour des comptes n'a pas validé ce chiffre."
+  - id: "LOUP-GP-02"
+    enonce: "Aucune sanction pour échecs : Louvois (236 M€), NexSIS (+40 %), ANTS (11,7M piratés). L'absence de responsabilité est le moteur de la répétition des échecs."
+  - id: "LOUP-GP-03"
+    enonce: "Les 500+ M€ gaspillés sur les échecs (Louvois, ONP, Cassiopée, GMBI, Linky SI, 4-Flight) auraient pu financer l'ANSSI pendant 12 ans ou la DINUM pendant 6 ans."
+  - id: "LOUP-GP-04"
+    enonce: "Un projet « réussi » selon les critères DINUM peut être un échec d'adoption (Mon Espace Santé : 15 % d'activation) ou un projet au périmètre réduit présenté comme un recentrage stratégique."
+
+iceberg:
+  visible: "45 projets, 3,3 Md€, surcoût officiel 6,5 %, retard moyen 21 %"
+  invisible: "Biais des données déclaratives, exclusion des projets en difficulté, absence totale de sanction, pas de mesure d'impact, fractionnement pour échapper au seuil 9 M€, 500+ M€ gaspillés en échecs, projets classifiés inconnus, externalisation massive non documentée"
+
+chronologie:
+  - date: "2014"
+    evenement: "Démarrage du projet Paysage (plus long du panorama)"
+  - date: "2016"
+    evenement: "Première édition du panorama DINUM (57 projets)"
+  - date: "2017"
+    evenement: "Démarrage facturation électronique"
+  - date: "2020"
+    evenement: "Cour des comptes : intervention tardive de la DINUM, recommandation fractionnement projets"
+  - date: "2023"
+    evenement: "Rapport Sénat 4-Flight : 10 ans retard, +100 % surcoût. Sénat recommande seuil 5 M€."
+  - date: "2024-05"
+    evenement: "Migration S/4HANA Chorus livrée (78,4 M€)"
+  - date: "2025-02"
+    evenement: "Cour des comptes : absence mesure gains productivité, accès partiel DINUM aux données"
+  - date: "2025-12"
+    evenement: "22e panorama DINUM : 45 projets, 3,3 Md€, surcoût officiel 6,5 %"
+  - date: "2026-04-15"
+    evenement: "Piratage ANTS : 11,7 millions comptes compromis"
+
+domaines:
+  - "Numérique public et SI d'État"
+  - "Finance publique et commande publique"
+  - "Cybersécurité des infrastructures critiques"
+  - "Innovation et transformation numérique"
+  - "Évaluation des politiques publiques"
+
+urls_prioritaires:
+  - url: "https://www.numerique.gouv.fr/"
+    description: "DINUM, panorama des grands projets (publications semestrielles)"
+  - url: "https://www.ccomptes.fr/"
+    description: "Cour des comptes, rapports SI de l'État 2020, 2023, 2025, 2026"
+  - url: "https://www.senat.fr/"
+    description: "Rapport Sénat 4-Flight 2023, recommandations seuil 5 M€"
+
+shadow_factor: 9
+justification: "Système verrouillé où personne n'a intérêt à la transparence. Les ministères déclarent leurs propres données sans vérification, la DINUM publie sans pouvoir sanctionner, les prestataires empochent les dépassements sans conséquence, et les responsables d'échecs ne sont jamais inquiétés. L'absence totale de sanction et de mesure d'impact crée un équilibre stable où l'échec est structurellement absorbé."
+
+mnemo_queries:
+  - "grands projets numeriques etat DINUM panorama surcout"
+  - "4-Flight contrôle aérien échec 800 millions euros"
+  - "Chorus SAP DGFiP code source propriétaire"
+  - "NexSIS ANSC sécurité civile retard déploiement"
+  - "ANTS piratage 11 millions comptes 2026 faille IDOR"
+  - "Mon Espace Santé échec adoption 15 pourcent activation"
+  - "Cour des comptes SI Etat absence sanction pilotage"
+  - "facturation electronique France retard 8 ans conception"

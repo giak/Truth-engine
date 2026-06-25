@@ -1,0 +1,458 @@
+date_synthese: '2026-06-07'
+complexity: APEX
+n_enquetes: 11
+civs_concernees:
+- S
+- R
+- C
+- MA
+- IN
+- I
+- AM
+- A
+- IC-S
+- IC-R
+- IC-C
+total_faits_atomiques: 221
+sujet_majoritaire: Comparer la France contemporaine (2026) à 8 civilisations antiques et médiévales (Sumer, Rome, Chine, Moyen
+  Âge, Islam, Inde, Amériques précolombiennes, Andurarum) PLUS 3 auto-critiques ICEBERG pour tester la validité des thèses
+  « dette universelle », « transmission linéaire » et « capture étatique » sur 5300 ans d'histoire.
+theses_cardinales:
+- titre: 'THESE-001 : TRANSMISSION MULTI-LINEAIRE (continuité)'
+  enonce: 'La transmission des structures étatiques, juridiques et administratives n''est PAS une flèche Sumer→Grèce→Rome→France
+    : c''est un RÉSEAU multi-linéaire passant par Bologne (1070), Cordoue-Tolède (IXe-XIIIe), Pékin-Confucius-Voltaire (XVIIe-XVIIIe),
+    Aryabhata-Al-Khwarizmi (Ve-Xe). Le « 3 civilisations » est un artefact historiographique occidental.'
+  position: continuité
+  f_atomiques_justificatifs:
+  - F-R002
+  - F-MA001
+  - F-IN001
+  - F-C001
+  - F-I001
+  - F-S001
+  - F-AM001
+  shadow: 2.7
+- titre: 'THESE-002 : LA DETTE N''EST PAS UNIVERSELLE (rupture)'
+  enonce: 'La dette n''est PAS le mécanisme universel d''intégration sociale : 4 civilisations (Inca, Maya, Aztèque, Inde
+    dharmique) fonctionnent SANS dette structurelle, prouvant que l''intégration sociale admet d''autres formes (mit''a, tribut,
+    dharma-caste, monopole informationnel). La thèse de la dette comme universel est RÉFUTÉE par contre-exemples.'
+  position: rupture
+  f_atomiques_justificatifs:
+  - F-AM005
+  - F-AM006
+  - F-I001
+  - F-I002
+  - F-S003
+  - F-C003
+  - F-A001
+  shadow: 5.5
+- titre: 'THESE-003 : L''ANDURARUM EST UN RITUEL POLITIQUE, PAS UN MÉCANISME ÉCONOMIQUE (exception)'
+  enonce: 'L''andurarum mésopotamien n''est PAS un précédent de restructuration universelle de la dette : c''est un rituel
+    royal IRRÉGULIER (1 tous les 33 ans en moyenne), RESTREINT aux dettes agricoles, INSTRUMENTALISÉ à des fins de légitimité
+    politique. Charpin (Collège de France) contredit Hudson : l''andurarum a DISPARU après 1400 av. sans transmission.'
+  position: exception
+  f_atomiques_justificatifs:
+  - F-A001
+  - F-A002
+  - F-A003
+  - F-A004
+  - F-A005
+  - F-S014
+  - F-S003
+  shadow: 5.0
+- titre: 'THESE-004 : CAPTURE UNIVERSELLE, MÉCANISMES VARIABLES (continuité)'
+  enonce: 'Le phénomène de capture étatique par une élite (scribes, lettrés, clercs, énarques, brahmanes, quipucamayocs) est
+    UNIVERSEL et TRANS-TEMPOREL. Mais ses MÉCANISMES varient : formation longue (S, R, C, MA), naissance (I), monopole informationnel
+    (AM, I), tribunal-religion (IN), legs bureaucratique (MA). Toute réforme qui s''attaque à un mécanisme sans toucher aux
+    autres échoue.'
+  position: continuité
+  f_atomiques_justificatifs:
+  - F-S006
+  - F-R003
+  - F-C002
+  - F-MA002
+  - F-IN003
+  - F-I005
+  - F-AM007
+  shadow: 3.5
+- titre: 'THESE-005 : 5000 ANS DE STRUCTURES FONCTIONNELLES RÉCURRENTES (continuité, prudence)'
+  enonce: 'Les 11 enquêtes convergent sur l''existence de structures fonctionnelles RÉCURRENTES (dette, fiscalité, bureaucratie,
+    codification, monopole de l''écriture, dogme/idéologie) qui se reproduisent par convergence indépendante OU par filiation
+    multi-linéaire. La RECURRENCE n''est pas une FATALITÉ : c''est un EFFET DE CONTRAINTES MATÉRIELLES similaires (État, agriculture,
+    surplus, urbanisation).'
+  position: continuité
+  f_atomiques_justificatifs:
+  - F-S002
+  - F-R001
+  - F-C004
+  - F-MA003
+  - F-IN002
+  - F-I003
+  - F-AM002
+  - F-A006
+  shadow: 3.0
+meta_observations:
+- id: OBS-001
+  enonce: 'Distribution des shadow factors : 8 fiches principales [1.5-6.4] (médiane 3.0), 3 ICEBERG [3.1-3.8] (médiane 3.4).
+    Les ICEBERG sont volontairement prudents : leur auto-critique méthodologique réduit la confiance dans les thèses initiales.'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - MA
+  - IN
+  - I
+  - AM
+  - A
+  - IC-S
+  - IC-R
+  - IC-C
+- id: OBS-002
+  enonce: 'Asymétrie Est/Ouest du shadow : fiches occidentales (S, R, MA) médiane 2.8, fiches non-occidentales (C, IN, I,
+    AM) médiane 4.2. L''exotisme documentaire produit plus d''ombre : moins de sources directes, plus de biais de traduction,
+    moins de regards croisés.'
+  fiches_concernees:
+  - S
+  - R
+  - MA
+  - C
+  - IN
+  - I
+  - AM
+- id: OBS-003
+  enonce: 'Convergence de 9/11 fiches sur la transmission multi-linéaire : Sumer (filiations post-Ur III), Rome (Code civil
+    1804), Chine (Voltaire/confucianisme), MA (Bologne 1070), Islam (Cordoue/Tolède), Inde (Aryabhata/Al-Khwarizmi), Amériques
+    (paradoxe : isolement pré-1492), IC-S, IC-C. Seules 2 fiches (IC-R, A) ne se prononcent pas explicitement sur la question.'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - MA
+  - IN
+  - I
+  - AM
+  - IC-S
+  - IC-C
+- id: OBS-004
+  enonce: '3 ICEBERG réduisent la confiance dans les fiches mères : IC-S identifie 6 biais + 7 corrections (Sumer) ; IC-R
+    identifie 4 comparaisons inexactes + 6 angles morts (Rome) ; IC-C réduit la confiance de 77% à 50% (Chine). L''auto-critique
+    est une méthode originale du corpus.'
+  fiches_concernees:
+  - IC-S
+  - IC-R
+  - IC-C
+  - S
+  - R
+  - C
+- id: OBS-005
+  enonce: '3/11 fiches (I, AM, A) ont un shadow factor ≥ 5.0 : ce sont les 3 fiches les plus MARGINALISÉES du récit occidental
+    classique. L''ombre est un OBJET D''ÉTUDE : corrélation shadow ↔ marginalisation géographique/historiographique est non-aléatoire.'
+  fiches_concernees:
+  - I
+  - AM
+  - A
+transversalites:
+- id: TR-001
+  concept: Dette comme outil politique
+  description: 'La dette est manipulée politiquement dans la plupart des civilisations : annulation sélective (S), nexum (R),
+    monopole sel impérial (C), rentes ecclésiastiques (MA), riba (IN), dette de caste (I), tribut (AM), andurarum (A).'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - MA
+  - IN
+  - I
+  - AM
+  - A
+  faits_communs:
+  - F-S003
+  - F-R004
+  - F-C005
+  - F-MA004
+  - F-IN004
+  - F-I006
+  - F-AM005
+  - F-A001
+- id: TR-002
+  concept: Monopole de l'écriture/formation longue
+  description: 'Élite lettrée formée sur 7-12 ans : edubba sumérienne (S), studia romani (R), kejü impérial (C), universités
+    médiévales (MA), madrasa (IN), gurukul brahmanique (I), quipucamayocs (AM).'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - MA
+  - IN
+  - I
+  - AM
+  faits_communs:
+  - F-S006
+  - F-R003
+  - F-C002
+  - F-MA005
+  - F-IN005
+  - F-I005
+  - F-AM007
+- id: TR-003
+  concept: Codification du droit écrit
+  description: 'Codes juridiques explicites : Ur-Nammu (S), Douze Tables+Corpus (R), Tang Code (C), coutumier+glossateurs
+    (MA), charia+fiqh (IN), Dharmashastra (I), quipu (substitut, AM).'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - MA
+  - IN
+  - I
+  - AM
+  faits_communs:
+  - F-S002
+  - F-R001
+  - F-C001
+  - F-MA001
+  - F-IN001
+  - F-I007
+- id: TR-004
+  concept: Fiscalité royale/étatique
+  description: 'Prélèvement étatique sur la production : temple+palais (S), tributum+cens (R), monopole sel+fer (C), taille+gabelle
+    (MA), kharaj+zakat (IN), cessedanée (I), mit''a+tribut (AM).'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - MA
+  - IN
+  - I
+  - AM
+  - A
+  faits_communs:
+  - F-S005
+  - F-R005
+  - F-C004
+  - F-MA003
+  - F-IN002
+  - F-I008
+  - F-AM003
+- id: TR-005
+  concept: L'absence EST le fait
+  description: 'Les 4 civilisations sans dette (Inca, Maya, Aztèque, Inde dharmique) sont précisément les PLUS MAL CONNUES
+    du récit occidental. Le silence documentaire n''est pas un vide : c''est une trace de biais historiographique.'
+  fiches_concernees:
+  - I
+  - AM
+  - A
+  - IC-S
+  - IC-R
+  faits_communs:
+  - F-I001
+  - F-AM005
+  - F-A007
+  - F-IC-S015
+- id: TR-006
+  concept: Biais de source occidental
+  description: 'Les sources primaires sont filtrées par le regard occidental : assyriologie US (Kramer), romanité impériale
+    (Mommsen), sinologie jésuite (Voltaire), orientalisme (Said). Auto-critique nécessaire.'
+  fiches_concernees:
+  - IC-S
+  - IC-R
+  - IC-C
+  - I
+  - AM
+  faits_communs:
+  - F-IC-S001
+  - F-IC-S002
+  - F-IC-R001
+  - F-IC-C001
+  - F-I009
+- id: TR-007
+  concept: Chaînon tiers dans la transmission
+  description: 'Transmission via médiateurs : Bologne (MA) récupère Rome pour l''Europe, Cordoue (IN) traduit Grèce+Inde pour
+    l''Europe, Voltaire+Confucius (C) ramène Chine en Europe.'
+  fiches_concernees:
+  - MA
+  - IN
+  - C
+  - I
+  faits_communs:
+  - F-MA001
+  - F-IN001
+  - F-C001
+  - F-I001
+- id: TR-008
+  concept: Multiplication des codes dans le temps
+  description: 'Inflation législative : 57 articles Ur-Nammu (S) → 282 Hammourabi → ~1200 lignes Lipit-Ishtar → Corpus Justinien
+    4000+ → Code civil 2300 (France 1804) → 15000 lois+400000 pages (2025). Multiplicateur ×260 en 4000 ans.'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - MA
+  faits_communs:
+  - F-S002
+  - F-R001
+  - F-C001
+  - F-MA006
+- id: TR-009
+  concept: Réforme qui échoue
+  description: 'Les réformes structurelles butent sur l''inertie bureaucratique : Urukagina 2350 av. (S) est une RESTAURATION,
+    Gracques 133 av. (R) échouent, Glorious Revolution 1688 (MA) ne touche pas le trône, Réforme Bismarck 1880s (IN) ne change
+    pas le système des castes (I).'
+  fiches_concernees:
+  - S
+  - R
+  - MA
+  - I
+  - A
+  faits_communs:
+  - F-S018
+  - F-R006
+  - F-MA007
+  - F-I010
+  - F-A008
+- id: TR-010
+  concept: Idéologie/religion au service de l'État
+  description: 'Le dogme légitime l''ordre : religion sumérienne 3000 dieux (S), culte impérial romain (R), culte du Ciel+Confucius
+    (C), Ecclesia (MA), charia (IN), dharma (I), Soleil Inti (AM).'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - MA
+  - IN
+  - I
+  - AM
+  faits_communs:
+  - F-S009
+  - F-R007
+  - F-C006
+  - F-MA008
+  - F-IN006
+  - F-I011
+  - F-AM008
+- id: TR-011
+  concept: Standardisation de la langue administrative
+  description: 'Une langue technocratique isole l''élite : sumérien administratif (S) coexiste avec akkadien, latin juridique
+    (R) coexiste avec langues vernaculaires, lettré classique (C) coexiste avec baihua, arabe classique (IN) coexiste avec
+    dialectes, sanskrit (I) coexiste avec prakrit.'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - IN
+  - I
+  faits_communs:
+  - F-S006
+  - F-R008
+  - F-C007
+  - F-IN007
+  - F-I012
+- id: TR-012
+  concept: Biais de conservation des sources
+  description: 'Ce qui survit n''est pas ce qui dominait : textes administratifs sumériens > littérature privée, décrets romains
+    > vie quotidienne, archives impériales chinoises > protestations paysannes, manuscrits monastiques MA > pensée païenne.'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - MA
+  - IC-S
+  - IC-R
+  faits_communs:
+  - F-S019
+  - F-R009
+  - F-C008
+  - F-MA009
+  - F-IC-S005
+- id: TR-013
+  concept: Convergence multi-civilisationnelle de la capture
+  description: '5 mécanismes distincts mais effet identique (capture par élite) : formation (S, R, MA, C), naissance (I),
+    religion (IN, S), information (AM, C, MA), foncier (AM).'
+  fiches_concernees:
+  - S
+  - R
+  - C
+  - MA
+  - IN
+  - I
+  - AM
+  faits_communs:
+  - F-S006
+  - F-R003
+  - F-C002
+  - F-MA002
+  - F-IN003
+  - F-I005
+  - F-AM007
+cartes_positions:
+- fiche: S
+  position: continuité
+  justification: Sumer propose des structures fonctionnelles reproduites en France, mais à des échelles incommensurables (shadow
+    3.1)
+- fiche: R
+  position: continuité
+  justification: Rome est l'ancêtre DIRECT et TEXTUEL du Code civil français (Corpus Juris Civilis 529-534 → 1804)
+- fiche: C
+  position: continuité
+  justification: La Chine précède la France sur 5/7 mécanismes bureaucratiques de 700 à 2350 ans (APEX, 26 faits)
+- fiche: MA
+  position: continuité
+  justification: Le Moyen Âge est la CEINTURE DE TRANSMISSION qui fait passer Rome→France (Bologne 1070)
+- fiche: IN
+  position: continuité
+  justification: L'Islam est le chaînon manquant Rome→Europe via Cordoue-Tolède (IXe-XIIIe)
+- fiche: I
+  position: rupture
+  justification: 'L''Inde intègre par CASTE + DHARMA, pas par dette : réfute partiellement la thèse dette comme universel'
+- fiche: AM
+  position: rupture
+  justification: 'L''Inca fonctionne SANS dette, SANS monnaie, SANS marché : réfute la dette comme universel'
+- fiche: A
+  position: exception
+  justification: L'andurarum est un rituel politique IRRÉGULIER, pas un mécanisme économique (Charpin > Hudson)
+- fiche: IC-S
+  position: méta-critique
+  justification: 'Auto-critique : 6 biais + 7 corrections dans l''enquête Sumer originale'
+- fiche: IC-R
+  position: méta-critique
+  justification: 'Auto-critique : 4 comparaisons inexactes + 6 angles morts dans l''enquête Rome'
+- fiche: IC-C
+  position: méta-critique
+  justification: 'Auto-critique : confiance réduite de 77% à 50% dans l''enquête Chine'
+gaps:
+- 'GAP-001 : Civilisations africaines (Égypte pharaonique, Carthage, Axoum, Ghana, Mali) absentes du corpus'
+- 'GAP-002 : Civilisations océaniennes (Maoris, Hawaïens, Polynésiens) absentes du corpus'
+- 'GAP-003 : Asie du Sud-Est (Khmer, Srivijaya, Majapahit) absente du corpus'
+- 'GAP-004 : Sources en langues originales (akkadien, sanskrit, chinois classique, quechua) absentes du corpus - uniquement
+  sources occidentales'
+- 'GAP-005 : Sources arabes, persanes, turques sur l''Islam absentes du corpus - uniquement orientalisme'
+- 'GAP-006 : Période 1500-1800 (entre MA tardif et Révolution) peu documentée'
+- 'GAP-007 : Mécanisme précis de la ''réforme qui échoue'' (TR-009) - 5 cas mais aucune théorie unifiée'
+- 'GAP-008 : Quantification des OMBRES par fiche (chaque ombre est estimée subjectivement)'
+shadow_factor_global: 3.8
+mnemo_context:
+  searches:
+  - query: transmission multi-linéaire civilisations dette droit Sumer Rome Chine
+    results: 0
+    top_hits: []
+    note: 'search_mode: tag_only, base non indexée pour ce sujet'
+  - query: dette universelle andurarum Charpin Hudson Ammisaduqa
+    results: 0
+    top_hits: []
+    note: 'search_mode: tag_only'
+  - query: capture État bureaucrates formation scribes edubba enarques caste
+    results: 0
+    top_hits: []
+    note: 'search_mode: tag_only'
+  - query: codes droit Sumer Ur-Nammu Code civil France filiation Rome Justinien
+    results: 0
+    top_hits: []
+    note: 'search_mode: tag_only'
+  - query: Islam Cordoue Tolède chaînon manquant transmission savoir Europe
+    results: 0
+    top_hits: []
+    note: 'search_mode: tag_only'
+  cross_series_detected: false
+  cross_series_details: 'Mnemolite est UP (ping OK) mais la base vectorielle n''est pas indexée pour les 11 sujets du corpus
+    Sumer/2026. Les recherches en mode tag_only retournent 0 résultat. Fallback utilisé : fichiers YAML locaux des 11 quintessences.
+    Recommandation : indexer les 11 quintessences dans Mnemolite pour permettre la recherche sémantique.'

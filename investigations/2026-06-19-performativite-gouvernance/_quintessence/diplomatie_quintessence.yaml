@@ -1,0 +1,352 @@
+enquete_id: "diplomatie"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "/home/giak/projects/truth-engine/investigations/2026-06-19-performativite-gouvernance/2026-06-19_12-00_diplomatie_afrique_performative_APEX.md"
+these_centrale: "La diplomatie française en Afrique sous Emmanuel Macron (2017-2026) est performative — les énoncés de rupture (Ouagadougou 2017, Abidjan 2019, Africa Forward 2026) produisent un effet d'annonce sans transformation des structures réelles (CFA inchangé depuis 80 ans, bases militaires maintenues puis fermées tardivement, 23 Md€ sans mécanisme de suivi, réseaux Françafrique opérationnels). La fonction de ces discours n'est pas de changer la relation mais d'en rendre la continuation acceptable."
+theses_implicites:
+  - "Le discours d'Ouagadougou (2017) prétendait acter la fin du « pré carré » mais 9 ans plus tard, le CFA n'a pas été remplacé (parité fixe euro maintenue, Banque de France garante), les bases n'ont pas fermé (Sénégal, Côte d'Ivoire, Gabon, Djibouti), et les réseaux économiques (TotalEnergies, Bolloré, Orange) opèrent inchangés."
+  - "La « réforme » du CFA (Abidjan 2019) est qualifiée d'« homéopathique » par Nicolas Normand (ex-ambassadeur) — suppression du dépôt obligatoire des réserves et retrait des représentants français, mais maintien de la parité fixe et de la garantie française (prêteur en dernier ressort). L'Eco, censé remplacer le CFA, est repoussé sine die (2019→2020→2027)."
+  - "Africa Forward (Nairobi, mai 2026) est un sommet-vitrine: 23 Md€ annoncés, 250 000 emplois promis, 35 chefs d'État, 7 000 participants — mais zéro mécanisme contraignant dans la Déclaration de Nairobi. Le soft power français recule pour la première fois depuis 2021 (Brand Finance: France 6e mondiale, -47 places potentiel croissance)."
+  - "L'opération Barkhane (2014-2022, 5 000 soldats, 1 Md€/an, 59 morts) s'achève sur 3 putschs (Mali 2020/21, Burkina 2022, Niger 2023), un retrait forcé présenté comme « décision stratégique », et un remplacement par Wagner/Africa Corps (présent dans 44 pays africains)."
+  - "Le Sommet de Pau (janvier 2020) — ultimatum paternaliste de Macron aux 5 présidents G5 Sahel — a accéléré la rupture plutôt que renforcer la coopération: les 3 putschs ont suivi dans les 3 ans."
+faits_atomiques:
+  - id: "F-diplomatie-001"
+    enonce: "Discours Ouagadougou: « Il n'y a plus de politique africaine de la France » (28 novembre 2017)"
+    source_url: "https://www.elysee.fr/emmanuel-macron/2017/11/28/discours-demmanuel-macron-a-luniversite-de-ouagadougou"
+    source_section: "§11 (F001)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-002"
+    enonce: "CFA créé par le gouvernement français le 26 décembre 1945 — toujours en vigueur en 2026"
+    source_url: "https://fr.wikipedia.org/wiki/Franc_CFA"
+    source_section: "§11 (F002)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-003"
+    enonce: "Réforme CFA annoncée à Abidjan par Macron+Ouattara le 21 décembre 2019 (fin dépôt 50% réserves, retrait représentants France)"
+    source_url: "https://www.elysee.fr/emmanuel-macron/2019/12/21/a-abidjan-conference-de-presse-du-president-emmanuel-macron-avec-alassane-ouattara-president-de-la-republique-de-cote-divoire"
+    source_section: "§11 (F003)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-004"
+    enonce: "Nicolas Normand qualifie la réforme CFA d'« homéopathique »"
+    source_url: "https://www.franceinfo.fr/monde/afrique/politique-africaine/visite-d-emmanuel-macron-en-afrique-le-poids-d-un-neocolonialisme-n-est-plus-accepte-explique-nicolas-normand-ancien-ambassadeur-de-france-au-mali-au-congo-brazzaville-et-au-senegal_7636460.html"
+    source_section: "§11 (F004)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-005"
+    enonce: "Pays anglophones CEDEAO dénoncent la « renommer unilatérale » du CFA en Eco (janvier 2020)"
+    source_url: "https://www.lefigaro.fr/flash-eco/les-pays-anglophones-d-afrique-de-l-ouest-denoncent-la-decision-unilaterale-de-renommer-le-cfa-en-eco-20200116"
+    source_section: "§11 (F005)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-006"
+    enonce: "Eco monnaie unique CEDEAO: 1ère phase possible sans UEMOA (sans pays CFA) — février 2026"
+    source_url: "https://www.agenceecofin.com/actualites/1702-135865-vers-le-lancement-de-l-eco-la-monnaie-unique-de-la-cedeao-sans-l-uemoa"
+    source_section: "§11 (F006)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-007"
+    enonce: "Opération Barkhane (2014-2022): 5 000 soldats, 1 Md€/an, 59 soldats morts"
+    source_url: "https://www.defense.gouv.fr/operations/bande-sahelo-saharienne/operation-barkhane"
+    source_section: "§11 (F007)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-008"
+    enonce: "Sommet de Pau (13 janvier 2020): Macron réunit 5 présidents G5 Sahel — ultimatum paternaliste"
+    source_url: "https://www.elysee.fr/emmanuel-macron/2020/01/13/sommet-de-pau-declaration-conjointe-des-chefs-detat"
+    source_section: "§11 (F008)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-009"
+    enonce: "Coup d'État au Mali (18 août 2020) — Assimi Goïta"
+    source_url: "https://www.lemonde.fr/afrique/article/2020/08/18/mali-ce-que-l-on-sait-du-coup-d-etat-en-cours_5349313_3212.html"
+    source_section: "§11 (F009)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-010"
+    enonce: "Coup d'État au Burkina Faso (24 janvier 2022) — Ibrahim Traoré"
+    source_url: "https://www.jeuneafrique.com/1286458/politique/burkina-faso-le-putschiste-damiba-prend-le-pouvoir/"
+    source_section: "§11 (F010)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-011"
+    enonce: "Coup d'État au Niger (26 juillet 2023) — Tchiani"
+    source_url: "https://www.lemonde.fr/afrique/article/2023/07/27/niger-des-militaires-annoncent-la-suspension-de-la-constitution-et-la-fin-du-regime-de-bazoum_6183535_3212.html"
+    source_section: "§11 (F011)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-012"
+    enonce: "Fin officielle Barkhane (9 novembre 2022): 59 soldats morts, 125 000 militaires servis"
+    source_url: "https://www.bfmtv.com/international/afrique/mali/fin-de-l-operation-barkhane-quel-bilan-pour-les-forces-armees-francaises-au-mali_AN-202211090458.html"
+    source_section: "§11 (F012)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-013"
+    enonce: "Soft power France recule pour 1ère fois depuis 2021 — 6e mondiale, -47 places potentiel croissance"
+    source_url: "https://brandfinance.com/press-releases/lindice-de-soft-power-de-la-france-recule-pour-la-premiere-fois-depuis-2021"
+    source_section: "§11 (F013)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-014"
+    enonce: "Africa Forward: Macron annonce 23 Md€ d'investissements (14 Md€ français + 9 Md€ africains), 250 000 emplois promis"
+    source_url: "https://www.rfi.fr/fr/%C3%A9conomie/20260511-sommet-africa-forward-macron-annonce-23-milliards-d-euros-d-investissements-fran%C3%A7ais-et-africains-en-afrique"
+    source_section: "§11 (F014)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-015"
+    enonce: "« L'ère du pré carré français est terminée depuis 2017 » — Macron à Nairobi (10 mai 2026)"
+    source_url: "https://www.france24.com/fr/afrique/20260510-au-kenya-macron-affirme-que-l-%C3%A8re-du-pr%C3%A9-carr%C3%A9-fran%C3%A7ais-en-afrique-est-termin%C3%A9e-depuis-2017"
+    source_section: "§11 (F015)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-016"
+    enonce: "Déclaration de Nairobi adoptée (12 mai 2026): zéro mécanisme contraignant"
+    source_url: "https://africabrief.substack.com/p/africa-forward-summit-adopts-landmark"
+    source_section: "§11 (F016)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-017"
+    enonce: "Échec Wagner au Mali: décès jihad passe de 736/an (2012-2021) à 3 135/an (2022-2024)"
+    source_url: "https://issafrica.org/fr/iss-today/quelles-consequences-de-la-defaite-de-wagner-pour-le-mali"
+    source_section: "§11 (F017)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-018"
+    enonce: "Bases françaises: aucune fermeture annoncée (Sénégal, Côte d'Ivoire, Gabon, Djibouti) — février 2026"
+    source_url: "https://www.lemonde.fr/afrique/article/2026/02/09/la-france-reconstruit-sa-strategie-de-defense-en-afrique_6666025_3212.html"
+    source_section: "§11 (F018)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-019"
+    enonce: "Crise diplomatique France-Algérie: expulsion d'agents consulaires (15 avril 2025)"
+    source_url: "https://www.elysee.fr/emmanuel-macron/2025/04/15/communique-algerie"
+    source_section: "§11 (F019)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-020"
+    enonce: "Macron reconnaît souveraineté du Maroc sur le Sahara occidental (30 juillet 2024)"
+    source_url: "https://www.lemonde.fr/afrique/article/2024/07/30/macron-reconnait-la-souverainete-du-maroc-sur-le-sahara-occidental_6258022_3212.html"
+    source_section: "§11 (F020)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-021"
+    enonce: "La France reconstruit sa stratégie de défense en Afrique — février 2026"
+    source_url: "https://www.lemonde.fr/afrique/article/2026/02/09/la-france-reconstruit-sa-strategie-de-defense-en-afrique_6666025_3212.html"
+    source_section: "§11 (F021)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-022"
+    enonce: "Feuille de route de l'influence/soft power (Quai d'Orsay) — décembre 2021, mise à jour janvier 2026"
+    source_url: "https://www.diplomatie.gouv.fr/en/le-ministere/publications-programmes-et-documentation-institutionnelle/publications/documents-institutionnels/feuille-de-route-de-l-influence"
+    source_section: "§11 (F022)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-023"
+    enonce: "The Conversation: « Macron a accru la méfiance et la colère en Afrique »"
+    source_url: "https://theconversation.com/la-france-en-afrique-pourquoi-les-politiques-de-macron-ont-accru-la-mefiance-et-la-colere-212988"
+    source_section: "§11 (F023)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-024"
+    enonce: "Reflux influence française en Afrique: guerre informationnelle et concurrence des puissances"
+    source_url: "https://www.institut-sciences-strategiques.org/france/le-reflux-de-l-influence-en-afrique-guerre-informationnelle-et-concurrence-des-puissances/"
+    source_section: "§11 (F024)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-025"
+    enonce: "Diplomatie.gouv confirme 23 Md€ Africa Forward, partenariat renouvelé"
+    source_url: "https://www.diplomatie.gouv.fr/fr/le-ministere-en-action/contribuer-a-une-mondialisation-durable-et-equilibree/strategies-regionales/les-enjeux-de-la-diplomatie-francaise-en-afrique/africa-forward-un-sommet-pour-un-partenariat-renouvele-entre-les-pays-africains-et-la-france"
+    source_section: "§11 (F025)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-diplomatie-026"
+    enonce: "Barkhane bilan: 125 000 militaires servis, 59 morts (Parly, 2022)"
+    source_url: "https://lignesdedefense.ouest-france.fr/les-operations-serval-et-barkhane-en-quelques-chiffres"
+    source_section: "§11 (F026)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-diplomatie-027"
+    enonce: "Wagner/Africa Corps opérationnel dans 44 pays africains (2025)"
+    source_url: "https://issafrica.org/fr/iss-today/quelles-consequences-de-la-defaite-de-wagner-pour-le-mali"
+    source_section: "§11 (F027)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+acteurs:
+  - nom: "Emmanuel Macron"
+    role: "Président France 2017-2027. Performateur en chef de la diplomatie Afrique. Discours Ouagadougou → Africa Forward."
+    type: "Décideur"
+    poids: 10
+  - nom: "Nicolas Normand"
+    role: "Ex-ambassadeur (Mali, Sénégal, Congo). Contre-voix interne. Critique la réforme CFA homéopathique."
+    type: "Contre-voix"
+    poids: 5
+  - nom: "Alassane Ouattara"
+    role: "Président Côte d'Ivoire. Relais local de la réforme CFA. Négociateur avec Macron en juillet 2019."
+    type: "Relais local"
+    poids: 7
+  - nom: "William Ruto"
+    role: "Président Kenya. Co-host Africa Forward. Pont vers Afrique anglophone."
+    type: "Allié diplomatique"
+    poids: 5
+  - nom: "Assimi Goïta / Ibrahim Traoré"
+    role: "Présidents transition Mali/Burkina. Rejecteurs du système français. Alliés Wagner/Africa Corps."
+    type: "Opposant"
+    poids: 7
+  - nom: "Vincent Bolloré"
+    role: "Homme d'affaires. Réseau économique informel. Intérêts portuaires/logistiques Afrique."
+    type: "Réseau économique"
+    poids: 6
+  - nom: "Clément Léonarduzzi"
+    role: "Spin doctor Macron, VP Publicis. Architecte invisible du cadrage narratif Afrique."
+    type: "Spin doctor"
+    poids: 4
+  - nom: "Brand Finance"
+    role: "Cabinet conseil. Documente le recul du soft power français en 2026."
+    type: "Observateur"
+    poids: 3
+causalites:
+  - id: "C-diplomatie-01"
+    enonce: "Discours Ouagadougou (2017) → Pas de changement structurel CFA → Annonce réforme Abidjan (2019) → Pays anglophones dénoncent → CFA toujours en vigueur 2026 → Eco risqué sans UEMOA"
+    type: "Discours de rupture → Status quo monétaire"
+  - id: "C-diplomatie-02"
+    enonce: "Sommet de Pau (ultimatum 2020) → 3 putschs Mali/Burkina/Niger → Retrait Barkhane (2022) → Wagner/Africa Corps arrive → Décès jihad ×4"
+    type: "Paternalisme militaire → Putschs → Perte influence"
+  - id: "C-diplomatie-03"
+    enonce: "Africa Forward (2026) → 23 Md€ annoncés → Zéro mécanisme contraignant → Aucun calendrier → Maintien structures économiques"
+    type: "Sommet-vitrine → Promesses sans exécution"
+  - id: "C-diplomatie-04"
+    enonce: "Discours performatif → Dissonance vécu/discours → Antifrançaisme monte → Soft power recule → Brand Finance -47 places"
+    type: "Performativité → Perte de soft power"
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "La France a rompu avec la Françafrique: le discours d'Ouagadougou (2017) a acté la fin du pré carré, la réforme du CFA (2019) a supprimé le compte d'opérations, Africa Forward (2026) concrétise une nouvelle relation d'égal à égal via l'investissement. Le retrait du Sahel répond aux demandes africaines."
+  - position: "Antithèse"
+    argument: "Rien n'a changé: le CFA existe toujours avec parité fixe et garantie française, les bases n'ont pas fermé, les 23 Md€ sont des promesses sans suivi, le sommet de Nairobi est une vitrine, les réseaux économiques (TotalEnergies, Bolloré, Orange) opèrent inchangés. La réforme CFA est « homéopathique »."
+  - position: "Synthèse"
+    argument: "La France opère une transition de régime impérial: de l'empire militaire direct (bases, Barkhane, CFA comme pilier) à un empire économique indirect (investissements, normes, contrats, soft power). Les leviers changent de nature mais l'asymétrie reste. Le discours de rupture est la condition de possibilité de cette transition — sans lui, les opinions africaines exigeraient une rupture réelle."
+limites:
+  - "Pays non-francophones Afrique australe/orientale non couverts (sauf Kenya)"
+  - "Politique intérieure française non centrale"
+  - "Rôle UE en Afrique non détaillé"
+  - "Histoire pré-2017 seulement contextuelle"
+  - "Accords de défense secrets non publics"
+  - "Biais de sources: sur-représentation sources françaises, sous-représentation sources africaines locales"
+wolves:
+  - id: "W-diplomatie-01"
+    enonce: "Emmanuel Macron — performateur en chef. Architecte narratif de la diplomatie performative. Maintient CFA + bases tout en disant « pré carré terminé ». Discours Ouagadougou → Africa Forward comme cycle performatif."
+    confiance: "Élevée"
+  - id: "W-diplomatie-02"
+    enonce: "Alassane Ouattara — relais local du système CFA. A verrouillé la parité fixe avec Macron sans consulter les 7 autres pays UEMOA (juillet 2019)."
+    confiance: "Élevée"
+  - id: "W-diplomatie-03"
+    enonce: "Vincent Bolloré — réseau économique informel. Intérêts portuaires et logistiques en Afrique comme pilier de l'influence économique française."
+    confiance: "Élevée"
+  - id: "W-diplomatie-04"
+    enonce: "Clément Léonarduzzi — spin doctor de la communication Afrique. VP Publicis. Architecte invisible du cadrage narratif des sommets."
+    confiance: "Moyenne"
+  - id: "W-diplomatie-05"
+    enonce: "La stratégie néolibérale (entrepreneuriat, business) comme substitut aux changements structurels — le « pacifisme des affaires » remplace le paternalisme militaire sans transformer les rapports de force."
+    confiance: "Élevée"
+iceberg:
+  - niveau: "SURFACE (visible)"
+    contenu: "Discours Ouagadougou 2017, réforme CFA Abidjan 2019, Africa Forward Nairobi 2026 (23 Md€, 35 chefs d'État), retrait Barkhane présenté comme décision stratégique"
+  - niveau: "MI-PROFONDEUR (partiellement visible)"
+    contenu: "CFA: parité fixe euro maintenue, Banque de France garante; Eco repoussé 2020→2027; bases françaises Sénégal/Côte d'Ivoire/Gabon/Djibouti ouvertes; Barkhane 59 morts, 1 Md€/an, 3 putschs; 23 Md€ sans mécanisme de suivi"
+  - niveau: "PROFONDEUR (structurel, invisible)"
+    contenu: "Architecture monétaire néocoloniale (parité fixe + garantie France), réseaux économiques TotalEnergies/Bolloré/Orange, AFD conditionnée, accords de défense secrets, rivalité Wagner/Africa Corps (44 pays)"
+  - niveau: "FACTOR (moteur)"
+    contenu: "Nécessité de maintenir l'influence française sans le coût politique de l'occupation militaire — transition de la Françafrique des généraux à la Françafrique des businessmen. Le discours de rupture comme condition de possibilité de cette transition"
+chronologie:
+  - date: "1945-12-26"
+    evenement: "Création du franc CFA"
+  - date: "2014-08-01"
+    evenement: "Lancement opération Barkhane (5 000 soldats, 1 Md€/an)"
+  - date: "2017-11-28"
+    evenement: "Discours Ouagadougou: « Il n'y a plus de politique africaine de la France »"
+  - date: "2019-12-21"
+    evenement: "Macron+Ouattara annoncent réforme CFA à Abidjan"
+  - date: "2020-01-13"
+    evenement: "Sommet de Pau — ultimatum paternaliste aux 5 présidents G5 Sahel"
+  - date: "2020-08-18"
+    evenement: "Coup d'État Mali (Goïta)"
+  - date: "2022-01-24"
+    evenement: "Coup d'État Burkina Faso (Traoré)"
+  - date: "2022-11-09"
+    evenement: "Fin officielle Barkhane — 59 soldats morts"
+  - date: "2023-07-26"
+    evenement: "Coup d'État Niger (Tchiani)"
+  - date: "2024-07-30"
+    evenement: "Macron reconnaît souveraineté Maroc sur Sahara — crise Algérie"
+  - date: "2026-01-20"
+    evenement: "Soft power France recule (Brand Finance)"
+  - date: "2026-02-17"
+    evenement: "Eco sans UEMOA envisagé par pays anglophones CEDEAO"
+  - date: "2026-05-10"
+    evenement: "Macron à Nairobi: « pré carré terminé depuis 2017 »"
+  - date: "2026-05-11"
+    evenement: "Africa Forward: 23 Md€ annoncés, 250 000 emplois promis"
+  - date: "2026-05-12"
+    evenement: "Déclaration de Nairobi: zéro mécanisme contraignant"
+domaines:
+  - nom: "Monétaire"
+    impact: "CFA 80 ans, parité fixe euro, garantie France; Eco repoussé; 8 pays UEMOA sous régime CFA"
+  - nom: "Militaire"
+    impact: "Barkhane 59 morts, 1 Md€/an, 3 putschs; bases maintenues; Wagner/Africa Corps dans 44 pays"
+  - nom: "Diplomatique"
+    impact: "Africa Forward vitrine sans engagement; crise Algérie; soft power en recul"
+  - nom: "Économique"
+    impact: "23 Md€ annoncés sans suivi; TotalEnergies/Orange/Bolloré contrôlent secteurs clés"
+  - nom: "Psychosocial"
+    impact: "Antifrançaisme croissant; dissonance discours/réalité; instrumentalisation mémoire coloniale"
+urls_prioritaires:
+  - url: "https://www.elysee.fr/emmanuel-macron/2017/11/28/discours-demmanuel-macron-a-luniversite-de-ouagadougou"
+    description: "Discours Ouagadougou 2017 — 'Il n'y a plus de politique africaine de la France'"
+    head_status: 200
+  - url: "https://www.elysee.fr/emmanuel-macron/2019/12/21/a-abidjan-conference-de-presse-du-president-emmanuel-macron-avec-alassane-ouattara-president-de-la-republique-de-cote-divoire"
+    description: "Conférence Abidjan 2019 — annonce réforme CFA Macron-Ouattara"
+    head_status: 200
+  - url: "https://www.rfi.fr/fr/%C3%A9conomie/20260511-sommet-africa-forward-macron-annonce-23-milliards-d-euros-d-investissements-fran%C3%A7ais-et-africains-en-afrique"
+    description: "RFI — Africa Forward: 23 Md€ annoncés, 250 000 emplois promis"
+    head_status: 200
+  - url: "https://www.defense.gouv.fr/operations/bande-sahelo-saharienne/operation-barkhane"
+    description: "Ministère Défense — Opération Barkhane: 5 000 soldats, 1 Md€/an, 59 morts"
+    head_status: 200
+  - url: "https://brandfinance.com/press-releases/lindice-de-soft-power-de-la-france-recule-pour-la-premiere-fois-depuis-2021"
+    description: "Brand Finance 2026 — Soft power France recule, -47 places potentiel croissance"
+    head_status: 200
+shadow_factor: 6.5
+mnemo_queries:
+  - query: "diplomatie France Afrique CFA Barkhane Macron Ouagadougou"
+    results_count: 5
+    results_note: "Investigation APEX déjà indexée (score 0.033). Connexes: investigation performativité mensonge systémique V2, réseau Léonarduzzi/Telling, réseau Mimi Marchand/Bolloré."
+  - query: "Africa Forward soft power France influence Sahel putsch"
+    results_count: 5
+    results_note: "Investigation diplomatie déjà indexée. Connexes: investigation architecture invisible pouvoir, comparaison France-Estonie numérique public."

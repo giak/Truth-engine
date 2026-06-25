@@ -1,0 +1,257 @@
+enquete_id: "climat"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "investigations/2026-06-19-performativite-gouvernance/2026-06-19_11-00_climat_performatif_promesses_APEX.md"
+these_centrale: "La politique climatique française est un cas paradigmatique de performativité législative : production intensive de textes, plans et stratégies (SNBC 1-2-3, PPE, LPEC, ZAN, PNACC, SPAFTE, SGPE, COP régionales) sans traduction dans les budgets, les investissements, ni les émissions réelles — l'écart entre le discours et le réel atteint un facteur 3 mesurable."
+theses_implicites:
+  - "La France utilise la production de plans climat (SNBC, PPE, SPAFTE) comme substitut à l'action, chaque nouveau plan justifiant le précédent sans qu'aucun indicateur ne s'améliore structurellement"
+  - "Le découplage entre les discours présidentiels ('Ce quinquennat sera écologique') et les arbitrages budgétaires (Fonds vert divisé par 4) est systémique, pas accidentel"
+  - "L'absence de mécanisme de sanction pour non-respect des budgets carbone rend toute planification climatique juridiquement non contraignante"
+  - "La réduction réelle des émissions françaises est principalement tirée par des facteurs exogènes (désindustrialisation, COVID, crise énergétique) plutôt que par les politiques climatiques"
+faits_atomiques:
+  - id: "F-climat-001"
+    enonce: "SNBC3 publiée en projet le 12 décembre 2025, adoption par décret attendue été 2026"
+    source_url: "https://www.ecologie.gouv.fr/politiques-publiques/3e-strategie-nationale-bas-carbone-snbc-3"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-002"
+    enonce: "Objectif SNBC3 : -50 % émissions 1990→2030 (279 MtCO2eq)"
+    source_url: "https://www.ecologie.gouv.fr/presse/ultime-consultation-troisieme-strategie-nationale-bas-carbone-snbc-3-france-presente-sa"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-003"
+    enonce: "Baisse des émissions 2025 : -1,5 % (Citepa, baromètre mensuel avril 2026)"
+    source_url: "https://www.citepa.org/nouvelle-estimation-des-emissions-de-lannee-2025-par-le-barometre-mensuel-du-citepa/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-004"
+    enonce: "Rythme requis : -5 %/an entre 2025 et 2028 (SNBC3 / HCC)"
+    source_url: "https://www.ecologie.gouv.fr/sites/default/files/documents/HCC_2026_Avis-SNBC-3_VF_1203.pdf"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-005"
+    enonce: "HCC (mars 2026) : 'crédibilité de l'accélération se pose'"
+    source_url: "https://www.ecologie.gouv.fr/sites/default/files/documents/HCC_2026_Avis-SNBC-3_VF_1203.pdf"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-006"
+    enonce: "Trois secteurs concentrent 75 % du retard : transport, bâtiment, agriculture"
+    source_url: "https://www.actualites-news-environnement.com/hcc-rapport-annuel-juin-2026-trajectoire-climat-france-snbc3/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-007"
+    enonce: "Transport : baisse -1,4 % en 2025 (34 % des émissions), vs -6 % requis"
+    source_url: "https://www.citepa.org/nouvelle-estimation-des-emissions-de-lannee-2025-par-le-barometre-mensuel-du-citepa/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-008"
+    enonce: "Fonds vert : 2,5 Md€ (2024) → 1,15 Md€ (2025) → 650 M€ (PLF 2026) — baisse de 74 %"
+    source_url: "https://www.senat.fr/rap/l25-139-310-1/l25-139-310-112.html"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-009"
+    enonce: "Sénat : le 'stop and go' des crédits Fonds vert est 'incompatible avec une véritable politique d'investissement'"
+    source_url: "https://www.senat.fr/rap/l25-139-310-1/l25-139-310-112.html"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-010"
+    enonce: "SPAFTE 2025 : besoin de +82 Md€/an d'investissements bas-carbone supplémentaires d'ici 2030"
+    source_url: "https://www.citepa.org/pour-atteindre-ses-objectifs-climatiques-la-france-doit-doubler-son-total-dinvestissements-bas-carbone-annuels-dici-2030-spafte-2025/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-011"
+    enonce: "Investissements bas-carbone 2024 : 113 Md€, en baisse de 3 Md€ par rapport à 2023"
+    source_url: "https://www.i4ce.org/publication/panorama-financements-climat-edition-2025/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-012"
+    enonce: "LPEC devait être adoptée avant le 1er juillet 2023, toujours pas votée en juin 2026 (3 ans de retard)"
+    source_url: "https://www.publicsenat.fr/actualites/environnement/programmation-pluriannuelle-de-lenergie-lexecutif-sous-pression-maintient-le-flou"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-013"
+    enonce: "PPE3 adoptée par décret en février 2026 (voie réglementaire, pas loi), 3 ans de retard"
+    source_url: "https://www.publicsenat.fr/actualites/politique/programmation-pluriannuelle-de-lenergie-le-choix-dun-decret-par-sebastien-lecornu-passe-mal-au-senat"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-014"
+    enonce: "ZAN : objectif intermédiaire 2031 supprimé par le Sénat (mars 2025), assoupli 3 fois en 5 ans"
+    source_url: "https://www.publicsenat.fr/actualites/parlementaire/zan-le-senat-vote-lassouplissement-de-la-loi-sur-lartificialisation-des-sols"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-015"
+    enonce: "Émissions mondiales : +62 % entre 1990 et 2023 (Citepa / Chiffres clés climat 2025)"
+    source_url: "https://www.statistiques.developpement-durable.gouv.fr/chiffres-cles-du-climat-france-europe-et-monde-edition-2025"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-016"
+    enonce: "Baisse des émissions France 1990-2023 : -31 % (objectif -50 % en 2030)"
+    source_url: "https://www.statistiques.developpement-durable.gouv.fr/chiffres-cles-du-climat-france-europe-et-monde-edition-2025"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-017"
+    enonce: "5e Conseil de planification écologique (19 mai 2026) : 10 ministres, aucun arbitrage budgétaire nouveau"
+    source_url: "https://www.elysee.fr/emmanuel-macron/2026/05/19/communique-du-conseil-de-planification-ecologique"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-018"
+    enonce: "665 cas de désinformation climatique dans médias audiovisuels en 2025, 80 % sur CNews/Europe1 (QuotaClimat)"
+    source_url: "https://quotaclimat.org/"
+    source_section: "§1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-climat-019"
+    enonce: "Accord de Paris : réchauffement projeté à +2,6-2,8 °C avec les politiques actuelles"
+    source_url: "https://theconversation.com/accord-de-paris-dix-ans-dengagements-un-ecart-climatique-persistant-271574"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-climat-020"
+    enonce: "DG Trésor / SNBC3 : coût de l'inaction climatique = -11,4 points de PIB d'ici 2050"
+    source_url: "https://www.ecologie.gouv.fr/sites/default/files/documents/R%C3%A9sum%C3%A9_SNBC3.pdf"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+acteurs:
+  - nom: "Emmanuel Macron"
+    role: "Président de la République — 'Ce quinquennat sera écologique' (2022), 5 conseils de planification écologique, mais arbitrages budgétaires défavorables"
+    faits_lies: ["F-climat-017"]
+  - nom: "Jean-François Soussana"
+    role: "Président du Haut Conseil pour le Climat — 7 rapports annuels, avis SNBC3 alertant sur la crédibilité"
+    faits_lies: ["F-climat-004", "F-climat-005"]
+  - nom: "Citepa"
+    role: "Organisme indépendant — inventaire CCNUCC, baromètre mensuel, rapport Secten"
+    faits_lies: ["F-climat-003", "F-climat-015", "F-climat-016"]
+  - nom: "Augustin Augier"
+    role: "SGPE — planification écologique, alerte sur le retard entre objectifs et résultats"
+    faits_lies: ["F-climat-010"]
+  - nom: "I4CE"
+    role: "Institut de l'économie pour le climat — Panorama des financements climat"
+    faits_lies: ["F-climat-011"]
+causalites:
+  - cause: "F-climat-008"
+    effet: "F-climat-003"
+    mecanisme: "La réduction du Fonds vert de 74 % en 3 ans prive les collectivités de moyens pour la transition, ralentissant structurellement la baisse des émissions"
+  - cause: "F-climat-012"
+    effet: "F-climat-013"
+    mecanisme: "L'absence de vote de la LPEC contraint le gouvernement à adopter la PPE par décret, contournant le Parlement et fragilisant juridiquement la planification"
+  - cause: "F-climat-010"
+    effet: "F-climat-011"
+    mecanisme: "Les besoins identifiés par l'État lui-même (+82 Md€/an) sont ignorés dans le PLF, les investissements baissent au lieu d'augmenter"
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "La France est un leader climatique (COP21, SNBC, planification écologique, électricité décarbonée, -31 % d'émissions 1990-2023)"
+  - position: "Antithèse"
+    argument: "La France produit des plans sans les financer, promet sans contraindre, légifère sans sanction — l'écart discours-réel atteint un facteur 3"
+  - position: "Synthèse"
+    argument: "La performativité climatique française est un système auto-entretenu où la production de plans (SNBC, PPE, LPEC, SPAFTE) sert de substitut à l'action, et où la réduction réelle des émissions est principalement tirée par des facteurs exogènes (désindustrialisation, COVID, crise énergétique)"
+limites:
+  - "L'enquête couvre les émissions territoriales uniquement, pas l'empreinte carbone (émissions importées)"
+  - "Les chiffres d'émissions 2025 sont des estimations Citepa provisoires, pas l'inventaire consolidé CCNUCC"
+  - "Ne couvre pas la dimension européenne (Fit for 55, ETS, CBAM)"
+  - "Ne couvre pas l'adaptation au changement climatique (PNACC)"
+wolves:
+  - nom: "La baisse T1 2026 (-5,2 %) comme preuve d'inflexion"
+    argument: "Le Citepa mesure -5,2 % au T1 2026, preuve que la politique climatique commence à porter ses fruits"
+    reponse: "Cette baisse est attribuée par la ministre Barbut à la 'crise au Moyen-Orient' (baisse conjoncturelle du carburant), pas aux politiques climatiques structurelles"
+  - nom: "Le Fonds vert présenté comme une hausse"
+    argument: "Le Fonds vert 2026 à 837 M€ est présenté comme une hausse par Lecornu par rapport aux 650 M€ du PLF initial"
+    reponse: "837 M€ reste une baisse de 27 % par rapport à 2025 (1,15 Md€) et de 67 % par rapport à 2024 (2,5 Md€)"
+iceberg:
+  - "665 cas de désinformation climatique concentrés sur CNews/Europe1 (QuotaClimat) — lien avec l'enquête médias concentration Bolloré"
+  - "La SNBC3 publiée le 12 décembre 2025, date du 10e anniversaire de l'Accord de Paris — date de communication, pas de décision"
+  - "Lien avec enquête performativité : le même mécanisme de loi sans décret (LPEC) et de plan sans exécution"
+  - "Mnemolite : investigation cybersécurité État français (prédation structurelle) montre le même schéma d'annonce sans résultat — plan 1 Md€ cybersécurité 0 résultat"
+chronologie:
+  - date: "2015-12-12"
+    evenement: "Adoption de l'Accord de Paris (COP21, hôte : France)"
+    source_fait: "F-climat-019"
+  - date: "2020-04"
+    evenement: "Adoption SNBC2 (-40 % 2030 vs 1990)"
+    source_fait: null
+  - date: "2022-04"
+    evenement: "Macron : 'Ce quinquennat sera écologique ou ne sera pas'"
+    source_fait: null
+  - date: "2023-07-01"
+    evenement: "Échéance légale LPEC dépassée (non adoptée)"
+    source_fait: "F-climat-012"
+  - date: "2025-06-24"
+    evenement: "Assemblée rejette la LPEC/PPE"
+    source_fait: "F-climat-012"
+  - date: "2025-10-24"
+    evenement: "SPAFTE 2025 : +82 Md€/an besoin investissement"
+    source_fait: "F-climat-010"
+  - date: "2025-12-12"
+    evenement: "Publication SNBC3 (consultation publique)"
+    source_fait: "F-climat-001"
+  - date: "2026-02"
+    evenement: "PPE3 adoptée par décret (3 ans de retard)"
+    source_fait: "F-climat-013"
+  - date: "2026-04-08"
+    evenement: "Citepa : 2025 = -1,5 % d'émissions"
+    source_fait: "F-climat-003"
+  - date: "2026-05-19"
+    evenement: "5e Conseil de planification écologique"
+    source_fait: "F-climat-017"
+domaines:
+  - "Politique climatique"
+  - "Planification énergétique"
+  - "Budgets publics"
+  - "Transport / Bâtiment / Agriculture"
+  - "Gouvernance"
+urls_prioritaires:
+  - url: "https://www.citepa.org/nouvelle-estimation-des-emissions-de-lannee-2025-par-le-barometre-mensuel-du-citepa/"
+    description: "Citepa baromètre mensuel 2025 — -1,5 % émissions"
+    head_status: 200
+  - url: "https://www.ecologie.gouv.fr/sites/default/files/documents/HCC_2026_Avis-SNBC-3_VF_1203.pdf"
+    description: "HCC avis SNBC3 mars 2026"
+    head_status: 200
+  - url: "https://www.senat.fr/rap/l25-139-310-1/l25-139-310-112.html"
+    description: "Sénat rapport PLF 2026 — Fonds vert"
+    head_status: 200
+  - url: "https://www.citepa.org/pour-atteindre-ses-objectifs-climatiques-la-france-doit-doubler-son-total-dinvestissements-bas-carbone-annuels-dici-2030-spafte-2025/"
+    description: "SPAFTE 2025 — besoin +82 Md€/an"
+    head_status: 200
+shadow_factor: 5.5
+mnemo_queries:
+  - query: "climat France échec COP21 promesses non tenues investissement"
+    results_count: 5
+  - query: "planification écologique française déficit investissement climat"
+    results_count: 5

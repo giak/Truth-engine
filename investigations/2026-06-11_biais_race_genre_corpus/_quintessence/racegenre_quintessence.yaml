@@ -1,0 +1,304 @@
+enquete_id: racegenre
+complexity: APEX
+date_extraction: '2026-06-12'
+enquete_source:
+- investigations/2026-06-11_biais_race_genre_corpus/2026-06-11_00-00_biais_race_genre_APEX.md
+- type: APEX (DEEPENED §15-§19)
+- lignes: 700
+- fichiers: 1
+these_centrale: 'Le corpus ignore totalement la race et le genre comme categories politiques. Zero mention de "race", "racisme",
+  "genre", "discrimination". Les protocoles supposent un acteur blanc, masculin, CSP+. Or : jeune homme percu noir/arabe =
+  12x plus de controles pousses (Defenseur des Droits 2024), detention provisoire 5x plus elevee pour nes a l''etranger (Fassin/etude
+  Nantes), discrimination a l''embauche 2.8x (DESPERADO V). 7 profils (α-ζ + η LGBTQ+) identifies, seul α (homme blanc CSP+)
+  est compatible avec les protocoles. Suspicion score : 6.2/10.
+
+  '
+theses_implicites:
+- TI1: 'Le faux universalisme republicain ("nous ne voyons pas les races") est un outil politique actif : il interdit de mesurer
+    les discriminations, donc de les prouver, donc de les combattre. Le corpus reproduit ce geste.
+
+    '
+- TI2: 'Le protocole "puits de droit" suppose que le systeme judiciaire traite tout le monde egalement. C''est factuellement
+    faux. Un racise a un risque juridique 5x plus eleve — non calcule dans les protocoles.
+
+    '
+- TI3: 'Les femmes (51% de la population) sont invisibilisees comme actrices politiques. Le care (enfants, personnes agees)
+    est un prerequis invisible de toute action militante — jamais analyse dans le corpus.
+
+    '
+faits_atomiques:
+- id: F-RG-001
+  enonce: 'Jeunes hommes percus noirs/arabes : 4x plus de controles, 12x plus de controles pousses (fouille, palpation). Defenseur
+    des Droits 2024, 5 030 personnes.
+
+    '
+  source_url: https://www.defenseurdesdroits.fr/enquete-sur-lacces-aux-droits-sur-les-relations-entre-police-et-population-que-retenir-896
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RG-002
+  enonce: 'Odds-ratio de 6-8x pour Noirs et Maghrebins dans les controles parisiens (Jobard/Levy/Lamberth/Nevanen, CNRS 2007-2008).
+    Population disponible vs controlee : ecart considerable.
+
+    '
+  source_url: https://hal.science/file/index/docid/781605/filename/2012-FJ-RL-JL-SN-Mesurer_les_discriminations_selon_l_apparence_Populations.pdf
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RG-003
+  enonce: 'Detention provisoire : 5x plus elevee pour personnes nees a l''etranger (etude Nantes, 7 500 dossiers correctionnels,
+    decennie 2000, Fassin/CQFD).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-RG-004
+  enonce: 'Discriminations emploi : 2.8x plus de risque pour personnes percues noires/arabes/maghrebines (Defenseur des Droits
+    2024).
+
+    '
+  source_url: https://www.defenseurdesdroits.fr/les-evolutions-des-discriminations-dans-lemploi-entre-2016-et-2024
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RG-005
+  enonce: 'Penalite de -22% pour candidat maghrebin dans emploi cadre (DESPERADO V, 2024, 3 375 candidatures fictives).
+
+    '
+  source_url: https://www.fonction-publique.gouv.fr/files/files/Publications/Rapports%20missionnes/2024-DESPERADO5-rapport_final.pdf
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RG-006
+  enonce: 'GJ : 45% de femmes (Della Sudda, Sciences Po Bordeaux, 2018). Proportion inedite pour un mouvement de blocage.
+    Role naturalise comme "nourricier", pas reconnu comme politique.
+
+    '
+  source_url: https://www.lemonde.fr/blog/fredericjoignot/2019/01/12/les-femmes-tres-presentes-dans-les-manifestations-et-les-blocages-ce-nest-pas-daujourdhui/
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RG-007
+  enonce: '3h26 de taches domestiques/jour pour femmes, 2h pour hommes (INSEE). 22% d''ecart salarial moyen.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-RG-008
+  enonce: '94% des plaintes pour viol classees sans suite en France (IPP 2024). 86% des violences sexuelles.
+
+    '
+  source_url: https://www.ipp.eu/publication/le-traitement-judiciaire-des-violences-sexuelles-et-conjugales-en-france/
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RG-009
+  enonce: 'SOS Homophobie 2025 : 1 771 cas (+27%). 186 agressions physiques. EU FRA 2024 : 71% des LGBT percoivent hausse
+    violences, 15% portent plainte.
+
+    '
+  source_url: https://www.sos-homophobie.org/informer/rapport-annuel-lgbtiphobies/ra-2025
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RG-010
+  enonce: 'Le corpus Truth Engine contient 0 mention de "race", "racisme", "genre", "discrimination", "intersectionnalite"
+    comme categories politiques.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-RG-011
+  enonce: 'Les policiers se constituent plus volontiers partie civile quand le prevenu a un nom maghrebin (etude Jobard 1965-2005,
+    citee par Fassin).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-RG-012
+  enonce: '9 350 crimes/delits racistes en 2024 (+11%). 1.2M de personnes se declarent victimes, 97% ne portent pas plainte.
+    Seulement 1 594 condamnations.
+
+    '
+  source_url: https://www.cncdh.fr/publications/rapport-2024-sur-la-lutte-contre-le-racisme-lantisemitisme-et-la-xenophobie
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-RG-013
+  enonce: 'Marche des Solidarites (4 avril 2026) : rassemblement a Saint-Denis, convergence des luttes antiracistes fragmentees.
+    Bally Bagayoko.
+
+    '
+  source_url: https://www.lemonde.fr/en/france/article/2026/04/04/french-anti-racist-activists-rally-hoping-to-uplift-fragmented-movement_6752116_7.html
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-RG-014
+  enonce: 'Suspicion score : 6.2/10. Donnees CNCDH/DDR/DESPERADO solides (✦) mais Jobard date de 2007-2008, Fassin qualitatif,
+    dimension LGBTQ+ en construction.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-RG-015
+  enonce: 'France cumule racisme structurel eleve ET interdiction de le mesurer. Comparaison europeenne : testing -22% France
+    vs -13% UK.
+
+    '
+  source_url: https://ec.europa.eu/eurostat/fr/web/equality-non-discrimination/information-data
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+acteurs:
+- nom: Defenseur des Droits
+  role: Enquete Acces aux Droits 2024 — 12x controles pousses
+  faits_lies: []
+- nom: Jobard/Levy/Lamberth/Nevanen (CNRS)
+  role: Etude fondatrice du profilage ethnique (2007-2008)
+  faits_lies: []
+- nom: Fassin (Didier)
+  role: Anthropologie de la police et de la chaine penale
+  faits_lies: []
+- nom: DESPERADO V (DGAFP)
+  role: Testing discriminations emploi — 3 375 candidatures
+  faits_lies: []
+- nom: Della Sudda (Sciences Po)
+  role: 45% de femmes dans les GJ
+  faits_lies: []
+- nom: SOS Homophobie / EU FRA
+  role: Documentation violences LGBTQ+
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: '[Faux universalisme republicain] → [Interdiction stats ethniques] → [Impossibilite de mesurer discriminations]
+    → [Corpus ignore race/genre] → [Protocoles pour Blancs/CSP+/hommes]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Profilage ethnique (4-12x)] → [Surrepresentation penale] → [Detention provisoire 5x] → [Casier → exclusion
+    emploi]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Division sexuee du travail militant] → [Femmes invisibilisees] → [Care non reconnu] → [Protocoles exigeant
+    disponibilite sans resoudre la reproduction sociale]
+
+    '
+perspectives_dialectiques:
+- P1: 'Race/genre invalident le corpus : un protocole qui ignore que le rapport a la police est 12x different n''est pas valide.
+    Chaque protocole doit etre intersectionnalise.
+
+    '
+- P2: 'Le probleme est francais, pas universel : l''interdiction des stats ethniques est une specificite. Dans d''autres pays,
+    ces donnees existent et sont integrees a l''analyse.
+
+    '
+- P3: 'Synthese : repenser chaque protocole a partir de l''experience du profil le plus domine (femme trans racisee de classe
+    populaire). Si un protocole fonctionne pour η, il fonctionnera pour tous.
+
+    '
+limites:
+- Interdiction francaise des statistiques ethniques limite les donnees.
+- Etude Jobard date de 2007-2008 — le profilage a-t-il change ?
+- Biais parisianiste: la plupart des etudes portent sur Paris/banlieue.
+- Dimension LGBTQ+ ajoutee post-audit mais encore en construction.
+- P3 ignore les mouvements antiracistes reels comme le corpus ignore la race.
+- Comparaison europeenne ebauchee, a approfondir.
+wolves:
+- nom: Si le protocole PUITS DE DROIT suppose l'egalite devant la justice, mais qu'un r...
+  argument: 'Si le protocole PUITS DE DROIT suppose l''egalite devant la justice, mais qu''un racise a 5x plus de risque de
+    detention provisoire, alors le puits de droit est un leurre pour quiconque n''est pas blanc. Le corpus offre une protection
+    qui n''existe pas pour les plus vulnerables.
+
+    '
+  reponse: ''
+- nom: La correction par l'intersectionnalite est-elle possible sans tomber dans l'hype...
+  argument: 'La correction par l''intersectionnalite est-elle possible sans tomber dans l''hyper-specification ? Si chaque
+    profil exige son protocole, il n''y a plus de coordination possible — chaque groupe agit dans son couloir.
+
+    '
+  reponse: ''
+iceberg:
+- item: 'Niveau 9 : l''interdiction des stats ethniques n''est pas une "specificite" — c''est un outil politique de reproduction.
+    Le faux universalisme est une strategie de maintien de l''ordre racial.
+
+    '
+- item: 'Profil η (femme trans racisee de classe populaire) : le plus invisible de tous. Cumule toutes les discriminations.
+    Presence dans le corpus : zero.
+
+    '
+- item: 'Violences genrees policieres (fouilles a nu, violences sexuelles en manifestation) : angle mort de P3 comme du corpus.
+
+    '
+- item: 'Mnemolite: DOWN.
+
+    '
+chronologie:
+- date: '1978'
+  evenement: Loi Informatique et Libertes — interdiction stats ethniques
+- date: '1983'
+  evenement: Marche des Beurs — 100 000 a Paris
+- date: 2007-2008
+  evenement: Etude Jobard — profilage ethnique a Paris
+- date: '2011'
+  evenement: Fassin — La Force de l'ordre
+- date: '2018'
+  evenement: GJ — 45% de femmes
+- date: '2024'
+  evenement: Defenseur des Droits — 12x controles pousses
+- date: '2024'
+  evenement: DESPERADO V — -22% emploi maghrebin
+- date: '2026-04-04'
+  evenement: Marche des Solidarites — convergence antiraciste
+domaines:
+- Discriminations raciales (police, justice, emploi, logement)
+- Genre et militantisme
+- Intersectionnalite (classe x race x genre)
+- Droits LGBTQ+
+- Droit compare (France vs UK/Allemagne)
+urls_prioritaires:
+- url: https://www.defenseurdesdroits.fr/enquete-sur-lacces-aux-droits-sur-les-relations-entre-police-et-population-que-retenir-896
+  description: ''
+  head_status: 0
+- url: https://www.cncdh.fr/publications/rapport-2024-sur-la-lutte-contre-le-racisme-lantisemitisme-et-la-xenophobie
+  description: ''
+  head_status: 0
+- url: https://www.fonction-publique.gouv.fr/files/files/Publications/Rapports%20missionnes/2024-DESPERADO5-rapport_final.pdf
+  description: ''
+  head_status: 0
+shadow_factor: 1.0
+shadow_justification: 'Fichier source exceptionnellement bien source (25 faits, 15+ URLs verificables : Defenseur des Droits,
+  INSEE, CNCDH, DESPERADO, IPP, EU FRA). Donnees solides. La these centrale est une critique interne du corpus, pas une speculation.
+  Suspicion score : 6.2/10.
+
+  '
+mnemo_queries:
+- note: Mnemolite DOWN.

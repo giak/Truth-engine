@@ -1,0 +1,318 @@
+civ: "A"
+complexity: "MEDIUM"
+date_extraction: "2026-06-07"
+enquete_source: "investigations/2026-06-03_sumer_article/2026-06-04_14-30_andurarum_autopsy_INVESTIGATION.md"
+shadow_factor: 5.8
+mnemo_queries:
+  - query: "andurarum Charpin Hudson Ammisaduqa"
+    results_count: 0
+  - query: "amargi remise dettes Mésopotamie"
+    results_count: 0
+  - query: "Hudson clean slate dette Sumer"
+    results_count: 0
+
+these_centrale: "L'andurarum mésopotamien n'était pas une annulation générale et structurelle des dettes mais une mesure royale, irrégulière, restreinte aux dettes agricoles de subsistance et instrumentalisée à des fins de légitimation politique, ce qui ruine l'extrapolation graeberienne d'un mécanisme universel de neutralisation de la dette."
+
+theses_implicites:
+  - "L'École Graeber/Hudson surinterprète des sources philologiques en projetant une économie politique contemporaine sur l'âge du bronze."
+  - "Le consensus assyriologique francophone, dominé par Charpin, est systématiquement passé sous silence dans la littérature économique hétérodoxe anglophone."
+  - "La portée d'une institution antique se mesure moins à sa fréquence qu'à sa survie : la disparition de l'andurarum après 1400 BCE signe sa nature conjoncturelle."
+  - "Une terminologie polysémique (amargi, andurarum) devient un test de Rorschach idéologique récupéré aussi bien par les libertariens que par les économistes de gauche."
+  - "La distinction entre dette agricole de subsistance et dette commerciale, déjà opérante au IIe millénaire, préfigure la dualité moderne entre dette des ménages et dette financière."
+
+domaines:
+  - "Dette"
+  - "Mésopotamie ancienne"
+  - "Assyriologie"
+  - "Historiographie économique"
+  - "Légitimation royale"
+  - "Philologie sémitique"
+
+faits_atomiques:
+  - id: "F-A001"
+    enonce: "Le terme sumérien ama.ar.gi se décompose en ama (mère), ar (retour) et gi (réclamer ou rendre), traduit littéralement par « retour à la mère », c'est-à-dire retour à l'état originel."
+    source_url: ""
+    source_section: "§1.1"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+  - id: "F-A002"
+    enonce: "Dominique Charpin, dans son cours du Collège de France du 21 février 2022, traduit l'andurarum par « retour au statut d'origine » et récuse explicitement la lecture moderne du « progrès social »."
+    source_url: "https://www.college-de-france.fr/fr/agenda/cours/justice-en-mesopotamie-au-iie-millenaire-av-j-c"
+    source_section: "§1.1"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+  - id: "F-A003"
+    enonce: "En akkadien, andurarum signifie « liberté » ou « libération » et constitue le cognat de l'hébreu dror employé en Lévitique 25 ; la racine évoque l'eau qui s'écoule librement."
+    source_url: ""
+    source_section: "§1.2"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A004"
+    enonce: "Le terme akkadien misharum (« justice », « équité », racine YSR/ISHAR) désigne l'édit royal de justice, dont l'annulation des dettes n'est qu'une composante parmi d'autres."
+    source_url: ""
+    source_section: "§1.2"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A005"
+    enonce: "Michael Hudson, dans Modern (Mis)interpretations of Ancient Debt Cancellation (2024), concède que ces termes servent de « test de Rorschach idéologique reflétant les croyances du traducteur »."
+    source_url: ""
+    source_section: "§1.2"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A006"
+    enonce: "Le consensus assyriologique établit que les dettes commerciales étaient systématiquement exclues des annulations royales : seules les dettes personnelles agricoles étaient remises."
+    source_url: "https://en.wikipedia.org/wiki/History_of_debt_relief"
+    source_section: "§2.1"
+    head_status: null
+    tier: 3
+    glyphe: "⁅"
+  - id: "F-A007"
+    enonce: "L'édit d'Ammisaduqa (1646 BCE) stipule explicitement que les tablettes concernant les dettes des commerçants (tamkārum) doivent être préservées, excluant ces créances de l'annulation."
+    source_url: ""
+    source_section: "§2.2"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A008"
+    enonce: "Britannica précise qu'Ammisaduqa annulait les dettes privées en argent et en grain issues de prêts, ainsi que les arriérés d'impôts, à l'exclusion des créances marchandes."
+    source_url: "https://www.britannica.com/biography/Ammisaduqa"
+    source_section: "§2.1"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-A009"
+    enonce: "Michael Hudson reconnaît dans The Lost Tradition of Biblical Debt Cancellations (1993, p. 29-30) qu'Ammisaduqa exemptait explicitement les dettes des marchands."
+    source_url: ""
+    source_section: "§2.1"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A010"
+    enonce: "Environ trente édits d'annulation générale ont été identifiés avec certitude entre 2400 et 1400 avant notre ère, soit en moyenne un édit tous les trente-trois ans, avec une distribution très inégale."
+    source_url: "https://www.cadtm.org/The-Long-Tradition-of-Debt-Cancellation-from-3000-BCE-to-1000-AD"
+    source_section: "§3.1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-A011"
+    enonce: "La dynastie d'Hammurabi concentre six édits sur cent soixante-six ans, soit un édit tous les vingt-huit ans, contre des intervalles plus longs sous les autres dynasties."
+    source_url: ""
+    source_section: "§3.1"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A012"
+    enonce: "Aucun édit d'andurarum n'est attesté après 1400 BCE, ce qui ruine l'hypothèse d'une institution structurelle continue de la civilisation mésopotamienne."
+    source_url: ""
+    source_section: "§3.1"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A013"
+    enonce: "La disparition de l'andurarum après 1400 BCE coïncide avec l'effondrement de l'âge du bronze, ce qui plaide pour une pratique conjoncturelle liée à une configuration politique précise selon Charpin."
+    source_url: ""
+    source_section: "§3.2"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A014"
+    enonce: "Charpin qualifie l'andurarum d'acte conservateur : « l'andurârum témoigne de la volonté de revenir à ce qu'on croyait être la perfection des origines » (Collège de France, 21 février 2022)."
+    source_url: "https://www.college-de-france.fr/fr/agenda/cours/justice-en-mesopotamie-au-iie-millenaire-av-j-c"
+    source_section: "§4.2"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+  - id: "F-A015"
+    enonce: "Hudson interprète l'andurarum comme un stabilisateur macroéconomique destiné à préserver la base fiscale et militaire du roi en empêchant la concentration des terres."
+    source_url: ""
+    source_section: "§4.3"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A016"
+    enonce: "Le calendrier des édits suit le rythme des accessions au trône, calendrier politique, et non les cycles agricoles de quarante-neuf ou cinquante ans qui caractérisent le Jubilé biblique."
+    source_url: ""
+    source_section: "§4.5"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+  - id: "F-A017"
+    enonce: "Michael Hudson n'est pas assyriologue de formation et fonde son interprétation sur les traductions de F.R. Kraus (1984) et Raymond Westbrook plutôt que sur la lecture directe des tablettes cunéiformes."
+    source_url: ""
+    source_section: "§5.1"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+  - id: "F-A018"
+    enonce: "Le consensus assyriologique académique, représenté par Westbrook, Kraus, Villard et Charpin, penche vers une interprétation restauratrice et conjoncturelle, contre l'interprétation structurelle de Hudson."
+    source_url: ""
+    source_section: "§5.2"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A019"
+    enonce: "Le terme amargi a été récupéré symboliquement par les libertariens américains, la Hayek Society de la LSE (logo officiel) et la maison d'édition Liberty Fund."
+    source_url: ""
+    source_section: "§5.3"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+  - id: "F-A020"
+    enonce: "L'assyriologue Samuel Kramer a publiquement exhorté Ronald Reagan en 1981 à réduire les impôts en invoquant l'amargi sumérien comme précédent historique."
+    source_url: ""
+    source_section: "§5.3"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+  - id: "F-A021"
+    enonce: "L'andurarum est attesté de 2400 à 1400 BCE comme pratique royale ponctuelle, sur une fenêtre d'un millénaire."
+    source_url: ""
+    source_section: "§6.1"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+  - id: "F-A022"
+    enonce: "Le shadow factor révisé de l'affirmation centrale sur l'andurarum atteint 5,8× : 1,5× pour la divergence sémantique, 1,3× pour la distinction agricole/commerciale ignorée, 1,2× pour la fréquence réelle, 1,0× pour le silence sur Charpin, 0,8× pour la disparition non expliquée."
+    source_url: ""
+    source_section: "§6.4"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Dominique Charpin"
+    role: "Assyriologue, professeur au Collège de France, autorité mondiale sur la période paléo-babylonienne, défenseur de la lecture restauratrice de l'andurarum."
+    faits_lies: ["F-A002", "F-A013", "F-A014", "F-A018"]
+  - nom: "Michael Hudson"
+    role: "Économiste américain hétérodoxe, principal vulgarisateur anglo-saxon de la thèse de l'annulation structurelle, fondateur de l'ISLET."
+    faits_lies: ["F-A005", "F-A009", "F-A015", "F-A017"]
+  - nom: "David Graeber"
+    role: "Anthropologue, auteur de Debt: The First 5,000 Years (2011), qui popularise la thèse Hudson auprès du grand public et de la gauche radicale."
+    faits_lies: ["F-A005"]
+  - nom: "F.R. Kraus"
+    role: "Assyriologue allemand, auteur de Königliche Verfügungen in altbabylonischer Zeit (1984), traducteur de référence dont s'inspire Hudson."
+    faits_lies: ["F-A017", "F-A018"]
+  - nom: "Raymond Westbrook"
+    role: "Assyriologue, auteur de Social Justice in the Ancient Near East (1995), source secondaire de Hudson, position plus prudente que ce dernier."
+    faits_lies: ["F-A017", "F-A018"]
+  - nom: "Ammisaduqa"
+    role: "Roi de Babylone (1646-1626 BCE) dont l'édit constitue le texte le plus complet préservé sur les annulations royales mésopotamiennes."
+    faits_lies: ["F-A007", "F-A008", "F-A009"]
+  - nom: "Samuel Kramer"
+    role: "Assyriologue américain qui a contribué à la récupération idéologique du terme amargi en l'invoquant auprès de l'administration Reagan en 1981."
+    faits_lies: ["F-A020"]
+  - nom: "Hayek Society de la LSE"
+    role: "Société étudiante libertarienne ayant adopté amargi comme logo officiel, symbole de la récupération du terme par la droite radicale."
+    faits_lies: ["F-A019"]
+
+causalites:
+  - cause: "F-A007"
+    effet: "F-A006"
+    mecanisme: "La clause d'Ammisaduqa préservant les tablettes des tamkārum constitue la preuve textuelle que les dettes commerciales étaient exclues de l'annulation, exclusion ensuite reprise comme consensus."
+  - cause: "F-A013"
+    effet: "F-A012"
+    mecanisme: "L'effondrement du système politique paléo-babylonien tarit la pratique des édits royaux, ce qui révèle leur dépendance à une configuration institutionnelle spécifique."
+  - cause: "F-A016"
+    effet: "F-A015"
+    mecanisme: "Le calendrier politique des édits, lié aux accessions au trône, contredit l'hypothèse d'un stabilisateur macroéconomique calé sur des cycles agricoles réguliers."
+  - cause: "F-A017"
+    effet: "F-A018"
+    mecanisme: "La distance philologique entre Hudson et les tablettes primaires explique son désaccord avec le consensus académique des assyriologues lisant directement le cunéiforme."
+  - cause: "F-A005"
+    effet: "F-A019"
+    mecanisme: "La polysémie reconnue par Hudson lui-même autorise mécaniquement la récupération par des courants idéologiques opposés (libertariens, gauche graeberienne)."
+
+perspectives_dialectiques:
+  - position: "Thèse (Hudson/Graeber)"
+    argument: "L'andurarum constitue un mécanisme structurel d'intégration par la dette, un stabilisateur macroéconomique récurrent qui préfigure le Jubilé biblique et témoigne d'une conscience politique précoce des dégâts de l'endettement chronique."
+  - position: "Antithèse (Charpin/Kraus)"
+    argument: "L'andurarum est un acte royal restaurateur, idéologique avant d'être économique, conjoncturel et lié à des dynasties spécifiques ; son extinction après 1400 BCE prouve qu'il ne saurait être qualifié d'institution centrale de la civilisation mésopotamienne."
+  - position: "Synthèse"
+    argument: "L'andurarum est un dispositif politique double, à la fois rituel de légitimation royale et outil ponctuel de préservation de la base fiscale et militaire ; il ne neutralise pas la dette commerciale, ce qui en limite drastiquement la portée comme matrice théorique d'une économie sans dette."
+
+limites:
+  - "L'enquête repose sur des sources secondaires (Charpin, Hudson, Kraus, Westbrook) et non sur la lecture directe des tablettes cunéiformes."
+  - "Le corpus des édits royaux préservés est lacunaire : trente édits attestés ne signifie pas trente édits émis ; le chiffre réel pourrait être supérieur."
+  - "L'enquête ne traite pas du contexte économique précis de chaque édit (sécheresse, guerre, transition dynastique), ce qui interdit une analyse causale fine."
+  - "La transmission supposée vers le Jubilé biblique (Lévitique 25) reste affirmée mais non démontrée linguistiquement de manière irréfutable."
+  - "Mnemolite ne contenait aucun mémo préalable sur le sujet : zéro résultat sur les trois requêtes lancées, ce qui prive l'analyse d'un contexte cross-séries."
+  - "La distinction tamkārum/débiteur ordinaire mériterait une cartographie sociologique plus fine que celle proposée par l'investigation."
+
+wolves:
+  - nom: "Hudsonien orthodoxe"
+    argument: "Vous instrumentalisez Charpin pour réintroduire un narratif libéral qui nie l'existence de toute justice sociale antique ; la fréquence de trente édits sur mille ans suffit à établir le caractère institutionnel."
+    reponse: "Trente édits sur mille ans donnent une moyenne d'un par génération, mais leur concentration sous Hammurabi et leur extinction post-1400 BCE contredisent toute lecture structurelle ; Charpin n'est pas un libéral, il est philologue et lit les tablettes."
+  - nom: "Libertarien revendiquant amargi"
+    argument: "L'amargi prouve la priorité historique de la liberté individuelle face à la dette d'État ; la Hayek Society est dans son droit en l'arborant."
+    reponse: "Hudson lui-même qualifie cette polysémie de test de Rorschach idéologique ; la réduction d'amargi à la liberté individuelle ignore que les édits étaient une émanation du pouvoir royal absolu, non une garantie de droit naturel."
+  - nom: "Graeberien orthodoxe"
+    argument: "Vous attaquez Graeber pour défendre une orthodoxie économique néoclassique ; les sources primaires confirment l'annulation des dettes."
+    reponse: "Les sources primaires confirment l'annulation des dettes agricoles et l'exclusion explicite des dettes commerciales, ce qui ruine l'idée d'une neutralisation générale de la dette ; cette critique n'a rien de néoclassique, elle est philologique."
+  - nom: "Universitaire prudent"
+    argument: "Conclure à un shadow de 5,8× est excessif : les sources se complètent plus qu'elles ne s'opposent."
+    reponse: "Le shadow de 5,8× est décomposé fait par fait dans F-A022 ; il agrège cinq divergences documentées, dont la disparition post-1400 BCE qu'aucune lecture rationaliste n'explique convenablement."
+
+iceberg:
+  - "La distinction entre dette de subsistance (annulable) et dette commerciale (préservée) constitue une matrice analytique transposable aux dettes contemporaines (ménages vs. interbancaire) que l'investigation n'explore pas."
+  - "Le statut juridique du tamkārum comme agent du palais ou du temple suggère une dualité État/marché déjà institutionnalisée trois millénaires avant Polanyi."
+  - "L'effacement du Lévitique 25 et de la généalogie hébraïque de la racine dror n'est qu'effleuré : la transmission philologique mériterait une enquête à part entière."
+  - "Le rôle des tablettes administratives palatiales et des archives privées (Mari, Larsa) dans la fabrication du chiffre de trente édits n'est pas problématisé : combien de tablettes perdues, combien d'édits non documentés ?"
+  - "Résultat Mnemolite : aucun mémo préexistant sur andurarum, Charpin, Hudson ou amargi dans la base, ce qui révèle un angle mort de la mémoire vectorielle du projet sur l'historiographie économique antique."
+  - "La récupération libertarienne d'amargi (Hayek Society, Liberty Fund, Kramer 1981) ouvre un dossier d'archéologie idéologique sur les usages politiques contemporains de l'antiquité que l'investigation n'instruit pas."
+
+chronologie:
+  - date: "-2400"
+    evenement: "Premières attestations sumériennes d'amargi comme pratique royale de remise de dettes."
+    source_fait: "F-A021"
+  - date: "-1792"
+    evenement: "Début du règne d'Hammurabi : la dynastie concentrera six édits d'andurarum en cent soixante-six ans."
+    source_fait: "F-A011"
+  - date: "-1646"
+    evenement: "Édit d'Ammisaduqa, le texte d'andurarum le plus complet préservé, qui exclut explicitement les dettes commerciales (tamkārum)."
+    source_fait: "F-A007"
+  - date: "-1400"
+    evenement: "Dernier édit d'andurarum attesté ; la pratique disparaît avec l'effondrement de l'âge du bronze."
+    source_fait: "F-A012"
+  - date: "1959"
+    evenement: "Samuel Kramer publie une traduction d'amargi comme « réduction d'impôts », première récupération moderne du terme."
+    source_fait: "F-A020"
+  - date: "1981"
+    evenement: "Samuel Kramer exhorte publiquement l'administration Reagan à réduire les impôts en invoquant l'amargi sumérien."
+    source_fait: "F-A020"
+  - date: "1984"
+    evenement: "Publication par F.R. Kraus de Königliche Verfügungen in altbabylonischer Zeit, traduction de référence sur laquelle s'appuie Hudson."
+    source_fait: "F-A017"
+  - date: "1993"
+    evenement: "Hudson publie The Lost Tradition of Biblical Debt Cancellations qui popularise la thèse de l'annulation structurelle."
+    source_fait: "F-A009"
+  - date: "1995"
+    evenement: "Westbrook publie Social Justice in the Ancient Near East, position assyriologique plus prudente que Hudson."
+    source_fait: "F-A018"
+  - date: "2011"
+    evenement: "Graeber publie Debt: The First 5,000 Years, diffusion grand public de la thèse Hudson."
+    source_fait: "F-A005"
+  - date: "2022-02-21"
+    evenement: "Cours de Dominique Charpin au Collège de France : « La justice : l'andurârum, retour à la situation d'origine », contestation explicite de la lecture moderniste."
+    source_fait: "F-A002"
+  - date: "2024"
+    evenement: "Hudson publie Modern (Mis)interpretations of Ancient Debt Cancellation, où il reconnaît la polysémie sans en tirer les conséquences sur sa propre lecture."
+    source_fait: "F-A005"
+
+urls_prioritaires:
+  - url: "https://www.cadtm.org/The-Long-Tradition-of-Debt-Cancellation-from-3000-BCE-to-1000-AD"
+    description: "Synthèse Toussaint (CADTM, 2024) qui agrège les données chiffrées sur les édits d'annulation et confirme l'exclusion des dettes commerciales ; seule URL vérifiée à 200 dans cette enquête."
+    head_status: 200
+  - url: "https://www.college-de-france.fr/fr/agenda/cours/justice-en-mesopotamie-au-iie-millenaire-av-j-c"
+    description: "Cours Charpin du Collège de France, source primaire francophone qui défend la lecture restauratrice contre Hudson ; HEAD-check non concluant mais source académique majeure."
+    head_status: null
+  - url: "https://www.britannica.com/biography/Ammisaduqa"
+    description: "Notice Britannica sur Ammisaduqa, référence tertiaire grand public confirmant la nature partielle de l'annulation."
+    head_status: null
+  - url: "https://en.wikipedia.org/wiki/History_of_debt_relief"
+    description: "Page Wikipedia anglophone qui synthétise le consensus sur l'exclusion des dettes commerciales."
+    head_status: null

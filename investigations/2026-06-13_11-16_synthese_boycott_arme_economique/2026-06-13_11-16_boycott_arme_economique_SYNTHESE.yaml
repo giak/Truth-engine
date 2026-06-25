@@ -1,0 +1,99 @@
+date_synthese: "2026-06-13"
+complexity: "APEX"
+n_enquetes: 4
+enquetes_concernees: ["saturation", "boycott_usa", "gilets_jaunes", "boycott_v2"]
+total_faits_atomiques: 53
+
+sujet_majoritaire: "Le boycott comme arme économique asymétrique — théorie d'action à deux vitesses pour assecher l'État par le signal aux marchés financiers, validée par l'expérience des Gilets jaunes (V1-sans-V2) et le laboratoire américain 2023-2026."
+
+theses_cardinales:
+  - titre: "THESE-001 : Le vrai pouvoir du boycott est le SIGNAL aux marchés, pas l'assec fiscal"
+    enonce: "L'analyse initiale (V1) surestimait l'impact budgétaire direct d'une baisse de TVA. La correction §29 montre que le mécanisme réel est la spirale dette/défiance : boycott → perte de consentement fiscal → dégradation ICRG → hausse spreads → dette auto-alimentée → crise de légitimité. -10 points ICRG = +106bp spreads + -2% PIB (Bruegel 2024)."
+    f_atomiques_justificatifs: ["F-V2-001", "F-V2-009", "F-V2-014", "F-V2-015", "F-V2-016"]
+    shadow: 3.5
+  - titre: "THESE-002 : V1-sans-V2 meurt — les GJ sont la preuve expérimentale"
+    enonce: "Les Gilets jaunes (287k manifestants, 47k actions, 17 Md€ d'absorption étatique, hélicoptère prêt à exfiltrer Macron) ont validé EXPÉRIMENTALEMENT que la puissance de blocage sans infrastructure alternative mène à l'échec. Zéro infrastructure survivante en 2026. Le modèle deux vitesses (V1 colère + V2 alternative) est la seule voie durable."
+    f_atomiques_justificatifs: ["F-GJ-001", "F-GJ-002", "F-GJ-005", "F-GJ-008", "F-GJ-010", "F-V2-013"]
+    shadow: 2.5
+  - titre: "THESE-003 : Le laboratoire US (11 boycotts, 40 sources) fournit des leçons opérationnelles transposables"
+    enonce: "Tesla (-71% bénéfice), Bud Light (-30% persistants), Target (-$12.4B), Starbucks (-$11B) montrent que CEO visible, cible unique, alternative disponible et durée limitée sont les facteurs de succès. La transposition à la France doit intégrer le cadre juridique différent (pas de 1er Amendement, CEDH Baldassi mais amendement CL46 prêt)."
+    f_atomiques_justificatifs: ["F-USA-001", "F-USA-003", "F-USA-004", "F-USA-008", "F-USA-009", "F-USA-011"]
+    shadow: 3.0
+  - titre: "THESE-004 : La protection juridique du boycott est une fenêtre étroite qui se refermera"
+    enonce: "La CEDH (Baldassi 2020) protège l'appel au boycott comme expression politique. Mais l'amendement CL46 (3 ans + 45k€) est déjà écrit et prêt à être voté en 72h. La fenêtre de légalité est ouverte depuis 2020 — elle se fermera dès que le boycott deviendra une menace réelle."
+    f_atomiques_justificatifs: ["F-V2-007", "F-V2-008", "F-USA-009", "F-SAT-006", "F-SAT-009"]
+    shadow: 2.0
+  - titre: "THESE-005 : Le boycott est structurellement inégalitaire — les pauvres paient le coût"
+    enonce: "La TVA est régressive (pèse plus lourd sur les bas revenus). Les circuits alternatifs (V2) sont 20-40% plus chers. 35M de personnes dépendent financièrement de l'État. La fracture numérique (15% illectronisme) exclut une partie de la population de la saturation administrative. Le boycott est un luxe de classe moyenne qui ne peut réussir sans résoudre cette contradiction."
+    f_atomiques_justificatifs: ["F-SAT-008", "F-V2-002", "F-V2-017", "F-USA-012"]
+    shadow: 3.5
+
+meta_observations:
+  - id: "OBS-001"
+    enonce: "Le concept de 'signal aux marchés' (ICRG, spreads) est absent des 3 enquêtes support (saturation, USA, GJ) — seule la V2 le traite, dans sa section §29 corrective. C'est l'innovation théorique la plus importante de tout le corpus."
+    fiches_concernees: ["boycott_v2"]
+  - id: "OBS-002"
+    enonce: "L'hélicoptère de Macron est le détail qui valide toute la théorie : si un président doit être exfiltré, le mouvement n'est pas 'symbolique'. Pourtant, ce même mouvement n'a rien construit."
+    fiches_concernees: ["gilets_jaunes", "boycott_v2"]
+  - id: "OBS-003"
+    enonce: "Le mythe '47 jours' est débunké par l'enquête USA, mais il circule encore comme 'fait alternatif'. Cela illustre la difficulté de la vérification factuelle dans l'activisme."
+    fiches_concernees: ["boycott_usa"]
+
+transversalites:
+  - id: "TR-001"
+    concept: "Boycott comme arme asymétrique"
+    description: "Les 4 enquêtes convergent sur l'idée que le boycott est une arme de résistance asymétrique — pas de coordination nécessaire, pas de structure à infiltrer, légal (Baldassi), scalable."
+    fiches_concernees: ["saturation", "boycott_usa", "gilets_jaunes", "boycott_v2"]
+    faits_communs: ["F-SAT-001", "F-USA-009", "F-GJ-002", "F-V2-007"]
+  - id: "TR-002"
+    concept: "V1/V2 — schisme entre colère et infrastructure"
+    description: "Les GJ (zéro V2) et la théorie V2 (boycott_v2) décrivent le même problème : la colère sans structure meurt. La saturation propose une tactique complémentaire (saturation administrative) qui est une forme de V1.5."
+    fiches_concernees: ["gilets_jaunes", "boycott_v2", "saturation"]
+    faits_communs: ["F-GJ-008", "F-GJ-010", "F-V2-003", "F-SAT-004"]
+  - id: "TR-003"
+    concept: "Fragilité juridique du boycott"
+    description: "Aux US, 1A protège (NAACP v. Claiborne). En France, CEDH protège mais amendement CL46 menace. Les deux enquêtes convergent : la fenêtre de légalité est une ressource politique temporaire."
+    fiches_concernees: ["boycott_usa", "boycott_v2"]
+    faits_communs: ["F-USA-009", "F-V2-007", "F-V2-008"]
+  - id: "TR-004"
+    concept: "Coût social du boycott — fracture de classe"
+    description: "Les 3 enquêtes notent que le boycott coûte plus cher aux pauvres : TVA régressive, alternatives plus chères, illectronisme. Le boycott ne peut pas être un mouvement de masse sans résoudre cette contradiction."
+    fiches_concernees: ["saturation", "boycott_usa", "boycott_v2"]
+    faits_communs: ["F-SAT-008", "F-USA-012", "F-V2-017", "F-V2-002"]
+  - id: "TR-005"
+    concept: "CEO comme cible vulnérable"
+    description: "Tesla (Musk) a perdu -71% bénéfice car Musk EST la cible. Target (Cornell, invisible) a mieux résisté. France : Bolloré, Arnault, Niel, Drahi sont des cibles potentielles."
+    fiches_concernees: ["boycott_usa", "boycott_v2"]
+    faits_communs: ["F-USA-001", "F-USA-002"]
+
+gaps:
+  - "GAP-001 : Élasticité de la TVA — combien une baisse de X% de consommation réduit-elle les recettes ? Aucune étude empirique française."
+  - "GAP-002 : Comportement BCE face à une révolte fiscale politique — la BCE est 'apolitique' en théorie mais une crise de boycott est politique."
+  - "GAP-003 : Comment résoudre la contradiction V1/V2 sans structure de leadership ? Aucun précédent historique."
+  - "GAP-004 : 35M de dépendants de l'État — aucune stratégie pour leur permettre de rejoindre (ou au moins ne pas combattre) le mouvement."
+  - "GAP-005 : Capacité d'emprunt réelle de l'État si la notation chute en catégorie spéculative — scénario non modélisé."
+
+shadow_factor_global: 3.8
+
+mnemo_context:
+  searches:
+    - query: "boycott arme asymétrique levier pression État"
+      results: 5
+      top_hits: ["232f11af", "6cf828f7", "def3e9b4", "cbd4c8ba"]
+    - query: "V1 V2 infrastructure mouvement social alternative économique"
+      results: 5
+      top_hits: ["232f11af", "6cf828f7", "def3e9b4", "cbd4c8ba"]
+    - query: "État dette spread ICRG notation souveraine résilience"
+      results: 5
+      top_hits: ["232f11af", "6cf828f7", "def3e9b4", "cbd4c8ba"]
+    - query: "CEDH Baldassi droit pénal boycott criminalisation"
+      results: 5
+      top_hits: ["232f11af", "6cf828f7", "def3e9b4", "cbd4c8ba"]
+    - query: "classe populaire fracture numérique illectronisme inégalité boycott coût"
+      results: 5
+      top_hits: ["232f11af", "6cf828f7", "def3e9b4", "cbd4c8ba"]
+    - query: "saturation administrative paralysie État submersion procédure"
+      results: 5
+      top_hits: ["232f11af", "6cf828f7", "def3e9b4", "cbd4c8ba"]
+  cross_series_detected: true
+  cross_series_details: "Les 4 quintessences forment un réseau cohérent : V2 (théorie générale + signal marchés) ←→ GJ (validation expérimentale V1-sans-V2) ←→ USA (laboratoire tactique transposable) ←→ Saturation (tactique complémentaire V1.5). 5 transversalités majeures identifiées (boycott asymétrique, V1/V2, juridique, fracture de classe, CEO-cible). 5 gaps critiques non résolus."

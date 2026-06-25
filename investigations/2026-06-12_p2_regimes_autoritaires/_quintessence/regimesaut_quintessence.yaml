@@ -1,0 +1,74 @@
+enquete_id: "regimes_aut"
+complexity: "COMPLEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p2_regimes_autoritaires/2026-06-12_12-00_survie_acephale_regimes_autoritaires_INVESTIGATION.md"
+
+these_centrale: "La survie des mouvements acéphales sous régimes autoritaires technologiques dépend de trois conditions absentes du corpus : (1) le désapprentissage du réflexe numérique (culture zero-tech), (2) le passage de la 'manifestation' au 'maillage' territorial, (3) l'enracinement local par services rendus à la population. La protection SOCIALE (légitimité locale, utilité) est supérieure à la protection TECHNIQUE (chiffrement, OPSEC). Un réseau utile est plus protégé qu'un réseau chiffré."
+
+theses_implicites:
+  - "La France LOPMI/SNMO 2021 suit une trajectoire de convergence avec les régimes autoritaires technologiques — les outils de répression sont les mêmes, seuls les contextes diffèrent."
+  - "La SUR-PLANIFICATION est une vulnérabilité : tout plan communiqué est interceptable. La résilience vient de la capacité à agir SANS plan préalable, par principes partagés."
+  - "La survie n'est pas la victoire — tous les mouvements documentés survivent mais aucun n'a GAGNÉ. La survie est un préalable, pas un aboutissement."
+
+acteurs:
+  - "CDM Birmanie (post-2021) : survie par morcellement cellulaire + enracinement local"
+  - "LRC Soudan (depuis 2019) : comités de résistance par 'tansiegiat' (instances de coordination consensuelles)"
+  - "Mouvement Femme Vie Liberté Iran (2022-2023) : auto-organisation contextuelle sans coordination numérique"
+  - "Rojava : modèle confédéraliste sous menace turque (non traité en détail)"
+  - "Junte birmane, régime iranien, armée soudanaise"
+
+causalites:
+  - "Surveillance algorithmique + répression létale → nécessité du zero-tech (désapprentissage numérique)"
+  - "Enracinement local (services à la population) → protection par légitimité (tout agent infiltré devient visible par inutilité)"
+  - "Planification par principes (pas par instructions) → court-circuite la surveillance prédictive"
+  - "Culture numérique préexistante → obstacle au sevrage (I Birmanie/Iran étaient numérisés avant répression)"
+
+perspectives_dialectiques:
+  - "Thèse : Birmanie/Soudan/Iran ≠ France (États faillis vs État administratif panoptique). Antithèse : la trajectoire LOPMI/SNMO rapproche la France des régimes autoritaires technologiques — les outils convergent."
+  - "Thèse : l'enquête documente les survivants, pas les écrasés (biais du survivant). Antithèse : la survie est un préalable logique à la victoire — les mouvements écrasés n'ont même pas eu la chance de durer."
+  - "Thèse : les militants français ne peuvent pas se sevrer du numérique. Antithèse : la Birmanie et l'Iran étaient aussi numérisés avant la répression — le désapprentissage se fait sous la contrainte, pas par choix."
+
+faits_atomiques:
+  - F-aut-001: "CDM Birmanie post-2021 : survie par morcellement cellulaire — cellules locales gérant logistique, sans tête centrale identifiable. Loi cybersécurité 2023, coupures Internet."
+    glyph: "✧"
+  - F-aut-002: "LRC Soudan : 'tansiegiat' (instances de coordination), décisions consensuelles, gestion eau/soins/sécurité quartier. Protection par utilité : agent infiltré visible par inutilité."
+    glyph: "✧"
+  - F-aut-003: "Iran Femme Vie Liberté (2022-2023) : survie aux coupures Internet par auto-organisation contextuelle — micro-rassemblements spontanés sans coordination numérique préalable."
+    glyph: "✧"
+  - F-aut-004: "Tableau comparatif : survie = cloisonnement cellulaire + zero-tech + enracinement local + adaptativité + principes. Échec = centralisation + dépendance numérique + abstraction idéologique + rigidité + plans communiqués."
+    glyph: "❧"
+
+limites:
+  - "Contextes (Birmanie, Soudan, Iran) = régimes autoritaires, pas démocraties illibérales — transposition limitée."
+  - "Sources secondaires (presse, ONG) — aucune enquête de terrain."
+  - "Rojava non traité en détail (contexte conflit armé trop spécifique)."
+  - "Mouvements documentés survivent mais n'ont PAS obtenu leurs objectifs politiques."
+
+wolves:
+  - loup: "Fausse équivalence : Birmanie/Soudan/Iran ≠ France"
+    reponse: "Distinction réelle mais les OUTILS de répression convergent (surveillance algorithmique, coupures communication, criminalisation participation)."
+  - loup: "Biais du survivant : vous documentez les survivants, pas les écrasés"
+    reponse: "Partiellement juste. Les mouvements survivent mais ne GAGNENT pas. La survie est un préalable à la victoire, pas la victoire."
+  - loup: "Le corpus n'a pas la discipline nécessaire au zero-tech"
+    reponse: "Wolf le plus pratique. Birmanie/Iran étaient aussi numérisés avant répression — le désapprentissage suit la contrainte, pas la discipline."
+
+iceberg:
+  - "3 conditions manquantes au corpus : zero-tech, maillage territorial, enracinement local"
+  - "Protection sociale > protection technique : un réseau utile est plus protégé qu'un réseau chiffré"
+  - "Planification par principes vs par instructions : la sur-planification est une vulnérabilité"
+  - "Question du scaling : comment passer de la marge à la masse sans se faire écraser ?"
+
+chronologie:
+  - "2019 : LRC Soudan (comités de résistance)"
+  - "2021 : Coup d'État Birmanie — CDM"
+  - "2022-2023 : Mouvement Femme Vie Liberté Iran"
+  - "2023 : LOPMI France"
+  - "2026 : Corpus Truth Engine"
+
+domaines:
+  - "regimes_autoritaires"
+  - "surveillance_algorithmique"
+  - "mouvements_resistance"
+  - "strategies_survie"
+
+urls: []

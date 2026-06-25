@@ -1,0 +1,222 @@
+enquete_id: nonocc
+enquete_source:
+- chemin: investigations/2026-06-11_mouvements_non_occidentaux/2026-06-11_00-00_mouvements_non_occidentaux_CAS.md
+  type: CAS
+  lignes: ~500
+date_extraction: '2026-06-12'
+complexity: COMPLEX
+these_centrale: 'Le corpus de coordination acéphalique est biaisé vers les mouvements occidentaux (Europe, Amérique du Nord).
+  5 cas non-occidentaux documentés (Printemps arabe, Soudan 2019, Myanmar 2021, Iran 2022, Hong Kong 2019) révèlent des mécanismes
+  de coordination absents du corpus actuel et des niveaux de répression qui invalident certains postulats du modèle français.
+
+  '
+theses_implicites:
+- label: T1
+  texte: 'Le modèle zapatiste n''est pas le seul modèle non-occidental viable. Les Printemps arabes et le Soudan 2019 documentent
+    des formes de coordination spontanée que le corpus ignore.
+
+    '
+- label: T2
+  texte: 'Les niveaux de répression des cas non-occidentaux (tirs à balles réelles, disparitions, torture) rendent le modèle
+    français de « non-escalade » naïf si appliqué à ces contextes. Mais la France n''est PAS à ce niveau.
+
+    '
+- label: T3
+  texte: 'Le corpus souffre d''un occidentalisme structurel : les références théoriques (Sharp, Ostrom, Scott) sont occidentales
+    ; les cas historiques (Solidarnosc, Otpor!) sont occidentaux. Intégrer les mouvements non-occidentaux renforcerait la
+    crédibilité du cadre.
+
+    '
+faits_atomiques:
+- id: F-NOC-001
+  enonce: '5 mouvements non-occidentaux documentés : Printemps arabe (2011), Soudan (2019), Myanmar (2021), Iran (2022), Hong
+    Kong (2019)'
+  source_url: Analyse historique dans fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-002
+  enonce: Le Printemps arabe a démontré une coordination par contagion virale (cascade tunisienne → égyptienne → libyenne
+    en 4 mois)
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-003
+  enonce: 'Soudan 2019 : 8 mois de sit-in devant le QG militaire → chute de Bashir. Coordination par occupation spatiale +
+    comités de quartier'
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-004
+  enonce: 'Myanmar 2021 : mouvement de désobéissance civile massif (fonctionnaires, médecins, banquiers) après le coup d''État'
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-005
+  enonce: 'Iran 2022 : soulèvement ''Femme, Vie, Liberté'' — coordination par réseaux sociaux + décentralisation totale, aucun
+    leader'
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-006
+  enonce: 'Hong Kong 2019 : coordination par forums en ligne (LIHKG) + absence de leader identifiable + tactiques anti-surveillance'
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-007
+  enonce: '3 mécanismes de coordination absents du corpus français : contagion virale (Printemps arabe), occupation spatiale
+    prolongée (Soudan), grève générale fonctionnaire (Myanmar)'
+  source_url: Extraction du fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-008
+  enonce: Le niveau de répression dans ces cas est 10-100× supérieur au contexte français (morts, disparitions, torture)
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-009
+  enonce: Aucun des 5 cas n'a produit un changement de régime durable — tous ont été réprimés ou cooptés
+  source_url: Analyse dans fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-010
+  enonce: Hong Kong est le SEUL cas de coordination acéphalique face à un État de niveau OTAN — le plus proche du cas français
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-011
+  enonce: LIHKG (forum HK) a développé un système de vote distribué pour les décisions tactiques — modèle de gouvernance acéphalique
+    numérique
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-NOC-012
+  enonce: Ces 5 cas ne sont mentionnés dans AUCUN article Substack — gap de couverture 100%
+  source_url: Vérification corpus interne
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: Mouvements non-occidentaux
+  role: Objet d'étude — 5 cas
+  faits_lies: []
+- nom: Printemps arabe
+  role: Cas 1 — coordination contagion virale
+  faits_lies: []
+- nom: Soudan 2019
+  role: Cas 2 — occupation spatiale prolongée
+  faits_lies: []
+- nom: Myanmar 2021
+  role: Cas 3 — grève générale fonctionnaire
+  faits_lies: []
+- nom: Iran 2022
+  role: Cas 4 — décentralisation totale
+  faits_lies: []
+- nom: Hong Kong 2019
+  role: Cas 5 — coordination numérique + anti-surveillance
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: C1
+- cause: null
+  effet: null
+  mecanisme: C2
+- cause: null
+  effet: null
+  mecanisme: C3
+perspectives_dialectiques:
+- etiquette: Les cas non-occidentaux sont-ils applicables à la France ?
+  position_A: La France est une démocratie — les cas non-occidentaux sont des contextes autoritaires, incomparables
+  position_B: Hong Kong est comparable (État de niveau OTAN). Les mécanismes de coordination sont universels même si la répression
+    varie.
+  synthese: 'Les mécanismes de coordination (contagion, occupation, grève générale) sont universels. Le niveau de répression
+    détermine le coût, pas la validité du mécanisme.
+
+    '
+- etiquette: Pourquoi intégrer des cas qui ont tous échoué ?
+  position_A: Intégrer des échecs affaiblit la thèse — se concentrer sur les succès (Solidarnosc, Otpor!)
+  position_B: L'échec est plus instructif que le succès. Comprendre POURQUOI ça échoue est la clé.
+  synthese: 'Les 5 cas ont échoué POUR DES RAISONS SPÉCIFIQUES (répression extrême, absence de sanctuaires, contre- révolution).
+    Documenter ces raisons renforce la thèse.
+
+    '
+limites:
+- 5 cas seulement — échantillon non-exhaustif
+- Aucune source primaire (pas de terrain, pas d'interviews)
+- Biais de sélection des cas visibles médiatiquement
+- Absence de cas africains hors Soudan, latino-américains hors Zapatistes
+- 'Suspicion : 4.5/10 — analyse de bureau, pas de terrain'
+wolves:
+- nom: Le corpus est structurellement occidentaliste — un angle mort non-corrigible
+  argument: Le corpus est structurellement occidentaliste — un angle mort non-corrigible
+  reponse: ''
+- nom: Les cas non-occidentaux sont des repoussoirs qui renforcent l'exceptionnalisme f...
+  argument: Les cas non-occidentaux sont des repoussoirs qui renforcent l'exceptionnalisme français ('ici c'est pas pareil')
+  reponse: ''
+iceberg:
+- profondeur: 0
+  item: 5 cas documentés — surface
+- profondeur: 1
+  item: Mécanismes de coordination extraits
+- profondeur: 2
+  item: Pourquoi ces cas ne sont pas dans le corpus Substack
+- profondeur: 3
+  item: Existe-t-il une 'théorie de l'échec' prédictive ?
+chronologie:
+- date: '2011'
+  evenement: Printemps arabe — contagion virale Tunisie→Égypte→Libye
+- date: '2019'
+  evenement: Soudan — 8 mois de sit-in → chute de Bashir
+- date: '2019'
+  evenement: Hong Kong — coordination LIHKG + anti-surveillance
+- date: '2021'
+  evenement: Myanmar — grève générale fonctionnaire
+- date: '2022'
+  evenement: Iran — soulèvement Femme Vie Liberté
+domaines:
+- science_politique
+- etudes_postcoloniales
+- strategie
+- histoire
+urls_prioritaires:
+- url: https://freedomhouse.org/countries/freedom-world/scores
+  description: Freedom House — comparatif régimes politiques
+  head_status: 0
+- url: https://acleddata.com/
+  description: ACLED — données sur les conflits et la répression
+  head_status: 0
+shadow_factor: 1.5
+shadow_justification: 'Analyse de bureau sur des cas documentés publiquement. Interprétation modérée (lien France/non-occidental).
+  Pas de données de terrain. La couche de généralisation stratégique ajoute 0.5 de shadow.
+
+  '
+mnemo_queries:
+- query: mouvements non occidentaux coordination
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'
+- query: printemps arabe hong kong soudan myanmar
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'

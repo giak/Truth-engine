@@ -1,0 +1,144 @@
+enquete_id: "victoire"
+complexity: "MEDIUM"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_sub_theorie_victoire/2026-06-12_12-00_theorie_victoire_gagner_coordination_acephale_INVESTIGATION.md"
+
+these_centrale: "La coordination acephale ne peut pas 'gagner' au sens classique (prise de pouvoir) parce qu'elle n'a pas de mecanisme pour negocier, signer, ou garantir des accords. Sa victoire est l'erosion du pouvoir adverse, pas sa capture. Le corpus, en documentant la survie sans definir la victoire, refuse de reconnaitre cette limite structurelle."
+
+theses_implicites:
+  - "Les victoires totales historiques (ANC, FLN, Solidarnosc) ont toutes exige une organisation structuree capable de negocier et de gouverner — ce que l'acephalie, par definition, ne peut pas fournir."
+  - "Les objectifs documentes par le corpus (RIC, demantelement LOPMI, renversement 49.3) exigent une reforme constitutionnelle donc une organisation politique structuree — ce qui ferait cesser la coordination d'etre acephale."
+  - "Si la coordination acephale ne peut offrir que la survie et la perturbation, elle ne peut pas mobiliser au-dela des convaincus : personne ne risque 10 ans de prison pour 'survivre'."
+
+faits_atomiques:
+  - id: "F-vic-001"
+    enonce: "Les victoires totales (changement de regime) exigent une organisation capable de prendre et d'exercer le pouvoir : ANC, FLN, Solidarnosc etaient des proto-Etats, pas des coordinations acephales."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-vic-002"
+    enonce: "Les victoires defensives francaises (Larzac, NDDL, Bure) sont des blocages reussis suivis d'une demobilisation massive. Le mouvement meurt de sa propre victoire."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-vic-003"
+    enonce: "Le risque de la victoire defensive : la demobilisation — les competences se dispersent, les reseaux s'atrophient. Sans objectif suivant, la victoire defensive est terminale."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-vic-004"
+    enonce: "L'IRA a redefini la victoire de la reunification totale au partage du pouvoir (Good Friday Agreement, 1998). Cette redefinition a exige une structure de negociation : le Sinn Fein comme parti structure."
+    source_url: null
+    source_section: "par2"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-vic-005"
+    enonce: "Pour negocier, il faut un interlocuteur capable de garantir l'application de l'accord — une coordination acephale ne peut offrir aucune de ces trois fonctions."
+    source_url: null
+    source_section: "par3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-vic-006"
+    enonce: "La victoire d'une coordination acephale est l'erosion du pouvoir adverse, pas sa capture : rendre le projet trop couteux plutot que de le remplacer."
+    source_url: null
+    source_section: "par3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-vic-007"
+    enonce: "Les objectifs documentes par le corpus (RIC, demantelement LOPMI, renversement 49.3) exigent une reforme constitutionnelle (art. 89 ou 11), donc une majorite legislative, donc une organisation politique structuree."
+    source_url: null
+    source_section: "par4"
+    head_status: null
+    tier: 2
+    glyphe: "✦"
+
+acteurs:
+  - nom: "ANC (African National Congress)"
+    role: "Mouvement anti-apartheid — victoire totale via negociation structuree (Mandela)"
+    faits_lies: ["F-vic-001"]
+  - nom: "FLN (Front de Liberation Nationale)"
+    role: "Mouvement independantiste algerien — gouvernement provisoire (GPRA)"
+    faits_lies: ["F-vic-001"]
+  - nom: "Sinn Fein / IRA"
+    role: "Redefinition de la victoire : de la reunification au partage du pouvoir (1998)"
+    faits_lies: ["F-vic-004"]
+
+causalites:
+  - cause: "F-vic-005"
+    effet: "F-vic-006"
+    mecanisme: "L'impossibilite de negocier force la coordination acephale a redefinir la victoire comme erosion plutot que capture. Mais cette victoire est fragile : l'adversaire peut revenir des que la pression diminue."
+  - cause: "F-vic-002"
+    effet: "F-vic-003"
+    mecanisme: "La victoire defensive demobilise parce que le mouvement perd sa raison d'etre immediate. Sans objectif suivant, il se fragmente et meurt."
+
+perspectives_dialectiques:
+  - position: "These"
+    argument: "La coordination acephale est condamnee a la survie et a la perturbation — elle ne peut pas gagner au sens classique. C'est une limite structurelle, pas un defaut ponctuel."
+  - position: "Antithese"
+    argument: "La survie EST la victoire dans un systeme concu pour eliminer toute opposition. Le simple fait de continuer a exister est une defaite infligee au systeme."
+  - position: "Synthese"
+    argument: "La survie est une victoire minimaliste insuffisante pour mobiliser au-dela des convaincus. La coordination acephale doit soit s'articuler a une organisation politique structuree, soit redefinir la victoire comme erosion de long terme."
+
+limites:
+  - "Le corpus ne definit pas la victoire parce que ce n'est peut-etre pas son role (boite a outils, pas programme politique)."
+  - "La survie comme victoire est une position defendable mais elle est politiquement faible (ne mobilise pas)."
+  - "L'erosion comme modele de victoire n'a pas ete testee empiriquement sur une decennie."
+
+wolves:
+  - nom: "Survie = victoire"
+    argument: "Dans un Etat qui criminalise la contestation, survivre est deja une victoire. Exiger une 'victoire' classique est un biais de la pensee hierarchique."
+    reponse: "Partiellement recevable. Mais c'est une victoire minimaliste : personne ne risque 10 ans de prison pour 'survivre'. La survie ne mobilise pas."
+  - nom: "Ce n'est pas le role du corpus"
+    argument: "Le corpus est une boite a outils, pas un programme politique. Reprocher au corpus de ne pas definir la victoire, c'est reprocher a un marteau de ne pas dire quel mur frapper."
+    reponse: "Recevable. Mais le corpus pretend documenter 'COMMENT gagner' (TC1, TC3). S'il utilise 'gagner' sans le definir, il pose une question sans objet."
+
+iceberg:
+  - "Quel est l'objectif politique REEL du corpus ? Si l'objectif est la perturbation, le corpus est surdimensionne. Si l'objectif est la conquete, le corpus ignore sa propre limite structurelle."
+  - "Mnemolite: UP (36942 memoires) mais API search en erreur 500."
+  - "Sujet immerge : la coordination acephale comme 'bras arme' d'un mouvement plus large structure — est-ce son seul role strategique viable ?"
+
+chronologie:
+  - date: "1954"
+    evenement: "Debut de la guerre d'Algerie (FLN)"
+    source_fait: "F-vic-001"
+  - date: "1971"
+    evenement: "Debut de la lutte du Larzac"
+    source_fait: "F-vic-002"
+  - date: "1994"
+    evenement: "Fin de l'apartheid (ANC)"
+    source_fait: "F-vic-001"
+  - date: "1998"
+    evenement: "Good Friday Agreement (IRA/Sinn Fein)"
+    source_fait: "F-vic-004"
+  - date: "2018"
+    evenement: "Abandon du projet d'aeroport NDDL"
+    source_fait: "F-vic-002"
+
+domaines:
+  - "Strategie politique"
+  - "Theorie des mouvements sociaux"
+  - "Histoire des insurrections"
+
+urls_prioritaires:
+  - url: null
+    description: "Constitution francaise, art. 89 et 11 (Legifrance) — base legale pour F-vic-007"
+    head_status: null
+
+shadow_factor: 3.8
+
+mnemo_queries:
+  - query: "economie coordination victoire financement"
+    results_count: 0
+    error: "API error 500"
+  - query: "coordination acephale"
+    results_count: 0
+    error: "API error 500"

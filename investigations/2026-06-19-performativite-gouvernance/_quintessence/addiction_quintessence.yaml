@@ -1,0 +1,346 @@
+enquete_id: "addiction_performative_modele_theorique"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "2026-06-19_08-50_addiction_performative_modele_theorique_INVESTIGATION.md"
+
+these_centrale: "Le systeme politique francais est structurellement dependant de la production de discours performatifs non pas parce que le mensonge est un choix, mais parce qu'il est une necessite systemique de survie. Le Modele d'Addiction Performative (MAP) formalise cette dependance avec 12 indicateurs quantitatifs, 5 boucles de retroaction et 4 stades cliniques. Score API: 78/100 — Stade 4 Addiction Chronique."
+
+theses_implicites:
+  - "Sans le milliard d'euros de communication, le gouvernement serait nu devant la realite — la performance est un cache-sexe structurel"
+  - "Les communicants sont une caste auto-reproduite (CELSA → Sciences Po → cabinet → Elysee → agence privee) — les dealers du systeme"
+  - "Les citoyens sont accros au spectacle politique consommable — indignation comme feuilleton sans consequences"
+  - "La critique est absorbee comme dose de regulation (Viktorovitch sur CNews, Blast subventionne) — naloxone du systeme"
+
+faits_atomiques:
+  - id: "F-map-001"
+    enonce: "Budget communication Etat: 1 MdE (2024) revele par circulaire Lecornu"
+    source_url: "https://www.vie-publique.fr/discours/301145"
+    source_section: "§7 FACT_REGISTRY (fait 1)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-002"
+    enonce: "SIG: 12,8 ME budget, 87 agents communicants Etat"
+    source_url: "https://fr.wikipedia.org/wiki/Service_d%27information_du_Gouvernement"
+    source_section: "§7 FACT_REGISTRY (fait 2)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-003"
+    enonce: "McKinsey/Etat: 28,8 ME (2020-22), 11,6 ME McKinsey seul"
+    source_url: "https://www.consultor.fr/"
+    source_section: "§7 FACT_REGISTRY (fait 3)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-004"
+    enonce: "Senat: cabinets conseil phenomene tentaculaire, 1 MdE en 2021"
+    source_url: "https://www.senat.fr/rap/r21-578-1.html"
+    source_section: "§7 FACT_REGISTRY (fait 4)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-005"
+    enonce: "9 milliardaires controlent 90% des medias francais"
+    source_url: "https://www.acrimed.org/"
+    source_section: "§7 FACT_REGISTRY (fait 5)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-006"
+    enonce: "49.3 utilise 28 fois sous Macron (record absolu de la Ve Republique)"
+    source_url: "https://www.assemblee-nationale.fr/"
+    source_section: "§7 FACT_REGISTRY (fait 6)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-007"
+    enonce: "Ordonnances >50% des textes, 82% non ratifiees (2022-2027)"
+    source_url: "https://www.senat.fr/"
+    source_section: "§7 FACT_REGISTRY (fait 7)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-008"
+    enonce: "Promesses Macron 2017: 47% tenues, 25% non tenues"
+    source_url: "https://www.francetvinfo.fr/politique/bilan-macron/"
+    source_section: "§7 FACT_REGISTRY (fait 8)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-009"
+    enonce: "Confiance politique: 26% (CEVIPOF 2025) — 47% en 2010"
+    source_url: "https://www.sciencespo.fr/cevipof/"
+    source_section: "§7 FACT_REGISTRY (fait 9)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-010"
+    enonce: "74% jugent les politiciens corrompus (CEVIPOF 2025)"
+    source_url: "https://www.sciencespo.fr/cevipof/"
+    source_section: "§7 FACT_REGISTRY (fait 10)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-011"
+    enonce: "Abstention legislatives 2024: >57%"
+    source_url: "https://www.interieur.gouv.fr/"
+    source_section: "§7 FACT_REGISTRY (fait 11)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-012"
+    enonce: "France democratie defaillante (EIU 2024), score 7.99/10"
+    source_url: "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2025/03/Democracy_INDEX_2024.pdf"
+    source_section: "§7 FACT_REGISTRY (fait 12)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-013"
+    enonce: "45% pensent la democratie en danger en France (IFOP 2026)"
+    source_url: "https://www.lemonde.fr/politique/article/2026/02/09/la-defiance-envers-les-politiques-approche-un-point-de-non-retour-selon-le-barometre-cevipof_6666046_823448.html"
+    source_section: "§7 FACT_REGISTRY (fait 13)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-map-014"
+    enonce: "Depenses conseil Etat: au moins 1 MdE (2021)"
+    source_url: "https://www.senat.fr/rap/r21-578-1.html"
+    source_section: "§7 FACT_REGISTRY (fait 14)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-015"
+    enonce: "407 mensonges documentes (2017-2025)"
+    source_url: "https://giak.substack.com/p/407-mensonges-lautopsie-dun-systeme"
+    source_section: "§7 FACT_REGISTRY (fait 15)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-map-016"
+    enonce: "Logocratie (Viktorovitch): best-seller sur la basculement logocratique de 2017"
+    source_url: "https://www.seuil.com/ouvrage/logocratie-clement-viktorovitch/9782021610705"
+    source_section: "§7 FACT_REGISTRY (fait 16)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-017"
+    enonce: "Circulaire Lecornu: objectif reduire communication a 300 ME (non atteint)"
+    source_url: "https://elmarq.fr/journal/reforme-communication-etat-sig-2026-centralisation-proximite"
+    source_section: "§7 FACT_REGISTRY (fait 17)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-map-018"
+    enonce: "Gantzer: de l'Elysee a l'agence privee — monetisation du savoir-performer"
+    source_url: "https://fr.wikipedia.org/wiki/Gaspard_Gantzer"
+    source_section: "§7 FACT_REGISTRY (fait 18)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-019"
+    enonce: "Emelien: conseiller Elysee → fondateur agence — circuit ferme"
+    source_url: "https://fr.wikipedia.org/wiki/Isma%C3%ABl_Emelien"
+    source_section: "§7 FACT_REGISTRY (fait 19)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-020"
+    enonce: "CELSA: formation principale des communicants politiques"
+    source_url: "https://www.celsa.fr/nos-formations/master-communication-publique-et-politique/"
+    source_section: "§7 FACT_REGISTRY (fait 20)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-021"
+    enonce: "Etude Boursier/Lemor: centre politique normalise extreme droite (1958-2025)"
+    source_url: "https://www.ripostes.org/quand-les-mots-changent-la-politique-change-comment-le-centre-fait-le-jeu-de-lextreme-droite/"
+    source_section: "§7 FACT_REGISTRY (fait 21)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-map-022"
+    enonce: "QuotaClimat: 665 cas desinformation climatique TV/radio, 80% CNews/Europe1"
+    source_url: "https://quotaclimat.org/"
+    source_section: "§7 FACT_REGISTRY (fait 22)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-023"
+    enonce: "RSF 2025: France 25e/180, indicateur economique en baisse"
+    source_url: "https://rsf.org/fr/classement"
+    source_section: "§7 FACT_REGISTRY (fait 23)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-024"
+    enonce: "Deficit hopitaux: 2 MdE (2023), dette +10 ans depuis Segur"
+    source_url: "https://drees.solidarites-sante.gouv.fr/"
+    source_section: "§7 FACT_REGISTRY (fait 24)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-map-025"
+    enonce: "Segur sante: 19 MdE promis, 37% projets valides a mi-2024"
+    source_url: "https://www.vie-publique.fr/rapport/297331"
+    source_section: "§7 FACT_REGISTRY (fait 25)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Emmanuel Macron"
+    role: "President — principal performateur, 28× 49.3, 47% promesses tenues"
+    faits_lies: ["F-map-006", "F-map-008"]
+  - nom: "Gaspard Gantzer"
+    role: "Spin doctor — premier conseiller communication Elysee (2015), puis agence privee"
+    faits_lies: ["F-map-018"]
+  - nom: "Ismael Emelien"
+    role: "Conseiller Elysee → fondateur agence — circuit ferme"
+    faits_lies: ["F-map-019"]
+  - nom: "Clement Viktorovitch"
+    role: "Chercheur — critique absorbe par le systeme (Logocratie, best-seller)"
+    faits_lies: ["F-map-016"]
+  - nom: "Thierry Saussez"
+    role: "Pionnier des communicants, faillite puis absorbe"
+    faits_lies: []
+  - nom: "Clement Leonarduzzi"
+    role: "Fondateur Telling, conseiller occulte de Macron — dealer invisible"
+    faits_lies: []
+  - nom: "Service d'Information du Gouvernement (SIG)"
+    role: "Producteur central du discours officiel — 87 agents, 12,8 ME budget"
+    faits_lies: ["F-map-002"]
+  - nom: "CELSA"
+    role: "Ecole unique de formation des communicants politiques"
+    faits_lies: ["F-map-020"]
+
+causalites:
+  - cause: "F-map-006"
+    effet: "F-map-007"
+    mecanisme: "49.3×28 neutralise le Parlement → contournement systemique par ordonnances"
+  - cause: "F-map-001"
+    effet: "F-map-002"
+    mecanisme: "1 MdE budget communication → besoin de justifier les effectifs → 1500 agents"
+  - cause: "F-map-008"
+    effet: "F-map-009"
+    mecanisme: "Promesses non tenues → effondrement confiance politique (47% → 26%)"
+  - cause: "F-map-005"
+    effet: "F-map-012"
+    mecanisme: "9 milliardaires 90% medias → pluralisme zero → democratie defaillante 7.99/10"
+
+perspectives_dialectiques:
+  - position: "These"
+    argument: "Modeler l'addiction confirme: systeme francais en logocratie avancee (Stade 4). 5 boucles de retroaction verrouillees de l'interieur. Sevrage impossible sans effondrement."
+  - position: "Antithese"
+    argument: "Comparer la politique a une addiction est une metaphore abusive. La communication gouvernementale est une fonction normale de la democratie. Les 407 mensonges sont une goutte d'eau dans 10 ans de discours."
+  - position: "Synthese"
+    argument: "Le modele addiction est un cadre heuristique puissant coherent avec toutes les donnees disponibles. 25 faits documentes, EDI* 0.83. Necessite validation academique independante pour passer d'hypothese outillee a theorie etablie."
+
+limites:
+  - "Metaphore vs mecanisme: le systeme politique n'a pas de recepteurs dopaminergiques — transposition DSM-5 heuristique"
+  - "Absence de donnees longitudinales completes: 12 API construits sur 2017-2026, serie temporelle courte"
+  - "Effet Macron: le modele se concentre sur 2017-2026 — charge de la preuve faible pour phases anterieures"
+  - "Comparaison internationale absente de ce dossier — specificite francaise non isolee"
+  - "Sous-estimation des contre-pouvoirs reels (Mediator, ZAD, Gilets Jaunes)"
+
+wolves:
+  - nom: "Le Producteur"
+    argument: "Sans les communicants (1500 agents, 1 MdE), pas de substance addictive"
+    reponse: "Le systeme produirait du discours meme sans caste specialisee — l'addiction est structurelle"
+  - nom: "Le Distributeur"
+    argument: "Sans les medias (9 milliardaires, 90% parts), la dose n'atteint pas le consommateur"
+    reponse: "Les medias sont aussi addicts — ils ont besoin du spectacle pour survivre"
+  - nom: "Le Consommateur"
+    argument: "Les citoyens sont libres de ne pas consommer le spectacle politique"
+    reponse: "L'abstention 57% est le signe du desengagement — mais le systeme ne depend plus du vote"
+  - nom: "Le Regulateur"
+    argument: "Viktorovitch, Blast, Off Investigation prouvent que la critique existe et est efficace"
+    reponse: "La critique est la naloxone du systeme — micro-dose de verite qui empeche le sevrage brutal"
+  - nom: "L'Institutionnalisateur"
+    argument: "Le 49.3 et les ordonnances sont des outils constitutionnels legitimes"
+    reponse: "28× 49.3 et 82% ordonnances non ratifiees depassent tout usage raisonnable — verrouillage systemique"
+
+iceberg:
+  - "Le point de rupture inconnu: l'addiction peut etre infinie — contrairement a la dette ou la confiance, pas de seuil de mort identifie"
+  - "L'addiction comme condition post-democratique: et si ce n'etait pas une pathologie mais la forme achevee de la democratie liberale?"
+  - "La verite comme trauma collectif: le sevrage signifierait affronter le declin irreversible et l'impuissance publique"
+  - "La memoire effacee par le present perpetuel: chaque matin le systeme se reveille vierge, pret a produire un nouveau mensonge"
+  - "Le budget reel total incluant les operateurs non declares est inconnu"
+  - "Les transactions secretes entre agences de communication et partis politiques"
+
+chronologie:
+  - date: "1958-10-04"
+    evenement: "Ve Republique — concentration pouvoir executif, l'addiction commence par la structure"
+    source_fait: null
+  - date: "1967"
+    evenement: "Debord — La Societe du spectacle, diagnostic precoce du spectacle integre"
+    source_fait: null
+  - date: "2002"
+    evenement: "Chirac — communication presidentielle professionalisee (premiere agence)"
+    source_fait: null
+  - date: "2007"
+    evenement: "Sarkozy — hyper-presidence, rupture format protocolaire, saturation mediatique"
+    source_fait: null
+  - date: "2015"
+    evenement: "Gaspard Gantzer nomme conseiller communication a l'Elysee — spin doctors entrent dans la place"
+    source_fait: null
+  - date: "2017"
+    evenement: "Macron elu — basculement logocratique, 407 mensonges documentes (2017-2025)"
+    source_fait: "F-map-015"
+  - date: "2017-2024"
+    evenement: "49.3 utilise 28 fois, 352 ordonnances — la dose augmente exponentiellement"
+    source_fait: "F-map-006"
+  - date: "2024"
+    evenement: "Dissolution → refus de nommer Castets → 'personne n'a gagne' — la parole defie le fait electoral"
+    source_fait: null
+  - date: "2024"
+    evenement: "Budget communication Etat: 1 MdE (circulaire Lecornu)"
+    source_fait: "F-map-001"
+  - date: "2024"
+    evenement: "EDP europeenne — budget sous tutelle jusqu'en 2029+, addiction budgetaire rejoint addiction discursive"
+    source_fait: null
+  - date: "Nov 2025"
+    evenement: "Circulaire Lecornu: objectif reduire communication a 300 ME — probabilite quasi nulle"
+    source_fait: "F-map-017"
+  - date: "2025"
+    evenement: "Logocratie (Viktorovitch) best-seller — la critique du systeme est son produit le plus vendu"
+    source_fait: "F-map-016"
+  - date: "2026"
+    evenement: "45% disent democratie en danger, 57% abstention, 26% confiance — le systeme tient par le vide"
+    source_fait: "F-map-013"
+
+domaines:
+  - "Science politique — modele addiction systemique"
+  - "Economie — 2,18 MdE/an depenses performatives"
+  - "Sociologie — caste auto-reproduite des communicants (CELSA, pantouflage)"
+  - "Psychologie sociale — DSM-5 transpose a la gouvernance collective"
+  - "Medias — 9 milliardaires 90% parts, concentration"
+  - "Droit constitutionnel — 49.3×28, ordonnances 82% non ratifiees"
+
+urls_prioritaires:
+  - url: "https://www.vie-publique.fr/discours/301145"
+    description: "Circulaire Lecornu — budget communication 1 MdE"
+    head_status: 200
+  - url: "https://www.sciencespo.fr/cevipof/"
+    description: "CEVIPOF — confiance politique 26%, corruption 74%"
+    head_status: 200
+  - url: "https://www.senat.fr/rap/r21-578-1.html"
+    description: "Rapport Senat — cabinets conseil 1 MdE"
+    head_status: 200
+  - url: "https://www.francetvinfo.fr/politique/bilan-macron/"
+    description: "FranceInfo — 47% promesses tenues Macron"
+    head_status: 200
+  - url: "https://giak.substack.com/p/407-mensonges-lautopsie-dun-systeme"
+    description: "Documentation 407 mensonges (2017-2025)"
+    head_status: 200
+  - url: "https://www.acrimed.org/"
+    description: "Acrimed — 9 milliardaires 90% medias"
+    head_status: 200
+
+shadow_factor: 6.0
+
+mnemo_queries:
+  - query: "addiction performative modele theorique systemique France"
+    results_count: 5
+  - query: "MAP addiction performative index API 78/100 boucles retroaction"
+    results_count: 5

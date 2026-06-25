@@ -1,0 +1,134 @@
+enquete_id: mesoamerique
+complexity: MEDIUM
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-07_civilisations_manquantes/2026-06-07_16-00_mesoamerique_INVESTIGATION.md
+these_centrale: La Mésoamérique (Olmèques, Mayas, Aztèques) a développé l'écriture, l'astronomie de précision et des empires
+  complexes sans CONTACT avec l'Eurasie — ce qui en fait un laboratoire isolé pour tester l'universalité des patterns
+  civilisationnels. Elle confirme que le code juridique écrit n'est pas universel (comme l'Égypte), que la fusion
+  religion/État peut être PLUS totale qu'à Sumer (sacrifice humain comme obligation d'État), et que la destruction
+  coloniale des sources est un pattern récurrent (comme Carthage).
+theses_implicites:
+- L'absence de code juridique écrit en Mésoamérique confirme le pattern égyptien — le code écrit est mésopotamien, pas universel.
+- Les pochteca (marchands-espions) sont un cas unique de fusion commerce/renseignement d'État.
+- La destruction des codex par les Espagnols (< 20 survivants) est un effacement comparable à Carthage.
+- Le sacrifice humain aztèque est la fusion religion/État la plus totale de l'enquête.
+faits_atomiques:
+- id: F-MES-001
+  enonce: La Triple Alliance aztèque (Tenochtitlan, Texcoco, Tlacopan) domine le Mexique central par système hégémonique de tribut
+  source_url: https://www.thoughtco.com/aztec-triple-alliance-170345
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-MES-002
+  enonce: Les pochteca sont une guilde héréditaire de marchands aztèques fonctionnant comme agents de renseignement d'État
+  source_url: https://www.worldhistory.org/Aztec_Civilization/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-MES-003
+  enonce: L'écriture maya compte environ 800 signes glyphiques capables de transcrire le maya classique
+  source_url: https://www.worldhistory.org/Maya_Writing/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-MES-005
+  enonce: Les Mayas développent un calendrier de précision supérieure au calendrier julien européen
+  source_url: https://americanindian.si.edu/nk360/maya-calendar-system
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-MES-006
+  enonce: La Mésoamérique n'a PAS de code juridique écrit — justice par coutume et juges nommés
+  source_url: https://www.worldhistory.org/Aztec_Civilization/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-MES-007
+  enonce: Le tlatoani aztèque cumule pouvoir politique, militaire ET religieux
+  source_url: https://www.worldhistory.org/Aztec_Civilization/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-MES-009
+  enonce: Les Mayas ne forment pas un empire unifié mais un réseau de cités-États rivales (Tikal, Palenque, Copán)
+  source_url: https://www.worldhistory.org/Maya_Civilization/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-MES-010
+  enonce: Les Espagnols détruisent la quasi-totalité des codex mésoaméricains — il en reste moins de 20
+  source_url: https://www.worldhistory.org/Aztec_Civilization/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+acteurs:
+- nom: Tlatoani
+  role: Souverain aztèque, cumul politique + militaire + religieux
+  faits_lies:
+  - F-MES-007
+- nom: Pochteca
+  role: Marchands-espions héréditaires, guilde intégrée à l'État
+  faits_lies:
+  - F-MES-002
+- nom: Rois mayas (k'uhul ajaw)
+  role: Dirigeants des cités-États, intermédiaires entre dieux et hommes
+  faits_lies:
+  - F-MES-009
+causalites:
+- cause: F-MES-006
+  effet: F-MES-007
+  mecanisme: L'absence de code écrit laisse le tlatoani comme source unique du droit → fusion totale du pouvoir
+- cause: F-MES-010
+  effet: F-MES-002
+  mecanisme: La destruction des codex rend la connaissance de la Mésoamérique dépendante des sources espagnoles coloniales
+perspectives_dialectiques:
+- position: Thèse — La Mésoamérique confirme les universaux
+  argument: Comme l'Égypte, pas de code écrit. Comme Sumer, fusion religion/État. Comme Carthage, destruction coloniale des sources. Les patterns sont universels.
+- position: Antithèse — La Mésoamérique est incommensurable
+  argument: Développée sans cheval, roue, fer, ni contact eurasien — les parallèles sont des coïncidences, pas des preuves d'universalité.
+limites:
+- Sources espagnoles biaisées (codex post-conquête)
+- Sacrifice humain : chiffres invérifiables (4 000-20 000 en 4 jours selon sources espagnoles)
+- Isolement absolu rend la comparaison avec l'Eurasie hasardeuse
+wolves:
+- nom: Historiographie coloniale espagnole
+  argument: Sacrifices humains = barbarie, conquête = civilisation
+  reponse: Le sacrifice aztèque était une obligation cosmologique, pas de la cruauté gratuite. La fusion religion/État y était plus totale qu'à Rome ou Sumer.
+iceberg:
+- Sujet immergé : La Mésoamérique est le seul cas de développement civilisationnel isolé — laboratoire unique pour tester l'universalité
+chronologie:
+- date: c. 1200-400 av.
+  evenement: Civilisation olmèque — 'civilisation-mère' de la Mésoamérique
+  source_fait: F-MES-009
+- date: 250-900 ap.
+  evenement: Période classique maya — apogée des cités-États, écriture glyphique
+  source_fait: F-MES-003
+- date: 1428
+  evenement: Triple Alliance aztèque — domination du Mexique central
+  source_fait: F-MES-001
+- date: 1521
+  evenement: Conquête espagnole — destruction des codex
+  source_fait: F-MES-010
+domaines:
+- Droit : absence de code écrit, coutume + juges nommés
+- Religion : sacrifice humain comme obligation d'État — fusion maximale
+- Économie : tribut, pochteca (marchands-espions)
+- Écriture : glyphique maya, 800 signes — développement indépendant
+urls_prioritaires:
+- url: https://www.worldhistory.org/Aztec_Civilization/
+  description: Civilisation aztèque — tlatoani, pochteca, absence de code écrit
+  head_status: 200
+- url: https://www.worldhistory.org/Maya_Writing/
+  description: Écriture maya — 800 signes glyphiques
+  head_status: 200
+shadow_factor: 6.4
+mnemo_queries: []
+mnemo_cross_refs: []

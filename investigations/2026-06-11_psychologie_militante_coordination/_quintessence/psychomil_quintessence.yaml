@@ -1,0 +1,194 @@
+enquete_id: psychomil
+enquete_source:
+- chemin: investigations/2026-06-11_psychologie_militante_coordination/2026-06-11_00-00_psychologie_militante_coordination_APEX.md
+  type: APEX
+  lignes: ~500
+date_extraction: '2026-06-12'
+complexity: COMPLEX
+these_centrale: 'La coordination acéphalique est un problème psychologique autant que stratégique. 7 pièges psychologiques
+  menacent le militant (burnout, paranoïa, pureté idéologique, solitude, schisme interne, désespoir appris, addiction à la
+  dopamine numérique). Le corpus identifie 5 mécanismes de résilience (cure de dopamine, rotation des rôles, protocole silence,
+  discipline narrative, célébration des petites victoires). Aucun n''a été testé.
+
+  '
+theses_implicites:
+- label: T1
+  texte: 'L''effondrement psychologique du militant est un VECTEUR DE DÉFAITE plus probable que la répression policière. Le
+    système n''a pas besoin de tuer — il lui suffit d''épuiser.
+
+    '
+- label: T2
+  texte: 'La coordination acéphalique est psychologiquement PLUS EXIGEANTE que l''action hiérarchique. Sans chef pour rassurer,
+    sans structure pour protéger, le militant est nu.
+
+    '
+- label: T3
+  texte: 'Le ''désespoir appris'' (learned helplessness) est l''arme psychologique principale du système. Casser ce désespoir
+    est la première victoire.
+
+    '
+faits_atomiques:
+- id: F-PSY-001
+  enonce: '7 pièges psychologiques identifiés : burnout, paranoïa, pureté, solitude, schisme, désespoir appris, addiction
+    dopamine'
+  source_url: Fichier source — synthèse théorique
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PSY-002
+  enonce: '5 mécanismes de résilience proposés : cure dopamine, rotation rôles, silence, discipline narrative, célébration'
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PSY-003
+  enonce: Le burnout militant est documenté par la littérature sur l'activisme (Chen & Gorski 2015, Maslach 1982)
+  source_url: Références académiques citées dans fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PSY-004
+  enonce: La 'pureté idéologique' est identifiée comme le PIRE piège — elle transforme les alliés en ennemis
+  source_url: Analyse dans fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PSY-005
+  enonce: La 'discipline narrative' = ne pas se contredire publiquement — chaque militant est un média
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PSY-006
+  enonce: Le 'protocole silence' = capacité à disparaître périodiquement sans culpabilité — anti-surveillance + santé mentale
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PSY-007
+  enonce: L'addiction à la dopamine numérique (likes, partages, stats) est identifiée comme un piège spécifique aux mouvements
+    modernes
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PSY-008
+  enonce: La 'célébration des petites victoires' est le seul mécanisme de résilience à feedback positif immédiat
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PSY-009
+  enonce: 'Le ''désespoir appris'' (Seligman 1967) est adapté au contexte militant : exposition répétée à l''échec → paralysie'
+  source_url: Seligman 1967 (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PSY-010
+  enonce: Aucun test empirique des 5 mécanismes de résilience — tout est théorique
+  source_url: Auto-critique fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: Militant acéphale
+  role: Sujet psychologique — cible des 7 pièges
+  faits_lies: []
+- nom: Système/adversaire
+  role: Source du désespoir appris — épuiseur
+  faits_lies: []
+- nom: Réseaux sociaux
+  role: Amplificateur des pièges psychologiques (dopamine, schisme)
+  faits_lies: []
+- nom: Pairs/militants
+  role: Source de résilience OU de toxicité (pureté, schisme)
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: C1
+- cause: null
+  effet: null
+  mecanisme: C2
+- cause: null
+  effet: null
+  mecanisme: C3
+perspectives_dialectiques:
+- etiquette: La psychologie est-elle un luxe bourgeois ou une nécessité stratégique ?
+  position_A: La révolution n'attend pas qu'on aille bien — priorité à l'action
+  position_B: Un militant brisé est un militant perdu — priorité à la résilience
+  synthese: 'La résilience psychologique est une infrastructure stratégique, pas un luxe. Sans militants fonctionnels, pas
+    d''action possible.
+
+    '
+- etiquette: 'La pureté idéologique : vertu ou poison ?'
+  position_A: Sans pureté, la coordination perd son âme et se dilue
+  position_B: La pureté tue — elle exclut 99% des alliés potentiels
+  synthese: 'La pureté est un piège évolutif. Les mouvements qui gagnent sont ceux qui acceptent la coalition impure.
+
+    '
+limites:
+- 0 test empirique — analyse de bureau pure
+- Pas de psychologue clinicien dans l'équipe
+- Les 7 pièges sont-ils exhaustifs ? Probablement pas.
+- 'Biais de l''auteur : expérience personnelle du militantisme'
+- 'Suspicion : 4.0/10'
+wolves:
+- nom: La coordination acéphalique est intrinsèquement plus épuisante que l'action hiér...
+  argument: La coordination acéphalique est intrinsèquement plus épuisante que l'action hiérarchique — l'échec est programmé
+  reponse: ''
+- nom: Les mécanismes de résilience proposés sont des palliatifs, pas des solutions
+  argument: Les mécanismes de résilience proposés sont des palliatifs, pas des solutions
+  reponse: ''
+iceberg:
+- profondeur: 0
+  item: 7 pièges + 5 mécanismes — surface
+- profondeur: 1
+  item: Littérature académique sur l'activisme
+- profondeur: 2
+  item: Étude longitudinale de la santé mentale militante
+- profondeur: 3
+  item: La coordination acéphalique est-elle psychologiquement VIABLE sur 10+ ans ?
+chronologie:
+- date: '1967'
+  evenement: Seligman — théorie du désespoir appris
+- date: '1982'
+  evenement: Maslach — Burnout Inventory
+- date: '2015'
+  evenement: Chen & Gorski — burnout activiste
+- date: 2026-06
+  evenement: APEX psychologie militante
+domaines:
+- psychologie
+- strategie
+- sociologie
+urls_prioritaires:
+- url: https://psycnet.apa.org/record/1967-03282-001
+  description: Seligman 1967 — learned helplessness
+  head_status: 0
+- url: https://www.tandfonline.com/doi/abs/10.1080/13613324.2015.1024205
+  description: Chen & Gorski 2015 — burnout activiste
+  head_status: 0
+shadow_factor: 2.5
+shadow_justification: 'Spéculation psychologique élevée. L''auteur n''est pas psychologue clinicien. Les 7 pièges et 5 mécanismes
+  sont des constructions intuitives, partiellement ancrées dans la littérature académique (Seligman, Maslach) mais appliquées
+  spéculativement au contexte acéphale. Aucun test empirique.
+
+  '
+mnemo_queries:
+- query: psychologie militante burnout coordination
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'
+- query: résilience activiste désespoir appris
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'

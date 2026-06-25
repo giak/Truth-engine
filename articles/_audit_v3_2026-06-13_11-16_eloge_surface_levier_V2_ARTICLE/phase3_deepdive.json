@@ -1,0 +1,34 @@
+```
+## Deep-dive : Droit
+
+| # | Ligne | Énoncé | Poids thèse (1-5) | Vérification |
+|---|-------|--------|------------------|--------------|
+| 1 | 20-30 | Analyse des lois françaises criminalisant la coordination en silence | 4 | FACT: Les articles cités existent, mais l'article simplifie leur application (ex. distinction entre préparation et acte). BIAIS: Ne cite pas les débats sur l'efficacité pratique de ces lois. |
+
+### CANNOT_ASSESS
+- Aspects non évaluables : Absence de sources académiques ou d'analyses juridiques critiques.
+
+### Verdict domaine
+Fragile
+
+---
+
+## Deep-dive : Histoire
+
+| # | Ligne | Énoncé | Poids thèse (1-5) | Vérification |
+|---|-------|--------|------------------|--------------|
+| 2 | 40-60 | Analyse des mouvements armés occidentaux comme Action Directe, Brigades Rouges, ETA | 3 | SURETAB: Sur-établissement rhétorique (ex. "tous les mouvements ont échoué" sans nuance). BIAIS: Ignorerait les adaptations stratégiques de certains groupes. |
+
+### CANNOT_ASSESS
+- Aspects non évaluables : Absence de sources historiographiques comparatives.
+
+### Verdict domaine
+Fragile
+
+---
+
+## Deep-dive : Sociologie
+
+| # | Ligne | Énoncé | Poids thèse (1-5) | Vérification |
+|---|-------|--------|------------------|--------------|
+| 3 | 70-90 | Exploration du narcissisme des militants préférant le rôle héroïque à l'organisation pragmatique | 4 | BIAIS: Sur-valorise le facteur individuel sans aborder les contraintes structurelles. LOGIC: Réductionnisme (ex. "tous les mouvements

@@ -1,0 +1,346 @@
+enquete_id: "sante"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "/home/giak/projects/truth-engine/investigations/2026-06-19-performativite-gouvernance/2026-06-19_12-00_sante_segur_promesses_non_tenues_APEX.md"
+these_centrale: "Le Ségur de la santé (13 juillet 2020) est l'archétype de la promesse sanitaire performative — 8,2 Md€/an annoncés, 37% des projets validés à mi-2024, sous-financement cumulé de 1,7 Md€ sur 2020-2024 révélé par l'IGAS en février 2026, fruit d'« erreurs ou approximations évitables » des administrations, plongeant l'hôpital public dans un déficit historique (2,9 Md€ en 2024, 3+ Md€ en 2025) et forçant un transfert de charge illégal sur les fournisseurs."
+theses_implicites:
+  - "Le sous-financement du GVT (glissement vieillesse technicité) représente 64,7% du trou (1,1 Md€/1,7 Md€) — ce n'est pas une « erreur » mais un phénomène connu et prévisible non corrigé malgré les alertes récurrentes de la Cour des comptes."
+  - "La dette fournisseur des hôpitaux (3,8 Md€ en 2015 → 7,5 Md€ en 2023, délais 71,3 jours fin 2025 vs plafond légal 50 jours) constitue une variable d'ajustement de trésorerie illégale devenue systémique."
+  - "L'ONDAM +3,1% pour 2026 (rehaussé de justesse de +1 Md€ par amendement in extremis) est présenté comme un effort historique mais reste sous le besoin réel estimé à +4% minimum par la FHF — écart de 2,5 Md€/an non financés."
+  - "L'absence de loi de programmation en santé (demandée par la FHF depuis 2023) et le PLFSS 2026 adopté sans vote du volet recettes constituent un contournement démocratique systématique."
+  - "Le pattern est celui d'une addiction performative: l'État annonce des financements qu'il sait ne pas pouvoir tenir, crée une dépendance des hôpitaux, puis sous-compense chroniquement."
+faits_atomiques:
+  - id: "F-sante-001"
+    enonce: "Signature accords Ségur 13 juillet 2020, promesse 8,2 Md€/an"
+    source_url: "https://www.info.gouv.fr/upload/media/default/0001/01/2020_07_dossier_de_presse_-_signature_des_accords_du_segur_de_la_sante_-_13.07.2020.pdf"
+    source_section: "§4 (F001)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-002"
+    enonce: "Coût réel Ségur dépasse 12 Md€ dès 2021 (50% de plus que l'annonce)"
+    source_url: "https://www.publicsenat.fr/actualites/politique/la-grande-inconnue-de-l-impact-budgetaire-du-segur-de-la-sante-190258"
+    source_section: "§4 (F002)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-003"
+    enonce: "Sous-financement cumulé 2020-2024 = 1,7 Md€ (IGAS, 18 février 2026)"
+    source_url: "https://www.igas.gouv.fr/la-compensation-financiere-des-revalorisations-salariales-et-de-linflation-dans-les-etablissements-publics-de-sante-entre-2020-et-2024"
+    source_section: "§4 (F003)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-004"
+    enonce: "Sous-estimation salariale = 457 M€ (4,5% du coût total) qualifiée d'« erreurs évitables »"
+    source_url: "https://acteurspublics.fr/articles/segur-point-dindice-revalorisation-des-erreurs-de-calcul-expliquent-en-partie-la-situation-financiere-des-hopitaux-letat-a-sous-estime-le-cout-des-revalorisations-segur/"
+    source_section: "§4 (F004)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-005"
+    enonce: "Déficit hôpitaux publics 2024 = 2,9 Md€ (hausse 1 Md€/an sur 2 ans)"
+    source_url: "https://www.lemonde.fr/societe/article/2026/02/21/hopitaux-des-deficits-dus-en-grande-partie-a-un-sous-financement-de-l-etat_6667686_3224.html"
+    source_section: "§4 (F005)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-006"
+    enonce: "Déficit hôpitaux 2025 = 2,6-2,8 Md€, 56% des établissements publics déficitaires"
+    source_url: "https://www.ifrap.org/budget-et-fiscalite/ondam-2026-prevoir-1mdeu-deconomies-pour-eviter-le-depassement"
+    source_section: "§4 (F006)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-007"
+    enonce: "28 plans blancs janvier 2026, 108 établissements en tension"
+    source_url: "https://www.fhf.fr/actualites/communiques-de-presse/au-coeur-dun-hiver-sous-tensions-ou-lhopital-public-est-toujours-aussi-performant-les-arbitrages"
+    source_section: "§4 (F007)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-008"
+    enonce: "PLFSS 2026 adopté 16/12/25, ONDAM 274,4 Md€ (+3,1%) — rehaussé de justesse (+1 Md€)"
+    source_url: "https://www.vidal.fr/actualites/37257-le-plfss-2026-definitivement-adopte.html"
+    source_section: "§5 (F008)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-009"
+    enonce: "ONDAM 2025 tenu (265,4 Md€) mais qualifié de « peu ambitieux » par la Cour des comptes"
+    source_url: "https://www.ccomptes.fr/fr/publications/securite-sociale-2026"
+    source_section: "§5 (F009)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-010"
+    enonce: "Trajectoire ONDAM 2026-2029 ne résorbe pas les déficits (augmenteraient chaque année à partir de 2027)"
+    source_url: "https://www.vie-publique.fr/files/rapport/pdf/303409.pdf"
+    source_section: "§5 (F010)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-011"
+    enonce: "Pas de loi de programmation en santé (demandée par FHF depuis 2023)"
+    source_url: "https://www.fhf.fr/actualites/communiques-de-presse/la-fhf-rappelle-lurgence-daboutir-au-vote-dune-lfss-et-veut-poser-le-cadre-dune-loi-de-programmation"
+    source_section: "§5 (F011)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-sante-012"
+    enonce: "4 900 lits d'hospitalisation complète fermés en 2023 (DREES)"
+    source_url: "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/250724"
+    source_section: "§5 (F012)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-sante-013"
+    enonce: "73% des Français déclarent avoir renoncé à au moins un soin en 5 ans (Ipsos/FHF)"
+    source_url: "https://regardsactuels.fr/sante/hopital-public-france-2026-crise-budget-urgences"
+    source_section: "§5 (F013)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-sante-014"
+    enonce: "Dette fournisseur hôpitaux: 7,5 Md€ (2023), délais paiement 71,3 jours fin 2025"
+    source_url: "https://www.lepoint.fr/societe/etat-en-quasi-faillite-les-hopitaux-publics-accumulent-des-milliards-dimpayes-W56JBXH5PBGPNGZQRTGHMZHWMA/"
+    source_section: "§6 (F014)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-015"
+    enonce: "Délais paiement 250-300 jours (Outre-mer, CH Basse-Terre, CH Lens)"
+    source_url: "https://jss.fr/post/retards-de-paiement-des-hopitaux-publics-si-cela-continue-les-entreprises-ne-repondront-plus-aux-appels-doffres"
+    source_section: "§6 (F015)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-016"
+    enonce: "50% des entreprises renoncent aux appels d'offres publics hospitaliers"
+    source_url: "https://www.lesechos.fr/idees-debats/cercle/les-fournisseurs-des-hopitaux-publics-nont-plus-les-moyens-dattendre-ce-nest-plus-un-dysfonctionnement-cest-une-politique-de-fait-2235813"
+    source_section: "§6 (F016)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-017"
+    enonce: "Dettes fiscales et sociales hôpitaux: 5,3 Md€ (2023)"
+    source_url: "https://www.ifrap.org/budget-et-fiscalite/ondam-2026-prevoir-1mdeu-deconomies-pour-eviter-le-depassement"
+    source_section: "§6 (F017)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-018"
+    enonce: "Sous-financement GVT = 1,1 Md€ (64,7% du sous-financement total)"
+    source_url: "https://www.weka.fr/actualite/fonction-publique-hospitaliere/article/segur-inflation-gvt-l-igas-analyse-la-hausse-des-charges-des-hopitaux-publics-211534/"
+    source_section: "§7 (F018)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-019"
+    enonce: "Inflation correctement compensée selon IGAS — déficit non inflationniste mais salarial et structurel"
+    source_url: "https://www.lequotidiendumedecin.fr/hopital/politique-hospitaliere/hopitaux-sous-financement-par-letat-des-revalorisations-salariales-un-trou-17-milliard-deuros-selon"
+    source_section: "§7 (F019)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-sante-020"
+    enonce: "Véran juillet 2021: « 9 Md€ consacrés, promesses tenues » — promesse initiale déjà sous-évaluée"
+    source_url: "https://www.bfmtv.com/economie/economie-social/france/segur-de-la-sante-oliver-veran-assure-que-les-promesses-d-augmentation-de-salaires-ont-ete-tenues_AV-202107200282.html"
+    source_section: "§7 (F020)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-sante-021"
+    enonce: "PLFSS 2026 transmis au Sénat sans vote du volet recettes par les députés"
+    source_url: "https://www.aefinfo.fr/depeche/740879-plfss-2026-londam-est-rehausse-de-1-milliard-deuros-par-le-gouvernement-la-fhf-satisfaite"
+    source_section: "§7 (F021)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-022"
+    enonce: "30 000 lits occupés par patients sans solution aval (coût: 4,2 Md€/an)"
+    source_url: "https://www.ccomptes.fr/fr/publications/securite-sociale-2026"
+    source_section: "§8 (F022)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-023"
+    enonce: "Effet ciseau tarifaire: gel tarifs hospitaliers, recettes contraintes vs coûts dynamiques"
+    source_url: "https://www.caducee.net/actualite-medicale/16830/deficit-hospitalier-2024-l-igas-pointe-le-sous-financement-de-l-etat-et-l-effet-ciseau-des-tarifs.html"
+    source_section: "§8 (F023)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-024"
+    enonce: "Plan apurement 1 Md€: 750 M€ pour créances de 2005-2006 (20 ans de retard)"
+    source_url: "https://www.vidal.fr/actualites/37257-le-plfss-2026-definitivement-adopte.html"
+    source_section: "§8 (F024)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-025"
+    enonce: "850 M€ annoncés pour solder 1,7 Md€ — le gouvernement n'en reconnaît que la moitié"
+    source_url: "https://www.notretemps.com/depeches/hopitaux-publics-un-rapport-confirme-le-sous-financement-de-mesures-salariales-128760"
+    source_section: "§8 (F025)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-sante-026"
+    enonce: "Risque dépassement ONDAM 2026 confirmé par comité d'alerte (avril 2026)"
+    source_url: "https://www.ifrap.org/budget-et-fiscalite/ondam-2026-prevoir-1mdeu-deconomies-pour-eviter-le-depassement"
+    source_section: "§9 (F026)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-027"
+    enonce: "20 établissements concentrent 60% des dettes fiscales et sociales (2,1 Md€)"
+    source_url: "https://www.ifrap.org/budget-et-fiscalite/ondam-2026-prevoir-1mdeu-deconomies-pour-eviter-le-depassement"
+    source_section: "§9 (F027)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-sante-028"
+    enonce: "Sous-financement GVT privé non-lucratif = 1,3 Md€"
+    source_url: "https://environnementsantepolitique.fr/2026/02/19/cest-le-sous-financement-des-mesures-de-revalorisation-salariale-segur-de-la-sante-qui-explique-en-grande-partie-le-creusement-du-deficit/"
+    source_section: "§9 (F028)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+acteurs:
+  - nom: "État (Ministère Santé)"
+    role: "Fixateur ONDAM, compenseur de charges. Sous-compensateur chronique structurel."
+    type: "Régulateur"
+    poids: 10
+  - nom: "Sécurité sociale (branche maladie)"
+    role: "Financeur ONDAM. Déficitaire (-13,8 Md€ 2026)."
+    type: "Financeur"
+    poids: 8
+  - nom: "Hôpitaux publics"
+    role: "Exécutants subissant les sous-compensations. Déficitaires sans marge de manœuvre."
+    type: "Victime structurelle"
+    poids: 9
+  - nom: "FHF (Arnaud Robinet)"
+    role: "Représentation hôpitaux. Alerte permanente, demande loi programmation depuis 2023."
+    type: "Représentant"
+    poids: 7
+  - nom: "IGAS/IGF"
+    role: "Inspection. Révèle sous-financement 1,7 Md€ en février 2026."
+    type: "Contrôleur"
+    poids: 6
+  - nom: "Cour des comptes"
+    role: "Audit. Juge trajectoire ONDAM insuffisante, documente dette fournisseur."
+    type: "Contrôleur"
+    poids: 6
+  - nom: "Fournisseurs (PME)"
+    role: "Créanciers. Variables d'ajustement de trésorerie illégale. Renoncent aux appels d'offres."
+    type: "Victime collatérale"
+    poids: 7
+  - nom: "Patients"
+    role: "Usagers finaux. Renoncent aux soins (73%)."
+    type: "Victime finale"
+    poids: 8
+  - nom: "Comité d'alerte ONDAM"
+    role: "Surveillance. Alerte sur risque dépassement 2026."
+    type: "Régulateur"
+    poids: 4
+causalites:
+  - id: "C-sante-01"
+    enonce: "Promesse Ségur 8,2 Md€ → Sous-estimation administration 1,7 Md€ → Compensation insuffisante → Déficit hôpital → Retards paiement fournisseurs 71j → PME en difficulté → Renonciation aux appels d'offres → Dégradation qualité → Patients impactés"
+    type: "Promesse → Sous-financement → Transfert de charge"
+  - id: "C-sante-02"
+    enonce: "PLFSS projeté +1,6% → Amendement in extremis +3,1% → Hausse insuffisante vs besoin +4% → Gel tarifs → Effet ciseau → 4 900 lits fermés → Plans blancs → Renoncement 73%"
+    type: "Sous-dimensionnement ONDAM → Saturation → Renoncement"
+  - id: "C-sante-03"
+    enonce: "Absence revalorisation forfait GVT → Sous-financement récurrent 1,1 Md€/5 ans → Aggravation mécanique → Trou permanent → 60% établissements déficitaires → Dettes 2,1 Md€ concentrées sur 20 CHU"
+    type: "GVT non compensé → Concentration du risque"
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "Le Ségur a revalorisé les soignants (+183 €/mois). L'ONDAM progresse. L'État compense les charges. La trajectoire est soutenable."
+  - position: "Antithèse"
+    argument: "Le sous-financement de 1,7 Md€ détruit les gains par l'attrition des services. Les « erreurs d'estimation » sont systématiques et prévisibles. La sous-compensation est un mode de régulation budgétaire, pas une erreur technique."
+  - position: "Synthèse"
+    argument: "Le Ségur illustre le modèle de l'addiction performative: l'État annonce des financements qu'il sait ne pas pouvoir tenir, crée une dépendance des hôpitaux, puis sous-compense chroniquement, forçant les établissements à puiser dans leur trésorerie, leurs fournisseurs et leurs investissements. La revalorisation nominale cache une dégradation réelle."
+limites:
+  - "Analyse médico-social (Ehpad) non incluse"
+  - "Privé lucratif mentionné mais non analysé en détail"
+  - "Sources institutionnelles (IGAS, Cour des comptes, FHF) peuvent sous-/sur-estimer selon mandats"
+  - "Branche autonomie non couverte"
+wolves:
+  - id: "W-sante-01"
+    enonce: "Ségur promis 8,2 Md€, coût réel 12+ Md€, 1,7 Md€ non financé (écart 20,7%) — promesse dont le non-respect est structurellement anticipé."
+    confiance: "Élevée"
+  - id: "W-sante-02"
+    enonce: "ONDAM +3,1% présenté comme effort historique mais cache un sous-financement structurel de -0,9% vs besoin réel +4% (2,5 Md€/an)."
+    confiance: "Élevée"
+  - id: "W-sante-03"
+    enonce: "Plan apurement 1 Md€: 750 M€ de la première tranche pour créances de 2005-2006 — 20 ans de retard."
+    confiance: "Élevée"
+  - id: "W-sante-04"
+    enonce: "28 plans blancs présentés comme « pic hivernal » — SNPI: « système sans marges ». Le conjoncturel masque le structurel."
+    confiance: "Élevée"
+  - id: "W-sante-05"
+    enonce: "PLFSS 2026 adopté sans vote du volet recettes à l'Assemblée — contournement démocratique du Parlement."
+    confiance: "Élevée"
+iceberg:
+  - niveau: "SURFACE (visible)"
+    contenu: "Ségur 8,2 Md€ annoncés (2020), 28 plans blancs (janvier 2026), ONDAM +3,1%, IGAS révèle 1,7 Md€ sous-financement"
+  - niveau: "MI-PROFONDEUR (partiellement visible)"
+    contenu: "19 Md€ promis Ségur 37% validés mi-2024, 4 900 lits fermés, dette fournisseur 7,5 Md€, délais 71 jours contre 50 légaux"
+  - niveau: "PROFONDEUR (structurel, invisible)"
+    contenu: "GVT sous-financé 1,1 Md€ (phénomène connu et non corrigé), effet ciseau tarifaire, addiction performative, absence loi programmation, PLFSS sans vote"
+  - niveau: "FACTOR (moteur)"
+    contenu: "L'État transfère la charge de l'ajustement budgétaire sur les hôpitaux (déficit), puis sur les fournisseurs (dette 71j), puis sur les patients (renoncement 73%) — cascade de performativité comptable"
+chronologie:
+  - date: "2020-07-13"
+    evenement: "Signature accords Ségur: 8,2 Md€/an promis"
+  - date: "2021-07"
+    evenement: "Véran: « promesses tenues, 9 Md€ »; Public Sénat révèle coût réel 12+ Md€"
+  - date: "2023"
+    evenement: "FHF demande loi programmation (1re fois). Dette fournisseur: 7,5 Md€."
+  - date: "2024"
+    evenement: "Déficit hôpitaux: 2,9 Md€"
+  - date: "2025-06"
+    evenement: "Mécanisme d'alerte ONDAM déclenché"
+  - date: "2025-11"
+    evenement: "Amendement ONDAM +1 Md€ in extremis"
+  - date: "2025-12-16"
+    evenement: "PLFSS 2026 adopté (247/232/90) — sans vote recettes"
+  - date: "2026-01"
+    evenement: "28 plans blancs, 108 hôpitaux en tension"
+  - date: "2026-02-18"
+    evenement: "Rapport IGAS: 1,7 Md€ sous-financement"
+  - date: "2026-03"
+    evenement: "Ipsos/FHF: 73% renoncement aux soins"
+  - date: "2026-04"
+    evenement: "Comité d'alerte ONDAM: risque dépassement 2026"
+  - date: "2026-06-09"
+    evenement: "Les Echos: 50% fournisseurs renoncent aux appels d'offres"
+domaines:
+  - nom: "Finance publique"
+    impact: "Sous-financement 1,7 Md€, déficit Sécu 19,4 Md€, ONDAM sous-dimensionné"
+  - nom: "Santé publique"
+    impact: "28 plans blancs, 73% renoncement aux soins, 4 900 lits fermés"
+  - nom: "Social"
+    impact: "Conditions travail dégradées, absentéisme, épuisement soignants"
+  - nom: "Économique"
+    impact: "7,5 Md€ dette fournisseur, PME en faillite, 50% renoncent aux appels d'offres"
+  - nom: "Juridique"
+    impact: "Violation systématique délais paiement (50j), dettes fiscales et sociales 5,3 Md€"
+  - nom: "Politique"
+    impact: "PLFSS adopté sans vote, pas de loi de programmation, contournement démocratique"
+  - nom: "Territoriale"
+    impact: "Outre-mer délais 250-300 jours, CHU sous perfusion, 60% dettes concentrées 20 établissements"
+urls_prioritaires:
+  - "https://www.igas.gouv.fr/la-compensation-financiere-des-revalorisations-salariales-et-de-linflation-dans-les-etablissements-publics-de-sante-entre-2020-et-2024"
+  - "https://www.ccomptes.fr/fr/publications/securite-sociale-2026"
+  - "https://www.lepoint.fr/societe/etat-en-quasi-faillite-les-hopitaux-publics-accumulent-des-milliards-dimpayes-W56JBXH5PBGPNGZQRTGHMZHWMA/"
+  - "https://www.lesechos.fr/idees-debats/cercle/les-fournisseurs-des-hopitaux-publics-nont-plus-les-moyens-dattendre-ce-nest-plus-un-dysfonctionnement-cest-une-politique-de-fait-2235813"
+  - "https://www.lemonde.fr/societe/article/2026/02/21/hopitaux-des-deficits-dus-en-grande-partie-a-un-sous-financement-de-l-etat_6667686_3224.html"
+shadow_factor: 6.0
+mnemo_queries:
+  - query: "Ségur santé hôpital déficit ONDAM sous-financement promesses"
+    results_count: 5
+    results_note: "1 résultat pertinent: l'investigation APEX elle-même déjà indexée. Autres: memories système non spécifiques."
+  - query: "dette hôpital public fournisseur plans blancs lits fermés"
+    results_count: 5
+    results_note: "5 résultats mais tous sys:consolidated (memories de test). Aucune investigation connexe indexée sur ce thème spécifique."

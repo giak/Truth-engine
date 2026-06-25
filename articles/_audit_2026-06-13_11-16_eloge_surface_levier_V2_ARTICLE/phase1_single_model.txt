@@ -1,0 +1,43 @@
+```
+### Problèmes identifiés
+
+| # | Ligne | Citation | Code | Grav (1-5) | Conf (1-5) | Correction ou question |
+|---|-------|----------|------|-----------|------------|----------------------|
+| 1 | Ligne 10 | « L'article 450-1 du Code pénal punit de dix ans d'emprisonnement tout groupement formé ou toute entente établie en vue de la préparation d'un délit. » | FACT | 4 | 4 | Vérifier l'exactitude des articles cités (ex. 450-1, 222-14-2, 421-2-6) |
+| 2 | Ligne 22 | « L'amendement CL46 (le 46e de la commission des lois), déjà rédigé et déposé, criminalise l'appel au boycott de produits israéliens : trois ans d'emprisonnement, 45 000 euros d'amende. » | FACT | 4 | 3 | Vérifier l'existence de l'amendement CL46 et ses dispositions |
+| 3 | Ligne 105 | « Les Gilets jaunes ont eu l'équivalent de V1 : la colère, le nombre, le blocage. Ils n'ont pas eu V2 : l'infrastructure économique alternative... » | SURETAB | 5 | 5 | L'argument sur l'infrastructure économique est trop vague sans données concrètes |
+| 4 | Ligne 130 | « Le spread OAT/Bund a déjà culminé à 88 points de base en juillet 2024, sans boycott du tout. Avec un mouvement crédibilisé, la pression haussière est mécanique. » | LOGIC | 4 | 4 | La logique de la corrélation entre boycott et spread est spéculative sans preuves |
+| 5 | Ligne 165 | « Les Soulèvements de la Terre et la ZAD ont gagné des batailles juridiques. Ils n'ont pas fait plier l'État sur sa vulnérabilité principale : la dette. » | LACUNA | 3 | 4 | Manque d'analyse sur les mécanismes de dette et de réforme structurelle |
+| 6 | Ligne 212 | « Les circuits V2 (coopératives de production, AMAP, monnaies locales, SEL, repair cafés, groupes d'achat) sont le tissu économique de la surface. » | BIAIS | 3 | 4 | Survalorise les circuits V2 sans équilibrer avec les limites de ces modèles |
+
+### FATALITÉS (Critical Flaw Veto)
+| # | Ligne | Citation | Code | Justification |
+|---|-------|----------|------|---------------|
+| 1 | Ligne 10 | « L'article 450-1 du Code pénal punit de dix ans d'emprisonnement tout groupement formé ou toute entente établie en vue de la préparation d'un délit. » | FACT | L'absence de vérification des articles juridiques rend l'analyse inexacte |
+
+### Où le texte est solide dans cette dimension
+- Ligne 105 : « Les Gilets jaunes ont eu l'équivalent de V1 : la colère, le nombre, le blocage. » (analyse claire des dynamiques de mouvement)
+- Ligne 165 : « Les Soulèvements de la Terre et la ZAD ont gagné des batailles juridiques. » (exemples concrets de résistance légale)
+
+### CANNOT_ASSESS
+- Aspect : Vérification des articles juridiques (450-1, 222-14-2, 421-2-6) et de l'amendement CL46
+- Aspect : Impact réel des boycotts sur les spreads de dette souveraine
+
+---
+
+### Réponses aux 5 questions
+
+1. **Où as-tu ralenti ou décroché ?**  
+   Ligne 105 (analyse de l'infrastructure économique) et ligne 165 (corrélation entre boycott et dette).
+
+2. **Où as-tu senti une manipulation rhétorique ou un passage forcé ?**  
+   Ligne 130 (corrélation entre boycott et spread) et ligne 212 (survalorisation des circuits V2).
+
+3. **Quelle est la seule chose qui te gêne le plus, même si tu n'arrives pas à la formuler ?**  
+   L'absence de données empiriques pour étayer les hypothèses sur la dette et les boycotts.
+
+4. **Quel passage t'a semblé le plus faible intuitivement ?**  
+   Ligne 130 (corrélation entre boycott et spread) : la logique est spéculative sans preuves.
+
+5. **À qui montrerais-tu cet article — et à qui ne le montrerais-tu PAS ?**  
+   À des militants structurés (ex. coopératives, syndicats), pas à des activistes clandestins ou à des économistes sans contexte.

@@ -1,0 +1,233 @@
+enquete_id: sumer_iceberg
+complexity: APEX
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-03_sumer_article/2026-06-03_13-00_sumer_vs_france_ICEBERG_MAX_CONTRE_RAPPORT.md
+these_centrale: 'L''investigation Sumer V1 surestime la force des parallèles fonctionnels en sous-estimant 5 biais systémiques
+  : biais du ''berceau'' (Kramer), biais Hudson (économie hétérodoxe), biais Polanyi (anti-marché), biais du web anglophone
+  (zéro source irakienne), biais de la complexité comme perte.'
+theses_implicites:
+- 'L''andurarum n''est PAS un mécanisme systémique : 30 édits en 1000 ans = 1 par génération, fréquence comparable aux crises
+  financières françaises'
+- Sumer comme 'bloc uniforme' (1500 ans) masque des ruptures (dynastique archaïque ≠ Ur III ≠ paléo-babylonien)
+- Le temple redistribuait à SON PERSONNEL, pas à la population générale — ce n'est PAS une sécurité sociale universelle
+- L'absence de sources irakiennes (le journal Sumer, Bagdad, ISSN 0081-9271) reproduit un déséquilibre épistémique post-colonial
+- La complexité juridique française protège les droits (WJP 95/100) — pas une pathologie, un acquis
+faits_atomiques:
+- id: F-001
+  enonce: 'Population Uruk corrigée : 40 000-80 000 habitants à l''apogée (~3100 av.) — pas 300 000 comme dans V1'
+  source_url: https://en.wikipedia.org/wiki/Uruk
+  source_section: §1
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-002
+  enonce: 'Code Ur-Nammu : 57 articles INFERES, ~40 conservés, et ''article'' est un anachronisme (énoncés casuistiques)'
+  source_url: https://en.wikipedia.org/wiki/Code_of_Ur-Nammu
+  source_section: §1
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-003
+  enonce: 'Code civil français : ~2 300 articles. Comparer 57 articles à 15 000 lois (corpus complet) = asymétrie'
+  source_url: https://fr.wikipedia.org/wiki/Code_civil_(France)
+  source_section: §1
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-004
+  enonce: '30 annulations en 1000 ans (2400-1400) inclut BABYLONE ; purement sumérien : 5-8 documentées'
+  source_url: https://www.cadtm.org/The-Long-Tradition-of-Debt
+  source_section: §1
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+- id: F-005
+  enonce: Temple redistribuait à son PERSONNEL (forme de salaire), pas à la population générale
+  source_url: https://www.academia.edu/2360528/Redistribution_and_Markets_in_the_Economy_of_Ancient_Mesopotamia_Updating_Polanyi
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-006
+  enonce: 'Hudson et Charpin sont plus PROCHES que présenté : Van De Mieroop a co-édité avec Hudson'
+  source_url: https://www.imf.org/external/pubs/ft/fandd/2025/03/debt-cancellations-in-ancient-mesopotamia-hudson
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-007
+  enonce: 'Dette France : 54,7% détenue par non-résidents (T1 2025) ; 85% des achats récents par étrangers'
+  source_url: https://www.publicsenat.fr/actualites/economie/la-dette-publique-francaise-detenue-a-54-7-par-des-non-residents
+  source_section: §5
+  head_status: 200
+  tier: 2
+  glyphe: ✧
+- id: F-008
+  enonce: 'Urukagina ''réformes'' : Schrakamp & Zólyomi (2025) confirment qu''il s''agit d''une RESTAURATION de l''ordre divin,
+    pas d''innovation sociale'
+  source_url: https://www.degruyter.com/document/doi/10.1515/9783111757546/html
+  source_section: §5
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-009
+  enonce: 'Tablettes cunéiformes : 500 000-2 000 000 excavées, ~100 000 publiées — notre Sumer est un échantillon <10%'
+  source_url: https://en.wikipedia.org/wiki/Cuneiform
+  source_section: §3
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-010
+  enonce: 'World Justice Project : France 95/100 État de droit, Irak 27/100 — la complexité française PROTÈGE les droits'
+  source_url: https://worldjusticeproject.org/rule-of-law-index/
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-011
+  enonce: 'Journal Sumer (Bagdad) : ISSN 0081-9271, EN+AR — NON CONSULTÉ dans V1, biais post-colonial'
+  source_url: https://sbah.gov.iq
+  source_section: §3
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-012
+  enonce: 'Silver (2007, Antiguo Oriente 5:89-112) : marchés privés existaient en Mésopotamie, contre-thèse formaliste de
+    Polanyi'
+  source_url: https://www.academia.edu/2360528/Redistribution_and_Markets_in_the_Economy_of_Ancient_Mesopotamia_Updating_Polanyi
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+acteurs:
+- nom: Schrakamp & Zólyomi (2025)
+  role: Réévaluateurs des 'réformes' d'Urukagina comme restauration conservatrice
+  faits_lies:
+  - F-008
+- nom: Morris Silver (2007)
+  role: 'Économiste formaliste, contre-thèse de Polanyi : marchés privés existaient'
+  faits_lies:
+  - F-005
+  - F-012
+- nom: Van De Mieroop
+  role: Assyriologue Columbia, CO-ÉDITEUR avec Hudson — pas opposant
+  faits_lies:
+  - F-006
+- nom: Charpin
+  role: Assyriologue Collège de France — andurarum = retour au statut d'origine
+  faits_lies:
+  - F-006
+- nom: Bottéro
+  role: Assyriologue français, non cité dans V1 mais spécialiste de la religion mésopotamienne
+  faits_lies: []
+- nom: Hudson
+  role: Économiste hétérodoxe CADTM — thèse andurarum = jubilé moderne, agenda contemporain
+  faits_lies:
+  - F-006
+causalites:
+- cause: F-002
+  effet: F-003
+  mecanisme: L'anachronisme 'article' (V1) crée une fausse équivalence avec le Code civil moderne ; corriger la catégorie
+    dissout l'asymétrie
+- cause: F-004
+  effet: F-006
+  mecanisme: La rareté des annulations (5-8 sur 400 ans purement sumériens) soutient la thèse Charpin (conjoncturel) contre
+    Hudson (structurel)
+- cause: F-008
+  effet: F-010
+  mecanisme: Si Urukagina restaure l'ordre (et n'invente pas), Sumer comme 'origine de la justice sociale' s'effondre
+perspectives_dialectiques:
+- position: Thèse V1 (continuisme)
+  argument: Sumer a résolu des problèmes que la France a perdus (andurarum, edubba, redistribution)
+- position: Antithèse ICEBERG MAX
+  argument: '5 biais systémiques sapent l''argument : ''berceau'' (Kramer), hétérodoxie (Hudson), anti-marché (Polanyi), web
+    anglophone, complexité=perte'
+- position: Synthèse révisée
+  argument: Les parallèles sont réels mais l'ampleur est exagérée d'un facteur 3. Le 'Sumer' de V1 est une construction occidentale
+    à 75% (convergence 5 faisceaux)
+limites:
+- Shadow Factor 3.1 calculé sur 10 dimensions cachées (temporelle, biais, asymétrie)
+- 'Couverture réelle des sources : ~45% de l''optimal APEX'
+- 'Biais de l''auteur : Truth Engine a écrit V1 puis s''auto-critique — risque de sur-correction'
+- Filiation Sumer→Rome→France reste non documentée (1500 ans de trou)
+wolves:
+- nom: Kramer (assyriologie du XXe)
+  argument: Sumer = 'berceau de la démocratie' (téléologie occidentale)
+  reponse: Schrakamp 2025 invalide la lecture progressiste des réformes
+- nom: Hudson (CADTM)
+  argument: 30 annulations = politique économique moderne anticipée
+  reponse: 'Charpin : rituel de légitimation, pas stabilisateur macro'
+- nom: Polanyi
+  argument: Temple redistributeur = alternative au capitalisme
+  reponse: 'Silver 2007 : marchés privés existaient ; redistribuait à personnel, pas population'
+- nom: Lecteur occidental
+  argument: Sumer appartient à l'Occident savant
+  reponse: Patrimoine irakien vivant (journal Sumer, Bagdad) — perspective non-occidentale absente
+iceberg:
+- 'Sujet immergé #1 : fabrication occidentale de Sumer (Kramer 1952, Jacobsen, Schrakamp 2025)'
+- 'Sujet immergé #2 : l''andurarum n''est PAS un jubilé moderne (Charpin)'
+- 'Sujet immergé #3 : scribes/grands corps — parallèle réel mais limité (×1000 d''échelle)'
+- 'Sujet immergé #4 : dette française — problème réel mais parallèle faux-ami avec andurarum'
+- 'Sujet immergé #5 : absence irakienne = trou épistémique post-colonial'
+- 'Verdict : Mnemolite opérationnelle mais base non indexée sur Sumer — pas bloquant, à documenter'
+- 'Mnemolite INDEXEE pour Sumer ICEBERG : 2 memoires directes, dont V2 corrigee avec corrections factuelles integrees.'
+- 'Cross-references Mnemolite integrees : 2 memoires directes ou d''enrichissement'
+chronologie:
+- date: ~3100 av.
+  evenement: Apogée d'Uruk (40 000-80 000 hab.)
+  source_fait: F-001
+- date: ~2400-2000 av.
+  evenement: 'Période sumérienne : 5-8 annulations de dettes documentées (vs 30 en incluant Babylone)'
+  source_fait: F-004
+- date: '2007'
+  evenement: Silver publie la contre-thèse formaliste de Polanyi
+  source_fait: F-012
+- date: '2025'
+  evenement: Schrakamp & Zólyomi publient la réévaluation des 'réformes' d'Urukagina
+  source_fait: F-008
+- date: T1 2025
+  evenement: 54,7% de la dette française détenue par non-résidents
+  source_fait: F-007
+domaines:
+- Contre-enquête forensique (méta-domaine)
+- Biais systémiques en assyriologie du XXe siècle
+- Réévaluation contemporaine des 'réformes' antiques
+- Asymétrie épistémique Nord/Sud sur le patrimoine mésopotamien
+urls_prioritaires:
+- url: https://www.degruyter.com/document/doi/10.1515/9783111757546/html
+  description: Schrakamp & Zólyomi 2025 — pierre angulaire de la réévaluation
+  head_status: 200
+- url: https://www.academia.edu/2360528/Redistribution_and_Markets_in_the_Economy_of_Ancient_Mesopotamia_Updating_Polanyi
+  description: Silver 2007 — contre-thèse formaliste de Polanyi
+  head_status: 200
+- url: https://worldjusticeproject.org/rule-of-law-index/
+  description: 'World Justice Project : France 95/100 vs Irak 27/100'
+  head_status: 200
+- url: https://www.publicsenat.fr/actualites/economie/la-dette-publique-francaise-detenue-a-54-7-par-des-non-residents
+  description: Vulnérabilité réelle de la dette française (54,7% non-résidents)
+  head_status: 200
+- url: https://sbah.gov.iq
+  description: Journal Sumer irakien, source non-occidentale non consultée
+  head_status: 200
+shadow_factor: 3.1
+mnemo_queries:
+- query: Sumer andurarum annulation dette Mésopotamie
+  results_count: 0
+- query: Sumer scribes edubba bureaucratie temple redistribution
+  results_count: 0
+- query: amargi Misharum Charpin Kraus restauration
+  results_count: 0
+- query: Ur-Nammu Lipit-Ishtar Hammourabi code loi Mésopotamie
+  results_count: 0
+- query: polanyi Silver redistribution marché Mesopotamie
+  results_count: 0
+mnemo_cross_refs:
+- id: d6f52723-2b35-4123-9197-8ccaac5ad7ad
+  title: Sumer ICEBERG original (5 faisceaux)
+  level: DIRECT
+  matches: cette quintessence = extraction directe
+- id: 5dc6857e-4d12-4bb7-9854-62e6a1f524ed
+  title: Sumer V2 corrigee (corrections factuelles)
+  level: ENRICHISSEMENT
+  corrections: population Uruk 300k->30-80k, Urukagina = restauration conservatrice (Schrakamp/Zolyomi 2025), 30 annulations
+    inclut babylonien (sum pur 5-8)

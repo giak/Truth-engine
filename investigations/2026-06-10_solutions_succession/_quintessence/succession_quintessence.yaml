@@ -1,0 +1,324 @@
+enquete_id: succession
+complexity: COMPLEX
+date_extraction: '2026-06-12'
+enquete_source:
+- investigations/2026-06-10_solutions_succession/2026-06-10_10-00_succession_leader_arrete_SOLUTIONS.md
+- type: SOLUTIONS
+- lignes: 500
+- fichiers: 1
+these_centrale: 'La succession du leader arrete est le verrou central non resolu de la coordination acephale. 5 approches
+  existent : dead man''s switch technique (StillAliveBot, Sarcophagus, Posthumous), succession historique (IRA co-option,
+  Solidarnosc TKK, Zapatistes rotation), blockchain DAO (multisig Gnosis Safe, Governor Bravo), partage cryptographique (Shamir,
+  TOTP), et gouvernance adaptative (Holacracy Individual Initiative). Aucune n''a ete testee en contexte repressif francais.
+  Suspicion score : 5.0/10.
+
+  '
+theses_implicites:
+- TI1: 'Le dead man''s switch est la solution technique la plus prometteuse mais cree une dependance a l''infrastructure (Telegram
+    bloque dans 15 pays, serveurs saisissables). La tech est un point de defaillance, pas une solution.
+
+    '
+- TI2: 'La rotation zapatiste (Juntas del Buen Gobierno) est la seule approche qui elimine structurellement le probleme de
+    la succession : il n''y a pas de leader unique a remplacer.
+
+    '
+- TI3: 'Un protocole de succession ecrit constitue une preuve materielle d''association de malfaiteurs (art.450-1 CP). Le
+    document qui sauve le mouvement peut aussi le condamner.
+
+    '
+faits_atomiques:
+- id: F-SUC-001
+  enonce: 'Still Alive Bot (Telegram, Python) implemente un dead man''s switch avec check-in quotidien, watchers, duress PIN
+    (second code qui valide le check-in en apparence sans repousser la vraie deadline).
+
+    '
+  source_url: github.com/tobyxdd/stillalive-bot
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-SUC-002
+  enonce: 'Dead Man Switch Telegram (Codeberg, TypeScript) supporte 8 types d''actions dont escalationChain : chaine d''escalade
+    ou A previent B, si B ne repond pas, C est prevenu.
+
+    '
+  source_url: codeberg.org/vkomanchy/dead-man-switch-telegram
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-SUC-003
+  enonce: 'Posthumous (Python, federe) : dead man''s switch auto-heberge avec TOTP, 4 etats (ARMED → WARNING → GRACE → TRIGGERED),
+    federation multi-noeuds, chiffrement Fernet AES-128-CBC.
+
+    '
+  source_url: metafunctor.com/post/2026-02-14-posthumous/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-SUC-004
+  enonce: 'Sarcophagus (Ethereum + Arweave) : dead man''s switch decentralise, DAO sur Aragon, 3 tours de financement ($10.9M).
+    Stockage permanent sur Arweave.
+
+    '
+  source_url: sarcophagus.io
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-SUC-005
+  enonce: 'L''IRA utilisait un Army Council de 7 membres avec succession par co-option. Le Green Book documente la structure
+    et l''anti-interrogatoire ("SAY NOTHING" pendant 7 jours).
+
+    '
+  source_url: cain.ulster.ac.uk/othelem/organ/ira/ira_green_book.htm
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-SUC-006
+  enonce: 'Solidarnosc underground (1981-89) : TKK (Commission Coordinatrice Temporaire) de 3 leaders regionaux (Bujak, Lis,
+    Frasyniuk) remplace Lech Walesa arrete. Autonomie regionale avec coordination minimale.
+
+    '
+  source_url: newworldencyclopedia.org/entry/Solidarity_(History_of)
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-SUC-007
+  enonce: 'Zapatistes : Juntas del Buen Gobierno tournantes, principes Mandar Obedeciendo (commander en obeissant), rotation
+    obligatoire empechant l''accumulation de pouvoir.
+
+    '
+  source_url: iaf-fai.org/2020/04/19/zapatista-governance-leadership-community-and-decision-making-principles.html
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-SUC-008
+  enonce: 'Gnosis Safe : standard de facto pour les multisig DAO (M-of-N signeurs), timelock configurable, modules d''urgence,
+    Pause Guardian.
+
+    '
+  source_url: docs.safe.global
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-SUC-009
+  enonce: 'Compound Governor Bravo : double-track (standard + urgence) avec quorum differencie et Guardian. Code Solidity
+    en production.
+
+    '
+  source_url: chainscorelabs.com
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-SUC-010
+  enonce: 'Holacracy Constitution v5.0 Article 4.3 (Individual Initiative) : un membre peut outrepasser les regles en cas
+    d''urgence si l''action sert le Purpose.
+
+    '
+  source_url: holacracy.org/constitution/5-0/
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-SUC-011
+  enonce: 'Schema de Shamir (M-of-N) : le secret de succession est divise en N parts, M parts necessaires pour reconstituer.
+    Ex: 3 parts sur 7 pour signer un ordre de succession.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Theorie cryptographique standard.
+- id: F-SUC-012
+  enonce: 'Telegram est bloque dans 15 pays (2025). L''infrastructure technique du dead man''s switch est un point de defaillance
+    critique.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-SUC-013
+  enonce: 'Aucun outil de succession automatisee n''a ete teste en contexte repressif reel (garde a vue, perquisition, compromission).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Gap empirique central du dossier.
+- id: F-SUC-014
+  enonce: 'Suspicion score composite : 5.0/10. Sources tech 6/10, test empirique 2/10, falsifiabilite 6/10.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Auto-critique du fichier.
+- id: F-SUC-015
+  enonce: 'Un protocole de succession ecrit peut constituer une preuve materielle d''association de malfaiteurs (art.450-1
+    CP). Paradoxe : le document qui sauve le mouvement peut aussi le condamner.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: IRA (Army Council)
+  role: Modele historique de succession par co-option
+  faits_lies: []
+- nom: Solidarnosc (TKK)
+  role: Modele de succession decentralisee regionale
+  faits_lies: []
+- nom: Zapatistes (Juntas del Buen Gobierno)
+  role: Modele de rotation elimant le besoin de succession
+  faits_lies: []
+- nom: Sarcophagus (DAO)
+  role: Dead man's switch blockchain decentralise
+  faits_lies: []
+- nom: Posthumous (federe)
+  role: Dead man's switch federé auto-heberge avec TOTP
+  faits_lies: []
+- nom: Holacracy (Constitution v5.0)
+  role: Cadre de gouvernance avec Individual Initiative pour urgences
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: '[Arrestation leader] → [Vide decisionnel] → [Desorganisation reseau] → [Effondrement mouvement]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Dead man''s switch + TOTP partage] → [Activation automatique sans leader] → [Continuite operationnelle]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Rotation zapatiste] → [Pas de leader unique] → [Arrestation sans effet] → [Resilience structurelle]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Protocole ecrit] → [Preuve materielle art.450-1 CP] → [Risque penal pour tous les signataires]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Dependance Telegram/VPS] → [Blocage ou saisie infrastructure] → [Dead man''s switch neutralise]
+
+    '
+perspectives_dialectiques:
+- P1: 'Favorable : Des solutions techniques existent et sont operationnelles (StillAliveBot, Posthumous, Sarcophagus). Les
+    modeles historiques (IRA, Solidarnosc, Zapatistes) prouvent que la succession est soluble.
+
+    '
+- P2: 'Defavorable : Aucune solution testee sous repression francaise. La tech est tracable/saisissable. Un protocole ecrit
+    = preuve penale. La rotation zapatiste exige une culture politique que la France n''a pas.
+
+    '
+- P3: 'Synthese : La succession ne se resout pas par un outil mais par une architecture. Combiner dead man''s switch technique
+    + rotation des roles + partage cryptographique (Shamir) + Individual Initiative (Holacracy). Mais le risque art.450-1
+    CP reste structurel.
+
+    '
+limites:
+- Aucun outil teste en contexte repressif reel.
+- Un protocole ecrit = preuve penale (art.450-1 CP).
+- Dependance a l'infrastructure tech (Telegram bloque dans 15 pays).
+- Complexite technique hors de portee des militants moyens.
+- Aucun protocole ne resiste a la compromission du leader arrete.
+- La rotation zapatiste exige une culture politique inexistante en France.
+wolves:
+- nom: Si un protocole de succession ecrit est une preuve penale, alors tout le travail...
+  argument: 'Si un protocole de succession ecrit est une preuve penale, alors tout le travail de documentation de ce dossier
+    est un piege. La vraie question n''est pas "comment assurer la succession" mais "comment assurer la succession sans laisser
+    de trace".
+
+    '
+  reponse: ''
+- nom: La rotation zapatiste elimine le besoin de succession mais elimine aussi la poss...
+  argument: 'La rotation zapatiste elimine le besoin de succession mais elimine aussi la possibilite d''un leadership strategique
+    fort. Un mouvement sans leader peut-il vraiment vaincre un Etat ?
+
+    '
+  reponse: ''
+iceberg:
+- item: 'Le dead man''s switch Git-based (lp1) utilise GitHub public comme heartbeat — l''infrastructure la plus publique
+    possible devient un outil clandestin. Paradoxe interessant a explorer.
+
+    '
+- item: 'L''IRA separait strictement la fonction militaire (Army Council) de la fonction politique (Sinn Fein). Si l''une
+    est decapitee, l''autre assure la continuite. Ce modele a deux tetes n''est pas explore pour les mouvements civils.
+
+    '
+- item: 'Mnemolite: UP, search DOWN.
+
+    '
+- item: 'Le Pause Guardian pattern (DAO) permet de geler les operations sans pouvoir les modifier — separation des pouvoirs
+    d''urgence. Applicable a la succession humaine ?
+
+    '
+chronologie:
+- date: 1919-2005
+  evenement: IRA — Army Council, co-option, Green Book
+- date: 1981-1989
+  evenement: Solidarnosc underground — TKK remplace Walesa
+- date: 1994-present
+  evenement: Zapatistes — rotation Juntas del Buen Gobierno
+- date: '2018'
+  evenement: Gnosis Safe — standard multisig DAO
+- date: '2020'
+  evenement: Compound Governor Bravo — double-track governance
+- date: '2022'
+  evenement: Holacracy Constitution v5.0
+- date: '2023'
+  evenement: Sarcophagus v2 mainnet — dead man's switch blockchain
+- date: '2025'
+  evenement: Telegram bloque dans 15 pays
+domaines:
+- Succession organisationnelle
+- Cryptographie (TOTP, Shamir, multisig)
+- Blockchain/DAO (Gnosis Safe, Governor Bravo, Sarcophagus)
+- Dead man's switch technique
+- Histoire des organisations clandestines
+- Gouvernance adaptative (Holacracy)
+urls_prioritaires:
+- url: github.com/tobyxdd/stillalive-bot
+  description: ''
+  head_status: 0
+- url: metafunctor.com/post/2026-02-14-posthumous/
+  description: ''
+  head_status: 0
+- url: cain.ulster.ac.uk/othelem/organ/ira/ira_green_book.htm
+  description: ''
+  head_status: 0
+- url: holacracy.org/constitution/5-0/
+  description: ''
+  head_status: 0
+- url: docs.safe.global
+  description: ''
+  head_status: 0
+shadow_factor: 2.5
+shadow_justification: 'Le fichier source est bien documente (15 faits, 25 URLs techniques) mais le coeur de l''analyse est
+  profondement speculatif : aucune methode testee en conditions reelles, risque penal documente mais non resolu, dependance
+  technique majeure. Suspicion score source : 5.0/10. Le paradoxe central (protocole ecrit = preuve penale) n''est pas resolu.
+
+  '
+mnemo_queries:
+- note: Mnemolite DOWN. Aucune requete possible.

@@ -1,0 +1,237 @@
+enquete_id: "predation"
+complexity: "APEX"
+date_extraction: "2026-06-17"
+enquete_source: "investigations/2026-06-17_12-30_securite-informatique-etat-francais-intentionnelle_INVESTIGATION.md"
+
+these_centrale: "Le système de sécurité informatique de l'État français est structurellement prédateur : les incitations institutionnelles sont alignées contre la sécurité réelle, produisant des fuites massives qui servent les intérêts budgétaires et politiques du complexe consulting-sécurité-État."
+
+theses_implicites:
+  - "L'absence de sanction crée une immunité de facto pour les administrations négligentes, rendant la sécurité impossible à prioriser"
+  - "La réponse systématique aux crises (création d'Ariane, plans budgétaires) produit des dépenses sans correction structurelle - un pattern de 'réforme sans changement'"
+  - "Les citoyens sont exposés à l'usurpation d'identité comme conséquence acceptée du fonctionnement du système, non comme anomalie"
+  - "La distinction entre incompétence et intentionnalité est moins pertinente que l'identification des bénéficiaires structurels de l'insécurité"
+
+faits_atomiques:
+  - id: "F-pred-001"
+    enonce: "Piratage ANTS : adolescent de 15 ans exploite faille IDOR connue depuis 2007, 11,7 millions de comptes compromis, 19 millions d'enregistrements en vente"
+    source_url: "https://www.lemondeinformatique.fr/actualites/lire-permis-cni-passeports-vol-de-donnees-apres-la-cyberattaque-de-l-ants-99969.html"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-002"
+    enonce: "Piratage Urssaf : 12 millions de personnes exposées via API partenaire compromise (janvier 2026)"
+    source_url: "https://www.lemondeinformatique.fr/actualites/lire-piratage-de-l-urssaf-les-donnees-de-12-millions-de-personnes-exposees-99089.html"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-003"
+    enonce: "Piratage Ficoba : 1,2 million de comptes bancaires, usurpation d'identifiants fonctionnaire DGFiP (février 2026)"
+    source_url: "https://www.lemondeinformatique.fr/actualites/lire-bercy-alerte-sur-le-piratage-du-fichier-national-des-comptes-bancaires-99401.html"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-004"
+    enonce: "Fuite Tchap : 73 467 agents, 643 459 messages, 59 386 fichiers, 13,51 Go de données interministérielles (juin 2026)"
+    source_url: "https://frenchbreaches.com/blog/une-fuite-de-donnees-viserait-la-messagerie-gouvernementale-tchap-avec-plus-de-643-000-messages-exposes"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-005"
+    enonce: "ANSSI réalise seulement 20 contrôles par an et moins de 10 audits inopinés pour des milliers de systèmes d'information étatiques (mai 2026)"
+    source_url: "https://www.lemondeinformatique.fr/actualites/lire-l-anssi-sur-la-sellette-apres-de-multiples-defaillances-en-cybersecurite-100194.html"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-006"
+    enonce: "ANSSI dispose d'un pouvoir de sanction financière mais ne l'a jamais utilisé contre une administration depuis sa création (mai 2026)"
+    source_url: "https://next.ink/238214/nous-ne-pouvons-pas-tout-controler-lanssi-face-a-la-complexite-des-systemes-de-letat/"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-007"
+    enonce: "McKinsey France : 0 euro d'impôt sur les sociétés de 2011 à 2020, tout en percevant 28-50 millions d'euros de contrats publics sur 2018-2021"
+    source_url: "https://fr.wikipedia.org/wiki/Affaire_McKinsey"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-008"
+    enonce: "L'État français a dépensé plus d'1 milliard d'euros en conseil en 2021, doublant ses dépenses depuis 2018 (rapport Sénat, mars 2022)"
+    source_url: "https://www.senat.fr/rap/r21-578-1/r21-578-1.html"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-009"
+    enonce: "Plan cybersécurité à 1 milliard d'euros annoncé par Emmanuel Macron en février 2021 : les fuites ont empiré, pas diminué"
+    source_url: "https://www.lesechos.fr/tech-medias/hightech/cybersecurite-le-plan-a-1-milliard-de-letat-1291369"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-010"
+    enonce: "Création de l'autorité Ariane (mai 2026) par Sébastien Lecornu, désaveu explicite de l'ANSSI, reprise du pilotage par Matignon"
+    source_url: "https://www.generation-nt.com/actualites/cyberattaques-gouvernement-debranche-anssi-2075807"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-011"
+    enonce: "17 802 violations de données personnelles en France en 2025, en hausse de 10% par rapport à 2024 (CNIL)"
+    source_url: "https://www.lemondeinformatique.fr/actualites/lire-l-anssi-sur-la-sellette-apres-de-multiples-defaillances-en-cybersecurite-100194.html"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-012"
+    enonce: "Piratage DINUM (Hubee) : 70 000 dossiers, 160 000 documents exfiltrés (janvier 2026)"
+    source_url: "https://www.lemondeinformatique.fr/actualites/lire-piratage-de-l-urssaf-les-donnees-de-12-millions-de-personnes-exposees-99089.html"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-013"
+    enonce: "ANTS non classé 'Opérateur d'Importance Vitale', donc sans surveillance renforcée ANSSI, malgré 11,7 millions de comptes citoyens (avril 2026)"
+    source_url: "https://www.lemondeinformatique.fr/actualites/lire-l-anssi-sur-la-sellette-apres-de-multiples-defaillances-en-cybersecurite-100194.html"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pred-014"
+    enonce: "Faille IDOR ANTS connue depuis 2007 - non corrigée pendant 19 ans jusqu'à l'exploitation par un adolescent en avril 2026"
+    source_url: "https://www.generation-nt.com/actualites/cyberattaques-gouvernement-debranche-anssi-2075807"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Vincent Strubel"
+    role: "Directeur général ANSSI (sous pression, minimise les défaillances)"
+    faits_lies: ["F-pred-005", "F-pred-006"]
+  - nom: "Sébastien Lecornu"
+    role: "Premier ministre, crée Ariane, désigne ANSSI comme fusible"
+    faits_lies: ["F-pred-010"]
+  - nom: "Karim Tadjeddine"
+    role: "Directeur associé McKinsey France, lien personnel Macron depuis 2007"
+    faits_lies: ["F-pred-007"]
+  - nom: "Thomas Cazenave"
+    role: "Ex-directeur DITP, supervise achats conseil, lié à McKinsey"
+    faits_lies: ["F-pred-008"]
+  - nom: "Éric Labaye"
+    role: "Ex-président McKinsey France, nommé président Polytechnique (2018)"
+    faits_lies: ["F-pred-007"]
+
+causalites:
+  - cause: "F-pred-007"
+    effet: "F-pred-008"
+    mecanisme: "L'exonération fiscale de McKinsey lui permet de proposer des prix sous-évalués, créant une dépendance de l'État aux cabinets conseil qui doublent leurs missions"
+  - cause: "F-pred-005"
+    effet: "F-pred-014"
+    mecanisme: "L'incapacité de l'ANSSI à auditer suffisamment (20 contrôles/an) laisse des failles élémentaires (IDOR 2007) non détectées pendant 19 ans"
+  - cause: "F-pred-006"
+    effet: "F-pred-013"
+    mecanisme: "L'absence de sanction financière contre les administrations supprime toute incitation à la conformité sécurité, produisant un classement OIV absent pour les systèmes critiques"
+  - cause: "F-pred-009"
+    effet: "F-pred-001"
+    mecanisme: "Les 1 Md€ promis en 2021 n'ont pas été fléchés vers la sécurité opérationnelle mais vers R&D privée et start-up, laissant les failles opérationnelles non corrigées"
+  - cause: "F-pred-010"
+    effet: "predation"
+    mecanisme: "La création d'Ariane plutôt que le renforcement de l'ANSSI reproduit le pattern de 'réforme sans changement' - nouvelle structure sans correction structurelle"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle (Narrative d'État)"
+    argument: "Les cyberattaques sont des accidents inévitables dans un contexte de menace mondiale croissante. L'État répond par des mesures immédiates (restriction d'accès, notification CNIL). La solution est technique et administrative : plus de budget, nouvelle autorité (Ariane)."
+  - position: "Antithèse (Intentionnalité)"
+    argument: "L'insécurité informatique est fonctionnelle : elle justifie des budgets croissants détournés via cabinets conseil, conditionne les citoyens à l'exposition de leurs données, offre un prétexte à la surveillance de masse. Le non-usage du pouvoir de sanction, l'absence de correction de failles connues depuis 19 ans, l'impunité - tout converge vers un système qui bénéficie de l'insécurité."
+  - position: "Synthèse (Analyse forensique)"
+    argument: "Négligence structurelle aux effets convergents, pas complot centralisé. Les ministères ne sont pas sanctionnés, l'ANSSI dépend politiquement de ceux qu'elle contrôle, les cabinets profitent de l'insécurité qu'ils ne résolvent pas. Le système n'a pas besoin d'être intentionnel pour être prédateur : les incitations sont alignées contre la sécurité."
+
+limites:
+  - "Absence de preuve directe d'intentionnalité : aucun document (note, mail) ne prouve une décision explicite de laisser les systèmes vulnérables"
+  - "Biais de disponibilité : les fuites récentes (2026) sont surreprésentées, le pattern a pu être différent par le passé"
+  - "Données budgétaires réelles partielles : budgets cybersécurité difficiles à tracer entre dédié et mutualisé"
+  - "Comparaison internationale absente : pas de benchmark systématique avec Estonie, Finlande, Danemark"
+  - "L'ANSSI comme bouc émissaire : Ariane peut être une réponse politique mais aussi une réponse rationnelle à un problème réel de gouvernance"
+
+wolves:
+  - nom: "Défenseur du statu quo"
+    argument: "Les fuites sont la conséquence inévitable de la numérisation et de la sophistication des attaquants. Aucun pays n'est à l'abri. La France fait mieux que la moyenne européenne."
+    reponse: "Les failles élémentaires (IDOR 2007 non corrigée, API non sécurisées) contredisent l'argument de sophistication. Des pays comparables (Estonie, Finlande) ont des taux d'incidents bien inférieurs."
+  - nom: "Relativiste technique"
+    argument: "Sécuriser des milliers de SI interconnectés est objectivement difficile. L'ANSSI fait ce qu'elle peut avec ses moyens. 50 audits/an est un maximum réaliste."
+    reponse: "La question n'est pas le nombre absolu d'audits mais l'absence de corrélation entre l'augmentation des budgets et l'amélioration de la sécurité. Le budget ANSSI est passé de 80 M€ à 136 M€ sans baisse des incidents."
+  - nom: "Critique du framework d'enquête"
+    argument: "L'enquête confond incompétence et intention. La thèse de 'prédation structurelle' est une construction rhétorique qui prête au système une cohérence qu'il n'a pas."
+    reponse: "L'enquête conclut explicitement à une prédation structurelle sans intention consciente (8/10), pas à un complot centralisé (3/10). La distinction entre incompétence et prédation est documentée au §11."
+
+iceberg:
+  - "La surveillance de masse comme objectif politique non-dit : les systèmes vulnérables facilitent l'accès aux données citoyennes par les services de renseignement"
+  - "Le rôle des GAFAM dans l'hébergement des données sensibles françaises (Health Data Hub sur Azure 2019-2026, Cloud Act américain)"
+  - "Résultat Mnemolite: search 'sécurité informatique État français ANSSI prédation' → 5 mémoires trouvées (ea915e71, 2da2a197, 3cf3395c, ba1542f0, 2e6bf2ad). L'ADVENDA (2da2a197) confirme et étend avec 15 faits supplémentaires."
+  - "La formation des élites (X, Mines, ENA) comme filtre produisant un entre-soi incapable de critique systémique"
+
+chronologie:
+  - date: "2011-2020"
+    evenement: "McKinsey France : 0 € d'IS, optimisation fiscale via Delaware"
+    source_fait: "F-pred-007"
+  - date: "2021-02"
+    evenement: "Macron annonce plan cybersécurité 1 Md€"
+    source_fait: "F-pred-009"
+  - date: "2022-03"
+    evenement: "Rapport Sénat cabinets conseil : >1 Md€ dépenses 2021, 'phénomène tentaculaire'"
+    source_fait: "F-pred-008"
+  - date: "2026-01"
+    evenement: "Piratage Urssaf (12 M personnes) et DINUM/Hubee (70 K dossiers)"
+    source_fait: "F-pred-002, F-pred-012"
+  - date: "2026-02"
+    evenement: "Piratage Ficoba (1,2 M comptes bancaires)"
+    source_fait: "F-pred-003"
+  - date: "2026-04"
+    evenement: "Piratage ANTS (11,7 M comptes, faille IDOR 2007)"
+    source_fait: "F-pred-001, F-pred-014"
+  - date: "2026-05"
+    evenement: "Révélation Canard Enchaîné : ANSSI 20 audits/an, sanction jamais utilisée"
+    source_fait: "F-pred-005, F-pred-006"
+  - date: "2026-05"
+    evenement: "Création autorité Ariane, désaveu ANSSI par Lecornu"
+    source_fait: "F-pred-010"
+  - date: "2026-06"
+    evenement: "Fuite Tchap (73 K agents, 643 K messages)"
+    source_fait: "F-pred-004"
+
+domaines:
+  - "Cybersécurité publique"
+  - "Gouvernance IT de l'État"
+  - "Cabinets de conseil et marchés publics"
+  - "Protection des données personnelles"
+  - "Souveraineté numérique"
+  - "Administration numérique et dématérialisation"
+
+urls_prioritaires:
+  - url: "https://www.lemondeinformatique.fr/actualites/lire-l-anssi-sur-la-sellette-apres-de-multiples-defaillances-en-cybersecurite-100194.html"
+    description: "Article LMI de synthèse sur les défaillances ANSSI, source centrale pour l'état des lieux"
+    head_status: 200
+  - url: "https://next.ink/238214/nous-ne-pouvons-pas-tout-controler-lanssi-face-a-la-complexite-des-systemes-de-letat/"
+    description: "Audition Strubel qui révèle le non-usage du pouvoir de sanction"
+    head_status: 200
+  - url: "https://www.senat.fr/rap/r21-578-1/r21-578-1.html"
+    description: "Rapport Sénat 2022 sur les cabinets de conseil, document fondateur"
+    head_status: 200
+  - url: "https://fr.wikipedia.org/wiki/Affaire_McKinsey"
+    description: "Synthèse de l'affaire McKinsey : zéro IS, contrats publics, liens Macron"
+    head_status: 200
+
+shadow_factor: 3.2
+
+mnemo_queries:
+  - query: "sécurité informatique État français ANSSI prédation"
+    results_count: 5
+  - query: "cybersécurité fuites données administration française"
+    results_count: 5

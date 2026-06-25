@@ -1,0 +1,60 @@
+enquete_id: "attrition_fin"
+complexity: "SIMPLE"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_sub_attrition_financiere/2026-06-12_12-00_attrition_financiere_modele_transparence_INVESTIGATION.md"
+
+these_centrale: "Le modèle 'transparence juridique' documenté dans P2#9 (Succès Sous-Marins) est structurellement exclusif. Un recours au Conseil d'État coûte 5 000-10 000 € minimum. Une défense post-répression (Sainte-Soline) atteint des dizaines de milliers d'euros. Les cagnottes sont alimentées par une base de donateurs CSP+. Sans capital économique et réseau d'avocats, ce modèle est inaccessible aux classes populaires — confirmant le Wolf 1 de P2#9 et renforçant TC4 (exclusion structurelle des 65%). Le corpus ne chiffre jamais le coût d'entrée de ses 'solutions'."
+
+theses_implicites:
+  - "Le modèle 'transparence juridique' reproduit les inégalités de capital économique : ceux qui peuvent payer des avocats survivent, les autres sont condamnés plus lourdement."
+  - "L'aide juridictionnelle est structurellement insuffisante pour les contentieux politiques complexes (dissolution administrative, répression de manifestation)."
+  - "Toute solution proposée par le corpus devrait inclure un budget — angle mort systématique."
+
+acteurs:
+  - "Avocats aux Conseils (monopole ~100 avocats, honoraires libres)"
+  - "Conseil d'État (référé-suspension, annulation)"
+  - "Aide juridictionnelle (plafond ~1 200 €/mois pour AJ totale)"
+  - "TRACFIN (gel des avoirs associatifs)"
+  - "Cagnottes militantes (HelloAsso, Leetchi)"
+  - "Caisse de solidarité aux blessé·e·s de Sainte-Soline"
+
+causalites:
+  - "Modèle transparence juridique → coût d'entrée élevé → exclusion structurelle des classes populaires"
+  - "Absence de chiffrage des coûts dans le corpus → angle mort systématique"
+  - "AJ plafonnée et inadaptée → les précaires sont désarmés juridiquement face à l'État"
+
+faits_atomiques:
+  - F-att-001: "Recours Conseil d'État : 5 000-10 000 € minimum (avocats aux Conseils, monopole ~100). Contentieux complexe (annulation décret, QPC) : 20 000-30 000 €."
+    glyph: "✧"
+  - F-att-002: "AJ : plafond ~1 200 €/mois pour AJ totale. Ne couvre pas frais d'expertise, déplacements, condamnations aux dépens. Inadaptée aux contentieux politiques complexes."
+    glyph: "✦"
+    url: "https://www.service-public.fr/particuliers/vosdroits/F18074"
+  - F-att-003: "Défense Sainte-Soline (mars 2023) : dizaines de milliers d'euros via cagnottes participatives. Caisse de solidarité aux blessé·e·s."
+    glyph: "❧"
+  - F-att-004: "Donateurs cagnottes militantes = majoritairement CSP+ disposant de capacité d'épargne. L'écologie populaire structurellement moins équipée pour financer des contentieux longs."
+    glyph: "❧"
+
+limites:
+  - "Montants = ordres de grandeur, pas audits comptables."
+  - "Données cagnottes parcellaires (mouvements ne publient pas comptes détaillés)."
+  - "Aucune comparaison systématique avec coût d'une défense clandestine."
+
+wolves: []
+
+iceberg:
+  - "Coût d'entrée du modèle 'transparence juridique' jamais chiffré par le corpus"
+  - "AJ structurellement inadaptée aux contentieux politiques"
+  - "Le modèle CSP+ reproduit les inégalités de capital économique"
+  - "Angle mort systématique : le corpus ne budgétise jamais ses solutions"
+
+chronologie:
+  - "2023 : Sainte-Soline — défense de masse post-répression"
+  - "2024 : Suspension dissolution LST par Conseil d'État"
+
+domaines:
+  - "economie_militante"
+  - "droit_administratif"
+  - "inegalites_sociales"
+
+urls:
+  - "https://www.service-public.fr/particuliers/vosdroits/F18074"

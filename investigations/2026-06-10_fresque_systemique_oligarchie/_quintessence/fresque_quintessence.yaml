@@ -1,0 +1,235 @@
+enquete_id: "fresque"
+complexity: "APEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-10_fresque_systemique_oligarchie/"
+fichiers_sources:
+  - "2026-06-10_20-38_fresque_systemique_oligarchie_INVESTIGATION.md (627 lignes, 18 faits, 15 sections)"
+  - "2026-06-10_15-00_fresque_systemique_oligarchie_INVESTIGATION.md (133 lignes, version condensée)"
+
+these_centrale: "L'oligarchie contemporaine ne maintient pas son pouvoir par la force directe mais par un système bouclé de 12 mécanismes interconnectés (Milgram, Biderman, publicité, division, choc, égotisme, spectacle, propagande, escrologie, ploutocratie, complosophisme, idiocratie) dont la fonction unique est la production de l'individu isolé, informé et inoffensif — incapable de coordination réelle. Le système ne verrouille pas la révolte, il verrouille la coordination."
+theses_implicites:
+  - "La convergence sans coordination centrale est le principe organisateur du système : les 12 mécanismes sont actionnés par des acteurs différents (publicitaires, politiciens, algorithmes, médias) mais produisent TOUS le même output. La sélection naturelle des tactiques qui 'marchent' remplace le complot."
+  - "L'angle mort du système est ce qu'il ne peut pas voir, numériser, monétiser ou spectaculariser : la communauté non-marchande, l'action invisible, la coordination hors-ligne, le maquis. C'est dans cet angle mort que la résistance peut opérer."
+  - "Le corpus contient déjà une doctrine de guérilla complète en 5 couches (rhizome, résidu, désorganisation, RIC, asphyxie du Golem) mais fragmentée dans 5 articles. La synthèse existe, l'organisation manque."
+
+faits_atomiques:
+  - id: "F-fresque-001"
+    enonce: "Milgram (1963) : 65% des sujets infligent des décharges de 450V sur ordre d'une autorité. Hofling (1966) : 21/22 infirmières obéissent à un ordre médical dangereux. Stanford Prison (1971) : le rôle transforme l'identité en 6 jours."
+    source_url: "https://www.simplypsychology.org/milgram.html"
+    source_section: "§12 F1, F2, F3"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-002"
+    enonce: "Biderman (1957) : 8 techniques de coercition (isolement, monopole attention, épuisement, humiliation, menaces, pressions, indulgence occasionnelle, conformité forcée) — transposables à la société civile entière."
+    source_url: "https://www.strath.ac.uk/media/1newwebsite/departmentsubject/socialwork/documents/eshe/Bidermanschartofcoercion.pdf"
+    source_section: "§12 F14"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-003"
+    enonce: "Bernays (1928) : invente les relations publiques comme technique de manipulation des masses par les désirs inconscients. 'Torches of Freedom' (1929) : fait fumer les femmes en liant cigarette à émancipation."
+    source_url: "https://www.pbs.org/wgbh/americanexperience/features/torches-of-freedom/"
+    source_section: "§12 F5"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-004"
+    enonce: "Gilens & Page (2014) : analyse de 1779 propositions politiques sur 20 ans. Les élites économiques ont une influence substantielle ; les citoyens ordinaires et les groupes de masse en ont presque zéro."
+    source_url: "https://archive.org/details/gilens_and_page_2014_-testing_theories_of_american_politics.doc"
+    source_section: "§12 F4"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-005"
+    enonce: "Concentration médiatique : 9 milliardaires contrôlaient 80% des médias français (Bolloré, Niel, Drahi, Arnault, Saadé, Bouygues, Dassault, Lagardère, Ouest-France). Après consolidations 2025, 5 milliardaires. CNews n°1 chaîne info (2024)."
+    source_url: "https://lessentieldeleco.fr/2322-qui-possede-les-medias-en-france/"
+    source_section: "§12 F6, F17"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-fresque-006"
+    enonce: "Dette publique française : 3 482 Mds€ (115,6% PIB, Q3 2025). Charge d'intérêts : 67 Mds€ (2025) → 74 Mds€ (2026). Premier budget de l'État, justifie l'austérité."
+    source_url: "https://www.insee.fr/fr/statistiques/8686951"
+    source_section: "§12 F8, F9"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-007"
+    enonce: "PISA 2022 : France 26e en compréhension de l'écrit (474 pts), baisse historique et structurelle depuis 30 ans. 50% des Français ne comprennent pas un texte simple."
+    source_url: "https://www.oecd.org/en/about/programmes/pisa.html"
+    source_section: "§12 F7"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-008"
+    enonce: "Le Siècle (~600 membres) + ENA/INSP (~6 500 énarques) : cœur de la reproduction élitaire française. 85% des décideurs sortent de l'ENA. Degré de séparation entre élites ~2."
+    source_url: "https://www.vie-publique.fr/eclairage/268499-le-siecle-cercle-de-reflexion-influent"
+    source_section: "§12 F10"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-009"
+    enonce: "Aza Raskin invente l'infinite scroll (2006) — l'innovation clé du verrouillage attentionnel. L'algorithme maximise l'engagement = maximise la division."
+    source_url: "https://www.npr.org/2026/04/07/nx-s1-5775917/why-infinite-scrolls-inventor-wants-to-kill-his-creation"
+    source_section: "§12 F15"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-fresque-010"
+    enonce: "Klein (2007) : la 'stratégie du choc' — les crises (coup d'État chilien 1973, Katrina 2005, Irak 2003, COVID 2020) sont utilisées pour imposer privatisations, dérégulation et austérité."
+    source_url: "https://www.penguinrandomhouse.com/books/287562/the-shock-doctrine-by-naomi-klein/"
+    source_section: "§12 F12"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-011"
+    enonce: "Iceberg Factor total : Σ hidden / Σ visible = 25.6/12 = 2.13. La face cachée du système est 2× plus grande que sa face visible. Les mécanismes additionnels estimés : 3-5."
+    source_url: "Analyse §5"
+    source_section: "§5 Iceberg Analysis"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-012"
+    enonce: "Angle mort du système = tout ce qui n'est pas numérisable, monétisable, spectacularisable : communauté non-marchande, action invisible, coordination hors-ligne, maquis. Le système ne voit que ce qu'il peut tracer."
+    source_url: "Analyse §6"
+    source_section: "§6 Angle mort"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-013"
+    enonce: "5 doctrines de guérilla du corpus synthétisées : Rhizome (6 étapes de ré-enracinement), Résidu (4 tactiques de guérilla asymétrique), Désorganisation (guerre cognitive retournée), RIC Constituant (levier politique), Asphyxie du Golem (3 piliers : ischémie, engorgement, cécité)."
+    source_url: "Articles Substack locaux"
+    source_section: "§7.2"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-014"
+    enonce: "Ce qui manque : coordination inter-cellules, discipline d'exécution, patience stratégique, capacité de frappe synchronisée, refus du spectacle. La doctrine existe, l'organisation manque."
+    source_url: "Analyse §7.3"
+    source_section: "§7.3"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-fresque-015"
+    enonce: "Les 8 techniques de Biderman sont applicables au système social entier : isolement (algorithmes), monopole attention (pub+médias), épuisement (stress chronique), menaces (crise permanente), récompenses (likes, soldes), etc."
+    source_url: "Analyse §9.1"
+    source_section: "§9.1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Vincent Bolloré"
+    role: "Capture médiatique — CNews, Europe 1, JDD, Paris Match. Promoteur alliance RN-LR (2024)"
+    faits_lies: ["F-fresque-005"]
+  - nom: "Le Siècle + ENA/INSP"
+    role: "Cœur de la reproduction élitaire — ~600 + 6 500 membres, 85% des décideurs"
+    faits_lies: ["F-fresque-008"]
+  - nom: "Aza Raskin"
+    role: "Inventeur de l'infinite scroll (2006) — architecte du verrouillage attentionnel"
+    faits_lies: ["F-fresque-009"]
+  - nom: "Edward Bernays"
+    role: "Inventeur des relations publiques (1928), neveu de Freud — père de la manipulation des masses"
+    faits_lies: ["F-fresque-003"]
+  - nom: "9 milliardaires médias"
+    role: "Bolloré, Niel, Drahi, Arnault, Saadé, Bouygues, Dassault, Lagardère, Ouest-France — 80% des médias"
+    faits_lies: ["F-fresque-005"]
+
+causalites:
+  - cause: "F-fresque-001"
+    effet: "F-fresque-011"
+    mecanisme: "Milgram, Asch, Zimbardo démontrent que l'obéissance est la norme, pas l'exception. Le système n'a pas besoin d'imposer par la force — il lui suffit de configurer les conditions (autorité légitime, pression du groupe, rôle) pour que l'obéissance émerge spontanément."
+  - cause: "F-fresque-005"
+    effet: "F-fresque-010"
+    mecanisme: "La concentration médiatique (9 milliardaires = 80%) verrouille le cadre du débat public (Chomsky, 5 filtres), rendant la stratégie du choc (Klein) imperceptible comme système — chaque crise semble 'naturelle'."
+  - cause: "F-fresque-012"
+    effet: "F-fresque-013"
+    mecanisme: "L'angle mort du système (non-numérisable, non-marchand, non-spectacularisable) est l'espace où les 5 doctrines de guérilla (rhizome, résidu, désorganisation, RIC, asphyxie) peuvent opérer sans être détectées."
+  - cause: "F-fresque-006"
+    effet: "F-fresque-007"
+    mecanisme: "La dette (115,6% PIB) justifie l'austérité qui étrangle l'éducation. PISA baisse. La population devient incapable de comprendre les mécanismes qui l'écrasent — cercle vicieux."
+
+perspectives_dialectiques:
+  - position: "Thèse — Les 12 mécanismes forment un système intentionnel"
+    argument: "La convergence parfaite des outputs (tous produisent l'isolement), la densité du réseau élitaire (Le Siècle, ENA), et la synchronisation des crises (COVID, guerre, climat) suggèrent une coordination centrale. La thèse du 'complot' n'est pas nécessaire mais la thèse de l'accident l'est encore moins."
+  - position: "Antithèse — Les mécanismes sont des phénomènes séparés, convergents par hasard"
+    argument: "Milgram (psychologie), Bernays (publicité), Chomsky (médias), Klein (économie) n'ont jamais collaboré. Leur convergence est le produit de la sélection naturelle des tactiques efficaces, pas d'une coordination. L'ENA et Le Siècle sont des clubs, pas un comité central."
+  - position: "Synthèse — Convergence structurelle sans coordination centrale"
+    argument: "L'enquête elle-même le reconnaît (L5) : l'application macrosociale de Biderman est une 'extension abusive'. La convergence est réelle mais son explication est structurelle (intérêts de classe partagés, mêmes écoles, mêmes clubs) plutôt qu'orchestrée. La distinction technique n'a pas d'importance pratique pour ceux qui subissent l'effet."
+
+limites:
+  - "L'application macrosociale de Biderman (8 techniques de lavage de cerveau en captivité) à la société civile est une extension théorique non validée empiriquement."
+  - "L'iceberg factor (2.13) est calculé avec des coefficients subjectifs — la méthode n'est pas scientifique."
+  - "Aucune analyse genrée ou raciale des 12 mécanismes — ils frappent différemment selon le genre, la race, la classe."
+  - "Pas de comparaison internationale — les mécanismes sont-ils spécifiques à la France ou communs à toutes les démocraties occidentales ?"
+  - "Le biais déterministe : le système semble invincible, les contre-exemples (Solidarnosc, Zapatistes) sont mentionnés mais minimisés."
+
+wolves:
+  - nom: "Défenseur du système"
+    argument: "Les 12 mécanismes sont la description de toute société complexe, pas d'un 'système oligarchique'. La dette, la publicité, les médias, l'éducation : ce sont des réalités, pas des complots. Vous confondez description et accusation."
+    reponse: "La question n'est pas l'existence des mécanismes mais leur CONVERGENCE. Pris séparément, chacun est banal. Pris ensemble, ils produisent un citoyen qui ne peut pas se coordonner. La convergence est un fait, pas une théorie."
+  - nom: "Techno-optimiste"
+    argument: "L'angle mort du système (non-numérisable) se réduit chaque année. L'IA, la reconnaissance faciale, la blockchain : tout devient traçable. Dans 5 ans, il n'y aura plus d'angle mort. Le maquis est une solution temporaire."
+    reponse: "L'angle mort se réduit pour le système, pas pour les humains. La confiance, le contact réel, la production commune restent non-numérisables par nature. Le maquis n'est pas une cachette — c'est un mode d'existence alternatif."
+
+iceberg:
+  - "Les mécanismes additionnels non identifiés (3-5 estimés) : financement politique occulte, capture de la justice, contrôle des nominations, etc."
+  - "La question des nouveaux mécanismes 2020-2030 : IA générative, surveillance prédictive (LOPMI), effondrement attentionnel — non traités en profondeur."
+  - "Mnemolite UP mais search 500. Aucune recherche cross-séries."
+  - "Résultat Mnemolite: [fresque systémique oligarchie 12 mécanismes → 500 Internal Server Error]"
+
+chronologie:
+  - date: "1957-01-01"
+    evenement: "Biderman publie la Chart of Coercion — 8 techniques de soumission"
+    source_fait: "F-fresque-002"
+  - date: "1963-01-01"
+    evenement: "Milgram — 65% des sujets infligent 450V sur ordre"
+    source_fait: "F-fresque-001"
+  - date: "1967-01-01"
+    evenement: "Debord — La Société du Spectacle"
+    source_fait: "F-fresque-012"
+  - date: "1988-01-01"
+    evenement: "Chomsky & Herman — Manufacturing Consent, 5 filtres de propagande"
+    source_fait: "F-fresque-005"
+  - date: "2006-01-01"
+    evenement: "Aza Raskin invente l'infinite scroll"
+    source_fait: "F-fresque-009"
+  - date: "2007-01-01"
+    evenement: "Klein — The Shock Doctrine"
+    source_fait: "F-fresque-010"
+  - date: "2014-01-01"
+    evenement: "Gilens & Page — les élites dominent, les citoyens n'ont aucune influence"
+    source_fait: "F-fresque-004"
+  - date: "2017-01-01"
+    evenement: "Bolloré rachète CNews — transformation du paysage médiatique"
+    source_fait: "F-fresque-005"
+  - date: "2020-01-01"
+    evenement: "COVID-19 — pass vaccinal, confinement, DSA, dette +1000 Mds"
+    source_fait: "F-fresque-010"
+  - date: "2025-01-01"
+    evenement: "Dette publique : 3 482 Mds, 115,6% PIB, intérêts = 1er budget"
+    source_fait: "F-fresque-006"
+
+domaines:
+  - "Psychologie sociale — obéissance, coercition, conformité (Milgram, Biderman, Asch)"
+  - "Économie politique — ploutocratie, dette, inégalités (Gilens & Page, Klein)"
+  - "Médias et propagande — concentration, 5 filtres (Chomsky, Bernays)"
+  - "Technologie et attention — infinite scroll, algorithmes (Raskin)"
+  - "Stratégie de résistance — guérilla asymétrique, maquis, doctrines du corpus"
+
+urls_prioritaires:
+  - url: "https://www.insee.fr/fr/statistiques/8686951"
+    description: "INSEE — dette publique 3 482 Mds, 115,6% PIB. Source primaire officielle."
+    head_status: 0
+  - url: "https://www.oecd.org/en/about/programmes/pisa.html"
+    description: "OCDE PISA 2022 — classement éducatif français"
+    head_status: 0
+
+shadow_factor: 2.0
+
+mnemo_queries:
+  - query: "fresque systémique oligarchie 12 mécanismes coordination"
+    results_count: 0
+    error: "500 Internal Server Error"
+  - note: "Mnemolite UP mais search inopérant."

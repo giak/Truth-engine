@@ -1,0 +1,520 @@
+civ: "S"
+complexity: "COMPLEX"
+date_extraction: "2026-06-07"
+enquete_source: "investigations/2026-06-03_sumer_article/2026-06-03_12-30_sumer_vs_france_INVESTIGATION.md"
+shadow_factor: 3.1
+
+these_centrale: >
+  Sumer et la France partagent des structures fonctionnelles communes (dette,
+  bureaucratie, redistribution, droit, dogme) à des échelles incommensurables, mais
+  chaque parallèle doit être accompagné de son Shadow Factor (3.1×) : la complexité
+  réelle est environ trois fois supérieure à ce que la comparaison laisse voir, et
+  la reconstruction savante de Sumer (occidentale, basée sur moins de 10% des
+  tablettes) est asymétrique à la France vécue (données complètes, 2026).
+
+theses_implicites:
+  - >
+    L'andurarum sumérien n'est pas un jubilé moderne mais un outil politique
+    ponctuel (environ un tous les 33 ans en moyenne), et non un mécanisme
+    systémique de redistribution comparable à la Sécurité sociale française.
+  - >
+    Le parallèle entre scribes sumériens et grands corps français (INSP, Conseil
+    d'État, Inspection des Finances) est le plus solide de l'enquête, mais
+    l'échelle (×1000) et le pouvoir décisionnel diffèrent radicalement : le
+    scribe sert le temple et le roi, le technocrate sert l'État au nom du peuple.
+  - >
+    La dette française (3 416,3 milliards d'euros, 115,6% du PIB) est un problème
+    réel, mais l'analogie avec l'andurarum est un faux-ami : taux bas, majorité
+    détenue par des non-résidents (54,7%), hors-bilan de 500 à 800 milliards
+    d'euros ; le profil est structurellement différent du surendettement paysan
+    sumérien.
+  - >
+    La complexité juridique française n'est pas un symptôme pathologique d'inflation
+    mais le résultat de 200 ans de sédimentation démocratique, et la comparaison
+    directe avec un code unique d'Ur-Nammu gonfle artificiellement le contraste.
+  - >
+    L'assyriologie occidentale du XXe siècle a construit un Sumer utile à des
+    récits contemporains (démocratie originelle, éden perdu), et l'enquête
+    hérite de ce cadrage sans le critiquer suffisamment.
+
+faits_atomiques:
+  - id: "F-S001"
+    enonce: "Dette publique française à 3 416,3 milliards d'euros, soit 115,6% du PIB au deuxième trimestre 2025 (source officielle Bercy)."
+    source_url: "https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique"
+    source_section: "§1 / §5 / §11 F001"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+  - id: "F-S002"
+    enonce: "Code d'Ur-Nammu, plus ancien code de lois connu, contient environ 57 articles dont 40 conservés (vers 2100-2050 av.)."
+    source_url: "https://en.wikipedia.org/wiki/Code_of_Ur-Nammu"
+    source_section: "§1 / §8.6 / §11 F002"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-S003"
+    enonce: "L'andurarum (akkadien) ou amargi (sumérien) désigne un édit royal de rémission des dettes, pratiqué entre 2400 et 1400 av. en Mésopotamie."
+    source_url: "https://fr.wikipedia.org/wiki/Andurarum"
+    source_section: "§8.1 / §11 F003"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-S004"
+    enonce: "Environ 30 annulations générales de dettes sont documentées sur la période 2400-1400 av. en Mésopotamie sumérienne et paléo-babylonienne (5 à 8 sur la période purement sumérienne 2400-2000)."
+    source_url: "https://www.zap.cool/ancient-debt-cancellations-shaped-empires"
+    source_section: "§1 / §8.1 / §11 F004"
+    head_status: null
+    tier: 3
+    glyphe: "⁅"
+  - id: "F-S005"
+    enonce: "Les taux d'intérêt sumériens étaient fixes : environ 33,3% pour l'orge et 20% pour l'argent (période paléo-babylonienne dominante)."
+    source_url: "https://michael-hudson.com/2000/03/how-interest-rates-were-set-2500-bc-1000-ad/"
+    source_section: "§1 / §5 / §8.1 / §11 F005"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-S006"
+    enonce: "L'edubba, école de scribes sumériens, dispensait un programme standardisé de 8 à 12 ans sous le règne de Shulgi (vers 2100 av.)."
+    source_url: "https://en.wikipedia.org/wiki/Eduba"
+    source_section: "§1 / §8.3 / §11 F006"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-S007"
+    enonce: "La France compte 5,7 millions de fonctionnaires, soit 76 agents pour 1000 habitants et 22% de la population active en 2025."
+    source_url: "https://www.ifrap.org/fonction-publique-et-administration/combien-la-france-compte-deffectifs-publics-en-plus-par-rapport-la-moyenne-europeenne"
+    source_section: "§1 / §8.3 / §10 CHAÎNE 3"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-S008"
+    enonce: "Les réformes d'Urukagina à Lagash (vers 2350 av.) proclament que le fort n'opprimera pas le faible ; c'est l'un des premiers décrets de justice sociale documentés."
+    source_url: "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/sumerians.pdf"
+    source_section: "§1 / §8.4 / §11 F008"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-S009"
+    enonce: "Le Dialogue de Pessimisme (vers 1500 av.) atteste l'existence d'un scepticisme religieux structuré en Mésopotamie."
+    source_url: "https://en.wikipedia.org/wiki/Dialogue_of_Pessimism"
+    source_section: "§1 / §8.5 / §11 F009"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-S010"
+    enonce: "Les femmes sumériennes disposaient de droits de propriété, de commerce et de justice variables selon la période et la classe sociale (2600-2000 av.)."
+    source_url: "https://www.worldhistory.org/article/2081/women-in-ancient-mesopotamia/"
+    source_section: "§1 / §14 / §11 F010"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-S011"
+    enonce: "Le terme amargi signifie littéralement retour à la mère : il désigne la libération des esclaves pour dette retournant à leur famille d'origine."
+    source_url: "https://www.cadtm.org/The-Long-Tradition-of-Debt"
+    source_section: "§8.1 / §11 F011"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-S012"
+    enonce: "La thèse de Karl Polanyi sur le temple redistributeur est contestée par l'école formaliste, notamment Morris Silver en 2007, qui démontre l'existence de marchés privés (tamkarum) indépendants."
+    source_url: "https://www.academia.edu/2360528/Redistribution_and_Markets_in_the_Economy_of_Ancient_Mesopotamia_Updating_Polanyi"
+    source_section: "§8.2 / §13 biais / §11 F012"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-S013"
+    enonce: "Le code de Lipit-Ishtar (Isin, vers 1930 av.) conserve environ 400 lignes sur les 1200 d'origine, soit le deuxième code de lois connu après celui d'Ur-Nammu."
+    source_url: "https://www.penn.museum/documents/publications/pdfs/The_Code_of_Lipit-Ishtar.pdf"
+    source_section: "§7 / §11 F013"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-S014"
+    enonce: "Dominique Charpin (Collège de France) affirme en 1987 puis 2008 que l'andurarum désigne un retour au statut d'origine, et non une libération générale."
+    source_url: "https://shs.cairn.info/revue-d-assyriologie-2008-1-page-149"
+    source_section: "§6 P2 / §15 / §11 F014"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-S015"
+    enonce: "Gudea de Lagash proclame une annulation des dettes (shudutu) sur les cylindres A et B, vers 2120 av."
+    source_url: "https://michael-hudson.com/wp-content/uploads/2010/03/HudsonLostTradition.pdf"
+    source_section: "§7 / §11 F015"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-S016"
+    enonce: "Marc Van De Mieroop (Columbia) et Michael Hudson collaborent en 2025 (IMF F&D), et non en opposition, sur la question des annulations de dettes mésopotamiennes."
+    source_url: "https://www.imf.org/external/pubs/ft/fandd/2025/03/debt-cancellations-in-ancient-mesopotamia-hudson"
+    source_section: "§15 corroboration / §11 F016"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-S017"
+    enonce: "La cité d'Uruk comptait entre 40 000 et 80 000 habitants à son apogée vers 3100 av. (correction V2 ; la légende de 300 000 est abandonnée)."
+    source_url: "https://en.wikipedia.org/wiki/Uruk"
+    source_section: "§13 correction V2 / §11 F017"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-S018"
+    enonce: "Schrakamp et Zólyomi (De Gruyter, 2025) démontrent que les réformes d'Urukagina constituent une restauration conservatrice de l'ordre divin traditionnel, et non une innovation sociale progressiste."
+    source_url: "https://www.degruyter.com/document/doi/10.1515/9783111757546/html"
+    source_section: "§8.4 / §13 biais / §11 F018"
+    head_status: 202
+    tier: 1
+    glyphe: "⁅"
+  - id: "F-S019"
+    enonce: "Entre 500 000 et 2 millions de tablettes cunéiformes ont été excavées, et environ 100 000 sont publiées : moins de 10% de la production totale."
+    source_url: "https://en.wikipedia.org/wiki/Cuneiform"
+    source_section: "§13 / §18 / §11 F019"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-S020"
+    enonce: "Le Code civil français de 1804 contient environ 2 300 articles ; le cumul législatif atteint 15 000 lois et 400 000 pages de codes."
+    source_url: "https://fr.wikipedia.org/wiki/Code_civil_(France)"
+    source_section: "§1 / §8.6 / §11 F020"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-S021"
+    enonce: "Le journal Sumer (ISSN 0081-9271), publié à Bagdad par l'État irakien, constitue une source primaire non occidentale non consultée par l'enquête (biais de sourçage documenté)."
+    source_url: "https://sbah.gov.iq"
+    source_section: "§13 biais 9 / §11 F021"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+  - id: "F-S022"
+    enonce: "La dette française est détenue à 54,7% par des non-résidents au premier trimestre 2025, selon la Banque de France."
+    source_url: "https://www.publicsenat.fr/actualites/economie/la-dette-publique-francaise-detenue-a-54-7-par-des-non-residents"
+    source_section: "§11 F022"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+
+acteurs:
+  - nom: "Urukagina"
+    role: "Roi réformateur de Lagash, premier décret de justice sociale documenté"
+    faits_lies: ["F-S008", "F-S018"]
+  - nom: "Gudea de Lagash"
+    role: "Roi bâtisseur, proclamation d'annulation des dettes sur cylindres A et B"
+    faits_lies: ["F-S015"]
+  - nom: "Ur-Nammu"
+    role: "Fondateur de la IIIe dynastie d'Ur, auteur du plus ancien code de lois connu"
+    faits_lies: ["F-S002"]
+  - nom: "Shulgi"
+    role: "Roi d'Ur III, réformateur bureaucratique, essor de l'edubba"
+    faits_lies: ["F-S006"]
+  - nom: "Lipit-Ishtar"
+    role: "Roi d'Isin, auteur du deuxième code de lois connu"
+    faits_lies: ["F-S013"]
+  - nom: "Scribes (dubsar)"
+    role: "Élite administrative lettrée, formés à l'edubba, gestionnaires du temple et du palais"
+    faits_lies: ["F-S006"]
+  - nom: "Michael Hudson"
+    role: "Économiste hétérodoxe, thèse de l'andurarum comme annulation systématique, agenda anti-dette contemporaine"
+    faits_lies: ["F-S005", "F-S015", "F-S016"]
+  - nom: "Dominique Charpin"
+    role: "Assyriologue au Collège de France, lecture prudente de l'andurarum comme retour au statut d'origine"
+    faits_lies: ["F-S014"]
+  - nom: "Samuel N. Kramer"
+    role: "Sumérologue, traducteur d'Ur-Nammu, thèse controversée de Sumer berceau de la démocratie"
+    faits_lies: ["F-S002"]
+  - nom: "Karl Polanyi"
+    role: "Anthropologue économique, thèse du temple redistributeur (contestée)"
+    faits_lies: ["F-S012"]
+  - nom: "Morris Silver"
+    role: "Économiste formaliste, contre-thèse sur l'existence de marchés privés sumériens"
+    faits_lies: ["F-S012"]
+  - nom: "Schrakamp et Zólyomi"
+    role: "Assyriologues (De Gruyter 2025), réévaluation des réformes d'Urukagina comme restauration conservatrice"
+    faits_lies: ["F-S018"]
+  - nom: "État français (Bercy)"
+    role: "Gestionnaire de la dette publique (3 416,3 milliards d'euros)"
+    faits_lies: ["F-S001", "F-S022"]
+  - nom: "INSP (ex-ENA)"
+    role: "Institut national du service public, formation des hauts fonctionnaires français"
+    faits_lies: ["F-S007"]
+  - nom: "Banque de France"
+    role: "Régulation du crédit, gestion des dossiers de surendettement (120 000 par an)"
+    faits_lies: ["F-S001", "F-S022"]
+
+causalites:
+  - cause: "F-S003"
+    effet: "F-S004"
+    mecanisme: >
+      L'institutionnalisation de l'andurarum comme outil royal de rémission des
+      dettes a généré, sur 1000 ans, un cycle observable d'environ 30 annulations
+      documentées, soit une fréquence d'environ une par génération.
+  - cause: "F-S002"
+    effet: "F-S020"
+    mecanisme: >
+      La condensation juridique sumérienne (un code de 57 articles suffit) contraste
+      avec l'inflation législative française (2 300 articles au Code civil, 15 000
+      lois au total) par un effet d'accumulation sédimentaire sur 4000 ans, avec
+      accélération depuis 1804.
+  - cause: "F-S006"
+    effet: "F-S007"
+    mecanisme: >
+      La formation longue et fermée des scribes (8-12 ans à l'edubba) structure
+      une élite lettrée, transposée à l'identique dans les grands corps français
+      (INSP, Conseil d'État) avec 5,7 millions de fonctionnaires, soit 22% de
+      la population active.
+  - cause: "F-S008"
+    effet: "F-S018"
+    mecanisme: >
+      Les réformes d'Urukagina, longtemps lues comme une innovation sociale
+      progressiste, sont réinterprétées en 2025 par Schrakamp et Zólyomi comme
+      une restauration conservatrice de l'ordre divin traditionnel contre les
+      abus des prêtres.
+  - cause: "F-S017"
+    effet: "F-S006"
+    mecanisme: >
+      La faible taille démographique des cités-États sumériennes (40 000 à 80 000
+      habitants à Uruk) rend possible une formation longue et unanime d'une
+      élite lettrée étroite, là où l'échelle française (68 millions d'habitants)
+      impose une bureaucratie de masse.
+  - cause: "F-S012"
+    effet: "F-S003"
+    mecanisme: >
+      Le débat Polanyi-Silver sur la prééminence de la redistribution templière
+      ou des marchés privés conditionne l'interprétation de l'andurarum : si
+      l'économie était administrée, l'annulation avait un sens macroéconomique ;
+      si les marchés dominaient, l'andurarum restait un outil politique ponctuel.
+
+perspectives_dialectiques:
+  - position: "Thèse : la complexité moderne est un progrès, non une pathologie"
+    argument: >
+      Le droit français (15 000 lois, 400 000 pages) n'est pas une inflation
+      pathologique mais le résultat de 200 ans de sédimentation démocratique.
+      Chaque loi répond à un problème réel : protection des travailleurs, droits
+      des consommateurs, bioéthique, RGPD. La Sécurité sociale couvre 100% de
+      la population, là où le temple sumérien ne redistribuait qu'à son propre
+      personnel. Les fonctionnaires (76 pour 1000 habitants) ne sont pas une
+      caste fermée mais le garant de la continuité de l'État. L'endettement
+      (115,6% du PIB) demeure soutenable car la France emprunte à un taux
+      historiquement bas (environ 3%). La laïcité de 1905 garantit la neutralité
+      de l'État, ce que la religion publique sumérienne ne faisait pas.
+  - position: "Antithèse : la complexité masque une régression et constitue un outil de capture"
+    argument: >
+      La dette publique (3 416 milliards d'euros, plus de 1 000 milliards en 7
+      ans) opère un transfert de richesse des générations futures vers les
+      rentiers. Les 120 000 dossiers de surendettement par an constituent la
+      version moderne de l'esclavage pour dette, sans andurarum pour les effacer.
+      Les grands corps (INSP, Inspection des Finances, Conseil d'État) forment
+      une caste auto-reproductive : mêmes écoles, mêmes réseaux. Le taux
+      d'administration français (76/1000) est le double de l'Allemagne (11% de
+      la population active contre 22%). La technocratie parle un jargon
+      (circulaires, codes, instructions) qui rappelle le sumérien des scribes,
+      une langue de spécialistes inaccessibles au citoyen ordinaire.
+  - position: "Synthèse : parallèles fonctionnels réels, échelle incommensurable"
+    argument: >
+      Les parallèles fonctionnels entre Sumer et la France (dette, bureaucratie,
+      redistribution, droit, dogme) sont réels et vérifiables, mais l'échelle
+      et la complexité diffèrent radicalement. Ce qui change : la taille de la
+      population (30 000-80 000 habitants dans une cité-État sumérienne contre
+      68 millions en France), l'existence d'un marché financier globalisé, et
+      la nature démocratique, même imparfaite, de l'État français. La complexité
+      française protège aussi des droits : World Justice Project, France 95/100
+      contre Irak 27/100. Le code court d'Ur-Nammu (57 articles) ne signifie
+      pas qu'il couvrait davantage, mais que la société était plus simple et
+      moins protégée juridiquement.
+
+limites:
+  - >
+    Asymétrie temporelle : Sumer est une reconstruction savante sur 1500 ans
+    (période dynastique archaïque jusqu'à Ur III), la France est un point
+    temporel (2025-2026). La Sumer dont parle l'enquête n'a jamais existé
+    comme entité unifiée à un moment donné.
+  - >
+    Biais de source : les interprètes modernes (Kramer, Hudson, Polanyi) portent
+    leurs propres agendas. Kramer a sur-interprété les données pour faire de
+    Sumer le berceau de la démocratie. Hudson est un économiste hétérodoxe
+    militant (CADTM), non un assyriologue. Charpin est le contrepoids
+    académique.
+  - >
+    Données lacunaires : 500 000 à 2 millions de tablettes excavées, environ
+    100 000 publiées, soit moins de 10% de la production. L'image de Sumer
+    souffre d'un biais de conservation : les textes administratifs et les
+    archives des temples dominent, la littérature et la vie privée sont
+    sous-représentées.
+  - >
+    Filiation non documentée : aucune preuve directe d'une transmission Sumer,
+    Rome, France. Les similitudes relèvent probablement de convergences
+    indépendantes, car toutes les sociétés complexes développent des
+    bureaucraties, des droits écrits et des mécanismes de dette.
+  - >
+    Biais du web anglophone : zéro recherche en arabe, zéro en allemand. Le
+    journal irakien Sumer (Bagdad, ISSN 0081-9271) n'a pas été consulté. La
+    perspective post-coloniale est absente de l'enquête, qui regarde Sumer
+    depuis l'Europe et non depuis l'Irak.
+
+wolves:
+  - nom: "Urukagina (lecture traditionnelle)"
+    argument: >
+      Les réformes d'Urukagina constituent un acte fondateur de justice sociale,
+      le premier décret de protection des faibles contre les forts dans
+      l'histoire humaine.
+    reponse: >
+      Schrakamp et Zólyomi (De Gruyter 2025) démontrent qu'il s'agit d'une
+      restauration conservatrice de l'ordre divin traditionnel contre les abus
+      des prêtres, et non d'une innovation progressiste. Le terme réforme est
+      un anachronisme moderne (F-S018).
+  - nom: "Michael Hudson"
+    argument: >
+      L'andurarum prouve qu'une société peut institutionnaliser l'effacement
+      collectif des dettes, et que la France devrait s'en inspirer face à sa
+      propre crise d'endettement.
+    reponse: >
+      L'andurarum était un outil politique ponctuel (environ un tous les 33 ans
+      en moyenne), non un mécanisme systémique comparable à un système financier
+      moderne. La comparaison avec 120 000 dossiers de surendettement par an
+      ignore les différences structurelles (taux bas, non-résidents à 54,7%,
+      hors-bilan). C'est un faux-ami analogique (F-S014, F-S022).
+  - nom: "Samuel N. Kramer"
+    argument: >
+      Sumer constitue le berceau originel de la démocratie, du droit et de
+      l'éducation, et l'Occident moderne en est l'héritier direct.
+    reponse: >
+      La thèse du berceau originel est contestée par la réévaluation récente
+      (Schrakamp, Zólyomi 2025) et souffre d'un biais de l'assyriologie
+      américaine du XXe siècle qui projetait ses propres catégories. Aucune
+      filiation juridique Sumer, Rome, France n'est documentée (F-S002, F-S018).
+  - nom: "Karl Polanyi"
+    argument: >
+      L'économie sumérienne était dominée par la redistribution institutionnelle
+      du temple, ce qui en fait un modèle d'économie morale alternative au marché.
+    reponse: >
+      Morris Silver (2007) démontre l'existence de marchés privés (tamkarum)
+      indépendants du temple. La thèse formaliste oblige à interpréter
+      l'andurarum comme un outil politique ponctuel, non comme un mécanisme
+      économique central (F-S012).
+  - nom: "État français (Bercy)"
+    argument: >
+      L'endettement public français à 115,6% du PIB reste soutenable grâce à
+      des taux historiquement bas (environ 3%) et à la profondeur du marché
+      obligataire.
+    reponse: >
+      Le taux bas masque une vulnérabilité structurelle : 54,7% de la dette est
+      détenue par des non-résidents, et le hors-bilan ajoute 500 à 800 milliards
+      d'euros non comptabilisés. Une remontée des taux transformerait un
+      fardeau gérable en crise (F-S001, F-S022).
+
+iceberg:
+  - >
+    Sumer comme construction occidentale instrumentalisée : Kramer, Jacobsen,
+    et la présente enquête projettent sur Sumer des récits modernes (démocratie
+    originelle, éden perdu). Il s'agit d'une reconstruction savante, non
+    d'une réalité historique directement accessible.
+  - >
+    Andurarum différent du jubilé moderne : l'andurarum est un outil politique
+    ponctuel (environ un tous les 33 ans en moyenne), et non un mécanisme
+    systémique. La comparer à la fréquence des crises financières françaises
+    (une tous les 30-40 ans) réduit l'écart.
+  - >
+    Temple redistributeur différent de la Sécurité sociale : le temple
+    redistribuait à son propre personnel (forme de salaire en nature), non à
+    la population générale comme la Sécurité sociale universelle. La thèse
+    de Polanyi sur-interprète le rôle économique du temple.
+  - >
+    Réformes d'Urukagina = restauration conservatrice, non innovation :
+    Schrakamp et Zólyomi (2025) démontrent qu'il s'agit d'une restauration de
+    l'ordre divin traditionnel contre les abus des prêtres, et non d'une
+    innovation sociale progressiste.
+  - >
+    Mnemolite : la recherche "Sumer andurarum dette France comparaison" et
+    "Sumer scribes bureaucratie grands corps" retourne zéro résultat
+    (2026-06-07), confirmant que ce sujet n'a pas encore été indexé dans la
+    base vectorielle du projet et que la fiche Sumer est pionnière.
+
+chronologie:
+  - date: "~3400-3200 av."
+    evenement: "Invention de l'écriture cunéiforme en Mésopotamie"
+    source_fait: "F-S002"
+  - date: "~2350 av."
+    evenement: "Réformes d'Urukagina à Lagash, proclamation du principe 'le fort n'opprimera pas le faible'"
+    source_fait: "F-S008"
+  - date: "~2330 av."
+    evenement: "Conquête akkadienne de Sargon, transition Sumer-Akkad"
+    source_fait: "F-S002"
+  - date: "~2120 av."
+    evenement: "Gudea de Lagash proclame une annulation des dettes (cylindres A et B)"
+    source_fait: "F-S015"
+  - date: "~2112-2095 av."
+    evenement: "Ur-Nammu promulgue le premier code de lois connu (~57 articles)"
+    source_fait: "F-S002"
+  - date: "~2094-2047 av."
+    evenement: "Shulgi réforme la bureaucratie, l'edubba devient l'école standard de formation des scribes"
+    source_fait: "F-S006"
+  - date: "~1930 av."
+    evenement: "Lipit-Ishtar d'Isin promulgue le deuxième code de lois connu"
+    source_fait: "F-S013"
+  - date: "~1500 av."
+    evenement: "Rédaction du Dialogue de Pessimisme, attestation du scepticisme religieux mésopotamien"
+    source_fait: "F-S009"
+  - date: "1804"
+    evenement: "Promulgation du Code civil français (2 300 articles)"
+    source_fait: "F-S020"
+  - date: "1905"
+    evenement: "Loi française de séparation de l'Église et de l'État (laïcité)"
+    source_fait: "F-S010"
+  - date: "2025 T1"
+    evenement: "54,7% de la dette française détenus par des non-résidents"
+    source_fait: "F-S022"
+  - date: "2025 T2"
+    evenement: "Dette publique française à 3 416,3 milliards d'euros (115,6% du PIB)"
+    source_fait: "F-S001"
+  - date: "2026-06-07"
+    evenement: "Production de la présente fiche quintessence v34 (SUBLIMATOR)"
+    source_fait: "F-S021"
+
+domaines:
+  - "Dette et usure : andurarum sumérien versus surendettement individuel français"
+  - "Économie et redistribution : temple mésopotamien versus État-providence"
+  - "Bureaucratie et technocratie : scribes dubsar versus grands corps (INSP, Conseil d'État)"
+  - "Règles et normes sociales : codes casuistiques sumériens versus droit stratifié français"
+  - "Dogme et cadre idéologique : religion publique sumérienne versus laïcité républicaine"
+  - "Justice et droit : code d'Ur-Nammu versus Code civil de 1804"
+  - "Épistémologie et reconstruction : sumérologie occidentale versus données INSEE contemporaines"
+
+urls_prioritaires:
+  - url: "https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique"
+    description: "Source officielle du ministère de l'Économie pour la dette publique française T2 2025"
+    head_status: null
+  - url: "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/sumerians.pdf"
+    description: "PDF académique de l'Oriental Institute de Chicago sur les Sumériens (Urukagina)"
+    head_status: 200
+  - url: "https://www.penn.museum/documents/publications/pdfs/The_Code_of_Lipit-Ishtar.pdf"
+    description: "Code de Lipit-Ishtar, publication du Penn Museum (tablette originale)"
+    head_status: 200
+  - url: "https://shs.cairn.info/revue-d-assyriologie-2008-1-page-149"
+    description: "Article de Dominique Charpin critique de l'andurarum (Revue d'Assyriologie 2008)"
+    head_status: 200
+  - url: "https://www.imf.org/external/pubs/ft/fandd/2025/03/debt-cancellations-in-ancient-mesopotamia-hudson"
+    description: "Article IMF F&D 2025 sur les annulations de dettes mésopotamiennes (Van De Mieroop et Hudson)"
+    head_status: 200
+  - url: "https://www.cadtm.org/The-Long-Tradition-of-Debt"
+    description: "Article CADTM sur la longue tradition de la dette et la signification d'amargi"
+    head_status: 200
+  - url: "https://michael-hudson.com/wp-content/uploads/2010/03/HudsonLostTradition.pdf"
+    description: "PDF Lost Tradition de Michael Hudson sur les annulations de dettes sumériennes (Gudea)"
+    head_status: 200
+  - url: "https://www.ifrap.org/fonction-publique-et-administration/combien-la-france-compte-deffectifs-publics-en-plus-par-rapport-la-moyenne-europeenne"
+    description: "Note IFrap sur les effectifs de la fonction publique française par rapport à la moyenne européenne"
+    head_status: 200
+  - url: "https://www.degruyter.com/document/doi/10.1515/9783111757546/html"
+    description: "Publication De Gruyter 2025 (Schrakamp et Zólyomi) sur la réévaluation des réformes d'Urukagina"
+    head_status: 202
+
+mnemo_queries:
+  - query: "Sumer andurarum dette France comparaison"
+    results_count: 0
+  - query: "Sumer scribes bureaucratie grands corps"
+    results_count: 0
+  - query: "Mésopotamie temple économie redistribution Polanyi"
+    results_count: 0
+  - query: "Urukagina réformes code Ur-Nammu"
+    results_count: 0
+  - query: "annulations dettes Mésopotamie annulation Charpin critique"
+    results_count: 0

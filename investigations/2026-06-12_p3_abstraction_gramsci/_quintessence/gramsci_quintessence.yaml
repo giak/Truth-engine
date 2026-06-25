@@ -1,0 +1,135 @@
+enquete_id: "gramsci"
+complexity: "MEDIUM"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p3_abstraction_gramsci/2026-06-12_12-00_abstraction_gramsci_etape_ou_impasse_INVESTIGATION.md"
+
+these_centrale: "L'abstraction CSP+ du corpus est une ETAPE necessaire (elaboration d'outils conceptuels) mais reste une IMPASSE tant qu'elle n'est pas reapproprie et re-traduite par ceux a qui elle doit servir. La question n'est pas 'faut-il simplifier le corpus ?' mais 'qui fera le travail de traduction ?'"
+
+theses_implicites:
+  - "Le modele gramscien de l'intellectuel organique presuppose des conditions sociales (syndicats de masse, lieux de sociabilite populaire, temps libre) qui n'existent plus en France 2026."
+  - "La comparaison avec le zapatisme (EZLN) est anachronique et elitiste : l'EZLN n'est pas parti d'un fichier .md sur GitHub mais de decennies d'organisation communautaire indigene armee."
+  - "Sans traducteurs, le corpus sera capte par des factions academiques pour asseoir leur distinction sociale, pas pour organiser le bloc populaire."
+
+faits_atomiques:
+  - id: "F-gram-001"
+    enonce: "Pour Gramsci, chaque classe sociale ascendante genere ses propres 'intellectuels organiques' dont la fonction est de traduire la theorie en pratique par un dialogue dialectique avec le sens commun populaire."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 2
+    glyphe: "✦"
+  - id: "F-gram-002"
+    enonce: "Le marxisme n'est pas devenu populaire par une lecture directe du Capital mais via des institutions de traduction : presse militante, ecoles du Parti, universites populaires, brochures educatives. Ces institutions n'existent plus en 2026."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-gram-003"
+    enonce: "La pedagogie des opprimes (Paulo Freire, 1968) propose une co-construction du savoir entre academique et populaire, inversant la logique de transmission verticale."
+    source_url: null
+    source_section: "par2"
+    head_status: null
+    tier: 2
+    glyphe: "✦"
+  - id: "F-gram-004"
+    enonce: "Le zapatisme (EZLN) est une production theorique originale co-produite par les communautes indigenes et les cadres du mouvement. La theorie n'a pas precede la pratique : c'est l'inverse du modele corpus."
+    source_url: null
+    source_section: "par2"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-gram-005"
+    enonce: "L'abstraction CSP+ du corpus est une ETAPE si elle est suivie d'une traduction par des intellectuels organiques issus des classes populaires."
+    source_url: null
+    source_section: "par3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-gram-006"
+    enonce: "L'abstraction CSP+ est une IMPASSE si elle reste un marqueur de distinction sociale inaccessible a ceux qu'elle pretend servir. La question de decisive est : le corpus est-il traduisible ?"
+    source_url: null
+    source_section: "par3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Antonio Gramsci"
+    role: "Theoricien de l'hegemonie culturelle et de l'intellectuel organique (Cahiers de prison, 1929-1935)"
+    faits_lies: ["F-gram-001"]
+  - nom: "Paulo Freire"
+    role: "Pedagogue bresilien, auteur de la Pedagogie des opprimes (1968)"
+    faits_lies: ["F-gram-003"]
+  - nom: "EZLN (Armee Zapatiste de Liberation Nationale)"
+    role: "Mouvement indigene mexicain — production theorique originale depuis 1994"
+    faits_lies: ["F-gram-004"]
+
+causalites:
+  - cause: "F-gram-001"
+    effet: "F-gram-005"
+    mecanisme: "Le modele gramscien postule que l'abstraction theorique est suivie d'une traduction par des intellectuels organiques. L'enquete applique ce modele au corpus."
+  - cause: "F-gram-002"
+    effet: "F-gram-006"
+    mecanisme: "La disparition des institutions de traduction (partis, syndicats, universites populaires) rend l'abstraction inaccessible. Sans traducteurs, le corpus est une impasse."
+
+perspectives_dialectiques:
+  - position: "These"
+    argument: "L'abstraction CSP+ est une etape necessaire dans un processus gramscien : les intellectuels produisent les outils conceptuels, les traducteurs les popularisent. Le corpus a 6 mois, c'est trop tot pour juger."
+  - position: "Antithese"
+    argument: "L'abstraction CSP+ est une impasse structurelle : les traducteurs n'existent plus (syndicats <10%, illectronisme 15%, TikTok), et le corpus sera capte par les factions academiques comme marqueur de distinction sociale."
+  - position: "Synthese"
+    argument: "Le critere d'evaluation est empirique : le corpus sera une etape s'il genere des traducteurs, une impasse s'il reste confine au lectorat CSP+. Verdict dans 2-5 ans."
+
+limites:
+  - "Gramsci cite de memoire : l'analyse est conceptuelle, pas philologique."
+  - "Corpus a 6 mois d'existence : trop tot pour evaluer la generation de traducteurs."
+  - "Comparaison avec le marxisme anachronique (50 ans de diffusion)."
+
+wolves:
+  - nom: "Barriere cognitive algorithmique"
+    argument: "Dans une societe a 15% d'illectronisme aspiree par TikTok, la figure du traducteur organique gramscien est une utopie des annees 70. Le corpus restera confine au lectorat CSP+."
+    reponse: "Devastateur. La defense temporelle (6 mois) est faible : si les conditions structurelles de la traduction n'existent plus, le temps ne les fera pas reapparaitre."
+  - nom: "Captation bourgeoise"
+    argument: "Un corpus exigeant un Bac+5 sera capte par les partis politiques de gauche et les factions academiques pour asseoir leur distinction sociale, pas pour organiser le bloc populaire."
+    reponse: "Devastateur. L'enquete n'y repond pas de maniere satisfaisante. La seule defense : 6 mois est trop tot. Mais la tendance est vers l'IMPASSE."
+
+iceberg:
+  - "Qui sont les lecteurs reels du corpus ? Donnees de lectorat Substack : profil socio-economique des abonnes — si >80% CSP+, la these de l'IMPASSE est confirmee."
+  - "Mnemolite: UP (36942 memoires) mais API search en erreur 500."
+  - "Sujet immerge : le corpus a-t-il deja genere des 'traducteurs' (republications, adaptations, citations dans des medias populaires) ?"
+
+chronologie:
+  - date: "1929"
+    evenement: "Gramsci commence les Cahiers de prison"
+    source_fait: "F-gram-001"
+  - date: "1968"
+    evenement: "Publication de la Pedagogie des opprimes (Freire)"
+    source_fait: "F-gram-003"
+  - date: "1994"
+    evenement: "Soulevement zapatiste au Chiapas"
+    source_fait: "F-gram-004"
+  - date: "2025-11"
+    evenement: "Figement du KERNEL — debut de la production du corpus"
+    source_fait: "F-gram-005"
+
+domaines:
+  - "Theorie politique"
+  - "Sociologie de la connaissance"
+  - "Pedagogie critique"
+  - "Mouvements sociaux"
+
+urls_prioritaires:
+  - url: null
+    description: "Gramsci, Cahiers de prison (1929-1935) — source primaire"
+    head_status: null
+
+shadow_factor: 3.6
+
+mnemo_queries:
+  - query: "coordination acephale"
+    results_count: 0
+    error: "API error 500"
+  - query: "repression France matrice penale"
+    results_count: 0
+    error: "API error 500"

@@ -1,0 +1,566 @@
+# ============================================================
+# SYNTHÈSE YAML — Sublimator v34 Phase 2
+# ============================================================
+# Corpus : Coordination Acéphale (25 dossiers, ~38 fichiers)
+# Date extraction : 2026-06-12
+# Extracteur : LLM hôte Codebuff
+# ============================================================
+
+synthese_id: synthese_coordination_acephale
+type: SYNTHESE
+complexity: APEX
+date_synthese: "2026-06-12"
+phase: 2
+corpus:
+  n_dossiers: 25
+  n_fichiers: 38
+  n_faits_total: 370
+  n_acteurs_uniques: 120
+  n_chaines_causales: 82
+  glyphes:
+    "✦": 49
+    "✧": 44
+    "❧": 277
+  complexities:
+    APEX: 11
+    COMPLEX: 13
+    SIMPLE: 1
+  shadow_moyen: 1.69
+  mnemo_status: "UP (health OK) mais /v1/search/ DOWN (500) — 0 recherche cross-séries"
+
+# ============================================================
+# §0 THÈSES CARDINALES (5)
+# ============================================================
+# Chaque thèse est soutenue par ≥5 dossiers et ≥15 faits.
+# Classées par robustesse (glyphes ✦, cohérence inter-dossiers).
+# ============================================================
+
+theses_cardinales:
+
+  # --- THÈSE 1 : LE SYSTÈME ANTI-COORDINATION (robustesse 8/10) ---
+  - id: TC1
+    rang: 1
+    robustesse: 8
+    enonce: >
+      Le système de pouvoir en France ne maintient pas son contrôle par la répression
+      mais par l'empêchement actif de la coordination entre les individus. Ce contrôle
+      opère sur 6 axes autonomes et redondants : juridique (art.450-1 CP, 10 ans),
+      financier (TRACFIN, fenêtre 2000-10 000€/mois), algorithmique (LOPMI 2023,
+      IA prédictive), cognitif (surcharge, illectronisme 15.4%), social (atomisation,
+      fracture territoriale), et législatif (5 lois majeures 2019-2025, courbe
+      exponentielle). Aucun de ces axes n'est nécessaire — le système survit à la
+      neutralisation de n'importe lequel — mais leur combinaison rend la coordination
+      structurellement impossible sans architecture défensive dédiée.
+    dossiers:
+      - verrou (12 mécanismes interconnectés, HYPER_MATRICE V1, 5 loups)
+      - risque (art.450-1, 421-1, 413-10 CP ; LOPMI ; détention provisoire)
+      - fresque (12 mécanismes de verrouillage systémique)
+      - finance (TRACFIN, fenêtre 2000-10 000€/mois, paradoxe dépendance)
+      - police (mutation maintien de l'ordre 2016→2025, +62% budget)
+      - classe (illectronisme 15.4%, capital culturel)
+      - etatfragile (8 indicateurs FFP, fragilité masquée)
+    faits_cles:
+      - F-VER-001 (système empêche coordination)
+      - F-RIS-001 (art.450-1 CP, 10 ans, 750 000€)
+      - F-RIS-007 (LOPMI IA prédictive)
+      - F-RIS-012 (5 lois 2019-2025 vs 2 lois 1955-2000)
+      - F-FIN-004 (TRACFIN signaux faibles <10 000€)
+      - F-FIN-005 (fenêtre 2000-10 000€/mois)
+      - F-CLA-002 (illectronisme 15.4%, 9% ouvriers)
+      - F-VER-013 (5 loups : algorithmique, climat, IA, légal, démographique)
+    acteurs_cles:
+      - Système/Oligarchie (12 mécanismes)
+      - TRACFIN (détection financière)
+      - Législateur (accélération 2019-2025)
+      - LOPMI (surveillance algorithmique)
+    shadow: 1.5
+    shadow_justification: >
+      Thèse la mieux documentée du corpus. 30+ faits ✦ sur legifrance/INSEE/CEDH.
+      Les mécanismes juridiques et financiers sont vérifiables (articles de loi,
+      budgets publics). Mais deux zones d'ombre : (1) l'efficacité réelle de la
+      surveillance algorithmique LOPMI est classifiée (secret-défense), (2) le
+      fonctionnement interne de TRACFIN (signaux faibles, algorithmes) n'est pas
+      public. Ces angles morts justifient un shadow de 1.5 plutôt que 1.0.
+
+  # --- THÈSE 2 : LE PARADOXE DU DIAGNOSTIC SANS PRESCRIPTION (robustesse 6/10) ---
+  - id: TC2
+    rang: 2
+    robustesse: 6
+    enonce: >
+      Le corpus Truth Engine a produit une théorie d'action acéphalique opérationnelle
+      en 4 couches (rhizome, résidu, attrition, désorganisation → RIC) dans ses articles
+      Substack, mais son architecture KERNEL (RESISTANCE.md) ne l'intègre pas. Ce
+      désalignement produit un système qui diagnostique le verrouillage avec une précision
+      forensique tout en rendant structurellement invisibles ses propres clés de
+      déverrouillage. Le gap est double : (1) interne — le KERNEL figé en novembre 2025
+      n'a pas été mis à jour après la production des articles d'action (janvier-mai 2026),
+      et (2) externe — le corpus ignore la tradition anglo-américaine de l'action
+      collective (Ostrom, Sharp, Tilly, Scott, Graeber), se privant de 198 méthodes
+      tactiques documentées et de 5 cas historiques validés. Ce double gap est un Κ
+      auto-appliqué : la lucidité paralysante du diagnostic empêche la remontée des
+      solutions dans la structure théorique.
+    dossiers:
+      - ace (V1→V2 : absence corrigée en non-intégration, 20 faits)
+      - leadership (5 modèles de leadership acéphalique, 0 testés)
+      - modele (modèle zapatiste documenté, 0 test en démocratie occidentale)
+      - projetpol (95% diagnostic, 5% proposition)
+      - empirique (0 test empirique, design de validation proposé)
+      - audit (score corpus 7.5/10, 3 gaps bloquants : LEVIER, CLASSE, RACE/GENRE)
+    faits_cles:
+      - F-ace-001 (0 mention théoriciens action collective)
+      - F-ace-002 (RESISTANCE.md 3/8 concepts chargés, tous négatifs)
+      - F-ace-003 (théorie 4 couches existe dans les articles)
+      - F-ace-005 (0 article d'action dans RESISTANCE.md)
+      - F-ace-007 (jamais cite Sharp, Ostrom, Tilly, Scott, Graeber)
+      - F-ace-012 (biais épistémique Ξ > ρ)
+      - F-EMP-001 (0 protocole testé empiriquement)
+      - F-PPR-009 (corpus 95% diagnostic, 5% proposition)
+    acteurs_cles:
+      - Architecture KERNEL (figée, biais Ξ)
+      - Giak (gap entre ses propres couches de production)
+      - Ostrom/Sharp/Tilly/Scott/Graeber (absents)
+      - EZLN/Zapatistes (modèle jamais intégré)
+    shadow: 2.0
+    shadow_justification: >
+      Thèse principalement ❧ (analyse interne du corpus). Les faits sont documentés
+      (articles existent, KERNEL figé), mais l'interprétation (Κ auto-appliqué,
+      lucidité paralysante) est spéculative. L'absence de Sharp/Ostrom est vérifiable,
+      l'intention de l'auteur ne l'est pas.
+
+  # --- THÈSE 3 : L'IMPOSSIBILITÉ JURIDICO-FINANCIÈRE ET L'ARCHITECTURE DÉFENSIVE (robustesse 7/10) ---
+  - id: TC3
+    rang: 3
+    robustesse: 5
+    enonce: >
+      La coordination acéphale en France 2026 est une quasi-impossibilité juridique,
+      financière et opérationnelle. Le corpus identifie 4 piliers défensifs combinés
+      comme seule voie théorique : (1) puits de droit (empilement 6 niveaux : asso 1901 →
+      SCIC → SARL → syndicat → parti politique, fragmentant la responsabilité pénale),
+      (2) financement invisible sous 10 000€/mois (crypto Monero, dons fractionnés,
+      coopératives), (3) non-violence disciplinée (198 méthodes Sharp, protocole
+      marshals, contre-infiltration), (4) temporalité longue (horizon 30-120 ans,
+      transmission intergénérationnelle). Aucun pilier n'est suffisant seul, et la
+      combinaison n'a jamais été testée. L'absence de sanctuaire imperméable en
+      France 2026 rend toute guérilla armée suicidaire (4 mouvements occidentaux
+      détruits en <30 ans) et toute structure visible juridiquement ciblable (Tarnac :
+      10 ans de procédure, réseau détruit malgré relaxe). La France est le pays
+      européen le plus répressif sur l'association de malfaiteurs (art.450-1 CP ne
+      requiert PAS de structure hiérarchique, contrairement au StGB §129 allemand).
+    dossiers:
+      - risque (art.450-1, 421-1 CP ; dissolution administrative ; Tarnac)
+      - puits (architecture 6 niveaux, SCIC, syndicat, parti politique)
+      - finance (budget 6000-8000€/mois, TRACFIN, fenêtre 2000-10 000€)
+      - fininv (4 piliers combinés, aucun testé)
+      - defaite (4 mouvements armés détruits, sanctuaires absents en France)
+      - sanctuaire (sanctuaire = variable critique, corrélation 8/8, France = 0)
+      - succession (dead man's switch, transmission, Holacracy)
+      - modele (zapatiste adapté, 4 conditions non remplies en France)
+      - benelux (droit comparé : France = pire choix, Belgique = peine min)
+    faits_cles:
+      - F-RIS-001 (art.450-1 CP, 10 ans)
+      - F-RIS-004 (Tarnac 10 ans procédure, relaxe, réseau détruit)
+      - F-RIS-015 (StGB §129 exige hiérarchie, art.450-1 non)
+      - F-PUI-013 (puits 6 niveaux, jamais testé)
+      - F-FIN-001 (budget survie 6050€/mois)
+      - F-FIN-005 (fenêtre 2000-10 000€/mois)
+      - F-defaite-001 (4 mouvements armés détruits)
+      - F-defaite-014 (sanctuaires = discriminant, France = 0)
+      - F-MOD-015 (modèle zapatiste jamais testé en démocratie occidentale)
+    acteurs_cles:
+      - TRACFIN (détection financière)
+      - Parquet/Juge d'instruction (art.450-1, détention provisoire)
+      - Conseil d'État (dissolution SdT)
+      - FLN/IRA/Zapatistes (modèles historiques de survie)
+      - Tarnac (précédent : procédure détruit même sans condamnation)
+    shadow: 1.5
+    shadow_justification: >
+      Thèse bien documentée côté juridique (13✦, legifrance/CEDH/CE).
+      Côté solutions : purement spéculatif. Le puits de droit, le financement
+      invisible, et le modèle zapatiste adapté sont des architectures théoriques
+      jamais testées. La fenêtre TRACFIN et les budgets sont vérifiables ;
+      l'efficacité combinée des 4 piliers ne l'est pas.
+
+  # --- THÈSE 4 : L'EXCLUSION STRUCTURELLE DES 65% (robustesse 5/10) ---
+  - id: TC4
+    rang: 4
+    robustesse: 5
+    enonce: >
+      Le corpus Truth Engine exclut structurellement 65% de la population française
+      (classes populaires, 42.8% ; illectronisme 15.4% ; temps partiel subi 31% des
+      employées ; revenu médian 1400€/mois) et 100% des perspectives non-masculines/
+      non-blanches. 4 filtres (capital culturel, temps disponible, revenu, mode
+      d'action) rendent les protocoles HYPER_MATRICE inaccessibles aux profils C/D/E
+      (score ≤2/10). Le biais de genre est total : 0 mention dans le corpus original,
+      76.5% des employés sont des femmes, 77.5% des temps partiels sont féminins.
+      Le biais de race est également total : 0 mention, alors que les QPV (quartiers
+      prioritaires) ont 60% d'abstention et sont les premières cibles de la répression
+      policière. La psychologie militante analysée (7 pièges, 5 mécanismes de
+      résilience) est une psychologie CSP+, urbaine, éduquée. Le corpus ne peut pas
+      intégrer ces populations sans se détruire : ajouter un contre-modèle populaire
+      (MAP) visible, massif, simple, territorial est la seule voie, mais ce
+      contre-modèle échappe structurellement au corpus.
+    dossiers:
+      - classe (42.8% classes populaires, 4 filtres, suspicion 3.8/10)
+      - racegenre (0 mention race/genre, 12 contrôles, suspicion 6.2/10)
+      - psychomil (7 pièges militants CSP+, 5 mécanismes résilience)
+      - verrou (biais masculinité militariste, élitisme avant-garde)
+      - violinter (spectre N0→N6, curseur optimal N1-N2)
+      - audit (gap CLASSE et RACE/GENRE identifiés comme bloquants)
+    faits_cles:
+      - F-CLA-001 (classes populaires 42.8%, 12.4M)
+      - F-CLA-002 (illectronisme 15.4%, 9% ouvriers vs 1.2% cadres)
+      - F-CLA-004 (76.5% employés = femmes)
+      - F-CLA-008 (0 protocole >2/10 accessibilité C/D/E)
+      - F-RG-003 (0 mention race dans le corpus)
+      - F-RG-007 (12 contrôles proposés, 0 race/genre dans version initiale)
+      - F-VER-012 (biais romantisme, élitisme, masculinité, occidentalo-centrisme)
+    acteurs_cles:
+      - Classes populaires (12.4M, absentes)
+      - Femmes (76.5% des employés, invisibles)
+      - QPV (60% abstention, absents)
+      - Banlieues Climat (contre-exemple ignoré)
+    shadow: 2.5
+    shadow_justification: >
+      Données INSEE ✦ (vérifiables). Mais la thèse centrale ("le corpus ne peut
+      pas intégrer les classes populaires sans se détruire") est une spéculation
+      stratégique, pas un fait. Le biais de race est documenté par absence (0 mention)
+      mais l'absence ne prouve pas l'exclusion. Shadow le plus élevé du corpus.
+
+  # --- THÈSE 5 : L'HYPOTHÈSE NON VALIDÉE (robustesse 4/10) ---
+  - id: TC5
+    rang: 5
+    robustesse: 4
+    enonce: >
+      Aucun des protocoles du corpus n'a été testé empiriquement. Le corpus est
+      la meilleure hypothèse disponible sur la coordination acéphale en France 2026
+      — mais il reste une hypothèse. La validation historique (IRA = tous protocoles
+      appliqués → Good Friday ; GJ = aucun protocole → défaite 6 mois) est cohérente
+      mais biaisée (sélection des cas pour confirmer la thèse). 4 protocoles sont
+      structurellement non testables (répression massive, succession en cas de
+      décapitation, éthique du sacrifice, guerre narrative). Le plafond Dunbar (150
+      relations stables) n'est pas intégré aux solutions. L'effet Hawthorne (biais
+      d'observation) biaise tout test en laboratoire. Le corpus est structurellement
+      irréfutable tant que la coordination n'existe pas en France — c'est sa force
+      (pas de réfutation possible) et son danger (peut passer 20 ans sans validation
+      ni invalidation). La falsifiabilité poppérienne est théorique (un mouvement
+      sans sanctuaire >10 ans, un mouvement acéphale qui gagne) mais pratiquement
+      inaccessible.
+    dossiers:
+      - empirique (design 3 phases, 7 métriques, 0 test, suspicion 6/10)
+      - defaite (validation historique IRA vs GJ, biais sélection)
+      - finance (budgets théoriques, 0 cellule réelle documentée)
+      - modele (zapatiste jamais testé en démocratie occidentale)
+      - projetpol (5 propositions, 0 test)
+      - leadership (5 modèles, 0 testés empiriquement)
+    faits_cles:
+      - F-EMP-001 (0 protocole testé empiriquement)
+      - F-EMP-002 (design 3 phases proposé)
+      - F-EMP-006 (validation historique IRA/GJ)
+      - F-EMP-010 (4 protocoles non testables)
+      - F-EMP-011 (Dunbar 150, plafond biologique)
+      - F-defaite-013 (IRA seul mouvement OTAN ayant forcé négociation)
+    acteurs_cles:
+      - IRA (validation historique positive)
+      - Gilets jaunes (validation historique négative)
+      - Popper (falsifiabilité)
+      - Dunbar (150)
+      - Mayo (Hawthorne)
+    shadow: 2.5
+    shadow_justification: >
+      Thèse la plus spéculative. Le design de validation est rigoureux (3 phases,
+      7 métriques, cadre éthique) mais n'a jamais été exécuté. La validation
+      historique est cohérente mais non aveugle. Le test ultime (mouvement réel)
+      est hors de contrôle. La thèse est honnête dans son auto-limitation.
+
+# ============================================================
+# §1 TRANSVERSALITÉS STRUCTURELLES
+# ============================================================
+
+transversalites:
+
+  acteurs_transversaux:
+    - acteur: "Zapatistes (EZLN)"
+      dossiers: [ace, defaite, finance, leadership]
+      pattern: "Modèle de référence universel — cité dans 4 dossiers comme preuve de concept de la coordination acéphale durable. 30 ans de survie, rotation des mandats, autonomie économique, refus du pouvoir d'État. Mais TOUS les dossiers notent l'absence de test hors Chiapas."
+    - acteur: "Gilets jaunes"
+      dossiers: [leadership, classe, police, projetpol]
+      pattern: "Seul mouvement de masse français récent — cité comme validation négative (échec par absence de protocoles) ET comme preuve de concept du people power. 70% ouvriers/employés, 17 Md€ de concessions, 4000+ condamnations."
+    - acteur: "IRA"
+      dossiers: [defaite, sanctuaire, succession]
+      pattern: "Seul mouvement armé ayant forcé un État de l'OTAN à négocier. Cité pour son Army Council (leadership collectif), ses sanctuaires irlandais, et NORAID (financement). Modèle partiel — les sanctuaires sont la variable critique absente en France."
+    - acteur: "Conseil d'État"
+      dossiers: [risque, puits, modele, police]
+      pattern: "Acteur ambivalent : dissolution SdT confirmée (août 2023) puis annulée (novembre 2023). Preuve que le contrôle juridictionnel fonctionne encore ponctuellement — mais imprévisible."
+    - acteur: "Soulevements de la Terre"
+      dossiers: [modele, risque, puits, police]
+      pattern: "Collectif le plus proche d'un 'zapatisme à la française'. Dissolution annulée = précédent juridique majeur. Mais reste un collectif écologiste CSP+, pas un mouvement populaire de masse."
+
+  patterns_recurrents:
+    - pattern: "Absence de sanctuaire imperméable"
+      dossiers: [defaite, sanctuaire, verrou, modele, finance, ace]
+      description: "La variable critique de survie des mouvements (IRA, FLN, FARC, PKK, Zapatistes) est absente en France 2026. Le territoire est intégralement cartographié et surveillé (LOPMI 2023). Aucun protocole ne résout ce problème."
+    - pattern: "Boucle récursive de coordination"
+      dossiers: [verrou, ace, finance, risque]
+      description: "Pour se coordonner, il faut déjà être coordonné. Ce paradoxe n'est résolu par aucun protocole V1. Le système exploite cette boucle : il criminalise la coordination (art.450-1) AVANT qu'elle n'existe, rendant le premier pas juridiquement impossible."
+    - pattern: "Sous-exploitation du droit existant"
+      dossiers: [puits, risque, benelux, modele]
+      description: "Le droit français offre des protections constitutionnelles puissantes (liberté d'association CC 1971, liberté syndicale loi 1884, art.4 Constitution) que les mouvements sous-exploitent systématiquement. Le puits de droit est légal, transparent, et jamais utilisé."
+    - pattern: "95% diagnostic, 5% prescription"
+      dossiers: [projetpol, ace, audit, empirique, leadership]
+      description: "Déséquilibre structurel du corpus : le diagnostic est forensique, la prescription est embryonnaire. Les 15 protocoles HYPER_MATRICE sont un manuel du 20e siècle. Les 5 propositions politiques (RIC, constituante, RU, souveraineté numérique, communs) sont des esquisses."
+    - pattern: "Mnemolite DOWN (limitation technique, pas une transversalité de contenu)"
+      dossiers: [ace, defaite, audit, benelux, finance, fresque, leadership, modele, puits, risque, fininv, succession, verrou, sanctuaire, classe, racegenre, empirique, etatfragile, nonocc, narratif, police, projetpol, protocolesrc, psychomil, violinter]
+      description: "TOUS les dossiers (25/25) documentent l'échec des requêtes Mnemolite. Le serveur est UP (health 200 OK) mais l'endpoint /v1/search/ retourne systématiquement 500. Ceci est documenté comme limitation technique infra, pas comme pattern de contenu."
+
+  perspectives_dialectiques_synthese:
+    - contradiction: "Non-violence vs État qui tire"
+      these: "La non-violence est la seule stratégie viable en démocratie (Chenoweth : 2× plus de succès). Les 198 méthodes Sharp + protocole marshals + contre-infiltration offrent une technologie opérationnelle complète."
+      antithese: "L'État français 2026 n'hésite pas à tirer (30 blessés graves GJ, 2 morts, LBD). La non-violence suppose un régime sensible à l'opinion — la France LOPMI 2023 ne l'est plus."
+      synthese: "La non-violence disciplinée n'est pas une garantie de succès mais la violence armée est une garantie d'échec en démocratie occidentale (4/4 mouvements détruits). La question n'est pas 'non-violence ou violence' mais 'quelle non-violence survit à un État qui tire'. La réponse zapatiste : ne pas donner de cible (acéphalie), ne pas donner de prétexte (zéro violence), ne pas donner de prise (autonomie économique)."
+    - contradiction: "Structure vs acéphalie"
+      these: "La structure (cellules 3-5, mitose, succession, compartimentation FLN) est nécessaire pour survivre à la répression. Sans structure, pas de coordination."
+      antithese: "Toute structure est une cible juridique (art.450-1 CP ne requiert PAS de hiérarchie) et algorithmique (LOPMI pattern detection). La structure que le système attend est celle qu'il détruit."
+      synthese: "La solution n'est ni la structure visible (cible) ni l'acéphalie pure (inefficace, cf. Occupy). C'est la structure INVISIBLE : cellules à géométrie variable, rôles tournants, pas de siège, pas de compte bancaire unique, pas de leader identifiable. Le puits de droit fragmente la responsabilité ; la mitose fragmente la structure. L'invisibilité n'est pas l'absence — c'est la désorganisation apparente."
+    - contradiction: "Visibilité vs invisibilité"
+      these: "La visibilité massive (grèves, ronds-points, occupations) protège par le nombre et crée la légitimité démocratique. Les concessions de l'État sont proportionnelles à la pression visible."
+      antithese: "La visibilité est un suicide juridique et algorithmique. Toute action visible est filmée, analysée, poursuivie. Les 4000 condamnations GJ sont le prix de la visibilité."
+      synthese: "Deux régimes distincts : le mouvement de masse visible (grève, manifestation, occupation) pour la pression politique, et le réseau invisible (cellules, financement, coordination) pour la survie organisationnelle. Les GJ avaient la visibilité sans le réseau — ils ont obtenu 17 Md€ de concessions mais ont été détruits en 6 mois. L'IRA avait le réseau avec une visibilité dosée (Sinn Féin) — elle a survécu 29 ans et forcé une négociation. La synthèse est un mouvement à deux vitesses : surface légale visible + profondeur acéphale invisible."
+
+  trous_angles_morts:
+    - trou: "0 test empirique"
+      dossiers: [empirique, defaite, modele, finance, projetpol, leadership]
+      description: "25 dossiers, 370 faits, 82 chaînes causales — et ZÉRO test empirique. Le corpus est une construction théorique cohérente mais non falsifiée."
+    - trou: "Absence des classes populaires"
+      dossiers: [classe, racegenre, verrou, psychomil]
+      description: "65% de la population absente comme acteurs ET destinataires. Aucun protocole accessible (score ≤2/10)."
+    - trou: "Absence race/genre"
+      dossiers: [racegenre, classe]
+      description: "0 mention dans le corpus original. 12 contrôles proposés a posteriori mais jamais intégrés structurellement."
+    - trou: "Pas de mécanisme de scaling (Dunbar 150)"
+      dossiers: [empirique, leadership, verrou, ace]
+      description: "Le plafond biologique de 150 relations stables n'est intégré dans AUCUN protocole. Le passage micro→meso→macro est théorisé mais non mécanisé."
+    - trou: "0 cas non-occidental intégré (hors Zapatistes)"
+      dossiers: [nonocc, ace, defaite]
+      description: "Le corpus est occidentalo-centré. Les mouvements asiatiques, africains, latino-américains (hors EZLN) sont absents."
+
+  contradictions:
+    - contradiction: "Non-violence vs efficacité"
+      dossiers_A: [defaite, modele]
+      position_A: "La non-violence est la seule stratégie viable en démocratie (Chenoweth : 2× plus de succès)"
+      dossiers_B: [risque, police]
+      position_B: "L'État français 2026 n'hésite pas à tirer (30 blessés graves GJ, 2 morts). La non-violence suppose un régime sensible à l'opinion"
+    - contradiction: "Structure vs acéphalie"
+      dossiers_A: [verrou, succession]
+      position_A: "La structure (cellules, mitose, succession) est nécessaire pour survivre"
+      dossiers_B: [risque, ace]
+      position_B: "Toute structure est une cible juridique (art.450-1 CP) et algorithmique (LOPMI pattern detection)"
+    - contradiction: "Visibilité vs invisibilité"
+      dossiers_A: [classe, projetpol]
+      position_A: "La visibilité massive (grèves, ronds-points) protège par le nombre et crée la légitimité démocratique"
+      dossiers_B: [verrou, risque, fininv]
+      position_B: "La visibilité est un suicide juridique et algorithmique. Seule l'invisibilité (cellules 3-5, financement fractionné) permet la survie"
+
+# ============================================================
+# §2 CHRONOLOGIE SYNTHÉTIQUE
+# ============================================================
+
+chronologie_synthetique:
+  - date: "1884-03-21"
+    evenement: "Loi Waldeck-Rousseau — liberté syndicale (protection constitutionnelle sous-exploitée)"
+  - date: "1901-07-01"
+    evenement: "Loi 1901 — liberté d'association (PFRLR depuis CC 1971)"
+  - date: "1955-04-03"
+    evenement: "Loi état d'urgence (Algérie) — prémisse de l'état d'exception permanent"
+  - date: "1954-1962"
+    evenement: "FLN — guerre d'Algérie, compartimentation totale (modèle de référence pour verrou, defaite, finance)"
+  - date: "1969-1998"
+    evenement: "IRA — 29 ans de conflit, Good Friday Agreement (seule victoire contre un État OTAN)"
+  - date: "1970-1988"
+    evenement: "4 mouvements armés occidentaux (AD, BR, RAF, WUO) — tous détruits"
+  - date: "1973"
+    evenement: "Sharp : 198 méthodes d'action non-violente (jamais intégrées)"
+  - date: "1980-1989"
+    evenement: "Solidarnosc : 17 grévistes → 10M membres en 16 mois (jamais cité)"
+  - date: "1986-09-09"
+    evenement: "Création art.421-1 CP (terrorisme, standard élastique)"
+  - date: "1990"
+    evenement: "Ostrom : Governing the Commons, Nobel 2009 (jamais citée)"
+  - date: "1994"
+    evenement: "Soulèvement zapatiste — 30+ ans d'autonomie sans État (modèle de référence)"
+  - date: "2008-2018"
+    evenement: "Affaire Tarnac — 10 ans de procédure, réseau détruit malgré relaxe"
+  - date: "2018-2019"
+    evenement: "Gilets jaunes — 70% ouvriers/employés, 4000+ condamnations, 0 protocole"
+  - date: "2019-2025"
+    evenement: "5 lois anti-coordination (anticasseurs, separatisme, LOPMI, cyberdéfense, dissolution 2024)"
+  - date: "2023-01-24"
+    evenement: "LOPMI — IA prédictive, reconnaissance faciale, algorithmes anti-structuring"
+  - date: "2023-11-09"
+    evenement: "Conseil d'État annule dissolution SdT (proportionnalité) — victoire défensive"
+  - date: "2024"
+    evenement: "QPC censure partielle reconnaissance faciale LOPMI — contrôle constitutionnel persiste"
+  - date: "2025-11"
+    evenement: "Architecture KERNEL figée — avant production des articles d'action"
+  - date: "2026-01-05"
+    evenement: "Articles d'action publiés (rhizome, résidu, attrition, RIC) — non intégrés au KERNEL"
+  - date: "2026-06-10/11"
+    evenement: "25 investigations coordination acéphale — 370 faits, 82 chaînes causales"
+  - date: "2026-06-12"
+    evenement: "Synthèse Phase 2 — 5 thèses cardinales, transversalités, contradictions"
+
+# ============================================================
+# §3 MÉTRIQUES GLOBALES
+# ============================================================
+
+metriques:
+  distribution_glyphes:
+    total: 370
+    "✦_tier1": 49
+    "✧_tier2": 44
+    "❧_non_verifie": 277
+    ratio_verifiables: 0.25
+  distribution_complexity:
+    APEX: 11
+    COMPLEX: 13
+    SIMPLE: 1
+  shadow_factors:
+    min: 1.0
+    max: 2.5
+    moyen: 1.69
+    ecart_type: 0.48
+    top5_incertitude: [psychomil, ace, projetpol, narratif, violinter]
+  dossiers_top_faits:
+    - [ace, 20]
+    - [defaite, 20]
+    - [audit, 20]
+    - [verrou, 20]
+    - [modele, 18]
+    - [risque, 18]
+  dossiers_top_verifiables:
+    - [risque, 13, "✦"]
+    - [puits, 8, "✦"]
+    - [racegenre, 8, "✦"]
+    - [fininv, 6, "✦"]
+    - [classe, 6, "✦"]
+
+# ============================================================
+# §4 DOMAINES AGRÉGÉS
+# ============================================================
+
+domaines_agreges:
+  strategie:
+    poids: 7
+    dossiers: [verrou, defaite, modele, leadership, projetpol, sanctuaire, psychomil]
+  droit:
+    poids: 6
+    dossiers: [risque, puits, benelux, fininv, finance, police]
+    sous_domaines: [pénal, administratif, constitutionnel, européen, comparé]
+  sociologie:
+    poids: 5
+    dossiers: [classe, racegenre, psychomil, violinter, etatfragile]
+    sous_domaines: [classes populaires, genre, race, psychologie militante, fragilité étatique]
+  histoire:
+    poids: 5
+    dossiers: [defaite, sanctuaire, nonocc, leadership, fresque]
+    sous_domaines: [mouvements armés 1970-80, guérillas, mouvements non-occidentaux, non-violence]
+  economie:
+    poids: 4
+    dossiers: [finance, fininv, modele, fresque]
+    sous_domaines: [budgets, TRACFIN, coopératives, monnaies locales, crypto]
+  epistemologie:
+    poids: 3
+    dossiers: [ace, audit, empirique]
+    sous_domaines: [architecture connaissance, biais Ξ/ρ, falsifiabilité, validation]
+
+# ============================================================
+# §5 ICEBERG DE SYNTHÈSE
+# ============================================================
+
+iceberg_synthese:
+  - niveau: 0
+    item: "370 faits atomiques extraits — surface du corpus"
+  - niveau: 1
+    item: "5 thèses cardinales — structure visible"
+  - niveau: 2
+    item: "3 contradictions non résolues : non-violence vs État qui tire, structure vs acéphalie, visibilité vs invisibilité"
+  - niveau: 3
+    item: "Le corpus est une construction théorique cohérente mais n'est pas une science — 0 test empirique, 0 falsification"
+  - niveau: 4
+    item: "La boucle récursive (coordination nécessaire pour se coordonner) n'est résolue par aucun protocole — c'est le verrou ontologique"
+  - niveau: 5
+    item: "Mnemolite DOWN sur 25/25 dossiers — 0 cross-référencement possible. Le corpus est aveugle à ses propres productions antérieures."
+  - niveau: 6
+    item: "Le corpus est un outil CSP+ qui s'ignore. Même la méta-analyse (cette synthèse) est écrite en français soutenu, par un LLM, pour un lectorat CSP+."
+
+# ============================================================
+# §6 WOLVES DE SYNTHÈSE
+# ============================================================
+
+wolves_synthese:
+  - nom: "Le corpus est un exercice de style, pas un outil"
+    argument: "25 dossiers, 370 faits, 0 test. La coordination acéphale est une expérience de pensée fascinante mais n'a aucune existence réelle. Le corpus est une bibliothèque, pas un mouvement."
+    reponse: "La bibliothèque précède le mouvement. La théorie de la coordination est un préalable à la coordination réelle — mais le corpus doit admettre qu'il est un préalable, pas une solution."
+  - nom: "Le droit rend tout impossible — point final"
+    argument: "Art.450-1 CP = 10 ans. TRACFIN détecte <10 000€. LOPMI prédit les patterns. Aucune architecture défensive ne survit à la détermination d'un État qui veut écraser un mouvement. Le corpus décrit l'impossibilité sans l'admettre."
+    reponse: "Tarnac a été détruit par la procédure, mais les Soulèvements de la Terre ont survécu à la dissolution. Le droit n'est pas un instrument total — il a des failles (CC 1971, QPC 2024, CE proportionnalité). La question n'est pas 'le droit rend-il tout impossible' mais 'comment exploiter les failles du droit'."
+  - nom: "Le corpus s'auto-détruit par l'analyse"
+    argument: "TC4 démontre que le corpus exclut 65% de la population. TC5 démontre qu'aucun protocole n'est testé. TC2 démontre que le KERNEL ignore ses propres solutions. À quoi sert un corpus qui démontre sa propre invalidité ?"
+    reponse: "L'auto-critique n'est pas l'auto-destruction. C'est la condition de la robustesse. Un corpus qui ne documente pas ses propres angles morts est un corpus fragile. La lucidité sur les limites est la seule position intellectuellement honnête — et la seule stratégiquement utile."
+
+# ============================================================
+# §7 LIMITES DE LA SYNTHÈSE
+# ============================================================
+
+limites_synthese:
+  - "Mnemolite DOWN : 0 cross-référencement avec les productions antérieures du corpus. La synthèse est aveugle aux investigations Sumer, justice française, et autres séries."
+  - "Biais du LLM hôte : la synthèse est produite par un agent conversationnel qui a lu les 25 YAMLs mais pas les ~38 fichiers sources originaux. Des nuances peuvent être perdues."
+  - "Les 5 thèses cardinales sont une construction interprétative — d'autres découpages sont possibles (par domaine, par solution, par acteur)."
+  - "Les contradictions identifiées (non-violence vs État qui tire, etc.) sont présentées comme des apories mais pourraient être résolues par des investigations supplémentaires."
+  - "Le shadow factor des thèses cardinales est une estimation qualitative, pas un calcul mécanique."
+  - "La synthèse ne priorise pas les solutions — elle cartographie le problème. La Phase 2.6 (plan d'article) devra trancher."
+
+# ============================================================
+# §8 SHADOW FACTOR GLOBAL
+# ============================================================
+
+shadow_factor_synthese: 2.0
+shadow_justification_synthese: >
+  La synthèse repose sur 370 faits dont 75% sont ❧ (non vérifiés par URL externe).
+  Les thèses cardinales sont des constructions interprétatives, pas des faits.
+  Mnemolite DOWN empêche tout cross-référencement. Le LLM hôte introduit un biais
+  de synthèse (tendance à chercher des patterns même là où il n'y en a pas).
+  En contrepartie, la cohérence inter-dossiers est forte (5 patterns transversaux
+  documentés dans ≥5 dossiers chacun) et les thèses sont falsifiables (conditions
+  de réfutation identifiables).
+
+# ============================================================
+# §9 URLs PRIORITAIRES (synthèse)
+# ============================================================
+
+urls_prioritaires_synthese:
+  - url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"
+    description: "Art.450-1 CP — le verrou juridique central, cité dans 8 dossiers"
+  - url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417075"
+    description: "Art.421-1 CP — terrorisme, standard élastique"
+  - url: "https://www.conseil-etat.fr/actualites/dissolution-des-soulevements-de-la-terre-le-conseil-d-etat-confirme"
+    description: "CE — dissolution SdT, contrôle de proportionnalité"
+  - url: "https://www.conseil-constitutionnel.fr/decision/1971/7144DC.htm"
+    description: "CC 71-44 DC — valeur constitutionnelle liberté d'association"
+  - url: "https://www.nonviolent-conflict.org/resource/198-methods-of-nonviolent-action/"
+    description: "Sharp — 198 méthodes, taxonomie de référence"
+  - url: "https://enlacezapatista.ezln.org.mx/2023/11/12/novena-parte-la-nueva-estructura-de-la-autonomia-zapatista"
+    description: "EZLN 2023 — réforme JBG→GAL, auto-correction structurelle"
+  - url: "https://www.insee.fr/fr/statistiques/7750004"
+    description: "INSEE 2024 — classes populaires 42.8%"
+  - url: "https://www.gesetze-im-internet.de/stgb/__129.html"
+    description: "StGB §129 — droit comparé allemand (exige hiérarchie)"
+
+# ============================================================
+# §10 MNEMOLITE STATUS
+# ============================================================
+
+mnemo_status:
+  health: "UP (200 OK)"
+  search: "DOWN (500 Internal Server Error sur toutes les tentatives)"
+  impact: "0 recherche cross-séries possible. 25/25 dossiers affectés."
+  recommandation: "Investiguer et réparer avant Phase 3 (rédaction article)."

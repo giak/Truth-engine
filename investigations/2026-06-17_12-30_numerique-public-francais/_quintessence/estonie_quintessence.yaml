@@ -1,0 +1,208 @@
+enquete_id: "estonie"
+complexity: "COMPLEX"
+date_extraction: "2026-06-17"
+enquete_source: "investigations/2026-06-17_12-30_numerique-public-francais/2026-06-17_18-45_comparaison-france-estonie-x-road-numerique-public_INVESTIGATION.md"
+
+these_centrale: "L'Estonie (1,37 M hab., 0,60% du PIB en IT public) a réussi une transformation numérique radicale via l'architecture distribuée x-Road, tandis que la France (68 M hab., 0,16-0,18% du PIB) reste bloquée dans un modèle ministériel en silos avec 45 grands projets en dérive (dépassement 6,5%, retard 21%). L'écart n'est pas budgétaire (la France investit 2,5-3x moins par habitant que l'Estonie) mais architectural et de gouvernance : absence de couche d'interopérabilité obligatoire, pilotage DINUM sans pouvoir exécutif, dépendance aux fournisseurs non-européens."
+
+theses_implicites:
+  - "Le succès estonien est autant politique et constitutionnel (principe 'once-only', identifiant unique isikukood) que technique (x-Road)"
+  - "Le quadruplement du budget IT estonien en 10 ans (66 M€ → 265,5 M€) interroge la soutenabilité du modèle, même s'il reste très inférieur au ratio français par service rendu"
+  - "Les vulnérabilités du modèle estonien (dépendance eID unique, absence de plan B physique, monopole SK ID Solutions) sont le revers de sa cohérence"
+  - "Le manque de vue centrale des dépenses IT est un problème commun aux deux pays - ni l'Estonie ni la France n'ont de pilotage consolidé"
+
+faits_atomiques:
+  - id: "F-EST-001"
+    enonce: "L'Estonie a 100% de ses services publics disponibles en ligne depuis décembre 2024"
+    source_url: "https://e-estonia.com/estonia-100-digital-government-services/"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-EST-002"
+    enonce: "x-Road traite ~295 M requêtes/mois, 97% en machine-to-machine, seulement 3% initiées par un citoyen"
+    source_url: "https://e-estonia.com/solutions/interoperability-services/x-road/"
+    source_section: "§1.1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-EST-003"
+    enonce: "L'Estonie économise 1 345 à 2 589 années de travail/an via x-Road (15 minutes économisées par requête). 1,48 M heures économisées/mois"
+    source_url: "https://e-estonia.com/how-save-annually-820-years-of-work/"
+    source_section: "§1.1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-EST-004"
+    enonce: "Budget IT public estonien doublé en 6 ans : 123 M€ (2019) → 257 M€ (2024). Hausse de 109%"
+    source_url: "https://news.err.ee/1609813497/estonia-s-public-it-spending-and-investments-doubled-in-6-years-finds-audit"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-EST-005"
+    enonce: "Budget des agences IT centrales estoniennes quadruplé en 10 ans : 66 M€ → 265,5 M€ (2025). 1 765 employés"
+    source_url: "https://news.err.ee/1609573945/total-budget-of-estonia-s-public-sector-it-organizations-has-quadrupled-in-10-years"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-EST-006"
+    enonce: "L'Estonie investit ~188 €/hab/an dans l'IT public. La France ~60-74 €/hab. Écart : 2,5-3x"
+    source_url: "https://digital-strategy.ec.europa.eu/en/factpages/estonia-2025-digital-decade-country-report"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-EST-007"
+    enonce: "Estonie : 0,60% du PIB consacré à l'IT public. France : 0,16-0,18%. Écart : 3,3-3,7x"
+    source_url: "https://digital-strategy.ec.europa.eu/fr/node/13535/printable/pdf"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-EST-011"
+    enonce: "Vulnérabilité ROCA (2017) : 800 000 cartes eID estoniennes affectées (58% du parc). Faille Infineon sur clés RSA. Migration vers ECC réussie en 2 semaines"
+    source_url: "https://www.schneier.com/blog/archives/2017/12/lessons_learned.html"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-EST-013"
+    enonce: "RIA combine cybersécurité (budget 49 M€), infrastructure IT et supervision des SI de l'État. Agence exécutive avec pouvoir de sanction"
+    source_url: "https://www.ria.ee/en/authority-news-and-contact/authority-and-management/tasks-and-structure-authority"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-EST-016"
+    enonce: "45 grands projets numériques >9 M€ suivis par DINUM en France. Dépassement budgétaire moyen : 6,5%. Retard moyen : 21%"
+    source_url: "https://www.zdnet.fr/actualites/grands-projets-it-de-letat-du-mieux-au-niveau-budgetaire-481086.htm"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-EST-022"
+    enonce: "Vote électronique Estonie : 2,30 € vs 20,40 € pour un vote physique (facteur 9). 44% des votes par internet"
+    source_url: "https://e-estonia.com/e-governance-saves-money-and-working-hours/"
+    source_section: "§1.2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-EST-025"
+    enonce: "La Cour des comptes estonienne (Riigikontroll, 2025) confirme que le ministère de tutelle n'a PAS de vue centrale des dépenses IT - même constat qu'en France"
+    source_url: "https://www.riigikontroll.ee/en/audits/information-technology-investments-and-costs-public-institutions"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-EST-026"
+    enonce: "Nombre d'employés IT publics estoniens plus que doublé en 10 ans : 722 → 1 765"
+    source_url: "https://news.err.ee/1609573945/total-budget-of-estonia-s-public-sector-it-organizations-has-quadrupled-in-10-years"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "RIA (Estonian Information System Authority)"
+    role: "Agence exécutive unique combinant cybersécurité, infra IT et supervision des SI. 49 M€ budget, 307 agents. Pouvoir de sanction"
+    faits_lies: ["F-EST-013"]
+  - nom: "NIIS"
+    role: "Nordic Institute for Interoperability Solutions. Gère le développement de x-Road (open source, MIT). Budget annuel 1,5-2 M€"
+    faits_lies: ["F-EST-002"]
+  - nom: "Riigikontroll"
+    role: "Cour des comptes estonienne. Confirme l'absence de vue centrale des dépenses IT"
+    faits_lies: ["F-EST-025"]
+  - nom: "DINUM"
+    role: "DSI interministérielle française, rôle de conseil sans pouvoir exécutif. Peine à être la DSI de l'État (Cour des comptes)"
+    faits_lies: ["F-EST-016"]
+
+causalites:
+  - cause: "F-EST-013"
+    effet: "F-EST-001"
+    mecanisme: "L'agence unique RIA combine cybersécurité, infrastructure et supervision avec pouvoir exécutif → capacité à imposer x-Road et le principe 'once-only' à toutes les administrations → 100% digital"
+  - cause: "F-EST-007"
+    effet: "F-EST-006"
+    mecanisme: "L'investissement IT par habitant 2,5-3x plus élevé en Estonie qu'en France (188€ vs 66€) n'explique pas seul l'écart - la gouvernance et l'architecture sont les vrais facteurs"
+  - cause: "F-EST-016"
+    effet: "F-EST-025"
+    mecanisme: "L'absence de vue centrale des dépenses IT (constat commun aux deux pays) empêche le pilotage rationalisé et permet la dérive des grands projets français"
+
+perspectives_dialectiques:
+  - position: "Thèse (Modèle estonien comme idéal)"
+    argument: "L'Estonie prouve qu'un petit État peut construire un numérique public efficace, économique et souverain en 20 ans. La France doit s'inspirer de x-Road, de l'agence unique et du principe 'once-only'."
+  - position: "Antithèse (Limites structurelles)"
+    argument: "L'Estonie n'est pas transposable : 1,37 M d'habitants sans legacy administratif, régime autoritaire numérique, dépendance à l'eID unique. Les vulnérabilités (ROCA, monopole SK ID, absence de plan B) sont masquées par le storytelling 'e-Estonia'."
+  - position: "Synthèse (Leçons ciblées)"
+    argument: "L'Estonie n'est pas un modèle à copier mais un laboratoire. La France peut en tirer 3 leçons : (1) l'architecture distribuée plutôt que les hubs centraux, (2) l'agence exécutive avec pouvoir de sanction, (3) la mesure systématique des gains - sans copier l'isikukood ni le tout-numérique sans plan B."
+
+limites:
+  - "L'Estonie (1,37 M hab.) et la France (68 M hab.) ne sont pas comparables en échelle : la complexité d'un système fédéré croît avec le nombre de nœuds"
+  - "L'Estonie a construit son administration from scratch après 1991, sans legacy IT. La France porte des décennies d'héritage"
+  - "Les économies d'échelle déclarées (années de travail, % PIB) sont basées sur des extrapolations avec 'marge d'erreur élevée' (IBS, 2022)"
+  - "L'absence de plan B physique est un risque existentiel sous-évalué dans le discours e-Estonia"
+
+wolves:
+  - nom: "e-Estonia storyteller"
+    argument: "Le modèle estonien est un succès incontestable exportable à tous les pays. La France devrait adopter x-Road immédiatement."
+    reponse: "L'Estonie multiple les mises en garde : sa propre Cour des comptes note l'absence de vue centrale des dépenses. La vulnérabilité ROCA (58% du parc) montre le risque de monotechnologie. La transposition à une échelle 50x n'est pas triviale."
+  - nom: "Sceptique hexagonal"
+    argument: "La France est trop complexe, trop grande, trop enracinée dans ses silos ministériels pour adopter un modèle estonien. Les comparaisons sont vaines."
+    reponse: "Les problèmes structurels français (45 projets en dérive, absence d'interopérabilité, dépendance fournisseurs) sont précisément ceux que x-Road et une agence unique résolvent. La complexité est un argument pour la réforme, pas contre."
+
+iceberg:
+  - "Le storytelling e-Estonia masque une réalité moins glorieuse : quadruplement du budget en 10 ans, absence de vue centrale des dépenses, dépendance à IDEMIA pour les cartes"
+  - "Le monopole SK ID Solutions (certificats eID) crée une dépendance privée dans un système présenté comme souverain"
+  - "La France dépense autant en 3 grands projets (>9 M€) que l'Estonie pour l'ensemble de son IT public annuel"
+  - "Les services de renseignement des deux pays bénéficient probablement du chaînage des données via identifiants uniques"
+
+chronologie:
+  - date: "2001"
+    evenement: "Développement initial x-Road par Cybernetica pour le gouvernement estonien"
+    source_fait: "F-EST-002"
+  - date: "2005"
+    evenement: "Premier vote électronique en Estonie"
+    source_fait: "F-EST-022"
+  - date: "2017"
+    evenement: "Vulnérabilité ROCA : 800 000 cartes eID affectées (58% du parc). Migration ECC en 2 semaines"
+    source_fait: "F-EST-011"
+  - date: "2017"
+    evenement: "Création NIIS (Estonie + Finlande + Islande) pour gérer x-Road"
+    source_fait: "F-EST-002"
+  - date: "2024-12"
+    evenement: "100% des services publics estoniens disponibles en ligne"
+    source_fait: "F-EST-001"
+  - date: "2027-01"
+    evenement: "Fusion RIA-RIT annoncée pour créer un 'bouclier cyber unique'"
+    source_fait: "F-EST-013"
+
+domaines:
+  - "Architecture des systèmes d'information publics"
+  - "Gouvernance du numérique d'État"
+  - "Cybersécurité publique"
+  - "Interopérabilité et standardisation"
+  - "Identité numérique et eID"
+  - "Comparaisons internationales des politiques numériques"
+
+urls_prioritaires:
+  - url: "https://e-estonia.com/solutions/interoperability-services/x-road/"
+    description: "Documentation officielle x-Road (e-Estonia)"
+    head_status: 200
+  - url: "https://news.err.ee/1609573945/total-budget-of-estonia-s-public-sector-it-organizations-has-quadrupled-in-10-years"
+    description: "ERR : quadruplement budget IT estonien"
+    head_status: 200
+  - url: "https://www.riigikontroll.ee/en/audits/information-technology-investments-and-costs-public-institutions"
+    description: "Cour des comptes estonienne - audit dépenses IT"
+    head_status: 200
+  - url: "https://www.zdnet.fr/actualites/grands-projets-it-de-letat-du-mieux-au-niveau-budgetaire-481086.htm"
+    description: "ZDNet : panorama grands projets IT France"
+    head_status: 200
+
+shadow_factor: 2.2
+
+mnemo_queries:
+  - query: "Estonie x-Road numérique public France comparaison architecture"
+    results_count: 2
+  - query: "gouvernance IT État DINUM RIA agence unique interopérabilité"
+    results_count: 1

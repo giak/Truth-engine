@@ -1,0 +1,212 @@
+enquete_id: "boycott_usa"
+complexity: "COMPLEX"
+date_extraction: "2026-06-13"
+enquete_source: "investigations/2026-06-13_boycott_wave_usa/2026-06-13_11-00_boycott_wave_usa_2025_2026_INVESTIGATION.md"
+
+these_centrale: "La vague de boycotts américains 2023-2026 constitue le laboratoire le plus massif d'action consommateur jamais observé — 11 boycotts documentés, 40 sources — et fournit des leçons opérationnelles transposables à la France, à condition d'intégrer les différences juridiques (1er Amendement vs droit pénal français) et structurelles (polarisation, échelle)."
+
+theses_implicites:
+  - "La durée '47 jours' comme cycle standard de boycott est un mème non sourcé — les durées réelles varient de 24h à 3+ ans, moyenne empirique 13-18 mois pour les boycotts persistants"
+  - "Le facteur #1 de succès d'un boycott est la visibilité du CEO comme cible (Musk > Tesla, Cornell > Target) — plus le PDG est identifié, plus le boycott frappe"
+  - "La polarisation politique neutralise les boycotts bidirectionnels (Target boycotté par les deux camps), mais amplifie les pertes quand un seul camp frappe (Tesla)"
+
+faits_atomiques:
+  - id: "F-USA-001"
+    enonce: "Tesla a subi -9% de ventes annuelles en 2025 (1,63M unités vs 1,79M en 2024), -71% de bénéfice net au T1 2025, et -49% de ventes en Europe en mai 2025."
+    source_url: "https://techcrunch.com/2026/01/02/tesla-annual-sales-decline-9"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-USA-002"
+    enonce: "L'effet 'Musk partisan effect' (Yale NBER 2025) a coûté à Tesla entre 1 et 1,26 million de ventes potentielles depuis 2022."
+    source_url: "https://observer.com/2025/11/yale-study-elon-musks-political-actions-cost-tesla"
+    source_section: "§1.3"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-USA-003"
+    enonce: "Bud Light a perdu 30% de ses ventes de façon persistante 2+ ans après le pic de la controverse Dylan Mulvaney (avril 2023) et n'a jamais retrouvé son statut de #1 bière américaine, dépassé par Modelo Especial."
+    source_url: "https://en.wikipedia.org/wiki/Bud_Light_boycott"
+    source_section: "§1.1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-USA-004"
+    enonce: "Target a perdu 12,4 milliards de dollars de valeur marchande après l'annonce de son rollback DEI (janvier 2025), avec une baisse de trafic de 5,7% semaine 17 mars 2025 (8e semaine consécutive de baisse)."
+    source_url: "https://fortune.com/2025/02/22/target-backtracking-dei-efforts"
+    source_section: "§1.2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-USA-005"
+    enonce: "Le boycott publicitaire de X/Twitter a fait chuter les recettes de ~4,51 milliards $ (2021) à ~2 milliards $ (2024). X a perdu son procès antitrust contre GARM/WFA en mars 2026 : les annonceurs ont le droit de boycotter collectivement."
+    source_url: "https://arstechnica.com/tech-policy/2026/03/elon-musk-loses-big-in-court"
+    source_section: "§1.4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-USA-006"
+    enonce: "Starbucks a subi 6 trimestres consécutifs de baisse (octobre 2023 - présent), -22% de profit opérationnel, 11 milliards $ de perte de capitalisation boursière, et a supprimé 900 emplois en septembre 2025."
+    source_section: "§1.5"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-USA-007"
+    enonce: "Le boycott économique général 'Economic Blackout' (28 février 2025, 24h) n'a pas eu d'impact statistiquement significatif au niveau macro (Numerator 2025). Les sous-groupes afro-américains ont sur-mobilisé."
+    source_url: "https://numerator.com/resources/blog/economic-blackout-results"
+    source_section: "§1.8"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-USA-008"
+    enonce: "La durée '47 jours' comme cycle standard de boycott est non sourcée — aucune étude académique ou journalistique fiable ne cite ce chiffre. Les durées réelles vont de 24h à 3+ ans."
+    source_section: "§5"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-USA-009"
+    enonce: "Aux États-Unis, le 1er Amendement protège les boycotts politiques (NAACP v. Claiborne Hardware, 1982 — Cour Suprême). En France, l'appel au boycott discriminatoire est pénalisé par la loi 2017-86 (27 janvier 2017)."
+    source_url: "https://supreme.justia.com/cases/federal/us/458/886"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-USA-010"
+    enonce: "38 états américains ont des lois anti-BDS avec certifications obligatoires pour les contractants publics. Le HR 867 (IGO Anti-Boycott Act, 2025) étend l'interdiction aux organisations internationales."
+    source_section: "§3.1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-USA-011"
+    enonce: "62% des Français soutiennent un boycott des produits américains et 18% y participent déjà (CRÉDOC 2025)."
+    source_url: "https://credoc.fr/publications/guerre-commerciale"
+    source_section: "§1.9"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-USA-012"
+    enonce: "35-55% des comptes discutant du boycott Amazon en juin 2025 étaient des bots (Cyabra), ce qui a miné la crédibilité du mouvement."
+    source_url: "https://cyabra.com/reports/unmasking-the-bot-driven-boycott-of-amazon"
+    source_section: "§1.6"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-USA-013"
+    enonce: "Tesla a perdu sa place de #1 constructeur EV mondial au profit de BYD (2,26M unités vs 1,63M)."
+    source_section: "§1.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Musk, Elon"
+    role: "CEO Tesla, cible directe du boycott + DOGE administration Trump"
+    faits_lies: ["F-USA-001", "F-USA-002", "F-USA-005", "F-USA-013"]
+  - nom: "Mulvaney, Dylan"
+    role: "Influenceuse trans — déclencheur boycott Bud Light"
+    faits_lies: ["F-USA-003"]
+  - nom: "Cornell, Brian"
+    role: "CEO Target — cible indirecte, profil bas"
+    faits_lies: ["F-USA-004"]
+  - nom: "Schwarz, John"
+    role: "Organisateur The People's Union USA — Economic Blackout"
+    faits_lies: ["F-USA-007"]
+  - nom: "DeSantis, Ron"
+    role: "Gouverneur Floride — conflit Disney, dissolution Reedy Creek"
+    faits_lies: []
+
+causalites:
+  - cause: "F-USA-001"
+    effet: "F-USA-013"
+    mecanisme: "La chute des ventes Tesla liée à la politisation de Musk a permis à BYD de prendre la tête du marché EV mondial"
+  - cause: "F-USA-004"
+    effet: "F-USA-009"
+    mecanisme: "Les boycotts d'entreprise (Target) sont protégés par le 1A aux US, contrairement à la France où le cadre pénal est plus restrictif"
+
+perspectives_dialectiques:
+  - position: "Thèse — Les boycotts US sont un modèle pour la France"
+    argument: "Les 11 cas documentés montrent que des boycotts ciblés, avec CEO visible et alternative disponible, peuvent infliger des pertes massives (-71% bénéfice Tesla, -30% ventes Bud Light)."
+  - position: "Antithèse — Les différences structurelles US/France interdisent la transposition"
+    argument: "Le 1er Amendement est le bouclier juridique qui rend les boycotts américains possibles. La France criminalise l'appel au boycott discriminatoire (loi 2017-86, projet Yadan). L'échelle est différente : 5% des consommateurs US = 17M personnes vs 3,3M en France."
+  - position: "Synthèse"
+    argument: "Les leçons tactiques (cible unique, CEO vulnérable, alternative disponible, durée limitée) sont transposables. Le cadre juridique français nécessite d'adapter la formulation ('choix consommateur' plutôt qu''appel au boycott')."
+
+limites:
+  - "Sources majoritairement journalistiques (Reuters, Bloomberg, Forbes) — peu de données brutes d'entreprise vérifiées indépendamment"
+  - "CRÉDOC 2025 : sondage déclaratif, pas un comportement observé"
+  - "L'effet cumulatif de boycotts simultanés n'est pas modélisé"
+  - "Pas d'analyse de l'effet des contre-boycotts sur l'économie globale"
+  - "Les données Cyabra (bots) sont d'une seule source, non recoupées"
+
+wolves:
+  - nom: "Économiste néoclassique"
+    argument: "Les boycotts sont inefficaces car les consommateurs agissent en 'free riders' — chacun attend que les autres boycottent à sa place."
+    reponse: "Les données Tesla (-71% bénéfice) et Bud Light (-30% persistants) contredisent cette assertion. Les consommateurs boycottent massivement quand l'enjeu est identitaire."
+  - nom: "Juriste français"
+    argument: "La loi Copé (2003), la loi 2017-86 et le projet Yadan rendent l'appel au boycott risqué en France. La transposition des tactiques US est juridiquement périlleuse."
+    reponse: "La formulation en 'choix consommateur individuel' plutôt qu'en 'appel au boycott collectif' contourne partiellement le risque. Le risque zéro n'existe pas."
+
+iceberg:
+  - "L'effet des boycotts sur les chaînes d'approvisionnement globales n'est pas documenté"
+  - "Résultat Mnemolite: [query=boycott États-Unis, 1586 mémoires, quintessence saturation liée]"
+  - "Résultat Mnemolite: [query=boycott wave USA, 1586 mémoires, corpus coordination acéphalique existant]"
+
+chronologie:
+  - date: "1982"
+    evenement: "NAACP v. Claiborne Hardware — 1A protège boycotts politiques"
+    source_fait: "F-USA-009"
+  - date: "2022-10"
+    evenement: "Elon Musk acquiert Twitter — début boycott publicitaire"
+    source_fait: "F-USA-005"
+  - date: "2023-04"
+    evenement: "Début boycott Bud Light (partenariat Dylan Mulvaney)"
+    source_fait: "F-USA-003"
+  - date: "2023-10"
+    evenement: "Début boycotts Starbucks/McDonald's liés à la guerre Israël-Gaza"
+    source_fait: "F-USA-006"
+  - date: "2025-01"
+    evenement: "Rollback DEI Target, Amazon, Walmart — début boycotts progressistes"
+    source_fait: "F-USA-004"
+  - date: "2025-02-28"
+    evenement: "Economic Blackout — 24h de grève de la consommation"
+    source_fait: "F-USA-007"
+  - date: "2025-03"
+    evenement: "Début Tesla Takedown — manifestations mondiales"
+    source_fait: "F-USA-001"
+  - date: "2026-03"
+    evenement: "X perd procès GARM/WFA — les annonceurs ont droit de boycotter"
+    source_fait: "F-USA-005"
+
+domaines:
+  - "Boycott consumériste"
+  - "Polarisation politique US"
+  - "Droit constitutionnel (1er Amendement)"
+  - "Droit pénal français (boycott discriminatoire)"
+  - "Mouvements sociaux numériques"
+
+urls_prioritaires:
+  - url: "https://supreme.justia.com/cases/federal/us/458/886"
+    description: "NAACP v. Claiborne Hardware — fondement 1A du droit de boycott"
+    head_status: 200
+  - url: "https://techcrunch.com/2026/01/02/tesla-annual-sales-decline-9"
+    description: "Baisse annuelle des ventes Tesla 2025"
+    head_status: 200
+  - url: "https://observer.com/2025/11/yale-study-elon-musks-political-actions-cost-tesla"
+    description: "Étude Yale NBER — Musk partisan effect"
+    head_status: 200
+  - url: "https://credoc.fr/publications/guerre-commerciale"
+    description: "CRÉDOC 2025 — 62% des Français soutiennent boycott produits US"
+    head_status: 200
+  - url: "https://arstechnica.com/tech-policy/2026/03/elon-musk-loses-big-in-court"
+    description: "X perd procès GARM — les annonceurs ont droit de boycotter"
+    head_status: 200
+
+shadow_factor: 3.5
+mnemo_queries:
+  - query: "boycott États-Unis Tesla Bud Light"
+    results_count: 5
+    notes: "1586 mémoires totales ; quintessence saturation liée trouvée"
+  - query: "boycott wave USA polarization consommateur"
+    results_count: 5
+    notes: "1586 mémoires totales ; corpus coordination acéphalique existant"

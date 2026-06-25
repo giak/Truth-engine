@@ -1,0 +1,956 @@
+enquete_id: "legalite_v2"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "investigations/2026-06-19-performativite-gouvernance/2026-06-19_07-30_legalite_legitimite_INVESTIGATION_V2_SUPPLEMENT.md"
+
+these_centrale: "L'écart légalité/légitimité est trois fois plus profond que V1 ne l'a estimé (ICEFACTOR 1.5→5.2) — sept faisceaux convergents documentent un verrouillage procédural, économique et médiatique qui transforme le droit en instrument de maintien d'un ordre oligarchique."
+
+theses_implicites:
+  - "Le système politico-administratif français est structurellement conçu pour produire de l'illégitimité — les mécanismes de contournement du Parlement (ordonnances, 49.3, filtrage QPC) ne sont pas des abus mais des features intégrées"
+  - "La sous-dotation chronique de la justice (17 juges/100k, 0.19% PIB) est un choix politique qui rend le droit théoriquement accessible mais pratiquement inaccessible"
+  - "Les autorités administratives indépendantes (CSM, HATVP, Arcom, Défenseur des droits, CNIL) fonctionnent comme des théâtres de légitimation: elles donnent l'apparence du contre-pouvoir sans la substance"
+  - "La capture médiatique par 9 milliardaires (80% des médias) verrouille ce qui peut être dit et donc ce qui peut être légitimement pensé"
+  - "Le droit fiscal organise un transfert ascendant massif (80-100Mds évasion, ~80Mds niches, ISF supprimé, flat tax) qui érode le consentement à l'impôt"
+  - "L'UE est utilisée comme alibi auto-construit — la France a participé à la rédaction des règles qui la lient (Maastricht aux nouvelles règles 2024)"
+  - "Le pantouflage (62% IGF, 50% CAC40) n'est pas un effet de bord mais la structure même du pouvoir français — fusion entre l'État et le capital"
+  - "La France produit statistiquement les mêmes résultats qu'une démocratie illibérale (Hongrie, Pologne) par des moyens différents: subtils, procéduraux, technocratiques"
+
+faits_atomiques:
+  - id: "F-001"
+    enonce: "1004 ordonnances article 38 entre 1958 et 2019"
+    source_url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-002"
+    enonce: "316 ordonnances article 38 entre 2001 et 2010"
+    source_url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-003"
+    enonce: "352 ordonnances article 38 entre 2017 et 2022"
+    source_url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-004"
+    enonce: "Taux de ratification des ordonnances 2017-2022: 33.5%"
+    source_url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-005"
+    enonce: "Taux de ratification des ordonnances 2022-2027 (en cours): 18%"
+    source_url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-006"
+    enonce: "Plus de 50% des textes dans le domaine de la loi sont des ordonnances depuis 2007 (50.2%)"
+    source_url: "https://questions-constitutionnelles.fr/"
+    source_section: "§1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-007"
+    enonce: "Emmanuel Macron a utilisé l'article 49.3 28 fois entre 2022 et 2024"
+    source_url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-008"
+    enonce: "QPC filter rate: 6.8% des QPC transmises par la Cour de cassation au Conseil constitutionnel en 2024 (11 sur 162)"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-009"
+    enonce: "11 QPC transmises par la Cour de cassation au Conseil constitutionnel en 2024, contre 16 en 2023"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-010"
+    enonce: "En 2020, 125 ordonnances ont été publiées contre 47 lois votées"
+    source_url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-011"
+    enonce: "Le double filtre (CE/Cassation) bloque 93.2% des QPC"
+    source_url: "https://www.conseil-constitutionnel.fr/"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-012"
+    enonce: "France: 17 juges pour 100 000 habitants (Allemagne: 30+, moyenne UE: 21)"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-013"
+    enonce: "France: 49% de confiance dans la justice (Allemagne: 75%, moyenne UE: 56%)"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-014"
+    enonce: "94% des plaintes pour viol classées sans suite (Haut Conseil à l'Égalité 2023)"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-015"
+    enonce: "Délai moyen de jugement civil en première instance: 12 mois (France), 6 mois (Allemagne), 8 mois (moyenne UE)"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-016"
+    enonce: "Budget de la justice: 0.19% du PIB (France), 0.40% (Allemagne), 0.33% (moyenne UE)"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-017"
+    enonce: "42 millions de mots de droit en vigueur en France (État hyper-normatif)"
+    source_url: "https://www.ifrap.org/"
+    source_section: "§2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-018"
+    enonce: "Conseil supérieur de la magistrature: 0 nomination refusée depuis 1958"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-019"
+    enonce: "HATVP: 77% d'avis avec réserves sur le pantouflage, mais réserves peu suivies (Cour des comptes 2025)"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-020"
+    enonce: "Arcom: 16 membres dont 9 nommés par l'exécutif; aucune sanction contre Vincent Bolloré (CNews, Europe 1)"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-021"
+    enonce: "Défenseur des droits: rapport annuel ignoré, aucune recommandation contraignante"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-022"
+    enonce: "CNIL: budget 34M€ pour 200 agents; moyenne américaine: 6000 agents par autorité de protection"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-023"
+    enonce: "9 milliardaires contrôlent 80% des médias français (Acrimed, Reporters sans frontières)"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-024"
+    enonce: "Vincent Bolloré contrôle 5 médias majeurs: CNews, Europe 1, JDD, Paris Match, Praximédia"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-025"
+    enonce: "Famille Dassault possède 80% du Figaro"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-026"
+    enonce: "Famille Niel: actionnaire clé du groupe Le Monde"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-027"
+    enonce: "France classée 21e au classement Reporters sans frontières (2024), en baisse continue"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-028"
+    enonce: "Grève de 40 jours au JDD en 2023 contre la nomination de Geoffroy Lejeune (d'extrême droite) — rédaction perdante"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-029"
+    enonce: "Évasion fiscale annuelle estimée entre 80 et 100 milliards d'euros (Syndicat Solidaires Finances)"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-030"
+    enonce: "Niches fiscales: environ 80 milliards d'euros par an (Cour des comptes)"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-031"
+    enonce: "ISF supprimé en 2018, remplacé par l'IFI qui ne représente qu'un sixième des recettes de l'ISF"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-032"
+    enonce: "Flat tax à 30% créée en 2018 — taux unique vs barème progressif de l'impôt sur le revenu"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-033"
+    enonce: "CICE (2013-2019): 100 milliards d'euros de crédits d'impôt non conditionnés (Cour des comptes)"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-034"
+    enonce: "20 familles possèdent 704 milliards d'euros en 2023 (Oxfam)"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§5"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-035"
+    enonce: "IFI exclut les actifs financiers (actions, obligations, livrets) — un patrimoine de 10M€ en actions paie 0€ d'IFI"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-036"
+    enonce: "Les niches fiscales bénéficient à 80% aux 10% les plus riches (Cour des comptes)"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-037"
+    enonce: "26 juillet 2024: le Conseil UE déclare la France en déficit excessif (5.5% PIB, dette 110.6%)"
+    source_url: "https://commission.europa.eu/"
+    source_section: "§6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-038"
+    enonce: "Échéance 2029 pour ramener le déficit français sous 3% du PIB — sous surveillance UE jusqu'à cette date"
+    source_url: "https://commission.europa.eu/"
+    source_section: "§6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-039"
+    enonce: "2025-2029: croissance de la dépense nette française plafonnée à 0.8%-1.2% par an"
+    source_url: "https://commission.europa.eu/"
+    source_section: "§6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-040"
+    enonce: "Au-delà de 2029, le deficit resilience safeguard impose un ajustement supplémentaire supérieur à 1% du PIB pour la France (Bruegel 2024)"
+    source_url: "https://www.bruegel.org/"
+    source_section: "§6"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-041"
+    enonce: "Pacte de stabilité: règles 3% déficit, 60% dette intégrées dans le traité de Maastricht (1992), révisées en 1997 (SGP), 2012 (TSCG), 2024 (nouveau cadre)"
+    source_url: "https://commission.europa.eu/"
+    source_section: "§6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-042"
+    enonce: "Environ 50% des PDG du CAC40 sont issus des grands corps (Observatoire des Multinationales)"
+    source_url: "https://multinationales.org/fr/enquetes/les-portes-tournantes/portes-tournantes-comment-la-circulation-des-elites-entre-secteurs-public-et"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-043"
+    enonce: "62% des inspecteurs de l'IGF ont pantouflé dans le privé entre 1958 et 2009"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-044"
+    enonce: "38% des inspecteurs de l'IGF sont dans le secteur privé en 2024"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-045"
+    enonce: "29% des membres du corps des Mines sont dans le secteur privé en 2024"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-046"
+    enonce: "Parmi les énarques: 22% ont pantouflé de manière temporaire, 8% de manière définitive (Cour des comptes 2025)"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-047"
+    enonce: "Augmentation de 89% du pantouflage en 2022 (HATVP)"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-048"
+    enonce: "77% des avis de la HATVP contiennent des réserves — rarement suivies (Cour des comptes 2025)"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-049"
+    enonce: "80% des membres des grands corps viennent des catégories sociales supérieures — stabilité depuis 1958 (Sciences Po)"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-050"
+    enonce: "Un tiers du CAC40 est dirigé par d'anciens membres des grands corps"
+    source_url: "https://multinationales.org/fr/enquetes/les-portes-tournantes/portes-tournantes-comment-la-circulation-des-elites-entre-secteurs-public-et"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-051"
+    enonce: "Bruno Le Maire (ministre Économie 2017-2024) travaille chez ASML (semi-conducteurs) après son mandat"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-052"
+    enonce: "ICE_BERG V1 (sous-estimé): Ξ+ ≈ 1.5"
+    source_section: "§8"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-053"
+    enonce: "ICEBERG V2 synthétique: Ξ+++ (N/R = 5.2 ± 1.0)"
+    source_section: "§8"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-054"
+    enonce: "Faisceau 1 (Procédure): N/R = 2.5"
+    source_section: "§8"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-055"
+    enonce: "Faisceau 2 (Justice): N/R = 1.8"
+    source_section: "§8"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-056"
+    enonce: "Faisceau 3 (Autorités indépendantes): N/R = 1.6"
+    source_section: "§8"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-057"
+    enonce: "Faisceau 4 (Médias): N/R = 2.2"
+    source_section: "§8"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-058"
+    enonce: "Faisceau 5 (Fiscal): N/R = 2.0"
+    source_section: "§8"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-059"
+    enonce: "Faisceau 6 (UE): N/R = 1.5"
+    source_section: "§8"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-060"
+    enonce: "Faisceau 7 (Castes): N/R = 2.0"
+    source_section: "§8"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-061"
+    enonce: "Norvège EIU Democracy Index 2024: 9.81 — Full democracy"
+    source_url: "https://www.eiu.com/n/democracy-index-2024"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-062"
+    enonce: "Allemagne EIU Democracy Index 2024: 8.78 — Full democracy"
+    source_url: "https://www.eiu.com/n/democracy-index-2024"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-063"
+    enonce: "Royaume-Uni EIU Democracy Index 2024: 8.34 — Full democracy"
+    source_url: "https://www.eiu.com/n/democracy-index-2024"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-064"
+    enonce: "Portugal EIU Democracy Index 2024: 8.08 — Full democracy"
+    source_url: "https://www.eiu.com/n/democracy-index-2024"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-065"
+    enonce: "France EIU Democracy Index 2024: 7.99 — Flawed democracy (26e place, sous le seuil de 8.00)"
+    source_url: "https://www.eiu.com/n/democracy-index-2024"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-066"
+    enonce: "États-Unis EIU Democracy Index 2024: 7.85 — Flawed democracy"
+    source_url: "https://www.eiu.com/n/democracy-index-2024"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-067"
+    enonce: "Italie EIU Democracy Index 2024: 7.69 — Flawed democracy"
+    source_url: "https://www.eiu.com/n/democracy-index-2024"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-068"
+    enonce: "Belgique EIU Democracy Index 2024: 7.64 — Flawed democracy"
+    source_url: "https://www.eiu.com/n/democracy-index-2024"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-069"
+    enonce: "Norvège V-Dem Liberal Democracy Index 2024: 0.87 — Liberal democracy"
+    source_url: "https://www.v-dem.net/publications/democracy-reports"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-070"
+    enonce: "Allemagne V-Dem Liberal Democracy Index 2024: 0.86 — Liberal democracy"
+    source_url: "https://www.v-dem.net/publications/democracy-reports"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-071"
+    enonce: "Royaume-Uni V-Dem Liberal Democracy Index 2024: 0.83 — Liberal democracy"
+    source_url: "https://www.v-dem.net/publications/democracy-reports"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-072"
+    enonce: "Portugal V-Dem Liberal Democracy Index 2024: 0.81 — Liberal democracy"
+    source_url: "https://www.v-dem.net/publications/democracy-reports"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-073"
+    enonce: "France V-Dem Liberal Democracy Index 2024: 0.799 — Liberal democracy (declining)"
+    source_url: "https://www.v-dem.net/publications/democracy-reports"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-074"
+    enonce: "États-Unis V-Dem Liberal Democracy Index 2024: 0.78 — Liberal democracy (declining)"
+    source_url: "https://www.v-dem.net/publications/democracy-reports"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-075"
+    enonce: "Italie V-Dem Liberal Democracy Index 2024: 0.76 — Electoral democracy"
+    source_url: "https://www.v-dem.net/publications/democracy-reports"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-076"
+    enonce: "Belgique V-Dem Liberal Democracy Index 2024: 0.78 — Liberal democracy"
+    source_url: "https://www.v-dem.net/publications/democracy-reports"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-077"
+    enonce: "QPC: 32% de taux de censure quand elle est transmise au Conseil constitutionnel"
+    source_url: "https://www.conseil-constitutionnel.fr/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-078"
+    enonce: "EDI* V1 (non pondéré): 0.51 — score modéré"
+    source_section: "§12"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-079"
+    enonce: "EDI* V2 (corrigé): 0.71 — modéré-élevé"
+    source_section: "§12"
+    source_url: ""
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-080"
+    enonce: "EIU Democracy Index 2024: France rétrogradée démocratie défaillante (26e)"
+    source_url: "https://www.eiu.com/n/democracy-index-2024"
+    source_section: "§0"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-081"
+    enonce: "V-Dem Liberal Democracy Index France: 0.799 en 2024, en baisse continue depuis 0.81"
+    source_url: "https://www.v-dem.net/publications/democracy-reports"
+    source_section: "§0"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-082"
+    enonce: "HRW World Report 2025 — France: 3 citations directes sur loi séparatisme, répression ONG, usage excessif force, abus lois anti-terrorisme"
+    source_url: "https://www.hrw.org/world-report/2025/country-chapters/france"
+    source_section: "§0"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-083"
+    enonce: "US State Dept Country Report 2024 — France: 'human rights situation worsened'"
+    source_url: "https://www.state.gov/reports/2024-country-reports-on-human-rights-practices/france"
+    source_section: "§0"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-084"
+    enonce: "Commission européenne juillet 2024: critique explicite des procédures accélérées françaises"
+    source_url: "https://commission.europa.eu/"
+    source_section: "§0"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-085"
+    enonce: "France sous procédure Excessive Deficit Procedure (EDP) depuis le 26 juillet 2024 — souveraineté budgétaire sous tutelle jusqu'en 2029+"
+    source_url: "https://commission.europa.eu/"
+    source_section: "§0"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-086"
+    enonce: "6.8% des QPC transmises par la Cour de cassation au Conseil constitutionnel en 2024"
+    source_url: "https://www.justice.gouv.fr/"
+    source_section: "§0"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-087"
+    enonce: "Depuis 2007, plus de la moitié des textes dans le domaine législatif sont des ordonnances (50%+)"
+    source_url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances"
+    source_section: "§0"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-088"
+    enonce: "Pantouflage: 29% des Mines dans le privé, 62% des IGF, 89% d'augmentation en 2022"
+    source_url: "https://www.ccomptes.fr/fr/publications"
+    source_section: "§0"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Bruno Lasserre"
+    role: "Président du Conseil d'État — gardien du filtre QPC"
+    faisceau: "F1, F3"
+  - nom: "Didier-Roland Tabuteau"
+    role: "Président du Conseil d'État"
+    faisceau: "F1, F3"
+  - nom: "Christophe Soulard"
+    role: "Président du Conseil d'État"
+    faisceau: "F1, F3"
+  - nom: "Vincent Bolloré"
+    role: "Propriétaire du premier groupe médiatique d'extrême droite (CNews, Europe 1, JDD, Paris Match, Praximédia)"
+    faisceau: "F4"
+  - nom: "Geoffroy Lejeune"
+    role: "Transfuge de Valeurs actuelles, nommé au JDD — normalisation du RN dans les rédactions"
+    faisceau: "F4"
+  - nom: "Bruno Le Maire"
+    role: "Ministre Économie 2017-2024, architecte flat tax, suppression ISF, CICE non conditionné — aujourd'hui chez ASML"
+    faisceau: "F5, F7"
+  - nom: "Claire Landais"
+    role: "Secrétaire générale du Gouvernement (SGG) 2020-2024 — véritable législatrice"
+    faisceau: "F1"
+  - nom: "Philippe Wahl"
+    role: "Président de La Poste, ex-IGF — pantouflage"
+    faisceau: "F7"
+  - nom: "François Villeroy de Galhau"
+    role: "Gouverneur Banque de France, ex-IGF"
+    faisceau: "F7"
+  - nom: "Pierre Moscovici"
+    role: "Cour des comptes, ex-Commissaire européen — interface UE/État"
+    faisceau: "F6"
+  - nom: "Christophe Castaner"
+    role: "Ex-ministre de l'Intérieur, aujourd'hui chez un lobbyiste"
+    faisceau: "F7"
+  - nom: "Jean-Baptiste Djebbari"
+    role: "Ex-ministre Transports, aujourd'hui dans une start-up"
+    faisceau: "F7"
+  - nom: "Fleur Pellerin"
+    role: "Saisine HATVP classée sans suite"
+    faisceau: "F3"
+  - nom: "Valérie Létard"
+    role: "Sénatrice, délégation ordonnances, rapports d'information"
+    faisceau: "F1"
+
+causalites:
+  - from: "Ordonnances 50%+ + 49.3×28 + non-ratification 82%"
+    to: "Parlement contourné, débat législatif vidé de sa substance"
+    faisceau: "F1"
+  - from: "17 juges/100k hab + 0.19% PIB justice"
+    to: "94% plaintes viol classées sans suite, délais 12 mois"
+    faisceau: "F2"
+  - from: "Autorités indépendantes nommées par exécutif + budget sous-dimensionné"
+    to: "0 nomination CSM refusée, 0 sanction Arcom Bolloré, HATVP impuissante"
+    faisceau: "F3"
+  - from: "9 milliardaires contrôlent 80% médias"
+    to: "Auto-censure, normalisation extrême droite, espace délibératif capturé"
+    faisceau: "F4"
+  - from: "ISF supprimé, flat tax 30%, niches 80Mds, évasion 80-100Mds"
+    to: "Transfert ascendant, effondrement consentement à l'impôt"
+    faisceau: "F5"
+  - from: "EDP 2024-2029, plafond dépense 0.8-1.2%/an"
+    to: "Souveraineté budgétaire sous tutelle, austérité sans débat"
+    faisceau: "F6"
+  - from: "62% IGF pantouflé, 50% CAC40 grands corps, 80% catégories supérieures"
+    to: "Fusion État-capital, reproduction aristocratique, captures réglementaires"
+    faisceau: "F7"
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "Les ordonnances permettent l'efficacité gouvernementale, le filtre QPC garantit la qualité juridictionnelle, et les règles européennes assurent la stabilité budgétaire. Les grands corps recrutent par concours méritocratique."
+  - position: "Antithèse"
+    argument: "Les données contredisent la thèse officielle: 93% des QPC bloquées, 82% des ordonnances non ratifiées, 9 milliardaires contrôlent 80% des médias, 80% des grands corps issus des catégories supérieures. Le système est verrouillé de l'intérieur."
+  - position: "Synthèse"
+    argument: "Les 7 faisceaux convergent vers un diagnostic unique: l'écart légalité/légitimité a atteint un rapport de 1:5 (ICEBERG 5.2). La France produit statistiquement les mêmes résultats qu'une démocratie illibérale par des moyens subtils, procéduraux, technocratiques."
+
+limites:
+  - "Certaines sources restent des URLs racines (commission.europa.eu/, conseil-etat.fr/) — les documents précis n'ont pas été retrouvés dans le texte"
+  - "Le calcul N/R 5.2 est un construit de l'enquêteur, pas une donnée issue d'une source académique ou officielle"
+  - "83% des sources restent françaises (vs 80% dans V1) — le franco-centrisme est réduit mais pas éliminé"
+  - "Les comparaisons internationales (Hongrie, Pologne, Italie) sont qualitatives dans le tableau §10 — seuls les classements EIU/V-Dem sont chiffrés"
+  - "Certains faits (Fleur Pellerin, détails pantouflage Bruno Le Maire) sont issus de sources journalistiques non citées avec URL précise"
+
+wolves:
+  - nom: "Les présidents du Conseil d'État (Lasserre, Tabuteau, Soulard)"
+    argument: "Le Conseil d'État garantit la qualité juridique des textes et le filtre QPC assure que seules les questions sérieuses atteignent le CC."
+    reponse: "Le double filtre bloque 93.2% des QPC. Le CE est juge et partie: il conseille le gouvernement sur les projets de loi ET filtre les recours citoyens contre ces mêmes lois."
+  - nom: "Les Gardes des Sceaux successifs"
+    argument: "Le budget de la justice a augmenté sous Macron, passant de 7 à 10.8 Md€. La sous-dotation est un héritage historique, pas un choix politique."
+    reponse: "L'augmentation du budget justice ne rattrape pas le retard structurel: 0.19% du PIB vs 0.40% en Allemagne. 17 juges/100k vs 21 de moyenne UE. La sous-dotation chronique est un invariant trans-gouvernemental — donc un choix."
+  - nom: "Bruno Le Maire"
+    argument: "La flat tax et la suppression de l'ISF ont stimulé l'investissement et l'attractivité française. Les revenus fiscaux ont augmenté."
+    reponse: "L'ISF remplacé par l'IFI ne rapporte qu'1/6e des recettes antérieures. La flat tax à 30% impose le capital moins que le travail (TMI max 45%). 80% des niches fiscales bénéficient aux 10% les plus riches. Le transfert est documenté par la Cour des comptes."
+  - nom: "Les négociateurs français à Bruxelles (Bercy, Élysée)"
+    argument: "Les règles budgétaires européennes sont nécessaires à la stabilité de la zone euro. La France les a négociées et acceptées démocratiquement."
+    reponse: "La France a co-construit des règles qui lient les gouvernements futurs sans possibilité de retrait démocratique. L'EDP 2024-2029 place le budget français sous tutelle — la souveraineté budgétaire est un mot vidé de son sens."
+  - nom: "Les grands corps (IGF, Mines, Ponts)"
+    argument: "Le pantouflage est la libre circulation des talents entre public et privé. Les grands corps recrutent par concours — pure méritocratie."
+    reponse: "80% des membres des grands corps viennent des catégories sociales supérieures (stable depuis 1958). 62% des IGF ont pantouflé. 50% du CAC40 est dirigé par d'anciens grands corps. Ce n'est pas de la circulation — c'est de la fusion État-capital."
+
+iceberg:
+  - faisceau: "F1 — Procédure"
+    visible: "49.3 (28 fois)"
+    cache: "Ordonnances 50%+, QPC filter 93%, non-ratification 82%"
+    ratio: "1:8"
+  - faisceau: "F2 — Justice"
+    visible: "94% classement plaintes viol"
+    cache: "Sous-dotation 17 juges/100k, budget 0.19% PIB, délais 12 mois"
+    ratio: "1:6"
+  - faisceau: "F3 — Autorités"
+    visible: "CSM, HATVP, Arcom existent"
+    cache: "Avis non suivis, nominations exécutif, budget sous-dimensionné"
+    ratio: "1:5"
+  - faisceau: "F4 — Médias"
+    visible: "Pluralisme formel"
+    cache: "9 milliardaires 80%, Bolloré 5 médias, auto-censure"
+    ratio: "1:7"
+  - faisceau: "F5 — Fiscal"
+    visible: "ISF supprimé"
+    cache: "80-100Mds évasion, niches 80Mds, CICE 100Mds"
+    ratio: "1:4"
+  - faisceau: "F6 — UE"
+    visible: "Règles communautaires"
+    cache: "Auto-contrainte France, Bercy négociateur, EDP 2029"
+    ratio: "1:3"
+  - faisceau: "F7 — Castes"
+    visible: "Énarques au pouvoir"
+    cache: "62% IGF pantouflé, 50% CAC40 grands corps, HATVP impuissante"
+    ratio: "1:9"
+
+chronologie:
+  - date: "1958"
+    evenement: "Création article 38 (ordonnances) et article 49.3 (Constitution Ve République)"
+    faisceau: "F1"
+  - date: "1992"
+    evenement: "Traité de Maastricht — règles 3% déficit, 60% dette"
+    faisceau: "F6"
+  - date: "1997"
+    evenement: "Pacte de stabilité et de croissance (SGP)"
+    faisceau: "F6"
+  - date: "2012"
+    evenement: "Traité sur la stabilité, la coordination et la gouvernance (TSCG)"
+    faisceau: "F6"
+  - date: "2013-2019"
+    evenement: "CICE: 100 Mds€ de crédits d'impôt non conditionnés"
+    faisceau: "F5"
+  - date: "2018"
+    evenement: "Suppression ISF, création flat tax 30%"
+    faisceau: "F5"
+  - date: "2023"
+    evenement: "Grève de 40 jours au JDD contre nomination Geoffroy Lejeune"
+    faisceau: "F4"
+  - date: "2024"
+    evenement: "EIU France rétrogradée démocratie défaillante (7.99, 26e)"
+    faisceau: "§0, §10"
+  - date: "2024-07-26"
+    evenement: "Conseil UE déclare France en déficit excessif (5.5% PIB, dette 110.6%) — EDP"
+    faisceau: "F6"
+  - date: "2024"
+    evenement: "Nouveau cadre budgétaire UE — Commission approuve plans nationaux"
+    faisceau: "F6"
+  - date: "2029"
+    evenement: "Échéance ramener déficit sous 3%"
+    faisceau: "F6"
+  - date: "1958-2019"
+    evenement: "1004 ordonnances article 38"
+    faisceau: "F1"
+
+domaines:
+  - "Droit constitutionnel"
+  - "Procédure législative"
+  - "Justice et accès au droit"
+  - "Autorités administratives indépendantes"
+  - "Médias et pluralisme"
+  - "Fiscalité et inégalités"
+  - "Union européenne et gouvernance économique"
+  - "Sociologie des élites et pantouflage"
+  - "Démocratie comparée"
+
+urls_prioritaires:
+  - url: "https://www.eiu.com/n/democracy-index-2024"
+    description: "EIU Democracy Index 2024 — France 7.99, démocratie défaillante"
+    head_status: 200
+  - url: "https://www.hrw.org/world-report/2025/country-chapters/france"
+    description: "HRW World Report 2025 — France: loi séparatisme, répression ONG, usage excessif force"
+    head_status: 200
+  - url: "https://www.state.gov/reports/2024-country-reports-on-human-rights-practices/france"
+    description: "US State Dept 2024 — France: human rights situation worsened"
+    head_status: 200
+  - url: "https://www.v-dem.net/publications/democracy-reports"
+    description: "V-Dem Democracy Report 2025 — France 0.799, en baisse"
+    head_status: 200
+  - url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances"
+    description: "Sénat — Suivi des ordonnances, 82% non ratifiées"
+    head_status: 200
+  - url: "https://multinationales.org/fr/enquetes/les-portes-tournantes/portes-tournantes-comment-la-circulation-des-elites-entre-secteurs-public-et"
+    description: "Observatoire des Multinationales — Pantouflage: 50% CAC40 issus grands corps"
+    head_status: 200
+  - url: "https://www.ccomptes.fr/fr/publications"
+    description: "Cour des comptes — Publications: pantouflage, niches fiscales, audits"
+    head_status: 200
+  - url: "https://commission.europa.eu/"
+    description: "Commission européenne — Recommandations France 2024, EDP"
+    head_status: 200
+  - url: "https://www.conseil-constitutionnel.fr/"
+    description: "Conseil constitutionnel — Bilan QPC: 32% de censure quand transmise"
+    head_status: 200
+  - url: "https://www.bruegel.org/"
+    description: "Bruegel — New EU fiscal rules: ajustement >1% PIB pour la France post-2029"
+    head_status: 200
+
+shadow_factor: 4.5
+
+mnemo_queries:
+  - query: "légalité légitimité France écart systémique"
+    results_count: 0
+  - query: "ordonnances 49.3 France parlement contourné"
+    results_count: 0
+  - query: "QPC filter rate 6.8% France 2024"
+    results_count: 0
+  - query: "pantouflage grands corps France CAC40"
+    results_count: 0
+  - query: "EIU democracy index France flawed democracy 7.99"
+    results_count: 0
+  - query: "justice sous-dotation France 17 juges 100k"
+    results_count: 0
+  - query: "Bolloré CNews médias capture France 9 milliardaires"
+    results_count: 0
+  - query: "ISF supprimé flat tax évasion fiscale France"
+    results_count: 0
+  - query: "EDP France 2024 UE souveraineté budgétaire"
+    results_count: 0
+  - query: "reproduction aristocratique grands corps France"
+    results_count: 0
+  note: "Mnemolite UP mais base non indexée pour ce sujet spécifique"

@@ -1,0 +1,180 @@
+enquete_id: "saturation"
+complexity: "SIMPLE"
+date_extraction: "2026-06-13"
+enquete_source: "investigations/2026-06-13_saturation_boycott/2026-06-13_23-30_saturation_boycott_armes_surface_INVESTIGATION.md"
+
+these_centrale: "La saturation administrative et le boycott économique constituent une tactique de résistance asymétrique viable — utiliser massivement les règles du système contre lui-même jusqu'à paralysie — mais n'a jamais été testée à échelle nationale."
+
+theses_implicites:
+  - "L'inflation normative française (1700 décrets/an) crée une vulnérabilité structurelle par surcharge que l'administration ne peut pas absorber"
+  - "La légalité de surface est le bouclier : l'État ne peut pas réprimer massivement des actes conformes au droit"
+  - "Le cadre théorique d'Hirschman (Exit/Voice) combiné à Foucault (contre-conduite) fournit la légitimation académique de la saturation"
+
+faits_atomiques:
+  - id: "F-SAT-001"
+    enonce: "La France produit environ 1700 décrets et 50 lois par an, créant une inflation normative que l'administration ne maîtrise plus."
+    source_section: "§1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-SAT-002"
+    enonce: "La Poll Tax britannique (1990) a enregistré 17,4 millions de refus de paiement, 339 arrestations, 113 blessés, et a conduit à la chute de Thatcher en novembre 1990."
+    source_url: "https://wikipedia.org"
+    source_section: "§1, §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-SAT-003"
+    enonce: "Le boycott des instances de concertation par les syndicats français (CGT, FO, Solidaires, UNSA) est actif depuis 2019, documenté par UNSA et Le Monde en 2026."
+    source_url: "https://lemonde.fr"
+    source_section: "§1, §7"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-SAT-004"
+    enonce: "La grève du zèle (work-to-rule) est documentée comme tactique de résistance administrative depuis les années 1970, cataloguée par Yale Journal of Regulation (2016)."
+    source_url: "https://yalejreg.com"
+    source_section: "§1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-SAT-005"
+    enonce: "Hirschman (1970) fournit le cadre théorique Exit/Voice/Loyalty : le boycott combine désertion (exit) et prise de parole (voice)."
+    source_section: "§1, §8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-SAT-006"
+    enonce: "Le code pénal français (articles 433-1 à 433-26) criminalise l'entrave au fonctionnement des services publics."
+    source_url: "https://legifrance.gouv.fr"
+    source_section: "§6, §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-SAT-007"
+    enonce: "Macron a dénoncé la 'culture de la norme' en septembre 2024 (Acteurs Publics)."
+    source_url: "https://acteurspublics.fr"
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-SAT-008"
+    enonce: "La fracture numérique en France touche 42,8 % de la population active et 9 % des ouvriers en illectronisme, rendant la saturation administrative inégale."
+    source_section: "§13"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-SAT-009"
+    enonce: "L'article 450-1 CP (association de malfaiteurs) pourrait être appliqué à une coordination de saturation."
+    source_section: "§12"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-SAT-010"
+    enonce: "La LOPMI (2023) et la Loi Renseignement (2015) ont élargi le périmètre de répression des actions collectives."
+    source_section: "§7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Hirschman, Albert O."
+    role: "Théoricien du cadre Exit/Voice/Loyalty"
+    faits_lies: ["F-SAT-005"]
+  - nom: "Foucault, Michel"
+    role: "Théoricien du concept de contre-conduite"
+    faits_lies: []
+  - nom: "Thatcher, Margaret"
+    role: "Première ministre britannique renversée par la Poll Tax"
+    faits_lies: ["F-SAT-002"]
+  - nom: "Macron, Emmanuel"
+    role: "Président français, cible potentielle + critique de la norme"
+    faits_lies: ["F-SAT-007"]
+
+causalites:
+  - cause: "F-SAT-001"
+    effet: "F-SAT-008"
+    mecanisme: "L'inflation normative crée une complexité qui exclut les populations à faible littératie numérique"
+  - cause: "F-SAT-002"
+    effet: "F-SAT-009"
+    mecanisme: "Le précédent Poll Tax démontre que le refus fiscal massif + émeutes peut renverser un gouvernement, mais le cadre pénal français verrouille cette option via 450-1"
+
+perspectives_dialectiques:
+  - position: "Thèse — La saturation est une arme asymétrique viable"
+    argument: "Face à un État qui a verrouillé toutes les autres voies (49.3, maintien de l'ordre offensif, criminalisation), la saturation administrative et le boycott économique sont les seules réponses disponibles qui restent dans le cadre légal."
+  - position: "Antithèse — La saturation est une impasse tactique"
+    argument: "Aucun précédent historique de saturation coordonnée à grande échelle n'existe. La tactique épuise sans renverser. L'État peut adapter le droit pénal (LOPMI, 450-1) pour criminaliser la saturation."
+  - position: "Synthèse"
+    argument: "La saturation est une tactique complémentaire, pas une stratégie autonome. Elle gagne du temps et crée un rapport de force, mais nécessite une théorie politique de sortie."
+
+limites:
+  - "Aucun précédent historique de saturation administrative coordonnée à l'échelle nationale"
+  - "Fracture numérique exclut les classes populaires de la participation"
+  - "Le droit pénal évolue rapidement et pourrait criminaliser la saturation"
+  - "Les boycott coûtent cher aux ménages précaires"
+  - "Pas de théorie de la victoire — la saturation paralyse mais ne renverse pas"
+
+wolves:
+  - nom: "Macron / Exécutif"
+    argument: "La saturation est une entrave illégale au fonctionnement des services publics (433-1 CP). L'État a le droit et le devoir de protéger sa capacité à fonctionner."
+    reponse: "La saturation utilise des actes conformes au droit. Criminaliser des actes légaux massifs est politiquement intenable."
+  - nom: "DGSI / Renseignement"
+    argument: "La coordination requise pour une saturation efficace est détectable via la surveillance algorithmique (Loi Renseignement 2015)."
+    reponse: "La coordination acéphalique (modèle ZAD/Soulèvements) rend la décapitation impossible."
+
+iceberg:
+  - "Le seuil de bascule de l'administration française — combien de demandes pour paralyser un service ? — est inconnu et non documenté"
+  - "Résultat Mnemolite: [query=boycott, 1585 mémoires totales, 0 directes sur saturation admin]"
+  - "Résultat Mnemolite: [query=résistance, 1585 mémoires, corpus coordination acéphalique existant]"
+
+chronologie:
+  - date: "1970"
+    evenement: "Hirschman publie Exit, Voice, and Loyalty"
+    source_fait: "F-SAT-005"
+  - date: "1990-11"
+    evenement: "Chute de Thatcher après émeutes Poll Tax"
+    source_fait: "F-SAT-002"
+  - date: "2015"
+    evenement: "Loi Renseignement — surveillance algorithmique"
+    source_fait: "F-SAT-010"
+  - date: "2019-02"
+    evenement: "Début boycott intersyndical CSFPT France"
+    source_fait: "F-SAT-003"
+  - date: "2023"
+    evenement: "Loi LOPMI — maintien de l'ordre offensif"
+    source_fait: "F-SAT-010"
+  - date: "2024-09"
+    evenement: "Macron dénonce 'culture de la norme'"
+    source_fait: "F-SAT-007"
+  - date: "2026-03"
+    evenement: "Boycott revue stratégique FP (CGT/FO)"
+    source_fait: "F-SAT-003"
+
+domaines:
+  - "Résistance civile non-violente"
+  - "Saturation administrative"
+  - "Boycott économique"
+  - "Refus fiscal"
+  - "Grève du zèle"
+
+urls_prioritaires:
+  - url: "https://legifrance.gouv.fr"
+    description: "Code pénal — articles 433-1 à 433-26 (entrave) et 450-1 (association de malfaiteurs)"
+    head_status: 200
+  - url: "https://lemonde.fr"
+    description: "Couverture boycott syndical FP 2026"
+    head_status: 200
+  - url: "https://yalejreg.com"
+    description: "Work-to-rule comme tactique documentée"
+    head_status: 200
+  - url: "https://acteurspublics.fr"
+    description: "Déclaration Macron 'culture de la norme' 2024"
+    head_status: 200
+
+shadow_factor: 2.8
+mnemo_queries:
+  - query: "boycott économique saturation administrative paralysie État"
+    results_count: 0
+  - query: "résistance"
+    results_count: 5
+    notes: "1585 mémoires totales dans Mnemolite, corpus coordination acéphalique existant"

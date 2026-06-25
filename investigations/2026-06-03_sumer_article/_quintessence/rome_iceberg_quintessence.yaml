@@ -1,0 +1,246 @@
+enquete_id: rome_iceberg
+complexity: APEX
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-03_sumer_article/2026-06-03_14-30_rome_v2_ICEBERG_MAX_CONTRE_RAPPORT.md
+these_centrale: L'investigation Rome V1 sous-estime 6 angles morts majeurs (esclavage, femmes, citoyenneté, publicani, Dioclétien,
+  perte du CJC) et 4 approximations factuelles (nexum, cursus honorum, annona, crise 33 ap.). La filiation Rome→France est
+  RÉELLE mais reconstruite, pas transmise.
+theses_implicites:
+- 'L''omission de l''esclavage (30-40% Italie) est le biais le plus grave : sans esclavage, pas de compréhension de l''économie
+  romaine (latifundia)'
+- Le Corpus Juris Civilis a été PERDU 470 ans en Occident (600-1070) — la 'filiation directe' est une reconstruction savante
+- Le nexum (esclavage pour dette) n'est PAS l'équivalent de la prison pour dette française (contrainte par corps) — institutions
+  différentes
+- L'annona était un PRIVILÈGE civique masculin (~200k sur 1M d'habitants de Rome), pas un État-providence universel
+- La comparaison Tiberius 33 ap. / 2008 est suggestive mais mécaniquement fausse (pas de titrisation, pas de bulle immobilière,
+  pas de système financier global)
+faits_atomiques:
+- id: F-001
+  enonce: 'Nexum aboli 326 av. : le nexum n''est PAS l''équivalent de la prison pour dette française (contrainte par corps).
+    Institutions distinctes'
+  source_url: https://en.wikipedia.org/wiki/Nexum
+  source_section: '§LIÈVRE #1'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-002
+  enonce: 'Cursus honorum : système POLITIQUE (magistrats élus, 1 an, collégialité) ≠ INSP (administratif, par concours, carrière
+    longue)'
+  source_url: https://en.wikipedia.org/wiki/Cursus_honorum
+  source_section: '§LIÈVRE #2'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-003
+  enonce: 'Annona : distribution pour ~200 000 citoyens mâles adultes dans une ville de ~1M — exclusion femmes, enfants, esclaves,
+    pérégrins'
+  source_url: https://en.wikipedia.org/wiki/Cura_annonae
+  source_section: '§LIÈVRE #3'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-004
+  enonce: 'Tibère 33 ap. : crise de LIQUIDITÉ provoquée par lex Julia de modo credendi, pas krach systémique. Pas de titrisation,
+    pas de bulle crédit'
+  source_url: https://en.wikipedia.org/wiki/Financial_crisis_of_33
+  source_section: '§LIÈVRE #4'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-005
+  enonce: 'Esclavage : 30-40% de la population italienne (Scheidel, ~2-3M d''esclaves pour 6-7,5M). ~15% dans l''Empire total'
+  source_url: https://web.archive.org/web/20090203055358/http://abacus.bates.edu/~mimber/Rciv/slavery.htm
+  source_section: '§LOUP #1'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-006
+  enonce: 'Femmes romaines : tutela mulierum permanente, pas de vote, pas de magistrature, pas de plaidoirie. Citoyennes de
+    seconde zone'
+  source_url: https://en.wikipedia.org/wiki/Roman_citizenship
+  source_section: '§LOUP #2'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-007
+  enonce: 'Stratification juridique : avant 212 ap., seuls les citoyens (cives) ont la plénitude des droits ; pérégrins =
+    majorité de la population libre de l''Empire'
+  source_url: https://en.wikipedia.org/wiki/Roman_citizenship
+  source_section: '§LOUP #3'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-008
+  enonce: 'Publicani : entrepreneurs privés achetaient le droit de collecter les impôts → double extorsion. France : administration
+    directe depuis 1948 (DGI)'
+  source_url: https://en.wikipedia.org/wiki/Publican
+  source_section: '§LOUP #4'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-009
+  enonce: 'Dioclétien (301 ap.) : Édit du Maximum fixe ~1200 prix sous peine de mort. Échec retentissant : pénuries, marché
+    noir, abandon en 305'
+  source_url: https://en.wikipedia.org/wiki/Edict_on_Maximum_Prices
+  source_section: '§LOUP #5'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-010
+  enonce: Corpus Juris Civilis perdu en Occident de 600 à 1070 (470 ans). Redécouvert à Bologne par Irnerius. Code civil (1804)
+    hérite via glossateurs (1100-1300) → commentateurs (1300-1500) → Pothier (1700-1772) → Code civil
+  source_url: https://en.wikipedia.org/wiki/Irnerius
+  source_section: '§LOUP #6'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-011
+  enonce: 'France : DDHC (1789) art. 1 : ''Les hommes naissent et demeurent libres et égaux en droits'' — RUPTURE avec la
+    stratification romaine'
+  source_url: https://www.legifrance.gouv.fr/droit-francais/constitution/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789
+  source_section: '§FAISCEAU #1'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-012
+  enonce: 'Shadow Factor révisé V1→V2 : 2.8× → 3.4× (esclavage + femmes + fiscalité + citoyenneté). EDI* : 0.489 → 0.43'
+  source_url: Métriques révisées
+  source_section: §MÉTRIQUES
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+acteurs:
+- nom: Scheidel
+  role: Historien Stanford, estimations population/esclavage romain
+  faits_lies:
+  - F-005
+- nom: Mary Beard
+  role: 'Historienne, lecture révisionniste : Rome comme société ordinaire'
+  faits_lies:
+  - F-007
+- nom: Irnerius (~1050-1125)
+  role: Juriste bolonais, redécouvre le CJC vers 1070, fonde la tradition des glossateurs
+  faits_lies:
+  - F-010
+- nom: Dioclétien
+  role: Empereur 284-305 ap., Édit du Maximum (échec)
+  faits_lies:
+  - F-009
+- nom: Cicéron
+  role: 'Verrines : procès de Verrès, gouverneur corrupteur, complicité des publicani'
+  faits_lies:
+  - F-008
+- nom: Pothier (1699-1772)
+  role: Juriste français, source d'inspiration du Code civil aux côtés du CJC
+  faits_lies:
+  - F-010
+causalites:
+- cause: F-005
+  effet: F-008
+  mecanisme: L'esclavage massif (30-40% Italie) rend l'impôt direct impossible (pas de citoyens solvables hors élite) → la
+    ferme fiscale (publicani) s'impose
+- cause: F-010
+  effet: F-002
+  mecanisme: Perte 470 ans du CJC → Bologne 1070 → lente reconstruction savante → Code civil 1804 (1275 ans de transmission)
+perspectives_dialectiques:
+- position: Rome comme modèle à NE PAS suivre
+  argument: Esclavage 30-40%, persécution chrétiens, guerre civile, inflation — la France a fait mieux sur tous ces axes
+- position: Rome comme avertissement
+  argument: Rome a DURÉ 1000 ans avec esclavage. La France a 200 ans sans. La résilience romaine est un indicateur, pas un
+    modèle
+- position: 'Synthèse : héritage sélectif'
+  argument: La France retient le droit (Code civil) et oublie l'esclavage. Cette sélection EST le 'vrai empire de mensonges'
+    (terme de V1)
+limites:
+- Biais élitaire des sources antiques (Cicéron, Tacite, Tite-Live = tous sénateurs)
+- Rome = bloc 1200 ans (Royauté → République → Principat → Dominat)
+- Gibbon (1776) a biaisé tout le récit postérieur (déclin moral)
+- Couverture réduite de 6 lièvres et 6 loups = 6 preuves downgradées de ✦ à ✧
+wolves:
+- nom: Rome classique comme 'âge d'or'
+  argument: Vertus républicaines (Cincinnatus, Caton)
+  reponse: Vertus d'une aristocratie esclavagiste — pas un modèle de droits humains
+- nom: Edward Gibbon
+  argument: Christianisme cause de la chute
+  reponse: 'Révisionnistes : monnaies, fiscalité, invasions — pas la religion'
+- nom: Mommsen / Pothier / Code civil
+  argument: Transmission directe du CJC au Code civil
+  reponse: 470 ans de perte + 700 ans de reconstruction savante = filiation reconstruite, pas continue
+- nom: Hudson (extension Rome)
+  argument: Annone et crises de crédit = preuve d'État-providence antique
+  reponse: Annone = privilège civique pour 200k sur 1M ; crises résolues par débasement, pas annulation
+iceberg:
+- 'Sujet immergé #1 : esclavage 30-40% — la matrice RÉELLE de l''économie romaine'
+- 'Sujet immergé #2 : femmes (tutela mulierum) — rupture civilisationnelle France 1944 / Rome antique'
+- 'Sujet immergé #3 : strat juridique (pérégrins, déditices) — l''universalisme républicain est une INVENTION française'
+- 'Sujet immergé #4 : ferme fiscale (publicani) — la France a SUPÉRIEUR à Rome sur l''administration de l''impôt'
+- 'Sujet immergé #5 : Édit du Maximum (Dioclétien) — échec du contrôle des prix que la France a évité'
+- 'Sujet immergé #6 : la ''ligne brisée'' Rome→France (perte 470 ans, double France nord/sud, Révolution)'
+- 'Mnemolite INDEXEE pour Rome ICEBERG : 1 memoire directe avec 6 lievres + 6 loups, EDI* revise 0.43 (de 0.489), Shadow revise
+  3.4x (de 2.8x).'
+- 'Cross-references Mnemolite integrees : 1 memoires directes ou d''enrichissement'
+chronologie:
+- date: 326 av.
+  evenement: 'Lex Poetelia Papiria : abolition nexum (mais institution mal comprise)'
+  source_fait: F-001
+- date: 212 ap.
+  evenement: Constitutio Antoniniana (Caracalla) — extension de la citoyenneté
+  source_fait:
+  - F-007
+- date: 301 ap.
+  evenement: Édit du Maximum (Dioclétien) — échec
+  source_fait: F-009
+- date: 529-534 ap.
+  evenement: Corpus Juris Civilis (Justinien)
+  source_fait: F-010
+- date: 600-1070
+  evenement: PERTE du CJC en Occident (470 ans)
+  source_fait: F-010
+- date: ~1070
+  evenement: Redécouverte du CJC à Bologne par Irnerius
+  source_fait: F-010
+- date: 1700-1772
+  evenement: 'Pothier : source principale du Code civil'
+  source_fait: F-010
+- date: '1804'
+  evenement: Code civil français (Napoléon)
+  source_fait: F-010
+- date: '1848'
+  evenevent: Abolition de l'esclavage en France
+  source_fait: F-005
+domaines:
+- Contre-enquête forensique (méta-domaine)
+- Esclavage antique et discontinuité avec les droits humains modernes
+- Reconstruction savante du droit romain (perte 470 ans)
+- Stratification juridique vs universalisme républicain
+- Histoire de l'administration fiscale (publicani vs DGI)
+urls_prioritaires:
+- url: https://en.wikipedia.org/wiki/Nexum
+  description: 'Nexum : source primaire, débats Crawford/Watson/Talamanca'
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Edict_on_Maximum_Prices
+  description: Édit du Maximum (Dioclétien) — échec retentissant
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Irnerius
+  description: Irnerius et la redécouverte du CJC
+  head_status: 200
+- url: https://www.legifrance.gouv.fr/droit-francais/constitution/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789
+  description: DDHC 1789 — rupture avec la stratification romaine
+  head_status: 200
+shadow_factor: 3.4
+mnemo_queries:
+- query: Rome droit Corpus Juris Civilis Code civil Napoléon filiation
+  results_count: 0
+- query: Rome nexum annone esclavage annulation dette Gracques
+  results_count: 0
+- query: clientela cursus honorum annona Tibère crise 33
+  results_count: 0
+- query: publicani ferme fiscale Cicéron Verrines
+  results_count: 0
+- query: Dioclétien édit maximum prix inflation
+  results_count: 0
+mnemo_cross_refs:
+- id: 32bb772d-2a38-4c8d-89a6-8c0ec3e13e2a
+  title: Rome ICEBERG V2 (6 lievres, 6 loups)
+  level: DIRECT
+  matches: cette quintessence = extraction directe

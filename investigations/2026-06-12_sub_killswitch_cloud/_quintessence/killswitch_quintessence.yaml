@@ -1,0 +1,146 @@
+enquete_id: "killswitch"
+complexity: "MEDIUM"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_sub_killswitch_cloud/2026-06-12_12-00_killswitch_cloud_infrastructure_adverse_INVESTIGATION.md"
+
+these_centrale: "La coordination acephale est structurellement dependante d'une infrastructure technique possedee par l'adversaire (LLMs, GitHub, cloud). Le kill-switch est documente (Parler/AWS 2021) et applicable au corpus lui-meme. La seule issue est la strategie offline-first : reserver le numerique a la logistique secondaire, le strategique au presentiel."
+
+theses_implicites:
+  - "Le corpus Truth Engine est lui-meme vulnerable : produit via des LLMs proprietaires (Anthropic, OpenAI) qui peuvent le desactiver par application de leurs ToS."
+  - "Les alternatives decentralisees (Matrix, Mastodon, IPFS) introduisent d'autres points de defaillance : serveur saisi, administrateur compromis, replication insuffisante."
+  - "La compromission hardware (Intel ME, AMD PSP) rend toute garantie de securite impossible : l'adversaire possede le kill-switch au niveau du silicium."
+
+faits_atomiques:
+  - id: "F-kill-001"
+    enonce: "Le deplatforming de Parler par AWS (janvier 2021) demontre l'efficacite du kill-switch infrastructure : retrait de l'hebergement = plateforme instantanement invisible."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 1
+    glyphe: "✦"
+  - id: "F-kill-002"
+    enonce: "GitHub (Microsoft) a restreint l'acces aux utilisateurs de pays sous sanctions (Iran, Syrie, Crimee) par compliance juridique automatisee basee sur l'IP."
+    source_url: null
+    source_section: "par1"
+    head_status: null
+    tier: 1
+    glyphe: "✦"
+  - id: "F-kill-003"
+    enonce: "Les ToS des LLMs proprietaires (OpenAI, Anthropic) interdisent l'usage pour des activites jugees 'illegales' ou 'nuisibles' incluant les mouvements politiques contestataires."
+    source_url: null
+    source_section: "par2"
+    head_status: null
+    tier: 1
+    glyphe: "✦"
+  - id: "F-kill-004"
+    enonce: "Le corpus Truth Engine est produit avec des LLMs proprietaires (Claude/Anthropic via Codebuff) : le kill-switch s'applique au corpus lui-meme."
+    source_url: null
+    source_section: "par2"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-kill-005"
+    enonce: "Les alternatives decentralisees (Matrix, Mastodon, IPFS, Briar) offrent une resistance superieure au kill-switch centralise mais introduisent leurs propres points de defaillance : serveur saisi, administrateur compromis, replication insuffisante."
+    source_url: null
+    source_section: "par3"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-kill-006"
+    enonce: "Le self-hosting genere du trafic tracable par les FAI et les services de renseignement (loi Renseignement 2015) : il remplace la dependance au cloud par une exposition physique directe."
+    source_url: null
+    source_section: "par3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-kill-007"
+    enonce: "Les processeurs modernes (Intel ME, AMD PSP) contiennent des co-processeurs autonomes capables de lire tout le contenu de la RAM, du clavier et de l'ecran independamment de l'OS."
+    source_url: null
+    source_section: "par4"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-kill-008"
+    enonce: "Les lanceurs d'alerte privilegient des materiels a firmware ouvert (Coreboot/Libreboot, RISC-V) pour minimiser les couches proprietaires opaques — competences et cout inaccessibles a la majorite."
+    source_url: null
+    source_section: "par4"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Amazon Web Services (AWS)"
+    role: "Fournisseur cloud — a actionne le kill-switch contre Parler (2021)"
+    faits_lies: ["F-kill-001"]
+  - nom: "GitHub / Microsoft"
+    role: "Plateforme de code — applique les sanctions americaines automatiquement"
+    faits_lies: ["F-kill-002"]
+  - nom: "OpenAI / Anthropic"
+    role: "Fournisseurs de LLMs proprietaires — ToS interdisant les usages contestataires"
+    faits_lies: ["F-kill-003", "F-kill-004"]
+
+causalites:
+  - cause: "F-kill-003"
+    effet: "F-kill-004"
+    mecanisme: "Les ToS des LLMs s'appliquent au corpus lui-meme. La desactivation entrainerait la perte d'acces aux outils et la confiscation des historiques comme preuves exploitables."
+  - cause: "F-kill-005"
+    effet: "F-kill-006"
+    mecanisme: "Face aux limites des alternatives decentralisees, le self-hosting est tente — mais il cree une exposition physique tracable qui remplace la dependance cloud."
+
+perspectives_dialectiques:
+  - position: "These"
+    argument: "Le kill-switch est un risque existentiel : toute coordination numerique est prisonniere d'une infrastructure que l'adversaire possede ou peut contraindre."
+  - position: "Antithese"
+    argument: "Le kill-switch est theorique mais inutilise contre des mouvements politiques en democratie liberale. Parler a ete deplatforme apres une insurrection armee, pas pour contestation politique."
+  - position: "Synthese"
+    argument: "Le niveau de compromission acceptable depend de l'objectif. Pour la production theorique (le corpus), le risque est acceptable. Pour la coordination operationnelle, il ne l'est pas. La strategie offline-first est la mitigation."
+
+limites:
+  - "Le kill-switch n'a pas de precedent direct contre des mouvements politiques en France."
+  - "L'argument peut servir de rationalisation a l'inaction (defaitisme methodologique)."
+  - "Les alternatives decentralisees sont documentees mais non testees a l'echelle du corpus."
+
+wolves:
+  - nom: "Argument paralysant"
+    argument: "Si toute infrastructure est compromise, toute coordination est impossible — ce qui renforce la paralysie que l'audit P3-P5 denonce comme defaitisme methodologique."
+    reponse: "Recevable. La distinction critique : compromission acceptable pour la production theorique, inacceptable pour la coordination operationnelle."
+  - nom: "Precedent faible"
+    argument: "Le kill-switch n'a jamais ete actionne contre des mouvements de contestation politique en France. Le risque est theorique, pas avere."
+    reponse: "Partiellement recevable. Mais la LOPMI 2023 et le DSA creent le cadre juridique pour des deplatformings cibles futurs."
+
+iceberg:
+  - "Migration du corpus vers des LLMs auto-heberges (Ollama/Mistral) ou vers du self-hosting Git — recommandation implicite mais non formulee."
+  - "Mnemolite: UP (36942 memoires) mais API search en erreur 500."
+  - "Sujet immerge : quel est le cout de la migration offline-first pour le corpus lui-meme ?"
+
+chronologie:
+  - date: "2021-01"
+    evenement: "Deplatforming de Parler par AWS (post-6 janvier)"
+    source_fait: "F-kill-001"
+  - date: "2023"
+    evenement: "LOPMI 2023 : cadre juridique pour deplatformings cibles"
+    source_fait: "F-kill-003"
+  - date: "2025-11"
+    evenement: "Figement du KERNEL — production via LLMs proprietaires"
+    source_fait: "F-kill-004"
+
+domaines:
+  - "Securite informatique"
+  - "Infrastructure cloud"
+  - "OPSEC numerique"
+  - "Droit des plateformes"
+
+urls_prioritaires:
+  - url: null
+    description: "EFF sur Intel Management Engine — source primaire securite hardware"
+    head_status: null
+
+shadow_factor: 3.2
+
+mnemo_queries:
+  - query: "coordination acephale"
+    results_count: 0
+    error: "API error 500"
+  - query: "economie coordination victoire financement"
+    results_count: 0
+    error: "API error 500"

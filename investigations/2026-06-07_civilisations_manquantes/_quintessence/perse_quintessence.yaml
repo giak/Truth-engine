@@ -1,0 +1,169 @@
+enquete_id: perse_achemenide
+complexity: MEDIUM
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-07_civilisations_manquantes/2026-06-07_15-30_perse_achemenide_INVESTIGATION.md
+these_centrale: L'Empire perse achéménide (559-330 av. J.-C.) est le premier empire multi-ethnique à pratiquer la tolérance
+  religieuse comme STRATÉGIE DE CONTRÔLE, pas comme principe moral. Son système de satrapies (20 provinces autonomes)
+  et d'inspecteurs itinérants ('Yeux et Oreilles du Roi') préfigure le fédéralisme et l'inspection des finances — mais
+  l'absence totale de code juridique unifié en fait un contre-modèle à Rome et à la France.
+theses_implicites:
+- La tolérance religieuse perse est de la realpolitik impériale, pas un principe — le Cylindre de Cyrus n'est PAS une déclaration des droits de l'homme.
+- Les satrapies (autonomie locale) + inspecteurs itinérants (surveillance centrale) = équilibre des pouvoirs avant la lettre.
+- L'absence de code juridique unifié est la fragilité structurelle ultime de l'empire achéménide.
+- La Route Royale (2500 km, 111 relais, 7 jours) est le système nerveux de l'empire — l'infrastructure = pouvoir.
+- La Perse est le CONTRE-MODÈLE de Rome (qui uniformise) et de la France (jacobine).
+faits_atomiques:
+- id: F-PER-001
+  enonce: Cyrus le Grand conquiert Babylone sans violence et émet le Cylindre de Cyrus autorisant le retour des peuples déportés
+  source_url: https://www.britishmuseum.org/collection/object/W_1880-0617-1941
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: "✦"
+- id: F-PER-002
+  enonce: Darius Ier divise l'empire en environ 20 satrapies (provinces) gouvernées par des satrapes
+  source_url: https://www.iranicaonline.org/articles/achaemenid-satrapies/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-PER-003
+  enonce: La Route Royale s'étend sur 2500 km de Suse à Sardes avec 111 relais de poste
+  source_url: https://www.britannica.com/topic/Achaemenian-Empire
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-PER-004
+  enonce: Le tribut annuel total de l'empire est estimé à 14560 talents d'argent
+  source_url: https://www.livius.org/articles/person/darius-the-great/darius-the-great-organizing-the-empire/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-PER-005
+  enonce: Les 'Yeux et Oreilles du Roi' sont des inspecteurs itinérants qui surveillent les satrapes indépendamment
+  source_url: https://www.iranicaonline.org/articles/achaemenid-satrapies/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-PER-006
+  enonce: Darius introduit le daric (pièce d'or) et standardise les poids et mesures dans tout l'empire
+  source_url: https://www.britannica.com/topic/Achaemenian-Empire
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-PER-007
+  enonce: L'empire achéménide englobe environ 44% de la population mondiale à son apogée sous Xerxès Ier
+  source_url: https://www.worldhistory.org/Achaemenid_Empire/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-PER-008
+  enonce: Les satrapies conservent leurs lois, langues et cultes locaux — l'administration impériale utilise l'araméen comme lingua franca
+  source_url: https://www.iranicaonline.org/articles/achaemenid-satrapies/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-PER-010
+  enonce: Les Tablettes de Persépolis documentent la gestion quotidienne des rations, salaires et tributs de l'administration impériale
+  source_url: https://oi.uchicago.edu/research/projects/persepolis-fortification-archive
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: "✦"
+- id: F-PER-012
+  enonce: L'empire achéménide tombe en 330 av. face à Alexandre le Grand — la tolérance multi-ethnique n'a PAS protégé l'empire
+  source_url: https://www.britannica.com/topic/Achaemenian-Empire
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+acteurs:
+- nom: Cyrus le Grand
+  role: Fondateur (559-530 av.), Cylindre de Cyrus, tolérance religieuse
+  faits_lies:
+  - F-PER-001
+- nom: Darius Ier
+  role: Organisateur (522-486 av.), satrapies, daric, Route Royale
+  faits_lies:
+  - F-PER-002
+  - F-PER-006
+- nom: Satrapes
+  role: Gouverneurs provinciaux avec autonomie locale
+  faits_lies:
+  - F-PER-002
+- nom: 'Yeux et Oreilles du Roi'
+  role: Inspecteurs itinérants indépendants de la hiérarchie provinciale
+  faits_lies:
+  - F-PER-005
+causalites:
+- cause: F-PER-002
+  effet: F-PER-005
+  mecanisme: La délégation aux satrapes crée un risque de capture régionale → les inspecteurs itinérants sont le contrepoids
+- cause: F-PER-001
+  effet: F-PER-012
+  mecanisme: La tolérance multi-ethnique comme stratégie de contrôle ne protège pas l'empire d'un choc militaire externe (Alexandre, 330 av.)
+perspectives_dialectiques:
+- position: Thèse — Continuité administrative
+  argument: La Perse invente le fédéralisme avant la lettre. Satrapies autonomes, inspecteurs itinérants, lingua franca — tout préfigure les États fédéraux modernes.
+- position: Antithèse — Rupture : la tolérance comme realpolitik
+  argument: La tolérance perse n'est PAS un principe philosophique mais une TECHNIQUE DE GOUVERNANCE pour un empire trop vaste pour être administré uniformément.
+- position: Synthèse — Angle mort : l'absence de code juridique
+  argument: Contrairement à Sumer, Rome ou la France, la Perse n'a PAS de code juridique unifié. Le roi est la loi. Cette absence est la fragilité ultime.
+limites:
+- Sources orientées : l'essentiel vient de sources grecques (Hérodote) ou babyloniennes
+- Le Cylindre de Cyrus est surinterprété comme 'déclaration des droits de l'homme'
+- Aucun code juridique achéménide n'a survécu
+wolves:
+- nom: Edward Said / Orientalisme
+  argument: Le 'despotisme oriental' est une construction occidentale qui masque la sophistication administrative perse
+  reponse: La Perse n'était ni despotique ni démocratique — c'était un empire pragmatique avec tolérance stratégique
+- nom: Michael Hudson
+  argument: L'absence d'annulation de dette en Perse confirme que l'andurarum est sumérien, pas universel
+  reponse: Exact. La Perse confirme que l'annulation de dette est un trait mésopotamien contingent
+iceberg:
+- Sujet immergé #1 : La Perse a 2 ✦ (British Museum, Persepolis Archive) mais pas de sources perses directes (Behistun, Naqsh-e Rostam)
+- Sujet immergé #2 : La tolérance perse coexiste avec la répression violente des révoltes (Babylone, Égypte, Ionie)
+chronologie:
+- date: 559 av.
+  evenement: Cyrus II monte sur le trône d'Anshan
+  source_fait: F-PER-001
+- date: 539 av.
+  evenement: Conquête de Babylone, Cylindre de Cyrus
+  source_fait: F-PER-001
+- date: 522-486 av.
+  evenement: Règne de Darius Ier — organisation de l'empire
+  source_fait: F-PER-002
+- date: c. 518 av.
+  evenement: Création des satrapies
+  source_fait: F-PER-002
+- date: c. 500 av.
+  evenement: Route Royale achevée, tribut annuel 14560 talents
+  source_fait: F-PER-003
+- date: 330 av.
+  evenement: Chute face à Alexandre le Grand
+  source_fait: F-PER-012
+domaines:
+- Administration : satrapies autonomes + inspection centrale = équilibre des pouvoirs
+- Infrastructure : Route Royale 2500 km = colonne vertébrale de l'empire
+- Religion : tolérance stratégique, pas principe — Cyrus choisi par Marduk ET Ahura Mazda
+- Économie : daric (monnaie d'or standardisée), tribut annuel fixe par satrapie
+- Droit : absence de code juridique unifié — le roi est la loi
+urls_prioritaires:
+- url: https://www.britishmuseum.org/collection/object/W_1880-0617-1941
+  description: Cylindre de Cyrus — source primaire
+  head_status: 200
+- url: https://oi.uchicago.edu/research/projects/persepolis-fortification-archive
+  description: Tablettes de Persépolis — archives comptables impériales
+  head_status: 200
+- url: https://www.iranicaonline.org/articles/achaemenid-satrapies/
+  description: Satrapies achéménides — structure administrative
+  head_status: 200
+shadow_factor: 3.8
+mnemo_queries: []
+mnemo_cross_refs: []

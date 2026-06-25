@@ -1,0 +1,292 @@
+civ: "IC-C"
+complexity: "SIMPLE"
+date_extraction: "2026-06-07"
+enquete_source: "investigations/2026-06-03_sumer_article/2026-06-03_14-45_chine_v2_ICEBERG_MAX_CONTRE_RAPPORT.md"
+
+these_centrale: "L'investigation V1 sur la Chine impériale souffrait de six biais majeurs (lièvres) et de six angles morts structurels (loups) qui réduisent sa confiance de 77% à 50% et son verdict de « OUI 5/7 » à « OUI conditionnel 3/7 » ; le parallèle Chine-France reste réel mais 3.8× plus complexe que la première version ne le suggérait."
+
+theses_implicites:
+  - "Le mythe du keju comme « méritocratie » est une construction des Lumières (Voltaire, Quesnay) reprise par la propagande chinoise moderne, et non une réalité statistique de l'époque Ming/Qing"
+  - "Le biais orientaliste des sources occidentales (Elman, Kuhn, Spence, Maddison) projette les catégories européennes sur des institutions chinoises qui fonctionnaient sur d'autres logiques"
+  - "Le parti-État chinois (100M+ de membres du PCC) constitue une fusion bureaucratie/parti unique qui rend toute comparaison administrative avec la France structurellement asymétrique"
+
+faits_atomiques:
+  - id: "F-IC-C001"
+    enonce: "Le keju (~605 ap., dynastie Sui) n'était PAS une méritocratie au sens moderne : Elman (Princeton, 2000) montre que les origines sociales des jinshi Ming/Qing corrélaient « très étroitement » avec l'éducation privée dans les écoles de lignage, l'absence d'écoles publiques en faisant un filtre de classe autant qu'un concours de compétence"
+    source_url: "https://en.wikipedia.org/wiki/Imperial_examination"
+    source_section: "LIÈVRE #1"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-IC-C002"
+    enonce: "Ming/Qing (1370-1905) : environ 25 000 jinshi sur 300 ans, soit ~80 par an, pour une population de 150 à 300M d'habitants, un ratio d'environ 1 jinshi pour 2 à 4M d'habitants, qui démontre un système de reproduction des élites lettrées et non de mobilité sociale ascendante"
+    source_url: ""
+    source_section: "LIÈVRE #1"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+  - id: "F-IC-C003"
+    enonce: "Le PIB/hab Song de 600 dollars (Maddison, 2001) est contesté par Broadberry (2015, 2021) qui situe le GDP chinois médiéval au même niveau ou en dessous de l'Europe médiévale, faisant de la « grande divergence » un phénomène du XIVe-XVe siècle et non du XVIIIe"
+    source_url: "https://en.wikipedia.org/wiki/Great_Divergence"
+    source_section: "LIÈVRE #2"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-IC-C004"
+    enonce: "La production de fer Song de 125 000 tonnes/an (Hartwell) a été critiquée par Broadberry comme une extrapolation à partir de quelques fourneaux ; les données chinoises pré-modernes présentent ainsi des marges d'erreur de 50 à 100%"
+    source_url: ""
+    source_section: "LIÈVRE #2"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+  - id: "F-IC-C005"
+    enonce: "La Chine impériale tardive (1560-1950) disposait de systèmes complexes de droits fonciers, y compris des droits à deux étages (topsoil/subsoil, chengbang), transférables, héritables et protégés par les tribunaux sous les Qing à Taïwan : une forme fonctionnelle de propriété privée, distincte du dominium romain"
+    source_url: "https://en.wikipedia.org/wiki/Land_reform_in_China"
+    source_section: "LIÈVRE #3"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-IC-C006"
+    enonce: "Le système des greniers ever-normal Qing (1650-1850) a connu des échecs massifs : corruption, grain pourrissant dans des entrepôts mal entretenus, accaparement par les élites locales, effondrement au XIXe siècle ; les famines des rébellions du Lotus Blanc (1796-1804) et Taiping (1850-1864) ont fait environ 20M morts de faim"
+    source_url: "https://en.wikipedia.org/wiki/Chinese_granary_system"
+    source_section: "LIÈVRE #4"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-IC-C007"
+    enonce: "Le jiaozi originel (998-1022) était émis par des marchands privés de Chengdu, et non par l'État Song ; c'était un certificat de dépôt convertible en monnaie métallique (fer) avec une réserve de 28% (360 000 guan) et un plafond d'émission de 1,25M de guan, soit un « gold standard primitif » et non une monnaie fiduciaire d'État"
+    source_url: "https://en.wikipedia.org/wiki/Jiaozi_(currency)"
+    source_section: "LIÈVRE #5"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-IC-C008"
+    enonce: "Le huizi (1160, Song du Sud), émis par le Ministère des Finances (Hubu) avec cours forcé partiel, est plus proche d'une monnaie fiduciaire moderne que le jiaozi ; le huizi a fini en hyperinflation avec une valeur de 5% de son cours initial en 1215"
+    source_url: "https://en.wikipedia.org/wiki/Huizi_(currency)"
+    source_section: "LIÈVRE #5"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-IC-C009"
+    enonce: "Le Social Credit System réel (2025) n'est PAS un score social unique (mythe médiatique) : c'est un ensemble fragmenté de bases de données (credit scoring, liste noire des « personnes déshonorées » 失信被执行人, points comportementaux expérimentaux) plus proche d'un Experian/Equifax étendu que du « Big Brother »"
+    source_url: "https://en.wikipedia.org/wiki/Social_Credit_System"
+    source_section: "LIÈVRE #6"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-IC-C010"
+    enonce: "Le massacre de Tiananmen (3-4 juin 1989), estimé « de plusieurs centaines à quelques milliers » de morts (Wikipedia), avec une basse hospitalière à environ 500 morts et plus de 3 000 blessés, a été totalement omis de l'investigation V1, qui saute directement de la Révolution culturelle (1966-1976) à la Réforme ouverture (1978)"
+    source_url: "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests"
+    source_section: "LOUP #1"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+  - id: "F-IC-C011"
+    enonce: "Zhao Ziyang, secrétaire général du PCC ayant soutenu les étudiants de Tiananmen, a été placé en résidence surveillée jusqu'à sa mort en 2005, soit 16 ans de détention de fait pour dissidence politique envers la ligne du Parti"
+    source_url: ""
+    source_section: "LOUP #1"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+  - id: "F-IC-C012"
+    enonce: "Le Great Firewall (金盾工程, GFW), déployé à partir de 2000, bloque Google, Facebook, Twitter/X, YouTube, Instagram, Wikipédia (partiellement), The New York Times, BBC et des milliers d'autres sites ; les VPN sont officiellement interdits depuis 2017 et le DPI filtre activement les protocoles OpenVPN, WireGuard et Shadowsocks"
+    source_url: "https://en.wikipedia.org/wiki/Golden_Shield_Project"
+    source_section: "LOUP #2"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-IC-C013"
+    enonce: "Le Parti communiste chinois compte 100M+ de membres en 2025 (~7% de la population) et fonctionne comme un parti-État : Comité central, Politburo et Secrétariat général contrôlent toutes les nominations gouvernementales via la nomenklatura ; les fonctionnaires chinois doivent être membres du PCC pour accéder aux postes supérieurs, contre 5,7M de fonctionnaires apolitiques en France"
+    source_url: ""
+    source_section: "LOUP #4"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+  - id: "F-IC-C014"
+    enonce: "Le miracle économique chinois (1978-2024) représente la plus grande réduction de pauvreté de l'histoire humaine : PIB passé de 150B$ à 18,74T$ (×125 en 46 ans), pauvreté extrême de 88% de la population (1981) à 0% (2020) selon la Banque mondiale, soit 800M de personnes sorties de la pauvreté, espérance vie de ~67 ans (1981) à ~78 ans (2024), revenu/hab de 200$ à 12 500$"
+    source_url: ""
+    source_section: "LOUP #5"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+  - id: "F-IC-C015"
+    enonce: "La fourchette des morts du Grand Bond en Avant (1959-1961) va de 15M (chiffres officiels chinois révisés, jugés trop bas) à 55M (Frank Dikötter, *Mao's Great Famine*) ; le chiffre de 20-30M utilisé en V1 est conservateur, situé dans le bas de la fourchette du consensus 2025-2026"
+    source_url: "https://en.wikipedia.org/wiki/Great_Chinese_Famine"
+    source_section: "LOUP #6"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+
+acteurs:
+  - nom: "Benjamin Elman (Princeton)"
+    role: "Historien auteur de *A Cultural History of Civil Examinations in Late Imperial China* (2000), démontrant que le keju était un filtre social autant qu'un concours de compétence"
+    faits_lies: ["F-IC-C001"]
+  - nom: "Angus Maddison"
+    role: "Économistehistorien auteur des estimations du PIB/hab Song à 600 dollars (2001), contestées par Broadberry"
+    faits_lies: ["F-IC-C003"]
+  - nom: "Stephen Broadberry"
+    role: "Économistehistorien (2015, 2021) qui a révisé à la baisse le GDP chinois médiéval et situe la grande divergence au XIVe-XVe siècle"
+    faits_lies: ["F-IC-C003", "F-IC-C004"]
+  - nom: "Robert Hartwell"
+    role: "Historien auteur de l'estimation de la production de fer Song à 125 000 t/an, critiquée pour extrapolation à partir de données partielles"
+    faits_lies: ["F-IC-C004"]
+  - nom: "Pierre-Étienne Will (Collège de France)"
+    role: "Historien auteur de *Nourish the People* (1991), étude exhaustive du système des greniers Qing (1650-1850)"
+    faits_lies: ["F-IC-C006"]
+  - nom: "Voltaire"
+    role: "Philosophe des Lumières (Essai sur les moeurs, 1756) qui a mythifié le keju comme modèle de gouvernement rationnel, fondant le récit orientaliste"
+    faits_lies: ["F-IC-C001"]
+  - nom: "Frank Dikötter"
+    role: "Historien auteur de *Mao's Great Famine* qui situe la fourchette haute des morts du Grand Bond en Avant à 55M"
+    faits_lies: ["F-IC-C015"]
+  - nom: "Zhao Ziyang"
+    role: "Secrétaire général du PCC (1987-1989) destitué pour avoir soutenu les étudiants de Tiananmen, résidence surveillée jusqu'à sa mort en 2005"
+    faits_lies: ["F-IC-C010", "F-IC-C011"]
+  - nom: "Liu Xiaobo"
+    role: "Dissident chinois, prix Nobel de la paix 2010, mort en détention en 2017"
+    faits_lies: ["F-IC-C010"]
+  - nom: "Mao Zedong"
+    role: "Fondateur de la République populaire de Chine (1949), initiateur du Grand Bond en Avant (1958-1962)"
+    faits_lies: ["F-IC-C015"]
+
+causalites:
+  - cause: "F-IC-C001"
+    effet: "F-IC-C004"
+    mecanisme: "Le biais des sources sinologues occidentales (Elman, Voltaire) produit des données extrapolées (Hartwell) qui se renforcent mutuellement et figent un récit eurocentré sur la « supériorité » institutionnelle chinoise"
+  - cause: "F-IC-C010"
+    effet: "F-IC-C013"
+    mecanisme: "L'omission de Tiananmen masque la nature du parti-État, qui seul explique la répression de la dissidence, l'absence d'élections et la fusion bureaucratie/PCC"
+  - cause: "F-IC-C014"
+    effet: "F-IC-C015"
+    mecanisme: "L'omission du miracle économique biaise la lecture du Grand Bond en Avant : on présente la Chine communiste comme un échec massif alors qu'elle a aussi connu le plus grand succès anti-pauvreté de l'histoire, ce qui relativise la doxa « Chine = échec communiste »"
+  - cause: "F-IC-C012"
+    effet: "F-IC-C009"
+    mecanisme: "L'infrastructure de la censure (GFW) est la condition technique qui rend possible l'extension future du Social Credit System au-delà de sa fonction actuelle de scoring financier et de liste noire judiciaire"
+  - cause: "F-IC-C007"
+    effet: "F-IC-C008"
+    mecanisme: "L'échec du jiaozi privé (faillites en chaîne à Chengdu) a forcé l'État Song à reprendre l'émission et à inventer le huizi (1160), premier papier à cours forcé partiel : la modernité monétaire chinoise procède par essais et échecs, non par décret"
+
+perspectives_dialectiques:
+  - position: "Thèse : la Chine impériale était techniquement brillante mais sans modernité politique"
+    argument: "Keju, jiaozi, greniers, code Tang, monopoles du sel/fer sont des innovations administratives de 700 à 2300 ans d'avance sur la France, mais sans contrepouvoirs démocratiques"
+  - position: "Antithèse : la Chine impériale n'était ni brillante, ni moderne, le parallèle est forcé par l'orientalisme"
+    argument: "Keju = filtre social, jiaozi = billet privé, greniers = échec massif, propriété privée = nuancée, SCS = mythe médiatique ; le « miracle » de V1 est une construction occidentale qui projette les catégories européennes sur des institutions chinoises"
+  - position: "Synthèse : le parallèle est réel mais beaucoup moins net que V1 le suggère"
+    argument: "5 des 7 thèmes de comparaison sont affaiblis par les lièvres (keju, GDP Song, propriété, greniers, jiaozi, SCS) ; les 6 loups (Tiananmen, GFW, parti-État, miracle, femmes, fourchette GLF) révèlent des angles morts structurels ; verdict révisé : OUI conditionnel 3/7 au lieu de OUI 5/7"
+
+limites:
+  - "Cette contre-enquête ne ré-ouvre pas l'inventaire des 7 thèmes initiaux : elle se limite à corriger 5 thèmes (affaiblis) et à signaler 6 angles morts ; le thème MONNAIE n'est pas ré-évalué au-delà du jiaozi et du huizi"
+  - "Zéro source primaire chinoise (Zhao Dingxin, Ge Zhaoguang, Wang Hui) consultée, le biais occidental est donc reconduit, faute d'accès aux textes sinophones"
+  - "Mnemolite DOWN : 3 requêtes (keju/Voltaire, Tiananmen/PCC, orientalisme) ont retourné 0 résultat en mode tag_only, ce qui empêche tout cross-référencement avec les autres quintessences du projet"
+  - "L'investigation V1 n'est pas jointe à ce contre-rapport ; les 6 lièvres et 6 loups sont reconstruits à partir du résumé qu'en fait le contre-rapport lui-même, sans audit ligne à ligne de V1"
+  - "Le chiffre de 800M de personnes sorties de la pauvreté (1978-2020) repose sur le seuil Banque mondiale de 1,90 dollars/jour (PPA 2011) ; un seuil plus élevé (5 dollars/jour) réduirait ce chiffre d'environ 40%"
+  - "Le verdict révisé « OUI conditionnel 3/7 » n'est pas explicité : quels sont les 4 thèmes qui passent de OUI à NON, et lesquels restent à OUI ? Le passage de 5/7 à 3/7 n'est pas décomposé"
+
+wolves:
+  - nom: "Défenseur de l'investigation V1 (auteur original)"
+    argument: "Le parallèle Chine-France est structurel et résiste aux critiques ; les « lièvres » sont des nuances, pas des réfutations ; les « loups » (Tiananmen, GFW) sont contemporains et sortent du cadre impérial de V1"
+    reponse: "Les lièvres ne sont pas des nuances : ils montrent que 5 des 7 « instruments » comparés ne fonctionnent pas comme V1 le prétend (keju non-méritocratique, jiaozi non-étatique, SCS non-Big Brother, etc.). Les loups sont structurels au thème DOGME : un État qui tue 20-30M de ses citoyens par idéologie et qui bloque Google est précisément ce que V1 devait documenter pour conclure au parallèle avec la France"
+  - nom: "Propagandiste pro-PCC"
+    argument: "La Chine a sorti 800M de personnes de la pauvreté, développé l'infrastructure la plus moderne du monde, et le système du PCC est adapté à la civilisation chinoise ; les critiques occidentales relèvent de l'orientalisme inversé"
+    reponse: "Le miracle économique (F-IC-C014) est documenté et constitue précisément un loup de V1, pas une réfutation. Mais la fusion parti-État (F-IC-C013), le GFW (F-IC-C012) et Tiananmen (F-IC-C010) sont des faits, pas des opinions. Aucun argument culturaliste ne les réfute : ce sont des événements datés et documentés"
+  - nom: "Sinologue maddonien"
+    argument: "Maddison reste la référence incontournable ; les critiques de Broadberry sont méthodologiquement faibles (les données médiévales sont trop rares pour conclure à une révision)"
+    reponse: "Broadberry est un économistehistorien de premier plan, sa révision n'est pas marginale ; le consensus 2025-2026 penche vers la parité Europe-Chine médiévale. L'incertitude de 50 à 100% sur les chiffres pré-modernes chinois doit être reconnue, pas masquée par une citation unique"
+  - nom: "Eurocentriste assumé"
+    argument: "Les institutions chinoises (keju, jiaozi, greniers) ne sont que des précurseurs imparfaits des vraies institutions modernes (INSP, Banque de France, PAC) ; la Chine a juste copié ou préfiguré sans comprendre la modernité"
+    reponse: "Le parallèle est l'inverse de la copie : Marco Polo rapporte le papier chinois en Europe (XIIIe), Law l'a peut-être lu (1716-1720), les assignats (1790) sont une expérience française indépendante, Quesnay est surnommé « le Confucius européen » et Voltaire cite le keju. La filiation va dans les deux sens, et le mot « copier » est trompeur : il s'agit d'une convergence par problèmes universels"
+
+iceberg:
+  - "L'administration fantôme chinoise (élites locales, clans, guildes, tontines, guanxi) qui gère la vie réelle hors des structures officielles : non documentée par les sources occidentales et donc totalement absente de V1, alors qu'elle est probablement le plus grand angle mort de toute comparaison administrative"
+  - "Le rôle des jésuites (Matteo Ricci, XVIIe s.) dans la transmission Chine-Europe : Voltaire (1756) cite le keju, Quesnay est surnommé « le Confucius européen », la filiation intellectuelle INSP <- grands corps <- Polytechnique (1794) <- Quesnay <- jésuites <- Chine est largement méconnue des hauts fonctionnaires français"
+  - "L'histoire des femmes chinoises (foot binding aboli en 1912, mais avortements sélectifs persistants, traite des épouses dans les régions pauvres, plafond de verre urbain) : un angle mort massif de V1 qui réduit le parallèle Chine-France à une comparaison d'institutions mâles"
+  - "Les 5 campagnes anti-ennemis (1950-1953 contre-prodrogue, 1951-1952 anti-corruption, 1954-1955 anti-compte-rendu, 1957-1959 anti-droite, 1958-1962 Grand Bond en Avant) : un continuum répressif communiste qui structure l'autoritarisme actuel du PCC, et que V1 mentionne sans les relier entre elles"
+  - "Résultat Mnemolite : 3 requêtes (keju/Voltaire, Tiananmen/PCC, orientalisme) ont retourné 0 résultat en mode tag_only ; la mémoire vectorielle est soit vide, soit non indexée pour le projet truth-engine"
+
+chronologie:
+  - date: "-3000"
+    evenement: "Première civilisation chinoise documentée (dynastie Xia légendaire)"
+    source_fait: "F-IC-C001"
+  - date: "605"
+    evenement: "Création du keju (examen impérial) sous la dynastie Sui"
+    source_fait: "F-IC-C001"
+  - date: "998-1024"
+    evenement: "Émissions initiales du jiaozi à Chengdu (privé) puis reprise par l'État Song"
+    source_fait: "F-IC-C007"
+  - date: "1160"
+    evenement: "Émission du huizi (papier à cours forcé partiel) par le Ministère des Finances (Hubu) du Song du Sud"
+    source_fait: "F-IC-C008"
+  - date: "1370-1905"
+    evenement: "Période Ming/Qing : ~25 000 jinshi sur 535 ans, filtre social et non méritocratie"
+    source_fait: "F-IC-C002"
+  - date: "1650-1850"
+    evenement: "Système des greniers ever-normal Qing : succès inégaux, effondrement au XIXe siècle"
+    source_fait: "F-IC-C006"
+  - date: "1756"
+    evenement: "Voltaire publie l'Essai sur les moeurs et mythifie le keju comme modèle rationnel"
+    source_fait: "F-IC-C001"
+  - date: "1949"
+    evenement: "Fondation de la République populaire de Chine par Mao Zedong"
+    source_fait: "F-IC-C013"
+  - date: "1959-1961"
+    evenement: "Grand Bond en Avant : fourchette 15-55M morts (consensus 20-30M, conservatrice)"
+    source_fait: "F-IC-C015"
+  - date: "1978"
+    evenement: "Début de la Réforme et Ouverture (Deng Xiaoping) ; PIB 150B$, pauvreté extrême 88%"
+    source_fait: "F-IC-C014"
+  - date: "1989-06-03"
+    evenement: "Massacre de Tiananmen : centaines à milliers de morts, répression massive, Zhao Ziyang en résidence surveillée"
+    source_fait: "F-IC-C010"
+  - date: "2000"
+    evenement: "Déploiement du Great Firewall (金盾工程) par le régime chinois"
+    source_fait: "F-IC-C012"
+  - date: "2001"
+    evenement: "Publication des estimations Maddison (Song = 600$ PIB/hab, contestées par Broadberry)"
+    source_fait: "F-IC-C003"
+  - date: "2014-2025"
+    evenement: "Plan Social Credit System : infrastructure technique, scoring financier, listes noires, potentiel d'extension"
+    source_fait: "F-IC-C009"
+  - date: "2020"
+    evenement: "Recensement chinois : 1,411B habitants, ratio de masculinité 105,07 (en baisse par rapport à 118,1 en 2000)"
+    source_fait: "F-IC-C013"
+  - date: "2024"
+    evenement: "PIB chinois 18,74T$, revenu/hab 12 500$, espérance vie ~78 ans, pauvreté extrême ~0%"
+    source_fait: "F-IC-C014"
+
+domaines:
+  - "Bureaucratie (keju, nomenklatura, fonction publique, concours)"
+  - "Monnaie (jiaozi, huizi, Banque de France, assignats, hyperinflation)"
+  - "Propriété (droits fonciers chinois, dominium romain, topsoil/subsoil, Code civil)"
+  - "Famines d'État (Grand Bond en Avant, Shoah, Révolution culturelle, Taiping)"
+  - "Censure et surveillance (Great Firewall, Tiananmen, Social Credit System, DPI)"
+  - "Économie (débat Maddison vs Broadberry, grande divergence, miracle 1978-2024)"
+  - "Démographie (ratio H/F, traite des épouses, avortements sélectifs, recensement 2020)"
+
+urls_prioritaires:
+  - url: "https://en.wikipedia.org/wiki/Imperial_examination"
+    description: "Article de référence sur le keju ; base documentaire de la réfutation du mythe méritocratique (F-IC-C001)"
+    head_status: null
+  - url: "https://en.wikipedia.org/wiki/Great_Divergence"
+    description: "Débat Maddison vs Broadberry sur la divergence économique Europe-Chine (F-IC-C003)"
+    head_status: null
+  - url: "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests"
+    description: "Référence sur le massacre de Tiananmen (F-IC-C010), événement totalement omis de V1"
+    head_status: null
+  - url: "https://en.wikipedia.org/wiki/Golden_Shield_Project"
+    description: "Great Firewall (金盾工程), infrastructure de censure d'État (F-IC-C012)"
+    head_status: null
+  - url: "https://en.wikipedia.org/wiki/Social_Credit_System"
+    description: "Clarification sur la nature réelle fragmentée du SCS, distinct du mythe médiatique du « Big Brother » (F-IC-C009)"
+    head_status: null
+  - url: "https://en.wikipedia.org/wiki/Great_Chinese_Famine"
+    description: "Fourchette des morts du Grand Bond en Avant (15-55M) et débat historiographique (F-IC-C015)"
+    head_status: null
+
+shadow_factor: 3.8
+mnemo_queries:
+  - query: "Chine impériale kejü examination méritocratie Voltaire"
+    results_count: 0
+  - query: "Tiananmen 1989 massacre censure Parti-État"
+    results_count: 0
+  - query: "biais orientalisme sources sinologues eurocentrisme"
+    results_count: 0

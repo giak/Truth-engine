@@ -1,0 +1,293 @@
+civ: "IC-R"
+complexity: "SIMPLE"
+date_extraction: "2026-06-07"
+enquete_source: "investigations/2026-06-03_sumer_article/2026-06-03_14-30_rome_v2_ICEBERG_MAX_CONTRE_RAPPORT.md"
+
+these_centrale: "Le parallele Rome/France tel que presente dans l'enquete V1 repose sur quatre comparaisons categoriellement inexactes (nexum, cursus honorum, annona, crise de 33 ap.) et omet six angles morts determinants (esclavage, femmes, citoyennete, publicani, Diocletien, Corpus Juris), de sorte que la filiation invoquee releve d'une reconstruction savante medievale, non d'une transmission directe."
+
+theses_implicites:
+  - "L'enquete V1 surdetermine la continuite institutionnelle en sous-estimant les ruptures structurelles entre la cite romaine et l'Etat-nation francais."
+  - "La metaphore de la 'matrice' legitime un comparatisme anachronique : ce qui ressemble formellement n'a pas forcement la meme fonction sociale ni la meme extension demographique."
+  - "Le silence sur l'esclavage, les femmes et la stratification juridique n'est pas anodin : il ecrase les points ou la France rompt avec Rome au lieu de la prolonger."
+  - "L'operation editoriale 'Rome avait deja tout resolu' releve d'une rhetorique d'auto-legitimation contemporaine projetee sur l'Antiquite."
+
+faits_atomiques:
+  - id: "F-IC-R001"
+    enonce: "Le nexum romain n'etait pas l'equivalent de la contrainte par corps francaise : le nexum etait une mise en gage du corps comme garantie, le debiteur devenait esclave de son creancier, tandis que la prison pour dette francaise est un mecanisme d'emprisonnement temporaire destine a forcer le paiement."
+    source_url: ""
+    source_section: "Lievre #1"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R002"
+    enonce: "La nature exacte du nexum reste disputee par les historiens du droit romain (Crawford, Watson, Talamanca) : etait-ce une mancipatio sui, une forme de cautionnement, ou un vrai contrat de servitude pour dette ? Wikipedia lui-meme note 'Some modern scholars dispute its existence'."
+    source_url: ""
+    source_section: "Lievre #1"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R003"
+    enonce: "Le cursus honorum formait des magistrats POLITIQUES elus pour un an et non des administrateurs permanents de carriere : la filiation directe avec l'INSP francais, systeme ADMINISTRATIF a concours et carriere longue, releve de l'anachronisme."
+    source_url: ""
+    source_section: "Lievre #2"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R004"
+    enonce: "L'annona romaine distribuait du grain a environ 200 000 adultes males citoyens de Rome, en excluant femmes, enfants, esclaves, peregrins et affranchis non inscrits : ce privilege civique cible n'a aucune commune mesure avec la protection sociale francaise universelle couvrant 68 millions de residents."
+    source_url: ""
+    source_section: "Lievre #3"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R005"
+    enonce: "La lex Clodia de frumentaria (58 av. J.-C.) avait instaure la gratuite du ble : les effectifs inscrits a la distribution ont alors explose, temoignant d'une logique d'assistance plus proche d'un clientelisme politique que d'un Etat-providence."
+    source_url: ""
+    source_section: "Lievre #3"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R006"
+    enonce: "La crise financiere de 33 ap. J.-C. sous Tibere (Tacite, Annales 6.16-17) n'a pas la meme structure qu'une crise des subprimes : pas de titrisation, pas de bulle du credit, crise de liquidite provquee par l'application tardive de la lex Julia de modo credendi, et intervention du tresor imperial et non d'une banque centrale."
+    source_url: ""
+    source_section: "Lievre #4"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R007"
+    enonce: "30 a 40 % de la population d'Italie etait esclave au pic de l'epoque augustee (environ 2 a 3 millions d'esclaves pour 6 a 7,5 millions d'habitants, selon Scheidel) : cette realite est totalement absente de l'enquete V1, alors qu'elle est constitutive de l'economie, de la societe et du droit romains."
+    source_url: ""
+    source_section: "Loup #1"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R008"
+    enonce: "L'esclavage romain representait environ 15 % de la population totale de l'Empire (10 millions d'esclaves pour 60 a 70 millions d'habitants), et il n'etait pas 'racial' comme l'esclavage atlantique : il reposait sur la capture de guerre et la naissance, sans lien avec la couleur de peau."
+    source_url: ""
+    source_section: "Loup #1"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R009"
+    enonce: "Les femmes romaines etaient placees sous tutela mulierum permanente (pere, mari, puis tuteur legal) : pas de droit de vote, pas de magistrature, pas de plaidoirie. Les lois Iulia et Papia Poppaea (18 av., 9 ap.) n'accordaient l'immunite de tutelle qu'aux femmes libres ayant 3 ou 4 enfants : une minorite."
+    source_url: ""
+    source_section: "Loup #2"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R010"
+    enonce: "Avant la Constitutio Antoniniana (212 ap. J.-C., Caracalla), seuls les cives romains jouissaient de la plenitude des droits civils et politiques : les peregrins (majorite de la population libre de l'Empire) n'avaient acces qu'au ius gentium, les Latins a un statut intermediaire, les deditices a presque aucun droit. La France post-1789 a cree une citoyennete universelle la ou Rome maintenait une hierarchie d'ordres."
+    source_url: ""
+    source_section: "Loup #3"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R011"
+    enonce: "Les publicani operaient par ferme fiscale (tax farming) en rachetant aux encheres le droit de collecter les impots en province : le systeme creait une double extorsion (remboursement de l'enchere + profit), denoncee par Ciceron dans les Verrines. La France a institue une administration fiscale directe d'Etat (DGI, 1948)."
+    source_url: ""
+    source_section: "Loup #4"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R012"
+    enonce: "L'Edit du Maximum de Diocletien (301 ap. J.-C.) a plafonne les prix d'environ 1 200 biens et services sous peine de mort : il a engendre penuries, marche noir et disparition des produits, puis a ete abandonne apres la mort de l'empereur (305). La France contemporaine evite cet ecueil par des mecanismes de marche regule."
+    source_url: ""
+    source_section: "Loup #5"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R013"
+    enonce: "Le Corpus Juris Civilis, promulgue par Justinien a Constantinople (529-534 ap. J.-C.), n'a JAMAIS ete applique en Gaule pendant l'Antiquite tardive. Il a ete perdu en Occident apres environ 600 ap. J.-C., pendant pres de 470 ans, jusqu'a sa red ecouverte a Bologne vers 1070 par Irnerius et les glossateurs."
+    source_url: ""
+    source_section: "Loup #6"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R014"
+    enonce: "La France medievale etait divisee entre pays de droit ecrit (Sud, droit romain recu comme coutume generale) et pays de coutumes (Nord, droit germanique/celtique/romain mêle) : le Code civil de 1804 fusionne trois traditions (romaine, coutumiere, revolutionnaire), la romaine n'etant qu'une source parmi d'autres, filtree par Pothier (1699-1772)."
+    source_url: ""
+    source_section: "Loup #6"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+  - id: "F-IC-R015"
+    enonce: "La chronologie de la transmission Rome-Code civil comporte quatre ruptures majeures : perte du CJC (600-1070), double France coutumiere/ecrite, Revolution francaise reinventant le droit a partir des principes (DDHC 1789), codification napoleonienne (1804) synthetisant trois heritages. Le recit 'Rome puis France' est une reconstruction retrospective medievale et non une transmission directe."
+    source_url: ""
+    source_section: "Faisceau d'indices #2"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Tite-Live"
+    role: "Historien romain, source unique sur la lex Poetelia Papiria (Ab Urbe Condita 8.28)"
+    faits_lies: ["F-IC-R001", "F-IC-R002"]
+  - nom: "Varron"
+    role: "Ecrivain romain mentionnant la lex Poetelia Papiria comme limite du nexum"
+    faits_lies: ["F-IC-R002"]
+  - nom: "Tacite"
+    role: "Historien romain temoin de la crise de 33 ap. J.-C. sous Tibere (Annales 6.16-17)"
+    faits_lies: ["F-IC-R006"]
+  - nom: "Ciceron"
+    role: "Orateur et consul romain, denonciateur des publicani dans les Verrines (proces de Verres, gouverneur de Sicile)"
+    faits_lies: ["F-IC-R011"]
+  - nom: "Diocletien"
+    role: "Empereur romain auteur de l'Edit du Maximum (301 ap. J.-C.), exemple historique d'echec du controle des prix"
+    faits_lies: ["F-IC-R012"]
+  - nom: "Justinien"
+    role: "Empereur byzantin, compilateur du Corpus Juris Civilis (529-534 ap. J.-C.) a Constantinople"
+    faits_lies: ["F-IC-R013"]
+  - nom: "Irnerius"
+    role: "Juriste bolognais, red ecouvreur des Digesta de Justinien vers 1070, fondateur de l'ecole des glossateurs"
+    faits_lies: ["F-IC-R013", "F-IC-R015"]
+  - nom: "Robert-Joseph Pothier"
+    role: "Juriste francais (1699-1772), une des sources mediatrices du Code civil de 1804 a partir du droit romain"
+    faits_lies: ["F-IC-R014", "F-IC-R015"]
+  - nom: "Napoleon Bonaparte"
+    role: "Consul puis Empereur, commanditaire du Code civil (1804) : synthese des traditions romaine, coutumiere et revolutionnaire"
+    faits_lies: ["F-IC-R014", "F-IC-R015"]
+  - nom: "Walter Scheidel"
+    role: "Historien modern, source des estimations 30-40 % d'esclaves en Italie augustee"
+    faits_lies: ["F-IC-R007", "F-IC-R008"]
+  - nom: "Crawford, Watson, Talamanca"
+    role: "Historiens du droit romain contemporains, debattant de la nature exacte du nexum"
+    faits_lies: ["F-IC-R002"]
+  - nom: "Caracalla"
+    role: "Empereur romain auteur de la Constitutio Antoniniana (212 ap. J.-C.) : extension de la citoyennete a tous les habitants libres de l'Empire"
+    faits_lies: ["F-IC-R010"]
+
+causalites:
+  - cause: "F-IC-R001"
+    effet: "F-IC-R015"
+    mecanisme: "L'assimilation inexacte nexum/prison pour dette nourrit la these de la 'matrice' directe Rome-France, qui s'effondre des lors qu'on reintroduit les ruptures reelles (perte du CJC, double France, Revolution)."
+  - cause: "F-IC-R002"
+    effet: "F-IC-R013"
+    mecanisme: "La meconnaissance du debat savant sur le nexum revele une tendance de l'enquete V1 a figer des institutions romaines en categories modernes, prelude a la meme operation sur le CJC."
+  - cause: "F-IC-R003"
+    effet: "F-IC-R010"
+    mecanisme: "La lecture politique/elective du cursus honorum aurait du signaler l'asymetrie electorale entre Rome (cite aristocratique) et France (Etat-nation democratique), asy metrie qui contredit directement la these d'une matrice commune."
+  - cause: "F-IC-R004"
+    effet: "F-IC-R007"
+    mecanisme: "La minoration de l'annona a 200 000 privilegies masque que l'economie romaine reposait sur 30-40 % d'esclaves : l'etude selective des institutions a vocation 'sociale' cache la realite productive."
+  - cause: "F-IC-R006"
+    effet: "F-IC-R012"
+    mecanisme: "L'assimilation prematuree Tiberie/subprimes empeche de voir que les interventions etatiques romaines en matiere economique (Edit du Maximum) ont echoue la ou les mecanismes francais contemporains ont, pour l'instant, reussi."
+  - cause: "F-IC-R007"
+    effet: "F-IC-R008"
+    mecanisme: "L'omission de l'esclavage (Loup #1) prive l'enquete de la cle de l'economie, du droit et de la morale romaines : c'est le biais le plus grave, qui rejaillit sur la solidite de tous les paralleles."
+  - cause: "F-IC-R009"
+    effet: "F-IC-R015"
+    mecanisme: "L'absence de la question feminine empeche de voir que la France a INVENTE l'egalite politique (1944) plutot qu'elle ne l'a heritee de Rome."
+  - cause: "F-IC-R011"
+    effet: "F-IC-R014"
+    mecanisme: "L'omission des publicani aurait permis de montrer que la France a resolu un probleme romain (la corruption de la ferme fiscale) par une innovation institutionnelle radicale : l'administration directe d'Etat."
+
+perspectives_dialectiques:
+  - position: "These : Rome est la matrice directe des institutions francaises"
+    argument: "Le Corpus Juris Civilis, le cursus honorum, l'annona et la lex Poetelia Papiria constituent une filiation lineaire dont le Code civil francais (1804) est l'heritier direct."
+  - position: "Antithese : La filiation est reconstruite et selective"
+    argument: "Quatre ruptures majeures (perte du CJC, double France coutumiere/ecrite, Revolution, codification napoleonienne) et six angles morts (esclavage, femmes, citoyennete, publicani, Diocletien, reception medievale) separent structurellement les deux ordres juridiques."
+  - position: "Synthese : Continuite medievale, ruptures modernes"
+    argument: "La France medievale (XIe-XVe siecles) a effectivement reimporte le droit romain par Bologne, mais la France moderne (1789-1804) a refonde le droit sur des principes universels qui rompent avec la logique romaine d'ordres juridiques hierarchises."
+
+limites:
+  - "Aucun fait de l'enquete V1 (source du contre-rapport) ne s'appuie sur une URL primaire verifiee : toutes les sources sont des references bibliographiques classiques (Tite-Live, Tacite, Ciceron, Justinien) qui necessiteraient un renvoi a des editions critiques pour passer du tier 3 au tier 1."
+  - "Le contre-rapport ne quantifie pas systematiquement l'ampleur de l'esclavage romain hors d'Italie (provinces gauloise, espagnole, orientale) : la focale reste mediterraneenne-italique."
+  - "La question de la datation de la lex Poetelia Papiria (326 ou 313 av. J.-C.) reste traitee brievement et l'enquete V1 ne tranche pas."
+  - "Le role exact de la jurisprudence intermediaire (glossateurs, commentateurs, humanisme juridique) entre Justinien et Pothier n'est pas detaille : 700 ans de mediation juridique sont resumes en quatre mots."
+  - "Aucun acces Mnemolite : recherches 'Rome droit Justinien Corpus biais', 'esclavage Rome annona publicani', 'cursus honorum INSP magistrature' ont toutes retourne zero resultat, ce qui interdit tout croisement automatique avec d'autres enquetes du projet."
+
+wolves:
+  - nom: "Defenseur d'une filiation directe Rome-Code civil"
+    argument: "Les juristes medievalux ont transmis un patrimoine structure, le Code civil de 1804 s'inscrit dans cette lignee savante, donc la France a recu le flambeau de Rome."
+    reponse: "La transmission medievale est elle-meme une red ecouverte partielle (seul le Digeste a ete retrouve vers 1070), filtree par 700 ans d'interpretation et concurrencee par les coutumes du Nord. Pothier est mediate, Justinien n'est pas source directe."
+  - nom: "Defenseur de la these 'l'Etat-providence romain est une matrice'"
+    argument: "L'annona distribuait du ble gratuit a 200 000 personnes, c'est la preuve d'une politique sociale systematique prefigurant la protection sociale contemporaine."
+    reponse: "200 000 hommes adultes citoyens sur 1 million d'habitants (femmes, enfants, esclaves et peregrins exclus) ne constituent pas une solidarite universelle : c'est un privilege civique masculin, voire un instrument de clientelisme politique (cf. lex Clodia de frumentaria, 58 av.)."
+  - nom: "Defenseur de l'identite 'esprit des lois' France-Rome"
+    argument: "La France a conserve la passion romaine pour la codification, la juridicite de l'action publique, le gout du droit ecrit, l'attachement a l'Etat administrateur."
+    reponse: "Ces traits sont communs a toute tradition juridique savante (cf. Allemagne, Italie) et n'etablissent pas une filiation singuliere France-Rome. La France pourrait aussi heriter du droit canonique medieval, du droit coutumier germanique, et de la philosophie des Lumieres : il n'y a pas de fatalite romaine."
+
+iceberg:
+  - "Sujet immergé #1 : Le role de l'Eglise catholique et du droit canonique comme MEDIATEUR privilegie entre le droit romain antique et le droit francais moderne (decret de Gratien, ~1140) : voie d'entree du droit romain en Gaule independante des glossateurs bolognais."
+  - "Sujet immergé #2 : Les colonies et provinces romaines (Gaule, Hispanie, Afrique du Nord) comme LABORATOIRES juridiques ou s'invente un 'droit romain vulgaire' distinct du droit classique : le droit francais pourrait heriter davantage de ce vulgus que du CJC de Justinien."
+  - "Sujet immergé #3 : La dimension RACIALE absente de l'esclavage romain est en realite un phenomene complexe (l'affranchissement massif, le metissage, l'ascension sociale d'affranchis) : la France pourrait avoir importe la ROMANITE de l'esclavage (esclavage colonial atlantique du XVIIe-XIXe siecle) sans pour autant heriter du mode de production esclavagiste antique."
+  - "Resultat Mnemolite : recherches 'Rome droit Justinien Corpus biais', 'esclavage Rome annona publicani', 'cursus honorum INSP magistrature' ont toutes retourne zero resultat ; le RAG vectoriel du projet ne contient pas encore de memoire exploitable sur l'Antiquite romaine et le contre-rapport beneficierait d'un amorcage (bootstrap) du corpus Cicero, Tacite, Tite-Live."
+
+chronologie:
+  - date: "-326"
+    evenement: "Lex Poetelia Papiria (datation alternative : -313) : abolition du nexum selon Tite-Live (Ab Urbe Condita 8.28) et Varron, contenu exact debattu par les historiens du droit romain."
+    source_fait: "F-IC-R001"
+  - date: "-58"
+    evenement: "Lex Clodia de frumentaria : instauration de la gratuite du ble a Rome, explosion des effectifs inscrits a la distribution et logique de clientelisme politique."
+    source_fait: "F-IC-R005"
+  - date: "33"
+    evenement: "Crise financiere sous Tibere : rappel force des credits provinciaux, effondrement des prix fonciers italiens, pret imperial de 100 millions de sesterces sans interet sur 3 ans (Tacite, Annales 6.16-17)."
+    source_fait: "F-IC-R006"
+  - date: "212"
+    evenement: "Constitutio Antoniniana de Caracalla : extension de la citoyennete romaine a tous les habitants libres de l'Empire, mettant fin a la stricte hierarchie cives/peregrini."
+    source_fait: "F-IC-R010"
+  - date: "301"
+    evenement: "Edit du Maximum de Diocletien : plafonnement d'environ 1 200 prix sous peine de mort, echec retentissant, abandonne en 305 apres la mort de l'empereur."
+    source_fait: "F-IC-R012"
+  - date: "529"
+    evenement: "Compilation du Corpus Juris Civilis par Justinien a Constantinople (Codex 529, Digesta et Institutiones 533, Novellae 534) : jamais applique en Gaule."
+    source_fait: "F-IC-R013"
+  - date: "600"
+    evenement: "Disparition du CJC en Occident : plus aucun manuscrit complet jusqu'au XIe siecle, pendant environ 470 ans."
+    source_fait: "F-IC-R013"
+  - date: "1070"
+    evenement: "Red ecouverte des Digesta de Justinien a Bologne par Irnerius, fondation de l'ecole des glossateurs et renaissance du droit romain savant."
+    source_fait: "F-IC-R013"
+  - date: "1789"
+    evenement: "Declaration des droits de l'homme et du citoyen : refondation du droit francais sur les principes d'egalite, rupture avec la logique romaine d'ordres juridiques."
+    source_fait: "F-IC-R015"
+  - date: "1804"
+    evenement: "Code civil napoleonien : synthese des traditions romaine, coutumiere du Nord et revolutionnaire, sous la mediation de Pothier (1699-1772)."
+    source_fait: "F-IC-R014"
+  - date: "1944"
+    evenement: "Droit de vote des femmes francaises : innovation radicale que le droit romain n'avait jamais envisagee pour les citoyennes de seconde zone."
+    source_fait: "F-IC-R009"
+  - date: "1948"
+    evenement: "Creation de la Direction generale des impots francaise (DGI) : administration directe d'Etat, rupture avec la logique romaine de la ferme fiscale (publicani)."
+    source_fait: "F-IC-R011"
+
+domaines:
+  - "Histoire du droit romain et francais"
+  - "Antiquite tardive et transmission medievale"
+  - "Histoire de l'esclavage"
+  - "Citoyennete et droits politiques"
+  - "Histoire de la fiscalite"
+  - "Controle des prix et politique economique"
+  - "Histoire des femmes et du genre"
+  - "Reception du Corpus Juris Civilis"
+  - "Methodologie de l'enquete historienne et biais comparatistes"
+
+urls_prioritaires:
+  - url: ""
+    description: "Aucune URL primaire n'est exploitable dans l'enquete source : toutes les references sont des editions classiques (Tite-Live, Tacite, Ciceron, Justinien) qui necessiteraient un renvoi a des editions critiques modernes (Loeb, Belles Lettres, Teubner) pour passer en tier 1 ou tier 2."
+    head_status: null
+
+shadow_factor: 3.4
+
+mnemo_queries:
+  - query: "Rome droit Justinien Corpus biais"
+    results_count: 0
+  - query: "esclavage Rome annona publicani"
+    results_count: 0
+  - query: "cursus honorum INSP magistrature"
+    results_count: 0

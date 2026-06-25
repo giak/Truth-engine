@@ -1,0 +1,267 @@
+enquete_id: inde
+complexity: APEX
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-03_sumer_article/2026-06-04_10-30_inde_civilisation_manquante_INVESTIGATION.md
+these_centrale: 'L''Inde ancienne est le TEST DÉCISIF pour la thèse de l''article : elle confirme l''intégration (dharma =
+  système le plus intégré après la charia), confirme la capture (brahmanes = caste spécialisée), MAIS infirme la dette comme
+  MÉCANISME CENTRAL (pas d''andurarum indien, dette = obligation karmique, pas annulation).'
+theses_implicites:
+- 'L''Inde avait un système intégré LOIN DE LA DETTE : dharma (droit/morale/religion) + caste (hiérarchie sociale) — pas besoin
+  d''andurarum'
+- Les brahmanes formaient un corps de spécialistes comparable aux scribes/juristes/mandarins, MAIS leur pouvoir vient de la
+  CONNAISSANCE des textes sacrés, pas d'une nomination royale
+- L'Inde avait des corporations (shreni) avec PERSONNALITÉ JURIDIQUE dès le 8e s. BCE — avant Rome et bien avant l'Europe
+  médiévale
+- L'Arthashastra de Kautilya (Ier-IIIe s. CE) est un traité de science politique COMPLET, comparable à Machiavel mais 1700
+  ans plus tôt
+- L'Inde représentait ~32% du PIB mondial en 1 CE — son omission du récit civilisationnel est un BIAIS POST-COLONIAL majeur
+- La caste est la CAPTURE par excellence — plus efficace que la bureaucratie chinoise ou française, elle dure 3000 ans
+faits_atomiques:
+- id: F-001
+  enonce: 'Civilisation de l''Indus (IVC) : 3300-1300 av. Urbanisation avancée, commerce avec Mésopotamie (Meluhha), écritures
+    non déchiffrées'
+  source_url: https://en.wikipedia.org/wiki/Indus_Valley_Civilisation
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-002
+  enonce: 'Shreni (guildes) : personnalité juridique, contrats, assemblée élue — dès le 8e s. BCE (Khanna 2005)'
+  source_url: https://en.wikipedia.org/wiki/Economic_history_of_India
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-003
+  enonce: 'Arthashastra de Kautilya : 15 livres, 150 chapitres, 180 sujets. Traité complet de science politique, économie,
+    droit, stratégie militaire (Ier-IIIe s. CE)'
+  source_url: https://en.wikipedia.org/wiki/Arthashastra
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-004
+  evenement: 'Manusmriti : 18 titres de droit, taux d''intérêt DIFFÉRENCIÉS par caste (Brahmin 2%/mois, Kshatriya 3%, Vaishya
+    4%, Shudra 5%)'
+  source_url: https://en.wikipedia.org/wiki/Hindu_titles_of_law
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-005
+  enonce: 'Dharma : concept intégrant loi, morale, religion, devoir social. 18 titres de droit selon Manu. Plus large que
+    le ius romain'
+  source_url: https://en.wikipedia.org/wiki/Dharma
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-006
+  enonce: 'PIB Inde en 1 CE : ~32% du PIB mondial (Maddison). ~28% en 1000 CE. Première économie mondiale jusqu''au XVIIe'
+  source_url: https://en.wikipedia.org/wiki/Economic_history_of_India
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-007
+  evenement: 'Empire Maurya (322-185 av.) : 1re unification indienne, bureaucratie centralisée, départementalisation, Kautilya
+    conseiller de Chandragupta'
+  source_url: https://en.wikipedia.org/wiki/Maurya_Empire
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-008
+  enonce: 'PAS d''andurarum indien : la dette est une obligation karmique, se transmet aux héritiers. Mahabharata et Ramayana
+    insistent sur le devoir de remboursement'
+  source_url: https://michael-hudson.com/wp-content/uploads/2010/03/HudsonLostTradition.pdf
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+- id: F-009
+  enonce: 'Jajmani system : économie villageoise autosuffisante, échange services/grain par caste, pas de marché monétaire'
+  source_url: https://en.wikipedia.org/wiki/Jajmani_system
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+- id: F-010
+  enonce: 'Route maritime océan Indien : commerce Inde-Rome-Afrique-Chine dès IIIe s. BCE. L''Inde est connectée au monde
+    antique, pas isolée'
+  source_url: https://www.thoughtco.com/indian-ocean-trade-routes-195514
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-011
+  enonce: 'Universités Nalanda (~427-1190 CE) et Taxila : les plus grandes du monde antique. Nalanda a brûlé en 1193 (invasion
+    bakhri)'
+  source_url: https://en.wikipedia.org/wiki/Nalanda
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-012
+  enonce: 'Taux d''intérêt indiens : 24% à 60% annuel selon caste (Manu). TRÈS ÉLEVÉS comparés aux taux romains (12% usuraire)
+    et mésopotamiens (20-33%)'
+  source_url: https://www.slideshare.net/slideshow/rate-of-interest-in-ancient-india-way-towards/43890021
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+acteurs:
+- nom: Kautilya / Chanakya (~350-283 av.)
+  role: Conseiller de Chandragupta, auteur de l'Arthashastra
+  faits_lies:
+  - F-003
+  - F-007
+- nom: Manu (légendaire)
+  role: Auteur des Manusmriti (IIe av. - IIIe ap.), code des castes et du dharma
+  faits_lies:
+  - F-004
+  - F-005
+- nom: Ashoka (~304-232 av.)
+  role: Empereur Maurya, converti au bouddhisme, politique de dharma universel
+  faits_lies:
+  - F-007
+- nom: Brahmans
+  role: Classe sacerdotale, gardiens du dharma, conseillers juridiques. Capture par endogamie et savoir
+  faits_lies:
+  - F-005
+- nom: Kshatriyas
+  role: Guerriers, administrateurs, rois
+  faits_lies:
+  - F-004
+- nom: Vaishyas
+  role: Marchands, commerçants, banquiers (shreni)
+  faits_lies:
+  - F-004
+  - F-002
+- nom: Shudras
+  role: Artisans, paysans, serviteurs
+  faits_lies:
+  - F-004
+- nom: Mahavira / Gautama (~Ve s. av.)
+  role: Fondateurs du jaïnisme et du bouddhisme, alternatives au système védique des castes
+  faits_lies: []
+causalites:
+- cause: F-005
+  effet: F-008
+  mecanisme: Dette = obligation karmique (transmissible aux héritiers) → pas besoin d'andurarum, la sanction religieuse suffit
+- cause: F-002
+  effet: F-012
+  mecanisme: Shreni (corporations bancaires dès 8e s. BCE) → fixation de taux d'intérêt différenciés par caste (Manu) → intégration
+    économie+hiérarchie
+- cause: F-007
+  effet: F-003
+  mecanisme: Empire Maurya (1re unification) → besoin d'administration centralisée → Arthashastra comme manuel du roi
+perspectives_dialectiques:
+- position: Thèse SYSTÈME confirmée mais TRANSFORMÉE
+  argument: L'Inde a poussé l'intégration PLUS LOIN via dharma, mais via caste+karma, pas via dette+andurarum
+- position: Thèse CAPTURE confirmée mais NUANCÉE
+  argument: Les brahmanes = caste de spécialistes du droit comparable aux juristes romains et mandarins chinois. Capture par
+    endogamie de caste, pas par cooptation administrative
+- position: Thèse TRANSMISSION TRANSFORMÉE
+  argument: L'Inde n'a PAS été une ceinture de transmission vers l'Europe (contrairement à l'Islam). Mais elle était connectée
+    au monde antique (océan Indien, route de la soie)
+limites:
+- 'Biais occidental : sources presque toutes en anglais, pas de sources en tamoul/sanskrit/hindi'
+- Wikipedia comme source primaire, pas les textes originaux (Arthashastra, Manusmriti)
+- Pas d'accès aux manuscrits originaux
+- 'Inverse le biais de l''article : pourrait SUR-estimer l''importance de l''Inde pour compenser l''omission'
+wolves:
+- nom: Eurocentrisme / récit 'miracle européen'
+  argument: Les 'grandes civilisations' sont celles qui mènent à l'Europe
+  reponse: L'Inde était 32% du PIB en 1 CE. Le 'miracle européen' est une reconstruction post-XVIIe, pas un fait antique
+- nom: Système de castes (justification interne)
+  argument: La caste est un ordre divin, pas une hiérarchie sociale
+  reponse: La caste est une fermeture d'élite MAXIMALE (naissance détermine statut) qui bloque la mobilité sociale pendant
+    3000 ans
+- nom: Lecteurs orientalistes
+  argument: L'Inde est une civilisation 'mystérieuse' et 'spirituelle', pas pragmatique
+  reponse: L'Arthashastra est un traité PRAGMATIQUE de science politique, comparable à Machiavel. Les shreni étaient des corporations
+    CAPITALISTES
+- nom: Nationalistes hindous contemporains (BJP)
+  argument: L'Inde était la plus grande civilisation, l'Occident l'a détruite
+  reponse: La critique est valide (occultation occidentale), mais la SUR-valeur nationaliste (Vedas = science quantique) est
+    aussi un biais
+iceberg:
+- 'Sujet immergé #1 : la dette n''est PAS le mécanisme central d''intégration en Inde (karma oui, dette non)'
+- 'Sujet immergé #2 : les brahmanes sont une caste de CAPTURE plus efficace que les énarques (3000 ans de reproduction endogame)'
+- 'Sujet immergé #3 : les shreni (corporations) sont CAPITALISTES et antérieures à Rome'
+- 'Sujet immergé #4 : l''Inde était 32% du PIB en 1 CE — la plus grande économie de l''histoire antique'
+- 'Sujet immergé #5 : l''Arthashastra est un traité de science politique COMPLET, 1700 ans avant Machiavel'
+- 'Mnemolite INDEXEE pour Inde : 1 memoire directe (Shadow 5.2x). Le verdict ''base non indexee'' est INVALIDE pour cette
+  enqueue.'
+- 'Cross-references Mnemolite integrees : 1 memoires directes ou d''enrichissement'
+chronologie:
+- date: ~3300 av.
+  evenement: Début civilisation de l'Indus (Harappa)
+  source_fait: F-001
+- date: ~2600-1900 av.
+  evenement: Phase mature IVC, commerce avec Mésopotamie (Meluhha)
+  source_fait: F-001
+- date: ~1500-500 av.
+  evenement: Période védique, formation des Vedas, émergence varna
+  source_fait: []
+- date: ~800 av.
+  evenement: Premières shreni (guildes) avec personnalité juridique
+  source_fait: F-002
+- date: ~322-185 av.
+  evenement: Empire Maurya (Chandragupta, Ashoka)
+  source_fait: F-007
+- date: ~320-550 ap.
+  evenement: Empire Gupta (âge d'or, mathématiques, commerce)
+  source_fait: []
+- date: Ier-IIIe s. ap.
+  evenement: Compilation de l'Arthashastra
+  source_fait: F-003
+- date: 1190 ap.
+  evenement: Destruction de Nalanda par les Bakhtyars
+  source_fait: F-011
+- date: 1206-1526
+  evenement: Sultanat de Delhi — intégration Islam-Inde
+  source_fait: []
+domaines:
+- Dette (pas d'andurarum, dette = karma)
+- Droit (dharma, 18 titres de Manu)
+- Bureaucratie (Arthashastra, Empire Maurya)
+- Impôt (1/6 à 1/4 des récoltes, monopoles d'État)
+- Corporations (shreni, capitalisme ancien)
+- Caste (capture par endogamie)
+- Transmission (chiffres arabes = indiens, zéro, bouddhisme → Chine)
+urls_prioritaires:
+- url: https://en.wikipedia.org/wiki/Arthashastra
+  description: Arthashastra de Kautilya, traité de science politique
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Indus_Valley_Civilisation
+  description: Civilisation de l'Indus, urbanisation ancienne
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Hindu_titles_of_law
+  description: Droit hindou, Manusmriti, 18 titres
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Dharma
+  description: Dharma, concept intégrateur
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Nalanda
+  description: Université de Nalanda, savoir antique
+  head_status: 200
+shadow_factor: 5.2
+mnemo_queries:
+- query: Inde dharma Arthashastra castes shreni corporations Manu
+  results_count: 0
+- query: Kautilya Chanakya Maurya administration bureaucratie
+  results_count: 0
+- query: Mahabharata Ramayana dette karma obligation karmique
+  results_count: 0
+- query: Nalanda Taxila université bouddhiste savoir antique
+  results_count: 0
+- query: civilisation Indus IVC Meluhha commerce Mesopotamie
+  results_count: 0
+mnemo_cross_refs:
+- id: e750dba8-6d41-4ebf-be24-de84f1958efb
+  title: 'Inde : Civilisation manquante (Shadow 5.2x)'
+  level: DIRECT
+  matches: Shadow 5.2x et verdict 'Inde CONFIRME these integration, INVALIDE mecanisme dette' - parfaitement alignes avec
+    cette quintessence

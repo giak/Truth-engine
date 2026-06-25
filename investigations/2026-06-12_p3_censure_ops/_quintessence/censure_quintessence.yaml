@@ -1,0 +1,105 @@
+enquete_id: "censure"
+complexity: "SIMPLE"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p3_censure_ops/2026-06-12_12-00_censure_strategique_ou_bug_INVESTIGATION.md"
+
+these_centrale: "L'absence de prescription dans le KERNEL (3/8 concepts chargés, 5 vides) est probablement un BUG (architecture figée en novembre 2025 + négligence éditoriale), mais elle FONCTIONNE comme un FEATURE (OPSEC par inadvertance). L'intention est secondaire : l'effet est que le corpus ne documente pas ses méthodes opérationnelles."
+
+theses_implicites:
+  - "L'hypothèse FEATURE (censure stratégique délibérée) est contredite par la publication en clair des articles d'action sur Substack (5€/mois). On ne peut pas simultanément cacher des méthodes et les vendre sur une plateforme américaine."
+  - "Le Rasoir d'Hanlon s'applique : ne pas attribuer à la malice (OPSEC) ce que l'incompétence (oubli d'éditer un fichier .md) suffit à expliquer."
+  - "L'auto-analyse du corpus par lui-même est nombriliste : elle ne produit aucune connaissance nouvelle sur la coordination acéphale."
+
+faits_atomiques:
+  - id: "F-cens-001"
+    enonce: "Le KERNEL (RESISTANCE.md) a été figé en novembre 2025 ; les articles d'action ont été publiés entre janvier et mai 2026. Le décalage temporel suggère un défaut d'intégration architecture/articles."
+    source_url: null
+    source_section: "§1"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-cens-002"
+    enonce: "Les articles d'action (rhizome, résidu, attrition, désorganisation, RIC) existent et sont publiés sur Substack. Si l'auteur voulait cacher les méthodes, il ne les aurait pas publiées."
+    source_url: null
+    source_section: "§1"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-cens-003"
+    enonce: "Les mouvements historiques (ANC, FLN, IRA) pratiquaient la stratification de l'information : objectifs publics, méthodes transmises oralement ou en cellules fermées. La rareté de manuels écrits était de l'OPSEC, pas de l'incompétence."
+    source_url: null
+    source_section: "§2"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-cens-004"
+    enonce: "Le KERNEL ne contient PAS de méta-explication justifiant pourquoi l'information n'est pas documentée — ce qui distingue un FEATURE (explication OPSEC) d'un BUG (vide sans justification)."
+    source_url: null
+    source_section: "§2"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Auteur du corpus"
+    role: "Producteur du KERNEL et des articles Substack — non interrogé"
+    faits_lies: ["F-cens-001", "F-cens-002"]
+
+causalites:
+  - cause: "F-cens-001"
+    effet: "F-cens-004"
+    mecanisme: "Le KERNEL figé avant production des articles = absence de mise à jour. L'absence de méta-explication confirme le BUG : un FEATURE aurait documenté POURQUOI les concepts sont vides."
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "C'est un BUG : l'architecture a été figée avant la production des articles, personne n'a fait la mise à jour. Les 5 concepts vides sont des coquilles qui attendent d'être remplies."
+  - position: "Antithèse"
+    argument: "C'est un FEATURE : documenter les méthodes les exposerait à l'adversaire. L'absence est une censure stratégique délibérée (OPSEC éditorial)."
+  - position: "Synthèse"
+    argument: "L'intention est inconnaissable sans interroger l'auteur. L'effet est le même dans les deux cas. Recommandation : traiter comme un BUG jusqu'à preuve du contraire (remplir les concepts)."
+
+limites:
+  - "Auteur non interrogé : toute conclusion sur l'intention est spéculative."
+  - "Distinction BUG/FEATURE binaire : la réalité pourrait être un mélange."
+  - "Enquête auto-référentielle : n'apporte aucune connaissance sur la coordination acéphale."
+
+wolves:
+  - nom: "Rasoir d'Hanlon"
+    argument: "Un fichier .md non mis à jour pendant 7 mois, c'est de la négligence, pas de l'OPSEC niveau 4. Prétendre l'inverse est du narcissisme intellectuel."
+    reponse: "Dévastateur et probablement vrai. L'enquête admet que les indices penchent vers le BUG. La thèse FEATURE est minoritaire."
+  - nom: "Paradoxe de la mitose"
+    argument: "Une architecture open source qui prétend se diffuser tout en cachant ses prescriptions s'annule elle-même. Le KERNEL incomplet est un KERNEL mort."
+    reponse: "Recevable. La seule défense : l'OPSEC porte sur l'AGRÉGATION en manuel unique, pas sur les idées individuelles. Distinction subtile et probablement spécieuse."
+
+iceberg:
+  - "Si le BUG est confirmé, le corpus souffre d'un défaut de maintenance qui affecte TOUTES ses productions. L'audit P3-P5 pourrait lui-même ne jamais être intégré au KERNEL."
+  - "Mnemolite: UP (36 942 mémoires) mais API search en erreur 500."
+  - "Sujet immergé : combien d'autres fichiers du corpus sont déphasés par rapport au KERNEL ?"
+
+chronologie:
+  - date: "2025-11"
+    evenement: "KERNEL RESISTANCE.md figé"
+    source_fait: "F-cens-001"
+  - date: "2026-01"
+    evenement: "Début publication articles d'action sur Substack"
+    source_fait: "F-cens-002"
+  - date: "2026-05"
+    evenement: "Fin publication articles d'action"
+    source_fait: "F-cens-002"
+
+domaines:
+  - "Méta-analyse"
+  - "OPSEC éditorial"
+  - "Gestion de corpus"
+
+urls_prioritaires: []
+
+shadow_factor: 2.5
+
+mnemo_queries:
+  - query: "coordination acéphale"
+    results_count: 0
+    error: "API error 500"
+  - query: "OPSEC infiltration double structure"
+    results_count: 0
+    error: "API error 500"

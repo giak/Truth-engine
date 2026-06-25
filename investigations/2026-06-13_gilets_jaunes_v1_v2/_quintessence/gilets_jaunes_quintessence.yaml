@@ -1,0 +1,211 @@
+enquete_id: "gilets_jaunes"
+complexity: "COMPLEX"
+date_extraction: "2026-06-13"
+enquete_source: "investigations/2026-06-13_gilets_jaunes_v1_v2/2026-06-13_gilets_jaunes_v1_v2_thesis_INVESTIGATION.md"
+
+these_centrale: "Les Gilets jaunes (2018-2020) valident l'hypothèse V1-sans-V2 : explosion visible massive (287k manifestants, 47k événements, 17 Md€ d'absorption étatique) mais zéro infrastructure survivante en 2026 — la puissance de blocage sans infrastructure de soutien mène à l'épuisement et à l'échec stratégique, bien que l'onde culturelle (giletjaunisation) persiste."
+
+theses_implicites:
+  - "L'hélicoptère prêt à exfiltrer Macron le 8 décembre 2018 (Canard Enchaîné, confirmé) prouve que l'État a perçu une menace existentielle réelle — ce n'était pas une révolte gérable"
+  - "Le Grand Débat National a été le contre-feu le plus efficace : il a séparé la colère de la rue (illégitime) de la participation encadrée (légitime) avec un rapport médiatique de 80:1"
+  - "La giletjaunisation (contamination du répertoire d'action GJ dans d'autres luttes) est l'héritage le plus tangible, pas l'infrastructure politique"
+
+faits_atomiques:
+  - id: "F-GJ-001"
+    enonce: "Le pic de mobilisation des Gilets jaunes est de 287 700 manifestants (Acte I, 17 novembre 2018), la plus grande mobilisation extra-syndicale depuis 1968."
+    source_section: "§1, §2.2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-GJ-002"
+    enonce: "Un hélicoptère était prêt à exfiltrer Macron de l'Élysée le 8 décembre 2018 (Acte IV) — confirmé par Le Canard Enchaîné, L'Alsace, Valeurs Actuelles."
+    source_section: "§1, §4.1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-GJ-003"
+    enonce: "Le mouvement a généré 47 695 manifestations et blocages en 6 mois, avec 2 034 sites de blocage au pic (source JDD)."
+    source_section: "§2.2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-GJ-004"
+    enonce: "11 morts, 2 448 manifestants blessés (dont 24 éborgnés, 5 mains arrachées), 1 797 forces de l'ordre blessées, 12 908 tirs LBD en 6 mois."
+    source_section: "§2.5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-GJ-005"
+    enonce: "Macron a annoncé 10 milliards d'euros de mesures sociales le 10 décembre 2018 (SMIC +100€, heures supp défiscalisées, CSG annulée). 17 Md€ au total déc 2018 + avril 2019."
+    source_section: "§1, §4.4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-GJ-006"
+    enonce: "Le Grand Débat National a reçu 2 millions de contributions, 500 000 participants en réunions locales, 1,9 million en ligne, 20 000 cahiers de doléances. Coût : ~10 M€. Ratio médiatique GDN/Vrai Débat = 80:1."
+    source_section: "§4.2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-GJ-007"
+    enonce: "12 107 interpellations en 6 mois, 3 163 condamnations en un an (dont 400 prison ferme immédiate). Loi anti-casseurs promulguée 11 avril 2019."
+    source_section: "§2.5, §4.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-GJ-008"
+    enonce: "L'Assemblée des Assemblées (AdA) a tenu 4 sessions : Commercy (janv 2019), Montceau-les-Mines (230 groupes), Saint-Nazaire (500-1000 délégués), Montpellier (nov 2019). Esquisse de V2."
+    source_section: "§3.1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-GJ-009"
+    enonce: "Le Vrai Débat (plateforme Cap Collectif) a réuni 44 576 inscrits, 25 229 propositions, 92 289 arguments, 898 790 votes."
+    source_section: "§3.1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-GJ-010"
+    enonce: "En 2026, il ne reste aucune infrastructure pérenne du mouvement : zéro association, fondation, média, coopérative, parti, ou fonds documentaire."
+    source_section: "§6.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-GJ-011"
+    enonce: "44% des GJ ont voté Marine Le Pen, 28% Mélenchon, 5% Macron à la présidentielle 2022 (source BVA/Ouest-France)."
+    source_section: "§6.2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-GJ-012"
+    enonce: "Le RIC (Référendum d'Initiative Citoyenne) a été proposé par 9 des 12 candidats présidentiels de 2022 — victoire idéologique la plus tangible du mouvement."
+    source_section: "§6.2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-GJ-013"
+    enonce: "Le mouvement a coûté 0,1 point de PIB (France Info, 2019). L'absorption étatique (17 Md€) représente ~0,74% du PIB de 2018."
+    source_section: "§4.4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Ludosky, Priscillia"
+    role: "Initiatrice de la pétition 'Pour une baisse des prix du carburant à la pompe' (29 mai 2018)"
+    faits_lies: ["F-GJ-001"]
+  - nom: "Drouet, Éric"
+    role: "Chauffeur routier, figure GJ, appel au blocage national via Facebook"
+    faits_lies: ["F-GJ-001"]
+  - nom: "Macron, Emmanuel"
+    role: "Président — cible GJ, 17 Md€ d'absorbtion, hélicoptère exfiltration"
+    faits_lies: ["F-GJ-002", "F-GJ-005"]
+  - nom: "Philippe, Édouard"
+    role: "Premier ministre — suspend TICPE 4 déc 2018"
+    faits_lies: []
+
+causalites:
+  - cause: "F-GJ-001"
+    effet: "F-GJ-002"
+    mecanisme: "L'ampleur de la mobilisation (287k pic) a créé une menace existentielle perçue par l'État, justifiant un plan d'exfiltration"
+  - cause: "F-GJ-005"
+    effet: "F-GJ-006"
+    mecanisme: "Les mesures sociales + Grand Débat ont constitué un contre-feu en trois volets : absorber (17 Md€), dialoguer (GDN), réprimer (LBD, lois)"
+  - cause: "F-GJ-008"
+    effet: "F-GJ-010"
+    mecanisme: "Les esquisses de V2 (AdA, Vrai Débat) n'ont pas survécu à l'épuisement du mouvement, faute d'infrastructure financière et juridique"
+
+perspectives_dialectiques:
+  - position: "Thèse — Les GJ ont prouvé que la V1 seule est une impasse"
+    argument: "287k manifestants, 47k événements, 17 Md€ d'absorption — et pourtant zéro infrastructure en 2026. La puissance de blocage sans V2 est un feu de paille."
+  - position: "Antithèse — Les GJ ont réussi comme signal historique"
+    argument: "La giletjaunisation (SNCF contrôleurs, médecins, boulangers), le RIC (9/12 candidats), et la recomposition du vote populaire sont des victoires invisibles mais réelles. La V1 a suffi pour imprimer une marque culturelle."
+  - position: "Synthèse"
+    argument: "Les GJ ont réussi comme signal et échoué comme mouvement. La V2 aurait amélioré la résilience mais pas changé le verrou institutionnel. La prescription : investir la V2 dès le jour 1, mais avec un horizon 5-10 ans."
+
+limites:
+  - "Sources principalement journalistiques (Le Monde, Le Figaro, JDD) — les données DILA et archives préfectorales pourraient affiner les métriques"
+  - "L'analyse de la V2 gagnerait à être complétée par des entretiens avec les participants de l'AdA"
+  - "L'effet GJ à long terme (giletjaunisation) est difficilement mesurable quantitativement"
+  - "Pas de comptage GPS indépendant des blocages"
+
+wolves:
+  - nom: "Sociologue institutionnel"
+    argument: "La thèse V1/V2 est une reconstruction a posteriori. Les GJ n'avaient pas de 'théorie d'action' — ils réagissaient à une injustice immédiate. L'absence de V2 n'est pas un échec mais une caractéristique."
+    reponse: "L'absence de théorie d'action explicite est précisément le problème documenté. Les GJ ne pensaient pas en termes de V1/V2, mais l'analyse montre que c'est ce verrou (absence de V2) qui les a condamnés."
+  - nom: "Militant GJ"
+    argument: "Nous avons changé le pays. Le RIC est dans tous les programmes. La giletjaunisation est partout. Ce n'est pas un échec."
+    reponse: "Le signal est réel mais ne suffit pas. Aucune des 47 revendications initiales n'a été satisfaite structurellement. Le Grand Débat n'a produit aucune loi. L'onde culturelle est tangible, la victoire politique est nulle."
+
+iceberg:
+  - "Le rôle des réseaux sociaux (Meta/Facebook) dans la coordination vs la fragmentation du mouvement GJ n'est pas analysé en profondeur"
+  - "Résultat Mnemolite: [query=gilets jaunes V1 V2, 1587 mémoires, quintessences boycott USA + saturation liées]"
+  - "Résultat Mnemolite: [query=mouvement social répression, 1587 mémoires, corpus coordination acéphalique existant]"
+
+chronologie:
+  - date: "2018-05-29"
+    evenement: "Pétition Priscillia Ludosky — baisse prix carburant"
+    source_fait: "F-GJ-001"
+  - date: "2018-11-17"
+    evenement: "Acte I — pic 287 700 manifestants"
+    source_fait: "F-GJ-001"
+  - date: "2018-12-08"
+    evenement: "Hélicoptère prêt exfiltrer Macron — Acte IV"
+    source_fait: "F-GJ-002"
+  - date: "2018-12-10"
+    evenement: "Macron 10 Md€ mesures sociales"
+    source_fait: "F-GJ-005"
+  - date: "2019-01-15"
+    evenement: "Lancement Grand Débat National"
+    source_fait: "F-GJ-006"
+  - date: "2019-01"
+    evenement: "Première Assemblée des Assemblées (Commercy)"
+    source_fait: "F-GJ-008"
+  - date: "2019-04-11"
+    evenement: "Loi anti-casseurs promulguée"
+    source_fait: "F-GJ-007"
+  - date: "2019-04"
+    evenement: "AdA Saint-Nazaire — 500-1000 délégués"
+    source_fait: "F-GJ-008"
+  - date: "2020-03"
+    evenement: "Covid-19 met fin de facto au mouvement"
+    source_fait: "F-GJ-010"
+  - date: "2022-04"
+    evenement: "44% GJ votent Le Pen, 28% Mélenchon"
+    source_fait: "F-GJ-011"
+  - date: "2026"
+    evenement: "Zéro infrastructure GJ survivante"
+    source_fait: "F-GJ-010"
+
+domaines:
+  - "Mouvement social — Gilets jaunes"
+  - "Théorie action acéphale (V1/V2)"
+  - "Contre-insurrection étatique"
+  - "Résistance civile"
+  - "Sociologie des mobilisations"
+
+urls_prioritaires:
+  - url: "https://fr.wikipedia.org/wiki/D%C3%A9roulement_du_mouvement_des_Gilets_jaunes"
+    description: "Déroulement complet du mouvement GJ — chronologie, chiffres"
+    head_status: 200
+  - url: "https://www.lejdd.fr/Societe/gilets-jaunes-quel-bilan-chiffre-6-mois-apres-lacte-1-3899090"
+    description: "Bilan chiffré JDD — 47k événements, 12k interpellations"
+    head_status: 200
+  - url: "https://www.lalsace.fr/actualite/2018/12/13/"
+    description: "Hélicoptère exfiltration Macron — confirmation L'Alsace"
+    head_status: 200
+  - url: "https://theconversation.com/democratie-participative-une-enquete-inedite-livre-les-enseignements-du-grand-debat-national-212292"
+    description: "Analyse Grand Débat National — Université Caen, 10% participants GJ"
+    head_status: 200
+  - url: "https://hal.science/hal-03101116/"
+    description: "Ravelli — Assemblée des Assemblées (AdA) analyse académique"
+    head_status: 200
+
+shadow_factor: 3.0
+mnemo_queries:
+  - query: "gilets jaunes V1 V2 acéphale"
+    results_count: 5
+    notes: "1587 mémoires ; quintessences USA + saturation liées"
+  - query: "mouvement social France blocage répression"
+    results_count: 5
+    notes: "1587 mémoires ; corpus coordination acéphalique existant"

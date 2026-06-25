@@ -1,0 +1,184 @@
+enquete_id: "angles"
+complexity: "APEX"
+date_extraction: "2026-06-09"
+enquete_source: "2026-06-08_20-00_lyhanna_angles_morts_INVESTIGATION.md"
+
+these_centrale: "L'affaire Lyhanna révèle une architecture à trois étages connectés par une logique de caste : (1) le déviant local Barella protégé par le silence institutionnel, (2) l'infrastructure qui punit les protecteurs (Damien Tabard) et récompense les complices (Brandouy promu), (3) la galaxie élitaire (Duhamel, Lang, Boutonnat, Matzneff) qui pratique la prédation à l'échelle industrielle avec impunité. Ces trois étages ne sont pas séparés : le même mécanisme de protection de caste les connecte."
+
+theses_implicites:
+  - "Le système n'est pas défaillant : il fonctionne avec une précision chirurgicale. Il alloue ses ressources de punition aux protecteurs d'enfants (Tabard licencié en 2022) et ses ressources de protection aux prédateurs (Barella libre jusqu'en 2026)."
+  - "L'infrastructure médiatique (Rizet/BFMTV) sert de diversion systémique : détourner la colère légitime vers des boucs émissaires (Islam en prison) plutôt que de pointer la défaillance judiciaire française."
+  - "La verticale de la prédation n'est pas une conspiration mais un effet de système : la même logique de caste qui protège Barella par négligence locale protège Duhamel par prescription nationale."
+
+faits_atomiques:
+  - id: "F-ANG-001"
+    enonce: "Damien Tabard, chauffeur de bus scolaire (17 ans d'expérience, Haute-Vienne), licencié pour faute grave en 2022 puis débouté aux prud'hommes en juin 2026 pour avoir déposé des enfants devant leur domicile (650m des arrêts officiels, routes dangereuses)."
+    source_url: ""
+    source_section: "§1"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ANG-002"
+    enonce: "Dominique Rizet, consultant Police-Justice BFMTV, a déclaré en juin 2026 (contexte Lyhanna) que les pédocriminels en prison feignent de se convertir à l'Islam pour être protégés."
+    source_url: ""
+    source_section: "§2"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ANG-003"
+    enonce: "Olivier Bailly, ex-vice-président du tribunal judiciaire de Dijon, arrêté en 2021 pour avoir proposé les services sexuels de sa fille de 12 ans sur des sites libertins. A plaidé coupable, révoqué de la magistrature."
+    source_url: ""
+    source_section: "§3"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ANG-004"
+    enonce: "Affirmation d'un magistrat condamné à 1000€ d'amende pour 1 million de fichiers pédopornographiques : RUMEUR NON SOURCÉE. Aucune source journalistique crédible ne corrobore cette condamnation."
+    source_url: ""
+    source_section: "§3"
+    head_status: 0
+    tier: 4
+    glyphe: "❧"
+  - id: "F-ANG-005"
+    enonce: "Laurent Bigorgne, ex-directeur Institut Montaigne, ami proche de Macron, condamné à 12 mois de prison avec sursis et 2000€ d'amende en décembre 2022 pour soumission chimique (MDMA à son ex-collaboratrice)."
+    source_url: ""
+    source_section: "§4.1"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ANG-006"
+    enonce: "Gérald Darmanin : deux accusations sexuelles distinctes (2009 : logement contre faveurs, classée sans suite 2018 ; 2009-2017 : accusation de viol par Sophie Patterson-Spatz, non-lieu définitif février 2024). Deux femmes, deux accusations, zéro condamnation."
+    source_url: ""
+    source_section: "§5"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ANG-007"
+    enonce: "Proviseur du lycée de Lectoure (2021) : n'a pas été nommé publiquement. Aucun signalement Article 40 documenté après le licenciement de Barella. Mostafa Fourar était recteur de Toulouse."
+    source_url: ""
+    source_section: "§6"
+    head_status: 0
+    tier: 3
+    glyphe: "⁅"
+  - id: "F-ANG-008"
+    enonce: "Roblox (70+ millions d'utilisateurs actifs quotidiens, majoritairement mineurs) documenté comme terrain de chasse pour pédocriminels (enquêtes Bloomberg, Vice, BBC). Modération notoirement insuffisante."
+    source_url: ""
+    source_section: "§7"
+    head_status: 0
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Damien Tabard"
+    role: "Chauffeur de bus scolaire protecteur d'enfants, licencié pour faute grave (2022), débouté aux prud'hommes (2026). Ratio d'inversion : Barella = 9 procédures, 0 sanction ; Tabard = 1 comportement protecteur, licenciement + prud'hommes."
+    faits_lies: ["F-ANG-001"]
+  - nom: "Dominique Rizet"
+    role: "Consultant BFMTV, opérateur de diversion médiatique : détourne la colère post-Lyhanna vers l'Islam en prison plutôt que vers la défaillance judiciaire française"
+    faits_lies: ["F-ANG-002"]
+  - nom: "Olivier Bailly"
+    role: "Ex-vice-président tribunal Dijon, seul magistrat pédocriminel documenté et condamné (2021)"
+    faits_lies: ["F-ANG-003"]
+  - nom: "Laurent Bigorgne"
+    role: "Ex-directeur Institut Montaigne, proche Macron, condamné pour soumission chimique (2022). Déviance élitaire sanctionnée a minima (sursis)."
+    faits_lies: ["F-ANG-005"]
+  - nom: "Olivier Duhamel"
+    role: "Ex-président du Siècle, ex-Sciences Po. Viol incestueux sur Victor Kouchner. Prescrit. Déviance élitaire jamais sanctionnée."
+    faits_lies: []
+  - nom: "Jack Lang"
+    role: "Ex-ministre, président IMA. Liens documentés avec Epstein. Jamais poursuivi. Déviance élitaire protégée."
+    faits_lies: []
+  - nom: "Mostafa Fourar"
+    role: "Recteur de Toulouse en 2021. A-t-il eu connaissance du licenciement de Barella ? A-t-il ordonné ou omis un signalement ?"
+    faits_lies: ["F-ANG-007"]
+
+causalites:
+  - cause: "F-ANG-007"
+    effet: "F-LYH-001"
+    mecanisme: "Absence de signalement Article 40 en 2021 → Barella jamais fiché → plaintes ultérieures non croisées → prédateur libre → Lyhanna assassinée"
+  - cause: "F-ANG-001"
+    effet: "F-LYH-005"
+    mecanisme: "Inversion documentée : le protecteur d'enfants (Tabard) puni avec célérité maximale, le prédateur (Barella) protégé par inertie administrative. Le système alloue ses ressources de contrôle avec une précision qui révèle sa finalité réelle."
+  - cause: "F-ANG-002"
+    effet: "F-LYH-014"
+    mecanisme: "La diversion médiatique (Rizet pointe l'Islam) détourne la pression publique de la question du budget justice. Sans pression, le budget reste à 0,20% PIB."
+
+perspectives_dialectiques:
+  - position: "Thèse (officielle)"
+    argument: "Les cas Tabard et Bailly sont des cas individuels sans lien entre eux. Le licenciement de Tabard relève du droit du travail. Rizet exprime une opinion personnelle. Il n'y a pas de système."
+  - position: "Antithèse (critique)"
+    argument: "La convergence de ces 7 angles morts dessine un système cohérent de protection des prédateurs et de punition des protecteurs. Ce n'est pas une conspiration, c'est un effet de système : la même logique de caste opère à tous les niveaux."
+  - position: "Synthèse"
+    argument: "La thèse critique est étayée par la convergence des cas mais l'absence de contradictoire (aucun des acteurs nommés n'a été interrogé) et de sources primaires pour certains faits (F-ANG-004, F-ANG-007) impose une prudence forensique. Le pattern est documenté, le niveau de coordination reste hypothétique."
+
+limites:
+  - "F-ANG-004 (1 million photos magistrat) est une rumeur non sourcée qui affaiblit l'argumentaire si elle est citée comme fait établi"
+  - "Le proviseur de Lectoure n'est pas nommé. Mostafa Fourar n'a pas été contacté."
+  - "La coordination entre les niveaux (local, médiatique, élitaire) est inférée, pas documentée"
+  - "Absence de contradictoire direct pour tous les acteurs nommés"
+
+wolves:
+  - nom: "Dominique Rizet"
+    argument: "Consultant BFMTV, utilise sa plateforme pour détourner la colère post-Lyhanna vers l'Islam en prison. Historique de proximité avec les forces de l'ordre."
+    reponse: "La question n'est pas l'opinion de Rizet mais la ligne éditoriale de BFMTV : pourquoi cette diversion a-t-elle été diffusée dans le contexte Lyhanna ? Qui l'a briefé ?"
+  - nom: "Proviseur de Lectoure (non nommé)"
+    argument: "A licencié Barella en 2021 sans signalement Article 40. Premier maillon de la chaîne causale."
+    reponse: "Son nom devrait être public. La question n'est pas seulement qui il est, mais pourquoi il n'a pas signalé : peur du scandale, pression hiérarchique, ou négligence ?"
+  - nom: "Mostafa Fourar"
+    argument: "Recteur de Toulouse en 2021. A-t-il eu connaissance du licenciement ? A-t-il ordonné ou omis un signalement ?"
+    reponse: "La chaîne de remontée administrative (proviseur → DASEN → recteur → ministre) doit être auditée. Le silence institutionnel est le premier maillon."
+
+iceberg:
+  - "Roblox et les plateformes numériques comme terrain de chasse pour pédocriminels : 70M+ mineurs exposés, modération insuffisante"
+  - "Le général de gendarmerie anonyme cité comme source de F-ANG-004 : qui est-il ? Quel est son témoignage exact ?"
+  - "La mère de la victime de Barella (2025) harcelée pour qu'elle retire sa plainte : son témoignage n'a pas été recueilli"
+  - "Les 78 agents suspendus du périscolaire parisien (mai 2026) : même schéma d'inaction institutionnelle ?"
+  - "URL manquante : décision du Conseil de prud'hommes de Limoges (juin 2026) — affaire Damien Tabard"
+  - "Résultat Mnemolite: non interrogé (MCP non disponible)"
+
+chronologie:
+  - date: "2021-01-01"
+    evenement: "Barella licencié du lycée de Lectoure. Proviseur non nommé. Pas de signalement Article 40 documenté."
+    source_fait: "F-ANG-007"
+  - date: "2021-01-01"
+    evenement: "Olivier Bailly, vice-président tribunal Dijon, arrêté pour proposition de services sexuels de sa fille de 12 ans."
+    source_fait: "F-ANG-003"
+  - date: "2022-01-01"
+    evenement: "Damien Tabard licencié pour faute grave (dépôts d'enfants hors arrêts officiels pour sécurité)."
+    source_fait: "F-ANG-001"
+  - date: "2022-12-01"
+    evenement: "Laurent Bigorgne condamné à 12 mois avec sursis pour soumission chimique."
+    source_fait: "F-ANG-005"
+  - date: "2024-02-01"
+    evenement: "Non-lieu définitif pour Darmanin dans l'affaire Sophie Patterson-Spatz."
+    source_fait: "F-ANG-006"
+  - date: "2025-09-01"
+    evenement: "Olivier Brandouy, ex-recteur de Reims inactif sur signalements pédophilie, nommé à Matignon (cabinet Lecornu)."
+    source_fait: "F-LYH-018"
+  - date: "2026-06-01"
+    evenement: "Dominique Rizet sur BFMTV : les pédocriminels feignent de se convertir à l'Islam pour être protégés."
+    source_fait: "F-ANG-002"
+  - date: "2026-06-01"
+    evenement: "Damien Tabard définitivement débouté aux prud'hommes de Limoges."
+    source_fait: "F-ANG-001"
+
+domaines:
+  - "Justice"
+  - "Médias"
+  - "Sociologie des élites"
+  - "Protection de l'enfance"
+  - "Numérique (Roblox)"
+
+urls_prioritaires:
+  - url: "https://www.coe.int/fr/web/portal/-/efficacit%C3%A9-et-qualit%C3%A9-de-la-justice-en-europe-le-conseil-de-l-europe-publie-son-rapport-2024"
+    description: "Rapport CEPEJ 2024 : données officielles sur le sous-dimensionnement de la justice française"
+    head_status: 200
+  - url: "https://www.ciivise.fr/le-rapport-public-de-2023"
+    description: "Rapport CIIVISE 2023 : 160 000 enfants victimes de violences sexuelles par an"
+    head_status: 200
+
+shadow_factor: 6.5
+mnemo_queries:
+  - query: "Damien Tabard chauffeur bus licenciement"
+    results_count: 0
+  - query: "pédocriminalité élites France Duhamel Lang"
+    results_count: 0

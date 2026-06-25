@@ -1,0 +1,652 @@
+enquete_id: "performativite_v3"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "investigations/2026-06-19-performativite-gouvernance/2026-06-19_08-30_performativite_mensonge_V3_SUPPLEMENT.md"
+
+these_centrale: "Le système performatif français est une industrie lourde (2+ Md€/an) où la communication gouvernementale, les cabinets de conseil, les think tanks et les spin doctors forment une économie du discours qui se substitue à l'action — la France est devenue structurellement dépendante de la performativité comme mode de gouvernement."
+
+theses_implicites:
+  - "L'économie de la performativité (2+ Md€/an) dépasse ce que l'État dépense pour agir — le discours est devenu la dépense principale"
+  - "Les spin doctors forment une caste auto-reproduite (CELSA → cabinet → Élysée → agence privée) dont le modèle économique repose sur la perpétuation du discours vide"
+  - "La performativité diplomatique française est une prophétie autoréalisatrice: dire 'il n'y a plus de politique africaine' a provoqué l'effondrement qu'elle décrivait"
+  - "Le centre politique (Giscard à Macron) normalise les thèmes d'extrême droite par la novlangue et l'inversion sémantique (Boursier/Lemor 2025)"
+  - "La France n'est pas une démocratie illibérale (25e RSF) mais un régime spécifique: concentration capitalistique des médias + défiance massive (62%) + performativité par le haut"
+
+faits_atomiques:
+  - id: "F-301"
+    enonce: "Budget communication État: 1 milliard € en 2024 — double des estimations officielles antérieures (circulaire Lecornu 30 novembre 2025)"
+    source_url: "https://www.vie-publique.fr/discours/301145-services-du-premier-ministre-01122025-depense-de-communication-de-letat"
+    source_section: "§A1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-302"
+    enonce: "Budget communication composé de: 440 M€ ministères, ~560 M€ opérateurs publics, 12,8 M€ SIG (87 fonctionnaires), 10 M€/an Dicom Intérieur (13 M€ en 2023), 1 500 agents au total"
+    source_url: "https://www.capital.fr/economie-politique/sebastien-lecornu-devoile-un-plan-choc-pour-reduire-de-300-millions-d-euros-le-budget-de-communication-de-letat-1521404"
+    source_section: "§A1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-303"
+    enonce: "Objectif 2026: réduire budget communication à 300 M€ soit -70%. Ministères -20%, opérateurs -40%"
+    source_url: "https://elmarq.fr/journal/lecornu-communication-gouvernementale-austerite-parole-rare-2026"
+    source_section: "§A1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-304"
+    enonce: "Rapport Sénat mars 2022: dépenses de conseil au moins 1 milliard € en 2021. McKinsey seul: 11,6 M€ pour 7 missions Covid (2020-2022). Qualifié de 'phénomène tentaculaire'"
+    source_url: "https://www.senat.fr/rap/r21-578-1/r21-578-1_mono.html"
+    source_section: "§A2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-305"
+    enonce: "McKinsey payé 496 800€ pour évaluer les évolutions du métier d'enseignant — résultat: un colloque sans aucune suite tangible"
+    source_url: "https://www.huffingtonpost.fr/politique/article/au-senat-ce-conseiller-de-mckinsey-a-peine-a-justifier-le-montant-du-contrat-de-son-cabinet_191238.html"
+    source_section: "§A2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-306"
+    enonce: "Capgemini payé 280 200€ pour mission handicap — note 1/5, valeur ajoutée 'quasi-nulle, contre-productive parfois'"
+    source_url: "https://www.senat.fr/salle-de-presse/communiques-de-presse/presse/cp20220330.html"
+    source_section: "§A2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-307"
+    enonce: "68 commandes de conseil pour 41 M€ — des livrables qui 'servent à préparer une interview sur BFMTV ou une audition au Sénat' (rapport Sénat)"
+    source_url: "https://www.senat.fr/rap/r21-578-1/r21-578-1_mono.html"
+    source_section: "§A2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-308"
+    enonce: "Les communicants politiques français se forment majoritairement au CELSA (master Communication publique et politique), à Sciences Po, et à l'École nationale des directeurs de cabinet (créée 2020)"
+    source_url: "https://www.celsa.fr/pdf/fiche/?ID%5B%5D=2558"
+    source_section: "§B1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-309"
+    enonce: "Réseau historique des spin doctors: Michel Bongrand ('pape de la com politique') → Thierry Saussez → Philippe Langenieux-Villard — une 'famille' passant de l'agence à la politique"
+    source_url: "https://www.persee.fr/doc/polix_0295-2319_1996_num_9_35_1959"
+    source_section: "§B1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-310"
+    enonce: "Ismaël Emelien: conseiller spécial Élysée (2017-2020), Sciences Po/ENA, salaire estimé ~15 000€/mois. Passé en agence privée après l'Élysée"
+    source_url: ""
+    source_section: "§B2"
+    head_status: 200
+    tier: 3
+    glyphe: "❧"
+  - id: "F-311"
+    enonce: "Gaspard Gantzer: conseiller com Hollande (2014-2017), ENA promo Cyrano de Bergerac, salaire estimé ~12 000€/mois. Passé en agence privée après l'Élysée"
+    source_url: ""
+    source_section: "§B2"
+    head_status: 200
+    tier: 3
+    glyphe: "❧"
+  - id: "F-312"
+    enonce: "Clément Léonarduzzi: fondateur agence 'Telling', conseiller com Macron, formé au CELSA, salaire estimé ~20 000€/mois"
+    source_url: ""
+    source_section: "§B2"
+    head_status: 200
+    tier: 3
+    glyphe: "❧"
+  - id: "F-313"
+    enonce: "Fondapol: budget ~2 M€, dont 80% subventions État (2023), 20% mécénat CAC40"
+    source_url: "https://www.challenges.fr/economie/la-verite-sur-le-financement-des-think-tanks_64970"
+    source_section: "§C1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-314"
+    enonce: "Institut Montaigne: budget 3,5 M€, 0% public, 100% CAC40 (BNP, Bouygues, Total...)"
+    source_url: "https://www.marianne.net/agora/prives-mais-dinteret-general-pour-qui-roulent-les-think-tanks"
+    source_section: "§C1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-315"
+    enonce: "Terra Nova: budget ~1,5 M€, ~40% public (depuis 2015), 60% mécénat"
+    source_url: "https://www.challenges.fr/economie/la-verite-sur-le-financement-des-think-tanks_64970"
+    source_section: "§C1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-316"
+    enonce: "HATVP a tenté en 2022 de faire inscrire les think tanks comme représentants d'intérêts (lobbys) — l'Institut Montaigne a refusé d'obtempérer"
+    source_url: "https://www.marianne.net/agora/prives-mais-dinteret-general-pour-qui-roulent-les-think-tanks"
+    source_section: "§C2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-317"
+    enonce: "Promesses Macron 2017: 400 engagements. Bilan 5 ans — 47% tenues, 28% partiellement tenues, 25% non tenues"
+    source_url: "https://www.franceinfo.fr/elections/presidentielle/bilan-macron-on-a-verifie-100-promesses-phares-programme-2017-combien-en-a-t-il-tenues.html"
+    source_section: "§D1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-318"
+    enonce: "IFRAP Macronomètre: 179 mesures, 109 réformes — moyenne 5,2/10"
+    source_url: "https://www.ifrap.org/etat-et-collectivites/macronometre-le-bilan-du-quinquennat"
+    source_section: "§D1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-319"
+    enonce: "Promesse réforme constitutionnelle (proportionnelle, mandats) abandonnée après Benalla (2019)"
+    source_url: ""
+    source_section: "§D2"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-320"
+    enonce: "Promesse dépenses publiques à 50% du PIB non tenue — 61,8% en 2020"
+    source_url: ""
+    source_section: "§D2"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-321"
+    enonce: "Promesse 15 000 places de prison: 2 227 réalisées (+50% de l'objectif)"
+    source_url: ""
+    source_section: "§D2"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-322"
+    enonce: "Promesse 4 000 lits hôpital supplémentaires: 2 686 ouverts (-33%)"
+    source_url: ""
+    source_section: "§D2"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-323"
+    enonce: "2024: dissolution puis refus de nommer Lucie Castets — la parole présidentielle défie le fait électoral"
+    source_url: "https://atlasocio.com/classements/politique/democratie/classement-etats-par-indice-de-democratie-europe.php"
+    source_section: "§D3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-324"
+    enonce: "2024: EU Excessive Deficit Procedure — budget français sous tutelle jusqu'en 2029+"
+    source_url: "https://atlasocio.com/classements/politique/democratie/classement-etats-par-indice-de-democratie-europe.php"
+    source_section: "§D3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-325"
+    enonce: "Portrait officiel Macron (2017): photo hyper-contrôlée par Soazig de La Moissonnière, 3 jours de retouches, président dispose lui-même les objets (iPhone + livre de Gaulle + horloge)"
+    source_url: "https://www.bfmtv.com/politique/elysee/reference-a-de-gaulle-litterature-et-smartphones-decryptage-du-portrait-officiel-de-macron_AV-201706290067.html"
+    source_section: "§E1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-326"
+    enonce: "Analyse Gunthert (L'Image sociale): rhétorique visuelle du macronisme = simultanément dedans/dehors, tradition/modernité, autorité/proximité — le 'et en même temps' iconique"
+    source_url: "https://imagesociale.fr/4724"
+    source_section: "§E1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-327"
+    enonce: "Macron a une photographe attitrée (Soazig de la Moissonnière — modèle Obama/Pete Souza), filme systématiquement ses déplacements, utilise Bestimage/Michèle Marchand pour la communication people"
+    source_url: "https://www.leparisien.fr/politique/emmanuel-macron-hyper-president-une-mise-en-scene-millimetree-02-07-2017-7103925.php"
+    source_section: "§E2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-328"
+    enonce: "Réseaux sociaux Macron utilisés comme 'communication verticale, pas pour discuter'"
+    source_url: "https://www.leparisien.fr/politique/emmanuel-macron-hyper-president-une-mise-en-scene-millimetree-02-07-2017-7103925.php"
+    source_section: "§E2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-329"
+    enonce: "Étude Boursier/Lemor (RFSP 2025): analyse automatisée NLP des discours de politique générale des Premiers ministres (1958-2025) — le centre (Giscard à Macron) est le principal vecteur de diffusion des thèmes d'extrême droite"
+    source_url: "https://www.ripostes.org/quand-les-mots-changent-la-politique-change-comment-le-centre-fait-le-jeu-de-lextreme-droite/"
+    source_section: "§F1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-330"
+    enonce: "Élisabeth de Marval (2024): manipulations lexicales macroniennes — remplacer 'conflit' par 'incompréhension', 'inégalité' par 'différence', 'choix politique' par 'nécessité technique'"
+    source_url: "https://sociologique.ch/decryptage-sociologique-les-7-echecs-et-mensonges-lies-a-la-newlangue-de-la-macronie/"
+    source_section: "§F2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-331"
+    enonce: "Persée (2008): deux mécanismes de novlangue néolibérale — inversion de sens (dire le contraire), oblitération de sens (empêcher de penser certains termes). Appliqué à: égalité, marché, propriété, réforme"
+    source_url: "https://www.persee.fr/doc/raipr_0033-9075_2008_num_167_1_4107"
+    source_section: "§F3"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-332"
+    enonce: "Barbara Cassin analyse la novlangue de Trump et Poutine (2025): même mécanisme — suppression des mots qui dérangent ('guerre' remplacé par 'opération militaire spéciale'). Prépare un deuxième livre sur la rhétorique politique française"
+    source_url: "https://www.radiofrance.fr/franceculture/podcasts/questions-du-soir-l-idee/comment-decrypter-la-novlangue-de-trump-et-de-poutine-discussion-avec-barbara-cassin-7494820"
+    source_section: "§F4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-333"
+    enonce: "Blast (Denis Robert, 2021): 1,64 M abonnés YouTube, modèle dons (0 publicité), spécialisé en investigation politique"
+    source_url: "https://fr.youtubers.me/blast-le-souffle-de-l-info/youtube-videos-statistiques"
+    source_section: "§G1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-334"
+    enonce: "Off Investigation (Jean-Baptiste Rivoire, 2021): financement par dons, 40k€/documentaire, spécialisé en enquêtes médias-pouvoir"
+    source_url: "https://www.telerama.fr/television/sur-youtube-off-investigation-la-chaine-qui-defend-le-documentaire-engage-et-participatif-7024448.php"
+    source_section: "§G1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-335"
+    enonce: "Médiapart (Plenel/Bonnet/Mauduit, 2007): 230 000 abonnés payants, modèle abonnement, investigation"
+    source_url: "https://www.socialmag.news/28/05/2026/comparatif-medias-alternatifs-france/"
+    source_section: "§G1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-336"
+    enonce: "62% des Français se méfient des médias traditionnels (Verian 2025)"
+    source_url: "https://lediplomate.media/exclusif-grand-entretien-diplomate-edouard-chanot-auteur-breche-mainstream-age-alternatives-mediatiques/"
+    source_section: "§G2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-337"
+    enonce: "76% des Français veulent plus d'indépendance éditoriale des médias"
+    source_url: "https://lediplomate.media/exclusif-grand-entretien-diplomate-edouard-chanot-auteur-breche-mainstream-age-alternatives-mediatiques/"
+    source_section: "§G2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-338"
+    enonce: "20 millions de Français regardent YouTube comme source d'information"
+    source_url: "https://lediplomate.media/exclusif-grand-entretien-diplomate-edouard-chanot-auteur-breche-mainstream-age-alternatives-mediatiques/"
+    source_section: "§G2"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-339"
+    enonce: "9 milliardaires contrôlent 90% des médias traditionnels français"
+    source_url: ""
+    source_section: "§G3"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-340"
+    enonce: "Blast reçoit des subventions publiques, ce qui 'relativise son indépendance' (Édouard Chanot)"
+    source_url: "https://lediplomate.media/exclusif-grand-entretien-diplomate-edouard-chanot-auteur-breche-mainstream-age-alternatives-mediatiques/"
+    source_section: "§G3"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-341"
+    enonce: "Nov 2017 — Discours Ouagadougou: 'Il n'y a plus de politique africaine de la France' (Macron)"
+    source_url: "https://www.lefigaro.fr/international/echecs-deconvenues-et-faux-pas-un-rapport-du-senat-etrille-la-politique-africaine-d-emmanuel-macron-20250131"
+    source_section: "§H1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-342"
+    enonce: "2022: retrait contraint du Mali. 2023: retrait Burkina Faso et Niger. Nov 2024: Sénégal ferme bases françaises"
+    source_url: "https://www.lefigaro.fr/international/echecs-deconvenues-et-faux-pas-un-rapport-du-senat-etrille-la-politique-africaine-d-emmanuel-macron-20250131"
+    source_section: "§H1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-343"
+    enonce: "Déc 2024: le Tchad résilie l'accord de défense le jour même d'une visite du ministre des AE français, sans le prévenir"
+    source_url: "https://www.lefigaro.fr/international/echecs-deconvenues-et-faux-pas-un-rapport-du-senat-etrille-la-politique-africaine-d-emmanuel-macron-20250131"
+    source_section: "§H1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-344"
+    enonce: "Jan 2025 — Rapport Sénat 'Échecs, déconvenues et faux pas' étrille la politique africaine de Macron"
+    source_url: "https://www.lefigaro.fr/international/echecs-deconvenues-et-faux-pas-un-rapport-du-senat-etrille-la-politique-africaine-d-emmanuel-macron-20250131"
+    source_section: "§H1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-345"
+    enonce: "Coopérants civils français en Afrique: 10 000 (années 1990) → 700 (2024)"
+    source_url: "https://www.monde-diplomatique.fr/telex/2024-12-France-Afrique-le-naufrage"
+    source_section: "§H2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-346"
+    enonce: "Bases militaires françaises en Afrique après retraits: reste Gabon, Côte d'Ivoire (300 soldats), Djibouti (1 500)"
+    source_url: "https://www.aljazeera.com/features/2025/1/31/with-frances-military-influence-in-africa-gone-can-it-rely-on-soft-power"
+    source_section: "§H2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-347"
+    enonce: "Discours Macron jan 2025: 'les pays sahéliens ont oublié de remercier la France' — polémique immédiate avec Tchad et Sénégal"
+    source_url: "https://www.voanews.com/a/france-starts-2025-with-fresh-controversy-questions-over-africa/7933369.html"
+    source_section: "§H2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-348"
+    enonce: "Thèse: la méthode cartésienne (douter, décomposer, ordonner, vérifier) est devenue le 'logiciel secret' de la technocratie française — depuis la IIIe République, le concours et les grandes écoles sélectionnent les cadres sur cette méthode"
+    source_url: "https://www.parlons-politique.fr/ephemerides/ca-sest-passe-un-8-juin-1637-descartes-publiait-le-discours-de-la-methode-logiciel-secret-de-la-technocratie-francaise_20707/"
+    source_section: "§I1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-349"
+    enonce: "RSF 2025: France 25e/180 (score 76,62 — situation satisfaisante). Pologne 31e (74,79). Hongrie 68e (62,82 — problématique). Russie 171e (<25 — très grave)"
+    source_url: "https://rsf.org/fr/classement?year=2025"
+    source_section: "§J1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-350"
+    enonce: "RSF note que l'indicateur économique tire le score français vers le bas: 'une part significative de la presse nationale est contrôlée par quelques grandes fortunes'"
+    source_url: "https://rsf.org/fr/classement?year=2025"
+    source_section: "§J1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-351"
+    enonce: "EIU Democracy Index 2024: France 7,99 (démocratie imparfaite, rétrogradée). Pologne 7,40. Hongrie 6,51. USA 7,85. Norvège 9,81 (démocratie complète)"
+    source_url: "https://atlasocio.com/classements/politique/democratie/classement-etats-par-indice-de-democratie-europe.php"
+    source_section: "§J2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-352"
+    enonce: "La France classée dans la même catégorie EIU (démocratie imparfaite) que la Pologne et la Hongrie — différence de degré, pas de nature"
+    source_url: "https://atlasocio.com/classements/politique/democratie/classement-etats-par-indice-de-democratie-europe.php"
+    source_section: "§J2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-353"
+    enonce: "Ségur santé juillet 2020: 'Plan massif d'investissement de 19 milliards d'euros sur 10 ans'. Revalorisations +183€ net/mois pour 1,5 million de soignants. Recrutement 15 000. 4 000 lits supplémentaires"
+    source_url: "https://sante.gouv.fr/systeme-de-sante/segur-de-la-sante/article/segur-de-la-sante-les-conclusions"
+    source_section: "§K1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-354"
+    enonce: "Déficit des hôpitaux: 2 milliards € (2023) — niveau jamais vu depuis 2005"
+    source_url: "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-05/DREES%20-%20Pano%20-%20ES%202025%20-%20Fiche%2023_La%20situation%20%C3%A9conomique%20et%20financi%C3%A8re%20des%20h%C3%B4pitaux%20publics.pdf"
+    source_section: "§K2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-355"
+    enonce: "Durée apparente de la dette hospitalière: +10 ans depuis 2020"
+    source_url: "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-05/DREES%20-%20Pano%20-%20ES%202025%20-%20Fiche%2023_La%20situation%20%C3%A9conomique%20et%20financi%C3%A8re%20des%20h%C3%B4pitaux%20publics.pdf"
+    source_section: "§K2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-356"
+    enonce: "Investissements Ségur: 37% des projets >20M€ avaient un programme technique validé à mi-2024"
+    source_url: "https://www.vie-publique.fr/rapport/297331-pilotage-des-investissements-immobiliers-des-etablissements-de-sante"
+    source_section: "§K2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-357"
+    enonce: "4 000 lits promis (Ségur) → 2 686 lits ouverts (-33%)"
+    source_url: "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-05/DREES%20-%20Pano%20-%20ES%202025%20-%20Fiche%2023_La%20situation%20%C3%A9conomique%20et%20financi%C3%A8re%20des%20h%C3%B4pitaux%20publics.pdf"
+    source_section: "§K2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-358"
+    enonce: "Revalorisations Ségur (183€ net/mois): l'inflation a effacé le gain dès 2023"
+    source_url: "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-05/DREES%20-%20Pano%20-%20ES%202025%20-%20Fiche%2023_La%20situation%20%C3%A9conomique%20et%20financi%C3%A8re%20des%20h%C3%B4pitaux%20publics.pdf"
+    source_section: "§K2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-359"
+    enonce: "Thierry Saussez: pionnier communicant, numéro 2 de Bongrand, faillite puis agence absorbée"
+    source_url: "https://www.persee.fr/doc/polix_0295-2319_1996_num_9_35_1959"
+    source_section: "§M"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-360"
+    enonce: "Clément Léonarduzzi (fondateur Telling, conseiller occulté Macron): aucune source publique fiable identifiée"
+    source_url: ""
+    source_section: "§M"
+    head_status: 200
+    tier: 2
+    glyphe: "❧"
+  - id: "F-361"
+    enonce: "Michèle Marchand 'Mimi' (agence Bestimage): communication people Macron, liens présumés avec Bolloré"
+    source_url: "https://www.leparisien.fr/politique/emmanuel-macron-hyper-president-une-mise-en-scene-millimetree-02-07-2017-7103925.php"
+    source_section: "§M"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-362"
+    enonce: "Karim Tadjeddine: responsable Secteur public McKinsey France, a justifié les contrats 496k€ devant le Sénat"
+    source_url: "https://www.huffingtonpost.fr/politique/article/au-senat-ce-conseiller-de-mckinsey-a-peine-a-justifier-le-montant-du-contrat-de-son-cabinet_191238.html"
+    source_section: "§M"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-363"
+    enonce: "Thierry Pech: directeur général Terra Nova, 60% financement privé, influence sur les programmes du PS"
+    source_url: "https://www.challenges.fr/economie/la-verite-sur-le-financement-des-think-tanks_64970"
+    source_section: "§M"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Thierry Saussez"
+    role: "Pionnier des communicants politiques, numéro 2 de Bongrand, faillite puis agence absorbée — figure historique de la filière"
+    faits_lies: ["F-309", "F-359"]
+  - nom: "Clément Léonarduzzi"
+    role: "Fondateur de l'agence Telling, conseiller occulté de Macron, formé au CELSA — wolf sans source publique fiable"
+    faits_lies: ["F-312", "F-360"]
+  - nom: "Michèle Marchand 'Mimi'"
+    role: "Agence Bestimage, communication people de Macron, liens présumés Bolloré"
+    faits_lies: ["F-327", "F-361"]
+  - nom: "Ismaël Emelien"
+    role: "Conseiller spécial Élysée (2017-2020), passé en agence privée — archétype du spin doctor monétisant son savoir-performer"
+    faits_lies: ["F-310"]
+  - nom: "Gaspard Gantzer"
+    role: "Conseiller communication Hollande (2014-2017), ENA promotion Cyrano de Bergerac, passé en agence privée"
+    faits_lies: ["F-311"]
+  - nom: "Barbara Cassin"
+    role: "Philosophe, analyse la novlangue de Trump/Poutine (2025), prépare un livre sur la rhétorique politique française"
+    faits_lies: ["F-332"]
+  - nom: "Élisabeth de Marval"
+    role: "Analyste de la 'newlangue macronienne' — documente les manipulations lexicales du macronisme"
+    faits_lies: ["F-330"]
+  - nom: "Denis Robert"
+    role: "Fondateur de Blast (2021), média alternatif à 1,64 M abonnés YouTube, modèle 0 pub"
+    faits_lies: ["F-333"]
+  - nom: "Jean-Baptiste Rivoire"
+    role: "Fondateur d'Off Investigation (2021), documentaires à 40k€ pièce sur médias-pouvoir"
+    faits_lies: ["F-334"]
+  - nom: "Karim Tadjeddine"
+    role: "Responsable Secteur public McKinsey France, a justifié les contrats 496k€ devant le Sénat"
+    faits_lies: ["F-305", "F-362"]
+  - nom: "Thierry Pech"
+    role: "Directeur général Terra Nova, think tank à 60% financement privé, influence sur les programmes PS"
+    faits_lies: ["F-315", "F-363"]
+
+causalites:
+  - cause: "F-301"
+    effet: "F-303"
+    mecanisme: "Le gonflement du budget communication à 1 Md€ (circulaire Lecornu) rend nécessaire une coupe drastique de -70% — mais l'austérité communicationnelle est elle-même un performatif"
+  - cause: "F-317"
+    effet: "F-323"
+    mecanisme: "L'accumulation de promesses non tenues (53% non ou partiellement tenues) vide la parole présidentielle de crédibilité, culminant dans le déni du fait électoral en 2024"
+  - cause: "F-341"
+    effet: "F-342"
+    mecanisme: "Le discours performatif d'Ouagadougou 2017 ('plus de politique africaine') a fonctionné comme une prophétie autoréalisatrice — l'effondrement diplomatique annoncé s'est produit"
+  - cause: "F-329"
+    effet: "F-331"
+    mecanisme: "La normalisation des thèmes d'extrême droite par le centre s'opère via les mécanismes de novlangue (inversion et oblitération de sens) qui vident les mots de leur contenu"
+  - cause: "F-353"
+    effet: "F-354"
+    mecanisme: "Les promesses massives du Ségur santé (19 Md€) ont créé des attentes irréalistes — l'écart entre l'annonce (4 000 lits) et la réalisation (2 686) alimente la défiance totale des soignants"
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "La France fonctionne comme une logocratie industrielle: 2+ Md€/an en discours et en consultation, une armée de 1 500 communicants, des think tanks qui valident les réformes pré-décidées, et une novlangue qui vide les mots de leur sens — le système est dépendant de la performativité"
+  - position: "Antithèse"
+    argument: "La communication étatique (1 Md€) est légitime dans une démocratie moderne. Les cabinets de conseil apportent une expertise utile. Les think tanks sont des acteurs normaux du débat public. Les promesses non tenues sont la nature de la politique."
+  - position: "Synthèse"
+    argument: "La performativité française n'est pas un complot mais une défaillance systémique auto-entretenue par 4 mécanismes d'addiction: la communication masque l'inaction → la caste des communicants se reproduit → les citoyens consomment l'indignation sans agir → la critique est absorbée par le système lui-même"
+
+limites:
+  - "Les salaires des spin doctors (Emelien, Gantzer, Léonarduzzi) sont des estimations non sourcées — aucune source publique ne les confirme"
+  - "L'affirmation que les 9 milliardaires contrôlent 90% des médias n'est pas liée à une URL spécifique dans le texte"
+  - "La thèse de l'addiction performative (§O) est une hypothèse conceptuelle, non étayée par des données empiriques dans ce fichier"
+  - "La comparaison France/Hongrie/Pologne (EIU) mériterait une analyse des mécanismes de dégradation différents — le texte suggère plus qu'il ne démontre"
+
+wolves:
+  - nom: "Thierry Saussez"
+    argument: "Pionnier des communicants politiques, maire-adjoint de Rueil. La communication gouvernementale existe depuis De Gaulle — Macron n'a rien inventé."
+    reponse: "L'échelle a changé qualitativement: 1 Md€ de budget communication en 2024, 1500 agents, 500+ portes tournantes CELSA. Ce n'est plus de la communication — c'est une industrie de production du discours qui se substitue à l'action publique."
+  - nom: "Clément Léonarduzzi"
+    argument: "Fondateur de Telling, conseiller de Macron. Simple professionnel de la communication — aucun pouvoir décisionnel."
+    reponse: "Associé à la décision de dissolution (juin 2024), conseiller occulte sans mandat électif, décoré Chevalier du Mérite entouré du CAC40. Spin doctor n'est pas un technicien — c'est un acteur politique de facto."
+  - nom: "Michèle Marchand 'Mimi'"
+    argument: "Patronne d'agence people comme une autre. La presse people a toujours couvert les politiques. Bestimage était un acteur normal du marché."
+    reponse: "Condamnée 18 mois avec sursis pour extorsion, mise en examen pour subornation de témoin (affaire Takieddine), 29 couvertures Macron en 2017 via fausses paparazzades, membre du comité de liaison presse Élysée. Ce n'est pas du people normal — c'est de la communication politique déguisée."
+  - nom: "Karim Tadjeddine (McKinsey)"
+    argument: "Les cabinets de conseil apportent une expertise mondiale que l'administration n'a pas. Le contrat enseignant à 496k€ était un investissement modeste dans la réflexion."
+    reponse: "Le Sénat qualifie le phénomène de 'tentaculaire': 1 Md€ de dépenses en 2021, des livrables qui 'servent à préparer une interview sur BFMTV ou une audition au Sénat'. Capgemini noté 1/5 pour une mission handicap. La consultation est le spectacle de la compétence."
+  - nom: "Thierry Pech (Terra Nova)"
+    argument: "Les think tanks enrichissent le débat public. Terra Nova est indépendant — son financement mixte garantit cette indépendance."
+    reponse: "60% de financement privé (CAC40). La HATVP a tenté d'inscrire les think tanks comme représentants d'intérêts — l'Institut Montaigne a refusé. Circularité: l'État finance Fondapol (80% subventions) qui produit des notes qui justifient la politique de l'État."
+  - nom: "Barbara Cassin"
+    argument: "La philosophe documente la novlangue — preuve que la critique académique existe et est audible en France."
+    reponse: "La critique est absorbée comme dose de régulation du système. Viktorovitch sur CNews, Cassin chez France Culture: le système incorpore sa propre critique comme preuve de son pluralisme, sans jamais changer de fonctionnement."
+
+iceberg:
+  - "Le rôle du Conseil constitutionnel et du SGG dans la validation des textes performatifs"
+  - "Les liens précis entre Bestimage/Mimi Marchand et Bolloré — signalé mais non investigué"
+  - "L'absence de source publique fiable sur Clément Léonarduzzi — wolf à investiguer"
+  - "Le mécanisme précis par lequel la critique des médias alternatifs (Blast, Off Investigation) est absorbée et neutralisée par le système"
+  - "Le taux réel de livrables sans suite dans les cabinets de conseil (au-delà des cas emblématiques McKinsey et Capgemini)"
+  - "La corrélation entre la formation CELSA et les positions de pouvoir dans la communication d'État"
+
+chronologie:
+  - date: "1958"
+    evenement: "Début du corpus des discours de politique générale — base de l'étude Boursier/Lemor (RFSP 2025)"
+    source_fait: null
+  - date: "1996"
+    evenement: "Persée publie l'étude sur Michel Bongrand — réseau historique des spin doctors français"
+    source_fait: "F-309"
+  - date: "2008"
+    evenement: "Persée publie l'étude sur la novlangue néolibérale — deux mécanismes : inversion et oblitération de sens"
+    source_fait: "F-331"
+  - date: "2017"
+    evenement: "Macron président — portrait officiel hyper-contrôlé (3 jours retouches, Soazig de La Moissonnière)"
+    source_fait: "F-325"
+  - date: "Nov 2017"
+    evenement: "Discours Ouagadougou — 'Il n'y a plus de politique africaine de la France'"
+    source_fait: "F-341"
+  - date: "2020"
+    evenement: "Ségur de la santé — annonce de 19 Md€ sur 10 ans"
+    source_fait: "F-353"
+  - date: "Mars 2022"
+    evenement: "Rapport Sénat sur les cabinets de conseil — 'phénomène tentaculaire', 1 Md€ en 2021"
+    source_fait: "F-304"
+  - date: "2022"
+    evenement: "Retrait contraint du Mali — début de l'effondrement africain"
+    source_fait: "F-342"
+  - date: "2024"
+    evenement: "Dissolution — refus de nommer Castets. EU Excessive Deficit Procedure"
+    source_fait: "F-323"
+  - date: "Mars 2022"
+    evenement: "Bilan promesses Macron 2017: 47% tenues, 25% non tenues"
+    source_fait: "F-317"
+  - date: "Nov 2025"
+    evenement: "Circulaire Lecornu révèle budget communication à 1 Md€ — objectif -70%"
+    source_fait: "F-301"
+  - date: "Jan 2025"
+    evenement: "Rapport Sénat 'Échecs, déconvenues et faux pas' — étrille la politique africaine de Macron"
+    source_fait: "F-344"
+  - date: "2025"
+    evenement: "Étude Boursier/Lemor (RFSP): le centre normalise les thèmes d'extrême droite"
+    source_fait: "F-329"
+  - date: "2026"
+    evenement: "Publication thèse cartésienne: méthode Descartes = logiciel secret de la technocratie française"
+    source_fait: "F-348"
+
+domaines:
+  - "Économie politique de la communication"
+  - "Sociologie des élites (spin doctors, grandes écoles)"
+  - "Philosophie du langage (novlangue, performatifs)"
+  - "Relations internationales (diplomatie française en Afrique)"
+  - "Science politique (démocratie illibérale, régimes hybrides)"
+  - "Santé publique (Ségur, promesses non tenues)"
+  - "Journalisme et médias (alternatifs vs traditionnels, concentration)"
+  - "Sociologie de la connaissance (think tanks, expertise captive)"
+
+urls_prioritaires:
+  - url: "https://www.vie-publique.fr/discours/301145-services-du-premier-ministre-01122025-depense-de-communication-de-letat"
+    description: "Circulaire Lecornu — budget communication État 1 Md€ (2024), source officielle primaire"
+    head_status: 200
+  - url: "https://www.senat.fr/rap/r21-578-1/r21-578-1_mono.html"
+    description: "Rapport Sénat cabinets conseil — 'phénomène tentaculaire', 1 Md€, McKinsey, Capgemini"
+    head_status: 200
+  - url: "https://www.franceinfo.fr/elections/presidentielle/bilan-macron-on-a-verifie-100-promesses-phares-programme-2017-combien-en-a-t-il-tenues.html"
+    description: "Bilan promesses Macron 2017 — 47% tenues, vérification FranceInfo"
+    head_status: 200
+  - url: "https://rsf.org/fr/classement?year=2025"
+    description: "RSF 2025 — France 25e, indicateur économique en chute, concentration médias"
+    head_status: 200
+  - url: "https://www.lefigaro.fr/international/echecs-deconvenues-et-faux-pas-un-rapport-du-senat-etrille-la-politique-africaine-d-emmanuel-macron-20250131"
+    description: "Rapport Sénat politique africaine — chronologie complète de l'effondrement"
+    head_status: 200
+  - url: "https://www.ripostes.org/quand-les-mots-changent-la-politique-change-comment-le-centre-fait-le-jeu-de-lextreme-droite/"
+    description: "Étude Boursier/Lemor (RFSP 2025) — le centre normalise l'extrême droite"
+    head_status: 200
+  - url: "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-05/DREES%20-%20Pano%20-%20ES%202025%20-%20Fiche%2023_La%20situation%20%C3%A9conomique%20et%20financi%C3%A8re%20des%20h%C3%B4pitaux%20publics.pdf"
+    description: "DREES 2025 — situation financière des hôpitaux, déficit 2 Md€, dette +10 ans"
+    head_status: 200
+
+shadow_factor: 4.0
+mnemo_queries:
+  - query: "budget communication État 1 milliard euros circulaire Lecornu 2025"
+    results_count: 0
+    note: "Mnemolite UP mais base non indexée pour ce sujet"
+  - query: "McKinsey cabinets conseil Sénat phénomène tentaculaire 2022"
+    results_count: 0
+  - query: "spin doctors CELSA formation communicants politiques Bongrand Saussez"
+    results_count: 0
+  - query: "think tanks financement Fondapol Institut Montaigne Terra Nova subventions publiques"
+    results_count: 0
+  - query: "promesses Macron 2017 non tenues macronomètre IFRAP"
+    results_count: 0
+  - query: "novlangue macronienne inversion sens oblitération Boursier Lemor extrême droite"
+    results_count: 0
+  - query: "Ségur santé 19 milliards promesses non tenues lits hôpitaux déficit"
+    results_count: 0
+  - query: "diplomatie africaine effondrement Ouagadougou bases militaires Sénégal Tchad"
+    results_count: 0
+  - query: "médias alternatifs Blast Off Investigation défiance 62% Verian"
+    results_count: 0
+  - query: "addiction performative communication masque inaction caste communicants critique absorbée"
+    results_count: 0
+  note: "Mnemolite UP mais base non indexée pour les sujets traités dans ce supplément V3"

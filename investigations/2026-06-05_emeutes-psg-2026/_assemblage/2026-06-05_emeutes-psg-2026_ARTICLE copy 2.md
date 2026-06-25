@@ -1,0 +1,288 @@
+# 🔍 PSG 2026 : autopsie d'une émeute programmée
+
+## La loi était votée quatre jours avant les faits. La machine médiatique en quarante-huit heures. Voici les noms.
+
+Le 30 mai 2026, le Paris Saint-Germain remporte la Ligue des Champions. Vingt mille personnes sur les Champs-Élysées. En quelques heures : gaz lacrymogènes, charges de CRS, 890 interpellations. Une loi, votée quatre jours plus tôt, devient soudainement « nécessaire ». Le récit se verrouille avant que les faits ne soient établis.
+
+Ce scénario n'est pas une surprise. Il s'est produit en 2025. Il s'était produit en 2023. Il se reproduira. La machine produit de l'émotion, convertit l'émotion en audience, l'audience en capital politique. Le fond du problème n'est jamais atteint.
+
+Même les voix critiques tombent dans ce piège. Elles décortiquent les vitrines brisées, les charges de police, les déclarations ministérielles. Elles dénoncent. Elles s'indignent. Mais elles restent à la surface : le symptôme, jamais le système. La mécanique est connue : en se focalisant sur la surface des événements, les voix contestataires valident le cadrage qu'elles prétendent combattre.
+
+La méthode de cette investigation est inverse. Elle ne réagit pas à l'actualité : elle l'enquête. Elle part du fait brut et remonte la chaîne : quels mécanismes l'ont produit ? Quels intérêts convergent ? Quels noms manquent au débat public ? Quelles lois étaient prêtes, en attente de leur légitimation ?
+
+Le 29 mai 2026, la veille des émeutes, l'enquête **[Le peuple est le seul souverain](https://giak.substack.com/p/le-peuple-est-le-seul-souverain-le)** théorisait un « système de désorganisation » en cinq opérations. Vingt-quatre heures plus tard, les Champs-Élysées en fournissaient la démonstration empirique. Ce que l'enquête a trouvé est un cas d'école. Voici les faits.
+## La nuit du 30 mai 2026
+
+Le 30 mai 2026, le Paris Saint-Germain remporte sa deuxième Ligue des Champions consécutive face à Arsenal (1-1, 4-3 t.a.b.). Vingt mille personnes se rassemblent sur les Champs-Élysées, selon les décomptes du Parisien. En quelques heures, la situation dégénère. Des incendies de mobilier urbain et de deux-roues sont signalés. Des commerces sont pillés. Les forces de l'ordre (BRAV-M, CRS, gendarmerie mobile) procèdent à des interpellations massives. Au bilan consolidé du 5 juin : 890 interpellations, 721 gardes à vue (dont 82 prolongations pour les faits les plus graves), 219 blessés dont 8 grièvement, 57 policiers et gendarmes blessés, un décès : un jeune homme ayant percuté des blocs de béton en moto-cross. Les violences touchent 62 départements et 15 villes.
+
+### Le précédent de 2025 : 559 interpellations, deux morts
+
+Ce n'est pas la première fois. Le 31 mai 2025, la victoire du PSG contre l'Inter Milan (5-0) avait déjà donné lieu à des violences : **559 interpellations**, **190 blessés**, **deux morts**. Les sources consultées (Sud Ouest, TF1 Info, RMC Sport) établissent que ces deux décès ne sont pas imputables aux forces de l'ordre : un adolescent de 17 ans a été poignardé à Dax, une personne a été percutée par un véhicule à Paris 15e. Entre 2025 et 2026, les interpellations augmentent de 32 %. Les départements touchés passent de 46 à 62. Aucune réforme du dispositif de maintien de l'ordre n'est intervenue entre les deux événements. Le même ministre (Laurent Nuñez est en poste depuis 2022), la même doctrine, les mêmes unités, et 32 % d'interpellations supplémentaires. L'État n'a pas appris en 2025. Il n'avait pas appris en 2023. Il n'apprend pas. C'est la marque de fabrique de **[l'État qui veut tout contrôler mais échoue à tout](https://giak.substack.com/p/letat-qui-veut-tout-controler-mais)** : il ne tire aucune leçon de ses échecs.
+
+En 48 heures, le cadrage médiatique se verrouille. CNews utilise le terme « ensauvagement ». Le Figaro titre « guérilla urbaine ». Jordan Bardella, président du Rassemblement National, dénonce une « guerre civile ». Bruno Retailleau, sénateur LR, propose la reconnaissance faciale dans l'espace public. Emmanuel Macron déclare : « ras-le-bol, terminé ». Sébastien Lecornu, Premier ministre, annonce vouloir accélérer l'examen de la loi RIPOST via une session parlementaire extraordinaire et propose de ponctionner les aides sociales des émeutiers condamnés pour financer les réparations. Laurent Nuñez, ministre de l'Intérieur, juge le bilan « absolument inacceptable ». La conclusion martelée par les médias dominants est identique : la fête a dégénéré, il faut plus de répression.
+
+Ce récit omet un fait. Le voici.
+
+### La chronologie inversée : RIPOST votée le 26 mai
+
+La loi RIPOST, présentée comme la réponse nécessaire aux violences, a été adoptée par le Sénat le **26 mai 2026**. Quatre jours avant le match. Quatre jours avant les émeutes. Cette procédure accélérée n'est pas une exception : l'enquête **[Le Verrou](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention)** a documenté que 90 % des lois sont adoptées sans vote parlementaire, par 49.3 ou par ordonnances. Le projet de loi (pjl25-472, rapporteurs Lauriane Josende et Isabelle Florennes) avait été déposé le 25 mars 2026. Sa transmission à l'Assemblée nationale date du 28 mai. L'examen en séance est prévu le 6 juillet 2026.
+
+La chronologie réelle n'est pas « émeutes → loi ». Elle est « loi → émeutes → accélération de la loi ». Le choc n'a pas créé la réponse. Il l'a légitimée. Ce décalage entre le calendrier législatif et l'émotion publique illustre le basculement dans la « dictature légale » : l'État exploite l'écart entre le cadre légal et la légitimité démocratique. La loi était votée, donc légale. Rien ne la rendait légitime.
+
+Au 5 juin, les premières suites judiciaires confirment le verrouillage. Sur 890 interpellations : 70 défèrements, 13 comparutions immédiates, 26 comparutions sur reconnaissance préalable de culpabilité, 61 classements sans suite. La procureure de Paris a requis la qualification de « tentative d'homicide volontaire sur personne dépositaire de l'autorité publique » pour les jets de mortiers d'artifice : la peine encourue passe de 7 à 30 ans de réclusion.
+
+### 8 000 policiers, 1,5 million en 1998
+
+Deux chiffres complètent le tableau.
+
+Le premier : **8 000**. C'est le nombre de policiers déployés à Paris et en Île-de-France le soir du 30 mai, d'après les déclarations du ministre Nuñez et les données de la préfecture de police. Le chiffre de 22 000, abondamment cité dans la presse, est le total national incluant rotations, renforts régionaux et sécurité civile répartis dans 62 départements. Le dispositif parisien mobilisait des unités de contre-émeute (BRAV-M, CRS, gendarmerie mobile) dans une configuration tactique identique à celle du maintien de l'ordre insurrectionnel : la distinction entre ordre festif et ordre insurrectionnel n'est plus opérée. Laurent Nuñez a rejeté la demande de « zéro rassemblement » formulée par Catherine Lécuyer, maire LR du VIIIe arrondissement, qualifiant l'idée de « fausse bonne idée », selon les propos rapportés par Le Parisien. La célébration reste autorisée. La doctrine est celle de la friction.
+
+Le second : **1,5 million**. C'est le nombre de personnes rassemblées sur les mêmes Champs-Élysées le 12 juillet 1998, après la victoire de la France en Coupe du monde, selon les archives de l'INA. Zéro violence majeure. Dispositif policier standard. La comparaison a ses limites : la Coupe du Monde est un événement national et transclasse ; le PSG traîne un passif de violences endémiques, antérieur au Plan Leproux de 2010 (dissolution de la tribune Boulogne) comme postérieur. Le dispositif de 2026 ne répond pas à 1998 : il répond à cet historique. Mais l'écart n'en reste pas moins instructif. Vingt-huit ans plus tard, 20 000 personnes, soit 1,3 % de la foule de 1998, suffisent à produire 890 interpellations et un « bilan inacceptable ». L'histoire du club explique le dispositif. Elle n'explique pas pourquoi la nasse s'est refermée sur les banlieues désorganisées plutôt que sur les groupes structurés. Et la comparaison a une limite plus profonde : la France de 1998 (7,3 % d'immigrés, Front National marginal, utopie « Black-Blanc-Beur ») n'est pas la France de 2026 (11,3 % d'immigrés, RN à 30 %, société fragmentée). Le contraste entre les deux célébrations est aussi le contraste entre deux pays.
+
+La question n'est pas : « Pourquoi la fête a-t-elle dégénéré ? »
+
+La question est : « Qui a transformé la liesse en machine à indignation, et à qui profite le crime ? »
+
+La réponse n'est pas dans les images. Elle est dans les noms.
+## « Guerre civile », « ensauvagement » : la capture médiatique et politique
+
+En quarante-huit heures, la machine a produit un récit. Ce récit n'est pas le reflet des faits. C'est une construction industrielle dont chaque mot a été choisi, chaque angle calibré, chaque indignation convertie en capital politique.
+
+Le vocabulaire, d'abord. CNews parle d'« ensauvagement ». Le Figaro titre « guérilla urbaine ». Le Journal du Dimanche évoque « l'échec de la sécurité publique ». BFMTV diffuse en boucle les mêmes images de voitures brûlées et de charges de CRS pendant quarante-huit heures. Europe 1 donne la parole à des riverains « traumatisés ». Les termes sont interchangeables d'un média à l'autre. La conclusion est identique : la France est menacée, l'autorité s'effondre, il faut frapper fort.
+
+### Neuf milliardaires, 80 % des médias
+
+Cette uniformité n'est pas le fruit du hasard. **Neuf milliardaires** contrôlent plus de **80 %** des médias français. L'architecture de cette concentration est matériellement documentée. **Vincent Bolloré** possède CNews, Europe 1 et le Journal du Dimanche. **Serge Dassault**, via sa famille, possède Le Figaro. **Martin Bouygues** possède TF1. **Bernard Arnault** détient Les Échos et Le Parisien. La stratégie Bolloré est la plus explicite : transformation de CNews en machine à produire du consentement, plus de 200 journalistes partis, 40,4 % du temps de parole des invités non politiques consacré à l'extrême droite.
+
+La couverture des émeutes PSG 2026 est en stricte continuité avec celle des émeutes Nahel 2023 : même mise en scène, même cadrage, mêmes cibles. Et avec 2021, 2019, 2015. Les mêmes mots (« ensauvagement », « laxisme », « fermeté »), les mêmes indignations, les mêmes « solutions ». Le marronnier médiatique est parfaitement rodé : chaque crise, les mêmes éditorialistes écrivent les mêmes éditoriaux que la crise précédente. Et chaque crise, rien ne change, sauf le périmètre de la surveillance, qui s'élargit. Les six lois de restriction de la liberté d'expression adoptées entre 2018 et 2026 créent un « spectre » qui dissuade toute enquête critique. Dans cet environnement verrouillé, la simple convergence des angles médiatiques (mêmes mots, mêmes indignations) produit le même effet qu'une coordination explicite.
+
+### Les trois blocs de la machine médiatique
+
+Cette machine se divise en trois blocs, chacun avec une fonction précise. Le *Kayfabe* politico-médiatique (la fausse rivalité théâtralisée que tous les acteurs font semblant de croire) structure l'ensemble : le football comme divertissement de masse, *panem et circenses*, pendant que les filtres de la propagande industrielle neutralisent la pensée critique.
+
+Le premier est l'Usine à panique : CNews, Europe 1, le JDD, Le Figaro, BFMTV. Sa fonction est de produire de la sidération. Le vocabulaire est celui de la crise de civilisation. Les solutions appelées sont toujours répressives : couvre-feu, interdictions, mesures exceptionnelles. Le lien entre violences et immigration est explicite sur CNews, implicite mais présent au Figaro.
+
+Le deuxième est celui des Équilibristes : Le Monde, France Inter, Le Parisien. Leur ton est mesuré. Le Monde distingue supporters et casseurs, contextualise. France Inter garde la neutralité du service public. Leur fonction n'est pas de contester la machine : ils la stabilisent. Leur ton sérieux donne une caution de respectabilité au cadrage sécuritaire. Le simple fait qu'ils traitent le sujet valide le postulat : la violence est un problème, la réponse pénale est la solution. Le désaccord ne porte que sur l'intensité de cette réponse. Jamais sur sa nature.
+
+Le troisième est la Soupape : Libération, quelques médias de gauche. Ils critiquent le maintien de l'ordre, parlent de marginalisation, d'exclusion. Leur fonction est d'offrir une illusion de pluralisme. Leur critique n'a aucune prise sur le processus législatif. La loi RIPOST sera examinée à l'Assemblée nationale le 6 juillet, que Libération la dénonce ou non.
+
+### Le propriétaire invisible : le Qatar
+
+À ces trois blocs s'ajoute un acteur qui contrôle le récit sans y apparaître : le Qatar. Le club dont vingt mille personnes célébraient la victoire sur les Champs-Élysées est la propriété de QSI, filiale du fonds souverain qatari, depuis 2011. Nasser Al-Khelaïfi cumule cinq fonctions : président du PSG, chairman de QSI, ministre d'État du Qatar, membre du comité exécutif de l'UEFA, président de la Ligue de football professionnel. beIN Sports, autre entité du groupe Al-Khelaïfi, est un diffuseur majeur en France. Le PSG est annonceur auprès de nombreux médias. Aucune question sur la propriété étrangère du club n'a été posée pendant les quarante-huit heures de « fierté nationale ». Cette discrétion n'est pas fortuite : le Qatar est annonceur, propriétaire de beIN Sports, partenaire économique de la France. La police a gazé la fête qatarie. Le Qatar n'a pas protesté. Les deux intérêts (pouvoir d'influence sportif et maintien de l'ordre) ont trouvé leur équilibre dans le silence.
+
+### La fenêtre d'Overton en quarante-huit heures
+
+Une fois le cadrage médiatique verrouillé, la conversion politique a été immédiate. Bruno Retailleau, sénateur LR, propose la reconnaissance faciale dans l'espace public. Jordan Bardella, président du Rassemblement National, dénonce une « guerre civile ». Le Rassemblement National amplifie la panique. Emmanuel Macron déclare : « ras-le-bol, terminé ». Sébastien Lecornu, Premier ministre, annonce une session parlementaire extraordinaire pour juillet et propose de ponctionner les aides sociales des émeutiers condamnés : une première dans l'arsenal répressif français. Laurent Nuñez juge le bilan « absolument inacceptable ». La procureure de Paris requiert la qualification de « tentative d'homicide volontaire » pour les tirs de mortiers sur les forces de l'ordre. Sarah Knafo, députée européenne Reconquête, ironise sur les « explications sociologiques ». Catherine Lécuyer, maire LR du VIIIe arrondissement, réclame le « zéro rassemblement » sur les Champs-Élysées.
+
+Ces six rôles ne sont pas improvisés. Ils forment un mécanisme de déplacement de la fenêtre d'Overton : le système détecte la menace (le chaos visuel des émeutes), l'absorbe (chaque acteur joue son rôle), la convertit en déplacement de la fenêtre, le tout sans coordination explicite. Retailleau lance la proposition la plus extrême : la reconnaissance faciale. Bardella et le RN amplifient la panique. Macron et Nuñez normalisent : à côté de la reconnaissance faciale, la loi RIPOST paraît « raisonnable ». Knafo disqualifie toute analyse structurelle en la ridiculisant. LFI, en critiquant la police, incarne le « laxisme » qui repousse l'opinion vers la droite. Lécuyer teste l'acceptabilité d'une restriction permanente du droit de réunion. La fenêtre d'Overton est documentée, et elle s'est déplacée en quarante-huit heures. Ce qui était « impensable » en avril 2026 (l'extension massive de la surveillance algorithmique) est devenu « raisonnable » en juin 2026.
+
+La machine médiatique n'a pas créé les émeutes. Elle les a capturées. Elle les a mises en scène, converties en capital politique, en moins de temps qu'il n'en faut pour organiser un débat contradictoire. Les mots « casseurs », « racailles », « sauvageons » ont saturé l'espace public. Qui étaient-ils ?
+
+Quarante-huit heures. Six mots. Zéro débat.
+## Qui sont les 890 ? Sociologie d'un abandon
+
+Pendant quarante-huit heures, les médias les ont appelés « casseurs », « racailles », « sauvageons ». Les politiques ont exigé des peines. Les éditorialistes ont diagnostiqué une « crise de civilisation ». Personne n'a demandé qui ils étaient.
+
+### Le profil-type : jeunes, masculins, issus de l'immigration
+
+Les données disponibles, extrapolées du précédent des émeutes Nahel de 2023 et des enquêtes de l'INSEE, dressent un profil. Les 890 interpellés sont très majoritairement des hommes. Ils ont **moins de 25 ans**. Une part significative est mineure. Ils sont issus de l'immigration post-coloniale : Maghreb, Afrique subsaharienne. Ils vivent dans des quartiers populaires, souvent classés en QPV (quartiers prioritaires de la politique de la ville). Ils sont en rupture scolaire. Leur taux de chômage est proche de celui des immigrés dans leur ensemble : **11,2 %**, contre 6,5 % pour les natifs, selon l'INSEE. Ils sont contrôlés par la police jusqu'à **vingt fois** plus souvent que les jeunes perçus comme « blancs », d'après une enquête du Défenseur des droits de 2016. Leur CV, quand il porte un prénom arabe, a deux à trois fois moins de chances d'obtenir un entretien, selon les testings de l'ADIA et de la CNCDH. La majorité d'entre eux n'ont pas d'antécédents judiciaires.
+
+### L'abandon documenté : 35 % de pauvreté, 50 points PISA de retard
+
+Ces chiffres ne tombent pas du ciel. Ils sont le produit documenté de politiques publiques dont l'absence de cap est matériellement chiffrée : **340 000 titres de séjour** par an, **71 %** des demandes d'asile rejetées, 15 lois en 40 ans pour un résultat qui empire. Le taux de pauvreté des immigrés atteint **35 %**, contre 14,5 % pour l'ensemble de la population. L'école, censée compenser, aggrave : les évaluations internationales montrent que les élèves immigrés de première génération accusent un retard de **50 points** en mathématiques PISA par rapport aux natifs, le plus grand écart de tous les pays de l'OCDE après la Suède. Les 890 interpellés du 30 mai ne sont pas une aberration statistique. Ils sont le résultat prévisible de cet abandon. L'État qui les interpelle aujourd'hui est le même qui a laissé tomber **396 900 enfants** sous protection de l'Aide Sociale à l'Enfance, un « scandale d'État » documenté par les rapports parlementaires d'avril 2025. Le diagnostic est posé : l'État français a décidé d'abandonner le terrain physique pour ne plus contrôler que le virtuel. Les 890 du 30 mai sont nés dans le même abandon que les 396 900 enfants de l'ASE. Même État, même renoncement.
+
+Tous ne sont pas des « damnés de la terre ». Une typologie simple permet de le rappeler : certains expriment une colère sociale ; d'autres sont là par opportunisme criminel ; d'autres encore par effet de foule et adrénaline ; quelques-uns, enfin, réagissent à la provocation policière. Les quatre motivations coexistent. Mais le profil dominant (jeune, masculin, issu de l'immigration, sans diplôme ni emploi, sans passé judiciaire) relève d'une condition structurelle, pas d'une délinquance endémique.
+
+Cette typologie doit être complétée par un fait matériel que l'analyse sociologique omet trop souvent. Vingt mille supporters fêtant une victoire la nuit impliquent une désinhibition chimique massive. Casser une vitrine LVMH à deux heures du matin avec deux grammes d'alcool dans le sang après un match de foot n'est pas un acte de reconquête de l'humanité face au colonisateur. C'est du vandalisme désinhibé. L'alcool n'explique pas la condition structurelle. Mais il en est le détonateur. L'ignorer, c'est remplacer la chimie par la théorie.
+
+### Le filtrage opérationnel : où sont les ultras ?
+
+Une question, pourtant, demeure sans réponse : où sont les ultras organisés ? Le Collectif Ultras Paris (CUP) et les groupes de supporters structurés disposent de leurs propres avocats. Si la nasse du 30 mai n'a capturé que la jeunesse désorganisée des banlieues en laissant filer les groupes structurés, la répression est asymétrique. Et tout le développement qui suit, de Lepoutre à Fanon, ne décrirait qu'une partie de la vérité. Sur les 890 interpellés, l'absence documentée des franges structurées du hooliganisme parisien n'est pas une coïncidence statistique : c'est la trace matérielle d'un filtrage opérationnel. La nasse policière ne capture pas la violence intrinsèque de l'événement. Elle sélectionne un profil à forte rentabilité médiatique et sécuritaire.
+
+Au 5 juin, le parquet de Paris a déféré 14 mineurs (tous des hommes, dont 5 de moins de 16 ans). Un adolescent de 13 ans aurait été éborgné dans des circonstances impliquant les forces de l'ordre, selon des allégations circulant sur les réseaux sociaux et reprises par plusieurs médias. L'information n'est pas confirmée par les autorités au 5 juin. Mais le précédent des Gilets Jaunes (24 éborgnés, 5 mains arrachées, selon Amnesty International) rend l'allégation plausible.
+
+Pour comprendre cette condition, trois anthropologues français fournissent des clés. David Lepoutre, dans « Cœur de banlieue » (1997), documente par immersion ethnographique la culture de rue des cités. L'école, la famille, le travail : les institutions classiques de socialisation ne fonctionnent plus. La rue prend le relais. Elle offre des repères, des codes, une hiérarchie, une reconnaissance. L'honneur devient la monnaie d'échange. L'institution (police, école, État) est perçue comme une force extérieure hostile. Thomas Sauvadet, dans « Le Capital guerrier » (2006), théorise le concept : pour des jeunes exclus des voies légitimes de valorisation, la violence devient un capital social de substitution. Pas de diplôme : de la réputation. Pas d'emploi : du « bizness ». Pas de reconnaissance sociale : du respect dans la cité. La sociologie contemporaine des bandes insiste sur la porosité entre déviance et normalité. L'économie parallèle n'est pas une pathologie : c'est une stratégie d'adaptation.
+
+Pourquoi brûlent-ils leurs propres quartiers ? Deux psychiatres ont théorisé la psychologie coloniale, et leurs analyses s'opposent frontalement. La psychiatrie coloniale conservatrice des années 1950 diagnostiquait un « complexe de dépendance » : le colonisé, privé de la protection du colonisateur, devient instable. La violence est une régression infantile. Frantz Fanon, dans « Peau noire, masques blancs » (1952) et « Les Damnés de la Terre » (1961), inverse le diagnostic : la pathologie n'est pas celle du colonisé, elle est celle du système colonial. Le colonisé n'est pas « dépendant » : il est aliéné. On lui a appris à se haïr. La violence n'est pas une régression : c'est une tentative de se réapproprier son humanité. Elle est rationnelle au sens existentiel.
+
+Parmi les deux, l'analyse fanonienne est celle qui correspond le mieux aux faits. Les émeutiers ne négocient pas. Ils ne formulent pas de revendications. Ils détruisent. Et ils détruisent leurs propres quartiers (les supérettes, les voitures, les écoles) parce que c'est tout ce qu'ils peuvent atteindre. Le système a produit ce résultat : canaliser la violence des damnés contre eux-mêmes. Cette auto-destruction est fonctionnelle : elle confirme le stéréotype, justifie l'absence d'investissement, et épargne les centres de pouvoir.
+
+### Pourquoi brûlent-ils ? La boucle
+
+Cette boucle est documentée. Elle tourne depuis quarante ans. Abandon des banlieues (années 1970-1980) → non-intégration structurelle (échec scolaire, chômage, discrimination) → criminalité et révolte (2005, 2023, 2025, 2026) → images de chaos → peur des classes moyennes → vote RN (42 % du vote rural, contre 30 % en ville, selon les données de Destin commun) → pression pour plus de répression → lois sécuritaires, budgets police → renforcement de l'abandon. Chaque tour de cette boucle amplifie le suivant. Ce paradoxe illustre un mécanisme d'impuissance apprise : la colère est mesurée, confirmée, amplifiée par les sondages, et n'a aucune traduction politique. La ségrégation produit ici un effet de division fonctionnel : les dominants maintiennent leur domination en fragmentant les dominés. L'ouvrier blanc vote RN. L'ouvrier arabe brûle des voitures. Le RN ne combat pas le chaos des banlieues : il en est le rentier. Chaque émeute fait monter Bardella dans les sondages. Pendant ce temps, les bénéficiaires du système (classe politique, complexe sécuritaire, médias milliardaires, Qatar) engrangent.
+
+Les six niveaux de lecture de l'événement résument le phénomène. Niveau 1 : 890 jeunes interpellés. Niveau 2 : un contexte de grèves imminentes, de dispositif massif, de récurrence 2025-2026. Niveau 3 : la victoire sportive est convertie en outil de gestion de crise préventive. Niveau 4 : « l'Olympiade de l'anesthésie » : le pain (le foot) et les jeux (la répression). Niveau 5 : « l'impuissance apprise synchronisée » : la séquence neurologique Joie → Trauma → Docilité, qui apprend au corps que la rue, même pour faire la fête, est un espace hostile. Niveau 6 : « la stratégie de la volière » : la capture sociale préemptive. La récurrence n'est pas un bug. Elle est la preuve que le système fonctionne.
+
+On sait qui brûle. On sait pourquoi. Reste une question : qui encaisse ?
+
+Les noms sont connus. Personne ne les prononce.
+## Éric Barès, Alsetex, 35 Md€ : les absents du débat
+
+Pendant quarante-huit heures, aucun plateau de télévision, aucun éditorial, aucune question parlementaire n'a prononcé leurs noms. Les 890 interpellés ont été appelés « casseurs ». Les propriétaires des matraques, des lacrymogènes, des drones et des algorithmes sont restés invisibles. Voici leurs noms.
+
+### Alsetex : 11 millions d'euros en 2023
+
+Alsetex est une filiale à 100 % du Groupe Étienne Lacroix, entreprise familiale toulousaine fondée en 1848. Elle fabrique les grenades lacrymogènes de 56 mm utilisées par les forces de l'ordre françaises. Ses dirigeants sont **Étienne Barès**, président, et **Éric Barès**, directeur général délégué. En 2023, l'État français a versé **11 millions d'euros** à Alsetex pour des grenades lacrymogènes. Un marché-cadre de 17,5 millions d'euros sur quatre ans a été signé en 2018. Le marché global des grenades en France est estimé à 78 millions d'euros, selon Politis.
+
+### Huit entreprises, 35 milliards d'euros
+
+Alsetex n'est pas seule. Sept autres entreprises composent le complexe sécuritaire français, dont le marché total est estimé à **35 milliards d'euros**. Nobel Sport fabrique les balles de défense (LBD). Thales fournit les systèmes de communication tactique et la cybersécurité. Airbus Defence produit les drones et les systèmes de surveillance aérienne. Briefcam, filiale de Canon, développe l'analyse vidéo a posteriori avec recherche par attributs. Wintics et Videtics conçoivent l'analyse vidéo par intelligence artificielle : détection de mouvements, de foules, de « comportements anormaux ». Elistair fabrique des drones filaires pour la surveillance prolongée. Aucun de leurs dirigeants n'est apparu dans le débat public post-30 mai.
+
+Ces noms sont les bénéficiaires silencieux. Ils ne font pas de lobbying visible. Leur modèle est plus simple : chaque émeute est un argument commercial. Chaque voiture qui brûle justifie le budget suivant.
+
+### La boucle média-industrie : Dassault, Bolloré, Bouygues, Arnault
+
+Ces huit entreprises n'opèrent pas dans le vide. Elles s'insèrent dans une architecture de convergence des élites que la sociologie des élites a cartographiée. Le mécanisme est connu : les dirigeants de Thales et d'Airbus Defence sont issus des mêmes grands corps (X-Mines, X-Ponts, ENA) que les hauts fonctionnaires qui signent les contrats. Une même promotion, un même langage, une même vision du monde. Le suivi des pantouflages a documenté la manœuvre de ces mêmes propriétaires : 42 anciens ministres dans leurs conseils d'administration. Les conflits d'intérêts structurels sont documentés. Serge Dassault, via sa famille, possède Le Figaro. Et Dassault, c'est aussi Dassault Aviation : avions de combat, drones. Le Figaro titre « Guérilla urbaine » et appelle à la « fermeté » pendant que Dassault Aviation vend des drones à l'État français. Vincent Bolloré possède CNews, Europe 1 et le Journal du Dimanche. Et Bolloré, c'est aussi Havas, agence de conseil en communication, proche des ministères. Martin Bouygues possède TF1. Et Bouygues, c'est aussi Bouygues Construction, dont les contrats de rénovation urbaine s'inscrivent dans un marché structurel. Bernard Arnault possède Les Échos et Le Parisien. Et Arnault, c'est LVMH, dont les boutiques de luxe sur les Champs-Élysées ont été pillées le 30 mai.
+
+Cette configuration n'est pas anecdotique. Elle est systémique. La cartographie médiatique établit que neuf milliardaires possèdent plus de 80 % des médias français. Le manque à gagner est chiffré : 80 à 100 milliards d'euros d'évasion fiscale par an. L'argent qui échappe à l'État est l'argent qui manque à l'intégration des banlieues, et qui finance, à la place, les grenades lacrymogènes, les drones et les dividendes. Le Figaro réclame plus de fermeté, Dassault Aviation vend plus de drones. CNews amplifie le « chaos », Havas conseille les ministères qui votent les budgets. TF1 couvre les émeutes en direct, Bouygues Construction opère sur le même marché de la rénovation. Dassault n'a pas besoin de donner des ordres au Figaro. L'intérêt industriel de l'un dicte la ligne éditoriale de l'autre. Les Échos analysent le coût des dégâts, LVMH engrange les indemnisations. La boucle est fermée. Aucun complot n'est nécessaire. Il suffit que chaque acteur poursuive son intérêt propre.
+
+L'État a augmenté le budget police de 50 % en six ans (LOPMI, +15 Md€) tout en maintenant la justice à 0,20 % du PIB. Il interpelle 890 jeunes en une nuit mais n'a jamais convoqué Éric Barès devant une commission parlementaire. Il vote des lois de surveillance en 48 heures mais laisse 5 500 détenus dormir sur des matelas au sol. La formule est connue : fort avec les faibles, faible avec les forts.
+
+Cette asymétrie n'est pas un déséquilibre budgétaire. C'est une « dépossession systémique » : l'argent public ne finance plus l'enracinement (logement, école, intégration) mais les dépendances artificielles (surveillance, endettement, répression). Chaque euro versé à Alsetex est un euro retiré à la cohésion sociale. Chaque drone déployé est un jardin ouvrier qui n'existe pas.
+
+### Les six niveaux de l'esclavage algorithmique
+
+Au-delà des bénéfices immédiats, ces entreprises sont les fournisseurs d'une infrastructure de surveillance dont la finalité est documentée. L'esclavage algorithmique se déploie en six niveaux. Niveau 1, le traçage : caméras, VSA (vidéosurveillance algorithmique), drones, fichier TAJ (24 millions de fiches). Niveau 2, l'identification : la reconnaissance faciale, théoriquement interdite en temps réel mais opérationnelle en analyse post-hoc via Briefcam. Niveau 3, la catégorisation : Wintics et Videtics développent des algorithmes de détection de « comportements anormaux ». Niveau 4, la prédiction : l'anticipation des comportements futurs sur base de l'historique. Niveau 5, le contrôle préventif : l'interpellation avant l'acte. Niveau 6, l'auto-censure : la population, sachant qu'elle est tracée, n'ose plus rien faire. Le niveau 6 est déjà atteint sans que les niveaux 2 à 5 soient pleinement déployés. La peur du traçage suffit.
+
+Le maillage territorial répond au modèle juridique d'une prison ouverte : la cible ne sait pas si elle est observée à cet instant précis, mais elle sait qu'elle peut l'être à tout moment. Il intériorise la surveillance. Il devient son propre gardien. La loi RIPOST, dont l'examen à l'Assemblée nationale est prévu le 6 juillet 2026, est conçue pour abolir la distinction juridique temporaire entre VSA et reconnaissance faciale biométrique. Le 29 mai 2026, la veille du match, trois arrêtés préfectoraux ont autorisé le déploiement de drones de surveillance. La technologie précède le débat. Le débat est évité.
+
+Ces huit entreprises, ces quatre propriétaires de médias, ces 35 milliards d'euros de marché sécuritaire forment une boucle. La peur est convertie en budgets. Les corps qui brûlent justifient les drones qui les surveillent. Les drones fabriquent de nouveaux corps : le fichier TAJ grossit, la boucle recommence. On sait qui profite. Reste la question : pourquoi personne n'arrête la machine ?
+
+La réponse tient en quatre mots : tout le monde encaisse.
+## 2015→2026 : 7 crises en 11 ans
+
+### 2015→2026 : sept crises, zéro leçon
+
+Ce n'est pas la première fois. Rien n'indique que ce sera la dernière.
+
+**2015**. Attentats de janvier et novembre. État d'urgence décrété, prolongé pendant **719 jours**. Loi renseignement votée. L'exception devient la norme.
+
+**2019**. Gilets Jaunes. La loi « anti-casseurs » est adoptée. Fouilles, fichage, interdictions administratives de manifester. Le TAJ gonfle.
+
+**2021**. Campagne sur l'insécurité. Le terme « ensauvagement » entre dans le débat public. Loi sécurité globale : drones, caméras-piétons, extension de la vidéosurveillance.
+
+**2023**. Mort de Nahel, 17 ans, tué par un tir policier à Nanterre. Émeutes dans toute la France. Plus de **1 500 comparutions immédiates**. **90 %** de condamnations. Peine moyenne : huit à neuf mois de prison ferme. Circulaire Dupond-Moretti exigeant une « réponse pénale ferme ».
+
+**2024**. Jeux Olympiques de Paris. Loi VSA (vidéosurveillance algorithmique) adoptée à titre « expérimental ». Prolongée jusqu'en 2027. **185 caméras** augmentées déployées.
+
+**2025**. Première victoire du PSG en Ligue des Champions. Célébrations sur les Champs-Élysées. Deux morts, 559 interpellations, 190 blessés. Aucune réforme du dispositif de maintien de l'ordre. Aucune commission d'enquête. Aucune fan zone créée.
+
+**2026**. Deuxième victoire du PSG. 890 interpellations, 721 gardes à vue, un décès (moto-cross), 62 départements touchés. RIPOST, votée au Sénat quatre jours avant les faits, accélérée et légitimée par les émeutes. Session parlementaire extraordinaire annoncée par le Premier ministre Lecornu. Proposition inédite : ponctionner les aides sociales des condamnés pour financer les réparations. La procureure requiert la qualification de « tentative d'homicide volontaire » (**30 ans** encourus).
+
+### L'échec est rentable
+
+Le pattern se répète. Sept crises en onze ans. Sept fois les mêmes discours : « ras-le-bol », « terminé », « il faut frapper fort ». Sept fois les mêmes « solutions » : plus de lois, plus de fichiers, plus de caméras. Sept fois zéro résultat, sauf un : l'élargissement continu du périmètre de surveillance. Le marronnier est parfait. L'État n'apprend pas parce qu'il n'a pas intérêt à apprendre. Chaque crise justifie des budgets, des lois, des postes. La nouveauté de 2026 est l'émergence de la « ponction sur aides sociales » proposée par Lecornu : l'idée que le condamné doit payer les dégâts matériels sur ses propres allocations, en sus de la peine pénale. Une escalade inédite dans l'arsenal répressif français. La loi RIPOST cible les « désordres du quotidien » : mortiers d'artifice, protoxyde d'azote, fêtes illégales, stupéfiants dans l'espace public, autant de pratiques déjà pénalisées, que le texte entend réprimer plus durement encore. Le mécanisme est nommé : l'échec est rentable. Crise → émotion → loi d'exception → intégration au droit commun → nouvelle crise. Chaque cycle élargit le périmètre de l'acceptable.
+
+Cette répétition n'est pas seulement politique. Elle est cognitive. Il s'agit d'une impuissance réflexive assortie d'un cynisme passif : le citoyen sait que le système est cassé, sait que ce qu'il fait ne marche pas, et continue. Parce que s'arrêter, c'est perdre son identité de « résistant », sa communauté, le sens qu'il donne à sa vie. L'identité de « résistant » est devenue plus importante que l'objectif de la résistance. On milite comme on regarde une série dont on sait qu'elle finira mal. Et le système, lui, se renforce à chaque épisode. le stade terminal de l'hypernormalisation : tout le monde sait que le système ment, le système sait que tout le monde sait, mais personne n'imagine d'alternative, tant la réalité a été remplacée par son simulacre.
+
+Cette mécanique est une boucle de rétroaction positive. Chaque crise justifie des lois qui produisent les conditions de la crise suivante. Plus de surveillance produit plus d'interpellations. Plus d'interpellations gonfle le fichier TAJ. Plus de fichiers justifie plus de surveillance. Le système ne tend pas vers l'équilibre. Il tend vers l'escalade.
+
+Le système ne désinstalle pas. Il empile. L'état d'urgence de 2015 n'a pas été abrogé : il a été intégré au droit commun par la loi SILT de 2017. La VSA « expérimentale » de 2024 n'a pas été abandonnée : elle a été prolongée jusqu'en 2027. Le Patriot Act américain de 2001, jamais abrogé en vingt-cinq ans, illustre la même logique : les pouvoirs d'exception survivent indéfiniment à l'exception qui les a justifiés. À chaque crise correspondent de nouveaux pouvoirs. À chaque retour au calme, les pouvoirs restent.
+
+Le système fonctionne par inertie et convergence d'intérêts, sans coordination centrale. L'antifragilité est documentée : chaque crise le renforce, chaque loi d'exception survit à l'exception. Il détecte les menaces, absorbe les critiques, redistribue les flux d'attention, non par intelligence, mais parce que chaque acteur y trouve son compte. La seule fois où ce mécanisme a défailli en France, c'est en 2018-2019 avec les Gilets Jaunes : un mouvement sans leader, sans parti, sans syndicat, qui échappait à tous les circuits d'intégration. La réponse a été à la hauteur de la menace : 24 éborgnés, 5 mains arrachées, 2 200 blessés (Amnesty International). Le système répond à la dissidence matérielle par la répression physique, et à la dissidence numérique par l'invisibilisation algorithmique. Le coût politique fut immense, mais la leçon est instructive : une dissidence qui ne peut être absorbée doit être écrasée.
+
+### L'écran de fumée : ce que les émeutes cachent
+
+Pendant que ces lois sont votées, d'autres sujets disparaissent. 2015 : la loi renseignement éclipse les débats budgétaires. 2019 : la loi anti-casseurs éclipse la réforme des retraites. 2023 : la circulaire Dupond-Moretti éclipse le rapport de la Cour des comptes. 2025-2026 : RIPOST éclipse les grèves de la fonction publique, des AESH et de la SNCF, ainsi que l'examen de la loi sur la fin de vie prévu le 15 juillet. Chaque crise fournit un rideau de fumée. Chaque rideau de fumée permet de légiférer sans débat. C'est le mécanisme de l'inversion d'extraction : les mots de la protection (« sécurité », « urgence », « antiterrorisme ») servent à opérer une dépossession légale. La loi renseignement de 2015 était une loi « antiterroriste ». Elle a servi à surveiller les syndicalistes, les écologistes, les Gilets Jaunes. La loi sécurité globale de 2021 était une loi de « protection ». Elle a légalisé les drones et la biométrie. Chaque instrument de protection est devenu un outil de capture.
+
+### La dissonance judiciaire : carburant du prochain cycle
+
+Un dernier mécanisme alimente la boucle : la dissonance judiciaire. Les médias produisent des images de « guérilla urbaine ». Les politiques exigent des peines lourdes. Les tribunaux prononcent majoritairement des sursis et des travaux d'intérêt général. Environ **15 %** de relaxes. Le Figaro note la « dissonance » entre les images de chaos et la réalité des peines. Cette dissonance n'est pas un dysfonctionnement. Elle est le carburant du prochain cycle. Les données budgétaires documentent le mécanisme : **0,20 % du PIB** pour la justice, **11 juges** pour 100 000 habitants (contre 21 en moyenne européenne), une institution maintenue volontairement sous-dimensionnée. Quand les peines paraîtront « trop clémentes », ce « laxisme » justifiera les peines planchers que la droite réclame déjà.
+
+Le mécanisme n'est pas franco-français. Au Royaume-Uni, le Brexit de 2016 a été porté par le vote des classes populaires blanches contre l'immigration. Les émeutes de 2024 ont suivi le même pattern.
+
+Alors, à qui profite le crime ? La réponse n'est pas un nom. C'est un système.
+
+Sept crises. Onze ans. Zéro leçon. Tout le monde encaisse.
+## À qui profite le crime ?
+
+Le 30 mai 2026, à vingt-trois heures, les Champs-Élysées étaient à la liesse. À deux heures du matin, ils étaient à la police. À six heures, le récit était verrouillé. À midi, la loi, déjà votée, était devenue « nécessaire ». Derrière cette chronologie, quatre mécanismes.
+
+### Le produit structurel
+
+Depuis quarante ans, l'État français abandonne ses banlieues. Cet abandon n'est pas une négligence : il est une allocation de ressources. L'argent va à la répression : 35 milliards d'euros de marché sécuritaire, 11 millions pour les grenades lacrymogènes d'Alsetex en 2023, plutôt qu'à l'intégration. Le résultat est mécanique. Une population jeune, masculine, issue de l'immigration post-coloniale, sans diplôme ni emploi, discriminée à l'embauche, contrôlée vingt fois plus que les autres. Le 30 mai 2026, cette population était sur les Champs-Élysées. Mais tous les visages de la nasse n'étaient pas les leurs. Sur 890 interpellés, l'absence des franges structurées du hooliganisme parisien démontre une application asymétrique de la nasse policière. Le système capture la cible facile et insoluble pour faire du chiffre, et exfiltre le groupe organisé pour éviter le blocage judiciaire. Ce qui est certain, c'est que la police avait préparé la nasse.
+
+### La convergence d'intérêts
+
+Aucun des acteurs de ce système n'a besoin de comploter. Il suffit que personne n'agisse pour l'intégration. Le Qatar veut étendre son influence. Macron veut neutraliser les grèves de juin. Bolloré veut de l'audience pour CNews. Alsetex veut des contrats. La famille Barès a facturé 11 millions d'euros à l'État en 2023. Le RN veut des voix. Chaque émeute fait monter Bardella dans les sondages. Retailleau veut pousser la reconnaissance faciale. Dassault veut vendre des drones. Chacun poursuit son intérêt propre. Le résultat agrégé est une machine à fragmenter les classes populaires.
+
+### La capture médiatique et politique
+
+En quarante-huit heures, la machine a verrouillé le récit. CNews, Le Figaro, BFMTV ont saturé l'espace public des mots « ensauvagement », « guérilla urbaine », « chaos ». Les Équilibristes, Le Monde et France Inter, ont stabilisé le cadrage par leur ton mesuré. Libération a servi de soupape. Les politiques ont converti la peur en agenda : Retailleau a proposé la reconnaissance faciale, Bardella a dénoncé la « guerre civile », Macron a promis la fermeté. La fenêtre d'Overton s'est déplacée en deux jours.
+
+### L'écran de fumée parlementaire
+
+La loi RIPOST était déjà votée au Sénat le 26 mai 2026, quatre jours avant les émeutes. La chronologie réelle n'est pas « émeutes → loi ». Elle est « loi → émeutes → accélération de la loi ». Pendant que les Français regardaient les voitures brûler, les préavis de grève de la fonction publique, des AESH et de la SNCF disparaissaient de l'agenda médiatique. L'examen de la loi sur la fin de vie, prévu le 15 juillet, était éclipsé. RIPOST passera à l'Assemblée nationale le 6 juillet sans débat contradictoire.
+
+La machine logistique a failli. La machine politique a récolté.
+
+Le **30 mai 2026** n'était ni un accident de maintien de l'ordre, ni le produit d'une fatalité culturelle. C'était un test de résistance politique grandeur nature, et hautement rentable. En quarante-huit heures, la loi d'exception de surveillance y a trouvé sa validation définitive. **890 profils sociaux** ciblés ont permis de sécuriser le récit du chaos. Un complexe militaro-sécuritaire de **35 milliards d'euros** a prouvé son indispensabilité. La mécanique budgétaire est indexée sur l'émotion populaire, avec une fluidité industrielle irréprochable. Le test est achevé. L'appareil est prêt pour le prochain événement.
+
+---
+
+## Sources
+
+### §1 : La nuit du 30 mai 2026
+
+- Bilan consolidé des émeutes (890 interpellations, 721 GAV, 219 blessés, 62 départements) : Sud Ouest, TF1 Info, Le Figaro, Le Monde, 1er-5 juin 2026
+- Finale PSG-Arsenal (1-1, 4-3 t.a.b.) : Le Monde, 30 mai 2026 - https://www.lemonde.fr/sport/article/2026/05/30/psg-arsenal-finale-ligue-des-champions_6695500_3242.html
+- Bilan consolidé (219 blessés, 8 graves) : Le Monde, 31 mai 2026 - https://www.lemonde.fr/societe/article/2026/05/31/apres-la-victoire-du-psg-en-finale-de-la-ligue-des-champions-des-heurts-mais-une-joie-partagee-a-paris-le-foot-c-est-ce-qui-nous-rassemble_6695542_3224.html
+- Décompte des 20 000 personnes et demande « zéro rassemblement » : Le Parisien, 31 mai 2026 - https://www.leparisien.fr/paris-75/victoire-du-psg-apres-les-debordements-la-mairie-du-viiie-arrondissement-reclame-le-zero-rassemblement-sur-les-champs-elysees-31-05-2026-7DAQC72G4FA3TESWSCPQJP6NVQ.php
+- Rejet de la demande de « zéro rassemblement » par Catherine Lécuyer (maire du 8e) : Le Parisien, 29 mai 2026
+- Émeutes 2025 (559 interpellations, 190 blessés, 2 morts non policières) : Sud Ouest, 1er juin 2025 - https://www.sudouest.fr/faits-divers/celebrations-en-marge-de-la-victoire-du-psg-2-morts-559-interpellations-692-incendies-le-bilan-de-la-soiree-en-france-24680089.php ; TF1 Info, 1er juin 2025 - https://www.tf1info.fr/justice-faits-divers/direct-ligue-des-champions-football-match-psg-inter-des-tensions-eclatent-a-paris-en-marge-du-match-2374229.html ; RMC Sport, 1er juin 2025 - https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-finale-de-la-ligue-des-champions-des-debordements-en-marge-de-l-evenement-59-interpellations-a-paris_LN-202505310348.html
+- Dispositif policier (8 000 Paris/IDF, 22 000 national) : Le Parisien, 29 mai 2026 - https://www.leparisien.fr/sports/football/ligue-des-champions/direct-psg-arsenal-ou-regarder-la-finale-quels-pronostics-quelles-festivites-en-cas-de-victoire-parisienne-posez-nous-vos-questions-a-la-veille-du-choc-de-ligue-des-champions-29-05-2026-2ZJQMF2GUVALBNLIKXQ6UDTNIA.php ; déclarations Laurent Nuñez, conférence de presse, 31 mai 2026
+- Loi RIPOST (pjl25-472) : Sénat, dossier législatif - https://www.senat.fr/dossier-legislatif/pjl25-472.html - dépôt 25 mars 2026, adoption 26 mai 2026
+- Suites judiciaires (70 défèrements, 13 comparutions immédiates) : Parquet de Paris, communiqués - https://www.tribunal-de-paris.justice.fr/75/communiques-de-presse
+- Comparaison 1998 (1,5 million Champs-Élysées) : INA, archives du 12 juillet 1998 - https://www.ina.fr/ina-eclaire-actu/video/man9131040822/football-quand-paris-est-en-liesse
+- Plan Leproux (dissolution tribune Boulogne) : Décret du 29 avril 2010, Journal Officiel - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022144979
+- Démographie 1998 vs 2026 (7,3 % vs 11,3 % immigrés) : INSEE, recensements - https://www.insee.fr/fr/statistiques/5225246 ; pyramide des âges - https://www.insee.fr/fr/statistiques/2381474
+
+### §2 : La capture médiatique et politique
+
+- Concentration des médias (9 milliardaires, 80 % des médias) : Contre7, mise à jour 2025 - https://contre7.fr/2025/12/19/concentration-medias-francais-mise-a-jour-2025/ ; Acrimed, cartographie 2024 - https://www.acrimed.org/Medias-francais-qui-possede-quoi ; Le Monde Diplomatique, « Médias français : qui possède quoi ? », 2022 - https://www.monde-diplomatique.fr/cartes/PPA
+- Stratégie Bolloré (200 journalistes partis, 40,4 % temps de parole extrême droite) : Arcom, rapports annuels - https://www.arcom.fr/nos-ressources/espace-juridique/rapports-annuels ; Le Monde, enquêtes 2022-2025 - https://www.lemonde.fr/les-decodeurs/article/2026/04/16/la-methode-bollore-comment-l-industriel-breton-s-est-cree-un-empire-mediatique-en-vingt-ans_6653611_4355771.html
+- Six lois de restriction de la liberté d'expression (2015-2023) : Loi renseignement du 24 juillet 2015 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030931899 ; État d'urgence du 20 novembre 2015 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031500831 ; Loi SILT du 30 octobre 2017 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035932811 ; Loi anti-casseurs du 10 avril 2019 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038358582 ; Loi sécurité globale du 25 mai 2021 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043530276 ; Loi VSA du 19 mai 2023 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047561974
+- Propriété qatarie du PSG : Wikipédia - https://fr.wikipedia.org/wiki/Paris_Saint-Germain_Football_Club ; Le Monde, « PSG : dix ans de propriété qatarie », 2021
+- Nasser Al-Khelaïfi (5 fonctions) : UEFA, comité exécutif - https://www.uefa.com/running-competitions/integrity/financial-sustainability/ ; LFP - https://www.lfp.fr/ ; beIN Media Group - https://www.beinmediagroup.com/the-group/nasser-al-khelaifi/
+
+### §3 : Sociologie d'un abandon
+
+- Profil-type émeutiers Nahel 2023 : Sénat, rapport de la commission d'enquête, 2024 - https://www.senat.fr/notice-rapport/2023/r23-521-notice.html ; Ministère de la Justice, données statistiques 2023
+- Taux de chômage immigrés (11,2 % vs 6,5 % natifs) : INSEE, enquête Emploi 2025 - https://www.insee.fr/fr/statistiques/3633212
+- Contrôles au faciès (20 fois plus) : Défenseur des droits, « Enquête sur l'accès aux droits », 2016 - https://www.defenseurdesdroits.fr/enquete-sur-lacces-aux-droits-sur-les-relations-entre-police-et-population-que-retenir-896
+- Testing CV (prénom arabe, 2-3 fois moins d'entretiens) : CNCDH, rapport annuel 2023 - https://www.cncdh.fr/publications/rapport-2023-lutte-contre-racisme-antisemitisme-xenophobie
+- Pauvreté immigrés (35 % vs 14,5 %) : INSEE, enquête Revenus fiscaux et sociaux 2024 - https://www.insee.fr/fr/statistiques/7941405
+- 340 000 titres de séjour/an, 71 % rejet asile : DGEF, statistiques 2024 - https://www.immigration.interieur.gouv.fr/documentation/etudes-et-statistiques/titres-de-sejour-en-2024.html ; OFPRA, rapport annuel 2024 - https://www.ofpra.gouv.fr/actualites/rapport-dactivite-2024
+- Retard PISA (50 points mathématiques) : OCDE, PISA 2022 - https://www.oecd.org/fr/publications/resultats-du-pisa-2022-volume-i_165f1d07-fr.html
+- 396 900 enfants sous protection ASE : DREES, « L'Aide sociale à l'enfance », édition 2025 - https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/les-dossiers-de-la-drees/250626_DD_aide-sociale-enfance-edition-2025
+- Mineurs déférés (14, dont 5 de moins de 16 ans) : Parquet de Paris, communiqué du 5 juin 2026 ; statistiques 2024 - https://www.tribunal-de-paris.justice.fr/sites/default/files/2025-03/Plaquette%20statistiques%202024%20V2.pdf
+- Gilets Jaunes (24 éborgnés, 5 mains arrachées, 2 200 blessés) : Amnesty International - https://www.amnesty.fr/actualites/france-milliers-de-manifestants-pacifiques-arbitrairement-arretes-et-poursuivis ; Mediapart, enquêtes 2019-2020
+- Vote RN rural vs urbain (42 % vs 30 %) : Destin commun / Le Point, enquête 2025
+- Références académiques : David Lepoutre, « Cœur de banlieue », Odile Jacob, 1997 ; Thomas Sauvadet, « Le Capital guerrier », Armand Colin, 2006 ; Frantz Fanon, « Les Damnés de la Terre », Maspero, 1961 ; Frantz Fanon, « Peau noire, masques blancs », Seuil, 1952
+
+### §4 : Les absents du débat
+
+- Alsetex/Groupe Étienne Lacroix : Pappers, fiche entreprise - https://www.pappers.fr/entreprise/societe-etienne-lacroix-tous-artifices-775580434 ; Ouest-France, enquête novembre 2023 - https://www.ouest-france.fr/societe/securite/la-commande-xxl-de-letat-au-sarthois-alsetex-pour-les-munitions-de-la-police-et-de-la-gendarmerie-ac538146-888d-11ee-a92a-0b4bc05f91ae ; Politis, « Le business des armes de la police », novembre 2023 - https://www.politis.fr/articles/2023/11/maintien-de-lordre-la-france-soffre-plus-de-78-millions-deuros-de-grenades/
+- Complexe sécuritaire (8 entreprises, 35 Md€) : GICAT, rapport annuel 2024 - https://gicat.com/wp-content/uploads/2025/07/gicat-rapport-d-activite-2024-web-planche.pdf
+- LOPMI (budget police +50 %, +15 Md€) : Loi du 24 janvier 2023, Légifrance - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047046768
+- Budget justice (0,20 % PIB, 11 juges/100k) : CEPEJ, rapport 2024 - https://www.coe.int/fr/web/cepej/special-file
+- 5 500 détenus dormant sur matelas au sol : Observatoire international des prisons, rapport 2024 - https://oip.org/publication/rapport-dactivite-2024-observatoire-international-des-prisons/
+- 80-100 Md€ évasion fiscale : Sénat, commission d'enquête sur l'évasion fiscale, 2018 - https://www.senat.fr/commission/enquete/evasion_des_capitaux.html
+- Fichier TAJ (24 millions de fiches) : CNIL, rappel à l'ordre 2024 - https://www.cnil.fr/fr/traitement-dantecedents-judiciaires-la-cnil-rappelle-lordre-deux-ministeres
+- VSA (vidéosurveillance algorithmique) : Loi du 19 mai 2023, Légifrance - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047561974
+- Drones de surveillance (3 arrêtés préfectoraux 29 mai 2026) : Préfecture de Police de Paris, communiqués
+- Reconnaissance faciale post-hoc (Briefcam) : La Quadrature du Net, enquête 2023 - https://www.laquadrature.net/2023/11/14/videosurveillance-algorithmique-a-la-police-nationale-des-revelations-passibles-du-droit-penal/ ; Disclose, « Vidéosurveillance algorithmique », 2023 - https://disclose.ngo/fr/article/la-police-nationale-utilise-illegalement-un-logiciel-israelien-de-reconnaissance-faciale
+
+### §5 : 7 crises en 11 ans
+
+- État d'urgence 2015 (719 jours) : Loi du 20 novembre 2015 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031500831 ; loi SILT du 30 octobre 2017 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035932811
+- Loi renseignement 2015 : Loi du 24 juillet 2015 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030931899
+- Loi anti-casseurs 2019 : Loi du 10 avril 2019 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038358582
+- Loi sécurité globale 2021 : Loi du 25 mai 2021 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043530276
+- Émeutes Nahel 2023 (1 500 comparutions, 90 % condamnations) : Ministère de la Justice, bilan statistique 2023 ; Sénat, rapport commission d'enquête - https://www.senat.fr/notice-rapport/2023/r23-521-notice.html
+- Loi VSA JO 2024 (185 caméras) : Loi du 19 mai 2023 - https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047561974
+- Patriot Act 2001 (jamais abrogé) : US Congress, Public Law 107-56
+- Dissonance judiciaire PSG 2026 : Le Figaro, 4 juin 2026 ; AFP, dépêches 3-5 juin 2026
+- Grèves juin 2026 (Fonction publique, AESH, SNCF) : Préavis avril-mai 2026, presse nationale
+- Loi fin de vie (examen 15 juillet 2026) : Assemblée nationale, ordre du jour session extraordinaire
+- Brexit et émeutes UK 2024 : ONS, Census 2021 - https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021 ; The Guardian, couverture émeutes août 2024 - https://www.theguardian.com/uk-news/article/2024/aug/03/government-warns-that-rioters-will-pay-the-price-as-wave-of-violence-sweeps-uk

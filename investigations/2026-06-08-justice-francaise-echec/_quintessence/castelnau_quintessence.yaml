@@ -1,0 +1,195 @@
+enquete_id: "castelnau"
+complexity: "APEX"
+date_extraction: "2026-06-09"
+enquete_source: "2026-06-09_12-00_transcript_castelnau_KERNEL_INVESTIGATION.md"
+
+these_centrale: "Le transcript du Monde Moderne (9 juin 2026, invité Castelnau) documente un système judiciaire biface : répression maximale contre les couches populaires via circulaires de priorisation politique, inertie structurelle face à la pédocriminalité. Cette asymétrie résulte de la sociologie de la magistrature, pas d'un complot."
+
+theses_implicites:
+  - "La contre-narration indépendante produit une analyse structurelle que ni les médias dominants ni l'institution judiciaire ne produisent."
+  - "L'État de droit est invoqué sélectivement : absolu pour protéger la corporation judiciaire, quasi-absent pour protéger les enfants."
+  - "Le transcript est un artefact de résistance, mais son EDI à 0.17 impose de le traiter comme une source parmi d'autres."
+
+faits_atomiques:
+  - id: "F-CAS-001"
+    enonce: "Castelnau, avocat, invité du Monde Moderne (Alexis) le 9 juin 2026."
+    source_url: ""
+    source_section: "§1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-CAS-002"
+    enonce: "Animateur cite 110 000 plaintes. Aucune source officielle. Chiffre vérifié : 70 000."
+    source_url: ""
+    source_section: "§8"
+    head_status: 0
+    tier: 3
+    glyphe: "⁅"
+  - id: "F-CAS-003"
+    enonce: "Darmanin annonce le 8 juin revue de 70 000 dossiers, deadline 14 juillet 2026."
+    source_url: ""
+    source_section: "§8"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-CAS-005a"
+    enonce: "Circulaire JUSD2327199C du 10 oct 2023 : réponse pénale ferme pour apologie du terrorisme post-7 octobre."
+    source_url: "https://www.justice.gouv.fr/sites/default/files/2023-10/JUSD2327199C.pdf"
+    source_section: "§8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CAS-005b"
+    enonce: "Dépêche interministérielle 31 mai 2021 : classement sans suite pour apurer les stocks."
+    source_url: "https://www.lejdd.fr/Societe/pour-reduire-le-stock-de-dossiers-bloques-dans-les-commissariats-les-magistrats-pries-de-classer-sans-suite-4145531"
+    source_section: "§8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CAS-006"
+    enonce: "ENM : 72% femmes promotion 2025 (337 auditrices). 80% est une surestimation."
+    source_url: "https://www.enm.justice.fr/api/getFile/sites/default/files/2025-09/ADJ%20Promo%202025%20-%20Profil%20promo.pdf"
+    source_section: "§8"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-CAS-007"
+    enonce: "Gilets Jaunes : ~3 100 condamnations totales, ~400 prison ferme. 3 000 prison ferme inexact."
+    source_url: "https://www.lemonde.fr/societe/article/2019/11/08/gilets-jaunes-plus-de-3-000-condamnations-par-la-justice-entre-novembre-2018-et-juin-2019_6018431_3224.html"
+    source_section: "§8"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-CAS-011"
+    enonce: "Budget justice : 0.20% PIB (UE: 0.31%). 11.3 juges/100k (UE: 21.9)."
+    source_url: "https://www.vie-publique.fr/en-bref/295836-systemes-judiciaires-europeens-le-rapport-du-conseil-de-leurope"
+    source_section: "§8"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-CAS-012"
+    enonce: "160 000 enfants victimes de violences sexuelles/an. CIIVISE, rapport 2023."
+    source_url: "https://www.ciivise.fr/le-rapport-public-de-2023"
+    source_section: "§8"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-CAS-014b"
+    enonce: "Loi intégrale pédocriminalité : 24 nov 2025, 109 signataires, 78 propositions, bloquée."
+    source_url: "https://www.france24.com/fr/france/20251125-que-contient-la-proposition-de-loi-transpartisane-contre-les-violences-sexistes-et-sexuelles"
+    source_section: "§8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CAS-017"
+    enonce: "1M photos pédopornographiques magistrat, 1 000€ amende : RUMEUR NON SOURCÉE."
+    source_url: ""
+    source_section: "§8"
+    head_status: 0
+    tier: 4
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Régis de Castelnau"
+    role: "Avocat, position dialectique rare : critique systémique + respect procédural"
+    faits_lies: ["F-CAS-001"]
+  - nom: "Gérald Darmanin"
+    role: "Ministre Justice, défausseur systémique, pattern c'est pas moi"
+    faits_lies: ["F-CAS-003"]
+  - nom: "Éric Dupond-Moretti"
+    role: "Ex-Garde Sceaux, circulaires documentant l'asymétrie pénale"
+    faits_lies: ["F-CAS-005a", "F-CAS-005b"]
+  - nom: "Magistrats (corporation)"
+    role: "Petite bourgeoisie urbaine, elite_closure, accountability_gap"
+    faits_lies: ["F-CAS-006", "F-CAS-011"]
+  - nom: "Emmanuel Macron"
+    role: "Président, 9 ans au pouvoir, promesse protection enfance 2022 non tenue"
+    faits_lies: ["F-CAS-011"]
+
+causalites:
+  - cause: "F-CAS-005b"
+    effet: "F-CAS-003"
+    mecanisme: "Dépêche classement sans suite (2021) → plaintes non traitées → stock 70 000 dossiers hérité par Darmanin (2026)"
+  - cause: "F-CAS-006"
+    effet: "F-CAS-007"
+    mecanisme: "Magistrature = petite bourgeoisie urbaine → défiance couches populaires → répression GJ prioritaire, inertie viols enfants"
+  - cause: "F-CAS-005a"
+    effet: "F-CAS-002"
+    mecanisme: "Circulaire apologie terrorisme (2023) = 350+ condamnations. Pédocriminalité = classements sans suite. Asymétrie documentée."
+
+perspectives_dialectiques:
+  - position: "Thèse officielle"
+    argument: "La justice manque de moyens (0.20% PIB). Les magistrats font ce qu'ils peuvent. Le lynchage est dangereux."
+  - position: "Antithèse animateur"
+    argument: "La justice est pourrie. Les magistrats protègent les pédocriminels. Démission générale."
+  - position: "Synthèse Castelnau"
+    argument: "Défaillance structurelle par convergence d'intérêts de classe, pas par complot. Réforme : collégialité, responsabilité, budget, indépendance du parquet."
+
+limites:
+  - "EDI 0.17 : transcript militant, pas de contradictoire"
+  - "Registre émotionnel de l'animateur nuit à la crédibilité forensique"
+  - "Plusieurs affirmations sont des rumeurs non sourcées"
+  - "Transcription automatique : erreurs possibles"
+
+wolves:
+  - nom: "Gérald Darmanin"
+    argument: "Pattern de défausse : Stade de France, SMS, Lyhanna"
+    reponse: "0 démission en 12 ans. La non-démission est normalisée."
+  - nom: "Éric Dupond-Moretti"
+    argument: "Circulaires = trace écrite de l'asymétrie pénale"
+    reponse: "Dépêche 2021 + circulaire 2023 documentent la priorisation sans imputer d'intention."
+  - nom: "Édouard Philippe"
+    argument: "Propose de supprimer les syndicats de magistrats"
+    reponse: "Instrumentalise l'émotion Lyhanna pour attaquer les contre-pouvoirs."
+
+iceberg:
+  - "Shadow factor ~4x : 70k dossiers visibles < 25% du problème réel"
+  - "Convergence Lyhanna-Bruel-Abbé Pierre-Hamilton-Depardieu : effet de seuil"
+  - "Les 37 queries KERNEL ont affiné les faits mais les limites du transcript restent"
+  - "Le KERNEL a détecté 10 @PAT[] et 7 @THR[] non visibles dans l'analyse non-KERNEL"
+  - "Résultat Mnemolite: non interrogé (MCP non disponible)"
+
+chronologie:
+  - date: "2018-11-01"
+    evenement: "Gilets Jaunes : ~3 100 condamnations totales, ~400 prison ferme"
+    source_fait: "F-CAS-007"
+  - date: "2021-05-31"
+    evenement: "Dépêche interministérielle classement sans suite"
+    source_fait: "F-CAS-005b"
+  - date: "2023-10-10"
+    evenement: "Circulaire JUSD2327199C apologie terrorisme"
+    source_fait: "F-CAS-005a"
+  - date: "2025-11-24"
+    evenement: "Loi intégrale pédocriminalité : 109 signataires, bloquée"
+    source_fait: "F-CAS-014b"
+  - date: "2026-06-07"
+    evenement: "Marche blanche Lyhanna : 6 000 personnes"
+    source_fait: ""
+  - date: "2026-06-08"
+    evenement: "Darmanin annonce 70k dossiers, refuse démission"
+    source_fait: "F-CAS-003"
+  - date: "2026-06-09"
+    evenement: "Castelnau invité du Monde Moderne"
+    source_fait: "F-CAS-001"
+
+domaines:
+  - "Justice"
+  - "Politique"
+  - "Sociologie"
+  - "Médias"
+  - "Protection de l'enfance"
+
+urls_prioritaires:
+  - url: "https://www.justice.gouv.fr/sites/default/files/2023-10/JUSD2327199C.pdf"
+    description: "Circulaire JUSD2327199C : preuve matérielle de la priorisation politique"
+    head_status: 200
+  - url: "https://www.vie-publique.fr/en-bref/295836-systemes-judiciaires-europeens-le-rapport-du-conseil-de-leurope"
+    description: "Rapport CEPEJ 2024 : 0.20% PIB, 11.3 juges/100k (données comparatives UE)"
+    head_status: 200
+
+shadow_factor: 4.0
+mnemo_queries:
+  - query: "Castelnau justice magistrats sociologie"
+    results_count: 0
+  - query: "Darmanin pattern défausse"
+    results_count: 0

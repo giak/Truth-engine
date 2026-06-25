@@ -1,0 +1,222 @@
+enquete_id: "dpas"
+complexity: "APEX"
+date_extraction: "2026-06-17"
+enquete_source: "investigations/2026-06-17_12-30_numerique-public-francais/2026-06-17_16-30_dpas-europeennes_modeles_financement_INVESTIGATION.md"
+
+these_centrale: "Le modèle de financement majoritaire des DPAs (budget général, amendes au Trésor) crée une incitation perverse à sous-financer sa propre autorité de contrôle : chaque euro supplémentaire est un coût budgétaire, chaque amende collectée est une recette générale sans lien avec la protection des données. Cette architecture maintient les DPAs dans un état de faiblesse permanente qui rend impossible la supervision effective des 4-5 Md€/an du SI public."
+
+theses_implicites:
+  - "Les DPAs les plus exposées (LSA: Irlande, Luxembourg, France) agissent comme sous-traitantes régulatoires des Big Tech : elles engagent des procédures, émettent des amendes records, mais n'ont ni les moyens de les collecter ni la capacité de suivre des centaines d'affaires complexes simultanément"
+  - "L'absence de publication systématique des taux de recouvrement des amendes par toutes les DPAs est un angle mort qui sert les deux récits - les autorités peuvent gonfler leurs statistiques sans rendre compte de l'argent effectivement collecté"
+  - "Le cas irlandais (4,04 Md€ amendes émises, ~0,5% recouvrées) est la preuve ultime de la thèse de la circulaire comptable : le montant des amendes sert de signal politique et médiatique, mais le flux financier réel est dérisoire"
+
+faits_atomiques:
+  - id: "F-DPA-101"
+    enonce: "Budget total estimé 27 DPAs UE: ~640 M€. Budget médian: ~5,5 M€. Effectif total estimé: ~4 500 ETP"
+    source_url: "https://www.edpb.europa.eu/system/files/2022-09/edpb_overviewresourcesmade_availablebymemberstatestosas2022_en.pdf"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-102"
+    enonce: "22 DPAs sur 27 fonctionnent en budget général pur (amendes reversées intégralement au Trésor)"
+    source_url: "https://verasafe.com/blog/data-privacy-fines-where-does-the-money-go/"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-103"
+    enonce: "Grèce: seul pays UE ayant réduit le budget DPA entre 2020 et 2024 (-15%) malgré reconnaissance constitutionnelle (art. 9A)"
+    source_url: "https://brave.com/static-assets/files/Brave-2020-DPA-Report.pdf"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-104"
+    enonce: "Autriche: réduction délibérée du budget DSB malgré explosion des missions (IFG, AI Act, NIS2). DSB elle-même parle de Notbetrieb"
+    source_url: "https://noyb.eu/en/budget-cuts-paralyse-austrian-dpa-ngo-complaint-eu-commission"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-105"
+    enonce: "Belgique: gel d'embauche jusqu'en 2029 malgré +83% d'enquêtes en 2024"
+    source_url: "https://www.edpb.europa.eu/system/files/2022-09/edpb_overviewresourcesmade_availablebymemberstatestosas2022_en.pdf"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-106"
+    enonce: "Modèle espagnol: AEPD conserve 100% amendes depuis 1993. Tribunal de Cuentas recommande abolition depuis 2017 - non suivie. En 2024, amendes (35,6 M€) presque doublent le budget d'État (18,8 M€)"
+    source_url: "https://verasafe.com/blog/data-privacy-fines-where-does-the-money-go/"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-107"
+    enonce: "Modèle italien: 50% amendes à la DPA (Garante), fléché vers 3 activités. 94 M€ excédent accumulé. 100 000+ signalements/an"
+    source_url: "https://rm.coe.int/t-pd52021-2-etude-en/1680a291e1"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-108"
+    enonce: "UK ICO: fee model unique (redevances ~66 M£/an + subvention 10 M£). Depuis 2022, rétention jusqu'à 7,5 M£/an amendes"
+    source_url: "https://ico.org.uk/about-the-ico/how-we-are-funded/"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-109"
+    enonce: "7 DPAs d'Europe centrale et orientale avec budgets < 2 M€: Malte (0,75 M€), Estonie (~0,8 M€), Bulgarie (~1,5 M€), Chypre (~1,5 M€), Lettonie (~1,5 M€), Lituanie (~2 M€), Slovénie (~2 M€)"
+    source_url: "https://www.edpb.europa.eu/system/files/2022-09/edpb_overviewresourcesmade_availablebymemberstatestosas2022_en.pdf"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-110"
+    enonce: "Luxembourg: 10,3 M€ pour 650 000 habitants (15,8 €/hab) - soit 13x le ratio français (0,41 €/hab). Ratio lié au rôle LSA"
+    source_url: "https://cnpd.public.lu/fr.html"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-111"
+    enonce: "Corrélation budget DPA/amendes est faible hors cas LSA (Irlande, Luxembourg, France). Sans Big Tech, le lien budgétaire-amendes s'effondre"
+    source_url: "https://www.enforcementtracker.com/"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-112"
+    enonce: "Ratio plaintes/employé varie de 1:10 (Italie) à 1:56 (France) - reflète différences de procédure et définition, pas d'efficacité"
+    source_url: "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10000000"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DPA-113"
+    enonce: "Article 52.4 GDPR: 'chaque autorité de contrôle doit disposer des ressources nécessaires'. Violé structurellement par au moins 80% des États membres. Aucune procédure d'infraction engagée"
+    source_url: "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Commission européenne"
+    role: "Tolère le sous-financement systémique des DPAs. Aucune procédure d'infraction pour non-respect article 52.4 GDPR"
+    faits_lies: ["F-DPA-113"]
+  - nom: "Tribunal de Cuentas (Espagne)"
+    role: "Critique la rétention des amendes AEPD depuis 2017. Recommandation jamais suivie"
+    faits_lies: ["F-DPA-106"]
+  - nom: "noyb / epicenter.works"
+    role: "ONGs ayant déposé plainte Commission UE contre sous-financement DSB Autriche"
+    faits_lies: ["F-DPA-104"]
+  - nom: "Gouvernement irlandais (Department of Justice)"
+    role: "Refuse explicitement l'hypothecation: 'not a feature of the Irish tax system'"
+    faits_lies: ["F-DPA-007"]
+  - nom: "DPAs d'Europe centrale et orientale"
+    role: "Victimes principales du sous-financement systémique. Budgets < 2 M€ pour populations multi-million"
+    faits_lies: ["F-DPA-109"]
+
+causalites:
+  - cause: "F-DPA-102"
+    effet: "F-DPA-113"
+    mecanisme: "Le modèle budget général pur (22/27 DPAs) crée une relation de dépendance budgétaire qui rend les DPAs vulnérables aux coupes - la Commission tolère cette violation structurelle de l'article 52.4"
+  - cause: "F-DPA-113"
+    effet: "F-DPA-104"
+    mecanisme: "L'absence de sanction de la Commission pour non-respect de l'art. 52.4 permet aux États comme l'Autriche de réduire délibérément le budget de leur DPA sans conséquence"
+  - cause: "F-DPA-102"
+    effet: "F-DPA-109"
+    mecanisme: "Le modèle de financement par dotation budgétaire discrétionnaire pénalise structurellement les petits États, où la DPA est une variable d'ajustement budgétaire plutôt qu'une priorité politique"
+  - cause: "F-DPA-113"
+    effet: "sous-financement généralisé"
+    mecanisme: "La règle (art. 52.4) existe mais est inapplicable sans procédure d'infraction. Les États le savent et sous-dotent leurs DPAs sans risque juridique"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle (États membres)"
+    argument: "Le financement des DPAs relève de la souveraineté budgétaire nationale. L'article 52.4 est une disposition-cadre, pas un droit à un budget déterminé. Les moyens augmentent globalement (+40% médiane 2020-2024)."
+  - position: "Antithèse (Critique structurelle)"
+    argument: "L'architecture de financement est conçue pour maintenir les DPAs incapables d'enforcement réel. L'article 52.4 est sciemment non appliqué par la Commission. Les DPAs sont des 'structures de régulation molle' qui donnent l'illusion d'un contrôle sans en avoir les moyens."
+  - position: "Synthèse (Architecture d'illusion confirmée)"
+    argument: "Le sous-financement n'est ni un accident ni un complot, mais une propriété émergente d'un système où les incitations budgétaires (États) et régulatoires (Commission) sont alignées contre des DPAs fortes. Les 3 exceptions (ES rétention, IT partage, UK fee model) montrent que d'autres modèles existent, mais chacun introduit ses propres distorsions."
+
+limites:
+  - "Taux de recouvrement des amendes non publié par la quasi-totalité des DPAs - le taux irlandais de 0,5% est une estimation externe, pas une donnée officielle vérifiée"
+  - "Données budgétaires hétérogènes : certains DPAs incluent les missions connexes (accès à l'information, AI Act), d'autres non"
+  - "Focus sur le budget comme indicateur unique d'efficacité - ne mesure pas la qualité des décisions, les précédents juridiques créés"
+  - "Comparaison France-Luxembourg biaisée par le statut LSA : le ratio 13x s'explique en partie par les missions Big Tech"
+
+wolves:
+  - nom: "L'optimiste incrémental"
+    argument: "Les budgets des DPAs augmentent globalement (+40% médiane 2020-2024). C'est une tendance positive. Les cas extrêmes (Grèce, Autriche) sont des exceptions."
+    reponse: "La hausse médiane de 40% part de bases extrêmement basses (< 2 M€ pour 7 DPAs). La Grèce et l'Autriche ne sont pas des exceptions mais des révélateurs de la fragilité du modèle: si un État peut réduire sa DPA de 15% sans conséquence, aucun DPA n'est à l'abri."
+  - nom: "Le technocrate régulatoire"
+    argument: "L'indépendance d'une DPA ne dépend pas de son mode de financement mais de son statut juridique et de la culture institutionnelle du pays."
+    reponse: "L'indépendance formelle (statut juridique) sans indépendance budgétaire (ressources prévisibles) est une coquille vide. La DSB autrichienne est indépendante en droit et en Notbetrieb en pratique."
+
+iceberg:
+  - "Les DPAs comme sous-traitantes régulatoires des Big Tech : elles engagent des procédures qu'elles ne peuvent pas mener à terme faute de ressources, produisant des contentiels qui durent des années (Amazon 746 M€ bloqué depuis 2021)"
+  - "La thésaurisation italienne (94 M€ d'excédent) comme signal que même les DPAs 'riches' ne dépensent pas pour l'enforcement réel"
+  - "Le design institutionnel des DPAs orienté vers le conseil et la pédagogie, pas l'enforcement répressif: 82% du budget CNIL en masse salariale"
+  - "Résultat Mnemolite: search 'DPA financement amendes recouvrement' → 3 mémoires dont investigation Cartographie 27 DPAs et LOLF fléchage"
+
+chronologie:
+  - date: "1993"
+    evenement: "Espagne instaure rétention 100% amendes par AEPD"
+    source_fait: "F-DPA-106"
+  - date: "2017"
+    evenement: "Tribunal de Cuentas Espagne recommande abolition rétention amendes AEPD (non suivie)"
+    source_fait: "F-DPA-106"
+  - date: "2018-05"
+    evenement: "RGPD entre en vigueur. Article 52.4: dotation suffisante des DPAs"
+    source_fait: "F-DPA-113"
+  - date: "2022"
+    evenement: "ICO UK obtient droit de rétention jusqu'à 7,5 M£/an d'amendes"
+    source_fait: "F-DPA-108"
+  - date: "2022-09"
+    evenement: "EDPB survey: 80% DPAs sous-financées, 86% manque personnel"
+    source_fait: "F-DPA-010"
+  - date: "2024"
+    evenement: "AEPD: 35,6 M€ amendes (presque double du budget d'État 18,8 M€)"
+    source_fait: "F-DPA-106"
+  - date: "2025-07"
+    evenement: "DSB Autriche déclare Notbetrieb"
+    source_fait: "F-DPA-104"
+  - date: "2025-09"
+    evenement: "Plainte noyb/epicenter.works Commission UE contre sous-financement DSB"
+    source_fait: "F-DPA-104"
+
+domaines:
+  - "Protection des données personnelles"
+  - "Finances publiques et modèles de dotation"
+  - "Droit européen de la régulation"
+  - "Indépendance des autorités administratives"
+  - "Gouvernance Big Tech"
+  - "Architecture d'illusion"
+
+urls_prioritaires:
+  - url: "https://noyb.eu/en/budget-cuts-paralyse-austrian-dpa-ngo-complaint-eu-commission"
+    description: "Plainte noyb contre sous-financement DSB Autriche"
+    head_status: 200
+  - url: "https://verasafe.com/blog/data-privacy-fines-where-does-the-money-go/"
+    description: "Analyse comparative des modèles de fléchage des amendes"
+    head_status: 200
+  - url: "https://rm.coe.int/t-pd52021-2-etude-en/1680a291e1"
+    description: "CoE Study on financing of DPAs - source académique de référence"
+    head_status: 200
+  - url: "https://ico.org.uk/about-the-ico/how-we-are-funded/"
+    description: "Documentation ICO sur le fee model"
+    head_status: 200
+  - url: "https://www.enforcementtracker.com/"
+    description: "CMS GDPR Enforcement Tracker - données amendes 2018-2025"
+    head_status: 200
+
+shadow_factor: 3.5
+
+mnemo_queries:
+  - query: "DPA européennes financement structurel sous-dotation article 52.4"
+    results_count: 3
+  - query: "modèle amendes fléchage DPAs architecture d'illusion"
+    results_count: 3

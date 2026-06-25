@@ -1,0 +1,80 @@
+enquete_id: "scaling_dunbar"
+complexity: "COMPLEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p2_scaling_dunbar/2026-06-12_12-00_scaling_post_dunbar_protocoles_INVESTIGATION.md"
+
+these_centrale: "La limite de Dunbar (150 personnes) n'est pas un plafond dur pour la coordination TECHNIQUE mais pour la COHÉSION ÉMOTIONNELLE. Des protocoles existent pour coordonner des milliers de personnes sans hiérarchie : modularité polycentrique (Ostrom — unités de ~150 interconnectées), stigmergie (coordination asynchrone par artefacts), et règles explicites de gouvernance (Freeman). Mais ces protocoles ont un coût : ils exigent une discipline institutionnelle que les mouvements spontanés n'ont pas, et ils sont tous conçus pour des environnements SANS MENACE (Wikipédia, GitHub, communs naturels) — leur transposition à la coordination clandestine n'est pas démontrée."
+
+theses_implicites:
+  - "La stigmergie coordonne des PRODUCTIONS (code, texte, cartographie), pas des ACTIONS physiques — la distinction est fondamentale."
+  - "Le scaling post-Dunbar de la coordination de masse semble exiger la TRANSPARENCE, pas la clandestinité."
+  - "'Sans chef formel' ne garantit pas 'absence de pouvoir' (Jo Freeman, The Tyranny of Structurelessness) — toute structure non explicite devient occulte et tyrannique."
+
+acteurs:
+  - "Dunbar (2010) : cercle des amis stables (~150), cercle des connaissances (jusqu'à 1500)"
+  - "Ostrom (1990, Nobel 2009) : Governing the Commons — 8 principes, polycentricité"
+  - "Jo Freeman (1970) : The Tyranny of Structurelessness"
+  - "Wikipédia : coordination de masse acéphale par stigmergie + règles explicites"
+  - "DAO Web3 : SubDAOs, Pods — retour à Dunbar en réseau plutôt qu'en pyramide"
+
+causalites:
+  - "Dunbar 150 → plafond de CONFIANCE, pas de COORDINATION → dépassable par protocoles explicites"
+  - "Stigmergie → coordination asynchrone sans communication directe → fonctionne pour artefacts, pas pour corps"
+  - "Ostrom polycentricité → solution documentée au scaling (couches emboîtées sans pyramide) → suppose reconnaissance du droit à s'organiser (principe 7)"
+  - "Absence de menace → condition implicite de tous les modèles de scaling documentés"
+
+perspectives_dialectiques:
+  - "Thèse : Dunbar 150 est un plafond dur. Antithèse : c'est un plafond de confiance, pas de coordination — des protocoles explicites (Ostrom, stigmergie) le dépassent."
+  - "Thèse : Wikipédia et GitHub sont des preuves de concept. Antithèse (Wolf 1) : conflation absurde entre production de texte et prise de risque physique."
+  - "Thèse : Ostrom s'applique à la coordination de masse. Antithèse (Wolf 3) : Ostrom documente des communautés LÉGALES ancrées — le principe 7 (droit à s'organiser) est précisément ce que l'État refuse."
+
+faits_atomiques:
+  - F-scl-001: "Stigmergie : coordination par modification de l'environnement (fourmis, termites). Appliquée à l'humain : GitHub (code), Wikipédia (texte) — milliers de contributeurs sans communication directe."
+    glyph: "✧"
+  - F-scl-002: "Ostrom (1990) : 8 principes de gouvernance des communs sans autorité centrale. Polycentricité pour grands systèmes : unités locales (~150) + couches de coordination emboîtées."
+    glyph: "✦"
+  - F-scl-003: "DAO Web3 : smart contracts pour règles de décision. Empiriquement : recentralisation de facto (whales, core devs). Solution : SubDAOs/Pods de ~150."
+    glyph: "✧"
+  - F-scl-004: "Wikipédia : coordination millions de contributeurs via stigmergie + règles (NPOV, 3-revert rule) + administrateurs avec outils de maintenance (pas pouvoir de contenu)."
+    glyph: "✦"
+  - F-scl-005: "Jo Freeman (1970) : tout groupe a une structure — si non explicite, devient occulte et tyrannique. Critique des mouvements 'sans leader' (Occupy, 15M)."
+    glyph: "✦"
+  - F-scl-006: "Dunbar (2010) : 150 = plafond pour la CONFIANCE (cohésion émotionnelle), pas pour la coordination technique. Extrapolation enquête : protocoles explicites peuvent remplacer la confiance par des règles."
+    glyph: "✧"
+  - F-scl-007: "Wikipédia/GitHub = environnements SANS MENACE (0 risque pénal). Transposer à la coordination d'actions physiques (prison, matraque) = erreur de catégorie."
+    glyph: "❧"
+
+limites:
+  - "Aucun protocole testé en contexte de coordination clandestine."
+  - "DAO : phénomène récent (2016-2026), pas de recul historique."
+  - "Ostrom : communautés de quelques milliers, pas mouvements de masse nationaux."
+  - "La transparence peut être une condition du scaling — incompatible avec la clandestinité."
+
+wolves:
+  - loup: "Conflation absurde : Wikipédia/GitHub (0 risque pénal) ≠ coordination physique (prison, LBD)"
+    reponse: "Exact. Stigmergie proposée pour coordination DE CONNAISSANCE (cartographie, documentation), pas d'actions physiques. Confusion levée."
+  - loup: "La stigmergie ne résiste pas à la répression d'État"
+    reponse: "Cœur du problème : la stigmergie fonctionne sans menace. Solution : stigmergie pour la connaissance + autres protocoles pour l'action."
+  - loup: "Ostrom ne s'applique pas à la subversion — communautés légales ancrées"
+    reponse: "Partiellement vrai. Principe 7 (droit à s'organiser) = ce que l'État refuse. Transposition incomplète sans stratégie pour FORCER la reconnaissance du principe 7."
+
+iceberg:
+  - "3 protocoles pour dépasser Dunbar : modularité polycentrique, stigmergie, règles explicites"
+  - "Distinction fondamentale : coordination de PRODUCTION vs coordination d'ACTION"
+  - "Tous les modèles de scaling documentés supposent la TRANSPARENCE et l'ABSENCE DE MENACE"
+  - "Pilier de GOUVERNANCE manquant au corpus"
+
+chronologie:
+  - "1970 : Freeman, Tyranny of Structurelessness"
+  - "1990 : Ostrom, Governing the Commons"
+  - "2001 : Wikipédia"
+  - "2010 : Dunbar, How Many Friends Does One Person Need?"
+  - "2016-2026 : DAO Web3"
+
+domaines:
+  - "theorie_organisationnelle"
+  - "scaling_coordination"
+  - "gouvernance_polycentrique"
+  - "stigmergie"
+
+urls: []

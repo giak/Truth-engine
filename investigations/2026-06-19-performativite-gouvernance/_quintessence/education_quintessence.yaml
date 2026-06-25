@@ -1,0 +1,361 @@
+enquete_id: "education"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "/home/giak/projects/truth-engine/investigations/2026-06-19-performativite-gouvernance/2026-06-19_12-00_education_performative_promesses_APEX.md"
+these_centrale: "L'Éducation nationale est le plus grand théâtre performatif de l'État français — les réformes successives (bac Blanquer, Pacte enseignant, réforme formation, choc des savoirs) forment un édifice de communication politique dont la fonction réelle est de masquer une réduction continue des moyens humains et financiers, sans amélioration mesurable des résultats."
+theses_implicites:
+  - "La suppression de ~10 000 postes depuis 2017 (dont 4 000 en 2026) est présentée comme un ajustement démographique, mais les gains de productivité théoriques ne sont jamais réinvestis dans les salaires ou les conditions d'enseignement."
+  - "Le Pacte enseignant (780 M€ budgétés, 480 M€ consommés, 38% de sous-exécution) est un dispositif de revalorisation nominale qui échoue structurellement — seuls 14% des enseignants cumulent plusieurs missions."
+  - "La réforme du bac Blanquer (2019), modifiée trois fois en six ans (2021/2023/2025), a transformé le diplôme en dispositif statistique décorrélé de sa mission pédagogique — 91,2% de réussite en 2024 mais baisse continue du niveau en mathématiques."
+  - "La réforme de la formation des enseignants (concours Bac+3, salaire M1 à 1 400 €/mois) a été lancée sans que le budget universitaire de préparation (500 M€/an à partir de 2028) ne soit garanti."
+  - "L'écart salarial avec l'Allemagne (30 062 € vs 56 787 € brut/an début de carrière, ratio 53%) est structurel et s'aggrave — +1% de pouvoir d'achat France vs +4% moyenne OCDE entre 2015 et 2023."
+faits_atomiques:
+  - id: "F-education-001"
+    enonce: "PLF 2026 prévoit ~4 000 suppressions de postes enseignants"
+    source_url: "https://www.journaldeleconomie.fr/projet-budget-2026-suppression-4000-postes/"
+    source_section: "§4 (C1)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-002"
+    enonce: "Ministre Geffray confirme 4 000 suppressions liées à la démographie"
+    source_url: "https://www.leparisien.fr/societe/budget-2026-des-suppressions-de-postes-enseignants-liees-a-la-baisse-demographique-previent-le-ministre-de-leducation-nationale-16-10-2025-GH3PJY6AKZDAVBT4YLQ5SAZDE4.php"
+    source_section: "§4 (C1)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-003"
+    enonce: "SNES-FSU décompose: 1 891 postes 1er degré, 1 365 2nd degré supprimés"
+    source_url: "https://www.vousnousils.fr/2025/10/17/4000-suppressions-de-postes-enseignants-en-2026-mais-bien-plus-de-professeurs-stagiaires-697201"
+    source_section: "§4 (C1)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-004"
+    enonce: "3 256 postes effectivement supprimés (répartition CSA janvier 2026)"
+    source_url: "https://www.vousnousils.fr/2026/01/29/education-4-000-postes-denseignants-supprimes-e-geffray-invoque-une-chute-demographique-vertigineuse-699982"
+    source_section: "§4 (C1)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-005"
+    enonce: "46% de postes ouverts en plus aux concours 2026 (effet réforme formation)"
+    source_url: "https://www.leparisien.fr/societe/budget-2026-des-suppressions-de-postes-enseignants-liees-a-la-baisse-demographique-previent-le-ministre-de-leducation-nationale-16-10-2025-GH3PJY6AKZDAVBT4YLQ5SAZDE4.php"
+    source_section: "§4 (C1)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-006"
+    enonce: "Décret réforme formation concours Bac+3 publié au JO le 19 avril 2025"
+    source_url: "https://www.bfmtv.com/societe/education/recrutement-des-bac-3-formation-remuneree-le-decret-reformant-les-concours-d-enseignants-officiellement-publie-au-jo_AN-202504190140.html"
+    source_section: "§4 (C2)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-007"
+    enonce: "Bayrou/Borne relancent réforme formation mars 2025"
+    source_url: "https://www.enseignementsup-recherche.gouv.fr/fr/reforme-formation-initiale-professeurs"
+    source_section: "§4 (C2)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-008"
+    enonce: "Salaire élève fonctionnaire M1: ~1 400 €/mois nets"
+    source_url: "https://www.devenirenseignant.gouv.fr/reforme-du-recrutement-et-de-la-formation-initiale-des-professeurs-mieux-former-pour-mieux-faire-1516"
+    source_section: "§4 (C2)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-009"
+    enonce: "Salaire fonctionnaire stagiaire M2: ~1 800 €/mois nets"
+    source_url: "https://www.devenirenseignant.gouv.fr/reforme-du-recrutement-et-de-la-formation-initiale-des-professeurs-mieux-former-pour-mieux-faire-1516"
+    source_section: "§4 (C2)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-010"
+    enonce: "Budget formation 500 M€/an à partir de 2028 non entériné"
+    source_url: "https://www.lemonde.fr/societe/article/2025/10/14/formation-des-enseignants-les-nouveaux-concours-un-imbroglio-pour-les-candidats_6646341_3224.html"
+    source_section: "§4 (C2)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-011"
+    enonce: "Pacte enseignant: 780 M€ budgétés, 480 M€ consommés (38% sous-exécution)"
+    source_url: "https://www.ccomptes.fr/sites/default/files/2025-07/20250701-Pacte-Enseignant_1.pdf"
+    source_section: "§4 (C3)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-012"
+    enonce: "14% des enseignants cumulent plusieurs missions Pacte"
+    source_url: "https://www.cafepedagogique.net/2025/07/01/audit-du-pacte-enseignant-la-cour-des-compte-pointe-le-manque-de-lisibilite-et-de-coherence/"
+    source_section: "§4 (C3)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-education-013"
+    enonce: "Gain moyen Pacte: 2 400 €/an"
+    source_url: "https://www.ccomptes.fr/sites/default/files/2025-07/20250701-Pacte-Enseignant_1.pdf"
+    source_section: "§4 (C3)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-014"
+    enonce: "110 M€ annulés sur le Pacte en février 2024"
+    source_url: "https://www.cafepedagogique.net/2025/07/01/audit-du-pacte-enseignant-la-cour-des-compte-pointe-le-manque-de-lisibilite-et-de-coherence/"
+    source_section: "§4 (C3)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-education-015"
+    enonce: "Cour des comptes: Pacte « cherche encore son positionnement »"
+    source_url: "https://www.lemonde.fr/societe/article/2025/06/30/pacte-enseignant-un-dispositif-qui-cherche-encore-son-positionnement-selon-la-cour-des-comptes_6617026_3224.html"
+    source_section: "§4 (C3)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-016"
+    enonce: "Salaire enseignant français 30 062 € brut/an début carrière vs 56 787 € Allemagne"
+    source_url: "https://www.touteleurope.eu/societe/le-salaire-des-enseignants-en-europe/"
+    source_section: "§4 (C5)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-education-017"
+    enonce: "Pouvoir d'achat enseignant France +1% 2015-2023 vs +4% moyenne OCDE"
+    source_url: "https://www.ccomptes.fr/sites/default/files/2025-07/20250701-Pacte-Enseignant_1.pdf"
+    source_section: "§4 (C5)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-018"
+    enonce: "Sophie Binet: « enseignants allemands gagnent deux fois plus »"
+    source_url: "https://www.touteleurope.eu/societe/le-salaire-des-enseignants-en-europe/"
+    source_section: "§4 (C5)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-education-019"
+    enonce: "Grève 31 mars 2026: 9,68% (ministère), 25-30% (syndicats). Aucune concession."
+    source_url: "https://www.vousnousils.fr/2026/03/31/greve-du-31-mars-1-enseignant-sur-10-mobilise-701705"
+    source_section: "§4 (C6)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-020"
+    enonce: "Intersyndicale grève 31 mars: FSU, UNSA, CFDT, CGT, SUD"
+    source_url: "https://www.rtl.fr/actu/debats-societe/greve-du-31-mars-dans-les-ecoles-seulement-10-des-enseignants-mobilises-selon-le-ministere-7900618806"
+    source_section: "§4 (C6)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-021"
+    enonce: "Cour des comptes RPA 2026: regroupement écoles-collèges-lycées sous 5 ans"
+    source_url: "https://www.ccomptes.fr/sites/default/files/2026-03/20260325-RPA-2026-I-3-Adapter-la-carte-des-colleges.pdf"
+    source_section: "§4 (C7)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-022"
+    enonce: "-12% collégiens attendus d'ici 2036"
+    source_url: "https://www.la-croix.com/societe/colleges-la-cour-des-comptes-appelle-l-education-nationale-et-lenseignement-prive-a-collaborer-20260326"
+    source_section: "§4 (C7)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-023"
+    enonce: "Bac 2024: 91,2% réussite. Baisse niveau maths (plus bas depuis 10 ans)"
+    source_url: "https://www.ladepeche.fr/2025/07/04/decryptage-baccalaureat-2025-baisse-du-niveau-reformes-reorientation-lexamen-sert-il-encore-a-quelque-chose-12802903.php"
+    source_section: "§4 (C4)"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-education-024"
+    enonce: "Contrôle continu sélectif septembre 2025 (Borne): projet d'évaluation par lycée"
+    source_url: "https://www.cafepedagogique.net/2025/09/02/baccalaureat-parcoursup-2026-toutes-les-notes-du-controle-continu-ne-compteront-plus/"
+    source_section: "§4 (C4)"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-025"
+    enonce: "Promesses Macron 2017: dédoublement CP/CE1 tenu; créations postes et affectation débutants non tenues"
+    source_url: "https://www.franceinfo.fr/elections/presidentielle/bilan-macron-on-a-verifie-100-promesses-phares-programme-2017-combien-en-a-t-il-tenues.html"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-026"
+    enonce: "Lui Président: 398 promesses évaluées — 170 tenues, 125 non tenues, 70 partielles"
+    source_url: "https://www.lemonde.fr/les-decodeurs/article/2022/03/12/emmanuel-macron-a-t-il-tenu-ses-400-promesses-de-campagne_6117218_4355770.html"
+    source_section: "§12"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-027"
+    enonce: "AEF info: 24 promesses éducation sur 28 tenues ou partiellement tenues"
+    source_url: "https://www.aefinfo.fr/depeche/670366-bilan-du-quinquennat-la-grande-majorite-des-promesses-education-ont-ete-totalement-ou-partiellement-tenues"
+    source_section: "§12"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-education-028"
+    enonce: "Budget Éducation 2026: 64,5 Mds€, +200 M€ sur un an"
+    source_url: "https://www.leparisien.fr/societe/budget-2026-des-suppressions-de-postes-enseignants-liees-a-la-baisse-demographique-previent-le-ministre-de-leducation-nationale-16-10-2025-GH3PJY6AKZDAVBT4YLQ5SAZDE4.php"
+    source_section: "§12"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-029"
+    enonce: "-106 900 élèves 1er degré à la rentrée 2025 (-1,7%)"
+    source_url: "https://fr.euronews.com/2026/03/31/fermeture-de-classes-suppressions-de-postes-les-enseignants-francais-dans-la-rue"
+    source_section: "§12"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-education-030"
+    enonce: "DEPP: professeurs des écoles titulaires les moins bien payés"
+    source_url: "https://www.vousnousils.fr/2025/09/15/depp-les-professeurs-des-ecoles-titulaires-les-moins-bien-payes-695935"
+    source_section: "§12"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+acteurs:
+  - nom: "Emmanuel Macron"
+    role: "Président. Promesses 2017: dédoublement CP/CE1 tenu, revalorisation salariale non tenue."
+    type: "Décideur"
+    poids: 10
+  - nom: "Édouard Geffray"
+    role: "Ministre Éducation nationale (2025-). Défend 4 000 suppressions démographiques."
+    type: "Décideur"
+    poids: 8
+  - nom: "Élisabeth Borne"
+    role: "Ministre Éducation (2024-2025). Réforme formation, contrôle continu sélectif bac."
+    type: "Décideur"
+    poids: 7
+  - nom: "Jean-Michel Blanquer"
+    role: "Ministre Éducation (2017-2022). Réforme bac 2019."
+    type: "Décideur"
+    poids: 7
+  - nom: "Bruno Le Maire"
+    role: "Ministre Économie/Finances. Bloque décret formation juillet 2024."
+    type: "Opposant interne"
+    poids: 7
+  - nom: "SNES-FSU (Sophie Vénétitay)"
+    role: "Premier syndicat second degré. Dénonce bac Blanquer, suppressions de postes."
+    type: "Opposant syndical"
+    poids: 8
+  - nom: "SNUipp-FSU (Guislaine David)"
+    role: "Syndicat premier degré. Dénonce suppressions 1er degré."
+    type: "Opposant syndical"
+    poids: 7
+  - nom: "Cour des comptes (Pierre Moscovici)"
+    role: "Audit Pacte juillet 2025, RPA 2026 collèges."
+    type: "Institution de contrôle"
+    poids: 6
+  - nom: "OCDE"
+    role: "Regards sur l'éducation 2024 — comparaisons internationales salaires, PISA."
+    type: "Institution benchmark"
+    poids: 5
+causalites:
+  - id: "C-education-01"
+    enonce: "Promesse électorale → Réforme bac 2019 → Ajustements 2021/2023/2025 → Bac à géométrie variable → Perte de valeur du diplôme"
+    type: "Promesse → Réforme → Sous-exécution → Abandon"
+  - id: "C-education-02"
+    enonce: "Baisse natalité → Moins d'élèves → Justification suppressions 4 000 postes → Pas d'amélioration P/E → Dégradation conditions travail"
+    type: "Démographie → Suppressions → Alibi budgétaire"
+  - id: "C-education-03"
+    enonce: "Annonce Pacte 2023 → 780 M€ budgétés → 480 M€ consommés → 110 M€ annulés 2024 → Défiance confirmée Cour des comptes 2025"
+    type: "Communication Pacte → Sous-consommation → Crédits annulés"
+  - id: "C-education-04"
+    enonce: "Réforme formation → Concours L3 → 1 400 €/mois M1 → Rémunération proche SMIC → Pas d'amélioration attractivité structurelle"
+    type: "Formation Bac+3 → Attractivité → Salaires bas"
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "L'Éducation nationale est réformée en continu pour l'améliorer — chaque réforme répond à un diagnostic précis (baisse niveau, démographie, attractivité) et modernise le système."
+  - position: "Antithèse"
+    argument: "Les réformes sont des substituts à l'investissement — elles produisent de la communication politique (le « choc » comme esthétique gouvernementale) sans amélioration mesurable, et masquent la réduction des moyens humains et financiers."
+  - position: "Synthèse"
+    argument: "La succession de réformes (bac, formation, Pacte, choc des savoirs) constitue un régime d'annonce qui occupe l'espace médiatique, épuise les acteurs par la mise en œuvre permanente, et masque l'absence d'augmentation structurelle du budget éducatif rapporté au PIB (4,7% — moyenne basse OCDE)."
+limites:
+  - "Enseignement supérieur exclu (hors formation initiale des enseignants)"
+  - "Écoles hors contrat non couvertes"
+  - "Politiques éducatives locales non analysées"
+  - "Comparaison PISA détaillée non incluse"
+wolves:
+  - id: "W-education-01"
+    enonce: "Réforme formation sans budget = piège générationnel. Les étudiants recrutés en L3 (promesse de carrière) découvriront un métier dégradé."
+    confiance: "Élevée"
+  - id: "W-education-02"
+    enonce: "Le « projet d'évaluation » du bac (contrôle continu sélectif 2025) crée un bac à plusieurs vitesses: selon l'établissement, le coefficient 0 supprime des matières entières du diplôme officiel."
+    confiance: "Élevée"
+  - id: "W-education-03"
+    enonce: "Si la démographie continue (-30% d'élèves dans certains départements d'ici 2034), le modèle de « regroupement » de la Cour des comptes légitimera des fermetures massives sous couvert de rationalisation."
+    confiance: "Très élevée"
+  - id: "W-education-04"
+    enonce: "Le déclassement salarial structurel (53% de l'Allemagne) crée une trappe à pauvreté enseignante: futurs recrutés L3 dans le quartile inférieur des salaires français."
+    confiance: "Très élevée"
+  - id: "W-education-05"
+    enonce: "La succession rapide de ministres (5 depuis 2022) interdit toute continuité stratégique — chaque ministre annule ou révise les réformes du prédécesseur."
+    confiance: "Élevée"
+iceberg:
+  - niveau: "SURFACE (visible)"
+    contenu: "Réforme bac Blanquer, Pacte enseignant, réforme formation Bayrou/Borne, 4 000 suppressions de postes, budget 64,5 Mds€"
+  - niveau: "MI-PROFONDEUR (partiellement visible)"
+    contenu: "10 000 postes supprimés depuis 2017, 38% sous-exécution Pacte, 500 M€ formation non budgétés, bac modifié 3× en 6 ans"
+  - niveau: "PROFONDEUR (structurel, invisible)"
+    contenu: "Écart salarial 53% vs Allemagne, architecture de capture performative, hyperactivité réformatrice comme substitut à l'investissement, régime d'annonce comme mode de gouvernement"
+  - niveau: "FACTOR (moteur)"
+    contenu: "Nécessité politique d'afficher l'action sans augmenter structurellement le budget éducatif — la réforme comme produit de communication, pas comme politique publique"
+chronologie:
+  - date: "2017"
+    evenement: "Élection Macron. Promesses: dédoublement CP/CE1, revalorisation, fin affectation débutants en REP"
+  - date: "2018"
+    evenement: "Décret réforme bac Blanquer. Lancement Parcoursup."
+  - date: "2019"
+    evenement: "Mise en œuvre réforme bac. Suppressions de postes amorcées."
+  - date: "2021"
+    evenement: "E3C supprimées après Covid. Premier bilan réforme bac."
+  - date: "2023"
+    evenement: "Pacte enseignant effectif. Revalorisation partielle grilles."
+  - date: "2024-02"
+    evenement: "Annulation 110 M€ sur Pacte. Gel dotations."
+  - date: "2024-07"
+    evenement: "Décret formation initiale bloqué par Bruno Le Maire."
+  - date: "2025-03"
+    evenement: "Bayrou/Borne relancent réforme formation. Concours Bac+3."
+  - date: "2025-04"
+    evenement: "Décret formation publié au JO (19 avril)."
+  - date: "2025-06"
+    evenement: "Cour des comptes: audit Pacte enseignant (38% sous-exécution)."
+  - date: "2025-10"
+    evenement: "PLF 2026: 4 000 suppressions postes. Budget 64,5 Mds€."
+  - date: "2026-03"
+    evenement: "Grève 31 mars. Cour des comptes RPA 2026: regroupement écoles-collèges."
+  - date: "2026-09"
+    evenement: "Rentrée 2026: application suppressions, concours L3 effectifs."
+domaines:
+  - nom: "Économique"
+    impact: "64,5 Mds€ budget 2026; 500 M€/an réforme formation à partir 2028; 480 M€ consommés sur 780 M€ Pacte"
+  - nom: "Social"
+    impact: "Grève 31 mars; salaires 47% < Allemagne; -1M élèves en 10 ans"
+  - nom: "Politique"
+    impact: "5 ministres Éducation depuis 2022; promesses Macron 2017 non tenues"
+  - nom: "Pédagogique"
+    impact: "Bac Blanquer modifié 3×; 91,2% réussite; baisse niveau maths"
+  - nom: "Démographique"
+    impact: "-106 900 élèves 2025; -12% collégiens 2036"
+urls_prioritaires:
+  - "https://www.ccomptes.fr/sites/default/files/2025-07/20250701-Pacte-Enseignant_1.pdf"
+  - "https://www.leparisien.fr/societe/budget-2026-des-suppressions-de-postes-enseignants-liees-a-la-baisse-demographique-previent-le-ministre-de-leducation-nationale-16-10-2025-GH3PJY6AKZDAVBT4YLQ5SAZDE4.php"
+  - "https://www.ccomptes.fr/sites/default/files/2026-03/20260325-RPA-2026-I-3-Adapter-la-carte-des-colleges.pdf"
+  - "https://www.touteleurope.eu/societe/le-salaire-des-enseignants-en-europe/"
+  - "https://www.lemonde.fr/societe/article/2025/10/14/formation-des-enseignants-les-nouveaux-concours-un-imbroglio-pour-les-candidats_6646341_3224.html"
+shadow_factor: 5.5
+mnemo_queries:
+  - query: "éducation nationale réformes performativité pacte enseignant budget"
+    results_count: 5
+    results_note: "Résultats non spécifiques (memories de test sys:consolidated)"
+  - query: "PISA scores baisse école France postes supprimés"
+    results_count: 5
+    results_note: "Investigation connexe: cybersécurité État, comparaison France-Estonie numérique public"

@@ -1,0 +1,347 @@
+enquete_id: puits
+complexity: COMPLEX
+date_extraction: '2026-06-12'
+enquete_source:
+- investigations/2026-06-10_puits_de_droit_concret/2026-06-10_10-00_puits_de_droit_concret_SOLUTIONS.md
+- type: SOLUTIONS
+- lignes: 630
+- fichiers: 1
+these_centrale: 'L''architecture du "puits de droit" (empilement de 5 entites juridiques distinctes : association 1901, SCIC,
+  SARL/SAS, syndicat, parti politique) est la seule strategie defensive coherente face a l''art.450-1 CP. Chaque etage a une
+  protection specifique (valeur constitutionnelle pour asso/syndicat/parti, responsabilite limitee pour SCIC/SARL) mais l''empilement
+  n''a jamais ete teste. Suspicion score : 6.5/10. Le precedent Tarnac rappelle que le droit ne protege pas contre la qualification
+  politique.
+
+  '
+theses_implicites:
+- TI1: 'Le droit francais offre des protections constitutionnelles puissantes (liberte d''association CC 1971, liberte syndicale
+    loi 1884, art.4 Const.) que les mouvements sous-exploitent systematiquement.
+
+    '
+- TI2: 'Le verrou n°1 du puits n''est pas juridique mais operationnel : gerer 5 entites avec dirigeants distincts, comptes
+    separes, et conventions reglementees exige une competence que 99% des militants n''ont pas.
+
+    '
+- TI3: 'L''Etat de droit est la seule protection disponible en democratie — mais il peut etre suspendu (etat d''urgence, art.16).
+    Le puits est un amortisseur, pas un blindage.
+
+    '
+faits_atomiques:
+- id: F-PUI-001
+  enonce: 'La liberte d''association est un principe fondamental reconnu par les lois de la Republique depuis la decision
+    CC 71-44 DC du 16 juillet 1971.
+
+    '
+  source_url: https://www.conseil-constitutionnel.fr/decision/1971/7144DC.htm
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+  note: URL HEAD 200 OK.
+- id: F-PUI-002
+  enonce: 'L''article L.212-1 du Code de la securite interieure permet la dissolution administrative des associations qui
+    provoquent a la violence.
+
+    '
+  source_url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025505191
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-PUI-003
+  enonce: 'Le Conseil d''Etat, decision du 9 novembre 2023 (n°476384), a annule la dissolution des Soulevements de la Terre
+    au motif de proportionnalite : la dissolution "ne peut etre legalement prononcee que si elle presente un caractere adapte,
+    necessaire et proportionne."
+
+    '
+  source_url: https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048384891
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-PUI-004
+  enonce: 'La loi n°2021-1109 du 24 aout 2021 (separatisme) impose un contrat d''engagement republicain aux associations demandant
+    des subventions publiques.
+
+    '
+  source_url: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043964778
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-PUI-005
+  enonce: 'La SCIC (loi 47-1775 modifiee 2001) est une societe cooperative a capital variable associant obligatoirement 3
+    categories d''associes (salaries, beneficiaires, autres parties prenantes). Les reserves impartageables (57,50% du resultat)
+    sont deduites de l''assiette IS.
+
+    '
+  source_url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000684004
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-PUI-006
+  enonce: 'L''abus de bien social (SARL art. L.241-3, SAS art. L.244-1 C.com) est puni de 5 ans d''emprisonnement et 375 000
+    € d''amende. La parade est le regime des conventions reglementees (autorisation prealable du conseil).
+
+    '
+  source_url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006449786
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-PUI-007
+  enonce: 'Les syndicats professionnels (loi 21 mars 1884, art. L.2111-1 C.trav) ne peuvent pas etre dissous par decret administratif.
+    Seule une decision judiciaire peut le faire (art. L.2131-6 C.trav).
+
+    '
+  source_url: https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006132331
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-PUI-008
+  enonce: 'L''article 4 de la Constitution du 4 octobre 1958 garantit la libre formation et activite des partis politiques.
+
+    '
+  source_url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019240999
+  source_section: ''
+  glyphe: ✦
+  head_status: 200
+  tier: 1
+- id: F-PUI-009
+  enonce: 'Le financement public des partis politiques s''eleve a 64 M€ en 2025, reparti en deux fractions (suffrages legislatifs
+    + parlementaires rattaches).
+
+    '
+  source_url: https://blog.landot-avocats.net/2025/09/08/financement-des-partis-et-groupements-politiques-voici-les-montants-2025-64-me-et-la-ventilation-correspondante/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-PUI-010
+  enonce: 'La CNCCFP confirme la liberte de creation des partis politiques, sans autorisation prealable.
+
+    '
+  source_url: https://cnccfp.fr/partis-politiques/creer-un-parti-politique
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-PUI-011
+  enonce: 'Le dirigeant d''association engage sa responsabilite penale pour abus de confiance et detournement de l''objet
+    social, rapprochee de celle du dirigeant de societe commerciale.
+
+    '
+  source_url: https://www.ledauphine.com/societe/2025/11/06/monde-associatif-devant-la-justice-une-responsabilite-a-ne-pas-negliger
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-PUI-012
+  enonce: 'Le Conseil d''Etat a valide la dissolution de la Coordination contre le racisme et l''islamophobie (CRI) le 9 novembre
+    2023, demontrant que la protection des associations n''est pas absolue.
+
+    '
+  source_url: https://revuedlf.com/droit-administratif/dissolution-dassociations-et-de-collectifs-les-limites-des-pouvoirs-gouvernementaux-et-du-controle-du-juge/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-PUI-013
+  enonce: 'L''architecture du puits de droit proposee comporte 6 niveaux distincts : N0 (groupement de fait), N1 (association
+    1901), N2 (SARL/SAS), N3 (SCIC), N4 (syndicat), N5 (parti politique). Chaque niveau a ses dirigeants, comptes, et flux
+    contractuels separes.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Proposition architecturale originale du rapport, non testee.
+- id: F-PUI-014
+  enonce: 'Le precedent Tarnac (poursuivi 10 ans sans structure formelle) montre que la structure juridique ne protege pas
+    contre la qualification politique.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PUI-015
+  enonce: 'Suspicion score composite du puits de droit : 6.5/10. Sources juridiques 8/10, test empirique 7/10 (entites existent
+    separement, empilement non), falsifiabilite 5/10, auto-critique 5/10.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Auto-critique interne.
+acteurs:
+- nom: Conseil constitutionnel
+  role: Decision 71-44 DC de 1971 — valeur constitutionnelle de la liberte d'association
+  faits_lies: []
+- nom: Conseil d'Etat
+  role: Decision 9 novembre 2023 — controle de proportionnalite des dissolutions
+  faits_lies: []
+- nom: CNCCFP (Commission nationale des comptes de campagne et des financements politiques)
+  role: Regulation des partis politiques
+  faits_lies: []
+- nom: Legislateur (loi 1901, loi 1884, loi 1947, loi 1988, loi 2021)
+  role: Cadre legal des 5 entites du stack
+  faits_lies: []
+- nom: Tarnac (groupe des 9)
+  role: Precedent jurisprudentiel — 10 ans de poursuites sans structure juridique formelle
+  faits_lies: []
+- nom: Soulevements de la Terre
+  role: Precedent jurisprudentiel — dissolution annulee pour defaut de proportionnalite
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: '[Empilement entites juridiques distinctes] → [Responsabilite fragmentee] → [Impossibilite d''imputer l''action
+    globale a une seule entite] → [Frein procedural aux poursuites]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Absence de conventions ecrites entre entites] → [Confusion des patrimoines] → [Abus de bien social] → [Responsabilite
+    penale des dirigeants]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Dirigeants distincts par entite] → [Absence gestion de fait] → [Protection personnelle des administrateurs]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Suspension Etat de droit (art.16, etat d''urgence)] → [Neutralisation des protections constitutionnelles] →
+    [Dissolution sans proportionnalite] → [Effondrement du puits]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Complexite juridique du stack] → [Barriere d''entree operationnelle] → [Sous-utilisation militante] → [Vulnerabilite
+    persistante]
+
+    '
+perspectives_dialectiques:
+- P1: 'Favorable : Le droit francais offre un arsenal de protections constitutionnelles que les mouvements n''exploitent pas.
+    L''empilement est legal, transparent, et chaque etage a une fonction claire. L''arret SLT 2023 montre que la justice administrative
+    protege effectivement.
+
+    '
+- P2: 'Defavorable : L''empilement n''a jamais ete teste. Gerer 5 entites est operationnellement irrealiste pour 99% des militants.
+    Le droit peut etre suspendu ou revoque. Tarnac a ete poursuivi SANS structure — preuve que la qualification politique
+    contourne le droit.
+
+    '
+- P3: 'Synthese : Le puits de droit est une condition necessaire mais non suffisante. Il transforme la repression en bataille
+    juridique (terrain plus favorable) mais ne l''elimine pas. Priorite operationnelle : commencer par 2 entites (asso + syndicat)
+    avant de complexifier.
+
+    '
+limites:
+- L'empilement n'a jamais ete teste en conditions reelles.
+- La dissolution individuelle reste possible (SdT dissous, CRI dissoute).
+- La responsabilite penale des dirigeants n'est pas abolie.
+- Gerer 5 entites exige une competence juridique et comptable rare.
+- Le precedent Tarnac: le droit ne protege pas contre la qualification politique.
+- L'Etat de droit peut etre suspendu (etat d'urgence, article 16).
+- La complexite administrative est une barriere d'entree qui exclut la plupart des militants.
+wolves:
+- nom: Le droit est-il vraiment une protection ou un piege ? Plus on structure juridiqu...
+  argument: 'Le droit est-il vraiment une protection ou un piege ? Plus on structure juridiquement la coordination, plus on
+    donne de prises a la repression (comptes bancaires saisissables, adresses de siege, dirigeants identifies). Le groupement
+    de fait (N0) est-il en realite plus protecteur que tout le stack ?
+
+    '
+  reponse: ''
+- nom: L'Etat de droit est un contrat politique
+  argument: 'L''Etat de droit est un contrat politique. Si l''Etat decide de le rompre (suspension art.16, etat d''urgence
+    permanent), le puits s''effondre en une heure. Est-ce que le risque de suspension est reel en France 2026 ? La loi LOPMI
+    2023 et les pratiques recentes (VSA, dissolution SdT puis annulation) suggerent un Etat qui teste ses limites.
+
+    '
+  reponse: ''
+iceberg:
+- item: 'L''arret SLT 2023 (proportionnalite des dissolutions) est un precedent jurisprudentiel qui merite une investigation
+    dediee. Il pourrait devenir la pierre angulaire d''une strategie juridique defensive.
+
+    '
+- item: 'La SCIC avec reserves impartageables (exoneration IS) est un vehicule fiscal quasi-inconnu des militants. Une investigation
+    sur "SCIC militante" serait operationnellement precieuse.
+
+    '
+- item: 'Le syndicat comme bouclier juridique (pas de dissolution administrative, caisse de greve) est l''angle mort strategique
+    du mouvement social francais. Pourquoi les mouvements ne creent-ils pas de syndicats ?
+
+    '
+- item: 'Mnemolite: UP, search DOWN. Aucune cross-reference possible.
+
+    '
+- item: 'Les 30 URLs citees sont majoritairement legifrance.gouv.fr — source primaire de niveau ✦. Exceptionnellement bien
+    source pour un rapport militant.
+
+    '
+chronologie:
+- date: '1884-03-21'
+  evenement: Loi Waldeck-Rousseau — liberte syndicale
+- date: '1901-07-01'
+  evenement: Loi sur la liberte d'association
+- date: '1947-09-10'
+  evenement: Loi portant statut de la cooperation (base SCIC)
+- date: '1958-10-04'
+  evenement: Constitution — art.4 (partis politiques)
+- date: '1971-07-16'
+  evenement: Decision CC 71-44 DC — valeur constitutionnelle de la liberte d'association
+- date: '1988-03-11'
+  evenement: Loi transparence financiere de la vie politique (partis)
+- date: '2001-07-17'
+  evenement: Loi creant le statut SCIC
+- date: 2008-11
+  evenement: Debut affaire Tarnac (10 ans de poursuites)
+- date: '2021-08-24'
+  evenement: Loi separatisme — contrat d'engagement republicain
+- date: '2023-11-09'
+  evenement: Double decision CE — dissolution SdT annulee + dissolution CRI validee
+domaines:
+- Droit constitutionnel
+- Droit des associations
+- Droit des societes (SCIC, SARL, SAS)
+- Droit syndical
+- Droit des partis politiques
+- Strategie juridique defensive
+urls_prioritaires:
+- url: https://www.conseil-constitutionnel.fr/decision/1971/7144DC.htm
+  description: ''
+  head_status: 0
+- url: https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048384891
+  description: ''
+  head_status: 0
+- url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000684004
+  description: ''
+  head_status: 0
+- url: https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006132331
+  description: ''
+  head_status: 0
+- url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019240999
+  description: ''
+  head_status: 0
+shadow_factor: 1.0
+shadow_justification: 'Le fichier source est exceptionnellement bien source (30 URLs, majoritairement legifrance.gouv.fr —
+  source primaire ✦). La quintessence est purement extractive : le droit positif est cite, les decisions de justice sont referencees,
+  les articles de code sont identifiables. La seule zone speculative est l''efficacite reelle de l''empilement, jamais teste.
+  Shadow factor minimal (1.0) reflete cette extractivite.
+
+  '
+mnemo_queries:
+- note: 'Mnemolite systematiquement DOWN sur /v1/search/ (500). Aucune requete Mnemolite possible. Le cross-referencement
+    est impossible tant que Mnemolite n''est pas fonctionnel.
+
+    '

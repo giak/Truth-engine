@@ -1,0 +1,212 @@
+enquete_id: "marches"
+complexity: "COMPLEX"
+date_extraction: "2026-06-17"
+enquete_source: "investigations/2026-06-17_12-30_numerique-public-francais/2026-06-17_18-45_marches-publics-esn-etat-francais_INVESTIGATION.md"
+
+these_centrale: "L'État français a confié au moins 3,2 milliards d'euros de marchés publics aux cinq principales ESN (Capgemini, Sopra Steria, Atos, Accenture, McKinsey) entre 2017 et 2025, avec une concentration extrême : Capgemini capte 52% du marché (~1,7 Md€), 20 cabinets concentrent 55% du conseil aux ministères, et les marchés sans mise en concurrence sont récurrents (Cassiopée : une seule offre pour 60 M€). Aucun recours n'a été engagé après des échecs documentés (paie Éducation 263 M€ engloutis, Scribe 11,7 M€ abandonné)."
+
+theses_implicites:
+  - "La concentration des marchés sur Capgemini (52%) crée une dépendance technologique qui verrouille les SI critiques (Chorus, Cassiopée, SCORPION) et rend toute alternance impossible"
+  - "L'absence de recours après échecs majeurs (paie Éducation, Scribe) crée une immunité de facto des ESN - l'État supporte seul le risque"
+  - "Les accords-cadres UGAP/DITP permettent de contourner la mise en concurrence, vidant de leur substance les règles de la commande publique"
+  - "McKinsey n'a payé 0€ d'IS en France entre 2011 et 2020 tout en percevant 72,8 M€ de contrats publics - le contribuable subventionne l'optimisation fiscale"
+
+faits_atomiques:
+  - id: "F-MPC-001"
+    enonce: "Capgemini : au moins 1,7 Md€ de contrats publics État français entre 2017 et 2025 (1,1 Md€ documenté Le Monde + 600 M€ supplémentaires DECP)"
+    source_url: "https://www.lemonde.fr/les-decodeurs/article/2022/07/02/cabinets-de-conseil-capgemini-le-couteux-prestataire-dont-l-etat-ne-sait-plus-se-passer_6133034_4355770.html"
+    source_section: "§2.1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MPC-002"
+    enonce: "Capgemini détient ~52% du marché ESN État, suivi Atos (15%), Sopra Steria (13%), Accenture (11%), McKinsey (3%)"
+    source_url: "https://tenderarc.com/fr/entreprise/capgemini-technology-services-479766842/"
+    source_section: "§4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-MPC-003"
+    enonce: "Dépenses conseil ministères : 379 M€ (2018) → 894 M€ (2021), +136% en 3 ans (Sénat 2022)"
+    source_url: "https://www.senat.fr/rap/r21-578-1/r21-578-1.html"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MPC-004"
+    enonce: "Cassiopée (Justice, 60 M€) : une seule offre reçue. Absence de concurrence sur SI judiciaire critique"
+    source_url: "https://www.boamp.fr/telechargements/PDF/2022/BOAMP-J-IC-AA_2022_134005/22-68235.pdf"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MPC-005"
+    enonce: "McKinsey : 72,8 M€ de contrats État (2017-2022). 0€ d'impôt sur les sociétés en France entre 2011 et 2020, CA France 329 M€ (2020)"
+    source_url: "https://www.senat.fr/rap/r21-578-1/r21-578-1.html"
+    source_section: "§2.5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MPC-006"
+    enonce: "Projet paie Éducation nationale (Capgemini) : 263 M€ en 10 ans, abandonné 2018. 'Mauvaise qualité des applications' (Cour des comptes)"
+    source_url: "https://www.lemonde.fr/les-decodeurs/article/2022/07/02/cabinets-de-conseil-capgemini-le-couteux-prestataire-dont-l-etat-ne-sait-plus-se-passer_6133034_4355770.html"
+    source_section: "§2.1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MPC-007"
+    enonce: "RRF (Réseau Radio du Futur) : 540 M€ attribué à Capgemini + Airbus. Plus gros contrat IT identifié"
+    source_url: "https://www.letelegramme.fr/economie/toute-l-actualite/reseau-radio-du-futur-contrat-de-540-meur-pour-airbus-et-capgemini-344620.php"
+    source_section: "§2.1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MPC-008"
+    enonce: "Sopra Steria : 71,6 M€ pour AMOA radars automatiques Intérieur (2019-2025), soit 8 M€/an"
+    source_url: "https://www.caradisiac.com/radars-le-recours-aux-cabinets-conseils-epingle-par-le-senat-195246.htm"
+    source_section: "§2.2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MPC-009"
+    enonce: "Accenture : 170,5 M€ en 24 contrats depuis 2018 (données DECP). Dont 34,4 M€ TMA Oracle CNAF"
+    source_url: "https://tenderarc.com/fr/entreprise/accenture-732075312/"
+    source_section: "§2.4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-MPC-010"
+    enonce: "Atos : 100 M€ DIRISI Défense (4 ans). Nationalisation Advanced Computing/Bull : 410 M€ (2025-2026). Atos dette ~5 Md€"
+    source_url: "https://presse.economie.gouv.fr/letat-annonce-avoir-signe-avec-atos-un-contrat-portant-sur-lacquisition-de-lactivite-advanced-computing/"
+    source_section: "§2.3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MPC-011"
+    enonce: "20 cabinets de conseil concentrent 55% du marché des prestations de conseil aux ministères (Sénat 2022)"
+    source_url: "https://www.senat.fr/rap/r21-578-1/r21-578-1.html"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MPC-012"
+    enonce: "Aucun recours État contre Capgemini après échec Scribe (11,7 M€). 'Torts partagés' invoqué par ministère"
+    source_url: "https://observatoire.anticor.org/2022/10/13/nouveau-contrat-pour-capgemini-avec-le-ministere-de-linterieur-malgre-lechec-scribe/"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-MPC-013"
+    enonce: "Consultant Capgemini (David Marx) assurait intérim chef département aides Anah - conflit d'intérêts documenté (Le Monde 2022)"
+    source_url: "https://www.lemonde.fr/les-decodeurs/article/2022/07/02/cabinets-de-conseil-capgemini-le-couteux-prestataire-dont-l-etat-ne-sait-plus-se-passer_6133034_4355770.html"
+    source_section: "§6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Capgemini"
+    role: "Premier prestataire IT de l'État (52% du marché, ~1,7 Md€). Échecs documentés (paie Éducation 263 M€, Scribe 11,7 M€) sans recours"
+    faits_lies: ["F-MPC-001", "F-MPC-006", "F-MPC-013"]
+  - nom: "Atos"
+    role: "ESN historique Défense (SCORPION, DIRISI, supercalculateurs). En crise financière (dette ~5 Md€). Nationalisé Advanced Computing 410 M€"
+    faits_lies: ["F-MPC-010"]
+  - nom: "Sopra Steria"
+    role: "Partenaire historique des SI financiers (Chorus) et radars (71,6 M€). 51 000 employés"
+    faits_lies: ["F-MPC-008"]
+  - nom: "McKinsey"
+    role: "Influence stratégique > volume financier. 0€ IS France 2011-2020. 72,8 M€ contrats État 2017-2022"
+    faits_lies: ["F-MPC-005"]
+  - nom: "Accenture"
+    role: "Second en volume (~350 M€). Central sur SI santé (pass sanitaire, ANS interopérabilité)"
+    faits_lies: ["F-MPC-009"]
+
+causalites:
+  - cause: "F-MPC-006"
+    effet: "F-MPC-012"
+    mecanisme: "L'absence de recours après l'échec de la paie Éducation (263 M€) crée un précédent d'impunité qui permet de ne pas poursuivre pour Scribe (11,7 M€). Les clauses contractuelles floues et les 'torts partagés' sont invoqués systématiquement"
+  - cause: "F-MPC-004"
+    effet: "F-MPC-001"
+    mecanisme: "L'absence de concurrence sur Cassiopée (une seule offre) illustre le verrouillage des SI critiques par Capgemini, permettant une augmentation continue des volumes de contrats sans pression concurrentielle"
+  - cause: "F-MPC-005"
+    effet: "F-MPC-003"
+    mecanisme: "L'optimisation fiscale de McKinsey (0€ IS) lui permet de proposer des prix sous-évalués par rapport aux concurrents qui paient l'IS, créant un avantage déloyal qui contribue à l'explosion des dépenses conseil (+136%)"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle (Bercy/ESN)"
+    argument: "Les marchés sont attribués selon le code de la commande publique, avec mise en concurrence et respect des règles. Les échecs sont l'exception. Les ESN apportent des compétences que l'État ne peut pas internaliser."
+  - position: "Antithèse (Critique de la captation)"
+    argument: "Le système est verrouillé par un oligopole : Capgemini (52%), contrats sans concurrence, absence de recours après échecs, optimisation fiscale. L'État est captif de ses prestataires."
+  - position: "Synthèse (Dépendance pathologique)"
+    argument: "La concentration n'est pas le résultat d'un complot mais d'un cercle vicieux : l'externalisation massive vide l'État de ses compétences internes, le rendant plus dépendant des ESN, qui peuvent donc augmenter leurs prix et réduire leur qualité sans crainte de sanctions."
+
+limites:
+  - "Les montants DECP sont des maximums prévisionnels, pas toujours les dépenses réelles"
+  - "Les marchés de défense sont partiellement occultés - sous-estimation probable"
+  - "Les accords-cadres UGAP/DITP rendent difficile le traçage des dépenses réelles par ESN"
+  - "Sous-traitance en cascade (15-30% des missions UGAP) non documentée"
+
+wolves:
+  - nom: "Défenseur des ESN"
+    argument: "Les échecs de projets IT sont normaux dans le numérique mondial. 263 M€ de perte sur 1,7 Md€ de contrats, c'est 15% - dans la moyenne du secteur privé."
+    reponse: "L'absence d'action en justice et la réattribution immédiate de nouveaux contrats (RRF 540 M€ après l'échec Scribe) montrent que l'État ne traite pas ses prestataires comme le ferait un client privé."
+  - nom: "Relativiste procédural"
+    argument: "Les marchés sans concurrence sont légaux dans le code de la commande publique (urgence, exclusivité technique). Cassiopée est un cas isolé."
+    reponse: "Ce n'est pas un cas isolé : Chorus (verrouillage technologique), SCORPION (verrouillage défense), McKinsey COVID (urgence sanitaire) sont des patterns récurrents. L'exception tend à devenir la règle."
+
+iceberg:
+  - "L'absence de recours après échecs (paie Éducation, Scribe) cache probablement des clauses contractuelles qui protègent les ESN - négociées par des cadres qui rejoindront ensuite ces mêmes ESN"
+  - "La sous-traitance en cascade (15-30% UGAP vers PME) n'apparaît pas dans les données publiques - les PME sont invisibles dans la commande publique"
+  - "La nationalisation Advanced Computing (Atos/Bull) pour 410 M€ est une socialisation des pertes après privatisation des profits"
+
+chronologie:
+  - date: "2008-2018"
+    evenement: "Projet paie Éducation (Capgemini) : 263 M€ engloutis, abandonné"
+    source_fait: "F-MPC-006"
+  - date: "2011-2020"
+    evenement: "McKinsey France : 0€ d'IS, optimisation fiscale via Delaware"
+    source_fait: "F-MPC-005"
+  - date: "2018"
+    evenement: "Dépenses conseil ministères : 379 M€. McKinsey commence accord-cadre DITP 39 M€"
+    source_fait: "F-MPC-003"
+  - date: "2021"
+    evenement: "Dépenses conseil culminent à 894 M€ (+136% vs 2018). Scribe (11,7 M€) abandonné"
+    source_fait: "F-MPC-003, F-MPC-012"
+  - date: "2022-05"
+    evenement: "Cassiopée Justice : 60 M€, une seule offre. Absence de concurrence documentée"
+    source_fait: "F-MPC-004"
+  - date: "2022-07"
+    evenement: "Le Monde publie enquête Capgemini : >1,1 Md€, 250 contrats publics"
+    source_fait: "F-MPC-001"
+  - date: "2025-2026"
+    evenement: "Nationalisation Advanced Computing Atos/Bull : 410 M€. RRF 540 M€ attribué Capgemini+Airbus"
+    source_fait: "F-MPC-010, F-MPC-007"
+
+domaines:
+  - "Marchés publics et commande publique"
+  - "ESN et secteurs du numérique"
+  - "Gouvernance des SI de l'État"
+  - "Optimisation fiscale des grandes entreprises"
+  - "Conflits d'intérêts public-privé"
+
+urls_prioritaires:
+  - url: "https://www.senat.fr/rap/r21-578-1/r21-578-1.html"
+    description: "Rapport Sénat Assassi/Bazin mars 2022 - commission enquête cabinets conseil"
+    head_status: 200
+  - url: "https://www.lemonde.fr/les-decodeurs/article/2022/07/02/cabinets-de-conseil-capgemini-le-couteux-prestataire-dont-l-etat-ne-sait-plus-se-passer_6133034_4355770.html"
+    description: "Enquête Le Monde Capgemini : 1,1 Md€, 250 contrats"
+    head_status: 200
+  - url: "https://tenderarc.com/fr/entreprise/capgemini-technology-services-479766842/"
+    description: "TenderArc : 104 contrats Capgemini TS - données DECP"
+    head_status: 200
+  - url: "https://www.boamp.fr/telechargements/PDF/2022/BOAMP-J-IC-AA_2022_134005/22-68235.pdf"
+    description: "BOAMP Cassiopée Justice - preuve offre unique"
+    head_status: 200
+
+shadow_factor: 3.0
+
+mnemo_queries:
+  - query: "marchés publics ESN Capgemini État français contrats IT concentration"
+    results_count: 2
+  - query: "commande publique absence concurrence Cassiopée échecs sans recours"
+    results_count: 1

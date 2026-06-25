@@ -1,0 +1,275 @@
+enquete_id: "audit"
+complexity: "APEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-10_audit_general_senior/"
+fichiers_sources:
+  - "AUDIT.md (audit principal, scores, verdict, 10 pistes d'enquête)"
+  - "2026-06-10_23-54_10_gaps_KERNEL_SYNTHESIS.md (synthèse 10 gaps, scoring, priorisation)"
+  - "2026-06-10_18-00_gap2_police_gap3_narrative_MANIPULATION_REPORT.md (deep dive GAP #2 Police + GAP #3 Narratif)"
+
+these_centrale: "Le corpus Truth Engine sur la coordination acéphale est meilleur que 90% des analyses systémiques disponibles mais souffre de 10 gaps critiques dont 3 sont bloquants : l'absence de projet politique (LEVIER), le biais de classe (60% de la population absente), et l'invisibilité des variables race/genre. Sans correction de ces gaps, le corpus reste un diagnostic d'élite pour une élite."
+theses_implicites:
+  - "Le corpus est écrit PAR un homme blanc CSP+ technophile POUR un homme blanc CSP+ technophile. Ce biais n'est jamais déclaré. Les protocoles supposent un acteur rationnel, éduqué, connecté, sans enfant, avec temps libre — ce qui exclut structurellement les classes populaires, les femmes racisées, et les précaires."
+  - "L'absence de projet politique est le gap le plus grave car il précède logiquement tous les autres. À quoi sert d'analyser la coordination si on ne sait pas POUR QUOI se coordonner ? Tout le corpus est un moyen sans fin — le projet est SOUS-ENTENDU mais JAMAIS ARTICULÉ."
+  - "La police et le narratif sont les deux faces d'un même contrôle social — la police exécute le verrouillage par la force, les médias par le récit. Le corpus traite la police comme un outil (budget, violences) mais jamais comme une institution avec sa propre sociologie, et ignore totalement la stratégie de communication externe des mouvements."
+
+faits_atomiques:
+  - id: "F-audit-001"
+    enonce: "Le corpus initial (3 investigations : fresque, action acéphalique, verrou coordination) obtient un score composite de 6/10. Forces : rigueur intellectuelle (7/10), complétude (8/10), honnêteté sur les limites (8/10). Faiblesses : actionnabilité (5/10), prise en compte des risques (2/10)."
+    source_url: "AUDIT.md §Conclusion"
+    source_section: "AUDIT.md Conclusion"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-002"
+    enonce: "Après ajout de 4 enquêtes (LEGAL, LEADERSHIP, FINANCING, DEFEAT) + 5 solutions (SUCCESSION, FINANCEMENT INVISIBLE, NON-ESCALADE, PUITS DE DROIT, BENELUX), le score composite passe à 7.5/10. Prise en compte des risques : +5 points (2→7/10). Actionnabilité : +1.5 (5→6.5/10)."
+    source_url: "AUDIT.md §MAJ post-audit"
+    source_section: "AUDIT.md MAJ"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-003"
+    enonce: "10 gaps critiques identifiés dans le corpus, classés en 3 phases : Phase 1 (bloquants) — LEVIER (projet politique), CLASSE, RACE/GENRE. Phase 2 (urgents) — POLICE, ÉTAT FRAGILE, NARRATIF. Phase 3 (différés) — PSYCHO, CAS HISTORIQUES, EMPIRIQUE, SOURCES."
+    source_url: "10_gaps_KERNEL_SYNTHESIS.md §6"
+    source_section: "10_gaps §6 Timeline"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-004"
+    enonce: "GAP #1 (LEVIER) : le corpus contient 4 858 lignes d'analyse de coordination, 0 ligne sur le projet politique. Score de gravité maximal : Ξ=9, Κ=9. Le corpus est un moyen sans fin."
+    source_url: "10_gaps §2"
+    source_section: "10_gaps §2, §5"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-005"
+    enonce: "GAP #10 (CLASSE) : 60% de la population française (classes populaires) sont absentes du corpus comme acteurs et comme destinataires. Les protocoles supposent un acteur éduqué, connecté, avec temps libre."
+    source_url: "Crédoc 2023, Insee 2022 ; 10_gaps §7 F-SYN-02"
+    source_section: "10_gaps §7 F-SYN-02"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-audit-006"
+    enonce: "GAP #8 (RACE/GENRE) : les femmes racisées sont contrôlées 7× plus que les Blanches (CNRS 2017). Aucune donnée de ce type dans le corpus. Le 'militant' du corpus est un faux universel qui masque la réalité genrée et racisée de la répression."
+    source_url: "Jobard et al., CNRS 2017 ; 10_gaps §7 F-SYN-03"
+    source_section: "10_gaps §7 F-SYN-03"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-audit-007"
+    enonce: "GAP #2 (POLICE) : le corpus traite la police comme un outil (budget, violences, effectifs) mais JAMAIS comme une institution avec sa propre sociologie. Questions non posées : doctrine réelle du maintien de l'ordre, fragilités internes (suicides record 2023 : 60), impunité systémique (IGPN : 3,2% de condamnations)."
+    source_url: "gap2_police §Implicite profond ; IGPN 2023"
+    source_section: "gap2_police §Implicite profond"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-008"
+    enonce: "GAP #3 (NARRATIF) : la communication externe des mouvements est TOTALEMENT absente du corpus. Zéro investigation sur comment un mouvement raconte son histoire. Or la guerre est gagnée dans l'opinion publique AVANT de l'être sur le terrain. Zapatistes, FLN, IRA : leçons ignorées."
+    source_url: "gap3_narrative §Implicite profond"
+    source_section: "gap3_narrative §Implicite profond"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-009"
+    enonce: "GAP #6 (EMPIRIQUE) : aucun protocole du corpus n'a été testé empiriquement. L'absence de validation signifie que le corpus entier est un château de cartes théorique. C'est le problème épistémologique le plus grave."
+    source_url: "10_gaps §5 Lien #3"
+    source_section: "10_gaps §5 Lien #3"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-010"
+    enonce: "GAP #9 (SOURCES) : Légifrance met 80 000+ arrêts en open data — le corpus en cite 0. Wikipédia domine comme source (~35/60 sources). Standard de preuve insuffisant pour une enquête forensique."
+    source_url: "10_gaps §7 F-SYN-10"
+    source_section: "10_gaps §7 F-SYN-10"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-011"
+    enonce: "Lien causal #1 : LEVIER → tous les autres gaps. L'absence de projet politique précède logiquement tous les autres gaps. À quoi sert d'analyser la police si on ne sait pas quel changement politique on veut ?"
+    source_url: "10_gaps §5 Lien #1"
+    source_section: "10_gaps §5 Lien #1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-012"
+    enonce: "Lien causal #2 : CLASSE + RACE/GENRE → POLICE. Les classes populaires et les personnes racisées sont les premières cibles de la police. Sans ces variables démographiques, l'analyse de la police est structurellement incomplète."
+    source_url: "10_gaps §5 Lien #2"
+    source_section: "10_gaps §5 Lien #2"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-013"
+    enonce: "Fractures policières documentées : 9 CRS jugés en février 2026 pour violences Gilets jaunes. Suicides record dans la police nationale (60 en 2023). Refus d'obéissance et démissions en hausse post-GJ."
+    source_url: "France Info, fév. 2026 ; Le Monde, oct. 2023"
+    source_section: "gap2_police F6"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-audit-014"
+    enonce: "Doctrine maintien de l'ordre : passage du modèle 'gestion de foule' au modèle 'insurrectionnel' post-GJ (LBD, grenades GLI-F4, drones, BRAV-M). Budget police +50% en 6 ans (LOPMI 2023-2027, +15 Md€). Marché sécuritaire français estimé à 35 Md€."
+    source_url: "Légifrance LOPMI ; PUL, Désordres dans le maintien de l'ordre"
+    source_section: "gap2_police F1, F2, F3"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-015"
+    enonce: "Zapatistes : stratégie médiatique transnationale — communiqués Subcomandante Marcos, usage d'Internet dès 1994 pour diffuser le récit. 30+ ans de tenue narrative. Modèle jamais analysé dans le corpus pour sa dimension communicationnelle."
+    source_url: "HAL-SHS hal-04285840v1"
+    source_section: "gap3_narrative F1"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-audit-016"
+    enonce: "IRA : Green Book 1977 théorise la séparation structurelle armée/politique — 'Sinn Féin mène la guerre de propagande, IRA mène la guerre armée'. Leçon de stratégie narrative ignorée par le corpus."
+    source_url: "Wikipedia, Semantic Scholar"
+    source_section: "gap3_narrative F2"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-audit-017"
+    enonce: "Gilets jaunes : échec de maîtrise narrative — pas de porte-parole, pas de stratégie de communication coordonnée, récit capté par les médias mainstream. Contre-modèle de ce que le corpus devrait analyser."
+    source_url: "Politis, Le Monde"
+    source_section: "gap3_narrative F5"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-audit-018"
+    enonce: "Le corpus a un biais de l'enquêteur non déclaré : écrit PAR un homme blanc CSP+ technophile POUR un profil similaire. Les protocoles supposent un acteur rationnel, éduqué, connecté, sans enfant, avec temps libre. Ce biais n'est jamais discuté."
+    source_url: "10_gaps §8 Niveau 4"
+    source_section: "10_gaps §8 Niveau 4"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-019"
+    enonce: "Recommandation de l'audit : Scénario B (publication avec gaps déclarés) + Phase 1 (LEVIER + CLASSE + RACE/GENRE) comme prérequis minimum avant publication. 3 enquêtes rapides (~5 500 lignes) pour transformer l'audit en levier."
+    source_url: "10_gaps §14"
+    source_section: "10_gaps §14"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-audit-020"
+    enonce: "Chenoweth & Stephan (2011) : étude quantitative de 323 mouvements — les mouvements non-violents ont 2× plus de chances de réussite que les violents, et les mouvements avec objectif politique CLAIR survivent significativement plus longtemps. Le corpus ignore cette littérature."
+    source_url: "Chenoweth & Stephan, Why Civil Resistance Works (2011)"
+    source_section: "10_gaps §7 F-SYN-05"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Corpus Truth Engine (objet audité)"
+    role: "Ensemble des investigations sur la coordination acéphale — 4 858 lignes analysées, score 7.5/10"
+    faits_lies: ["F-audit-001", "F-audit-002", "F-audit-003"]
+  - nom: "Giak (auteur)"
+    role: "Auteur du corpus — le biais de l'enquêteur (homme blanc CSP+ technophile) imprègne tout le corpus sans être déclaré"
+    faits_lies: ["F-audit-005", "F-audit-006", "F-audit-018"]
+  - nom: "Classes populaires (absentes)"
+    role: "60% de la population française — absentes du corpus comme acteurs et comme destinataires"
+    faits_lies: ["F-audit-005", "F-audit-012"]
+  - nom: "Police nationale (institution non analysée)"
+    role: "Institution clé du verrouillage — traitée comme outil, jamais comme institution avec sa sociologie propre"
+    faits_lies: ["F-audit-007", "F-audit-013", "F-audit-014"]
+  - nom: "Zapatistes (modèle narratif ignoré)"
+    role: "Cas historique de réussite narrative — 30+ ans de maîtrise du récit via Marcos et Internet"
+    faits_lies: ["F-audit-015"]
+  - nom: "IRA / Sinn Féin (modèle structurel ignoré)"
+    role: "Séparation structurelle armée/politique pour la narration — Green Book 1977"
+    faits_lies: ["F-audit-016"]
+
+causalites:
+  - cause: "F-audit-004"
+    effet: "F-audit-003"
+    mecanisme: "L'absence de projet politique (LEVIER) est le gap le plus grave car il précède logiquement tous les autres. Sans savoir POUR QUOI se coordonner, l'analyse de la police, du narratif, de la psychologie militante reste sans objet."
+  - cause: "F-audit-005"
+    effet: "F-audit-009"
+    mecanisme: "Le biais de classe rend les protocoles non testables sur la population qu'ils prétendent servir. Un protocole conçu par et pour des CSP+ ne peut pas être validé empiriquement pour des ouvriers de la France périphérique."
+  - cause: "F-audit-007"
+    effet: "F-audit-008"
+    mecanisme: "La police exécute le verrouillage par la force, les médias par le récit. Les deux sont les faces d'un même contrôle social intégré que le corpus n'a pas cartographié comme système."
+  - cause: "F-audit-018"
+    effet: "F-audit-005"
+    mecanisme: "Le biais de l'enquêteur (homme blanc CSP+) produit mécaniquement un corpus qui parle à des hommes blancs CSP+. Les classes populaires, les femmes racisées, les précaires sont structurellement exclus du lectorat implicite."
+  - cause: "F-audit-009"
+    effet: "F-audit-001"
+    mecanisme: "L'absence de validation empirique fait chuter le score du corpus à 6/10. Sans test terrain, les protocoles restent des hypothèses conceptuelles, pas des solutions actionnables."
+
+perspectives_dialectiques:
+  - position: "Thèse — Le corpus est suffisamment bon pour publier (pragmatisme)"
+    argument: "Le corpus fait ce qu'il annonce : analyser la coordination acéphale. Score 7.5/10, meilleur que 90% des analyses systémiques. Les gaps sont des directions futures, pas des erreurs. Publier maintenant avec les gaps déclarés honnêtement. Attendre la perfection, c'est ne jamais publier."
+  - position: "Antithèse — Les gaps sont trop graves pour publier (rigueur)"
+    argument: "Publier sans avoir traité LEVIER (projet politique), CLASSE (60% population absente) et RACE/GENRE (biais systémique) serait irresponsable. Le corpus deviendrait un diagnostic d'élite pour une élite — exactement le contraire de sa mission. Les 3 gaps de Phase 1 sont des prérequis, pas des options."
+  - position: "Synthèse — Scénario B avec Phase 1 minimum"
+    argument: "Publier avec gaps déclarés mais après avoir traité les 3 gaps bloquants de Phase 1 (LEVIER + CLASSE + RACE/GENRE). ~5 500 lignes d'enquête supplémentaires transforment l'audit en levier sans exiger la perfection. Le reste (Phase 2 et 3) peut suivre après publication."
+
+limites:
+  - "L'audit lui-même peut reproduire le biais de classe qu'il dénonce — l'auditeur est un agent LLM sans expérience vécue des réalités de classe ou de race."
+  - "Les 10 gaps sont identifiés mais pas investigués en profondeur — chaque gap mériterait son enquête complète (seuls #2 et #3 ont un MANIPULATION_REPORT détaillé)."
+  - "Pas de FETCH des URLs sources — les recherches web ont été faites mais les contenus n'ont pas été vérifiés en profondeur."
+  - "Les données sur les discriminations policières (CNRS 2017) datent de 9 ans — les chiffres ont pu évoluer avec la LOPMI 2023."
+  - "Aucune interview de terrain — les gaps psychologie, race/genre, et classe nécessiteraient des entretiens avec les premiers concernés."
+
+wolves:
+  - nom: "Défenseur du corpus"
+    argument: "Le corpus ne prétend pas être exhaustif. Il analyse la coordination — pas le projet politique, pas la sociologie des mouvements, pas la police comme institution. Ces sujets sont hors périmètre. L'audit reproche au corpus de ne pas faire ce qu'il n'a jamais promis de faire."
+    reponse: "Un corpus qui analyse 'comment se coordonner' sans dire 'pour quoi' est un moyen sans fin. La coordination n'est pas une fin en soi. L'absence de projet n'est pas un hors-périmètre — c'est un impensé structurel qui rend tous les autres travaux inaboutis."
+  - nom: "Accusateur de biais"
+    argument: "Le corpus est un produit de son milieu — homme blanc CSP+ écrivant pour son semblable. C'est structurel et irréparable. Ajouter une section 'classe' ou 'race/genre' ne changera pas le fait que l'auteur ne vit pas ces réalités. Mieux vaut l'assumer que le masquer."
+    reponse: "Assumer le biais est la première étape, mais ne pas le corriger est la seconde. Intégrer les données disponibles (INSEE, CNCDH, Crédoc, littérature académique) et consulter des personnes concernées n'efface pas le biais mais le réduit. Le pire serait de déclarer le biais sans rien changer."
+  - nom: "Chenoweth & Stephan"
+    argument: "Les données sont claires : mouvements non-violents = 2× plus de succès. Mouvements avec objectif clair = survie prolongée. Le corpus doit intégrer cette littérature empirique et cesser de théoriser dans le vide."
+    reponse: "Intégration nécessaire. Le corpus gagnerait à ancrer ses protocoles dans la littérature quantitative sur les mouvements sociaux plutôt que de les déduire de principes philosophiques."
+
+iceberg:
+  - "La question du public réel : qui lit le corpus ? Les données Substack (abonnés, démographie, engagement) sont-elles disponibles ? Si le public est déjà CSP+ masculin, le biais de classe est un biais d'audience autant que de production."
+  - "Le rôle du financement dans la production du corpus : le temps d'enquête est-il bénévole ou rémunéré ? Un enquêteur bénévole ne peut pas produire au rythme d'un enquêteur salarié — ce qui explique partiellement les gaps."
+  - "La tension entre exhaustivité et action : corriger les 10 gaps prendrait 6-12 mois. Est-ce que le contexte politique français permet ce délai ?"
+  - "Mnemolite: UP (health OK) mais endpoint /v1/search/ retourne 500. Aucune recherche cross-séries possible."
+  - "Résultat Mnemolite: [audit corpus coordination gap → 500 Internal Server Error]"
+
+chronologie:
+  - date: "2011-01-01"
+    evenement: "Chenoweth & Stephan publient Why Civil Resistance Works — 323 mouvements analysés, non-violence = 2× succès"
+    source_fait: "F-audit-020"
+  - date: "2017-01-01"
+    evenement: "Jobard et al. (CNRS) documentent que les femmes racisées sont contrôlées 7× plus que les Blanches"
+    source_fait: "F-audit-006"
+  - date: "2018-01-01"
+    evenement: "Gilets jaunes — échec de maîtrise narrative documenté, fractures policières révélées"
+    source_fait: "F-audit-013"
+  - date: "2023-01-01"
+    evenement: "LOPMI 2023-2027 votée — budget police +50% (+15 Md€), IA prédictive, reconnaissance faciale"
+    source_fait: "F-audit-014"
+  - date: "2023-12-01"
+    evenement: "60 suicides dans la police nationale — record historique"
+    source_fait: "F-audit-013"
+  - date: "2025-11-01"
+    evenement: "Début du corpus Truth Engine sur la coordination acéphale"
+    source_fait: "F-audit-001"
+  - date: "2026-02-01"
+    evenement: "9 CRS jugés pour violences Gilets jaunes — preuve de fractures internes"
+    source_fait: "F-audit-013"
+  - date: "2026-06-10"
+    evenement: "Audit général sénior — 10 gaps identifiés, priorisation Phase 1/2/3, score composite 7.5/10"
+    source_fait: "F-audit-002"
+
+domaines:
+  - "Méta-analyse — audit de complétude du corpus"
+  - "Épistémologie — validation empirique et biais de l'enquêteur"
+  - "Sociologie des mouvements sociaux — classe, race, genre"
+  - "Stratégie narrative — communication externe des mouvements"
+  - "Institution policière — doctrines, fractures, impunité"
+
+urls_prioritaires:
+  - url: "https://www.legifrance.gouv.fr"
+    description: "Légifrance — 80 000+ arrêts en open data, source primaire sous-exploitée par le corpus"
+    head_status: 0
+  - url: "https://www.nonviolent-conflict.org/"
+    description: "International Center on Nonviolent Conflict — données Chenoweth & Stephan, études de cas"
+    head_status: 200
+
+shadow_factor: 1.5
+
+mnemo_queries:
+  - query: "audit corpus coordination gap biais classe race genre"
+    results_count: 0
+    error: "500 Internal Server Error"
+  - note: "Mnemolite UP (health check OK) mais moteur de recherche cassé. Aucune recherche cross-séries possible."

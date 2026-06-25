@@ -1,0 +1,277 @@
+enquete_id: "recours"
+enquete_source: "2026-06-17_14-30_recours-citoyens-fuite-donnees-etat_INVESTIGATION.md"
+date_extraction: 2026-06-17
+complexity: "APEX"
+
+these_centrale: "L'architecture des recours pour fuites de données est conçue pour donner l'illusion d'une protection sans en offrir la réalité. C'est un labyrinthe procédural dont les seuls gagnants sont les avocats spécialisés RGPD et les assureurs cyber. Le citoyen dont les données fuient massivement n'obtiendra jamais réparation."
+
+theses_implicites:
+  - "L'absence de données publiques sur l'indemnisation réelle des victimes est un choix politique délibéré pour masquer l'inefficacité du système"
+  - "Le système de recours crée une 'privatisation' de la protection des données : le RGPD offre des droits que l'individu doit actionner seul, sans représentation collective efficace"
+  - "L'État ne veut pas d'un système de recours efficace car il serait le premier condamné (France Travail, ANTS, CAF, Assurance Maladie) -- une indemnisation de 300€ pour chaque victime coûterait >43 milliards d'euros"
+
+faits_atomiques:
+  - id: F101
+    enonce: "CNIL 20 150 plaintes reçues en 2025 (+10%)"
+    date: 2026-05
+    source_url: cnil.fr/fr/rapport-annuel-2025
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F102
+    enonce: "6 167 violations de données notifiées à la CNIL en 2025 (+9.5%)"
+    date: 2026-05
+    source_url: cnil.fr/fr/rapport-annuel-2025
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F103
+    enonce: "83 sanctions CNIL en 2025 pour 487M€"
+    date: 2026-02
+    source_url: cnil.fr/fr/bilan-sanctions-2025
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F104
+    enonce: "277 agents CNIL pour traiter 20 150 plaintes"
+    date: 2025
+    source_url: silicon.fr/.../cnil-soutenabilite-budgetaire-227618
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F105
+    enonce: "Budget CNIL 28.2M€ en 2024"
+    date: 2025
+    source_url: data.gouv.fr/datasets/budget-de-la-cnil-1
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F106
+    enonce: "France Travail 5M€ d'amende pour 43M de victimes (0.12€/personne)"
+    date: 2026-01
+    source_url: lefigaro.fr/.../france-travail-condamne-5-millions-20260129
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F107
+    enonce: "CJUE Österreichische Post (C-300/21) : perte de contrôle sur ses données constitue un préjudice moral"
+    date: 2023-05
+    source_url: curia.europa.eu/.../C-300/21
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F108
+    enonce: "Barème indemnitaire CNIL 2025 : 300 à 8000€ selon la nature des données"
+    date: 2025-03
+    source_url: cnil.fr
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F109
+    enonce: "Loi 2025-391 du 30 avril unifiant les 5 régimes d'action de groupe en un seul"
+    date: 2025-04
+    source_url: lw.com/fr/insights/france-reforms-class-actions-regime
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F110
+    enonce: "Environ 2 jugements de responsabilité seulement en 10 ans d'action de groupe en France"
+    date: 2025-06
+    source_url: aoshearman.com/.../class-action-reform-2025
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F111
+    enonce: "UFC-Que Choisir vs Google : 27 milliards d'euros demandés, 0 obtenu, 10 000€ de dommages à payer par l'association"
+    date: 2025-01
+    source_url: lesnumeriques.com/.../google-ufc-perd-27-milliards-2025
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F112
+    enonce: "ANTS faille IDOR signalée en septembre 2025 non corrigee : 11.7M de donnees fuient"
+    date: 2026-04
+    source_url: 01net.com/.../hack-ants-2-failles-corrigees-2026
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F113
+    enonce: "Delai moyen de traitement des plaintes CNIL est de 30 jours pour les plaintes simples, plus de 6 mois en general"
+    date: 2025-06
+    source_url: silicon.fr/.../cnil-soutenabilite-budgetaire-227618
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F114
+    enonce: "2 730 violations notifiées au T1 2026 (+9.2% vs T1 2025)"
+    date: 2026-05
+    source_url: la-croix.com/.../violations-donnees-record-2025-20260519
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: F115
+    enonce: "0% des administrations sanctionnées par la CNIL avant 2026"
+    date: 2018-2025
+    source_url: cnil.fr (sanctions list)
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F116
+    enonce: "Defenseur des droits : absence d'alternative numerique constitue une violation des droits"
+    date: 2018-2023
+    source_url: defenseurdesdroits.fr/.../dematerialisation-2022
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: F117
+    enonce: "Conseil d'Etat (juin 2022) : le gouvernement peut imposer le tout numerique MAIS doit prevoir une solution de substitution et un accompagnement des usagers"
+    date: 2022-06
+    source_url: lemediasocial.fr/.../obligation-demarches-en-ligne
+    source_section: "§ CARTER DES PREUVES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "CNIL (Marie-Laure Denis)"
+    role: "Autorite de protection des donnees personnelles"
+    interet: "Independance formelle mais moyens contraints (277 agents, 30M€ budget)"
+    position: "Executant contraint"
+  - nom: "Citoyens victimes de fuites"
+    role: "Plaignants potentiels"
+    interet: "Indemnisation et protection de leurs donnees"
+    position: "Perdant structurel"
+  - nom: "Avocats spécialisés RGPD"
+    role: "Conseil juridique des plaignants"
+    interet: "Honoraires (2000-5000€/dossier)"
+    position: "Gagnant dans les deux scenarios"
+  - nom: "Associations (LQDN, NOYB, UFC-Que Choisir)"
+    role: "Representation collective des victimes"
+    interet: "Effectivite du droit"
+    position: "Perdant structurel (actions quasi-vaines)"
+  - nom: "GAFAM"
+    role: "Entites sanctionnees"
+    interet: "Amendes = cost of doing business"
+    position: "Gagnant (amendes sans consequence)"
+  - nom: "Conseil d'Etat"
+    role: "Juge administratif supreme"
+    interet: "Equilibre entre numerisation et droits"
+    position: "Validateur sous conditions"
+
+causalites:
+  - cause: "Sous-financement chronique de la CNIL (30M€ pour 67M d'habitants)"
+    effet: "Delais de traitement de 6 a 18 mois, saturation, classement sans suite de 60% des plaintes"
+    confiance: Haute
+  - cause: "Architecture individuelle des recours (Art. 82 RGPD)"
+    effet: "Seuls les citoyens avertis avec avocat (2000-5000€) peuvent obtenir indemnisation"
+    confiance: Haute
+  - cause: "Action de groupe structurellement inefficace (2 jugements de responsabilite en 10 ans)"
+    effet: "Aucune dissuasion collective, aucun effet de masse sur les violations massives"
+    confiance: Haute
+  - cause: "Absence de donnees sur l'indemnisation reelle des victimes"
+    effet: "Impossibilite d'evaluer et de reformer le systeme sur des bases factuelles"
+    confiance: Moyenne
+
+perspectives_dialectiques:
+  - perspective: "Officielle"
+    resume: "La France dispose d'un des cadres de protection des donnees les plus robustes au monde. RGPD, CNIL, action de groupe reformee en 2025. 487M€ d'amendes en 2025. Plainte CNIL gratuite en ligne."
+    validite_partielle: "Le cadre legal existe effectivement et la CNIL est active (83 sanctions). Les recours sont documentés."
+    limite: "Ignore que 487M€ d'amendes = 0€ pour les victimes, que l'action de groupe est quasi-morte, que la CNIL est sous-financée."
+  - perspective: "Critique"
+    resume: "Le systeme est une illusion. CNIL sous-financee, action de groupe impossible, administrations jamais sanctionnees. Le vrai recours est technique (chiffrement, VPN)."
+    validite_partielle: "Les faits de sous-financement, d'inefficacite de l'action de groupe et d'impunite des administrations sont verifies."
+    limite: "Ignore que le cadre legal offre des voies de recours formelles qui peuvent fonctionner pour certains plaignants determines et aises."
+  - perspective: "Triangulation"
+    resume: "Le cadre legal existe MAIS son application est structurellement defaillante. Les donnees manquantes (taux d'indemnisation reel) empechent une conclusion definitive. 487M€ d'amendes = 0€ reverse aux victimes. 43M victimes France Travail = 0.12€/personne de sanction."
+    validite_partielle: "Synthese des deux lectures : les recours existent sur le papier (P1) mais echouent structurellement (P2). Les donnees disponibles confirment les deux lectures partielles."
+
+limites:
+  - "Absence de donnees fiables sur le nombre de victimes indemnisées via Art. 82 RGPD (donnee non collectee)"
+  - "Absence d'enquete de terrain aupres des plaignants (cout humain non mesure)"
+  - "Biais mediatique : sources majoritairement CNIL + presse specialisee (Le Monde Pixels, La Croix, Silicon)"
+  - "Biais temporel : focus 2024-2026, perspective historique courte"
+  - "Pas d'acces aux decisions CNIL non publiees"
+  - "Exclusion des recours penaux et des recours CEDH"
+  - "L'estimation de 5% d'efficacite est une inference, pas un fait verifie"
+
+wolves:
+  - "Avocats spécialisés RGPD (+30% d'activite estime 2024-2026)"
+  - "Assureurs cyber (primes qui explosent, benefices records)"
+  - "Cabinets de conseil en conformite RGPD"
+  - "GAFAM (amendes CNIL = cost of doing business)"
+  - "L'Etat budgetairement (les 487M€ d'amendes vont au budget general)"
+
+iceberg:
+  visible: "487M€ d'amendes CNIL, 20K plaintes, 83 sanctions, barème indemnitaire, 6 recours théoriques"
+  cache_niveau1: "0€ des amendes aux victimes, 60% des plaintes classées sans suite, délai 6-18 mois, action de groupe quasi-morte"
+  cache_niveau2: "Nomadisme comptable des amendes, pantouflage CNIL-ministères, revolving doors, choix politique deliberé de l'inefficacite"
+  cache_niveau3: "Si chaque victime obtenait 300€ -> 43 Mds€, l'Etat est juge et partie, la protection des donnees est un marche captif"
+  facteur_invisibilite: 4.0
+
+chronologie:
+  - date: 2018-05
+    evenement: "Entree en application du RGPD, recours Art. 82 possible"
+  - date: 2019
+    evenement: "Declaration d'impots 100% en ligne obligatoire"
+  - date: 2023-05
+    evenement: "CJUE Osterreichische Post : perte de controle = prejudice moral"
+  - date: 2024-01
+    evenement: "France Travail 43M - plus grande breche française"
+  - date: 2025-02
+    evenement: "Cegedim Sante 15M patients - donnees medicales sur BreachForums"
+  - date: 2025-04
+    evenement: "Loi unifiant les actions de groupe (5 regimes en 1)"
+  - date: 2025-05
+    evenement: "Barème indemnitaire CNIL publie (300-8000€)"
+  - date: 2026-01
+    evenement: "France Travail : 5M€ amende CNIL (0.12€/victime)"
+  - date: 2026-01
+    evenement: "Free : 42M€ amende CNIL (record France)"
+  - date: 2026-04
+    evenement: "ANTS 11.7M - faille IDOR signalee 7 mois avant non corrigee"
+  - date: 2026-04
+    evenement: "ARS/DumpSec 35M patients sante - 130 hopitaux"
+  - date: 2026-05
+    evenement: "CNIL rapport 2025 : 20K plaintes, 6K violations, 487M€ amendes"
+
+domaines:
+  - "LEGAL : 6 recours theoriques (plainte CNIL, Art. 82 RGPD, action de groupe, tribunal administratif, QPC, Defenseur des droits)"
+  - "PARADOXAL : numerisation forcee (France Connect obligatoire pour >1000 services) vs securite absente (faille ANTS, panne France Connect)"
+  - "ECONOMIQUE : cout avocat 2000-5000€, budget CNIL 30M€, 487M€ amendes -> budget general, 0€ aux victimes"
+  - "PROCEDURAL : labyrinthisation des recours, 6 recours differents mais tous convergent vers la meme impasse"
+  - "EUROPEEN : CJUE reconnait le prejudice moral, mais application nationale francaise defaillante"
+
+urls_prioritaires:
+  - url: cnil.fr/fr/rapport-annuel-2025
+    pertinence: "Rapport annuel CNIL 2025 - chiffres officiels plaintes, violations, sanctions"
+  - url: cnil.fr/fr/bilan-sanctions-2025
+    pertinence: "Detail des 83 sanctions et 487M€ d'amendes 2025"
+  - url: curia.europa.eu/.../C-300/21
+    pertinence: "Arret CJUE Osterreichische Post - perte de controle = prejudice"
+  - url: lefigaro.fr/.../france-travail-condamne-5-millions-20260129
+    pertinence: "Premiere sanction d'un EPA par la CNIL (France Travail)"
+  - url: 01net.com/.../hack-ants-2-failles-corrigees-2026
+    pertinence: "Faille ANTS IDOR 11,7M - faille non corrigee pendant 7 mois"
+  - url: lesnumeriques.com/.../google-ufc-perd-27-milliards-2025
+    pertinence: "Echec action de groupe UFC vs Google - symbole de l'impuissance"
+
+shadow_factor: 9.3
+
+mnemo_queries:
+  - "requete automatique sujet enquete numerique"

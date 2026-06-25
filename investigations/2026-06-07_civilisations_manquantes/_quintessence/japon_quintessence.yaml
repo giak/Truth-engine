@@ -1,0 +1,118 @@
+enquete_id: japon_imperial
+complexity: SIMPLE
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-07_civilisations_manquantes/2026-06-07_16-30_japon_imperial_INVESTIGATION.md
+these_centrale: Le Japon (660 av. J.-C.-1945) est la plus ancienne monarchie héréditaire continue du monde et le seul
+  pays non-occidental à avoir réussi une industrialisation sans colonisation (ère Meiji 1868-1912). Il offre deux cas-limites
+  à l'enquête : la capture la plus extrême par un corps spécialisé (l'armée capture l'État entier, 1931-1945), et
+  la dissociation des 4 dimensions IMPOSÉE de l'extérieur (constitution de 1947 sous occupation américaine).
+theses_implicites:
+- La continuité dynastique japonaise (2600+ ans) est unique dans l'enquête — aucune autre civilisation n'a conservé la même dynastie.
+- La modernisation Meiji prouve que l'industrialisation est possible sans occidentalisation culturelle.
+- La capture par l'armée (1931-1945) est le cas le plus extrême de capture par corps spécialisé documenté dans l'enquête.
+- La constitution de 1947 (dissociation imposée par les USA) est le contre-modèle de la laïcité française (produite de l'intérieur).
+faits_atomiques:
+- id: F-JAP-001
+  enonce: La dynastie impériale japonaise est la plus ancienne monarchie héréditaire continue du monde
+  source_url: https://www.britannica.com/topic/Imperial-Household-Agency
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-JAP-002
+  enonce: L'ère Meiji (1868-1912) transforme le Japon féodal en puissance industrielle en une génération
+  source_url: https://www.britannica.com/event/Meiji-Restoration
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-JAP-003
+  enonce: L'Université impériale de Tokyo (1877) forme l'élite administrative par cooptation — pas d'examen impérial
+  source_url: https://www.britannica.com/topic/University-of-Tokyo
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-JAP-004
+  enonce: L'armée japonaise envahit la Mandchourie en 1931 sans ordre du gouvernement civil
+  source_url: https://www.britannica.com/event/Mukden-Incident
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-JAP-006
+  enonce: La constitution de 1947 sépare la religion shinto de l'État (art. 20) et renonce à la guerre (art. 9)
+  source_url: https://www.britannica.com/topic/Constitution-of-Japan
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-JAP-008
+  enonce: Le shintoïsme d'État (1868-1945) fusionne religion et nationalisme : l'empereur est divinisé
+  source_url: https://www.britannica.com/topic/State-Shinto
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+acteurs:
+- nom: Empereur (Tenno)
+  role: Institution continue depuis 2600+ ans, divinisé sous shintoïsme d'État
+  faits_lies:
+  - F-JAP-001
+- nom: Oligarchie Meiji
+  role: Modernisateurs (1868-1912), copie sélective des institutions occidentales
+  faits_lies:
+  - F-JAP-002
+- nom: Armée impériale
+  role: Corps spécialisé qui capture l'État (1931-1945)
+  faits_lies:
+  - F-JAP-004
+causalites:
+- cause: F-JAP-008
+  effet: F-JAP-004
+  mecanisme: Le shintoïsme d'État divinise l'empereur → l'armée se considère comme son bras armé direct, échappant au contrôle civil
+- cause: F-JAP-004
+  effet: F-JAP-006
+  mecanisme: La capture par l'armée mène à la guerre du Pacifique → défaite → occupation américaine → constitution de 1947 imposant la dissociation
+perspectives_dialectiques:
+- position: Thèse — Le Japon est un cas-limite de capture
+  argument: L'armée capture l'État ENTIER (1931-1945), cas le plus extrême de l'enquête. Preuve que la capture peut être totale.
+- position: Antithèse — Le Japon est un cas-limite de dissociation forcée
+  argument: La constitution de 1947 impose la dissociation de l'extérieur — démonstration que la dissociation n'est pas toujours un choix interne.
+limites:
+- SIMPLE : pas de sections KERNEL complètes
+- 0 source primaire ✦
+wolves:
+- nom: Nationalistes japonais
+  argument: La constitution de 1947 est imposée par l'occupant — illégitime
+  reponse: Elle a été acceptée par la Diète japonaise et n'a jamais été amendée depuis 1947 — légitimité par la durée
+iceberg:
+- Sujet immergé : Le Japon est le SEUL cas de modernisation sans occidentalisation — démonstration que l'industrialisation n'implique pas l'occidentalisation
+chronologie:
+- date: 660 av. (trad.) / VIe s. (vérifiable)
+  evenement: Fondation de la dynastie impériale japonaise
+  source_fait: F-JAP-001
+- date: '1868'
+  evenement: Restauration Meiji — modernisation industrielle
+  source_fait: F-JAP-002
+- date: '1931'
+  evenement: Incident de Mukden — l'armée envahit la Mandchourie sans ordre du gouvernement
+  source_fait: F-JAP-004
+- date: '1947'
+  evenement: Constitution de 1947 — dissociation imposée (séparation shinto/État, renonciation à la guerre)
+  source_fait: F-JAP-006
+domaines:
+- Continuité dynastique : 2600+ ans, unique dans l'enquête
+- Modernisation : ère Meiji, industrialisation sans occidentalisation
+- Capture : armée capture l'État (1931-1945), cas le plus extrême
+- Dissociation : imposée de l'extérieur (1947), contre-modèle de la France
+urls_prioritaires:
+- url: https://www.britannica.com/event/Meiji-Restoration
+  description: Restauration Meiji — modernisation industrielle
+  head_status: 200
+- url: https://www.britannica.com/event/Mukden-Incident
+  description: Incident de Mukden — armée échappe au contrôle civil
+  head_status: 200
+shadow_factor: 4.5
+mnemo_queries: []
+mnemo_cross_refs: []

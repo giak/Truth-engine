@@ -1,0 +1,214 @@
+enquete_id: violinter
+enquete_source:
+- chemin: investigations/2026-06-11_violence_intermediaire_coordination/2026-06-11_00-00_violence_intermediaire_QUESTION.md
+  type: QUESTION
+  lignes: ~400
+date_extraction: '2026-06-12'
+complexity: COMPLEX
+these_centrale: 'La frontière entre ''violence'' et ''non-violence'' n''est pas binaire mais spectrale. Entre le tract et
+  la bombe, il existe un continuum de ''violence intermédiaire'' (cyberattaques, sabotage économique, occupation de locaux,
+  doxing, blocages, désobéissance civile de masse) que le corpus n''a jamais cartographié. La question n''est pas ''faut-il
+  être violent ?'' mais ''où placer le curseur sur le spectre tactique ?''
+
+  '
+theses_implicites:
+- label: T1
+  texte: 'Le modèle zapatiste actuel est positionné à l''extrémité ''zéro violence'' du spectre. Mais ce positionnement n''a
+    jamais été JUSTIFIÉ stratégiquement — c''est un postulat, pas une conclusion.
+
+    '
+- label: T2
+  texte: 'La violence intermédiaire est le TABOU du corpus. Personne n''ose en parler parce que l''admettre rend la coordination
+    vulnérable juridiquement (art.450-1 CP).
+
+    '
+- label: T3
+  texte: 'Exclure la violence intermédiaire PAR PRINCIPE est aussi dogmatique que l''adopter PAR PRINCIPE. La question doit
+    être tranchée stratégiquement, pas moralement.
+
+    '
+faits_atomiques:
+- id: F-VIO-001
+  enonce: 'Le spectre tactique est cartographié en 7 niveaux : N0 (tract) → N6 (bombe)'
+  source_url: Fichier source — cartographie théorique
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-002
+  enonce: 'N0 : action légale (tracts, pétitions, rassemblements déclarés)'
+  source_url: Cartographie fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-003
+  enonce: 'N1 : désobéissance civile non-violente (sit-ins, blocages pacifiques, refus de se disperser)'
+  source_url: Cartographie fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-004
+  enonce: 'N2 : désobéissance civile avec perturbation (blocage d''infrastructures, occupation de locaux)'
+  source_url: Cartographie fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-005
+  enonce: 'N3 : violence économique (sabotage de matériel, grève du zèle, boycott organisé, doxing de personnes morales)'
+  source_url: Cartographie fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-006
+  enonce: 'N4 : cyberattaques (DDoS, defacement, fuite de données — hacktivisme)'
+  source_url: Cartographie fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-007
+  enonce: 'N5 : violence physique sans létalité (bagarres, dégradation de biens, affrontements avec forces de l''ordre)'
+  source_url: Cartographie fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-008
+  enonce: 'N6 : violence physique avec létalité (bombes, assassinats, guérilla armée)'
+  source_url: Cartographie fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-009
+  enonce: Le corpus actuel se positionne implicitement à N0-N1 maximum — mais ce positionnement est NON-JUSTIFIÉ
+  source_url: Auto-critique fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-010
+  enonce: N3-N4 (violence économique et cyber) sont des options qui n'ont JAMAIS été discutées stratégiquement dans le corpus
+  source_url: Gap documenté dans fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-011
+  enonce: Le droit pénal français criminalise N3 (sabotage = 5 ans, art.322-6 CP) et N4 (cyber = 5 ans, art.323-1 CP)
+  source_url: Légifrance — Code pénal (cité)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-VIO-012
+  enonce: N5-N6 sont explicitement exclus du cadre stratégique par le dossier 'analyse_defaite_guerilla' (suicide politique)
+  source_url: Cross-référence interne — dossier 02 (defaite)
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: Coordination acéphalique
+  role: Sujet — doit choisir sa position sur le spectre
+  faits_lies: []
+- nom: État/adversaire
+  role: Répond à toute escalade par une escalade supérieure
+  faits_lies: []
+- nom: Mouvements historiques (IRA, FLN, RAF, etc.)
+  role: Cas documentés — échecs du N5-N6
+  faits_lies: []
+- nom: Hacktivistes (Anonymous, etc.)
+  role: Cas N4 non-intégré au corpus
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: C1
+- cause: null
+  effet: null
+  mecanisme: C2
+- cause: null
+  effet: null
+  mecanisme: C3
+perspectives_dialectiques:
+- etiquette: 'Le curseur tactique : où le placer ?'
+  position_A: N0 strict (zéro violence, zéro illégalité) — légitimité morale absolue
+  position_B: N3 maximum (violence économique, pas physique) — rapport de force matériel
+  synthese: 'Le curseur optimal est probablement N1-N2 : illégalité non-violente assumée (désobéissance civile). C''est ce
+    que faisaient Gandhi, MLK, Solidarnosc. La question est : N3 (économique) est-il un saut qualitatif ou juste un degré
+    supplémentaire ?
+
+    '
+- etiquette: Discuter de la violence est-il dangereux en soi ?
+  position_A: Oui — le simple fait d'en discuter rend la coordination vulnérable juridiquement
+  position_B: Non — le refus d'en discuter est une faiblesse stratégique que l'adversaire exploitera
+  synthese: 'La discussion théorique n''est pas criminalisable. L''absence de discussion est une fracture dans le blindage
+    stratégique. Il faut cartographier sans préconiser.
+
+    '
+limites:
+- Analyse purement théorique — 0 test empirique
+- Le sujet est juridiquement sensible — auto-censure possible
+- La cartographie N0-N6 est-elle exhaustive ? Probablement pas.
+- 'Biais de l''auteur : positionnement personnel pro-N0/N1'
+- 'Suspicion : 5.0/10'
+wolves:
+- nom: La cartographie N0-N6 pourrait être utilisée CONTRE la coordination par les auto...
+  argument: La cartographie N0-N6 pourrait être utilisée CONTRE la coordination par les autorités
+  reponse: ''
+- nom: Toute discussion de N3+ sera interprétée comme une intention, pas une analyse
+  argument: Toute discussion de N3+ sera interprétée comme une intention, pas une analyse
+  reponse: ''
+- nom: Le curseur optimal (N1-N2) est inefficace face à un État post-démocratique
+  argument: Le curseur optimal (N1-N2) est inefficace face à un État post-démocratique
+  reponse: ''
+iceberg:
+- profondeur: 0
+  item: Cartographie N0-N6 — surface
+- profondeur: 1
+  item: Précédents historiques par niveau (Gandhi=N1, MLK=N1, Greenpeace=N2, Anonymous=N4)
+- profondeur: 2
+  item: Analyse comparative de l'efficacité par niveau tactique
+- profondeur: 3
+  item: 'LE VRAI TABOU : la coordination acéphalique peut-elle gagner SANS jamais dépasser N1 ?'
+chronologie:
+- date: '1930'
+  evenement: 'Gandhi — marche du sel (N1 : illégalité non-violente)'
+- date: 1955-1968
+  evenement: MLK — boycott bus Montgomery, sit-ins (N1-N2)
+- date: 1980-1989
+  evenement: Solidarnosc — grèves, occupation chantiers (N2)
+- date: 2000s
+  evenement: Anonymous — hacktivisme (N4)
+- date: 2026-06
+  evenement: QUESTION violence intermédiaire
+domaines:
+- strategie
+- droit
+- philosophie_politique
+- ethique
+urls_prioritaires:
+- url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418323
+  description: Art.322-6 CP — sabotage
+  head_status: 0
+- url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418347
+  description: Art.323-1 CP — cybercriminalité
+  head_status: 0
+shadow_factor: 2.0
+shadow_justification: 'Cartographie théorique spéculative. N0-N6 est un modèle intuitif, pas une taxonomie validée. Aucun
+  test empirique d''efficacité comparative. La discussion du N3+ est un tabou qui peut biaiser l''analyse dans les deux sens
+  (auto-censure ou provocation).
+
+  '
+mnemo_queries:
+- query: violence intermédiaire spectre tactique non-violence
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'
+- query: désobéissance civile efficacité comparative
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'

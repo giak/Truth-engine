@@ -1,0 +1,274 @@
+enquete_id: rome_v1
+complexity: APEX
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-03_sumer_article/2026-06-03_13-00_rome_vs_france_INVESTIGATION.md
+these_centrale: Rome est l'ancêtre DIRECT de la France (Corpus Juris Civilis → Code civil, cursus honorum → INSP), et plusieurs
+  mécanismes romains (abolition nexum 326 av., renflouement Tibère 33 ap., annona) ont des parallèles fonctionnels avec la
+  France contemporaine — mais l'esclavage (30-40% Italie), la stratification juridique, et la guerre civile permanente restent
+  des angles morts majeurs.
+theses_implicites:
+- La filiation Corpus Juris Civilis → Code civil est DIRECTE et documentée, contrairement à Sumer (1500 ans de trou)
+- Rome a aboli l'esclavage pour dette (nexum) 2193 ans avant la France, mais ne l'a jamais résolu structurellement (Gracques,
+  Catilina, Tibère 33 ap.)
+- Le cursus honorum et l'INSP remplissent la même fonction d'élite administrative, mais le premier est politique/électif et
+  le second administratif/par concours
+- L'annona nourrissait 200 000 citoyens mâles — pas une sécurité sociale universelle, un PRIVILÈGE civique (femmes, esclaves,
+  pérégrins exclus)
+- L'Empire romain a duré 1000 ans avec esclavage et instabilité — la République française 200 ans sans. La 'leçon de Rome'
+  est ambiguë
+faits_atomiques:
+- id: F-001
+  enonce: 'Lex Poetelia Papiria (326 av.) : abolition du nexum (esclavage pour dette). Prison pour dette française abolie
+    seulement en 1867 (2193 ans d''écart)'
+  source_url: https://en.wikipedia.org/wiki/Nexum
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-002
+  enonce: 'Crise financière 33 ap. (Tibère) : krach immobilier, credit crunch, renflouement d''État (100M sesterces)'
+  source_url: https://en.wikipedia.org/wiki/Financial_crisis_of_33
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-003
+  enonce: 'Corpus Juris Civilis (Justinien, 529-534) : compilation du droit romain en 4 parties. Modèle DIRECT du Code civil
+    français (1804)'
+  source_url: https://en.wikipedia.org/wiki/Corpus_Juris_Civilis
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-004
+  enonce: 'Annone (cura annonae) : ~200 000 citoyens mâles nourris/mois (35 kg blé). Distribution gratuite sous Auguste, préfet
+    impérial dédié'
+  source_url: https://en.wikipedia.org/wiki/Cura_annonae
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-005
+  enonce: 'Cursus honorum : questeur → édile → préteur → consul → censeur. ~50 magistrats/an (République)'
+  source_url: https://en.wikipedia.org/wiki/Cursus_honorum
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-006
+  enonce: 'Esclavage : 30-40% de la population italienne (Scheidel). ~10M d''esclaves pour 60-70M d''habitants dans l''Empire'
+  source_url: https://web.archive.org/web/20090203055358/http://abacus.bates.edu/~mimber/Rciv/slavery.htm
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-007
+  enonce: 'Constitutio Antoniniana (212 ap., Caracalla) : citoyenneté à tous les hommes libres de l''Empire'
+  source_url: https://en.wikipedia.org/wiki/Constitutio_Antoniniana
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-008
+  enonce: 'Cens de Servius Tullius (~578-534 av.) : 193 centuries, 5 classes censitaires, classe I (riche) = 80 voix'
+  source_url: https://www.unrv.com/government/how-the-roman-census-worked-and-why-it-mattered.php
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+- id: F-009
+  enonce: 'Administration impériale romaine : ~5 000 fonctionnaires pour 50-80M hab. (ratio 1/10 000)'
+  source_url: https://web.ics.purdue.edu/~rauhn/Hist_416/hist420/City+Life.htm
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+- id: F-010
+  enonce: 'Dette publique France : 3 416,3 Mds€ (115,6% PIB, T2 2025) — Rome : pas de dette publique documentée (mais crises
+    de crédit privées)'
+  source_url: https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-011
+  enonce: 5,7M fonctionnaires français (76/1000 hab., 22% emploi) — ratio fonctionnaire/habitant ×800 plus élevé qu'à Rome
+  source_url: https://www.ifrap.org/fonction-publique-et-administration/combien-la-france-compte-deffectifs-publics-en-plus-par-rapport-la-moyenne-europeenne
+  source_section: §11
+  head_status: 200
+  tier: 2
+  glyphe: ✧
+- id: F-012
+  enonce: 'Inflation romaine du IIIe siècle : débasement du denarius, ~1000% sur un siècle (235-284 ap.)'
+  source_url: https://www.unrv.com/economy/inflation.php
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+acteurs:
+- nom: Servius Tullius
+  role: Roi (~578-534 av.), créateur du cens et des comices centuriates
+  faits_lies:
+  - F-008
+- nom: Tiberius Gracchus
+  role: Tribun 133 av., réforme agraire, assassiné — premier à proposer un plafonnement des terres
+  faits_lies:
+  - F-001
+- nom: Cicéron
+  role: Consul 63 av., défenseur de la République, exécuté 43 av.
+  faits_lies: []
+- nom: Jules César
+  role: Dictateur à vie 49-44 av., fin de la République
+  faits_lies: []
+- nom: Auguste
+  role: Premier empereur 27 av.-14 ap., réforme administrative et fiscale
+  faits_lies:
+  - F-004
+  - F-007
+- nom: Tibère
+  role: Empereur 14-37 ap., crise financière 33 ap.
+  faits_lies:
+  - F-002
+- nom: Justinien
+  role: Empereur 527-565, Corpus Juris Civilis (529-534)
+  faits_lies:
+  - F-003
+- nom: Edward Gibbon (1776)
+  role: Historien, 'Decline and Fall' — thèse du déclin moral, contestée
+  faits_lies:
+  - F-012
+- nom: Theodor Mommsen
+  role: Historien XIXe, droit romain comme fondement de l'Occident
+  faits_lies:
+  - F-003
+causalites:
+- cause: F-001
+  effet: F-002
+  mecanisme: Abolition nexum → crédit privé sans garantie corporelle → endettement aristocratique → crise 33 ap.
+- cause: F-002
+  effet: F-010
+  mecanisme: 'Mécanisme de renflouement d''État (Tibère 100M sesterces) annonce les sauvetages bancaires modernes (2008 :
+    400 Mds€ France)'
+- cause: F-003
+  effet: F-011
+  mecanisme: CJC (529) → perte 600-1070 → Bologne 1070 → glossateurs → Pothier → Code civil 1804 → INSP moderne
+perspectives_dialectiques:
+- position: Thèse officielle-académique
+  argument: Rome est notre héritage institutionnel ; la France a amélioré ce qu'elle a reçu (citoyenneté universelle, abolition
+    esclavage)
+- position: Antithèse investigatif-critique
+  argument: Rome avait résolu des problèmes que la France n'a pas résolus (nexum 326 av. vs prison pour dette 1867) ; Rome
+    a duré 1000 ans, la Ve République 67 ans
+- position: 'Synthèse : héritage sélectif'
+  argument: Rome a transmis le droit (Code civil) mais aussi l'esclavage (30-40% Italie). La France a sélectionné ce qui sert
+    le récit national
+limites:
+- 'Biais des sources : 90% de ce qu''on sait de Rome vient de sénateurs (Cicéron, Tacite, Tite-Live)'
+- Rome = bloc 1200 ans (Royauté → République → Principat → Dominat) — chaque période diffère radicalement
+- 'Données économiques lacunaires : pas de comptabilité nationale romaine'
+- L'esclavage (30-40% Italie) est absent du récit 'berceau de la civilisation'
+wolves:
+- nom: Edward Gibbon (1776)
+  argument: Déclin moral de Rome causé par le christianisme et la luxure
+  reponse: 'Révisionnistes (Heather, Ward-Perkins) : causes structurelles (monnaie, fiscalité, invasions)'
+- nom: Mussolini / extrema droite
+  argument: Empire romain comme modèle fasciste (fascisme = fasces)
+  reponse: L'Empire romain était une dictature militaire, pas un fascisme idéologique
+- nom: Mommsen
+  argument: Droit romain = fondement universel
+  reponse: CJC a été perdu 470 ans en Occident, redécouvert par hasard à Bologne — la transmission est reconstruite, pas continue
+- nom: Hudson
+  argument: L'andurarum romain (analogie) prouve l'existence d'un outil anti-dette
+  reponse: L'Empire romain n'a jamais annulé de dette publique — les crises Tiberius 33 et IIIe siècle sont résolues par débasement,
+    pas annulation
+iceberg:
+- 'Sujet immergé #1 : esclavage massif (30-40% Italie) — angle mort le plus grave de l''enquête'
+- 'Sujet immergé #2 : femmes (tutelle mulierum, pas de vote, pas de magistrature) — Rome moins émancipatrice que la France
+  post-1944'
+- 'Sujet immergé #3 : citoyenneté exclusive (pérégrins, latins, déditices) — l''universalisme républicain est une RUPTURE
+  avec Rome'
+- 'Sujet immergé #4 : ferme fiscale (publicani) — la France a un système SUPÉRIEUR (administration directe depuis 1948)'
+- 'Sujet immergé #5 : Édit du Maximum (Dioclétien, 301 ap.) — échec retentissant du contrôle des prix, la France a évité cet
+  écueil'
+- 'Verdict : Mnemolite UP, base non indexée sur Rome — pas bloquant, à documenter'
+- 'Mnemolite INDEXEE pour Rome : 4 memoires trouvees (tag=rome). Le verdict ''base non indexee'' est INVALIDE.'
+- 'Cross-references Mnemolite integrees : 1 memoires directes ou d''enrichissement'
+chronologie:
+- date: ~753 av.
+  evenement: Fondation légendaire de Rome
+  source_fait: F-008
+- date: ~578-534 av.
+  evenement: 'Servius Tullius : cens, comices centuriates'
+  source_fait: F-008
+- date: 451-450 av.
+  evenement: Loi des Douze Tables
+  source_fait: F-003
+- date: 326 av.
+  evenement: 'Lex Poetelia Papiria : abolition du nexum'
+  source_fait: F-001
+- date: 133-121 av.
+  evenement: 'Gracques : réformes agraires, assassinés'
+  source_fait:
+  - F-001
+- date: 27 av.
+  evenement: 'Auguste : début de l''Empire'
+  source_fait:
+  - F-004
+- date: 33 ap.
+  evenement: Crise financière (Tibère), renflouement 100M sesterces
+  source_fait: F-002
+- date: 212 ap.
+  evenement: Constitutio Antoniniana (Caracalla)
+  source_fait: F-007
+- date: 235-284 ap.
+  evenement: Crise du IIIe siècle, inflation 1000%
+  source_fait: F-012
+- date: 529-534 ap.
+  evenement: Corpus Juris Civilis (Justinien)
+  source_fait: F-003
+- date: '1804'
+  evenement: Code civil français (Napoléon, Portalis)
+  source_fait: F-003
+- date: '1867'
+  evenement: Abolition prison pour dette en France
+  source_fait: F-001
+- date: T2 2025
+  evenement: 'Dette publique France : 3 416,3 Mds€'
+  source_fait: F-010
+domaines:
+- Dette et crédit privé (nexum, crise 33 ap., inflation IIIe siècle)
+- Bureaucratie et formation des élites (cursus honorum, procurateurs, ordre équestre)
+- Droit écrit (Douze Tables, praetor peregrinus, Corpus Juris Civilis)
+- 'État-providence (annona : privilège civique, pas universel)'
+- Citoyenneté (Constitutio Antoniniana vs stratification pérégrins)
+- Esclavage (30-40% Italie — angle mort majeur)
+urls_prioritaires:
+- url: https://en.wikipedia.org/wiki/Corpus_Juris_Civilis
+  description: Corpus Juris Civilis, source primaire du Code civil
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Nexum
+  description: 'Nexum : esclavage pour dette, aboli 326 av.'
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Financial_crisis_of_33
+  description: Crise financière 33 ap., préfigure 2008
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Historiography_of_the_fall_of_the_Western_Roman_Empire
+  description: Révisionnistes de la chute de Rome (Heather, Ward-Perkins)
+  head_status: 200
+shadow_factor: 2.8
+mnemo_queries:
+- query: Rome droit Corpus Juris Civilis Code civil Napoléon filiation
+  results_count: 0
+- query: Rome nexum annone esclavage annulation dette Gracques
+  results_count: 0
+- query: clientela cursus honorum annona Tibère crise 33
+  results_count: 0
+- query: César Auguste Justinien Code Justinien
+  results_count: 0
+- query: publicani ferme fiscale Cicéron Verrines
+  results_count: 0
+mnemo_cross_refs:
+- id: b9a272bb-9576-4f51-aec2-2a3e9628c8a7
+  title: Rome vs France v1 APEX (7 themes)
+  level: DIRECT
+  matches: cette quintessence = extraction de cette memoire

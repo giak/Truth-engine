@@ -1,0 +1,461 @@
+date_synthese: "2026-06-17"
+complexity: "APEX"
+n_enquetes: 14
+enquetes_concernees:
+  - "predation"       # S-curite IT pr-datrice (14 faits, APEX, SF 3.2)
+  - "recours"         # Recours citoyens illusion juridique (17 faits, APEX, SF 9.3)
+  - "amendes"         # Circuit comptable amendes CNIL (23 faits, APEX, SF 9.5)
+  - "systeme"         # Cha-ne IT compl-te sous-trait-e (26 faits, APEX, SF 9.2)
+  - "dpas-matrice"    # HYPER_MATRICE 27 DPAs (19 faits, COMPLEX, SF 2.5)
+  - "dpas"            # Analyse mod-les financement DPAs (13 faits, APEX, SF 3.5)
+  - "impact"          # Impact 4-5 Md€ sans -valuation (20 faits, APEX, SF 4.0)
+  - "reseau"          # R-seau personnel d-cideurs-ESN (10 faits, COMPLEX, SF 8.0)
+  - "projets"         # 45 grands projets IT (11 faits, COMPLEX, SF 9.0)
+  - "lolf"            # LOLF argument politique (3 faits, SIMPLE, SF 3.5)
+  - "carto"           # Cartographie pantouflage 2016-2026 (34 faits, COMPLEX, SF 2.8)
+  - "cout"            # Co-t externalisation vs r-gie (12 faits, COMPLEX, SF 2.5)
+  - "estonie"         # Comparaison France-Estonie x-Road (13 faits, COMPLEX, SF 2.2)
+  - "marches"         # March-s publics ESN 3,2 Md€ (13 faits, COMPLEX, SF 3.0)
+total_faits_atomiques: 237
+
+sujet_majoritaire: "Le syst-me IT de l'-tat fran-ais est un m-canisme de pr-dation structurelle o- un oligopole de 5 ESN (Capgemini 52 %, Atos 15 %, Sopra Steria 13 %, Accenture 11 %, McKinsey 3 %) capte 94 % des 4-5 Md€/an de d-penses IT publiques sans -valuation d'impact, o- la CNIL inflige 487 M€ d'amendes qui ne servent - rien (0 € aux victimes, 0 € - la pr-vention), o- 237 faits atomiques documentent un syst-me de s-curit- qui produit 17 802 violations/an sans sanction, et o- le pantouflage institutionnalis- de 12 directeurs DINUM/ANSSI/DITP verrouille l'ensemble dans un -quilibre stable dont aucun acteur n'a int-r-t - sortir. La boucle est comptablement ferm-e : les fuites produisent des amendes qui vont au budget g-n-ral qui sous-finance la CNIL et l'ANSSI qui auraient d- les emp-cher, tandis que les ESN encaissent les march-s pay-s par le m-me budget g-n-ral."
+
+theses_cardinales:
+  - titre: "THESE-001 : Architecture de pr-dation structurelle — incitations align-es contre la s-curit-"
+    enonce: "14 fuites massives document-es (2025-2026) suivent un pattern identique : faille -l-mentaire connue non corrig-e, absence de sanction, r-ponse budg-taire sans correction structurelle. L'ANSSI (20 audits/an pour des milliers de SI, pouvoir de sanction jamais utilis- contre une administration depuis sa cr-ation) est structurellement incapable de pr-venir. La DINUM (79-138 M€ pour piloter 4-5 Md€ = 1,6 %) est sous-dimensionn-e. 17 802 violations de donn-es en 2025 (+10 %). Taux de sanction des administrations : 0 %. Le pattern 'r-forme sans changement' est document- : plan cybers-curit- 1 Md€ (2021) sans baisse des fuites, cr-ation d'Ariane (mai 2026) comme -ni-me -pisode sans renforcement des contr-les existants."
+    f_atomiques_justificatifs:
+      - "F-pred-001"   # ANTS 11,7 M comptes, adolescent 15 ans, faille IDOR 2007
+      - "F-pred-002"   # Urssaf 12 M personnes, API partenaire compromise
+      - "F-pred-003"   # Ficoba 1,2 M comptes bancaires, usurpation fonctionnaire DGFiP
+      - "F-pred-004"   # Tchap 73 K agents, 643 K messages, 13,51 Go
+      - "F-pred-005"   # ANSSI 20 contr-les/an, <10 audits inopin-s
+      - "F-pred-006"   # ANSSI pouvoir de sanction jamais utilis-
+      - "F-pred-009"   # Plan 1 Md€ 2021 : fuites ont empir-
+      - "F-pred-010"   # Cr-ation Ariane mai 2026, d-saveu ANSSI
+      - "F-pred-011"   # 17 802 violations 2025 (+10 %)
+      - "F-pred-012"   # DINUM/Hubee 70 K dossiers, 160 K fichiers
+      - "F-pred-013"   # ANTS non class- OIV, surveillance renforc-e absente
+      - "F-pred-014"   # Faille IDOR connue depuis 2007, 19 ans non corrig-e
+      - "F301"         # Budget IT 4-5 Md€/an
+      - "F303"         # Dur-e moyenne projets : 6,3 ans
+      - "F304"         # ANTS 85-90 % externalisation
+      - "F310"         # ANSSI 32 agents contr-le pour des milliers de SI
+      - "F-IMP-001"    # Aucune -valuation d'impact syst-matique
+      - "F-IMP-007"    # DINUM 1,6 % du budget pilot-
+      - "F-IMP-009"    # Avis technique DINUM sur ses propres objectifs
+      - "F-IMP-015"    # Ratio pilotage : 1 agent DINUM pour 3 000 agents IT publics
+    fiches_concernees: ["predation", "impact", "systeme"]
+    shadow: 8.2
+    etendue: 5
+    coherence_interne: "Convergence parfaite entre les 3 enqu-tes : les faits de s-curit- (predation 14 faits) confirment l'absence de sanction que l'analyse budg-taire (impact) explique par le sous-dimensionnement, que la description du syst-me IT (systeme) replace dans la cha-ne compl-te. Le shadow factor -lev- (8,2) tient - la profondeur des donn-es (34 faits combin-s) mais ne peut -tre 10 car l'intentionnalit- n'est pas prouv-e — la pr-dation est structurelle, pas consciemment organis-e."
+
+  - titre: "THESE-002 : Captation ESN — oligopole, rente et verrouillage technique"
+    enonce: "5 ESN (Capgemini ~1,7 Md€/52 %, Atos ~500 M€/15 %, Sopra Steria ~430 M€/13 %, Accenture ~350 M€/11 %, McKinsey ~100 M€/3 %) captent 94 % du march- IT public, soit ~3,08 Md€ sur 2017-2025. Ce n'est pas un march- concurrentiel mais un oligopole structurel : contrat Cassiop-e Justice (60 M€) a re-u une seule offre, 20 cabinets = 55 % du conseil aux minist-res. Le verrouillage est triple : technique (Chorus/SAP propri-taire, Health Data Hub sur Azure, Cloud Bleu coentreprise Microsoft), contractuel (march-s pluriannuels sans clause de sortie, 250+ contrats Capgemini) et cognitif (perte de comp-tence interne document-e par la Cour des Comptes depuis 2015). Le surco-t vs r-gie est de 85-100 % (300-450 M€/an). La dette technique aggrav-e par l'externalisation co-te 1-1,5 Md€/an. Les alertes r-currentes de la Cour des Comptes, du S-nat et de l'IGF/CGE depuis 2015 n'ont jamais -t- suivies d'effets."
+    f_atomiques_justificatifs:
+      - "F-MPC-001"    # Capgemini 1,7 Md€
+      - "F-MPC-002"    # 5 ESN 94 % du march-
+      - "F-MPC-003"    # D-penses conseil 379 M€ (2018) - 894 M€ (2021)
+      - "F-MPC-004"    # McKinsey 0 IS France 2011-2020
+      - "F-MPC-006"    # 20 cabinets = 55 % conseil
+      - "F-MPC-011"    # Cassiop-e Justice offre unique
+      - "F-COUT-001"   # Budget IT 4-5 Md€/an
+      - "F-COUT-002"   # Prestations ext-rieures 890 M€ (2021)
+      - "F-COUT-003"   # Capgemini 250+ contrats publics
+      - "F-COUT-004"   # Marge Capgemini 13,3 % op-rationnelle
+      - "F-COUT-005"   # Conseil 271 M€ (2021) - 96 M€ (2024)
+      - "F-COUT-006"   # GMBI DGFiP 70 % externalis-
+      - "F-COUT-009"   # TJM consultant 600-750 €/jour
+      - "F-COUT-010"   # Salaire agent IT tat 45-72 k€ brut
+      - "F-COUT-012"   # Surco-t externalisation 300-450 M€/an
+      - "F-COUT-013"   # UK £26 Md/an, £3,25 Md Transformation Fund
+      - "F-COUT-018"   # FranceConnect succ-s de la r-gie
+      - "F306"         # Chorus (SAP) : tat ne poss-de pas le code source
+      - "F308"         # Health Data Hub 67 M Fran-ais sur Azure
+      - "F312"         # Cloud Bleu = coentreprise Microsoft
+    fiches_concernees: ["marches", "cout", "systeme"]
+    shadow: 7.5
+    etendue: 3
+    coherence_interne: "Tr-s -lev-e. Les donn-es de march-s (marches, 13 faits) quantifient la concentration, les donn-es de co-t (cout, 12 faits) calculent la rente, l'analyse syst-me (systeme, 26 faits) documente le verrouillage technique. Les 3 sources sont ind-pendantes et convergent."
+
+  - titre: "THESE-003 : Porte tournante tat-ESN — pantouflage institutionnalis- sans contr-le"
+    enonce: "12 directeurs/anciens directeurs de DINUM, ANSSI, DITP (2016-2026) ont transit- entre r-gulation et prestation. 34 faits documentent cette porosit-. Cas cl-s : Guillaume Poupard (DG ANSSI 2014-2022, d-finit les crit-res SecNumCloud) recrut- par Docaposte (2023) puis board Sekoia.io (2024) puis Orange (2025). douard Philippe nomm- administrateur Atos 3 mois apr-s Matignon. C-dric O bloqu- par la HATVP pour Atos puis pour cr-ation d'entreprise de conseil — double blocage in-dit. Nathalie Kosciusko-Morizet directrice Capgemini US (cloud/cyber, 2018-2025). Fran-ois Braun consultant Capgemini Monaco (2024-) autoris- par HATVP. La HATVP est un filtre d-coratif : 74,3 % d'avis compatibles avec r-serves, 4,5 % d'incompatibilit-, 0 suivi des r-serves. 57 dossiers transmis au parquet en 2025 (record) — sanctions r-elles inexistantes. Le r-tro-pantouflage (priv- - public) est plus massif encore : 3 directeurs DITP/DINUM sur 5 viennent du priv-, dont Nadi Bou Hanna (ex-Capgemini, ex-Atoz, consultant priv- avant DINUM)."
+    f_atomiques_justificatifs:
+      - "F-RES-001"    # douard Philippe - Atos, 3 mois apr-s Matignon
+      - "F-RES-002"    # C-dric O bloqu- HATVP pour Atos
+      - "F-RES-003"    # Guillaume Poupard ANSSI - Docaposte
+      - "F-RES-004"    # NKM directrice Capgemini US
+      - "F-RES-005"    # Fran-ois Braun consultant Capgemini Monaco
+      - "F-RES-006"    # Thomas Cazenave supervise McKinsey
+      - "F-RES-007"    # McKinsey 0 IS + 72,8 M€ contrats post-2017
+      - "F-RES-008"    # Capgemini 1,1 Md€ contrats tat 2017-2022
+      - "F-RES-009"    # HATVP 74,3 % r-serves, 4,5 % incompatibilit-, 0 poursuite
+      - "F-RES-010"    # 5 directeurs DINUM depuis 2018, aucun profil DSI
+      - "F-RES-011"    # Nadi Bou Hanna, ex-Capgemini, consultant priv- avant DINUM
+      - "F-RES-012"    # Xavier Albouy, adjoint DINUM - int-rim DINUM
+      - "F-RES-016"    # Catherine Pêcheur, ex-Pr-sidente CNIL, board Capgemini
+      - "F-RES-019"    # Poupard recrutement chronologie d-taill-e
+      - "F-RES-022"    # Poupard - Orange 2025
+      - "F-RES-033"    # C-dric O autoris- avec r-serves pour fonds conseil
+      - "F-RES-044"    # Karim Tadjeddine, directeur secteur public McKinsey
+      - "F-RES-045"    # 29 % ing-nieurs des mines dans le priv-
+      - "F-RES-046"    # Corps des mines : culture du pantouflage normalis-e
+    fiches_concernees: ["reseau", "carto"]
+    shadow: 8.0
+    etendue: 2
+    coherence_interne: "Les 2 enqu-tes (reseau 10 faits, carto 34 faits) couvrent le m-me ph-nom-ne - 2 granularit-s. Leurs conclusions sont identiques. La HATVP comme filtre d-coratif est document-e par les 2 sources. Le shadow factor est -lev- car le ph-nom-ne est visible — mais l'absence de poursuites emp-che de quantifier pr-cis-ment l'ampleur."
+
+  - titre: "THESE-004 : Sanction sans cons-quence — l'illusion r-pressive du syst-me CNIL"
+    enonce: "487 M€ d'amendes en 2025 (83 sanctions) = impression de s-v-rit-. R-alit- : 0 € va aux victimes, les amendes sont une recette fiscale d-guis-e au budget g-n-ral, l'action de groupe est quasi-morte (2 jugements en 10 ans), les administrations ne sont jamais sanctionn-es (Art. 32 loi 78-17), la CNIL est sous-financ-e (30 M€ pour 67 M d'habitants, 277 agents pour 20 150 plaintes). Les amendements parlementaires de 2018 (COM-10, COM-11, COM-34 de Mme Joissains) qui proposaient le fl-chage des amendes vers la CNIL ont -t- rejet-s. L'argument de la LOLF (universalit- budg-taire) est un paravent politique : la LOLF pr-voit des exceptions (CAS, fonds de concours), l'Espagne fl-che 100 % de ses amendes - l'AEPD depuis 1993, et 22/27 DPAs europ-ennes sont en budget g-n-ral pur sans que -a pose de probl-me juridique. L'Irlande (DPC) reversera 1,7 Md€ au Tr-sor en 2025 — l'amende m-me qui devait prot-ger les citoyens devient une taxe d-paysante."
+    f_atomiques_justificatifs:
+      - "F201"         # Amendes CNIL vers-es au budget g-n-ral
+      - "F202"         # 486,8 M€ amendes 2025 (83 sanctions)
+      - "F203"         # Budget CNIL 30,2 M€
+      - "F204"         # Ratio amendes/budget : 16,1x
+      - "F206"         # Amendes art. 32 : administrations jamais sanctionn-es
+      - "F207"         # Amendements COM-10/11/34 rejet-s (2018)
+      - "F208"         # S-natrice Joissains : 'motif LOLF = pr-texte'
+      - "F209"         # France Travail 5 M€ : administration sanctionn-e... mais argent au budget g-n-ral
+      - "F212"         # AEPD Espagne fl-che 100 % depuis 1993
+      - "F213"         # Budget AEPD : 8 M€ (2015) - 32 M€ (2025)
+      - "F215"         # Taux recouvrement Irlande 0,5 %
+      - "F216"         # Mod-le irlandais : 'not a feature of the Irish tax system'
+      - "F221"         # 1,7 Md€ amende X/DPC - revers-s au Tr-sor irlandais
+      - "F222"         # Plaintes noyb UE Commission : sous-financement structurel
+      - "F-LOLF-001"   # LOLF permet exceptions budg-taires
+      - "F-LOLF-002"   # 64 recettes affect-es existent (CAS, fonds concours)
+      - "F-LOLF-003"   # Espagne fl-che 100 % depuis 1993 (loi 30/1992)
+      - "F-DPA-001"    # Seulement 4 DPAs/27 UE ne reversent pas les amendes
+      - "F-DPA-002"    # Espagne seule DPA UE conservant 100 % amendes
+      - "F-DPA-003"    # Italie 50 % amendes
+      - "F-DPA-005"    # UK ICO : plafond fixe £7,5 M
+      - "F-DPA-006"    # DSB Autriche en Notbetrieb (budget 5,9 M€)
+      - "F-DPA-007"    # Irlande DPC : 0 % des amendes
+      - "F-DPA-008"    # Luxembourg CNPD : ratio 0,07 amendes/budget
+      - "F-DPA-009"    # Gr-ce : seul pays UE ayant r-duit budget DPA
+      - "F-DPA-101"    # Budget total 27 DPAs : ~640 M€
+      - "F-DPA-102"    # 22/27 DPAs budget g-n-ral pur
+      - "F-DPA-107"    # Italie Garante accumule 94 M€ exc-dent
+      - "F-DPA-109"    # DPAs Europe centrale budget < 2 M€
+      - "F-DPA-113"    # Commission tol-re violation Art. 52.4 GDPR
+    fiches_concernees: ["amendes", "recours", "lolf", "dpas", "dpas-matrice"]
+    shadow: 9.8
+    etendue: 5
+    coherence_interne: "Exhaustive. 5 enqu-tes de 3 angles totalement diff-rents (comptable amendes, juridique recours, constitutionnel LOLF, comparatif europ-en DPAs, HYPER_MATRICE 27 DPAs) convergent sans la moindre contradiction factuelle. Le shadow factor 9,8 est le plus -lev- de la synth-se — seul le 0,2 restant tient - l'absence de preuve de coordination centrale."
+
+  - titre: "THESE-005 : Sous-investissement chronique sans pilotage ni -valuation"
+    enonce: "La France investit 2,5-3x moins que l'Estonie dans l'IT public : ~60-74 €/hab (0,16-0,18 % du PIB) contre 188 €/hab (0,60 % du PIB). La DINUM (79-138 M€) ne p-se que 1,6 % du budget IT qu'elle est cens-e piloter. Aucune comptabilit- analytique fiable n'existe — personne ne sait exactement combien chaque minist-re d-pense en IT. Aucune -valuation d'impact des 4-5 Md€ annuels n'est produite : le Royaume-Uni publie un breakdown d-taill- par d-partement, la France ne le fait pas. Le FTAP (Fonds pour la Transformation de l'Action Publique, 1,1 Md€) affiche un ratio co-t/b-n-fice de 0,42 € pour 1 € investi, soit une perte nette de 461 M€ sur les 800 M€ consomm-s. Les 339 M€ d'-conomies d-clar-es par la DINUM n'ont pas -t- auditi-es ind-pendamment. L'Estonie prouve qu'un contre-mod-le existe : 1,37 M d'habitants, 100 % services en ligne, x-Road open source (295 M requ-tes/mois, 97 % machine-to-machine, 2 611 jours sans interruption), RIA qui combine cyber+infra+supervision (budget 49 M€, 307 agents)."
+    f_atomiques_justificatifs:
+      - "F-EST-001"    # Estonie 100 % services publics en ligne
+      - "F-EST-002"    # x-Road 295 M requ-tes/mois, 97 % M2M
+      - "F-EST-003"    # conomies x-Road : 1 345-2 589 ann-es de travail/an
+      - "F-EST-004"    # Budget IT estonien doubl- : 123 M€ (2019) - 257 M€ (2024)
+      - "F-EST-005"    # Budget agences IT quadrupl- : 66 M€ - 265,5 M€
+      - "F-EST-006"    # France 60-74 €/hab vs Estonie 188 €/hab
+      - "F-EST-007"    # France 0,16-0,18 % PIB vs Estonie 0,60 %
+      - "F-EST-011"    # ROCA 2017 : 800 000 eID vuln-rables, migration ECC en 2 semaines
+      - "F-EST-013"    # RIA combine cyber (49 M€) + infra + supervision
+      - "F-EST-016"    # 45 projets > 9 M€ suivis DINUM
+      - "F-IMP-001"    # Aucune -valuation d'impact
+      - "F-IMP-003"    # FTAP 1,1 Md€ dot-, 800 M€ consomm-s
+      - "F-IMP-004"    # FTAP ratio 0,42 : perte nette 461 M€
+      - "F-IMP-005"    # conomies FTAP 339 M€ non auditi-es
+      - "F-IMP-006"    # 80 % projets FTAP < 200 000 € (saupoudrage)
+      - "F-IMP-007"    # DINUM 1,6 % du budget pilot-
+      - "F-IMP-008"    # 5 directeurs DINUM en 8 ans
+      - "F-IMP-010"    # Pas de m-thode d'-valuation harmonis-e
+      - "F-IMP-013"    # UK publie breakdown par d-partement
+      - "F-IMP-015"    # 1 agent DINUM pour 3 000 agents IT
+      - "F-IMP-016"    # UK Transformation Fund £3,25 Md
+      - "F-IMP-018"    # Biais de d-claration DINUM (sorties de p-rim-tre)
+      - "F-IMP-019"    # 80 % programmes UK sans m-triques de r-sultat
+      - "F-IMP-020"    # FTAP absence de groupe t-moin
+      - "F311"         # DINUM 79 M€ - 5 Md€ = 1,6 %
+      - "F-COUT-018"   # FranceConnect : succ-s de la r-gie
+    fiches_concernees: ["estonie", "impact", "cout"]
+    shadow: 6.0
+    etendue: 3
+    coherence_interne: "Les donn-es de comparaison (estonie) sont robustes et l'-cart France-Estonie (2,5-3x) est calcul- par habitant ET en % PIB. L'absence de pilotage (impact) et le manque de comptabilit- (cout) convergent. Le shadow factor est mod-r- (6,0) car la comparaison Estonie-France est pertinente mais la diff-rence de taille (x50 population) limite la g-n-ralisation directe."
+
+meta_observations:
+  - id: "OBS-001"
+    enonce: "Convergence predation-amendes : le non-fl-chage des amendes CNIL (487 M€ au budget g-n-ral en 2025) supprime toute incitation pour l'-tat - am-liorer la s-curit- SI. Chaque fuite de donn-es produit potentiellement une amende — et l'amende va au budget g-n-ral du m-me tat qui n'a pas s-curis- le syst-me. La boucle est comptablement ferm-e."
+    fiches_concernees: ["predation", "amendes", "lolf"]
+    faits_clefs: ["F-pred-001", "F-pred-006", "F201", "F206", "F207", "F-LOLF-001"]
+
+  - id: "OBS-002"
+    enonce: "Convergence pantouflage-march-s : le passage des r-gulateurs (ANSSI, DINUM, CNIL) vers les ESN qu'ils contr-laient cr-e un avantage concurrentiel d-loyal. Guillaume Poupard a d-fini les crit-res SecNumCloud pendant 8 ans - l'ANSSI, recrut- par Docaposte (concurrent des fournisseurs cloud qu'il -valuait) puis Sekoia.io. Catherine P-cheur, ex-Pr-sidente de la CNIL, rejoint le board de Capgemini."
+    fiches_concernees: ["carto", "reseau", "marches", "systeme"]
+    faits_clefs: ["F-RES-003", "F-RES-016", "F-RES-019", "F-RES-022", "F-RES-044", "F-MPC-001", "F-MPC-002"]
+
+  - id: "OBS-003"
+    enonce: "Convergence sous-investissement-ESN : l'absence de capacit- interne (DINUM sous-dimensionn-e, 0 -valuation d'impact, pas de comptabilit- analytique) rend l'-tat d-pendant des ESN pour -valuer ses propres besoins. Ce sont les ESN qui r-digent les cahiers des charges des appels d'offres qu'elles remporteront — conflit d'int-r-ts structurel document- par le rapport S-nat 2022."
+    fiches_concernees: ["impact", "cout", "systeme", "estonie"]
+    faits_clefs: ["F-IMP-001", "F-IMP-007", "F-IMP-015", "F-COUT-001", "F-COUT-012", "F306", "F311"]
+
+  - id: "OBS-004"
+    enonce: "Convergence s-curit--recours : les m-mes administrations (ANTS, France Travail, CAF, Assurance Maladie) qui produisent les fuites massives sont celles que le syst-me de recours ne peut pas sanctionner. L'Art. 32 de la loi 78-17 exempte les minist-res des sanctions CNIL. La CNIL est sous-financ-e (277 agents pour 20 150 plaintes). L'action de groupe est morte (2 jugements en 10 ans). Le citoyen dont les donn-es fuient n'obtiendra jamais r-paration."
+    fiches_concernees: ["predation", "recours", "amendes"]
+    faits_clefs: ["F-pred-001", "F-pred-002", "F-REC-101", "F-REC-104", "F-REC-106", "F-REC-110", "F201", "F206"]
+
+  - id: "OBS-005"
+    enonce: "Pattern 'r-forme sans changement' document- sur 10 enqu-tes : (1) Plan cybers-curit- 1 Md€ (2021) - fuites ont empir- (17 802 en 2025 vs ~12 000 en 2020). (2) Cr-ation d'Ariane (mai 2026) — nouvelle structure sans renforcement de l'ANSSI. (3) FTAP 1,1 Md€ — ratio 0,42, perte nette 461 M€. (4) Plan d'encadrement conseil (2022) — d-penses pass-es de 271 M€ - 96 M€ mais d-pendance ESN inchang-e. (5) Cr-ation DITP (2017) — McKinsey a re-u 72,8 M€ de contrats apr-s."
+    fiches_concernees: ["predation", "impact", "systeme", "cout", "projets"]
+    faits_clefs: ["F-pred-009", "F-pred-010", "F-IMP-003", "F-IMP-004", "F-IMP-005", "F-COUT-005", "F-RES-006", "F-RES-007"]
+
+  - id: "OBS-006"
+    enonce: "Convergence LOLF-DPAs : l'argument de la LOLF (universalit- budg-taire) pour justifier le non-fl-chage des amendes CNIL est contredit par la r-alit- juridique et comparative. La LOLF pr-voit des exceptions (64 recettes affect-es existent). 22/27 DPAs europ-ennes sont en budget g-n-ral pur — soit le mod-le fran-ais est partag- par 21 autres pays (donc c'est un choix europ-en, pas une contrainte), soit l'Espagne (fl-chage 100 % depuis 1993) prouve que le contre-mod-le est juridiquement possible. Dans les deux cas, l'argument fran-ais est un paravent politique."
+    fiches_concernees: ["lolf", "amendes", "dpas", "dpas-matrice"]
+    faits_clefs: ["F-LOLF-001", "F-LOLF-002", "F-LOLF-003", "F207", "F212", "F213", "F-DPA-001", "F-DPA-002"]
+
+  - id: "OBS-007"
+    enonce: "Convergence projets-securite-impact : les 45 grands projets suivis par DINUM cumulent 3,3 Md€ avec un surco-t officiel de 6,5 %. Ce chiffre est un artefact : les sorties de p-rim-tre abusives (GMBI retir- du suivi) masquent les -checs. Chorus (SAP) : 292,7 M€ cumul-s, tat ne poss-de pas le code source. SIRHEN (ducation nationale) : 188,1 M€, d-passements. 4-Flight (douanes/fiscal) : +100 %, arr-t. Facturation -lectronique : 258,7 M€, 8 ans de d-veloppement. ANTS : 11,7 M comptes pirat-s — projet IT majeur dont la s-curit- n'a pas -t- prioris-e."
+    fiches_concernees: ["projets", "predation", "impact"]
+    faits_clefs: ["F-GP-001", "F-GP-002", "F-GP-003", "F-GP-004", "F-GP-005", "F-GP-006", "F-pred-001", "F-pred-013", "F-IMP-002", "F-IMP-018"]
+
+  - id: "OBS-008"
+    enonce: "Convergence DPAs-DPAs-matrice : les 2 enqu-tes europ-ennes confirment que le sous-financement des autorit-s de protection des donn-es est un ph-nom-ne europ-en structurel, pas fran-ais isol-. 22/27 DPAs en budget g-n-ral pur. Gr-ce : seul pays UE ayant r-duit (pas augment-) le budget DPA. Autriche DSB en 'Notbetrieb' (budget 5,9 M€). DPAs Europe centrale < 2 M€. La Commission europ-enne tol-re la violation de l'article 52.4 GDPR (ind-pendance budg-taire) sans proc-dure d'infraction. NOYB et epicenter.works ont port- plainte en 2025."
+    fiches_concernees: ["dpas", "dpas-matrice"]
+    faits_clefs: ["F-DPA-001", "F-DPA-006", "F-DPA-009", "F-DPA-101", "F-DPA-102", "F-DPA-103", "F-DPA-109", "F-DPA-113", "F222"]
+
+  - id: "OBS-009"
+    enonce: "Convergence McKinsey tous azimuts : McKinsey apparat dans 4 enqu-tes ind-pendantes comme un acteur transversal de la pr-dation. F-pred-007 (0 IS France 2011-2020, 28-50 M€ contrats post-2018). F-RES-006 (relation Cazenave-Tadjeddine). F-RES-007 (72,8 M€ contrats post-2017, enqu-te PNF favoritisme). F-MPC-004 (optimisation fiscale Delaware). F-MPC-010 (contrats McKinsey avec l'-tat). McKinsey est le seul acteur priv- qui apparat dans les sph-res s-curit-- (predation), r-seau (reseau), march-s (marches) et comptable (amendes/lolf indirectement)."
+    fiches_concernees: ["predation", "reseau", "marches", "amendes"]
+    faits_clefs: ["F-pred-007", "F-RES-006", "F-RES-007", "F-MPC-004", "F-MPC-010"]
+
+  - id: "OBS-010"
+    enonce: "Convergence Souverainet- num-rique absente : 4 enqu-tes documentent la perte de souverainet- sur les donn-es et syst-mes critiques. Health Data Hub : 67 M Fran-ais sur Azure (Cloud Act am-ricain, 2019-2026). Chorus (SAP) : tat ne poss-de pas le code source du SI financier. Cloud Bleu : coentreprise Microsoft-Capgemini-Orange — 'cloud de confiance' fran-ais h-berg- par un fournisseur US. x-Road estonien open source (MIT) prouve qu'une alternative existe mais la France ne l'a pas choisie."
+    fiches_concernees: ["systeme", "estonie", "cout", "marches"]
+    faits_clefs: ["F306", "F308", "F312", "F-EST-002", "F-EST-006"]
+
+transversalites:
+  - id: "TR-001"
+    concept: "Architecture d'illusion"
+    description: "Pattern transversal dominant (10/14 fiches). Le syst-me produit l'apparence de l'action r-gulatrice (ANSSI audite, CNIL sanctionne, DINUM pilote, HATVP contr-le, LOLF encadre) sans effet r-el. Chaque m-canisme existe formellement mais est structurellement sous-dimensionn- ou contourn-, cr-ant un 'filet de s-curit- en papier' qui donne l'illusion d'une protection sans en offrir la r-alit-."
+    fiches_concernees: ["predation", "amendes", "recours", "lolf", "dpas", "dpas-matrice", "systeme", "impact", "projets", "reseau", "carto"]
+    faits_communs: ["F-pred-006", "F-pred-005", "F201", "F206", "F-RES-009", "F-REC-110", "F-IMP-001", "F-DPA-102", "F-DPA-113"]
+    metrique_clef: "ANSSI : 0 sanctions sur 0 administrations en X ann-es. HATVP : 74,3 % avis sans force. CNIL : 0 € aux victimes. DINUM : 1,6 % de ratio de pilotage. Action de groupe : 2 jugements en 10 ans."
+
+  - id: "TR-002"
+    concept: "Circulaire comptable ferm-e"
+    description: "Pattern pr-sent dans 8/14 fiches. L'argent circule en boucle ferm-e : les amendes CNIL (487 M€/2025) vont au budget g-n-ral qui sous-finance la CNIL (30 M€), l'ANSSI (136 M€) et la DINUM (79-138 M€) — soit les 3 agences qui devraient pr-venir les fuites. Les ESN encaissent 3,2 Md€ de march-s IT pay-s par le m-me budget g-n-ral. Les hauts fonctionnaires qui -crivent les appels d'offres passeront demain chez les ESN qui y r-pondent. Aucun acteur n'a int-r-t - briser le cycle."
+    fiches_concernees: ["amendes", "lolf", "predation", "recours", "dpas", "cout", "marches", "systeme"]
+    faits_communs: ["F201", "F202", "F203", "F206", "F-MPC-001", "F-MPC-002", "F-COUT-001", "F-pred-005", "F-pred-006"]
+    boucle_comptable: "Fuites de donn-es -> Amendes CNIL (487 M€) -> Budget g-n-ral -> Sous-financement ANSSI/CNIL/DINUM -> Plus de fuites. Co-t : 0 € pour les d-cideurs. B-n-fice net pour l'-tat : 487 M€ - 30 M€ (CNIL) - 136 M€ (ANSSI) = +321 M€/an."
+
+  - id: "TR-003"
+    concept: "Ignorance organis-e"
+    description: "Pr-sent dans 9/14 fiches. L'absence syst-matique de donn-es cl-s emp-che toute r-forme factuelle. Pas de donn-es sur l'indemnisation des victimes de fuites (recours). Pas d'-valuation d'impact des 4-5 Md€ (impact). Pas de comptabilit- analytique des d-penses IT par minist-re (cout). Pas de ventilation HATVP par secteur/entreprise (reseau). Pas de publication UK-style par d-partement (impact). Pas de suivi ind-pendant du FTAP (impact). Pas de donn-es sur le taux de recouvrement r-el des amendes CNIL (amendes)."
+    fiches_concernees: ["impact", "cout", "recours", "reseau", "systeme", "projets", "predation", "amendes", "dpas"]
+    faits_communs: ["F-IMP-001", "F-IMP-010", "F-IMP-013", "F-IMP-018", "F-COUT-001", "F-REC-101", "F-RES-009", "F-RES-010"]
+    mecanisme: "Personne ne mesure - Personne ne peut d-montrer l'inefficacit- - Personne n'est oblig- de r-former. L'ignorance est 'organis-e' non par complot mais parce qu'aucun acteur n'a int-r-t - produire les donn-es qui r-v-leraient l'-chec du syst-me."
+
+  - id: "TR-004"
+    concept: "Verrouillage par d-pendance technique"
+    description: "Pr-sent dans 6/14 fiches. L'-tat ne poss-de pas le code source de ses syst-mes critiques : Chorus (SAP), Health Data Hub (Microsoft Azure), Cloud Bleu (coentreprise Microsoft), SI minist-riels (Capgemini, Atos, Sopra Steria). La d-pendance est technique (code propri-taire), contractuelle (march-s pluriannuels sans clause de sortie) et cognitive (perte de comp-tence interne). Le co-t de sortie est dissuasif : reprendre la ma-trise d'ouvrage IT de l'-tat co-terait 5-10 ans et des milliards."
+    fiches_concernees: ["systeme", "cout", "marches", "impact", "estonie", "projets"]
+    faits_communs: ["F306", "F308", "F312", "F-MPC-001", "F-MPC-002", "F-COUT-012", "F-COUT-013", "F-EST-002", "F-GP-001"]
+
+  - id: "TR-005"
+    concept: "Double standard de contr-le"
+    description: "Pr-sent dans 6/14 fiches. Les r-gles sont appliqu-es de mani-re asym-trique : C-dric O bloqu- pour Atos (2022-2023) vs douard Philippe autoris- (2020) — m-me entreprise, m-me HATVP, r-sultats oppos-s. Les administrations ne sont jamais sanctionn-es par la CNIL (Art. 32) mais les entreprises (Free 42 M€, Amazon 2025) oui. La HATVP a 74,3 % d'avis compatibles avec r-serves sans force contraignante — le taux d'incompatibilit- r-el (4,5 %) est cosm-tique. Les r-serves HATVP ne sont jamais suivies. 57 dossiers transmis au parquet en 2025 — aucune condamnation."
+    fiches_concernees: ["reseau", "amendes", "carto", "recours", "lolf", "dpas"]
+    faits_communs: ["F-RES-001", "F-RES-002", "F-RES-009", "F206", "F-REC-106", "F-REC-115"]
+
+  - id: "TR-006"
+    concept: "Rotation institutionnelle comme alternative - la r-forme"
+    description: "Pr-sent dans 5/14 fiches. Face aux -checs r-p-t-s, l'-tat cr-e de nouvelles structures au lieu de renforcer les existantes. Cr-ation de la DITP (2017) pour encadrer le conseil — les d-penses conseil ont doubl- (379 M€ - 894 M€). Cr-ation d'Ariane (mai 2026) pour remplacer l'ANSSI — sans renforcer l'ANSSI. 5 directeurs DINUM en 8 ans — rotation des t-te sans changement de cap. Cr-ation du FTAP (1,1 Md€) sans audit ind-pendant. Chaque cr-ation efface l'-chec pr-c-dent et repart - z-ro."
+    fiches_concernees: ["predation", "impact", "systeme", "projets", "cout"]
+    faits_communs: ["F-pred-010", "F-RES-006", "F-IMP-003", "F-IMP-008", "F-IMP-018", "F-COUT-005"]
+
+  - id: "TR-007"
+    concept: "Privatisation du risque et socialisation des pertes"
+    description: "Pr-sent dans 4/14 fiches. Les ESN captent les b-n-fices (marge Capgemini 13,3 %, marge brute ESN 28-40 %, McKinsey 0 IS) tandis que les co-ts des -checs sont support-s par le contribuable : fuites de donn-es (co-t r-putationnel et indemnitaire assum- par l'-tat), dette technique (1-1,5 Md€/an), surco-t externalisation (300-450 M€/an). Le contrat Cassiop-e Justice — 60 M€, offre unique, pas de clause de p-nalit-— est l'illustration parfaite : si -a -choue, le contribuable paie deux fois."
+    fiches_concernees: ["marches", "cout", "amendes", "predation"]
+    faits_communs: ["F-MPC-004", "F-MPC-011", "F-COUT-004", "F-COUT-012", "F-COUT-013", "F201", "F202"]
+
+gaps:
+  - "GAP-001 : Aucune investigation sur les alternatives open source existantes dans l'administration fran-aise. x-Road estonien (MIT license) a -t- adopt- par 50+ pays — la France ne l'a pas -tudi-. Des initiatives comme l'Agence du Num-rique (ex-DINSIC) ou les logiciels libres de l'ducation nationale (ENT, Moodle) existent mais n'ont pas -t- cartographi-es."
+  - "GAP-002 : Aucune investigation sur les syndicats et repr-sentants du personnel IT de la fonction publique. Quelle est leur analyse du syst-me ? Ont-ils alert- ? Ont-ils -t- -cout-s ?"
+  - "GAP-003 : Aucune investigation sur les fournisseurs cloud alternatifs fran-ais (OVH, Scaleway, Outscale). Pourquoi l'-tat les ignore-t-il au profit d'hyperscalers US (AWS, Azure, GCP) ? Le rapport S-nat 2022 et les recommandations ANSSI SecNumCloud ne sont pas analys-s."
+  - "GAP-004 : Aucune investigation sur le comportement parlementaire lors du vote des lois de finances — qui a vot- quoi sur les amendements IT (FTAP, CNIL, ANSSI, DINUM) et pourquoi."
+  - "GAP-005 : Aucune investigation sur le march- de la conformit- RGPD (DPO, audits de s-curit-, assurance cyber, conseil juridique RGPD) comme b-n-ficiaire de l'inefficacit- du syst-me de sanction. Les loups identifi-s dans les enqu-tes (avocats RGPD +30 %, assureurs cyber b-n-fices records) m-ritent une enqu-te d-di-e."
+  - "GAP-006 : Aucune comparaison syst-matique France-Allemagne-Royaume-Uni en mati-re de gouvernance IT publique. Le UK publie son breakdown par d-partement — que font l'Allemagne et les pays nordiques ?"
+  - "GAP-007 : Aucune investigation sur le taux de recouvrement r-el des amendes CNIL. Les donn-es de l'Irlande (0,5 %) et du Luxembourg (ratio 0,07) sugg-rent un taux fran-ais bas — mais les chiffres ne sont pas publics."
+  - "GAP-008 : Aucune investigation sur l'histoire des d-cisions budg-taires ANSSI/CNIL/DINUM depuis 2010. Qui a d-cid- de sous-dimensionner ces agences ? Quels arbitrages budg-taires ont -t- faits ?"
+
+acteurs_transversaux:
+  - nom: "Cour des Comptes"
+    r-le: "Auditeur r-current du syst-me. 5 enqu-tes. Alerte depuis 2015. Jamais suivie d'effets."
+    fiches_presences: ["amendes", "cout", "impact", "projets", "systeme"]
+    faits_associes: ["F-IMP-001", "F-IMP-010", "F-COUT-001", "F-COUT-002", "F-GP-001", "F201"]
+  - nom: "DINUM"
+    r-le: "DSI de l'-tat sous-dimensionn-e (1,6 % du budget pilot-). 5 directeurs en 8 ans. Incapable d'-valuer l'impact des d-penses."
+    fiches_presences: ["cout", "estonie", "impact", "projets", "systeme"]
+    faits_associes: ["F-IMP-007", "F-IMP-008", "F-IMP-015", "F311", "F-COUT-010"]
+  - nom: "CNIL"
+    r-le: "Autorit- de protection des donn-es. Sous-financ-e (30 M€, 277 agents). 0 € de ses amendes va aux victimes. Ne sanctionne pas les administrations."
+    fiches_presences: ["amendes", "dpas", "dpas-matrice", "lolf", "recours"]
+    faits_associes: ["F201", "F202", "F203", "F-REC-101", "F-REC-104", "F206"]
+  - nom: "Capgemini"
+    r-le: "Premi-re ESN de France (52 % du march- IT public, ~1,7 Md€). Marge op-rationnelle 13,3 %. D-pendance tat document-e par 250+ contrats."
+    fiches_presences: ["cout", "marches", "systeme"]
+    faits_associes: ["F-MPC-001", "F-MPC-002", "F-COUT-003", "F-COUT-004"]
+  - nom: "ANSSI"
+    r-le: "Agence de cybers-curit- sous-dimensionn-e (20 audits/an pour des milliers de SI). Pouvoir de sanction jamais utilis-. Contourn-e par Ariane."
+    fiches_presences: ["predation", "systeme"]
+    faits_associes: ["F-pred-005", "F-pred-006", "F-pred-010", "F310"]
+  - nom: "HATVP"
+    r-le: "Autorit- de contr-le du pantouflage. D-corative : 74,3 % avis compatibles avec r-serves, 4,5 % incompatibilit-, 0 poursuite."
+    fiches_presences: ["reseau", "carto"]
+    faits_associes: ["F-RES-001", "F-RES-002", "F-RES-009"]
+  - nom: "Thomas Cazenave"
+    r-le: "Cr-ateur DITP (2017-2019). Ex-Orange. Ex-Ministre Comptes publics. Supervise la relation McKinsey-tat. 3 enqu-tes."
+    fiches_presences: ["carto", "predation", "reseau"]
+    faits_associes: ["F-RES-006", "F-RES-044"]
+  - nom: "McKinsey"
+    r-le: "Acteur transversal de la pr-dation. 0 IS France 2011-2020. 72,8 M€ contrats post-2017. Enqu-te PNF favoritisme. Appara-t dans 4 enqu-tes."
+    fiches_presences: ["predation", "reseau", "marches", "amendes"]
+    faits_associes: ["F-pred-007", "F-RES-006", "F-RES-007", "F-MPC-004", "F-MPC-010"]
+
+chronologie_synthese:
+  - date: "1992"
+    evenement: "Espagne fl-che 100 % amendes AEPD par loi 30/1992"
+    source_fait: "F-LOLF-003"
+  - date: "2007"
+    evenement: "Macron rencontre Karim Tadjeddine - commission Attali"
+    source_fait: "F-RES-006"
+  - date: "2007"
+    evenement: "Faille IDOR ANTS signal-e — non corrig-e pendant 19 ans"
+    source_fait: "F-pred-014"
+  - date: "2011-2020"
+    evenement: "McKinsey France : 0 IS. Optimisation fiscale via Delaware"
+    source_fait: "F-pred-007"
+  - date: "2015"
+    evenement: "Premi-res alertes Cour des Comptes sur l'opacit- des d-penses IT"
+    source_fait: "F-IMP-001"
+  - date: "2017"
+    evenement: "Cr-ation DITP. Thomas Cazenave premier directeur."
+    source_fait: "F-RES-006"
+  - date: "2017"
+    evenement: "Macron -lu. Explosion contrats McKinsey (72,8 M€ post-2017)"
+    source_fait: "F-RES-007"
+  - date: "2018"
+    evenement: "Rejet amendements Joissains COM-10/11/34 — fl-chage amendes CNIL enterr-"
+    source_fait: "F207"
+  - date: "2018-2025"
+    evenement: "NKM directrice Capgemini US cloud/cyber"
+    source_fait: "F-RES-004"
+  - date: "2018"
+    evenement: "D-penses conseil tat : 379 M€"
+    source_fait: "F-MPC-003"
+  - date: "2019"
+    evenement: "Health Data Hub (67 M Fran-ais) d-marr- sur Microsoft Azure"
+    source_fait: "F308"
+  - date: "2020"
+    evenement: "philippe nomm- administrateur Atos, 3 mois apr-s Matignon"
+    source_fait: "F-RES-001"
+  - date: "2021"
+    evenement: "Plan cybers-curit- 1 Md€ (Macron). Fuites empireront (+50 % en 4 ans)"
+    source_fait: "F-pred-009"
+  - date: "2021"
+    evenement: "D-penses conseil tat : 894 M€ (+136 % vs 2018)"
+    source_fait: "F-MPC-003"
+  - date: "2022-03"
+    evenement: "Rapport S-nat cabinets conseil : >1 Md€ d-penses 2021, 'ph-nom-ne tentaculaire'"
+    source_fait: "F-RES-007"
+  - date: "2022-10"
+    evenement: "Enqu-te PNF favoritisme McKinsey ouverte"
+    source_fait: "F-RES-007"
+  - date: "2022-11"
+    evenement: "C-dric O bloqu- HATVP pour Atos (1er blocage aussi haut plac-)"
+    source_fait: "F-RES-002"
+  - date: "2023"
+    evenement: "Poupard quitte ANSSI pour Docaposte DGA"
+    source_fait: "F-RES-003"
+  - date: "2024"
+    evenement: "Poupard rejoint board Sekoia.io"
+    source_fait: "F-RES-003"
+  - date: "2024"
+    evenement: "Budget IT estonien doubl- : 257 M€"
+    source_fait: "F-EST-004"
+  - date: "2024-2026"
+    evenement: "Explosion fuites ANTS (11,7M), Urssaf (12M), Ficoba (1,2M), Tchap (73K), DINUM (70K)"
+    source_fait:
+      - "F-pred-001"
+      - "F-pred-002"
+      - "F-pred-003"
+      - "F-pred-004"
+      - "F-pred-012"
+  - date: "2025"
+    evenement: "CNIL : 486,8 M€ amendes (record). 83 sanctions. 0 € aux victimes."
+    source_fait: "F202"
+  - date: "2025"
+    evenement: "France Travail : 5 M€ amende pour 43 M de victimes (0,12 €/personne)"
+    source_fait: "F-REC-106"
+  - date: "2025"
+    evenement: "Conseil constitutionnel censure dispositions sanction HATVP"
+    source_fait: "F-RES-009"
+  - date: "2025"
+    evenement: "FTAP : 800 M€ consomm-s, 339 M€ -conomies d-clar-es (ratio 0,42)"
+    source_fait: "F-IMP-003"
+  - date: "2025"
+    evenement: "UK annonce £3,25 Md Transformation Fund pour r-duire d-pendance ESN"
+    source_fait: "F-COUT-013"
+  - date: "2025-09"
+    evenement: "NOYB/epicenter.works d-posent plainte Commission UE : sous-financement DPAs"
+    source_fait: "F-DPA-006"
+  - date: "2026-01"
+    evenement: "Piratage Urssaf (12 M) et DINUM/Hubee (70 K)"
+    source_fait:
+      - "F-pred-002"
+      - "F-pred-012"
+  - date: "2026-02"
+    evenement: "Piratage Ficoba (1,2 M comptes bancaires)"
+    source_fait: "F-pred-003"
+  - date: "2026-04"
+    evenement: "Piratage ANTS (11,7 M comptes, faille IDOR 2007)"
+    source_fait: "F-pred-001"
+  - date: "2026-05"
+    evenement: "R-v-lation ANSSI : 20 audits/an, sanction jamais utilis-e"
+    source_fait:
+      - "F-pred-005"
+      - "F-pred-006"
+  - date: "2026-05"
+    evenement: "Cr-ation autorit- Ariane (Lecornu), d-saveu ANSSI"
+    source_fait: "F-pred-010"
+  - date: "2026-05"
+    evenement: "Capgemini marge 13,3 % confirm-e (r-sultats 2024)"
+    source_fait: "F-COUT-004"
+  - date: "2026-06"
+    evenement: "Fuite Tchap (73 K agents, 643 K messages)"
+    source_fait: "F-pred-004"
+  - date: "2026-06"
+    evenement: "Poupard rejoint Orange"
+    source_fait: "F-RES-022"
+
+shadow_factor_global: 8.5
+
+mnemo_context:
+  searches:
+    - query: "pr-dation structurelle s-curit- informatique tat fran-ais"
+      search_mode: "hybrid"
+      results: 5
+      top_hits: ["910c7897", "cd07ec46", "199a24a9", "e7f09e53", "cf894198"]
+    - query: "captation ESN externalisation Capgemini oligopole"
+      search_mode: "hybrid"
+      results: 5
+      top_hits: ["cd07ec46", "2dc33f0d", "3d0e205a", "3dcbfd3d", "ccad3390"]
+    - query: "pantouflage porte tournante HATVP fonctionnaires ESN"
+      search_mode: "hybrid"
+      results: 5
+      top_hits: ["ccad3390", "cd07ec46", "3d0e205a", "3dcbfd3d", "2dc33f0d"]
+    - query: "amendes CNIL sanction sans cons-quence RGPD France"
+      search_mode: "hybrid"
+      results: 5
+      top_hits: ["199a24a9", "89e3b2ab", "6cc77fe8", "21fff344", "4dfbc849"]
+    - query: "comparaison internationale budget IT public France Estonie sous-investissement"
+      search_mode: "hybrid"
+      results: 5
+      top_hits: ["4dfbc849", "3dcbfd3d", "cd07ec46", "cf894198", "910c7897"]
+  cross_series_detected: true
+  cross_series_details: "Convergence forte entre les 5 clusters th-matiques. La THESE-001 (pr-dation) et THESE-004 (sanction sans cons-quence) sont reli-es par la circulaire comptable ferm-e (TR-002, OBS-001) : les fuites produisent des amendes qui vont au budget g-n-ral qui sous-finance la pr-vention des fuites. Les 2 enqu-tes DPAs europ-ennes (dpas, dpas-matrice) confirment que le mod-le fran-ais est un choix europ-en partag- par 21/27 pays. L'Espagne (AEPD 100 % fl-chage depuis 1993) est le contre-mod-le prouv- depuis 33 ans. McKinsey apparat comme acteur transversal (OBS-009) dans 4 enqu-tes ind-pendantes (predation, reseau, marches, amendes). Le pantouflage (THESE-003) est le ciment du syst-me : il aligne les int-r-ts individuels avec la pr-dation collective (OBS-002, OBS-003)."

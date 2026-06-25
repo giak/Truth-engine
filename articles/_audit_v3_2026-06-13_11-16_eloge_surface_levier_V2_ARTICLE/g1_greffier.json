@@ -1,0 +1,65 @@
+{
+  "problemes": [
+    {
+      "ligne": "10",
+      "citation": "Le 6 mars 1970, dans une maison de Greenwich Village à New York, trois jeunes gens fabriquent une bombe. Ils appartiennent au Weather Underground, lem"
+      ,
+      "code": "FACT",
+      "gravite": 4,
+      "confiance": 4,
+      "correction": "vérifier les détails de l'incident"
+    },
+    {
+      "ligne": "25",
+      "citation": "Quarante-neuf ans plus tard, dans un hôtel Ibis des Batignolles, à Paris, une vingtaine de femmes de chambre s'assoient en cercle. Pas de Signal."
+      ,
+      "code": "LACUNA",
+      "gravite": 3,
+      "confiance": 5,
+      "correction": "ajouter des détails sur les actions et leurs résultats"
+    },
+    {
+      "ligne": "40",
+      "citation": "Mais l'arsenal ne s'arrête pas aux couteaux. L'amendement CL46 (le 46e de la commission des lois), déjà rédigé et déposé, criminalise l'appel au boy"
+      ,
+      "code": "SURETAB",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier les informations sur l'amendement CL46"
+    },
+    {
+      "ligne": "50",
+      "citation": "Mais le boycott n'est pas interdit en France aujourd'hui. Il le sera demain, si le mouvement devient une menace."
+      ,
+      "code": "BIAIS",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier les sources et les prévisions sur l'amendement CL46"
+    },
+    {
+      "ligne": "70",
+      "citation": "Mais le groupe n'existe plus. Les amitiés sont brisées. Les vies professionnelles anéanties. L'État n'a pas eu besoin de les condamner."
+      ,
+      "code": "LOGIC",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier la logique des conséquences de l'affaire Tarnac"
+    },
+    {
+      "ligne": "100",
+      "citation": "Mais ce n'est pas la seule leçon du musée. Les Gilets jaunes sont entrés dans l'histoire comme le plus grand mouvement social français depuis 1968."
+      ,
+      "code": "GLISS",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier les comparaisons historiques et les résultats des Gilets jaunes"
+    }
+  ],
+  "solide": [
+    "Ligne 15 : « Les femmes de chambre ont tenu vingt-deux mois »",
+    "Ligne 20 : « Ils ont obtenu dix-sept milliards d'euros de concessions »"
+  ],
+  "cannot_assess": [
+    "[À REMPLACER — l'article ne fournit pas suffisamment d'informations pour évaluer les détails des actions des femmes de chambre]"
+  ]
+}

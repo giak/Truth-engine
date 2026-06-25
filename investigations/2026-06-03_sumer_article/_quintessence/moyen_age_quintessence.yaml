@@ -1,0 +1,312 @@
+enquete_id: moyen_age
+complexity: APEX
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-03_sumer_article/2026-06-04_09-30_moyen_age_gense_etat_FRANCAIS_INVESTIGATION.md
+these_centrale: 'Le Moyen Âge (987-1515) est la CEINTURE DE TRANSMISSION qui fait passer l''héritage antique vers l''État
+  français moderne, via trois inventions : la redécouverte du droit romain (Bologne 1070), l''invention de la dette publique
+  (rentes HDV 1522 + spoliation Templiers 1307), et l''invention de l''État fiscal (États généraux 1302 + taille permanente
+  1439).'
+theses_implicites:
+- Sans Bologne 1070, le Code civil français (1804) n'existerait pas — le CJC comble 594 ans de perte (476-1070)
+- La rente sur l'Hôtel de Ville de Paris (1522) est l'ORIGINE de la dette publique française moderne — les 54 Mds€ d'intérêts/an
+  en descendent
+- Les légistes de Philippe le Bel (Pierre Flotte, Nogaret, Marigny) sont les ancêtres directs des grands corps (INSP, Conseil
+  d'État)
+- La féodalité (Xe-XVe s.) est la forme médiévale de l'asymétrie verticale — la 'caste des 20 familles' modernes en est une
+  version déguisée
+- La crise du XIVe siècle (Guerre Cent Ans + peste noire) PRODUIT plus d'État — au XXIe siècle, la crise produit plus de capture
+- 'Philippe le Bel est le ''fondateur moderne'' de l''État : légistes, États généraux, spoliation, fiscalité — sans lui, pas
+  de monarchie absolue, pas de Révolution'
+faits_atomiques:
+- id: F-001
+  enonce: 'Redécouverte du Corpus Juris Civilis à Bologne par Irnerius : ~1070 (Summa Codicis, début de la tradition glossatrice)'
+  source_url: https://en.wikipedia.org/wiki/Irnerius
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-002
+  enonce: 'CJC promulgué par Justinien à Constantinople (529-534) : 4 parties (Codex, Digeste, Institutes, Novelles)'
+  source_url: https://en.wikipedia.org/wiki/Corpus_Juris_Civilis
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-003
+  enonce: 'Création de la rente sur l''Hôtel de Ville de Paris, première dette publique française : 1522 (François Ier)'
+  source_url: https://dettedelafrance.fr/histoire-de-la-dette-de-la-france
+  source_section: §3
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-004
+  enonce: 'Arrestation des Templiers par Philippe le Bel : 13 octobre 1307. 15 000 hommes arrêtés, ordre dissous en 1312.
+    Motif financier (créanciers du roi)'
+  source_url: https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel
+  source_section: §3
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-005
+  enonce: 'Philippe Auguste (1180-1223) : revenu royal ~150 000 livres/an, domaine 800 000 livres. Administration royale modernisée
+    (baillis, sénéchaux)'
+  source_url: https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le
+  source_section: §4
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-006
+  enonce: 'Parlement de Paris : cour souveraine issue de la Curia Regis, créé ~1250 par Louis IX. Premiers magistrats professionnels
+    (gens de robe)'
+  source_url: https://fr.wikipedia.org/wiki/Parlement_(royaume_de_France)
+  source_section: §5
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-007
+  enonce: 'Premiers États généraux : 10 avril 1302 (Philippe IV le Bel). 3 ordres (clergé, noblesse, tiers état). Philippe
+    taxe le clergé en conflit avec Boniface VIII'
+  source_url: https://www.herodote.net/almanach-ID-3494.php
+  source_section: §4
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-008
+  enonce: 'Création de l''impôt permanent (taille royale) : 1439 (Charles VII). Premier impôt direct permanent de l''histoire
+    française'
+  source_url: https://cours-de-droit.net/legislation-royale-moyen-age/
+  source_section: §4
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+- id: F-009
+  enonce: 'Peste noire (1347-1351) : 30-50% de la population européenne. Crise systémique qui accélère la formation de l''État'
+  source_url: https://fr.wikipedia.org/wiki/Peste_noire
+  source_section: §7
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-010
+  enonce: 'Abolition du servage en France par Louis X : 1315. Premier pays d''Europe'
+  source_url: https://fr.wikipedia.org/wiki/Servage
+  source_section: §6
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+- id: F-011
+  enonce: 'Légistes de Philippe le Bel : Pierre Flotte († 1302), Guillaume de Nogaret (~1260-1313), Enguerrand de Marigny
+    (~1260-1315). Théoriciens de la souveraineté royale'
+  source_url: https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel
+  source_section: §8
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-012
+  enonce: L'expression 'quod principi placuit legis habet vigorem' (Digeste de Justinien) devient le fondement de la monarchie
+    absolue française
+  source_url: https://en.wikipedia.org/wiki/Corpus_Juris_Civilis
+  source_section: §8
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-013
+  enonce: 'Conflit Philippe le Bel — Boniface VIII (1296-1303) : taxation du clergé. Bulle Unam Sanctam (1302) — affrontement
+    entre pouvoirs spirituel et temporel'
+  source_url: https://fr.wikipedia.org/wiki/%C3%89tats_g%C3%A9n%C3%A9raux_de_1302-1303
+  source_section: §4
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-014
+  enonce: 'États généraux 1355-1358 (Étienne Marcel) : tentative de contrôle parlementaire de l''impôt. Échec → voie ouverte
+    à l''absolutisme'
+  source_url: https://fr.wikipedia.org/wiki/%C3%89tienne_Marcel
+  source_section: §7
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+acteurs:
+- nom: Irnerius (~1050-1125)
+  role: Juriste bolonais, redécouvre le CJC, fonde la tradition des glossateurs
+  faits_lies:
+  - F-001
+- nom: Justinien (482-565)
+  role: Empereur, Corpus Juris Civilis (529-534)
+  faits_lies:
+  - F-002
+- nom: Philippe II Auguste (1165-1223)
+  role: Roi, administration royale modernisée
+  faits_lies:
+  - F-005
+- nom: Louis IX / Saint Louis (1214-1270)
+  role: Roi, réforme de la justice, Parlement de Paris
+  faits_lies:
+  - F-006
+- nom: Philippe IV le Bel (1268-1314)
+  role: Roi, centralisation, fiscalisation, spoliation Templiers, États généraux
+  faits_lies:
+  - F-004
+  - F-007
+  - F-011
+  - F-013
+- nom: Boniface VIII (~1235-1303)
+  role: Pape, conflit avec Philippe le Bel
+  faits_lies:
+  - F-013
+- nom: Étienne Marcel (~1310-1358)
+  role: Prévôt des marchands, tentative de contrôle parlementaire
+  faits_lies:
+  - F-014
+- nom: Charles VII (1403-1461)
+  role: Roi, impôt permanent 1439
+  faits_lies:
+  - F-008
+- nom: François Ier (1494-1547)
+  role: Roi, rente sur l'Hôtel de Ville 1522
+  faits_lies:
+  - F-003
+- nom: Louis X (1289-1316)
+  role: Roi, abolition du servage 1315
+  faits_lies:
+  - F-010
+causalites:
+- cause: F-001
+  effet: F-006
+  mecanisme: Redécouverte CJC (Bologne 1070) → tradition glossatrice → légistes (Pierre Flotte, Nogaret) → Parlement de Paris
+    (1250) → magistrats professionnels
+- cause: F-002
+  effet: F-012
+  mecanisme: Digeste de Justinien (quod principi placuit) → monarchie absolue → absolutisme → Révolution française (rupture
+    avec cette formule)
+- cause: F-004
+  effet: F-003
+  mecanisme: Spoliation des Templiers (1307) → besoin d'emprunts réguliers → banquiers lombards (XIVe-XVe) → rente HDV (1522)
+    → marché des rentes → dette publique moderne
+- cause: F-007
+  effet: F-008
+  mecanisme: États généraux 1302 (consentement ponctuel à l'impôt) → Guerre Cent Ans (besoin permanent) → impôt permanent
+    1439 → bureaucratie de perception → ancêtres des grands corps
+perspectives_dialectiques:
+- position: Thèse officielle (récit national)
+  argument: Philippe Auguste + Saint Louis + Philippe le Bel = fondateurs progressifs de l'État moderne. Le MA est le berceau
+    de la France
+- position: Antithèse critique (post-coloniale)
+  argument: 'Le MA européen est en réalité MA islamo-chrétien : Bagdad → Cordoue → Tolède → Bologne est la vraie chaîne, pas
+    Rome → Bologne'
+- position: 'Synthèse : ceinture de transmission CONTEXTUELLE'
+  argument: Le MA a TRANSMIS l'héritage antique, mais en le filtrant par la féodalité, le christianisme, et la guerre. La
+    France qui en sort n'est pas Rome — c'est une RÉINTERPRÉTATION
+limites:
+- 'Biais Renaissance : le terme ''Moyen Âge'' délégitime la période (invention des humanistes)'
+- 'Biais Révolutionnaire : la Révolution a construit son récit sur le rejet du MA comme ''Ancien Régime'''
+- Pas de sources primaires consultées (rôles Chambre des Comptes, registres Parlement)
+- Période carolingienne (751-987) sous-représentée — la renaissance carolingienne prépare Bologne
+- Période 1515-1789 (absolutisme, offices, Paulette 1604) sous-représentée
+wolves:
+- nom: Récit national classique
+  argument: Le MA est l'ancêtre DIRECT de la France moderne
+  reponse: Le MA est un MÉDIATEUR (ceinture de transmission) qui filtre l'héritage antique par la féodalité et le christianisme.
+    Pas une continuité pure
+- nom: Juristes catholiques (XIXe)
+  argument: Le droit romain est notre tradition, transmis sans rupture
+  reponse: 470 ans de perte (600-1070). Bologne est une REDÉCOUVERTE, pas une transmission. Le filtre féodal est majeur
+- nom: Historiens marxistes
+  argument: Le MA est une parenthèse féodale entre Rome et le capitalisme
+  reponse: Le MA invente la dette publique (rentes), l'État fiscal (États généraux, taille) — des INSTITUTIONS durables
+- nom: Historiens orientalistes (Pirenne)
+  argument: Le MA est créé par l'Islam (Mahomet, pas Mahomet, le vide créé par la rupture avec l'Orient)
+  reponse: 'La thèse Pirenne (1922) : sans rupture commerciale Orient-Occident (VIIe-VIIIe), pas d''émergence de l''Occident.
+    Reprise par Hodges, Wickham'
+iceberg:
+- 'Sujet immergé #1 : la vraie chaîne de transmission est Rome → Islam (Bagdad/Cordoue) → Tolède → Bologne — pas Rome → Bologne
+  directement'
+- 'Sujet immergé #2 : la féodalité est la ''caste'' médiévale — l''INSP moderne en est l''héritier (et la rupture est incomplète)'
+- 'Sujet immergé #3 : la spoliation des Templiers (1307) est le précédent médiéval de l''annulation de dette par la force
+  — utilisé ensuite par les rois successifs'
+- 'Sujet immergé #4 : ''quod principi placuit'' est la formule de l''absolutisme qui FONDE la monarchie française (et que
+  la Révolution ABOLIT)'
+- 'Sujet immergé #5 : la crise du XIVe siècle (Guerre Cent Ans + peste) est analogue à la crise contemporaine (COVID + dette)
+  — la réponse médiévale est ''plus d''État'', la réponse contemporaine est ''plus de capture'''
+- Mnemolite REELLEMENT NON INDEXEE pour Moyen Age (0 hit sur 5+ requetes thematiques et tag=moyen-age). Cette quintessence
+  est construite sans cross-reference Mnemolite - c'est un point faible assume.
+chronologie:
+- date: '987'
+  evenement: Avènement d'Hugues Capet — début des Capétiens directs
+  source_fait: F-005
+- date: ~1070
+  evenement: Redécouverte du CJC à Bologne par Irnerius
+  source_fait: F-001
+- date: 1180-1223
+  evenement: 'Philippe Auguste : administration royale, 150 000 livres/an'
+  source_fait: F-005
+- date: '1250'
+  evenement: Parlement de Paris (Louis IX)
+  source_fait: F-006
+- date: '1302'
+  evenement: Premiers États généraux (Philippe le Bel)
+  source_fait: F-007
+- date: '1307'
+  evenement: Arrestation des Templiers (13 octobre)
+  source_fait: F-004
+- date: '1315'
+  evenement: Abolition du servage (Louis X)
+  source_fait:
+  - F-010
+- date: 1347-1351
+  evenement: Peste noire (30-50% de la population)
+  source_fait: F-009
+- date: 1355-1358
+  evenement: 'États générauxÉtienne Marcel : tentative de contrôle parlementaire de l''impôt'
+  source_fait: F-014
+- date: '1439'
+  evenement: Taille royale permanente (Charles VII)
+  source_fait: F-008
+- date: '1522'
+  evenement: Rente sur l'Hôtel de Ville de Paris (François Ier)
+  source_fait: F-003
+domaines:
+- Redécouverte du droit romain (Bologne 1070)
+- Invention de la dette publique (rentes HDV 1522)
+- Invention de l'État fiscal (États généraux, taille permanente)
+- Professionnalisation de la justice (Parlement de Paris)
+- Légistes et théorie de la souveraineté
+- Féodalité et capture verticale (3 ordres)
+- Crise du XIVe siècle et réponse étatique
+urls_prioritaires:
+- url: https://en.wikipedia.org/wiki/Irnerius
+  description: Irnerius, redécouverte du CJC, École de Bologne
+  head_status: 200
+- url: https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel
+  description: Philippe le Bel, centralisation et spoliation
+  head_status: 200
+- url: https://dettedelafrance.fr/histoire-de-la-dette-de-la-france
+  description: Histoire de la dette publique française
+  head_status: 200
+- url: https://fr.wikipedia.org/wiki/Parlement_(royaume_de_France)
+  description: Parlement de Paris, professionnalisation de la justice
+  head_status: 200
+- url: https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le
+  description: Philippe Auguste, EHNE, administration royale
+  head_status: 200
+shadow_factor: 1.5
+mnemo_queries:
+- query: Moyen Âge Bologne Irnerius CJC rente Hôtel de Ville dette
+  results_count: 0
+- query: Moyen Âge Philippe Bel Templiers légistes États généraux
+  results_count: 0
+- query: glossateurs commentaires Bologne Pothier Renaissance juridique
+  results_count: 0
+- query: Etats généraux 1302 1355 Charles VII taille impôt permanent
+  results_count: 0
+- query: Pothier Code civil 1804 Napoléon tradition juridique
+  results_count: 0
+mnemo_cross_refs:
+- id: null
+  title: AUCUNE memoire Mnemolite pour Moyen Age
+  level: GAP
+  queries_tested:
+  - moyen-age tag
+  - Bologne cathedrale
+  - foires Champagne
+  - transmission savoir medievale
+  - Cathedrale Notre-Dame construction

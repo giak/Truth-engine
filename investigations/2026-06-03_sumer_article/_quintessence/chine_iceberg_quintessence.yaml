@@ -1,0 +1,259 @@
+enquete_id: chine_iceberg
+complexity: APEX
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-03_sumer_article/2026-06-03_14-45_chine_v2_ICEBERG_MAX_CONTRE_RAPPORT.md
+these_centrale: L'investigation Chine V1 surestime 5 continuités (keju-méritocratie, Song-richesse, absence propriété, efficacité
+  greniers, Jiaozi monnaie) et omet 6 angles morts majeurs (Tiananmen, Grand Firewall, parti-État, miracle économique, femmes,
+  fourchette GLF). Le Shadow Factor passe de 3.2× à 3.8×.
+theses_implicites:
+- Le keju n'était PAS une méritocratie universelle — il FILTRAIT par classe sociale au moins autant qu'il ne SÉLECTIONNAIT
+  par compétence (Elman 2000)
+- 'Song = PIB/hab leader mondial est CONTESTÉ (Broadberry 2015 : parité ou infériorité avec l''Europe)'
+- Pas de propriété privée en Chine est TROP ABSOLU — il existait des droits fonctionnels (chengbang/subsoil) à partir des
+  Ming tardifs
+- 'Greniers ever-normal : efficaces par périodes (1700-1780) mais CORRUPTION massive, effondrement au XIXe siècle (Will 1991)'
+- Jiaozi = certificat de dépôt convertible, PAS une monnaie fiduciaire moderne — le vrai équivalent BdF est le huizi (1160)
+  ou le baochao Yuan (1260)
+faits_atomiques:
+- id: F-001
+  enonce: 'Keju : Ming/Qing (1370-1905) ~25 000 jinshi sur 300 ans = ~80/an, ~1 jinshi pour 2-4M habitants. Reproduction sociale,
+    pas mobilité (Elman 2000)'
+  source_url: https://en.wikipedia.org/wiki/Imperial_examination
+  source_section: '§LIÈVRE #1'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-002
+  enonce: 'Song PIB/hab : Maddison (2001) = $600 ; Broadberry (2015) conteste, parité ou infériorité avec l''Europe médiévale.
+    Données ±50-100%'
+  source_url: https://en.wikipedia.org/wiki/Great_Divergence
+  source_section: '§LIÈVRE #2'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-003
+  enonce: 'Propriété privée : la Chine impériale tardive (1560-1950) avait des droits fonctionnels (chengbang/subsoil) — pas
+    dominium romain, mais des droits réels (Springer 2024)'
+  source_url: https://link.springer.com/article/10.1007/s00148-023-00989-z
+  source_section: '§LIÈVRE #3'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-004
+  evenement: 'Greniers ever-normal : efficaces par périodes (haut Qing 1700-1780), corruption massive, effondrement au XIXe
+    (Will 1991, Collège de France)'
+  source_url: https://www.google.com/books/edition/Nourish_the_People/iLlYAAAAMAAJ
+  source_section: '§LIÈVRE #4'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-005
+  enonce: 'Jiaozi : initialement PRIVÉ (998-1022), étatisé en 1024. Plafond 1,25M guan, réserve 28%. Gold standard primitif,
+    pas monnaie fiduciaire'
+  source_url: https://en.wikipedia.org/wiki/Jiaozi_(currency)
+  source_section: '§LIÈVRE #5'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-006
+  enonce: 'Social Credit System réel (2025) : PAS de score social unique. Bases de données multiples (crédit, blacklist, honneur).
+    Restrictions réelles : interdiction train/avion pour mauvais payeurs'
+  source_url: https://illinoislawreview.org/wp-content/uploads/2022/02/Werbach.pdf
+  source_section: '§LIÈVRE #6'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-007
+  enonce: 'Tiananmen 1989 (3-4 juin) : plusieurs centaines à quelques milliers de morts. Printemps étudiant, ~400 villes.
+    Zhao Ziyang en résidence surveillée jusqu''à 2005'
+  source_url: https://en.wikipedia.org/wiki/Tiananmen_Square_protests_of_1989
+  source_section: '§LOUP #1'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-008
+  enonce: 'Grand Firewall (金盾工程) depuis 2000 : bloque Google, Facebook, Twitter, YouTube, Wikipedia (partiel), NYTimes, BBC.
+    VPN interdits (2017)'
+  source_url: https://en.wikipedia.org/wiki/Great_Firewall
+  source_section: '§LOUP #2'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-009
+  enonce: 'PCC : 100M+ membres (2025), ~7% de la population. Nomenklatura : Comité central + Politburo + Secrétariat général
+    contrôlent toutes les nominations'
+  source_url: https://en.wikipedia.org/wiki/Chinese_Communist_Party
+  source_section: '§LOUP #4'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-010
+  enonce: 'Miracle économique chinois : 1978-2024. PIB $150B → $18.74T (×125). Pauvreté extrême : 88% (1981) → 0% (2020).
+    800M personnes sorties de la pauvreté'
+  source_url: https://en.wikipedia.org/wiki/Economic_history_of_China_(1949%E2%80%93present)
+  source_section: '§LOUP #5'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-011
+  enonce: 'GLF : fourchette réelle 15-55M (Dikötter 55M, officiels chinois 15M, consensus 20-30M). Comparaison : Shoah 6M,
+    Révolution culturelle 1-2M'
+  source_url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  source_section: '§LOUP #6'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-012
+  enonce: 'Femmes en Chine : avortements sélectifs (interdits mais pratiqués), trafic d''épouses, femmes rurales peu de droits
+    fonciers. Mais bien meilleure situation qu''au XIXe (foot binding aboli, éducation, emploi)'
+  source_url: https://en.wikipedia.org/wiki/One-child_policy
+  source_section: '§LOUP #3'
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-013
+  enonce: 'Shadow Factor révisé V1→V2 : 3.2× → 3.8× (biais sources + Tiananmen + parti-État + Firewall + miracle économique).
+    EDI* : 0.492 → 0.40'
+  source_url: Métriques révisées
+  source_section: §MÉTRIQUES
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+acteurs:
+- nom: Benjamin Elman (Princeton)
+  role: 'A Cultural History of Civil Examinations (2000) : keju = reproduction sociale, pas méritocratie'
+  faits_lies:
+  - F-001
+- nom: Stephen Broadberry (LSE/Oxford)
+  role: 'Conteste Maddison : Song PIB/hab ≈ Europe médiévale'
+  faits_lies:
+  - F-002
+- nom: Pierre-Étienne Will (Collège de France)
+  role: 'Nourish the People (1991) : greniers Qing, succès et échecs'
+  faits_lies:
+  - F-004
+- nom: Frank Dikötter
+  role: 'Mao''s Great Famine : 55M morts (estimation haute)'
+  faits_lies:
+  - F-011
+- nom: Werbach (Illinois)
+  role: 'SCS : infrastructure technique existe, ''Big Brother'' est un mythe médiatique'
+  faits_lies:
+  - F-006
+causalites:
+- cause: F-001
+  effet: F-007
+  mecanisme: Keju = sélection par classe sociale (Elman) → la 'mérite' réelle est un fantasme → Tiananmen 1989 (la vraie mobilité
+    est par la rue, pas le concours)
+- cause: F-004
+  effet: F-011
+  mecanisme: Greniers corrompus (XIXe) → famines récurrentes (Lotus Blanc, Taiping, GLF) — le mécanisme préventif n'a pas
+    tenu
+perspectives_dialectiques:
+- position: Chine comme anti-modèle démocratique
+  argument: Grande Firewall, Tiananmen, parti-État, SCS = différences RADICALES avec la France démocratique
+- position: Chine comme modèle de continuité
+  argument: 2000 ans d'administration continue, 800M de personnes sorties de la pauvreté en 40 ans — la France n'a pas ces
+    records
+- position: 'Synthèse : convergence bureaucratique, divergence politique'
+  argument: Les parallèles fonctionnels (keju/INSP, Jiaozi/BdF, greniers/PAC) sont réels au niveau des INSTRUMENTS. Au niveau
+    des FONDEMENTS politiques, la Chine autoritaire et la France démocratique divergent totalement
+limites:
+- 'Biais orientaliste : 0 source en chinois, 0 en russe/arabe/japonais'
+- Sources sinologiques occidentales (Elman, Kuhn, Spence) ont leur propre agenda
+- Données chinoises modernes (dette, Gini) officielles potentiellement manipulées
+- 6 lièvres + 6 loups = EDI* révisé 0.40 (sous seuil APEX 0.50)
+wolves:
+- nom: Voltaire / Quesnay / sinophiles XVIIIe
+  argument: Le keju est un modèle universel de méritocratie
+  reponse: 'Elman 2000 : reproduction sociale via préparation longue et coûteuse. 1 jinshi / 2-4M habitants'
+- nom: Maddison
+  argument: Song = leader mondial du PIB/hab
+  reponse: 'Broadberry 2015 : parité ou infériorité européenne. Données ±50-100%'
+- nom: État chinois / PCC
+  argument: Le SCS est un système intégré et performant
+  reponse: 'Werbach 2022 : SCS réel = multiples bases, pas un score unique. Restrictions limitées (train/avion)'
+- nom: Mao Zedong / GLF apologistes
+  argument: Le Grand Bond était un accident, pas une politique
+  reponse: 20-55M de morts par idéologie bureaucratique — catastrophe documentée
+- nom: Nationalistes chinois
+  argument: La Chine a inventé la méritocratie, le papier-monnaie, les greniers
+  reponse: Inventions réelles mais isolées du contexte autoritaire et des catastrophes (GLF, Révolution culturelle)
+iceberg:
+- 'Sujet immergé #1 : Tiananmen 1989 (3-4 juin) — angle mort politique majeur'
+- 'Sujet immergé #2 : Grand Firewall (2000-) — censure Internet sans équivalent en France'
+- 'Sujet immergé #3 : parti-État (PCC 100M) — France a une fonction publique APOLITIQUE'
+- 'Sujet immergé #4 : miracle économique (1978-2024) — 800M sorties de pauvreté, plus grand développement de l''histoire'
+- 'Sujet immergé #5 : la fourchette GLF (15-55M) — le chiffre 20-30M est conservateur'
+- 'Sujet immergé #6 : biais des sources (100% occidentales) — perspective chinoise absente'
+- 'Mnemolite INDEXEE pour Chine ICEBERG : 1 memoire directe. BOUSSOLE VERDICT retracte de OUI 5/7 a OUI conditionnel 3/7,
+  EDI* 0.40 (de 0.492), Shadow 3.8x (de 3.2x).'
+- 'Cross-references Mnemolite integrees : 1 memoires directes ou d''enrichissement'
+chronologie:
+- date: 998-1022
+  evenement: Jiaozi PRIVÉ (marchands de Chengdu)
+  source_fait: F-005
+- date: '1024'
+  evenement: Jiaozi étatisé — premier papier d'État
+  source_fait: F-005
+- date: '1160'
+  evenement: Huizi (Song du Sud) — plus proche de la monnaie fiduciaire moderne
+  source_fait: F-005
+- date: 1700-1780
+  evenement: Apogée des greniers ever-normal (Qing haut)
+  source_fait: F-004
+- date: 1796-1804
+  evenement: 'Rébellion du Lotus Blanc : effondrement des greniers'
+  source_fait: F-004
+- date: 1980-2015
+  evenement: Politique de l'enfant unique (30M hommes surnuméraires)
+  source_fait: F-012
+- date: '1989'
+  evenement: Tiananmen (3-4 juin) — angle mort V1
+  source_fait: F-007
+- date: 2000-
+  evenement: Grand Firewall (金盾工程)
+  source_fait: F-008
+- date: 2014-
+  evenement: Social Credit System
+  source_fait: F-006
+- date: '2024'
+  evenement: Dette locale Chine 290% PIB, 18,9T$ via LGFV
+  source_fait: F-008
+domaines:
+- Contre-enquête forensique (méta-domaine)
+- Réévaluation de l'idéologie méritocratique chinoise
+- Histoire quantitative de la Chine (Maddison vs Broadberry)
+- Censure d'État et contrôle social numérique
+- Parti-État et bureaucratie communiste
+- Catastrophe bureaucratique (GLF)
+urls_prioritaires:
+- url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  description: GLF, fourchette 15-55M, source primaire
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Tiananmen_Square_protests_of_1989
+  description: Tiananmen 1989, angle mort de V1
+  head_status: 200
+- url: https://en.wikipedia.org/wiki/Great_Firewall
+  description: Grand Firewall, sans équivalent en France
+  head_status: 200
+- url: https://illinoislawreview.org/wp-content/uploads/2022/02/Werbach.pdf
+  description: 'Werbach 2022 : SCS réel vs mythe'
+  head_status: 200
+shadow_factor: 3.8
+mnemo_queries:
+- query: Chine keju examen impérial méritocratie Voltaire Quesnay
+  results_count: 0
+- query: Chine Jiaozi papier monnaie Song dette locale LGFV
+  results_count: 0
+- query: Tang Code Song Huizong Legalism Confucianism rule of law
+  results_count: 0
+- query: Grand Bond en avant Révolution culturelle Tiananmen
+  results_count: 0
+- query: parti communiste chinois nomenklatura bureaucratie
+  results_count: 0
+mnemo_cross_refs:
+- id: c0595fc2-2dc7-48e8-a763-cdb3584f2679
+  title: Chine ICEBERG V2 (6 lievres, 6 loups, verdict retracte)
+  level: DIRECT
+  matches: cette quintessence = extraction directe

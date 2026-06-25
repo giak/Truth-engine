@@ -1,0 +1,73 @@
+{
+  "problemes": [
+    {
+      "ligne": "10",
+      "citation": "L'article 450-1 du Code pénal punit de dix ans d'emprisonnement tout groupement formé ou toute entente établie en vue de la préparation d'un délit. Il"
+    ,
+      "code": "FACT",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier les conditions exactes de l'application de ce texte"
+    },
+    {
+      "ligne": "25",
+      "citation": "L'article 222-14-2, en vigueur depuis 2010, permet de condamner sur la base de la simple présence équipée dans un groupe dont les intentions violentes"
+    ,
+      "code": "SURETAB",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier les conditions exactes d'application de ce texte et sa compatibilité avec le droit européen"
+    },
+    {
+      "ligne": "28",
+      "citation": "L'article 421-2-6, créé en 2014, permet de condamner une personne seule pour avoir préparé un acte terroriste. Consultations Internet, achats, déplac"
+    ,
+      "code": "SURETAB",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier les conditions exactes d'application de ce texte et sa compatibilité avec le droit européen"
+    },
+    {
+      "ligne": "50",
+      "citation": "Mais l'arsenal ne s'arrête pas aux couteaux. L'amendement CL46 (le 46e de la commission des lois), déjà rédigé et déposé, criminalise"
+    ,
+      "code": "BIAIS",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier les conditions exactes d'application de cette proposition de loi et sa compatibilité avec le droit européen"
+    },
+    {
+      "ligne": "60",
+      "citation": "Mais ce n'est que l'arsenal juridique. La loi sur les Jeux Olympiques du 19 mai 2023 a autorisé le traitement algorithmique des images de vidéosurve"
+    ,
+      "code": "BIAIS",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier les conditions exactes d'application de cette loi et sa compatibilité avec le droit européen"
+    },
+    {
+      "ligne": "70",
+      "citation": "Mais ce n'est pas la seule leçon du musée. Les Gilets jaunes sont entrés dans l'histoire comme le plus grand mouvement social français depuis 1968."
+    ,
+      "code": "GLISS",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier les conditions exactes du succès des Gilets jaunes et leur impact sur la politique française"
+    },
+    {
+      "ligne": "80",
+      "citation": "Mais ce n'est pas l'État qui nous a piégés. C'est notre vanité."
+    ,
+      "code": "PRAG",
+      "gravite": 3,
+      "confiance": 4,
+      "correction": "vérifier les arguments développés pour soutenir cette affirmation"
+    }
+  ],
+  "solide": [
+    "L'histoire des mouvements armés occidentaux des années 1970-1980 et des mouvements de masse récents montre que la clandestinité est un suicide politique"
+  ],
+  "cannot_assess": [
+    "[À REMPLACER — le texte ne fournit pas suffisamment d'informations pour évaluer l'impact des lois et amendements mentionnés sur les mouvements sociaux]"
+  ]
+}

@@ -1,0 +1,307 @@
+enquete_id: "ace"
+complexity: "APEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-10_action_acephalique_manquante/"
+fichiers_sources:
+  - "2026-06-10_10-00_action_acephalique_theorie_manquante_INVESTIGATION.md (V1, 16 faits)"
+  - "2026-06-10_10-00_action_acephalique_theorie_manquante_INVESTIGATION_V1.md (doublon de V1)"
+  - "2026-06-10_14-00_action_acephalique_corpus_metagap_INVESTIGATION.md (V2, correction V1, 14 faits)"
+evolution_v1_v2: "La V1 concluait à une absence totale de théorie d'action acéphalique dans le corpus. La V2 corrige : la théorie EXISTE dans les articles (rhizome, résidu, attrition, désorganisation, RIC) mais n'est PAS intégrée dans l'architecture KERNEL. Le gap réel est un défaut d'intégration architecture/articles, pas une absence."
+
+these_centrale: "Le corpus Truth Engine contient une théorie d'action acéphalique opérationnelle dans ses articles mais son architecture KERNEL (RESISTANCE.md) ne l'intègre pas, produisant un système qui diagnostique le verrouillage avec une précision forensique tout en rendant structurellement invisibles ses propres clés de déverrouillage."
+theses_implicites:
+  - "L'architecture KERNEL a été figée avant la production des articles d'action — le gap est temporel et méthodologique, pas idéologique."
+  - "Le corpus ancre sa théorie d'action dans la tradition française continentale (Weil, Debord, Fisher, Sloterdijk) et ignore délibérément la tradition anglo-américaine de l'action collective (Ostrom, Sharp, Tilly, Scott, Graeber), ce qui le prive d'outils tactiques validés et de cas historiques comparables."
+  - "La non-intégration architecture/articles est un Κ (Kappa) auto-appliqué : le corpus produit de la lucidité paralysante en continuant de diagnostiquer le verrouillage sans que ses propres solutions ne remontent dans la structure théorique."
+
+faits_atomiques:
+  - id: "F-ace-001"
+    enonce: "Le corpus Truth Engine (103 posts Substack, 17 articles centraux) contient 0 mention des théoriciens de l'action collective horizontale : Ostrom, Scott, Sharp, Tilly, Graeber, Polletta, Hirschman, Olson."
+    source_url: "Analyse d'index + 17 articles lus"
+    source_section: "§4 L1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-002"
+    enonce: "RESISTANCE.md (cluster KERNEL) charge 3/8 concepts — tous négatifs (FAKE_RESISTANCE, OPPOSITION_CONTROLLED, DEPOLITICIZATION). Les 5 concepts d'action positive (SOLIDARITY_NETWORK, CIVIL_DISOBEDIENCE, MUTUAL_AID, COMMONS, COLLECTIVE_EFFICACY) sont vides."
+    source_url: "file:///home/giak/projects/truth-engine/truth-engine-v2/clusters/RESISTANCE.md"
+    source_section: "§3"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-003"
+    enonce: "Le corpus contient une théorie d'action acéphalique en 4 couches : Rhizome (Protocole ré-enracinement, 6 étapes), Souveraineté par le Résidu (Dernière Récolte §V, 4 tactiques), Attrition logistique (Agriculture scanner §VIII-IX, 3 zones), Désorganisation (Peuple souverain, guerre cognitive retournée)."
+    source_url: "file:///home/giak/projects/truth-engine/substack-online/posts/194130616.le-protocole-du-re-enracinement.html"
+    source_section: "§8 Domaine 1"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-004"
+    enonce: "Le RIC Constituant (Adieu aux partis) constitue la 4e couche politique de la théorie d'action — levier focalisé, architecture technique de sortie du système partisan."
+    source_url: "file:///home/giak/projects/truth-engine/substack-online/posts/180309272.ladieu-aux-partis-du-diagnostic-de.html"
+    source_section: "F-ACE-021"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-005"
+    enonce: "Aucun article d'action n'est référencé dans RESISTANCE.md. Les 5 articles stratégiques (Protocole, Dernière Récolte, Agriculture scanner, Peuple souverain, Adieu aux partis) existent mais sont absents du cluster résistance."
+    source_url: "Cross-référence F-ACE-017..022 × F-ACE-022"
+    source_section: "F-ACE-023"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-006"
+    enonce: "Le corpus cite Weil (1943), Debord (1967), Fisher (2009), Sloterdijk (1983), Milgram (1963), Asch (1951), Zimbardo (1971) — tradition française continentale du diagnostic."
+    source_url: "file:///home/giak/projects/truth-engine/substack-online/posts/199724760.le-peuple-est-le-seul-souverain-le.html"
+    source_section: "F-ACE-024"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-007"
+    enonce: "Le corpus ne cite JAMAIS Sharp (198 méthodes non-violentes, 1973), Ostrom (8 principes des communs, Nobel 2009), Tilly (WUNC, 2004), Scott (infrapolitique, 1985), Graeber (démocratie directe, 2013), Polletta (démocratie participative, 2002)."
+    source_url: "Recherche DuckDuckGo + analyse index"
+    source_section: "F-ACE-025"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-ace-008"
+    enonce: "Le corpus ne cite AUCUN cas historique de résistance acéphalique massive : Solidarnosc (1980, 17 grévistes → 10M membres), Zapatistes (1994-2026, 30 ans d'autonomie), Hong Kong 2019 (modèle open-source leaderless), Occupy Wall Street (2011, AG de 3000+ personnes), Civil Rights Movement (1955-1968)."
+    source_url: "Recherche DuckDuckGo + analyse articles"
+    source_section: "F-ACE-026"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-ace-009"
+    enonce: "Solidarnosc est passé de 17 grévistes à 10 millions de membres en 16 mois sans structure centralisée préexistante."
+    source_url: "https://www.nonviolent-conflict.org/polands-solidarity-movement-1980-1989/"
+    source_section: "F-ACE-029"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ace-010"
+    enonce: "Sharp a documenté 198 méthodes de non-violence classées en 3 catégories (protestation/persuasion, non-coopération, intervention). Les 4 tactiques du résidu (filtrage, siège vital, arme administrative, asphyxie) sont un sous-ensemble de ces 198."
+    source_url: "https://www.aeinstein.org/books/the-politics-of-nonviolent-action/"
+    source_section: "F-ACE-028"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-011"
+    enonce: "Le passage de l'action individuelle (rhizome) à l'action collective nationale n'est pas théorisé dans le corpus. La montée en échelle (100 cellules → mouvement national) n'est pas mécanisée."
+    source_url: "Analyse croisée 5 articles"
+    source_section: "F-ACE-027"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-012"
+    enonce: "L'architecture KERNEL a un biais épistémique structurel : sa fonction première est la révélation (Ξ), pas la prescription (ρ). Les articles de prescription ne sont pas du type Ξ et l'architecture n'a pas de mécanisme pour intégrer le ρ comme elle intègre le Ξ."
+    source_url: "Analyse herméneutique L6"
+    source_section: "§4 L6"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-013"
+    enonce: "Hong Kong 2019 a utilisé un modèle leaderless 'open-source' de protestation coordonné via Telegram."
+    source_url: "https://www.ispionline.it/en/publication/digital-revolution-how-social-media-shaped-2019-hong-kong-protests-30756"
+    source_section: "F-ACE-030"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-ace-014"
+    enonce: "Ostrom a reçu le Nobel d'économie 2009 pour ses 8 principes de gouvernance des communs, applicables directement à la coordination de résistance (limites claires, décision collective, monitoring, sanctions graduées, etc.)."
+    source_url: "Ostrom 1990, Nobel Foundation"
+    source_section: "F-ACE-002"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-015"
+    enonce: "Les Zapatistes gouvernent des territoires autonomes au Chiapas depuis 1994 (30+ ans) sans prise d'État, sans leader identifié, sans capitale politique, sans chaîne de commandement verticale."
+    source_url: "EZLN Wikipedia, NACLA 2026"
+    source_section: "F-ACE-006"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-016"
+    enonce: "Le registre émotionnel dominant du corpus (indignation, urgence, révélation, lucidité tragique) exclut structurellement les dimensions carnavalesques de la résistance (Bakhtin, rire populaire). Le sérieux du corpus hyperbolise le pouvoir."
+    source_url: "Bakhtin 1968, Wikipedia"
+    source_section: "§5 Shadow factor"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-ace-017"
+    enonce: "Tilly a formalisé WUNC (Worthiness, Unity, Numbers, Commitment) comme prédicteur de succès des mouvements sociaux — cadre applicable sans leader ni parti, jamais cité dans le corpus."
+    source_url: "Tilly 2004, Sage, ResearchGate"
+    source_section: "F-ACE-008"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-018"
+    enonce: "Le corpus a produit les articles d'action (janvier-mai 2026) APRÈS la fixation de l'architecture KERNEL (novembre 2025). Le KERNEL n'a pas été mis à jour pour refléter la production ultérieure — gap temporel et méthodologique."
+    source_url: "Chronologie §7"
+    source_section: "§7 Pattern"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+  - id: "F-ace-019"
+    enonce: "Le principe de réversibilité de l'impuissance apprise (maîtrise conditionnée) est documenté expérimentalement (Seligman & Maier 1967) mais son application aux collectifs politiques n'est pas formalisée."
+    source_url: "Seligman & Maier 1967, PMC"
+    source_section: "F-ACE-015"
+    head_status: 0
+    tier: 2
+    glyphe: "❧"
+  - id: "F-ace-020"
+    enonce: "Scott a documenté l'infrapolitique et le hidden transcript (1985-1990) : les dominés résistent au quotidien par des moyens infra-politiques (foot dragging, gossip, désertion) que le corpus ne voit pas parce qu'il cherche des formes spectaculaires de résistance."
+    source_url: "Scott 1985, 1990"
+    source_section: "F-ACE-004"
+    head_status: 0
+    tier: 1
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Giak"
+    role: "Auteur-curateur du corpus Truth Engine — le gap est entre ses propres couches de production (articles vs KERNEL)"
+    faits_lies: ["F-ace-001", "F-ace-003", "F-ace-005"]
+  - nom: "Architecture KERNEL"
+    role: "Méta-structure du corpus, figée avant la production des articles d'action, encode structurellement le pessimisme"
+    faits_lies: ["F-ace-002", "F-ace-005", "F-ace-012", "F-ace-018"]
+  - nom: "Elinor Ostrom"
+    role: "Théoricienne des communs, Nobel 2009, systématiquement absente du corpus malgré applicabilité directe"
+    faits_lies: ["F-ace-007", "F-ace-014"]
+  - nom: "Gene Sharp"
+    role: "Stratège non-violent, 198 méthodes documentées (1973), jamais cité — les 4 tactiques du Résidu sont 4/198"
+    faits_lies: ["F-ace-007", "F-ace-010"]
+  - nom: "James C. Scott"
+    role: "Anthropologue de la résistance infra-politique, jamais cité — le corpus rate la résistance invisible"
+    faits_lies: ["F-ace-007", "F-ace-020"]
+  - nom: "Charles Tilly"
+    role: "Sociologue des mouvements sociaux, WUNC, jamais cité"
+    faits_lies: ["F-ace-007", "F-ace-017"]
+  - nom: "David Graeber"
+    role: "Ethnographe de la démocratie directe (Occupy), jamais cité"
+    faits_lies: ["F-ace-007"]
+  - nom: "Lecteurs Substack"
+    role: "Reçoivent théorie d'action dans les articles mais architecture KERNEL pessimiste — dissonance cognitive"
+    faits_lies: ["F-ace-002", "F-ace-012"]
+  - nom: "Solidarnosc"
+    role: "Cas historique absent — preuve qu'un mouvement acéphale peut passer de 17 à 10M membres"
+    faits_lies: ["F-ace-008", "F-ace-009"]
+  - nom: "Zapatistes (EZLN)"
+    role: "Cas historique absent — 30 ans d'autonomie sans État, sans chef, sans parti"
+    faits_lies: ["F-ace-008", "F-ace-015"]
+
+causalites:
+  - cause: "F-ace-018"
+    effet: "F-ace-002"
+    mecanisme: "Le KERNEL a été figé en novembre 2025, les articles d'action produits de janvier à mai 2026 — le gap est temporel : l'architecture n'a pas été mise à jour après la production des articles."
+  - cause: "F-ace-012"
+    effet: "F-ace-002"
+    mecanisme: "Le biais épistémique du KERNEL (fonction Ξ = révélation prioritaire sur ρ = prescription) empêche structurellement l'intégration des concepts d'action positive dans RESISTANCE.md."
+  - cause: "F-ace-007"
+    effet: "F-ace-010"
+    mecanisme: "L'absence de Sharp prive le corpus de 194 méthodes tactiques supplémentaires — les 4 tactiques du Résidu sont développées isolément sans conscience du répertoire existant."
+  - cause: "F-ace-008"
+    effet: "F-ace-003"
+    mecanisme: "L'absence de cas historiques rend la théorie d'action moins crédible qu'elle ne pourrait l'être — un critique peut dire 'ça n'a jamais marché' alors que Solidarnosc a marché."
+  - cause: "F-ace-016"
+    effet: "F-ace-002"
+    mecanisme: "Le sérieux exclusif du corpus exclut les registres carnavalesques de résistance (Bakhtin) et hyperbolise le pouvoir — rendant l'action plus intimidante qu'elle n'est."
+
+perspectives_dialectiques:
+  - position: "Thèse — Architecture KERNEL (statu quo)"
+    argument: "Le KERNEL est un moteur d'investigation forensique. Sa fonction première est la révélation (Ξ). Les clusters de résistance chargent les concepts pertinents pour le diagnostic — les formes contrôlées ou fausses de résistance. La prescription n'est pas dans son périmètre. Les articles la traitent séparément, et cette séparation est fonctionnelle."
+  - position: "Antithèse — Perspective Articles (théorie d'action embarquée)"
+    argument: "Les articles contiennent une théorie d'action complète et opérationnelle en 4 couches (rhizome → résidu → désorganisation → RIC). Cette théorie est testée conceptuellement, reliée entre articles par des renvois, et ancrée dans une tradition philosophique cohérente. Mais sa non-intégration dans le KERNEL réduit son impact systémique et la rend invisible aux investigateurs qui utilisent le KERNEL comme point d'entrée."
+  - position: "Synthèse — Double gap architecture/articles + France/Anglo-Amérique"
+    argument: "Le corpus a deux gaps simultanés : (1) un gap interne (articles vs KERNEL) corrigible par mise à jour de RESISTANCE.md avec 5 nouveaux concepts (RHIZOME, RESIDU, ATTRITION, DESORGANISATION, RIC), et (2) un gap externe (tradition française continentale vs anglo-américaine) qui prive le corpus de 198 méthodes tactiques documentées (Sharp), de 5 cas historiques comparables, et de cadres théoriques validés empiriquement (Ostrom, Tilly). Les deux gaps sont indépendants mais se renforcent mutuellement."
+
+limites:
+  - "L'investigation s'appuie sur 22 articles lus (17 diagnostiques + 5 stratégiques) — d'autres articles pourraient contenir des références aux théoriciens absents ou à des cas historiques."
+  - "L'analyse de RESISTANCE.md est basée sur le fichier à date — le KERNEL a pu évoluer depuis l'analyse."
+  - "L'intention de l'auteur (Giak) n'est pas connue : l'absence d'Ostrom/Sharp/Scott pourrait être un choix éditorial délibéré plutôt qu'une omission involontaire."
+  - "La V1 a conclu à une absence totale de théorie d'action — cette conclusion était partiellement erronée, ce qui rappelle que même une méta-investigation rigoureuse peut manquer des faits significatifs."
+  - "Aucune analyse de la réception par les lecteurs : les abonnés Substack ont-ils noté cette absence ? Les commentaires en parlent-ils ?"
+
+wolves:
+  - nom: "Défenseur de l'architecture KERNEL"
+    argument: "Le KERNEL n'a pas vocation à intégrer la prescription. Sa fonction est le diagnostic. Mélanger diagnostic et prescription dans la même architecture créerait de la confusion épistémique. Les articles sont le bon véhicule pour l'action, le KERNEL pour l'analyse."
+    reponse: "La séparation est défendable, mais elle doit être EXPLICITE, pas subie. Si RESISTANCE.md a 5 slots vides, le lecteur ne voit pas 'choix éditorial', il voit 'absence'. L'architecture doit soit intégrer les concepts, soit documenter explicitement pourquoi elle ne le fait pas."
+  - nom: "Critique de la tradition française"
+    argument: "Weil, Debord, Fisher, Sloterdijk suffisent. La tradition anglo-américaine (Ostrom, Sharp) est trop optimiste, trop réformiste, trop libérale. Le corpus fait un choix philosophique cohérent en s'ancrant dans la critique continentale."
+    reponse: "Même en acceptant ce choix, les cas historiques (Solidarnosc, Zapatistes, Hong Kong) ne sont pas des 'théories anglo-américaines' — ce sont des FAITS. Un corpus forensique ne peut pas exclure des faits pour des raisons de tradition philosophique."
+  - nom: "Pragmatiste"
+    argument: "Cette méta-investigation est du nombrilisme. Le corpus produit des articles de qualité, les lecteurs les lisent, le gap architecture/articles est un problème d'ingénierie interne qui n'intéresse personne."
+    reponse: "Le gap n'est pas qu'interne. Il affecte les nouveaux lecteurs qui découvrent le corpus par l'index ou le KERNEL — ils voient un corpus autopsique sans savoir que les solutions existent. C'est un problème de première impression et de complétude."
+
+iceberg:
+  - "La question du lectorat réel : qui lit le KERNEL vs qui lit les articles ? Le gap n'est problématique que si les mêmes personnes lisent les deux."
+  - "Le rôle de l'IA dans la production du corpus : les articles d'action ont-ils été co-écrits avec un LLM ? Si oui, le gap est aussi un gap entre production humaine (KERNEL) et production assistée (articles)."
+  - "La viabilité réelle des 4 couches d'action : le rhizome, le résidu, l'attrition et la désorganisation ont-ils été testés empiriquement ou restent-ils des hypothèses conceptuelles ?"
+  - "Mnemolite UP mais endpoint /v1/search/ retourne 500 Internal Server Error (3 tentatives, GET et POST). Base non interrogeable pour ce sujet."
+  - "Résultat Mnemolite: [requête 'coordination acéphale action collective horizontale' → 500 Internal Server Error]"
+  - "Résultat Mnemolite: [requête 'Ostrom Sharp Scott Tilly communs résistance non-violente' → 500 Internal Server Error]"
+
+chronologie:
+  - date: "1973-01-01"
+    evenement: "Sharp publie 'The Politics of Nonviolent Action' — 198 méthodes"
+    source_fait: "F-ace-010"
+  - date: "1980-01-01"
+    evenement: "Solidarnosc naît du chantier naval de Gdansk — 17 grévistes → 10M membres en 16 mois"
+    source_fait: "F-ace-009"
+  - date: "1985-01-01"
+    evenement: "Scott publie 'Weapons of the Weak' — infrapolitique des dominés"
+    source_fait: "F-ace-020"
+  - date: "1990-01-01"
+    evenement: "Ostrom publie 'Governing the Commons' — 8 principes de gouvernance collective"
+    source_fait: "F-ace-014"
+  - date: "1994-01-01"
+    evenement: "Soulèvement Zapatiste au Chiapas — autonomie sans prise d'État"
+    source_fait: "F-ace-015"
+  - date: "2009-01-01"
+    evenement: "Ostrom reçoit le Nobel d'économie — consécration académique des communs"
+    source_fait: "F-ace-014"
+  - date: "2011-01-01"
+    evenement: "Occupy Wall Street — assemblées générales consensuelles à l'échelle de masse"
+    source_fait: "F-ace-008"
+  - date: "2019-01-01"
+    evenement: "Hong Kong — protestations open-source, leaderless, coordonnées par Telegram"
+    source_fait: "F-ace-013"
+  - date: "2025-11-01"
+    evenement: "Début du corpus Truth Engine — architecture KERNEL figée"
+    source_fait: "F-ace-018"
+  - date: "2026-01-01"
+    evenement: "'La Dernière Récolte' publié — guérilla asymétrique (Résidu)"
+    source_fait: "F-ace-003"
+  - date: "2026-04-01"
+    evenement: "'Protocole du ré-enracinement' publié — rhizome 6 étapes"
+    source_fait: "F-ace-003"
+  - date: "2026-06-10"
+    evenement: "Investigations V1 et V2 documentent le gap architecture/articles"
+    source_fait: "F-ace-001"
+
+domaines:
+  - "Théorie politique — action collective horizontale"
+  - "Architecture de la connaissance — intégration KERNEL/articles"
+  - "Épistémologie — biais de production (Ξ prioritaire sur ρ)"
+  - "Stratégie non-violente — répertoire d'action (Sharp)"
+  - "Histoire des mouvements sociaux — cas comparatifs absents"
+
+urls_prioritaires:
+  - url: "https://www.nonviolent-conflict.org/polands-solidarity-movement-1980-1989/"
+    description: "Source secondaire vérifiée (HEAD 200) sur Solidarnosc — cas historique central pour la thèse que l'action acéphalique fonctionne"
+    head_status: 200
+  - url: "https://www.aeinstein.org/books/the-politics-of-nonviolent-action/"
+    description: "Albert Einstein Institution — page de référence pour les 198 méthodes de Sharp, source canonique"
+    head_status: 0
+  - url: "https://www.ispionline.it/en/publication/digital-revolution-how-social-media-shaped-2019-hong-kong-protests-30756"
+    description: "ISPI — analyse du modèle leaderless de Hong Kong 2019, pertinent pour la transposition au contexte numérique français"
+    head_status: 0
+
+shadow_factor: 2.5
+
+mnemo_queries:
+  - query: "coordination acéphale action collective horizontale"
+    results_count: 0
+    error: "500 Internal Server Error — endpoint /v1/search/ cassé après 3 tentatives (GET et POST)"
+  - query: "Ostrom Sharp Scott Tilly communs résistance non-violente"
+    results_count: 0
+    error: "500 Internal Server Error"
+  - note: "Mnemolite UP (health check OK) mais moteur de recherche inopérant. Aucune recherche cross-séries possible pour ce dossier."

@@ -1,0 +1,278 @@
+enquete_id: sumer_v1
+complexity: APEX
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-03_sumer_article/2026-06-03_12-30_sumer_vs_france_INVESTIGATION.md
+these_centrale: Sumer a développé entre 3400 et 2000 av. des mécanismes institutionnels (andurarum, edubba, redistribution
+  templière) dont la CLARTÉ et l'INTÉGRATION égalent ou surpassent ce que la France contemporaine a préservé, mais la comparaison
+  souffre d'une asymétrie temporelle (1500 ans de Sumer traités en bloc vs France 2025) qui fausse la commensurabilité.
+theses_implicites:
+- L'andurarum n'est pas un 'jubilé' moderne mais un outil politique de restauration (Charpin), pas un mécanisme systémique
+  de justice sociale.
+- Le parallèle scribes/énarques est structurellement valide mais incommensurable en échelle (~1% scribes vs 22% fonctionnaires).
+- 'La dette française (115,6% PIB) n''est PAS l''équivalent des dettes privées sumériennes : c''est de la dette publique sur
+  les marchés financiers mondiaux.'
+- Sumer est largement une 'construction occidentale du XXe siècle' (Kramer, Jacobsen) qui sert à légitimer des récits contemporains.
+- La complexité juridique française protège les droits (France 95/100 WJP vs Irak 27/100), elle n'est pas une pathologie.
+faits_atomiques:
+- id: F-001
+  enonce: Dette publique France 3416,3 Mds€ (115,6% PIB, T2 2025) ; 54,7% détenue par non-résidents (T1 2025)
+  source_url: https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-002
+  enonce: 'Code d''Ur-Nammu : plus ancien code connu (~2100-2050 av.), 57 articles inférés, 40 conservés'
+  source_url: https://en.wikipedia.org/wiki/Code_of_Ur-Nammu
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-003
+  enonce: '~30 annulations de dettes documentées entre 2400 et 1400 av. (période sumérienne + paléo-babylonienne) ; purement
+    sumérien (2400-2000) : 5-8'
+  source_url: https://fr.wikipedia.org/wiki/Andurarum
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-004
+  enonce: 'Taux d''intérêt fixes : orge 33,3%, argent 20% (période paléo-babylonienne) ; Ur III : variation par type de prêt'
+  source_url: https://michael-hudson.com/2000/03/how-interest-rates-were-set-2500-bc-1000-ad/
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-005
+  enonce: 'Edubba : école de scribes, programme 8-12 ans (cunéiforme, sumérien, maths, droit, comptabilité)'
+  source_url: https://en.wikipedia.org/wiki/Eduba
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-006
+  enonce: 5,7M fonctionnaires en France (76/1000 hab., 22% emploi total, 2025)
+  source_url: https://www.ifrap.org/fonction-publique-et-administration/combien-la-france-compte-deffectifs-publics-en-plus-par-rapport-la-moyenne-europeenne
+  source_section: §11
+  head_status: 200
+  tier: 2
+  glyphe: ✧
+- id: F-007
+  enonce: 'Réformes d''Urukagina (~2350 av.) : Schrakamp & Zólyomi (2025) montrent qu''il s''agit d''une RESTAURATION conservatrice
+    de l''ordre divin, pas une innovation sociale'
+  source_url: https://www.degruyter.com/document/doi/10.1515/9783111757546/html
+  source_section: §13
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-008
+  enonce: 'Charpin (1987) : andurarum = ''retour au statut d''origine'', pas libération générale'
+  source_url: https://shs.cairn.info/revue-d-assyriologie-2008-1-page-149
+  source_section: §15
+  head_status: 200
+  tier: 1
+  glyphe: ✧
+- id: F-009
+  enonce: 'Population Uruk à l''apogée (~3100 av.) : 40 000-80 000 habitants (corrigé de 300 000)'
+  source_url: https://en.wikipedia.org/wiki/Uruk
+  source_section: §18
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-010
+  enonce: 'Code civil français : ~2 300 articles (1804). Comparer 57 ''articles'' Ur-Nammu à 15 000 lois (corpus complet)
+    est une asymétrie'
+  source_url: https://fr.wikipedia.org/wiki/Code_civil_(France)
+  source_section: §18
+  head_status: 200
+  tier: 2
+  glyphe: ✧
+- id: F-011
+  enonce: 'Dialogue de Pessimisme (~1500 av.) : scepticisme religieux mésopotamien documenté'
+  source_url: https://en.wikipedia.org/wiki/Dialogue_of_Pessimism
+  source_section: §11
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+- id: F-012
+  enonce: Van De Mieroop COLLABORE avec Hudson (co-éditeurs), ne s'oppose pas ; 'guerre des paradigmes' exagérée
+  source_url: https://www.imf.org/external/pubs/ft/fandd/2025/03/debt-cancellations-in-ancient-mesopotamia-hudson
+  source_section: §13
+  head_status: 200
+  tier: 1
+  glyphe: ✦
+acteurs:
+- nom: Urukagina
+  role: Roi de Lagash, 'réformateur' (~2350 av.) — en réalité restaurateur conservateur
+  faits_lies:
+  - F-007
+- nom: Ur-Nammu
+  role: Fondateur Ur III (~2112-2095 av.), auteur du plus ancien code de lois connu
+  faits_lies:
+  - F-002
+- nom: Shulgi
+  role: Réformateur bureaucratique d'Ur III, essor de l'edubba
+  faits_lies:
+  - F-005
+- nom: Gudea
+  role: Roi de Lagash (~2120 av.), cylindres A-B documentant annulation des dettes
+  faits_lies:
+  - F-003
+- nom: Michael Hudson
+  role: Économiste hétérodoxe, thèse de l'andurarum comme stabilisateur macroéconomique
+  faits_lies:
+  - F-004
+  - F-008
+  - F-012
+- nom: Dominique Charpin
+  role: 'Assyriologue (Collège de France), lecture conservatrice : andurarum = retour au statut d''origine'
+  faits_lies:
+  - F-008
+- nom: Karl Polanyi
+  role: Anthropologue économique, thèse du temple redistributeur (contestée par Silver 2007)
+  faits_lies:
+  - F-013
+- nom: État français (Bercy)
+  role: Gestionnaire de la dette publique (3 416 Mds€)
+  faits_lies:
+  - F-001
+- nom: INSP (ex-ENA)
+  role: Formation des hauts fonctionnaires, héritier structural de l'edubba
+  faits_lies:
+  - F-005
+  - F-006
+causalites:
+- cause: F-001
+  effet: F-006
+  mecanisme: L'endettement public massif (115,6% PIB) alimente la croissance de l'appareil administratif (5,7M fonctionnaires)
+    qui gère la complexité
+- cause: F-003
+  effet: F-008
+  mecanisme: 'La rareté des annulations (30/1000 ans) et leur concentration dynastique expliquent le débat Charpin/Hudson
+    : structurel vs conjoncturel'
+- cause: F-005
+  effet: F-006
+  mecanisme: Formation longue et sélective (edubba/INSP) reproduit l'élite administrative par cooptation et endogamie scolaire
+perspectives_dialectiques:
+- position: Thèse continuiste
+  argument: Sumer avait des mécanismes (andurarum, edubba, temple redistributeur) dont la clarté d'intégration dépasse le
+    morcellement français
+- position: Antithèse incommensurabiliste
+  argument: Sumer = reconstruction savante occidentale (Kramer 1952) ; 1500 ans traités en bloc ; 30 000-80 000 hab. vs 68M
+    ; sans démocratie ni droits humains
+- position: Synthèse critique
+  argument: Les parallèles fonctionnels sont réels mais limités par l'échelle, la légitimité, et la disponibilité documentaire.
+    La complexité française protège les droits (WJP 95/100 vs 27/100 Irak)
+limites:
+- 'Asymétrie temporelle : Sumer 1500 ans en bloc vs France point 2025'
+- Filiation Sumer→Rome→France non documentée (1500 ans de trou)
+- <10% des tablettes sumériennes publiées — image biaisée par ce qui a survécu
+- 'Biais occidental : 0 source en arabe, 0 consultation journal Sumer (Bagdad)'
+- 'Population sumérienne corrigée : 30 000-80 000 (et non 300 000)'
+- Comparaison 57 articles vs 15 000 lois = asymétrie catégorielle
+wolves:
+- nom: Samuel N. Kramer
+  argument: Sumer comme 'berceau de la démocratie' — agenda téléologique occidental
+  reponse: Schrakamp 2025 confirme restauration conservatrice, pas innovation
+- nom: Michael Hudson
+  argument: 30 annulations = stabilisateur macroéconomique
+  reponse: 'Charpin 1987 : rituel de légitimation, pas politique économique. Fréquence = 1/33 ans, pas mécanisme quotidien'
+- nom: Karl Polanyi
+  argument: Temple redistributeur = sécurité sociale antique
+  reponse: 'Silver 2007 : marchés privés existaient ; le temple redistribuait à SON personnel, pas à la population générale'
+- nom: IFrap / think-tanks libéraux
+  argument: Bureaucratie française = pathologie (76/1000 vs ~11% Allemagne)
+  reponse: Ratio pondéré par la qualité de service public (santé, éducation, justice) ; comparaison brute ignore les outputs
+iceberg:
+- 'Sujet immergé : 0 source irakienne (le journal Sumer, Bagdad, n''est pas consulté) — biais post-colonial'
+- 'Sujet immergé : la dette sumérienne était AGRICOLE (subsistance), la dette française est PUBLIQUE sur marchés financiers
+  — catégories incommensurables'
+- 'Conclusion : Mnemolite opérationnelle mais vide sur l''axe civilisations antiques — pas un blocage, une information à documenter'
+- 'Mnemolite INDEXEE pour Sumer : 12 memoires trouvees (tag=sumer). Le verdict ''base non indexee'' est INVALIDE. Cette quintessence
+  incorpore 3 memoires directes.'
+- 'Cross-references Mnemolite integrees : 3 memoires directes ou d''enrichissement'
+chronologie:
+- date: ~3400-3200 av.
+  evenement: Invention de l'écriture cunéiforme
+  source_fait: F-002
+- date: ~2350 av.
+  evenement: Réformes (en fait restaurations) d'Urukagina à Lagash
+  source_fait: F-007
+- date: ~2120 av.
+  evenement: 'Gudea : cylindres documentant annulation des dettes (shudutu)'
+  source_fait: F-003
+- date: ~2112-2095 av.
+  evenement: 'Ur-Nammu : code de lois (~57 articles, 40 conservés)'
+  source_fait: F-002
+- date: ~2094-2047 av.
+  evenement: 'Shulgi : réformes bureaucratiques, essor de l''edubba'
+  source_fait: F-005
+- date: ~2000-1400 av.
+  evenement: 'Période paléo-babylonienne : ~25 édits andurarum/misharum'
+  source_fait: F-003
+- date: ~1500 av.
+  evenement: 'Dialogue de Pessimisme : scepticisme religieux mésopotamien'
+  source_fait: F-011
+- date: '1804'
+  evenement: Code civil français (~2 300 articles)
+  source_fait: F-010
+- date: '1905'
+  evenement: Loi de séparation Église/État (laïcité)
+  source_fait: F-011
+- date: T2 2025
+  evenement: 'Dette publique France : 3 416,3 Mds€ (115,6% PIB)'
+  source_fait: F-001
+domaines:
+- Dette et annulation de dettes (andurarum/misharum)
+- Bureaucratie et formation des élites (edubba/INSP)
+- Code de lois et droit écrit (Ur-Nammu/Code civil)
+- Redistribution économique (temple/Sécurité sociale)
+- Légitimation idéologique (religion publique/laïcité)
+- Statut juridique et classes sociales (esclavage pour dette, femmes, étrangers)
+urls_prioritaires:
+- url: https://en.wikipedia.org/wiki/Code_of_Ur-Nammu
+  description: Code d'Ur-Nammu, source primaire accessible (traduction anglaise)
+  head_status: 200
+- url: https://www.degruyter.com/document/doi/10.1515/9783111757546/html
+  description: 'Schrakamp & Zólyomi (2025) : réévaluation des ''réformes'' d''Urukagina comme restauration'
+  head_status: 200
+- url: https://shs.cairn.info/revue-d-assyriologie-2008-1-page-149
+  description: Charpin, contre-position académique sur l'andurarum
+  head_status: 200
+- url: https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique
+  description: Source officielle française sur la dette publique
+  head_status: 200
+- url: https://www.imf.org/external/pubs/ft/fandd/2025/03/debt-cancellations-in-ancient-mesopotamia-hudson
+  description: 'Van De Mieroop & Hudson, IMF F&D 2025 : collaboration, pas opposition'
+  head_status: 200
+shadow_factor: 3.1
+mnemo_queries:
+- query: Sumer andurarum annulation dette Mésopotamie
+  results_count: 3
+- query: Sumer scribes edubba bureaucratie temple redistribution
+  results_count: 3
+- query: amargi Misharum Charpin Kraus restauration
+  results_count: 1
+- query: Ur-Nammu Lipit-Ishtar Hammourabi code loi Mésopotamie
+  results_count: 0
+- query: polanyi Silver redistribution marché Mesopotamie
+  results_count: 1
+- query: Sumer andurarum annulation dette Mesopotamie
+  results_count: 3
+  source: Mnemolite tag-based search 2026-06-07
+- query: Hudson Charpin Polanyi dette antique
+  results_count: 1
+  source: Mnemolite tag-based search 2026-06-07
+mnemo_cross_refs:
+- id: fd647643-2212-481a-8caf-41f39933e3b3
+  title: Sumer vs France v1 (7 themes)
+  level: DIRECT
+  matches: cette quintessence = extraction de cette memoire
+- id: 5dc6857e-4d12-4bb7-9854-62e6a1f524ed
+  title: Sumer V2 corrigee + ICEBERG fusionne
+  level: ENRICHISSEMENT
+  metrics: EDI* 0.493, Shadow 3.1x, 22 sources, 18 sections
+- id: d6f52723-2b35-4123-9197-8ccaac5ad7ad
+  title: Sumer ICEBERG original
+  level: ENRICHISSEMENT
+  metrics: 5 faisceaux d'indices (convergence 0.55-0.85), 10 biais identifies

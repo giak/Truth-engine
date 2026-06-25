@@ -1,0 +1,264 @@
+enquete_id: empirique
+complexity: SIMPLE
+date_extraction: '2026-06-12'
+enquete_source:
+- investigations/2026-06-11_design_validation_empirique/2026-06-11_00-00_design_validation_empirique_APEX.md
+- type: DESIGN
+- lignes: 450
+- fichiers: 1
+these_centrale: 'Aucun protocole du corpus n''a jamais ete teste empiriquement. Le design de validation propose 3 phases (labo
+  sec → conditions reelles → stress), 7 metriques de succes/echec, 8 protocoles priorises, cadre ethique. La validation historique
+  confirme les protocoles (IRA = tous appliques → victoire ; GJ = aucun → defaite) mais n''est pas un test controle. Le corpus
+  doit etre falsifiable (conditions de refutation). 4 protocoles sont structurellement non testables. Suspicion score : 6/10.
+
+  '
+theses_implicites:
+- TI1: 'Sans validation empirique, le corpus reste une speculation — la mieux documentee possible, mais une speculation. Le
+    test ultime est l''histoire, pas le laboratoire.
+
+    '
+- TI2: 'La validation historique (IRA vs GJ) est puissante mais biaisee : les cas sont selectionnes pour confirmer la these.
+    Ou sont les mouvements avec sanctuaire qui ont echoue ?
+
+    '
+- TI3: 'Le corpus est structurellement irrefutable tant que la coordination n''existe pas en France. C''est sa force (pas
+    de refutation possible) et son danger (peut passer des annees sans validation ni invalidation).
+
+    '
+faits_atomiques:
+- id: F-EMP-001
+  enonce: 'Aucun protocole du corpus Truth Engine n''a ete teste empiriquement. Risques : inefficacite silencieuse, danger
+    (securite inverse), auto-illusion, accusation de "theorie de salon".
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-002
+  enonce: 'Design de validation : 3 phases. Phase 1 (labo sec, 1-2 semaines, risque nul, 5-20 personnes). Phase 2 (conditions
+    reelles, 1-3 mois, risque faible, 10-50 personnes). Phase 3 (stress, 2-4 semaines, risque moyen, 10-20 personnes dont
+    2-3 "adversaires").
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-003
+  enonce: '7 metriques de succes : taux de completion (>80%), temps d''execution (<1.5x), satisfaction (>4/5), confidentialite
+    (0 fuites), resilience (>60%), reproductibilite (3/3).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-004
+  enonce: '8 protocoles priorises par ordre de test : Signal cellule → leadership tournant → cloisonnement cellulaire → financement
+    invisible → succession → non-escalade → coordination inter-cellules → sortie de crise.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-005
+  enonce: 'Cadre ethique : consentement eclaire, droit de retrait, pas de piege, debriefing, anonymisation. Regles securite
+    : pas de vrais militants sous surveillance, pas d''activites illegales.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-006
+  enonce: 'Validation historique : IRA applique tous les protocoles (leadership, cellules, financement, sanctuaire, projet)
+    → Good Friday Agreement. GJ n''appliquent aucun protocole → defaite 6 mois.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-007
+  enonce: 'Occupy (2011), Printemps arabe (2011), Hong Kong (2019), GJ (2018) : tous les mouvements sans protocoles du corpus
+    ont echoue en <2 ans. Validation par la negative.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-008
+  enonce: 'Effet Hawthorne (Mayo 1930s) : participants testes modifient leur comportement. Biais les tests de phase 1. Solutions
+    : tests aveugles, auto-observation, proxy, triangulation.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-009
+  enonce: 'Conditions de falsification (Popper) : un mouvement sans sanctuaire >10 ans, un mouvement acephale qui gagne, un
+    mouvement sans projet politique qui gagne → le corpus serait refute.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-010
+  enonce: '4 protocoles structurellement non testables : repression massive, succession en cas de decapitation, ethique du
+    sacrifice, guerre narrative contre l''Etat.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-011
+  enonce: 'Probleme d''echelle (Dunbar 1993) : neocortex limite a ~150 relations stables. Aucun mouvement acephale n''a depasse
+    ~50 000 membres coordonnes. Les protocoles ne sont pas invariants d''echelle.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-EMP-012
+  enonce: 'Suspicion score : 6/10. Validation historique 7/10 (coherence mais selection des cas), design de test 6/10 (labo
+    possible mais limites observateur), falsifiabilite 5/10 (theorique mais pratiquement difficile).
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: IRA (1969-1998)
+  role: Validation historique positive — tous les protocoles appliques
+  faits_lies: []
+- nom: Gilets jaunes (2018-2019)
+  role: Validation historique negative — aucun protocole applique
+  faits_lies: []
+- nom: Popper (Karl)
+  role: Falsifiabilite comme critere de scientificite
+  faits_lies: []
+- nom: Mayo (Elton)
+  role: Effet Hawthorne — biais d'observation des tests
+  faits_lies: []
+- nom: Dunbar (Robin)
+  role: Limite biologique a 150 relations stables
+  faits_lies: []
+- nom: Occupy/HK/Printemps arabe
+  role: Validation negative — mouvements sans protocoles
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: '[Absence de validation empirique] → [Risque inefficacite silencieuse] → [Protocoles theoriquement bons, pratiquement
+    inoperants]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Validation historique] → [Confirmation patterns] → [Mais selection biaisee des cas] → [Confiance temperee]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Effet Hawthorne] → [Tests labo non representatifs] → [Necessite triangulation labo + reel + historique]
+
+    '
+perspectives_dialectiques:
+- P1: 'Favorable : la validation historique est puissante. 4 mouvements sans protocoles = 4 echecs. IRA avec protocoles =
+    victoire. La correlation est parfaite dans les cas etudies.
+
+    '
+- P2: 'Defavorable : selection biaisee des cas, pas de test controle, contexte different (Irlande 1969 ≠ France 2026). L''effet
+    Hawthorne biaise les tests en labo. 4 protocoles non testables.
+
+    '
+- P3: 'Synthese : le corpus ne sera valide ni par un test en laboratoire ni par l''histoire passee. Le test ultime est l''emergence
+    d''un mouvement de coordination reel en France. Jusque-la, le corpus reste une hypothese.
+
+    '
+limites:
+- Biais historico-centre: cas selectionnes pour confirmer la these.
+- Effet Hawthorne: comportement modifie sous observation.
+- Falsifiabilite theorique mais pratiquement difficile.
+- 4 protocoles structurellement non testables.
+- Dunbar: plafond biologique de 150 relations stables.
+- Le test ultime (mouvement reel) est hors de controle.
+wolves:
+- nom: Si le corpus est structurellement irrefutable tant que la coordination n'existe ...
+  argument: 'Si le corpus est structurellement irrefutable tant que la coordination n''existe pas, alors il peut passer 20
+    ans sans etre ni valide ni invalide. Est-ce une theorie ou une foi ?
+
+    '
+  reponse: ''
+- nom: La validation historique est une confirmation, pas une preuve
+  argument: 'La validation historique est une confirmation, pas une preuve. Un biais de selection inverse (mouvements avec
+    protocoles qui ont echoue) pourrait invalider la these. Ces cas existent-ils et sont-ils caches ?
+
+    '
+  reponse: ''
+iceberg:
+- item: 'Niveau 10 : le corpus n''est pas une science tant qu''il n''est pas falsifiable. L''histoire tranchera. En attendant,
+    c''est l''hypothese la mieux documentee disponible.
+
+    '
+- item: 'Dunbar (150) : plafond biologique de la coordination acephale. Les protocoles sont concus pour le micro — pas pour
+    le scaling.
+
+    '
+- item: '4 protocoles non testables : l''acceptation de cette limite est plus robuste que la pretention a une scientificite
+    impossible.
+
+    '
+- item: 'Mnemolite: DOWN.
+
+    '
+chronologie:
+- date: 1930s
+  evenement: Effet Hawthorne (Mayo)
+- date: '1959'
+  evenement: Falsifiabilite (Popper)
+- date: '1993'
+  evenement: Nombre de Dunbar (150)
+- date: 1969-1998
+  evenement: IRA — validation historique positive
+- date: '2011'
+  evenement: Occupy — validation negative
+- date: 2018-2019
+  evenement: GJ — validation negative
+- date: '2019'
+  evenement: Hong Kong — validation negative
+domaines:
+- Methodologie de test
+- Philosophie des sciences (Popper, falsifiabilite)
+- Psychologie sociale (Hawthorne)
+- Anthropologie (Dunbar)
+- Histoire des mouvements sociaux
+urls_prioritaires: []
+shadow_factor: 1.5
+shadow_justification: 'Fichier source bien structure (12 faits, 3 phases de test, 7 metriques) mais tous les faits sont ❧
+  (design theorique, pas de sources externes). La validation historique est solide conceptuellement mais non testee empiriquement.
+  Suspicion score : 6/10.
+
+  '
+mnemo_queries:
+- note: Mnemolite DOWN.

@@ -1,0 +1,355 @@
+civ: "R"
+complexity: "COMPLEX"
+date_extraction: "2026-06-07"
+enquete_source: "investigations/2026-06-03_sumer_article/2026-06-03_13-00_rome_vs_france_INVESTIGATION.md"
+
+these_centrale: "Rome est l'ancêtre DIRECT et documenté de la France: le Corpus Juris Civilis (529-534) est intégré dans le Code civil de 1804, le cursus honorum inspire l'INSP, et la lex Poetelia Papiria (326 av.) abolit l'esclavage pour dette 2193 ans avant la France (1867). Cette filiation a été triée: la France a retenu le droit (qui légitime l'État) et occulté l'esclavage (qui dérange le récit républicain), reproduisant les cycles de dette, de réforme agraire avortée et de renflouement étatique sans résoudre structurellement la question de la reproduction des élites."
+
+theses_implicites:
+  - "Le Corpus Juris Civilis (529-534) n'est pas une influence distante sur le Code civil français de 1804: c'est une inclusion textuelle directe. Justinien a compilé 1000 ans de droit romain en quatre volumes (Codex, Digeste, Institutes, Novelles); le Code civil reprend ses catégories (personnes, biens, obligations) avec 2300 articles au lieu des ~3000 fragments du Digeste, multiplicateur ~1.3x."
+  - "L'abolition du nexum par la lex Poetelia Papiria (326 av.) n'a PAS résolu la question de la dette à Rome: la cité oscille ensuite entre abolitions ponctuelles (Gracques 133-121, Catilina 63), crises de crédit massives (33 ap., renflouement Tibère 100M sesterces) et inflation par débasement (IIIe siècle, 1000%). Le parallèle avec la France est structurel: pas de solution pérenne, juste des cycles de renflouement public qui valident l'impuissance politique."
+  - "La Rome dont la France se réclame est une construction historiographique. 90% de ce que nous savons de Rome vient de sénateurs (Cicéron, Tacite, Tite-Live). Les esclaves (30-40% de l'Italie), les femmes, les provinciaux et les plébéiens sont structurellement absents des sources. La filiation 'Rome à France' n'est pas falsifiée mais elle est sélective: elle projette une Rome qui sert le récit national français."
+  - "L'argument de l'avertissement romain (Rome a chuté, donc nous chuterons) est un framing temporel puissant utilisé par tous les bords politiques. Chaque époque projette ses angoisses sur Rome: Gibbon y projette la décadence morale, Mussolini l'autoritarisme, les Lumières la République vertueuse, l'époque contemporaine la bureaucratie paralysante. Aucun accès neutre à Rome n'existe."
+  - "Le ratio fonctionnaire/habitant est ~800 fois plus élevé en France (5,7M pour 68M, soit 1/12) qu'à Rome (~5000 pour 50-80M, soit 1/10000). Le parallèle cursus honorum/INSP tient sur la structure mais pas sur l'échelle: la France a une bureaucratie massive qui n'a aucun équivalent antique direct."
+
+faits_atomiques:
+  - id: "F-R001"
+    enonce: "La lex Poetelia Papiria de 326 av. abolit le nexum (esclavage pour dette): le débiteur n'est plus physiquement asservi, ses biens servent de collatéral."
+    source_url: "https://en.wikipedia.org/wiki/Nexum"
+    source_section: "§8 Thème 1 - Dette et usure"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R002"
+    enonce: "Les Gracques (Tiberius 133 av., Gaius 121 av.) proposent des réformes agraires (limitation de la propriété, redistribution) et sont assassinés."
+    source_url: "https://en.wikipedia.org/wiki/Gracchi_brothers"
+    source_section: "§7 Chronologie"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R003"
+    enonce: "La crise financière de 33 ap. combine krach immobilier, crise de crédit et renflouement d'État par Tibère (100M sesterces injectés dans les banques)."
+    source_url: "https://en.wikipedia.org/wiki/Financial_crisis_of_33"
+    source_section: "§10 Chaîne 1 - Dette"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R004"
+    enonce: "L'annone (cura annonae) distribue ~200000 citoyens mâles adultes par mois, 35 kg de blé par tessère, soit ~15% du budget impérial."
+    source_url: "https://en.wikipedia.org/wiki/Cura_annonae"
+    source_section: "§8 Thème 2 - Économie et redistribution"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R005"
+    enonce: "Le Corpus Juris Civilis (529-534 ap.) compile 1000 ans de droit romain en 4 parties: Codex, Digeste, Institutes, Novelles."
+    source_url: "https://www.questjournals.org/jrhss/papers/vol12-issue8/1208384391.pdf"
+    source_section: "§8 Thème 6 - Justice et droit"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-R006"
+    enonce: "Le Code civil français (1804, 2300 articles) est directement inspiré du Corpus Juris Civilis par Napoléon et Portalis."
+    source_url: "https://en.wikipedia.org/wiki/Napoleonic_Code"
+    source_section: "§8 Thème 6 - Justice et droit"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R007"
+    enonce: "Le cursus honorum impose la séquence questeur, édile, préteur, consul, censeur comme parcours obligé des magistrats romains."
+    source_url: "https://en.wikipedia.org/wiki/Cursus_honorum"
+    source_section: "§8 Thème 3 - Bureaucratie"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R008"
+    enonce: "L'esclavage romain représente 30 à 40% de la population italienne au pic de l'Empire."
+    source_url: "https://web.archive.org/web/20090203055358/http://abacus.bates.edu/~mimber/Rciv/slavery.htm"
+    source_section: "§8 Thème 4 - Règles et normes sociales"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-R009"
+    enonce: "La Constitutio Antoniniana (212 ap.) étend la citoyenneté romaine à tous les hommes libres de l'Empire."
+    source_url: "https://en.wikipedia.org/wiki/Constitutio_Antoniniana"
+    source_section: "§7 Chronologie"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R010"
+    enonce: "La dette publique française atteint 3416,3 Mds€ au T2 2025, soit 115,6% du PIB."
+    source_url: "https://www.economie.gouv.fr/decryptage-5-minutes-pour-comprendre-la-dette-publique"
+    source_section: "§7 Chronologie"
+    head_status: null
+    tier: 3
+    glyphe: "⁅"
+  - id: "F-R011"
+    enonce: "La France compte 5,7M fonctionnaires en 2025, soit 76 pour 1000 habitants et 22% de l'emploi total."
+    source_url: "https://www.ifrap.org/fonction-publique-et-administration/combien-la-france-compte-deffectifs-publics-en-plus-par-rapport-la-moyenne-europeenne"
+    source_section: "§8 Thème 3 - Bureaucratie"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-R012"
+    enonce: "La Loi des Douze Tables (451-450 av.) constitue le premier code de droit romain écrit."
+    source_url: "https://en.wikipedia.org/wiki/Twelve_Tables"
+    source_section: "§7 Chronologie"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R013"
+    enonce: "La conjuration de Catilina (63 av.) propose l'annulation des dettes comme programme politique de rébellion."
+    source_url: "https://en.wikipedia.org/wiki/Catilinarian_conspiracy"
+    source_section: "§7 Chronologie"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R014"
+    enonce: "La clientela (relation patron/client) structure verticalement la société romaine et verrouille le pouvoir oligarchique."
+    source_url: "https://en.wikipedia.org/wiki/Patronage_in_ancient_Rome"
+    source_section: "§8 Thème 4 - Règles et normes sociales"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R015"
+    enonce: "L'inflation du IIIe siècle (235-284 ap.) atteint ~1000% par débasement progressif du denarius."
+    source_url: "https://www.unrv.com/economy/inflation.php"
+    source_section: "§7 Chronologie"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R016"
+    enonce: "Les femmes romaines disposent du droit de propriété, du divorce et du commerce, sous tutelle juridique masculine."
+    source_url: "https://en.wikipedia.org/wiki/Roman_citizenship"
+    source_section: "§11 Fact Registry"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R017"
+    enonce: "Le cens de Servius Tullius (~578-534 av.) divise la société en 5 classes de richesse et 193 centuries, la classe I détenant 80 voix sur 193."
+    source_url: "https://www.unrv.com/government/how-the-roman-census-worked-and-why-it-mattered.php"
+    source_section: "§3 Cluster Power"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R018"
+    enonce: "L'administration impériale romaine emploie environ 5000 personnes à son apogée (Rome et provinces confondues)."
+    source_url: "https://web.ics.purdue.edu/~rauhn/Hist_416/hist420/City+Life.htm"
+    source_section: "§8 Thème 3 - Bureaucratie"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R019"
+    enonce: "Edward Gibbon publie 'The History of the Decline and Fall of the Roman Empire' (1776) qui impose le récit de la chute morale de Rome, thèse désormais contestée par les révisionnistes."
+    source_url: "https://en.wikipedia.org/wiki/Historiography_of_the_fall_of_the_Western_Roman_Empire"
+    source_section: "§4 Herméneutique L5"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+  - id: "F-R020"
+    enonce: "Les fasces romains (faisceau de verges) sont repris comme symbole par le fascisme mussolinien et par le sceau du Sénat américain."
+    source_url: "https://antigonejournal.com/2023/07/roman-fasces/"
+    source_section: "§2 Manipulation Report"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-R021"
+    enonce: "La France abolit la prison pour dette en 1867, soit 2193 ans après l'abolition romaine du nexum (326 av.)."
+    source_url: ""
+    source_section: "§1 Résumé exécutif"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+  - id: "F-R022"
+    enonce: "L'administration impériale romaine (~5000 fonctionnaires) est ~800 fois moins nombreuse proportionnellement que la fonction publique française (5,7M) au regard de la population (50-80M vs 68M)."
+    source_url: ""
+    source_section: "§10 Chaîne 3 - Bureaucratie"
+    head_status: null
+    tier: 3
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Servius Tullius"
+    role: "Sixième roi légendaire de Rome, créateur du cens, des comices centuriates et de la stratification censitaire"
+    faits_lies: ["F-R017"]
+  - nom: "Cicéron"
+    role: "Consul 63 av., orateur, défenseur de la République romaine, exécuté en 43 av."
+    faits_lies: ["F-R013"]
+  - nom: "Jules César"
+    role: "Général et dictateur romain, met fin à la République en 44 av."
+    faits_lies: ["F-R007"]
+  - nom: "Auguste"
+    role: "Premier empereur romain (27 av.-14 ap.), réforme l'administration et la fiscalité de l'Empire"
+    faits_lies: ["F-R004", "F-R007"]
+  - nom: "Tibère"
+    role: "Empereur romain (14-37 ap.), gère la crise financière de 33 ap. par un renflouement d'État massif"
+    faits_lies: ["F-R003"]
+  - nom: "Tiberius Gracchus"
+    role: "Tribun de la plèbe 133 av., propose une réforme agraire, assassiné"
+    faits_lies: ["F-R002"]
+  - nom: "Gaius Gracchus"
+    role: "Tribun 123-121 av., réformes sociales et alimentaires (frumentationes), assassiné"
+    faits_lies: ["F-R002", "F-R004"]
+  - nom: "Catilina"
+    role: "Conspirateur 63 av., propose l'annulation des dettes, défait et tué"
+    faits_lies: ["F-R013"]
+  - nom: "Spartacus"
+    role: "Meneur de la troisième guerre servile (révolte des esclaves) 73-71 av."
+    faits_lies: ["F-R008"]
+  - nom: "Justinien"
+    role: "Empereur byzantin (527-565 ap.), commandite le Corpus Juris Civilis (529-534)"
+    faits_lies: ["F-R005"]
+  - nom: "Edward Gibbon"
+    role: "Historien britannique (1737-1794), auteur de 'Decline and Fall of the Roman Empire' (1776)"
+    faits_lies: ["F-R019"]
+  - nom: "Napoléon Bonaparte"
+    role: "Premier Consul puis Empereur des Français, commandite le Code civil (1804)"
+    faits_lies: ["F-R006"]
+  - nom: "INSP (ex-ENA)"
+    role: "Institut national du service public, formation séquentielle des hauts fonctionnaires français"
+    faits_lies: ["F-R007", "F-R011"]
+  - nom: "État français (Ministère Bercy)"
+    role: "Gestionnaire de la dette publique française (3416,3 Mds€ au T2 2025)"
+    faits_lies: ["F-R010"]
+
+causalites:
+  - cause: "F-R001"
+    effet: "F-R003"
+    mecanisme: "L'abolition du nexum (326 av.) libère le débiteur de la contrainte corporelle, ce qui permet le développement du crédit privé sur garantie patrimoniale, lequel finit par produire une crise de crédit massive (33 ap.) absorbée par un renflouement impérial."
+  - cause: "F-R002"
+    effet: "F-R008"
+    mecanisme: "L'échec de la réforme agraire des Gracques (assassinés 133 et 121 av.) verrouille la concentration des terres et la dépendance économique des plébéiens, alimentant un réservoir de candidats à l'esclavage pour dette puis à la révolte servile (Spartacus, 73-71 av.)."
+  - cause: "F-R005"
+    effet: "F-R006"
+    mecanisme: "La compilation justinienne du droit romain (529-534) crée un corpus textuel unifié qui, redécouvert à Bologne au XIe siècle, devient la base directe du Code civil français de 1804: filiation documentaire, pas analogie."
+  - cause: "F-R007"
+    effet: "F-R011"
+    mecanisme: "La séquence magistrale romaine (cursus honorum) inspire la formation séquentielle des élites administratives françaises (INSP), reproduisant la fonction de filtre social et de reproduction oligarchique, mais à une échelle 800 fois supérieure en nombre."
+  - cause: "F-R017"
+    effet: "F-R019"
+    mecanisme: "La stratification censitaire (Servius Tullius) fige la structure verticale de la cité, ce qui produit une crise de légitimité que l'Empire (puis Gibbon au XVIIIe siècle) réinterprète en 'décadence' morale et politique."
+  - cause: "F-R019"
+    effet: "F-R020"
+    mecanisme: "Le récit gibbonien de la chute morale de Rome ouvre un répertoire symbolique (fasces, aigles, SPQR) que les régimes autoritaires du XXe siècle (Mussolini, hyperprésidentialisme américain) s'approprient pour légitimer leur pouvoir par filiation impériale."
+
+perspectives_dialectiques:
+  - position: "Thèse officielle-académique"
+    argument: "Le droit romain (Corpus Juris Civilis) est la base documentaire du Code civil français; Napoléon l'a explicitement utilisé; la France a amélioré ce qu'elle a hérité (esclavage aboli, État-providence universel). Rome est un héritage, pas un modèle."
+  - position: "Antithèse critique-investigative"
+    argument: "Rome avait des mécanismes que la France a perdus ou n'a jamais adoptés: abolition de l'esclavage pour dette 2193 ans plus tôt, réforme agraire proposée par les Gracques, renflouement d'État lors de la crise de 33 ap.; la durée de vie romaine (1000 ans) est un indicateur de résilience institutionnelle que la Ve République (67 ans) n'égale pas."
+  - position: "Synthèse par les faits"
+    argument: "Rome est un ancêtre direct, donc le parallèle est plus solide qu'avec Sumer. Mais la filiation ne garantit pas la leçon: Rome a duré 1000 ans avec l'esclavage, la France dure 200 ans sans. La différence de valeurs (liberté individuelle, droits humains) n'est pas mesurable dans les parallèles institutionnels. Le parallèle bureaucratique (cursus honorum/INSP) tient structurellement mais pas à l'échelle."
+
+limites:
+  - "Budget exact de l'Empire romain inconnu: les estimations varient et aucune comptabilité nationale n'a survécu; les chiffres (15% PIB pour l'annone, 1.5-2.5% PIB pour l'armée) sont des reconstructions."
+  - "Biais élitaire des sources: 90% de ce que nous savons de Rome vient de sénateurs (Cicéron, Tacite, Tite-Live); les esclaves, les femmes, les provinciaux et les plébéiens sont structurellement absents des sources littéraires."
+  - "Temporalité compressée: 1200 ans de Rome (Royauté, République, Principat, Dominat) traités comme 'la Rome antique', masquant des discontinuités institutionnelles majeures."
+  - "Pas d'instrument de mesure commun Rome/France: PIB, dette publique, ratio fonctionnaire/habitant sont des catégories modernes projetées rétrospectivement sur une société antique qui ne les conceptualisait pas."
+  - "Population impériale romaine incertaine: estimations entre 50M et 80M habitants, ce qui fausse tous les ratios proportionnels (notamment la comparaison administration/habitants)."
+
+wolves:
+  - nom: "Historiens romanistes académiques (Mommsen, Beard)"
+    argument: "L'INSP n'a aucun rapport structurel avec le cursus honorum: le premier forme des généralistes administratifs, le second formait des magistrats judiciaires et militaires; la ressemblance est superficielle et anachronique."
+    reponse: "La ressemblance porte sur la fonction (séquence de formation des élites, filtre social, accès aux postes clés), pas sur le contenu; la filiation documentaire (cursus → grandes écoles) est attestée par les manuels d'histoire des institutions."
+  - nom: "Libéraux anti-fonction publique (IFrap, Institut Montaigne)"
+    argument: "Comparer 5000 fonctionnaires romains à 5,7M fonctionnaires français n'a aucun sens: Rome n'était pas un État-providence, la France si; l'argument du 'parallèle bureaucratique' est un artifice rhétorique pour naturaliser la bureaucratie."
+    reponse: "Le parallèle porte sur la STRUCTURE de sélection et de reproduction des élites, pas sur l'effectif; le ratio ×800 lui-même est le fait saillant, pas l'assimilation des deux systèmes."
+  - nom: "Spécialistes de l'esclavage antique (Bradley, Harper)"
+    argument: "Le chiffre 30-40% d'esclaves en Italie est une estimation maximaliste; les chiffres plus crédibles oscillent entre 20-30% et l'esclavage rural n'avait pas la même intensité qu'urbain."
+    reponse: "L'enquête cite l'estimation 30-40% avec une source universitaire (Bates/Bradley) sans la figer; la fourchette est cohérente avec la littérature dominante et la fourchette importe moins que le fait que l'esclavage romain était massif et occulté du récit de la 'civilisation'."
+  - nom: "Romanistes anti-révisionnistes (Heather, Ward-Perkins)"
+    argument: "La chute de l'Empire romain d'Occident a des causes structurelles documentées (pressions barbares, rupture des réseaux fiscaux, dépopulation), pas seulement internes; minimiser les invasions est un biais historiographique."
+    reponse: "L'enquête ne nie pas les invasions mais les resitue dans un faisceau de causes internes (inflation, bureaucratie, fiscalité, perte de légitimité); le débat Gibbon vs révisionnistes n'est pas tranché et l'enquête assume cette incertitude."
+
+iceberg:
+  - "Sujet immergé: la fiscalité romaine (tributum, portorium, vectigal) et ses transformations du Principat au Dominat, absente du récit officiel de 'Rome notre ancêtre' mais centrale pour comprendre la chute."
+  - "Résultat Mnemolite: zéro mémoire indexée pour la requête 'Rome droit France corpus juris' (2026-06-07); cette enquête n'a donc pas de précédent dans la base vectorielle du projet."
+  - "Sujet immergé: la question de la dette publique romaine (le concept n'existait pas sous cette forme, mais la crise de crédit de 33 ap. et l'inflation du IIIe siècle montrent une dynamique de soutenabilité budgétaire)."
+  - "Sujet immergé: le rôle de l'armée romaine comme institution économique (1.5-2.5% PIB estimé) et sonnera institutionnalisation du clientélisme militaire, parallèle sous-exploité avec les grands corps français."
+
+chronologie:
+  - date: "-753"
+    evenement: "Fondation légendaire de Rome (Romulus et Rémus)."
+    source_fait: "F-R007"
+  - date: "-578/-534"
+    evenement: "Servius Tullius instaure le cens, les comices centuriates et les 5 classes censitaires."
+    source_fait: "F-R017"
+  - date: "-451/-450"
+    evenement: "Loi des Douze Tables: premier code de droit romain écrit."
+    source_fait: "F-R012"
+  - date: "-326"
+    evenement: "Lex Poetelia Papiria: abolition du nexum (esclavage pour dette)."
+    source_fait: "F-R001"
+  - date: "-133/-121"
+    evenement: "Les Gracques proposent des réformes agraires et sont assassinés."
+    source_fait: "F-R002"
+  - date: "-73/-71"
+    evenement: "Troisième guerre servile, révolte menée par Spartacus."
+    source_fait: "F-R008"
+  - date: "-63"
+    evenement: "Conjuration de Catilina, promesse d'annulation des dettes."
+    source_fait: "F-R013"
+  - date: "-27"
+    evenement: "Auguste devient premier empereur, début du Principat."
+    source_fait: "F-R004"
+  - date: "33"
+    evenement: "Crise financière sous Tibère: krach immobilier, renflouement d'État de 100M sesterces."
+    source_fait: "F-R003"
+  - date: "212"
+    evenement: "Constitutio Antoniniana: citoyenneté romaine étendue à tous les hommes libres."
+    source_fait: "F-R009"
+  - date: "235/284"
+    evenement: "Crise du IIIe siècle: inflation ~1000% par débasement du denarius."
+    source_fait: "F-R015"
+  - date: "529/534"
+    evenement: "Corpus Juris Civilis compilé sous Justinien, fondation textuelle du droit français."
+    source_fait: "F-R005"
+  - date: "1804"
+    evenement: "Code civil français promulgué, directement inspiré du Corpus Juris Civilis."
+    source_fait: "F-R006"
+  - date: "1867"
+    evenement: "Abolition de la prison pour dette en France."
+    source_fait: "F-R021"
+  - date: "2025"
+    evenement: "Dette publique française: 3416,3 Mds€ (115,6% PIB); 5,7M fonctionnaires."
+    source_fait: ["F-R010", "F-R011"]
+
+domaines:
+  - "Dette et usure (nexum, Gracques, crise de 33 ap., dette publique française)"
+  - "Économie et redistribution (annone, État-providence, fiscalité)"
+  - "Bureaucratie et technocratie (cursus honorum, INSP, grands corps)"
+  - "Règles et normes sociales (cens, clientela, mobilité sociale, reproduction des élites)"
+  - "Dogme et cadre idéologique (pax deorum, culte impérial, christianisation, laïcité)"
+  - "Justice et droit (Douze Tables, praetor peregrinus, Corpus Juris Civilis, Code civil)"
+
+urls_prioritaires:
+  - url: "https://www.questjournals.org/jrhss/papers/vol12-issue8/1208384391.pdf"
+    description: "Source académique vérifiée sur la filiation Corpus Juris Civilis / Code civil français."
+    head_status: 200
+  - url: "https://web.archive.org/web/20090203055358/http://abacus.bates.edu/~mimber/Rciv/slavery.htm"
+    description: "Source universitaire archivée sur l'esclavage romain et son ampleur en Italie (30-40%)."
+    head_status: 200
+  - url: "https://www.ifrap.org/fonction-publique-et-administration/combien-la-france-compte-deffectifs-publics-en-plus-par-rapport-la-moyenne-europeenne"
+    description: "Données 2025 sur les effectifs de la fonction publique française (5,7M)."
+    head_status: 200
+  - url: "https://antigonejournal.com/2023/07/roman-fasces/"
+    description: "Article académique sur la postérité des fasces romains (Mussolini, Sénat américain)."
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Nexum"
+    description: "Référence générale sur le nexum et son abolition par la lex Poetelia Papiria (326 av.)."
+    head_status: null
+  - url: "https://en.wikipedia.org/wiki/Napoleonic_Code"
+    description: "Référence sur le Code civil de 1804 et ses sources textuelles romaines."
+    head_status: null
+
+shadow_factor: 2.8
+
+mnemo_queries:
+  - query: "Rome droit France corpus juris"
+    results_count: 0
+  - query: "Rome France comparaison dette nexum Gracques"
+    results_count: 0
+  - query: "Rome droit romain bureaucratie cursus honorum"
+    results_count: 0
+  - query: "Rome empire économie annone institutions"
+    results_count: 0

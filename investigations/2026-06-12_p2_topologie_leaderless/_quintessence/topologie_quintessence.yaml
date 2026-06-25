@@ -1,0 +1,81 @@
+enquete_id: "topologie_penale"
+complexity: "MEDIUM"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p2_topologie_leaderless/2026-06-12_12-00_topologie_leaderless_qualification_penale_INVESTIGATION.md"
+
+these_centrale: "La structure acéphale n'est PAS une immunité juridique automatique contre l'art.450-1 CP, mais elle EST une protection significative : elle oblige l'accusation à prouver une 'convergence de volonté' au cas par cas, sans pouvoir s'appuyer sur une chaîne de commandement. La LOPMI 2023 réduit cette protection en créant l'infraction de 'participation à un groupement en vue de commettre des violences' (art.222-14-2 CP) qui contourne l'exigence de preuve d'une entente structurée. Le précédent Tarnac (2008-2018) montre que l'acéphalie protège de la CONDAMNATION mais pas de la PROCÉDURE — or, la procédure est l'arme."
+
+theses_implicites:
+  - "La topologie ne protège pas de la condamnation : le juge évalue l'INTENTION, pas l'organigramme. Elle protège de l'aggravation (bande organisée, rôle de 'chef')."
+  - "La procédure (garde à vue, contrôle judiciaire, détention provisoire) est l'arme de destruction massive — le jugement final est secondaire stratégiquement."
+  - "L'absence de chef ne supprime pas le pouvoir d'accusation de l'État : elle le DILUE sur tous les membres — mutualisation du risque, pas immunité."
+
+acteurs:
+  - "Art.450-1 CP : association de malfaiteurs (10 ans, 750 000 €)"
+  - "Art.222-14-2 CP (LOPMI 2023) : participation à un groupement en vue de violences"
+  - "Art.421-2-6 CP (EIT) : entreprise terroriste individuelle"
+  - "Cour de cassation : Cass. crim. 5 février 2025, n°24-80.051"
+  - "Précédent Tarnac (2008-2018) : relaxe mais réseau détruit"
+  - "RICO Act (USA), Joint Enterprise (UK)"
+
+causalites:
+  - "Structure acéphale → preuve d'entente plus difficile (pas de chaîne de commandement) → protection SIGNIFICATIVE mais non ABSOLUE"
+  - "LOPMI 2023 (art.222-14-2 CP) → contourne l'exigence d'entente structurée → réduit la protection acéphale"
+  - "Procédure pénale (GAV, CJ, DP) → destruction du mouvement indépendamment du jugement → Tarnac : 10 ans, relaxe, réseau mort"
+
+perspectives_dialectiques:
+  - "Thèse : la topologie acéphale protège juridiquement. Antithèse : le juge s'en moque — l'intime conviction prime sur l'organigramme. Synthèse : la topologie ne protège pas de la condamnation mais de l'AGGRAVATION (bande organisée, chef)."
+  - "Thèse : l'acéphalie dilue le risque. Antithèse (Wolf 2) : elle permet à l'État de désigner n'importe qui comme 'organisateur'. Synthèse : Tarnac montre que la dilution fonctionne dans les deux sens — relaxe faute de preuves de hiérarchie."
+  - "Thèse : Tarnac = preuve que l'acéphalie protège. Antithèse : Tarnac = preuve que la PROCÉDURE détruit indépendamment du jugement."
+
+faits_atomiques:
+  - F-top-001: "Affaire Tarnac (2008-2018) : tentative de qualifier un groupe informel d'association de malfaiteurs — relaxe quasi générale 2018. Absence de preuves matérielles reliant prévenus aux sabotages."
+    glyph: "✦"
+  - F-top-002: "Art.450-1 CP exige : (1) concertation réelle, (2) faits matériels préparatoires, (3) infraction déterminée visée. Pas seulement des idées ou un 'projet révolutionnaire' vague."
+    glyph: "✦"
+    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"
+  - F-top-003: "Art.222-14-2 CP (LOPMI 2023) : 'participation à un groupement en vue de commettre des violences' — permet d'arrêter sur la base de la seule participation, sans prouver préparation d'infraction spécifique."
+    glyph: "✧"
+    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047143247"
+  - F-top-004: "Cass. crim. 5 février 2025, n°24-80.051 : condamnation confirmée — prévenu interpellé équipé pour dissimuler identité dans groupe ayant annoncé intentions violentes. Connaissance des faits préparatoires + participation = suffisant."
+    glyph: "✦"
+  - F-top-005: "RICO Act (USA, 1970) : permet de poursuivre réseaux décentralisés sans leader identifié — 'pattern of racketeering activity' suffit."
+    glyph: "✧"
+  - F-top-006: "Joint Enterprise (UK) : poursuite groupe informel pour infraction collective basée sur 'assistance ou encouragement'. Arrêt Jogee (UKSC 2016) a corrigé abus mais doctrine maintenue."
+    glyph: "✦"
+
+limites:
+  - "Aucune consultation d'avocat pénaliste spécialisé."
+  - "Jurisprudence LOPMI trop récente (2023-2026) pour être stabilisée."
+  - "Droit comparé (RICO, Joint Enterprise) résumé à grands traits."
+
+wolves:
+  - loup: "La topologie est un détail : le juge s'en moque"
+    reponse: "Distinction subtile mais réelle : la topologie ne protège pas de la condamnation mais de l'AGGRAVATION (bande organisée, chef). Atténuateur, pas immunité."
+  - loup: "Sans chef, l'État en désigne un pour vous"
+    reponse: "Exact. Mais Tarnac montre la limite inverse : l'accusation a échoué FAUTE de preuves de hiérarchie. La dilution fonctionne dans les deux sens."
+  - loup: "La procédure EST la peine : le jugement final n'a aucune importance stratégique"
+    reponse: "Wolf le plus lourd. Tarnac = 10 ans, relaxe, réseau détruit. Question ouverte : comment survivre À LA PROCÉDURE, pas seulement au jugement ?"
+
+iceberg:
+  - "Protection acéphale : significative mais non absolue — réduite par LOPMI 2023"
+  - "Procédure comme arme : GAV, CJ, DP détruisent indépendamment du jugement"
+  - "Droit comparé : RICO (USA), Joint Enterprise (UK) ciblent aussi les réseaux sans leader"
+  - "Stratégie de dilution de la participation visible manquante au corpus"
+
+chronologie:
+  - "2008-2018 : Affaire Tarnac"
+  - "2015 : Loi Renseignement"
+  - "2016 : Arrêt Jogee (UKSC)"
+  - "2023 : LOPMI (art.222-14-2 CP)"
+  - "2025 : Cass. crim. 5 février 2025"
+
+domaines:
+  - "droit_penal"
+  - "topologie_reseaux"
+  - "repression_etatique"
+  - "jurisprudence"
+
+urls:
+  - "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"
+  - "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047143247"

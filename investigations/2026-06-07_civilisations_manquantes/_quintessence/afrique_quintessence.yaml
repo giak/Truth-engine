@@ -1,0 +1,135 @@
+enquete_id: afrique_subsaharienne
+complexity: MEDIUM
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-07_civilisations_manquantes/2026-06-07_16-15_afrique_subsaharienne_INVESTIGATION.md
+these_centrale: Les empires africains médiévaux (Mali 1235-1670, Songhai 1464-1591, Grand Zimbabwe XIe-XVe siècle) prouvent
+  que des États complexes avec bureaucratie spécialisée, tradition écrite savante, et contrôle du commerce mondial (or, sel)
+  existaient en Afrique bien avant le contact colonial. Leur effacement du récit occidental est un produit de l'historiographie
+  coloniale, pas un reflet de la réalité historique.
+theses_implicites:
+- Mansa Musa (1312-1337) est l'homme le plus riche de l'histoire — son pèlerinage à La Mecque en 1324 a provoqué 12 ans d'inflation de l'or en Égypte.
+- L'Université de Sankoré à Tombouctou (25 000 étudiants) contredit le mythe d'une Afrique 'sans écriture'.
+- Askia Muhammad crée une bureaucratie spécialisée (ministres, gouverneurs) comparable à Sumer ou à la Perse.
+- La tradition des griots (historiens oraux) est une alternative à l'écriture pour la transmission juridique et historique.
+faits_atomiques:
+- id: F-AFR-001
+  enonce: Mansa Musa effectue un pèlerinage à La Mecque avec 60 000 personnes et 12 tonnes d'or, provoquant 12 ans d'inflation en Égypte
+  source_url: https://www.worldhistory.org/Mansa_Musa_I/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-AFR-002
+  enonce: L'Université de Sankoré à Tombouctou compte 25 000 étudiants à son apogée
+  source_url: https://www.worldhistory.org/Timbuktu/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-AFR-003
+  enonce: Askia Muhammad crée une bureaucratie centralisée avec ministres spécialisés et gouverneurs provinciaux au Songhaï
+  source_url: https://www.worldhistory.org/Songhai_Empire/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-AFR-004
+  enonce: Grand Zimbabwe est construit sans mortier — plus grande structure précoloniale d'Afrique subsaharienne
+  source_url: https://whc.unesco.org/en/list/364/
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: "✦"
+- id: F-AFR-005
+  enonce: Les manuscrits de Tombouctou (centaines de milliers) couvrent droit, astronomie, médecine, mathématiques
+  source_url: https://www.worldhistory.org/Timbuktu/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-AFR-007
+  enonce: Les griots (djeli) sont les historiens oraux héréditaires de l'Afrique de l'Ouest
+  source_url: https://www.worldhistory.org/Griot/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-AFR-008
+  enonce: L'empire du Mali contrôle les mines d'or du Bambouk et du Bouré, principales sources d'or de l'Europe médiévale
+  source_url: https://www.worldhistory.org/Mali_Empire/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-AFR-010
+  enonce: L'historiographie coloniale a nié l'africanité de Grand Zimbabwe, l'attribuant aux Phéniciens ou à la Reine de Saba
+  source_url: https://whc.unesco.org/en/list/364/
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+acteurs:
+- nom: Mansa Musa
+  role: Empereur du Mali (1312-1337), homme le plus riche de l'histoire
+  faits_lies:
+  - F-AFR-001
+- nom: Askia Muhammad
+  role: Empereur Songhaï (1493-1528), créateur de la bureaucratie spécialisée
+  faits_lies:
+  - F-AFR-003
+- nom: Griots (djeli)
+  role: Historiens oraux héréditaires, caste spécialisée
+  faits_lies:
+  - F-AFR-007
+causalites:
+- cause: F-AFR-008
+  effet: F-AFR-001
+  mecanisme: Le contrôle des mines d'or du Bambouk/Bouré finance le pèlerinage de Mansa Musa → démonstration de richesse qui place le Mali sur les cartes européennes
+- cause: F-AFR-010
+  effet: F-AFR-004
+  mecanisme: L'historiographie coloniale nie l'africanité de Grand Zimbabwe → effacement systématique des empires africains du récit occidental
+perspectives_dialectiques:
+- position: Thèse — L'Afrique avait des empires complexes avant le contact colonial
+  argument: Mali, Songhaï, Grand Zimbabwe avaient bureaucratie, écriture (manuscrits de Tombouctou), et commerce mondial. Leur effacement est idéologique.
+- position: Antithèse — L'oralité limite la comparabilité
+  argument: Les griots transmettent oralement, pas par écrit codifié. La bureaucratie songhaï est moins documentée que Sumer ou Rome. Comparaison asymétrique.
+limites:
+- Manuscrits de Tombouctou partiellement détruits (occupation djihadiste 2012-2013)
+- Biais colonial persistant — historiographie écrite par les colonisateurs jusqu'aux indépendances
+wolves:
+- nom: Historiographie coloniale
+  argument: L'Afrique n'avait pas d'États complexes avant la colonisation — 'terra nullius'
+  reponse: Grand Zimbabwe, Tombouctou, l'empire du Mali prouvent le contraire. L'historiographie coloniale était une entreprise de négation
+iceberg:
+- Sujet immergé : Les manuscrits de Tombouctou contredisent le mythe de l'Afrique 'sans écriture' — mais ils sont menacés et sous-étudiés
+chronologie:
+- date: '1235'
+  evenement: Fondation de l'empire du Mali par Soundiata Keita
+  source_fait: F-AFR-008
+- date: '1324'
+  evenement: Pèlerinage de Mansa Musa à La Mecque — 60 000 personnes, 12 tonnes d'or
+  source_fait: F-AFR-001
+- date: 1464-1591
+  evenement: Empire Songhaï — bureaucratie centralisée d'Askia Muhammad
+  source_fait: F-AFR-003
+- date: XIe-XVe s.
+  evenement: Grand Zimbabwe — plus grande structure précoloniale d'Afrique subsaharienne
+  source_fait: F-AFR-004
+domaines:
+- Économie : or, sel, routes transsahariennes
+- Éducation : Université de Sankoré (25 000 étudiants), manuscrits de Tombouctou
+- Administration : bureaucratie spécialisée Songhaï, gouverneurs provinciaux
+- Transmission : griots (oral) + manuscrits (écrit) — coexistence unique
+urls_prioritaires:
+- url: https://whc.unesco.org/en/list/364/
+  description: Grand Zimbabwe — UNESCO World Heritage
+  head_status: 200
+- url: https://www.worldhistory.org/Timbuktu/
+  description: Tombouctou — Université de Sankoré, manuscrits
+  head_status: 200
+- url: https://www.worldhistory.org/Mansa_Musa_I/
+  description: Mansa Musa — pèlerinage de 1324
+  head_status: 200
+shadow_factor: 5.0
+mnemo_queries: []
+mnemo_cross_refs: []

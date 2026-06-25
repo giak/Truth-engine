@@ -1,0 +1,433 @@
+civ: "C"
+complexity: "APEX"
+date_extraction: "2026-06-07"
+enquete_source: "investigations/2026-06-03_sumer_article/2026-06-03_14-00_chine_vs_france_INVESTIGATION.md"
+
+these_centrale: "La Chine a résolu structurellement 5 des 7 problèmes français entre 700 et 2350 ans avant la France, mais sans contrepouvoirs démocratiques : la France a ajouté ce qui manquait à la Chine (État de droit, justice indépendante, propriété privée absolue) et le perd au moment même où la bureaucratie chinoise continue son expansion sous Xi Jinping."
+
+theses_implicites:
+  - "Le parallèle Chine-France est structurel et non causal : la France n'a pas copié la Chine, elle a réinventé indépendamment les mêmes solutions à des siècles d'écart (convergences, pas filiations)."
+  - "L'avantage comparatif chinois n'est pas qualitatif mais chronologique : 2200 ans d'administration continue ont produit des mécanismes que la France républicaine doit acquérir en 200 ans de tâtonnements interrompus par 5 Républiques et 2 Empires."
+  - "L'absence chinoise d'État de droit (rule of law), de propriété privée absolue et de justice indépendante a freiné l'émergence d'une bourgeoisie et d'une révolution industrielle endogène : le coût caché de la continuité bureaucratique impériale."
+  - "Le Grand Bond en Avant (20-30 millions de morts) est la face sombre de la bureaucratie sans contrepouvoirs : une bureaucratie qui punit les mauvaises nouvelles produit des catastrophes inaudibles et incontrôlables."
+  - "La dette locale chinoise (290% du PIB via les LGFV) démontre que la Chine a refait, avec un demi-siècle de retard, la même pathologie que la France de la monarchie administrative : des responsabilités locales sans financement propre, compensées par l'endettement off-balance."
+
+faits_atomiques:
+  - id: "F-C001"
+    enonce: "Le keju (examen impérial) est formellement établi sous les Sui vers 605 ap., systématisé sous les Tang, avec trois niveaux (xiucai local, juren provincial, jinshi métropolitain) et un curriculum confucéen (Quatre Livres, Cinq Classiques)."
+    source_url: "https://en.wikipedia.org/wiki/Imperial_examination"
+    source_section: "§8.3 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C002"
+    enonce: "Le Jiaozi, premier papier-monnaie émis par un État au monde, est mis en circulation par la dynastie Song à Chengdu en 1024 ap., initialement convertible en métal dans des bureaux officiels."
+    source_url: "https://en.wikipedia.org/wiki/Jiaozi_(currency)"
+    source_section: "§8.1 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C003"
+    enonce: "L'empereur Han Wudi instaure en 117 av. le monopole d'État sur la production et la distribution du sel et du fer, qui fournit l'essentiel des revenus fiscaux de l'empire pendant plus de 2000 ans."
+    source_url: "https://en.wikipedia.org/wiki/Economy_of_the_Han_dynasty"
+    source_section: "§8.2 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C004"
+    enonce: "Qin Shi Huang unifie la Chine en 221 av. en standardisant l'écriture, les poids, les mesures et les lois : premier État centralisé bureaucratiquement de l'histoire chinoise."
+    source_url: "https://en.wikipedia.org/wiki/Qin_dynasty"
+    source_section: "§7 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C005"
+    enonce: "Le Tang Code (Tanglü shuyi) est promulgué en 624 ap. : code pénal-administratif de 500 articles, hiérarchisé selon le rang social, base du droit est-asiatique (Corée Goryeo, Japon Nara, Vietnam Le)."
+    source_url: "https://en.wikipedia.org/wiki/Tang_Code"
+    source_section: "§8.5 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C006"
+    enonce: "Le système des greniers ever-normal (changpingcang) est proposé par Li Kui vers 400 av. et systématisé sous les Han (Hu Chang, 54 av.) : l'État achète le grain en abondance et le revend à bas prix en disette, maintenu pendant 2000 ans."
+    source_url: "https://en.wikipedia.org/wiki/Ever-normal_granary"
+    source_section: "§8.7 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C007"
+    enonce: "Le Grand Bond en Avant (1958-1961) cause entre 20 et 30 millions de morts par famine (3.4 à 5.1% de la population chinoise de 1960), conséquence des communes populaires, de la fission des rizières et des réquisitions forcées masquant la famine aux autorités centrales."
+    source_url: "https://en.wikipedia.org/wiki/Great_Chinese_Famine"
+    source_section: "§8.6 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C008"
+    enonce: "La Révolution culturelle (1966-1976) cause entre 1.5 et 3 millions de morts, avec destructions massives du patrimoine, purges des intellectuels, humiliations publiques des contre-révolutionnaires par les Gardes Rouges."
+    source_url: "https://en.wikipedia.org/wiki/Cultural_Revolution"
+    source_section: "§8.6 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C009"
+    enonce: "Voltaire, dans l'Essai sur les mœurs (1756), admire explicitement Confucius comme supérieur à Socrate et cite le système d'examens impériaux chinois (keju) comme modèle de gouvernement rationnel."
+    source_url: "https://en.wikipedia.org/wiki/Imperial_examination"
+    source_section: "§8.3 / §9"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C010"
+    enonce: "François Quesnay, médecin de Louis XV et fondateur de l'école physiocrate, est surnommé « le Confucius européen » et développe sa théorie de l'ordre naturel en s'inspirant explicitement de la pensée administrative chinoise."
+    source_url: "https://en.wikipedia.org/wiki/Imperial_examination"
+    source_section: "§8.3 / §9"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C011"
+    enonce: "La dette locale chinoise atteint environ 290% du PIB en 2024, dont 18.9 billions de dollars de dettes cachées via les LGFV (Local Government Financing Vehicles), avec un programme de résolution de 10 billions de RMB lancé en novembre 2024."
+    source_url: ""
+    source_section: "§8.1 / §11"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-C012"
+    enonce: "Le huizi, émis par la dynastie Song du Sud à partir de 1159-1160 pour financer la guerre contre les Jin, subit une inflation chronique et ne vaut plus qu'environ 5% de sa valeur d'origine en 1215."
+    source_url: "https://en.wikipedia.org/wiki/Huizi_(currency)"
+    source_section: "§8.1 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C013"
+    enonce: "La production de fer de la dynastie Song atteint environ 125 000 tonnes par an au XIe siècle, selon les estimations de Maddison, soit davantage que l'Angleterre du XVIIIe siècle (chiffre contesté par Broadberry)."
+    source_url: "https://en.wikipedia.org/wiki/Economic_history_of_China_before_1912"
+    source_section: "§8.2 / §11"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-C014"
+    enonce: "La politique de l'enfant unique (1980-2015) réduit la fécondité chinoise de 5.8 enfants par femme en 1970 à environ 1.5 en 2000, avec un déséquilibre de genre estimé à environ 30 millions d'hommes surnuméraires."
+    source_url: "https://en.wikipedia.org/wiki/One-child_policy"
+    source_section: "§8.4 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C015"
+    enonce: "La seconde guerre de l'Opium (1856-1860) oppose la Grande-Bretagne et la France à la Chine : le Palais d'Été est incendié par les troupes franco-britanniques en 1860, fait marquant du « siècle d'humiliation » chinois."
+    source_url: "https://en.wikipedia.org/wiki/Opium_Wars"
+    source_section: "§8.6 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C016"
+    enonce: "En 124 av., l'empereur Han Wudi crée l'Académie impériale (Taixue) et impose le confucianisme comme idéologie d'État : les Cinq Classiques deviennent le curriculum obligatoire des fonctionnaires pendant plus de 2000 ans."
+    source_url: "https://en.wikipedia.org/wiki/Confucianism"
+    source_section: "§8.4 / §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C017"
+    enonce: "La pratique du bandage des pieds (chanzu, lotus d'or) apparaît sous les Song vers le Xe siècle et touche jusqu'à 80% des femmes des régions urbaines au XIXe siècle, abolie en 1912 par la République."
+    source_url: "https://en.wikipedia.org/wiki/Foot_binding"
+    source_section: "§8.4 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C018"
+    enonce: "Le coefficient de Gini chinois est officiellement de 0.37 en 2024 (estimations indépendantes : 0.47-0.50), supérieur à celui de la France situé entre 0.29 et 0.32, l'un des plus égalitaires de l'OCDE."
+    source_url: "https://en.wikipedia.org/wiki/Gini_coefficient"
+    source_section: "§8.7 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C019"
+    enonce: "Le Social Credit System (社会信用体系) est opérationnel depuis 2014 et cible en 2025 principalement les comportements économiques (défaut de prêt, fraude fiscale) et certaines infractions (conduite, tabagisme), avec restriction d'accès au crédit, aux transports et aux marchés publics."
+    source_url: ""
+    source_section: "§8.7 / §11"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-C020"
+    enonce: "Le keju est aboli en 1905 sous la pression des réformes modernisatrices de la fin des Qing, soit environ 1300 ans après son institutionnalisation sous les Sui en 605 ap."
+    source_url: ""
+    source_section: "§7 / §11"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-C021"
+    enonce: "Le Traité de Nankin (1842) cède Hong Kong à la Grande-Bretagne, ouvre cinq ports chinois au commerce étranger, instaure l'extraterritorialité pour les ressortissants occidentaux et impose des indemnités de guerre massives."
+    source_url: "https://en.wikipedia.org/wiki/Opium_Wars"
+    source_section: "§8.6 / §7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C022"
+    enonce: "L'État Song du Sud connaît dès 1159-1160 l'un des premiers épisodes documentés d'inflation par émission monétaire pour financer l'effort de guerre, anticipant les hyperinflations françaises ultérieures (assignats 1790-1796)."
+    source_url: "https://en.wikipedia.org/wiki/Huizi_(currency)"
+    source_section: "§8.1 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C023"
+    enonce: "Le ratio fonctionnaires-population dans la Chine impériale Ming et Qing est estimé à environ 1 pour 10 000-15 000 habitants (environ 20 000 fonctionnaires pour 150 à 300 millions d'habitants), contre 1 pour 12 habitants en France contemporaine (5.7 millions d'agents pour 68 millions d'habitants)."
+    source_url: ""
+    source_section: "§8.3 / §18"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-C024"
+    enonce: "Deng Xiaoping lance en 1978 la politique de réforme et d'ouverture, transition d'une économie planifiée vers une économie de marché socialiste qui produit la plus forte croissance soutenue de l'histoire humaine contemporaine."
+    source_url: ""
+    source_section: "§7 / §9"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-C025"
+    enonce: "La tradition légaliste chinoise (Shang Yang, Han Fei, IVe siècle av.) prône l'usage de la loi (fa) comme instrument du souverain (法治 fazhi), antithèse du rule of law occidental : en Chine, la loi émane du souverain et le sert, tandis qu'en France, la loi émane du peuple et contraint le gouvernement."
+    source_url: "https://en.wikipedia.org/wiki/Legalism_(Chinese_philosophy)"
+    source_section: "§8.5 / §4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-C026"
+    enonce: "L'Anhui perd environ 18% de sa population durant la famine du Grand Bond en Avant (1959-1961), exemple régional extrême qui démontre l'ampleur démographique de la catastrophe (ratio 2 à 3 fois supérieur aux pertes françaises de 1940-1945)."
+    source_url: "https://en.wikipedia.org/wiki/Great_Chinese_Famine"
+    source_section: "§8.6 / §11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Qin Shi Huang"
+    role: "Unificateur de la Chine en 221 av., standardisateur de l'écriture, des poids, mesures et lois. Premier État centralisé bureaucratiquement."
+    faits_lies: ["F-C004"]
+  - nom: "Shang Yang"
+    role: "Réformateur de l'État de Qin, mort en 338 av. Initiateur du légalisme et de la bureaucratie méritocratique avant le keju formel."
+    faits_lies: ["F-C004", "F-C025"]
+  - nom: "Han Wudi"
+    role: "Empereur des Han de 141 à 87 av. Instaure le monopole d'État sel-fer (117 av.) et l'Académie impériale (124 av.), fondements de l'État interventionniste."
+    faits_lies: ["F-C003", "F-C016"]
+  - nom: "Li Kui"
+    role: "Réformateur de l'État de Wei vers 400 av., proposeur du système des greniers ever-normal, premier mécanisme étatique de stabilisation des prix."
+    faits_lies: ["F-C006"]
+  - nom: "Song Huizong"
+    role: "Empereur Song (r. 1100-1126), promoteur du Jiaozi et de l'émission de papier-monnaie par l'État."
+    faits_lies: ["F-C002"]
+  - nom: "Voltaire"
+    role: "Philosophe des Lumières (1694-1778), sinophile, admirateur de Confucius et du keju. Citeur du modèle chinois dans l'Essai sur les mœurs (1756)."
+    faits_lies: ["F-C009"]
+  - nom: "François Quesnay"
+    role: "Médecin de Louis XV et fondateur de l'école physiocrate (1694-1774). Surnommé « le Confucius européen », élabore la théorie de l'ordre naturel en référence explicite à la Chine."
+    faits_lies: ["F-C010"]
+  - nom: "Matteo Ricci"
+    role: "Jésuite (1552-1610) ayant traduit les classiques confucéens en latin à Pékin à partir de 1601, passeur décisif de la pensée chinoise vers l'Europe."
+    faits_lies: ["F-C009", "F-C010"]
+  - nom: "Lin Zexu"
+    role: "Commissaire impérial (1785-1850) qui tente d'interdire le trafic d'opium en 1839, déclenche la première guerre de l'Opium. Symbole de la résistance à l'humiliation étrangère."
+    faits_lies: ["F-C015", "F-C021"]
+  - nom: "Mao Zedong"
+    role: "Fondateur de la République populaire de Chine (1893-1976). Lancement du Grand Bond en Avant (1958-1961) et de la Révolution culturelle (1966-1976)."
+    faits_lies: ["F-C007", "F-C008", "F-C026"]
+  - nom: "Deng Xiaoping"
+    role: "Réformateur post-Mao (1904-1997). Lancement de la politique de réforme et d'ouverture en 1978, transition vers l'économie de marché socialiste."
+    faits_lies: ["F-C024"]
+  - nom: "Xi Jinping"
+    role: "Dirigeant chinois depuis 2012. Centralisation du pouvoir, déploiement du Social Credit System, programme de résolution de la dette locale."
+    faits_lies: ["F-C011", "F-C019"]
+
+causalites:
+  - cause: "F-C001"
+    effet: "F-C009"
+    mecanisme: "Le kejú, traduit en latin par les jésuites (Ricci à Pékin dès 1601), devient lisible pour Voltaire qui le cite dans l'Essai sur les mœurs (1756) comme modèle de gouvernement rationnel par les lettres."
+  - cause: "F-C002"
+    effet: "F-C012"
+    mecanisme: "Le succès du Jiaozi (1024) incite l'État Song à intensifier l'émission fiduciaire pour financer la guerre contre les Jin (nord), produisant l'inflation chronique du huizi (1159-1215)."
+  - cause: "F-C003"
+    effet: "F-C011"
+    mecanisme: "La tradition chinoise de financement étatique par monopole et rente persiste sous forme contemporaine via les LGFV (Local Government Financing Vehicles), reportant le coût sur l'endettement local off-balance."
+  - cause: "F-C004"
+    effet: "F-C005"
+    mecanisme: "La standardisation juridique de l'unification Qin (221 av.) crée la tradition de codes impériaux dont le Tang Code (624 ap.) devient la référence est-asiatique, copiée par Corée, Japon et Vietnam."
+  - cause: "F-C006"
+    effet: "F-C007"
+    mecanisme: "L'abolition des mécanismes de stabilisation traditionnels (greniers ever-normal) par Mao au profit de la collectivisation forcée produit une famine massive ; 2000 ans de protection sont anéantis en 3 ans de dogmatisme."
+  - cause: "F-C009"
+    effet: "F-C010"
+    mecanisme: "La lecture de Confucius et du kejú par Voltaire inspire Quesnay qui élabore la physiocratie (ordre naturel, impôt unique sur la terre), introduisant l'idéal chinois de bureaucratie éclairée en France."
+  - cause: "F-C015"
+    effet: "F-C019"
+    mecanisme: "Le « siècle d'humiliation » (1839-1949) structure un ressentiment nationaliste qui légitime sous Xi Jinping le renforcement du contrôle intérieur et la surveillance numérique généralisée (Social Credit System)."
+
+perspectives_dialectiques:
+  - position: "Thèse A (continuiste) : la Chine a devancé la France de 7 à 23 siècles sur 5 des 7 problèmes"
+    argument: "Monnaie fiduciaire (Jiaozi 1024 vs Banque de France 1803, 779 ans), concours administratif (kejú 605 vs ENA 1945, 1340 ans), code juridique (Tang Code 624 vs Code civil 1804, 1180 ans), monopole stratégique (sel-fer 117 av. vs nationalisations XIXe-XXe, ~2000 ans), welfare agricole (greniers 400 av. vs PAC 1962, 2350 ans). La France a réinventé ce que la Chine avait testé en continu pendant deux millénaires."
+  - position: "Antithèse B (sceptique) : les parallèles sont des convergences indépendantes, pas des filiations"
+    argument: "Le kejú forme des lettrés confucéens, l'INSP forme des gestionnaires républicains ; le Jiaozi est un billet de crédit convertible, la Banque de France est une institution d'émission moderne ; les ever-normal stabilisent les prix, la PAC distribue des revenus agricoles. Les contextes sont incommensurables et les fonctions structurelles divergent fondamentalement."
+  - position: "Synthèse C (convergence pathologique) : Chine et France partagent la même bureaucratie hypertrophiée"
+    argument: "Méritocratie reproductive (kejú-INSP), dette structurelle (LGFV-collectivités locales françaises), surveillance étatique (SCS-fichiers administratifs), violence d'État sans contrepouvoirs (GLF-Terreur jacobine, à échelles différentes). La Chine a simplement commencé plus tôt et continue plus longtemps : trajectoire décalée, destination potentiellement identique."
+
+limites:
+  - "Toutes les sources de l'enquête sont en anglais ou en français ; aucune source primaire chinoise (zhongwen) n'a été consultée, ce qui constitue un biais orientaliste structurel (Shadow 3.2×)."
+  - "Les données démographiques et économiques pré-modernes chinoises sont des estimations savantes (Maddison, Broadberry) non vérifiables indépendamment, et les fourchettes restent larges (60 à 400 millions d'habitants selon les dynasties)."
+  - "Les données modernes chinoises (dette officielle, coefficient de Gini, démographie post-2015) sont publiées par un régime qui contrôle l'information, ce qui rend toute comparaison statistique avec la France asymétrique."
+  - "Le format APEX impose 7 thèmes et exclut des domaines entiers (médecine, astronomie, métallurgie, imprimerie) où la Chine a innové bien avant l'Europe et dont la prise en compte renforcerait la thèse continuiste."
+  - "La continuité impériale chinoise entre -220 et +1912 n'est pas monolithique : 15 dynasties, invasions mongole (Yuan) et mandchoue (Qing), guerres civiles. Le « continuisme » est une simplification nécessaire à la thèse mais cache des ruptures effectives."
+
+wolves:
+  - nom: "Sinologue français"
+    argument: "Vous appliquez des concepts occidentaux (dette, bureaucratie, État de droit) à une civilisation qui n'a jamais pensé en ces termes. Catégorie d'erreur méthodologique fondamentale qui projette l'épistémé française sur la réalité chinoise."
+    reponse: "Le biais est déclaré explicitement (§2.1, §4 Herméneutique L1-L6) et les concepts français sont utilisés comme outils de mesure comparative, non comme normes. Les L1-L6 documentent précisément les écarts catégoriels (kejú vs INSP, fa vs jus, etc.)."
+  - nom: "Historien marxiste"
+    argument: "Vous idéalisez la bureaucratie impériale chinoise. Les structures féodales, les clans, les guildes et les élites locales font l'administration réelle, hors du contrôle des 20 000 fonctionnaires officiels. Le ratio x570 est un artefact."
+    reponse: "Le point est explicitement reconnu (§18 ICEBERG MAX, « administration fantôme chinoise »). Le ratio x570 est précisément ce qui rend la question fascinante : ou bien la Chine impériale était extraordinairement efficace, ou bien l'administration informelle est massivement sous-documentée dans les sources occidentales."
+  - nom: "Économiste orthodoxe"
+    argument: "Le PIB Song et la production de fer (125 000 t/an) sont des reconstructions Maddison, contestées par Broadberry et al. Vous n'avez aucune mesure pré-moderne fiable pour la Chine."
+    reponse: "Les chiffres Maddison sont explicitement marqués ✧ (incertains) et plusieurs estimations sont confrontées. Aucun chiffre n'est asserté comme définitif ; l'incertitude est documentée (§11 preuves, §14 questions non résolues)."
+  - nom: "Politiste pro-démocratie"
+    argument: "Votre parallèle ignore que la Chine est un régime autoritaire (Parti unique, censure, surveillance) et la France une démocratie libérale. Toute la comparaison est faussée par cette asymétrie politique fondamentale."
+    reponse: "L'asymétrie est reconnue comme contre-argument (Thèse C, contre-argument). Mais la continuité bureaucratique existe dans les deux régimes, ce qui autorise le parallèle structurel. La question n'est pas « qui a raison ? » mais « pourquoi la France perd-elle ce qu'elle avait ajouté ? » (verdict final)."
+  - nom: "Nationaliste chinois"
+    argument: "Vous sous-estimez la Chine et sur-estimez la France. La Chine a aussi innové en science (mathématiques, astronomie), technologie (imprimerie, poudre, boussole, papier), philosophie (néo-confucianisme, bouddhisme chan). Le parallèle est réducteur."
+    reponse: "L'enquête couvre 7 thèmes spécifiques imposés par le format APEX (dette, économie, bureaucratie, normes, droit, dogme, justice). Les autres domaines d'innovation chinoise (médecine, imprimerie, métallurgie, astronomie Song) sont reconnus comme exclus du périmètre (§13)."
+
+iceberg:
+  - "L'administration informelle chinoise (clans, guildes, élites locales) qui complète ou supplante les 20 000 fonctionnaires officiels : la véritable administration impériale est probablement 5 à 10 fois plus nombreuse que ne le suggèrent les sources officielles, mais ces structures informelles sont absentes des sources occidentales consultées."
+  - "Résultat Mnemolite : 0 mémoire indexée pour les requêtes « Chine impériale examination kejü code Tang », « Jiaozi Song papier monnaie fiduciaire » et « Grand Bond en Avant Mao famine Chine » — Mnemolite ne contient pas de corpus sur les civilisations hors-projet, ce qui limite la triangulation inter-fiches."
+  - "La médecine chinoise traditionnelle (bencao, acupuncture, moxibustion) a précédé la médecine occidentale sur plusieurs pratiques majeures (première description de la circulation sanguine, variolisation préventive dès le Xe siècle) — non couvert par le format APEX, qui se limite à 7 thèmes administratifs et politiques."
+  - "La continuité impériale chinoise n'est pas monolithique : 15 dynasties entre -220 et +1912, deux conquêtes étrangères durables (Mongols Yuan 1271-1368, Mandchous Qing 1644-1912), et de multiples guerres civiles. Le « continuisme » est une simplification nécessaire mais qui masque la plasticité réelle de l'institution impériale."
+  - "L'influence chinoise sur la Corée, le Japon, le Vietnam est considérable (caractères hanja/kanji, droit civil, architecture administrative, bouddhisme) : le format APEX limite la comparaison à la France, ignorant l'aire culturelle réelle d'influence chinoise qui s'étend sur 2000 ans à toute l'Asie orientale."
+
+chronologie:
+  - date: "-400"
+    evenement: "Li Kui propose le système des greniers ever-normal (changpingcang), premier mécanisme étatique de stabilisation des prix."
+    source_fait: "F-C006"
+  - date: "-221"
+    evenement: "Qin Shi Huang unifie la Chine, standardise écriture/poids/mesures/lois : premier État centralisé bureaucratique."
+    source_fait: "F-C004"
+  - date: "-124"
+    evenement: "Han Wudi crée l'Académie impériale (Taixue), le confucianisme devient idéologie d'État."
+    source_fait: "F-C016"
+  - date: "-117"
+    evenement: "Han Wudi instaure le monopole d'État sur le sel et le fer, fondement du financement impérial pour 2000 ans."
+    source_fait: "F-C003"
+  - date: "605"
+    evenement: "Le kejú (examen impérial) est établi sous les Sui, systématisé sous les Tang : première méritocratie de concours."
+    source_fait: "F-C001"
+  - date: "624"
+    evenement: "Promulgation du Tang Code (Tanglü shuyi), code pénal-administratif de 500 articles, base du droit est-asiatique."
+    source_fait: "F-C005"
+  - date: "1024"
+    evenement: "Le Jiaozi est émis par l'État Song à Chengdu : premier papier-monnaie d'État au monde, 779 ans avant la Banque de France."
+    source_fait: "F-C002"
+  - date: "1159"
+    evenement: "Le huizi remplace le Jiaozi ; inflation chronique par émission pour financer la guerre contre les Jin."
+    source_fait: "F-C012"
+  - date: "1601"
+    evenement: "Matteo Ricci s'installe à Pékin et traduit les classiques confucéens en latin, permettant leur lecture par Voltaire et Quesnay."
+    source_fait: "F-C009"
+  - date: "1842"
+    evenement: "Traité de Nankin : Hong Kong cédé à la Grande-Bretagne, cinq ports ouverts, extraterritorialité."
+    source_fait: "F-C021"
+  - date: "1860"
+    evenement: "Sac du Palais d'Été par les troupes franco-britanniques durant la seconde guerre de l'Opium."
+    source_fait: "F-C015"
+  - date: "1905"
+    evenement: "Abolition du kejú sous la pression des réformes modernisatrices de la fin des Qing."
+    source_fait: "F-C020"
+  - date: "1959-1961"
+    evenement: "Grand Bond en Avant : 20 à 30 millions de morts par famine (Anhui : 18% de la population)."
+    source_fait: "F-C007"
+  - date: "1966-1976"
+    evenement: "Révolution culturelle : 1.5 à 3 millions de morts, destruction du patrimoine, purge des intellectuels."
+    source_fait: "F-C008"
+  - date: "1978"
+    evenement: "Deng Xiaoping lance la politique de réforme et d'ouverture, transition vers l'économie de marché."
+    source_fait: "F-C024"
+  - date: "1980-2015"
+    evenement: "Politique de l'enfant unique : fécondité chute de 5.8 à 1.5 enfant par femme."
+    source_fait: "F-C014"
+  - date: "2014-2025"
+    evenement: "Déploiement progressif du Social Credit System, contrôle des comportements économiques et sociaux."
+    source_fait: "F-C019"
+  - date: "2024"
+    evenement: "Dette locale chinoise à 290% du PIB, 18.9 billions de dollars via les LGFV, programme de résolution de 10 billions de RMB."
+    source_fait: "F-C011"
+
+domaines:
+  - "Dette et monnaie fiduciaire"
+  - "Économie et État interventionniste"
+  - "Bureaucratie et méritocratie de concours"
+  - "Normes sociales et contrôle patriarcal"
+  - "Droit et code juridique"
+  - "Dogme idéologique et violence d'État"
+  - "Justice et welfare agricole"
+
+urls_prioritaires:
+  - url: "https://en.wikipedia.org/wiki/Imperial_examination"
+    description: "Article central pour le parallèle kejú-INSP et pour la filiation intellectuelle jésuites-Voltaire-Quesnay qui relie la bureaucratie chinoise à l'administration française."
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Jiaozi_(currency)"
+    description: "Premier papier-monnaie d'État au monde, antériorité de 779 ans sur la Banque de France, fondement du parallèle monétaire Chine-France."
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Great_Chinese_Famine"
+    description: "Documentation du Grand Bond en Avant (20-30M morts) et de la famine d'Anhui, point extrême de la bureaucratie sans contrepouvoirs."
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Tang_Code"
+    description: "Code pénal-administratif de 624 ap. base du droit est-asiatique, antériorité de 1180 ans sur le Code civil français."
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Ever-normal_granary"
+    description: "Premier welfare state (Li Kui ~400 av.), maintenu 2000 ans, précurseur direct de la PAC française (1962)."
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Cultural_Revolution"
+    description: "Purge générationnelle (1966-1976), destruction du patrimoine et des institutions, face sombre de la bureaucratie dogmatique."
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Opium_Wars"
+    description: "Documentation des deux guerres de l'Opium (1839-1842, 1856-1860), du sac du Palais d'Été et du « siècle d'humiliation » chinois."
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/One-child_policy"
+    description: "Plus grand programme de contrôle démographique de l'histoire, fécondité chinoise divisée par quatre entre 1970 et 2000."
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Economy_of_the_Han_dynasty"
+    description: "Documentation du monopole d'État sel-fer de Han Wudi (117 av.) et de l'économie interventionniste Han, fondement de la tradition étatique chinoise."
+    head_status: 200
+  - url: "https://en.wikipedia.org/wiki/Legalism_(Chinese_philosophy)"
+    description: "Documentation de la tradition légaliste (fa fazhi), antithèse du rule of law occidental, source conceptuelle du Social Credit System contemporain."
+    head_status: 200
+
+shadow_factor: 3.2
+
+mnemo_queries:
+  - query: "Chine impériale examination kejü code Tang"
+    results_count: 0
+  - query: "Jiaozi Song papier monnaie fiduciaire"
+    results_count: 0
+  - query: "Grand Bond en Avant Mao famine Chine"
+    results_count: 0
+  - query: "Tang Code common law East Asia"
+    results_count: 0
+  - query: "Voltaire Quesnay sinophilie physiocrates"
+    results_count: 0

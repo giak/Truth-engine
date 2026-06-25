@@ -1,0 +1,65 @@
+enquete_id: "crim_intention"
+complexity: "SIMPLE"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_sub_criminalisation_intention/2026-06-12_12-00_criminalisation_intention_sans_acte_INVESTIGATION.md"
+
+these_centrale: "En France 2026, la frontière entre 'discussion sur un projet' et 'actes matériels préparatoires' est devenue si fine que la simple COORDINATION VISIBLE constitue un faisceau d'indices suffisant pour caractériser l'infraction. L'art.450-1 CP ne requiert pas le passage à l'acte : la préparation collective suffit. L'art.222-14-2 CP (LOPMI 2023) permet de condamner sur la base de la simple présence équipée. L'art.421-2-6 CP (EIT) permet de condamner une personne SEULE pour avoir PRÉPARÉ. Le corpus sous-estime ce risque : il croit que la structure acéphale protège, alors qu'elle ne fait que DILUER la responsabilité pénale sur tous les participants."
+
+theses_implicites:
+  - "La criminalisation de l'intention est la NORME en France 2026, pas l'exception."
+  - "Tarnac (2008-2018) : relaxe finale mais 10 ans de procédure — la leçon n'est pas 'l'acéphalie protège' mais 'l'acéphalie retarde la condamnation sans empêcher la destruction'."
+  - "L'EIT (art.421-2-6 CP) prouve que le droit pénal français peut condamner une intention matérialisée sans aucun acte de violence — et sans complice."
+
+acteurs:
+  - "Art.450-1 CP : association de malfaiteurs (10 ans, 750 000 €)"
+  - "Art.222-14-2 CP (LOPMI 2023) : participation à groupement en vue de violences"
+  - "Art.421-2-6 CP (EIT, 2014) : entreprise terroriste individuelle"
+  - "Cour de cassation : Cass. crim. 5 février 2025, n°24-80.051"
+  - "Affaire Tarnac (2008-2018)"
+
+causalites:
+  - "Coordination visible + intention politique → faisceau d'indices suffisant pour art.450-1 CP"
+  - "LOPMI 2023 → infraction de participation qui contourne l'exigence de préparation spécifique"
+  - "Procédure pénale → destruction du mouvement indépendamment du jugement (Tarnac)"
+
+faits_atomiques:
+  - F-cri-001: "Art.450-1 CP : ne requiert PAS le passage à l'acte. Concertation réelle + faits matériels préparatoires = infraction constituée. Achat matériel, repérages, réunions, échanges chiffrés suffisent."
+    glyph: "✦"
+    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"
+  - F-cri-002: "Art.222-14-2 CP (LOPMI) : condamnation sur base de simple présence équipée. Cass. crim. 5 février 2025 : prévenu interpellé équipé pour dissimuler identité + connaissance des faits préparatoires = suffisant."
+    glyph: "✦"
+  - F-cri-003: "Art.421-2-6 CP (EIT, 2014) : une personne SEULE peut être condamnée pour avoir PRÉPARÉ un acte terroriste. Consultations Internet, achats, déplacements suffisent. Intention matérialisée d'un individu seul = condamnable."
+    glyph: "✦"
+    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029655849"
+  - F-cri-004: "Tarnac (2008-2018) : relaxe association de malfaiteurs terroriste faute d'éléments matériels suffisants. Mais 10 ans de procédure : contrôles judiciaires, interdictions de contact, perquisitions, réputation détruite."
+    glyph: "✦"
+  - F-cri-005: "Leçon de Tarnac : l'acéphalie protège de la CONDAMNATION, pas de la PROCÉDURE. La procédure (GAV, CJ, DP) détruit le mouvement BIEN AVANT le jugement."
+    glyph: "❧"
+
+limites:
+  - "Condamnations sans violence effective difficiles à recenser systématiquement (pas de catégorie statistique dédiée)."
+  - "Aucune consultation d'avocat pénaliste spécialisé."
+
+wolves: []
+
+iceberg:
+  - "Criminalisation de l'intention = norme en France 2026"
+  - "3 infractions qui ne requièrent pas de passage à l'acte : 450-1, 222-14-2, 421-2-6"
+  - "Procédure comme arme : GAV, CJ, DP détruisent indépendamment du jugement"
+  - "Le corpus sous-estime la finesse de la frontière intention/acte"
+
+chronologie:
+  - "2008-2018 : Affaire Tarnac"
+  - "2014 : Création EIT (art.421-2-6 CP)"
+  - "2023 : LOPMI (art.222-14-2 CP)"
+  - "2025 : Cass. crim. 5 février 2025"
+
+domaines:
+  - "droit_penal"
+  - "repression_etatique"
+  - "jurisprudence"
+
+urls:
+  - "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"
+  - "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047143247"
+  - "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029655849"

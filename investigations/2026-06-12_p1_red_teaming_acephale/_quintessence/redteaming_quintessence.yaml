@@ -1,0 +1,82 @@
+enquete_id: "redteaming"
+complexity: "APEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p1_red_teaming_acephale/2026-06-12_12-00_red_teaming_prototypage_acephale_INVESTIGATION.md"
+
+these_centrale: "Le test empirique complet de la coordination acéphale est juridiquement impossible en France 2026 (art.450-1 CP : 10 ans). La validation doit passer par une pyramide à 5 niveaux : tabletop exercises (risque nul), audit OSINT passif (risque faible), projets miroirs légaux (risque modéré), red teaming avec séparation stricte (risque élevé), et validation historique comparative (risque nul). Aucun niveau ne remplace un test grandeur nature, mais leur combinaison réduit le shadow factor sans exposer les testeurs."
+
+theses_implicites:
+  - "L'impossibilité juridique du test n'est pas un oubli du corpus mais une contrainte structurelle du droit pénal français."
+  - "La pyramide de validation est un compromis entre rigueur épistémique et survie juridique — pas une esquive."
+  - "La distinction analyste/acteur est réelle : le corpus fournit l'analyse, la décision de tester appartient à ceux qui en subiront les conséquences."
+
+acteurs:
+  - "Législateur français (art.450-1 CP, art.222-14-2 CP LOPMI 2023)"
+  - "Cour de cassation (jurisprudence association de malfaiteurs)"
+  - "Mouvements historiques ayant testé malgré le risque (IRA, FLN, Résistance, BR, RAF)"
+  - "Précédent Tarnac (2008-2018) : relaxe finale, réseau détruit par 10 ans de procédure"
+  - "Chercheurs en sécurité / Red Teams (NATO, DEF CON)"
+
+causalites:
+  - "art.450-1 CP → impossibilité juridique du test empirique collectif"
+  - "Absence d'immunité pour recherche en sécurité → tout test préparatoire est qualifiable"
+  - "Précédent Tarnac → la procédure est l'arme, pas la condamnation"
+  - "Risque pénal extrême → filtre ceux qui passent à l'acte, ne bloque pas l'action (IRA, FLN, Résistance)"
+  - "Illégitimité perçue du système répressif + enracinement social + traumatisme fondateur → conditions du passage à l'action malgré le risque"
+
+perspectives_dialectiques:
+  - "Thèse : le test empirique est impossible → la coordination acéphale ne peut jamais être validée. Antithèse : l'histoire (IRA, FLN, Résistance) montre que le risque pénal n'empêche pas l'action, il la sélectionne."
+  - "Thèse : la pyramide de validation est une excuse pour ne jamais tester. Antithèse : elle réduit l'incertitude là où c'est possible sans risquer la prison — le test ultime aura lieu dans l'histoire, pas en laboratoire."
+  - "Thèse : si tester est trop risqué pour le corpus, il ne peut pas recommander aux autres de le faire. Antithèse : le corpus est un outil analytique, pas un mouvement — la distinction analyste/acteur est légitime."
+
+faits_atomiques:
+  - F-red-001: "Art.450-1 CP punit la préparation collective (10 ans, 750 000 €) sans exiger le passage à l'acte. Jurisprudence Cass. crim. 8 janvier 2003." 
+    glyph: "✦"
+    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"
+  - F-red-002: "Aucune immunité pour 'test de résilience' n'existe en droit français. Les faits justificatifs classiques (ordre de la loi, légitime défense, état de nécessité) sont inapplicables."
+    glyph: "❧"
+  - F-red-003: "IRA Provisoire (1969-1998) : 29 ans sous Prevention of Terrorism Act et internement sans procès — structure cellulaire stricte (ASU 4-5 personnes), terreau social complice, bras politique légal (Sinn Féin)."
+    glyph: "✧"
+  - F-red-004: "FLN algérien (1954-1962) : organisation-nation sous répression coloniale totale (torture systématique) — collectait l'impôt, rendait la justice, fournissait des services sociaux."
+    glyph: "❧"
+  - F-red-005: "Résistance française (1940-1944) : opérait sous peine de mort immédiate — cellules étanches, logique non-rationnelle (patriotisme, survie identitaire)."
+    glyph: "❧"
+  - F-red-006: "BR Italie / RAF Allemagne : le risque pénal n'a pas bloqué l'action initiale mais a érodé les organisations qui ont perdu leur ancrage social (meurtre Moro, meurtre Rossa). La variable discriminante est sociologique, pas juridique."
+    glyph: "❧"
+
+limites:
+  - "Aucune consultation d'avocat pénaliste spécialisé — analyse juridique de surface."
+  - "Jurisprudence citée indicative, mérite recherche approfondie."
+  - "Immunité des chercheurs en sécurité non explorée."
+  - "Précédent Tarnac : relaxe finale mais réseau détruit — la procédure est l'arme."
+
+wolves:
+  - loup: "La pyramide est une excuse sophistiquée pour ne jamais tester"
+    reponse: "La pyramide ne remplace pas le test mais réduit l'incertitude là où c'est possible sans risque pénal. Le test ultime aura lieu ou non dans l'histoire."
+  - loup: "Si c'est trop risqué pour le corpus, de quel droit le recommande-t-il à d'autres ?"
+    reponse: "Le corpus est un ensemble de textes, pas un mouvement. La décision d'agir appartient à ceux qui en subiront les conséquences."
+  - loup: "L'impossibilité juridique du test est la preuve que la coordination est impossible en France"
+    reponse: "C'est le Κ le plus pur. Si vrai, le corpus doit l'admettre et se dissoudre. Question ouverte."
+
+iceberg:
+  - "Pyramide de validation : 5 niveaux de risque croissant"
+  - "Trois conditions du passage à l'action : illégitimité perçue, enracinement social, traumatisme fondateur"
+  - "Le corpus produit de la lucidité paralysante, pas du passage à l'action"
+  - "Distinction analyste/acteur : limite d'un outil purement analytique"
+
+chronologie:
+  - "1973-1998 : IRA sous Prevention of Terrorism Act"
+  - "1954-1962 : FLN sous répression coloniale"
+  - "1940-1944 : Résistance française"
+  - "2008-2018 : Affaire Tarnac (10 ans de procédure, relaxe)"
+  - "2023 : LOPMI (art.222-14-2 CP)"
+  - "2026 : Corpus Truth Engine — pyramide de validation proposée"
+
+domaines:
+  - "droit_penal"
+  - "mouvements_sociaux"
+  - "methodologie_test"
+  - "histoire_resistance"
+
+urls:
+  - "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417294"

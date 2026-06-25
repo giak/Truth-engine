@@ -1,0 +1,141 @@
+enquete_id: "opsec"
+complexity: "COMPLEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p3_dedoublement_opsec/2026-06-12_12-00_double_structure_sinn_fein_ira_INVESTIGATION.md"
+
+these_centrale: "Le modèle double structure (front légal + base clandestine) est un équilibre précaire : le front légal offre légitimité et visibilité mais expose à la surveillance, à la censure, et à la dissolution administrative. La condition critique est l'étanchéité juridique entre les deux branches — condition que la France de LOPMI 2023 et TRACFIN rend structurellement plus difficile à maintenir que dans l'Irlande pré-numérique des années 1970."
+
+theses_implicites:
+  - "Le modèle Sinn Féin/IRA est contextuellement non transposable en France 2026 — l'absence de métadonnées numériques était une condition permissive que LOPMI a supprimée."
+  - "Le Broadcasting Ban britannique (1988-1994) démontre que le front légal est vulnérable à des sanctions extra-judiciaires qui ne visent pas la clandestinité mais la VISIBILITÉ."
+  - "Les variantes historiques (Hamas, Hezbollah, FLN) sont inapplicables à la contestation en démocratie occidentale : ce sont des proto-États ou des mouvements de libération nationale."
+
+faits_atomiques:
+  - id: "F-opsec-001"
+    enonce: "L'IRA et le Sinn Féin entretenaient une relation symbiotique : les leaders des deux branches étaient souvent les mêmes individus (Gerry Adams, Martin McGuinness). La séparation était une stratégie de gestion d'image plutôt qu'une séparation organisationnelle réelle."
+    source_url: null
+    source_section: "§1"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-opsec-002"
+    enonce: "Les supergrass trials (années 1980) ont tenté de remonter du front légal à la base clandestine via des repentis : échec partiel. La charge de la preuve (lien direct entre déclaration politique et acte criminel) était quasi impossible sans documents internes."
+    source_url: null
+    source_section: "§1"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-opsec-003"
+    enonce: "Le Royaume-Uni a interdit la diffusion médiatique du Sinn Féin de 1988 à 1994 (Broadcasting Ban) : le front légal est vulnérable à des sanctions extra-judiciaires. Les propos ne pouvaient être diffusés que lus par des acteurs."
+    source_url: null
+    source_section: "§2"
+    head_status: null
+    tier: 2
+    glyphe: "✦"
+  - id: "F-opsec-004"
+    enonce: "Le front légal donne une adresse (sièges, bureaux, comptes bancaires) que la base clandestine n'a pas. Si le front légal faiblit, il devient le levier par lequel l'État force le mouvement à négocier ou à se dissoudre."
+    source_url: null
+    source_section: "§2"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-opsec-005"
+    enonce: "Le Hezbollah refuse officiellement toute distinction entre branche politique et militaire : structure unifiée. Ce modèle est plus résilient militairement mais plus vulnérable diplomatiquement (pas de front légal 'propre')."
+    source_url: null
+    source_section: "§3"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-opsec-006"
+    enonce: "Le FLN algérien a fusionné GPRA (politique) et ALN (militaire) : l'objectif était la reconnaissance étatique, pas la dissimulation. Modèle adapté aux guerres de décolonisation, pas aux démocraties."
+    source_url: null
+    source_section: "§3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Gerry Adams"
+    role: "Leader Sinn Féin/IRA — double appartenance documentée"
+    faits_lies: ["F-opsec-001"]
+  - nom: "Martin McGuinness"
+    role: "Leader Sinn Féin/IRA — double appartenance documentée"
+    faits_lies: ["F-opsec-001"]
+  - nom: "Margaret Thatcher"
+    role: "Première ministre britannique — auteur du Broadcasting Ban 1988"
+    faits_lies: ["F-opsec-003"]
+  - nom: "MI5 / FRU"
+    role: "Services britanniques — ont tenté de briser l'étanchéité via supergrasses"
+    faits_lies: ["F-opsec-002"]
+
+causalites:
+  - cause: "F-opsec-001"
+    effet: "F-opsec-002"
+    mecanisme: "La double appartenance des leaders crée une vulnérabilité juridique que l'État tente d'exploiter via les supergrasses. L'échec partiel est dû à l'absence de preuves documentaires."
+  - cause: "F-opsec-003"
+    effet: "F-opsec-004"
+    mecanisme: "Le Broadcasting Ban démontre que le front légal peut être neutralisé sans toucher à la base clandestine, en attaquant sa VISIBILITÉ plutôt que son existence."
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "Le modèle double structure est une protection éprouvée : l'IRA a survécu 29 ans et négocié le Good Friday Agreement grâce à cette architecture."
+  - position: "Antithèse"
+    argument: "Le modèle est dépendant de conditions historiques absentes en 2026 (pas de métadonnées, pas de TRACFIN, pas de LOPMI). L'étanchéité pré-numérique est morte."
+  - position: "Synthèse"
+    argument: "La question n'est pas la transposition du modèle IRA mais son ADAPTATION : quel est l'équivalent contemporain de l'étanchéité pré-numérique ? L'enquête ne répond pas à cette question."
+
+limites:
+  - "Modèle IRA contextuellement spécifique (conflit colonial, diaspora américaine massive) — non transposable tel quel en France 2026."
+  - "Variantes (Hamas, Hezbollah, FLN) inapplicables : proto-États ou mouvements de libération nationale, pas contestation en démocratie."
+  - "L'enquête ne propose pas d'alternative contemporaine au modèle IRA."
+
+wolves:
+  - nom: "Faille métadonnées"
+    argument: "En 2026, toute communication entre front légal et base clandestine laisse des traces numériques exploitables (IP, bornages, flux TRACFIN). L'art. 450-1 CP pulvérise la double structure sans exiger de preuve d'acte violent."
+    reponse: "Reconnaissance partielle : le modèle IRA est pré-numérique. La question pertinente est 'quel est l'équivalent contemporain de l'étanchéité ?' — question sans réponse."
+  - nom: "Chantage administratif"
+    argument: "L'État n'a pas besoin de condamnation pénale : les notes blanches suffisent pour dissolution en Conseil d'État et gel des avoirs. Le front légal est une surface d'attaque élargie."
+    reponse: "Partiellement neutralisé : une coordination acéphale sans personnalité juridique n'a ni siège ni comptes à geler. Mais le risque de dissolution sous LOPMI 2023 est réel."
+
+iceberg:
+  - "L'impact de l'IA prédictive sur l'étanchéité : les algorithmes de détection d'anomalies peuvent identifier des patterns de communication entre branches que les humains ne verraient pas."
+  - "Mnemolite: UP (36 942 mémoires) mais API search en erreur 500 — recherche cross-séries impossible."
+  - "Sujet immergé : comment les mouvements contemporains (Catalogne, Hong Kong) ont-ils tenté d'adapter le modèle double structure à l'ère numérique ?"
+
+chronologie:
+  - date: "1969"
+    evenement: "Début du conflit nord-irlandais (The Troubles)"
+    source_fait: "F-opsec-001"
+  - date: "1980"
+    evenement: "Supergrass trials — tentatives de briser l'étanchéité juridique"
+    source_fait: "F-opsec-002"
+  - date: "1988"
+    evenement: "Broadcasting Ban : interdiction de diffusion médiatique du Sinn Féin"
+    source_fait: "F-opsec-003"
+  - date: "1994"
+    evenement: "Fin du Broadcasting Ban"
+    source_fait: "F-opsec-003"
+  - date: "1998"
+    evenement: "Good Friday Agreement — fin du conflit armé"
+    source_fait: "F-opsec-001"
+
+domaines:
+  - "Stratégie militaire"
+  - "OPSEC"
+  - "Droit pénal"
+  - "Histoire des conflits"
+
+urls_prioritaires:
+  - url: null
+    description: "Moloney, A Secret History of the IRA (2002) — source secondaire de référence"
+    head_status: null
+
+shadow_factor: 4.2
+
+mnemo_queries:
+  - query: "coordination acéphale"
+    results_count: 0
+    error: "API error 500"
+  - query: "OPSEC infiltration double structure"
+    results_count: 0
+    error: "API error 500"

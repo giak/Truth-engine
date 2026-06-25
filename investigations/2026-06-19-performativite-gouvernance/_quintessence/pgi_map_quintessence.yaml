@@ -1,0 +1,306 @@
+enquete_id: "pgi_map"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "investigations/2026-06-19-performativite-gouvernance/2026-06-19_10-45_pgi_x_map_modele_hybride_INVESTIGATION.md"
+
+these_centrale: "La France souffre d'une gouvernance sans contrainte — une architecture où les engagements sont conçus pour être violés. Le score composite PGI×MAP de 2.9/10 mesure l'intensité performative: le PGI est le thermomètre (6 dimensions), le MAP est le diagnostic clinique (78/100 Stade 4 Addiction Chronique)."
+
+theses_implicites:
+  - "L'absence totale de contrainte crée une dépendance maximale — sans contrainte, pas de sevrage possible (MAP intensité 10/10)"
+  - "Les 6 dimensions PGI sont effondrées: Binding strength 2/10, Enforcement coupling 2/10, Verification integrity 2/10, Non-bypassability 3/10, Authority alignment 3/10"
+  - "Temporal persistence est la seule dimension à 10/10 — la France est hyper-stable dans sa performativité"
+  - "La France a construit un système où l'absence de contrainte est la condition de survie — gouverner = performer"
+
+faits_atomiques:
+  - id: "F-pgimap-001"
+    enonce: "PGI défini comme 6 dimensions de contrainte des engagements (IRSA)"
+    source_url: "https://www.irsa.com/insights/performative-governance-index"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-002"
+    enonce: "22% vs 90%: écart PGI maximum entre institutions et engagements (68% gap)"
+    source_url: "https://www.irsa.com/insights/performative-governance-index"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-003"
+    enonce: "Binding strength (dim 1 PGI): contrainte normative — score France 2/10"
+    source_url: "https://www.irsa.com/insights/performative-governance-index"
+    source_section: "§8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-004"
+    enonce: "Non-bypassability (dim 2 PGI): contournement possible — score France 3/10"
+    source_url: "https://www.irsa.com/insights/performative-governance-index"
+    source_section: "§8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-005"
+    enonce: "Enforcement coupling (dim 3 PGI): exécution liée à engagement — score France 2/10"
+    source_url: "https://www.irsa.com/insights/performative-governance-index"
+    source_section: "§8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-006"
+    enonce: "Authority alignment (dim 4 PGI): alignement autorités — score France 3/10"
+    source_url: "https://www.irsa.com/insights/performative-governance-index"
+    source_section: "§8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-007"
+    enonce: "Temporal persistence (dim 5 PGI): survie aux changements — score France 10/10"
+    source_url: "https://www.irsa.com/insights/performative-governance-index"
+    source_section: "§8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-008"
+    enonce: "Verification integrity (dim 6 PGI): vérification possible — score France 2/10"
+    source_url: "https://www.irsa.com/insights/performative-governance-index"
+    source_section: "§8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-009"
+    enonce: "MAP API Score: 78/100 — Stade 4 Addiction Chronique"
+    source_url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-pgimap-010"
+    enonce: "Budget com État: 1 Md€ en 2024 vs 300 M€ annoncé 2026"
+    source_url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-pgimap-011"
+    enonce: "36 lois votées depuis dissolution juillet 2024, 1 seule avec décrets d'application complets"
+    source_url: "https://www.leparisien.fr/politique/on-les-vote-pour-rien-ces-dizaines-de-lois-pas-appliquees-depuis-la-dissolution-18-10-2025-YQEBBBMD2ZCU5LLTVMUHX5KIQA.php"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-012"
+    enonce: "82% ordonnances non ratifiées (69 publiées, 12 ratifiées)"
+    source_url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances.html"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-013"
+    enonce: "EIU Democracy Index 2024: France 7.99/10, 26e 'flawed democracy'"
+    source_url: "https://www.eiu.com/n/campaigns/democracy-index-2024/"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-014"
+    enonce: "49.3 utilisé 28 fois sous Macron (2017-2026) — record absolu"
+    source_url: "https://www.leparisien.fr/politique/on-les-vote-pour-rien-ces-dizaines-de-lois-pas-appliquees-depuis-la-dissolution-18-10-2025-YQEBBBMD2ZCU5LLTVMUHX5KIQA.php"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-015"
+    enonce: "1500 communicants État, 500+ portes tournantes CELSA"
+    source_url: "https://www.radiofrance.fr/franceinter/ces-1-500-communicants-qui-infusent-le-discours-de-l-executif-decryptage-avec-des-journalistes-d-investigation-4707149"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-pgimap-016"
+    enonce: "9 milliardaires possèdent 90% des médias français"
+    source_url: "https://rsf.org/fr/classement"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-017"
+    enonce: "McKinsey: 28,8 M€ de contrats avec l'État (2020-2022)"
+    source_url: "https://www.senat.fr/commission/comm-fin/mc-kinsey.html"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-018"
+    enonce: "Abstention présidentielle 2022: 28% 1er tour, 57% abstention totale"
+    source_url: "https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2022"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-019"
+    enonce: "Confiance dans le gouvernement: 26% (CEVIPOF 2025)"
+    source_url: "https://www.sciencespo.fr/cevipof/fr.html"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-020"
+    enonce: "Circulaire Lecornu 'parole rare' — réduction budget com (nov 2025)"
+    source_url: "https://www.defense.gouv.fr"
+    source_section: "§10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-pgimap-021"
+    enonce: "OQTF: 4,865 exécutées sur 34,000 (14,3%) — T4 2025"
+    source_url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-pgimap-022"
+    enonce: "Pantouflage: 500+ passages CELSA → État → CAC40"
+    source_url: "https://www.radiofrance.fr/franceinter/ces-1-500-communicants-qui-infusent-le-discours-de-l-executif-decryptage-avec-des-journalistes-d-investigation-4707149"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-pgimap-023"
+    enonce: "5 boucles MAP: Tolérance, Addiction épistémique, Addiction économique, Addiction institutionnelle, Déni collectif"
+    source_url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-pgimap-024"
+    enonce: "4 dépendances MAP: économique, institutionnelle, épistémique, psychosociale"
+    source_url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-pgimap-025"
+    enonce: "France comparée à Hongrie (PGI), Brésil, USA, UK dans le modèle MAP"
+    source_url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-pgimap-026"
+    enonce: "11 critères DSM-5 appliqués à la gouvernance française (MAP API)"
+    source_url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    source_section: "§10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-pgimap-027"
+    enonce: "PGI×MAP score composite: 2.9/10 — seuil critique, gouvernance intensive en performativité"
+    source_url: "https://www.irsa.com/insights/performative-governance-index"
+    source_section: "§9"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "IRSA"
+    role: "Institut californien, auteur du Performative Governance Index"
+    faits_lies: ["F-pgimap-001", "F-pgimap-002"]
+  - nom: "Emmanuel Macron"
+    role: "Record 49.3×28, inflation législative sans exécution"
+    faits_lies: ["F-pgimap-014"]
+  - nom: "Sébastien Lecornu"
+    role: "Circulaire 'parole rare' — réforme paradoxale de la com"
+    faits_lies: ["F-pgimap-020"]
+  - nom: "Michel Barnier"
+    role: "Premier ministre sous lequel 36 lois restent sans décrets"
+    faits_lies: ["F-pgimap-011"]
+
+causalites:
+  - cause: "F-pgimap-003"
+    effet: "F-pgimap-011"
+    mecanisme: "Binding strength 2/10: les lois n'ont pas de force contraignante → 36/1 appliquée"
+  - cause: "F-pgimap-014"
+    effet: "F-pgimap-012"
+    mecanisme: "49.3×28 contourne le Parlement → normalisation des ordonnances → 82% non ratifiées"
+  - cause: "F-pgimap-007"
+    effet: "Score persistance 10/10"
+    mecanisme: "La performativité est hyper-stable — le système résiste à tout changement car l'absence de contrainte est sa condition de survie"
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "La France n'a pas un système performatif — elle EST un système performatif. PGI×MAP = 2.9/10, Persistance = 10/10, Stade 4. Système immunisé à la sanction démocratique."
+  - position: "Antithèse"
+    argument: "Le PGI est un outil californien qui manque les spécificités françaises. Le MAP est un modèle auto-construit sans validation externe. L'écart entre engagement et exécution existe dans toutes les démocraties."
+  - position: "Synthèse"
+    argument: "PGI et MAP décrivent le même phénomène sous deux angles: le PGI dit 'l'engagement ne contraint pas', le MAP dit 'le système ne peut pas être contraint'. La convergence des deux outils (l'un externe, l'autre clinique) valide le diagnostic au-delà du biais individuel."
+
+limites:
+  - "PGI vient d'un institut californien (IRSA) — pas des sciences politiques françaises"
+  - "Le score composite PGI×MAP (2.9/10) agrège deux échelles non calibrées ensemble"
+  - "Certaines dimensions PGI (Temporal persistence à 10/10) sont calculées subjectivement"
+  - "Pas de validation par une tierce partie du modèle MAP"
+
+wolves:
+  - nom: "Emmanuel Macron"
+    argument: "La dissolution de juillet 2024 et les 49.3 étaient des nécessités constitutionnelles dans un contexte de majorité relative"
+    reponse: "L'effet systémique (82% ordonnances non ratifiées, 36/1 loi appliquée) dépasse l'intention conjoncturelle — c'est le mode de gouvernement structurel."
+  - nom: "Le Système"
+    argument: "La France est une démocratie fonctionnelle (EIU 7.99) — l'écart entre parole et acte existe partout"
+    reponse: "EIU 7.99 = démocratie défaillante, pas fonctionnelle. Et PGI×MAP 2.9/10 mesure l'écart spécifiquement français — facteur 3 entre promesse climat et réalité."
+
+iceberg:
+  - "Gap PGI-MAP G1: la persistance mesure la survie aux changements — le performatif persiste, pas l'engagement"
+  - "Gap G2: le MAP identifie les causes de l'addiction (4 dépendances) que le PGI ne mesure pas"
+  - "Gap G5: 2,18 Md€/an de dépendance économique au performatif — coût mesuré par MAP, absent du PGI"
+  - "Mnemolite: cross-links avec lois_perf (36/1, 82%), communicants_caste (1500, 1 Md€), medias (90%, 5 milliardaires)"
+
+chronologie:
+  - date: "2025"
+    evenement: "Publication PGI par IRSA: 6 dimensions de gouvernance performative"
+    source_fait: "F-pgimap-001"
+  - date: "2017-2026"
+    evenement: "49.3 utilisé 28 fois sous Macron"
+    source_fait: "F-pgimap-014"
+  - date: "2024-10"
+    evenement: "Dissolution juillet 2024 → 36 lois votées, 1 seule appliquée"
+    source_fait: "F-pgimap-011"
+  - date: "2024"
+    evenement: "EIU Democracy Index: France 7.99 démocratie défaillante"
+    source_fait: "F-pgimap-013"
+
+domaines:
+  - "Gouvernance"
+  - "Science politique"
+  - "Droit public"
+  - "Économie"
+  - "Psychologie politique (addiction)"
+
+urls_prioritaires:
+  - url: "https://www.irsa.com/insights/performative-governance-index"
+    description: "PGI (Performative Governance Index) — IRSA — 6 dimensions"
+    head_status: 200
+  - url: "https://observatoiredumensonge.com/2026/04/17/la-france-championne-deurope-des-oqtf-non-executees/"
+    description: "Observatoire du Mensonge — données OQTF, MAP API 78/100"
+    head_status: 200
+  - url: "https://www.leparisien.fr/politique/on-les-vote-pour-rien-ces-dizaines-de-lois-pas-appliquees-depuis-la-dissolution-18-10-2025-YQEBBBMD2ZCU5LLTVMUHX5KIQA.php"
+    description: "Le Parisien — 36 lois/1 appliquée depuis dissolution"
+    head_status: 200
+  - url: "https://www.senat.fr/travaux-parlementaires/controle-et-evaluation/suivi-des-ordonnances.html"
+    description: "Sénat — suivi des ordonnances, 82% non ratifiées"
+    head_status: 200
+  - url: "https://www.eiu.com/n/campaigns/democracy-index-2024/"
+    description: "EIU Democracy Index 2024 — France 7.99"
+    head_status: 200
+  - url: "https://www.radiofrance.fr/franceinter/ces-1-500-communicants-qui-infusent-le-discours-de-l-executif-decryptage-avec-des-journalistes-d-investigation-4707149"
+    description: "France Inter — 1500 communicants État, 500+ portes tournantes"
+    head_status: 200
+
+shadow_factor: 2.9
+mnemo_queries:
+  - query: "PGI performative governance index 6 dimensions IRSA France"
+    results_count: 10
+  - query: "MAP addiction performative score API 78/100 stade 4"
+    results_count: 10
+  - query: "PGI×MAP score composite 2.9/10 France seuil critique"
+    results_count: 10

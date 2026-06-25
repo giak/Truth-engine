@@ -1,0 +1,115 @@
+# QUINTESSENCE - LOLF et Fléchage des Amendes CNIL : Argument Politique, Pas Juridique
+# Date extraction : 2026-06-17
+# Source : investigations/2026-06-17_12-30_numerique-public-francais/2026-06-17_18-15_lolf-flecheage-amendes-cnil-argument-politique_INVESTIGATION.md
+
+complexity: "SIMPLE"
+
+these_centrale:
+  "L'argument selon lequel la LOLF (principe d'universalité budgétaire, article 6) interdit le fléchage des amendes CNIL vers un budget spécifique est un choix politique, pas une contrainte juridique. La LOLF prévoit elle-même des exceptions (CAS article 21, fonds de concours articles 17 et 19) qui permettraient le fléchage immédiat sans modifier la loi. Plusieurs AAI françaises (ARCOM, AMF, Médiateur énergie) ont déjà des recettes affectées. L'Espagne, de tradition juridique similaire, flèche 100 % des amendes à son AEPD depuis 1993."
+
+theses_implicites:
+  - "Le refus de flécher les amendes CNIL est un choix budgétaire (le Trésor ne veut pas perdre une recette) et politique (l'État ne veut pas renforcer les autorités de contrôle), présenté comme une nécessité juridique pour éviter le débat."
+  - "La circulaire comptable invoquée par la DGFiP est une circulaire ministérielle, pas une loi - une instruction pourrait y déroger."
+  - "Les exemples étrangers (Espagne 100 %, Portugal 40 %, Italie 50 %, Royaume-Uni flat fee) démontrent une variété de modèles possibles, aucun n'étant juridiquement impossible en France."
+
+faits_atomiques:
+  - id: "F-LOLF-001"
+    enonce: "La LOLF prévoit des exceptions au principe d'universalité : les comptes d'affectation spéciale (CAS, article 21) et les fonds de concours (articles 17 et 19). Un CAS « Modernisation numérique de l'État » ou « Indépendance des AAI » alimenté par les amendes CNIL est juridiquement possible sans modifier la LOLF."
+    source_url: "https://www.legifrance.gouv.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+  - id: "F-LOLF-002"
+    enonce: "L'Espagne flèche 100 % des amendes de son AEPD (équivalent CNIL) depuis 1993. Le Tribunal de Cuentas recommande l'abolition depuis 2017, systématiquement ignoré par le Parlement. Budget AEPD : 8 M€ (2015) → 32 M€ (2025). Preuve qu'un fléchage total est compatible avec un système de droit napoléonien."
+    source_url: "https://www.aepd.es/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+  - id: "F-LOLF-003"
+    enonce: "Plusieurs AAI françaises ont déjà des recettes affectées : ARCOM (taxe sur services de télévision via CAS), AMF (taxe sur transactions financières), Médiateur national de l'énergie (contribution fournisseurs). Aucun changement législatif majeur requis pour étendre ce mécanisme aux amendes CNIL."
+    source_url: "https://www.legifrance.gouv.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+acteurs:
+  - nom: "CNIL"
+    role: "Autorité administrative indépendante, inflige les amendes RGPD. 0 % des amendes lui reviennent."
+    type: "institution"
+    faits_associes: ["F-LOLF-001", "F-LOLF-003"]
+  - nom: "DGFiP"
+    role: "Direction générale des finances publiques, reverse les amendes au budget général via circulaire comptable."
+    type: "institution"
+    faits_associes: ["F-LOLF-001"]
+  - nom: "AEPD (Espagne)"
+    role: "Agence espagnole de protection des données, 100 % des amendes fléchées depuis 1993. Budget multiplié par 4 en 10 ans."
+    type: "institution étrangère"
+    faits_associes: ["F-LOLF-002"]
+
+causalites:
+  - cause: "Principe d'universalité budgétaire LOLF (art. 6) présenté comme bloquant"
+    effet: "Justification politique du reversement des amendes CNIL au budget général"
+    nature: "argumentative"
+  - cause: "Exceptions existantes à la LOLF (CAS, fonds de concours)"
+    effet: "Possibilité juridique de flécher sans modifier la loi - choix politique de ne pas le faire"
+    nature: "juridique"
+  - cause: "Précédents étrangers (Espagne 100 %, Portugal 40 %, Italie 50 %)"
+    effet: "Démontrent la faisabilité du fléchage dans des systèmes juridiques similaires"
+    nature: "comparative"
+
+perspectives_dialectiques:
+  - these: "La LOLF interdit le fléchage des amendes CNIL (principe d'universalité budgétaire)"
+    antithese: "La LOLF prévoit des exceptions (CAS, fonds de concours) utilisées par d'autres AAI. L'Espagne le fait depuis 1993."
+    synthese: "Le fléchage est politiquement refusé, pas juridiquement impossible. L'argument LOLF est un paravent."
+
+limites:
+  - "L'investigation n'évalue pas l'impact budgétaire concret d'un fléchage (quel montant pour la CNIL vs quel manque à gagner pour le budget général)."
+  - "Les données comparatives européennes sont partielles (Portugal : taux passé de 100 % à 40 % en 2023, détails du changement non documentés)."
+  - "Absence d'analyse juridique approfondie de la circulaire comptable DGFiP."
+
+wolves: []
+
+iceberg:
+  visible: "Débat public sur l'impossibilité juridique de flécher les amendes CNIL vers la protection des données"
+  invisible: "Choix politique délibéré de ne pas créer de CAS ou fonds de concours, motivé par la préservation d'une recette budgétaire (486,8 M€ en 2025) et le refus de renforcer les autorités de contrôle. Exemples étrangers et exceptions LOLF existantes démontrent la faisabilité."
+
+chronologie:
+  - date: "1993"
+    evenement: "Création AEPD Espagne avec fléchage 100 % des amendes"
+  - date: "2001"
+    evenement: "Adoption LOLF (n°2001-692), prévoit CAS et fonds de concours"
+  - date: "2018"
+    evenement: "Proposition sénatoriale fléchage amendes CNIL (Joissains), rejetée"
+  - date: "2025"
+    evenement: "CNIL inflige 486,8 M€ d'amendes (83 sanctions). 0 € reversé à la CNIL, aux victimes ou à la cybersécurité."
+  - date: "2026-06"
+    evenement: "Débat public : argument LOLF utilisé pour justifier le statu quo"
+
+domaines:
+  - "Droit budgétaire (LOLF)"
+  - "Protection des données personnelles (RGPD, CNIL)"
+  - "Finances publiques"
+  - "Droit comparé (Espagne, Portugal, Italie, Royaume-Uni)"
+
+urls_prioritaires:
+  - url: "https://www.legifrance.gouv.fr/"
+    description: "LOLF (Loi organique n°2001-692), articles 6, 17, 19, 21"
+  - url: "https://www.aepd.es/"
+    description: "AEPD Espagne, budget et données d'activité"
+  - url: "https://www.cnil.fr/"
+    description: "CNIL, rapports annuels et sanctions"
+
+shadow_factor: 6
+justification: "L'argument LOLF est un paravent politique commode : il permet de justifier le statu quo sans débat sur le fond. Le Trésor préserve une recette (486,8 M€ en 2025), le gouvernement évite de renforcer une autorité de contrôle qui le gêne, et les opposants au fléchage n'ont pas à défendre leur position sur le fond. La faible mobilisation sur le sujet (proposition sénatoriale rejetée sans débat en 2018) confirme que le statu quo arrange la plupart des acteurs."
+
+mnemo_queries:
+  - "LOLF universalite budgetaire flechage amendes CNIL"
+  - "Espagne AEPD flechage 100 pourcent amendes protection donnees"
+  - "comptes affectation speciale CAS flechage recettes budget Etat"
+  - "CNIL amendes budget general reversement DGFiP circulaire"
+  - "droit compare flechage amendes DPA Europe Espagne Portugal Italie"

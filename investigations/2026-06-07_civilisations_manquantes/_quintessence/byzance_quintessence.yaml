@@ -1,0 +1,153 @@
+enquete_id: byzance
+complexity: MEDIUM
+date_extraction: '2026-06-07'
+enquete_source: investigations/2026-06-07_civilisations_manquantes/2026-06-07_17-00_byzance_INVESTIGATION.md
+these_centrale: Byzance (395-1453) est le MAILLON MANQUANT de la chaîne de transmission juridique Rome→Paris. Elle conserve
+  le Corpus Juris Civilis pendant 1000 ans quand l'Europe latine l'a perdu, et le transmet à l'Italie après sa chute en 1453.
+  Sans Byzance, pas de Bologne 1070, pas de Code civil 1804. Son césaropapisme (fusion totale État/Église pendant 1000 ans)
+  en fait aussi le cas-limite de la fusion 4D documentée par l'enquête.
+theses_implicites:
+- Sans Byzance, le CJC est perdu entre 476 et 1070 — la transmission n'est PAS Rome→Bologne mais Rome→Byzance→Italie→Bologne.
+- Le césaropapisme byzantin est la fusion 4D la plus durable de l'enquête (1000 ans) — plus longue que l'Égypte pharaonique et Sumer réunies.
+- La chute de Constantinople (1453) est une catastrophe pour Byzance MAIS une renaissance pour l'Europe — les manuscrits grecs migrent en Italie.
+- Le mot 'byzantin' (synonyme de complexité excessive) est un préjugé occidental contre une administration sophistiquée qui a duré 1000 ans.
+- Byzance n'est pas un simple conservatoire — elle TRADUIT (Basiliques), ADAPTE (Épanagogue), et CRÉE (thèmes).
+faits_atomiques:
+- id: F-BYZ-001
+  enonce: Justinien compile le Corpus Juris Civilis (Code, Digeste, Institutes, Novelles) en 529-534
+  source_url: https://www.britannica.com/topic/Corpus-Juris-Civilis
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-BYZ-002
+  enonce: Les Basiliques (traduction grecque du CJC, 60 livres) sont compilées sous Léon VI le Sage
+  source_url: https://www.britannica.com/topic/Basilica
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-BYZ-003
+  enonce: L'empereur byzantin cumule pouvoir politique ET religieux (césaropapisme) — il nomme le patriarche et convoque les conciles
+  source_url: https://www.britannica.com/topic/caesaropapism
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-BYZ-004
+  enonce: La réforme des thèmes fusionne pouvoir civil et militaire dans des provinces dirigées par un stratège
+  source_url: https://www.britannica.com/topic/theme-Byzantine-government
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-BYZ-005
+  enonce: La chute de Constantinople provoque l'exil des savants byzantins vers l'Italie avec les manuscrits grecs
+  source_url: https://www.britannica.com/event/Fall-of-Constantinople-1453
+  source_section: §2
+  head_status: 200
+  tier: 2
+  glyphe: "✧"
+- id: F-BYZ-008
+  enonce: Les Institutes de Justinien (Livre I, Titre 1) définissent la justice comme 'constans et perpetua voluntas ius suum cuique tribuens'
+  source_url: https://www.thelatinlibrary.com/justinian/institutes1.shtml
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: "✦"
+- id: F-BYZ-009
+  enonce: L'Épanagogue (c. 886) codifie la doctrine de la symphonia — empereur et patriarche agissant en concorde
+  source_url: https://sourcebooks.fordham.edu/source/epanagoge.asp
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: "✦"
+- id: F-BYZ-010
+  enonce: Les Basiliques (c. 892) traduisent l'intégralité du CJC en grec en 60 livres — la plus grande compilation juridique médiévale
+  source_url: https://sourcebooks.fordham.edu/source/basilica.asp
+  source_section: §2
+  head_status: 200
+  tier: 1
+  glyphe: "✦"
+acteurs:
+- nom: Justinien
+  role: Empereur 527-565, compilation du CJC
+  faits_lies:
+  - F-BYZ-001
+- nom: Léon VI le Sage
+  role: Empereur 886-912, compilation des Basiliques
+  faits_lies:
+  - F-BYZ-002
+- nom: Patriarche Photius
+  role: Auteur de l'Épanagogue, doctrine de la symphonia
+  faits_lies:
+  - F-BYZ-009
+- nom: Savants byzantins exilés
+  role: Transmission des manuscrits grecs vers l'Italie (post-1453)
+  faits_lies:
+  - F-BYZ-005
+causalites:
+- cause: F-BYZ-001
+  effet: F-BYZ-008
+  mecanisme: Le CJC (529-534) fonde la philosophie juridique occidentale → les Institutes définissent la justice pour 1500 ans
+- cause: F-BYZ-005
+  effet: F-BYZ-002
+  mecanisme: L'exil des savants (1453) transfère les manuscrits grecs (dont les Basiliques) vers l'Italie → Bologne 1070 → Code civil 1804
+perspectives_dialectiques:
+- position: Thèse — Byzance conservatoire
+  argument: Byzance est le chaînon MANQUANT de la transmission juridique. Sans elle, le CJC est perdu. Avec elle, Bologne et le Code civil sont possibles.
+- position: Antithèse — Byzance transformatrice
+  argument: Byzance ne se contente pas de CONSERVER. Elle TRADUIT (Basiliques), ADAPTE (Épanagogue), et CRÉE (thèmes). La transmission est active.
+- position: Synthèse — Byzance contre-modèle
+  argument: Le césaropapisme byzantin est l'EXACT OPPOSÉ de la laïcité française (1905). La France a CHOISI l'inverse.
+limites:
+- Sources majoritairement Britannica (encyclopédique) — 3 ✦ primaires ajoutées en v2
+- 0 source musulmane ou slave sur la conquête de 1453
+- Dimension religieuse (orthodoxie, schisme 1054) sous-traitée
+wolves:
+- nom: Edward Gibbon
+  argument: Byzance = décadence, corruption, théologie stérile — empire 'indigne' de Rome
+  reponse: Gibbon a imposé ce préjugé pour 200 ans. Byzance a conservé le droit romain quand l'Occident l'a perdu
+- nom: Historiographie occidentale
+  argument: Rome→Bologne = chaîne directe, Byzance = parenthèse orientale négligeable
+  reponse: Faux. Sans Byzance, pas de transmission. La chaîne réelle est Rome→Byzance→Italie→Bologne→Paris
+iceberg:
+- Sujet immergé #1 : Le césaropapisme byzantin est la fusion 4D la plus durable de l'enquête (1000 ans) — cas-limite pour la thèse de capture
+- Sujet immergé #2 : Le mot 'byzantin' comme insulte administrative est un préjugé occidental contre une bureaucratie qui a survécu 1000 ans
+chronologie:
+- date: '395'
+  evenement: Division de l'Empire romain — naissance de l'Empire romain d'Orient
+  source_fait: F-BYZ-003
+- date: 529-534
+  evenement: Justinien compile le Corpus Juris Civilis
+  source_fait: F-BYZ-001
+- date: VIIe s.
+  evenement: Réforme des thèmes — fusion pouvoir civil et militaire
+  source_fait: F-BYZ-004
+- date: c. 886
+  evenement: Épanagogue de Photius — doctrine de la symphonia
+  source_fait: F-BYZ-009
+- date: c. 892
+  evenement: Basiliques — traduction grecque du CJC en 60 livres
+  source_fait: F-BYZ-010
+- date: '1453'
+  evenement: Chute de Constantinople — exil des savants vers l'Italie
+  source_fait: F-BYZ-005
+domaines:
+- Droit : conservation du CJC (534-1453), traduction grecque (Basiliques), doctrine symphonia (Épanagogue)
+- Religion : césaropapisme — fusion totale État/Église pendant 1000 ans
+- Administration : logothètes + thèmes, bureaucratie impériale complexe
+- Transmission : Byzance → Italie (1453) → Bologne (1070/redécouverte) → Paris (1804)
+urls_prioritaires:
+- url: https://www.thelatinlibrary.com/justinian/institutes1.shtml
+  description: Institutes de Justinien — source primaire latine
+  head_status: 200
+- url: https://sourcebooks.fordham.edu/source/epanagoge.asp
+  description: Épanagogue — doctrine symphonia, source primaire
+  head_status: 200
+- url: https://sourcebooks.fordham.edu/source/basilica.asp
+  description: Basiliques — compilation juridique grecque
+  head_status: 200
+shadow_factor: 3.0
+mnemo_queries: []
+mnemo_cross_refs: []

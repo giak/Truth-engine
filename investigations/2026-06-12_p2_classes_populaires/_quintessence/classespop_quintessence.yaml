@@ -1,0 +1,76 @@
+enquete_id: "classes_pop"
+complexity: "COMPLEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p2_classes_populaires/2026-06-12_12-00_classes_populaires_coordination_invisible_INVESTIGATION.md"
+
+these_centrale: "Les classes populaires pratiquent une coordination acéphale PAR DÉFAUT (tontines, caisses de solidarité, grèves sauvages, collectifs de femmes QPV) — non par choix stratégique mais par nécessité structurelle. Ces réseaux sont fonctionnels, pérennes et massifs, mais invisibles au corpus qui confond 'absence d'organisation formelle' et 'absence de coordination'. Le corpus adopte la lunette Putnam (adhésion aux institutions formelles) et ne voit pas les réseaux Bourdieu (relations denses, survie)."
+
+theses_implicites:
+  - "L'angle mort du corpus est épistémologique, pas sociologique : il cherche des 'stratégies' et 'protocoles' (objets CSP+), pas des relations et pratiques (objets populaires)."
+  - "Les réseaux de survie ne sont pas politiques par nature, mais ils sont la BASE sur laquelle une coordination politique pourrait se construire."
+  - "Les classes populaires savent se coordonner — elles ne savent pas survivre à la répression une fois coordonnées (absence de sanctuaires TC3)."
+
+acteurs:
+  - "Classes populaires françaises (ouvriers, employés, QPV, ruraux)"
+  - "Bourdieu (La Distinction, 1979) : capital social comme ressource de relations, pas d'institutions"
+  - "Putnam (Bowling Alone, 2000) : capital social mesuré par adhésion formelle"
+  - "INSEE : 60% cadres vs 30% ouvriers en association — mais ne mesure que le formel"
+  - "Grèves sauvages : femmes de ménage Ibis (2019-2021), livreurs Deliveroo (2019-2021)"
+  - "Collectifs de femmes QPV : tontines, cuisine collective, entraide numérique"
+
+causalites:
+  - "Lunette Putnam → invisibilité des réseaux populaires informels"
+  - "Confusion corpus 'organisation formelle' vs 'coordination effective' → cécité épistémologique"
+  - "Absence de sanctuaires (TC3) → les grèves sauvages sont éphémères, pas pérennes"
+  - "Réseaux de survie → base pour politisation future (modèle LRC soudanais)"
+
+perspectives_dialectiques:
+  - "Thèse : les classes populaires sont exclues de la coordination. Antithèse : elles sont peut-être les PLUS coordonnées, mais sous des formes que le corpus ne sait pas lire."
+  - "Thèse : l'enquête documente une coordination réelle. Antithèse (Wolf 1) : la survie n'est pas la contestation — gérer collectivement la misère n'est pas défier le pouvoir."
+  - "Thèse : le corpus doit entrer dans l'enquête de terrain. Antithèse (Wolf 3) : l'enquête elle-même idéalise les classes populaires par compensation — sans preuve empirique directe, elle reproduit le biais qu'elle dénonce."
+
+faits_atomiques:
+  - F-cls-001: "INSEE : ~60% cadres en association vs ~30% ouvriers/employés. Mais ne mesure QUE l'adhésion formelle — exclut tontines, caisses de grève autogérées, collectifs informels."
+    glyph: "✦"
+  - F-cls-002: "Bourdieu (1979) vs Putnam (2000) : deux définitions du capital social. Putnam = adhésion formelle (déficit populaire). Bourdieu = réseaux de relations (densité populaire). Le corpus adopte implicitement Putnam."
+    glyph: "✦"
+  - F-cls-003: "CNV : QPV abritent économie populaire informelle massive (tontines, cuisine collective, garde d'enfants mutualisée) — taux pauvreté >40%. Réseaux souvent portés par collectifs de femmes."
+    glyph: "✧"
+  - F-cls-004: "Grèves femmes de ménage Ibis (2019-2021) et livreurs Deliveroo (2019-2021) : auto-organisation SANS syndicat formel — groupes WhatsApp, caisses de grève autogérées, AG horizontales."
+    glyph: "❧"
+  - F-cls-005: "LRC soudanais : nés comme réseaux de survie avant de devenir organes politiques. Modèle de politisation par utilité locale."
+    glyph: "✧"
+
+limites:
+  - "Aucune enquête de terrain — analyse de sources secondaires."
+  - "Données QPV/économie informelle parcellaires (institutions ne mesurent pas ce qu'elles ne voient pas)."
+  - "Hypothèse 'classes populaires = réservoir de coordination le plus dense' invérifiée — possible biais de compensation."
+
+wolves:
+  - loup: "Romantisation de la pauvreté : la survie n'est pas la contestation"
+    reponse: "Distinction valide mais ne disqualifie pas la thèse. Les réseaux de survie sont la BASE pour une coordination politique — la question est 'comment les politiser ?'"
+  - loup: "Les grèves sauvages sont éphémères, pas pérennes"
+    reponse: "Exact. La question est 'pourquoi ne durent-elles pas ?' Réponse : absence de sanctuaires (TC3), pas absence de capacité de coordination."
+  - loup: "L'enquête idéalise les classes populaires par compensation — elle reproduit le biais qu'elle dénonce"
+    reponse: "Wolf le plus juste. L'enquête est une hypothèse, pas une démonstration. Ne peut être fermé que par investigation de terrain."
+
+iceberg:
+  - "Angle mort épistémologique : le corpus cherche des objets CSP+ (stratégies, protocoles), pas des pratiques populaires (relations, solidarités)"
+  - "Bourdieu vs Putnam : deux lunettes pour mesurer le capital social"
+  - "Des réseaux de survie à la coordination politique : le chaînon manquant"
+  - "TC4 confirmé mais nuancé : exclusion structurelle = cécité du corpus, pas absence de coordination"
+
+chronologie:
+  - "1979 : Bourdieu, La Distinction"
+  - "2000 : Putnam, Bowling Alone"
+  - "2019-2021 : Grèves femmes de ménage Ibis, livreurs Deliveroo"
+  - "2019-2021 : LRC soudanais (survie → politisation)"
+  - "2026 : Corpus Truth Engine"
+
+domaines:
+  - "sociologie_classes_sociales"
+  - "coordination_populaire"
+  - "economie_informelle"
+  - "mouvements_sociaux"
+
+urls: []

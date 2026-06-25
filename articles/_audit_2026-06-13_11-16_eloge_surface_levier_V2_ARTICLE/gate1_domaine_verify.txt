@@ -1,0 +1,33 @@
+### Problèmes identifiés
+
+
+| # | Ligne | Citation | Code | Grav (1-5) | Conf (1-5) | Correction ou question |
+|---|---|---|---|---|---|---|
+| 1 | *L'article ne fournit pas de sources pour les faits historiques mentionnés.* | *Les dates, noms et événements doivent être vérifiés avec des sources fiables.* | FACT | 4 | 3 | Vérifier les informations historiques |
+| 2 | *L'article suggère que le boycott de produits israéliens pourrait bientôt être criminalisé en France, mais ne fournit pas de preuves concrètes.* | *Il est nécessaire d'attendre l'adoption de la loi pour évaluer son impact.* | FACT | 3 | 2 | Attendre l'adoption de la loi |
+| 3 | *L'article affirme que le boycott peut avoir un impact significatif sur les marchés financiers, mais ne fournit pas d'études ou d'exemples concrets.* | *Il serait utile d'inclure des données historiques ou des analyses pour étayer cette affirmation.* | FACT | 4 | 2 | Ajouter des exemples ou des études |
+| 4 | *L'article suggère que les mouvements clandestins sont systématiquement écrasés par l'État, mais ne présente pas de cas où un tel mouvement a réussi à obtenir des concessions durables.* | *Il serait intéressant d'inclure des exemples contre-argumentatifs pour une perspective plus équilibrée.* | FACT | 3 | 2 | Ajouter des exemples de succès |
+| 5 | *L'article recommande l'utilisation de circuits V2 (coopératives, AMAP, monnaies locales) sans expliquer comment ces structures peuvent être efficacement utilisées pour contrecarrer les politiques gouvernementales.* | *Il serait utile d'apporter des détails sur la mise en œuvre et l'impact de ces circuits.* | LACUNA | 3 | 2 | Expliquer l'utilisation des circuits V2 |
+| 6 | *L'article souligne l'importance d'une infrastructure économique alternative, mais ne décrit pas comment celle-ci pourrait être mise en place concrètement.* | *Des exemples ou des étapes pratiques seraient bienvenus pour clarifier cette proposition.* | LACUNA | 3 | 2 | Décrire la mise en œuvre de l'infrastructure alternative |
+| 7 | *L'article mentionne que le boycott peut être un moyen efficace de frapper l'État, mais ne discute pas des risques potentiels ou des contre-mesures possibles.* | *Une analyse plus complète serait nécessaire pour évaluer les avantages et les inconvénients du boycott.* | LACUNA | 3 | 2 | Discuter des risques et des contre-mesures |
+| 8 | *L'article suggère que l'État craint les mouvements qui ont quelque chose à perdre, mais ne fournit pas de preuves spécifiques pour étayer cette affirmation.* | *Il serait utile d'inclure des exemples ou des données pour étayer cette théorie.* | FACT | 3 | 2 | Vérifier les motivations de l'État |
+| 9 | *L'article recommande de crier plutôt que de rester clandestin, mais ne discute pas des risques potentiels associés à une telle approche.* | *Une analyse plus complète serait nécessaire pour évaluer les avantages et les inconvénients de la transparence.* | LACUNA | 3 | 2 | Discuter des risques de la transparence |
+| 10 | *L'article suggère que l'infrastructure économique alternative est cruciale pour le succès d'un mouvement, mais ne fournit pas de détails sur la manière dont cela peut être réalisé.* | *Des exemples ou des étapes pratiques seraient bienvenus pour clarifier cette proposition.* | LACUNA | 3 | 2 | Décrire la mise en œuvre de l'infrastructure alternative |
+
+
+### FATALITÉS (Critical Flaw Veto)
+
+| # | Ligne | Citation | Code | Justification |
+|---|---|---|---|---|
+| 1 | *L'article ne fournit pas de sources pour les faits historiques mentionnés.* | *Les dates, noms et événements doivent être vérifiés avec des sources fiables.* | FACT | La non-citation des sources rend l'information peu crédible. |
+
+
+### Où le texte est solide dans cette dimension
+
+- Ligne 10 : « Les Soulèvements de la Terre sont ancrés dans la Confédération paysanne : arrêter des agriculteurs syndiqués a un coût politique. Distribuons de la nourriture. Tenons des permanences juridiques. Gardons les enfants. Ensuite, chiffrons. Mais la légitimité locale est la fondation sans laquelle la technique ne sert à rien. Un réseau utile survit parce que la population le défend. Un réseau chiffré mais inutile est balayé. »
+- Ligne 15 : « La révolution aura un compte en banque, un recours au Conseil d'État, une cagnotte HelloAsso, et une stratégie qui ne vise pas le budget de l'État mais sa capacité à emprunter. Elle ne sera pas chiffrée, mais elle ne sera pas non plus naïve sur ce qui fait vraiment mal à ceux qui tiennent les cordons de la bourse publique. »
+
+
+### CANNOT_ASSESS
+
+- Aspect : l'impact potentiel des boycotts sur les marchés financiers n'est pas étayé par des données ou des analyses concrètes.

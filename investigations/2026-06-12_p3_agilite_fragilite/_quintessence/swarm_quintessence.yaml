@@ -1,0 +1,135 @@
+enquete_id: "swarm"
+complexity: "COMPLEX"
+date_extraction: "2026-06-12"
+enquete_source: "investigations/2026-06-12_p3_agilite_fragilite/2026-06-12_12-00_agilite_fragilite_anonymous_swarm_INVESTIGATION.md"
+
+these_centrale: "Les mouvements éphémères (Anonymous, flashmobs, swarm) contournent les 6 axes de verrouillage SANS piliers défensifs mais ne peuvent pas GAGNER. Pour obtenir des changements structurels, un mouvement doit renoncer à sa fragilité — le 'paradoxe de la solidification' — et se doter d'une architecture capable de négocier, au risque de devenir vulnérable."
+
+theses_implicites:
+  - "Le modèle swarm est biologiquement insoutenable sur la durée : l'attention hyperactive exigée ne tient pas 30 ans de conflit politique."
+  - "La perturbation esthétique (Anonymous, flashmobs) est confondue avec la conquête du pouvoir — aucun mouvement éphémère n'a obtenu de concession politique durable."
+  - "Le 'paradoxe de la solidification' est le problème central non résolu : comment passer de l'éphémère au durable sans se faire écraser pendant la transition ?"
+
+faits_atomiques:
+  - id: "F-swarm-001"
+    enonce: "Anonymous est structurellement fluide (rhizomatique) : coordination par proposition d'action, pas par commandement. L'absence de membres identifiables rend l'infiltration stérile."
+    source_url: null
+    source_section: "§1"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-swarm-002"
+    enonce: "Anonymous a mené des opérations coordonnées internationales (Chanology 2008, Tunisia 2011) sans structure, hiérarchie ni financement central."
+    source_url: null
+    source_section: "§1"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-swarm-003"
+    enonce: "Les flashmobs politiques (Biélorussie 2011, Hong Kong 2019 'Be Water') utilisent la brièveté pour annuler le temps de réaction de la répression. Hong Kong a été écrasé politiquement par la loi de sécurité nationale de 2020."
+    source_url: null
+    source_section: "§2"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-swarm-004"
+    enonce: "Le modèle swarm coordonne sans communication : chaque agent suit des règles locales simples — immunisé contre l'interception de communications."
+    source_url: null
+    source_section: "§2"
+    head_status: null
+    tier: 3
+    glyphe: "✧"
+  - id: "F-swarm-005"
+    enonce: "Les mouvements éphémères ne peuvent pas négocier : les concessions politiques exigent des interlocuteurs identifiables capables de faire appliquer des accords."
+    source_url: null
+    source_section: "§3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+  - id: "F-swarm-006"
+    enonce: "Le 'paradoxe de la solidification' : pour gagner, un mouvement doit renoncer à sa fragilité et devenir vulnérable. La victoire exige de devenir ciblable."
+    source_url: null
+    source_section: "§3"
+    head_status: null
+    tier: 4
+    glyphe: "❧"
+
+acteurs:
+  - nom: "Anonymous"
+    role: "Mouvement hacktiviste décentralisé — modèle de coordination sans structure"
+    faits_lies: ["F-swarm-001", "F-swarm-002"]
+  - nom: "Activistes Hong Kong 2019"
+    role: "Utilisateurs de la tactique 'Be Water' — défaite politique en 2020"
+    faits_lies: ["F-swarm-003"]
+
+causalites:
+  - cause: "F-swarm-001"
+    effet: "F-swarm-002"
+    mecanisme: "L'absence de hiérarchie et de membres identifiables permet la coordination de masse sans point de défaillance unique. L'invitation remplace l'ordre."
+  - cause: "F-swarm-005"
+    effet: "F-swarm-006"
+    mecanisme: "L'impossibilité de négocier force le mouvement à rester éphémère. La seule 'victoire' possible est la perturbation. Pour construire, il faut se solidifier et s'exposer."
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "La fragilité est une protection ultime : impossible à détruire parce qu'il n'y a rien à détruire. Anonymous et les swarms le démontrent."
+  - position: "Antithèse"
+    argument: "La fragilité est une impuissance ultime : impossible à faire durer, impossible à négocier. Aucun mouvement éphémère n'a jamais obtenu de changement structurel."
+  - position: "Synthèse"
+    argument: "Les tactiques éphémères sont des outils de PERTURBATION complémentaires à une architecture durable. Le défi non résolu est la transition entre les deux phases."
+
+limites:
+  - "Mouvements éphémères documentés n'ont jamais obtenu de victoire politique durable."
+  - "Modèle swarm non testé en contestation prolongée (Hong Kong écrasé)."
+  - "Le 'paradoxe de la solidification' est un concept théorique, pas un mécanisme documenté empiriquement."
+
+wolves:
+  - nom: "Mur temporel de l'usure"
+    argument: "Le swarm exige une attention hyperactive permanente — biologiquement insoutenable sur 30 ans. Le système étatique a des fonctionnaires payés 35h pour rester en position indéfiniment."
+    reponse: "Recevable. L'enquête admet la distinction entre perturbation (court terme) et conquête (long terme) mais ne résout pas le problème de la transition."
+  - nom: "Piège hors connexion"
+    argument: "Le modèle swarm s'effondre physiquement face au kettling, gaz, et arrestations de masse en 24h. Hong Kong 2019, cité comme exemple, est une défaite politique totale."
+    reponse: "Partiellement neutralisé : l'enquête admet déjà que les mouvements éphémères 'ne peuvent pas gagner'. La question non résolue : comment basculer de l'éphémère au durable ?"
+
+iceberg:
+  - "Quel mécanisme de transition entre phase éphémère (perturbation) et phase durable (construction) ? Le corpus ne le théorise pas."
+  - "Mnemolite: UP (36 942 mémoires) mais API search en erreur 500."
+  - "Sujet immergé : le modèle hybride (swarm pour perturber + piliers défensifs pour durer) est-il viable ou les deux phases sont-elles incompatibles ?"
+
+chronologie:
+  - date: "2008"
+    evenement: "Opération Chanology (Anonymous vs Scientologie)"
+    source_fait: "F-swarm-002"
+  - date: "2011"
+    evenement: "Opération Tunisia (Anonymous soutient la révolution tunisienne)"
+    source_fait: "F-swarm-002"
+  - date: "2011"
+    evenement: "Flashmobs Biélorussie (applaudissements silencieux)"
+    source_fait: "F-swarm-003"
+  - date: "2019"
+    evenement: "Hong Kong — tactiques 'Be Water'"
+    source_fait: "F-swarm-003"
+  - date: "2020"
+    evenement: "Loi de sécurité nationale — écrasement de Hong Kong"
+    source_fait: "F-swarm-003"
+
+domaines:
+  - "Tactiques de résistance"
+  - "Théorie des organisations"
+  - "Cyber-activisme"
+  - "Mouvements sociaux"
+
+urls_prioritaires:
+  - url: null
+    description: "Carnegie Endowment, 'Fighting the Hydra' — résilience des mouvements décentralisés"
+    head_status: null
+
+shadow_factor: 3.4
+
+mnemo_queries:
+  - query: "coordination acéphale"
+    results_count: 0
+    error: "API error 500"
+  - query: "économie coordination victoire financement"
+    results_count: 0
+    error: "API error 500"

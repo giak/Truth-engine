@@ -1,0 +1,289 @@
+enquete_id: "medias"
+complexity: "APEX"
+date_extraction: "2026-06-19"
+enquete_source: "investigations/2026-06-19-performativite-gouvernance/2026-06-19_11-30_medias_concentration_milliardaires_APEX.md"
+these_centrale: "Cinq milliardaires (Bolloré, Bouygues, Arnault, Saadé, Niel) contrôlent directement ou indirectement plus de 75 % des audiences médiatiques françaises, et neuf milliardaires détiennent plus de 90 % des médias — le pluralisme formel (multiplicité des titres) masque un pluralisme réel en chute libre, avec des mécanismes de coordination qui contournent les seuils anti-concentration de la loi de 1986."
+theses_implicites:
+  - "Le contrôle ne s'exerce pas seulement par la propriété capitalistique mais par quatre canaux : nomination des directions alignées, éviction des journalistes réfractaires, coordination entre groupes par échanges de participations, verrouillage des canaux de distribution"
+  - "La régulation (Arcom) est structurellement impuissante : sanctions lentes, peu dissuasives, jamais préventives"
+  - "Le système médiatique français opère une verticalisation totale incluant l'édition (Hachette, Grasset, Editis), la distribution (Relay) et la production audiovisuelle"
+  - "Les réseaux d'influence transverses (CELSA, Léonarduzzi, Marchand) forment un écosystème de circulation des élites entre médias, communication et pouvoir politique"
+faits_atomiques:
+  - id: "F-medias-001"
+    enonce: "Carte Acrimed/Le Monde diplomatique v21.1 : 5 milliardaires contrôlent >75 % audiences, 9 >90 % des médias"
+    source_url: "https://www.acrimed.org/Medias-francais-qui-possede-quoi"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-002"
+    enonce: "Classement RSF 2026 : France 25e/180, concentration médias point noir"
+    source_url: "https://rsf.org/fr/classement-2026-la-libert%C3%A9-de-la-presse-au-plus-bas-depuis-25-ans"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-003"
+    enonce: "Audiences annuelles 2025 Médiamétrie : TF1 18,7 %, CNews 3,4 %, BFMTV 2,8 %, LCI 2,0 %"
+    source_url: "https://fr.themedialeader.com/audiences-annuelles-2025-france-tv-et-tf1-en-tete-cnews-et-canal-en-forte-progression/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-004"
+    enonce: "Audiences TV mars 2026 : TF1 18,4 %, LCI record 3,2 %, CNews 3,2 %, BFMTV 3,5 %"
+    source_url: "https://www.leblogtvnews.com/2026/03/part-d-audience-en-mars-2026-tf1-net-leader-lci-explose-son-record-w9-distance-tmc-novo19-derniere.html"
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-medias-005"
+    enonce: "Groupes audiovisuels avril 2026 : France TV 29 %, TF1 27 %, M6 14 %, RMC BFM 7,3 %, Canal+ 5,1 %"
+    source_url: "https://fr.themedialeader.com/audiences-tv-avril-2026-bfmtv-et-lci-profitent-du-conflit-au-moyen-orient-cnews-souffre/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-006"
+    enonce: "Vincent Bolloré : 11e fortune France, 10,3 Md$ (Forbes 2025)"
+    source_url: "https://www.forbes.com/profile/vincent-bollore/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-007"
+    enonce: "Empire Bolloré/Vivendi : Canal+, CNews, C8 (perte TNT), Europe 1, JDD, Paris Match, Hachette, Grasset, Fayard, Prisma Media — audience cumulée ~24 %"
+    source_url: "https://www.rtbf.be/article/canal-europe1-c8-cnews-comment-vincent-bollore-s-y-est-il-pris-pour-controler-le-paysage-mediatique-francais-11426575"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-008"
+    enonce: "52 sanctions Arcom contre CNews et C8 depuis 2012 (16 en 2024 seule), 7,6 M€ amendes cumulées C8"
+    source_url: "https://www.telesatellite.com/actu/67810-confirmation-de-trois-sanctions-financieres-contre-cnews-par-le-conseil-Etat.html"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-009"
+    enonce: "Mise en demeure Arcom CNews juin 2026 pour déséquilibre pluraliste — première application arrêt CE 2024"
+    source_url: "https://fr.themedialeader.com/pluralisme-larcom-sanctionne-cnews-qui-va-saisir-le-conseil-detat/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-010"
+    enonce: "Arrêt Conseil d'État 13 février 2024 : pluralisme élargi aux chroniqueurs"
+    source_url: "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2024-02-13/463162"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-011"
+    enonce: "C8 perd sa fréquence TNT (décision Arcom juillet 2024, effet mars 2025) — non-renouvellement"
+    source_url: "https://fr.euronews.com/my-europe/2024/07/25/france-la-chaine-tv-c8-de-vincent-bollore-perd-sa-frequence-sur-la-tnt"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-012"
+    enonce: "CMA CGM rachète Altice Media (BFM, RMC) pour 1,55 Md€ (mars 2024, finalisé juillet 2024)"
+    source_url: "https://www.la-croix.com/cma-cgm-annonce-un-accord-pour-racheter-altice-media-maison-mere-de-bfmtv-20240315"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-013"
+    enonce: "Rodolphe Saadé possède : BFMTV, RMC, La Provence, La Tribune, Corse-Matin, Brut, RMC Sport"
+    source_url: "https://fr.wikipedia.org/wiki/Rodolphe_Saad%C3%A9"
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-medias-014"
+    enonce: "Kretinsky rachète Editis à Vivendi pour 653 M€ (validé CE oct. 2023, finalisé nov. 2023)"
+    source_url: "https://www.liberation.fr/economie/medias/vivendi-cede-editis-a-daniel-kretinsky-20231114_AALKQLF3NJGZHCWE73PQ5GCK5Y"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-015"
+    enonce: "Proposition de loi Taillé-Polian anti-concentration (oct. 2025) — pas de vote final"
+    source_url: "https://www.assemblee-nationale.fr/dyn/17/dossiers/prevenir-concentration-medias-proteger-liberte-editiorale-renforcer-pluralisme-17e"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-016"
+    enonce: "Proposition de loi sénateur Robert (juillet 2024) : indépendance éditoriale — pas de suite"
+    source_url: "https://www.senat.fr/leg/ppl23-741.html"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-017"
+    enonce: "RSF appelle à soutenir la loi Taillé-Polian (fév. 2026) — France en retard de transposition EMFA"
+    source_url: "https://rsf.org/en/media-concentration-france-rsf-calls-mps-support-new-bill-setting-out-key-safeguards-pluralism-and"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-018"
+    enonce: "Mimi Marchand condamnée 18 mois avec sursis pour extorsion (juillet 2025)"
+    source_url: "https://www.ladepeche.fr/2025/05/26/qui-est-mimi-marchand-papesse-de-la-presse-people-et-proche-du-couple-macron-soupconnee-davoir-extorque-karine-le-marchand-12721275.php"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-019"
+    enonce: "Clément Léonarduzzi — président exécutif de Publicis Consultants, réseau spin doctors CELSA"
+    source_url: "https://www.publicisgroupe.com/fr/news-fr/communiques-de-presse/publicis-groupe-nomme-clement-leonarduzzi-president-executif-de-publicis-consultants"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-020"
+    enonce: "Xavier Niel : actionnaire Le Monde, L'Obs, Nice-Matin, Bestimage — empire médias"
+    source_url: "https://www.freenews.fr/xavier-niel/xavier-niel-architecte-dun-empire-global-des-telecoms-aux-medias-en-passant-par-les-start-ups-et-limmobilier-dans-challenges"
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-medias-021"
+    enonce: "CNews première chaîne info française en 2024-2025 avec 3,4 % PDA annuel 2025, dépassant BFMTV"
+    source_url: "https://www.ojim.fr/audiences-tv-2025/"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-022"
+    enonce: "LVMH acquiert OpinionWay (institut de sondage, 2022) — conflit d'intérêts médias + mesure opinion"
+    source_url: "https://www.lesechos.fr/tech-medias/medias/le-groupe-les-echos-le-parisien-fait-lacquisition-dopinionway-1778849"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-023"
+    enonce: "10 milliardaires = 90 % des ventes de quotidiens nationaux, 55 % de l'audience (Libération/France Culture)"
+    source_url: "https://www.radiofrance.fr/franceculture/podcasts/le-temps-du-debat/medias-les-milliardaires-achetent-ils-de-l-influence-7017443"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-medias-024"
+    enonce: "Éviction Olivier Nora (Grasset, avril 2026) — méthode Bolloré, remplacement par direction alignée"
+    source_url: "https://www.lejdd.fr/culture/exclusif-affaire-grasset-la-reponse-de-vincent-bollore-171828"
+    source_section: "§11"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-medias-025"
+    enonce: "Scission Vivendi en 4 entités (Canal+, Havas, Louis Hachette Group, Vivendi SE) — contournement seuils régulatoires"
+    source_url: "https://www.lemonde.fr/economie/article/2025/11/19/vivendi-le-groupe-bollore-en-passe-d-echapper-a-une-facture-colossale_6653978_3234.html"
+    source_section: "§11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+acteurs:
+  - nom: "Vincent Bolloré"
+    role: "Actionnaire Vivendi — contrôle éditorial direct (CNews, Europe 1, JDD, Hachette, Grasset), méthode d'éviction des journalistes réfractaires"
+    faits_lies: ["F-medias-006", "F-medias-007", "F-medias-024", "F-medias-025"]
+  - nom: "Bernard Arnault"
+    role: "Actionnaire LVMH — soft power, Groupe Les Echos-Le Parisien, Paris Match, OpinionWay, Challenges, non-interventionnisme affiché mais verrouillage par le haut"
+    faits_lies: ["F-medias-022"]
+  - nom: "Rodolphe Saadé"
+    role: "Actionnaire CMA CGM → CMA Média — construit un empire depuis 2022 (BFM, RMC, La Provence, La Tribune, Brut)"
+    faits_lies: ["F-medias-012", "F-medias-013"]
+  - nom: "Xavier Niel"
+    role: "Actionnaire NJJ → Le Monde, L'Obs, Nice-Matin, Bestimage — indépendance éditoriale garantie mais paradoxe Bestimage/Marchand"
+    faits_lies: ["F-medias-018", "F-medias-020"]
+  - nom: "Mimi Marchand"
+    role: "Fondatrice de Bestimage, proche du couple Macron, condamnée pour extorsion, agence rachetée par Niel"
+    faits_lies: ["F-medias-018"]
+causalites:
+  - cause: "F-medias-025"
+    effet: "F-medias-007"
+    mecanisme: "La scission Vivendi en 4 entités permet à Bolloré de contourner les seuils anti-concentration de la loi de 1986 tout en maintenant le contrôle effectif"
+  - cause: "F-medias-015"
+    effet: "F-medias-009"
+    mecanisme: "L'absence de vote de la loi Taillé-Polian laisse l'Arcom sans outil juridique renforcé, expliquant le retard dans l'application de l'arrêt CE 2024"
+  - cause: "F-medias-012"
+    effet: "F-medias-002"
+    mecanisme: "Le rachat de BFMTV/RMC par Saadé accélère la concentration, dégradant la position française au classement RSF de la liberté de la presse"
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "La concentration des médias par 5 milliardaires est une menace existentielle pour la démocratie française — elle vide le pluralisme de sa substance et verrouille le débat public"
+  - position: "Antithèse"
+    argument: "La loi de 1986 encadre déjà la concentration, l'Arcom veille au pluralisme, la multiplication des chaînes et pure players compense, et la France reste 25e au classement RSF"
+  - position: "Synthèse"
+    argument: "Le pluralisme de l'offre (multiplicité des chaînes) ignore la question de la propriété : 5 hommes décident de l'orientation éditoriale des médias que 80 % des Français consomment, et le système combine hyper-concentration et hypocrisie régulatoire"
+limites:
+  - "Tous les chiffres d'audience sont déclarés par Médiamétrie (méthodologie non auditée)"
+  - "Les parts exactes de détention capitalistique peuvent varier dans le temps (holdings opaques)"
+  - "Ne couvre pas les pure players indépendants (Mediapart, Blast), les médias associatifs, ni les réseaux sociaux"
+  - "L'impact électoral réel des biais médiatiques n'est pas mesuré"
+wolves:
+  - nom: "LVMH + OpinionWay : fabrication de l'opinion"
+    argument: "L'acquisition d'OpinionWay par LVMH crée un conflit d'intérêts inédit : le même groupe possède médias et outil de mesure de l'opinion"
+    reponse: "Risque de sondages orientés mis en Une des journaux du groupe, créant une opinion auto-réalisatrice — wolf activé"
+  - nom: "Kretinsky verticalisation Fnac/Editis"
+    argument: "Kretinsky possède Editis (2e éditeur) et 25 % de la Fnac (1er distributeur de livres)"
+    reponse: "Contrôle de la chaîne du livre de l'auteur au lecteur — lequel des deux groupes dicte ses conditions à l'autre ?"
+iceberg:
+  - "Lien avec enquête climat : 665 cas désinformation climatique, 80 % sur CNews/Europe1 (Bolloré) — la concentration médiatique a un impact direct sur la couverture climat"
+  - "Lien avec enquête justice : les médias Bolloré couvrent intensément les affaires judiciaires (Fillon, Lyhanna) avec un angle orienté"
+  - "Le CELSA forme 1500 communicants/an placés dans les directions com' des 5 groupes + ministères — capture douce par formation des élites"
+  - "Mnemolite : enquête système France 2026-04-05 montre la même cartographie de concentration à 9 milliardaires"
+chronologie:
+  - date: "1986"
+    evenement: "Loi Léotard — premiers seuils anti-concentration audiovisuelle"
+    source_fait: null
+  - date: "2004"
+    evenement: "Bolloré rachète Havas — premier pas dans les médias"
+    source_fait: null
+  - date: "2014"
+    evenement: "iTélé devient CNews — virage vers chaîne d'opinion d'extrême droite"
+    source_fait: "F-medias-007"
+  - date: "2023-06"
+    evenement: "Grève historique JDD (99 % contre nomination Geoffroy Lejeune)"
+    source_fait: "F-medias-007"
+  - date: "2024-02-13"
+    evenement: "Conseil d'État impose pluralisme élargi aux chroniqueurs CNews"
+    source_fait: "F-medias-010"
+  - date: "2024-03"
+    evenement: "CMA CGM annonce rachat Altice Media pour 1,55 Md€"
+    source_fait: "F-medias-012"
+  - date: "2025-10"
+    evenement: "Proposition de loi Taillé-Polian anti-concentration"
+    source_fait: "F-medias-015"
+  - date: "2025-12"
+    evenement: "CNews 3,4 % PDA annuel 2025, 1re chaîne info française"
+    source_fait: "F-medias-021"
+  - date: "2026-06"
+    evenement: "Mise en demeure Arcom CNews pour déséquilibre pluraliste"
+    source_fait: "F-medias-009"
+domaines:
+  - "Concentration des médias"
+  - "Régulation audiovisuelle"
+  - "Liberté de la presse"
+  - "Communication politique"
+  - "Édition et distribution"
+urls_prioritaires:
+  - url: "https://www.acrimed.org/Medias-francais-qui-possede-quoi"
+    description: "Carte Acrimed/Le Monde diplomatique — référence concentration médias v21.1"
+    head_status: 200
+  - url: "https://rsf.org/fr/classement-2026-la-libert%C3%A9-de-la-presse-au-plus-bas-depuis-25-ans"
+    description: "RSF 2026 — France 25e, concentration point noir"
+    head_status: 200
+  - url: "https://fr.themedialeader.com/audiences-annuelles-2025-france-tv-et-tf1-en-tete-cnews-et-canal-en-forte-progression/"
+    description: "Audiences annuelles 2025 Médiamétrie"
+    head_status: 200
+  - url: "https://www.telesatellite.com/actu/67810-confirmation-de-trois-sanctions-financieres-contre-cnews-par-le-conseil-Etat.html"
+    description: "52 sanctions Arcom CNews/C8 — CE confirme 139 000€ amendes"
+    head_status: 200
+shadow_factor: 6.6
+mnemo_queries:
+  - query: "médias concentration milliardaires France Bolloré Arcom"
+    results_count: 5
+  - query: "concentration médiatique française pluralisme information régulation"
+    results_count: 5

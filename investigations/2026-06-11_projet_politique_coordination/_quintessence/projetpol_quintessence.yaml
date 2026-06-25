@@ -1,0 +1,204 @@
+enquete_id: projetpol
+enquete_source:
+- chemin: investigations/2026-06-11_projet_politique_coordination/2026-06-11_00-00_levier_projet_politique_APEX.md
+  type: APEX
+  lignes: ~600
+date_extraction: '2026-06-12'
+complexity: APEX
+these_centrale: 'La coordination acéphalique sans projet politique est un suicide stratégique. Le corpus identifie LEVIER
+  comme le gap le plus critique : qu''est-ce qu''on propose concrètement APRES ? 5 solutions documentées (RIC, constituante,
+  revenu universel, souveraineté numérique, communs). Aucune n''est testée.
+
+  '
+theses_implicites:
+- label: T1
+  texte: 'Le RIC (Référendum d''Initiative Citoyenne) est le CHEVAL DE TROIE institutionnel — une fois le RIC en place, toutes
+    les autres réformes deviennent possibles sans passer par le Parlement.
+
+    '
+- label: T2
+  texte: 'Sans projet politique positif, la coordination acéphalique est exclusivement définie CONTRE le système, jamais POUR
+    quelque chose. Le négatif mobilise, le positif fidélise.
+
+    '
+- label: T3
+  texte: 'Le RIC sert aussi de ''test de réalité'' : si une majorité de Français ne le soutient pas, la coordination acéphalique
+    n''a pas de base populaire. Le RIC est un thermomètre.
+
+    '
+faits_atomiques:
+- id: F-PPR-001
+  enonce: '5 propositions politiques pour l''après-coordination : RIC, constituante citoyenne, revenu universel, souveraineté
+    numérique, communs'
+  source_url: Fichier source — synthèse théorique
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PPR-002
+  enonce: Le RIC est la proposition la plus documentée (articles 11 et 89 de la Constitution) et la plus populaire (72% de
+    soutien — IFOP 2019)
+  source_url: IFOP 2019 (cité), Constitution française
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PPR-003
+  enonce: Le RIC a été la revendication n°1 des Gilets jaunes pendant les 3 premiers mois (novembre 2018-janvier 2019)
+  source_url: Analyse historique dans fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PPR-004
+  enonce: La constituante citoyenne est un projet plus radical (refondation des institutions) mais 100× plus difficile à obtenir
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PPR-005
+  enonce: Le revenu universel est documenté par 5 études (OCDE, BIEN) mais suscite des divisions gauche/droite qui fragmenteraient
+    la coordination
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PPR-006
+  enonce: La souveraineté numérique (cloud souverain, données hébergées en France) est un cheval de Troie crédible auprès
+    de la droite souverainiste
+  source_url: Fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PPR-007
+  enonce: Les communs (Ostrom) sont le seul projet politique compatible avec la coordination acéphalique par essence
+  source_url: Ostrom — Governing the Commons 1990
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PPR-008
+  enonce: 'Un projet politique explicite est un RISQUE : il devient la cible des médias et permet la disqualification de la
+    coordination'
+  source_url: Analyse stratégique dans fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PPR-009
+  enonce: Le corpus actuel est à 95% diagnostic et 5% proposition — déséquilibre critique
+  source_url: Auto-audit du corpus
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+- id: F-PPR-010
+  enonce: Le RIC a été évoqué par Emmanuel Macron en 2019 (Grand Débat) puis enterré — preuve de dangerosité perçue
+  source_url: Analyse politique — fichier source
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+acteurs:
+- nom: Gilets jaunes
+  role: Cas documenté — RIC comme revendication n°1
+  faits_lies: []
+- nom: Coordination acéphalique
+  role: Sujet — porteur potentiel du projet politique
+  faits_lies: []
+- nom: État/oligarchie
+  role: Adversaire — bloqueur de toute réforme institutionnelle
+  faits_lies: []
+- nom: Citoyens
+  role: Destinataires du projet politique
+  faits_lies: []
+- nom: RIC
+  role: Proposition phare — cheval de Troie
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: 'Absence de projet politique → coordination définie CONTRE le système → épuisement militant → échec
+
+    '
+- cause: null
+  effet: null
+  mecanisme: 'RIC comme projet unificateur → mobilisation transversale → masse critique → pression institutionnelle → victoire
+
+    '
+- cause: null
+  effet: null
+  mecanisme: 'Projet politique trop radical (constituante) → division interne → fragmentation → échec
+
+    '
+perspectives_dialectiques:
+- etiquette: Projet politique maintenant ou après la victoire ?
+  position_A: Projeter maintenant pour fédérer et donner un horizon
+  position_B: Ne pas projeter pour rester flou et éviter les divisions
+  synthese: 'Un projet minimal fédérateur (RIC) peut coexister avec le flou stratégique sur le reste. Le RIC est un méta-projet
+    : il permet de DÉCIDER ENSEMBLE du reste.
+
+    '
+- etiquette: 'RIC : réforme ou révolution ?'
+  position_A: Le RIC est une réforme — il légitime le système
+  position_B: Le RIC est la seule révolution pacifique possible — il transfère le pouvoir
+  synthese: 'Le RIC est un cheval de Troie RÉVOLUTIONNAIRE habillé en réforme. Une fois le pouvoir législatif transféré au
+    peuple, le système est transformé de l''intérieur.
+
+    '
+limites:
+- Toutes les propositions sont théoriques — 0 test
+- Le RIC divise lui-même (quelle majorité, quel périmètre, quels seuils ?)
+- Le corpus est à 95% diagnostic — biais structurel monumental
+- Le risque de récupération politique du RIC est réel (RN, LFI)
+- 'Suspicion : 4.5/10'
+wolves:
+- nom: Aucun projet politique ne peut fédérer une majorité en France — le pays est trop...
+  argument: Aucun projet politique ne peut fédérer une majorité en France — le pays est trop divisé
+  reponse: ''
+- nom: Si le RIC est adopté, qui garantit qu'il ne sera pas détourné comme tous les réf...
+  argument: Si le RIC est adopté, qui garantit qu'il ne sera pas détourné comme tous les référendums précédents ?
+  reponse: ''
+iceberg:
+- profondeur: 0
+  item: 5 propositions — surface
+- profondeur: 1
+  item: 'RIC : modalités précises (seuils, périmètre, contrôle)'
+- profondeur: 2
+  item: Qui décide du projet politique dans une coordination ACÉPHALE ?
+- profondeur: 3
+  item: Et si le peuple votait CONTRE les intérêts du peuple ? (Brexit)
+chronologie:
+- date: 2018-2019
+  evenement: Gilets jaunes — RIC revendication n°1
+- date: '2019'
+  evenement: Grand Débat Macron — RIC évoqué puis enterré
+- date: 2026-06
+  evenement: APEX LEVIER — systématisation des propositions
+domaines:
+- science_politique
+- droit_constitutionnel
+- strategie
+urls_prioritaires:
+- url: https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194/
+  description: Constitution française — articles 11, 89
+  head_status: 0
+- url: https://www.ifop.com/publication/les-francais-et-le-referendum-dinitiative-citoyenne/
+  description: IFOP 2019 — sondage RIC
+  head_status: 0
+shadow_factor: 2.0
+shadow_justification: 'Spéculation politique pure. Aucune des 5 propositions n''a été testée empiriquement. Le RIC est documenté
+  (Constitution, IFOP) mais son efficacité comme levier stratégique est une hypothèse non-validée. Forte dépendance à l''intuition
+  politique.
+
+  '
+mnemo_queries:
+- query: RIC référendum initiative citoyenne France
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'
+- query: projet politique coordination mobilisation
+  resultat: DOWN — endpoint /v1/search/ 500
+  date: '2026-06-12'

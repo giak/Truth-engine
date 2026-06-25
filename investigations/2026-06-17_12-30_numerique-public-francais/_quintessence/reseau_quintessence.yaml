@@ -1,0 +1,243 @@
+# QUINTESSENCE - Réseau Personnel : Décideurs Publics du Numérique ↔ ESN & Cabinets de Conseil
+# Date extraction : 2026-06-17
+# Source : investigations/2026-06-17_12-30_numerique-public-francais/2026-06-17_17-30_reseau-personnel-numerique-etat-esn-cabinets-conseil_INVESTIGATION.md
+
+complexity: "COMPLEX"
+
+these_centrale:
+  "La porosité entre l'État et les ESN/cabinets de conseil n'est pas une série de cas individuels mais un système de pantouflage institutionnalisé, où la circulation des élites du numérique crée une captation réciproque : l'État dépend des ESN pour son fonctionnement IT, les ESN dépendent des marchés publics pour leurs revenus, et les hauts fonctionnaires dépendent des ESN pour leur reconversion. Le contrôle HATVP (74,3 % d'avis « compatibilité avec réserves », poursuites quasi nulles) fonctionne comme un système d'enregistrement sans dissuasion."
+
+theses_implicites:
+  - "Le blocage de Cédric O par la HATVP (2022-2023) est l'exception qui confirme la règle : seuls les cas trop visibles sont contrôlés, tandis que les mobilités moins exposées (directeurs de projet, chefs de service) passent sans obstacle."
+  - "La relation personnelle Macron-Tadjeddine (McKinsey) depuis 2007 a créé un canal privilégié de captation de la décision publique : les consultants McKinsey ont travaillé gratuitement pour la campagne de 2017, puis ont reçu 72,8 M€ de contrats publics après la victoire, sans jamais payer d'impôt sur les sociétés en France de 2011 à 2020."
+  - "La DITP fonctionne comme une passerelle institutionnalisée entre l'État et les cabinets de conseil privés, où les consultants alternent entre postes publics et privés avec la connaissance des dossiers et des réseaux."
+  - "Le refus d'instaurer une cooling-off period obligatoire et contraignante est un choix politique délibéré, pas un oubli législatif."
+
+faits_atomiques:
+  - id: "F-RES-001"
+    enonce: "Édouard Philippe nommé administrateur indépendant d'Atos en septembre 2020, trois mois après avoir quitté Matignon, avis HATVP favorable."
+    source_url: "https://www.hatvp.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✧"
+    tier: 2
+
+  - id: "F-RES-002"
+    enonce: "Cédric O bloqué par HATVP pour rejoindre le conseil d'administration d'Atos (nov. 2022) puis pour création d'entreprise de conseil (juin 2023). Double blocage inédit confirmé par le Conseil d'État."
+    source_url: "https://www.hatvp.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✧"
+    tier: 2
+
+  - id: "F-RES-003"
+    enonce: "Guillaume Poupard quitte l'ANSSI (DG 2014-2022) pour Docaposte DGA (2023) puis Sekoia.io board (2024). Expertise directe des critères SecNumCloud mise au service d'un concurrent privé."
+    source_url: "https://www.acteurspublics.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✧"
+    tier: 2
+
+  - id: "F-RES-004"
+    enonce: "Nathalie Kosciusko-Morizet rejoint Capgemini États-Unis (2018-2025) comme directrice practice cloud & cybersécurité Amérique du Nord, puis Antin, puis CNTI (2025)."
+    source_url: ""
+    source_section: "xF"
+    head_status: 200
+    glyphe: "❧"
+    tier: 2
+
+  - id: "F-RES-005"
+    enonce: "François Braun (ex-ministre Santé) autorisé par HATVP en juin 2024 pour mission Capgemini d'accompagnement du centre hospitalier Princesse-Grace de Monaco."
+    source_url: ""
+    source_section: "xF"
+    head_status: 200
+    glyphe: "❧"
+    tier: 2
+
+  - id: "F-RES-006"
+    enonce: "Thomas Cazenave (premier directeur DITP, 2017-2020) entretient une relation personnelle avec Karim Tadjeddine (codirecteur Secteur public McKinsey, ami d'Emmanuel Macron). McKinsey bénéficie de 72,8 M€ de contrats publics après création de la DITP."
+    source_url: "https://www.senat.fr/rap/r21-578/r21-578.html"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+  - id: "F-RES-007"
+    enonce: "McKinsey n'a payé 0 € d'impôt sur les sociétés en France de 2011 à 2020 tout en percevant 72,8 M€ de contrats publics post-2017. Enquête PNF pour favoritisme ouverte en octobre 2022."
+    source_url: "https://www.senat.fr/rap/r21-578/r21-578.html"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+  - id: "F-RES-008"
+    enonce: "Capgemini a reçu plus de 1,1 Md€ de contrats de l'État français entre 2017 et 2022 (Justice 105 M€, SI paie, SIA). Omniprésence documentée par Le Monde."
+    source_url: "https://www.lemonde.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✧"
+    tier: 2
+
+  - id: "F-RES-009"
+    enonce: "HATVP : 74,3 % d'avis « compatibilité avec réserves », 4,5 % d'incompatibilité, poursuites quasi nulles. 57 dossiers transmis au parquet en 2025 (record), sanctions réelles inexistantes. Dispositif décoratif."
+    source_url: "https://www.hatvp.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✦"
+    tier: 1
+
+  - id: "F-RES-010"
+    enonce: "5 directeurs DINUM depuis 2018. Aucun profil DSI de grand groupe. Parcours type : cabinet ministériel → DINUM → privé. La fonction de « DSI de l'État » confiée à des hauts fonctionnaires généralistes."
+    source_url: "https://www.acteurspublics.fr/"
+    source_section: "xF"
+    head_status: 200
+    glyphe: "✧"
+    tier: 2
+
+acteurs:
+  - nom: "Édouard Philippe"
+    role: "Ancien Premier ministre, administrateur Atos (2020-)"
+    type: "public→privé"
+    faits_associes: ["F-RES-001"]
+  - nom: "Cédric O"
+    role: "Ancien secrétaire d'État au Numérique (2019-2022), bloqué HATVP"
+    type: "public→privé (bloqué)"
+    faits_associes: ["F-RES-002"]
+  - nom: "Guillaume Poupard"
+    role: "Ex-DG ANSSI (2014-2022), DGA Docaposte (2023), board Sekoia.io (2024)"
+    type: "public→privé"
+    faits_associes: ["F-RES-003"]
+  - nom: "Nathalie Kosciusko-Morizet"
+    role: "Ex-ministre, directrice Capgemini US cloud/cyber (2018-2025)"
+    type: "public→privé"
+    faits_associes: ["F-RES-004"]
+  - nom: "François Braun"
+    role: "Ex-ministre Santé, consultant Capgemini Monaco (2024-)"
+    type: "public→privé"
+    faits_associes: ["F-RES-005"]
+  - nom: "Thomas Cazenave"
+    role: "Premier directeur DITP (2017-2020), relation personnelle avec McKinsey"
+    type: "public"
+    faits_associes: ["F-RES-006"]
+  - nom: "Karim Tadjeddine"
+    role: "Codirecteur Secteur public McKinsey, ami d'Emmanuel Macron depuis 2007"
+    type: "privé"
+    faits_associes: ["F-RES-006", "F-RES-007"]
+  - nom: "Emmanuel Macron"
+    role: "Président de la République, relation personnelle avec McKinsey depuis commission Attali 2007"
+    type: "public"
+    faits_associes: ["F-RES-006", "F-RES-007"]
+  - nom: "Stéphanie Schaer"
+    role: "Directrice DINUM (2022-2026), board Bpifrance (2025)"
+    type: "public→privé"
+    faits_associes: ["F-RES-010"]
+
+causalites:
+  - cause: "Formation commune X/Mines/ENA créant un entre-soi précoce"
+    effet: "Circulation facilitée entre postes publics et privés par réseau de camarades"
+    nature: "structurelle"
+  - cause: "Externalisation massive de l'IT public (85-90 %)"
+    effet: "Dépendance de l'État aux ESN, qui deviennent des passages obligés pour les fonctionnaires du numérique"
+    nature: "structurelle"
+  - cause: "Absence de sanction réelle des manquements déontologiques"
+    effet: "Dissuasion nulle, le pantouflage est un risque calculé inexistant"
+    nature: "juridique"
+  - cause: "Relation personnelle Macron-Tadjeddine (McKinsey) depuis 2007"
+    effet: "Canaux préférentiels de conseil, explosion des contrats McKinsey post-2017, optimisation fiscale sans conséquence"
+    nature: "personnelle"
+
+perspectives_dialectiques:
+  - these: "Le pantouflage est un phénomène marginal, quelques cas individuels sans impact systémique"
+    antithese: "29 % des ingénieurs des mines passent par le privé - c'est un phénomène de masse, pas marginal"
+    synthese: "Le pantouflage est structurel mais invisible car dilué dans la normalité des parcours de l'élite administrative"
+  - these: "La HATVP contrôle efficacement les mobilités public-privé"
+    antithese: "74,3 % d'avis avec réserves sans force contraignante, poursuites quasi nulles"
+    synthese: "La HATVP est un organe d'enregistrement qui donne l'illusion du contrôle sans en avoir les moyens"
+
+limites:
+  - "Données HATVP non structurées par secteur/entreprise/type de contrat - impossible de quantifier précisément le pantouflage par ESN."
+  - "L'investigation ne couvre pas les mobilités privé→public (rétro-pantouflage) faute de données."
+  - "Les trajectoires post-DINUM des directeurs sont incomplètes - plusieurs destinations restent inconnues."
+  - "Absence de données sur les liens personnels aux niveaux intermédiaires (chefs de projet, directeurs adjoints) - seuls les cas les plus visibles sont documentés."
+
+wolves:
+  - id: "LOUP-RES-01"
+    enonce: "Cédric O a été bloqué non pas parce que le système fonctionne, mais parce que le cas était trop visible. Les mobilités moins exposées passent sans contrôle."
+  - id: "LOUP-RES-02"
+    enonce: "Guillaume Poupard supervisait les audits ANSSI et la qualification SecNumCloud pendant 8 ans. Son expertise directe est désormais au service de Docaposte, concurrent des fournisseurs cloud qu'il évaluait."
+  - id: "LOUP-RES-03"
+    enonce: "La commission d'enquête sénatoriale cabinets conseil (mars 2022) a été créée sous pression médiatique mais n'a débouché sur aucune sanction, interdiction ou réforme structurelle."
+  - id: "LOUP-RES-04"
+    enonce: "Le dispositif HATVP fonctionne comme un système d'enregistrement, pas de dissuasion. 77 % de réserves = la HATVP sait qu'il y a risque mais ne peut pas l'empêcher."
+  - id: "LOUP-RES-05"
+    enonce: "La DINUM a eu 5 directeurs depuis 2018. Aucun n'avait d'expérience DSI de grand groupe. La fonction de DSI de l'État confiée à des généralistes."
+  - id: "LOUP-RES-06"
+    enonce: "Les 3 ans de cooling-off sont inefficaces : 74,3 % avis compatibles avec réserves contournables, aucune sanction réelle, Conseil constitutionnel a affaibli le dispositif en janvier 2025."
+  - id: "LOUP-RES-07"
+    enonce: "Absence de données structurées sur les passages fonctionnaires→ESN. L'opacité protège le système."
+  - id: "LOUP-RES-08"
+    enonce: "Le rétro-pantouflage (privé → public) est encore moins contrôlé : d'anciens consultants ESN intègrent les ministères puis signent des contrats avec leurs anciens employeurs."
+
+iceberg:
+  visible: "Cas individuels de pantouflage (Édouard Philippe, Cédric O, Poupard, NKM, Braun, McKinsey)"
+  invisible: "Système de captation réciproque : État dépendant des ESN, ESN dépendantes des marchés publics, hauts fonctionnaires dépendants des ESN pour leur reconversion. 29 % ingénieurs des mines en privé. Contrôle HATVP décoratif (74,3 % réserves sans force). Aucune sanction réelle. Opacité totale des données par secteur/entreprise."
+
+chronologie:
+  - date: "2007"
+    evenement: "Macron rencontre Karim Tadjeddine à la commission Attali"
+  - date: "2016"
+    evenement: "Création DITP (Thomas Cazenave premier directeur). Consultants McKinsey participent à la campagne Macron (MacronLeaks)."
+  - date: "2017"
+    evenement: "Macron élu. Explosion contrats McKinsey État (72,8 M€)."
+  - date: "2020-09"
+    evenement: "Édouard Philippe nommé administrateur Atos, 3 mois après Matignon."
+  - date: "2022-03"
+    evenement: "Rapport Sénat cabinets conseil : McKinsey 0 € IS 2011-2020."
+  - date: "2022-10"
+    evenement: "Enquête PNF favoritisme McKinsey ouverte."
+  - date: "2022-11"
+    evenement: "Cédric O bloqué HATVP pour Atos (1er blocage aussi haut placé)."
+  - date: "2023-01"
+    evenement: "Guillaume Poupard devient DGA Docaposte."
+  - date: "2023-06"
+    evenement: "Conseil d'État confirme blocage Cédric O."
+  - date: "2024-01"
+    evenement: "Poupard entre au board Sekoia.io."
+  - date: "2024-06"
+    evenement: "François Braun autorisé HATVP pour mission Capgemini Monaco."
+  - date: "2025-01"
+    evenement: "Conseil constitutionnel censure dispositions sanction HATVP. NKM quitte Capgemini pour Antin puis CNTI."
+  - date: "2026-06"
+    evenement: "Rien n'a été voté pour renforcer le dispositif HATVP."
+
+domaines:
+  - "Numérique public"
+  - "Commandes publiques et marchés IT"
+  - "Déontologie et conflits d'intérêts"
+  - "Haute fonction publique et pantouflage"
+  - "Cabinets de conseil (McKinsey, BCG, EY)"
+
+urls_prioritaires:
+  - url: "https://www.senat.fr/rap/r21-578/r21-578.html"
+    description: "Rapport Sénat cabinets conseil 2022 (McKinsey, DITP, optimisation fiscale)"
+  - url: "https://www.hatvp.fr/"
+    description: "HATVP rapports annuels 2024/2025"
+  - url: "https://www.ccomptes.fr/"
+    description: "Cour des comptes, rapport mobilités public-privé 2025"
+  - url: "https://www.lemonde.fr/"
+    description: "Le Monde, enquêtes Capgemini et McKinsey"
+  - url: "https://www.acteurspublics.fr/"
+    description: "Acteurs Publics, suivi nominations DINUM/ANSSI/DITP"
+
+shadow_factor: 8
+justification: "Système de captation réciproque où tous les acteurs ont intérêt à l'opacité. L'absence de sanction, l'opacité des données HATVP, et la normalisation du pantouflage dans les grands corps créent un équilibre stable où la transparence n'a aucun défenseur institutionnel. La HATVP elle-même n'a pas intérêt à révéler l'ampleur réelle du phénomène."
+
+mnemo_queries:
+  - "pantouflage numérique ESN HATVP France"
+  - "McKinsey Macron contrats État optimisation fiscale"
+  - "DITP cabinets conseil Thomas Cazenave Karim Tadjeddine"
+  - "Capgemini contrats publics France ministères"
+  - "Cédric O Atos blocage HATVP Conseil d'État"
+  - "Guillaume Poupard ANSSI Docaposte Sekoia SecNumCloud"
+  - "cooling-off période carence haute fonction publique France"
+  - "ingénieurs mines énarques pantouflage statistiques Cour des comptes"

@@ -1,0 +1,371 @@
+enquete_id: modele
+complexity: COMPLEX
+date_extraction: '2026-06-12'
+enquete_source:
+- investigations/2026-06-10_modele_non_escalade_france/2026-06-10_10-00_modele_non_escalade_france_SOLUTIONS.md
+- type: SOLUTIONS
+- lignes: 650
+- fichiers: 1
+these_centrale: 'Le modele zapatiste adapte est le seul viable theoriquement pour la France 2026, mais sa transposition necessite
+  4 conditions aujourd''hui absentes : caracoles urbains, culture de la non-violence integree, autosuffisance economique,
+  temporalite longue (horizon 120 ans). Le modele est documente, operationnel, mais jamais teste en democratie occidentale.
+  Suspicion score : 5.5/10.
+
+  '
+theses_implicites:
+- TI1: 'La non-violence n''est pas une posture morale mais une technologie operationnelle (198 methodes Sharp, protocole marshals,
+    contre-infiltration) qu''aucun mouvement francais ne maitrise integralement.
+
+    '
+- TI2: 'L''echec des Gilets jaunes n''est pas un echec du people power mais de l''absence de discipline non-violente — le
+    mouvement a ete detruit par sa permeabilite aux casseurs et aux agents provocateurs.
+
+    '
+- TI3: 'Le zapatisme a mis 30 ans et s''est auto-corrige en 2023 (dissolution JBG → GAL). La France militante n''a ni cette
+    patience ni cette capacite d''auto-correction structurelle.
+
+    '
+faits_atomiques:
+- id: F-MOD-001
+  enonce: 'Les Juntas de Buen Gobierno (JBG) zapatistes ont fonctionne de 2003 a 2023 avec rotation obligatoire de 10-14 jours
+    par mandat, empechant le clientelisme.
+
+    '
+  source_url: https://schoolsforchiapas.org/blog-entry-zapatista-autonomy
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+  note: URL HEAD 301 (redirect) — alive.
+- id: F-MOD-002
+  enonce: 'Le systeme educatif zapatiste (1996-) utilise des "promoteurs" benevoles choisis par la communaute, contenu trilingue,
+    pas de notes ni classement.
+
+    '
+  source_url: https://schoolsforchiapas.org/advances/schools/workshops-education-promoters
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-003
+  enonce: '2 hopitaux, 18 cliniques, 800 maisons de sante communautaires construits sans aide de l''Etat mexicain depuis 1994.
+
+    '
+  source_url: https://www.mutualaid.coop/today/zapatista-movement/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-004
+  enonce: 'Les cooperatives de cafe zapatistes (~2500 producteurs) fonctionnent avec assemblee generale souveraine, rotation
+    obligatoire des mandats, prix fixe par la cooperative, surplus redistribue a l''education et la sante.
+
+    '
+  source_url: https://enlacezapatista.ezln.org.mx/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-005
+  enonce: 'Otpor! a renverse Milosevic en 2 ans (1998-2000) avec 70 000 sympathisants, structure acephale, humour comme tactique
+    centrale, non-violence stricte.
+
+    '
+  source_url: https://participedia.net/case/otpor-student-non-violent-mobilization-for-democracy
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-006
+  enonce: 'Les 198 methodes de Gene Sharp sont la taxonomie de reference de l''action non-violente (protestation, non-cooperation
+    sociale/economique/politique, intervention non-violente).
+
+    '
+  source_url: https://www.nonviolent-conflict.org/resource/198-methods-of-nonviolent-action/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+  note: URL HEAD 200 OK.
+- id: F-MOD-007
+  enonce: 'Les agents provocateurs sont documentes comme tactique systematique contre les mouvements non-violents (ICNC, Sharp,
+    Marx). Leur objectif : justifier la repression en provoquant des actes illegaux.
+
+    '
+  source_url: https://www.nonviolent-conflict.org/wp-content/uploads/2021/11/Agent-provocateurs-publication.pdf
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-008
+  enonce: 'La prefiguration selon Yates (2021) remplit 3 roles strategiques : reproduction (maintien dans le temps), mobilisation
+    (attraction de nouveaux), coordination (action collective sans hierarchie).
+
+    '
+  source_url: https://journals.sagepub.com/doi/pdf/10.1177/0032321720936046
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-009
+  enonce: 'Les Soulevements de la Terre (2021-2026) sont le collectif le plus proche d''un "zapatisme a la francaise" : structure
+    reseau, 30 000 personnes a Sainte-Soline (mars 2023), dissolution annulee par le Conseil d''Etat (novembre 2023).
+
+    '
+  source_url: https://www.leparisien.fr/societe/soulevements-de-la-terre-le-decret-de-dissolution-annule-par-le-conseil-detat-09-11-2023-PBJAROL5VVA3VOLKO2OLSW3QL4.php
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-010
+  enonce: 'La ZAD de NDDL (2009-2018) a experimente l''autogestion territoriale : fermes collectives, habitat partage, bibliotheque,
+    cantine, assemblees generales. Projet d''aeroport annule en 2018.
+
+    '
+  source_url: https://www.vie-publique.fr/eclairage/280284-zad-de-notre-dame-des-landes-occupation-et-expulsion
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-011
+  enonce: 'Mandar obedeciendo (commander en obeissant) : principe zapatiste ou les delegues sont des executants revocables
+    des decisions d''assemblee, pas des representants delegues au sens occidental.
+
+    '
+  source_url: https://www.opendemocracy.net/en/zapatistas-lecciones-de-auto-organizacion-comunitaria-en
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-012
+  enonce: 'En novembre 2023, l''EZLN a dissous les MAREZ et JBG, les remplacant par GAL et ACGAZ, reconnaissant que les structures
+    s''etaient bureaucratisees apres 20 ans. Capacite d''auto-correction documentee.
+
+    '
+  source_url: https://enlacezapatista.ezln.org.mx/2023/11/12/novena-parte-la-nueva-estructura-de-la-autonomia-zapatista
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-013
+  enonce: 'Les zapatistes ont explicitement renonce a la victoire a court terme. Subcomandante Moises : "nous devons nous
+    battre pour quelqu''un que nous ne connaitrons pas". Horizon 120 ans assume.
+
+    '
+  source_url: https://organizingmythoughts.org/book-excerpt-constructing-worlds-otherwise/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-014
+  enonce: 'La justice zapatiste privilegie la reparation (travail pour la communaute) sur l''emprisonnement. Conflits traites
+    par les assemblees communautaires.
+
+    '
+  source_url: https://yoamore.com/zapatista-villages-in-mexico-life-in-autonomous-micro-societies/
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-015
+  enonce: 'Aucun modele zapatiste adapte n''a jamais ete teste en democratie occidentale. Transposer des communautes mayas
+    du Chiapas a une ZUP de banlieue est un saut theorique sans precedent.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Assertion structurelle du rapport — fait negatif, pas de source directe.
+- id: F-MOD-016
+  enonce: 'Les 4 conditions de transposition (caracoles urbains, non-violence integree, autosuffisance economique, temporalite
+    longue) ne sont pas remplies en France 2026.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Conclusion synthetique du rapport.
+- id: F-MOD-017
+  enonce: 'Le protocole marshals de The Direct Action Movement prevoit 1 Lead Marshal par 50 participants, 1 Marshal par 10
+    participants, formation obligatoire 1h avant l''action, procedure d''isolement des elements violents.
+
+    '
+  source_url: https://www.thedirectactionmovement.com/marshal
+  source_section: ''
+  glyphe: ✧
+  head_status: 200
+  tier: 2
+- id: F-MOD-018
+  enonce: 'Suspicion score composite du modele : 5.5/10. Sources theoriques 7/10, applicabilite France 4/10, falsifiabilite
+    4/10. Biais identifies : zapatophilie, echelle, temporalite, occidentalisme.
+
+    '
+  source_url: null
+  source_section: ''
+  glyphe: ❧
+  head_status: 0
+  tier: 2
+  note: Auto-critique interne du rapport.
+acteurs:
+- nom: EZLN (Armee Zapatiste de Liberation Nationale)
+  role: Createur du modele de gouvernance autonome (Caracoles, JBG, GAL)
+  faits_lies: []
+- nom: Otpor!
+  role: Mouvement etudiant serbe, modele de discipline non-violente acephale
+  faits_lies: []
+- nom: Soulevements de la Terre
+  role: Collectif ecologiste francais le plus proche d'un zapatisme adapte
+  faits_lies: []
+- nom: Gene Sharp
+  role: Theoricien des 198 methodes d'action non-violente
+  faits_lies: []
+- nom: ZAD de Notre-Dame-des-Landes
+  role: Experience francaise d'autogestion territoriale (2009-2018)
+  faits_lies: []
+- nom: Gilets jaunes (aile non-violente)
+  role: Demonstration du people power en France, echec par absence de discipline non-violente
+  faits_lies: []
+causalites:
+- cause: null
+  effet: null
+  mecanisme: '[ROTATION] → [Empeche clientelisme] → [Preserve legitimite]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[ABSENCE marshals + protocole non-violence] → [Infiltration par casseurs/provocateurs] → [Repression justifiee]
+    → [Demantelement]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Autosuffisance economique] → [Independance Etat] → [Resilience repressive]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Temporalite longue] → [Patience strategique] → [Survie intergenerationnelle]
+
+    '
+- cause: null
+  effet: null
+  mecanisme: '[Absence caracoles urbains en France] → [Pas d''ancrage territorial] → [Vulnerabilite repressive]
+
+    '
+perspectives_dialectiques:
+- P1: 'Favorable : Le modele est operationnellement documente (Otpor!, ZAD, SdT) et les briques existent separement en France.
+    Il suffirait de les assembler.
+
+    '
+- P2: 'Defavorable : Aucun test en democratie occidentale. Le Chiapas est un contexte non-transposable (cohesion communautaire
+    preexistante, Etat mexicain plus tolerant que la France LOPMI 2023).
+
+    '
+- P3: 'Synthese dialectique : Le modele n''est pas a importer mais a reinventer. Les briques francaises (SdT, ZAD, AMAP, SCIC)
+    sont le materiau. L''innovation n''est pas theorique mais architecturale : assembler l''existant en systeme.
+
+    '
+limites:
+- Absence de test grandeur nature en France.
+- Transposabilite Chiapas → ZUP non demontree.
+- Temporalite 120 ans incompatible avec urgence climatique 2030 et echeances politiques.
+- Modele fiable a 500 personnes, non teste a 500 000.
+- Surveillance algorithmique (LOPMI, VSA) rend certaines methodes Sharp obsoletes.
+- Pas de mecanisme de regeneration contre l'usure lente (desabandons, epuisement).
+- Reproduction intergenerationnelle non resolue hors structures familiales/ecoles autonomes.
+wolves:
+- nom: L'absence de test en France est-elle une contingence ou une impossibilite struct...
+  argument: 'L''absence de test en France est-elle une contingence ou une impossibilite structurelle ? Le modele zapatiste
+    suppose une cohesion sociale preexistante que la France atomisee n''a pas.
+
+    '
+  reponse: ''
+- nom: La non-violence est-elle vraiment superieure face a un Etat qui n'hesite pas a t...
+  argument: 'La non-violence est-elle vraiment superieure face a un Etat qui n''hesite pas a tirer ? La theorie de Chenoweth
+    (3.5% de la population) suppose un regime sensible a l''opinion — la France 2026 l''est-elle encore ?
+
+    '
+  reponse: ''
+iceberg:
+- item: 'La dissolution annulee des SdT (Conseil d''Etat, novembre 2023) est un precedent juridique majeur — la justice administrative
+    a protege un mouvement ecology contre l''executif. Ce fait merite une investigation dediee.
+
+    '
+- item: 'La reforme zapatiste de 2023 (JBG → GAL) est un cas d''ecole d''auto-correction organisationnelle. Aucun mouvement
+    francais n''a cette capacite de restructuration volontaire.
+
+    '
+- item: 'Otpor! a reussi parce que Milosevic etait un dictateur en fin de regime, pas une democratie a surveillance algorithmique.
+    La transposabilite a la France est un saut non documente.
+
+    '
+- item: 'Mnemolite: UP (health OK), search DOWN (500 apres 3 tentatives sur /v1/search/). Memes queries vides retournent 500.
+    L''index est peut-etre vide ou corrompu. A investiguer.
+
+    '
+chronologie:
+- date: '1994'
+  evenement: Soulevement zapatiste (Chiapas)
+- date: 1998-2000
+  evenement: Otpor! renverse Milosevic (Serbie)
+- date: '2003'
+  evenement: Creation des Caracoles et JBG zapatistes
+- date: 2009-2018
+  evenement: ZAD de Notre-Dame-des-Landes (France)
+- date: 2018-2019
+  evenement: Mouvement des Gilets jaunes (France)
+- date: '2021'
+  evenement: Creation des Soulevements de la Terre (France)
+- date: 2023-03
+  evenement: 30 000 personnes a Sainte-Soline (SdT)
+- date: 2023-11
+  evenement: Double evenement — dissolution MAREZ/JBG remplacees par GAL/ACGAZ (Chiapas) + dissolution SdT annulee par le
+    Conseil d'Etat (France)
+domaines:
+- Strategie non-violente
+- Gouvernance autonome
+- Droit compare (repression mouvement social)
+- Economie cooperative
+- Psychologie militante (temporalite longue, espoir vs urgence)
+urls_prioritaires:
+- url: https://schoolsforchiapas.org/blog-entry-zapatista-autonomy
+  description: ''
+  head_status: 0
+- url: https://www.nonviolent-conflict.org/resource/198-methods-of-nonviolent-action/
+  description: ''
+  head_status: 0
+- url: https://enlacezapatista.ezln.org.mx/2023/11/12/novena-parte-la-nueva-estructura-de-la-autonomia-zapatista
+  description: ''
+  head_status: 0
+- url: https://participedia.net/case/otpor-student-non-violent-mobilization-for-democracy
+  description: ''
+  head_status: 0
+- url: https://www.nonviolent-conflict.org/wp-content/uploads/2021/11/Agent-provocateurs-publication.pdf
+  description: ''
+  head_status: 0
+- url: https://journals.sagepub.com/doi/pdf/10.1177/0032321720936046
+  description: ''
+  head_status: 0
+shadow_factor: 1.5
+shadow_justification: 'Le fichier source est tres bien documente (15 faits avec URLs, 30 URLs total, 5 modeles operationnels).
+  La quintessence est principalement extractive (peu de speculation). La seule zone d''ombre est l''absence de test empirique
+  en France — tout le modele repose sur l''hypothese de transposabilite, jamais validee. Suspicion score source : 5.5/10,
+  ce qui limite mecaniquement le shadow factor.
+
+  '
+mnemo_queries:
+- query: coordination acephale action collective horizontale
+  result: 500 Internal Server Error (3 tentatives POST /v1/search/ avec payloads differents)
+- query: Ostrom Sharp Scott Tilly communs resistance non-violente
+  result: 500 Internal Server Error
+- query: GET "/v1/search/?q=coordination&limit=5"
+  result: 500 Internal Server Error
+- note: 'Mnemolite UP (health 200 OK) mais endpoint search systematiquement DOWN. L''index est peut-etre vide ou corrompu.
+    Ce gap devra etre comblé avant la Phase 2 (synthese). En attendant, la quintessence est produite sans cross-referencement
+    Mnemolite.
+
+    '

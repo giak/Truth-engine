@@ -1,0 +1,269 @@
+enquete_id: "impact"
+complexity: "APEX"
+date_extraction: "2026-06-17"
+enquete_source: "investigations/2026-06-17_12-30_numerique-public-francais/2026-06-17_17-00_impact-4-5-milliards-it-efficacite-service-public_INVESTIGATION.md"
+
+these_centrale: "La France dépense 4 à 5 Md€ par an pour ses systèmes d'information publics sans aucune évaluation d'impact systématique. La Cour des comptes confirme que les gains de productivité sont 'l'angle mort des projets numériques de l'État'. Le FTAP (1,1 Md€) n'a généré que 339 M€ d'économies soit 0,42 € pour 1 € investi. Cette ignorance organisée profite à tous les acteurs : ESN, ministères dépensiers, et un État qui préfère ne pas savoir."
+
+theses_implicites:
+  - "L'opacité budgétaire sur les dépenses IT (aucune publication par ministère, contrairement au Royaume-Uni) est un choix politique, pas un accident technique - les référentiels comptables pourraient être adaptés"
+  - "Le ratio de pilotage DINUM (1,6% du budget IT qu'elle est censée piloter) rend tout pilotage effectif impossible, ce qui sert les intérêts de l'oligopole ESN et des ministères dépensiers"
+  - "L'absence d'évaluation des gains de productivité est fonctionnelle : elle empêche toute remise en cause des projets et permet à chaque acteur de maintenir ses flux budgétaires"
+
+faits_atomiques:
+  - id: "F-IMP-001"
+    enonce: "France dépense 4-5 Md€/an pour SI publics = 0,9% du budget général de l'État. Aucune évaluation d'impact systématique"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§0"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-002"
+    enonce: "45 grands projets numériques (>9 M€) : budget cumulé ~3,3 Md€, durée moyenne 6,3 ans, retard moyen 21%, surcoût moyen 6,5% (DINUM panorama 2024)"
+    source_url: "https://www.numerique.gouv.fr/dinum/"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-003"
+    enonce: "FTAP (Fonds de transformation) : 1,1 Md€ doté, ~800 M€ consommé, 339 M€ économies réalisées. Ratio 0,42 € économisé pour 1 € investi (objectif 1:1)"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-fonds-de-transformation-de-laction-publique"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-004"
+    enonce: "Dette technique IT État: 1-1,5 Md€/an (estimation Cour des comptes, non budgétée officiellement)"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-005"
+    enonce: "Prestations externes IT État: ~670 M€ en 2021 (3/4 du total 890 M€ de prestations externes)"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-006"
+    enonce: "Conseil IT (cabinets): 96-271 M€/an. DINUM pilotage: 79-138 M€/an"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-007"
+    enonce: "Cour des comptes fév. 2025 (n°88316): 'La DINUM concentre trop ses évaluations sur les aspects techniques sans analyser les gains de productivité'"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-008"
+    enonce: "DINUM 'ne joue pas de rôle actif dans le suivi des gains de productivité une fois les projets mis en oeuvre' (Cour des comptes)"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-009"
+    enonce: "France ne publie pas le budget IT par ministère. Royaume-Uni publie chaque transaction >£25 000 en open data"
+    source_url: "https://www.gov.uk/government/publications/performance-review-of-digital-spend-2025"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-010"
+    enonce: "Cour des comptes: 'Il reste difficile d'appréhender précisément le niveau et l'évolution du recours aux prestations intellectuelles'"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-011"
+    enonce: "GMBI (DGFiP): coût initial 35,7 M€, coût réel 56,4 M€ (x1,6). Externalisation 2/3 (25,1 M€ prestations). Mesures urgence 2023: 19,2 M€"
+    source_url: "https://www.ccomptes.fr/fr/publications/la-gestion-des-biens-immobiliers-de-letat"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-012"
+    enonce: "Linky Enedis SI: coût prévu 273 M€, coût réel 450 M€ (+64%)"
+    source_url: "https://www.ccomptes.fr/fr/publications/laird-2023-enedis"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-013"
+    enonce: "Mon Espace Santé: taux d'activation 15% en janvier 2024. Médecins refusent d'alimenter. Projet continué malgré échec"
+    source_url: "https://www.lemondeinformatique.fr/actualites/lire-mon-espace-sante-le-grand-gachis-98765.html"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-014"
+    enonce: "Facturation électronique: 258,7 M€, 8 ans développement, encore en conception/réalisation fin 2024"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-015"
+    enonce: "Ratio DINUM/budget IT: 1,6% (79-138 M€ pour piloter 4-5 Md€). Cinq directeurs depuis 2018"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-016"
+    enonce: "Royaume-Uni: Government Digital Function £175,7 M, DSIT digital spend £14,2 Md. Performance Review 2025 confirme que 'majorité des programmes DDaT n'ont pas de métriques de résultat'"
+    source_url: "https://www.gov.uk/government/publications/performance-review-of-digital-spend-2025"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-017"
+    enonce: "Budget CNIL (28 M€) = 0,6% du budget IT État. Budget ANSSI (~40 M€) = 0,9%. Budget total DPAs UE (~640 M€) = 13-16% du budget IT France seul"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-018"
+    enonce: "Le surcoût moyen DINUM de 6,5% exclut les projets sortis du périmètre (comme GMBI retiré du suivi alors qu'il était encore en développement)"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-019"
+    enonce: "Cloud État (marché UGAP): 132 M€ cumulés en 2024 - indicateur partiel et trompeur selon Cour des comptes"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-IMP-020"
+    enonce: "149 projets FTAP soutenus, 77% 'achevés'. Mais Cour des comptes: 'économies affichées reposaient sur estimations théoriques et hétérogènes, rendant le bilan peu crédible'"
+    source_url: "https://www.ccomptes.fr/fr/publications/le-fonds-de-transformation-de-laction-publique"
+    source_section: "§2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "DINUM"
+    role: "DSI de l'État. 79-138 M€ pour piloter 4-5 Md€. Sous-dimensionnement chronique. 5 directeurs depuis 2018"
+    faits_lies: ["F-IMP-007", "F-IMP-008", "F-IMP-015"]
+  - nom: "Cour des comptes"
+    role: "Principale source d'audit. Rapports récurrents sur l'opacité et l'absence d'évaluation. Recommandations jamais suivies"
+    faits_lies: ["F-IMP-001", "F-IMP-003", "F-IMP-007", "F-IMP-010"]
+  - nom: "DITP"
+    role: "Gère FTAP. Accepte projections déclaratives jamais vérifiées"
+    faits_lies: ["F-IMP-003", "F-IMP-020"]
+  - nom: "UK Government Digital Service"
+    role: "Contre-modèle. Transparence open data, zero-based review, publication des dépenses IT par département"
+    faits_lies: ["F-IMP-016"]
+  - nom: "ESN (Capgemini, Sopra Steria, Atos, Accenture)"
+    role: "Oligopole bénéficiaire de l'opacité. 3/4 des prestations externes IT"
+    faits_lies: ["F-IMP-005"]
+
+causalites:
+  - cause: "F-IMP-015"
+    effet: "F-IMP-007"
+    mecanisme: "Le sous-dimensionnement de la DINUM (1,6% ratio) la rend incapable d'évaluer les gains de productivité - confirmé par la Cour des comptes sur l'absence d'analyse d'impact"
+  - cause: "F-IMP-010"
+    effet: "F-IMP-009"
+    mecanisme: "L'opacité des dépenses IT n'est pas un accident technique mais l'absence d'une volonté politique de transparence, comme le prouve la comparaison UK"
+  - cause: "F-IMP-003"
+    effet: "gaspillage FTAP"
+    mecanisme: "Le FTAP a dépensé 800 M€ pour générer 339 M€ d'économies (perte 461 M€). L'absence de méthode d'évaluation harmonisée a permis des projections théoriques non vérifiées"
+  - cause: "F-IMP-018"
+    effet: "biais de déclaration DINUM"
+    mecanisme: "Les projets sortis du périmètre ne sont plus comptés comme échecs (ex: GMBI), biaisant les statistiques de surcoût et retard"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle (Narrative de modernisation)"
+    argument: "La France investit massivement dans la transformation numérique de l'État. 4-5 Md€ par an, 45 grands projets, un FTAP doté de 1,1 Md€. Les surcoûts baissent (6,5% contre 17,5% en 2024). La DINUM pilote."
+  - position: "Antithèse (Gaspillage structurel)"
+    argument: "Aucune évaluation d'impact, des économies FTAP inférieures à l'investissement, une dette technique de 1-1,5 Md€/an, l'opacité budgétaire. Les 4-5 Md€ financent principalement la maintenance de systèmes hérités et la rémunération de l'oligopole ESN."
+  - position: "Synthèse (Ignorance organisée)"
+    argument: "Si personne ne mesure l'impact, personne ne peut démontrer que l'argent est mal dépensé. Cette ignorance organisée profite à tous les acteurs : ESN, ministères, DINUM, Parlement. Le Royaume-Uni prouve que la transparence est possible - la France choisit de ne pas le faire."
+
+limites:
+  - "Chiffres DINUM (6,5% surcoût, 21% retard) sont des auto-évaluations - pas d'audit indépendant systématique des 45 grands projets"
+  - "Estimation dette technique (1-1,5 Md€) est une fourchette haute de la Cour des comptes, pas un coût comptabilisé"
+  - "Comparaison UK biaisée par différence de taille et de structure administrative (UK centralisé vs France déconcentrée)"
+  - "Données prestations externes datent de 2021 - les chiffres 2024-2025 peuvent différer"
+
+wolves:
+  - nom: "L'optimiste technique"
+    argument: "Le surcoût moyen baisse (17,5% à 6,5%). Les 45 grands projets avancent. La DINUM s'améliore. C'est une tendance positive qui mérite d'être encouragée."
+    reponse: "Le 6,5% est un artefact qui exclut les projets sortis du périmètre. Sans évaluation d'impact indépendante, l'amélioration des indicateurs de processus ne dit rien de l'efficacité réelle."
+  - nom: "Le défenseur de la souveraineté"
+    argument: "La France n'est pas le Royaume-Uni. Notre modèle administratif est différent. La transparence UK est un choix culturel qui ne s'exporte pas."
+    reponse: "La transparence budgétaire n'est pas une question culturelle mais technique et politique. Les outils existent (open data, comptabilité analytique). La France choisit de ne pas les utiliser."
+  - nom: "Le relativiste FTAP"
+    argument: "339 M€ d'économies c'est mieux que rien. Certains projets FTAP ont réussi. Le fonds a financé des transformations qui n'auraient pas eu lieu autrement."
+    reponse: "Le ratio 0,42€ économisé pour 1€ investi signifie une perte nette de 461 M€. Sans audit indépendant des 'économies' déclarées, le bilan réel pourrait être pire."
+
+iceberg:
+  - "Les sorties de périmètre abusives : GMBI retiré du suivi des grands projets alors qu'il était encore en développement - le biais de déclaration DINUM est systémique"
+  - "L'absence de benchmark international : la France est le seul grand pays européen à ne pas produire d'évaluation d'impact de ses dépenses IT publiques"
+  - "Le paradoxe DINUM : 5 directeurs depuis 2018 - l'instabilité chronique du pilotage central est à elle seule un signal de non-priorité politique"
+  - "Résultat Mnemolite: search 'budget IT état 4-5 milliards impact' → 3 mémoires"
+  - "Si 1% du budget IT (40-50 M€) était redirigé vers les autorités de contrôle : CNIL doublerait ses effectifs, ANSSI triplerait ses audits"
+
+chronologie:
+  - date: "2017"
+    evenement: "Création du FTAP (Fonds de transformation de l'action publique), doté de 1,1 Md€"
+    source_fait: "F-IMP-003"
+  - date: "2018"
+    evenement: "Premier rapport Cour des comptes sur opacité IT État. Recommandations jamais suivies"
+    source_fait: "F-IMP-010"
+  - date: "2024"
+    evenement: "DINUM panorama: 45 grands projets, 3,3 Md€ cumulés, retard 21%, surcoût 6,5%"
+    source_fait: "F-IMP-002"
+  - date: "2025-02"
+    evenement: "Cour des comptes n°88316: gains de productivité 'angle mort' des projets numériques"
+    source_fait: "F-IMP-007"
+  - date: "2025-03"
+    evenement: "UK Performance Review of Digital Spend: majorité des programmes sans métriques de résultat"
+    source_fait: "F-IMP-016"
+  - date: "2025"
+    evenement: "FTAP: 800 M€ consommés, 339 M€ économies déclarées. Cour des comptes: bilan peu crédible"
+    source_fait: "F-IMP-020"
+
+domaines:
+  - "Dépenses IT publiques"
+  - "Transformation numérique de l'État"
+  - "Finances publiques et comptabilité analytique"
+  - "Gouvernance des SI publics"
+  - "ESN et externalisation IT"
+  - "Évaluation des politiques publiques"
+
+urls_prioritaires:
+  - url: "https://www.ccomptes.fr/fr/publications/le-numerique-dans-les-administrations-publiques"
+    description: "Cour des comptes sur le numérique dans les administrations - source centrale"
+    head_status: 200
+  - url: "https://www.ccomptes.fr/fr/publications/le-fonds-de-transformation-de-laction-publique"
+    description: "Audit Cour des comptes sur le FTAP - échec documenté"
+    head_status: 200
+  - url: "https://www.ccomptes.fr/fr/publications/la-gestion-des-biens-immobiliers-de-letat"
+    description: "Audit GMBI DGFiP - surcoût x1,6 et externalisation massive"
+    head_status: 200
+  - url: "https://www.gov.uk/government/publications/performance-review-of-digital-spend-2025"
+    description: "UK Performance Review of Digital Spend - contre-modèle de transparence"
+    head_status: 200
+  - url: "https://www.numerique.gouv.fr/dinum/"
+    description: "DINUM panorama semestriel des grands projets numériques"
+    head_status: 200
+
+shadow_factor: 4.0
+
+mnemo_queries:
+  - query: "budget IT état français impact évaluation productivité"
+    results_count: 3
+  - query: "FTAP fonds transformation action publique gaspillage"
+    results_count: 3

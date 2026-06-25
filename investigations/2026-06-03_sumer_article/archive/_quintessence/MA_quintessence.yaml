@@ -1,0 +1,371 @@
+civ: "MA"
+complexity: "MEDIUM"
+date_extraction: "2026-06-07"
+enquete_source: "investigations/2026-06-03_sumer_article/2026-06-04_09-30_moyen_age_gense_etat_FRANCAIS_INVESTIGATION.md"
+
+these_centrale: "Le Moyen Âge (987-1515) est la ceinture de transmission qui fait passer l'héritage antique vers la France moderne : trois inventions médiévales (redécouverte du Corpus Juris Civilis à Bologne vers 1070, dette publique par rente sur l'Hôtel de Ville en 1522, État fiscal par taille permanente en 1439) comblent le trou documentaire de 594 ans entre la chute de Rome et la monarchie française, fondant les institutions dont la caste contemporaine capte les rentes."
+
+theses_implicites:
+  - "Le Moyen Âge est un âge fondateur défiguré par deux biais narratifs ultérieurs : le BIAIS RENAISSANCE des humanistes (qui inventent le terme pour délégitimer la période au profit de l'Antiquité) et le BIAIS RÉVOLUTIONNAIRE (qui rejette l'Ancien Régime en bloc). Les faits sont robustes, le récit qui les enrobe est une construction politique."
+  - "La filiation Rome -> France n'est pas continue, elle est RECONSTRUITE : un trou documentaire de 594 ans (476-1070) est comblé par les glossateurs de Bologne, première vague d'un mécanisme de rattrapage de l'héritage antique que la Troisième République reproduira avec le Code civil de 1804."
+  - "Les 5 tensions du Changement de Régime (extraction, capture, démantèlement, abdication, dette) ont leurs précédents médiévaux : la Guerre de Cent Ans, la Peste noire et la taille permanente reproduisent les mêmes structures, mais au XIVe siècle la crise produit plus d'État, au XXIe siècle elle produit plus de capture. Le mécanisme est identique, la trajectoire diverge."
+
+faits_atomiques:
+  - id: "F-MA001"
+    enonce: "Redécouverte du Corpus Juris Civilis à Bologne par Irnerius vers 1070, fondatrice de la tradition des glossateurs et de la Summa Codicis."
+    source_url: "https://en.wikipedia.org/wiki/Irnerius"
+    source_section: "§2"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+
+  - id: "F-MA002"
+    enonce: "Corpus Juris Civilis promulgué par Justinien à Constantinople entre 529 et 534, en 4 parties (Codex, Digeste, Institutes, Novelles)."
+    source_url: "https://en.wikipedia.org/wiki/Corpus_Juris_Civilis"
+    source_section: "FACT_REGISTRY F002"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+
+  - id: "F-MA003"
+    enonce: "Création de la rente sur l'Hôtel de Ville de Paris en 1522 par François Ier, première dette publique française institutionnalisée sous forme de titre public négociable."
+    source_url: "https://dettedelafrance.fr/histoire-de-la-dette-de-la-france"
+    source_section: "§3"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+
+  - id: "F-MA004"
+    enonce: "Arrestation des Templiers par Philippe le Bel le 13 octobre 1307, environ 15 000 hommes arrêtés en une nuit, motivée par l'endettement royal et la confiscation du Trésor du Temple."
+    source_url: "https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel"
+    source_section: "§3"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+
+  - id: "F-MA005"
+    enonce: "Sous Philippe Auguste (1180-1223), administration royale modernisée : revenu royal d'environ 150 000 livres par an, domaine royal de 800 000 livres, nomination de baillis et sénéchaux."
+    source_url: "https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le"
+    source_section: "§4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+  - id: "F-MA006"
+    enonce: "Création du Parlement de Paris vers 1250 comme cour souveraine issue de la Curia Regis, composée de magistrats professionnels formant les premiers gens de robe."
+    source_url: "https://fr.wikipedia.org/wiki/Parlement_(royaume_de_France)"
+    source_section: "§5"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+
+  - id: "F-MA007"
+    enonce: "Premiers États généraux convoqués par Philippe le Bel le 10 avril 1302, réunissant les trois ordres (clergé, noblesse, tiers) pour légitimer l'impôt de guerre."
+    source_url: "https://www.herodote.net/almanach-ID-3494.php"
+    source_section: "§4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-MA008"
+    enonce: "Ordonnances de Saint Louis réformant la justice et encadrant les officiers en 1254, fondant la justice professionnelle déléguée."
+    source_url: "https://www.herodote.net/Un_attribut_royal-synthese-2964.php"
+    source_section: "§5"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-MA009"
+    enonce: "Création de l'impôt permanent (taille royale) par Charles VII en 1439, premier impôt direct permanent de l'histoire française, autorisé par les États généraux."
+    source_url: "https://cours-de-droit.net/legislation-royale-moyen-age/"
+    source_section: "§4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-MA010"
+    enonce: "Peste noire de 1347-1351, effondrement démographique tuant 30 à 50% de la population européenne et déclenchant la crise systémique du XIVe siècle."
+    source_url: ""
+    source_section: "§7"
+    head_status: null
+    tier: 1
+    glyphe: "❧"
+
+  - id: "F-MA011"
+    enonce: "Abolition du servage en France par Louis X en 1315, dans le contexte de la pression démographique post-croisée."
+    source_url: ""
+    source_section: "§6"
+    head_status: null
+    tier: 2
+    glyphe: "❧"
+
+  - id: "F-MA012"
+    enonce: "Mort de Philippe IV le Bel le 29 novembre 1314, à l'âge de 46 ans, marquant la fin du cycle des légistes."
+    source_url: "https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel"
+    source_section: "FACT_REGISTRY F012"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+
+  - id: "F-MA013"
+    enonce: "Féodalité (Xe-XVe siècle) : système de vassalité, fief, hommage, seigneurie, structurant la société en trois ordres juridiques distincts."
+    source_url: "https://cours-de-droit.net/feodalite-au-moyen-age/"
+    source_section: "§6"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+  - id: "F-MA014"
+    enonce: "Irnerius fonde l'École de Bologne en 1084 ou 1088, début institutionnel de la tradition glossatrice et de l'université européenne."
+    source_url: "https://en.wikipedia.org/wiki/Irnerius"
+    source_section: "FACT_REGISTRY F014"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+
+  - id: "F-MA015"
+    enonce: "Sous François Ier (1515-1547), première rente sur l'Hôtel de Ville et début du marché des titres publics, fondant la dette publique moderne."
+    source_url: "https://www.persee.fr/doc/hes_0752-5702_1998_num_17_4_2005"
+    source_section: "§3"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+
+  - id: "F-MA016"
+    enonce: "Les légistes de Philippe le Bel (Pierre Flotte, Guillaume de Nogaret, Enguerrand de Marigny) théorisent la souveraineté royale entre 1285 et 1314 à partir du droit romain."
+    source_url: "https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel"
+    source_section: "§8"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+
+  - id: "F-MA017"
+    enonce: "Institutionnalisation de la dette publique sous l'Ancien Régime, de 1522 à 1789, documentée par Katia Béguin (Financer la guerre au XVIIe siècle)."
+    source_url: "https://cour-de-france.fr/actualites/parutions/article/financer-la-guerre-au-xviie-siecle-la-dette-publique-et-les"
+    source_section: "§3"
+    head_status: null
+    tier: 1
+    glyphe: "⁅"
+
+  - id: "F-MA018"
+    enonce: "Passage du titre de Rex Francorum à Rex Franciæ sous Philippe Auguste, entre 1190 et 1204, marquant l'unification juridique du royaume."
+    source_url: "https://fr.wikipedia.org/wiki/Philippe_II_Auguste"
+    source_section: "FACT_REGISTRY F018"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+
+  - id: "F-MA019"
+    enonce: "Conflit entre Philippe le Bel et Boniface VIII de 1296 à 1303 sur la taxation du clergé, fondant l'autonomie fiscale de la Couronne."
+    source_url: "https://fr.wikipedia.org/wiki/%C3%89tats_g%C3%A9n%C3%A9raux_de_1302-1303"
+    source_section: "§4"
+    head_status: null
+    tier: 2
+    glyphe: "⁅"
+
+  - id: "F-MA020"
+    enonce: "Transition de la Curia Regis au Parlement de Paris au XIIIe siècle, professionnalisation de la justice royale et autonomisation du corps des magistrats."
+    source_url: "https://cours-de-droit.net/histoire-du-parlement/"
+    source_section: "§5"
+    head_status: 200
+    tier: 3
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Irnerius"
+    role: "Juriste bolonais, redécouvre le Corpus Juris Civilis et fonde l'École de Bologne (~1070-1088)"
+    faits_lies: ["F-MA001", "F-MA014"]
+  - nom: "Justinien"
+    role: "Empereur byzantin, promulgue le Corpus Juris Civilis (529-534) à Constantinople"
+    faits_lies: ["F-MA002"]
+  - nom: "François Ier"
+    role: "Roi de France, crée la rente sur l'Hôtel de Ville en 1522, fondant la dette publique moderne"
+    faits_lies: ["F-MA003", "F-MA015"]
+  - nom: "Philippe IV le Bel"
+    role: "Roi de France (1285-1314), centralise l'État, liquide les Templiers, convoque les États généraux"
+    faits_lies: ["F-MA004", "F-MA007", "F-MA012", "F-MA016", "F-MA019"]
+  - nom: "Philippe II Auguste"
+    role: "Roi de France (1180-1223), modernise l'administration royale, passage à Rex Franciæ"
+    faits_lies: ["F-MA005", "F-MA018"]
+  - nom: "Louis IX (Saint Louis)"
+    role: "Roi de France (1226-1270), réforme la justice, crée le Parlement, promulgue les ordonnances de 1254"
+    faits_lies: ["F-MA006", "F-MA008", "F-MA020"]
+  - nom: "Charles VII"
+    role: "Roi de France, instaure la taille permanente en 1439 lors de la Guerre de Cent Ans"
+    faits_lies: ["F-MA009"]
+  - nom: "Louis X"
+    role: "Roi de France, abolit le servage en 1315"
+    faits_lies: ["F-MA011"]
+  - nom: "Pierre Flotte"
+    role: "Chancelier et légiste de Philippe le Bel, organise les États généraux de 1302"
+    faits_lies: ["F-MA007", "F-MA016"]
+  - nom: "Guillaume de Nogaret"
+    role: "Garde des Sceaux, organise l'arrestation des Templiers et l'attentat d'Anagni"
+    faits_lies: ["F-MA004", "F-MA016"]
+  - nom: "Enguerrand de Marigny"
+    role: "Conseiller financier de Philippe le Bel, gestionnaire de l'endettement royal"
+    faits_lies: ["F-MA016"]
+  - nom: "Boniface VIII"
+    role: "Pape (1294-1303), s'oppose à la taxation du clergé par Philippe le Bel, conflit sur la souveraineté"
+    faits_lies: ["F-MA019"]
+  - nom: "Étienne Marcel"
+    role: "Prévôt des marchands de Paris, tente de contrôler l'impôt aux États généraux de 1355-1358"
+    faits_lies: ["F-MA007"]
+  - nom: "Katia Béguin"
+    role: "Historienne, autrice de Financer la guerre au XVIIe siècle, référence sur la dette d'Ancien Régime"
+    faits_lies: ["F-MA017"]
+
+causalites:
+  - cause: "F-MA002"
+    effet: "F-MA001"
+    mecanisme: "La redécouverte bolonaise du CJC de Justinien (~1070) ne peut s'opérer que parce que le texte a été conservé intact à Constantinople pendant 540 ans."
+  - cause: "F-MA001"
+    effet: "F-MA008"
+    mecanisme: "Le droit romain redécouvert fournit le substrat intellectuel permettant à Saint Louis de réformer la justice et de rédiger des ordonnances systématiques en 1254."
+  - cause: "F-MA001"
+    effet: "F-MA016"
+    mecanisme: "La formation juridique bolonaise alimente le corpus doctrinal des légistes royaux, qui théorisent la souveraineté absolue à partir du Digeste de Justinien."
+  - cause: "F-MA004"
+    effet: "F-MA003"
+    mecanisme: "La spoliation brutale des Templiers en 1307 crée l'impératif politique d'un mode de financement alternatif : la rente publique de 1522 en est la réponse stabilisée et institutionnalisée."
+  - cause: "F-MA007"
+    effet: "F-MA009"
+    mecanisme: "La convocation des États généraux en 1302 institue la procédure de consentement à l'impôt, mais la Guerre de Cent Ans impose la taille permanente de 1439 qui rend ce consentement formel."
+  - cause: "F-MA005"
+    effet: "F-MA006"
+    mecanisme: "L'administration directe de Philippe Auguste, avec ses baillis et sénéchaux, prépare l'infrastructure juridictionnelle dont le Parlement de Paris est l'aboutissement au XIIIe siècle."
+  - cause: "F-MA006"
+    effet: "F-MA020"
+    mecanisme: "Le Parlement de Paris, issu de la Curia Regis, se spécialise au XIIIe siècle en cour souveraine distincte de la personne du roi, fondant l'autonomie judiciaire."
+  - cause: "F-MA016"
+    effet: "F-MA012"
+    mecanisme: "Les légistes, dont l'influence culmine avec la professionnalisation de l'État sous Philippe le Bel, ne survivent pas à la disparition de leur protecteur en 1314 et sont exécutés ou disgraciés."
+
+perspectives_dialectiques:
+  - position: "Continuité antique -> État français"
+    argument: "Le Moyen Âge prolonge sans rupture les institutions romaines : fisc, droit, bureaucratie sont transmis de manière organique, et la féodalité n'est qu'un habillage politique sur une armature administrative continue héritée de Rome."
+  - position: "Rupture médiévale"
+    argument: "Le Moyen Âge est un AGE D'OBSCURANTISME : chute démographique, perte des techniques, isolement intellectuel, économie de subsistance. L'État moderne se construit CONTRE le féodalisme médiéval, non à partir de lui."
+  - position: "Traduction et reconstruction"
+    argument: "Ni continuité ni rupture : le Moyen Âge est une CEINTURE DE TRANSMISSION qui traduit activement l'héritage antique à travers des médiateurs (glossateurs, légistes, financiers italiens). Le trou documentaire de 594 ans (476-1070) prouve que la continuité n'est pas organique, mais la reconstruction est trop profonde pour être une simple rupture."
+
+limites:
+  - "Biais du récit national : la construction de l'État français est un récit téléologique qui survalorise la centralisation capétienne aux dépens des féodalités périphériques et des périodes de crise (Guerre de Cent Ans)."
+  - "Période carolingienne (751-987) traitée trop rapidement : la renaissance capitulaire prépare Bologne, ce maillon fondateur mérite une enquête dédiée."
+  - "Pas de sources primaires : l'enquête s'appuie sur des sources secondaires (Wikipedia, Herodote, EHNE, cours en ligne). Les archives médiévales (rôles de la Chambre des Comptes, registres du Parlement) n'ont pas été consultées."
+  - "Sous-représentation de l'Ancien Régime (1515-1789) : l'absolutisme, le système des offices, la Paulette de 1604 ne sont pas couverts alors qu'ils fondent l'État contemporain."
+  - "Sur-représentation de Philippe le Bel : son règne est mieux documenté, ce qui peut exagérer son importance structurelle réelle par rapport à des périodes moins médiatisées."
+  - "Mnemolite vide : aucune mémoire indexée pour Moyen Âge, Bologne, dette publique ou François Ier. Pas de cross-sourcing disponible via la base vectorielle du projet."
+
+wolves:
+  - nom: "Historien médiévaliste classique (type Georges Duby)"
+    argument: "Vous surinterprétez le Moyen Âge comme une « ceinture de transmission » au service d'une thèse sur la caste contemporaine. Le Moyen Âge a sa propre logique, ses propres dynamiques (féodalité, Église, Croisades) qui ne se réduisent pas à une proto-histoire de l'État moderne."
+    reponse: "L'enquête ne réduit pas le Moyen Âge à un chaînon manquant, elle identifie trois inventions précises (droit, dette, impôt) dont la postérité est documentée. Le reste de la période garde son autonomie dans l'analyse. La mise en regard avec l'article « Trois civilisations, un même problème » est un cadrage, pas une explication exhaustive."
+  - nom: "Juriste historien du droit (type Yan Thomas)"
+    argument: "Le droit romain n'est pas « redécouvert » en 1070, il n'a jamais été perdu : les formulaires, les actes de la pratique et le Bréviaire d'Alaric maintiennent une tradition juridique continue."
+    reponse: "L'enquête (§2) reconnaît ce point : des fragments du droit romain avaient survécu chez les légistes carolingiens et à Pavie. La redécouverte bolonaise porte sur l'œuvre COMPLÈTE de Justinien, non sur le droit romain en général. La nuance est explicitement documentée."
+  - nom: "Économiste (type Thomas Piketty)"
+    argument: "Vous sous-estimez l'innovation financière italienne : les banquiers lombards et toscans inventent la dette publique, pas la monarchie française. François Ier n'est qu'un client du système italien."
+    reponse: "L'enquête (§3 Phase 2) mentionne explicitement le rôle des banquiers italiens et leurs taux élevés. La rente sur l'Hôtel de Ville est toutefois une innovation institutionnelle FRANÇAISE (gage sur les revenus fiscaux parisiens), qui transforme le prêt privé en titre public. Le mécanisme italien alimente, l'institution française structure."
+  - nom: "Politiste (type Pierre Rosanvallon)"
+    argument: "Vous idéalisez les États généraux comme moment démocratique : en 1302, il s'agit d'un instrument de LÉGITIMATION de l'impôt royal, non de contrôle parlementaire. La représentation est sélective, le consentement est forcé."
+    reponse: "L'enquête (§4) reconnaît ce point : la convocation de 1302 sert d'abord à légitimer l'impôt de guerre. La portée démocratique (Étienne Marcel en 1358) est documentée comme échec. Le mécanisme est bien identifié comme INSTRUMENTALISATION royale, pas comme avancée démocratique."
+
+iceberg:
+  - "L'Église comme acteur fiscal : l'exemption du clergé avant 1302, puis la taxation post-conflit avec Boniface VIII, sont un pan majeur de la formation de l'État fiscal que l'enquête effleure sans traiter (F-MA019)."
+  - "L'invention du NOTARIAT par les clercs médiévaux : chaînon technique entre la pratique romaine et la bureaucratie d'État, totalement absent de l'enquête."
+  - "Les CROISADES comme mécanisme de circulation financière : endettement massif des seigneurs, transferts vers Venise et Gênes, inflation des prix — un précédent de la dette souveraine non traité."
+  - "Le droit CANONIQUE comme corpus parallèle au droit civil : Gratien (~1140) et le Décret fondent la tradition juridique européenne au même titre que le CJC, non couvert par l'enquête."
+  - "La révolution COMMERCIALE italienne (XIIe-XIIIe siècle) : foires de Champagne, comptabilité en partie double, lettre de change — l'infrastructure financière qui rend possible la rente de 1522, mentionnée mais non documentée."
+  - "Mnemolite : 0 résultat sur les 4 requêtes lancées (Moyen Âge glossateurs Bologne État français genèse, Philippe le Bel Templiers dette publique, Philippe Auguste rente François Ier Hôtel de Ville 1522, Irnerius glossateurs Bologne droit romain redécouverte). La base vectorielle est vide pour cette aire."
+
+chronologie:
+  - date: "529-534"
+    evenement: "Promulgation du Corpus Juris Civilis par Justinien à Constantinople (4 parties : Codex, Digeste, Institutes, Novelles)."
+    source_fait: "F-MA002"
+  - date: "~1070"
+    evenement: "Redécouverte du Corpus Juris Civilis à Bologne par Irnerius, début de la tradition des glossateurs."
+    source_fait: "F-MA001"
+  - date: "1084-1088"
+    evenement: "Fondation de l'École de Bologne par Irnerius, point de départ de l'université européenne."
+    source_fait: "F-MA014"
+  - date: "1180-1223"
+    evenement: "Règne de Philippe Auguste : revenu royal ~150 000 livres/an, domaine 800 000 livres, administration directe par baillis et sénéchaux."
+    source_fait: "F-MA005"
+  - date: "1190-1204"
+    evenement: "Passage du titre de Rex Francorum à Rex Franciæ sous Philippe Auguste."
+    source_fait: "F-MA018"
+  - date: "~1250"
+    evenement: "Création du Parlement de Paris comme cour souveraine issue de la Curia Regis."
+    source_fait: "F-MA006"
+  - date: "1254"
+    evenement: "Ordonnances de Saint Louis réformant la justice et encadrant les officiers."
+    source_fait: "F-MA008"
+  - date: "10 avril 1302"
+    evenement: "Premiers États généraux convoqués par Philippe le Bel (trois ordres : clergé, noblesse, tiers)."
+    source_fait: "F-MA007"
+  - date: "13 oct. 1307"
+    evenement: "Arrestation des Templiers par Philippe le Bel (15 000 hommes en une nuit), dissolution de l'ordre en 1312."
+    source_fait: "F-MA004"
+  - date: "1315"
+    evenement: "Abolition du servage en France par Louis X."
+    source_fait: "F-MA011"
+  - date: "29 nov. 1314"
+    evenement: "Mort de Philippe IV le Bel à 46 ans, fin du cycle des légistes."
+    source_fait: "F-MA012"
+  - date: "1347-1351"
+    evenement: "Peste noire en Europe, 30 à 50% de la population disparue."
+    source_fait: "F-MA010"
+  - date: "1439"
+    evenement: "Création de l'impôt permanent (taille royale) par Charles VII, premier impôt direct permanent français."
+    source_fait: "F-MA009"
+  - date: "1522"
+    evenement: "Création de la rente sur l'Hôtel de Ville de Paris par François Ier, première dette publique française institutionnalisée."
+    source_fait: "F-MA003"
+
+domaines:
+  - "Dette publique (rente, emprunt, spoliation, marché des titres)"
+  - "Bureaucratie (légistes, officiers, parlement, gens de robe)"
+  - "Fiscalité (taille, États généraux, domaine royal, consentement)"
+  - "Droit (Corpus Juris Civilis, glossateurs, Summa Codicis, ordonnances)"
+  - "Souveraineté (légistes, absolutisme, Rex Franciæ, quod principi placuit)"
+  - "Féodalité (vassalité, fief, hommage, seigneurie, servage, trois ordres)"
+  - "Ancien Régime (institutionnalisation dette 1522-1789, offices, Paulette)"
+
+urls_prioritaires:
+  - url: "https://ehne.fr/fr/eduscol/renforcement-du-pouvoir-royal-sous-philippe-auguste-1180-1223-le"
+    description: "Source académique EHNE (Éducation nationale) sur l'administration de Philippe Auguste, seule URL tier 1 avec head_check 200."
+    head_status: 200
+  - url: "https://www.herodote.net/almanach-ID-3494.php"
+    description: "Herodote.net : détail des États généraux du 10 avril 1302 convoqués par Philippe le Bel, source grand public fiable (F-MA007)."
+    head_status: 200
+  - url: "https://www.herodote.net/13_octobre_1307-evenement-13071013.php"
+    description: "Herodote.net : chronologie détaillée de l'arrestation des Templiers le 13 octobre 1307, fondatrice de l'analyse financière du règne (F-MA004)."
+    head_status: 200
+  - url: "https://www.herodote.net/Un_attribut_royal-synthese-2964.php"
+    description: "Herodote.net : synthèse sur Saint Louis et la réforme de la justice (1254), source pour F-MA008."
+    head_status: 200
+  - url: "https://cours-de-droit.net/legislation-royale-moyen-age/"
+    description: "Cours-de-droit.net : législation royale au Moyen Âge, source pour la création de la taille permanente (F-MA009)."
+    head_status: 200
+  - url: "https://cours-de-droit.net/histoire-du-parlement/"
+    description: "Cours-de-droit.net : histoire du Parlement de Paris, source pour la transition Curia Regis -> Parlement (F-MA020)."
+    head_status: 200
+  - url: "https://cours-de-droit.net/feodalite-au-moyen-age/"
+    description: "Cours-de-droit.net : féodalité au Moyen Âge, source pour F-MA013."
+    head_status: 200
+  - url: "https://mescoursdhistoire.fr/levolution-du-systeme-feodal-vers-la-monarchie-absolue/"
+    description: "Mes Cours d'Histoire : évolution du système féodal vers la monarchie absolue, contextualisation politique de l'enquête."
+    head_status: 200
+
+shadow_factor: 1.5
+
+mnemo_queries:
+  - query: "Moyen Âge glossateurs Bologne État français genèse"
+    results_count: 0
+  - query: "Philippe le Bel Templiers dette publique"
+    results_count: 0
+  - query: "Philippe Auguste rente François Ier Hôtel de Ville 1522"
+    results_count: 0
+  - query: "Irnerius glossateurs Bologne droit romain redécouverte"
+    results_count: 0
