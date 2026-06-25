@@ -297,11 +297,35 @@ Une enquete NREF n'est pas un texte convaincant — c'est un **dossier de preuve
 
 ## PARTIE V : WORKFLOW D'EXECUTION (v2.1)
 
+### Etape 0 — Recherche documentaire [NOUVEAU v2.1]
+
+Avant de produire la fiche, constituer le dossier de sources.
+
+**0.1 Identifier les sources potentielles**
+- Effectuer des recherches web sur l'evenement, les acteurs, les rapports officiels
+- Identifier les sources primaires (rapports officiels, transcriptions, articles de presse, lois)
+- Identifier les sources contradictoires (defense des accuses, versions officielles, articles favorables au systeme)
+- Noter les lacunes documentaires : sources introuvables, archives classees, periodes sans couverture
+
+**0.2 Verifier l'accessibilite des sources**
+- Pour chaque source potentielle : tenter d'obtenir une URL publique ou un identifiant stable (DOI, ISBN, cote d'archive)
+- HEAD-checker chaque URL : 200 OK = ✦, 4xx/5xx = ⁅, pas d'URL accessible = ❧
+- Verifier que le contenu correspond bien a ce qui est annonce (pas de detournement d'URL)
+
+**0.3 Extraire les citations directes**
+- Pour chaque source cle, extraire le passage pertinent entre guillemets avec la reference de page
+- Ne pas citer de memoire — toujours verifier le texte exact
+
+**0.4 Constituer le dossier documentaire**
+- Lister les sources avec : URL, glyphe reel, citation directe, page
+- Identifier les sources manquantes → les marquer [RECHERCHE COMPLEMENTAIRE NECESSAIRE]
+- Si aucun traceur verifiable n'est trouve pour un mecanisme presuppose → le marquer [HYPOTHESE] avant meme d'ecrire la fiche
+
 ### Etape 1 — Lancer l'enquete
 
-Utiliser `2026-06-26_21-00_prompt_investigation_v2_PROMPT.md` — le point d'entree unique de la v2.0.
+Utiliser `2026-06-26_21-00_prompt_investigation_v2_PROMPT.md` (renforce v2.1) — le point d'entree unique du protocole.
 
-### Etape 2 — Produire la fiche YAML v2.0
+### Etape 2 — Produire la fiche YAML v2.1
 
 Les 12 chapitres (1-12) doivent etre remplis. Les chapitres 5-10 (PREUVES, CONTRE-VERSION, ACTIVATION, INCERTITUDES, BIAIS, REPLICATION) sont obligatoires.
 
