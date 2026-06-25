@@ -423,9 +423,18 @@ Avant de finaliser, verifier :
 3. Quel etait le pacte tacite que tout le monde maintenait ? (M11/Kayfabe, M37/Hypernormalisation)
 4. Quelle strategie de resistance aurait pu (ou a) fonctionne ? (R01-R10)
 
+### Phase d'Approfondissement (Ultrathinking)
+
+Apres l'auto-verification, deployer la **Phase d'Approfondissement** (§ ci-dessus) si :
+- Degre de systemicite 4-5 (systematique)
+- Degre 2-3 sur doute (enquete trop propre, trop lineaire)
+- L'auto-verification revele des incoherences
+
+Cette phase produit un addendum a la fiche YAML initiale, listant angles morts, nouvelles pistes, mecanismes suspects et hypotheses systemiques. Ne pas passer a l'etape suivante tant que l'addendum n'est pas produit.
+
 ### Tableau de bord
 
-Ajouter mecanismes dominants et strategies pertinentes au tableau de bord.
+Ajouter mecanismes dominants, strategies pertinentes, et le cas echeant les nouvelles pistes de l'addendum Ultrathinking au tableau de bord.
 
 ---
 
