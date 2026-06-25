@@ -2,146 +2,146 @@
 
 ## Pourquoi
 
-Ce dossier est le produit d'une enquete systemique sur les defaillances silencieuses de la societe francaise. Le constat de depart : la France produit des tragedies evitables (sang contamine, canicule 2003, amiante, Mediator, etc.) sans que le systeme genere de contre-reaction citoyenne proportionnee. Pourquoi ?
+Ce dossier est le produit d'une enquête systémique sur les défaillances silencieuses de la société française. Le constat de départ : la France produit des tragédies évitables (sang contaminé, canicule 2003, amiante, Mediator, etc.) sans que le système génère de contre-réaction citoyenne proportionnée. Pourquoi ?
 
-L'hypothese : ces defaillances ne sont pas des accidents. Elles sont le produit d'une architecture systemique construite sur 200+ ans, maintenue par un ensemble de mecanismes homeostatiques qui transforment la colere en carburant, la resistance en maintenance, et la lucidite en fonction du systeme.
+**Thèse centrale :** ces défaillances ne sont pas des accidents. Elles sont le produit d'une architecture systémique construite sur 200+ ans, maintenue par un ensemble de mécanismes homéostatiques qui transforment la colère en carburant, la résistance en maintenance, et la lucidité en fonction du système.
+
+---
 
 ## Histoire du projet
 
 ### Phase 0 : Les enquêtes 68tars (24 juin 2026)
 
-Le projet n'a pas commence par la theorie systemique, mais par une question tres concrete : **quelle generation est responsable du declin français ?**
+10 investigations sur la génération 68tars (boomers), explorant le verrouillage du pays, les occasions perdues de souveraineté, l'iceberg des 7 faisceaux de confiscation. Ces fichiers sont dans `00_enquetes_68tars/`.
 
-10 investigations ont ete menees sur la generation 68tars (boomers), explorant successivement :
-- Leur responsabilite dans le verrouillage du pays (10h00)
-- Les occasions perdues de souverainete (10h30)
-- L'iceberg des 7 faisceaux de confiscation (14h00)
-- La contre-enquete dialectique (17h00)
-- Le conflit these boomer vs corpus changement de regime (20h00)
-- La mecanique du laisser-aller (22h00)
-- Le profil du lambda boomer (23h00)
-- La chronologie du laisser-aller 1974-2026 (23h30)
-- La fresque des mensonges et omissions (00h30)
-
-Ces fichiers se trouvent dans `00_enquetes_68tars/`.
-
-**Ce que cette phase a revele :** accuser une generation est insuffisant. Les boomers ne sont pas la cause — ils sont eux-memes le produit d'un systeme qui les a precedes et qui les depasse. La question est devenue : *quel est le systeme qui produit ces comportements, ces verrouillages, cette impuissance collective ?*
-
-C'est ce constat d'echec de l'approche generationnelle qui a conduit a changer d'echelle.
+**Enseignement :** accuser une génération est insuffisant. Les boomers ne sont pas la cause — ils sont eux-mêmes le produit d'un système qui les précède et les dépasse.
 
 ### Phase 1 : Hyper-matrice 1975-2026
 
-Apres avoir abandonne l'angle generationnel, l'enquete est passee a une echelle macro : 5 agents ont genere une hyper-matrice de 2519 evenements couvrant la France de 1975 a 2026, classes en 20 dimensions (POL, ECO, SOC, JUR, SANT, EDU, etc.). Chaque evenement est code selon son impact systemique (X = echec, XX = tragedie, +/- = revelateur, + = reussite).
+5 matrices couvrant 2 500+ événements de 1975 à 2026, classés en 20 dimensions (POL, ÉCO, SOC, JUR, SANT, etc.). Fichiers dans `01_donnees/`.
 
-Fichiers dans `01_donnees/`, du plus ancien au plus recent :
-- `01-00_INTRO_MATRICE` — concept initial de la matrice
-- `01-30_matrice_annuelle` — premiere version annuelle
-- `03-15_matrice_enrichie` — enrichie a ~300 evenements + fichier maitre
-- `12-00_france_2016-2026_HYPER_MATRICE` — hyper-matrice focus 2016-2026
-- `12-00_matrice_supplement_700` — supplement de ~700 evenements
-- `17-00_france_1975-1982_HYPER_MATRICE` a `17-00_france_2007-2026` — decoupages par decennie
-- `17-00_france_1975-2026_HYPER_MATRICE_UNIFIEE` (208K) — version unifiee finale
+### Phase 2 : Analyse systémique et 8 fils (v1.0)
 
-### Phase 2 : Analyse systemique et 8 fils
+L'enquête sur le **sang contaminé** révèle 8 fils causaux remontant jusqu'en 1791. Chaque fil est un verrou systémique qui neutralise un contre-pouvoir :
 
-L'enquete sur le **sang contamine** (1984-1991) a servi de revelateur. En analysant pourquoi 4000 hemophiles ont ete contamines sans que personne ne reagisse, 8 fils causaux ont ete identifiees, remontant jusqu'en 1791. Chaque fil est un verrou systemique neutralisant un contre-pouvoir :
+| Fil | Contre-pouvoir neutralisé |
+|-----|---------------------------|
+| A — Mandarinat médical/scientifique | Autorité scientifique incontestable |
+| B — Monopole d'État | Initiative citoyenne |
+| C — Société civile atrophiée | Solidarité collective |
+| D — Justice domestiquée | Recours juridique |
+| E — Presse sans contre-pouvoir | Information indépendante |
+| F — École-moule | Esprit critique |
+| G — Laïcité religion civile | Contre-pouvoir moral |
+| H — Exceptionnalisme français | Solutions étrangères |
 
-| Fil | Contre-pouvoir neutralise |
-|-----|--------------------------|
-| A — Mandarinat medical/scientifique | Autorite scientifique incontestable |
-| B — Monopole d'Etat | Initiative citoyenne |
-| C — Societe civile atrophiee | Solidarite collective |
-| D — Justice domestiquee | Recours juridique |
-| E — Presse sans contre-pouvoir | Information independante |
-| F — Ecole-moule | Esprit critique |
-| G — Laicite religion civile | Contre-pouvoir moral |
-| H — Exceptionnalisme francais | Solutions etrangeres |
+### Phase 3 : 42 mécanismes actifs (v1.1 → v1.3)
 
-L'enquete fondatrice qui a revele ces 8 fils est l'analyse du **sang contamine** (1984-1991), dans `02_enquetes/18-00_anatomie_impuissance_civique_ARCHITECTURE.md`.
+33 mécanismes (M01-M33) + 9 (M34-M42) issus de l'article *L'Empire du Mensonge* + 10 stratégies de résistance (R01-R10). Séparation du protocole et du prompt (v1.3).
 
-### Phase 3 : Mecanismes actifs (v1.1)
+### Phase 4 : Standard NREF v2.0 (26 juin 2026)
 
-Les 8 fils expliquent les *structures* du verrouillage, mais pas les *mecanismes* qui stabilisent le systeme. 33 mecanismes actifs (M01-M33) ont ete extraits de 7 articles de la Resistance Cognitive (Substack, 2025-2026), organises en 4 groupes :
+Refonte du format d'enquête. Standard de preuve **Non Réfutable** : 6 nouveaux chapitres YAML obligatoires (PREUVES, CONTRE-VERSION, ACTIVATION, INCERTITUDES, BIAIS, REPLICATION), barème de conformité à 8 exigences, workflow avec étape de vérification NREF.
 
-- **Capture du Pouvoir** (M01-M07) : comment les elites verrouillent l'Etat
-- **Controle de l'Information** (M08-M13) : comment le recit est fabrique
-- **Dissuasion/Fragilisation** (M14-M21) : comment la volonte est brisee
-- **Neutralisation de la Dissidence** (M22-M33) : comment l'opposition est absorbee
+### Phase 5 : Renforcement v2.1 (26 juin 2026)
 
-### Phase 4 : Empire du Mensonge (v1.2)
+Post-audit de l'enquête sang contaminé v2.0 : les sources n'étaient pas vérifiées (5 glyphes ✦ abusifs, 0 URL, 0 HEAD check). Corrections :
+- Instructions opérationnelles de recherche web et HEAD check
+- `source_url`, `citation_directe`, `head_check_date` obligatoires dans le schéma YAML
+- Glyphes ✦ soumis à HEAD check réel
+- Barème NREF passe à 10 exigences (NREF-9, NREF-10)
+- Échelle de robustesse A/B/C/D/E
+- Étape 0 (recherche documentaire) ajoutée au workflow
+- Format ADDENDUM pour l'Ultrathinking (obligatoire degré 4-5)
+- Étape 5 bis (vérification par second agent)
 
-L'article *L'Empire du Mensonge : Rapport d'autopsie d'une civilisation sous anesthesie* (1987 lignes, Resistance Cognitive, 2026-01-07) a ete systematiquement analyse. Il a livre :
-- 9 nouveaux mecanismes (M34-M42) : Firehose, OODA, Controle reflexif, Hypernormalisation, Lawfare, Shifting Baseline, Propagande algorithmique, Complexe de la censure, Schismogenese
-- 10 strategies de resistance (R01-R10)
-- 32 concepts relais documentes dans l'hypermatrice d'extraction
-
-### Phase 5 : Separation mission/connaissance (v1.3)
-
-Le protocole initial melait 3 choses : la connaissance (mecanismes/fils), la methode, et le prompt d'enquete. v1.3 les separe :
-
-- **`PROMPT_INVESTIGATION_v1.md`** — la mission envoyee au LLM (court, environ 80 lignes)
-- **`PROTOCOLE_v1.3.md`** — la reference documentaire (472 lignes, consultable a discretion)
-
-Le principe : le LLM enquete librement. Le protocole est une boite a outils, pas un formulaire.
+---
 
 ## Structure du dossier
 
 ```
 2026-06-25_fresque_systemique/
-├── README.md                        ← vous etes ici
+├── README.md                        ← vous êtes ici
 │
-├── 00_enquetes_68tars/              ← point de depart (10 enquetes generation boomer)
+├── 00_enquetes_68tars/              ← point de départ (10 enquêtes génération boomer)
 │
-├── 01_donnees/                      ← hyper-matrices (2519 evenements)
-│   ├── 2026-06-25_01-00_fresque_systemique_INTRO_MATRICE.md
-│   ├── 2026-06-25_01-30_matrice_annuelle_1975_2026.md
-│   ├── 2026-06-25_03-15_matrice_enrichie_300_et_MAITRE.md
-│   ├── 2026-06-25_12-00_france_2016-2026_HYPER_MATRICE.md
-│   ├── 2026-06-25_12-00_matrice_supplement_700_et_SUPPL.md
-│   ├── 2026-06-25_17-00_france_1975-1982_HYPER_MATRICE.md
-│   ├── 2026-06-25_17-00_france_1983-1990_HYPER_MATRICE.md
-│   ├── 2026-06-25_17-00_france_1991-1998_HYPER_MATRICE.md
-│   ├── 2026-06-25_17-00_france_1999-2006_HYPER_MATRICE.md
-│   ├── 2026-06-25_17-00_france_2006-2015_HYPER_MATRICE.md
-│   ├── 2026-06-25_17-00_france_2007-2026_HYPER_MATRICE.md
-│   └── 2026-06-25_17-00_france_1975-2026_HYPER_MATRICE_UNIFIEE.md
+├── 01_donnees/                      ← hyper-matrices (2 500+ événements)
+│   └── (matrices 1975-1982 à 2007-2026, fichier unifié)
 │
-├── 02_enquetes/                     ← analyses et investigations
-│   ├── 2026-06-25_02-00_responsability_gaps_RAPPORT.md
+├── 02_enquetes/                     ← investigations produites
+│   ├── 2026-06-26_sang_contamine_v2.1_INVESTIGATION.md   ← ★ enquête de référence v2.1
 │   ├── 2026-06-25_17-00_france_1975-2026_ANALYSE_SYSTEMIQUE.md
-│   └── 2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md
+│   ├── 2026-06-25_02-00_responsability_gaps_RAPPORT.md
+│   └── archive/                     ← anciennes investigations
+│       ├── 2026-06-26_sang_contamine_INVESTIGATION.md (v1.3)
+│       ├── 2026-06-26_sang_contamine_NREF_INVESTIGATION.md (v2.0)
+│       └── 2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md (essai fondateur)
 │
-└── 03_framework/                    ← protocole, prompt, outils
-    ├── 2026-06-25_18-30_protocole_investigation_FRAMEWORK.md      (v1.0)
-    ├── 2026-06-25_18-30_protocole_investigation_FRAMEWORK_v1.3.md (latest)
-    ├── 2026-06-25_20-00_empire_mensonge_concepts_extraits_HYPER_MATRICE.md
-    └── 2026-06-25_21-00_prompt_investigation_v1_PROMPT.md
+├── 03_framework/                    ← protocole, prompt, tableau de bord
+│   ├── 2026-06-26_18-30_protocole_investigation_FRAMEWORK_v2.0.md   ← ★ protocole v2.1
+│   ├── 2026-06-26_21-00_prompt_investigation_v2_PROMPT.md           ← ★ prompt v2.1 renforcé
+│   ├── TABLEAU_DE_BORD.md                                            ← ★ fresque cumulative
+│   ├── 2026-06-25_20-00_empire_mensonge_concepts_extraits_HYPER_MATRICE.md
+│   ├── 03_framework/README.md       ← documentation détaillée du framework
+│   └── archive/                     ← protocoles v1.x
+│       ├── 2026-06-25_18-30_protocole_investigation_FRAMEWORK.md (v1.0)
+│       └── 2026-06-25_18-30_protocole_investigation_FRAMEWORK_v1.3.md
 ```
 
-## Comment lancer une enquete
+---
 
-1. Choisir un evenement dans la matrice (`01_donnees/`)
-2. Ouvrir `03_framework/2026-06-25_21-00_prompt_investigation_v1_PROMPT.md`
-3. Copier le prompt, remplacer `[ANNEE]` et `[TITRE]`
-4. Envoyer a l'agent d'enquete
-5. Consulter `PROTOCOLE_v1.3.md` si besoin d'approfondir un mecanisme ou pattern
-6. Sauvegarder la fiche YAML produite dans `02_enquetes/`
+## Comment utiliser le projet
+
+### Lire la fresque
+
+1. **Commencer par le TABLEAU_DE_BORD.md** (dans `03_framework/`) — il agrège toutes les enquêtes v2.1, leurs synthèses, l'état des validations, et la file d'attente. C'est le point d'entrée unique.
+2. **Plonger dans une enquête** dans `02_enquetes/` — chaque investigation est une fiche YAML autonome avec sources vérifiées, contre-version, et analyse systémique complète.
+3. **Consulter le protocole** dans `03_framework/` pour comprendre les 42 mécanismes (M01-M42), les 8 fils (A-H), et les 10 stratégies (R01-R10).
+
+### Lancer une nouvelle enquête (protocole v2.1)
+
+1. Consulter le **TABLEAU_DE_BORD.md** pour la file d'attente et les priorités
+2. Ouvrir `03_framework/2026-06-26_21-00_prompt_investigation_v2_PROMPT.md` (renforcé v2.1)
+3. Suivre le workflow du protocole v2.1 :
+   - **Étape 0** : Recherche documentaire (recherches web, HEAD checks, citations directes)
+   - **Étape 1** : Lancer l'enquête via le prompt
+   - **Étape 2** : Produire la fiche YAML (12 chapitres, sources vérifiées)
+   - **Étape 3** : Auto-vérification (4 questions système)
+   - **Étape 4** : Ultrathinking (obligatoire degré 4-5, format ADDENDUM)
+   - **Étape 5** : Vérification NREF (10 exigences, niveaux A-E)
+   - **Étape 5 bis** : Vérification par second agent (contre-expertise)
+   - **Étape 6** : Mettre à jour le TABLEAU_DE_BORD.md
+4. Sauvegarder la fiche YAML produite dans `02_enquetes/`
+
+---
 
 ## Version du protocole
 
 | Version | Date | Changement |
 |---------|------|------------|
-| v1.0 | 2026-06-25 | 8 fils fondateurs (sang contamine) |
-| v1.1 | 2026-06-25 | 33 mecanismes actifs (7 articles Resistance Cognitive) |
-| v1.2 | 2026-06-25 | +9 mecanismes M34-M42, +10 resistances R01-R10 (Empire du Mensonge) |
-| v1.3 | 2026-06-25 | Separation prompt/protocole, YAML simplifie, autonomie du LLM |
+| v1.0 | 2026-06-25 | 8 fils fondateurs (sang contaminé) |
+| v1.1 | 2026-06-25 | 33 mécanismes actifs (7 articles Resistance Cognitive) |
+| v1.2 | 2026-06-25 | +9 mécanismes M34-M42, +10 résistances R01-R10 (Empire du Mensonge) |
+| v1.3 | 2026-06-25 | Séparation prompt/protocole, YAML simplifié, autonomie du LLM |
+| v2.0 | 2026-06-26 | Refonte NREF : 6 nouveaux chapitres, barème 8 exigences, workflow vérification |
+| **v2.1** | **2026-06-26** | **Renforcement post-audit : sources vérifiées, HEAD checks, 10 exigences, Ultrathinking obligatoire, second agent** |
+
+---
 
 ## Contexte plus large
 
-Ce dossier est un module du projet Truth Engine. Les investigations produites ici alimentent la base Mnemolite. Les articles de la Resistance Cognitive (103 articles, Substack) sont la source conceptuelle des mecanismes.
+Ce dossier est un module du projet Truth Engine. Les investigations produites ici alimentent la base Mnemolite (RAG vectoriel). Les articles de la Résistance Cognitive (103 articles, Substack) sont la source conceptuelle des mécanismes.
 
-### Point de depart
+Voir `AGENTS.md` à la racine du projet pour les règles opératoires.
 
-Le dossier `00_enquetes_68tars/` contient les 10 investigations du 24 juin 2026 qui ont amorce le projet. Elles sont conservees comme trace du cheminement intellectuel : on est parti d'une question generationnelle, on a abouti a un protocole d'enquete systemique.
+### Enquête de référence
 
-Voir `AGENTS.md` a la racine du projet pour les regles operatoires.
+La première enquête produite avec le protocole v2.1 est **l'affaire du sang contaminé** (1984-2003). Elle sert de démonstrateur et de test du workflow complet (étapes 0 à 6). Résumé :
+- **Niveau NREF :** B (vérifiable, sources déclarées honnêtement)
+- **Sources :** 1 ✦ (HEAD 200 OK) + 3 ⁅ (Legifrance anti-bot) + 4 ❧ (papier/non trouvé)
+- **5 mécanismes dominants :** M14 (Impuissance apprise), M23 (Ingénierie de la possession), M05 (Perfusion publique), M28 (DARVO), M11 (Kayfabe politique)
+- **8 fils tous actifs :** verrouillage complet (degré 5/5)
+- **Ultrathinking :** ✅ réalisé (6 sections, 2 pistes P1/P2)
+- **Second agent :** 🔲 à réaliser
+
+Voir le détail dans `02_enquetes/2026-06-26_sang_contamine_v2.1_INVESTIGATION.md`.

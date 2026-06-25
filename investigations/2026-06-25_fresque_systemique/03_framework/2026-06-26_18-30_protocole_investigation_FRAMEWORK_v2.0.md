@@ -1,17 +1,20 @@
-# PROTOCOLE D'INVESTIGATION SYSTEMIQUE v2.1 NREF
+# PROTOCOLE D'INVESTIGATION SYSTEMIQUE v2.3 NREF
 ## Framework d'enquete forensique sur les defaillances de la societe francaise
 ### Reference des mecanismes, fils, strategies de resistance et standard de preuve
+### ARCHÉOLOGIE DES FILS [v2.2] + CONTRE-MESURES OPERATIONNELLES [NOUVEAU v2.3]
 
 ---
 
 ## PREAMBULE
 
-Ce protocole est la version 2.1 NREF (Non Refutable). Il herite des versions 1.0 a 2.0 qui ont identifie 8 fils systemiques, 42 mecanismes actifs et 10 strategies de resistance. La version 2.1 ajoute les exigences de verification des sources (URL, HEAD check, citation directe) qui font passer l'enquete systemique du statut de **dossier structure** (v2.0) au statut de **preuve verifiee** (v2.1).
+Ce protocole est la version 2.3 NREF (Non Refutable). Il herite des versions 1.0 a 2.2 qui ont identifie 8 fils systemiques, 42 mecanismes actifs et 10 strategies de resistance. La version 2.1 a ajoute les exigences de verification des sources. La version 2.2 a ajoute l'exigence de remontee archeologique. La version 2.3 ajoute l'exigence de **contre-mesures operationnelles** : chaque enquete doit identifier les actions concretes qui auraient pu empecher la bascule, par qui, et a quel moment.
 
-**Les 3 piliers de la V2.1 :**
+**Les 5 piliers de la V2.3 :**
 1. **Chaine de preuve** : chaque mecanisme identifie doit etre etaye par au moins un traceur verifiable avec URL et citation directe
 2. **Contre-version sourcee** : la version officielle des faits doit etre presentee avec une source reelle (nom, date, URL) et refutee point par point
 3. **Honneur cognitif** : les incertitudes, les biais de l'enqueteur, ET le statut reel des sources (glyphes verifies) doivent etre declares
+4. **Archeologie des fils** : chaque fil actif identifie doit etre remonte jusqu'a son acte de naissance historique — les mecanismes ne sont pas nés avec l'evenement, ils sont le produit d'une stratification de 200+ ans
+5. **Contre-mesures operationnelles [NOUVEAU v2.3]** : chaque enquete doit identifier les actions concretes qui auraient pu empecher la bascule ou empecheraient sa recurrence — avec acteur, fenetre d'opportunite, faisabilite, et precedent historique verifie
 
 **These centrale (inchangee) :** Les defaillances francaises ne sont pas des accidents. Elles sont le produit d'une architecture systemique construite sur 200+ ans, maintenue par un ensemble de mecanismes homeostatiques qui transforment la colere en carburant, la resistance en maintenance, et la lucidite en fonction du systeme.
 
@@ -21,11 +24,22 @@ Ce protocole est la version 2.1 NREF (Non Refutable). Il herite des versions 1.0
 - L'analyse du « sang contamine » (1984) a revele 8 fils causaux remontant jusqu'en 1791
 - Chaque fil est un verrou systemique qui neutralise un contre-pouvoir
 
-**Nouveau constat v2.1 :**
+**Nouveaux constats v2.1 (inchanges) :**
 - Les enquetes v2.0 produisaient des dossiers structures mais les sources n'etaient pas verifiees : les glyphes ✦ etaient attribues sans HEAD check, les URLs n'etaient pas citees, les citations directes manquaient
 - Le protocole ne disait pas a l'enqueteur COMMENT verifier ses sources — il disait seulement QUOI produire
 - La phase Ultrathinking etait mentionnee mais pas executee (degre 5 sans addendum)
 - Une enquete NREF sans sources verifiees est un essai, pas une preuve
+
+**Nouveau constat v2.2 (inchangé) :**
+- Les enquetes v2.1 produites identifient les mecanismes (M11, M28, M37...) et les fils (A-H) dans l'evenement etudie, mais elles ne remontent PAS les fils jusqu'a leurs racines historiques. Le chapitre RACINES est devenu un inventaire de causes immediates (0-3 ans de profondeur), pas une archeologie du systeme
+- Les 5 enquetes produites montrent que M11+M28+M05 est invariant, mais personne n'a explique COMMENT ce pattern s'est construit sur 200+ ans
+- Une enquete systemique sans archeologie des fils est une photographie, pas un diagnostic
+
+**Nouveau constat v2.3 :**
+- Les enquetes v2.2 identifient les mecanismes et leurs racines historiques, mais elles ne repondent pas a la question operationnelle : « qu'aurait-on dû faire, a quel moment, par qui, pour que la bascule ne se produise pas et ne se reproduise pas ? »
+- Le chapitre RESISTANCE (R01-R10) propose des strategies abstraites mais pas d'actions concretes avec acteur, fenetre d'opportunite et faisabilite
+- Les BIFURCATIONS_PERDUES identifient « ou ca aurait pu etre different » mais pas « quoi exactement, par qui »
+- Sans contre-mesures operationnelles, l'enquete est une autopsie sans protocole de reanimation
 
 ---
 
@@ -87,11 +101,44 @@ EVENEMENT:
 
 # ============================================================
 # CHAPITRE 2 — RACINES (inchange)
+# Racines immediates de l'evenement (0-10 ans).
 # ============================================================
 RACINES:
-  - "[cause profonde 1 : loi, institution, decision fondatrice, verrou structurel]"
+  - "[cause profonde 1 : loi, institution, decision fondatrice, verrou structurel immediat]"
   - "[cause profonde 2 : remonter au-dela de l'evenement immediat]"
-  - "[cause profonde 3 : niveau culturel, cognitif, historique]"
+  - "[cause profonde 3 : niveau culturel, cognitif, historique immediat]"
+
+# ============================================================
+# CHAPITRE 2.5 — REMONTEE DES FILS [NOUVEAU v2.2]
+# Archeologie obligatoire de chaque fil actif.
+# Pour chaque fil A-H actif dans VERROUILLAGE, remonter
+# jusqu'a son acte de naissance + renforcements historiques.
+# Utiliser le referentiel : 2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md
+# ============================================================
+REMONTEE_DES_FILS:
+  reference_document: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+  fils_archeologie:
+    - fil: "[lettre A-H : identique a VERROUILLAGE.fils_actifs]"
+      acte_naissance:
+        date: "[AAAA]"
+        evenement: "[loi, decret, evenement constitutif du fil]"
+        mecanisme_cree: "[M## cree par cet acte]"
+        source: "[URL ou reference du document source]"
+      renforcements_historiques:
+        - date: "[AAAA]"
+          evenement: "[premier renforcement : consolidation du fil]"
+          mecanisme_active: "[M##]"
+          source: "[URL ou reference]"
+        - date: "[AAAA]"
+          evenement: "[second renforcement]"
+          mecanisme_active: "[M##]"
+          source: "[URL ou reference]"
+      chaine_causale:
+        - "[acte_naissance] → [renforcement 1] → [renforcement 2] → ... → manifestation dans l'evenement"
+      manifestation_dans_evenement:
+        "[description operationnelle : comment ce fil s'est manifeste dans l'evenement etudie, en reference directe aux donnees de l'enquete]"
+    - fil: "[autre fil actif]"
+      ...
 
 # ============================================================
 # CHAPITRE 3 — BIFURCATIONS PERDUES (inchange)
@@ -99,6 +146,34 @@ RACINES:
 BIFURCATIONS_PERDUES:
   - "[moment precis ou ca aurait pu etre different — quoi, qui, pourquoi ca n'a pas eu lieu]"
   - "[autre bifurcation si pertinente]"
+
+# ============================================================
+# CHAPITRE 3.5 — CONTRE-MESURES [NOUVEAU v2.3]
+# Pour chaque bascule identifiee, repondre a la question :
+# « Qu'aurait-on dû faire, par qui, a quel moment, pour
+# empecher ou empecher la recurrence ? »
+# Les contre-mesures sont operationnelles (acte, acteur,
+# fenetre), pas des intentions abstraites.
+# ============================================================
+CONTRE_MESURES:
+  actions_requises:
+    - temporalite: "[PENDANT / APRES / PREVENTIF]"
+      cible_fil: "[A-H : fil systemique que l'action aurait neutralise]"
+      cible_mecanisme: "[M## : mecanisme que l'action aurait bloque]"
+      action_concrete: "[quoi exactement — pas une intention, un acte verifiable]"
+      acteur: "[qui devait agir — nom, fonction, institution]"
+      fenetre_opportunite: "[quand — date ou delai precis]"
+      faisabilite: "[eleve / moyen / faible]"
+      cout_estime: "[cout politique, economique, social estime]"
+      precedent_historique: "[exemple historiquement verifie ou cette action a fonctionne ailleurs]"
+      source_preuve: "[URL ou reference attestant que cette action aurait marche]"
+      non_faite_parce_que: "[verrou qui l'a empechee — lien vers M## dans VERROUILLAGE]"
+    - temporalite: "..."
+      # Minimum 2 actions : 1 PENDANT/APRES + 1 PREVENTIF
+  verrous_contre_mesures:
+    - "[[mecanisme qui a bloque la contre-mesure elle-meme : ex. M11 kayfabe, M22 absorption]"
+  apprentissages_pour_futur:
+    - "[condition requise pour que la contre-mesure soit applicable la prochaine fois]"
 
 # ============================================================
 # CHAPITRE 4 — VERROUILLAGE SYSTEMIQUE (inchange)
@@ -263,16 +338,18 @@ Une enquete NREF n'est pas un texte convaincant — c'est un **dossier de preuve
 | **NREF-8** | La fiche complete fait > 200 lignes (hors YAML) | La fiche est marquee [SURVOL] |
 | **NREF-9 [NOUVEAU v2.1]** | Chaque source dans PREUVES a une `source_url` verifiee (HEAD 200 OK = ✦, 4xx/5xx = ⁅, pas d'URL = ❧) | La fiche est marquee [SOURCES NON VERIFIEES] |
 | **NREF-10 [NOUVEAU v2.1]** | Chaque version officielle dans CONTRE_VERSION a une source reelle avec URL et auteur identifie | La fiche est marquee [CONTRE-VERSION NON SOURCEE] |
+| **NREF-11 [NOUVEAU v2.2]** | Chaque fil actif dans VERROUILLAGE a une entree dans REMONTEE_DES_FILS avec acte de naissance + au moins 2 renforcements historiques + chaine causale complete jusqu'a l'evenement | La fiche est marquee [RACINES IMMEDIATES SEULEMENT] |
+| **NREF-12 [NOUVEAU v2.3]** | L'enquete contient au moins 2 contre-mesures operationnelles dans CONTRE_MESURES (1 PENDANT/APRES + 1 PREVENTIF) avec acteur identifie, fenetre d'opportunite, faisabilite, et precedent historique verifie | La fiche est marquee [AUTOPTIE SANS REMEDE] |
 
-### Echelle de robustesse v2.1
+### Echelle de robustesse v2.3
 
 | Niveau | Conforme a | Interpretation |
 |--------|------------|----------------|
-| NREF-A | Toutes les exigences 1-10 | Enquete utilisable comme preuve : sources verifiees, URLs fournies, contre-version sourcee |
-| NREF-B | Exigences 1-8 (manque 9 ou 10) | Enquete solide mais sources non verifiees ou contre-version non sourcee |
-| NREF-C | Exigences 1-5 | Enquete partiellement etayee |
+| NREF-A | Toutes les exigences 1-12 | Enquete utilisable comme preuve : sources verifiees, contre-version sourcee, archeologie des fils complete, contre-mesures operationnelles identifiees |
+| NREF-B | Exigences 1-8 (incluant NREF-9 et NREF-10) | Enquete solide avec sources verifiees mais archeologie ou contre-mesures incompletes |
+| NREF-C | Exigences 1-5 | Enquete partiellement etayee, sources non verifiees ou contre-version absente |
 | NREF-D | Exigences 1-3 | Enquete de type « essai », refutable |
-| NREF-E [NOUVEAU v2.1] | Aucune ou 1 seule exigence satisfaite en substance | Enquete refusee — doit etre refaite |
+| NREF-E | Aucune ou 1 seule exigence satisfaite en substance | Enquete refusee — doit etre refaite |
 
 ### Regle de la chaine de preuve (v2.1)
 
@@ -410,9 +487,30 @@ Avant de produire la fiche, constituer le dossier de sources.
 
 Utiliser `2026-06-26_21-00_prompt_investigation_v2_PROMPT.md` (renforce v2.1) — le point d'entree unique du protocole.
 
-### Etape 2 — Produire la fiche YAML v2.1
+### Etape 1.5 — Archeologie des fils [NOUVEAU v2.2]
 
-Les 12 chapitres (1-12) doivent etre remplis. Les chapitres 5-10 (PREUVES, CONTRE-VERSION, ACTIVATION, INCERTITUDES, BIAIS, REPLICATION) sont obligatoires.
+Apres avoir lance l'enquete (etape 1) et AVANT de produire la fiche YAML (etape 2), l'enqueteur doit consulter le referentiel archeologique et identifier pour chaque fil actif pressenti :
+
+**1.5.1 Consulter le referentiel**
+- Ouvrir `2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md`
+- Pour chaque fil A-H pressenti comme actif dans l'evenement, reperer son acte de naissance et ses renforcements historiques
+- Noter les sources (lois, decrets, rapports) pour verification ulterieure (etape 0)
+
+**1.5.2 Verifier les actes fondateurs**
+- HEAD-checker les URLs des actes de naissance identifiés (Legifrance, Gallica, etc.)
+- Si un acte fondateur n'est pas verifiable → le marquer ❧ dans la fiche
+- Si un nouveau fil est propose (au-dela de A-H) → documenter son acte de naissance et ses renforcements dans le referentiel (mise a jour PARTIE VII)
+
+**1.5.3 Tracer la chaine causale**
+- Etablir la sequence : acte de naissance → renforcement 1 → renforcement 2 → ... → manifestation dans l'evenement
+- Pour chaque maillon de la chaine, identifier le mecanisme (M##) active
+- Verifier que la chaine causale est complete : aucun saut temporel > 50 ans sans explication
+
+**Sanction :** Sans etape 1.5, NREF-11 echoue — la fiche ne peut pas depasser le niveau NREF-B (voir barème NREF v2.2 §III).
+
+### Etape 2 — Produire la fiche YAML v2.3
+
+Les 13 chapitres (1-12 + 3.5 CONTRE_MESURES) doivent etre remplis. Les chapitres 5-10 (PREUVES, CONTRE-VERSION, ACTIVATION, INCERTITUDES, BIAIS, REPLICATION) sont obligatoires. CONTRE_MESURES (3.5) est obligatoire pour viser NREF-A.
 
 ### Etape 3 — Auto-verification (inchangee)
 
@@ -421,7 +519,15 @@ Les 12 chapitres (1-12) doivent etre remplis. Les chapitres 5-10 (PREUVES, CONTR
 3. Quel etait le pacte tacite que tout le monde maintenait ? (M11/Kayfabe, M37/Hypernormalisation)
 4. Quelle strategie de resistance aurait pu (ou a) fonctionne ? (R01-R10)
 
-### Etape 4 — Phase d'Approfondissement (Ultrathinking) [RENFORCE v2.1]
+### Etape 4 — Phase d'Approfondissement (Ultrathinking) [RENFORCE v2.2]
+
+La verification archeologique fait partie integrante de l'Ultrathinking : les 5 questions ci-dessous sont a integrer dans l'addendum (section FAISCEAUX_TRANSVERSAUX ou HYPOTHESES_SYSTEMIQUES) :
+
+1. **Y a-t-il un fil actif que la remontee ne parvient pas a relier a l'evenement ?** → le fil est peut-etre un passager clandestin
+2. **La chaine causale saute-t-elle plus de 50 ans sans explication ?** → il manque un renforcement
+3. **Un acte de naissance identifie est-il anterieur a 1791 ?** → le fil pourrait avoir une racine encore plus profonde (Ancien Regime, feodalite)
+4. **Tous les renforcements sont-ils lies a des mecanismes M## differents ?** → si non, le verrouillage est mono-mecanique (moins grave)
+5. **La remontee revele-t-elle un 9e fil ?** → le proposer a la consolidation periodique (PARTIE VII)
 
 Deployer la phase Ultrathinking (§IV) selon les conditions de declenchement :
 - **Degre 4-5** : ULTRATHINKING OBLIGATOIRE — sanction NREF-C max sans addendum
@@ -438,9 +544,9 @@ L'addendum doit suivre le **format ADDENDUM** defini en §IV (ANGLES_ALTERNATIFS
 - 2 pistes futures (dont 1 P1)
 - 1 hypothese systemique
 
-### Etape 5 — Verification NREF [NOUVEAU v2.0]
+### Etape 5 — Verification NREF [v2.3]
 
-Passer la fiche au crible du bareme NREF v2.1 (10 exigences). Calculer le niveau de robustesse (A/B/C/D/E).
+Passer la fiche au crible du bareme NREF v2.3 (12 exigences : NREF-1 a NREF-12). Calculer le niveau de robustesse (A/B/C/D/E).
 
 **Regles :**
 - Si niveau E → la fiche est refusee, retour etape 2
@@ -472,23 +578,56 @@ Il relit la fiche en adoptant le role de **contre-expert** : son objectif n'est 
 
 **Sanction :** Sans verification par second agent, la fiche ne peut pas depasser le niveau NREF-B.
 
-### Etape 6 — Tableau de bord
+### Etape 6 — Mise a jour du TABLEAU_DE_BORD.md
 
-Ajouter les donnees de l'enquete au TABLEAU_DE_BORD.md (mecanismes dominants, strategies pertinentes, niveau NREF, nouvelles pistes de l'addendum).
+Apres avoir produit la fiche, l'addendum Ultrathinking, et la verification NREF, reporter les donnees dans le TABLEAU_DE_BORD.md (`03_framework/TABLEAU_DE_BORD.md`). Cette etape est obligatoire — sans elle, l'enquete n'est pas integree a la fresque cumulative.
+
+**Operations a effectuer :**
+
+1. **Metriques globales** : incrementer « Enquetes v2.1 NREF produites », mettre a jour les cumuls (sources ✦/⁅/❧, HEAD checks)
+2. **Enquetes realisees** : ajouter une ligne dans le tableau (ID, Sujet, Code, Dim, Degre, NREF, Sources, Ultrathinking, Second agent, Fils, M## dominants)
+3. **Fichiers produits** : ajouter une ligne dans le tableau (Fiche YAML, Source si version anterieure)
+4. **Synthese des enquetes** : creer un nouveau bloc (these centrale, citation cle, mecanismes dominants/ secondaires, fils actifs, strategies de resistance, sources, falsifiabilite, pattern dominant)
+5. **Suivi des validations** : deplacer les points de vigilance de l'enquete dans la section « En attente » ou « Blocages resolus »
+6. **File d'attente** : ajouter les nouvelles pistes issues de l'addendum Ultrathinking (PISTES_FUTURES) et les predictions de REPLICATION
+
+**Regle :** Chaque mise a jour doit etre datee. Le dashboard est le point d'entree unique pour naviguer dans la fresque.
 
 ---
 
 ## PARTIE VI : TABLEAU DE BORD
 
-**A creer.** Le tableau de bord est un fichier separe qui agrege toutes les enquetes produites. Voir le plan v2.0 pour la structure proposee.
+### Role
 
-Colonnes minimales :
-| Date | ID | Sujet | Annee | Code | Dim | Degre | Fils actifs | M## dominants | Pattern | NREF | Citation-cle |
-|-----|-----|-------|-------|------|-----|-------|-------------|---------------|---------|------|--------------|
+Le TABLEAU_DE_BORD.md (`03_framework/TABLEAU_DE_BORD.md`) est le **point d'entree unique** de la fresque systemique. Il remplit 3 fonctions :
+
+1. **Pilotage operationnel** — combien d'enquetes produites, a quel niveau NREF, qu'est-ce qui bloque (second agent, Ultrathinking)
+2. **Fresque cumulative** — enquete apres enquete, les memes mecanismes reapparaissent, les patterns se confirment, la these centrale se verifie par accumulation
+3. **Preparation de la reponse** — la synthese de chaque enquete fournit la matiere directement mobilisable pour un article, un essai, ou une synthese transverse
+
+### Sections
+
+Le fichier contient 5 sections :
+
+| Section | Contenu | Mise a jour |
+|---------|---------|-------------|
+| **Metriques globales** | Nb enquetes, niveau NREF, Ultrathinking, second agent, sources cumulees, HEAD checks, blocages | Apres chaque enquete |
+| **Enquetes realisees** | Tableau des investigations v2.1 + fichiers produits | Apres chaque enquete |
+| **Synthese des enquetes** | These, citation, mecanismes (dominants + secondaires), fils, strategies, sources, falsifiabilite, pattern | Apres chaque enquete |
+| **Suivi des validations** | En attente (second agent, Ultrathinking), points de vigilance, blocages resolus | Apres chaque enquete + chaque validation |
+| **File d'attente** | Pistes P1/P2/P3 issues des addendums et des predictions REPLICATION | Apres chaque Ultrathinking |
+
+### Instructions de mise a jour
+
+Voir l'Etape 6 du workflow (ci-dessus) pour la procedure detaillee. En resume :
+
+- Extraire de la fiche YAML produite : ENQUETE (ID), EVENEMENT (titre, code, dimension), VERROUILLAGE (fils, mecanismes, pattern), PREUVES (sources, glyphes), RESISTANCE (strategies), REPLICATION (predictions), ENSEIGNEMENT, CITATION_CLE, DEGRE_SYSTEMICITE
+- Extraire de l'addendum Ultrathinking : ANGLES_ALTERNATIFS, ICEBERG_MAX, LIEVRES_ET_LOUPS, PISTES_FUTURES, HYPOTHESES_SYSTEMIQUES
+- Extraire de la verification NREF : niveau (A/B/C/D/E), points de vigilance
 
 ---
 
-## PARTIE VII : CONSOLIDATION PERIODIQUE (inchangee)
+## PARTIE VII : CONSOLIDATION PERIODIQUE [RENFORCEE v2.2]
 
 Toutes les 10 enquetes (ou sur demande) :
 1. Analyser les fils les plus actives (pattern detection)
@@ -499,13 +638,169 @@ Toutes les 10 enquetes (ou sur demande) :
 6. Mettre a jour l'architecture systemique globale
 7. Rediger un rapport de synthese incluant les recommandations de resistance
 
+**Ajout v2.2 — Mise a jour du referentiel archeologique :**
+8. **Consolider les apports archeologiques** : chaque enquete peut avoir ajoute des renforcements, corrige des dates, ou propose un nouveau fil dans REMONTEE_DES_FILS
+9. **Mettre a jour le referentiel** `03_framework/2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md` avec les nouvelles donnees
+10. **Verifier la coherence transversale** : les actes de naissance identifies dans chaque enquete sont-ils coherents entre eux ? Un fil peut-il avoir plusieurs actes de naissance concurrents ?
+11. **Identifier les fils manquants** : existe-t-il des evenements dont la remontee archeologique revele un nouveau fil (I, J...) ? Si oui, documenter son acte de naissance, ses renforcements, et sa chaine causale dans le referentiel
+
 ---
 
 ## PARTIE VIII : EXEMPLE D'ENQUETE (sang contamine)
 
-**Fichier :** `02_enquetes/2026-06-26_sang_contamine_NREF_INVESTIGATION.md`
+### Enquete de reference v2.1 (migrer vers v2.2)
 
-Cette enquete a ete produite avec le protocole v2.0 (format YAML v2.0, 12 chapitres). Elle est le premier test du format NREF. L'audit a revele des lacunes (sources non verifiees, URLs absentes, Ultrathinking non execute) qui ont conduit a la v2.1. Elle sert d'exemple de reference pour les points a ameliorer.
+**Fichier :** `02_enquetes/2026-06-26_sang_contamine_v2.1_INVESTIGATION.md`
+
+Cette enquete a ete produite avec le protocole v2.1 (format YAML v2.1, 12 chapitres, sources verifiees). Elle doit etre migree vers le format v2.2 avec ajout du chapitre REMONTEE_DES_FILS pour servir de reference complete.
+
+**Resume :**
+- Niveau NREF : B → vise NREF-A apres migration v2.2
+- Sources : 1 ✦ (HEAD 200 OK) + 3 ⁅ (Legifrance anti-bot) + 4 ❧ (papier/non trouve)
+- Mecanismes dominants : M14 (Impuissance apprise), M23 (Ingenierie possession), M05 (Perfusion publique), M28 (DARVO), M11 (Kayfabe politique)
+- 8 fils tous actifs (degre 5/5)
+- Ultrathinking : ✅ realise (6 sections)
+- Second agent : 🔲 a realiser
+- REMONTEE_DES_FILS : 🔲 a ajouter (migration v2.2)
+
+### Enquete historique v2.0
+
+**Fichier :** `02_enquetes/archive/2026-06-26_sang_contamine_NREF_INVESTIGATION.md`
+
+Premier test du format NREF (v2.0). L'audit a revele des lacunes ayant conduit a la v2.1 : 0 verification web, 0 URL, glyphes ✦ abusifs, Ultrathinking non execute, niveau NREF gonfle (B revendique, D reel). Conservee comme trace de la correction.
+
+---
+
+## PARTIE IX : ARCHÉOLOGIE DES FILS [NOUVEAU v2.2]
+
+### Principe
+
+L'archeologie des fils est le **4e pilier** du protocole v2.2. Apres la chaine de preuve (v2.1), la contre-version sourcee (v2.1) et l'honneur cognitif (v2.1), l'enqueteur doit desormais remonter chaque fil actif jusqu'a son acte de naissance historique et documenter les renforcements qui l'ont consolide au fil du temps.
+
+**Pourquoi c'est necessaire :**
+- Les 5 enquetes produites en v2.1 identifient correctement les mecanismes (M11, M28, M37...) mais le chapitre RACINES reste un inventaire de causes immediates (0-3 ans de profondeur)
+- Le pattern M11+M28+M05 est invariant dans 5 cas sur 5, mais personne n'a explique COMMENT ce pattern s'est construit sur 200+ ans
+- La promesse fondatrice du protocole — « remonter les fils jusqu'en 1791 » — est restee lettre morte dans les enquetes produites
+- Sans archeologie, les mecanismes semblent naitre avec l'evenement. Avec l'archeologie, on voit qu'ils sont le produit d'une stratification historique
+
+### Referentiel archeologique
+
+Le fichier `03_framework/2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md` compile les actes de naissance et renforcements historiques des 8 fils A-H. C'est le referentiel stable que toute enquete v2.2 doit consulter.
+
+**Structure du referentiel :**
+- Pour chaque fil A-H : acte de naissance (date, evenement, mecanisme cree) + renforcements historiques (dates, evenements, mecanismes actives) + chaine causale complete
+- Frise archeologique synthetique (1660-2026) montrant l'empilement des verrous
+- Carte des connexions entre fils (racines croisees : 1791 Le Chapelier = B + C ; 1804 Code civil = C + D ; 1958 = B + D + A)
+- Regles d'utilisation dans les enquetes
+
+### Structure obligatoire du chapitre REMONTEE_DES_FILS
+
+Le chapitre 2.5 du format YAML (REMONTEE_DES_FILS) doit contenir pour chaque fil actif identifie dans VERROUILLAGE.fils_actifs :
+
+1. **Reference croisee** : `fil: [lettre]` — meme identifiant que dans VERROUILLAGE
+2. **Acte de naissance** : date, evenement, mecanisme cree, source verifiee (glyphe selon HEAD check)
+3. **Renforcements historiques** : minimum 2, maximum 6 — chaque avec date, evenement, mecanisme active, source
+4. **Chaine causale** : sequence complete de l'acte fondateur a la manifestation dans l'evenement — chaque maillon doit etre explicite (pas de saut temporel > 50 ans sans explication)
+5. **Manifestation dans l'evenement** : description operationnelle de comment le fil s'est manifeste dans l'evenement etudie
+
+### Regles de l'archeologie
+
+1. **Tout fil actif doit etre remonte.** Si un fil identifie dans VERROUILLAGE.fils_actifs n'a pas d'entree dans REMONTEE_DES_FILS → NREF-11 echoue → niveau NREF max = B
+2. **Un fil sans acte de naissance identifie est un fil hypothetique.** Il doit etre marque [HYPOTHESE] dans la fiche et ne compte pas pour NREF-11
+3. **Les actes de naissance anterieurs a 1791** (Colbert, Ordonnance criminelle, etc.) signalent des racines pre-revolutionnaires — le fil est encore plus profond qu'estime
+4. **Les renforcements majeurs sont en priorite** : acte de naissance + renforcements majeurs (en gras dans le referentiel) sont obligatoires ; renforcements simples sont recommandes
+5. **Un nouveau fil identifie par une enquete** (au-dela de A-H) doit etre propose a la consolidation periodique (PARTIE VII) avec son acte de naissance et ses renforcements
+
+### Regle speciale : candidats auto-referents (Fils I, J, K...)
+
+Un cas particulier se presente lorsqu'un fil candidat a pour **acte de naissance l'evenement enquete lui-meme** (ex. Fil I — Vassalite monetaire : acte de naissance = Maastricht 1992, qui est aussi l'evenement de l'enquete). Cela cree une **circularite douce** : l'enquete confirme en partie le fil par sa propre existence.
+
+**Protocole a suivre pour les candidats auto-referents :**
+
+a. **Chaine causale obligatoire partant d'avant l'evenement** : l'enquete ne peut pas se contenter de decrire l'acte de naissance comme point de depart. Elle DOIT remonter a un antecedent causal clairement identifie (ex. pour Fil I : virage rigueur 1983 comme pre-condition). Cet antecedent doit etre separe de l'evenement par au moins un verrou systemique documente (ex. pour Fil I : virage 1983 -> Maastricht 1992 = 2 verrous distincts). Sans antecedent causal documente (que le seuil soit de 1 an ou 50 ans), le fil candidat reste au statut HYPOTHESE. Le seuil de 10 ans est indicatif — ce qui compte est la documentation d'un verrou prealable separé, pas la duree.
+
+b. **Double marquage explicite** : dans la fiche YAML, le fil candidat auto-referent doit etre marque `[CANDIDAT EN TEST]` dans l'enquete, meme si son statut est eleve. La confirmation ne peut intervenir qu'apres la consolidation periodique (PARTIE VII) et au moins une enquete de replication (ex. Grece 2015 pour Fil I).
+
+c. **Au moins un contre-exemple documente** : l'enquete doit presenter au moins un cas ou le fil aurait du s'activer mais ne l'a pas fait (ex. pour Fil I : Danemark — opt-out sur l'euro, pas de vassalite monetaire). Sans contre-exemple, le fil n'est pas falsifiable et ne peut pas etre confirme.
+
+d. **Limitation methodologique documentee dans BIAIS_ENQUETEUR** : l'enqueteur doit explicitement declarer dans le chapitre 9 que « l'acte de naissance du fil candidat [I/J/K] est l'evenement enquete lui-meme, ce qui cree une circularite douce — la confirmation du fil est partiellement auto-referente. »
+
+**Exemple (Fil I — Maastricht 1992) :**
+- Chaine causale : 1983 (virage rigueur) -> 1992 (Maastricht) -> confirmee par les renforcements 1999/2005/2012/2020
+- Contre-exemple : Danemark (opt-out 1992, garde sa couronne, se porte bien)
+- Marquage : `[CANDIDAT EN TEST]` dans REMONTEE_DES_FILS, promu CONFIRME apres consolidation
+- Biais declare : « l'acte de naissance de Fil I est Maastricht 1992, l'evenement enquete — circularite douce »
+
+### Sanction
+
+Sans chapitre REMONTEE_DES_FILS (NREF-11 non satisfait), la fiche ne peut pas depasser le niveau NREF-B, meme si les 10 autres exigences sont satisfaites (voir barème NREF v2.3 §III). L'archeologie des fils est un multiplicateur de profondeur : sans elle, l'enquete reste une photographie, pas un diagnostic.
+
+---
+
+## PARTIE X : CONTRE-MESURES OPERATIONNELLES [NOUVEAU v2.3]
+
+### Principe
+
+Les contre-mesures operationnelles sont le **5e pilier** du protocole v2.3. Apres la chaine de preuve, la contre-version sourcee, l'honneur cognitif et l'archeologie des fils, l'enqueteur doit desormais identifier les actions concretes qui auraient pu empecher la bascule ou empecheraient sa recurrence.
+
+**Pourquoi c'est necessaire :**
+- Les enquetes produites identifient les mecanismes (M11, M28, M37...) et les racines historiques (Le Chapelier, Code civil...), mais elles ne disent pas QUOI FAIRE
+- Le chapitre RESISTANCE (R01-R10) propose des strategies abstraites (parresia, retrait du consentement) sans acteur ni fenetre d'opportunite
+- Les BIFURCATIONS_PERDUES disent « ca aurait pu etre different » mais pas « qui devait faire quoi, quand »
+- Sans contre-mesures operationnelles, l'enquete est une autopsie sans protocole de reanimation
+
+### Les deux temporalites
+
+Toute contre-mesure doit etre categorisee selon sa temporalite :
+
+| Temporalite | Definition | Exemple (sang contamine) |
+|-------------|------------|--------------------------|
+| **PREVENTIF** | Action avant la bascule pour l'empecher | Mai 1983 : imposer un avis scientifique contradictoire (FDA/Behring) avant decision du CNTS |
+| **PENDANT** | Action pendant la bascule pour limiter les degats | 1991 : des la revelation Casteret, saisir la CJR et non pas laisser le systeme enterrer l'affaire |
+| **APRES** | Action apres la bascule pour empecher la recurrence | 1999 : creer une class action sanitaire au lieu d'une CJR qui acquitte systematiquement les ministres |
+
+### Les trois niveaux d'acteurs
+
+Chaque contre-mesure doit identifier son acteur selon l'echelle suivante :
+
+| Niveau | Acteur typique | Levier | Cout politique |
+|--------|----------------|--------|----------------|
+| **Micro** | Citoyen, patient, journaliste local, lanceur d'alerte | Temoignage, refus de consentement, verification citoyenne | Faible (individuel) |
+| **Meso** | Association, syndicat, ordre professionnel, media | Class action, greve, contre-expertise, petition | Moyen (collectif organise) |
+| **Macro** | Gouvernement, Parlement, Conseil constitutionnel, traite | Loi, reforme constitutionnelle, decret, traite | Eleve (changement de cadre) |
+
+### Structure obligatoire du chapitre CONTRE_MESURES
+
+Le chapitre 3.5 du format YAML (CONTRE_MESURES) doit contenir :
+
+1. **Actions requises** : minimum 2 (1 PENDANT/APRES + 1 PREVENTIF) — chaque avec :
+   - `temporalite` : PENDANT / APRES / PREVENTIF
+   - `cible_fil` : fil A-H que l'action aurait neutralise
+   - `cible_mecanisme` : M## que l'action aurait bloque
+   - `action_concrete` : acte verifiable, pas une intention (ex. « publier un contre-rapport » pas « sensibiliser »)
+   - `acteur` : nom ou fonction (ex. « Edmond Herve, Ministre de la Sante » pas « l'Etat »)
+   - `fenetre_opportunite` : date ou delai (ex. « mai 1983 — reception offre Travenol-Hyland »)
+   - `faisabilite` : eleve / moyen / faible
+   - `cout_estime` : cout politique, economique ou social estime
+   - `precedent_historique` : exemple verifie ou cette action a fonctionne (ex. « Allemagne : gouvernement federal impose produits chauffes Behring 1983, 0 mort »)
+   - `source_preuve` : URL, rapport, temoignage attestant que l'action aurait marche
+   - `non_faite_parce_que` : mecanisme qui l'a bloquee (lien vers VERROUILLAGE)
+
+2. **Verrous des contre-mesures** : mecanismes qui ont bloque la contre-mesure elle-meme (ex. M11 kayfabe, M22 absorption)
+
+3. **Apprentissages pour le futur** : conditions requises pour que la contre-mesure soit applicable la prochaine fois
+
+### Regles des contre-mesures
+
+1. **Toute contre-mesure doit etre operationnelle.** Pas de « il faudrait changer les mentalites » — une action verifiable avec un acteur nomme. Si l'acteur n'est pas identifiable, la contre-mesure est une intention.
+2. **Toute contre-mesure doit avoir un precedent.** Elle doit etre etayee par un exemple historique documente (source verifiee) montrant que cette action a fonctionne ailleurs ou a un autre moment. Sans precedent, c'est une hypothese.
+3. **Les trois temporalites sont obligatoires.** Minimum 1 PREVENTIF + 1 PENDANT ou APRES. Si une enquete ne peut identifier qu'une seule temporalite, elle doit le justifier dans INCERTITUDES.
+4. **Les trois niveaux d'acteurs sont recommandes.** Si toutes les contre-mesures identifiees sont au niveau macro, l'enquete a un biais etatique declare (BIAIS_ENQUETEUR).
+5. **La faisabilite n'est pas une excuse.** Meme une contre-mesure de faisabilite « faible » doit etre documentee — c'est son absence qui est informative.
+
+### Sanction
+
+Sans chapitre CONTRE_MESURES (NREF-12 non satisfait), la fiche ne peut pas depasser le niveau NREF-B, meme si les 11 autres exigences sont satisfaites. Les contre-mesures sont le pont entre le diagnostic et l'action : sans elles, l'enquete est une autopsie sans protocole de reanimation.
 
 ---
 
@@ -518,3 +813,5 @@ Cette enquete a ete produite avec le protocole v2.0 (format YAML v2.0, 12 chapit
 - **v1.3+** (2026-06-26) : Ajout de la Phase d'Approfondissement Ultrathinking.
 - **v2.0** (2026-06-26) : Refonte NREF. 6 nouveaux chapitres YAML (PREUVES, CONTRE-VERSION, ACTIVATION, INCERTITUDES, BIAIS, REPLICATION). Barème de conformite NREF a 8 exigences. Workflow refondu avec etape de Verification NREF.
 - **v2.1** (2026-06-26) : Renforcement NREF post-audit. Audit de l'enquete sang contamine v2.0 a revele : 0 verifications web, 0 URLs, glyphes ✦ attribues sans HEAD check, Ultrathinking non execute, niveau NREF gonfle (B revendique, D reel). Corrections : instructions operationnelles de recherche web et HEAD check ajoutees au prompt ; `source_url`, `citation_directe`, `head_check_date` devenus obligatoires dans le schema YAML ; glyphes ✦ soumis a HEAD check reel ; NREF-9 (sources verifiees) et NREF-10 (contre-version sourcee) ajoutes au bareme ; echelle de robustesse recalibree avec niveau E.
+- **v2.2** (2026-06-26) : **Ajout de l'archeologie des fils.** Nouveau chapitre YAML 2.5 (REMONTEE_DES_FILS). Nouveau referentiel : `2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md`. Nouveau pilier : chaque fil actif doit etre remonte jusqu'a son acte de naissance historique (1791, 1804, 1660...). Nouvelle exigence NREF-11. Nouvelle partie : PARTIE IX (Archeologie des fils). Nouvelle etape workflow : 1.5 (Archeologie des fils) et 3.5 (Verification archeologique). Echelle de robustesse recalibree : NREF-A necessite desormais 11/11 exigences. Consolidation periodique renforcee : mise a jour du referentiel archeologique.
+- **v2.3** (2026-06-26) : **Ajout des contre-mesures operationnelles.** Nouveau chapitre YAML 3.5 (CONTRE_MESURES). Nouveau pilier : chaque enquete doit identifier les actions concretes qui auraient pu empecher la bascule — avec acteur, fenetre d'opportunite, faisabilite, et precedent historique verifie. Nouvelle exigence NREF-12. Nouvelle partie : PARTIE X (Contre-mesures operationnelles). 5 piliers. 13 chapitres. Echelle de robustesse recalibree : NREF-A necessite desormais 12/12 exigences. Les trois niveaux d'acteurs (micro/meso/macro) et les deux temporalites (preventif/reactif) documentes.
