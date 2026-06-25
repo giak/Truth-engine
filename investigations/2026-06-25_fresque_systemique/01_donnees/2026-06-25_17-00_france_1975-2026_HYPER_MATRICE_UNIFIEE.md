@@ -3,34 +3,34 @@
 
 ## MÉTA-DONNÉES
 - Période : 1975-2026 (52 ans)
-- Nombre total d'événements : 5067
+- Nombre total d'événements : 5088
 - Dimensions couvertes : 20
 - Date de génération : 2026-06-25
 
 ## SYNTHÈSE PAR DÉCENNIE
 | Décennie | POL | ÉCO | SOC | JUR | SANT | ÉDU | AGR | ENV | TEC | CUL | IMM | SPO | REL | DÉMO | TRA | MIL | SCI | DIP | MÉD | TER | TOTAL |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1975-1982 | 65 | 78 | 104 | 20 | 1 | 5 | 1 | 24 | 34 | 59 | 1 | 13 | 1 | 0 | 2 | 1 | 2 | 1 | 0 | 43 | 455 |
-| 1983-1990 | 67 | 57 | 54 | 30 | 36 | 28 | 28 | 38 | 55 | 113 | 24 | 42 | 18 | 17 | 28 | 33 | 0 | 0 | 1 | 0 | 669 |
+| 1975-1982 | 65 | 79 | 104 | 20 | 1 | 5 | 1 | 24 | 34 | 59 | 1 | 13 | 1 | 0 | 2 | 1 | 2 | 1 | 0 | 43 | 456 |
+| 1983-1990 | 67 | 57 | 54 | 30 | 36 | 29 | 28 | 38 | 55 | 113 | 24 | 42 | 18 | 17 | 28 | 33 | 0 | 0 | 1 | 0 | 670 |
 | 1991-1998 | 67 | 18 | 50 | 47 | 8 | 12 | 9 | 6 | 25 | 32 | 5 | 18 | 3 | 1 | 0 | 19 | 6 | 15 | 0 | 2 | 343 |
-| 1999-2006 | 89 | 47 | 62 | 37 | 17 | 18 | 8 | 14 | 16 | 73 | 5 | 34 | 6 | 5 | 33 | 5 | 9 | 0 | 5 | 8 | 491 |
-| 2007-2016 | 94 | 79 | 60 | 57 | 15 | 21 | 17 | 24 | 32 | 17 | 15 | 21 | 2 | 4 | 19 | 5 | 6 | 4 | 5 | 2 | 499 |
-| 2017-2026 | 474 | 485 | 273 | 317 | 76 | 80 | 152 | 58 | 145 | 31 | 15 | 30 | 0 | 3 | 19 | 166 | 7 | 124 | 128 | 25 | 2608 |
-| **TOTAL** | 856 | 764 | 603 | 508 | 153 | 164 | 215 | 164 | 307 | 325 | 65 | 158 | 30 | 30 | 101 | 229 | 30 | 144 | 139 | 80 | 5067 |
+| 1999-2006 | 89 | 48 | 62 | 37 | 17 | 18 | 8 | 14 | 16 | 73 | 5 | 34 | 6 | 5 | 33 | 5 | 9 | 0 | 5 | 8 | 492 |
+| 2007-2016 | 94 | 79 | 60 | 58 | 15 | 21 | 17 | 24 | 32 | 17 | 15 | 21 | 2 | 4 | 19 | 5 | 6 | 4 | 5 | 2 | 500 |
+| 2017-2026 | 479 | 485 | 273 | 317 | 76 | 81 | 152 | 58 | 150 | 32 | 15 | 30 | 0 | 3 | 19 | 166 | 7 | 126 | 131 | 25 | 2625 |
+| **TOTAL** | 861 | 766 | 603 | 509 | 153 | 166 | 215 | 164 | 312 | 326 | 65 | 158 | 30 | 30 | 101 | 229 | 30 | 146 | 142 | 80 | 5088 |
 
 ## SYNTHÈSE PAR DIMENSION (toutes années)
 | Dimension | Total | ✅ | ⚠️ | ❌ | 💀 |
 |---|---|---|---|---|---|
-| POL | 856 | 155 | 274 | 385 | 42 |
-| ÉCO | 764 | 104 | 222 | 390 | 48 |
+| POL | 861 | 155 | 278 | 386 | 42 |
+| ÉCO | 766 | 104 | 222 | 392 | 48 |
 | SOC | 603 | 78 | 228 | 209 | 88 |
-| JUR | 508 | 64 | 140 | 239 | 65 |
+| JUR | 509 | 64 | 141 | 239 | 65 |
 | SANT | 153 | 34 | 33 | 71 | 15 |
-| ÉDU | 164 | 15 | 64 | 85 | 0 |
+| ÉDU | 166 | 15 | 64 | 87 | 0 |
 | AGR | 215 | 15 | 40 | 130 | 30 |
 | ENV | 164 | 45 | 64 | 31 | 24 |
-| TEC | 308 | 118 | 79 | 109 | 2 |
-| CUL | 325 | 142 | 86 | 6 | 91 |
+| TEC | 313 | 118 | 80 | 113 | 2 |
+| CUL | 326 | 142 | 86 | 7 | 91 |
 | IMM | 65 | 7 | 20 | 38 | 0 |
 | SPO | 158 | 63 | 70 | 14 | 11 |
 | REL | 30 | 9 | 18 | 1 | 2 |
@@ -38,44 +38,44 @@
 | TRA | 101 | 20 | 55 | 23 | 3 |
 | MIL | 229 | 32 | 70 | 80 | 47 |
 | SCI | 30 | 21 | 4 | 2 | 3 |
-| DIP | 145 | 9 | 59 | 73 | 4 |
-| MÉD | 139 | 5 | 24 | 110 | 0 |
+| DIP | 147 | 9 | 59 | 75 | 4 |
+| MÉD | 142 | 5 | 25 | 112 | 0 |
 | TER | 80 | 1 | 2 | 18 | 59 |
 
 ## SYNTHÈSE PAR CODE D'IMPACT
 | Code | Total | % |
 |---|---|---|
-| ✅ | 942 | 18.6% |
-| ⚠ | 1573 | 31.0% |
-| ❌ | 2017 | 39.8% |
-| 💀 | 535 | 10.6% |
-| **TOTAL** | 5067 | 100% |
+| ✅ | 942 | 18.5% |
+| ⚠ | 1580 | 31.1% |
+| ❌ | 2031 | 39.9% |
+| 💀 | 535 | 10.5% |
+| **TOTAL** | 5088 | 100% |
 
 ## CLASSEMENT DES ANNÉES LES PLUS CHARGÉES
 | Rang | Année | Total | Principal sujet |
 |---|---|---|---|
-| 1 | 2025 | 817 | POL |
-| 2 | 2026 | 745 | ÉCO |
-| 3 | 2024 | 320 | POL |
+| 1 | 2025 | 824 | POL |
+| 2 | 2026 | 748 | ÉCO |
+| 3 | 2024 | 321 | POL |
 | 4 | 2022 | 144 | ÉCO |
-| 5 | 2023 | 132 | SOC |
+| 5 | 2023 | 133 | SOC |
 | 6 | 2017 | 110 | POL |
-| 7 | 2021 | 106 | JUR |
+| 7 | 2021 | 107 | JUR |
 | 8 | 2006 | 103 | CUL |
 | 9 | 1984 | 92 | CUL |
-| 10 | 2020 | 90 | POL |
-| 11 | 1990 | 87 | CUL |
+| 10 | 2020 | 91 | POL |
+| 11 | 1990 | 88 | CUL |
 | 12 | 1989 | 87 | CUL |
 | 13 | 1988 | 83 | CUL |
 | 14 | 1985 | 83 | CUL |
 | 15 | 1983 | 80 | CUL |
 | 16 | 1987 | 79 | CUL |
 | 17 | 1986 | 78 | CUL |
-| 18 | 2019 | 73 | POL |
-| 19 | 2018 | 71 | POL |
-| 20 | 2014 | 71 | ÉCO |
+| 18 | 2019 | 75 | POL |
+| 19 | 2018 | 72 | POL |
+| 20 | 2014 | 72 | ÉCO |
 | 21 | 2016 | 69 | POL |
-| 22 | 2000 | 67 | POL |
+| 22 | 2000 | 68 | POL |
 | 23 | 2015 | 64 | POL |
 | 24 | 2001 | 63 | POL |
 | 25 | 1980 | 62 | SOC |
@@ -349,6 +349,7 @@
 | 1979 | POL | Élections cantonales (18-25 mars) | ⚠ |
 | 1979 | POL | Élections européennes (7-10 juin) | ⚠ |
 | 1979 | ÉCO | Création commission comptes Sécurité sociale | ✅ |
+| 1979 | ÉCO | Depuis 1979, la productivité du travail a été multipliée par 3,5 tandis que le salaire réel médian stagne — écart capté par les actionnaires via « Wage Markdowns » | ❌ |
 | 1979 | ÉCO | Deuxième choc pétrolier : prix baril x2 | 💀 |
 | 1979 | ÉCO | Effondrement chantier aéroport Nice, 9 morts | 💀 |
 | 1979 | ÉCO | Libération prix livre (arrêté Monory) | ⚠ |
@@ -1230,6 +1231,7 @@
 | 1990 | SANT | Lancement des premiers essais de trithérapie (recherche contre le sida) | ⚠ |
 | 1990 | SANT | Loi sur la protection des personnes dans la recherche biomédicale (loi Huriet) | ✅ |
 | 1990 | SANT | Première campagne massive de dépistage du VIH (appel au don du sang sécurisé) | ⚠ |
+| 1990 | ÉDU | La dépense moyenne par élève en France augmente de 25% en 30 ans, mais les résultats PISA chutent de 50 points en compréhension écrite | ❌ |
 | 1990 | ÉDU | Mise en œuvre des IUFM (formation des enseignants, première promotion d'étudiants) | ⚠ |
 | 1990 | ÉDU | Première session du baccalauréat professionnel (nouvelle filière, premiers diplômés) | ✅ |
 | 1990 | ÉDU | Réforme des collèges : poursuite du collège unique (programmes personnalisés) | ⚠ |
@@ -1744,6 +1746,7 @@
 | 2000 | ÉCO | Bernard Bommier (père) VP Cyber Security chez Coca-Cola Europacific Partners depuis août 2000 | ⚠ |
 | 2000 | ÉCO | Bernard Bommier (père) VP Cyber Security chez Coca-Cola Europacific Partners depuis août 2000 | ⚠ |
 | 2000 | ÉCO | Création de la Bourse de Paris-Euronext | ✅ |
+| 2000 | ÉCO | Depuis 2000, cession progressive des fleurons industriels français: Arcelor, Alstom, Pechiney, Lafarge — vente à des groupes étrangers | ❌ |
 | 2000 | ÉCO | La France est le 5e exportateur mondial (OMC) | ✅ |
 | 2000 | ÉCO | Libéralisation partielle du marché de l'électricité | ⚠ |
 | 2000 | ÉCO | Loi fiscale sur le renouvellement urbain | ✅ |
@@ -2583,6 +2586,7 @@
 | 2014 | SOC | Wikipedia : emblème Azov comporte Soleil noir + Wolfsangel d'origine nazie | ❌ |
 | 2014 | JUR | Affaire Cahuzac : procès et condamnation | ❌ |
 | 2014 | JUR | Alstom plaide coupable FCPA : amende record 772 M$ (545 M€) | 💀 |
+| 2014 | JUR | Caroline Fourest condamnée pour diffamation envers Alain Soral (2014), puis relaxée en appel (2015) | ⚠ |
 | 2014 | JUR | Directive 2014/55/EU rend la facturation électronique obligatoire pour les marchés publics | ⚠ |
 | 2014 | JUR | Directive 2014/55/EU rend la facturation électronique obligatoire pour les marchés publics | ⚠ |
 | 2014 | JUR | Loi sur la consommation (loi Hamon) adoptée | ✅ |
@@ -2938,6 +2942,7 @@
 | 2018 | TRA | Grèves SNCF : 3 mois de mouvement | ❌ |
 | 2018 | TRA | Loi d'orientation des mobilités (LOM) adoptée | ⚠ |
 | 2018 | SCI | Thomas Pesquet : 2e mission spatiale | ✅ |
+| 2018 | MÉD | Emmanuelle Ducros reçoit le « Citi Journalistic Excellence Award » 2018, prix parrainé par Citibank récompensant les narratifs pro-marchés financiers | ❌ |
 | 2018 | MÉD | Emmanuelle Ducros rémunérée par la FNSEA/FEB (boulangerie) pour conférences en 2018, interviewe ensuite les mêmes lobbys | ❌ |
 | 2018 | MÉD | Emmanuelle Ducros rémunérée par la FNSEA/FEB (boulangerie) pour conférences en 2018, interviewe ensuite les mêmes lobbys | ❌ |
 | 2018-2019 | TER | Bilan Gilets Jaunes : 30 éborgnés, 5 mains arrachées, milliers de blessés, gardes à vue préventives par milliers | 💀 |
@@ -2960,6 +2965,7 @@
 | 2019 | POL | Loi anticasseur (Gilets jaunes) adoptée | ❌ |
 | 2019 | POL | Ordonnances contestées devant le Conseil d'État | ⚠ |
 | 2019 | POL | Réforme de la Constitution (abandonnée) | ❌ |
+| 2019 | POL | Sarah Knafo devient directrice de cabinet d'Éric Zemmour, accélérant la technocratisation du parti Reconquête | ⚠ |
 | 2019 | ÉCO | CICE transformé en baisse de charges (~20 Md€/an) | ⚠ |
 | 2019 | ÉCO | Croissance 1,8 % du PIB | ⚠ |
 | 2019 | ÉCO | Loi PACTE en application | ⚠ |
@@ -3003,6 +3009,7 @@
 | 2019 | TEC | L'ARCOM est créé par fusion du CSA et de la HADOPI | ❌ |
 | 2019 | TEC | Lancement de la consultation 5G | ⚠ |
 | 2019 | TEC | Le Kazakhstan tente d'imposer un certificat État; les navigateurs le bloquent — impossible sous eIDAS 2.0 | ❌ |
+| 2019 | TEC | Le système HubEE (Hub d'Échange de l'État) lancé pour la dématérialisation administrative, accumule les failles de sécurité et les bugs critiques | ❌ |
 | 2019 | TEC | Logiciel utilisé par Tsahal en Cisjordanie pour surveiller citoyens (OrientXXI, 2019) | ❌ |
 | 2019 | TEC | Logiciel utilisé par Tsahal en Cisjordanie pour surveiller citoyens (OrientXXI, 2019) | ❌ |
 | 2019 | TEC | Taxe GAFAM instaurée (TSN 3%), rapport ~800 M€/an | ⚠ |
@@ -3113,6 +3120,7 @@
 | 2020 | DIP | Brexit: Royaume-Uni quitte UE | ⚠ |
 | 2020 | DIP | Subvention du gouvernement israélien à ELNET (2020) | ❌ |
 | 2020 | DIP | Subvention du gouvernement israélien à ELNET (2020) | ❌ |
+| 2020 | MÉD | Emmanuelle Ducros devient éditorialiste au Point et chroniqueuse sur France Culture, promouvant une ligne pro-industrie sous couvert de rationalisme scientifique | ⚠ |
 | 2020 | TER | Middle East Eye révèle document FBI | ❌ |
 | 2020 | TER | Middle East Eye révèle document FBI | ❌ |
 
@@ -3214,6 +3222,7 @@
 | 2021 | TEC | L'eurodéputée Saskya Vandendriessche est shadowbannie 10 mois sans notification ni recours | ❌ |
 | 2021 | TEC | Lancement du plan France 2030 | ✅ |
 | 2021 | TEC | Le GIFCT établit 14 catégories secrètes de « borderline content » définissant les frontières mobiles du dicible | ❌ |
+| 2021 | TEC | Sarah Knafo participe à la rédaction du programme présidentiel d'Éric Zemmour, imposant une vision technocratique de la droite | ⚠ |
 | 2021 | CUL | Mort de Jean-Paul Belmondo | 💀 |
 | 2021 | IMM | Loi asile et immigration : durcissement | ❌ |
 | 2021 | SPO | Italie championne d'Europe (France éliminée Suisse 1/8) | 💀 |
@@ -3487,6 +3496,7 @@
 | 2023 | ENV | Élevage bovin = 11,8% des émissions CO₂ de la France ; méthane bovins = 45% des émissions agricoles | ❌ |
 | 2023 | TEC | Baiwang déclare avoir traité 14,3 milliards de documents couvrant 102 millions d'entreprises | ⚠ |
 | 2023 | TEC | Baiwang déclare avoir traité 14,3 milliards de documents couvrant 102 millions d'entreprises | ⚠ |
+| 2023 | TEC | L'ONG Thorn (cofondée par Ashton Kutcher et Demi Moore) promeut le Chat Control auprès de la Commission européenne tout en développant le logiciel de détection — conflit d'intérêts documenté | ❌ |
 | 2023 | TEC | Lancement IA générative en France (Mistral AI) | ✅ |
 | 2023 | TEC | Loi programmation numérique 2023-2027 : 1,5 Md€ pour « cloud de confiance » | ⚠ |
 | 2023 | TEC | Loi programmation numérique: 1,5 Md€ "cloud de confiance" sans clause exclusion GAFAM | ❌ |
@@ -3777,6 +3787,7 @@
 | 2024 | CUL | Anamosa, 288 pages, analyse Macron par perversion narcissique (octobre 2024) | ⚠ |
 | 2024 | CUL | Anamosa, 288 pages, analyse Macron par perversion narcissique (octobre 2024) | ⚠ |
 | 2024 | CUL | JO Paris 2024 : préparation et cérémonie | ✅ |
+| 2024 | CUL | L'animateur Xavier Moreau est sanctionné par les plateformes pour ses positions pro-russes, illustrant le modèle de « démocratie défensive » | ❌ |
 | 2024 | CUL | Mort d'Alain Delon à 88 ans | 💀 |
 | 2024 | IMM | 175 000 demandes d'asile (record historique), 29% acceptation | ❌ |
 | 2024 | IMM | 340 000 premiers titres de séjour délivrés | ❌ |
@@ -3863,6 +3874,7 @@
 | 2025 | POL | Alla Poedie: membre de l'IHEDN (rattaché au Premier Ministre), hashtag #NAFOFellas | ⚠ |
 | 2025 | POL | Amendements "clé en main" fournis par lobbyistes, député ne fait que signer | ❌ |
 | 2025 | POL | Amendements "clé en main" fournis par lobbyistes, député ne fait que signer | ❌ |
+| 2025 | POL | Appel à l'abolition des partis politiques via des outils numériques de démocratie directe (RIC, open-data citoyen) — résurgence de la proposition de Simone Weil (1943) | ⚠ |
 | 2025 | POL | Assemblée nationale vote la nationalisation d'ArcelorMittal France : 127 pour, 41 contre → sans suite | ⚠ |
 | 2025 | POL | Aucun débat parlementaire prévu sur le service militaire volontaire | ❌ |
 | 2025 | POL | Avec familles, les agents publics représentent une part significative de l'électorat | ⚠ |
@@ -3959,6 +3971,7 @@
 | 2025 | POL | Mission AGTE: 4,96 Md€, +124% depuis 2006 | ❌ |
 | 2025 | POL | Mission commandée | ❌ |
 | 2025 | POL | Mission commandée | ❌ |
+| 2025 | POL | Mouvement pour la nationalisation d'ArcelorMittal en France, porté par une campagne sur les réseaux sociaux dénonçant 20 ans de déclin industriel | ⚠ |
 | 2025 | POL | Nuit où l'État bascule dans la milice privée | 💀 |
 | 2025 | POL | Nuit où l'État bascule dans la milice privée | 💀 |
 | 2025 | POL | Pantouflage multiplié par 3, zéro condamnation HATVP | ❌ |
@@ -3971,6 +3984,7 @@
 | 2025 | POL | Pris entre soutien police et base agricole | ❌ |
 | 2025 | POL | Profil « guerrier », formé pour neutraliser terroristes | ❌ |
 | 2025 | POL | Profil « guerrier », formé pour neutraliser terroristes | ❌ |
+| 2025 | POL | Proposition socialiste d'un « emprunt forcé » sur les 20 000 ménages les plus riches pour financer la dette — montant estimé insuffisant face aux 3 200 Mds€ de dette publique | ⚠ |
 | 2025 | POL | Près de 50 000 agents consacrés à appliquer des normes produites par d'autres couches | ❌ |
 | 2025 | POL | Près de 50 000 agents consacrés à appliquer des normes produites par d'autres couches | ❌ |
 | 2025 | POL | Présidents américains issus Ivy League | ❌ |
@@ -4392,6 +4406,7 @@
 | 2025 | ÉDU | Taux de réussite scolaire par catégorie sociale | ❌ |
 | 2025 | ÉDU | Taux de réussite scolaire par catégorie sociale | ❌ |
 | 2025 | ÉDU | Échec documenté du SNU : rebaptisé et relancé plutôt qu'admettre l'échec | ❌ |
+| 2025-2026 | ÉDU | Le rapport PISA 2025 confirme la baisse continue du niveau en France: -50 points en lecture depuis 2000, -35 points en mathématiques, malgré une hausse de 30% du budget éducation | ❌ |
 | 2025 | AGR | 1 suicide d'agriculteur tous les 2 jours | 💀 |
 | 2025 | AGR | 1,6 milliard € d'exportations de bovins français vers l'Italie | ❌ |
 | 2025 | AGR | 10% des agriculteurs contrôlent 65% des terres arables françaises | ❌ |
@@ -4490,6 +4505,7 @@
 | 2025 | TEC | Extension au-delà des JO 2024 (Amnesty International) | ❌ |
 | 2025 | TEC | IA : régulation européenne | ⚠ |
 | 2025 | TEC | L'EU Internet Forum compte plus de 400 plateformes participantes, coordonné avec le GIFCT | ❌ |
+| 2025 | TEC | L'euro numérique (CBDC) proposé par la BCE, présenté comme outil de souveraineté monétaire mais critiqué comme instrument de surveillance des transactions | ❌ |
 | 2025 | TEC | Mistral AI : nouveaux modèles | ✅ |
 | 2025 | TEC | Nov 26 : COREPER adopte position Chat Control 2.0 à majorité qualifiée | ❌ |
 | 2025 | TEC | Plus de 70 plateformes de dématérialisation partenaires immatriculées sous réserve par la DGFiP | ❌ |
@@ -4571,6 +4587,7 @@
 | 2025 | DIP | Jordan Bardella (RN) rencontre Roberts à Paris pour importer « modèle US » | ⚠ |
 | 2025 | DIP | Kirill Dmitriev : CEO RDIF, Stanford/Harvard MBA, Goldman Sachs, sanctionné USA depuis fév. 2022 | ❌ |
 | 2025 | DIP | Kyiv Independent : Witkoff mène « broader operation » pour évincer voix pro-Ukraine | ❌ |
+| 2025 | DIP | La guerre en Ukraine aurait été précédée d'une tromperie diplomatique préméditée — les promesses de neutralité de l'OTAN en 1990-1991 jamais honorées | ❌ |
 | 2025 | DIP | Steve Witkoff : promoteur immobilier, fortune 2 milliards $, ami golf Trump depuis 1986, donateur >2 millions $ | ⚠ |
 | 2025 | DIP | Treasury US qualifie le RDIF de « slush fund for Putin » | ❌ |
 | 2025 | DIP | UE active l'Article 215 du TFUE pour sanctions ciblées | ❌ |
@@ -4651,6 +4668,7 @@
 | 2025-11-13 | MÉD | Canard Enchaîné révèle projet de suppression du magazine « 60 Millions de consommateurs » (3,5 M lecteurs) | ❌ |
 | 2025-11-29 | MÉD | Devers : « L'Ukraine fait preuve d'une démocratie rare en temps de guerre » | ⚠ |
 | 2025-11-29 | MÉD | Nathan Devers sur France Info : « Zelensky subit une campagne de calomnies menée par Trump et Poutine » | ⚠ |
+| 2025-12-05 | MÉD | Le compte @ObsDelphi appelle à la censure de Luc Ferry et Xenia Fedorova sur X (Twitter), déclenchant un débat sur les limites de la liberté d'expression en France | ❌ |
 | 2025 | TER | Bordes-sur-Arize (crise agricole décembre 2025) : Centaures blindés militarisation maintien ordre, refus dialogue | 💀 |
 | 2025 | TER | Bordes-sur-Arize (crise agricole décembre 2025) : Centaures blindés militarisation maintien ordre, refus dialogue | 💀 |
 | 2025 | TER | Chambre des Représentants publie clichés, dizaines masques suspendus | 💀 |
@@ -4705,6 +4723,7 @@
 | 2026 | POL | Janvier 2026: ~400 millionnaires 24 pays (Patriotic Millionaires) signent lettre ouverte Davos | ✅ |
 | 2026 | POL | L'Arcom n'est plus un régulateur mais un commissaire à la répartition du duopole Niel/Bolloré | ❌ |
 | 2026 | POL | L'Arcom n'est plus un régulateur mais un commissaire à la répartition du duopole Niel/Bolloré | ❌ |
+| 2026 | POL | L'État français interdit les réseaux sociaux aux moins de 15 ans (loi Miller) mais échoue à endiguer le trafic de drogue et la déscolarisation | ❌ |
 | 2026 | POL | LFI (Jean-Luc Mélenchon) dénonce une étape vers la « fédéralisation » européenne | ❌ |
 | 2026 | POL | LFI ne bloque pas la procédure budgétaire malgré ses critiques | ❌ |
 | 2026 | POL | LPM 2024-2030: 413 Md€ | ⚠ |
@@ -5191,6 +5210,7 @@
 | 2026 | TEC | Un agent IA fait chuter le taux de refus de Gemma 4 à 2,1% en une nuit | ✅ |
 | 2026-01 | TEC | CRECCB demande report déclarations TVA janvier 2026 : « problèmes techniques majeurs » sur Peppol | ❌ |
 | 2026-01 | TEC | CRECCB demande report déclarations TVA janvier 2026 : « problèmes techniques majeurs » sur Peppol | ❌ |
+| 2026-01 | TEC | Fuite de données massive à l'ANFSI (Agence Nationale de la Sécurité des Systèmes d'Information) — données sensibles d'infrastructures critiques exposées | ❌ |
 | 2026-01 | TEC | SalesBridge et SafeByte démontrent vulnérabilités Peppol (fraude possible) : identifiants non réclamés, vérification faible, assurances trompeuses | ❌ |
 | 2026-01 | TEC | SalesBridge et SafeByte démontrent vulnérabilités Peppol (fraude possible) : identifiants non réclamés, vérification faible, assurances trompeuses | ❌ |
 | 2026-01-01 | TEC | Belgique devient le premier pays européen à rendre obligatoire la facturation électronique via Peppol | ❌ |
@@ -5343,6 +5363,7 @@
 | 2026 | DIP | Witkoff et Kushner sont désormais sur la liste noire de Téhéran | ❌ |
 | 2026 | DIP | ~20% droit français d'origine européenne (Sénat rapport n°177, 2024-2025) | ⚠ |
 | 2026 | DIP | Émirats gèlent avoirs iraniens (hôpital, club iranien Dubaï fermés) | ⚠ |
+| 2026-01 | DIP | Intervention militaire américaine fictive à Caracas pour sécuriser les réserves pétrolières vénézuéliennes, illustrant la fragilité du système pétrodollar | ❌ |
 | 2026-01 | DIP | L'ultimatum de Trump est qualifié d'absurdité logistique — exigences impossibles | ❌ |
 | 2026-01 | DIP | Trump formule 3 conditions « non-négociables »: arrêt nucléaire, démantèlement missiles balistiques, divorce proxies | ❌ |
 | 2026-01 | DIP | UE signe définitivement l'accord Mercosur à Asunción (Paraguay) | ❌ |
