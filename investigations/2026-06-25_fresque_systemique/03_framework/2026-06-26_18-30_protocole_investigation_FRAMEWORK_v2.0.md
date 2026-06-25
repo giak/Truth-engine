@@ -289,9 +289,94 @@ Une enquete NREF n'est pas un texte convaincant — c'est un **dossier de preuve
 
 ---
 
-## PARTIE IV : PHASE D'APPROFONDISSEMENT ULTRATHINKING (v1.3, inchangee)
+## PARTIE IV : PHASE D'APPROFONDISSEMENT ULTRATHINKING (v2.1)
 
-**Voir le protocole v1.3 pour le prompt complet.** La phase Ultrathinking est integree dans le workflow v2.0 comme etape obligatoire pour les degres 4-5.
+### Principe
+
+L'Ultrathinking est une phase de **contre-enquete** sur l'enquete elle-meme. Apres avoir produit la fiche YAML, l'enqueteur doit activement chercher ce qu'il a rate, les angles qu'il a exclus, les structures sous-marines qu'il n'a pas vues, et les connexions transversales qu'il n'a pas faites.
+
+C'est l'application du M25 (Ingenieur cauterise) a l'enqueteur lui-meme : sa lucidite est une fonction du systeme qu'il enquete. L'Ultrathinking est l'antidote.
+
+### Conditions de declenchement
+
+- **Degre 4-5** : ULTRATHINKING OBLIGATOIRE — l'addendum est requis avant la verification NREF
+- **Degre 2-3** : ULTRATHINKING RECOMMANDE — l'addendum est facultatif mais augmente le niveau NREF
+- **Degre 1** : ULTRATHINKING FACULTATIF — peut etre utile si l'evenement cache des structures plus profondes
+
+### Format ADDENDUM
+
+L'addendum est un bloc YAML ajoute a la fin de la fiche d'enquete, apres la verification NREF. Il n'efface pas la fiche initiale — il la complete.
+
+```yaml
+# ============================================================
+# ADDENDUM ULTRATHINKING
+# Enquete reference : [ENQUETE_ID]
+# ============================================================
+
+ANGLES_ALTERNATIFS:
+  - angle: "[renversement de perspective — que se passerait-il si on partait du postulat inverse ?]"
+    pistes: "[implications pour l'enquete : nouveaux M##, nouveaux fils, nouvelle lecture]"
+    niveau_confiance: [faible / moyen / eleve]
+  - angle: "[autre angle — dimension exclue de l'enquete principale]"
+    pistes: "[ce que cela pourrait reveler]"
+    niveau_confiance: [faible / moyen / eleve]
+  # Minimum 3 angles alternatifs
+
+ICEBERG_MAX:
+  structures_sous_marines:
+    - structure: "[mecanisme de niveau 2/3 non visible en surface, fil naturalise devenu invisible]"
+      indicateurs: "[signes que cette structure existe : ce qu'on voit sans le voir]"
+      detection: "[comment on aurait pu la detecter plus tot — traceur manque]"
+  reseaux_influents:
+    - "[reseau, groupe, corporation, interet cache agissant en coulisse]"
+  archives_manquantes:
+    - "[document, temoignage, donnee qui manque et qui changerait la these si elle existait]"
+  # Minimum 3 structures sous-marines
+
+LIEVRES_ET_LOUPS:
+  - sujet: "[rumeur sourcee, temoin oublie, coincidence inexpliquee, faisceau d'indices]"
+    sources: "[personnes a interroger, documents a declassifier, lieux a investiguer]"
+    niveau_confiance: [faible / moyen / eleve]
+    lien_M##: "[mecanisme potentiellement revele par cette piste]"
+  - sujet: "[autre lievre]"
+    sources: "[...]"
+    niveau_confiance: [faible / moyen / eleve]
+    lien_M##: "[M##]"
+  # Minimum 2 lievres
+
+FAISCEAUX_TRANSVERSAUX:
+  - connexion: "[lien avec une autre enquete produite par le protocole]"
+    mecanismes_partages: "[M## communs entre les deux enquetes]"
+    implication_systemique: "[ce que cette convergence suggere sur le systeme : pattern, 9e fil, nouveau mecanisme]"
+  - connexion: "[lien avec un article Substack, un rapport, un evenement hors matrice]"
+    mecanismes_partages: "[M## communs]"
+    implication_systemique: "[...]"
+
+PISTES_FUTURES:
+  - piste: "[enquete complementaire a lancer pour verifier une hypothese de l'addendum]"
+    priorite: [P1 / P2 / P3]
+    effort_estime: "[courte / moyenne / longue]"
+    depend_de: "[autre enquete, document a obtenir, temoin a contacter]"
+  - piste: "[autre piste]"
+    priorite: [P1 / P2 / P3]
+    effort_estime: "[...]"
+    depend_de: "[...]"
+  # Minimum 2 pistes futures
+
+HYPOTHESES_SYSTEMIQUES:
+  - hypothese: "[hypothese forte ou dangereuse issue de l'agregation des faisceaux]"
+    niveau_confiance: [faible / moyen / eleve]
+    si_confirmee: "[consequence sur le diagnostic systemique — nouveau fil, nouveau M##, reclassification]"
+    test: "[comment verifier cette hypothese — enquete, document, temoin]"
+  - hypothese: "[autre hypothese]"
+    niveau_confiance: [faible / moyen / eleve]
+    si_confirmee: "[...]"
+    test: "[...]"
+```
+
+### Sanction
+
+Si Ultrathinking est obligatoire (degre 4-5) mais n'est pas execute, la fiche ne peut pas depasser le niveau NREF-C, meme si les 10 exigences NREF sont satisfaites par ailleurs. L'addendum Ulrathinking est un multiplicateur de confiance : sans lui, la fiche est consideree comme incomplete.
 
 ---
 
@@ -336,9 +421,22 @@ Les 12 chapitres (1-12) doivent etre remplis. Les chapitres 5-10 (PREUVES, CONTR
 3. Quel etait le pacte tacite que tout le monde maintenait ? (M11/Kayfabe, M37/Hypernormalisation)
 4. Quelle strategie de resistance aurait pu (ou a) fonctionne ? (R01-R10)
 
-### Etape 4 — Phase d'Approfondissement (Ultrathinking)
+### Etape 4 — Phase d'Approfondissement (Ultrathinking) [RENFORCE v2.1]
 
-Deployer la phase Ultrathinking (§IV) si degre 4-5 ou sur doute. Produire un addendum listant angles morts, nouvelles pistes, hypotheses systemiques.
+Deployer la phase Ultrathinking (§IV) selon les conditions de declenchement :
+- **Degre 4-5** : ULTRATHINKING OBLIGATOIRE — sanction NREF-C max sans addendum
+- **Degre 2-3** : ULTRATHINKING RECOMMANDE — augmente le niveau NREF
+- **Degre 1** : ULTRATHINKING FACULTATIF
+
+L'addendum doit suivre le **format ADDENDUM** defini en §IV (ANGLES_ALTERNATIFS, ICEBERG_MAX, LIEVRES_ET_LOUPS, FAISCEAUX_TRANSVERSAUX, PISTES_FUTURES, HYPOTHESES_SYSTEMIQUES).
+
+**Minimum attendu :**
+- 3 angles alternatifs
+- 3 structures sous-marines (ICEBERG_MAX)
+- 2 lievres ou loups
+- 2 connexions transversales
+- 2 pistes futures (dont 1 P1)
+- 1 hypothese systemique
 
 ### Etape 5 — Verification NREF [NOUVEAU v2.0]
 
