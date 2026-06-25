@@ -10,17 +10,19 @@
 
 | Métrique | Valeur | Date |
 |----------|--------|------|
-| Enquêtes v2.3 produites | **6** (5 migrées + 1 nouvelle : Maastricht 1992) | 2026-06-26 |
+| Enquêtes v2.3 produites | **7** (5 migrées + 2 nouvelles : Maastricht 1992, Asymétrie fiscale) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
-| Ultrathinking réalisés | 6 / 6 (100 %) | 2026-06-26 |
-| Second agents exécutés | 0 / 6 (0 %) | — |
-| Niveau NREF max atteint | **B** (v2.3 : Sang, Tchernobyl, Pétition 69, Virage, COVID, Maastricht) | 2026-06-26 |
-| Sources vérifiées cumulées | 45 ✦ + 5 ⁅ + 16 ❧ = 66 | 2026-06-26 |
-| HEAD checks effectués | 30 | 2026-06-26 |
+| Ultrathinking réalisés | 7 / 7 (100 %) | 2026-06-26 |
+| Second agents exécutés | 0 / 7 (0 %) | — |
+| Niveau NREF max atteint | **B** (7 enquêtes v2.3) | 2026-06-26 |
+| Sources vérifiées cumulées | 52 ✦ + 5 ⁅ + 23 ❧ = 80 | 2026-06-26 |
+| HEAD checks effectués | 36 | 2026-06-26 |
 | Blocages identifiés | 3 (second agents non exécutés) | — |
-| **Pattern invariant confirmé** | **M11+M28+M05 dans 5/5 enquêtes** (Maastricht : M43+M11+M37 pole monétaire) | 2026-06-26 |
-| **Fil I** | **CONFIRMÉ** (Maastricht 1992 — acte de naissance) | 2026-06-26 |
-| **M43** | **CONFIRMÉ** (Domination monétaire — mécanisme opérationnel) | 2026-06-26 |
+| **Pattern invariant confirmé** | **M11+M28+M05 dans 6/7 enquêtes** (Maastricht : M43+M11+M37 ; Asymétrie fiscale : M11+M28+M05+M43) | 2026-06-26 |
+| **Fil I** | **CONFIRMÉ** (Maastricht 1992) | 2026-06-26 |
+| **Fil L** | **CANDIDAT** (Fiscalité asymétrique — acte naissance 1914) | 2026-06-26 |
+| **M43** | **CONFIRMÉ** (Domination monétaire) | 2026-06-26 |
+| **M47** | **CANDIDAT** (Injustice fiscale structurelle) | 2026-06-26 |
 
 ---
 
@@ -34,6 +36,7 @@
 | 4 | **v2.3** | 2026-06-26 | SYSTEME_1983_Virage_Rigueur_v2.3 | Virage de la rigueur (21 mars 1983) — austérité verrouillée, 5 fils archéologiques | **B** | B,H,D,E,C | M37, M05, M11, M22, M28 | ✅ 5 fils | ✅ 2 actions |
 | 5 | **v2.3** | 2026-06-26 | SYSTEME_2020_Covid19_v2.3 | COVID-19 (mars 2020) — révélateur systémique, 8 fils archéologiques | **B** | A,B,C,D,E,F,G,H | M09, M11, M22, M28, M37 | ✅ 8 fils | ✅ 2 actions |
 | **6** | **v2.3** | 2026-06-26 | SYSTEME_1992_Maastricht_v2.3 | Maastricht 1992 — validation Fil I : vassalité monétaire, 6 fils archéologiques | **B** | B,C,D,E,H,I | M43, M11, M37, M28, M05 | ✅ 6 fils (dont I candidat) | ✅ 2 actions |
+| **7** | **v2.3** | 2026-06-26 | SYSTEME_1914-2026_Asymetrie_fiscale | Travail taxé, Capital protégé — asymétrie fiscale structurelle, 6 fils archéologiques, 110 ans d'histoire | **B** | B,C,D,E,H,I | M11, M28, M05, M43, M02 | ✅ 6 fils (dont L candidat) | ✅ 2 actions |
 
 **Légende :** ✅ = fait | 🔲 = à faire
 
@@ -47,6 +50,7 @@
 | Virage rigueur v2.3 | `02_enquetes/2026-06-26_virage_rigueur_1983_INVESTIGATION.md` |
 | COVID-19 v2.3 | `02_enquetes/2026-06-26_covid19_revelateur_INVESTIGATION.md` |
 | Maastricht 1992 v2.3 | `02_enquetes/2026-06-26_maastricht_vassalite_monetaire_v2.3_INVESTIGATION.md` |
+| Asymétrie fiscale v2.3 | `02_enquetes/2026-06-26_asymetrie_fiscale_travail_capital_v2.3_INVESTIGATION.md` |
 
 ### Fichiers produits
 

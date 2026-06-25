@@ -16,7 +16,7 @@ Les 8 fils systémiques (A-H) ne sont pas nés avec l'événement qui les révè
 
 Ce document compile les actes fondateurs identifiés dans l'architecture fondatrice (2026-06-25) et les renforcements documentés par les enquêtes v2.1, enrichis par la consolidation anticipée des 5 enquêtes (2026-06-26). Il sert de **référentiel stable** : toute enquête v2.2+ doit y situer ses fils actifs avant de produire son analyse.
 
-**Mise à jour v3 (2026-06-26)** : Enquête Maastricht 1992 : Fil I promu de CANDIDAT à CONFIRMÉ, M43 promu de CANDIDAT à CONFIRMÉ. Total : 12 fils documentés (9 confirmés + 3 candidats), ~65 entrées historiques.
+**Mise à jour v4 (2026-06-26)** : Enquête asymétrie fiscale : Fil L proposé (Fiscalité asymétrique), M47 proposé (Injustice fiscale structurelle). Total : 13 fils documentés (9 confirmés + 4 candidats), ~70 entrées historiques.
 
 **Méthode de datation :**
 - **Acte de naissance** : premier verrou légal, institutionnel ou culturel qui crée le fil
@@ -202,6 +202,29 @@ Ce document compile les actes fondateurs identifiés dans l'architecture fondatr
 
 **Statut :** HYPOTHÈSE — très faible, documentée seulement par 2 enquêtes (COVID). Nécessite une enquête dédiée (ex. surveillance post-COVID, Minitel comme verrou).
 
+---
+
+## FIL L (CANDIDAT) — FISCALITÉ ASYMÉTRIQUE
+### Le travail paie, le capital protège
+
+| # | Date | Événement | Type | Mécanisme associé | Source |
+|---|------|-----------|------|-------------------|--------|
+| L1 | **1914-07-15** | **Loi Caillaux créant l'impôt sur le revenu** : premier impôt universel et progressif, assis principalement sur les revenus du travail. Le capital (plus-values, dividendes) n'est pas encore imposé de manière comparable | **Acte de naissance** | M47 (Injustice fiscale structurelle) [NOUVEAU CANDIDAT] | Archives Gallica, JO 1914 ❧ |
+| L2 | 1945-10-04 | **Création de la Sécurité sociale** : les cotisations sociales sont assises exclusivement sur les salaires — le travail finance seul la protection sociale, le capital en est exonéré | Renforcement majeur | M05 (Perfusion : le travail paie, le capital ne paie pas) | Legifrance, Ordonnance 45-2250 ❧ |
+| L3 | 1978-07-13 | **Loi Monory** : déduction fiscale pour investissement en actions — le premier avantage fiscal direct au capital mobilier | Renforcement | M05 (Perfusion : l'État subventionne le capital) | Legifrance, Loi 78-741 ❧ |
+| L4 | **2007-08-21** | **Loi TEPA** : bouclier fiscal à 50% des revenus, niches sur les heures sup — l'État réduit la pression fiscale sur le travail ET sur le capital simultanément | **Renforcement majeur** | M28 (DARVO : présenté comme un « choc de compétitivité ») | Legifrance, Loi 2007-1823 ✦ |
+| L4bis | **2012-12-29** | **Décision CC 2012-662 DC** : la taxe à 75% sur les très hauts revenus est invalidée pour motif technique — la progressivité de l'impôt est verrouillée par le Conseil constitutionnel | **Renforcement** | M02 (Procéduralisation : le CC bloque sur la forme, pas le fond de l'inégalité) | Conseil constitutionnel, décision 2012-662 DC ✦ |
+| L5 | **2017-12-30 — 2018-12-27** | **Loi 2017-1837 + Loi 2018-120** : suppression de l'ISF sur le capital mobilier (9 Md€ exclus) + instauration de la flat tax PFU à 30% sur les revenus du capital vs 45-50% sur le travail | **Renforcement majeur — verrouillage** | M11 (Kayfabe : présenté comme « simplification »), M28 (DARVO : l'ISF était « punitif ») | Legifrance, Loi 2017-1837 ✦ + Loi 2018-120 ✦ |
+| L6 | 2026-06-26 | **Enquête asymétrie fiscale v2.3** : 6 fils archéologiques documentés, chaîne causale 1914-2026 complète | **Proposition** | M47 (Injustice fiscale structurelle) | `02_enquetes/2026-06-26_asymetrie_fiscale_travail_capital_v2.3_INVESTIGATION.md` |
+
+**Chaîne causale :** 1914 (IR sur le travail) → 1945 (Sécu sur le travail) → 1978 (Monory : avantage au capital) → 2007 (bouclier fiscal) → 2012 (taxe 75% invalidée : la progressivité est bloquée) → 2017-2018 (ISF→IFI + flat tax : verrouillage de l'asymétrie) → le travail est structurellement plus taxé que le capital depuis 110 ans, avec un creusement décisif en 2017-2018
+
+**Bifurcation perdue :** 1945 — les cotisations sociales pouvaient être assises sur la valeur ajoutée (travail + capital), pas seulement sur les salaires. Le choix de l'assiette salariale était politique, pas technique.
+
+**Bifurcation perdue (supplémentaire) :** 2017-2018 — en supprimant l'ISF sur le capital mobilier ET en créant la flat tax simultanément, le gouvernement a créé un choc d'asymétrie maximal. Une seule des deux réformes aurait été moins asymétrique.
+
+**Statut :** CANDIDAT (proposé par l'enquête asymétrie fiscale v2.3, 5 renforcements documentés dont 2 majeurs, acte de naissance 1914). Doit être confirmé par au moins 1 enquête supplémentaire (ex. niches fiscales 2026, évasion fiscale CAC40, concurrence fiscale UE). Note : Fil I (Vassalité monétaire) et B (Monopole d'État) capturent partiellement le même phénomène — risque de redondance à évaluer en consolidation.
+
 ## NOUVEAUX MÉCANISMES CANDIDATS
 
 | Code | Nom | Définition | Proposé par | Statut |
@@ -210,6 +233,7 @@ Ce document compile les actes fondateurs identifiés dans l'architecture fondatr
 | M44 | Externalisation de l'État | L'État privatise sa pensée et ses décisions en recourant à des cabinets de conseil privés non élus (McKinsey, BCG, PwC) — l'externalisation devient un mécanisme de capture | COVID (Ultrathinking) | CANDIDAT |
 | M45 | Blanchiment culturel | Une institution prestigieuse (Gallimard, Académie française) protège un auteur en lui conférant une légitimité inattaquable — le prestige de l'institution blanchit les actes | Pétition 69 (Ultrathinking) | HYPOTHÈSE |
 | M46 | Complexe médico-industriel | Big Pharma + État + laboratoires forment un bloc opaque où les décisions de santé publique sont prises en fonction d'intérêts privés | Sang + COVID | HYPOTHÈSE |
+| M47 | Injustice fiscale structurelle | Le système fiscal taxe structurellement plus le travail que le capital — par construction historique (1914-2018) et par verrouillage institutionnel (CC, concurrence UE) | Asymétrie fiscale (enquête v2.3) | CANDIDAT |
 
 ---
 
