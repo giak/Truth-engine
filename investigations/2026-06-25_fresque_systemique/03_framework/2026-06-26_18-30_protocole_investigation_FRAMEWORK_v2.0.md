@@ -449,6 +449,29 @@ Passer la fiche au crible du bareme NREF v2.1 (10 exigences). Calculer le niveau
 - Si niveau B → la fiche est acceptee, recommandation de completer les sources (NREF-9) ou la contre-version (NREF-10)
 - Si niveau A → la fiche est validee comme preuve
 
+### Etape 5 bis — Verification par second agent [NOUVEAU v2.1]
+
+Une fois l'auto-evaluation NREF terminee (etape 5), un second agent verifie les resultats. Le second agent est un LLM different du premier, ou le meme avec une instruction de contre-expertise explicite : « Tu es un contre-expert, tu dois casser cette enquete. »
+
+Il relit la fiche en adoptant le role de **contre-expert** : son objectif n'est pas de valider le travail, mais de le casser. L'objectif n'est pas de valider le travail — c'est de le casser.
+
+**Le contre-expert doit tester :**
+1. **Glyphes de fiabilite** : chaque ✦ est-il verifie par un HEAD 200 OK avec `head_check_date` ?
+2. **Sources** : chaque `source_url` existe-t-elle ? Le contenu correspond-il a ce qui est cite ?
+3. **Citations directes** : chaque `citation_directe` est-elle textuellement exacte ? (verification du contexte)
+4. **Contre-version** : la source officielle est-elle correctement representee ou caricaturee (strawman) ?
+5. **BIAIS** : les angles exclus declares sont-ils coherents avec la fiche ? Y a-t-il des angles morts non declares ?
+6. **PREUVES** : chaque traceur prouve-t-il bien ce qu'il est cense prouver ? (pas de faux lien logique)
+7. **INCERTITUDES** : les questions sans reponse sont-elles honnetes ? Des certitudes cachees persistent-elles ?
+
+**Mecanisme de conflit :**
+- Si le contre-expert estime un niveau NREF inferieur au niveau auto-declare par l'enqueteur initial → **conflit**
+- La fiche est marquee [CONTRADICTION NON RESOLUE — NIVEAU ESTIME: X]
+- L'enqueteur initial doit corriger les points identifies avant de soumettre a nouveau
+- Si le conflit persiste apres 2 corrections → la fiche est soumise a un tiers (arbitrage)
+
+**Sanction :** Sans verification par second agent, la fiche ne peut pas depasser le niveau NREF-B.
+
 ### Etape 6 — Tableau de bord
 
 Ajouter les donnees de l'enquete au TABLEAU_DE_BORD.md (mecanismes dominants, strategies pertinentes, niveau NREF, nouvelles pistes de l'addendum).
