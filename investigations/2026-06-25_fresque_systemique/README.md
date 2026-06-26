@@ -77,15 +77,16 @@ Post-audit de l'enquête sang contaminé v2.0 : les sources n'étaient pas véri
 │       ├── 2026-06-26_sang_contamine_NREF_INVESTIGATION.md (v2.0)
 │       └── 2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md (essai fondateur)
 │
-├── 03_framework/                    ← protocole, prompt, tableau de bord
-│   ├── 2026-06-26_18-30_protocole_investigation_FRAMEWORK_v2.0.md   ← ★ protocole v2.1
-│   ├── 2026-06-26_21-00_prompt_investigation_v2_PROMPT.md           ← ★ prompt v2.1 renforcé
-│   ├── TABLEAU_DE_BORD.md                                            ← ★ fresque cumulative
+├── 03_framework/                    ← protocole v2.4, prompt v2.4, tableau de bord
+│   ├── 2026-06-26_18-30_protocole_investigation_FRAMEWORK_v2.0.md   ← ★ protocole v2.4 (Pelote de Laine)
+│   ├── 2026-06-26_21-00_prompt_investigation_v2_PROMPT.md           ← ★ prompt v2.4 (Pelote)
+│   ├── TABLEAU_DE_BORD.md                                            ← ★ tableau de bord v2.4
 │   ├── 2026-06-25_20-00_empire_mensonge_concepts_extraits_HYPER_MATRICE.md
+│   ├── 2026-06-26_18-30_consolidation_5_enquetes_ANALYSE.md        ← analyse transverse
+│   ├── 2026-06-26_21-00_synthese_7_enquetes_FRESQUE.md            ← synthèse cumulative
+│   ├── 2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md     ← référentiel archéologique
 │   ├── 03_framework/README.md       ← documentation détaillée du framework
 │   └── archive/                     ← protocoles v1.x
-│       ├── 2026-06-25_18-30_protocole_investigation_FRAMEWORK.md (v1.0)
-│       └── 2026-06-25_18-30_protocole_investigation_FRAMEWORK_v1.3.md
 ```
 
 ---
@@ -94,21 +95,22 @@ Post-audit de l'enquête sang contaminé v2.0 : les sources n'étaient pas véri
 
 ### Lire la fresque
 
-1. **Commencer par le TABLEAU_DE_BORD.md** (dans `03_framework/`) — il agrège toutes les enquêtes v2.1, leurs synthèses, l'état des validations, et la file d'attente. C'est le point d'entrée unique.
-2. **Plonger dans une enquête** dans `02_enquetes/` — chaque investigation est une fiche YAML autonome avec sources vérifiées, contre-version, et analyse systémique complète.
-3. **Consulter le protocole** dans `03_framework/` pour comprendre les 42 mécanismes (M01-M42), les 8 fils (A-H), et les 10 stratégies (R01-R10).
+1. **Commencer par le TABLEAU_DE_BORD.md** (dans `03_framework/`) — il agrège les 10 enquêtes v2.4, leurs synthèses, le statut Pelote, et la file d'attente. C'est le point d'entrée unique.
+2. **Plonger dans une enquête** dans `02_enquetes/` — chaque investigation est une fiche YAML autonome avec sources vérifiées, contre-version, REMONTEE_DES_FILS standardisée, et CONTRE_MESURES.
+3. **Consulter le protocole** dans `03_framework/` pour comprendre les 10 fils (A-L), les 42 mécanismes (M01-M42), et la Méthode de la Pelote de Laine.
 
-### Lancer une nouvelle enquête (protocole v2.1)
+### Lancer une nouvelle enquête (protocole v2.4 — Pelote de Laine)
 
 1. Consulter le **TABLEAU_DE_BORD.md** pour la file d'attente et les priorités
-2. Ouvrir `03_framework/2026-06-26_21-00_prompt_investigation_v2_PROMPT.md` (renforcé v2.1)
-3. Suivre le workflow du protocole v2.1 :
+2. Ouvrir `03_framework/2026-06-26_21-00_prompt_investigation_v2_PROMPT.md` (v2.4)
+3. Suivre le workflow du protocole v2.4 :
    - **Étape 0** : Recherche documentaire (recherches web, HEAD checks, citations directes)
+   - **Étape 0 bis** : **Pelote de Laine** — appliquer l'algorithme 5 questions récursives pour remonter chaque fil jusqu'à son acte fondateur. Format de sortie obligatoire : `[AAAA] — événement — [M##]`
    - **Étape 1** : Lancer l'enquête via le prompt
-   - **Étape 2** : Produire la fiche YAML (12 chapitres, sources vérifiées)
+   - **Étape 2** : Produire la fiche YAML (14 chapitres dont REMONTEE_DES_FILS + CONTRE_MESURES, sources vérifiées)
    - **Étape 3** : Auto-vérification (4 questions système)
    - **Étape 4** : Ultrathinking (obligatoire degré 4-5, format ADDENDUM)
-   - **Étape 5** : Vérification NREF (10 exigences, niveaux A-E)
+   - **Étape 5** : Vérification NREF (12 exigences dont NREF-11 Pelote et NREF-12 Contre-mesures, niveaux A-E)
    - **Étape 5 bis** : Vérification par second agent (contre-expertise)
    - **Étape 6** : Mettre à jour le TABLEAU_DE_BORD.md
 4. Sauvegarder la fiche YAML produite dans `02_enquetes/`
@@ -125,6 +127,7 @@ Post-audit de l'enquête sang contaminé v2.0 : les sources n'étaient pas véri
 | v1.3 | 2026-06-25 | Séparation prompt/protocole, YAML simplifié, autonomie du LLM |
 | v2.0 | 2026-06-26 | Refonte NREF : 6 nouveaux chapitres, barème 8 exigences, workflow vérification |
 | **v2.1** | **2026-06-26** | **Renforcement post-audit : sources vérifiées, HEAD checks, 10 exigences, Ultrathinking obligatoire, second agent** |
+| **v2.4 (Pelote)** | **2026-06-26** | **Pelote de Laine (algorithme 5 questions récursives), REMONTEE_DES_FILS standardisé (marquage, gaps, cross_ref), CONTRE_MESURES, 12 exigences NREF, workflow 14 chapitres** |
 
 ---
 
@@ -144,4 +147,4 @@ La première enquête produite avec le protocole v2.1 est **l'affaire du sang co
 - **Ultrathinking :** ✅ réalisé (6 sections, 2 pistes P1/P2)
 - **Second agent :** 🔲 à réaliser
 
-Voir le détail dans `02_enquetes/2026-06-26_sang_contamine_v2.1_INVESTIGATION.md`.
+Voir le détail dans `02_enquetes/2026-06-26_sang_contamine_v2.3_INVESTIGATION.md`.
