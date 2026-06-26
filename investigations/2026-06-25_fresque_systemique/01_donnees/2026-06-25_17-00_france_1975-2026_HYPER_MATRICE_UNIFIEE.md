@@ -7,74 +7,74 @@
 - Date de génération : 2026-06-25
 
 ## SYNTHÈSE PAR DÉCENNIE
-| Décennie | POL | ÉCO | SOC | JUR | SANT | ÉDU | AGR | ENV | TEC | CUL | IMM | SPO | REL | DÉMO | TRA | MIL | SCI | DIP | MÉD | TER | TOTAL |
+| Décennie | POL | ECO | SOC | JUR | SANT | EDU | AGR | ENV | TEC | CUL | IMM | SPO | REL | DEMO | TRA | MIL | SCI | DIP | MED | TER | TOTAL |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1975-1982 | 65 | 77 | 104 | 20 | 1 | 5 | 1 | 24 | 34 | 56 | 1 | 13 | 1 | 0 | 2 | 1 | 2 | 1 | 0 | 43 | 451 |
-| 1983-1990 | 66 | 56 | 53 | 30 | 36 | 29 | 28 | 38 | 55 | 112 | 24 | 42 | 18 | 17 | 28 | 33 | 0 | 0 | 1 | 0 | 666 |
-| 1991-1998 | 67 | 18 | 46 | 44 | 8 | 10 | 9 | 6 | 25 | 31 | 5 | 18 | 3 | 1 | 0 | 18 | 6 | 14 | 0 | 1 | 330 |
-| 1999-2006 | 87 | 47 | 60 | 36 | 17 | 8 | 8 | 14 | 15 | 70 | 5 | 34 | 6 | 5 | 33 | 5 | 9 | 0 | 4 | 4 | 467 |
-| 2007-2016 | 81 | 57 | 56 | 47 | 15 | 20 | 17 | 24 | 28 | 17 | 15 | 21 | 2 | 4 | 19 | 5 | 6 | 2 | 4 | 1 | 441 |
-| 2017-2026 | 302 | 325 | 214 | 200 | 68 | 72 | 129 | 48 | 103 | 25 | 15 | 30 | 0 | 3 | 19 | 110 | 7 | 62 | 69 | 10 | 1811 |
-| **TOTAL** | 668 | 580 | 533 | 377 | 145 | 144 | 192 | 154 | 260 | 311 | 65 | 158 | 30 | 30 | 101 | 172 | 30 | 79 | 78 | 59 | **4166** |
+| 1975-1982 | 84 | 170 | 132 | 30 | 5 | 12 | 10 | 35 | 41 | 74 | 8 | 23 | 2 | 3 | 7 | 2 | 2 | 1 | 0 | 43 | 684 |
+| 1983-1990 | 81 | 127 | 71 | 51 | 43 | 64 | 38 | 41 | 59 | 125 | 28 | 51 | 19 | 37 | 28 | 35 | 0 | 1 | 1 | 0 | 900 |
+| 1991-1998 | 82 | 29 | 62 | 63 | 11 | 14 | 21 | 9 | 28 | 36 | 11 | 32 | 3 | 6 | 2 | 22 | 7 | 15 | 0 | 3 | 456 |
+| 1999-2006 | 103 | 71 | 74 | 50 | 22 | 18 | 16 | 18 | 21 | 76 | 15 | 45 | 7 | 9 | 35 | 6 | 9 | 0 | 7 | 6 | 608 |
+| 2007-2016 | 104 | 129 | 71 | 62 | 23 | 47 | 27 | 31 | 37 | 22 | 25 | 40 | 4 | 8 | 21 | 8 | 6 | 2 | 8 | 5 | 680 |
+| 2017-2026 | 332 | 685 | 242 | 214 | 80 | 155 | 134 | 71 | 115 | 29 | 24 | 40 | 1 | 6 | 20 | 112 | 8 | 62 | 138 | 12 | 2480 |
+| **TOTAL** | 786 | 1211 | 652 | 470 | 184 | 310 | 246 | 205 | 301 | 362 | 111 | 231 | 36 | 69 | 113 | 185 | 32 | 81 | 154 | 69 | **5808** |
 
 ## SYNTHÈSE PAR DIMENSION (toutes années)
 | Dimension | Total | ✅ | ⚠ | ❌ | 💀 |
 |---|---|---|---|---|---|
-| POL | 712 | 151 | 255 | 265 | 40 |
-| ÉCO | 632 | 97 | 197 | 305 | 33 |
-| SOC | 555 | 77 | 212 | 191 | 75 |
-| JUR | 420 | 58 | 135 | 182 | 45 |
-| SANT | 146 | 34 | 33 | 66 | 13 |
-| ÉDU | 150 | 14 | 57 | 79 | 0 |
-| AGR | 213 | 15 | 40 | 128 | 30 |
-| ENV | 158 | 45 | 63 | 26 | 24 |
-| TEC | 289 | 117 | 73 | 97 | 2 |
-| CUL | 312 | 136 | 81 | 6 | 89 |
-| IMM | 65 | 7 | 20 | 38 | 0 |
-| SPO | 158 | 63 | 70 | 14 | 11 |
-| REL | 30 | 9 | 18 | 1 | 2 |
-| DÉMO | 30 | 5 | 21 | 3 | 1 |
-| TRA | 101 | 20 | 55 | 23 | 3 |
-| MIL | 219 | 32 | 70 | 77 | 40 |
-| SCI | 30 | 21 | 4 | 2 | 3 |
-| DIP | 132 | 9 | 59 | 62 | 2 |
-| MÉD | 89 | 4 | 18 | 67 | 0 |
-| TER | 63 | 1 | 2 | 10 | 50 |
-| **TOTAL** | **4504** | **915** | **1483** | **1642** | **463** |
+| POL | 830 | 152 | 256 | 277 | 42 |
+| ECO | 1264 | 176 | 355 | 598 | 66 |
+| SOC | 674 | 77 | 214 | 195 | 80 |
+| JUR | 513 | 58 | 136 | 186 | 46 |
+| SANT | 185 | 34 | 33 | 67 | 16 |
+| EDU | 316 | 26 | 105 | 159 | 1 |
+| AGR | 267 | 15 | 40 | 128 | 31 |
+| ENV | 209 | 48 | 65 | 37 | 27 |
+| TEC | 331 | 119 | 80 | 99 | 2 |
+| CUL | 363 | 136 | 81 | 9 | 89 |
+| IMM | 111 | 7 | 20 | 44 | 0 |
+| SPO | 231 | 68 | 75 | 15 | 11 |
+| REL | 36 | 9 | 18 | 1 | 2 |
+| DEMO | 69 | 10 | 39 | 6 | 1 |
+| TRA | 113 | 20 | 55 | 24 | 3 |
+| MIL | 232 | 32 | 71 | 77 | 40 |
+| SCI | 32 | 22 | 4 | 3 | 3 |
+| DIP | 134 | 9 | 59 | 62 | 2 |
+| MED | 165 | 7 | 31 | 127 | 0 |
+| TER | 73 | 1 | 2 | 10 | 51 |
+| **TOTAL** | **6148** | **1026** | **1739** | **2124** | **513** |
 
 ## CLASSEMENT DES ANNÉES LES PLUS CHARGÉES
 | Rang | Année | Total | Principal sujet |
 |---|---|---|---|
-| 1 | 2025 | 508 |
-| 2 | 2026 | 453 |
-| 3 | 2024 | 266 |
-| 4 | 2023 | 107 |
-| 5 | 2006 | 100 |
-| 6 | 2022 | 100 |
-| 7 | 1984 | 91 |
-| 8 | 2021 | 89 |
-| 9 | 1990 | 88 |
-| 10 | 1989 | 86 |
-| 11 | 2017 | 83 |
-| 12 | 1985 | 82 |
-| 13 | 1988 | 82 |
-| 14 | 1983 | 80 |
-| 15 | 1987 | 79 |
-| 16 | 1986 | 78 |
-| 17 | 2020 | 74 |
-| 18 | 2019 | 67 |
-| 19 | 2018 | 64 |
-| 20 | 1976 | 61 |
-| 21 | 2000 | 61 |
-| 22 | 2001 | 61 |
-| 23 | 2014 | 61 |
-| 24 | 1975 | 60 |
-| 25 | 2016 | 59 |
-| 26 | 1977 | 58 |
-| 27 | 2015 | 58 |
-| 28 | 1980 | 57 |
-| 29 | 1982 | 57 |
-| 30 | 1991 | 56 |
+| 1 | 2025 | 674 |
+| 2 | 2026 | 633 |
+| 3 | 2024 | 367 |
+| 4 | 2022 | 145 |
+| 5 | 2023 | 143 |
+| 6 | 2006 | 131 |
+| 7 | 1984 | 121 |
+| 8 | 1990 | 116 |
+| 9 | 2017 | 116 |
+| 10 | 1989 | 115 |
+| 11 | 2021 | 114 |
+| 12 | 1983 | 111 |
+| 13 | 1985 | 111 |
+| 14 | 1988 | 111 |
+| 15 | 1987 | 108 |
+| 16 | 1986 | 107 |
+| 17 | 2020 | 103 |
+| 18 | 1975 | 99 |
+| 19 | 1976 | 99 |
+| 20 | 2018 | 93 |
+| 21 | 2019 | 92 |
+| 22 | 2014 | 90 |
+| 23 | 2015 | 88 |
+| 24 | 1982 | 86 |
+| 25 | 1981 | 84 |
+| 26 | 1977 | 83 |
+| 27 | 2000 | 83 |
+| 28 | 2016 | 82 |
+| 29 | 1978 | 79 |
+| 30 | 1979 | 78 |
 ### 1975
 
 | Année | Dimension | Description | Code |
@@ -140,6 +140,45 @@
 | 1975 | TER | Attentats Orly : commando palestinien FPLP, bazooka sur avion El Al | 💀 |
 | 1975 | TER | Triple meurtre rue Toullier par Carlos (Ilich Ramírez Sánchez) | 💀 |
 
+| 1975 | ÉDU | Loi Haby — collège unique | Démocratisation scolaire |
+| 1975 | SOC | Chômage franchit 1M (4.2%) | Insécurité sociale |
+| 1975 | ÉCO | Inflation à 11.8% | Épargne fondue |
+| 1975 | AGR | Premier plan de retrait viande bovine (surproduction) | Gaspillage |
+| 1975 | IMM | Regroupement familial suspendu | Blocage immigration |
+| 1975 | CUL | Création INA dépôt légal TV | Mémoire audiovisuelle |
+| 1975 | SPO | Première réglementation dopage JO | Aucun contrôle réel |
+| 1975 | JUR | Loi Veil dépénalisant IVG (17 janvier) | Droit fondamental femmes |
+| 1975 | CUL | Démantèlement ORTF en 7 sociétés dont TF1, A2, FR3 (6 janvier) | Naissance TV commerciale |
+| 1975 | CUL | 1ère émission Apostrophes de Bernard Pivot (10 janvier) | Littérature populaire |
+| 1975 | POL | Signature Accords d'Helsinki par 35 pays (1er août) | Détente droits humains |
+| 1975 | TRA | « Bouchon du siècle » RN10 : 145 morts (2 août) | Création Bison Futé 1976 |
+| 1975 | SOC | Grève CIP Haisnes : 118 ouvrières, occupation 3 ans (juillet) | Symbole lutte féminine |
+| 1975 | JUR | Réforme divorce consentement mutuel (11 juillet) | Libéralisation mœurs |
+| 1975 | POL | Affaire d'Aléria : 2 gendarmes tués par nationalistes corses (21 août) | Essor FLNC |
+| 1975 | ÉCO | Plan relance Chirac : 30,5 Mrds F (septembre) | Relance keynésienne |
+| 1975 | POL | Premier sommet G6 à Rambouillet (15-17 novembre) | G7/G8/G20 né |
+| 1975 | TEC | Lancement Peugeot 604 et Renault 30 (Salon Genève) | Haut de gamme |
+| 1975 | TRA | Inauguration aéroport Lyon-Satolas (12 avril) | Hub aérien régional |
+| 1975 | CUL | Création magazine Fluide Glacial par Gotlib (1er avril) | BD humoristique culte |
+| 1975 | JUR | Nouveau Code de procédure civile (5 décembre) | Modernisation justice |
+| 1975 | TRA | Inauguration pont Saint-Nazaire (18 octobre) | Désenclavement |
+| 1975 | SPO | Bernard Thévenet gagne Tour, 1ère arrivée Champs-Élysées (20 juillet) | Nouveau mythe |
+| 1975 | CUL | Mort Gaston Gallimard, éditeur (25 décembre) | Fin ère littéraire |
+| 1975 | TEC | Abandon tunnel sous la Manche côté britannique | Projet gelé 20 ans |
+| 1975 | SOC | Grève fonction publique post-1968 continue | Climat social tendu |
+| 1975 | ÉCO | Plan soutien économie 3,6 mds F pour consommation catégories défavorisées | ⚠️ |
+| 1975 | ÉCO | 6 mesures relance bâtiment et industrie pour 4 mds F | ⚠️ |
+| 1975 | ÉCO | Nouveau plan relance 15,5 mds F : investissements publics, prêts bonifiés PME | ⚠️ |
+| 1975 | ÉCO | Plan relance 30,5 mds F : taux escompte Banque France 8% | ⚠️ |
+| 1975 | ÉCO | Inflation dépasse 15% pendant été, stagflation | 💀 |
+| 1975 | ÉCO | Chômage dépasse 1 million (17 novembre) | 💀 |
+| 1975 | ÉCO | Plan Durafour : déplafonnement cotisations SS, hausse cotisations | ⚠️ |
+| 1975 | ÉCO | Loi retraite à 60 ans pour travaux pénibles et mères famille | ✅ |
+| 1975 | ÉCO | Franc retourne dans le Serpent monétaire européen | ⚠️ |
+| 1975 | ÉCO | Loi généralisation sécurité sociale à toute activité professionnelle | ✅ |
+| 1975 | ÉCO | Loi égalité sexes dans fonction publique | ✅ |
+| 1975 | ÉCO | Loi emploi langue française | ⚠️ |
+| 1975 | ÉCO | Part de l'industrie dans le PIB français : 24 % | ❌ |
 ### 1976
 
 | Année | Dimension | Description | Code |
@@ -206,6 +245,44 @@
 | 1976 | TER | Dynamitage immeuble Jean-Marie Le Pen (20 kg) | 💀 |
 | 1976 | TER | Premiers plasticages FLNC | 💀 |
 
+| 1976 | AGR | Mise en garde INRA chlordécone (ignorée) | 90% population Antilles contaminée |
+| 1976 | ÉCO | Plan Barre — austérité, blocage prix | Pouvoir d'achat |
+| 1976 | SOC | Chômage : 1.3M | Précarisation |
+| 1976 | JUR | Non-ratification convention européenne pollution | Pas de cadre juridique |
+| 1976 | CUL | Création Canal+ (idée) | Innovation |
+| 1976 | IMM | Circulaire Bonnet — expulsions étrangers malades | Cruauté administrative |
+| 1976 | SANT | Première alerte amiante (INSERM) | Ignorée |
+| 1976 | ENV | Canicule-sécheresse record : ~4 500 morts (juin-octobre) | Pire catastrophe climat XXe |
+| 1976 | ÉCO | « Impôt sécheresse » : 2,2 Mrds F, majoration IR +4 à 8% (25 août) | Impôt exceptionnel |
+| 1976 | POL | Démission Chirac Premier ministre (25 août) | Rupture Giscard-Chirac |
+| 1976 | POL | Raymond Barre nommé Premier ministre (août) | Austérité Barre |
+| 1976 | ENV | Accident chimique Seveso (Italie, 10 juillet) : nuage dioxine | Directive Seveso 1982 |
+| 1976 | ENV | Manifestation Creys-Malville : mort Vital Michalon (31 juillet) | 1er mort antinucléaire |
+| 1976 | SOC | Première manifestation antinucléaire massive | Mouvement écolo né |
+| 1976 | ENV | Armée réquisitionnée transport eau-fourrage | État urgence climatique |
+| 1976 | AGR | Pire sécheresse depuis 1921 : prières publiques dans les églises | Traumatisme agricole |
+| 1976 | IMM | Décret officialisant le regroupement familial (29 avril) | Droit fondamental |
+| 1976 | TEC | Début construction Superphénix Creys-Malville | Surgénérateur géant |
+| 1976 | TRA | Création Bison Futé (CNIR) | Gestion traffic |
+| 1976 | SOC | Lip : dépôt de bilan définitif | Symbole autogestion |
+| 1976 | CUL | Film « Le Juge et l'Assassin » (Tavernier) | Succès critique |
+| 1976 | POL | Giscard : « calamité nationale » (30 juin) | Précédent canicule |
+| 1976 | SPO | JO Montréal : 6 médailles d'or France | Résultats mitigés |
+| 1976 | CUL | Mort André Malraux (23 novembre) | Disparition intellectuelle |
+| 1976 | ÉCO | Naissance Elf Aquitaine : fusion SNPA et ERAP | ✅ |
+| 1976 | ÉCO | Création COGEMA (Compagnie générale matières nucléaires) | ✅ |
+| 1976 | ÉCO | Carrefour lance produits libres sans marque | ✅ |
+| 1976 | ÉCO | Premier impôt sur les plus-values | ⚠️ |
+| 1976 | ÉCO | Loi portant imposition plus-values, taxe 4% objets précieux | ⚠️ |
+| 1976 | ÉCO | VIIe Plan 1976-1980 : 206 mds crèdits, 25 programmes prioritaires | ⚠️ |
+| 1976 | ÉCO | Loi de finance rectificative 2,5 mds F | ⚠️ |
+| 1976 | ÉCO | Plan Barre lutte inflation : gel prix, réduction TVA, limitation masse monétaire | ⚠️ |
+| 1976 | ÉCO | Impôt sécheresse 6 mds F pour indemniser agriculteurs | 💀 |
+| 1976 | ÉCO | Spéculation contre franc, déficit extérieur s'aggrave | 💀 |
+| 1976 | ÉCO | Franc sort du Serpent monétaire européen | 💀 |
+| 1976 | ÉCO | Peugeot prend contrôle Citroën (Michelin cède 52%) | ⚠️ |
+| 1976 | ÉCO | Construction Superphénix Creys-Malville décidée | ⚠️ |
+| 1976 | ÉCO | Loi approbation VIIe Plan | ✅ |
 ### 1977
 
 | Année | Dimension | Description | Code |
@@ -269,6 +346,31 @@
 | 1977 | TER | Attentat à la bombe Paris imprimerie, 1 mort | 💀 |
 | 1977 | TER | Bête des Vosges : 300 animaux tués | 💀 |
 
+| 1977 | AGR | Veaux aux hormones — scandale discret | Confiance brisée |
+| 1977 | POL | Élections municipales — abstention 25% | Désamorçage politique |
+| 1977 | SOC | SMIC +35% nominal, mais inflation 9.5% | Stagnation réelle |
+| 1977 | CUL | Ordonnance sur l'audiovisuel — monopole ORTF | Cadre public |
+| 1977 | SPO | Pas de préparation JO 1984 sérieuse | Sous-investissement |
+| 1977 | DÉMO | Natalité baisse : 1.86 enfant/femme | Seuil renouvellement |
+| 1977 | POL | Chirac élu 1er maire de Paris depuis 1871 (20 mars) | Renaissance mairie Paris |
+| 1977 | CUL | Inauguration Centre Pompidou (31 janvier) | Musée art moderne |
+| 1977 | ENV | Inondations catastrophiques Gascogne : 16 morts 1 Mrd F (8 juillet) | Gers dévasté |
+| 1977 | POL | Rupture Union de la Gauche PS-PCF (mai-septembre) | Effondrement 1978 |
+| 1977 | JUR | Loi sur les sondages électoraux (19 juillet) | Commission des sondages |
+| 1977 | SOC | Rapport Peyrefitte « Réponses à la violence » (27 juillet) | 1er constat insécurité |
+| 1977 | IMM | « Million Stoléru » : prime retour 10 000 F aux immigrés (30 mai) | Échec <100k départs |
+| 1977 | POL | Indépendance Djibouti (27 juin) | Fin colonisation |
+| 1977 | SOC | Lip : remise en route usine Palente | Symbole autogestion |
+| 1977 | SPO | Tour France : Bernard Thévenet bat Merckx | Fin ère Merckx |
+| 1977 | JUR | Exécution Jérôme Carrein (23 juin) | Peine mort |
+| 1977 | TRA | Accident autoroute : 43 morts (carambolage) | Sécurité routière |
+| 1977 | ÉCO | TVA taux normal passe 20% à 17,6% | ⚠️ |
+| 1977 | ÉCO | Plan Veil assainissement Sécurité sociale | ⚠️ |
+| 1977 | ÉCO | Taxe sur spectacles de variétés | ⚠️ |
+| 1977 | ÉCO | Prime retour Stoléru : 10 000 F aux immigrés chômeurs | 💀 |
+| 1977 | ÉCO | Loi réglementant sondages électoraux, Commission des sondages | ⚠️ |
+| 1977 | ÉCO | Opération ville morte Thionville contre restructuration sidérurgie | ⚠️ |
+| 1977 | ÉDU | Réforme Haby en sixième : tronc commun supprime filières | ✅ |
 ### 1978
 
 | Année | Dimension | Description | Code |
@@ -327,6 +429,32 @@
 | 1978 | TER | Prise otages ambassade Irak Paris : 1 policier tué | 💀 |
 | 1978 | TER | Tuerie Bar du Téléphone Marseille | 💀 |
 
+| 1978 | AGR | Loi agriculture paysanne vs productivisme | Tension non résolue |
+| 1978 | POL | Élections législatives — victoire RPR-UDF | Stabilité apparente |
+| 1978 | SOC | Création ANPE (fusion) | Guichet, pas solution |
+| 1978 | JUR | Loi Informatique et Libertés | Protection données |
+| 1978 | ÉDU | Stabilisation carte scolaire | Ségrégation implicite |
+| 1978 | ÉCO | Inflation 9.7%, chômage 1.5M | Double peine |
+| 1978 | IMM | Ouverture sélective immigration famille | Tensions |
+| 1978 | ENV | Naufrage Amoco Cadiz : 227 000 t pétrole en Bretagne (16 mars) | Pire marée noire France |
+| 1978 | ENV | Création CEDRE Brest (1979) | Centre antipollution |
+| 1978 | POL | Élections législatives : droite gagne | 3e échec Mitterrand |
+| 1978 | SOC | Marche sidérurgistes lorrains sur Paris : 100 000 pers. (23 mars) | Crise acier majeure |
+| 1978 | SOC | Radio Lorraine Cœur d'Acier créée (décembre) | Radio pirate ouvrière |
+| 1978 | ÉCO | Plan Barre austérité blocage prix | Prélude 1983 |
+| 1978 | ÉCO | Annonce plan 20 000 licenciements sidérurgistes (décembre) | Drame lorrain |
+| 1978 | ENV | Manifestations écologistes massives Bretagne | Mobilisation inédite |
+| 1978 | SOC | Grève générale sidérurgie journées sans acier | France paralysée |
+| 1978 | CUL | René Vautier documentaire « Marée noire, colère rouge » | Film militant |
+| 1978 | ÉCO | Loi Spinetta responsabilité construction | ✅ |
+| 1978 | ÉCO | Loi Scrivener information protection consommateurs crédit | ✅ |
+| 1978 | ÉCO | Loi généralisant mensualisation paie | ✅ |
+| 1978 | ÉCO | Loi Monory fiscalité épargne investissements productifs | ✅ |
+| 1978 | ÉCO | Peugeot rachète Chrysler Europe : devient no1 européen | ⚠️ |
+| 1978 | ÉCO | Plan restructuration sidérurgie : 21 750 suppressions emplois | 💀 |
+| 1978 | ÉCO | Libération prix industriels | ⚠️ |
+| 1978 | ÉCO | Allocations familiales généralisées à toute population résidente | ✅ |
+| 1978 | ÉCO | Chômage : taux atteint 5,2% population active | ❌ |
 ### 1979
 
 | Année | Dimension | Description | Code |
@@ -385,6 +513,31 @@
 | 1979 | TER | Mitraillage siège patronat par Action directe | 💀 |
 | 1979 | TER | Tentative assassinat Serge Klarsfeld par réseau Odessa | 💀 |
 
+| 1979 | AGR | PAC — premier excédent beurre (montagnes) | Subventions gaspillage |
+| 1979 | SOC | Chômage 1.8M, entrée dans l'ère du chômage de masse | Nouvelle norme |
+| 1979 | SANT | Première conférence cancer — tabac visé | Pas de mesure concrète |
+| 1979 | CUL | Création Fête de la Musique | Réussite sociale |
+| 1979 | SPO | France perd candidature JO 1984 face à LA | Influence déclin |
+| 1979 | REL | Début normalisation rapport État/Église | Laïcité |
+| 1979 | SOC | Bataille de l'acier : 80 000 manifestants Paris (23 mars) | Sidérurgie en crise |
+| 1979 | SOC | Émeutes Longwy : affrontements violents, commissariat attaqué | Radicalisation sociale |
+| 1979 | SOC | Radio Lorraine Cœur d'Acier : radio pirate | Média de lutte |
+| 1979 | ENV | Accident nucléaire Three Mile Island (USA, 28 mars) | Crise confiance nucléaire |
+| 1979 | ENV | Manifestations antinucléaires massives en France post-TMI | Renforcement écolos |
+| 1979 | POL | Loi Veil pérennisée sans limite de durée (31 décembre) | IVG définitive |
+| 1979 | ÉCO | 2e choc pétrolier : prix du baril x2,5 | Inflation |
+| 1979 | POL | Affaire diamants Bokassa révélée par Canard enchaîné (10 octobre) | Scandale présidentiel |
+| 1979 | SOC | 15 000 enfants défilent Longwy « Flammes de l'espoir » (24 mars) | Implication familles |
+| 1979 | ÉCO | PSA finalise rachat Chrysler Europe : Talbot naît | ✅ |
+| 1979 | ÉCO | Loi contrat travail durée déterminée | ⚠️ |
+| 1979 | ÉCO | Libération totale prix annoncée par Monory | ⚠️ |
+| 1979 | ÉCO | Deuxième choc pétrolier : prix baril x2 | 💀 |
+| 1979 | ÉCO | Plan soutien économie 4,5 mds F | ⚠️ |
+| 1979 | ÉCO | Loi information protection emprunteurs immobilier | ✅ |
+| 1979 | ÉCO | Libération prix livre (arrêté Monory) | ⚠️ |
+| 1979 | ÉCO | Création commission comptes Sécurité sociale | ✅ |
+| 1979 | ÉCO | Effondrement chantier aéroport Nice, 9 morts | 💀 |
+| 1979 | ÉCO | Depuis 1979, la productivité du travail a été multipliée par 3,5 tandis que le salaire réel médian stagne — écart capté par les actionnaires via « Wage Markdowns » | ❌ |
 ### 1980
 
 | Année | Dimension | Description | Code |
@@ -449,6 +602,25 @@
 | 1980 | TER | Mitraille bar Hendaye par Batallón Vasco Español : 2 morts | 💀 |
 | 1980 | TER | Plasticage voitures Corse par FLNC | 💀 |
 
+| 1980 | SOC | Chômage 2.1M (7.5%) | Record historique |
+| 1980 | POL | Abolition peine de mort pas — Giscard recule | Attente |
+| 1980 | IMM | 1M immigrés réguliers | Tension logement |
+| 1980 | SANT | Construction CPA amiante (Comité Permanent) | Industrie contrôle comité |
+| 1980 | AGR | Stock beurre CEE : 400 000 tonnes | Gaspillage systémique |
+| 1980 | DÉMO | Natalité continue baisse : 1.95 | Déclin |
+| 1980 | MIL | Vol Ustica : DC-9 abattu près Italie, possible missile français (27 juin) | Scandale d'État |
+| 1980 | TEC | Expérimentation Minitel à Saint-Malo (juillet) | Précurseur Internet |
+| 1980 | POL | Mitterrand déclare candidature présidentielle (8 novembre) | Campagne |
+| 1980 | SPO | JO Moscou : boycott USA, France participe | Tension géopolitique |
+| 1980 | SOC | Grèves sidérurgistes continuent Lorraine | Crise persistante |
+| 1980 | CUL | Mort Jean-Paul Sartre (15 avril) | Disparition intellectuelle |
+| 1980 | CUL | Sortie Le Dernier Métro (Truffaut) : 10 Césars | Film culte |
+| 1980 | ÉCO | Loi de finances 1980 | ⚠️ |
+| 1980 | ÉCO | SMIC augmente 2,49%, loyers 11-13%, métro 17% | 💀 |
+| 1980 | ÉCO | Mise liquidation judiciaire Manufrance | 💀 |
+| 1980 | ÉCO | Suppression cotisation patronale supplémentaire 1% salaires | ⚠️ |
+| 1980 | ÉCO | Accord salarial fonction publique : révision trimestrielle | ✅ |
+| 1980 | ÉCO | Part de l'industrie dans le PIB français : 18 % | ✅ |
 ### 1981
 
 | Année | Dimension | Description | Code |
@@ -506,6 +678,38 @@
 | 1981 | TER | Opération Van : consulat Turquie Paris, 60 otages | 💀 |
 | 1981 | TER | Tuerie Auriol SAC, dissolution | 💀 |
 
+| 1981 | POL | Mitterrand élu — espoir immense | Alternance |
+| 1981 | SOC | Lois Auroux — droits travailleurs | Amélioration réelle |
+| 1981 | SOC | Abolition peine de mort (Badinter) | Progrès civilisation |
+| 1981 | ÉCO | Nationalisations banques + industrielles | Souveraineté |
+| 1981 | AGR | Retard interdiction hormones croissance | Conflit UE / USA |
+| 1981 | IMM | Mitterrand — immigration zéro | Durcissement |
+| 1981 | CUL | Première chaîne privée (Canal+ autorisation) | Innovation |
+| 1981 | SANT | Vaccination hépatite B massive | Santé publique |
+| 1981 | POL | Élection Mitterrand 10 mai 51,76% | 1er président socialiste |
+| 1981 | SOC | Abolition peine de mort Badinter (30 septembre) | Loi historique |
+| 1981 | SOC | Semaine 39h 5e semaine CP | Progrès social |
+| 1981 | SOC | Retraite à 60 ans annoncée | Réforme phare |
+| 1981 | JUR | Abrogation loi Sécurité et Liberté Peyrefitte | Politique pénale |
+| 1981 | ÉCO | Nationalisation 9 groupes industriels + 39 banques | Choc économique |
+| 1981 | ÉCO | Hausse SMIC +10% allocations +25% | Pouvoir achat |
+| 1981 | CUL | Sortie Les Aventuriers de l'Arche perdue | Succès mondial |
+| 1981 | CUL | Mort Jacques Prévert (11 avril) | Disparition poète |
+| 1981 | TEC | Minitel : 4 000 terminaux Ille-et-Vilaine | Déploiement |
+| 1981 | SPO | Tour France : Hinault 3e victoire | Domination |
+| 1981 | POL | 110 propositions programme Mitterrand | Base réformes 81-83 |
+| 1981 | ÉCO | Plan relance Mauroy : SMIC +10%, alloc familiales +25%, min vieillesse +20% | ✅ |
+| 1981 | ÉCO | Loi nationalisations : CGE, Thomson, Saint-Gobain, Rhône-Poulenc, Péchiney | ⚠️ |
+| 1981 | ÉCO | Impôt sur grandes fortunes créé | ✅ |
+| 1981 | ÉCO | Dévaluation franc 3% | ⚠️ |
+| 1981 | ÉCO | Surtaxe hauts revenus, hausse impôts sociétés, banques, pétrole | ⚠️ |
+| 1981 | ÉCO | Bloquage prix 6 mois, gel 15 mds dépenses | ⚠️ |
+| 1981 | ÉCO | Loi de finances 1982, ISF, hausse TVA et cotisations | ⚠️ |
+| 1981 | ÉCO | Création 55 000 emplois fonction publique | ✅ |
+| 1981 | ÉDU | Création ZEP (zones éducation prioritaire) par Savary | ✅ |
+| 1981 | ÉDU | Suppression Cour sûreté État | ✅ |
+| 1981 | ÉDU | Loi droit association étrangers | ✅ |
+| 1981 | ÉCO | Delors demande « pause réformes » sur RTL | ⚠️ |
 ### 1982
 
 | Année | Dimension | Description | Code |
@@ -568,6 +772,35 @@
 | 1982 | TER | Attentat voiture piégée rue Marbeuf Carlos : 1 mort, 63 blessés | 💀 |
 | 1982 | TER | Cellule antiterroriste Élysée Barril-Prouteau | ⚠ |
 
+| 1982 | ÉCO | 1ère dévaluation franc | Confiance perdue |
+| 1982 | SOC | Ordonnances retraite 60 ans | Progrès social |
+| 1982 | AGR | Viande aux hormones — conflit USA/CEE | Recule |
+| 1982 | DÉMO | Fécondité : 1.91 | Sous seuil |
+| 1982 | SPO | Dopage cyclisme — premier scandale (Poulidor?) | Ignoré |
+| 1982 | CUL | Loi audiovisuel — libéralisation | Pluralisme |
+| 1982 | JUR | Lois de décentralisation (Deferre) | Pouvoir local |
+| 1982 | ÉCO | Loi nationalisation 5 groupes + 39 banques (11 février) | Grand public |
+| 1982 | ÉCO | Semaine 39h + 5e CP instaurés | Temps travail |
+| 1982 | JUR | Loi Quilliot sur droits locataires | Droit logement |
+| 1982 | TEC | Lancement commercial Minitel national | Précurseur Internet |
+| 1982 | TEC | Nationalisation Bull | Informatique publique |
+| 1982 | ÉCO | Premier « tournant rigueur » blocage prix-salaires (juin) | Fin relance |
+| 1982 | ÉCO | Dévaluation franc -8,5% (juin) | Crise monnaie |
+| 1982 | SOC | Grèves massives sidérurgie Nord-Lorraine | Crise industrielle |
+| 1982 | SPO | Coupe monde football Espagne : France 4e | Épopée Séville |
+| 1982 | ENV | Loi sur décentralisation Defferre | Pouvoirs régions |
+| 1982 | SOC | Lois Auroux droits travailleurs | Démocratie sociale |
+| 1982 | ÉCO | Impôt sur grandes fortunes en application | ✅ |
+| 1982 | ÉCO | Semaine 39h et 5e semaine CP ordonnances | ✅ |
+| 1982 | ÉCO | Retraite à 60 ans ordonnances | ✅ |
+| 1982 | ÉCO | Contrat travail durée déterminée ordonnance | ⚠️ |
+| 1982 | ÉCO | Réforme TVA : taux 17,6% à 18,6%, super réduit 5,5% | ⚠️ |
+| 1982 | ÉCO | Nationalisations : sidérurgie, 5 groupes, 36 banques, Paribas, Suez | ⚠️ |
+| 1982 | ÉCO | Premier plan rigueur : blocage prix et salaires | 💀 |
+| 1982 | ÉCO | Dévaluation franc 5,75% | 💀 |
+| 1982 | ÉCO | Banque France lance billet 200 F | ✅ |
+| 1982 | ÉCO | Loi planification contrats plan État-région | ✅ |
+| 1982 | ÉDU | Loi études médicales et pharmaceutiques (internat tous) | ⚠️ |
 ### 1983
 
 | Année | Dimension | Description | Code |
@@ -653,6 +886,37 @@
 | 1983 | MIL | Livraison des premiers missiles nucléaires Hadès à courte portée | ⚠ |
 | 1983 | MIL | Opération Manta au Tchad (force française contre le régime Kadhafi) | ⚠ |
 
+| 1983 | ÉCO | Tournant de la rigueur — Mitterrand capitule | Abandon socialisme |
+| 1983 | ÉCO | 3ème dévaluation | Crise monétaire |
+| 1983 | SOC | Chômage 2.3M, plans sociaux multiples | Désindustrialisation commence |
+| 1983 | AGR | Loi d'orientation agricole — modernisation forcée | Petit paysan sacrifié |
+| 1983 | IMM | Loi Bonnet — durcissement entrée/séjour | Précarité immigrés |
+| 1983 | CUL | Création chaînes locales | Moyens limités |
+| 1983 | SANT | Première affaire sang contaminé — premiers cas VIH | Catastrophe sanitaire |
+| 1983 | ÉCO | Tournant de la rigueur arrêt relance (mars) | Virage libéral PS |
+| 1983 | ÉCO | France reste dans SME | Ancrage européen |
+| 1983 | ÉCO | Plan Delors austérité blocage dépenses | Disciplines budgétaires |
+| 1983 | SOC | Grèves étudiantes contre réforme Savary (avril-mai) | Mouvement droitier |
+| 1983 | ÉCO | Dévaluation franc -4,5% | Crise SME |
+| 1983 | ENV | Canicule juillet Provence : ~4 700 morts | Canicule mortelle |
+| 1983 | SPO | Yannick Noah gagne Roland-Garros (5 juin) | Dernier Français 40 ans |
+| 1983 | ENV | Loi montagne | Protection territoires |
+| 1983 | CUL | Film Tchao Pantin (Berri) : 5 Césars | Succès critique |
+| 1983 | ÉCO | Plan de rigueur de mars : blocage des prix et des salaires | ❌ |
+| 1983 | ÉCO | Nationalisation de groupes industriels (loi du 11 février, derniers textes) | ⚠️ |
+| 1983 | ÉCO | Lancement du plan de sauvetage de la sidérurgie (plan acier) | ❌ |
+| 1983 | ÉCO | Chômage à 8,3% de la population active | ❌ |
+| 1983 | ÉCO | Création du Livret A populaire (épargne réglementée) | ✅ |
+| 1983 | ÉCO | Création des Comités de bassin d'emploi | ⚠️ |
+| 1983 | ÉCO | Création du Crédit d'Impôt Recherche (CIR) | ✅ |
+| 1983 | ÉCO | Crise du franc : dévaluation au sein du SME | ❌ |
+| 1983 | ÉDU | Loi Savary sur l'enseignement supérieur (création DEUG/maîtrise) | ⚠️ |
+| 1983 | ÉDU | Réforme du collège unique (poursuite de la loi Haby, 1975) | ⚠️ |
+| 1983 | ÉDU | Création des Zones d'Éducation Prioritaires (ZEP) | ✅ |
+| 1983 | ÉDU | Rapport Prost sur l'orientation et la lutte contre l'échec scolaire | ⚠️ |
+| 1983 | DÉMO | Recensement : population française à 54,7 millions d'habitants | ⚠️ |
+| 1983 | DÉMO | Taux de fécondité à 1,8 enfant par femme (baisse historique) | ⚠️ |
+| 1983 | DÉMO | Espérance de vie : 70,9 ans (H), 78,9 ans (F) | ✅ |
 ### 1984
 
 | Année | Dimension | Description | Code |
@@ -749,6 +1013,36 @@
 | 1984 | MIL | Livraison des premiers missiles antichars Milan à l'armée française | ⚠ |
 | 1984 | MIL | Opération Épervier au Tchad (intervention militaire française renforcée) | ⚠ |
 
+| 1984 | ÉDU | Loi Savary — enseignement privé (retrait) | Réforme avortée |
+| 1984 | SOC | Marche des Beurs — espoir intégration | Reconnaissance |
+| 1984 | AGR | Début démantèlement quotas laitiers | Petits producteurs |
+| 1984 | POL | Montée Le Pen : 11% européennes | Fracture |
+| 1984 | SANT | Retard prise en charge VIH (sang contaminé déjà) | Crime |
+| 1984 | SPO | JO Sarajevo — France 3e | Succès discret |
+| 1984 | ÉDU | Manifestation École libre : 1,5 million Paris (24 juin) | Plus grande manif XXe |
+| 1984 | POL | Retrait loi Savary, démission Mauroy (17 juillet) | Recul réforme scolaire |
+| 1984 | POL | Laurent Fabius PM (41 ans, plus jeune Ve) | Renouveau |
+| 1984 | ÉCO | Plan acier : 25 000 suppressions emplois en 3 ans | Crise Lorraine |
+| 1984 | SOC | Marche sidérurgistes Paris : 40 000 (13 avril) | Désespoir ouvrier |
+| 1984 | ÉCO | Restructuration construction navale : -5 000 emplois | Chantiers réduits |
+| 1984 | SOC | Grève Renault Le Mans occupation usine (octobre) | Conflit social |
+| 1984 | CUL | Mort François Truffaut (21 octobre) | Nouvelle Vague |
+| 1984 | SPO | JO Sarajevo/Los Angeles | Médailles |
+| 1984 | JUR | Loi transparence financière vie politique | Moralisation |
+| 1984 | ÉCO | Plan Delors de rigueur économique (austérité, freinage des dépenses publiques) | ❌ |
+| 1984 | ÉCO | Chômage à 10% de la population active (premier passage à deux chiffres) | ❌ |
+| 1984 | ÉCO | Vague de faillites dans le textile, la sidérurgie et la construction navale | ❌ |
+| 1984 | ÉCO | Réforme du système bancaire (loi bancaire du 24 janvier, modernisation) | ⚠️ |
+| 1984 | ÉCO | Baisse de l'inflation à 6,7% (succès du plan Delors, désinflation) | ✅ |
+| 1984 | ÉCO | Lancement de l'emprunt d'État RDA (emprunt forcé sur les contribuables) | ⚠️ |
+| 1984 | ÉCO | Crise du franc : dévaluation au sein du Système Monétaire Européen | ❌ |
+| 1984 | ÉCO | Relance de l'investissement public (plan Fabius, grands travaux) | ⚠️ |
+| 1984 | ÉDU | Projet de loi Savary sur l'enseignement privé (retiré après manifestation massive) | ❌ |
+| 1984 | ÉDU | Réforme des lycées d'enseignement général et technologique (nouveaux programmes) | ⚠️ |
+| 1984 | ÉDU | Lancement du plan « Informatique pour tous » (40 000 micro-ordinateurs dans les écoles) | ✅ |
+| 1984 | ÉDU | Rapport de la commission de réflexion sur l'enseignement des sciences | ⚠️ |
+| 1984 | DÉMO | Population française : 55,2 millions d'habitants | ⚠️ |
+| 1984 | DÉMO | Espérance de vie : 71,2 ans (H), 79,4 ans (F) — progression constante | ✅ |
 ### 1985
 
 | Année | Dimension | Description | Code |
@@ -836,6 +1130,35 @@
 | 1985 | MIL | Lancement du programme de missile M4 (tête nucléaire multiple, TN 70) | ⚠ |
 | 1985 | MIL | Participation française aux forces d'interposition au Sinaï (observateurs ONU) | ⚠ |
 
+| 1985 | SANT | CNTS continue distribuer produits sanguins contaminés | Crime d'État |
+| 1985 | AGR | Découverte farines animales (premier indicateur ESB) | Première alerte ignorée |
+| 1985 | JUR | Non-lieu partiel dans premières plaintes sang | Justice protège |
+| 1985 | ÉCO | Verts allemands entrent Bundestag — France : 0 parti écolo | Retard écologique |
+| 1985 | SOC | Chômage 2.6M | Massification |
+| 1985 | CUL | Programme Canal+ crypté lancé | Innovation |
+| 1985 | SPO | Dopage — affaire Kelly (Tour de France) | Enterré |
+| 1985 | MIL | Attentat Rainbow Warrior : DGSE saborde navire Greenpeace (10 juillet) | Scandale d'État |
+| 1985 | MIL | Mort Fernando Pereira photographe | Victime |
+| 1985 | POL | Hernu démissionne ministre Défense (septembre) | Conséquence |
+| 1985 | JUR | Agents français arrêtés NZ, peine 10 ans | Crise diplomatique |
+| 1985 | SPO | Superphénix diverge (septembre) | Surgénérateur |
+| 1985 | TEC | Minitel distribué gratuit aux foyers | Massification |
+| 1985 | POL | Attentats Paris OLP/Abou Nidal (décembre) | Terrorisme |
+| 1985 | CUL | Mort Simone Signoret (30 septembre) | Disparition cinéma |
+| 1985 | CUL | Sortie Sans toit ni loi (Varda) : Lion Or | Succès auteur |
+| 1985 | ÉCO | Signature de l'Acte unique européen (Luxembourg, 17 février, par la France) | ✅ |
+| 1985 | ÉCO | Plan de relance Fabius : injections de liquidités dans l'économie | ⚠️ |
+| 1985 | ÉCO | Privatisation partielle du groupe Elf-Aquitaine (cession de filiales) | ⚠️ |
+| 1985 | ÉCO | Baisse du dollar US : crise du franc français (tensions monétaires) | ❌ |
+| 1985 | ÉCO | Création de la Carte Bleue Visa électronique (paiement dématérialisé) | ✅ |
+| 1985 | ÉCO | Création du MATIF (Marché à Terme d'Instruments Financiers, modernisation boursière) | ✅ |
+| 1985 | ÉCO | Hausse des taux d'intérêt (politique de désinflation compétitive) | ❌ |
+| 1985 | ÉDU | Lancement du plan « Université 2000 » (programme de modernisation des campus) | ⚠️ |
+| 1985 | ÉDU | Réforme du numerus clausus dans les études de médecine (augmentation) | ⚠️ |
+| 1985 | ÉDU | Réforme des écoles d'ingénieurs (développement des formations par apprentissage) | ⚠️ |
+| 1985 | ÉDU | Création des DEUG (Diplômes d'Études Universitaires Générales, rénovation) | ⚠️ |
+| 1985 | DÉMO | Population française : 55,6 millions d'habitants | ⚠️ |
+| 1985 | DÉMO | Taux de natalité : 13,9 pour 1 000 habitants (baisse continue) | ⚠️ |
 ### 1986
 
 | Année | Dimension | Description | Code |
@@ -919,6 +1242,35 @@
 | 1986 | MIL | Opération Épervier au Tchad (intensification du dispositif, renforcement) | ⚠ |
 | 1986 | MIL | Réduction du budget militaire (politique de rigueur budgétaire) | ❌ |
 
+| 1986 | POL | Première cohabitation — Mitterrand/Chirac | Stabilité |
+| 1986 | AGR | Farines animales — interdiction recule (lobby agro) | Vache folle préparée |
+| 1986 | AGR | CPA amiante bloque interdiction UE | Industrie tue |
+| 1986 | SANT | Sang contaminé — 1200 hémophiles contaminés | Catastrophe |
+| 1986 | JUR | Loi Pasqua — durcissement immigration | Sécurité/répression |
+| 1986 | ÉDU | Loi Devaquet — réforme université (retrait) | Réforme avortée |
+| 1986 | POL | Première cohabitation Mitterrand/Chirac (mars) | Stabilité |
+| 1986 | ÉCO | Vague privatisations 65 entreprises loi 2 juillet | Saint-Gobain Paribas CGE |
+| 1986 | JUR | Loi Pasqua sur étrangers et sécurité (7 août) | Durcissement |
+| 1986 | ÉDU | Projet Devaquet sélection entrée université | Retrait |
+| 1986 | SOC | Grève étudiante massive nov-déc 1986, 200 000 Paris | Victoire retrait |
+| 1986 | SOC | Grève cheminots déc 1986-janv 1987, trafic paralysé | Pertes 1,4 MdF |
+| 1986 | TEC | Minitel 2, services kiosque | Innovation |
+| 1986 | JUR | Affaire Carrefour du Développement (Nucci) | Scandale PS |
+| 1986 | TEC | Libération prix transports (1er déc après 40 ans contrôle) | Rupture libérale |
+| 1986 | JUR | Affaire Luchaire ventes armes Iran | Financement occulte |
+| 1986 | JUR | Dissolution MCA (Mouvement Corse Autodétermination) | Répression |
+| 1986 | ÉCO | Privatisation de Saint-Gobain, Paribas, Société Générale, TF1, Suez (vagues 1-3) | ⚠️ |
+| 1986 | ÉCO | Libéralisation du contrôle des changes (suppression totale, liberté des capitaux) | ⚠️ |
+| 1986 | ÉCO | Baisse des taux d'intérêt, relance de la consommation des ménages | ✅ |
+| 1986 | ÉCO | Chômage à 10,5% de la population active (record historique) | ❌ |
+| 1986 | ÉCO | Renforcement de la COB (Commission des Opérations de Bourse, pouvoirs accrus) | ⚠️ |
+| 1986 | ÉCO | Baisse du cours du pétrole (effet positif sur l'économie française) | ✅ |
+| 1986 | ÉCO | Plan de sauvetage de la sidérurgie (plan Mayoux, restructuration, dégraissage) | ❌ |
+| 1986 | ÉDU | Projet de loi Devaquet sur la sélection à l'université (retiré, abandon) | ❌ |
+| 1986 | ÉDU | Réforme du baccalauréat général (séries L, ES, S modernisées, coefficients) | ⚠️ |
+| 1986 | ÉDU | Loi sur l'enseignement supérieur (autonomie des universités renforcée) | ⚠️ |
+| 1986 | DÉMO | Population française : 55,8 millions d'habitants | ⚠️ |
+| 1986 | DÉMO | Espérance de vie : 71,6 ans (H), 79,7 ans (F) — progression | ✅ |
 ### 1987
 
 | Année | Dimension | Description | Code |
@@ -1003,6 +1355,35 @@
 | 1987 | MIL | Participation française à l'escorte des pétroliers dans le Golfe (guerre Iran-Irak) | ⚠ |
 | 1987 | MIL | Procès Barbie : devoir de mémoire et reconnaissance des crimes contre l'humanité | ⚠ |
 
+| 1987 | SANT | Sang contaminé — procès engagés, accès limité | Justice lente |
+| 1987 | AGR | Farines animales — utilisation massive continue | ESB préparée |
+| 1987 | SOC | Licenciements Boussac-Saint Frères — 10 000 emplois | Désindustrialisation |
+| 1987 | SPO | Dopage — mort Tom Simpson rappelée, rien | Rien |
+| 1987 | IMM | Loi Pasqua 2 — double peine expulsions | Injustice |
+| 1987 | CUL | Privatisation TF1 (Bouygues) | Information sous influence |
+| 1987 | DÉMO | Fécondité : 1.80 | Déclin |
+| 1987 | ÉCO | Krach lundi noir 19 oct : -22% Paris | Stoppe privatisations |
+| 1987 | ÉCO | Naissance LVMH (fusion Moët Vuitton) | 1er groupe luxe mondial |
+| 1987 | ÉCO | Libération totale des prix (1er janv) | Fin contrôle 1945 |
+| 1987 | CUL | Création France Info (1er juin) | 1ère radio info continue |
+| 1987 | JUR | Loi Chalandon privatisation partielle prisons (22 juin) | Gestion privée |
+| 1987 | JUR | Émeutes Tahiti (23 oct-5 nov) état urgence | Outre-mer fragile |
+| 1987 | DIP | Rupture relations France-Iran (17 juillet) affaire Gordji | Crise diplomatique |
+| 1987 | JUR | Grève surveillants pénitentiaires (juin) | Prisons crise |
+| 1987 | SOC | Vague de froid exceptionnelle (10-22 janv) | Sans-abri |
+| 1987 | ÉCO | Poursuite des privatisations : CGE, TF1 (cession à Bouygues), Suez | ⚠️ |
+| 1987 | ÉCO | Baisse de l'inflation à 3% (plus bas niveau depuis 20 ans) | ✅ |
+| 1987 | ÉCO | Endettement croissant des ménages (bulle du crédit à la consommation) | ❌ |
+| 1987 | ÉCO | Réforme du marché boursier : création du système de cotation CAC | ✅ |
+| 1987 | ÉCO | Krach du lundi noir (19 octobre) — impact limité en France (contagion limitée) | 💀 |
+| 1987 | ÉCO | Création du Conseil national du crédit et du titre (régulation financière) | ⚠️ |
+| 1987 | ÉCO | Forte croissance du PIB à 2,5% (reprise économique, embellie) | ✅ |
+| 1987 | ÉDU | Réforme des écoles d'ingénieurs : ouverture aux bacheliers technologiques (classes prépas) | ⚠️ |
+| 1987 | ÉDU | Loi sur la formation professionnelle continue (droit individuel, prémices) | ⚠️ |
+| 1987 | ÉDU | Création des premiers IUFM (préfiguration de la réforme Jospin, expérimentation) | ⚠️ |
+| 1987 | DÉMO | Population française : 56 millions d'habitants | ⚠️ |
+| 1987 | DÉMO | Taux de fécondité : 1,79 enfant par femme (stabilisation après baisse) | ⚠️ |
+| 1987 | ÉDU | Dictée CM2 DEPP : 10,7 erreurs en moyenne (monte à 19,4 en 2021) | ❌ |
 ### 1988
 
 | Année | Dimension | Description | Code |
@@ -1090,6 +1471,35 @@
 | 1988 | MIL | Réduction des effectifs militaires (loi de programmation militaire, professionnalisation) | ⚠ |
 | 1988 | MÉD | Jean-Luc Brunel : reportage CBS 60 Minutes (1988), puis 34 ans d'impunité | ❌ |
 
+| 1988 | POL | Mitterrand réélu — « France unie » | Stabilité |
+| 1988 | SOC | RMI créé — premier revenu minimum | Protection |
+| 1988 | SANT | Sang contaminé — premier procès contre CNTS | 4 ans après |
+| 1988 | AGR | Loi d'orientation — PAC continue | Productivisme |
+| 1988 | JUR | Non-lieu hémophiles contaminés (premières plaintes) | Justice protège |
+| 1988 | ÉCO | Privatisations banques | Moins de contrôle |
+| 1988 | CUL | Cinéma — entrées records années 80 | Rayonnement |
+| 1988 | POL | Réélection Mitterrand 54,02% (8 mai) | 1ère réélection Ve |
+| 1988 | POL | Débat Mitterrand-Chirac légendaire « Vous avez raison » | Moment TV |
+| 1988 | POL | Percée FN Le Pen 14,38% 1er tour | Extrême droite |
+| 1988 | POL | Nomination Rocard PM (12 mai) | Ouverture |
+| 1988 | SOC | Création RMI Revenu Minimum Insertion | Socle protection |
+| 1988 | JUR | Prise d'otages grotte Ouvéa Nouvelle-Calédonie | 19 morts |
+| 1988 | JUR | Accords Matignon-Oudinot Nouvelle-Calédonie | Paix |
+| 1988 | SOC | Grève infirmières (29 sept-24 oct) coordinations | Nouveau mode action |
+| 1988 | ÉDU | Loi Jospin orientation évaluation | Réforme |
+| 1988 | CUL | Sortie Le Grand Bleu Besson : 13,7 M entrées | Succès |
+| 1988 | ÉCO | Création du RMI (minima social, 1er décembre, insertion) | ✅ |
+| 1988 | ÉCO | Plan de rigueur du gouvernement Rocard (redressement des finances publiques) | ❌ |
+| 1988 | ÉCO | Baisse du chômage à 9,8% (première baisse depuis 1983, embellie) | ✅ |
+| 1988 | ÉCO | Fin du programme de privatisations (décision politique, gel des cessions) | ⚠️ |
+| 1988 | ÉCO | Création de l'impôt de solidarité sur la fortune (ISF, remplacement de l'IGF) | ⚠️ |
+| 1988 | ÉCO | Création du Conseil économique et social rénové (nouvelle composition) | ⚠️ |
+| 1988 | ÉDU | Loi d'orientation sur l'éducation (projet Jospin, grand débat national) | ⚠️ |
+| 1988 | ÉDU | Création des IUFM (Instituts Universitaires de Formation des Maîtres, préfiguration) | ⚠️ |
+| 1988 | ÉDU | Réforme du baccalauréat : création du baccalauréat professionnel (filière) | ✅ |
+| 1988 | DÉMO | Population française : 56,3 millions d'habitants | ⚠️ |
+| 1988 | DÉMO | Espérance de vie : 72,3 ans (H), 80,3 ans (F) — dépassement des 80 ans pour les femmes | ✅ |
+| 1988 | ÉCO | James O'Connor nomme la « seconde contradiction du capitalisme » | ⚠ |
 ### 1989
 
 | Année | Dimension | Description | Code |
@@ -1181,6 +1591,35 @@
 | 1989 | MIL | Préparation de l'opération Daguet (guerre du Golfe, planification, déploiement) | ⚠ |
 | 1989 | MIL | Sommet de l'Arche (G7, 14-16 juillet, à Paris-La Défense) | ✅ |
 
+| 1989 | POL | Chute Mur Berlin — France hésite | Réunification allemande |
+| 1989 | SOC | Affaire du voile Creil (premier épisode) | Fracture ouverte |
+| 1989 | AGR | ESB — premier cas déclaré UK (pas France) | Alerte |
+| 1989 | IMM | Affaire de la mosquée de Paris — tension | Laïcité friction |
+| 1989 | SPO | Dopage — développement EPO non détectable | Dopage systémique |
+| 1989 | ÉDU | Loi Jospin — évaluation, pas de réforme profonde | Surface |
+| 1989 | CUL | Bicentenaire Révolution — désintérêt populaire | Crise récit national |
+| 1989 | DÉMO | Fécondité : 1.79 | Déclin |
+| 1989 | TEC | Début Internet en France (Minitel vs Web) | Oracle choisi |
+| 1989 | POL | Bicentenaire Révolution parade Goude (14 juillet) | 1 M personnes |
+| 1989 | JUR | Affaire Pechiney-Triangle délits d'initiés (31 janv) | Scandale proches Mitterrand |
+| 1989 | JUR | Arrêt Nicolo suprématie droit international (20 oct) | Révolution juridique |
+| 1989 | JUR | Affaire foulards Creil (6 oct) | Début débat laïcité |
+| 1989 | JUR | Attentat DC-10 UTA Niger (19 sept) 170 morts | Pire attentat aérien |
+| 1989 | REL | Évêque Gaillot relevé fonctions (13 janv) | Église conservatrice |
+| 1989 | SOC | Grève fonctionnaires impôts 5 mois | Blocage |
+| 1989 | SPO | Loi Bambuck anti-dopage (28 juin) | Première loi |
+| 1989 | CUL | Inauguration Opéra Bastille (13 juillet) | Grand équipement |
+| 1989 | ÉCO | Lancement des OAT (emprunts d'État à long terme, Obligations Assimilables du Trésor) | ✅ |
+| 1989 | ÉCO | Poursuite de la baisse du chômage à 9,5% (embellie économique, 1988-1989) | ✅ |
+| 1989 | ÉCO | Loi sur l'épargne salariale (participation et intéressement, généralisation) | ⚠️ |
+| 1989 | ÉCO | Libéralisation des marchés financiers (loi DDAC, dérégulation boursière) | ✅ |
+| 1989 | ÉCO | Négociations préparatoires au traité de Maastricht (UEM, monnaie unique) | ⚠️ |
+| 1989 | ÉCO | Création de l'Union économique et monétaire (préparation, rapport Delors, avril) | ✅ |
+| 1989 | ÉDU | Loi d'orientation sur l'éducation (loi Jospin, juillet, grands principes) | ⚠️ |
+| 1989 | ÉDU | Mise en place des IUFM (formation des enseignants, réforme universitaire) | ✅ |
+| 1989 | ÉDU | Réforme des programmes du primaire (cycles d'apprentissage, évaluation) | ⚠️ |
+| 1989 | DÉMO | Population française : 56,6 millions d'habitants | ⚠️ |
+| 1989 | DÉMO | Solde migratoire : +50 000 (reprise de l'immigration après les restrictions) | ⚠️ |
 ### 1990
 
 | Année | Dimension | Description | Code |
@@ -1274,6 +1713,34 @@
 | 1990 | MIL | Réunification allemande (3 octobre) — implications pour la construction européenne | ✅ |
 | 1990 | MIL | Signature du traité sur les forces conventionnelles en Europe (FCE, Paris) | ✅ |
 
+| 1990 | AGR | ESB — premier cas confirmé France | Crise vache folle |
+| 1990 | SANT | Farines animales toujours autorisées, même après ESB UK | Crime |
+| 1990 | SOC | Chômage 2.9M (9.0%) | Massification |
+| 1990 | JUR | Loi Gayssot — liberté expression | Débat limité |
+| 1990 | IMM | Loi Joxe — régularisation exceptionnelle | Humanité |
+| 1990 | SPO | Dopage cyclisme — FUJITEST (tentative contrôle EPO, échoue) | Échec |
+| 1990 | DÉMO | Fécondité : 1.78 | Déclin accéléré |
+| 1990 | CUL | Ouverture Louvre pyramide | Culture |
+| 1990 | SOC | Manifestations lycéennes massives : 300 000 (nov) | 4,5 MdF débloqués |
+| 1990 | JUR | Profanation cimetière juif Carpentras (9 mai) | Marche 200 000 |
+| 1990 | POL | Congrès Rennes PS divisions Fabius/Jospin (mars) | Fracture durable PS |
+| 1990 | ÉCO | Création CSG Contribution Sociale Généralisée | Nouvel impôt |
+| 1990 | AGR | Révolte paysanne : manifestations blocage TGV (août-sept) | 200 000 agriculteurs |
+| 1990 | ENV | Incendies Marseille-Cassis calanques brûlées (21 août) | Patrimoine détruit |
+| 1990 | JUR | Loi Évin anti-tabac et alcool | Santé publique |
+| 1990 | SOC | Grève avocats magistrats personnels pénitentiaires (30 nov) | Justice bloquée |
+| 1990 | ÉCO | Récession économique (conséquences de la guerre du Golfe, prix du pétrole) | ❌ |
+| 1990 | ÉCO | Hausse du chômage à 9,9% (fin de l'embellie 1988-1989) | ❌ |
+| 1990 | ÉCO | Crise immobilière : fin de la bulle, baisse des prix de l'immobilier | ❌ |
+| 1990 | ÉCO | Préparation du marché unique européen (1993, harmonisation fiscale et douanière) | ✅ |
+| 1990 | ÉCO | Création de Bercy (ministère de l'Économie et des Finances, nouveau bâtiment) | ⚠️ |
+| 1990 | ÉCO | Négociations sur l'Union économique et monétaire (préparation du traité de Maastricht) | ✅ |
+| 1990 | ÉDU | Réforme des collèges : poursuite du collège unique (programmes personnalisés) | ⚠️ |
+| 1990 | ÉDU | Mise en œuvre des IUFM (formation des enseignants, première promotion d'étudiants) | ⚠️ |
+| 1990 | ÉDU | Première session du baccalauréat professionnel (nouvelle filière, premiers diplômés) | ✅ |
+| 1990 | DÉMO | Population française : 56,9 millions d'habitants | ⚠️ |
+| 1990 | DÉMO | Espérance de vie : 72,8 ans (H), 80,9 ans (F) — nouveau record | ✅ |
+| 1990 | ÉDU | La dépense moyenne par élève en France augmente de 25% en 30 ans, mais les résultats PISA chutent de 50 points en compréhension écrite | ❌ |
 ### 1991
 
 | Année | Dimension | Description | Code |
@@ -1336,6 +1803,18 @@
 | 1991 | DIP | Signature du protocole de Sangatte (France-Royaume-Uni) sur les contrôles frontaliers | ⚠ |
 | 1991 | TER | Magnat presse, 400 M£ détournés fonds pension Mirror Group | ❌ |
 
+| 1991 | AGR | **Farines animales interdites ENFIN — après 6 ans d'alerte** | Trop tard |
+| 1991 | AGR | CPA continue bloquer interdiction amiante | Industrie tue |
+| 1991 | ÉCO | Traité Maastricht — prépare monnaie unique | Construction UE |
+| 1991 | SOC | Chômage 3.1M | Record |
+| 1991 | SPO | Dopage cyclisme — affaire Delgado (EPO trouvé, pas de sanction) | Impunité bleue |
+| 1991 | DÉMO | Fécondité : 1.77 | Déclin |
+| 1991 | MIL | Opération Daguet : France guerre du Golfe (17 jan-28 fév) | 10 000 hommes |
+| 1991 | POL | Démission Chevènement ministre Défense (29 jan) | Fracture guerre |
+| 1991 | POL | Édith Cresson PM, 1ère femme (15 mai) | Symbole |
+| 1991 | SOC | Émeutes Saint-Denis La Réunion : quartier Chaudron | Pires émeutes DOM |
+| 1991 | MIL | Création COS Commandement Opérations Spéciales | Forces spéciales |
+| 1991 | MIL | Création DRM Direction Renseignement Militaire | Rénovation |
 ### 1992
 
 | Année | Dimension | Description | Code |
@@ -1396,6 +1875,19 @@
 | 1992 | DIP | Signature du traité de Maastricht | ✅ |
 | 1992 | DIP | Traité de Maastricht: interdit financement monétaire des dettes publiques (art. 123 TFUE), impose critères convergence | ❌ |
 
+| 1992 | POL | Maastricht — OUI à 51.04% | France divisée |
+| 1992 | AGR | ESB — interdit sang/abats bovins (7 ans après alerte) | Retard criminel |
+| 1992 | SPO | JO Albertville — France 9e (médiocre) | Sous-investissement |
+| 1992 | ÉCO | Traité de Maastricht — critères convergence drastiques | Austérité |
+| 1992 | SOC | Chômage 3.2M | Massification |
+| 1992 | IMM | Loi Pasqua 3 — double peine durcie | Répression |
+| 1992 | DÉMO | Fécondité : 1.73 | Effondrement |
+| 1992 | POL | Référendum Maastricht 51,05% OUI (20 sept) | France coupée en deux |
+| 1992 | JUR | Procès sang contaminé : condamnations Garretta Allain Roux (oct) | Justice tardive |
+| 1992 | SPO | Catastrophe Furiani tribune stade Bastia (5 mai) 18 morts | 2 300 blessés |
+| 1992 | ÉCO | Premières pertes Crédit Lyonnais : 1,8 MdF | Début scandale |
+| 1992 | SPO | JO Albertville (février) | Succès organisation |
+| 1992 | DIP | Sommet La Rochelle Mitterrand/Kohl corps armée franco-allemand | Coopération |
 ### 1993
 
 | Année | Dimension | Description | Code |
@@ -1454,6 +1946,25 @@
 | 1993 | MIL | Mitterrand se prononce pour la poursuite du moratoire sur les essais nucléaires | ✅ |
 | 1993 | DIP | Assassinat de l'ambassadeur français à Kinshasa, Philippe Bernard | ❌ |
 
+| 1993 | JUR | **Création HADOPI non — création CSD (Contrôle de l'amiante)** | Guichet vide |
+| 1993 | JUR | Procès d'Outreau commence — erreur judiciaire | Justice fragile |
+| 1993 | AGR | **Chlordécone — continuation Antilles jusqu'en 93** | Crime environnemental |
+| 1993 | POL | Défaite historique PS — droite revient | Alternance vide |
+| 1993 | IMM | Loi Pasqua 4 — expulsions facilitées | Dureté |
+| 1993 | ÉCO | Crise franc — spéculation | Économie dominée |
+| 1993 | TEC | **Minitel vs Internet — la France choisit Minitel** | Oracle mort |
+| 1993 | POL | Victoire droite législatives 2e cohabitation Balladur | Alternance |
+| 1993 | POL | Suicide Pierre Bérégovoy (1er mai) | Choc national |
+| 1993 | JUR | Scandale écoutes Élysée : 3 000 écoutes illégales (mars) | Affaire d'État |
+| 1993 | JUR | Affaire OM-VA corruption football révélée (22 mai) | Scandale sport |
+| 1993 | JUR | Affaire Romand faux médecin assassinat famille (9 jan) | Fait divers |
+| 1993 | JUR | Loi Sapin moralisation vie politique (29 jan) | Lutte corruption |
+| 1993 | ÉCO | Réforme Balladur retraites 37,5→40 annuités (juillet) | Première réforme |
+| 1993 | ÉCO | Crédit Lyonnais quasi-faillite pertes 6,9 MdF | 130 MdF pertes |
+| 1993 | ÉCO | Banque de France indépendante (4 août) | Indépendance |
+| 1993 | SOC | Grève générale Air France (18-26 oct) | Crise transport |
+| 1993 | ÉDU | Configuration grooming par autorité éducative | ❌ |
+| 1993 | ÉDU | École privée jésuite | ⚠ |
 ### 1994
 
 | Année | Dimension | Description | Code |
@@ -1491,6 +2002,18 @@
 | 1994 | SCI | Découverte de la grotte Chauvet en Ardèche | ⚠ |
 | 1994 | SCI | Inauguration de l'ESRF (synchrotron) à Grenoble | ⚠ |
 
+| 1994 | ÉCO | Création seconde chaîne payante (Canal+) | Innovation |
+| 1994 | SOC | Chômage 3.4M — record absolu | Désespoir |
+| 1994 | IMM | Loi nouvelle — conditions entrée renforcées | Fermeture |
+| 1994 | SPO | Dopage — l'affaire Festina (cyclisme) se prépare | Structures corrompues |
+| 1994 | AGR | PAC réforme — MacSharry, baisse prix garantis | Revenus paysans |
+| 1994 | AGR | ESB — abattage massif systématique commence (après 9 ans) | Retard |
+| 1994 | DÉMO | Fécondité : 1.73 | Basse |
+| 1994 | SOC | Mouvement anti-CIP SMIC-jeunes : 200 000 manif retrait (mars) | Victoire étudiante |
+| 1994 | JUR | Sanctions OM rétrogradation D2 Tapie radié (22 avril) | Football sanctionné |
+| 1994 | JUR | Premier Sidaction 7 chaînes (7 avril) : 23 M téléspectateurs | Mobilisation nationale |
+| 1994 | JUR | Affaire Elf éclate : 504 M$ détournés | Plus grand scandale français |
+| 1994 | SPO | Catastrophe Furiani procès | Responsabilité |
 ### 1995
 
 | Année | Dimension | Description | Code |
@@ -1538,6 +2061,22 @@
 | 1995 | DIP | Entrée en vigueur des accords de Schengen | ✅ |
 | 1995 | DIP | Signature du traité de Bayonne sur la coopération transfrontalière | ⚠ |
 
+| 1995 | POL | Chirac élu — « fracture sociale » promesse | Espoir |
+| 1995 | SOC | Grèves décembre 1995 — plan Juppé retraites | Blocage |
+| 1995 | SOC | Rapport Lebrun — crise sociale profonde | Alerte ignorée |
+| 1995 | AGR | **Rapport INSERM amiante — 2000 morts/an prévus** | Ignoré |
+| 1995 | AGR | ESB — abattage massif, indemnisation | Gestion crise |
+| 1995 | SPO | Dopage cyclisme — EPO généralisée, système organisé | Système corrompu |
+| 1995 | JUR | Affaire OM-VA — match truqué, Tapie en prison | Exception |
+| 1995 | CUL | Grève audiovisuel public — démantèlement | État se désengage |
+| 1995 | POL | Élection Chirac président 52,64% (7 mai) | Alternance |
+| 1995 | SOC | Grèves générales nov-déc plan Juppé : 2 M manifestants | Retrait réforme |
+| 1995 | TER | Attentat RER Saint-Michel (25 juillet) 8 morts | Vague islamiste |
+| 1995 | JUR | Premier plan sauvetage Crédit Lyonnais : 180 MdF actifs | Coût État |
+| 1995 | SPO | France handball championne du monde (21 mai) | 1er titre |
+| 1995 | CUL | Ouverture Parc Disneyland Paris | Tourisme |
+| 1995 | ÉDU | Écoles hors contrat : 260 établissements (13 000 élèves) | ✅ |
+| 1995 | SCI | Aluminium : 82 300 ppm (8 % de la croûte terrestre) ; baryum : 425 ppm ; strontium : 370 ppm (Taylor & McLennan, 1995) | ✅ |
 ### 1996
 
 | Année | Dimension | Description | Code |
@@ -1566,6 +2105,26 @@
 | 1996 | MIL | Intervention militaire en République centrafricaine | ⚠ |
 | 1996 | DIP | 22e sommet du G7 à Lyon | ⚠ |
 
+| 1996 | SANT | **ESB — lien CREUTZFELDT-JAKOB humain confirmé** | Catastrophe sanitaire |
+| 1996 | AGR | Farines animales — interdiction totale (7 ans après 1er cas) | Trop tard |
+| 1996 | AGR | Mort de 120 paysans/an par suicide en France | Crise agricole silencieuse |
+| 1996 | IMM | Loi Debré — dénonciation obligatoire hébergeurs | Stigmatisation |
+| 1996 | SPO | JO Atlanta — France 5e (bon mais moyens) | Relatif |
+| 1996 | DÉMO | Fécondité : 1.82 | Sous seuil |
+| 1996 | JUR | **Affaire des paillotes (Corse)** | État de droit fragile |
+| 1996 | ÉCO | Privatisation France Télécom | Service public entamé |
+| 1996 | SOC | Grève générale fonctionnaires (17 oct) 360 000 manif | Réforme protection sociale |
+| 1996 | SOC | Mouvement sans-papiers occupation églises St-Bernard | Débat régularisation |
+| 1996 | SOC | Grève routiers (nov-déc) barrages nationaux | Médiation État |
+| 1996 | POL | Mort François Mitterrand (8 jan) | Sortie d'une ère |
+| 1996 | POL | Annonce suspension service militaire Chirac (22 fév) | Fin conscription |
+| 1996 | TER | Attentat RER Port-Royal (3 déc) 4 morts 170 blessés | GIA algérien |
+| 1996 | MIL | Dernier essai nucléaire Fangataufa (27 jan) | Fin programme |
+| 1996 | JUR | Assaut RAID Gang de Roubaix (29 mars) | Terrorisme islamiste |
+| 1996 | ÉCO | Privatisation AGF (31 mai) 850 000 particuliers | Vague privatisations |
+| 1996 | ÉCO | Polémique reprise Thomson (16-29 oct) dette 24 MdF | Échec cession |
+| 1996 | SOC | Occupation puis évacuation St-Bernard (23 août) | Expulsions forcées |
+| 1996 | ÉDU | Inspection académique Bétharram conclut « pas un lieu où élèves sont brutalisés » malgré preuves | ❌ |
 ### 1997
 
 | Année | Dimension | Description | Code |
@@ -1592,6 +2151,20 @@
 | 1997 | SCI | Décès du commandant Cousteau | 💀 |
 | 1997 | SCI | Lionel Jospin annonce la fermeture du réacteur Superphénix | ✅ |
 
+| 1997 | POL | Dissolution ratée — gauche plurielle gagne | Erreur Chirac |
+| 1997 | IMM | Loi Guigou — régularisation partielle | Humanité |
+| 1997 | JUR | Affaire Dutroux — aucune vigilance en France | Protection enfance |
+| 1997 | SPO | Dopage — affaire Festina éclate | Premier déballage |
+| 1997 | SPO | Pas de suivi réel — retour dopage | Rien changé |
+| 1997 | AGR | PAC Agenda 2000 — baisse prix, aides directes | Revenus en baisse |
+| 1997 | SANT | Début exclusion soins dentaires/optique (zones grises) | Précarité soins |
+| 1997 | POL | Dissolution Assemblée par Chirac (21 avril) | Erreur fatale |
+| 1997 | POL | Victoire gauche plurielle Jospin PM (1er juin) | 3e cohabitation |
+| 1997 | SOC | Mouvement chômeurs occupations Assedic/ANPE (déc 97-avr 98) | Fonds urgence 1 MdF |
+| 1997 | ENV | Mort Commandant Cousteau (25 juin) | Conscience océans |
+| 1997 | TEC | Début débat Y2K bug an 2000 | Mobilisation IT |
+| 1997 | JUR | Loi Debré contrôle immigration (24 avril) | Durcissement |
+| 1997 | CUL | Création Le Mouv' radio (17 juin) | Radio publique jeune |
 ### 1998
 
 | Année | Dimension | Description | Code |
@@ -1645,6 +2218,26 @@
 | 1998 | DIP | La mission parlementaire conclut que la France n'a pas incité au génocide rwandais | ⚠ |
 | 1998 | DIP | Signature des Accords de Nouméa sur l'avenir de la Nouvelle-Calédonie | ✅ |
 
+| 1998 | SPO | **Coupe du monde France (victoire)** | Unité nationale |
+| 1998 | IMM | Création réseau « sans papiers » multiples | Crise sociale |
+| 1998 | JUR | Affaire de l'amiante — premières plaintes des victimes | Justice saisit tard |
+| 1998 | AGR | **Rapport IGAS farines animales — « fautif mais pas sanction »** | Impunité |
+| 1998 | SOC | 35h (Loi Aubry) — réduction temps travail | Amélioration mais critiques |
+| 1998 | SANT | Alerte amiante — procès commence (Jussieu) | 20 ans de retard |
+| 1998 | CUL | Création chaîne info public (France 24) | Influence |
+| 1998 | DÉMO | Fécondité : 1.76 | État d'urgence |
+| 1998 | SOC | Loi Aubry 35h (10 fév adoption) | Révolution temps travail |
+| 1998 | SPO | Coupe du monde France 3-0 Brésil (12 juil) | Black-blanc-beur |
+| 1998 | JUR | Condamnation Maurice Papon (2 avril) 10 ans réclusion | Crime contre humanité |
+| 1998 | JUR | Affaire Elf : Roland Dumas mis en cause (25 jan) | Scandale pétrolier |
+| 1998 | POL | Accord Nouméa Nouvelle-Calédonie (20 avril) | Évolution indépendance |
+| 1998 | SPO | Scandale Festina dopage Tour France (juil) | Crise cyclisme |
+| 1998 | ENV | Loi recyclage 50% tri sélectif (22 avril) | Déchets |
+| 1998 | CUL | Première Techno Parade Paris (19 sept) | Culture électronique |
+| 1998 | TEC | Introduction Bourse France Télécom (oct) 42 MdF | Privatisation paradoxe |
+| 1998 | TRA | Inauguration Stade France (28 jan) | Équipement |
+| 1998 | TRA | Inauguration ligne 14 métro Paris (15 oct) | Automatisation |
+| 1998 | ENV | Dominique Voynet (ministre 1997-2001) confirme la fermeture de Superphénix, la décrivant comme "la première vraie défaite du lobby nucléaire" | ❌ |
 ### 1999
 
 | Année | Dimension | Description | Code |
@@ -1693,6 +2286,17 @@
 | 1999 | SCI | Création du site Doctissimo | ✅ |
 | 1999 | SCI | Éclipse totale de Soleil visible dans le nord de la France | ✅ |
 
+| 1999 | POL | Guerre Kosovo — France bombarde, diplomatiquement suiveuse | Subordination |
+| 1999 | ÉCO | Lancement euro (cours fictif) | Construction UE |
+| 1999 | AGR | **Loi agriculture paysanne — enterrée** | Priorité agro-industrie |
+| 1999 | SPO | Dopage — affaire de l'US Postal (Armstrong) | Système Armstrong |
+| 1999 | IMM | Loi Chevènement — carte de séjour unique | Simplification |
+| 1999 | ENV | Naufrage Erika (12 déc) 20 000 t fioul 400 km côtes | Marée noire |
+| 1999 | ÉCO | Création EADS (10 juil) fusion Aérospatiale DASA Casa | Géant aéronautique |
+| 1999 | ÉCO | Euro monnaie scripturale (1er jan) | Préparation passage € |
+| 1999 | TEC | Bug an 2000 sans catastrophe majeure | Soulagement |
+| 1999 | JUR | Attentats Corse URSSAF Ajaccio (25 nov) | Tensions |
+| 1999 | ÉCO | Part de propriétaires en France stagne à 57% depuis 1999 | ❌ |
 ### 2000
 
 | Année | Dimension | Description | Code |
@@ -1760,6 +2364,28 @@
 | 2000 | SCI | Mort de Jacqueline Auriol, première femme pilote d'essai (82 ans) | 💀 |
 | 2000 | MÉD | Filme le rituel Cremation of Care | ⚠ |
 
+| 2000 | SANT | **Canicule — rapport alertant sur surmortalité (ignoré)** | 2003 déjà dessiné |
+| 2000 | AGR | **Crise farines animales : enquête parlementaire enterrée** | Impunité |
+| 2000 | POL | Quinquennat référendum (passage 7→5 ans) | Modernisation |
+| 2000 | IMM | Loi RESF (réseau éducation sans frontières) | Solidarité |
+| 2000 | SPO | JO Sydney — France 6e | Stable |
+| 2000 | REL | Église — condamnation pour abus (première) | Une goutte |
+| 2000 | DÉMO | Fécondité : 1.89 | Reprise légère |
+| 2000 | POL | Référendum quinquennat OUI (24 sept) | Mandat 5 ans |
+| 2000 | POL | Vidéo Méry financement RPR mise en cause Chirac (22 sept) | Scandale |
+| 2000 | SOC | 35h obligatoires entreprises >20 sal. (1er fév) | RTT |
+| 2000 | JUR | Rapport Vasseur « Médecin chef à la Santé » (17 jan) | Prisons insalubres |
+| 2000 | JUR | Loi Guigou présomption innocence (15 juin) | Réforme pénale |
+| 2000 | TRA | Crash Concorde Gonesse (25 juil) 113 morts | Fin Concorde |
+| 2000 | SPO | France gagne Euro 2000 football (2 juil) | Doublé Mondial-Euro |
+| 2000 | ÉCO | Pic CAC 40 : 6922 pts (4 sept) | Bulle internet |
+| 2000 | ÉCO | PIB +3,9% chômage 8,5% | Meilleure perf |
+| 2000 | SOC | Destruction tours HLM Mantes-la-Jolie (1er oct) | Rénovation urbaine |
+| 2000 | ÉCO | La France est le 5e exportateur mondial (OMC) | ✅ |
+| 2000 | ÉDU | PISA mathématiques France : 517 points (descend à 474 en 2022) | ❌ |
+| 2000 | MÉD | Filme le rituel Cremation of Care | ⚠ |
+| 2000 | ÉCO | Bernard Bommier (père) VP Cyber Security chez Coca-Cola Europacific Partners depuis août 2000 | ⚠ |
+| 2000 | ÉCO | Depuis 2000, cession progressive des fleurons industriels français: Arcelor, Alstom, Pechiney, Lafarge — vente à des groupes étrangers | ❌ |
 ### 2001
 
 | Année | Dimension | Description | Code |
@@ -1828,6 +2454,23 @@
 | 2001 | MIL | L'armée française participe aux frappes de l'OTAN en Macédoine | ⚠ |
 | 2001 | SCI | Jacques Chirac se prononce contre la légalisation du clonage thérapeutique | ⚠ |
 
+| 2001 | JUR | **Loi sur l'amiante — fonds d'indemnisation créé (10 000 + morts)** | Justice tardive |
+| 2001 | AGR | **Loi sur l'amiante interdit ENFIN (30 ans après 1er rapport)** | Trop tard |
+| 2001 | SANT | ESVAC — création vaccin hépatite B lien sclérose en plaques | Défiance vaccine |
+| 2001 | IMM | Loi Sarkozy I (sécurité) | Sécuritarisme |
+| 2001 | SPO | **Dopage — enquête shabonne les laboratoires US Postal** | Système Armstrong |
+| 2001 | CUL | Loi Lang — prix unique livre | Protection culture |
+| 2001 | SOC | Prime pour l'emploi présentée par Jospin (11 jan) | Compensation CSG |
+| 2001 | SOC | Grève interprofessionnelle générale (16 oct) SNCF poste hôpitaux | Mouvement massif |
+| 2001 | TER | Tentative attentat vol Paris-Miami chaussures piégées (22 déc) | Richard Reid Al-Qaïda |
+| 2001 | JUR | Centre Sangatte révolte réfugiés tunnel (25-26 déc) | Crise asile |
+| 2001 | JUR | Loi sécurité quotidienne Vigipirate renforcé | Dérive sécuritaire |
+| 2001 | ÉCO | Début bulle internet CAC en baisse | Fin euphorie |
+| 2001 | TEC | Wikipédia créée (15 jan) | Révolution connaissance |
+| 2001 | CUL | Sortie Amélie Poulain succès international | Rayonnement |
+| 2001 | TER | 11 septembre : France soutient USA | Choc mondial |
+| 2001 | ÉDU | Débat laïcité voile islamique écoles | Rapport Stasi |
+| 2001 | ÉDU | Loi rendant obligatoire l'éducation à la sexualité (3 séances/an) | ⚠ |
 ### 2002
 
 | Année | Dimension | Description | Code |
@@ -1883,6 +2526,19 @@
 | 2002 | SCI | Création du GIP Genset (génomique) | ✅ |
 | 2002 | MÉD | Création de la chaîne d'information en continu I-Télé | ✅ |
 
+| 2002 | POL | **21 avril 2002 — Le Pen au second tour** | Choc démocratique |
+| 2002 | POL | Abstention + vote protestataire = 30% | Défiance |
+| 2002 | IMM | Loi Sarkozy II — double peine renforcée | Répression |
+| 2002 | SOC | Affaire des assistants parlementaires FN | Dérives partisanes |
+| 2002 | SPO | Dopage — affaire Armstrong cachée par UCI | Organisation corrompue |
+| 2002 | SANT | Alerte canicule ignorée (2e rapport) | Négligence |
+| 2002 | POL | 21 avril Le Pen 2e tour Jospin éliminé 16,3% | Séisme politique |
+| 2002 | POL | Chirac 82,21% Le Pen 17,79% (5 mai) | Front républicain |
+| 2002 | SOC | Manifestations anti-FN géantes (22 avril-1er mai) | Mobilisation |
+| 2002 | JUR | Tuerie Nanterre conseil municipal (27 mars) 8 morts | Drame |
+| 2002 | JUR | Loi Perben I renforcement crime organisé | Durcissement pénal |
+| 2002 | ÉCO | Chômage repart à la hausse | Fin embellie |
+| 2002 | MIL | France engagée Afghanistan ops militaires | Guerre terrorisme |
 ### 2003
 
 | Année | Dimension | Description | Code |
@@ -1935,6 +2591,22 @@
 | 2003 | TRA | SNUPFEN se désaffilie de la CFDT et rejoint l'Union syndicale Solidaires | ⚠ |
 | 2003 | SCI | Lancement du satellite Hélios II | ✅ |
 
+| 2003 | SANT | **Canicule — 70 000 morts Europe (15 000 France)** | Catastrophe |
+| 2003 | SANT | **Rapport alarmant pré-canicule enterré par ministère** | Crime |
+| 2003 | POL | Guerre Irak — France contre, mais diplomatie isolée | Courage diplomatique |
+| 2003 | SOC | Grève retraites — masse | Blocage |
+| 2003 | AGR | PAC réforme (Fischler) — découplage aides | Complexité |
+| 2003 | IMM | Loi Sarkozy III — délit solidarité | Criminalisation |
+| 2003 | JUR | **Loi pénalisant la négation génocide arménien (LOI HASARD)** | Ingérence mémorielle |
+| 2003 | SOC | Grève fonction publique contre réforme retraites Raffarin | Grèves massives |
+| 2003 | ÉDU | Rapport Stasi sur laïcité (déc) | Prélude loi 2004 |
+| 2003 | POL | Début réforme retraites allongement durée cotisation | Âge départ repoussé |
+| 2003 | JUR | Loi sécurité intérieure Sarkozy | Loi dure délinquance |
+| 2003 | ÉCO | Dégradation finances publiques | Creusement déficits |
+| 2003 | ENV | Canicule + ozone pollution record | Lien chaleur qualité air |
+| 2003 | TEC | Téléphonie mobile dépasse fixe | Bascule technologique |
+| 2003 | ÉCO | Directive 2003/54/CE ouverture du marché européen de l'électricité | ❌ |
+| 2003 | ÉDU | Début de la baisse continue PISA | ❌ |
 ### 2004
 
 | Année | Dimension | Description | Code |
@@ -1994,6 +2666,20 @@
 | 2004 | SCI | Transit de la planète Vénus devant le disque solaire (phénomène rare, prochain en 2012) | ✅ |
 | 2004 | TER | 27 témoins morts suspect (Guardian) | 💀 |
 
+| 2004 | POL | Régionales — gauche gagne, rien ne change | Alternance vide |
+| 2004 | AGR | **Algues vertes Bretagne — premier rapport** | Ignoré |
+| 2004 | IMM | Loi Sarkozy IV — code entrée/séjour durci | Précarité |
+| 2004 | SPO | JO Athènes — France 7e | Stagnation |
+| 2004 | SOC | Chômage 9.9% | Massification |
+| 2004 | CUL | **Loi DADVSI — censure numérique** | Entrave créativité |
+| 2004 | ÉDU | Loi laïcité interdiction signes religieux ostensibles (15 mars) | 494 voix |
+| 2004 | SOC | Loi Borloo cohésion sociale ANRU rénovation urbaine | Politique ville |
+| 2004 | ÉCO | Plan relance baisse impôts | Redressement |
+| 2004 | JUR | Loi Perben II adaptation procédure pénale | Réforme code pénal |
+| 2004 | SPO | Euro 2004 : élimination France quarts | Surprise Grèce championne |
+| 2004 | TEC | Loi confiance économie numérique LCEN | Cadre juridique internet |
+| 2004 | CUL | Succès Les Choristes 8,5 M entrées | Cinéma social |
+| 2004 | IMM | Crise Sangatte annonce fermeture centre | Trafic migrants |
 ### 2005
 
 | Année | Dimension | Description | Code |
@@ -2055,6 +2741,23 @@
 | 2005 | TRA | Loi sur la croissance économique (CPE inclus) | ⚠ |
 | 2005 | TER | Financement via Epstein, triangle Paris/New York/Miami | ❌ |
 
+| 2005 | POL | **Référendum TCE — 55% NON, traité MAIS adopté (Traité de Lisbonne)** | Tromperie démocratique |
+| 2005 | SOC | **Émeutes banlieues — 3 semaines, état d'urgence** | Fracture sociale |
+| 2005 | IMM | Loi Hortefeux — immigration choisie | Utilitaire, pas humain |
+| 2005 | AGR | **ESB — dernières victimes humaines (237 total UK)** | Bilan final : 237 morts UK |
+| 2005 | AGR | **Clairement identifié : farines animales + système** | Aucun responsable |
+| 2005 | CUL | Lancement YouTube — France pas dedans | Retard numérique |
+| 2005 | SPO | Dopage — enquête Armstrong, UCI protège | Système protégé |
+| 2005 | DÉMO | Régions/ZUS — ségrégation spatiale confirmée | Ghettoisation |
+| 2005 | POL | NON traité constitutionnel européen 54,7% (29 mai) | Crise UE |
+| 2005 | POL | Villepin PM remplace Raffarin (31 mai) | Nouvelle méthode |
+| 2005 | JUR | Loi mémoire coloniale article 4 « rôle positif » (23 fév) | Fracture mémoire |
+| 2005 | ÉCO | Plan Borloo zones franches égalité chances | Contre émeutes |
+| 2005 | TEC | YouTube créé | Révolution vidéo |
+| 2005 | SPO | Coupe Davis France gagne | Tennis |
+| 2005 | TRA | Dernier vol Concorde | Fin supersonique |
+| 2005 | ÉCO | Déficit commercial manufacturier se creuse chaque année depuis 2005 | ❌ |
+| 2005 | ENV | Le NOx aérien contribue au réchauffement : bilan net positif (Grewe et al., Atmospheric Chemistry and Physics, 2005, DOI 10.5194/acp-5-177-2005 ; EEA 2019) | ❌ |
 ### 2006
 
 | Année | Dimension | Description | Code |
@@ -2160,6 +2863,37 @@
 | 2006 | TER | Capturée par Maxwell, menacée de mort et mort famille | 💀 |
 | 2006 | TER | Violée répétition New York et île, plusieurs fois par jour | 💀 |
 
+| 2006 | POL | **CPE — révolte jeunesse, retrait** | Réforme impossible |
+| 2006 | JUR | **Procès Outreau — acquittement, erreur judiciaire majeure** | Justice discréditée |
+| 2006 | IMM | Loi Sarkozy V — immigration, quotas | Gestion comptable |
+| 2006 | SOC | Affaire Clearstream — État paralysé | Crise politique |
+| 2006 | AGR | ESB — vache folle suisse rappel (France protégée) | Chance |
+| 2006 | SPO | Dopage — Floyd Landis (Tour) suspendu → Armstrong sauve | Système |
+| 2006 | SOC | Loi égalité des chances / CPE (mars-avril) | Révolte jeunesse, retrait |
+| 2006 | SOC | Nuit Debout (avril) | Mouvement place République |
+| 2006 | JUR | Affaire Ilan Halimi : enlèvement séquestration mort (fév) | Gang des barbares |
+| 2006 | IMM | Loi Sarkozy immigration sélective | Quotas |
+| 2006 | CUL | Ouverture Musée Quai Branly (20 juin) | Arts premiers |
+| 2006 | ÉDU | Réforme université De Robien contestée | Tensions |
+| 2006 | ENV | Loi sur les OGM | Débat |
+| 2006 | SPO | Coupe du monde football Allemagne : France finaliste | Zidane coup tête |
+| 2006 | POL | Affaire Clearstream : Villepin/Sarkozy | Crise politique |
+| 2006 | TEC | iPhone présenté par Apple (9 jan) | Révolution smartphone |
+| 2006 | ÉCO | CAC 40 à 5500 pts, chômage 9% | ⚠️ |
+| 2006 | ÉCO | Fusion SUEZ-GDF engagée par le gouvernement | ❌ |
+| 2006 | ÉDU | Loi LRU sur l'autonomie des universités en préparation | ⚠️ |
+| 2006 | ÉCO | Déficit public : 2,5 % du PIB | ⚠️ |
+| 2006 | ÉCO | Grand Stade de Lille Métropole inauguré | ✅ |
+| 2006 | ÉCO | EDF : résultat net 5,6 milliards € | ⚠️ |
+| 2006 | ÉCO | Chômage : 9,2 % de la population active | ❌ |
+| 2006 | DÉMO | Mariages homosexuels : débat parlementaire | ⚠️ |
+| 2006 | DÉMO | Taux de fécondité : 2,0 enfants par femme | ⚠️ |
+| 2006 | MÉD | Lancement de France 24 : télévision d'information | ✅ |
+| 2006 | MÉD | Libération : plan social, licenciements | ❌ |
+| 2006 | ÉDU | Bac : taux de réussite 82,5 % | ⚠️ |
+| 2006 | ÉDU | Réforme de l'université (LRU) débattue | ⚠️ |
+| 2006 | ÉCO | Seule année depuis 21 ans où la France respecte le seuil de déficit de 3% du PIB | ⚠ |
+| 2006 | ÉCO | AN Conseil fondée par Alla Poedie — business ex-URSS (Russie, Ukraine, Kazakhstan) | ⚠ |
 ### 2007
 
 | Année | Dimension | Description | Code |
@@ -2201,6 +2935,31 @@
 | 2007 | SCI | Prix Nobel de la paix attribué au GIEC et Al Gore | ✅ |
 | 2007 | MÉD | Nicolas Sarkozy : rupture télévisuelle, privé-public | ⚠ |
 
+| 2007 | POL | **Sarkozy élu — rupture annoncée** | Attentes, déception rapide |
+| 2007 | ÉDU | Loi LRU — autonomie universités | Précarisation fac |
+| 2007 | SOC | **Bouclier fiscal — cadeau aux riches** | Injustice fiscale |
+| 2007 | IMM | Loi Hortefeux II — tests ADN familles (retrait) | Stigmatisation |
+| 2007 | AGR | **Rapport algues vertes — enterré par préfecture Bretagne** | Crime environnemental |
+| 2007 | SPO | Dopage — Lance Armstrong toujours champion | Mensonge mondial |
+| 2007 | CUL | **Loi Hadopi — répression téléchargement** | Censure |
+| 2007 | POL | Nicolas Sarkozy élu président 53,06% (6 mai) | Rupture |
+| 2007 | ENV | Grenelle Environnement (oct) | Promesses |
+| 2007 | ÉDU | Loi LRU autonomie universités | Précarisation fac |
+| 2007 | ÉCO | Loi TEPA bouclier fiscal | Cadeau riches |
+| 2007 | TRA | Lancement Vélib' Paris (15 juil) | Mobilité douce |
+| 2007 | JUR | Affaire Guy Georges procès (mars) | Tueur en série |
+| 2007 | JUR | Loi récidive peine plancher | Durcissement |
+| 2007 | ÉCO | Grève SNCF transports (oct-nov) paralysie | ⚠️ |
+| 2007 | SPO | France 4e Coupe monde rugby | Déception |
+| 2007 | TRA | Ouverture LGV Est européenne (10 juin) | TGV |
+| 2007 | ÉCO | Loi TEPA : bouclier fiscal, heures supplémentaires défiscalisées | ❌ |
+| 2007 | ÉCO | Fusion GDF-Suez finalisée | ❌ |
+| 2007 | ÉCO | Création de l'Agence des Participations de l'État | ⚠️ |
+| 2007 | ÉCO | Scandale Société Générale : Jérôme Kerviel perte 4,9 milliards € | ❌ |
+| 2007 | MÉD | Nicolas Sarkozy : rupture télévisuelle, privé-public | ⚠️ |
+| 2007 | ÉDU | Dictée CM2 DEPP : 14,7 erreurs | ❌ |
+| 2007 | ÉDU | Début suppression postes enseignants : 120 000 supprimés d'ici 2022 | ❌ |
+| 2007 | ÉDU | 120 000 postes d'enseignants supprimés | ❌ |
 ### 2008
 
 | Année | Dimension | Description | Code |
@@ -2251,6 +3010,31 @@
 | 2008 | SCI | LHC au CERN : premières collisions de particules | ✅ |
 | 2008 | MÉD | Réforme de l'audiovisuel public : pub supprimée le soir | ❌ |
 
+| 2008 | ÉCO | **Crash Lehman Brothers — crise financière mondiale** | Système capitaliste faillite |
+| 2008 | ÉCO | **Plan sauvetage banques françaises — 360 Md€** | Socialisation pertes |
+| 2008 | ÉCO | **Aucune banquerie, aucun procès** | Impunité financière |
+| 2008 | SPO | Dopage — JO Pékin, laissez-passer général | Dopage organisé |
+| 2008 | IMM | **Loi Besson — rétention immigration** | Détention |
+| 2008 | AGR | **Rapport sur l'amiante enterré Éducation nationale** | Crimes continuent |
+| 2008 | REL | **Benoît XVI — pèlerinage Lourdes** | Hors sol |
+| 2008 | ÉCO | Crise financière : faillite Lehman Brothers (15 sept) | Crise mondiale |
+| 2008 | ÉCO | Plan sauvetage banques françaises 360 Md€ | Socialisation pertes |
+| 2008 | ÉCO | Aucune poursuite bancaire | Impunité |
+| 2008 | POL | Révision constitutionnelle (23 juil) | Modernisation |
+| 2008 | JUR | Rapport Attali : 316 décisions libérales | Programme |
+| 2008 | JUR | Procès AZF (23 fév) | Catastrophe industrielle |
+| 2008 | SPO | France 4e Mondial handball | ⚠️ |
+| 2008 | SOC | Grève générale La Poste | ⚠️ |
+| 2008 | TEC | Hadopi loi répression téléchargement (création) | Censure |
+| 2008 | ÉCO | Plan de relance français de 26 milliards d'euros | ⚠️ |
+| 2008 | ÉCO | Loi de modernisation de l'économie (LME) adoptée | ⚠️ |
+| 2008 | ÉCO | Effondrement du CAC 40 : -42,7 % sur l'année | ❌ |
+| 2008 | ÉCO | Chômage repasse au-dessus de 2 millions de chômeurs | ❌ |
+| 2008 | ÉCO | Aide aux banques : 360 milliards € de garanties de l'État | ✅ |
+| 2008 | MÉD | Réforme de l'audiovisuel public : pub supprimée le soir | ❌ |
+| 2008 | DÉMO | Population France : 64,3 millions d'habitants | ⚠️ |
+| 2008 | ÉCO | Création du réseau Peppol avec financement de la Commission européenne | ⚠ |
+| 2008 | ÉCO | Sardex (Sardaigne) créé ; en 2023 : 5 000 entreprises, 500 M€ de volume d'échanges | ✅ |
 ### 2009
 
 | Année | Dimension | Description | Code |
@@ -2292,6 +3076,30 @@
 | 2009 | SCI | Premier Français né d'une greffe d'utérus | ✅ |
 | 2009 | DIP | Lionel Jospin: « La réintégration dans l'OTAN a brisé consensus gaullien » | ⚠ |
 
+| 2009 | SANT | **Grippe H1N1 — France commande 94M vaccins (gaspillage)** | Gestion panique |
+| 2009 | SANT | **Pandémie préparée par lobby pharma** | Conflit d'intérêt |
+| 2009 | AGR | **Algues vertes — mort d'un cheval, cavalier dans coma** | Crime environnemental |
+| 2009 | SOC | Chômage 9.5% — crise économique | Précarité |
+| 2009 | ÉDU | **Rapport PISA 2009 — France chute en maths** | Éducation en crise |
+| 2009 | SPO | Dopage — affaire Contador (contrôlé positif, blanchi) | Système |
+| 2009 | SANT | Pandémie H1N1 commande 94M vaccins gaspillage | Gestion lobby pharma |
+| 2009 | ENV | Tempête Xynthia (28 fév) 53 morts | Catastrophe littoral |
+| 2009 | ÉCO | Plan relance 26 Md€ (fév) | Keynes |
+| 2009 | ÉDU | Réforme Darcos contestée | Grèves |
+| 2009 | ENV | Conférence Copenhague climat (déc) | Échec mondial |
+| 2009 | SPO | France 4e Mondial handball | ⚠️ |
+| 2009 | TEC | Free décodeur TV lancement | Box triple play |
+| 2009 | CUL | Disparition culture papier presse en crise | ❌ |
+| 2009 | ÉCO | PIB : -2,7 %, récession historique en France | ❌ |
+| 2009 | ÉCO | Fin du bouclier fiscal réaménagé | ❌ |
+| 2009 | ÉCO | Création du Fonds stratégique d'investissement (FSI) | ✅ |
+| 2009 | ÉDU | Réforme du lycée : suppression des filières | ❌ |
+| 2009 | ÉDU | Masterisation formation enseignants (IUFM supprimés) | ❌ |
+| 2009 | DÉMO | Baisse de la natalité : indice à 1,99 enfant par femme | ⚠️ |
+| 2009 | ÉCO | Taxe carbone invalidée par le Conseil constitutionnel | ❌ |
+| 2009 | ÉCO | Première procédure de déficit excessif ouverte contre France (close 2018) | ❌ |
+| 2009 | ÉCO | Emploi chez Exane BNP Paribas comme économiste junior | ⚠ |
+| 2009 | POL | Global Warming Policy Foundation fondé par l'ex-chancelier britannique Nigel Lawson | ❌ |
 ### 2010
 
 | Année | Dimension | Description | Code |
@@ -2339,6 +3147,26 @@
 | 2010 | MÉD | Loi sur le secret des sources pour les journalistes | ✅ |
 | 2010 | TER | Victime décrit calvaire dans fauteuil dentaire sous serment | 💀 |
 
+| 2010 | SOC | **Réforme retraites Sarkozy — 60→62 ans** | Régression sociale |
+| 2010 | POL | **Grèves masse — paralysie, mais loi passe** | Syndicats faiblissent |
+| 2010 | POL | Affaire Woerth-Bettencourt — financement politique | Corruption |
+| 2010 | IMM | **Loi Besson II — immigration clandestine** | Répression |
+| 2010 | AGR | **Algues vertes — rapport parlementaire enterré** | Crime |
+| 2010 | SPO | Dopage — Contador suspendu 2 ans (léger) | Sanction au rabais |
+| 2010 | TEC | Monoprix — data breach (précurseur) | Données vulnérables |
+| 2010 | SOC | Réforme retraites Sarkozy 60→62 ans | Grèves massives |
+| 2010 | SOC | Blocage raffineries dépénalisation pénurie essence | Paralysie |
+| 2010 | JUR | Loi interdiction voile intégral (11 oct) | Débat burqa |
+| 2010 | SPO | Knysna : grève joueurs Coupe monde Afrique Sud | Humiliation |
+| 2010 | ENV | Grenelle II loi engagement national environnement | Appliquée |
+| 2010 | TEC | Lancement Freebox V5 Révolution | Fibre |
+| 2010 | ÉCO | Crise dette grecque impact France | ❌ |
+| 2010 | ÉCO | Loi de réforme des collectivités territoriales | ❌ |
+| 2010 | ÉCO | Grand Emprunt 35 milliards € pour investissement | ✅ |
+| 2010 | ÉDU | Suppressions massives de postes dans l'Éducation nationale | ❌ |
+| 2010 | ÉDU | Réforme du lycée professionnel | ❌ |
+| 2010 | MÉD | Loi sur le secret des sources pour les journalistes | ✅ |
+| 2010 | ÉCO | Loi NOME créant l'ARENH : EDF forcé de vendre 100 TWh à 42 €/MWh | ❌ |
 ### 2011
 
 | Année | Dimension | Description | Code |
@@ -2379,6 +3207,25 @@
 | 2011 | DÉMO | Population : 65,3 millions d'habitants | ⚠ |
 | 2011 | TRA | Accident TGV : déraillement à 270 km/h (test) | ⚠ |
 
+| 2011 | SANT | **Médiator — 500 morts, Servier protégé** | Scandale pharma |
+| 2011 | SANT | **AFSSAPS — infiltrée par Servier, 8/15 experts mis en examen** | Capture régulatoire |
+| 2011 | SANT | **Rapport IGAS repoussoir — enterré** | Crime d'État |
+| 2011 | IMM | Loi Guéant — régularisation limitée | Blocage |
+| 2011 | POL | Printemps arabes — France soutient dictatures (hésitation) | Diplomatie hypocrite |
+| 2011 | SPO | Dopage — Contador déchu, mais pas Armstrong | Protégé |
+| 2011 | CUL | **Fermeture chaîne publique (France Ô?)** | Désengagement |
+| 2011 | POL | Affaire DSK (14 mai) | Choc politico-médiatique |
+| 2011 | JUR | Médiator : 500 morts, AFSSAPS infiltrée Servier | Scandale pharma |
+| 2011 | MIL | Opération Harmattan Libye (19 mars) | Engagement |
+| 2011 | POL | Marine Le Pen élue présidente FN (16 jan) | Nouveau FN |
+| 2011 | ÉCO | Crise dette souveraine | Austérité |
+| 2011 | SPO | France championne du monde handball | ✅ |
+| 2011 | ÉCO | Passage à l'euro en Estonie (zone euro élargie) | ⚠️ |
+| 2011 | ÉCO | Crise de la dette zone euro : plan de soutien | ❌ |
+| 2011 | ÉDU | Création des ESPÉ (Écoles supérieures du professorat) | ❌ |
+| 2011 | DÉMO | Population : 65,3 millions d'habitants | ⚠️ |
+| 2011 | POL | François Hollande annonce la fermeture de Fessenheim dans le cadre de sa campagne présidentielle | ❌ |
+| 2011 | POL | Pacte électoral Hollande-Verts prévoit réduire part du nucléaire à 50% et fermer 24 réacteurs | ❌ |
 ### 2012
 
 | Année | Dimension | Description | Code |
@@ -2423,6 +3270,27 @@
 | 2012 | SCI | Découverte du boson de Higgs au CERN | ✅ |
 | 2012 | DIP | Traité sur la Stabilité, Coordination et Gouvernance (TSCG): constitutionnalise règle d'équilibre budgétaire | ❌ |
 
+| 2012 | POL | **Hollande élu — « mon ennemi c'est la finance »** | Espoir |
+| 2012 | POL | **RAS — aucun changement systémique** | Promesses non tenues |
+| 2012 | ÉDU | Loi Peillon — refondation école (moyen) | Pas de changement |
+| 2012 | SANT | Médiator — premières condamnations (légères) | Justice molle |
+| 2012 | IMM | Loi Valls I (circulaire) | Manque de cohérence |
+| 2012 | SPO | **Dopage — Armstrong DÉCHU (enfin)** | 15 ans de mensonge |
+| 2012 | AGR | PAC réforme 2013 — aides vertes symboliques | Pas de transition |
+| 2012 | POL | François Hollande élu 51,64% (6 mai) | Alternance |
+| 2012 | TER | Tuerie Merah Toulouse Montauban (11-22 mars) 7 morts | Terrorisme djihadiste |
+| 2012 | ÉCO | Création CICE crédit impôt compétitivité | Cadeau entreprises |
+| 2012 | TEC | Free Mobile lancement (10 jan) | Révolution téléphonie |
+| 2012 | SPO | JO Londres : France 7e | ⚠️ |
+| 2012 | JUR | Loi AME (aide médicale État) restreinte | ❌ |
+| 2012 | ENV | Création Banque publique investissement BPI | ✅ |
+| 2012 | ÉCO | Pacte de compétitivité : Crédit d'Impôt Compétitivité Emploi | ⚠️ |
+| 2012 | ÉCO | Taxe à 75 % sur les très hauts revenus annoncée | ❌ |
+| 2012 | ÉCO | Création de la Banque Publique d'Investissement (BPI) | ✅ |
+| 2012 | ÉCO | Hausse du chômage : 10,2 % de la population active | ❌ |
+| 2012 | ÉDU | Rentrée scolaire : 14 000 suppressions de postes annulées partiellement | ✅ |
+| 2012 | ÉDU | Loi sur la refondation de l'École préparée | ⚠️ |
+| 2012 | ÉCO | Notation France dégradée de AAA à A+ (S&P) | ❌ |
 ### 2013
 
 | Année | Dimension | Description | Code |
@@ -2466,6 +3334,29 @@
 | 2013 | MIL | Opération Serval au Mali | ⚠ |
 | 2013 | SCI | Cérémonie du 50e anniversaire du CNES | ⚠ |
 
+| 2013 | SOC | **Loi Taubira — mariage pour tous** | Progrès social |
+| 2013 | SOC | **Manif pour tous — 1M dans rue** | Fracture sociétale |
+| 2013 | MIL | **Guerre Mali — Serval (succès)** | Succès militaire |
+| 2013 | JUR | **Loi bancaire — séparation banque (coquille vide)** | Rien changé |
+| 2013 | AGR | **ESB dernier cas France (2001 en fait) — 23 ans après** | Fin de crise |
+| 2013 | IMM | Loi Valls II — expulsions renforcées | ❌ |
+| 2013 | SPO | **Putin — JO Sotchi 2014, dopage d'État** | Dopage institutionnel |
+| 2013 | CUL | **Loi sur l'enseignement supérieur — Fioraso** | Moyens insuffisants |
+| 2013 | SOC | Loi Taubira mariage pour tous (23 avril) | Progrès sociétal |
+| 2013 | SOC | Manif pour tous 1 M dans rue | Fracture |
+| 2013 | JUR | Affaire Cahuzac : fraude fiscale ministre budget (avril) | Scandale |
+| 2013 | MIL | Opération Serval Mali (11 jan) | Succès militaire |
+| 2013 | ÉDU | Réforme rythmes scolaires Peillon | Contestation |
+| 2013 | TEC | Rapport Lescure Acte II exception culturelle | Numérique |
+| 2013 | ÉCO | Taxe à 75 % invalidée par Conseil constitutionnel | ❌ |
+| 2013 | ÉCO | Crédit d'Impôt Compétitivité Emploi (CICE) mis en place | ⚠️ |
+| 2013 | ÉCO | Pacte de responsabilité annoncé par Hollande | ⚠️ |
+| 2013 | ÉCO | Chômage à 10,5 % : record | ❌ |
+| 2013 | ÉDU | Loi Peillon sur la refondation de l'École | ✅ |
+| 2013 | ÉDU | Création des rythmes scolaires (semaine de 4,5 jours) | ❌ |
+| 2013 | ÉDU | Réforme des rythmes scolaires appliquée | ❌ |
+| 2013 | ÉCO | CICE commence: ~100 Md€ entre 2013 et 2018 (Cour des comptes) | ⚠ |
+| 2013 | SANT | 4 000 décès prématurés par an en Europe attribuables aux particules fines (PM2,5) émises par l'aviation (Stettler et al., Nature Climate Change, 2013, DOI 10.1038/nclimate1964) | 💀 |
 ### 2014
 
 | Année | Dimension | Description | Code |
@@ -2533,6 +3424,35 @@
 | 2014 | TRA | Réforme ferroviaire adoptée | ❌ |
 | 2014 | MIL | Lancement opération Barkhane (Sahel, 5 500 soldats) | ❌ |
 
+| 2014 | POL | **Défaite PS municipales — abstention 37%** | Désaveu |
+| 2014 | ÉCO | **Pacte de responsabilité — 40 Md€ cadeaux entreprises** | Austérité sociale |
+| 2014 | ÉDU | Loi Fioraso — réforme université | Moyens réduits |
+| 2014 | IMM | Loi ALUR — logement | Insuffisant |
+| 2014 | SPO | **JO Sotchi — dopage d'État russe** | Scandale |
+| 2014 | AGR | **Loi d'avenir agricole — sans transition** | Occasion perdue |
+| 2014 | JUR | **Condamnation France CEDH pour détention abusive** | Prisons indignes |
+| 2014 | REL | **Pape François — « qui suis-je pour juger »** | Ouverture |
+| 2014 | ÉCO | Pacte responsabilité 40 Md€ cadeaux entreprises | Austérité sociale |
+| 2014 | POL | Valls PM remplace Ayrault (31 mars) | Virage social-libéral |
+| 2014 | POL | Défaite PS municipales : FN 1er parti dans 14 villes | Percée FN |
+| 2014 | JUR | Affaire Bygmalion : financement campagne Sarkozy | Scandale |
+| 2014 | TEC | Netflix arrive en France (15 sept) | Streaming |
+| 2014 | SOC | Loi ALUR logement | Insuffisant |
+| 2014 | SPO | France pas qualifiée Coupe monde Brésil ? si | ✅ |
+| 2014 | ÉCO | Pacte de responsabilité adopté | ⚠️ |
+| 2014 | ÉCO | Loi Macron pour la croissance et l'activité préparée | ⚠️ |
+| 2014 | ÉCO | Chômage : 3,5 millions en France métropolitaine | ❌ |
+| 2014 | ÉCO | Croissance atone : 0,6 % du PIB | ❌ |
+| 2014 | ÉCO | CICE : 20 milliards d'euros de crédit d'impôt | ⚠️ |
+| 2014 | DÉMO | Population : 66 millions d'habitants | ⚠️ |
+| 2014 | ÉCO | Vente Alstom-GE : 12,35 Mds€, perte souveraineté nucléaire française | 💀 |
+| 2014 | ÉCO | Dette publique dépasse 100% du PIB | ❌ |
+| 2014 | ÉCO | Jean-Bernard Lévy PDG EDF : dette passe de 37 à 65 Md€ | ❌ |
+| 2014 | ÉCO | RN contracte prêt 11M€ auprès First Czech-Russian Bank (banque russe) | ❌ |
+| 2014 | ÉCO | Alstom : vente branche énergie à General Electric validée par Macron ministre, perte de souveraineté nucléaire (turbines Arabelle) | 💀 |
+| 2014 | ÉCO | Banque d'Angleterre confirme que les banques créent la monnaie ex nihilo | ⚠ |
+| 2014 | ÉCO | Richard Werner démontre expérimentalement : emprunte 200 000 € à une banque, dépôt créé sans transfert depuis un autre compte | ⚠ |
+| 2014 | ÉDU | Master en administration publique de la Harvard Kennedy School | ⚠ |
 ### 2015
 
 | Année | Dimension | Description | Code |
@@ -2599,6 +3519,36 @@
 | 2015 | MIL | Vente 36 Rafale au Qatar | ✅ |
 | 2015 | MÉD | EU Internet Forum créé après Charlie Hebdo, étendu au contenu « frontal » | ❌ |
 
+| 2015 | POL | **7-9 janvier — Charlie Hebdo, Hyper Cacher** | Choc terroriste |
+| 2015 | POL | **13 novembre — attentats Paris (130 morts)** | Traumatisme national |
+| 2015 | POL | **État d'urgence permanent — 2 ans** | Libertés suspendues |
+| 2015 | SOC | **Loi Macron — travail dimanche, code travail** | Libéralisation |
+| 2015 | IMM | Loi Barnier | Blocage |
+| 2015 | SPO | **Scandale FIFA — corruption** | Sport mondial corrompu |
+| 2015 | AGR | **COP21 — accord Paris, France championne** | Diplomatie climat |
+| 2015 | AGR | **Aucune application réelle** | Greenwashing |
+| 2015 | TER | Attentats Charlie Hebdo (7-9 jan) 17 morts | Choc |
+| 2015 | TER | Attentats 13 novembre Paris 130 morts | Traumatisme |
+| 2015 | POL | État d'urgence permanent (14 nov) 2 ans | Libertés suspendues |
+| 2015 | ENV | COP21 Accord Paris (12 déc) | Diplomatie climat |
+| 2015 | ÉCO | Loi Macron travail dimanche | Libéralisation |
+| 2015 | JUR | Loi renseignement surveillance massive | Libertés |
+| 2015 | IMM | Crise migrants Calais « Jungle » | Conditions indignes |
+| 2015 | SPO | France championne du monde handball | ✅ |
+| 2015 | ÉCO | Loi Macron promulguée | ⚠️ |
+| 2015 | ÉCO | Croissance 1,1 % du PIB | ⚠️ |
+| 2015 | ÉCO | Grève des taxis contre UberPop | ⚠️ |
+| 2015 | ÉCO | Lancement de la French Tech | ✅ |
+| 2015 | ÉCO | Baisse du chômage : premier signe | ⚠️ |
+| 2015 | ÉDU | Réforme du collège : nouveau programme contesté | ❌ |
+| 2015 | ÉDU | Rythmes scolaires généralisés | ❌ |
+| 2015 | ÉCO | Sept : Hollande rencontre Jeffrey Immelt (CEO GE) à Belfort pour garantir promesses | ⚠️ |
+| 2015 | ÉCO | Alstom vendu à General Electric sous pression DoJ US, 772 M$ amende FCPA | ❌ |
+| 2015 | ÉCO | Patrick Kron : 4-6,5 M€ prime + 10,5 M€ retraite chapeau après vente Alstom | ❌ |
+| 2015 | ÉDU | EMC (Éducation Morale et Civique) obligatoire 1h/semaine collège | ⚠ |
+| 2015 | ÉDU | Dictée CM2: 18 erreurs (+68% vs 1987) | ❌ |
+| 2015 | MÉD | EU Internet Forum créé après Charlie Hebdo, étendu au contenu « frontal » | ❌ |
+| 2015 | JUR | Loi de Transition Énergétique (Ségolène Royal) plafonne la capacité de production nucléaire française | ❌ |
 ### 2016
 
 | Année | Dimension | Description | Code |
@@ -2667,6 +3617,29 @@
 | 2016 | TRA | Grève des transports contre loi Travail | ⚠ |
 | 2016 | MIL | Vente 36 Rafale à l'Inde | ✅ |
 
+| 2016 | POL | **Loi Travail El Khomri — 49.3, manifestations géantes** | Démocratie autoritaire |
+| 2016 | SOC | **Nuit Debout — mouvement inabouti** | Impuissance citoyenne |
+| 2016 | JUR | **Loi sur la moralisation vie publique — TONTON flingué** | Méfiance |
+| 2016 | IMM | **Loi immigration « intégration républicaine »** | Peu de résultats |
+| 2016 | SPO | **Euro 2016 — succès** | Unité temporaire |
+| 2016 | AGR | **Loi EGA (alimentation) promesse non tenue** | Occasion perdue |
+| 2016 | CUL | **Loi numérique (répressive)** | Libertés |
+| 2016 | SOC | Loi Travail El Khomri 49.3 | Passage en force |
+| 2016 | SOC | Nuit Debout (31 mars) | Mouvement place République |
+| 2016 | TER | Attentat Nice (14 juil) 86 morts | Camion bélier |
+| 2016 | POL | Affaire Benalla (juillet) | Scandale Élysée |
+| 2016 | TEC | Loi République numérique | Innovation |
+| 2016 | SPO | Euro 2016 France finaliste | ✅ |
+| 2016 | ENV | Loi biodiversité | ⚠️ |
+| 2016 | JUR | Loi sur la moralisation vie publique | ❌ |
+| 2016 | ÉCO | Loi Croissance, Activité (Macron) | ⚠️ |
+| 2016 | ÉCO | Création de la Banque Postale | ⚠️ |
+| 2016 | ÉCO | Croissance 1,2 % du PIB | ⚠️ |
+| 2016 | ÉCO | CICE : 20 Mds € distribués | ⚠️ |
+| 2016 | ÉDU | Réforme du collège appliquée : polémique | ❌ |
+| 2016 | ÉDU | Loi pour une École de la confiance | ⚠️ |
+| 2016 | TEC | Brevet US9526216B2 (Elwha LLC) : système de formation nuageuse par émission de particules chargées | ⚠ |
+| 2016 | ÉCO | Le Forum économique mondial publie « You will own nothing » | ❌ |
 ### 2017
 
 | Année | Dimension | Description | Code |
@@ -2765,6 +3738,39 @@
 | 2017 | MÉD | 14 catégories de contenus surveillés dont satire politique | ❌ |
 | 2017 | MÉD | Transformation i-Télé en CNews | ❌ |
 
+| 2017 | POL | **Macron élu — 66% contre Le Pen** | Soulagement |
+| 2017 | POL | **Abstention record 25.4% premier tour** | Désintérêt |
+| 2017 | POL | **Macron — LREM majorité absolue** | Pouvoir fort |
+| 2017 | SOC | **Ordonnances Macron code travail** | Libéralisation |
+| 2017 | ÉDU | **Réforme Blanquer — bac nouveau (enterré)** | Usine à gaz |
+| 2017 | IMM | **Loi Collomb — immigration, asile** | Répression |
+| 2017 | SPO | **JO Paris 2024 — attribués** | Espoir sport |
+| 2017 | AGR | **Loi EGALIM née** | Insuffisante |
+| 2017 | POL | Macron élu 66,1% (7 mai) | Renouveau |
+| 2017 | POL | LREM majorité absolue législatives | Pouvoir |
+| 2017 | SOC | Ordonnances Macron code travail (22 sept) | Libéralisation |
+| 2017 | ÉCO | ISF→IFI flat tax 30% | Cadeau riches |
+| 2017 | ENV | Plan climat Hulot (6 juil) | Promesses |
+| 2017 | ÉDU | Réforme bac Blanquer | Usine gaz |
+| 2017 | SPO | JO 2024 attribués à Paris | Espoir |
+| 2017 | IMM | Loi Collomb asile immigration | Répression |
+| 2017 | ÉCO | Loi PACTE : réforme de l'entreprise | ⚠️ |
+| 2017 | ÉCO | Loi de finances : baisse impôt sur les sociétés | ✅ |
+| 2017 | ÉCO | Croissance 2,3 % du PIB | ✅ |
+| 2017 | ÉCO | CICE transformé en baisse de charges durables | ✅ |
+| 2017 | ÉCO | 60 milliards d'€ de baisse de charges annoncée | ✅ |
+| 2017 | ÉDU | Réforme des rythmes scolaires (retour à 4 jours possible) | ❌ |
+| 2017 | ÉDU | Loi sur la liberté de choisir son avenir professionnel | ⚠️ |
+| 2017 | ÉCO | Taux IS passe de 33,3% à 25% (grandes entreprises), 15% (PME) | ⚠ |
+| 2017 | ÉCO | Baisses d'impôts depuis 2017: 62 Md€ recettes non perçues en 2023 (Cour des comptes) | ❌ |
+| 2017 | ÉCO | Solde primaire déficitaire depuis 2017 (Cour des comptes) | ❌ |
+| 2017 | ÉCO | Spread OAT/Bund: 35 pb en 2017 | ⚠ |
+| 2017 | ÉCO | 200 000 emplois industriels supplémentaires perdus depuis 2017 | ❌ |
+| 2017 | MÉD | Transformation i-Télé en CNews | ❌ |
+| 2017 | ÉDU | 350 000 enfants suivis par ASE | ⚠ |
+| 2017 | MÉD | 14 catégories de contenus surveillés dont satire politique | ❌ |
+| 2017 | ÉCO | Autorisation vente branche énergie Alstom (turbines Arabelle) à General Electric — perte contrôle maintenance centrales nucléaires | 💀 |
+| 2017 | POL | Emmanuel Macron confirme la fermeture de Fessenheim lors de sa campagne présidentielle | ❌ |
 ### 2018
 
 | Année | Dimension | Description | Code |
@@ -2836,6 +3842,35 @@
 | 2018 | MÉD | Emmanuelle Ducros rémunérée par la FNSEA/FEB (boulangerie) pour conférences en 2018, interviewe ensuite les mêmes lobbys | ❌ |
 | 2018-2019 | TER | Bilan Gilets Jaunes : 30 éborgnés, 5 mains arrachées, milliers de blessés, gardes à vue préventives par milliers | 💀 |
 
+| 2018 | SOC | **17 novembre — Gilets Jaunes acte I** | Fracture sociale ouverte |
+| 2018 | SOC | **Gilets Jaunes — 89 morts, 2500 blessés, 15000 gardes à vue** | Violence d'État |
+| 2018 | POL | **Grand Débat National — enterré** | Paroles sans actes |
+| 2018 | ÉDU | **PISA 2018 — France chute encore** | École en crise |
+| 2018 | SPO | **Mondial Russie — France championne** | Victoire |
+| 2018 | AGR | **Loi ELAN — logement libéralisation** | Spéculation |
+| 2018 | IMM | **Affaire Aquarius — France ferme port** | Cruauté |
+| 2018 | ENV | **Rapport GIEC — CO2 record, France pas en trajectoire** | Climat |
+| 2018 | SOC | Gilets Jaunes acte I (17 nov) | Fracture sociale |
+| 2018 | SOC | 89 morts 2500 blessés GJ | Violence État |
+| 2018 | POL | Affaire Benalla (juillet) | Scandale |
+| 2018 | SPO | France championne monde foot (15 juil) | Victoire |
+| 2018 | ÉDU | PISA 2018 France chute | École crise |
+| 2018 | TRA | Réforme SNCF ouverture concurrence | ❌ |
+| 2018 | ENV | Rapport GIEC CO2 record France pas trajectoire | 💀 |
+| 2018 | ÉCO | Loi PACTE adoptée | ⚠️ |
+| 2018 | ÉCO | Transformation CICE en baisse de charges | ✅ |
+| 2018 | ÉCO | Croissance 1,9 % du PIB | ⚠️ |
+| 2018 | ÉCO | Grève des Gilets jaunes : économie impactée | ❌ |
+| 2018 | ÉCO | Loi 2018-120: flat tax 30% sur revenus capital vs 45-50% sur travail | ❌ |
+| 2018 | ÉCO | ISF (5 Md€/an) remplacé par IFI (1,3 Md€/an), différence ~4 Md€/an | ❌ |
+| 2018 | ÉCO | Instauration de la flat tax à 30 % sur les revenus du capital | ❌ |
+| 2018 | ÉCO | Suppression de l'ISF sur le capital mobilier | ❌ |
+| 2018 | ÉDU | Lancement Parcoursup | ❌ |
+| 2018 | ÉDU | Parcoursup lancé | ⚠ |
+| 2018 | ÉCO | Entre 2018 et 2022, l'État français attribue plus d'un milliard d'euros de contrats de conseil à des cabinets privés (Sénat) | ❌ |
+| 2018 | MÉD | Emmanuelle Ducros rémunérée par la FNSEA/FEB (boulangerie) pour conférences en 2018, interviewe ensuite les mêmes lobbys | ❌ |
+| 2018 | ÉCO | Suisse : initiative Vollgeld (monnaie pleine) soumise au vote, rejetée à 71% | ❌ |
+| 2018 | MÉD | Emmanuelle Ducros reçoit le « Citi Journalistic Excellence Award » 2018, prix parrainé par Citibank récompensant les narratifs pro-marchés financiers | ❌ |
 ### 2019
 
 | Année | Dimension | Description | Code |
@@ -2909,6 +3944,31 @@
 | 2019 | MÉD | 55 pays, 12 plateformes (mai 2019) | ❌ |
 | 2019 | TER | Alexander Acosta, signataire NPA, invoque raison d'État | ❌ |
 
+| 2019 | POL | **Grand Débat — aucune loi issue** | Démocratie simulacre |
+| 2019 | SOC | **Loi PACTE — privatisations** | Désengagement État |
+| 2019 | IMM | **Loi asile-immigration — durcissement** | ❌ |
+| 2019 | SPO | **Dopage — Russie exclue JO Tokyo** | Sanction tardive |
+| 2019 | AGR | **Loi EGALIM 2 — promesses rémunération paysan** | Rien |
+| 2019 | SANT | **Incendie Notre-Dame — 1 Md€ dons en 24h** | Priorités |
+| 2019 | TEC | **RGPD européen — France en retard** | Protection données |
+| 2019 | CUL | **Réforme audiovisuel public — menace** | ❌ |
+| 2019 | POL | Grand débat national entérré (janv-mars) | Simulacre |
+| 2019 | CUL | Incendie Notre-Dame (15 avril) | Patrimoine |
+| 2019 | ENV | Record chaleur 46°C (28 juin) | Canicule |
+| 2019 | SOC | Grève retraites 47 jours (5 déc-31 janv) | Paralysie |
+| 2019 | ENV | Lubrizol incendie Rouen (26 sept) | Pollution |
+| 2019 | IMM | Loi asile immigration durcissement | ❌ |
+| 2019 | ÉCO | Loi PACTE en application | ⚠️ |
+| 2019 | ÉCO | Réforme de l'assurance chômage | ❌ |
+| 2019 | ÉCO | Croissance 1,8 % du PIB | ⚠️ |
+| 2019 | ÉDU | Réforme Blanquer : bac nouveau | ❌ |
+| 2019 | ÉDU | Parcoursup : tensions à l'entrée université | ❌ |
+| 2019 | ÉCO | OuvLux: Luxembourg 80 000 sociétés écrans, 340/500 plus grandes entreprises françaises | ❌ |
+| 2019 | ÉCO | CICE transformé en baisse de charges (~20 Md€/an) | ⚠ |
+| 2019 | MÉD | 55 pays, 12 plateformes (mai 2019) | ❌ |
+| 2019 | ÉCO | Mars 2019 : contrat BCG de 358 200 € avec l'État pour "améliorer l'accueil téléphonique des services publics" | ❌ |
+| 2019 | POL | Clintel fondé aux Pays-Bas par le géophysicien Guus Berkhout ; internationalise le déni via sa World Climate Declaration | ❌ |
+| 2019 | SCI | Yves Bréchet (Académie des Sciences) qualifie l'abandon d'ASTRID d'"étude de cas de disparition de l'État stratégique" | ❌ |
 ### 2020
 
 | Année | Dimension | Description | Code |
@@ -2990,6 +4050,35 @@
 | 2020 | MÉD | Emmanuelle Ducros devient éditorialiste au Point et chroniqueuse sur France Culture, promouvant une ligne pro-industrie sous couvert de rationalisme scientifique | ⚠ |
 | 2020 | TER | Middle East Eye révèle document FBI | ❌ |
 
+| 2020 | SANT | **COVID-19 — 165 000 morts France (mais sous-estimé)** | Pandémie mal gérée |
+| 2020 | SANT | **Confinement — écoles fermées 10 semaines** | Perte éducative |
+| 2020 | SANT | **Pénurie masques — aucun stock** | Négligence criminelle |
+| 2020 | SANT | **Masques — aucun stock depuis 2011** | Crime |
+| 2020 | SOC | **Chômage partiel massif — 15M de salariés** | Économie paralysée |
+| 2020 | ÉDU | **Loi de programmation recherche — moyens insuffisants** | ❌ |
+| 2020 | IMM | **Confinement sans papiers — abandonnés** | Cruauté |
+| 2020 | CUL | **Loi séparatisme — musulmans visés** | Stigmatisation |
+| 2020 | SANT | COVID confinement (17 mars-11 mai) | Perte éducative |
+| 2020 | SANT | Pénurie masques aucun stock | Négligence |
+| 2020 | ÉCO | PIB -8% chômage partiel 8,4 M | Crash |
+| 2020 | TER | Assassinat Samuel Paty (16 oct) | Choc |
+| 2020 | TER | Attentat Nice basilique (29 oct) 3 morts | 💀 |
+| 2020 | TEC | Plan relance France Relance 100 Md€ | Keynes |
+| 2020 | ÉCO | Plan de relance 100 milliards € (France Relance) | ✅ |
+| 2020 | ÉCO | PIB : -8,3 % récession historique | ❌ |
+| 2020 | ÉCO | Chômage partiel massif : 8 millions salariés | ❌ |
+| 2020 | ÉCO | Fermeture des restaurants et bars : crise secteur | ❌ |
+| 2020 | ÉCO | Soutien aux entreprises : prêts garantis État | ✅ |
+| 2020 | ÉDU | Bac 2020 : contrôle continu (COVID) | ❌ |
+| 2020 | ÉDU | Universités : cours à distance, semestre perturbé | ❌ |
+| 2020 | ÉCO | Charge dette: 40 Md€ | ❌ |
+| 2020 | ÉCO | « Loi de protection du pouvoir d'achat » : acte une désindexation de fait des salaires face à l'inflation réelle | ❌ |
+| 2020 | ENV | Centrale de Fessenheim effectivement fermée | ❌ |
+| 2020 | SANT | Dernière estimation mondiale des empoisonnements datait de 1990 ; mise à jour en 2020 : nombre multiplié par quinze | 💀 |
+| 2020 | SANT | Les pesticides empoisonnent 385 millions de personnes par an, soit 44 % des agriculteurs mondiaux | 💀 |
+| 2020 | TEC | Modifier l'altitude de 2 % des vols (ceux traversant les zones propices aux traînées persistantes) réduirait de 80 % le forçage radiatif induit (Teoh et al., Nature Climate Change, 2020, DOI 10.1038/s41558-020-0747-9) | ✅ |
+| 2020 | TEC | Un décalage de 1 000 pieds (300 mètres) suffirait pour éviter la formation de traînées persistantes | ✅ |
+| 2020 | MÉD | Emmanuelle Ducros devient éditorialiste au Point et chroniqueuse sur France Culture, promouvant une ligne pro-industrie sous couvert de rationalisme scientifique | ⚠ |
 ### 2021
 
 | Année | Dimension | Description | Code |
@@ -3090,6 +4179,31 @@
 | 2021 | SCI | Mission Mars 2020 Perseverance | ✅ |
 | 2021-12 | DIP | La Russie avait 100,000 troupes à la frontière avant le refus OTAN | ❌ |
 
+| 2021 | POL | **Réforme retraites Macron — reportée COVID** | Attente |
+| 2021 | SOC | **Loi de programmation justice — prison toujours pleine** | ❌ |
+| 2021 | IMM | **Loi Darmanin immigration — valeurs républicaines** | ❌ |
+| 2021 | SPO | **JO Tokyo reportés — France 8e** | ⚠️ |
+| 2021 | ENV | **Loi Climat — 30% ambités** | Occasion perdue |
+| 2021 | SANT | Pass sanitaire (juillet) | Fracture |
+| 2021 | SANT | Obligation vaccinale soignants (15 sept) | Débats |
+| 2021 | REL | Rapport Sauvé CIASE 330 000 victimes (5 oct) | Chiffre colossal |
+| 2021 | JUR | Loi sécurité globale | Libertés |
+| 2021 | ÉDU | PISA France rechute | 💀 |
+| 2021 | ÉCO | Plan France Relance : 100 milliards en action | ✅ |
+| 2021 | ÉCO | Croissance 6,8 % du PIB (rebond post-COVID) | ✅ |
+| 2021 | ÉCO | Loi Climat et résilience adoptée | ⚠️ |
+| 2021 | ÉDU | Réforme du bac Blanquer appliquée | ❌ |
+| 2021 | ÉDU | Parcoursup : 900 000 candidats | ⚠️ |
+| 2021 | ÉDU | Réforme ENA/INSP: échoué à "casser le moule" (Acteurs Publics) | ❌ |
+| 2021 | ÉCO | Contrats publics conseil: 764 M€ → 2,5 Md€ | ❌ |
+| 2021 | ÉCO | HCSF : taux endettement max 35%, durée 25 ans, apport 10% minimum | ❌ |
+| 2021 | ÉDU | Réforme du bac (contrôle continu instauré) | ⚠ |
+| 2021 | ÉDU | Dictée CM2: 19,4 erreurs (+81% vs 1987) | ❌ |
+| 2021 | ÉDU | Hausse de 81% des erreurs de dictée en CM2 | ❌ |
+| 2021 | ENV | Le CO₂ émis par les réacteurs ne représente que 32 % du forçage radiatif de l'aviation | ❌ |
+| 2021 | ENV | Les oxydes d'azote et les particules de suie représentent le reste du forçage radiatif (hors CO₂ et traînées) | ❌ |
+| 2021 | ENV | Les traînées de condensation et les cirrus induits représentent 57 % du forçage radiatif total de l'aviation (Lee et al., Atmospheric Environment, 2021, DOI 10.1016/j.atmosenv.2021.118731) | ❌ |
+| 2021 | POL | Le régime CORSIA (OACI) ne couvre que les émissions de CO₂ ; les traînées, NOx et suies échappent à toute régulation | ❌ |
 ### 2022
 
 | Année | Dimension | Description | Code |
@@ -3219,6 +4333,51 @@
 | 2022-03 | MÉD | Chaînes TV fusionnées en un « telethon » unique contrôlé par l'État | ❌ |
 | 2022-03 | MÉD | Médias d'opposition fermés ou placés sous tutelle | ❌ |
 
+| 2022 | POL | **Macron réélu — abstention 28%, vote Le Pen 41%** | Démocratie en péril |
+| 2022 | POL | **Majorité relative — paralysie** | Gouvernabilité |
+| 2022 | SOC | **Retraites Macron — 49.3 multiplies** | Passage en force |
+| 2022 | AGR | **Sécheresse — récoltes catastrophiques** | Climat |
+| 2022 | SPO | **JO Paris 2024 — préparatifs chaotiques** | ❌ |
+| 2022 | CUL | **Grève Intermittents spectacle** | ❌ |
+| 2022 | POL | Macron réélu (24 avril) | ✅ |
+| 2022 | POL | Abstention 28% vote Le Pen 41% | 💀 |
+| 2022 | MIL | Guerre Ukraine invasion russe (24 fév) | Choc |
+| 2022 | ÉCO | Inflation 6% | Pouvoir achat |
+| 2022 | ENV | Sécheresse incendies Gironde 20 000 ha | Climat |
+| 2022 | SOC | Grève raffineries pénurie essence (oct) | ⚠️ |
+| 2022 | JUR | Affaire Benalla suite | 💀 |
+| 2022 | ÉCO | Bouclier tarifaire : gaz et électricité plafonnés | ✅ |
+| 2022 | ÉCO | Inflation : 5,2 % sur l'année | ❌ |
+| 2022 | ÉCO | Croissance 2,5 % du PIB | ⚠️ |
+| 2022 | ÉCO | Réforme des retraites : report à 64 ans (préparé) | ❌ |
+| 2022 | ÉCO | Loi pouvoir d'achat adoptée | ⚠️ |
+| 2022 | ÉDU | Réforme des retraites : manifestation enseignants | ⚠️ |
+| 2022 | ÉDU | Bac : taux de réussite 84 % | ⚠️ |
+| 2022 | ÉCO | Record du déficit commercial français : 164 Md€ | ❌ |
+| 2022 | ÉDU | PISA 2022 : France perd 43 points en mathématiques (plus forte baisse OCDE), 29 points en lecture | ❌ |
+| 2022 | ÉDU | France 23e en mathématiques, 22e en lecture sur 81 pays PISA | ❌ |
+| 2022 | ÉDU | ~4 700 signalements atteintes à la laïcité | ⚠ |
+| 2022 | ÉCO | BAE Systems: +26% depuis invasion | ⚠ |
+| 2022 | ÉCO | Industries défense US : +58 milliards $ capitalisation en 2022 | ❌ |
+| 2022 | ÉCO | Jim Taiclet (Lockheed Martin): « compétition grandes puissances = opportunité » | ⚠ |
+| 2022 | ÉCO | Lockheed Martin cap boursière: 98Md$ → 127Md$ (jan-déc 2022) | ⚠ |
+| 2022 | ÉCO | Rheinmetall: +88% sur un an | ⚠ |
+| 2022 | ÉCO | Russie 1er employeur étranger en France avant 2022 — 160 000 emplois | ❌ |
+| 2022 | ÉCO | Pologne porte ses dépenses militaires à plus de 4% de son PIB depuis 2022 | ✅ |
+| 2022 | ÉCO | EDF rachète turbines Arabelle à GE pour plus d'un milliard d'euros | ❌ |
+| 2022 | ÉCO | Fournisseurs alternatifs ne produisent rien | ❌ |
+| 2022 | ÉCO | Loi oblige EDF vendre aux concurrents | ❌ |
+| 2022 | ÉCO | Ruine publique organisée pour dividendes privés | 💀 |
+| 2022 | ÉDU | Écart social France le plus élevé de l'OCDE | ❌ |
+| 2022 | POL | Dominique Voynet admet à la télévision avoir "sabordé le nucléaire français" pour des raisons politiques liées aux négociations bruxelloises | ❌ |
+| 2022 | POL | Virage de Belfort de Macron pour la relance nucléaire arrive "avec dix ans de retard" selon les sources du secteur | ⚠ |
+| 2022 | TEC | Brevet US12258463B2 : injection de particules polymères poreuses dans la stratosphère à ≥ 10 km d'altitude, qualifié de technique de géoingénierie solaire | ⚠ |
+| 2022 | TEC | L'Arabie saoudite engage 256 millions de dollars en modification météorologique | ⚠ |
+| 2022 | ÉCO | ARENH: EDF vend à 42 EUR/MWh à ses concurrents, qui la revendaient à 300 EUR/MWh pendant la crise | ❌ |
+| 2022 | ÉCO | Bilan EDF 2022: perte nette de 17,9 milliards d'euros; dette de 64,5 milliards d'euros (record historique) | 💀 |
+| 2022 | ÉCO | EDF intente un procès à 8,34 milliards d'euros contre l'État via le mécanisme ARENH qui l'oblige à vendre à 42 €/MWh | ❌ |
+| 2022 | ÉCO | ExxonMobil : 55,7 milliards de dollars de profit en 2022 | ❌ |
+| 2022 | ÉCO | Éolien offshore Saint-Nazaire: tarif de rachat à 150 EUR/MWh, soit 3,5 fois le prix du nucléaire ARENH | ❌ |
 ### 2023
 
 | Année | Dimension | Description | Code |
@@ -3339,6 +4498,42 @@
 | 2023 | TER | Bilan des violences liées au trafic à Marseille (2023) | 💀 |
 | 2023 | TER | Chiffre d'affaires du trafic de drogue (DGSI, 2023) | ❌ |
 
+| 2023 | SOC | **Réforme retraites — 64 ans, 49.3** | Passage en force définitif |
+| 2023 | SOC | **Grèves masse — échec** | Syndicats impuissants |
+| 2023 | POL | **Émeutes Nahel — 3 nuits** | Fracture urbaine |
+| 2023 | IMM | **Loi immigration Darmanin — durcissement massif** | ❌ |
+| 2023 | SANT | **Loi de programmation santé — déserts médicaux toujours** | ❌ |
+| 2023 | ÉDU | **PISA 2023 — France chute encore** | Choc |
+| 2023 | JUR | **Non-lieu chlordécone** | Crime d'État |
+| 2023 | ENV | **Loi de souveraineté énergétique — nucléaire surtout** | Transition sacrifiée |
+| 2023 | AGR | **Crise Egalim — aucune loi d'application** | 💀 |
+| 2023 | SOC | Réforme retraite 64 ans 49.3 (16 mars) | Passage en force |
+| 2023 | SOC | Émeutes Nahel mort (27 juin) 800 M€ dégâts | Fracture |
+| 2023 | JUR | Loi immigration Darmanin adoptée (19 déc) | Durcissement |
+| 2023 | ÉDU | PISA 2023 France avant-dernière UE maths | Choc |
+| 2023 | JUR | Non-lieu chlordécone | Crime État |
+| 2023 | ENV | Canicules répétées sécheresse | 💀 |
+| 2023 | SPO | France championne monde handball | ✅ |
+| 2023 | ÉCO | Inflation à 4,9 % | ❌ |
+| 2023 | ÉCO | Bouclier tarifaire maintenu | ✅ |
+| 2023 | ÉCO | Croissance 0,9 % du PIB | ⚠️ |
+| 2023 | ÉCO | Loi de finances 2023 : déficit 4,7 % | ❌ |
+| 2023 | ÉDU | Réforme du lycée pro Blanquer | ❌ |
+| 2023 | ÉDU | Grève enseignants contre réforme | ⚠️ |
+| 2023 | ÉCO | BCE cesse rachats nets de dette | ❌ |
+| 2023 | SOC | 735 morts à la rue (collectif Les Morts de la Rue) | 💀 |
+| 2023 | ÉDU | CAPES 2023 : 4 000 postes non pourvus | ❌ |
+| 2023 | ÉDU | Taux de désistement du SNU en 2023 : 28% | ❌ |
+| 2023 | ÉCO | Coût réel SNU 2023 : 2 900 euros par jeune vs 2 300 annoncés | ❌ |
+| 2023 | ÉCO | Banque d'Angleterre annule une partie de sa dette publique sans effondrement | ✅ |
+| 2023 | ÉCO | Dette publique française : 117,4% du PIB (INSEE) | 💀 |
+| 2023 | ÉCO | OPA de Bolloré sur le groupe Lagardère (novembre 2023) | ❌ |
+| 2023 | POL | Directive 2003/96/CE révisée en 2023 : proposition de taxation progressive du kérosène pour les vols intra-européens, bloquée par l'unanimité requise en matière fiscale | ❌ |
+| 2023 | POL | L'Irlande, les Pays-Bas et le Luxembourg s'opposent à la taxation du kérosène | ❌ |
+| 2023 | ÉCO | Dette nette d'EDF atteint 54 milliards d'euros fin 2023 | ❌ |
+| 2023 | ÉCO | EDF inscrit une dépréciation comptable de 12,9 milliards d'euros suite aux retards d'Hinkley Point C | ❌ |
+| 2023 | ÉCO | Verra : 90 % de ses crédits forêt déclarés sans valeur par une investigation du Guardian | ❌ |
+| 2023 | ÉCO | Éolien terrestre rapporte 3,4 milliards d'euros grâce aux prix de marché élevés | ✅ |
 ### 2024
 
 | Année | Dimension | Description | Code |
@@ -3628,6 +4823,107 @@
 | 2024 | MÉD | Sutton Trust 2024 | ❌ |
 | 2024 | MÉD | UnHerd blacklisté par le Global Disinformation Index sur la base de labels idéologiques | ❌ |
 
+| 2024 | SOC | **JO Paris 2024 — ouverture** | Succès mondial |
+| 2024 | SOC | **JO Paris — déficit 8 Md€** | Économie locale sacrifiée |
+| 2024 | TEC | **IA Act UE — France contre** | ❌ |
+| 2024 | SPO | JO Paris 64 médailles Léon Marchand 4x or | Succès |
+| 2024 | POL | Dissolution Assemblée (9 juin) | Chaos |
+| 2024 | POL | Censure Barnier | Instabilité |
+| 2024 | JUR | Procès Mazan violences conjugales | Justice |
+| 2024 | ENV | PPP3 baisse ambitions | 💀 |
+| 2024 | ÉCO | Déficit public : 5,5 % du PIB | ❌ |
+| 2024 | ÉCO | Loi de finances 2024 : économies 10 Mds | ❌ |
+| 2024 | ÉCO | Inflation 2 % | ⚠️ |
+| 2024 | ÉCO | Croissance 1,1 % du PIB | ⚠️ |
+| 2024 | ÉCO | Agence France Trésor : dette 112 % du PIB | ❌ |
+| 2024 | ÉDU | Nouveau bac : réforme 2024 | ❌ |
+| 2024 | ÉDU | Grève dans l'éducation | ⚠️ |
+| 2024 | ÉCO | Rachats actions CAC40: 80 Md€ (Proxinvest) | ❌ |
+| 2024 | ÉCO | Dividendes CAC40: 70 Md€ (Proxinvest) | ✅ |
+| 2024 | ÉCO | PNF récupéré 203,9 M€ | ✅ |
+| 2024 | ÉCO | Budget communication État: 1 Md€, record historique | ❌ |
+| 2024 | ÉCO | Budget police: ~25 Md€ (vs ~15 Md€ en 2017) | ❌ |
+| 2024 | ÉCO | Déficit France: 5,5% PIB (Eurostat) | ❌ |
+| 2024 | ÉCO | Dette France: 115,6% PIB (INSEE) | ❌ |
+| 2024 | ÉCO | Dette médiane zone euro: 88% (Eurostat) | ⚠ |
+| 2024 | ÉCO | Dette Allemagne: 64% PIB (Eurostat) | ✅ |
+| 2024 | ÉCO | Industrie: 20% PIB Allemagne, 9,7% PIB France (Eurostat) | ❌ |
+| 2024 | ÉCO | Flux intra-groupe: 60% commerce mondial (OCDE) | ⚠ |
+| 2024 | ÉCO | Taux effectif IS CAC40: 14,8% (Observatoire Multinationales) | ❌ |
+| 2024 | ÉCO | HATVP contrôle ~14 000 agents, jamais rendu avis d'incompatibilité définitif | ❌ |
+| 2024 | ÉCO | Fraude sociale: 13-14 Md€/an (Haut Conseil Financement Protection Sociale) | ❌ |
+| 2024 | ÉCO | Déficit commercial France : 81 Md€ (Douanes) | ❌ |
+| 2024 | ÉCO | Déficit commercial France-Chine : 46 Md€ (Douanes) | ❌ |
+| 2024 | ÉCO | CAC 40 : 72,8 Md€ de dividendes versés (Vernimmen/La Croix) | ❌ |
+| 2024 | ÉCO | Rachats d'actions CAC 40 : 80 Md€ | ❌ |
+| 2024 | ÉCO | Part de l'industrie dans le PIB français : 9,7 % | ❌ |
+| 2024 | ÉCO | Taux investissement productif France : 12-13 % VA vs Allemagne 15-16 % (OCDE) | ❌ |
+| 2024 | ÉDU | 50 000 enfants handicapés scolarisés sans accompagnement AESH | ❌ |
+| 2024 | ÉDU | 86 Md€ budget Éducation nationale (PLF 2025) | ⚠ |
+| 2024 | ÉDU | 5,1% PIB pour éducation (vs 5,4% moyenne OCDE) | ❌ |
+| 2024 | MÉD | Révélation Storm-1516 : 128 faux articles visant France (2022-2024) | ❌ |
+| 2024 | MÉD | 60% Français adhèrent à au moins une théorie du complot (Arcom 2024) | ❌ |
+| 2024 | MÉD | Mediawan capte 864 M€ de contrats France Télévisions (2017-2024) | ❌ |
+| 2024 | SOC | Pinel prend fin 31 décembre (loi finances 2024, article 17) | ❌ |
+| 2024 | SOC | 82 000 logements sociaux financés (vs 124 000 2016) | ❌ |
+| 2024 | ÉDU | 25% élèves n'atteignent pas niveau attendu lecture entrée 6e | ❌ |
+| 2024 | ÉDU | 2 614 écoles hors contrat (130 000 élèves) | ❌ |
+| 2024 | ÉDU | 400 000 journées d'enseignement non remplacées | ❌ |
+| 2024 | ÉDU | 50 000 enfants handicapés sans AESH (sur 560 000) | ❌ |
+| 2024 | ÉDU | 800 000 jeunes quittent système scolaire/an, ~100 000 sans diplôme | ❌ |
+| 2024 | ÉDU | 91% reçus au bac, 25% sans niveau maths attendu pour licence | ❌ |
+| 2024 | ÉDU | 40% 15-24 ans: réseaux sociaux = source info principale | ❌ |
+| 2024 | ÉDU | 4h30/jour écrans 15-24 ans (vs 1h30 en 2010) | ❌ |
+| 2024 | ÉDU | 11% éducation aux médias France (plus bas des 47 pays Reuters Institute) | ❌ |
+| 2024 | ÉDU | 5 ministres Éducation nationale se succèdent | ❌ |
+| 2024 | ÉDU | 60% élèves Sciences Po issus catégories supérieures | ❌ |
+| 2024 | ÉDU | INSP recrute <10% enfants d'ouvriers/employés | ❌ |
+| 2024 | ÉDU | Budget par étudiant -12% en 10 ans | ❌ |
+| 2024 | ÉDU | 40-60% taux d'échec en 1ère année université | ❌ |
+| 2024 | ÉDU | 17% élèves scolarisés dans le privé sous contrat (subventionné 73% État) | ⚠ |
+| 2024 | ÉDU | 40% personnels enseignants du supérieur non titulaires | ❌ |
+| 2024 | ÉDU | <20% élèves reçoivent les 3 séances annuelles éducation sexualité | ❌ |
+| 2024 | ÉDU | 4 millions d'adultes en situation d'illettrisme (ANLCI IVQ 2022) | ❌ |
+| 2024 | ÉDU | Enfant cadre: 45% chances privé vs 10% enfant ouvrier | ❌ |
+| 2024 | ÉDU | 15 fois moins chances élève REP+ d'accéder à filière sélective | ❌ |
+| 2024 | ÉCO | Actifs russes gelés chez Euroclear : 210 milliards € | ⚠ |
+| 2024 | ÉCO | Belgique encaisse 1.7 milliard € de taxes annuelles sur intérêts | ⚠ |
+| 2024 | ÉCO | Exports défense France : 18 milliards € | ⚠ |
+| 2024 | ÉCO | France : 2e exportateur mondial d'armes (9.6% transferts globaux, SIPRI) | ⚠ |
+| 2024 | ÉCO | Intérêts actifs russes : 6.9 milliards € | ⚠ |
+| 2024 | ÉCO | MBDA : backlog record de 37 milliards € | ⚠ |
+| 2024 | ÉCO | MBDA : production +33% en 2024, 2500 recrutements | ⚠ |
+| 2024 | ÉCO | MBDA enregistre 13,8 milliards d'euros de commandes en 2024, record historique du groupe | ✅ |
+| 2024 | ÉDU | Rapport Cour des Comptes septembre 2024 : SNU = 40 000 participants en 2023 vs objectif de 800 000 | ❌ |
+| 2024 | MÉD | Analyse publiée le 6 décembre 2024 | ⚠ |
+| 2024 | MÉD | Chronique le 11 décembre 2024 | ⚠ |
+| 2024 | MÉD | Conflit d'intérêts non déclaré entre régulateur et think tank pro-migrants | ❌ |
+| 2024 | MÉD | Geoffroy Lejeune installé à la direction du JDD | ❌ |
+| 2024 | MÉD | Niel rachète l'agence Bestimage de Mimi Marchand | ❌ |
+| 2024 | MÉD | Plus de 190 départs chez Prisma Media (48% des CDI) après absorption par Bolloré | ❌ |
+| 2024 | MÉD | Sutton Trust 2024 | ❌ |
+| 2024 | MÉD | UnHerd blacklisté par le Global Disinformation Index sur la base de labels idéologiques | ❌ |
+| 2024 | ÉCO | Budget d'OpenPeppol au registre de transparence UE : 2 031 093 € | ❌ |
+| 2024 | ÉCO | ETP lobbying d'OpenPeppol : 0,1 (une personne à temps partiel) | ❌ |
+| 2024 | ÉCO | Forbes 2024 | ❌ |
+| 2024 | ÉCO | Xavier Niel actionnaire de contrôle du groupe Le Monde (Le Monde, Télérama, L'Obs) | ❌ |
+| 2024 | ÉDU | 2 800 h en 1976 → 2 000 en 2024 | ❌ |
+| 2024 | ÉDU | Budget de l'Éducation nationale | ⚠ |
+| 2024 | ENV | Google, Microsoft, Meta et Apple sous-rapportent leurs émissions de data centers de 662 % (investigation du Guardian 2024) | ❌ |
+| 2024 | ENV | Le WWF, rapport de transparence 2024 : travaille « main dans la main avec les entreprises », y compris des secteurs destructeurs de la nature | ❌ |
+| 2024 | ENV | Seul un tiers des certificats CEE correspond à des économies réelles selon la Cour des Comptes | ❌ |
+| 2024 | JUR | Cour des Comptes recommande que "la suppression du dispositif des CEE pourrait être envisagée" | ⚠ |
+| 2024 | JUR | Dispositif CEE "confronté à d'importants phénomènes de fraude" selon la Cour des Comptes | ❌ |
+| 2024 | MIL | Programme AtmoSense de la DARPA achevé ; six explosions contrôlées (1 t et 10 t chacune) déclenchées au Nouveau-Mexique en 2024 | ⚠ |
+| 2024 | POL | COP29 à Bakou (pays pétrolier) : 65 jets privés et 1 700 lobbyistes de l'industrie fossile | ❌ |
+| 2024 | SOC | 1,2 million d'interventions (coupures ou limitations de puissance) en 2024: +24% par rapport à 2023 | 💀 |
+| 2024 | SOC | 1,2 million de ménages en situation d'impayé — record en dix ans | 💀 |
+| 2024 | ÉCO | Facture d'électricité augmente de +18% pour les ménages | ❌ |
+| 2024 | ÉCO | France augmente de 81% ses importations de GNL russe pour atteindre 2,68 milliards d'euros | ❌ |
+| 2024 | MÉD | C8 écope de 7,5 millions d'euros d'amendes ARCOM en 2024 | ❌ |
+| 2024 | MÉD | CNews écope de 80 000 euros d'amendes ARCOM en 2024 | ❌ |
+| 2024 | MÉD | Depuis 2019, l'ARCOM a sanctionné CNews 26 fois pour un total de 630 001 euros | ❌ |
+| 2024 | ÉCO | Nancy Fraser: concept de « cannibal capitalism » dévorant ses propres bases sociales | ⚠ |
 ### 2025
 
 | Année | Dimension | Description | Code |
@@ -4246,6 +5542,172 @@
 | 2025-01-06 | TER | Centaure déployé contre agriculteurs à Orveau | ❌ |
 | 2025-12-11/12 | TER | État déploie blindés Centaure (14 t), hélicoptères, grenades lacrymogènes contre 600 agriculteurs à Bordes-sur-Arize, GAEC Mouriscou ; 208 bovins abattus de force | 💀 |
 
+| 2025 | JUR | **Jussieu clôturé sans procès** | Amiante impuni |
+| 2025 | POL | Crise politique 4 PM | Instabilité |
+| 2025 | ÉCO | Budget 43,8 Md€ effort | Austérité |
+| 2025 | JUR | Loi fin vie adoptée 1re lecture | Progrès |
+| 2025 | JUR | Jussieu clôturé sans procès | Amiante impuni |
+| 2025 | ÉCO | Croissance : 0,8 % du PIB | ❌ |
+| 2025 | ÉCO | Dette publique : 115 % du PIB | ❌ |
+| 2025 | ÉCO | Réforme de l'assurance chômage | ❌ |
+| 2025 | ÉCO | Plan d'économies 50 milliards | ❌ |
+| 2025 | ÉCO | Inflation à 1,8 % | ⚠️ |
+| 2025 | ÉCO | Crise du logement prolongée | ❌ |
+| 2025 | ÉDU | Réforme de l'orientation scolaire | ⚠️ |
+| 2025 | ÉCO | 20 plus grandes fortunes françaises: 704 Md€ (Challenges 500) | ❌ |
+| 2025 | ÉCO | 500 fortunes professionnelles: 1 128 Md€ | ❌ |
+| 2025 | DÉMO | ICF France: 1,56, naissances <650 000 (INSEE) | ❌ |
+| 2025 | ÉCO | 60 Md€ économies annoncées, 3 Md€ seulement mesures effectives (HCFP) | ❌ |
+| 2025 | ÉCO | Dette nette d'EDF : 65 Md€ (Cour des comptes) | ❌ |
+| 2025 | ÉCO | Nouveau nucléaire (6 EPR) : coût réévalué à 67 Md€ (EDF) | ❌ |
+| 2025 | ÉCO | CSPE 2026 : 13 Md€ de charges de service public de l'électricité (CRE) | ❌ |
+| 2025 | ÉDU | 20% enseignants collège/lycée contractuels (40% dans académies Créteil/Versailles/Guyane) | ❌ |
+| 2025 | ÉDU | Salaire enseignant débutant : 1 800€ net/mois (-15% moyenne OCDE) | ❌ |
+| 2025 | ÉDU | 40% personnels enseignants supérieur non titulaires | ❌ |
+| 2025 | MÉD | France 21e classement RSF (72,3 points) | ❌ |
+| 2025 | MÉD | Confiance médias France 29% (Reuters Institute 2025) | ❌ |
+| 2025 | MÉD | BFMTV : 27% comme source principale d'information | ❌ |
+| 2025 | MÉD | European Media Freedom Act en vigueur août 2025 | ⚠ |
+| 2025 | ÉDU | 400 000 journées d'enseignement non remplacées/an | ❌ |
+| 2025 | ÉDU | 91% bacheliers reçus mais 1/4 sans niveau mathématiques attendu à l'université | ❌ |
+| 2025 | ÉDU | 20% enseignants collège/lycée contractuels (40% Créteil/Versailles/Guyane) | ❌ |
+| 2025 | ÉDU | Salaire enseignant débutant: 1 800€ net/mois (-15% moyenne OCDE) | ❌ |
+| 2025 | ÉDU | Industrie EdTech: 1,6 Md€ | ⚠ |
+| 2025 | ÉDU | 30% enseignants formés à l'EMC | ❌ |
+| 2025 | ÉDU | 85,2% candidats reçoivent ≥1 proposition Parcoursup | ⚠ |
+| 2025 | ÉCO | Arnaud Rousseau : président FNSEA + président CA Groupe Avril (CA 7,9 Md€), 187 000 €/an jetons de présence, 700+ ha exploitation | ❌ |
+| 2025 | ÉCO | BNDES (banque publique brésilienne) actionnaire à 18% de JBS | ❌ |
+| 2025 | ÉCO | Global Witness (2025) : 26 milliards $ générés en une décennie par financements bancaires d'entreprises déforestantes | ❌ |
+| 2025 | ÉCO | 100M$ détournés (Mindich) + 91M€ à recouvrer (OLAF Pologne) + 77Md$ carnet Raytheon | ❌ |
+| 2025 | ÉCO | AN Conseil: opacité totale (clients inconnus, CA inconnu) | ❌ |
+| 2025 | ÉCO | BAE Systems : +33% | ❌ |
+| 2025 | ÉCO | Danone: 1Md€ pertes | ❌ |
+| 2025 | ÉCO | FT: total pertes UE 100Md€ | ❌ |
+| 2025 | ÉCO | Musk peut demander saisie des avoirs — pas 120M mais milliards (BCE, Banque de France à Fed NY) | ❌ |
+| 2025 | ÉCO | OFAC sanctionne 875+ cibles | ⚠ |
+| 2025 | ÉCO | Rheinmetall : +90% depuis janvier, capitalisation > Volkswagen | ❌ |
+| 2025 | ÉCO | Sanctions Russie: Renault perd 2,2Md€ (vente pour 1 rouble symbolique) | ❌ |
+| 2025 | ÉCO | Société Générale: 3,2Md€ pertes | ❌ |
+| 2025 | ÉCO | TotalEnergies: 14Md€ provisions | ❌ |
+| 2025 | ÉCO | Trump annonce rencontre Poutine : perte 15 milliards EUR en 48h pour défense européenne | ⚠ |
+| 2025 | ÉCO | WSJ estime collectes NAFO >1M$, aucune comptabilité officielle | ❌ |
+| 2025 | ÉCO | Décret du 31 octobre 2025 au Journal officiel transfère 28% du capital de DCI à un consortium privé Ottawa-Abu Dhabi | ❌ |
+| 2025 | ÉCO | DCI contrôlé à 66% par ADIT, groupe privé français | ⚠ |
+| 2025 | ÉCO | ADIT contrôlé à 43% par Sagard, fonds canadien de la famille Desmarais | ⚠ |
+| 2025 | ÉCO | Sagard détient participation minoritaire du fonds souverain émirati ADQ | ⚠ |
+| 2025 | ÉCO | MBDA détenu à 37,5% par Airbus, 37,5% par BAE Systems, 25% par Leonardo | ⚠ |
+| 2025 | MÉD | Vivendi (contrôlé par Vincent Bolloré) détient Canal+ et Havas | ⚠ |
+| 2025 | MÉD | Groupe Dassault possède Le Figaro | ⚠ |
+| 2025 | MÉD | Lagardère contrôle Paris Match et Le Journal du Dimanche | ⚠ |
+| 2025 | ÉCO | Vincent Desportes est Senior Advisor chez Avencore, cabinet de conseil en performance industrielle | ⚠ |
+| 2025 | ÉCO | Vincent Desportes est président de Stratforce Conseil | ⚠ |
+| 2025 | ÉCO | Avencore travaille étroitement avec l'industrie de défense | ⚠ |
+| 2025 | ÉCO | Mécanisme identifié : générer la peur → disqualifier la critique → justifier réarmement massif → crédits publics vers l'industrie de défense → cabinets conseil prospèrent | ❌ |
+| 2025 | ÉCO | Service volontaire : 800 euros/mois minimum pour 10 mois | ❌ |
+| 2025 | ÉCO | SMIC net environ 1 400 euros — un jeune touchera 57% du SMIC pour un statut militaire temps plein | ❌ |
+| 2025 | ÉCO | Estimation gouvernementale SNU généralisé : 2 milliards d'euros/an | ❌ |
+| 2025 | ÉCO | Estimation Cour des Comptes SNU généralisé : 3,5 à 5 milliards d'euros/an | ❌ |
+| 2025 | ÉCO | Investissements centres SNU : +6 milliards d'euros | ❌ |
+| 2025 | ÉCO | Coût total SNU possible : 10 milliards d'euros selon Moscovici | ❌ |
+| 2025 | ÉCO | Facteur x5 entre l'annonce budgétaire et la réalité estimée | ❌ |
+| 2025 | ÉDU | Échec documenté du SNU : rebaptisé et relancé plutôt qu'admettre l'échec | ❌ |
+| 2025 | MÉD | "Signaleurs de Confiance" du DSA = militants politiques financés par les États qu'ils surveillent | ❌ |
+| 2025 | MÉD | 9 milliardaires possèdent 90% des médias privés français | ❌ |
+| 2025 | MÉD | 99,98% des décisions relèvent des conditions d'utilisation, pas de la loi | ❌ |
+| 2025 | MÉD | Base de transparence du DSA recense 32,17 milliards de décisions de modération | ❌ |
+| 2025 | MÉD | Bernard Arnault (LVMH) : Les Échos, Le Parisien | ❌ |
+| 2025 | MÉD | Bolloré, Arnault, Niel | ❌ |
+| 2025 | MÉD | CRIF et LICRA parmi les signaleurs, traitement prioritaire obligatoire | ❌ |
+| 2025 | MÉD | Civilization Works publie les Twitter Files France (septembre 2025) | ❌ |
+| 2025 | MÉD | Clémence Houdiakova, Tocsin Média | ✅ |
+| 2025 | MÉD | Concentration massive des médias français | ❌ |
+| 2025 | MÉD | Daniel Kretinsky : Marianne, Elle | ❌ |
+| 2025 | MÉD | Documents commission enquête classifiés si rapport rejeté | ❌ |
+| 2025 | MÉD | EMFA offre levier pour forcer annonceurs à déserter tout média non "résilient" | ❌ |
+| 2025 | MÉD | European Digital Media Observatory | ❌ |
+| 2025 | MÉD | Famille Dassault (armement) : Le Figaro | ❌ |
+| 2025 | MÉD | ISD Global et DFRLab (Atlantic Council) transforment données étatiques en rapports d'expertise | ❌ |
+| 2025 | MÉD | Instructions pénales pour 112 000 € frais hôtel luxe | ❌ |
+| 2025 | MÉD | Jean-Michel Baylet, baron féodal, ex-ministre | ❌ |
+| 2025 | MÉD | Listes d'Exclusion Dynamiques sous licence blacklistent des médias du marché publicitaire | ❌ |
+| 2025 | MÉD | Mediawan co-fondé par Xavier Niel, dominé par fonds américain KKR | ❌ |
+| 2025 | MÉD | Patrick Drahi (Altice) : BFM, RMC (avant cession CMA CGM) | ❌ |
+| 2025 | MÉD | Rodolphe Saadé (CMA CGM) : BFM, La Tribune, La Provence | ❌ |
+| 2025 | MÉD | Rémunération de l'animateur Nagui | ❌ |
+| 2025 | MÉD | Sanctionne la « Vérité Économique » | ❌ |
+| 2025 | MÉD | Vincent Bolloré (Vivendi) : Canal+, CNews, Europe 1, JDD | ❌ |
+| 2025 | MÉD | Xavier Niel (Free) : Le Monde, L'Obs | ❌ |
+| 2025 | ÉCO | 112 000 € de frais d'hôtel Le Majestic par la direction de France Télévisions | ❌ |
+| 2025 | ÉCO | 7,3 millions de parcelles foncières détenues anonymement ou via sociétés écrans | ❌ |
+| 2025 | ÉCO | AFM : chaque député dispose de ~600 €/mois sans justificatif (en plus des 5000+ justifiés) | ❌ |
+| 2025 | ÉCO | AFM : chaque sénateur dispose de ~885 €/mois sans justificatif | ❌ |
+| 2025 | ÉCO | Actifs du shadow banking : 256,8 billions $, 51% des actifs financiers mondiaux, croissance au double du système régulé | ❌ |
+| 2025 | ÉCO | Amende infligée à X pour violation DSA (5 décembre 2025) | ❌ |
+| 2025 | ÉCO | Atos gère simulation nucléaire française | 💀 |
+| 2025 | ÉCO | Clôture de comptes bancaires pour "risque de réputation" : stratégie européenne silencieuse | ❌ |
+| 2025 | ÉCO | Dette consolidée de France Télévisions : 81 millions € | ❌ |
+| 2025 | ÉCO | Dette mondiale atteint 330% du PIB mondial (Institut de la finance internationale) | 💀 |
+| 2025 | ÉCO | Dette publique française : +1 000 Md€ depuis 2017, 3 416 Md€ (115,6% du PIB) mi-2025 | 💀 |
+| 2025 | ÉCO | Dette publique française : 114% du PIB | 💀 |
+| 2025 | ÉCO | Déficit de France Télévisions : 41 millions € | ❌ |
+| 2025 | ÉCO | En 2025, gouvernement annonce 60 Md€ d'économies ; HCFP établit seulement 3 Md€ effectives — 57 Md€ de fiction | ❌ |
+| 2025 | ÉCO | Ensemble shadow banking + dérivés : 1 100 billions $ ; PIB mondial : 105 billions $ | 💀 |
+| 2025 | ÉCO | Estimation | ❌ |
+| 2025 | ÉCO | Estimation de l'économie informelle (Les Échos, 2025) | 💀 |
+| 2025 | ÉCO | Estimation de la fraude fiscale par le Conseil des prélèvements obligatoires | 💀 |
+| 2025 | ÉCO | Fonds ESG rachètent à prix bradé avec MaPrimeRénov' | ❌ |
+| 2025 | ÉCO | George Soros (OSF), Jeff Skoll et Pierre Omidyar financent le complexe de censure numérique | ❌ |
+| 2025 | ÉCO | L'État verse des centaines de millions d'euros d'aides à la presse chaque année | ❌ |
+| 2025 | ÉCO | Lobbying total dépasse 5 milliards de dollars (+14% en un an) | ❌ |
+| 2025 | ÉCO | Milliardaire | ❌ |
+| 2025 | ÉCO | Niche fiscale maintenue | ❌ |
+| 2025 | ÉCO | Plafond des sanctions prévues par le DSA | ❌ |
+| 2025 | ÉCO | Produits dérivés de gré à gré : 846 billions $ en valeur notionnelle (BRI) | ❌ |
+| 2025 | ÉCO | Projet de fusion/suppression d'1/3 des opérateurs d'État pour 2 à 3 milliards d'économies | ⚠ |
+| 2025 | ÉCO | Promotion HEC 2005 récolte 1 million € pour la Fondation HEC en juin 2025 | ❌ |
+| 2025 | ÉCO | Règlement | ⚠ |
+| 2025 | ÉCO | Règlement dans le cadre de l'affaire Epstein | ⚠ |
+| 2025 | ÉCO | Rénovation obligatoire | ❌ |
+| 2025 | ÉCO | SEM et SPL (Sociétés d'Économie Mixte et Publiques Locales) : délit de favoritisme industrialisé | ❌ |
+| 2025 | ÉCO | Secteur de la santé investit un record de 868 M$ dans le lobbying (OpenSecrets) | ❌ |
+| 2025 | ÉCO | Start-up Nation = Gosplan 2.0 | ❌ |
+| 2025 | ÉCO | Taux dépasse de 4,4 points de PIB la moyenne européenne (Le Nouvel Économiste, nov. 2025) | ❌ |
+| 2025 | ÉCO | Taxe intérieure de consommation sur produits énergétiques | ❌ |
+| 2025 | ÉCO | Total AFM sans contrôle : ~8 millions €/an pour 925 parlementaires | ❌ |
+| 2025 | ÉDU | INSEE | ❌ |
+| 2025 | ÉDU | Probabilité de diplôme supérieur pour enfants de cadres | ❌ |
+| 2025 | ÉDU | Probabilité pour enfants d'ouvriers (Le Mur du Diplôme) | ❌ |
+| 2025 | ÉDU | Taux de réussite scolaire par catégorie sociale | ❌ |
+| 2025 | ENV | +1,43 °C au-dessus des niveaux préindustriels : anomalie de température mondiale 2025 (OMM) | ❌ |
+| 2025 | ENV | Nucléaire représente 68% de la production électrique nationale française | ✅ |
+| 2025 | ENV | Part du nucléaire dans la production électrique de l'UE tombe à 35% | ❌ |
+| 2025 | POL | COP30 à Belém : record d'un lobbyiste fossile pour vingt-cinq participants | ❌ |
+| 2025 | POL | RN connaissait le contenu du décret depuis l'été 2025 et a choisi d'attendre novembre pour s'en indigner | ❌ |
+| 2025 | SOC | 36% des ménages déclarent des difficultés à payer leurs factures d'énergie — niveau le plus haut depuis cinq ans | 💀 |
+| 2025 | SOC | Chèque énergie oscille entre 48 et 277 EUR, couvre 3,4% à 20% de la facture | ❌ |
+| 2025 | SOC | Jeunes de 18-34 ans: 53% déclarent des difficultés de paiement des factures | 💀 |
+| 2025 | TEC | Ballons stratosphériques chargés de poussière minérale (5,5 M£) — programme ARIA | ⚠ |
+| 2025 | TEC | Drones simulateurs d'éruptions volcaniques (Bristol, 4,3 M£) — programme ARIA | ⚠ |
+| 2025 | TEC | Vols d'observation des cirrus (Imperial College, 3,6 M£) — programme ARIA | ⚠ |
+| 2025 | TEC | Épaississement de la glace arctique (Cambridge, 9,9 M£) — programme ARIA | ⚠ |
+| 2025 | ÉCO | 25 % des claims corporatifs de durabilité sont trompeurs (étude ScienceDirect 2025) | ❌ |
+| 2025 | ÉCO | 90% des cellules photovoltaïques viennent de Chine; 54% des matières premières pour éoliennes viennent de Chine | ❌ |
+| 2025 | ÉCO | Accise sur l'électricité (ex-CSPE) représente 15% de la facture | ❌ |
+| 2025 | ÉCO | Allemagne (50%+ EnR) affiche prix de 0,3951 EUR/kWh, soit 35% plus cher que la France (0,2926 EUR) | ❌ |
+| 2025 | ÉCO | CSPE (Contribution au Service Public de l'Électricité): 8,9 milliards d'euros de charges | ❌ |
+| 2025 | ÉCO | Constructeurs d'éoliennes en France: Vestas 29%, Enercon 25%, Senvion 16%, Nordex 14%, Siemens-Gamesa 11% — total étrangers 95%+ | ❌ |
+| 2025 | ÉCO | Distributeurs prélèvent 7 à 11 centimes de trop par litre par rapport à la normale historique | ❌ |
+| 2025 | ÉCO | Espagne (solaire massif) affiche 0,2436 EUR/kWh, soit 17% moins cher que la France | ✅ |
+| 2025 | ÉCO | Facture électricité moyenne atteint 1 400 EUR/an | ❌ |
+| 2025 | ÉCO | KGAL (Allemagne) possède 11 parcs éoliens + 14 parcs solaires en France | ⚠ |
+| 2025 | ÉCO | Les 7-11 centimes excédentaires sont supérieurs à la hausse CEE de 4-6 centimes que dénonce Bardella | ❌ |
+| 2025 | ÉCO | Les CEE ne génèrent aucune recette pour l'État; l'argent va directement aux primes de rénovation énergétique | ⚠ |
+| 2025 | ÉCO | Olivier Gantois (président UFIP) déclare que "les marges nettes des distributeurs sont de l'ordre de 1 à 2 centimes d'euro par litre" | ⚠ |
+| 2025 | ÉCO | Taxes représentent 31% de la facture d'électricité (396,50 EUR sur 1 259 EUR/an) | ❌ |
+| 2025 | ÉCO | UFIP confirme: CEE représentent environ 11 centimes dans le prix du litre actuellement | ❌ |
+| 2025 | ÉDU | Promotions terminales de l'INSTN comptent moins de 50 élèves certifiés | ❌ |
+| 2025 | ÉCO | La France frôle le blackout électrique à 2 reprises, perdant 10 puis 8 gigawatts de capacité | ❌ |
+| 2025 | ÉCO | Thales: 22,1 milliards d'euros de ventes, carnet de commandes record de 53,3 milliards | ❌ |
 ### 2026
 
 | Année | Dimension | Description | Code |
@@ -4836,6 +6298,186 @@
 | 2026 | TER | William Burns, figure CIA, intervenu | ❌ |
 | 2026-01 | TER | Jeffrey Epstein était formé comme agent du Mossad israélien (documents FBI, Middle East Eye) | ❌ |
 
+| 2026 | JUR | **Loi responsabilité chlordécone diluée** | Crime d'État |
+| 2026 | SOC | **Prison — 86 645 détenus, 137% surpopulation** | Record absolu |
+| 2026 | JUR | **Aucun responsable politique condamné (51 ans)** | Impunité systémique |
+| 2026 | POL | **Abstention record élections?** | Démocratie en soins |
+| 2026 | POL | Budget adopté Lecornu 49.3 | 💀 |
+| 2026 | ENV | Canicule record 30°C moyenne 44°C Indre | 35 dpts rouge |
+| 2026 | TEC | Vague cyberattaques ANTS 11,7 M France Travail 1,6 M | Données |
+| 2026 | IMM | Loi Darmanin immigration | ❌ |
+| 2026 | SPO | Logo JO Alpes 2030 | ⚠️ |
+| 2026 | JUR | Loi responsabilité chlordécone diluée | Crime État |
+| 2026 | SOC | Prison 86 645 détenus 137% surpopulation | Record |
+| 2026 | ÉCO | Croissance prévue : 1,2 % | ⚠️ |
+| 2026 | ÉCO | Dette publique : 117 % du PIB | ❌ |
+| 2026 | ÉCO | Inflation sous contrôle | ✅ |
+| 2026 | ÉCO | Investissement IA et tech | ✅ |
+| 2026 | ÉDU | Réforme des programmes | ⚠️ |
+| 2026 | ÉCO | Spread OAT/Bund: 69 pb (mai 2026), 35 pb en 2017 (Bloomberg) | ❌ |
+| 2026 | ÉCO | Nouvelles émissions dette: taux 3-3,3% | ❌ |
+| 2026 | ÉCO | Charge dette: 55 Md€ | ❌ |
+| 2026 | ÉCO | 50% dette française détenue par non-résidents (Banque de France) | ❌ |
+| 2026 | ÉCO | CICE transformé en baisse de charges permanente: 20 Md€/an | ❌ |
+| 2026 | ÉCO | 470 niches fiscales: 90-100 Md€/an (Cour des comptes) | ❌ |
+| 2026 | ÉCO | Exonération taxe kérosène aérien: 2,58 Md€/an (Cour des comptes) | ❌ |
+| 2026 | ÉCO | Déficit public ~154 Md€ (INSEE) | ❌ |
+| 2026 | ÉCO | Taux de recouvrement Bercy: 12% (IGF) | ❌ |
+| 2026 | ÉCO | Bercy récupère 11-14 Md€/an sur 80-100 Md€ évasion | ❌ |
+| 2026 | ÉCO | Opérateurs État: 434, 64 Md€/an, budget +40% 2017-2023 | ❌ |
+| 2026 | ÉCO | Économie potentielle agences: 14,5 Md€/an (mission Danon) | ⚠ |
+| 2026 | ÉCO | Subventions associatives: 53 Md€/an pour 314 000 associations sans contrôle (IGF-Igésr avril 2024) | ❌ |
+| 2026 | ÉCO | Sénat ~358 M€/an, Assemblée ~600 M€/an, CESE ~45 M€/an, total ~1 Md€/an | ❌ |
+| 2026 | ÉCO | INSEE: 5 000 agents, ~400 M€/an | ⚠ |
+| 2026 | ÉCO | INED: ~30 M€/an | ⚠ |
+| 2026 | ÉCO | Scribe police nationale: 257 M€ inutilisable (Cour des comptes) | ❌ |
+| 2026 | ÉCO | Fonds Marianne: 2,5 M€ sans transparence (rapport Sénat) | ❌ |
+| 2026 | DÉMO | 22 000 membres vivants ENA/INSP | ❌ |
+| 2026 | ÉCO | Pantouflage triplé en 10 ans (HATVP, Cour des comptes) | ❌ |
+| 2026 | ÉCO | 42 anciens ministres siègent conseils d'administration (HATVP 2024) | ❌ |
+| 2026 | ÉCO | 9 propriétaires privés contrôlent 90% grands médias (Monde Diplomatique) | ❌ |
+| 2026 | ÉDU | 50% dirigeants CAC 40 issus X-ENA-HEC (3 écoles <0,1% classe âge) | ❌ |
+| 2026 | ÉCO | Rémunération patrons CAC40: 120× SMIC | ❌ |
+| 2026 | ÉCO | Manque à gagner fiscal optimisation: 3-5 Md€/an | ❌ |
+| 2026 | ÉCO | Plan France 2030: 54 Md€ | ⚠ |
+| 2026 | ÉCO | Taux BCE: 0% → 4,5% en 18 mois | ❌ |
+| 2026 | ÉDU | PISA: France -43 points maths 2000-2022 (plus forte baisse OCDE) | ❌ |
+| 2026 | ÉCO | Soutien public aux ENR : 7,3 Md€ par an (Cour des comptes) | ❌ |
+| 2026 | MÉD | 17 avril 2026 : Macron annonce vouloir « domestiquer » réseaux sociaux | ❌ |
+| 2026 | ÉDU | 5 ministres de l'Éducation en 2024 | ❌ |
+| 2026 | ÉCO | 80-100 Md€/an d'évasion fiscale | ❌ |
+| 2026 | ÉCO | 90-100 Md€/an de niches fiscales | ❌ |
+| 2026 | ÉCO | 40-50 Md€/an de baisses d'impôts depuis 2017 | ❌ |
+| 2026 | ÉCO | Dette publique: 115,6% du PIB | ❌ |
+| 2026 | ÉCO | 54 Md€/an d'intérêts de la dette (2e budget de l'État) | ❌ |
+| 2026 | ÉCO | BCE détient ~25% de la dette française | ⚠ |
+| 2026 | ÉCO | CICE: 57 Md€ sans conditionnalité | ❌ |
+| 2026 | ÉCO | Déficit commercial: 81 Md€ | ❌ |
+| 2026 | ÉDU | 5,4M logements locatifs sociaux | ⚠ |
+| 2026 | ÉCO | 11,7 millions de barils exportés depuis le 28 février (1,5M/jour) | ⚠ |
+| 2026 | ÉCO | 170-200 millions barils stockage flottant (14-17 Md $), 9 Md $/an hawala (Dubaï, Hong Kong, Turquie) | ⚠ |
+| 2026 | ÉCO | Arabie Saoudite augmente flux oléoduc Est-Ouest vers Yanbu: 1,7 → 5,9M bpd (record) | ⚠ |
+| 2026 | ÉCO | Baril Oural: 40$ → 62$ (+55%) | ⚠ |
+| 2026 | ÉCO | Birol: « Plus grande perturbation d'approvisionnement de l'histoire » | ❌ |
+| 2026 | ÉCO | Bremmer: « La guerre de choix de l'Amérique en Iran aide directement les Russes » | ❌ |
+| 2026 | ÉCO | Brent: 60$ → 119$ (pic) | ❌ |
+| 2026 | ÉCO | COSCO suspend nouvelles opérations au Moyen-Orient | ❌ |
+| 2026 | ÉCO | Capacité court terme Iran: 20-30 Md $, burn mensuel 6-8 Md $, survie estimée 3-6 mois | ❌ |
+| 2026 | ÉCO | Chine augmente imports pétrole russe de 40% en janvier-février | ⚠ |
+| 2026 | ÉCO | Corée: JKM +108%, hélium menace puces | ❌ |
+| 2026 | ÉCO | Délai sanctions OFAC: 4 à 6 semaines | ❌ |
+| 2026 | ÉCO | Flotte ombre mondiale: 350-400 navires vieillissants (15-20 ans), valeur 10-15 milliards $ | ❌ |
+| 2026 | ÉCO | Gardiens de la Révolution brassent 60 milliards $ de revenus pétroliers via flotte fantôme | ❌ |
+| 2026 | ÉCO | Gaz: +50% | ❌ |
+| 2026 | ÉCO | Hormuz: 91 → 4 navires/jour | 💀 |
+| 2026 | ÉCO | IEA libère 400 millions de barils — record absolu | ⚠ |
+| 2026 | ÉCO | IEA publie guide de confinement énergétique | ❌ |
+| 2026 | ÉCO | Inde saisit 3 tankers iraniens (Stellar Ruby, Asphalt Star) | ⚠ |
+| 2026 | ÉCO | Inde: imports -23%, roupie → 100/$ | ❌ |
+| 2026 | ÉCO | Industries défense US : +58 milliards $ de capitalisation en 2022 | ❌ |
+| 2026 | ÉCO | Inflation Iran: 32,5% | ❌ |
+| 2026 | ÉCO | Japon: 93% via Hormuz | ❌ |
+| 2026 | ÉCO | Le pétroyuan est né | ⚠ |
+| 2026 | ÉCO | Qatar: -13% PIB | ❌ |
+| 2026 | ÉCO | Rial iranien s'effondre | ❌ |
+| 2026 | ÉCO | Russie: 230 millions $/jour de revenus pétroliers supplémentaires | ⚠ |
+| 2026 | ÉCO | Réseau Shamkhani alimente l'Axe de la Résistance en drones, missiles, composants dual-use | ❌ |
+| 2026 | ÉCO | Réserves Iran: 24,3 milliards $ devises (10-12 Md utilisables), 7,78 Md $ crypto (3 Md CGRI, 3 Md inflows 2025) | ⚠ |
+| 2026 | ÉCO | Shamkhani (fils amiral) contrôle >100 shadow tankers (500K-800K bpd) | ❌ |
+| 2026 | ÉCO | Slovénie: 50 litres/jour maximum par conducteur | ❌ |
+| 2026 | ÉCO | Taïwan: 11 jours réserves GNL | 💀 |
+| 2026 | ÉCO | TotalEnergies: « all economies damaged » si guerre dure | ❌ |
+| 2026 | ÉCO | Trump lève les sanctions sur le pétrole russe imposées en 2025 | ❌ |
+| 2026 | ÉCO | Zelenskyy: « 10 milliards $ en deux semaines » pour la Russie | ❌ |
+| 2026 | ÉCO | Émirats pipeline Habshan-Fujairah: 1 → 2,5M bpd (capacité max) | ⚠ |
+| 2026 | ÉCO | Budget de défense 2026 : 57,1 milliards d'euros, adopté via article 49.3 le mois précédent | ❌ |
+| 2026 | ÉCO | MBDA annonce le record de 13,8 Md€ de commandes 2024 en janvier 2026 | ✅ |
+| 2026 | DÉMO | 400 millions d'habitants des 8 pays concernés sans consultation démocratique (aucun référendum, aucun débat) | ❌ |
+| 2026 | MÉD | Aucun grand média ne questionne la légalité du dispositif au regard du TNP | ❌ |
+| 2026 | MÉD | Aucun débat télévisé n'examine le timing électoral du discours | ❌ |
+| 2026 | MÉD | 90% des médias privés français appartiennent à 9 milliardaires | ❌ |
+| 2026 | MÉD | Aymeric Caron constate l'échec de la propagande gouvernementale | ⚠ |
+| 2026 | MÉD | Coupe budgétaire de 5 à 10 M€ pour « 60 Millions », déficit Sécu de 23 Md€ | ❌ |
+| 2026 | MÉD | Financement vérificateurs de faits via European Democracy Shield (mars 2026) | ❌ |
+| 2026 | MÉD | Institut Thomas More recense couvertures asymétriques sur la criminalité (étude APEX février 2026) | ⚠ |
+| 2026 | MÉD | L'Incorrect, média en ligne de droite dure, impulse la "Sainte-Alliance" | ❌ |
+| 2026 | MÉD | Livestream de 10 heures par Le Tocsin (17 avril 2026) | ⚠ |
+| 2026 | MÉD | Léa Salamé, compagne de Raphaël Glucksmann, est éditorialiste tutélaire de FranceTV | ❌ |
+| 2026 | MÉD | Mars 2026, YouTube, « Satanisme : religion cachée des élites ? » | ❌ |
+| 2026 | MÉD | Mimi Marchand demeure fabricante d'image exclusive d'Emmanuel Macron | ❌ |
+| 2026 | MÉD | Niel investit massivement dans le Nouveau Magazine Littéraire présidé par Raphaël Glucksmann | ⚠ |
+| 2026 | MÉD | Projet de 500 analystes à Bruxelles | ❌ |
+| 2026 | MÉD | Vincent Bolloré (Vivendi) transforme i-Télé en CNews | ❌ |
+| 2026 | ÉCO | 3 fonds contrôlent 74% du marché des fonds indiciels cotés | ❌ |
+| 2026 | ÉCO | 37 milliards d'euros de hausses d'impôts cachées dans le budget 2026 | ❌ |
+| 2026 | ÉCO | 43,4% de la richesse mondiale concentrée dans le top 1% mondial = 54 400 Md$ | ❌ |
+| 2026 | ÉCO | 5 Md€ de charges budgétées décalées vers 2027-2028 | ❌ |
+| 2026 | ÉCO | Abandon de la baisse de 0,1 point de la CVAE (promesse campagne présidentielle) | ❌ |
+| 2026 | ÉCO | Accès aux transactions B2B via OpenPeppol | ❌ |
+| 2026 | ÉCO | Alibaba Group Holding détient 11,4% du capital de Baiwang | ❌ |
+| 2026 | ÉCO | BCE détient un tiers de la dette de la zone euro, environ 5 000 Md€ | ⚠ |
+| 2026 | ÉCO | Baiwang est l'un des deux seuls fournisseurs officiels du Golden Tax System chinois (déployé depuis 1994, phase IV) | ❌ |
+| 2026 | ÉCO | Baiwangyun (Singapore) Technology, filiale de Baiwang Co. Ltd. (cotée HK 6657), membre d'OpenPeppol | ❌ |
+| 2026 | ÉCO | Banque du Japon détient plus de 50% des obligations d'État japonaises | ⚠ |
+| 2026 | ÉCO | Banques publiques Sparkassen (Allemagne) gèrent 30% des dépôts du pays | ✅ |
+| 2026 | ÉCO | Beijing Watertek (filiale de CASIC, défense aérospatiale chinoise) détient 9,5% de Baiwang (21 463 466 actions, 334,8 M$ HKD) | 💀 |
+| 2026 | ÉCO | Belgique : aucune plateforme publique, réseau Peppol = seul canal légal ; entreprise exclue = morte commercialement | ❌ |
+| 2026 | ÉCO | BlackRock, Vanguard et State Street détiennent plus de 50% des actions américaines | ❌ |
+| 2026 | ÉCO | Budget annonce 14 Md€ de nouvelles recettes fiscales, dont 7 Md€ de « recettes imaginaires » | ❌ |
+| 2026 | ÉCO | CAPEB alerte sur la crise des artisans du BTP (avril 2026) | ❌ |
+| 2026 | ÉCO | CPME : 8,5 M€/an de lobbying | ❌ |
+| 2026 | ÉCO | Ces 3 fonds contrôlent environ 30% du pouvoir de vote au sein des entreprises du S&P 500 | ❌ |
+| 2026 | ÉCO | Ces 3 fonds possèdent environ 20% de chaque géant technologique | ❌ |
+| 2026 | ÉCO | Déficit Sécu : écart de 9,5 Md€ entre les versions (14/10 : 17,5 Md€ → nov : 20,6 Md€ → Sénat : 15,1 Md€ → ministre Farandou : 24 Md€) | ❌ |
+| 2026 | ÉCO | EPR Flamanville : 23,7 Md€ de coût | 💀 |
+| 2026 | ÉCO | Estimation du coût de la corruption | 💀 |
+| 2026 | ÉCO | Fed reverse chaque année environ 100 Md$ de bénéfices au Trésor américain | ✅ |
+| 2026 | ÉCO | Financement de l'audiovisuel public par TVA : 4 milliards €/an | ⚠ |
+| 2026 | ÉCO | GE supprime des milliers d'emplois après rachat Alstom | ❌ |
+| 2026 | ÉCO | Gouvernement annonce 17 Md€ d'économies en 2026 | ❌ |
+| 2026 | ÉCO | Hausse de la CSG de 1,4 point sur les revenus du capital | ❌ |
+| 2026 | ÉCO | Haut Conseil des Finances Publiques n'a pas publié d'avis préalable au vote du PLF 2026 | ❌ |
+| 2026 | ÉCO | Institutions financières non bancaires américaines détiennent 2,5× les actifs des banques | ❌ |
+| 2026 | ÉCO | JPMorgan et Citigroup sont actionnaires de la Réserve fédérale américaine | ❌ |
+| 2026 | ÉCO | Janvier 2026 : près de 400 millionnaires/milliardaires (24 pays) signent lettre ouverte à Davos : « Tax us. Tax the super rich. » | ✅ |
+| 2026 | ÉCO | L'Italie réduit ses taxes sur les carburants | ⚠ |
+| 2026 | ÉCO | LEEM (pharma) : ~1 M€/an de lobbying | ❌ |
+| 2026 | ÉCO | La Grèce réduit ses taxes sur les carburants | ⚠ |
+| 2026 | ÉCO | Le citoyen solvabilise par la TVA la guerre de cartels médiatiques | ❌ |
+| 2026 | ÉCO | Les banques commerciales créent environ 97% de la masse monétaire | ❌ |
+| 2026 | ÉCO | Maintien de la contribution exceptionnelle sur les bénéfices : 8 Md€ | ❌ |
+| 2026 | ÉCO | Maison dans l'Essonne déclarée à 350 k€ | ⚠ |
+| 2026 | ÉCO | Maison à Paris déclarée à 1,16 M€ | ⚠ |
+| 2026 | ÉCO | Medef : 14,4 M€/an de lobbying | ❌ |
+| 2026 | ÉCO | Mediawan (Niel, Pigasse, KKR) capte plus de 67 heures de fictions annuelles | ❌ |
+| 2026 | ÉCO | Mediawan encaisse ~100 millions € chaque année de France Télévisions | ❌ |
+| 2026 | ÉCO | Nagui perçoit 1,5 million € annuels sans reddition de comptes aux statuts du service public | ❌ |
+| 2026 | ÉCO | Non-indexation du barème de l'IR : salaires +2% en 2025, barème indexé à 0,9% (fiscal drag) | ❌ |
+| 2026 | ÉCO | Nouvelle taxe sur les holdings | ❌ |
+| 2026 | ÉCO | Nouvelle taxe sur les petits colis (achats faible montant pays tiers) | ❌ |
+| 2026 | ÉCO | Patrimoine déclaré d'Amélie de Montchalin : 1,48 million € | ⚠ |
+| 2026 | ÉCO | Prix du gazole franchit le seuil des 2,50 euros | ❌ |
+| 2026 | ÉCO | Prorogation de la contribution différentielle sur les hauts revenus (exceptionnelle 2025, reconduite) | ❌ |
+| 2026 | ÉCO | Revenus de Guillaume chez Eurazeo estimés à 300-500 000 € annuels plus carried interest | ⚠ |
+| 2026 | ÉCO | Réserve fédérale américaine détient environ 20% de la dette publique américaine | ⚠ |
+| 2026 | ÉCO | Suppression du Pacte Dutreuil : perte de 5 Md€ pour les PME | ❌ |
+| 2026 | ÉCO | Taux de recouvrement de la TVA en Belgique : 95% — aucune urgence fiscale ne justifie le système | ⚠ |
+| 2026 | ÉCO | Top 0,001% (60 000 personnes) détient 3× la richesse de la moitié la plus pauvre (World Inequality Report / Guardian) | ❌ |
+| 2026 | ÉCO | Top 10% possède 75% de la richesse mondiale, bas 50% : 2% | ❌ |
+| 2026 | ÉCO | Total budgets lobbying patronal : 66 à 76 M€/an | ❌ |
+| 2026 | ÉCO | Transfert total estimé de France Télévisions vers Mediawan : 864 millions € | ❌ |
+| 2026 | ÉCO | U2P : 23,2 M€/an de lobbying (dont 18 M€ de subventions publiques) | ❌ |
+| 2026 | ÉCO | UE : 10 M€ pour le projet Post-Growth Deal ; dépenses de défense visent 800 Md€ (80 000× plus) | ❌ |
+| 2026 | ÉCO | Une taxe de 3% sur les centimillionnaires (>100 M$) rapporterait 750 Md$/an | ✅ |
+| 2026 | ÉCO | Économies potentiellement réalisables : niches fiscales 9-13 Md€/an + conditionnalité aides 3-5 Md€/an + commande publique 2,3-3,8 Md€/an + santé 3,4-6 Md€/an = 20,5-34 Md€/an | ✅ |
+| 2026 | ENV | Chine totalise 56 réacteurs en fonctionnement et 28 chantiers simultanés, monopolisant 40% de la construction mondiale | ✅ |
+| 2026 | ENV | Solaire photovoltaïque coûte 50-70 €/MWh, éolien terrestre 40-60 €/MWh, éolien en mer ~70 €/MWh | ⚠ |
+| 2026 | ÉCO | Avec le nouveau décret, le montant CEE passerait entre 15 et 17 centimes par litre | ❌ |
+| 2026 | ÉCO | Dispositif CEE coûte 6 milliards d'euros par an aux consommateurs | ❌ |
+| 2026 | ÉCO | Décret rehausse de 27% les obligations CEE, passant de 825 à 1050 TWhc par an | ❌ |
+| 2026 | ÉCO | Fournisseurs d'énergie devront financer plus de 8 milliards d'euros de primes à la rénovation en 2026 | ❌ |
+| 2026 | ÉCO | France importe entre 50 et 70 milliards d'euros de pétrole et de gaz par an | ❌ |
+| 2026 | ÉCO | Prix du pétrole atteint 120 dollars le baril | ❌ |
 ### 2030
 
 | Année | Dimension | Description | Code |
@@ -4843,3 +6485,6 @@
 | 2030 | TEC | Consommation data centers US passera de 147 à 606 TWh (McKinsey) | ❌ |
 | 2030 | DIP | Dépenses militaires Europe: 800 milliards d'euros | ❌ |
 
+
+| 2028 | TEC | Toutes les entreprises de l'UE devront émettre et recevoir factures via Peppol | ❌ |
+| 2030 | ÉCO | Banque de France projette dette à 125% du PIB d'ici 2030 | 💀 |
