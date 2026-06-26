@@ -3,88 +3,78 @@
 
 ## MÉTA-DONNÉES
 - Période : 1975-2026 (52 ans)
-- Nombre total d'événements : 5088
 - Dimensions couvertes : 20
 - Date de génération : 2026-06-25
 
 ## SYNTHÈSE PAR DÉCENNIE
 | Décennie | POL | ÉCO | SOC | JUR | SANT | ÉDU | AGR | ENV | TEC | CUL | IMM | SPO | REL | DÉMO | TRA | MIL | SCI | DIP | MÉD | TER | TOTAL |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1975-1982 | 65 | 79 | 104 | 20 | 1 | 5 | 1 | 24 | 34 | 59 | 1 | 13 | 1 | 0 | 2 | 1 | 2 | 1 | 0 | 43 | 456 |
-| 1983-1990 | 67 | 57 | 54 | 30 | 36 | 29 | 28 | 38 | 55 | 113 | 24 | 42 | 18 | 17 | 28 | 33 | 0 | 0 | 1 | 0 | 670 |
-| 1991-1998 | 67 | 18 | 50 | 47 | 8 | 12 | 9 | 6 | 25 | 32 | 5 | 18 | 3 | 1 | 0 | 19 | 6 | 15 | 0 | 2 | 343 |
-| 1999-2006 | 89 | 48 | 62 | 37 | 17 | 18 | 8 | 14 | 16 | 73 | 5 | 34 | 6 | 5 | 33 | 5 | 9 | 0 | 5 | 8 | 492 |
-| 2007-2016 | 94 | 79 | 60 | 58 | 15 | 21 | 17 | 24 | 32 | 17 | 15 | 21 | 2 | 4 | 19 | 5 | 6 | 4 | 5 | 2 | 500 |
-| 2017-2026 | 479 | 485 | 273 | 317 | 76 | 81 | 152 | 58 | 150 | 32 | 15 | 30 | 0 | 3 | 19 | 166 | 7 | 126 | 131 | 25 | 2625 |
-| **TOTAL** | 861 | 766 | 603 | 509 | 153 | 166 | 215 | 164 | 312 | 326 | 65 | 158 | 30 | 30 | 101 | 229 | 30 | 146 | 142 | 80 | 5088 |
+| 1975-1982 | 65 | 77 | 104 | 20 | 1 | 5 | 1 | 24 | 34 | 56 | 1 | 13 | 1 | 0 | 2 | 1 | 2 | 1 | 0 | 43 | 451 |
+| 1983-1990 | 66 | 56 | 53 | 30 | 36 | 29 | 28 | 38 | 55 | 112 | 24 | 42 | 18 | 17 | 28 | 33 | 0 | 0 | 1 | 0 | 666 |
+| 1991-1998 | 67 | 18 | 46 | 44 | 8 | 10 | 9 | 6 | 25 | 31 | 5 | 18 | 3 | 1 | 0 | 18 | 6 | 14 | 0 | 1 | 330 |
+| 1999-2006 | 87 | 47 | 60 | 36 | 17 | 8 | 8 | 14 | 15 | 70 | 5 | 34 | 6 | 5 | 33 | 5 | 9 | 0 | 4 | 4 | 467 |
+| 2007-2016 | 81 | 57 | 56 | 47 | 15 | 20 | 17 | 24 | 28 | 17 | 15 | 21 | 2 | 4 | 19 | 5 | 6 | 2 | 4 | 1 | 441 |
+| 2017-2026 | 302 | 325 | 214 | 200 | 68 | 72 | 129 | 48 | 103 | 25 | 15 | 30 | 0 | 3 | 19 | 110 | 7 | 62 | 69 | 10 | 1811 |
+| **TOTAL** | 668 | 580 | 533 | 377 | 145 | 144 | 192 | 154 | 260 | 311 | 65 | 158 | 30 | 30 | 101 | 172 | 30 | 79 | 78 | 59 | **4166** |
 
 ## SYNTHÈSE PAR DIMENSION (toutes années)
-| Dimension | Total | ✅ | ⚠️ | ❌ | 💀 |
+| Dimension | Total | ✅ | ⚠ | ❌ | 💀 |
 |---|---|---|---|---|---|
-| POL | 861 | 155 | 278 | 386 | 42 |
-| ÉCO | 766 | 104 | 222 | 392 | 48 |
-| SOC | 603 | 78 | 228 | 209 | 88 |
-| JUR | 509 | 64 | 141 | 239 | 65 |
-| SANT | 153 | 34 | 33 | 71 | 15 |
-| ÉDU | 166 | 15 | 64 | 87 | 0 |
-| AGR | 215 | 15 | 40 | 130 | 30 |
-| ENV | 164 | 45 | 64 | 31 | 24 |
-| TEC | 313 | 118 | 80 | 113 | 2 |
-| CUL | 326 | 142 | 86 | 7 | 91 |
+| POL | 712 | 151 | 255 | 265 | 40 |
+| ÉCO | 632 | 97 | 197 | 305 | 33 |
+| SOC | 555 | 77 | 212 | 191 | 75 |
+| JUR | 420 | 58 | 135 | 182 | 45 |
+| SANT | 146 | 34 | 33 | 66 | 13 |
+| ÉDU | 150 | 14 | 57 | 79 | 0 |
+| AGR | 213 | 15 | 40 | 128 | 30 |
+| ENV | 158 | 45 | 63 | 26 | 24 |
+| TEC | 289 | 117 | 73 | 97 | 2 |
+| CUL | 312 | 136 | 81 | 6 | 89 |
 | IMM | 65 | 7 | 20 | 38 | 0 |
 | SPO | 158 | 63 | 70 | 14 | 11 |
 | REL | 30 | 9 | 18 | 1 | 2 |
 | DÉMO | 30 | 5 | 21 | 3 | 1 |
 | TRA | 101 | 20 | 55 | 23 | 3 |
-| MIL | 229 | 32 | 70 | 80 | 47 |
+| MIL | 219 | 32 | 70 | 77 | 40 |
 | SCI | 30 | 21 | 4 | 2 | 3 |
-| DIP | 147 | 9 | 59 | 75 | 4 |
-| MÉD | 142 | 5 | 25 | 112 | 0 |
-| TER | 80 | 1 | 2 | 18 | 59 |
-
-## SYNTHÈSE PAR CODE D'IMPACT
-| Code | Total | % |
-|---|---|---|
-| ✅ | 942 | 18.5% |
-| ⚠ | 1580 | 31.1% |
-| ❌ | 2031 | 39.9% |
-| 💀 | 535 | 10.5% |
-| **TOTAL** | 5088 | 100% |
+| DIP | 132 | 9 | 59 | 62 | 2 |
+| MÉD | 89 | 4 | 18 | 67 | 0 |
+| TER | 63 | 1 | 2 | 10 | 50 |
+| **TOTAL** | **4504** | **915** | **1483** | **1642** | **463** |
 
 ## CLASSEMENT DES ANNÉES LES PLUS CHARGÉES
 | Rang | Année | Total | Principal sujet |
 |---|---|---|---|
-| 1 | 2025 | 824 | POL |
-| 2 | 2026 | 748 | ÉCO |
-| 3 | 2024 | 321 | POL |
-| 4 | 2022 | 144 | ÉCO |
-| 5 | 2023 | 133 | SOC |
-| 6 | 2017 | 110 | POL |
-| 7 | 2021 | 107 | JUR |
-| 8 | 2006 | 103 | CUL |
-| 9 | 1984 | 92 | CUL |
-| 10 | 2020 | 91 | POL |
-| 11 | 1990 | 88 | CUL |
-| 12 | 1989 | 87 | CUL |
-| 13 | 1988 | 83 | CUL |
-| 14 | 1985 | 83 | CUL |
-| 15 | 1983 | 80 | CUL |
-| 16 | 1987 | 79 | CUL |
-| 17 | 1986 | 78 | CUL |
-| 18 | 2019 | 75 | POL |
-| 19 | 2018 | 72 | POL |
-| 20 | 2014 | 72 | ÉCO |
-| 21 | 2016 | 69 | POL |
-| 22 | 2000 | 68 | POL |
-| 23 | 2015 | 64 | POL |
-| 24 | 2001 | 63 | POL |
-| 25 | 1980 | 62 | SOC |
-| 26 | 1976 | 61 | ÉCO |
-| 27 | 2005 | 60 | POL |
-| 28 | 1975 | 60 | ÉCO |
-| 29 | 1993 | 59 | SOC |
-| 30 | 1991 | 58 | POL |
-
+| 1 | 2025 | 508 |
+| 2 | 2026 | 453 |
+| 3 | 2024 | 266 |
+| 4 | 2023 | 107 |
+| 5 | 2006 | 100 |
+| 6 | 2022 | 100 |
+| 7 | 1984 | 91 |
+| 8 | 2021 | 89 |
+| 9 | 1990 | 88 |
+| 10 | 1989 | 86 |
+| 11 | 2017 | 83 |
+| 12 | 1985 | 82 |
+| 13 | 1988 | 82 |
+| 14 | 1983 | 80 |
+| 15 | 1987 | 79 |
+| 16 | 1986 | 78 |
+| 17 | 2020 | 74 |
+| 18 | 2019 | 67 |
+| 19 | 2018 | 64 |
+| 20 | 1976 | 61 |
+| 21 | 2000 | 61 |
+| 22 | 2001 | 61 |
+| 23 | 2014 | 61 |
+| 24 | 1975 | 60 |
+| 25 | 2016 | 59 |
+| 26 | 1977 | 58 |
+| 27 | 2015 | 58 |
+| 28 | 1980 | 57 |
+| 29 | 1982 | 57 |
+| 30 | 1991 | 56 |
 ### 1975
 
 | Année | Dimension | Description | Code |
@@ -415,7 +405,6 @@
 | 1980 | ÉCO | SMIC augmente 2,49%, loyers 11-13%, métro 17% | 💀 |
 | 1980 | ÉCO | Suppression cotisation patronale supplémentaire 1% salaires | ⚠ |
 | 1980-2000 | ÉCO | Bernard Bommier carrière chez Elf Aquitaine puis Danone | ⚠ |
-| 1980-2000 | ÉCO | Bernard Bommier carrière chez Elf Aquitaine puis Danone | ⚠ |
 | 1980 | SOC | 25% des 18-59 ans se déclarent sans religion | ⚠ |
 | 1980 | SOC | Assassinat Joseph Fontanet | 💀 |
 | 1980 | SOC | Coluche 12,5% intentions vote sondage | ⚠ |
@@ -448,12 +437,10 @@
 | 1980 | CUL | Enquête publique centrale Plogoff, violence | ⚠ |
 | 1980 | CUL | Inauguration place du Québec Paris avec Lévesque | ✅ |
 | 1980 | CUL | Intérêt « strictement monétaire » | ⚠ |
-| 1980 | CUL | Intérêt « strictement monétaire » | ⚠ |
 | 1980 | CUL | Marguerite Yourcenar première femme élue Académie française | ✅ |
 | 1980 | CUL | Meurtres non élucidés RN20 : découverte corps Michelle Couturat | 💀 |
 | 1980 | CUL | Première Tribunal des flagrants délires France Inter | ✅ |
 | 1980 | CUL | Émission Audition publique interrompue par militants CGT/PCF | ⚠ |
-| 1980-2020 | CUL | Gabriel Matzneff : pédocriminel revendiqué, célébré par Bernard Pivot, invité à l'Élysée, décoré, subventionné par CNL | 💀 |
 | 1980-2020 | CUL | Gabriel Matzneff : pédocriminel revendiqué, célébré par Bernard Pivot, invité à l'Élysée, décoré, subventionné par CNL | 💀 |
 | 1980 | SPO | Jeux olympiques Moscou : France boycotte | ❌ |
 | 1980 | TER | Assassinat Salah Eddine Bitar à Paris | 💀 |
@@ -692,7 +679,6 @@
 | 1984 | SOC | Grève des postiers (mouvement social à La Poste) | ❌ |
 | 1984 | SOC | Grève des travailleurs sans-papiers dans les foyers Sonacotra | ⚠ |
 | 1984 | SOC | Loup Bommier, frère probable d'Amélie, né le 10 novembre 1984 | ⚠ |
-| 1984 | SOC | Loup Bommier, frère probable d'Amélie, né le 10 novembre 1984 | ⚠ |
 | 1984 | SOC | Manifestation des pêcheurs bretons contre la politique européenne des quotas | ❌ |
 | 1984 | SOC | Mouvement des locataires contre la hausse des loyers (associations) | ❌ |
 | 1984 | SOC | Mouvement lycéen contre la réforme des lycées (projet Savary) | ❌ |
@@ -769,7 +755,6 @@
 |---|---|---|---|
 | 1985 | POL | Affaire du Rainbow Warrior (explosion du navire Greenpeace, 10 juillet, 1 mort) | 💀 |
 | 1985 | POL | Démission de Charles Hernu, ministre de la Défense (20 septembre) | ❌ |
-| 1985 | POL | Jean-Luc Mélenchon initié en franc-maçonnerie | ⚠ |
 | 1985 | POL | Jean-Luc Mélenchon initié en franc-maçonnerie | ⚠ |
 | 1985 | POL | Loi relative à la création de la Haute Autorité de l'audiovisuel (régulation) | ⚠ |
 | 1985 | POL | Loi sur l'évolution de la Nouvelle-Calédonie (projet Fabius-Pisani, autonomie) | ⚠ |
@@ -1038,7 +1023,6 @@
 | 1988 | ÉCO | Création du RMI (minima social, 1er décembre, insertion) | ✅ |
 | 1988 | ÉCO | Fin du programme de privatisations (décision politique, gel des cessions) | ⚠ |
 | 1988 | ÉCO | James O'Connor nomme la « seconde contradiction du capitalisme » | ⚠ |
-| 1988 | ÉCO | James O'Connor nomme la « seconde contradiction du capitalisme » | ⚠ |
 | 1988 | ÉCO | Plan de rigueur du gouvernement Rocard (redressement des finances publiques) | ❌ |
 | 1988 | SOC | Accords de Matignon : paix sociale et référendum en Nouvelle-Calédonie | ✅ |
 | 1988 | SOC | Affaire des écoutes de l'Élysée (commission d'enquête parlementaire, témoignages) | ❌ |
@@ -1166,7 +1150,6 @@
 | 1989 | CUL | César du meilleur film pour « Camille Claudel » de Bruno Nuytten | ✅ |
 | 1989 | CUL | Exposition « Les Années 50 » au Centre Pompidou (design, architecture, mobilier) | ✅ |
 | 1989 | CUL | Festival de Cannes : Palme d'or à « Sexe, mensonges et vidéo » de Steven Soderbergh | ⚠ |
-| 1989 | CUL | Grandes écoles = machines à transformer capital hérité en capital méritocratique | ⚠ |
 | 1989 | CUL | Grandes écoles = machines à transformer capital hérité en capital méritocratique | ⚠ |
 | 1989 | CUL | Mort de Herbert von Karajan, chef d'orchestre (16 juillet, 81 ans) | 💀 |
 | 1989 | CUL | Mort de Salvador Dalí, peintre (23 janvier, 84 ans, Figueras) | 💀 |
@@ -1352,7 +1335,6 @@
 | 1991 | DIP | La France adhère au traité de non-prolifération nucléaire de 1968 | ✅ |
 | 1991 | DIP | Signature du protocole de Sangatte (France-Royaume-Uni) sur les contrôles frontaliers | ⚠ |
 | 1991 | TER | Magnat presse, 400 M£ détournés fonds pension Mirror Group | ❌ |
-| 1991 | TER | Magnat presse, 400 M£ détournés fonds pension Mirror Group | ❌ |
 
 ### 1992
 
@@ -1434,27 +1416,21 @@
 | 1993 | ÉCO | Privatisation de Rhône-Poulenc | ⚠ |
 | 1993 | ÉCO | Échec de la fusion Renault-Volvo | ⚠ |
 | 1993 | SOC | Différence d'âge de 25 ans | ❌ |
-| 1993 | SOC | Différence d'âge de 25 ans | ❌ |
 | 1993 | SOC | Débat sur le partage du temps de travail par Martine Aubry | ⚠ |
 | 1993 | SOC | Dépôt des statuts de la FSU (Fédération Syndicale Unitaire) | ⚠ |
-| 1993 | SOC | Lycée La Providence d'Amiens | ⚠ |
 | 1993 | SOC | Lycée La Providence d'Amiens | ⚠ |
 | 1993 | SOC | Meurtre de Makomé M'Bowolé, 17 ans, dans un commissariat à Paris | ❌ |
 | 1993 | SOC | Meurtre de la jet-setteuse Barbara Coll à Saint-Tropez | ❌ |
 | 1993 | SOC | Réforme des retraites du privé : durée de cotisation portée à 40 ans | ✅ |
 | 1993 | SOC | Transgression familiale | ❌ |
-| 1993 | SOC | Transgression familiale | ❌ |
 | 1993 | JUR | Assassinat de René Bousquet par Christian Didier | ❌ |
 | 1993 | JUR | Début de l'affaire Jean-Claude Romand : faux médecin, assassinat de sa famille | ❌ |
-| 1993 | JUR | Mécanismes de sidération et honte | ❌ |
 | 1993 | JUR | Mécanismes de sidération et honte | ❌ |
 | 1993 | JUR | Prescription dans l'affaire du sang contaminé par la Haute Cour | ⚠ |
 | 1993 | JUR | Réforme du code de la nationalité | ✅ |
 | 1993 | JUR | Réforme du code pénal : durcissement des contrôles d'identité | ✅ |
 | 1993 | ÉDU | Configuration grooming par autorité éducative | ❌ |
-| 1993 | ÉDU | Configuration grooming par autorité éducative | ❌ |
 | 1993 | ÉDU | Révision de la loi Falloux : financement des écoles privées par les collectivités | ✅ |
-| 1993 | ÉDU | École privée jésuite | ⚠ |
 | 1993 | ÉDU | École privée jésuite | ⚠ |
 | 1993 | AGR | Espagne : 450M€ de fraude au bœuf via sociétés écrans | ❌ |
 | 1993 | ENV | Loi sur la protection et la mise en valeur des paysages | ✅ |
@@ -1572,9 +1548,7 @@
 | 1996 | SOC | Loi Robien sur le temps de travail | ✅ |
 | 1996 | SOC | Manifestation des ouvrières de Lejaby à Bourg-en-Bresse | ⚠ |
 | 1996 | JUR | Bétharram : François Bayrou (ministre Éducation 1996) intervient par écrit auprès du procureur pour défendre l'institution catholique face aux plaignants pour violences | 💀 |
-| 1996 | JUR | Bétharram : François Bayrou (ministre Éducation 1996) intervient par écrit auprès du procureur pour défendre l'institution catholique face aux plaignants pour violences | 💀 |
 | 1996 | JUR | Bétharram : condamnation surveillant pour coups sur élève ayant perdu 40% audition | ✅ |
-| 1996 | JUR | François Bayrou, ministre Éducation, intervention auprès juge | ❌ |
 | 1996 | JUR | François Bayrou, ministre Éducation, intervention auprès juge | ❌ |
 | 1996 | ÉDU | Inspection académique Bétharram conclut « pas un lieu où élèves sont brutalisés » malgré preuves | ❌ |
 | 1996 | TEC | Changement de la numérotation téléphonique en France | ⚠ |
@@ -1638,7 +1612,6 @@
 | 1998 | SOC | Adoption de la loi sur les 35 heures (Martine Aubry) | ✅ |
 | 1998 | SOC | Adoption du projet de loi sur les 35 heures | ✅ |
 | 1998 | SOC | Château de Montchalin vendu en 1998 à Patrick Bertrand | ⚠ |
-| 1998 | SOC | Château de Montchalin vendu en 1998 à Patrick Bertrand | ⚠ |
 | 1998 | SOC | Création d'Attac France (association altermondialiste) | ⚠ |
 | 1998 | SOC | L'Assemblée repousse le projet de loi sur le PACS | ✅ |
 | 1998 | SOC | Loi d'orientation contre les exclusions | ✅ |
@@ -1658,7 +1631,6 @@
 | 1998 | CUL | Première Techno Parade à Paris | ⚠ |
 | 1998 | CUL | Première de la comédie musicale Notre-Dame de Paris | ⚠ |
 | 1998 | CUL | Publie 9 pages listant mensonges biographiques | ⚠ |
-| 1998 | CUL | Publie 9 pages listant mensonges biographiques | ⚠ |
 | 1998 | CUL | Sortie de Titanic sur les écrans français | ⚠ |
 | 1998 | IMM | Loi Chevènement sur les étrangers | ✅ |
 | 1998 | SPO | Agression du gendarme Daniel Nivel par des hooligans à Lens | ❌ |
@@ -1669,7 +1641,6 @@
 | 1998 | SPO | La France championne du monde de football : 3-0 contre le Brésil (Zidane x2, Petit) | ⚠ |
 | 1998 | SCI | Annonce du démantèlement du surrégénérateur Superphénix | ✅ |
 | 1998 | SCI | Mort de Haroun Tazieff, géologue et volcanologue | 💀 |
-| 1998 | DIP | Association des Amis de l'Azerbaïdjan (AAA) créée le 18 mai 1998 | ❌ |
 | 1998 | DIP | Association des Amis de l'Azerbaïdjan (AAA) créée le 18 mai 1998 | ❌ |
 | 1998 | DIP | La mission parlementaire conclut que la France n'a pas incité au génocide rwandais | ⚠ |
 | 1998 | DIP | Signature des Accords de Nouméa sur l'avenir de la Nouvelle-Calédonie | ✅ |
@@ -1709,7 +1680,6 @@
 | 1999 | CUL | Sortie du film « Astérix et Obélix contre César » de Claude Zidi | ✅ |
 | 1999 | CUL | Sortie du film « Jeanne d'Arc » de Luc Besson | ⚠ |
 | 1999 | CUL | Sortie du film « La Fille sur le pont » de Patrice Leconte | ✅ |
-| 1999 | CUL | Sortie du film « La Fille sur le pont » de Patrice Leconte | ✅ |
 | 1999 | IMM | Bilan des régularisations d'étrangers lancée en 1997 : 80 000 acceptés, 63 000 rejetés | ⚠ |
 | 1999 | IMM | Nouvelles tensions sur l'hébergement d'urgence des sans-papiers | ❌ |
 | 1999 | IMM | Ouverture du centre de Sangatte (Pas-de-Calais) pour accueillir les réfugiés | ⚠ |
@@ -1736,14 +1706,11 @@
 | 2000 | POL | Loi limitant le cumul des mandats électoraux | ✅ |
 | 2000 | POL | Loi renforçant l'accès des citoyens aux mandats électifs, obligation de parité dans les listes | ✅ |
 | 2000 | POL | Membres éminents de Skull & Bones | ❌ |
-| 2000 | POL | Membres éminents de Skull & Bones | ❌ |
 | 2000 | POL | Mort de Jacques Chaban-Delmas, ancien Premier ministre (85 ans) | 💀 |
-| 2000 | POL | Participants documentés au Bohemian Grove | ⚠ |
 | 2000 | POL | Participants documentés au Bohemian Grove | ⚠ |
 | 2000 | POL | Réforme du mode de scrutin aux élections sénatoriales (parité proportionnelle) | ✅ |
 | 2000 | POL | Référendum sur la réduction du mandat présidentiel à 5 ans (quinquennat) : le oui l'emporte | ✅ |
 | 2000 | ÉCO | Baisse de 5 % de l'impôt sur le revenu | ✅ |
-| 2000 | ÉCO | Bernard Bommier (père) VP Cyber Security chez Coca-Cola Europacific Partners depuis août 2000 | ⚠ |
 | 2000 | ÉCO | Bernard Bommier (père) VP Cyber Security chez Coca-Cola Europacific Partners depuis août 2000 | ⚠ |
 | 2000 | ÉCO | Création de la Bourse de Paris-Euronext | ✅ |
 | 2000 | ÉCO | Depuis 2000, cession progressive des fleurons industriels français: Arcelor, Alstom, Pechiney, Lafarge — vente à des groupes étrangers | ❌ |
@@ -1758,7 +1725,6 @@
 | 2000 | SOC | Rapport parlementaire accablant sur l'état des prisons françaises : insalubres et surpeuplées | ❌ |
 | 2000 | SOC | Suicide du père Silviet-Carricart à Rome, classement affaire Bétharram | 💀 |
 | 2000 | SOC | « Order 322 », symbole crâne et tibias | ❌ |
-| 2000 | SOC | « Order 322 », symbole crâne et tibias | ❌ |
 | 2000 | JUR | Loi Guigou : réforme de la justice et de la présomption d'innocence (création des cours d'assises d'appel, réforme garde à vue, détention provisoire) | ✅ |
 | 2000 | JUR | Loi relative aux droits des citoyens dans leurs relations avec les administrations | ✅ |
 | 2000 | JUR | Loi renforçant la protection de la présomption d'innocence | ✅ |
@@ -1767,7 +1733,6 @@
 | 2000 | SANT | Loi de financement de la sécurité sociale 2001 | ⚠ |
 | 2000 | SANT | Loi sur la contraception d'urgence | ✅ |
 | 2000 | ÉDU | PISA mathématiques France : 517 points (descend à 474 en 2022) | ❌ |
-| 2000-2003 | ÉDU | Lycée Hoche à Versailles | ⚠ |
 | 2000-2003 | ÉDU | Lycée Hoche à Versailles | ⚠ |
 | 2000 | AGR | Solde agroalimentaire français excédentaire de 12 Md€ | ✅ |
 | 2000 | ENV | Loi relative à la chasse | ⚠ |
@@ -1793,7 +1758,6 @@
 | 2000 | TRA | Durée du travail passe à 35 heures dans les entreprises de plus de 20 salariés | ⚠ |
 | 2000 | TRA | Ouverture de la Fête du Travail marquée par les 35h | ⚠ |
 | 2000 | SCI | Mort de Jacqueline Auriol, première femme pilote d'essai (82 ans) | 💀 |
-| 2000 | MÉD | Filme le rituel Cremation of Care | ⚠ |
 | 2000 | MÉD | Filme le rituel Cremation of Care | ⚠ |
 
 ### 2001
@@ -1909,7 +1873,6 @@
 | 2002 | CUL | Césars 2002 : « Le Fabuleux Destin d'Amélie Poulain » grand vainqueur | ✅ |
 | 2002 | CUL | Mort de l'acteur André Pousse | 💀 |
 | 2002 | CUL | Paulhus et Williams : narcissisme, machiavélisme, psychopathie | ✅ |
-| 2002 | CUL | Paulhus et Williams : narcissisme, machiavélisme, psychopathie | ✅ |
 | 2002 | IMM | Nicolas Sarkozy fait fermer le centre de Sangatte | ❌ |
 | 2002 | SPO | Finale de la Coupe de France Bastia-Lorient : Marseillaise sifflée par des spectateurs corses | ❌ |
 | 2002 | SPO | Football : Lyon champion de France pour la 1re fois | ✅ |
@@ -1946,7 +1909,6 @@
 | 2003 | ÉDU | 30 000 étudiants manifestent en France contre la réforme LMD-ECTS | ❌ |
 | 2003 | ÉDU | Début de la baisse continue PISA | ❌ |
 | 2003 | ÉDU | Grève à l'université Rennes II contre la réforme LMD-ECTS ; début d'une mobilisation nationale | ❌ |
-| 2003-2005 | ÉDU | Classe préparatoire Sainte-Geneviève "Ginette", section PCSI-1 | ⚠ |
 | 2003-2005 | ÉDU | Classe préparatoire Sainte-Geneviève "Ginette", section PCSI-1 | ⚠ |
 | 2003 | AGR | Réforme Fischler (conditionnalité environnementale) : 32% des exploitations ne respectent pas les conditions, aucune sanction significative | ❌ |
 | 2003 | TEC | Ouverture de la ligne TGV Méditerranée : Paris-Marseille en 3h | ✅ |
@@ -2031,7 +1993,6 @@
 | 2004 | MIL | Loi de programmation militaire 2003-2008 | ⚠ |
 | 2004 | SCI | Transit de la planète Vénus devant le disque solaire (phénomène rare, prochain en 2012) | ✅ |
 | 2004 | TER | 27 témoins morts suspect (Guardian) | 💀 |
-| 2004 | TER | 27 témoins morts suspect (Guardian) | 💀 |
 
 ### 2005
 
@@ -2066,10 +2027,7 @@
 | 2005-02-10 | JUR | Alain Soral condamné 10 000€ amende pour insultes racistes | ❌ |
 | 2005 | SANT | Plan Cancer : Chirac annonce 2e plan de lutte | ✅ |
 | 2005-2009 | ÉDU | Amélie de Montchalin diplômée de HEC Paris | ⚠ |
-| 2005-2009 | ÉDU | Amélie de Montchalin diplômée de HEC Paris | ⚠ |
 | 2005-2009 | ÉDU | Double licence en Histoire (Paris-Sorbonne) et Économie appliquée (Paris-Dauphine) | ✅ |
-| 2005-2009 | ÉDU | Double licence en Histoire (Paris-Sorbonne) et Économie appliquée (Paris-Dauphine) | ✅ |
-| 2005-2009 | ÉDU | HEC Paris promotion H.05 "Pêcheurs de Lune" (300 personnes) | ⚠ |
 | 2005-2009 | ÉDU | HEC Paris promotion H.05 "Pêcheurs de Lune" (300 personnes) | ⚠ |
 | 2005 | AGR | Fin des quotas laitiers dans l'UE | ⚠ |
 | 2005 | TEC | Lancement de la TNT gratuite : 6 nouvelles chaînes | ✅ |
@@ -2095,7 +2053,6 @@
 | 2005 | TRA | Grève des intermittents du spectacle | ❌ |
 | 2005 | TRA | Loi organique relative aux lois de finances (LOLF) | ✅ |
 | 2005 | TRA | Loi sur la croissance économique (CPE inclus) | ⚠ |
-| 2005 | TER | Financement via Epstein, triangle Paris/New York/Miami | ❌ |
 | 2005 | TER | Financement via Epstein, triangle Paris/New York/Miami | ❌ |
 
 ### 2006
@@ -2169,7 +2126,6 @@
 | 2006 | CUL | Mort de Claude Piéplu, acteur (83 ans) | 💀 |
 | 2006 | CUL | Mort de Darry Cowl, musicien et comédien (80 ans) | 💀 |
 | 2006 | CUL | Mort de Gérard Oury, cinéaste (87 ans) | 💀 |
-| 2006 | CUL | Mort de Gérard Oury, cinéaste (87 ans) | 💀 |
 | 2006 | CUL | Mort de Jean-François Revel, journaliste et essayiste (82 ans) | 💀 |
 | 2006 | CUL | Mort de Philippe Noiret, acteur (76 ans) | 💀 |
 | 2006 | CUL | Mort de Philippe Noiret, acteur français | 💀 |
@@ -2202,8 +2158,6 @@
 | 2006 | MÉD | Lancement de France 24 : télévision d'information | ✅ |
 | 2006 | MÉD | Libération : plan social, licenciements | ❌ |
 | 2006 | TER | Capturée par Maxwell, menacée de mort et mort famille | 💀 |
-| 2006 | TER | Capturée par Maxwell, menacée de mort et mort famille | 💀 |
-| 2006 | TER | Violée répétition New York et île, plusieurs fois par jour | 💀 |
 | 2006 | TER | Violée répétition New York et île, plusieurs fois par jour | 💀 |
 
 ### 2007
@@ -2212,7 +2166,6 @@
 |---|---|---|---|
 | 2007 | POL | Bernard Kouchner aux Affaires étrangères (divers gauche) | ⚠ |
 | 2007 | POL | Emmanuel Macron rencontre président McKinsey France Éric Labaye via commission Attali | ⚠ |
-| 2007 | POL | European Leadership Network | ❌ |
 | 2007 | POL | European Leadership Network | ❌ |
 | 2007 | POL | François Bayrou crée le MoDem après son score à 18,57 % | ⚠ |
 | 2007 | POL | Gouvernement Fillon I puis Fillon II : ministres venus de gauche | ⚠ |
@@ -2260,11 +2213,9 @@
 | 2008 | ÉCO | Aide aux banques : 360 milliards € de garanties de l'État | ✅ |
 | 2008 | ÉCO | Chômage repasse au-dessus de 2 millions de chômeurs | ❌ |
 | 2008 | ÉCO | Création du réseau Peppol avec financement de la Commission européenne | ⚠ |
-| 2008 | ÉCO | Création du réseau Peppol avec financement de la Commission européenne | ⚠ |
 | 2008 | ÉCO | Effondrement du CAC 40 : -42,7 % sur l'année | ❌ |
 | 2008 | ÉCO | Loi de modernisation de l'économie (LME) adoptée | ⚠ |
 | 2008 | ÉCO | Plan de relance français de 26 milliards d'euros | ⚠ |
-| 2008 | ÉCO | Sardex (Sardaigne) créé ; en 2023 : 5 000 entreprises, 500 M€ de volume d'échanges | ✅ |
 | 2008 | ÉCO | Sardex (Sardaigne) créé ; en 2023 : 5 000 entreprises, 500 M€ de volume d'échanges | ✅ |
 | 2008 | SOC | Epstein visite Brunel ≥70 fois en prison pendant 13 mois d'incarcération | ❌ |
 | 2008 | SOC | Grève des marins-pêcheurs : blocage des ports | ⚠ |
@@ -2272,17 +2223,12 @@
 | 2008 | SOC | Mouvement des conducteurs de train contre la réforme | ⚠ |
 | 2008 | SOC | RSA expérimenté puis généralisé comme revenu socle | ⚠ |
 | 2008 | JUR | Arrêt Kadi de la CJUE (2008) : droits fondamentaux priment sur obligations internationales | ✅ |
-| 2008 | JUR | Arrêt Kadi de la CJUE (2008) : droits fondamentaux priment sur obligations internationales | ✅ |
 | 2008 | JUR | Calculé par Truth Engine | ❌ |
-| 2008 | JUR | Calculé par Truth Engine | ❌ |
-| 2008 | JUR | Immunité absolue à tous complices | ❌ |
 | 2008 | JUR | Immunité absolue à tous complices | ❌ |
 | 2008 | JUR | Mise en place système surveillance communications UE : ePrivacy Directive | ⚠ |
 | 2008 | JUR | Non-Prosecution Agreement | ❌ |
-| 2008 | JUR | Non-Prosecution Agreement | ❌ |
 | 2008 | JUR | Non-Prosecution Agreement (NPA) Epstein: immunité totale pour Epstein et co-conspirateurs invoquant sécurité nationale | 💀 |
 | 2008 | JUR | Réforme carte judiciaire : suppression de 23 tribunaux | ❌ |
-| 2008 | JUR | Sollicitation d'une mineure | ❌ |
 | 2008 | JUR | Sollicitation d'une mineure | ❌ |
 | 2008 | SANT | Loi HPST (Hôpital, Patients, Santé, Territoires) adoptée | ❌ |
 | 2008 | AGR | L'UE interdit l'œstradiol 17β (cancérogène OMS) comme hormone de croissance dans ses élevages | ✅ |
@@ -2292,7 +2238,6 @@
 | 2008 | ENV | Loi Grenelle I promulguée : objectifs environnementaux | ✅ |
 | 2008 | ENV | Taxe carbone : annoncée puis censurée par le Conseil constitutionnel | ❌ |
 | 2008 | TEC | Déploiement TNT achevé dans toutes les régions | ✅ |
-| 2008 | TEC | Lancement du réseau Peppol avec financement de la Commission européenne | ⚠ |
 | 2008 | TEC | Lancement du réseau Peppol avec financement de la Commission européenne | ⚠ |
 | 2008 | CUL | Loi Création et Internet dite HADOPI adoptée | ❌ |
 | 2008 | CUL | Projet du Grand Paris annoncé par Sarkozy | ⚠ |
@@ -2316,14 +2261,11 @@
 | 2009 | POL | Élections européennes : large victoire UMP 27,9 % | ⚠ |
 | 2009 | ÉCO | Création du Fonds stratégique d'investissement (FSI) | ✅ |
 | 2009 | ÉCO | Emploi chez Exane BNP Paribas comme économiste junior | ⚠ |
-| 2009 | ÉCO | Emploi chez Exane BNP Paribas comme économiste junior | ⚠ |
 | 2009 | ÉCO | Fin du bouclier fiscal réaménagé | ❌ |
 | 2009 | ÉCO | PIB : -2,7 %, récession historique en France | ❌ |
 | 2009 | ÉCO | Première procédure de déficit excessif ouverte contre France (close 2018) | ❌ |
 | 2009 | ÉCO | Taxe carbone invalidée par le Conseil constitutionnel | ❌ |
 | 2009-2020 | ÉCO | Guillaume de Montchalin partner au Boston Consulting Group (BCG) | ⚠ |
-| 2009-2020 | ÉCO | Guillaume de Montchalin partner au Boston Consulting Group (BCG) | ⚠ |
-| 2009 | SOC | Filles d'Andrew | ❌ |
 | 2009 | SOC | Filles d'Andrew | ❌ |
 | 2009 | SOC | Grève Antilles : 44 jours de mobilisation, hausse des salaires | ⚠ |
 | 2009 | SOC | Grève générale du 19 mars : 3 millions de manifestants | ⚠ |
@@ -2363,14 +2305,11 @@
 | 2010 | ÉCO | Loi NOME créant l'ARENH : EDF forcé de vendre 100 TWh à 42 €/MWh | ❌ |
 | 2010 | ÉCO | Loi de réforme des collectivités territoriales | ❌ |
 | 2010 | SOC | Babiak, Neumann, Hare (2010) | ❌ |
-| 2010 | SOC | Babiak, Neumann, Hare (2010) | ❌ |
 | 2010 | SOC | Grève des marins et routiers | ⚠ |
 | 2010 | SOC | Grève générale contre réforme des retraites (12 manifestations) | ❌ |
 | 2010 | SOC | Mouvement lycéen contre la réforme : blocages établissements | ⚠ |
 | 2010 | SOC | Réforme des retraites : passage de 60 à 62 ans | ❌ |
 | 2010 | JUR | Alcatel condamnée pour corruption active au Costa Rica | ❌ |
-| 2010 | JUR | Alcatel condamnée pour corruption active au Costa Rica | ❌ |
-| 2010 | JUR | Christine Lagarde : coupable mais dispensée de peine | ❌ |
 | 2010 | JUR | Christine Lagarde : coupable mais dispensée de peine | ❌ |
 | 2010 | JUR | Dissolution de groupuscules d'extrême droite | ⚠ |
 | 2010 | JUR | Loi Loppsi 2 : sécurité intérieure controversée | ❌ |
@@ -2397,9 +2336,7 @@
 | 2010 | TRA | Grève SNCF contre la réforme ferroviaire | ⚠ |
 | 2010 | TRA | Loi de réforme ferroviaire adoptée | ❌ |
 | 2010-2020 | DIP | "Diplomatie du caviar" : 30 millions € dépensés par régime Aliyev pour corrompre parlementaires européens | 💀 |
-| 2010-2020 | DIP | "Diplomatie du caviar" : 30 millions € dépensés par régime Aliyev pour corrompre parlementaires européens | 💀 |
 | 2010 | MÉD | Loi sur le secret des sources pour les journalistes | ✅ |
-| 2010 | TER | Victime décrit calvaire dans fauteuil dentaire sous serment | 💀 |
 | 2010 | TER | Victime décrit calvaire dans fauteuil dentaire sous serment | 💀 |
 
 ### 2011
@@ -2415,14 +2352,9 @@
 | 2011 | ÉCO | Crise de la dette zone euro : plan de soutien | ❌ |
 | 2011 | ÉCO | Passage à l'euro en Estonie (zone euro élargie) | ⚠ |
 | 2011-2020 | ÉCO | Des consultants McKinsey ont rejoint des cabinets ministériels puis sont retournés chez McKinsey | ❌ |
-| 2011-2020 | ÉCO | Des consultants McKinsey ont rejoint des cabinets ministériels puis sont retournés chez McKinsey | ❌ |
-| 2011-2020 | ÉCO | McKinsey a perçu des dizaines de millions € de contrats avec l'État | ❌ |
 | 2011-2020 | ÉCO | McKinsey a perçu des dizaines de millions € de contrats avec l'État | ❌ |
 | 2011-2020 | ÉCO | McKinsey n'a payé aucun impôt sur les sociétés en France selon rapport du Sénat | ❌ |
-| 2011-2020 | ÉCO | McKinsey n'a payé aucun impôt sur les sociétés en France selon rapport du Sénat | ❌ |
 | 2011-2020 | ÉCO | McKinsey n'a payé aucun impôt sur les sociétés en France, tout en conseillant l'État sur sa stratégie fiscale | ❌ |
-| 2011-2020 | ÉCO | McKinsey n'a payé aucun impôt sur les sociétés en France, tout en conseillant l'État sur sa stratégie fiscale | ❌ |
-| 2011-2020 | ÉCO | McKinsey se défend : 422 millions € d'impôts et charges sociales (distinction IS/charges floue) | ⚠ |
 | 2011-2020 | ÉCO | McKinsey se défend : 422 millions € d'impôts et charges sociales (distinction IS/charges floue) | ⚠ |
 | 2011 | SOC | Grève des cheminots contre la réforme ferroviaire | ⚠ |
 | 2011 | SOC | Grève des magistrats contre la politique pénale | ⚠ |
@@ -2463,7 +2395,6 @@
 | 2012 | ÉCO | Pacte de compétitivité : Crédit d'Impôt Compétitivité Emploi | ⚠ |
 | 2012 | ÉCO | Taxe à 75 % sur les très hauts revenus annoncée | ❌ |
 | 2012-2014 | ÉCO | Passage de 2 ans au BCG Boston | ⚠ |
-| 2012-2014 | ÉCO | Passage de 2 ans au BCG Boston | ⚠ |
 | 2012 | SOC | Grève des cheminots contre la réforme ferroviaire | ⚠ |
 | 2012 | SOC | Manifestation contre le mariage pour tous : Manif pour tous | ⚠ |
 | 2012 | SOC | Mouvement des syndicats contre la loi Travail (prémices) | ⚠ |
@@ -2477,7 +2408,6 @@
 | 2012 | ENV | Conférence environnementale : feuille de route transition | ⚠ |
 | 2012 | ENV | Sommet Rio+20 : échec des négociations internationales | ❌ |
 | 2012 | TEC | ANSSI: 800 personnes | ✅ |
-| 2012 | TEC | Fondation du Forum National de la Facture Électronique (FNFE) en France | ⚠ |
 | 2012 | TEC | Fondation du Forum National de la Facture Électronique (FNFE) en France | ⚠ |
 | 2012 | TEC | François Hollande annonce la fermeture de Fessenheim | ❌ |
 | 2012 | TEC | Lancement de Free Mobile : révolution des prix | ✅ |
@@ -2546,19 +2476,14 @@
 | 2014 | POL | Emmanuel Macron nommé ministre Économie : supervise vente Alstom à GE | ⚠ |
 | 2014 | POL | Européennes 2014 : FN premier parti (24,86 %) | ❌ |
 | 2014 | POL | José Manuel Barroso (ex-Président Commission Européenne) → Goldman Sachs | ❌ |
-| 2014 | POL | José Manuel Barroso (ex-Président Commission Européenne) → Goldman Sachs | ❌ |
 | 2014 | POL | Montebourg, Hamon, Filippetti quittent le gouvernement | ❌ |
 | 2014 | POL | Municipales : large défaite PS, vague bleue puis FN | ❌ |
 | 2014 | POL | Nov : gouvernement Valls valide vente branche Énergie Alstom à GE | ❌ |
 | 2014 | POL | Quand les 10% les plus riches soutiennent une loi, elle a 78% de chances d'être adoptée (Gilens & Page) | ❌ |
-| 2014 | POL | Quand les 10% les plus riches soutiennent une loi, elle a 78% de chances d'être adoptée (Gilens & Page) | ❌ |
 | 2014 | POL | Remaniement : gouvernement Valls I puis Valls II | ⚠ |
 | 2014 | POL | Élections sénatoriales : droite majoritaire | ❌ |
 | 2014 | POL | Étude Gilens & Page (Princeton) : politiques publiques sans corrélation avec préférences électorat moyen | ❌ |
-| 2014 | POL | Étude Gilens & Page (Princeton) : politiques publiques sans corrélation avec préférences électorat moyen | ❌ |
 | 2014 | ÉCO | Alstom : vente branche énergie à General Electric validée par Macron ministre, perte de souveraineté nucléaire (turbines Arabelle) | 💀 |
-| 2014 | ÉCO | Alstom : vente branche énergie à General Electric validée par Macron ministre, perte de souveraineté nucléaire (turbines Arabelle) | 💀 |
-| 2014 | ÉCO | Banque d'Angleterre confirme que les banques créent la monnaie ex nihilo | ⚠ |
 | 2014 | ÉCO | Banque d'Angleterre confirme que les banques créent la monnaie ex nihilo | ⚠ |
 | 2014 | ÉCO | CICE : 20 milliards d'euros de crédit d'impôt | ⚠ |
 | 2014 | ÉCO | Chômage : 3,5 millions en France métropolitaine | ❌ |
@@ -2569,15 +2494,12 @@
 | 2014 | ÉCO | Pacte de responsabilité adopté | ⚠ |
 | 2014 | ÉCO | RN contracte prêt 11M€ auprès First Czech-Russian Bank (banque russe) | ❌ |
 | 2014 | ÉCO | Richard Werner démontre expérimentalement : emprunte 200 000 € à une banque, dépôt créé sans transfert depuis un autre compte | ⚠ |
-| 2014 | ÉCO | Richard Werner démontre expérimentalement : emprunte 200 000 € à une banque, dépôt créé sans transfert depuis un autre compte | ⚠ |
 | 2014 | ÉCO | Vente Alstom-GE : 12,35 Mds€, perte souveraineté nucléaire française | 💀 |
-| 2014-2017 | ÉCO | Directrice prospective et politiques publiques chez AXA | ⚠ |
 | 2014-2017 | ÉCO | Directrice prospective et politiques publiques chez AXA | ⚠ |
 | 2014 | SOC | Al Jazeera : swastika, insignes SS documentés sur uniformes Azov | ❌ |
 | 2014 | SOC | CNN : soldats Azov arboraient insignes nazis sur casques de combat | ❌ |
 | 2014 | SOC | Grève SNCF contre réforme ferroviaire | ⚠ |
 | 2014 | SOC | Grève des fonctionnaires | ⚠ |
-| 2014 | SOC | Jimmy Savile, ami famille royale, jamais inquiété vivant | 💀 |
 | 2014 | SOC | Jimmy Savile, ami famille royale, jamais inquiété vivant | 💀 |
 | 2014 | SOC | Loi Pinel (défiscalisation immobilière) | ⚠ |
 | 2014 | SOC | Manifestation contre le barrage Sivens (Rémi Fraisse meurt) | 💀 |
@@ -2588,13 +2510,11 @@
 | 2014 | JUR | Alstom plaide coupable FCPA : amende record 772 M$ (545 M€) | 💀 |
 | 2014 | JUR | Caroline Fourest condamnée pour diffamation envers Alain Soral (2014), puis relaxée en appel (2015) | ⚠ |
 | 2014 | JUR | Directive 2014/55/EU rend la facturation électronique obligatoire pour les marchés publics | ⚠ |
-| 2014 | JUR | Directive 2014/55/EU rend la facturation électronique obligatoire pour les marchés publics | ⚠ |
 | 2014 | JUR | Loi sur la consommation (loi Hamon) adoptée | ✅ |
 | 2014 | JUR | Loi sur la justice du XXIe siècle préparée | ⚠ |
 | 2014 | JUR | Projet de loi sur le renseignement (préparé) | ⚠ |
 | 2014 | JUR | Virginia Giuffre allègue dans dossier judiciaire que MC2 Brunel était couverture trafic sexuel Epstein | ⚠ |
 | 2014 | SANT | Scandale du Levothyrox : début des signalements | ❌ |
-| 2014 | ÉDU | Master en administration publique de la Harvard Kennedy School | ⚠ |
 | 2014 | ÉDU | Master en administration publique de la Harvard Kennedy School | ⚠ |
 | 2014 | ENV | Barrage de Sivens : mort de Rémi Fraisse | 💀 |
 | 2014 | ENV | COP20 à Lima : préparatifs COP21 | ⚠ |
@@ -2621,7 +2541,6 @@
 | 2015 | POL | COP21 : accord de Paris sur le climat adopté | ✅ |
 | 2015 | POL | Déclaration de guerre contre Daech | ⚠ |
 | 2015 | POL | Loi de programmation militaire : budget défense | ⚠ |
-| 2015 | POL | Neelie Kroes (ex-Commissaire Concurrence) → Uber | ❌ |
 | 2015 | POL | Neelie Kroes (ex-Commissaire Concurrence) → Uber | ❌ |
 | 2015 | POL | Opération Chammal : bombardements en Irak et Syrie | ⚠ |
 | 2015 | POL | Réforme territoriale : 13 régions fusionnées | ❌ |
@@ -2665,7 +2584,6 @@
 | 2015 | ENV | Taxe carbone : projet de loi révisé | ⚠ |
 | 2015 | TEC | BCE lance PSPP (assouplissement quantitatif): ~2 600 Md€ rachats dette publique européenne | ⚠ |
 | 2015 | TEC | Commission européenne héberge le Service Metadata Locator via accord avec OpenPeppol | ⚠ |
-| 2015 | TEC | Commission européenne héberge le Service Metadata Locator via accord avec OpenPeppol | ⚠ |
 | 2015 | TEC | L'Union européenne crée l'EU Internet Forum, mécanisme de coordination plateformes-autorités | ❌ |
 | 2015 | TEC | Lancement de la SNCF bot commercial | ⚠ |
 | 2015 | TEC | Loi numérique : République numérique | ⚠ |
@@ -2680,23 +2598,18 @@
 | 2015 | MIL | Vente 24 Rafale à l'Égypte | ✅ |
 | 2015 | MIL | Vente 36 Rafale au Qatar | ✅ |
 | 2015 | MÉD | EU Internet Forum créé après Charlie Hebdo, étendu au contenu « frontal » | ❌ |
-| 2015 | MÉD | EU Internet Forum créé après Charlie Hebdo, étendu au contenu « frontal » | ❌ |
 
 ### 2016
 
 | Année | Dimension | Description | Code |
 |---|---|---|---|
 | 2016 | POL | "Consulting Boys de la Macronie" : expression de Consultor.fr pour consultants BCG/McKinsey infiltrés | ❌ |
-| 2016 | POL | "Consulting Boys de la Macronie" : expression de Consultor.fr pour consultants BCG/McKinsey infiltrés | ❌ |
 | 2016 | POL | Assassinat de policiers à Magnanville (IS) | 💀 |
 | 2016 | POL | Attentat Nice : 86 morts camion bélier promenade Anglais | 💀 |
 | 2016 | POL | Attentat Saint-Étienne-du-Rouvray : assassinat prêtre | 💀 |
 | 2016 | POL | Avril 2016 : Emmanuel Macron lance En Marche | ⚠ |
-| 2016 | POL | Avril 2016 : Emmanuel Macron lance En Marche | ⚠ |
 | 2016 | POL | Consultants McKinsey participent activement campagne Macron 2017 (MacronLeaks) | ⚠ |
 | 2016 | POL | Entretien 2016, vocabulaire religieux (« mission », « transcendance ») | ⚠ |
-| 2016 | POL | Entretien 2016, vocabulaire religieux (« mission », « transcendance ») | ⚠ |
-| 2016 | POL | Juin 2016 : Guillaume de Montchalin organise un "Office Friday" BCG pour Emmanuel Macron, 2 mois après lancement d'En Marche | ❌ |
 | 2016 | POL | Juin 2016 : Guillaume de Montchalin organise un "Office Friday" BCG pour Emmanuel Macron, 2 mois après lancement d'En Marche | ❌ |
 | 2016 | POL | Le Sejm polonais reconnaît les massacres de Volhynie comme génocide | ⚠ |
 | 2016 | POL | Loi Sapin 2 : transparence vie publique | ✅ |
@@ -2731,7 +2644,6 @@
 | 2016 | JUR | Soral: 10 000€ amende pour dessin « Shoah où t'es ? » | ❌ |
 | 2016 | JUR | État d'urgence incorporé dans le droit commun | ❌ |
 | 2016-2024 | JUR | +51% d'atteintes à la probité (affaires locales) entre 2016 et 2024 | 💀 |
-| 2016-2024 | JUR | +51% d'atteintes à la probité (affaires locales) entre 2016 et 2024 | 💀 |
 | 2016 | SANT | Loi de modernisation du système de santé | ✅ |
 | 2016 | ÉDU | Loi pour une École de la confiance | ⚠ |
 | 2016 | ÉDU | Réforme du collège appliquée : polémique | ❌ |
@@ -2742,7 +2654,6 @@
 | 2016 | AGR | Signature du CETA (UE-Canada) | ❌ |
 | 2016 | ENV | COP22 à Marrakech : application Accord Paris | ✅ |
 | 2016 | ENV | Inondations Seine : crue centennale, musées fermés | ⚠ |
-| 2016 | TEC | FNFE constitué en association loi 1901, plus de 200 membres | ⚠ |
 | 2016 | TEC | FNFE constitué en association loi 1901, plus de 200 membres | ⚠ |
 | 2016 | TEC | French Tech : visa start-up | ✅ |
 | 2016 | TEC | Réseau fibre optique : déploiement accéléré | ⚠ |
@@ -2767,26 +2678,19 @@
 | 2017 | POL | Attentat Marseille Saint-Charles : 2 mortes | 💀 |
 | 2017 | POL | Création En Marche ! puis Renaissance | ✅ |
 | 2017 | POL | Discours à Athènes, 8 septembre 2017 | ❌ |
-| 2017 | POL | Discours à Athènes, 8 septembre 2017 | ❌ |
 | 2017 | POL | Gouvernement Philippe I puis Philippe II | ⚠ |
 | 2017 | POL | Loi pour la confiance dans la vie politique | ✅ |
 | 2017 | POL | Macron : « Les gens qui ne sont rien » | ❌ |
-| 2017 | POL | Macron : « Les gens qui ne sont rien » | ❌ |
 | 2017 | POL | Marine Le Pen au second tour : score 33,9 % | ⚠ |
 | 2017 | POL | Qualifiée "d'agent de lobbying" par Politique Magazine | ❌ |
-| 2017 | POL | Qualifiée "d'agent de lobbying" par Politique Magazine | ❌ |
-| 2017 | POL | Trois mécanismes identifiés : Inversion Orwellienne, Déni d'Évidence (Gaslighting d'État), Amnésie Organisée | ❌ |
 | 2017 | POL | Trois mécanismes identifiés : Inversion Orwellienne, Déni d'Évidence (Gaslighting d'État), Amnésie Organisée | ❌ |
 | 2017 | POL | Victoire LREM aux législatives : majorité absolue | ✅ |
 | 2017 | POL | Élection présidentielle : Emmanuel Macron élu (66,1 %) | ✅ |
 | 2017 | POL | Élections législatives : renouvellement massif | ⚠ |
 | 2017-2022 | POL | Classée 594e sur 648 députés au classement écologique ParlemenTerre de l'ONG Agir pour l'Environnement | ❌ |
-| 2017-2022 | POL | Classée 594e sur 648 députés au classement écologique ParlemenTerre de l'ONG Agir pour l'Environnement | ❌ |
-| 2017-2025 | POL | 407 contradictions factuelles documentées depuis 2017 (8 ans d'inversions, dénis, dissimulations) | ❌ |
 | 2017-2025 | POL | 407 contradictions factuelles documentées depuis 2017 (8 ans d'inversions, dénis, dissimulations) | ❌ |
 | 2017 | ÉCO | 200 000 emplois industriels supplémentaires perdus depuis 2017 | ❌ |
 | 2017 | ÉCO | 60 milliards d'€ de baisse de charges annoncée | ✅ |
-| 2017 | ÉCO | Autorisation vente branche énergie Alstom (turbines Arabelle) à General Electric — perte contrôle maintenance centrales nucléaires | 💀 |
 | 2017 | ÉCO | Autorisation vente branche énergie Alstom (turbines Arabelle) à General Electric — perte contrôle maintenance centrales nucléaires | 💀 |
 | 2017 | ÉCO | Baisses d'impôts depuis 2017: 62 Md€ recettes non perçues en 2023 (Cour des comptes) | ❌ |
 | 2017 | ÉCO | CICE transformé en baisse de charges durables | ✅ |
@@ -2796,7 +2700,6 @@
 | 2017 | ÉCO | Solde primaire déficitaire depuis 2017 (Cour des comptes) | ❌ |
 | 2017 | ÉCO | Spread OAT/Bund: 35 pb en 2017 | ⚠ |
 | 2017 | ÉCO | Taux IS passe de 33,3% à 25% (grandes entreprises), 15% (PME) | ⚠ |
-| 2017-2022 | ÉCO | McKinsey : 72,8 M€ de contrats entre 2017 et 2022 | ❌ |
 | 2017-2022 | ÉCO | McKinsey : 72,8 M€ de contrats entre 2017 et 2022 | ❌ |
 | 2017 | SOC | 14,1% taux de pauvreté | ⚠ |
 | 2017 | SOC | 32% demandeurs emploi sans indemnité en fin de droits | ❌ |
@@ -2810,10 +2713,8 @@
 | 2017 | SOC | Réforme du Code du travail par ordonnances | ❌ |
 | 2017 | SOC | Simon Wiesenthal Center condamne le renommage des rues de Kiev | ❌ |
 | 2017 | SOC | « Loi pour la liberté de choisir son avenir professionnel » : réduit droits au chômage et durcit contrôle des demandeurs d'emploi | ❌ |
-| 2017 | SOC | « Loi pour la liberté de choisir son avenir professionnel » : réduit droits au chômage et durcit contrôle des demandeurs d'emploi | ❌ |
 | 2017 | JUR | Loi 2017-1837: suppression ISF sur capital mobilier, 9 Md€ exclus | ❌ |
 | 2017 | JUR | Loi de programmation Justice (nouvelle) | ⚠ |
-| 2017 | JUR | Loi de renseignement national chinois oblige toutes les entreprises chinoises à coopérer avec les services de renseignement | ❌ |
 | 2017 | JUR | Loi de renseignement national chinois oblige toutes les entreprises chinoises à coopérer avec les services de renseignement | ❌ |
 | 2017 | JUR | Loi pour la confiance dans l'institution judiciaire | ⚠ |
 | 2017 | JUR | Loi sur le secret des affaires adoptée | ❌ |
@@ -2823,7 +2724,6 @@
 | 2017 | SANT | Budget Sécurité sociale : 200 → 256 Md€ (+30 %) (PLFSS 2024) | ⚠ |
 | 2017 | SANT | Moins de 500 ruptures de stock de médicaments (ANSM) | ✅ |
 | 2017 | SANT | Scandale Levothyrox : changement de formule, 30 000 plaintes | ❌ |
-| 2017-2019 | SANT | 5 700 lits d'hôpital supprimés entre 2017 et 2019 | ❌ |
 | 2017-2019 | SANT | 5 700 lits d'hôpital supprimés entre 2017 et 2019 | ❌ |
 | 2017 | ÉDU | 350 000 enfants suivis par ASE | ⚠ |
 | 2017 | ÉDU | Loi sur la liberté de choisir son avenir professionnel | ⚠ |
@@ -2836,18 +2736,13 @@
 | 2017 | ENV | Plan climat 2017-2022 : sortie des hydrocarbures | ✅ |
 | 2017 | ENV | Remise du rapport sur le Grand Paris Express | ⚠ |
 | 2017-2020 | ENV | Promesse de réduire le nucléaire à 50%, fermeture de Fessenheim (centrale opérationnelle et rentable) | ❌ |
-| 2017-2020 | ENV | Promesse de réduire le nucléaire à 50%, fermeture de Fessenheim (centrale opérationnelle et rentable) | ❌ |
-| 2017-2022 | ENV | A voté contre l'interdiction des passoires thermiques | ❌ |
 | 2017-2022 | ENV | A voté contre l'interdiction des passoires thermiques | ❌ |
 | 2017-2022 | ENV | A voté contre la taxation du kérosène | ❌ |
-| 2017-2022 | ENV | A voté contre la taxation du kérosène | ❌ |
-| 2017-2022 | ENV | A voté contre le renforcement des normes automobiles | ❌ |
 | 2017-2022 | ENV | A voté contre le renforcement des normes automobiles | ❌ |
 | 2017 | TEC | Emmanuel Macron propose un label pour les médias | ❌ |
 | 2017 | TEC | Google, Facebook, Twitter et Microsoft créent le GIFCT (Global Internet Forum to Counter Terrorism) | ❌ |
 | 2017 | TEC | Juin : DSA proposé par Commission Juncker | ⚠ |
 | 2017 | TEC | Lancement de la 5G en préparation | ⚠ |
-| 2017 | TEC | Loi chinoise oblige toute entreprise chinoise à coopérer avec renseignement | ❌ |
 | 2017 | TEC | Loi chinoise oblige toute entreprise chinoise à coopérer avec renseignement | ❌ |
 | 2017 | TEC | Ouverture du marché des trains grandes lignes | ⚠ |
 | 2017 | TEC | Réseau ELNET: 101 voyages parlementaires en Israël | ❌ |
@@ -2868,7 +2763,6 @@
 | 2017 | DIP | CETA appliqué provisoirement malgré opposition française | ❌ |
 | 2017-01-11 | DIP | Dmitriev rencontre Erik Prince (Blackwater) aux Seychelles (rapport Mueller) | ❌ |
 | 2017 | MÉD | 14 catégories de contenus surveillés dont satire politique | ❌ |
-| 2017 | MÉD | 14 catégories de contenus surveillés dont satire politique | ❌ |
 | 2017 | MÉD | Transformation i-Télé en CNews | ❌ |
 
 ### 2018
@@ -2883,10 +2777,8 @@
 | 2018 | POL | Démissions Gérard Collomb Intérieur | ❌ |
 | 2018 | POL | Grand débat national lancé par Macron | ⚠ |
 | 2018 | POL | Macron : « Je traverse la rue, je vous trouve du travail » | ❌ |
-| 2018 | POL | Macron : « Je traverse la rue, je vous trouve du travail » | ❌ |
 | 2018 | POL | Remaniement : Christophe Castaner Intérieur | ⚠ |
 | 2018 | POL | Édouard Philippe Premier ministre continue | ⚠ |
-| 2018-2020 | POL | « Gaulois réfractaires », « Les Fainéants » | ❌ |
 | 2018-2020 | POL | « Gaulois réfractaires », « Les Fainéants » | ❌ |
 | 2018 | ÉCO | Croissance 1,9 % du PIB | ⚠ |
 | 2018 | ÉCO | Entre 2018 et 2022, l'État français attribue plus d'un milliard d'euros de contrats de conseil à des cabinets privés (Sénat) | ❌ |
@@ -2896,11 +2788,9 @@
 | 2018 | ÉCO | Loi 2018-120: flat tax 30% sur revenus capital vs 45-50% sur travail | ❌ |
 | 2018 | ÉCO | Loi PACTE adoptée | ⚠ |
 | 2018 | ÉCO | Suisse : initiative Vollgeld (monnaie pleine) soumise au vote, rejetée à 71% | ❌ |
-| 2018 | ÉCO | Suisse : initiative Vollgeld (monnaie pleine) soumise au vote, rejetée à 71% | ❌ |
 | 2018 | ÉCO | Suppression de l'ISF sur le capital mobilier | ❌ |
 | 2018 | ÉCO | Transformation CICE en baisse de charges | ✅ |
 | 2018 | SOC | Blocage des universités (Gilets jaunes) | ⚠ |
-| 2018 | SOC | Dissimulation « sophistiquée » par hiérarchie | 💀 |
 | 2018 | SOC | Dissimulation « sophistiquée » par hiérarchie | 💀 |
 | 2018 | SOC | Gilets jaunes : blocages, violences, Acte II-XL | ❌ |
 | 2018 | SOC | Gilets jaunes : crise politique majeure, Macron à l'Élysée | ❌ |
@@ -2944,15 +2834,12 @@
 | 2018 | SCI | Thomas Pesquet : 2e mission spatiale | ✅ |
 | 2018 | MÉD | Emmanuelle Ducros reçoit le « Citi Journalistic Excellence Award » 2018, prix parrainé par Citibank récompensant les narratifs pro-marchés financiers | ❌ |
 | 2018 | MÉD | Emmanuelle Ducros rémunérée par la FNSEA/FEB (boulangerie) pour conférences en 2018, interviewe ensuite les mêmes lobbys | ❌ |
-| 2018 | MÉD | Emmanuelle Ducros rémunérée par la FNSEA/FEB (boulangerie) pour conférences en 2018, interviewe ensuite les mêmes lobbys | ❌ |
-| 2018-2019 | TER | Bilan Gilets Jaunes : 30 éborgnés, 5 mains arrachées, milliers de blessés, gardes à vue préventives par milliers | 💀 |
 | 2018-2019 | TER | Bilan Gilets Jaunes : 30 éborgnés, 5 mains arrachées, milliers de blessés, gardes à vue préventives par milliers | 💀 |
 
 ### 2019
 
 | Année | Dimension | Description | Code |
 |---|---|---|---|
-| 2019 | POL | Amélie de Montchalin nommée secrétaire d'État aux Affaires européennes le 31 mars 2019 | ⚠ |
 | 2019 | POL | Amélie de Montchalin nommée secrétaire d'État aux Affaires européennes le 31 mars 2019 | ⚠ |
 | 2019 | POL | Anticor dépose plainte avec constitution partie civile Alstom | ⚠ |
 | 2019 | POL | Assassinat de Mireille Knoll : antisémitisme | 💀 |
@@ -2970,7 +2857,6 @@
 | 2019 | ÉCO | Croissance 1,8 % du PIB | ⚠ |
 | 2019 | ÉCO | Loi PACTE en application | ⚠ |
 | 2019 | ÉCO | Mars 2019 : contrat BCG de 358 200 € avec l'État pour "améliorer l'accueil téléphonique des services publics" | ❌ |
-| 2019 | ÉCO | Mars 2019 : contrat BCG de 358 200 € avec l'État pour "améliorer l'accueil téléphonique des services publics" | ❌ |
 | 2019 | ÉCO | OuvLux: Luxembourg 80 000 sociétés écrans, 340/500 plus grandes entreprises françaises | ❌ |
 | 2019 | ÉCO | Réforme de l'assurance chômage | ❌ |
 | 2019-2023 | ÉCO | HSBC, Barclays, Santander, Deutsche Bank, BlackRock, JP Morgan, BNDES, BTG Pactual injectent +1 milliard $ dans le beef brésilien | ❌ |
@@ -2985,12 +2871,10 @@
 | 2019 | JUR | Août : Suicide Jeffrey Epstein en prison New York, circonstances suspectes | 💀 |
 | 2019 | JUR | Cour administrative annule le renommage de l'avenue Bandera | ⚠ |
 | 2019 | JUR | Gardiens endormis, caméras hors service | 💀 |
-| 2019 | JUR | Gardiens endormis, caméras hors service | 💀 |
 | 2019 | JUR | Loi anticasseur : liberté de manifester restreinte | ❌ |
 | 2019 | JUR | Loi pour une école de la confiance | ⚠ |
 | 2019 | JUR | Oct : Première plainte contre Jean-Luc Brunel pour harcèlement sexuel | ⚠ |
 | 2019 | JUR | Soral: 1 an prison ferme + mandat arrêt pour contestation Shoah — exilé Suisse | ❌ |
-| 2019 | JUR | Trafic sexuel de mineurs | ❌ |
 | 2019 | JUR | Trafic sexuel de mineurs | ❌ |
 | 2019 | SANT | Health Data Hub créé, hébergement confié à Microsoft Azure | ❌ |
 | 2019 | SANT | Loi bioéthique : PMA pour toutes préparée | ⚠ |
@@ -3011,7 +2895,6 @@
 | 2019 | TEC | Le Kazakhstan tente d'imposer un certificat État; les navigateurs le bloquent — impossible sous eIDAS 2.0 | ❌ |
 | 2019 | TEC | Le système HubEE (Hub d'Échange de l'État) lancé pour la dématérialisation administrative, accumule les failles de sécurité et les bugs critiques | ❌ |
 | 2019 | TEC | Logiciel utilisé par Tsahal en Cisjordanie pour surveiller citoyens (OrientXXI, 2019) | ❌ |
-| 2019 | TEC | Logiciel utilisé par Tsahal en Cisjordanie pour surveiller citoyens (OrientXXI, 2019) | ❌ |
 | 2019 | TEC | Taxe GAFAM instaurée (TSN 3%), rapport ~800 M€/an | ⚠ |
 | 2019 | CUL | Incendie Notre-Dame : élan de solidarité mondial | 💀 |
 | 2019 | CUL | Mort de Michel Serres | 💀 |
@@ -3024,8 +2907,6 @@
 | 2019 | TRA | Mai : GE annonce 1 050 suppressions postes Belfort (dont 792 turbines gaz), rupture promesses | ❌ |
 | 2019 | MIL | LPM 295 Md€ | ⚠ |
 | 2019 | MÉD | 55 pays, 12 plateformes (mai 2019) | ❌ |
-| 2019 | MÉD | 55 pays, 12 plateformes (mai 2019) | ❌ |
-| 2019 | TER | Alexander Acosta, signataire NPA, invoque raison d'État | ❌ |
 | 2019 | TER | Alexander Acosta, signataire NPA, invoque raison d'État | ❌ |
 
 ### 2020
@@ -3037,14 +2918,10 @@
 | 2020 | POL | Attentat de Conflans : assassinat Samuel Paty | 💀 |
 | 2020 | POL | Démission Édouard Philippe, Castex Premier ministre | ⚠ |
 | 2020 | POL | Interview Financial Times 14 avril 2020 | ⚠ |
-| 2020 | POL | Interview Financial Times 14 avril 2020 | ⚠ |
-| 2020 | POL | Le Monde Décodeurs vérifié le 22 mai 2020 | ⚠ |
 | 2020 | POL | Le Monde Décodeurs vérifié le 22 mai 2020 | ⚠ |
 | 2020 | POL | Loi Sécurité globale préparée | ❌ |
 | 2020 | POL | Loi contre les violences conjugales : Grenelle | ⚠ |
 | 2020 | POL | Macron : « Il n'y a pas de violences policières » — vidéos gilets jaunes éborgnés, ONU s'inquiète | ❌ |
-| 2020 | POL | Macron : « Il n'y a pas de violences policières » — vidéos gilets jaunes éborgnés, ONU s'inquiète | ❌ |
-| 2020 | POL | Macron : « Ne parlez pas de violences policières, ces mots sont inacceptables » | ❌ |
 | 2020 | POL | Macron : « Ne parlez pas de violences policières, ces mots sont inacceptables » | ❌ |
 | 2020 | POL | Municipales 2020 : vague verte (EELV grandes villes) | ✅ |
 | 2020 | POL | Municipales : second tour (report crise) | ⚠ |
@@ -3056,8 +2933,6 @@
 | 2020 | ÉCO | Plan de relance 100 milliards € (France Relance) | ✅ |
 | 2020 | ÉCO | Soutien aux entreprises : prêts garantis État | ✅ |
 | 2020 | ÉCO | « Loi de protection du pouvoir d'achat » : acte une désindexation de fait des salaires face à l'inflation réelle | ❌ |
-| 2020 | ÉCO | « Loi de protection du pouvoir d'achat » : acte une désindexation de fait des salaires face à l'inflation réelle | ❌ |
-| 2020-2025 | ÉCO | Les Échos, groupe LVMH : ~15 M€ d'aides publiques cumulées sur quelques années | ❌ |
 | 2020-2025 | ÉCO | Les Échos, groupe LVMH : ~15 M€ d'aides publiques cumulées sur quelques années | ❌ |
 | 2020 | SOC | 14% ménages ont eu froid dans leur logement | ⚠ |
 | 2020 | SOC | Grève contre la réforme des retraites (suspendue) | ⚠ |
@@ -3066,17 +2941,14 @@
 | 2020 | SOC | Mouvement des soignants : rémunération, conditions | ⚠ |
 | 2020 | SOC | Réforme des retraites abandonnée (temporairement) | ⚠ |
 | 2020 | SOC | « Pacte enseignant » présenté comme revalorisation : surcharge de travail contractuelle | ❌ |
-| 2020 | SOC | « Pacte enseignant » présenté comme revalorisation : surcharge de travail contractuelle | ❌ |
 | 2020 | JUR | Arrêt J.M.B. c. France (CEDH): création recours préventif conditions carcérales | ⚠ |
 | 2020 | JUR | Déc : Brunel mis en examen viols sur mineur +15, harcèlement sexuel, écroué Santé | ⚠ |
 | 2020 | JUR | Déc : Jean-Luc Brunel interpellé aéroport CDG alors qu'il fuyait au Sénégal | ⚠ |
 | 2020 | JUR | Jan : Ouverture enquête judiciaire contre Matzneff pour viols sur mineurs | ⚠ |
 | 2020 | JUR | Jean-Luc Brunel arrêté alors que l'étau se resserre | ✅ |
-| 2020 | JUR | Jean-Luc Brunel arrêté alors que l'étau se resserre | ✅ |
 | 2020 | JUR | Loi Avia censurée aux 2/3 par Conseil constitutionnel (décision n°2020-801 DC) | ❌ |
 | 2020 | JUR | Loi Sécurité globale : article 24 controversé | ❌ |
 | 2020 | JUR | Loi bioéthique : PMA pour toutes adoptée | ✅ |
-| 2020 | JUR | Mis en examen, incarcéré | ✅ |
 | 2020 | JUR | Mis en examen, incarcéré | ✅ |
 | 2020-11-19 | JUR | Soral: 6 mois prison semi-liberté pour provocation haine raciale, confirmé oct 2021 | ❌ |
 | 2020 | SANT | Application TousAntiCovid lancée | ⚠ |
@@ -3087,11 +2959,9 @@
 | 2020 | SANT | COVID-19 : premier confinement (17 mars - 11 mai) | ⚠ |
 | 2020 | SANT | COVID-19 : état d'urgence sanitaire décrété | ❌ |
 | 2020 | SANT | Macron : « Je ne rendrai pas la vaccination obligatoire » → Pass Vaccinal + « J'ai très envie de les emmerder » | ❌ |
-| 2020 | SANT | Macron : « Je ne rendrai pas la vaccination obligatoire » → Pass Vaccinal + « J'ai très envie de les emmerder » | ❌ |
 | 2020 | SANT | Manque de masques : polémique gestion crise | ❌ |
 | 2020 | SANT | Suppression du numerus clausus | ✅ |
 | 2020 | SANT | Ségur de la santé : 8,1 Md€ injectés dans l'hôpital public | ⚠ |
-| 2020 | SANT | « Il n'y a pas de pénurie de masques » — stocks stratégiques liquidés et non renouvelés | ❌ |
 | 2020 | SANT | « Il n'y a pas de pénurie de masques » — stocks stratégiques liquidés et non renouvelés | ❌ |
 | 2020 | SANT | État d'urgence sanitaire : loi adoptée | ❌ |
 | 2020 | ÉDU | Bac 2020 : contrôle continu (COVID) | ❌ |
@@ -3101,14 +2971,12 @@
 | 2020 | ENV | Loi Climat et résilience préparée | ⚠ |
 | 2020 | TEC | BCE lance PEPP: ~1 850 Md€ rachats dette publique | ⚠ |
 | 2020 | TEC | Chine teste le yuan numérique (e-CNY) ; plus de 260 M de portefeuilles ouverts | ⚠ |
-| 2020 | TEC | Chine teste le yuan numérique (e-CNY) ; plus de 260 M de portefeuilles ouverts | ⚠ |
 | 2020 | TEC | Déploiement 5G : début des controverses | ❌ |
 | 2020 | TEC | Fermeture de la centrale de Fessenheim (1977-2020) | ❌ |
 | 2020 | TEC | L'EDMO (Observatoire européen des médias numériques) est créé par la Commission européenne | ❌ |
 | 2020 | TEC | La loi Avia impose des obligations de modération aux plateformes | ❌ |
 | 2020 | TEC | Macron lance la rhétorique « protection des mineurs » avec la loi Avia | ❌ |
 | 2020 | TEC | TousAntiCovid : polémique données personnelles | ❌ |
-| 2020 | CUL | 40 ans pour briser le silence Matzneff (livre de Vanessa Springora) | ❌ |
 | 2020 | CUL | 40 ans pour briser le silence Matzneff (livre de Vanessa Springora) | ❌ |
 | 2020 | CUL | Mort de Jean-Claude Carrière | 💀 |
 | 2020 | SPO | Football : Ligue 1 suspendue | ❌ |
@@ -3119,9 +2987,7 @@
 | 2020 | SCI | Prix Nobel de chimie : Emmanuelle Charpentier | ✅ |
 | 2020 | DIP | Brexit: Royaume-Uni quitte UE | ⚠ |
 | 2020 | DIP | Subvention du gouvernement israélien à ELNET (2020) | ❌ |
-| 2020 | DIP | Subvention du gouvernement israélien à ELNET (2020) | ❌ |
 | 2020 | MÉD | Emmanuelle Ducros devient éditorialiste au Point et chroniqueuse sur France Culture, promouvant une ligne pro-industrie sous couvert de rationalisme scientifique | ⚠ |
-| 2020 | TER | Middle East Eye révèle document FBI | ❌ |
 | 2020 | TER | Middle East Eye révèle document FBI | ❌ |
 
 ### 2021
@@ -3131,12 +2997,10 @@
 | 2021 | POL | Attentat Rambouillet : assassinat fonctionnaire police | 💀 |
 | 2021 | POL | Départ Angela Merkel, arrivée Olaf Scholz | ⚠ |
 | 2021 | POL | Exfiltré après polémiques internes | ❌ |
-| 2021 | POL | Exfiltré après polémiques internes | ❌ |
 | 2021 | POL | Loi Sécurité globale promulguée | ❌ |
 | 2021 | POL | Loi contre les violences conjugales renforcée | ✅ |
 | 2021 | POL | Loi de programmation de la recherche | ✅ |
 | 2021 | POL | Loi pour la sécurité des élus | ⚠ |
-| 2021 | POL | Loup Bommier premier maire de France à soutenir publiquement Éric Zemmour | ❌ |
 | 2021 | POL | Loup Bommier premier maire de France à soutenir publiquement Éric Zemmour | ❌ |
 | 2021 | POL | Élections régionales et départementales : abstention record 66 % | ❌ |
 | 2021 | ÉCO | Contrats publics conseil: 764 M€ → 2,5 Md€ | ❌ |
@@ -3144,7 +3008,6 @@
 | 2021 | ÉCO | HCSF : taux endettement max 35%, durée 25 ans, apport 10% minimum | ❌ |
 | 2021 | ÉCO | Loi Climat et résilience adoptée | ⚠ |
 | 2021 | ÉCO | Plan France Relance : 100 milliards en action | ✅ |
-| 2021-2023 | ÉCO | Pfizergate : 35 milliards € de contrats vaccins négociés par SMS entre Ursula von der Leyen et Albert Bourla (Pfizer) | 💀 |
 | 2021-2023 | ÉCO | Pfizergate : 35 milliards € de contrats vaccins négociés par SMS entre Ursula von der Leyen et Albert Bourla (Pfizer) | 💀 |
 | 2021-2024 | ÉCO | Raytheon carnet commandes: 63Md$ → 77Md$ (+22%) | ⚠ |
 | 2021-2025 | ÉCO | 2 milliards $ du fonds souverain saoudien (PIF) dans Affinity Partners malgré rejet recommandé | ❌ |
@@ -3159,7 +3022,6 @@
 | 2021 | SOC | Jan : Révélation recours massif McKinsey pour stratégie vaccinale COVID | ⚠ |
 | 2021 | SOC | Manifestation contre le passe sanitaire (été) | ⚠ |
 | 2021 | SOC | Meta-analyse Frontiers in Psychology (n=11 497) | ✅ |
-| 2021 | SOC | Meta-analyse Frontiers in Psychology (n=11 497) | ✅ |
 | 2021 | SOC | Mouvement contre l'obligation vaccinale soignants | ⚠ |
 | 2021 | SOC | Nov : CIIVISE : 6 200 témoignages reçus en 2 mois | ⚠ |
 | 2021 | SOC | Nov : Évêques France réunis Lourdes annoncent mesures : INIRR, fonds réparation | ✅ |
@@ -3169,27 +3031,20 @@
 | 2021 | SOC | État prélève 1,3 Md€/an sur bailleurs sociaux | ❌ |
 | 2021 | SOC | Étude internationale 10 pays: 75% des jeunes souffrent d'éco-anxiété | ❌ |
 | 2021 | JUR | 5/6 chefs de trafic sexuel mineurs | ✅ |
-| 2021 | JUR | 5/6 chefs de trafic sexuel mineurs | ✅ |
-| 2021 | JUR | Alain Griset (ministre) condamné avec sursis pour dissimulation de patrimoine | ❌ |
 | 2021 | JUR | Alain Griset (ministre) condamné avec sursis pour dissimulation de patrimoine | ❌ |
 | 2021 | JUR | Alexandre Benalla condamné (sursis/bracelet) pour violences et usage illégal de passeports diplomatiques | ❌ |
-| 2021 | JUR | Alexandre Benalla condamné (sursis/bracelet) pour violences et usage illégal de passeports diplomatiques | ❌ |
-| 2021 | JUR | Alexis Kohler (Secrétaire général Élysée) mis en examen pour prise illégale d'intérêts, toujours en poste | ❌ |
 | 2021 | JUR | Alexis Kohler (Secrétaire général Élysée) mis en examen pour prise illégale d'intérêts, toujours en poste | ❌ |
 | 2021 | JUR | Code justice pénale des mineurs (CJPM) entre en vigueur 30 septembre 2021 | ⚠ |
 | 2021 | JUR | Cour d'appel reverse, l'avenue reste Bandera | ⚠ |
 | 2021 | JUR | Décret n°2021-922 du 13 juillet 2021 création de Viginum | ❌ |
 | 2021 | JUR | Ghislaine Maxwell condamnée pour trafic sexuel | ✅ |
-| 2021 | JUR | Ghislaine Maxwell condamnée pour trafic sexuel | ✅ |
 | 2021 | JUR | Juin : Brunel mis en examen pour 2e viol aggravé (mannequin 17 ans droguée) | ⚠ |
-| 2021 | JUR | Laetitia Avia (députée loi "Haine") condamnée avec sursis pour harcèlement | ❌ |
 | 2021 | JUR | Laetitia Avia (députée loi "Haine") condamnée avec sursis pour harcèlement | ❌ |
 | 2021 | JUR | Loi Climat et Résilience n°2021-1104 du 22 août 2021 (ZAN, DPE) | ❌ |
 | 2021 | JUR | Loi bioéthique promulguée : PMA pour toutes | ✅ |
 | 2021 | JUR | Loi sur la confiance dans la justice | ⚠ |
 | 2021 | JUR | Loi sécurité globale n°2021-646 du 25 mai 2021, article 24 censuré | ❌ |
 | 2021 | JUR | Loi séparatisme : lutte contre l'islamisme radical | ❌ |
-| 2021 | JUR | Mimi Marchand mise en examen pour "subornation de témoin" | ❌ |
 | 2021 | JUR | Mimi Marchand mise en examen pour "subornation de témoin" | ❌ |
 | 2021 | JUR | Mineurs incarcérés: +25% depuis 2021 | ❌ |
 | 2021 | JUR | Pandora Papers (ICIJ) | ❌ |
@@ -3202,7 +3057,6 @@
 | 2021 | SANT | Rappel vaccinal (3e dose) préparé | ⚠ |
 | 2021 | SANT | Épidémie COVID : variants Alpha, Delta, Omicron | ❌ |
 | 2021 | ÉDU | Dictée CM2: 19,4 erreurs (+81% vs 1987) | ❌ |
-| 2021 | ÉDU | Hausse de 81% des erreurs de dictée en CM2 | ❌ |
 | 2021 | ÉDU | Hausse de 81% des erreurs de dictée en CM2 | ❌ |
 | 2021 | ÉDU | Parcoursup : 900 000 candidats | ⚠ |
 | 2021 | ÉDU | Réforme ENA/INSP: échoué à "casser le moule" (Acteurs Publics) | ❌ |
@@ -3244,25 +3098,19 @@
 | 2022 | POL | Attentat Paris 12e : fusillade dans un salon kurde | 💀 |
 | 2022 | POL | Attentats islamistes : plusieurs attaques | 💀 |
 | 2022 | POL | Clément Beaune battu à Paris → recasé haut-commissaire ou équivalent stratégique | ❌ |
-| 2022 | POL | Clément Beaune battu à Paris → recasé haut-commissaire ou équivalent stratégique | ❌ |
-| 2022 | POL | Digital Services Act adopté par l'UE | ❌ |
 | 2022 | POL | Digital Services Act adopté par l'UE | ❌ |
 | 2022 | POL | Dissolution de Génération Identitaire | ✅ |
-| 2022 | POL | Emmanuelle Wargon battue en Essonne → présidente de la CRE (Commission de Régulation de l'Énergie) | ❌ |
 | 2022 | POL | Emmanuelle Wargon battue en Essonne → présidente de la CRE (Commission de Régulation de l'Énergie) | ❌ |
 | 2022 | POL | Gouvernement Borne I puis Borne II | ⚠ |
 | 2022 | POL | Guerre en Ukraine : accueil de réfugiés | ⚠ |
 | 2022 | POL | Inondations dans le Pas-de-Calais : records | ⚠ |
-| 2022 | POL | Jean-Michel Blanquer battu → direction d'écoles privées | ❌ |
 | 2022 | POL | Jean-Michel Blanquer battu → direction d'écoles privées | ❌ |
 | 2022 | POL | Législatives : LREM majorité relative, NUPES opposition | ⚠ |
 | 2022 | POL | Marine Le Pen : 41,45 % score historique | ⚠ |
 | 2022 | POL | Mars : Rapport Sénat révèle quasi-absence IS McKinsey France malgré 329 M€ CA 2020 | ❌ |
 | 2022 | POL | NAFO créé par Kamil Dyszewski, réseau guerre cognitive pro-OTAN | ⚠ |
 | 2022 | POL | Nommée ministre de la Transition écologique le 20 mai 2022 pour 30 jours seulement | ❌ |
-| 2022 | POL | Nommée ministre de la Transition écologique le 20 mai 2022 pour 30 jours seulement | ❌ |
 | 2022 | POL | Partis suspendus : Opposition Platform — For Life (92 députés), Shariy, Nashi, Bloc d'Opposition, Parti Socialiste Progressiste | ❌ |
-| 2022 | POL | Perd son siège de député le 19 juin 2022 jour de ses 37 ans : 46,64% contre 53,36% pour Jérôme Guedj | ❌ |
 | 2022 | POL | Perd son siège de député le 19 juin 2022 jour de ses 37 ans : 46,64% contre 53,36% pour Jérôme Guedj | ❌ |
 | 2022 | POL | Élection présidentielle : Macron réélu (58,55 %) | ✅ |
 | 2022-03-20 | POL | Décret n°153/2022 suspend les activités de 11 partis politiques ukrainiens | ❌ |
@@ -3270,20 +3118,16 @@
 | 2022 | ÉCO | Bouclier tarifaire : gaz et électricité plafonnés | ✅ |
 | 2022 | ÉCO | Croissance 2,5 % du PIB | ⚠ |
 | 2022 | ÉCO | EDF rachète turbines Arabelle à GE pour plus d'un milliard d'euros | ❌ |
-| 2022 | ÉCO | EDF rachète turbines Arabelle à GE pour plus d'un milliard d'euros | ❌ |
-| 2022 | ÉCO | Fournisseurs alternatifs ne produisent rien | ❌ |
 | 2022 | ÉCO | Fournisseurs alternatifs ne produisent rien | ❌ |
 | 2022 | ÉCO | Industries défense US : +58 milliards $ capitalisation en 2022 | ❌ |
 | 2022 | ÉCO | Inflation : 5,2 % sur l'année | ❌ |
 | 2022 | ÉCO | Jim Taiclet (Lockheed Martin): « compétition grandes puissances = opportunité » | ⚠ |
 | 2022 | ÉCO | Lockheed Martin cap boursière: 98Md$ → 127Md$ (jan-déc 2022) | ⚠ |
 | 2022 | ÉCO | Loi oblige EDF vendre aux concurrents | ❌ |
-| 2022 | ÉCO | Loi oblige EDF vendre aux concurrents | ❌ |
 | 2022 | ÉCO | Loi pouvoir d'achat adoptée | ⚠ |
 | 2022 | ÉCO | Pologne porte ses dépenses militaires à plus de 4% de son PIB depuis 2022 | ✅ |
 | 2022 | ÉCO | Record du déficit commercial français : 164 Md€ | ❌ |
 | 2022 | ÉCO | Rheinmetall: +88% sur un an | ⚠ |
-| 2022 | ÉCO | Ruine publique organisée pour dividendes privés | 💀 |
 | 2022 | ÉCO | Ruine publique organisée pour dividendes privés | 💀 |
 | 2022 | ÉCO | Russie 1er employeur étranger en France avant 2022 — 160 000 emplois | ❌ |
 | 2022 | ÉCO | Réforme des retraites : report à 64 ans (préparé) | ❌ |
@@ -3310,15 +3154,11 @@
 | 2022 | JUR | Déc : Perquisitions McKinsey France + Renaissance + association financement | ⚠ |
 | 2022 | JUR | Fév : Jean-Luc Brunel retrouvé mort pendu prison Santé, « suicide » controversé | 💀 |
 | 2022 | JUR | Magistrat ayant prostitué sa fille de douze ans | 💀 |
-| 2022 | JUR | Magistrat ayant prostitué sa fille de douze ans | 💀 |
 | 2022 | JUR | Mars : PNF ouvre enquête préliminaire blanchiment aggravé fraude fiscale McKinsey | ⚠ |
 | 2022 | JUR | Mars : Sénat saisit justice pour faux témoignage Karim Tadjeddine sous serment | ⚠ |
 | 2022 | JUR | Qatargate : Eva Kaili (Vice-Présidente Parlement) retrouvée avec 600 000 €+ en billets | 💀 |
-| 2022 | JUR | Qatargate : Eva Kaili (Vice-Présidente Parlement) retrouvée avec 600 000 €+ en billets | 💀 |
-| 2022 | JUR | Suicide officiel, 3 ans après Epstein, procès avorté | 💀 |
 | 2022 | JUR | Suicide officiel, 3 ans après Epstein, procès avorté | 💀 |
 | 2022 | JUR | Uber Files | ❌ |
-| 2022 | JUR | « Suicide » défiant lois balistique | 💀 |
 | 2022 | JUR | « Suicide » défiant lois balistique | 💀 |
 | 2022 | SANT | Fin du passe sanitaire et vaccinal | ✅ |
 | 2022 | SANT | Loi Santé : hôpital en crise | ❌ |
@@ -3329,14 +3169,12 @@
 | 2022 | ÉDU | Réforme des retraites : manifestation enseignants | ⚠ |
 | 2022 | ÉDU | ~4 700 signalements atteintes à la laïcité | ⚠ |
 | 2022 | ÉDU | Écart social France le plus élevé de l'OCDE | ❌ |
-| 2022 | ÉDU | Écart social France le plus élevé de l'OCDE | ❌ |
 | 2022 | AGR | Cellule Demeter jugée illégale par le Tribunal Administratif de Paris pour surveillance d'opinion | ❌ |
 | 2022 | AGR | Christophe Barthès, ex-vice-président CR Aude, devient député RN | ❌ |
 | 2022 | AGR | Groupe Avril : 218M€ de bénéfices (+45%) | ⚠ |
 | 2022 | AGR | Pertes cumulées des sécheresses : plus de 10 Md€ | 💀 |
 | 2022 | AGR | Sécheresse : plus de 5 Md€ de coût pour le secteur agricole | 💀 |
 | 2022 | ENV | Canicule estivale : records de température | ⚠ |
-| 2022 | ENV | Discours de Belfort : « Renaissance du nucléaire », annonce de 6 à 14 EPR2 | ⚠ |
 | 2022 | ENV | Discours de Belfort : « Renaissance du nucléaire », annonce de 6 à 14 EPR2 | ⚠ |
 | 2022 | ENV | Feux de forêt en Gironde : 30 000 ha brûlés | 💀 |
 | 2022 | ENV | Plan de sobriété énergétique hiver | ⚠ |
@@ -3354,7 +3192,6 @@
 | 2022 | CUL | César du cinéma : événement | ⚠ |
 | 2022 | CUL | Mort d'Alain Delon (2022 ? non 2024) | ⚠ |
 | 2022 | CUL | Échelle Short Dark Triad validée (ScienceDirect) | ✅ |
-| 2022 | CUL | Échelle Short Dark Triad validée (ScienceDirect) | ✅ |
 | 2022 | IMM | Crise migratoire : loi asile et immigration | ❌ |
 | 2022 | SPO | Kylian Mbappé prolonge au PSG | ❌ |
 | 2022 | SPO | PSG : champion de France 2022 | ✅ |
@@ -3366,13 +3203,10 @@
 | 2022 | MIL | Vente 42 Rafale à l'Indonésie | ✅ |
 | 2022-2025 | MIL | Plus de 200,000 soldats des deux camps morts en Ukraine | 💀 |
 | 2022 | DIP | Barbara Pompili battue dans la Somme → ambassadrice à l'environnement | ❌ |
-| 2022 | DIP | Barbara Pompili battue dans la Somme → ambassadrice à l'environnement | ❌ |
 | 2022 | DIP | Déc : Information judiciaire France ouverte sur conditions cession Alstom à GE | ⚠ |
 | 2022 | DIP | Macron passe 5 heures au Kremlin avec Poutine | ⚠ |
 | 2022 | DIP | Nommée ambassadrice à l'OCDE trois mois après sa défaite électorale | ❌ |
-| 2022 | DIP | Nommée ambassadrice à l'OCDE trois mois après sa défaite électorale | ❌ |
 | 2022 | DIP | Pologne condamne nomination d'un ministre ayant nié responsabilité de Bandera | ⚠ |
-| 2022 | DIP | Qatar et Maroc "achetaient" des votes et résolutions favorables au Parlement Européen | 💀 |
 | 2022 | DIP | Qatar et Maroc "achetaient" des votes et résolutions favorables au Parlement Européen | 💀 |
 | 2022-03 | DIP | Mars-avril 2022 : accord de paix proche à Istanbul | ⚠ |
 | 2022-03-29 | DIP | Le communiqué d'Istanbul est signé | ✅ |
@@ -3393,39 +3227,29 @@
 | 2023 | POL | Attentat d'Arras : assassinat Dominique Bernard | 💀 |
 | 2023 | POL | Attentat à Paris (tour Eiffel) | 💀 |
 | 2023 | POL | Contesté par ses propres troupes | ❌ |
-| 2023 | POL | Contesté par ses propres troupes | ❌ |
 | 2023 | POL | Dissolution des Soulèvements de la Terre | ❌ |
 | 2023 | POL | Financement des laboratoires d'idées par Google | ❌ |
-| 2023 | POL | Financement des laboratoires d'idées par Google | ❌ |
-| 2023 | POL | Follow the Money (octobre 2025) | ❌ |
 | 2023 | POL | Follow the Money (octobre 2025) | ❌ |
 | 2023 | POL | Loi immigration : censure partielle Conseil constitutionnel | ❌ |
 | 2023 | POL | Loi immigration Darmanin adoptée 49.3 | ❌ |
 | 2023 | POL | Loi pour le plein emploi | ⚠ |
 | 2023 | POL | Loi retraites : passage 49.3, motions de censure échouent | ❌ |
 | 2023 | POL | Loup Bommier maire de Gurgy-le-Château (Côte-d'Or) depuis mai 2023 | ⚠ |
-| 2023 | POL | Loup Bommier maire de Gurgy-le-Château (Côte-d'Or) depuis mai 2023 | ⚠ |
 | 2023 | POL | Mort de Nahel Merzouk : émeutes, 700 M€ dégâts | 💀 |
 | 2023 | POL | Pattern réforme retraites 2023 se répète : division syndicale comme levier de gouvernement | ❌ |
-| 2023 | POL | Pattern réforme retraites 2023 se répète : division syndicale comme levier de gouvernement | ❌ |
-| 2023 | POL | Réforme des retraites votée par article 49.3, plus grandes manifestations depuis 1968 | ❌ |
 | 2023 | POL | Réforme des retraites votée par article 49.3, plus grandes manifestations depuis 1968 | ❌ |
 | 2023 | POL | Réforme retraites : Conseil constitutionnel valide partiellement | ❌ |
-| 2023 | POL | Un tiers des nominés du Département de la Santé (HHS, 2004-2020) ont rejoint l'industrie privée (Health Affairs) | ❌ |
 | 2023 | POL | Un tiers des nominés du Département de la Santé (HHS, 2004-2020) ont rejoint l'industrie privée (Health Affairs) | ❌ |
 | 2023 | POL | Violences policières : affaire Hedi, Loulou, etc. | ❌ |
 | 2023 | POL | Émeutes urbaines après mort Nahel (juin) | 💀 |
 | 2023 | ÉCO | BCE cesse rachats nets de dette | ❌ |
 | 2023 | ÉCO | Banque d'Angleterre annule une partie de sa dette publique sans effondrement | ✅ |
-| 2023 | ÉCO | Banque d'Angleterre annule une partie de sa dette publique sans effondrement | ✅ |
 | 2023 | ÉCO | Bouclier tarifaire maintenu | ✅ |
 | 2023 | ÉCO | Coût réel SNU 2023 : 2 900 euros par jeune vs 2 300 annoncés | ❌ |
 | 2023 | ÉCO | Croissance 0,9 % du PIB | ⚠ |
 | 2023 | ÉCO | Dette publique française : 117,4% du PIB (INSEE) | 💀 |
-| 2023 | ÉCO | Dette publique française : 117,4% du PIB (INSEE) | 💀 |
 | 2023 | ÉCO | Inflation à 4,9 % | ❌ |
 | 2023 | ÉCO | Loi de finances 2023 : déficit 4,7 % | ❌ |
-| 2023 | ÉCO | OPA de Bolloré sur le groupe Lagardère (novembre 2023) | ❌ |
 | 2023 | ÉCO | OPA de Bolloré sur le groupe Lagardère (novembre 2023) | ❌ |
 | 2023-05 | ÉCO | Cour des comptes publie rapport "Les soutiens publics aux éleveurs de bovins" recommandant réduction significative du cheptel bovin | ❌ |
 | 2023 | SOC | 13 journées mobilisation, jusqu'à 1,5M manifestants | ⚠ |
@@ -3436,7 +3260,6 @@
 | 2023 | SOC | 735 morts à la rue en France (Collectif Les Morts de la Rue) | 💀 |
 | 2023 | SOC | APL: part couverte tombée à 8,9% du loyer privé | ❌ |
 | 2023 | SOC | Déc : CIIVISE prolongée sous pression société civile, mais Édouard Durand écarté (2024) | ❌ |
-| 2023 | SOC | Effondrement de la construction de logements : -22% en 2023 | ❌ |
 | 2023 | SOC | Effondrement de la construction de logements : -22% en 2023 | ❌ |
 | 2023 | SOC | Fév 10 : Accident Pierre Palmade : 3 blessés graves dont enfant 6 ans, fœtus perdu | 💀 |
 | 2023 | SOC | Grève SNCF et RATP contre la réforme | ⚠ |
@@ -3453,7 +3276,6 @@
 | 2023 | SOC | Nov : Débat prolongation CIIVISE, gouvernement tente enterrement | ❌ |
 | 2023 | SOC | Oct : Anciens élèves Bétharram créent groupe Facebook, ~100 plaintes déposées | ⚠ |
 | 2023 | SOC | Pierre Palmade sous 3-MMC lors accident routier | ❌ |
-| 2023 | SOC | Pierre Palmade sous 3-MMC lors accident routier | ❌ |
 | 2023 | SOC | Réforme assurance chômage (2e) | ❌ |
 | 2023 | SOC | Réforme des retraites promulguée le 14 avril | ❌ |
 | 2023-02 | SOC | E&R classé extrême-droite, antisémite, complotiste par Global Project Against Hate and Extremism | ❌ |
@@ -3465,8 +3287,6 @@
 | 2023 | JUR | Loi Egalim 2 : obligation de contrat écrit pour produits frais, transparence des marges | ⚠ |
 | 2023 | JUR | Loi n°2023-668 du 27 juillet 2023 Kasbarian-Bergé : réduction délais expulsion, durcissement relogement | ❌ |
 | 2023 | JUR | Parquet Européen enquête sur Pfizergate ; Von der Leyen réélue | ❌ |
-| 2023 | JUR | Parquet Européen enquête sur Pfizergate ; Von der Leyen réélue | ❌ |
-| 2023 | JUR | Éric Dupond-Moretti (Garde des Sceaux) jugé pour prise illégale d'intérêts, acquitté | ❌ |
 | 2023 | JUR | Éric Dupond-Moretti (Garde des Sceaux) jugé pour prise illégale d'intérêts, acquitté | ❌ |
 | 2023-2024 | JUR | Murthy v. Missouri: la Cour suprême américaine condamne l'administration Biden pour collusion avec les plateformes à censurer | ✅ |
 | 2023/361 | JUR | Règlement délégué 2023/361 de la Commission définit les conditions de vaccination d'urgence DNC | ⚠ |
@@ -3495,7 +3315,6 @@
 | 2023 | ENV | Plan eau 50 mesures | ✅ |
 | 2023 | ENV | Élevage bovin = 11,8% des émissions CO₂ de la France ; méthane bovins = 45% des émissions agricoles | ❌ |
 | 2023 | TEC | Baiwang déclare avoir traité 14,3 milliards de documents couvrant 102 millions d'entreprises | ⚠ |
-| 2023 | TEC | Baiwang déclare avoir traité 14,3 milliards de documents couvrant 102 millions d'entreprises | ⚠ |
 | 2023 | TEC | L'ONG Thorn (cofondée par Ashton Kutcher et Demi Moore) promeut le Chat Control auprès de la Commission européenne tout en développant le logiciel de détection — conflit d'intérêts documenté | ❌ |
 | 2023 | TEC | Lancement IA générative en France (Mistral AI) | ✅ |
 | 2023 | TEC | Loi programmation numérique 2023-2027 : 1,5 Md€ pour « cloud de confiance » | ⚠ |
@@ -3513,14 +3332,11 @@
 | 2023 | SCI | Mission Euclid : télescope spatial | ✅ |
 | 2023 | DIP | Le Royaume-Uni adopte l'Online Safety Act, amendes jusqu'à 18M£ ou 10% du CA mondial pour non-suppression de contenus « nocifs » | ❌ |
 | 2023 | DIP | Loup Bommier lobbyiste pour l'Azerbaïdjan sous supervision sénateur LR Alain Houpert | ❌ |
-| 2023 | DIP | Loup Bommier lobbyiste pour l'Azerbaïdjan sous supervision sénateur LR Alain Houpert | ❌ |
 | 2023-01 | DIP | Premier ministre Morawiecki : « inadmissible de glorifier Stepan Bandera » | ⚠ |
 | 2023-02 | DIP | Naftali Bennett : « Basically, yes. They blocked it » (USA et alliés ont bloqué paix) | ❌ |
 | 2023-09 | DIP | Jens Stoltenberg confirme au PE : l'OTAN a rejeté les propositions russes de décembre 2021 | ⚠ |
 | 2023-11 | DIP | David Arahamiya : « Boris Johnson a dit de ne rien signer, juste continuer à combattre » | ⚠ |
 | 2023 | TER | Bilan des violences liées au trafic à Marseille (2023) | 💀 |
-| 2023 | TER | Bilan des violences liées au trafic à Marseille (2023) | 💀 |
-| 2023 | TER | Chiffre d'affaires du trafic de drogue (DGSI, 2023) | ❌ |
 | 2023 | TER | Chiffre d'affaires du trafic de drogue (DGSI, 2023) | ❌ |
 
 ### 2024
@@ -3528,24 +3344,17 @@
 | Année | Dimension | Description | Code |
 |---|---|---|---|
 | 2024 | POL | 127 cas de pantouflage documentés par la HATVP en 2024 | ❌ |
-| 2024 | POL | 127 cas de pantouflage documentés par la HATVP en 2024 | ❌ |
 | 2024 | POL | 48 lois adoptées | ❌ |
-| 2024 | POL | 99 en Israël, 39 LR, 32 Renaissance (Mediapart, décembre 2024) | ❌ |
 | 2024 | POL | 99 en Israël, 39 LR, 32 Renaissance (Mediapart, décembre 2024) | ❌ |
 | 2024 | POL | Abstention aux législatives 2024: 33,3% | ❌ |
 | 2024 | POL | Alain Castanier, Préfet du Gers | ❌ |
-| 2024 | POL | Alain Castanier, Préfet du Gers | ❌ |
-| 2024 | POL | Andy Kerbrat, député, interpellé avec 3-MMC | ❌ |
 | 2024 | POL | Andy Kerbrat, député, interpellé avec 3-MMC | ❌ |
 | 2024 | POL | Attentat islamiste : plusieurs alertes | 💀 |
 | 2024 | POL | Attentat à la mosquée de Paris | ⚠ |
 | 2024 | POL | Aucune sanction pour pantouflage après départ gouvernement | ❌ |
-| 2024 | POL | Aucune sanction pour pantouflage après départ gouvernement | ❌ |
 | 2024 | POL | Crise politique : motion de censure Barnier (déc) | ❌ |
 | 2024 | POL | Dissolution Assemblée nationale par Macron (9 juin) | ❌ |
 | 2024 | POL | Dix doses par citoyen européen (Terhes, Parlement européen) | 💀 |
-| 2024 | POL | Dix doses par citoyen européen (Terhes, Parlement européen) | 💀 |
-| 2024 | POL | En majorité Renaissance et LR | ❌ |
 | 2024 | POL | En majorité Renaissance et LR | ❌ |
 | 2024 | POL | Ensemble : 164 députés (majorité perdue) | ❌ |
 | 2024 | POL | Gabriel Attal plus jeune Premier ministre | ⚠ |
@@ -3559,22 +3368,15 @@
 | 2024 | POL | Nouveau Front Populaire : première force relative | ⚠ |
 | 2024 | POL | Politique étrangère Ukraine : soutien français | ⚠ |
 | 2024 | POL | Président ELNET-France (Mediapart, 29 décembre 2024) | ❌ |
-| 2024 | POL | Président ELNET-France (Mediapart, 29 décembre 2024) | ❌ |
 | 2024 | POL | RN : 143 députés, progression historique | ⚠ |
 | 2024 | POL | RN: 31,4% aux élections européennes | ❌ |
 | 2024 | POL | Radars rapportent environ 1 milliard d'euros par an au budget de l'État (Cour des comptes) | ❌ |
-| 2024 | POL | Radars rapportent environ 1 milliard d'euros par an au budget de l'État (Cour des comptes) | ❌ |
-| 2024 | POL | Richard Ferrand battu → recasé dans le privé (Elsan), garde influence à l'Élysée | ❌ |
 | 2024 | POL | Richard Ferrand battu → recasé dans le privé (Elsan), garde influence à l'Élysée | ❌ |
 | 2024 | POL | Sutton Trust 2024 | ❌ |
-| 2024 | POL | Sutton Trust 2024 | ❌ |
 | 2024 | POL | Total des amendes routières dépasse 2 milliards d'euros (Cour des comptes) | ❌ |
-| 2024 | POL | Total des amendes routières dépasse 2 milliards d'euros (Cour des comptes) | ❌ |
-| 2024 | POL | Transparency International / Fondation Jean-Jaurès | ❌ |
 | 2024 | POL | Transparency International / Fondation Jean-Jaurès | ❌ |
 | 2024 | POL | Élection présidentielle américaine novembre 2024 (retour de Trump) | ⚠ |
 | 2024 | POL | Élections législatives anticipées : 3 blocs | ⚠ |
-| 2024-04 | POL | Lettre de Bruno Le Maire (déficit 5,8%) gardée secrète jusqu'après les élections européennes et législatives | ❌ |
 | 2024-04 | POL | Lettre de Bruno Le Maire (déficit 5,8%) gardée secrète jusqu'après les élections européennes et législatives | ❌ |
 | 2024-05-20 | POL | Mandat présidentiel de Zelensky expire officiellement ; aucune élection depuis (loi martiale) | ❌ |
 | 2024-06 | POL | Dissolution unilatérale de l'Assemblée nationale par le président | ❌ |
@@ -3583,7 +3385,6 @@
 | 2024 | ÉCO | Agence France Trésor : dette 112 % du PIB | ❌ |
 | 2024 | ÉCO | Belgique encaisse 1.7 milliard € de taxes annuelles sur intérêts | ⚠ |
 | 2024 | ÉCO | Budget communication État: 1 Md€, record historique | ❌ |
-| 2024 | ÉCO | Budget d'OpenPeppol au registre de transparence UE : 2 031 093 € | ❌ |
 | 2024 | ÉCO | Budget d'OpenPeppol au registre de transparence UE : 2 031 093 € | ❌ |
 | 2024 | ÉCO | Budget police: ~25 Md€ (vs ~15 Md€ en 2017) | ❌ |
 | 2024 | ÉCO | CAC 40 : 72,8 Md€ de dividendes versés (Vernimmen/La Croix) | ❌ |
@@ -3597,10 +3398,8 @@
 | 2024 | ÉCO | Déficit commercial France-Chine : 46 Md€ (Douanes) | ❌ |
 | 2024 | ÉCO | Déficit public : 5,5 % du PIB | ❌ |
 | 2024 | ÉCO | ETP lobbying d'OpenPeppol : 0,1 (une personne à temps partiel) | ❌ |
-| 2024 | ÉCO | ETP lobbying d'OpenPeppol : 0,1 (une personne à temps partiel) | ❌ |
 | 2024 | ÉCO | Exports défense France : 18 milliards € | ⚠ |
 | 2024 | ÉCO | Flux intra-groupe: 60% commerce mondial (OCDE) | ⚠ |
-| 2024 | ÉCO | Forbes 2024 | ❌ |
 | 2024 | ÉCO | Forbes 2024 | ❌ |
 | 2024 | ÉCO | France : 2e exportateur mondial d'armes (9.6% transferts globaux, SIPRI) | ⚠ |
 | 2024 | ÉCO | Fraude sociale: 13-14 Md€/an (Haut Conseil Financement Protection Sociale) | ❌ |
@@ -3619,7 +3418,6 @@
 | 2024 | ÉCO | Rachats d'actions CAC 40 : 80 Md€ | ❌ |
 | 2024 | ÉCO | Taux effectif IS CAC40: 14,8% (Observatoire Multinationales) | ❌ |
 | 2024 | ÉCO | Taux investissement productif France : 12-13 % VA vs Allemagne 15-16 % (OCDE) | ❌ |
-| 2024 | ÉCO | Xavier Niel actionnaire de contrôle du groupe Le Monde (Le Monde, Télérama, L'Obs) | ❌ |
 | 2024 | ÉCO | Xavier Niel actionnaire de contrôle du groupe Le Monde (Le Monde, Télérama, L'Obs) | ❌ |
 | 2024-10 | ÉCO | Groupe Avril acquiert A. Azevedo Oleos (Brésil, huile de ricin) | ❌ |
 | 2024-2025 | ÉCO | Les Big Tech dépensent 1,1 milliard de dollars pour bloquer toute régulation de l'IA (Public Citizen) | ❌ |
@@ -3659,9 +3457,7 @@
 | 2024 | SOC | Restos du Cœur: 1,3M personnes servies (+30% vs 2020) | ❌ |
 | 2024 | SOC | SMIC net: 1 398€/mois | ⚠ |
 | 2024 | SOC | Sutton Trust 2024 : 7% population scolarisée privée | ❌ |
-| 2024 | SOC | Sutton Trust 2024 : 7% population scolarisée privée | ❌ |
 | 2024-11 | SOC | KIIS : 57% des Ukrainiens font confiance à Zelensky, 43% non | ⚠ |
-| 2024 | JUR | Affaire Farage : clôture de compte bancaire au Royaume-Uni | ❌ |
 | 2024 | JUR | Affaire Farage : clôture de compte bancaire au Royaume-Uni | ❌ |
 | 2024 | JUR | Budget justice: ~10,7 Md€ (vs ~7 Md€ en 2017) | ⚠ |
 | 2024 | JUR | Dispositif Pinel prend fin 31 décembre 2024 (loi finances 2024, article 17) | ❌ |
@@ -3677,14 +3473,10 @@
 | 2024 | JUR | PNF: ~750 procédures, ~20 magistrats | ❌ |
 | 2024 | JUR | Procès des attentats du 13 novembre : verdict | ✅ |
 | 2024 | JUR | Présidente Commission européenne enquêtée par Parquet européen | ❌ |
-| 2024 | JUR | Présidente Commission européenne enquêtée par Parquet européen | ❌ |
 | 2024 | JUR | Règlement européen DSA en vigueur février 2024 | ❌ |
 | 2024 | JUR | Sarkozy condamné affaire écoutes, reste libre | ⚠ |
 | 2024 | JUR | The Conversation | ❌ |
-| 2024 | JUR | The Conversation | ❌ |
 | 2024 | JUR | Tribunal UE juge Commission a eu tort refuser communication SMS (17 juillet 2024) | ❌ |
-| 2024 | JUR | Tribunal UE juge Commission a eu tort refuser communication SMS (17 juillet 2024) | ❌ |
-| 2024 | JUR | Violation de la loi Sapin 2 pendant huit ans | ❌ |
 | 2024 | JUR | Violation de la loi Sapin 2 pendant huit ans | ❌ |
 | 2024 | JUR | Zéro condamnation pour pantouflage illégal (HATVP) | ❌ |
 | 2024-06 | JUR | Le tribunal de Gand condamne Meta à 27 279 euros pour shadowbanning de Vandendriessche | ✅ |
@@ -3712,7 +3504,6 @@
 | 2024 | ÉDU | 17% élèves scolarisés dans le privé sous contrat (subventionné 73% État) | ⚠ |
 | 2024 | ÉDU | 2 614 écoles hors contrat (130 000 élèves) | ❌ |
 | 2024 | ÉDU | 2 800 h en 1976 → 2 000 en 2024 | ❌ |
-| 2024 | ÉDU | 2 800 h en 1976 → 2 000 en 2024 | ❌ |
 | 2024 | ÉDU | 25% élèves n'atteignent pas niveau attendu lecture entrée 6e | ❌ |
 | 2024 | ÉDU | 4 millions d'adultes en situation d'illettrisme (ANLCI IVQ 2022) | ❌ |
 | 2024 | ÉDU | 40% 15-24 ans: réseaux sociaux = source info principale | ❌ |
@@ -3729,7 +3520,6 @@
 | 2024 | ÉDU | 86 Md€ budget Éducation nationale (PLF 2025) | ⚠ |
 | 2024 | ÉDU | 91% reçus au bac, 25% sans niveau maths attendu pour licence | ❌ |
 | 2024 | ÉDU | <20% élèves reçoivent les 3 séances annuelles éducation sexualité | ❌ |
-| 2024 | ÉDU | Budget de l'Éducation nationale | ⚠ |
 | 2024 | ÉDU | Budget de l'Éducation nationale | ⚠ |
 | 2024 | ÉDU | Budget par étudiant -12% en 10 ans | ❌ |
 | 2024 | ÉDU | Enfant cadre: 45% chances privé vs 10% enfant ouvrier | ❌ |
@@ -3782,9 +3572,7 @@
 | 2024-05 | TEC | La loi SREN est adoptée et validée par le Conseil constitutionnel français | ❌ |
 | 2024-09-05 | TEC | Martin Ajdari, nommé à l'ARCOM malgré avis défavorable du Sénat, signe un « accélérateur numérique » donnant l'infrastructure technique de contrôle | ❌ |
 | 2024-10-15 | TEC | Annonce de l'abandon du Portail Public de Facturation (PPF) par le ministère de l'Économie | ❌ |
-| 2024-10-15 | TEC | Annonce de l'abandon du Portail Public de Facturation (PPF) par le ministère de l'Économie | ❌ |
 | 2024-11 | TEC | X (Twitter) condamné à 120 millions d'euros d'amende DSA | ❌ |
-| 2024 | CUL | Anamosa, 288 pages, analyse Macron par perversion narcissique (octobre 2024) | ⚠ |
 | 2024 | CUL | Anamosa, 288 pages, analyse Macron par perversion narcissique (octobre 2024) | ⚠ |
 | 2024 | CUL | JO Paris 2024 : préparation et cérémonie | ✅ |
 | 2024 | CUL | L'animateur Xavier Moreau est sanctionné par les plateformes pour ses positions pro-russes, illustrant le modèle de « démocratie défensive » | ❌ |
@@ -3809,7 +3597,6 @@
 | 2024 | MIL | Budget défense ~50 Md€, soit 2% du PIB (critère OTAN atteint) | ⚠ |
 | 2024 | MIL | Budget militaire Russie: 109Md$ vs USA: 886Md$ | ❌ |
 | 2024 | MIL | Cybersécurité des JO 2024 implique des prestataires étrangers | ❌ |
-| 2024 | MIL | Cybersécurité des JO 2024 implique des prestataires étrangers | ❌ |
 | 2024 | MIL | Exportations armement 21,6 Md€ prises de commandes (3e mondial) | ✅ |
 | 2024 | MIL | Fin présence française au Tchad | ❌ |
 | 2024 | MIL | Forces françaises Afrique: 3 000 hommes (vs 5 000 en 2017) | ❌ |
@@ -3828,25 +3615,17 @@
 | 2024-12 | DIP | UE signe accord de libre-échange avec Mercosur (Brésil, Argentine, Uruguay, Paraguay) à majorité qualifiée | ❌ |
 | 2024 | MÉD | 60% Français adhèrent à au moins une théorie du complot (Arcom 2024) | ❌ |
 | 2024 | MÉD | Analyse publiée le 6 décembre 2024 | ⚠ |
-| 2024 | MÉD | Analyse publiée le 6 décembre 2024 | ⚠ |
 | 2024 | MÉD | C8 écope de 7,5 millions d'euros d'amendes ARCOM en 2024 | ❌ |
 | 2024 | MÉD | CNews écope de 80 000 euros d'amendes ARCOM en 2024 | ❌ |
 | 2024 | MÉD | Chronique le 11 décembre 2024 | ⚠ |
-| 2024 | MÉD | Chronique le 11 décembre 2024 | ⚠ |
-| 2024 | MÉD | Conflit d'intérêts non déclaré entre régulateur et think tank pro-migrants | ❌ |
 | 2024 | MÉD | Conflit d'intérêts non déclaré entre régulateur et think tank pro-migrants | ❌ |
 | 2024 | MÉD | Depuis 2019, l'ARCOM a sanctionné CNews 26 fois pour un total de 630 001 euros | ❌ |
 | 2024 | MÉD | Geoffroy Lejeune installé à la direction du JDD | ❌ |
-| 2024 | MÉD | Geoffroy Lejeune installé à la direction du JDD | ❌ |
 | 2024 | MÉD | Mediawan capte 864 M€ de contrats France Télévisions (2017-2024) | ❌ |
 | 2024 | MÉD | Niel rachète l'agence Bestimage de Mimi Marchand | ❌ |
-| 2024 | MÉD | Niel rachète l'agence Bestimage de Mimi Marchand | ❌ |
-| 2024 | MÉD | Plus de 190 départs chez Prisma Media (48% des CDI) après absorption par Bolloré | ❌ |
 | 2024 | MÉD | Plus de 190 départs chez Prisma Media (48% des CDI) après absorption par Bolloré | ❌ |
 | 2024 | MÉD | Révélation Storm-1516 : 128 faux articles visant France (2022-2024) | ❌ |
 | 2024 | MÉD | Sutton Trust 2024 | ❌ |
-| 2024 | MÉD | Sutton Trust 2024 | ❌ |
-| 2024 | MÉD | UnHerd blacklisté par le Global Disinformation Index sur la base de labels idéologiques | ❌ |
 | 2024 | MÉD | UnHerd blacklisté par le Global Disinformation Index sur la base de labels idéologiques | ❌ |
 
 ### 2025
@@ -3854,108 +3633,66 @@
 | Année | Dimension | Description | Code |
 |---|---|---|---|
 | 2025 | POL | 15 mai 2025 : audition Sénat, Montchalin bousculée sur chiffrages de suppression d'1/3 des opérateurs d'État | ❌ |
-| 2025 | POL | 15 mai 2025 : audition Sénat, Montchalin bousculée sur chiffrages de suppression d'1/3 des opérateurs d'État | ❌ |
-| 2025 | POL | 21 novembre 2025 : Montchalin menace de démissionner si 49.3 utilisé | ⚠ |
 | 2025 | POL | 21 novembre 2025 : Montchalin menace de démissionner si 49.3 utilisé | ⚠ |
 | 2025 | POL | 22% confiance gouvernement CEVIPOF (-13 pts vs 2017) | ❌ |
 | 2025 | POL | 26 octobre 2025 : Montchalin déclare "blessure démocratique" sur la réforme des retraites tout en la défendant | ❌ |
-| 2025 | POL | 26 octobre 2025 : Montchalin déclare "blessure démocratique" sur la réforme des retraites tout en la défendant | ❌ |
-| 2025 | POL | 3 novembre 2025 : Montchalin traite les oppositions "d'arnaqueurs et d'illusionnistes" | ❌ |
 | 2025 | POL | 3 novembre 2025 : Montchalin traite les oppositions "d'arnaqueurs et d'illusionnistes" | ❌ |
 | 2025 | POL | 62%: "élites ne se préoccupent pas de leur sort" (CEVIPOF 2026) | ❌ |
 | 2025 | POL | 70% des Français appellent à la dissolution (Fractures françaises 2025, Ipsos) | ❌ |
 | 2025 | POL | AfD : 90% votes pro-russes au PE | ❌ |
 | 2025 | POL | Alain Minc, éditorialiste proche pouvoir | ❌ |
-| 2025 | POL | Alain Minc, éditorialiste proche pouvoir | ❌ |
 | 2025 | POL | Alexandre Benalla, sécurité Élysée | ❌ |
-| 2025 | POL | Alexandre Benalla, sécurité Élysée | ❌ |
-| 2025 | POL | Alexandre Langlois, ex-Renseignement Territorial | ✅ |
 | 2025 | POL | Alexandre Langlois, ex-Renseignement Territorial | ✅ |
 | 2025 | POL | Alla Poedie: membre de l'IHEDN (rattaché au Premier Ministre), hashtag #NAFOFellas | ⚠ |
-| 2025 | POL | Amendements "clé en main" fournis par lobbyistes, député ne fait que signer | ❌ |
 | 2025 | POL | Amendements "clé en main" fournis par lobbyistes, député ne fait que signer | ❌ |
 | 2025 | POL | Appel à l'abolition des partis politiques via des outils numériques de démocratie directe (RIC, open-data citoyen) — résurgence de la proposition de Simone Weil (1943) | ⚠ |
 | 2025 | POL | Assemblée nationale vote la nationalisation d'ArcelorMittal France : 127 pour, 41 contre → sans suite | ⚠ |
 | 2025 | POL | Aucun débat parlementaire prévu sur le service militaire volontaire | ❌ |
 | 2025 | POL | Avec familles, les agents publics représentent une part significative de l'électorat | ⚠ |
-| 2025 | POL | Avec familles, les agents publics représentent une part significative de l'électorat | ⚠ |
 | 2025 | POL | BSW (Wagenknecht) : 100% votes pro-russes | ❌ |
 | 2025 | POL | Barack Obama | ❌ |
-| 2025 | POL | Barack Obama | ❌ |
-| 2025 | POL | Bayrou jamais inquiété, aujourd'hui Haut-Commissaire n°2 protocolaire de l'État | ❌ |
 | 2025 | POL | Bayrou jamais inquiété, aujourd'hui Haut-Commissaire n°2 protocolaire de l'État | ❌ |
 | 2025 | POL | Bill Clinton | ❌ |
-| 2025 | POL | Bill Clinton | ❌ |
-| 2025 | POL | Blocage investissements pour justifier vente | ❌ |
 | 2025 | POL | Blocage investissements pour justifier vente | ❌ |
 | 2025 | POL | Budget IHEDN: 7M€ financement gouvernemental | ⚠ |
 | 2025 | POL | Catherine Nay, biographe | ❌ |
-| 2025 | POL | Catherine Nay, biographe | ❌ |
-| 2025 | POL | Chaque frère royal ami pédocriminel | ❌ |
 | 2025 | POL | Chaque frère royal ami pédocriminel | ❌ |
 | 2025 | POL | Chef cabinet von der Leyen consultait think tanks avant discours SOTEU | ❌ |
-| 2025 | POL | Chef cabinet von der Leyen consultait think tanks avant discours SOTEU | ❌ |
-| 2025 | POL | Commission européenne donne instructions confidentielles pour censurer contenus politiques non illégaux (Commission judiciaire Congrès US, juillet 2025) | ❌ |
 | 2025 | POL | Commission européenne donne instructions confidentielles pour censurer contenus politiques non illégaux (Commission judiciaire Congrès US, juillet 2025) | ❌ |
 | 2025 | POL | Confiance politique: 22% (CEVIPOF 2026) | ❌ |
 | 2025 | POL | Convergence des critiques : Mélenchon, Chenu, Roussel, Royal — arc des oppositions total | ⚠ |
 | 2025 | POL | Crise politique après Barnier : nouveau PM | ⚠ |
 | 2025 | POL | Croissance massive des effectifs publics depuis 1980 | ❌ |
-| 2025 | POL | Croissance massive des effectifs publics depuis 1980 | ❌ |
-| 2025 | POL | Diagnostic Performance Énergétique, 20-30% valeur vaporisée | ❌ |
 | 2025 | POL | Diagnostic Performance Énergétique, 20-30% valeur vaporisée | ❌ |
 | 2025 | POL | Didier Julien Garofalo, projet ignoré | ❌ |
-| 2025 | POL | Didier Julien Garofalo, projet ignoré | ❌ |
 | 2025 | POL | Donne permis de tuer rétrospectif à police | ❌ |
-| 2025 | POL | Donne permis de tuer rétrospectif à police | ❌ |
-| 2025 | POL | Double allégeance, conflit intérêts structurel légal | ❌ |
 | 2025 | POL | Double allégeance, conflit intérêts structurel légal | ❌ |
 | 2025 | POL | Duclos qualifie Philippot de « traître qui bosse pour puissance étrangère hostile » | ❌ |
 | 2025 | POL | Duclos reçoit documents sensibles avant publication officielle (ex: 18e paquet sanctions Russie) | ⚠ |
 | 2025 | POL | Débat sur une nouvelle dissolution | ❌ |
 | 2025 | POL | Décret DCI signé un vendredi de Toussaint (technique d'annonce invisible) — sans communication officielle | ❌ |
 | 2025 | POL | Effectifs de l'ASN estimés à 1 800 agents | ❌ |
-| 2025 | POL | Effectifs de l'ASN estimés à 1 800 agents | ❌ |
-| 2025 | POL | Effectifs de l'OFB estimés à 3 000 agents | ❌ |
 | 2025 | POL | Effectifs de l'OFB estimés à 3 000 agents | ❌ |
 | 2025 | POL | Effectifs de la CNIL estimés à 200 agents | ❌ |
-| 2025 | POL | Effectifs de la CNIL estimés à 200 agents | ❌ |
-| 2025 | POL | Effectifs des DDPP estimés à 5 000 agents | ❌ |
 | 2025 | POL | Effectifs des DDPP estimés à 5 000 agents | ❌ |
 | 2025 | POL | Effectifs des DRAAF estimés à 8 000 agents | ❌ |
-| 2025 | POL | Effectifs des DRAAF estimés à 8 000 agents | ❌ |
 | 2025 | POL | Effectifs des préfectures estimés à 30 000 agents | ❌ |
-| 2025 | POL | Effectifs des préfectures estimés à 30 000 agents | ❌ |
-| 2025 | POL | Ex-Premier ministre | ⚠ |
 | 2025 | POL | Ex-Premier ministre | ⚠ |
 | 2025 | POL | Fidesz : contre 7 résolutions sur 14 sur l'Ukraine | ❌ |
 | 2025 | POL | Florian Philippot (Les Patriotes) dénonce « Violence d'État » | ✅ |
-| 2025 | POL | Florian Philippot (Les Patriotes) dénonce « Violence d'État » | ✅ |
-| 2025 | POL | France classée 25e rang mondial perception corruption (Transparency International) | ❌ |
 | 2025 | POL | France classée 25e rang mondial perception corruption (Transparency International) | ❌ |
 | 2025 | POL | François Hollande, ex-président | ⚠ |
-| 2025 | POL | François Hollande, ex-président | ⚠ |
-| 2025 | POL | Gérard Collomb, ex-ministre Intérieur | ⚠ |
 | 2025 | POL | Gérard Collomb, ex-ministre Intérieur | ⚠ |
 | 2025 | POL | Indice de Perception de la Corruption Transparency International: France 66/100, 27e/182, pire résultat historique | ❌ |
 | 2025 | POL | Inversion : met fumier = menace de mort | ❌ |
-| 2025 | POL | Inversion : met fumier = menace de mort | ❌ |
-| 2025 | POL | Jean-Michel Blanquer, ex-ministre Éducation | ⚠ |
 | 2025 | POL | Jean-Michel Blanquer, ex-ministre Éducation | ⚠ |
 | 2025 | POL | Jean-Noël Barrot assume : l'UE ciblera les "agents qui faussent la note" | ❌ |
-| 2025 | POL | Jean-Noël Barrot assume : l'UE ciblera les "agents qui faussent la note" | ❌ |
 | 2025 | POL | Jean-Yves Le Drian, ex-ministre Défense/AE | ⚠ |
-| 2025 | POL | Jean-Yves Le Drian, ex-ministre Défense/AE | ⚠ |
-| 2025 | POL | John F. Kennedy | ❌ |
 | 2025 | POL | John F. Kennedy | ❌ |
 | 2025 | POL | L'accusation de manipulation étrangère qualifiée d'« écran de fumée » par l'enquête | ❌ |
 | 2025 | POL | L'État privatisé pour fournir des rentes aux vassaux déchus = détournement de fonction publique à des fins partisanes | ❌ |
-| 2025 | POL | L'État privatisé pour fournir des rentes aux vassaux déchus = détournement de fonction publique à des fins partisanes | ❌ |
-| 2025 | POL | La corruption n'est pas un bug mais le système d'exploitation du régime | ❌ |
 | 2025 | POL | La corruption n'est pas un bug mais le système d'exploitation du régime | ❌ |
 | 2025 | POL | Laurent Nuñez, silence valide doctrine | ❌ |
-| 2025 | POL | Laurent Nuñez, silence valide doctrine | ❌ |
-| 2025 | POL | Le "recasage" des battus : l'échec est une promotion tant que loyauté au suzerain est totale | ❌ |
 | 2025 | POL | Le "recasage" des battus : l'échec est une promotion tant que loyauté au suzerain est totale | ❌ |
 | 2025 | POL | Le bloc pro-Kremlin au Parlement européen a doublé | ❌ |
 | 2025 | POL | Le gouvernement mène depuis des semaines une opération de préparation psychologique des esprits | ❌ |
@@ -3970,67 +3707,44 @@
 | 2025 | POL | Mars 31 : Marine Le Pen condamnée inéligibilité 5 ans, 4 ans prison (dont 2 ferme) affaire assistants parlementaires | 💀 |
 | 2025 | POL | Mission AGTE: 4,96 Md€, +124% depuis 2006 | ❌ |
 | 2025 | POL | Mission commandée | ❌ |
-| 2025 | POL | Mission commandée | ❌ |
 | 2025 | POL | Mouvement pour la nationalisation d'ArcelorMittal en France, porté par une campagne sur les réseaux sociaux dénonçant 20 ans de déclin industriel | ⚠ |
-| 2025 | POL | Nuit où l'État bascule dans la milice privée | 💀 |
 | 2025 | POL | Nuit où l'État bascule dans la milice privée | 💀 |
 | 2025 | POL | Pantouflage multiplié par 3, zéro condamnation HATVP | ❌ |
 | 2025 | POL | Parlement européen bloque débat corruption Ukraine proposé par Patriots for Europe | ❌ |
 | 2025 | POL | Phénomène n'épargne pas les autres partis | ❌ |
-| 2025 | POL | Phénomène n'épargne pas les autres partis | ❌ |
-| 2025 | POL | Pour fonctions publiques stratégiques | ⚠ |
 | 2025 | POL | Pour fonctions publiques stratégiques | ⚠ |
 | 2025 | POL | Pris entre soutien police et base agricole | ❌ |
-| 2025 | POL | Pris entre soutien police et base agricole | ❌ |
-| 2025 | POL | Profil « guerrier », formé pour neutraliser terroristes | ❌ |
 | 2025 | POL | Profil « guerrier », formé pour neutraliser terroristes | ❌ |
 | 2025 | POL | Proposition socialiste d'un « emprunt forcé » sur les 20 000 ménages les plus riches pour financer la dette — montant estimé insuffisant face aux 3 200 Mds€ de dette publique | ⚠ |
 | 2025 | POL | Près de 50 000 agents consacrés à appliquer des normes produites par d'autres couches | ❌ |
-| 2025 | POL | Près de 50 000 agents consacrés à appliquer des normes produites par d'autres couches | ❌ |
-| 2025 | POL | Présidents américains issus Ivy League | ❌ |
 | 2025 | POL | Présidents américains issus Ivy League | ❌ |
 | 2025 | POL | Qualifié de « danger » | ❌ |
-| 2025 | POL | Qualifié de « danger » | ❌ |
-| 2025 | POL | Qualifié de « lobby » (livre Anne Kling, BnF) | ❌ |
 | 2025 | POL | Qualifié de « lobby » (livre Anne Kling, BnF) | ❌ |
 | 2025 | POL | RN sous enquête pour 4,3M€ irrégularités assistants parlementaires | ❌ |
 | 2025 | POL | Relation Scholz-Macron « broken » (Bloomberg) | ❌ |
 | 2025 | POL | Relations UE après élections | ⚠ |
 | 2025 | POL | Reproduction élitaire américaine | ❌ |
-| 2025 | POL | Reproduction élitaire américaine | ❌ |
-| 2025 | POL | Reproduction élitaire britannique | ❌ |
 | 2025 | POL | Reproduction élitaire britannique | ❌ |
 | 2025 | POL | Retour aux Comptes publics en janvier 2025 | ❌ |
-| 2025 | POL | Retour aux Comptes publics en janvier 2025 | ❌ |
-| 2025 | POL | Richard Ferrand, ex-président Assemblée nationale | ⚠ |
 | 2025 | POL | Richard Ferrand, ex-président Assemblée nationale | ⚠ |
 | 2025 | POL | Terrain vierge | ❌ |
-| 2025 | POL | Terrain vierge | ❌ |
-| 2025 | POL | Tous acceptent tacitement menace de mort pour protéger intérêts | ❌ |
 | 2025 | POL | Tous acceptent tacitement menace de mort pour protéger intérêts | ❌ |
 | 2025 | POL | Truth Engine : au-delà de 0,7 = caste fermée | ❌ |
-| 2025 | POL | Truth Engine : au-delà de 0,7 = caste fermée | ❌ |
-| 2025 | POL | Tweet sur dermatose, ignore homme mis en joue | ❌ |
 | 2025 | POL | Tweet sur dermatose, ignore homme mis en joue | ❌ |
 | 2025 | POL | Ukraine classée 104e/180 par Transparency International | ❌ |
 | 2025 | POL | Université Lausanne, European J. Political Research (Nai et al., 60 pays) | ❌ |
-| 2025 | POL | Université Lausanne, European J. Political Research (Nai et al., 60 pays) | ❌ |
-| 2025 | POL | Véronique de Montchalin (tante par alliance) suppléante du député Guillaume Kasbarian, ministre du Logement | ❌ |
 | 2025 | POL | Véronique de Montchalin (tante par alliance) suppléante du député Guillaume Kasbarian, ministre du Logement | ❌ |
 | 2025 | POL | « Syndrome du village Potemkine » : façade martiale aggressive pour masquer intérieur vide | ❌ |
 | 2025 | POL | À partir de janvier 2025, Musk peut poursuivre l'UE devant Cour Fédérale de New York | ❌ |
-| 2025-01/07 | POL | OpenPeppol exerce le rôle d'Autorité Peppol Intérimaire pour la France (6 mois) | ❌ |
 | 2025-01/07 | POL | OpenPeppol exerce le rôle d'Autorité Peppol Intérimaire pour la France (6 mois) | ❌ |
 | 2025-02 | POL | 74% des Français estiment les politiques corrompus (Ifop/Le Monde) | ❌ |
 | 2025-02 | POL | Baromètre CEVIPOF vague 16: 26% des Français confiance partis politiques, 32% confiance gouvernement | ❌ |
 | 2025-02 | POL | Élections anticipées en Allemagne | ⚠ |
 | 2025-07 | POL | DGFiP devient la France Peppol Authority officielle | ⚠ |
-| 2025-07 | POL | DGFiP devient la France Peppol Authority officielle | ⚠ |
 | 2025-07 | POL | Tentative d'affaiblir le NABU en juillet 2025 | ❌ |
 | 2025-07-31 | POL | Intelligence Online: Louis Duclos (57 000 followers) collabore avec cellule Quai d'Orsay depuis >1 an | ❌ |
 | 2025-10 | POL | Confiance en Macron: 11% (Verian/Figaro Magazine), remontée à 23% en janvier 2026 | ❌ |
 | 2025-11 | POL | Trump signe l'Epstein Files Transparency Act à quasi-unanimité | ⚠ |
-| 2025-11-10 | POL | 13 organisations patronales adressent lettre commune d'« immense inquiétude » face à 53 Md€ de hausses envisagées | ⚠ |
 | 2025-11-10 | POL | 13 organisations patronales adressent lettre commune d'« immense inquiétude » face à 53 Md€ de hausses envisagées | ⚠ |
 | 2025-11-26 | POL | Kaja Kallas (vice-présidente Commission UE) déclare sur BFM TV: « Russie a attaqué +19 pays en 100 ans » | ⚠ |
 | 2025-11-26 | POL | Kallas (PM Estonie 2021-2024) fille de l'ex-Commissaire Siim Kallas | ⚠ |
@@ -4044,33 +3758,24 @@
 | 2025-12 | POL | Confiance dans le système judiciaire: 50% (Gallup, -9 points) | ❌ |
 | 2025-12 | POL | GRANITE Act porté par administration Trump/Rogers | ⚠ |
 | 2025-2026 | POL | Audit parlementaire dirigé par le député Charles Alloncle | ⚠ |
-| 2025-2026 | POL | Audit parlementaire dirigé par le député Charles Alloncle | ⚠ |
 | 2025 | ÉCO | 100M$ détournés (Mindich) + 91M€ à recouvrer (OLAF Pologne) + 77Md$ carnet Raytheon | ❌ |
-| 2025 | ÉCO | 112 000 € de frais d'hôtel Le Majestic par la direction de France Télévisions | ❌ |
 | 2025 | ÉCO | 112 000 € de frais d'hôtel Le Majestic par la direction de France Télévisions | ❌ |
 | 2025 | ÉCO | 20 plus grandes fortunes françaises: 704 Md€ (Challenges 500) | ❌ |
 | 2025 | ÉCO | 500 fortunes professionnelles: 1 128 Md€ | ❌ |
 | 2025 | ÉCO | 60 Md€ économies annoncées, 3 Md€ seulement mesures effectives (HCFP) | ❌ |
 | 2025 | ÉCO | 7,3 millions de parcelles foncières détenues anonymement ou via sociétés écrans | ❌ |
-| 2025 | ÉCO | 7,3 millions de parcelles foncières détenues anonymement ou via sociétés écrans | ❌ |
 | 2025 | ÉCO | ADIT contrôlé à 43% par Sagard, fonds canadien de la famille Desmarais | ⚠ |
 | 2025 | ÉCO | AFM : chaque député dispose de ~600 €/mois sans justificatif (en plus des 5000+ justifiés) | ❌ |
-| 2025 | ÉCO | AFM : chaque député dispose de ~600 €/mois sans justificatif (en plus des 5000+ justifiés) | ❌ |
-| 2025 | ÉCO | AFM : chaque sénateur dispose de ~885 €/mois sans justificatif | ❌ |
 | 2025 | ÉCO | AFM : chaque sénateur dispose de ~885 €/mois sans justificatif | ❌ |
 | 2025 | ÉCO | AN Conseil: opacité totale (clients inconnus, CA inconnu) | ❌ |
 | 2025 | ÉCO | Actifs du shadow banking : 256,8 billions $, 51% des actifs financiers mondiaux, croissance au double du système régulé | ❌ |
-| 2025 | ÉCO | Actifs du shadow banking : 256,8 billions $, 51% des actifs financiers mondiaux, croissance au double du système régulé | ❌ |
-| 2025 | ÉCO | Amende infligée à X pour violation DSA (5 décembre 2025) | ❌ |
 | 2025 | ÉCO | Amende infligée à X pour violation DSA (5 décembre 2025) | ❌ |
 | 2025 | ÉCO | Arnaud Rousseau : président FNSEA + président CA Groupe Avril (CA 7,9 Md€), 187 000 €/an jetons de présence, 700+ ha exploitation | ❌ |
-| 2025 | ÉCO | Atos gère simulation nucléaire française | 💀 |
 | 2025 | ÉCO | Atos gère simulation nucléaire française | 💀 |
 | 2025 | ÉCO | Avencore travaille étroitement avec l'industrie de défense | ⚠ |
 | 2025 | ÉCO | BAE Systems : +33% | ❌ |
 | 2025 | ÉCO | BNDES (banque publique brésilienne) actionnaire à 18% de JBS | ❌ |
 | 2025 | ÉCO | CSPE 2026 : 13 Md€ de charges de service public de l'électricité (CRE) | ❌ |
-| 2025 | ÉCO | Clôture de comptes bancaires pour "risque de réputation" : stratégie européenne silencieuse | ❌ |
 | 2025 | ÉCO | Clôture de comptes bancaires pour "risque de réputation" : stratégie européenne silencieuse | ❌ |
 | 2025 | ÉCO | Coût total SNU possible : 10 milliards d'euros selon Moscovici | ❌ |
 | 2025 | ÉCO | Crise du logement prolongée | ❌ |
@@ -4078,87 +3783,58 @@
 | 2025 | ÉCO | DCI contrôlé à 66% par ADIT, groupe privé français | ⚠ |
 | 2025 | ÉCO | Danone: 1Md€ pertes | ❌ |
 | 2025 | ÉCO | Dette consolidée de France Télévisions : 81 millions € | ❌ |
-| 2025 | ÉCO | Dette consolidée de France Télévisions : 81 millions € | ❌ |
-| 2025 | ÉCO | Dette mondiale atteint 330% du PIB mondial (Institut de la finance internationale) | 💀 |
 | 2025 | ÉCO | Dette mondiale atteint 330% du PIB mondial (Institut de la finance internationale) | 💀 |
 | 2025 | ÉCO | Dette nette d'EDF : 65 Md€ (Cour des comptes) | ❌ |
 | 2025 | ÉCO | Dette publique : 115 % du PIB | ❌ |
 | 2025 | ÉCO | Dette publique française : +1 000 Md€ depuis 2017, 3 416 Md€ (115,6% du PIB) mi-2025 | 💀 |
-| 2025 | ÉCO | Dette publique française : +1 000 Md€ depuis 2017, 3 416 Md€ (115,6% du PIB) mi-2025 | 💀 |
-| 2025 | ÉCO | Dette publique française : 114% du PIB | 💀 |
 | 2025 | ÉCO | Dette publique française : 114% du PIB | 💀 |
 | 2025 | ÉCO | Décret du 31 octobre 2025 au Journal officiel transfère 28% du capital de DCI à un consortium privé Ottawa-Abu Dhabi | ❌ |
 | 2025 | ÉCO | Déficit de France Télévisions : 41 millions € | ❌ |
-| 2025 | ÉCO | Déficit de France Télévisions : 41 millions € | ❌ |
-| 2025 | ÉCO | En 2025, gouvernement annonce 60 Md€ d'économies ; HCFP établit seulement 3 Md€ effectives — 57 Md€ de fiction | ❌ |
 | 2025 | ÉCO | En 2025, gouvernement annonce 60 Md€ d'économies ; HCFP établit seulement 3 Md€ effectives — 57 Md€ de fiction | ❌ |
 | 2025 | ÉCO | Ensemble shadow banking + dérivés : 1 100 billions $ ; PIB mondial : 105 billions $ | 💀 |
-| 2025 | ÉCO | Ensemble shadow banking + dérivés : 1 100 billions $ ; PIB mondial : 105 billions $ | 💀 |
-| 2025 | ÉCO | Estimation | ❌ |
 | 2025 | ÉCO | Estimation | ❌ |
 | 2025 | ÉCO | Estimation Cour des Comptes SNU généralisé : 3,5 à 5 milliards d'euros/an | ❌ |
 | 2025 | ÉCO | Estimation de l'économie informelle (Les Échos, 2025) | 💀 |
-| 2025 | ÉCO | Estimation de l'économie informelle (Les Échos, 2025) | 💀 |
-| 2025 | ÉCO | Estimation de la fraude fiscale par le Conseil des prélèvements obligatoires | 💀 |
 | 2025 | ÉCO | Estimation de la fraude fiscale par le Conseil des prélèvements obligatoires | 💀 |
 | 2025 | ÉCO | Estimation gouvernementale SNU généralisé : 2 milliards d'euros/an | ❌ |
 | 2025 | ÉCO | FT: total pertes UE 100Md€ | ❌ |
 | 2025 | ÉCO | Facteur x5 entre l'annonce budgétaire et la réalité estimée | ❌ |
 | 2025 | ÉCO | Fonds ESG rachètent à prix bradé avec MaPrimeRénov' | ❌ |
-| 2025 | ÉCO | Fonds ESG rachètent à prix bradé avec MaPrimeRénov' | ❌ |
-| 2025 | ÉCO | George Soros (OSF), Jeff Skoll et Pierre Omidyar financent le complexe de censure numérique | ❌ |
 | 2025 | ÉCO | George Soros (OSF), Jeff Skoll et Pierre Omidyar financent le complexe de censure numérique | ❌ |
 | 2025 | ÉCO | Global Witness (2025) : 26 milliards $ générés en une décennie par financements bancaires d'entreprises déforestantes | ❌ |
 | 2025 | ÉCO | Inflation à 1,8 % | ⚠ |
 | 2025 | ÉCO | Investissements centres SNU : +6 milliards d'euros | ❌ |
 | 2025 | ÉCO | L'État verse des centaines de millions d'euros d'aides à la presse chaque année | ❌ |
-| 2025 | ÉCO | L'État verse des centaines de millions d'euros d'aides à la presse chaque année | ❌ |
 | 2025 | ÉCO | La France frôle le blackout électrique à 2 reprises, perdant 10 puis 8 gigawatts de capacité | ❌ |
 | 2025 | ÉCO | Lobbying total dépasse 5 milliards de dollars (+14% en un an) | ❌ |
-| 2025 | ÉCO | Lobbying total dépasse 5 milliards de dollars (+14% en un an) | ❌ |
 | 2025 | ÉCO | MBDA détenu à 37,5% par Airbus, 37,5% par BAE Systems, 25% par Leonardo | ⚠ |
-| 2025 | ÉCO | Milliardaire | ❌ |
 | 2025 | ÉCO | Milliardaire | ❌ |
 | 2025 | ÉCO | Musk peut demander saisie des avoirs — pas 120M mais milliards (BCE, Banque de France à Fed NY) | ❌ |
 | 2025 | ÉCO | Mécanisme identifié : générer la peur → disqualifier la critique → justifier réarmement massif → crédits publics vers l'industrie de défense → cabinets conseil prospèrent | ❌ |
 | 2025 | ÉCO | Niche fiscale maintenue | ❌ |
-| 2025 | ÉCO | Niche fiscale maintenue | ❌ |
 | 2025 | ÉCO | Nouveau nucléaire (6 EPR) : coût réévalué à 67 Md€ (EDF) | ❌ |
 | 2025 | ÉCO | OFAC sanctionne 875+ cibles | ⚠ |
 | 2025 | ÉCO | Plafond des sanctions prévues par le DSA | ❌ |
-| 2025 | ÉCO | Plafond des sanctions prévues par le DSA | ❌ |
 | 2025 | ÉCO | Plan d'économies 50 milliards | ❌ |
 | 2025 | ÉCO | Produits dérivés de gré à gré : 846 billions $ en valeur notionnelle (BRI) | ❌ |
-| 2025 | ÉCO | Produits dérivés de gré à gré : 846 billions $ en valeur notionnelle (BRI) | ❌ |
 | 2025 | ÉCO | Projet de fusion/suppression d'1/3 des opérateurs d'État pour 2 à 3 milliards d'économies | ⚠ |
-| 2025 | ÉCO | Projet de fusion/suppression d'1/3 des opérateurs d'État pour 2 à 3 milliards d'économies | ⚠ |
-| 2025 | ÉCO | Promotion HEC 2005 récolte 1 million € pour la Fondation HEC en juin 2025 | ❌ |
 | 2025 | ÉCO | Promotion HEC 2005 récolte 1 million € pour la Fondation HEC en juin 2025 | ❌ |
 | 2025 | ÉCO | Rheinmetall : +90% depuis janvier, capitalisation > Volkswagen | ❌ |
 | 2025 | ÉCO | Règlement | ⚠ |
-| 2025 | ÉCO | Règlement | ⚠ |
-| 2025 | ÉCO | Règlement dans le cadre de l'affaire Epstein | ⚠ |
 | 2025 | ÉCO | Règlement dans le cadre de l'affaire Epstein | ⚠ |
 | 2025 | ÉCO | Réforme de l'assurance chômage | ❌ |
 | 2025 | ÉCO | Rénovation obligatoire | ❌ |
-| 2025 | ÉCO | Rénovation obligatoire | ❌ |
-| 2025 | ÉCO | SEM et SPL (Sociétés d'Économie Mixte et Publiques Locales) : délit de favoritisme industrialisé | ❌ |
 | 2025 | ÉCO | SEM et SPL (Sociétés d'Économie Mixte et Publiques Locales) : délit de favoritisme industrialisé | ❌ |
 | 2025 | ÉCO | SMIC net environ 1 400 euros — un jeune touchera 57% du SMIC pour un statut militaire temps plein | ❌ |
 | 2025 | ÉCO | Sagard détient participation minoritaire du fonds souverain émirati ADQ | ⚠ |
 | 2025 | ÉCO | Sanctions Russie: Renault perd 2,2Md€ (vente pour 1 rouble symbolique) | ❌ |
 | 2025 | ÉCO | Secteur de la santé investit un record de 868 M$ dans le lobbying (OpenSecrets) | ❌ |
-| 2025 | ÉCO | Secteur de la santé investit un record de 868 M$ dans le lobbying (OpenSecrets) | ❌ |
 | 2025 | ÉCO | Service volontaire : 800 euros/mois minimum pour 10 mois | ❌ |
 | 2025 | ÉCO | Société Générale: 3,2Md€ pertes | ❌ |
 | 2025 | ÉCO | Start-up Nation = Gosplan 2.0 | ❌ |
-| 2025 | ÉCO | Start-up Nation = Gosplan 2.0 | ❌ |
 | 2025 | ÉCO | Taux dépasse de 4,4 points de PIB la moyenne européenne (Le Nouvel Économiste, nov. 2025) | ❌ |
-| 2025 | ÉCO | Taux dépasse de 4,4 points de PIB la moyenne européenne (Le Nouvel Économiste, nov. 2025) | ❌ |
-| 2025 | ÉCO | Taxe intérieure de consommation sur produits énergétiques | ❌ |
 | 2025 | ÉCO | Taxe intérieure de consommation sur produits énergétiques | ❌ |
 | 2025 | ÉCO | Thales: 22,1 milliards d'euros de ventes, carnet de commandes record de 53,3 milliards | ❌ |
-| 2025 | ÉCO | Total AFM sans contrôle : ~8 millions €/an pour 925 parlementaires | ❌ |
 | 2025 | ÉCO | Total AFM sans contrôle : ~8 millions €/an pour 925 parlementaires | ❌ |
 | 2025 | ÉCO | TotalEnergies: 14Md€ provisions | ❌ |
 | 2025 | ÉCO | Trump annonce rencontre Poutine : perte 15 milliards EUR en 48h pour défense européenne | ⚠ |
@@ -4174,7 +3850,6 @@
 | 2025-11-10 | ÉCO | 100M$ détournés via schémas kickbacks sur contrats Energoatom | ❌ |
 | 2025-12-11/12 | ÉCO | Coût estimé de l'opération Bordes-sur-Arize : 100 000 à 200 000 € | ❌ |
 | 2025 | SOC | 0,25% de la population, dix obédiences | ⚠ |
-| 2025 | SOC | 0,25% de la population, dix obédiences | ⚠ |
 | 2025 | SOC | 12 millions de personnes en précarité énergétique (ONPE) | ❌ |
 | 2025 | SOC | 21% seulement des agriculteurs consultent un médecin avant leur suicide | 💀 |
 | 2025 | SOC | 30 % des ménages ont eu froid dans leur logement en 2024 (Médiateur national énergie) | ❌ |
@@ -4183,13 +3858,10 @@
 | 2025 | SOC | 30% des 18-34 ans vivent chez leurs parents | ❌ |
 | 2025 | SOC | 34% primo-accédants <35 ans voient prêt refusé | ❌ |
 | 2025 | SOC | 508,8 millions d'euros de fraude aux aides sociales détectés, +13% | ❌ |
-| 2025 | SOC | 508,8 millions d'euros de fraude aux aides sociales détectés, +13% | ❌ |
 | 2025 | SOC | 52% travailleurs non-cadres voient prêt refusé | ❌ |
 | 2025 | SOC | 61% demandes hébergement d'urgence non satisfaites | ❌ |
 | 2025 | SOC | 67% des Français pensent que leurs élus sont corrompus | ❌ |
-| 2025 | SOC | 67% des Français pensent que leurs élus sont corrompus | ❌ |
 | 2025 | SOC | ARCOM n'avait pas réagi à l'appel à destruction | ❌ |
-| 2025 | SOC | Aide Sociale à l'Enfance | ❌ |
 | 2025 | SOC | Aide Sociale à l'Enfance | ❌ |
 | 2025 | SOC | Alla Poedie: 30 400 abonnés Twitter, visibilité LCI, BFM TV, France 24 | ⚠ |
 | 2025 | SOC | Avril : Hélène Perlant (fille Bayrou) témoigne violences subies à Bétharram | ⚠ |
@@ -4198,45 +3870,32 @@
 | 2025 | SOC | CNAM: arrêts maladie épuisement professionnel +15% chez >58 ans | ❌ |
 | 2025 | SOC | CNAV: départs retraite anticipée -30% après réforme | ❌ |
 | 2025 | SOC | CPME alerte sur impact PME contraintes de payer un abonnement privé pour facturer — sans suite | ❌ |
-| 2025 | SOC | CPME alerte sur impact PME contraintes de payer un abonnement privé pour facturer — sans suite | ❌ |
-| 2025 | SOC | Citation rapportée | ⚠ |
 | 2025 | SOC | Citation rapportée | ⚠ |
 | 2025 | SOC | Cnaf effectue 29,2 millions de contrôles en 2025 | ❌ |
-| 2025 | SOC | Cnaf effectue 29,2 millions de contrôles en 2025 | ❌ |
-| 2025 | SOC | Commission parlementaire révèle 34% des enfants tués par violence parentale connus ASE | 💀 |
 | 2025 | SOC | Commission parlementaire révèle 34% des enfants tués par violence parentale connus ASE | 💀 |
 | 2025 | SOC | Crise du pouvoir d'achat persistante | ❌ |
 | 2025 | SOC | DDPN braque arme sur agriculteur à Auch | 💀 |
 | 2025 | SOC | Deuxième obédience | ⚠ |
-| 2025 | SOC | Deuxième obédience | ⚠ |
-| 2025 | SOC | Déploiement véhicules blindés Centaure, gaz lacrymogène contre agriculteurs (décembre 2025) | 💀 |
 | 2025 | SOC | Déploiement véhicules blindés Centaure, gaz lacrymogène contre agriculteurs (décembre 2025) | 💀 |
 | 2025 | SOC | Fév 14 : Bayrou rencontre victimes Bétharram à Pau, nie avoir su | ❌ |
 | 2025 | SOC | Fév 20 : Congrégation Bétharram reconnaît responsabilité | ⚠ |
 | 2025 | SOC | Fév : Mediapart révèle intervention Bayrou en 1996 pour protéger Bétharram | ❌ |
 | 2025 | SOC | Grande Loge Nationale Française | ⚠ |
-| 2025 | SOC | Grande Loge Nationale Française | ⚠ |
 | 2025 | SOC | Grèves dans les transports | ⚠ |
-| 2025 | SOC | Institution Notre-Dame Pyrénées-Atlantiques | 💀 |
 | 2025 | SOC | Institution Notre-Dame Pyrénées-Atlantiques | 💀 |
 | 2025 | SOC | Interdiction location logements classés G pour nouveaux baux (1er janvier 2025) | ❌ |
 | 2025 | SOC | Juil : Rapport commission Bétharram : défaut d'action Bayrou | ❌ |
 | 2025 | SOC | Juillet 7 : Suicide député LR Olivier Marleix (Alstom, commission enquête), « petit bout papier » | 💀 |
 | 2025 | SOC | Juin 11 : Suicide Éric Denécé, ex-renseignement, pourfendeur affaire Alstom | 💀 |
 | 2025 | SOC | L'ASE premier fournisseur de la traite | 💀 |
-| 2025 | SOC | L'ASE premier fournisseur de la traite | 💀 |
 | 2025 | SOC | L'avenue Stepan Bandera de Kiev mène au ravin de Babi Yar | ❌ |
 | 2025 | SOC | Les 508,8 M€ représentent 0,14% du budget de la Sécurité sociale | ⚠ |
-| 2025 | SOC | Les 508,8 M€ représentent 0,14% du budget de la Sécurité sociale | ⚠ |
 | 2025 | SOC | MSA : signalements de détresse agricole +30% en 2024 ; sur-risque suicidaire chefs d'exploitation +77% ; 1 suicide agricole tous les 2 jours | 💀 |
-| 2025 | SOC | Manifestation agricole, dépôt de fumier symbolique | ⚠ |
 | 2025 | SOC | Manifestation agricole, dépôt de fumier symbolique | ⚠ |
 | 2025 | SOC | Mars : Inspection rectorat Bétharram : 30 ans après dernière inspection | ❌ |
 | 2025 | SOC | Mobilisation des syndicats | ⚠ |
 | 2025 | SOC | Mouvement social contre l'austérité | ⚠ |
 | 2025 | SOC | Obédience féminine | ⚠ |
-| 2025 | SOC | Obédience féminine | ⚠ |
-| 2025 | SOC | Obédience mixte | ⚠ |
 | 2025 | SOC | Obédience mixte | ⚠ |
 | 2025 | SOC | PLFSS 2025: prélèvement 1,2 Md€ sur budget APL | ❌ |
 | 2025 | SOC | PTZ réformé avril 2025 : gain moyen passe de 25 000€ à 12 000€ | ❌ |
@@ -4244,22 +3903,15 @@
 | 2025 | SOC | Pension minimale retraite 1 200€ (inférieure seuil pauvreté 1 216€) | ❌ |
 | 2025 | SOC | Plus de 7 000 personnes (dont 2 000 enfants) sans place au 115 | 💀 |
 | 2025 | SOC | Première obédience française | ⚠ |
-| 2025 | SOC | Première obédience française | ⚠ |
 | 2025 | SOC | Production crédits immobiliers 2025 : 146,5 Md€ (+33% vs 2024, -25% vs 2021) | ⚠ |
 | 2025 | SOC | Production crédits immobiliers: 146,5 Md€ (+33% vs 2024, -25% vs 2021) | ⚠ |
 | 2025 | SOC | Président Chambre Agriculture et CR32 | ⚠ |
-| 2025 | SOC | Président Chambre Agriculture et CR32 | ⚠ |
 | 2025 | SOC | Prêt à Taux Zéro réformé (avril): gain moyen 25 000→12 000€ | ❌ |
 | 2025 | SOC | Rapport parlementaire 2025 | 💀 |
-| 2025 | SOC | Rapport parlementaire 2025 | 💀 |
-| 2025 | SOC | Ratio entre fraude sociale détectée et fraude fiscale estimée | ❌ |
 | 2025 | SOC | Ratio entre fraude sociale détectée et fraude fiscale estimée | ❌ |
 | 2025 | SOC | Record absolu de femmes assassinées par conjoint (Ministère Intérieur) | 💀 |
-| 2025 | SOC | Record absolu de femmes assassinées par conjoint (Ministère Intérieur) | 💀 |
-| 2025 | SOC | Scandale EHPAD, dividendes sur rationnement nourriture | 💀 |
 | 2025 | SOC | Scandale EHPAD, dividendes sur rationnement nourriture | 💀 |
 | 2025 | SOC | Taux usure au 1er juillet 2025 : 4,80% (15 ans), 5,05% (20 ans), 5,20% (25 ans) | ❌ |
-| 2025 | SOC | Vaccination forcée sous escorte militaire (décembre 2025, AFP) | 💀 |
 | 2025 | SOC | Vaccination forcée sous escorte militaire (décembre 2025, AFP) | 💀 |
 | 2025-11-29 | SOC | Alla Poedie : « Bandera reste un personnage historique marginalisé en Ukraine » | ❌ |
 | 2025-11-29 | SOC | Alla Poedie : « Pétain a livré la France à Hitler. 76,000 Juifs déportés ? Dont 11,000 enfants ? » | ✅ |
@@ -4269,12 +3921,9 @@
 | 2025-12 | SOC | Ferreira — positions documentées: critique gouvernement Israël à Gaza, analyse stratégique | ⚠ |
 | 2025-12-01 | SOC | Alla Poedie lance appel public au préfet des Hauts-de-France pour interdire conférence historique Lille | ❌ |
 | 2025-12-02 | SOC | CGT appelle à la grève ; CFDT refuse d'appeler à la mobilisation | ⚠ |
-| 2025-12-02 | SOC | CGT appelle à la grève ; CFDT refuse d'appeler à la mobilisation | ⚠ |
 | 2025-12-13 | SOC | Conférence E&R Nord à Lille: « L'inévitable victoire russe en Ukraine » | ⚠ |
 | 2025-12-13 | SOC | Intervenant: Sylvain Ferreira, historien militaire, auteur, 46 000 abonnés YouTube | ⚠ |
 | 2025 | JUR | "Codes de Conduite" privés État/GAFAM remplacent la Loi votée par le Parlement | ❌ |
-| 2025 | JUR | "Codes de Conduite" privés État/GAFAM remplacent la Loi votée par le Parlement | ❌ |
-| 2025 | JUR | "Droit au Compte" contourné en France pour médias dissidents | ❌ |
 | 2025 | JUR | "Droit au Compte" contourné en France pour médias dissidents | ❌ |
 | 2025 | JUR | 12 contentieux ouverts simultanément contre France (Commission européenne) | ❌ |
 | 2025 | JUR | 15-30 condamnations CEDH/an pour la France | ❌ |
@@ -4283,85 +3932,56 @@
 | 2025 | JUR | 80 669 détenus janvier 2025 | ❌ |
 | 2025 | JUR | Aide juridictionnelle: 798,1 M€ (PLF 2025), 1,2 million justiciables | ⚠ |
 | 2025 | JUR | Analyse forensique indépendante | 💀 |
-| 2025 | JUR | Analyse forensique indépendante | 💀 |
 | 2025 | JUR | Aucune enquête approfondie ouverte | 💀 |
-| 2025 | JUR | Aucune enquête approfondie ouverte | 💀 |
-| 2025 | JUR | Bill Clinton | ❌ |
 | 2025 | JUR | Bill Clinton | ❌ |
 | 2025 | JUR | Blocking Statute (1996): bouclier de papier — Cour Suprême US (Aérospatiale 1987) dit juges US prévalent | ❌ |
 | 2025 | JUR | CGLPL: 5 500-5 761 matelas au sol mi-2025 | 💀 |
 | 2025 | JUR | CSP+ à INSP: 80% (contre 25% en 1950, rapport Sauvé) | ❌ |
 | 2025 | JUR | Censure via codes de conduite sans recours possible devant tribunal ("pas une loi") | ❌ |
-| 2025 | JUR | Censure via codes de conduite sans recours possible devant tribunal ("pas une loi") | ❌ |
 | 2025 | JUR | Compensation financière | ❌ |
-| 2025 | JUR | Compensation financière | ❌ |
-| 2025 | JUR | Compensation pour éviter procès | ❌ |
 | 2025 | JUR | Compensation pour éviter procès | ❌ |
 | 2025 | JUR | Confiance dans la justice: 27% (CEVIPOF) | ❌ |
 | 2025 | JUR | Conseil de l'UE gèle les avoirs de Jacques Baud | ❌ |
-| 2025 | JUR | Conseil de l'UE gèle les avoirs de Jacques Baud | ❌ |
-| 2025 | JUR | Conseil de l'UE gèle les avoirs de Xavier Moreau | ❌ |
 | 2025 | JUR | Conseil de l'UE gèle les avoirs de Xavier Moreau | ❌ |
 | 2025 | JUR | Cour des comptes décembre 2025: plan 15 000 places prison crée appel d'air | ❌ |
 | 2025 | JUR | Critères Engel : sévérité de la peine (mort économique) devrait déclencher garanties pénales | ❌ |
-| 2025 | JUR | Critères Engel : sévérité de la peine (mort économique) devrait déclencher garanties pénales | ❌ |
 | 2025 | JUR | Détective NABU travaillant sur Midas arrêté par le SBU | ❌ |
-| 2025 | JUR | European Media Freedom Act (EMFA) opérationnel en août 2025 | ❌ |
 | 2025 | JUR | European Media Freedom Act (EMFA) opérationnel en août 2025 | ❌ |
 | 2025 | JUR | France IPC: 66/100 (Transparency International), plus bas niveau historique | ❌ |
 | 2025 | JUR | GRANITE Act: l'UE cesse d'être un État souverain → « acteur économique », immunité souveraine saute | ❌ |
 | 2025 | JUR | Gel d'avoirs contre journalistes = violation Article 10 CEDH (liberté d'expression) | ❌ |
-| 2025 | JUR | Gel d'avoirs contre journalistes = violation Article 10 CEDH (liberté d'expression) | ❌ |
-| 2025 | JUR | Instructions pénales contre Delphine Ernotte temporairement étouffées | ❌ |
 | 2025 | JUR | Instructions pénales contre Delphine Ernotte temporairement étouffées | ❌ |
 | 2025 | JUR | Interdictions de visa contre Breton = sanction directe contre opinion politique déguisée | ❌ |
-| 2025 | JUR | Interdictions de visa contre Breton = sanction directe contre opinion politique déguisée | ❌ |
 | 2025 | JUR | Invalide sanctions proposées Cour des comptes (janvier 2025) | ❌ |
-| 2025 | JUR | Invalide sanctions proposées Cour des comptes (janvier 2025) | ❌ |
-| 2025 | JUR | Inversion de la preuve (probatoria diabolica) : accusé doit prouver qu'il n'est pas une menace | ❌ |
 | 2025 | JUR | Inversion de la preuve (probatoria diabolica) : accusé doit prouver qu'il n'est pas une menace | ❌ |
 | 2025 | JUR | Jan : Plainte Anticor Alstom : juge d'instruction saisi sur cession branche énergie | ⚠ |
 | 2025 | JUR | L'enquête McKinsey porte sur les liens entre le cabinet et la campagne présidentielle de 2017 | ❌ |
 | 2025 | JUR | Loi n°2025-391 du 30 avril: réforme action de groupe unifiée | ⚠ |
 | 2025 | JUR | Maire de Saint-Jory mis en examen pour conditionnement de permis de construire à versements | ❌ |
-| 2025 | JUR | Maire de Saint-Jory mis en examen pour conditionnement de permis de construire à versements | ❌ |
-| 2025 | JUR | Micro-partis : annulation de dettes à 5 ans = don d'entreprise déguisé (illégal), indétectable | ❌ |
 | 2025 | JUR | Micro-partis : annulation de dettes à 5 ans = don d'entreprise déguisé (illégal), indétectable | ❌ |
 | 2025 | JUR | Musk peut utiliser Pre-trial Discovery pour aspirer documents internes Commission | ❌ |
 | 2025 | JUR | Nom de code « Ali Baba » désignerait Andriy Yermak (député) | ❌ |
 | 2025 | JUR | Novembre 2025 : PNF perquisitionne les bureaux parisiens de McKinsey pour « prise illégale d'intérêt » et « détournement de fonds publics » | ❌ |
 | 2025 | JUR | Novembre 2025 : Parquet National Financier perquisitionne McKinsey France | ❌ |
-| 2025 | JUR | Novembre 2025 : Parquet National Financier perquisitionne McKinsey France | ❌ |
 | 2025 | JUR | Operation Midas : 15 mois enquête, 1,000 h enregistrements, 70+ perquisitions, 4 millions $ saisis | ⚠ |
 | 2025 | JUR | Peines inférieures à 5 ans non inscrites automatiquement au fichier | ❌ |
-| 2025 | JUR | Peines inférieures à 5 ans non inscrites automatiquement au fichier | ❌ |
-| 2025 | JUR | Preuves de l'accusation (rapports Viginum/services secrets) classifiées, défense impossible | ❌ |
 | 2025 | JUR | Preuves de l'accusation (rapports Viginum/services secrets) classifiées, défense impossible | ❌ |
 | 2025 | JUR | Régis de Castelnau, juriste | ❌ |
-| 2025 | JUR | Régis de Castelnau, juriste | ❌ |
-| 2025 | JUR | Silence gendarmerie et justice | 💀 |
 | 2025 | JUR | Silence gendarmerie et justice | 💀 |
 | 2025 | JUR | Soral: ~20 condamnations définitives antisémitisme/négationnisme | ❌ |
-| 2025 | JUR | Survivante témoin clé affaire Epstein, 25 ans de lutte | 💀 |
 | 2025 | JUR | Survivante témoin clé affaire Epstein, 25 ans de lutte | 💀 |
 | 2025 | JUR | Taux de réponse pénale: 83-87% | ✅ |
 | 2025 | JUR | Timur Mindich (co-fondateur Kvartal 95) fuit en Israël avant les perquisitions | ❌ |
 | 2025 | JUR | Victimes indemnisées via fonds d'indemnisation | ⚠ |
-| 2025 | JUR | Victimes indemnisées via fonds d'indemnisation | ⚠ |
-| 2025 | JUR | Violation de l'Article 6 CEDH (procès équitable) par qualification de "mesures non punitives" | ❌ |
 | 2025 | JUR | Violation de l'Article 6 CEDH (procès équitable) par qualification de "mesures non punitives" | ❌ |
 | 2025-02 | JUR | Au moins 3 personnes arrêtées affaire RARS | ❌ |
-| 2025-03 | JUR | Conseil de l'UE adopte ViDA (VAT in the Digital Age), étend obligation à toutes transactions B2B | ❌ |
 | 2025-03 | JUR | Conseil de l'UE adopte ViDA (VAT in the Digital Age), étend obligation à toutes transactions B2B | ❌ |
 | 2025-05 | JUR | Précédent Rima Hassan (mai 2024): Conseil d'État rejette interdiction conférence Paris-Dauphine | ✅ |
 | 2025-07 | JUR | Zelensky tente réduire pouvoirs NABU — UE suspend 1,5Md€ d'aide | ❌ |
 | 2025-07-16 | JUR | Arrêté ministériel d'abattage systématique DNC publié — 17 jours après le premier cas | ❌ |
 | 2025-09 | JUR | Cour de Cassation ordonne réexamen de la prescription dans l'affaire Kohler | 💀 |
-| 2025-09 | JUR | Cour de Cassation ordonne réexamen de la prescription dans l'affaire Kohler | 💀 |
 | 2025-10 | JUR | TotalEnergies condamné pour greenwashing à Paris | ❌ |
 | 2025-10-11 | JUR | Frédéric Baldan dépose mise en demeure contre OpenPeppol pour interdiction de collecter ses données | ✅ |
-| 2025-10-11 | JUR | Frédéric Baldan dépose mise en demeure contre OpenPeppol pour interdiction de collecter ses données | ✅ |
-| 2025-11-06 | JUR | Nouvelle perquisition McKinsey : soupçons de financement illégal de campagne (travail bénévole pour En Marche 2017 contre contrats) | 💀 |
 | 2025-11-06 | JUR | Nouvelle perquisition McKinsey : soupçons de financement illégal de campagne (travail bénévole pour En Marche 2017 contre contrats) | 💀 |
 | 2025-11-10 | JUR | 7 personnes inculpées, >1000h enregistrements | ❌ |
 | 2025-11-10 | JUR | NABU conclut Opération Midas après 15 mois | ⚠ |
@@ -4386,7 +4006,6 @@
 | 2025 | SANT | Crise hôpital : plan d'urgence | ❌ |
 | 2025 | SANT | Déserts médicaux : mesures nouvelles | ⚠ |
 | 2025 | SANT | Malgré CNIL, Conseil d'État et Cloud Act | ❌ |
-| 2025 | SANT | Malgré CNIL, Conseil d'État et Cloud Act | ❌ |
 | 2025 | SANT | Plafond de l'intérim médical réévalué à 2 681 €/24h (loi Rist 2023) | ❌ |
 | 2025 | ÉDU | 20% enseignants collège/lycée contractuels (40% dans académies Créteil/Versailles/Guyane) | ❌ |
 | 2025 | ÉDU | 30% enseignants formés à l'EMC | ❌ |
@@ -4395,15 +4014,11 @@
 | 2025 | ÉDU | 85,2% candidats reçoivent ≥1 proposition Parcoursup | ⚠ |
 | 2025 | ÉDU | 91% bacheliers reçus mais 1/4 sans niveau mathématiques attendu à l'université | ❌ |
 | 2025 | ÉDU | INSEE | ❌ |
-| 2025 | ÉDU | INSEE | ❌ |
 | 2025 | ÉDU | Industrie EdTech: 1,6 Md€ | ⚠ |
 | 2025 | ÉDU | Probabilité de diplôme supérieur pour enfants de cadres | ❌ |
-| 2025 | ÉDU | Probabilité de diplôme supérieur pour enfants de cadres | ❌ |
-| 2025 | ÉDU | Probabilité pour enfants d'ouvriers (Le Mur du Diplôme) | ❌ |
 | 2025 | ÉDU | Probabilité pour enfants d'ouvriers (Le Mur du Diplôme) | ❌ |
 | 2025 | ÉDU | Réforme de l'orientation scolaire | ⚠ |
 | 2025 | ÉDU | Salaire enseignant débutant : 1 800€ net/mois (-15% moyenne OCDE) | ❌ |
-| 2025 | ÉDU | Taux de réussite scolaire par catégorie sociale | ❌ |
 | 2025 | ÉDU | Taux de réussite scolaire par catégorie sociale | ❌ |
 | 2025 | ÉDU | Échec documenté du SNU : rebaptisé et relancé plutôt qu'admettre l'échec | ❌ |
 | 2025-2026 | ÉDU | Le rapport PISA 2025 confirme la baisse continue du niveau en France: -50 points en lecture depuis 2000, -35 points en mathématiques, malgré une hausse de 30% du budget éducation | ❌ |
@@ -4434,11 +4049,9 @@
 | 2025 | AGR | Article 7 UE contre la Hongrie utilisé comme levier de pression politique | ❌ |
 | 2025 | AGR | Aucun compte publié par le groupe Bigard depuis 2017/2019 | ❌ |
 | 2025 | AGR | Avril : Huiles, Biodiesel | ❌ |
-| 2025 | AGR | Avril : Huiles, Biodiesel | ❌ |
 | 2025 | AGR | BNEVP : seulement 20-22 agents pour contrôler les importations | ❌ |
 | 2025 | AGR | Bayer-Monsanto détient 23% des brevets mondiaux sur les semences (ONUFAO) | ❌ |
 | 2025 | AGR | CR conquiert 8 départements supplémentaires aux élections des chambres d'agriculture | ⚠ |
-| 2025 | AGR | CR32 = concurrent, solidarité paysanne brisée | ❌ |
 | 2025 | AGR | CR32 = concurrent, solidarité paysanne brisée | ❌ |
 | 2025 | AGR | Chine (ChemChina, COFCO) : 12Mds€ investis dans terres agricoles européennes | ❌ |
 | 2025 | AGR | Déc : 113 foyers DNC, 11 départements touchés | ❌ |
@@ -4497,18 +4110,15 @@
 | 2025 | ENV | Stocks de poissons surexploités: 1/3 des ressources halieutiques (FAO) | ❌ |
 | 2025 | ENV | Sécheresse dans le Sud | ❌ |
 | 2025 | TEC | 108 plateformes agréées en France, toutes privées | ❌ |
-| 2025 | TEC | 108 plateformes agréées en France, toutes privées | ❌ |
 | 2025 | TEC | ANSSI : ~5 000 collaborateurs | ⚠ |
 | 2025 | TEC | ANSSI recense 2 000 cyberattaques significatives contre collectivités | ❌ |
 | 2025 | TEC | Cyberdéfense renforcée | ✅ |
-| 2025 | TEC | Extension au-delà des JO 2024 (Amnesty International) | ❌ |
 | 2025 | TEC | Extension au-delà des JO 2024 (Amnesty International) | ❌ |
 | 2025 | TEC | IA : régulation européenne | ⚠ |
 | 2025 | TEC | L'EU Internet Forum compte plus de 400 plateformes participantes, coordonné avec le GIFCT | ❌ |
 | 2025 | TEC | L'euro numérique (CBDC) proposé par la BCE, présenté comme outil de souveraineté monétaire mais critiqué comme instrument de surveillance des transactions | ❌ |
 | 2025 | TEC | Mistral AI : nouveaux modèles | ✅ |
 | 2025 | TEC | Nov 26 : COREPER adopte position Chat Control 2.0 à majorité qualifiée | ❌ |
-| 2025 | TEC | Plus de 70 plateformes de dématérialisation partenaires immatriculées sous réserve par la DGFiP | ❌ |
 | 2025 | TEC | Plus de 70 plateformes de dématérialisation partenaires immatriculées sous réserve par la DGFiP | ❌ |
 | 2025 | TEC | Sept : Commission adopt 7 règlements exécution eIDAS 2.0 | ⚠ |
 | 2025-02-02 | TEC | Martin Ajdari devient président de l'ARCOM malgré avis défavorable du Sénat (17 contre, 12 pour) | ❌ |
@@ -4533,13 +4143,10 @@
 | 2025 | MIL | Créer l'extrême pour faire passer le moindre mal : séquence Mandon-Macron décrite comme coordonnée | ❌ |
 | 2025 | MIL | Desportes accuse Moscou de manipuler l'indignation suscitée par les propos de Mandon (guerre hybride orchestrée) | ❌ |
 | 2025 | MIL | Directeur Départemental Police Nationale braque arme sur manifestant | 💀 |
-| 2025 | MIL | Directeur Départemental Police Nationale braque arme sur manifestant | 💀 |
 | 2025 | MIL | Dissonance cognitive : rhétorique guerrière déconnectée de la réalité matérielle des moyens | ❌ |
 | 2025 | MIL | Dépenses défense OTAN 2025 : France 68,9 Md$, Allemagne 120,7 Md$, UK 92,9 Md$ | ❌ |
 | 2025 | MIL | Dépenses défense: France 68,9 Md$ vs Allemagne 120,7 Md$ vs UK 92,9 Md$ | ❌ |
 | 2025 | MIL | Force publique devenue sécurité privée oligarchique | 💀 |
-| 2025 | MIL | Force publique devenue sécurité privée oligarchique | 💀 |
-| 2025 | MIL | Global Engagement Center (GEC) au Département d'État US identifie menaces | ❌ |
 | 2025 | MIL | Global Engagement Center (GEC) au Département d'État US identifie menaces | ❌ |
 | 2025 | MIL | Général Fabien Mandon au Congrès des maires le 18 novembre : « Si notre pays flanche parce qu'il n'est pas prêt à accepter de perdre ses enfants, alors on est en risque » | 💀 |
 | 2025 | MIL | Général Vincent Desportes déclare sur Public Sénat le 27 novembre : « Je suis quasiment sûr qu'il y a la main de Poutine » | ❌ |
@@ -4557,11 +4164,8 @@
 | 2025 | MIL | ReArm Europe : 800 milliards EUR de commandes militaires | ⚠ |
 | 2025 | MIL | Revue Nationale Stratégique 2025 : « acculturer 10 millions de jeunes 13-25 ans » | ❌ |
 | 2025 | MIL | Trois canons braqués sur un paysan | 💀 |
-| 2025 | MIL | Trois canons braqués sur un paysan | 💀 |
-| 2025 | MIL | Viginum (France) identifie des "noeuds de menace" informationnelle | ❌ |
 | 2025 | MIL | Viginum (France) identifie des "noeuds de menace" informationnelle | ❌ |
 | 2025 | MIL | Viginum fait un travail sérieux sur la menace russe documentée | ✅ |
-| 2025 | MIL | « Économie de guerre » = mensonge | 💀 |
 | 2025 | MIL | « Économie de guerre » = mensonge | 💀 |
 | 2025 | MIL | Échec patent du plan « Fidélisation 360 » de l'armée française | ❌ |
 | 2025-06 | MIL | Images satellite Al Jazeera documentent les dommages aux sites nucléaires iraniens | ✅ |
@@ -4571,17 +4175,13 @@
 | 2025 | SCI | Programme spatial : nouvelles missions | ✅ |
 | 2025 | DIP | Alice Weidel (AfD) adoubée par Musk: « Only AfD can save Germany » | ⚠ |
 | 2025 | DIP | Asymétrie structurelle de surveillance | ❌ |
-| 2025 | DIP | Asymétrie structurelle de surveillance | ❌ |
 | 2025 | DIP | Bloomberg : appels conseillers Poutine (Ushakov, Dmitriev) pour rédiger version russe du plan | ❌ |
 | 2025 | DIP | Clare Melford (GDI) bannie des États-Unis | ❌ |
-| 2025 | DIP | Clare Melford (GDI) bannie des États-Unis | ❌ |
-| 2025 | DIP | Commission européenne | ❌ |
 | 2025 | DIP | Commission européenne | ❌ |
 | 2025 | DIP | Diplomate israélien (Haaretz) : « Witkoff est un homme d'affaires qui veut conclure un deal rapidement » | ⚠ |
 | 2025 | DIP | Discussions franco-allemandes sur une coordination renforcée de la dissuasion remontent à l'automne 2025 | ⚠ |
 | 2025 | DIP | EU Democracy Shield officialisé: 500 analystes à Bruxelles | ❌ |
 | 2025 | DIP | Heritage Foundation (Kevin Roberts) écrit le Project 2025 et GRANITE Act | ⚠ |
-| 2025 | DIP | Imran Ahmed (CCDH) banni des États-Unis | ❌ |
 | 2025 | DIP | Imran Ahmed (CCDH) banni des États-Unis | ❌ |
 | 2025 | DIP | Jared Kushner co-rédige le premier draft du plan de paix pendant un vol retour du Moyen-Orient | ⚠ |
 | 2025 | DIP | Jordan Bardella (RN) rencontre Roberts à Paris pour importer « modèle US » | ⚠ |
@@ -4591,10 +4191,8 @@
 | 2025 | DIP | Steve Witkoff : promoteur immobilier, fortune 2 milliards $, ami golf Trump depuis 1986, donateur >2 millions $ | ⚠ |
 | 2025 | DIP | Treasury US qualifie le RDIF de « slush fund for Putin » | ❌ |
 | 2025 | DIP | UE active l'Article 215 du TFUE pour sanctions ciblées | ❌ |
-| 2025 | DIP | UE active l'Article 215 du TFUE pour sanctions ciblées | ❌ |
 | 2025 | DIP | Viktor Orban: « Modèle », partenaire officiel de Heritage via Danube Institute | ⚠ |
 | 2025 | DIP | Witkoff : aucune expérience diplomatique | ❌ |
-| 2025 | DIP | États-Unis bannissent Thierry Breton (cerveau du DSA) via le McCarran-Walter Act | ❌ |
 | 2025 | DIP | États-Unis bannissent Thierry Breton (cerveau du DSA) via le McCarran-Walter Act | ❌ |
 | 2025-02 | DIP | Macron déclare à New Delhi « Free speech is a pure bullshit », puis 48h après « Je crois sincèrement en une liberté d'expression fondée sur le respect » | ❌ |
 | 2025-07 | DIP | Le rapport de la Commission judiciaire de la Chambre des représentants américains qualifie le DSA de « tête d'un complexe industriel de censure croissant » | ❌ |
@@ -4604,76 +4202,46 @@
 | 2025-11-26 | DIP | L'Ukraine négocie à Abu Dhabi et accepte les « core terms » du plan Trump le même jour | ⚠ |
 | 2025-12-23 | DIP | Les États-Unis interdisent le territoire américain à Thierry Breton, architecte du DSA | ❌ |
 | 2025 | MÉD | "Signaleurs de Confiance" du DSA = militants politiques financés par les États qu'ils surveillent | ❌ |
-| 2025 | MÉD | "Signaleurs de Confiance" du DSA = militants politiques financés par les États qu'ils surveillent | ❌ |
 | 2025 | MÉD | 9 milliardaires possèdent 90% des médias privés français | ❌ |
-| 2025 | MÉD | 9 milliardaires possèdent 90% des médias privés français | ❌ |
-| 2025 | MÉD | 99,98% des décisions relèvent des conditions d'utilisation, pas de la loi | ❌ |
 | 2025 | MÉD | 99,98% des décisions relèvent des conditions d'utilisation, pas de la loi | ❌ |
 | 2025 | MÉD | BFMTV : 27% comme source principale d'information | ❌ |
 | 2025 | MÉD | Base de transparence du DSA recense 32,17 milliards de décisions de modération | ❌ |
-| 2025 | MÉD | Base de transparence du DSA recense 32,17 milliards de décisions de modération | ❌ |
-| 2025 | MÉD | Bernard Arnault (LVMH) : Les Échos, Le Parisien | ❌ |
 | 2025 | MÉD | Bernard Arnault (LVMH) : Les Échos, Le Parisien | ❌ |
 | 2025 | MÉD | Bolloré, Arnault, Niel | ❌ |
-| 2025 | MÉD | Bolloré, Arnault, Niel | ❌ |
-| 2025 | MÉD | CRIF et LICRA parmi les signaleurs, traitement prioritaire obligatoire | ❌ |
 | 2025 | MÉD | CRIF et LICRA parmi les signaleurs, traitement prioritaire obligatoire | ❌ |
 | 2025 | MÉD | Civilization Works publie les Twitter Files France (septembre 2025) | ❌ |
-| 2025 | MÉD | Civilization Works publie les Twitter Files France (septembre 2025) | ❌ |
 | 2025 | MÉD | Clémence Houdiakova, Tocsin Média | ✅ |
-| 2025 | MÉD | Clémence Houdiakova, Tocsin Média | ✅ |
-| 2025 | MÉD | Concentration massive des médias français | ❌ |
 | 2025 | MÉD | Concentration massive des médias français | ❌ |
 | 2025 | MÉD | Confiance médias France 29% (Reuters Institute 2025) | ❌ |
 | 2025 | MÉD | Daniel Kretinsky : Marianne, Elle | ❌ |
-| 2025 | MÉD | Daniel Kretinsky : Marianne, Elle | ❌ |
-| 2025 | MÉD | Documents commission enquête classifiés si rapport rejeté | ❌ |
 | 2025 | MÉD | Documents commission enquête classifiés si rapport rejeté | ❌ |
 | 2025 | MÉD | EMFA offre levier pour forcer annonceurs à déserter tout média non "résilient" | ❌ |
-| 2025 | MÉD | EMFA offre levier pour forcer annonceurs à déserter tout média non "résilient" | ❌ |
-| 2025 | MÉD | European Digital Media Observatory | ❌ |
 | 2025 | MÉD | European Digital Media Observatory | ❌ |
 | 2025 | MÉD | European Media Freedom Act en vigueur août 2025 | ⚠ |
-| 2025 | MÉD | Famille Dassault (armement) : Le Figaro | ❌ |
 | 2025 | MÉD | Famille Dassault (armement) : Le Figaro | ❌ |
 | 2025 | MÉD | France 21e classement RSF (72,3 points) | ❌ |
 | 2025 | MÉD | Groupe Dassault possède Le Figaro | ⚠ |
 | 2025 | MÉD | ISD Global et DFRLab (Atlantic Council) transforment données étatiques en rapports d'expertise | ❌ |
-| 2025 | MÉD | ISD Global et DFRLab (Atlantic Council) transforment données étatiques en rapports d'expertise | ❌ |
 | 2025 | MÉD | Instructions pénales pour 112 000 € frais hôtel luxe | ❌ |
-| 2025 | MÉD | Instructions pénales pour 112 000 € frais hôtel luxe | ❌ |
-| 2025 | MÉD | Jean-Michel Baylet, baron féodal, ex-ministre | ❌ |
 | 2025 | MÉD | Jean-Michel Baylet, baron féodal, ex-ministre | ❌ |
 | 2025 | MÉD | Lagardère contrôle Paris Match et Le Journal du Dimanche | ⚠ |
 | 2025 | MÉD | Listes d'Exclusion Dynamiques sous licence blacklistent des médias du marché publicitaire | ❌ |
-| 2025 | MÉD | Listes d'Exclusion Dynamiques sous licence blacklistent des médias du marché publicitaire | ❌ |
-| 2025 | MÉD | Mediawan co-fondé par Xavier Niel, dominé par fonds américain KKR | ❌ |
 | 2025 | MÉD | Mediawan co-fondé par Xavier Niel, dominé par fonds américain KKR | ❌ |
 | 2025 | MÉD | Patrick Drahi (Altice) : BFM, RMC (avant cession CMA CGM) | ❌ |
-| 2025 | MÉD | Patrick Drahi (Altice) : BFM, RMC (avant cession CMA CGM) | ❌ |
-| 2025 | MÉD | Rodolphe Saadé (CMA CGM) : BFM, La Tribune, La Provence | ❌ |
 | 2025 | MÉD | Rodolphe Saadé (CMA CGM) : BFM, La Tribune, La Provence | ❌ |
 | 2025 | MÉD | Rémunération de l'animateur Nagui | ❌ |
-| 2025 | MÉD | Rémunération de l'animateur Nagui | ❌ |
 | 2025 | MÉD | Sanctionne la « Vérité Économique » | ❌ |
-| 2025 | MÉD | Sanctionne la « Vérité Économique » | ❌ |
-| 2025 | MÉD | Vincent Bolloré (Vivendi) : Canal+, CNews, Europe 1, JDD | ❌ |
 | 2025 | MÉD | Vincent Bolloré (Vivendi) : Canal+, CNews, Europe 1, JDD | ❌ |
 | 2025 | MÉD | Vivendi (contrôlé par Vincent Bolloré) détient Canal+ et Havas | ⚠ |
 | 2025 | MÉD | Xavier Niel (Free) : Le Monde, L'Obs | ❌ |
-| 2025 | MÉD | Xavier Niel (Free) : Le Monde, L'Obs | ❌ |
 | 2025-03 | MÉD | C8 est fermée (non-renouvellement TNT) | ❌ |
 | 2025-03 | MÉD | C8 non-renouvelée sur la TNT, décision validée par le Conseil d'État | ❌ |
-| 2025-11-13 | MÉD | Canard Enchaîné révèle projet de suppression du magazine « 60 Millions de consommateurs » (3,5 M lecteurs) | ❌ |
 | 2025-11-13 | MÉD | Canard Enchaîné révèle projet de suppression du magazine « 60 Millions de consommateurs » (3,5 M lecteurs) | ❌ |
 | 2025-11-29 | MÉD | Devers : « L'Ukraine fait preuve d'une démocratie rare en temps de guerre » | ⚠ |
 | 2025-11-29 | MÉD | Nathan Devers sur France Info : « Zelensky subit une campagne de calomnies menée par Trump et Poutine » | ⚠ |
 | 2025-12-05 | MÉD | Le compte @ObsDelphi appelle à la censure de Luc Ferry et Xenia Fedorova sur X (Twitter), déclenchant un débat sur les limites de la liberté d'expression en France | ❌ |
 | 2025 | TER | Bordes-sur-Arize (crise agricole décembre 2025) : Centaures blindés militarisation maintien ordre, refus dialogue | 💀 |
-| 2025 | TER | Bordes-sur-Arize (crise agricole décembre 2025) : Centaures blindés militarisation maintien ordre, refus dialogue | 💀 |
 | 2025 | TER | Chambre des Représentants publie clichés, dizaines masques suspendus | 💀 |
-| 2025 | TER | Chambre des Représentants publie clichés, dizaines masques suspendus | 💀 |
-| 2025 | TER | Menaces anonymes cryptées, représailles famille | 💀 |
 | 2025 | TER | Menaces anonymes cryptées, représailles famille | 💀 |
 | 2025-01-06 | TER | Centaure déployé contre agriculteurs à Orveau | ❌ |
 | 2025-12-11/12 | TER | État déploie blindés Centaure (14 t), hélicoptères, grenades lacrymogènes contre 600 agriculteurs à Bordes-sur-Arize, GAEC Mouriscou ; 208 bovins abattus de force | 💀 |
@@ -4684,44 +4252,31 @@
 |---|---|---|---|
 | 2026 | POL | 120 ordonnances | ❌ |
 | 2026 | POL | 17 avril 2026, demande démission immédiate | ⚠ |
-| 2026 | POL | 17 avril 2026, demande démission immédiate | ⚠ |
-| 2026 | POL | 17 avril 2026, déclare devant 500 maires à l'Élysée, mot confirmé par vidéo | ❌ |
 | 2026 | POL | 17 avril 2026, déclare devant 500 maires à l'Élysée, mot confirmé par vidéo | ❌ |
 | 2026 | POL | 22 individus visibles médiatiquement débattant du budget ; ratio 2% visibles, 98% cachés | ❌ |
-| 2026 | POL | 22 individus visibles médiatiquement débattant du budget ; ratio 2% visibles, 98% cachés | ❌ |
-| 2026 | POL | 230 personnes pour 68 millions d'habitants (moins de 0,0004%) contrôlent tous les arbitrages budgétaires | ❌ |
 | 2026 | POL | 230 personnes pour 68 millions d'habitants (moins de 0,0004%) contrôlent tous les arbitrages budgétaires | ❌ |
 | 2026 | POL | 28 recours au 49.3 en 3 ans | ❌ |
 | 2026 | POL | 34 955 communes (42% <200 hab): 3× Allemagne (10 800), 19× UK (1 800) | ❌ |
 | 2026 | POL | 57% d'abstention | ❌ |
 | 2026 | POL | 67 auditions et 26 000 documents classifiés dans le cadre de la commission Alloncle | ⚠ |
-| 2026 | POL | 67 auditions et 26 000 documents classifiés dans le cadre de la commission Alloncle | ⚠ |
-| 2026 | POL | 8 janvier 2026 : Montchalin "n'exclut rien" sur le 49.3, ne démissionne pas | ❌ |
 | 2026 | POL | 8 janvier 2026 : Montchalin "n'exclut rien" sur le 49.3, ne démissionne pas | ❌ |
 | 2026 | POL | 9 propriétaires privés contrôlent 90% audience médiatique nationale | ❌ |
 | 2026 | POL | 90% des lois adoptées sans vote parlementaire | ❌ |
 | 2026 | POL | 98% des fichiers Epstein restent classifiés | ❌ |
 | 2026 | POL | Amélie de Montchalin n'a jamais été fonctionnaire un seul jour de sa carrière | ❌ |
-| 2026 | POL | Amélie de Montchalin n'a jamais été fonctionnaire un seul jour de sa carrière | ❌ |
 | 2026 | POL | Amélie de Montchalin nommée présidente de la Cour des Comptes le 11 février 2026 | ❌ |
-| 2026 | POL | Amélie de Montchalin nommée présidente de la Cour des Comptes le 11 février 2026 | ❌ |
-| 2026 | POL | Assemblée nationale vote sur l'audiovisuel public le 27 avril 2026 | ⚠ |
 | 2026 | POL | Assemblée nationale vote sur l'audiovisuel public le 27 avril 2026 | ⚠ |
 | 2026 | POL | Aucun débat parlementaire ni commission de la défense avant l'annonce du 2 mars | ❌ |
 | 2026 | POL | Colonel Macgregor confirme: « États-Unis officiellement en guerre avec l'Iran juste pour servir Israël » | ❌ |
-| 2026 | POL | Delphine Ernotte maintenue présidente sous impulsion élyséenne via l'Arcom | ❌ |
 | 2026 | POL | Delphine Ernotte maintenue présidente sous impulsion élyséenne via l'Arcom | ❌ |
 | 2026 | POL | Discours du 2 mars 2026 intervient à 13 mois du 1er tour de la présidentielle française de 2027 | ❌ |
 | 2026 | POL | Don Jr. investisseur de Polymarket | ⚠ |
 | 2026 | POL | Doublons communes/intercommunalités: 72% mêmes missions, 7,5 Md€/an (rapport Ravignon) | ❌ |
 | 2026 | POL | Débat réforme institutions | ⚠ |
 | 2026 | POL | Fin de l'ISF et instauration de la Flat Tax | ❌ |
-| 2026 | POL | Fin de l'ISF et instauration de la Flat Tax | ❌ |
-| 2026 | POL | Institut Montaigne (financé par AXA, BNP Paribas, Total, LVMH) produit recommandations favorables aux thèses patronales | ❌ |
 | 2026 | POL | Institut Montaigne (financé par AXA, BNP Paribas, Total, LVMH) produit recommandations favorables aux thèses patronales | ❌ |
 | 2026 | POL | Israel Hayom décrit Graham comme l'un des 4 architectes centraux de la guerre | ⚠ |
 | 2026 | POL | Janvier 2026: ~400 millionnaires 24 pays (Patriotic Millionaires) signent lettre ouverte Davos | ✅ |
-| 2026 | POL | L'Arcom n'est plus un régulateur mais un commissaire à la répartition du duopole Niel/Bolloré | ❌ |
 | 2026 | POL | L'Arcom n'est plus un régulateur mais un commissaire à la répartition du duopole Niel/Bolloré | ❌ |
 | 2026 | POL | L'État français interdit les réseaux sociaux aux moins de 15 ans (loi Miller) mais échoue à endiguer le trafic de drogue et la déscolarisation | ❌ |
 | 2026 | POL | LFI (Jean-Luc Mélenchon) dénonce une étape vers la « fédéralisation » européenne | ❌ |
@@ -4729,43 +4284,28 @@
 | 2026 | POL | LPM 2024-2030: 413 Md€ | ⚠ |
 | 2026 | POL | Le Mossad a remplacé la CIA comme source de renseignement du président des États-Unis | ❌ |
 | 2026 | POL | Le taux d'imposition effectif des milliardaires est inférieur à celui de la classe moyenne | ❌ |
-| 2026 | POL | Le taux d'imposition effectif des milliardaires est inférieur à celui de la classe moyenne | ❌ |
-| 2026 | POL | Lecornu affirme : « Aucune augmentation de l'impôt sur le revenu pour les ménages » | ❌ |
 | 2026 | POL | Lecornu affirme : « Aucune augmentation de l'impôt sur le revenu pour les ménages » | ❌ |
 | 2026 | POL | Loi de finances 2026 | ❌ |
 | 2026 | POL | Macron laisse une France plus endettée de +1 000 Md€, plus vendue aux intérêts étrangers | ❌ |
-| 2026 | POL | Macron laisse une France plus endettée de +1 000 Md€, plus vendue aux intérêts étrangers | ❌ |
 | 2026 | POL | Malgré condamnation, poursuit son mandat (Mediapart, 15 avril 2026) | ❌ |
-| 2026 | POL | Malgré condamnation, poursuit son mandat (Mediapart, 15 avril 2026) | ❌ |
-| 2026 | POL | Mandat à vie jusqu'en 2053 — 27 ans, irrévocable | ❌ |
 | 2026 | POL | Mandat à vie jusqu'en 2053 — 27 ans, irrévocable | ❌ |
 | 2026 | POL | Mars 2026 : campagne de désinformation ciblant Delogu et Piquemal via blog factice "Sophie" | ❌ |
 | 2026 | POL | Mojtaba Khamenei (fils) héritier potentiel | ⚠ |
 | 2026 | POL | Montchalin a dirigé 5 ministères sans jamais avoir passé un concours de la fonction publique | ❌ |
-| 2026 | POL | Montchalin a dirigé 5 ministères sans jamais avoir passé un concours de la fonction publique | ❌ |
-| 2026 | POL | Montchalin n'est pas issue de l'IGF ni de l'ENA mais contrôle désormais les inspecteurs des finances | ❌ |
 | 2026 | POL | Montchalin n'est pas issue de l'IGF ni de l'ENA mais contrôle désormais les inspecteurs des finances | ❌ |
 | 2026 | POL | Nazar Paradivskyy (Pagero AB) leader de la CTCC — écrit les règles et les applique comme prestataire | ❌ |
-| 2026 | POL | Nazar Paradivskyy (Pagero AB) leader de la CTCC — écrit les règles et les applique comme prestataire | ❌ |
 | 2026 | POL | Nouveau cadre réglementaire de censure projeté | ❌ |
-| 2026 | POL | Nouveau cadre réglementaire de censure projeté | ❌ |
-| 2026 | POL | PS annonce ne pas voter la motion de censure en échange de suspension réforme retraite jusqu'à 2027 | ❌ |
 | 2026 | POL | PS annonce ne pas voter la motion de censure en échange de suspension réforme retraite jusqu'à 2027 | ❌ |
 | 2026 | POL | Pattern d'annonce majeure calée sur le cycle électoral depuis 2017 | ❌ |
 | 2026 | POL | Pezeshkian: « Acte barbare, une autre page noire » | ❌ |
 | 2026 | POL | Premier ministre Sébastien Lecornu affirme : « Il n'y a pas de hausse d'impôts pour les entrepreneurs » | ❌ |
-| 2026 | POL | Premier ministre Sébastien Lecornu affirme : « Il n'y a pas de hausse d'impôts pour les entrepreneurs » | ❌ |
-| 2026 | POL | Projet de loi adopté par le Sénat (avril 2026) | ❌ |
 | 2026 | POL | Projet de loi adopté par le Sénat (avril 2026) | ❌ |
 | 2026 | POL | Pétition contre loi Yadan, retrait sous pression populaire | ✅ |
-| 2026 | POL | Pétition contre loi Yadan, retrait sous pression populaire | ✅ |
-| 2026 | POL | RIC fonctionne en Allemagne, Suisse, Canada mais pas en France | ❌ |
 | 2026 | POL | RIC fonctionne en Allemagne, Suisse, Canada mais pas en France | ❌ |
 | 2026 | POL | RN (Marine Le Pen) qualifie l'annonce de « dilapidation » de la souveraineté nationale | ❌ |
 | 2026 | POL | RN vote le budget défense 2026 via le 49.3 qu'il critique publiquement | ❌ |
 | 2026 | POL | Rand Paul accuse: « Cette guerre, c'est tout pour Israël » | ❌ |
 | 2026 | POL | Relations avec l'UE | ⚠ |
-| 2026 | POL | Révoquer, abroger, décider par référendum | ✅ |
 | 2026 | POL | Révoquer, abroger, décider par référendum | ✅ |
 | 2026 | POL | Situation politique : majorité incertaine | ❌ |
 | 2026 | POL | Trump appelle le peuple iranien à « Take over your country » | ⚠ |
@@ -4775,13 +4315,11 @@
 | 2026 | POL | Utilisation récurrente du 49.3 pour le budget défense — record pour Macron comparé à tous ses prédécesseurs | ❌ |
 | 2026 | POL | Élections municipales 2026 | ⚠ |
 | 2026 | POL | Éric Ciotti, homme-clé de l'alliance parlementaire avec le RN | ❌ |
-| 2026 | POL | Éric Ciotti, homme-clé de l'alliance parlementaire avec le RN | ❌ |
 | 2026-02 | POL | CIA évaluait que Khamenei serait remplacé par des éléments durs du CGRI | ⚠ |
 | 2026-02-07 | POL | Ari Ben-Menashe (ex-agent Mossad) déclare que Netanyahu pourrait saborder un accord nucléaire en publiant les fichiers Epstein contre Trump | ❌ |
 | 2026-02-11 | POL | Graham coaché Netanyahu sur la psychologie de Trump | ⚠ |
 | 2026-02-11 | POL | Lindsey Graham (sénateur républicain) a effectué plusieurs voyages en Israël avant le conflit, rencontre le Mossad | ⚠ |
 | 2026-03 | POL | Jared Kushner nommé dans un intercept de renseignement étranger supprimé (WSJ) | ❌ |
-| 2026-03-05 | POL | Une seule réunion enregistrée OpenPeppol avec Commission européenne (DG GROW) | ❌ |
 | 2026-03-05 | POL | Une seule réunion enregistrée OpenPeppol avec Commission européenne (DG GROW) | ❌ |
 | 2026-03-17 | POL | Vote bipartisan 24-19 pour le subpoena, dont 5 républicains (Mace, Boebert, Burchett, Perry, Cline) | ⚠ |
 | 2026-03-18 | POL | Joe Kent (directeur antiterrorisme) démissionne | ⚠ |
@@ -4789,15 +4327,11 @@
 | 2026 | ÉCO | 11,7 millions de barils exportés depuis le 28 février (1,5M/jour) | ⚠ |
 | 2026 | ÉCO | 170-200 millions barils stockage flottant (14-17 Md $), 9 Md $/an hawala (Dubaï, Hong Kong, Turquie) | ⚠ |
 | 2026 | ÉCO | 3 fonds contrôlent 74% du marché des fonds indiciels cotés | ❌ |
-| 2026 | ÉCO | 3 fonds contrôlent 74% du marché des fonds indiciels cotés | ❌ |
-| 2026 | ÉCO | 37 milliards d'euros de hausses d'impôts cachées dans le budget 2026 | ❌ |
 | 2026 | ÉCO | 37 milliards d'euros de hausses d'impôts cachées dans le budget 2026 | ❌ |
 | 2026 | ÉCO | 40-50 Md€/an de baisses d'impôts depuis 2017 | ❌ |
 | 2026 | ÉCO | 42 anciens ministres siègent conseils d'administration (HATVP 2024) | ❌ |
 | 2026 | ÉCO | 43,4% de la richesse mondiale concentrée dans le top 1% mondial = 54 400 Md$ | ❌ |
-| 2026 | ÉCO | 43,4% de la richesse mondiale concentrée dans le top 1% mondial = 54 400 Md$ | ❌ |
 | 2026 | ÉCO | 470 niches fiscales: 90-100 Md€/an (Cour des comptes) | ❌ |
-| 2026 | ÉCO | 5 Md€ de charges budgétées décalées vers 2027-2028 | ❌ |
 | 2026 | ÉCO | 5 Md€ de charges budgétées décalées vers 2027-2028 | ❌ |
 | 2026 | ÉCO | 50% dette française détenue par non-résidents (Banque de France) | ❌ |
 | 2026 | ÉCO | 54 Md€/an d'intérêts de la dette (2e budget de l'État) | ❌ |
@@ -4805,48 +4339,32 @@
 | 2026 | ÉCO | 9 propriétaires privés contrôlent 90% grands médias (Monde Diplomatique) | ❌ |
 | 2026 | ÉCO | 90-100 Md€/an de niches fiscales | ❌ |
 | 2026 | ÉCO | Abandon de la baisse de 0,1 point de la CVAE (promesse campagne présidentielle) | ❌ |
-| 2026 | ÉCO | Abandon de la baisse de 0,1 point de la CVAE (promesse campagne présidentielle) | ❌ |
 | 2026 | ÉCO | Accès aux transactions B2B via OpenPeppol | ❌ |
-| 2026 | ÉCO | Accès aux transactions B2B via OpenPeppol | ❌ |
-| 2026 | ÉCO | Alibaba Group Holding détient 11,4% du capital de Baiwang | ❌ |
 | 2026 | ÉCO | Alibaba Group Holding détient 11,4% du capital de Baiwang | ❌ |
 | 2026 | ÉCO | Arabie Saoudite augmente flux oléoduc Est-Ouest vers Yanbu: 1,7 → 5,9M bpd (record) | ⚠ |
 | 2026 | ÉCO | BCE détient un tiers de la dette de la zone euro, environ 5 000 Md€ | ⚠ |
-| 2026 | ÉCO | BCE détient un tiers de la dette de la zone euro, environ 5 000 Md€ | ⚠ |
 | 2026 | ÉCO | BCE détient ~25% de la dette française | ⚠ |
 | 2026 | ÉCO | Baiwang est l'un des deux seuls fournisseurs officiels du Golden Tax System chinois (déployé depuis 1994, phase IV) | ❌ |
-| 2026 | ÉCO | Baiwang est l'un des deux seuls fournisseurs officiels du Golden Tax System chinois (déployé depuis 1994, phase IV) | ❌ |
-| 2026 | ÉCO | Baiwangyun (Singapore) Technology, filiale de Baiwang Co. Ltd. (cotée HK 6657), membre d'OpenPeppol | ❌ |
 | 2026 | ÉCO | Baiwangyun (Singapore) Technology, filiale de Baiwang Co. Ltd. (cotée HK 6657), membre d'OpenPeppol | ❌ |
 | 2026 | ÉCO | Banque du Japon détient plus de 50% des obligations d'État japonaises | ⚠ |
-| 2026 | ÉCO | Banque du Japon détient plus de 50% des obligations d'État japonaises | ⚠ |
-| 2026 | ÉCO | Banques publiques Sparkassen (Allemagne) gèrent 30% des dépôts du pays | ✅ |
 | 2026 | ÉCO | Banques publiques Sparkassen (Allemagne) gèrent 30% des dépôts du pays | ✅ |
 | 2026 | ÉCO | Baril Oural: 40$ → 62$ (+55%) | ⚠ |
 | 2026 | ÉCO | Beijing Watertek (filiale de CASIC, défense aérospatiale chinoise) détient 9,5% de Baiwang (21 463 466 actions, 334,8 M$ HKD) | 💀 |
-| 2026 | ÉCO | Beijing Watertek (filiale de CASIC, défense aérospatiale chinoise) détient 9,5% de Baiwang (21 463 466 actions, 334,8 M$ HKD) | 💀 |
-| 2026 | ÉCO | Belgique : aucune plateforme publique, réseau Peppol = seul canal légal ; entreprise exclue = morte commercialement | ❌ |
 | 2026 | ÉCO | Belgique : aucune plateforme publique, réseau Peppol = seul canal légal ; entreprise exclue = morte commercialement | ❌ |
 | 2026 | ÉCO | Bercy récupère 11-14 Md€/an sur 80-100 Md€ évasion | ❌ |
 | 2026 | ÉCO | Birol: « Plus grande perturbation d'approvisionnement de l'histoire » | ❌ |
 | 2026 | ÉCO | BlackRock, Vanguard et State Street détiennent plus de 50% des actions américaines | ❌ |
-| 2026 | ÉCO | BlackRock, Vanguard et State Street détiennent plus de 50% des actions américaines | ❌ |
 | 2026 | ÉCO | Bremmer: « La guerre de choix de l'Amérique en Iran aide directement les Russes » | ❌ |
 | 2026 | ÉCO | Brent: 60$ → 119$ (pic) | ❌ |
 | 2026 | ÉCO | Budget annonce 14 Md€ de nouvelles recettes fiscales, dont 7 Md€ de « recettes imaginaires » | ❌ |
-| 2026 | ÉCO | Budget annonce 14 Md€ de nouvelles recettes fiscales, dont 7 Md€ de « recettes imaginaires » | ❌ |
 | 2026 | ÉCO | Budget de défense 2026 : 57,1 milliards d'euros, adopté via article 49.3 le mois précédent | ❌ |
-| 2026 | ÉCO | CAPEB alerte sur la crise des artisans du BTP (avril 2026) | ❌ |
 | 2026 | ÉCO | CAPEB alerte sur la crise des artisans du BTP (avril 2026) | ❌ |
 | 2026 | ÉCO | CICE transformé en baisse de charges permanente: 20 Md€/an | ❌ |
 | 2026 | ÉCO | CICE: 57 Md€ sans conditionnalité | ❌ |
 | 2026 | ÉCO | COSCO suspend nouvelles opérations au Moyen-Orient | ❌ |
 | 2026 | ÉCO | CPME : 8,5 M€/an de lobbying | ❌ |
-| 2026 | ÉCO | CPME : 8,5 M€/an de lobbying | ❌ |
 | 2026 | ÉCO | Capacité court terme Iran: 20-30 Md $, burn mensuel 6-8 Md $, survie estimée 3-6 mois | ❌ |
 | 2026 | ÉCO | Ces 3 fonds contrôlent environ 30% du pouvoir de vote au sein des entreprises du S&P 500 | ❌ |
-| 2026 | ÉCO | Ces 3 fonds contrôlent environ 30% du pouvoir de vote au sein des entreprises du S&P 500 | ❌ |
-| 2026 | ÉCO | Ces 3 fonds possèdent environ 20% de chaque géant technologique | ❌ |
 | 2026 | ÉCO | Ces 3 fonds possèdent environ 20% de chaque géant technologique | ❌ |
 | 2026 | ÉCO | Charge dette: 55 Md€ | ❌ |
 | 2026 | ÉCO | Chine augmente imports pétrole russe de 40% en janvier-février | ⚠ |
@@ -4855,30 +4373,21 @@
 | 2026 | ÉCO | Dette publique : 117 % du PIB | ❌ |
 | 2026 | ÉCO | Dette publique: 115,6% du PIB | ❌ |
 | 2026 | ÉCO | Déficit Sécu : écart de 9,5 Md€ entre les versions (14/10 : 17,5 Md€ → nov : 20,6 Md€ → Sénat : 15,1 Md€ → ministre Farandou : 24 Md€) | ❌ |
-| 2026 | ÉCO | Déficit Sécu : écart de 9,5 Md€ entre les versions (14/10 : 17,5 Md€ → nov : 20,6 Md€ → Sénat : 15,1 Md€ → ministre Farandou : 24 Md€) | ❌ |
 | 2026 | ÉCO | Déficit commercial: 81 Md€ | ❌ |
 | 2026 | ÉCO | Déficit public ~154 Md€ (INSEE) | ❌ |
 | 2026 | ÉCO | Délai sanctions OFAC: 4 à 6 semaines | ❌ |
 | 2026 | ÉCO | EPR Flamanville : 23,7 Md€ de coût | 💀 |
-| 2026 | ÉCO | EPR Flamanville : 23,7 Md€ de coût | 💀 |
-| 2026 | ÉCO | Estimation du coût de la corruption | 💀 |
 | 2026 | ÉCO | Estimation du coût de la corruption | 💀 |
 | 2026 | ÉCO | Exonération taxe kérosène aérien: 2,58 Md€/an (Cour des comptes) | ❌ |
 | 2026 | ÉCO | Fed reverse chaque année environ 100 Md$ de bénéfices au Trésor américain | ✅ |
-| 2026 | ÉCO | Fed reverse chaque année environ 100 Md$ de bénéfices au Trésor américain | ✅ |
-| 2026 | ÉCO | Financement de l'audiovisuel public par TVA : 4 milliards €/an | ⚠ |
 | 2026 | ÉCO | Financement de l'audiovisuel public par TVA : 4 milliards €/an | ⚠ |
 | 2026 | ÉCO | Flotte ombre mondiale: 350-400 navires vieillissants (15-20 ans), valeur 10-15 milliards $ | ❌ |
 | 2026 | ÉCO | Fonds Marianne: 2,5 M€ sans transparence (rapport Sénat) | ❌ |
 | 2026 | ÉCO | GE supprime des milliers d'emplois après rachat Alstom | ❌ |
-| 2026 | ÉCO | GE supprime des milliers d'emplois après rachat Alstom | ❌ |
 | 2026 | ÉCO | Gardiens de la Révolution brassent 60 milliards $ de revenus pétroliers via flotte fantôme | ❌ |
 | 2026 | ÉCO | Gaz: +50% | ❌ |
 | 2026 | ÉCO | Gouvernement annonce 17 Md€ d'économies en 2026 | ❌ |
-| 2026 | ÉCO | Gouvernement annonce 17 Md€ d'économies en 2026 | ❌ |
 | 2026 | ÉCO | Hausse de la CSG de 1,4 point sur les revenus du capital | ❌ |
-| 2026 | ÉCO | Hausse de la CSG de 1,4 point sur les revenus du capital | ❌ |
-| 2026 | ÉCO | Haut Conseil des Finances Publiques n'a pas publié d'avis préalable au vote du PLF 2026 | ❌ |
 | 2026 | ÉCO | Haut Conseil des Finances Publiques n'a pas publié d'avis préalable au vote du PLF 2026 | ❌ |
 | 2026 | ÉCO | Hormuz: 91 → 4 navires/jour | 💀 |
 | 2026 | ÉCO | IEA libère 400 millions de barils — record absolu | ⚠ |
@@ -4891,65 +4400,42 @@
 | 2026 | ÉCO | Inflation Iran: 32,5% | ❌ |
 | 2026 | ÉCO | Inflation sous contrôle | ✅ |
 | 2026 | ÉCO | Institutions financières non bancaires américaines détiennent 2,5× les actifs des banques | ❌ |
-| 2026 | ÉCO | Institutions financières non bancaires américaines détiennent 2,5× les actifs des banques | ❌ |
 | 2026 | ÉCO | Investissement IA et tech | ✅ |
 | 2026 | ÉCO | JPMorgan et Citigroup sont actionnaires de la Réserve fédérale américaine | ❌ |
-| 2026 | ÉCO | JPMorgan et Citigroup sont actionnaires de la Réserve fédérale américaine | ❌ |
-| 2026 | ÉCO | Janvier 2026 : près de 400 millionnaires/milliardaires (24 pays) signent lettre ouverte à Davos : « Tax us. Tax the super rich. » | ✅ |
 | 2026 | ÉCO | Janvier 2026 : près de 400 millionnaires/milliardaires (24 pays) signent lettre ouverte à Davos : « Tax us. Tax the super rich. » | ✅ |
 | 2026 | ÉCO | Japon: 93% via Hormuz | ❌ |
 | 2026 | ÉCO | L'Italie réduit ses taxes sur les carburants | ⚠ |
-| 2026 | ÉCO | L'Italie réduit ses taxes sur les carburants | ⚠ |
-| 2026 | ÉCO | LEEM (pharma) : ~1 M€/an de lobbying | ❌ |
 | 2026 | ÉCO | LEEM (pharma) : ~1 M€/an de lobbying | ❌ |
 | 2026 | ÉCO | La Grèce réduit ses taxes sur les carburants | ⚠ |
-| 2026 | ÉCO | La Grèce réduit ses taxes sur les carburants | ⚠ |
-| 2026 | ÉCO | Le citoyen solvabilise par la TVA la guerre de cartels médiatiques | ❌ |
 | 2026 | ÉCO | Le citoyen solvabilise par la TVA la guerre de cartels médiatiques | ❌ |
 | 2026 | ÉCO | Le pétroyuan est né | ⚠ |
 | 2026 | ÉCO | Les banques commerciales créent environ 97% de la masse monétaire | ❌ |
-| 2026 | ÉCO | Les banques commerciales créent environ 97% de la masse monétaire | ❌ |
 | 2026 | ÉCO | MBDA annonce le record de 13,8 Md€ de commandes 2024 en janvier 2026 | ✅ |
 | 2026 | ÉCO | Maintien de la contribution exceptionnelle sur les bénéfices : 8 Md€ | ❌ |
-| 2026 | ÉCO | Maintien de la contribution exceptionnelle sur les bénéfices : 8 Md€ | ❌ |
 | 2026 | ÉCO | Maison dans l'Essonne déclarée à 350 k€ | ⚠ |
-| 2026 | ÉCO | Maison dans l'Essonne déclarée à 350 k€ | ⚠ |
-| 2026 | ÉCO | Maison à Paris déclarée à 1,16 M€ | ⚠ |
 | 2026 | ÉCO | Maison à Paris déclarée à 1,16 M€ | ⚠ |
 | 2026 | ÉCO | Manque à gagner fiscal optimisation: 3-5 Md€/an | ❌ |
 | 2026 | ÉCO | Medef : 14,4 M€/an de lobbying | ❌ |
-| 2026 | ÉCO | Medef : 14,4 M€/an de lobbying | ❌ |
-| 2026 | ÉCO | Mediawan (Niel, Pigasse, KKR) capte plus de 67 heures de fictions annuelles | ❌ |
 | 2026 | ÉCO | Mediawan (Niel, Pigasse, KKR) capte plus de 67 heures de fictions annuelles | ❌ |
 | 2026 | ÉCO | Mediawan encaisse ~100 millions € chaque année de France Télévisions | ❌ |
-| 2026 | ÉCO | Mediawan encaisse ~100 millions € chaque année de France Télévisions | ❌ |
-| 2026 | ÉCO | Nagui perçoit 1,5 million € annuels sans reddition de comptes aux statuts du service public | ❌ |
 | 2026 | ÉCO | Nagui perçoit 1,5 million € annuels sans reddition de comptes aux statuts du service public | ❌ |
 | 2026 | ÉCO | Non-indexation du barème de l'IR : salaires +2% en 2025, barème indexé à 0,9% (fiscal drag) | ❌ |
-| 2026 | ÉCO | Non-indexation du barème de l'IR : salaires +2% en 2025, barème indexé à 0,9% (fiscal drag) | ❌ |
 | 2026 | ÉCO | Nouvelle taxe sur les holdings | ❌ |
-| 2026 | ÉCO | Nouvelle taxe sur les holdings | ❌ |
-| 2026 | ÉCO | Nouvelle taxe sur les petits colis (achats faible montant pays tiers) | ❌ |
 | 2026 | ÉCO | Nouvelle taxe sur les petits colis (achats faible montant pays tiers) | ❌ |
 | 2026 | ÉCO | Nouvelles émissions dette: taux 3-3,3% | ❌ |
 | 2026 | ÉCO | Opérateurs État: 434, 64 Md€/an, budget +40% 2017-2023 | ❌ |
 | 2026 | ÉCO | Pantouflage triplé en 10 ans (HATVP, Cour des comptes) | ❌ |
 | 2026 | ÉCO | Patrimoine déclaré d'Amélie de Montchalin : 1,48 million € | ⚠ |
-| 2026 | ÉCO | Patrimoine déclaré d'Amélie de Montchalin : 1,48 million € | ⚠ |
 | 2026 | ÉCO | Plan France 2030: 54 Md€ | ⚠ |
-| 2026 | ÉCO | Prix du gazole franchit le seuil des 2,50 euros | ❌ |
 | 2026 | ÉCO | Prix du gazole franchit le seuil des 2,50 euros | ❌ |
 | 2026 | ÉCO | Prix du pétrole atteint 120 dollars le baril | ❌ |
 | 2026 | ÉCO | Prorogation de la contribution différentielle sur les hauts revenus (exceptionnelle 2025, reconduite) | ❌ |
-| 2026 | ÉCO | Prorogation de la contribution différentielle sur les hauts revenus (exceptionnelle 2025, reconduite) | ❌ |
 | 2026 | ÉCO | Qatar: -13% PIB | ❌ |
-| 2026 | ÉCO | Revenus de Guillaume chez Eurazeo estimés à 300-500 000 € annuels plus carried interest | ⚠ |
 | 2026 | ÉCO | Revenus de Guillaume chez Eurazeo estimés à 300-500 000 € annuels plus carried interest | ⚠ |
 | 2026 | ÉCO | Rial iranien s'effondre | ❌ |
 | 2026 | ÉCO | Russie: 230 millions $/jour de revenus pétroliers supplémentaires | ⚠ |
 | 2026 | ÉCO | Rémunération patrons CAC40: 120× SMIC | ❌ |
 | 2026 | ÉCO | Réseau Shamkhani alimente l'Axe de la Résistance en drones, missiles, composants dual-use | ❌ |
-| 2026 | ÉCO | Réserve fédérale américaine détient environ 20% de la dette publique américaine | ⚠ |
 | 2026 | ÉCO | Réserve fédérale américaine détient environ 20% de la dette publique américaine | ⚠ |
 | 2026 | ÉCO | Réserves Iran: 24,3 milliards $ devises (10-12 Md utilisables), 7,78 Md $ crypto (3 Md CGRI, 3 Md inflows 2025) | ⚠ |
 | 2026 | ÉCO | Scribe police nationale: 257 M€ inutilisable (Cour des comptes) | ❌ |
@@ -4959,32 +4445,22 @@
 | 2026 | ÉCO | Spread OAT/Bund: 69 pb (mai 2026), 35 pb en 2017 (Bloomberg) | ❌ |
 | 2026 | ÉCO | Subventions associatives: 53 Md€/an pour 314 000 associations sans contrôle (IGF-Igésr avril 2024) | ❌ |
 | 2026 | ÉCO | Suppression du Pacte Dutreuil : perte de 5 Md€ pour les PME | ❌ |
-| 2026 | ÉCO | Suppression du Pacte Dutreuil : perte de 5 Md€ pour les PME | ❌ |
 | 2026 | ÉCO | Sénat ~358 M€/an, Assemblée ~600 M€/an, CESE ~45 M€/an, total ~1 Md€/an | ❌ |
 | 2026 | ÉCO | Taux BCE: 0% → 4,5% en 18 mois | ❌ |
 | 2026 | ÉCO | Taux de recouvrement Bercy: 12% (IGF) | ❌ |
 | 2026 | ÉCO | Taux de recouvrement de la TVA en Belgique : 95% — aucune urgence fiscale ne justifie le système | ⚠ |
-| 2026 | ÉCO | Taux de recouvrement de la TVA en Belgique : 95% — aucune urgence fiscale ne justifie le système | ⚠ |
 | 2026 | ÉCO | Taïwan: 11 jours réserves GNL | 💀 |
 | 2026 | ÉCO | Top 0,001% (60 000 personnes) détient 3× la richesse de la moitié la plus pauvre (World Inequality Report / Guardian) | ❌ |
-| 2026 | ÉCO | Top 0,001% (60 000 personnes) détient 3× la richesse de la moitié la plus pauvre (World Inequality Report / Guardian) | ❌ |
 | 2026 | ÉCO | Top 10% possède 75% de la richesse mondiale, bas 50% : 2% | ❌ |
-| 2026 | ÉCO | Top 10% possède 75% de la richesse mondiale, bas 50% : 2% | ❌ |
-| 2026 | ÉCO | Total budgets lobbying patronal : 66 à 76 M€/an | ❌ |
 | 2026 | ÉCO | Total budgets lobbying patronal : 66 à 76 M€/an | ❌ |
 | 2026 | ÉCO | TotalEnergies: « all economies damaged » si guerre dure | ❌ |
 | 2026 | ÉCO | Transfert total estimé de France Télévisions vers Mediawan : 864 millions € | ❌ |
-| 2026 | ÉCO | Transfert total estimé de France Télévisions vers Mediawan : 864 millions € | ❌ |
 | 2026 | ÉCO | Trump lève les sanctions sur le pétrole russe imposées en 2025 | ❌ |
 | 2026 | ÉCO | U2P : 23,2 M€/an de lobbying (dont 18 M€ de subventions publiques) | ❌ |
-| 2026 | ÉCO | U2P : 23,2 M€/an de lobbying (dont 18 M€ de subventions publiques) | ❌ |
 | 2026 | ÉCO | UE : 10 M€ pour le projet Post-Growth Deal ; dépenses de défense visent 800 Md€ (80 000× plus) | ❌ |
-| 2026 | ÉCO | UE : 10 M€ pour le projet Post-Growth Deal ; dépenses de défense visent 800 Md€ (80 000× plus) | ❌ |
-| 2026 | ÉCO | Une taxe de 3% sur les centimillionnaires (>100 M$) rapporterait 750 Md$/an | ✅ |
 | 2026 | ÉCO | Une taxe de 3% sur les centimillionnaires (>100 M$) rapporterait 750 Md$/an | ✅ |
 | 2026 | ÉCO | Zelenskyy: « 10 milliards $ en deux semaines » pour la Russie | ❌ |
 | 2026 | ÉCO | Économie potentielle agences: 14,5 Md€/an (mission Danon) | ⚠ |
-| 2026 | ÉCO | Économies potentiellement réalisables : niches fiscales 9-13 Md€/an + conditionnalité aides 3-5 Md€/an + commande publique 2,3-3,8 Md€/an + santé 3,4-6 Md€/an = 20,5-34 Md€/an | ✅ |
 | 2026 | ÉCO | Économies potentiellement réalisables : niches fiscales 9-13 Md€/an + conditionnalité aides 3-5 Md€/an + commande publique 2,3-3,8 Md€/an + santé 3,4-6 Md€/an = 20,5-34 Md€/an | ✅ |
 | 2026 | ÉCO | Émirats pipeline Habshan-Fujairah: 1 → 2,5M bpd (capacité max) | ⚠ |
 | 2026-01 | ÉCO | Lockheed Martin affiche +48% sur six mois avant les frappes | ❌ |
@@ -5006,7 +4482,6 @@
 | 2026-03-23 | ÉCO | Trump annonce arrêt des frappes, Dow +631 points, 1 700 milliards $ créés | ⚠ |
 | 2026-03-23 | ÉCO | Un tanker indien paie l'Iran en yuans chinois pour traverser Hormuz — naissance du pétroyuan | ⚠ |
 | 2026 | SOC | 22% des citoyens déclarent faire confiance aux institutions politiques | ❌ |
-| 2026 | SOC | 22% des citoyens déclarent faire confiance aux institutions politiques | ❌ |
 | 2026 | SOC | 4 000 blessés Gilets Jaunes, 11 morts | 💀 |
 | 2026 | SOC | 400 000 citoyens français dans le Golfe | ❌ |
 | 2026 | SOC | 52 millions en insécurité alimentaire aiguë, saison maigre juin | 💀 |
@@ -5016,10 +4491,8 @@
 | 2026 | SOC | Albis Global Attention Index: « Information Shadow » — invisible pour 4,84 milliards de personnes | ❌ |
 | 2026 | SOC | Ali Khamenei (Guide Suprême) a 86 ans — incertitude succession | ⚠ |
 | 2026 | SOC | Annonce la fin de son élevage après vaccination forcée | 💀 |
-| 2026 | SOC | Annonce la fin de son élevage après vaccination forcée | 💀 |
 | 2026 | SOC | COVID-19 France: 116 000 morts | 💀 |
 | 2026 | SOC | Crise du logement | ❌ |
-| 2026 | SOC | Explosion du nombre de SDF : +130% | 💀 |
 | 2026 | SOC | Explosion du nombre de SDF : +130% | 💀 |
 | 2026 | SOC | Grèves dans les services publics | ⚠ |
 | 2026 | SOC | Jan : Bétharram annonce fermeture définitive, déménagement vers Igon | ⚠ |
@@ -5029,14 +4502,10 @@
 | 2026 | SOC | Mars : Ex-évêque Di Falco condamné au civil à dédommager victime viol années 1970 | ✅ |
 | 2026 | SOC | Mouvement social en cours | ⚠ |
 | 2026 | SOC | Nouvelle taxe sur les billets d'avion régionaux | ❌ |
-| 2026 | SOC | Nouvelle taxe sur les billets d'avion régionaux | ❌ |
 | 2026 | SOC | Projet interdiction téléphones portables lycées rentrée 2026 | ⚠ |
-| 2026 | SOC | Routiers, agriculteurs et pêcheurs bloquent le pays du 7 au 14 avril 2026 (The Irish Times, BBC, Reuters) | 💀 |
 | 2026 | SOC | Routiers, agriculteurs et pêcheurs bloquent le pays du 7 au 14 avril 2026 (The Irish Times, BBC, Reuters) | 💀 |
 | 2026 | SOC | SMIC net: 1 398 €/mois, 15% smicards (DARES) | ❌ |
 | 2026 | SOC | Soutiens forment chaîne humaine, barrages de tracteurs, jettent excréments | ⚠ |
-| 2026 | SOC | Soutiens forment chaîne humaine, barrages de tracteurs, jettent excréments | ⚠ |
-| 2026 | SOC | Tente de mêler ses bêtes à un cheptel voisin par route départementale | ⚠ |
 | 2026 | SOC | Tente de mêler ses bêtes à un cheptel voisin par route départementale | ⚠ |
 | 2026 | SOC | Zéro réserve stratégique mondiale d'engrais | 💀 |
 | 2026-02-28 | SOC | Bilan Mizan: 66 garçons, 54 filles, 26 enseignants, 4 parents — 168 à 180 morts, 95 blessés | 💀 |
@@ -5048,7 +4517,6 @@
 | 2026 | JUR | 11,3 juges/100 000 hab (vs 21,9 moyenne UE) | ❌ |
 | 2026 | JUR | 136 Md€ transférés CADES ("quoi qu'il en coûte") | ⚠ |
 | 2026 | JUR | 15 000 € d'amende dont 10 000 avec sursis, aucune peine d'inéligibilité | ❌ |
-| 2026 | JUR | 15 000 € d'amende dont 10 000 avec sursis, aucune peine d'inéligibilité | ❌ |
 | 2026 | JUR | 1er avril 2026: Assemblée vote suppression CJIP | ⚠ |
 | 2026 | JUR | 3,2 procureurs/100 000 hab (vs 11,2 médiane UE) | ❌ |
 | 2026 | JUR | 4 témoins cardinaux Epstein morts au moment procès: probabilité 0,001% | 💀 |
@@ -5058,71 +4526,49 @@
 | 2026 | JUR | 77 €/hab justice (vs 85 € moyenne UE) | ❌ |
 | 2026 | JUR | 86 000 détenus pour 62 000 places, 133% occupation | 💀 |
 | 2026 | JUR | Agence Française Anticorruption | ❌ |
-| 2026 | JUR | Agence Française Anticorruption | ❌ |
-| 2026 | JUR | Alexis Kohler (Secrétaire Général Élysée) mis en examen pour « prise illégale d'intérêts » ; a participé à 8 délibérations MSC à Bercy | 💀 |
 | 2026 | JUR | Alexis Kohler (Secrétaire Général Élysée) mis en examen pour « prise illégale d'intérêts » ; a participé à 8 délibérations MSC à Bercy | 💀 |
 | 2026 | JUR | Aucun document d'accompagnement ne précise le cadre juridique, les coûts d'infrastructure ni les clauses de sortie | ❌ |
 | 2026 | JUR | Bétharram: 230+ plaintes | 💀 |
 | 2026 | JUR | Condamné pour détention images pédopornographiques, pas inscrit au FIJAIS | ❌ |
-| 2026 | JUR | Condamné pour détention images pédopornographiques, pas inscrit au FIJAIS | ❌ |
-| 2026 | JUR | Condamné pour favoritisme, marché truqué 5,6 M€ au profit Saur | ❌ |
 | 2026 | JUR | Condamné pour favoritisme, marché truqué 5,6 M€ au profit Saur | ❌ |
 | 2026 | JUR | DDSE: -13,5 points récidive vs prison | ✅ |
 | 2026 | JUR | DOJ divulgue "par erreur" identité >100 survivants Epstein | 💀 |
 | 2026 | JUR | Deux enquêtes formelles ouvertes, aucune commission parlementaire | ❌ |
-| 2026 | JUR | Deux enquêtes formelles ouvertes, aucune commission parlementaire | ❌ |
-| 2026 | JUR | Déclarations d'intérêts HATVP de Montchalin "déposées — publication à venir" | ❌ |
 | 2026 | JUR | Déclarations d'intérêts HATVP de Montchalin "déposées — publication à venir" | ❌ |
 | 2026 | JUR | Décret février 2026 : extension pouvoirs Viginum, suppression seuil 5 M visiteurs | ❌ |
 | 2026 | JUR | Délais correctionnel: 12-18 mois | ❌ |
 | 2026 | JUR | Délais prud'hommes: 14 mois | ❌ |
 | 2026 | JUR | Département de la Justice publie documents (janvier 2026) | ❌ |
-| 2026 | JUR | Département de la Justice publie documents (janvier 2026) | ❌ |
-| 2026 | JUR | Département de la Justice, 2,5 M pages restent secrètes | ⚠ |
 | 2026 | JUR | Département de la Justice, 2,5 M pages restent secrètes | ⚠ |
 | 2026 | JUR | Détention provisoire: 26-30% détenus | ❌ |
 | 2026 | JUR | Epstein (août 2019 cellule), Brunel (février 2022 cellule), Middleton (mai 2022 suicide), Giuffre (avril 2025 suicide) | 💀 |
 | 2026 | JUR | Greffiers ~12 000 | ❌ |
 | 2026 | JUR | Israël inculpe 2 personnes pour trading sur info classifiée | ❌ |
 | 2026 | JUR | Janvier 2026, bandes « manquantes », fichiers retenus sur Trump | ⚠ |
-| 2026 | JUR | Janvier 2026, bandes « manquantes », fichiers retenus sur Trump | ⚠ |
 | 2026 | JUR | L'article 35 de la Constitution exigeant l'information du Parlement n'a pas été respecté avant l'annonce | ❌ |
 | 2026 | JUR | LPJ 2023-2027: promet 10 000 emplois (1 500 magistrats, 1 800 greffiers) | ⚠ |
 | 2026 | JUR | Le père livre son fils de 5 ans à neuf hommes | 💀 |
-| 2026 | JUR | Le père livre son fils de 5 ans à neuf hommes | 💀 |
-| 2026 | JUR | Les viols enregistrés et diffusés | 💀 |
 | 2026 | JUR | Les viols enregistrés et diffusés | 💀 |
 | 2026 | JUR | Mai 2026: PNF perquisitionne Élysée pour corruption panthéonisations | ⚠ |
 | 2026 | JUR | Mars : Perquisitions RN siège Paris dans affaire financement campagne 2022-2024 | ⚠ |
 | 2026 | JUR | Mediapart révèle surveillance avant ouverture officielle (16 avril 2026) | ❌ |
-| 2026 | JUR | Mediapart révèle surveillance avant ouverture officielle (16 avril 2026) | ❌ |
-| 2026 | JUR | Menace de garde à vue pour faire révéler cache des animaux | ❌ |
 | 2026 | JUR | Menace de garde à vue pour faire révéler cache des animaux | ❌ |
 | 2026 | JUR | Mémos FBI déclassifiés janvier 2026: entretiens Acosta-Burns | 💀 |
 | 2026 | JUR | PNF ~20 magistrats, ~300 dossiers/an | ❌ |
 | 2026 | JUR | Plan 15 000 places prisons LPJ 2023-2027 | ⚠ |
 | 2026 | JUR | Prix place prison ~50 000 €/an | ❌ |
 | 2026 | JUR | Procès en "concurrence déloyale" intenté par France Télévisions contre CNews (2026) | ⚠ |
-| 2026 | JUR | Procès en "concurrence déloyale" intenté par France Télévisions contre CNews (2026) | ⚠ |
-| 2026 | JUR | Procès en février 2026 pour viol organisé lors d'une soirée droguée | 💀 |
 | 2026 | JUR | Procès en février 2026 pour viol organisé lors d'une soirée droguée | 💀 |
 | 2026 | JUR | Projet interdiction réseaux sociaux aux moins de 15 ans | ❌ |
 | 2026 | JUR | Préfecture prononce 750 € par animal, suspension d'activité | ❌ |
-| 2026 | JUR | Préfecture prononce 750 € par animal, suspension d'activité | ❌ |
-| 2026 | JUR | Prétexte, ré-victimisation par exposition | 💀 |
 | 2026 | JUR | Prétexte, ré-victimisation par exposition | 💀 |
 | 2026 | JUR | QPC 2017-680 décembre 2017: Conseil constitutionnel valide dépendance procureurs | ❌ |
-| 2026 | JUR | Quiconque divulguerait les flux comptables après blocage politique s'expose à des poursuites criminelles | ❌ |
 | 2026 | JUR | Quiconque divulguerait les flux comptables après blocage politique s'expose à des poursuites criminelles | ❌ |
 | 2026 | JUR | SPIP: suivi 1 rdv/6 mois | ❌ |
 | 2026 | JUR | TIG: délai exécution 16 mois, récidive 60% à 5 ans | ❌ |
 | 2026 | JUR | Tribunal administratif de Toulouse rejette le référé | ❌ |
-| 2026 | JUR | Tribunal administratif de Toulouse rejette le référé | ❌ |
-| 2026 | JUR | Viols et tortures | 💀 |
 | 2026 | JUR | Viols et tortures | 💀 |
 | 2026 | JUR | Âge des accusés, « citoyens modèles, pères de famille » | 💀 |
-| 2026 | JUR | Âge des accusés, « citoyens modèles, pères de famille » | 💀 |
-| 2026 | JUR | Éleveuse bio saisit tribunal pour suspendre arrêté préfectoral du 10 avril (16 avril 2026) | ⚠ |
 | 2026 | JUR | Éleveuse bio saisit tribunal pour suspendre arrêté préfectoral du 10 avril (16 avril 2026) | ⚠ |
 | 2026 | JUR | Évasion fiscale: 80-100 Md€/an (CCFD, Oxfam, syndicats Bercy) | ❌ |
 | 2026-01 | JUR | La revue juridique du DOJ examine si ces documents ont été « wrongly withheld » | ⚠ |
@@ -5134,12 +4580,9 @@
 | 2026-04-14 | JUR | Déposition de Bondi prévue | ⚠ |
 | 2026 | SANT | 100 000 lits d'hôpital supprimés | ❌ |
 | 2026 | SANT | Cathinone de synthèse, éteint cortex préfrontal | 💀 |
-| 2026 | SANT | Cathinone de synthèse, éteint cortex préfrontal | 💀 |
 | 2026 | SANT | Crise hôpital persistante | ❌ |
 | 2026 | SANT | Déserts médicaux dans 80 départements | ❌ |
 | 2026 | SANT | Nouvelle taxe sur les mutuelles | ❌ |
-| 2026 | SANT | Nouvelle taxe sur les mutuelles | ❌ |
-| 2026 | SANT | Sursaturation dopaminergique + érosion sérotonine | 💀 |
 | 2026 | SANT | Sursaturation dopaminergique + érosion sérotonine | 💀 |
 | 2026 | SANT | Transfert Health Data Hub vers hébergeur SecNumCloud non terminé | ❌ |
 | 2026 | ÉDU | 5 ministres de l'Éducation en 2024 | ❌ |
@@ -5174,21 +4617,17 @@
 | 2026 | ENV | Assemblée nationale vote suppression des ZFE : 98 pour, 51 contre → rejeté | ❌ |
 | 2026 | ENV | Canicule estivale anticipée | ⚠ |
 | 2026 | ENV | Durcissement du malus automobile (présenté comme écologique, frappe ménages modestes véhicules anciens) | ❌ |
-| 2026 | ENV | Durcissement du malus automobile (présenté comme écologique, frappe ménages modestes véhicules anciens) | ❌ |
 | 2026 | ENV | Planification écologique en cours | ⚠ |
 | 2026 | TEC | AIE projette 650 à 1050 TWh de consommation IA d'ici fin 2026 | ❌ |
 | 2026 | TEC | Amendement PLF 2026 propose relever taxe GAFAM de 3% à 15% | ⚠ |
 | 2026 | TEC | Auteur piratage ANTS : mineur 15 ans (« breach3d ») mis en examen 29 avril | ❌ |
 | 2026 | TEC | Avril 3 : Chat Control 1.0 expire, Google/Meta/Microsoft continuent scanning unilatéral | ❌ |
 | 2026 | TEC | CASIC = consortium défense étatique chinois | ❌ |
-| 2026 | TEC | CASIC = consortium défense étatique chinois | ❌ |
 | 2026 | TEC | Fuite 1,2 M comptes bancaires via FICOBA | ❌ |
 | 2026 | TEC | Fuite 160 000 dossiers sensibles via HubEE (janvier-février) | ❌ |
 | 2026 | TEC | Fuite 4,5 Go documents classifiés Armée de Terre | ❌ |
 | 2026 | TEC | Fuite données CNRS (numéros SS, RIB chercheurs) | ❌ |
 | 2026 | TEC | Google impose 98,8% de refus à ses modèles d'IA | ❌ |
-| 2026 | TEC | Google impose 98,8% de refus à ses modèles d'IA | ❌ |
-| 2026 | TEC | Health Data Hub (données santé de tous les Français) confié à Microsoft Azure, soumis au Cloud Act américain | ❌ |
 | 2026 | TEC | Health Data Hub (données santé de tous les Français) confié à Microsoft Azure, soumis au Cloud Act américain | ❌ |
 | 2026 | TEC | Jan 24 : Macron lance procédure accélérée interdiction réseaux sociaux aux -15 ans pour rentrée | ⚠ |
 | 2026 | TEC | Juin 29 : Prochain trilogue décisif Chat Control CSAR | ⚠ |
@@ -5197,23 +4636,16 @@
 | 2026 | TEC | Mars 31 : Débat Sénat interdiction réseaux sociaux -15 ans, propositions divisées | ⚠ |
 | 2026 | TEC | Mégaleak IDMerit : 52 M de Français (noms, adresses, copies passeports) | ❌ |
 | 2026 | TEC | Pavel Durov dénonce l'application européenne de vérification d'âge conçue piratable | ❌ |
-| 2026 | TEC | Pavel Durov dénonce l'application européenne de vérification d'âge conçue piratable | ❌ |
 | 2026 | TEC | Piratage ANTS/France Titres (20 avril) : 11,7 M comptes exposés | ❌ |
-| 2026 | TEC | Piratage démontré en moins de deux minutes | ❌ |
 | 2026 | TEC | Piratage démontré en moins de deux minutes | ❌ |
 | 2026 | TEC | Premier ministre Lecornu débloque 200 M€ d'urgence (30 avril), reconnaît ~3 vols données/jour | ❌ |
 | 2026 | TEC | Régulation IA | ⚠ |
 | 2026 | TEC | SPF Finances belge confirme : e-reporting permet accès en temps réel au contenu détaillé des factures | ❌ |
-| 2026 | TEC | SPF Finances belge confirme : e-reporting permet accès en temps réel au contenu détaillé des factures | ❌ |
 | 2026 | TEC | Tech française : continue | ✅ |
 | 2026 | TEC | Un agent IA fait chuter le taux de refus de Gemma 4 à 2,1% en une nuit | ✅ |
-| 2026 | TEC | Un agent IA fait chuter le taux de refus de Gemma 4 à 2,1% en une nuit | ✅ |
-| 2026-01 | TEC | CRECCB demande report déclarations TVA janvier 2026 : « problèmes techniques majeurs » sur Peppol | ❌ |
 | 2026-01 | TEC | CRECCB demande report déclarations TVA janvier 2026 : « problèmes techniques majeurs » sur Peppol | ❌ |
 | 2026-01 | TEC | Fuite de données massive à l'ANFSI (Agence Nationale de la Sécurité des Systèmes d'Information) — données sensibles d'infrastructures critiques exposées | ❌ |
 | 2026-01 | TEC | SalesBridge et SafeByte démontrent vulnérabilités Peppol (fraude possible) : identifiants non réclamés, vérification faible, assurances trompeuses | ❌ |
-| 2026-01 | TEC | SalesBridge et SafeByte démontrent vulnérabilités Peppol (fraude possible) : identifiants non réclamés, vérification faible, assurances trompeuses | ❌ |
-| 2026-01-01 | TEC | Belgique devient le premier pays européen à rendre obligatoire la facturation électronique via Peppol | ❌ |
 | 2026-01-01 | TEC | Belgique devient le premier pays européen à rendre obligatoire la facturation électronique via Peppol | ❌ |
 | 2026-01-15 | TEC | Le Tribunal judiciaire de Paris ordonne à 5 VPN (CyberGhost, ExpressVPN, NordVPN, ProtonVPN, Surfshark) de bloquer 203 domaines | ❌ |
 | 2026-01-26/27 | TEC | La loi Miller est adoptée par l'Assemblée nationale pour « protéger les mineurs » | ❌ |
@@ -5222,19 +4654,13 @@
 | 2026-01-28 | TEC | Données exfiltrées qualifiées d'« extrêmement alarmantes » | ❌ |
 | 2026-01-28 | TEC | Téléphone du ministre israélien de la Défense Israël Katz piraté par groupe Hanzala | ❌ |
 | 2026-02 | TEC | SAP validé comme Plateforme Agréée en France | ⚠ |
-| 2026-02 | TEC | SAP validé comme Plateforme Agréée en France | ⚠ |
 | 2026-02-18 | TEC | Un ambassadeur français déclare « Tout sera bouclé avant l'élection présidentielle de mai 2027 » | ❌ |
 | 2026-02-24 | TEC | Jean-Noël Barrot déclare la guerre à l'« internationale réactionnaire » | ❌ |
 | 2026-03-02 | TEC | GPS brouillés dans le détroit d'Hormuz ; +1000 navires civils avec problèmes de navigation | ❌ |
 | 2026-09-01 | TEC | Obligation de facturation électronique entre en vigueur en France | ❌ |
-| 2026-09-01 | TEC | Obligation de facturation électronique entre en vigueur en France | ❌ |
-| 2026 | CUL | Aleister Crowley, concept de vraie volonté | ✅ |
 | 2026 | CUL | Aleister Crowley, concept de vraie volonté | ✅ |
 | 2026 | CUL | Anton LaVey, Église de Satan | ⚠ |
-| 2026 | CUL | Anton LaVey, Église de Satan | ⚠ |
 | 2026 | CUL | MSCHF créateur, Nike a poursuivi | ✅ |
-| 2026 | CUL | MSCHF créateur, Nike a poursuivi | ✅ |
-| 2026 | CUL | Satan = métaphore rébellion, pas entité adorée | ✅ |
 | 2026 | CUL | Satan = métaphore rébellion, pas entité adorée | ✅ |
 | 2026 | IMM | 140 000 OQTF/an, <10% exécutées | ❌ |
 | 2026 | IMM | 22% Français confiance gouvernement (CEVIPOF 2026) | ❌ |
@@ -5258,12 +4684,10 @@
 | 2026 | MIL | Cobelligérance Iran-USA: article 35 Constitution jamais soumis au vote | ❌ |
 | 2026 | MIL | David Barnea (chef du Mossad) présente un plan de renversement du régime iranien — échoue totalement | ❌ |
 | 2026 | MIL | Dix fourgonnettes, vétérinaires mandatés, sous direction sous-préfète Sophie Pauzat (17 avril, 6h) | 💀 |
-| 2026 | MIL | Dix fourgonnettes, vétérinaires mandatés, sous direction sous-préfète Sophie Pauzat (17 avril, 6h) | 💀 |
 | 2026 | MIL | En 100 heures: 168 Tomahawks tirés, coût jour 6: 11,3 milliards $ | ❌ |
 | 2026 | MIL | F-35 abattu — première perte au combat de l'avion furtif | ❌ |
 | 2026 | MIL | France: Rafales sur Émirats, stocks MICA épuisés | ❌ |
 | 2026 | MIL | Gerald Ford immobilisé 14 mois (meilleur porte-avions) | ❌ |
-| 2026 | MIL | Gouvernement irlandais déploie l'armée pour débloquer les dépôts | 💀 |
 | 2026 | MIL | Gouvernement irlandais déploie l'armée pour débloquer les dépôts | 💀 |
 | 2026 | MIL | Guerre Iran-États-Unis : France déploie ~24 Rafale, SAMP/T, ~900 personnels, abat 60 drones | ❌ |
 | 2026 | MIL | Haïfa, Tel Aviv, Kiryat Gat, Ashkelon: missiles balistiques touchent sol israélien | 💀 |
@@ -5281,7 +4705,6 @@
 | 2026 | MIL | La décision d'emploi nucléaire resterait « exclusivement française », répété 5 fois durant 2h d'allocution | ⚠ |
 | 2026 | MIL | Le TNP est mort | 💀 |
 | 2026 | MIL | Lockheed Martin: +48% | ⚠ |
-| 2026 | MIL | Macron envoie des blindés contre sa propre population et décore les préfets responsables de la répression | 💀 |
 | 2026 | MIL | Macron envoie des blindés contre sa propre population et décore les préfets responsables de la répression | 💀 |
 | 2026 | MIL | Missiles iraniens manœuvrent pour éviter intercepteurs — technologie jamais vue | ⚠ |
 | 2026 | MIL | NYT: « La confiance dans cette capacité est devenue la principale erreur de planification » | ❌ |
@@ -5341,10 +4764,8 @@
 | 2026 | DIP | Arabie Saoudite ouvre King Fahd Air Base aux Américains | ⚠ |
 | 2026 | DIP | Araghchi humilie Macron: « His current concern didn't follow Israel's attack. It follows our retaliation » | ❌ |
 | 2026 | DIP | Arrow 3 : 3,5 Mds$ pour l'Allemagne (OrientXXI, mars 2026) | ❌ |
-| 2026 | DIP | Arrow 3 : 3,5 Mds$ pour l'Allemagne (OrientXXI, mars 2026) | ❌ |
 | 2026 | DIP | Contribution nette France UE: ~10 Md€/an | ❌ |
 | 2026 | DIP | Emmanuel Macron annonce depuis l'Île Longue la plus grande transformation de la doctrine nucléaire française depuis la Force de frappe, le 2 mars | ❌ |
-| 2026 | DIP | Expulsion des troupes françaises du Mali, Burkina, Niger ; la Russie prend la place | ❌ |
 | 2026 | DIP | Expulsion des troupes françaises du Mali, Burkina, Niger ; la Russie prend la place | ❌ |
 | 2026 | DIP | Fidan: « Pays du Golfe ont émis leurs derniers avertissements » | ⚠ |
 | 2026 | DIP | France reçoit ~15 Md€/an UE, solde net -10 Md€/an | ⚠ |
@@ -5393,41 +4814,25 @@
 | 2026-03-24 | DIP | State Dept alerte urgente 8 pays: Israël, SA, Jordanie, Liban, Oman, Irak, Qatar, Émirats — ordre de quitter immédiatement | ❌ |
 | 2026 | MÉD | 17 avril 2026 : Macron annonce vouloir « domestiquer » réseaux sociaux | ❌ |
 | 2026 | MÉD | 90% des médias privés français appartiennent à 9 milliardaires | ❌ |
-| 2026 | MÉD | 90% des médias privés français appartiennent à 9 milliardaires | ❌ |
 | 2026 | MÉD | Aucun débat télévisé n'examine le timing électoral du discours | ❌ |
 | 2026 | MÉD | Aucun grand média ne questionne la légalité du dispositif au regard du TNP | ❌ |
 | 2026 | MÉD | Aymeric Caron constate l'échec de la propagande gouvernementale | ⚠ |
-| 2026 | MÉD | Aymeric Caron constate l'échec de la propagande gouvernementale | ⚠ |
-| 2026 | MÉD | Coupe budgétaire de 5 à 10 M€ pour « 60 Millions », déficit Sécu de 23 Md€ | ❌ |
 | 2026 | MÉD | Coupe budgétaire de 5 à 10 M€ pour « 60 Millions », déficit Sécu de 23 Md€ | ❌ |
 | 2026 | MÉD | Financement vérificateurs de faits via European Democracy Shield (mars 2026) | ❌ |
-| 2026 | MÉD | Financement vérificateurs de faits via European Democracy Shield (mars 2026) | ❌ |
-| 2026 | MÉD | Institut Thomas More recense couvertures asymétriques sur la criminalité (étude APEX février 2026) | ⚠ |
 | 2026 | MÉD | Institut Thomas More recense couvertures asymétriques sur la criminalité (étude APEX février 2026) | ⚠ |
 | 2026 | MÉD | L'Incorrect, média en ligne de droite dure, impulse la "Sainte-Alliance" | ❌ |
-| 2026 | MÉD | L'Incorrect, média en ligne de droite dure, impulse la "Sainte-Alliance" | ❌ |
-| 2026 | MÉD | Livestream de 10 heures par Le Tocsin (17 avril 2026) | ⚠ |
 | 2026 | MÉD | Livestream de 10 heures par Le Tocsin (17 avril 2026) | ⚠ |
 | 2026 | MÉD | Léa Salamé, compagne de Raphaël Glucksmann, est éditorialiste tutélaire de FranceTV | ❌ |
-| 2026 | MÉD | Léa Salamé, compagne de Raphaël Glucksmann, est éditorialiste tutélaire de FranceTV | ❌ |
-| 2026 | MÉD | Mars 2026, YouTube, « Satanisme : religion cachée des élites ? » | ❌ |
 | 2026 | MÉD | Mars 2026, YouTube, « Satanisme : religion cachée des élites ? » | ❌ |
 | 2026 | MÉD | Mimi Marchand demeure fabricante d'image exclusive d'Emmanuel Macron | ❌ |
-| 2026 | MÉD | Mimi Marchand demeure fabricante d'image exclusive d'Emmanuel Macron | ❌ |
-| 2026 | MÉD | Niel investit massivement dans le Nouveau Magazine Littéraire présidé par Raphaël Glucksmann | ⚠ |
 | 2026 | MÉD | Niel investit massivement dans le Nouveau Magazine Littéraire présidé par Raphaël Glucksmann | ⚠ |
 | 2026 | MÉD | Projet de 500 analystes à Bruxelles | ❌ |
-| 2026 | MÉD | Projet de 500 analystes à Bruxelles | ❌ |
-| 2026 | MÉD | Vincent Bolloré (Vivendi) transforme i-Télé en CNews | ❌ |
 | 2026 | MÉD | Vincent Bolloré (Vivendi) transforme i-Télé en CNews | ❌ |
 | 2026-02 | MÉD | Ben-Menashe : « Netanyahou will SABOTAGE a US-Iran deal by releasing the most DAMAGING Epstein files against Trump » | ⚠ |
 | 2026-02-07 | MÉD | Ari Ben-Menashe (ex-Mossad) révèle le lien Netanyahou-Epstein-Trump sur RT | ⚠ |
 | 2026-02-14 | MÉD | Seymour Hersh publie : « Further attacks and regime change are on the table » | ⚠ |
 | 2026 | TER | Avant le tweet du 26 mars qui a servi de prétexte | ❌ |
-| 2026 | TER | Avant le tweet du 26 mars qui a servi de prétexte | ❌ |
 | 2026 | TER | Suivi complet des déplacements, consultation fichiers | ❌ |
-| 2026 | TER | Suivi complet des déplacements, consultation fichiers | ❌ |
-| 2026 | TER | William Burns, figure CIA, intervenu | ❌ |
 | 2026 | TER | William Burns, figure CIA, intervenu | ❌ |
 | 2026-01 | TER | Jeffrey Epstein était formé comme agent du Mossad israélien (documents FBI, Middle East Eye) | ❌ |
 
