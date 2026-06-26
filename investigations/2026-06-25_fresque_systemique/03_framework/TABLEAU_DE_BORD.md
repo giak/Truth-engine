@@ -10,20 +10,21 @@
 
 | Métrique | Valeur | Date |
 |----------|--------|------|
-| Enquêtes v2.4 produites | **12** (10 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante**) | 2026-06-26 |
+| Enquêtes v2.4 produites | **13** (10 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante** + **PRED-3 Chlordécone**) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
 | Ultrathinking réalisés | 10 / 10 (100 %) | 2026-06-26 |
-| Second agents exécutés | 0 / 12 (0 %) | — |
-| Niveau NREF max atteint | **B** (9 A/B, 3 C — Mazan, Niches, ARCOM) | 2026-06-26 |
-| Sources vérifiées cumulées | 67 ✦ + 11 ⁅ + 67 ❧ = 145 | 2026-06-26 |
-| HEAD checks effectués | 57 (dont 10 HEAD PRED-2 : 5/10 OK) | 2026-06-26 |
+| Second agents exécutés | 0 / 13 (0 %) | — |
+| Niveau NREF max atteint | **B** (10 A/B, 3 C — Mazan, Niches, ARCOM) | 2026-06-26 |
+| Sources vérifiées cumulées | 71 ✦ + 15 ⁅ + 70 ❧ = 156 | 2026-06-26 |
+| HEAD checks effectués | 65 (dont 8 HEAD PRED-3 : 4/8 OK) | 2026-06-26 |
 | Blocages identifiés | 3 (second agents non exécutés) | — |
 | **Standardisation Pelote v2.4** | | |
 | Fils avec marquage `[RACINE_FONDATRICE/ANCIENNE]` | **62/62** (100 %) | 2026-06-26 |
 | Chaînes causales avec `gaps_verifies:` | **61/62** (98 %) | 2026-06-26 |
 | Fils avec `cross_reference:` référentiel | **62/62** (100 %) | 2026-06-26 |
 | Anomalies Pelote (ARCOM) | 1 fil sans chaine causale | — |
-| **Pattern invariant confirmé** | **M11+M28 invariant 12/12** ; **M05 dans 11/12** (Mazan : M05 absent) | 2026-06-26 |
+| **Pattern invariant confirmé** | **M11+M28 invariant 13/13** ; **M05 dans 12/13** (Mazan : M05 absent) | 2026-06-26 |
+| **M39 (Shifting baseline)** | **CONFIRMÉ** (Chlordécone — racisme institutionnel documenté) | 2026-06-26 |
 | **Fil I** | **CONFIRMÉ** (Maastricht 1992 + **ARCOM : extension hypothèse vassalité juridique**) | 2026-06-26 |
 | **Fil L** | **CONFIRMÉ** (Fiscalité asymétrique — replication niches réussie) | 2026-06-26 |
 | **M43** | **CONFIRMÉ** (Domination monétaire, étendue à juridique par ARCOM) | 2026-06-26 |
@@ -48,6 +49,7 @@
 | **10** | **v2.4** | 2026-06-26 | SYSTEME_2019-2026_ARCOM_Censure | ARCOM (2019-2026) — censure numérique institutionnalisée : de la HADOPI au complexe de censure européen (DSA). 6 fils actifs. Extension Fil I au juridique (HYPOTHÈSE). Budget 51→500 M€, Twitter Files, OONI | **C** | B,C,D,E,H,I | M11, M37, M28, M02, M22 | ✅ 6 fils (dont I extension) | ⚠️ 5/6 | ✅ 2 actions |
 | **11** | **v2.4** | 2026-06-26 | SYSTEME_PRED1_Mediator | **PRED-1** Médiator (Servier, 1976-2024) — **TEST DE PRÉDICTION** : le pattern sang contaminé se reproduit-il sur un autre scandale sanitaire ? Résultat : **7/8 confirmé, 1 partiel** | **B** | A,B,C,D,E,H | M11, M28, M05, M27, M14, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
 | **12** | **v2.4** | 2026-06-26 | SYSTEME_PRED2_Amiante | **PRED-2** Amiante (1906-2024) — **TEST DE PRÉDICTION n°2** : le pattern sang contaminé se reproduit-il sur le plus long scandale sanitaire français (97 ans) ? Résultat : **11/11 confirmé** | **B** | A,B,C,D,E,H | M11, M28, M05, M14, M37, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
+| **13** | **v2.4** | 2026-06-26 | SYSTEME_PRED3_Chlordecone | **PRED-3** Chlordécone (Antilles, 1972-2024) — **TEST DE PRÉDICTION n°3** : le pattern se reproduit-il avec dimension coloniale ? **Résultat : 12/12 confirmé. M39 (racisme institutionnel) nouveau mécanisme** | **B** | B,C,G,H | M11, M28, M05, M39, M14, M23 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
 
 
 **Légende :** ✅ = fait | ⚠️ = anomalie | 🔲 = à faire
@@ -71,6 +73,7 @@
 | ARCOM censure v2.4 | `02_enquetes/2026-06-26_arcom_censure_numerique_v2.3_INVESTIGATION.md` (Pelote v2.4) |
 | PRED-1 Médiator v2.4 | `02_enquetes/2026-06-26_pred1_mediator_servier_INVESTIGATION.md` (PRÉDICTION v2.4) |
 | PRED-2 Amiante v2.4 | `02_enquetes/2026-06-26_pred2_amiante_INVESTIGATION.md` (PRÉDICTION v2.4) |
+| PRED-3 Chlordécone v2.4 | `02_enquetes/2026-06-26_pred3_chlordecone_INVESTIGATION.md` (PRÉDICTION v2.4) |
 
 **Archive :** Sang v2.1 → `02_enquetes/archive/2026-06-26_sang_contamine_NREF_INVESTIGATION.md`. Architecture fondatrice → `02_enquetes/archive/2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md`.
 
@@ -184,14 +187,14 @@ Virage rigueur 1983
 
 | Fil | Nb enquêtes | Enquêtes |
 |-----|:-----------:|----------|
-| **B — Monopole d'Etat** | **12/12** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, **PRED-2** |
-| **C — Societe civile atrophiee** | **12/12** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, **PRED-2** |
-| **E — Presse sans contre-pouvoir** | **12/12** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, **PRED-2** |
-| D — Justice domestiquee | **11/12** | Sang, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, **PRED-2** |
-| H — Exceptionnalisme | **11/12** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, **PRED-2** |
-| A — Mandarinat | **5/12** | Sang, Pet, COVID, PRED-1, **PRED-2** |
-| I — Vassalite monetaire | **5/11** | Virage, Maastricht, COVID, Fiscalite, ARCOM (extension juridique) |
-| G — Laicite religion civile | **5/11** | Sang, Tchernobyl, Pet, COVID, Mazan |
+| **B — Monopole d'Etat** | **13/13** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, **PRED-3** |
+| **C — Societe civile atrophiee** | **13/13** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, **PRED-3** |
+| **E — Presse sans contre-pouvoir** | **12/13** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2 |
+| D — Justice domestiquee | **11/13** | Sang, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2 |
+| H — Exceptionnalisme | **12/13** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, **PRED-3** |
+| A — Mandarinat | **5/13** | Sang, Pet, COVID, PRED-1, PRED-2 |
+| G — Laicite religion civile | **6/13** | Sang, Tchernobyl, Pet, COVID, Mazan, **PRED-3** |
+| I — Vassalite monetaire | **5/13** | Virage, Maastricht, COVID, Fiscalite, ARCOM (extension juridique) |
 | L — Fiscalite asymetrique | **2/11** | Fiscalite, Niches |
 | F — Ecole-moule | **3/11** | Sang, Pet, COVID |
 
@@ -237,7 +240,8 @@ Chaque enquête est connectée à ≥ 3 autres :
 | Niches v2.4 | **Second agent** | NREF-B → A | 🔵 Moyenne |
 | ARCOM v2.4 | **Second agent** + chaine manquante | NREF-C → B | 🔵 Moyenne |
 | PRED-1 Médiator | — | NREF-B (plafond §5bis, second agent requis pour A) | ⚠️ Haute |
-| **PRED-2 Amiante** v2.4 | — | NREF-B (plafond §5bis, second agent requis pour A) | ⚠️ Haute |
+| PRED-2 Amiante v2.4 | — | NREF-B (plafond §5bis, second agent requis pour A) | ⚠️ Haute |
+| **PRED-3 Chlordécone** v2.4 | — | NREF-B (plafond §5bis, second agent requis pour A) | ⚠️ Haute |
 |
 
 ---
@@ -252,6 +256,7 @@ Chaque enquête est connectée à ≥ 3 autres :
 | **P1** | Enquête sur Fil I — Vassalité monétaire (Grèce 2015) | Consolidation |
 | P2 | Archives CNTS — destruction 1983-1985 | Addendum sang |
 | **P1** | ~~Amiante — tester PRED-2~~ ✅ **FAIT** (11/11 conf, NREF B) | REPLICATION sang + Tchernobyl |
+| **P1** | ~~Chlordécone Antilles — tester PRED-3~~ ✅ **FAIT** (12/12 conf, NREF B) | REPLICATION sang + Tchernobyl |
 | P2 | Rôle du CNL — subventions controversées | Addendum Pétition 69 |
 | P2 | Impact procès Mazan sur classement sans suite 2025-2026 | Mazan (PRED-M1/M2) |
 | P2 | Enquête comparative France/Espagne — réforme consentement (loi Solo sí es sí) | Mazan |
