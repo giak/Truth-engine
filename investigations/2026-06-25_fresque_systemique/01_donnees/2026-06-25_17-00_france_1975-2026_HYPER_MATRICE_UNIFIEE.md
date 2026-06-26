@@ -9,61 +9,72 @@
 ## SYNTHÈSE PAR DÉCENNIE
 | Décennie | POL | ECO | SOC | JUR | SANT | EDU | AGR | ENV | TEC | CUL | IMM | SPO | REL | DEMO | TRA | MIL | SCI | DIP | MED | TER | TOTAL |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1975-1982 | 84 | 170 | 132 | 30 | 5 | 12 | 10 | 35 | 41 | 74 | 8 | 23 | 2 | 3 | 7 | 2 | 2 | 1 | 0 | 43 | 684 |
+| 1975-1982 | 84 | 170 | 132 | 29 | 5 | 12 | 10 | 35 | 41 | 74 | 8 | 23 | 2 | 3 | 7 | 2 | 2 | 1 | 0 | 43 | 683 |
 | 1983-1990 | 81 | 127 | 71 | 51 | 43 | 64 | 38 | 41 | 59 | 125 | 28 | 51 | 19 | 37 | 28 | 35 | 0 | 1 | 1 | 0 | 900 |
 | 1991-1998 | 82 | 29 | 62 | 63 | 11 | 14 | 21 | 9 | 28 | 36 | 11 | 32 | 3 | 6 | 2 | 22 | 7 | 15 | 0 | 3 | 456 |
 | 1999-2006 | 103 | 71 | 74 | 50 | 22 | 18 | 16 | 18 | 21 | 76 | 15 | 45 | 7 | 9 | 35 | 6 | 9 | 0 | 7 | 6 | 608 |
 | 2007-2016 | 104 | 129 | 71 | 62 | 23 | 47 | 27 | 31 | 37 | 22 | 25 | 40 | 4 | 8 | 21 | 8 | 6 | 2 | 8 | 5 | 680 |
-| 2017-2026 | 332 | 685 | 242 | 214 | 80 | 155 | 134 | 71 | 115 | 29 | 24 | 40 | 1 | 6 | 20 | 112 | 8 | 62 | 138 | 12 | 2480 |
-| **TOTAL** | 786 | 1211 | 652 | 470 | 184 | 310 | 246 | 205 | 301 | 362 | 111 | 231 | 36 | 69 | 113 | 185 | 32 | 81 | 154 | 69 | **5808** |
+| 2017-2026 | 330 | 685 | 240 | 214 | 79 | 152 | 134 | 71 | 115 | 29 | 24 | 40 | 1 | 6 | 20 | 112 | 8 | 62 | 138 | 12 | 2472 |
+| **TOTAL** | 784 | 1211 | 650 | 469 | 183 | 307 | 246 | 205 | 301 | 362 | 111 | 231 | 36 | 69 | 113 | 185 | 32 | 81 | 154 | 69 | **5799** |
 
 ## SYNTHÈSE PAR DIMENSION (toutes années)
 | Dimension | Total | ✅ | ⚠ | ❌ | 💀 |
 |---|---|---|---|---|---|
-| POL | 830 | 152 | 256 | 277 | 42 |
-| ECO | 1264 | 176 | 355 | 598 | 66 |
-| SOC | 674 | 77 | 214 | 195 | 80 |
-| JUR | 513 | 58 | 136 | 186 | 46 |
-| SANT | 185 | 34 | 33 | 67 | 16 |
-| EDU | 316 | 26 | 105 | 159 | 1 |
+| POL | 827 | 152 | 256 | 277 | 42 |
+| ECO | 1264 | 176 | 265 | 598 | 66 |
+| SOC | 672 | 77 | 212 | 194 | 79 |
+| JUR | 512 | 58 | 136 | 186 | 46 |
+| SANT | 184 | 34 | 33 | 67 | 16 |
+| EDU | 313 | 26 | 71 | 156 | 1 |
 | AGR | 267 | 15 | 40 | 128 | 31 |
-| ENV | 209 | 48 | 65 | 37 | 27 |
+| ENV | 209 | 48 | 64 | 37 | 27 |
 | TEC | 331 | 119 | 80 | 99 | 2 |
 | CUL | 363 | 136 | 81 | 9 | 89 |
 | IMM | 111 | 7 | 20 | 44 | 0 |
-| SPO | 231 | 68 | 75 | 15 | 11 |
+| SPO | 231 | 68 | 70 | 15 | 11 |
 | REL | 36 | 9 | 18 | 1 | 2 |
-| DEMO | 69 | 10 | 39 | 6 | 1 |
+| DEMO | 69 | 10 | 21 | 6 | 1 |
 | TRA | 113 | 20 | 55 | 24 | 3 |
 | MIL | 232 | 32 | 71 | 77 | 40 |
 | SCI | 32 | 22 | 4 | 3 | 3 |
 | DIP | 134 | 9 | 59 | 62 | 2 |
-| MED | 165 | 7 | 31 | 127 | 0 |
+| MED | 165 | 7 | 30 | 127 | 0 |
 | TER | 73 | 1 | 2 | 10 | 51 |
-| **TOTAL** | **6148** | **1026** | **1739** | **2124** | **513** |
+| **TOTAL** | **6138** | **1026** | **1588** | **2120** | **512** |
+
+## SYNTHÈSE PAR CODE D'IMPACT
+| Code | Total | % (hors codes non-standards) |
+|---|---|---|
+| ✅ | 1026 | 19.6% |
+| ⚠ | 1588 | 30.3% |
+| ❌ | 2120 | 40.4% |
+| 💀 | 512 | 9.8% |
+| **TOTAL (codes standards)** | **5246** | **100%** |
+| Codes non-standards | 892 | |
+| **TOTAL GÉNÉRAL** | **6138** | |
 
 ## CLASSEMENT DES ANNÉES LES PLUS CHARGÉES
-| Rang | Année | Total | Principal sujet |
-|---|---|---|---|
-| 1 | 2025 | 674 |
+| Rang | Année | Total |
+|---|---|---|
+| 1 | 2025 | 671 |
 | 2 | 2026 | 633 |
-| 3 | 2024 | 367 |
+| 3 | 2024 | 366 |
 | 4 | 2022 | 145 |
-| 5 | 2023 | 143 |
+| 5 | 2023 | 142 |
 | 6 | 2006 | 131 |
 | 7 | 1984 | 121 |
 | 8 | 1990 | 116 |
-| 9 | 2017 | 116 |
-| 10 | 1989 | 115 |
+| 9 | 1989 | 115 |
+| 10 | 2017 | 114 |
 | 11 | 2021 | 114 |
 | 12 | 1983 | 111 |
 | 13 | 1985 | 111 |
 | 14 | 1988 | 111 |
 | 15 | 1987 | 108 |
 | 16 | 1986 | 107 |
-| 17 | 2020 | 103 |
-| 18 | 1975 | 99 |
-| 19 | 1976 | 99 |
+| 17 | 2020 | 102 |
+| 18 | 1976 | 99 |
+| 19 | 1975 | 98 |
 | 20 | 2018 | 93 |
 | 21 | 2019 | 92 |
 | 22 | 2014 | 90 |
@@ -75,6 +86,7 @@
 | 28 | 2016 | 82 |
 | 29 | 1978 | 79 |
 | 30 | 1979 | 78 |
+
 ### 1975
 
 | Année | Dimension | Description | Code |
@@ -116,7 +128,7 @@
 | 1975 | JUR | Loi orientation personnes handicapées | ✅ |
 | 1975 | JUR | Loi réforme pénitentiaire : 3 catégories établissements, QHS | ⚠ |
 | 1975 | JUR | Loi sur institutions sociales et médico-sociales | ✅ |
-| 1975 | JUR | Nouveau Code de procédure civile | ⚠ |
+| 1975 | JUR | Nouveau Code de procédure civile (5 décembre) | ⚠ |
 | 1975 | JUR | Réforme divorce facilitant consentement mutuel | ✅ |
 | 1975 | AGR | Chute production industrielle | 💀 |
 | 1975 | ENV | Accord Ramoge protection environnement France-Monaco-Italie | ✅ |
@@ -160,7 +172,6 @@
 | 1975 | TEC | Lancement Peugeot 604 et Renault 30 (Salon Genève) | Haut de gamme |
 | 1975 | TRA | Inauguration aéroport Lyon-Satolas (12 avril) | Hub aérien régional |
 | 1975 | CUL | Création magazine Fluide Glacial par Gotlib (1er avril) | BD humoristique culte |
-| 1975 | JUR | Nouveau Code de procédure civile (5 décembre) | Modernisation justice |
 | 1975 | TRA | Inauguration pont Saint-Nazaire (18 octobre) | Désenclavement |
 | 1975 | SPO | Bernard Thévenet gagne Tour, 1ère arrivée Champs-Élysées (20 juillet) | Nouveau mythe |
 | 1975 | CUL | Mort Gaston Gallimard, éditeur (25 décembre) | Fin ère littéraire |
@@ -3740,14 +3751,12 @@
 
 | 2017 | POL | **Macron élu — 66% contre Le Pen** | Soulagement |
 | 2017 | POL | **Abstention record 25.4% premier tour** | Désintérêt |
-| 2017 | POL | **Macron — LREM majorité absolue** | Pouvoir fort |
 | 2017 | SOC | **Ordonnances Macron code travail** | Libéralisation |
 | 2017 | ÉDU | **Réforme Blanquer — bac nouveau (enterré)** | Usine à gaz |
 | 2017 | IMM | **Loi Collomb — immigration, asile** | Répression |
 | 2017 | SPO | **JO Paris 2024 — attribués** | Espoir sport |
 | 2017 | AGR | **Loi EGALIM née** | Insuffisante |
 | 2017 | POL | Macron élu 66,1% (7 mai) | Renouveau |
-| 2017 | POL | LREM majorité absolue législatives | Pouvoir |
 | 2017 | SOC | Ordonnances Macron code travail (22 sept) | Libéralisation |
 | 2017 | ÉCO | ISF→IFI flat tax 30% | Cadeau riches |
 | 2017 | ENV | Plan climat Hulot (6 juil) | Promesses |
@@ -4058,7 +4067,6 @@
 | 2020 | ÉDU | **Loi de programmation recherche — moyens insuffisants** | ❌ |
 | 2020 | IMM | **Confinement sans papiers — abandonnés** | Cruauté |
 | 2020 | CUL | **Loi séparatisme — musulmans visés** | Stigmatisation |
-| 2020 | SANT | COVID confinement (17 mars-11 mai) | Perte éducative |
 | 2020 | SANT | Pénurie masques aucun stock | Négligence |
 | 2020 | ÉCO | PIB -8% chômage partiel 8,4 M | Crash |
 | 2020 | TER | Assassinat Samuel Paty (16 oct) | Choc |
@@ -4521,7 +4529,6 @@
 | 2023 | ÉDU | Réforme du lycée pro Blanquer | ❌ |
 | 2023 | ÉDU | Grève enseignants contre réforme | ⚠️ |
 | 2023 | ÉCO | BCE cesse rachats nets de dette | ❌ |
-| 2023 | SOC | 735 morts à la rue (collectif Les Morts de la Rue) | 💀 |
 | 2023 | ÉDU | CAPES 2023 : 4 000 postes non pourvus | ❌ |
 | 2023 | ÉDU | Taux de désistement du SNU en 2023 : 28% | ❌ |
 | 2023 | ÉCO | Coût réel SNU 2023 : 2 900 euros par jeune vs 2 300 annoncés | ❌ |
@@ -4865,7 +4872,6 @@
 | 2024 | MÉD | 60% Français adhèrent à au moins une théorie du complot (Arcom 2024) | ❌ |
 | 2024 | MÉD | Mediawan capte 864 M€ de contrats France Télévisions (2017-2024) | ❌ |
 | 2024 | SOC | Pinel prend fin 31 décembre (loi finances 2024, article 17) | ❌ |
-| 2024 | SOC | 82 000 logements sociaux financés (vs 124 000 2016) | ❌ |
 | 2024 | ÉDU | 25% élèves n'atteignent pas niveau attendu lecture entrée 6e | ❌ |
 | 2024 | ÉDU | 2 614 écoles hors contrat (130 000 élèves) | ❌ |
 | 2024 | ÉDU | 400 000 journées d'enseignement non remplacées | ❌ |
@@ -5303,7 +5309,6 @@
 | 2025 | SANT | Déserts médicaux : mesures nouvelles | ⚠ |
 | 2025 | SANT | Malgré CNIL, Conseil d'État et Cloud Act | ❌ |
 | 2025 | SANT | Plafond de l'intérim médical réévalué à 2 681 €/24h (loi Rist 2023) | ❌ |
-| 2025 | ÉDU | 20% enseignants collège/lycée contractuels (40% dans académies Créteil/Versailles/Guyane) | ❌ |
 | 2025 | ÉDU | 30% enseignants formés à l'EMC | ❌ |
 | 2025 | ÉDU | 40% personnels enseignants supérieur non titulaires | ❌ |
 | 2025 | ÉDU | 400 000 journées d'enseignement non remplacées/an | ❌ |
@@ -5561,7 +5566,6 @@
 | 2025 | ÉCO | Dette nette d'EDF : 65 Md€ (Cour des comptes) | ❌ |
 | 2025 | ÉCO | Nouveau nucléaire (6 EPR) : coût réévalué à 67 Md€ (EDF) | ❌ |
 | 2025 | ÉCO | CSPE 2026 : 13 Md€ de charges de service public de l'électricité (CRE) | ❌ |
-| 2025 | ÉDU | 20% enseignants collège/lycée contractuels (40% dans académies Créteil/Versailles/Guyane) | ❌ |
 | 2025 | ÉDU | Salaire enseignant débutant : 1 800€ net/mois (-15% moyenne OCDE) | ❌ |
 | 2025 | ÉDU | 40% personnels enseignants supérieur non titulaires | ❌ |
 | 2025 | MÉD | France 21e classement RSF (72,3 points) | ❌ |
@@ -5570,7 +5574,6 @@
 | 2025 | MÉD | European Media Freedom Act en vigueur août 2025 | ⚠ |
 | 2025 | ÉDU | 400 000 journées d'enseignement non remplacées/an | ❌ |
 | 2025 | ÉDU | 91% bacheliers reçus mais 1/4 sans niveau mathématiques attendu à l'université | ❌ |
-| 2025 | ÉDU | 20% enseignants collège/lycée contractuels (40% Créteil/Versailles/Guyane) | ❌ |
 | 2025 | ÉDU | Salaire enseignant débutant: 1 800€ net/mois (-15% moyenne OCDE) | ❌ |
 | 2025 | ÉDU | Industrie EdTech: 1,6 Md€ | ⚠ |
 | 2025 | ÉDU | 30% enseignants formés à l'EMC | ❌ |
