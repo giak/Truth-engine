@@ -234,6 +234,13 @@ REMONTEE_DES_FILS:
           evenement: "Le modele francais de regulation numerique est presente comme un 'modele' contre les 'fake news'"
           mecanisme_active: "M32"
           source: "Discours officiels ❧"
+      chaine_causale:
+        - "1660 (Colbert : autosuffisance comme dogme) -> 1792 (Republique : continuite de l'Etat fort) -> 1840 (Etat modernisateur) -> 1945 (Etat gaullien) -> 2024 : ARCOM, le 'modele francais' de regulation presente comme exception mondiale"
+      gaps_verifies:
+        - "Gap 1660->1792 : 132 ans — GAP. Racine ANCIENNE — saut inherent au fil H (Exceptionnalisme). Periode d'Ancien Regime puis Revolution."
+        - "Gap 1792->1840 : 48 ans — GAP. Renforcement manquant : 1815 (Restauration). A verifier dans le referentiel."
+        - "Gap 1840->1945 : 105 ans — GAP. Renforcement manquant : 1871 (IIIe Republique), 1914-1918 (Union sacree). A verifier."
+        - "Gap 1945->2024 : 79 ans — GAP. Renforcement manquant : 1958 (constitution Ve), 1981 (alternance, decentralisation). A verifier."
       manifestation_dans_evenement: "La France se presente comme le champion de la 'lutte contre la desinformation' et du 'modele europeen de regulation'. Le recit masque la realite : l'ARCOM est devenue un commissaire au partage du duopole Niel/Bollore (2026)."
       cross_reference:
         referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
