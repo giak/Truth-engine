@@ -129,7 +129,7 @@
 
 **Citation clé :** « Les non-vaccinés, j'ai très envie de les emmerder. » — Macron, 4 janv. 2022.
 
-**8 fils tous actifs. Sources :** 8 ✦ + 2 ⁅ + 21 ❧ (28 %). **NREF : A.**
+**8 fils tous actifs. Sources :** 8 ✦ + 2 ⁅ + 21 ❧ (26 %). **NREF : A.**
 
 ### Maastricht v2.4 (1992) — Degré 5/5
 
