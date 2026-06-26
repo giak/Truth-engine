@@ -10,22 +10,23 @@
 
 | Métrique | Valeur | Date |
 |----------|--------|------|
-| Enquêtes v2.4 produites | **15** (10 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante** + **PRED-3 Chlordécone** + **PRED-10 Polynésie** + **PRED-7 Vache folle**) | 2026-06-26 |
+| Enquêtes v2.4 produites | **16** (11 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante** + **PRED-3 Chlordécone** + **PRED-10 Polynésie** + **PRED-7 Vache folle**) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
 | Ultrathinking réalisés | 12 / 12 (100 %) | 2026-06-26 |
-| Second agents exécutés | **5 / 15 (33 %)** — PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7 confirmés** | 2026-06-26 |
+| Second agents exécutés | **5 / 16 (31 %)** — PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7 confirmés** | 2026-06-26 |
 | Niveau NREF max atteint | **A** (5 enquêtes NREF A : PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7**) | 2026-06-26 |
-| Sources vérifiées cumulées | **152 ✦ + 54 ⁅ + 323 ❧ = 529** | 2026-06-26 |
-| HEAD checks effectués | **113** (15 enquêtes) | 2026-06-26 |
+| Sources vérifiées cumulées | **159 ✦ + 54 ⁅ + 332 ❧ = 545** | 2026-06-26 |
+| HEAD checks effectués | **120** (16 enquêtes) | 2026-06-26 |
 | Blocages identifiés | 1 (ARCOM : 1 fil sans chaine causale) | — |
 | **Standardisation Pelote v2.4** | | |
-| Fils avec marquage `[RACINE_FONDATRICE/ANCIENNE]` | **62/62** (100 %) | 2026-06-26 |
-| Chaînes causales avec `gaps_verifies:` | **61/62** (98 %) | 2026-06-26 |
-| Fils avec `cross_reference:` référentiel | **62/62** (100 %) | 2026-06-26 |
+| Fils avec marquage `[RACINE_FONDATRICE/ANCIENNE]` | **67/67** (100 %) | 2026-06-26 |
+| Chaînes causales avec `gaps_verifies:` | **66/67** (99 %) | 2026-06-26 |
+| Fils avec `cross_reference:` référentiel | **68/68** (100 %) | 2026-06-26 |
 | Anomalies Pelote (ARCOM) | 1 fil sans chaine causale | — |
-| **Pattern invariant confirmé** | **M11+M28 invariant 15/15** ; **M05 dans 14/15** (Mazan : M05 absent) | 2026-06-26 |
-| **Généralisation trans-domaine** | **CONFIRMÉE** (PRED-7 : pattern M11+M09+M28+M05+M37 tient sur scandale agro-alimentaire) | 2026-06-26 |
-| **M39 (Shifting baseline)** | **CONFIRMÉ 2/2** (Chlordécone + **Polynésie nucléaire** — racisme institutionnel = mécanisme majeur) | 2026-06-26 |
+| **Pattern invariant confirmé** | **M11+M28 invariant 16/16** ; **M05 dans 15/16** (Mazan : M05 absent) | 2026-06-26 |
+| **Généralisation trans-domaine** | **CONFIRMÉE — 2e cas DNC** (PRED-7 ESB + DNC : pattern M11+M09+M28+M05+M37 tient sur deux scandales agro-alimentaires distincts) | 2026-06-26 |
+| **M39 (Shifting baseline)** | **CONFIRMÉ 2/2** (Chlordécone + **Polynésie nucléaire**) | 2026-06-26 |
+| **M44 (Externalisation État)** | **CONFIRMÉ** (DNC : conflit FNSEA/Avril = État externalise la gestion de crise à l'agro-industrie) | 2026-06-26 |
 | **Fil I** | **CONFIRMÉ** (Maastricht 1992 + **ARCOM : extension hypothèse vassalité juridique**) | 2026-06-26 |
 | **Fil L** | **CONFIRMÉ** (Fiscalité asymétrique — replication niches réussie) | 2026-06-26 |
 | **M43** | **CONFIRMÉ** (Domination monétaire, étendue à juridique par ARCOM) | 2026-06-26 |
@@ -53,6 +54,7 @@
 | **13** | **v2.4** | 2026-06-26 | SYSTEME_PRED3_Chlordecone | **PRED-3** Chlordécone (Antilles, 1972-2024) — **TEST DE PRÉDICTION n°3** : le pattern se reproduit-il avec dimension coloniale ? **Résultat : 12/12 confirmé. M39 (racisme institutionnel) nouveau mécanisme** | **A** 🆕 | B,C,G,H | M11, M28, M05, M39, M14, M23 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
 | **14** | **v2.4** | 2026-06-26 | SYSTEME_PRED10_Polynesie | **PRED-10** Essais nucléaires Polynésie (1966-1996) — **TEST DE PRÉDICTION n°10** : M39 (racisme institutionnel) testé sur scandale nucléaire colonial. Résultat : **12/12 confirmé. M39 = mécanisme majeur, pas secondaire** | **A** 🆕 | B,G,H,C,E | M11, M28, M05, M39, M09, M37 | ✅ 5 fils | ✅ 5/5 | ✅ 3 actions |
 | **15** | **v2.4** | 2026-06-26 | SYSTEME_PRED7_Vache_folle_ESB | **PRED-7** ESB / Vache folle (France, 1990-2006) — **TEST DE PRÉDICTION n°7** : généralisation trans-domaine du pattern M11+M09+M28+M05+M37 de l'État qui ment pour protéger une filière. **Résultat : 10/10 confirmé** | **A** 🆕 | B,H,C,E | M11, M09, M28, M05, M37 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
+| **16** | **v2.4** | 2026-06-26 | SYSTEME_2025_DNC_Dermatose_Nodulaire | **DNC** Dermatose Nodulaire Contagieuse (2025-2026) — abattage systematique vs vaccination. Blindes Centaure contre agriculteurs. Conflit FNSEA/Avril. **Resultat : pattern M11+M09+M28+M05+M37+M44 confirme — 2e generalisation trans-domaine** | **B** | B,H,C,E,G | M11, M09, M28, M05, M37, M44 | ✅ 5 fils | ✅ 5/5 | ✅ 3 actions |
 
 
 **Légende :** ✅ = fait | ⚠️ = anomalie | 🔲 = à faire
@@ -79,6 +81,7 @@
 | PRED-3 Chlordécone v2.4 | `02_enquetes/2026-06-26_pred3_chlordecone_INVESTIGATION.md` (PRÉDICTION v2.4) |
 | PRED-10 Polynésie v2.4 | `02_enquetes/2026-06-26_pred10_polynesie_INVESTIGATION.md` (PRÉDICTION v2.4) |
 | PRED-7 Vache folle v2.4 | `02_enquetes/2026-06-26_pred7_vache_folle_ESB_INVESTIGATION.md` (PRÉDICTION v2.4) |
+| DNC Dermatose Nodulaire v2.4 | `02_enquetes/2026-06-26_dermatose_nodulaire_contagieuse_INVESTIGATION.md` (ENQUÊTE v2.4) |
 
 **Archive :** Sang v2.1 → `02_enquetes/archive/2026-06-26_sang_contamine_NREF_INVESTIGATION.md`. Architecture fondatrice → `02_enquetes/archive/2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md`.
 
@@ -211,6 +214,14 @@
 
 **4 fils actifs :** B, H, C, E. **NREF : A** (second agent : ~95%). **Sources :** 4 ✦ + 4 ⁅ + 4 ❧ (33 %).
 
+### DNC Dermatose Nodulaire v2.4 (2025-2026) — Degré 5/5 [2e GÉNÉRALISATION TRANS-DOMAINE]
+
+**Thèse centrale :** La DNC n'est pas une crise sanitaire — c'est une crise de souveraineté agricole. L'abattage systématique est un choix politique qui sert la concentration industrielle au détriment des petits éleveurs. Même pattern que l'ESB : M11 (mentir) → M09 (filtrer) → M28 (criminaliser) → M37 (normaliser) → M05 (perfuser). Conflit FNSEA/Avril = M44 Externalisation.
+
+**Citation clé :** « Ce ne sont que des vaches. »
+
+**5 fils actifs :** B, H, C, E, G. **NREF : B** (44 % sources vérifiées, 7✦/0⁅/9❧). **M44 confirmé** (conflit FNSEA/Avril).
+
 ---
 
 ## CONSOLIDATION PERIODIQUE ANTICIPEE — 5 ENQUETES
@@ -248,7 +259,7 @@
 | **J — Déclassement systémique** | Induction | 1975 choc pétrolier — « puissance moyenne » | HYPOTHÈSE (risque redondance avec H) |
 | **K — Numérisation sous contrôle** | Induction | 1980 Minitel vs Internet | HYPOTHÈSE (très faible) |
 | **M43 Domination monétaire** | Virage rigueur | Union monétaire comme rapport de force | **CANDIDAT** |
-| **M44 Externalisation État** | COVID | McKinsey comme mécanisme de capture | **CANDIDAT** |
+| **M44 Externalisation État** | COVID + **DNC** | McKinsey (COVID) + FNSEA/Avril (DNC) comme mécanismes de capture | **CONFIRMÉ** (DNC 2025-2026) |
 | M45 Blanchiment culturel | Pétition 69 | Gallimard comme institution protectrice | HYPOTHÈSE |
 | M46 Complexe médico-industriel | Sang + COVID | Big Pharma + État = bloc opaque | HYPOTHÈSE |
 
@@ -272,16 +283,16 @@ Virage rigueur 1983
 
 | Fil | Nb enquêtes | Enquêtes |
 |-----|:-----------:|----------|
-| **B — Monopole d'Etat** | **15/15** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7** |
-| **C — Societe civile atrophiee** | **15/15** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7** |
-| **E — Presse sans contre-pouvoir** | **14/15** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-10, **PRED-7** |
-| D — Justice domestiquee | **11/15** | Sang, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2 |
-| H — Exceptionnalisme | **14/15** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7** |
-| A — Mandarinat | **5/14** | Sang, Pet, COVID, PRED-1, PRED-2 |
-| G — Laicite religion civile | **7/14** | Sang, Tchernobyl, Pet, COVID, Mazan, PRED-3, **PRED-10** |
-| I — Vassalite monetaire | **5/13** | Virage, Maastricht, COVID, Fiscalite, ARCOM (extension juridique) |
-| L — Fiscalite asymetrique | **2/11** | Fiscalite, Niches |
-| F — Ecole-moule | **3/11** | Sang, Pet, COVID |
+| **B — Monopole d'Etat** | **16/16** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-3, PRED-10, PRED-7, **DNC** |
+| **C — Societe civile atrophiee** | **16/16** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-3, PRED-10, PRED-7, **DNC** |
+| **E — Presse sans contre-pouvoir** | **15/16** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-10, PRED-7, **DNC** |
+| D — Justice domestiquee | **11/16** | Sang, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2 |
+| H — Exceptionnalisme | **15/16** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-3, PRED-10, PRED-7, **DNC** |
+| A — Mandarinat | **5/16** | Sang, Pet, COVID, PRED-1, PRED-2 |
+| G — Laicite religion civile | **8/16** | Sang, Tchernobyl, Pet, COVID, Mazan, PRED-3, PRED-10, **DNC** |
+| I — Vassalite monetaire | **5/16** | Virage, Maastricht, COVID, Fiscalite, ARCOM (extension juridique) |
+| L — Fiscalite asymetrique | **2/16** | Fiscalite, Niches |
+| F — Ecole-moule | **3/16** | Sang, Pet, COVID |
 
 ### Connexions transversales (graphe)
 Chaque enquête est connectée à ≥ 3 autres :
@@ -293,6 +304,9 @@ Chaque enquête est connectée à ≥ 3 autres :
 - Pétition 69 ↔ COVID : M22 (absorption des dissidents)
 - **Pétition 69 ↔ Mazan** : M37+M28+M11 (pattern violences sexuelles : normalisation → DARVO → kayfabe)
 - **Virage → Sang → COVID** : chaîne causale linéaire
+- **ESB (PRED-7) ↔ DNC** : M11+M09+M28+M05+M37 (généralisation trans-domaine confirmée par 2e cas agro-alimentaire)
+- **DNC ↔ Chlordécone (PRED-3)** : M44 (Externalisation État) — conflit intérêts agro-industrie vs santé animale/publique
+- **DNC ↔ Virage rigueur** : même logique d'austérité — la vaccination coûte 10-20 M€ (vs 1,2 Md€ de gestion de crise), l'État choisit la solution qui coûte le moins cher immédiatement
 
 ### Prochaines étapes de la consolidation
 
@@ -360,6 +374,11 @@ Chaque enquête est connectée à ≥ 3 autres :
 | P3 | Proposer M49 (Arcanum imperii) comme mécanisme | Ultrathinking PRED-10 |
 | P3 | Vérifier archives CEA/DIRCEN partiellement détruites | Lièvre PRED-10 |
 | P3 | Accidents du travail — masquage statistique | Données |
+| **P1** | Enquête réseau Bigard — conflit d'intérêts abattage DNC (43-50 % abattage bovin français) | Ultrathinking DNC |
+| **P1** | Enquête comparative France/Finlande — pourquoi la Finlande a réussi la vaccination DNC (2021) | Ultrathinking DNC |
+| P2 | Vérifier chaîne de commandement Centaure — qui a donné l'ordre du déploiement ? | Ultrathinking DNC |
+| P2 | HEAD-checker les 9 ❧ de DNC (Assemblée nationale, Anses, ministère, HATVP, Insee, MSA, Bigard) | Qualité NREF |
+| P2 | Exécuter second agent DNC — contre-expertise | NREF-A DNC |
 
 ---
 
