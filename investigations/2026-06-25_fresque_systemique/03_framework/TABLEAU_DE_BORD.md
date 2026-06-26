@@ -15,9 +15,9 @@
 | Ultrathinking réalisés | 12 / 12 (100 %) | 2026-06-26 |
 | Second agents exécutés | **5 / 15 (33 %)** — PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7 confirmés** | 2026-06-26 |
 | Niveau NREF max atteint | **A** (5 enquêtes NREF A : PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7**) | 2026-06-26 |
-| Sources vérifiées cumulées | 75 ✦ + 17 ⁅ + 72 ❧ = 164 | 2026-06-26 |
-| HEAD checks effectués | 73 (dont 8 HEAD PRED-10 : 4/8 OK) | 2026-06-26 |
-| Blocages identifiés | 3 (second agents non exécutés) | — |
+| Sources vérifiées cumulées | **152 ✦ + 54 ⁅ + 323 ❧ = 529** | 2026-06-26 |
+| HEAD checks effectués | **113** (15 enquêtes) | 2026-06-26 |
+| Blocages identifiés | 1 (ARCOM : 1 fil sans chaine causale) | — |
 | **Standardisation Pelote v2.4** | | |
 | Fils avec marquage `[RACINE_FONDATRICE/ANCIENNE]` | **62/62** (100 %) | 2026-06-26 |
 | Chaînes causales avec `gaps_verifies:` | **61/62** (98 %) | 2026-06-26 |
@@ -129,7 +129,87 @@
 
 **Citation clé :** « Les non-vaccinés, j'ai très envie de les emmerder. » — Macron, 4 janv. 2022.
 
-**8 fils tous actifs. Sources :** 7 ✦ + 0 ⁅ + 1 ❧ (88 %). **NREF : A.**
+**8 fils tous actifs. Sources :** 8 ✦ + 2 ⁅ + 21 ❧ (28 %). **NREF : A.**
+
+### Maastricht v2.4 (1992) — Degré 5/5
+
+**Thèse centrale :** Maastricht 1992 — validation du Fil I (Vassalité monétaire). Traité approuvé sans référendum, 5 fils actifs.
+
+**Citation clé :** « Maastricht a verrouillé l'austérité dans le marbre. »
+
+**5 fils actifs :** B, C, D, E, H + I candidat. **Sources :** 19 ✦ + 2 ⁅ + 21 ❧ (45 %). **NREF : B.**
+
+### Asymétrie fiscale v2.4 (1914-2026) — Degré 5/5
+
+**Thèse centrale :** Le travail est taxé, le capital protégé — asymétrie fiscale structurelle sur 110 ans.
+
+**Citation clé :** « Les niches fiscales sont l'invisible qui gouverne. »
+
+**6 fils actifs :** B, C, D, E, H, I. **Fil L candidat.** **Sources :** 16 ✦ + 2 ⁅ + 30 ❧ (33 %). **NREF : B.**
+
+### Mazan/Pelicot v2.4 (2024) — Degré 4/5 [CONTRE-EXEMPLE PARTIEL]
+
+**Thèse centrale :** Mazan est le test de falsification — la justice a-t-elle fonctionné ou est-ce l'exception qui confirme la règle ? Fil D (51 condamnations) et Fil E (couverture mondiale) sont des contre-exemples partiels. M05 absent (pas de perfusion publique).
+
+**Citation clé :** « 51 condamnations. Une exception ou un précédent ? »
+
+**6 fils actifs :** B, C, D, E, G, H. **Sources :** 0 ✦ + 4 ⁅ + 37 ❧ (0 %). **NREF : C.**
+
+### Niches fiscales v2.4 (1807-2026) — Degré 5/5 [RÉPLICATION Fil L]
+
+**Thèse centrale :** 470 niches fiscales = 90-100 Md€/an. L'instrument invisible de l'asymétrie travail/capital. Fil L confirmé comme verrou autonome.
+
+**Citation clé :** « Les niches fiscales sont le trou noir du budget de l'État. »
+
+**6 fils actifs :** B, C, D, E, H, L. **Sources :** 24 ✦ + 2 ⁅ + 37 ❧ (38 %). **NREF : C.**
+
+### ARCOM censure v2.4 (2019-2026) — Degré 4/5 [EXTENSION Fil I]
+
+**Thèse centrale :** De la HADOPI au DSA, la censure numérique institutionnalisée. Extension du Fil I (Vassalité) au juridique. Budget 51→500 M€.
+
+**Citation clé :** « La censure n'est plus interdire — c'est structurer ce qui peut être dit. »
+
+**6 fils actifs :** B, C, D, E, H, I. **⚠️ 5/6 Pelote (1 fil sans chaine).** **Sources :** 2 ✦ + 1 ⁅ + 70 ❧ (3 %). **NREF : C.**
+
+### PRED-1 Médiator v2.4 (1976-2024) — TEST DE PRÉDICTION n°1
+
+**Résultat : 7/8 + 1 partiel.** Le pattern sang contaminé se reproduit sur un scandale sanitaire — M11+M28+M05+M14+M02.
+
+**Citation clé :** « Le système a fonctionné : pour protéger Servier, pas les patients. »
+
+**6 fils actifs :** A, B, C, D, E, H. **NREF : A** (second agent : ~90%). **Sources :** 20 ✦ + 5 ⁅ + 5 ❧ (67 %).
+
+### PRED-2 Amiante v2.4 (1906-2024) — TEST DE PRÉDICTION n°2
+
+**Résultat : 11/11 confirmé.** Le pattern sur le plus long scandale sanitaire français (97 ans). Amplitude extrême : 70 000-100 000 morts projetés.
+
+**Citation clé :** « 91 ans entre la première alerte et l'interdiction — 3 générations sacrifiées. »
+
+**6 fils actifs :** A, B, C, D, E, H. **NREF : A** (second agent : ~95%). **Sources :** 19 ✦ + 3 ⁅ + 4 ❧ (73 %).
+
+### PRED-3 Chlordécone v2.4 (1972-2024) — TEST DE PRÉDICTION n°3
+
+**Résultat : 12/12 confirmé. M39 nouveau mécanisme.** Le pattern se reproduit avec dimension coloniale. Racisme institutionnel documenté.
+
+**Citation clé :** « Interdit en métropole, autorisé aux Antilles — le racisme comme politique sanitaire. »
+
+**4 fils actifs :** B, C, G, H. **NREF : A** (second agent : ~95%). **Sources :** 11 ✦ + 5 ⁅ + 7 ❧ (48 %).
+
+### PRED-10 Polynésie v2.4 (1966-2024) — TEST DE PRÉDICTION n°10
+
+**Résultat : 12/12 confirmé. M39 confirmé 2/2 sur scandale colonial.** Les essais nucléaires en Polynésie suivent le même pattern M11+M28+M05+M39+M09+M37 que le chlordécone.
+
+**Citation clé :** « Vu de Paris, ce n'était qu'un désert liquide. » — A. Vrignon
+
+**5 fils actifs :** B, G, H, C, E. **NREF : A** (second agent : ~95%). **Sources :** 6 ✦ + 4 ⁅ + 4 ❧ (43 %).
+
+### PRED-7 Vache folle ESB v2.4 (1990-2006) — TEST DE PRÉDICTION n°7
+
+**Résultat : 10/10 confirmé. Généralisation trans-domaine réussie.** Le pattern M11+M09+M28+M05+M37 tient sur l'agro-alimentaire. L'État protège non plus une entreprise mais une filière entière.
+
+**Citation clé :** « Le bœuf français est sain. » — Discours officiel 1996-2000, 950 cas ESB plus tard.
+
+**4 fils actifs :** B, H, C, E. **NREF : A** (second agent : ~95%). **Sources :** 4 ✦ + 4 ⁅ + 4 ❧ (33 %).
 
 ---
 
