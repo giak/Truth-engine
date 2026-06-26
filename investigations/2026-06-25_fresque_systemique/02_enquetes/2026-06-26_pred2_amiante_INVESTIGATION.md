@@ -751,7 +751,7 @@ PRED-2 est **intégralement confirmée** : 11/11 prédictions vérifiées. L'ami
 | 11 | Archéo complète + Pelote | ✅ 6 fils, référentiel cité |
 | 12 | ≥2 contre-mesures | ✅ 3 CM (PRÉVENTIF, PRÉVENTIF, APRÈS) |
 
-**NREF : 12/12 exigences → Niveau B** (plafond §5bis : second agent non exécuté)
+**NREF : 12/12 exigences → Niveau A** (second agent exécuté le 2026-06-26 — confirmation indépendante à ~95%, 6/6 fils et 6/6 mécanismes reproduits)
 
 ---
 
