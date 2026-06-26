@@ -10,20 +10,20 @@
 
 | Métrique | Valeur | Date |
 |----------|--------|------|
-| Enquêtes v2.4 produites | **10** (toutes standardisées Pelote) | 2026-06-26 |
+| Enquêtes v2.4 produites | **12** (10 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante**) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
 | Ultrathinking réalisés | 10 / 10 (100 %) | 2026-06-26 |
-| Second agents exécutés | 0 / 10 (0 %) | — |
-| Niveau NREF max atteint | **B** (7 A/B, 3 C — Mazan, Niches, ARCOM) | 2026-06-26 |
-| Sources vérifiées cumulées | 55 ✦ + 5 ⁅ + 57 ❧ = 117 | 2026-06-26 |
-| HEAD checks effectués | 39 | 2026-06-26 |
+| Second agents exécutés | 0 / 12 (0 %) | — |
+| Niveau NREF max atteint | **B** (9 A/B, 3 C — Mazan, Niches, ARCOM) | 2026-06-26 |
+| Sources vérifiées cumulées | 67 ✦ + 11 ⁅ + 67 ❧ = 145 | 2026-06-26 |
+| HEAD checks effectués | 57 (dont 10 HEAD PRED-2 : 5/10 OK) | 2026-06-26 |
 | Blocages identifiés | 3 (second agents non exécutés) | — |
 | **Standardisation Pelote v2.4** | | |
 | Fils avec marquage `[RACINE_FONDATRICE/ANCIENNE]` | **62/62** (100 %) | 2026-06-26 |
 | Chaînes causales avec `gaps_verifies:` | **61/62** (98 %) | 2026-06-26 |
 | Fils avec `cross_reference:` référentiel | **62/62** (100 %) | 2026-06-26 |
 | Anomalies Pelote (ARCOM) | 1 fil sans chaine causale | — |
-| **Pattern invariant confirmé** | **M11+M28 invariant 10/10** ; **M05 dans 9/10** (Mazan : M05 absent) | 2026-06-26 |
+| **Pattern invariant confirmé** | **M11+M28 invariant 12/12** ; **M05 dans 11/12** (Mazan : M05 absent) | 2026-06-26 |
 | **Fil I** | **CONFIRMÉ** (Maastricht 1992 + **ARCOM : extension hypothèse vassalité juridique**) | 2026-06-26 |
 | **Fil L** | **CONFIRMÉ** (Fiscalité asymétrique — replication niches réussie) | 2026-06-26 |
 | **M43** | **CONFIRMÉ** (Domination monétaire, étendue à juridique par ARCOM) | 2026-06-26 |
@@ -46,6 +46,9 @@
 | **8** | **v2.4** | 2026-06-26 | SYSTEME_2024_Mazan_Pelicot | Procès des viols de Mazan (Pelicot, 2024) — TEST DE RÉPLICATION : la justice a-t-elle fonctionné ou est-ce l'exception qui confirme la règle ? Contre-exemples partiels à Fil D (51 condamnations) et Fil E (couverture médiatique mondiale) | **C** | B,C,D,E,G,H | M37, M28, M11, M02, M22 | ✅ 6 fils + contre-exemples | ✅ 6/6 | ✅ 2 actions |
 | **9** | **v2.4** | 2026-06-26 | SYSTEME_1807-2026_Niches_fiscales | Niches fiscales (1807-2026) — RÉPLICATION Fil L : 470 niches fiscales, 90-100 Md€/an, qui bénéficie des dépenses fiscales ? L'instrument invisible de l'asymétrie travail/capital | **C** | B,C,D,E,H,L | M05, M11, M28, M37, M22 | ✅ 6 fils (dont L réplication) | ✅ 6/6 | ✅ 2 actions |
 | **10** | **v2.4** | 2026-06-26 | SYSTEME_2019-2026_ARCOM_Censure | ARCOM (2019-2026) — censure numérique institutionnalisée : de la HADOPI au complexe de censure européen (DSA). 6 fils actifs. Extension Fil I au juridique (HYPOTHÈSE). Budget 51→500 M€, Twitter Files, OONI | **C** | B,C,D,E,H,I | M11, M37, M28, M02, M22 | ✅ 6 fils (dont I extension) | ⚠️ 5/6 | ✅ 2 actions |
+| **11** | **v2.4** | 2026-06-26 | SYSTEME_PRED1_Mediator | **PRED-1** Médiator (Servier, 1976-2024) — **TEST DE PRÉDICTION** : le pattern sang contaminé se reproduit-il sur un autre scandale sanitaire ? Résultat : **7/8 confirmé, 1 partiel** | **B** | A,B,C,D,E,H | M11, M28, M05, M27, M14, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
+| **12** | **v2.4** | 2026-06-26 | SYSTEME_PRED2_Amiante | **PRED-2** Amiante (1906-2024) — **TEST DE PRÉDICTION n°2** : le pattern sang contaminé se reproduit-il sur le plus long scandale sanitaire français (97 ans) ? Résultat : **11/11 confirmé** | **B** | A,B,C,D,E,H | M11, M28, M05, M14, M37, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
+
 
 **Légende :** ✅ = fait | ⚠️ = anomalie | 🔲 = à faire
 **Pelote :** marquage `[RACINE_FONDATRICE/ANCIENNE]` + `gaps_verifies:` + `cross_reference:` conformes sur X/Y fils
@@ -66,6 +69,8 @@
 | Mazan/Pelicot v2.4 | `02_enquetes/2026-06-26_proces_mazan_pelicot_v2.3_INVESTIGATION.md` (Pelote v2.4) |
 | Niches fiscales v2.4 | `02_enquetes/2026-06-26_niches_fiscales_v2.3_INVESTIGATION.md` (Pelote v2.4) |
 | ARCOM censure v2.4 | `02_enquetes/2026-06-26_arcom_censure_numerique_v2.3_INVESTIGATION.md` (Pelote v2.4) |
+| PRED-1 Médiator v2.4 | `02_enquetes/2026-06-26_pred1_mediator_servier_INVESTIGATION.md` (PRÉDICTION v2.4) |
+| PRED-2 Amiante v2.4 | `02_enquetes/2026-06-26_pred2_amiante_INVESTIGATION.md` (PRÉDICTION v2.4) |
 
 **Archive :** Sang v2.1 → `02_enquetes/archive/2026-06-26_sang_contamine_NREF_INVESTIGATION.md`. Architecture fondatrice → `02_enquetes/archive/2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md`.
 
@@ -179,16 +184,16 @@ Virage rigueur 1983
 
 | Fil | Nb enquêtes | Enquêtes |
 |-----|:-----------:|----------|
-| **B — Monopole d'Etat** | **10/10** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, **ARCOM** |
-| **C — Societe civile atrophiee** | **10/10** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, **ARCOM** |
-| **E — Presse sans contre-pouvoir** | **10/10** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, **ARCOM** |
-| D — Justice domestiquee | **9/10** | Sang, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, **ARCOM** |
-| H — Exceptionnalisme | **9/10** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, **ARCOM** |
-| I — Vassalite monetaire | **5/10** | Virage, Maastricht, COVID, Fiscalite, **ARCOM (extension juridique)** |
-| G — Laicite religion civile | **5/10** | Sang, Tchernobyl, Pet, COVID, Mazan |
-| L — Fiscalite asymetrique | **2/10** | Fiscalite, Niches |
-| A — Mandarinat | **3/10** | Sang, Pet, COVID |
-| F — Ecole-moule | **3/10** | Sang, Pet, COVID |
+| **B — Monopole d'Etat** | **12/12** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, **PRED-2** |
+| **C — Societe civile atrophiee** | **12/12** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, **PRED-2** |
+| **E — Presse sans contre-pouvoir** | **12/12** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, **PRED-2** |
+| D — Justice domestiquee | **11/12** | Sang, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, **PRED-2** |
+| H — Exceptionnalisme | **11/12** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, **PRED-2** |
+| A — Mandarinat | **5/12** | Sang, Pet, COVID, PRED-1, **PRED-2** |
+| I — Vassalite monetaire | **5/11** | Virage, Maastricht, COVID, Fiscalite, ARCOM (extension juridique) |
+| G — Laicite religion civile | **5/11** | Sang, Tchernobyl, Pet, COVID, Mazan |
+| L — Fiscalite asymetrique | **2/11** | Fiscalite, Niches |
+| F — Ecole-moule | **3/11** | Sang, Pet, COVID |
 
 ### Connexions transversales (graphe)
 Chaque enquête est connectée à ≥ 3 autres :
@@ -231,6 +236,8 @@ Chaque enquête est connectée à ≥ 3 autres :
 | Mazan v2.4 | **Second agent** | NREF-B → A | 🔵 Moyenne |
 | Niches v2.4 | **Second agent** | NREF-B → A | 🔵 Moyenne |
 | ARCOM v2.4 | **Second agent** + chaine manquante | NREF-C → B | 🔵 Moyenne |
+| PRED-1 Médiator | — | NREF-B (plafond §5bis, second agent requis pour A) | ⚠️ Haute |
+| **PRED-2 Amiante** v2.4 | — | NREF-B (plafond §5bis, second agent requis pour A) | ⚠️ Haute |
 |
 
 ---
@@ -241,10 +248,10 @@ Chaque enquête est connectée à ≥ 3 autres :
 |----------|-------|--------|
 | **P1** | Exécuter seconds agents sur 10 enquêtes | Validation |
 | **P1** | Corriger ARCOM — 1 fil sans chaine_causale | Qualité |
-| **P1** | Médiator (Servier) — tester PRED-1 | Addendum sang |
+| **P1** | ~~Médiator (Servier) — tester PRED-1~~ ✅ **FAIT** (7/8 conf, NREF B) | Addendum sang |
 | **P1** | Enquête sur Fil I — Vassalité monétaire (Grèce 2015) | Consolidation |
 | P2 | Archives CNTS — destruction 1983-1985 | Addendum sang |
-| P2 | Amiante — tester PRED-2 | REPLICATION sang + Tchernobyl |
+| **P1** | ~~Amiante — tester PRED-2~~ ✅ **FAIT** (11/11 conf, NREF B) | REPLICATION sang + Tchernobyl |
 | P2 | Rôle du CNL — subventions controversées | Addendum Pétition 69 |
 | P2 | Impact procès Mazan sur classement sans suite 2025-2026 | Mazan (PRED-M1/M2) |
 | P2 | Enquête comparative France/Espagne — réforme consentement (loi Solo sí es sí) | Mazan |
