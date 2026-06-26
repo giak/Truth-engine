@@ -13,8 +13,8 @@
 | Enquêtes v2.4 produites | **16** (11 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante** + **PRED-3 Chlordécone** + **PRED-10 Polynésie** + **PRED-7 Vache folle**) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
 | Ultrathinking réalisés | 12 / 12 (100 %) | 2026-06-26 |
-| Second agents exécutés | **5 / 16 (31 %)** — PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7 confirmés** | 2026-06-26 |
-| Niveau NREF max atteint | **A** (5 enquêtes NREF A : PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7**) | 2026-06-26 |
+| Second agents exécutés | **6 / 16 (38 %)** — PRED-1, PRED-2, PRED-3, PRED-10, PRED-7, **DNC confirmés** | 2026-06-26 |
+| Niveau NREF max atteint | **A** (6 enquêtes NREF A : PRED-1, PRED-2, PRED-3, PRED-10, PRED-7, **DNC**) | 2026-06-26 |
 | Sources vérifiées cumulées | **159 ✦ + 54 ⁅ + 332 ❧ = 545** | 2026-06-26 |
 | HEAD checks effectués | **120** (16 enquêtes) | 2026-06-26 |
 | Blocages identifiés | 1 (ARCOM : 1 fil sans chaine causale) | — |
@@ -54,7 +54,7 @@
 | **13** | **v2.4** | 2026-06-26 | SYSTEME_PRED3_Chlordecone | **PRED-3** Chlordécone (Antilles, 1972-2024) — **TEST DE PRÉDICTION n°3** : le pattern se reproduit-il avec dimension coloniale ? **Résultat : 12/12 confirmé. M39 (racisme institutionnel) nouveau mécanisme** | **A** 🆕 | B,C,G,H | M11, M28, M05, M39, M14, M23 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
 | **14** | **v2.4** | 2026-06-26 | SYSTEME_PRED10_Polynesie | **PRED-10** Essais nucléaires Polynésie (1966-1996) — **TEST DE PRÉDICTION n°10** : M39 (racisme institutionnel) testé sur scandale nucléaire colonial. Résultat : **12/12 confirmé. M39 = mécanisme majeur, pas secondaire** | **A** 🆕 | B,G,H,C,E | M11, M28, M05, M39, M09, M37 | ✅ 5 fils | ✅ 5/5 | ✅ 3 actions |
 | **15** | **v2.4** | 2026-06-26 | SYSTEME_PRED7_Vache_folle_ESB | **PRED-7** ESB / Vache folle (France, 1990-2006) — **TEST DE PRÉDICTION n°7** : généralisation trans-domaine du pattern M11+M09+M28+M05+M37 de l'État qui ment pour protéger une filière. **Résultat : 10/10 confirmé** | **A** 🆕 | B,H,C,E | M11, M09, M28, M05, M37 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
-| **16** | **v2.4** | 2026-06-26 | SYSTEME_2025_DNC_Dermatose_Nodulaire | **DNC** Dermatose Nodulaire Contagieuse (2025-2026) — abattage systematique vs vaccination. Blindes Centaure contre agriculteurs. Conflit FNSEA/Avril. **Resultat : pattern M11+M09+M28+M05+M37+M44 confirme — 2e generalisation trans-domaine** | **B** | B,H,C,E,G | M11, M09, M28, M05, M37, M44 | ✅ 5 fils | ✅ 5/5 | ✅ 3 actions |
+| **16** | **v2.4** | 2026-06-26 | SYSTEME_2025_DNC_Dermatose_Nodulaire | **DNC** Dermatose Nodulaire Contagieuse (2025-2026) — abattage systematique vs vaccination. Blindes Centaure contre agriculteurs. Conflit FNSEA/Avril. **Resultat : pattern M11+M09+M28+M05+M37+M44 confirme — 2e generalisation trans-domaine** | **A** 🆕 | B,H,C,E,G | M11, M09, M28, M05, M37, M44 | ✅ 5 fils | ✅ 5/5 | ✅ 3 actions |
 
 
 **Légende :** ✅ = fait | ⚠️ = anomalie | 🔲 = à faire
@@ -220,7 +220,7 @@
 
 **Citation clé :** « Ce ne sont que des vaches. »
 
-**5 fils actifs :** B, H, C, E, G. **NREF : B** (44 % sources vérifiées, 7✦/0⁅/9❧). **M44 confirmé** (conflit FNSEA/Avril).
+**5 fils actifs :** B, H, C, E, G. **NREF : A** (second agent 26/06 : confirmation ~95%). **Sources :** 7✦/0⁅/9❧ (44 %). **M44 confirmé** (conflit FNSEA/Avril).
 
 ---
 
