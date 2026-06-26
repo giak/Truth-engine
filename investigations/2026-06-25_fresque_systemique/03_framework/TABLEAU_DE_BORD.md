@@ -13,8 +13,8 @@
 | Enquêtes v2.4 produites | **14** (10 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante** + **PRED-3 Chlordécone** + **PRED-10 Polynésie**) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
 | Ultrathinking réalisés | 11 / 11 (100 %) | 2026-06-26 |
-| Second agents exécutés | **3 / 14 (21 %)** — PRED-1, PRED-2, PRED-3 confirmés | 2026-06-26 |
-| Niveau NREF max atteint | **A** (PRED-1 passée A après second agent) | 2026-06-26 |
+| Second agents exécutés | **4 / 14 (29 %)** — PRED-1, PRED-2, PRED-3, **PRED-10 confirmés** | 2026-06-26 |
+| Niveau NREF max atteint | **A** (4 enquêtes NREF A : PRED-1, PRED-2, PRED-3, **PRED-10**) | 2026-06-26 |
 | Sources vérifiées cumulées | 75 ✦ + 17 ⁅ + 72 ❧ = 164 | 2026-06-26 |
 | HEAD checks effectués | 73 (dont 8 HEAD PRED-10 : 4/8 OK) | 2026-06-26 |
 | Blocages identifiés | 3 (second agents non exécutés) | — |
@@ -50,7 +50,7 @@
 | **11** | **v2.4** | 2026-06-26 | SYSTEME_PRED1_Mediator | **PRED-1** Médiator (Servier, 1976-2024) — **TEST DE PRÉDICTION** : le pattern sang contaminé se reproduit-il sur un autre scandale sanitaire ? Résultat : **7/8 confirmé, 1 partiel** | **A** 🆕 | A,B,C,D,E,H | M11, M28, M05, M27, M14, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
 | **12** | **v2.4** | 2026-06-26 | SYSTEME_PRED2_Amiante | **PRED-2** Amiante (1906-2024) — **TEST DE PRÉDICTION n°2** : le pattern sang contaminé se reproduit-il sur le plus long scandale sanitaire français (97 ans) ? Résultat : **11/11 confirmé** | **A** 🆕 | A,B,C,D,E,H | M11, M28, M05, M14, M37, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
 | **13** | **v2.4** | 2026-06-26 | SYSTEME_PRED3_Chlordecone | **PRED-3** Chlordécone (Antilles, 1972-2024) — **TEST DE PRÉDICTION n°3** : le pattern se reproduit-il avec dimension coloniale ? **Résultat : 12/12 confirmé. M39 (racisme institutionnel) nouveau mécanisme** | **A** 🆕 | B,C,G,H | M11, M28, M05, M39, M14, M23 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
-| **14** | **v2.4** | 2026-06-26 | SYSTEME_PRED10_Polynesie | **PRED-10** Essais nucléaires Polynésie (1966-1996) — **TEST DE PRÉDICTION n°10** : M39 (racisme institutionnel) testé sur scandale nucléaire colonial. Résultat : **12/12 confirmé. M39 = mécanisme majeur, pas secondaire** | **B** 🆕 | B,G,H,C,E | M11, M28, M05, M39, M09, M37 | ✅ 5 fils | ✅ 5/5 | ✅ 3 actions |
+| **14** | **v2.4** | 2026-06-26 | SYSTEME_PRED10_Polynesie | **PRED-10** Essais nucléaires Polynésie (1966-1996) — **TEST DE PRÉDICTION n°10** : M39 (racisme institutionnel) testé sur scandale nucléaire colonial. Résultat : **12/12 confirmé. M39 = mécanisme majeur, pas secondaire** | **A** 🆕 | B,G,H,C,E | M11, M28, M05, M39, M09, M37 | ✅ 5 fils | ✅ 5/5 | ✅ 3 actions |
 
 
 **Légende :** ✅ = fait | ⚠️ = anomalie | 🔲 = à faire
@@ -244,7 +244,7 @@ Chaque enquête est connectée à ≥ 3 autres :
 | PRED-1 Médiator | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~90%) | — |
 | PRED-2 Amiante v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
 | PRED-3 Chlordécone v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
-| PRED-10 Polynésie v2.4 | **Second agent** | NREF-B → A | 🔵 Moyenne |
+| PRED-10 Polynésie v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
 
 ---
 
@@ -267,7 +267,7 @@ Chaque enquête est connectée à ≥ 3 autres :
 | P3 | Class action en France — analyse CC 2014/2016 | Addendum sang |
 | P3 | Levothyrox — tester PRED-4 | REPLICATION sang |
 | **P1** | ~~Polynésie — tester PRED-10~~ ✅ **FAIT** (12/12 conf, NREF B) | REPLICATION M39 |
-| P2 | Exécuter second agent PRED-10 Polynésie | NREF-A |
+| P2 | ~~Exécuter second agent PRED-10 Polynésie~~ ✅ **FAIT** | NREF-A ✅ |
 | P2 | Synthèse M39 : Chlordécone + Polynésie + pesticides = rapport colonial | Consolidation |
 | P3 | Proposer M49 (Arcanum imperii) comme mécanisme | Ultrathinking PRED-10 |
 | P3 | Vérifier archives CEA/DIRCEN partiellement détruites | Lièvre PRED-10 |

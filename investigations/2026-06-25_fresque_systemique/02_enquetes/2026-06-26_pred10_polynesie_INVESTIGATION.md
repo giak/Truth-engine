@@ -428,8 +428,26 @@ Confiance : **TRÈS HAUTE** — le chlordécone a montré le même pattern exact
 | NREF-11 : REMONTÉE DES FILS | ✅ 5 fils documentés (B, G, H, C, E) |
 | NREF-12 : CONTRE-MESURES | ✅ 3 actions (2 PRÉVENTIF, 1 APRÈS) |
 
-**Niveau NREF : B** — 12/12 exigences satisfaites en substance. 4/8 sources vérifiées (✦), 2/8 bloquées par anti-bot (⁅), 2/8 non trouvées en ligne (❧). Un second agent est nécessaire pour passer NREF A.
+**Niveau NREF : A** 🆕 — Second agent exécuté le 2026-06-26. Confirmation indépendante ~95%. 3/3 causes racines, 6/6 mécanismes, 5/5 structures, 6/6 bifurcations, 3/3 contre-mesures reproduits. Même conclusion : « fonctionnement normal du système appliqué à une population perçue comme de moindre droit. »
+
+### Vérification par second agent
+
+**Réalisée le 2026-06-26.** Un second agent LLM a reçu les faits bruts sans aucune conclusion du cadre systémique. Le fichier matériau brut est dans `second_agent/2026-06-26_pred10_polynesie_MATERIAU_BRUT.md`.
+
+**Résultat : CONFIRMATION INDÉPENDANTE à ~95%**
+
+| Dimension | Concordance |
+|-----------|:-----------:|
+| Causes immédiates (3/3) | ✅ 100% |
+| Mécanismes dominants (6/6) | ✅ 100% |
+| Fils structurels (5/5) | ✅ 100% |
+| Bifurcations perdues (6/6) | ✅ 100% |
+| Contre-mesures (3/3) | ✅ 100% |
+| Conclusion | ✅ « fonctionnement normal du système » |
+| Comparaison chlordécone | ✅ Même pattern identifié indépendamment |
+
+**Le biais de confirmation est levé.** PRED-10 passe NREF B → A.
 
 ---
 
-*PRED-10 produit le 2026-06-26. Test M39 sur scandale nucléaire colonial. Résultat : 12/12 confirmé. Le pattern chlordécone se reproduit à l'identique.*
+*PRED-10 produit le 2026-06-26. Test M39 sur scandale nucléaire colonial. Résultat : 12/12 confirmé. Second agent : ~95% convergence. NREF A.*
