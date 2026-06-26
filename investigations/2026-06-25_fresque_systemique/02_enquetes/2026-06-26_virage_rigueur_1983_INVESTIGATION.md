@@ -505,7 +505,7 @@ LIENS:
 | NREF-11 : REMONTEE_DES_FILS (5 fils) [NOUVEAU v2.2] | \u2705 5 fils (B, C, D, E, H). Actes naissance + 2-3 renforcements + chaines + manifestations. Sources : 0 \u2726 / 1 \u2045 / 4+ \u2767 |
 | NREF-12 : CONTRE_MESURES (2 actions) [NOUVEAU v2.3] | \u2705 1 PREVENTIF (CEES 1981-1982) + 1 APRES (referendum 1984-1986). Acteurs, fenetres, faisabilite, precedents. |
 
-**Niveau NREF : B** (NREF-11 partiel : sources historiques \u2767 majoritaires).
+**Niveau NREF : B+** (NREF-11 partiel : sources historiques ❧ majoritaires. Confirmation par second agent ~85%.) \u2767 majoritaires).
 
 ---
 
@@ -578,6 +578,6 @@ HYPOTHESES_SYSTEMIQUES:
 
 **Évaluation globale :** ~90% de concordance. Divergence : le second agent juge la contrainte allemande plus déterminante que l'enquête originale (qui met l'accent sur le cercle de 5).
 
-**NREF mis à jour : B → A** (second agent confirmé).
+**NREF : B+** (second agent confirmé ~85%, sources ❧ historiques structurelles maintenues).
 
 ```

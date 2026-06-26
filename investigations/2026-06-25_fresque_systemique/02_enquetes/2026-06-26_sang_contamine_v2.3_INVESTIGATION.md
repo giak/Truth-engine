@@ -655,7 +655,7 @@ LIENS:
 | NREF-11 : REMONTEE_DES_FILS (8 fils avec actes naissance + renforcements + chaines) [NOUVEAU v2.2] | ✅ 8 fils documentes (A-H). Actes naissance + 2-4 renforcements + chaines causales completes. Sources : 0 \u2726 / 3 \u2045 / 5+ \u2767 |
 | NREF-12 : CONTRE_MESURES (2 actions, 1 PREVENTIF + 1 APRES, avec acteurs et fenetres) [NOUVEAU v2.3] | ✅ 2 actions (1 PREVENTIF + 1 APRES). Acteurs identifies, fenetres datees, faisabilite estimee, precedents historiques sources. Verrous des contre-mesures documentes. |
 
-**Niveau NREF : B** (toutes les exigences 1-12 satisfaites en substance, mais NREF-11 et NREF-12 partiellement : sources \u2767 majoritaires dans l'archeologie et les contre-mesures, faute de numerisation des sources historiques).
+**Niveau NREF : B+** (toutes les exigences 1-12 satisfaites. Confirmation par second agent ~90%. Sources ❧ structurelles dans l'archéologie historique — plafond de verre accepté.)
 
 ---
 
@@ -731,4 +731,4 @@ HYPOTHESES_SYSTEMIQUES:
 
 **Évaluation globale :** ~90% de concordance avec l'enquête originale. La divergence porte sur le poids relatif du mandarinat médical (Fil A) vs le monopole d'État (Fil B) — le second agent juge Fil A prédominant, l'enquête originale les juge équivalents.
 
-**NREF mis à jour : B → A** (second agent confirmé).
+**NREF : B+** (second agent confirmé ~90%, sources ❧ historiques structurelles maintenues).

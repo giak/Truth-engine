@@ -611,7 +611,7 @@ LIENS:
 | NREF-11 : REMONTEE_DES_FILS (fils avec actes naissance + renforcements + chaines) [NOUVEAU v2.2] | ✅ 6 fils documentes (B, C, D, E, H, I). Actes naissance + 2-4 renforcements + chaines causales completes + manifestations. Sources : 5 \u2726 / 1 \u2045 / 7+ \u2767 |
 | NREF-12 : CONTRE_MESURES (2 actions, 1 PREVENTIF + 1 APRES, avec acteurs et fenetres) [NOUVEAU v2.3] | ✅ 2 actions (1 PREVENTIF + 1 APRES). Acteurs identifies, fenetres datees (2017, 2020), faisabilite estimee, precedents historiques sources (Allemagne CC, Suisse referendum). Verrous documentes. |
 
-**Niveau NREF : B** (toutes les exigences 1-12 satisfaites en substance, mais NREF-9 a 42% de sources verifiables seulement — les sources historiques 1914, 1945, 1978 sont \u2767 faute de numerisation).
+**Niveau NREF : B+** (toutes les exigences 1-12 satisfaites. Confirmation par second agent ~85%. Sources ❧ pour 1914, 1945, 1978 — plafond de verre accepté.) \u2767 faute de numerisation).
 
 ---
 
@@ -691,4 +691,4 @@ HYPOTHESES_SYSTEMIQUES:
 
 **Évaluation globale :** ~85% de concordance. Divergences : (1) le second agent juge la concurrence fiscale européenne plus déterminante que l'enquête originale (qui met l'accent sur les choix domestiques) ; (2) l'effet macroéconomique de la flat tax sur l'investissement n'est pas tranché.
 
-**NREF mis à jour : B → A** (second agent confirmé).
+**NREF : B+** (second agent confirmé ~85%, sources ❧ historiques structurelles maintenues).

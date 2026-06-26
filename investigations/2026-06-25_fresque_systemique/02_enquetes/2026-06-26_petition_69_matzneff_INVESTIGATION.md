@@ -597,7 +597,7 @@ LIENS:
 | NREF-11 : REMONTEE_DES_FILS (6 fils avec actes naissance + renforcements + chaines) [NOUVEAU v2.2] | \u2705 6 fils documentes (B, C, D, E, F, G). Actes naissance + 2-3 renforcements + chaines causales completes. Sources : 0 \u2726 / 1 \u2045 / 5+ \u2767 |
 | NREF-12 : CONTRE_MESURES (2 actions, 1 PREVENTIF + 1 APRES, avec acteurs et fenetres) [NOUVEAU v2.3] | \u2705 2 actions (1 PREVENTIF + 1 APRES). Acteurs identifies, fenetres datees, faisabilite estimee, precedents historiques sources. |
 
-**Niveau NREF : B** (NREF-11 partiel : sources historiques \u2767 majoritaires).
+**Niveau NREF : B+** (NREF-11 partiel : sources historiques ❧ majoritaires. Confirmation par second agent ~90%.) \u2767 majoritaires).
 
 ---
 
@@ -684,6 +684,6 @@ HYPOTHESES_SYSTEMIQUES:
 
 **Évaluation globale :** ~95% de concordance. Convergence quasi-totale. Divergence : le second agent juge le parallèle CIASE plus fort que l'enquête originale (structure identique : autorité morale → secret institutionnel → impunité systémique).
 
-**NREF mis à jour : B → A** (second agent confirmé).
+**NREF : B+** (second agent confirmé ~90%, sources ❧ historiques structurelles maintenues).
 
 ```

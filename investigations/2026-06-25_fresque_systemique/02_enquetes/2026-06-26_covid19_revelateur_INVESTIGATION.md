@@ -605,7 +605,7 @@ LIENS:
 | NREF-11 : REMONTEE_DES_FILS (8 fils) [NOUVEAU v2.2] | \u2705 8 fils (A-H). Actes naissance + 2-3 renforcements + chaines causales + manifestations COVID. Sources : 0 \u2726 / 1 \u2045 / 7+ \u2767 |
 | NREF-12 : CONTRE_MESURES (2 actions) [NOUVEAU v2.3] | \u2705 1 PREVENTIF (stock masques 2017-2018) + 1 APRES (Conseil scientifique pluraliste 2020). Acteurs, fenetres, faisabilite, precedents. |
 
-**Niveau NREF : B** (NREF-11 partiel : sources historiques \u2767 majoritaires).
+**Niveau NREF : B+** (NREF-11 partiel : sources historiques ❧ majoritaires. Confirmation par second agent ~90%.) \u2767 majoritaires).
 
 ---
 
@@ -683,6 +683,6 @@ HYPOTHESES_SYSTEMIQUES:
 
 **Évaluation globale :** ~90% de concordance. Divergence : le second agent juge la gestion COVID comme « révélateur » (ce que l'État est déjà), l'enquête originale comme « réplicateur » (ce que l'État reproduit). Les deux lectures sont compatibles.
 
-**NREF mis à jour : B → A** (second agent confirmé).
+**NREF : B+** (second agent confirmé ~90%, sources ❧ historiques structurelles maintenues).
 
 ```

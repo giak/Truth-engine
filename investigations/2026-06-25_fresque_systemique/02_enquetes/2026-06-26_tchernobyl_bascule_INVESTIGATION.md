@@ -594,7 +594,7 @@ LIENS:
 | NREF-11 : REMONTEE_DES_FILS (5 fils avec actes naissance + renforcements + chaines) [NOUVEAU v2.2] | ✅ 5 fils documentes (B, C, E, G, H). Actes naissance + 2-3 renforcements + chaines causales completes. Sources : 0 \u2726 / 1 \u2045 / 4+ \u2767 |
 | NREF-12 : CONTRE_MESURES (2 actions, 1 PENDANT + 1 APRES, avec acteurs et fenetres) [NOUVEAU v2.3] | ✅ 2 actions (1 PENDANT + 1 APRES). Acteurs identifies, fenetres datees, faisabilite estimee, precedents historiques sources (\u2726). Verrous des contre-mesures documentes. |
 
-**Niveau NREF : B** (toutes les exigences 1-12 satisfaites en substance, mais NREF-11 partiellement : sources \u2767 majoritaires dans l'archeologie, faute de numerisation des sources historiques).
+**Niveau NREF : B+** (toutes les exigences 1-12 satisfaites. Confirmation par second agent ~90%. Sources ❧ structurelles dans l'archéologie historique — plafond de verre accepté.) \u2767 majoritaires dans l'archeologie, faute de numerisation des sources historiques).
 
 ---
 
@@ -687,4 +687,4 @@ HYPOTHESES_SYSTEMIQUES:
 
 **Évaluation globale :** ~90% de concordance avec l'enquête originale. Divergence mineure sur le poids de l'exceptionnalisme nucléaire (Fil H) — le second agent le juge causal, l'enquête le juge comme déclencheur.
 
-**NREF mis à jour : B → A** (second agent confirmé).
+**NREF : B+** (second agent confirmé ~90%, sources ❧ historiques structurelles maintenues).

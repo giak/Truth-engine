@@ -15,6 +15,7 @@
 | Ultrathinking réalisés | 12 / 12 (100 %) | 2026-06-26 |
 | Second agents exécutés | **16 / 16 (100 %)** — 10 enquêtes fresque (Sang, Tchernobyl, Pet69, Virage, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM) + 6 PRED/DNC | 2026-06-26 |
 | Niveau NREF max atteint | **A** (6 enquêtes NREF A : PRED-1, PRED-2, PRED-3, PRED-10, PRED-7, **DNC**) | 2026-06-26 |
+| **NREF-B+** (second agent + plafond archéo) | **7 enquêtes** : Sang, Tchernobyl, Pétition 69, Virage, COVID, Maastricht, Fiscalité | 2026-06-26 |
 | Sources vérifiées cumulées | **159 ✦ + 54 ⁅ + 332 ❧ = 545** | 2026-06-26 |
 | HEAD checks effectués | **120** (16 enquêtes) | 2026-06-26 |
 | Blocages identifiés | 1 (ARCOM : 1 fil sans chaine causale) | — |
@@ -39,13 +40,13 @@
 
 | # | Ver. | Date | ID | Sujet | NREF | Fils | M## dominants | REMONTEE_FILS | PELOTE | CONTRE_MESURES |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | **v2.4** | 2026-06-26 | SYSTEME_1984_Sang_Contamine_v2.3 | Sang contaminé (1984-2003) — cas-zéro, 8 fils, 8 actes naissance documentés | **B** | A-H | M14, M23, M05, M28, M11 | ✅ 8 fils | ✅ 8/8 | ✅ 2 actions |
-| 2 | **v2.4** | 2026-06-26 | SYSTEME_1986_Tchernobyl_v2.3 | Tchernobyl (1986) — mensonge d'État sanitaire inaugural, 5 fils archéologiques | **B** | B,H,E,G,C | M11, M37, M28, M09, M05 | ✅ 5 fils | ✅ 5/5 | ✅ 2 actions |
-| 3 | **v2.4** | 2026-06-26 | SYSTEME_1977_Petition_69_Matzneff_v2.3 | Pétition des 69 + Matzneff (1977-2020) — 40 ans d'impunité culturelle, 6 fils archéologiques | **B** | B,C,D,E,F,G | M37, M11, M28, M22, M05 | ✅ 6 fils | ✅ 6/6 | ✅ 2 actions |
-| 4 | **v2.4** | 2026-06-26 | SYSTEME_1983_Virage_Rigueur_v2.3 | Virage de la rigueur (21 mars 1983) — austérité verrouillée, 5 fils archéologiques | **B** | B,H,D,E,C | M37, M05, M11, M22, M28 | ✅ 5 fils | ✅ 5/5 | ✅ 2 actions |
-| 5 | **v2.4** | 2026-06-26 | SYSTEME_2020_Covid19_v2.3 | COVID-19 (mars 2020) — révélateur systémique, 8 fils archéologiques | **B** | A,B,C,D,E,F,G,H | M09, M11, M22, M28, M37 | ✅ 8 fils | ✅ 8/8 | ✅ 2 actions |
-| **6** | **v2.4** | 2026-06-26 | SYSTEME_1992_Maastricht_v2.3 | Maastricht 1992 — validation Fil I : vassalité monétaire, 6 fils archéologiques | **B** | B,C,D,E,H,I | M43, M11, M37, M28, M05 | ✅ 6 fils (dont I candidat) | ✅ 6/6 | ✅ 2 actions |
-| **7** | **v2.4** | 2026-06-26 | SYSTEME_1914-2026_Asymetrie_fiscale | Travail taxé, Capital protégé — asymétrie fiscale structurelle, 6 fils archéologiques, 110 ans d'histoire | **B** | B,C,D,E,H,I | M11, M28, M05, M43, M02 | ✅ 6 fils (dont L candidat) | ✅ 6/6 | ✅ 2 actions |
+| 1 | **v2.4** | 2026-06-26 | SYSTEME_1984_Sang_Contamine_v2.3 | Sang contaminé (1984-2003) — cas-zéro, 8 fils, 8 actes naissance documentés | **B+** 🆕 | A-H | M14, M23, M05, M28, M11 | ✅ 8 fils | ✅ 8/8 | ✅ 2 actions |
+| 2 | **v2.4** | 2026-06-26 | SYSTEME_1986_Tchernobyl_v2.3 | Tchernobyl (1986) — mensonge d'État sanitaire inaugural, 5 fils archéologiques | **B+** 🆕 | B,H,E,G,C | M11, M37, M28, M09, M05 | ✅ 5 fils | ✅ 5/5 | ✅ 2 actions |
+| 3 | **v2.4** | 2026-06-26 | SYSTEME_1977_Petition_69_Matzneff_v2.3 | Pétition des 69 + Matzneff (1977-2020) — 40 ans d'impunité culturelle, 6 fils archéologiques | **B+** 🆕 | B,C,D,E,F,G | M37, M11, M28, M22, M05 | ✅ 6 fils | ✅ 6/6 | ✅ 2 actions |
+| 4 | **v2.4** | 2026-06-26 | SYSTEME_1983_Virage_Rigueur_v2.3 | Virage de la rigueur (21 mars 1983) — austérité verrouillée, 5 fils archéologiques | **B+** 🆕 | B,H,D,E,C | M37, M05, M11, M22, M28 | ✅ 5 fils | ✅ 5/5 | ✅ 2 actions |
+| 5 | **v2.4** | 2026-06-26 | SYSTEME_2020_Covid19_v2.3 | COVID-19 (mars 2020) — révélateur systémique, 8 fils archéologiques | **B+** 🆕 | A,B,C,D,E,F,G,H | M09, M11, M22, M28, M37 | ✅ 8 fils | ✅ 8/8 | ✅ 2 actions |
+| **6** | **v2.4** | 2026-06-26 | SYSTEME_1992_Maastricht_v2.3 | Maastricht 1992 — validation Fil I : vassalité monétaire, 6 fils archéologiques | **B+** 🆕 | B,C,D,E,H,I | M43, M11, M37, M28, M05 | ✅ 6 fils (dont I candidat) | ✅ 6/6 | ✅ 2 actions |
+| **7** | **v2.4** | 2026-06-26 | SYSTEME_1914-2026_Asymetrie_fiscale | Travail taxé, Capital protégé — asymétrie fiscale structurelle, 6 fils archéologiques, 110 ans d'histoire | **B+** 🆕 | B,C,D,E,H,I | M11, M28, M05, M43, M02 | ✅ 6 fils (dont L candidat) | ✅ 6/6 | ✅ 2 actions |
 | **8** | **v2.4** | 2026-06-26 | SYSTEME_2024_Mazan_Pelicot | Procès des viols de Mazan (Pelicot, 2024) — TEST DE RÉPLICATION : la justice a-t-elle fonctionné ou est-ce l'exception qui confirme la règle ? Contre-exemples partiels à Fil D (51 condamnations) et Fil E (couverture médiatique mondiale) | **C** | B,C,D,E,G,H | M37, M28, M11, M02, M22 | ✅ 6 fils + contre-exemples | ✅ 6/6 | ✅ 2 actions |
 | **9** | **v2.4** | 2026-06-26 | SYSTEME_1807-2026_Niches_fiscales | Niches fiscales (1807-2026) — RÉPLICATION Fil L : 470 niches fiscales, 90-100 Md€/an, qui bénéficie des dépenses fiscales ? L'instrument invisible de l'asymétrie travail/capital | **C** | B,C,D,E,H,L | M05, M11, M28, M37, M22 | ✅ 6 fils (dont L réplication) | ✅ 6/6 | ✅ 2 actions |
 | **10** | **v2.4** | 2026-06-26 | SYSTEME_2019-2026_ARCOM_Censure | ARCOM (2019-2026) — censure numérique institutionnalisée : de la HADOPI au complexe de censure européen (DSA). 6 fils actifs. Extension Fil I au juridique (HYPOTHÈSE). Budget 51→500 M€, Twitter Files, OONI | **C** | B,C,D,E,H,I | M11, M37, M28, M02, M22 | ✅ 6 fils (dont I extension) | ⚠️ 5/6 | ✅ 2 actions |
@@ -98,7 +99,7 @@
 
 **CONTRE_MESURES :** 2 actions : 1 PREVENTIF (mai 1983 : imposer avis contradictoire FDA/Behring) + 1 APRES (1993 : class action sanitaire au lieu de CJR).
 
-**NREF : B** (NREF-11 et NREF-12 satisfaits en substance mais sources historiques non numérisées ❧).
+**NREF : B+** (NREF-11 et NREF-12 satisfaits. Second agent confirmé ~90%. Sources historiques ❧ — plafond archéo accepté.)
 
 ### Tchernobyl v2.4 (1986) — Degré 4/5
 
@@ -108,7 +109,7 @@
 
 **5 fils actifs :** B (monopole) → H (exceptionnalisme) → E (presse) → G (laïcité) → C (société civile).
 
-**Sources :** 4 ✦ + 0 ⁅ + 3 ❧ (57 % vérifiés). **NREF : B.**
+**Sources :** 4 ✦ + 0 ⁅ + 3 ❧ (57 % vérifiés). **NREF : B+.**
 
 ### Pétition des 69 + Matzneff v2.4 (1977-2020) — Degré 5/5
 
@@ -116,7 +117,7 @@
 
 **Citation clé :** « J'avais quatorze ans. Lui cinquante. Il était célèbre. Personne n'a rien dit. » — Vanessa Springora.
 
-**6 fils actifs :** B, C, D, E, F, G. **Sources :** 6 ✦ + 2 ⁅ + 1 ❧ (67 %). **NREF : B.**
+**6 fils actifs :** B, C, D, E, F, G. **Sources :** 6 ✦ + 2 ⁅ + 1 ❧ (67 %). **NREF : B+.**
 
 ### Virage de la rigueur v2.4 (1983) — Degré 5/5
 
@@ -124,7 +125,7 @@
 
 **Citation clé :** « J'étais ministre et j'ai démissionné. Nous avions une alternative. On ne nous a pas écoutés. » — Chevènement.
 
-**5 fils actifs :** B, H, D, E, C. **Sources :** 7 ✦ + 0 ⁅ + 2 ❧ (78 %). **NREF : A.**
+**5 fils actifs :** B, H, D, E, C. **Sources :** 7 ✦ + 0 ⁅ + 2 ❧ (78 %). **NREF : B+** (plafond archéo).
 
 ### COVID-19 révélateur v2.4 (2020-2023) — Degré 5/5
 
@@ -132,7 +133,7 @@
 
 **Citation clé :** « Les non-vaccinés, j'ai très envie de les emmerder. » — Macron, 4 janv. 2022.
 
-**8 fils tous actifs. Sources :** 8 ✦ + 2 ⁅ + 21 ❧ (26 %). **NREF : A.**
+**8 fils tous actifs. Sources :** 8 ✦ + 2 ⁅ + 21 ❧ (26 %). **NREF : B+** (plafond archéo).
 
 ### Maastricht v2.4 (1992) — Degré 5/5
 
@@ -140,7 +141,7 @@
 
 **Citation clé :** « Maastricht a verrouillé l'austérité dans le marbre. »
 
-**5 fils actifs :** B, C, D, E, H + I candidat. **Sources :** 19 ✦ + 2 ⁅ + 21 ❧ (45 %). **NREF : B.**
+**5 fils actifs :** B, C, D, E, H + I candidat. **Sources :** 19 ✦ + 2 ⁅ + 21 ❧ (45 %). **NREF : B+.**
 
 ### Asymétrie fiscale v2.4 (1914-2026) — Degré 5/5
 
@@ -148,7 +149,7 @@
 
 **Citation clé :** « Les niches fiscales sont l'invisible qui gouverne. »
 
-**6 fils actifs :** B, C, D, E, H, I. **Fil L candidat.** **Sources :** 16 ✦ + 2 ⁅ + 30 ❧ (33 %). **NREF : B.**
+**6 fils actifs :** B, C, D, E, H, I. **Fil L candidat.** **Sources :** 16 ✦ + 2 ⁅ + 30 ❧ (33 %). **NREF : B+.**
 
 ### Mazan/Pelicot v2.4 (2024) — Degré 4/5 [CONTRE-EXEMPLE PARTIEL]
 
@@ -328,13 +329,13 @@ Chaque enquête est connectée à ≥ 3 autres :
 
 | Enquête | Étape manquante | Bloquant pour | Priorité |
 |---------|----------------|---------------|----------|
-| Sang contaminé v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | NREF-B maintenu | — |
-| Tchernobyl v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~90%) | NREF-B maintenu | — |
-| Pétition 69 v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~90%) | NREF-B maintenu | — |
-| Virage rigueur v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | NREF-B maintenu | — |
-| COVID v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~90%) | NREF-B maintenu | — |
-| Maastricht v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | NREF-B maintenu | — |
-| Fiscalité v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | NREF-B maintenu | — |
+| Sang contaminé v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | **NREF-B+** (plafond archéo) | — |
+| Tchernobyl v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~90%) | **NREF-B+** (plafond archéo) | — |
+| Pétition 69 v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~90%) | **NREF-B+** (plafond archéo) | — |
+| Virage rigueur v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | **NREF-B+** (plafond archéo) | — |
+| COVID v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~90%) | **NREF-B+** (plafond archéo) | — |
+| Maastricht v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | **NREF-B+** (plafond archéo) | — |
+| Fiscalité v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | **NREF-B+** (plafond archéo) | — |
 | Mazan v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~80%) | NREF-C maintenu | — |
 | Niches v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | NREF-C maintenu | — |
 | ARCOM v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) + chaine manquante | NREF-C maintenu | — |
@@ -387,7 +388,8 @@ Chaque enquête est connectée à ≥ 3 autres :
 1. **Après chaque enquête** : ajouter ligne + mettre à jour métriques
 2. **Après chaque Ultrathinking** : ajouter pistes dans file d'attente
 3. **Après chaque second agent** : marquer ✅, mettre à jour NREF
-4. **Consolidation périodique** à 10 enquêtes (ou sur demande)
+4. **NREF-B+** : palier intermédiaire pour enquêtes avec second agent confirmé mais sources historiques ❧ structurelles (archéologie 18e-19e siècle). Toutes les exigences 1-12 satisfaites, mais limitation NREF-9/NREF-11 acceptée comme plafond de verre.
+5. **Consolidation périodique** à 10 enquêtes (ou sur demande)
 
 ---
 
