@@ -513,3 +513,6 @@
 | 2026-04 | JUR | Loi Yadan retirée en avril 2026 après 707 000 signataires d'une pétition | ❌ |
 | 2026-06 | SOC | Grèves Fonction publique, AESH, SNCF (préavis avril-mai 2026) | ❌ |
 | 75 000 | SCI | Expérience Lenski : E. coli sur 75 000+ générations (Blount et al., 2008) | ❌ |
+| P-2022 | DIP | Operation Barkhane (2014-2022) : 5000 soldats, 1 MdE/an, 59 morts - echec strategique (3 putschs, retrait force) | ❌ |
+| P-2025 | DIP | Presence de Wagner/Africa Corps : operationnel dans 44 pays africains | ❌ |
+| P-2025 | DIP | Sous Wagner au Mali : deces jihad passes de 736/an (2012-2021) a 3135/an (2022-2024) selon ACLED | 💀 |
