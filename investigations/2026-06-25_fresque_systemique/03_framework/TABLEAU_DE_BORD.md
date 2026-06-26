@@ -10,21 +10,21 @@
 
 | Métrique | Valeur | Date |
 |----------|--------|------|
-| Enquêtes v2.4 produites | **13** (10 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante** + **PRED-3 Chlordécone**) | 2026-06-26 |
+| Enquêtes v2.4 produites | **14** (10 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante** + **PRED-3 Chlordécone** + **PRED-10 Polynésie**) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
-| Ultrathinking réalisés | 10 / 10 (100 %) | 2026-06-26 |
-| Second agents exécutés | **3 / 13 (23 %)** — PRED-1, PRED-2, PRED-3 confirmés | 2026-06-26 |
+| Ultrathinking réalisés | 11 / 11 (100 %) | 2026-06-26 |
+| Second agents exécutés | **3 / 14 (21 %)** — PRED-1, PRED-2, PRED-3 confirmés | 2026-06-26 |
 | Niveau NREF max atteint | **A** (PRED-1 passée A après second agent) | 2026-06-26 |
-| Sources vérifiées cumulées | 71 ✦ + 15 ⁅ + 70 ❧ = 156 | 2026-06-26 |
-| HEAD checks effectués | 65 (dont 8 HEAD PRED-3 : 4/8 OK) | 2026-06-26 |
+| Sources vérifiées cumulées | 75 ✦ + 17 ⁅ + 72 ❧ = 164 | 2026-06-26 |
+| HEAD checks effectués | 73 (dont 8 HEAD PRED-10 : 4/8 OK) | 2026-06-26 |
 | Blocages identifiés | 3 (second agents non exécutés) | — |
 | **Standardisation Pelote v2.4** | | |
 | Fils avec marquage `[RACINE_FONDATRICE/ANCIENNE]` | **62/62** (100 %) | 2026-06-26 |
 | Chaînes causales avec `gaps_verifies:` | **61/62** (98 %) | 2026-06-26 |
 | Fils avec `cross_reference:` référentiel | **62/62** (100 %) | 2026-06-26 |
 | Anomalies Pelote (ARCOM) | 1 fil sans chaine causale | — |
-| **Pattern invariant confirmé** | **M11+M28 invariant 13/13** ; **M05 dans 12/13** (Mazan : M05 absent) | 2026-06-26 |
-| **M39 (Shifting baseline)** | **CONFIRMÉ** (Chlordécone — racisme institutionnel documenté) | 2026-06-26 |
+| **Pattern invariant confirmé** | **M11+M28 invariant 14/14** ; **M05 dans 13/14** (Mazan : M05 absent) | 2026-06-26 |
+| **M39 (Shifting baseline)** | **CONFIRMÉ 2/2** (Chlordécone + **Polynésie nucléaire** — racisme institutionnel = mécanisme majeur) | 2026-06-26 |
 | **Fil I** | **CONFIRMÉ** (Maastricht 1992 + **ARCOM : extension hypothèse vassalité juridique**) | 2026-06-26 |
 | **Fil L** | **CONFIRMÉ** (Fiscalité asymétrique — replication niches réussie) | 2026-06-26 |
 | **M43** | **CONFIRMÉ** (Domination monétaire, étendue à juridique par ARCOM) | 2026-06-26 |
@@ -50,6 +50,7 @@
 | **11** | **v2.4** | 2026-06-26 | SYSTEME_PRED1_Mediator | **PRED-1** Médiator (Servier, 1976-2024) — **TEST DE PRÉDICTION** : le pattern sang contaminé se reproduit-il sur un autre scandale sanitaire ? Résultat : **7/8 confirmé, 1 partiel** | **A** 🆕 | A,B,C,D,E,H | M11, M28, M05, M27, M14, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
 | **12** | **v2.4** | 2026-06-26 | SYSTEME_PRED2_Amiante | **PRED-2** Amiante (1906-2024) — **TEST DE PRÉDICTION n°2** : le pattern sang contaminé se reproduit-il sur le plus long scandale sanitaire français (97 ans) ? Résultat : **11/11 confirmé** | **A** 🆕 | A,B,C,D,E,H | M11, M28, M05, M14, M37, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
 | **13** | **v2.4** | 2026-06-26 | SYSTEME_PRED3_Chlordecone | **PRED-3** Chlordécone (Antilles, 1972-2024) — **TEST DE PRÉDICTION n°3** : le pattern se reproduit-il avec dimension coloniale ? **Résultat : 12/12 confirmé. M39 (racisme institutionnel) nouveau mécanisme** | **A** 🆕 | B,C,G,H | M11, M28, M05, M39, M14, M23 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
+| **14** | **v2.4** | 2026-06-26 | SYSTEME_PRED10_Polynesie | **PRED-10** Essais nucléaires Polynésie (1966-1996) — **TEST DE PRÉDICTION n°10** : M39 (racisme institutionnel) testé sur scandale nucléaire colonial. Résultat : **12/12 confirmé. M39 = mécanisme majeur, pas secondaire** | **B** 🆕 | B,G,H,C,E | M11, M28, M05, M39, M09, M37 | ✅ 5 fils | ✅ 5/5 | ✅ 3 actions |
 
 
 **Légende :** ✅ = fait | ⚠️ = anomalie | 🔲 = à faire
@@ -74,6 +75,7 @@
 | PRED-1 Médiator v2.4 | `02_enquetes/2026-06-26_pred1_mediator_servier_INVESTIGATION.md` (PRÉDICTION v2.4) |
 | PRED-2 Amiante v2.4 | `02_enquetes/2026-06-26_pred2_amiante_INVESTIGATION.md` (PRÉDICTION v2.4) |
 | PRED-3 Chlordécone v2.4 | `02_enquetes/2026-06-26_pred3_chlordecone_INVESTIGATION.md` (PRÉDICTION v2.4) |
+| PRED-10 Polynésie v2.4 | `02_enquetes/2026-06-26_pred10_polynesie_INVESTIGATION.md` (PRÉDICTION v2.4) |
 
 **Archive :** Sang v2.1 → `02_enquetes/archive/2026-06-26_sang_contamine_NREF_INVESTIGATION.md`. Architecture fondatrice → `02_enquetes/archive/2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md`.
 
@@ -187,13 +189,13 @@ Virage rigueur 1983
 
 | Fil | Nb enquêtes | Enquêtes |
 |-----|:-----------:|----------|
-| **B — Monopole d'Etat** | **13/13** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, **PRED-3** |
-| **C — Societe civile atrophiee** | **13/13** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, **PRED-3** |
-| **E — Presse sans contre-pouvoir** | **12/13** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2 |
-| D — Justice domestiquee | **11/13** | Sang, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2 |
-| H — Exceptionnalisme | **12/13** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, **PRED-3** |
-| A — Mandarinat | **5/13** | Sang, Pet, COVID, PRED-1, PRED-2 |
-| G — Laicite religion civile | **6/13** | Sang, Tchernobyl, Pet, COVID, Mazan, **PRED-3** |
+| **B — Monopole d'Etat** | **14/14** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-3, **PRED-10** |
+| **C — Societe civile atrophiee** | **14/14** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-3, **PRED-10** |
+| **E — Presse sans contre-pouvoir** | **13/14** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, **PRED-10** |
+| D — Justice domestiquee | **11/14** | Sang, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2 |
+| H — Exceptionnalisme | **13/14** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM, PRED-1, PRED-2, PRED-3, **PRED-10** |
+| A — Mandarinat | **5/14** | Sang, Pet, COVID, PRED-1, PRED-2 |
+| G — Laicite religion civile | **7/14** | Sang, Tchernobyl, Pet, COVID, Mazan, PRED-3, **PRED-10** |
 | I — Vassalite monetaire | **5/13** | Virage, Maastricht, COVID, Fiscalite, ARCOM (extension juridique) |
 | L — Fiscalite asymetrique | **2/11** | Fiscalite, Niches |
 | F — Ecole-moule | **3/11** | Sang, Pet, COVID |
@@ -242,7 +244,7 @@ Chaque enquête est connectée à ≥ 3 autres :
 | PRED-1 Médiator | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~90%) | — |
 | PRED-2 Amiante v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
 | PRED-3 Chlordécone v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
-|
+| PRED-10 Polynésie v2.4 | **Second agent** | NREF-B → A | 🔵 Moyenne |
 
 ---
 
@@ -264,6 +266,11 @@ Chaque enquête est connectée à ≥ 3 autres :
 | P2 | Enquête sur les amendements niches aux PLF 2010-2026 | Niches |
 | P3 | Class action en France — analyse CC 2014/2016 | Addendum sang |
 | P3 | Levothyrox — tester PRED-4 | REPLICATION sang |
+| **P1** | ~~Polynésie — tester PRED-10~~ ✅ **FAIT** (12/12 conf, NREF B) | REPLICATION M39 |
+| P2 | Exécuter second agent PRED-10 Polynésie | NREF-A |
+| P2 | Synthèse M39 : Chlordécone + Polynésie + pesticides = rapport colonial | Consolidation |
+| P3 | Proposer M49 (Arcanum imperii) comme mécanisme | Ultrathinking PRED-10 |
+| P3 | Vérifier archives CEA/DIRCEN partiellement détruites | Lièvre PRED-10 |
 | P3 | Accidents du travail — masquage statistique | Données |
 
 ---
