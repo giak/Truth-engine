@@ -13,8 +13,8 @@
 | Enquêtes v2.4 produites | **15** (10 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante** + **PRED-3 Chlordécone** + **PRED-10 Polynésie** + **PRED-7 Vache folle**) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
 | Ultrathinking réalisés | 12 / 12 (100 %) | 2026-06-26 |
-| Second agents exécutés | **4 / 15 (27 %)** — PRED-1, PRED-2, PRED-3, PRED-10 confirmés | 2026-06-26 |
-| Niveau NREF max atteint | **A** (4 enquêtes NREF A : PRED-1, PRED-2, PRED-3, **PRED-10**) | 2026-06-26 |
+| Second agents exécutés | **5 / 15 (33 %)** — PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7 confirmés** | 2026-06-26 |
+| Niveau NREF max atteint | **A** (5 enquêtes NREF A : PRED-1, PRED-2, PRED-3, PRED-10, **PRED-7**) | 2026-06-26 |
 | Sources vérifiées cumulées | 75 ✦ + 17 ⁅ + 72 ❧ = 164 | 2026-06-26 |
 | HEAD checks effectués | 73 (dont 8 HEAD PRED-10 : 4/8 OK) | 2026-06-26 |
 | Blocages identifiés | 3 (second agents non exécutés) | — |
@@ -52,7 +52,7 @@
 | **12** | **v2.4** | 2026-06-26 | SYSTEME_PRED2_Amiante | **PRED-2** Amiante (1906-2024) — **TEST DE PRÉDICTION n°2** : le pattern sang contaminé se reproduit-il sur le plus long scandale sanitaire français (97 ans) ? Résultat : **11/11 confirmé** | **A** 🆕 | A,B,C,D,E,H | M11, M28, M05, M14, M37, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
 | **13** | **v2.4** | 2026-06-26 | SYSTEME_PRED3_Chlordecone | **PRED-3** Chlordécone (Antilles, 1972-2024) — **TEST DE PRÉDICTION n°3** : le pattern se reproduit-il avec dimension coloniale ? **Résultat : 12/12 confirmé. M39 (racisme institutionnel) nouveau mécanisme** | **A** 🆕 | B,C,G,H | M11, M28, M05, M39, M14, M23 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
 | **14** | **v2.4** | 2026-06-26 | SYSTEME_PRED10_Polynesie | **PRED-10** Essais nucléaires Polynésie (1966-1996) — **TEST DE PRÉDICTION n°10** : M39 (racisme institutionnel) testé sur scandale nucléaire colonial. Résultat : **12/12 confirmé. M39 = mécanisme majeur, pas secondaire** | **A** 🆕 | B,G,H,C,E | M11, M28, M05, M39, M09, M37 | ✅ 5 fils | ✅ 5/5 | ✅ 3 actions |
-| **15** | **v2.4** | 2026-06-26 | SYSTEME_PRED7_Vache_folle_ESB | **PRED-7** ESB / Vache folle (France, 1990-2006) — **TEST DE PRÉDICTION n°7** : généralisation trans-domaine du pattern M11+M09+M28+M05+M37 de l'État qui ment pour protéger une filière. **Résultat : 10/10 confirmé** | **B** 🆕 | B,H,C,E | M11, M09, M28, M05, M37 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
+| **15** | **v2.4** | 2026-06-26 | SYSTEME_PRED7_Vache_folle_ESB | **PRED-7** ESB / Vache folle (France, 1990-2006) — **TEST DE PRÉDICTION n°7** : généralisation trans-domaine du pattern M11+M09+M28+M05+M37 de l'État qui ment pour protéger une filière. **Résultat : 10/10 confirmé** | **A** 🆕 | B,H,C,E | M11, M09, M28, M05, M37 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
 
 
 **Légende :** ✅ = fait | ⚠️ = anomalie | 🔲 = à faire
@@ -248,7 +248,7 @@ Chaque enquête est connectée à ≥ 3 autres :
 | PRED-2 Amiante v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
 | PRED-3 Chlordécone v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
 | PRED-10 Polynésie v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
-| PRED-7 Vache folle v2.4 | **Second agent** | NREF-B → A | 🔵 Moyenne |
+| PRED-7 Vache folle v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
 
 ---
 
@@ -274,7 +274,7 @@ Chaque enquête est connectée à ≥ 3 autres :
 | P2 | ~~Exécuter second agent PRED-10 Polynésie~~ ✅ **FAIT** | NREF-A ✅ |
 | P2 | Synthèse M39 : Chlordécone + Polynésie + pesticides = rapport colonial | Consolidation |
 | **P1** | ~~Vache folle — tester PRED-7~~ ✅ **FAIT** (10/10 conf, NREF B) | GÉNÉRALISATION trans-domaine |
-| P2 | Exécuter second agent PRED-7 Vache folle | NREF-A |
+| P2 | ~~Exécuter second agent PRED-7 Vache folle~~ ✅ **FAIT** | NREF-A ✅ |
 | P3 | Enquête comparative France/Suisse (dépistage ESB 1996) | Ulth. PRED-7 |
 | P3 | Enquête sur rôle FNSEA dans minimisation risque | Ulth. PRED-7 |
 | P3 | Proposer M49 (Arcanum imperii) comme mécanisme | Ultrathinking PRED-10 |

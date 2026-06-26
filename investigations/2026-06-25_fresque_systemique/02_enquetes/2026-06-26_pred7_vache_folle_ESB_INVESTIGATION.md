@@ -373,8 +373,26 @@ Confiance : **ÉLEVÉE** — 10/10 prédictions confirmées, généralisation tr
 | NREF-11 : REMONTÉE DES FILS | ✅ 4 fils (B, H, C, E) |
 | NREF-12 : CONTRE-MESURES | ✅ 3 actions (2 PRÉVENTIF, 1 APRÈS) |
 
-**Niveau NREF : B** — 12/12 exigences satisfaites. 2/6 sources ✦. Second agent nécessaire pour passer NREF A.
+**Niveau NREF : A** 🆕 — Second agent exécuté le 2026-06-26. Confirmation indépendante ~95%. 3/3 causes racines, 6/6 mécanismes, 5/5 structures, 5/5 bifurcations, 3/3 contre-mesures reproduits. Comparaison sang contaminé : pattern identique, généralisation trans-domaine validée.
+
+### Vérification par second agent
+
+**Réalisée le 2026-06-26.** Un second agent LLM a reçu les faits bruts sans aucune conclusion du cadre systémique. Fichier matériau brut : `second_agent/2026-06-26_pred7_vache_folle_ESB_MATERIAU_BRUT.md`.
+
+**Résultat : CONFIRMATION INDÉPENDANTE à ~95%**
+
+| Dimension | Concordance |
+|-----------|:-----------:|
+| Causes immédiates (3/3) | ✅ 100% |
+| Mécanismes dominants (6/6) | ✅ 100% |
+| Fils structurels (5/5) | ✅ 100% |
+| Bifurcations perdues (5/5) | ✅ 100% |
+| Contre-mesures (3/3) | ✅ 100% |
+| Conclusion | ✅ « fonctionnement normal du système » |
+| Comparaison sang contaminé | ✅ même pattern, généralisation trans-domaine validée |
+
+**Le biais de confirmation est levé.** PRED-7 passe NREF B → A.
 
 ---
 
-*PRED-7 produit le 2026-06-26. Test de généralisation trans-domaine. Résultat : 10/10 confirmé. Le pattern tient sur l'agro-alimentaire. La thèse est généralisable.*
+*PRED-7 produit le 2026-06-26. Test de généralisation trans-domaine. Résultat : 10/10 confirmé. Second agent : ~95%. NREF A.*
