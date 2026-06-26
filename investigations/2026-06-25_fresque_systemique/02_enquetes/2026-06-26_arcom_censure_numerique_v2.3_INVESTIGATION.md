@@ -1,5 +1,5 @@
 # INVESTIGATION SYSTEMIQUE v2.3 — ARCOM et la censure numerique institutionnalisee
-## De la HADOPI (2009) au complexe de censure europeen (2026)
+## 235 ans de construction de la censure d'Etat : de la loi Le Chapelier (1791) au complexe de censure europeen (2026)
 ## Enquete sur la regulation comme infrastructure de controle
 
 ### META-INFORMATIONS
