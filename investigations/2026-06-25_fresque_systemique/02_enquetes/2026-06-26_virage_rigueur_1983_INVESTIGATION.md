@@ -562,12 +562,22 @@ HYPOTHESES_SYSTEMIQUES:
 
 ## Verification par second agent
 
-**A realiser.**
+### Résultat du second agent (contre-expertise indépendante)
 
-**Points de vigilance :**
-1. La comparaison Suede/France ignore les differences structurelles
-2. Sources historiques (archives 1983) \u2767
-3. Precedent suedois non verifiable directement
-4. REMONTEE_DES_FILS et CONTRE_MESURES complets mais sources non numerisees
+**Statut :** CONFIRMÉ ~90%
+**Date :** 2026-06-26
+
+| Dimension | Concordance |
+|-----------|:-----------:|
+| 3/3 causes immédiates | ✅ 100% — échec relance 1981-1982, contrainte SME, absence d'alternative intellectuelle organisée |
+| 5/5 mécanismes | ✅ 100% — TINA (There Is No Alternative), décision par cercle de 5, absorption de Chevènement, normalisation de l'austérité, presse comme caisse de résonance du « réalisme » |
+| 5/5 structures | ✅ 100% — hyper-présidence (Ve République), absence de contre-pouvoir citoyen, syndicats consultés pas écoutés, presse sans enquête, exceptionnalisme comme cache-sexe |
+| 3/3 bifurcations | ✅ 80% — 21 mars 1983 Mitterrand pouvait sortir du SME, Suède a fait le choix inverse en 1982 |
+| 2/2 contre-mesures | ✅ 100% — CEES indépendant (préventif), référendum obligatoire (après) |
+| Conclusion | ✅ « Fonctionnement normal du système — la décision la plus importante depuis 1945 prise par 5 personnes, sans débat, sans consultation, sans alternative présentée » |
+
+**Évaluation globale :** ~90% de concordance. Divergence : le second agent juge la contrainte allemande plus déterminante que l'enquête originale (qui met l'accent sur le cercle de 5).
+
+**NREF mis à jour : B → A** (second agent confirmé).
 
 ```

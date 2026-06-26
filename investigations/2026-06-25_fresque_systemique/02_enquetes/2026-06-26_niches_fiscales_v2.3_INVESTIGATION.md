@@ -512,6 +512,55 @@ LIENS:
 
 ---
 
+## Verification par second agent
+
+**Protocole :** Second agent independant. Analyse produite a partir du materiau brut `second_agent/2026-06-26_niches_fiscales_MATERIAU_BRUT.md`.
+
+### 1. Causes immediates
+
+**R1 — Invisibilite budgetaire comme outil politique :** Une niche ne coute rien dans le budget voté — elle est une « depense fiscale » invisible. Ce mecanisme comptable permet de creer des avantages sans les assumer politiquement. Depuis 1807 (premiere niche agricole), l'outil s'est impose comme le mode privilegie de distribution de rentes.
+
+**R2 — Accumulation sans elimination :** Chaque gouvernement cree des niches (TEPA 2007 : ~15 MdE, CICE 2013 : 30+ MdE cumules) sans jamais supprimer les anciennes. Aucun mecanisme de « caducite » n'existe — une niche une fois creee est quasi-impossible a supprimer.
+
+**R3 — Capture par les lobbies :** Le CIR (8 MdE/an) profite a 0,1% des entreprises. Le Pacte Dutreil (4-5 MdE/an) aux tres grandes fortunes. La TVA restauration (4,2 MdE/an) n'a pas baisse les prix. Chaque niche a son lobby, son discours de necessite, son amendement de nuit.
+
+### 2. Mecanismes dominants
+
+- **Invisibilite comptable :** la depense fiscale n'apparait pas dans le budget — elle est cachee dans le manque a gagner. Le parlementarien qui vote une niche ne vote pas une depense, il vote une exception.
+- **Verrouillage par accumulation :** 470 niches creent un maillage si dense que toucher a une seule declenche une reaction en chaine des lobbies. La complexite protege le systeme.
+- **Discours inverse :** supprimer une niche est presente comme une « hausse d'impot ». Le reel (supprimer une exception qui beneficie aux plus aises) est inverse par le recit.
+
+### 3. Fils structurels
+
+- **Dimension fiscale** : le systeme est construit sur une asymetrie travail/capital que les niches verrouillent. Le CIR est l'instrument principal de cette asymetrie.
+- **Dimension institutionnelle** : Bercy est seul maitre de l'evaluation des niches. Aucun observatoire independant n'existe. Le Parlement n'a pas les moyens de les analyser.
+- **Dimension mediatique** : les niches sont invisibles dans le debat public. Les medias titrent « hausse d'impot » pour leur suppression, jamais « suppression d'une exception fiscale ».
+- **Dimension historique** : le precedent de 1807 a cree un modele qui s'est reproduit pendant 200+ ans. La proliferation n'est pas un accident mais le fonctionnement normal d'un systeme sans contrainte.
+
+### 4. Bifurcations perdues
+
+- **2010 — Rapport Lambert :** proposait de reduire les niches de 10% par an pendant 10 ans. Enterre par le gouvernement Fillon. Si applique, la France aurait 0 niche depuis 2020.
+- **2017-2018 — ISF→IFI + flat tax :** la suppression de l'ISF pouvait etre compensee par une suppression de 20 MdE de niches. Le choix inverse a verrouille l'asymetrie.
+- **2020 — COVID :** la crise pouvait etre l'occasion d'un « grand menage » des niches pour financer la relance. Le choix a ete 3000 MdE de dette supplementaire, 0 niche supprimee.
+
+### 5. Contre-mesures
+
+- **Observatoire independant** (type PBO Canada) : creer un organisme charge d'evaluer chaque niche chaque annee, avec rapport public et recommandations contraignantes. Faisabilite : moyenne (Bercy perdrait son monopole).
+- **Moratoire niches** : toute nouvelle niche doit etre compensee par la suppression d'une niche existante de meme montant. Faisabilite : faible (chaque niche a son lobby).
+- **Plafonnement renforce** : le plafond actuel de 10 000€ est trop haut et facile a contourner. Un plafond a 1 000€ avec evaluation automatique a 5 ans changerait la donne.
+
+### 6. Comparaison internationale
+
+- **Canada (PBO)** : le Parliamentary Budget Officer evalue les depenses fiscales de maniere independante depuis 2008. Rapport public annuel servant de base au debat parlementaire.
+- **Suisse (frein a l'endettement)** : constitution federale (art. 126) impose que toute nouvelle depense soit compensee. Ce mecanisme applique aux niches empecherait la proliferation.
+- **Aucun pays** n'a reussi a reduire massivement ses niches — preuve de la difficulte politique universelle.
+
+### 7. Conclusion
+
+**Dysfonctionnement ou fonctionnement normal ?** Fonctionnement normal d'un systeme de capture de rente par l'oligarchie economique. Les 470 niches ne sont pas un accident de la technique fiscale — elles sont la machine de distribution invisible de l'asymetrie travail/capital. Le systeme produit exactement ce pour quoi il a ete concu : concentrer les avantages fiscaux sur les detenteurs de capital, en toute opacite, sans debat. Le dysfonctionnement n'est pas dans le systeme — il est dans le regard qui le juge anormal.
+
+---
+
 ## ADDENDUM ULTRATHINKING
 
 ```yaml

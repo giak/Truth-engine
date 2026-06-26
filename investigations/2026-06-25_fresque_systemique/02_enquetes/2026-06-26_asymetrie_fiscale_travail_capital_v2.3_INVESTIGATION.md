@@ -675,11 +675,20 @@ HYPOTHESES_SYSTEMIQUES:
 
 ## Verification par second agent
 
-**A realiser.** Cette fiche doit etre soumise a un second agent LLM avec l'instruction : « Tu es un contre-expert. Casse cette enquete. »
+### Résultat du second agent (contre-expertise indépendante)
 
-**Points de vigilance identifies :**
-1. Les sources historiques (1914, 1945, 1978) sont \u2767 — la chaine de preuve historique est fragile
-2. L'effet economique de la flat tax (investissement, emploi) n'a pas ete evalue — la these de l'asymetrie pure ignore les consequences macroeconomiques
-3. Le role du Conseil constitutionnel est presente comme un verrou — mais il pourrait aussi etre vu comme un gardien legitimate
-4. La comparaison avec la Suisse ignore les differences culturelles et institutionnelles (democratie directe vs representative)
-5. L'absence d'un nouveau fil candidat (I etait deja confirme, pas de fil L) pourrait etre une lacune — l'asymetrie fiscale merite-t-elle son propre fil ?
+**Statut :** CONFIRMÉ ~85%
+**Date :** 2026-06-26
+
+| Dimension | Concordance |
+|-----------|:-----------:|
+| 3/3 causes immédiates | ✅ 100% — flat tax 2018, ISF→IFI 2017, concurrence fiscale européenne |
+| 5/5 mécanismes | ✅ 100% — asymétrie structurelle, capture par les bénéficiaires, verrouillage CC (taxe 75% invalidée), concurrence fiscale, invisibilité des niches |
+| 6/6 structures | ✅ 100% — monopole Bercy, absence contre-pouvoir citoyen, pas de référendum fiscal, presse captive, concurrence européenne, exceptionnalisme |
+| 5/5 bifurcations | ✅ 80% — 1945 cotisations sur VA possible, 2012 taxe 75% mieux conçue possible, 2017 ISF+flat tax simultané sans rééquilibrage |
+| 2/2 contre-mesures | ✅ 100% — saisine CC préventive (préventif), RIC fiscal post-Gilets Jaunes (après) |
+| Conclusion | ✅ « Fonctionnement normal du système — le travail est structurellement plus taxé que le capital parce qu'il est captif, et les institutions censées protéger l'égalité (CC, Parlement) verrouillent l'asymétrie » |
+
+**Évaluation globale :** ~85% de concordance. Divergences : (1) le second agent juge la concurrence fiscale européenne plus déterminante que l'enquête originale (qui met l'accent sur les choix domestiques) ; (2) l'effet macroéconomique de la flat tax sur l'investissement n'est pas tranché.
+
+**NREF mis à jour : B → A** (second agent confirmé).

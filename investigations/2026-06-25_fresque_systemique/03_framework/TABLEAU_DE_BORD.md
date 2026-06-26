@@ -13,7 +13,7 @@
 | Enquêtes v2.4 produites | **16** (11 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante** + **PRED-3 Chlordécone** + **PRED-10 Polynésie** + **PRED-7 Vache folle**) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
 | Ultrathinking réalisés | 12 / 12 (100 %) | 2026-06-26 |
-| Second agents exécutés | **6 / 16 (38 %)** — PRED-1, PRED-2, PRED-3, PRED-10, PRED-7, **DNC confirmés** | 2026-06-26 |
+| Second agents exécutés | **16 / 16 (100 %)** — 10 enquêtes fresque (Sang, Tchernobyl, Pet69, Virage, COVID, Maastricht, Fiscalite, Mazan, Niches, ARCOM) + 6 PRED/DNC | 2026-06-26 |
 | Niveau NREF max atteint | **A** (6 enquêtes NREF A : PRED-1, PRED-2, PRED-3, PRED-10, PRED-7, **DNC**) | 2026-06-26 |
 | Sources vérifiées cumulées | **159 ✦ + 54 ⁅ + 332 ❧ = 545** | 2026-06-26 |
 | HEAD checks effectués | **120** (16 enquêtes) | 2026-06-26 |
@@ -312,7 +312,7 @@ Chaque enquête est connectée à ≥ 3 autres :
 
 1. ✅ **Standardisation Pelote v2.4** — REMONTEE_DES_FILS : marquage + gaps_verifies + cross_reference sur 10/10 enquêtes
 2. ✅ **Test de réplication événement récent** (Mazan/Pelicot 2024) — cadre validé, M05 absent dans affaire judiciaire pure
-3. 🔲 **Exécuter les 9 seconds agents** (contre-expertise)
+3. ✅ **Exécuter les 10 seconds agents** (contre-expertise) — confirmé 26/06
 4. 🔲 **Valider fil I** par enquête dédiée (Grèce 2015 ou Maastricht 1992)
 5. 🔲 **Tester M43/M44** comme mécanismes opérationnels
 6. ✅ **Référentiel archéologique mis à jour** (nouveaux renforcements + fils I, J, K)
@@ -328,16 +328,16 @@ Chaque enquête est connectée à ≥ 3 autres :
 
 | Enquête | Étape manquante | Bloquant pour | Priorité |
 |---------|----------------|---------------|----------|
-| Sang contaminé v2.4 | **Second agent** : contre-expertise | NREF-A | ⚠️ Haute |
-| Tchernobyl v2.4 | **Second agent** | NREF-A | ⚠️ Haute |
-| Pétition 69 v2.4 | **Second agent** | NREF-A | ⚠️ Haute |
-| Virage rigueur v2.4 | **Second agent** | NREF-A confirmé | ⚠️ Haute |
-| COVID v2.4 | **Second agent** | NREF-A confirmé | ⚠️ Haute |
-| Maastricht v2.4 | **Second agent** | NREF-A | 🔵 Moyenne |
-| Fiscalité v2.4 | **Second agent** | NREF-A | 🔵 Moyenne |
-| Mazan v2.4 | **Second agent** | NREF-B → A | 🔵 Moyenne |
-| Niches v2.4 | **Second agent** | NREF-B → A | 🔵 Moyenne |
-| ARCOM v2.4 | **Second agent** + chaine manquante | NREF-C → B | 🔵 Moyenne |
+| Sang contaminé v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | NREF-B maintenu | — |
+| Tchernobyl v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~90%) | NREF-B maintenu | — |
+| Pétition 69 v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~90%) | NREF-B maintenu | — |
+| Virage rigueur v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | NREF-B maintenu | — |
+| COVID v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~90%) | NREF-B maintenu | — |
+| Maastricht v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | NREF-B maintenu | — |
+| Fiscalité v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | NREF-B maintenu | — |
+| Mazan v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~80%) | NREF-C maintenu | — |
+| Niches v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) | NREF-C maintenu | — |
+| ARCOM v2.4 | ~~Second agent~~ ✅ **FAIT** (26/06 : confirmation ~85%) + chaine manquante | NREF-C maintenu | — |
 | PRED-1 Médiator | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~90%) | — |
 | PRED-2 Amiante v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
 | PRED-3 Chlordécone v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |

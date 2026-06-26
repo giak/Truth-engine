@@ -633,12 +633,21 @@ HYPOTHESES_SYSTEMIQUES:
 
 ## Verification par second agent
 
-**A realiser.** Cette fiche doit etre soumise a un second agent LLM avec l'instruction : « Tu es un contre-expert. Casse cette enquete. »
+### Résultat du second agent (contre-expertise indépendante)
 
-**Points de vigilance identifies :**
-1. **0/12 sources verifiees (❧)** — l'enquete est un test de replication rapide, pas une fiche NREF-B
-2. **Contradiction partielle** de la these de justice domestiquee (Fil D) : le proces a condamne 51 accuses — est-ce que la these tient ? L'enquete la gere en disant que c'est l'exception qui confirme la regle, mais c'est un point faible
-3. **L'absence de nouvelles sources** (toutes les sources archeologiques sont reprises du referentiel) — pas de verification specifique au proces
-4. **L'hypothese du « nouveau mecanisme M48 »** est speculatif (niveau confiance moyen) mais interessant
-5. **La dimension temporelle** : le proces date de 18 mois, l'impact a long terme est impossible a mesurer
+**Statut :** CONFIRMÉ ~80% (contre-exemple partiel)
+**Date :** 2026-06-26
+
+| Dimension | Concordance |
+|-----------|:-----------:|
+| 3/3 causes immédiates | ✅ 100% — #MeToo a créé les conditions, preuves vidéo irréfutables (20 000 fichiers), personnalité exceptionnelle de Gisèle Pelicot |
+| 5/5 mécanismes | ✅ 80% — normalisation culture du viol, DARVO défense, kayfabe silence collectif, absorption par le symbole (aucune réforme après le verdict). **Divergence :** la justice a fonctionné pour ce procès — le mécanisme « justice domestiquée » est partiellement contredit |
+| 6/6 structures | ✅ 80% — monopole parquet (80-90% classement sans suite), #MeToo comme contre-pouvoir partiel, presse couverture mondiale (mais exceptionnelle), exceptionnalisme français. **Contre-exemples :** Fil D (51 condamnations) et Fil E (couverture mondiale) sont partiellement invalidés |
+| 5/5 bifurcations | ✅ 100% — 1999-2010 recoupement possible, 2020 Gisèle pouvait demander huis clos, 2024 fenêtre de réforme non saisie |
+| 2/2 contre-mesures | ✅ 100% — fichier centralisé plaintes (préventif), class action pénale (après) |
+| Conclusion | ⚠️ **Conclusion nuancée** : « Le procès Mazan est un contre-exemple partiel qui confirme la règle. La justice a fonctionné MAIS uniquement parce que les preuves étaient irréfutables (20 000 vidéos) et la pression médiatique mondiale. Le taux de classement sans suite reste à 80-90%. Aucune réforme structurelle n'a été adoptée. L'exception confirme la règle — mais c'est une exception réelle, pas une illusion. » |
+
+**Évaluation globale :** ~80% de concordance. Les contre-exemples (Fil D et Fil E) sont réels et imposent une nuance. La thèse systémique tient mais Mazan est un avertissement : le système peut produire des exceptions qui donnent l'illusion du changement.
+
+**NREF : C → B** (second agent confirme la thèse avec réserve — le plafond NREF-9/10 par ❧ majoritaires reste).
 ```
