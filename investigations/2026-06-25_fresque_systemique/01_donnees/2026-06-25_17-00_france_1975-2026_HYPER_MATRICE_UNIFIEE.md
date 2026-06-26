@@ -189,6 +189,7 @@
 | 1975 | ÉCO | Loi généralisation sécurité sociale à toute activité professionnelle | ✅ |
 | 1975 | ÉCO | Loi égalité sexes dans fonction publique | ✅ |
 | 1975 | ÉCO | Loi emploi langue française | ⚠️ |
+| 1975 | JUR | Nouveau Code de procédure civile | ⚠️ |
 | 1975 | ÉCO | Part de l'industrie dans le PIB français : 24 % | ❌ |
 ### 1976
 
@@ -2175,6 +2176,7 @@
 | 1997 | ENV | Mort Commandant Cousteau (25 juin) | Conscience océans |
 | 1997 | TEC | Début débat Y2K bug an 2000 | Mobilisation IT |
 | 1997 | JUR | Loi Debré contrôle immigration (24 avril) | Durcissement |
+| 1997 | SCI | Michael Richardson publie dans Science photos réelles d'embryons : dessins de Haeckel truqués | ❌ |
 | 1997 | CUL | Création Le Mouv' radio (17 juin) | Radio publique jeune |
 ### 1998
 
@@ -2248,6 +2250,7 @@
 | 1998 | TEC | Introduction Bourse France Télécom (oct) 42 MdF | Privatisation paradoxe |
 | 1998 | TRA | Inauguration Stade France (28 jan) | Équipement |
 | 1998 | TRA | Inauguration ligne 14 métro Paris (15 oct) | Automatisation |
+| 1998 | DEMO | France 1998: 7,3 % immigrés, FN marginal, utopie "Black-Blanc-Beur" | ❌ |
 | 1998 | ENV | Dominique Voynet (ministre 1997-2001) confirme la fermeture de Superphénix, la décrivant comme "la première vraie défaite du lobby nucléaire" | ❌ |
 ### 1999
 
@@ -2307,6 +2310,7 @@
 | 1999 | ÉCO | Euro monnaie scripturale (1er jan) | Préparation passage € |
 | 1999 | TEC | Bug an 2000 sans catastrophe majeure | Soulagement |
 | 1999 | JUR | Attentats Corse URSSAF Ajaccio (25 nov) | Tensions |
+| 1999 | POL | Wedge Strategy : document interne DI fuité, plan décennal renverser "matérialisme scientifique" | ❌ |
 | 1999 | ÉCO | Part de propriétaires en France stagne à 57% depuis 1999 | ❌ |
 ### 2000
 
@@ -2396,6 +2400,7 @@
 | 2000 | ÉDU | PISA mathématiques France : 517 points (descend à 474 en 2022) | ❌ |
 | 2000 | MÉD | Filme le rituel Cremation of Care | ⚠ |
 | 2000 | ÉCO | Bernard Bommier (père) VP Cyber Security chez Coca-Cola Europacific Partners depuis août 2000 | ⚠ |
+| 2000 | ECO | Total financements UE vers Hedayah : 305 M€ documentés | ❌ |
 | 2000 | ÉCO | Depuis 2000, cession progressive des fleurons industriels français: Arcelor, Alstom, Pechiney, Lafarge — vente à des groupes étrangers | ❌ |
 ### 2001
 
@@ -2481,6 +2486,7 @@
 | 2001 | CUL | Sortie Amélie Poulain succès international | Rayonnement |
 | 2001 | TER | 11 septembre : France soutient USA | Choc mondial |
 | 2001 | ÉDU | Débat laïcité voile islamique écoles | Rapport Stasi |
+| 2001 | JUR | Patriot Act américain (jamais abrogé) | ❌ |
 | 2001 | ÉDU | Loi rendant obligatoire l'éducation à la sexualité (3 séances/an) | ⚠ |
 ### 2002
 
@@ -2549,6 +2555,7 @@
 | 2002 | JUR | Tuerie Nanterre conseil municipal (27 mars) 8 morts | Drame |
 | 2002 | JUR | Loi Perben I renforcement crime organisé | Durcissement pénal |
 | 2002 | ÉCO | Chômage repart à la hausse | Fin embellie |
+| 2002 | SCI | Judith Hooper publie "Of Moths and Men" : enquête détaillée manip photos Kettlewell | ⚠ |
 | 2002 | MIL | France engagée Afghanistan ops militaires | Guerre terrorisme |
 ### 2003
 
@@ -2690,6 +2697,7 @@
 | 2004 | SPO | Euro 2004 : élimination France quarts | Surprise Grèce championne |
 | 2004 | TEC | Loi confiance économie numérique LCEN | Cadre juridique internet |
 | 2004 | CUL | Succès Les Choristes 8,5 M entrées | Cinéma social |
+| 2004 | SCI | Richard Sternberg (Smithsonian) publie article pro-ID, harcelé par collègues | ⚠ |
 | 2004 | IMM | Crise Sangatte annonce fermeture centre | Trafic migrants |
 ### 2005
 
@@ -2768,6 +2776,10 @@
 | 2005 | SPO | Coupe Davis France gagne | Tennis |
 | 2005 | TRA | Dernier vol Concorde | Fin supersonique |
 | 2005 | ÉCO | Déficit commercial manufacturier se creuse chaque année depuis 2005 | ❌ |
+| 2005 | JUR | Kitzmiller v. Dover : 400 F. Supp. 2d 707 (M.D. Pa. 2005) | ❌ |
+| 2005 | JUR | Office of Special Counsel : Sternberg victime harcèlement et représailles professionnelles | ❌ |
+| 2005 | MED | Jeffrey Epstein finance MC2 Model Management : 1 M$ ligne de crédit | ❌ |
+| 2005 | SCI | ADN humain : 98,7% avec chimpanzé (Mikkelsen et al., Nature, DOI: 10.1038/nature04072) | ❌ |
 | 2005 | ENV | Le NOx aérien contribue au réchauffement : bilan net positif (Grewe et al., Atmospheric Chemistry and Physics, 2005, DOI 10.5194/acp-5-177-2005 ; EEA 2019) | ❌ |
 ### 2006
 
@@ -2904,6 +2916,8 @@
 | 2006 | ÉDU | Bac : taux de réussite 82,5 % | ⚠️ |
 | 2006 | ÉDU | Réforme de l'université (LRU) débattue | ⚠️ |
 | 2006 | ÉCO | Seule année depuis 21 ans où la France respecte le seuil de déficit de 3% du PIB | ⚠ |
+| 2006 | POL | Henry Paulson, CEO de Goldman Sachs (1999-2006), nommé secrétaire au Trésor en 2006 | ❌ |
+| 2006 | SCI | InterAcademy Partnership (65+ académies) : déclaration preuves évolution établies | ❌ |
 | 2006 | ÉCO | AN Conseil fondée par Alla Poedie — business ex-URSS (Russie, Ukraine, Kazakhstan) | ⚠ |
 ### 2007
 
@@ -2970,6 +2984,9 @@
 | 2007 | MÉD | Nicolas Sarkozy : rupture télévisuelle, privé-public | ⚠️ |
 | 2007 | ÉDU | Dictée CM2 DEPP : 14,7 erreurs | ❌ |
 | 2007 | ÉDU | Début suppression postes enseignants : 120 000 supprimés d'ici 2022 | ❌ |
+| 2007 | SCI | BioLogos fondé par Francis Collins (directeur Human Genome Project puis NIH) | ❌ |
+| 2007 | SCI | Guillermo Gonzalez (Iowa State) refusé tenure : affiliation DI probablement facteur | ❌ |
+| 2007 | ECO | Templeton Foundation donne 2 M$ à BioLogos pour création | ❌ |
 | 2007 | ÉDU | 120 000 postes d'enseignants supprimés | ❌ |
 ### 2008
 
@@ -3045,6 +3062,14 @@
 | 2008 | MÉD | Réforme de l'audiovisuel public : pub supprimée le soir | ❌ |
 | 2008 | DÉMO | Population France : 64,3 millions d'habitants | ⚠️ |
 | 2008 | ÉCO | Création du réseau Peppol avec financement de la Commission européenne | ⚠ |
+| 2008 | CUL | Expelled : coût 3,5 M$, rapporté 7,7 M$ (succès commercial) | ⚠ |
+| 2008 | CUL | Film "Expelled: No Intelligence Allowed" (Ben Stein) | ❌ |
+| 2008 | POL | Bobby Jindal signe LSEA malgré opposition 9 sociétés scientifiques nationales + 75 prix Nobel | ❌ |
+| 2008 | POL | LSEA rédigé avec aide Discovery Institute (Casey Luskin présent aux audiences) | ❌ |
+| 2008 | POL | Paulson orchestre le plan TARP (700 milliards de dollars) ; Goldman Sachs reçoit 12,9 milliards via AIG | ❌ |
+| 2008 | SCI | NAS (2008) : "La science n'a pas encore déterminé comment la vie est apparue sur Terre" | ❌ |
+| 2008 | ECO | Pic pétrole 2008 : 147 $/baril (spéculation documentée par CFTC) | ❌ |
+| 2008 | EDU | Louisiana Science Education Act (LSEA) : voté 36-0 Sénat, 94-3 Chambre | ❌ |
 | 2008 | ÉCO | Sardex (Sardaigne) créé ; en 2023 : 5 000 entreprises, 500 M€ de volume d'échanges | ✅ |
 ### 2009
 
@@ -3110,6 +3135,7 @@
 | 2009 | ÉCO | Taxe carbone invalidée par le Conseil constitutionnel | ❌ |
 | 2009 | ÉCO | Première procédure de déficit excessif ouverte contre France (close 2018) | ❌ |
 | 2009 | ÉCO | Emploi chez Exane BNP Paribas comme économiste junior | ⚠ |
+| 2009 | SCI | Consensus ~97% des scientifiques (Pew), ~99% des biologistes | ❌ |
 | 2009 | POL | Global Warming Policy Foundation fondé par l'ex-chancelier britannique Nigel Lawson | ❌ |
 ### 2010
 
@@ -3177,6 +3203,8 @@
 | 2010 | ÉDU | Suppressions massives de postes dans l'Éducation nationale | ❌ |
 | 2010 | ÉDU | Réforme du lycée professionnel | ❌ |
 | 2010 | MÉD | Loi sur le secret des sources pour les journalistes | ✅ |
+| 2010 | POL | CBS News identifie plus de 48 anciens cadres de Goldman Sachs à des postes clés de l'administration fédérale | ❌ |
+| 2010 | SPO | Plan Leproux (dissolution tribune Boulogne) | ❌ |
 | 2010 | ÉCO | Loi NOME créant l'ARENH : EDF forcé de vendre 100 TWh à 42 €/MWh | ❌ |
 ### 2011
 
@@ -3236,6 +3264,7 @@
 | 2011 | ÉDU | Création des ESPÉ (Écoles supérieures du professorat) | ❌ |
 | 2011 | DÉMO | Population : 65,3 millions d'habitants | ⚠️ |
 | 2011 | POL | François Hollande annonce la fermeture de Fessenheim dans le cadre de sa campagne présidentielle | ❌ |
+| 2011 | SPO | Propriété qatarie du PSG depuis 2011 | ❌ |
 | 2011 | POL | Pacte électoral Hollande-Verts prévoit réduire part du nucléaire à 50% et fermer 24 réacteurs | ❌ |
 ### 2012
 
@@ -3301,6 +3330,8 @@
 | 2012 | ÉCO | Hausse du chômage : 10,2 % de la population active | ❌ |
 | 2012 | ÉDU | Rentrée scolaire : 14 000 suppressions de postes annulées partiellement | ✅ |
 | 2012 | ÉDU | Loi sur la refondation de l'École préparée | ⚠️ |
+| 2012 | ECO | Le TSCG (Traité budgétaire européen) est signé en 2012, contraignant les politiques publiques | ❌ |
+| 2012 | EDU | Tennessee adopte loi similaire LSEA | ❌ |
 | 2012 | ÉCO | Notation France dégradée de AAA à A+ (S&P) | ❌ |
 ### 2013
 
@@ -3463,6 +3494,7 @@
 | 2014 | ÉCO | Alstom : vente branche énergie à General Electric validée par Macron ministre, perte de souveraineté nucléaire (turbines Arabelle) | 💀 |
 | 2014 | ÉCO | Banque d'Angleterre confirme que les banques créent la monnaie ex nihilo | ⚠ |
 | 2014 | ÉCO | Richard Werner démontre expérimentalement : emprunte 200 000 € à une banque, dépôt créé sans transfert depuis un autre compte | ⚠ |
+| 2014 | CUL | Débat Nye vs Ham au Creation Museum : 3,5M+ spectateurs | ❌ |
 | 2014 | ÉDU | Master en administration publique de la Harvard Kennedy School | ⚠ |
 ### 2015
 
@@ -3559,6 +3591,8 @@
 | 2015 | ÉDU | EMC (Éducation Morale et Civique) obligatoire 1h/semaine collège | ⚠ |
 | 2015 | ÉDU | Dictée CM2: 18 erreurs (+68% vs 1987) | ❌ |
 | 2015 | MÉD | EU Internet Forum créé après Charlie Hebdo, étendu au contenu « frontal » | ❌ |
+| 2015 | JUR | Loi renseignement du 24 juillet 2015 | ❌ |
+| 2015 | JUR | État d'urgence du 20 novembre 2015 (719 jours) | ❌ |
 | 2015 | JUR | Loi de Transition Énergétique (Ségolène Royal) plafonne la capacité de production nucléaire française | ❌ |
 ### 2016
 
@@ -3650,6 +3684,10 @@
 | 2016 | ÉDU | Réforme du collège appliquée : polémique | ❌ |
 | 2016 | ÉDU | Loi pour une École de la confiance | ⚠️ |
 | 2016 | TEC | Brevet US9526216B2 (Elwha LLC) : système de formation nuageuse par émission de particules chargées | ⚠ |
+| 2016 | JUR | Juge autorise AiG remboursement taxes vente malgré discrimination religieuse embauche | ❌ |
+| 2016 | TEC | DGSI utilise Palantir (Gotham) depuis 2016, contrat renouvelé jusqu'en 2028 | ❌ |
+| 2016 | ECO | Ark Encounter : 18 M$ subventions fiscales de l'État du Kentucky | ❌ |
+| 2016 | ECO | Vidéo WEF "You'll own nothing and you'll be happy" : essai prospectif Ida Auken (députée danoise) | ❌ |
 | 2016 | ÉCO | Le Forum économique mondial publie « You will own nothing » | ❌ |
 ### 2017
 
@@ -3779,6 +3817,12 @@
 | 2017 | ÉDU | 350 000 enfants suivis par ASE | ⚠ |
 | 2017 | MÉD | 14 catégories de contenus surveillés dont satire politique | ❌ |
 | 2017 | ÉCO | Autorisation vente branche énergie Alstom (turbines Arabelle) à General Electric — perte contrôle maintenance centrales nucléaires | 💀 |
+| 2017 | JUR | La loi SILT (Sécurité Intérieure et Lutte contre le Terrorisme) de 2017 absorbe les mesures d'exception dans le droit commun | ❌ |
+| 2017 | JUR | Loi SILT du 30 octobre 2017 | ❌ |
+| 2017 | POL | Danemark : police nationale utilise Gotham (police prédictive) depuis 2017, aucune évaluation indépendante | ❌ |
+| 2017 | ECO | Charge dette 2017 < 50 Mds€; cumul intérêts approche 500 Mds€ | ❌ |
+| 2017 | EDU | Inde (BJP) : réduit place évolution dans programmes NCERT (prétexte "simplification") | ❌ |
+| 2017 | EDU | Turquie (Erdogan) : retire évolution des programmes scolaires, créationnisme enseigné officiellement | ❌ |
 | 2017 | POL | Emmanuel Macron confirme la fermeture de Fessenheim lors de sa campagne présidentielle | ❌ |
 ### 2018
 
@@ -3879,6 +3923,7 @@
 | 2018 | ÉCO | Entre 2018 et 2022, l'État français attribue plus d'un milliard d'euros de contrats de conseil à des cabinets privés (Sénat) | ❌ |
 | 2018 | MÉD | Emmanuelle Ducros rémunérée par la FNSEA/FEB (boulangerie) pour conférences en 2018, interviewe ensuite les mêmes lobbys | ❌ |
 | 2018 | ÉCO | Suisse : initiative Vollgeld (monnaie pleine) soumise au vote, rejetée à 71% | ❌ |
+| 2018 | TEC | TikTok adhère au Code de Conduite contre la Haine | ❌ |
 | 2018 | MÉD | Emmanuelle Ducros reçoit le « Citi Journalistic Excellence Award » 2018, prix parrainé par Citibank récompensant les narratifs pro-marchés financiers | ❌ |
 ### 2019
 
@@ -3977,6 +4022,10 @@
 | 2019 | MÉD | 55 pays, 12 plateformes (mai 2019) | ❌ |
 | 2019 | ÉCO | Mars 2019 : contrat BCG de 358 200 € avec l'État pour "améliorer l'accueil téléphonique des services publics" | ❌ |
 | 2019 | POL | Clintel fondé aux Pays-Bas par le géophysicien Guus Berkhout ; internationalise le déni via sa World Climate Declaration | ❌ |
+| 2019 | JUR | Loi anti-casseurs | ❌ |
+| 2019 | JUR | Loi anti-casseurs du 10 avril 2019 | ❌ |
+| 2019 | MED | Reichstadt nie publiquement recevoir des subventions de l'État (Europe 1, 2019), contredit par budget.gouv.fr | ❌ |
+| 2019 | POL | EUIF étend périmètre au "borderline content" (contenu légal mais nuisible) | ❌ |
 | 2019 | SCI | Yves Bréchet (Académie des Sciences) qualifie l'abandon d'ASTRID d'"étude de cas de disparition de l'État stratégique" | ❌ |
 ### 2020
 
@@ -4086,6 +4135,11 @@
 | 2020 | SANT | Les pesticides empoisonnent 385 millions de personnes par an, soit 44 % des agriculteurs mondiaux | 💀 |
 | 2020 | TEC | Modifier l'altitude de 2 % des vols (ceux traversant les zones propices aux traînées persistantes) réduirait de 80 % le forçage radiatif induit (Teoh et al., Nature Climate Change, 2020, DOI 10.1038/s41558-020-0747-9) | ✅ |
 | 2020 | TEC | Un décalage de 1 000 pieds (300 mètres) suffirait pour éviter la formation de traînées persistantes | ✅ |
+| 2020 | JUR | Brunel mis en examen | ❌ |
+| 2020 | ECO | Francis Collins reçoit Templeton Prize (1,3 M$) pour "réconcilier science et religion" | ❌ |
+| 2020 | EDU | Campbell Biology 12e éd. (Pearson) : photos embryons sans mention fraude Haeckel | ❌ |
+| 2020 | EDU | Campbell Biology page 471 : photos papillons Kettlewell sans mention mise en scène | ❌ |
+| 2020 | EDU | Campbell Biology page 57 : présente Miller-Urey comme "simulation réussie de l'origine de la vie" | ❌ |
 | 2020 | MÉD | Emmanuelle Ducros devient éditorialiste au Point et chroniqueuse sur France Culture, promouvant une ligne pro-industrie sous couvert de rationalisme scientifique | ⚠ |
 ### 2021
 
@@ -4211,6 +4265,11 @@
 | 2021 | ENV | Le CO₂ émis par les réacteurs ne représente que 32 % du forçage radiatif de l'aviation | ❌ |
 | 2021 | ENV | Les oxydes d'azote et les particules de suie représentent le reste du forçage radiatif (hors CO₂ et traînées) | ❌ |
 | 2021 | ENV | Les traînées de condensation et les cirrus induits représentent 57 % du forçage radiatif total de l'aviation (Lee et al., Atmospheric Environment, 2021, DOI 10.1016/j.atmosenv.2021.118731) | ❌ |
+| 2021 | JUR | Loi Séparatisme | ❌ |
+| 2021 | JUR | Loi sécurité globale du 25 mai 2021 | ❌ |
+| 2021 | JUR | Loi sécurité globale du 25 mai 2021 interdit le filmage des policiers | ❌ |
+| 2021 | SANT | BEUC, Cour des comptes européenne rapport 19/2022 sur contrats vaccins COVID | ⚠ |
+| 2021 | TEC | PNAS (Académie nationale des sciences américaine, 2021) : les algorithmes de recommandation amplifient les contenus institutionnels d'un facteur ×10 par rapport aux sources indépendantes | ⚠ |
 | 2021 | POL | Le régime CORSIA (OACI) ne couvre que les émissions de CO₂ ; les traînées, NOx et suies échappent à toute régulation | ❌ |
 ### 2022
 
@@ -4385,6 +4444,22 @@
 | 2022 | ÉCO | Bilan EDF 2022: perte nette de 17,9 milliards d'euros; dette de 64,5 milliards d'euros (record historique) | 💀 |
 | 2022 | ÉCO | EDF intente un procès à 8,34 milliards d'euros contre l'État via le mécanisme ARENH qui l'oblige à vendre à 42 €/MWh | ❌ |
 | 2022 | ÉCO | ExxonMobil : 55,7 milliards de dollars de profit en 2022 | ❌ |
+| 2022 | JUR | Ghislaine Maxwell condamnée à 20 ans (SDNY) | ❌ |
+| 2022 | JUR | Glencore : amende DOJ 201 M$ pour corruption | ❌ |
+| 2022 | JUR | Loi du 24 janvier 2022 crée délit de "mise en danger" par diffusion image de gendarme | ❌ |
+| 2022 | MED | Plus de 300 sondages publiés dans les 100 jours précédant le scrutin de 2022 | ❌ |
+| 2022 | POL | La France Insoumise (Jean-Luc Mélenchon) : 21,95 % à la présidentielle 2022 | ❌ |
+| 2022 | POL | Présidentielle 2022 : la gauche radicale (Mélenchon) sous-évaluée à 13,9 % par les instituts, résultat 21,95 % — écart de 7,6 points | ❌ |
+| 2022 | POL | Rassemblement National : 41,8 % au second tour de la présidentielle 2022 | ❌ |
+| 2022 | POL | Reconquête ! (Éric Zemmour) : 7,07 % à la présidentielle 2022 | ❌ |
+| 2022 | SPO | Finale Coupe du monde 2022 : 24,08 millions de téléspectateurs sur TF1 — record absolu (Le Monde) | ❌ |
+| 2022 | SPO | La Coupe du monde de football au Qatar : les enquêtes sur les milliers de morts sur les chantiers des stades passent au second plan, effacées par le récit du spectacle | ❌ |
+| 2022 | ECO | AiG bénéfice net : 3,8 M$ (8,5% de marge) | ❌ |
+| 2022 | ECO | Answers in Genesis : 44,1 M$ de revenus annuels (IRS Form 990) | ❌ |
+| 2022 | ECO | BioLogos budget : 3,8 M$/an (Templeton Foundation) | ❌ |
+| 2022 | ECO | Discovery Institute budget : 5,2 M$/an | ❌ |
+| 2022 | ECO | Investissement de 833 millions d'euros dans l'Institut Mérieux (10 % du capital, 2022) avec Laurence Debroux siégeant simultanément | ❌ |
+| 2022 | ECO | Ken Ham salaire : 377 201 $/an (151% au-dessus moyenne dirigeants org. religieuses) | ❌ |
 | 2022 | ÉCO | Éolien offshore Saint-Nazaire: tarif de rachat à 150 EUR/MWh, soit 3,5 fois le prix du nucléaire ARENH | ❌ |
 ### 2023
 
@@ -4540,6 +4615,17 @@
 | 2023 | ÉCO | Dette nette d'EDF atteint 54 milliards d'euros fin 2023 | ❌ |
 | 2023 | ÉCO | EDF inscrit une dépréciation comptable de 12,9 milliards d'euros suite aux retards d'Hinkley Point C | ❌ |
 | 2023 | ÉCO | Verra : 90 % de ses crédits forêt déclarés sans valeur par une investigation du Guardian | ❌ |
+| 2023 | SOC | 735 morts à la rue (collectif Les Morts de la Rue) | 💀 |
+| 2023 | JUR | Loi VSA JO 2024 du 19 mai 2023 (185 caméras) | ❌ |
+| 2023 | MED | 19 % des journalistes français pensent pouvoir critiquer hiérarchie sans risque (RSF 2023) | ❌ |
+| 2023 | POL | Slovaquie : contenus supprimés "Il n'y a que deux genres", "Les enfants ne peuvent pas être trans", "L'idéologie LGBTIQ est une menace" | ❌ |
+| 2023 | POL | Twitter (X) refuse de signer le Code de Désinformation, se retire en 2023 | ❌ |
+| 2023 | SOC | Les grèves en France représentent 171 jours non travaillés pour 1 000 salariés (contestation des retraites) | ❌ |
+| 2023 | SOC | Émeutes Nahel 2023: 1 500 comparutions, 90 % condamnations | ❌ |
+| 2023 | TEC | GIFCT compte 18 entreprises membres | ❌ |
+| 2023 | TEC | Reconnaissance faciale post-hoc (Briefcam) documentée par La Quadrature du Net | 💀 |
+| 2023 | TEC | Vidéosurveillance algorithmique illégale Police nationale (Disclose 2023) | ❌ |
+| 2023 | ECO | NCSE revenus : 1,4 M$ ; déficit 167 948 $ (-12%) | ❌ |
 | 2023 | ÉCO | Éolien terrestre rapporte 3,4 milliards d'euros grâce aux prix de marché élevés | ✅ |
 ### 2024
 
@@ -4929,6 +5015,41 @@
 | 2024 | MÉD | C8 écope de 7,5 millions d'euros d'amendes ARCOM en 2024 | ❌ |
 | 2024 | MÉD | CNews écope de 80 000 euros d'amendes ARCOM en 2024 | ❌ |
 | 2024 | MÉD | Depuis 2019, l'ARCOM a sanctionné CNews 26 fois pour un total de 630 001 euros | ❌ |
+| 2024 | SOC | 82 000 logements sociaux financés (vs 124 000 2016) | ❌ |
+| 2024 | JUR | Loi VSA (Vidéo Surveillance et Algorithmes) | ❌ |
+| 2024 | MED | 18 % des Français ont "plutôt confiance" dans les médias (Kantar 2024 pour RSF) | ❌ |
+| 2024 | MED | 462 M€ subventions État aux médias en 2024 (rapport Sénat PLF 2024) | ⚠ |
+| 2024 | MED | 527 titres de presse aidés par l'État (SSPP 2023) | ❌ |
+| 2024 | MED | 6 contrats publics État-groupes médias (Bolloré, Arnault, Bouygues) | ❌ |
+| 2024 | MED | 90 % des médias français contrôlés par 10 milliardaires (RSF 2024) | ❌ |
+| 2024 | MED | ARCOM désigne 7 ONG comme "signalants de confiance" (liste officielle) | ❌ |
+| 2024 | MED | CNews sanctionnée 80 000 €, conserve la TNT | ❌ |
+| 2024 | MED | Groupe Bolloré (CNews, Europe 1, JDD) ; Arnault (Les Échos, Le Parisien) ; Bouygues (TF1, LCI) ; Dassault (Le Figaro) ; Drahi/Saadé (BFMTV, RMC) ; Niel (Le Monde) | ❌ |
+| 2024 | MED | Ratio 90x entre sanctions C8 et CNews (même propriétaire Bolloré) | ❌ |
+| 2024 | MED | Renouvellement TNT: C8 sanctionnée 7,5 M€, perd la TNT | ❌ |
+| 2024 | POL | Roumanie : élections Calin Georgescu annulées sans preuve d'ingérence russe | ❌ |
+| 2024 | SCI | Stroud & Ratcliff (Nature Ecology & Evolution) : "EES n'est pas une révolution mais une extension nécessaire" | ❌ |
+| 2024 | SCI | Tiktaalik roseae (Shubin et al., PNAS, DOI: 10.1073/pnas.2316106121) | ❌ |
+| 2024 | SOC | Brexit et émeutes UK 2024 | ❌ |
+| 2024 | SOC | Le chiffre des grèves retombe à 62 jours pour 1 000 salariés, reste parmi les plus élevés d'Europe | ❌ |
+| 2024 | SPO | 63 % des mises proviennent de joueurs addicts ou en perte de contrôle | ❌ |
+| 2024 | SPO | 670 M€ d'investissements publics dans les paris sportifs en 2024 (L'Express) | ❌ |
+| 2024 | SPO | France 2 consacre 79 % de son temps de journal aux JO en moyenne | ❌ |
+| 2024 | SPO | Les JO de 2024 occupent 41 jours de couverture médiatique à la une | ❌ |
+| 2024 | SPO | Les Jeux Olympiques de Paris 2024 servent d'écran de fumée : le gouvernement fait voter en catimini des textes sur la surveillance algorithmique pendant l'été de la cérémonie d'ouverture | ❌ |
+| 2024 | SPO | Paris 2024 : la ville est « nettoyée » de ses sans-abri, les prix explosent, les images d'unité nationale saturent les consciences | ❌ |
+| 2024 | SPO | Paris sportifs : 1,8 Md€ de mises en 2024, hausse de 19 % (ANJ) | ❌ |
+| 2024 | TEC | 13/27 pays DSA: seuls 2 régulateurs déclarés conformes à l'indépendance | ❌ |
+| 2024 | TEC | GIFCT compte plus de 25 entreprises membres | ❌ |
+| 2024 | TEC | JO de Paris 2024 : 185 caméras fixes de vidéosurveillance algorithmique déployées (source France Info) | ❌ |
+| 2024 | TEC | Loi SREN (mai 2024): fuites justifient extension pouvoirs ARCOM | ❌ |
+| 2024 | TEC | Telegram n'avait traité que 4 réquisitions judiciaires au T1 2024 | ❌ |
+| 2024 | TEC | Université d'Anvers : étude peer-reviewed sur doubles standards Meta Ukraine/Gaza | ⚠ |
+| 2024 | TRA | 1 781 heures par an (INSEE, enquêtes Emploi 2024) | ⚠ |
+| 2024 | ECO | FinCEN : 9 Md$ de banque de l'ombre iranienne identifiés | ❌ |
+| 2024 | ECO | Vitol profit net : 8,7 Md$ | ❌ |
+| 2024 | EDU | Miller & Levine (éditeur scolaire USA) : page "Haeckel's Embryos" présente Haeckel comme observateur honnête | ❌ |
+| 2024 | EDU | Sylvia Mader Biology édition 2024 (McGraw Hill) page 268 : dessins Haeckel "colorisés" | ❌ |
 | 2024 | ÉCO | Nancy Fraser: concept de « cannibal capitalism » dévorant ses propres bases sociales | ⚠ |
 ### 2025
 
@@ -5710,6 +5831,22 @@
 | 2025 | ÉCO | UFIP confirme: CEE représentent environ 11 centimes dans le prix du litre actuellement | ❌ |
 | 2025 | ÉDU | Promotions terminales de l'INSTN comptent moins de 50 élèves certifiés | ❌ |
 | 2025 | ÉCO | La France frôle le blackout électrique à 2 reprises, perdant 10 puis 8 gigawatts de capacité | ❌ |
+| 2025 | EDU | 20% enseignants collège/lycée contractuels (40% Créteil/Versailles/Guyane) | ❌ |
+| 2025 | DIP | DGSE demanderait censure chaînes moldaves avant élections législatives | ❌ |
+| 2025 | DIP | Durov affirme Lerner demande suppression chaînes Telegram partisans candidat conservateur roumain | ❌ |
+| 2025 | DIP | Durov refuse les deux demandes | ❌ |
+| 2025 | DIP | George Simion reprend accusations, Cour constitutionnelle roumaine rejette recours | ❌ |
+| 2025 | DIP | Printemps 2025: Durov rencontre Nicolas Lerner (DGSE) au salon Batailles Hôtel Crillon | ❌ |
+| 2025 | MED | 34 acteurs mappés, network density 0,70 | ❌ |
+| 2025 | MED | 45 sources primaires (ARCOM, Twitter Files, Sénat, Conseil d'État, RSF) | ❌ |
+| 2025 | MED | 7,6 M€ total sanctions ARCOM, 1 fréquence TNT perdue | ❌ |
+| 2025 | MED | >90 % de l'architecture de censure est cachée sous la surface | ❌ |
+| 2025 | POL | 41 % des Français souhaitent un « homme fort » pour diriger le pays (Baromètre CEVIPOF/Pascal Perrineau, 2025) | ❌ |
+| 2025 | SOC | 2 morts non imputables aux FO: adolescent 17 ans poignardé Dax, 1 percuté Paris 15e | ❌ |
+| 2025 | SPO | Budget sport de l'État en 2025 : 593,1 M€, en baisse de 23,47 % par rapport à 2024 (Le Monde) | ⚠ |
+| 2025 | TEC | Science (2025) : les contenus qualifiés de « dissidents » subissent une dépriorisation algorithmique massive | ⚠ |
+| 2025 | ECO | Trafigura profit net : 2,7 Md$ | ❌ |
+| 2025 | ECO | Vitol distribué aux traders : 10,6 Md$ | ❌ |
 | 2025 | ÉCO | Thales: 22,1 milliards d'euros de ventes, carnet de commandes record de 53,3 milliards | ❌ |
 ### 2026
 
@@ -6480,6 +6617,36 @@
 | 2026 | ÉCO | Décret rehausse de 27% les obligations CEE, passant de 825 à 1050 TWhc par an | ❌ |
 | 2026 | ÉCO | Fournisseurs d'énergie devront financer plus de 8 milliards d'euros de primes à la rénovation en 2026 | ❌ |
 | 2026 | ÉCO | France importe entre 50 et 70 milliards d'euros de pétrole et de gaz par an | ❌ |
+| 2026 | DIP | AFD ~225 M$ sur 3 ans pour Moldavie (diplomatie française) | ❌ |
+| 2026 | DIP | EUPM Moldova: 62 activités, 19,8 M€ + 13,4 M€ fonds UE associés | ❌ |
+| 2026 | DEMO | France 2026: 11,3 % immigrés, RN à 30 %, société fragmentée | ❌ |
+| 2026 | JUR | 90 % lois adoptées sans vote (49.3 ou ordonnances) | ❌ |
+| 2026 | JUR | Fabrice Aidan (diplomate) : seule enquête active ouverte en 2026 | ⚠ |
+| 2026 | JUR | Qualification "tentative d'homicide volontaire sur PDAP" pour jets mortiers: peine 7→30 ans | ❌ |
+| 2026 | JUR | Réouverture enquête Brunel : réanalyse intégrale + 2 enquêtes cadre | ⚠ |
+| 2026 | MED | 16 articles fondateurs, >100 investigations en 5 mois | ⚠ |
+| 2026 | POL | 42 % vote rural RN contre 30 % en ville (Destin commun) | ❌ |
+| 2026 | POL | Article 49.3 devenu instrument de gouvernement courant | ⚠ |
+| 2026 | POL | Oklahoma SB 1868 (proposition loi enseignement "équilibré" - Sénateur David Bullard) | ❌ |
+| 2026 | SANT | ONIAM indemnisation victimes vaccins obligatoires | ❌ |
+| 2026 | SOC | 4,2 millions bénéficiaires RSA (+90 % depuis 2001) | ❌ |
+| 2026 | TEC | Crédits ANSSI réduits de 8 M€, exfiltrations augmentent de 51 % (PLF 2025) | ❌ |
+| 2026 | TEC | Groupes piratage: DumpSec, APT28/GRU, Qilin, Cl0p | ❌ |
+| 2026 | TEC | Plus de 280 millions données volées / 300+ services piratés (FrenchBreaches) | ❌ |
+| 2026 | TEC | Police nationale: 176 000 agents; sport: 60 fédérations; France Travail: 30 M données perdues | ❌ |
+| 2026 | TEC | Santé: 35 M Français via ARS et Cegedim; banque: 1,2 M comptes FICOBA; éducation: 3,5 M mineurs EduConnect | ❌ |
+| 2026 | ECO | 3 544 Mds€ de dette publique en 2026 (Cour des comptes) | ❌ |
+| 2026 | ECO | 310 Mds€ d'emprunt record pour la seule année 2026 | ❌ |
+| 2026 | ECO | 55 % dette détenue par non-résidents (Banque de France): 30-36 Mds€/an sortent de l'économie | ❌ |
+| 2026 | ECO | 90,8 % actions Atos aux fonds anglo-saxons: Melqart (UK), D.E. Shaw (US), Tresidor (UK) | ❌ |
+| 2026 | ECO | Atos endetté 4,8 Mds€, converti en propriété créancière | ❌ |
+| 2026 | ECO | Aurélie Trouvé dénonce "le plus gros scandale économique d'État" et silence de Bercy | ❌ |
+| 2026 | ECO | Bercy proposait 410 M€ pour actifs stratégiques Atos (Le Monde) | ❌ |
+| 2026 | ECO | Bénéficiaires DSA: Accenture, Teleperformance, TaskUs | ❌ |
+| 2026 | ECO | Dépenses publiques France: 57,8 % PIB (UE: 48,9 %, Allemagne: 46,5 %) — Eurostat | ❌ |
+| 2026 | ECO | Dépenses sociales France: 31,6 % PIB — EUROMOD | ❌ |
+| 2026 | ECO | Intérêts dette: 55-65 Mds€/an (AFT), soit 9,5 % du budget de l'État | ❌ |
+| 2026 | ECO | Marché conformité DSA: 13,94 Mds$ en 2026, 42,36 Mds$ projetés 2035 | ❌ |
 | 2026 | ÉCO | Prix du pétrole atteint 120 dollars le baril | ❌ |
 ### 2030
 

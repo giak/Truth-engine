@@ -340,3 +340,6 @@
 | 2026-02-07 | MÉD | Ari Ben-Menashe (ex-Mossad) révèle le lien Netanyahou-Epstein-Trump sur RT | ⚠ |
 | 2026-02-14 | MÉD | Seymour Hersh publie : « Further attacks and regime change are on the table » | ⚠ |
 | 2026-01 | TER | Jeffrey Epstein était formé comme agent du Mossad israélien (documents FBI, Middle East Eye) | ❌ |
+| 2025-12-11/12 | ECO | Coût estimé de l'opération Bordes-sur-Arize : 100 000 à 200 000 € | ❌ |
+| 2021-02/12 | TEC | Meta a shadowbanné le député européen Tom Vandendriessche pendant dix mois (février-décembre 2021) | ❌ |
+| 2026-04-17/18 | POL | Neuf événements en deux jours (17-18 avril 2026) vérifient l'architecture en temps réel | ❌ |
