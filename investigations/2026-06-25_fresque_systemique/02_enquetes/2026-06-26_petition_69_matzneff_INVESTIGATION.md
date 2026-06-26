@@ -1,6 +1,6 @@
-# INVESTIGATION SYSTEMIQUE v2.3 — Pétition des 69 & Matzneff (1977-2020)
+# INVESTIGATION SYSTEMIQUE v2.4 — Pétition des 69 & Matzneff (1977-2020)
 ## Enquete NREF complete (12 exigences + archeologie + contre-mesures)
-## Migration v2.1 → v2.3 — La bascule morale de l'intelligentsia
+## Migration v2.1 → v2.4 (Pelote v2.4) — La bascule morale de l'intelligentsia
 
 ### META-INFORMATIONS
 
@@ -40,7 +40,7 @@
 
 ---
 
-## FICHE YAML v2.3 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
+## FICHE YAML v2.4 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
 
 ```yaml
 # ============================================================

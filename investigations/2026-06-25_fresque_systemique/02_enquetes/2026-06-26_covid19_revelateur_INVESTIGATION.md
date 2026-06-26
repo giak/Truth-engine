@@ -1,6 +1,6 @@
-# INVESTIGATION SYSTEMIQUE v2.3 — COVID-19 en France (2020-2023)
+# INVESTIGATION SYSTEMIQUE v2.4 — COVID-19 en France (2020-2023)
 ## Enquete NREF complete (12 exigences + archeologie + contre-mesures)
-## Migration v2.1 → v2.3 — La pandémie comme révélateur structurel
+## Migration v2.1 → v2.4 (Pelote v2.4) — La pandémie comme révélateur structurel
 
 ### META-INFORMATIONS
 
@@ -35,7 +35,7 @@
 
 ---
 
-## FICHE YAML v2.3 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
+## FICHE YAML v2.4 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
 
 ```yaml
 # ============================================================

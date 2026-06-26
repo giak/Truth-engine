@@ -1,6 +1,6 @@
-# INVESTIGATION SYSTEMIQUE v2.3 — Tchernobyl 1986
+# INVESTIGATION SYSTEMIQUE v2.4 — Tchernobyl 1986
 ## Enquete NREF complete (12 exigences + archeologie + contre-mesures)
-## Migration v2.1 → v2.3 — La bascule de la communication d'État
+## Migration v2.1 → v2.4 (Pelote v2.4) — La bascule de la communication d'État
 
 ### META-INFORMATIONS
 
@@ -36,7 +36,7 @@
 
 ---
 
-## FICHE YAML v2.3 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
+## FICHE YAML v2.4 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
 
 ```yaml
 # ============================================================
