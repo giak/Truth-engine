@@ -1,16 +1,16 @@
-# TABLEAU DE BORD — INVESTIGATIONS SYSTEMIQUES V2.3
+# TABLEAU DE BORD — INVESTIGATIONS SYSTEMIQUES V2.4
 
 > **Thèse centrale :** Les défaillances françaises ne sont pas des accidents. Elles sont le produit d'une architecture système construite sur 200+ ans, maintenue par un ensemble de mécanismes homéostatiques qui transforment la colère en carburant, la résistance en maintenance, et la lucidité en fonction du système.
 >
 > Ce tableau de bord est la **fresque cumulative** de cette thèse — enquête après enquête, il agrège les preuves, trace l'émergence des patterns, et prépare la matière pour la réponse. Chaque investigation ajoute une strate : un nouveau scandale, les mêmes mécanismes, la confirmation que le « dysfonctionnement » est le fonctionnement normal.
 >
-> *Mise à jour v2.3 : 10 enquêtes produites. Enquête ARCOM (2019-2026) — censure numérique institutionnalisée, extension Fil I au juridique. 5 nouvelles enquêtes depuis la v2.1 : Maastricht, Fiscalité, Mazan, Niches, ARCOM.*
+> *Mise à jour v2.4 (Pelote) : 10 enquêtes standardisées REMONTEE_DES_FILS (marquage, gaps_verifies, cross_reference). Ajout de la Méthode de la Pelote de Laine (algorithme 5 questions récursives). Voir protocole v2.4.*
 
 ## Métriques globales
 
 | Métrique | Valeur | Date |
 |----------|--------|------|
-| Enquêtes v2.3 produites | **10** (5 migrées + 5 nouvelles : Maastricht, Fiscalite, Mazan, Niches, ARCOM) | 2026-06-26 |
+| Enquêtes v2.4 produites | **10** (toutes standardisées Pelote) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
 | Ultrathinking réalisés | 10 / 10 (100 %) | 2026-06-26 |
 | Second agents exécutés | 0 / 10 (0 %) | — |
@@ -18,6 +18,11 @@
 | Sources vérifiées cumulées | 55 ✦ + 5 ⁅ + 57 ❧ = 117 | 2026-06-26 |
 | HEAD checks effectués | 39 | 2026-06-26 |
 | Blocages identifiés | 3 (second agents non exécutés) | — |
+| **Standardisation Pelote v2.4** | | |
+| Fils avec marquage `[RACINE_FONDATRICE/ANCIENNE]` | **62/62** (100 %) | 2026-06-26 |
+| Chaînes causales avec `gaps_verifies:` | **61/62** (98 %) | 2026-06-26 |
+| Fils avec `cross_reference:` référentiel | **62/62** (100 %) | 2026-06-26 |
+| Anomalies Pelote (ARCOM) | 1 fil sans chaine causale | — |
 | **Pattern invariant confirmé** | **M11+M28 invariant 10/10** ; **M05 dans 9/10** (Mazan : M05 absent) | 2026-06-26 |
 | **Fil I** | **CONFIRMÉ** (Maastricht 1992 + **ARCOM : extension hypothèse vassalité juridique**) | 2026-06-26 |
 | **Fil L** | **CONFIRMÉ** (Fiscalité asymétrique — replication niches réussie) | 2026-06-26 |
@@ -29,35 +34,38 @@
 
 ## Enquêtes réalisées
 
-| # | Ver. | Date | ID | Sujet | NREF | Fils | M## dominants | REMONTEE_FILS | CONTRE_MESURES |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | **v2.3** | 2026-06-26 | SYSTEME_1984_Sang_Contamine_v2.3 | Sang contaminé (1984-2003) — cas-zéro, 8 fils, 8 actes naissance documentés | **B** | A-H | M14, M23, M05, M28, M11 | ✅ 8 fils | ✅ 2 actions |
-| 2 | **v2.3** | 2026-06-26 | SYSTEME_1986_Tchernobyl_v2.3 | Tchernobyl (1986) — mensonge d'État sanitaire inaugural, 5 fils archéologiques | **B** | B,H,E,G,C | M11, M37, M28, M09, M05 | ✅ 5 fils | ✅ 2 actions |
-| 3 | **v2.3** | 2026-06-26 | SYSTEME_1977_Petition_69_Matzneff_v2.3 | Pétition des 69 + Matzneff (1977-2020) — 40 ans d'impunité culturelle, 6 fils archéologiques | **B** | B,C,D,E,F,G | M37, M11, M28, M22, M05 | ✅ 6 fils | ✅ 2 actions |
-| 4 | **v2.3** | 2026-06-26 | SYSTEME_1983_Virage_Rigueur_v2.3 | Virage de la rigueur (21 mars 1983) — austérité verrouillée, 5 fils archéologiques | **B** | B,H,D,E,C | M37, M05, M11, M22, M28 | ✅ 5 fils | ✅ 2 actions |
-| 5 | **v2.3** | 2026-06-26 | SYSTEME_2020_Covid19_v2.3 | COVID-19 (mars 2020) — révélateur systémique, 8 fils archéologiques | **B** | A,B,C,D,E,F,G,H | M09, M11, M22, M28, M37 | ✅ 8 fils | ✅ 2 actions |
-| **6** | **v2.3** | 2026-06-26 | SYSTEME_1992_Maastricht_v2.3 | Maastricht 1992 — validation Fil I : vassalité monétaire, 6 fils archéologiques | **B** | B,C,D,E,H,I | M43, M11, M37, M28, M05 | ✅ 6 fils (dont I candidat) | ✅ 2 actions |
-| **7** | **v2.3** | 2026-06-26 | SYSTEME_1914-2026_Asymetrie_fiscale | Travail taxé, Capital protégé — asymétrie fiscale structurelle, 6 fils archéologiques, 110 ans d'histoire | **B** | B,C,D,E,H,I | M11, M28, M05, M43, M02 | ✅ 6 fils (dont L candidat) | ✅ 2 actions |
-| **8** | **v2.3** | 2026-06-26 | SYSTEME_2024_Mazan_Pelicot | Procès des viols de Mazan (Pelicot, 2024) — TEST DE RÉPLICATION : la justice a-t-elle fonctionné ou est-ce l'exception qui confirme la règle ? Contre-exemples partiels à Fil D (51 condamnations) et Fil E (couverture médiatique mondiale) | **C** | B,C,D,E,G,H | M37, M28, M11, M02, M22 | ✅ 6 fils + contre-exemples | ✅ 2 actions |
-| **9** | **v2.3** | 2026-06-26 | SYSTEME_1807-2026_Niches_fiscales | Niches fiscales (1807-2026) — RÉPLICATION Fil L : 470 niches fiscales, 90-100 Md€/an, qui bénéficie des dépenses fiscales ? L'instrument invisible de l'asymétrie travail/capital | **C** | B,C,D,E,H,L | M05, M11, M28, M37, M22 | ✅ 6 fils (dont L réplication) | ✅ 2 actions |
-| **10** | **v2.3** | 2026-06-26 | SYSTEME_2019-2026_ARCOM_Censure | ARCOM (2019-2026) — censure numérique institutionnalisée : de la HADOPI au complexe de censure européen (DSA). 6 fils actifs. Extension Fil I au juridique (HYPOTHÈSE). Budget 51→500 M€, Twitter Files, OONI | **C** | B,C,D,E,H,I | M11, M37, M28, M02, M22 | ✅ 6 fils (dont I extension) | ✅ 2 actions |
+| # | Ver. | Date | ID | Sujet | NREF | Fils | M## dominants | REMONTEE_FILS | PELOTE | CONTRE_MESURES |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | **v2.4** | 2026-06-26 | SYSTEME_1984_Sang_Contamine_v2.3 | Sang contaminé (1984-2003) — cas-zéro, 8 fils, 8 actes naissance documentés | **B** | A-H | M14, M23, M05, M28, M11 | ✅ 8 fils | ✅ 8/8 | ✅ 2 actions |
+| 2 | **v2.4** | 2026-06-26 | SYSTEME_1986_Tchernobyl_v2.3 | Tchernobyl (1986) — mensonge d'État sanitaire inaugural, 5 fils archéologiques | **B** | B,H,E,G,C | M11, M37, M28, M09, M05 | ✅ 5 fils | ✅ 5/5 | ✅ 2 actions |
+| 3 | **v2.4** | 2026-06-26 | SYSTEME_1977_Petition_69_Matzneff_v2.3 | Pétition des 69 + Matzneff (1977-2020) — 40 ans d'impunité culturelle, 6 fils archéologiques | **B** | B,C,D,E,F,G | M37, M11, M28, M22, M05 | ✅ 6 fils | ✅ 6/6 | ✅ 2 actions |
+| 4 | **v2.4** | 2026-06-26 | SYSTEME_1983_Virage_Rigueur_v2.3 | Virage de la rigueur (21 mars 1983) — austérité verrouillée, 5 fils archéologiques | **B** | B,H,D,E,C | M37, M05, M11, M22, M28 | ✅ 5 fils | ✅ 5/5 | ✅ 2 actions |
+| 5 | **v2.4** | 2026-06-26 | SYSTEME_2020_Covid19_v2.3 | COVID-19 (mars 2020) — révélateur systémique, 8 fils archéologiques | **B** | A,B,C,D,E,F,G,H | M09, M11, M22, M28, M37 | ✅ 8 fils | ✅ 8/8 | ✅ 2 actions |
+| **6** | **v2.4** | 2026-06-26 | SYSTEME_1992_Maastricht_v2.3 | Maastricht 1992 — validation Fil I : vassalité monétaire, 6 fils archéologiques | **B** | B,C,D,E,H,I | M43, M11, M37, M28, M05 | ✅ 6 fils (dont I candidat) | ✅ 6/6 | ✅ 2 actions |
+| **7** | **v2.4** | 2026-06-26 | SYSTEME_1914-2026_Asymetrie_fiscale | Travail taxé, Capital protégé — asymétrie fiscale structurelle, 6 fils archéologiques, 110 ans d'histoire | **B** | B,C,D,E,H,I | M11, M28, M05, M43, M02 | ✅ 6 fils (dont L candidat) | ✅ 6/6 | ✅ 2 actions |
+| **8** | **v2.4** | 2026-06-26 | SYSTEME_2024_Mazan_Pelicot | Procès des viols de Mazan (Pelicot, 2024) — TEST DE RÉPLICATION : la justice a-t-elle fonctionné ou est-ce l'exception qui confirme la règle ? Contre-exemples partiels à Fil D (51 condamnations) et Fil E (couverture médiatique mondiale) | **C** | B,C,D,E,G,H | M37, M28, M11, M02, M22 | ✅ 6 fils + contre-exemples | ✅ 6/6 | ✅ 2 actions |
+| **9** | **v2.4** | 2026-06-26 | SYSTEME_1807-2026_Niches_fiscales | Niches fiscales (1807-2026) — RÉPLICATION Fil L : 470 niches fiscales, 90-100 Md€/an, qui bénéficie des dépenses fiscales ? L'instrument invisible de l'asymétrie travail/capital | **C** | B,C,D,E,H,L | M05, M11, M28, M37, M22 | ✅ 6 fils (dont L réplication) | ✅ 6/6 | ✅ 2 actions |
+| **10** | **v2.4** | 2026-06-26 | SYSTEME_2019-2026_ARCOM_Censure | ARCOM (2019-2026) — censure numérique institutionnalisée : de la HADOPI au complexe de censure européen (DSA). 6 fils actifs. Extension Fil I au juridique (HYPOTHÈSE). Budget 51→500 M€, Twitter Files, OONI | **C** | B,C,D,E,H,I | M11, M37, M28, M02, M22 | ✅ 6 fils (dont I extension) | ⚠️ 5/6 | ✅ 2 actions |
+
+**Légende :** ✅ = fait | ⚠️ = anomalie | 🔲 = à faire
+**Pelote :** marquage `[RACINE_FONDATRICE/ANCIENNE]` + `gaps_verifies:` + `cross_reference:` conformes sur X/Y fils
 
 **Légende :** ✅ = fait | 🔲 = à faire
 
-### Fichiers produits (mis à jour)
+### Fichiers produits (mis à jour v2.4)
 
 | Enquête | Fiche |
 |---------|-------|
-| Sang contaminé v2.3 | `02_enquetes/2026-06-26_sang_contamine_v2.3_INVESTIGATION.md` (migré de v2.1 → archive/) |
-| Tchernobyl v2.1 | `02_enquetes/2026-06-26_tchernobyl_bascule_INVESTIGATION.md` |
-| Pétition 69 + Matzneff v2.1 | `02_enquetes/2026-06-26_petition_69_matzneff_INVESTIGATION.md` |
-| Virage de la rigueur v2.1 | `02_enquetes/2026-06-26_virage_rigueur_1983_INVESTIGATION.md` |
-| COVID-19 révélateur v2.1 | `02_enquetes/2026-06-26_covid19_revelateur_INVESTIGATION.md` |
-| Maastricht 1992 v2.3 | `02_enquetes/2026-06-26_maastricht_vassalite_monetaire_v2.3_INVESTIGATION.md` |
-| Asymétrie fiscale v2.3 | `02_enquetes/2026-06-26_asymetrie_fiscale_travail_capital_v2.3_INVESTIGATION.md` |
-| Mazan/Pelicot v2.3 | `02_enquetes/2026-06-26_proces_mazan_pelicot_v2.3_INVESTIGATION.md` |
-| Niches fiscales v2.3 | `02_enquetes/2026-06-26_niches_fiscales_v2.3_INVESTIGATION.md` |
-| ARCOM censure v2.3 | `02_enquetes/2026-06-26_arcom_censure_numerique_v2.3_INVESTIGATION.md` |
+| Sang contaminé v2.4 | `02_enquetes/2026-06-26_sang_contamine_v2.3_INVESTIGATION.md` (Pelote v2.4) |
+| Tchernobyl v2.4 | `02_enquetes/2026-06-26_tchernobyl_bascule_INVESTIGATION.md` (Pelote v2.4) |
+| Pétition 69 + Matzneff v2.4 | `02_enquetes/2026-06-26_petition_69_matzneff_INVESTIGATION.md` (Pelote v2.4) |
+| Virage de la rigueur v2.4 | `02_enquetes/2026-06-26_virage_rigueur_1983_INVESTIGATION.md` (Pelote v2.4) |
+| COVID-19 révélateur v2.4 | `02_enquetes/2026-06-26_covid19_revelateur_INVESTIGATION.md` (Pelote v2.4) |
+| Maastricht 1992 v2.4 | `02_enquetes/2026-06-26_maastricht_vassalite_monetaire_v2.3_INVESTIGATION.md` (Pelote v2.4) |
+| Asymétrie fiscale v2.4 | `02_enquetes/2026-06-26_asymetrie_fiscale_travail_capital_v2.3_INVESTIGATION.md` (Pelote v2.4) |
+| Mazan/Pelicot v2.4 | `02_enquetes/2026-06-26_proces_mazan_pelicot_v2.3_INVESTIGATION.md` (Pelote v2.4) |
+| Niches fiscales v2.4 | `02_enquetes/2026-06-26_niches_fiscales_v2.3_INVESTIGATION.md` (Pelote v2.4) |
+| ARCOM censure v2.4 | `02_enquetes/2026-06-26_arcom_censure_numerique_v2.3_INVESTIGATION.md` (Pelote v2.4) |
 
 **Archive :** Sang v2.1 → `02_enquetes/archive/2026-06-26_sang_contamine_NREF_INVESTIGATION.md`. Architecture fondatrice → `02_enquetes/archive/2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md`.
 
@@ -65,7 +73,7 @@
 
 ## Synthèse des enquêtes
 
-### Sang contaminé v2.3 (1984-2003) — Degré 5/5 [MIGRÉ v2.3]
+### Sang contaminé v2.4 (1984-2003) — Degré 5/5 [PELOTE v2.4]
 
 **Thèse centrale :**
 > L'affaire du sang contaminé n'est pas un dysfonctionnement — c'est le fonctionnement normal du système français, conçu depuis 1791 pour centraliser le savoir, monopoliser les moyens, désarmer les citoyens, protéger les élites, contrôler l'information, former à l'obédience et préférer le national à l'efficace.
@@ -76,7 +84,7 @@
 
 **NREF : B** (NREF-11 et NREF-12 satisfaits en substance mais sources historiques non numérisées ❧).
 
-### Tchernobyl v2.1 (1986) — Degré 4/5
+### Tchernobyl v2.4 (1986) — Degré 4/5
 
 **Thèse centrale :** Tchernobyl est la bascule inaugurale du mensonge d'État sanitaire en France. M11+M37+M28+M09+M05.
 
@@ -86,7 +94,7 @@
 
 **Sources :** 4 ✦ + 0 ⁅ + 3 ❧ (57 % vérifiés). **NREF : B.**
 
-### Pétition des 69 + Matzneff v2.1 (1977-2020) — Degré 5/5
+### Pétition des 69 + Matzneff v2.4 (1977-2020) — Degré 5/5
 
 **Thèse centrale :** L'intellectuel comme autorité morale suprême — 40 ans d'impunité par hypernormalisation (M37), kayfabe (M11), DARVO (M28).
 
@@ -94,7 +102,7 @@
 
 **6 fils actifs :** B, C, D, E, F, G. **Sources :** 6 ✦ + 2 ⁅ + 1 ❧ (67 %). **NREF : B.**
 
-### Virage de la rigueur v2.1 (1983) — Degré 5/5
+### Virage de la rigueur v2.4 (1983) — Degré 5/5
 
 **Thèse centrale :** Le moment où la France a verrouillé son modèle d'austérité permanente sous l'apparence du réalisme. Cercle de 5 personnes décide, parlement pas consulté.
 
@@ -102,7 +110,7 @@
 
 **5 fils actifs :** B, H, D, E, C. **Sources :** 7 ✦ + 0 ⁅ + 2 ❧ (78 %). **NREF : A.**
 
-### COVID-19 révélateur v2.1 (2020-2023) — Degré 5/5
+### COVID-19 révélateur v2.4 (2020-2023) — Degré 5/5
 
 **Thèse centrale :** Le COVID a révélé les 8 fils activés simultanément. Kayfabe vaccinal maximal.
 
@@ -119,7 +127,7 @@
 
 ### Invariants (5 domaines : SANT, ENV, CUL, POL, SANT)
 
-| Mécanisme | Sang v2.3 | Tchernobyl | Pétition 69 | Virage 83 | COVID | Fréquence |
+| Mécanisme | Sang v2.4 | Tchernobyl | Pétition 69 | Virage 83 | COVID | Fréquence |
 |-----------|:---------:|:----------:|:-----------:|:---------:|:-----:|:---------:|
 | **M11 Kayfabe** | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
 | **M28 DARVO** | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
@@ -195,7 +203,7 @@ Chaque enquête est connectée à ≥ 3 autres :
 
 ### Prochaines étapes de la consolidation
 
-1. ✅ **Migrer 4 enquêtes v2.1 → v2.3** (REMONTEE_DES_FILS + CONTRE_MESURES)
+1. ✅ **Standardisation Pelote v2.4** — REMONTEE_DES_FILS : marquage + gaps_verifies + cross_reference sur 10/10 enquêtes
 2. ✅ **Test de réplication événement récent** (Mazan/Pelicot 2024) — cadre validé, M05 absent dans affaire judiciaire pure
 3. 🔲 **Exécuter les 9 seconds agents** (contre-expertise)
 4. 🔲 **Valider fil I** par enquête dédiée (Grèce 2015 ou Maastricht 1992)
@@ -203,6 +211,7 @@ Chaque enquête est connectée à ≥ 3 autres :
 6. ✅ **Référentiel archéologique mis à jour** (nouveaux renforcements + fils I, J, K)
 7. ✅ **Document de consolidation** créé : `03_framework/2026-06-26_18-30_consolidation_5_enquetes_ANALYSE.md`
 8. ✅ **Enquête de replication Fil L** — niches fiscales : Fil L confirmé comme verrou autonome, M47 testé par replication
+9. 🔲 **Corriger ARCOM** — 1 fil sans chaine_causale (6 fils, 5 chaines)
 
 ---
 
@@ -212,11 +221,16 @@ Chaque enquête est connectée à ≥ 3 autres :
 
 | Enquête | Étape manquante | Bloquant pour | Priorité |
 |---------|----------------|---------------|----------|
-| Sang contaminé v2.3 | **Second agent** : contre-expertise | NREF-A | ⚠️ Haute |
-| Tchernobyl v2.1 | **Second agent** + migration v2.3 | NREF-A + conformité | ⚠️ Haute |
-| Pétition 69 v2.1 | **Second agent** + migration v2.3 | NREF-A + conformité | ⚠️ Haute |
-| Virage rigueur v2.1 | **Second agent** + migration v2.3 | NREF-A confirmé | ⚠️ Haute |
-| COVID v2.1 | **Second agent** + migration v2.3 | NREF-A confirmé | ⚠️ Haute |
+| Sang contaminé v2.4 | **Second agent** : contre-expertise | NREF-A | ⚠️ Haute |
+| Tchernobyl v2.4 | **Second agent** | NREF-A | ⚠️ Haute |
+| Pétition 69 v2.4 | **Second agent** | NREF-A | ⚠️ Haute |
+| Virage rigueur v2.4 | **Second agent** | NREF-A confirmé | ⚠️ Haute |
+| COVID v2.4 | **Second agent** | NREF-A confirmé | ⚠️ Haute |
+| Maastricht v2.4 | **Second agent** | NREF-A | 🔵 Moyenne |
+| Fiscalité v2.4 | **Second agent** | NREF-A | 🔵 Moyenne |
+| Mazan v2.4 | **Second agent** | NREF-B → A | 🔵 Moyenne |
+| Niches v2.4 | **Second agent** | NREF-B → A | 🔵 Moyenne |
+| ARCOM v2.4 | **Second agent** + chaine manquante | NREF-C → B | 🔵 Moyenne |
 |
 
 ---
@@ -225,21 +239,20 @@ Chaque enquête est connectée à ≥ 3 autres :
 
 | Priorité | Sujet | Source |
 |----------|-------|--------|
-| **P1** | Migrer Tchernobyl → v2.3 (REMONTEE_DES_FILS + CONTRE_MESURES) | Consolidation |
-| **P1** | Migrer Pétition 69 → v2.3 (REMONTEE_DES_FILS + CONTRE_MESURES) | Consolidation |
-| **P1** | Migrer Virage rigueur → v2.3 (REMONTEE_DES_FILS + CONTRE_MESURES) | Consolidation |
-| **P1** | Migrer COVID → v2.3 (REMONTEE_DES_FILS + CONTRE_MESURES) | Consolidation |
+| **P1** | Exécuter seconds agents sur 10 enquêtes | Validation |
+| **P1** | Corriger ARCOM — 1 fil sans chaine_causale | Qualité |
 | **P1** | Médiator (Servier) — tester PRED-1 | Addendum sang |
-| **P1** | Enquête sur Fil I — Vassalité monétaire (Maastricht 1992) | Consolidation |
+| **P1** | Enquête sur Fil I — Vassalité monétaire (Grèce 2015) | Consolidation |
 | P2 | Archives CNTS — destruction 1983-1985 | Addendum sang |
 | P2 | Amiante — tester PRED-2 | REPLICATION sang + Tchernobyl |
 | P2 | Rôle du CNL — subventions controversées | Addendum Pétition 69 |
 | P2 | Impact procès Mazan sur classement sans suite 2025-2026 | Mazan (PRED-M1/M2) |
-| P2 | Enquête comparative France/Espagne — réforme consentement (loi Solo sí es sí) | Mazan (Ultrathinking) |
-| P2 | Enquête sur l'efficacité réelle du CIR — la plus grosse niche fiscale (~8 Md€/an) | Niches (Ultrathinking) |
-| P2 | Enquête sur les amendements niches aux PLF 2010-2026 | Niches (Ultrathinking) |
+| P2 | Enquête comparative France/Espagne — réforme consentement (loi Solo sí es sí) | Mazan |
+| P2 | Enquête sur l'efficacité réelle du CIR (~8 Md€/an) | Niches |
+| P2 | Enquête sur les amendements niches aux PLF 2010-2026 | Niches |
 | P3 | Class action en France — analyse CC 2014/2016 | Addendum sang |
 | P3 | Levothyrox — tester PRED-4 | REPLICATION sang |
+| P3 | Accidents du travail — masquage statistique | Données |
 
 ---
 
@@ -252,4 +265,4 @@ Chaque enquête est connectée à ≥ 3 autres :
 
 ---
 
-*Dernière mise à jour : 2026-06-26 (v2.3). Protocole v2.3 : 5 piliers, 13 chapitres, 12 exigences NREF.*
+*Dernière mise à jour : 2026-06-26 (v2.4 Pelote). Protocole v2.4 : Pelote de Laine, 14 chapitres, 12 exigences NREF.*
