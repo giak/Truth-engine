@@ -1,4 +1,4 @@
-# INVESTIGATION SYSTEMIQUE v2.3 — Sang Contamine (1984-2003)
+# INVESTIGATION SYSTEMIQUE v2.4 — Sang Contamine (1984-2003)
 ## Enquete NREF complete (12 exigences + archeologie + contre-mesures)
 ## Migration v2.1 → v2.3 du cas-zero du protocole
 
@@ -41,7 +41,7 @@
 
 ---
 
-## FICHE YAML v2.3 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
+## FICHE YAML v2.4 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
 
 ```yaml
 # ============================================================

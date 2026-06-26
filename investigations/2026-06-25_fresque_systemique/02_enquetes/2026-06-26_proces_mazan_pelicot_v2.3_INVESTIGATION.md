@@ -1,4 +1,4 @@
-# INVESTIGATION SYSTEMIQUE v2.3 — Proces Mazan (Pelicot) 2024
+# INVESTIGATION SYSTEMIQUE v2.4 — Proces Mazan (Pelicot) 2024
 ## Test de la these systemique : la justice a-t-elle fonctionne, ou est-ce l'exception qui confirme la regle ?
 ## Enquete sur un evenement recent (2024) pour verifier si le cadre A-I+L tient
 
@@ -36,7 +36,7 @@
 
 ---
 
-## FICHE YAML v2.3 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
+## FICHE YAML v2.4 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
 
 ```yaml
 # ============================================================

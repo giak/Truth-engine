@@ -1,4 +1,4 @@
-# INVESTIGATION SYSTEMIQUE v2.3 — Niches fiscales en France
+# INVESTIGATION SYSTEMIQUE v2.4 — Niches fiscales en France
 ## Qui bénéficie des 470 depenses fiscales (90-100 MdE/an) ?
 ## Enquete de replication pour Fil L (Fiscalite asymetrique) et M47 (Injustice fiscale structurelle)
 
@@ -38,7 +38,7 @@
 
 ---
 
-## FICHE YAML v2.3 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
+## FICHE YAML v2.4 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
 
 ```yaml
 # ============================================================

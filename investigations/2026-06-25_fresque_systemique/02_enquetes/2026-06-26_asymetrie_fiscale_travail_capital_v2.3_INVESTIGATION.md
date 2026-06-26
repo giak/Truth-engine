@@ -1,4 +1,4 @@
-# INVESTIGATION SYSTEMIQUE v2.3 — Asymetrie fiscale Travail vs Capital
+# INVESTIGATION SYSTEMIQUE v2.4 — Asymetrie fiscale Travail vs Capital
 ## Travail taxe, Capital protege : anatomie d'une asymetrie structurelle (1914-2026)
 ## Enquete sur la question : qu'est-ce qui fait que le travail est plus taxe que le capital ?
 
@@ -37,7 +37,7 @@
 
 ---
 
-## FICHE YAML v2.3 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
+## FICHE YAML v2.4 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
 
 ```yaml
 # ============================================================

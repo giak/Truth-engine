@@ -1,4 +1,4 @@
-# INVESTIGATION SYSTEMIQUE v2.3 — ARCOM et la censure numerique institutionnalisee
+# INVESTIGATION SYSTEMIQUE v2.4 — ARCOM et la censure numerique institutionnalisee
 ## 235 ans de construction de la censure d'Etat : de la loi Le Chapelier (1791) au complexe de censure europeen (2026)
 ## Enquete sur la regulation comme infrastructure de controle
 
@@ -41,7 +41,7 @@
 
 ---
 
-## FICHE YAML v2.3 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
+## FICHE YAML v2.4 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
 
 ```yaml
 # ============================================================

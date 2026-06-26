@@ -1,4 +1,4 @@
-# INVESTIGATION SYSTEMIQUE v2.3 — Maastricht 1992 : Vassalite monetaire
+# INVESTIGATION SYSTEMIQUE v2.4 — Maastricht 1992 : Vassalite monetaire
 ## Enquete de validation du Fil I candidat (12 exigences + archeologie + contre-mesures)
 ## Acte de naissance : Traite de Maastricht (7 fevrier 1992)
 
@@ -36,7 +36,7 @@
 
 ---
 
-## FICHE YAML v2.3 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
+## FICHE YAML v2.4 — 13 CHAPITRES + ADDENDUM ULTRATHINKING
 
 ```yaml
 # ============================================================
