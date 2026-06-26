@@ -13,7 +13,7 @@
 | Enquêtes v2.4 produites | **13** (10 enquêtes + **PRED-1 Médiator** + **PRED-2 Amiante** + **PRED-3 Chlordécone**) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
 | Ultrathinking réalisés | 10 / 10 (100 %) | 2026-06-26 |
-| Second agents exécutés | **2 / 13 (15 %)** — PRED-1 + PRED-2 confirmés | 2026-06-26 |
+| Second agents exécutés | **3 / 13 (23 %)** — PRED-1, PRED-2, PRED-3 confirmés | 2026-06-26 |
 | Niveau NREF max atteint | **A** (PRED-1 passée A après second agent) | 2026-06-26 |
 | Sources vérifiées cumulées | 71 ✦ + 15 ⁅ + 70 ❧ = 156 | 2026-06-26 |
 | HEAD checks effectués | 65 (dont 8 HEAD PRED-3 : 4/8 OK) | 2026-06-26 |
@@ -49,7 +49,7 @@
 | **10** | **v2.4** | 2026-06-26 | SYSTEME_2019-2026_ARCOM_Censure | ARCOM (2019-2026) — censure numérique institutionnalisée : de la HADOPI au complexe de censure européen (DSA). 6 fils actifs. Extension Fil I au juridique (HYPOTHÈSE). Budget 51→500 M€, Twitter Files, OONI | **C** | B,C,D,E,H,I | M11, M37, M28, M02, M22 | ✅ 6 fils (dont I extension) | ⚠️ 5/6 | ✅ 2 actions |
 | **11** | **v2.4** | 2026-06-26 | SYSTEME_PRED1_Mediator | **PRED-1** Médiator (Servier, 1976-2024) — **TEST DE PRÉDICTION** : le pattern sang contaminé se reproduit-il sur un autre scandale sanitaire ? Résultat : **7/8 confirmé, 1 partiel** | **A** 🆕 | A,B,C,D,E,H | M11, M28, M05, M27, M14, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
 | **12** | **v2.4** | 2026-06-26 | SYSTEME_PRED2_Amiante | **PRED-2** Amiante (1906-2024) — **TEST DE PRÉDICTION n°2** : le pattern sang contaminé se reproduit-il sur le plus long scandale sanitaire français (97 ans) ? Résultat : **11/11 confirmé** | **A** 🆕 | A,B,C,D,E,H | M11, M28, M05, M14, M37, M02 | ✅ 6 fils | ✅ 6/6 | ✅ 3 actions |
-| **13** | **v2.4** | 2026-06-26 | SYSTEME_PRED3_Chlordecone | **PRED-3** Chlordécone (Antilles, 1972-2024) — **TEST DE PRÉDICTION n°3** : le pattern se reproduit-il avec dimension coloniale ? **Résultat : 12/12 confirmé. M39 (racisme institutionnel) nouveau mécanisme** | **B** | B,C,G,H | M11, M28, M05, M39, M14, M23 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
+| **13** | **v2.4** | 2026-06-26 | SYSTEME_PRED3_Chlordecone | **PRED-3** Chlordécone (Antilles, 1972-2024) — **TEST DE PRÉDICTION n°3** : le pattern se reproduit-il avec dimension coloniale ? **Résultat : 12/12 confirmé. M39 (racisme institutionnel) nouveau mécanisme** | **A** 🆕 | B,C,G,H | M11, M28, M05, M39, M14, M23 | ✅ 4 fils | ✅ 4/4 | ✅ 3 actions |
 
 
 **Légende :** ✅ = fait | ⚠️ = anomalie | 🔲 = à faire
@@ -241,7 +241,7 @@ Chaque enquête est connectée à ≥ 3 autres :
 | ARCOM v2.4 | **Second agent** + chaine manquante | NREF-C → B | 🔵 Moyenne |
 | PRED-1 Médiator | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~90%) | — |
 | PRED-2 Amiante v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
-| **PRED-3 Chlordécone** v2.4 | — | NREF-B (plafond §5bis, second agent requis pour A) | ⚠️ Haute |
+| PRED-3 Chlordécone v2.4 | ~~Second agent~~ ✅ **FAIT** | NREF-A ✅ (second agent 26/06 : confirmation ~95%) | — |
 |
 
 ---

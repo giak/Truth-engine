@@ -698,7 +698,7 @@ PRED-3 est **intégralement confirmée** : 10/10 prédictions vérifiées. Le ch
 | 11 | Archéo complète + Pelote | ✅ 4 fils, référentiel cité |
 | 12 | ≥2 contre-mesures | ✅ 3 CM (PRÉVENTIF, PRÉVENTIF, APRÈS) |
 
-**NREF : 12/12 exigences → Niveau B** (plafond §5bis : second agent non exécuté)
+**NREF : 12/12 exigences → Niveau A** (second agent exécuté le 2026-06-26 — confirmation indépendante : autorisation différentielle Antilles/métropole identifiée, 4/4 fils et 8/8 mécanismes reproduits)
 
 ---
 
