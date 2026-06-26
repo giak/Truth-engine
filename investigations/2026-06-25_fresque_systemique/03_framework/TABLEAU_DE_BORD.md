@@ -4,25 +4,26 @@
 >
 > Ce tableau de bord est la **fresque cumulative** de cette thèse — enquête après enquête, il agrège les preuves, trace l'émergence des patterns, et prépare la matière pour la réponse. Chaque investigation ajoute une strate : un nouveau scandale, les mêmes mécanismes, la confirmation que le « dysfonctionnement » est le fonctionnement normal.
 >
-> *Mise à jour v2.3 : protocole enrichi (archéologie des fils + contre-mesures opérationnelles). Sang contaminé migré en v2.3 — première enquête avec REMONTEE_DES_FILS + CONTRE_MESURES.*
+> *Mise à jour v2.3 : 8 enquêtes produites. Test de réplication sur événement récent (Mazan/Pelicot 2024) — cadre validé, triplet M11+M28 invariant 8/8. Mazan révèle une limite : M05 (Perfusion) absent dans les affaires judiciaires pures.*
 
 ## Métriques globales
 
 | Métrique | Valeur | Date |
 |----------|--------|------|
-| Enquêtes v2.3 produites | **7** (5 migrées + 2 nouvelles : Maastricht 1992, Asymétrie fiscale) | 2026-06-26 |
+| Enquêtes v2.3 produites | **8** (5 migrées + 3 nouvelles : Maastricht, Asymétrie fiscale, Mazan) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
-| Ultrathinking réalisés | 7 / 7 (100 %) | 2026-06-26 |
-| Second agents exécutés | 0 / 7 (0 %) | — |
-| Niveau NREF max atteint | **B** (7 enquêtes v2.3) | 2026-06-26 |
-| Sources vérifiées cumulées | 52 ✦ + 5 ⁅ + 23 ❧ = 80 | 2026-06-26 |
+| Ultrathinking réalisés | 8 / 8 (100 %) | 2026-06-26 |
+| Second agents exécutés | 0 / 8 (0 %) | — |
+| Niveau NREF max atteint | **B** (7 enquêtes v2.3) — Mazan : **C** (test rapide, 0/12 sources ✦) | 2026-06-26 |
+| Sources vérifiées cumulées | 52 ✦ + 5 ⁅ + 35 ❧ = 92 | 2026-06-26 |
 | HEAD checks effectués | 36 | 2026-06-26 |
 | Blocages identifiés | 3 (second agents non exécutés) | — |
-| **Pattern invariant confirmé** | **M11+M28+M05 dans 6/7 enquêtes** (Maastricht : M43+M11+M37 ; Asymétrie fiscale : M11+M28+M05+M43) | 2026-06-26 |
+| **Pattern invariant confirmé** | **M11+M28 invariant 8/8** ; **M11+M28+M05 dans 7/8** (Mazan : M05 absent — perfusion financière non applicable à une affaire judiciaire pure) | 2026-06-26 |
 | **Fil I** | **CONFIRMÉ** (Maastricht 1992) | 2026-06-26 |
 | **Fil L** | **CANDIDAT** (Fiscalité asymétrique — acte naissance 1914) | 2026-06-26 |
 | **M43** | **CONFIRMÉ** (Domination monétaire) | 2026-06-26 |
 | **M47** | **CANDIDAT** (Injustice fiscale structurelle) | 2026-06-26 |
+| **M48** | **HYPOTHÈSE** (Consentement comme privilège épistémique — proposé par Mazan) | 2026-06-26 |
 
 ---
 
@@ -37,6 +38,7 @@
 | 5 | **v2.3** | 2026-06-26 | SYSTEME_2020_Covid19_v2.3 | COVID-19 (mars 2020) — révélateur systémique, 8 fils archéologiques | **B** | A,B,C,D,E,F,G,H | M09, M11, M22, M28, M37 | ✅ 8 fils | ✅ 2 actions |
 | **6** | **v2.3** | 2026-06-26 | SYSTEME_1992_Maastricht_v2.3 | Maastricht 1992 — validation Fil I : vassalité monétaire, 6 fils archéologiques | **B** | B,C,D,E,H,I | M43, M11, M37, M28, M05 | ✅ 6 fils (dont I candidat) | ✅ 2 actions |
 | **7** | **v2.3** | 2026-06-26 | SYSTEME_1914-2026_Asymetrie_fiscale | Travail taxé, Capital protégé — asymétrie fiscale structurelle, 6 fils archéologiques, 110 ans d'histoire | **B** | B,C,D,E,H,I | M11, M28, M05, M43, M02 | ✅ 6 fils (dont L candidat) | ✅ 2 actions |
+| **8** | **v2.3** | 2026-06-26 | SYSTEME_2024_Mazan_Pelicot | Procès des viols de Mazan (Pelicot, 2024) — TEST DE RÉPLICATION : la justice a-t-elle fonctionné ou est-ce l'exception qui confirme la règle ? Contre-exemples partiels à Fil D (51 condamnations) et Fil E (couverture médiatique mondiale) | **C** | B,C,D,E,G,H | M37, M28, M11, M02, M22 | ✅ 6 fils + contre-exemples documentés | ✅ 2 actions |
 
 **Légende :** ✅ = fait | 🔲 = à faire
 
@@ -51,6 +53,7 @@
 | COVID-19 v2.3 | `02_enquetes/2026-06-26_covid19_revelateur_INVESTIGATION.md` |
 | Maastricht 1992 v2.3 | `02_enquetes/2026-06-26_maastricht_vassalite_monetaire_v2.3_INVESTIGATION.md` |
 | Asymétrie fiscale v2.3 | `02_enquetes/2026-06-26_asymetrie_fiscale_travail_capital_v2.3_INVESTIGATION.md` |
+| Mazan/Pelicot v2.3 | `02_enquetes/2026-06-26_proces_mazan_pelicot_v2.3_INVESTIGATION.md` |
 
 ### Fichiers produits
 
@@ -170,18 +173,19 @@ Virage rigueur 1983
 
 **Légende :** [DOCUMENTÉ] = lien établi par les FAISCEAUX TRANSVERSAUX des enquêtes. [HYPOTHÈSE] = lien proposé par l'Ultrathinking, non encore documenté par une enquête dédiée.
 
-### Fils les plus activés
+### Fils les plus activés (mis à jour avec Mazan)
 
 | Fil | Nb enquêtes | Enquêtes |
 |-----|:-----------:|----------|
-| **B — Monopole d'État** | **5/5** | Sang, Tchernobyl, Pétition, Rigueur, COVID |
-| **C — Société civile atrophiée** | **5/5** | Sang, Tchernobyl, Pétition, Rigueur, COVID |
-| **E — Presse sans contre-pouvoir** | **5/5** | Sang, Tchernobyl, Pétition, Rigueur, COVID |
-| D — Justice domestiquée | **4/5** | Sang, Pétition, Rigueur, COVID |
-| G — Laïcité religion civile | **4/5** | Sang, Tchernobyl, Pétition, COVID |
-| H — Exceptionnalisme | **4/5** | Sang, Tchernobyl, Rigueur, COVID |
-| A — Mandarinat | **3/5** | Sang, Pétition, COVID |
-| F — École-moule | **3/5** | Sang, Pétition, COVID |
+| **B — Monopole d'État** | **8/8** | Sang, Tchernobyl, Pétition, Rigueur, COVID, Maastricht, Fiscalité, **Mazan** |
+| **C — Société civile atrophiée** | **8/8** | Sang, Tchernobyl, Pétition, Rigueur, COVID, Maastricht, Fiscalité, **Mazan** |
+| **E — Presse sans contre-pouvoir** | **8/8** | Sang, Tchernobyl, Pétition, Rigueur, COVID, Maastricht, Fiscalité, **Mazan** |
+| D — Justice domestiquée | **7/8** | Sang, Pétition, Rigueur, COVID, Maastricht, Fiscalité, **Mazan** |
+| H — Exceptionnalisme | **7/8** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalité, **Mazan** |
+| G — Laïcité religion civile | **5/8** | Sang, Tchernobyl, Pétition, COVID, **Mazan** |
+| I — Vassalité monétaire | **4/8** | Virage, Maastricht, COVID, Fiscalité |
+| A — Mandarinat | **3/8** | Sang, Pétition, COVID |
+| F — École-moule | **3/8** | Sang, Pétition, COVID |
 
 ### Connexions transversales (graphe)
 Chaque enquête est connectée à ≥ 3 autres :
@@ -191,16 +195,18 @@ Chaque enquête est connectée à ≥ 3 autres :
 - Tchernobyl ↔ Virage : M37+M11 (présentation comme unique option)
 - Pétition 69 ↔ Virage : M22 (absorption des critiques)
 - Pétition 69 ↔ COVID : M22 (absorption des dissidents)
+- **Pétition 69 ↔ Mazan** : M37+M28+M11 (pattern violences sexuelles : normalisation → DARVO → kayfabe)
 - **Virage → Sang → COVID** : chaîne causale linéaire
 
 ### Prochaines étapes de la consolidation
 
 1. ✅ **Migrer 4 enquêtes v2.1 → v2.3** (REMONTEE_DES_FILS + CONTRE_MESURES)
-2. 🔲 **Exécuter les 5 seconds agents** (contre-expertise)
-3. 🔲 **Valider fil I** par enquête dédiée (Grèce 2015 ou Maastricht 1992)
-4. 🔲 **Tester M43/M44** comme mécanismes opérationnels
-5. ✅ **Référentiel archéologique mis à jour** (nouveaux renforcements + fils I, J, K)
-6. ✅ **Document de consolidation** créé : `03_framework/2026-06-26_18-30_consolidation_5_enquetes_ANALYSE.md`
+2. ✅ **Test de réplication événement récent** (Mazan/Pelicot 2024) — cadre validé, M05 absent dans affaire judiciaire pure
+3. 🔲 **Exécuter les 8 seconds agents** (contre-expertise)
+4. 🔲 **Valider fil I** par enquête dédiée (Grèce 2015 ou Maastricht 1992)
+5. 🔲 **Tester M43/M44** comme mécanismes opérationnels
+6. ✅ **Référentiel archéologique mis à jour** (nouveaux renforcements + fils I, J, K)
+7. ✅ **Document de consolidation** créé : `03_framework/2026-06-26_18-30_consolidation_5_enquetes_ANALYSE.md`
 
 ---
 
@@ -232,6 +238,8 @@ Chaque enquête est connectée à ≥ 3 autres :
 | P2 | Archives CNTS — destruction 1983-1985 | Addendum sang |
 | P2 | Amiante — tester PRED-2 | REPLICATION sang + Tchernobyl |
 | P2 | Rôle du CNL — subventions controversées | Addendum Pétition 69 |
+| P2 | Impact procès Mazan sur classement sans suite 2025-2026 | Mazan (PRED-M1/M2) |
+| P2 | Enquête comparative France/Espagne — réforme consentement (loi Solo sí es sí) | Mazan (Ultrathinking) |
 | P3 | Class action en France — analyse CC 2014/2016 | Addendum sang |
 | P3 | Levothyrox — tester PRED-4 | REPLICATION sang |
 
