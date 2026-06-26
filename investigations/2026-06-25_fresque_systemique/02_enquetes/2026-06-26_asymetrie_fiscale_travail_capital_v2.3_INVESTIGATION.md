@@ -88,6 +88,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier (14 juin) : abolition des corporations ET interdiction de toute association professionnelle — l'Etat devient seul organisateur de la vie economique et seul collecteur de l'impot"
         mecanisme_cree: "M05 (Perfusion publique)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1914-1917"
           evenement: "Creation de l'impot sur le revenu (Loi Caillaux 15 juillet 1914, completee 31 juillet 1917) : l'Etat se dote d'un outil de prelevement direct sur les revenus individuels — premier impot universel et progressif"
@@ -107,7 +109,12 @@ REMONTEE_DES_FILS:
           source: "Legifrance, Loi 2018-120 ✦"
       chaine_causale:
         - "1791 (Le Chapelier : Etat seul collecteur) -> 1914 (IR : impot sur les individus) -> 1945 (Secu : cotisations sur le travail) -> 1954 (TVA : impot sur la consommation) -> 2018 (flat tax : le capital echappe a la progressivite) -> l'Etat taxe massivement le travail et la consommation, legerement le capital"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "L'Etat francais taxe ce qu'il peut capturer facilement : le salaire (visible, declare, collecte a la source par le bulletin de paie) et la consommation (TVA collectee par les entreprises). Le capital (dividendes, plus-values, patrimoine) est plus mobile, plus difficile a taxer, et beneficie de taux reduits (PFU 30%) et d'exonerations (IFI limite a l'immobilier)."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1811, 1945, 1958 dans referentiel."
 
     - fil: "C — Societe civile atrophiee"
       acte_naissance:
@@ -115,6 +122,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier : « Il n'y a plus de corporations dans l'Etat ; il n'y a plus que l'interet particulier de chaque individu et l'interet general » — toute association intermediaire est suspecte"
         mecanisme_cree: "M14 (Impuissance apprise)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire commun avec fil B."
       renforcements_historiques:
         - date: "1958"
           evenement: "Constitution Ve Republique : la politique fiscale est decidee par l'executif et votee par le Parlement sans consultation citoyenne obligatoire"
@@ -126,7 +135,12 @@ REMONTEE_DES_FILS:
           source: "Loi 2017-1837 ✦, Loi 2018-120 ✦"
       chaine_causale:
         - "1791 (Le Chapelier : pas de corps intermediaires) -> 1958 (President seul decide) -> 2017-2018 (reforme fiscale majeure sans debat citoyen) -> l'asymetrie fiscale n'est pas contestee parce que la societe civile n'a pas les moyens de la contester"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Les 470 niches fiscales (90-100 MdE/an) et l'evasion fiscale (80-100 MdE/an) sont des sujets « techniques » reserves aux experts et aux lobbies. Aucune organisation citoyenne n'a les moyens de contre-expertiser la politique fiscale. Le debat fiscal est confisque par Bercy, le Medef, et les cabinets de conseil comme McKinsey (qui n'a paye aucun IS en France, tout en conseillant l'Etat sur sa strategie fiscale)."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1804, 1884, 1901 dans referentiel."
 
     - fil: "D — Justice domestiquee"
       acte_naissance:
@@ -134,6 +148,8 @@ REMONTEE_DES_FILS:
         evenement: "Code civil napoleonien : le juge est « la bouche de la loi » — pas de pouvoir createur, pas de controle sur l'administration"
         mecanisme_cree: "M02 (Proceduralisation)"
         source: "Code civil 1804 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1804 — Code civil napoleonien. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1958"
           evenement: "Constitution Ve Republique : le Conseil constitutionnel peut invalider une loi fiscale — cree comme gardien, fonctionne comme verrou"
@@ -149,7 +165,12 @@ REMONTEE_DES_FILS:
           source: "Legifrance, Loi 2017-1837 ✦"
       chaine_causale:
         - "1804 (juge = bouche de la loi) -> 1958 (CC gardien de la Constitution) -> 2012 (CC invalide la taxe 75% sur procedure) -> 2017 (ISF supprime sans controle CC) -> la justice constitutionnelle francaise est incapable de proteger la progressivite de l'impot — elle verrouille l'existant"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le Conseil constitutionnel a invalide la taxe a 75% sur les tres hauts revenus (2012) pour un motif technique (assiette individuelle vs foyer fiscal), pas sur le fond de l'inegalite fiscale. En 2017, la suppression de l'ISF sur le capital mobilier (9 MdE) est votee sans etre soumise au CC. La justice constitutionnelle ne protege pas la progressivite de l'impot — elle verrouille le statu quo en bloquant les innovations fiscales qui visent le capital."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1804 confirme. Renforcements 1872, 1958 dans referentiel."
 
     - fil: "E — Presse sans contre-pouvoir"
       acte_naissance:
@@ -157,6 +178,8 @@ REMONTEE_DES_FILS:
         evenement: "Regime autoritaire de la presse : autorisation prealable, censure, timbre — journaux d'opposition systematiquement poursuivis"
         mecanisme_cree: "M10 (Discredit preventif)"
         source: "Lois 1811-1819 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1811 — Regime autoritaire de la presse. Post-revolutionnaire (dans fenetre 1789-1815)."
       renforcements_historiques:
         - date: "1972-2009"
           evenement: "Concentration economique de la presse : Hersant -> Dassault -> Bollore — les grands medias sont possedes par des industriels/financiers qui ont interet a la preservation du statu quo fiscal"
@@ -168,7 +191,12 @@ REMONTEE_DES_FILS:
           source: "Archives mediatiques 2017-2018 ❧"
       chaine_causale:
         - "1811 (censure d'Etat) -> 1972+ (concentration economique) -> 2018 (flat tax presentee comme simplification) -> le debat fiscal est confisque par les acteurs qui beneficient du statu quo"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le debat sur la suppression de l'ISF et l'instauration de la flat tax (2017-2018) est massivement presente dans les medias comme une « simplification » et un « choc de competitivite ». Le fait que le travail soit desormais taxe 15-20 points de plus que le capital est presque absent du debat. Les medias appartiennent a des actionnaires qui sont les premiers beneficiaires de la reforme (Bollore, Dassault, Lagardere)."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1811 confirme. Renforcements 1881, 1964 dans referentiel."
 
     - fil: "H — Exceptionnalisme francais"
       acte_naissance:
@@ -176,6 +204,8 @@ REMONTEE_DES_FILS:
         evenement: "Colbertisme : autosuffisance economique comme dogme — tout doit etre produit en France"
         mecanisme_cree: "M32 (Souverainete narrative)"
         source: "Politique Colbert ❧"
+        marquage: "[RACINE ANCIENNE] pre-revolutionnaire"
+        pelote_verification: "1660-1715 — Colbertisme. Racine la plus profonde. Arret valide."
       renforcements_historiques:
         - date: "1981"
           evenement: "Mitterrand cree l'ISF : la France est le seul pays avec un impot sur la fortune — l'exceptionnalisme fiscal est une fiertte nationale"
@@ -191,7 +221,12 @@ REMONTEE_DES_FILS:
           source: "Loi 2017-1837 ✦, Loi 2018-120 ✦"
       chaine_causale:
         - "1660 (Colbert : autosuffisance) -> 1981 (ISF : exception francaise) -> 1983 (virage rigueur : acceptation contrainte europeenne) -> 2018 (ISF supprime : l'exception disparait, mais le recit persiste) -> le discours de « justice fiscale a la francaise » cache la realite de l'asymetrie"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le discours politique francais continue de vanter la « justice fiscale » et la « progressivite de l'impot », alors que la flat tax (30%) et la suppression de l'ISF sur le capital mobilier (2017-2018) ont cree une asymetrie structurelle. Le recit de l'exceptionnalisme fiscal francais compense la realite de la convergence fiscale vers le bas imposee par la concurrence europeenne."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1660 confirme (RACINE ANCIENNE). Renforcements 1792, 1840, 1945 dans referentiel."
 
     - fil: "I — Vassalite monetaire europeenne"
       acte_naissance:
@@ -199,6 +234,8 @@ REMONTEE_DES_FILS:
         evenement: "Traite de Maastricht : la France accepte les criteres de convergence monetaire et l'interdiction du financement de la dette par sa banque centrale"
         mecanisme_cree: "M43 (Domination monetaire)"
         source: "EUR-Lex, Traite de Maastricht ✦"
+        marquage: "[RACINE CONSTITUTIVE]"
+        pelote_verification: "1992 — Traite de Maastricht. Acte fondateur moderne. Necessite pre-acte 1983 Virage rigueur."
       renforcements_historiques:
         - date: "1992-2012"
           evenement: "Concurrence fiscale europeenne : les pays membres baissent leurs taux d'IS pour attirer les capitaux — la France est contrainte de suivre (IS : 50% en 1980, 33% en 2000, 25% en 2024)"
@@ -210,7 +247,12 @@ REMONTEE_DES_FILS:
           source: "Loi 2018-120 ✦"
       chaine_causale:
         - "1992 (Maastricht : contrainte monetaire) -> 1992-2012 (concurrence fiscale : baisse IS) -> 2018 (flat tax : alignement sur la moyenne UE) -> la France ne peut pas taxer le capital plus que ses voisins europeens sans risquer la fuite des capitaux — la concurrence fiscale est un verrou de l'asymetrie"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "La concurrence fiscale intra-europeenne empeche la France de taxer le capital a un taux plus eleve. L'IS est passe de 50% (1980) a 25% (2024). La flat tax a 30% aligne la France sur la moyenne UE. Tout projet de taxation plus elevee du capital est menace par la menace de delocalisation (« Laffer »). Le fil I, confirme par l'enquete Maastricht 1992, trouve ici une nouvelle manifestation : la vassalite monetaire s'etend a la vassalite fiscale."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1992 confirme. Necessite pre-acte 1983 Virage rigueur documente."
 
 # ============================================================
 # CHAPITRE 3 : BIFURCATIONS PERDUES

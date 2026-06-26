@@ -82,6 +82,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi de Medecine (23 ventose an XI) : monopole medical d'Etat"
         mecanisme_cree: "M27 (Pathologisation)"
         source: "Archives BNF/Gallica, non numerise ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1803 — Loi de Medecine (ventose an XI). Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1858"
           evenement: "Creation du patron hospitalier : chef de service omnipotent"
@@ -93,7 +95,12 @@ REMONTEE_DES_FILS:
           source: "Ordonnance Debre 1958 ❧"
       chaine_causale:
         - "1803 (monopole) -> 1858 (patron) -> 1958 (CHU) -> 2020 : le Conseil scientifique est verrouille par un cercle de mandarins (Delfraissy, Salomon) nommes par l'Elysee, pas de debat contradictoire institutionnalise"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le Conseil scientifique est compose de 11 mandarins, tous nommes par l'Elysee, tous issus des memes institutions (Institut Pasteur, INSERM, AP-HP). Les alternatives (depistage massif, traitements precoces) ne sont pas discutees publiquement. Raoult, malgre ses exces, n'est pas contredit par la communaute scientifique institutionnelle — il est pathologise (M27). Le debat scientifique est verrouille par le cercle de la raison."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1803 confirme. Renforcements 1808, 1858, 1941, 1958 dans referentiel."
 
     - fil: "B — Monopole d'Etat"
       acte_naissance:
@@ -101,6 +108,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier : interdiction des associations professionnelles"
         mecanisme_cree: "M05 (Perfusion publique)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1945"
           evenement: "Nationalisations : Etat proprietaire"
@@ -112,7 +121,12 @@ REMONTEE_DES_FILS:
           source: "Constitution 1958 ❧"
       chaine_causale:
         - "1791 (pas de corps intermediaires) -> 1945 (Etat proprietaire) -> 1958 (concentration) -> 2020 : les decisions sanitaires sont prises a l'Elysee par un cercle restreint, les lois d'urgence sont votees en procedure acceleree"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Les confinements, couvre-feux et passes sanitaires sont decides par un cercle restreint autour de Macron (Veran, Delfraissy, conseillers). Le Parlement vote les lois d'urgence sanitaire en procedure acceleree sans veritable debat. Le « quoi qu'il en coute » (579 Md€) est decide sans debat parlementaire sur le montant ou les conditions."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1811, 1945, 1958 dans referentiel."
 
     - fil: "C — Societe civile atrophiee"
       acte_naissance:
@@ -120,6 +134,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier : l'individu seul face a l'Etat"
         mecanisme_cree: "M14 (Impuissance apprise)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire commun avec fil B."
       renforcements_historiques:
         - date: "1901"
           evenement: "Loi associations : liberte sans pouvoir juridique"
@@ -127,7 +143,12 @@ REMONTEE_DES_FILS:
           source: "Loi 1901 ❧"
       chaine_causale:
         - "1791 -> 1901 (associations desarmees) -> 2020 : pas de referendum citoyen sur l'etat d'urgence le plus long de l'histoire, les gilets jaunes anti-pass sont traites comme 'irresponsables'"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "L'etat d'urgence sanitaire dure 2 ans sans aucun debat citoyen organise. Pas de referendum sur le passe sanitaire. Pas de consultation des associations de patients. Les citoyens qui contestent les mesures sont diagnostiques comme 'irresponsables', 'complotistes' ou 'egoistes' — la dissidence est pathologisee, pas ecoutee."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1804, 1884, 1901 dans referentiel."
 
     - fil: "D — Justice domestiquee"
       acte_naissance:
@@ -135,6 +156,8 @@ REMONTEE_DES_FILS:
         evenement: "Code civil : le juge bouche de la loi"
         mecanisme_cree: "M02 (Proceduralisation)"
         source: "Code civil 1804 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1804 — Code civil napoleonien. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1872"
           evenement: "Tribunal des conflits : l'Etat se juge lui-meme"
@@ -146,7 +169,12 @@ REMONTEE_DES_FILS:
           source: "Constitution 1958 ❧"
       chaine_causale:
         - "1804 -> 1872 -> 1958 -> 2020 : le Conseil constitutionnel valide le passe sanitaire et le passe vaccinal sans controle de proportionnalite, les recours citoyens sont rejetes"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le Conseil constitutionnel valide le passe sanitaire (aout 2021) et le passe vaccinal (janvier 2022) sans veritable controle de proportionnalite. Les dizaines de recours citoyens sont rejetes. La justice administrative ne suspend pas les mesures les plus liberticides. Le controle juridictionnel de l'etat d'urgence est une formalite."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1804 confirme. Renforcements 1872, 1958 dans referentiel."
 
     - fil: "E — Presse sans contre-pouvoir"
       acte_naissance:
@@ -154,6 +182,8 @@ REMONTEE_DES_FILS:
         evenement: "Regime autoritaire de la presse : censure"
         mecanisme_cree: "M10 (Discredit preventif)"
         source: "Lois 1811-1819 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1811 — Regime autoritaire de la presse. Post-revolutionnaire (dans fenetre 1789-1815)."
       renforcements_historiques:
         - date: "1964"
           evenement: "ORTF : television = voix du gouvernement"
@@ -165,7 +195,12 @@ REMONTEE_DES_FILS:
           source: "Rachats Bollore ❧"
       chaine_causale:
         - "1811 -> 1964 (ORTF) -> 2009 (Bollore) -> 2020 : les medias relayent la communication gouvernementale sans enqueter, les voix dissidentes sont invisibilisees"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Les medias dominants (BFM, CNews, Le Monde) relayent la communication gouvernementale sans enqueter sur les alternatives. Les professeurs hospitaliers critiques sont invisibilises ou pathologises. Le debat sur les traitements precoces, le depistage massif, ou les alternatives au confinement n'existe pas dans les grands medias. La presse est un megaphone du pouvoir."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1811 confirme. Renforcements 1881, 1964 dans referentiel."
 
     - fil: "F — Ecole-moule"
       acte_naissance:
@@ -173,6 +208,8 @@ REMONTEE_DES_FILS:
         evenement: "Universite napoleonienne : ecole appareil d'Etat"
         mecanisme_cree: "M26 (Institution totalisante)"
         source: "Loi 1806-1808 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1808 — Universite napoleonienne. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1881-1886"
           evenement: "Lois Ferry : former des patriotes obeissants"
@@ -184,7 +221,12 @@ REMONTEE_DES_FILS:
           source: "Loi Haby 1975 ❧"
       chaine_causale:
         - "1808 (ecole d'Etat) -> 1881 (roman national) -> 1975 (uniformisation) -> 2020 : l'ecole est une variable d'ajustement, fermee/ouverte sans concertation"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Les ecoles sont fermees puis rouvertes au gre des decisions de l'Elysee, sans consultation des enseignants, des parents ou des eleves. Le bac est attribue en controle continu — l'institution scolaire est une variable d'ajustement de la politique sanitaire. Les cours en ligne remplacent l'ecole sans debat sur les consequences educatives."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1808 confirme. Renforcements 1833, 1881, 1975 dans referentiel."
 
     - fil: "G — Laicite comme religion civile"
       acte_naissance:
@@ -192,6 +234,8 @@ REMONTEE_DES_FILS:
         evenement: "Revolution : Etat seul maitre"
         mecanisme_cree: "M37 (Hypernormalisation)"
         source: "DDHC 1789 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1789 — Declaration Droits de l'Homme. Acte fondateur revolutionnaire."
       renforcements_historiques:
         - date: "1905"
           evenement: "Separation Eglises/Etat : Etat seule autorite morale"
@@ -203,7 +247,12 @@ REMONTEE_DES_FILS:
           source: "Constitution 1946 ❧"
       chaine_causale:
         - "1789 (Etat seul souverain) -> 1905 (Etat seule autorite morale) -> 1946 (Etat debiteur universel) -> 2020 : la 'raison sanitaire' devient une nouvelle religion d'Etat, les dissidents sont des heretiques"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "La « raison sanitaire » devient une nouvelle religion d'Etat. Le discours officiel sur la vaccination, les gestes barrieres et le passe a une dimension quasi-religieuse — les non-vaccines ne sont pas des citoyens en desaccord, ce sont des 'irresponsables', des 'egoistes', des 'complotistes' (M27 — pathologisation). La dissidence sanitaire est une heresie."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1789 confirme. Renforcements 1801, 1905, 1946 dans referentiel."
 
     - fil: "H — Exceptionnalisme francais"
       acte_naissance:
@@ -211,6 +260,8 @@ REMONTEE_DES_FILS:
         evenement: "Colbertisme : autosuffisance comme dogme"
         mecanisme_cree: "M32 (Souverainete narrative)"
         source: "Politique Colbert ❧"
+        marquage: "[RACINE ANCIENNE] pre-revolutionnaire"
+        pelote_verification: "1660-1715 — Colbertisme. Racine la plus profonde. Arret valide."
       renforcements_historiques:
         - date: "1945-1970"
           evenement: "Planification gaullienne : 'grandeur francaise'"
@@ -222,7 +273,12 @@ REMONTEE_DES_FILS:
           source: "Programme nucleaire ❧"
       chaine_causale:
         - "1660 (autosuffisance dogmatique) -> 1945 (grandeur gaullienne) -> 1963 (independance) -> 2020 : le modele francais est presente comme superieur mais le bilan (116 000 morts) est parmi les pires d'Europe"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le « modele francais » de gestion du COVID est presente comme superieur par le discours officiel, mais le bilan (116 000 morts, 30 000 en premiere vague) est parmi les pires d'Europe. La France depend des masques chinois, des vaccins Pfizer/Moderna (pas francais), et du « quoi qu'il en coute » qui est de la dette — pas de la monnaie souveraine. L'exceptionnalisme est un discours qui masque le declin."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1660 confirme (RACINE ANCIENNE). Renforcements 1792, 1840, 1945 dans referentiel."
 
 # ============================================================
 # CHAPITRE 3 : BIFURCATIONS PERDUES (inchange)

@@ -89,6 +89,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier (14 juin) : abolition des corporations ET interdiction de toute association professionnelle — l'Etat devient seul organisateur de la vie sociale"
         mecanisme_cree: "M05 (Perfusion publique)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1958"
           evenement: "Constitution Ve Republique : hyper-presidence + majorite absolue = concentration des pouvoirs"
@@ -100,7 +102,12 @@ REMONTEE_DES_FILS:
           source: "Legifrance JORFTEXT000000529277 (HEAD 403 anti-bot) ⁅"
       chaine_causale:
         - "1791 (Le Chapelier : pas de corps intermediaires) -> 1958 (concentration des pouvoirs) -> 1993 (CJR) -> 2024 : le monopole d'Etat sur la justice s'exerce par un classement sans suite massif (80-90% des plaintes pour viol) — l'Etat decide seul quelles affaires sont poursuivies, sans controle citoyen"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "L'enquete preliminaire pour viol est menee par la police et le parquet — pas de contre-enquete citoyenne, pas de class action. Les dysfonctionnements anterieurs (1999-2010) sont reveles par la presse, pas par un mecanisme institutionnel de controle. Si Gisele Pelicot n'avait pas eu acces a un avocat competent et a une couverture mediatique mondiale, son affaire aurait pu etre classee comme 80-90% des plaintes pour viol."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1811, 1945, 1958 dans referentiel."
 
     - fil: "C — Societe civile atrophiee"
       acte_naissance:
@@ -108,6 +115,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier : « Il n'y a plus de corporations dans l'Etat ; il n'y a plus que l'interet particulier de chaque individu et l'interet general » — toute association intermediaire est suspecte"
         mecanisme_cree: "M14 (Impuissance apprise)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire commun avec fil B."
       renforcements_historiques:
         - date: "1901"
           evenement: "Loi sur les associations : liberte associative reconnue mais sans financement public ni pouvoir juridique"
@@ -123,7 +132,12 @@ REMONTEE_DES_FILS:
           source: "Statistiques HCE 2024 ❧"
       chaine_causale:
         - "1791 (Le Chapelier : pas de corps intermediaires) -> 1901 (associations desarmees) -> 2017 (#MeToo : contre-pouvoir tardif et partiel) -> 2024 : #MeToo a cree les conditions du proces Mazan (liberation de la parole, pression mediatique) mais le taux de classement sans suite pour viol reste a 80-90% — la societe civile a gagne une bataille mediatique, pas structurelle"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "#MeToo est un contre-pouvoir citoyen partiel. Il a cree les conditions du proces Mazan : sans la liberation de la parole, Gisele Pelicot n'aurait peut-etre jamais eu le courage de temoigner publiquement. Mais #MeToo n'a pas change la structure du systeme judiciaire : le taux de classement sans suite pour viol est reste stable a ~80-90% entre 2017 et 2024. Le proces Mazan est l'exception statistique qui confirme la regle — il a eu lieu parce que les preuves etaient irrefutables (20 000 videos) et la mediatisation mondiale, pas parce que le systeme a change."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1804, 1884, 1901 dans referentiel."
 
     - fil: "D — Justice domestiquee"
       acte_naissance:
@@ -131,6 +145,8 @@ REMONTEE_DES_FILS:
         evenement: "Code civil napoleonien : le juge est « la bouche de la loi » — pas de pouvoir createur, pas de controle sur l'administration"
         mecanisme_cree: "M02 (Proceduralisation)"
         source: "Code civil 1804 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1804 — Code civil napoleonien. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1872"
           evenement: "Tribunal des conflits : l'administration jugee par ses propres tribunaux — dualite de juridiction"
@@ -146,7 +162,12 @@ REMONTEE_DES_FILS:
           source: "Verdict 19 decembre 2024 ❧"
       chaine_causale:
         - "1804 (juge = bouche de la loi) -> 1872 (l'administration se juge elle-meme) -> 1958 (justice sous controle) -> 2024 : la justice a fonctionne dans le proces Mazan — mais uniquement parce que les preuves etaient irrefutables (20 000 videos). C'est un CONTRE-EXEMPLE PARTIEL a la these de justice domestiquee. Mais le systeme reste structurellement incapable de traiter les viols « ordinaires » (80-90% classes sans suite)."
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le proces Mazan est un CAS DE TEST pour Fil D. D'un cote, la justice a fonctionne : 51 condamnations, Pelicot 20 ans, appel rejete avec alourdissement. C'est un contre-exemple partiel a la these de « justice domestiquee ». De l'autre cote, le DARVO a bien fonctionne pendant des annees : des faits d'agression commis entre 1999 et 2010 n'ont pas ete recoupes entre juridictions, laissant Pelicot libre de continuer. Ce n'est pas un dysfonctionnement isole — 80-90% des plaintes pour viol sont classees sans suite. Le proces Mazan a eu lieu parce que les preuves etaient irrefutables, pas parce que le systeme a change."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1804 confirme. Renforcements 1872, 1958 dans referentiel."
 
     - fil: "E — Presse sans contre-pouvoir"
       acte_naissance:
@@ -154,6 +175,8 @@ REMONTEE_DES_FILS:
         evenement: "Regime autoritaire de la presse : autorisation prealable, censure, timbre"
         mecanisme_cree: "M10 (Discredit preventif)"
         source: "Lois 1811-1819 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1811 — Regime autoritaire de la presse. Post-revolutionnaire (dans fenetre 1789-1815)."
       renforcements_historiques:
         - date: "1964"
           evenement: "ORTF : monopole d'Etat sur l'audiovisuel — la television est la voix du gouvernement"
@@ -169,7 +192,12 @@ REMONTEE_DES_FILS:
           source: "Archives mediatiques 2024 ❧"
       chaine_causale:
         - "1811 (censure d'Etat) -> 1881 (pouvoir economique remplace pouvoir politique) -> 1964 (ORTF) -> 1972+ (concentration Bollore) -> 2024 : les medias ont couvert le proces Mazan massivement — mais c'est l'exception. La plupart des proces pour viol ne sont pas couverts. La concentration des medias entre les mains de quelques milliardaires (Bollore, Dassault) ne favorise pas la couverture des violences faites aux femmes en temps normal."
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "La couverture mediatique du proces Mazan a ete exceptionnelle par son ampleur et sa qualite. Pendant 4 mois, les medias nationaux et internationaux ont relaye le proces, interviewe les avocats, analyse les temoignages. C'est un CONTRE-EXEMPLE PARTIEL a Fil E. Mais c'est l'arbre qui cache la foret : la plupart des proces pour viol ne recoivent aucune couverture mediatique. La concentration de la presse entre Bollore, Dassault et Lagardere ne produit pas d'enquetes sur les violences sexuelles en temps normal. Le proces Mazan a ete couvert parce que c'etait un « mega-proces » avec une victime icone mondiale — pas parce que la presse francaise est devenue un contre-pouvoir feministe."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1811 confirme. Renforcements 1881, 1964 dans referentiel."
 
     - fil: "G — Laicite comme religion civile"
       acte_naissance:
@@ -177,6 +205,8 @@ REMONTEE_DES_FILS:
         evenement: "Revolution : Declaration des Droits de l'Homme — l'Etat n'est plus serviteur de Dieu, mais reste seul maitre"
         mecanisme_cree: "M37 (Hypernormalisation)"
         source: "DDHC 1789 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1789 — Declaration Droits de l'Homme. Acte fondateur revolutionnaire."
       renforcements_historiques:
         - date: "1905"
           evenement: "Loi de separation des Eglises et de l'Etat : l'Etat devient la seule autorite morale universelle"
@@ -188,7 +218,12 @@ REMONTEE_DES_FILS:
           source: "Analyse sociologique du phenomene #MeToo ❧"
       chaine_causale:
         - "1789 (Etat seul souverain) -> 1905 (Etat seule autorite morale) -> 2017-2024 (#MeToo remplace l'Etat comme autorite morale sur les questions de genre) -> 2024 : le proces Mazan devient un rituel quasi-religieux de purification collective — la societe entiere se repent de la culture du viol par procuration"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le proces Mazan a acquis une dimension quasi-religieuse : Gisele Pelicot est elevee au rang d'icone (Time, BBC 100 Women), les medias en font un rituel de purification collective, les politiques se precipitent pour applaudir. #MeToo est devenue une nouvelle religion civile — elle remplit le vide moral laisse par le declin des Eglises et de l'Etat-providence. Mais la dimension religieuse ne change pas les structures : le taux de classement sans suite reste a 80-90%."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1789 confirme. Renforcements 1801, 1905, 1946 dans referentiel."
 
     - fil: "H — Exceptionnalisme francais"
       acte_naissance:
@@ -196,6 +231,8 @@ REMONTEE_DES_FILS:
         evenement: "Colbertisme : autosuffisance economique comme dogme — tout doit etre produit en France"
         mecanisme_cree: "M32 (Souverainete narrative)"
         source: "Politique Colbert ❧"
+        marquage: "[RACINE ANCIENNE] pre-revolutionnaire"
+        pelote_verification: "1660-1715 — Colbertisme. Racine la plus profonde. Arret valide."
       renforcements_historiques:
         - date: "1792"
           evenement: "Revolution et Empire : la France se pense comme la patrie des droits de l'homme"
@@ -207,7 +244,12 @@ REMONTEE_DES_FILS:
           source: "Discours politiques et editoriaux post-verdict ❧"
       chaine_causale:
         - "1660 (Colbert : autosuffisance dogmatique) -> 1792 (la France patrie des droits de l'homme) -> 2024 : la France se felicite du proces Mazan comme preuve de l'excellence de son systeme judiciaire — l'exceptionnalisme francais transforme un cas exceptionnel en preuve que le systeme fonctionne"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Apres le verdict, les discours politiques et mediatiques ont celebrate le proces Mazan comme la preuve que la justice francaise fonctionne. L'exceptionnalisme francais transforme l'exception en regle : un proces exemplaire cache 80-90% de classement sans suite. Le kayfabe est parfait — la France croit que son systeme judiciaire traite bien les violences sexuelles, alors que c'est un cas unique en 30 ans."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1660 confirme (RACINE ANCIENNE). Renforcements 1792, 1840, 1945 dans referentiel."
 ```
 
 # ============================================================

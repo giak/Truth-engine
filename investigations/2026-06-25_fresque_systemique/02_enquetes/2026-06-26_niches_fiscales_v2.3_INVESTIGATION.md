@@ -92,6 +92,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier (14 juin) : abolition des corporations ET interdiction de toute association professionnelle — l'Etat devient seul organisateur de la vie economique et seul maitre de la fiscalite"
         mecanisme_cree: "M05 (Perfusion publique)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1807"
           evenement: "Premiere niche fiscale : exoneration des pertes de recoltes et de betail pour les agriculteurs — l'Etat utilise la fiscalite derogatoire comme outil de politique sectorielle"
@@ -107,13 +109,20 @@ REMONTEE_DES_FILS:
           source: "Legifrance, Loi 2007-1823 ✦"
       chaine_causale:
         - "1791 (Le Chapelier : Etat seul collecteur) -> 1807 (premiere niche) -> 1954 (TVA : niches structurelles) -> 2007 (TEPA : niches massives) -> 2026 : 470 niches, 90-100 MdE/an"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "L'Etat cree des niches car c'est un outil politiquement commode : une niche ne coute rien dans le budget, contrairement a une subvention directe. Le cout reel (90-100 MdE/an) est invisible dans le debat public."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1811, 1945, 1958 dans referentiel."
     - fil: "C — Societe civile atrophiee"
       acte_naissance:
         date: "1791"
         evenement: "Loi Le Chapelier : toute association intermediaire est suspecte"
         mecanisme_cree: "M14 (Impuissance apprise)"
         source: "Legifrance JORFTEXT000000704780 ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire commun avec fil B."
       renforcements_historiques:
         - date: "2011-2013"
           evenement: "Plafonnement global des niches a 10 000E — seule reforme significative depuis 30 ans"
@@ -121,13 +130,20 @@ REMONTEE_DES_FILS:
           source: "Loi de finances 2011 ❧"
       chaine_causale:
         - "1791 -> 2011 (plafonnement seule reforme) -> le debat est confisque par Bercy et les lobbies"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Aucune association citoyenne n'a les moyens d'analyser les 470 niches. Rapport Lambert (2010) enterre. Recommandations annuelles Cour des comptes ignorees."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1804, 1884, 1901 dans referentiel."
     - fil: "D — Justice domestiquee"
       acte_naissance:
         date: "1804"
         evenement: "Code civil napoleonien : le juge est la bouche de la loi"
         mecanisme_cree: "M02 (Proceduralisation)"
         source: "Code civil 1804 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1804 — Code civil napoleonien. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "2012-12-29"
           evenement: "Decision CC 2012-662 DC : taxe 75% invalidee — protege les niches existantes"
@@ -135,37 +151,77 @@ REMONTEE_DES_FILS:
           source: "CC 2012-662 DC ✦"
       chaine_causale:
         - "1804 -> 2012 (CC bloque la taxe 75%) -> aucune niche n'a jamais ete invalidee pour inegalite"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le CC n'a jamais invalide une niche pour atteinte a l'egalite devant l'impot (art. 13 DDHC). Il a invalide la taxe 75%, protegeant les niches."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1804 confirme. Renforcements 1872, 1958 dans referentiel."
+      chaine_causale:
+        - "1811 (presse autoritaire) -> 1881 (liberte conditionnelle) -> 1964-1982 (ORTF) -> 2010-2026 : les niches quasi-invisibles dans les medias de masse. Les rares articles sont techniques, sans mise en recit politique."
+      gaps_verifies:
+          - "Gap 1811->1881 : 70 ans — GAP. Renforcement manquant : 1852 (censure Second Empire). A verifier dans le referentiel."
+          - "Gap 1881->1964 : 83 ans — GAP. Renforcement manquant : 1914 (loi de guerre sur la presse). A verifier dans le referentiel."
+          - "Gap 1964->2010 : 46 ans — GAP. Renforcement manquant : 1982 (loi audiovisuelle, creation CSA). A verifier."
+
     - fil: "E — Presse sans contre-pouvoir"
       acte_naissance:
         date: "1811-1868"
         evenement: "Regime autoritaire de la presse"
         mecanisme_cree: "M10 (Discredit preventif)"
         source: "Lois 1811 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1811 — Regime autoritaire de la presse. Post-revolutionnaire (dans fenetre 1789-1815)."
       renforcements_historiques:
         - date: "2010-2026"
           evenement: "Les niches sont quasi-invisibles dans les medias. Supprimer une niche = « hausse d'impot »"
           mecanisme_active: "M11 (Kayfabe mediatique)"
           source: "Archives mediatiques ❧"
       manifestation_dans_evenement: "Les medias titrent « hausse d'impot » pour une suppression de niche — jamais « suppression d'une exception ». Le recit mediatique inverse la realite."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1811 confirme. Renforcements 1881, 1964 dans referentiel."
+      chaine_causale:
+        - "1660 (Colbert : Etat entrepreneur) -> 1792 (Premiere Republique : continuite de l'Etat fort) -> 1840 (Etat modernisateur) -> 1945 (Etat keynesien) -> 2010 : rapport Lambert enterre — l'Etat ne se remet pas en question sur les niches"
+      gaps_verifies:
+          - "Gap 1660->1792 : 132 ans — GAP. Racine ANCIENNE — saut inherent au fil H (Exceptionnalisme). Justification : periode d'Ancien Regime puis Revolution."
+          - "Gap 1792->1840 : 48 ans — GAP. Renforcement manquant : 1815 (Restauration). A verifier dans le referentiel."
+          - "Gap 1840->1945 : 105 ans — GAP. Renforcement manquant : 1871, 1914-1918. A verifier."
+          - "Gap 1945->2010 : 65 ans — GAP. Renforcement manquant : 1958 (constitution Ve), 1981 (decentralisation). A verifier."
+
     - fil: "H — Exceptionnalisme francais"
       acte_naissance:
         date: "1660-1715"
         evenement: "Colbertisme"
         mecanisme_cree: "M32 (Souverainete narrative)"
         source: "Politique Colbert ❧"
+        marquage: "[RACINE ANCIENNE] pre-revolutionnaire"
+        pelote_verification: "1660-1715 — Colbertisme. Racine la plus profonde. Arret valide."
       renforcements_historiques:
         - date: "2010"
           evenement: "Rapport Lambert enterre sans suite"
           mecanisme_active: "M32"
           source: "Rapport Lambert 2010 ❧"
       manifestation_dans_evenement: "La France a le ratio depenses fiscales/PIB le plus eleve d'Europe mais ne touche pas a ses niches. Le discours de « maitrise de la depense publique » exclut les niches."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1660 confirme (RACINE ANCIENNE). Renforcements 1792, 1840, 1945 dans referentiel."
+      chaine_causale:
+        - "1914 (Loi Caillaux : creation IR) -> 1945 (Etat keynesien : niches comme outil de pilotage) -> 2007 (Loi TEPA : bouquet de niches pour le capital) -> 2017-2018 (ISF->IFI + flat tax : verrouillage asymetrie) -> 2026 : 470 niches, 90-100 MdE/an, l'asymetrie est verrouillee"
+      gaps_verifies:
+          - "Gap 1914->1945 : 31 ans — GAP. Renforcement manquant : 1920s (niches naissantes). A verifier."
+          - "Gap 1945->2007 : 62 ans — GAP. Renforcement manquant : 1959 (LOLF), 1970s (explosion niches). A verifier dans le referentiel."
+          - "Gap 2007->2017 : 10 ans — OK"
+          - "Gap 2017->2026 : 9 ans — OK"
+
     - fil: "L — Fiscalite asymetrique (CANDIDAT)"
       acte_naissance:
         date: "1914"
         evenement: "Loi Caillaux : creation de l'IR"
         mecanisme_cree: "M47 (Injustice fiscale structurelle) — CANDIDAT"
         source: "Archives Gallica ❧"
+        marquage: "[MODERNE] justifie"
+        pelote_verification: "1914 — Loi Caillaux (impot revenu). Fil moderne justifie car impot sur le revenu n'existe pas avant."
       renforcements_historiques:
         - date: "2007"
           evenement: "Loi TEPA : bouquet de niches"
@@ -176,6 +232,9 @@ REMONTEE_DES_FILS:
           mecanisme_active: "M47"
           source: "Legifrance, Loi 2017-1837 ✦, Loi 2018-120 ✦"
       manifestation_dans_evenement: "Les niches les plus couteuses (CIR ~8 MdE, Dutreil ~4-5 MdE) profitent au capital. Les niches ciblant le travail sont secondaires. Le CIR seul coute plus que toutes les niches liees au travail."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1914 confirme (fil moderne). Renforcements 1945, 2007, 2017 dans referentiel."
 
 # ============================================================
 # CHAPITRE 3 : BIFURCATIONS PERDUES

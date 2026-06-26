@@ -91,6 +91,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi de Medecine (23 ventose an XI) : monopole medical d'Etat — seuls les docteurs diplomes d'Etat peuvent soigner"
         mecanisme_cree: "M27 (Pathologisation)"
         source: "Archives BNF/Gallica, non numerise ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1803 — Loi de Medecine (ventose an XI). Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1808"
           evenement: "Universite imperiale napoleonienne : le savoir devient monopole d'Etat — facultes, diplomes, concours controles par Paris"
@@ -110,7 +112,12 @@ REMONTEE_DES_FILS:
           source: "Ordonnance Debre 1958 ❧"
       chaine_causale:
         - "1803 (monopole medical) -> 1808 (savoir d'Etat) -> 1858 (patron hospitalier) -> 1941 (ordre) -> 1958 (CHU : double autorite) -> 1984 : Garretta intouchable, son autorite scientifique n'est contestee par personne"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Michel Garretta refuse les produits chauffes en 1983. Son autorite de mandarin n'est contestee ni par le ministere, ni par les medecins de province, ni par les associations de patients. Le savoir medical est un territoire regalien — un non-medecin ne peut pas legitimement le contester."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1803 confirme. Renforcements 1808, 1858, 1941, 1958 dans referentiel."
 
     - fil: "B — Monopole d'Etat"
       acte_naissance:
@@ -118,6 +125,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier (14 juin) : abolition des corporations ET interdiction de toute association professionnelle"
         mecanisme_cree: "M05 (Perfusion publique)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1945"
           evenement: "Nationalisations massives : Charbonnages, EDF, GDF, Renault, Banque de France — Etat proprietaire-producteur"
@@ -133,7 +142,12 @@ REMONTEE_DES_FILS:
           source: "Constitution 1958 ❧"
       chaine_causale:
         - "1791 (pas de corps intermediaires) -> 1945 (Etat proprietaire) -> 1952 (monopole CNTS) -> 1958 (concentration des pouvoirs) -> 1984 : le CNTS est seul fournisseur, seul controle, seul juge — pas de Plan B possible"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le CNTS detient le monopole legal de l'importation depuis 1952. Aucune entreprise privee ne peut importer des produits chauffes alternatifs. Quand le CNTS refuse d'importer, il n'y a pas de Plan B. L'Etat est seul fournisseur, seul controleur, seul juge."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1811, 1945, 1958 dans referentiel."
 
     - fil: "C — Societe civile atrophiee"
       acte_naissance:
@@ -141,6 +155,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier : « Il n'y a plus de corporations dans l'Etat ; il n'y a plus que l'interet particulier de chaque individu et l'interet general » — toute association intermediaire est suspecte"
         mecanisme_cree: "M14 (Impuissance apprise)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire commun avec fil B."
       renforcements_historiques:
         - date: "1884"
           evenement: "Loi Waldeck-Rousseau : syndicats autorises — mais seulement pour les travailleurs, pas pour les patients ou citoyens"
@@ -156,7 +172,12 @@ REMONTEE_DES_FILS:
           source: "Loi 1993 ❧"
       chaine_causale:
         - "1791 (Le Chapelier interdit les corps intermediaires) -> 1884-1901 (associations tolerees mais desarmees) -> 1993 (class action maintenue hors droit) -> 1984 : les hemophiles sont seuls, sans organisation capable de creer un rapport de force"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "L'Association Francaise des Hemophiles (AFH) est cooptée par le CNTS — son president est un mandarin, pas un patient. Les hemophiles sont 2 500 sans organisation politique, sans syndicat, sans porte-parole mediatique. Aucun rapport de force possible."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1804, 1884, 1901 dans referentiel."
 
     - fil: "D — Justice domestiquee"
       acte_naissance:
@@ -164,6 +185,8 @@ REMONTEE_DES_FILS:
         evenement: "Code civil napoleonien : le juge est « la bouche de la loi » — pas de pouvoir createur, pas de controle sur l'administration"
         mecanisme_cree: "M02 (Proceduralisation)"
         source: "Code civil 1804 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1804 — Code civil napoleonien. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1872"
           evenement: "Tribunal des conflits : l'administration jugee par ses propres tribunaux (Conseil d'Etat) — dualite de juridiction"
@@ -179,7 +202,12 @@ REMONTEE_DES_FILS:
           source: "Legifrance JORFTEXT000000529277 (HEAD 403 anti-bot) ⁅"
       chaine_causale:
         - "1804 (juge = bouche de la loi) -> 1872 (l'Etat se juge lui-meme) -> 1958 (justice sous controle) -> 1993 (CJR : les ministres ne sont pas des justiciables ordinaires) -> 1999 : Fabius et Dufoix acquittes par la CJR"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "En 1999, la CJR acquitte Laurent Fabius et Georgina Dufoix. Edmond Herve est condamne mais dispense de peine. Les hauts fonctionnaires de la DGS obtiennent un non-lieu en 2003. La justice a fonctionne : pour condamner un bouc emissaire et innocenter le systeme."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1804 confirme. Renforcements 1872, 1958 dans referentiel."
 
     - fil: "E — Presse sans contre-pouvoir"
       acte_naissance:
@@ -187,6 +215,8 @@ REMONTEE_DES_FILS:
         evenement: "Regime autoritaire de la presse : autorisation prealable, censure, timbre — journaux d'opposition systematiquement poursuivis"
         mecanisme_cree: "M10 (Discredit preventif)"
         source: "Lois 1811-1819 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1811 — Regime autoritaire de la presse. Post-revolutionnaire (dans fenetre 1789-1815)."
       renforcements_historiques:
         - date: "1964"
           evenement: "ORTF : monopole d'Etat sur l'audiovisuel — la television est la voix du gouvernement"
@@ -198,7 +228,12 @@ REMONTEE_DES_FILS:
           source: "Rachats Hersant ❧"
       chaine_causale:
         - "1811 (censure d'Etat) -> 1881 (pouvoir economique remplace pouvoir politique) -> 1964 (ORTF : television = voix du gouvernement) -> 1972+ (concentration economique) -> 1991 : Casteret publie dans un micro-media a 20 000 exemplaires, aucun grand media n'a enquete avant elle"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "La contamination a lieu en 1984-1985. Le scandale eclate le 25 avril 1991 dans L'Evenement du Jeudi : un hebdomadaire a 20 000 exemplaires. Pendant 7 ans, pas une ligne dans la grande presse. Les medias de masse (television, quotidiens nationaux) n'ont pas enquete."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1811 confirme. Renforcements 1881, 1964 dans referentiel."
 
     - fil: "F — Ecole-moule"
       acte_naissance:
@@ -206,6 +241,8 @@ REMONTEE_DES_FILS:
         evenement: "Universite napoleonienne : l'ecole est un appareil d'Etat — le bac est un diplome national unique, les programmes fixes a Paris"
         mecanisme_cree: "M26 (Institution totalisante)"
         source: "Loi 1806-1808 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1808 — Universite napoleonienne. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1881-1886"
           evenement: "Lois Ferry : ecole gratuite, laique, obligatoire — but cache : former des patriotes obeissants"
@@ -217,7 +254,12 @@ REMONTEE_DES_FILS:
           source: "Loi Haby 1975 ❧"
       chaine_causale:
         - "1808 (ecole d'Etat) -> 1881 (roman national) -> 1902-1945 (Grandes Ecoles : reproduction des elites) -> 1975 (uniformisation) -> 1984 : quand Garretta dit que les produits chauffes n'ont pas fait leurs preuves, personne ne demande a voir les preuves"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Quand Garretta annonce que les produits chauffes « n'ont pas fait leurs preuves », personne ne demande a voir les preuves. Les familles, les medecins de province, les journalistes : personne n'a le reflexe de verifier par soi-meme. L'autorite scientifique du mandarin est acceptee comme une evidence."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1808 confirme. Renforcements 1833, 1881, 1975 dans referentiel."
 
     - fil: "G — Laicite comme religion civile"
       acte_naissance:
@@ -225,6 +267,8 @@ REMONTEE_DES_FILS:
         evenement: "Revolution : Declaration des Droits de l'Homme — l'Etat n'est plus serviteur de Dieu, mais reste seul maitre"
         mecanisme_cree: "M37 (Hypernormalisation)"
         source: "DDHC 1789 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1789 — Declaration Droits de l'Homme. Acte fondateur revolutionnaire."
       renforcements_historiques:
         - date: "1905"
           evenement: "Loi de separation des Eglises et de l'Etat : l'Etat ne reconnait aucun culte — il devient la seule autorite morale universelle"
@@ -236,7 +280,12 @@ REMONTEE_DES_FILS:
           source: "Constitution 1946 ❧"
       chaine_causale:
         - "1562-1598 (Etat + fort que les Eglises) -> 1789 (Etat seul souverain) -> 1905 (Etat seule autorite morale) -> 1946 (Etat debiteur universel) -> 1991 : quand le scandale eclate, personne ne remet en cause la legitimite morale de l'Etat"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Quand le scandale eclate en 1991, il n'y a pas de contestation par les Eglises, les associations morales, les partis autres que socialistes. La confiance dans l'Etat est si profonde que meme apres la revelation, la majorite pense que « l'Etat va gerer ca ». Personne ne remet en cause la legitimite morale de l'institution publique."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1789 confirme. Renforcements 1801, 1905, 1946 dans referentiel."
 
     - fil: "H — Exceptionnalisme francais"
       acte_naissance:
@@ -244,6 +293,8 @@ REMONTEE_DES_FILS:
         evenement: "Colbertisme : autosuffisance economique comme dogme — tout doit etre produit en France"
         mecanisme_cree: "M32 (Souverainete narrative)"
         source: "Politique Colbert ❧"
+        marquage: "[RACINE ANCIENNE] pre-revolutionnaire"
+        pelote_verification: "1660-1715 — Colbertisme. Racine la plus profonde. Arret valide."
       renforcements_historiques:
         - date: "1945-1970"
           evenement: "Planification gaullienne : « grandeur francaise », independance nucleaire, Ariane, Concorde, TGV, Minitel"
@@ -255,7 +306,12 @@ REMONTEE_DES_FILS:
           source: "Programme nucleaire ❧"
       chaine_causale:
         - "1660 (autosuffisance dogmatique) -> 1792 (nationalisme militaire) -> 1840 (champion national) -> 1945 (grandeur gaullienne) -> 1963 (independance nucleaire) -> 1984 : CNTS refuse les produits chauffes americains au nom de la souverainete technique francaise"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Travenol-Hyland (USA) propose des produits chauffes en 1983. Behring (RFA) les a deja. La FDA les a valides. Mais le CNTS les refuse au nom de la souverainete technique francaise. Le laboratoire francais mettra 18 mois a developper sa propre technique. Pendant ce temps, le sang non chauffe tue."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1660 confirme (RACINE ANCIENNE). Renforcements 1792, 1840, 1945 dans referentiel."
 
 # ============================================================
 # CHAPITRE 3 : BIFURCATIONS PERDUES (inchange)

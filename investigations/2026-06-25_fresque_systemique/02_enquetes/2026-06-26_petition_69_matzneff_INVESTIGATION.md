@@ -95,6 +95,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier (14 juin) : abolition des corporations ET interdiction de toute association professionnelle"
         mecanisme_cree: "M05 (Perfusion publique)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1945"
           evenement: "Nationalisations massives : Charbonnages, EDF, GDF, Renault, Banque de France"
@@ -106,7 +108,12 @@ REMONTEE_DES_FILS:
           source: "Constitution 1958 ❧"
       chaine_causale:
         - "1791 (pas de corps intermediaires) -> 1945 (Etat proprietaire) -> 1958 (concentration) -> 1977-2020 : le CNL subventionne Matzneff avec l'argent public, l'Elysee l'invite — l'Etat est complice institutionnel"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le Centre National du Livre (CNL) subventionne Matzneff pendant des decennies avec l'argent public. L'Elysee l'invite. Le systeme de subventions culturelles est un monopole d'Etat — il n'existe pas de contre-pouvoir citoyen pour contester l'attribution des fonds. Quand la presse revele les subventions en 2020, le CNL les supprime en 24h, prouvant que la decision etait politique et non basee sur le merite litteraire."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1811, 1945, 1958 dans referentiel."
 
     - fil: "C — Societe civile atrophiee"
       acte_naissance:
@@ -114,6 +121,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier : toute association intermediaire est suspecte — l'individu est seul face a l'Etat"
         mecanisme_cree: "M14 (Impuissance apprise)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire commun avec fil B."
       renforcements_historiques:
         - date: "1901"
           evenement: "Loi sur les associations : liberte associative reconnue mais sans financement public ni pouvoir juridique"
@@ -125,7 +134,12 @@ REMONTEE_DES_FILS:
           source: "Loi Hamon 2014 ❧"
       chaine_causale:
         - "1791 (pas de corps intermediaires) -> 1901 (associations tolerees mais desarmees) -> 2014 (class action edulcoree) -> 1977-2020 : les victimes de Matzneff sont isolees, aucune association de protection de l'enfance ne conteste la petition en 1977"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "En 1977, aucune association de protection de l'enfance ne conteste la petition des 69. Les voix qui s'elevent (quelques psychiatres, pediatres) sont isolees et inaudibles. Chaque victime de Matzneff est seule — il n'existe pas de mecanisme de class action, pas de plainte collective. Springora met 30 ans a parler. L'impuissance des victimes est structurelle."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1804, 1884, 1901 dans referentiel."
 
     - fil: "D — Justice domestiquee"
       acte_naissance:
@@ -133,6 +147,8 @@ REMONTEE_DES_FILS:
         evenement: "Code civil napoleonien : le juge est « la bouche de la loi » — pas de pouvoir createur"
         mecanisme_cree: "M02 (Proceduralisation)"
         source: "Code civil 1804 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1804 — Code civil napoleonien. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1872"
           evenement: "Tribunal des conflits : l'administration jugee par ses propres tribunaux — dualite de juridiction"
@@ -144,7 +160,12 @@ REMONTEE_DES_FILS:
           source: "Constitution 1958 ❧"
       chaine_causale:
         - "1804 (juge bouche de la loi) -> 1872 (l'Etat se juge lui-meme) -> 1958 (justice sous controle) -> 1977-2020 : les 69 signataires ne sont jamais poursuivis, Matzneff est prescrit, la justice n'a jamais fonctionne pour les victimes"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Pendant 40 ans, Matzneff n'est jamais poursuivi. Les 69 signataires non plus. Ce n'est pas un accident — la justice francaise est concue pour ne pas poursuivre les elites. Le proces de 1977 (Yvelines) qui a declenche la petition montre que le systeme judiciaire lui-meme etait confus sur la protection des mineurs. En 2020, l'enquete est ouverte mais les faits sont prescrits."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1804 confirme. Renforcements 1872, 1958 dans referentiel."
 
     - fil: "E — Presse sans contre-pouvoir"
       acte_naissance:
@@ -152,6 +173,8 @@ REMONTEE_DES_FILS:
         evenement: "Regime autoritaire de la presse : autorisation prealable, censure, timbre"
         mecanisme_cree: "M10 (Discredit preventif)"
         source: "Lois 1811-1819 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1811 — Regime autoritaire de la presse. Post-revolutionnaire (dans fenetre 1789-1815)."
       renforcements_historiques:
         - date: "1964"
           evenement: "ORTF : monopole d'Etat sur l'audiovisuel — la television est la voix du gouvernement"
@@ -163,7 +186,12 @@ REMONTEE_DES_FILS:
           source: "Rachats Hersant ❧"
       chaine_causale:
         - "1811 (censure d'Etat) -> 1881 (pouvoir economique remplace pouvoir politique) -> 1964 (ORTF : television = voix du gouvernement) -> 1972+ (concentration) -> 1977 : Le Monde publie la petition sans contradiction, Apostrophes invite Matzneff sans opposition"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le Monde publie la petition des 69 en une — sans article contradictoire, sans editorial critique, sans enquete sur les implications. Bernard Pivot invite Matzneff sur Apostrophes comme un ecrivain respectable — pas un debat, une celebration. La presse est complice active : elle ne denonce pas, elle normalise. Ce n'est pas une erreur individuelle — c'est le fonctionnement normal d'une presse qui n'a jamais eu de culture d'investigation."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1811 confirme. Renforcements 1881, 1964 dans referentiel."
 
     - fil: "F — Ecole-moule"
       acte_naissance:
@@ -171,6 +199,8 @@ REMONTEE_DES_FILS:
         evenement: "Universite napoleonienne : l'ecole est un appareil d'Etat — bac = diplome national unique"
         mecanisme_cree: "M26 (Institution totalisante)"
         source: "Loi 1806-1808 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1808 — Universite napoleonienne. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1881-1886"
           evenement: "Lois Ferry : ecole gratuite, laique, obligatoire — but cache : former des patriotes obeissants"
@@ -182,7 +212,12 @@ REMONTEE_DES_FILS:
           source: "Loi Haby 1975 ❧"
       chaine_causale:
         - "1808 (ecole d'Etat) -> 1881 (roman national) -> 1902-1945 (Grandes Ecoles : reproduction des elites) -> 1975 (uniformisation) -> 1977 : l'ecole n'a pas forme les citoyens a resister au discours d'autorite intellectuelle"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "En 1977, le systeme educatif francais n'a pas forme les citoyens a l'esprit critique face a l'autorite intellectuelle. Quand Sartre, Foucault et Barthes signent une petition, le reflexe du public et des medias est de respecter leur autorite, pas de verifier le contenu de ce qu'ils signent. L'ecole-moule produit des citoyens qui respectent l'autorite academique, pas des citoyens qui la contestent."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1808 confirme. Renforcements 1833, 1881, 1975 dans referentiel."
 
     - fil: "G — Laicite comme religion civile"
       acte_naissance:
@@ -190,6 +225,8 @@ REMONTEE_DES_FILS:
         evenement: "Revolution : Declaration des Droits de l'Homme — l'Etat n'est plus serviteur de Dieu, mais reste seul maitre"
         mecanisme_cree: "M37 (Hypernormalisation)"
         source: "DDHC 1789 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1789 — Declaration Droits de l'Homme. Acte fondateur revolutionnaire."
       renforcements_historiques:
         - date: "1905"
           evenement: "Loi de separation des Eglises et de l'Etat : l'Etat devient la seule autorite morale universelle"
@@ -201,7 +238,12 @@ REMONTEE_DES_FILS:
           source: "Constitution 1946 ❧"
       chaine_causale:
         - "1562-1598 (Etat + fort que les Eglises) -> 1789 (Etat seul souverain) -> 1905 (Etat seule autorite morale) -> 1977 : les intellectuels remplacent l'Eglise comme autorite morale — leur parole est indiscutable"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Dans la France laique, les intellectuels ont remplace les pretres comme autorite morale. Signer une tribune dans Le Monde est un acte quasi-religieux — la parole de Foucault ou Sartre a le poids d'un dogme. Personne ne les contredit parce que personne n'a l'autorite morale pour le faire. La petition de 1977 n'est pas un debat d'idees — c'est un acte d'autorite. La religion civile republicaine a remplace l'Eglise, mais le mecanisme d'obeissance a l'autorite est le meme."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1789 confirme. Renforcements 1801, 1905, 1946 dans referentiel."
 
 # ============================================================
 # CHAPITRE 3 : BIFURCATIONS PERDUES (inchange)

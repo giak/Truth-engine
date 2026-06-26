@@ -90,7 +90,13 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier (14 juin) : abolition des corporations ET interdiction de toute association professionnelle"
         mecanisme_cree: "M05 (Perfusion publique)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "5 questions Q4 — acte fondateur autonome (rupture revolutionnaire)"
       renforcements_historiques:
+        - date: "1811"
+          evenement: "Regime des tabacs et allumettes : monopole d'Etat justifie par l'interet general"
+          mecanisme_active: "M05 (Perfusion publique)"
+          source: "Referentiel §B2 ❧"
         - date: "1945"
           evenement: "Nationalisations massives : Charbonnages, EDF, GDF, Renault, Banque de France — Etat proprietaire-producteur"
           mecanisme_active: "M05, M33 (Patronage clanique)"
@@ -104,7 +110,16 @@ REMONTEE_DES_FILS:
           mecanisme_active: "M35 (Exception juridictionnelle)"
           source: "Constitution 1958 ❧"
       chaine_causale:
-        - "1791 (pas de corps intermediaires) -> 1945 (Etat proprietaire) -> 1952 (SCPRI : monopole de mesure) -> 1958 (concentration) -> 1986 : le SCPRI est juge et partie — il mesure ET communique, personne ne peut contredire ses chiffres"
+        - "1791 (Le Chapelier) -> 1811 (regime tabacs) -> 1945 (nationalisations) -> 1952 (SCPRI monopolistique) -> 1958 (constitution) -> 1986 (SCPRI juge et partie)"
+      gaps_verifies:
+        - "1791→1811 : 20 ans — OK (< 30 ans)"
+        - "1811→1945 : 134 ans — GAP critique. Renforcements manquants identifiés dans le referentiel : 1918 (Etat actionnaire), B4 (1945 nationalisations comme rattrapage). Ces renforcements ne sont pas directement lies a l'evenement Tchernobyl mais existent dans la chaine longue du fil B."
+        - "1945→1952 : 7 ans — OK"
+        - "1952→1958 : 6 ans — OK"
+        - "1958→1986 : 28 ans — OK (< 30 ans, a la limite)"
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "OK — acte de naissance 1791 confirme. Renforcements 1811 et 1945 dans le referentiel. Renforcement 1952 (loi sang) specifique a Tchernobyl, pas dans le referentiel (ajout enquete)."
       manifestation_dans_evenement: "Le SCPRI est le seul organisme habilite a mesurer la radioactivite en France. C'est un service du ministere de la Sante, sans independance statutaire. Quand Pellerin affirme que le nuage ne traverse pas la France, personne ne peut contester officiellement ses mesures car il n'existe pas de contre-expertise institutionnelle. La CRIIRAD, creee par des citoyens, n'a aucune legitimite officielle."
 
     - fil: "C — Societe civile atrophiee"
@@ -113,7 +128,13 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier : toute association intermediaire est suspecte — l'individu est seul face a l'Etat"
         mecanisme_cree: "M14 (Impuissance apprise)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "5 questions Q4 — acte fondateur commun avec fil B (1791)"
       renforcements_historiques:
+        - date: "1804"
+          evenement: "Code civil : puissance paternelle — pas de representation collective des interets familiaux"
+          mecanisme_active: "M37 (Hypernormalisation)"
+          source: "Referentiel §C2 ❧"
         - date: "1884"
           evenement: "Loi Waldeck-Rousseau : syndicats autorises mais pour les travailleurs seulement, pas pour les citoyens"
           mecanisme_active: "M22 (Absorption)"
@@ -123,7 +144,15 @@ REMONTEE_DES_FILS:
           mecanisme_active: "M15 (Heteronomie differee)"
           source: "Loi 1901 ❧"
       chaine_causale:
-        - "1791 (pas de corps intermediaires) -> 1884-1901 (associations tolerees mais desarmees) -> 1986 : la CRIIRAD n'existe pas encore, les citoyens n'ont aucun moyen de verifier les mesures du SCPRI"
+        - "1791 (Le Chapelier) -> 1804 (Code civil) -> 1884 (syndicats sous controle) -> 1901 (associations desarmees) -> 1986 (CRIIRAD n'existe pas aux moments critiques)"
+      gaps_verifies:
+        - "1791→1804 : 13 ans — OK"
+        - "1804→1884 : 80 ans — GAP. Renforcement manquant identifie dans le referentiel : aucune avancee des droits associatifs entre 1804 et 1884 — le verrou tient 80 ans, ce qui est coherent avec l'atrophie de la societe civile."
+        - "1884→1901 : 17 ans — OK"
+        - "1901→1986 : 85 ans — GAP. Renforcements manquants identifies : C5 (1945 CE restrictif), C6 (1975 institutions sociales sans representation). Ces evenements ne sont pas directement lies au nucleaire mais ont contribue a maintenir l'atrophie."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "OK — acte de naissance 1791 confirme. Renforcements 1804, 1884, 1901 dans le referentiel. Specifique Tchernobyl : la CRIIRAD comme contre-pouvoir tardif."
       manifestation_dans_evenement: "La CRIIRAD est creee en mai 1986 par des scientifiques et citoyens — MAIS apres la crise, pas pendant. En mai 1986, les citoyens n'ont aucun moyen de verifier les mesures du SCPRI. Les associations anti-nucleaires existent (Sortir du nucleaire, Reseau Sortir du Nucleaire) mais n'ont pas acces aux instruments de mesure. La societe civile est structurellement desarmee face au monopole technique de l'Etat."
 
     - fil: "E — Presse sans contre-pouvoir"
@@ -132,7 +161,13 @@ REMONTEE_DES_FILS:
         evenement: "Regime autoritaire de la presse : autorisation prealable, censure, timbre"
         mecanisme_cree: "M10 (Discredit preventif)"
         source: "Lois 1811-1819 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "5 questions Q4 — acte fondateur 1811 (censure post-revolutionnaire). Loi 1881 = renforcement, pas acte de naissance."
       renforcements_historiques:
+        - date: "1881"
+          evenement: "Loi sur la liberte de la presse : moment liberateur mais pouvoir economique remplace pouvoir politique"
+          mecanisme_active: "M13 (Pensee de groupe)"
+          source: "Referentiel §E3 ❧"
         - date: "1964"
           evenement: "ORTF : monopole d'Etat sur l'audiovisuel — la television est la voix du gouvernement"
           mecanisme_active: "M11 (Kayfabe)"
@@ -142,6 +177,15 @@ REMONTEE_DES_FILS:
           mecanisme_active: "M09 (Financement conditionne)"
           source: "Rachats Hersant ❧"
       chaine_causale:
+        - "1811 (censure d'Etat) -> 1881 (liberte mais pouvoir economique) -> 1964 (ORTF : television = voix du gouvernement) -> 1972+ (concentration Hersant) -> 1986 : journalisme sans contre-pouvoir technique"
+      gaps_verifies:
+        - "1811->1881 : 70 ans — GAP. Renforcement 1881 ajoute (referentiel E3)."
+        - "1881->1964 : 83 ans — GAP. Renforcements manquants : 1914-1944 (presse mise au pas), 1944 (ordonnance presse). Non lies directement au pattern Tchernobyl."
+        - "1964->1972 : 8 ans — OK"
+        - "1972->1986 : 14 ans — OK"
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "OK. Acte 1811 confirme (referentiel E2). Renforcements 1881, 1964, 1972 dans le referentiel. Specifique Tchernobyl : absence de journalisme scientifique."
         - "1811 (censure d'Etat) -> 1881 (pouvoir economique remplace pouvoir politique) -> 1964 (ORTF : television = voix du gouvernement) -> 1972+ (concentration) -> 1986 : aucun journaliste n'a les competences techniques pour contester les chiffres du SCPRI"
       manifestation_dans_evenement: "Pellerin est interviewe a la television — la meme television qui est monopole d'Etat (ORTF jusqu'en 1982, puis chaines publiques sous influence). Aucun journaliste present ne conteste ses affirmations, car personne n'a les competences en radioprotection pour le faire. Les rares articles critiques (Libération, Canard Enchaine) sont isoles et sans echo."
 
@@ -151,7 +195,13 @@ REMONTEE_DES_FILS:
         evenement: "Revolution : Declaration des Droits de l'Homme — l'Etat n'est plus serviteur de Dieu, mais reste seul maitre"
         mecanisme_cree: "M37 (Hypernormalisation)"
         source: "DDHC 1789 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "5 questions Q4 — acte fondateur revolutionnaire. Note : le pre-acte 1562-1598 (guerres de religion) est documente dans le referentiel comme racine encore plus profonde."
       renforcements_historiques:
+        - date: "1801"
+          evenement: "Concordat : Napoleon encadre strictement l'Eglise catholique, la transforme en administration"
+          mecanisme_active: "M22 (Absorption)"
+          source: "Referentiel §G5 ❧"
         - date: "1905"
           evenement: "Loi de separation des Eglises et de l'Etat : l'Etat devient la seule autorite morale universelle"
           mecanisme_active: "M37 (Hypernormalisation)"
@@ -161,7 +211,15 @@ REMONTEE_DES_FILS:
           mecanisme_active: "M05 (Perfusion publique)"
           source: "Constitution 1946 ❧"
       chaine_causale:
-        - "1562-1598 (Etat + fort que les Eglises) -> 1789 (Etat seul souverain) -> 1905 (Etat seule autorite morale) -> 1986 : la science d'Etat est une autorite indiscutable — contester le SCPRI, c'est contester la Republique"
+        - "1562-1598 (Etat > Eglises) -> 1789 (Etat seul souverain) -> 1801 (Eglise absorbe) -> 1905 (Etat seule autorite morale) -> 1946 (Etat debiteur universel) -> 1986 (SCPRI = Raison republicaine indiscutable)"
+      gaps_verifies:
+        - "1789→1801 : 12 ans — OK"
+        - "1801→1905 : 104 ans — GAP. Renforcements manquants identifies dans le referentiel : 1880-1905 (laicisation republicaine). Non ajoutes car non directement lies au pattern Tchernobyl. Le referentiel §G6 documente la periode."
+        - "1905→1946 : 41 ans — GAP modere. Renforcements manquants : 1914-1918 (Union sacree), 1940-1944 (Vichy et Eglise). Non directement lies."
+        - "1946→1986 : 40 ans — GAP modere. Le verrou tient sans nouveau renforcement."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "OK — acte de naissance 1789 confirme. 1905 et 1946 dans le referentiel. 1801 ajoute comme renforcement manquant (gaps). Specifique Tchernobyl : la science d'Etat comme autorite morale indiscutable."
       manifestation_dans_evenement: "Le SCPRI represente la science d'Etat, donc la Raison republicaine. Contester les mesures de Pellerin, c'est s'opposer a l'autorite scientifique legitime de la Republique. La CRIIRAD est traitee d'« alarmiste » — son existence meme est une transgression du monopole moral de l'Etat sur la verite scientifique."
 
     - fil: "H — Exceptionnalisme francais"
@@ -170,17 +228,36 @@ REMONTEE_DES_FILS:
         evenement: "Colbertisme : autosuffisance economique comme dogme — tout doit etre produit en France"
         mecanisme_cree: "M32 (Souverainete narrative)"
         source: "Politique Colbert ❧"
+        marquage: "[RACINE ANCIENNE] — pre-revolutionnaire"
+        pelote_verification: "5 questions Q4 — racine la plus profonde (1660). Aucun antecedent institutionnel identifiable dans le systeme francais — arret valide."
       renforcements_historiques:
+        - date: "1792-1815"
+          evenement: "Revolution et Empire : France contre l'Europe — nationalisme economique devient militaire"
+          mecanisme_active: "M39 (Bouclier republicain)"
+          source: "Referentiel §H2 ❧"
+        - date: "1840-1914"
+          evenement: "Nationalisme industriel : chaque grand secteur doit avoir un champion francais"
+          mecanisme_active: "M32 (Souverainete narrative)"
+          source: "Referentiel §H3 ❧"
         - date: "1945-1970"
-          evenement: "Planification gaullienne : « grandeur francaise », independance nucleaire, Concorde, TGV — la fierte nationale par l'autosuffisance technique"
+          evenement: "Planification gaullienne : « grandeur francaise », independance nucleaire, Concorde, TGV"
           mecanisme_active: "M32 (Souverainete narrative)"
           source: "Planification ❧"
         - date: "1963"
-          evenement: "Politique nucleaire de Gaulle : France construit ses centrales seule — tout le nucleaire est francais, du combustible au retraitement"
+          evenement: "Politique nucleaire de Gaulle : France construit ses centrales seule — tout le nucleaire est francais"
           mecanisme_active: "M36 (Gouvernance nobiliaire)"
           source: "Programme nucleaire ❧"
       chaine_causale:
-        - "1660 (autosuffisance dogmatique) -> 1792 (nationalisme militaire) -> 1945 (grandeur gaullienne) -> 1963 (independance nucleaire) -> 1986 : la France a le meilleur nucleaire du monde, Tchernobyl ne peut pas arriver ici — discours qui empeche toute anticipation"
+        - "1660 (Colbert : autosuffisance) -> 1792 (nationalisme militaire) -> 1840 (champion national) -> 1945 (grandeur gaullienne) -> 1963 (independance nucleaire) -> 1986 (Tchernobyl ne peut pas arriver ici)"
+      gaps_verifies:
+        - "1660→1792 : 132 ans — GAP. Mais la periode 1660-1792 est un continuum du colbertisme. Aucun renforcement specifique identifie entre ces dates dans le referentiel. Le fil H est structurellement un fil long avec des sauts inherents."
+        - "1792→1840 : 48 ans — GAP modere. 1840 ajoute comme renforcement manquant."
+        - "1840→1945 : 105 ans — GAP. Renforcements manquants : 1936-1945 (autarcie de guerre). Non ajoute car non directement lie."
+        - "1945→1963 : 18 ans — OK"
+        - "1963→1986 : 23 ans — OK"
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "OK — acte de naissance 1660 confirme. 1792, 1840, 1945, 1963 dans le referentiel. Specifique Tchernobyl : le nucleaire comme expression maximale de l'exceptionnalisme technique."
       manifestation_dans_evenement: "Le discours officiel minimise Tchernobyl parce que la France ne peut pas admettre qu'un accident nucleaire — meme sovietique — ait des consequences sur son territoire. Le programme nucleaire francais, fonde sur l'exceptionnalisme technique (« le nucleaire francais est le plus sur du monde »), ne survivrait pas a l'aveu que les retombees radioactives ne s'arretent pas aux frontieres. L'enjeu industriel verrouille la communication."
 
 # ============================================================

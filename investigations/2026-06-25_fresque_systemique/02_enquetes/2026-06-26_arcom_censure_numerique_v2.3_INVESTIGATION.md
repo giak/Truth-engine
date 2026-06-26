@@ -95,6 +95,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier : l'Etat seul organisateur de la vie collective"
         mecanisme_cree: "M05 (Perfusion publique)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1881"
           evenement: "Loi sur la liberte de la presse : etablit le cadre liberal MAIS avec des exceptions qui permettent la censure (offense au president, atteinte a la morale, diffamation) — le cadre de la censure est fixe pour 130 ans"
@@ -126,13 +128,20 @@ REMONTEE_DES_FILS:
           source: "Loi SREN 2024 ❧"
       chaine_causale:
         - "1791 (monopole Etat) -> 1881 (liberte sous exceptions) -> 1949 (censure preventive jeunesse) -> 1977 (CNIL: controle donnees) -> 2004 (LCEN: regulation Internet) -> 2009 (HADOPI: police numerique) -> 2019 (ARCOM: fusion) -> 2024 (SREN: extension plateformes) -> 2026 (budget 500 M€)"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "L'Etat francais controle la totalite de la chaine de regulation numerique : nomination (Elysee), budget (Bercy), sanctions (ARCOM), cadre juridique (DSA europeen). Aucun contre-pouvoir independant."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1811, 1945, 1958 dans referentiel."
     - fil: "C — Societe civile atrophiee"
       acte_naissance:
         date: "1791"
         evenement: "Loi Le Chapelier : toute association intermediaire est suspecte"
         mecanisme_cree: "M14 (Impuissance apprise)"
         source: "Legifrance ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire commun avec fil B."
       renforcements_historiques:
         - date: "2024"
           evenement: "Censure via codes de conduite sans recours possible devant tribunal — \"pas une loi\" donc pas de recours juridictionnel"
@@ -140,13 +149,20 @@ REMONTEE_DES_FILS:
           source: "OONI 2025 ❧"
       chaine_causale:
         - "1791 -> 2024 (codes conduite = justice privee) -> aucun citoyen ne peut contester une decision ARCOM"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Les citoyens n'ont aucun recours effectif contre les decisions de l'ARCOM : pas de class action, pas de recours direct au juge, pas de contre-expertise citoyenne sur les blocages DNS."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1804, 1884, 1901 dans referentiel."
     - fil: "D — Justice domestiquee"
       acte_naissance:
         date: "1804"
         evenement: "Code civil napoleonien : le juge est la bouche de la loi"
         mecanisme_cree: "M02 (Proceduralisation)"
         source: "Code civil 1804 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1804 — Code civil napoleonien. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1975"
           evenement: "Loi sur le classement X des films : l'Etat legitime la censure cinematographique par une commission de classification — le precedent de la censure administrative des contenus culturels"
@@ -162,13 +178,20 @@ REMONTEE_DES_FILS:
           source: "Reglement UE 2022/2065 ❧"
       chaine_causale:
         - "1804 (juge = bouche de la loi) -> 1975 (classement X : censure administrative) -> 1990 (loi Gayssot : censure du discours) -> 2024 (DSA : justice administrative remplace justice judiciaire)"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le DSA cree un systeme de sanctions administratives massives (6% CA mondial) qui contourne le juge judiciaire. Les plateformes preferent sur-modérer plutot que de risquer l'amende."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1804 confirme. Renforcements 1872, 1958 dans referentiel."
     - fil: "E — Presse sans contre-pouvoir"
       acte_naissance:
         date: "1811-1868"
         evenement: "Regime autoritaire de la presse"
         mecanisme_cree: "M10 (Discredit preventif)"
         source: "Lois 1811 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1811 — Regime autoritaire de la presse. Post-revolutionnaire (dans fenetre 1789-1815)."
       renforcements_historiques:
         - date: "1881"
           evenement: "Loi sur la liberte de la presse : etablit le cadre liberal MAIS avec des exceptions (offense, diffamation, atteinte a la morale) — la liberte est encadree par le droit de l'Etat"
@@ -192,25 +215,37 @@ REMONTEE_DES_FILS:
           source: "Civilization Works 2025 ❧"
       chaine_causale:
         - "1811 (regime autoritaire presse) -> 1881 (liberte sous exceptions) -> 1986 (CSA : regulateur audiovisuel) -> 2004 (LCEN : extension numerique) -> 2024 (ARCOM : controle TNT et plateformes) -> 2025 (Twitter Files : collusion directe)"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "L'ARCOM controle l'acces aux ondes (frequences TNT) et les contenus (sanctions). C8 perd sa frequence, CNews est sanctionnee 26 fois. Les Twitter Files revelent que ce controle sert aussi a faire pression sur les plateformes pour censurer des contenus politiques."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1811 confirme. Renforcements 1881, 1964 dans referentiel."
     - fil: "H — Exceptionnalisme francais"
       acte_naissance:
         date: "1660-1715"
         evenement: "Colbertisme : autosuffisance comme dogme"
         mecanisme_cree: "M32 (Souverainete narrative)"
         source: "Politique Colbert ❧"
+        marquage: "[RACINE ANCIENNE] pre-revolutionnaire"
+        pelote_verification: "1660-1715 — Colbertisme. Racine la plus profonde. Arret valide."
       renforcements_historiques:
         - date: "2024"
           evenement: "Le modele francais de regulation numerique est presente comme un 'modele' contre les 'fake news'"
           mecanisme_active: "M32"
           source: "Discours officiels ❧"
       manifestation_dans_evenement: "La France se presente comme le champion de la 'lutte contre la desinformation' et du 'modele europeen de regulation'. Le recit masque la realite : l'ARCOM est devenue un commissaire au partage du duopole Niel/Bollore (2026)."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1660 confirme (RACINE ANCIENNE). Renforcements 1792, 1840, 1945 dans referentiel."
     - fil: "I — Vassalite monetaire europeenne (HYPOTHESE extension: vassalite juridique)"
       acte_naissance:
         date: "1992-02-07"
         evenement: "Traite de Maastricht"
         mecanisme_cree: "M43 (Domination monetaire, etendue a juridique)"
         source: "Traite Maastricht ✦"
+        marquage: "[RACINE CONSTITUTIVE]"
+        pelote_verification: "1992 — Traite de Maastricht. Acte fondateur moderne. Necessite pre-acte 1983 Virage rigueur."
       renforcements_historiques:
         - date: "2022"
           evenement: "DSA adopte — l'UE impose son cadre de regulation numerique a tous les Etats membres"
@@ -222,7 +257,12 @@ REMONTEE_DES_FILS:
           source: "Commission judiciaire Congres US 2025 ❧"
       chaine_causale:
         - "1992 (Maastricht : perte souverainete monetaire) -> 2005-2007 (NON contourne : precedent du contournement democratique par le droit europeen) -> 2022 (DSA : perte souverainete numerique) -> 2025 (Commission UE : instructions de censure)"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le DSA est le verrou juridique supranational qui rend la France incapable de contester le cadre de censure. Meme si un gouvernement francais voulait dereguler, le droit europeen l'en empeche."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1992 confirme. Necessite pre-acte 1983 Virage rigueur documente."
 
 # ============================================================
 # CHAPITRE 3 : BIFURCATIONS PERDUES

@@ -86,6 +86,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier (14 juin) : abolition des corporations ET interdiction de toute association professionnelle"
         mecanisme_cree: "M05 (Perfusion publique)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1945"
           evenement: "Nationalisations massives : Charbonnages, EDF, GDF, Renault, Banque de France — Etat proprietaire"
@@ -101,7 +103,12 @@ REMONTEE_DES_FILS:
           source: "EUR-Lex, Traite de Maastricht ❧"
       chaine_causale:
         - "1791 (pas de corps intermediaires) -> 1945 (Etat proprietaire) -> 1958 (concentration) -> 1992 (perte de souverainete) -> 1983 : la decision est prise par un cercle de 5 personnes (Mitterrand, Delors, Mauroy, Attali, Fabius), sans debat parlementaire"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le 21 mars 1983, la decision la plus importante du quinquennat — le changement de modele economique — est prise par un cercle restreint de 5 personnes autour de Mitterrand. Pas de debat au Parlement. Pas de referendum. Pas de consultation des syndicats ou des partenaires sociaux. Le monopole d'Etat sur la decision economique est absolu."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1811, 1945, 1958 dans referentiel."
 
     - fil: "C — Societe civile atrophiee"
       acte_naissance:
@@ -109,6 +116,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier : toute association intermediaire est suspecte — l'individu est seul face a l'Etat"
         mecanisme_cree: "M14 (Impuissance apprise)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire commun avec fil B."
       renforcements_historiques:
         - date: "1901"
           evenement: "Loi sur les associations : liberte associative reconnue mais sans pouvoir juridique"
@@ -116,7 +125,12 @@ REMONTEE_DES_FILS:
           source: "Loi 1901 ❧"
       chaine_causale:
         - "1791 (pas de corps intermediaires) -> 1901 (associations desarmees) -> 1983 : les syndicats (CGT, CFDT) sont consultes mais pas ecoutes — la societe civile n'a aucun moyen de peser sur la decision"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Les syndicats sont informes de la decision apres qu'elle a ete prise. Le peuple n'est pas consulte. Les economistes heretiques sont invisibilises. La decision economique la plus importante depuis 1945 est prise sans que la societe civile ait les moyens de participer au debat."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1804, 1884, 1901 dans referentiel."
 
     - fil: "D — Justice domestiquee"
       acte_naissance:
@@ -124,6 +138,8 @@ REMONTEE_DES_FILS:
         evenement: "Code civil napoleonien : le juge est « la bouche de la loi » — pas de controle sur l'administration"
         mecanisme_cree: "M02 (Proceduralisation)"
         source: "Code civil 1804 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1804 — Code civil napoleonien. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1872"
           evenement: "Tribunal des conflits : l'administration jugee par ses propres tribunaux"
@@ -135,7 +151,12 @@ REMONTEE_DES_FILS:
           source: "Constitution 1958 ❧"
       chaine_causale:
         - "1804 (juge bouche de la loi) -> 1872 (l'Etat se juge lui-meme) -> 1958 (justice sous controle) -> 1983 : aucune instance judiciaire ni constitutionnelle ne controle la conformite de cette decision aux engagements sociaux de la France"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "La decision de changer de modele economique n'est soumise a aucun controle juridictionnel. Le Conseil constitutionnel n'est pas saisi. La souverainete economique est cedee (a l'Europe) sans qu'aucun juge ne verifie la conformite de cette decision aux droits sociaux fondamentaux. Le debat economique echappe au droit."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1804 confirme. Renforcements 1872, 1958 dans referentiel."
 
     - fil: "E — Presse sans contre-pouvoir"
       acte_naissance:
@@ -143,6 +164,8 @@ REMONTEE_DES_FILS:
         evenement: "Regime autoritaire de la presse : autorisation prealable, censure, timbre"
         mecanisme_cree: "M10 (Discredit preventif)"
         source: "Lois 1811-1819 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1811 — Regime autoritaire de la presse. Post-revolutionnaire (dans fenetre 1789-1815)."
       renforcements_historiques:
         - date: "1964"
           evenement: "ORTF : monopole d'Etat sur l'audiovisuel"
@@ -154,7 +177,12 @@ REMONTEE_DES_FILS:
           source: "Rachats Hersant ❧"
       chaine_causale:
         - "1811 (censure d'Etat) -> 1881 (pouvoir economique remplace pouvoir politique) -> 1964 (ORTF) -> 1972+ (concentration) -> 1983 : la presse couvre la decision comme un 'realisme necessaire' sans enqueter sur l'alternative"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le Monde titre le 22 mars 1983 : 'Francois Mitterrand a choisi la rigueur et la continuite de sa politique'. Pas d'enquete sur l'alternative Chevenement, pas de debat mediatique sur les consequences. Les economistes heretiques sont absents des medias de masse. La presse ne remplit pas son role de contre-pouvoir — elle enregistre la decision comme une fatalite."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1811 confirme. Renforcements 1881, 1964 dans referentiel."
 
     - fil: "H — Exceptionnalisme francais"
       acte_naissance:
@@ -162,6 +190,8 @@ REMONTEE_DES_FILS:
         evenement: "Colbertisme : autosuffisance economique comme dogme"
         mecanisme_cree: "M32 (Souverainete narrative)"
         source: "Politique Colbert ❧"
+        marquage: "[RACINE ANCIENNE] pre-revolutionnaire"
+        pelote_verification: "1660-1715 — Colbertisme. Racine la plus profonde. Arret valide."
       renforcements_historiques:
         - date: "1945-1970"
           evenement: "Planification gaullienne : 'grandeur francaise'"
@@ -173,7 +203,12 @@ REMONTEE_DES_FILS:
           source: "Programme nucleaire ❧"
       chaine_causale:
         - "1660 (autosuffisance dogmatique) -> 1792 (nationalisme militaire) -> 1945 (grandeur gaullienne) -> 1983 : paradoxalement, c'est au nom de la 'grandeur europeenne' que la France abandonne son exceptionnalisme economique"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "La decision de rester dans le SME est justifiee par la 'grandeurope' — la France doit etre un pilier de la construction communautaire. Paradoxe : c'est au nom de l'exceptionnalisme (la France doit etre un leader europeen) que la France abandonne son exceptionnalisme economique (le modele francais de relance keynesienne). L'orgueil national justifie la soumission monetaire."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1660 confirme (RACINE ANCIENNE). Renforcements 1792, 1840, 1945 dans referentiel."
 
 # ============================================================
 # CHAPITRE 3 : BIFURCATIONS PERDUES (inchange)

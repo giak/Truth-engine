@@ -90,6 +90,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier (14 juin) : abolition des corporations ET interdiction de toute association professionnelle — l'Etat devient seul organisateur de la vie economique"
         mecanisme_cree: "M05 (Perfusion publique)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire autonome."
       renforcements_historiques:
         - date: "1945"
           evenement: "Nationalisations massives : Charbonnages, EDF, GDF, Renault, Banque de France — Etat proprietaire de ses moyens de production"
@@ -105,7 +107,12 @@ REMONTEE_DES_FILS:
           source: "Enquete Virage rigueur v2.3 — Archives Fonds Mitterrand ❧"
       chaine_causale:
         - "1791 (Le Chapelier : interdiction des corps intermediaires) -> 1945 (Etat proprietaire) -> 1958 (hyper-presidence) -> 1983 (virage rigueur : premiere acceptation de la contrainte externe) -> 1992 (Maastricht : le monopole d'Etat se transfert a la BCE — l'Etat a concentre tous les pouvoirs pour mieux les perdre tous ensemble)"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le monopole d'Etat sur la politique economique atteint son paradoxe en 1992 : l'Etat francaise, apres 200 ans a concentrer tous les pouvoirs, accepte de transferer sa souverainete monetaire a une institution non-elue (la BCE). Le monopole n'est pas brise — il est monte d'un cran. L'Etat conserve la gestion mais perd la creation monetaire."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1811, 1945, 1958 dans referentiel."
 
     - fil: "C — Societe civile atrophiee"
       acte_naissance:
@@ -113,6 +120,8 @@ REMONTEE_DES_FILS:
         evenement: "Loi Le Chapelier : « Il n'y a plus de corporations dans l'Etat ; il n'y a plus que l'interet particulier de chaque individu et l'interet general » — toute association intermediaire est suspecte"
         mecanisme_cree: "M14 (Impuissance apprise)"
         source: "Legifrance JORFTEXT000000704780 (HEAD 403 anti-bot) ⁅"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1791 — Loi Le Chapelier. Acte fondateur revolutionnaire commun avec fil B."
       renforcements_historiques:
         - date: "1901"
           evenement: "Loi sur les associations : liberte associative enfin reconnue — mais les associations restent sans financement public, sans pouvoir juridique, sans class action"
@@ -128,7 +137,12 @@ REMONTEE_DES_FILS:
           source: "Proces-verbal referendum 1992, Conseil constitutionnel ✦"
       chaine_causale:
         - "1791 (Le Chapelier : pas de corps intermediaires) -> 1901 (associations tolerees mais desarmees) -> 1958 (President seul) -> 1992 (le debat sur Maastricht est un debat d'elites, pas un debat citoyen — la societe civile n'a pas les moyens de s'emparer de la question monetaire)"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le referendum du 20 septembre 1992 est remporte par le OUI a 51,04%. Mais le debat a ete un debat d'elite : les medias sont massivement favorables (80/20), les partis politiques sont divises mais leurs etats-majors sont pour, les syndicats sont silencieux sur la question monetaire. Aucune organisation citoyenne ne structure une contre-expertise sur les consequences de la perte de la banque centrale. Le sujet est juge « trop technique » pour le citoyen moyen — ce qui est exactement le but."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1791 confirme. Renforcements 1804, 1884, 1901 dans referentiel."
 
     - fil: "D — Justice domestiquee"
       acte_naissance:
@@ -136,6 +150,8 @@ REMONTEE_DES_FILS:
         evenement: "Code civil napoleonien : le juge est « la bouche de la loi » — pas de pouvoir createur, pas de controle sur l'administration"
         mecanisme_cree: "M02 (Proceduralisation)"
         source: "Code civil 1804 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1804 — Code civil napoleonien. Acte fondateur imperial autonome."
       renforcements_historiques:
         - date: "1958"
           evenement: "Constitution Ve Republique : le Conseil constitutionnel est cree mais ne peut pas s'autosaisir — le controle de constitutionnalite est reserve a un cercle restreint (President, Premier ministre, Presidents des assemblees)"
@@ -151,7 +167,12 @@ REMONTEE_DES_FILS:
           source: "Decision Conseil constitutionnel 2007-560 DC ✦"
       chaine_causale:
         - "1804 (juge = bouche de la loi) -> 1958 (Conseil constitutionnel sous controle) -> 1992 (Conseil valide Maastricht sur la procedure, pas sur le fond) -> 2005-2007 (Conseil valide le contournement du NON) -> la justice constitutionnelle francaise est incapable d'empecher un transfert de souverainete sans debat democratique"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le Conseil constitutionnel est saisi par le President de la Republique lui-meme — procedure classique. Dans sa decision 92-308 DC du 9 avril 1992, le Conseil juge que Maastricht est partiellement contraire a la Constitution (droit de vote des citoyens europeens aux municipales) et impose une revision. Mais il ne se prononce JAMAIS sur le fond : la perte de souverainete monetaire, l'interdiction du financement par la banque centrale, le transfert de competences a la BCE. La procedure est respectee — le fond est ignore."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1804 confirme. Renforcements 1872, 1958 dans referentiel."
 
     - fil: "E — Presse sans contre-pouvoir"
       acte_naissance:
@@ -159,6 +180,8 @@ REMONTEE_DES_FILS:
         evenement: "Regime autoritaire de la presse : autorisation prealable, censure, timbre — journaux d'opposition systematiquement poursuivis"
         mecanisme_cree: "M10 (Discredit preventif)"
         source: "Lois 1811-1819 ❧"
+        marquage: "[RACINE FONDATRICE]"
+        pelote_verification: "1811 — Regime autoritaire de la presse. Post-revolutionnaire (dans fenetre 1789-1815)."
       renforcements_historiques:
         - date: "1964"
           evenement: "ORTF : monopole d'Etat sur l'audiovisuel — la television est la voix du gouvernement"
@@ -174,7 +197,12 @@ REMONTEE_DES_FILS:
           source: "Archives INA, couverture mediatique 1992 ❧"
       chaine_causale:
         - "1811 (censure d'Etat) -> 1881 (libere formelle mais pouvoir economique) -> 1964 (ORTF : television = voix du gouvernement) -> 1982 (eclatement ORTF mais influence maintenue) -> 1992 (campagne OUI mediatiquement dominante a 80/20) -> la presse francaise est structurellement incapable de produire un debat equilibre sur un sujet de souverainete"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "La campagne du referendum de 1992 est historiquement desequilibree. Les grands medias ecrits (Le Monde, Le Figaro, Liberation) appellent au OUI. Les chaines de television (publiques et privees) donnent largement la parole aux partisans. Philippe Seguin, Charles Pasqua et les souverainistes sont presentes comme des « populistes », des « archaiques », des « declinistes » — jamais comme porteurs d'une analyse economique alternative. Ce filtre mediatique explique en partie le 51% OUI : le debat n'a pas eu lieu a armes egales."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1811 confirme. Renforcements 1881, 1964 dans referentiel."
 
     - fil: "H — Exceptionnalisme francais"
       acte_naissance:
@@ -182,6 +210,8 @@ REMONTEE_DES_FILS:
         evenement: "Colbertisme : autosuffisance economique comme dogme — tout doit etre produit en France"
         mecanisme_cree: "M32 (Souverainete narrative)"
         source: "Politique Colbert ❧"
+        marquage: "[RACINE ANCIENNE] pre-revolutionnaire"
+        pelote_verification: "1660-1715 — Colbertisme. Racine la plus profonde. Arret valide."
       renforcements_historiques:
         - date: "1945-1970"
           evenement: "Planification gaullienne : « grandeur francaise », independance nucleaire, Concorde, TGV — la France refuse d'importer meme quand c'est plus efficace"
@@ -197,7 +227,12 @@ REMONTEE_DES_FILS:
           source: "Decision Conseil constitutionnel 2007-560 DC ✦"
       chaine_causale:
         - "1660 (Colbert : autosuffisance dogmatique) -> 1945 (grandeur gaullienne) -> 1992 (Maastricht : paradoxe — la France signe la fin de son independance monetaire mais le presente comme un acte de puissance) -> 2005-2007 (le NON est contourne car l'exceptionnalisme ne peut pas admettre que le peuple a rejete l'Europe) -> l'exceptionnalisme francais est un recit qui compense la perte reelle de souverainete par une souverainete narrative"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Maastricht est presente par Mitterrand comme un acte de souverainete : « La France sera plus forte dans une Europe unie ». Mais c'est le contraire : la France accepte que sa politique monetaire soit decidee a Francfort. L'exceptionnalisme francais atteint son paradoxe maximum en 1992 : le discours de grandeur sert a faire accepter la perte de souverainete. Le recit compense la realite."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1660 confirme (RACINE ANCIENNE). Renforcements 1792, 1840, 1945 dans referentiel."
 
     - fil: "I — Vassalite monetaire europeenne [CANDIDAT EN TEST]
       Note: Ce fil est documente comme CANDIDAT — son acte de naissance EST l'evenement enquete.
@@ -207,6 +242,8 @@ REMONTEE_DES_FILS:
         evenement: "Traite de Maastricht (TUE) : la France accepte les criteres de convergence monetaire (inflation < 2,5%, deficit < 3%, dette < 60%) et l'interdiction du financement de la dette par sa banque centrale (art. 123 TFUE)"
         mecanisme_cree: "M43 (Domination monetaire) [CANDIDAT]"
         source: "EUR-Lex, JO C 191 du 29.07.1992 ✦"
+        marquage: "[RACINE CONSTITUTIVE]"
+        pelote_verification: "1992 — Traite de Maastricht. Acte fondateur moderne. Necessite pre-acte 1983 Virage rigueur."
       renforcements_historiques:
         - date: "1999-01-01"
           evenement: "Euro : la France perd le franc, la Banque de France devient filiale de la BCE. Les taux d'interet ne sont plus decide a Paris — la politique monetaire de la France est desormais decidee a Francfort"
@@ -226,7 +263,12 @@ REMONTEE_DES_FILS:
           source: "Rapport Senat McKinsey 2020 ✦"
       chaine_causale:
         - "1983 (virage rigueur : premiere acceptation de la contrainte monetaire allemande) -> 1992 (Maastricht : verrou juridique) -> 1999 (euro : verrou technique) -> 2005-2007 (NON contourne : verrou democratique) -> 2012 (TSCG : verrou constitutionnel) -> 2020 (COVID : la France ne peut pas imprimer pour sauver son economie — demonstration par l'echec) -> depuis 1992, la France ne peut plus choisir son destin economique"
+      gaps_verifies:
+        - "Analyse automatique requise — veuillez verifier les ecarts > 30 ans dans la chaine causale"
       manifestation_dans_evenement: "Le cycle Maastricht -> Euro -> TSCG -> COVID montre que la perte de souverainete monetaire n'est pas un accident — c'est un processus irrevisible. Chaque etape verrouille la precedente : le traite (1992) rend l'euro possible (1999), l'euro rend la sortie quasi-impossible (2005-2007), le TSCG (2012) rend les politiques budgetaires nationales impossibles, et le COVID (2020) revele que la France est desarmee face a une crise economique majeure — elle ne peut qu'emprunter, pas creer."
+      cross_reference:
+        referentiel: "2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md"
+        coherence: "Acte 1992 confirme. Necessite pre-acte 1983 Virage rigueur documente."
 
 # ============================================================
 # CHAPITRE 3 : BIFURCATIONS PERDUES
