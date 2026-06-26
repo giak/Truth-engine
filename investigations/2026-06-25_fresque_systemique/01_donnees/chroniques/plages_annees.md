@@ -343,3 +343,173 @@
 | 2025-12-11/12 | ECO | Coût estimé de l'opération Bordes-sur-Arize : 100 000 à 200 000 € | ❌ |
 | 2021-02/12 | TEC | Meta a shadowbanné le député européen Tom Vandendriessche pendant dix mois (février-décembre 2021) | ❌ |
 | 2026-04-17/18 | POL | Neuf événements en deux jours (17-18 avril 2026) vérifient l'architecture en temps réel | ❌ |
+| -2500 | ECO | Apparition de l'usure en Mésopotamie, taux à 20% par an pour l'argent, 33,3% pour l'orge (temples) | 💀 |
+| -340 | JUR | Rome interdit l'intérêt par la Lex Genucia | ✅ |
+| -594 | ECO | Solon à Athènes libère les esclaves pour dettes et annule les dettes (seisachtheia) | ✅ |
+| 1980-2000 | ECO | Bernard Bommier carrière chez Elf Aquitaine puis Danone | ⚠ |
+| 1999-2013 | POL | Phases Wedge Strategy : Phase 1 recherche (1999-2003), Phase 2 persuasion (2004-2008), Phase 3 renversement (2009-2013) | ❌ |
+| 2000-2003 | EDU | Lycée Hoche à Versailles | ⚠ |
+| 2000-2025 | ENV | Importations de gaz en Europe augmentent de 30% | ❌ |
+| 2000-2025 | ENV | L'UE investit 100 milliards d'euros dans la R&D nucléaire depuis 2000 | ✅ |
+| 2000-2025 | ENV | Production nucléaire européenne baisse de 15% | ❌ |
+| 2003-2005 | EDU | Classe préparatoire Sainte-Geneviève "Ginette", section PCSI-1 | ⚠ |
+| 2005-2009 | EDU | Amélie de Montchalin diplômée de HEC Paris | ⚠ |
+| 2005-2009 | EDU | Double licence en Histoire (Paris-Sorbonne) et Économie appliquée (Paris-Dauphine) | ✅ |
+| 2005-2009 | EDU | HEC Paris promotion H.05 "Pêcheurs de Lune" (300 personnes) | ⚠ |
+| 2006-2025 | JUR | Mécanisme CEE existe depuis 2006, créé sous un gouvernement de droite | ⚠ |
+| 2007-2011 | EDU | Don McLeroy (créationniste jeune-terre : Terre 6 000 ans) président SBOE Texas nommé par Rick Perry | ❌ |
+| 2009-2010 | EDU | Coalition conservatrice SBOE : ajout "forces ET FAIBLESSES de l'évolution", "analyse critique" | ❌ |
+| 2009-2020 | ECO | Guillaume de Montchalin partner au Boston Consulting Group (BCG) | ⚠ |
+| 2010-2015 | SPO | Le football représente 41 % des sujets sportifs dans les journaux télévisés (INSTAT, ministère de la Culture) | ❌ |
+| 2010-2026 | JUR | CEDH confirme parquet français non-indépendant: arrêts Medvedyev (2010), Moulin (2010), B.G. (2026) | ❌ |
+| 2011-2020 | ECO | Des consultants McKinsey ont rejoint des cabinets ministériels puis sont retournés chez McKinsey | ❌ |
+| 2011-2020 | ECO | McKinsey a perçu des dizaines de millions € de contrats avec l'État | ❌ |
+| 2011-2020 | ECO | McKinsey n'a payé aucun impôt sur les sociétés en France selon rapport du Sénat | ❌ |
+| 2011-2020 | ECO | McKinsey n'a payé aucun impôt sur les sociétés en France, tout en conseillant l'État sur sa stratégie fiscale | ❌ |
+| 2011-2020 | ECO | McKinsey se défend : 422 millions € d'impôts et charges sociales (distinction IS/charges floue) | ⚠ |
+| 2012-12 | POL | Création d'Hedayah à Abu Dhabi, centre d'excellence contre l'extrémisme violent, co-fondé par EAU et USA | ❌ |
+| 2012-2014 | ECO | Passage de 2 ans au BCG Boston | ⚠ |
+| 2012-2024 | ECO | Tarif réglementé électricité bondit de +75,59%: de 0,1401 EUR à 0,2516 EUR/kWh | ❌ |
+| 2014-01 | SCI | Kristen Meghan témoigne d'analyses de baryum, strontium et aluminium ; résultats jamais publiés, grade contesté, aucun document d'emploi indépendant ne corrobore ses affirmations | ❌ |
+| 2014-12 | POL | Commission européenne verse 5 millions d'euros à Hedayah | ❌ |
+| 2014-2017 | ECO | Directrice prospective et politiques publiques chez AXA | ⚠ |
+| 2014-2021 | TEC | La Chine consacre 2 milliards de dollars à la modification météorologique | ⚠ |
+| 2015-2017 | JUR | 155 arrêtés préfectoraux interdisent des manifestations au nom de l'état d'urgence | ❌ |
+| 2015-2017 | JUR | 752 personnes assignées à résidence durant l'état d'urgence | ❌ |
+| 2015-2017 | JUR | François Hollande proroge l'état d'urgence six fois ; 719 jours au total | ❌ |
+| 2015-2017 | JUR | L'état d'urgence est déclaré le 14 novembre 2015 au lendemain des attentats du Bataclan | ❌ |
+| 2015-2025 | ENV | Les années 2015 à 2025 constituent les onze années les plus chaudes jamais mesurées | ❌ |
+| 2015-2025 | POL | Campagne de censure systématique Commission européenne sur une décennie | ❌ |
+| 2015-2026 | ECO | Bill Gates : 2,2 milliards investis dans plus de 160 startups climatiques depuis 2015 ; 839 millions levés pour le 3e fonds Breakthrough Energy Ventures | ⚠ |
+| 2016-05 | POL | Meta, YouTube, Microsoft et Twitter signent le Code de Conduite contre la Haine en Ligne | ❌ |
+| 2016-2026 | TEC | Les Émirats arabes unis allouent 22,5 millions de dollars de subventions depuis 2016 | ⚠ |
+| 2016-2026 | JUR | Réforme nominations parquet demandée depuis 2016, jamais adoptée | ❌ |
+| 2017-2021 | POL | Francis Collins : directeur NIH (2017-2021), promeut BioLogos depuis position publique | ⚠ |
+| 2017-2022 | ECO | McKinsey : 72,8 M€ de contrats entre 2017 et 2022 | ❌ |
+| 2017-2026 | ECO | +1 309 Mds€ dette publique depuis 2017, pour +670 Mds€ PIB (INSEE) — écart 500 Mds€ | ❌ |
+| 2017-2026 | ECO | Milliardaires français: patrimoine augmente de 220 Mds€ depuis 2017 (Forbes) | ❌ |
+| 2017-2026 | ECO | Sur 9 ans cumul extrait vers non-résidents: 270-324 Mds€ | ❌ |
+| 2018-09 | POL | UE lance Code de Désinformation avec 21 engagements volontaires | ❌ |
+| 2018-2019 | SOC | Gilets jaunes : Amnesty International comptabilise 24 éborgnés, 5 mains arrachées, 2 200 blessés | ❌ |
+| 2018-2021 | ECO | Marge brute de transport/distribution normalement entre 15 et 18 centimes par litre | ✅ |
+| 2019-04 | POL | UE lance législation Terrorist Content Online : délai légal de 1h pour retirer contenu terroriste | ❌ |
+| 2019-05 | POL | Création du Christchurch Call : 55 pays et 12 fournisseurs de services en ligne | ❌ |
+| 2019-08 | TEC | Arrêt du programme ASTRID par le CEA, coût estimé à plus de 10 milliards d'euros | ❌ |
+| 2019-2023 | ECO | HSBC, Barclays, Santander, Deutsche Bank, BlackRock, JP Morgan, BNDES, BTG Pactual injectent +1 milliard $ dans le beef brésilien | ❌ |
+| 2019-2024 | POL | Thierry Breton: PDG Atos 2009-2019, Commissaire européen 2019-2024, régule concurrents | ❌ |
+| 2019-2026 | POL | GRM accuse les gouvernements successifs de 15 ans de "sabotage" du nucléaire français | ❌ |
+| 2020-03 | POL | Commission demande à YouTube supprimer documentaire américain sur vaccins COVID (lignes 4113-4131) | ❌ |
+| 2020-03 | POL | EUIF lance programme de monitoring obligatoire visant les discours médicaux "dissidents" (prétexte COVID-19) | ❌ |
+| 2020-06 | ECO | WEF Great Reset : lancé par Klaus Schwab et prince Charles (juin 2020) | ❌ |
+| 2020-2023 | JUR | Gérald Darmanin prononce 14 décrets de dissolution entre 2020 et 2023 | ❌ |
+| 2020-2024 | MED | L'« Affaire Raoult » est présentée comme cas d'école du fact-check armé | ❌ |
+| 2020-2024 | SCI | Didier Raoult, figure mondiale de la microbiologie, devient le symbole d'une controverse scientifique sur son protocole thérapeutique | ❌ |
+| 2020-2025 | MED | Architecture censure: 4 niveaux (État→ARCOM→ONG signalants→Plateformes), 15 acteurs documentés | ❌ |
+| 2020-2025 | ECO | Les Échos, groupe LVMH : ~15 M€ d'aides publiques cumulées sur quelques années | ❌ |
+| 2020-2025 | SANT | Contrats APA expurgés: Pfizer, Moderna, AstraZeneca, Janssen, Sanofi-GSK, CureVac | ❌ |
+| 2021-01 | POL | Lancement du RAN Policy Support (extension du Radicalisation Awareness Network) | ❌ |
+| 2021-11 | POL | Commission européenne publie la proposition de Digital Services Act (DSA) | ❌ |
+| 2021-2023 | ECO | Pfizergate : 35 milliards € de contrats vaccins négociés par SMS entre Ursula von der Leyen et Albert Bourla (Pfizer) | 💀 |
+| 2021-2024 | ECO | Raytheon carnet commandes: 63Md$ → 77Md$ (+22%) | ⚠ |
+| 2021-2025 | ECO | 2 milliards $ du fonds souverain saoudien (PIF) dans Affinity Partners malgré rejet recommandé | ❌ |
+| 2021-2025 | ECO | Affinity Partners (Kushner) lève 4.8 milliards $, 99% sources étrangères | ⚠ |
+| 2022-01 | ECO | Greg Hayes (CEO Raytheon) : « L'instabilité mondiale présente une opportunité de profit » | ❌ |
+| 2022-01 | ECO | Greg Hayes (PDG Raytheon): « tensions Europe de l'Est mettent pression dépenses défense » | ⚠ |
+| 2022-02 | JUR | Brunel trouvé mort à La Santé : suicide par pendaison, un mois après mise en examen | 💀 |
+| 2022-03 | MED | Chaînes TV fusionnées en un « telethon » unique contrôlé par l'État | ❌ |
+| 2022-03 | MED | Médias d'opposition fermés ou placés sous tutelle | ❌ |
+| 2022-2024 | ECO | Bouclier tarifaire: coût cumulé de 72 milliards d'euros selon la Banque de France | ⚠ |
+| 2022-2025 | ECO | Aide européenne totale : 167.4 milliards EUR | ⚠ |
+| 2022-2025 | ECO | Composants microélectroniques occidentaux atteignent la Russie via Chine, Émirats, Arménie | ❌ |
+| 2022-2025 | ECO | Coût sanctions pour l'Europe : 1% à 7% du PIB selon pays | ❌ |
+| 2022-2025 | ECO | House of Commons : 600+ enquêtes criminelles Lettonie, condamnations Allemagne 850,000 EUR via Hong Kong | ❌ |
+| 2022-2025 | ECO | L'UE importe toujours du gaz russe (pipeline et GNL) | ❌ |
+| 2022-2025 | ECO | CSPE passe de 0,5 EUR/MWh (gelée en 2022) à 33,70 EUR/MWh en 2025: multiplication par 67 | ❌ |
+| 2022-2026 | POL | Laurent Nuñez en poste depuis 2022, aucune réforme du maintien de l'ordre entre 2025-2026 | ❌ |
+| 2023-05 | ECO | Cour des comptes publie rapport "Les soutiens publics aux éleveurs de bovins" recommandant réduction significative du cheptel bovin | ❌ |
+| 2023-06 | TEC | GIFCT publie document "Borderline Content" (674 lignes) définissant 14 catégories de contenus surveillés | ❌ |
+| 2023-07 | JUR | Parquet de Paris clôt enquête Brunel : non-lieu (seul mis en examen = mort) | ❌ |
+| 2023-11 | JUR | Le Conseil d'État annule la dissolution de la SLT en novembre 2023 mais en valide trois autres | ❌ |
+| 2023-2025 | POL | Louis Duclos passé par Orange Cyberdefense (2023-2025) | ❌ |
+| 2023-2025 | ECO | Catherine MacGregor (DG Engie) estime le coût des EnR à "plutôt 50 milliards sur plusieurs décennies" | ⚠ |
+| 2023-2025 | ECO | Depuis début 2023, la marge brute dépasse 25 centimes par litre | ❌ |
+| 2024-01 | ECO | En janvier 2024, marge brute atteignait 26 centimes pour le SP95 et 22,2 centimes pour le gazole | ❌ |
+| 2024-02 | MED | Conseil d'État recadre l'ARCOM sur une procédure | ❌ |
+| 2024-02 | JUR | Loi Lopmi entrée en vigueur février 2024 | ❌ |
+| 2024-02 | TEC | The Markup : investigation shadowbanning Instagram | ❌ |
+| 2024-03 | JUR | Pologne : restauration de pages Meta ordonnée, Meta fait appel, contenu indisponible un an après | ❌ |
+| 2024-03 | SCI | Projet SCoPEx (Harvard, David Keith, Frank Keutsch) : abandon définitif de l'expérience de terrain ; recherche via le Salata Institute | ⚠ |
+| 2024-09 | JUR | Rapport Cour des Comptes (septembre 2024): résultats des CEE "surévalueraient les économies d'énergie réalisées d'au moins 30%" | ❌ |
+| 2024-09 | TEC | RJI : journalistes shadowbanned pour leurs reportages | ❌ |
+| 2024-09 | TEC | Wired : "Two Years of Turmoil at Big Tech's Anti-Terrorism Group" | ❌ |
+| 2024-10 | TEC | Washington Post : "Algorithmic suppression" confirmée sur toutes les plateformes | ❌ |
+| 2024-10 | ECO | Groupe Avril acquiert A. Azevedo Oleos (Brésil, huile de ricin) | ❌ |
+| 2024-11 | MED | Bolloré, Arnault, Saadé achètent ensemble une école de journalisme (Universfreebox) | ❌ |
+| 2024-11 | JUR | Loi Yadan portée par Aurore Bergé en novembre 2024 : la ministre affirmait « jamais le mot Israël », le texte le contenait 15 fois | ❌ |
+| 2024-12 | ENV | Rapport GAO-25-107328 : 9 États américains pratiquent activement l'ensemencement de nuages à l'iodure d'argent | ⚠ |
+| 2024-2025 | SOC | 35% des ménages ont souffert du froid au moins 24h l'hiver dernier contre 14% en 2020 (×2,5) | 💀 |
+| 2024-2025 | SOC | 82% des ménages restreignent leur chauffage pour raisons financières contre moins de 40% en 2019 | 💀 |
+| 2024-2025 | DIP | Campagne TikTok ~381 000 € pour Călin Georgescu (Congressional Research Service) | ❌ |
+| 2024-2025 | ECO | Part finançant les EnR dans la facture: 58% en 2024, 64% prévu en 2025 | ❌ |
+| 2024-2025 | ECO | Les Big Tech dépensent 1,1 milliard de dollars pour bloquer toute régulation de l'IA (Public Citizen) | ❌ |
+| 2024-2025 | SCI | Hypothèse monde à ARN : avancées Salk Institute (Singh et al., 2025, DOI: 10.1038/s41586-025-09388-y) | ✅ |
+| 2024-2026 | MED | ARCOM: 7/9 membres nommés par autorités politiques (Macron, Braun-Pivet, Larcher) | ❌ |
+| 2024-2030 | MIL | LPM 2024-2030 : 413,3 Mds€ au budget de la défense, actualisée à 449 Mds€ (ministère des Armées) | ❌ |
+| 2024-2030 | MIL | LPM 2024-2030 dote France de capacités L2I (lutte informatique d'influence) | ❌ |
+| 2025-02 | ECO | Fournisseurs facturaient 40% au-dessus coûts d'achat Pologne | ❌ |
+| 2025-02 | ECO | OLAF: 91M€ à recouvrer sur fonds générateurs Ukraine via agence polonaise RARS (114M€ gérés) | ❌ |
+| 2025-02 | POL | Affaire Julien Bayou : plus de deux ans de division, plainte classée sans suite en février 2025 | ❌ |
+| 2025-03 | MED | C8 est fermée (non-renouvellement TNT) | ❌ |
+| 2025-03 | MED | C8 non-renouvelée sur la TNT, décision validée par le Conseil d'État | ❌ |
+| 2025-04 | POL | Jean-Philippe Tanguy réclamait publiquement la "dissolution du CSE" en avril 2025 tout en continuant d'y siéger et d'y voter | ❌ |
+| 2025-04 | POL | UE annonce nouveau financement de 300 M€ vers le Nigeria via Hedayah (programme STRIVE Global) | ❌ |
+| 2025-04 | ECO | 2,1 millions $ en options → 30 millions $ en un jour (pattern insider) | ❌ |
+| 2025-04 | ECO | Kushner conclut un deal de 2 milliards $ avec Goldman Sachs | ⚠ |
+| 2025-05 | TEC | L'agence britannique ARIA lance le programme « Exploring Climate Cooling » : 56,8 millions de livres sterling | ⚠ |
+| 2025-05 | ECO | Le Qatar signe pour 200 milliards $ | ⚠ |
+| 2025-05 | ENV | CO₂ atmosphérique franchit 430 ppm au pic de mai 2025 (NOAA Mauna Loa, Scripps Institution) | ❌ |
+| 2025-07 | POL | Jean-Philippe Tanguy (député RN) siège au CSE qui a validé le décret en juillet 2025 — 4 mois avant la vidéo indignée de Bardella | ⚠ |
+| 2025-07 | POL | Intelligence Online révèle que Louis Duclos collabore depuis plus d'un an avec la sous-direction de la veille et de la stratégie du Quai d'Orsay | ⚠ |
+| 2025-07 | POL | US House Judiciary publie rapport "The Foreign Censorship Threat" (PART I) | ⚠ |
+| 2025-09 | DIP | Ursula von der Leyen admet que l'UE a commis une "erreur stratégique" sur le nucléaire | ⚠ |
+| 2025-11 | POL | Jordan Bardella dénonce un "décret de la honte" qui ferait exploser les prix de l'essence de 6 centimes par litre | ⚠ |
+| 2025-11 | POL | Roland Lescure (ministre de l'Économie) réplique que Bardella "ment comme un arracheur de dents" | ⚠ |
+| 2025-11 | TEC | 17 millions de fiches TAJ concernent des personnes mises en cause, 48 millions des victimes ou témoins | ❌ |
+| 2025-11 | TEC | Le TAJ (Traitement d'Antécédents Judiciaires) contient 65 millions de fiches (source CNIL, novembre 2025) | ❌ |
+| 2025-11 | TEC | Une personne sur deux en France figure dans le fichier TAJ | ❌ |
+| 2025-12 | MED | Publication « France 2025 : l'anatomie d'une féodalité financiarisée » (décembre 2025) | ⚠ |
+| 2025-12 | MED | Publication « L'Industrie de l'Influence » (décembre 2025) | ⚠ |
+| 2025-2026 | SOC | Gilets Jaunes: 24 éborgnés, 5 mains arrachées (Amnesty International) | ❌ |
+| 2025-2026 | SOC | Interpellations augmentent de 32 % entre 2025 et 2026 | ❌ |
+| 2025-2026 | TER | Départements touchés passent de 46 à 62 | ❌ |
+| 2025-2026 | MED | 9 milliardaires contrôlent 80 % des médias français | ❌ |
+| 2025-2026 | ECO | CRE prévoit soutien aux EnR de 6,2 milliards d'euros en 2025 (révisé de 4,3 Mds, +43%) et 12,94 milliards pour 2026 | ❌ |
+| 2025-2026 | EDU | Le rapport PISA 2025 confirme la baisse continue du niveau en France: -50 points en lecture depuis 2000, -35 points en mathématiques, malgré une hausse de 30% du budget éducation | ❌ |
+| 2025-2026 | POL | Arizona SB 1025 (législation enseignement concurrent) | ❌ |
+| 2025-2028 | TEC | 22 équipes dans 12 pays, 5 expériences de terrain planifiées entre 2025 et 2028 (ARIA) | ⚠ |
+| 2025-2040 | ECO | RTE annonce 100 milliards d'euros d'investissements d'ici 2040 pour adapter le réseau, dont 20 milliards pour l'intégration des EnR intermittentes | ❌ |
+| 2026-01 | ECO | Lockheed Martin affiche +48% sur six mois avant les frappes | ❌ |
+| 2026-01 | ECO | Raytheon bat des records historiques avant les frappes | ❌ |
+| 2026-01 | ECO | Trump Organization annonce un partenariat de 10 milliards $ avec Dar Global (promoteur saoudien) | ⚠ |
+| 2026-01 | SCI | Nature Reviews Genetics : gènes de novo (Bornberg-Bauer & Eicholt, DOI: 10.1038/s41576-025-00929-9) | ❌ |
+| 2026-02 | ECO | 60,7 millions de barils trackés autour de Kharg Island — stockage flottant record pré-guerre | ⚠ |
+| 2026-02 | ECO | « Magamyman » mise 87 000$ 71 min avant frappes → 553 000$ | ❌ |
+| 2026-02 | ECO | Blocus iranien au détroit d'Ormuz retient 20% du brut mondial, propulsant le baril en hausse de 25% vers 114 dollars | 💀 |
+| 2026-02 | ECO | Breakthrough Energy Catalyst arrête les nouveaux investissements et licencie | ❌ |
+| 2026-02 | JUR | Breton reconnaît DSA "moins démocratique qu'une directive": 102 pages votées + ~153 pages ajoutées sans vote | ❌ |
+| 2026-02 | SCI | Archaeopteryx : découvertes structures buccales complexes (Field Museum) | ❌ |
+| 2026-02 | SCI | Popular Mechanics : révision ordre recrutement acides aminés (Wehbi et al., PNAS, DOI: 10.1073/pnas.2410311121) | ❌ |
+| 2026-02 | POL | 22 % des Français font confiance à la classe politique (CEVIPOF, vague 17, février 2026) | ❌ |
+| 2026-02 | MED | Ben-Menashe : « Netanyahou will SABOTAGE a US-Iran deal by releasing the most DAMAGING Epstein files against Trump » | ⚠ |
+| 2026-02 | MED | Publication « Le Piège Knafo : Cheval de Troie d'une droite sous influence » (février 2026) | ⚠ |
+| 2026-02 | MED | Publication « Tristan Mendès France : la machine à effacer » (février 2026) | ⚠ |
+| 2026-02 | TEC | Publication « La Machine à Silence » (février 2026) | ❌ |
+| 2026-02 | TEC | Viginum : extension supprime le seuil des 5 millions de visiteurs, permettant de cibler la petite dissidence | ❌ |
+| 2026-03 | ECO | 10 comptes Polymarket pariés 160 000$ sur cessez-le-feu → 1M$+ gains | ❌ |
+| 2026-03 | ECO | Morningstar : « U.S. strikes on Iran will likely boost defense stocks » | ❌ |
+| 2026-03 | ECO | Lloyd's Joint War Committee (circulaire JWLA-033) déclare Golfe Persique, Ormuz et Golfe d'Oman zone de guerre | ❌ |
+| 2026-04 | MED | Publication « Audiovisuel Public : Anatomie d'une capture d'État » (avril 2026) | ❌ |
+| 2026-04 | ENV | Quatre études d'avril-mai 2026 (CNN, ScienceDaily, Phys.org, Nature) confirment l'affaiblissement du courant atlantique AMOC | ❌ |
+| 2026-04 | JUR | Loi Yadan retirée en avril 2026 après 707 000 signataires d'une pétition | ❌ |
+| 2026-06 | SOC | Grèves Fonction publique, AESH, SNCF (préavis avril-mai 2026) | ❌ |
+| 75 000 | SCI | Expérience Lenski : E. coli sur 75 000+ générations (Blount et al., 2008) | ❌ |
