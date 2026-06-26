@@ -42,7 +42,9 @@ Une fois la liste complète :
 - **Ignorer** : le fait est trop vieux, trop granulaire, ou déjà présent → ne rien faire
 
 Pour chaque fait, décider :
-- **Année** : l'année du fait (extraite du contexte), pas celle du document. Fourchette → `plages_annees.md`.
+- **Année** : l'année du fait (extraite du contexte), pas celle du document. 
+  - Si le fait couvre plusieurs années (ex: sous-financement 2020-2024) → utiliser la plage dans la colonne Année (`2020-2024`) et ranger le fichier dans le dossier de l'année de fin (`2024/2024_SANT.md`).
+  - Si le fait est révélé par un rapport (ex: rapport IGAS 2026 qui révèle un sous-financement 2020-2024) → **deux lignes** : une pour le fait historique avec la plage d'années, une pour la révélation (année du rapport). Les deux événements sont distincts, les deux méritent une entrée.
 - **Dimension** : POL, ECO, SOC, JUR, SANT, EDU, AGR, ENV, TEC, CUL, IMM, SPO, REL, DEMO, TRA, MIL, SCI, DIP, MED, TER. Si ambigu → contexte.
 - **Code** : ❌ = fait documenté (source primaire), ⚠ = tendance ou source secondaire, ✅ = progrès (rare), 💀 = catastrophe
 
@@ -57,6 +59,8 @@ Pour chaque fait, décider :
 ## Ajouter dans les chroniques (la mécanique)
 
 Une fois les faits catégorisés, utiliser l'outil CLI **`tools/enrich_chronique.py`** pour les insérer. Il gère automatiquement : création des dossiers, template correct, détection des doublons, mise à jour du compteur.
+
+**Limite de l'outil :** il ajoute des lignes, il n'en supprime pas. Si tu dois splitter une ligne en deux (ex: séparer exécution 2025 et jugement CC 2026), ou déplacer une ligne d'une année à l'autre, édite le fichier à la main et **n'oublie pas de recalculer le compteur dans l'en-tête**.
 
 ```bash
 # Ajout simple
@@ -145,6 +149,9 @@ python3 tools/enrich_chronique.py --stdin < liste_faits.txt
 | Chiffre non vérifié | « 89 morts GJ » reproduit sans fact-check | Croiser les sources avant d'ajouter ou corriger |
 | **Accent mismatch dans les fichiers créés** | Template `Annee` (sans accent) ≠ compteur cherche `Année` (avec) → ligne d'en-tête comptée comme donnée → compteur gonflé de 1 | Quand tu crées un fichier, utilise EXACTEMENT le même format que les fichiers existants : accents, em dash (—), majuscules. Le moindre écart casse le compteur. |
 | **update_header regex incompatible** | Regex cherche `événement` (accentué) mais le template écrit `evenement` (sans) → la mise à jour du compteur échoue silencieusement | Le pattern dans le template et la regex de mise à jour doivent être identiques caractère pour caractère. |
+| **Année non vérifiée** (test SANT) | Faits sur 2020-2024 assignés à 2026 (année du rapport) au lieu de la plage `2020-2024` → l'utilisateur a dû corriger | Année = année du fait, pas du document. Si plage => `2020-2024` dans colonne Année, fichier rangé dans dossier de l'année de fin. Si révélation => deux lignes. |
+| **Détail absorbé par une ligne agrégée** (test SANT) | La ligne « 457 M€ + 1,1 Md€ + 137 M€ » a été ajoutée comme un bloc → le 137 M€ a été oublié dans les lignes historiques | Quand un fait APEX agrège plusieurs sous-faits, les extraire UN PAR UN. Chaque composante mérite sa propre ligne. |
+| **Outil CLI ne gère pas les splits** (test SANT) | Pour déplacer « 250-300 jours » de 2025 vers 2026, impossible avec enrich_chronique.py seul → édition manuelle + correction du compteur | L'outil ajoute, ne supprime pas. Pour les splits, faire l'édition à la main ET recalculer le compteur. |
 
 ---
 
@@ -155,3 +162,7 @@ python3 tools/enrich_chronique.py --stdin < liste_faits.txt
 4 questions dans l'ordre : **type ? → faits ? → opération ? → apport ?**
 
 Quand tu hésites, regarde le contexte dans l'investigation, pas dans le protocole.
+
+**Règle d'or sur l'année :** l'année du fait, pas du document. Si le fait couvre N années, la colonne Année contient la plage. Si le fait est révélé par un rapport, deux lignes : historique (plage) + révélation (année).
+
+**Règle d'or sur la granularité :** un sous-fait = une ligne. Ne pas agréger plusieurs sous-faits dans une même description, même s'ils sont dans la même phrase du registry.
