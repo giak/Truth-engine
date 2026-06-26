@@ -1,20 +1,20 @@
-# PROTOCOLE D'INVESTIGATION SYSTEMIQUE v2.3 NREF
+# PROTOCOLE D'INVESTIGATION SYSTEMIQUE v2.4 NREF
 ## Framework d'enquete forensique sur les defaillances de la societe francaise
 ### Reference des mecanismes, fils, strategies de resistance et standard de preuve
-### ARCHÉOLOGIE DES FILS [v2.2] + CONTRE-MESURES OPERATIONNELLES [NOUVEAU v2.3]
+### ARCHEOLOGIE DES FILS [v2.2] + PELOTE DE LAINE [NOUVEAU v2.4] + CONTRE-MESURES OPERATIONNELLES [v2.3]
 
 ---
 
 ## PREAMBULE
 
-Ce protocole est la version 2.3 NREF (Non Refutable). Il herite des versions 1.0 a 2.2 qui ont identifie 8 fils systemiques, 42 mecanismes actifs et 10 strategies de resistance. La version 2.1 a ajoute les exigences de verification des sources. La version 2.2 a ajoute l'exigence de remontee archeologique. La version 2.3 ajoute l'exigence de **contre-mesures operationnelles** : chaque enquete doit identifier les actions concretes qui auraient pu empecher la bascule, par qui, et a quel moment.
+Ce protocole est la version 2.4 NREF (Non Refutable). Il herite des versions 1.0 a 2.3 qui ont identifie 8 fils systemiques, 42 mecanismes actifs et 10 strategies de resistance. La version 2.1 a ajoute les exigences de verification des sources. La version 2.2 a ajoute l'exigence de remontee archeologique. La version 2.3 a ajoute l'exigence de **contre-mesures operationnelles**. La version 2.4 ajoute la **Methode de la Pelote de Laine** : un algorithme de remontee recursive qui force le LLM a defiler le fil causal jusqu'a l'acte fondateur.
 
-**Les 5 piliers de la V2.3 :**
+**Les 5 piliers de la V2.4 :**
 1. **Chaine de preuve** : chaque mecanisme identifie doit etre etaye par au moins un traceur verifiable avec URL et citation directe
 2. **Contre-version sourcee** : la version officielle des faits doit etre presentee avec une source reelle (nom, date, URL) et refutee point par point
 3. **Honneur cognitif** : les incertitudes, les biais de l'enqueteur, ET le statut reel des sources (glyphes verifies) doivent etre declares
-4. **Archeologie des fils** : chaque fil actif identifie doit etre remonte jusqu'a son acte de naissance historique — les mecanismes ne sont pas nés avec l'evenement, ils sont le produit d'une stratification de 200+ ans
-5. **Contre-mesures operationnelles [NOUVEAU v2.3]** : chaque enquete doit identifier les actions concretes qui auraient pu empecher la bascule ou empecheraient sa recurrence — avec acteur, fenetre d'opportunite, faisabilite, et precedent historique verifie
+4. **Archeologie des fils + Pelote de Laine [NOUVEAU v2.4]** : chaque fil actif identifie doit etre remonte jusqu'a son acte de naissance historique selon l'algorithme Pelote de Laine — les mecanismes ne sont pas nés avec l'evenement, ils sont le produit d'une stratification de 200+ ans
+5. **Contre-mesures operationnelles** : chaque enquete doit identifier les actions concretes qui auraient pu empecher la bascule ou empecheraient sa recurrence — avec acteur, fenetre d'opportunite, faisabilite, et precedent historique verifie
 
 **These centrale (inchangee) :** Les defaillances francaises ne sont pas des accidents. Elles sont le produit d'une architecture systemique construite sur 200+ ans, maintenue par un ensemble de mecanismes homeostatiques qui transforment la colere en carburant, la resistance en maintenance, et la lucidite en fonction du systeme.
 
@@ -338,7 +338,7 @@ Une enquete NREF n'est pas un texte convaincant — c'est un **dossier de preuve
 | **NREF-8** | La fiche complete fait > 200 lignes (hors YAML) | La fiche est marquee [SURVOL] |
 | **NREF-9 [NOUVEAU v2.1]** | Chaque source dans PREUVES a une `source_url` verifiee (HEAD 200 OK = ✦, 4xx/5xx = ⁅, pas d'URL = ❧) | La fiche est marquee [SOURCES NON VERIFIEES] |
 | **NREF-10 [NOUVEAU v2.1]** | Chaque version officielle dans CONTRE_VERSION a une source reelle avec URL et auteur identifie | La fiche est marquee [CONTRE-VERSION NON SOURCEE] |
-| **NREF-11 [NOUVEAU v2.2]** | Chaque fil actif dans VERROUILLAGE a une entree dans REMONTEE_DES_FILS avec acte de naissance + au moins 2 renforcements historiques + chaine causale complete jusqu'a l'evenement | La fiche est marquee [RACINES IMMEDIATES SEULEMENT] |
+| **NREF-11 [v2.2] [RENFORCE v2.4]** | Chaque fil actif dans VERROUILLAGE a une entree dans REMONTEE_DES_FILS avec acte de naissance + au moins 2 renforcements historiques + chaine causale complete remontee selon l'algorithme Pelote de Laine (5 questions, regle d'arret, pas de saut > 30 ans sans explication) | La fiche est marquee `[PELOTE NON DEFILEE]` si l'algorithme n'a pas ete execute — max NREF-C |
 | **NREF-12 [NOUVEAU v2.3]** | L'enquete contient au moins 2 contre-mesures operationnelles dans CONTRE_MESURES (1 PENDANT/APRES + 1 PREVENTIF) avec acteur identifie, fenetre d'opportunite, faisabilite, et precedent historique verifie | La fiche est marquee [AUTOPTIE SANS REMEDE] |
 
 ### Echelle de robustesse v2.3
@@ -487,13 +487,16 @@ Avant de produire la fiche, constituer le dossier de sources.
 
 Utiliser `2026-06-26_21-00_prompt_investigation_v2_PROMPT.md` (renforce v2.1) — le point d'entree unique du protocole.
 
-### Etape 1.5 — Archeologie des fils [NOUVEAU v2.2]
+### Etape 1.5 — Archeologie des fils + Pelote de Laine [NOUVEAU v2.2] [RENFORCE v2.4]
 
-Apres avoir lance l'enquete (etape 1) et AVANT de produire la fiche YAML (etape 2), l'enqueteur doit consulter le referentiel archeologique et identifier pour chaque fil actif pressenti :
+Apres avoir lance l'enquete (etape 1) et AVANT de produire la fiche YAML (etape 2), l'enqueteur doit appliquer la Methode de la Pelote de Laine (PARTIE IX), consulter le referentiel archeologique, et identifier pour chaque fil actif pressenti :
+
+**1.5.0 Appliquer la Pelote de Laine** (algorithme 5 questions, PARTIE IX §Methode de la Pelote de Laine) a chaque fil actif pressenti. Noter les 4 causes (T-1, T-2, T-3, Acte fondateur) et le marquage selon la regle d'arret. Format de sortie obligatoire pour chaque etape : `[AAAA] — evenement/loi/institution — [M## si applicable]`.
 
 **1.5.1 Consulter le referentiel**
 - Ouvrir `2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md`
-- Pour chaque fil A-H pressenti comme actif dans l'evenement, reperer son acte de naissance et ses renforcements historiques
+- Verifier que les actes de naissance et renforcements identifies par la Pelote sont coherents avec le referentiel
+- Pour chaque fil A-H pressenti comme actif, reperer son acte de naissance et ses renforcements historiques
 - Noter les sources (lois, decrets, rapports) pour verification ulterieure (etape 0)
 
 **1.5.2 Verifier les actes fondateurs**
@@ -502,11 +505,12 @@ Apres avoir lance l'enquete (etape 1) et AVANT de produire la fiche YAML (etape 
 - Si un nouveau fil est propose (au-dela de A-H) → documenter son acte de naissance et ses renforcements dans le referentiel (mise a jour PARTIE VII)
 
 **1.5.3 Tracer la chaine causale**
+- Utiliser les resultats de la Pelote de Laine comme guide : chaque maillon de la chaine doit correspondre a une etape de la remontee
 - Etablir la sequence : acte de naissance → renforcement 1 → renforcement 2 → ... → manifestation dans l'evenement
 - Pour chaque maillon de la chaine, identifier le mecanisme (M##) active
-- Verifier que la chaine causale est complete : aucun saut temporel > 50 ans sans explication
+- Verifier que la chaine causale est complete : aucun saut temporel > 30 ans sans explication (regle renforcee par la Pelote)
 
-**Sanction :** Sans etape 1.5, NREF-11 echoue — la fiche ne peut pas depasser le niveau NREF-B (voir barème NREF v2.2 §III).
+**Sanction :** Sans etape 1.5 (Pelote de Laine + referentiel), NREF-11 echoue — la fiche est marquee `[PELOTE NON DEFILEE]` et ne peut pas depasser le niveau NREF-C.
 
 ### Etape 2 — Produire la fiche YAML v2.3
 
@@ -711,6 +715,93 @@ Le chapitre 2.5 du format YAML (REMONTEE_DES_FILS) doit contenir pour chaque fil
 4. **Les renforcements majeurs sont en priorite** : acte de naissance + renforcements majeurs (en gras dans le referentiel) sont obligatoires ; renforcements simples sont recommandes
 5. **Un nouveau fil identifie par une enquete** (au-dela de A-H) doit etre propose a la consolidation periodique (PARTIE VII) avec son acte de naissance et ses renforcements
 
+### Methode de la Pelote de Laine [NOUVEAU v2.4]
+
+#### Principe
+
+La Pelote de Laine est la procedure operationnelle qui transforme l'exigence d'archeologie des fils (NREF-11) en un **algorithme executable** par le LLM enqueteur. La metaphore est simple : partant de l'evenement etudie, on defile le fil causal en remontant de verrou en verrou jusqu'a l'acte fondateur. Chaque etape repond a la meme question : « qu'est-ce qui a rendu ceci possible ? »
+
+Sans Pelote de Laine, l'enqueteur s'arrete au premier verrou identifiable (souvent le plus recent : HADOPI 2009 au lieu de Le Chapelier 1791). Avec la Pelote, la remontee est forcee jusqu'a une racine fondatrice. L'algorithme est le remede au biais de disponibilite cognitive : le LLM va chercher la cause la plus immediate, pas la plus profonde.
+
+#### Algorithme de remontee (5 questions recursives)
+
+Pour chaque fil actif identifie dans VERROUILLAGE.fils_actifs, le LLM doit executer l'algorithme suivant, **dans l'ordre, sans sauter d'etape** :
+
+**Question 1 — Cause immediate (T-1) :** « Quel est l'evenement, la loi, l'institution ou la decision la plus recente qui a rendu ce mecanisme possible dans cette enquete ? » → Noter [Cause T-1 : 0-10 ans avant l'evenement].
+
+**Question 2 — Cause intermediaire (T-2) :** « Et qu'est-ce qui a rendu cette cause immediate possible ? Quel verrou preexistait ? » → Noter [Cause T-2 : 10-50 ans avant l'evenement]. Si la reponse est identique a la question 1, chercher un verrou plus profond — la chaine causale ne peut pas etre plate.
+
+**Question 3 — Cause profonde (T-3) :** « Et qu'est-ce qui a rendu cette cause intermediaire possible ? Quelle loi, quelle institution, quelle decision fondatrice ? » → Noter [Cause T-3 : 50+ ans avant l'evenement].
+
+**Question 4 — Acte fondateur :** « Quelle est la racine ultime de ce fil ? L'evenement, la loi, le decret ou la pratique qui a cree ce verrou pour la premiere fois ? » → Noter [Acte de naissance].
+
+**Question 5 — Verification recursive :** « L'acte de naissance identifie a-t-il lui-meme un antecedent identifiable dans le systeme francais ? » Si oui, retourner a la question 4 avec le nouvel antecedent. Si non, l'acte de naissance est valide et la remontee s'arrete.
+
+#### Regle d'arret
+
+La remontee s'arrete quand l'acte de naissance identifie appartient a l'une des categories suivantes :
+
+| Categorie | Exemple | Marquage |
+|-----------|---------|----------|
+| **RACINE ANCIENNE** : acte pre-revolutionnaire (avant 1789) | Colbert 1660, Ordonnance criminelle 1670, Edit de Nantes 1685 | `[RACINE ANCIENNE]` |
+| **RACINE FONDATRICE** : acte revolutionnaire ou imperial (1789-1815) | Le Chapelier 1791, Code civil 1804, Universite 1808 | `[RACINE FONDATRICE]` |
+| **RACINE CONSTITUTIVE** : constitution, traite fondateur, loi organique | Constitution 1958, Traite de Rome 1957, Ordonnance 1945 | `[RACINE CONSTITUTIVE]` |
+| **RACINE CULTURELLE** : pratique sociale, coutume, jurisprudence stable | Privilege royal de la presse (1762), Mandarinat medical (1875) | `[RACINE CULTURELLE]` |
+
+**Regle absolue :** Si la remontee n'atteint aucun acte anterieur a 1800, le LLM DOIT marquer la remontee `[PROFONDEUR INSUFFISANTE]` et relancer l'algorithme avec la question : « Quelle tradition, institution ou pratique anterieure a rendu ce verrou possible ? » — jusqu'a atteindre une racine pre-1800 OU demontrer que le fil est vraiment moderne (ex. Fil L — fiscalite asymetrique : acte de naissance 1914, justifie car l'impot sur le revenu n'existe pas avant ; Fil K — numerisation sous controle : acte de naissance 1980 Minitel, justifie car le numerique n'existe pas avant). Dans ce cas, la fiche doit contenir une note justifiant pourquoi la racine est moderne.
+
+#### Exemple : Fil B — ARCOM (enquete censure numerique)
+
+Application de l'algorithme a l'enquete ARCOM v2.3 (fil B, monopole d'Etat) :
+
+1. **Cause immediate (T-1, 2019-2026)** : ARCOM cree en 2021 par fusion CSA+HADOPI. Qu'est-ce qui a rendu ceci possible ? → HADOPI 2009 (reponse graduee, autorite administrative independante).
+2. **Cause intermediaire (T-2, 2004-2009)** : HADOPI creee par la loi Creation et Internet 2009. Qu'est-ce qui a rendu ceci possible ? → LCEN 2004 (premiere regulation d'Internet en France, regime de responsabilite hebergeurs).
+3. **Cause profonde (T-3, 1945-1980)** : LCEN est une loi francaise transposant la directive europeenne commerce electronique 2000. Mais la tradition francaise de reguler les communications remonte a l'ORTF 1964 (monopole audiovisuel d'Etat). Qu'est-ce qui a rendu l'ORTF possible ? → Nationalisations 1945 (Etat proprietaire et regulateur).
+4. **Acte fondateur** : Loi Le Chapelier 1791 — interdiction des corps intermediaires, monopole de l'Etat sur l'interet general. L'Etat francais ne connait pas de contre-pouvoir economique ou social legitime ; c'est donc a lui de reguler.
+5. **Verification** : Le Chapelier a-t-il un antecedent ? → La Rvolution francaise est une rupture consciente avec l'Ancien Regime. C'est un acte fondateur autonome. `[RACINE FONDATRICE]`
+
+**Chaine causale complete :** 1791 (Le Chapelier : interdiction des corps intermediaires) → 1811 (Regime des tabacs : monopole normalise) → 1945 (Nationalisations : Etat proprietaire) → 1964 (ORTF : monopole audiovisuel) → 2004 (LCEN : premiere regulation numerique) → 2009 (HADOPI : reponse graduee) → 2019-2021 (ARCOM : regulateur unique) → 2024 (DSA + SREN : censure administrative) → 2026 (budget ARCOM 500 M€ : institutionnalisation)
+
+#### Integration dans l'etape 1.5 du workflow
+
+L'algorithme Pelote de Laine s'execute a l'etape 1.5 (Archeologie des fils), APRES avoir consulte le referentiel (`archives_fils_actes_fondateurs_REFERENCE.md`) et AVANT de produire la fiche YAML.
+
+**Procedure mise a jour :**
+
+1.5.0 **Appliquer la Pelote de Laine** (algorithme 5 questions) a chaque fil actif pressenti. Noter les 4 causes (T-1, T-2, T-3, Acte fondateur) et le marquage selon la regle d'arret.
+1.5.1 Consulter le referentiel (inchangé). Verifier que les actes de naissance et renforcements identifies par la Pelote sont coherents avec le referentiel.
+1.5.2 Verifier les actes fondateurs (inchangé).
+1.5.3 Tracer la chaine causale — utiliser les resultats de la Pelote de Laine comme guide. Chaque maillon de la chaine doit correspondre a une etape de la remontee.
+
+**Sanction :** Sans application de l'algorithme Pelote de Laine, NREF-11 echoue automatiquement — la fiche est marquee `[PELOTE NON DEFILEE]` et ne peut pas depasser le niveau NREF-C, independamment de la profondeur atteinte par ailleurs.
+
+#### Check-list de profondeur (a integrer dans l'etape 4 Ultrathinking)
+
+Les 6 questions suivantes sont ajoutees a la verification archeologique de l'etape 4, apres les 5 questions existantes :
+
+```
+□ L'acte de naissance est-il anterieur a 1800 ?
+   → Si non : [PROFONDEUR INSUFFISANTE] — chercher un antecedent pre-revolutionnaire
+□ Y a-t-il un saut > 30 ans non explique entre deux renforcements ?
+   → Si oui : RENFORT MANQUANT — chercher un evenement intermediaire
+□ Tous les renforcements sont-ils mecanismes (M##) ?
+   → Si non : LIEN CAUSAL FAIBLE — marquer le maillon [HYPOTHESE]
+□ Le fil a-t-il une racine pre-revolutionnaire (avant 1789) ?
+   → Si oui : marquer [RACINE ANCIENNE — REGIME] ou [RACINE ANCIENNE — EGLISE]
+□ Existe-t-il une bifurcation (moment ou le fil aurait pu etre brise) ?
+   → Si non : le verrouillage est particulierement robuste
+□ D'autres enquetes ont-elles identifie le meme acte de naissance pour ce fil ?
+   → Si non : INCOHERENCE TRANSVERSE — a consolider en PARTIE VII
+```
+
+Ces 6 questions sont ajoutees au minimum attendu de l'addendum Ultrathinking (section HYPOTHESES_SYSTEMIQUES).
+
+#### Mise a jour de NREF-11
+
+L'exigence NREF-11 est renforcee comme suit :
+
+**NREF-11 [v2.2] [RENFORCE v2.4]** : Chaque fil actif dans VERROUILLAGE a une entree dans REMONTEE_DES_FILS avec acte de naissance + au moins 2 renforcements historiques + chaine causale complete (remontee selon l'algorithme Pelote de Laine, aucun saut > 30 ans non explique, acte de naissance valide selon la regle d'arret). La fiche est marquee `[PELOTE NON DEFILEE]` si l'algorithme n'a pas ete execute explicitement.
+
 ### Regle speciale : candidats auto-referents (Fils I, J, K...)
 
 Un cas particulier se presente lorsqu'un fil candidat a pour **acte de naissance l'evenement enquete lui-meme** (ex. Fil I — Vassalite monetaire : acte de naissance = Maastricht 1992, qui est aussi l'evenement de l'enquete). Cela cree une **circularite douce** : l'enquete confirme en partie le fil par sa propre existence.
@@ -733,7 +824,7 @@ d. **Limitation methodologique documentee dans BIAIS_ENQUETEUR** : l'enqueteur d
 
 ### Sanction
 
-Sans chapitre REMONTEE_DES_FILS (NREF-11 non satisfait), la fiche ne peut pas depasser le niveau NREF-B, meme si les 10 autres exigences sont satisfaites (voir barème NREF v2.3 §III). L'archeologie des fils est un multiplicateur de profondeur : sans elle, l'enquete reste une photographie, pas un diagnostic.
+Sans chapitre REMONTEE_DES_FILS (NREF-11 non satisfait), la fiche ne peut pas depasser le niveau NREF-C, meme si les 10 autres exigences sont satisfaites (voir barème NREF v2.4 §III). Si le chapitre existe mais que l'algorithme Pelote de Laine n'a pas ete execute, la fiche est marquee `[PELOTE NON DEFILEE]` et reste bloquee au niveau NREF-C. L'archeologie des fils est un multiplicateur de profondeur : sans elle ni la Pelote, l'enquete reste une photographie, pas un diagnostic.
 
 ---
 
@@ -815,3 +906,4 @@ Sans chapitre CONTRE_MESURES (NREF-12 non satisfait), la fiche ne peut pas depas
 - **v2.1** (2026-06-26) : Renforcement NREF post-audit. Audit de l'enquete sang contamine v2.0 a revele : 0 verifications web, 0 URLs, glyphes ✦ attribues sans HEAD check, Ultrathinking non execute, niveau NREF gonfle (B revendique, D reel). Corrections : instructions operationnelles de recherche web et HEAD check ajoutees au prompt ; `source_url`, `citation_directe`, `head_check_date` devenus obligatoires dans le schema YAML ; glyphes ✦ soumis a HEAD check reel ; NREF-9 (sources verifiees) et NREF-10 (contre-version sourcee) ajoutes au bareme ; echelle de robustesse recalibree avec niveau E.
 - **v2.2** (2026-06-26) : **Ajout de l'archeologie des fils.** Nouveau chapitre YAML 2.5 (REMONTEE_DES_FILS). Nouveau referentiel : `2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md`. Nouveau pilier : chaque fil actif doit etre remonte jusqu'a son acte de naissance historique (1791, 1804, 1660...). Nouvelle exigence NREF-11. Nouvelle partie : PARTIE IX (Archeologie des fils). Nouvelle etape workflow : 1.5 (Archeologie des fils) et 3.5 (Verification archeologique). Echelle de robustesse recalibree : NREF-A necessite desormais 11/11 exigences. Consolidation periodique renforcee : mise a jour du referentiel archeologique.
 - **v2.3** (2026-06-26) : **Ajout des contre-mesures operationnelles.** Nouveau chapitre YAML 3.5 (CONTRE_MESURES). Nouveau pilier : chaque enquete doit identifier les actions concretes qui auraient pu empecher la bascule — avec acteur, fenetre d'opportunite, faisabilite, et precedent historique verifie. Nouvelle exigence NREF-12. Nouvelle partie : PARTIE X (Contre-mesures operationnelles). 5 piliers. 13 chapitres. Echelle de robustesse recalibree : NREF-A necessite desormais 12/12 exigences. Les trois niveaux d'acteurs (micro/meso/macro) et les deux temporalites (preventif/reactif) documentes.
+- **v2.4** (2026-06-26) : **Ajout de la Methode de la Pelote de Laine.** Algorithme de remontee recursive en 5 questions pour forcer la remontee jusqu'a l'acte fondateur. Regle d'arret avec 4 categories (RACINE ANCIENNE, RACINE FONDATRICE, RACINE CONSTITUTIVE, RACINE CULTURELLE). Check-list de profondeur a 6 questions integree a l'etape 4 Ultrathinking. NREF-11 renforce : `[PELOTE NON DEFILEE]` bloque au niveau C. L'algorithme resout le biais de disponibilite cognitive qui arretait l'enqueteur au premier verrou identifiable (HADOPI 2009 au lieu de Le Chapelier 1791).
