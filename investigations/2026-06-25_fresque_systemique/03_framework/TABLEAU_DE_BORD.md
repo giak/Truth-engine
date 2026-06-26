@@ -4,25 +4,25 @@
 >
 > Ce tableau de bord est la **fresque cumulative** de cette thèse — enquête après enquête, il agrège les preuves, trace l'émergence des patterns, et prépare la matière pour la réponse. Chaque investigation ajoute une strate : un nouveau scandale, les mêmes mécanismes, la confirmation que le « dysfonctionnement » est le fonctionnement normal.
 >
-> *Mise à jour v2.3 : 9 enquêtes produites. Enquête niches fiscales (1807-2026) — replication de Fil L réussie. M47 confirmé comme mécanisme candidat. 3 nouvelles enquêtes depuis la v2.1 (Maastricht, Fiscalité, Niches) et 1 test de réplication (Mazan).*
+> *Mise à jour v2.3 : 10 enquêtes produites. Enquête ARCOM (2019-2026) — censure numérique institutionnalisée, extension Fil I au juridique. 5 nouvelles enquêtes depuis la v2.1 : Maastricht, Fiscalité, Mazan, Niches, ARCOM.*
 
 ## Métriques globales
 
 | Métrique | Valeur | Date |
 |----------|--------|------|
-| Enquêtes v2.3 produites | **9** (5 migrées + 4 nouvelles : Maastricht, Asymétrie fiscale, Mazan, Niches fiscales) | 2026-06-26 |
+| Enquêtes v2.3 produites | **10** (5 migrées + 5 nouvelles : Maastricht, Fiscalite, Mazan, Niches, ARCOM) | 2026-06-26 |
 | Enquêtes en cours | 0 | — |
-| Ultrathinking réalisés | 9 / 9 (100 %) | 2026-06-26 |
-| Second agents exécutés | 0 / 9 (0 %) | — |
-| Niveau NREF max atteint | **B** (7 enquêtes) — Mazan : **C**, Niches : **C** (3/11 sources ✦) | 2026-06-26 |
-| Sources vérifiées cumulées | 55 ✦ + 5 ⁅ + 43 ❧ = 103 | 2026-06-26 |
+| Ultrathinking réalisés | 10 / 10 (100 %) | 2026-06-26 |
+| Second agents exécutés | 0 / 10 (0 %) | — |
+| Niveau NREF max atteint | **B** (7 A/B, 3 C — Mazan, Niches, ARCOM) | 2026-06-26 |
+| Sources vérifiées cumulées | 55 ✦ + 5 ⁅ + 57 ❧ = 117 | 2026-06-26 |
 | HEAD checks effectués | 39 | 2026-06-26 |
 | Blocages identifiés | 3 (second agents non exécutés) | — |
-| **Pattern invariant confirmé** | **M11+M28 invariant 9/9** ; **M11+M28+M05 dans 8/9** (Mazan : M05 absent) | 2026-06-26 |
-| **Fil I** | **CONFIRMÉ** (Maastricht 1992) | 2026-06-26 |
-| **Fil L** | **CANDIDAT** (Fiscalité asymétrique — acte naissance 1914, **replication niches réussie**) | 2026-06-26 |
-| **M43** | **CONFIRMÉ** (Domination monétaire) | 2026-06-26 |
-| **M47** | **CANDIDAT** (Injustice fiscale structurelle, **réplication niches réussie**) | 2026-06-26 |
+| **Pattern invariant confirmé** | **M11+M28 invariant 10/10** ; **M05 dans 9/10** (Mazan : M05 absent) | 2026-06-26 |
+| **Fil I** | **CONFIRMÉ** (Maastricht 1992 + **ARCOM : extension hypothèse vassalité juridique**) | 2026-06-26 |
+| **Fil L** | **CONFIRMÉ** (Fiscalité asymétrique — replication niches réussie) | 2026-06-26 |
+| **M43** | **CONFIRMÉ** (Domination monétaire, étendue à juridique par ARCOM) | 2026-06-26 |
+| **M47** | **CANDIDAT** (Injustice fiscale structurelle, replication niches réussie) | 2026-06-26 |
 | **M48** | **HYPOTHÈSE** (Consentement comme privilège épistémique — proposé par Mazan) | 2026-06-26 |
 
 ---
@@ -38,8 +38,9 @@
 | 5 | **v2.3** | 2026-06-26 | SYSTEME_2020_Covid19_v2.3 | COVID-19 (mars 2020) — révélateur systémique, 8 fils archéologiques | **B** | A,B,C,D,E,F,G,H | M09, M11, M22, M28, M37 | ✅ 8 fils | ✅ 2 actions |
 | **6** | **v2.3** | 2026-06-26 | SYSTEME_1992_Maastricht_v2.3 | Maastricht 1992 — validation Fil I : vassalité monétaire, 6 fils archéologiques | **B** | B,C,D,E,H,I | M43, M11, M37, M28, M05 | ✅ 6 fils (dont I candidat) | ✅ 2 actions |
 | **7** | **v2.3** | 2026-06-26 | SYSTEME_1914-2026_Asymetrie_fiscale | Travail taxé, Capital protégé — asymétrie fiscale structurelle, 6 fils archéologiques, 110 ans d'histoire | **B** | B,C,D,E,H,I | M11, M28, M05, M43, M02 | ✅ 6 fils (dont L candidat) | ✅ 2 actions |
-| **8** | **v2.3** | 2026-06-26 | SYSTEME_2024_Mazan_Pelicot | Procès des viols de Mazan (Pelicot, 2024) — TEST DE RÉPLICATION : la justice a-t-elle fonctionné ou est-ce l'exception qui confirme la règle ? Contre-exemples partiels à Fil D (51 condamnations) et Fil E (couverture médiatique mondiale) | **C** | B,C,D,E,G,H | M37, M28, M11, M02, M22 | ✅ 6 fils + contre-exemples documentés | ✅ 2 actions |
-| **9** | **v2.3** | 2026-06-26 | SYSTEME_1807-2026_Niches_fiscales | Niches fiscales (1807-2026) — RÉPLICATION Fil L : 470 niches fiscales, 90-100 Md€/an, qui bénéficie des dépenses fiscales ? L'instrument invisible de l'asymétrie travail/capital. Confirme Fil L par replication | **C** | B,C,D,E,H,L | M05, M11, M28, M37, M22 | ✅ 6 fils (dont L réplication) | ✅ 2 actions |
+| **8** | **v2.3** | 2026-06-26 | SYSTEME_2024_Mazan_Pelicot | Procès des viols de Mazan (Pelicot, 2024) — TEST DE RÉPLICATION : la justice a-t-elle fonctionné ou est-ce l'exception qui confirme la règle ? Contre-exemples partiels à Fil D (51 condamnations) et Fil E (couverture médiatique mondiale) | **C** | B,C,D,E,G,H | M37, M28, M11, M02, M22 | ✅ 6 fils + contre-exemples | ✅ 2 actions |
+| **9** | **v2.3** | 2026-06-26 | SYSTEME_1807-2026_Niches_fiscales | Niches fiscales (1807-2026) — RÉPLICATION Fil L : 470 niches fiscales, 90-100 Md€/an, qui bénéficie des dépenses fiscales ? L'instrument invisible de l'asymétrie travail/capital | **C** | B,C,D,E,H,L | M05, M11, M28, M37, M22 | ✅ 6 fils (dont L réplication) | ✅ 2 actions |
+| **10** | **v2.3** | 2026-06-26 | SYSTEME_2019-2026_ARCOM_Censure | ARCOM (2019-2026) — censure numérique institutionnalisée : de la HADOPI au complexe de censure européen (DSA). 6 fils actifs. Extension Fil I au juridique (HYPOTHÈSE). Budget 51→500 M€, Twitter Files, OONI | **C** | B,C,D,E,H,I | M11, M37, M28, M02, M22 | ✅ 6 fils (dont I extension) | ✅ 2 actions |
 
 **Légende :** ✅ = fait | 🔲 = à faire
 
@@ -56,6 +57,7 @@
 | Asymétrie fiscale v2.3 | `02_enquetes/2026-06-26_asymetrie_fiscale_travail_capital_v2.3_INVESTIGATION.md` |
 | Mazan/Pelicot v2.3 | `02_enquetes/2026-06-26_proces_mazan_pelicot_v2.3_INVESTIGATION.md` |
 | Niches fiscales v2.3 | `02_enquetes/2026-06-26_niches_fiscales_v2.3_INVESTIGATION.md` |
+| ARCOM censure v2.3 | `02_enquetes/2026-06-26_arcom_censure_numerique_v2.3_INVESTIGATION.md` |
 
 **Archive :** Sang v2.1 → `02_enquetes/archive/2026-06-26_sang_contamine_NREF_INVESTIGATION.md`. Architecture fondatrice → `02_enquetes/archive/2026-06-25_18-00_anatomie_impuissance_civique_ARCHITECTURE.md`.
 
@@ -169,16 +171,16 @@ Virage rigueur 1983
 
 | Fil | Nb enquêtes | Enquêtes |
 |-----|:-----------:|----------|
-| **B — Monopole d'État** | **9/9** | Sang, Tchernobyl, Pétition, Rigueur, COVID, Maastricht, Fiscalité, Mazan, **Niches** |
-| **C — Société civile atrophiée** | **9/9** | Sang, Tchernobyl, Pétition, Rigueur, COVID, Maastricht, Fiscalité, Mazan, **Niches** |
-| **E — Presse sans contre-pouvoir** | **9/9** | Sang, Tchernobyl, Pétition, Rigueur, COVID, Maastricht, Fiscalité, Mazan, **Niches** |
-| D — Justice domestiquée | **8/9** | Sang, Pétition, Rigueur, COVID, Maastricht, Fiscalité, Mazan, **Niches** |
-| H — Exceptionnalisme | **8/9** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalité, Mazan, **Niches** |
-| G — Laïcité religion civile | **5/9** | Sang, Tchernobyl, Pétition, COVID, Mazan |
-| I — Vassalité monétaire | **4/9** | Virage, Maastricht, COVID, Fiscalité |
-| L — Fiscalité asymétrique | **2/9** | Fiscalité, **Niches** |
-| A — Mandarinat | **3/9** | Sang, Pétition, COVID |
-| F — École-moule | **3/9** | Sang, Pétition, COVID |
+| **B — Monopole d'Etat** | **10/10** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, **ARCOM** |
+| **C — Societe civile atrophiee** | **10/10** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, **ARCOM** |
+| **E — Presse sans contre-pouvoir** | **10/10** | Sang, Tchernobyl, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, **ARCOM** |
+| D — Justice domestiquee | **9/10** | Sang, Pet, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, **ARCOM** |
+| H — Exceptionnalisme | **9/10** | Sang, Tchernobyl, Rigueur, COVID, Maastricht, Fiscalite, Mazan, Niches, **ARCOM** |
+| I — Vassalite monetaire | **5/10** | Virage, Maastricht, COVID, Fiscalite, **ARCOM (extension juridique)** |
+| G — Laicite religion civile | **5/10** | Sang, Tchernobyl, Pet, COVID, Mazan |
+| L — Fiscalite asymetrique | **2/10** | Fiscalite, Niches |
+| A — Mandarinat | **3/10** | Sang, Pet, COVID |
+| F — Ecole-moule | **3/10** | Sang, Pet, COVID |
 
 ### Connexions transversales (graphe)
 Chaque enquête est connectée à ≥ 3 autres :
