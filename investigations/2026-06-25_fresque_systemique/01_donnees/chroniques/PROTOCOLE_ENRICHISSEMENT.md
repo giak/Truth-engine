@@ -54,6 +54,36 @@ Pour chaque fait, décider :
 
 ---
 
+## Ajouter dans les chroniques (la mécanique)
+
+Une fois les faits catégorisés, utiliser l'outil CLI **`tools/enrich_chronique.py`** pour les insérer. Il gère automatiquement : création des dossiers, template correct, détection des doublons, mise à jour du compteur.
+
+```bash
+# Ajout simple
+python3 tools/enrich_chronique.py 2026_DIP.md "| 2026-05-10 | DIP | Macron à Nairobi : pré carré terminé | ❌ |"
+
+# Ajout multiple (un argument par fait)
+python3 tools/enrich_chronique.py 2026_DIP.md \
+  "| 2026-05-10 | DIP | Macron : pre carre termine | ❌ |" \
+  "| 2026-05-11 | DIP | Africa Forward 23 MdE | ❌ |"
+
+# Créer un nouveau fichier (crée le dossier si besoin)
+python3 tools/enrich_chronique.py 1945_DIP.md "| 1945-12-26 | DIP | Creation CFA | ❌ |"
+
+# Mode stdin (pratique pour plusieurs faits)
+python3 tools/enrich_chronique.py --stdin < liste_faits.txt
+```
+
+**Pourquoi utiliser l'outil plutôt qu'éditer à la main ou écrire un script :**
+- Pas d'erreur d'accent (les pièges `Annee`/`Année`, `evenement`/`événement` sont gérés)
+- Pas d'oubli de création de dossier
+- Pas de script Python à débugger
+- Le compteur est automatiquement recalculé
+
+**Ne PAS** éditer les fichiers chroniques à la main ou écrire un script Python custom à chaque fois. C'est le piège numéro 1.
+
+---
+
 ## Exemple 1 — INVESTIGATION narrative : ajout de faits
 
 **Document :** `1500_communicants_etat_caste_INVESTIGATION.md`
