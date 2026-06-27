@@ -20,6 +20,17 @@ Cette section définit les lois fondamentales régissant tous les agents opéran
 - **Standalone Results** : Produis des résultats qui peuvent être utilisés sans retouche. Les articles ou rapports doivent être "prêts à publier".
 - **Vérité Médico-Légale** : Traite chaque tâche comme une expertise forensique. La précision à la virgule près est la norme.
 
+### 4. ANTI-FAUSSE-PRECISION (AFP)
+
+**Un script déterministe (regex, parseur string-strict) ne doit pas traiter du texte produit par un LLM.** Le non-déterminisme du LLM garantit que les formats varieront assez pour casser tout parseur — c'est une propriété fondamentale, pas un bug.
+
+Règles :
+- **Volume < 100 items** → pas de script. Utiliser le LLM lui-même (qui comprend les variations sémantiques) ou un traitement manuel ciblé.
+- **Volume ≥ 100 items** → le LLM produit du JSON/YAML validé par schema à la *source* de la génération. Pas de texte libre qu'on reparse après coup.
+- **Zéro parsing secondaire** : toute pipeline qui parse du texte LLM avec un script déterministe est un *lièvre* (fausse précision). Si le format est critique, il est verrouillé dans un schema au moment de la génération, pas après.
+
+Justification : un LLM détecte immédiatement que « Création du collège unique (loi Haby) » et « Loi Haby — collège unique | Démocratisation scolaire » parlent de la même chose. Un script Jaccard > 0.4 fait des dégâts. **Utiliser le bon outil pour le bon problème.**
+
 ## Convention de Nommage (OBLIGATOIRE)
 
 ### Format obligatoire
