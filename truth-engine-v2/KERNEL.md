@@ -116,45 +116,83 @@ MANIPULATION_REPORT:
    RÈGLE: URL précise (page spécifique du document/loi/événement, pas la racine du domaine).
    VALIDATION: IF URL inaccessible → mark ⁕ (CLAIMED), not ✦ (CONFIRMED).
    VALIDATION: IF URL points to domain root → mark ⁅ (gap), not ✦ (CONFIRMED).
-11 CAUSALITY        PELOTE — recursive backward tracing of systemic mechanisms
-   ◆ IDENTIFY: name the mechanisms driving this event
-     (e.g., "State monopoly on X", "Regulatory capture", "Opacity by design").
-   ◆ TRACE each mechanism backward — no rigid time windows, follow the lineage:
-     START: CURRENT node = the first law/institution that embodied this mechanism.
+11 CAUSALITY        PELOTE — research-first causal tracing
+   ◆ PHASE 1 — RESEARCH CAUSES (before naming anything)
+     Search for root causes BEFORE identifying mechanisms.
+     Execute at least 5 @WEB queries (ALL in the event's language):
+       1. @WEB["{event} causes OR origins OR historical roots"]
+       2. @WEB["{event} institutional failure OR systemic causes"]
+       3. @WEB["{event} alternative OR competing explanations"]
+       4. @WEB["{event} what enabled it OR how did it happen"]
+       5. @WEB["{event} précédents historiques OR lois fondatrices OR causes profondes"]
+     → Language: all queries in the event's country language.
+       (French event → all FR. English event → all EN. Adapt accordingly.)
+     → @FETCH the 3 most informative results.
+     → Extract 5+ candidate mechanisms from the FETCHed content.
+       Do NOT rely on LLM memory — mechanisms must come from the research.
+
+   ◆ PHASE 2 — DIVERGE & SELECT mechanisms
+     From the research results, name ≥3 candidate mechanisms.
+     (Reason: generate a buffer — after merging duplicates, keep ≥2 for output.)
+     → TEST DISTINCTIVENESS: two mechanisms are distinct ONLY if they have
+       DIFFERENT causal trajectories (different chain of enablers).
+       If two mechanisms share the SAME full chain trajectory → they are
+       FACETS of the same mechanism. Merge them, keep one label.
+       Sharing only the root origin (same starting law) is NOT enough to merge
+       — the enablers at each depth must also differ.
+       Example: "Monopole d'État" and "Capture réglementaire" share the same
+       1952 law AND the same 1945 AND 1791 enablers → same mechanism, merged.
+     → If after merging <2 distinct mechanisms remain → return to PHASE 1
+       with broader queries (add "international comparison" "autre explication").
+     → Each selected mechanism must have a DIFFERENT root trajectory.
+
+   ◆ PHASE 3 — TRACE (PELOTE LOOP)
+     For each selected mechanism, trace backward via recursive loop.
+     Same language rule as Phase 1 (all queries in the event's language).
+     START: CURRENT node = the first law/institution/event that embodied this mechanism
+       (identified from Phase 1 research, not LLM memory).
      LOOP (max depth 6):
        1. HYPOTHESIS: what direct legal/institutional precedent enabled the CURRENT node?
        2. SEARCH: @WEB["{searchable name of CURRENT node} création OR origine OR loi OR décret"]
-          → Adapt language to the event's country (French events → French queries).
-          → @FETCH the best result. Prefer the law/décret that directly created
-            or restructured the institution. If search returns noise, reformulate
-            once. If still nothing: mark link as ⁅ (unverified gap) and continue.
-          → PRECISION: the URL must point to the SPECIFIC page documenting that
-            law/event, NOT a domain root. If @WEB returns a homepage URL
-            (e.g. legifrance.gouv.fr/), reformulate once (2 attempts max).
-            If still no specific page URL → mark ⁅ (gap).
-            → After @FETCH, verify the response contains the actual document
-            (law text, specific article), not a navigation/search page.
-       3. RECORD: the discovered precedent becomes the new CURRENT node.
-       4. STOP if: max depth reached | hit a root cause (constitutional paradigm shift,
-          nationwide nationalization wave, founding law of the State structure).
-          → SELF-CHECK: could this root plausibly have a democratic/legal antecedent?
-          If in doubt, do one more @WEB to verify before stopping.
+          → @FETCH the best result. If search returns noise, reformulate once.
+          → PRECISION: URL must point to SPECIFIC page (not domain root).
+            Max 2 attempts. If still no specific page → mark ⁅.
+          → After @FETCH, verify response contains actual document, not navigation.
+       3. RECORD: the discovered precedent becomes new CURRENT node.
+       4. STOP if: max depth 6 | hit a root (constitutional paradigm shift,
+          founding law of State structure, paradigm with no distinct prior enabler).
+          → SELF-CHECK: could this root have a democratic/legal antecedent?
+          If in doubt, one more @WEB before stopping.
+
    ◆ FORMAT — hierarchical causal tree (indent = depth):
      [YYYY] EVENT — mechanism active
        └ [YYYY] T-1: direct enabler/law — source URL ✦
           └ [YYYY] T-2: prior precedent — source URL ✦
              └ [YYYY] T-ROOT: founding paradigm — source URL ✦
-   ◆ WEAVE: merge the N trees. Identify COMMON ANCESTORS where chains converge.
-     If chains do NOT converge, note their independence — parallel systemic
-     failures, not one unified lock-in.
-     → CAUSAL COHERENCE: read the chain. Does each link EXPLAIN how the next
-       became possible, or does it merely note it happened earlier?
-       If the latter → mark ⁅ and note the gap.
-     Produce ONE narrative: « From [ROOT] to today — how [EVENT] is the endpoint
-       of systemic lock-in via {mechanism_1, mechanism_2, ...} converging at [COMMON_ANCESTOR] »
-   ⊙ MIN: 2 mechanisms, each ≥3 links deep. APEX: 4+ mechanisms, each ≥5 deep.
+
+   ◆ PHASE 4 — WEAVE & VERIFY COVERAGE
+     a. WEAVE: merge the N trees. Identify COMMON ANCESTORS where chains converge.
+        If chains do NOT converge, note their independence.
+        → CAUSAL COHERENCE: read each chain. Does each link EXPLAIN how the
+          next became possible, or merely note chronology? If latter → mark ⁅.
+        Produce ONE narrative: « From [ROOT] to today — how [EVENT] is the
+          endpoint of systemic lock-in via {mech_1, mech_2, ...} »
+     b. COVERAGE CHECK: for every fact in FACT_REGISTRY (§10), verify at least
+        one chain node EXPLAINS it. A fact is explained if a chain node names
+        the specific institution, law, or decision that DIRECTLY enabled that fact.
+        → CONCRETE TEST: if the chain has NO node mentioning the fact's institution
+          or enabling law → the fact is NOT explained.
+          Example: Travenol 1983 refusal. Chain "1952→1945→1791" has NO Travenol
+          node → fact NOT explained. Missing mechanism: "Pasteur test rivalry / LFB industrial pressure".
+        → If ≥1 fact is NOT explained → return to PHASE 1 (max 2 times) with
+          specific query: @WEB["{unexplained fact} cause"] to find the missing mechanism.
+          If after 2 attempts a fact remains unexplained → mark it ⁅
+          (unexplained gap) in the registry and continue.
+        → Record: "COVERAGE: N/N facts explained. Gaps: [fact # reasons]"
+
+   ⊙ MIN: 2 distinct mechanisms in output, each ≥3 links deep. APEX: 4+ mechanisms, each ≥5 deep.
    ⊙ Every link MUST have a verified URL (specific page, not domain root).
-   ⊙ Never hallucinate a chain link. If no specific URL found → mark ⁅ and note the gap.
+   ⊙ Never hallucinate a chain link. If no specific URL → mark ⁅.
 12 IMPACT (part of DIALECTICAL MAP) Qui gagne / perd / meurt / recule (≥1 number each)
 13 VERIFICATION     ≥2 domains, contradictions, fact upgrades
  14 OUTPUT           investigation FR
@@ -189,7 +227,8 @@ REQUEST_LOG format (| # | TYPE | QUERY/TOOL_CALL | RESULT | SOURCE | URL |):
 **FEEDBACK (max 2 loops):**
 ```
 post-10: ✦<min → RETURN 9 (queries reset, +15◈ targeted)
-post-11: chains<min → RETURN 9 (queries reset, +5 causal targeted)
+post-11: handled internally by step 11 (Phase 4 → Phase 1 feedback loop).
+     No external loop needed. If LLM skipped Phase 1 entirely → RETURN 9.
 post-13: domains<2 → RETURN 9 (queries reset, +5 cross-domain)
 ```
 
