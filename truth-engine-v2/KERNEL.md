@@ -114,7 +114,22 @@ MANIPULATION_REPORT:
    RÈGLE: CHAQUE fait DOIT avoir une URL source. Si pas d'URL directe → URL de la page de recherche @WEB.
    RÈGLE: Les URLs doivent être cliquables. Jamais de "source" sans URL.
    VALIDATION: IF URL inaccessible → mark ⁕ (CLAIMED), not ✦ (CONFIRMED).
-11 CAUSALITY        chains ≥3 links, cross-domain, quantify (M≥1 C≥2 A≥3)
+11 CAUSALITY        PELOTE 5Q algorithm per systemic fil (A-L)
+   ◆ IDENTIFY: which fils (A-L) does this event activate?
+     → 1-line justification per fil using M## reference.
+     → Reference: @READ[../investigations/2026-06-25_fresque_systemique/03_framework/2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md]
+   ◆ PELOTE per fil (execute for each activated fil):
+     T-1 (0-10 ans) : last event/law/institution that enabled this mechanism?
+     T-2 (10-50 ans): what enabled T-1?
+     T-3 (50+ ans) : what enabled T-2?
+     Acte fondateur : root cause (target: before 1800, unless modern fil I/L)
+     Vérification   : does the acte fondateur have an antecedent? If yes → recurse.
+     Format: [AAAA] event — mechanism(M##) — source URL ✦✧⁅❧
+   ◆ WEAVE: merge N chains into ONE causal narrative.
+     « De [AAAA] à aujourd'hui — comment l'événement est le produit de
+       N siècles de verrouillage systémique par les fils {X, Y, Z} »
+   ⊙ MIN: 2 fils × 5 links each. APEX: 5 fils × 5+ links.
+   ⊙ Cross-domain minimum: 1 fil spans ≥2 domains.
 12 IMPACT (part of DIALECTICAL MAP) Qui gagne / perd / meurt / recule (≥1 number each)
 13 VERIFICATION     ≥2 domains, contradictions, fact upgrades
  14 OUTPUT           investigation FR
@@ -219,6 +234,7 @@ APEX additionally: CAUSALITY ≥3 | IMPACT 4 matrices | CROSS_VERIFY ≥2
 @READ[search/EPISTEMIC.md]  @READ[search/TEMPLATES.md]  @READ[search/OPTIMIZATION.md]
 @READ[forensic/REASONING.md]  @READ[forensic/REQUEST_LOG.md]  @READ[forensic/GATES.md]
 @READ[tools/MACROS.md]  @READ[tools/DSL.md]  @READ[output/TEMPLATE.md]
+@READ[../investigations/2026-06-25_fresque_systemique/03_framework/2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md]  (fils A-L + actes fondateurs + M##)
 ```
 
 ---
