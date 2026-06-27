@@ -115,7 +115,7 @@ MANIPULATION_REPORT:
    RÈGLE: Les URLs doivent être cliquables. Jamais de "source" sans URL.
    RÈGLE: URL précise (page spécifique du document/loi/événement, pas la racine du domaine).
    VALIDATION: IF URL inaccessible → mark ⁕ (CLAIMED), not ✦ (CONFIRMED).
-   VALIDATION: IF URL points to domain root → mark ⁕ (CLAIMED), not ✦ (CONFIRMED).
+   VALIDATION: IF URL points to domain root → mark ⁅ (gap), not ✦ (CONFIRMED).
 11 CAUSALITY        PELOTE — recursive backward tracing of systemic mechanisms
    ◆ IDENTIFY: name the mechanisms driving this event
      (e.g., "State monopoly on X", "Regulatory capture", "Opacity by design").
@@ -130,8 +130,10 @@ MANIPULATION_REPORT:
             once. If still nothing: mark link as ⁅ (unverified gap) and continue.
           → PRECISION: the URL must point to the SPECIFIC page documenting that
             law/event, NOT a domain root. If @WEB returns a homepage URL
-            (e.g. legifrance.gouv.fr/), search more specifically until you get
-            the exact page URL. A root URL = no URL.
+            (e.g. legifrance.gouv.fr/), reformulate once (2 attempts max).
+            If still no specific page URL → mark ⁅ (gap).
+            → After @FETCH, verify the response contains the actual document
+            (law text, specific article), not a navigation/search page.
        3. RECORD: the discovered precedent becomes the new CURRENT node.
        4. STOP if: max depth reached | hit a root cause (constitutional paradigm shift,
           nationwide nationalization wave, founding law of the State structure).
