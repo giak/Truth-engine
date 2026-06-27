@@ -117,7 +117,7 @@ MANIPULATION_REPORT:
 11 CAUSALITY        PELOTE 5Q algorithm per systemic fil (A-L)
    ◆ IDENTIFY: which fils (A-L) does this event activate?
      → 1-line justification per fil using M## reference.
-     → Reference: @READ[../investigations/2026-06-25_fresque_systemique/03_framework/2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md]
+     → Reference: @READ[definitions/FILS.md]
    ◆ PELOTE per fil (execute for each activated fil):
      T-1 (0-10 ans) : last event/law/institution that enabled this mechanism?
      T-2 (10-50 ans): what enabled T-1?
@@ -234,7 +234,7 @@ APEX additionally: CAUSALITY ≥3 | IMPACT 4 matrices | CROSS_VERIFY ≥2
 @READ[search/EPISTEMIC.md]  @READ[search/TEMPLATES.md]  @READ[search/OPTIMIZATION.md]
 @READ[forensic/REASONING.md]  @READ[forensic/REQUEST_LOG.md]  @READ[forensic/GATES.md]
 @READ[tools/MACROS.md]  @READ[tools/DSL.md]  @READ[output/TEMPLATE.md]
-@READ[../investigations/2026-06-25_fresque_systemique/03_framework/2026-06-26_archives_fils_actes_fondateurs_REFERENCE.md]  (fils A-L + actes fondateurs + M##)
+@READ[definitions/FILS.md]  (fils A-L + actes fondateurs + M##)
 ```
 
 ---
