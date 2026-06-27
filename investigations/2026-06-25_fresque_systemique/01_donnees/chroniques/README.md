@@ -63,60 +63,40 @@ Chaque fichier `YYYY_DIM.md` suit ce format strict :
 
 ## Comment ajouter un événement
 
-**Utiliser l'outil CLI** `tools/enrich_chronique.py` (voir `PROTOCOLE_ENRICHISSEMENT.md` pour la méthode complète).
+Voir `PROTOCOLE_ENRICHISSEMENT.md` pour la méthode complète (AFP-compliant : pas de script, le LLM écrit directement).
 
-### Cas simple (année unique)
+### Principes
 
-```bash
-python3 tools/enrich_chronique.py 2024_SOC.md "| 2024 | SOC | Description précise | ⚠ |"
-```
+1. **Lire** le fichier cible `chroniques/AAAA/AAAA_DIM.md` — ou le créer s'il n'existe pas (template ci-dessous)
+2. **Vérifier** que le fait n'est pas déjà présent (déduplication sémantique)
+3. **Ajouter** la ligne à la fin du tableau, AVANT la ligne vide finale
+4. **Mettre à jour** le compteur dans l'en-tête (`> N événement(s)`)
 
-L'outil gère : création du dossier si besoin, template correct (accents, format), détection des doublons, mise à jour du compteur en en-tête.
+### Template si le fichier n'existe pas
 
-### Si le fichier n'existe pas
+```markdown
+# Chronique AAAA — Dimension DIM
 
-Même commande, l'outil crée le dossier et le fichier automatiquement :
+> Fait atomique extrait de l'HYPER-MATRICE FRANCE 1975-2026.
+> 0 événement(s) classé(s) dans la dimension DIM pour l'année AAAA.
 
-```bash
-python3 tools/enrich_chronique.py 1945_DIP.md "| 1945-12-26 | DIP | Création du franc CFA | ❌ |"
+| Année | Dimension | Description | Code |
+|---|---|---|---|
 ```
 
 ### Si l'année est une plage (ex: 2020-2024)
 
-**Plage courte (≤ 5 ans) :** ranger le fait dans le dossier de l'année de fin, utiliser la plage dans la colonne Année :
+**Plage courte (≤ 5 ans) :** ranger le fait dans le dossier de l'année de fin (`2024/`), utiliser la plage dans la colonne Année.
 
-```bash
-python3 tools/enrich_chronique.py 2024_SANT.md "| 2020-2024 | SANT | Sous-financement cumulé Ségur : 1,7 Md€ | ❌ |"
-```
+**Plage longue (> 5 ans ou décennie complète) :** ajouter dans `plages_annees.md`.
 
-→ Plage dans la colonne Année (`2020-2024`), fichier dans le dossier de l'année de fin (`2024/`).
+### Si un rapport révèle un fait passé
 
-**Plage longue (> 5 ans ou décennie complète) :** ajouter dans `plages_annees.md` comme avant.
-
-```bash
-python3 tools/enrich_chronique.py --file plages_annees.md "| 1980-2000 | SANT | Évolution du système de santé | ⚠ |"
-```
-
-→ L'outil enrich_chronique.py gère aussi `plages_annees.md` avec `--file`.
-
-### Si un rapport révèle un fait passé (cas fréquent)
-
-**Deux lignes :** une pour le fait historique (plage d'années), une pour la révélation (année du rapport).
-
-```bash
-# Ligne historique : dans le dossier de l'année de fin
-python3 tools/enrich_chronique.py 2024_SANT.md "| 2020-2024 | SANT | Sous-financement cumulé Ségur : 1,7 Md€ | ❌ |"
-
-# Ligne révélation : dans le dossier de l'année du rapport
-python3 tools/enrich_chronique.py 2026_SANT.md "| 2026 | SANT | Rapport IGAS révèle le sous-financement Ségur de 1,7 Md€ (18 fév 2026) | ❌ |"
-```
+**Deux lignes :** une pour le fait historique (plage), une pour la révélation (année du rapport).
 
 ### Après modification
 
-(Optionnel) Ajouter la même ligne dans le fichier maître :
-`01_donnees/2026-06-25_17-00_france_1975-2026_HYPER_MATRICE_UNIFIEE.md`
-
-L'outil enrich_chronique.py met à jour le fichier chronique. Le fichier maître est une copie de consolidation — utile si tu veux garder l'hyper-matrice synchronisée, mais pas nécessaire pour le fonctionnement des chroniques.
+(Optionnel) Ajouter la même ligne dans le fichier maître HYPER_MATRICE_UNIFIEE.
 
 ---
 

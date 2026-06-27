@@ -4,6 +4,8 @@ Chroniques = fichiers `chroniques/AAAA/AAAA_DIM.md` qui listent les événements
 
 L'idée : quand on lit une investigation, on peut en extraire des faits qui ne sont pas encore dans les chroniques, ou corriger des faits qui y sont mais avec des chiffres erronés.
 
+**AFP (Anti-Fausse-Précision) :** ce protocole suit la règle AFP — pas de script déterministe qui parse du texte LLM. Le LLM fait l'extraction ET l'écriture directement.
+
 ---
 
 ## La démarche en 4 questions
@@ -42,7 +44,7 @@ Une fois la liste complète :
 - **Ignorer** : le fait est trop vieux, trop granulaire, ou déjà présent → ne rien faire
 
 Pour chaque fait, décider :
-- **Année** : l'année du fait (extraite du contexte), pas celle du document. 
+- **Année** : l'année du fait (extraite du contexte), pas celle du document.
   - Si le fait couvre plusieurs années (ex: sous-financement 2020-2024) → utiliser la plage dans la colonne Année (`2020-2024`) et ranger le fichier dans le dossier de l'année de fin (`2024/2024_SANT.md`).
   - Si le fait est révélé par un rapport (ex: rapport IGAS 2026 qui révèle un sous-financement 2020-2024) → **deux lignes** : une pour le fait historique avec la plage d'années, une pour la révélation (année du rapport). Les deux événements sont distincts, les deux méritent une entrée.
 - **Dimension** : POL, ECO, SOC, JUR, SANT, EDU, AGR, ENV, TEC, CUL, IMM, SPO, REL, DEMO, TRA, MIL, SCI, DIP, MED, TER. Si ambigu → contexte.
@@ -56,35 +58,66 @@ Pour chaque fait, décider :
 
 ---
 
-## Ajouter dans les chroniques (la mécanique)
+## Ajouter dans les chroniques (AFP-compliant)
 
-Une fois les faits catégorisés, utiliser l'outil CLI **`tools/enrich_chronique.py`** pour les insérer. Il gère automatiquement : création des dossiers, template correct, détection des doublons, mise à jour du compteur.
+Ne pas utiliser de script. Le LLM ajoute les faits **directement** dans les fichiers, en respectant scrupuleusement le format.
 
-**Limite de l'outil :** il ajoute des lignes, il n'en supprime pas. Si tu dois splitter une ligne en deux (ex: séparer exécution 2025 et jugement CC 2026), ou déplacer une ligne d'une année à l'autre, édite le fichier à la main et **n'oublie pas de recalculer le compteur dans l'en-tête**.
+### Ou trouver le fichier
 
-```bash
-# Ajout simple
-python3 tools/enrich_chronique.py 2026_DIP.md "| 2026-05-10 | DIP | Macron à Nairobi : pré carré terminé | ❌ |"
+Les chroniques sont dans `chroniques/AAAA/AAAA_DIM.md`. Exemple : `chroniques/2024/2024_SOC.md`.
 
-# Ajout multiple (un argument par fait)
-python3 tools/enrich_chronique.py 2026_DIP.md \
-  "| 2026-05-10 | DIP | Macron : pre carre termine | ❌ |" \
-  "| 2026-05-11 | DIP | Africa Forward 23 MdE | ❌ |"
+### Format attendu d'une ligne
 
-# Créer un nouveau fichier (crée le dossier si besoin)
-python3 tools/enrich_chronique.py 1945_DIP.md "| 1945-12-26 | DIP | Creation CFA | ❌ |"
-
-# Mode stdin (pratique pour plusieurs faits)
-python3 tools/enrich_chronique.py --stdin < liste_faits.txt
+```
+| Année | Dimension | Description | Code |
 ```
 
-**Pourquoi utiliser l'outil plutôt qu'éditer à la main ou écrire un script :**
-- Pas d'erreur d'accent (les pièges `Annee`/`Année`, `evenement`/`événement` sont gérés)
-- Pas d'oubli de création de dossier
-- Pas de script Python à débugger
-- Le compteur est automatiquement recalculé
+Règles :
+- La description commence par une majuscule, pas de point final
+- Pas de pipe `|` dans la description (échapper ou reformuler)
+- Année dans la 1ʳᵉ colonne = année du fichier (sauf plage)
+- Code : ❌ ⚠ ✅ 💀
 
-**Ne PAS** éditer les fichiers chroniques à la main ou écrire un script Python custom à chaque fois. C'est le piège numéro 1.
+### Procédure
+
+Pour ajouter un fait :
+
+1. **Lire** le fichier cible (`chroniques/AAAA/AAAA_DIM.md`) — ou le créer s'il n'existe pas
+2. **Vérifier** que le fait n'est pas déjà présent (déduplication sémantique, pas regex)
+3. **Ajouter** la ligne à la fin du tableau, AVANT la ligne vide finale
+4. **Mettre à jour** le compteur dans l'en-tête : remplacer `> N événement(s)` par le nouveau total
+
+### Template si le fichier n'existe pas
+
+```markdown
+# Chronique AAAA — Dimension DIM
+
+> Fait atomique extrait de l'HYPER-MATRICE FRANCE 1975-2026.
+> 0 événement(s) classé(s) dans la dimension DIM pour l'année AAAA.
+
+| Année | Dimension | Description | Code |
+|---|---|---|---|
+```
+
+Puis ajouter la 1ʳᵉ ligne et changer `0 événement(s)` en `1 événement(s)`.
+
+### Piège : le sens des lignes
+
+- L'en-tête est une ligne de commentaire (`> ...`)
+- La ligne de séparation est `|---|---|---|---|`
+- Les données commencent après
+- Ne pas compter l'en-tête ni le séparateur comme des données
+
+### Cas plage d'années
+
+Si le fait couvre plusieurs années (ex: 2020-2024) :
+- Ranger le fichier dans le dossier de l'année de fin : `2024/2024_SANT.md`
+- Mettre la plage dans la colonne Année : `| 2020-2024 | SANT | ...`
+- Si c'est une révélation (ex: rapport 2026 qui révèle un fait 2020-2024) → deux entrées séparées
+
+### Vérification
+
+Après chaque enrichissement, relire le fichier modifié et compter mentalement les lignes de données pour confirmer que le compteur est correct.
 
 ---
 
@@ -104,7 +137,7 @@ python3 tools/enrich_chronique.py --stdin < liste_faits.txt
 2025 | 500+ portes tournantes documentées (2022-2025) | ?
 ```
 
-**Q3 — Opération :** 31 faits nouveaux → ajout dans `chroniques/AAAA/AAAA_DIM.md` (14 fichiers, de 2017 à 2026). 4 exclus (DICOM 2010 obsolètes, création SIG 1963 non datable).
+**Q3 — Opération :** Le LLM écrit directement chaque fait dans le fichier chronique correspondant, en vérifiant le format, le compteur et les doublons.
 
 **Q4 — Apport :** 31 nouveaux faits sur la communication d'État (budgets, effectifs, pantouflage) qui n'étaient pas couverts.
 
@@ -112,15 +145,15 @@ python3 tools/enrich_chronique.py --stdin < liste_faits.txt
 
 ## Exemple 2 — Correction d'erreur factuelle
 
-**Document :** investigations GJ (lors de l'enrichissement des chroniques GJ)
+**Document :** investigations GJ
 
 **Q1 — Type :** Les chroniques existaient déjà, l'enquête GJ a révélé une erreur.
 
 **Q2 — Extraction :** Pas de nouveau fait, mais une incohérence : les chroniques disaient « 89 morts, 2 500 blessés, 15 000 gardes à vue ».
 
-**Q3 — Opération :** Vérification → le vrai bilan GJ 2018-2019 est « 11 morts, 2 448 blessés, 12 107 interpellations ». **Remplacer** la ligne erronée par la ligne corrigée.
+**Q3 — Opération :** Le LLM lit le fichier chronique, repère la ligne erronée, la remplace par la ligne corrigée. Vérifie que le compteur reste inchangé (même nombre de lignes).
 
-**Q4 — Apport :** Correction d'une erreur factuelle propagée (89 → 11 morts). Le chiffre « 89 » était une rumeur non vérifiée passée dans les chroniques.
+**Q4 — Apport :** Correction d'une erreur factuelle propagée (89 → 11 morts).
 
 ---
 
@@ -130,28 +163,24 @@ python3 tools/enrich_chronique.py --stdin < liste_faits.txt
 
 **Q1 — Type :** APEX. Registry structuré avec 45 faits F-CIV-XXX, années, descriptions, URLs.
 
-**Q2 — Extraction :** 45 faits extraits du registry (structuré, facile).
+**Q2 — Extraction :** 45 faits extraits du registry.
 
-**Q3 — Opération :** Vérification contre les chroniques MED/POL/ECO 2024-2026 → tous les faits sont déjà présents. 0 ajout.
+**Q3 — Opération :** Le LLM vérifie chaque fait contre les chroniques MED/POL/ECO 2024-2026 existantes. 0 ajout — tous déjà présents.
 
-**Q4 — Apport :** Validation : les chroniques MED sont exhaustives pour 2024-2026. Pas d'ajout nécessaire.
+**Q4 — Apport :** Validation : les chroniques sont exhaustives sur ce périmètre.
 
 ---
 
-## Pièges fréquents (tirés des tests réels)
+## Pièges fréquents
 
-| Situation | Ce qui s'est passé | À faire |
-|-----------|-------------------|---------|
-| Scanner de vérification trop agressif | Tous les faits déclarés « déjà présents » à cause d'une normalisation trop forte | Vérifier ligne par ligne, pas par mots-clés |
-| Dimensions oubliées | Faits classés absents… dans la mauvaise dimension | Scanner les 20 dimensions |
-| Année du document au lieu de l'année du fait | Fait de 2017 assigné à 2026 | Lire le paragraphe, extraire l'année du contexte |
-| plages_annees.md ignoré | Faits sur 4 ans sans dossier | Vérifier plages_annees.md en parallèle |
-| Chiffre non vérifié | « 89 morts GJ » reproduit sans fact-check | Croiser les sources avant d'ajouter ou corriger |
-| **Accent mismatch dans les fichiers créés** | Template `Annee` (sans accent) ≠ compteur cherche `Année` (avec) → ligne d'en-tête comptée comme donnée → compteur gonflé de 1 | Quand tu crées un fichier, utilise EXACTEMENT le même format que les fichiers existants : accents, em dash (—), majuscules. Le moindre écart casse le compteur. |
-| **update_header regex incompatible** | Regex cherche `événement` (accentué) mais le template écrit `evenement` (sans) → la mise à jour du compteur échoue silencieusement | Le pattern dans le template et la regex de mise à jour doivent être identiques caractère pour caractère. |
-| **Année non vérifiée** (test SANT) | Faits sur 2020-2024 assignés à 2026 (année du rapport) au lieu de la plage `2020-2024` → l'utilisateur a dû corriger | Année = année du fait, pas du document. Si plage => `2020-2024` dans colonne Année, fichier rangé dans dossier de l'année de fin. Si révélation => deux lignes. |
-| **Détail absorbé par une ligne agrégée** (test SANT) | La ligne « 457 M€ + 1,1 Md€ + 137 M€ » a été ajoutée comme un bloc → le 137 M€ a été oublié dans les lignes historiques | Quand un fait APEX agrège plusieurs sous-faits, les extraire UN PAR UN. Chaque composante mérite sa propre ligne. |
-| **Outil CLI ne gère pas les splits** (test SANT) | Pour déplacer « 250-300 jours » de 2025 vers 2026, impossible avec enrich_chronique.py seul → édition manuelle + correction du compteur | L'outil ajoute, ne supprime pas. Pour les splits, faire l'édition à la main ET recalculer le compteur. |
+| Situation | À faire |
+|-----------|---------|
+| Scanner de vérification trop agressif | Vérifier ligne par ligne, pas par mots-clés |
+| Dimensions oubliées | Scanner les 20 dimensions |
+| Année du document au lieu de l'année du fait | Lire le paragraphe, extraire l'année du contexte |
+| Chiffre non vérifié | Croiser les sources avant d'ajouter |
+| Compteur non mis à jour | Relire le fichier après ajout, compter les lignes |
+| Doublon non détecté | Lire le fichier avant d'ajouter, vérifier sémantiquement |
 
 ---
 
@@ -161,8 +190,8 @@ python3 tools/enrich_chronique.py --stdin < liste_faits.txt
 
 4 questions dans l'ordre : **type ? → faits ? → opération ? → apport ?**
 
-Quand tu hésites, regarde le contexte dans l'investigation, pas dans le protocole.
+Le LLM fait l'écriture directement, sans script intermédiaire. C'est plus simple, plus fiable, et conforme AFP.
 
-**Règle d'or sur l'année :** l'année du fait, pas du document. Si le fait couvre N années, la colonne Année contient la plage. Si le fait est révélé par un rapport, deux lignes : historique (plage) + révélation (année).
+**Règle d'or sur l'année :** l'année du fait, pas du document.
 
-**Règle d'or sur la granularité :** un sous-fait = une ligne. Ne pas agréger plusieurs sous-faits dans une même description, même s'ils sont dans la même phrase du registry.
+**Règle d'or sur la granularité :** un sous-fait = une ligne. Ne pas agréger.
