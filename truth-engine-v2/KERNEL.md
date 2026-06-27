@@ -35,7 +35,7 @@ SEARCH PRIORITY (investigations):
   3. @FETCH   → direct URL, no rate limit
   4. @EXA     → Exa MCP — LAST RESORT, rate-limited (429 = exhausted)
 RULE: Exhaust 1→3 before touching 4.
-RULE: IF @EXA returns 429 → STOP using Exa, continue with @WEB/@FETCH only.chaine causale, pelote de laine, tiré dans un plat de spaghétit
+RULE: IF @EXA returns 429 → STOP using Exa, continue with @WEB/@FETCH only.
 RULE: NEVER retry same query on Exa after 429.
 
 ══════════════════════════════════════
@@ -122,12 +122,12 @@ MANIPULATION_REPORT:
      T-1 (0-10 ans) : last event/law/institution that enabled this mechanism?
      T-2 (10-50 ans): what enabled T-1?
      T-3 (50+ ans) : what enabled T-2?
-     Acte fondateur : root cause (target: before 1800, unless modern fil I/L)
-     Vérification   : does the acte fondateur have an antecedent? If yes → recurse.
+     Founding act : root cause (target: before 1800, unless modern fil I/L)
+     Verification  : does the founding act have an antecedent? If yes → recurse.
      Format: [AAAA] event — mechanism(M##) — source URL ✦✧⁅❧
    ◆ WEAVE: merge N chains into ONE causal narrative.
-     « De [AAAA] à aujourd'hui — comment l'événement est le produit de
-       N siècles de verrouillage systémique par les fils {X, Y, Z} »
+     « From [AAAA] to today — how this event is the product of
+       N centuries of systemic lock-in by fils {X, Y, Z} »
    ⊙ MIN: 2 fils × 5 links each. APEX: 5 fils × 5+ links.
    ⊙ Cross-domain minimum: 1 fil spans ≥2 domains.
 12 IMPACT (part of DIALECTICAL MAP) Qui gagne / perd / meurt / recule (≥1 number each)
