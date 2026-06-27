@@ -35,7 +35,7 @@ SEARCH PRIORITY (investigations):
   3. @FETCH   → direct URL, no rate limit
   4. @EXA     → Exa MCP — LAST RESORT, rate-limited (429 = exhausted)
 RULE: Exhaust 1→3 before touching 4.
-RULE: IF @EXA returns 429 → STOP using Exa, continue with @WEB/@FETCH only.
+RULE: IF @EXA returns 429 → STOP using Exa, continue with @WEB/@FETCH only.chaine causale, pelote de laine, tiré dans un plat de spaghétit
 RULE: NEVER retry same query on Exa after 429.
 
 ══════════════════════════════════════
