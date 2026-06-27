@@ -49,6 +49,14 @@
 | **⁂** | Speculation | Quality | Explicit hypothesis, logical inference |
 | **⚑** | Orchestration | Red flag | Temporal sync <12h, vocab identical, cui bono, suppression |
 
+**RÈGLE DE DÉCLASSEMENT (agences de contrôle narratif) :**
+Les agences étatiques de contrôle narratif (Viginum, Désinfotv, etc.)
+sont classées ○ (tertiaire) par défaut, PAS ◉ (secondaire).
+Leur parole sur une cible DOIT être vérifiée comme une source partisane.
+Confiance max initiale : 0.40 (au lieu de 0.75 pour ◉).
+Ne peuvent monter en ✧ que si leur méthodologie est publique ET vérifiée
+via @FETCH du rapport original ET confirmation par une source indépendante.
+
 ---
 
 ## §3 FACTUAL SYMBOLS
