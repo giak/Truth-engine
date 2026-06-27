@@ -163,8 +163,16 @@ MANIPULATION_REPORT:
           founding law of State structure, paradigm with no distinct prior enabler).
           → SELF-CHECK: could this root have a democratic/legal antecedent?
           If in doubt, one more @WEB before stopping.
+     → VERIFY DEPTH: after the LOOP, count links in this tree.
+       Count: [YYYY] EVENT → T-1 → T-2 → ... → T-N = N links.
+       If N < 3 → return to LOOP. The LLM MUST search for at least one
+       more intermediate node between T-1 and T-2, or between T-2 and T-ROOT.
+       Never accept a tree with N < 3 links.
 
    ◆ FORMAT — hierarchical causal tree (indent = depth):
+     ALL mechanisms trace from the SAME root node: [YYYY] EVENT.
+     Never use different dates for different mechanisms.
+     The first branching link must have a DIFFERENT date than [YYYY].
      [YYYY] EVENT — mechanism active
        └ [YYYY] T-1: direct enabler/law — source URL ✦
           └ [YYYY] T-2: prior precedent — source URL ✦
@@ -184,11 +192,20 @@ MANIPULATION_REPORT:
           or enabling law → the fact is NOT explained.
           Example: Travenol 1983 refusal. Chain "1952→1945→1791" has NO Travenol
           node → fact NOT explained. Missing mechanism: "Pasteur test rivalry / LFB industrial pressure".
+        → CROSS-CHECK: the coverage table must ONLY reference nodes that
+          EXIST in the trees. If a fact is claimed explained by a mechanism,
+          that mechanism's tree must contain a node mentioning the fact's
+          institution/law. If no such node exists → INVALID coverage claim.
+          Return to PHASE 1 or PHASE 3 to add the missing node.
+          Example: claiming fact "1791 Le Chapelier" is explained by Mechanism 2
+          when Mechanism 2's tree stops at 1941 → INVALID. The tree must
+          explicitly trace to 1791.
         → If ≥1 fact is NOT explained → return to PHASE 1 (max 2 times) with
           specific query: @WEB["{unexplained fact} cause"] to find the missing mechanism.
           If after 2 attempts a fact remains unexplained → mark it ⁅
           (unexplained gap) in the registry and continue.
-        → Record: "COVERAGE: N/N facts explained. Gaps: [fact # reasons]"
+        → Record: "COVERAGE: N/N facts explained. Gaps: [fact # reasons]".
+          Include the CROSS-CHECK result: "CROSS-CHECK: all claims validated against trees ✓"
 
    ⊙ MIN: 2 distinct mechanisms in output, each ≥3 links deep. APEX: 4+ mechanisms, each ≥5 deep.
    ⊙ Every link MUST have a verified URL (specific page, not domain root).
