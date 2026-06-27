@@ -114,29 +114,35 @@ MANIPULATION_REPORT:
    RÈGLE: CHAQUE fait DOIT avoir une URL source. Si pas d'URL directe → URL de la page de recherche @WEB.
    RÈGLE: Les URLs doivent être cliquables. Jamais de "source" sans URL.
    VALIDATION: IF URL inaccessible → mark ⁕ (CLAIMED), not ✦ (CONFIRMED).
-11 CAUSALITY        PELOTE 5Q — recursive causal tracing WITH web research
-   ◆ IDENTIFY: which systemic mechanisms are active in this event?
-     → For each mechanism, name the pattern it reveals
-       (e.g., "State monopoly", "Regulatory capture", "Civic atrophy").
-     → The fil IS the pattern. It emerges from tracing, not a catalog.
-   ◆ PELOTE per fil (execute for each mechanism identified):
-     T-1 (0-10 ans) : last event/law/institution that enabled this mechanism?
-       → @WEB["{mechanism} {event} cause origin 19XX"] → @FETCH best result
-     T-2 (10-50 ans): what enabled T-1?
-       → @WEB["{T-1 event} historical origin 18XX 19XX"] → @FETCH best result
-     T-3 (50+ ans) : what enabled T-2?
-       → @WEB["{T-2 event} antecedents 17XX 18XX"] → @FETCH best result
-     Founding act : root cause (target: before 1800, unless mechanism is modern)
-       → @WEB["{mechanism} founding law doctrine origin 17XX 18XX"] → @FETCH
-     Verification  : does the founding act have an antecedent? If yes → recurse.
-       → @WEB["{founding act} antecedents earlier law"] → @FETCH
-     Format: [AAAA] event — mechanism — source URL ✦✧⁅❧
-   ◆ WEAVE: merge N chains into ONE causal narrative.
-     « From [AAAA] to today — how this event is the product of
-       N centuries of systemic lock-in by {fil_1, fil_2, ...} »
-   ⊙ MIN: 2 mechanisms × 5 links each. APEX: 5 mechanisms × 5+ links.
-   ⊙ Cross-domain minimum: 1 mechanism spans ≥2 domains.
-   ⊙ Each Pelote link MUST have a verified URL. Never hallucinate a chain link.
+11 CAUSALITY        PELOTE — recursive backward tracing of systemic mechanisms
+   ◆ IDENTIFY: name the mechanisms driving this event
+     (e.g., "State monopoly on X", "Regulatory capture", "Opacity by design").
+   ◆ TRACE each mechanism backward — no rigid time windows, follow the lineage:
+     START: CURRENT node = the first law/institution that embodied this mechanism.
+     LOOP (max depth 6):
+       1. HYPOTHESIS: what direct legal/institutional precedent enabled the CURRENT node?
+       2. SEARCH: @WEB["{searchable name of CURRENT node} création OR origine OR loi OR décret"]
+          → Adapt language to the event's country (French events → French queries).
+          → @FETCH the best result. Prefer the law/décret that directly created
+            or restructured the institution. If search returns noise, reformulate
+            once. If still nothing: mark link as ⁅ (unverified gap) and continue.
+       3. RECORD: the discovered precedent becomes the new CURRENT node.
+       4. STOP if: max depth reached | hit a root cause (constitutional paradigm shift,
+          nationwide nationalization wave, founding law of the State structure).
+          → SELF-CHECK: could this root plausibly have a democratic/legal antecedent?
+          If in doubt, do one more @WEB to verify before stopping.
+   ◆ FORMAT — hierarchical causal tree (indent = depth):
+     [YYYY] EVENT — mechanism active
+       └ [YYYY] T-1: direct enabler/law — source URL ✦
+          └ [YYYY] T-2: prior precedent — source URL ✦
+             └ [YYYY] T-ROOT: founding paradigm — source URL ✦
+   ◆ WEAVE: merge the N trees. Identify COMMON ANCESTORS where chains converge.
+     If chains do NOT converge, note their independence — parallel systemic
+     failures, not one unified lock-in.
+     Produce ONE narrative: « From [ROOT] to today — how [EVENT] is the endpoint
+       of systemic lock-in via {mechanism_1, mechanism_2, ...} converging at [COMMON_ANCESTOR] »
+   ⊙ MIN: 2 mechanisms, each ≥3 links deep. APEX: 4+ mechanisms, each ≥5 deep.
+   ⊙ Every link MUST have a verified URL. Never hallucinate a chain link.
 12 IMPACT (part of DIALECTICAL MAP) Qui gagne / perd / meurt / recule (≥1 number each)
 13 VERIFICATION     ≥2 domains, contradictions, fact upgrades
  14 OUTPUT           investigation FR
