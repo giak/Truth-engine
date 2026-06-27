@@ -34,7 +34,7 @@
 | **◈** | Primary | Raw evidence | Documents, leaks, court files, FOIA (confidence: 0.90-0.95) |
 | **◉** | Secondary | Investigation | Investigative journalism, academic research (confidence: 0.75-0.85) |
 | **○** | Tertiary | Mainstream | MSM, aggregators, opinion (confidence: 0.40-0.70) |
-| | | *Agences État contrôle narratif* | *Voir RÈGLE DE DÉCLASSEMENT ci-dessous* |
+| | | *State narrative control agencies* | *See DOWNGRADE RULE below* |
 | **⊕** | Confirmed | Corroboration | ≥2 sources ◈ or ≥3 sources ◉ concordant |
 | **⊗** | Contradicted | Refutation | ≥2 sources ◈ contradict, pattern violations |
 | **⊙** | Partial | Mixed | Some elements confirmed, others contested |
@@ -50,13 +50,13 @@
 | **⁂** | Speculation | Quality | Explicit hypothesis, logical inference |
 | **⚑** | Orchestration | Red flag | Temporal sync <12h, vocab identical, cui bono, suppression |
 
-**RÈGLE DE DÉCLASSEMENT (agences de contrôle narratif) :**
-Les agences étatiques de contrôle narratif (Viginum, Désinfotv, etc.)
-sont classées ○ (tertiaire) par défaut, PAS ◉ (secondaire).
-Leur parole sur une cible DOIT être vérifiée comme une source partisane.
-Confiance max initiale : 0.40 (au lieu de 0.75 pour ◉).
-Ne peuvent monter en ✧ que si leur méthodologie est publique ET vérifiée
-via @FETCH du rapport original ET confirmation par une source indépendante.
+**DOWNGRADE RULE (narrative control agencies):**
+State narrative control agencies (Viginum, Désinfotv, etc.)
+are classified as ○ (tertiary) by default, NOT ◉ (secondary).
+Their word about a target MUST be verified as a partisan source.
+Initial max confidence: 0.40 (instead of 0.75 for ◉).
+Can only upgrade to ✧ if their methodology is public AND verified
+via @FETCH of the original report AND confirmation by an independent source.
 
 ---
 
