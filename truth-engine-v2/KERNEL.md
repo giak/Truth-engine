@@ -114,23 +114,29 @@ MANIPULATION_REPORT:
    RÈGLE: CHAQUE fait DOIT avoir une URL source. Si pas d'URL directe → URL de la page de recherche @WEB.
    RÈGLE: Les URLs doivent être cliquables. Jamais de "source" sans URL.
    VALIDATION: IF URL inaccessible → mark ⁕ (CLAIMED), not ✦ (CONFIRMED).
-11 CAUSALITY        PELOTE 5Q — recursive causal tracing
+11 CAUSALITY        PELOTE 5Q — recursive causal tracing WITH web research
    ◆ IDENTIFY: which systemic mechanisms are active in this event?
      → For each mechanism, name the pattern it reveals
        (e.g., "State monopoly", "Regulatory capture", "Civic atrophy").
      → The fil IS the pattern. It emerges from tracing, not a catalog.
    ◆ PELOTE per fil (execute for each mechanism identified):
      T-1 (0-10 ans) : last event/law/institution that enabled this mechanism?
+       → @WEB["{mechanism} {event} cause origin 19XX"] → @FETCH best result
      T-2 (10-50 ans): what enabled T-1?
+       → @WEB["{T-1 event} historical origin 18XX 19XX"] → @FETCH best result
      T-3 (50+ ans) : what enabled T-2?
+       → @WEB["{T-2 event} antecedents 17XX 18XX"] → @FETCH best result
      Founding act : root cause (target: before 1800, unless mechanism is modern)
+       → @WEB["{mechanism} founding law doctrine origin 17XX 18XX"] → @FETCH
      Verification  : does the founding act have an antecedent? If yes → recurse.
+       → @WEB["{founding act} antecedents earlier law"] → @FETCH
      Format: [AAAA] event — mechanism — source URL ✦✧⁅❧
    ◆ WEAVE: merge N chains into ONE causal narrative.
      « From [AAAA] to today — how this event is the product of
        N centuries of systemic lock-in by {fil_1, fil_2, ...} »
    ⊙ MIN: 2 mechanisms × 5 links each. APEX: 5 mechanisms × 5+ links.
    ⊙ Cross-domain minimum: 1 mechanism spans ≥2 domains.
+   ⊙ Each Pelote link MUST have a verified URL. Never hallucinate a chain link.
 12 IMPACT (part of DIALECTICAL MAP) Qui gagne / perd / meurt / recule (≥1 number each)
 13 VERIFICATION     ≥2 domains, contradictions, fact upgrades
  14 OUTPUT           investigation FR
