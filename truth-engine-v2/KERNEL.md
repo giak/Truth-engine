@@ -113,7 +113,9 @@ MANIPULATION_REPORT:
     FORMAT: | # | Fait | Date | Acteur | Chiffre | Source | URL | Fiabilité |
    RÈGLE: CHAQUE fait DOIT avoir une URL source. Si pas d'URL directe → URL de la page de recherche @WEB.
    RÈGLE: Les URLs doivent être cliquables. Jamais de "source" sans URL.
+   RÈGLE: URL précise (page spécifique du document/loi/événement, pas la racine du domaine).
    VALIDATION: IF URL inaccessible → mark ⁕ (CLAIMED), not ✦ (CONFIRMED).
+   VALIDATION: IF URL points to domain root → mark ⁕ (CLAIMED), not ✦ (CONFIRMED).
 11 CAUSALITY        PELOTE — recursive backward tracing of systemic mechanisms
    ◆ IDENTIFY: name the mechanisms driving this event
      (e.g., "State monopoly on X", "Regulatory capture", "Opacity by design").
@@ -126,6 +128,10 @@ MANIPULATION_REPORT:
           → @FETCH the best result. Prefer the law/décret that directly created
             or restructured the institution. If search returns noise, reformulate
             once. If still nothing: mark link as ⁅ (unverified gap) and continue.
+          → PRECISION: the URL must point to the SPECIFIC page documenting that
+            law/event, NOT a domain root. If @WEB returns a homepage URL
+            (e.g. legifrance.gouv.fr/), search more specifically until you get
+            the exact page URL. A root URL = no URL.
        3. RECORD: the discovered precedent becomes the new CURRENT node.
        4. STOP if: max depth reached | hit a root cause (constitutional paradigm shift,
           nationwide nationalization wave, founding law of the State structure).
@@ -145,7 +151,8 @@ MANIPULATION_REPORT:
      Produce ONE narrative: « From [ROOT] to today — how [EVENT] is the endpoint
        of systemic lock-in via {mechanism_1, mechanism_2, ...} converging at [COMMON_ANCESTOR] »
    ⊙ MIN: 2 mechanisms, each ≥3 links deep. APEX: 4+ mechanisms, each ≥5 deep.
-   ⊙ Every link MUST have a verified URL. Never hallucinate a chain link.
+   ⊙ Every link MUST have a verified URL (specific page, not domain root).
+   ⊙ Never hallucinate a chain link. If no specific URL found → mark ⁅ and note the gap.
 12 IMPACT (part of DIALECTICAL MAP) Qui gagne / perd / meurt / recule (≥1 number each)
 13 VERIFICATION     ≥2 domains, contradictions, fact upgrades
  14 OUTPUT           investigation FR
