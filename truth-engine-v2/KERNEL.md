@@ -139,6 +139,9 @@ MANIPULATION_REPORT:
    ◆ WEAVE: merge the N trees. Identify COMMON ANCESTORS where chains converge.
      If chains do NOT converge, note their independence — parallel systemic
      failures, not one unified lock-in.
+     → CAUSAL COHERENCE: read the chain. Does each link EXPLAIN how the next
+       became possible, or does it merely note it happened earlier?
+       If the latter → mark ⁅ and note the gap.
      Produce ONE narrative: « From [ROOT] to today — how [EVENT] is the endpoint
        of systemic lock-in via {mechanism_1, mechanism_2, ...} converging at [COMMON_ANCESTOR] »
    ⊙ MIN: 2 mechanisms, each ≥3 links deep. APEX: 4+ mechanisms, each ≥5 deep.
