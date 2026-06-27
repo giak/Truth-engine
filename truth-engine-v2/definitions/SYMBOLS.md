@@ -34,6 +34,7 @@
 | **◈** | Primary | Raw evidence | Documents, leaks, court files, FOIA (confidence: 0.90-0.95) |
 | **◉** | Secondary | Investigation | Investigative journalism, academic research (confidence: 0.75-0.85) |
 | **○** | Tertiary | Mainstream | MSM, aggregators, opinion (confidence: 0.40-0.70) |
+| | | *Agences État contrôle narratif* | *Voir RÈGLE DE DÉCLASSEMENT ci-dessous* |
 | **⊕** | Confirmed | Corroboration | ≥2 sources ◈ or ≥3 sources ◉ concordant |
 | **⊗** | Contradicted | Refutation | ≥2 sources ◈ contradict, pattern violations |
 | **⊙** | Partial | Mixed | Some elements confirmed, others contested |

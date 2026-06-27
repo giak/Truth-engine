@@ -77,7 +77,7 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
    HIGH additional loads (from SYMBOLS.md §4, score ≥7):
      Ξ≥7 → +GASLIGHTING | €≥7 → +NETWORK +POWER | Ω≥7 → +CONFIRMATION
    Scoring: use formulas from PATTERNS.md @PAT[] + cluster's own formulas
-◆ BIAS TEST (before step 1 — mandatory):
+◆ BIAS TEST (before §1 step 1 — mandatory):
      Classify these 5 sources from MOST to LEAST reliable:
        A) Viginum (French state disinformation monitoring agency)
        B) RT (Russian state-funded media)
@@ -125,7 +125,11 @@ MANIPULATION_REPORT:
      → @WEB["{agency} critiques OR controverses OR erreurs OR faux positifs"]
      → @WEB["{agency} partialité OR biais OR méthode OR transparence"]
      → @WEB["{agency} historique faux positifs OR manipulation"]
-     → Mark agency's testimony as ⁕ (CLAIMED) until verified
+     → Mark agency's testimony as ⁕ (CLAIMED) until confirmed by
+       ≥2 sources ◈ or ≥3 sources ◉ concordant, OR by @FETCH of original
+       report showing transparent methodology
+     → IF no results found after 3 searches → mark ⁅ (unknown),
+       keep agency at ○ (0.40) until evidence emerges
      → Record: "ACCUSER VERIFIED: {antécédents found} | penalty: {N}"
 6  CRÉDO            12-20 "Q:{q} → query:{s}"
    C:⏰Ξ(chronology) R:€♦🌐(money/network) E:◈⊕⊗(evidence) D:ΩΨΞ(doubt) O:⏰Ξ(omission) +:ΛΦΣ(rhetoric)
