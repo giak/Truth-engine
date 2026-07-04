@@ -1,0 +1,1154 @@
+{
+  "date_synthese": "2026-07-05",
+  "complexity": "APEX",
+  "n_enquetes": 29,
+  "enquetes_concernees": [
+    "ric_def",
+    "ric_meta",
+    "ric_transcript",
+    "pnr01",
+    "p0_bce",
+    "p0_morts",
+    "p0_religieux",
+    "p0_verrous",
+    "p1_coordination",
+    "p2_financement",
+    "p3_15_gaps",
+    "p3_cedh",
+    "p3_conv_cit",
+    "p3_decidim",
+    "p3_hfb",
+    "p3_indif",
+    "p3_infra_elec",
+    "p3_lobby",
+    "p3_media",
+    "p3_refer_loc",
+    "p3_revoc",
+    "p3_socio",
+    "p3_sortition",
+    "p3_strateg",
+    "civictech_fr_2027",
+    "cross_exam",
+    "m5s_italie",
+    "ppl_timeline",
+    "verification_p3_16"
+  ],
+  "total_faits_atomiques": 773,
+  "total_acteurs": 457,
+  "periode_couverte": "1789-08-26 au 2026-07-05 (237 ans)",
+  "sujet_majoritaire": "Le Référendum d'Initiative Citoyenne français est verrouillé à 12 dimensions superposées et interdépendantes (juridique, technique, psychologique, anthropologique, politique, économique, sociale, éthique, narrative, scientifique, communication, marketing) par un mécanisme impersonnel à structure de cartel transpartisan de rejet fonctionnellement équivalent à un système de défense en profondeur, qui rend sa mise en oeuvre operationnelle conditionnee a la levee simultanee de plusieurs verrous heterogenes et non au remplacement d'un seul opereur politique.",
+  "theses_cardinales": [
+    {
+      "id": "THESE-JUR",
+      "titre": "THESE-JUR : Verrouillage constitutionnel structurel a 3 etages (art. 11 reserve au Prince + art. 89 al. 4 forme republicaine + filtrage CC anti-RIP)",
+      "enonce": "La Constitution de 1958 ne prevoit aucun droit d initiative populaire directe. L article 11 reserve le referendum au President de la Republique, sur proposition du Gouvernement ou des deux assemblees. La loi constitutionnelle du 23 juillet 2008 instaure un RIP avec seuil prohibitif (185 parlementaires + 4,7M signatures + filtre Conseil constitutionnel) : 0 abouti en 17 ans. La decision CC ADP 2019-1 RIP du 9 mai 2019 documente la capacite du Conseil constitutionnel a paralyser toute initiative au fond apres recevabilite. L arret C-448/23 Commission c/ Pologne (CJUE 2025) ferme l identite constitutionnelle nationale comme justification de derogation aux traites : dernier bouclier jurisprudentiel national contre la primaute du droit UE neutralise.",
+      "f_atomiques_justificatifs": [
+        "F-DEF-01",
+        "F-DEF-02",
+        "F-DEF-05",
+        "F-DEF-24",
+        "F-VI-01",
+        "F-VI-02",
+        "F-VI-03",
+        "F-PPL-02",
+        "F-PPL-06",
+        "F-PPL-09",
+        "F-PPL-13",
+        "F-META-25"
+      ],
+      "fiches_support": [
+        "ric_def",
+        "ric_meta",
+        "p0_verrous",
+        "p3_hfb",
+        "ppl_timeline",
+        "p0_bce"
+      ],
+      "shadow": 2.4,
+      "dimension_principale": "juridique",
+      "etendue": 6,
+      "recommandation": "Reforme du reglement interieur CC (publication nominative des rapporteurs, alignement Bundesverfassungsgericht allemand / Corte Costituzionale italienne / Tribunal Constitucional espagnol) + Loi organique du 6 decembre 2013 reduisant le seuil signatures de 4,7M a 700k aligne Commission de Venise 2025",
+      "wolf_associe": "Laurent Fabius (Pr CC), Jean-Eric Schoettl (Club des Juristes 2023), Didier de Bechillon"
+    },
+    {
+      "id": "THESE-TECH",
+      "titre": "THESE-TECH : Verrouillage infrastructural (absence d architecture CivicTech auto-souveraine, Cloud Act US + boites noires algorithmiques)",
+      "enonce": "Le RIC operationnel necessite une infrastructure d echange de donnees electorales souveraine (SecNumCloud + X-Road FR + Papier-First) qui n existe pas en France en 2026. Le Cloud Act US de 2018 soumet les fournisseurs US (AWS, Azure, GCP) a remise de donnees sans ordonnance francaise. L art. L. 2321-2-1 du Code Defense cree par Loi n° 2018-133 LPM 2019-2025 autorise des boites noires algorithmiques d interception sans base individuelle : surveillance indirecte des organisateurs RIC. L architecture CivicTech-FR triple (3 lois cumulatives) operee via un budget cumule de 205 a 360 M€ sur 4 ans (0,015-0,025 % du PIB annuel) reste a deployer.",
+      "f_atomiques_justificatifs": [
+        "F-PNR10",
+        "F-PNR34",
+        "F-PNR35",
+        "F-PNR36",
+        "F-PNR37",
+        "F-PNR38",
+        "F-PNR40",
+        "F-PNR41",
+        "F-PNR42",
+        "F-PNR47",
+        "F-PNR55",
+        "F-PNR56",
+        "F-PNR67"
+      ],
+      "fiches_support": [
+        "pnr01",
+        "civictech_fr_2027",
+        "verification_p3_16",
+        "p3_cedh",
+        "p3_infra_elec"
+      ],
+      "shadow": 2.9,
+      "dimension_principale": "technique",
+      "etendue": 5,
+      "recommandation": "Adoption du pack triple CivicTech-FR 2027 (Loi 1 Pacte CivicTech-FR SecNumCloud+X-Road FR+Papier-First, Loi 2 Pacte FRANCS constitutionnalisation RIC art. 11+89 revise, Loi 3 LOPPSI 4/LPM 2027 anti-surveillance)",
+      "wolf_associe": "9 proprietaires GAFAM, Big Tech etats-uniens, Big 4 cabinets audit"
+    },
+    {
+      "id": "THESE-PSY",
+      "titre": "THESE-PSY : Verrouillage psychologique (Effet Condorcet + apathie apprise + ratio favorable/non-prioritaire 8-15x)",
+      "enonce": "62 a 73 % des Francais sont favorables au RIC (IFOP 2019, IPSOS 2024 vague 14) mais <5 % le classent parmi les 3 priorites nationales (Cevipof vague 16 janvier 2025). 65 % des Francais jugent 'dangereux de s interesser a la politique' et 70 % preferent 'se detourner de la politique pour se concentrer sur leur vie personnelle' (Cevipof vague 16). L Effet Condorcet (ce qui est principe ne devient jamais urgence) verrouille invisiblement le RIC sans opposition active. Sans activation cognitive via agenda-setting mediatique sature par d autres sujets (pouvoir d achat 20-25 % du temps antenne, immigration 18-22 %, sante 10-14 %, RIC <1 %), le verrou reste operationnel sans contestation citoyenne explicite.",
+      "f_atomiques_justificatifs": [
+        "F-IND01",
+        "F-IND07",
+        "F-IND10",
+        "F-IND19",
+        "F-IND20",
+        "F-IND22",
+        "F-IND26",
+        "F-IND27",
+        "F-IND28",
+        "F-IND29",
+        "F-IND30"
+      ],
+      "fiches_support": [
+        "p3_indif",
+        "p3_socio",
+        "civictech_fr_2027",
+        "p3_media"
+      ],
+      "shadow": 2.5,
+      "dimension_principale": "psychologique",
+      "etendue": 4,
+      "recommandation": "Referendum Local (RIL) communal-par-communal comme premier abaissement helplessness + deplacement emotionnel du rationnel democratique au Recours symbolique societe epuisee (Levier 5 P3 #10)",
+      "wolf_associe": "Cadrage Le Monde/Le Figaro/Les Echos, IPSOS vague 14, Cevipof vague 16"
+    },
+    {
+      "id": "THESE-ANT",
+      "titre": "THESE-ANT : Verrouillage anthropologique (suppression des partis + effondrement du lien representatif + biocide institutionnel lent)",
+      "enonce": "Simone Weil publie en 1943 La Note sur la suppression generale des partis politiques, critiquant le parti comme 'machine a fabriquer de la passion collective' : critique prophetique du futur blocage RIC. Le verrou RIC opere par biocide institutionnel lent sur 6 categories (parlementaires PPL eteints, lobbys associatifs liquides, figures GJ eteintes, constitutionnalistes recycles, hauts fonctionnaires recycles, medias marginalises), avec 11 morts nominatifs identifies (Ruffin, Lassalle, Pochon, Mouraud, Drouet, Nicolle, Schoettl, Maus, Magni-Berton, Schrameck, Belloubet). Probabilite de releve RIC 2024-2030 : P(releve) ≈ 0,20-0,25. Le biocide institutionnel est plus efficace que la violence juridique.",
+      "f_atomiques_justificatifs": [
+        "F-DEF-11",
+        "F-MORT-01",
+        "F-MORT-02",
+        "F-MORT-03",
+        "F-MORT-04",
+        "F-MORT-09",
+        "F-MORT-10",
+        "F-MORT-11",
+        "F-MORT-12",
+        "F-MORT-28",
+        "F-MORT-29"
+      ],
+      "fiches_support": [
+        "p0_morts",
+        "ric_def",
+        "ric_meta"
+      ],
+      "shadow": 2.4,
+      "dimension_principale": "anthropologique",
+      "etendue": 3,
+      "recommandation": "Mausolee RIC memoriel 10 ans 2026-2036, hebergement 50-100€/an infrastructure existante (Timeweb/OVH/GitHub Pages), 11 fiches biographiques, transmission archives publiques BPI/BnF/INA a expiration (Recommandation operationnelle 5)",
+      "wolf_associe": "Cartel transpartisan LREM/LR/PS/EELV/PCF, biocide froid lent"
+    },
+    {
+      "id": "THESE-POL",
+      "titre": "THESE-POL : Verrouillage politique (cartel transpartisan de rejet + 49.3 x300 % + dissolution comme arme legislative)",
+      "enonce": "Le parlementarisme rationalise de la V° Republique est concu pour filtrer les PPL citoyennes via un labyrinthe procedural. 8 PPL RIC deposees entre 2019-2025, 0 adoptees : pattern repete (rejet commission, motion de renvoi, deluge amendements, abandon par fin de legislature/dissolution). 28 recours au 49.3 en 9 ans (2017-2026), dont 23 en 18 mois sous Borne. La dissolution du 9 juin 2024 interrompt tous les travaux legislatifs en cours : 6+ PPL deviennent caduques instantanement. Les 9 proprietaires medias controlent 75-85 % de l audience TV-radio-presse quotidienne nationale (ACPM 2024 + Arcom 2024). Le RIC detruit la rente institutionnelle des partis ; aucun parti de gouvernement n a porte le RIC dans son programme.",
+      "f_atomiques_justificatifs": [
+        "F-DEF-14",
+        "F-DEF-15",
+        "F-DEF-22",
+        "F-DEF-23",
+        "F-PPL-01",
+        "F-PPL-03",
+        "F-PPL-11",
+        "F-PPL-13",
+        "F-PPL-22",
+        "F-PPL-24",
+        "F-MED10",
+        "F-MED11"
+      ],
+      "fiches_support": [
+        "ric_def",
+        "ric_meta",
+        "ppl_timeline",
+        "p3_media",
+        "p0_verrous"
+      ],
+      "shadow": 2.2,
+      "dimension_principale": "politique",
+      "etendue": 5,
+      "recommandation": "Discipline de vote trans-partisane 5-10 % concentree sur le seul critere RIC rend tout candidat insensible aux promesses anti-RIC (Pacte FRANCS Judo Rhetorique cantonales 2027) + allonger le delai HATVP de 3 a 5 ans",
+      "wolf_associe": "Conference des Presidents AN/Senat, Braun-Pivet, Michaux, Buffet, Jourda, Fabius"
+    },
+    {
+      "id": "THESE-ECO",
+      "titre": "THESE-ECO : Verrouillage economique-monetaire (4 verrous BCE + TPI conditionnel + spread OAT/Bund algorithmique + cout Frexit)",
+      "enonce": "Le RIC budgetaire francais bute sur 4 verrous cumulatifs (M1 CJUE primaute absolue + M2 BCE OMT/TPI conditionnels au Pacte + M3 marches obligataires sanction spontanee + M4 Eurogroupe informel decisiones politiques non-justiciables). Le TPI du 21 juillet 2022 est un verrou by design : il exclut explicitement les Etats non conformes au Pacte de Stabilite 2024. Le precedent grec du 5 juillet 2015 (OXI 61,31 % puis capitulation Tsipras 13 juillet face au gel ELA BCE + controles capitaux 60€/jour) demontre que la democratie budgetaire entre en collision frontale avec l architecture monetaire de la zone euro. Spread OAT/Bund 76 pb au 3 juillet 2026 (AFT) en baisse depuis 88 pb en juillet 2024. Cout d un spread a 200 pdb pendant 6 mois : +25-50 Md€ supplementaires pour la France.",
+      "f_atomiques_justificatifs": [
+        "F-BCE01",
+        "F-BCE02",
+        "F-BCE04",
+        "F-BCE05",
+        "F-BCE07",
+        "F-BCE08",
+        "F-BCE11",
+        "F-BCE13",
+        "F-BCE15",
+        "F-BCE18",
+        "F-BCE19",
+        "F-BCE20",
+        "F-PNR08"
+      ],
+      "fiches_support": [
+        "p0_bce",
+        "p0_verrous",
+        "pnr01",
+        "civictech_fr_2027"
+      ],
+      "shadow": 2.2,
+      "dimension_principale": "economique",
+      "etendue": 4,
+      "recommandation": "Discipline trans-partisane + Judo Rhetorique boycott OAT/Bund spread pression economique ; modele Bruegel 2024 -10 points ICRG = +106 pb spread = -2 % PIB",
+      "wolf_associe": "Christine Lagarde, BCE, agences de notation (Moody's/S&P/Fitch), Eurogroupe, Bundesbank"
+    },
+    {
+      "id": "THESE-SOC",
+      "titre": "THESE-SOC : Verrouillage social (abstention 57 % 2024 + fractures territoriales + democratie fatiguee vs democratie directe)",
+      "enonce": "Abstention legislatives 2024 : 57 % (70 % 18-24 ans, 80 % quartiers populaires). 4 000+ condamnations Gilets Jaunes, 2 500+ blesses LBD, 25 mutilations documentees par Defenseur des droits rapport 2022. Confiance institutions francaises <30 % entre 2018 et 2024 (barometre CEVIPOF vagues 9-13). Le RIC plébiscité par 62-73 % mais vu comme principe non-urgent (ratio 8-15x). Societe civile fatiguee post-GJ : 50-65 % des abstentionnistes voteraient a un RIC (estim AdL 2025). La majorite numerique inactive politiquement EST la majorite pro-RIC silencieuse. Le RIC devient le canal legitime pour transformer l abstention en expression.",
+      "f_atomiques_justificatifs": [
+        "F-DEF-17",
+        "F-IND19",
+        "F-IND29",
+        "F-MORT-08",
+        "F-MORT-26",
+        "F-MORT-27",
+        "F-PNR03",
+        "F-DEF-13"
+      ],
+      "fiches_support": [
+        "ric_def",
+        "p0_morts",
+        "p3_indif",
+        "pnr01",
+        "p3_socio"
+      ],
+      "shadow": 2.4,
+      "dimension_principale": "sociale",
+      "etendue": 5,
+      "recommandation": "RIL communal-par-communal pour abaisser helplessness + Pacte FRANCS 5-10 % discipline electorale trans-partisane + Judo Rhetorique cantonales 2027 mobilisation rurale",
+      "wolf_associe": "Mass media oligopole, abstention structurelle, fracture territoriale"
+    },
+    {
+      "id": "THESE-ETH",
+      "titre": "THESE-ETH : Verrouillage ethique (legitimite populaire vs legitimite representative + devoir de prudence Lumieres)",
+      "enonce": "L article 3 de la Constitution de 1958 proclame la souverainete nationale, mais le peuple ne dispose d aucun moyen direct de l exercer (art. 11 reserve au Prince). Le RIC souleve une crise ethique : la legitimite democratique directe (volonte populaire exercee directement) entre en tension avec la legitimite representative (fondee sur la competence delib erante des ellus et experts). La doctrine constitutionnelle franVaise (Schrameck/Fabius/Maus) defend la democratie deliberative opposee au referendum immediat. La doctrine Lumieres (peuple doit etre eclaire par elates) traverse cabinets conseil et medias : lexique 'populisme procedural' utilise >100 fois par Le Monde entre 2019-2025 (Acrimed 2024). Ethique du verrou = preservation statu quo par inertie.",
+      "f_atomiques_justificatifs": [
+        "F-DEF-01",
+        "F-MED14",
+        "F-MED15",
+        "F-MED29",
+        "F-LOBBY29",
+        "F-DEF-11",
+        "F-PPL-21"
+      ],
+      "fiches_support": [
+        "ric_def",
+        "p3_media",
+        "p3_lobby",
+        "ppl_timeline"
+      ],
+      "shadow": 2.3,
+      "dimension_principale": "ethique",
+      "etendue": 4,
+      "recommandation": "Ouvrir un debat ethique structurel : legitimite populaire n est pas inferieure a la legitimite representative, elle est condition d ejointement systeme. Le 'peuple non-compétent' est un prejuge doctrinal non-empirique",
+      "wolf_associe": "9 proprietaires medias, Mantieres de la doctrine Lumieres, cabinet conseil"
+    },
+    {
+      "id": "THESE-NAR",
+      "titre": "THESE-NAR : Verrouillage narratif (cadrage mediatique hostile 80 % + inversion Omega opinion 62-73 % vs editorial)",
+      "enonce": "9 proprietaires mediatiques cumulent 75-85 % audience TV-radio-presse quotidienne nationale (Vivendi/Bolloré/Bouygues/CMA CGM/Lagardere/Dassault/LVMH/NRJ/M6) avec 0 position officielle publique favorable au RIC (recension BOAMP 2024). Le Monde/Figaro/Les Echos concentrent 80 % des edito hostiles au RIC avec 300-600 mentions presse mainstream 2018-2025 dont >100 mentions 'populisme procedural' par Le Monde seul (Acrimed 2024). Asymetrie paradigmatique : 62-73 % pro-RIC opinion (IPSOS vague 14, IFOP 2019) vs 80 % editorial hostile = inversion Omega caracteristique. 27 loups nominatifs (10 editorialistes + 6 constitutionnalistes + 7 intellectuels + 4 hauts fonctionnaires). Cadre narratif : RIC = 'danger populiste' vs realite : democratie directe.",
+      "f_atomiques_justificatifs": [
+        "F-MED10",
+        "F-MED11",
+        "F-MED13",
+        "F-MED14",
+        "F-MED15",
+        "F-MED22",
+        "F-MED23",
+        "F-MED24",
+        "F-MED28",
+        "F-MED29",
+        "F-MED30",
+        "F-DEF-19"
+      ],
+      "fiches_support": [
+        "p3_media",
+        "p3_indif"
+      ],
+      "shadow": 2.3,
+      "dimension_principale": "narrative",
+      "etendue": 2,
+      "recommandation": "Plateforme open-source de mesure d audience ACPM ouvert montrer ecarts opinion vs cadrage (Levier 3 P3 #8) + tribunes grand public Le Monde/Figaro zones tribune libre periferique (Levier 2 P3 #8)",
+      "wolf_associe": "Vivendi/Bolloré, Bouygues, Dassault, LVMH/Arnault, Drahi+NRJ, Bertelsmann/M6, Editorialistes Le Monde/Figaro/Les Echos"
+    },
+    {
+      "id": "THESE-SCI",
+      "titre": "THESE-SCI : Verrouillage scientifique-empirique (modeles etrangers prouves negligent + ingenierie tierce absente)",
+      "enonce": "Trois modeles CivicTech etrangers prouves empiriquement existent : X-Road Estonia (2001+, NIIS 2017+, 1 000+ institutions bus, architecture interoperable decentralisee prouvee 25 ans), Bürgerrat Ostbelgien (decret 25 fevrier 2019, 24 citoyens tires au sort + 50 Bürgerversammlungen), vTaiwan Audrey Tang (2016-20 mai 2024, JOIN.open + Factcheck + open-source gouvernance). Ces modeles sont negliges dans le debat francais post-2018. La tierce verification du pack CivicTech-FR P3 #16 (verification_p3_16) demontre 11 erreurs factuelles sur 38 F## introduits : la precision juridique LLM requiert une consultation sources institutionnelles systematique. Les 49 PPL deposees francaises alternent entre incompetence technique et innovation.",
+      "f_atomiques_justificatifs": [
+        "F-PNR37",
+        "F-PNR38",
+        "F-PNR56",
+        "F-PNR33",
+        "F-PNR36",
+        "F-PNR-CAS-1",
+        "F-PNR-CAS-3",
+        "F-PNR-CAS-4",
+        "F-PNR-CAS-8",
+        "F-DEF-03",
+        "F-DEF-04"
+      ],
+      "fiches_support": [
+        "civictech_fr_2027",
+        "verification_p3_16",
+        "pnr01",
+        "ric_def"
+      ],
+      "shadow": 2.4,
+      "dimension_principale": "scientifique",
+      "etendue": 4,
+      "recommandation": "Ratifier formellement les modeles etrangers X-Road Estonia + Bürgerrat Ostbelgien + vTaiwan Taïwan comme references institutionnelles CivicTech-FR, transposes par voie legislative",
+      "wolf_associe": "Conseil constitutionnel (inertie), Schoettl 10 objections, Bundesbank/Karlsruhe"
+    },
+    {
+      "id": "THESE-COM",
+      "titre": "THESE-COM : Verrouillage communicationnel (concentration oligopole 9 proprietaires + agenda-setting sature)",
+      "enonce": "Oligopole 9 groupes : Vivendi/Bolloré (~15 Md€), Bouygues/TF1 (~5 Md€), CMA CGM/Altice (~3 Md€), Lagardere (~5 Md€), Dassault (~3 Md€), LVMH (~5 Md€), NRJ (~700 M€), M6/Bertelsmann (~3,5 Md€), Amaury (~700 M€). Concentration capitalistique + doctrine Lumieres peuple eclaire par elates + couplage editorial convergent = verrouillage mediatique stable depuis 8 ans. Cadrage Le Monde/Figaro/Les Echos : 12-25 edito/an hostiles 2018-2025 avec pic post-GJ 2018. Le volume editorial temps antenne consacree au RIC : <1 % vs pouvoir achat 20-25 % + immigration 18-22 %. Pas de porte-parole media grand public stable du RIC depuis 2020.",
+      "f_atomiques_justificatifs": [
+        "F-MED01",
+        "F-MED02",
+        "F-MED03",
+        "F-MED04",
+        "F-MED05",
+        "F-MED06",
+        "F-MED07",
+        "F-MED08",
+        "F-MED10",
+        "F-MED11",
+        "F-MED22",
+        "F-MED30"
+      ],
+      "fiches_support": [
+        "p3_media",
+        "p3_indif"
+      ],
+      "shadow": 2.3,
+      "dimension_principale": "communication",
+      "etendue": 2,
+      "recommandation": "Loi organique indexmination publique contrats Cabinet Conseil > 2M€ a Etat + Pack CivicTech-FR Loi 3 LOPPSI 4 anti-surveillance mediatique numerique",
+      "wolf_associe": "Vivendi+Bolloré, Bouygues, Dassault, LVMH, Drahi+Altice"
+    },
+    {
+      "id": "THESE-MKT",
+      "titre": "THESE-MKT : Verrouillage marketing-influence (fear/uncertainty/doubt sur 'capture californienne/lobbies/Brexit' + persona expert contre RIC)",
+      "enonce": "Le marketing anti-RIC mobilise 4 terreurs narratives : (1) 'capture californienne' (Schoettl 2023 + ddB Cas >500M USD/an depenses campagne referendaire US), (2) 'capture lobbies' (M5S Casaleggio capture Rousseau 12 ans), (3) 'risque irreversibilite' (Brexit precedent), (4) 'urgence cholesterolique' (peuple passionnel). 4 cabinets conseil MBB (McKinsey/BCG/Bain/Roland Berger) avec recettes cumulees >2,5 Md€ servent l Etat francais en silence total sur RIC (0 position officielle 2017-2026). Big 4 EY/Deloitte/KPMG/PwC auditent clientelisme partisan via CNCCFP obligatoires. Paradigme expertise technicien pouvoir decider verrouille structurellement les outils populaires. Persona expert anti-RIC + Lexique Lumieres peuple non-competent = double verrou.",
+      "f_atomiques_justificatifs": [
+        "F-LOBBY01",
+        "F-LOBBY02",
+        "F-LOBBY03",
+        "F-LOBBY04",
+        "F-LOBBY09",
+        "F-LOBBY13",
+        "F-LOBBY17",
+        "F-LOBBY22",
+        "F-LOBBY27",
+        "F-LOBBY29",
+        "F-DEF-25",
+        "F-DEF-26"
+      ],
+      "fiches_support": [
+        "p3_lobby",
+        "p3_media",
+        "ric_def"
+      ],
+      "shadow": 2.2,
+      "dimension_principale": "marketing",
+      "etendue": 3,
+      "recommandation": "Doctrine de la Terre Brûlée : interdiction du financement personnes morales au RIC + plafond citoyen <5000€/donateur + audit independant via CivicTech open-source",
+      "wolf_associe": "McKinsey, BCG, Bain, Big 4, Fondation Montaigne, Fondapol"
+    },
+    {
+      "id": "THESE-REL",
+      "titre": "THESE-REL : Verrouillage religieux tactique (non-structurel) : coalition trans-confessionnelle anti-bioéthique (catholiques + musulmans + protestants modérés = ~50% Français mobilisables)",
+      "enonce": "Le verrou religieux n'oppose pas le RIC en tant qu'outil institutionnel (CEF 0 déclaration officielle 2018-2026) mais s'oppose structurellement à un RIC sur les sujets bioéthiques (euthanasie, GPA, identité de genre) via la coalition trans-confessionnelle : catholiques 30-40% population + musulmans 6-8% (alignement ~80% catholiques traditionnels sur bioéthique) + protestants modérés 2-3% = bloc mobilisable ~50% Français. Le précédent CC 2026-7 RIP 17 juin 2026 rejette la RIP anti-euthanasie Szpiner sur argument 'ne relève pas de la politique sociale' art. 11 : involontairement, le CC protège le Parlement contre l'obstruction religieuse tactique. Le Dignitas Infinita Vatican 8 avril 2024 pose le principe 'dignité humaine inviolable indépendante du vote majoritaire' : fondement anti-RIC sociétal émancipateur. Le principe catholique Subsidiarité (Quadragesimo Anno 1931) défend la non-absorption des communautés inférieures (la famille ne doit pas être absorbée dans l'État) : argument indirect contre le RIC sur sujets familiaux. RIC techniquement opérationnel mais neutralisable tactiquement sur bioéthique.",
+      "f_atomiques_justificatifs": [
+        "F-REL01",
+        "F-REL03",
+        "F-REL04",
+        "F-REL08",
+        "F-REL09",
+        "F-REL10",
+        "F-REL13",
+        "F-REL15",
+        "F-REL17",
+        "F-REL19",
+        "F-REL20",
+        "F-REL25"
+      ],
+      "fiches_support": [
+        "p0_religieux",
+        "ric_def",
+        "ppl_timeline"
+      ],
+      "shadow": 2.6,
+      "dimension_principale": "religieuse",
+      "etendue": 3,
+      "recommandation": "Concentrer le RIC programme sur les questions techniquement et culturellement sécurisées (numérique, système pénal, gouvernance locale) plutôt que sur bioéthique. Argument éthique : l'Eglise catholique accepte le vote populaire sur des questions techniques (Pacte FRANCS, CivicTech-FR) mais refuse le vote populaire sur les valeurs morales non-négociables. Architecture de contournement : exclure explicitement les sujets bioéthiques du champ RIC par irrecevabilité CC renforcée (art. 11 + art. 89 al. 4).",
+      "wolf_associe": "Conférence des évêques de France (CEF), CFCM Chems-Eddine Hafiz, Vatican Dicastère pour la Doctrine de la Foi, Alliance VITA + AFC + Fondation Jérôme Lejeune + Europe-Euthanasie.org"
+    },
+    {
+      "id": "THESE-GEO",
+      "titre": "THESE-GEO : Verrouillage géopolitique comparé (5 precedents etrangers prouves sans capture populiste majeure, mais fiches documentaires francaises absentes)",
+      "enonce": "5 precedents etrangers de RIC operationnel documentes mais sous-exploites dans le debat francais : (1) Suisse initiative populaire federale depuis 1891 (taux succes ~10% sur 135 ans), (2) Italie Ley 352/1970 referendum abrogatif (taux succes <50% quorum 50%+1), (3) Liechtenstein initiative populaire 1921, (4) Uruguay Ley 16.017/1989 referendum abrogatif (15 consultations 1985-2025, 8 abouties, referendum eau 2004 constitutionnalise service public), (5) Baviere Verfassung 1946 art. 71-75 Volksbegehren 10% inscrits + Volksentscheid majorite simple (12 Volksentscheide 1946-2026, 5 aboutis). Ces precedents demontrent empiriquement qu'un RIC est operationnel sans capture populiste majeure pendant 80+ ans. Le verrou francais ne reside pas dans l'impossibilite operationnelle du RIC mais dans l'absence de transfert de preuve empirique etrangere vers le cadre constitutionnel francais. Le M5S italien (32,7% en 2018 a 12% en 2026 sur 48 deputes) demontre que meme un mouvement de democratie directe conqu 32% peut etre capture institutionnellement en 14 ans (5 mecanismes : sous-traitance Casaleggio + charisme vertical + institutionnalisation + regle 2 mandats + absence garde-fous statutaires). Le RIC francais est condamne a reinventer des precedents connus.",
+      "f_atomiques_justificatifs": [
+        "F-CEDH10",
+        "F-CEDH11",
+        "F-CEDH12",
+        "F-CEDH13",
+        "F-CEDH14",
+        "F-CEDH15",
+        "F-CEDH26",
+        "F-M5S-04",
+        "F-M5S-15",
+        "F-M5S-20",
+        "F-M5S-21",
+        "F-M5S-23",
+        "F-M5S-30"
+      ],
+      "fiches_support": [
+        "m5s_italie",
+        "p3_cedh",
+        "civictech_fr_2027",
+        "ric_def",
+        "ppl_timeline"
+      ],
+      "shadow": 2.7,
+      "dimension_principale": "geopolitique",
+      "etendue": 5,
+      "recommandation": "ENQ-03 (Baviere), ENQ-04 (Uruguay), ENQ-05 (Californie) planifiees Q3 2026 (manifeste RIC H2 2026) doivent produire les 3 fiches quintessence documentaires completes. Recommandation operationnelle : ratifier formellement les modeles etrangers X-Road Estonia + Buergerrat Ostbelgien + vTaiwan Taiwan + RIC Suisse/Italie/Liechtenstein/Uruguay/Baviere comme references institutionnelles CivicTech-FR, transposees par voie legislative (cf. Pacte CivicTech-FR Loi 1 art. 1 reference modeles etrangers).",
+      "wolf_associe": "Conseil Constitutionnel inertie, doctrine francaise Schoettl/Maus/Fabius, Bundesbank/Karlsruhe, capture M5S-Casaleggio"
+    },
+    {
+      "id": "THESE-FIS",
+      "titre": "THESE-FIS : Verrouillage fiscal et budgetaire (RIC budgetaire techniquement condamne a l'impuissance intra-euro, niches fiscales 80 Md€/an comme angle mort documentaire)",
+      "enonce": "Le RIC budgetaire francais bute sur 5 verrous cumulatifs : (M1) CJUE primaute absolue via Costa 6/64 + Internationale Handelsgesellschaft 11/70 + Simmenthal 106/77 + C-448/23 Pologne 2025, (M2) BCE OMT/TPI conditionnels au Pacte Stabilite 2024 (Reg UE 2024/1263 du 29 avril 2024) qui excluent explicitement les Etats non-conformes, (M3) marches obligataires sanction spontanee (BIS 2011 + Bruegel 2024 -10 points ICRG = +106 pb spread = -2% PIB), (M4) Eurogroupe decisions politiques non-justiciables (Mallis C-105/15 2016), (M5) Cout OAT/Bund : spread a 200 pdb pendant 6 mois = +25-50 Md€ supplementaires pour la France (BCE/marches modelisation). Le precedent grec 5 juillet 2015 (OXI 61,31% puis capitulation Tsipras 13 juillet face au gel ELA BCE + controles capitaux 60€/jour) demontre grandeur nature que la democratie budgetaire entre en collision frontale avec l'architecture monetaire zone euro. Le cout documentaire francais 80 Md€/an de niches fiscales (cf. dossier Evasion Fiscale Truth Engine cross-series) constitue un angle mort : aucun debat RIC n'a quantifie ce que le RIC budgetaire changerait concretement dans la depense publique. Le RIC budgetaire reste un theatre democratique tant que la France reste dans l'euro sans renegocier a l'unanimite des 27 ou activer l'art. 50 TUE (sortie unilaterale).",
+      "f_atomiques_justificatifs": [
+        "F-BCE02",
+        "F-BCE04",
+        "F-BCE05",
+        "F-BCE07",
+        "F-BCE10",
+        "F-BCE11",
+        "F-BCE12",
+        "F-BCE13",
+        "F-BCE15",
+        "F-BCE18",
+        "F-BCE19",
+        "F-BCE20",
+        "F-BCE30",
+        "F-PNR08"
+      ],
+      "fiches_support": [
+        "p0_bce",
+        "p0_verrous",
+        "pnr01",
+        "civictech_fr_2027"
+      ],
+      "shadow": 2.4,
+      "dimension_principale": "economique",
+      "etendue": 4,
+      "recommandation": "Discipline trans-partisane 5-10% Pacte FRANCS + Judo Rhetorique boycott OAT/Bund spread pression economique (modele Bruegel 2024 -10 points ICRG = +106 pb spread = -2% PIB). Enquete dediee recommandee : 'RIC et niches fiscales 80 Md€/an' (ENQ future backlog 2027+) pour documenter concretement ce que le RIC budgetaire changerait (TVA/CSG/IS/IR). Architecture de contournement : Modele Carney BIS 2021 sur monnaie digitale souveraine + stripping dette nationale des marches (trajectoire 10-15 ans).",
+      "wolf_associe": "Christine Lagarde (BCE), Villeroy de Galhau (Banque de France), Moody\\'s/S&P/Fitch, Eurogroupe informel, Bundesbank"
+    }
+  ],
+  "meta_observations": [
+    {
+      "id": "OBS-001",
+      "enonce": "Les 12 verrous sont MUTUELLEMENT RENFORCANTS (effet defense en profondeur) : briser un seul verrou ne suffit pas, le systeme compense automatiquement. Levier BCE repond a levier CC, verrou media repond a verrou opinion.",
+      "fiches_concernees": [
+        "p0_bce",
+        "p0_verrous",
+        "p3_hfb",
+        "p3_media"
+      ],
+      "shadow": 2.0,
+      "dimension": "transversale"
+    },
+    {
+      "id": "OBS-002",
+      "enonce": "Recherche en Afrique de l'Ouest : Population des veilleurs du verrou est STABLE (probabilite de releve ≈ 0,20-0,25 sur 2024-2030). Le verrou est structurellement stable sur le moyen terme.",
+      "fiches_concernees": [
+        "p0_morts"
+      ],
+      "shadow": 2.4,
+      "dimension": "anthropologique"
+    },
+    {
+      "id": "OBS-003",
+      "enonce": "L asymetrie entre 62-73 % opinion pro-RIC (IPSOS vague 14, IFOP 2019, Harris Interactive 2019) et 80 % editorial hostile (Acrimed 2024) documente une inversion Omega : opinion publique reellement pro-RIC mais verrouillee par cadrage mediatique convergent.",
+      "fiches_concernees": [
+        "p3_indif",
+        "p3_media"
+      ],
+      "shadow": 2.4,
+      "dimension": "narrative"
+    },
+    {
+      "id": "OBS-004",
+      "enonce": "Le pattern de 8 PPL deposees 2019-2025, 0 adoptees : rejet commission + motion de renvoi + deluge + dissolution = verrou procedural reproductible. 5 LFI + 1 EELV + 1 Lassalle + 1 inconnue, aucune d un parti de gouvernement.",
+      "fiches_concernees": [
+        "ppl_timeline"
+      ],
+      "shadow": 2.2,
+      "dimension": "politique"
+    },
+    {
+      "id": "OBS-005",
+      "enonce": "Le precedent grec 5 juillet 2015 (OXI 61,31 % puis capitulation Tsipras 13 juillet face gel ELA BCE + controles capitaux 60€/jour) demontre que la democratie budgetaire entre en collision frontale avec l architecture monetaire zone euro : le RIC budgetaire francais est techniquement condamne a l impuissance intra-euro.",
+      "fiches_concernees": [
+        "p0_bce",
+        "p0_verrous"
+      ],
+      "shadow": 2.2,
+      "dimension": "economique"
+    },
+    {
+      "id": "OBS-006",
+      "enonce": "M5S italien (32,7 % en 2018 → 12 % en 2026 sur 48 deputes) demontre que meme un mouvement de democratie directe conqu 32 % peut etre capture institutionnellement en 14 ans : 5 mecanismes (sous-traitance Casaleggio + charisme vertical + institutionnalisation + regle 2 mandats + absence garde-fous statutaires).",
+      "fiches_concernees": [
+        "m5s_italie"
+      ],
+      "shadow": 2.0,
+      "dimension": "anthropologique"
+    },
+    {
+      "id": "OBS-007",
+      "enonce": "20 hauts fonctionnaires identifiables (Fabius/Guérin-Barral CC, Sauvé/Lasserre/Pellissier/Boucher/Fombeur/Devillers CE, Grimbert/Moal SGG, Braun-Pivet/Michaux/Braun-Pivet/Buffet/Jourda Commissions des Lois, Dubreuil/Gautier/Lepetit IGF) operent verrou nominatif vs verrou impersonnel BCE/marchés. Les reformes : publication rapporteurs CC + allongement HATVP 3 à 5 ans + publication memoires SGG.",
+      "fiches_concernees": [
+        "p3_hfb",
+        "p0_verrous"
+      ],
+      "shadow": 2.3,
+      "dimension": "ethique"
+    },
+    {
+      "id": "OBS-008",
+      "enonce": "L Olibopo Français (9 proprietaires 9-15 Md€ cumul) controle 75-85 % audience nationaux mais tient 0 position officielle pro-RIC : verrou implicite par omission structurellement superieur au verrou argumentatif explicite.",
+      "fiches_concernees": [
+        "p3_media",
+        "p3_indif"
+      ],
+      "shadow": 2.3,
+      "dimension": "communication"
+    },
+    {
+      "id": "OBS-009",
+      "enonce": "Tierce verification P3 #16 produit 11/38 confirmes (29 %), 11/38 partiels, 9/38 refutes, 3/38 indetermines, 5/38 prospectifs : couverture regressive 96 % à 72 % effective post-application 12 corrections. Posture forensique non-masquée (88 % KERNEL §11) distingue ce dossier d une flagornerie narrative.",
+      "fiches_concernees": [
+        "verification_p3_16",
+        "civictech_fr_2027"
+      ],
+      "shadow": 2.4,
+      "dimension": "scientifique"
+    },
+    {
+      "id": "OBS-010",
+      "enonce": "Le biocide institutionnel sur 11 morts nominatifs (Ruffin, Lassalle, Pochon, Mouraud, Drouet, Nicolle, Schoettl, Maus, Magni-Berton, Schrameck, Belloubet) est plus efficace que la violence juridique : pas de proces documentes (F-MORT-23), c est la nature non-juridique du verrou.",
+      "fiches_concernees": [
+        "p0_morts",
+        "ric_meta"
+      ],
+      "shadow": 2.4,
+      "dimension": "anthropologique"
+    },
+    {
+      "id": "OBS-011",
+      "enonce": "Mise en parallele du triple Pacte : Frontieres/Rayonnement/Autonomie/Nation/Citoyennete/Souverainete (PNRED CivicTech-FR) + Pacte FRANCS discipline electorale 5-10 % + Pacte CivicTech-FR SecNumCloud+X-Road FR+Papier-First produit probabilité révisée ≥60 % sur 5 ans vs initiale 30-40 %.",
+      "fiches_concernees": [
+        "pnr01",
+        "civictech_fr_2027"
+      ],
+      "shadow": 3.4,
+      "dimension": "politique"
+    },
+    {
+      "id": "OBS-012",
+      "enonce": "Mnemolite DOWN sur l ensemble des 29 fiches : transversalites cross-series (sumer/Évasion/Dette 3200 Md€/Verrou/Verrou) non explorees en RAG. Mode degrade cross-series documente reduit la precision mais conserve la portee forensique (777 faits examines sur 5 fichiers 800 k de caracterisation).",
+      "fiches_concernees": [
+        "ric_def",
+        "ric_meta",
+        "p0_bce",
+        "p0_verrous",
+        "p0_morts",
+        "p3_hfb",
+        "p3_indif",
+        "p3_lobby",
+        "p3_15_gaps"
+      ],
+      "shadow": 2.4,
+      "dimension": "scientifique"
+    },
+    {
+      "id": "OBS-013",
+      "enonce": "Bloc religieux tactique (non-structurel) : la coalition trans-confessionnelle anti-bioéthique (catholiques + musulmans + protestants modérés = ~50% Francais mobilisables) verrouille tactiquement le RIC sur les sujets bioéthiques (euthanasie, GPA, identité de genre) sans s'opposer au RIC en tant qu'outil institutionnel. Recommandation opérationnelle : exclure les sujets bioéthiques du champ RIC par irrecevabilité CC renforcée (art. 11 + art. 89 al. 4) pour neutraliser le veto religieux latent.",
+      "fiches_concernees": [
+        "p0_religieux",
+        "ric_def",
+        "ppl_timeline"
+      ],
+      "shadow": 2.6,
+      "dimension": "religieuse"
+    },
+    {
+      "id": "OBS-014",
+      "enonce": "5 precedents etrangers de RIC operationnel documentes (Suisse 1891+, Italie 1970+, Liechtenstein 1921, Uruguay 1989+, Baviere 1946+) mais sous-exploites dans le debat francais : la France doit reinventer des precedents connus plutot que transferer les preuves empiriques etrangeres. ENQ-03/04/05 planifiees Q3 2026 doivent produire les 3 fiches documentaires completes (Baviere 80 ans, Uruguay 40 ans, Californie 50 ans) pour combler le gap geopolitique.",
+      "fiches_concernees": [
+        "m5s_italie",
+        "p3_cedh",
+        "civictech_fr_2027",
+        "ric_def"
+      ],
+      "shadow": 2.7,
+      "dimension": "geopolitique"
+    },
+    {
+      "id": "OBS-015",
+      "enonce": "Angle mort documentaire : aucun debat RIC n'a quantifie ce que le RIC budgetaire changerait concretement dans la depense publique francaise (niches fiscales 80 Md€/an selon dossier Evasion Fiscale cross-series). Le RIC budgetaire reste un theatre democratique tant que (a) la France reste dans l'euro sans renegociation unanime 27 ou (b) art. 50 TUE (sortie unilaterale) non active. Discipline trans-partisane 5-10% Pacte FRANCS + Judo Rhetorique boycott OAT/Bund restent les seuls leviers intra-euro.",
+      "fiches_concernees": [
+        "p0_bce",
+        "p0_verrous",
+        "pnr01",
+        "civictech_fr_2027"
+      ],
+      "shadow": 2.4,
+      "dimension": "economique"
+    }
+  ],
+  "transversalites": [
+    {
+      "id": "TR-001",
+      "concept": "Verrouillage structurel du RIC : Consensus transpartisan de rejet",
+      "description": "8 PPL RIC deposees, 0 adoptees entre 2019-2025, sans soutien d aucun parti de gouvernement (LREM/Ensemble, LR, PS, RN). Le RIC detruit la rente institutionnelle des partis : aucun parti ne vote sa propre obsolescence.",
+      "fiches_concernees": [
+        "ppl_timeline",
+        "ric_def",
+        "ric_meta",
+        "p0_verrous",
+        "p3_hfb"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-PPL-13",
+        "F-PPL-24",
+        "F-DEF-22",
+        "F-META-22",
+        "F-META-23"
+      ],
+      "etendue": 5,
+      "shadow": 2.2
+    },
+    {
+      "id": "TR-002",
+      "concept": "BCE/Euro verrou budgetaire : Rejet democratique capitulation monetaire",
+      "description": "Le precedent grec 2015 documente qu un OXI referendum est contraint par gel ELA BCE + controles capitaux + faillite bancaire systematique : la democratie budgetaire entre en collision avec l architecture monetaire zone euro.",
+      "fiches_concernees": [
+        "p0_bce",
+        "p0_verrous",
+        "civictech_fr_2027"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-BCE04",
+        "F-BCE05",
+        "F-BCE06",
+        "F-BCE11",
+        "F-BCE12"
+      ],
+      "etendue": 3,
+      "shadow": 2.2
+    },
+    {
+      "id": "TR-003",
+      "concept": "Capture institutionnelle mouvements democratie directe : Casaleggio M5S",
+      "description": "M5S italien (32,7 % en 2018 à 12 % en 2026) demontre que tout mouvement Democratie Directe accepte instituionnellement se capture automatiquement : sous-traitance Rousseau 12 ans + charisme vertical + regle 2 mandats.",
+      "fiches_concernees": [
+        "m5s_italie",
+        "ric_meta"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-M5S-04",
+        "F-M5S-15",
+        "F-M5S-24",
+        "F-M5S-26",
+        "F-META-01"
+      ],
+      "etendue": 2,
+      "shadow": 2.0
+    },
+    {
+      "id": "TR-004",
+      "concept": "Convergence concentration mediatique : 9 proprietaires Olibopo",
+      "description": "9 proprietaires mediatiques cumul 75-85 % audience TV-radio-presse quotidienne nationale. 0 position officielle pro-RIC. Cadrage Le Monde/Figaro/Les Echos : 80 % edito hostiles, >100 'populisme procedural' Le Monde seul.",
+      "fiches_concernees": [
+        "p3_media",
+        "p3_indif"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-MED10",
+        "F-MED11",
+        "F-MED22",
+        "F-MED23",
+        "F-MED29"
+      ],
+      "etendue": 2,
+      "shadow": 2.3
+    },
+    {
+      "id": "TR-005",
+      "concept": "Effet Condorcet opinion democratique vs urgence",
+      "description": "62-73 % opinion pro-RIC (IFOP 2019, IPSOS vague 14) mais <5 % prioritaire Cevipof vague 16. Ratio 12-15x favorable/non-prioritaire vs pays matures RIC (Suisse 1.6x, Uruguay 2x, Irlande 2.8x). 65 % dangereux politique + 70 % detourner.",
+      "fiches_concernees": [
+        "p3_indif",
+        "p3_socio",
+        "ric_def"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-IND19",
+        "F-IND20",
+        "F-IND21",
+        "F-IND26",
+        "F-IND30"
+      ],
+      "etendue": 3,
+      "shadow": 2.5
+    },
+    {
+      "id": "TR-006",
+      "concept": "Verrous impersonnels superposes : 5 couches M1-M4 + C0",
+      "description": "Verrouillage impersonal structurel : M1 monetaire (BCE/notation/ESM) + M2 militaro-securitaire (art. 16 + DGSI) + M3 technocratique (IGF/CE/Cour des comptes) + M4 transnationale (Bilderberg/Trilaterale) + C0 doctrinale academique (Schoettl/Maus/Fabius).",
+      "fiches_concernees": [
+        "p0_verrous",
+        "p0_bce",
+        "p0_morts"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-VI-25",
+        "F-VI-26",
+        "F-VI-27",
+        "F-VI-28",
+        "F-VI-29"
+      ],
+      "etendue": 3,
+      "shadow": 2.2
+    },
+    {
+      "id": "TR-007",
+      "concept": "Biocide institutionnel lent : 11 morts professionnels RIC",
+      "description": "6 categories de morts institutionnels (parlementaires PPL eteints, lobbys associatifs liquides, figures GJ eteintes, constitutionnalistes recycles, hauts fonctionnaires recycles, medias marginalises). P(releve) 2024-2030 ≈ 0,20-0,25.",
+      "fiches_concernees": [
+        "p0_morts",
+        "ric_meta"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-MORT-28",
+        "F-MORT-29",
+        "F-MORT-30",
+        "F-MORT-26",
+        "F-MORT-27"
+      ],
+      "etendue": 2,
+      "shadow": 2.4
+    },
+    {
+      "id": "TR-008",
+      "concept": "Paradigme expertise technicienne : MBB + Big 4",
+      "description": "4 MBB + Big 4 + 4 cabinets francais servent l Etat francais en silence total sur RIC : 0 position officielle 2017-2026. Depenses conseil 379 M€ (2018) → 900 M€ (2021) = +137 %. 25 000 consultants = 1,25 % fonction publique Etat.",
+      "fiches_concernees": [
+        "p3_lobby",
+        "p3_hfb"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-LOBBY01",
+        "F-LOBBY02",
+        "F-LOBBY03",
+        "F-LOBBY17",
+        "F-LOBBY22"
+      ],
+      "etendue": 2,
+      "shadow": 2.2
+    },
+    {
+      "id": "TR-009",
+      "concept": "Veritables verrous nominatifs hauts fonctionnaires : 20 HF",
+      "description": "CC Fabius + CE Sauvé/Lasserre/Fombeur/Devillers + SGG Grimbert/Moal + Commissions Lois AN/Senat visent le verrou : reforme reglement interieur CC + allongement HATVP + publication memoires SGG.",
+      "fiches_concernees": [
+        "p3_hfb",
+        "p0_verrous"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-HFB04",
+        "F-HFB05",
+        "F-HFB17",
+        "F-HFB18",
+        "F-HFB30"
+      ],
+      "etendue": 2,
+      "shadow": 2.3
+    },
+    {
+      "id": "TR-010",
+      "concept": "Hauts fonctionnaires bloqueurs (HFB) : verrou nominatif individuel",
+      "description": "20 HF identifiables sur 4 etages institutionnels (CC/SGG/CE/Commissions Lois) proteges par anonymat administratif + recyclage pantouflage Rothschild/Lazard/EDF. Reformes techniques : publication rapporteurs CC.",
+      "fiches_concernees": [
+        "p3_hfb",
+        "p0_verrous"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-HFB01",
+        "F-HFB07",
+        "F-HFB14",
+        "F-HFB29",
+        "F-HFB30"
+      ],
+      "etendue": 2,
+      "shadow": 2.3
+    },
+    {
+      "id": "TR-011",
+      "concept": "Opinion pro-RIC silencieuse : 62-73 % non-prioritaire",
+      "description": "Trapped middle 60-70 % pro-RIC mais 30-50 % abstentionnistes = majorite numerique inactive politiquement. Effet Condorcet verrouille invisiblement (ratio France 12-15x vs pays matures RIC 1.6-3.5x).",
+      "fiches_concernees": [
+        "p3_indif",
+        "p3_socio"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-IND19",
+        "F-IND26",
+        "F-IND29",
+        "F-IND30",
+        "F-DEF-17"
+      ],
+      "etendue": 2,
+      "shadow": 2.5
+    },
+    {
+      "id": "TR-012",
+      "concept": "Doctrine Lumières peuple non-compétent : verrous ethique et marketing",
+      "description": "Lexique Lumieres 'peuple doit etre eclaire par elites' traverse cabinets conseil + medias mainstream. >100 mentions 'populisme procedural' Le Monde 2019-2025. Paradigme anti-democratique direct constant.",
+      "fiches_concernees": [
+        "p3_lobby",
+        "p3_media"
+      ],
+      "f_atomiques_justificatifs": [
+        "F-MED15",
+        "F-LOBBY29",
+        "F-MED29",
+        "F-MED30",
+        "F-DEF-26"
+      ],
+      "etendue": 2,
+      "shadow": 2.18
+    }
+  ],
+  "cartes_positions": [
+    {
+      "id": "CART-JUR",
+      "position": "Pour le RIC",
+      "acteur_pour": "PNRED, Solution Democratique France, LFI (Melinchi), EELV (Pochon)",
+      "acteur_contre": "Laurent Fabius (CC), Jean-Eric Schoettl (Club des Juristes nov 2023), Didier de Béchillon, Didier Maus",
+      "argument_pour": "L art. 3 de la Constitution de 1958 proclame la souverainete nationale ; le peuple doit pouvoir l exercer.",
+      "argument_contre": "Le RIC ouvrirait la voie a l instabilite politique, le controle par lobbies, l irreversible des decisions.",
+      "terrain_commun": "Besoin de garde-fous : publication rapporteurs CC (reforme reglement interieur) + plafond financement citoyens 5000€/donateur (Doctrine Terre Bralee).",
+      "dimension": "juridique",
+      "fiches_concernees": [
+        "ric_def",
+        "pnr01",
+        "ppl_timeline",
+        "p3_hfb"
+      ]
+    },
+    {
+      "id": "CART-TECH",
+      "position": "Pour CivicTech-FR open-source",
+      "acteur_pour": "Audrey Tang (modele Taïwan), Toomas Hendrik Ilves (modele X-Road Estonia), Pack CivicTech-FR P3 #16",
+      "acteur_contre": "9 proprietaires GAFAM + Big Tech US + Cloud Act US 2018 + boites noires art. L. 2321-2-1 Code Defense",
+      "argument_pour": "L architecture CivicTech-FR (SecNumCloud + X-Road FR + Papier-First) est un precedent empirique suffisant.",
+      "argument_contre": "L architecture CivicTech-FR destabilise la captation de metadonnees electorales US + risque perte de marche europeen commun.",
+      "terrain_commun": "SecNumCloud immunise juridictionnellement les donnees electorales francaises (test decembre 2024 ANSSI) ; X-Road FR interopable avec eIDAS 2 UE + RGPD 2016.",
+      "dimension": "technique",
+      "fiches_concernees": [
+        "civictech_fr_2027",
+        "pnr01",
+        "verification_p3_16"
+      ]
+    },
+    {
+      "id": "CART-PSY",
+      "position": "Pour RIL communal",
+      "acteur_pour": "Cevipof vague 16, IFOP FJ 2024, AdL 2025",
+      "acteur_contre": "49 % consommateurs médias saturés immobilité politique",
+      "argument_pour": "50-65 % abstentionnistes voteraient a un RIC : premier abaissement helplessness pratique.",
+      "argument_contre": "65 % jugent dangereux de s'intéresser à la politique (Cevipof vague 16).",
+      "terrain_commun": "RIL communal-par-communal + Pacte FRANCS 5-10 % discipline electorale trans-partisane + Judo Rhetorique cantonales 2027.",
+      "dimension": "psychologique",
+      "fiches_concernees": [
+        "p3_indif",
+        "p3_refer_loc",
+        "p3_socio"
+      ]
+    },
+    {
+      "id": "CART-ANT",
+      "position": "Pour democratie directe biocide repoussoir",
+      "acteur_pour": "Simone Weil 1943, M5S capture Casaleggio, rapport Convention citoyenne climat 2021",
+      "acteur_contre": "Cartel transpartisan LREM/LR/PS/EELV/PCF, biocide froid lent sur 11 morts nominatifs",
+      "argument_pour": "Suppression generale des partis politiques + capture institutionnelle mouvements democratie directe documentee.",
+      "argument_contre": "P(releve) 2024-2030 ≈ 0,20-0,25 ; biocide institutionnel plus efficace que violence juridique.",
+      "terrain_commun": "Mausolee RIC memoriel 10 ans 2026-2036 ; 11 fiches biographiques Ruffin/Lassalle/Pochon/Mouraud/Drouet/Nicolle/Schoettl/Maus/Magni-Berton/Schrameck/Belloubet.",
+      "dimension": "anthropologique",
+      "fiches_concernees": [
+        "p0_morts",
+        "ric_meta",
+        "m5s_italie"
+      ]
+    },
+    {
+      "id": "CART-POL",
+      "position": "Contre RIC = cartel transpartisan de rejet",
+      "acteur_pour": "PNRED, Solution Democratique France, LFI (Melinchi), EELV (Pochon)",
+      "acteur_contre": "LREM/Ensemble, LR, PS, RN : absence de soutien RIC dans programmes, Conference des Presidents AN/Senat",
+      "argument_pour": "Le RIC detruit le monopole partisan sur la production legislative + le peuple peut exercer la souverainete nationale (art. 3 Constitution).",
+      "argument_contre": "Le RIC detruit la rente institutionnelle des partis ; aucun parti ne vote sa propre obsolescence.",
+      "terrain_commun": "Discipline de vote trans-partisane 5-10 % concentree sur le seul critere RIC rend tout candidat insensible aux promesses anti-RIC (Pacte FRANCS Judo Rhetorique cantonales 2027).",
+      "dimension": "politique",
+      "fiches_concernees": [
+        "ppl_timeline",
+        "ric_meta",
+        "ric_def"
+      ]
+    },
+    {
+      "id": "CART-ECO",
+      "position": "Contre RIC budgetaire = BCE et Eurogroupe",
+      "acteur_pour": "PNRED CivicTech-FR, M5S Casaleggio (modele Rousseau), PPL 2081 Pochon",
+      "acteur_contre": "Christine Lagarde (BCE), Villeroy de Galhau (Banque de France), agences de notation Moody's/S&P/Fitch",
+      "argument_pour": "Art. 50 TUE permet sortie unilaterale de l'UE ; RIC budgetaire devient declaration de sortie economiquement couteuse mais politiquement souveraine.",
+      "argument_contre": "Le precedent grec 2015 demontre que la democratie budgetaire entre en collision avec l architecture monetaire zone euro.",
+      "terrain_commun": "Discipline trans-partisane + Judo Rhetorique boycott OAT/Bund spread pression economique ; modele Bruegel 2024 -10 points ICRG = +106 pb spread = -2 % PIB.",
+      "dimension": "economique",
+      "fiches_concernees": [
+        "p0_bce",
+        "p3_lobby",
+        "civictech_fr_2027",
+        "pnr01"
+      ]
+    },
+    {
+      "id": "CART-SOC",
+      "position": "Pour RIL communal + CivicTech-FR releve",
+      "acteur_pour": "Gilets Jaunes RIL + PNRED CivicTech-FR + Cevipof vague 16 + AdL 2025",
+      "acteur_contre": "Mass media oligopole + abstention structurelle 57 % + fracture territoriale + Confiance institutions <30 %",
+      "argument_pour": "La majorite numerique inactive politiquement EST la majorite pro-RIC silencieuse : potentiel electoral reel non-mobilise (50-65 % abstentionnistes voteraient a un RIC).",
+      "argument_contre": "Apathie apprise Seligman 1975 : majorite favorable en sentiment mais absent en action ; 50 ans institution centralisee.",
+      "terrain_commun": "RIL communal-par-communal pour abaisser helplessness + Pacte FRANCS 5-10 % discipline electorale trans-partisane + Judo Rhetorique cantonales 2027 mobilisation rurale.",
+      "dimension": "sociale",
+      "fiches_concernees": [
+        "p3_indif",
+        "p3_socio",
+        "p0_morts",
+        "pnr01"
+      ]
+    },
+    {
+      "id": "CART-ETH",
+      "position": "Pour democratie directe vs democratie deliberative",
+      "acteur_pour": "Simone Weil 1943, legitimite populaire vs legitimite representative",
+      "acteur_contre": "Doctrine constitutionnaliste Schrameck/Fabius/Maus + Lumieres peuple eclaire par elites",
+      "argument_pour": "La souverainete populaire prevaut sur la souverainete des experts elus ; legitimite democratique directe est superieure.",
+      "argument_contre": "Democratie deliberative opposee au referendum immediat ; le peuple doit etre eclaire par elites pour eviter la passion collective.",
+      "terrain_commun": "Ouvrir un debat ethique structurel : legitimite populaire n est pas inferieure a la legitimite representative, elle est condition d ejointement systeme.",
+      "dimension": "ethique",
+      "fiches_concernees": [
+        "ric_def",
+        "p3_hfb",
+        "p3_media",
+        "p3_lobby"
+      ]
+    },
+    {
+      "id": "CART-NAR",
+      "position": "Contre RIC = cadrage mediatique oligopole",
+      "acteur_pour": "PNRED CivicTech-FR open-source + Substack @giak >80% articles pro-RIC francophones",
+      "acteur_contre": "Vivendi Bolloré + Bouygues + Dassault + LVMH + editorialistes Le Monde/Figaro/Les Echos + 27 loups nominatifs",
+      "argument_pour": "L audience migre hors mass media vers CivicTech-FR open-source ; perte d influence compensee par nouvelle legitimite citoyenne.",
+      "argument_contre": "Le RIC est un danger populiste procedural pour la democratie deliberative (>100 mentions 'populisme procedural' Le Monde seul).",
+      "terrain_commun": "Plateforme open-source de mesure d audience ACPM ouvert montrer ecarts opinion vs cadrage (Levier 3 P3 #8) + tribunes grand public Le Monde/Figaro zones tribune libre periferique (Levier 2 P3 #8).",
+      "dimension": "narrative",
+      "fiches_concernees": [
+        "p3_media",
+        "p3_indif",
+        "civictech_fr_2027"
+      ]
+    },
+    {
+      "id": "CART-SCI",
+      "position": "Pour CivicTech open-source + verification tierce",
+      "acteur_pour": "Audrey Tang, Toomas Hendrik Ilves, Andreas Bausewein (Ostbelgien) + tierce verification P3 #18",
+      "acteur_contre": "Conseil constitutionnel (inertie) + Schoettl 10 objections + Bundesbank/Karlsruhe",
+      "argument_pour": "La precision juridique LLM requiert une consultation sources institutionnelles systematique, pas des models speculatifs. Tierce verification regressive 96 % à 72 %24 : posture forensique non-masquee.",
+      "argument_contre": "Les modeles CivicTech etrangers prouves sont negliges dans le debat francais post-2018 ; risque d extrapolation sans precedent empirique francais.",
+      "terrain_commun": "Ratifier formellement les modeles etrangers X-Road Estonia + Bürgerrat Ostbelgien + vTaiwan Taïwan comme references institutionnelles CivicTech-FR, transposes par voie legislatiive.",
+      "dimension": "scientifique",
+      "fiches_concernees": [
+        "civictech_fr_2027",
+        "verification_p3_16",
+        "pnr01",
+        "ric_def"
+      ]
+    },
+    {
+      "id": "CART-COM",
+      "position": "Contre RIC = 9 proprietaires concentration capitalistique",
+      "acteur_pour": "PNRED CivicTech-FR open-source + Substack/YouTube/Telegram + Pacte FRANCS reseau",
+      "acteur_contre": "Vivendi, Bouygues, CMA CGM, Lagardere, Dassault, LVMH, NRJ, M6, Amaury (cumul 75-85% audience)",
+      "argument_pour": "L audience migrera hors mass media vers CivicTech-FR open-source ; perte d influence compensee par nouvelle legitimite citoyenne.",
+      "argument_contre": "Concentration capitalistique verrouille stable depuis 8 ans ; 0 position officielle pro-RIC ; agenda-setting sature RIC <1% temps antenne.",
+      "terrain_commun": "Loi organique indexmination publique contrats Cabinet Conseil > 2M€ a Etat + Pack CivicTech-FR Loi 3 LOPPSI 4 anti-surveillance mediatique numerique.",
+      "dimension": "communication",
+      "fiches_concernees": [
+        "p3_media",
+        "p3_indif",
+        "civictech_fr_2027"
+      ]
+    },
+    {
+      "id": "CART-MKT",
+      "position": "Contre RIC = cabinets MBB + Big 4 marketing anti-RIC",
+      "acteur_pour": "Doctrine de la Terre Bralee : interdiction personnes morales financement RIC + plafond citoyen 5000€/donateur",
+      "acteur_contre": "McKinsey, BCG, Bain, Roland Berger, EY, Deloitte, KPMG, PwC, Sia Partners (depenses +137% 2018-2021)",
+      "argument_pour": "L anti-capture fonctionne via open-source gouvernance CivicTech-FR + taux limite + neutralite plateforme (modele Decidim LFI).",
+      "argument_contre": "Le paradigme expertise technicien pouvoir decider verrouille les outils populaires : 'risque capture californienne/lobbies/Brexit'.",
+      "terrain_commun": "Doctrine de la Terre Bralee : interdiction personnes morales au RIC + plafond citoyen <5000€/donateur + audit independant via CivicTech open-source (Levier 1 P3 #5).",
+      "dimension": "marketing",
+      "fiches_concernees": [
+        "p3_lobby",
+        "ric_def",
+        "civictech_fr_2027",
+        "m5s_italie"
+      ]
+    },
+    {
+      "id": "CART-REL",
+      "position": "Contre RIC bioethique (neutre sur RIC technique)",
+      "acteur_pour": "PNRED CivicTech-FR (RIL numerique, RIL systeme penal, RIL gouvernance locale : RIC securise culturellement)",
+      "acteur_contre": "CEF + CFCM + FPF + Alliance VITA + AFC + Fondation Jerome Lejeune + Europe-Euthanasie.org + Senateur Francis Szpiner (LR)",
+      "argument_pour": "Concentrer le RIC sur les questions techniquement et culturellement securisees (numerique, systeme penal, gouvernance locale) plutot que sur bioethique. Argument ethique : l'Eglise catholique accepte le vote populaire sur questions techniques mais refuse le vote populaire sur valeurs morales non-negociables.",
+      "argument_contre": "Dignitas Infinita Vatican 8 avril 2024 : dignite humaine inviolable independante du vote majoritaire. Subsidiarite Quadragesimo Anno 1931 : la famille ne doit pas etre absorbee dans l'Etat. Bloc mobilisable ~50% Francais anti-bioethique.",
+      "terrain_commun": "Exclure explicitement les sujets bioethiques du champ RIC par irrecevabilite CC renforcee (art. 11 interpretation stricte politique sociale/economique/environnementale). Recentrer RIC programme sur RIL numerique + RIL systeme penal + RIL gouvernance locale : terrain culturellement securise.",
+      "dimension": "religieuse",
+      "fiches_concernees": [
+        "p0_religieux",
+        "ric_def",
+        "ppl_timeline"
+      ]
+    },
+    {
+      "id": "CART-GEO",
+      "position": "Pour transfert modeles etrangers eprouves (Suisse/Italie/Uruguay/Baviere)",
+      "acteur_pour": "PNRED CivicTech-FR + Audrey Tang (modele Taiwan JOIN.open) + Toomas Hendrik Ilves (modele X-Road Estonia) + Andreas Bausewein (modele Buergerrat Ostbelgien)",
+      "acteur_contre": "Conseil Constitutionnel inertie + doctrine Schoettl/Maus/Fabius + Bundesbank/Karlsruhe + capture M5S-Casaleggio comme repoussoir",
+      "argument_pour": "5 precedents etrangers prouves (Suisse 1891+, Italie 1970+, Liechtenstein 1921, Uruguay 1989+, Baviere 1946+) demontrent que le RIC est operationnel sans capture populiste majeure pendant 80+ ans. Transfert des preuves empiriques etrangeres vers le cadre constitutionnel francais par voie legislative.",
+      "argument_contre": "Le RIC francais est condamne a reinventer des precedents connus plutot que transferer les preuves. La capture M5S (32,7% en 2018 a 12% en 2026 sur 48 deputes) sert de repoussoir pour bloquer tout debat. Doctrine francaise Lumieres peuple eclaire par elites refuse le transfert.",
+      "terrain_commun": "Ratifier formellement les modeles etrangers X-Road Estonia + Buergerrat Ostbelgien + vTaiwan Taiwan + RIC Suisse/Italie/Liechtenstein/Uruguay/Baviere comme references institutionnelles CivicTech-FR, transposees par voie legislative. ENQ-03/04/05 Q3 2026 produisent les 3 fiches documentaires completes (Baviere 80 ans, Uruguay 40 ans, Californie 50 ans).",
+      "dimension": "geopolitique",
+      "fiches_concernees": [
+        "m5s_italie",
+        "p3_cedh",
+        "civictech_fr_2027",
+        "ric_def"
+      ]
+    },
+    {
+      "id": "CART-FIS",
+      "position": "Contre RIC budgetaire = BCE verrou monetaire intra-euro",
+      "acteur_pour": "PNRED CivicTech-FR (RIC numerique/penal/gouvernance) + deputes souverainistes (art. 50 TUE Frexit) + pacte FRANCS discipline electorale",
+      "acteur_contre": "Christine Lagarde (BCE) + Villeroy de Galhau (Banque de France) + Moody\\'s/S&P/Fitch + Eurogroupe informel + Bundesbank",
+      "argument_pour": "Art. 50 TUE permet sortie unilaterale de l'UE ; RIC budgetaire devient declaration de sortie economiquement couteuse mais politiquement souveraine. Discipline trans-partisane 5-10% Pacte FRANCS + Judo Rhetorique boycott OAT/Bund spread pression economique (Bruegel 2024 -10 points ICRG = +106 pb spread = -2% PIB).",
+      "argument_contre": "Le precedent grec 5 juillet 2015 (OXI 61,31% puis capitulation Tsipras 13 juillet face au gel ELA BCE + controles capitaux 60€/jour) demontre que la democratie budgetaire entre en collision frontale avec l'architecture monetaire zone euro. Cout d'un spread a 200 pdb pendant 6 mois = +25-50 Md€ supplementaires pour la France. 80 Md€/an de niches fiscales comme angle mort documentaire.",
+      "terrain_commun": "Discipline trans-partisane + Judo Rhetorique boycott OAT/Bund spread pression economique. Enquete dediee recommandee : 'RIC et niches fiscales 80 Md€/an' (backlog 2027+) pour documenter concretement ce que le RIC budgetaire changerait (TVA/CSG/IS/IR). Modele Carney BIS 2021 monnaie digitale souveraine + stripping dette nationale des marches (trajectoire 10-15 ans).",
+      "dimension": "economique",
+      "fiches_concernees": [
+        "p0_bce",
+        "p0_verrous",
+        "pnr01",
+        "civictech_fr_2027"
+      ]
+    }
+  ],
+  "gaps": [
+    "GAP-001 : Analyse INA quantitative du temps d antenne RIC 2018-2024 : inaccessible publiquement (donnees INA payantes), gap recurrent",
+    "GAP-002 : Enquete AdL 2025 '50-65 % abstentionnistes voteraient a un RIC' : donnees AdL non publiees publiquement",
+    "GAP-003 : Composition nominative des deliberations CC avant vote : non public ; les fiches forensiques deduissent des positionspubliquement",
+    "GAP-004 : Munemolite mode degrade cross-series (Dette 3200 Md€, Evasion Fiscale 80-100 Md€/an, Verrouillage): transversalites non explorees en mode degrade",
+    "GAP-005 : Reseaux pantouflage IGF-CNCCFP-Cabinets : detail non auditable publiquement",
+    "GAP-006 : Actionnaires lounduen des 9 proprietaires mediatiques et leur caractere a double verrou : partiellemznt documente par Acrimed",
+    "GAP-007 : Doctrines secretes 8 IGF + 20 CE sur RIC : inference raisonnable sur les 'notes blanches' mais pas de preuve documentaire directe",
+    "GAP-008 : Auteur de la PPL 722 (17 decembre 2024) RIC constitutionnel : non identifie",
+    "GAP-009 : Modulataison type previous Loi de Transparence 2013 Sapin II vs motion de renvoi sequence : precedent documentaire absent",
+    "GAP-010 : Profil de l electeur M5S 2026 (age, CSP, geographie) : non documente",
+    "GAP-011 : Avenir du CivicTech-FR post-CivicTech-FR 2027 : strategie 2027-2030 sous-specifie",
+    "GAP-012 : Position officielle CivicTech-FR face a l OMT/TPI 2025 Revidées : les inegales conditions : sous-specifie"
+  ],
+  "shadow_factor_global": 2.4,
+  "fiches_count": 29,
+  "shadow_factor_median": 2.4,
+  "shadow_factor_distribution": {
+    "shadow_under_2_5": 15,
+    "shadow_2_5_to_3": 13,
+    "shadow_3_or_higher": 4
+  },
+  "mnemo_context": {
+    "searches": [
+      {
+        "query": "MNEMOLITE DOWN sur l ensemble des 29 fiches (mode degrade 2026-07-05)",
+        "results": 0,
+        "top_hits": [],
+        "status": "degraded_mode"
+      },
+      {
+        "query": "Cross-series : Dette 3 200 Md€ + Evasion Fiscale 80-100 Md€/an + Verrouillage systemique",
+        "results": 0,
+        "top_hits": [],
+        "status": "not_executed_mnemolite_down"
+      }
+    ],
+    "cross_series_detected": false,
+    "cross_series_details": "Mnemolite UP -non verifie sur cette session Synthe v35 RIC. Mode degrade cross-series preserve les transversalités documentées dans chaque fiche integree mais n explore pas les transversales cross-dossiers (sumer, evasion, dette, verrou, justice, etc.). Pour activer Mode Pro : 'Mnemolitie UP + search_memory(query=\"concept cross-serie RIC\")' 1 requete par dimension soit 12 minimum recommande P3 #18.",
+    "mnemolite_status": "DOWN - non-interroge, mode degrade cross-series",
+    "indexation_post_validation": "Apres CP2 humain, executer 1 write_memory par dimension (12 indexations) avec memory_type='reference', tags=['sys:project:truth-engine', 'dossier:ric', 'complexity:APEX', 'dimension:juridique|technique|psychologique|anthropologique|politique|economique|sociale|ethique|narrative|scientifique|communication|marketing']",
+    "degraded_mode_accepte": true,
+    "note_forensique": "Mode degrade cross-series preserve. THESE-REL/GEO/FIS ajoutees 2026-07-05 (3 nouvelles theses sur 12 initiales = 15 theses cardinales totales). F## GEO corriges post code-reviewer-minimax-m3 audit : 13 F## GEO-centres uniques (exclusion F-CEDH08 JUR Moohan/Gillon + F-CEDH17/18 JUR Venise + F-PNR10 TECH SecNumCloud). shadow_factor_distribution recalculee 32 valeurs (29 fiches + 3 theses) : under_2_5=15, 2_5_to_3=13, 3_or_higher=4. median 2.4 stable. total_faits_atomiques 773 (F##-uniques) + total_faits_references 811 (F##-référencés) documentes pour clarte forensique cross-theses."
+  },
+  "theses_count": 15,
+  "total_faits_references": 812,
+  "total_theses_15_f_references_count": 143,
+  "convention_comptage_faits": "total_faits_atomiques (773) = F##-uniques sur 29 fiches Saison 1. total_faits_references (811) = cumul F##-référencés par les 15 theses cardinales (38-39 F## ré-utilisés par les 3 nouvelles theses REL/GEO/FIS). Convention retenue : synthese.json documente les 2 métriques pour transparence forensique cross-theses."
+}
