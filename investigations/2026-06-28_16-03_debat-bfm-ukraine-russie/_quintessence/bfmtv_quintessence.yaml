@@ -1,0 +1,170 @@
+enquete_id: "bfmtv"
+complexity: "COMPLEX"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-00_bfmtv-media-propagande-etat-otan-ue_INVESTIGATION.md"
+
+these_centrale: "BFMTV n'est pas un média de propagande au sens classique mais un vecteur de soft propaganda structurelle : alignement systémique avec l'État, l'UE et l'OTAN produit par concentration capitalistique, sélection des experts, omissions systématiques et cadrage dramatique."
+
+theses_implicites:
+  - "La concentration capitalistique des médias français (9 propriétaires, ~90% d'audience) produit mécaniquement un récit convergent sans besoin d'instructions"
+  - "L'État français est actionnaire indirect de BFMTV via Bpifrance (3% de CMA CGM), créant un conflit d'intérêt structurel"
+  - "Le revolving door (Ramon Fernandez, ex-DG Trésor → président RMC BFM) verrouille l'alignement éditorial"
+
+faits_atomiques:
+  - id: "F-bfmtv-001"
+    enonce: "BFMTV créée en 2005 par Alain Weill (NextRadioTV)"
+    source_url: "https://fr.wikipedia.org/wiki/BFMTV"
+    source_section: "§RÉSUMÉ EXÉCUTIF"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bfmtv-002"
+    enonce: "Rachat par Altice (Patrick Drahi) en 2015"
+    source_url: "https://fr.wikipedia.org/wiki/BFMTV"
+    source_section: "§CHRONOLOGIE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bfmtv-003"
+    enonce: "Rachat par CMA CGM (Rodolphe Saadé) pour 1,55 Md€ en juillet 2024"
+    source_url: "https://www.lemonde.fr/economie/article/2024/07/02/le-rachat-de-bfmtv-par-cma-cgm-autorise-par-l-arcom_6243205_3234.html"
+    source_section: "§CARTE DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bfmtv-004"
+    enonce: "CMA CGM détenue à 73% par famille Saadé, 24% Yildirim, 3% Bpifrance"
+    source_url: "https://en.wikipedia.org/wiki/CMA_CGM"
+    source_section: "§CARTE DES PREUVES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bfmtv-005"
+    enonce: "Segment BFMTV 28 juin 2026 : 4 invités, 0 pro-russe, 0 sceptique, 0 mention des accords d'Istanbul, 0 mention des pertes civiles"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bfmtv-006"
+    enonce: "Ramon Fernandez (ex-DG Trésor) nommé président de RMC BFM en juillet 2025"
+    source_url: "https://www.lemonde.fr/economie/article/2025/07/15/ramon-fernandez-nomme-president-de-rmc-bfm_6248321_3234.html"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bfmtv-007"
+    enonce: "Affaire Rachid M'Barki : désinformation via BFMTV par officine israélienne Team Jorge (février 2023)"
+    source_url: "https://www.forbiddenstories.org/story-killers/"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bfmtv-008"
+    enonce: "\"40 jours d'offensive\" : artefact narratif jamais attribué à une source dans le débat"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§FACT_REGISTRY C"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-bfmtv-009"
+    enonce: "\"Documents internes russes\" : présentés comme preuve, jamais nommés ni vérifiés"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§FACT_REGISTRY C"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-bfmtv-010"
+    enonce: "9 propriétaires contrôlent ~90% des médias français (RSF, Acrimed)"
+    source_url: "https://rsf.org/fr/classement"
+    source_section: "§DOMAINES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Rodolphe Saadé"
+    role: "PDG CMA CGM, propriétaire de BFMTV"
+    faits_lies: ["F-bfmtv-003", "F-bfmtv-004"]
+  - nom: "Ramon Fernandez"
+    role: "Président RMC BFM, ex-DG Trésor"
+    faits_lies: ["F-bfmtv-006"]
+  - nom: "Patrick Drahi"
+    role: "Ancien propriétaire Altice"
+    faits_lies: ["F-bfmtv-002"]
+  - nom: "Alain Weill"
+    role: "Fondateur BFMTV"
+    faits_lies: ["F-bfmtv-001"]
+  - nom: "Bpifrance"
+    role: "Banque publique, actionnaire 3% CMA CGM"
+    faits_lies: ["F-bfmtv-004"]
+
+causalites:
+  - cause: "F-bfmtv-003"
+    effet: "F-bfmtv-006"
+    mecanisme: "Le rachat de BFMTV par CMA CGM permet la nomination de Ramon Fernandez (ex-DG Trésor) à la présidence, créant un revolving door État-média"
+  - cause: "F-bfmtv-005"
+    effet: "F-bfmtv-008"
+    mecanisme: "L'absence de pluralisme dans le plateau permet la circulation d'artefacts narratifs non vérifiés"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle"
+    argument: "BFMTV est une chaîne d'info indépendante. Ses experts sont reconnus. Les rachats sont des opérations normales. La ligne pro-Ukraine reflète la réalité."
+  - position: "Contre-thèse structurelle"
+    argument: "BFMTV est un rouage d'un dispositif de guerre cognitive : concentration capitalistique, revolving door, purge éditoriale, artefacts narratifs, régulateur impuissant."
+  - position: "Synthèse"
+    argument: "Pas de propagande au sens classique (mensonge direct). Mais soft propaganda structurelle : omission systématique des alternatives et cadrage univoque qui produisent un consentement à la guerre sans fin."
+
+limites:
+  - "Pas d'accès aux documents internes de BFMTV ou CMA CGM"
+  - "Pas de preuve de coordination directe État→ligne éditoriale"
+  - "Analyse concentrée sur un seul segment de 30 minutes"
+
+wolves:
+  - nom: "Direction de BFMTV"
+    argument: "Le pluralisme est respecté, les invités sont choisis pour leur expertise"
+    reponse: "0 invité russe ou sceptique sur 4 = pluralisme nul par construction"
+  - nom: "Ramon Fernandez"
+    argument: "Ma nomination est une question de compétences, pas de conflit d'intérêt"
+    reponse: "Le circuit Trésor→Orange→CMA CGM→RMC BFM crée un alignement structurel, intentionnel ou non"
+
+iceberg:
+  - "Le financement précis des experts invités (combien sont payés, par qui ?) n'est pas traité"
+  - "La comparaison avec le traitement d'autres conflits (Gaza, Sahel) n'est pas faite"
+
+chronologie:
+  - date: "2005"
+    evenement: "Création BFMTV par Alain Weill"
+    source_fait: "F-bfmtv-001"
+  - date: "2015"
+    evenement: "Rachat par Altice (Drahi)"
+    source_fait: "F-bfmtv-002"
+  - date: "2024-07"
+    evenement: "Rachat par CMA CGM (Saadé) pour 1,55 Md€"
+    source_fait: "F-bfmtv-003"
+  - date: "2025-07"
+    evenement: "Ramon Fernandez nommé président RMC BFM"
+    source_fait: "F-bfmtv-006"
+  - date: "2026-06-28"
+    evenement: "Segment analysé : 0 pluralisme, 0 contre-narratif"
+    source_fait: "F-bfmtv-005"
+
+domaines:
+  - "Médias"
+  - "Propagande"
+  - "Géopolitique"
+  - "Économie"
+  - "Droit des médias"
+
+urls_prioritaires:
+  - url: "https://www.lemonde.fr/economie/article/2024/07/02/le-rachat-de-bfmtv-par-cma-cgm-autorise-par-l-arcom_6243205_3234.html"
+    description: "Article de référence sur le rachat de BFMTV par CMA CGM"
+    head_status: 200
+
+shadow_factor: 2.8
+
+mnemo_queries:
+  - query: "BFMTV CMA CGM rachat Saadé"
+    results_count: 0
+  - query: "soft propaganda structurelle médias France"
+    results_count: 0

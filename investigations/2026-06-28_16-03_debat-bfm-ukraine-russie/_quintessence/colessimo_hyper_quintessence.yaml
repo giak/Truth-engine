@@ -1,0 +1,100 @@
+enquete_id: "colessimo_hyper"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_19-30_synthese-colessimo-hyper-matrice_HYPER_MATRICE.md"
+
+these_centrale: "Jean-François Colessimo intervient comme contre-point intellectuel provocateur plutôt qu'expert technique : 67% de ses affirmations sont des constructions rhétoriques (⁕), 33% partiellement fondées (✧), et son autorité d'historien de la Russie masque une absence d'expertise militaire, démographique et stratégique."
+
+theses_implicites:
+  - "La provocation rhétorique sert de stratégie d'ouverture : ses formules choc attirent l'attention au détriment de la précision"
+  - "Colessimo normalise les concessions territoriales en présentant la paix insatisfaisante comme inévitable"
+  - "L'asymétrie démographique ×3.6 (Russie/Ukraine) rend ses comparaisons symétriques trompeuses"
+
+faits_atomiques:
+  - id: "F-colessimo-001"
+    enonce: "0% ✦, 33% ✧, 67% ⁕ sur 6 affirmations de Colessimo dans le débat"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_19-30_synthese-colessimo-hyper-matrice_HYPER_MATRICE.md"
+    source_section: "§TABLEAU COMPARATIF"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-colessimo-002"
+    enonce: "Spécialiste du christianisme orthodoxe — aucune formation militaire documentée"
+    source_url: "https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Colessimo"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-colessimo-003"
+    enonce: "Directeur général des Éditions du Cerf — publie ses livres sur l'Ukraine (conflit d'intérêt éditorial)"
+    source_url: "https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Colessimo"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-colessimo-004"
+    enonce: "Aide occidentale totale à l'Ukraine dépasse 200 Md€ — contredit le cadrage « les alliés ont bridé l'Ukraine »"
+    source_url: "https://www.ifw-kiel.de/topics/war-against-ukraine/"
+    source_section: "§TABLEAU DES TENSIONS"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-colessimo-005"
+    enonce: "Population russe ×3.6 l'Ukraine → impact démographique catastrophique pour l'Ukraine (-30%), pas symétrique"
+    source_url: "https://www.worldbank.org/"
+    source_section: "§CARTE DIALECTIQUE aff.05"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Jean-François Colessimo"
+    role: "Historien, théologien, directeur éditions Cerf, intervenant médiatique"
+    faits_lies: ["F-colessimo-001", "F-colessimo-002", "F-colessimo-003"]
+
+causalites:
+  - cause: "F-colessimo-001"
+    effet: "F-colessimo-002"
+    mecanisme: "L'absence d'expertise militaire explique que 67% de ses affirmations soient rhétoriques"
+
+perspectives_dialectiques:
+  - position: "Colessimo comme expert"
+    argument: "Historien reconnu de la Russie, analyse en profondeur les racines du conflit."
+  - position: "Colessimo comme généraliste"
+    argument: "Son expertise est religieuse, pas militaire. Il parle de stratégie sans compétence."
+  - position: "Synthèse"
+    argument: "Compétent en histoire religieuse, son autorité est étendue indûment à la stratégie militaire."
+
+limites:
+  - "Absence de formation militaire = fait mais n'invalide pas automatiquement ses analyses"
+  - "Track record de prédictions non vérifié systématiquement"
+
+wolves:
+  - nom: "Colessimo (lui-même)"
+    argument: "Je suis historien, je connais la Russie. Mon analyse apporte de la profondeur."
+    reponse: "Vous êtes spécialiste du christianisme orthodoxe, pas de stratégie militaire. 67% de vos affirmations sont rhétoriques."
+
+iceberg:
+  - "Tirage des livres de Colessimo sur l'Ukraine"
+  - "Son réseau d'influence réel (liens avec quels think tanks, quels partis)"
+  - "Son évolution de position sur le conflit depuis 2022"
+
+chronologie:
+  - date: "2022"
+    evenement: "Publication « La Crucifixion de l'Ukraine »"
+    source_fait: ""
+  - date: "2024"
+    evenement: "Publication « Occident : ennemi mondial n°1 »"
+    source_fait: ""
+  - date: "2026-06-28"
+    evenement: "Intervention BFM (séquences 1532-1568)"
+    source_fait: "F-colessimo-001"
+
+domainaines:
+  - "Histoire des religions"
+  - "Géopolitique"
+  - "Analyse médiatique"
+
+shadow_factor: 2.5
+
+mnemo_queries: []

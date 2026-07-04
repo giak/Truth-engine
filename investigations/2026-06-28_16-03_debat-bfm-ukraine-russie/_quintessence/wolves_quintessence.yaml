@@ -1,0 +1,169 @@
+enquete_id: "wolves"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_wolves-systeme-mediatique-francais_INVESTIGATION.md"
+
+these_centrale: "Le système médiatique français est un oligopole de 9 propriétaires (dont l'État via Bpifrance) qui contrôlent ~90% de l'audience, produisant mécaniquement un récit convergent sans besoin de conspiration."
+
+theses_implicites:
+  - "Les 9 propriétaires partagent une même vision du monde : atlantisme, européisme, libéralisme économique"
+  - "L'État français est à la fois actionnaire indirect de médias privés (Bpifrance → CMA CGM → BFMTV) et propriétaire de médias publics (France TV, Radio France)"
+  - "Le pluralisme formel français (multiplicité des chaînes) masque un pluralisme réel nul (convergence des lignes éditoriales)"
+
+faits_atomiques:
+  - id: "F-wolves-001"
+    enonce: "9 propriétaires contrôlent ~90% des médias français (RSF, Acrimed)"
+    source_url: "https://rsf.org/fr/classement"
+    source_section: "§CARTE DES PREUVES #1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-wolves-002"
+    enonce: "Vivendi (Bolloré) possède CNews, Europe 1, Canal+, JDD, Paris Match"
+    source_url: "https://fr.wikipedia.org/wiki/Vivendi"
+    source_section: "§CARTE DES PREUVES #2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-wolves-003"
+    enonce: "CMA CGM (Saadé) possède BFMTV, RMC, La Provence, La Tribune (rachat 1,55 Md€)"
+    source_url: "https://www.lemonde.fr/economie/article/2024/07/02/le-rachat-de-bfmtv-par-cma-cgm-autorise-par-l-arcom_6243205_3234.html"
+    source_section: "§CARTE DES PREUVES #3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-wolves-004"
+    enonce: "Bouygues possède TF1, LCI"
+    source_url: "https://fr.wikipedia.org/wiki/Groupe_TF1"
+    source_section: "§CARTE DES PREUVES #4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-wolves-005"
+    enonce: "LVMH (Arnault) possède Les Échos, Le Parisien, Radio Classique"
+    source_url: "https://fr.wikipedia.org/wiki/LVMH"
+    source_section: "§CARTE DES PREUVES #5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-wolves-006"
+    enonce: "NJJ Presse (Niel) possède Le Monde, L'Obs, Nice-Matin"
+    source_url: "https://fr.wikipedia.org/wiki/NJJ_Presse"
+    source_section: "§CARTE DES PREUVES #6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-wolves-007"
+    enonce: "Groupe Dassault possède Le Figaro"
+    source_url: "https://fr.wikipedia.org/wiki/Groupe_Dassault"
+    source_section: "§CARTE DES PREUVES #7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-wolves-008"
+    enonce: "État français : France Télévisions, Radio France, France Médias Monde + Bpifrance actionnaire CMA CGM (3%)"
+    source_url: "https://fr.wikipedia.org/wiki/Bpifrance"
+    source_section: "§CARTE DES PREUVES #8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-wolves-009"
+    enonce: "L'Arcom n'a jamais bloqué un rachat de média en France"
+    source_url: "https://www.arcom.fr/decisions"
+    source_section: "§CARTE DES PREUVES #9"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-wolves-010"
+    enonce: "Les mêmes experts (Goya, Ancel, Colessimo) invités sur tous les plateaux pour l'Ukraine"
+    source_url: "https://www.arcom.fr/etudes/pluralisme"
+    source_section: "§CARTE DES PREUVES #10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Vincent Bolloré"
+    role: "Propriétaire Vivendi/Canal+ — CNews, Europe 1, JDD, Paris Match"
+    faits_lies: ["F-wolves-002"]
+  - nom: "Rodolphe Saadé"
+    role: "PDG CMA CGM — BFMTV, RMC, La Provence"
+    faits_lies: ["F-wolves-003"]
+  - nom: "Martin Bouygues"
+    role: "Propriétaire TF1, LCI"
+    faits_lies: ["F-wolves-004"]
+  - nom: "Bernard Arnault"
+    role: "Propriétaire LVMH — Les Échos, Le Parisien"
+    faits_lies: ["F-wolves-005"]
+  - nom: "Xavier Niel"
+    role: "Propriétaire NJJ Presse — Le Monde, L'Obs"
+    faits_lies: ["F-wolves-006"]
+  - nom: "Famille Dassault"
+    role: "Propriétaire Le Figaro"
+    faits_lies: ["F-wolves-007"]
+  - nom: "État français"
+    role: "Propriétaire médias publics + actionnaire indirect BFMTV via Bpifrance"
+    faits_lies: ["F-wolves-008"]
+
+causalites:
+  - cause: "F-wolves-002"
+    effet: "F-wolves-003"
+    mecanisme: "La concentration s'accélère : Bolloré (2016) → Saadé (2024) — les rachats se multiplient sans contrôle"
+  - cause: "F-wolves-002"
+    effet: "F-wolves-009"
+    mecanisme: "L'Arcom ne bloque jamais ces rachats malgré la concentration croissante"
+
+perspectives_dialectiques:
+  - position: "Narratif officiel"
+    argument: "La France a des médias pluralistes et indépendants. Le marché est concurrentiel. La diversité des propriétaires garantit la diversité des opinions."
+  - position: "Contre-narratif structurel"
+    argument: "9 propriétaires pour 90% d'audience, c'est un oligopole. Les divergences sont des nuances dans un consensus atlantiste, européiste et libéral."
+  - position: "Synthèse"
+    argument: "Le pluralisme formel existe (multiplicité des chaînes) mais le pluralisme réel est nul (tous alignés sur les mêmes sujets). Le système est verrouillé par construction."
+
+limites:
+  - "Pas d'accès aux données d'audience consolidées par propriétaire"
+  - "Les chiffres « ~90% » sont une estimation RSF, pas un calcul précis"
+  - "L'alignement des lignes éditoriales est constaté mais pas quantifié"
+
+wolves:
+  - nom: "Propriétaires de médias"
+    argument: "Chaque média a sa propre ligne éditoriale. Nous n'intervenons pas dans les choix éditoriaux."
+    reponse: "Vous nommez les directions, les directions nomment les rédactions. Vous n'avez pas besoin de donner d'ordres."
+  - nom: "Arcom"
+    argument: "Le pluralisme est respecté. Nous n'avons pas à contrôler la propriété."
+    reponse: "C'est exactement le problème : le régulateur refuse de réguler la concentration."
+
+iceberg:
+  - "Part d'audience exacte des 9 propriétaires (vs les 2% restants)"
+  - "Réseau des conseils d'administration croisés entre les 9 groupes"
+  - "Dépenses de lobbying des 9 propriétaires auprès de l'État et de l'Arcom"
+
+chronologie:
+  - date: "1986"
+    evenement: "Privatisation TF1 (Bouygues) — premier oligopole privé"
+    source_fait: ""
+  - date: "2016"
+    evenement: "Bolloré rachète Canal+ / CNews"
+    source_fait: "F-wolves-002"
+  - date: "2024"
+    evenement: "Saadé rachète BFMTV / RMC"
+    source_fait: "F-wolves-003"
+  - date: "2025"
+    evenement: "9 propriétaires contrôlent ~90% des médias français"
+    source_fait: "F-wolves-001"
+
+domainaines:
+  - "Médias"
+  - "Concentration / oligopole"
+  - "Pluralisme"
+  - "Gouvernance"
+
+urls_prioritaires:
+  - url: "https://fr.wikipedia.org/wiki/Concentration_des_médias_en_France"
+    description: "Concentration des médias en France"
+    head_status: 200
+
+shadow_factor: 2.8
+
+mnemo_queries: []

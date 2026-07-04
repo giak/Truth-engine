@@ -1,0 +1,107 @@
+enquete_id: "ancel_hyper"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_19-00_synthese-ancel-hyper-matrice_HYPER_MATRICE.md"
+
+these_centrale: "Guillaume Ancel construit un récit de menace imminente et existentielle autour de Poutine, mais 86% de ses affirmations sont des constructions rhétoriques (⁕) — il est un expert médiatique construit, pas un décideur ou stratège actif."
+
+theses_implicites:
+  - "Le grade « lieutenant-colonel » est utilisé comme autorité absolue sans mentionner 21 ans hors service (2005-2026)"
+  - "Des patterns historiques (coup de force russe) sont présentés comme des certitudes pour le présent"
+  - "Ancel est un produit du système médiatique autant qu'un analyste indépendant"
+
+faits_atomiques:
+  - id: "F-ancel-001"
+    enonce: "0% de faits confirmés (✦), 14% d'attestés (✧), 86% de constructions rhétoriques (⁕) sur 7 affirmations"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_19-00_synthese-ancel-hyper-matrice_HYPER_MATRICE.md"
+    source_section: "§DISTRIBUTION DES VERDICTS"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-ancel-002"
+    enonce: "135 menaces nucléaires de Poutine documentées (VOA) ; « 200+ » plausible non vérifié"
+    source_url: "https://www.voanews.com/"
+    source_section: "§TABLEAU COMPARATIF aff.04"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ancel-003"
+    enonce: "21 ans hors service (2005-2026) ; dernière expérience terrain : 1996 (Bosnie, pré-drones)"
+    source_url: "https://fr.wikipedia.org/wiki/Guillaume_Ancel"
+    source_section: "§PERSO_FRESQUE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-ancel-004"
+    enonce: "Condamné pour diffamation envers Hubert Védrine (2022)"
+    source_url: "https://www.lemonde.fr/societe/article/2022/06/15/guillaume-ancel-condamne-pour-diffamation-envers-hubert-vedrine"
+    source_section: "§PERSO_FRESQUE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-ancel-005"
+    enonce: "Présent sur 5+ chaînes (France Info, BFM, LCI, RTL, RFI) simultanément"
+    source_url: "https://fr.wikipedia.org/wiki/Guillaume_Ancel"
+    source_section: "§PERSO_FRESQUE"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ancel-006"
+    enonce: "Scénario pays balte (Narva/Daugavpils) parmi 5 scénarios possibles (Atlantic Council) — pas l'option la plus crédible"
+    source_url: "https://www.atlanticcouncil.org/"
+    source_section: "§CARTE DIALECTIQUE"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Guillaume Ancel"
+    role: "Lt-colonel retraité, communicateur, auteur, expert médiatique"
+    faits_lies: ["F-ancel-001", "F-ancel-003", "F-ancel-004", "F-ancel-005"]
+
+causalites:
+  - cause: "F-ancel-003"
+    effet: "F-ancel-001"
+    mecanisme: "L'absence d'expérience directe de la guerre moderne (21 ans hors service) explique la forte proportion de rhétorique sur des scénarios prospectifs"
+
+perspectives_dialectiques:
+  - position: "Ancel (lui-même)"
+    argument: "Ancien officier de terrain, j'ai vu la guerre en vrai. Mon expérience me permet d'analyser l'Ukraine."
+  - position: "Contre-narratif"
+    argument: "Ancel est un communicateur qui utilise son ancien grade comme autorité. Son expertise date de 1992-1996, guerres pré-drones."
+  - position: "Synthèse"
+    argument: "Ancel a une expérience authentique mais datée. Ses analyses sur la guerre moderne reposent sur info publique, pas expérience directe."
+
+limites:
+  - "Pas d'accès aux contrats médiatiques d'Ancel (rémunération)"
+  - "Track record exhaustif de prédictions non vérifié"
+
+wolves:
+  - nom: "Guillaume Ancel (lui-même)"
+    argument: "Mon grade et mon expérience de terrain me donnent une légitimité unique. Je suis un lanceur d'alerte indépendant."
+    reponse: "Votre expérience de terrain date de 1992-1996. Depuis 21 ans vous êtes communicateur. Votre condamnation pour diffamation contredit votre statut de lanceur d'alerte."
+
+iceberg:
+  - "Liens précis d'Ancel avec des think tanks ou partis politiques"
+  - "Ventes exactes de ses livres"
+  - "Rémunération médiatique précise"
+
+chronologie:
+  - date: "2005"
+    evenement: "Ancel quitte l'armée"
+    source_fait: "F-ancel-003"
+  - date: "2022"
+    evenement: "Condamnation diffamation Védrine"
+    source_fait: "F-ancel-004"
+  - date: "2026-06-28"
+    evenement: "Intervention BFM (séquences 1654-1710)"
+    source_fait: "F-ancel-001"
+
+domainaines:
+  - "Militaire / Analyse de défense"
+  - "Médias"
+  - "Crédibilité d'expertise"
+
+shadow_factor: 2.8
+
+mnemo_queries: []

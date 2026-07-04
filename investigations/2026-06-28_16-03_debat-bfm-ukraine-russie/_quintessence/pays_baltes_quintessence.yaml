@@ -1,0 +1,88 @@
+enquete_id: "pays_baltes"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-35_synthese-pays-baltes-hyper-matrice_HYPER_MATRICE.md"
+
+these_centrale: "La séquence pays baltes est la plus faible du débat : Ancel et Colessimo convergent vers un récit univoque de vulnérabilité occidentale sans aucun contradicteur, 100% de constructions rhétoriques (⁕)."
+
+theses_implicites:
+  - "L'absence de contradicteur crée une chambre d'écho où des spéculations sont présentées comme des évidences"
+  - "Ancel et Colessimo ignorent systématiquement les données de résilience (présence OTAN, G7, sanctions UE)"
+  - "Le « calcul russe » décrit par Colessimo est une spéculation non vérifiée présentée comme fait établi"
+
+faits_atomiques:
+  - id: "F-baltes-001"
+    enonce: "100% ⁕ sur 4 affirmations — pire ratio du débat"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-35_synthese-pays-baltes-hyper-matrice_HYPER_MATRICE.md"
+    source_section: "§DISTRIBUTION DES VERDICTS"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-baltes-002"
+    enonce: "OTAN a renforcé présence pays baltes (eFP, Steadfast Defender 2024, BDL) — contredit « pas de réaction »"
+    source_url: "https://www.nato.int/"
+    source_section: "§TABLEAU COMPARATIF"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-baltes-003"
+    enonce: "US ont signé communiqué G7 Evian (juin 2026) défendant l'Ukraine — contredit « Washington ne bougera pas »"
+    source_url: "https://www.politico.eu/"
+    source_section: "§CONTREPOINT"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-baltes-004"
+    enonce: "14 sanctions UE, ~100 Md€ aide cumulée — contredit « Europe incapable de réagir »"
+    source_url: "https://www.ifw-kiel.de/topics/war-against-ukraine/"
+    source_section: "§CONTREPOINT"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Guillaume Ancel"
+    role: "Scénario Narva/Daugavpils — salami slicing, pas de réaction OTAN"
+    faits_lies: ["F-baltes-001", "F-baltes-002"]
+  - nom: "Jean-François Colessimo"
+    role: "Washington ne bougera pas, Europe incapable"
+    faits_lies: ["F-baltes-001", "F-baltes-003", "F-baltes-004"]
+
+causalites:
+  - cause: "F-baltes-001"
+    effet: "F-baltes-002"
+    mecanisme: "L'absence de contradicteur permet à Ancel et Colessimo de construire un récit univoque sans données contraires"
+
+perspectives_dialectiques:
+  - position: "Ancel + Colessimo"
+    argument: "L'Occident est faible, divisé, incapable. La Russie exploite cette faiblesse."
+  - position: "Contre-point"
+    argument: "Données de résilience ignorées : présence OTAN, G7, sanctions, élargissement."
+  - position: "Synthèse"
+    argument: "Crise de confiance réelle mais effondrement spéculatif. 100% rhétorique = aucune vérifiabilité."
+
+limites:
+  - "Scénarios prospectifs par nature non vérifiables"
+  - "Les données de résilience (OTAN) n'invalident pas complètement le scénario"
+
+wolves:
+  - nom: "Guillaume Ancel / Jean-François Colessimo"
+    argument: "L'OTAN est faible. Washington ne bougera pas. L'Europe est incapable."
+    reponse: "Votre récit ignore les données contraires (présence OTAN, G7, 100 Md€ aide). 100% de vos affirmations sont rhétoriques."
+
+iceberg:
+  - "Pourquoi aucun expert pro-OTAN n'a été invité pour équilibrer cette séquence ?"
+  - "Quel est le vrai calcul russe (vs spéculation des experts) ?"
+
+chronologie:
+  - date: "2026-06-28"
+    evenement: "Séquence pays baltes BFM (séquences 1815-1874)"
+    source_fait: "F-baltes-001"
+
+domainaines:
+  - "Sécurité / OTAN"
+  - "Géopolitique européenne"
+
+shadow_factor: 3.2
+
+mnemo_queries: []

@@ -1,0 +1,101 @@
+enquete_id: "flamingo"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-35_synthese-flamingo-hyper-matrice_HYPER_MATRICE.md"
+
+these_centrale: "La séquence missile Flamingo est la plus factuelle d'Ancel (67% ✧), avec des caractéristiques techniques largement confirmées, mais des exagérations marginales sur le « shkand » anti-brouillage et le taux d'interception de 80%."
+
+theses_implicites:
+  - "Le Flamingo est opérationnel mais immature : production limitée (~60-90/mois), coût élevé ($500k-$1M), précision perfectible"
+  - "Ancel omet les limites critiques du Flamingo (composants soviétiques recyclés, guidage perfectible, production perturbée) pour en faire un récit d'autosuffisance technologique ukrainienne"
+  - "Le « shkand » est probablement une erreur de transcription ou une simplification médiatique du TERCOM/CRPA standard"
+
+faits_atomiques:
+  - id: "F-flamingo-001"
+    enonce: "Missile FP-5 Flamingo existe (Fire Point, août 2025) — portée 3 000 km, charge ~1 150 kg"
+    source_url: "https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-flamingo-missile/"
+    source_section: "§CARTE DIALECTIQUE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-flamingo-002"
+    enonce: "Frappe sur Titan-Barrikady (Volgograd, 27-28 juin 2026) confirmée par imagerie"
+    source_url: "https://www.understandingwar.org/"
+    source_section: "§CARTE DIALECTIQUE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-flamingo-003"
+    enonce: "67% ✧, 33% ⁕ — meilleur ratio d'Ancel dans tout le débat"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-35_synthese-flamingo-hyper-matrice_HYPER_MATRICE.md"
+    source_section: "§DISTRIBUTION DES VERDICTS"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-flamingo-004"
+    enonce: "Production Flamingo : ~60-90/mois (mi-2026), coût $500k-$1M, moteur AI-25TL recyclé"
+    source_url: "https://www.thedefensewatch.com/"
+    source_section: "§ENQUÊTE OPÉRATIONNALITÉ"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-flamingo-005"
+    enonce: "~23 tirs Flamingo documentés (OSINT, mai 2026) — environ moitié atteignent zone cible, fraction sont impacts directs"
+    source_url: "https://www.thedefensewatch.com/"
+    source_section: "§ENQUÊTE OPÉRATIONNALITÉ"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Guillaume Ancel"
+    role: "Décrit le missile Flamingo — son intervention la plus factuelle"
+    faits_lies: ["F-flamingo-003"]
+  - nom: "Fire Point (entreprise)"
+    role: "Fabricant ukrainien du FP-5 Flamingo"
+    faits_lies: ["F-flamingo-001", "F-flamingo-004"]
+
+causalites:
+  - cause: "F-flamingo-001"
+    effet: "F-flamingo-003"
+    mecanisme: "Le caractère descriptif (vs prospectif) de la séquence explique le meilleur ratio factuel"
+
+perspectives_dialectiques:
+  - position: "Ancel (Flamingo)"
+    argument: "Missile ukrainien simple, pas cher, efficace. 3 000 km, charge 1 t, shkand anti-brouillage."
+  - position: "Contre-point technique"
+    argument: "Le Flamingo est immature : production contrainte, précision limitée, composants recyclés."
+  - position: "Synthèse"
+    argument: "Le Flamingo existe et frappe. Son importance est stratégique (démonstration d'autonomie) plus que tactique (taux de succès modeste)."
+
+limites:
+  - "Données de production classifiées — estimation OSINT"
+  - "Taux d'interception (80%) invérifiable"
+
+wolves:
+  - nom: "Guillaume Ancel"
+    argument: "Le Flamingo change la donne. L'Ukraine a une capacité de frappe longue portée autonome."
+    reponse: "Vrai sur le principe, mais l'échelle de production (60/mois) et la précision limitée tempèrent l'impact."
+
+iceberg:
+  - "Capacité réelle de Fire Point à monter en échelle"
+  - "Taux de succès réel des ~23 tirs (données classifiées)"
+
+chronologie:
+  - date: "2025-08"
+    evenement: "Révélation FP-5 Flamingo"
+    source_fait: "F-flamingo-001"
+  - date: "2026-06-27/28"
+    evenement: "Frappe Volgograd (Titan-Barrikady)"
+    source_fait: "F-flamingo-002"
+  - date: "2026-06-28"
+    evenement: "Ancel décrit le Flamingo sur BFM"
+    source_fait: "F-flamingo-003"
+
+domainaines:
+  - "Défense / Missiles"
+  - "Industrie ukrainienne"
+
+shadow_factor: 2.5
+
+mnemo_queries: []

@@ -1,0 +1,118 @@
+enquete_id: "synthese_ouverture"
+complexity: "COMPLEX"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_18-30_synthese-finale-contextualisee_HYPER_MATRICE.md"
+
+these_centrale: "Le segment d'ouverture du débat BFM construit un récit cohérent de basculement de la guerre en faveur de l'Ukraine, mais 27% des affirmations sont des faits durs (✦), 45% des amplifications (✧), et 27% de la rhétorique (⁕) — le noyau factuel est minoritaire."
+
+theses_implicites:
+  - "Les 4 précédents de basculement échoués (Kherson 2022, contre-offensive 2023, Avdiivka 2024, Koursk 2024) sont systématiquement effacés du récit"
+  - "Les asymétries ×10-100 entre les capacités russes et ukrainiennes ne sont jamais mentionnées"
+  - "Le cadrage médiatique crée un présent sans mémoire, où chaque événement est présenté comme unique et décisif"
+
+faits_atomiques:
+  - id: "F-ouverture-001"
+    enonce: "4 basculements annoncés depuis 2022 (Kherson, contre-offensive 2023, Avdiivka 2024, Koursk 2024) — aucun réalisé"
+    source_url: "https://www.understandingwar.org/"
+    source_section: "§PRÉCÉDENTS HISTORIQUES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ouverture-002"
+    enonce: "660 drones ukrainiens (25-26 juin) vs 1 567 drones russes/48h (13-14 mai) — ratio ×2.37 mais ×1.19 normalisé"
+    source_url: "https://www.understandingwar.org/"
+    source_section: "§TABLEAU COMPARATIF"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-ouverture-003"
+    enonce: "Russie 12 800 missiles/drones vs Ukraine centaines — ratio ×40-80 volume de frappes"
+    source_url: "https://www.understandingwar.org/"
+    source_section: "§ASYMÉTRIES STRUCTURELLES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ouverture-004"
+    enonce: "~14% territoires russes atteints vs 100% territoire ukrainien frappé"
+    source_url: "https://www.understandingwar.org/"
+    source_section: "§ASYMÉTRIES STRUCTURELLES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ouverture-005"
+    enonce: "5 deadlines artificielles documentées (printemps 2023 → été 2025) — toutes échouées"
+    source_url: "https://www.understandingwar.org/"
+    source_section: "§PRÉCÉDENTS HISTORIQUES"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-ouverture-006"
+    enonce: "15 000+ sanctions occidentales ; PIB russe -1.4% (2022), +3.6% (2023), +4.1% (2024), +1-2% (2025)"
+    source_url: "https://www.ifw-kiel.de/topics/war-against-ukraine/"
+    source_section: "§STATISTIQUES ÉCONOMIQUES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-ouverture-007"
+    enonce: "Verdict distribution: 27% ✦, 45% ✧, 27% ⁕ sur 11 affirmations de l'ouverture"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_18-30_synthese-finale-contextualisee_HYPER_MATRICE.md"
+    source_section: "§DISTRIBUTION DES VERDICTS"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-ouverture-008"
+    enonce: "17 précédents historiques mobilisés (basculements, prédictions chute Poutine, manipulations doc)"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_18-30_synthese-finale-contextualisee_HYPER_MATRICE.md"
+    source_section: "§PRÉCÉDENTS HISTORIQUES"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Animateur BFMTV"
+    role: "Porte les 11 affirmations d'ouverture"
+    faits_lies: ["F-ouverture-002", "F-ouverture-003"]
+  - nom: "BFMTV (chaîne)"
+    role: "Produit le cadrage asymétrique du conflit"
+    faits_lies: ["F-ouverture-001", "F-ouverture-007"]
+
+causalites:
+  - cause: "F-ouverture-001"
+    effet: "F-ouverture-005"
+    mecanisme: "Le pattern des deadlines échouées s'auto-entretient : chaque nouveau basculement promis efface les précédents"
+
+perspectives_dialectiques:
+  - position: "Récit BFM"
+    argument: "La guerre bascule. L'Ukraine gagne. Poutine est acculé."
+  - position: "Contre-récit factuel"
+    argument: "Les faits existent mais sont amplifiés ×10-100. Les asymétries sont systématiquement omises."
+  - position: "Synthèse"
+    argument: "BFMTV ne désinforme pas — elle cadre asymétriquement. C'est de l'information structurellement incomplète."
+
+limites:
+  - "Analyse concentrée sur le segment d'ouverture uniquement"
+  - "Données ISW/Kiel Institute peuvent être partielles"
+
+wolves:
+  - nom: "Journaliste BFMTV"
+    argument: "Nous rapportons les faits. Les 660 drones sont réels. Les documents russes existent."
+    reponse: "Les faits sont réels mais le cadrage les amplifie ×10-100. Le pattern des basculements échoués n'est jamais rappelé."
+
+iceberg:
+  - "Qui produit le chiffre des 40 jours ? Communication ukrainienne ? SBU ? Source anonyme ?"
+  - "Taux réel de confirmation des documents SBU (track record ~50%)"
+  - "Asymétrie de cadrage similaire sur d'autres conflits (Gaza, Sahel)"
+
+chronologie:
+  - date: "2026-06-28"
+    evenement: "Segment d'ouverture BFM — 11 affirmations analysées"
+    source_fait: "F-ouverture-002"
+
+domainaines:
+  - "Journalisme / Cadrage médiatique"
+  - "Guerre cognitive"
+  - "Asymétrie militaire"
+
+shadow_factor: 2.5
+
+mnemo_queries: []

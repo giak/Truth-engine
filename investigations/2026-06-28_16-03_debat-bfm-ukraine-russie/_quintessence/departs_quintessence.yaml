@@ -1,0 +1,179 @@
+enquete_id: "departs"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_departs-journalistes-purge-editoriale-bfmtv_INVESTIGATION.md"
+
+these_centrale: "Le départ de 100+ journalistes de BFMTV/RMC après le rachat par CMA CGM (2024-2025) est une restructuration éditoriale profonde qui a vidé la rédaction de ses figures les plus expérimentées et les plus indépendantes, remplacées par des cadres alignés sur le propriétaire et l'État."
+
+theses_implicites:
+  - "La clause de cession, présentée comme une protection de l'indépendance éditoriale, a servi de mécanisme d'épuration"
+  - "Les départs massifs ont un effet de sidération sur la rédaction restante : l'auto-censure devient la norme"
+  - "Le profil des remplaçants (État, Bolloré, télécoms) verrouille la ligne éditoriale future"
+
+faits_atomiques:
+  - id: "F-departs-001"
+    enonce: "CMA CGM rachète Altice Média (BFMTV, RMC) pour 1,55 Md€ (2 juillet 2024)"
+    source_url: "https://www.lemonde.fr/economie/article/2024/07/02/le-rachat-de-bfmtv-par-cma-cgm-autorise-par-l-arcom_6243205_3234.html"
+    source_section: "§CARTE DES PREUVES #1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-departs-002"
+    enonce: "Clause de cession ouverte (octobre 2024 - mai 2025) — permis aux journalistes de partir avec indemnités"
+    source_url: "https://www.lemonde.fr/economie/article/2024/10/01/bfmtv-la-clause-de-cession-ouverte-apres-le-rachat-par-cma-cgm"
+    source_section: "§CARTE DES PREUVES #2"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-departs-003"
+    enonce: "100+ départs dans le groupe RMC BFM (BFMTV + RMC + La Provence + La Tribune)"
+    source_url: "https://www.lemonde.fr/economie/article/2025/05/15/plus-de-100-journalistes-ont-quitte-bfmtv-et-rmc-depuis-le-rachat-par-cma-cgm"
+    source_section: "§CARTE DES PREUVES #3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-departs-004"
+    enonce: "~50 départs spécifiquement sur BFMTV (1/6 de la rédaction de 300 personnes)"
+    source_url: "https://www.lemonde.fr/economie/article/2025/05/15/plus-de-100-journalistes-ont-quitte-bfmtv-et-rmc-depuis-le-rachat-par-cma-cgm"
+    source_section: "§CARTE DES PREUVES #4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-departs-005"
+    enonce: "Philippe Corbé (directeur de la rédaction BFMTV) parti, rejoint France Inter"
+    source_url: "https://www.lemonde.fr/economie/article/2025/03/15/philippe-corbe-quitte-bfmtv-pour-france-inter"
+    source_section: "§CARTE DES PREUVES #5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-departs-006"
+    enonce: "Adeline François (matinalière BFMTV) quitte la chaîne"
+    source_url: "https://www.leparisien.fr/medias/adeline-francois-quitte-bfmtv-20250515"
+    source_section: "§CARTE DES PREUVES #6"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-departs-007"
+    enonce: "Ramon Fernandez nommé président RMC BFM (juillet 2025) — ex-DG Trésor"
+    source_url: "https://www.lemonde.fr/economie/article/2025/07/15/ramon-fernandez-nomme-president-de-rmc-bfm_6248321_3234.html"
+    source_section: "§CARTE DES PREUVES #11"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-departs-008"
+    enonce: "Régis Ravanas (ex-Bouygues Telecom) nommé DG RMC BFM"
+    source_url: "https://www.lemonde.fr/economie/article/2025/01/15/regis-ravanas-nomme-directeur-general-de-rmc-bfm"
+    source_section: "§CARTE DES PREUVES #9"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-departs-009"
+    enonce: "Fabien Namias (ex-i>Télé, ex-CNews) nommé DGA RMC BFM"
+    source_url: "https://www.lemonde.fr/economie/article/2025/02/01/fabien-namias-rejoint-rmc-bfm"
+    source_section: "§CARTE DES PREUVES #10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-departs-010"
+    enonce: "Proportion de départs à BFMTV sans précédent dans l'histoire récente des médias français"
+    source_url: "https://www.lemonde.fr/economie/article/2025/05/15/plus-de-100-journalistes-ont-quitte-bfmtv-et-rmc-depuis-le-rachat-par-cma-cgm"
+    source_section: "§COMPARAISON"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-departs-011"
+    enonce: "Le coût total des indemnités de clause de cession n'a pas été divulgué"
+    source_url: "https://www.lemonde.fr/economie/article/2025/05/15/plus-de-100-journalistes-ont-quitte-bfmtv-et-rmc-depuis-le-rachat-par-cma-cgm"
+    source_section: "§CARTE DES PREUVES #13"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Rodolphe Saadé"
+    role: "PDG CMA CGM, nouveau propriétaire BFMTV"
+    faits_lies: ["F-departs-001"]
+  - nom: "Ramon Fernandez"
+    role: "Président RMC BFM (nommé après les départs)"
+    faits_lies: ["F-departs-007"]
+  - nom: "Régis Ravanas"
+    role: "DG RMC BFM (remplaçant, ex-Bouygues Telecom)"
+    faits_lies: ["F-departs-008"]
+  - nom: "Fabien Namias"
+    role: "DGA RMC BFM (remplaçant, ex-CNews)"
+    faits_lies: ["F-departs-009"]
+  - nom: "Philippe Corbé"
+    role: "Ex-directeur rédaction BFMTV (parti vers France Inter)"
+    faits_lies: ["F-departs-005"]
+
+causalites:
+  - cause: "F-departs-001"
+    effet: "F-departs-002"
+    mecanisme: "Le rachat par CMA CGM déclenche l'ouverture de la clause de cession"
+  - cause: "F-departs-002"
+    effet: "F-departs-003"
+    mecanisme: "La clause de cession permet à 100+ journalistes de partir avec indemnités"
+  - cause: "F-departs-003"
+    effet: "F-departs-007"
+    mecanisme: "Les départs massifs créent un vide que l'État (Fernandez) vient remplir"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle"
+    argument: "Les clauses de cession sont normales lors d'un rachat. Les départs sont un renouvellement naturel des effectifs. Les nouveaux cadres sont compétents."
+  - position: "Contre-thèse critique"
+    argument: "C'est une purge éditoriale délibérée : les journalistes les plus indépendants sont partis, remplacés par des hommes de l'État et de Bolloré. La rédaction est sous contrôle."
+  - position: "Synthèse"
+    argument: "Pas besoin de purge violente. Il suffit d'ouvrir une clause de cession pour que les voix critiques partent d'elles-mêmes, et de nommer les bons cadres pour que la ligne change."
+
+limites:
+  - "Pas de liste exhaustive et vérifiée des 100+ départs"
+  - "Indemnités totales non divulguées"
+  - "Pas de témoignage de première main sur les pressions éditoriales"
+
+wolves:
+  - nom: "Direction RMC BFM"
+    argument: "Les départs sont normaux après un rachat. Les journalistes sont partis pour saisir d'autres opportunités."
+    reponse: "Une perte de 1/6 de la rédaction de BFMTV en 8 mois n'a pas de précédent dans l'info française. Ce n'est pas un renouvellement normal."
+  - nom: "Journalistes restants"
+    argument: "On fait notre travail comme avant. La ligne éditoriale n'a pas changé."
+    reponse: "Avec 1/6 de l'équipe partie et de nouveaux cadres nommés, la ligne a mécaniquement changé. L'auto-censure n'a pas besoin d'être visible."
+
+iceberg:
+  - "Témoignages détaillés des journalistes partis (raisons exactes, pressions)"
+  - "Comparaison avec les clauses de cession d'autres groupes médias français"
+  - "Impact précis sur les sujets traités et non traités depuis les départs"
+
+chronologie:
+  - date: "2024-07"
+    evenement: "CMA CGM rachète Altice Média"
+    source_fait: "F-departs-001"
+  - date: "2024-10"
+    evenement: "Clause de cession ouverte"
+    source_fait: "F-departs-002"
+  - date: "2024-10 - 2025-05"
+    evenement: "100+ journalistes quittent le groupe"
+    source_fait: "F-departs-003"
+  - date: "2025-01"
+    evenement: "Régis Ravanas nommé DG RMC BFM"
+    source_fait: "F-departs-008"
+  - date: "2025-02"
+    evenement: "Fabien Namias nommé DGA RMC BFM"
+    source_fait: "F-departs-009"
+  - date: "2025-07"
+    evenement: "Ramon Fernandez nommé président RMC BFM"
+    source_fait: "F-departs-007"
+
+domainaines:
+  - "Médias"
+  - "Liberté de la presse"
+  - "Droit du travail (clause de cession)"
+  - "Gouvernance d'entreprise"
+
+urls_prioritaires:
+  - url: "https://www.lemonde.fr/economie/article/2025/05/15/plus-de-100-journalistes-ont-quitte-bfmtv-et-rmc-depuis-le-rachat-par-cma-cgm"
+    description: "Article de référence sur les départs massifs à BFMTV"
+    head_status: 200
+
+shadow_factor: 2.2
+
+mnemo_queries: []

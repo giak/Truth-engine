@@ -1,0 +1,128 @@
+enquete_id: "synthese_medias"
+complexity: "APEX"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_synthese-medias-systeme-guerre-cognitive_HYPER_MATRICE.md"
+
+these_centrale: "Le système médiatique français est un dispositif de guerre cognitive contre son propre peuple : 6 mécanismes convergents (capture capitalistique, revolving door, purge éditoriale, artefacts narratifs, absence de pluralisme, régulateur inefficace) produisent un récit unique aligné sur l'État, l'OTAN et l'UE."
+
+theses_implicites:
+  - "Aucun des 6 mécanismes pris individuellement n'est « illégal » — mais leur convergence produit un verrouillage informationnel total"
+  - "Ce système ne produit pas de mensonges directs : il produit des omissions, des cadrages, des silences"
+  - "Le public français est informé dans les limites fixées par 9 propriétaires alignés sur les mêmes intérêts"
+
+faits_atomiques:
+  - id: "F-synthese-001"
+    enonce: "6 mécanismes identifiés convergent vers le diagnostic de guerre cognitive structurelle"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_synthese-medias-systeme-guerre-cognitive_HYPER_MATRICE.md"
+    source_section: "§PROFIL DE LA SÉQUENCE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-synthese-002"
+    enonce: "Score 🔴 critique sur 4 symbols : ICEBERG(Ξ:9), MONEY(€:8), NETWORK(🌐:8), FRAMING(Λ:8)"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_synthese-medias-systeme-guerre-cognitive_HYPER_MATRICE.md"
+    source_section: "§TABLEAU COMPARATIF"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-synthese-003"
+    enonce: "6/6 investigations classées ✧ ATTESTÉ — pas de spéculation, tous les mécanismes sont documentés"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_synthese-medias-systeme-guerre-cognitive_HYPER_MATRICE.md"
+    source_section: "§DISTRIBUTION DES VERDICTS"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-synthese-004"
+    enonce: "Stratification L1-L6 : Propriété → Gouvernance → Rédaction → Narratif → Pluralisme → Régulation"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_synthese-medias-systeme-guerre-cognitive_HYPER_MATRICE.md"
+    source_section: "§STRATIFICATION"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-synthese-005"
+    enonce: "Qui gagne : 9 propriétaires, État, OTAN, UE, experts médiatiques. Qui perd : public, journalistes indépendants, démocratie informationnelle"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_synthese-medias-systeme-guerre-cognitive_HYPER_MATRICE.md"
+    source_section: "§QUI GAGNE / QUI PERD"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Vincent Bolloré"
+    role: "Propriétaire CNews, Europe 1, JDD — extrémité droite du spectre"
+    faits_lies: ["F-synthese-001"]
+  - nom: "Rodolphe Saadé"
+    role: "Propriétaire BFMTV, RMC — milieu atlantiste"
+    faits_lies: ["F-synthese-001"]
+  - nom: "État français"
+    role: "Propriétaire médias publics + actionnaire indirect BFMTV"
+    faits_lies: ["F-synthese-001"]
+
+causalites:
+  - cause: "F-synthese-001"
+    effet: "F-synthese-003"
+    mecanisme: "La convergence des 6 mécanismes documentés par 6 investigations indépendantes établit un diagnostic robuste"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle"
+    argument: "La France a des médias libres, pluralistes et indépendants. Le 28 juin 2026, BFMTV a organisé un débat normal sur la guerre."
+  - position: "Contre-thèse systémique"
+    argument: "Le système médiatique français est un dispositif de verrouillage informationnel qui produit mécaniquement un récit unique aligné sur l'État, l'OTAN et l'UE."
+  - position: "Synthèse"
+    argument: "Ce n'est pas un complot mais une architecture. Chaque mécanisme est normal. Leur convergence ne l'est pas."
+
+limites:
+  - "Pas de preuve de coordination directe entre les 6 mécanismes"
+  - "Pas d'étude quantitative de l'évolution du pluralisme"
+  - "Analyse centrée sur BFMTV et l'Ukraine — d'autres médias et d'autres sujets pourraient montrer des résultats différents"
+
+wolves:
+  - nom: "Lecteur sceptique"
+    argument: "Tout ça est exagéré. Les médias français sont libres. Personne n'interdit de dire autre chose."
+    reponse: "Personne n'interdit rien. Le système n'a pas besoin d'interdire : il suffit que les voix critiques partent d'elles-mêmes (clause de cession) et que les nouveaux cadres soient alignés."
+  - nom: "Journaliste BFMTV"
+    argument: "Je fais mon travail en toute indépendance. Personne ne me dicte ce que je dois dire."
+    reponse: "Vous n'avez pas besoin qu'on vous dicte quoi dire. Les sujets que vous ne traitez pas (Istanbul, pertes civiles, critiques OTAN) ne vous ont pas été interdits — ils ont simplement été exclus du cadre."
+
+iceberg:
+  - "Comparaison internationale : comment d'autres démocraties (Allemagne, UK, Canada) régulent la concentration des médias"
+  - "Rôle des réseaux sociaux dans la fragmentation du paysage médiatique et contournement des médias traditionnels"
+  - "Impact de la loi sur l'indépendance des médias (non adoptée en France)"
+
+chronologie:
+  - date: "1986"
+    evenement: "Privatisation TF1 — début oligopole"
+    source_fait: ""
+  - date: "2005-2015"
+    evenement: "Montée info en continu → besoin d'experts"
+    source_fait: ""
+  - date: "2022"
+    evenement: "Arcom remplace CSA"
+    source_fait: "F-arcom-001"
+  - date: "2024"
+    evenement: "CMA CGM rachète BFMTV"
+    source_fait: "F-departs-001"
+  - date: "2024-2025"
+    evenement: "Purge éditoriale BFMTV"
+    source_fait: "F-departs-003"
+  - date: "2025"
+    evenement: "9 propriétaires → ~90% médias français"
+    source_fait: "F-wolves-001"
+  - date: "2026-06-28"
+    evenement: "Segment BFMTV Ukraine : débat sans pluralisme"
+    source_fait: "F-artefacts-004"
+
+domainaines:
+  - "Médias"
+  - "Guerre cognitive"
+  - "Démocratie"
+  - "Information"
+
+urls_prioritaires:
+  - url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_synthese-medias-systeme-guerre-cognitive_HYPER_MATRICE.md"
+    description: "HYPER_MATRICE de synthèse — fichier source"
+    head_status: 200
+
+shadow_factor: 3.0
+
+mnemo_queries: []

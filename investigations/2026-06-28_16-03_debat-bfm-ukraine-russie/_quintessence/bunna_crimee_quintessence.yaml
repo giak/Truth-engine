@@ -1,0 +1,92 @@
+enquete_id: "bunna_crimee"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-15_synthese-bunna-crimee-hyper-matrice_HYPER_MATRICE.md"
+
+these_centrale: "Ulrich Bounat est l'intervenant le plus factuel du débat sur la Crimée (40% ✦, 40% ✧), mais sa chaîne causale finale — perturbations en Crimée → pression populaire → Poutine négocie — est spéculative, non vérifiée par 4 ans de guerre."
+
+theses_implicites:
+  - "Le ton technique et mesuré donne l'impression que les faits parlent d'eux-mêmes — masque le maillon spéculatif"
+  - "L'hypothèse que la population russe peut forcer Poutine à négocier projette une rationalité démocratique sur un régime autoritaire"
+  - "Bounat est analyste civil sans expérience militaire — son expertise porte sur la géopolitique, pas la stratégie opérationnelle"
+
+faits_atomiques:
+  - id: "F-bunna-001"
+    enonce: "40% ✦, 40% ✧, 20% ⁕ sur 5 affirmations — meilleur ratio du débat"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-15_synthese-bunna-crimee-hyper-matrice_HYPER_MATRICE.md"
+    source_section: "§TABLEAU COMPARATIF"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bunna-002"
+    enonce: "Crimée dépendante de 3 ponts, hydrocarbures et eau du continent — dépendance documentée"
+    source_url: "https://www.csis.org/"
+    source_section: "§TABLEAU COMPARATIF aff.02"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bunna-003"
+    enonce: "Valeur symbolique de la Crimée comme trophée de Poutine (annexion 2014) — consensus académique"
+    source_url: "https://www.chathamhouse.org/"
+    source_section: "§TABLEAU COMPARATIF aff.04"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bunna-004"
+    enonce: "Pas de formation militaire documentée — analyste civil (Euro Créative think tank)"
+    source_url: "https://www.eurocreative.fr/"
+    source_section: "§PERSO_FRESQUE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-bunna-005"
+    enonce: "Euro Créative : think tank pro-intégration UE-Europe centrale — mission diplomatique orientée"
+    source_url: "https://www.eurocreative.fr/"
+    source_section: "§PERSO_FRESQUE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Ulrich Bounat (Bunna)"
+    role: "Analyste géopolitique, chercheur associé Euro Créative"
+    faits_lies: ["F-bunna-001", "F-bunna-004", "F-bunna-005"]
+
+causalites:
+  - cause: "F-bunna-001"
+    effet: "F-bunna-004"
+    mecanisme: "Le bon ratio factuel de Bounat s'explique par son approche technique de géographe/logisticien, qui reste dans son domaine de compétence"
+
+perspectives_dialectiques:
+  - position: "Bounat comme expert technique"
+    argument: "Analyse factuelle, mesurée, pédagogique. Faits solides (ponts, eau, tourisme)."
+  - position: "Limites de l'expertise"
+    argument: "Analyste civil sans expérience militaire. Sa conclusion sur la pression populaire est spéculative."
+  - position: "Synthèse"
+    argument: "Bounat est l'intervenant le plus fiable sur les faits, le moins fiable sur les conséquences politiques."
+
+limites:
+  - "Informations biographiques limitées"
+  - "Euro Créative est un petit think tank, pas une institution majeure"
+
+wolves:
+  - nom: "Ulrich Bounat (lui-même)"
+    argument: "Mon analyse est technique et vérifiable. La Crimée est effectivement dépendante."
+    reponse: "Vos faits sont solides mais votre conclusion (pression populaire → Poutine cède) n'est pas vérifiée par 4 ans de guerre."
+
+iceberg:
+  - "Biographie antérieure détaillée de Bounat"
+  - "Track record de prédictions"
+
+chronologie:
+  - date: "2026-06-28"
+    evenement: "Intervention BFM sur la Crimée (séquences 1573-1605)"
+    source_fait: "F-bunna-001"
+
+domainaines:
+  - "Géopolitique Ukraine/Russie"
+  - "Analyse logistique"
+
+shadow_factor: 2.2
+
+mnemo_queries: []

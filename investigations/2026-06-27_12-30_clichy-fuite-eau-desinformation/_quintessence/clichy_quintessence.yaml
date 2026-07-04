@@ -1,0 +1,324 @@
+enquete_id: "clichy"
+complexity: "APEX"
+date_extraction: "2026-06-27"
+enquete_source: "investigations/2026-06-27_12-30_clichy-fuite-eau-desinformation_INVESTIGATION.md"
+
+these_centrale: "Le tweet de @camille_moscow sur une fuite d'eau à Clichy combine un contexte réel (canicule 2026, restrictions) avec un incident non vérifié issu d'un compte amplificateur identitaire (@RafaelSereti) pour produire un récit de défaillance systémique, en reclassant un acte de vandalisme (bouche d'incendie forcée pour street-pooling) en rupture de canalisation — technique de désinformation documentée de l'opération Storm-1516/Doppelgänger."
+
+theses_implicites:
+  - "La reclassification d'acte de vandalisme en défaillance infrastructurelle est l'axe central de la manipulation : les tweets transforment le street-pooling (borne forcée par des jeunes) en 'canalisation rompue par l'incompétence publique'"
+  - "Le double-ciblage Sereti (anti-immigration/identitaire) puis @camille_moscow (pro-russe/anti-gouvernement) permet au même récit d'atteindre deux publics distincts"
+  - "L'absence de mécanisme de déport pour Monique Barbut (ministre Transition écologique) malgré 3 mandats rémunérés, 153K€ de portefeuille actions dans 27 entreprises, et sa supervision directe des dossiers eau/Veolia constitue une anomalie institutionnelle"
+  - "Le contrat Veolia/SEDIF (4,3 Md€/12 ans) et le projet FMHP (1 Md€ d'investissement) créent un verrouillage économique qui rend toute sortie du monopole quasiment impossible"
+  - "La synchronie G7 d'Évian (15-17 juin), cyberattaque NoName057(16), opération Storm-1516 documentée (77 opérations VIGINUM), et tweet (27 juin) suggère une coordination opérationnelle"
+
+faits_atomiques:
+  - id: "F-CLICHY-001"
+    enonce: "53 départements en vigilance orange canicule au 18 juin 2026, épisode le plus précoce depuis 1947"
+    source_url: "https://www.liberation.fr/environnement/climat/en-direct-episode-de-chaleur-les-40-degres-en-ligne-de-mire-20260618_XXOQVR3PENDPJIZAQM6JKJMRZQ/"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CLICHY-002"
+    enonce: "40,2°C à Montmorillon le 18 juin 2026, record pour un mois de juin"
+    source_url: "https://www.liberation.fr/environnement/climat/en-direct-episode-de-chaleur-les-40-degres-en-ligne-de-mire-20260618_XXOQVR3PENDPJIZAQM6JKJMRZQ/"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CLICHY-003"
+    enonce: "55 décès pris en charge par le Samu de Paris en 24h le 25 juin 2026, dont 23 par arrêt cardiaque (contre moins de 10 habituellement)"
+    source_url: "https://www.bfmtv.com/sante/info-bfmtv-au-moins-55-morts-pris-en-charge-par-le-samu-de-paris-en-24-heures-jeudi-en-pleine-canicule-contre-moins-de-10-habituellement_AV-202606260500.html"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CLICHY-004"
+    enonce: "33 morts Paris et petite couronne recensés du 25 au 26 juin 2026 (source police)"
+    source_url: "https://www.cnews.fr/france/2026-06-26/canicule-33-personnes-sont-decedees-du-jeudi-25-au-vendredi-26-juin-paris-et-en"
+    source_section: "§1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-CLICHY-005"
+    enonce: "63 départements sous restrictions d'eau au 18 juin 2026 (VigiEau)"
+    source_url: "https://www.toutsurmesfinances.com/vie-pratique/a/restriction-d-eau-interdiction-et-departements-concernes"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CLICHY-006"
+    enonce: "Veolia est délégataire du SEDIF (Syndicat des Eaux d'Île-de-France) depuis 1899, soit 126 ans de monopole"
+    source_url: "https://www.mediapart.fr/journal/economie-et-social/020924/sedif-veolia-dans-les-eaux-troubles-du-plus-grand-contrat-de-concession-d-europe"
+    source_section: "§1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-CLICHY-007"
+    enonce: "@camille_moscow a diffusé un faux reportage sur Zelensky et Courchevel le 2 décembre 2024, dans le cadre de l'opération Storm-1516"
+    source_url: "https://observers.france24.com/fr/desinformation-russe-un-faux-reportage-accuse-zelensky-d-avoir-achete-un-hotel-a-courchevel"
+    source_section: "§1"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-CLICHY-008"
+    enonce: "Le rendement du réseau SEDIF est supérieur à 90%, le meilleur de France, contre 80% de moyenne nationale"
+    source_url: "https://www.filiere-eau.fr/innovation-transition/fuites-reseaux-eau-rendement/"
+    source_section: "§1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CLICHY-009"
+    enonce: "Une bouche d'incendie a été forcée à Clichy par des jeunes fin mai 2026 (street-pooling), documenté par franceinfo le 27 mai"
+    source_section: "§16.7 Errata 3"
+    tier: 2
+    glyphe: "❧"
+  - id: "F-CLICHY-010"
+    enonce: "La mairie de Clichy a un arrêté anti-street-pooling depuis 2019 et a installé des kits de sécurité sur ses 250 bornes incendie"
+    source_section: "§16.7"
+    tier: 2
+    glyphe: "❧"
+  - id: "F-CLICHY-011"
+    enonce: "@RafaelSereti (51 475 posts, 51 831 abonnés) a posté la même vidéo le 27 juin 2026 à 12:20, 44 minutes avant @camille_moscow"
+    source_section: "§17"
+    tier: 2
+    glyphe: "❧"
+  - id: "F-CLICHY-012"
+    enonce: "Contrat SEDIF-Veolia 2025-2036 : 4,3 Md€ sur 12 ans, signé le 16 mars 2024 malgré un bug informatique ayant donné accès à Veolia aux documents confidentiels de Suez"
+    source_url: "https://www.veolia.com/sites/g/files/dvc4206/files/document/2024/03/cp-veolia-sedif-20032024.pdf"
+    source_section: "§16.1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CLICHY-013"
+    enonce: "Projet FMHP (Filtration Membranaire Haute Performance) : 1 Md€ d'investissement dans 3 usines, +4€/mois/foyer dès 2032, +86% émissions GES"
+    source_section: "§16.2"
+    tier: 2
+    glyphe: "❧"
+  - id: "F-CLICHY-014"
+    enonce: "Monique Barbut (ministre Transition écologique) n'est pas astreinte au déport malgré 3 mandats rémunérés (Ethifinance 12K€, Greenback 14 286€, ABI 21 037€), 153 362€ d'actions dans 27 entreprises, et sa supervision directe des dossiers eau"
+    source_url: "https://www.hatvp.fr/livraison/dossiers/barbut-monique-di34787-gouvernement.pdf"
+    source_section: "§16.4"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CLICHY-015"
+    enonce: "14 ministres astreints au déport par la HATVP le 21 avril 2026. Barbut n'en fait pas partie"
+    source_url: "https://lcp.fr/actualites/declarations-d-interets-des-ministres-14-ministres-sommes-de-se-deporter-de-certains"
+    source_section: "§16.4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-CLICHY-016"
+    enonce: "NoName057(16), groupe hacker pro-russe, a lancé des DDoS contre Évian et villes voisines pendant le G7 (15-17 juin 2026)"
+    source_url: "https://blogs.mediapart.fr/markovidovic/blog/200626/cadeau-pour-la-france-la-cyberattaque-du-g7-brise-les-illusions"
+    source_section: "§16.5"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-CLICHY-017"
+    enonce: "VIGINUM documente 77 opérations Storm-1516 (2023-2025), opérateur GRU unité 29155, cible prioritaire : la France"
+    source_url: "https://www.sgdsn.gouv.fr/files/files/Publications/20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Technical%20report_Storm-1516.pdf"
+    source_section: "§16.5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-CLICHY-018"
+    enonce: "Plaine Commune (dont Saint-Denis, maire LFI Bally Bagayoko) a voté le 28 mai 2026 pour quitter le SEDIF et créer une régie publique"
+    source_url: "https://www.lejournaldugrandparis.fr/eau-potable-plaine-commune-veut-quitter-le-sedif-qui-sy-oppose-fermement/"
+    source_section: "§16.3"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-CLICHY-019"
+    enonce: "Est Ensemble a réussi le passage en régie publique en 2022, renouvelle 0,8% du linéaire/an (contre 0,4% sous Veolia), tarifs en baisse"
+    source_section: "§16.3"
+    tier: 2
+    glyphe: "❧"
+  - id: "F-CLICHY-020"
+    enonce: "Le G7 d'Évian (15-17 juin 2026) avait comme sujet majeur les sanctions pétrole russe. Trump signale un possible retour des sanctions"
+    source_url: "https://www.pbs.org/newshour/world/trump-signals-he-may-reimpose-sanctions-on-russian-oil-as-g7-refocuses-on-ukraine"
+    source_section: "§16.5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "@camille_moscow"
+    role: "Compte relais pro-russe documenté, source du tweet du 27 juin 2026 (13:04), déjà épinglé par France 24 Observateurs pour désinformation Zelensky/Courchevel (déc. 2024)"
+    faits_lies: ["F-CLICHY-007"]
+  - nom: "@RafaelSereti"
+    role: "Primo-amplificateur, poste la même vidéo 44 minutes avant @camille_moscow (12:20). Profil identitaire/anti-immigration (51K abonnés, 51K posts, Gloria.tv, limportant.fr)"
+    faits_lies: ["F-CLICHY-011"]
+  - nom: "Veolia"
+    role: "Délégataire SEDIF depuis 1899, opérateur 'L'Eau d'Île-de-France'. Détenteur du contrat 4,3 Md€/12 ans (2025-2036)"
+    faits_lies: ["F-CLICHY-006", "F-CLICHY-012"]
+  - nom: "SEDIF"
+    role: "Syndicat des Eaux d'Île-de-France, 133 communes, 4M usagers. Rendement réseau >90% (meilleur de France)"
+    faits_lies: ["F-CLICHY-006", "F-CLICHY-008"]
+  - nom: "Monique Barbut"
+    role: "Ministre de la Transition écologique (depuis oct. 2025). Supervise le dossier eau. 3 mandats rémunérés, 153K€ actions 27 entreprises. Aucun déport malgré conflit d'intérêts potentiel Veolia"
+    faits_lies: ["F-CLICHY-014", "F-CLICHY-015"]
+  - nom: "Storm-1516 / GRU unité 29155"
+    role: "Opération de désinformation russe, 77 opérations documentées par VIGINUM, cible prioritaire France. @camille_moscow en est une opératrice"
+    faits_lies: ["F-CLICHY-007", "F-CLICHY-017"]
+  - nom: "NoName057(16)"
+    role: "Groupe hacker pro-russe, DDoS contre Évian pendant G7 (15-17 juin 2026)"
+    faits_lies: ["F-CLICHY-016"]
+  - nom: "Plaine Commune / Saint-Denis"
+    role: "Collectivité tentant de quitter le SEDIF pour régie publique (vote 28 mai 2026). Saint-Denis maire LFI Bally Bagayoko"
+    faits_lies: ["F-CLICHY-018"]
+
+causalites:
+  - cause: "F-CLICHY-012"
+    effet: "F-CLICHY-013"
+    mecanisme: "Le contrat SEDIF-Veolia 4,3 Md€ verrouille l'investissement dans le projet FMHP (1 Md€) qui augmente les factures de +4€/mois/foyer et les émissions GES de +86%"
+  - cause: "F-CLICHY-012"
+    effet: "F-CLICHY-018"
+    mecanisme: "Le verrouillage économique du contrat SEDIF-Veolia pousse Plaine Commune à tenter une sortie vers la régie publique, anticipant des hausses de factures"
+  - cause: "F-CLICHY-020"
+    effet: "F-CLICHY-016"
+    mecanisme: "Le G7 d'Évian sur les sanctions pétrole russe déclenche une riposte cyber (NoName057(16) DDoS) en synchronie avec l'opération Storm-1516"
+  - cause: "F-CLICHY-014"
+    effet: "F-CLICHY-006"
+    mecanisme: "L'absence de déport pour Barbut malgré 3 mandats rémunérés et 153K€ d'actions crée un conflit d'intérêts potentiel sur les dossiers eau/Veolia"
+  - cause: "F-CLICHY-009"
+    effet: "F-CLICHY-001"
+    mecanisme: "L'acte de vandalisme (borne forcée) est reclassé en défaillance infrastructurelle dans un contexte de canicule et restrictions, maximisant l'impact émotionnel"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle"
+    argument: "L'incident relève d'une procédure normale. Le réseau SEDIF a un rendement >90%. Les délais d'intervention de 2-4h sont standards. Le tweet provient d'une source de désinformation documentée."
+  - position: "Antithèse critique"
+    argument: "Le monopole Veolia/SEDIF (126 ans) crée un déficit de concurrence. Les 2h30 sans intervention sont un symptôme de captation réglementaire. Les 20% d'eau perdus en France (moyenne) confirment une gestion défaillante."
+  - position: "Synthèse forensique"
+    argument: "L'incident spécifique n'est pas confirmé médiatiquement (contraste frappant avec fuites 2022/2024 qui furent couvertes immédiatement). La reclassification street-pooling → rupture canalisation est l'élément clé. Le double-ciblage Sereti/Moscow révèle une technique de désinformation structurée. Mais l'absence de preuve n'est pas une preuve d'absence."
+
+limites:
+  - "Vérification terrain à Clichy non effectuée"
+  - "Contact avec mairie de Clichy, SEDIF, Veolia non effectué"
+  - "Registre des interventions d'urgence du SEDIF non accessible"
+  - "Aucune image satellite ou vidéo de l'incident du 27 juin trouvée"
+  - "Les recherches web limitées par la fraîcheur de l'événement (quelques heures)"
+  - "Les comptes Twitter/X peuvent supprimer des tweets"
+  - "L'absence de preuve n'est pas une preuve d'absence"
+
+wolves:
+  - nom: "Défenseur de la liberté d'expression"
+    argument: "Le tweet est un simple témoignage citoyen. La couverture médiatique est absente parce que la canicule monopolise l'attention. Rien ne prouve une intention malveillante."
+    reponse: "Le compte @camille_moscow est documenté comme relais de désinformation pro-russe (France 24 Observateurs, déc. 2024). La reclassification du street-pooling en rupture canalisation est factuellement erronée. Le timing G7+Storm-1516+NoName057(16) n'est pas une coïncidence."
+  - nom: "Défenseur des services publics"
+    argument: "Même si le compte est douteux, la question de fond reste : le monopole Veolia/SEDIF pose un vrai problème démocratique. Le tweet, malgré sa source, soulève un point légitime."
+    reponse: "L'enquête ne conteste pas les problèmes structurels du monopole Veolia/SEDIF (4,3 Md€, 126 ans, FMHP 1 Md€) — elle les documente. Mais le tweet ne les mentionne pas. Il les efface derrière un anecdote non vérifiée. C'est précisément la technique : noyer un vrai problème dans un faux récit."
+  - nom: "Sceptique de l'ingérence russe"
+    argument: "Tout n'est pas une opération russe. @camille_moscow est peut-être juste un compte exagéré. 77 opérations Storm-1516 ne signifie pas que chaque tweet critique la France est une opération étrangère."
+    reponse: "Le pattern est spécifique : faux site (lesechosdelafrance.fr), vidéo IA, amplification Telegram, double-ciblage — exactement les techniques documentées par VIGINUM. La question n'est pas 'est-ce que c'est russe ?' mais 'est-ce que la technique correspond au modus operandi documenté ?' La réponse est oui."
+
+iceberg:
+  - "Contrat Veolia/SEDIF 4,3 Md€/12 ans : plus grand contrat de concession d'eau d'Europe"
+  - "Projet FMHP 1 Md€ : +4€/mois/foyer, +86% GES, efficacité PFAS contestée"
+  - "Contentieux Plaine Commune vs SEDIF : Saint-Denis LFI vote départ, précédent Est Ensemble 2022"
+  - "Conflit d'intérêts Barbut : 3 mandats rémunérés, 153K€ actions 27 entreprises, aucun déport"
+  - "G7 Évian + NoName057(16) DDoS + Storm-1516 : synchronie suggestive"
+  - "Ratio surface/profondeur : 1:2 500 000 (incident 2 100€ vs enjeux 5,3 Md€)"
+  - "Résultat Mnemolite (clichy eau fuite canicule) : 5 résultats, dont l'enquête elle-même et connexions 68TARS/corruption"
+  - "Résultat Mnemolite (Storm-1516 Veolia) : 5 résultats, connexion avec enquêtes ingérences étrangères et monopoles"
+  - "Résultat Mnemolite (street-pooling) : 5 résultats, principalement enquêtes 68TARS (via corruption France) et lois performatives"
+
+chronologie:
+  - date: "1899"
+    evenement: "Premier contrat Veolia - SEDIF"
+    source_fait: "F-CLICHY-006"
+  - date: "2019"
+    evenement: "Arrêté anti-street-pooling mairie de Clichy"
+  - date: "2022"
+    evenement: "Rupture canalisation quais Clichy, circulation fermée D1 (Le Parisien 18 janv.)"
+  - date: "2022"
+    evenement: "Est Ensemble réussit le passage en régie publique"
+    source_fait: "F-CLICHY-019"
+  - date: "14 janv. 2024"
+    evenement: "Rupture canalisation rue Pierre-Bérégovoy, Clichy transformée en piscine (Le Parisien)"
+  - date: "17 janv. 2024"
+    evenement: "Seconde rupture à Clichy en 3 jours, habitants privés d'eau (Actu.fr)"
+  - date: "25 janv. 2024"
+    evenement: "Attribution contrat Veolia/SEDIF malgré bug informatique accès docs Suez"
+    source_fait: "F-CLICHY-012"
+  - date: "2 fév. 2024"
+    evenement: "Conseil d'État valide la procédure d'attribution"
+  - date: "16 mars 2024"
+    evenement: "Signature contrat Veolia/SEDIF 4,3 Md€/12 ans"
+  - date: "25 nov. 2024"
+    evenement: "Création faux site lesechosdelafrance.fr (opération Doppelgänger)"
+  - date: "2 déc. 2024"
+    evenement: "@camille_moscow diffuse faux reportage Zelensky/Courchevel"
+    source_fait: "F-CLICHY-007"
+  - date: "13 nov. 2025"
+    evenement: "Déclaration HATVP Monique Barbut"
+    source_fait: "F-CLICHY-014"
+  - date: "21 avril 2026"
+    evenement: "14 ministres astreints au déport, Barbut n'en fait pas partie"
+    source_fait: "F-CLICHY-015"
+  - date: "27 mai 2026"
+    evenement: "franceinfo documente borne incendie forcée à Clichy (street-pooling)"
+    source_fait: "F-CLICHY-009"
+  - date: "28 mai 2026"
+    evenement: "Saint-Denis vote pour quitter le SEDIF"
+    source_fait: "F-CLICHY-018"
+  - date: "15-17 juin 2026"
+    evenement: "G7 d'Évian, sujet sanctions pétrole russe"
+    source_fait: "F-CLICHY-020"
+  - date: "16 juin 2026"
+    evenement: "Plaine Commune avis défavorable projet FMHP"
+  - date: "18 juin 2026"
+    evenement: "53 départements en orange canicule, 40,2°C Montmorillon, 63 départements restrictions"
+    source_fait: "F-CLICHY-001, F-CLICHY-002, F-CLICHY-005"
+  - date: "25 juin 2026"
+    evenement: "55 décès Samu Paris 24h (23 par arrêt cardiaque)"
+    source_fait: "F-CLICHY-003"
+  - date: "26 juin 2026"
+    evenement: "33 morts Paris+petite couronne"
+    source_fait: "F-CLICHY-004"
+  - date: "27 juin 2026, 12:20"
+    evenement: "@RafaelSereti poste vidéo fuite Clichy"
+    source_fait: "F-CLICHY-011"
+  - date: "27 juin 2026, 13:04"
+    evenement: "@camille_moscow poste tweet fuite Clichy"
+
+domaines:
+  - "Météorologique-climatique (canicule 2026, +1,8°C France, PNACC +4°C)"
+  - "Administratif-réglementaire (restrictions eau Code environnement, VigiEau 4 niveaux)"
+  - "Économique-gestion eau (marché eau France 69% régie/31% DSP, monopole Veolia/SEDIF 126 ans)"
+  - "Désinformation et guerre information (Storm-1516/Doppelgänger, NoName057(16), amplification thématique)"
+  - "Technique-infrastructure hydraulique (sectorisation SEDIF, vannes modulation, rendements)"
+  - "Politique-institutionnel (déport ministres, HATVP, contentieux Plaine Commune/SEDIF, loi agricole eau)"
+
+urls_prioritaires:
+  - url: "https://observers.france24.com/fr/desinformation-russe-un-faux-reportage-accuse-zelensky-d-avoir-achete-un-hotel-a-courchevel"
+    description: "Source primaire confirmant @camille_moscow comme compte de désinformation Storm-1516"
+    head_status: 200
+  - url: "https://www.mediapart.fr/journal/economie-et-social/020924/sedif-veolia-dans-les-eaux-troubles-du-plus-grand-contrat-de-concession-d-europe"
+    description: "Enquête Mediapart sur monopole Veolia/SEDIF"
+    head_status: 200
+  - url: "https://www.hatvp.fr/livraison/dossiers/barbut-monique-di34787-gouvernement.pdf"
+    description: "Déclaration HATVP Barbut, prouve absence rémunération Veolia directe et absence déport"
+    head_status: 200
+  - url: "https://www.sgdsn.gouv.fr/files/files/Publications/20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Technical%20report_Storm-1516.pdf"
+    description: "Rapport VIGINUM 77 opérations Storm-1516, ciblage France, GRU 29155"
+    head_status: 200
+  - url: "https://www.bfmtv.com/sante/info-bfmtv-au-moins-55-morts-pris-en-charge-par-le-samu-de-paris-en-24-heures-jeudi-en-pleine-canicule-contre-moins-de-10-habituellement_AV-202606260500.html"
+    description: "55 morts Samu Paris 24h canicule, source primaire"
+    head_status: 200
+  - url: "https://www.lejournaldugrandparis.fr/eau-potable-plaine-commune-veut-quitter-le-sedif-qui-sy-oppose-fermement/"
+    description: "Contentieux Plaine Commune/SEDIF, confirmation sortie régie publique"
+    head_status: 200
+
+shadow_factor: 3.2
+
+mnemo_queries:
+  - query: "clichy eau fuite canicule 2026 désinformation"
+    results_count: 5
+  - query: "Storm-1516 Veolia SEDIF eau privatisation"
+    results_count: 5
+  - query: "street-pooling bouche incendie vandalisme France"
+    results_count: 5

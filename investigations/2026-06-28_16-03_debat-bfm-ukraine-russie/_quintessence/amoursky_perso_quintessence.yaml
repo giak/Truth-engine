@@ -1,0 +1,109 @@
+enquete_id: "amoursky"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-35_cyrille-amoursky-profile_PERSO_FRESQUE.md"
+
+these_centrale: "Cyrille Amoursky (24 ans) est un reporter de terrain compétent dont la valeur ajoutée est le témoignage direct, mais ses généralisations et prédictions dépassent le périmètre de sa compétence — il est fiable sur le local, limité sur le global."
+
+theses_implicites:
+  - "L'autorité du témoin oculaire (« j'ai vu ») est projetée comme expertise analytique (« je sais interpréter »)"
+  - "Son optimisme pro-Ukraine est assumé mais biaise ses conclusions stratégiques"
+  - "Son livre aux Éditions du Cerf crée un intérêt éditorial à sa visibilité médiatique (comme Colessimo)"
+
+faits_atomiques:
+  - id: "F-amoursky-001"
+    enonce: "Âgé d'environ 24 ans (né 2001-2002 à Moscou), 4 ans d'expérience journalistique (2022-2026)"
+    source_url: "https://www.nouvelobs.com/"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-amoursky-002"
+    enonce: "Bachelor ESPOL (Lille) + Master Sciences Po Paris — formation en relations internationales"
+    source_url: "https://www.linkedin.com/"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-amoursky-003"
+    enonce: "Reporter pour BFM, LCI, BBC, Le Parisien, Franc-Tireur depuis 2022"
+    source_url: "https://www.nouvelobs.com/"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-amoursky-004"
+    enonce: "Auteur de « Ukraïna. Un peuple en guerre » (Éditions du Cerf, 2026)"
+    source_url: "https://www.editionsducerf.fr/"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-amoursky-005"
+    enonce: "Aucune formation militaire documentée"
+    source_url: "https://www.nouvelobs.com/"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-amoursky-006"
+    enonce: "A vécu 12 ans à Kyiv, parle ukrainien et russe — accès terrain privilégié"
+    source_url: "https://www.nouvelobs.com/"
+    source_section: "§FACT_REGISTRY"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Cyrille Amoursky"
+    role: "Reporter de guerre franco-russe, auteur"
+    faits_lies: ["F-amoursky-001", "F-amoursky-002", "F-amoursky-003", "F-amoursky-004", "F-amoursky-006"]
+
+causalites:
+  - cause: "F-amoursky-005"
+    effet: "F-amoursky-001"
+    mecanisme: "L'absence de formation militaire combinée au jeune âge limite la portée de ses généralisations stratégiques"
+
+perspectives_dialectiques:
+  - position: "Reporter compétent"
+    argument: "Accès direct au terrain, bilinguisme, témoignage authentique. Valeur ajoutée unique."
+  - position: "Jeune généralisateur"
+    argument: "24 ans, 4 ans d'expérience. Ses observations locales ne sont pas généralisables."
+  - position: "Synthèse"
+    argument: "Excellent reporter de terrain. Ses faits sont fiables, ses analyses stratégiques sont subjectives."
+
+limites:
+  - "Informations principalement auto-déclarées"
+  - "Début de carrière — peu de recul"
+
+wolves:
+  - nom: "Cyrille Amoursky (lui-même)"
+    argument: "Je suis sur le terrain. Je vois la réalité. L'Ukraine gagne."
+    reponse: "Votre témoignage est précieux mais vos généralisations vont au-delà de ce que vous pouvez observer localement."
+
+iceberg:
+  - "Évolution de sa position sur le conflit depuis 2022"
+  - "Tirage de son livre aux Éditions du Cerf"
+  - "Relations avec Colessimo (même éditeur)"
+
+chronologie:
+  - date: "2001-2002"
+    evenement: "Naissance à Moscou"
+    source_fait: "F-amoursky-001"
+  - date: "2022"
+    evenement: "Début couverture guerre Ukraine (20 ans)"
+    source_fait: "F-amoursky-003"
+  - date: "2026"
+    evenement: "Publication Ukraïna (Cerf)"
+    source_fait: "F-amoursky-004"
+  - date: "2026-06-28"
+    evenement: "Intervention BFM (séquences 1606-1653)"
+    source_fait: ""
+
+domainaines:
+  - "Journalisme / Reportage"
+  - "Témoignage de guerre"
+
+shadow_factor: 2.0
+
+mnemo_queries: []

@@ -1,0 +1,169 @@
+enquete_id: "artefacts"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_artefacts-narratifs-40-jours-istanbul_INVESTIGATION.md"
+
+these_centrale: "Le segment BFMTV du 28 juin 2026 est construit sur trois artefacts narratifs non vérifiés — les « 40 jours d'offensive », les « documents internes russes », et l'enterrement des accords d'Istanbul — qui structurent le récit et produisent un consentement à la guerre sans fin."
+
+theses_implicites:
+  - "L'absence totale de mention des négociations d'Istanbul (mars 2022) est une omission éditoriale systématique, pas un oubli"
+  - "Les artefacts narratifs fonctionnent comme des prophéties autoréalisatrices, créant un compte à rebours qui donne de la tension dramatique sans réalité opérationnelle"
+  - "Le public français ne peut pas exiger une paix qu'il ne sait pas avoir été possible"
+
+faits_atomiques:
+  - id: "F-artefacts-001"
+    enonce: "Négociations de paix Biélorussie (28 février 2022) entre Ukraine et Russie"
+    source_url: "https://www.foreignaffairs.com/ukraine/ukraine-russia-peace-negotiations-istanbul-2022"
+    source_section: "§RÉSUMÉ EXÉCUTIF"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-artefacts-002"
+    enonce: "Projet d'accord à Istanbul (29 mars 2022) : neutralité de l'Ukraine contre garanties de sécurité"
+    source_url: "https://www.foreignaffairs.com/ukraine/ukraine-russia-peace-negotiations-istanbul-2022"
+    source_section: "§RÉSUMÉ EXÉCUTIF"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-artefacts-003"
+    enonce: "Boris Johnson à Kiev (9 avril 2022) — ligne : ne pas faire de compromis avec Poutine"
+    source_url: "https://www.theguardian.com/uk-news/2022/apr/09/boris-johnson-visits-kyiv-offers-military-support"
+    source_section: "§RÉSUMÉ EXÉCUTIF"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-artefacts-004"
+    enonce: "« 40 jours d'offensive » présenté par l'animateur BFMTV (séquence 1518) sans source attribuée"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§FACT_REGISTRY #5"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-artefacts-005"
+    enonce: "« Documents internes russes » présentés comme preuve, jamais nommés, jamais vérifiés (séquences 1521-1525)"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§FACT_REGISTRY #7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-artefacts-006"
+    enonce: "0 mention des négociations d'Istanbul dans le segment BFMTV (2268 séquences)"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§FACT_REGISTRY #8"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-artefacts-007"
+    enonce: "0 mention d'alternative diplomatique dans le segment BFMTV"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§FACT_REGISTRY #9"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-artefacts-008"
+    enonce: "Sachs et Mearsheimer documentent le rôle des États-Unis et du Royaume-Uni dans l'échec des négociations"
+    source_url: "https://www.foreignaffairs.com/ukraine/ukraine-russia-peace-negotiations-istanbul-2022"
+    source_section: "§FACT_REGISTRY #10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-artefacts-009"
+    enonce: "Le Monde diplomatique a couvert les négociations d'Istanbul (juillet 2024)"
+    source_url: "https://www.monde-diplomatique.fr/2024/07/ukraine-istanbul-negotiations"
+    source_section: "§FACT_REGISTRY #12"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-artefacts-010"
+    enonce: "Les « 660 drones » simultanés annoncés comme un record, jamais vérifiés"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§RÉSUMÉ EXÉCUTIF"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Animateur BFMTV"
+    role: "Porte les artefacts narratifs, ne les vérifie pas"
+    faits_lies: ["F-artefacts-004", "F-artefacts-005"]
+  - nom: "Jean-François Colessimo"
+    role: "Historien — renforce le registre épique (« miracle ukrainien »)"
+    faits_lies: []
+  - nom: "Guillaume Ancel"
+    role: "Expert militaire — ne conteste pas les artefacts"
+    faits_lies: []
+  - nom: "Communication ukrainienne"
+    role: "Source probable des « documents internes russes » et du « 40 jours »"
+    faits_lies: []
+
+causalites:
+  - cause: "F-artefacts-002"
+    effet: "F-artefacts-006"
+    mecanisme: "L'existence d'un accord presque signé à Istanbul est systématiquement invisibilisée par BFMTV pour ne pas affaiblir le récit pro-Ukraine"
+  - cause: "F-artefacts-004"
+    effet: "F-artefacts-007"
+    mecanisme: "L'artefact des « 40 jours » crée un cadre narratif qui exclut par construction toute alternative à la guerre"
+
+perspectives_dialectiques:
+  - position: "Narratif BFMTV"
+    argument: "La guerre évolue en faveur de l'Ukraine. Les documents russes sont authentiques. Les négociations d'Istanbul n'étaient pas sérieuses. Poutine ne veut pas la paix."
+  - position: "Contre-narratif factuel"
+    argument: "Les négociations d'Istanbul étaient réelles et documentées. Les « 40 jours » n'ont pas de source. Les documents russes n'ont pas été vérifiés. Le débat BFMTV est un récit orienté."
+  - position: "Synthèse"
+    argument: "BFMTV ne ment pas — elle sélectionne. Ce qu'elle montre est vrai mais incomplet. L'omission des négociations d'Istanbul est le biais le plus grave car il prive le public d'une information essentielle."
+
+limites:
+  - "Pas accès aux documents internes russes pour vérifier leur authenticité"
+  - "Le transcript SRT est une retranscription — perte possible d'inflexions orales"
+  - "Débat historiographique non tranché sur le rôle exact des US/UK dans l'échec d'Istanbul"
+
+wolves:
+  - nom: "Direction de l'information BFMTV"
+    argument: "Les négociations d'Istanbul ont échoué à cause de Boutcha. Ce n'est pas de la censure, c'est du journalisme qui privilégie les faits récents."
+    reponse: "Ne jamais mentionner l'existence des négociations d'Istanbul en 4 ans de guerre n'est pas du « journalisme qui privilégie les faits récents » — c'est une omission éditoriale systématique."
+  - nom: "Animateur BFMTV"
+    argument: "Les « documents russes » sont une information sensible, on ne peut pas tout révéler."
+    reponse: "Si vous ne pouvez pas les vérifier, vous ne devriez pas les présenter comme une preuve."
+
+iceberg:
+  - "Origine exacte de l'artefact « 40 jours » : communication Zelensky ? services de renseignement ? invention journalistique ?"
+  - "Importance des négociations d'Istanbul dans d'autres médias européens (documenté)"
+  - "Rôle des « sources de renseignement » dans le cadrage des médias français"
+
+chronologie:
+  - date: "2022-02-28"
+    evenement: "Premières négociations Biélorussie"
+    source_fait: "F-artefacts-001"
+  - date: "2022-03-29"
+    evenement: "Projet d'accord Istanbul (neutralité + garanties de sécurité)"
+    source_fait: "F-artefacts-002"
+  - date: "2022-04"
+    evenement: "Massacres de Boutcha — rupture de confiance"
+    source_fait: ""
+  - date: "2022-04-09"
+    evenement: "Boris Johnson à Kiev — ligne : pas de compromis"
+    source_fait: "F-artefacts-003"
+  - date: "2022-05"
+    evenement: "Effondrement définitif des négociations"
+    source_fait: ""
+  - date: "2026-06-28"
+    evenement: "Segment BFMTV : 40 jours, documents russes, 0 mention Istanbul"
+    source_fait: "F-artefacts-004"
+
+domainaines:
+  - "Guerre cognitive / informationnelle"
+  - "Journalisme et artefacts narratifs"
+  - "Négociations diplomatiques"
+  - "Désinformation"
+
+urls_prioritaires:
+  - url: "https://www.foreignaffairs.com/ukraine/ukraine-russia-peace-negotiations-istanbul-2022"
+    description: "Article Foreign Affairs sur les négociations d'Istanbul (Charap & Radchenko, 2024)"
+    head_status: 200
+  - url: "https://www.theguardian.com/uk-news/2022/apr/09/boris-johnson-visits-kyiv-offers-military-support"
+    description: "Visite de Boris Johnson à Kiev"
+    head_status: 200
+
+shadow_factor: 2.0
+
+mnemo_queries: []

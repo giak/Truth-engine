@@ -1,0 +1,146 @@
+enquete_id: "arcom"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_arcom-regulateur-sous-influence_INVESTIGATION.md"
+
+these_centrale: "L'Arcom est un régulateur conçu pour ne pas réguler : ses membres sont nommés par le pouvoir politique, elle n'a jamais bloqué un rachat de média, et sa fonction réelle est de donner l'illusion d'un contre-pouvoir."
+
+theses_implicites:
+  - "L'Arcom n'est pas indépendante du pouvoir politique qui nomme ses 9 membres"
+  - "L'existence même de l'Arcom endort la vigilance citoyenne : le public croit que « quelqu'un contrôle »"
+  - "La seule vraie sanction (C8, 2025) est une exception qui confirme la règle de l'impuissance"
+
+faits_atomiques:
+  - id: "F-arcom-001"
+    enonce: "Arcom créée en 2022 (fusion CSA + Hadopi) — 9 membres nommés par PR (3), AN (3), Sénat (3)"
+    source_url: "https://fr.wikipedia.org/wiki/Arcom"
+    source_section: "§FACT_REGISTRY #1"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-arcom-002"
+    enonce: "Roch-Olivier Maistre président de l'Arcom (ex-CSA, proche du pouvoir)"
+    source_url: "https://fr.wikipedia.org/wiki/Roch-Olivier_Maistre"
+    source_section: "§FACT_REGISTRY #3"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-arcom-003"
+    enonce: "L'Arcom n'a jamais bloqué un rachat de média en France (Bolloré, Saadé, Bouygues — tous validés)"
+    source_url: "https://www.arcom.fr/decisions"
+    source_section: "§FACT_REGISTRY #4"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-arcom-004"
+    enonce: "Conseil d'État force l'Arcom à durcir ses règles de pluralisme (février 2024)"
+    source_url: "https://www.conseil-etat.fr/actualites/2024/arcom-pluralisme"
+    source_section: "§FACT_REGISTRY #7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-arcom-005"
+    enonce: "Aucune sanction de l'Arcom contre BFMTV pour partialité dans le traitement de la guerre en Ukraine"
+    source_url: "https://www.arcom.fr/sanctions"
+    source_section: "§FACT_REGISTRY #9"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-arcom-006"
+    enonce: "Affaire M'Barki (BFMTV désinformation via Team Jorge, 2023) : aucune action de l'Arcom"
+    source_url: "https://www.forbiddenstories.org/story-killers/"
+    source_section: "§FACT_REGISTRY #10"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-arcom-007"
+    enonce: "L'Arcom n'a aucun pouvoir sur le contenu des experts invités en plateau"
+    source_url: "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000020914816"
+    source_section: "§FACT_REGISTRY #12"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-arcom-008"
+    enonce: "C8 perd sa fréquence TNT (2025) — première sanction forte du régulateur"
+    source_url: "https://www.lemonde.fr/economie/article/2025/07/01/arcom-c8-perte-de-frequence"
+    source_section: "§FACT_REGISTRY #6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Roch-Olivier Maistre"
+    role: "Président de l'Arcom"
+    faits_lies: ["F-arcom-002"]
+  - nom: "Emmanuel Macron"
+    role: "PR — nomme 3 membres de l'Arcom"
+    faits_lies: ["F-arcom-001"]
+  - nom: "Conseil d'État"
+    role: "Force l'Arcom à agir (2024) — contrainte judiciaire"
+    faits_lies: ["F-arcom-004"]
+
+causalites:
+  - cause: "F-arcom-001"
+    effet: "F-arcom-003"
+    mecanisme: "La nomination politique des membres de l'Arcom garantit qu'elle ne bloquera jamais un rachat"
+  - cause: "F-arcom-007"
+    effet: "F-arcom-005"
+    mecanisme: "L'absence de pouvoir sur les experts invités explique l'absence de sanction pour partialité"
+
+perspectives_dialectiques:
+  - position: "Narratif officiel"
+    argument: "L'Arcom est une autorité indépendante qui garantit le pluralisme. Ses sanctions sont rares parce que les médias respectent la loi."
+  - position: "Contre-thèse critique"
+    argument: "L'Arcom est un cache-sexe démocratique. Elle est nommée par le pouvoir, ne régule rien, et donne l'illusion du contrôle."
+  - position: "Synthèse"
+    argument: "L'Arcom n'est pas impuissante par hasard : elle est conçue pour être impuissante. Sa composition garantit son inertie."
+
+limites:
+  - "Pas d'accès aux délibérations internes de l'Arcom"
+  - "Le cas C8 (2025) montre que l'Arcom peut agir — mais c'est une exception"
+  - "Analyse porte sur l'inaction, plus difficile à documenter que l'action"
+
+wolves:
+  - nom: "Arcom"
+    argument: "Nous sommes indépendants et nous agissons quand la loi est violée. La concentration n'est pas de notre ressort."
+    reponse: "Vous avez validé tous les rachats, vous n'avez jamais sanctionné BFMTV pour partialité, et vous avez dû être forcés par le Conseil d'État pour renforcer le pluralisme."
+  - nom: "Gouvernement"
+    argument: "L'Arcom est une autorité indépendante. L'État ne peut pas influencer ses décisions."
+    reponse: "L'État nomme ses 9 membres. Il n'a pas besoin d'influencer les décisions — il choisit ceux qui les prendront."
+
+iceberg:
+  - "Parcours exact des 9 membres de l'Arcom (combien viennent de l'audiovisuel public/privé ?)"
+  - "Nombre de réunions à huis clos entre Arcom et propriétaires de médias"
+  - "Comparaison internationale : indépendance réelle des régulateurs médias en Europe"
+
+chronologie:
+  - date: "1982"
+    evenement: "Création CSA (ancêtre de l'Arcom)"
+    source_fait: ""
+  - date: "2022"
+    evenement: "Arcom remplace CSA — réforme cosmétique"
+    source_fait: "F-arcom-001"
+  - date: "2024"
+    evenement: "Conseil d'État force Arcom à durcir pluralisme"
+    source_fait: "F-arcom-004"
+  - date: "2025"
+    evenement: "C8 perd sa fréquence — première sanction forte"
+    source_fait: "F-arcom-008"
+
+domainaines:
+  - "Médias"
+  - "Régulation audiovisuelle"
+  - "Pluralisme"
+  - "Indépendance institutionnelle"
+
+urls_prioritaires:
+  - url: "https://fr.wikipedia.org/wiki/Arcom"
+    description: "Arcom — autorité de régulation"
+    head_status: 200
+  - url: "https://www.conseil-etat.fr/actualites/2024/arcom-pluralisme"
+    description: "Conseil d'État force l'Arcom à agir (2024)"
+    head_status: 200
+
+shadow_factor: 2.5
+
+mnemo_queries: []

@@ -1,0 +1,104 @@
+enquete_id: "nucléaire"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_19-30_synthese-nucleaire-hyper-matrice_HYPER_MATRICE.md"
+
+these_centrale: "La discussion nucléaire est la plus équilibrée du débat : trois intervenants (Colessimo rassurant, Bunna alarmiste, Ancel nuancé) offrent trois angles complémentaires sans consensus — mais 71% des affirmations restent des constructions rhétoriques (⁕), 29% partiellement attestées (✧)."
+
+theses_implicites:
+  - "L'« interdit nucléaire » de Colessimo est contredit par 27 menaces documentées de Poutine et la révision de la doctrine russe (2024)"
+  - "Bunna a raison sur l'incertitude radicale mais ignore 80 ans de recherche en dissuasion"
+  - "Ancel se contredit partiellement : alarmiste sur Poutine (séquences 1654-1710), rassurant sur le nucléaire"
+
+faits_atomiques:
+  - id: "F-nucleaire-001"
+    enonce: "0% ✦, 29% ✧, 71% ⁕ sur 7 affirmations nucléaires"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_19-30_synthese-nucleaire-hyper-matrice_HYPER_MATRICE.md"
+    source_section: "§DISTRIBUTION DES VERDICTS"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-nucleaire-002"
+    enonce: "Doctrine nucléaire russe révisée (2024) suite à l'article de Karaganov (2023)"
+    source_url: "https://carnegieendowment.org/"
+    source_section: "§TABLEAU COMPARATIF aff.02"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-nucleaire-003"
+    enonce: "10 000× plus puissant qu'arme classique (tactiques : ×10-500) — ratio global correct"
+    source_url: "https://www.atomicarchive.com/"
+    source_section: "§TABLEAU COMPARATIF aff.05"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-nucleaire-004"
+    enonce: "27 menaces nucléaires documentées de Poutine (VOA) vs « 135 total » dont « 200+ » plausible"
+    source_url: "https://www.voanews.com/"
+    source_section: "§TABLEAU COMPARATIF"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-nucleaire-005"
+    enonce: "Trois positions sans consensus : Colessimo (rassurant), Bunna (alarmiste), Ancel (nuancé)"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_19-30_synthese-nucleaire-hyper-matrice_HYPER_MATRICE.md"
+    source_section: "§CARTE DIALECTIQUE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Jean-François Colessimo"
+    role: "Position rassurante — interdit majeur de la GF"
+    faits_lies: ["F-nucleaire-001", "F-nucleaire-005"]
+  - nom: "Ulrich Bounat (Bunna)"
+    role: "Position alarmiste — inconnu radical, suicide collectif"
+    faits_lies: ["F-nucleaire-003", "F-nucleaire-005"]
+  - nom: "Guillaume Ancel"
+    role: "Position nuancée — lointain mais menaces réelles"
+    faits_lies: ["F-nucleaire-004", "F-nucleaire-005"]
+
+causalites:
+  - cause: "F-nucleaire-005"
+    effet: "F-nucleaire-001"
+    mecanisme: "L'absence de consensus entre les 3 experts explique la dominance des constructions rhétoriques"
+
+perspectives_dialectiques:
+  - position: "Colessimo"
+    argument: "Le nucléaire est contenu par l'histoire. Interdit majeur depuis 1945."
+  - position: "Bunna"
+    argument: "Personne ne contrôle l'escalade. C'est un suicide collectif."
+  - position: "Ancel"
+    argument: "Le risque est lointain mais réel. La menace est surtout rhétorique."
+
+limites:
+  - "Sujet nucléaire = peu de faits vérifiables (doctrine classifiée)"
+  - "~40 entrées factuelles seulement"
+
+wolves:
+  - nom: "Un intervenant"
+    argument: "Le risque nucléaire est [rassurant/inquiétant/lointain]."
+    reponse: "Tous ont raison sur un aspect. La discussion est la mieux équilibrée du débat car les tensions sont visibles."
+
+iceberg:
+  - "Quelle serait la réponse OTAN réelle à une frappe tactique russe ?"
+  - "Modèles d'escalade académiques vs scénarios des intervenants"
+
+chronologie:
+  - date: "2023"
+    evenement: "Article Karaganov sur doctrine nucléaire"
+    source_fait: "F-nucleaire-002"
+  - date: "2024"
+    evenement: "Doctrine russe révisée"
+    source_fait: "F-nucleaire-002"
+  - date: "2026-06-28"
+    evenement: "Discussion nucléaire BFM (séquences 1711-1814)"
+    source_fait: "F-nucleaire-001"
+
+domainaines:
+  - "Nucléaire / Dissuasion"
+  - "Sécurité internationale"
+
+shadow_factor: 3.0
+
+mnemo_queries: []

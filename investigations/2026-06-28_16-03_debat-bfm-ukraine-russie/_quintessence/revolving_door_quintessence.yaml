@@ -1,0 +1,202 @@
+enquete_id: "revolving_door"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_22-30_revolving-door-ramon-fernandez-etat-medias_INVESTIGATION.md"
+
+these_centrale: "La nomination de Ramon Fernandez (ex-DG Trésor) à la présidence de RMC BFM est l'aboutissement d'un circuit de revolving door qui verrouille l'alignement entre l'État, le propriétaire CMA CGM, et le média BFMTV, créant une fusion d'intérêt structurelle."
+
+theses_implicites:
+  - "Bpifrance (État) est actionnaire indirect de BFMTV via CMA CGM, créant un conflit d'intérêt structurel jamais débattu"
+  - "Le circuit Trésor → Orange → CMA CGM → RMC BFM est un parcours type de l'élite administrative française"
+  - "La nomination de Fernandez garantit l'alignement éditorial sans avoir besoin d'instructions écrites"
+
+faits_atomiques:
+  - id: "F-revolving-001"
+    enonce: "Ramon Fernandez diplômé ENA (promotion Saint-Exupéry, 1993)"
+    source_url: "https://fr.wikipedia.org/wiki/Ramon_Fernandez_(haut_fonctionnaire)"
+    source_section: "§CHRONOLOGIE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-revolving-002"
+    enonce: "Directeur général du Trésor (2009-2014) — plus haut poste économique français"
+    source_url: "https://fr.wikipedia.org/wiki/Ramon_Fernandez_(haut_fonctionnaire)"
+    source_section: "§CHRONOLOGIE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-revolving-003"
+    enonce: "Directeur général délégué Orange (2016-2022)"
+    source_url: "https://fr.wikipedia.org/wiki/Ramon_Fernandez_(haut_fonctionnaire)"
+    source_section: "§CHRONOLOGIE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-revolving-004"
+    enonce: "CFO CMA CGM (2022-2025) — rejoint l'armateur de Rodolphe Saadé"
+    source_url: "https://www.lesechos.fr/industrie-services/transport-logistique/ramon-fernandez-nomme-directeur-financier-de-cma-cgm-1809200"
+    source_section: "§CHRONOLOGIE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-revolving-005"
+    enonce: "Nommé président de RMC BFM (juillet 2025)"
+    source_url: "https://www.lemonde.fr/economie/article/2025/07/15/ramon-fernandez-nomme-president-de-rmc-bfm_6248321_3234.html"
+    source_section: "§CARTE DES PREUVES #6"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-revolving-006"
+    enonce: "Bpifrance investit 150M$ dans CMA CGM (2013) — actionnaire à 3%"
+    source_url: "https://www.lesechos.fr/industrie-services/transport-logistique/bpifrance-entre-au-capital-de-cma-cgm-648083"
+    source_section: "§CARTE DES PREUVES #7"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-revolving-007"
+    enonce: "Bpifrance supervisée par la Direction du Trésor — ex-employeur de Fernandez"
+    source_url: "https://www.bpifrance.fr/nous-connaitre/gouvernance"
+    source_section: "§CARTE DES PREUVES #12"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-revolving-008"
+    enonce: "CMA CGM rachète Altice Média (BFMTV, RMC) pour 1,55 Md€ (juillet 2024)"
+    source_url: "https://www.lemonde.fr/economie/article/2024/07/02/le-rachat-de-bfmtv-par-cma-cgm-autorise-par-l-arcom_6243205_3234.html"
+    source_section: "§CARTE DES PREUVES #10"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-revolving-009"
+    enonce: "Bpifrance + CMA CGM co-lancent fonds PULSE à 200M€ (2024)"
+    source_url: "https://www.lefigaro.fr/flash-eco/cma-cgm-et-bpifrance-lancent-un-fonds-de-200-millions-d-euros-20241115"
+    source_section: "§CARTE DES PREUVES #9"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-revolving-010"
+    enonce: "Régis Ravanas (ex-Bouygues Telecom, ex-Altice) nommé DG RMC BFM"
+    source_url: "https://www.lemonde.fr/economie/article/2025/01/15/regis-ravanas-nomme-directeur-general-de-rmc-bfm"
+    source_section: "§RÉSEAU D'ACTEURS"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-revolving-011"
+    enonce: "Fabien Namias (ex-i>Télé, ex-CNews, proche Bolloré) nommé DGA RMC BFM"
+    source_url: "https://www.lemonde.fr/economie/article/2025/02/01/fabien-namias-rejoint-rmc-bfm"
+    source_section: "§RÉSEAU D'ACTEURS"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-revolving-012"
+    enonce: "Fernandez CFO chez CMA CGM lors de l'acquisition d'Altice Média — il était dans la salle"
+    source_url: "https://www.lesechos.fr/industrie-services/transport-logistique/ramon-fernandez-nomme-directeur-financier-de-cma-cgm-1809200"
+    source_section: "§ANATOMIE D'UN REVOLVING DOOR"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Ramon Fernandez"
+    role: "Président RMC BFM, ex-DG Trésor, ex-CFO CMA CGM"
+    faits_lies: ["F-revolving-001", "F-revolving-002", "F-revolving-003", "F-revolving-004", "F-revolving-005"]
+  - nom: "Rodolphe Saadé"
+    role: "PDG CMA CGM, propriétaire de BFMTV"
+    faits_lies: ["F-revolving-008"]
+  - nom: "Bpifrance"
+    role: "Banque publique, actionnaire 3% CMA CGM"
+    faits_lies: ["F-revolving-006", "F-revolving-007", "F-revolving-009"]
+  - nom: "Régis Ravanas"
+    role: "DG RMC BFM"
+    faits_lies: ["F-revolving-010"]
+  - nom: "Fabien Namias"
+    role: "DGA RMC BFM"
+    faits_lies: ["F-revolving-011"]
+
+causalites:
+  - cause: "F-revolving-002"
+    effet: "F-revolving-003"
+    mecanisme: "Parcours classique de pantouflage : un haut fonctionnaire du Trésor rejoint un grand groupe privé régulé par l'État"
+  - cause: "F-revolving-004"
+    effet: "F-revolving-008"
+    mecanisme: "Fernandez chez CMA CGM participe à l'acquisition d'Altice Média qui fait entrer l'armateur dans les médias"
+  - cause: "F-revolving-008"
+    effet: "F-revolving-005"
+    mecanisme: "Le rachat de BFMTV par CMA CGM permet la nomination de Fernandez (cadre CMA CGM) à la présidence du groupe média"
+  - cause: "F-revolving-006"
+    effet: "F-revolving-009"
+    mecanisme: "La relation Bpifrance-CMA CGM se renforce : investissement 2013 → fonds commun 2024 → actionnariat croisé"
+
+perspectives_dialectiques:
+  - position: "Thèse officielle"
+    argument: "Fernandez est un expert reconnu. Son parcours Trésor→Orange→CMA CGM→médias est logique et ne pose pas de problème éthique. Bpifrance est un investisseur comme un autre."
+  - position: "Contre-thèse critique"
+    argument: "Ce circuit est un revolving door typique de l'élite française. L'État place ses hommes aux commandes des médias. Bpifrance est un outil de contrôle étatique déguisé en banque publique."
+  - position: "Synthèse"
+    argument: "Pas de conspiration mais une architecture : le système est conçu pour que les mêmes personnes circulent entre État, grands groupes et médias. L'alignement est structurel, pas intentionnel."
+
+limites:
+  - "Rémunération exacte de Fernandez non disponible"
+  - "Pas de preuve de coordination directe État→Fernandez→ligne éditoriale"
+  - "L'analyse est structurelle : le conflit d'intérêt est systémique, pas criminel"
+
+wolves:
+  - nom: "Ramon Fernandez / Direction RMC BFM"
+    argument: "Je suis nommé pour mes compétences dans les médias et la finance, pas pour aligner l'information sur l'État"
+    reponse: "Le problème n'est pas votre intention mais le circuit : vous venez de l'État, du propriétaire, et vous dirigez l'info. L'alignement est structurel, que vous le vouliez ou non."
+  - nom: "Bpifrance"
+    argument: "Nous sommes un investisseur comme les autres, notre actionnariat dans CMA CGM est une opération normale de soutien aux entreprises"
+    reponse: "Vous êtes supervisés par le Trésor, dont l'ex-directeur dirige le média que vous financez indirectement. C'est un conflit d'intérêt structurel."
+
+iceberg:
+  - "Rémunération et avantages des cadres dirigeants de RMC BFM (non public)"
+  - "Rôle exact de Fernandez dans l'acquisition d'Altice Média (documentation interne)"
+  - "Fréquence des contacts entre Fernandez et l'Élysée/Bercy depuis sa nomination"
+  - "Autres revolving doors dans les médias français (chiffre global non documenté)"
+
+chronologie:
+  - date: "1993"
+    evenement: "Fernandez diplômé ENA (Saint-Exupéry)"
+    source_fait: "F-revolving-001"
+  - date: "2009-2014"
+    evenement: "Directeur général du Trésor"
+    source_fait: "F-revolving-002"
+  - date: "2013"
+    evenement: "Bpifrance investit 150M$ dans CMA CGM"
+    source_fait: "F-revolving-006"
+  - date: "2016-2022"
+    evenement: "Directeur général délégué Orange"
+    source_fait: "F-revolving-003"
+  - date: "2022"
+    evenement: "Fernandez rejoint CMA CGM comme CFO"
+    source_fait: "F-revolving-004"
+  - date: "Juillet 2024"
+    evenement: "CMA CGM rachète Altice Média (1,55 Md€)"
+    source_fait: "F-revolving-008"
+  - date: "2024"
+    evenement: "Fonds PULSE Bpifrance-CMA CGM (200M€)"
+    source_fait: "F-revolving-009"
+  - date: "Juillet 2025"
+    evenement: "Fernandez nommé président RMC BFM"
+    source_fait: "F-revolving-005"
+
+domainaines:
+  - "Médias"
+  - "Revolving door / pantouflage"
+  - "Conflits d'intérêt"
+  - "Gouvernance d'État"
+
+urls_prioritaires:
+  - url: "https://fr.wikipedia.org/wiki/Ramon_Fernandez_(haut_fonctionnaire)"
+    description: "Biographie de référence de Ramon Fernandez"
+    head_status: 200
+  - url: "https://www.lemonde.fr/economie/article/2025/07/15/ramon-fernandez-nomme-president-de-rmc-bfm_6248321_3234.html"
+    description: "Annonce de la nomination de Fernandez à la présidence de RMC BFM"
+    head_status: 200
+  - url: "https://www.lemonde.fr/economie/article/2024/07/02/le-rachat-de-bfmtv-par-cma-cgm-autorise-par-l-arcom_6243205_3234.html"
+    description: "Rachat de BFMTV par CMA CGM"
+    head_status: 200
+
+shadow_factor: 2.5
+
+mnemo_queries: []

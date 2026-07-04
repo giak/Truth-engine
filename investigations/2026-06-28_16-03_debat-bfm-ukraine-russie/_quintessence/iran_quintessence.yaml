@@ -1,0 +1,95 @@
+enquete_id: "iran"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-35_synthese-iran-hyper-matrice_HYPER_MATRICE.md"
+
+these_centrale: "La séquence Iran est la plus géopolitiquement large du débat (67% ✧) : Bunna analyse le windfall pétrolier russe via la guerre en Iran, Ancel décrit le pivot Trump — les deux analyses sont complémentaires sans se contredire."
+
+theses_implicites:
+  - "Le windfall Iran compense largement les pertes pétrolières russes causées par les frappes ukrainiennes — Bunna omet cette asymétrie"
+  - "Ancel est factuel et nuancé sur le G7 et Trump, mais la spéculation sur le « coup de fil Poutine » est gratuite"
+  - "La chaîne causale de Bunna (frappes → pénuries → prise de conscience → légitimité sapée) ignore la propagande russe qui transforme les frappes en « actes terroristes » renforçant le régime"
+
+faits_atomiques:
+  - id: "F-iran-001"
+    enonce: "67% ✧, 33% ⁕ — 2e meilleur ratio du débat après Flamingo"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-35_synthese-iran-hyper-matrice_HYPER_MATRICE.md"
+    source_section: "§DISTRIBUTION DES VERDICTS"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-iran-002"
+    enonce: "Guerre Iran → fermeture Hormuz → pétrole ~125$/baril → windfall russe (Carnegie)"
+    source_url: "https://carnegieendowment.org/"
+    source_section: "§CARTE DIALECTIQUE"
+    head_status: 200
+    tier: 2
+    glyphe: "✧"
+  - id: "F-iran-003"
+    enonce: "Trump : « Zelensky holding his own » (24 juin 2026) + G7 Evian déclaration signée US"
+    source_url: "https://www.theguardian.com/"
+    source_section: "§CARTE DIALECTIQUE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-iran-004"
+    enonce: "Confrontation Trump-Zelensky Bureau Ovale (28 février 2025) documentée"
+    source_url: "https://www.politico.eu/"
+    source_section: "§CARTE DIALECTIQUE"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Ulrich Bounat (Bunna)"
+    role: "Analyse macro-économique Iran/Russie/pétrole"
+    faits_lies: ["F-iran-001", "F-iran-002"]
+  - nom: "Guillaume Ancel"
+    role: "Analyse diplomatique pivot Trump + G7"
+    faits_lies: ["F-iran-001", "F-iran-003", "F-iran-004"]
+
+causalites:
+  - cause: "F-iran-002"
+    effet: "F-iran-001"
+    mecanisme: "La qualité des analyses (vs spéculation) vient du fait que Bunna et Ancel restent dans leurs domaines de compétence"
+
+perspectives_dialectiques:
+  - position: "Bunna + Ancel"
+    argument: "La Russie tient économiquement via l'Iran. Le soutien occidental est conditionné."
+  - position: "Contre-point"
+    argument: "Le windfall Iran > pertes raffinage. L'aide US continue malgré la conditionnalité."
+  - position: "Synthèse"
+    argument: "Double défi asymétrique pour l'Ukraine : la Russie encaisse, l'Occident conditionne."
+
+limites:
+  - "Données macro-économiques partielles"
+  - "Le scénario de « basculement » Trump est spéculatif"
+
+wolves:
+  - nom: "Ulrich Bounat"
+    argument: "La guerre en Iran profite à la Russie. Les frappes ukrainiennes réduisent ce bonus."
+    reponse: "Vrai mais le windfall Iran est plus important que les pertes causées par les frappes."
+
+iceberg:
+  - "Évolution réelle du windfall pétrolier russe post-Iran"
+  - "Probabilité réelle d'un appel Poutine-Trump"
+
+chronologie:
+  - date: "2025-02-28"
+    evenement: "Confrontation Trump-Zelensky Bureau Ovale"
+    source_fait: "F-iran-004"
+  - date: "2026-06-24"
+    evenement: "Trump : « Zelensky holding his own »"
+    source_fait: "F-iran-003"
+  - date: "2026-06-28"
+    evenement: "Séquence Iran BFM (séquences 1967-2062)"
+    source_fait: "F-iran-001"
+
+domainaines:
+  - "Géopolitique / Iran"
+  - "Pétrole / Économie"
+  - "Diplomatie US"
+
+shadow_factor: 2.5
+
+mnemo_queries: []

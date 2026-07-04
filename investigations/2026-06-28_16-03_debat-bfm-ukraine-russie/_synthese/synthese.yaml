@@ -1,0 +1,86 @@
+date_synthese: "2026-06-29"
+complexity: "APEX"
+n_enquetes: 18
+enquetes_concernees: ["bfmtv", "revolving_door", "artefacts", "departs", "wolves", "arcom", "synthese_medias", "synthese_debat", "synthese_ouverture", "ancel_hyper", "colessimo_hyper", "cloture", "bunna_crimee", "nucleaire", "flamingo", "pays_baltes", "iran", "amoursky_perso"]
+total_faits_atomiques: 129
+
+sujet_majoritaire: "BFMTV et le système médiatique français comme dispositif de guerre cognitive : analyse forensique d'un débat de 30 minutes (28 juin 2026) et des 6 mécanismes structurels qui verrouillent l'information en France."
+
+theses_cardinales:
+  - titre: "THESE-001 : Soft propaganda structurelle — BFMTV comme vecteur de guerre cognitive"
+    enonce: "BFMTV n'est pas un média de propagande classique mais un vecteur de soft propaganda structurelle produit par 6 mécanismes convergents : concentration capitalistique (9 propriétaires, ~90% audience), revolving door État-médias (Ramon Fernandez), purge éditoriale (100+ journalistes partis), fabrique d'artefacts narratifs (40 jours, documents russes, Istanbul enterré), absence de pluralisme (0 invité russe ou sceptique), régulateur impuissant (Arcom)."
+    f_atomiques_justificatifs: ["F-bfmtv-003", "F-bfmtv-005", "F-bfmtv-006", "F-revolving-005", "F-revolving-008", "F-artefacts-004", "F-artefacts-006", "F-departs-003", "F-departs-005", "F-wolves-001", "F-wolves-002", "F-wolves-003", "F-arcom-003", "F-arcom-005", "F-synthese-001", "F-synthese-003"]
+    shadow: 2.8
+
+  - titre: "THESE-002 : Un débat univoque — 30 minutes sans contradicteur, asymétries ×10-100"
+    enonce: "Le segment BFM du 28 juin 2026 (séquences 1511-2268) construit un récit cohérent de basculement de la guerre en faveur de l'Ukraine, avec 4 experts complémentaires mais jamais en contradiction. Les asymétries structurelles (Russie ×40-80 volume de frappes, ×10 impact destructeur, ×100-1 000 pression économique) ne sont jamais mentionnées. 27% des affirmations sont des faits durs (✦), 45% des amplifications (✧), 27% de la rhétorique (⁕)."
+    f_atomiques_justificatifs: ["F-debat-001", "F-debat-005", "F-debat-006", "F-ouverture-001", "F-ouverture-002", "F-ouverture-003", "F-ouverture-004", "F-ouverture-007", "F-cloture-001", "F-baltes-001"]
+    shadow: 2.8
+
+  - titre: "THESE-003 : Experts construits — l'autorité médiatique dépasse l'expertise réelle"
+    enonce: "Les 4 experts invités sont des constructions médiatiques dont l'autorité dépasse l'expertise documentée. Guillaume Ancel (86% ⁕) n'est plus en service depuis 21 ans et a été condamné pour diffamation. Jean-François Colessimo (67% ⁕) est spécialiste en théologie orthodoxe, pas en stratégie militaire. Ulrich Bounat (20% ⁕) est un analyste civil sans expérience militaire. Cyrille Amoursky (24 ans, 4 ans de carrière) est reporter, pas stratège."
+    f_atomiques_justificatifs: ["F-ancel-001", "F-ancel-003", "F-ancel-004", "F-colessimo-001", "F-colessimo-002", "F-colessimo-003", "F-bunna-001", "F-bunna-004", "F-amoursky-001", "F-amoursky-005", "F-flamingo-003"]
+    shadow: 2.8
+
+  - titre: "THESE-004 : Trois artefacts narratifs — le récit tient par ce qui est tu"
+    enonce: "Le débat est structuré par trois artefacts narratifs non vérifiés : les « 40 jours d'offensive » (jamais attribué à une source), les « documents internes russes » (jamais nommés ni vérifiés), et l'enterrement des accords d'Istanbul (mars 2022 — 0 mention dans 30 minutes de débat). Le public français ne peut pas exiger une paix qu'il ne sait pas avoir été possible."
+    f_atomiques_justificatifs: ["F-artefacts-002", "F-artefacts-004", "F-artefacts-005", "F-artefacts-006", "F-artefacts-007", "F-debat-002", "F-debat-003", "F-debat-006", "F-ouverture-005"]
+    shadow: 2.5
+
+  - titre: "THESE-005 : L'oligopole médiatique — 9 propriétaires, zéro régulation"
+    enonce: "Le système médiatique français est un oligopole de 9 propriétaires (Bolloré, Saadé, Bouygues, Arnault, Niel, Dassault, Drahi, Lagardère, État) qui contrôlent ~90% de l'audience. L'Arcom, régulateur aux 9 membres nommés par le pouvoir politique, n'a jamais bloqué un rachat de média. Le pluralisme formel (multiplicité des chaînes) masque un pluralisme réel nul (convergence des lignes éditoriales sur Ukraine, OTAN, UE)."
+    f_atomiques_justificatifs: ["F-wolves-001", "F-wolves-002", "F-wolves-003", "F-wolves-004", "F-wolves-005", "F-wolves-006", "F-wolves-007", "F-wolves-008", "F-arcom-001", "F-arcom-003", "F-arcom-004", "F-arcom-005", "F-synthese-004"]
+    shadow: 3.0
+
+meta_observations:
+  - id: "OBS-001"
+    enonce: "Les 18 enquêtes convergent vers un même diagnostic sans se contredire — pas de divergence entre l'analyse du contenu du débat et celle du système médiatique"
+    fiches_concernees: ["bfmtv", "synthese_medias", "synthese_debat", "synthese_ouverture", "wolves", "arcom"]
+  - id: "OBS-002"
+    enonce: "Plus le registre est prospectif (Ancel: 86% ⁕, pays baltes: 100% ⁕), plus la vérifiabilité est faible. Plus le registre est descriptif (Bunna: 40% ✦, Flamingo: 67% ✧), plus elle est élevée."
+    fiches_concernees: ["ancel_hyper", "pays_baltes", "bunna_crimee", "flamingo"]
+  - id: "OBS-003"
+    enonce: "Le système médiatique (THESE-005) explique structurellement pourquoi le débat (THESE-002) est univoque : les mêmes causes produisent les mêmes effets"
+    fiches_concernees: ["wolves", "arcom", "revolving_door", "departs", "synthese_debat", "synthese_ouverture", "cloture"]
+
+transversalites:
+  - id: "TR-001"
+    concept: "Capture éditoriale par revolving door + purge"
+    description: "Le circuit État (Fernandez, Trésor) → propriétaire (Saadé, CMA CGM) → média (RMC BFM) + la purge de 100+ journalistes produisent une rédaction alignée qui produit mécaniquement un récit conforme"
+    fiches_concernees: ["revolving_door", "departs", "wolves", "bfmtv"]
+    faits_communs: ["F-revolving-005", "F-revolving-008", "F-departs-003", "F-departs-007", "F-wolves-003", "F-wolves-008"]
+  - id: "TR-002"
+    concept: "Artefacts narratifs non vérifiés"
+    description: "Les 40 jours, les documents russes et l'enterrement d'Istanbul sont à la fois des artefacts du débat (produits par l'animateur et les experts) ET des conséquences de la capture éditoriale (une rédaction indépendante les aurait vérifiés ou contestés)"
+    fiches_concernees: ["artefacts", "synthese_ouverture", "synthese_debat", "cloture"]
+    faits_communs: ["F-artefacts-004", "F-artefacts-006", "F-debat-002", "F-debat-006", "F-ouverture-005"]
+  - id: "TR-003"
+    concept: "Guerre cognitive structurelle"
+    description: "BFMTV participe à la guerre cognitive à deux niveaux : (1) comme vecteur du récit pro-Ukraine/pro-OTAN dans le débat, (2) comme rouage du système médiatique verrouillé qui empêche structurellement la contradiction"
+    fiches_concernees: ["bfmtv", "synthese_medias", "synthese_debat", "ancel_hyper", "pays_baltes"]
+    faits_communs: ["F-synthese-001", "F-baltes-001", "F-ancel-001"]
+  - id: "TR-004"
+    concept: "Illusion de pluralisme"
+    description: "Le système donne l'impression du pluralisme (4 experts aux profils différents, Arcom qui « régule », multiplicité des chaînes) mais produit un récit unique : les experts sont tous alignés, l'Arcom ne régule rien, les chaînes convergent"
+    fiches_concernees: ["wolves", "arcom", "synthese_debat", "colessimo_hyper", "ancel_hyper", "bunna_crimee"]
+    faits_communs: ["F-wolves-009", "F-arcom-003", "F-debat-005", "F-arcom-005"]
+  - id: "TR-005"
+    concept: "Soft propaganda par omission"
+    description: "Ni le débat ni le système ne mentent directement — ils omettent. Le débat omet les négociations d'Istanbul, les pertes civiles ukrainiennes, les asymétries ×10-100. Le système omet de réguler, d'informer sur les conflits d'intérêt, de pluraliser les experts. L'omission systémique est le mécanisme le plus partagé."
+    fiches_concernees: ["bfmtv", "artefacts", "synthese_ouverture", "arcom", "ancel_hyper"]
+    faits_communs: ["F-bfmtv-005", "F-artefacts-006", "F-ouverture-003", "F-arcom-005"]
+
+gaps:
+  - "GAP-001 : Pas de preuve de coordination directe entre l'État et la ligne éditoriale de BFMTV — le système fonctionne sans instructions"
+  - "GAP-002 : Pas de comparaison avec le traitement d'autres conflits par BFMTV (Gaza, Sahel, Yémen) — analyse de sélectivité manquante"
+  - "GAP-003 : Pas d'étude quantitative de l'évolution du pluralisme sur BFMTV avant/après le rachat CMA CGM"
+  - "GAP-004 : Pas d'enquête sur la rémunération des experts invités (combien sont payés, par qui, sous quel contrat)"
+  - "GAP-005 : Pas d'accès aux délibérations internes de l'Arcom ni aux contrats des cadres dirigeants de RMC BFM"
+  - "GAP-006 : Les 64 fichiers *_INVESTIGATION.md individuels n'ont pas été quintessencés un par un — seules les 10 HYPER_MATRICE de synthèse l'ont été"
+
+shadow_factor_global: 2.8
+
+mnemo_context:
+  searches: []
+  cross_series_detected: false
+  cross_series_details: "Mnemolite DOWN — pas de recherche cross-séries possible"

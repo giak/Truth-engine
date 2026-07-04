@@ -1,0 +1,91 @@
+enquete_id: "cloture"
+complexity: "MEDIUM"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-35_synthese-cloture-hyper-matrice_HYPER_MATRICE.md"
+
+these_centrale: "La séquence de clôture du débat est la plus contrastée : Amoursky offre l'analyse la plus équilibrée (✧), Colessimo recycle le récit épique du « miracle ukrainien », et Bunna spécule sur une chaîne causale non éprouvée — 80% d'analyses non vérifiables."
+
+theses_implicites:
+  - "Colessimo romantic la résistance ukrainienne en omettant les coûts humains, l'exil et la dépendance à l'aide étrangère"
+  - "La « fenêtre d'opportunité » est un artefact narratif partagé par Amoursky et Bunna, sans base stratégique documentée"
+  - "Le mécanisme pression populaire → Poutine cède n'a jamais fonctionné depuis 2022"
+
+faits_atomiques:
+  - id: "F-cloture-001"
+    enonce: "0% ✦, 20% ✧, 80% ⁕ sur 5 interventions de clôture"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-35_synthese-cloture-hyper-matrice_HYPER_MATRICE.md"
+    source_section: "§DISTRIBUTION DES VERDICTS"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-cloture-002"
+    enonce: "Amoursky : seule intervention classée ✧ (analyse équilibrée de la course technologique)"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/2026-06-28_20-35_synthese-cloture-hyper-matrice_HYPER_MATRICE.md"
+    source_section: "§TABLEAU COMPARATIF"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-cloture-003"
+    enonce: "« Miracle ukrainien, nation en armes » — registre épique, langage quasi-religieux (Colessimo)"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§Colessimo"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-cloture-004"
+    enonce: "« Phénomène de guerre totalement inédit » — Amoursky sur la guerre technologique, plus factuel"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§Reporter"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Jean-François Colessimo"
+    role: "Clôture épique — miracle ukrainien, monarchies Golfe"
+    faits_lies: ["F-cloture-003"]
+  - nom: "Cyrille Amoursky"
+    role: "Reporter — analyse technologique équilibrée"
+    faits_lies: ["F-cloture-002", "F-cloture-004"]
+  - nom: "Ulrich Bounat (Bunna)"
+    role: "Analyste — fenêtre automne, pression max"
+    faits_lies: ["F-cloture-001"]
+
+causalites:
+  - cause: "F-cloture-001"
+    effet: "F-cloture-003"
+    mecanisme: "Le registre épique de Colessimo (miracle) et la spéculation de Bunna (pression → négociations) expliquent le faible taux de vérifiabilité"
+
+perspectives_dialectiques:
+  - position: "Récit de clôture"
+    argument: "L'Ukraine a réalisé un exploit national. Fenêtre d'opportunité pour la paix."
+  - position: "Contre-récit"
+    argument: "80% d'analyses non vérifiables. Le miracle ukrainien omet des coûts réels."
+  - position: "Synthèse"
+    argument: "Séquence contrastée : Amoursky factuel, Colessimo épique, Bunna spéculatif."
+
+limites:
+  - "Les interventions de clôture sont courtes — moins de matière à vérifier"
+  - "Le registre épique de Colessimo relève du discours, pas du factuel"
+
+wolves:
+  - nom: "Expert BFM (générique)"
+    argument: "La clôture offre trois angles complémentaires. C'est la force du débat."
+    reponse: "Trois angles certes, mais 0% de faits confirmés. La complémentarité n'est pas la vérifiabilité."
+
+iceberg:
+  - "Pourquoi Colessimo utilise-t-il le registre épique plutôt que l'analyse ?"
+  - "Amoursky tempère-t-il consciemment l'optimisme ambiant ?"
+
+chronologie:
+  - date: "2026-06-28"
+    evenement: "Clôture du débat BFM (séquences 2063-2268)"
+    source_fait: "F-cloture-001"
+
+domainaines:
+  - "Analyse médiatique"
+  - "Narratif de guerre"
+
+shadow_factor: 2.8
+
+mnemo_queries: []

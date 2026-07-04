@@ -1,0 +1,131 @@
+enquete_id: "synthese_debat"
+complexity: "COMPLEX"
+date_extraction: "2026-06-29"
+enquete_source: "investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/INVESTIGATION.md"
+
+these_centrale: "Le débat BFM du 28 juin 2026 sur la guerre Ukraine-Russie construit un récit univoque pro-Ukraine/pro-OTAN à travers 4 experts complémentaires (Ancel, Colessimo, Bunna, Amoursky) sans aucun contradicteur, produisant une chambre d'écho de qualité sur l'offensive ukrainienne, la pression sur Poutine et la possibilité d'une paix négociée."
+
+theses_implicites:
+  - "L'animateur pose un cadre narratif complet avant le premier invité (« 40 jours d'offensive », « documents internes russes ») que les experts ne contestent jamais"
+  - "Les 4 experts sont complémentaires (tactique, historique, technique, témoignage) mais jamais en contradiction — ils renforcent le même récit"
+  - "Les sujets absents (pertes civiles ukrainiennes, négociations d'Istanbul, critiques de l'OTAN, voix russes) sont structurellement exclus du cadre"
+
+faits_atomiques:
+  - id: "F-debat-001"
+    enonce: "Segment BFM 70 min (séquences 1511-2268), 4 invités : Colessimo, Bunna, Amoursky, Ancel"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§Panel"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-debat-002"
+    enonce: "Ouverture : « 40 jours d'offensive pour faire plier le Kremlin » — jamais attribué à une source"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§Ouverture"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-debat-003"
+    enonce: "« Documents internes russes » présentés par l'animateur comme preuve de faiblesse russe"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§Ouverture"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-debat-004"
+    enonce: "660 drones simultanés annoncés comme record (25-26 juin 2026)"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§Donnée chiffrée"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-debat-005"
+    enonce: "0 invité russe, 0 sceptique, 0 voix pacifiste dans le segment de 70 minutes"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§Panel"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-debat-006"
+    enonce: "0 mention des négociations d'Istanbul (mars 2022) dans tout le débat"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§Sujets abordés"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+  - id: "F-debat-007"
+    enonce: "4 séquences : ouverture → Crimée/Bunna → Amoursky/Ancel → nucléaire → Flamingo → Iran → clôture"
+    source_url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    source_section: "§Sujets abordés"
+    head_status: 200
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Animateur BFMTV"
+    role: "Cadre le débat, pose les artefacts narratifs, distribue la parole"
+    faits_lies: ["F-debat-002", "F-debat-003"]
+  - nom: "Jean-François Colessimo"
+    role: "Historien, théologien — registre épique et provocation"
+    faits_lies: []
+  - nom: "Ulrich Bounat (Bunna)"
+    role: "Analyste géopolitique — approche technique"
+    faits_lies: []
+  - nom: "Cyrille Amoursky"
+    role: "Reporter franco-russe — témoignage terrain"
+    faits_lies: []
+  - nom: "Guillaume Ancel"
+    role: "Lt-colonel retraité — analyse tactique prospective"
+    faits_lies: []
+
+causalites:
+  - cause: "F-debat-002"
+    effet: "F-debat-005"
+    mecanisme: "Le cadre narratif posé par l'animateur (40 jours, documents russes) exclut par construction les voix dissonantes"
+
+perspectives_dialectiques:
+  - position: "Thèse BFM"
+    argument: "Débat d'experts pluraliste sur l'évolution de la guerre. 4 spécialistes complémentaires analysent la situation."
+  - position: "Contre-thèse"
+    argument: "Chambre d'écho : 4 experts alignés sur le même récit pro-Ukraine/pro-OTAN, zéro contradicteur, omissions massives."
+  - position: "Synthèse"
+    argument: "Le format du débat d'info en continu ne favorise pas la contradiction mais le récit cohérent. Les experts sélectionnés confirment le cadre posé par l'animateur."
+
+limites:
+  - "Analyse d'un seul segment de 70 minutes sur 4 ans de guerre"
+  - "Pas d'accès aux coulisses éditoriales de BFMTV"
+  - "Le transcript SRT ne capture pas les intonations, les échanges visuels"
+
+wolves:
+  - nom: "Direction BFMTV"
+    argument: "Nous avons invité 4 experts reconnus. Le pluralisme est assuré par la diversité de leurs profils."
+    reponse: "4 experts aux profils différents mais tous pro-Ukraine = pluralisme de surface, pas de fond. Un expert russe ou sceptique aurait été nécessaire."
+  - nom: "Animateur"
+    argument: "Mon rôle est de lancer le débat, pas d'être neutre. Les experts sont là pour nuancer."
+    reponse: "Vous avez posé un cadre narratif complet avant le premier expert. Les experts n'ont fait que le confirmer."
+
+iceberg:
+  - "Comment BFMTV sélectionne ses experts (grille de sélection, profils exclus)"
+  - "Quels sujets ont été préparés en réunion éditoriale et lesquels exclus"
+  - "Comparaison avec d'autres segments BFM sur d'autres conflits (Gaza, Sahel)"
+  - "Taux de rotation des experts invités sur BFMTV (mêmes visages, mêmes opinions)"
+
+chronologie:
+  - date: "2026-06-28"
+    evenement: "Segment BFM Ukraine-Russie (70 min, séquences 1511-2268)"
+    source_fait: "F-debat-001"
+
+domainaines:
+  - "Médias / Journalisme"
+  - "Propagande / Guerre cognitive"
+  - "Géopolitique Ukraine"
+  - "Analyse du discours médiatique"
+
+urls_prioritaires:
+  - url: "https://github.com/giak/truth-engine/blob/main/investigations/2026-06-28_16-03_debat-bfm-ukraine-russie/01_donnees/transcript_segment_ukraine_russie.srt"
+    description: "Transcript complet du segment BFM"
+    head_status: 200
+
+shadow_factor: 2.5
+
+mnemo_queries: []
