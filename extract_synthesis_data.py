@@ -2,6 +2,12 @@
 """
 Phase 2 — Extraction agregee des 25 quintessences.
 Produit un JSON synthetique pour le thinker agent.
+
+Note migration YAML→JSON (2026-07-05) :
+    Ce script reste un lecteur pur YAML (output JSON pour le thinker).
+    Pour traiter les nouvelles fiches au format JSON (.json), les convertir au prealable via
+    `tools/scripts/yaml_to_json.py`, ou bien adapter `load_yamls()` pour un dual-loader
+    JSON+YA ML aligné sur le pattern `_load_data()` de `tools/engines/sublimator/extractors/gates.py`.
 """
 import yaml
 import json

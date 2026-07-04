@@ -1,7 +1,17 @@
 #!/usr/bin/env python3
-"""
-Normalize all quintessence YAMLs to the 'ace' canonical format.
+"""Normalize all quintessence YAMLs to the 'ace' canonical format.
+
 Backs up each file to <original>.backup before overwriting.
+
+Note migration YAML→JSON (2026-07-05) :
+    Ce script reste un lecteur pur YAML (utility legacy pour investigations pré-2026-07).
+    Pour les nouvelles fiches au format JSON (.json), utiliser plutôt :
+    - `tools/scripts/yaml_to_json.py` pour convertir legacy vers JSON
+    - directement le pipeline Sublimator v34 (prompt-v34.md format par défaut = JSON)
+
+Compatibilité forward : ce script ignore volontairement les fichiers `.json` (skip) car
+la normalization ace format est désormais redondante avec le schema JSON strict imposé par
+`tools/engines/sublimator/extractors/gates.py`.
 """
 import yaml
 import os
