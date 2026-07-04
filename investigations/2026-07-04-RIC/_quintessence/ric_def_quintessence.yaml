@@ -1,0 +1,425 @@
+enquete_id: "ric_def"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-04_18-00_referendum_initiative_citoyenne_INVESTIGATION.md"
+degraded_mode: true
+mnemolite_status: "DOWN - non-interrogé, mode dégradé cross-séries"
+lecture_status: "Complete - lecture intégrale (588 lignes source)"
+
+these_centrale: "Le RIC n'a pas été refusé pour des raisons techniques ou juridiques. Il a été refusé par un cartel de la classe politique - un consensus transpartisan de rejet fonctionnellement équivalent à un cartel - opérant comme un verrouillage systémique à trois têtes : (1) Constitution 1958 verrouillée, (2) capture oligarchique partisane, (3) dogme libéral-européen subordonnant la souveraineté nationale aux traités."
+
+theses_implicites:
+  - "La convergence d'intérêts anti-RIC n'est pas coordonnée (pas de cartel explicite) mais elle est structurelle (convergence d'intérêts entre partis, médias, oligarchie économique et institutions européennes)."
+  - "L'asymétrie radicale entre le pouvoir exécutif (art. 11, 89, 49.3) et le peuple (zéro accès institutionnel) est le mécanisme central du verrouillage - tout le reste en découle."
+  - "Le RIC constituant large n'est pas un ajout à la Constitution de 1958 mais une rupture avec son ADN - la Ve République a été pensée pour concentrer le pouvoir, pas pour le diffuser."
+  - "Le verrou européen sur le RIC budgétaire est une hypothèse plausible mais non testée empiriquement - aucune jurisprudence CJUE ne le confirme."
+  - "La Suisse, l'Uruguay, l'Italie démontrent depuis 1891, 1919, 1946 que les objections techniques au RIC sont résolues ailleurs depuis plus d'un siècle - ce qui les rend inopérantes comme argument en France."
+
+faits_atomiques:
+  - id: "F-DEF-01"
+    enonce: "Constitution 1958 ne prévoit aucun droit d'initiative populaire directe (ni législatif, ni constitutionnel). Articles 11 et 89 sont les seuls ouverts."
+    source_url: "https://www.conseil-constitutionnel.fr/la-constitution/la-constitution-du-4-octobre-1958"
+    source_section: "CIV-RIC-001 §0 thèse centrale + §2.3 + F002"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-02"
+    enonce: "Article 11 (référendum) : prérogative exclusive du Président sur proposition du Gouvernement ou des deux assemblées. Aucun droit d'initiative populaire."
+    source_url: "https://www.conseil-constitutionnel.fr/"
+    source_section: "CIV-RIC-001 F003 + §2.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-03"
+    enonce: "Suisse : RIC constituant depuis 1891 (Constitution fédérale art. 138-139). L'initiative populaire fédérale existe depuis 130+ ans."
+    source_url: "https://www.admin.ch/"
+    source_section: "CIV-RIC-001 F004 + §11.4"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-04"
+    enonce: "Uruguay : référendum d'initiative populaire depuis 1919 (Constitution art. 79, 304). 15 consultations depuis 1985, usage par gauche et droite."
+    source_url: "https://www.parlamento.gub.uy/"
+    source_section: "CIV-RIC-001 F005 + §11.4"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-05"
+    enonce: "Loi constitutionnelle du 23 juillet 2008 instaure le RIP (Référendum d'Initiative Partagée) : jamais abouti à un référendum depuis 17 ans. Seuil prohibitif : 1/5e des parlementaires (185) + 4,7M signatures d'électeurs + filtre CC."
+    source_url: "https://www.legifrance.gouv.fr/"
+    source_section: "CIV-RIC-001 F009 + §1.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-06"
+    enonce: "Traités européens TUE art. 3 + TFUE art. 119-126 (Pacte stabilité) : contraintes budgétaires/monétaires limitant RIC sur les finances publiques."
+    source_url: "https://eur-lex.europa.eu/"
+    source_section: "CIV-RIC-001 F011 + §6 M3"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-07"
+    enonce: "Convention citoyenne pour le climat (2019-2020) : 149 propositions dont RIC climat, majorité rejetée ou vidée de substance. Suivi parlementaire 2021 confirme <10% d'application intégrale."
+    source_url: "https://www.conventioncitoyennepourleclimat.fr/"
+    source_section: "CIV-RIC-001 F008 + §1.3 + §2.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-08"
+    enonce: "Grand Débat national (2019) : 0 réforme institutionnelle majeure produite. Rapport Fournier 2019 confirme."
+    source_url: "https://www.gouvernement.fr/"
+    source_section: "CIV-RIC-001 F010 + §11.6"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-09"
+    enonce: "Ostbelgien (Communauté germanophone Belgique) : Conseil citoyen permanent créé par décret du 25 février 2019. 24 membres tirés au sort, mandat 18 mois non renouvelable."
+    source_url: "https://www.buergerdialog.be/"
+    source_section: "CIV-RIC-001 F012 + §2.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-10"
+    enonce: "Clara Egger : 36 parrainages sur 500 à la présidentielle 2022 (seuil non atteint). Plus haut score d'un mouvement citoyen non structuré."
+    source_url: "https://www.conseil-constitutionnel.fr/"
+    source_section: "CIV-RIC-001 F006 + §3.3"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-11"
+    enonce: "Simone Weil (1943) 'La Note sur la suppression générale des partis politiques' : critique prophétique du parti comme 'machine à fabriquer de la passion collective'."
+    source_url: "https://www.gallimard.fr/"
+    source_section: "CIV-RIC-001 F007 + §2.3"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-12"
+    enonce: "Concentration médias français : 9 propriétaires contrôlent 90% de la diffusion (Arcom 2024). Bolloré, Bouygues, Dassault + 6 autres."
+    source_url: "https://www.arcom.fr/"
+    source_section: "CIV-RIC-001 §6 + §1.5 + §13"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-13"
+    enonce: "Confiance institutions françaises <30% entre 2018 et 2024 (baromètre CEVIPOF, vagues 9-13)."
+    source_url: "https://www.cevipof.com/"
+    source_section: "CIV-RIC-001 F016 + §2.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-14"
+    enonce: "49.3 : +300% entre 2012 et 2023 (rapports activité Assemblée nationale). Le Parlement n'est déjà plus souverain sur 90% des textes."
+    source_url: "https://www.assemblee-nationale.fr/"
+    source_section: "CIV-RIC-001 F015 + §2.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-15"
+    enonce: "28 recours au 49.3 en 9 ans (2017-2026), dont 23 en 18 mois sous Borne. Record démocratique d'octobre 2022 à janvier 2024."
+    source_url: "https://www.assemblee-nationale.fr/"
+    source_section: "CIV-RIC-001 F044"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-16"
+    enonce: "120 ordonnances (2017-2024) : 90% des lois adoptées sans vote parlementaire effectif (CEVIPOF 2025)."
+    source_url: "https://www.cevipof.com/"
+    source_section: "CIV-RIC-001 F045"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-17"
+    enonce: "Abstention législatives 2024 : 57% (70% 18-24 ans, 80% quartiers populaires)."
+    source_url: "https://www.interieur.gouv.fr/"
+    source_section: "CIV-RIC-001 F047"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-18"
+    enonce: "Marine Le Pen (RN) soutient RIC législatif mais EXCLUT explicitement le RIC constituant (Le Figaro 2022, Solution Démocratique 2022)."
+    source_url: "https://www.lefigaro.fr/"
+    source_section: "CIV-RIC-001 F048"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-19"
+    enonce: "Sondage IFOP 2019 (Valeurs Actuelles) : 65% Français favorables au RIC constituant."
+    source_url: "https://www.ifop.com/"
+    source_section: "CIV-RIC-GAPS-002 F026 + §2.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-20"
+    enonce: "Sondage Harris Interactive 2019 (RTL/M6) : 62% favorables au RIC constituant."
+    source_url: "https://www.harris-interactive.com/"
+    source_section: "CIV-RIC-GAPS-002 F027 + §2.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-21"
+    enonce: "Sondage OpinionWay 2019 (LCI) : 73% favorables au RIC avec seuil 700k signatures."
+    source_url: "https://www.opinion-way.com/"
+    source_section: "CIV-RIC-GAPS-002 F028 + §2.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-22"
+    enonce: "3 propositions de loi RIC déposées (2019, 2020, 2022) - aucune inscrite à l'ordre du jour de l'Assemblée. Obstruction parlementaire documentée."
+    source_url: "https://www.assemblee-nationale.fr/"
+    source_section: "CIV-RIC-GAPS-002 F040-F042 + §7.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-23"
+    enonce: "Aucun think tank français majeur (Institut Montaigne, Fondapol, Terra Nova, Fondation Concorde, Club de l'Horloge) n'a publié de rapport favorable au RIC constituant entre 2018-2026."
+    source_url: "https://www.institutmontaigne.org/"
+    source_section: "CIV-RIC-GAPS-002 F025 + §1.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-24"
+    enonce: "Décision CC ADP 2019 : premier RIP jugé recevable, rejeté au fond par le Conseil constitutionnel (motif : 'opération d'intérêt national'). Le CC démontre sa capacité à paralyser toute initiative."
+    source_url: "https://www.conseil-constitutionnel.fr/"
+    source_section: "CIV-RIC-GAPS-002 §14.bis F055"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-25"
+    enonce: "California : dépenses de campagne référendaire >500M USD/an. Schoettl 2023 cite le précédent californien comme preuve de la capture par les lobbies."
+    source_url: "https://www.schoettl.fr/"
+    source_section: "CIV-RIC-GAPS-002 F052 + META-001 §4.5"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-26"
+    enonce: "Jean-Eric Schoettl (ancien SG du CC 2007-2016) publie en février 2023 'Extension des procédures référendaires : attention danger' (Club des Juristes) : 10 objections de fond au RIC."
+    source_url: "https://www.leclubdesjuristes.com/"
+    source_section: "CIV-RIC-GAPS-002 F043 + META-001 §3.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-27"
+    enonce: "Suisse : initiative générale populaire abandonnée en 2003 par le Parlement car 'inapplicable et trop complexe' (admin.ch). Le succès suisse du RIC est donc circonscrit au constituant, pas au législatif."
+    source_url: "https://www.admin.ch/"
+    source_section: "CIV-RIC-GAPS-002 F050 + META-001 §4.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-28"
+    enonce: "Référendum grec 2015 : 61% Non à l'austérité Tsipras, traité politiquement (pas juridiquement par la CJUE) - 13 juillet 2015 Tsipras capitule et accepte 3e mémorandum."
+    source_url: "https://eur-lex.europa.eu/"
+    source_section: "CIV-RIC-GAPS-002 F031"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-29"
+    enonce: "MLP (RN) et JLM (LFI) ont des positions opposées sur le RIC constituant : MLP l'exclut explicitement, JLM le défend en discours mais ne dépose pas de texte structurant (analyse débats AN 2018-2024)."
+    source_url: "https://www.assemblee-nationale.fr/"
+    source_section: "CIV-RIC-GAPS-002 F048 + F049 + §7.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-DEF-30"
+    enonce: "CIV-RIC-001 §14 calcule le score GATE_G à 27,6% (24 faits / 87 phrases assertives), sous le seuil APEX 85% - documentation d'un déficit structurel comblé par CIV-RIC-GAPS-002 à 43,3%."
+    source_url: "https://www.conseil-constitutionnel.fr/"
+    source_section: "CIV-RIC-001 §14.1 + CIV-RIC-GAPS-002 §10.5"
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Édouard Philippe"
+    role: "Premier ministre 2017-2020, stratégie de dilution du RIC (Grand Débat, conventions)"
+    faits_lies: ["F-DEF-08", "F-DEF-15"]
+  - nom: "Christophe Castaner"
+    role: "Ministre de l'Intérieur 2018-2020, qualifié le RIC de 'fausse bonne idée'"
+    faits_lies: ["F-DEF-22"]
+  - nom: "Gérard Larcher"
+    role: "Président du Sénat LR, opposition frontale au RIC, propose RIP assoupli"
+    faits_lies: ["F-DEF-05", "F-DEF-22"]
+  - nom: "Richard Ferrand"
+    role: "Président AN 2018-2022, verrouillage Conférence des Présidents contre RIC"
+    faits_lies: ["F-DEF-22"]
+  - nom: "Yaël Braun-Pivet"
+    role: "Présidente AN 2022-2026, continuité ligne anti-RIC"
+    faits_lies: ["F-DEF-22"]
+  - nom: "Jean-Eric Schoettl"
+    role: "Ancien SG CC 2007-2016, constitutionnaliste anti-RIC, 10 objections 2023"
+    faits_lies: ["F-DEF-26"]
+  - nom: "Jean-Luc Mélenchon"
+    role: "LFI, défend RIC discours mais aucun texte structurant déposé"
+    faits_lies: ["F-DEF-29"]
+  - nom: "Marine Le Pen"
+    role: "RN, soutient RIC législatif mais EXCLUT explicitement le RIC constituant"
+    faits_lies: ["F-DEF-18", "F-DEF-29"]
+  - nom: "Mathilde Panot"
+    role: "Présidente groupe LFI AN, pas inscrit RIC à l'ordre du jour des niches"
+    faits_lies: ["F-DEF-22"]
+  - nom: "Vincent Bolloré"
+    role: "Propriétaire Canal+/CNews/C8/Europe 1, orientation éditoriale anti-RIC"
+    faits_lies: ["F-DEF-12"]
+  - nom: "Patrick Drahi"
+    role: "Propriétaire Altice/BFM TV, verrouillage par omission"
+    faits_lies: ["F-DEF-12"]
+  - nom: "Martin Bouygues"
+    role: "Propriétaire TF1, verrouillage par omission"
+    faits_lies: ["F-DEF-12"]
+  - nom: "Laurent Fabius"
+    role: "Président CC 2016+, incarnation du verrou institutionnel"
+    faits_lies: ["F-DEF-01", "F-DEF-02", "F-DEF-24"]
+  - nom: "Oswald Chandelier"
+    role: "Fondateur Espoir RIC 2018, transformation Solution Démocratique 2023"
+    faits_lies: ["F-DEF-10"]
+  - nom: "Clara Egger"
+    role: "Candidate 2022/2027 Solution Démocratique, 36 parrainages"
+    faits_lies: ["F-DEF-10"]
+  - nom: "Raul Magni-Berton"
+    role: "Politiste italien, co-fondateur Solution Démocratique"
+    faits_lies: ["F-DEF-10"]
+  - nom: "Bastos"
+    role: "Sénateur (RPR) premier projet RIC français 1991 - rejet précurseur"
+    faits_lies: ["F-DEF-01"]
+  - nom: "Daugeron"
+    role: "Constitutionnaliste Jus Politicum 2018 : l'art. 11 permet au Président d'écraser toute velléité d'initiative populaire"
+    faits_lies: ["F-DEF-02", "F-DEF-24"]
+
+causalites:
+  - cause: "F-DEF-01"
+    effet: "F-DEF-05"
+    mecanisme: "L'absence d'initiative populaire directe (1958) crée la demande pour un mécanisme de substitution : le RIP (2008) est créé, mais avec un seuil prohibitif (1/5e Parlementaires + 4,7M signatures + filtre CC) qui le rend impraticable."
+  - cause: "F-DEF-12"
+    effet: "F-DEF-22"
+    mecanisme: "La concentration médiatique (9 propriétaires, 90% audience) prive le RIC de pression citoyenne sur les parlementaires : pas de visibilité → pas de sanction électorale → 3 PPL enterrées."
+  - cause: "F-DEF-14"
+    effet: "F-DEF-15"
+    mecanisme: "Le parlementarisme rationalisé (art. 49.3) permet le passage en force exécutif : 28 recours en 9 ans (2017-2026) documente une érosion de la fonction législative parlementaire, le Parlement lui-même n'est plus souverain."
+  - cause: "F-DEF-06"
+    effet: "F-DEF-28"
+    mecanisme: "Les traités UE (Pacte de stabilité) verrouillent le champ budgétaire d'un RIC : le précédent grec 2015 démontre que la BCE peut maintenir l'ELA sous condition, forçant la capitulation politique."
+  - cause: "F-DEF-19"
+    effet: "F-DEF-23"
+    mecanisme: "Le soutien populaire (65% IFOP 2019) ne se traduit pas en action législative car les think tanks français (Institut Montaigne etc.) n'ont jamais publié de rapport favorable au RIC - l'écart entre l'opinion et la doctrine constitue le verrou."
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "Le RIC est verrouillé par un consensus transpartisan de rejet fonctionnellement équivalent à un cartel. Le verrouillage opère à 3 niveaux : constitutionnel (art. 11/89), partisan (cartel des directions), européen (traités)."
+  - position: "Antithèse"
+    argument: "Pas de preuve de coordination explicite entre LREM, LR, PS, EELV, PCF. La convergence est structurelle, pas conspirative. Risques réels : démagogie, capture par argent (Californie), irréversibilité des décisions (Brexit)."
+  - position: "Synthèse"
+    argument: "Le RIC n'est pas un outil miracle mais une conquête démocratique. La Suisse (depuis 1891), l'Uruguay (1919), l'Ostbelgien (2019) démontrent sa faisabilité opérationnelle. L'absence de précédent français s'explique par l'ADN de 1958, pas par l'impossibilité technique."
+
+limites:
+  - "Le score GATE_G de 27,6% (CIV-RIC-001) puis 43,3% (GAPS-002) reste sous le seuil APEX 85% - documentation d'un déficit structurel assumé."
+  - "Aucune jurisprudence CJUE ne confirme le verrou européen sur RIC budgétaire - c'est une hypothèse plausible mais non testée (F-DEF-06 + F-DEF-28)."
+  - "Pas d'étude INA quantitative du temps d'antenne RIC 2018-2024 (accès payant)."
+  - "Le parallèle avec M5S italien (capture Casaleggio) n'est pas développé dans cette enquête - traité par P3 22-00."
+  - "Sondages partisans (Espoir RIC 2018-2022) et indépendants (IFOP 2019, Harris 2019, OpinionWay 2019) ne convergent pas tous vers 75% - variation 62-73% selon formulation."
+
+wolves:
+  - nom: "Conseil Constitutionnel (Fabius)"
+    argument: "Le RIP est conforme à la Constitution de 1958 et suffisant ; le RIC constituant menace la forme républicaine (art. 89 al. 4)."
+    reponse: "Le RIP n'a jamais abouti en 17 ans (2008-2025) ; le Conseil Constitutionnel démontre sa capacité à paralyser toute initiative (CC ADP 2019)."
+  - nom: "9 propriétaires médias (Bolloré/Bouygues/Dassault)"
+    argument: "Le RIC menace la stabilité éditoriale et l'influence des propriétaires."
+    reponse: "L'audience migre hors mass media vers CivicTech-FR open-source ; perte d'influence compensée par nouvelle légitimité citoyenne."
+  - nom: "Cartel transpartisan (LREM, LR, PS, EELV, PCF)"
+    argument: "Aucun parti ne vote sa propre obsolescence ; le monopole législatif partisan doit être préservé."
+    reponse: "Le RIC ne supprime pas le Parlement, il le complète. Le monopole est brisé par l'addition de l'initiative citoyenne, pas par sa suppression."
+  - nom: "Constitutionnalistes anti-RIC (Schoettl, Maus, de Béchillon)"
+    argument: "10 objections au RIC : contournement Parlement, qualité normative insuffisante, capture par lobbies, risque irréversibilité, Brexit-like."
+    reponse: "Les objections sont des problèmes résolus ailleurs (Suisse, Uruguay, Ostbelgien) ; le précédent californien est pris en compte par la Doctrine de la Terre Brûlée (interdiction personnes morales)."
+
+iceberg:
+  - "Le précédent M5S italien (capture Casaleggio) est documenté par P3 22-00 mais pas référencé ici - c'est un cas d'école de capture d'un mouvement citoyen par la machine technocratique privée."
+  - "Le lobbying anti-RIC des think tanks (Institut Montaigne 7,5M€/an budget) est sous-documenté faute d'enquête ciblée sur les flux financiers."
+  - "Le lien entre le verrou médiatique (9 propriétaires) et le verrou partisan (cartel) via les conseils d'administration croisés n'est pas documenté publiquement."
+  - "La concentration des parrainages (Hollande 2012 publicité) crée un verrou symétrique à l'absence de RIC : le peuple ne peut ni proposer (RIC) ni valider (parrainages) les candidats - verrou double."
+
+chronologie:
+  - date: "1789-08-26"
+    evenement: "Déclaration Droits Homme et Citoyen : souveraineté nationale au peuple"
+    source_fait: "F-DEF-01"
+  - date: "1791-09-03"
+    evenement: "Première Constitution française : mandat impératif + veto populaire suspendus par Condorcet"
+    source_fait: "F-DEF-01"
+  - date: "1793-07-13"
+    evenement: "Marat assassiné ; Terreur radicalise la Convention ; projet RIC de Condorcet enterré"
+    source_fait: "F-DEF-01"
+  - date: "1848-11-04"
+    evenement: "IIe République instaure suffrage universel masculin - conquête démocratique"
+    source_fait: "F-DEF-01"
+  - date: "1891-07-05"
+    evenement: "Suisse instaure initiative populaire fédérale (art. 138-139 Constitution)"
+    source_fait: "F-DEF-03"
+  - date: "1919"
+    evenement: "Uruguay instaure référendum d'initiative populaire (art. 79, 304)"
+    source_fait: "F-DEF-04"
+  - date: "1943"
+    evenement: "Simone Weil publie Note sur la suppression générale des partis politiques"
+    source_fait: "F-DEF-11"
+  - date: "1958-10-04"
+    evenement: "Constitution Ve République : aucune initiative populaire directe"
+    source_fait: "F-DEF-01"
+  - date: "1981-08-04"
+    evenement: "Abrogation peine de mort par voie parlementaire (loi Badinter) - précédent d'utilisation directe du peuple"
+    source_fait: "F-DEF-02"
+  - date: "2008-07-23"
+    evenement: "Loi constitutionnelle instaure RIP (art. 11 révisé) - jamais abouti"
+    source_fait: "F-DEF-05"
+  - date: "2012-12-06"
+    evenement: "Hollande instaure publicité des parrainages présidentiels"
+    source_fait: "F-DEF-10"
+  - date: "2013-12-31"
+    evenement: "Loi organique du 6 décembre 2013 durcit le RIP : seuil 4,7M signatures + 185 parlementaires"
+    source_fait: "F-DEF-05"
+  - date: "2017-11-17"
+    evenement: "Première mobilisation massive GJ : le RIC devient revendication centrale"
+    source_fait: "F-DEF-07"
+  - date: "2019-01-08"
+    evenement: "PPL 1558 (LFI Mélenchon) déposée - RIC intégral"
+    source_fait: "F-DEF-22"
+  - date: "2019-02-21"
+    evenement: "PPL 1558 rejetée par motion de renvoi 91-50 (majorité LREM)"
+    source_fait: "F-DEF-22"
+  - date: "2019-10-04"
+    evenement: "Grand Débat national : 0 réforme institutionnelle majeure produite"
+    source_fait: "F-DEF-08"
+  - date: "2019-2020"
+    evenement: "Convention citoyenne pour le climat : 149 propositions dont RIC climat"
+    source_fait: "F-DEF-07"
+  - date: "2019-02-25"
+    evenement: "Ostbelgien instaure Conseil citoyen permanent (24 sortition)"
+    source_fait: "F-DEF-09"
+  - date: "2019-07-19"
+    evenement: "PPL 2179 (LFI) version réduite (sans révocatoire/constituant) - non inscrite"
+    source_fait: "F-DEF-22"
+  - date: "2020-01"
+    evenement: "Magni-Berton + Egger co-fondent Solution Démocratique France"
+    source_fait: "F-DEF-10"
+  - date: "2021-10-06"
+    evenement: "PPL 4516 (Lassalle) RIC constituant déposée - jamais examinée"
+    source_fait: "F-DEF-22"
+  - date: "2022-04-10"
+    evenement: "Présidentielle 2022 : Clara Egger 36 parrainages / 500"
+    source_fait: "F-DEF-10"
+  - date: "2023-02-17"
+    evenement: "Schoettl publie 'Extension procédures référendaires : attention danger' - 10 objections"
+    source_fait: "F-DEF-26"
+  - date: "2024-06-09"
+    evenement: "Dissolution Assemblée nationale par Macron - PPL RIC en cours liquidées"
+    source_fait: "F-DEF-22"
+  - date: "2024-12-17"
+    evenement: "PPL 722 (auteur inconnu) RIC constitutionnel déposée - sans suite"
+    source_fait: "F-DEF-22"
+  - date: "2025-11-18"
+    evenement: "PPL 2081 (Pochon EELV) RIC délibératif déposée - bloquée 150 amendements"
+    source_fait: "F-DEF-22"
+
+domaines:
+  - "Droit constitutionnel (art. 3, 11, 89)"
+  - "Sciences politiques (cartel transpartisan)"
+  - "Sociologie électorale (parrainages, abstention)"
+  - "Économie politique (capture oligarchique, think tanks)"
+  - "Droit comparé (Suisse, Uruguay, Ostbelgien, Californie)"
+  - "Médias (concentration 9 propriétaires)"
+  - "Construction européenne (traités, BCE, CJUE)"
+
+urls_prioritaires:
+  - url: "https://www.conseil-constitutionnel.fr/la-constitution/la-constitution-du-4-octobre-1958"
+    description: "Constitution 1958 complète, art. 3, 11, 89, 89 al. 4"
+    head_status: 200
+  - url: "https://www.legifrance.gouv.fr/"
+    source_section: "Code électoral, loi 6 déc. 2013 RIP, loi 23 juillet 2008"
+    head_status: 200
+  - url: "https://www.admin.ch/"
+    description: "Constitution fédérale suisse + archives initiatives populaires"
+    head_status: 200
+  - url: "https://www.arcom.fr/"
+    description: "Rapport Arcom 2024 concentration 9 propriétaires"
+    head_status: 200
+  - url: "https://www.leclubdesjuristes.com/"
+    description: "Article Schoettl 2023 'Extension procédures référendaires : attention danger'"
+    head_status: 200
+  - url: "https://www.cevipof.com/"
+    description: "Baromètre confiance politique CEVIPOF vagues 9-13"
+    head_status: 200
+  - url: "https://www.conventioncitoyennepourleclimat.fr/"
+    description: "Convention citoyenne climat 2019-2020 + suivi parlementaire 2021"
+    head_status: 200
+
+shadow_factor: 2.4
+mnemo_queries:
+  - query: "MNEMOLITE DOWN - non exécuté"
+    results_count: 0
+  - query: "MNEMOLITE DOWN - non exécuté"
+    results_count: 0

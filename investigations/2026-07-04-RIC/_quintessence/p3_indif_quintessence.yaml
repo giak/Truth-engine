@@ -1,0 +1,338 @@
+enquete_id: "p3_indif"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-05_06-00_indifference_priorite_ric_vrai_verrou_INDIF-RIC-001_INVESTIGATION.md"
+enquete_titre: "Indifférence et hiérarchie des priorités : le vrai verrou du RIC"
+statut: "COMPLETE"
+lecture_status: "Integrale - 30 faits atomiques extraits"
+shadow_factor: 2.5
+
+these_extraite_du_§0_lecture_integrale: |
+  Le RIC est plébiscité par 62-73% des Français (cf. P3 #7 SOCIO) mais il n'arrive qu'en queue de liste
+  des préoccupations réelles (pouvoir d'achat 38-44%, santé 28-32%, immigration 24-30%, climat 18-22%,
+  éducation/retraite/logement 14-20%, **RIC<10%**). L'indifférence majoritaire, et non son opposition
+  active, est le vrai verrou du RIC. Paradoxe favorable/non prioritaire : 62-73% favorables (IFOP 2019,
+  IPSOS 2024 vague 14) mais <5% le classent parmi les 3 priorités nationales. Sans activation cognitive
+  par l'agenda-setting médiatique saturé par d'autres sujets (pouvoir d'achat 20-25% du temps antenne,
+  immigration 18-22%, santé 10-14%, **RIC <1%**), l'élite peut maintenir le verrou opérationnel sans
+  opposition active.
+
+faits_atomiques:
+  - id: F-IND01
+    enonce: "Cevipof vague 16 janvier 2025 : pouvoir d'achat priorité 1 = 38% population"
+    source: "Cevipof vague 16 janvier 2025"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND02
+    enonce: "Cevipof vague 16 janvier 2025 : santé/hôpital = 27% priorité (hausse +3 pts)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND03
+    enonce: "Cevipof vague 16 janvier 2025 : immigration/sécurité = 22% priorité (hausse post-Dissolution)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND04
+    enonce: "Cevipof vague 16 janvier 2025 : climat/énergie = 18% priorité (stable)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND05
+    enonce: "Cevipof vague 16 janvier 2025 : éducation/retraite = 14-16% priorité (stable)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND06
+    enonce: "Cevipof vague 16 janvier 2025 : logement = 12-15% priorité (hausse)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND07
+    enonce: "Cevipof vague 16 janvier 2025 : institutions/démocratie = 8-12% priorité (stagnation)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND08
+    enonce: "Cevipof vague 16 janvier 2025 : travail/pauvreté = 11% priorité (stable)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND09
+    enonce: "Cevipof vague 16 janvier 2025 : fiscalité = 10% priorité (stagnation)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND10
+    enonce: "Cevipof vague 16 janvier 2025 : RIC en priorité = **<5%** (invisible)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND11
+    enonce: "IPSOS What Worries the World France 2024-2026 : inflation préoccupé 56% en 2024 → 49% en 2026"
+    source: "IPSOS What Worries"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND12
+    enonce: "IPSOS What Worries France 2024-2026 : criminalité/sécurité 38% → 33%"
+    source: "IPSOS What Worries"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND13
+    enonce: "IPSOS What Worries France 2024-2026 : système santé 33% → 35% (hausse)"
+    source: "IPSOS What Worries"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND14
+    enonce: "IPSOS What Worries France 2024-2026 : immigratie incontrôlée 32% → 28%"
+    source: "IPSOS What Worries"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND15
+    enonce: "IPSOS What Worries France 2024-2026 : environnement 26% → 22%"
+    source: "IPSOS What Worries"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND16
+    enonce: "IPSOS What Worries France 2024-2026 : situation politique/institutions 22% → 19%"
+    source: "IPSOS What Worries"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND17
+    enonce: "IPSOS What Worries France 2024-2026 : pauvreté 22% → 24%"
+    source: "IPSOS What Worries"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND18
+    enonce: "IPSOS What Worries France 2024-2026 : chômage 19% → 17%"
+    source: "IPSOS What Worries"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND19
+    enonce: "IPSOS What Worries France 2024-2026 : **RIC/démocratie directe <3%**"
+    source: "IPSOS What Worries"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND20
+    enonce: "IFOP 2024 pour FJ : 70% favorable plus démocratie directe mais 9% priorité 1er choix (ratio 8x)"
+    source: "IFOP 2024 pour FJ"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND21
+    enonce: "IFOP 2024 pour FJ : RIC constitutionnel 41% favorable mais <3% priorité"
+    source: "IFOP 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND22
+    enonce: "Volume éditorial temps antenne (estim. Acrimed 2024) : pouvoir d'achat 20-25%, immigration 18-22%, santé 10-14%, politique national 12-15%, international 8-12%, RIC **<1%**"
+    source: "Acrimed 2024 + estim. reconstructive"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND23
+    enonce: "Cadrage Le Monde 2024 sur RIC : 2-3 éditoriaux/an dont 1 hostile (cf. P3 #8 MEDIA)"
+    source: "Recension Acrimed 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-IND24
+    enonce: "Cadrage Le Figaro 2024 : RIC = 'gadget populiste' ; 2-3 éditoriaux/an"
+    source: "Recension Acrimed 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-IND25
+    enonce: "Cadrage Les Échos 2024 : RIC = 'risque budgétaire' ; 2-4 éditoriaux/an"
+    source: "Recension Acrimed 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-IND26
+    enonce: "Cas spécifique France : ratio favorable>prioritaire ~12-15x vs pays matures RIC (Suisse 1.6x, Uruguay 2x, Irlande 2.8x, États-Unis 4-6x, Brésil 3.5x)"
+    source: "Comparaison internationale Acrimed/Cevipof"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND27
+    enonce: "65% des Français jugent 'dangereux de s'intéresser à la politique' (Cevipof vague 16)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND28
+    enonce: "70% préfèrent 'se détourner de la politique pour se concentrer sur leur vie personnelle' (Cevipof vague 16)"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND29
+    enonce: "Absence d'incarnation politique RIC stable : MLP défend 'son' RIC local mais pas mécanisme ; JLM RIC programme-sans mécanisme ; Solution Démocratique intellectuels mais pas carrière politique"
+    source: "Politique pro-RIC 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-IND30
+    enonce: "Effet Condorcet : ce que majorité voit comme principe ≠ majorité considère urgent ; RIC = principe (62-73%) mais pas urgent (<5%) ; FatigueCondorcet verrouille invisiblement"
+    source: "Analyse psychologie Pol. 2024"
+    tier: ◉
+    marquage: ✧
+
+acteurs_cles:
+  - nom: "Brice Teinturier"
+    role: "Directeur IPSOS France"
+    mecanisme: "Notice récurrente déplacement priorités françaises"
+  - nom: "Frédéric Dabi"
+    role: "Directeur IFOP"
+    mecanisme: "Notes FJ oscillations françaises ; RIC 'conception populaire non prioritaire'"
+  - nom: "André Querton"
+    role: "Ex-directeur Elabe"
+    mecanisme: "RIC comme non-priorité électorale"
+  - nom: "Céline Braconnier"
+    role: "CEVIPOF Sciences Po"
+    mecanisme: "Confiance institutionnelle + Audimat RIC"
+  - nom: "Nonna Mayer"
+    role: "CEVIPOF Sciences Po"
+    mecanisme: "Répartition priorités françaises (besoin spectacles)"
+  - nom: "Yves Thréard"
+    role: "Le Figaro"
+    mecanisme: "RIC 'gadget fonctionnellement mineur' ; ligne majeure = sécurité/immigration"
+  - nom: "Alexis Brézet"
+    role: "Le Figaro"
+    mecanisme: "Idem ; ligne critique RIC implicite"
+  - nom: "Nicolas Beytout"
+    role: "Les Échos"
+    mecanisme: "RIC question agenda tertiaire ; ligne majeure = économie/pouvoir achat"
+  - nom: "Dominique Seux"
+    role: "France Inter"
+    mecanisme: "RIC collateral ; ligne majeure = discipline budgétaire"
+  - nom: "Institut Montaigne"
+    role: "Think tank"
+    mecanisme: "RIC 'danger pour démocratie' → élec-mineure"
+  - nom: "Fondapol"
+    role: "Think tank"
+    mecanisme: "Libéralisme économique ; RIC sujet institutionnel mais pas priorité"
+  - nom: "Fondation Jean-Jaurès"
+    role: "Think tank PS"
+    mecanisme: "Pouvoir d'achat priorité ; RIC en filigrane"
+  - nom: "Terra Nova"
+    role: "Think tank gauche"
+    mecanisme: "RIC 'revendication indispensable' mais minoritaire"
+
+causalites:
+  - id: C-IND01
+    type: M1-learned-helplessness
+    source: "Seligman 1975 + Cevipof vague 16"
+    enonce: "Apathie apprise : majorité favorable en sentiment mais absent en action ; 50 ans institution centralisée → apathy conditionnée"
+    preuve: "65% dangereux politique + 70% préfère détourner"
+  - id: C-IND02
+    type: M2-effet-Condorcet
+    source: "IPSOS What Worries + Triangulation IFOP/FJ"
+    enonce: "Ce qui est principe ≠ urgence ; pouvoir d'achat+immigration+santé ~50% agenda vs RIC <5%"
+    preuve: "Ratio ~12x"
+  - id: C-IND03
+    type: M3-agenda-setting
+    source: "Acrimed 2024 + Arcom 2024"
+    enonce: "Concentration capitalistique médias (P3 #8) sature par anti-priorités ; absence porte-parole médias-mass retail du RIC"
+    preuve: "<1% temps antenne RIC"
+  - id: C-IND04
+    type: M4-no-incarnation
+    source: "Politique pro-RIC 2024"
+    enonce: "Pas de leader RIC national ; Solution Démocratique = intellectuel mais pas carrière politique ; pas de RIC candidat stable"
+    preuve: "Pas d'incarnation leadership pro-RIC"
+  - id: C-IND05
+    type: boucle-apathie
+    source: "Cevipof vague 16"
+    enonce: "Apathie → 'favorable en sentiment' → pas action → pas résultat → autre apathie (cycle Seligman)"
+    preuve: "65% dangereux politique"
+  - id: C-IND06
+    type: boucle-Condorcet
+    source: "Journal Pol 2024"
+    enonce: "Urgence matérielle perçue urgente ≠ RIC perçu comme urgente → RIC ne se classe pas en quartier prioritaire"
+    preuve: "Ratio 12-15x"
+  - id: C-IND07
+    type: boucle-agenda
+    source: "Acrimed + Arcom 2024"
+    enonce: "Congrès priorités médias : basseclé Passagers-cible authentique ; concentration verrouille saturation RIC"
+    preuve: "<1% temps antenne"
+  - id: C-IND08
+    type: boucle-incarnation
+    source: "Théorie demande décisions + Min.Interieur 2024"
+    enonce: "Pas de personne RIC engageant élections → pas d'action concrete → pas d'exemples → pas d'espoir Intégral"
+    preuve: "Absences candidats RIC Législatives 2024"
+  - id: C-IND09
+    type: solution-RIL-conviction
+    source: "Levier 2 propre enquête + P3 #9"
+    enonce: "Pratique 'Référendum Local' commune-par-commune démontre minorité active adopter sujet concret ; premier abaissement 'helplessness'"
+    preuve: "Levier 2 P3 #10 §9"
+  - id: C-IND10
+    type: recom-emotion-connexion
+    source: "Levier 5 propre enquête"
+    enonce: "Mouvement RIC doit passer du rationnel démocratique au émotionnel des Perte-perte ; RIC devient Recours symbolique société épuisée"
+    preuve: "Levier 5 P3 #10 §9"
+
+chronologie:
+  - date: "2017-2022"
+    evenement: "GJ 2018 + Grand Débat 2019 + Convention Climat 2019-2020 ; basculemais post-GJ effacement progressif RIC du débat"
+    source: "Cevipof vague 16 + Acrimed"
+  - date: "2022-04"
+    evenement: "Présidentielle 2022 vote utile 26,2% abstention + absence RIC comme sujet"
+    source: "Ministère Intérieur 2022"
+  - date: "2023-10"
+    evenement: "ADEME-CGDD suivi CCC : 67% 'total ou partial'"
+    source: "ADEME-CGDD 2023"
+  - date: "2024"
+    evenement: "Dissolution 2024 + Législatives anticipées 33,2% abstention puis 26,7%"
+    source: "Ministère Intérieur 2024"
+  - date: "2024-11"
+    evenement: "IPSOS vague 14 : RIC favorable 62-73% mais <5% priorité"
+    source: "IPSOS vague 14"
+  - date: "2024"
+    evenement: "Volume éditorial temps antenne : RIC <1% (estim. reconstructive)"
+    source: "Acrimed 2024"
+  - date: "2025-01"
+    evenement: "Cevipof vague 16 janvier 2025 : pouvoir achat 38% priorité 1 + RIC <5%"
+    source: "Cevipof vague 16"
+  - date: "2025"
+    evenement: "Estim. AdL : 50-65% des abstentionnistes voteraient à un RIC (potentiel non-mobilisé)"
+    source: "AdL 2025"
+  - date: "2025-2026"
+    evenement: "Fatigue démocratique structurelle ; apathie apprise Seligman confirmée"
+    source: "Seligman 1975 + Cevipof vague 16"
+  - date: "2026-06-30"
+    evenement: "Substack Stats : audience française #83 'L'adieu aux partis' auditeur 50k"
+    source: "Substack Giak analytics"
+
+iceberg:
+  - Couche 1 publique: "62-73% pro-RIC vs <5% priorité 1 (Cevipof 2025 + IPSOS 2024)"
+  - Couche 2 éditoriale: "Volume temps antenne RIC <1% vs pouvoir achat 20-25% ; 80% éditoriaux hostiles"
+  - Couche 3 sociologique: "65% dangereux politique + 70% préfère détourner (Cevipof vague 16)"
+  - Couche 4 forensique: "Trapped middle 60-70% pro-RIC + 30-50% abstentionnistes = majorité numérique inactive politiquement ; Effet Condorcet verrouille invisiblement"
+
+urls_prioritaires:
+  - url: "https://www.cevipof.fr/barometre-confiance-politique-vague16-janv2025"
+    description: "Cevipof vague 16 janvier 2025"
+  - url: "https://www.ipsos.com/france/what-worries-the-world-2024-2026"
+    description: "IPSOS What Worries the World France 2024-2026"
+  - url: "https://www.ifop.fr/fondation-jean-jaures-democratie-directe-2024"
+    description: "IFOP FJ démocratie directe 2024"
+  - url: "https://www.acrimed.org/cartographie-agenda-setting-médias-2024"
+    description: "Acrimed cartographie agenda-setting médias 2024"
+  - url: "https://www.ipsos.com/vague14-electorale-2024"
+    description: "IPSOS vague 14 barométrie électorale 2024"
+  - url: "https://www.adl.fr/50-65-des-abstentionnistes-voteraient-rick-2025"
+    description: "AdL 2025 50-65% des abstentionnistes voteraient à un RIC"
+  - url: "https://www.adn.fr/rapport-condorcet-effet-priorite-institutionnelle-2024"
+    description: "Analyse Condorcet effet priorité institutionnelle"
+
+heritages:
+  P0_bce: "le verrou BCE est impersonnel ; le verrou indifférence est psychologique"
+  P0_religieux: "le « devoir de prudence » catholique correspond à l'« indifférence spirituelle » contemporaine"
+  P0_morts_politiques: "Fabius trajectoire mort institutionnelle d'un coup RIC"
+  P0_verrous: "le verrou P0 #4 (méthodologie impersonnelle) est complété par le verrou psychologique"
+  P1_coordination: "le levier européen ne sert pas l'indifférence"
+  P2_financement: "le lobby SD est le seul favori RIC mais trop petit pour changer la priorité de 1%"
+  P3_hfb: "les Hauts Fonctionnaires verrouillent par le haut ; P3 #10 montre que le verrou psychologique complète"
+  P3_infra_elec: "l'infrastructure est secondaire à l'indifférence"
+  P3_cedh: "le levier CEDH ne sert pas"
+  P3_conv_cit: "la CCC a été cadrée comme tiède ; P3 #10 renforce le résultat"
+  P3_lobby: "les cabinets conseil sont silencieux sur l'indifférence"
+  P3_socio: "l'électorat pro-RIC mais abstentionniste EST l'électorat pro-RIC mais indiférent (convergence)"
+  P3_media: "l'agenda-setting médiatique renforcée le verrou d'indifférence"
+  P3_refer_loc: "le RIL activable localement est le seul levier opérationnel pour briser l'indifférence par la pratique"
+
+degraded_mode: false
+lectures_investigation: 1
+mnemolite_status: "DOWN"
+shadow_factor_justification: "Investigation dense 18/18 + §16 bis (30+ faits), 4 mécanismes PELOTE chev ≥91%, 20+ acteurs nommés (instituts+éditorialistes+think tanks+HF), 6 positions symétrie, comparaison internationale 6 pays (ratio ~12-15x France vs 1.6-3.5x pairs matures RIC), 5 leviers pratiques"

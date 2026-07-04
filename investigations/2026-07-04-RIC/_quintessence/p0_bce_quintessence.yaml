@@ -1,0 +1,390 @@
+enquete_id: "p0_bce"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-04_19-30_ric_bce_euro_verrou_INVESTIGATION.md"
+degraded_mode: true
+mnemolite_status: "DOWN - non-interrogé, mode dégradé cross-séries"
+lecture_status: "Complete - lecture intégrale (653 lignes source)"
+
+these_centrale: "Le RIC budgétaire français bute sur 4 verrous cumulatifs cumulants (M1 CJUE primauté absolue + M2 BCE OMT/TPI conditionnels au Pacte + M3 marchés obligataires sanction spontanée + M4 Eurogroupe informel décisions politiques non-justiciables) qui se renforcent mutuellement : briser UN verrou ne suffit pas, le RIC budgétaire est techniquement condamné à l'impuissance tant que la France reste dans l'euro sans renégocier à l'unanimité des 27."
+
+theses_implicites:
+  - "Le précédent grec du 5 juillet 2015 (OXI 61,31% puis capitulation Tsipras 13 juillet face à gel ELA BCE) est la preuve empirique grandeur nature que la démocratie budgétaire entre en collision frontale avec l'architecture monétaire de la zone euro."
+  - "Le TPI (Transmission Protection Instrument) du 21 juillet 2022 est un verrou by design : il exclut explicitement les États non conformes au Pacte de Stabilité 2024, transformant la protection monétaire en instrument de discipline politique."
+  - "Le verdict C-448/23 Commission c/ Pologne (CJUE 2025) ferme définitivement la porte à l'identité constitutionnelle nationale comme justification de dérogation aux traités : plus aucun bouclier jurisprudentiel national contre la primauté du droit UE."
+  - "La contrainte italienne 2018-2019 (spread BTP/Bund de 130 à 320 pdb en 6 semaines sans intervention BCE directe) démontre que les marchés obligataires opèrent comme mécanisme disciplinaire automatique plus rapide que tout mécanisme institutionnel."
+
+faits_atomiques:
+  - id: "F-BCE01"
+    enonce: "Règlement UE 2024/1263 du 29 avril 2024 réforme la gouvernance du Pacte de Stabilité : transformation de la règle unique de dette en trajectoire pluriannuelle 4-7 ans ; entrée en vigueur 30 avril 2024 ; seuils 3% déficit / 60% dette TFUE art. 126 inchangés."
+    source_url: "https://eur-lex.europa.eu/eli/reg/2024/1263/oj"
+    source_section: "§4.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE02"
+    enonce: "Déficit public français 2024 ≈ 6,0% du PIB (INSEE) ; Procédure pour Déficit Excessif (PDE) ouverte par Commission UE depuis juillet 2024."
+    source_url: "https://ec.europa.eu/info/business-economy-euro/economic-governance-and-enforcement-european-semester_en"
+    source_section: "§4.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE03"
+    enonce: "Amende pour non-conformité PDE : jusqu'à 0,05% du PIB tous les 6 mois = 1,475 Md€ sur 6 mois = 2,95 Md€/an pour la France (PIB 2026 ~2 950 Md€)."
+    source_url: "https://eur-lex.europa.eu/eli/reg/2024/1263/oj"
+    source_section: "§4.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE04"
+    enonce: "Référendum grec 5 juillet 2015 : OXI 61,31% vs NAI 38,69%. Référendum indicatif sur plan d'austérité."
+    source_url: "https://www.ypes.gr/en/"
+    source_section: "§6.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE05"
+    enonce: "Tsipras capitule 13 juillet 2015 (8 jours après le référendum) face à la BCE gelant l'ELA + contrôle capitaux grec 60€/jour ; accepte 3e mémorandum plus dur que le précédent ; 2015-2018 : baisse retraites 25%."
+    source_url: "https://www.consilium.europa.eu/en/press/press-releases/2015/07/13/euro-summit-statement/"
+    source_section: "§6.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE06"
+    enonce: "BCE gèle plafond ELA (Emergency Liquidity Assistance) grec 28 juin 2015 : fermeture banques grecques 6-12 juillet 2015."
+    source_url: "https://www.ecb.europa.eu/"
+    source_section: "§6.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE07"
+    enonce: "Arrêt Costa c/ ENEL (CJUE 6/64, 1964) : droit né du Traité prime sur toute disposition légale nationale ; États ont limité leurs droits souverains au profit d'un ordre juridique intégré."
+    source_url: "https://curia.europa.eu/juris/showPdf.jsf?docid=14782"
+    source_section: "§5.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE08"
+    enonce: "Arrêt Internationale Handelsgesellschaft (CJUE 11/70, 1970) : primauté du droit UE sur les textes constitutionnels nationaux (pas seulement la loi)."
+    source_url: "https://curia.europa.eu/juris/showPdf.jsf?docid=14980"
+    source_section: "§5.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE09"
+    enonce: "Arrêt Simmenthal (CJUE 106/77, 1977) : tout juge national doit écarter d'office une règle interne contraire au droit UE."
+    source_url: "https://curia.europa.eu/juris/showPdf.jsf?docid=15029"
+    source_section: "§5.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE10"
+    enonce: "Arrêt C-448/23 Commission c/ Pologne (CJUE 2025) : identité constitutionnelle nationale ne peut servir à déroger aux obligations des traités ; CJUE est seule autorité compétente pour déterminer les limites des compétences UE ; aucune juridiction nationale ne peut déclarer un acte ultra vires."
+    source_url: "https://curia.europa.eu/juris/liste.jsf?num=C-448/23"
+    source_section: "§5.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE11"
+    enonce: "TPI (Transmission Protection Instrument) lancé 21 juillet 2022 (décision BCE 2022/625) : protection contre fragmentation injustifiée des taux MAIS éligibilité conditionnelle cumulative : conformité Pacte + absence déséquilibres macroéconomiques + soutenabilité dette documentée."
+    source_url: "https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220721~973e6e7273.en.html"
+    source_section: "§7.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE12"
+    enonce: "OMT 2012 (Outright Monetary Transactions) : conditionnée à mise sous programme MES complet ou de précaution ; un État qui sort délibérément du Pacte refuse par définition le programme d'ajustement, donc OMT indisponible."
+    source_url: "https://www.ecb.europa.eu/press/pr/date/2012/html/pr120906_1.en.html"
+    source_section: "§7.3"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE13"
+    enonce: "Cas Italie 2018-2019 : gouvernement Conte I (Lega-M5S) propose budget 2,4% déficit en juin 2018 ; spread BTP/Bund monte de 130 à 320 pdb en 6 semaines ; compromis décembre 2018 ramène déficit à 2,04% en 2019."
+    source_url: "https://www.mef.gov.it/en/"
+    source_section: "§6.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE14"
+    enonce: "Italie 2018 : contrainte par marché sans intervention BCE directe ; Commission UE fenêtre verbale mais pas de sanction formelle."
+    source_url: "https://ec.europa.eu/info/business-economy-euro/economic-governance-and-enforcement-european-semester_en"
+    source_section: "§6.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE15"
+    enonce: "Arrêt Mallis (CJUE C-105/15, 20 juin 2016) : décisions Eurogroupe ne sont pas des actes juridiquement contraignants attaquables. Asymétrie structurelle entre politique économique et contrôle juridictionnel."
+    source_url: "https://curia.europa.eu/juris/liste.jsf?num=C-105/15"
+    source_section: "§5.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE16"
+    enonce: "Article 50 TUE (13 décembre 2007 Lisbonne) : sortie unilatérale de l'UE par notification. Précédent Brexit 2017-2020. Pas de jurisprudence CJUE sur activation par référendum."
+    source_url: "https://www.treaty-articles.info/50_TUE.pdf"
+    source_section: "§6.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE17"
+    enonce: "Traité de Maastricht 7 février 1992 : création UEM et BCE. Article 123 TFUE interdit financement monétaire des États ; article 130 TFUE consacre indépendance BCE vis-à-vis des États."
+    source_url: "https://eur-lex.europa.eu/eli/treaty/tfeu_2012/oj"
+    source_section: "§11 (L4 M2)"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE18"
+    enonce: "Spread OAT/Bund fin 2025 : ~50 pb en temps normal. Crise grecque 2015 : OAT/Bund +700 pdb. Crise italienne 2018-2019 : BTP/Bund +190 pdb."
+    source_url: "https://www.aft.gouv.fr/"
+    source_section: "§7"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE19"
+    enonce: "Spread OAT/Bund 10 ans au 3 juillet 2026 : 76 pb (AFT - Agence France Trésor / Idéal Investisseur 2026). En baisse depuis 88 pb en juillet 2024."
+    source_url: "https://www.aft.gouv.fr/"
+    source_section: "§6"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE20"
+    enonce: "Coût d'un spread à 200 pdb pendant 6 mois : +25-50 Md€ supplémentaires pour la France (France refinance ~25% de sa dette chaque année ; modélisation BCE/marchés)."
+    source_url: "https://www.bis.org/publ/work354.pdf"
+    source_section: "§11 (L3 M3)"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-BCE21"
+    enonce: "Article 4.3 TUE (loyauté mutuelle) : fondement juridique du consentement initial des États à la primauté UE. Maastricht 1992 référendum 51,05% OUI : consentement considéré comme définitif (adhésion volontaire et durable)."
+    source_url: "https://eur-lex.europa.eu/eli/treaty/tfeu_2012/oj"
+    source_section: "§11 (L4 M1)"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE22"
+    enonce: "PSPP/Weiss (CJUE 2020) : limites à l'identité constitutionnelle réaffirmées post-arrêt Bundesverfassungsgericht 5 mai 2020 sur OMT."
+    source_url: "https://curia.europa.eu/juris/liste.jsf?num=C-493/17"
+    source_section: "§5.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE23"
+    enonce: "Pisani-Ferry (2018) : la sortie de l'euro n'est concevable que pour les États non-stratégiques ; pour les États fondateurs, l'euro est un verrou non-négociable."
+    source_url: "https://pisani-ferry.com/"
+    source_section: "§11 (R1)"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-BCE24"
+    enonce: "Bibow (2013) : la BCE a construit depuis 2010-2012 un arsenal de protection (OMT, TPI) qui fonctionnent comme boucliers unilatéraux mais peuvent être retirés à discrétion."
+    source_url: "https://www.levyinstitute.org/"
+    source_section: "§11 (R1)"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-BCE25"
+    enonce: "Varoufakis (2017, *Adults in the Room*) : le 13 juillet 2015 est le jour où la démocratie grecque a perdu ; la BCE a utilisé l'ELA comme arme économique."
+    source_url: "https://yannisvaroufakis.eu/"
+    source_section: "§11 (R3)"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-BCE26"
+    enonce: "Crise grecque 2010-2018 : ajustements structurels massifs (réduction retraites, hausse TVA, privatisations) sous contrôle UE ; charge fiscale grecque toujours élevée post-programme 2018."
+    source_url: "https://www.imf.org/en/Countries/GRC"
+    source_section: "§6.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE27"
+    enonce: "Article 127 TFUE + Article 18 statut SEBC : mandat BCE ; stabilité des prix uniquement ; pas de considération démocratique."
+    source_url: "https://eur-lex.europa.eu/eli/treaty/tfeu_2012/oj"
+    source_section: "§11 (L2 M2)"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE28"
+    enonce: "ESM (Mécanisme européen de stabilité) : prêts conditionnels - programme d'ajustement strict + surveillance Commission + BCE + ESM ; perte souveraineté budgétaire effective durant le programme ESM."
+    source_url: "https://www.esm.europa.eu/"
+    source_section: "§7.4"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE29"
+    enonce: "Loi organique allemande 2017 sur le TSCG : fusion des règles européennes du Traité sur la Stabilité, la Coordination et la Gouvernance dans l'ordre national. Témoignage du verrou interne créé par les traités."
+    source_url: "https://www.bundesverfassungsgericht.de/"
+    source_section: "§10 (F-BCE20)"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-BCE30"
+    enonce: "Marché obligataire mondial : ~120 000 Md€ (Borio/Disyatat BIS 2011). États en concurrence pour financement : conditionnalité soft via spread plus rapide que conditionnalité hard du Pacte (PDE)."
+    source_url: "https://www.bis.org/publ/work352.htm"
+    source_section: "§11 (L4 M3)"
+    tier: 2
+    glyphe: "✧"
+
+acteurs:
+  - nom: "Christine Lagarde"
+    role: "Présidente BCE 2019- ; aucun RIC qui abrogerait le remboursement de la dette (sanction = exclusion TPI/OMT)"
+    faits_lies: ["F-BCE11", "F-BCE12"]
+  - nom: "CJUE (Cour de justice de l'Union européenne)"
+    role: "Cour suprême UE ; primauté absolue du droit UE sur tout acte national (y compris référendum)"
+    faits_lies: ["F-BCE07", "F-BCE08", "F-BCE09", "F-BCE10"]
+  - nom: "Conseil UE"
+    role: "Conseil des ministres ; approuve les PDE et sanctions budgétaires"
+    faits_lies: ["F-BCE03", "F-BCE02"]
+  - nom: "Commission européenne"
+    role: "Exécutif UE ; initie les procédures pour déficit excessif"
+    faits_lies: ["F-BCE02", "F-BCE14"]
+  - nom: "Eurogroupe"
+    role: "Réunion informelle ministres finances ; décisions majeures non-justiciables (CJUE C-105/15)"
+    faits_lies: ["F-BCE15", "F-BCE05"]
+  - nom: "ESM / MES"
+    role: "Mécanisme européen de stabilité ; prêts dernier recours + conditionnalité stricte"
+    faits_lies: ["F-BCE28", "F-BCE12"]
+  - nom: "Marchés obligataires"
+    role: "Investisseurs ; sanction spontanée par hausse spreads"
+    faits_lies: ["F-BCE13", "F-BCE18", "F-BCE19", "F-BCE30"]
+  - nom: "S&P / Moody's / Fitch"
+    role: "Agences de notation ; sanction morale immédiatement répercutée sur taux"
+    faits_lies: ["F-BCE20", "F-BCE30"]
+  - nom: "Alexis Tsipras"
+    role: "PM Grèce 2015 ; annonce référendum 27 juin ; capitule 13 juillet après 8 jours face au gel ELA grec"
+    faits_lies: ["F-BCE04", "F-BCE05"]
+  - nom: "Yanis Varoufakis"
+    role: "Ministre Finances Grèce janvier-février 2015 ; témoigne de l'utilisation ELA comme arme économique (2017)"
+    faits_lies: ["F-BCE05", "F-BCE06", "F-BCE25"]
+  - nom: "Jean Pisani-Ferry"
+    role: "Économiste ; déclare que l'euro est un verrou non-négociable pour les États fondateurs (2018)"
+    faits_lies: ["F-BCE23"]
+  - nom: "Heiner Flassbeck (Bibow co-auteur)"
+    role: "Économiste ; décrit l'arsenal BCE OMT/TPI comme boucliers unilatéraux retraitables à discrétion (2013)"
+    faits_lies: ["F-BCE24"]
+
+causalites:
+  - cause: "F-BCE02"
+    effet: "F-BCE03"
+    mecanisme: "Le déficit français 2024 de 6% PIB (vs seuil 3% TFUE art. 126) aboutit mécaniquement à l'ouverture PDE par Commission UE ; sanction potentielle 0,05% PIB = -2,95 Md€/an."
+  - cause: "F-BCE04"
+    effet: "F-BCE05"
+    mecanisme: "Le vote OXI 61,31% grec 5 juillet 2015 déclenche le gel ELA BCE 28 juin + contrôle capitaux 60€/jour + fermeture banques ; produit la capitulation Tsipras en 8 jours (13 juillet)."
+  - cause: "F-BCE13"
+    effet: "F-BCE14"
+    mecanisme: "La proposition budget Conte I (Lega-M5S) 2,4% déficit juin 2018 produit une hausse spread BTP/Bund 130→320 pdb en 6 semaines, contraignant le gouvernement à baisser le déficit à 2,04% sous pression marché sans intervention BCE directe."
+  - cause: "F-BCE10"
+    effet: "F-BCE21"
+    mecanisme: "L'arrêt C-448/23 Pologne 2025 verrouille l'identité constitutionnelle nationale comme justification de dérogation aux traités : ferme le dernier bouclier jurisprudentiel national contre la primauté UE."
+  - cause: "F-BCE11"
+    effet: "F-BCE12"
+    mecanisme: "TPI 2022 et OMT 2012 sont conçus avec critères cumulés de conformité Pacte + soutenabilité dette : un État qui sort délibérément du Pacte perd mécaniquement l'accès aux protections BCE."
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "Le RIC budgétaire est techniquement condamné à l'impuissance tant que la France reste dans l'euro sans renégocier à l'unanimité des 27 ; le précédent grec 2015 démontre l'inéluctabilité de la capitulation."
+  - position: "Antithèse"
+    argument: "La France dispose d'art. 50 TUE pour sortir unilatéralement, techniquement sans pénalité ; le RIC budgétaire devenu déclaration de sortie aboutirait à une trajectoire Frexit économiquement coûteuse mais politiquement souveraine (cf. députés souverainistes)."
+  - position: "Synthèse"
+    argument: "Trois issues sont possibles : (1) renégocier les traités UE = probabilité 0 sans unanimité 27 ; (2) Sortir de la zone euro (art. 50 TUE) = légale techniquement, catastrophique économiquement, probabilité 0,05 ; (3) Restreindre le RIC aux questions non-budgétaires (fin de vie, environnement) = probabilité 0,90 mais RIC vidé de substance. Le RIC budgétaire reste un théâtre démocratique tant qu'aucune des trois issues n'est activée."
+
+limites:
+  - "L'enquête ne modélise pas explicitement le coût économique d'un Frexit complet (scénario 4) : sortie de la zone euro implique trajectoire incertaine 5-10 ans."
+  - "Le Markets obligataires sanction est documentée empiriquement (Italie 2018, Grèce 2015) mais aucune preuve directe qu'une sanction de marché frapperait un RIC non-budgétaire (fin de vie, environnement)."
+  - "L'article 50 TUE en sortie unilatérale : pas de jurisprudence CJUE sur activation par référendum ; le précédent Brexit 2017-2020 illustre une activation par voie parlementaire (May) puis négociation politique."
+  - "La trajectoire de réduction du déficit français 2024-2028 reste floue : la Commission a validé le plan pluriannuel mais aucun engagement politique post-2027 ne garantit la trajectoire."
+
+wolves:
+  - nom: "9 propriétaires médias français (incluant économistes libéraux)"
+    argument: "Cadrage médiatique dominant 'sans euro, pas d'Europe' : délégitimation de toute trajectoire Frexit."
+    reponse: "La preuve empirique grecque 2015 documente qu'avec l'euro, la démocratie budgétaire est structurellement vidée de substance ; le cap est changé pour la transparence forensique."
+  - nom: "Eurosceptiques politiques (RN, LR souverainistes) pro-Brexit"
+    argument: "Sortir unilatéralement par art. 50 TUE ramène la souveraineté monétaire."
+    reponse: "L'art. 50 TUE + réintroduction franc sont légalement praticables mais économiquement catastrophiques (modèles Grèce/Argentine) ; la discipline d'usage via RIC budgétaire intra-euro reste à explorer (renégociation conditionnelle des traités)."
+  - nom: "Bundesbank / Bundesverfassungsgericht"
+    argument: "Identité constitutionnelle nationale ne peut justifier dérogation (cf. arrêt PSPP/Weiss 2020) ; convergence avec CJUE C-448/23 2025."
+    reponse: "L'arrêt BVerfG PSPP est une relance du débat allemand ; la convergence CJUE-BVerfG est elle-même une construction politique résultant du projet d'intégration post-1957 documenté en L4 M1."
+  - nom: "Marchés obligataires (BlackRock / Vanguard / BNP / Barclays)"
+    argument: "Spreads haussiers = mécanisme disciplinaire automatique non-négociable."
+    reponse: "Mark Carney (BIS 2021) propose la coexistence de monnaies digitales souveraineté / stripping de la dette nationale des marchés = architecture de contournement crédible à 10-15 ans."
+
+iceberg:
+  - "Modèle Carney BIS 2021 sur monnaie digitale souveraine + stripping dette nationale des marchés : ouvre une trajectoire de contournement du verrou monétaire à 10-15 ans non documentée dans cette enquête."
+  - "Tuckett (2023, Banque d'Angleterre) sur les retraits cash massifs coordinés comme levier de dernier recours : non documentée empiriquement en France ou zone euro."
+  - "Mnemolite DOWN : transversalités cross-séries non explorées (cf. dossiers antérieurs Evasion Fiscale 80-100 Md€/an + Dette 3 200 Md€ qui pourraient connecter au verrou BCE)."
+
+chronologie:
+  - date: "1992-02-07"
+    evenement: "Traité de Maastricht signé : création UEM et BCE"
+    source_fait: "F-BCE17"
+  - date: "1998-06-01"
+    evenement: "BCE opérationnelle comme institution indépendante"
+    source_fait: "F-BCE27"
+  - date: "2007-12-13"
+    evenement: "Traité de Lisbonne : art. 50 TUE consacré + CE devient CJUE post-Lisbonne"
+    source_fait: "F-BCE16"
+  - date: "2009-2009-2010"
+    evenement: "Révélation déficit grec réel (12,7% vs 3,7%) ; début crise dette souveraine"
+    source_fait: "F-BCE26"
+  - date: "2010-05"
+    evenement: "Premier mémorandum grec : 110 Md€ via MES"
+    source_fait: "F-BCE26"
+  - date: "2012-09-06"
+    evenement: "OMT lancé : 'whatever it takes' de Mario Draghi, conditionnel MES"
+    source_fait: "F-BCE12"
+  - date: "2014-11"
+    evenement: "Italie Conte I (Lega-M5S) élu : promesse réduction austérité"
+    source_fait: "F-BCE13"
+  - date: "2015-01-25"
+    evenement: "Tsipras (Syriza) élu sur promesse 'fin de l'austérité'"
+    source_fait: "F-BCE26"
+  - date: "2015-06-28"
+    evenement: "BCE gèle ELA grec : Tsipras annonce référendum 27 juin"
+    source_fait: "F-BCE05"
+  - date: "2015-07-05"
+    evenement: "Référendum grec OXI 61,31% vs NAI 38,69%"
+    source_fait: "F-BCE04"
+  - date: "2015-07-13"
+    evenement: "Tsipras capitule face gel ELA + menace faillite bancaire"
+    source_fait: "F-BCE05"
+  - date: "2015-07-20"
+    evenement: "Arrêt Mallis C-105/15 : Eurogroupe décisions non-justiciables"
+    source_fait: "F-BCE15"
+  - date: "2017-03-29"
+    evenement: "May invoque art. 50 TUE : Brexit lancé"
+    source_fait: "F-BCE16"
+  - date: "2018-06-2018-12-20"
+    evenement: "Crise italienne Conte I : spread BTP/Bund 130→320 pdb ; compromis 2,04%"
+    source_fait: "F-BCE13"
+  - date: "2020-05-05"
+    evenement: "PSPP/Weiss CJUE : limites identité constitutionnelle réaffirmées"
+    source_fait: "F-BCE22"
+  - date: "2022-07-21"
+    evenement: "TPI BCE lancé : protection conditionnelle contre fragmentation injustifiée"
+    source_fait: "F-BCE11"
+  - date: "2023-12-30"
+    evenement: "Règlement UE 2024/1263 Pacte Stabilité adopté par Conseil UE"
+    source_fait: "F-BCE01"
+  - date: "2024-04-29"
+    evenement: "Règlement UE 2024/1263 entre en vigueur (30 avril 2024)"
+    source_fait: "F-BCE01"
+  - date: "2024-07"
+    evenement: "PDE ouverte contre France (déficit 6,0% PIB)"
+    source_fait: "F-BCE02"
+  - date: "2025"
+    evenement: "Arrêt C-448/23 Pologne : identité constitutionnelle ne déroge pas aux traités"
+    source_fait: "F-BCE10"
+  - date: "2026-07-03"
+    evenement: "Spread OAT/Bund 76 pb (AFT)"
+    source_fait: "F-BCE19"
+  - date: "2026-07-04"
+    evenement: "Investigation forensique produite (point d'observation)"
+    source_fait: "§15"
+
+domaines:
+  - "Droit constitutionnel UE (TFUE + jurisprudence CJUE)"
+  - "Économie politique monétaire (Pacte Stabilité + BCE)"
+  - "Géopolitique européenne (crises grecques/italiennes)"
+  - "Finance publique (déficit, dette, spread)"
+  - "Souveraineté nationale (consentement Maastricht 1992)"
+
+urls_prioritaires:
+  - url: "https://eur-lex.europa.eu/eli/reg/2024/1263/oj"
+    description: "Règlement UE 2024/1263 Pacte Stabilité 2024"
+    head_status: 200
+  - url: "https://curia.europa.eu/juris/liste.jsf?num=C-448/23"
+    description: "CJUE C-448/23 Commission c/ Pologne 2025"
+    head_status: 200
+  - url: "https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220721~973e6e7273.en.html"
+    description: "BCE TPI décision 21 juillet 2022"
+    head_status: 200
+  - url: "https://eur-lex.europa.eu/eli/treaty/tfeu_2012/oj"
+    description: "TFUE articles 50, 123, 126, 127, 130 + TFUE version consolidée"
+    head_status: 200
+  - url: "https://www.aft.gouv.fr/"
+    description: "Agence France Trésor : spreads OAT/Bund temps réel"
+    head_status: 200
+  - url: "https://www.esm.europa.eu/"
+    description: "Mécanisme européen de stabilité : conditionnalité prêts"
+    head_status: 200
+  - url: "https://www.bis.org/publ/work352.htm"
+    description: "Borio/Disyatat BIS 2011 sur la mondialisation financière"
+    head_status: 200
+
+shadow_factor: 2.2
+mnemo_queries:
+  - query: "MNEMOLITE DOWN - non exécuté (12-enquêtes retenues)"
+    results_count: 0
+  - query: "MNEMOLITE DOWN - non exécuté"
+    results_count: 0

@@ -1,0 +1,380 @@
+enquete_id: "p3_hfb"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-05_00-00_hauts_fonctionnaires_bloqueurs_HFB-FR-001_INVESTIGATION.md"
+degraded_mode: true
+mnemolite_status: "DOWN - non-interrogé, mode dégradé cross-séries"
+lecture_status: "Complete - lecture intégrale (608 lignes source)"
+
+these_centrale: "Le verrouillage du RIC en France n'est pas anonyme mais nominatif : 20 Hauts Fonctionnaires identifiables opérant sur 4 étages institutionnels (Conseil Constitutionnel filtre RIP → Conseil d'État rapports publics → SGG mémoires en défense → Commissions des Lois enterrement parlementaire), protégés par l'anonymat administratif anti-accountability, recyclés post-fonction dans des postes économiques privés (pantouflage). Le verrou peut être démantelé par la réforme du règlement intérieur CC + l'allongement du délai HATVP + la publication des mémoires SGG."
+
+theses_implicites:
+  - "Le blocage du RIC n'est pas le fait « des juges » ou « du système » en général ; il est l'œuvre d'un petit groupe de 20 personnes physiques identifiables dont les nominations JO, les carrières (ENA, ENS, Sciences Po) et les positions sont documentables."
+  - "La doctrine de l'anonymat administratif cache une responsabilité individuelle : ce qui est présenté comme protecteur (protection des fonctionnaires) opère en réalité comme absence d'accountability démocratique."
+  - "Le pantouflage post-fonction des HF français (Rothschild, Lazard, EDF, Total, think tanks Montaigne + Fondapol) crée un verrou d'intérêts : les anciens HF sont liés aux milieux économiques qui ont intérêt au statu quo institutionnel."
+  - "Le verrou des Hauts Fonctionnaires est opéré par une chaîne procédurale de 4 étages (CC → CE → SGG → Commissions des Lois) qui produit l'effet final sans qu'aucun responsable nominatif unique ne puisse être identifié publiquement."
+
+faits_atomiques:
+  - id: "F-HFB01"
+    enonce: "Laurent Fabius, président du Conseil Constitutionnel depuis 2016 (mandat 2016-2029), ancien Premier ministre 1984-1986, président COP21. Vote systématiquement l'irrecevabilité des PPL RIC."
+    source_url: "https://www.conseil-constitutionnel.fr/le-conseil-constitutionnel/les-membres-du-conseil-constitutionnel"
+    source_section: "§2.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB02"
+    enonce: "Cécile Guérin-Barral, secrétaire générale du CC depuis 2024, magistrate administrative, coordonne l'instruction des dossiers RIP depuis juin 2024."
+    source_url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049919045/"
+    source_section: "§2.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB03"
+    enonce: "Conseil Constitutionnel : 9 membres nommés par Président République + Présidents AN/Sénat (art. 56 Constitution). Mandat 9 ans non renouvelable. Composition publiée JO."
+    source_url: "https://www.conseil-constitutionnel.fr/le-conseil-constitutionnel/les-membres-du-conseil-constitutionnel"
+    source_section: "§2.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB04"
+    enonce: "La procédure de filtrage des RIP : saisine du CC par Président AN ou Sénat → instruction par SG (Guérin-Barral 2024-) → désignation d'un rapporteur parmi les 9 membres (anonymisé) → vote en formation plénière → publication décision sans mention nominative du rapporteur."
+    source_url: "https://www.conseil-constitutionnel.fr/"
+    source_section: "§2.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB05"
+    enonce: "Exception française : le rapporteur des décisions CC n'est pas publié. Bundesverfassungsgericht allemand + Corte Costituzionale italienne + Tribunal Constitucional espagnol publient nominativement le rapporteur dans TOUTES leurs décisions."
+    source_url: "https://www.bundesverfassungsgericht.de/"
+    source_section: "§5 indice A2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB06"
+    enonce: "Nicole Belloubet, membre CC 2017-2020 (nommée par Castaner), ancienne ministre de la Justice 2017-2020, rentrée Conseil d'État après 2020."
+    source_url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032708946/"
+    source_section: "§2.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB07"
+    enonce: "Jean-Marc Sauvé, vice-président du Conseil d'État 2014-2018, a orienté la jurisprudence restrictive sur initiatives populaires. Retour Lazard conseil 2019."
+    source_url: "https://www.conseil-etat.fr/actualites/jean-marc-sauve-vice-president-du-conseil-d-etat"
+    source_section: "§2.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB08"
+    enonce: "Bruno Lasserre, vice-président du Conseil d'État 2018-2022, a maintenu la ligne restrictive en section finances et contentieux."
+    source_url: "https://www.conseil-etat.fr/le-conseil-d-etat/les-membres-du-conseil-d-etat"
+    source_section: "§2.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB09"
+    enonce: "Pellissier, rapporteur public au Conseil d'État section de l'Intérieur 2018-2022 : nombreuses conclusions négatives sur textes constitutionnels."
+    source_url: "https://www.conseil-etat.fr/"
+    source_section: "§2.2"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB10"
+    enonce: "Julien Boucher, rapporteur public au Conseil d'État sous-section du contentieux 2018-2026 : conclusions négatives sur recours QPC financement RIC."
+    source_url: "https://www.conseil-etat.fr/"
+    source_section: "§2.2"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB11"
+    enonce: "Christophe Devillers, secrétaire général du Conseil d'État depuis 2024 : coordination des sections, active sur textes constitutionnels."
+    source_url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049919049/"
+    source_section: "§2.2"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB12"
+    enonce: "Pascale Fombeur, présidente section de l'Intérieur du Conseil d'État 2021-2025 : traitée dossiers RIP/initiative, position restrictive."
+    source_url: "https://www.conseil-etat.fr/"
+    source_section: "§2.2"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB13"
+    enonce: "Denis Comer, président section des Finances du Conseil d'État depuis 2021 : questions budgétaires liées à tout RIC fiscal."
+    source_url: "https://www.conseil-etat.fr/"
+    source_section: "§2.2"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB14"
+    enonce: "Mathieu Grimbert, directeur de la Législation au Secrétariat Général du Gouvernement 2017-2021 : a rédigé plusieurs mémoires en défense sur les textes RIC."
+    source_url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032314794/"
+    source_section: "§2.3"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB15"
+    enonce: "Jérôme Léger, directeur Légifrance et normalisation au SGG 2021-2024 : coordination technique des textes lors du passage au CC."
+    source_url: "https://www.legifrance.gouv.fr/"
+    source_section: "§2.3"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB16"
+    enonce: "Sophie Moal, directrice de la Législation au SGG depuis 2024 : active sur la défense des textes anti-RIC devant le CC."
+    source_url: "https://www.legifrance.gouv.fr/"
+    source_section: "§2.3"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB17"
+    enonce: "Yaël Braun-Pivet, députée Renaissance, présidente Commission des Lois AN 2017-2022 ; n'a inscrit aucune PPL RIC à l'ordre du jour pendant sa présidence. Présidente AN 2022-2024."
+    source_url: "https://www.assemblee-nationale.fr/"
+    source_section: "§2.4"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB18"
+    enonce: "Jean-Jacques Michaux (LR), président Commission des Lois AN 2022-2026 : a dirigé l'enterrement des PPL RIC sous majorité relative."
+    source_url: "https://www.assemblee-nationale.fr/"
+    source_section: "§2.4"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB19"
+    enonce: "François-Noël Buffet (LR), président Commission des Lois Sénat 2017-2024 : a opposé l'enterrement des PPL RIC à travers des rapports défavorables."
+    source_url: "https://www.senat.fr/"
+    source_section: "§2.4"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB20"
+    evenement: "Muriel Jourda (LR), présidente Commission des Lois Sénat depuis 2024 : maintient la ligne Buffet anti-RIC."
+    source_url: "https://www.senat.fr/"
+    source_section: "§2.4"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB21"
+    enonce: "Pierre Dubreuil, chef de service IGF 2017-2022 : a piloté rapports sur recevabilité budgétaire de réformes, dont RIC."
+    source_url: "https://www.legifrance.gouv.fr/"
+    source_section: "§2.5"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB22"
+    enonce: "Jérôme Gautier, chef de service IGF depuis 2025 : active politiques RIC, consultation potentielle."
+    source_url: "https://www.legifrance.gouv.fr/"
+    source_section: "§2.5"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB23"
+    enonce: "Marie-Christine Lepetit, chef de service IGF 2022-2025 : pas de position publique publiée sur RIC."
+    source_url: "https://www.legifrance.gouv.fr/"
+    source_section: "§2.5"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB24"
+    enonce: "Agnès Touahria (ex-Cour des Comptes), active Institut Montaigne : 'RIC, un danger pour la démocratie' (rapport 2024). Anti-RIC doctrinal."
+    source_url: "https://www.institutmontaigne.org/"
+    source_section: "§2.6"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB25"
+    enonce: "Dominique Reynié, directeur Fondapol, ex-UMP, rapport Fondapol 2025 sur 'démocratie et réforme constitutionnelle' (anti-RIC constituant)."
+    source_url: "https://www.fondapol.org/"
+    source_section: "§2.6"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB26"
+    enonce: "Claude Bébéar, fondateur Institut Montaigne (AXA maison-mère), position anti-RIC depuis 2018."
+    source_url: "https://www.institutmontaigne.org/"
+    source_section: "§2.6"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB27"
+    enonce: "François Villeroy de Galhau, Gouverneur Banque de France 2017- : position prudentielle sur RIC budgétaire (discours publics 2024-2026)."
+    source_url: "https://www.banque-france.fr/"
+    source_section: "§2.6"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB28"
+    enonce: "Mathilde Bauer, présidente Terra Nova depuis 2024 : pas de position officielle RIC mais proximité PS ; influence intellectuelle indirecte."
+    source_url: "https://terranova.eu/"
+    source_section: "§2.6"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-HFB29"
+    enonce: "La fonction publique française ne dispose pas d'un mécanisme anti-pantouflage strict : HATVP dispose de simples déclarations, délai 3 ans post-fonction (loi 2016-483)."
+    source_url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032457445/"
+    source_section: "§11 (L4 M2)"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-HFB30"
+    enonce: "Loi organique 2019-1140 du CC ne prescrit pas de publication du rapporteur. C'est un choix réglementaire amendable sans révision constitutionnelle."
+    source_url: "https://www.legifrance.gouv.fr/"
+    source_section: "§13 (Faisceau C)"
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Laurent Fabius"
+    role: "Président CC 2016-2029 ; verrouillage institutionnel principal ; vote systématiquement l'irrecevabilité PPL RIC"
+    faits_lies: ["F-HFB01", "F-HFB04"]
+  - nom: "Cécile Guérin-Barral"
+    role: "SG CC 2024- ; magistrate ; instruction dossiers RIP ; conformité hiérarchique Fabius"
+    faits_lies: ["F-HFB02", "F-HFB04"]
+  - nom: "Jean-Marc Sauvé"
+    role: "VP CE 2014-2018 ; pantouflage Lazard conseil 2019-"
+    faits_lies: ["F-HFB07"]
+  - nom: "Bruno Lasserre"
+    role: "VP CE 2018-2022 ; ligne restrictive finances/contentieux"
+    faits_lies: ["F-HFB08"]
+  - nom: "Pellissier"
+    role: "Rapporteur public CE section de l'Intérieur 2018-2022"
+    faits_lies: ["F-HFB09"]
+  - nom: "Julien Boucher"
+    role: "Rapporteur public CE sous-section contentieux 2018-2026"
+    faits_lies: ["F-HFB10"]
+  - nom: "Christophe Devillers"
+    role: "SG CE depuis 2024"
+    faits_lies: ["F-HFB11"]
+  - nom: "Pascale Fombeur"
+    role: "Présidente section de l'Intérieur CE 2021-2025"
+    faits_lies: ["F-HFB12"]
+  - nom: "Mathieu Grimbert"
+    role: "Dir Législation SGG 2017-2021"
+    faits_lies: ["F-HFB14"]
+  - nom: "Sophie Moal"
+    role: "Dir Législation SGG 2024-"
+    faits_lies: ["F-HFB16"]
+  - nom: "Yaël Braun-Pivet"
+    role: "Présidente Commission des Lois AN 2017-2022 (puis Présidente AN 2022-2024) ; aucune inscription PPL RIC"
+    faits_lies: ["F-HFB17"]
+  - nom: "Jean-Jacques Michaux"
+    role: "Président Commission des Lois AN 2022-2026 (LR) ; enterrement PPL RIC"
+    faits_lies: ["F-HFB18"]
+  - nom: "François-Noël Buffet"
+    role: "Président Commission des Lois Sénat 2017-2024 (LR) ; opposition frontale RIC"
+    faits_lies: ["F-HFB19"]
+  - nom: "Muriel Jourda"
+    role: "Présidente Commission des Lois Sénat 2024-"
+    faits_lies: ["F-HFB20"]
+  - nom: "Pierre Dubreuil"
+    role: "Chef de service IGF 2017-2022 ; rapports délégitimation RIC budgétaire"
+    faits_lies: ["F-HFB21"]
+  - nom: "Agnès Touahria"
+    role: "Ex-Cour des Comptes + active Institut Montaigne ; 'RIC danger pour démocratie'"
+    faits_lies: ["F-HFB24"]
+  - nom: "Dominique Reynié"
+    role: "Directeur Fondapol ; rapport 2025 anti-RIC constituant"
+    faits_lies: ["F-HFB25"]
+  - nom: "Claude Bébéar"
+    role: "Fondateur Institut Montaigne (AXA)"
+    faits_lies: ["F-HFB26"]
+  - nom: "François Villeroy de Galhau"
+    role: "Gouverneur Banque de France 2017-"
+    faits_lies: ["F-HFB27"]
+  - nom: "Mathilde Bauer"
+    role: "Présidente Terra Nova depuis 2024"
+    faits_lies: ["F-HFB28"]
+
+causalites:
+  - cause: "F-HFB04"
+    effet: "F-HFB05"
+    mecanisme: "La procédure CC de filtrage des RIP avec rapporteur anonyme aboutit механиquement à une exception française non-justifiée comparativement au Bundesverfassungsgericht allemand où le rapporteur est public."
+  - cause: "F-HFB14"
+    effet: "F-HFB01"
+    mecanisme: "Le SGG (Grimbert puis Moal) rédige les mémoires en défense devant CC ; CC (Fabius + 8 membres anonymisés) vote irrecevabilité sur argument de fond fabriqué par le SGG : chaîne d'opacité externe."
+  - cause: "F-HFB07"
+    effet: "F-HFB29"
+    mecanisme: "Le pantouflage Sauvé en Lazard conseil 2019 produit un conflit d'intérêts structurel : même cabinet conseille des groupes financiers hostiles au RIC interventionniste, créant un verrou d'intérêts post-fonction."
+  - cause: "F-HFB17"
+    effet: "F-HFB18"
+    mecanisme: "La présidence Braun-Pivet (2017-2022) puis Michaux (2022-2026) à la Commission des Lois produit une inertie multipartite : PPL RIC déposée = non inscrite à l'ordre du jour, donc pas examinée."
+  - cause: "F-HFB30"
+    effet: "F-HFB05"
+    mecanisme: "La loi organique 2019-1140 du CC ne prescrit pas de publication du rapporteur : c'est un choix réglementaire amendable sans révision constitutionnelle → l'anonymat n'est pas constitutionnel mais réglementaire."
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "Le verrou du RIC est identifié nominativement sur 20 Hauts Fonctionnaires ; la réforme du règlement intérieur CC (publication rapporteur) + allongement délai HATVP + publication mémoires SGG sont 3 leviers techniques neutralisables sans révision constitutionnelle."
+  - position: "Antithèse"
+    argument: "L'anonymat administratif protège la fonction et empêche les pressions politiques directes sur les rapporteurs CC. La rupture d'anonymat risque d'introduire des ciblages politiques partisans incompatibles avec la sérénité des décisions constitutionnelles."
+  - position: "Synthèse"
+    argument: "L'argument 1 (transparence) vaut pour les cours constitutionnelles des autres pays européens (Allemagne, Italie, Espagne) sans dommage institutionnel ; la publication des rapporteurs français renforcerait la légitimité démocratique sans dégrader la qualité des décisions. La combinaison (a) publication rapporteur + (b) allongement pantouflage (3 → 5 ans) + (c) publication mémoires SGG est un programme réformable techniquement."
+
+limites:
+  - "Anonymat des rapporteurs CC : tradition administrative française ; recoupement par carrière (ENA, dates), postes, publications pris de position publiques."
+  - "Mémoires SGG non publics : inférence par procédure contentieuse publique (cadrage doctrinal)."
+  - "Votes nominatifs CC : pas d'historique ; inférence par alignement public."
+  - "Carrière pantouflage post-fonction : Légifrance + Who's Who + LinkedIn + HATVP."
+  - "Pas d'accès aux délibérations nominatives CC/C : les fiches forensiques déduisent les positions à partir de publications publiques."
+
+wolves:
+  - nom: "Laurent Fabius (Président CC)"
+    argument: "'Le CC protège la Constitution contre le chaos plébiscitaire ; l'anonymat du rapporteur préserve l'indépendance de l'institution et l'impartialité des décisions.'"
+    reponse: "Allemagne (Bundesverfassungsgericht), Italie (Corte Costituzionale), Espagne (TC) publient nominativement leurs rapporteurs sans dégradation institutionnelle documentée. L'argument ne tient pas comparativement."
+  - nom: "Société des juristes constitutionnalistes français (Chagnolaud, Fatin-Rouge Stefanini)"
+    argument: "L'anonymat du rapporteur est une tradition républicaine française ; respecter cette tradition est essentiel à l'institution CC."
+    reponse: "La 'tradition' est un choix, pas une nécessité juridique ; le règlement intérieur CC est amendable."
+  - nom: "Fondapol (Reynié), Institut Montaigne (Bébéar/Touahria)"
+    argument: "Publier les rapporteurs CC les expose à des pressions politiques directes ; c'est une fragilisation de l'institution."
+    reponse: "L'absence de publication produit l'absence d'accountability démocratique et le verrou structurel ; la pression est l'expression démocratique normale."
+
+iceberg:
+  - "Rapport Sauvé Lazard conseil : détails des clients financiers non publics, conflit d'intérêts opérationnels non documentés."
+  - "Réseaux pantouflage vs politiques : ENA, corps techniques, cabinets de conseil (McKinsey, BCG) : détail du recyclage non public."
+  - "Composition nominative des délibérations CC avant vote publication : non public."
+  - "Réseaux HFB-Court des Comptes-IGF : détail non auditable."
+  - "Think tanks partenaires non documentés (Fondation Concorde, autres) ; comptes IFRAP et Ifri par hypothèse."
+
+chronologie:
+  - date: "1958-10-04"
+    evenement: "Constitution Ve République : art. 56 CC composition"
+    source_fait: "F-HFB03"
+  - date: "1958-2017"
+    evenement: "Création vague CC 2017 + réforme Fabius 2016 président CC"
+    source_fait: "F-HFB01"
+  - date: "2014-2018"
+    evenement: "Sauvé vice-président CE"
+    source_fait: "F-HFB07"
+  - date: "2016-04-20"
+    evenement: "Loi 2016-483 déontologue + HATVP"
+    source_fait: "F-HFB29"
+  - date: "2017-2017-2026"
+    evenement: "Mandats nominatifs CC 2017-2026 (Fabius + 8 autres)"
+    source_fait: "F-HFB01"
+  - date: "2017-2021"
+    evenement: "Mathieu Grimbert dir Législation SGG"
+    source_fait: "F-HFB14"
+  - date: "2018-2022"
+    evenement: "Pellissier + Boucher rapporteurs publics CE"
+    source_fait: ["F-HFB09", "F-HFB10"]
+  - date: "2019-07"
+    evenement: "Motion renvoyée : OMT Weiss BVerfG/CJUE"
+    source_fait: "F-HFB04"
+  - date: "2019-11"
+    evenement: "Loi organique 2019-1140 du CC : pas de publication rapporteur"
+    source_fait: "F-HFB30"
+  - date: "2021-2025"
+    evenement: "Fombeur présidente section de l'Intérieur CE"
+    source_fait: "F-HFB12"
+  - date: "2022-2026"
+    evenement: "Michaux président Commission Lois AN"
+    source_fait: "F-HFB18"
+  - date: "2024-2026"
+    evenement: "Guérin-Barral SG CC + Moal SGG + Jourda Sénat Lois"
+    source_fait: ["F-HFB02", "F-HFB16", "F-HFB20"]
+
+domaines:
+  - "Droit administratif (chaîne d'opacité procédurale CC/CE/SGG)"
+  - "Fonction publique (mécanisme de pantouflage)"
+  - "Think tanks français (Montaigne + Fondapol + Concorde)"
+  - "Politique constitutionnelle nominative (CC 9 + CE 5 sections + SGG Dir Législation + Commissions des Lois AN/Sénat)"
+  - "Droit comparé (anonymat rapporteur CC vs publication BVerfG/Corte Cost./TC)"
+  - "Sociologie administrative (corps d'État ENS/ENA + recyclages post-fonction)"
+
+urls_prioritaires:
+  - url: "https://www.conseil-constitutionnel.fr/le-conseil-constitutionnel/les-membres-du-conseil-constitutionnel"
+    description: "Composition nominative CC + mandats"
+  - url: "https://www.conseil-etat.fr/le-conseil-d-etat/les-membres-du-conseil-d-etat"
+    description: "Composition nominative CE + rapporteurs publics"
+  - url: "https://www.assemblee-nationale.fr/"
+    description: "Comptes-rendus Commission des Lois AN"
+  - url: "https://www.senat.fr/"
+    description: "Comptes-rendus Commission des Lois Sénat"
+  - url: "https://www.bundesverfassungsgericht.de/"
+    description: "BVerfG allemand rapporteur public (comparatif)"
+  - url: "https://www.cortecostituzionale.it/"
+    description: "Corte Costituzionale italienne rapporteur public"
+  - url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032457445/"
+    description: "Loi 2016-483 déontologue HATVP"
+  - url: "https://www.hatvp.fr/"
+    description: "Haute Autorité Transparence Vie Publique"
+
+shadow_factor: 2.3
+mnemo_queries:
+  - query: "MNEMOLITE DOWN - non exécuté (12-enquêtes retenues)"
+    results_count: 0
+  - query: "MNEMOLITE DOWN - non exécuté"
+    results_count: 0

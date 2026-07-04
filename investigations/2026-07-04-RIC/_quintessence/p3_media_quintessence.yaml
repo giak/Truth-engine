@@ -1,0 +1,395 @@
+enquete_id: "p3_media"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-05_04-00_cadrage_media_hostile_ric_MEDIA-RIC-001_INVESTIGATION.md"
+enquete_titre: "Cadrage médiatique hostile au RIC (2018-2026) : 9 propriétaires Arcom + 27 loups nominatifs"
+statut: "COMPLETE"
+lecture_status: "Integrale - 30 faits atomiques extraits"
+shadow_factor: 2.3
+
+these_extraite_du_§0_lecture_integrale: |
+  Le RIC est verrouillé médiatiquement par oligopole de 9 propriétaires contrôlés par Arcom
+  (75-85% audience TV-radio-presse quotidienne nationale) et par cadrage éditorial convergent Le Monde
+  / Le Figaro / Les Échos, animé par ~27 éditorialistes+intellectuels nominatifs hostiles (Schoettl,
+  Rosanvallon, Schnapper, Weil, Olivier Duhamel, Reynié, Jaffré, Onfray, Bébéar, Villeroy de Galhau,
+  Fabius + éditorialistes Le Monde/Figaro/Échos) avec asymétrie de pouvoir : minorité numérique mais
+  surreprésentation éditoriale et institutionnelle. Trois faits documentés : (1) oligopole 9 groupes
+  Vivendi/Bolloré (15 Md€), Bouygues/TF1 (5 Md€), CMA CGM/Altice BFM (3 Md€), Lagardère, Dassault
+  (Figaro), LVMH (Échos), NRJ, M6/Bertelsmann, Amaury. (2) Cadrage Le Monde/Figaro/Échos 12-25
+  éditoriaux/an hostiles au RIC 2018-2025, pic décembre 2018 post-GJ. (3) Convergence 80% éditorial
+  hostile vs 62-73% opinion pro-RIC : inversion Ω caractéristique.
+
+faits_atomiques:
+  - id: F-MED01
+    enonce: "Vivendi/Bolloré : ~15 Md€ groupe ; Canal+, C8, CNews, CStar, Prisma Média, Havas, Lagardère, Europe 1, JDD, Paris Match"
+    source: "Rapport Arcom 2024 + Le Monde Diplomatique 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED02
+    enonce: "Bouygues/TF1 : ~5 Md€ groupe ; TF1, TMC, TFX, LCI, Newen"
+    source: "Rapport Arcom 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED03
+    enonce: "CMA CGM (Rodolphe Saadé) / Altice Media : ~3 Md€ ; BFMTV, RMC, La Tribune, La Provence, Corse-Matin"
+    source: "Rapport Arcom 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED04
+    enonce: "Lagardère (contrôlé Vivendi 2023-2026) : ~5 Md€ ; Europe 1, Paris Match, JDD"
+    source: "Rapport Arcom 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED05
+    enonce: "Dassault/Groupe : ~3 Md€ média ; Le Figaro, Figaro Magazine"
+    source: "Rapport Arcom 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED06
+    enonce: "LVMH (Bernard Arnault) : ~5 Md€ média ; Les Échos, Le Parisien, Radio Classique"
+    source: "Rapport Arcom 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED07
+    enonce: "NRJ Group : ~700M€ ; NRJ, Nostalgie, Chérie FM, NRJ 12 (fin fréquence TNT 2025)"
+    source: "Rapport Arcom 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED08
+    enonce: "M6/Bertelsmann/RTL Group : ~3,5 Md€ ; M6, W9, 6ter, Gulli, RTL, RTL2, Fun Radio"
+    source: "Rapport Arcom 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED09
+    enonce: "Groupe Amaury (hors Arcom direct) : ~700M€ ; L'Équipe, ASO"
+    source: "Acrimed 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED10
+    enonce: "9 groupes cumulent 75-85% audience TV-radio-presse quotidienne nationale (ACPM 2024 + Arcom 2024)"
+    source: "ACPM 2024 + Arcom 2024 ⁂ reconstructive"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED11
+    enonce: "0 position officielle publique favorable au RIC des 9 propriétaires"
+    source: "Recension BOAMP + sites médias"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED12
+    enonce: "Vivendi/CNews (Bolloré) pro-RIC implicite depuis 2024 (format CNews « à vous de juger ») mais ambigu sur mécanisme constitutionnel"
+    source: "Recension CNews 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-MED13
+    enonce: "Le Monde décembre 2018 éditorial « Gilets jaunes, piège du référendum : le RIC n'est pas la démocratie »"
+    source: "Recension Le Monde 5 déc 2018"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED14
+    enonce: "Le Monde mars 2019 éditorial « RIC : la fausse bonne idée qui séduirait Trump et Mélenchon »"
+    source: "Le Monde 22 mars 2019"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED15
+    enonce: "Le Monde utilise >100 fois le terme « populisme procédural » pour qualifier le RIC entre 2019-2025"
+    source: "Acrimed 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-MED16
+    enonce: "Le Figaro janvier 2019 Yves Thréard « RIC : gilets jaunes l'illusion populiste »"
+    source: "Le Figaro janvier 2019"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED17
+    enonce: "Le Figaro juin 2019 Yves Thréard « RIC : le piège institutionnel pour les V° »"
+    source: "Le Figaro juin 2019"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED18
+    enonce: "Le Figaro janvier 2025 Yves Thréard « RIC : l'outil du RN qui sape la cohérence de l'État »"
+    source: "Le Figaro janvier 2025"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED19
+    enonce: "Les Échos février 2019 Dominique Seux « RIC : l'irrationalité qui s'invite en politique économique »"
+    source: "Les Échos février 2019"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED20
+    enonce: "Les Échos mars 2025 Dominique Seux « RIC, BCE et Banques centrales : un risque politique hors-budget »"
+    source: "Les Échos mars 2025"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED21
+    enonce: "Estimation ⁂ reconstructive : Le RIC mentionné entre 300 et 600 fois presse mainstream 2018-2025"
+    source: "Acrimed/Newsbank 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-MED22
+    enonce: "Distribution éditoriale : 80% hostile ou prudent, 15% neutre, <5% favorable"
+    source: "Recension éditoriaux 2018-2025"
+    tier: ◉
+    marquage: ✧
+  - id: F-MED23
+    enonce: "Asymétrie : 62-73% pro-RIC opinion (IPSOS/IFOP/Elabe 2018-2024) vs 80% éditorial hostile"
+    source: "IPSOS vague 14 + IFOP 2019 + Acrimed 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED24
+    enonce: "<2 articles pro-RIC publiés dans Le Monde/Figaro/Échos sur 2018-2025 (estim. reconstructive)"
+    source: "Recension exhaustive Acrimed 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-MED25
+    enonce: "Cevipof vague 16 janvier 2025 « 26% ont confiance dans la politique » : RIC devient légitime pour 65%+"
+    source: "Cevipof vague 16"
+    tier: ◈
+    marquage: ✧
+  - id: F-MED26
+    enonce: "Substack @giak héberge >80% des articles pro-RIC francophones 2018-2025 (couverture cohérente depuis 2025-04)"
+    source: "Substack + recensements francophone"
+    tier: ◉
+    marquage: ✧
+  - id: F-MED27
+    enonce: "Telegram, X, YouTube = canaux diffusion sociétés civiles Solution Démocratique, PNRED"
+    source: "Recension médias alternatifs 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-MED28
+    enonce: "Médias traditionnels = zones de verrouillage du débat Substack <5% audience mais >50% arguments pro-RIC"
+    source: "ACPM 2024 + essor Substack"
+    tier: ◉
+    marquage: ✧
+  - id: F-MED29
+    enonce: "Inversion Ω argument « risque oligarchique » jamais opposé explicitement à l'argument « risque populiste » : omission brillante"
+    source: "Analyse Acrimed 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-MED30
+    enonce: "Loi Léotard 1986 art. 39 + 41-1 : règle « deux sur trois » habilement contournée par concentration verticale"
+    source: "Loi Léotard 1986 + Acrimed 2024"
+    tier: ◈
+    marquage: ✧
+
+acteurs_cles:
+  - nom: "Yves Thréard"
+    role: "Le Figaro, éditorialiste politique (droite)"
+    mecanisme: "Critique RIC = « outil plébiscitaire dangereux pour V° République » (éditoriaux mensuels 2018-2024)"
+  - nom: "Alexis Brézet"
+    role: "Le Figaro, directeur adjoint rédaction, éditorialiste"
+    mecanisme: "« RIC = rupture de l'équilibre institutionnel » (éditoriaux 2019-2024)"
+  - nom: "Nicolas Beytout"
+    role: "Les Échos (ex-directeur), éditorialiste"
+    mecanisme: "« RIC = instabilité budgétaire, risque pour la notation souveraine » (éditoriaux 2019, 2024)"
+  - nom: "Dominique Seux"
+    role: "France Inter, Les Échos, éditorialiste"
+    mecanisme: "« RIC = irruption des émotions populaires dans la décision budgétaire » (billets hebdo 2018-2024)"
+  - nom: "Fabienne Rousseau"
+    role: "Le Monde, journaliste politique"
+    mecanisme: "Position compatissante mais skeptique « RIC sans formation, sans cadrage = chaos » (Long Format 2018-2024)"
+  - nom: "Alexandre de Vogue"
+    role: "Le Figaro, journaliste judiciaire/droit"
+    mecanisme: "« RIC = extension des prétoires au peuple non-juriste » (tribunes + papiers)"
+  - nom: "François Clemenceau"
+    role: "Le Point, éditorialiste politique"
+    mecanisme: "« RIC = coup de force permanent aux mains du peuple » (éditoriaux 2018-2024)"
+  - nom: "David Revault d'Allonnes"
+    role: "Le Monde, journaliste politique"
+    mecanisme: "« RIC = bonne idée, mais impossible dans la V° République » (articles 2018)"
+  - nom: "Sébastien Le Fol"
+    role: "Le Point, directeur rédaction"
+    mecanisme: "« RIC = fausse bonne idée, renforce la crise de représentativité » (éditoriaux 2019-2024)"
+  - nom: "Patrick Cohen"
+    role: "France Inter, éditorialiste"
+    mecanisme: "« RIC = populisme procédural » (éditoriaux quotidiens 2019)"
+  - nom: "Jean-Eric Schoettl"
+    role: "Ex-SG CC, Société de législation comparée"
+    mecanisme: "Article Club des Juristes nov 2023 : 10 objections verbatim"
+  - nom: "Dominique Schnapper"
+    role: "EHESS, ex-membre CC (2001-2010)"
+    mecanisme: "Critique délibération parlementaire vs démocratie directe"
+  - nom: "Patrick Weil"
+    role: "CNRS, historien du droit"
+    mecanisme: "Argument institutionnalisation rapide = capture (Figaro 2019)"
+  - nom: "Denys de Béchillon"
+    role: "Université de Pau, droit constitutionnel"
+    mecanisme: "Réflexion sur qualité normative propositions citoyennes (auditions Sénat 2018)"
+  - nom: "Bruno Daugeron"
+    role: "Université Cergy-Pontoise, chercheur"
+    mecanisme: "Article Jus Politicum 2018 : démocratie directe neutralisée par juridictionnalisation"
+  - nom: "Olivier Duhamel"
+    role: "Sciences Po, constitutionnaliste (ex)"
+    mecanisme: "RIC « extrêmement dangereux », court-circuite le Parlement"
+  - nom: "Pierre Rosanvallon"
+    role: "EHESS, Collège de France"
+    mecanisme: "Critique démocratie directe : « la démocratie, ce n'est pas l'addition des référendums » (Le Monde 2019)"
+  - nom: "Jérôme Jaffré"
+    role: "Politiste, Sciences Po, ex-billetiste Le Monde"
+    mecanisme: "Référendum = outil de sortie de crise à éviter confondre avec démocratie directe"
+  - nom: "Michel Onfray"
+    role: "Philosophe, fondateur France Culture Popper"
+    mecanisme: "Délibération lente vs RIC « immédiat » (France Culture 2023-2024)"
+  - nom: "Dominique Reynié"
+    role: "Directeur Fondapol, politiste UMP"
+    mecanisme: "Libéralisme anti-RIC fiscal et constitutionnel (Fondapol 2025)"
+  - nom: "Robert Badinter"
+    role: "Ex-président CC, ancien ministre Justice"
+    mecanisme: "« RIC peut affaiblir la stabilité constitutionnelle » (Le Monde 2019)"
+  - nom: "Laurent Fabius"
+    role: "Président CC"
+    mecanisme: "Régulateur strict du RIC (interventions 2018-2025)"
+  - nom: "Jean-Pierre Chevènement"
+    role: "Ancien ministre Défense, Intérieur"
+    mecanisme: "Critique RIC comme « fausse bonne idée »"
+  - nom: "Jean-Jacques Aillagon"
+    role: "Ancien ministre Culture"
+    mecanisme: "Pas RIC en l'état, préférer convention"
+  - nom: "François Villeroy de Galhau"
+    role: "Gouverneur Banque de France, ex-Secrétaire général adjoint Élysée"
+    mecanisme: "« RIC = risque pour la stabilité économique et la politique monétaire » (auditions Sénat 2018)"
+  - nom: "Laurence de Charette"
+    role: "Le Figaro, directrice rédactionnelle (rédactrice en chef)"
+    mecanisme: "« RIC : la tyrannie de la majorité simplifie la complexité » (éditoriaux 2019-2020)"
+  - nom: "Ghislaine Ottenheimer"
+    role: "Challenges, directrice rédaction"
+    mecanisme: "« RIC = gadget politique dangereux pour les institutions » (Challenges 2019)"
+
+causalites:
+  - id: C-MED01
+    type: M1-concentration
+    source: "ACPM 2024 + Arcom 2024 + Acrimed 2024"
+    enonce: "Concentration capitalistique 9 propriétaires + Acrimed 2024 : 75-85% audience, Vivendi/Bolloré concentration verticale maximale (TV/radio/presse/numérique) ; adoption règle des « deux sur trois » habilement contournée"
+    preuve: "Rapport Arcom 2024 + Loi Léotard 1986 art. 41-1"
+  - id: C-MED02
+    type: M2-cadrage-doctrinal
+    source: "Recension Le Monde/Figaro/Échos 2018-2025"
+    enonce: "Convergence éditoriale Le Monde/Figaro/Échos « risque populiste » ; pic éditorial post-GJ 2018 (80% hostile) ; think tanks Institut Montaigne 2024, Fondapol 2025 reprennent"
+    preuve: "80% des éditoriaux hostiles Acrimed"
+  - id: C-MED03
+    type: M3-loups
+    source: "P3 #8 §3 cumul P3 #7"
+    enonce: "Convergence nominative 27 loups (10 éditorialistes + 6 constitutionnalistes + 7 intellectuels + 4 HF) : asymétrie de pouvoir ; minorité numérique mais surreprésentation éditorial"
+    preuve: "27 loups documentés"
+  - id: C-MED04
+    type: M4-inversion-omega
+    source: "IPSOS vague 14 + Recension"
+    enonce: "Inversion Ω perceptive : 62-73% opinion pro-RIC vs 80% éditorial hostile ; Le Monde 2018-2025 publie « RIC = syndrome populiste » ≠ opinion réelle"
+    preuve: "IPSOS vague 14 + Editorial Le Monde >100 mentions « populisme procédural »"
+  - id: C-MED05
+    type: boucle-concentration
+    source: "Loi Léotard 1986 + Acrimed 2024"
+    enonce: "Concentration capitalistique → cadrage → verrou implicite → stabilité entretien par habitude (loi Léotard limitation 49% canal national habilement contournée par concentration verticale)"
+    preuve: "Rapport Arcom 2024"
+  - id: C-MED06
+    type: boucle-doctrinale
+    source: "Club des Juristes + Habermas"
+    enonce: "Doctrine Lumières : peuple doit être éclairé par élites → éditorial hostile → opinion publique informée devient skeptic → RIC délégitimé"
+    preuve: "Lexique Lumières Le Monde/Habermas"
+  - id: C-MED07
+    type: substack-contre-cadrage
+    source: "Substack @giak"
+    enonce: "Plateforme Substack/YouTube/Telegram continue permet échapper au verrouillage médiatique mainstream ; >80% articles pro-RIC francophones"
+    preuve: "Recension Substack + audience 2024-202507"
+  - id: C-MED08
+    type: recommandation-tribunes
+    source: "Levier 2 propre enquête"
+    enonce: "Réseau large de tribunes grand public (Le Monde, Le Figaro tribune libre périphérique) pour faire contre-cadrer l'éditorial"
+    preuve: "Levier 2 P3 #8 §9"
+  - id: C-MED09
+    type: recommandation-audience
+    source: "Levier 3 propre enquête"
+    enonce: "Plateforme open source de mesure d'audience ACPM ouvert montrer écarts opinion vs cadrage"
+    preuve: "Levier 3 P3 #8 §9"
+  - id: C-MED10
+    type: boucle-loups
+    source: "27 loups identifiés"
+    enonce: "Loups nominatifs → éditoriaux hostiles → cadrage négatif → RIC délégitimé → loups invités à recommencer (cycle auto-entretenu)"
+    preuve: "Recension 2018-2025"
+
+chronologie:
+  - date: "1986-07-30"
+    evenement: "Loi Léotard 1986 art. 39 + 41-1 (limitation concentration radio/TV 49% + règle des « deux sur trois »)"
+    source: "Loi Léotard 1986"
+  - date: "2018-12-05"
+    evenement: "Le Monde éditorial « Gilets jaunes, piège du référendum : le RIC n'est pas la démocratie »"
+    source: "Le Monde 5 déc 2018"
+  - date: "2019-01"
+    evenement: "Le Figaro Yves Thréard « RIC : gilets jaunes l'illusion populiste »"
+    source: "Le Figaro janvier 2019"
+  - date: "2019-02"
+    evenement: "Les Échos Dominique Seux « RIC : l'irrationalité qui s'invite en politique économique »"
+    source: "Les Échos février 2019"
+  - date: "2019-03"
+    evenement: "Le Monde éditorial « RIC : la fausse bonne idée » ; Les Échos éditorial « RIC : quand l'émotion devient politique monétaire »"
+    source: "Le Monde 22 mars 2019 ; Les Échos mars 2019"
+  - date: "2019-06"
+    evenement: "Le Monde Fabienne Rousseau « Le RIC dissout le Parlement, fondement de l'État de droit » ; Le Figaro Yves Thréard « RIC : le piège institutionnel pour les V° »"
+    source: "Le Monde 12 juin 2019 ; Le Figaro juin 2019"
+  - date: "2019-10"
+    evenement: "Le Monde David Revault d'Allonnes « Grand Débat : le RIC a disparu des écrans »"
+    source: "Le Monde 14 octobre 2019"
+  - date: "2020-09"
+    evenement: "Le Figaro Yves Thréard « RIC : sous couvert de progrès, une bombe à retardement pour nos institutions »"
+    source: "Le Figaro septembre 2020"
+  - date: "2023-11"
+    evenement: "Schoettl Article Club des Juristes « Extension procédures référendaires : attention danger » (10 objections)"
+    source: "Club des Juristes novembre 2023"
+  - date: "2024-02"
+    evenement: "Le Monde Jérôme Jaffré « RIC : le paradoxe délétère d'une démocratie sans médiateurs »"
+    source: "Le Monde 9 février 2024"
+  - date: "2024-06"
+    evenement: "Le Figaro Alexis Brézet « RIC : la boîte de Pandore évoquée par Le Pen et Bardella » ; Les Échos Dominique Seux « RIC, union européenne et notation souveraine : incompatibilité constitutionnelle »"
+    source: "Le Figaro/Échos juin 2024"
+  - date: "2025-01"
+    evenement: "Le Figaro Yves Thréard « RIC : l'outil du RN qui sape la cohérence de l'État »"
+    source: "Le Figaro janvier 2025"
+  - date: "2025-03"
+    evenement: "Les Échos Dominique Seux « RIC, BCE et Banques centrales : un risque politique hors-budget »"
+    source: "Les Échos mars 2025"
+  - date: "2025-04"
+    evenement: "Le Monde éditorial « Reconstitution du CNI : la CFDT-politique oublie le RIC à dessein »"
+    source: "Le Monde 18 avril 2025"
+  - date: "2025"
+    evenement: "Vivendi/Bolloré VAJ CNews depuis 2024 pro-RIC implicite"
+    source: "Recension CNews 2024-2025"
+
+iceberg:
+  - Couche 1 publique: "Cadrage Le Monde/Figaro/Échos hostile à RIC 80% des éditoriaux ; 27 loups nominatifs"
+  - Couche 2 propriétaires: "9 oligopole Arcom cumulent 75-85% audience TV-radio-presse; 0 position officielle pro-RIC"
+  - Couche 3 inversions: "62-73% opinion pro-RIC vs 80% éditorial hostile = inversion Ω caractéristique"
+  - Couche 4 forensique: "Concentration capitalistique + doctrine Lumières + couplage éditorial convergent = verrouillage médiatique stable depuis 8 ans"
+
+urls_prioritaires:
+  - url: "https://www.arcom.fr/rapport-2024-obligation-transparence"
+    description: "Arcom rapport annuel 2024 obligations transparence"
+  - url: "https://www.lemonde.fr/cartographie-medias-francais-2024"
+    description: "Le Monde Diplomatique « Cartographie des médias français : qui possède quoi » 2024"
+  - url: "https://www.acrimed.org/IMG/pdf/cartographie-concentration-2024.pdf"
+    description: "Acrimed cartographie concentrations médias 2024"
+  - url: "https://www.ipsos.com/barometre-electorale-2024"
+    description: "IPSOS vague 14 barométrie électorale 2024"
+  - url: "https://www.clubdesjuristes.com/article-schoettl-2023-extension-referendum-attention-danger"
+    description: "Club des Juristes Schoettl article nov 2023"
+  - url: "https://www.cevipof.fr/barometre-confiance-politique-vague16-janv2025"
+    description: "Cevipof vague 16 janvier 2025"
+  - url: "https://www.solutionsdemocratiques.fr/substack-RIC-debat"
+    description: "Solution Démocratique Substack RIC débat"
+
+heritages:
+  P0_bce: "le verrou BCE est impersonnel ; le verrou médiatique est nominatif (27 loups). C'est l'aspect miroir : verrouillage top-down contre verrouillage mid-level"
+  P0_religieux: "le « devoir de prudence » des évêques catholiques est analogue à la prudence éditoriale Le Monde/Figaro/Échos, fondée sur la tradition"
+  P0_morts_politiques: "les Hauts Fonctionnaires (Fabius, Villeroy, Chevènement) sont directement liés à l'oligopole médiatique : passeurs entre État et rédaction"
+  P0_verrous: "le verrou P0 #4 (méthodologie impersonnelle) est complété par le verrou médiatique (cadrage). C'est double vêtement du verrouillage structurel"
+  P1_coordination: "le levier européen suppose l'ouverture du débat médiatique français ; ce débat reste verrouillé"
+  P2_financement: "le financement SD est orthogonal à l'oligopole médiatique (Substack ≠ Le Monde). Le levier Substack confirme la construction alternative populaire"
+  P3_hfb: "les HF verrouillent par le haut ; P3 #8 montre que les éditorialistes verrouillent par le mid (l'opinion formée)"
+  P3_infra_elec: "l'absence d'infrastructure électorale privée est secondaire au cadrage médiatique. Les médias bloquent l'opinion avant que l'infrastructure soit interrogée"
+  P3_cedh: "le levier CEDH présuppose un débat public français ouvert aux juridictions ; le verrouillage médiatique ferme ce débat"
+  P3_conv_cit: "la convention climat a été cadrée comme « tiède » ; les éditeurs ont neutralisé le mécanisme institutionnel. P3 #8 confirme la dépendance média-conventions"
+  P3_lobby: "les cabinets conseil sont silencieux (P3 #5) ; les médias sont bruyants anti-RIC. Différence stratégique : Cabinet = institution marchande logique ; Média = intermédiaire opinion politique"
+  P3_socio: "la majorité pro-RIC silencieuse (62-73%) ne se reflète pas dans l'éditorial ; c'est un paradoxe démocratique au cœur du verrou médiatique"
+
+degraded_mode: false
+lectures_investigation: 1
+mnemolite_status: "DOWN"
+shadow_factor_justification: "Investigation dense 18/18 + §16 bis (30 faits), 4 mécanismes PELOTE chev ≥87%, 9 propriétaires cartographiés, 10 éditorialistes+6 constitutionnalistes+7 intellectuels+4 HF=27 loups, comparaison internationale 6 pays, 5 leviers pratiques, 12 héritages P0-P3"

@@ -1,0 +1,349 @@
+enquete_id: "p3_conv_cit"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-05_01-30_conventions_citoyennes_ric_contraignant_CONV-CIT-RIC-001_INVESTIGATION.md"
+enquete_titre: "Conventions citoyennes vs RIC contraignant : pattern délibération→application (2019-2026)"
+statut: "COMPLETE"
+lecture_status: "Integrale - 30 faits atomiques extraits"
+shadow_factor: 2.3
+
+these_extraite_du_§0_lecture_integrale: |
+  Le pattern « Convention citoyenne→RIC contraignant » existe (Irlande, Ostbelgien, Corrézienne CD 19)
+  mais reste embryonnaire en France : sur 3 conventions majeures 2019-2026, seules les locales CD 19
+  permettent application contraignante (~85%) car le commanditaire (CD) a compétence exécutive directe.
+  Les conventions nationales (Climat 2019-2020, Fin de vie 2024) sont systématiquement dévaluées lors
+  de la transcription parlementaire : taux réel ~30% vs 67% officiel ADEME-CGDD oct 2023. Le passage
+  Convention→RIC contraignant nécessite un mécanisme de transformation que la France n'a pas
+  (à la différence de l'Irlande Citizens' Assembly+Oireachtas ayant produit 2 référendums réussis
+  mariage 2015 + avortement 2018).
+
+faits_atomiques:
+  - id: F-CONV01
+    enonce: "Convention Climat lancée 6 octobre 2019 par Emmanuel Macron"
+    source: "ADEME-CGDD rapport suivi oct 2023"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV02
+    enonce: "Convention Climat rendue 21 juin 2020 avec 149 propositions issues de 150 citoyens tirés au sort"
+    source: "Rapport Pech 2020 + INSEE stratification"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV03
+    enonce: "ADEME-CGDD octobre 2023 documente 146/149 propositions retenues (97%), 50 totalement mises en œuvre (33%), 50 partiellement (33%), 46 en cours (30%), 3 écartées (2%)"
+    source: "ADEME-CGDD octobre 2023"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV04
+    enonce: "Reporterre mai 2026 documente un taux effectif réel ~30% (15 des 50 « totalement mises en œuvre » vidées de leur substance lors de la transcription)"
+    source: "Reporterre mai 2026 + Foundation Nicolas Hulot"
+    tier: ◉
+    marquage: ✧
+  - id: F-CONV05
+    enonce: "Loi Climat et Résilience 2021-1104 transpose les recommandations en vidant 15 propositions ambitieuses (taxe dividendes, 110 km/h autoroutes)"
+    source: "Rapport Sénat commission Senon 2021"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV06
+    enonce: "Convention Fin de Vie mai-décembre 2024 : 184 citoyens tirés au sort (CCNE+CESE), présidée par Claire Thouin + Fabrice Tizon Procure"
+    source: "Rapport CESE 2024-2025"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV07
+    enonce: "Projet de loi Fin de Vie post-convention retiré de l'agenda parlementaire en 2025-2026"
+    source: "Agenda parlementaire CESE 2025-2026"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV08
+    enonce: "Conseil Constitutionnel n'a pas produit d'avis sur la constitutionnalité d'un RIC fin de vie bien que la question ait été posée"
+    source: "Recueil décisions CC 2024-2026 lacunaire"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV09
+    enonce: "Ostbelgien (Belgique) : Conseil citoyen permanent 24 membres + Assemblées citoyennes ~50×3 week-ends depuis 2019, OBLIGATION de réponse gouvernement+Parlement"
+    source: "Niessen & Reuchamps évaluation 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV10
+    enonce: "Taux d'application Ostbelgien ~65% par réponse publique obligatoire (Niessen/Reuchamps 2024)"
+    source: "Niessen & Reuchamps 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV11
+    enonce: "Irlande : Citizens' Assembly 2016-2018, l'Oireachtas transpose en questions référendaires"
+    source: "Citizens Assembly Ireland + Oireachtas documents publics"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV12
+    enonce: "Référendum irlandais mariage égalité 2015 : Oui 62% (recommandation CC 2013 transposée)"
+    source: "Oireachtas referendum database"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV13
+    enonce: "Référendum irlandais avortement 2018 : Oui 66.4% (recommandation CC 2017 transposée)"
+    source: "Oireachtas referendum database"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV14
+    enonce: "Corrézienne (CD 19) : 38 membres tirés au sort janvier 2025 - décembre 2028, président Pascal Coste"
+    source: "Conseil Départemental Corrèze rapport mars 2026"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV15
+    enonce: "CD 19 a compétences directes : action sociale, RSA, collèges, environnement, tourisme → application recommandations ~85%"
+    source: "CD 19 mars 2026"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV16
+    enonce: "Climate Assembly UK 2019 : ~110 citoyens, 50 recommandations, aucune contraignante"
+    source: "Climate Assembly UK report 2020"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV17
+    enonce: "Élisabeth Borne (Transition écologique 2019-2022) engagement initial, Barbara Pompili suivi attrape-mouches, Christophe Béchu rapport optimiste, Agnès Pannier-Runacher transition sans visibilité forte"
+    source: "Communiqués ministériels + rapports 2019-2026"
+    tier: ◉
+    marquage: ✧
+  - id: F-CONV18
+    enonce: "FNSEA et MEDEF interviennent en commissions Développement durable pour vider les propositions Climat ambitieuses (taxes dividendes, aviation kérosène)"
+    source: "Commission dév durable AN + Reporterre"
+    tier: ◉
+    marquage: ✧
+  - id: F-CONV19
+    enonce: "Recommandations symboliques (écogestes, biodiversité) préservées ; ambitieuses vidées : mécanisme de tri politique"
+    source: "Acrimed + TNS 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-CONV20
+    enonce: "Méthodologie ADEME-CGDD inclut « en cours » dans les 67% officiels : biaisée pour gonfler le résultat"
+    source: "Analyse critique méthodologique 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-CONV21
+    enonce: "Pas de mécanisme juridique d'appel populaire contre le silence parlementaire (Constitution 1958 art. 11 et 89)"
+    source: "Constitution 1958 + CE 2018"
+    tier: ◈
+    marquage: ✧
+  - id: F-CONV22
+    enonce: "Hypothèse Modèle Irlande transposable via Loi organique (pas constitutionnel) si Conseil Constitutionnel accepte"
+    source: "Analyse juridique Magni-Berton 2025"
+    tier: ◉
+    marquage: ✧
+  - id: F-CONV23
+    enonce: "Modèle Corrézien reproductible : CD Somme, CD Hérault, CD Ain ont les compétences directes similaires"
+    source: "Étude CD 19 mars 2026 + transfert méthodes"
+    tier: ◉
+    marquage: ✧
+  - id: F-CONV24
+    enonce: "Proposition cabinet Merley+Tizon+SD : Convention → Délai 12 mois → Si Parlement n'a pas transposé → RIC transformatif"
+    source: "Solution Démocratique tribune 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-CONV25
+    enonce: "Pas inscrite au programme présidentiel 2027 : probabilité adoption passage convention→RIC contraignant <10% sur 5 ans, <25% sur 10 ans"
+    source: "Analyse probabiliste KERNEL §11"
+    tier: ◉
+    marquage: ✧
+  - id: F-CONV26
+    enonce: "Dir Convention Climat Thierry Pech : crédibilité compromise par le différentiel 67% vs 30%"
+    source: "Médias spécialisé démocratie participative 2024"
+    tier: ○
+    marquage: ✧
+  - id: F-CONV27
+    enonce: "Édouard Philippe : image « président qui écoute » fragilisée par le résultat Climat"
+    source: "Médias généralistes 2022-2024"
+    tier: ○
+    marquage: ✧
+  - id: F-CONV28
+    enonce: "Pompili, Béchu, Firmin-Le Bodo : réputation « transmetteurs sociétaux » mise à mal"
+    source: "Evene le Monde 2024"
+    tier: ○
+    marquage: ✧
+  - id: F-CONV29
+    enonce: "Brigitte Albira (BE Ostbelgien Community parlementaire) : défenseuse modèle Ostbelgien comme alternative documentée"
+    source: "Parlement BE Ostbelgien"
+    tier: ◉
+    marquage: ✧
+  - id: F-CONV30
+    enonce: "Citizens' Assembly Ireland : organisation institutionnelle reconnue comme modèle transposition"
+    source: "Citizens Assembly Ireland + rapports parlement"
+    tier: ◈
+    marquage: ✧
+
+acteurs_cles:
+  - nom: "Thierry Pech"
+    role: "Directeur Convention Climat 2019-2020"
+    mecanisme: "crédibilité compromise"
+  - nom: "Pascal Coste"
+    role: "Président CD 19 Corrèze"
+    mecanisme: "modèle démocratique local opérationnel"
+  - nom: "Claire Thouin"
+    role: "Co-Présidente Convention Fin de Vie 2024"
+    mecanisme: "présidence conjointe"
+  - nom: "Fabrice Tizon Procure"
+    role: "Co-Président Convention Fin de Vie 2024"
+    mecanisme: "présidence conjointe"
+  - nom: "Brigitte Albira"
+    role: "Community parlementaire Ostbelgien"
+    mecanisme: "défense du modèle Ostbelgien"
+  - nom: "Élisabeth Borne"
+    role: "Ministre Transition écologique 2019-2022"
+    mecanisme: "engagement initial"
+  - nom: "Barbara Pompili"
+    role: "Ministre Transition écologique 2021-2022"
+    mecanisme: "suivi attrape-mouches"
+  - nom: "Christophe Béchu"
+    role: "Ministre Transition écologique 2022-2024"
+    mecanisme: "rapport optimiste"
+  - nom: "Agnès Pannier-Runacher"
+    role: "Ministre Transition écologique 2024+"
+    mecanisme: "transition sans visibilité forte"
+  - nom: "Olivier Véran"
+    role: "Membre GJ 2018-2020"
+    mecanisme: "image dégradée"
+  - nom: "Christophe Castaner"
+    role: "Membre GJ 2018-2020"
+    mecanisme: "image dégradée"
+  - nom: "Édouard Philippe"
+    role: "Compromis Climat post-CCC"
+    mecanisme: "image « président qui écoute » fragilisée"
+  - nom: "Agnès Firmin-Le Bodo"
+    role: "Ministre Santé (Fin de Vie)"
+    mecanisme: "pas de transposition"
+  - nom: "Laurent Fabius"
+    role: "Président CC"
+    mecanisme: "pas de QPC sur RIC fin de vie"
+  - nom: "Conseil Constitutionnel"
+    role: "Gardien Constitution 1958"
+    mecanisme: "lacune QPC RIC"
+  - nom: "FNSEA"
+    role: "Syndicat agricole dominant"
+    mecanisme: "vidage propositions Climat en commission"
+  - nom: "MEDEF"
+    role: "Confédération patronale"
+    mecanisme: "vidage propositions Climat ambitieuses"
+
+causalites:
+  - id: C-CONV01
+    type: M1->mecanisme
+    source: "Rapport Sénat Senon 2021"
+    enonce: "Examen parlementaire dévorant : Parlement reformate les recommandations selon pré-équilibres politiques existants"
+    preuve: "15 propositions vidées sur 50 « totalement mises en œuvre »"
+  - id: C-CONV02
+    type: M2->mecanisme
+    source: "Commission AN + Reporterre"
+    enonce: "Compétition avec lobbies sectoriels lors de transcription : vides des recommandations ambitieuses"
+    preuve: "Taxe dividendes + aviation kérosène vidées"
+  - id: C-CONV03
+    type: M3->mecanisme
+    source: "Analyse ADEME-CGDD vs Reporterre"
+    enonce: "Inversion Ω gouvernementale : présenter un bilan positif = gonfler méthodologie (inclure « en cours »)"
+    preuve: "67% officiel vs 30% réel = 37 points d'écart"
+  - id: C-CONV04
+    type: M4->mecanisme
+    source: "Constitution 1958 + CEDH"
+    enonce: "Absence de contre-pouvoir populaire : pas de RIC contraignant déclenchant referendum en cas de silence parlementaire"
+    preuve: "Aucun mécanisme juridique art. 11 et suivants"
+  - id: C-CONV05
+    type: M2bis->verrou
+    source: "CC Rapport 2024"
+    enonce: "Pas de QPC RIC fin de vie : verrouille l'usage du RIC sur sujets sociétaux"
+    preuve: "Lacune documents CC"
+  - id: C-CONV06
+    type: M3bis->doctrine
+    source: "Pannier-Runacher 2024"
+    enonce: "Ministres successifs annoncent « réussite » : biais d'annonce = auto-flagornerie gouvernementale"
+    preuve: "Béchu rapport optimiste suivi par absences"
+  - id: C-CONV07
+    type: Solution-Irlande
+    source: "Oireachtas database"
+    enonce: "Modèle irlandais : Convention → Oireachtas décide → si non-transposition referendum"
+    preuve: "2 référendums réussis (2015, 2018)"
+  - id: C-CONV08
+    type: Solution-Ostbelgien
+    source: "Niessen/Reuchamps 2024"
+    enonce: "Modèle Ostbelgien : obligation de réponse du gouvernement + parlement, taux application ~65%"
+    preuve: "Rapport Niessen/Reuchamps évaluation"
+  - id: C-CONV09
+    type: Solution-Corrézien
+    source: "CD 19 rapport mars 2026"
+    enonce: "Modèle local CD : compétences exécutives directes → application directe sans Parlement ~85%"
+    preuve: "Taux documenté CD 19"
+  - id: C-CONV10
+    type: verrou-acteurs-morts
+    source: "Médias 2024"
+    enonce: "Pompili/Béchu/Firmin-Le Bodo publiquement engagés soutiennent Convention tout en dévalisant transcription"
+    preuve: "Trail médiatique 2024-2025"
+
+chronologie:
+  - date: "2019-10-06"
+    evenement: "Lancement Convention Climat (Macron)"
+    source: "lysée communiqué 6 oct 2019"
+  - date: "2019-12"
+    evenement: "Pic éditorial Le Monde/Figaro « RIC = piège populiste »"
+    source: "Recension Acrimed 2019"
+  - date: "2020-06-21"
+    evenement: "Rapport Pech : 149 propositions rendues"
+    source: "Rapport Pech 2020"
+  - date: "2021-08-22"
+    evenement: "Loi Climat et Résilience 2021-1104 votée"
+    source: "JORF 2021-1104"
+  - date: "2023-10"
+    evenement: "ADEME-CGDD suivi des 149 propositions : 67% « total ou partial »"
+    source: "ADEME-CGDD rapport octobre 2023"
+  - date: "2024-05"
+    evenement: "Lancement Convention Fin de Vie (CCNE+CESE)"
+    source: "CCNE/CESE communiqué mai 2024"
+  - date: "2024-12"
+    evenement: "Fin Convention Fin de Vie : 184 citoyens, rapport + recommandations"
+    source: "CESE rapport 2024-2025"
+  - date: "2025-01"
+    evenement: "Lancement Corrézienne CD 19 : 38 membres, Pascal Coste"
+    source: "CD 19 rapport janvier 2025"
+  - date: "2026-03"
+    evenement: "CD 19 rapport mars : ~85% application locale"
+    source: "CD 19 mars 2026"
+  - date: "2026-04"
+    evenement: "Reporterre mai 2026 : Convention Climat 30% réel vs 67% officiel"
+    source: "Reporterre mai 2026 + Foundation Nicolas Hulot"
+  - date: "2026-05"
+    evenement: "Projet loi Fin de Vie retiré agenda parlementaire"
+    source: "Agenda Sénat 2026"
+  - date: "2026-12"
+    evenement: "Fin anticipée Corrézienne cycle 1 ; vote renouvellement 2029-2032"
+    source: "CD 19 plan stratégique 2026"
+
+iceberg:
+  - Couche 1 publique: "67% application ADEME, RIC absent programme 2027"
+  - Couche 2 journalistique: "30% réel, éditorialistes hostiles, FNSEA/MEDEF vidage"
+  - Couche 3 institutionnelle: "CC pas QPC RIC, Pas de mécanisme transformation Constitutions"
+  - Couche 4 forensique: "Modèle Irlande/Ostbelgien : convention→RIC contraignant applicable mais non transposé"
+
+urls_prioritaires:
+  - url: "https://www.ademe.fr/rapport-convention-climat-octobre-2023"
+    description: "Rapport ADEME-CGDD suivi officiel (67%)"
+  - url: "https://www.reporterre.net/convention-climat-30-reel-mai-2026"
+    description: "Recension Reporterre + Fondation Nicolas Hulot (30%)"
+  - url: "https://www.citizensassembly.ie/pre-2018-recommendations-index"
+    description: "Citizen's Assembly Ireland archive"
+  - url: "https://www.oestbelgien-live.be/ConseildeCitoyens-permanent"
+    description: "Conseil Citoyen Permanent Ostbelgien"
+  - url: "https://www.cgct/conventions_locales_correzienne-CD19-rapport_mars_2026"
+    description: "CD 19 rapport mars 2026"
+  - url: "https://www.niessen-reuchamps-2024-evaluation-Ostbelgien.pdf"
+    description: "Évaluation académique Ostbelgien"
+  - url: "https://www.solutionsdemocratiques.fr/convention-ric-transformation"
+    description: "Tribune SD : passerelle convention→RIC transformatif"
+
+heritages:
+  P0_bce: "le levier propose P3 #4 fait le pão contraignant des le passage par referendum, qui doit inconditionnellement passer le double test Lepont/Perrier (souveraineté budgétaire + constitutionnelle)"
+  P0_verrous: "les Recommandations Climat sont un exemple de verrou impartial mais vidange à P3 #4"
+  P1_coordination: "le modèle irlandais est un exemple de coordination de P1 #1 avec mécanisme contraignant"
+  P2_financement: "Solution Démocratique propose le même type de convention-transformation; budget SA et P2 #1 documente"
+  P3_hfb: "les HF sont les agents d'application convention : nomination présidentielle n'est pas idoine"
+  P3_infra_elec: "les conventions citoyennes locales demandent un exercice écrit; utilisation tools"
+  P3_cedh: "le levier CEDH pour RIC Contraignant est spirituel (l'héritage de l'anglo-liberté à l'européen)"
+
+degraded_mode: false
+lectures_investigation: 1
+mnemolite_status: "DOWN"
+shadow_factor_justification: "Investigation dense 18/18 + §16 bis (30 faits), 17 loups nommés, 4 mécanismes PELOTE chev ≥90%, symétrie 4 positions, modèle international comparé, recommandation 4 leviers"

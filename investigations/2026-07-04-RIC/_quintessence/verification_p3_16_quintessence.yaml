@@ -1,0 +1,191 @@
+enquete_id: "verification_p3_16"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-05_13-00_verification_independante_p3_16_VERIFICATION-2026-07_INVESTIGATION.md"
+degraded_mode: true
+mnemolite_status: "DOWN - non-interrogé, mode dégradé cross-séries"
+
+these_centrale: "La tierce vérification indépendante des 38 nouveaux F-PNR33-F-PNR70 introduits dans P3 #16 LOIS-CIVICTECH-2027 aboutit à 11 ✅ confirmés (29 %), 11 ⚠️ partiels (29 %), 9 ❌ réfutés (24 %), 3 ❓ indéterminés (8 %), 5 ⁂ prospectifs (13 %) - 1 doublon = 38 uniques ; couverture P3 #16 régressée de 96 % à 72 % effective post-application 26 corrections C1-C12 ; conformité KERNEL §11 révisée à 88 %."
+
+theses_implicites:
+  - "Un dossier auto-déclaré à 96 % de couverture sans tierce vérification contient 24 % d'erreurs factuelles non détectées sur 38 F-PNR (F-PNR35 + 43 + 45 + 52 + 53 + 54 + 58 + 61 + 63)."
+  - "Les fictions Loyola sondage 2026 (Loyola = Facultés jésuites, pas institut sondage) et CC 2024-866 DC = Loi SREN numérique (≠ PPL Bardella RIC) illustrent l'inertie du pipeline LLM qui s'auto-cite sans re-vérification."
+  - "La posture forensique non-masquée (88 % KERNEL §11 vs 96 % P3 #16 antérieur) est ce qui distingue ce dossier d'une flagornerie narrative ; l'auto-réduction de score produit la crédibilité méthodologique réelle."
+
+faits_atomiques:
+  - id: "F-PNR-CAS-1"
+    enonce: "F-PNR35 Cass. 5 février 2025 = fiction ; aucune jurisprudence datée 5 février 2025 ne confirme Cass. sur art. 222-14-2. Jurisprudence constante Cour de cassation sur l'élément moral (intention + présence équipée) sans date précise 2025."
+    source_url: "https://www.courdecassation.fr/recherche-jurisprudence"
+    source_section: "P3 #18 §6"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR-CAS-2"
+    enonce: "F-PNR43 Italie hit 25/30 = 83 % référendums aboutis = inverse de la réalité. Loi n° 352 du 22 novembre 1970 ; quorum 50 % + 1 difficile + abstention politique stratégique produit un taux de succès historique < 50 % sur les référendums abrogatifs italiens."
+    source_url: "https://www.interno.gov.it/it"
+    source_section: "P3 #18 §6"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR-CAS-3"
+    enonce: "F-PNR45 Loi CivicTech Taïwan 2016 + Section 108 NIS = double fiction. Pas de loi formellement « Government Technology Innovation and Civic Participation Act » 2016 ; Cybersecurity Management Act 2018 (資通安全管理法) sans « Section 108 » identifiable. Cadre Civic Tech taïwanais = héritage g0v 2012- + JOIN.open + Audrey Tang 2016-2024."
+    source_url: "https://join.gov.tw/"
+    source_section: "P3 #18 §6"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR-CAS-4"
+    enonce: "F-PNR52 Conseil Citoyen Bâle-Ville 2019 permanent = inexistant. Bâle-Ville organise ponctuellement des panels citoyens thématiques (climat BUE 2024, mobilité 2022) mais ce ne sont pas des Bürgerrat permanents. Bürgerrat-FR = modèle Bürgerrat Ostbelgien extrapolé, PAS Bürgerrat bâlois."
+    source_url: "https://www.bs.ch/"
+    source_section: "P3 #18 §6"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR-CAS-5"
+    enonce: "F-PNR53 Pacte Civique Italien 1999 = confusion triple. Pacte Civique italien = Servizio Civile Nazionale (service civique national volontaire) Loi n° 64 du 6 mars 2001, pas loi référendaire. Référendum d'initiative abrogative italien = Loi n° 352 du 22/11/1970 (art. 75 Constitution italienne)."
+    source_url: "https://www.interno.gov.it/it"
+    source_section: "P3 #18 §6"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR-CAS-6"
+    enonce: "F-PNR54 Bahamas 2006 Citizens'Initiative révocatoire = fiction. Aucun acte référendaire automatique « Citizens'Initiative Act 2006 » aux Bahamas. Cadre référendaire Bahamas = art. 60 Constitution Bahamas 1973 sans mécanisme automatique de révocation d'élus."
+    source_url: "https://www.bahamasparliament.gov.bs/"
+    source_section: "P3 #18 §6"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR-CAS-7"
+    enonce: "F-PNR58 Espagne LO 2/1980 referendum consultivo art. 87.3 = confusion triple. LO 2/1980 du 18 janvier 1980 = Ley Orgánica sobre Regulación de las Distintas Modalidades de Referéndum (modalités référendum). LO 2/2006 du 3 mai 2006 = Ley Orgánica de Educación (LOE, pas de rapport avec référendum). Initiative populaire espagnole = art. 87.3 Constitution espagnole 1978 (500 000 signatures)."
+    source_url: "https://www.boe.es/"
+    source_section: "P3 #18 §6"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR-CAS-8"
+    enonce: "F-PNR61 Loi Sécurité Globale 2020 CC 2021-813 DC art. 11-13-15 = numéros erronés. CC 2021-813 DC du 20 mai 2021 censure art. 20 (sociétés sécurité privée) + 21 (caméras piétons police municipale) + 22 (drones forces de l'ordre), PAS art. 11-13-15."
+    source_url: "https://www.conseil-constitutionnel.fr/decision/2021/2021813DC.htm"
+    source_section: "P3 #18 §6"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR-CAS-9"
+    enonce: "F-PNR63 Allemagne Klima-Protection 2021 révisée 20a GG = confusion historique. Art. 20a Grundgesetz = protection environnement, introduit 1994 (28. Gesetz zur Änderung des Grundgesetzes). BKSG (Bundes-Klimaschutzgesetz) adopté 12 décembre 2019 (loi initiale) ; révision 21 juin 2021 post-arrêt Karlsruhe BVerfG 1 BvR 2656/18 du 24 mars 2021 (Neubauer et autres c. Allemagne)."
+    source_url: "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/EN/2021/03/rs20210324_1bvr265618en.html"
+    source_section: "P3 #18 §6"
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Gianroberto Casaleggio"
+    role: "Fondateur Casaleggio Associati décédé 12 avril 2016 ; Rousseau plateforme M5S active 2016-2024, capture hazard 2018"
+    faits_lies: ["F-PNR-CAS-3"]
+  - nom: "BVerfG (Bundesverfassungsgericht)"
+    role: "Cour constitutionnelle fédérale allemande ; arrêt Neubauer 24 mars 2021"
+    faits_lies: ["F-PNR-CAS-9"]
+  - nom: "Conseil Constitutionnel"
+    role: "Décision 2024-866 DC du 17 mai 2024 Loi SREN"
+    faits_lies: ["F-PNR-CAS-8"]
+  - nom: "Cour de cassation"
+    role: "Jurisprudence constante art. 222-14-2 sans date précise 5 février 2025"
+    faits_lies: ["F-PNR-CAS-1"]
+  - nom: "AFT - Agence France Trésor"
+    role: "Source spread OAT/Bund 76 pb 3 juillet 2026"
+    faits_lies: ["F-PNR33"]
+
+causalites:
+  - cause: "F-PNR-CAS-1"
+    effet: "F-PNR-CAS-8"
+    mecanisme: "L'absence de vérification tierce sur les dates fictives (Cass. 5 fév. 2025) et numéros d'articles erronés (Sécurité Globale art. 11-13-15 vs 20-21-22) produit la catégorie « Erreurs factuelles par non-vérification LLM »."
+  - cause: "F-PNR-CAS-3"
+    effet: "F-PNR-CAS-4"
+    mecanisme: "Les modèles CivicTech étrangers (Taïwan fictif loi 2016 + Section 108 NIS ; Bâle-Ville 2019 Bürgerrat inexistant) illustrent le pattern « ancrage sur un cadre séduisant sans vérification empirique »."
+  - cause: "F-PNR-CAS-9"
+    effet: "F-PNR-CAS-2"
+    mecanisme: "Les modèles étrangers (Allemagne 20a 1994 ; Italie Loi 352/1970) corrigés par tierce vérification montrent que la précision juridique LLM requiert une consultation sources institutionnelles systématique."
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "La tierce vérification produit une réduction honnête du score de couverture (96 % → 72 %) et une crédibilité méthodologique accrue (88 % KERNEL §11)."
+  - position: "Antithèse"
+    argument: "La régression 96 % → 72 % peut être lue comme un aveu d'échec ; le pipeline LLM reste insuffisant pour la production juridique constitutionnelle française."
+  - position: "Synthèse"
+    argument: "L'auto-correction transparente produit un dossier plus solide qu'un auto-revendication 96 % fictionnel. La crédibilité réside dans la posture, pas dans le score."
+
+limites:
+  - "5 sources non-vérifiables publiquement (F-PNR48 DINUM budget détail forfaitaire ; F-PNR49 Pacte FRANCS budget 1,5 M€/RIL × 500 ; F-PNR66 CCP 24-90 sortition + CS tripartite)."
+  - "5 faits prospectifs hors scope vérification historique (F-PNR67 + 68 + 69 + 70 CivicTech-FR budget cumulé + vote Sénat Pacte 2027 + Loi LOPPSI 4 juillet 2029 + CivicTech-FR budget cumulé T0-T+60)."
+  - "Le Bürgerrat-FR extrapolé du Bürgerrat Ostbelgien (24-90 sur 68 M hab.) reste sans précédent empirique en France."
+  - "L'article P3 #16 ne cite pas explicitement le résultat 96 % → 72 % antérieur ; la comparaison 88 % KERNEL §11 est seulement post-correction."
+
+wolves:
+  - nom: "Anti-Pacte CivicTech-FR (lobby GAFAM + Sénat LR+UC)"
+    argument: "Le pack CivicTech-FR est fragilisé par la tierce vérification (9 réfutations sur 38)."
+    reponse: "Les 11 confirmations + 11 partiels + 5 prospectifs sur 38 produisent un score 88 % KERNEL §11 ; le pack reste opérationnel après amendements C1-C12."
+  - nom: "Faction Loyola sondage fictif"
+    argument: "La suppression du sondage Loyola = perte d'argumentaire pro-RIC 65-72 %."
+    reponse: "Loyola = Facultés jésuites, pas institut sondage ; les données IFOP 2019 / Harris 2019 / IPSOS 2024 réelles (65-72 % pro-RIC constituant) sont toujours disponibles."
+  - nom: "Faction CC 2024-866 DC = PPL Bardella RIC"
+    argument: "La rectification CC 2024-866 DC = Loi SREN fragilise l'argumentaire PPL Bardella RIC."
+    reponse: "Aucune décision CC spécifique sur PPL Bardella RIC n'existe ; la rectification révèle l'absence de précédent constitutionnel, pas un affaiblissement."
+
+iceberg:
+  - "Le score KERNEL §11 88 % révisé est la marqueur de la différence entre auto-déclaration 96 % fictionnelle et tierce vérification réelle."
+  - "Les 12 faits ❧ indéterminés (F-PNR48 + 49 + 66 + 5 prospectifs F-PNR67-70) restent hors scope vérification tierce."
+  - "Le mouvement FRANCS (F-PNR31) est toujours absent du RNA greffe Paris 2025-2026 (P3 #16 §7.2)."
+  - "Loyola Paris = Facultés Loyola 35 rue de Sèvres 75006 = enseignement supérieur jésuite."
+
+chronologie:
+  - date: "1994"
+    evenement: "Art. 20a Grundgesetz introduit (28. Gesetz zur Änderung GG)"
+    source_fait: "F-PNR-CAS-9"
+  - date: "2016-04-12"
+    evenement: "Gianroberto Casaleggio décès (61 ans)"
+    source_fait: "F-PNR-CAS-3"
+  - date: "2019-12-12"
+    evenement: "BKSG allemand loi initiale"
+    source_fait: "F-PNR-CAS-9"
+  - date: "2020-11-25"
+    evenement: "Loi Sécurité Globale promulguée"
+    source_fait: "F-PNR-CAS-8"
+  - date: "2021-05-20"
+    evenement: "CC 2021-813 DC censure art. 20-21-22"
+    source_fait: "F-PNR-CAS-8"
+  - date: "2021-06-21"
+    evenement: "BKSG révisé post-Neubauer"
+    source_fait: "F-PNR-CAS-9"
+  - date: "2024-05-17"
+    evenement: "CC 2024-866 DC Loi SREN"
+    source_fait: "F-PNR-CAS-2"
+  - date: "2024-10-23"
+    evenement: "Cyber Resilience Act UE"
+    source_fait: "F-PNR47"
+  - date: "2026-07-03"
+    evenement: "Spread OAT/Bund 76 pb"
+    source_fait: "F-PNR33"
+  - date: "2026-07-05"
+    evenement: "P3 #18 VERIFICATION-2026-07 produit"
+    source_fait: "F-PNR-CAS-1"
+
+domaines:
+  - "Tierce vérification factuelle"
+  - "Droit constitutionnel comparé"
+  - "Méthodologie LLM et forensique"
+  - "Crédibilité auto-correction"
+  - "Évaluation post-pipeline"
+
+urls_prioritaires:
+  - url: "https://www.conseil-constitutionnel.fr/decision/2021/2021813DC.htm"
+    description: "CC 2021-813 DC Sécurité Globale source officielle"
+    head_status: 200
+  - url: "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/EN/2021/03/rs20210324_1bvr265618en.html"
+    description: "BVerfG Neubauer 24 mars 2021 source officielle"
+    head_status: 200
+  - url: "https://www.courdecassation.fr/recherche-jurisprudence"
+    description: "Cour de cassation recherche jurisprudence"
+    head_status: 200
+  - url: "https://www.boe.es/"
+    description: "BOE Espagne source officielle"
+    head_status: 200
+  - url: "https://www.interno.gov.it/it"
+    description: "Ministero dell'Interno Italia source officielle"
+    head_status: 200
+
+shadow_factor: 2.4
+mnemo_queries:
+  - query: "MNEMOLITE DOWN - non exécuté"
+    results_count: 0
+  - query: "MNEMOLITE DOWN - non exécuté"
+    results_count: 0

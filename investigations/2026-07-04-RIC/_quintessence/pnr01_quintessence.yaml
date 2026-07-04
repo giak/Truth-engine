@@ -1,0 +1,218 @@
+enquete_id: "pnr01"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-05_11-00_protocole_pnred_ric_001_PROTOCOLE-PNRED-RIC-001_INVESTIGATION.md"
+degraded_mode: true
+mnemolite_status: "DOWN - non-interrogé, mode dégradé cross-séries"
+
+these_centrale: "Le peuple français peut exécuter opérationnellement un retour de souveraineté sur 5 ans (2026-2030) en articulant 8 modules (6 piliers FRANCS + CCP 24-90 sortition + CS tripartite + Plan 18 mois T0/T+6/T+12/T+18/T+36 + Judo Rhétorique + Éloge Surface + 6 étapes du Ré-enracinement individuel + Pack Données Souveraines SecNumCloud+X-Road FR+Papier-First) avec un budget cumulé de 50 à 100 millions d'euros État + 5 à 10 millions d'euros associatif."
+
+theses_implicites:
+  - "L'article 450-1 + 222-14-2 + 421-2-6 du Code pénal + l'amendement CL46 du 25 janvier 2025 forment une structure de verrouillage répressif qui aboutit mécaniquement à neutraliser toute action de masse clandestine du RIC."
+  - "La discipline de vote 5 à 10 % concentrée sur le seul critère RIC rend tout candidat insensible aux promesses anti-RIC, transformant le RIC en levier électoral transpartisan durable."
+  - "L'écart entre les 4 000+ condamnations Gilets Jaunes, les 2 500+ blessés LBD, les 25 mutilations et l'absence de mouvement structurant post-2024 documente une inertie institutionnelle qui pénalise les stratégies frontales."
+
+faits_atomiques:
+  - id: "F-PNR01"
+    enonce: "Article 450-1 Code pénal (groupement formé / entente en vue de préparation d'un délit) : 10 ans de prison ; 222-14-2 (association de malfaiteurs, 2010) : cassation 5 février 2025 confirmation élément moral (intention + présence équipée) ; 421-2-6 (association de malfaiteurs terroriste, 2014) : cas unique sans complice ni acte ; CL46 amendement 25 janvier 2025 : 3 ans prison + 45 000 euros amende pour appel au boycott."
+    source_url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418049"
+    source_section: "P3 #15 §3"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR02"
+    enonce: "Soulèvements de la Terre dissous en 2023, cassation en 2024 ; Confédération paysanne perquisitionnée post-Sainte-Soline 2023 ; PSLE 2024-2026 procédures en cours."
+    source_url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047646001"
+    source_section: "P3 #15 §3.4"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR03"
+    enonce: "4 000+ condamnations Gilets Jaunes, 2 500+ blessés LBD, 25 mutilations documentées par Défenseur des droits rapport 2022."
+    source_url: "https://www.defenseurdesdroits.fr/fr/rapports/2022/12/rapport-annuel-2022"
+    source_section: "P3 #15 §3.5"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR04"
+    enonce: "6 piliers FRANCS = Frontières + Rayonnement + Autonomie + Nation + Citoyenneté + Souveraineté ; structure trans-partisane."
+    source_url: "https://giak.substack.com/p/ladieu-aux-partis-du-diagnostic-de"
+    source_section: "P3 #15 §4.1"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-PNR05"
+    enonce: "Conseil Citoyen Permanent (CCP) = 24 à 90 citoyens tirés au sort (transposition Bürgerrat Ostbelgien 2019) ; Conseil de Souveraineté (CS) tripartite 1/3+1/3+1/3 (élus/sortition/société civile)."
+    source_url: "https://www.buergerdialog.be/"
+    source_section: "P3 #15 §5"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR06"
+    enonce: "Plan 18 mois chiffré T0/T+6/T+12/T+18/T+36 : T0=1 million d'euros Loi Pacte FRANCS preparatory ; T+6=2,5 millions d'euros RIL × 50 lancement ; T+12=5 millions d'euros RIL × 200 confirmé ; T+18=10 millions d'euros RIL × 500 abouti ; T+36=50 millions d'euros campagne RIC national 4,7 millions signatures."
+    source_url: "https://www.conseil-constitutionnel.fr/decisions"
+    source_section: "P3 #15 §8.1"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-PNR07"
+    enonce: "Judo Rhétorique = test sur cantonales 2027 avec seuil 5 % d'électeurs (cf. 2022 participation 28-44 % zones rurales) ; Législatives 2027 premier test Pacte FRANCS."
+    source_url: "https://www.interieur.gouv.fr/archives/archives-elections/Elections-legislatives-2022"
+    source_section: "P3 #15 §6.2"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-PNR08"
+    enonce: "Éloge de la Surface = boycott OAT/Bund spread pression économique ; modèle Bruegel 2024 : -10 points ICRG = +106 pb spread = -2 % PIB ; spread OAT/Bund 76 pb au 3 juillet 2026."
+    source_url: "https://www.bruegel.org/publications/papers-and-reports/political-risk-and-sovereign-debt-spreads"
+    source_section: "P3 #15 §7.1"
+    tier: 1
+    glyphe: "✦"
+  - id: "F-PNR09"
+    enonce: "6 étapes du Ré-enracinement individuel = sevrage boucles indignation + reconnexion locale + restauration attention + sororité/fraternité + engagement municipal + production contenu Substack diaspora (cf. étude Johns Hopkins MacLean 2011 sur ouverture post-psilocybine)."
+    source_url: "https://giak.substack.com/p/le-protocole-du-re-enracinement"
+    source_section: "P3 #15 §5.1"
+    tier: 2
+    glyphe: "✧"
+  - id: "F-PNR10"
+    enonce: "Pack Données Souveraines = SecNumCloud ANSSI référentiel v3.2 (juin 2024) + X-Road FR (adaptation estonienne 2001+, NIIS 2017+, 1 000+ institutions bus) + Papier-First art. L. 212-4 Code patrimoine + Hash sha-256 public Open Data. Coût cumulé 1,5 million d'euros par an pour couche Hosting + 0,5-2 millions d'euros par an pour couche Échange."
+    source_url: "https://cyber.gouv.fr/securite-numerique/qualification/secnumcloud"
+    source_section: "P3 #15 §9.1"
+    tier: 1
+    glyphe: "✦"
+
+acteurs:
+  - nom: "Mathilde Panot"
+    role: "LFI, soutien PPL RIC + Pacte CivicTech-FR"
+    faits_lies: ["F-PNR04", "F-PNR06"]
+  - nom: "Hadrien Clouet"
+    role: "LFI, plateforme RIC open-source Decidim"
+    faits_lies: ["F-PNR04"]
+  - nom: "Eric Piolle"
+    role: "EELV Grenoble, pro-RIL + Sortition + CCP"
+    faits_lies: ["F-PNR05"]
+  - nom: "Pierre Hurmic"
+    role: "EELV Bordeaux, pro-RIL Régie eau 2024"
+    faits_lies: ["F-PNR05"]
+  - nom: "Jean-Eric Schoettl"
+    role: "Club des Juristes, article 10 objections au RIC"
+    faits_lies: ["F-PNR06"]
+  - nom: "Gérard Larcher"
+    role: "Président Sénat, opposition frontale RIC"
+    faits_lies: ["F-PNR06"]
+  - nom: "Vincent Strubel"
+    role: "DG ANSSI 2023+, pro-SecNumCloud"
+    faits_lies: ["F-PNR10"]
+  - nom: "Stéphanie Schaer"
+    role: "DG DINUM 2024+, pro-interopérabilité X-Road FR"
+    faits_lies: ["F-PNR10"]
+  - nom: "Audrey Tang"
+    role: "Digital Minister Taïwan 2016-2024, modèle CivicTech open-source"
+    faits_lies: ["F-PNR10"]
+  - nom: "Toomas Hendrik Ilves"
+    role: "Ex-Président Estonie 2006-2016, modèle X-Road"
+    faits_lies: ["F-PNR10"]
+  - nom: "Andreas Bausewein"
+    role: "Parlement DG Belgique Ostbelgien, modèle Bürgerrat"
+    faits_lies: ["F-PNR05"]
+
+causalites:
+  - cause: "F-PNR01"
+    effet: "F-PNR03"
+    mecanisme: "L'arsenal répressif 450-1 + 222-14-2 + 421-2-6 + CL46 produit la séquence constatée condamnations massives Gilets Jaunes, blessures, mutilations, neutralisant l'action frontale."
+  - cause: "F-PNR05"
+    effet: "F-PNR04"
+    mecanisme: "L'organe CCP + CS tripartite produit la déconstruction du monopole partisan sur la production législative (6 piliers FRANCS)."
+  - cause: "F-PNR10"
+    effet: "F-PNR05"
+    mecanisme: "L'architecture technique SecNumCloud + X-Road FR + Papier-First produit l'infrastructure opérationnelle rendant les CCP + CS audibles et audités."
+
+perspectives_dialectiques:
+  - position: "Thèse"
+    argument: "Le peuple peut exécuter le retour de souveraineté sur 5 ans via le pack opérationnel 8 modules."
+  - position: "Antithèse"
+    argument: "Le verrouillage institutionnel (CC + Sénat LR/UC + art. 89 al. 4 + boîtes noires) rend l'adoption effective peu probable (probabilité conjointe 30-40 %)."
+  - position: "Synthèse"
+    argument: "La discipline trans-partisane 5-10 % + Judo Rhétorique + Éloge Surface (boycott spread) produit une probabilité révisée ≥ 60 % sur 5 ans."
+
+limites:
+  - "Le Pack CivicTech-FR P3 #15 reste à vérifier tierce-partie (P3 #18)."
+  - "Le Bürgerrat Ostbelgien 24-90 sortition sur 68 millions d'habitants n'a pas de précédent empirique."
+  - "Le risque capture-syndicale FNSEA / Crédit Agricole / Medef dans Pacte Souveraineté 5-10 % est sous-spécifié."
+  - "L'anti-capture M5S-Casaleggio n'est pas structurellement garanti par l'open-source (exemples Kubernetes CNCF / Linux Foundation)."
+
+wolves:
+  - nom: "Lobbys GAFAM (Cloud Act US)"
+    argument: "L'architecture CivicTech-FR déstabilise la captation de métadonnées électorales."
+    reponse: "SecNumCloud immunise juridictionnellement les données électorales françaises ; test décembre 2024 ANSSI."
+  - nom: "Lobbys Sénat LR+UC majoritaire"
+    argument: "Le RIC menace le monopole parlementaire de production législative."
+    reponse: "La discipline de vote 5-10 % Pacte FRANCS rend ce verrou instable en cas de législatives 2027/2030."
+  - nom: "Conseil Constitutionnel (anti-RIC traditionnel)"
+    argument: "Le RIC introduit une instabilité de la forme républicaine (art. 89 al. 4)."
+    reponse: "Le pack législatif CivicTech-FR constitutionnalise le RIC via Loi Organique art. 11 révisé sans toucher art. 89 al. 4."
+  - nom: "Big Tech GAFAM (anti-X-Road FR)"
+    argument: "X-Road FR isole la France du marché européen commun des données."
+    reponse: "X-Road FR est interopérable avec eIDAS 2 UE (transposition 2026) et conforme RGPD 2016."
+
+iceberg:
+  - "Capture-syndicale FNSEA / Crédit Agricole / Medef dans Pacte Souveraineté discipline électorale 5-10 % : non documentée empiriquement."
+  - "Bürgerrat-FR extrapolation d'Ostbelgien (24-90 sur 68 millions d'habitants) : aucun précédent empirique documenté en France."
+  - "Mnemolite DOWN : aucune recherche cross-séries appliquée (mode dégradé) ; les enquêtes antérieures Sumer / Evasion Fiscale / Dette 3 200 Md€ n'ont pas été re-interrogées pour connexions additionnelles."
+
+chronologie:
+  - date: "2010"
+    evenement: "Article 222-14-2 Code pénal créé (association de malfaiteurs)"
+    source_fait: "F-PNR01"
+  - date: "2014"
+    evenement: "Article 421-2-6 Code pénal créé (association malfaiteurs terroriste)"
+    source_fait: "F-PNR01"
+  - date: "2019-02-25"
+    evenement: "Bürgerrat Ostbelgien décret instauration"
+    source_fait: "F-PNR05"
+  - date: "2023"
+    evenement: "Soulèvements de la Terre dissous"
+    source_fait: "F-PNR02"
+  - date: "2024"
+    evenement: "Soulèvements de la Terre cassation ; Confédération paysanne perquisition Sainte-Soline"
+    source_fait: "F-PNR02"
+  - date: "2025-01-25"
+    evenement: "Amendement CL46 (3 ans + 45 000 euros) appel boycott"
+    source_fait: "F-PNR01"
+  - date: "2024-06"
+    evenement: "ANSSI référentiel SecNumCloud v3.2"
+    source_fait: "F-PNR10"
+  - date: "2026-05-20"
+    evenement: "Audrey Tang démission Digital Minister Taïwan"
+    source_fait: "F-PNR10"
+  - date: "2026-07-05"
+    evenement: "Spread OAT/Bund 76 pb (AFT)"
+    source_fait: "F-PNR08"
+  - date: "2026-07-05"
+    evenement: "Dépôt T0 P3 #15 PROTOCOLE-PNRED-RIC-001"
+    source_fait: "F-PNR06"
+
+domaines:
+  - "Droit constitutionnel (art. 11/89/72-1)"
+  - "Droit pénal répressif (450-1/222-14-2/421-2-6/CL46)"
+  - "Architecture technique cyber (SecNumCloud/X-Road)"
+  - "CivicTech étranger (Estonie/Suisse/Taïwan)"
+  - "Sortition et démocratie délibérative (Bürgerrat)"
+  - "Économie politique (OAT/Bund spread discipline vote)"
+
+urls_prioritaires:
+  - url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418049"
+    description: "Article 450-1 Code pénal groupement/entente source officielle"
+    head_status: 200
+  - url: "https://www.buergerdialog.be/"
+    description: "Bürgerrat Ostbelgien source officielle"
+    head_status: 200
+  - url: "https://cyber.gouv.fr/securite-numerique/qualification/secnumcloud"
+    description: "SecNumCloud ANSSI référentiel v3.2 source officielle"
+    head_status: 200
+  - url: "https://www.bruegel.org/publications/papers-and-reports/political-risk-and-sovereign-debt-spreads"
+    description: "Bruegel 2024 political risk sovereign debt spreads"
+    head_status: 200
+  - url: "https://giak.substack.com/p/ladieu-aux-partis-du-diagnostic-de"
+    description: "Article #83 L'adieu aux partis Substack Giak"
+    head_status: 200
+
+shadow_factor: 3.4
+mnemo_queries:
+  - query: "MNEMOLITE DOWN - non exécuté"
+    results_count: 0
+  - query: "MNEMOLITE DOWN - non exécuté"
+    results_count: 0

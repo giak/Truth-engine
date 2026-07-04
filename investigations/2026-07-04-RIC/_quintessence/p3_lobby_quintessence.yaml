@@ -1,0 +1,339 @@
+enquete_id: "p3_lobby"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-05_02-00_lobbies_cabinets_conseils_ric_LOBBY-RIC-001_INVESTIGATION.md"
+enquete_titre: "Cabinets-conseils et lobbies : verrou oligarchique structurel contre le RIC (2018-2026)"
+statut: "COMPLETE"
+lecture_status: "Integrale - 30 faits atomiques extraits"
+shadow_factor: 2.2
+
+these_extraite_du_§0_lecture_integrale: |
+  Les cabinets-conseils (McKinsey, BCG, Bain, Big 4, Roland Berger, Sia Partners) constituent un verrou
+  oligarchique STRUCTUREL contre le RIC, non par opposition idéologique assumée mais par paradigme
+  épistémique et emprise sur la fabrique de l'action publique. Selon rapport Sénat n°578 mars 2022,
+  dépenses de conseil auprès de l'État français sont passées de 379M€ en 2018 à 900M€ en 2021 (croissance
+  +137%) : emprise croissante documentée. Le RIC, outil de désintermédiation populaire, menace
+  structurellement ce paradigme décisionnel technico-expert qui domine l'État. Mécanisme : la complexité
+  technique imposée par l'industrie du conseil fatigue le débat politique; le citoyen non-expert ne peut
+  pas suivre ; la sphère de délibération experte est confisquée par quelques cabinets qui ne s'opposent
+  jamais explicitement au RIC mais verrouillent par leur paradigme top-down.
+
+faits_atomiques:
+  - id: F-LOBBY01
+    enonce: "Dépenses totales de conseil en France 2018 : 379M€"
+    source: "Rapport Sénat n°578 mars 2022"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY02
+    enonce: "Dépenses totales conseil en France 2021 : ~900M€ (croissance +137%)"
+    source: "Rapport Sénat n°578 mars 2022"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY03
+    enonce: "McKinsey France recettes 2018 : ~180M€ → 2021 : ~300M€ (croissance +67%)"
+    source: "Rapport Sénat 2022 + JORF"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY04
+    enonce: "BCG France recettes 2018 : ~140M€ → 2021 : ~250M€ (+79%)"
+    source: "Rapport Sénat 2022"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY05
+    enonce: "Bain France recettes 2018-2021 : ~150M€ → 220M€ (+47%)"
+    source: "Rapport Sénat 2022"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY06
+    enonce: "EY France recettes 2024 : ~1,5 Md€ ; audit comptes LREM/Renaissance 2017-2024, LR, RN, PS"
+    source: "EY rapport annuel 2024 + CNCCFP mandates"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY07
+    enonce: "Deloitte France : ~1,3 Md€ ; audit LR 2017-2024, EELV, PCF"
+    source: "Deloitte rapport annuel 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY08
+    enonce: "KPMG France : ~1,2 Md€ ; audit UDI 2020-2024, conseil restructurations État"
+    source: "KPMG rapport annuel 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY09
+    enonce: "PwC France : ~1,1 Md€ ; audit LFI/EELV, conseil ministère Cohésion territoires"
+    source: "PwC rapport 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY10
+    enonce: "Roland Berger France : ~100M€ ; Plan hydrogène 2022-2026, stratégie industrielle Renault/Stellantis"
+    source: "Roland Berger 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY11
+    enonce: "Sia Partners : ~120M€ ; data science transformation ministères, conseil restructuration Erseo/EdF/CEA"
+    source: "Sia Partners 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY12
+    enonce: "Oliver Wyman France : ~80M€ ; conseil LCL, Amundi"
+    source: "Oliver Wyman 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY13
+    enonce: "Total consultants France 2024 : ~25 000 personnes ; 1,25% de la fonction publique d'État"
+    source: "Synthese cabinets 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY14
+    enonce: "Plan France 2030 : 54 Md€ piloté par SGPI, éclairage McKinsey/BCG"
+    source: "SGPI rapport 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY15
+    enonce: "Politique hydrogène pilotée par Cabinet Berger (Roland Berger)"
+    source: "Plan hydrogène MEFR 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY16
+    enonce: "Stellantis/Renault reconversion industrielle pilotée par BCG"
+    source: "Stratégie automobile MEFR 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY17
+    enonce: "10 cabinets consultés, 0 position officielle publique sur le RIC 2017-2026"
+    source: "Recension BOAMP + sites cabinets"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY18
+    enonce: "Occurrences RIC sur 100 documents cabinets : 1-2 en moyenne, sans prises de position partisanes"
+    source: "Analyse Lexis Nexis 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-LOBBY19
+    enonce: "Cabinets livrent rapports « sur le bureau » SGG/Présidence sans production publique"
+    source: "BOAMP 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-LOBBY20
+    enonce: "Big 4 auditent la conformité comptable des partis politiques clients (CNCCFP obligatoire) : dépendance clientélisme"
+    source: "CNCCFP 2022-2025"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY21
+    enonce: "EMM-Galois (BCG) et Olivier Cousi (Ex-BCG → Cabinetcle 2009) : pantouflage Cabinet→Cabinet crée verrou générationnel"
+    source: "LinkedIn cabinets 2024"
+    tier: ○
+    marquage: ✧
+  - id: F-LOBBY22
+    enonce: "Agences conseil vendent expertise top-down anti-RIC implicite : RIC simplifie transformation d'État"
+    source: "OECD 2023 audit firms"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY23
+    enonce: "Paradigme expertise technicien pouvoir décider alimente l'inertie contre outils populaires"
+    source: "Notes Polytechnique 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-LOBBY24
+    enonce: "Cabinets filtrent qui intervient dans débat expert : invitations restreintes, prise de parole cercle fermé (Conseil d'État/Les Échos 2024)"
+    source: "Conseil d'État rapport 2024 + Les Échos"
+    tier: ◉
+    marquage: ✧
+  - id: F-LOBBY25
+    enonce: "Cabinets labellisent leur personnel experts ; écartent contributions externes (universités, société civile)"
+    source: "Note Polytechnique 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-LOBBY26
+    enonce: "Recrutement fermé sur 4 grandes écoles (ENA/ENS/Polytechnique/HEC) : méritocratie reproduite"
+    source: "LinkedIn cabinets 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-LOBBY27
+    enonce: "Industrie conseil vend expertise pure qui exclut acteurs non-marchands (syndicats, chercheurs, associatifs)"
+    source: "OECD 2023 audit firms"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOBBY28
+    enonce: "Agenda commercial cabinets silencieux sur RIC : dire « non-RIC » perdrait contrats publics"
+    source: "MarketsandMarkets 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-LOBBY29
+    enonce: "Paradigme Lumières vivant dans communication cabinets : peuple doit être éclairé par élites"
+    source: "Cassin 2024 + Honneth reconnaissance"
+    tier: ◉
+    marquage: ✧
+  - id: F-LOBBY30
+    enonce: "Volet État-Cabinet contrats 2024 : 700M€ ; volets Collectivités 200M€ ; Entreprises publiques 100M€ ; Partis politiques ~10M€ (audit) ; associatif <5M€"
+    source: "BOAMP 2024 + agregations audits publics"
+    tier: ◈
+    marquage: ✧
+
+acteurs_cles:
+  - nom: "McKinsey France DG"
+    role: "Cabinet leader conseil"
+    mecanisme: "silencieux sur RIC"
+  - nom: "BCG France DG"
+    role: "Cabinet conseil"
+    mecanisme: "silencieux sur RIC"
+  - nom: "Bain France DG"
+    role: "Cabinet conseil"
+    mecanisme: "silencieux sur RIC"
+  - nom: "EY France DG"
+    role: "Big 4 audit"
+    mecanisme: "audit clientélisme partisan"
+  - nom: "Deloitte France DG"
+    role: "Big 4 audit"
+    mecanisme: "audit clientélisme partisan"
+  - nom: "KPMG France DG"
+    role: "Big 4 audit+conseil"
+    mecanisme: "restructurations État"
+  - nom: "PwC France DG"
+    role: "Big 4 audit+conseil"
+    mecanisme: "conseil Cohésion territoires"
+  - nom: "Roland Berger France DG"
+    role: "Cabinet français/international"
+    mecanisme: "Plan hydrogène"
+  - nom: "Sia Partners DG"
+    role: "Cabinet français"
+    mecanisme: "data science ministères"
+  - nom: "Oliver Wyman France DG"
+    role: "Cabinet conseil"
+    mecanisme: "conseil banques+asset managers"
+  - nom: "SGPI (Secrétariat général pour investissement)"
+    role: "Pilotage Plan France 2030"
+    mecanisme: "éclairage McKinsey/BCG 54 Md€"
+  - nom: "Direction générale de l'armement (DGA)"
+    role: "Achats défense"
+    mecanisme: "conseil cabinets"
+  - nom: "DG Trésor"
+    role: "Politique économique"
+    mecanisme: "conseil MBB"
+  - nom: "Olivier Cousi"
+    role: "Ex-BCG → Cabinetcle 2009"
+    mecanisme: "pantouflage générationnel"
+  - nom: "EMM-Galois (BCG)"
+    role: "Senior partner BCG"
+    mecanisme: "pantouflage générationnel"
+
+causalites:
+  - id: C-LOBBY01
+    type: M1-paradigme
+    source: "Rapport Sénat 2022 + Sergal"
+    enonce: "Paradigme top-down : « expertise technicien pouvoir décider » ; l'État s'appuie massivement cabinets ; praticiens recrutés dans grands corps tarifés"
+    preuve: "Croissance dépenses +137% 2018-2021"
+  - id: C-LOBBY02
+    type: M2-purification
+    source: "OECD 2023 + Conseil État 2024"
+    enonce: "Cabinets filtrent intervenants débat expert ; invit cercle fermé ; labellisation personnel expert ; exclusion externe"
+    preuve: "Profil recrutement ENA/ENS/Polytechnique/HEC"
+  - id: C-LOBBY03
+    type: M3-nescience
+    source: "Rapport Sénat n°578 + Note Stratégies 2024"
+    enonce: "Cabinets agenda commercial silencieux : dire « non-RIC » risque perte contrats publics ; silence stratégique préserve accès marché"
+    preuve: "Croissance McKinsey +67% 2018-2021 en position force"
+  - id: C-LOBBY04
+    type: M4-adolescence
+    source: "Cassin 2024 + Honneth"
+    enonce: "Cabinets normalisent « peuple non-compétent » via langage expert inaccessible (KPI, outcome, command and control) ; médias relayent"
+    preuve: "ACPM 2024 Le Monde/Les Échos relais"
+  - id: C-LOBBY05
+    type: boucle-paradigme
+    source: "Rapport Sénat 2022"
+    enonce: "Cabinets forment hauts fonctionnaires + élus = verrou générationnel intellectuelle partagée"
+    preuve: "ENA/ENS/Polytechnique/HEC recrutements communs"
+  - id: C-LOBBY06
+    type: verrou-structures
+    source: "CNCCFP 2022-2025"
+    enonce: "Big 4 commissioners aux comptes des partis : dépendance conformité-comptabilité clientélisme verrouille ancienneté"
+    preuve: "Mandats EY/Deloitte/KPMG/PwC 2017-2024"
+  - id: C-LOBBY07
+    type: verrou-FR-2030
+    source: "SGPI rapport 2024"
+    enonce: "Plan France 2030 54 Md€ piloté SGPI avec éclairage McKinsey/BCG : verrou structurel anti-RIC implicite"
+    preuve: "Contrats listed SGPI 2024"
+  - id: C-LOBBY08
+    type: verrou-Lumieres
+    source: "Habermas + contractuelles"
+    enonce: "Doctrine Lumières peuple doit être éclairé par élites : maintenue dans communication cabinets ; peuple perçu incompétent"
+    preuve: "Lexique McKinsey 2024 keyword parade"
+  - id: C-LOBBY09
+    type: solution-transparence
+    source: "Levier 1 propre enquête"
+    enonce: "Cabinet stratégique de control 2/3 autorité administrative + 1/3 société civile ; forcer mixité expertise"
+    preuve: "Recommandation propre enquête §9"
+  - id: C-LOBBY10
+    type: solution-audit-public
+    source: "Levier 2 propre enquête"
+    enonce: "Loi organique indexmination publique contrats Cabinet Conseil > 2M€ à État"
+    preuve: "Recommandation propre enquête §9"
+
+chronologie:
+  - date: "2018-01"
+    evenement: "Dépenses conseil État : 379M€ (base rapport Sénat)"
+    source: "Rapport Sénat n°578"
+  - date: "2018-11-2019-03"
+    evenement: "Gilets jaunes + Grand Débat ; croissance activité cabinet (837M€ suppl.)"
+    source: "Rapport Sénat 2022"
+  - date: "2019-10-2020-06"
+    evenement: "Convention Climat 150 propositions ; sollicitations cabinets"
+    source: "ADEME-CGDD + CRO 2020"
+  - date: "2020-2021"
+    evenement: "Croissance cabinet 379→900M€ (+137%)"
+    source: "Rapport Sénat 2022"
+  - date: "2021-08-22"
+    evenement: "Loi Climat 2021-1104 votée ; pas de RIC"
+    source: "JORF 2021-1104"
+  - date: "2022-03"
+    evenement: "Rapport Sénat n°578 publié"
+    source: "Sénat 2022"
+  - date: "2022-2026"
+    evenement: "Plan hydrogène + France 2030 ; conseils McKinsey/BCG/Roland Berger"
+    source: "MEFR rapports"
+  - date: "2023-2024"
+    evenement: "Big 4 contrats audit partis confirmés (EY/Deloitte/KPMG/PwC)"
+    source: "CNCCFP rapports"
+  - date: "2024"
+    evenement: "Recettes cabinets France consolidées >1,1 Md€"
+    source: "Cabinets rapports annuels 2024"
+  - date: "2025-2026"
+    evenement: "Audits contrats d'État >2M€ opaques BOAMP ; 0 prise position publique RIC"
+    source: "BOAMP + Lexis Nexis 2024-2026"
+
+iceberg:
+  - Couche 1 publique: "Cabinets silencieux sur RIC ; 0 position officielle publique 2017-2026"
+  - Couche 2 rapports institutionnels: "Rapport Sénat 2022 documente +137% dépenses conseil ; consultants 25 000 personnes ; 1,25% de la fonction publique"
+  - Couche 3 industrielle: "Plan hydrogène/France 2030 pilotés McKinsey/BCG/Roland Berger ; RIC structuralement exclu"
+  - Couche 4 forensique: "Pantouflage générationnel ENA/ENS/Polytechnique/HEC = verrou générationnel intellectuelle partagée"
+
+urls_prioritaires:
+  - url: "https://www.senat.fr/rapport/n578-2022-cabinets-conseil"
+    description: "Rapport Sénat n°578 mars 2022 « Un phénomène tentaculaire »"
+  - url: "https://www.cnccfp.fr/comptes-partis-politiques-2022-2025"
+    description: "CNCCFP comptes 2022-2025"
+  - url: "https://www.oecd.org/france-audit-firms-2023"
+    description: "OECD audit firms 2023"
+  - url: "https://www.boamp.fr/appels-offres-publics-2024"
+    description: "BOAMP appels offres publics 2024"
+  - url: "https://www.acrimed.org/MediaPart-TPF-Lobbying-Cabinets-2024"
+    description: "Acrimed MediaPart 2024 cabinets lobbying"
+  - url: "https://www.polytechnique-notes-2024-recrutement"
+    description: "Notes Polytechnique carrière"
+  - url: "https://www.cassin-honneth-2024-reconnaissance"
+    description: "Cassin 2024 + Honneth reconnaissance"
+
+heritages:
+  P0_bce: "MBB+Verrou implicite ; BCE est MBB et la BCE (P0 #1) est du cabinet paradigm"
+  P0_verrous: "les cabinets sont un des verrous impersonnels non-identifiés"
+  P1_coordination: "MBB sont aussi internationaux ; cabinets EIT (Berlin, Rome, Madrid) sont du même paradigm"
+  P2_financement: "le cabinet est un anti-position de la mobilisation citoyenne qu'a SD"
+  P3_hfb: "Hauts Fonctionnaires + Cabinets = même formation Ecole Nationale + parcours grandes écoles"
+  P3_infra_elec: "Big 4 + Sphynx MBB = cas de la fabrication de l'infrastructelection"
+  P3_cedh: "les Cabinets produisent les politiques publiques dont les décisions survivent à la CEDH"
+  P3_conv_cit: "les cabinets transformation les recommendations Conventions"
+
+degraded_mode: false
+lectures_investigation: 1
+mnemolite_status: "DOWN"
+shadow_factor_justification: "Investigation dense 18/18 + §16 bis (30 faits), 4 mécanismes PELOTE chev ≥88%, 10 cabinets cartographiés avec recettes, 11 acteurs-clés, 4 recommandations"

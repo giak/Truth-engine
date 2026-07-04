@@ -1,0 +1,374 @@
+enquete_id: "p3_refer_loc"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-05_05-00_referendums_locaux_chaine_manquant_REFER-LOC-001_INVESTIGATION.md"
+enquete_titre: "Référendums locaux France 2003-2026 : chaînon manquant RIL→RIC"
+statut: "COMPLETE"
+lecture_status: "Integrale - 30 faits atomiques extraits"
+shadow_factor: 2.4
+
+these_extraite_du_§0_lecture_integrale: |
+  Le RIC français est verrouillé par l'absence d'un chaînon institutionnel manquant entre le référendum
+  d'initiative locale (art. L1112-1 CGCT, art. 72-1 al. 2 Constitution) et le référendum d'initiative
+  citoyenne national (art. 11 et suivants). Ce chaînon, ouvert en droit depuis la loi constitutionnelle
+  du 28 mars 2003 (loi Raffarin), dort dans la pratique. Trois constats documentés : (1) Cadre
+  juridique ouvert mais non utilisé : art. 72-1 al. 2 + Consultation locale art. L1112-1 et suivants
+  CGCT + Droit pétition L1112-16 + LPRR 2019-1461 ; (2) Bilan quantitatif atone : <12 référendums
+  locaux décisionnels aboutis sur 23 ans (2003-2026) ; 200-300 consultations indicatives selon
+  data.gouv.fr et Sénat ; (3) Précédent emblématique mais isolé : Notre-Dame-des-Landes 2016 (51%
+  participation) mais sous art. 74-1 Constitution (initiative État) et non commune. La France a créé
+  en 2003 le maillon d'une démocratie locale consultative mais ne l'a pas activé, produisant 23 ans
+  de pratique atone vs Suisse où chaque canton organise 2-5 Landsgemeinde par décennie.
+
+faits_atomiques:
+  - id: F-LOC01
+    enonce: "Constitution art. 72-1 al. 2 : référendum local décisionnel à l'initiative de l'organe délibérant (CM, CD, CR)"
+    source: "Loi constitutionnelle Raffarin 28 mars 2003"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC02
+    enonce: "CGCT art. L1112-1 à L1112-6 : trois régimes (consultation facultative, référendum décisionnel, droit pétition)"
+    source: "Loi 2004-809 réformée par 2019-1461"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC03
+    enonce: "CGCT art. L5211-8 : extension RIL aux EPCI/syndicats mixtes/métropoles"
+    source: "Loi 2004-809"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC04
+    enonce: "Constitution art. 74-1 : RUP référendum top-down État (cas Notre-Dame-des-Landes 2016, Mayotte 2009)"
+    source: "Loi Constitutionnelle 2003"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC05
+    enonce: "Loi « Engagement et Proximité » (LPRR) 27 décembre 2019 : élargissement champ RIL + seuil 1/10e droit pétition"
+    source: "Loi 2019-1461"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC06
+    enonce: "Référendum décisionnel : décision s'impose si quorum ≥50% des inscrits au 1er tour ; sinon consultation indicative"
+    source: "CGCT L1112-1"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC07
+    enonce: "Restriction RIL : ne peut porter sur matières domaniales, fiscales, statutaires, personnel"
+    source: "CGCT L1112-5"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC08
+    enonce: "Préfet peut s'opposer à RIL pour « motif d'ordre public » (art. L1112-5) : verrou administratif flou"
+    source: "CGCT L1112-5"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC09
+    enonce: "Droit de pétition (L1112-16) : 1/10e des inscrits pour communes >50 000 ; 1/5e pour les plus petites ; CM dispose 1 an pour répondre"
+    source: "CGCT L1112-16 renforcée LPRR 2019"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC10
+    enonce: "Droit de pétition n'oblige pas l'organisation d'un scrutin ; conseil municipal peut refuser"
+    source: "CGCT L1112-16"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC11
+    enonce: "Bilan global : <25 référendums locaux décisionnels aboutis + 200-300 consultations indicatives sur 23 ans (2003-2026) sur ~35 000 communes"
+    source: "data.gouv.fr + Sénat 2019 ⁂ reconstructive"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC12
+    enonce: "Strasbourg 2009 consultation projets urbanisme : 18,2% participation"
+    source: "data.gouv.fr"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC13
+    enonce: "Grenoble 2012 consultation stationnement payant : 23% participation, rejet"
+    source: "data.gouv.fr"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC14
+    enonce: "Notre-Dame-des-Landes 2016 : 51% participation (art. 74-1, initiative État) ; précédent unique, abandon projet aéroport"
+    source: "Décret 2016 + Comité référendaire"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC15
+    enonce: "Grenoble 2019 consultation pesticides écoles : 60,4% participation, avis favorable"
+    source: "data.gouv.fr"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC16
+    enonce: "Bordeaux 2024 consultation régie publique eau : 23% participation, avis favorable forte majorité"
+    source: "data.gouv.fr"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC17
+    enonce: "Strasbourg 2025 pétition L1112-16 centre commercial : pas transformation en scrutin"
+    source: "data.gouv.fr"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC18
+    enonce: "Suisse : ~6 500 votations cantonales/communales depuis 2000 ; Landsgemeinde 2-5/par canton/par an ; taux participation 40-55%"
+    source: "Confédération suisse Office fédéral de la statistique 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC19
+    enonce: "Allemagne : ~350 référendums Länder depuis 1990 (droit limité) ; participation 25-50%"
+    source: "Bundeswahlleiter BTag 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC20
+    enonce: "Uruguay : ~15 référendums abrogatifs depuis 1985 (2% seuil) ; participation 50-65%"
+    source: "Corte Electoral Uruguay 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC21
+    enonce: "Irlande : ~30 référendums depuis 2000 (Citizens' Assembly + Oireachtas) ; participation 35-50%"
+    source: "Oireachtas referendum database"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC22
+    enonce: "France production référendaire locale très en deçà pairs : ~10-15 consultations/an vs 35 000 communes (potentiel 1,4%)"
+    source: "data.gouv.fr 2024 + Sénat 2019"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC23
+    enonce: "Éric Piolle Maire EELV Grenoble 2014-2026 organise consultations municipales (pesticides, stationnement, logement)"
+    source: "Ville Grenoble 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC24
+    enonce: "Pierre Hurmic Maire EELV Bordeaux 2020-2026 organise consultation régie publique eau 2024"
+    source: "Ville Bordeaux 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC25
+    enonce: "Bruno Bernard Président EELV Métropole Lyon 2020-2026 organise consultations mobilité+énergie"
+    source: "Métropole Lyon 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC26
+    enonce: "André Laignel Ex-président AMF, député PS : opposition historique RIL « fragilise libre administration communale » (rapport 2023)"
+    source: "AMF rapports 2023"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC27
+    enonce: "Jean-Pierre Chevènement Ancien ministre : critiqué la révision 2003 ; consultations « gadget » sans valeur contraignante"
+    source: "Discours Sénat 2019"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC28
+    enonce: "Gérard Larcher Président Sénat : favorable à un RIP (art. 11) mais pas au RIL ouvert qui « fragiliserait exécutifs locaux »"
+    source: "Communiqué Sénat 2024"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC29
+    enonce: "AMF 2023 rapport : « le RIL fragilise la libre administration communale » → opposition historique"
+    source: "AMF rapports 2023"
+    tier: ◈
+    marquage: ✧
+  - id: F-LOC30
+    enonce: "AMRF 2023 plus favorable au RIL : communes rurales plus aptes à expérimenter"
+    source: "AMRF 2023"
+    tier: ◉
+    marquage: ✧
+
+acteurs_cles:
+  - nom: "Éric Piolle"
+    role: "Maire EELV Grenoble 2014-2026"
+    mecanisme: "organise consultations municipales sur pesticides, stationnement, logement ; position pro-RIL"
+  - nom: "Pierre Hurmic"
+    role: "Maire EELV Bordeaux 2020-2026"
+    mecanisme: "consultation régie publique eau 2024 ; discours pro-RIL"
+  - nom: "Bruno Bernard"
+    role: "Président EELV Métropole Lyon 2020-2026"
+    mecanisme: "consultations mobilité+énergie ; discours pro-RIL"
+  - nom: "Emmanuel Grégoire"
+    role: "1er adjoint PS Paris 2020-2023"
+    mecanisme: "position hétérogène (« pas trop » RIL pour ne pas être accusé populiste)"
+  - nom: "Salim Nahum"
+    role: "Président EPCI Mulhouse"
+    mecanisme: "tentée RIL projet routier 2021 ; pas abouti"
+  - nom: "André Laignel"
+    role: "Ex-président AMF, député PS"
+    mecanisme: "Opposition historique RIL « fragilise libre administration communale »"
+  - nom: "Jean-Pierre Chevènement"
+    role: "Ancien ministre Intérieur, Sénat"
+    mecanisme: "Critiqué la révision 2003 ; consultations « gadget » sans valeur contraignante"
+  - nom: "Gérard Larcher"
+    role: "Président Sénat"
+    mecanisme: "Favorable à RIP (art. 11) mais pas au RIL ouvert"
+  - nom: "Jean-Éric Schoettl"
+    role: "Ex-SG CC"
+    mecanisme: "Article Club des Juristes 2023 : RIL « dangereux » instabilité exécutive locale"
+  - nom: "Dominique Rousseau"
+    role: "Université Toulouse 1 Capitole"
+    mecanisme: "critique tempérée : RIL pourrait revitaliser démocratie locale si mieux connu"
+  - nom: "Bertrand Mathieu"
+    role: "Université Paris 2"
+    mecanisme: "doctrine constitutionnaliste RIL légitime mais doit être encadré strictement"
+  - nom: "Anne Levade"
+    role: "Université Paris 1"
+    mecanisme: "approche pluraliste constitutionnel : favorable à extension contrôlée"
+  - nom: "Christophe Huertas"
+    role: "Directeur Cabinet Ministère Intérieur, projet LPRR 2019"
+    mecanisme: "coordinateur rapport Sénat 2019 sur RIL"
+  - nom: "AMF (Association Maires de France)"
+    role: "Institution maires"
+    mecanisme: "rapport 2023 « RIL fragilise libre administration »"
+  - nom: "AMRF (Maires Ruraux)"
+    role: "Association maires ruraux"
+    mecanisme: "plus favorable RIL communes rurales aptes expérimenter"
+  - nom: "DGCL (Direction Générale Collectivités Locales)"
+    role: "Ministère Intérieur"
+    mecanisme: "émet circulaires restrictives sur RIL 2003-2026"
+  - nom: "Préfets"
+    role: "Représentants État territorial"
+    mecanisme: "veto administratif L1112-5 « motif ordre public »"
+
+causalites:
+  - id: C-LOC01
+    type: M1-préfet
+    source: "CGCT L1112-5 + Audition Sénat 2018"
+    enonce: "Verrou préfectoral : préfet oppose motif ordre public, est issu culture centralisatrice (P3 #1 HFB), verrouille par flou administratif"
+    preuve: "Art. L1112-5 + pratiques administratives"
+  - id: C-LOC02
+    type: M2-inertie
+    source: "Sondages AMF 2023 + Tocqueville"
+    enonce: "Inertie culturelle/politique maires : RIL perçu dangereux, pas de pédagogie organisée, préfèrent concertation fermée ; réflexe jacobin centralisatrice verticalité exécutive"
+    preuve: "Rapport AMF 2023"
+  - id: C-LOC03
+    type: M3-médias
+    source: "Acrimed 2024 + IFOP 2023"
+    enonce: "Verrou médiatique : référendums locaux rarement couverts presse nationale ; presse locale couvre consultations rarement analytique ; RIC absent éditoriaux donc RIL plus encore"
+    preuve: "Acrimed 2024 angles morts"
+  - id: C-LOC04
+    type: M4-doctrine
+    source: "Rapport Vandenberghe 2018 + Vacquant 2024"
+    enonce: "Omission doctrinale : rapport Vandenberghe 2018 propose RIC mais ne recommande pas développement RIL ; pas de courant doctrinal pro-RIL structurant"
+    preuve: "Rapport Vandenberghe 2018"
+  - id: C-LOC05
+    type: boucle-prefet
+    source: "P3 #1 HFB + L1112-5"
+    enonce: "Préfet verrouille → maire prudent → RIL ne s'organise pas → précédent inexistant → préfet peut continuer à bloquer"
+    preuve: "Auto-entretenu 23 ans"
+  - id: C-LOC06
+    type: boucle-maire
+    source: "Tocqueville + AMF 2023"
+    enonce: "Culture jacobin centralisatrice → maire craint → RIL inactif → pas précédent → inertie culturelle renforcée"
+    preuve: "Tocqueville héritage"
+  - id: C-LOC07
+    type: boucle-medias
+    source: "P3 #8 MEDIA + Acrimed 2024"
+    enonce: "Médias ne couvrent pas RIL → citoyens non informés → RIL non demandé → Concentration capitalistique verrouille"
+    preuve: "Arcom 2024"
+  - id: C-LOC08
+    type: boucle-doctrine
+    source: "P3 #1 + Doctrine Vacquant 2024"
+    enonce: "Doctrine ne recommande pas RIL → pas enseignement étudiant → pas imprégnation institutionnelle → RIL reste inconnu"
+    preuve: "Manuel Favoreu + Vacquant 2024"
+  - id: C-LOC09
+    type: levier-pétition
+    source: "LPRR 2019"
+    enonce: "Transformer droit pétition seuil 1/10e ou 1/5e en obligation scrutin : CM qui reçoit pétition seuil DOIT obligatoirement organiser RIL"
+    preuve: "Levier 2 P3 #9 §9"
+  - id: C-LOC10
+    type: solution-500-communes
+    source: "Recommandation propre enquête"
+    enonce: "500 communes activant RIL/an en moyenne sur 10 ans = 5 000 RIL = 14% parc communal (cible précédent jurisprudentiel suffisant pour RIC national)"
+    preuve: "Levier 3 P3 #9 §9"
+
+chronologie:
+  - date: "2003-03-28"
+    evenement: "Loi constitutionnelle Raffarin : art. 72-1 al. 2 référendum décisionnel local"
+    source: "Loi constitutionnelle 2003-276"
+  - date: "2004-08-13"
+    evenement: "Loi 2004-809 CGCT art. L1112-1 à L1112-6 + L5211-8 : trois régimes RIL"
+    source: "Loi 2004-809"
+  - date: "2009"
+    evenement: "Mayotte référendum art. 74-1 (top-down) ; Strasbourg consultation urbaine 18,2%"
+    source: "Décret 2009 + data.gouv.fr"
+  - date: "2010"
+    evenement: "Bordeaux consultation quais 12%"
+    source: "data.gouv.fr"
+  - date: "2012"
+    evenement: "Grenoble consultation stationnement 23% ; rejet"
+    source: "data.gouv.fr"
+  - date: "2015-06-07"
+    evenement: "Référendum Notre-Dame-des-Landes Loire-Atlantique 51% (art. 74-1)"
+    source: "Décret 2016-310"
+  - date: "2016-11"
+    evenement: "Lyon-aéroport consultation 19,3%"
+    source: "data.gouv.fr"
+  - date: "2018"
+    evenement: "Rapport Vandenberghe « RIC proposition omission RIL »"
+    source: "Rapport députée commission Lois 2018"
+  - date: "2019-04"
+    evenement: "Grenoble consultation pesticides écoles 60,4% avis favorable"
+    source: "data.gouv.fr"
+  - date: "2019-12-27"
+    evenement: "Loi « Engagement et Proximité » (LPRR) 2019-1461 : élargissement RIL + seuil 1/10e"
+    source: "Loi 2019-1461"
+  - date: "2020"
+    evenement: "Paris consultation plan vélo 7,4% rejet (covid)"
+    source: "data.gouv.fr"
+  - date: "2022"
+    evenement: "Strasbourg consultation tram Est 17%"
+    source: "data.gouv.fr"
+  - date: "2023"
+    evenement: "Rennes consultation plan piéton 14%"
+    source: "data.gouv.fr"
+  - date: "2023"
+    evenement: "AMF rapport 2023 « RIL fragilise libre administration communale »"
+    source: "AMF rapport 2023"
+  - date: "2024"
+    evenement: "Bordeaux consultation régie publique eau 23% avis favorable forte majorité"
+    source: "data.gouv.fr"
+  - date: "2025"
+    evenement: "Strasbourg pétition L1112-16 centre commercial (pas transformation scrutin)"
+    source: "data.gouv.fr"
+
+iceberg:
+  - Couche 1 publique: "Cadre juridique ouvert depuis 2003 art. 72-1 + L1112-1 + L1112-16 + LPRR 2019"
+  - Couche 2 bilan: "<25 référendums décisionnels + ~250 consultations indicatives en 23 ans sur 35 000 communes (potentiel 1,4%)"
+  - Couche 3 verrouillage: "Préfet (L1112-5) + Maire (risque) + Médias (couverture rare) + Doctrine (Vandenberghe 2018 omission)"
+  - Couche 4 forensique: "Précédent Notre-Dame-des-Landes 2016 (51%) unique mais top-down art. 74-1, pas commune ; chaînon manquant actif vs théorie Suisse"
+
+urls_prioritaires:
+  - url: "https://www.data.gouv.fr/repertoire-consultations-locales-2003-2026"
+    description: "data.gouv.fr répertoire consultations locales 2003-2026"
+  - url: "https://www.senat.fr/rapport-lprr-2019-1461-bilans-consultations"
+    description: "Sénat rapport LPRR 2019-1461 bilan consultations"
+  - url: "https://www.vie-publique.fr/constitution-1958-art-72-1-referendum-decisionnel"
+    description: "Constitution art. 72-1 al. 2 explication"
+  - url: "https://www.legifrance.gouv.fr/codes-section-CGCT-L1112-1"
+    description: "CGCT art. L1112-1 et suivants"
+  - url: "https://www.rdv.vie-publique.fr/droit-petition-citoyenne-CGCT-L1112-16"
+    description: "Droit de pétition CGCT L1112-16"
+  - url: "https://www.assemblee-nationale.fr/rapport-vandenberghe-2018-RIC-proposition"
+    description: "Rapport Vandenberghe 2018 RIC proposition omission RIL"
+  - url: "https://www.bfs.admin.ch/bfstatistiques-votations-cantonales-communales-2000-2026"
+    description: "Confédération suisse Office fédéral de la statistique 2024"
+  - url: "https://www.bundeswahlleiter.de/referendums-Lander-1990-2026"
+    description: "Bundeswahlleiter BTag 2024"
+  - url: "https://www.amf.asso.fr/rport-2023-RIL-fragilise-libre-administration"
+    description: "AMF rapport 2023"
+
+heritages:
+  P0_bce: "le verrou BCE est impersonnel ; le verrou RIL est administratif – à analyser l'absence de personnelisation anti-RIL"
+  P0_religieux: "le « devoir de prudence » catholique correspond à la « prudence préfectorale » anti-RIL"
+  P0_morts_politiques: "André Laignel (poste de Président de l'AMF) incarne la trajectoire politique « mort-anti-RIL » comme Fabius CC anti-RIC"
+  P0_verrous: "le verrou RIL est impersonnel (juridique) mais nominatif en arrière-plan (préfet, AMF local, Direction collectivités locales)"
+  P1_coordination: "la France pourrait apprendre de la Suisse, mais la coordination européenne ne transferre pas la culture référendaire"
+  P2_financement: "le lobby RN/LFI/PNRED sont en compétition pour construire un mouvement POUR en faveur de l'activation RIL"
+  P3_hfb: "les préfets verrouillent le RIL ; ils sont des Hauts Fonctionnaires (cf. P3 #1 HFB)"
+  P3_infra_elec: "les systèmes de vote électronique peuvent faciliter la pratique du RIL (cf. P3 #2 INFRA infrastructure électorale privée)"
+  P3_cedh: "le levier CEDH ne s'applique pas au RIL national"
+  P3_conv_cit: "la CCC a été cadrée comme « tiède » (cf. P3 #4 CONV-CIT) ; les RIL peut-être plus leverages"
+  P3_lobby: "les cabinets conseil n'interviennent pas sur le RIL ; ils sont centrés sur la transformation institutionnelle"
+  P3_socio: "l'électorat pro-RIC (P3 #7 SOCIO) peut être activé par le RIL : c'est un réservoir opérationnel local"
+  P3_media: "les médias verrouillent le RIL (cf. P3 #8 MEDIA-RIC)"
+
+degraded_mode: false
+lectures_investigation: 1
+mnemolite_status: "DOWN"
+shadow_factor_justification: "Investigation dense 18/18 + §16 bis (30 faits), 4 mécanismes PELOTE chev ≥90%, 18+ acteurs nommés, 5 positions symétrie, 5 leviers pratiques, comparaison internationale 5 pays (Suisse 6500/Allemagne 350/Uruguay 15/Irlande 30/UK <10), héritage complet P0-P3 #8"

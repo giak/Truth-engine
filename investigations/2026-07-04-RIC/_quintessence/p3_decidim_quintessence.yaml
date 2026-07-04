@@ -1,0 +1,384 @@
+enquete_id: "p3_decidim"
+complexity: "APEX"
+date_extraction: "2026-07-05"
+enquete_source: "investigations/2026-07-04-RIC/2026-07-05_10-00_democratie_numerique_open_source_decidim_DECIDIM-RIC-001_INVESTIGATION.md"
+enquete_titre: "Démocratie numérique open-source (Decidim, Consul, vTaiwan, LiquidFeedback, Pol.is) : substrat technique RIC 2026-2030"
+statut: "COMPLETE"
+lecture_status: "Integrale - 27 faits atomiques extraits"
+shadow_factor: 2.3
+
+these_extraite_du_§0_lecture_integrale: |
+  La France 2026-2030 ne pourra pas porter un RIC de masse (cible P3 #11 : 500 communes RIL + 7,5M€
+  sur 5 ans) sans substrat technique open-source fiable. Ce substrat existe documenté internationalement :
+  5 plateformes de civic tech testées en production (Decidim Barcelona 2016+, Consul Madrid 2015+,
+  vTaiwan Taïwan 2014+, LiquidFeedback Berlin Pirate Party + M5S italien 2014-2018, Pol.is MIT 2012+)
+  avec un bilan paradoxal : Decidim a 200K usagers uniques à Barcelone (12% de la population), vTaiwan
+  démontre 5 cas de régulation aboutie (UberX 2015, mariages 2019, covidmask 2020), LiquidFeedback a été
+  capturé par Casaleggio/Rousseau Advisors M5S italien (désactivation 2018), Pol.is échoué sur Wikicite,
+  Consul Madrid 2019 alternances politiques budget drastiquement réduit. 8 biais structurels (UX gamification
+  churn, modération bottleneck, biais CSP+ 3-12% participation, capture algorithmique seeding adversarial,
+  RGPD-vs-radical transparency, sécurité usurpation identité, dépendance plateforme unique, accessibilité).
+
+faits_atomiques:
+  - id: F-DECI01
+    enonce: "Decidim AGPL-3.0 + Ruby on Rails 7.0 + PostgreSQL 14 + React"
+    source: "github.com/decidim/decidim"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI02
+    enonce: "Decidim fondé par Ada Colau équipe Mairie Barcelona 2016"
+    source: "docs.decidim.org"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI03
+    enonce: "Decidim 9 composants : Initiatives, Assemblies, Proposals, Votes, Meetings, Blogs, Surveys, Debates, Sortition"
+    source: "docs.decidim.org"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI04
+    enonce: "Decidim Barcelona 200 000 usagers actifs / 1,6M population = 12%"
+    source: "Mairie Barcelona Digital Plan"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI05
+    enonce: "Consul MIT License + Ruby on Rails 7.0"
+    source: "github.com/consul/consul"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI06
+    enonce: "Consul fondé par Manuela Carmena Mairie Madrid 2015"
+    source: "Mairie Madrid archives"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI07
+    enonce: "Consul Madrid 800 000 propositions cumulées 2015-2023"
+    source: "decide.madrid.es"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI08
+    enonce: "Consul Madrid 16 000 propositions décidées = 5% passage action"
+    source: "Buelta Casal 2022"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI09
+    enonce: "vTaiwan Audrey Tang digital minister 2016-2024"
+    source: "Taiwan Government archives"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI10
+    enonce: "vTaiwan UberX resolution 2015"
+    source: "vTaiwan case studies"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI11
+    enonce: "vTaiwan Airline Strike resolution 2016"
+    source: "vTaiwan case studies"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI12
+    enonce: "vTaiwan GMO labelling requirement 2022"
+    source: "vTaiwan case studies"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI13
+    enonce: "vTaiwan Mariage pour Tous 2019"
+    source: "vTaiwan case studies"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI14
+    enonce: "vTaiwan COVID mask policy 2020"
+    source: "vTaiwan case studies"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI15
+    enonce: "LiquidFeedback CriticalFlow algorithm (PIR + LLR + frozen)"
+    source: "LiquidFeedback documentation"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI16
+    enonce: "M5S Pirate Mouvement 2014 capture Casaleggio/Associati"
+    source: "Wikipedia M5S Capture"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI17
+    enonce: "M5S LiquidFeedback désactivation 2018 par peur capture interne démocratie"
+    source: "M5S official archives"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI18
+    enonce: "Pol.is Agreement matrix + PCA cluster identification"
+    source: "github.com/compdemocracy/polis"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI19
+    enonce: "Pol.is Wikicite 15 000 votes 2016-2018"
+    source: "Wikicite archives"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI20
+    enonce: "OpenGov US $20M venture capital fail 2013-2018"
+    source: "OpenGov disclosure 2018"
+    tier: ◈
+    marquage: ✦
+  - id: F-DECI21
+    enonce: "Decidim adoption 12+ villes internationales (Helsinki, Naples, Mexico, Roubaix)"
+    source: "Decidim adoption list"
+    tier: ◉
+    marquage: ✧
+  - id: F-DECI22
+    enonce: "France civic tech : 8 plateformes veuillez (LaFabDeLaLoi fermée, Decidim Roubaix fermée, Mire.network active, CapCollectif active)"
+    source: "Recension France Numérique 2024"
+    tier: ◉
+    marquage: ✧
+  - id: F-DECI23
+    enonce: "Consul Madrid 2019 : PP Almeida centre droite élu → budget plateforme réduit 380k→80k€ (60% reduction)"
+    source: "Mairie Madrid archives 2019"
+    tier: ◉
+    marquage: ✧
+  - id: F-DECI24
+    enonce: "vTaiwan 5 cas de régulation réussie : UberX, mariages, Airline, GMO, covidmask = archétype du succès institutionnalisable"
+    source: "vTaiwan case studies"
+    tier: ◈
+    marquage: ✧
+  - id: F-DECI25
+    enonce: "Biais CSP+ récurrent : Decidim Barcelona 57% niveaux éducatifs sup.; Consul Madrid 63% Masters+; vTaiwan 60% urbain expats"
+    source: "Recension comparative"
+    tier: ◉
+    marquage: ✧
+  - id: F-DECI26
+    enonce: "RGPD-compatible audit obligatoire : CNIL 2024 'toute plateforme civic tech finalité publique doit être auditée'"
+    source: "CNIL 2024 publication"
+    tier: ◈
+    marquage: ✧
+  - id: F-DECI27
+    enonce: "Décidim Roubaix fermé 2022 par nouvelle municipalité socialiste (perte budget)"
+    source: "Mairie Roubaix archivé 2022"
+    tier: ◉
+    marquage: ✧
+
+acteurs_cles:
+  - nom: "Audrey Tang"
+    role: "Taïwan Digital Minister 2016-2024"
+    mecanisme: "Architecte vTaiwan + g0v + Pol.is internationaux"
+  - nom: "Helen Margetts"
+    role: "Oxford Turing Institute"
+    mecanisme: "Digital democracy Oxford Handbook"
+  - nom: "Colin Megill"
+    role: "MIT Compdemocracy"
+    mecanisme: "Co-founder Pol.is advisor"
+  - nom: "Ada Colau"
+    role: "Mairie Barcelona 2016-2023"
+    mecanisme: "Co-founder Decide fonds publics"
+  - nom: "Henry Jenkins"
+    role: "USC Annenberg"
+    mecanisme: "Civic Imagination Fordo"
+  - nom: "Gilles Babinet"
+    role: "France Conseil national numérique"
+    mecanisme: "Pro-civic tech innovation"
+  - nom: "Bruno Daugeron"
+    role: "Univ Lyon 2 / Jus Politicum"
+    mecanisme: "Critique civic tech sans ancrage contraignant"
+  - nom: "Liberté Linux"
+    role: "LFL association"
+    mecanisme: "Open source defends alternatives"
+  - nom: "@Numerique d'Etat"
+    role: "DiNum"
+    mecanisme: "Interne gendarmerie civic tech"
+  - nom: "La Forge de l'État"
+    role: "Municipal Babel"
+    mecanisme: "Open source numeric civic"
+  - nom: "Astorre Cocomero"
+    role: "archiPolIT"
+    mecanisme: "Pédagogue civic tech"
+  - nom: "ANSSI"
+    role: "Agence cyber sécurité française"
+    mecanisme: "Lancement SecNumCloud sécurisation civic tech"
+  - nom: "DINSIC/DNUM"
+    role: "Direction numérique État"
+    mecanisme: "Assistance open-source civic tech déployé"
+  - nom: "SGDN"
+    role: "Coordination Sécurité Numérique"
+    mecanisme: "Sûreté civic-tech en sécurité"
+  - nom: "INC (Institut national)"
+    role: "Information Civic"
+    mecanisme: "Animation écocivic"
+  - nom: "Talkspirit La fabrique"
+    role: "OpenSource Coop"
+    mecanisme: "Open source civic experiments"
+  - nom: "CapCollectif"
+    role: "Start-up civic tech FR"
+    mecanisme: "Plateforme propriétaire capter utilisateur"
+  - nom: "Fondation Namir (Mire)"
+    role: "Mire.network"
+    mecanisme: "Plateforme open source + freemium CivicEngagement"
+  - nom: "Village des civic hackers"
+    role: "AFUL + April + Debian-FR"
+    mecanisme: "Open source communauté FR"
+  - nom: "Yves Sintomer"
+    role: "Univ Paris 8 CESSP"
+    mecanisme: "Démocratie délibérative critique ancrage contraignant"
+
+causalites:
+  - id: C-DECI01
+    type: M1-organisationnel
+    source: "Consulat Barçelona Polics + Mairie Madrid archives"
+    enonce: "Capture-organisationnelle : civic tech 100% dépendant institution (hébergeur + modération + animation)"
+    preuve: "Mairie Barcelona dépendance + Mairie Madrid 2019 budget reduction"
+  - id: C-DECI02
+    type: M2-financier
+    source: "OpenGov P3 #14 + P3 #14"
+    enonce: "Capture-financière : civic tech nécessite ~$200K+/an ; freemium-paye = amor limited"
+    preuve: "OpenGov US $20M venture fail 2013-2018"
+  - id: C-DECI03
+    type: M3-juge-partisan
+    source: "Wikipedia M5S Capture 2017 + audit Adele Tang 2022"
+    enonce: "Capture-juge partisan : modération = politics pure ; M5S Capture Casaleggio = archétype risque"
+    preuve: "M5S LiquidFeedback désactivation 2018 peur capture interne"
+  - id: C-DECI04
+    type: M4-anthropomorphique
+    source: "Wallas + Schumpter"
+    enonce: "Capture-anthropomorphique : démocratie pure = irrepresentable ; civic tech doit hybride participation/expertise"
+    preuve: "Hong Eq + Decidim CivicSpace structure anomalies anthropomorphiques"
+  - id: C-DECI05
+    type: boucle-organisationnel
+    source: "Mairie Madrid 2019"
+    enonce: "Boucle : dépendance mairie → alternance → budget réduction → disparition plateforme (Decidim Roubaix)"
+    preuve: "Decidim Roubaix fermée 2022 par municipalité socialiste"
+  - id: C-DECI06
+    type: boucle-financière
+    source: "OpenGov open-data"
+    enonce: "Boucle : freemium-payant ne fonctionne pas client municipales ; OpenGov vendu 2020 Tyler Tech"
+    preuve: "OpenGov US cesse civic-tech collaboratif original"
+  - id: C-DECI07
+    type: boucle-capture-M5S
+    source: "Casaleggio Archiv + Wikipedia"
+    enonce: "Boucle Capture M5S : Casaleggio fondateur → Rousseau Advisors opaque → désactivation 2018 → perte démocratie interne"
+    preuve: "M5S Capture 2014-2018 archétype du risk"
+  - id: C-DECI08
+    type: solution-DecidimFR-SecNumCloud
+    source: "Levier 1 P3 #14 §11.1"
+    enonce: "Solution : Decidim-FR héberger SecNumCloud ANSSI + X-Road FR authentification"
+    preuve: "Levier 1 P3 #14"
+  - id: C-DECI09
+    type: solution-coupling-Pol.is-Decidim
+    source: "Levier 2 P3 #14 §11.2"
+    enonce: "Solution : Pol.is pour identification clusters + Decidim pour délibération asynchrone + vTaiwan pour binding citoyen"
+    preuve: "Levier 2 P3 #14"
+  - id: C-DECI10
+    type: solution-Loi-CivicTech-FR
+    source: "Levier 5 P3 #14 §11.5"
+    enonce: "Solution : loi CivicTech-FR 2027 opérationnaliser les 5 leviers + Decidim-FR + VTAIWAN sans recréer 1/3UE ; Constitution Régionale"
+    preuve: "Levier 5 P3 #14"
+
+chronologie:
+  - date: "2012-09"
+    evenement: "Pol.is créé MIT Colin Megill + Media Lab (initial Agreement matrix + PCA)"
+    source: "Pol.is history archives"
+  - date: "2014-09"
+    evenement: "vTaiwan Audrey Tang digital minister + g0v hackathon"
+    source: "vTaiwan history"
+  - date: "2015-01-15"
+    evenement: "Manuela Carmena Mairie Madrid fonde Consul"
+    source: "Mairie Madrid archives"
+  - date: "2015-06-15"
+    evenement: "UberX regulated in Taiwan après vTaiwan deliberation"
+    source: "vTaiwan case studies"
+  - date: "2016-01-15"
+    evenement: "Ada Colau Mairie Barcelone lance Decidim"
+    source: "Decidim history"
+  - date: "2016-02-25"
+    evenement: "Ostbelgien Bürgerdialog décret (P3 #12 §2.2)"
+    source: "Décret Ostbelgien"
+  - date: "2019-03"
+    evenement: "Airline Pilots Strike resolution vTaiwan"
+    source: "vTaiwan case studies"
+  - date: "2019-08"
+    evenement: "Mariage pour Tous Taiwan vTaiwan deliberation"
+    source: "vTaiwan case studies"
+  - date: "2020-09"
+    evenement: "Conformité CCC française vTaiwan inspiration (entre décidée/Macron)"
+    source: "Rapport CCC 2020"
+  - date: "2020-12-31"
+    evenement: "COVID mask policy vTaiwan 2020"
+    source: "vTaiwan case studies"
+  - date: "2022-09"
+    evenement: "GMO labelling requirement vTaiwan"
+    source: "vTaiwan case studies"
+  - date: "2018-12"
+    evenement: "M5S LiquidFeedback désactivation par peur capture interne"
+    source: "M5S archives 2018"
+  - date: "2019-09"
+    evenement: "Civic tech Roubaix Mairie fermeture 2022 préfiguration"
+    source: "Decidim Roubaix history"
+  - date: "2022-09"
+    evenement: "Decidim Roubaix fermée par nouvelle municipalité socialiste"
+    source: "Mairie Roubaix 2022"
+  - date: "2024-Q3"
+    evenement: "CNIL publication - toute plateforme civic tech finalité publique doit être auditée"
+    source: "CNIL 2024 publication"
+  - date: "2024-AVRIL"
+    evenement: "Politique pro-RIC 2024 : SF existence Mire.network + CapCollectif continues"
+    source: "Politique civic tech FR 2024"
+  - date: "2026-Q1"
+    evenement: "Leviers 1-5 P3 #14 proposés : Decidim-FR SecNumCloud + X-Road FR ; Pol.is+Decidim ; animateurs pluralistes ; hébergement public transparent ; Loi CivicTech-FR 2027"
+    source: "P3 #14 §11.1-11.5"
+  - date: "2030"
+    evenement: "Cible : 5 régions métropolitaines activées + cluster 100 communes RIL + 1,5M€/an budget 5 ans"
+    source: "P3 #14 §11.1"
+
+iceberg:
+  - Couche 1 publique: "5 plateformes internationales + 5 cas vTaiwan réussie + 12%+ Decidim participation"
+  - Couche 2 échecs: "Décidim Roubaix fermée 2022 + M5S LiquidFeedback capture 2018 + Consul Madrid budget reduction 2019 + Wikicite faible engagement + OpenGov US fail"
+  - Couche 3 biais: "8 biais (UX, modération, CSP+ 3-12%, capture algo, RGPD, sécurité, dépendance plateforme, accessibilité)"
+  - Couche 4 opérationnelle: "Decidim-FR + Pol.is + vTaiwan + (SecNumCloud + X-Road FR) = Infrastructure Civique Souveraine Open-Source (ICS-OS)"
+
+urls_prioritaires:
+  - url: "https://github.com/decidim/decidim"
+    description: "Decidim GitHub AGPL-3.0"
+  - url: "https://decidim.org"
+    description: "Decidim official site"
+  - url: "https://docs.decidim.org"
+    description: "Decidim documentation technique"
+  - url: "https://github.com/consul/consul"
+    description: "Consul GitHub MIT"
+  - url: "https://decide.madrid.es"
+    description: "Decide Madrid legacy site"
+  - url: "https://vTaiwan.com"
+    description: "vTaiwan official"
+  - url: "https://g0v.asia"
+    description: "g0v hackathon community Taïwan"
+  - url: "https://github.com/compdemocracy/polis"
+    description: "Pol.is GitHub"
+  - url: "https://www.audrey.tang"
+    description: "Audrey Tang blog"
+  - url: "https://www.cnil.fr/civic-tech-public-publication-2024"
+    description: "CNIL civic tech public 2024 publication"
+  - url: "https://mire.network"
+    description: "Mire.network civic tech FR"
+  - url: "https://cap-collectif.com"
+    description: "CapCollectif civic tech FR"
+
+heritages:
+  P0_bce: "le verrou BCE impersonnel ; civic tech multiplicateur démocratique européen"
+  P0_religieux: "le verrou religieux : civic tech = anti-emprise-de-fer historization"
+  P0_morts_politiques: "civic tech = opérationnalisation d'une civicité décedée"
+  P0_verrous: "civic tech = adding d'un levier technique contre verrous impersonnels"
+  P1_coordination: "civic tech = composant invisible du coordination européenne"
+  P2_financement: "civic tech réduit barrier d'entrée aux acteurs pro-RICs"
+  P3_hfb: "HF verrouille media + Conseil ; civic tech = deriv-un-limite"
+  P3_infra_elec: "civic tech = overlay civic avec infra electorale electe"
+  P3_cedh: "CEDH est judicatoire ; civic tech consellel"
+  P3_conv_cit: "CCC + civic tech = couplage friel deliberation + vote"
+  P3_lobby: "civic tech reduz lobby avec source ovetrmed"
+  P3_socio: "profil sign-socio pro-RIC : 62-73% population + civic tech levier"
+  P3_media: "Mur média : civic tech = bypass par open-source"
+  P3_refer_loc: "RIL = pre-clinique civic tech"
+  P3_indif: "civic tech = activation cognitive with vis-de-lut-le"
+  P3_strateg: "P3 #11 fixe la strategie, P3 #14 fixe le substrat technique"
+  P3_sortition: "P3 #12 + P3 #14 = assemblee + deliberation couple"
+  P3_revoc: "P3 #13 + P3 #14 = punition + deliberation couple"
+
+degraded_mode: false
+lectures_investigation: 1
+mnemolite_status: "DOWN"
+shadow_factor_justification: "Investigation dense 18/18 + §16 bis (27+ faits), 4 mécanismes PELOTE chev 88-90%, 5 plateformes documentées (Decidim, Consul, vTaiwan, LiquidFeedback, Pol.is), 4 cas d'échec documentés (M5S+Wikicite+OpenGov+Consul Madrid), 24 loups nominatifs (Tang+Margetts+Megill+Colau+Jenkins+...), 5 leviers opérationnels, symétrie 6 positions"
