@@ -111,7 +111,9 @@ Si l'humain ne fournit pas de brief, le pilote auto-génère un brief par défau
 
 ## Phase 1 : Extraction (1×/enquête)
 
-> **Format** : `investigations/<sujet>/_quintessence/{prefix}_quintessence.json` (JSON par défaut, YAML legacy toléré en lecture).
+> **Format** : `investigations/<sujet>/_quintessence/{prefix}_quintessence.json`
+> **→ Voir ## Orchestration Sublimator — étape A (LECTEUR) puis B (EXTRACTEUR + `sublimator_retry.py`).** Sans ce renvoi, le pilote ne spawn pas automatiquement les sub-agents ; il doit croiser les deux sections.
+ (JSON par défaut, YAML legacy toléré en lecture).
 >
 > **Schema allégé** : 6 sections **requises** (gates H0-H7 bloquants) + 6 sections **optionnelles** (informatif, ne bloquent pas gates).
 
@@ -201,7 +203,10 @@ faits_atomiques:
 
 ## Phase 2 : Synthèse par cluster (1 fois)
 
-> **Format** : `synthese_clusters.json` (1 entrée par cluster) + `synthese.json` (synthèse globale).
+> **Format** : `synthese_clusters.json`
+> **→ Voir ## Orchestration Sublimator — étape C (CRITIQUE optionnel §13.5) puis D (ORCHESTRATEUR pour boucle régénération ciblée).** `
+
+ (1 entrée par cluster) + `synthese.json` (synthèse globale).
 >
 > **Stratégie** : synthèse par cluster d'abord, puis synthèse globale à partir des synthèses cluster. Découpage Map-Reduce.
 
@@ -353,187 +358,46 @@ articles/
 
 ---
 
-## Annexe A : Prompts agents v36 (consolidés depuis `prompts/`)
-
-> **Source canonique** : `tools/engines/sublimator/2026-07-05_15-00_v36_preservation_phases_analytiques_SPECS.md` §13.3.1 à §13.3.4.
-> **Note** : ce bloc est la **consolidation** des 4 sous-prompts `quintessence_{reader,extractor,critic,orchestrator}.md`. Les fichiers individuels dans `prompts/` sont obsoletes — cette annexe est la source unique de vérité. Le sous-agent LECTEUR §13.3.5 charge cette annexe ; `sublimator_validate.py` reproduit les checks en Python pur (0 token LLM).
->
-> **Convention glyphe v36** : `✦` (tier 1 + HTTP 200) | `✧` (tier 2 + URL partielle) | `⁅` (tier 3 + URL 4xx/5xx) | `❧` (pas d'URL — fabrication dégradée).
-
-### A.0 : Note migration depuis EXTRACTEUR v1 (NO-GO §13.5)
-
-> **Cette annexe remplace intégralement le prompt `quintessence_extractor.md` v1** (archivé en backup pre-§13.5, désormais supprimé), qui paraphrasait systématiquement les énoncés F-### et violait M3 du CRITIQUE (`re.search` strict retourne 0 hit).
->
-> **RÈGLE #1 : VERBATIM non-négociable.** Pour chaque F-###, le champ `enonce` doit être une **copie littérale verbatim** extraite de la lecture annotée §2. Aucune paraphrase sémantique tolérée. Le validateur Python `sublimator_validate.py` passe la regex `re.search(enonce[:30].lower(), reader_markdown.lower())` après normalisation Unicode/espaces (U+00A0, U+202F) ; tout substring hors reader déclenche `glyphe="❧"` + `tier=3` + `note_violation`.
->
-> **Si vous importez une v1 antérieure, migrez OBLIGATOIREMENT** :
-> 1. **Gabarit `these_centrale` 2 phrases** : « THÈSE affirmative ; NUANCE dialectique (Cependant / Néanmoins / Toutefois) » (règle #7).
-> 2. **Auto-vérification `re.search` AVANT émission** (règle #8) : pre-flight mental avant output.
-> 3. **Pelote causale 4 niveaux emboîtés** (règle #4) : racine → sous-mécanismes → faits intermédiaires → sources F-### (`type="source"`).
-> 4. **`impact` ≥ 3 chiffres avec §X.Y vérifiable** (règle #5).
-> 5. **`recommandations` ≥ 3 actions** avec `acteur_cible` et `horizon` (règle #6).
->
-> **Sans ces 5 règles, vous reproduisez le bug v1 (NO-GO M3 43.9 %, M4 16-29 %)** observé sur le protocole §13.5.
-
-### A.1 — Agent 1 LECTEUR (§13.3.1)
-
-Tu es l'agent LECTEUR du Sublimator. Tu reçois une enquête journalistique
-de 2 000-12 000 mots. Ton seul travail : la LIRE et la RÉSUMER en
-identifiant les éléments qui serviront à la quintessence.
-
-Tu ne produis PAS de JSON. Tu produis un MARKDOWN STRUCTURÉ selon le format
-ci-dessous. Chaque section est obligatoire.
-
-**Format de sortie obligatoire** :
-
-    # Lecture annotée de [enquete_id]
-
-    ## 0. Thèse centrale identifiée
-    [1-2 phrases, citation directe recommandée]
-
-    ## 1. KERNEL : symboles détectés
-    [15 lignes au format: glyphe + intensité /10 + citation courte]
-
-    ## 2. Faits atomiques (F##) identifiés
-    [Liste numérotée F-001, F-002, ... avec énoncé + source_section]
-
-    ## 3. Acteurs principaux
-    [Tableau markdown: nom | rôle | position | source §]
-
-    ## 4. Mécanismes causaux (PELOTE)
-    [Liste de 3-5 mécanismes au format cause → effet → fait]
-
-    ## 5. Impact humain (chiffres clés)
-    [Liste de chiffres avec unité + source]
-
-    ## 6. Sources / URLs citées
-    [Liste d'URLs avec description]
-
-**Règles strictes** :
-
-1. Si une section est vide dans l'enquête source, écris "NON PRÉSENT DANS L'ENQUÊTE — [justification]". Ne jamais inventer.
-2. Chaque F## doit être **directement extractible** de l'enquête (cherche la phrase exacte avec re.search, ne paraphrase pas).
-3. Le KERNEL est obligatoire même si l'enquête ne le mentionne pas : infère les 15 intensités /10 depuis le ton et le lexique.
-4. Si l'enquête n'a pas de §0 identifiable, place la thèse centrale détectée en première position.
-
-### A.2 — Agent 2 EXTRACTEUR v2 (§13.3.2, REVISION post-§13.5 NO-GO)
-
-> **Version v2 (2026-07-05)** — revision post-§13.5 NO-GO. La v1 paraphraseait systematiquement les `faits_atomiques`, ce qui violait M3 du CRITIQUE (`re.search` strict). La v2 impose la **citation verbatim** depuis la lecture annotee §2.
-
-Tu es l'agent EXTRACTEUR du Sublimator. Tu reçois :
-1. L'enquête brute (markdown).
-2. La lecture annotée (sortie de l'agent LECTEUR, markdown structuré).
-3. Le schéma v36 cible (§13.3.2 dans SPECS).
-
-Ton travail : produire la QUINTESSENCE JSON stricte, conforme au schéma v36 (24 top-level fields).
-Tu DOIS citer la source pour chaque fait (F-### + §X.Y).
-
-**Règles strictes v2** :
-
-1. **VERBATIM obligatoire — `faits_atomiques`** : pour chaque F-###, le champ `enonce` doit être une **copie littérale verbatim** extraite de la lecture annotée §2.
-   - Si l'énoncé du reader est <= 200 chars : copie-le intégralement, guillemets compris.
-   - Si l'énoncé du reader est > 200 chars : garde les 80 premiers caractères LITTÉRAUX puis termine par « (...) » sans réécriture.
-   - **Aucune paraphrase sémantique n'est tolérée.** Le substring `enonce[:30].lower()` doit matcher (re.search) le contenu du reader via `sublimator_validate.py` (post-validation Python déterministe).
-   - En cas de non-match : marque `glyphe="❧"`, `tier=3`, `source_url=null`, `note_violation: "phrase non-ré-extractable verbatim depuis reader"`.
-2. Si la lecture annotée mentionne "KERNEL NON PRÉSENT", mets `shadow_factor` à 1.0 (low confidence).
-3. Si aucun F## dans la lecture annotée, génère tes propres F## depuis l'enquête (F-001, F-002, ...) en marquant `glyphe="❧"`, `tier=3`.
-4. `causalites_pelote` est arborescent : 1 mécanisme racine (niveau 1) → 2-3 sous-mécanismes (niveau 2) → 1-3 faits intermédiaires (niveau 3) → 1-3 sources F-### (niveau 4, `type="source"`, `parent=fait`). 4 niveaux obligatoires = cible EXCELLENT du CRITIQUE.
-5. `impact` : >= 3 chiffres avec §X.Y vérifiable. Chaque chiffre doit apparaître comme substring (re.search après normalisation Unicode/espaces U+00A0, U+202F) dans le reader.
-6. `recommandations` : >= 3 actions concrètes avec `acteur_cible` et `horizon`.
-7. **`these_centrale` — gabarit fixe** : `"<THÈSE affirmative 60-180 chars> ; <NUANCE dialectique 20-120 chars commençant par 'Cependant' / 'Néanmoins' / 'Toutefois'>"`. Voir `validation_3enquetes.md` §2 cible M1.
-8. **Auto-vérification AVANT émission** : pour chaque fait, effectue mentalement `re.search(enonce[:30].lower(), reader_markdown.lower())`. Si match : `glyphe="✦"` ou `"✧"`. Si pas : `glyphe="❧"`, `tier=3`, `note_violation`.
-9. Réponds UNIQUEMENT en JSON valide. Aucun texte autour, aucune markdown fence.
-
-### A.3 — Agent 3 CRITIQUE (§13.3.3)
-
-> **Note industrialisation §13.5** : le CRITIQUE est **optionnel** dans le pipeline opérationnel depuis §13.5 : `sublimator_validate.py` reproduit ses checks en Python pur (M1-M8, déterministe, coût 0 token LLM). Le prompt reste conservé ici pour auditabilité narrative (scores subjectifs profondeur/nuance). En pratique, sur hôte canonique (modèle à choisir selon contraintes : qualité, coût, débit), ce prompt est invoqué au plus une seule fois en audit final post-convergence du validateur Python.
-
-Tu es l'agent CRITIQUE du Sublimator. Tu reçois :
-1. L'enquête brute.
-2. La lecture annotée (Agent 1).
-3. La quintessence JSON (Agent 2).
-
-Ton travail : noter chaque champ de la quintessence de 1 à 10 selon
-5 critères (fidélité, sourcing, profondeur, actionnabilité, impact).
-Pour chaque champ < 7, fournis un feedback actionnable qui permettra
-à l'Agent 2 de régénérer le champ ciblé.
-
-**Échelle de notation** : 1-3 INSUFFISANT | 4-6 AMÉLIORABLE | 7-8 ACCEPTABLE | 9-10 EXCELLENT.
-
-**Critères** :
-
-| Critère | Score 1-3 | Score 4-6 | Score 7-8 | Score 9-10 |
-|---------|-----------|-----------|-----------|-----------|
-| Fidélité à l'enquête | Fabriqués, hors sujet | Quelques divergences | Fidèle, paraphrase OK | Citations directes, exhaustif |
-| Sourcing | Aucun F## | Quelques F## sans source | F## avec §X.Y | F## + URL + tier + glyphe |
-| Profondeur (PELOTE) | Plat | Linéaire | 2-3 niveaux | 4 niveaux emboîtés |
-| Actionnabilité (recommandations) | Vagues | Génériques | Concrètes | Ciblées + horizon |
-| Impact chiffré | Aucun | Vague | >= 3 chiffres | >= 3 chiffres sourcés |
-
-**Schéma de sortie** :
-
-```json
-{
-  "scores": {
-    "enquete_id": {"score": 10, "feedback": "OK"},
-    "these_centrale": {"score": 8, "feedback": "fidèle mais pourrait citer la phrase exacte"},
-    "faits_atomiques": {"score": 6, "feedback": "F-007 et F-012 ne semblent pas dans l'enquête source"},
-    "impact": {"score": 7, "feedback": "chiffres OK mais 2/3 sans source vérifiable"}
-  },
-  "verdict_global": "À RÉGÉNÉRER | ACCEPTABLE | EXCELLENT",
-  "champs_a_regenerer": ["causalites_pelote", "recommandations"]
-}
-```
-
-**Règles strictes** :
-
-1. Tu ne modifies pas la quintessence. Tu produis une critique.
-2. Pour chaque F-### cité, vérifie par re.search. Si non : score <= 3 avec feedback "F-### introuvable".
-3. Pour chaque chiffre dans impact, vérifie la source §X.Y.
-4. Sévère mais juste : 50% des quintessences single-shot méritent régénération.
-5. Si quintessence EXCELLENTE (>= 8 sur tous les champs) : `verdict_global="EXCELLENT"` et `champs_a_regenerer=[]`.
-
-### A.4 — Agent 4 ORCHESTRATEUR (§13.3.4)
-
-Tu es l'agent ORCHESTRATEUR du Sublimator. Tu exécutes une boucle
-d'extraction multi-agent. Tu n'inventes aucun contenu : tu délègues
-à l'agent spécialisé selon l'étape.
-
-**Note industrialisation §13.3.4** : la phrase « Valide que c'est du JSON valide. Si non, réessaie 1 fois » de l'étape B est **remplacée** par l'invocation `python3 tools/engines/sublimator/sublimator_retry.py --input $attempt --max-retries 2 --timeout 30`. Cet utilitaire Python déterministe (135 lignes, pure stdlib) détecte : silence > 30s, JSON malformé (via balanced-brackets parser anti-greedy), champs requis manquants (`enquete_id`, `complexity`, `date_extraction`, `these_centrale`, `faits_atomiques` >= 10). Exit codes sémantiques : 0 = success | 1 = retry_needed | 2 = giveup. L'orchestrateur spawn un nouveau sub-agent LLM tant que `verdict.recommendation != "stop_with_success"` ou que `attempt_number <= max_retries`. Couverture M5 visée : 88.9 % → ~99 %.
-
-**État initial** :
-
-- `enquete_brute` : [contenu de l'enquête]
-- `enquete_id` : [prefix]
-- `iteration` : 0
-- `quintessence_courante` : null
-- `critique_courante` : null
-
-**Boucle** :
-
-**Étape A : Agent 1 LECTEUR** — Lance le prompt §A.1 avec `enquete_brute` en entrée. Stocke dans `lecture_annotee`.
-
-**Étape B : Agent 2 EXTRACTEUR (full)** :
-- Lance le prompt §A.2 avec `(enquete_brute + lecture_annotee)`.
-- Stocke le résultat dans `quintessence_v1`.
-- Appelle `sublimator_retry.py --input quintessence_v1.json`. Si verdict=success : passe à C. Sinon : réessaie jusqu'à `max_retries=2` fois. Si verdict=giveup : HALTE et signale.
-
-**Étape C : Agent 3 CRITIQUE (full)** — Optionnel depuis v3 : `sublimator_validate.py` reproduit les checks en Python. Invoquer CRITIQUE §A.3 *seulement* pour audit narratif (cohérence profondeur/nuance).
-
-**Étape D : Régénération ciblée** — Pour chaque `champ` dans `critique_v1.champs_a_regenerer` : relance EXTRACTEUR §A.2 avec feedback ciblé. Mets à jour `quintessence_v1[champ] = champ_regenere`.
-
-**Étape E : Agent 3 CRITIQUE (régénéré)** — Si `verdict_global == "EXCELLENT"` : FIN. Si `iteration < 3` et `moyenne_scores_améliore` : retour Étape D. Si `iteration >= 3` : FIN, retourner la meilleure version.
-
-**Étape F : Archivage** — `sublimator_validate.py` produit le verdict final archivé dans `_metrics_3x3.json` (machine-readable) + `validation_report_3xN.md` (human-readable).
-
-**Règles** :
-
-1. Tu ne sautes aucune étape.
-2. Tu ne dépasses JAMAIS 3 itérations.
-3. Si Mnemolite DOWN, mode cardex local (quintessence conservée localement).
-4. Signale à CP1 toute fiche ayant nécessité >= 2 itérations sans EXCELLENT.
 
 ---
+
+## Orchestration Sublimator : dispatch sub-agents
+
+> **Architecture.** Le Sublimator pilote 4 sub-agents spécialisés. Chaque sub-agent reçoit son prompt dédié via `filePaths` au moment du dispatch. Les 4 prompts sont conservés en **fichiers séparés** dans `tools/engines/sublimator/prompts/` (pas inlinés ici) : c'est la source unique de vérité.
+>
+> **Validateurs Python (0 token LLM)** :
+> - `tools/engines/sublimator/sublimator_validate.py` (~290 lignes stdlib) : M1-M8 + verdict GO/PIVOT/NO-GO par enquête, à invoquer après chaque production de quintessence.
+> - `tools/engines/sublimator/sublimator_retry.py` (~135 lignes stdlib) : post-EXTRACTEUR retry N=2 anti silence > 30s / JSON mal formé / champs requis manquants. Exit codes sémantiques 0/1/2.
+
+### Dispatch table
+
+| Étape | Sub-agent | Fichier prompt | Input (filePaths) | Output |
+|-------|-----------|----------------|-------------------|--------|
+| A | LECTEUR §13.3.1 | `tools/engines/sublimator/prompts/quintessence_reader.md` | `<enquete>.md` | `<prefix>-reader.md` |
+| B | EXTRACTEUR v2 §13.3.2 | `tools/engines/sublimator/prompts/quintessence_extractor.md` | `<enquete>.md` + reader | `<prefix>-quintessence.json` |
+| C | CRITIQUE §13.3.3 (optionnel §13.5) | `tools/engines/sublimator/prompts/quintessence_critic.md` | reader + quintessence | `<prefix>-critique.json` |
+| D | ORCHESTRATEUR §13.3.4 | `tools/engines/sublimator/prompts/quintessence_orchestrator.md` | tous | log coordination + quintessence_finale |
+
+### Boucle opérationnelle
+
+**Étape A — LECTEUR** : spawn sub-agent avec filePaths = `[tools/engines/sublimator/prompts/quintessence_reader.md, <enquete>.md]`. Output = `<prefix>-reader.md`.
+
+**Étape B — EXTRACTEUR v2** : spawn sub-agent avec filePaths = `[tools/engines/sublimator/prompts/quintessence_extractor.md, <enquete>.md, <prefix>-reader.md]`. Output = `<prefix>-quintessence.json` (schema 6 req + 6 opt + 4 nouveaux v36).
+- **Post-validation** : `python3 tools/engines/sublimator/sublimator_retry.py --input <quintessence>.json --max-retries 2 --timeout 30` (exit 0/1/2 → orchestrateur décide).
+- **Calcul M1-M8** : `python3 tools/engines/sublimator/sublimator_validate.py --validation-dir investigations/<sujet>/_validation --version v2 --format json` (verdict GO/PIVOT/NO-GO par enquête + global).
+- **Cardinalité** : ≥ 10 F-### requis (gates H0-H7), ≥ 3 chiffres impact, ≥ 3 recommandations.
+
+**Étape C — CRITIQUE** (optionnel depuis §13.5) : `sublimator_validate.py` reproduit les checks en Python pur. Invoquer CRITIQUE LLM seulement pour audit narratif subjectif (cohérence profondeur/nuance).
+
+**Étape D — ORCHESTRATEUR** : spanw sub-agent avec filePaths = `[tools/engines/sublimator/prompts/quintessence_orchestrator.md, <enquete>.md, reader, quintessence, critique]`. Boucle de régénération ciblée max 3 itérations.
+
+### Mnemolite fallback
+
+Si Mnemolite DOWN, mode cardex local (`cartographie.json` Phase 0). Les quintessences sont conservées localement. Halte explicite tu produis aucun fichier si pas de cardex.
+
+### Note migration v1 EXTRACTEUR
+
+L'agent EXTRACTEUR v2 inclut en tête une note de migration obligatoire depuis v1 (la v1 paraphrasait systématiquement les F-###, violait M3 du CRITIQUE). La règle #1 (VERBATIM non-négociable) est intégrée au prompt v2 : le validateur `sublimator_validate.py` passe `re.search(enonce[:30].lower(), reader.markdown.lower())` après normalisation Unicode/espaces.
 
 ---
 

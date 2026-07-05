@@ -83,23 +83,23 @@ ls -la tools/engines/sublimator/sublimator_retry.py
 ### 4.2 Pour chaque enquête, pour chaque run (9 itérations)
 
 **Étape A — LECTEUR :**
-- Spawner un sous-agent LLM avec filePaths = [`tools/engines/sublimator/prompt-v35.md#a1-agent-1-lecteur`, `<enquête>.md`]
-- Prompt : "Tu es l'Agent 1 (LECTEUR) défini en Annexe A.1 de `prompt-v35.md`. Lis l'enquête et produis UNIQUEMENT le markdown structuré défini dans la section 'Format de sortie obligatoire' du prompt. Aucun commentaire autour."
+- Spawner un sous-agent LLM avec filePaths = [`tools/engines/sublimator/prompts/quintessence_reader.md`, `<enquête>.md`]
+- Prompt : "Tu es l'Agent 1 (LECTEUR) défini défini dans `quintessence_reader.md`. Lis l'enquête et produis UNIQUEMENT le markdown structuré défini dans la section 'Format de sortie obligatoire' du prompt. Aucun commentaire autour."
 - Capturer l'output dans `investigations/2026-07-04-RIC/_validation/{enquete_id}-reader-run{N}.md`
 
 **Étape B — EXTRACTEUR :**
-- Spawner un sous-agent LLM avec filePaths = [`tools/engines/sublimator/prompt-v35.md#a2-agent-2-extrateur-v2`, `<enquête>.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-reader-run{N}.md`]
-- Prompt : "Tu es l'Agent 2 (EXTRACTEUR) défini en Annexe A.2 (EXTRACTEUR v2 REVISION post-§13.5 NO-GO) de `prompt-v35.md`. Lis l'enquête + lecture annotée et produis UNIQUEMENT le JSON strict conforme au schéma 'Schéma cible' du prompt (6 req + 6 opt v35 + 4 nouveaux v36). Aucun commentaire."
+- Spawner un sous-agent LLM avec filePaths = [`tools/engines/sublimator/prompts/quintessence_extractor.md`, `<enquête>.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-reader-run{N}.md`]
+- Prompt : "Tu es l'Agent 2 (EXTRACTEUR) défini défini dans `quintessence_extractor.md` (v2 REVISION post-§13.5 NO-GO). Lis l'enquête + lecture annotée et produis UNIQUEMENT le JSON strict conforme au schéma 'Schéma cible' du prompt (6 req + 6 opt v35 + 4 nouveaux v36). Aucun commentaire."
 - Capturer l'output dans `investigations/2026-07-04-RIC/_validation/{enquete_id}-quintessence-run{N}.json`
 
 **Étape C — CRITIQUE (optionnel depuis §13.5, sublimator_validate.py suffit en pratique) :**
-- Spawner un sous-agent LLM avec filePaths = [`tools/engines/sublimator/prompt-v35.md#a3-agent-3-critique`, `<enquête>.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-reader-run{N}.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-quintessence-run{N}.json`]
-- Prompt : "Tu es l'Agent 3 (CRITIQUE) défini en Annexe A.3 de `prompt-v35.md`. Lis l'enquête + lecture + quintessence et produis UNIQUEMENT le JSON critique conforme au schéma 'Schéma de sortie' (scores + verdict_global + champs_a_regenerer)."
+- Spawner un sous-agent LLM avec filePaths = [`tools/engines/sublimator/prompts/quintessence_critic.md`, `<enquête>.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-reader-run{N}.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-quintessence-run{N}.json`]
+- Prompt : "Tu es l'Agent 3 (CRITIQUE) défini défini dans `quintessence_critic.md`. Lis l'enquête + lecture + quintessence et produis UNIQUEMENT le JSON critique conforme au schéma 'Schéma de sortie' (scores + verdict_global + champs_a_regenerer)."
 - Capturer l'output dans `investigations/2026-07-04-RIC/_validation/{enquete_id}-critique-run{N}.json`
 
 **Étape D — ORCHESTRATEUR (optionnel, pour test full-pipeline 4 agents SPECS §13.5.1) :**
-- Spawner un sous-agent LLM avec filePaths = [`tools/engines/sublimator/prompt-v35.md#a4-agent-4-orchestrateur`, `<enquête>.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-reader-run{N}.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-quintessence-run{N}.json`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-critique-run{N}.json`]
-- Prompt : "Tu es l'Agent 4 (ORCHESTRATEUR) défini en Annexe A.4 de `prompt-v35.md`. Tu coordonnes la chaîne LECTEUR → EXTRACTEUR → CRITIQUE selon la boucle du prompt. Produis la quintessence_finale + log des itérations effectuées."
+- Spawner un sous-agent LLM avec filePaths = [`tools/engines/sublimator/prompts/quintessence_orchestrator.md`, `<enquête>.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-reader-run{N}.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-quintessence-run{N}.json`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-critique-run{N}.json`]
+- Prompt : "Tu es l'Agent 4 (ORCHESTRATEUR) défini défini dans `quintessence_orchestrator.md`. Tu coordonnes la chaîne LECTEUR → EXTRACTEUR → CRITIQUE selon la boucle du prompt. Produis la quintessence_finale + log des itérations effectuées."
 - Capturer l'output dans `investigations/2026-07-04-RIC/_validation/{enquete_id}-orchestrator-run{N}.json`
 
 > **Note** : le mode 3-agents (LECTEUR+EXTRACTEUR+CRITIQUE) produit **27 appels LLM** (sans orchestrateur) suffisant pour valider variance + hallucination + score critic. Le mode 4-agents + orchestrateur produit **36 appels** et permet aussi de tester la boucle de régénération ciblée. Cible par défaut de cette exécution : 4 agents × 3 runs × 3 enquêtes = **36 appels LLM** (décomposition ci-dessus).
