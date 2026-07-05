@@ -154,3 +154,114 @@ def test_phase_0_no_duplicate_step_4():
         f"§Phase 0 Avant d'écrire : {len(numbered)} lignes numérotées trouvées "
         f"(attendu 5 après V11)"
     )
+
+
+# 11. PIVOT C2.1 : M9 metric enforcement Q4 isolation Mnemolite
+
+def test_m9_enforces_isolation_tag_in_quintessence():
+    """Test que m9_mnemolite_tag_isolation() compte correctement les violations.
+
+    Verifie que la fonction M9 detecte les requetes sans tag
+    'sublimator:enquete_id=<id>' obligatoire (Q4 audit v35).
+    """
+    vald = SUB / "sublimator_validate.py"
+    assert vald.exists(), "sublimator_validate.py manquant pour test M9"
+    # Import direct pour tester la fonction
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("sublimator_validate", vald)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    # Quintessence conforme : 4 requetes toutes taggees correctement
+    quin_ok = {
+        "enquete_id": "test_enq_1",
+        "mnemo_queries": [
+            {"query": "ric veto_majoritaire", "tags": ["sublimator:enquete_id=test_enq_1"]},
+            {"query": "assemblee nationale ric", "tags": ["sublimator:enquete_id=test_enq_1"]},
+            {"query": "petition constituant", "tags": ["sublimator:enquete_id=test_enq_1"]},
+            {"query": "referendum revocatoire", "tags": ["sublimator:enquete_id=test_enq_1"]},
+        ],
+    }
+    v, n, pct = mod.m9_mnemolite_tag_isolation(quin_ok, enquete_id="test_enq_1")
+    assert v == 0, f"M9 avec 4/4 taggees : v attendu=0, got={v}"
+    assert n == 4, f"M9 : n attendu=4, got={n}"
+    assert pct == 0.0, f"M9 : pct attendu=0.0, got={pct}"
+    # Quintessence NON conforme : 4 requetes, 3 sans tag
+    quin_bad = {
+        "enquete_id": "test_enq_2",
+        "mnemo_queries": [
+            {"query": "ric veto_majoritaire", "tags": []},  # violation
+            {"query": "assemblee nationale ric", "tags": ["other_tag"]},  # violation
+            {"query": "petition constituant", "tags": ["sublimator:enquete_id=test_enq_2"]},  # OK
+            {"query": "referendum revocatoire"},  # violation (no tags key)
+        ],
+    }
+    v, n, pct = mod.m9_mnemolite_tag_isolation(quin_bad, enquete_id="test_enq_2")
+    assert v == 3, f"M9 avec 3 violations sur 4 : v attendu=3, got={v}"
+    assert n == 4, f"M9 : n attendu=4, got={n}"
+    assert pct == 75.0, f"M9 : pct attendu=75.0, got={pct}"
+
+
+# 12. PIVOT C2.2 : cartographie cluster depth >= 4 (granularite thematique)
+
+def test_cartographie_cluster_depth_thematic():
+    """Test que _cluster_keywords_fallback() produit >= 4 clusters sur 42 enquetes.
+
+    Au-dela du grouping complexite (qui collapse 86% en 1 mega-cluster),
+    le keywords-fallback doit produire une granularite thematique >= 4 clusters.
+    """
+    carto = SUB / "extractors" / "cartographie.py"
+    assert carto.exists(), "extractors/cartographie.py manquant pour test cluster depth"
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("cartographie", carto)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    # 42 enquetes synthetiques : 4 themes distincts avec keywords (10-12 fiches chacun)
+    themes = [
+        (["ric", "referendum", "veto", "petition", "constituant"], 11),
+        (["assemblee", "senat", "loi", "amendement", "49.3"], 11),
+        (["numerique", "donnees", "rgpd", "gafam", "cnil"], 10),
+        (["sante", "hopital", "medecin", "urssaf", "sécurité"], 10),
+    ]
+    entries = []
+    for theme_keywords, count in themes:
+        for i in range(count):
+            entries.append({
+                "prefix": f"test_{theme_keywords[0]}_{i}",
+                "complexite": "unknown",
+                "keywords": theme_keywords,
+            })
+    # Run le clustering avec seuil 0.3 sur les 42 fiches synthetiques
+    clusters = mod._cluster_keywords_fallback(entries, jaccard_threshold=0.3)
+    assert len(clusters) >= 4, (
+        f"PIVOT C2.2 : attendu >= 4 clusters thematiques sur 42 fiches, "
+        f"got {len(clusters)} (granularite insuffisante - mega-cluster detecte)"
+    )
+    # Verifie que les plus gros clusters ont >= 10 fiches (anti-mega-cluster)
+    sizes = sorted([c["n_enquetes"] for c in clusters], reverse=True)
+    assert sizes[0] <= 15, (
+        f"PIVOT C2.2 : plus gros cluster a {sizes[0]} fiches (max attendu 15 pour eviter mega-cluster)"
+    )
+
+
+# 13. PIVOT C2.2 : integration dans run() - cluster_method flag
+
+def test_cartographie_run_includes_cluster_method():
+    """Test que cartographie.run() expose cluster_method='thematic_keywords_fallback'
+    quand >= 3 clusters sont produits (override complexite_fallback).
+    """
+    import pytest
+    dossier = ROOT / "investigations" / "2026-07-04-RIC"
+    if not dossier.is_dir():
+        pytest.skip("Dossier investigations/2026-07-04-RIC/ absent en CI - skip silencieux")
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("cartographie", SUB / "extractors" / "cartographie.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    r = mod.run(dossier, mode="python")
+    assert r["cluster_method"] in ("thematic_keywords_fallback", "complexite_fallback"), (
+        f"cluster_method inattendu: {r['cluster_method']}"
+    )
+    assert r["n_clusters"] >= 4, (
+        f"PIVOT C2.2 cible : n_clusters >= 4 (granularite thematique), "
+        f"got {r['n_clusters']} (regression vers 0-2 clusters mega-collapsed)"
+    )

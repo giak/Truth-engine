@@ -47,6 +47,7 @@ CIBLES_GO = {
     "M6": 50000,   # tokens/enquete < 50000
     "M7": 10.0,    # min latence < 10
     "M8": 7.0,     # score critic moyen >= 7
+    "M9": 5.0,     # % violations isolation Mnemolite < 5 (PIVOT C2.1)
 }
 
 CIBLES_NO_GO = {
@@ -58,6 +59,7 @@ CIBLES_NO_GO = {
     "M6": 100000,
     "M7": 20.0,
     "M8": 5.0,
+    "M9": 5.0,     # M9 (PIVOT C2.1) NO-GO si > 5% violations isolation
 }
 
 # Espaces insécables Unicode à normaliser avant re.search (résout bug M4 v1).
@@ -70,12 +72,12 @@ INSECABLES = "\u00A0\u202F"
 
 def norm(s: str) -> str:
     """Normalise lower + retire espaces/insécables + ponctuation markdown (M1 audit v35).
-    
+
     Étendu M1 fix : retire aussi . , ; : ' " ( ) [ ] - pour tolérer les variantes
     de ponctuation entre enonce (quintessence) et reader markdown. Réduit les faux
     positifs hallucination M3/M4 (VERBATIM respecte malgré ponctuation différente).
     """
-    PUNCT = "\.,;:\u2019'"()[]\u2014—-"  # .,;: apostrophes guillemets parens crochets tirets
+    PUNCT = "\\.,;:\u2019'\"()[]\u2014\u2013-"  # backslash, dot, comma, semi, colon, ’ apostrophe curve, ' apostrophe, " double quote, parens, brackets, em-dash, en-dash, hyphen
     return re.sub(rf"[{INSECABLES}{PUNCT}\s]+", "", (s or "").lower())
 
 
@@ -183,6 +185,46 @@ def m8_quality_proxy(quin: dict) -> Tuple[int, int, float]:
     return h, n, score
 
 
+# M9 PIVOT C2.1 : enforcement isolation Mnemolite (Q4 audit v35)
+def m9_mnemolite_tag_isolation(quin: dict, enquete_id: str = "") -> Tuple[int, int, float]:
+    """M9 : % de requetes Mnemolite qui violent l'isolation par tag enquete_id (Q4 audit v35).
+
+    Verifie que chaque mnemo_query porte AU MOINS UN tag EXACTEMENT egal a
+    'sublimator:enquete_id=<enquete_id>' (split sur separateurs ',; ').
+    PIVOT C2 revue code-reviewer : soit match EXACT (split + equality), pas substring,
+    soit regex fullmatch `sublimator:enquete_id=^{enquete_id}$`. Si manquant ou
+    enquete_id different : compte comme violation isolation.
+    Cible GO : pct_violations <= 5%. Cible NO-GO : pct_violations > 5%.
+    """
+    queries = quin.get("mnemo_queries", [])
+    n = len(queries)
+    if n == 0:
+        # PIVOT C2 finale : NO-GO safe default (etait 0.0.0 = free-pass silencieux).
+        # Convention Q4 audit v35 : absence de mnemo_queries doit etre penalisante,
+        # sinon un sub-agent peut contourner l'isolation en omettant le champ.
+        return 0, 0, 100.0
+    expected = f"sublimator:enquete_id={enquete_id}" if enquete_id else None
+    if expected is None:
+        # Pas d'enquete_id fournie = on ne peut rien verifier strictement. NO-GO safe.
+        return n, n, 100.0
+    violations = 0
+    for q in queries:
+        tags = q.get("tags", []) or []
+        if isinstance(tags, str):
+            tags = [tags]
+        # Tag peut etre multi-separes (str "a,b" ou list ["a", "b"]). On split puis compare exact.
+        norm_tags = []
+        for t in tags:
+            for piece in str(t).replace(",", ";").split(";"):
+                p = piece.strip()
+                if p:
+                    norm_tags.append(p)
+        if expected not in norm_tags:
+            violations += 1
+    pct = round((violations / n * 100), 1) if n else 0.0
+    return violations, n, pct
+
+
 # ---------------------------------------------------------------------------
 # IO : chargement du dossier _validation/
 # ---------------------------------------------------------------------------
@@ -231,9 +273,9 @@ def find_reader(enq_id: str, readers: Dict[str, str]) -> str:
 
 def verdict_from_metrics(metrics: Dict[str, float]) -> Tuple[str, int]:
     """Décide GO/PIVOT/NO-GO selon §13.5.3 strict + retourne exit code.
-    Cible go : M1>=0.7, M2>=0.6, M3<5, M4<5, M5==100, M6<50000, M7<=10, M8>=7.
-    Cible no-go : M1<0.5, M2<0.4, M3>15, M4>15, M5<95, M6>100000, M7>20, M8<5.
-    GO requiert >=6/8 metriques dans cible go ET M1>=0.7 ET M3<5 ET M4<5.
+    Cible go : M1>=0.7, M2>=0.6, M3<5, M4<5, M5==100, M6<50000, M7<=10, M8>=7, M9<=5% violations.
+    Cible no-go : M1<0.5, M2<0.4, M3>15, M4>15, M5<95, M6>100000, M7>20, M8<5, M9>5% violations.
+    GO requiert >=6/9 metriques dans cible go ET M1>=0.7 ET M3<5 ET M4<5.
     M7=None (mode retroactif) n'est pas compte dans nb_go (neutralite).
     """
     m1 = metrics.get("M1") or 0.0
@@ -244,6 +286,7 @@ def verdict_from_metrics(metrics: Dict[str, float]) -> Tuple[str, int]:
     m6 = metrics.get("M6") or 0.0
     m7 = metrics.get("M7")
     m8 = metrics.get("M8") or 0.0
+    m9 = metrics.get("M9") or 0.0  # PIVOT C2.1 fix : extraction explicite (NameError fix)
 
     nb_go = sum([
         m1 >= CIBLES_GO["M1"],
@@ -254,10 +297,11 @@ def verdict_from_metrics(metrics: Dict[str, float]) -> Tuple[str, int]:
         m6 < CIBLES_GO["M6"],
         (m7 is not None and m7 <= CIBLES_GO["M7"]),
         m8 >= CIBLES_GO["M8"],
+        m9 <= CIBLES_GO["M9"],  # PIVOT C2.1 : M9 cible GO si <= 5% violations
     ])
-    if nb_go >= 6 and m1 >= 0.7 and m3 < 5 and m4 < 5:
+    if nb_go >= 6 and m1 >= 0.7 and m3 < 5 and m4 < 5 and m9 <= CIBLES_NO_GO["M9"]:
         return "GO", 0
-    if m3 > 15 or m4 > 15 or m1 < 0.5:
+    if m3 > 15 or m4 > 15 or m1 < 0.5 or m9 > CIBLES_NO_GO["M9"]:
         return "NO-GO", 2
     return "PIVOT", 1
 
@@ -331,15 +375,18 @@ def run_validate(args: argparse.Namespace) -> Dict:
         m3_pc: List[float] = []
         m4_pc: List[float] = []
         m8_scores: List[float] = []
+        m9_pc: List[float] = []
         degraded = 0
         total_faits = 0
         for q in quins:
             _, n3, p3 = m3_hallucination_F(q, reader_norm)
             _, n4, p4 = m4_hallucination_impact(q, reader_norm)
             h8, n8, s8 = m8_quality_proxy(q)
+            _, n9, p9 = m9_mnemolite_tag_isolation(q, enq)
             m3_pc.append(p3)
             m4_pc.append(p4)
             m8_scores.append(s8)
+            m9_pc.append(p9)
             degraded += h8
             total_faits += n8
         m3_moy = round(sum(m3_pc) / len(m3_pc), 1) if m3_pc else 0.0
@@ -348,6 +395,7 @@ def run_validate(args: argparse.Namespace) -> Dict:
         m6 = m6_volume_tokens_proxy(quins)
         m7 = m7_latence_proxy(quins)  # None en mode retroactif
         m8_moy = round(sum(m8_scores) / len(m8_scores), 1) if m8_scores else 0.0
+        m9_moy = round(sum(m9_pc) / len(m9_pc), 1) if m9_pc else None
 
         metrics = {
             "M1": m1 if m1 is not None else 0.0,
@@ -358,6 +406,7 @@ def run_validate(args: argparse.Namespace) -> Dict:
             "M6": m6,
             "M7": m7,  # None si pas de timestamps injectes par Sublimator
             "M8": m8_moy,
+            "M9": m9_moy if m9_moy is not None else 0.0,  # PIVOT C2.1 : 0 si pas de requete Mnemolite
         }
         verdict, _ = verdict_from_metrics(metrics)
 

@@ -191,7 +191,7 @@ def extract_python(path: Path) -> dict[str, Any]:
         "sujet": _extract_sujet(content),
         "these_candidate": _extract_these_candidate_python(content),
         "complexite": _extract_complexite(content),
-        "keywords": _extract_keywords_python(content),
+        "keywords": _extract_keywords_python(content, n=10),  # PIVOT C2.2 : 10 mots pour overlap
         "urls_count": _extract_urls_count(content),
         "f_count_estime": _extract_f_count(content),
         "n_lines": content.count("\n"),
@@ -293,12 +293,24 @@ def run(dossier: Path, mode: str = "python") -> dict[str, Any]:
                 "prefixes": [e["prefix"] for e in matching],
                 "sufficient": len(matching) >= 2,  # flag cluster trop petit
             })
-    cluster_method = "complexite_fallback"  # ou "thematic_llm" si mode == "hybrid"/"llm"
+    # Cluster thematic PIVOT C2.2 - keywords-fallback depth (granularite au-dela complexite)
+    # Strategie : union-find sur Jaccard keywords >= 0.15 entre fiches (10 mots extraits
+    # par fiche, donc >=2 mots partages sur 10 = overlap thematique). Si produit
+    # >= 3 clusters, on prend THEMATIC comme cluster_method (meilleur que complexite_unknown
+    # qui collapse 86% du corpus en 1 mega-cluster, perdant l'interet Map-Reduce).
+    thematic_clusters = _cluster_keywords_fallback(entries, jaccard_threshold=0.15)
+    if len(thematic_clusters) >= 3 and len(thematic_clusters) < len(entries):
+        # THEMATIC prime sur COMPLEXITE (granularite superieure), mais seulement si
+        # on regroupe reellement (sinon 1 cluster par fiche = inutile)
+        clusters = thematic_clusters
+        cluster_method = "thematic_keywords_fallback"
+    else:
+        cluster_method = "complexite_fallback"  # PIVOT C1 fallback preserve
     return {
         "date_cartographie": _today_iso(),
         "complexity": complexity,
         "mode": mode,
-        "cluster_method": cluster_method,  # flag method (PIVOT C1)
+        "cluster_method": cluster_method,  # "thematic_keywords_fallback" ou "complexite_fallback"
         "n_enquetes_totales": len(entries),
         "n_enquetes_ok": n_ok,
         "n_enquetes_needs_llm": n_needs_llm_final,
@@ -307,6 +319,81 @@ def run(dossier: Path, mode: str = "python") -> dict[str, Any]:
         "clusters": clusters,
         "enquetes": entries,
     }
+
+
+def _jaccard_keywords(a: list[str], b: list[str]) -> float:
+    """Jaccard sur sets lowercase de keywords. 0.0 si les deux sets sont vides."""
+    sa = set(k.lower() for k in (a or []))
+    sb = set(k.lower() for k in (b or []))
+    if not (sa | sb):
+        return 0.0
+    return len(sa & sb) / len(sa | sb)
+
+
+def _cluster_keywords_fallback(entries: list[dict[str, Any]], jaccard_threshold: float = 0.3) -> list[dict[str, Any]]:
+    """Union-find clustering par Jaccard keywords >= threshold (PIVOT C2.2).
+
+    Permet de degager des clusters thematiques au-dela du grouping complexite.
+    Exemple : 36 fiches "complexite_unknown" peuvent etre reduites a 8-12 clusters
+    thematiques (juridique, fiscal, militaire, etc.) selon les keywords partages.
+
+    Args:
+        entries: liste complete des entries cartographiees.
+        jaccard_threshold: seuil minimum de Jaccard keywords pour considerer 2 fiches liees.
+    Returns:
+        Liste de clusters [{id, label, n_enquetes, prefixes, sufficient, top_keywords}].
+    """
+    n = len(entries)
+    if n == 0:
+        return []
+    # Union-Find: parent[i] = parent cluster de i
+    parent = list(range(n))
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(x, y):
+        rx, ry = find(x), find(y)
+        if rx != ry:
+            parent[rx] = ry
+
+    # Comparaison pairwise O(n^2) - acceptable pour n <= 100 (44 enquetes largement OK)
+    kws = [set(k.lower() for k in (e.get("keywords") or [])) for e in entries]
+    for i in range(n):
+        for j in range(i + 1, n):
+            # Calcul Jaccard inline pour eviter appel fonction boucle chaude
+            sa, sb = kws[i], kws[j]
+            if not (sa | sb):
+                continue
+            if len(sa & sb) / len(sa | sb) >= jaccard_threshold:
+                union(i, j)
+    # Group entries par racine union-find
+    groups: dict[int, list[int]] = {}
+    for i in range(n):
+        groups.setdefault(find(i), []).append(i)
+    # Construit les clusters
+    clusters = []
+    for idx, (root, members) in enumerate(sorted(groups.items())):
+        if not members:
+            continue
+        # Top keywords : intersection des keywords entre membres (coeur du cluster)
+        member_sets = [kws[i] for i in members]
+        common = set.intersection(*member_sets) if len(member_sets) > 1 else member_sets[0]
+        cluster_kws = sorted(common)[:5] if common else sorted(set.union(*member_sets))[:5]
+        clusters.append({
+            "id": f"T{idx+1}",
+            "label": "theme_" + (cluster_kws[0] if cluster_kws else "divers"),
+            "n_enquetes": len(members),
+            "prefixes": [entries[i]["prefix"] for i in members],
+            "sufficient": len(members) >= 2,
+            "top_keywords": cluster_kws,
+        })
+    # Tri : plus gros clusters d'abord (Map-Reduce sequential)
+    clusters.sort(key=lambda c: -c["n_enquetes"])
+    return clusters
 
 
 def _today_iso() -> str:
