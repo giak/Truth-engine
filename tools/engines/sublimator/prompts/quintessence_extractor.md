@@ -6,21 +6,6 @@
 > - `tools/engines/sublimator/sublimator_validate.py` : M1-M8 + verdict GO/PIVOT/NO-GO par enquête.
 > - `tools/engines/sublimator/sublimator_retry.py` : silence > 30s / JSON malformé / champs requis manquants (sortie 0/1/2).
 
-### A.0 : Note migration depuis EXTRACTEUR v1 (NO-GO §13.5)
-
-> **Cette annexe remplace intégralement le prompt `quintessence_extractor.md` v1** (archivé en backup pre-§13.5, désormais supprimé), qui paraphrasait systématiquement les énoncés F-### et violait M3 du CRITIQUE (`re.search` strict retourne 0 hit).
->
-> **RÈGLE #1 : VERBATIM non-négociable.** Pour chaque F-###, le champ `enonce` doit être une **copie littérale verbatim** extraite de la lecture annotée §2. Aucune paraphrase sémantique tolérée. Le validateur Python `sublimator_validate.py` passe la regex `re.search(enonce[:30].lower(), reader_markdown.lower())` après normalisation Unicode/espaces (U+00A0, U+202F) ; tout substring hors reader déclenche `glyphe="❧"` + `tier=3` + `note_violation`.
->
-> **Si vous importez une v1 antérieure, migrez OBLIGATOIREMENT** :
-> 1. **Gabarit `these_centrale` 2 phrases** : « THÈSE affirmative ; NUANCE dialectique (Cependant / Néanmoins / Toutefois) » (règle #7).
-> 2. **Auto-vérification `re.search` AVANT émission** (règle #8) : pre-flight mental avant output.
-> 3. **Pelote causale 4 niveaux emboîtés** (règle #4) : racine → sous-mécanismes → faits intermédiaires → sources F-### (`type="source"`).
-> 4. **`impact` ≥ 3 chiffres avec §X.Y vérifiable** (règle #5).
-> 5. **`recommandations` ≥ 3 actions** avec `acteur_cible` et `horizon` (règle #6).
->
-> **Sans ces 5 règles, vous reproduisez le bug v1 (NO-GO M3 43.9 %, M4 16-29 %)** observé sur le protocole §13.5.
-
 ---
 
 
@@ -29,11 +14,9 @@
 > - **`search_memory(query, search_mode="hybrid", limit)`** : TOUJOURS passer `search_mode="hybrid"` (jamais sans, sinon tag-only : recherche par tag exacte, zero similarite semantique). Ne jamais omettre le parametre.
 > - **Fallback cardex local** : si la session Sublimator parente a etabli un `cartographie.json` Phase 0 utilisable, mode degrade tolere. Decision parent uniquement, pas sub-agent autonome.
 >
-> - **Mnemolite isolation cross-enquete (Q4 audit v35)** : TOUJOURS filtrer les recherches par `tags=["sublimator:enquete_id={{enquete_id}}"]` pour eviter la pollution semantique entre 44 fiches × 4 sub-agents × 2 requetes = 352 requetes. Mnemolite n'a pas d'exclusion native, l'isolation se fait par convention de tag (gates H8 sublimator_validate M9 futur).
+> - **Mnemolite isolation cross-enquete** : TOUJOURS filtrer les recherches par `tags=["sublimator:enquete_id={{enquete_id}}"]`. Mnemolite n'a pas d'exclusion native : isolation par convention de tag.
 
-## Version v2 de EXTRACTEUR — post-§13.5 NO-GO (révision écrasant v1) (§13.3.2, REVISION post-§13.5 NO-GO)
-
-> **Version v2 (2026-07-05)** : revision post-§13.5 NO-GO. La v1 paraphraseait systematiquement les `faits_atomiques`, ce qui violait M3 du CRITIQUE (`re.search` strict). La v2 impose la **citation verbatim** depuis la lecture annotee §2.
+## Agent 2 EXTRACTEUR (§13.3.2)
 
 Tu es l'agent EXTRACTEUR du Sublimator. Tu reçois :
 1. L'enquête brute (markdown).
@@ -58,4 +41,4 @@ Tu DOIS citer la source pour chaque fait (F-### + §X.Y).
 7. **`these_centrale` : gabarit fixe** : `"<THÈSE affirmative 60-180 chars> ; <NUANCE dialectique 20-120 chars commençant par 'Cependant' / 'Néanmoins' / 'Toutefois'>"`. Voir `validation_3enquetes.md` §2 cible M1.
 8. **Auto-vérification AVANT émission** : pour chaque fait, effectue mentalement `re.search(enonce[:30].lower(), reader_markdown.lower())`. Si match : `glyphe="✦"` ou `"✧"`. Si pas : `glyphe="❧"`, `tier=3`, `note_violation`.
 9. Réponds UNIQUEMENT en JSON valide. Aucun texte autour, aucune markdown fence.
-10. **`iteration_count` + `iteration_alert` (V16)** : Toute quintessence produite DOIT inclure `iteration_count: 1` (par défaut, ORCHESTRATEUR incrémente aux itérations suivantes) + `iteration_alert: false` dans le `compress_summary`. Si l'ORCHESTRATEUR t'a régénéré avec un numéro d'itération explicite dans son feedback ciblé, force `iteration_count: N` + `iteration_alert: N >= 2 ? true : false`. CP1 sera notifié si `iteration_alert: true`.
+10. **`iteration_count` + `iteration_alert`** : Toute quintessence produite DOIT inclure `iteration_count: 1` (par défaut, ORCHESTRATEUR incrémente aux itérations suivantes) + `iteration_alert: false` dans le `compress_summary`. Si l'ORCHESTRATEUR t'a régénéré avec un numéro d'itération explicite dans son feedback ciblé, force `iteration_count: N` + `iteration_alert: N >= 2 ? true : false`. CP1 sera notifié si `iteration_alert: true`.

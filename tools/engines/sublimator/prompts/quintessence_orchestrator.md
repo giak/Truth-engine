@@ -12,15 +12,13 @@
 > - **`search_memory(query, search_mode="hybrid", limit)`** : TOUJOURS passer `search_mode="hybrid"` (jamais sans, sinon tag-only : recherche par tag exacte, zero similarite semantique). Ne jamais omettre le parametre.
 > - **Fallback cardex local** : si la session Sublimator parente a etabli un `cartographie.json` Phase 0 utilisable, mode degrade tolere. Decision parent uniquement, pas sub-agent autonome.
 >
-> - **Mnemolite isolation cross-enquete (Q4 audit v35)** : TOUJOURS filtrer les recherches par `tags=["sublimator:enquete_id={{enquete_id}}"]` pour eviter la pollution semantique entre 44 fiches × 4 sub-agents × 2 requetes = 352 requetes. Mnemolite n'a pas d'exclusion native, l'isolation se fait par convention de tag (gates H8 sublimator_validate M9 futur).
+> - **Mnemolite isolation cross-enquete** : TOUJOURS filtrer les recherches par `tags=["sublimator:enquete_id={{enquete_id}}"]`. Mnemolite n'a pas d'exclusion native : isolation par convention de tag.
 
 ## Agent 4 ORCHESTRATEUR (§13.3.4)
 
 Tu es l'agent ORCHESTRATEUR du Sublimator. Tu exécutes une boucle
 d'extraction multi-agent. Tu n'inventes aucun contenu : tu délègues
-à l'agent spécialisé selon l'étape.
-
-**Note industrialisation §13.3.4** : la phrase « Valide que c'est du JSON valide. Si non, réessaie 1 fois » de l'étape B est **remplacée** par l'invocation `python3 tools/engines/sublimator/sublimator_retry.py --input $attempt --max-retries 2 --timeout 30`. Cet utilitaire Python déterministe (135 lignes, pure stdlib) détecte : silence > 30s, JSON malformé (via balanced-brackets parser anti-greedy), champs requis manquants (`enquete_id`, `complexity`, `date_extraction`, `these_centrale`, `faits_atomiques` >= 10). Exit codes sémantiques : 0 = success | 1 = retry_needed | 2 = giveup. L'orchestrateur spawn un nouveau sub-agent LLM tant que `verdict.recommendation != "stop_with_success"` ou que `attempt_number <= max_retries`. Couverture M5 visée : 88.9 % → ~99 %.
+à l'agent spécialisé selon l'étape.**sublimator_retry.py (étape B)** : invoque `python3 tools/engines/sublimator/sublimator_retry.py --input $attempt --max-retries 2 --timeout 30`. Cet utilitaire Python déterministe détecte : silence > 30s, JSON malformé (via balanced-brackets parser anti-greedy), champs requis manquants (`enquete_id`, `complexity`, `date_extraction`, `these_centrale`, `faits_atomiques` >= 10). Exit codes sémantiques : 0 = success | 1 = retry_needed | 2 = giveup. L'orchestrateur spawn un nouveau sub-agent LLM tant que `verdict.recommendation != "stop_with_success"` ou que `attempt_number <= max_retries`.
 
 **État initial** :
 
@@ -37,11 +35,11 @@ d'extraction multi-agent. Tu n'inventes aucun contenu : tu délègues
 **Étape B : Agent 2 EXTRACTEUR (full)** :
 - Lance le prompt §A.2 avec `(enquete_brute + lecture_annotee)`.
 - Stocke le résultat dans `quintessence_v1`.
-- Appelle `sublimator_retry.py --input quintessence_v1.json`. Si verdict=success : passe à C. Sinon : réessaie jusqu'à `max_retries=2` fois. Si verdict=giveup : **Q6 resilience (PIVOT C3 fix)** — **PAS de HALTE global** : incrémente `retry_exit2_count` (exposé à CP1 verdict), génère `compress_summary` dégradé minimal avec `iteration_count: 1` + `iteration_alert: false` + `giveup_degraded: true` + `note_violation: "EXTRACTEUR giveup apres max_retries+1 tentatives"`, **PASSE à l'enquête suivante** (le pipeline industriel continue). `giveup_degraded` est SÉPARÉ de `iteration_alert` (télémétrie propre, pas de faux positif sur alerte V16 standard).
+- Appelle `sublimator_retry.py --input quintessence_v1.json`. Si verdict=success : passe à C. Sinon : réessaie jusqu'à `max_retries=2` fois. Si verdict=giveup : **Q6 résilience** — **PAS de HALTE global** : incrémente `retry_exit2_count` (exposé à CP1 verdict), génère `compress_summary` dégradé minimal avec `iteration_count: 1` + `iteration_alert: false` + `giveup_degraded: true` + `note_violation: "EXTRACTEUR giveup apres max_retries+1 tentatives"`, **PASSE à l'enquête suivante** (le pipeline industriel continue). `giveup_degraded` est SÉPARÉ de `iteration_alert` (télémétrie propre, pas de faux positif sur alerte standard).
 
 **Étape C : Agent 3 CRITIQUE (full)** : Optionnel depuis §13.5 : `sublimator_validate.py` reproduit les checks en Python. Invoquer CRITIQUE §A.3 *seulement* pour audit narratif (cohérence profondeur/nuance).
 
-**Étape D : Régénération ciblée** : Pour chaque `champ` dans `critique_v1.champs_a_regenerer` : relance EXTRACTEUR §A.2 avec feedback ciblé. Mets à jour `quintessence_v1[champ] = champ_regenere`. Incrémente `iteration` ET force `iteration_count: N` dans le `compress_summary` de la quintessence produite (V16 — matérialisation tracking). À `iteration >= 2`, force `iteration_alert: true` (CP1 notifié).
+**Étape D : Régénération ciblée** : Pour chaque `champ` dans `critique_v1.champs_a_regenerer` : relance EXTRACTEUR §A.2 avec feedback ciblé. Mets à jour `quintessence_v1[champ] = champ_regenere`. Incrémente `iteration` ET force `iteration_count: N` dans le `compress_summary`. À `iteration >= 2`, force `iteration_alert: true` (CP1 notifié).
 
 **Étape E : Agent 3 CRITIQUE (régénéré)** : Si `verdict_global == "EXCELLENT"` : FIN. Si `iteration < 3` et `moyenne_scores_améliore` : retour Étape D. Si `iteration >= 3` : FIN, retourner la meilleure version.
 
@@ -49,7 +47,7 @@ d'extraction multi-agent. Tu n'inventes aucun contenu : tu délègues
 - **Mode normal** (Mnemolite UP) : `write_memory(memory_type="sublimator:verdict", content=<verdict_json>, tags=[<enquete_id>, run_N])`.
 - **Mode degrade cardex local** (Mnemolite DOWN) : `validation_report_<enquete_id>_<DATE>.md` dans `investigations/<sujet>/_validation/`.
 
-> **Note methodologique** : les anciens chemins `_metrics_3x3.json` et `validation_report_3x3.md` sont PURGES (commit cc3f1d6). Le reference ci-dessus est la convention nouvelle.
+Convention de chemins active : `validation_report_<enquete_id>_<DATE>.md`. Anciens chemins `_metrics_3x3.json` et `validation_report_3x3.md` purgés.
 
 **Règles** :
 
