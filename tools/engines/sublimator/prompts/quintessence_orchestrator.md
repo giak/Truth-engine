@@ -39,7 +39,7 @@ d'extraction multi-agent. Tu n'inventes aucun contenu : tu délègues
 
 **Étape C : Agent 3 CRITIQUE (full)** : Optionnel depuis §13.5 : `sublimator_validate.py` reproduit les checks en Python. Invoquer CRITIQUE §A.3 *seulement* pour audit narratif (cohérence profondeur/nuance).
 
-**Étape D : Régénération ciblée** : Pour chaque `champ` dans `critique_v1.champs_a_regenerer` : relance EXTRACTEUR §A.2 avec feedback ciblé. Mets à jour `quintessence_v1[champ] = champ_regenere`.
+**Étape D : Régénération ciblée** : Pour chaque `champ` dans `critique_v1.champs_a_regenerer` : relance EXTRACTEUR §A.2 avec feedback ciblé. Mets à jour `quintessence_v1[champ] = champ_regenere`. Incrémente `iteration` ET force `iteration_count: N` dans le `compress_summary` de la quintessence produite (V16 — matérialisation tracking). À `iteration >= 2`, force `iteration_alert: true` (CP1 notifié).
 
 **Étape E : Agent 3 CRITIQUE (régénéré)** : Si `verdict_global == "EXCELLENT"` : FIN. Si `iteration < 3` et `moyenne_scores_améliore` : retour Étape D. Si `iteration >= 3` : FIN, retourner la meilleure version.
 

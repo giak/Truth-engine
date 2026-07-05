@@ -155,6 +155,8 @@ Si l'humain ne fournit pas de brief, le pilote auto-génère un brief par défau
 
 **Champs REQUIS (gates H0-H7 bloquants)** : `enquete_id`, `enquete_source`, `these_centrale`, `faits_atomiques` (≥10), `urls_prioritaires` (≥1), `shadow_factor` (1.0-5.0). **Champs OPTIONNELS** : tous les autres.
 
+**Champ OPTIONNEL §16 — `iteration_count` (V16)** : nombre de passes complètes A→B→(C)→D→E exécutées par l'ORCHESTRATEUR (sub-agent 4) avant production finale. Valeur entière ≥ 1. Le sub-agent EXTRACTEUR écrit `iteration_count: N` dans le `compress_summary`. À `iteration_count >= 2`, le sub-agent EXTRACTEUR force `iteration_alert: true` (CP1 sera notifié). Cible : 100% des quintessences industrialisées portent ce champ après migration V35+.
+
 **Glyphes valides (4 tokens)** : `✦` (tier 1 + HTTP 200) / `✧` (tier ≥ 2 + HTTP 200) / `⁅` (URL 4xx/5xx) / `❧` (pas d'URL).
 
 ### Few-shot : exemple ric_def_quintessence (OK v35)
@@ -196,7 +198,7 @@ faits_atomiques:
 
 ```json
 {
-  "compress_summary": "Thèse: Le RIC verrouillé par cartel transpartisan 3 têtes. | F##-clés: F-DEF-01 (Constitution 1958), F-DEF-02 (RIP 2008 seuil prohibitif), F-DEF-05 (CC ADP 2019), F-DEF-24 (CJUE C-448/23), F-PPL-13 (8 PPL 0 adoptées) | Source-primaire: oui | URL: https://www.conseil-constitutionnel.fr/"
+  "compress_summary": "Thèse: Le RIC verrouillé par cartel transpartisan 3 têtes. | F##-clés: F-DEF-01 (Constitution 1958), F-DEF-02 (RIP 2008 seuil prohibitif), F-DEF-05 (CC ADP 2019), F-DEF-24 (CJUE C-448/23), F-PPL-13 (8 PPL 0 adoptées) | Source-primaire: oui | URL: https://www.conseil-constitutionnel.fr/ | iteration_count: 1 | iteration_alert: false"
 }
 ```
 
@@ -400,7 +402,7 @@ Si Mnemolite DOWN, mode cardex local (`cartographie.json` Phase 0). Les quintess
 
 ### Note migration v1 EXTRACTEUR
 
-L'agent EXTRACTEUR v2 inclut en tête une note de migration obligatoire depuis v1 (la v1 paraphrasait systématiquement les F-###, violait M3 du CRITIQUE). La règle #1 (VERBATIM non-négociable) est intégrée au prompt v2 : le validateur `sublimator_validate.py` passe `re.search(enonce[:30].lower(), reader.markdown.lower())` après normalisation Unicode/espaces.
+**Référence courte** (contenu intégral : `prompts/quintessence_extractor.md` § A.0). L'agent EXTRACTEUR v2 du prompt v35 inclut en tête une note de migration obligatoire depuis la v1 (la v1 paraphrasait systématiquement les F-###, violait M3 du CRITIQUE). Règle #1 VERBATIM intégrée, validation Python déterministe via `sublimator_validate.py` (`re.search(enonce[:30].lower(), reader_markdown.lower())` après normalisation Unicode/espaces).
 
 ---
 
@@ -417,4 +419,4 @@ L'agent EXTRACTEUR v2 inclut en tête une note de migration obligatoire depuis v
 | Sections rapport | 6 | 5 (sans doublon) |
 | Sections plan | 5-9 | 3-5 |
 | LOIS | 16 | 8 (focus : accroche, thèse, sources, ton, gras, compression, liens, audit) |
-| Friction humain (44 fiches + 1 article) | 30+ arrêts | 3 arrêts |
+| Friction humain (44 fiches + 1 article) | 30+ arrêts (mesure baseline v34 ?) | Cible : 3 CP (mesure v35 = **à instrumenter**, non validée empiriquement) |
