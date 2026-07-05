@@ -1,0 +1,54 @@
+{
+  "enquete_id": "religieuse_verrou",
+  "complexity": "STANDARD",
+  "date_extraction": "2026-07-05",
+  "enquete_source": "investigations/2026-07-04-RIC/_validation/religieuse-reader.md",
+  "version_prompt": "v2 (VERBATIM post-§13.5 NO-GO)",
+  "these_centrale": "Les grands cultes en France ne s'opposent pas structurellement au RIC mais l'utilisent de façon tactique sur les questions bioéthiques ; Cependant la dignité humaine est jugée intouchable par le vote majoritaire, d'après les récents dogmes.",
+  "faits_atomiques": [
+    {"id": "F-REL01", "enonce": "Dignitas Infinita (8 avril 2024, Dicastère pour la Doctrine de la Foi) déclare la dignité humaine « inviolable et inaliénable, indépendante de tout vote majoritaire » [§10]", "source_url": "vatican.va", "source_section": "§10", "head_status": 200, "tier": 1, "glyphe": "✧"},
+    {"id": "F-REL02", "enonce": "La CEF n'a produit aucune déclaration officielle 2018-2026 sur le RIC en tant qu'outil institutionnel [§10]", "source_url": null, "source_section": "§10", "head_status": null, "tier": 2, "glyphe": "✦"},
+    {"id": "F-REL03", "enonce": "La CEF s'oppose fermement à l'euthanasie, GPA, identité de genre, avortement (positions constantes depuis Vatican II 1965) [§10]", "source_url": null, "source_section": "§10", "head_status": null, "tier": 2, "glyphe": "✦"},
+    {"id": "F-REL05", "enonce": "Le CFCM et la Grande Mosquée de Paris n'ont aucune position institutionnelle documentée sur le RIC [§10]", "source_url": null, "source_section": "§10", "head_status": null, "tier": 2, "glyphe": "✦"},
+    {"id": "F-REL06", "enonce": "Position musulmane française sur la bioéthique : alignement à ~80% avec catholiques (rejet euthanasie, GPA, avortement) [§10]", "source_url": null, "source_section": "§10", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL07", "enonce": "La Fédération protestante de France (FPF) n'a pas de position officielle sur le RIC (sensibilité culturelle favorable, non-engagement) [§10]", "source_url": "protestants.org/archives", "source_section": "§10", "head_status": 200, "tier": 1, "glyphe": "✧"},
+    {"id": "F-REL08", "enonce": "Le sénateur LR Francis Szpiner dépose une RIP « anti-euthanasie » le 7 avril 2026, avec le soutien de 195 parlementaires LR [§10]", "source_url": "legifrance.gouv.fr", "source_section": "§10", "head_status": 200, "tier": 1, "glyphe": "✧"},
+    {"id": "F-REL09", "enonce": "Le lobby Alliance VITA + AFC + Fondation Jérôme Lejeune + Europe-Euthanasie.org a soutenu activement la RIP anti-euthanasie d'avril 2026 [§10]", "source_url": null, "source_section": "§10", "head_status": null, "tier": 2, "glyphe": "✦"},
+    {"id": "F-REL10", "enonce": "Décision CC 2026-7 RIP du 17 juin 2026 : rejet de la RIP Szpiner pour motif « ne relève pas de la politique sociale » au sens art. 11 Constitution [§10]", "source_url": "legifrance.gouv.fr", "source_section": "§10", "head_status": 200, "tier": 1, "glyphe": "✧"},
+    {"id": "F-REL11", "enonce": "Aucune RIP/euthanasie n'a franchi les étapes constitutionnelles françaises depuis 2018 [§10]", "source_url": "legifrance.gouv.fr", "source_section": "§10", "head_status": 200, "tier": 1, "glyphe": "✧"},
+    {"id": "F-REL12", "enonce": "Aucune RIP/GPA en France n'a été étudiée par le CC (pas de dépôt formel) [§10]", "source_url": "legifrance.gouv.fr", "source_section": "§10", "head_status": 200, "tier": 1, "glyphe": "✧"},
+    {"id": "F-REL13", "enonce": "Le Conseil Constitutionnel applique une doctrine restrictive : seules les questions de « politique économique, sociale ou environnementale » sont recevables au sens art. 11 [§10]", "source_url": "legifrance.gouv.fr", "source_section": "§10", "head_status": 200, "tier": 1, "glyphe": "✧"}
+  ],
+  "urls_prioritaires": [
+    {"url": "vatican.va", "description": "Déclaration doctrinale Dignitas Infinita", "head_status": 200},
+    {"url": "legifrance.gouv.fr", "description": "Décision CC 2026-7 RIP", "head_status": 200}
+  ],
+  "shadow_factor": 1.2,
+  "theses_implicites": ["Les lobbies religieux délèguent le combat bioéthique aux parlementaires en utilisant des outils de démocratie directe uniquement comme obstructions."],
+  "acteurs": [{"nom": "Conférence des évêques de France (CEF)", "role": "Représentation catholique officielle", "faits_lies": ["F-REL02", "F-REL03"]}],
+  "causalites": [{"cause": "F-REL01", "effet": "F-REL06", "mecanisme": "Création d'une coalition catholique-musulmane sur la bioéthique et la souveraineté divine."}],
+  "perspectives_dialectiques": [{"position": "Antithèse", "argument": "La souveraineté divine est prioritaire sur la loi humaine dans l'idéologie traditionaliste, justifiant une opposition philosophique à la démocratie directe absolue."}],
+  "limites": ["Position réelle et intégrale des groupes minoritaires sous le radar non discernée sans leaks."],
+  "wolves": [{"nom": "Civitas", "argument": "Rejet total de la démocratie directe via le principe de souveraineté divine.", "reponse": "Formation dissoute n'ayant pas mené d'action massive directe sur le RIC, mais impact culturel latent."}],
+  "iceberg": ["Réseau diffus catholique intégriste non formellement affilié à la CEF mais pilotant les RIP sur la bioéthique."],
+  "chronologie": [{"date": "2024-04-08", "evenement": "Dignitas Infinita du Vatican", "source_fait": "F-REL01"}, {"date": "2026-06-17", "evenement": "Rejet de la RIP Szpiner par le CC", "source_fait": "F-REL10"}],
+  "domaines": ["Bioéthique", "Religion", "Politique Institutionnelle"],
+  "mnemo_queries": [{"query": "Dignitas Infinita RIC", "results_count": 0, "search_mode": "hybrid"}],
+  "positions_acteurs": [{"acteur": "CFCM", "position": "Neutre au niveau documenté", "source": "§2.1", "nuance": "Alignement sur les sujets bioéthiques dans la pratique."}],
+  "causalites_pelote": [
+    {"niveau": 1, "type": "mecanisme", "enonce": "Utilisation tactique défensive du RIP face aux menaces sociétales bioéthiques", "parent": null},
+    {"niveau": 2, "type": "sous-mecanisme", "enonce": "Dépôt d'initiatives parlementaires s'appuyant sur des bases militantes cultuelles", "parent": "mecanisme"},
+    {"niveau": 3, "type": "fait", "enonce": "Le lobby Alliance VITA a soutenu activement la RIP", "parent": "sous-mecanisme"},
+    {"niveau": 4, "type": "source", "enonce": "Fait affirmant l'appui à la RIP Szpiner", "parent": "F-REL09"}
+  ],
+  "impact": [
+    {"chiffre": "80", "unite": "%", "source": "§6.2", "annee": "2026"},
+    {"chiffre": "1 500", "unite": "décès/an", "source": "§12.3", "annee": "2026"},
+    {"chiffre": "30", "unite": "%", "source": "§9.3", "annee": "2023"}
+  ],
+  "recommandations": [
+    {"action": "Clarifier les frontières du champ d'application de l'article 11 de la Constitution via une loi organique", "acteur_cible": "Parlement", "horizon": "moyen"},
+    {"action": "Auditionner les associations laïques et représentations cultuelles sur le RIP et le RIC", "acteur_cible": "Commission des lois", "horizon": "court"},
+    {"action": "Surveiller les financements croisés entre lobbys familiaux et mouvements politiques pro-RIP sur la bioéthique", "acteur_cible": "HATVP", "horizon": "long"}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "enquete_id": "cultes_france",
+  "complexity": "LIGHT",
+  "date_extraction": "2026-07-05",
+  "enquete_source": "investigations/2026-07-04-RIC/_validation/cultes_france-reader.md",
+  "these_centrale": "La position des quatre grands cultes français face au RIC est globalement nulle ou muette en raison de la loi de 1905 ; Cependant la papauté encourage plus largement une démocratie participative.",
+  "version_prompt": "v2 (VERBATIM post-§13.5 NO-GO)",
+  "faits_atomiques": [
+    {"id": "F-001", "enonce": "- F-001 : « Loi 09/12/1905 art. 1 (\"La République assure la liberté de conscience\"), art. 2 (\"ne reconnaît, ne salarie ..., ni ne subventionne aucun culte\") » (§12)", "source_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000508664/", "source_section": "§12", "head_status": 200, "tier": 1, "glyphe": "✦"},
+    {"id": "F-002", "enonce": "- F-002 : « CEF mars 2019 \"Église catholique et élections européennes\" sur RIC » (§12)", "source_url": "https://www.eglise.catholique.fr/", "source_section": "§12", "head_status": 200, "tier": 1, "glyphe": "✦"},
+    {"id": "F-006", "enonce": "- F-006 : « Encyclique Fratelli Tutti 03/10/2020 §69-73 \"dialogue social et démocratie participative\" » (§12)", "source_url": "https://www.vatican.va/", "source_section": "§12", "head_status": 200, "tier": 1, "glyphe": "✦"}
+  ],
+  "urls_prioritaires": [
+    {"url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000508664/", "description": "Légifrance loi 1905", "head_status": 200},
+    {"url": "https://www.vatican.va/", "description": "Vatican - Encycliques", "head_status": 200},
+    {"url": "https://www.cfcm.fr/", "description": "Conseil Français du Culte Musulman (CFCM)", "head_status": 200}
+  ],
+  "shadow_factor": 1.0,
+  "theses_implicites": ["Incompatibilité structurelle entre institutions cultuelles et démocratie directe citoyenne, exception faite de la papauté."],
+  "acteurs": [{"nom": "Chauvet, Luc", "role": "théologien catholique", "faits_lies": ["F-006"]}, {"nom": "Vignon, Albéric", "role": "porte-parole CEF", "faits_lies": ["F-002"]}],
+  "causalites": [{"cause": "F-001", "effet": "F-002", "mecanisme": "Neutralité religieuse stricte issue de la loi 1905 empêchant l'expression sur les outils institutionnels."}],
+  "perspectives_dialectiques": [{"position": "Thèse", "argument": "Silence institutionnel en raison de la séparation des Églises et de l'État."}],
+  "limites": ["<25% taux de vérification documentaire institutionnelle des 12 faits."],
+  "wolves": [{"nom": "FSSPX", "argument": "Hostile à la souveraineté du peuple face à la souveraineté divine.", "reponse": "Incompatibilité idéologique radicale avec le RIC."}],
+  "iceberg": ["Particularité du droit local en Alsace-Moselle imposant des limites historiques distinctes."],
+  "chronologie": [{"date": "1905-12-09", "evenement": "Loi de séparation des Églises et de l'État", "source_fait": "F-001"}],
+  "domaines": ["Sociologie des religions", "Droit public", "Sciences politiques"],
+  "mnemo_queries": [{"query": "positions officielles cultes RIC france", "results_count": 0, "search_mode": "hybrid"}],
+  "positions_acteurs": [{"acteur": "FPF", "position": "Muette", "source": "§4", "nuance": "La fédération ne s'exprime pas sur les outils institutionnels."}],
+  "causalites_pelote": [
+    {"niveau": 1, "type": "mecanisme", "enonce": "Loi 1905", "parent": null},
+    {"niveau": 2, "type": "sous-mecanisme", "enonce": "neutralité religieuse stricte", "parent": null},
+    {"niveau": 3, "type": "fait", "enonce": "les cultes ne se prononcent pas juridiquement sur le RIC (non-endorsement)", "parent": null},
+    {"niveau": 4, "type": "source", "enonce": "- F-001 : « Loi 09/12/1905 art. 1...\"", "parent": "F-001"}
+  ],
+  "impact": [
+    {"chiffre": "-65%", "unite": "pratiques catholiques", "source": "§3", "annee": "2000"},
+    {"chiffre": "600 000", "unite": "habitants sous droit local", "source": "§9", "annee": "2023"},
+    {"chiffre": "60%", "unite": "catholiques progressistes", "source": "§15", "annee": "2024"}
+  ],
+  "recommandations": [
+    {"action": "Examiner systématiquement les encycliques catholiques pour la prise de position", "acteur_cible": "Chercheurs en sociologie", "horizon": "moyen"},
+    {"action": "Analyser les positions individuelles au sein du protestantisme EERF", "acteur_cible": "CEFRAC", "horizon": "court"},
+    {"action": "Développer une doctrine institutionnelle claire sur la démocratie participative", "acteur_cible": "CFCM", "horizon": "long"}
+  ]
+}

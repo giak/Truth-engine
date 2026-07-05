@@ -1,0 +1,57 @@
+{
+  "enquete_id": "religieuse_verrou",
+  "complexity": "STANDARD",
+  "date_extraction": "2026-07-05",
+  "enquete_source": "investigations/2026-07-04-RIC/_validation/religieuse-reader.md",
+  "version_prompt": "v2 (VERBATIM post-§13.5 NO-GO)",
+  "these_centrale": "Le lobby religieux instrumentalise de manière utilitariste l'initiative citoyenne pour s'opposer aux réformes bioéthiques ; Cependant la doctrine traditionaliste maintient une hostilité philosophique profonde envers la démocratie directe.",
+  "faits_atomiques": [
+    {"id": "F-REL02", "enonce": "La CEF n'a produit aucune déclaration officielle 2018-2026 sur le RIC en tant qu'outil institutionnel [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL04", "enonce": "Civitas (dissoute en 2023) n'a pas soutenu de doctrine officielle sur le RIC, mais son cadre idéologique est hostile à la démocratie directe (souveraineté populaire vs divine) [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL05", "enonce": "Le CFCM et la Grande Mosquée de Paris n'ont aucune position institutionnelle documentée sur le RIC [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL07", "enonce": "La Fédération protestante de France (FPF) n'a pas de position officielle sur le RIC (sensibilité culturelle favorable, non-engagement) [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL08", "enonce": "Le sénateur LR Francis Szpiner dépose une RIP « anti-euthanasie » le 7 avril 2026, avec le soutien de 195 parlementaires LR [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL09", "enonce": "Le lobby Alliance VITA + AFC + Fondation Jérôme Lejeune + Europe-Euthanasie.org a soutenu activement la RIP anti-euthanasie d'avril 2026 [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL11", "enonce": "Aucune RIP/euthanasie n'a franchi les étapes constitutionnelles françaises depuis 2018 [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL12", "enonce": "Aucune RIP/GPA en France n'a été étudiée par le CC (pas de dépôt formel) [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL13", "enonce": "Le Conseil Constitutionnel applique une doctrine restrictive : seules les questions de « politique économique, sociale ou environnementale » sont recevables au sens art. 11 [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL14", "enonce": "50-55% des Français ont une affiliation religieuse (catholique 30-40%, musulman 6-8%, protestant 2-3%, évangélique 1-2%, autres 1-5%) [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL18", "enonce": "Position catholique officielle : « la dignité humaine ne peut dépendre d'un vote majoritaire » [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"},
+    {"id": "F-REL19", "enonce": "Le principe catholique « Subsidiarité » soutient que la famille ne doit pas être absorbée dans l'État. Argument indirect contre le RIC sur sujets familiaux. [§10]", "source_url": null, "source_section": "§2", "head_status": null, "tier": 1, "glyphe": "✦"}
+  ],
+  "urls_prioritaires": [
+    {"url": "vatican.va", "description": "Déclaration doctrinale Dignitas Infinita", "head_status": 200},
+    {"url": "legifrance.gouv.fr", "description": "Décision CC 2026-7 RIP du 17 juin 2026", "head_status": 200}
+  ],
+  "shadow_factor": 2.5,
+  "theses_implicites": ["Les dogmes se heurtent systématiquement à l'autonomie législative du peuple en matière bioéthique."],
+  "acteurs": [{"nom": "Alliance VITA / AFC", "role": "Lobbys sociétaux catholiques", "faits_lies": ["F-REL09"]}, {"nom": "Conseil Constitutionnel", "role": "Contrôle juridique constitutionnel", "faits_lies": ["F-REL13"]}],
+  "causalites": [{"cause": "F-REL08", "effet": "F-REL09", "mecanisme": "Soutien tactique religieux à la RIP bloquante"}],
+  "perspectives_dialectiques": [
+    {"position": "Thèse", "argument": "Les cultes sont indifférents à l'architecture du RIC."},
+    {"position": "Antithèse", "argument": "Ils instrumentalisent les RIP actives pour peser face au parlement."}
+  ],
+  "limites": ["Manque de données sur le maillage informel"],
+  "wolves": [],
+  "iceberg": ["La porosité informelle entre la droite institutionnelle (LR) et le diocèse sur les questions de loi organique"],
+  "chronologie": [{"date": "2026-04-07", "evenement": "Le sénateur Francis Szpiner dépose une RIP anti-euthanasie", "source_fait": "F-REL08"}],
+  "domaines": ["Bioéthique", "Lobbying institutionnel"],
+  "mnemo_queries": [{"query": "influence lobbys catholiques sur les RIP santé", "results_count": 0, "search_mode": "hybrid"}],
+  "positions_acteurs": [{"acteur": "La CEF", "position": "Pas d'opposition directe au RIC", "source": "§3", "nuance": "vigilance morale accrue"}],
+  "causalites_pelote": [
+    {"niveau": 1, "type": "mecanisme", "enonce": "Oppositions défensives aux réformes sociétales laïques", "parent": null},
+    {"niveau": 2, "type": "sous-mecanisme", "enonce": "Souveraineté divine prioritaire en cadre traditionaliste", "parent": "Oppositions défensives aux réformes sociétales laïques"},
+    {"niveau": 3, "type": "fait", "enonce": "Rejet idéologique de la démocratie directe par Civitas", "parent": "Souveraineté divine prioritaire en cadre traditionaliste"},
+    {"niveau": 4, "type": "source", "enonce": "F-REL04", "parent": "Rejet idéologique de la démocratie directe par Civitas"}
+  ],
+  "impact": [
+    {"chiffre": "1 500-3 000", "unite": "décès/an", "source": "§5", "annee": "2024"},
+    {"chiffre": "30", "unite": "%", "source": "§5", "annee": "2023"},
+    {"chiffre": "80", "unite": "%", "source": "§5", "annee": "2024"}
+  ],
+  "recommandations": [
+    {"action": "Documenter systématiquement les collusions lors de la constitution des comités RIP sur des lois de bioéthique", "acteur_cible": "HATVP", "horizon": "court"},
+    {"action": "Évaluer l'élargissement de l'article 11", "acteur_cible": "Parlement", "horizon": "moyen"},
+    {"action": "Préparer un dispositif anti-entrisme pour les plateformes digitales de propositions citoyennes", "acteur_cible": "CNIL", "horizon": "long"}
+  ]
+}
