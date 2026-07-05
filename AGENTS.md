@@ -22,18 +22,11 @@ Cette section définit les lois fondamentales régissant tous les agents opéran
 
 ### 3.5 PRINCIPE
 
-LLM non déterministe : quoi qu'on lui demande (même un template), de temps en temps il perd les pédales, ajoute, modifie ou oublie des clés. Un script déterministe ne peut pas deviner ce que produira le non-déterminisme.
+LLM = échantillonneur stochastique : à prompt et template identiques, la sortie varie par construction (clés JSON ajoutées, modifiées, omises). Un parser déterministe consomme une grammaire close et finie, or la grammaire LLM effective est elle-même échantillonnée et non énumérable : le parser ne peut que constater la réalisation, jamais la prédire.
 
-### 4. ANTI-FAUSSE-PRECISION (AFP)
+### 4. ANTI-FAUSSE-PRECISION
 
-**Un script déterministe (regex, parseur string-strict) ne doit pas traiter du texte produit par un LLM.** Le non-déterminisme du LLM garantit que les formats varieront assez pour casser tout parseur — c'est une propriété fondamentale, pas un bug.
-
-Règles :
-- **Volume < 100 items** → pas de script. Utiliser le LLM lui-même (qui comprend les variations sémantiques) ou un traitement manuel ciblé.
-- **Volume ≥ 100 items** → le LLM produit du JSON/YAML validé par schema à la *source* de la génération. Pas de texte libre qu'on reparse après coup.
-- **Zéro parsing secondaire** : toute pipeline qui parse du texte LLM avec un script déterministe est un *lièvre* (fausse précision). Si le format est critique, il est verrouillé dans un schema au moment de la génération, pas après.
-
-Justification : un LLM détecte immédiatement que « Création du collège unique (loi Haby) » et « Loi Haby — collège unique | Démocratisation scolaire » parlent de la même chose. Un script Jaccard > 0.4 fait des dégâts. **Utiliser le bon outil pour le bon problème.**
+Un script déterministe (regex, parseur string-strict) ne doit pas traiter du texte produit par un LLM.
 
 ## Convention de Nommage (OBLIGATOIRE)
 
