@@ -49,6 +49,29 @@ d'extraction multi-agent. Tu n'inventes aucun contenu : tu délègues
 
 Convention de chemins active : `validation_report_<enquete_id>_<DATE>.md`. Anciens chemins `_metrics_3x3.json` et `validation_report_3x3.md` purgés.
 
+**Cible verdict_json canonique** (round 4 — RISQUE C.R4 verdict ROUND 2) : à l'Étape F, le `verdict_json` archivé dans Mnemolite (`write_memory(memory_type="sublimator:verdict", content=<verdict_json>, tags=[<enquete_id>, run_N])`) OU dans cardex local (`validation_report_<enquete_id>_<DATE>.md`) DOIT inclure les 4 champs v36 (round 4 RISQUE C.R4) :
+
+```json
+{
+  "verdict": "GO|PIVOT|NO-GO",
+  "iteration_finale": 1-3,
+  "scores_moyens": 0.0-10.0,
+  "v36_champs": {
+    "causalites_pelote_count": 0-N,
+    "positions_acteurs_count": 0-N,
+    "impact_count": 0-N,
+    "recommandations_count": 0-N
+  },
+  "alertes": ["champ_X_vide_v36"]
+}
+```
+
+**Action sur champs vides (warning non-bloquant)** : si `causalites_pelote_count == 0` OU `positions_acteurs_count == 0` OU `recommandations_count == 0`, le pilote peut continuer en mode dégradé MAIS l'alerte `alertes: ["champ_X_vide_v36"]` est ajoutée au verdict_json et signalée à CP1 (cf. BLOQUANT conditionnel B.3 + BLOQUANT conditionnel B.7 vérdict_round_2). Sur hôte productif, M11 (positions_acteurs source §X.Y) et M12 (recommandations acteur_cible+horizon) sont calculés par `sublimator_validate.py` ; leur absence déclenche NO-GO via `verdict_from_metrics()` (cf. sublimator_validate.py §13.5.3).
+
+**Material regen_count** (round 4 — RISQUE M.R3 verdict ROUND 2) : `regen_count` est défini comme `iteration_count - 1`. Il est stocké au niveau **quintessence individuelle** dans le champ `compress_summary.regen_count` (en complément de `iteration_count` et `iteration_alert`).
+
+**Seuil d'alerte CP1 50%** (round 4 — RISQUE M.R3 verdict ROUND 2) : si le ratio **cross-enquête** `fiches_avec_regen_count_>=_1 / fiches_totales >= 0.5`, l'alerte globale `[CP1 ALERT] Taux de regen critique : ___% (seuil 50%)` est émise par `sublimator_validate.py` (cf. §13.5.6 cross-enquête — matérialisation Python, pas LLM). L'orchestrateur, myope fiche-par-fiche, ne peut pas détecter cet agrégat ; le validateur Python est la source de vérité de l'alerte 50%.
+
 **Règles** :
 
 1. Tu ne sautes aucune étape.

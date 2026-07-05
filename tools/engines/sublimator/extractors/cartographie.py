@@ -47,6 +47,9 @@ RE_COMPLEXITE = re.compile(
 )
 # URL regex avec strip de la ponctuation finale (.,;:) et bracket fermant
 RE_URL = re.compile(r"https?://[^\s\)\]<>\u00bb]+", re.IGNORECASE)
+# Round 4 — N1 grille APEX 6×3 : regex pour scores proxy lobby + impact (heuristique Python).
+RE_LOBBY = re.compile(r"(?i)(?<!\w)lobby|groupes?\s+d.int[ée]r[êe]ts?|pression\s+lobby|think\s*tank|conf[ée]d[ée]ration\s+patronale|syndicat\s+patronal|medef|cefi|afep|uimm|fnsea|cnil\b|cea\b")
+RE_IMPACT = re.compile(r"\b(\d+(?:[.,]\d+)?\s*(?:%|morts|d[ée]c[èe]s|cas|hausses?|euros?|milliards?|millions?|TWh|MWh|GWh|kWh|milliers?|points?|gigawatts?|MW|GW|kW|ha|h[ae]ctares?|km)\b)", re.IGNORECASE)
 # Ces deux patterns permettent de detecter les bold headers FR standards :
 #   **Date :** 2026-07-04 (meta, pas contenu)
 #   **Th\u00e8se :** Le RIC est verrouill\u00e9... (valeur = these candidate)
@@ -95,6 +98,65 @@ def classify_archetype(entry: dict[str, Any]) -> str:
     if mots_total > 2500 and f_count_estime >= 2:
         return "APEX_LEGACY"
     return "COURT_DEGR"
+
+
+
+def grille_apex_score(entry: dict[str, Any]) -> dict[str, Any]:
+    """Round 4 — N1 (verdict ROUND 2 RISQUE P1) : grille APEX 6×3 /18 exportée par cartographie.json.
+
+    SPECS v36 §5.1 ligne 175 + verdict doc ligne 159 /180. Chaque dimension est scorée 0-3 (1 pt par seuil franchi). Score total /18 :
+    - `these` : force de la thèse (proxy : longueur these_candidate).
+    - `complexite` : déclarée ou déclarée par mots-clés (proxy : champ `complexite`).
+    - `lobby` : intensité biais lobby (proxy : itérations RE_LOBBY).
+    - `causalite` : proxy : f_count_estime (proxy pour profondeur PELOTE).
+    - `sources` : proxy : urls_count.
+    - `impact` : proxy : itérations RE_IMPACT (chiffres + unité sémantique).
+
+    Args:
+        entry: dict issu de extract_python().
+    Returns:
+        dict {these, complexite, lobby, causalite, sources, impact, total:/18, score_method:"heuristic_python_proxy"}.
+    """
+    these = entry.get("these_candidate", "") or ""
+    score_these = 0
+    if 30 <= len(these) < 150: score_these = 1
+    elif 150 <= len(these) < 300: score_these = 2
+    elif len(these) >= 300: score_these = 3
+
+    cpx_str = (entry.get("complexite") or "unknown").upper()
+    score_cpx = {"APEX": 3, "STANDARD": 2, "LIGHT": 1}.get(cpx_str, 0)
+
+    content_proxy = entry.get("_content_proxy_for_lobby", "") or ""
+    lobby_hits = len(RE_LOBBY.findall(content_proxy))
+    if lobby_hits == 0: score_lobby = 0
+    elif 1 <= lobby_hits <= 2: score_lobby = 1
+    elif 3 <= lobby_hits <= 5: score_lobby = 2
+    else: score_lobby = 3  # > 5
+
+    f_c = entry.get("f_count_estime", 0) or 0
+    score_causalite = 3 if f_c > 8 else 2 if f_c >= 5 else 1 if f_c >= 2 else 0
+
+    urls_c = entry.get("urls_count", 0) or 0
+    score_sources = 3 if urls_c >= 16 else 2 if urls_c >= 8 else 1 if urls_c >= 4 else 0
+
+    impact_hits = len(RE_IMPACT.findall(content_proxy))
+    if impact_hits <= 0: score_impact = 0
+    elif impact_hits == 1: score_impact = 1
+    elif 2 <= impact_hits <= 3: score_impact = 2
+    else: score_impact = 3
+
+    total = score_these + score_cpx + score_lobby + score_causalite + score_sources + score_impact
+    return {
+        "these": score_these,
+        "complexite": score_cpx,
+        "lobby": score_lobby,
+        "causalite": score_causalite,
+        "sources": score_sources,
+        "impact": score_impact,
+        "total": total,
+        "score_method": "heuristic_python_proxy",
+        "uncertainty_note": "(±2 pts vs scoring LLM — validation CP0 recommandée)",
+    }
 
 
 def _extract_prefix(filename: str) -> str:
@@ -295,8 +357,17 @@ def run(dossier: Path, mode: str = "python") -> dict[str, Any]:
     entries: list[dict[str, Any]] = []
     for f in files:
         entry = extract_python(f)
+        # ROUND 4 v36 RISQUE N1 — proxy content pour lobby + impact scoring (lecture reduite 50K chars).
+        try:
+            raw_content = path.read_text(encoding="utf-8", errors="replace")[:50000]
+        except (OSError, UnicodeError):
+            raw_content = ""
+        entry["_content_proxy_for_lobby"] = raw_content
         # ROUND 3 v36 §12 F.R1 : intégration classify_archetype (correction BLOQUANT B.5 verdict ROUND 2).
         entry["archetype"] = classify_archetype(entry)
+        # ROUND 4 v36 RISQUE N1 : grille APEX 6×3 exportée par cartographie.json.
+        entry["grille_apex"] = grille_apex_score(entry)
+        del entry["_content_proxy_for_lobby"]  # netoyer proxy du document final
         entries.append(entry)
     n_ok = sum(1 for e in entries if e["status"] == "ok")
     n_needs_llm = sum(1 for e in entries if e["status"] == "needs_llm")

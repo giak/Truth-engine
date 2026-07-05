@@ -486,6 +486,13 @@ def run_validate(args: argparse.Namespace) -> Dict:
         m11_moy = round(sum(m11_pc) / len(m11_pc), 1) if m11_pc else 0.0
         m12_moy = round(sum(m12_pc) / len(m12_pc), 1) if m12_pc else 0.0
 
+        # Round 4 — M.R3 materiality (verdict ROUND 2 RISQUE P1) : extraire iteration_count
+        # depuis compress_summary.iteration_count (defensive sur quintessences v35 legacy
+        # où compress_summary peut être string au lieu de dict).
+        iter_counts = [int(((q.get("compress_summary") or {}) if isinstance(q.get("compress_summary"), dict) else {}).get("iteration_count") or 1) for q in quins]
+        iter_count_max = max(iter_counts) if iter_counts else 1
+        regen_count_max = max(0, iter_count_max - 1)
+
         metrics = {
             "M1": m1 if m1 is not None else 0.0,
             "M2": m2 if m2 is not None else 0.0,
@@ -500,6 +507,9 @@ def run_validate(args: argparse.Namespace) -> Dict:
             "M10": m10_moy,
             "M11": m11_moy,
             "M12": m12_moy,
+            # ROUND 4 v36 — M.R3 materiality (verdict ROUND 2 RISQUE P1).
+            "iteration_count": iter_count_max,
+            "regen_count": regen_count_max,
         }
         verdict, _ = verdict_from_metrics(metrics)
 
@@ -525,6 +535,21 @@ def run_validate(args: argparse.Namespace) -> Dict:
         exit_code = 0
     results["_meta"]["verdict_global"] = global_v
 
+    # ROUND 4 v36 — M.R3 materiality : alerte CP1 si >= 50% des fiches ont regen_count >= 1.
+    total_fiches = len(results["enquetes"])
+    fiches_avec_regen = sum(1 for enq, r in results["enquetes"].items()
+                           if (r["metrics"].get("regen_count") or 0) >= 1)
+    if total_fiches > 0:
+        regen_ratio = fiches_avec_regen / total_fiches
+        results["_meta"]["regen_ratio"] = round(regen_ratio, 3)
+        results["_meta"]["fiches_avec_regen"] = fiches_avec_regen
+        if regen_ratio >= 0.5:
+            results["_meta"]["cp1_alert"] = (
+                f"[CP1 ALERT] Taux de regen critique : {regen_ratio*100:.1f}% "
+                f"({fiches_avec_regen}/{total_fiches} fiches avec regen_count >= 1) "
+                f"– seuil 50% depasse. Voir quintessence_orchestrator.md M.R3 round 4."
+            )
+
     return results, exit_code
 
 
@@ -535,8 +560,8 @@ def render_markdown(results: Dict) -> str:
              f"Quintessences chargées : {results['_meta']['total_quintessences_chargees']}",
              f"**Verdict global : {results['_meta']['verdict_global']}**\n",
              "## Tableau par enquête\n",
-             "| Enquête | Runs | M1 Jaccard | M2 Inter | M3 Hallu | M4 Chiffres | M5 Parse | M6 Tokens | M7 Min | M8 Proxy | M9 Iso | M10 PELOTE | M11 PosAct | M12 Reco | Verdict |",
-             "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+             "| Enquête | Runs | M1 Jaccard | M2 Inter | M3 Hallu | M4 Chiffres | M5 Parse | M6 Tokens | M7 Min | M8 Proxy | M9 Iso | M10 PELOTE | M11 PosAct | M12 Reco | Iterations | Regen | Verdict |",
+             "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for enq, r in sorted(results["enquetes"].items()):
         m = r["metrics"]
         m7_str = "N/A" if m.get("M7") is None else f"{m['M7']}"
@@ -547,6 +572,7 @@ def render_markdown(results: Dict) -> str:
             f"{m['M6']} | {m7_str} | "
             f"{m['M8']}/10 | "
             f"{m['M9']}% | {m['M10']}/10 | {m['M11']}% | {m['M12']}% | "
+            f"{m.get('iteration_count', 1)} | {m.get('regen_count', 0)} | "
             f"**{r['verdict']}** |"
         )
     lines.append("\n## Légende cible §13.5.3")
