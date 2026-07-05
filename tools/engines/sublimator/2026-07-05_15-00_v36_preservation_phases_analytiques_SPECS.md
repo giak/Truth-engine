@@ -1301,17 +1301,17 @@ L'Agent 4 (orchestrateur) est un méta-prompt CoT. Le LLM qui exécute ce prompt
 
 **Action** : ajouter une **vérification humaine légère (CP1)** sur les fiches qui ont nécessité ≥ 2 itérations ou qui ont des scores ≤ 5 sur les champs-clés (these_centrale, faits_atomiques).
 
-#### 13.4.3 Coût caché du retry
+#### 13.4.3 Effort caché du retry (volume de tokens)
 
-L'estimation de coût (2.5-4x tokens, ~30-50€ pour 41 enquêtes) est **non-mesurée**. Le coût réel dépend de :
+L'estimation de volume (2.5-4x single-shot, ~1-2 M tokens pour 41 enquêtes) est **non-mesurée**. Le volume réel dépend de :
 - La longueur des enquêtes (12 000 mots pour civictech = beaucoup plus de tokens).
 - Le nombre d'itérations (1 en moyenne, mais jusqu'à 3 dans le pire cas).
-- Le coût par token du LLM hôte (Claude Sonnet 4 ≈ 3$/M input, 15$/M output en juillet 2026).
+- Le LLM hôte (modèle local, proxy gratuit, ou API en quota libre — le volume consommé est indépendant du tarif ; le projet utilise des outils gratuits, le volume de tokens est la seule grandeur à borner).
 
-**Hypothèse basse** (1 itération moyenne, 8K mots/enquête) : 41 × 3 prompts × 16K tokens × 0.003$/K = ~6$.
-**Hypothèse haute** (3 itérations, 12K mots) : 41 × 3 × 6 prompts × 24K tokens × 0.015$/K (output) = ~265$.
+**Hypothèse basse** (1 itération moyenne, 8K mots/enquête) : 41 × 1 itération × 3 prompts × 16K tokens input + 41 × 1 × 3 × 5K output = ~1.97M input + ~0.6M output = **~2.6M tokens total**.
+**Hypothèse haute** (3 itérations, 12K mots) : 41 × 3 itérations × 6 prompts (3 de base + 3 régénération) × 24K tokens input + 41 × 3 × 6 × 12K output = ~17.7M input + ~8.9M output = **~26.6M tokens total**.
 
-**Fourchette réaliste** : 20-100€ pour 41 enquêtes. **À mesurer empiriquement** (cf. §13.5).
+**Fourchette réaliste** : 2.5-27 M tokens pour 41 enquêtes (vs 1-4M estimés en §13.6, qui n'inclut pas l'overhead de régénération ciblée). **À mesurer empiriquement** (cf. §13.5).
 
 #### 13.4.4 Pas de mesure empirique des chiffres annoncés
 
@@ -1323,7 +1323,7 @@ Dans le tour de brainstorm précédent, j'ai annoncé des chiffres sans mesure :
 
 **Ces chiffres sont des intuitions**. Je les ai présentés comme des mesures parce que le format matrice de décision le demandait. **C'était une erreur d'honnêteté**.
 
-**Les vraies valeurs sont inconnues** jusqu'à exécution du plan de validation §13.5. Les fourchettes ci-dessus (§13.4.3) sont des **estimations de coût**, pas des **mesures de qualité**.
+**Les vraies valeurs sont inconnues** jusqu'à exécution du plan de validation §13.5. Les fourchettes ci-dessus (§13.4.3) sont des **estimations de volume (tokens)**, pas des **mesures de qualité**.
 
 #### 13.4.5 La chaîne n'est pas auto-vérifiable
 
@@ -1398,23 +1398,22 @@ Pour chaque enquête, exécuter **3 runs indépendants** (3 sessions LLM distinc
   - Le verdict (GO/NO-GO/PIVOT) argumenté.
 - 1 note méthodologique : quels prompts ont été modifiés entre runs, quelles erreurs détectées, quelles mitigations proposées.
 
-#### 13.5.5 Coût de la validation
+#### 13.5.5 Effort de la validation (volume de tokens)
 
-- 3 enquêtes × 3 runs × 3-4 prompts × ~16K tokens = ~500K tokens input + ~150K tokens output.
-- À 0.003$/K input et 0.015$/K output (Claude Sonnet 4) : ~$1.50 + $2.25 = **~$3.75**.
+- 3 enquetes x 3 runs x 3-4 prompts x ~16K tokens = ~500K tokens input + ~150K tokens output = **~650K tokens total**.
 - Latence : 3 × 3 × ~5 min = ~45 min en séquentiel.
-- **Coût marginal acceptable** pour valider une architecture qui sera appliquée à 41 autres enquêtes.
+- **Effort marginal acceptable** pour valider une architecture qui sera appliquée à 41 autres enquêtes.
 
-### 13.6 Coût estimé (avec disclaimer)
+### 13.6 Volume estimé (avec disclaimer)
 
 > **Toute estimation chiffrée de cette section est une hypothèse de travail, non une mesure. À remplacer par les valeurs réelles du §13.5 après validation.**
 
 | Poste | Estimation | Source |
 |-------|-----------|--------|
-| Coût par enquête (1 run moyen) | ~3x single-shot (~30K tokens) | Estimation 4 prompts × 8K tokens moyens |
-| Coût par enquête (3 itérations max) | ~5-8x single-shot (~50-80K tokens) | Pire cas (3 itérations complètes) |
-| Coût total 41 enquêtes (hypothèse 1.5 itération moyenne) | **~$30-50** (~$0.75-1.25/enquête) | Calcul : 41 × 50K × 0.003$/K = ~$6 + 41 × 15K × 0.015$/K = ~$9 = ~$15 + frais d'itération |
-| Coût total 41 enquêtes (hypothèse 3 itérations) | **~$100-150** | Pire cas observé |
+| Volume par enquête (1 run moyen) | ~3x single-shot (~30K tokens) | Estimation 4 prompts × 8K tokens moyens |
+| Volume par enquête (3 itérations max) | ~5-8x single-shot (~50-80K tokens) | Pire cas (3 itérations complètes) |
+| Volume total 41 enquêtes (hypothèse 1.5 itération moyenne) | **~1-1.5 M tokens** (~25-40K/enquête) | 41 × 30-40K tokens moyens |
+| Volume total 41 enquêtes (hypothèse 3 itérations) | **~3-4 M tokens** | Pire cas observé |
 | Latence par enquête | ~5-10 min | 3-4 prompts séquentiels × 1-3 min/agent |
 | Latence totale 41 enquêtes (séquentiel) | ~3-7h | 41 × 5-10 min |
 
@@ -1448,17 +1447,17 @@ v35 Phase 1 (single-shot LLM)  →  v36 Phase 1 (multi-agent 4 prompts)
 
 #### 13.9.1 Questions à trancher par l'utilisateur
 
-1. **Lancer la validation empirique §13.5** (3 enquêtes × 3 runs, coût ~$4, latence ~45 min) ? (Recommandé : oui, indispensable avant industrialisation)
+1. **Lancer la validation empirique §13.5** (3 enquêtes × 3 runs, latence ~45 min) ? (Recommandé : oui, indispensable avant industrialisation)
 2. **Accepter l'architecture 4 agents** comme cible v36 ? (Recommandé : oui, sous réserve GO du §13.5)
 3. **Activer la migration v35 → v36** sur les 42 enquêtes RIC après validation ? (Recommandé : différer, faire d'abord 3 enquêtes tests + 3 runs)
-4. **Quel budget tokens accepter** (estimation $30-50, mesure réelle inconnue) ? (Recommandé : $100, soit 2x l'estimation haute, pour absorber la variance)
+4. **Quel budget tokens accepter** (estimation 1-1.5 M tokens pour 41 enquêtes, mesure réelle inconnue) ? (Recommandé : 3 M tokens, soit 2x l'estimation haute, pour absorber la variance)
 5. **Format canonique unique imposé** (cf. §12.6) ou conservation des 4 archétypes ? (Recommandé : canonique unique, sinon le problème se reproduit)
 
 #### 13.9.2 Décisions à valider
 
 - [ ] Lancer validation §13.5 (oui / non / plus tard)
 - [ ] Architecture 4 agents acceptée (oui / non / réviser)
-- [ ] Budget tokens validé (estimation $30-50 / conservateur $100 / autre)
+- [ ] Budget tokens validé (estimation 1-1.5 M / conservateur 3 M / autre)
 - [ ] Format canonique unique imposé (oui / non / différer)
 - [ ] Fichiers prompts à créer (cf. §13.7) en première itération
 
