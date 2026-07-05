@@ -5,11 +5,14 @@ test_round3_v36_metrics.py — Tests unitaires ROUND 3 corrections P0 verdict v3
 Couvre les 4 BLOQUANTS P0 fermes par `AUDIT_ANTAGONISTE_v36_ROUND2_VERDICT_2026-07-05.md` :
 
 - B.3 (M1-M9 → M1-M12) : M10 profondeur PELOTE / M11 positions_acteurs source / M12 recommandations acteur_cible+horizon.
-- B.5 (format canonique) : classify_archetype dans cartographie.py.
 - Integration : verdict_from_metrics utilise 12 metriques (GO >= 8/12, NO-GO declenche si M10 absent).
 
 100% stdlib, 0 token LLM, pytest compatible.
 Convention runner : `rtk pytest tests/pipelines/test_round3_v36_metrics.py -v`.
+
+Note 2026-07-05 : tests `test_classify_*` et `test_classify_integration_extract_python` (qui
+dependaient de `extractors/cartographie.py` Phase 0) SUPPRIMES — Phase 0 eliminee du Sublimator
+(overengineering pour le besoin « 1 article publiable depuis N enquetes »). cf. git log.
 """
 from __future__ import annotations
 
@@ -20,7 +23,6 @@ from pathlib import Path
 # Permettre import relatif au package sublimator via sys.path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools" / "engines" / "sublimator"))
-sys.path.insert(0, str(ROOT / "tools" / "engines" / "sublimator" / "extractors"))
 
 from sublimator_validate import (
     CIBLES_GO,
@@ -30,7 +32,6 @@ from sublimator_validate import (
     m12_recommandations_acteur_horizon,
     verdict_from_metrics,
 )
-from cartographie import classify_archetype, extract_python
 
 
 # ---------------------------------------------------------------------------
@@ -58,7 +59,7 @@ def test_m10_pelote_depth_niveau4():
 
 
 def test_m10_pelote_depth_niveau2():
-    """Arborecence partielle (2 niveaux) : score 5/10 (ciblé ≥ 7.5 NO-GO)."""
+    """Arborecence partielle (2 niveaux) : score 5/10 (cible >= 7.5 NO-GO)."""
     q = {
         "causalites_pelote": [
             {"niveau": 1, "type": "mecanisme", "enonce": "M1"},
@@ -200,77 +201,11 @@ def test_verdict_pivot_intermediate():
 
 
 # ---------------------------------------------------------------------------
-# classify_archetype (cartographie.py B.5)
-# ---------------------------------------------------------------------------
-
-def test_classify_golden_apex():
-    """mots_total > 5000 + f_count_estime >= 5 + kernel_count >= 8."""
-    entry = {"n_lines": 800, "f_count_estime": 8, "kernel_count": 12}  # n_lines*10 = 8000 mots
-    assert classify_archetype(entry) == "GOLDEN_APEX"
-
-
-def test_classify_apex_legacy():
-    """mots_total > 2500 + f_count_estime >= 2 mais < 5 OU kernel manque."""
-    entry = {"n_lines": 300, "f_count_estime": 3, "kernel_count": 0}  # 3000 mots
-    assert classify_archetype(entry) == "APEX_LEGACY"
-
-
-def test_classify_court_degr_short():
-    """Enquête courte : < 2500 mots."""
-    entry = {"n_lines": 150, "f_count_estime": 1, "kernel_count": 0}  # 1500 mots
-    assert classify_archetype(entry) == "COURT_DEGR"
-
-
-def test_classify_court_degr_no_fact():
-    """Enquête passee-en-fait : > 2500 mots mais pas de F-###."""
-    entry = {"n_lines": 350, "f_count_estime": 0, "kernel_count": 0}  # 3500 mots mais 0 F
-    # hits APEX_LEGACY? Non, f_count_estime >= 2 requis. Donc COURT_DEGR.
-    assert classify_archetype(entry) == "COURT_DEGR"
-
-
-def test_classify_kernel_optional():
-    """GOLDEN_APEX avec kernel absent : OK (kernel_count == 0 traite comme 'no info')."""
-    entry = {"n_lines": 800, "f_count_estime": 8, "kernel_count": 0}
-    assert classify_archetype(entry) == "GOLDEN_APEX"
-
-
-def test_classify_integration_extract_python(tmp_path=None):
-    """Integration : extract_python sur un fichier réel + classify_archetype GOLDEN_APEX.
-
-    mots_total proxy = n_lines * 10. Pour declencher GOLDEN_APEX : mots_total > 5000 + f_count >= 5 + kernel_count >= 8.
-    Le fichier de test : 600 lignes substantielles (= 6000+ mots) + 8 F-### distincts.
-    """
-    import tempfile
-    with tempfile.NamedTemporaryFile(mode="w", suffix="_INVESTIGATION.md", delete=False) as f:
-        # Header.
-        f.write("# Enquete test GOLDEN_APEX GOLDEN_APEX\n\n")
-        # 600 lignes = ~6000 mots.
-        for i in range(600):
-            f.write("ligne " + str(i) + " contenu substantiel avec details et verifications croisees F-XXX YYY ZZZ\n")
-        # 8 F-### explicites (f_count >= 5 requis pour GOLDEN).
-        f.write("\nF-001 F-002 F-003 F-004 F-005 F-006 F-007 F-008 mention substantielle avec sources\n")
-        tmpfile = Path(f.name)
-    try:
-        entry = extract_python(tmpfile)
-        # cartographie.py Phase 0 ne detecte pas kernel_count, on l ajoute manuellement (= 12 >= 8 OK).
-        entry["kernel_count"] = 12
-        # Verifications de sanity :
-        # - n_lines doit etre autour de 603 -> mots_total proxy = 6030 > 5000.
-        # - f_count_estime >= 5 (on en a 8 distincts).
-        # - kernel_count >= 8.
-        assert classify_archetype(entry) == "GOLDEN_APEX", (
-            f"got={classify_archetype(entry)} entry={dict(n_lines=entry.get('n_lines'), f_count_estime=entry.get('f_count_estime'), kernel_count=entry.get('kernel_count'))}"
-        )
-    finally:
-        tmpfile.unlink()
-
-
-# ---------------------------------------------------------------------------
 # Cibles spec v36 §13.3.2
 # ---------------------------------------------------------------------------
 
 def test_cibles_go_no_go_keys_present():
-    """Les 12 clés (M1-M12) sont dans CIBLES_GO et CIBLES_NO_GO."""
+    """Les 12 cles (M1-M12) sont dans CIBLES_GO et CIBLES_NO_GO."""
     for k in range(1, 13):
         key = f"M{k}"
         assert key in CIBLES_GO, f"{key} missing from CIBLES_GO"
@@ -284,7 +219,7 @@ def test_m10_targets():
 
 
 def test_m11_targets():
-    """M11 cible GO == 100% positions_acteurs sourcées."""
+    """M11 cible GO == 100% positions_acteurs sourcees."""
     assert CIBLES_GO["M11"] == 100.0
     assert CIBLES_NO_GO["M11"] < 100.0
 

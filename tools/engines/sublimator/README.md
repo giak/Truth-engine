@@ -10,10 +10,6 @@
 ## Quickstart
 
 ```bash
-# 1. Cartographier un dossier d'enquetes (Phase 0, ~5s pour 42 enquetes)
-python3 -m tools.engines.sublimator.extractors.cartographie \
-  investigations/<sujet>/ --mode python --output cartographie.json
-
 # 2. Valider une production (post Phase 1 ou archivage)
 python3 tools/engines/sublimator/sublimator_validate.py \
   --validation-dir investigations/<sujet>/_validation \
@@ -28,8 +24,7 @@ python3 -m pytest tests/pipelines/test_e2e_dispatch_v35.py -v
 ## Architecture
 
 ```
-                  [Phase 0 Cartographie]
-                  cartographie.json (1 ligne/enquete)
+                  [Phase 1 Extraction LLM par-enquete] (cartographie.json SUPPRIMÉE 2026-07-05 — overengineering)
                               |
                               v
             [Phase 1 Extraction LLM par-enquete]
@@ -60,17 +55,14 @@ python3 -m pytest tests/pipelines/test_e2e_dispatch_v35.py -v
               [Phase 3 Article 3000-5000 mots (CP2 humain)]
 ```
 
-3 checkpoints humains : CP0 (carto+brief, Phase 0+0.5), CP1 (thèse fil rouge,
-Phase 2), CP2 (article fini, Phase 3). Entre les CP, `gates.py` valide H0-H7
-automatiquement.
+3 checkpoints humains : CP1 (Phase 1.5 thèse / Phase 2 thèse fil rouge),
+CP2 (Phase 3 article fini). Entre les CP, les validateurs Python valident H0-H7
+automatiquement. *(L'ancien CP0 cartographie a été supprimé 2026-07-05 ; il reste 2 checkpoints actifs.)*
 
 ## Workflow (8 phases)
 
-- **Phase 0** : Cartographie Python (regex headers) + Mnemolite enrichissement
-  optionnel (`search_mode="hybrid"` obligatoire depuis V11). Sortie :
-  `cartographie.json`. CP0.
-- **Phase 0.5** : Brief éditorial (`ANGLE` / `AUDIENCE` / `EXCLUSIONS` /
-  `LONGUEUR` / `TON`).
+  optionnel (`search_mode="hybrid"` obligatoire depuis V11). Les fiches LLM par-enquête sont stockées dans `_quintessence/`.
+- **Phase 1.5** : Compression en 100 mots (champ `compress_summary` dans la quintessence).
 - **Phase 1** : Extraction LLM par-enquête, 4 sub-agents orchestrés via
   `filePaths` (voir ## Orchestration §prompt-v35).
 - **Phase 1.5** : Compression en 100 mots (`compress_summary` dans la
@@ -102,9 +94,7 @@ Coût tokens LLM : 0. Cible couverture M5 88.9 % → ~99 %.
 | `prompts/validation_3enquetes.md` | Protocole §13.5 ré-exécution | rejouable tout hôte LLM |
 
 **Contrat Mnemolite (5-place redundancy propage V12/V13)** :
-`get_system_snapshot` au démarrage (HALTE si DOWN, fall-back cardex Phase 0
-si déjà établi) + `search_memory(..., search_mode="hybrid", ...)` TOUJOURS (jamais
-sans le paramètre). Présent dans `prompt-v35.md` + les 4 sub-prompts.
+`get_system_snapshot` au démarrage (HALTE si DOWN, sans cardex fallback depuis suppression Phase 0 2026-07-05) + `search_memory(..., search_mode="hybrid", ...)` TOUJOURS (jamais sans le paramètre). Présent dans `prompt-v35.md` + les 4 sub-prompts.
 
 ## Métriques (SPECS §13.5.2)
 
@@ -150,7 +140,7 @@ Convention unifiée : underscore (pas hyphen), drop suffix.
 
 ## Tests
 
-- `tests/extractors/` : `test_cartographie.py`, `test_gates.py`,
+- *(Section `tests/extractors/` supprimée 2026-07-05 : extractors/cartographie.py retiré comme overengineering.)*
   `test_gates_json.py`, `test_gates_hardening.py`,
   `test_head_check_hardening.py`.
 - `tests/pipelines/test_e2e_dispatch_v35.py` : cohérence statique du dispatch
@@ -164,7 +154,7 @@ Convention unifiée : underscore (pas hyphen), drop suffix.
 - `RAPPORT_MULTI_AGENT_44_ENQUETES_v35_2026-07-05.md` : audit multi-agent
   44 enquetes industrielles. 7 questions + 7 preuves (3 empiriques + 4
   analytiques). Verdict : 2 BLOQUANTS (Q2 dispatch contradiction + Q7
-  cartographie 0 clusters) + 3 RISQUES (Q3 alert flood, Q4 Mnemolite
+  extractors 0 clusters) + 3 RISQUES (Q3 alert flood, Q4 Mnemolite
   pollution, Q6 friction). Industrialisation NON-VALIDABLE en l'état.
   Effort corrections : 5-6h shell+Python.
 

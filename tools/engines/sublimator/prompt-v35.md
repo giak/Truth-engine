@@ -29,54 +29,7 @@ Ce dépôt n'a pas le client MCP Mnemolite connecté. Les appels ci-dessous sont
 - `search_memory(query, search_mode="hybrid", limit)`. Jamais sans `search_mode="hybrid"` (sinon tag-only, zéro similarité sémantique).
 - En cas d'échec d'un appel MCP : réessaie 1 fois. Si échec encore → HALTE.
 
-**Fallback local** : si Mnemolite DOWN et `cartographie.json` Phase 0 utilisable → mode dégradé via **cardex local**. Sinon : HALTE sans produire de fichier.
-
----
-
-## Phase 0 : Cartographie (1 fois, début)
-
-> **But** : 1 ligne par enquête, tient en contexte (~50 lignes pour N enquêtes).
-
-### Avant d'écrire
-
-1. Liste tous les fichiers `*_INVESTIGATION.md` du dossier cible.
-2. Exécute `python3 tools/engines/sublimator/extractors/cartographie.py <dossier> --mode python --output cartographie.json` (extraction regex déterministe).
-3. Si tu interroges Mnemolite pour enrichir les champs sémantiques manquants (`thèse`, `complexité`, `mots-clés`), utilise systématiquement `search_memory(..., search_mode="hybrid")`. `get_system_snapshot` préalable → DOWN implique HALTE sauf cardex Phase 0 déjà établi.
-4. Pour les fiches où Python marque `status="needs_llm"` (champs sémantiques absents), lis les 50 premières lignes de l'enquête pour extraire `thèse`, `complexité`, `mots-clés`.
-5. Détermine le cluster thématique (juridique, technique, psychologique, anthropologique, politique, économique, social, religieux, culturel, scientifique, médiatique, autre).
-
-### Format `cartographie.json`
-
-```json
-{
-  "date_cartographie": "YYYY-MM-DD",
-  "complexity": "APEX|STANDARD|LIGHT",
-  "n_enquetes_totales": 42,
-  "cluster_method": "thematic_keywords_fallback | complexite_fallback",
-  "n_clusters": 23,
-  "clusters": [{"id": "C1", "label": "juridique", "n_enquetes": 6, "prefixes": ["..."]}],
-  "enquetes": [{
-    "prefix": "ric_def",
-    "sujet": "...",
-    "these_candidate": "...",
-    "complexite": "APEX",
-    "keywords": ["..."],
-    "urls_count": 12,
-    "f_count_estime": 24,
-    "status": "ok | needs_llm | llm_filled | error"
-  }]
-}
-```
-
-**CP0 — checkpoint humain.** Présente 5-10 lignes synthèse + clusters auto-détectés. Action [V/M/R/E].
-
-### Statut Phase 0 (P1 V11)
-
-Après exécution de `cartographie.py` :
-
-- **Statut `"OK"`** : `cartographie.json` écrit, `n_enquetes_totales` cohérent avec `ls *_INVESTIGATION.md`. Mode cardex disponible pour le pilote. Si Mnemolite DOWN, mode dégradé toléré.
-- **Statut `"error"`** : `cartographie.json` absent ou invalide. **HALTE inconditionnel**, même si Mnemolite UP. Sans cardex Phase 0, aucune base pour itérer les sub-agents.
-- **Statut `"needs_llm"`** : extraction Python a échoué sur ≥ 1 fiche (champs sémantiques absents). Le pilote lit les 50 premières lignes de l'enquête pour compléter `thèse` / `complexité` / `mots-clés` avant de continuer. Pas un HALTE.
+**Fallback local** : si Mnemolite DOWN → HALTE inconditionnel sans produire de fichier. (Phase 0 cartographie + cardex local supprimés 2026-07-05 : overengineering pour le besoin « 1 article publiable depuis N enquêtes ».)
 
 ---
 
@@ -129,7 +82,7 @@ python3 tools/engines/sublimator/sublimator_validate.py --validation-dir investi
 > **→ Voir ## Orchestration Sublimator — étape D (ORCHESTRATEUR pour boucle régénération ciblée).**
 
 1. Charge toutes les `compress_summary` (Phase 1.5). Toutes les enquêtes compressées tiennent en contexte.
-2. Pour chaque cluster identifié en Phase 0, génère une mini-synthèse : 1 phrase `these_cluster` + 3-5 F## partagés + 1 transversalité intra-cluster.
+2. Pour chaque cluster identifié manuellement par l'opérateur, génère une mini-synthèse : 1 phrase `these_cluster` + 3-5 F## partagés + 1 transversalité intra-cluster.
 3. Mnemolite : 1 requête cross-cluster, log dans `mnemo_context.searches`.
 
 **CP1 — checkpoint humain.** Présente 1 phrase thèse fil rouge + 3-5 thèses hiérarchisées.
@@ -174,10 +127,6 @@ python3 tools/engines/sublimator/sublimator_validate.py --validation-dir investi
 ## Fichiers produits
 
 ```
-investigations/<sujet>/
-  cartographie.json                 # Phase 0
-  brief_editorial.json              # Phase 0.5
-
 investigations/<sujet>/_quintessence/
   {prefix}_quintessence-v2.json     # Phase 1 (comprend compress_summary Phase 1.5)
 
@@ -201,7 +150,7 @@ articles/
 
 - `tools/engines/sublimator/sublimator_validate.py` (~290 lignes stdlib) : M1-M9, verdict GO/PIVOT/NO-GO par enquête et global.
 - `tools/engines/sublimator/sublimator_retry.py` (~135 lignes stdlib) : retry anti-silence > 30 s / JSON malformé / champs requis. Exit 0/1/2.
-- `tools/engines/sublimator/sublimator_pilot.py` (~330 lignes stdlib) : orchestrateur end-to-end Phase 0 → Phase 2 + validation réelle.
+- `tools/engines/sublimator/sublimator_pilot.py` (~290 lignes stdlib) : orchestrateur end-to-end Phase 1 → Phase 2 + validation réelle (Phase 0 cartographie supprimée 2026-07-05).
 
 ### Dispatch table
 
@@ -228,7 +177,8 @@ articles/
 
 ## Protocole Checkpoints (3 CP humains)
 
-- **CP0** (Phase 0) : cartographie + brief → humain valide clusters + angle. **Une seule passe.**
+- **CP1** (Phase 1.5) : thèse fil rouge + 3-5 thèses secondaires → humain tranche. Voir aussi §Protocole Checkpoints plus bas pour le détail CP1/CP2.
+N.B. : l'ancien **CP0** (Phase 0 cartographie) a été supprimé 2026-07-05 ; le point de contrôle suivant est désormais **CP1** (thèse fil rouge).
 - **CP1** (Phase 2) : thèse fil rouge + 3-5 thèses secondaires → humain tranche. **Une seule passe.** À `iteration_alert=true`, liste triée `iteration_count DESC` cumulant les fiches alertées.
 - **CP2** (Phase 3) : article fini + auto-audit → humain valide ou refuse. **Une seule passe.**
 
@@ -241,7 +191,7 @@ Entre les CP : `sublimator_validate.py` + `sublimator_retry.py` valident automat
 Les 4 sub-prompts portent le contrat Mnemolite (cf. tests/pipelines/test_e2e_dispatch_v35.py) :
 - `get_system_snapshot` au démarrage.
 - `search_memory(..., search_mode="hybrid")` TOUJOURS (jamais sans le paramètre).
-- `cardex local` ou `cardex Phase 0` en fallback.
+- `cardex local` désactivé post-suppression Phase 0 (revue 2026-07-05). Mode dégradé : HALTE sans produire de fichier. (Mnemolite DOWN = HALTE direct.)
 
 > **Note statu** : ce dépôt n'a pas le client MCP Mnemolite connecté. Le contrat est conservé pour branchement futur (cf. pilote LLM hôte).
 
@@ -253,7 +203,7 @@ Cette section décrit des scripts utilitaires pour valider le pipeline en dehors
 
 ### `sublimator_pilot.py`
 
-Orchestrateur Phase 0 → Phase 2 + validation réelle via subprocess. Phase 0 + Phase 1.1 + Phase 1.2 + Phase 1.5 + validation sont réelles (subprocess vers `cartographie.py`, chargement reader/quintessence, `sublimator_validate.py`). **Phase 2 est MOCK authentique** (LLM hôte requis pour synthèse sémantique 4 sub-agents) ; aucune synthèse n'est écrite sur disque (`written_to_disk: False`).
+Orchestrateur Phase 1 → Phase 2 + validation réelle via subprocess. Phase 1.1 + Phase 1.2 + Phase 1.5 + validation sont réelles (chargement reader/quintessence, `sublimator_validate.py`). **Phase 2 est MOCK authentique** (LLM hôte requis pour synthèse sémantique 4 sub-agents) ; aucune synthèse n'est écrite sur disque (`written_to_disk: False`).
 
 ```bash
 python3 tools/engines/sublimator/sublimator_pilot.py \
@@ -262,10 +212,6 @@ python3 tools/engines/sublimator/sublimator_pilot.py \
     --enquete <prefix> \
     --version v2
 ```
-
-### `cartographie.py`
-
-Extraction regex pure, retourne `cartographie.json` avec clusters (mode `python`) ou delegue au LLM (mode `hybrid` aspirational). Mode `python` testé : 42 enquêtes → 23 clusters thematic en ~5 secondes.
 
 ### `sublimator_validate.py`
 

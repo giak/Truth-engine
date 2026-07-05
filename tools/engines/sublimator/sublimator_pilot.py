@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-sublimator_pilot.py — Pilote Sublimator v36 orchestrateur end-to-end Phase 0 → Phase 2.
+sublimator_pilot.py — Pilote Sublimator v36 orchestrateur end-to-end Phase 1 → Phase 2 + validation.
 
-**Architecture** :
-- Phase 0 (REELLE) : invoque `cartographie.py --mode python` sur le dossier enquetes.
+**Architecture** (post-suppression Phase 0, revue 2026-07-05) :
 - Phase 1 (MOCK LLM-templated) : injecte des fixtures reader.md + quintessence.json schema-conformes
-  pre-placee dans `_validation/<enquete_id>/` (production manuelle ou via LLM hote).
+  pre-placees dans `_validation/<enquete_id>/` (production manuelle ou via LLM hote).
 - Phase 1.5 (MOCK) : compress_summary lu depuis la quintessence (champ optionnel).
 - Phase 2 (MOCK) : synthese_clusters.json + synthese.json generes par agregation sommaire des
   compress_summary.
@@ -17,9 +16,9 @@ sous LLM hote (memes schemas, memes validateurs).
 **Avec LLM runtime**, il faudrait remplacer les `mock_*` par des appels LLM.
 
 Usage:
-    python3 tools/engines/sublimator/sublimator_pilot.py \
-        --dossier investigations/2026-07-04-RIC \
-        --validation-dir investigations/2026-07-04-RIC/_validation \
+    python3 tools/engines/sublimator/sublimator_pilot.py \\
+        --dossier investigations/2026-07-04-RIC \\
+        --validation-dir investigations/2026-07-04-RIC/_validation \\
         --enquete religieuse_verrou
 
 Sortie JSON : pipeline trace etape-par-etape avec exit code 0/1/2.
@@ -44,27 +43,6 @@ def log(msg: str) -> None:
     """Log structure avec timestamp."""
     sys.stderr.write(f"[sublimator_pilot] {msg}\n")
     sys.stderr.flush()
-
-
-def phase0_cartographie(dossier: Path, output: Path) -> dict:
-    """Phase 0 REELLE : cartographie.py --mode python sur dossier enquetes."""
-    cmd = [
-        "python3",
-        str(Path(__file__).parent / "extractors" / "cartographie.py"),
-        str(dossier),
-        "--mode", "python",
-        "--output", str(output),
-    ]
-    log(f"Phase 0: {cmd}")
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
-        log(f"ERREUR Phase 0 (exit {result.returncode}): {result.stderr[:500]}")
-        return {"ok": False, "exit": result.returncode, "stderr": result.stderr}
-    carto = json.loads(output.read_text())
-    log(f"Phase 0 OK: {carto.get('n_enquetes_totales', 0)} enquetes, "
-        f"cluster_method={carto.get('cluster_method', '?')}, "
-        f"n_clusters={carto.get('n_clusters', 0)}")
-    return {"ok": True, "cartographie": carto}
 
 
 def phase1_reader(val_dir: Path, enquete_id: str) -> Optional[dict]:
@@ -182,8 +160,8 @@ def phase_validation(val_dir: Path, version: str, enquete_id: Optional[str] = No
     if enquete_id:
         cmd.extend(["--enquete", enquete_id])
     # Quick win : fichier temporaire unique (anti-race condition si 2 pilots en parallele).
-    # Construction cmd SANS --output statique pour eviter le bug filtre-any précédemment identifié.
-    # Pas de condition bizarre : le tempfile est TOUJOURS utilisé via --output ajoute apres.
+    # Construction cmd SANS --output statique pour eviter le bug filtre-any précedemment identifie.
+    # Pas de condition bizarre : le tempfile est TOUJOURS utilise via --output ajoute apres.
     _tmp = tempfile.NamedTemporaryFile(suffix=".json", delete=False, prefix="sublimator_pilot_validate_")
     _tmp.close()
     cmd.extend(["--output", _tmp.name])
@@ -210,25 +188,31 @@ def phase_validation(val_dir: Path, version: str, enquete_id: Optional[str] = No
 
 
 def run_pilot(args: argparse.Namespace) -> dict:
-    """Execute le pipeline end-to-end sur une enquete (ou toutes)."""
+    """Execute le pipeline end-to-end sur une enquete (ou toutes).
+
+    Post-suppression Phase 0 (2026-07-05) : pas de cartographie. Le pilote demarre
+    directement a Phase 1.1 sur les fixtures _validation/<enquete_id>/.
+    """
     dossier = Path(args.dossier).resolve()
     val_dir = Path(args.validation_dir).resolve()
     enquete_id = args.enquete  # peut etre None (= tout le dossier)
 
-    log(f"BUG Sublimator v36 pipeline end-to-end")
+    log(f"Sublimator v36 pipeline end-to-end")
     log(f"Dossier enquetes : {dossier}")
     log(f"Validation dir  : {val_dir}")
     log(f"Enquete cible    : {enquete_id or 'all'}")
 
-    # Phase 0 REELLE
-    carto_out = Path("/tmp/sublimator_pilot_carto.json")
-    phase0_result = phase0_cartographie(dossier, carto_out)
-    if not phase0_result.get("ok"):
-        return {"phase0": phase0_result, "verdict": "PHASE0_FAIL"}
-
-    # Phase 1 / 1.5 / 2 / Validation — par enquete si specifiee
-    enquetes_a_valider = ([enquete_id] if enquete_id
-                          else [e.get("prefix") for e in phase0_result["cartographie"].get("enquetes", [])])
+    # Phase 1 / 1.5 / 2 / Validation — par enquete (Phase 0 supprimee 2026-07-05)
+    enquetes_a_valider = ([enquete_id] if enquete_id else [])
+    if not enquetes_a_valider:
+        try:
+            reader_files = list(val_dir.glob("*-reader.md"))
+            enquetes_a_valider = [p.stem.replace("-reader", "") for p in reader_files]
+        except Exception as e:
+            log(f"AVERTISSEMENT: aucune enquete decouverte ({e}).")
+            enquetes_a_valider = []
+        if not enquetes_a_valider:
+            log("AVERTISSEMENT: aucune enquete specifiee ou fixtures _validation/ detectees.")
     results = []
     for eid in enquetes_a_valider:
         log(f"=== Enquete: {eid} ===")
@@ -252,7 +236,8 @@ def run_pilot(args: argparse.Namespace) -> dict:
     # Validation finale reelle (CORRECTIF C1 : --enquete propage au validateur pour verdict per-enquete).
     validation = phase_validation(val_dir, args.version, enquete_id=enquete_id)
     return {
-        "phase0": {"ok": True, "n_enquetes": phase0_result["cartographie"].get("n_enquetes_totales", 0)},
+        "phase0_disabled": True,  # Phase 0 supprimee 2026-07-05 (overengineering)
+        "n_enquetes": len(enquetes_a_valider),
         "details_par_enquete": results,
         "validation": validation,
     }
@@ -263,7 +248,7 @@ def main() -> int:
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     p.add_argument("--dossier", type=Path, required=True,
-                   help="Dossier contenant *_INVESTIGATION.md (Phase 0 cible)")
+                   help="Dossier contenant *_INVESTIGATION.md")
     p.add_argument("--validation-dir", type=Path, required=True,
                    help="Dossier _validation/ avec reader.md + quintessence.json fixtures")
     p.add_argument("--enquete", type=str, default=None,
@@ -280,7 +265,8 @@ def main() -> int:
         print("=" * 70)
         print("SUBLIMATOR PILOT v36 — End-to-end pipeline report")
         print("=" * 70)
-        print(f"Phase 0 (REELLE) : {result['phase0']['n_enquetes']} enquetes cartographiees.")
+        print(f"Phase 0 : SUPPRIMEE (overengineering, voir git log 2026-07-05).")
+        print(f"Pipeline : {result['n_enquetes']} enquete(s) executee(s) Phase 1 → Phase 2.")
         for r in result.get("details_par_enquete", []):
             print(f"\n--- Enquete : {r['enquete_id']} ---")
             for k, v in r.items():
@@ -292,9 +278,7 @@ def main() -> int:
         print(f"Validation Python (REELLE) : exit={v.get('exit', '?')}, "
               f"verdict_global={v.get('out', {}).get('_meta', {}).get('verdict_global', '?')}")
         print("=" * 70)
-    # Exit code : 0 si validation GO ou PIVOT, 2 si validation NO-GO, 1 si Phase 0 fail.
-    if not result.get("phase0", {}).get("ok", True):
-        return 1
+    # Exit code : 0 si validation GO ou PIVOT, 2 si validation NO-GO.
     return result.get("validation", {}).get("exit", 2)
 
 

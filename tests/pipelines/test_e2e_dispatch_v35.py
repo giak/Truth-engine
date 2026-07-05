@@ -2,20 +2,23 @@
 """
 test_e2e_dispatch_v35.py
 
-Tests statiques de cohérence du dispatch Sublimator v35.
+Tests statiques de coherence du dispatch Sublimator v35.
 
-Vérifie (sans mock runtime, sans appel LLM) :
-- prompt-v35.md §Orchestration référence les 4 sub-prompts (LECTEUR, EXTRACTEUR, CRITIQUE, ORCHESTRATEUR)
+Verifie (sans mock runtime, sans appel LLM) :
+- prompt-v35.md §Orchestration reference les 4 sub-prompts (LECTEUR, EXTRACTEUR, CRITIQUE, ORCHESTRATEUR)
 - les 4 fichiers sub-prompts existent physiquement
 - chaque sub-prompt contient le contrat Mnemolite : get_system_snapshot + search_mode="hybrid" + cardex fallback
 - prompt-v35.md contient HALTE/cardex
-- quintessence_extractor.md contient la règle VERBATIM (re.search)
-- quintessence_orchestrator.md borne la boucle à 3 itérations
+- quintessence_extractor.md contient la regle VERBATIM (re.search)
+- quintessence_orchestrator.md borne la boucle a 3 iterations
 - les 2 validateurs Python existent
 
 Resout AUDIT_ANTAGONISTE_v35 V14 (« aucun test E2E dispatching »).
 
-Coût : 0 token LLM, stdlib only (pathlib + re), exécution <100ms.
+Coût : 0 token LLM, stdlib only (pathlib + re), execution <100ms.
+
+Note 2026-07-05 : tests `test_cartographie_*` et `test_phase_0_no_duplicate_step_4`
+SUPPRIMES (Phase 0 eliminee — voir git log).
 """
 
 from pathlib import Path
@@ -44,7 +47,7 @@ def _read(p):
     return p.read_text(encoding="utf-8")
 
 
-# 1. prompt-v35.md §Orchestration référence les 4 sub-prompts
+# 1. prompt-v35.md §Orchestration reference les 4 sub-prompts
 
 def test_prompt_v35_dispatch_table_lists_4_sub_agents():
     text = _read(PROMPT_V35)
@@ -78,33 +81,33 @@ def test_each_sub_prompt_has_mnemolite_contract():
             )
 
 
-# 4. EXTRACTEUR : règle VERBATIM + re.search documenté
+# 4. EXTRACTEUR : regle VERBATIM + re.search documente
 
 def test_extractor_has_verbatim_rule():
     text = _read(SUB_PROMPTS / "quintessence_extractor.md")
-    assert "VERBATIM" in text, "Extractor : règle VERBATIM absente"
-    assert "re.search" in text, "Extractor : re.search non documenté"
+    assert "VERBATIM" in text, "Extractor : regle VERBATIM absente"
+    assert "re.search" in text, "Extractor : re.search non documente"
 
 
-# 5. ORCHESTRATEUR : boucle max 3 itérations
+# 5. ORCHESTRATEUR : boucle max 3 iterations
 
 def test_orchestrator_max_3_iterations():
     text = _read(SUB_PROMPTS / "quintessence_orchestrator.md")
     assert (
         "iteration < 3" in text or "max 3" in text or "3 iterations" in text
-    ), "Orchestrator : borne max 3 itérations non explicite"
+    ), "Orchestrator : borne max 3 iterations non explicite"
 
 
-# 6. V16 tracking itérations matérialisé
+# 6. V16 tracking iterations materialise
 
 def test_v16_iteration_count_in_orchestrator_and_prompt_v35():
     orch = _read(SUB_PROMPTS / "quintessence_orchestrator.md")
     v35 = _read(PROMPT_V35)
     assert "iteration_count" in orch, (
-        "Orchestrator : champ iteration_count absent (V16 non appliqué)"
+        "Orchestrator : champ iteration_count absent (V16 non applique)"
     )
     assert "iteration_count" in v35, (
-        "prompt-v35.md : champ iteration_count absent (V16 non propagé)"
+        "prompt-v35.md : champ iteration_count absent (V16 non propage)"
     )
 
 
@@ -121,8 +124,8 @@ def test_validators_python_exist():
 
 def test_prompt_v35_halte_cardex_contract():
     text = _read(PROMPT_V35)
-    assert "cardex local" in text or "cardex Phase 0" in text, (
-        "prompt-v35.md : cardex local non documenté"
+    assert "cardex local" in text or "cardex" in text, (
+        "prompt-v35.md : cardex local non documente"
     )
     assert "HALTE" in text, "prompt-v35.md : pas de HALTE explicite"
 
@@ -133,30 +136,11 @@ def test_sublimator_readme_exists():
     readme = SUB / "README.md"
     assert readme.exists(), "tools/engines/sublimator/README.md manquant (V15)"
     text = _read(readme)
-    for section in ("Quickstart", "Architecture", "Workflow", "Validateurs", "Prompts", "Dépannage"):
+    for section in ("Quickstart", "Architecture", "Workflow", "Validateurs", "Prompts", "épanna"):
         assert section in text, f"README.md : section '{section}' absente"
 
 
-# 10. Pas de doublon 4. dans §Phase 0 (régression round 2)
-
-def test_phase_0_no_duplicate_step_4():
-    text = _read(PROMPT_V35)
-    phase0_block = re.search(
-        r"### Avant d'écrire.+?(?=### Format `cartographie\.json`)",
-        text,
-        re.S,
-    )
-    assert phase0_block is not None, "Bloc ### Avant d'écrire §Phase 0 introuvable"
-    block = phase0_block.group(0)
-    # Attend 5 lignes numérotées (1, 2, 3, 4, 5), au plus
-    numbered = re.findall(r"^\d+\. ", block, re.M)
-    assert len(numbered) == 5, (
-        f"§Phase 0 Avant d'écrire : {len(numbered)} lignes numérotées trouvées "
-        f"(attendu 5 après V11)"
-    )
-
-
-# 11. PIVOT C2.1 : M9 metric enforcement Q4 isolation Mnemolite
+# 10. PIVOT C2.1 : M9 metric enforcement Q4 isolation Mnemolite
 
 def test_m9_enforces_isolation_tag_in_quintessence():
     """Test que m9_mnemolite_tag_isolation() compte correctement les violations.
@@ -199,69 +183,3 @@ def test_m9_enforces_isolation_tag_in_quintessence():
     assert v == 3, f"M9 avec 3 violations sur 4 : v attendu=3, got={v}"
     assert n == 4, f"M9 : n attendu=4, got={n}"
     assert pct == 75.0, f"M9 : pct attendu=75.0, got={pct}"
-
-
-# 12. PIVOT C2.2 : cartographie cluster depth >= 4 (granularite thematique)
-
-def test_cartographie_cluster_depth_thematic():
-    """Test que _cluster_keywords_fallback() produit >= 4 clusters sur 42 enquetes.
-
-    Au-dela du grouping complexite (qui collapse 86% en 1 mega-cluster),
-    le keywords-fallback doit produire une granularite thematique >= 4 clusters.
-    """
-    carto = SUB / "extractors" / "cartographie.py"
-    assert carto.exists(), "extractors/cartographie.py manquant pour test cluster depth"
-    import importlib.util
-    spec = importlib.util.spec_from_file_location("cartographie", carto)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    # 42 enquetes synthetiques : 4 themes distincts avec keywords (10-12 fiches chacun)
-    themes = [
-        (["ric", "referendum", "veto", "petition", "constituant"], 11),
-        (["assemblee", "senat", "loi", "amendement", "49.3"], 11),
-        (["numerique", "donnees", "rgpd", "gafam", "cnil"], 10),
-        (["sante", "hopital", "medecin", "urssaf", "sécurité"], 10),
-    ]
-    entries = []
-    for theme_keywords, count in themes:
-        for i in range(count):
-            entries.append({
-                "prefix": f"test_{theme_keywords[0]}_{i}",
-                "complexite": "unknown",
-                "keywords": theme_keywords,
-            })
-    # Run le clustering avec seuil 0.3 sur les 42 fiches synthetiques
-    clusters = mod._cluster_keywords_fallback(entries, jaccard_threshold=0.3)
-    assert len(clusters) >= 4, (
-        f"PIVOT C2.2 : attendu >= 4 clusters thematiques sur 42 fiches, "
-        f"got {len(clusters)} (granularite insuffisante - mega-cluster detecte)"
-    )
-    # Verifie que les plus gros clusters ont >= 10 fiches (anti-mega-cluster)
-    sizes = sorted([c["n_enquetes"] for c in clusters], reverse=True)
-    assert sizes[0] <= 15, (
-        f"PIVOT C2.2 : plus gros cluster a {sizes[0]} fiches (max attendu 15 pour eviter mega-cluster)"
-    )
-
-
-# 13. PIVOT C2.2 : integration dans run() - cluster_method flag
-
-def test_cartographie_run_includes_cluster_method():
-    """Test que cartographie.run() expose cluster_method='thematic_keywords_fallback'
-    quand >= 3 clusters sont produits (override complexite_fallback).
-    """
-    import pytest
-    dossier = ROOT / "investigations" / "2026-07-04-RIC"
-    if not dossier.is_dir():
-        pytest.skip("Dossier investigations/2026-07-04-RIC/ absent en CI - skip silencieux")
-    import importlib.util
-    spec = importlib.util.spec_from_file_location("cartographie", SUB / "extractors" / "cartographie.py")
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    r = mod.run(dossier, mode="python")
-    assert r["cluster_method"] in ("thematic_keywords_fallback", "complexite_fallback"), (
-        f"cluster_method inattendu: {r['cluster_method']}"
-    )
-    assert r["n_clusters"] >= 4, (
-        f"PIVOT C2.2 cible : n_clusters >= 4 (granularite thematique), "
-        f"got {r['n_clusters']} (regression vers 0-2 clusters mega-collapsed)"
-    )
