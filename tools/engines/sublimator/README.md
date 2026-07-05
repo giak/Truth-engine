@@ -10,13 +10,9 @@
 ## Quickstart
 
 ```bash
-# 2. Valider une production (post Phase 1 ou archivage)
-python3 tools/engines/sublimator/sublimator_validate.py \
-  --validation-dir investigations/<sujet>/_validation \
-  --version v2 --format markdown
-
-# 3. Valider unitairement la coherence du dispatch Sublimator (~80ms)
-python3 -m pytest tests/pipelines/test_e2e_dispatch_v35.py -v
+# 2. (Validation algorithmique Python retirée 2026-07-06 — voir prompt-v35.md
+#     Note d'architecture. La validation est désormais portée par le sub-agent
+#     CRITIQUE invoqué via filePaths, cf. SPECS v36 §13.5.2.)
 ```
 
 > **Note CLI** : le pipeline `python` (sans `3`) ne fonctionne PAS sur les systemes Linux recents (Debian 12+, Ubuntu 24.04+) qui ne fournissent que `python3`. Utilisez systematiquement `python3`.
@@ -73,14 +69,15 @@ automatiquement. *(L'ancien CP0 cartographie a été supprimé 2026-07-05 ; il r
 - **Phase 2.6** : Plan d'article (3-5 sections).
 - **Phase 3** : Article 3000-5000 mots selon 8 LOIS. CP2.
 
-## Validateurs Python (0 token LLM)
+## Auto-Audit (sub-agent CRITIQUE)
 
-| Script | Rôle | Invocation | Sortie |
-|--------|------|-----------|--------|
-| `sublimator_validate.py` (~290 lignes stdlib) | M1-M8 + verdict GO/PIVOT/NO-GO par enquête | post-Phase 1 chaque enquête + post-Phase 2 | JSON / Markdown |
-| `sublimator_retry.py` (~135 lignes stdlib) | retry anti-silence>30s / JSON malformé / champs requis | post-EXTRACTEUR (étape B Orchestration) | exit 0/1/2 |
+> **Note 2026-07-06** : les validateurs déterministes Python ont été retirés (cf. prompt-v35.md Note d'architecture). La conformité est désormais validée par :
+>
+> 1. Sub-agent LLM **CRITIQUE** (cf. `prompts/quintessence_critic.md`) invoqué via `filePaths = [<quint>.json, <enquete>.md]` après chaque production de quintessence.
+> 2. Sub-agent LLM **CRITIQUE** Format-Aware (cf. SPECS v37 v2 §6) pour les compress.md.
+> 3. Auto-audit antagoniste du pilote (Phase 3 L8).
+> 4. Checklist manuelle du pilote aux checkpoints CP1/CP2.
 
-Coût tokens LLM : 0. Cible couverture M5 88.9 % → ~99 %.
 
 ## Prompts (source unique de vérité)
 

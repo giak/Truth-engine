@@ -1,3 +1,6 @@
+
+> **Note archivage 2026-07-06 22 h** : ce rapport documente l'état du Sublimator v35 avec ses validateurs Python déterministes (`sublimator_validate.py`, `sublimator_retry.py`, `compress_validate.py`, `dossier_validate.py`, `sublimator_pilot.py`). Ces scripts ont été retirés du dossier `tools/engines/sublimator/` le 2026-07-06 (cf. `prompt-v35.md` Note d'architecture : « Tant que le LLM Sublimator ne tourne pas correctement et que l'orchestration agentique n'est pas finalisée, les validateurs déterministes n'apportent rien : ils masquent l'absence d'un Sublimator opérationnel derrière des verdicts mécaniques »). Ce rapport reste comme photographie historique de l'audit multi-agent du 2026-07-05 et n'a pas été rétroactivement amendé : les Preuves qui s'appuyaient sur ces scripts (`sublimator_validate.py` Preuve 5, `cartographie.py` Preuve 7, etc.) restent indicatives de ce qui était observable à cette date.
+
 # Rapport multi-agent Sublimator v35 — Audit + Simulation + Preuves
 
 > **Date :** 2026-07-05
