@@ -20,6 +20,10 @@ Cette section définit les lois fondamentales régissant tous les agents opéran
 - **Standalone Results** : Produis des résultats qui peuvent être utilisés sans retouche. Les articles ou rapports doivent être "prêts à publier".
 - **Vérité Médico-Légale** : Traite chaque tâche comme une expertise forensique. La précision à la virgule près est la norme.
 
+### 3.5 PRINCIPE
+
+LLM non-déterministe, quoi que l'on fasse il ne respecte rien. Un script déterministe ne peut pas devenir ce que produit le LLM. Pour traiter du texte LLM, utiliser un autre LLM.
+
 ### 4. ANTI-FAUSSE-PRECISION (AFP)
 
 **Un script déterministe (regex, parseur string-strict) ne doit pas traiter du texte produit par un LLM.** Le non-déterminisme du LLM garantit que les formats varieront assez pour casser tout parseur — c'est une propriété fondamentale, pas un bug.
