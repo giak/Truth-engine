@@ -11,6 +11,8 @@
 > - **`get_system_snapshot` au démarrage.** Si `status: DOWN` -> **HALTE et signaler** (pas de fabrication, pas de continuation). Le sub-agent ne doit jamais spawn si Mnemolite est DOWN.
 > - **`search_memory(query, search_mode="hybrid", limit)`** : TOUJOURS passer `search_mode="hybrid"` (jamais sans, sinon tag-only : recherche par tag exacte, zero similarite semantique). Ne jamais omettre le parametre.
 > - **Fallback cardex local** : si la session Sublimator parente a etabli un `cartographie.json` Phase 0 utilisable, mode degrade tolere. Decision parent uniquement, pas sub-agent autonome.
+>
+> - **Mnemolite isolation cross-enquete (Q4 audit v35)** : TOUJOURS filtrer les recherches par `tags=["sublimator:enquete_id={{enquete_id}}"]` pour eviter la pollution semantique entre 44 fiches × 4 sub-agents × 2 requetes = 352 requetes. Mnemolite n'a pas d'exclusion native, l'isolation se fait par convention de tag (gates H8 sublimator_validate M9 futur).
 
 ## Agent 4 ORCHESTRATEUR (§13.3.4)
 
@@ -35,7 +37,7 @@ d'extraction multi-agent. Tu n'inventes aucun contenu : tu délègues
 **Étape B : Agent 2 EXTRACTEUR (full)** :
 - Lance le prompt §A.2 avec `(enquete_brute + lecture_annotee)`.
 - Stocke le résultat dans `quintessence_v1`.
-- Appelle `sublimator_retry.py --input quintessence_v1.json`. Si verdict=success : passe à C. Sinon : réessaie jusqu'à `max_retries=2` fois. Si verdict=giveup : HALTE et signale.
+- Appelle `sublimator_retry.py --input quintessence_v1.json`. Si verdict=success : passe à C. Sinon : réessaie jusqu'à `max_retries=2` fois. Si verdict=giveup : **Q6 resilience (PIVOT C3 fix)** — **PAS de HALTE global** : incrémente `retry_exit2_count` (exposé à CP1 verdict), génère `compress_summary` dégradé minimal avec `iteration_count: 1` + `iteration_alert: false` + `giveup_degraded: true` + `note_violation: "EXTRACTEUR giveup apres max_retries+1 tentatives"`, **PASSE à l'enquête suivante** (le pipeline industriel continue). `giveup_degraded` est SÉPARÉ de `iteration_alert` (télémétrie propre, pas de faux positif sur alerte V16 standard).
 
 **Étape C : Agent 3 CRITIQUE (full)** : Optionnel depuis §13.5 : `sublimator_validate.py` reproduit les checks en Python. Invoquer CRITIQUE §A.3 *seulement* pour audit narratif (cohérence profondeur/nuance).
 

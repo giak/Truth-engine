@@ -11,6 +11,8 @@
 > - **`get_system_snapshot` au démarrage.** Si `status: DOWN` -> **HALTE et signaler** (pas de fabrication, pas de continuation). Le sub-agent ne doit jamais spawn si Mnemolite est DOWN.
 > - **`search_memory(query, search_mode="hybrid", limit)`** : TOUJOURS passer `search_mode="hybrid"` (jamais sans, sinon tag-only : recherche par tag exacte, zero similarite semantique). Ne jamais omettre le parametre.
 > - **Fallback cardex local** : si la session Sublimator parente a etabli un `cartographie.json` Phase 0 utilisable, mode degrade tolere. Decision parent uniquement, pas sub-agent autonome.
+>
+> - **Mnemolite isolation cross-enquete (Q4 audit v35)** : TOUJOURS filtrer les recherches par `tags=["sublimator:enquete_id={{enquete_id}}"]` pour eviter la pollution semantique entre 44 fiches × 4 sub-agents × 2 requetes = 352 requetes. Mnemolite n'a pas d'exclusion native, l'isolation se fait par convention de tag (gates H8 sublimator_validate M9 futur).
 
 ## Agent 3 CRITIQUE (§13.3.3)
 

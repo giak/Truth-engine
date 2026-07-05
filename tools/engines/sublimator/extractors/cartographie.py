@@ -275,14 +275,36 @@ def run(dossier: Path, mode: str = "python") -> dict[str, Any]:
         n_llm_filled = 0
         n_needs_llm_final = n_needs_llm
     complexity = "APEX"  # 44 enquetes = APEX par defaut (dossier massif)
+    # Cluster fallback (Q7 fix audit v35 - PIVOT C1) : group entries by complexite pour Phase 2 Map-Reduce.
+    # NOTE DEGRADE : ce grouping est par complexite (operationnel), PAS thematique comme specifie
+    # dans prompt-v35.md §Phase 0 §Plan de repli (juridique/technique/psychologique/...).
+    # Pour des clusters THEMATIQUES : utiliser `cartographie.py ... --mode hybrid` ou `--mode llm`
+    # qui deleguent au LLM la classification thematique des fiches needs_llm.
+    complexites = [e.get("complexite", "unknown") for e in entries]
+    unique_complexites = sorted(set(complexites))
+    clusters = []
+    for i, c in enumerate(unique_complexites):
+        matching = [e for e in entries if e.get("complexite", "unknown") == c]
+        if matching:
+            clusters.append({
+                "id": f"C{i+1}",
+                "label": f"complexite_{c.lower()}",
+                "n_enquetes": len(matching),
+                "prefixes": [e["prefix"] for e in matching],
+                "sufficient": len(matching) >= 2,  # flag cluster trop petit
+            })
+    cluster_method = "complexite_fallback"  # ou "thematic_llm" si mode == "hybrid"/"llm"
     return {
         "date_cartographie": _today_iso(),
         "complexity": complexity,
         "mode": mode,
+        "cluster_method": cluster_method,  # flag method (PIVOT C1)
         "n_enquetes_totales": len(entries),
         "n_enquetes_ok": n_ok,
         "n_enquetes_needs_llm": n_needs_llm_final,
         "n_enquetes_llm_filled": n_llm_filled,
+        "n_clusters": len(clusters),
+        "clusters": clusters,
         "enquetes": entries,
     }
 

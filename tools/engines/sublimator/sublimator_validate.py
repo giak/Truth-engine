@@ -69,8 +69,14 @@ INSECABLES = "\u00A0\u202F"
 # ---------------------------------------------------------------------------
 
 def norm(s: str) -> str:
-    """Normalise lower + retire espaces/insécables (utilisé pour M3/M4 re.search)."""
-    return re.sub(rf"[{INSECABLES}\s]+", "", (s or "").lower())
+    """Normalise lower + retire espaces/insécables + ponctuation markdown (M1 audit v35).
+    
+    Étendu M1 fix : retire aussi . , ; : ' " ( ) [ ] - pour tolérer les variantes
+    de ponctuation entre enonce (quintessence) et reader markdown. Réduit les faux
+    positifs hallucination M3/M4 (VERBATIM respecte malgré ponctuation différente).
+    """
+    PUNCT = "\.,;:\u2019'"()[]\u2014—-"  # .,;: apostrophes guillemets parens crochets tirets
+    return re.sub(rf"[{INSECABLES}{PUNCT}\s]+", "", (s or "").lower())
 
 
 def jaccard(a: str, b: str) -> float:

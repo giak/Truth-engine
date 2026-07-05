@@ -90,6 +90,8 @@ CLI recommandée : `python -m tools.engines.sublimator.extractors.cartographie i
 
 **Après avoir écrit** : **CP0 — checkpoint humain**. Présente la cartographie (5-10 lignes synthèse) + cluster auto-détectés. L'humain valide **OU** fournit un brief éditorial (Phase 0.5).
 
+> **Note cartographie PIVOT C1** : Le mode `--mode python` retourne des clusters par **complexité** (degraded `cluster_method: "complexite_fallback"`). Pour des clusters **thématiques** (juridique/technique/psychologique/...), utiliser `--mode hybrid` ou `--mode llm` qui délèguent au LLM la classification sémantique des fiches `needs_llm`.
+
 **Action [V/M/R/E/AIDE]** : si V, passe à Phase 1. Si M, modifie cluster/keywords. Si R, retravaille la cartographie. Si E, enrichis avec brief.
 
 ---
@@ -185,7 +187,8 @@ faits_atomiques:
 ### Après avoir écrit
 
 - Valide structure JSON (gates.py H0-H7 : auto, ne t'arrête pas).
-- **Batch-par-5** : présente 5 fiches ensemble (ou moins si dossier <5 enquêtes). `gates.py` valide.
+- **Affichage CP1 batch-par-5** : affiche les thèses par 5 fiches (UX humain).
+- **Dispatch sub-agent strict PER-FILE** : le sub-agent EXTRACTEUR §A.2 reçoit UNE SEULE enquete par appel (filePaths = [prompt, 1 enquete.md, 1 reader]). Le batch-par-5 ne s'applique PAS au pipeline de sub-agents (Phase 1). (Q2 audit v35 fix).
 - Passe à la fiche suivante automatiquement.
 
 ---
@@ -326,7 +329,9 @@ Squelette 3-5 sections : §1-§N + Thèse centrale + Angle/ton + Public + Vérif
 ## Protocole Checkpoints (3 CP humains uniquement)
 
 **CP0** (Phase 0) : cartographie + brief → humain valide clusters + angle. **Une seule passe**.
-**CP1** (Phase 2) : 1 thèse fil rouge + 3-5 thèses secondaires → humain tranche. **Une seule passe**.
+**CP1** (Phase 2) :
+  - **Batch CP1 alertes (V16, Q3 audit v35 fix)** : liste triée par `iteration_count DESC` des fiches ayant `iteration_alert=true` ou `giveup_degraded=true` (cumul). 1 seul affichage CP1 même si ~22 alertes sur 44.
+  - **Ensuite** : 1 thèse fil rouge + 3-5 thèses secondaires → humain tranche. **Une seule passe**.
 **CP2** (Phase 3) : article fini + auto-audit → humain valide ou refuse. **Une seule passe**.
 
 Entre les CP : `gates.py` valide H0-H7 automatiquement. **Tu ne t'arrêtes JAMAIS pour demander V/M/R/E sauf aux 3 CP.**
