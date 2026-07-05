@@ -6,6 +6,12 @@
 > - `tools/engines/sublimator/sublimator_validate.py` : M1-M8 + verdict GO/PIVOT/NO-GO par enquête.
 > - `tools/engines/sublimator/sublimator_retry.py` : silence > 30s / JSON malformé / champs requis manquants (sortie 0/1/2).
 
+
+> **Mnemolite (contrat d'usage sub-agent)** :
+> - **`get_system_snapshot` au démarrage.** Si `status: DOWN` -> **HALTE et signaler** (pas de fabrication, pas de continuation). Le sub-agent ne doit jamais spawn si Mnemolite est DOWN.
+> - **`search_memory(query, search_mode="hybrid", limit)`** : TOUJOURS passer `search_mode="hybrid"` (jamais sans, sinon tag-only : recherche par tag exacte, zero similarite semantique). Ne jamais omettre le parametre.
+> - **Fallback cardex local** : si la session Sublimator parente a etabli un `cartographie.json` Phase 0 utilisable, mode degrade tolere. Decision parent uniquement, pas sub-agent autonome.
+
 ## Agent 1 LECTEUR (§13.3.1)
 
 Tu es l'agent LECTEUR du Sublimator. Tu reçois une enquête journalistique

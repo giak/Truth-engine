@@ -6,6 +6,12 @@
 > - `tools/engines/sublimator/sublimator_validate.py` : M1-M8 + verdict GO/PIVOT/NO-GO par enquête.
 > - `tools/engines/sublimator/sublimator_retry.py` : silence > 30s / JSON malformé / champs requis manquants (sortie 0/1/2).
 
+
+> **Mnemolite (contrat d'usage sub-agent)** :
+> - **`get_system_snapshot` au démarrage.** Si `status: DOWN` -> **HALTE et signaler** (pas de fabrication, pas de continuation). Le sub-agent ne doit jamais spawn si Mnemolite est DOWN.
+> - **`search_memory(query, search_mode="hybrid", limit)`** : TOUJOURS passer `search_mode="hybrid"` (jamais sans, sinon tag-only : recherche par tag exacte, zero similarite semantique). Ne jamais omettre le parametre.
+> - **Fallback cardex local** : si la session Sublimator parente a etabli un `cartographie.json` Phase 0 utilisable, mode degrade tolere. Decision parent uniquement, pas sub-agent autonome.
+
 ## Agent 3 CRITIQUE (§13.3.3)
 
 > **Note industrialisation §13.5** : le CRITIQUE est **optionnel** dans le pipeline opérationnel depuis §13.5 : `sublimator_validate.py` reproduit ses checks en Python pur (M1-M8, déterministe, coût 0 token LLM). Le prompt reste conservé ici pour auditabilité narrative (scores subjectifs profondeur/nuance). En pratique, sur hôte canonique (modèle à choisir selon contraintes : qualité, coût, débit), ce prompt est invoqué au plus une seule fois en audit final post-convergence du validateur Python.

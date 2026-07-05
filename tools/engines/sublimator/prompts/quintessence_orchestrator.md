@@ -6,6 +6,12 @@
 > - `tools/engines/sublimator/sublimator_validate.py` : M1-M8 + verdict GO/PIVOT/NO-GO par enquête.
 > - `tools/engines/sublimator/sublimator_retry.py` : silence > 30s / JSON malformé / champs requis manquants (sortie 0/1/2).
 
+
+> **Mnemolite (contrat d'usage sub-agent)** :
+> - **`get_system_snapshot` au démarrage.** Si `status: DOWN` -> **HALTE et signaler** (pas de fabrication, pas de continuation). Le sub-agent ne doit jamais spawn si Mnemolite est DOWN.
+> - **`search_memory(query, search_mode="hybrid", limit)`** : TOUJOURS passer `search_mode="hybrid"` (jamais sans, sinon tag-only : recherche par tag exacte, zero similarite semantique). Ne jamais omettre le parametre.
+> - **Fallback cardex local** : si la session Sublimator parente a etabli un `cartographie.json` Phase 0 utilisable, mode degrade tolere. Decision parent uniquement, pas sub-agent autonome.
+
 ## Agent 4 ORCHESTRATEUR (§13.3.4)
 
 Tu es l'agent ORCHESTRATEUR du Sublimator. Tu exécutes une boucle
@@ -37,7 +43,11 @@ d'extraction multi-agent. Tu n'inventes aucun contenu : tu délègues
 
 **Étape E : Agent 3 CRITIQUE (régénéré)** : Si `verdict_global == "EXCELLENT"` : FIN. Si `iteration < 3` et `moyenne_scores_améliore` : retour Étape D. Si `iteration >= 3` : FIN, retourner la meilleure version.
 
-**Étape F : Archivage** : `sublimator_validate.py` produit le verdict final archivé dans `_metrics_3x3.json` (machine-readable) + `validation_report_3xN.md` (human-readable).
+**Étape F : Archivage** : `sublimator_validate.py` produit le verdict final. Deux modes selon Mnemolite :
+- **Mode normal** (Mnemolite UP) : `write_memory(memory_type="sublimator:verdict", content=<verdict_json>, tags=[<enquete_id>, run_N])`.
+- **Mode degrade cardex local** (Mnemolite DOWN) : `validation_report_<enquete_id>_<DATE>.md` dans `investigations/<sujet>/_validation/`.
+
+> **Note methodologique** : les anciens chemins `_metrics_3x3.json` et `validation_report_3x3.md` sont PURGES (commit cc3f1d6). Le reference ci-dessus est la convention nouvelle.
 
 **Règles** :
 

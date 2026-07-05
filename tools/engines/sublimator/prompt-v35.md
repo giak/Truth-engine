@@ -389,7 +389,7 @@ articles/
 
 **Étape C — CRITIQUE** (optionnel depuis §13.5) : `sublimator_validate.py` reproduit les checks en Python pur. Invoquer CRITIQUE LLM seulement pour audit narratif subjectif (cohérence profondeur/nuance).
 
-**Étape D — ORCHESTRATEUR** : spanw sub-agent avec filePaths = `[tools/engines/sublimator/prompts/quintessence_orchestrator.md, <enquete>.md, reader, quintessence, critique]`. Boucle de régénération ciblée max 3 itérations.
+**Étape D — ORCHESTRATEUR** : spawn sub-agent avec filePaths = `[tools/engines/sublimator/prompts/quintessence_orchestrator.md, <enquete>.md, reader, quintessence, critique]`. Boucle de régénération ciblée max 3 itérations.
 
 ### Mnemolite fallback
 

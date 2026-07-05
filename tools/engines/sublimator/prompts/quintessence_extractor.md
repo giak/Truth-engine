@@ -23,7 +23,13 @@
 
 ---
 
-### v2 (ECRASANT v1 NO-GO) : Agent 2 EXTRACTEUR v2 (§13.3.2, REVISION post-§13.5 NO-GO)
+
+> **Mnemolite (contrat d'usage sub-agent)** :
+> - **`get_system_snapshot` au démarrage.** Si `status: DOWN` -> **HALTE et signaler** (pas de fabrication, pas de continuation). Le sub-agent ne doit jamais spawn si Mnemolite est DOWN.
+> - **`search_memory(query, search_mode="hybrid", limit)`** : TOUJOURS passer `search_mode="hybrid"` (jamais sans, sinon tag-only : recherche par tag exacte, zero similarite semantique). Ne jamais omettre le parametre.
+> - **Fallback cardex local** : si la session Sublimator parente a etabli un `cartographie.json` Phase 0 utilisable, mode degrade tolere. Decision parent uniquement, pas sub-agent autonome.
+
+## Version v2 de EXTRACTEUR — post-§13.5 NO-GO (révision écrasant v1) (§13.3.2, REVISION post-§13.5 NO-GO)
 
 > **Version v2 (2026-07-05)** : revision post-§13.5 NO-GO. La v1 paraphraseait systematiquement les `faits_atomiques`, ce qui violait M3 du CRITIQUE (`re.search` strict). La v2 impose la **citation verbatim** depuis la lecture annotee §2.
 
