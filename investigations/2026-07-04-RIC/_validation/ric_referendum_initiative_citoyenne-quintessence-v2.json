@@ -1,0 +1,168 @@
+{
+  "enquete_id": "ric_referendum_initiative_citoyenne",
+  "complexity": "APEX (14/18)",
+  "date_extraction": "2026-07-05",
+  "version_prompt": "v2",
+  "shadow_factor": 0.95,
+  "these_centrale": "Le RIC a été refusé par un cartel transpartisan de rejet qui opère comme un verrouillage systémique à trois têtes : constitutionnel, partisan, européen ; Cependant ce verrou n'est pas inéluctable : une fenêtre d'opportunité reste ouverte sur 2030-2040.",
+  "faits_atomiques": [
+    {"id": "F-001", "enonce": "Le RIC est apparu comme revendication centrale des Gilets Jaunes dès l'Acte I (17 novembre 2018)", "source_section": "§5.F001", "tier": 1, "glyphe": "✦"},
+    {"id": "F-002", "enonce": "La Constitution de 1958 ne prévoit aucun droit d'initiative populaire directe (ni législatif, ni constitutionnel)", "source_section": "§5.F002", "tier": 1, "glyphe": "✦"},
+    {"id": "F-003", "enonce": "L'article 11 (référendum) est une prérogative exclusive du Président de la République, sur proposition du Gouvernement ou des deux assemblées", "source_section": "§5.F003", "tier": 1, "glyphe": "✦"},
+    {"id": "F-004", "enonce": "La Suisse dispose d'un RIC constituant depuis 1891 (initiative populaire fédérale)", "source_section": "§5.F004", "tier": 1, "glyphe": "✦"},
+    {"id": "F-005", "enonce": "L'Uruguay dispose d'un référendum d'initiative populaire depuis 1919", "source_section": "§5.F005", "tier": 1, "glyphe": "✦"},
+    {"id": "F-006", "enonce": "Clara Egger a obtenu 36 parrainages d'élus pour l'élection présidentielle de 2022 (seuil : 500)", "source_section": "§5.F006", "tier": 1, "glyphe": "✦"},
+    {"id": "F-007", "enonce": "Simone Weil a rédigé « La Note sur la suppression générale des partis politiques » à Londres en 1943", "source_section": "§5.F007", "tier": 1, "glyphe": "✦"},
+    {"id": "F-008", "enonce": "La Convention citoyenne pour le climat (2019-2020) a formulé 149 propositions dont le RIC climat ; la majorité a été rejetée ou vidée de sa substance", "source_section": "§5.F008", "tier": 1, "glyphe": "✦"},
+    {"id": "F-009", "enonce": "La France impose un référendum d'initiative partagée (RIP) depuis 2008 : jamais abouti à un référendum (seuil impossible à atteindre en pratique)", "source_section": "§5.F009", "tier": 1, "glyphe": "✦"},
+    {"id": "F-010", "enonce": "Le Grand Débat national (2019) a été organisé en réponse aux Gilets Jaunes sans produire de réforme institutionnelle majeure", "source_section": "§5.F010", "tier": 1, "glyphe": "✦"},
+    {"id": "F-011", "enonce": "Les traités européens (TFUE, TUE) fixent des contraintes budgétaires et monétaires qui limitent le champ d'un RIC sur les finances publiques", "source_section": "§5.F011", "tier": 1, "glyphe": "✦"},
+    {"id": "F-012", "enonce": "La Belgique a créé un Conseil citoyen permanent en Ostbelgien (Communauté germanophone) depuis 2019 : première institution délibérative tirée au sort en Europe", "source_section": "§5.F012", "tier": 1, "glyphe": "✦"},
+    {"id": "F-013", "enonce": "Le consensus de rejet du RIC traverse LREM, LR, PS, EELV, PCF avec des nuances mais sans traduction législative", "source_section": "§5.F013", "tier": 2, "glyphe": "✧"},
+    {"id": "F-014", "enonce": "La proposition de loi constitutionnelle pour un RIC (juillet 2019, députés LFI) n'a pas été inscrite à l'ordre du jour", "source_section": "§5.F014", "tier": 2, "glyphe": "✧"},
+    {"id": "F-015", "enonce": "Le nombre de procédures accélérées sous l'article 49.3 a augmenté de 300% entre 2012 et 2023", "source_section": "§5.F015", "tier": 2, "glyphe": "✧"},
+    {"id": "F-016", "enonce": "La confiance dans les institutions françaises est passée sous les 30% entre 2018 et 2024 (baromètre CEVIPOF)", "source_section": "§5.F016", "tier": 2, "glyphe": "✧"},
+    {"id": "F-017", "enonce": "La concentration des médias français s'est accélérée après 2015 (groupe Bolloré, Bouygues, Dassault)", "source_section": "§5.F017", "tier": 2, "glyphe": "✧"},
+    {"id": "F-018", "enonce": "Oswald Chandelier, fondateur du collectif « Espoir RIC » (2018), a annoncé en 2023 la transformation en « Solution démocratique »", "source_section": "§5.F018", "tier": 2, "glyphe": "✧"},
+    {"id": "F-019", "enonce": "Le seuil de 185 parlementaires pour déclencher un RIP (2015) est infranchissable sans accord des partis", "source_section": "§5.F019", "tier": 2, "glyphe": "✧"}
+  ],
+  "causalites_pelote": {
+    "racines": [
+      {
+        "id": "M1",
+        "label": "Architecture verrouillée de 1958",
+        "type": "constitutionnel",
+        "sous_mecanismes": [
+          {
+            "label": "Domaine réglementaire élargi et 49.3",
+            "faits_intermediaires": [
+              "Aucun droit d'initiative citoyenne constitutionnelle",
+              "Article 11 = prérogative exclusive Président"
+            ],
+            "sources_F": [
+              {"id": "F-002", "type": "source", "parent": "M1.sous.1"},
+              {"id": "F-003", "type": "source", "parent": "M1.sous.1"},
+              {"id": "F-009", "type": "source", "parent": "M1.sous.1"},
+              {"id": "F-015", "type": "source", "parent": "M1.sous.1"}
+            ]
+          },
+          {
+            "label": "Conseil constitutionnel gardien de l'orthodoxie 58",
+            "faits_intermediaires": [
+              "Contrôle a priori systématique sur toute initiative",
+              "Filtrage des seuils RIP infranchissables"
+            ],
+            "sources_F": [
+              {"id": "F-019", "type": "source", "parent": "M1.sous.2"},
+              {"id": "F-009", "type": "source", "parent": "M1.sous.2"}
+            ]
+          }
+        ],
+        "effet_terminal": "Le RIC impliquerait une révision implicite de l'architecture"
+      },
+      {
+        "id": "M2",
+        "label": "Capture oligarchique du processus législatif",
+        "type": "partisan",
+        "sous_mecanismes": [
+          {
+            "label": "Financement privé des appareils de parti",
+            "faits_intermediaires": [
+              "Dépendance aux donateurs (entreprises, grandes fortunes)",
+              "Déconnexion des intérêts populaires"
+            ],
+            "sources_F": [
+              {"id": "F-013", "type": "source", "parent": "M2.sous.1"},
+              {"id": "F-017", "type": "source", "parent": "M2.sous.1"}
+            ]
+          },
+          {
+            "label": "Cartel transpartisan de rejet",
+            "faits_intermediaires": [
+              "Verrouillage de l'agenda parlementaire (conférence des présidents)",
+              "Exclusion des propositions citoyennes"
+            ],
+            "sources_F": [
+              {"id": "F-013", "type": "source", "parent": "M2.sous.2"},
+              {"id": "F-014", "type": "source", "parent": "M2.sous.2"}
+            ]
+          }
+        ],
+        "effet_terminal": "Le RIC rompt le monopole législatif des partis"
+      },
+      {
+        "id": "M3",
+        "label": "Dogme européen et primauté du droit UE",
+        "type": "supranational",
+        "sous_mecanismes": [
+          {
+            "label": "Compétences exclusives et Pacte de stabilité",
+            "faits_intermediaires": [
+              "Monnaie, commerce, concurrence : compétences exclusives UE",
+              "Pacte de stabilité : 3% déficit, 60% dette"
+            ],
+            "sources_F": [
+              {"id": "F-011", "type": "source", "parent": "M3.sous.1"}
+            ]
+          },
+          {
+            "label": "Contre-exemples étrangers (Suisse, Uruguay)",
+            "faits_intermediaires": [
+              "RIC Suisse depuis 1891, Uruguay depuis 1919 : modèles viables"
+            ],
+            "sources_F": [
+              {"id": "F-004", "type": "source", "parent": "M3.sous.2"},
+              {"id": "F-005", "type": "source", "parent": "M3.sous.2"},
+              {"id": "F-012", "type": "source", "parent": "M3.sous.2"}
+            ]
+          }
+        ],
+        "effet_terminal": "Un RIC sur les finances publiques serait inapplicable sans sortir de l'UE"
+      }
+    ]
+  },
+  "impact": [
+    {"chiffre": "149", "valeur": 149, "unite": "propositions Convention citoyenne climat", "source": "§5.F008"},
+    {"chiffre": "30", "valeur": 30, "unite": "% confiance institutions (CEVIPOF)", "source": "§5.F016"},
+    {"chiffre": "185", "valeur": 185, "unite": "parlementaires seuil RIP", "source": "§5.F019"},
+    {"chiffre": "300", "valeur": 300, "unite": "% augmentation procédures 49.3", "source": "§5.F015"},
+    {"chiffre": "1891", "valeur": 1891, "unite": "année RIC Suisse", "source": "§5.F004"},
+    {"chiffre": "1919", "valeur": 1919, "unite": "année RIC Uruguay", "source": "§5.F005"}
+  ],
+  "recommandations": [
+    {
+      "acteur_cible": "Assemblée constituante",
+      "horizon": "2030-2040",
+      "action": "Convocation d'une assemblée constituante pour réécrire les articles 11 et 89 de la Constitution de 1958 et inscrire le RIC constituant."
+    },
+    {
+      "acteur_cible": "Conseil constitutionnel",
+      "horizon": "2026-2030",
+      "action": "Allègement des seuils du RIP (185 parlementaires, 4,7M électeurs) vers un seuil atteignable sans accord des partis."
+    },
+    {
+      "acteur_cible": "Législateur (Parlement)",
+      "horizon": "2026-2028",
+      "action": "Adoption d'un RIC législatif avec contrôle a posteriori du Conseil constitutionnel (modèle italien), domaines réservés pour droits fondamentaux uniquement."
+    },
+    {
+      "acteur_cible": "Collectifs pro-RIC (Espoir RIC)",
+      "horizon": "2026-2030",
+      "action": "Convergence vers une candidature unique RIC avec 500 parrainages d'élus (ex. Clara Egger : 36 parrainages en 2022, F-006)."
+    },
+    {
+      "acteur_cible": "Conseil citoyen Ostbelgien (modèle)",
+      "horizon": "2026-2028",
+      "action": "Étude de faisabilité d'un Conseil citoyen permanent français tiré au sort (première institution délibérative tirée au sort en Europe depuis 2019, F-012)."
+    }
+  ],
+  "mnemo_queries": [
+    {"query": "ric verrouillage transpartisan cartel LREM LR PS EELV PCF", "tags": ["sublimator:enquete_id=ric_referendum_initiative_citoyenne"]},
+    {"query": "constitution 1958 article 11 referendum prérogative présidentielle", "tags": ["sublimator:enquete_id=ric_referendum_initiative_citoyenne"]},
+    {"query": "convention citoyenne climat 149 propositions RIC climat", "tags": ["sublimator:enquete_id=ric_referendum_initiative_citoyenne"]},
+    {"query": "gilets jaunes 17 novembre 2018 acte I RIC", "tags": ["sublimator:enquete_id=ric_referendum_initiative_citoyenne"]}
+  ],
+  "iteration_count": 1,
+  "iteration_alert": false,
+  "compress_summary": "RIC verrouillage systémique transpartisan (cartel LREM/LR/PS/EELV/PCF F013) opéré via 3 têtes : constitutionnel art.11/89 (F002), partisan (F015), européen traité UE (F011). RIP infranchissable 185 parlementaires seuil (F019). Suisse depuis 1891 (F004) et Uruguay depuis 1919 (F005) démontrent contre-exemple. Convention citoyenne climat 149 propositions enterrées (F008). Fenêtre constituante 2030-2040 seule issue (F006+F012)."
+}
