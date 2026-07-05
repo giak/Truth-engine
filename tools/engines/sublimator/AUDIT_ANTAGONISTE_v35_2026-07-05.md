@@ -382,7 +382,7 @@ Le section-titre `### v2 (ECRASANT v1 NO-GO)` est de niveau 3 (`###`) alors que 
 
 - [ ] V6 — Dédupliquer la note migration v1 EXTRACTEUR (intégral dans sub-prompt, simplifié dans prompt-v35)
 - [ ] V7 — `### v2 ...` → `## Version v2 ...`
-- [ ] V10 — §Diff v34 : transformer « 3 arrêts » en « 3 CP × Y gates, mesure baseline = ? »
+- [x] V10 — **Clos par retrait (refactor `ce550c9` post-audit)**. §Diff vs v34 purgé du codebase (960 → 263 lignes). Grep `prompt-v35.md` sur `Friction humain|30\+ arr` = 0 hit (2026-07-05). Le claim non-mesuré a été supprimé plutôt que transformé en conditionnel. Survit uniquement comme dette documentée dans cet audit (V10) + `RAPPORT_MULTI_AGENT_44_ENQUETES_v35_2026-07-05.md` Q6. **Mesure empirique v34 → v35 impossible** (pas de logs v34, end-to-end v35 sur 44 fiches jamais exécuté). Bornes théoriques v35 documentées dans la réponse du thread (3 CP fixes + [0, ~22] iter_alert + [0, ~2.2] retry_exit2 = 3 à ~27 arrêts).
 - [ ] V14 — `test_e2e_dispatch_v35.py` (~80 lignes)
 - [ ] V15 — `README.md` (~100 lignes)
 - [ ] V16 — Tracking itérations dans Mnemolite
