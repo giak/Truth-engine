@@ -371,20 +371,20 @@ Le section-titre `### v2 (ECRASANT v1 NO-GO)` est de niveau 3 (`###`) alors que 
 - [ ] V2 — Réécrire §Phase 1 autour de la cross-référence (phrase orpheline)
 - [ ] V3 — Réécrire §Phase 2 autour de la cross-référence (`\n\n` littéral)
 - [ ] V4 — Corriger `spanw` → `spawn` ligne 392
-- [ ] V5 — §Étape F `_metrics_3x3.json` → archiver en Mnemolite ou changer convention
+- [x] V5 — **Clos via convention Mnemolite active** (commit post-audit). Vérif forensique 2026-07-05 : `grep -nE 'write_memory|memory_type' quintessence_orchestrator.md` = 1 hit ligne 47 (`write_memory(memory_type="sublimator:verdict", content=<verdict_json>, tags=[<enquete_id>, run_N])`). §Étape F référence désormais `validation_report_<DATE>.md` (cf. convention C-CK7 + cc3f1d6). Convention archivage Mnemolite ↔ fichiers locaux unifiée. **Auditabilité pickaxe** : `git log -S 'sublimator:verdict' -- tools/engines/sublimator/prompts/quintessence_orchestrator.md` retrouve le commit d'introduction exact.
 - [ ] V8 — `défini défini` → `défini` × 4 occurrences
-- [ ] V9 — Régression naming : fuzzy match OU rename 5 fichiers
+- [x] V9 — **Clos via fuzzy match kebab/snake** dans `sublimator_validate.py` (commit post-audit, ~2026-07-05, option b de l'audit). Vérif forensique 2026-07-05 : 2 hits grep `fuzzy|normalize|underscore|hyphen` — ligne 80 (classe `PUNCT` normalize underscores/hyphens/em-dash), ligne 261 (`Matcher reader pour une enquete (fuzzy: kebab/snake)`). Naming `_validation/` préservé intact (pas de rename destructif), fuzzy matcher compense l'inconsistance historique. **Auditabilité pickaxe** : `git log -S 'fuzzy: kebab/snake' -- tools/engines/sublimator/sublimator_validate.py` retrouve le commit d'introduction de la convention kebab/snake.
 - [ ] V11 — §Phase 0 ligne statut (« OK » vs « error ») pour décision HALTE
 - [ ] V12 — `search_mode="hybrid"` dans chaque sub-prompt
 - [ ] V13 — `get_system_snapshot` en tête de chaque sub-prompt
 
 ### P2 — Qualité
 
-- [ ] V6 — Dédupliquer la note migration v1 EXTRACTEUR (intégral dans sub-prompt, simplifié dans prompt-v35)
-- [ ] V7 — `### v2 ...` → `## Version v2 ...`
+- [x] V6 — **Clos par retrait** (commit post-audit antérieur). Vérif forensique 2026-07-05 : `grep -nE 'migration|Note migration v1' prompt-v35.md quintessence_extractor.md` = 0 hit / 0 hit. Note purgée des deux fichiers (plus de duplication, plus de divergence future possible).
+- [x] V7 — **Clos par superseding** (commit post-audit). Section-titre courant quintessence_extractor.md ligne 19 : `## Agent 2 EXTRACTEUR (§13.3.2)` (rename complet avec cross-ref SPECS v36 `§13.3.2`, valeur ajoutée vs simple promotion `###`→`## Version v2`). L'esprit audit (header `##` propre, nommé, autonome, dans un fichier top-level) est respecté. **Décision 2026-07-05** : accepter le superseding — préserve le cross-ref SPECS v36 et l'alignement avec §13.3.2 référencé dans 4 autres fichiers. Dont l'audit wording est littéral-obsolète, mais l'intention (header propre niveau 2) est satisfaite. **Consistance avec V1** : le suffixe `v2` panaché que V1 visait à supprimer est précisément ce que le wording littéral `Version v2 de EXTRACTEUR` aurait reintroduit. Le superseding renforce donc V1 et non l'affaiblit.
 - [x] V10 — **Clos par retrait (refactor `ce550c9` post-audit)**. §Diff vs v34 purgé du codebase (960 → 263 lignes). Grep `prompt-v35.md` sur `Friction humain|30\+ arr` = 0 hit (2026-07-05). Le claim non-mesuré a été supprimé plutôt que transformé en conditionnel. Survit uniquement comme dette documentée dans cet audit (V10) + `RAPPORT_MULTI_AGENT_44_ENQUETES_v35_2026-07-05.md` Q6. **Mesure empirique v34 → v35 impossible** (pas de logs v34, end-to-end v35 sur 44 fiches jamais exécuté). Bornes théoriques v35 documentées dans la réponse du thread (3 CP fixes + [0, ~22] iter_alert + [0, ~2.2] retry_exit2 = 3 à ~27 arrêts).
-- [ ] V14 — `test_e2e_dispatch_v35.py` (~80 lignes)
-- [ ] V15 — `README.md` (~100 lignes)
+- [x] V14 — **Clos via création de `tests/pipelines/test_e2e_dispatch_v35.py`** (commit post-audit). Vérif forensique 2026-07-05 : `rtk pytest tests/pipelines/test_e2e_dispatch_v35.py -v` = **13 passed**, 0 failed. Filet de sécurité E2E dispatching opérationnel. **Auditabilité** : `git log --diff-filter=A -- tests/pipelines/test_e2e_dispatch_v35.py --stat` retrouve le commit d'introduction du fichier (commande analogue pickaxe, adaptée à la création de fichier).
+- [x] V15 — **Clos via `tools/engines/sublimator/README.md`** (commit post-audit). Vérif forensique 2026-07-05 : `wc -l tools/engines/sublimator/README.md` = **175 lignes** (> spec ~132). Couverture : Quickstart + Architecture (schéma ASCII Phase 0→3 + sub-agents A→D) + Workflow + Validateurs + Prompts + Dépannage + Métriques M1-M8 + Tests + Audit dette + Crédits (10 sections, dépasse le cahier des charges original).
 - [ ] V16 — Tracking itérations dans Mnemolite
 
 ---
