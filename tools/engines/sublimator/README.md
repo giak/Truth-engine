@@ -158,7 +158,13 @@ Convention unifiée : underscore (pas hyphen), drop suffix.
 
 - `AUDIT_ANTAGONISTE_v35_2026-07-05.md` : 16 contradictions initiales (9 P1,
   7 P2). État courant : P1 résolues en commits `a7adbd7` / `64389da` /
-  `405e00b`. P2 en cours.
+  `405e00b`. P2 résolues en commit `bbcb71b`. 16/16.
+- `RAPPORT_MULTI_AGENT_44_ENQUETES_v35_2026-07-05.md` : audit multi-agent
+  44 enquetes industrielles. 7 questions + 7 preuves (3 empiriques + 4
+  analytiques). Verdict : 2 BLOQUANTS (Q2 dispatch contradiction + Q7
+  cartographie 0 clusters) + 3 RISQUES (Q3 alert flood, Q4 Mnemolite
+  pollution, Q6 friction). Industrialisation NON-VALIDABLE en l'état.
+  Effort corrections : 5-6h shell+Python.
 
 ## Crédits
 
