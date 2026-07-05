@@ -12,6 +12,12 @@ Note migration YAML→JSON (2026-07-05) :
 Compatibilité forward : ce script ignore volontairement les fichiers `.json` (skip) car
 la normalization ace format est désormais redondante avec le schema JSON strict imposé par
 `tools/engines/sublimator/extractors/gates.py`.
+
+V34.1 cleanup (2026-07-05, coherent avec V4 cleanup de gates.py) :
+    Ce script opère uniquement sur des fichiers YAML quintessence. Les champs
+    `cartes_positions` ne concernent QUE les synthese (Phase 2), donc ce script
+    n'a aucune clé à retirer côté quintessence. La cohérence V4 est respectée par
+    absence : aucune référence legacy n'apparaît dans le normalize.
 """
 import yaml
 import os

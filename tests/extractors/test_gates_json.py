@@ -29,16 +29,16 @@ def _write_json(data: dict) -> str:
 
 
 def _base_quintessence() -> dict:
-    """Retourne une quintessence JSON minimale valide pour les tests."""
-    keys = [
-        "these_centrale", "theses_implicites", "faits_atomiques",
-        "acteurs", "causalites", "perspectives_dialectiques",
-        "limites", "wolves", "iceberg", "chronologie",
-        "domaines", "urls_prioritaires",
-    ]
-    data = {k: [] for k in keys}
-    data["these_centrale"] = "une these de test"
-    return data
+    """Retourne une quintessence JSON minimale valide pour les tests (schema v35 allege)."""
+    # v35 (2026-07-05) : 6 REQUISES + 6 optionnelles.
+    return {
+        "enquete_id": "test_id",
+        "enquete_source": "investigations/test/test_id_INVESTIGATION.md",
+        "these_centrale": "une these de test",
+        "faits_atomiques": [],
+        "urls_prioritaires": [],
+        "shadow_factor": 3.0,
+    }
 
 
 # --- H0 : JSON parsable ---
@@ -81,7 +81,6 @@ def test_h1_synthese_complete():
         "theses_cardinales": [],
         "meta_observations": [],
         "transversalites": [],
-        "cartes_positions": [],
         "gaps": [],
         "shadow_factor_global": 3.0,
         "mnemo_context": {"searches": []},
@@ -170,7 +169,6 @@ def test_h5_these_sous_referencee():
         "theses_cardinales": [{"titre": "T1", "f_atomiques_justificatifs": ["F-001"]}],
         "meta_observations": [],
         "transversalites": [],
-        "cartes_positions": [],
         "gaps": [],
         "shadow_factor_global": 3.0,
         "mnemo_context": {"searches": []},
@@ -190,7 +188,6 @@ def test_h6_noop_synthese():
         "theses_cardinales": [{"titre": "T1", "f_atomiques_justificatifs": ["F-001", "F-002", "F-003"]}],
         "transversalites": [],
         "meta_observations": [],
-        "cartes_positions": [],
         "gaps": [],
         "shadow_factor_global": 3.0,
         "mnemo_context": {"searches": []},
@@ -222,13 +219,17 @@ def test_integration_quintessence_valide():
     ]
     path = _write_json(data)
     passed, msgs = validate(path, "quintessence")
-    assert passed is True, f"Échecs: {msgs}"
+    assert passed is True, f"Echecs: {msgs}"
 
 
 # --- Backward compat : YAML legacy lu en fallback ---
 
 def test_backward_yaml_via_validate():
-    """Verify the dual-reader: a .yaml file is still read correctly via validate()."""
+    """Verify the dual-reader: a .yaml file is still read correctly via validate().
+
+    Note v35 : YAML legacy doit toujours etre lisible, mais le schema exige 6 requises.
+    Le helper _base_quintessence() inclut deja les 6 requises.
+    """
     import yaml
     tmp = tempfile.NamedTemporaryFile(suffix=".yaml", delete=False, mode="w", encoding="utf-8")
     data = _base_quintessence()

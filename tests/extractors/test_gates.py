@@ -16,7 +16,20 @@ def _write_yaml(data: dict) -> str:
 
 
 def _base_quintessence() -> dict:
-    """Retourne une quintessence minimale valide pour les tests."""
+    """Retourne une quintessence minimale valide pour les tests (schema v35 allege)."""
+    # v35 (2026-07-05) : 6 REQUISES + 6 optionnelles. Le helper inclut les 6 requises + 0 optionnelles.
+    return {
+        "enquete_id": "test_id",
+        "enquete_source": "investigations/test/test_id_INVESTIGATION.md",
+        "these_centrale": "une thèse de test",
+        "faits_atomiques": [],
+        "urls_prioritaires": [],
+        "shadow_factor": 3.0,
+    }
+
+
+def _base_quintessence_v34_legacy() -> dict:
+    """Helper retro-compat : quintessence avec l'ancien schema 12 cles v34 (incomplet pour v35)."""
     keys = [
         "these_centrale", "theses_implicites", "faits_atomiques",
         "acteurs", "causalites", "perspectives_dialectiques",
@@ -24,7 +37,7 @@ def _base_quintessence() -> dict:
         "domaines", "urls_prioritaires",
     ]
     data = {k: [] for k in keys}
-    data["these_centrale"] = "une thèse de test"
+    data["these_centrale"] = "une these de test"
     return data
 
 
@@ -55,16 +68,11 @@ def test_h0_yaml_invalide():
 # --- H1: clés obligatoires ---
 
 def test_h1_quintessence_complete():
-    data = {k: [] for k in [
-        "these_centrale", "theses_implicites", "faits_atomiques",
-        "acteurs", "causalites", "perspectives_dialectiques",
-        "limites", "wolves", "iceberg", "chronologie",
-        "domaines", "urls_prioritaires",
-    ]}
-    data["these_centrale"] = "une thèse"
+    data = _base_quintessence()
+    data["these_centrale"] = "une these"
     path = _write_yaml(data)
     passed, msgs = validate(path, "quintessence")
-    assert passed is True
+    assert passed is True, f"Echecs: {msgs}"
 
 
 def test_h1_synthese_complete():
@@ -73,7 +81,6 @@ def test_h1_synthese_complete():
         "theses_cardinales": [],
         "meta_observations": [],
         "transversalites": [],
-        "cartes_positions": [],
         "gaps": [],
         "shadow_factor_global": 3.0,
         "mnemo_context": {"searches": []},
@@ -94,13 +101,8 @@ def test_h1_cles_manquantes():
 # --- H2: types valides ---
 
 def test_h2_type_invalide():
-    data = {k: [] for k in [
-        "these_centrale", "theses_implicites", "faits_atomiques",
-        "acteurs", "causalites", "perspectives_dialectiques",
-        "limites", "wolves", "iceberg", "chronologie",
-        "domaines", "urls_prioritaires",
-    ]}
-    data["these_centrale"] = 42  # devrait être str
+    data = _base_quintessence()
+    data["these_centrale"] = 42  # devrait etre str
     path = _write_yaml(data)
     passed, msgs = validate(path, "quintessence")
     assert passed is False
@@ -117,13 +119,7 @@ def test_h3_glyphe_valide():
     assert passed is True
 
 def test_h3_glyphe_invalide():
-    data = {k: [] for k in [
-        "these_centrale", "theses_implicites", "faits_atomiques",
-        "acteurs", "causalites", "perspectives_dialectiques",
-        "limites", "wolves", "iceberg", "chronologie",
-        "domaines", "urls_prioritaires",
-    ]}
-    data["these_centrale"] = "test"
+    data = _base_quintessence()
     data["faits_atomiques"] = [{"id": "F-001", "glyphe": "X"}]
     path = _write_yaml(data)
     passed, msgs = validate(path, "quintessence")
@@ -141,13 +137,7 @@ def test_h4_ids_uniques():
     assert passed is True, f"Échecs: {msgs}"
 
 def test_h4_fait_duplique():
-    data = {k: [] for k in [
-        "these_centrale", "theses_implicites", "faits_atomiques",
-        "acteurs", "causalites", "perspectives_dialectiques",
-        "limites", "wolves", "iceberg", "chronologie",
-        "domaines", "urls_prioritaires",
-    ]}
-    data["these_centrale"] = "test"
+    data = _base_quintessence()
     data["faits_atomiques"] = [
         {"id": "F-001"}, {"id": "F-001"}
     ]
@@ -165,7 +155,6 @@ def test_h5_these_sous_referencee():
         "theses_cardinales": [{"titre": "T1", "f_atomiques_justificatifs": ["F-001"]}],
         "meta_observations": [],
         "transversalites": [],
-        "cartes_positions": [],
         "gaps": [],
         "shadow_factor_global": 3.0,
         "mnemo_context": {"searches": []},
@@ -185,7 +174,6 @@ def test_h6_noop_synthese():
         "theses_cardinales": [{"titre": "T1", "f_atomiques_justificatifs": ["F-001", "F-002", "F-003"]}],
         "transversalites": [],
         "meta_observations": [],
-        "cartes_positions": [],
         "gaps": [],
         "shadow_factor_global": 3.0,
         "mnemo_context": {"searches": []},
@@ -211,13 +199,8 @@ def test_h6_reference_orpheline_quintessence():
 # --- Test d'intégration: YAML complet valide passe tous les checks ---
 
 def test_integration_quintessence_valide():
-    data = {k: [] for k in [
-        "these_centrale", "theses_implicites", "faits_atomiques",
-        "acteurs", "causalites", "perspectives_dialectiques",
-        "limites", "wolves", "iceberg", "chronologie",
-        "domaines", "urls_prioritaires",
-    ]}
-    data["these_centrale"] = "Une thèse centrale plausible"
+    data = _base_quintessence()
+    data["these_centrale"] = "Une these centrale plausible"
     data["faits_atomiques"] = [
         {"id": "F-001", "glyphe": "✦"},
         {"id": "F-002", "glyphe": "✧"},
@@ -225,4 +208,4 @@ def test_integration_quintessence_valide():
     ]
     path = _write_yaml(data)
     passed, msgs = validate(path, "quintessence")
-    assert passed is True, f"Échecs: {msgs}"
+    assert passed is True, f"Echecs: {msgs}"
