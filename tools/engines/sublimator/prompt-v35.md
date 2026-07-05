@@ -45,7 +45,7 @@ L'extraction Python est volontairement conservatrice : elle marque `status="need
 2. **Déléguer au LLM** : pour chaque entrée `status="needs_llm"`, le pilote LLM (toi) prend le relais sur les 3 champs sémantiques manquants.
 3. **Logger les échecs** : tout fichier avec `status="error"` est signalé — l'humain tranche manuellement (CP0).
 
-CLI recommandée : `python -m tools.engines.sublimator.extractors.cartographie investigations/<dossier> --mode hybrid --output cartographie.json`
+CLI recommandée : `python3 -m tools.engines.sublimator.extractors.cartographie investigations/<dossier> --mode hybrid --output cartographie.json` (NOS : si `python` existe dans le PATH, l'invocation `python -m ...` est equivalente. Debian 12+ / Ubuntu 24.04+ ne fournit que `python3`; cette doc utilise `python3` pour portabilite maximale.)
 
 ### Avant d'écrire
 

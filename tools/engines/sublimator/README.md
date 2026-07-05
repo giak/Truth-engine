@@ -10,9 +10,9 @@
 ## Quickstart
 
 ```bash
-# 1. Cartographier un dossier d'enquetes (Phase 0, ~5s pour 44 enquetes)
-python -m tools.engines.sublimator.extractors.cartographie \
-  investigations/<sujet>/ --mode hybrid --output cartographie.json
+# 1. Cartographier un dossier d'enquetes (Phase 0, ~5s pour 42 enquetes)
+python3 -m tools.engines.sublimator.extractors.cartographie \
+  investigations/<sujet>/ --mode python --output cartographie.json
 
 # 2. Valider une production (post Phase 1 ou archivage)
 python3 tools/engines/sublimator/sublimator_validate.py \
@@ -22,6 +22,8 @@ python3 tools/engines/sublimator/sublimator_validate.py \
 # 3. Valider unitairement la coherence du dispatch Sublimator (~80ms)
 python3 -m pytest tests/pipelines/test_e2e_dispatch_v35.py -v
 ```
+
+> **Note CLI** : le pipeline `python` (sans `3`) ne fonctionne PAS sur les systemes Linux recents (Debian 12+, Ubuntu 24.04+) qui ne fournissent que `python3`. Utilisez systematiquement `python3`.
 
 ## Architecture
 
