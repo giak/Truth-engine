@@ -12,7 +12,7 @@
 > **Mnemolite (contrat d'usage sub-agent)** :
 > - **`get_system_snapshot` au démarrage.** Si `status: DOWN` -> **HALTE et signaler** (pas de fabrication, pas de continuation). Le sub-agent ne doit jamais spawn si Mnemolite est DOWN.
 > - **`search_memory(query, search_mode="hybrid", limit)`** : TOUJOURS passer `search_mode="hybrid"` (jamais sans, sinon tag-only : recherche par tag exacte, zero similarite semantique). Ne jamais omettre le parametre.
-> - **Fallback cardex local** : si la session Sublimator parente a etabli un `cartographie.json` Phase 0 utilisable, mode degrade tolere. Decision parent uniquement, pas sub-agent autonome.
+> - **Fallback cardex local** : désactivé post-suppression Phase 0 (revue 2026-07-05). Sub-agent doit posséder son input via dispatch.
 >
 > - **Mnemolite isolation cross-enquete** : TOUJOURS filtrer les recherches par `tags=["sublimator:enquete_id={{enquete_id}}"]`. Mnemolite n'a pas d'exclusion native : isolation par convention de tag.
 
