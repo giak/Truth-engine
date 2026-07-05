@@ -22,7 +22,7 @@ Cette section définit les lois fondamentales régissant tous les agents opéran
 
 ### 3.5 PRINCIPE
 
-LLM non-déterministe, quoi que l'on fasse il ne respecte rien. Un script déterministe ne peut pas devenir ce que produit le LLM. Pour traiter du texte LLM, utiliser un autre LLM.
+LLM non déterministe : quoi que l'on fasse, il ne respecte rien. Un script déterministe ne peut pas devenir ce que produit le LLM.
 
 ### 4. ANTI-FAUSSE-PRECISION (AFP)
 
