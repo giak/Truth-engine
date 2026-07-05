@@ -20,7 +20,73 @@ Cette section définit les lois fondamentales régissant tous les agents opéran
 - **Standalone Results** : Produis des résultats qui peuvent être utilisés sans retouche. Les articles ou rapports doivent être "prêts à publier".
 - **Vérité Médico-Légale** : Traite chaque tâche comme une expertise forensique. La précision à la virgule près est la norme.
 
+### ⚠️ 3.5 AXIOME : FORME(consumer) ≠ FORME(source) ⇒ FAUSSE PRÉCISION
+
+(Le problème du rond dans le carré.)
+
+**Quand la forme attendue par un consumer ne correspond pas à la forme native d'une source, le consumer produit de la fausse précision : une illusion de structure rigide qui n'existe pas dans la réalité de la source.**
+
+#### Énoncé formel
+
+Soit :
+- **F_s** = forme native d'une source (sa topologie, distribution, grammaire intrinsèque).
+- **F_c** = forme attendue par un consumer (la grille qu'il applique pour parser / classer / valider).
+
+Axiome : **Si F_c ≠ F_s, le consumer produit de la fausse précision.** Sa prétention à donner un verdict "précis" ou "rigide" sur la source est une illusion — la source n'a pas la structure rigide que le consumer croit voir.
+
+#### Domaines où cet axiome vaut (UNIVERSEL, pas lié à un domaine)
+
+C'est un axiome d'ingénierie de la connaissance, pas un axiome LLM. Il vaut partout où on tente de forcer une grille rigide sur une distribution qui ne l'est pas :
+
+- **Statistiques** : moyenne arithmétique sur distribution multimodale gomme la structure (les outliers sont muets).
+- **Connaissance client** : satisfaction continue 0–10 ramenée à un NPS −100 à +100 perd l'incertitude.
+- **Décision** : jurisprudence riche et contextuelle jugée sur une checklist binaire produit des erreurs de raisonnement.
+- **Processus** : workflow continu échantillonné en KPIs discrets perd la dynamique intra-échantillon.
+- **Recherche d'opinion** : opinion nuancée forcée en oui/non par sondage biaisé détruit le signal.
+- **Lecture qualitative** : texte littéraire analysé par extraction de mots-clés sans contexte sémantique rate le sens.
+
+L'axiome vaut chaque fois qu'un **consumer à forme rigide** attaque une **source à forme variable**. La règle opérationnelle universelle est : **aligner F_c sur F_s**, pas forcer F_s dans F_c.
+
+#### Cas particulier : sortie non-déterministe × consumer déterministe
+
+Dans le domaine de la génération de texte :
+
+- F_s d'un LLM = distribution flottante sur tokens (non-déterministe, variations sémantiques équivalentes).
+- F_c d'un script regex = motif textuel strict (déterministe, rigide).
+
+F_c ≪ F_s (topologiquement incompatible). Le script cherchera le motif exact. Le LLM produira :
+- « Création du collège unique (loi Haby) »
+- « Loi Haby — collège unique | Démocratisation scolaire »
+- « 1975 : collèges uniques (loi Haby, René Haby) »
+
+Un LLM agent (F_c ≈ F_s) reconnaît IMMÉDIATEMENT l'équivalence sémantique. Un regex « Collège unique (loi Haby) » matche UNE forme et rate les AUTRES comme « 0 hit ». C'est l'axiome en acte : F_c regex ≪ F_s LLM ⇒ FAUSSE PRÉCISION.
+
+#### Application concrète à Sublimator (CAS PARTICULIER parmi d'autres)
+
+Les enquêtes Sublimator sont LLM-auteur (F_s = distribution éditoriale libre). La quintessence Sublimator est LLM-output. Le reader.md est LLM-output. Donc pour Sublimator, F_s ≪ F_c de tout consumer regex/parseur :
+
+- ❌ `parse_atomic.py` regex 3 formats `F001` / `F-CIV-XXX` / `items N` sur sortie LLM → FAUSSE PRÉCISION par application directe de l'axiome.
+- ❌ `extract_utile.py` regex dates / sommes / citations / URLs sur sortie LLM → idem.
+- ❌ Valider quintessence via schema JSON strict round-trip sur sortie LLM → idem.
+- ❌ Toute proposition « ~300 lignes de Python regex pour extraire depuis une enquête Sublimator » → REJETÉE par application de l'axiome.
+
+Cas où F_c ≈ F_s sur Sublimator :
+- ✅ `cartographie.py` filesystem (F_s = filesystem, F_c = scan filesystem) → FORME COMPATIBLE.
+- ✅ LLM-agent extracteur (F_c = LLM lecture sémantique ≈ F_s = LLM output) → COMPATIBLE.
+- ✅ LLM-agent validateur (idem) → COMPATIBLE.
+- ✅ Script sur ENTRÉE schéma-validée par LLM (F_s verrouillée à schema-strict à la génération du LLM, F_c = regex sur ce schema) → F_c ≈ F_s (par verrouillage source) → COMPATIBLE.
+
+#### Pourquoi cette formulation est GÉNÉRALE
+
+L'axiome FORME(consumer) ≠ FORME(source) ⇒ FAUSSE PRÉCISION n'est PAS un axiome LLM. C'est un axiome d'ingénierie de la connaissance applicable partout — incluant les cas où on a OUBLIÉ qu'il s'applique (sondages, KPIs, jurisprudence). L'axiome vaut chaque fois qu'on est tenté de « forcer une forme rigide sur une forme qui ne l'est pas ».
+
+Le cas LLM × Sublimator n'est qu'UN cas d'application parmi une famille infinie. Une fois l'axiome compris abstraito, les dérivés concrets deviennent évidents.
+
+**Cross-référence** : §4 AFP opérationnalise les seuils de volume (Volume < 100 items → LLM manuel ; Volume ≥ 100 items → schema-validé à la source). §3.5 est l'AXIOME PARENT (général, abstrait, universel) ; §4 AFP est l'opérationnalisation des seuils (concret, opérationnel, spécifique). Les deux sont complémentaires : axiome + seuils.
+
 ### 4. ANTI-FAUSSE-PRECISION (AFP)
+
+> **⚠️ PRINCIPE PARENT — VOIR §3.5** (axiome général FORME(consumer) ≠ FORME(source) ⇒ FAUSSE PRÉCISION) pour le principe abstrait parent dont §4 AFP opérationnalise les seuils de volume. Cette section définit les seuils opérationnels ; l'axiome parent est dans §3.5.
 
 **Un script déterministe (regex, parseur string-strict) ne doit pas traiter du texte produit par un LLM.** Le non-déterminisme du LLM garantit que les formats varieront assez pour casser tout parseur — c'est une propriété fondamentale, pas un bug.
 
