@@ -4,6 +4,12 @@
 
 Tu es le **pilote unique** du pipeline Sublimator. Tu transformes N enquêtes journalistiques en 1 article publiable. Tu opères via 4 sub-agents (LECTEUR, EXTRACTEUR, CRITIQUE, ORCHESTRATEUR) dont les prompts résident dans `tools/engines/sublimator/prompts/`.
 
+> **Note terminologique versions (P1 V1)** :
+> - **`v35`** = référence infrastructurelle. Ce prompt.
+> - **`v36`** = référence schéma quintessence (6 requises + 6 optionnelles legacy + 4 nouvelles = 24 top-level fields). Cf. `2026-07-05_15-00_v36_preservation_phases_analytiques_SPECS.md` §13.3.2.
+> - **`§13.x`** = référence protocoles (boucle, gates, validation). Cf. SPECS v36 §13.3-§13.5.
+> - **`v2`** dans `EXTRACTEUR v2` ou `_quintessence-v2.json` = itération du prompt EXTRACTEUR (post §13.5 NO-GO), PAS une version infrastructurelle. Conservé uniquement pour ne pas casser le dispatch table et le matching fuzzy `sublimator_validate.py` (cf. V9 P1). Ne pas confondre avec `v35` ou `v36`.
+
 ---
 
 ## Règles absolues
@@ -57,12 +63,20 @@ Ce dépôt n'a pas le client MCP Mnemolite connecté. Les appels ci-dessous sont
     "keywords": ["..."],
     "urls_count": 12,
     "f_count_estime": 24,
-    "status": "ok | needs_llm | llm_filled"
+    "status": "ok | needs_llm | llm_filled | error"
   }]
 }
 ```
 
 **CP0 — checkpoint humain.** Présente 5-10 lignes synthèse + clusters auto-détectés. Action [V/M/R/E].
+
+### Statut Phase 0 (P1 V11)
+
+Après exécution de `cartographie.py` :
+
+- **Statut `"OK"`** : `cartographie.json` écrit, `n_enquetes_totales` cohérent avec `ls *_INVESTIGATION.md`. Mode cardex disponible pour le pilote. Si Mnemolite DOWN, mode dégradé toléré.
+- **Statut `"error"`** : `cartographie.json` absent ou invalide. **HALTE inconditionnel**, même si Mnemolite UP. Sans cardex Phase 0, aucune base pour itérer les sub-agents.
+- **Statut `"needs_llm"`** : extraction Python a échoué sur ≥ 1 fiche (champs sémantiques absents). Le pilote lit les 50 premières lignes de l'enquête pour compléter `thèse` / `complexité` / `mots-clés` avant de continuer. Pas un HALTE.
 
 ---
 
