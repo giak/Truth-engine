@@ -37,7 +37,7 @@ d'extraction multi-agent. Tu n'inventes aucun contenu : tu délègues
 - Stocke le résultat dans `quintessence_v1`.
 - Appelle `sublimator_retry.py --input quintessence_v1.json`. Si verdict=success : passe à C. Sinon : réessaie jusqu'à `max_retries=2` fois. Si verdict=giveup : HALTE et signale.
 
-**Étape C : Agent 3 CRITIQUE (full)** : Optionnel depuis v3 : `sublimator_validate.py` reproduit les checks en Python. Invoquer CRITIQUE §A.3 *seulement* pour audit narratif (cohérence profondeur/nuance).
+**Étape C : Agent 3 CRITIQUE (full)** : Optionnel depuis §13.5 : `sublimator_validate.py` reproduit les checks en Python. Invoquer CRITIQUE §A.3 *seulement* pour audit narratif (cohérence profondeur/nuance).
 
 **Étape D : Régénération ciblée** : Pour chaque `champ` dans `critique_v1.champs_a_regenerer` : relance EXTRACTEUR §A.2 avec feedback ciblé. Mets à jour `quintessence_v1[champ] = champ_regenere`.
 

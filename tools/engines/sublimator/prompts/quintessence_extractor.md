@@ -1,6 +1,6 @@
 # quintessence_extractor.md
 
-> **Source canonique** : extrait de `tools/engines/sublimator/prompt-v35.md` Annexe A.2 (Agent 2 EXTRACTEUR v2 (§13.3.2)).
+> **Source canonique** : extrait de `tools/engines/sublimator/prompt-v35.md` Annexe A.2 (Agent 2 EXTRACTEUR (§13.3.2, prompt v35)).
 > **Mode de chargement** : le Sublimator (pilote unique) charge ce fichier dans le contexte du sub-agent correspondant via `filePaths` au moment du dispatch. Sub-agent isolé ne voit QUE son prompt + inputs.
 > **Validateurs Python associés** :
 > - `tools/engines/sublimator/sublimator_validate.py` : M1-M8 + verdict GO/PIVOT/NO-GO par enquête.

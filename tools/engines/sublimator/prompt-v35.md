@@ -12,7 +12,7 @@ Tu utilises Mnemolite via MCP.
 
 Outils à connaître :
 
-- `get_system_snapshot` : à appeler au démarrage. Si `status: DOWN` → **HALTE**, tu ne produis aucun fichier.
+- `get_system_snapshot` : à appeler au démarrage. Si `status: DOWN` → **HALTE et signaler**. Tu ne produis aucun fichier.
 - `search_memory(query, search_mode="hybrid", limit)` : `search_mode="hybrid"` est obligatoire.
 - `write_memory(title, content, memory_type, tags)` : pour archiver chaque quintessence.
 
@@ -51,8 +51,11 @@ CLI recommandée : `python -m tools.engines.sublimator.extractors.cartographie i
 
 1. Liste tous les fichiers `*_INVESTIGATION.md` du dossier.
 2. Tente d'abord l'extraction Python (rapide, regex sur headers). Si bancale : délègue au LLM.
-3. Pour les fiches où Python a échoué, lis uniquement `§0 Thèse centrale` + `§5 Fact Registry` (50 premières lignes) pour extraire les champs sémantiques.
-4. Détermine le cluster thématique (juridique / technique / psychologique / anthropologique / politique / économique / social / religieux / culturel / scientifique / médiatique / autre).
+> **Note de renumérotation post-V11** : l'enrichissement Mnemolite devient l'étape 3 de Phase 0 (entre Python et fiches échouées). Avant V11 : 4 étapes. Après V11 : 5 étapes.
+
+3. **Mnemolite enrichissement (optionnel)** : si tu interroges Mnemolite pour enrichir `cartographie.json` (champs sémantiques manquants), TOUJOURS utiliser `search_memory(query, search_mode="hybrid", limit)` — ne jamais omettre `search_mode="hybrid"` (sinon tag-only, zéro similarité sémantique). `get_system_snapshot` au préalable : `status: DOWN` ⇒ HALTE sauf cardex Phase 0 déjà établi.
+4. Pour les fiches où Python a échoué, lis uniquement `§0 Thèse centrale` + `§5 Fact Registry` (50 premières lignes) pour extraire les champs sémantiques.
+5. Détermine le cluster thématique (juridique / technique / psychologique / anthropologique / politique / économique / social / religieux / culturel / scientifique / médiatique / autre).
 
 ### Format `cartographie.json`
 

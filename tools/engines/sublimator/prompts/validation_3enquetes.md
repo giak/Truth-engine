@@ -89,7 +89,7 @@ ls -la tools/engines/sublimator/sublimator_retry.py
 
 **Étape B — EXTRACTEUR :**
 - Spawner un sous-agent LLM avec filePaths = [`tools/engines/sublimator/prompts/quintessence_extractor.md`, `<enquête>.md`, `investigations/2026-07-04-RIC/_validation/{enquete_id}-reader-run{N}.md`]
-- Prompt : "Tu es l'Agent 2 (EXTRACTEUR) défini dans `quintessence_extractor.md` (v2 REVISION post-§13.5 NO-GO). Lis l'enquête + lecture annotée et produis UNIQUEMENT le JSON strict conforme au schéma 'Schéma cible' du prompt (6 req + 6 opt v35 + 4 nouveaux v36). Aucun commentaire."
+- Prompt : "Tu es l'Agent 2 (EXTRACTEUR) défini dans `quintessence_extractor.md` (prompt v35, post-§13.5 NO-GO). Lis l'enquête + lecture annotée et produis UNIQUEMENT le JSON strict conforme au schéma 'Schéma cible' du prompt (6 req + 6 opt v35 + 4 nouveaux v36). Aucun commentaire."
 - Capturer l'output dans `investigations/2026-07-04-RIC/_validation/{enquete_id}-quintessence-run{N}.json`
 
 **Étape C — CRITIQUE (optionnel depuis §13.5, sublimator_validate.py suffit en pratique) :**
