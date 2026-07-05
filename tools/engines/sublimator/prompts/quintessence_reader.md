@@ -39,8 +39,24 @@ ci-dessous. Chaque section est obligatoire.
     ## 3. Acteurs principaux
     [Tableau markdown: nom | rôle | position | source §]
 
-    ## 4. Mécanismes causaux (PELOTE)
-    [Liste de 3-5 mécanismes au format cause → effet → fait]
+    ## 4. Mécanismes causaux (PELOTE — arborescent 4 niveaux v36)
+    [Format arborescent OBLIGATOIRE round 3 — cf. SPECS v36 §13.3.2 ligne 1002 + BLOQUANT B.4 verdict ROUND 2]
+
+    Mécanisme 1 (racine, niveau 1) — [nom court du mécanisme]:
+      Sous-mécanisme 1.1 (niveau 2) — cause → effet
+        Fait intermédiaire 1.1.1 (niveau 3) — fait documenté
+          Source F-### (niveau 4, type="source", parent=fait) — §X.Y de l'enquête
+        Fait intermédiaire 1.1.2 (niveau 3) — fait documenté (optionnel)
+      Sous-mécanisme 1.2 (niveau 2) — cause → effet
+        Fait intermédiaire 1.1.0 (niveau 3)
+          Source F-### (niveau 4)
+
+    Mécanisme 2 (racine, niveau 1) — [...] :
+      Sous-mécanisme 2.1 (niveau 2) [...]
+        Fait [...]
+          Source F-###
+
+    (3-5 mécanismes racine, chacun avec 2-3 sous-mécanismes ; chaque sous-mécanisme avec 1-3 faits ; chaque fait pointe une source F-### avec en-tete source §X.Y).
 
     ## 5. Impact humain (chiffres clés)
     [Liste de chiffres avec unité + source]

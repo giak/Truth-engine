@@ -163,6 +163,7 @@ python3 tools/engines/sublimator/sublimator_validate.py --validation-dir investi
 | L6 | Compression | Zéro transition faible (Cependant, Mais, Voici, « Il est important de »). Sources ≤ 10 %. |
 | L7 | Cross-links + navigation série | Inline : « comme démontré dans [Titre](url) ». Navigation série : *Article précédent/suivant*. Section « À voir aussi » 3-5 liens. |
 | L8 | Auto-audit antagoniste | 6 types de failles : logique, mots-tic, micro-définitions, équation synthèse, sourcing, ton. |
+| L9 | 3-éléments-minimum (round 3) | Pour chaque section H2 d’article, piocher **au moins 3** éléments parmi les 4 catégories v36 (`positions_acteurs`, `causalites_pelote`, `impact`, `recommendations`) sans seuil par catégorie. Si une catégorie est vide dans la quintessence Phase 1, signaler explicitement dans la section (« §X.Y — cette catégorie n’a pas de matériau »). Cf. SPECS v36 §5.1 Option C-3 ligne 175 (règle métier « 3 minimum »). Cf. SPECS v36 §5.1 ligne 175 (option C-3 règle métier). |
 
 **9 titres** : 3 factuels/narratifs + 3 forensiques + 3 conceptuels. Pas de « choc ». Zéro pathos.
 

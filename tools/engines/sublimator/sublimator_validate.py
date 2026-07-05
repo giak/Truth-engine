@@ -4,7 +4,8 @@ sublimator_validate.py — Validateur CLI du Sublimator v36 §13.5.
 
 Remplace 9 sub-agents CRITIQUE LLM par 1 script Python déterministe.
 Charge N quintessences JSON + 1 lecture annotée markdown par enquête.
-Calcule 8 métriques objectives (M1-M8) avec normalisation Unicode/espaces.
+Calcule 12 métriques objectives (M1-M12) avec normalisation Unicode/espaces.
+     M10-M12 ajoutées au round 3 (correction BLOQUANT B.3 verdict v36 ROUND 2).
 Sort verdict GO/PIVOT/NO-GO par enquête + verdict global.
 
 100% reproductible, $0 coût LLM, < 5 s sur 14 fichiers.
@@ -39,15 +40,19 @@ from typing import Dict, List, Optional, Tuple
 # ---------------------------------------------------------------------------
 
 CIBLES_GO = {
-    "M1": 0.7,     # Jaccard these_centrale >= 0.7
-    "M2": 0.6,     # intersection F## >= 0.6
-    "M3": 5.0,     # % hallucination F## < 5
-    "M4": 5.0,     # % hallucination impact < 5
-    "M5": 100.0,   # % parse JSON == 100
-    "M6": 50000,   # tokens/enquete < 50000
-    "M7": 10.0,    # min latence < 10
-    "M8": 7.0,     # score critic moyen >= 7
-    "M9": 5.0,     # % violations isolation Mnemolite < 5 (PIVOT C2.1)
+    "M1": 0.7,         # Jaccard these_centrale >= 0.7
+    "M2": 0.6,         # intersection F## >= 0.6
+    "M3": 5.0,         # % hallucination F## < 5
+    "M4": 5.0,         # % hallucination impact < 5
+    "M5": 100.0,       # % parse JSON == 100
+    "M6": 50000,       # tokens/enquete < 50000
+    "M7": 10.0,        # min latence < 10
+    "M8": 7.0,         # score critic moyen >= 7
+    "M9": 5.0,         # % violations isolation Mnemolite < 5 (PIVOT C2.1)
+    # ROUND 3 v36 §13.3.2 — 4 champs optionnels
+    "M10": 7.5,        # profondeur PELOTE >= 3 niveaux sur 4 (cible 75%)
+    "M11": 100.0,      # % positions_acteurs avec source §X.Y == 100%
+    "M12": 100.0,      # % recommandations acteur_cible+horizon valides == 100%
 }
 
 CIBLES_NO_GO = {
@@ -59,7 +64,11 @@ CIBLES_NO_GO = {
     "M6": 100000,
     "M7": 20.0,
     "M8": 5.0,
-    "M9": 5.0,     # M9 (PIVOT C2.1) NO-GO si > 5% violations isolation
+    "M9": 5.0,         # M9 (PIVOT C2.1) NO-GO si > 5% violations isolation
+    # ROUND 3 v36 §13.3.2
+    "M10": 2.5,        # profondeur PELOTE < 1 niveau (= liste plate)
+    "M11": 50.0,       # % positions_acteurs sourcées < 50%
+    "M12": 50.0,       # % recommandations valides < 50%
 }
 
 # Espaces insécables Unicode à normaliser avant re.search (résout bug M4 v1).
@@ -225,6 +234,59 @@ def m9_mnemolite_tag_isolation(quin: dict, enquete_id: str = "") -> Tuple[int, i
     return violations, n, pct
 
 
+
+# M10 ROUND 3 v36 §13.3.2 : profondeur PELOTE arborescente 4 niveaux.
+def m10_pelote_depth(quin: dict) -> Tuple[int, int, float]:
+    """M10 : profondeur max de `causalites_pelote` (mécanisme → sous → fait → source F-###).
+    Cible GO : max_depth >= 3 ; Cible NO-GO : max_depth < 1 (liste plate).
+    Renvoie (max_depth, n_nodes, score/10).
+    """
+    pelote = quin.get("causalites_pelote", []) or []
+    if not pelote:
+        return 0, 0, 0.0
+    n = len(pelote)
+    max_depth = max([int(p.get("niveau", 0)) for p in pelote], default=0)
+    score = round(10 * min(max_depth, 4) / 4, 1) if n else 0.0
+    return max_depth, n, score
+
+
+# M11 ROUND 3 v36 §13.3.2 : positions_acteurs doivent avoir `source` commençant par `§X.Y` (cf. SPECS ligne 1001).
+def m11_positions_acteurs_source(quin: dict) -> Tuple[int, int, float]:
+    """M11 : %% de positions_acteurs dont `source` commence par `§` (cf. SPECS v36 §13.3.2 ligne 1001).
+    Cible GO : 100% ; Cible NO-GO : < 50%.
+    Renvoie (h_invalid, n_total, pct_ok).
+    """
+    positions = quin.get("positions_acteurs", []) or []
+    n = len(positions)
+    if n == 0:
+        return 0, 0, 0.0
+    h_invalid = sum(1 for p in positions if not str(p.get("source", "")).startswith("§"))
+    pct_ok = round(100 * (1 - h_invalid / n), 1) if n else 0.0
+    return h_invalid, n, pct_ok
+
+
+# M12 ROUND 3 v36 §13.3.2 : recommandations doivent avoir acteur_cible non-vide + horizon dans {court, moyen, long} (SPECS ligne 1004).
+def m12_recommandations_acteur_horizon(quin: dict) -> Tuple[int, int, float]:
+    """M12 : %% de recommandations avec `acteur_cible` non-vide ET `horizon ∈ {court, moyen, long}`.
+    Cible GO : 100% ; Cible NO-GO : < 50%.
+    Renvoie (h_invalid, n_total, pct_ok).
+    """
+    recos = quin.get("recommandations", []) or []
+    n = len(recos)
+    if n == 0:
+        return 0, 0, 0.0
+    valid_h = {"court", "moyen", "long"}
+    h_invalid = sum(
+        1 for r in recos
+        if (
+            not str(r.get("acteur_cible", "")).strip()
+            or str(r.get("horizon", "")).lower() not in valid_h
+        )
+    )
+    pct_ok = round(100 * (1 - h_invalid / n), 1) if n else 0.0
+    return h_invalid, n, pct_ok
+
+
 # ---------------------------------------------------------------------------
 # IO : chargement du dossier _validation/
 # ---------------------------------------------------------------------------
@@ -288,6 +350,9 @@ def verdict_from_metrics(metrics: Dict[str, float]) -> Tuple[str, int]:
     m8 = metrics.get("M8") or 0.0
     m9 = metrics.get("M9") or 0.0  # PIVOT C2.1 fix : extraction explicite (NameError fix)
 
+    m10 = metrics.get("M10") or 0.0  # ROUND 3 v36 §13.3.2
+    m11 = metrics.get("M11") or 0.0
+    m12 = metrics.get("M12") or 0.0
     nb_go = sum([
         m1 >= CIBLES_GO["M1"],
         m2 >= CIBLES_GO["M2"],
@@ -297,11 +362,18 @@ def verdict_from_metrics(metrics: Dict[str, float]) -> Tuple[str, int]:
         m6 < CIBLES_GO["M6"],
         (m7 is not None and m7 <= CIBLES_GO["M7"]),
         m8 >= CIBLES_GO["M8"],
-        m9 <= CIBLES_GO["M9"],  # PIVOT C2.1 : M9 cible GO si <= 5% violations
+        m9 <= CIBLES_GO["M9"],
+        # ROUND 3 v36 §13.3.2 : 3 nouvelles métriques 4-champs optionnels
+        m10 >= CIBLES_GO["M10"],  # profondeur PELOTE >= 7.5
+        m11 >= CIBLES_GO["M11"],  # 100% positions_acteurs source §
+        m12 >= CIBLES_GO["M12"],  # 100% recommandations valides
     ])
-    if nb_go >= 6 and m1 >= 0.7 and m3 < 5 and m4 < 5 and m9 <= CIBLES_NO_GO["M9"]:
+    # GO : >= 8/12 metriques dans cible go ET M1 >= 0.7 ET M3 < 5 ET M4 < 5 ET M9 <= 5% violations ET M10 >= 2.5 (PELOTE non plat).
+    # M10 est une gardefou structurelle (option C v36) : pas de GO si PELOTE absent, meme si reste OK.
+    if nb_go >= 8 and m1 >= 0.7 and m3 < 5 and m4 < 5 and m9 <= CIBLES_NO_GO["M9"] and m10 >= CIBLES_NO_GO["M10"]:
         return "GO", 0
-    if m3 > 15 or m4 > 15 or m1 < 0.5 or m9 > CIBLES_NO_GO["M9"]:
+    # NO-GO : M3 > 15% OU M4 > 15% OU M1 < 0.5 OU M9 > 5% violations OU M10 < 2.5 (PELOTE absent).
+    if m3 > 15 or m4 > 15 or m1 < 0.5 or m9 > CIBLES_NO_GO["M9"] or m10 < CIBLES_NO_GO["M10"]:
         return "NO-GO", 2
     return "PIVOT", 1
 
@@ -383,6 +455,9 @@ def run_validate(args: argparse.Namespace) -> Dict:
             _, n4, p4 = m4_hallucination_impact(q, reader_norm)
             h8, n8, s8 = m8_quality_proxy(q)
             _, n9, p9 = m9_mnemolite_tag_isolation(q, enq)
+            _, _, s10 = m10_pelote_depth(q)
+            _, _, p11 = m11_positions_acteurs_source(q)
+            _, _, p12 = m12_recommandations_acteur_horizon(q)
             m3_pc.append(p3)
             m4_pc.append(p4)
             m8_scores.append(s8)
@@ -396,6 +471,20 @@ def run_validate(args: argparse.Namespace) -> Dict:
         m7 = m7_latence_proxy(quins)  # None en mode retroactif
         m8_moy = round(sum(m8_scores) / len(m8_scores), 1) if m8_scores else 0.0
         m9_moy = round(sum(m9_pc) / len(m9_pc), 1) if m9_pc else None
+        # ROUND 3 v36 §13.3.2 : calculer moyennes sur les 3 nouvelles métriques.
+        m10_scores = []
+        m11_pc = []
+        m12_pc = []
+        for q in quins:
+            _, _, s10 = m10_pelote_depth(q)
+            _, _, p11 = m11_positions_acteurs_source(q)
+            _, _, p12 = m12_recommandations_acteur_horizon(q)
+            m10_scores.append(s10)
+            m11_pc.append(p11)
+            m12_pc.append(p12)
+        m10_moy = round(sum(m10_scores) / len(m10_scores), 1) if m10_scores else 0.0
+        m11_moy = round(sum(m11_pc) / len(m11_pc), 1) if m11_pc else 0.0
+        m12_moy = round(sum(m12_pc) / len(m12_pc), 1) if m12_pc else 0.0
 
         metrics = {
             "M1": m1 if m1 is not None else 0.0,
@@ -407,6 +496,10 @@ def run_validate(args: argparse.Namespace) -> Dict:
             "M7": m7,  # None si pas de timestamps injectes par Sublimator
             "M8": m8_moy,
             "M9": m9_moy if m9_moy is not None else 0.0,  # PIVOT C2.1 : 0 si pas de requete Mnemolite
+            # ROUND 3 v36 §13.3.2 : 4 champs optionnels
+            "M10": m10_moy,
+            "M11": m11_moy,
+            "M12": m12_moy,
         }
         verdict, _ = verdict_from_metrics(metrics)
 
@@ -442,8 +535,8 @@ def render_markdown(results: Dict) -> str:
              f"Quintessences chargées : {results['_meta']['total_quintessences_chargees']}",
              f"**Verdict global : {results['_meta']['verdict_global']}**\n",
              "## Tableau par enquête\n",
-             "| Enquête | Runs | M1 Jaccard | M2 Inter | M3 Hallu | M4 Chiffres | M5 Parse | M6 Tokens | M7 Min | M8 Proxy | Verdict |",
-             "|---|---|---|---|---|---|---|---|---|---|---|"]
+             "| Enquête | Runs | M1 Jaccard | M2 Inter | M3 Hallu | M4 Chiffres | M5 Parse | M6 Tokens | M7 Min | M8 Proxy | M9 Iso | M10 PELOTE | M11 PosAct | M12 Reco | Verdict |",
+             "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for enq, r in sorted(results["enquetes"].items()):
         m = r["metrics"]
         m7_str = "N/A" if m.get("M7") is None else f"{m['M7']}"
@@ -452,7 +545,9 @@ def render_markdown(results: Dict) -> str:
             f"{m['M1']:.3f} | {m['M2']:.3f} | "
             f"{m['M3']}% | {m['M4']}% | {m['M5']}% | "
             f"{m['M6']} | {m7_str} | "
-            f"{m['M8']}/10 | **{r['verdict']}** |"
+            f"{m['M8']}/10 | "
+            f"{m['M9']}% | {m['M10']}/10 | {m['M11']}% | {m['M12']}% | "
+            f"**{r['verdict']}** |"
         )
     lines.append("\n## Légende cible §13.5.3")
     lines.append("- **GO** : M1 >= 0.7 ET >= 6/8 critères go, ET M3 < 5%, ET M4 < 5%.")
@@ -463,6 +558,10 @@ def render_markdown(results: Dict) -> str:
     lines.append("- M6 = proxy octets/4 (1 token ~ 4 chars). Pas la consommation réelle de l'hôte LLM.")
     lines.append("- M7 = None en mode rétroactif (timestamps non injectés par défaut). Sur hôte productif : `start/end` dans quintessence metadata.")
     lines.append("- M8 = proxy auto-vérification EXTRACTEUR (glyphe='❧' OU tier=3 OU note_violation = dégradation).")
+    lines.append("- M9 = % violations isolation Mnemolite (PIVOT C2.1 cible GO <= 5%).")
+    lines.append("- M10 = profondeur arborescente PELOTE (mécanisme → sous → fait → source F-###), 0-4. Cible GO >= 7.5/10.")
+    lines.append("- M11 = % positions_acteurs avec `source` commençant par `§X.Y`. Cible GO == 100%.")
+    lines.append("- M12 = % recommandations avec `acteur_cible` non-vide ET `horizon ∈ {court, moyen, long}`. Cible GO == 100%.")
     lines.append("")
     return "\n".join(lines)
 

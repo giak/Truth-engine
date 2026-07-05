@@ -39,6 +39,7 @@ Pour chaque champ < 7, fournis un feedback actionnable qui permettra
 | Profondeur (PELOTE) | Plat | Linéaire | 2-3 niveaux | 4 niveaux emboîtés |
 | Actionnabilité (recommandations) | Vagues | Génériques | Concrètes | Ciblées + horizon |
 | Impact chiffré | Aucun | Vague | >= 3 chiffres | >= 3 chiffres sourcés |
+| C6 — Conformité 3-minimum (round 3) | Aucune section H2 ne pioche dans positions+pelote+impact+recos | 1 section sur 3 respecte | 2 sections sur 3 respectent | Toutes les sections respectent (cible 3-minimum §5.1 Option C-3) |
 
 **Schéma de sortie** :
 

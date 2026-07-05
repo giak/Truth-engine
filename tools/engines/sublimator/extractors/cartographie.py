@@ -63,6 +63,40 @@ RE_KEYWORDS_STOP = re.compile(
 )
 
 
+
+def classify_archetype(entry: dict[str, Any]) -> str:
+    """Classifie l'enquête selon SPECS v36 §12 (cartographie canonique GOLDEN_APEX/APEX_LEGACY/COURT_DEGR).
+
+    Cascade (SPECS v36 §12 ligne 475 + cadrage §4.5 F.R1 verdict ROUND 2) :
+    - **GOLDEN_APEX** si mots>5000 ET f_count_estime>=5 (proxy causalites_pelote) ET kernel_count>=8 (si disponible).
+      Cible Sublimator APEX canonique : 5/42 enquêtes RIC (12%, religieuse CivicTech CivicTech histoire longue CNR IVe République).
+    - **APEX_LEGACY** si mots>2500 ET f_count_estime>=2.
+      12/42 enquêtes.
+    - **COURT_DEGR** sinon.
+      15/42 enquêtes.
+
+    Pourquoi round 3 ROUND 2 verdict BLOQUANT B.5 : sans detecteur, le pilote accepte 3 formats cohabitants
+    sans cohérence. ROUND 3 introduit le detecteur mais le pilote garde la liberté d'émerger un format
+    plus contraint via regle ad hoc. La classification est un *hint*, pas une contrainte dure.
+
+    Args:
+        entry: dict issu de extract_python() (doit contenir n_lines, f_count_estime, et optionnellement kernel_count).
+    Returns:
+        str parmi {'GOLDEN_APEX', 'APEX_LEGACY', 'COURT_DEGR'}.
+    """
+    # mots_total : heuristique proxy 1 ligne ~= 10 mots
+    mots_total = entry.get("n_lines", 0) * 10
+    f_count_estime = entry.get("f_count_estime", 0)
+    kernel_count = entry.get("kernel_count", 0)  # absent si LECTEUR pas passé
+    # GOLDEN_APEX : massive + multi-PELOTE + KERNEL bien garni
+    if mots_total > 5000 and f_count_estime >= 5 and (kernel_count == 0 or kernel_count >= 8):
+        return "GOLDEN_APEX"
+    # APEX_LEGACY : substantiel + quelques mécanismes
+    if mots_total > 2500 and f_count_estime >= 2:
+        return "APEX_LEGACY"
+    return "COURT_DEGR"
+
+
 def _extract_prefix(filename: str) -> str:
     """Derive prefix du filename. Ex: 'ric_def_INVESTIGATION.md' -> 'ric_def'."""
     stem = filename.replace(".md", "").replace(".yaml", "").replace(".json", "")
@@ -261,6 +295,8 @@ def run(dossier: Path, mode: str = "python") -> dict[str, Any]:
     entries: list[dict[str, Any]] = []
     for f in files:
         entry = extract_python(f)
+        # ROUND 3 v36 §12 F.R1 : intégration classify_archetype (correction BLOQUANT B.5 verdict ROUND 2).
+        entry["archetype"] = classify_archetype(entry)
         entries.append(entry)
     n_ok = sum(1 for e in entries if e["status"] == "ok")
     n_needs_llm = sum(1 for e in entries if e["status"] == "needs_llm")
