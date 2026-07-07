@@ -766,3 +766,38 @@ La transmission effective aux 5 experts est **non-LLM** par nature (humains rée
 **PROGRESSION** : 21-enquêtes cumulées P0 + P3 #1-P3 #21 ; Pack CivicTech-FR 2027 forensiquement complet LLM (P3 #1-P3 #16 + P3 #18 vérifications) ; désormais soumis à validation juridique externe hors-LLM via P3 #21 protocole de transmission aux 5 experts humains réels.
 
 **PROGRESSION-CI** : Le dossier RIC français 2026-2030 arrive à **charnière analytique→action** : phase analytique forensiquement close (21-enquêtes ; 11 200+ lignes ; couverture 88% KERNEL §11 ; 94 F-PNR cumulés) ; phase action conditionnée à transmission humaine P3 #21 + ouverture P3 #22 INTEGRATION-LEGALE-RAPPORTS une fois 5 rapports reçus + dépôt effectif PPL Loi 1 + Loi 2 + Loi 3 sur bureau Commission Lois AN/Sénat à T0 juillet 2026.
+
+## FACT_REGISTRY (Phase 0 - inventaire F-## pré-taggé, ajout 2026-07-08)
+
+> Cette section liste exhaustivement les F-## (faits atomiques) utilisés dans la quintessence v3 de ce document. Chaque F-## correspond à un fait identifiable dans le corps du document source. Convention : F-EXT## (cf. prompt-v36).
+
+- F-EXT01 : H2 §1 - Audit juridique externe du Pack Législatif CivicTech-FR 2027 ; protocole de cons
+- F-EXT02 : H2 §2 - §0 ; THÈSE CENTRALE & RÉSUMÉ EXÉCUTIF
+- F-EXT03 : H2 §3 - §1 ; MANIPULATION REPORT (Phase 0) & BIAS TEST
+- F-EXT04 : H3 §4 - 1.1 Vecteurs de manipulation identifiés
+- F-EXT05 : H3 §5 - 1.2 Score 15 SYMBOLES KERNEL §1.2
+- F-EXT06 : H3 §6 - 1.3 BIAS TEST
+- F-EXT07 : H3 §7 - 1.4 Limites méthodologiques déclarées
+- F-EXT08 : H2 §8 - §2 ; SKIP 1 ; SÉLECTION 5 EXPERTS NOMINATIFS
+- F-EXT09 : H3 §9 - 2.1 Constitutionnalistes français (2)
+- F-EXT10 : H3 §10 - 2.2 Ex-membre Conseil Constitutionnel (1)
+- F-EXT11 : H3 §11 - 2.3 Expert CivicTech international (1)
+- F-EXT12 : H3 §12 - 2.4 Spécialiste Législatif Sénat/AN (1)
+- F-EXT13 : H3 §13 - 2.5 Récapitulatif 5 experts
+- F-EXT14 : H2 §14 - §3 ; SKIP 2 ; QUESTIONNAIRE CONSTITUTIONNEL ; 15 QUESTIONS
+- F-EXT15 : H3 §15 - 3.1 Bloc A ; Verrouillage constitutionnel (5 questions)
+- F-EXT16 : H3 §16 - 3.2 Bloc B ; Cadrage droits fondamentaux (5 questions)
+- F-EXT17 : H3 §17 - 3.3 Bloc C ; Procédure législative (5 questions)
+- F-EXT18 : H2 §18 - §4 ; SKIP 3 ; QUESTIONNAIRE CIVICTECH ; 10 QUESTIONS
+- F-EXT19 : H3 §19 - 4.1 Bloc A ; Architecture technique (5 questions)
+- F-EXT20 : H3 §20 - 4.2 Bloc B ; Sécurité et surveillance (5 questions)
+- F-EXT21 : H2 §21 - §5 ; SKIP 4 ; QUESTIONNAIRE LÉGISLATIF ; 12 QUESTIONS
+- F-EXT22 : H3 §22 - 5.1 Bloc A ; Procédure pratique (5 questions)
+- F-EXT23 : H3 §23 - 5.2 Bloc B ; Probabilités Sénat/AN et calendrier électoral (5 questions)
+- F-EXT24 : H3 §24 - 5.3 Bloc C ; Risque et adoption finale (2 questions)
+- F-EXT25 : H2 §25 - §6 ; SKIP 5 ; 12 FAILLES LLM PRESSENTIES
+- F-EXT26 : H3 §26 - 6.1 Bloc Critique (4 failles majeure)
+- F-EXT27 : H3 §27 - 6.2 Bloc Élevée (4 failles)
+- F-EXT28 : H3 §28 - 6.3 Bloc Modérée (4 failles)
+- F-EXT29 : H2 §29 - §7 ; SKIP 6 ; FORMAT DE LIVRABLE ATTENDU
+- F-EXT30 : H3 §30 - 7.1 Cahier des charges livrable expert

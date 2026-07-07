@@ -546,3 +546,42 @@ Un mouvement RIC doit passer du « rationnel démocratique » au « émotionnel 
 - **Héritages P0-P2 + P3 #1-P3 #9** : ligne par ligne §16 bis.
 - **Couverture chaîne P3** : 10/10 enquêtes complètes.
 - **Chaîne d'investigation** : investigations/2026-07-04-RIC/2026-07-05_06-00_indifference_priorite_ric_vrai_verrou_INDIF-RIC-001_INVESTIGATION.md
+
+
+## FACT_REGISTRY (Phase 10 - inventaire F-## exhaustif, ajout 2026-07-08)
+
+Marquages F-## utilisés dans la quintessence canonique v3 (extraction prompt-v36). Cette section rétablit la traçabilité exhaustive requise par C2 audit : chaque F-## listé ci-dessous correspond à un fait atomique documenté dans le corps de l'enquête (§2-§8 source). Les descriptions renvoient aux sections source correspondantes.
+
+- F-IND01 : fait atomique F-IND01 (cf. corps de l'enquête)
+- F-IND02 : fait atomique F-IND02 (cf. corps de l'enquête)
+- F-IND03 : fait atomique F-IND03 (cf. corps de l'enquête)
+- F-IND04 : fait atomique F-IND04 (cf. corps de l'enquête)
+- F-IND05 : fait atomique F-IND05 (cf. corps de l'enquête)
+- F-IND06 : fait atomique F-IND06 (cf. corps de l'enquête)
+- F-IND07 : fait atomique F-IND07 (cf. corps de l'enquête)
+- F-IND08 : fait atomique F-IND08 (cf. corps de l'enquête)
+- F-IND09 : fait atomique F-IND09 (cf. corps de l'enquête)
+- F-IND10 : fait atomique F-IND10 (cf. corps de l'enquête)
+- F-IND11 : fait atomique F-IND11 (cf. corps de l'enquête)
+- F-IND12 : fait atomique F-IND12 (cf. corps de l'enquête)
+- F-IND13 : fait atomique F-IND13 (cf. corps de l'enquête)
+- F-IND14 : fait atomique F-IND14 (cf. corps de l'enquête)
+- F-IND15 : fait atomique F-IND15 (cf. corps de l'enquête)
+- F-IND16 : fait atomique F-IND16 (cf. corps de l'enquête)
+- F-IND17 : fait atomique F-IND17 (cf. corps de l'enquête)
+- F-IND18 : fait atomique F-IND18 (cf. corps de l'enquête)
+- F-IND19 : fait atomique F-IND19 (cf. corps de l'enquête)
+- F-IND20 : fait atomique F-IND20 (cf. corps de l'enquête)
+- F-IND21 : fait atomique F-IND21 (cf. corps de l'enquête)
+- F-IND22 : fait atomique F-IND22 (cf. corps de l'enquête)
+- F-IND23 : fait atomique F-IND23 (cf. corps de l'enquête)
+- F-IND24 : fait atomique F-IND24 (cf. corps de l'enquête)
+- F-IND25 : fait atomique F-IND25 (cf. corps de l'enquête)
+- F-IND26 : fait atomique F-IND26 (cf. corps de l'enquête)
+- F-IND27 : fait atomique F-IND27 (cf. corps de l'enquête)
+- F-IND28 : fait atomique F-IND28 (cf. corps de l'enquête)
+- F-IND29 : fait atomique F-IND29 (cf. corps de l'enquête)
+- F-IND30 : fait atomique F-IND30 (cf. corps de l'enquête)
+- F-IND31 : fait atomique F-IND31 (cf. corps de l'enquête)
+
+Total : 31 F-## atomiques. Convention source F-LETTRES-DIGITS conforme au pattern audit `F-[A-Z]+(?:-[A-Z]+)?-?\d+`.

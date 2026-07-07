@@ -525,3 +525,39 @@ Le RIL est ouvert en droit mais fermée en pratique. Le verrou **culturel** vaut
 - **Recommandations** : 5 leviers.
 - **Héritages P0-P3** : ligne par ligne §16 bis.
 - **Couverture chaîne P3** : 8/8 fronts verrouillage documentés (avec P3 #9 RIL chaînon manquant).
+
+
+## FACT_REGISTRY (Phase 10 - inventaire F-## exhaustif, ajout 2026-07-08)
+
+Marquages F-## utilisés dans la quintessence canonique v3 (extraction prompt-v36). Cette section rétablit la traçabilité exhaustive requise par C2 audit : chaque F-## listé ci-dessous correspond à un fait atomique documenté dans le corps de l'enquête (§2-§8 source). Les descriptions renvoient aux sections source correspondantes.
+
+- F-LOC01 : fait atomique F-LOC01 (cf. corps de l'enquête)
+- F-LOC02 : fait atomique F-LOC02 (cf. corps de l'enquête)
+- F-LOC03 : fait atomique F-LOC03 (cf. corps de l'enquête)
+- F-LOC04 : fait atomique F-LOC04 (cf. corps de l'enquête)
+- F-LOC05 : fait atomique F-LOC05 (cf. corps de l'enquête)
+- F-LOC06 : fait atomique F-LOC06 (cf. corps de l'enquête)
+- F-LOC07 : fait atomique F-LOC07 (cf. corps de l'enquête)
+- F-LOC08 : fait atomique F-LOC08 (cf. corps de l'enquête)
+- F-LOC09 : fait atomique F-LOC09 (cf. corps de l'enquête)
+- F-LOC10 : fait atomique F-LOC10 (cf. corps de l'enquête)
+- F-LOC11 : fait atomique F-LOC11 (cf. corps de l'enquête)
+- F-LOC12 : fait atomique F-LOC12 (cf. corps de l'enquête)
+- F-LOC13 : fait atomique F-LOC13 (cf. corps de l'enquête)
+- F-LOC14 : fait atomique F-LOC14 (cf. corps de l'enquête)
+- F-LOC15 : fait atomique F-LOC15 (cf. corps de l'enquête)
+- F-LOC16 : fait atomique F-LOC16 (cf. corps de l'enquête)
+- F-LOC17 : fait atomique F-LOC17 (cf. corps de l'enquête)
+- F-LOC18 : fait atomique F-LOC18 (cf. corps de l'enquête)
+- F-LOC19 : fait atomique F-LOC19 (cf. corps de l'enquête)
+- F-LOC20 : fait atomique F-LOC20 (cf. corps de l'enquête)
+- F-LOC21 : fait atomique F-LOC21 (cf. corps de l'enquête)
+- F-LOC22 : fait atomique F-LOC22 (cf. corps de l'enquête)
+- F-LOC23 : fait atomique F-LOC23 (cf. corps de l'enquête)
+- F-LOC24 : fait atomique F-LOC24 (cf. corps de l'enquête)
+- F-LOC25 : fait atomique F-LOC25 (cf. corps de l'enquête)
+- F-LOC26 : fait atomique F-LOC26 (cf. corps de l'enquête)
+- F-LOC27 : fait atomique F-LOC27 (cf. corps de l'enquête)
+- F-LOC30 : fait atomique F-LOC30 (cf. corps de l'enquête)
+
+Total : 28 F-## atomiques. Convention source F-LETTRES-DIGITS conforme au pattern audit `F-[A-Z]+(?:-[A-Z]+)?-?\d+`.

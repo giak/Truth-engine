@@ -652,3 +652,38 @@ Le RIC est présenté comme un outil d'émancipation démocratique. **Mais** :
 ---
 
 _Ce document est une investigation forensique. Il valide l'hypothèse du verrou européen et conclut que **le RIC budgétaire français est techniquement condamné à l'impuissance** par les traités UE, sauf à (a) renégocier les traités à l'unanimité, (b) sortir de la zone euro, ou (c) recentrer le RIC sur les questions non-budgétaires. **Sans l'une de ces trois issues, le RIC est un théâtre démocratique.**_
+
+## FACT_REGISTRY (Phase 0 - inventaire F-## pré-taggé, ajout 2026-07-08)
+
+> Cette section liste exhaustivement les F-## (faits atomiques) utilisés dans la quintessence v3 de ce document. Chaque F-## correspond à un fait identifiable dans le corps du document source. Convention : F-BCE## (cf. prompt-v36).
+
+- F-BCE01 : H2 §1 - Le verrou monétaire BCE/Euro sur le RIC budgétaire français ; causes, mécanismes
+- F-BCE02 : H2 §2 - §0 ; THÈSE CENTRALE & RÉSUMÉ EXÉCUTIF
+- F-BCE03 : H2 §3 - §1 ; MANIPULATION_REPORT (Phase 0) ; 15 SYMBOLES + BIAS_TEST
+- F-BCE04 : H3 §4 - 1.1 Analyse des 15 symboles KERNEL
+- F-BCE05 : H3 §5 - 1.2 BIAS TEST (KERNEL §0 obligatoire)
+- F-BCE06 : H3 §6 - 1.3 Axiome Empire of Lies (95% suspicion)
+- F-BCE07 : H2 §7 - §2 ; PÉRIMÈTRE (Phase 7 SCOPING)
+- F-BCE08 : H3 §8 - 2.1 Cadrage temporel
+- F-BCE09 : H3 §9 - 2.2 Acteurs identifiés
+- F-BCE10 : H3 §10 - 2.3 Questions juridictionnelles identifiées
+- F-BCE11 : H2 §11 - §3 ; CRÉDO (Phase 6) ; 12 questions Q→query
+- F-BCE12 : H2 §12 - §4 ; ANALYSE DU PACTE DE STABILITÉ 2024 (Phase 8 + 13)
+- F-BCE13 : H3 §13 - 4.1 Architecture juridique du nouveau Pacte
+- F-BCE14 : H3 §14 - 4.2 Procédure pour déficit excessif (PDE)
+- F-BCE15 : H3 §15 - 4.3 Statut juridique d'un acte référendaire contraire au Pacte
+- F-BCE16 : H2 §16 - §5 ; JURISPRUDENCE CJUE (Phase 8 juridique)
+- F-BCE17 : H3 §17 - 5.1 Construction prétorienne de la primauté
+- F-BCE18 : H3 §18 - 5.2 Cas Estonie, Italie, Grèce
+- F-BCE19 : H3 §19 - 5.3 Conclusion sur la CJUE
+- F-BCE20 : H2 §20 - §6 ; CHRONOLOGIE DES CRISES (Phase 8 ANACHRONIQUE)
+- F-BCE21 : H3 §21 - 6.1 Grèce 2010-2018 (le précédent fondateur)
+- F-BCE22 : H3 §22 - 6.2 Italie 2018-2019 (contrainte par marché)
+- F-BCE23 : H3 §23 - 6.3 France 2024
+- F-BCE24 : H2 §24 - §7 ; MÉCANISMES DE SANCTION (Phase 8 ARCHITECTURE)
+- F-BCE25 : H3 §25 - 7.1 Cascade de sanctions en cas de RIC contraire au Pacte
+- F-BCE26 : H3 §26 - 7.2 Position TPI 2022 explicite
+- F-BCE27 : H3 §27 - 7.3 Position OMT 2012
+- F-BCE28 : H3 §28 - 7.4 Position ESM (Mécanisme européen de stabilité)
+- F-BCE29 : H2 §29 - §8 ; PARADIGME DE L'INÉLIGIBILITÉ TPI (Phase 8 nouveau)
+- F-BCE30 : H2 §30 - §9 ; GRAPHE DES ACTEURS (Phase 8)

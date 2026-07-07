@@ -559,3 +559,38 @@ Quatre chaînes causales convergent : mort de la démocratie directe dans le M5S
 | F034 | Alliance M5S-BSW (Wagenknecht) tentée en 2025, échouée faute d'effectifs (M5S < 60 parlementaires) | WOXX archives 2025, woxx.eu ; presse européenne | ✧ |
 
 **Révision du verdict** : M2 (Institutionnalisation) demeure le verrou CYCLIQUE le plus fort. M1 (Sous-traitance tech.) est renforcé par le Casaleggio-RGPD sans résultat : la démocratie directe n'était pas technique mais juridique (sans garantie sur le secret du vote, c'est une simulazione). Le parallèle avec Podemos et Syriza transforme la conclusion : la capture n'est pas une exception italienne mais une LOI du populisme européen post-2010. Solution Démocratique en France est confrontée à la même trajectoire probable.
+
+## FACT_REGISTRY (Phase 0 - inventaire F-## pré-taggé, ajout 2026-07-08)
+
+> Cette section liste exhaustivement les F-## (faits atomiques) utilisés dans la quintessence v3 de ce document. Chaque F-## correspond à un fait identifiable dans le corps du document source. Convention : F-MVT## (cf. prompt-v36).
+
+- F-MVT01 : H2 §1 - §0 FICHE SIGNALÉTIQUE — M5S EN CHIFFRES
+- F-MVT02 : H2 §2 - §1 GENÈSE — LE NON-PARTI QUI VENAIT D'INTERNET (2005-2013)
+- F-MVT03 : H3 §3 - 1.1 Le blog qui devint un mouvement
+- F-MVT04 : H3 §4 - 1.2 Casaleggio Associati — L'entreprise au coeur du mouvement
+- F-MVT05 : H3 §5 - 1.3 Le séisme de 2013
+- F-MVT06 : H2 §6 - §2 ROUSSEAU — L'OS DE LA DÉMOCRATIE DIRECTE (2016-2021)
+- F-MVT07 : H3 §7 - 2.1 Lancement
+- F-MVT08 : H3 §8 - 2.2 Le paradoxe quantitatif
+- F-MVT09 : H3 §9 - 2.3 Problèmes de sécurité et d'opacité
+- F-MVT10 : H3 §10 - 2.4 La verticalité paradoxale
+- F-MVT11 : H2 §11 - §3 ASCENSION ET CONQUÊTE DU POUVOIR (2013-2018)
+- F-MVT12 : H3 §12 - 3.1 De l'opposition au gouvernement
+- F-MVT13 : H3 §13 - 3.2 Le choix fatal ; l'alliance avec la Ligue
+- F-MVT14 : H3 §14 - 3.3 Le retournement ; l'alliance avec le PD
+- F-MVT15 : H3 §15 - 3.4 Le suicide Draghi
+- F-MVT16 : H2 §16 - §4 DÉCLIN ET SCISSIONS (2019-2022)
+- F-MVT17 : H3 §17 - 4.1 Chronologie de l'effondrement
+- F-MVT18 : H3 §18 - 4.2 L'hémorragie parlementaire
+- F-MVT19 : H3 §19 - 4.3 La perte de Rome et Turin (2021)
+- F-MVT20 : H2 §20 - §5 LE DIVORCE ROUSSEAU — LE COUP DE GRÂCE (2021)
+- F-MVT21 : H3 §21 - 5.1 La chronique d'une rupture annoncée
+- F-MVT22 : H3 §22 - 5.2 Le conflit Davide Casaleggio
+- F-MVT23 : H3 §23 - 5.3 La leçon sur la sous-traitance technologique
+- F-MVT24 : H2 §24 - §6 LA MUE ; DE L'ANTISYSTÈME AU PARTI TRADITIONNEL (2022-2026)
+- F-MVT25 : H3 §25 - 6.1 Conte prend le contrôle
+- F-MVT26 : H3 §26 - 6.2 L'élimination de Grillo
+- F-MVT27 : H3 §27 - 6.3 Le nouveau M5S en 2026
+- F-MVT28 : H2 §28 - §7 ANALYSE — LES 5 MÉCANISMES DE CAPTURE
+- F-MVT29 : H3 §29 - M1 — Sous-traitance technologique
+- F-MVT30 : H3 §30 - M2 — Leadership charismatique vertical

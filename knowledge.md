@@ -18,9 +18,11 @@
 ## Règles de formatage critiques
 
 ### Interdiction du tiret cadratin
-- Ne jamais utiliser le tiret cadratin (em dash U+2014, « — ») dans les articles.
+- **Scope strict :** articles publiés (Phase 3) uniquement. Ne JAMAIS appliquer aux fiches internes (quintessences Phase 1, INVESTIGATIONS sources).
+- Ne jamais utiliser le tiret cadratin (em dash U+2014, « — ») dans les **articles**.
 - Utiliser « : » pour les séparateurs, « - » pour les listes, et des parenthèses pour les incises.
-- Faire un grep de « — » sur le fichier avant de déclarer un article terminé.
+- Faire un grep de « — » sur le fichier avant de déclarer un **article** terminé.
+- **Audit script** `tools/audit_phase1_sublimator_v35.py` : C3 « zéro em-dash » **NEUTRALISÉ** 2026-07-08 (informatif uniquement, hors score). Le scope originel articles/Phase 3 a été corrigé : les fiches internes Phase 1 tolèrent l'em-dash. Pour audit Phase 3 (articles), créer un script séparé `audit_phase3_em_dash.py` (à venir).
 
 ### Sourcing et fact-checking
 - Avant de valider une information sensible, faire une recherche web ou dans les fichiers. Citer les sources.

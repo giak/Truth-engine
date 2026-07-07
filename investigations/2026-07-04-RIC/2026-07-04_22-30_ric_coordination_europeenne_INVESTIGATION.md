@@ -776,3 +776,38 @@ Cette enquête s'appuie sur les quatre enquêtes précédentes du dossier RIC. L
 ---
 
 _Ce document est une investigation forensique au sens KERNEL §11. Il est la **première enquête de la série P1** (coordination européenne initiant une série d'enquêtes sur les dynamiques transnationales). Il cartographie nominativement 4 mouvements pro-démocratie directe nationaux et identifie les outils juridiques (ICE) disponibles. Il conclut que **la coordination européenne pro-RIC rencontre 5 obstacles structurels** (capture M5S, fragmentation Podemos, isolement BSW, démagogie AfD, faiblesse ICE) et que **P(effective 2026-2030) ≈ 0.20-0.25**. Le verrou M4 reste **structurellement résilient**._
+
+## FACT_REGISTRY (Phase 0 - inventaire F-## pré-taggé, ajout 2026-07-08)
+
+> Cette section liste exhaustivement les F-## (faits atomiques) utilisés dans la quintessence v3 de ce document. Chaque F-## correspond à un fait identifiable dans le corps du document source. Convention : F-COE## (cf. prompt-v36).
+
+- F-COE01 : H2 §1 - Coordination européenne pro-démocratie directe contre verrou transnational Bilde
+- F-COE02 : H2 §2 - §0 ; THÈSE CENTRALE & RÉSUMÉ EXÉCUTIF
+- F-COE03 : H2 §3 - §1 ; MANIPULATION_REPORT (Phase 0) ; 15 SYMBOLES + BIAS_TEST
+- F-COE04 : H3 §4 - 1.1 Analyse des 15 symboles KERNEL
+- F-COE05 : H3 §5 - 1.2 BIAS TEST (KERNEL §0 obligatoire)
+- F-COE06 : H3 §6 - 1.3 Axiome Empire of Lies
+- F-COE07 : H2 §7 - §2 ; PÉRIMÈTRE (Phase 7 SCOPING)
+- F-COE08 : H3 §8 - 2.1 Quatre mouvements cartographiés
+- F-COE09 : H3 §9 - 2.2 Questions forensiques identifiées
+- F-COE10 : H2 §10 - §3 ; CRÉDO (Phase 6) ; 16 questions Q→query
+- F-COE11 : H2 §11 - §4 ; COUCHE M5S ITALIE ; CAPTURE INSTITUTIONNELLE POST-GRILLO
+- F-COE12 : H3 §12 - 4.1 Trajectoire du M5S 2009-2026
+- F-COE13 : H3 §13 - 4.2 Position actuelle du M5S sur la démocratie directe
+- F-COE14 : H3 §14 - 4.3 Évaluation critique du M5S pour la coordination
+- F-COE15 : H2 §15 - §5 ; COUCHE PODEMOS ESPAGNE ; FRAGMENTATION IDENTITAIRE
+- F-COE16 : H3 §16 - 5.1 Trajectoire de Podemos 2014-2026
+- F-COE17 : H3 §17 - 5.2 Démocratie directe et ICE dans Podemos
+- F-COE18 : H3 §18 - 5.3 Évaluation critique de Podemos pour la coordination
+- F-COE19 : H2 §19 - §6 ; COUCHE BSW ALLEMAGNE ; SOUVERAINISME GAUCHE EU-ISOLÉ
+- F-COE20 : H3 §20 - 6.1 Trajectoire BSW 2024-2026
+- F-COE21 : H3 §21 - 6.2 Résultats électoraux
+- F-COE22 : H3 §22 - 6.3 Doctrine BSW sur la démocratie directe
+- F-COE23 : H3 §23 - 6.4 Évaluation critique du BSW pour la coordination
+- F-COE24 : H2 §24 - §7 ; COUCHE AfD ALLEMANDE ; DÉMAGOGIE « MODÈLE SUISSE »
+- F-COE25 : H3 §25 - 7.1 Position officielle AfD sur la démocratie directe
+- F-COE26 : H3 §26 - 7.2 Réponse des institutions allemandes
+- F-COE27 : H3 §27 - 7.3 Fracture interne AfD ; Weidel/Chrupalla vs Höcke
+- F-COE28 : H3 §28 - 7.4 Évaluation critique AfD pour la coordination
+- F-COE29 : H2 §29 - §8 ; COUCHE INSTRUMENTS JURIDIQUES EUROPÉENS ; L'ICE COMME ARME LIMITÉE
+- F-COE30 : H3 §30 - 8.1 Cadre juridique de l'Initiative Citoyenne Européenne (ICE)

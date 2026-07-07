@@ -645,3 +645,38 @@ P3 #18 acte : **Truth Engine correctif transparent**. Les erreurs détectées pa
 **PROGRESSION** : 18 enquêtes cumulées (P3 #1-P3 #18 inclus), dossier RIC français cartographié de la révélation P0, du diagnostic P3 #1-P3 #10, à la stratégie P3 #11, à la triade opérationnelle P3 #12 Sortition + P3 #13 Révocatoire + P3 #14 Civic tech, jusqu'au protocole exécutable P3 #15 PROTOCOLE-PNRED-RIC-001, jusqu'au Pack Législatif triple P3 #16 LOIS-CIVICTECH-2027 (corrigé via P3 #18), jusqu'à **la vérification tierce indépendante P3 #18 VERIFICATION-2026-07** documentant 11 ✅ + 8 ⚠️ + 7 ❌ + 3 ❓ + 5 ⁂ et proposant 12 corrections factuelles consolidées.
 
 **PROGRESSION-CI** : Le RIC est désormais un **objet d'élaboration offensible juridiquement car forensiquement vérifié**. Posture non-masquée : **88% KERNEL §11 conforme** vs **96% P3 #16 antérieur** auto-déclaré. **Score de couverture révisé honnêtement à 72%** post-vérification tierce. **Crédibilité méthodologique réelle à 88%** = posture forensique sans complaisance.
+
+## FACT_REGISTRY (Phase 0 - inventaire F-## pré-taggé, ajout 2026-07-08)
+
+> Cette section liste exhaustivement les F-## (faits atomiques) utilisés dans la quintessence v3 de ce document. Chaque F-## correspond à un fait identifiable dans le corps du document source. Convention : F-VER## (cf. prompt-v36).
+
+- F-VER01 : H2 §1 - Vérification indépendante des 38 nouveaux F-PNR33-F-PNR70 introduits dans P3 #16
+- F-VER02 : H2 §2 - §0 ; THÈSE CENTRALE & RÉSUMÉ EXÉCUTIF
+- F-VER03 : H2 §3 - §1 ; MANIPULATION REPORT (Phase 0) & BIAS TEST
+- F-VER04 : H3 §4 - 1.1 Vecteurs de manipulation identifiés
+- F-VER05 : H3 §5 - 1.2 Score 15 SYMBOLES KERNEL §1.2
+- F-VER06 : H3 §6 - 1.3 BIAS TEST
+- F-VER07 : H2 §7 - §2 ; SKIP 1 ; MÉTHODOLOGIE VÉRIFICATION
+- F-VER08 : H3 §8 - 2.1 Protocole de tierce vérification
+- F-VER09 : H3 §9 - 2.2 Sources institutionnelles consultées (11+)
+- F-VER10 : H3 §10 - 2.3 Limites méthodologiques déclarées
+- F-VER11 : H2 §11 - §3 ; SKIP 2 ; GRILLE VERDICT COMPLÈTE 38 F-PNR (résumé)
+- F-VER12 : H3 §12 - 3.1 Synthèse verdict grid
+- F-VER13 : H2 §13 - §4 ; SKIP 3 ; DÉTAIL VÉRIFICATIONS ✅ CONFIRMÉ (11 FAITS)
+- F-VER14 : H3 §14 - ✅ F-PNR33 ; Spread OAT/Bund 10 ans au 3 juillet 2026 = 76 pb
+- F-VER15 : H3 §15 - ✅ F-PNR37 ; X-Road Estonia + NIIS
+- F-VER16 : H3 §16 - ✅ F-PNR38 ; Audrey Tang Digital Minister 2016-2024
+- F-VER17 : H3 §17 - ✅ F-PNR40 ; Loi PACTE 2019 + Numérique 2016 + RGPD 2018
+- F-VER18 : H3 §18 - ✅ F-PNR41 ; CC 2024-866 DC = Loi SREN (numérique)
+- F-VER19 : H3 §19 - ✅ F-PNR42 ; Art. 72-1 Constitution 1958 droit pétition locale
+- F-VER20 : H3 §20 - ✅ F-PNR47 ; Cyber Resilience Act UE 2024/2847
+- F-VER21 : H3 §21 - ✅ F-PNR51 ; Islande Conseil constitutionnel 2010 25 membres
+- F-VER22 : H3 §22 - ✅ F-PNR55 ; Constitution 1958 art. 11 + 89 + 72-1
+- F-VER23 : H3 §23 - ✅ F-PNR56 ; Bürgerrat Ostbelgien décret 25 février 2019
+- F-VER24 : H3 §24 - ✅ F-PNR57 ; Pirate Party Allemagne + LiquidFeedback
+- F-VER25 : H2 §25 - §5 ; SKIP 4 ; DÉTAIL VÉRIFICATIONS ⚠️ PARTIEL (8 FAITS)
+- F-VER26 : H3 §26 - ⚠️ F-PNR34 / F-PNR62 ; LPM 2024-2030 art. L. 2321-2-1 Code Défense
+- F-VER27 : H3 §27 - ⚠️ F-PNR36 ; ANSSI SecNumCloud v3.2 + 7 hébergeurs
+- F-VER28 : H3 §28 - ⚠️ F-PNR39 ; Suisse Loi fédérale 2017 retour vote-papier
+- F-VER29 : H3 §29 - ⚠️ F-PNR44 ; M5S-Casaleggio 2018 hazard capture
+- F-VER30 : H3 §30 - ⚠️ F-PNR46 ; Loi islandaise 2010-2013 abandon CS

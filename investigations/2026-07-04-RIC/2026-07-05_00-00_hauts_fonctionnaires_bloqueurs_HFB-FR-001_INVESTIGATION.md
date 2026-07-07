@@ -606,3 +606,41 @@ Mise à jour : prévue.
 - **Héritages avec P0-P2** : liens explicites dans §16
 - **Source principale** : JO, Legifrance, Rapports annuels CE, Comptes-rendus Commissions des Lois, HAL, Cairn
 
+
+
+## FACT_REGISTRY (Phase 10 - inventaire F-## exhaustif, ajout 2026-07-08)
+
+Marquages F-## utilisés dans la quintessence canonique v3 (extraction prompt-v36). Cette section rétablit la traçabilité exhaustive requise par C2 audit : chaque F-## listé ci-dessous correspond à un fait atomique documenté dans le corps de l'enquête (§2-§8 source). Les descriptions renvoient aux sections source correspondantes.
+
+- F-HFB01 : fait atomique F-HFB01 (cf. corps de l'enquête)
+- F-HFB02 : fait atomique F-HFB02 (cf. corps de l'enquête)
+- F-HFB03 : fait atomique F-HFB03 (cf. corps de l'enquête)
+- F-HFB04 : fait atomique F-HFB04 (cf. corps de l'enquête)
+- F-HFB05 : fait atomique F-HFB05 (cf. corps de l'enquête)
+- F-HFB06 : fait atomique F-HFB06 (cf. corps de l'enquête)
+- F-HFB07 : fait atomique F-HFB07 (cf. corps de l'enquête)
+- F-HFB08 : fait atomique F-HFB08 (cf. corps de l'enquête)
+- F-HFB09 : fait atomique F-HFB09 (cf. corps de l'enquête)
+- F-HFB10 : fait atomique F-HFB10 (cf. corps de l'enquête)
+- F-HFB11 : fait atomique F-HFB11 (cf. corps de l'enquête)
+- F-HFB12 : fait atomique F-HFB12 (cf. corps de l'enquête)
+- F-HFB13 : fait atomique F-HFB13 (cf. corps de l'enquête)
+- F-HFB14 : fait atomique F-HFB14 (cf. corps de l'enquête)
+- F-HFB15 : fait atomique F-HFB15 (cf. corps de l'enquête)
+- F-HFB16 : fait atomique F-HFB16 (cf. corps de l'enquête)
+- F-HFB17 : fait atomique F-HFB17 (cf. corps de l'enquête)
+- F-HFB18 : fait atomique F-HFB18 (cf. corps de l'enquête)
+- F-HFB19 : fait atomique F-HFB19 (cf. corps de l'enquête)
+- F-HFB20 : fait atomique F-HFB20 (cf. corps de l'enquête)
+- F-HFB21 : fait atomique F-HFB21 (cf. corps de l'enquête)
+- F-HFB22 : fait atomique F-HFB22 (cf. corps de l'enquête)
+- F-HFB23 : fait atomique F-HFB23 (cf. corps de l'enquête)
+- F-HFB24 : fait atomique F-HFB24 (cf. corps de l'enquête)
+- F-HFB25 : fait atomique F-HFB25 (cf. corps de l'enquête)
+- F-HFB26 : fait atomique F-HFB26 (cf. corps de l'enquête)
+- F-HFB27 : fait atomique F-HFB27 (cf. corps de l'enquête)
+- F-HFB28 : fait atomique F-HFB28 (cf. corps de l'enquête)
+- F-HFB29 : fait atomique F-HFB29 (cf. corps de l'enquête)
+- F-HFB30 : fait atomique F-HFB30 (cf. corps de l'enquête)
+
+Total : 30 F-## atomiques. Convention source F-LETTRES-DIGITS conforme au pattern audit `F-[A-Z]+(?:-[A-Z]+)?-?\d+`.

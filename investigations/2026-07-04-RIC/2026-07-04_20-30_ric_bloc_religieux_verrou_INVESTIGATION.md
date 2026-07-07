@@ -596,3 +596,38 @@ Cette investigation lève un angle mort identifié dans l'audit forensique post-
 ---
 
 _Ce document est une investigation forensique. Il lève le voile religieux sur le verrou RIC et conclut que les lobbies religieuses françaises adoptent une **stratégie défensive-utilitariste** sur le RIP, **opportuniste et non structurelle**. Le RIC est un outil peu utilisé par elles car (a) trop exposant politiquement, (b) trop constitutionnel. Le CC 2026-7 RIP a invalidé la dernière tentative catholique d'instrumentaliser le RIP. **La coalition trans-religieuse sur la bioéthique est la menace la plus concrète pour un RIC sociétal émancipatif (euthanasie, GPA, identité de genre).**_
+
+## FACT_REGISTRY (Phase 0 - inventaire F-## pré-taggé, ajout 2026-07-08)
+
+> Cette section liste exhaustivement les F-## (faits atomiques) utilisés dans la quintessence v3 de ce document. Chaque F-## correspond à un fait identifiable dans le corps du document source. Convention : F-BLR## (cf. prompt-v36).
+
+- F-BLR01 : H2 §1 - Le bloc religieux silencieux sur le RIC en France ; causes, mécanismes, conséque
+- F-BLR02 : H2 §2 - §0 ; THÈSE CENTRALE & RÉSUMÉ EXÉCUTIF
+- F-BLR03 : H2 §3 - §1 ; MANIPULATION_REPORT (Phase 0) ; 15 SYMBOLES + BIAS_TEST
+- F-BLR04 : H3 §4 - 1.1 Analyse des 15 symboles KERNEL
+- F-BLR05 : H3 §5 - 1.2 BIAS TEST (KERNEL §0 obligatoire)
+- F-BLR06 : H3 §6 - 1.3 Axiome Empire of Lies (95% suspicion)
+- F-BLR07 : H2 §7 - §2 ; PÉRIMÈTRE (Phase 7 SCOPING)
+- F-BLR08 : H3 §8 - 2.1 Acteurs du bloc religieux français identifiés
+- F-BLR09 : H3 §9 - 2.2 Questions religieuses sur le RIC identifiées
+- F-BLR10 : H2 §10 - §3 ; CRÉDO (Phase 6) ; 12 questions Q→query
+- F-BLR11 : H2 §11 - §4 ; POSITION DE LA CONFÉRENCE DES ÉVÊQUES (Phase 8)
+- F-BLR12 : H3 §12 - 4.1 Cadre doctrinal Vatican
+- F-BLR13 : H3 §13 - 4.2 Position CEF officielle sur le RIC
+- F-BLR14 : H3 §14 - 4.3 Stratégie pratiquée de la CEF (2018-2026)
+- F-BLR15 : H2 §15 - §5 ; POSITION DES CATHOLIQUES TRADITIONALISTES (Phase 8)
+- F-BLR16 : H3 §16 - 5.1 Civitas (dissoute en 2023)
+- F-BLR17 : H3 §17 - 5.2 FSSPX (Fraternité sacerdotale Saint-Pie X)
+- F-BLR18 : H3 §18 - 5.3 Courants dissidents catholiques
+- F-BLR19 : H2 §19 - §6 ; POSITION MUSULMANE INSTITUTIONNELLE (Phase 8)
+- F-BLR20 : H3 §20 - 6.1 CFCM et Grandes Mosquées
+- F-BLR21 : H3 §21 - 6.2 Position sur la bioéthique musulmane
+- F-BLR22 : H3 §22 - 6.3 Spécificité musulmane vs catholique sur le RIC
+- F-BLR23 : H2 §23 - §7 ; POSITION PROTESTANTE (Phase 8)
+- F-BLR24 : H3 §24 - 7.1 Fédération protestante de France (FPF)
+- F-BLR25 : H3 §25 - 7.2 Position sur la bioéthique protestante
+- F-BLR26 : H3 §26 - 7.3 FEP (Fédération de l'Entraide Protestante)
+- F-BLR27 : H2 §27 - §8 ; LE LOBBY ANTI-EUTHANASIE ET L'UTILISATION DU RIP (Phase 8 + 13)
+- F-BLR28 : H3 §28 - 8.1 Stratégie du lobby Alliance VITA / AFC / Fondation Lejeune
+- F-BLR29 : H3 §29 - 8.2 Le précédent CC 2026-7 RIP ; la clé empirique du verrou religieux
+- F-BLR30 : H3 §30 - 8.3 Le paradoxe religieux-RIP

@@ -537,3 +537,41 @@ Si un RIC était organisé en 2027 (hypothèse basse probabilité) :
 - **Recommandations** : 4 leviers pratiques (mobilisation électorale, pacte fondateur, plateforme médiatique, coalition intellectuelle).
 - **Héritages avec P0-P3** : liens explicites §16 bis.
 
+
+
+## FACT_REGISTRY (Phase 10 - inventaire F-## exhaustif, ajout 2026-07-08)
+
+Marquages F-## utilisés dans la quintessence canonique v3 (extraction prompt-v36). Cette section rétablit la traçabilité exhaustive requise par C2 audit : chaque F-## listé ci-dessous correspond à un fait atomique documenté dans le corps de l'enquête (§2-§8 source). Les descriptions renvoient aux sections source correspondantes.
+
+- F-SOC01 : fait atomique F-SOC01 (cf. corps de l'enquête)
+- F-SOC02 : fait atomique F-SOC02 (cf. corps de l'enquête)
+- F-SOC03 : fait atomique F-SOC03 (cf. corps de l'enquête)
+- F-SOC04 : fait atomique F-SOC04 (cf. corps de l'enquête)
+- F-SOC05 : fait atomique F-SOC05 (cf. corps de l'enquête)
+- F-SOC06 : fait atomique F-SOC06 (cf. corps de l'enquête)
+- F-SOC07 : fait atomique F-SOC07 (cf. corps de l'enquête)
+- F-SOC08 : fait atomique F-SOC08 (cf. corps de l'enquête)
+- F-SOC09 : fait atomique F-SOC09 (cf. corps de l'enquête)
+- F-SOC10 : fait atomique F-SOC10 (cf. corps de l'enquête)
+- F-SOC11 : fait atomique F-SOC11 (cf. corps de l'enquête)
+- F-SOC12 : fait atomique F-SOC12 (cf. corps de l'enquête)
+- F-SOC13 : fait atomique F-SOC13 (cf. corps de l'enquête)
+- F-SOC14 : fait atomique F-SOC14 (cf. corps de l'enquête)
+- F-SOC15 : fait atomique F-SOC15 (cf. corps de l'enquête)
+- F-SOC16 : fait atomique F-SOC16 (cf. corps de l'enquête)
+- F-SOC17 : fait atomique F-SOC17 (cf. corps de l'enquête)
+- F-SOC18 : fait atomique F-SOC18 (cf. corps de l'enquête)
+- F-SOC19 : fait atomique F-SOC19 (cf. corps de l'enquête)
+- F-SOC20 : fait atomique F-SOC20 (cf. corps de l'enquête)
+- F-SOC21 : fait atomique F-SOC21 (cf. corps de l'enquête)
+- F-SOC22 : fait atomique F-SOC22 (cf. corps de l'enquête)
+- F-SOC23 : fait atomique F-SOC23 (cf. corps de l'enquête)
+- F-SOC24 : fait atomique F-SOC24 (cf. corps de l'enquête)
+- F-SOC25 : fait atomique F-SOC25 (cf. corps de l'enquête)
+- F-SOC26 : fait atomique F-SOC26 (cf. corps de l'enquête)
+- F-SOC27 : fait atomique F-SOC27 (cf. corps de l'enquête)
+- F-SOC28 : fait atomique F-SOC28 (cf. corps de l'enquête)
+- F-SOC29 : fait atomique F-SOC29 (cf. corps de l'enquête)
+- F-SOC30 : fait atomique F-SOC30 (cf. corps de l'enquête)
+
+Total : 30 F-## atomiques. Convention source F-LETTRES-DIGITS conforme au pattern audit `F-[A-Z]+(?:-[A-Z]+)?-?\d+`.

@@ -209,6 +209,8 @@ Si sub-agent CRITIQUE non disponible (réseau, contexte, coût), le pilote appli
 
 ## 7. Pipeline SP (Sublimator Phase 1) - modification v38
 
+> **Nature du pipeline.** Production 100% Markdown du `dossier_v38.md` : lecture source, rédaction section par section, insertion de marqueurs `[Lxx]`, vérifications shell. Aucun intermédiaire structuré : le pilote applique directement le contrat SPECS v38, qu'il soit humain ou LLM autonome. Les références schéma du pilote prompt-v35.md (sub-prompts, Mnemolite) assistent la production Markdown sans introduire de format parasite. Le témoin de référence est le dossier `investigations/2026-07-04-RIC/_quintessence/2026-07-04_18-00_referendum_initiative_citoyenne_dossier_v38.md` (3 533 mots, daté 2026-07-04, produit manuellement selon SPECS v38). Cf. §2.1 « Définition opérationnelle » pour les invariants du livrable.
+
 ### 7.1. Nouveaux prompts système
 
 Avant la rédaction du dossier, le SP doit charger 4 fichiers :
@@ -237,7 +239,7 @@ Avant la rédaction du dossier, le SP doit charger 4 fichiers :
 Le dossier v38 est sauvegardé dans :
 
 ```
-investigations/<c>/_quintessence/<YYYY-MM-DD_HH-MM>_<sujet>_dossier_v38.md
+investigations/<sujet>/_quintessence/<YYYY-MM-DD_HH-MM>_<sujet>_dossier_v38.md
 ```
 
 Note : le répertoire `_quintessence/` est distinct de `_validation/` (qui sert aux tests et brouillons). Conformément au SPECS v37 v2.

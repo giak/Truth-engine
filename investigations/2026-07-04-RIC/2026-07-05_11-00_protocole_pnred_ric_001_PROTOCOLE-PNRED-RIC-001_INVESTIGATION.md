@@ -981,3 +981,38 @@ M4 (Anti-répression + Éloge Surface) ← bouclier opérationnel
 **PROGRESSION** : 15 enquêtes cumulées, dossier RIC français cartographié de la révélation P0, du diagnosctic P3 #1-P3 #10, à la stratégie P3 #11, à la triade opérationnelle P3 #12 Sortition + P3 #13 Révocatoire + P3 #14 Civic tech, jusqu'au **protocole exécutable P3 #15 PROTOCOLE-PNRED-RIC-001** incluant le Ré-enracinement + l'Éloge de la Surface + le Plan 18 mois + CCP + CS tripartite + Les FRANCS + le Pack Données Souveraines + Judo Rhétorique + anti-répression.
 
 **PROGRESSION-CI** : Le RIC est désormais un **objet d'élaboration offensible** : cartographié, stratège, opérationnellement exécutable, avec un plan quinquennal chiffré en ~50-100M€ budget cumulé État + 5-10M€ budget associatif + 0 em-dash dans le dossier RIC français 2026-06-04 / 2026-07-05.
+
+## FACT_REGISTRY (Phase 0 - inventaire F-## pré-taggé, ajout 2026-07-08)
+
+> Cette section liste exhaustivement les F-## (faits atomiques) utilisés dans la quintessence v3 de ce document. Chaque F-## correspond à un fait identifiable dans le corps du document source. Convention : F-PNR## (cf. prompt-v36).
+
+- F-PNR01 : H2 §1 - Protocole opérationnel du PNRED (Programme National de Refondation Éthique et Dé
+- F-PNR02 : H2 §2 - §0 ; THÈSE CENTRALE & RÉSUMÉ EXÉCUTIF
+- F-PNR03 : H2 §3 - §1 ; MANIPULATION REPORT (Phase 0) & BIAS TEST
+- F-PNR04 : H3 §4 - 1.1 Vecteurs de manipulation identifiés
+- F-PNR05 : H3 §5 - 1.2 Score 15 SYMBOLES KERNEL §1.2
+- F-PNR06 : H3 §6 - 1.3 BIAS TEST
+- F-PNR07 : H2 §7 - §2 ; SKIP 1 ; FONDEMENTS STRATÉGIQUES (ADIEU AUX PARTIS + PEUPLE SOUVERAIN)
+- F-PNR08 : H3 §8 - 2.1 Diagnostic Weillien 1943 + Fisher + Sloterdijk (article #20 + #83)
+- F-PNR09 : H3 §9 - 2.2 Architecture OS Démocratique Souverain (article #83 Partie II)
+- F-PNR10 : H3 §10 - 2.3 Sortie du clivage gauche-droite ; 6 piliers FRANCS (article #83 Partie V §2)
+- F-PNR11 : H2 §11 - §3 ; SKIP 2 ; LES 6 ÉTAPES DU RÉ-ENRACINEMENT (article #29)
+- F-PNR12 : H3 §12 - 3.1 Vue d'ensemble des 6 étapes
+- F-PNR13 : H3 §13 - 3.2 Étape 1 ; Cesser de nourrir la machine
+- F-PNR14 : H3 §14 - 3.3 Étape 2 ; Couper un fil par mois
+- F-PNR15 : H3 §15 - 3.4 Étape 3 ; Déplacer son centre de conscience (optionnels)
+- F-PNR16 : H3 §16 - 3.5 Étape 4 ; Créer une dépendance réelle
+- F-PNR17 : H3 §17 - 3.6 Étape 5 ; Transmettre à une personne
+- F-PNR18 : H3 §18 - 3.7 Étape 6 ; Répéter
+- F-PNR19 : H2 §19 - §4 ; SKIP 3 ; ÉLOGE DE LA SURFACE (article #30)
+- F-PNR20 : H3 §20 - 4.1 Diagnostic ombre vs surface
+- F-PNR21 : H3 §21 - 4.2 5 techniques anti-répression
+- F-PNR22 : H3 §22 - 4.3 10 leviers économiques (article #30)
+- F-PNR23 : H3 §23 - 4.4 Hypothèse spread OAT/Bund (article #30 + Bruegel 2024)
+- F-PNR24 : H2 §24 - §5 ; SKIP 4 ; MOUVEMENT LES FRANCS (article #83 Partie V)
+- F-PNR25 : H3 §25 - 5.1 6 piliers F-R-A-N-C-S (transpartisan anti-clivage)
+- F-PNR26 : H3 §26 - 5.2 Pacte de Souveraineté
+- F-PNR27 : H3 §27 - 5.3 Vers une coalition transpartisane
+- F-PNR28 : H2 §28 - §6 ; SKIP 5 ; CONSEIL DE SOUVERAINETÉ (CS tripartite)
+- F-PNR29 : H3 §29 - 6.1 Composition 1/3 sortition + 1/3 élus + 1/3 experts
+- F-PNR30 : H3 §30 - 6.2 Friction opérationnelle
