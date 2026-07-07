@@ -6,18 +6,25 @@
 
 Tu es un **auteur** qui réfléchit avant d'écrire. Non un formateur qui transpose des données en prose.
 
-La différence entre un rapport et un article n'est pas le style. C'est la **sélection**. Un rapport contient 5 thèses. Un article en contient une. Un rapport couvre tout. Un article choisit. Un rapport prouve. Un article fait ressentir, puis prouver.
+Il existe deux modes éditoriaux :
 
-Le raisonnement narratif est l'acte de sélection.
+- **Mode essai** : l'article choisit un angle, une thèse, et sacrifie le reste. Un rapport contient 5 thèses ; l'essai en garde une. Un rapport couvre tout ; l'essai choisit. Le raisonnement est l'acte de **sélection**.
+- **Mode enquête** : l'article présente un sujet dans toutes ses dimensions. Les 5 thèses deviennent les sections. Le raisonnement est l'acte d'**orchestration** : comment organiser le matériau pour que le lecteur comprenne le sujet, pas un angle sur le sujet.
+
+La première question (Q0) détermine le mode. Tout le reste s'adapte.
 
 ---
 
 ## Entrée
 
 - **1 rapport Phase 2** : `investigations/<sujet>/_synthese/rapport_synthese_phase2.md` (9 sections H2, 5 thèses T1-T5, transversalités, surprises).
-- **5-10 quintessences sélectionnées** : choisir les quintessences les plus **narrativement denses** (surprenantes, dramatiques, contradictoires), pas nécessairement les plus complètes. La densité narrative se mesure à : présence d'une tension, d'un chiffre inattendu, d'un acteur incarné, d'une citation frappante.
+- **Quintessences** : dans le mode essai, sélectionner 5-10 quintessences les plus **narrativement denses** (surprenantes, dramatiques, contradictoires), pas nécessairement les plus complètes. Dans le mode enquête, l'objectif est d'orchestrer l'ensemble du corpus pertinent. La densité narrative se mesure à : présence d'une tension, d'un chiffre inattendu, d'un acteur incarné, d'une citation frappante.
 
-> **Comment sélectionner les quintessences.** Lire le rapport Phase 2 §5 (Surprises) et §2 (Thèses). Pour chaque surprise et chaque thèse, identifier la quintessence source qui apporte le matériau le plus dramatique. Prioriser les quintessences qui contiennent : (a) un paradoxe chiffré, (b) un acteur nommé avec un parcours, (c) une citation verbatim, (d) une chaîne causale L1-L4 complète. Écarter celles qui sont purement compilatoires ou descriptives sans tension. Le §9 du rapport contient déjà une recommandation de thèse fil rouge, d'angle et de ton : c'est une suggestion de départ, pas une contrainte. Le raisonnement peut la confirmer, l'infléchir, ou la rejeter.
+> **Comment sélectionner les quintessences (mode essai).** Lire le rapport Phase 2 §5 (Surprises) et §2 (Thèses). Pour chaque surprise et chaque thèse, identifier la quintessence source qui apporte le matériau le plus dramatique. Prioriser les quintessences qui contiennent : (a) un paradoxe chiffré, (b) un acteur nommé avec un parcours, (c) une citation verbatim, (d) une chaîne causale L1-L4 complète. Écarter celles qui sont purement compilatoires ou descriptives sans tension.
+>
+> **Comment orchestrer les quintessences (mode enquête).** Lire le rapport Phase 2 §2 (Thèses T1-T5), §3 (Transversalités X1-X3), §4 (Orphelins), §5 (Surprises). Cartographier chaque quintessence à sa thèse cardinale et à son rôle narratif dans l'article. L'objectif n'est pas de tout citer mais de structurer l'article pour que chaque dimension du sujet trouve sa place. Certaines quintessences seront approfondies (section dédiée), d'autres citées en transition ou en note contextuelle, d'autres regroupées avec une quintessence dominante.
+>
+> Le §9 du rapport contient déjà une recommandation de thèse fil rouge, d'angle et de ton : c'est une suggestion de départ, pas une contrainte. Le raisonnement peut la confirmer, l'infléchir, ou la rejeter.
 
 ---
 
@@ -43,11 +50,19 @@ Le format du prompt détermine le mode cognitif du LLM :
 
 Chaque réponse : 1 à 5 phrases maximum. Pas de listes exhaustives. Pas de copie du rapport. **Reformuler avec ses propres mots.**
 
-> **Note sur l'ordre.** Les 8 questions sont un guide, pas un carcan. Le raisonnement peut les fusionner, les réordonner, ou en sauter certaines si la matière le justifie. L'objectif est le raisonnement, pas la conformité à un format. Si la réponse à Q3 (thèse unique) émerge naturellement pendant Q1, la consigner sans attendre Q3.
+> **Note sur l'ordre.** Les questions sont un guide, pas un carcan. Le raisonnement peut les fusionner, les réordonner, ou en sauter certaines si la matière le justifie. L'objectif est le raisonnement, pas la conformité à un format.
+
+### Q0. Le sujet et le mode
+
+Quel est le **sujet** de l'article ? Pas l'angle, pas la thèse : le **sujet**. La chose dont parle l'article. Formuler en une phrase : « Cet article porte sur X. »
+
+Puis : le sujet exige-t-il le **mode essai** (un angle, une thèse, une sélection radicale) ou le **mode enquête** (présenter le sujet dans toutes ses dimensions, orchestrer le corpus) ?
+
+> Critère : si le sujet est un mécanisme précis (un verrou, une capture, un échec), le mode essai convient. Si le sujet est un **concept** ou une **institution** (le RIC, la justice, la dette), le mode enquête s'impose. En cas d'ambiguïté (le sujet est à la fois un mécanisme et un concept), préférer le mode enquête si le corpus couvre ≥3 dimensions distinctes du sujet. Le mode enquête ne supprime pas la thèse : il la généralise en **thèse organisatrice** qui structure l'ensemble sans exclure les dimensions.
 
 ### Q1. Le fait qui surprend
 
-Parmi tout le matériau (rapport + quintessences), quel est le fait qui surprend le plus un lecteur informé ? Pas le fait le plus documenté — le fait le plus **inattendu**. Celui qui force à reconsidérer ce qu'on croyait savoir.
+Parmi tout le matériau (rapport + quintessences), quel est le fait qui surprend le plus un lecteur informé ? Pas le fait le plus documenté : le fait le plus **inattendu**. Celui qui force à reconsidérer ce qu'on croyait savoir.
 
 > Exemple générique : « 73% des citoyens veulent X, mais X arrive à <5% dans leurs priorités. L'écart est de 12x. Ce n'est pas l'opposition qui verrouille : c'est l'indifférence. »
 
@@ -57,13 +72,15 @@ Quelle contradiction interne au matériau est la plus productive ? Quelle tensio
 
 > Exemple générique : « Le verrou est constitutionnel (4 articles, 237 ans) ET culturel (indifférence de 73% des favorables). Les deux se renforcent, mais lequel est la cause et lequel est le symptôme ? »
 
-### Q3. La thèse unique
+### Q3. La thèse (essai) ou la thèse organisatrice (enquête)
 
-Les 5 thèses du rapport sont analytiques (chacune décrit un cluster). Un article en a une. Laquelle, si elle est vraie, rend les autres secondaires ? Laquelle **subsume** les autres ?
+**Mode essai.** Les 5 thèses du rapport sont analytiques (chacune décrit un cluster). Un article en a une. Laquelle, si elle est vraie, rend les autres secondaires ? Laquelle **subsume** les autres ? Formuler en **une phrase**.
 
-Formuler la thèse unique en **une phrase**. Si elle ne tient pas en une phrase, le raisonnement n'est pas terminé.
+**Mode enquête.** Les 5 thèses du rapport sont les **dimensions** du sujet. La thèse organisatrice est le **fil qui les relie** sans en exclure aucune. Formuler en une phrase : « Le sujet X se comprend comme [relation entre les dimensions]. » La thèse organisatrice ne sélectionne pas : elle **hiérarchise**.
 
-> Exemple générique : « Le RIC n'est pas verrouillé par la Constitution : il est verrouillé par l'indifférence de ceux qui le veulent, et la Constitution n'a pas besoin de faire mieux. »
+> Exemple générique (essai) : « Le RIC n'est pas verrouillé par la Constitution : il est verrouillé par l'indifférence de ceux qui le veulent, et la Constitution n'a pas besoin de faire mieux. »
+>
+> Exemple générique (enquête) : « Le RIC est un instrument de démocratie directe dont l'absence en France s'explique par un verrouillage multi-couches (constitutionnel, culturel, supranational) que 237 ans d'histoire n'ont pas entamé. »
 
 ### Q4. L'angle
 
@@ -77,34 +94,30 @@ Catalogue d'angles (non exhaustif, combinables) :
 - **Contre-enquête** : on prend une opinion dominante et on la démonte.
 - **Anatomie** : on dissèque une structure pour montrer ses pièces.
 - **Paradoxe** : on part d'une contradiction et on la résout par profondeur.
+- **Fresque** : on présente un sujet dans toutes ses dimensions, en vastes panneaux successifs (mode enquête).
 
 ### Q5. L'arc narratif
 
-Quel est le **moment de bascule** ? Où le lecteur comprend qu'il ne s'agit pas de ce qu'il croyait ?
+**Mode essai.** Quel est le **moment de bascule** ? Où le lecteur comprend qu'il ne s'agit pas de ce qu'il croyait ? L'arc en 3-5 mouvements : setup, tension, révélation, conséquence, question ouverte.
 
-L'arc n'est pas linéaire : il monte, tourne, révèle. Le décrire en 3-5 mouvements :
+**Mode enquête.** L'arc est une **progression cognitive** : le lecteur entre avec une idée vague du sujet, et sort avec une compréhension systémique. Décrire la progression en 3-7 mouvements. Exemple de progression pour un sujet institutionnel : (1) qu'est-ce que c'est ? (2) que change-t-il ? (3) où fonctionne-t-il ? (4) pourquoi pas ici ? (5) qui paie le prix ? (6) que reste-t-il ? La progression réelle dépend du sujet et des dimensions du corpus. Le nombre de mouvements correspond au nombre de dimensions du sujet.
 
-1. **Setup** : le lecteur entre avec une hypothèse (laquelle ?).
-2. **Tension** : un fait la fragilise (lequel ?).
-3. **Révélation** : la thèse unique se dévoile (comment ?).
-4. **Conséquence** : que change cette révélation pour le lecteur ?
-5. **Question ouverte** : que reste-t-il en suspens ?
+### Q6. Que couper (essai) ou Comment orchestrer (enquête)
 
-Pas besoin d'avoir 5 mouvements. 3 suffisent si l'arc est tendu.
+**Mode essai.** Nommer les **5-10 quintessences essentielles** (celles sans lesquelles l'article s'effondre). Nommer explicitement **ce qui est coupé** et pourquoi. **Règle stricte : l'article final ne doit mobiliser que les quintessences nommées ici.** La coupe n'est pas une perte : c'est ce qui donne du relief à ce qui reste.
 
-### Q6. Que couper
+**Mode enquête.** Cartographier le corpus entier en trois niveaux :
+- **Quintessences-phares** (5-12) : celles qui portent une section dédiée.
+- **Quintessences-appui** (10-20) : celles qui fournissent un fait, une citation, un chiffre dans une section portée par une phare.
+- **Quintessences-contexte** (restantes) : celles mentionnées en transition, en note contextuelle, ou regroupées avec une phare.
 
-Nommer les **5-10 quintessences essentielles** (celles sans lesquelles l'article s'effondre). Nommer explicitement **ce qui est coupé** et pourquoi.
+L'orchestration n'inclut pas tout verbatim : elle **structure** tout. Chaque quintessence trouve sa place dans l'architecture. Aucune n'est ignorée, mais toutes ne reçoivent pas le même traitement.
 
-**Règle stricte : l'article final ne doit mobiliser que les quintessences nommées ici. Toute autre est coupée.** Si le corpus compte 43 fiches, l'article en utilise 5-10. Le reste est sacrifié.
-
-La coupe n'est pas une perte : c'est ce qui donne du relief à ce qui reste. Un article qui inclut 43 quintessences n'en choisit aucune.
-
-> Justifier chaque coupe en une phrase : « redondante avec fiche X », « hors-arc », « détail qui noie la thèse », « le rapport la couvre déjà en une ligne ».
+> Justifier chaque coupe (essai) ou chaque niveau (enquête) en une phrase.
 
 ### Q7. Les KO sentences
 
-Quelles sont les **5-7 phrases** qui frappent comme des coups ? Courtes (≤15 mots), définitives, inattendues. Le lecteur doit s'arrêter de lire pour les absorber.
+Quelles sont les **5-10 phrases** qui frappent comme des coups ? Courtes (≤15 mots), définitives, inattendues. Le lecteur doit s'arrêter de lire pour les absorber. Compter 1-2 KO sentences par section, adapté au nombre de sections.
 
 Les KO sentences ne sont pas des conclusions. Ce sont des **constats** qui retournent une assumption.
 
@@ -112,7 +125,7 @@ Les KO sentences ne sont pas des conclusions. Ce sont des **constats** qui retou
 
 ### Q8. La question ouverte
 
-Quelle question l'article laisse-t-il en suspens ? Pas une réponse — une **question qui habite** après la lecture.
+Quelle question l'article laisse-t-il en suspens ? Pas une réponse : une **question qui habite** après la lecture.
 
 L'article qui donne une réponse est oublié. L'article qui laisse une question est partagé.
 
@@ -136,21 +149,26 @@ Produire `investigations/<sujet>/_synthese/blueprint_narratif.md` avec 3 blocs :
 
 ### Bloc B — Plan article (arc narratif)
 
-Pour chaque section (§0 à §N, 5-7 sections max) :
+Pour chaque section (§0 à §N) :
+
+- **Mode essai** : 5-7 sections maximum.
+- **Mode enquête** : 6-12 sections. Chaque dimension du sujet peut recevoir sa section. Les sections peuvent être regroupées en parties (I, II, III) si le sujet s'y prête.
 
 ```
 §N — [titre de section, pas de numéro technique]
-      Rôle narratif : [setup / tension / révélation / conséquence / ouverture]
+      Rôle narratif : [setup / tension / révélation / conséquence / ouverture / dimension]
       Résumé : [2-3 phrases : ce que la section fait au lecteur]
       KO sentence : [1 phrase qui frappe]
-      Faits mobilisés : [3-5 F-## maximum]
-      Quintessences source : [1-3 noms]
+      Faits mobilisés : [3-8 F-##]
+      Quintessences source : [1-5 noms : phares et appui]
       À couper dans cette section : [ce qui pourrait tenter mais qu'il faut résister]
 ```
 
-Chaque section sert l'arc. Pas de section encyclopédique. Si une section n'avance pas la thèse unique, la couper.
+Chaque section sert l'arc. Pas de section encyclopédique qui ne sert pas la progression cognitive. Si une section n'avance pas la compréhension du sujet, la couper ou la fusionner.
 
-### Bloc C — Liste de coupe
+### Bloc C — Liste de coupe (essai) ou Cartographie du corpus (enquête)
+
+**Mode essai :**
 
 ```
 Quintessences coupées (avec raison) :
@@ -162,6 +180,22 @@ Quintessences gardées (avec rôle narratif) :
 - ...
 ```
 
+**Mode enquête :**
+
+```
+Quintessences-phares (section dédiée) :
+- fiche_X : [section destinée + rôle narratif]
+- ...
+
+Quintessences-appui (fait/citation dans section phare) :
+- fiche_X : [section d'appui + apport spécifique]
+- ...
+
+Quintessences-contexte (transition/note contextuelle) :
+- fiche_X : [mention contextuelle]
+- ...
+```
+
 ---
 
 ## Contraintes
@@ -170,7 +204,7 @@ Quintessences gardées (avec rôle narratif) :
 2. **Une thèse, pas cinq.** La thèse unique doit tenir en une phrase. Si elle ne tient pas, le raisonnement n'est pas terminé.
 3. **L'angle est un engagement.** Pas « forensique » (générique). Un angle spécifique qui contraint l'écriture.
 4. **L'arc n'est pas un plan.** Un plan liste. Un arc transforme. Le lecteur doit arriver ailleurs qu'il n'est parti.
-5. **La coupe est l'acte d'auteur.** Si tout est inclus, rien n'est choisi. Le blueprint doit nommer ce qui est sacrifié.
+5. **La coupe ou l'orchestration est l'acte d'auteur.** En mode essai : si tout est inclus, rien n'est choisi. En mode enquête : si tout est cité également, rien n'est approfondi. L'orchestration hiérarchise le traitement (phares, appui, contexte) sans ignorer aucune dimension.
 6. **Les KO sentences sont des constats, pas des jugements.** Pas d'imputation d'intention. Pas de pathos. Des faits retournés.
 7. **La question ouverte n'est pas une conclusion.** C'est une absence qui reste.
 8. **Zéro em-dash.** Utiliser « : », « - », parenthèses.
@@ -206,4 +240,4 @@ Le blueprint est présenté à l'utilisateur qui peut :
 
 ---
 
-**Fin du prompt Phase 2.5.** Volumétrie cible du blueprint : 800-1500 mots. Le blueprint est court par construction : il décide, il ne démontre pas. La démonstration est le travail de la Phase 3.
+**Fin du prompt Phase 2.5.** Volumétrie cible du blueprint : 800-1500 mots (mode essai) ou 1200-2500 mots (mode enquête, car la cartographie du corpus est plus volumineuse). Le blueprint décide et orchestre ; il ne démontre pas. La démonstration est le travail de la Phase 3.

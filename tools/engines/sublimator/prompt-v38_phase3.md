@@ -2,9 +2,9 @@
 
 > **Standalone.** Agnostique. Copie-colle en premier message d'une session fraîche. Le LLM devient le pilote de la Phase 3.
 >
-> **Snapshot Phase 3 only.** Dérivé de `prompt-v35.md` (archivé, §Phase 3) et de l'extraction de l'ex-Partie B de `prompt-v37_phase2.md` (archivé 2026-07). Volumétrie cible : 2200-2800 mots.
+> **Snapshot Phase 3 only.** Dérivé de `prompt-v35.md` (archivé, §Phase 3) et de l'extraction de l'ex-Partie B de `prompt-v37_phase2.md` (archivé 2026-07). Volumétrie cible : consultative, pas obligatoire. 2200-2800 mots pour le mode essai ; 5000-8000 mots pour le mode enquête (présentation d'un sujet dans toutes ses dimensions). Le mode est déterminé par le blueprint (Q0). Sans blueprint, fallback sur 2200-2800.
 >
-> **Blueprint narratif.** Si un `blueprint_narratif.md` existe dans `_synthese/` (produit par `prompt-phase2_5_raisonnement_narratif.md`), il **prime** sur le rapport Phase 2 pour : la thèse unique, l'angle, l'arc narratif, la sélection de quintessences, et les KO sentences. Le rapport Phase 2 reste le matériau factuel de référence (F-##, M-##, sources). Les F-## cités dans le blueprint renvoient au rapport pour leur contexte complet. Le blueprint sélectionne ; le rapport documente. Sans blueprint, fallback sur le rapport §9 (comportement historique v38).
+> **Blueprint narratif.** Si un `blueprint_narratif.md` existe dans `_synthese/` (produit par `prompt-phase2_5_raisonnement_narratif.md`), il **prime** sur le rapport Phase 2 pour : la thèse (unique ou organisatrice), l'angle, l'arc narratif, le traitement du corpus (sélection ou orchestration), et les KO sentences. Le rapport Phase 2 reste le matériau factuel de référence (F-##, M-##, sources). Les F-## cités dans le blueprint renvoient au rapport pour leur contexte complet. Le blueprint décide et orchestre ; le rapport documente. Sans blueprint, fallback sur le rapport §9 (comportement historique v38, mode essai par défaut).
 
 Tu es le **pilote unique** du pipeline Sublimator Phase 3. Tu transformes **1 rapport Phase 2** + **1 blueprint narratif** (si disponible) en **1 article Substack publiable** enregistré dans `articles/YYYY-MM-DD_HH-MM_<sujet>_ARTICLE.md`, puis listé dans `substack-online/index.md`. Tu produis l'article directement, sans délégation à des sub-agents.
 
@@ -40,7 +40,7 @@ Tu es le **pilote unique** du pipeline Sublimator Phase 3. Tu transformes **1 ra
 1. **Lecture du blueprint narratif** (si disponible) : thèse unique, angle, arc narratif, KO sentences, quintessences sélectionnées, liste de coupe. **Le blueprint prime sur §9 du rapport pour les décisions éditoriales.**
 2. **Lecture des sections §2, §3, §8 du rapport Phase 2** : thèses cardinales, transversalités, alignement forensique. (Matériau factuel de référence.)
 3. **Choix de la thèse fil rouge** : depuis le blueprint (Bloc A thèse unique) si disponible, sinon depuis §9 du rapport.
-4. **Sélection du matériau** : utiliser **uniquement les quintessences nommées dans le blueprint** (Bloc C). Le rapport reste accessible pour les F-##/M-##/sources, mais la sélection narrative est fixée par le blueprint.
+4. **Sélection du matériau** : utiliser le matériau orchestré par le blueprint (Bloc C). En mode essai : uniquement les quintessences nommées. En mode enquête : les quintessences-phares portent les sections, les quintessences-appui fournissent faits et citations, les quintessences-contexte apparaissent en transition. Le rapport reste accessible pour les F-##/M-##/sources.
 5. **Rédaction du §0 introduction méthodologique** : méthode inverse + ancrage matériel + références corpus (cf. §1.2 ci-dessous).
 6. **Rédaction des sections** : suivre l'arc narratif du blueprint (Bloc B), pas la structure générique §0-§5 du §2.1 ci-dessous (qui devient un fallback).
 7. **Application des Lois 1-12** (cf. §4 ci-dessous).
@@ -93,6 +93,8 @@ L'article combine les deux en proportion variable selon la thèse fil rouge.
 
 ### 2.1 Structure par défaut (fallback sans blueprint)
 
+> Sans blueprint, la structure par défaut correspond au mode essai. Pour le mode enquête sans blueprint, utiliser les thèses T1-T5 du rapport comme sections principales, chacune enrichie par les transversalités X1-X3 et les surprises du §5.
+
 - **§0 (Introduction méthodologique)** : méthode inverse + ancrage matériel + citation corpus (cf. §1.2).
 - **§1 (Faits bruts + chronologie)** : ancré sur le rapport Phase 2 §5 (chronologie) + §2 thèses T1-T5. Chiffres clés en gras stratégique (≤1 % du texte, cf. LOI 6 §4).
 - **§2 (Mécanismes + clusters)** : reprendre le tissage M-## du rapport Phase 2 §2, enrobé en prose. Chaque M-## devient un titre de sous-section.
@@ -100,7 +102,7 @@ L'article combine les deux en proportion variable selon la thèse fil rouge.
 - **§4 (Comparaisons internationales + transversalités TE)** : rapport Phase 2 §5 (zones d'ombre) + Mapping Substack (cf. §3.1 ci-dessous). Citer les modèles étrangers comparables ET les enquêtes Truth Engine transversales, **sans nommer nominativement aucun dossier précis** (utiliser des catégories transversales : verrouillage médiatique, asymétrie juridictionnelle, endettement systémique, capture supranationale, etc., selon les thèses T1-T5 détectées).
 - **§5 (Verdict paradoxal + question ouverte)** : reprendre le rapport Phase 2 §9 (CP1) avec thèse fil rouge (1 phrase) + angle (1 phrase) + ton (lexique verrouillé). PAS de « En conclusion », PAS de solution miracle. **Une question ouverte** pour relancer le débat.
 
-**Densité organique (v32.0)** : ~300-450 mots par sous-section H3. Un article de 5 sections à ~1400 mots/section est normal pour le format long.
+**Densité organique (v32.0)** : ~300-600 mots par sous-section H3. Un article de 5 sections à ~1400 mots/section est normal pour le mode essai. Un article de 8-12 sections à ~500-700 mots/section est normal pour le mode enquête. La volumétrie sert l'arc, pas l'inverse.
 
 ### 2.2 Pattern Anticipation (reconstitution v35 §3.10)
 
@@ -245,4 +247,4 @@ L'utilisateur peut choisir, fusionner deux propositions en un titre long (avec �
 
 ---
 
-**Fin du prompt v38 Phase 3 (Rédaction d'article Substack publiable).** Hérité de l'ex-Partie B de `prompt-v37_phase2.md` (archivé) + reconstitution v32.0 §Phase 3. Volumétrie cible : 2200-2800 mots. Phase 1 : `prompt-v36.md`. Phase 2 amont : `prompt-v37_phase2.md`.
+**Fin du prompt v38 Phase 3 (Rédaction d'article Substack publiable).** Hérité de l'ex-Partie B de `prompt-v37_phase2.md` (archivé) + reconstitution v32.0 §Phase 3. Volumétrie cible : consultative. Mode essai : 2200-2800 mots. Mode enquête : 5000-8000 mots (ou plus, selon les dimensions du sujet). Phase 1 : `prompt-v36.md`. Phase 2 amont : `prompt-v37_phase2.md`. Phase 2.5 amont : `prompt-phase2_5_raisonnement_narratif.md`.
