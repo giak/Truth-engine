@@ -1,6 +1,6 @@
 # INDEX — Investigations
 
-Registre de toutes les investigations, organisées par thème. **169 dossiers**, **0 fichier à la racine.**
+Registre de toutes les investigations, organisées par thème. **230 dossiers**, **0 fichier à la racine.**
 
 Légende : `📁 dossier/ (N fichiers)`
 
@@ -43,6 +43,67 @@ Légende : `📁 dossier/ (N fichiers)`
 | [📁 2026-05-23-macron-systeme-complet](2026-05/2026-05-23-macron-systeme-complet/) | 33 | Macron : système complet, commission européenne, BCE, évasion fiscale, justice |
 | [📁 2026-05-27-gaspillage-etat](2026-05/2026-05-27-gaspillage-etat/) | 11 | Gaspillage de l'État, comités Théodule, millefeuille territorial, Sénat |
 | [📁 2026-05-19-opposition-controlee](2026-05/2026-05-19-opposition-controlee/) | 76 | Opposition contrôlée : enquête complète + assemblages |
+| [📁 2026-06-03_sumer_article](2026-06/2026-06-03_sumer_article/) | 45 | Sumer vs France, Rome vs France, Chine vs France — enquêtes civilisationnelles |
+| [📁 2026-06-05_emeutes-psg-2026](2026-06/2026-06-05_emeutes-psg-2026/) | 21 | Émeutes PSG 2026 : sociologie, médias, récupération politique |
+| [📁 2026-06-07_civilisations_manquantes](2026-06/2026-06-07_civilisations_manquantes/) | 9 | Civilisations manquantes : Inde, Chine, Afrique — angles morts épistémiques |
+| [📁 2026-06-08-justice-francaise-echec](2026-06/2026-06-08-justice-francaise-echec/) | 8 | Justice française : échec systémique, 0,20 % PIB, 86 000 détenus |
+| [📁 2026-06-10_action_acephalique_manquante](2026-06/2026-06-10_action_acephalique_manquante/) | 3 | Coordination : action acéphalique manquante |
+| [📁 2026-06-10_analyse_defaite_guerilla](2026-06/2026-06-10_analyse_defaite_guerilla/) | 2 | Coordination : analyse de la défaite de la guérilla |
+| [📁 2026-06-10_audit_general_senior](2026-06/2026-06-10_audit_general_senior/) | 3 | Coordination : audit général senior |
+| [📁 2026-06-10_droit_compare_benelux_coordination](2026-06/2026-06-10_droit_compare_benelux_coordination/) | 1 | Coordination : droit comparé Benelux |
+| [📁 2026-06-10_financement_coordination](2026-06/2026-06-10_financement_coordination/) | 1 | Coordination : financement |
+| [📁 2026-06-10_fresque_systemique_oligarchie](2026-06/2026-06-10_fresque_systemique_oligarchie/) | 2 | Coordination : fresque systémique oligarchie |
+| [📁 2026-06-10_leadership_acephalique](2026-06/2026-06-10_leadership_acephalique/) | 1 | Coordination : leadership acéphalique |
+| [📁 2026-06-10_modele_non_escalade_france](2026-06/2026-06-10_modele_non_escalade_france/) | 1 | Coordination : modèle non-escalade France |
+| [📁 2026-06-10_puits_de_droit_concret](2026-06/2026-06-10_puits_de_droit_concret/) | 1 | Coordination : puits de droit concret |
+| [📁 2026-06-10_risque_juridique_coordination](2026-06/2026-06-10_risque_juridique_coordination/) | 1 | Coordination : risque juridique |
+| [📁 2026-06-10_solutions_financement_invisible](2026-06/2026-06-10_solutions_financement_invisible/) | 1 | Coordination : solutions financement invisible |
+| [📁 2026-06-10_solutions_succession](2026-06/2026-06-10_solutions_succession/) | 1 | Coordination : solutions succession |
+| [📁 2026-06-10_verrou_coordination_guerilla](2026-06/2026-06-10_verrou_coordination_guerilla/) | 6 | Coordination : verrou coordination guérilla |
+| [📁 2026-06-11_addendum_defeat_v2](2026-06/2026-06-11_addendum_defeat_v2/) | 1 | Coordination : addendum defeat v2 |
+| [📁 2026-06-11_biais_classe_corpus](2026-06/2026-06-11_biais_classe_corpus/) | 1 | Coordination : biais de classe du corpus |
+| [📁 2026-06-11_biais_race_genre_corpus](2026-06/2026-06-11_biais_race_genre_corpus/) | 1 | Coordination : biais race/genre du corpus |
+| [📁 2026-06-11_design_validation_empirique](2026-06/2026-06-11_design_validation_empirique/) | 1 | Coordination : design validation empirique |
+| [📁 2026-06-11_etat_fragile_france](2026-06/2026-06-11_etat_fragile_france/) | 1 | Coordination : État fragile France |
+| [📁 2026-06-11_mouvements_non_occidentaux](2026-06/2026-06-11_mouvements_non_occidentaux/) | 1 | Coordination : mouvements non-occidentaux |
+| [📁 2026-06-11_narratif_opinion_publique](2026-06/2026-06-11_narratif_opinion_publique/) | 1 | Coordination : narratif opinion publique |
+| [📁 2026-06-11_police_maintien_ordre_france](2026-06/2026-06-11_police_maintien_ordre_france/) | 1 | Coordination : police maintien de l'ordre |
+| [📁 2026-06-11_projet_politique_coordination](2026-06/2026-06-11_projet_politique_coordination/) | 1 | Coordination : projet politique |
+| [📁 2026-06-11_protocole_sourcage](2026-06/2026-06-11_protocole_sourcage/) | 1 | Coordination : protocole sourçage |
+| [📁 2026-06-11_psychologie_militante_coordination](2026-06/2026-06-11_psychologie_militante_coordination/) | 1 | Coordination : psychologie militante |
+| [📁 2026-06-11_violence_intermediaire_coordination](2026-06/2026-06-11_violence_intermediaire_coordination/) | 1 | Coordination : violence intermédiaire |
+| [📁 2026-06-12_p1_limite_non_violence](2026-06/2026-06-12_p1_limite_non_violence/) | 1 | Coordination P1 : limite non-violence |
+| [📁 2026-06-12_p1_obsolescence_ia](2026-06/2026-06-12_p1_obsolescence_ia/) | 1 | Coordination P1 : obsolescence IA |
+| [📁 2026-06-12_p1_red_teaming_acephale](2026-06/2026-06-12_p1_red_teaming_acephale/) | 2 | Coordination P1 : red teaming acéphale |
+| [📁 2026-06-12_p2_classes_populaires](2026-06/2026-06-12_p2_classes_populaires/) | 2 | Coordination P2 : classes populaires |
+| [📁 2026-06-12_p2_regimes_autoritaires](2026-06/2026-06-12_p2_regimes_autoritaires/) | 1 | Coordination P2 : régimes autoritaires |
+| [📁 2026-06-12_p2_scaling_dunbar](2026-06/2026-06-12_p2_scaling_dunbar/) | 1 | Coordination P2 : scaling Dunbar |
+| [📁 2026-06-12_p2_succes_sous_marins](2026-06/2026-06-12_p2_succes_sous_marins/) | 1 | Coordination P2 : succès sous-marins |
+| [📁 2026-06-12_p2_topologie_leaderless](2026-06/2026-06-12_p2_topologie_leaderless/) | 1 | Coordination P2 : topologie leaderless |
+| [📁 2026-06-12_p3_abstraction_gramsci](2026-06/2026-06-12_p3_abstraction_gramsci/) | 1 | Coordination P3 : abstraction Gramsci |
+| [📁 2026-06-12_p3_agilite_fragilite](2026-06/2026-06-12_p3_agilite_fragilite/) | 1 | Coordination P3 : agilité/fragilité |
+| [📁 2026-06-12_p3_censure_ops](2026-06/2026-06-12_p3_censure_ops/) | 1 | Coordination P3 : censure ops |
+| [📁 2026-06-12_p3_dedoublement_opsec](2026-06/2026-06-12_p3_dedoublement_opsec/) | 3 | Coordination P3 : dédoublement OPSEC |
+| [📁 2026-06-12_p3_repression_differentielle](2026-06/2026-06-12_p3_repression_differentielle/) | 1 | Coordination P3 : répression différentielle |
+| [📁 2026-06-12_sub_attrition_financiere](2026-06/2026-06-12_sub_attrition_financiere/) | 1 | Coordination : attrition financière |
+| [📁 2026-06-12_sub_criminalisation_intention](2026-06/2026-06-12_sub_criminalisation_intention/) | 1 | Coordination : criminalisation intention |
+| [📁 2026-06-12_sub_dependance_numerique](2026-06/2026-06-12_sub_dependance_numerique/) | 1 | Coordination : dépendance numérique |
+| [📁 2026-06-12_sub_economie_coordination](2026-06/2026-06-12_sub_economie_coordination/) | 1 | Coordination : économie coordination |
+| [📁 2026-06-12_sub_friction_violente](2026-06/2026-06-12_sub_friction_violente/) | 1 | Coordination : friction violente |
+| [📁 2026-06-12_sub_infiltration_systemique](2026-06/2026-06-12_sub_infiltration_systemique/) | 1 | Coordination : infiltration systémique |
+| [📁 2026-06-12_sub_killswitch_cloud](2026-06/2026-06-12_sub_killswitch_cloud/) | 1 | Coordination : killswitch cloud |
+| [📁 2026-06-12_sub_theorie_victoire](2026-06/2026-06-12_sub_theorie_victoire/) | 1 | Coordination : théorie victoire |
+| [📁 2026-06-12_synthese_coordination_acephale](2026-06/2026-06-12_synthese_coordination_acephale/) | 1 | Coordination : synthèse acéphale |
+| [📁 2026-06-13_11-16_synthese_boycott_arme_economique](2026-06/2026-06-13_11-16_synthese_boycott_arme_economique/) | 2 | Boycott : synthèse arme économique |
+| [📁 2026-06-13_boycott_arme_economique_v2](2026-06/2026-06-13_boycott_arme_economique_v2/) | 1 | Boycott : arme économique v2 |
+| [📁 2026-06-13_boycott_wave_usa](2026-06/2026-06-13_boycott_wave_usa/) | 1 | Boycott : vague USA |
+| [📁 2026-06-13_gilets_jaunes_v1_v2](2026-06/2026-06-13_gilets_jaunes_v1_v2/) | 1 | Boycott : Gilets Jaunes v1/v2 |
+| [📁 2026-06-13_saturation_boycott](2026-06/2026-06-13_saturation_boycott/) | 1 | Boycott : saturation |
+| [📁 2026-06-17_12-30_numerique-public-francais](2026-06/2026-06-17_12-30_numerique-public-francais/) | 19 | Numérique public français : DINUM, cloud souverain, dépendance |
+| [📁 2026-06-19-performativite-gouvernance](2026-06/2026-06-19-performativite-gouvernance/) | 25 | Performativité de la gouvernance : indicateurs, métriques, illusion |
+| [📁 2026-06-25_fresque_systemique](2026-06/2026-06-25_fresque_systemique/) | 980 | Fresque systémique : méta-enquête complète, 980 fichiers |
+| [📁 2026-06-27_12-30_clichy-fuite-eau-desinformation](2026-06/2026-06-27_12-30_clichy-fuite-eau-desinformation/) | 3 | Clichy : fuite d'eau, désinformation, médias |
+| [📁 2026-06-28_16-03_debat-bfm-ukraine-russie](2026-06/2026-06-28_16-03_debat-bfm-ukraine-russie/) | 83 | Débat BFM Ukraine-Russie : fact-checking complet, 83 fichiers |
 | [📁 2026-07-08_pyromane-pompier](2026-07/2026-07-08_pyromane-pompier/) | 1 | PYROMANE-POMPIER : 8 cas où celui qui crée le problème vend la solution |
 | [📁 2026-07-08_depopulation](2026-07/2026-07-08_depopulation/) | 1 | DÉPOPULATION : anatomie de l'extinction démographique française |
 | [📁 2026-07-09_narcotrafic](2026-07/2026-07-09_narcotrafic/) | 1 | NARCOTRAFIC : 5-7 Md€/an, 84,3 t cocaïne saisies, DZ Mafia, loi 13 juin 2025 |
@@ -175,7 +236,7 @@ Légende : `📁 dossier/ (N fichiers)`
 
 | Métrique | Valeur |
 |----------|--------|
-| Dossiers projets | 169 |
+| Dossiers projets | 230 |
 | Fichiers à la racine (hors INDEX) | **0** ✅ |
-| Fichiers organisés | 2 489 |
+| Fichiers organisés | 3 750 |
 | Période couverte | Février — Juillet 2026 |
