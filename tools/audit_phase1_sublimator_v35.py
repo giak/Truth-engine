@@ -1,7 +1,7 @@
 """
 Audit automatisé Phase 1 Sublimator (prompt-v35.md) sur n=42 quintessences.
 
-Périmètre : investigations/2026-07-04-RIC/_quintessence/
+Périmètre : investigations/2026-07/2026-07-04-RIC/_quintessence/
 Méthodologie : 6 critères objectifs automatisables (C1, C2, C5, C6, C7, C10) +
   C3 NEUTRALISÉ (cf. note scope ci-dessous) +
   Delta Source-Quintessence (v2026-07-08, contrôle d'intégrité F-##, informatif).
@@ -67,7 +67,7 @@ SECTION_9_VARIANTS = [
 
 EM_DASH_BYTES = b"\xe2\x80\x94"
 
-DEFAULT_QUINTESSENCE_DIR = Path("investigations/2026-07-04-RIC/_quintessence")
+DEFAULT_QUINTESSENCE_DIR = Path("investigations/2026-07/2026-07-04-RIC/_quintessence")
 
 
 @dataclass
@@ -208,7 +208,7 @@ def extract_quintessence_source_path(text: str) -> Path | None:
     Retourne le Path absolu résolu, ou None si non trouvé.
 
     Le "source_rel" est déjà un chemin relatif à la racine du projet
-    (ex. "investigations/2026-07-04-RIC/.../foo_INVESTIGATION.md").
+    (ex. "investigations/2026-07/2026-07-04-RIC/.../foo_INVESTIGATION.md").
     On utilise "Path(source_rel).resolve()" pour le résoudre à partir du CWD
     (qui est la racine du projet lors de l'exécution de l'audit).
     """

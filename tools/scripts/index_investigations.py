@@ -4,19 +4,19 @@ import os, json, subprocess, sys, time
 
 BASE = "/home/giak/projects/truth-engine"
 DIRS = [
-    "investigations/2026-06-10_action_acephalique_manquante",
-    "investigations/2026-06-10_analyse_defaite_guerilla",
-    "investigations/2026-06-10_audit_general_senior",
-    "investigations/2026-06-10_droit_compare_benelux_coordination",
-    "investigations/2026-06-10_financement_coordination",
-    "investigations/2026-06-10_fresque_systemique_oligarchie",
-    "investigations/2026-06-10_leadership_acephalique",
-    "investigations/2026-06-10_modele_non_escalade_france",
-    "investigations/2026-06-10_puits_de_droit_concret",
-    "investigations/2026-06-10_risque_juridique_coordination",
-    "investigations/2026-06-10_solutions_financement_invisible",
-    "investigations/2026-06-10_solutions_succession",
-    "investigations/2026-06-10_verrou_coordination_guerilla",
+    "investigations/2026-06/2026-06-10_action_acephalique_manquante",
+    "investigations/2026-06/2026-06-10_analyse_defaite_guerilla",
+    "investigations/2026-06/2026-06-10_audit_general_senior",
+    "investigations/2026-06/2026-06-10_droit_compare_benelux_coordination",
+    "investigations/2026-06/2026-06-10_financement_coordination",
+    "investigations/2026-06/2026-06-10_fresque_systemique_oligarchie",
+    "investigations/2026-06/2026-06-10_leadership_acephalique",
+    "investigations/2026-06/2026-06-10_modele_non_escalade_france",
+    "investigations/2026-06/2026-06-10_puits_de_droit_concret",
+    "investigations/2026-06/2026-06-10_risque_juridique_coordination",
+    "investigations/2026-06/2026-06-10_solutions_financement_invisible",
+    "investigations/2026-06/2026-06-10_solutions_succession",
+    "investigations/2026-06/2026-06-10_verrou_coordination_guerilla",
 ]
 
 MCP_URL = "http://localhost:8002/mcp"

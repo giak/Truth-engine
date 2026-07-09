@@ -19,9 +19,9 @@ PROJECT_ROOT = "/home/giak/projects/truth-engine"
 
 def load_yamls():
     patterns = [
-        "investigations/2026-06-10_*/_quintessence/*_quintessence.yaml",
-        "investigations/2026-06-11_*/_quintessence/*_quintessence.yaml",
-        "investigations/2026-06-12_*/_quintessence/*_quintessence.yaml",
+        "investigations/2026-06/2026-06-10_*/_quintessence/*_quintessence.yaml",
+        "investigations/2026-06/2026-06-11_*/_quintessence/*_quintessence.yaml",
+        "investigations/2026-06/2026-06-12_*/_quintessence/*_quintessence.yaml",
     ]
     files = []
     for p in patterns:

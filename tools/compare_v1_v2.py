@@ -8,7 +8,7 @@ import statistics
 # Audit v1 (dossier _quintessence/ original)
 v1 = subprocess.run(
     ['python3', 'tools/audit_phase1_sublimator_v35.py', 'json',
-     '-d', 'investigations/2026-07-04-RIC/_quintessence'],
+     '-d', 'investigations/2026-07/2026-07-04-RIC/_quintessence'],
     capture_output=True, text=True,
     cwd='/home/giak/projects/truth-engine',
 )
@@ -17,7 +17,7 @@ d1 = json.loads(v1.stdout)
 # Audit v2 (dossier _quintessence_v2/)
 v2 = subprocess.run(
     ['python3', 'tools/audit_phase1_sublimator_v35.py', 'json',
-     '-d', 'investigations/2026-07-04-RIC/_quintessence_v2'],
+     '-d', 'investigations/2026-07/2026-07-04-RIC/_quintessence_v2'],
     capture_output=True, text=True,
     cwd='/home/giak/projects/truth-engine',
 )

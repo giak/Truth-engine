@@ -91,7 +91,7 @@ def fix_tchernobyl(filepath, write_mode=False):
 def main():
     write_mode = "--write" in sys.argv
     
-    filepath = "investigations/2026-06-25_fresque_systemique/02_enquetes/2026-06-26_tchernobyl_bascule_INVESTIGATION.md"
+    filepath = "investigations/2026-06/2026-06-25_fresque_systemique/02_enquetes/2026-06-26_tchernobyl_bascule_INVESTIGATION.md"
     
     print("Fix Tchernobyl — suppression cross_reference scriptees (apres manifestation)")
     print(f"Mode: {'ECRITURE' if write_mode else 'DRY-RUN'}\n")

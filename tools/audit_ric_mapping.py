@@ -30,7 +30,7 @@ Usage :
     python tools/audit_ric_mapping.py coverage
     python tools/audit_ric_mapping.py audit
     python tools/audit_ric_mapping.py full
-    python tools/audit_ric_mapping.py -d investigations/2026-07-04-RIC audit
+    python tools/audit_ric_mapping.py -d investigations/2026-07/2026-07-04-RIC audit
 
 Exit code : 0 si 42/42 conformes, 1 sinon.
 """
@@ -49,7 +49,7 @@ from typing import Optional
 # ============================================================
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_DOSSIER = PROJECT_ROOT / "investigations" / "2026-07-04-RIC"
+DEFAULT_DOSSIER = PROJECT_ROOT / "investigations" / "2026-07" / "2026-07-04-RIC"
 DEFAULT_INVESTIGATION_DIR = DEFAULT_DOSSIER
 DEFAULT_QUINTESSENCE_DIR = DEFAULT_DOSSIER / "_quintessence"
 
