@@ -1,6 +1,6 @@
 # INDEX — Investigations
 
-Registre de toutes les investigations, organisées par thème. **230 dossiers**, **0 fichier à la racine.**
+Registre de toutes les investigations, organisées par thème. **237 dossiers**, **0 fichier à la racine.**
 
 Légende : `📁 dossier/ (N fichiers)`
 
@@ -146,6 +146,13 @@ Légende : `📁 dossier/ (N fichiers)`
 | [📁 2026-07-09_tabac-alcool](2026-07/2026-07-09_tabac-alcool/) | 1 | TABAC/ALCOOL : 114 000 morts/an, 20 Md€ taxes, lobbies verrouillent |
 | [📁 2026-07-09_jeux-argent](2026-07/2026-07-09_jeux-argent/) | 1 | JEUX D'ARGENT : 14 Md€ PBJ, FDJ privatisée, impôt déguisé sur pauvres |
 | [📁 2026-07-09_art-culture](2026-07/2026-07-09_art-culture/) | 1 | ART/CULTURE : 12,5 Md€ public, 58 % cadres vs 31 % ouvriers musées |
+| [📁 2026-07-04-RIC](2026-07/2026-07-04-RIC/) | 140 | RIC Saison 2 : 42 quintessences, audits, protocoles, solutions démocratiques |
+| [📁 2026-07-08_budget-reel-police](2026-07/2026-07-08_budget-reel-police/) | 2 | Police : budget réel, coûts cachés, comparaison internationale |
+| [📁 2026-07-08_contrats-industriels-police](2026-07/2026-07-08_contrats-industriels-police/) | 2 | Police : contrats industriels, matériel, fournisseurs |
+| [📁 2026-07-08_DGSI-renseignement-interieur](2026-07/2026-07-08_DGSI-renseignement-interieur/) | 2 | DGSI : renseignement intérieur, surveillance, cadre légal |
+| [📁 2026-07-08_IDEMIA-biometrie](2026-07/2026-07-08_IDEMIA-biometrie/) | 1 | IDEMIA : biométrie, reconnaissance faciale, sécurité |
+| [📁 2026-07-08_police-francaise](2026-07/2026-07-08_police-francaise/) | 8 | Police française : anatomie, effectifs, doctrine, réformes |
+| [📁 2026-07-08_syndicats-police](2026-07/2026-07-08_syndicats-police/) | 2 | Police : syndicats, influence politique, poids médiatique |
 
 ## 4. GÉOPOLITIQUE HISTORIQUE
 
@@ -236,7 +243,7 @@ Légende : `📁 dossier/ (N fichiers)`
 
 | Métrique | Valeur |
 |----------|--------|
-| Dossiers projets | 230 |
+| Dossiers projets | 237 |
 | Fichiers à la racine (hors INDEX) | **0** ✅ |
-| Fichiers organisés | 3 750 |
+| Fichiers organisés | 3 907 |
 | Période couverte | Février — Juillet 2026 |
