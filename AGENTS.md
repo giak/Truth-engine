@@ -89,7 +89,30 @@ Lors de la rédaction d'articles ou de textes en français, tu dois incarner un 
 
 ## Méthodologie d'Investigation
 
-Voir `KERNEL.md` pour le protocole d'enquête.
+### 🔴 RÈGLE ABSOLUE : Toute investigation lance KERNEL.md
+
+**Quand l'utilisateur demande une « enquête », « investigation », ou « KERNEL APEX » :**
+
+1. **Lire immédiatement** `truth-engine-v2/KERNEL.md` — c'est le pipeline complet, pas un template de sortie
+2. **Exécuter le pipeline séquentiellement** : §0 TEXT_ANALYSIS → CRÉDO → PELOTE → FACT_REGISTRY → GATE_CHECK
+3. **Ne pas sauter d'étapes.** Le §0 (BIAS TEST, 15 symboles scorés) est obligatoire. Le step 11 (PELOTE causalité @WEB) est le cœur de l'enquête
+4. **Les URLs du FACT_REGISTRY doivent être des pages spécifiques cliquables**, pas des noms de domaine (« CDC, rapport annuel » = INTERDIT)
+5. **Le timestamp dans le nom de fichier est l'horodatage réel de création :** `YYYY-MM-DD_HH-MM` = date et heure effectives au moment de l'écriture du fichier, fuseau CEST (UTC+2). Jamais de date/heure inventée.
+
+**Les fichiers produits avant cette règle (horodatés du 2026-07-09) sont invalides :** ils n'ont pas suivi le pipeline KERNEL. Ils doivent être régénérés avec le protocole complet avant toute utilisation.
+
+- **Format obligatoire pour toute investigation :**
+- `investigations/YYYY-MM/YYYY-MM-DD_<sujet>/YYYY-MM-DD_HH-MM_<sujet>_INVESTIGATION.md`
+- `YYYY-MM-DD_HH-MM` = horodatage réel de création du fichier (date et heure effectives au moment de l'écriture, CEST UTC+2), jamais de valeur inventée
+- Le dossier `investigations/` est organisé hiérarchiquement : `investigations/YYYY-MM/YYYY-MM-DD_<sujet>/`. Le fichier KERNEL.md définit le pipeline, les sections de sortie dépendent de la complexité (SIMPLE/MEDIUM/COMPLEX/APEX).
+
+**Anti-patterns interdits :**
+- ❌ Remplir un template de 15 sections sans exécuter le pipeline
+- ❌ Inventer des chaînes causales sans @WEB PELOTE
+- ❌ Utiliser « CDC, rapport annuel » comme URL (doit être une URL cliquable)
+- ❌ Sauter le BIAS TEST (§0)
+- ❌ Scorer <15 symboles (les 15 doivent être scorés)
+- ❌ Inventer des dates/heures (utiliser la date et l'heure réelles CEST)
 
 ---
 

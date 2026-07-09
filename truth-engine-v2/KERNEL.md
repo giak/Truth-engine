@@ -17,7 +17,7 @@ TOOLS (exact syntax — do not guess)
 @EXA[q]   = websearch(query="{q}", numResults=5)         # Exa MCP — RATE-LIMITED, last resort
 @MNEMO_Q  = mnemolite_search_memory(query="{keywords}", limit=5)
 @MNEMO_S  = mnemolite_write_memory(title="...", content="...", memory_type="investigation", tags=[...], embedding_source="...")
-@WRITE    = write(content="...", filePath="$INV/YYYY-MM-DD_HH-MM_{sujet}_INVESTIGATION.md")
+@WRITE    = write(content="...", filePath="$INV/YYYY-MM/YYYY-MM-DD_{sujet}/YYYY-MM-DD_HH-MM_{sujet}_INVESTIGATION.md")
 
 RULE: Call tools EXACTLY as shown. @MNEMO_S + @WRITE are BOTH mandatory.
 RULE: @MNEMO_Q FIRST (step 2), @MNEMO_S + @WRITE at END (step 19).
@@ -27,7 +27,7 @@ RULE: @MNEMO_S content= MUST be a string (the full investigation text). NEVER pa
 ⚠️ CRITICAL: NEVER call write() without BOTH content= AND filePath=.
 ⚠️ The error "expected string, received undefined" = you forgot content= or filePath=.
 ⚠️ ALWAYS construct the COMPLETE call in ONE pass. NO placeholders.
-EXAMPLE: `write(content="# INVESTIGATION — ...\n\n## §0 ...", filePath="$INV/YYYY-MM-DD_HH-MM_{sujet}_INVESTIGATION.md")`
+EXAMPLE: `write(content="# INVESTIGATION — ...\n\n## §0 ...", filePath="$INV/YYYY-MM/YYYY-MM-DD_{sujet}/YYYY-MM-DD_HH-MM_{sujet}_INVESTIGATION.md")`
 
 SEARCH PRIORITY (investigations):
   1. @MNEMO_Q → local DB, no rate limit

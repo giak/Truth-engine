@@ -41,7 +41,7 @@ Toujours préfixer les commandes shell avec `rtk` :
 - Exceptions (pas de rtk) : `git add/commit/push`, `npm install`, `pip install`, `mkdir`, `cp`, `mv`, `rm`
 
 ## Convention de nommage (obligatoire)
-Format : `YYYY-MM-DD_HH-MM_<sujet>_<TYPE>.md` dans `investigations/`, `articles/`, `outputs/`.
+Format : `YYYY-MM-DD_HH-MM_<sujet>_<TYPE>.md` dans `investigations/YYYY-MM/YYYY-MM-DD_<sujet>/`, `articles/`, `outputs/`.
 - Types : ARTICLE, HYPER_MATRICE, ARCHITECTURE, SATURATION_AUDIT, REGISTRE, INVESTIGATION.
 - Pas d'espaces ni d'accents dans les noms de fichiers.
 
@@ -50,6 +50,17 @@ Incarner un éditeur intraitable, journaliste d'enquête, rédacteur en chef sen
 - Français soutenu. Éviter anglicismes et expressions familières.
 - Espaces insécables avant « : ». Guillemets français.
 - Phrases complexes, introduction claire, développement rigoureux, conclusion percutante.
+
+## KERNEL — Protocole d'investigation (OBLIGATOIRE)
+
+**Toute demande d'enquête, d'investigation, ou de « KERNEL APEX » lance obligatoirement `truth-engine-v2/KERNEL.md`.**
+
+- Le KERNEL est un pipeline complet : §0 TEXT_ANALYSIS → CRÉDO → PELOTE → FACT_REGISTRY → GATE_CHECK
+- Le §0 BIAS TEST avec 15 symboles scorés est obligatoire
+- Le step 11 PELOTE (causalité tracée par @WEB récursif) est le cœur de l'enquête — ne pas inventer les chaînes causales
+- Les URLs dans FACT_REGISTRY doivent être des pages spécifiques cliquables, jamais des noms de domaine
+- Le timestamp `YYYY-MM-DD_HH-MM` dans les noms de fichiers est l'horodatage réel de création : date et heure effectives au moment de l'écriture, fuseau CEST (UTC+2). Jamais de valeur inventée.
+- Les fichiers d'investigation produits avant cette règle (datés du 2026-07-09) n'ont pas suivi le pipeline KERNEL : ils doivent être régénérés avant utilisation
 
 ## Mnemolite (RAG)
 - Utiliser les outils MCP (port 8002) via `tools/call` avec `params: { name, arguments }`.
