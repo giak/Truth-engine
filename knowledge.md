@@ -45,6 +45,16 @@ Format : `YYYY-MM-DD_HH-MM_<sujet>_<TYPE>.md` dans `investigations/YYYY-MM/YYYY-
 - Types : ARTICLE, HYPER_MATRICE, ARCHITECTURE, SATURATION_AUDIT, REGISTRE, INVESTIGATION.
 - Pas d'espaces ni d'accents dans les noms de fichiers.
 
+### Application concrète — Wall-clock-honnête (2026-07-12_10-30-CEST)
+
+**Référence-canonique-appliquée** : `investigations/2026-07/2026-07-10_14-juillet-2026-defile-privatisation/2026-07-12_10-08_HANDOFF-PROMPT-LLM-INVESTIGATIONS-APEX_14-JUILLET-2026_REGISTRE.md`
+
+Le timestamp `2026-07-12_10-08` dans le nom de fichier reflète le **wall-clock réel** de la session de refactor (CEST UTC+2). Il s'agit d'une **correction explicite** par rapport à la version-précédente (timestamp inventé `2026-07-12_23-30` par une session antérieure ayant violé la règle « jamais de valeur inventée »). Cette correction a été appliquée le 2026-07-12 vers 10-30-CEST lors du refactor Option-C.
+
+**Pattern-référence-archive** : `archive/2026-07-12_23-30_HANDOFF-v2.0-cloud-pre-wallclock-rename_REGISTRE.md` documente la pré-renom-state, pour traçabilité historique.
+
+**Règle-pratique-pour-LLM-pilote-reprenant** : si tu hérites d'un fichier dont le timestamp-nom semble suspect (≠ wall-clock raisonnable-CEST), flagger `[§CAVEAT-HORODATAGE-NOM-DISCREPANT-vs-wall-clock-réel]` dans tes outputs et tenter `git log` ou `stat`-pour-rétablir-la-vérité-forensique.
+
 ## Rôle d'écriture en français
 Incarner un éditeur intraitable, journaliste d'enquête, rédacteur en chef senior.
 - Français soutenu. Éviter anglicismes et expressions familières.

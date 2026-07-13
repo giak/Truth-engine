@@ -1,6 +1,6 @@
 # INDEX — Investigations
 
-Registre de toutes les investigations, organisées par thème. **237 dossiers**, **0 fichier à la racine.**
+Registre de toutes les investigations, organisées par thème. **261 dossiers**, **0 fichier à la racine.**
 
 Légende : `📁 dossier/ (N fichiers)`
 
@@ -122,6 +122,7 @@ Légende : `📁 dossier/ (N fichiers)`
 | [📁 2026-07-09_corps-prefectoral](2026-07/2026-07-09_corps-prefectoral/) | 1 | PRÉFETS : psychopathologie du sous-préfet, banalité du mal 2.0 |
 | [📁 2026-07-09_telecom-oligopole](2026-07/2026-07-09_telecom-oligopole/) | 1 | TELECOM : oligopole Free/Orange/Bouygues/SFR, 38,1 Md€ CA, conflits Niel/Drahi |
 | [📁 2026-07-09_sport-psg](2026-07/2026-07-09_sport-psg/) | 1 | SPORT/PSG : Qatar, JO 2024 6,65 Md€, FIFA corruption, droits TV DAZN |
+| [📁 2026-07-09_agriculture-intensive](2026-07/2026-07-09_agriculture-intensive/) | 1 | AGRICULTURE INTENSIVE : FNSEA co-gestion, pesticides 90 % cours d'eau, CAP 9-10 Md€/an, Ecophyto suspendu |
 | [📁 2026-07-09_alimentation](2026-07/2026-07-09_alimentation/) | 1 | ALIMENTATION : Nestlé/Danone/Lactalis, 70 % ultra-transformés, obésité 17 %, scandales |
 | [📁 2026-07-09_grande-distribution](2026-07/2026-07-09_grande-distribution/) | 1 | GRANDE DISTRIBUTION : Carrefour, Leclerc, Casino — oligopole à 6, centrales achat étrangères |
 | [📁 2026-07-09_defense](2026-07/2026-07-09_defense/) | 1 | DÉFENSE : complexe militaro-industriel, Dassault/Le Figaro, export Rafale 30 Md€ |
@@ -146,7 +147,20 @@ Légende : `📁 dossier/ (N fichiers)`
 | [📁 2026-07-09_tabac-alcool](2026-07/2026-07-09_tabac-alcool/) | 1 | TABAC/ALCOOL : 114 000 morts/an, 20 Md€ taxes, lobbies verrouillent |
 | [📁 2026-07-09_jeux-argent](2026-07/2026-07-09_jeux-argent/) | 1 | JEUX D'ARGENT : 14 Md€ PBJ, FDJ privatisée, impôt déguisé sur pauvres |
 | [📁 2026-07-09_art-culture](2026-07/2026-07-09_art-culture/) | 1 | ART/CULTURE : 12,5 Md€ public, 58 % cadres vs 31 % ouvriers musées |
-| [📁 2026-07-04-RIC](2026-07/2026-07-04-RIC/) | 140 | RIC Saison 2 : 42 quintessences, audits, protocoles, solutions démocratiques |
+| [📁 2026-07-09_nucleaire-edf](2026-07/2026-07-09_nucleaire-edf/) | 1 | NUCLÉAIRE/EDF : monopole, dette 51,5 Md€, Flamanville 23,7 Md€, capture ASNR |
+| [📁 2026-07-09_petrole-totalenergies](2026-07/2026-07-09_petrole-totalenergies/) | 1 | PÉTROLE/TOTALENERGIES : greenwashing condamné, 75 % CAPEX fossile, CDC actionnaire |
+| [📁 2026-07-09_climat-politique-environnementale](2026-07/2026-07-09_climat-politique-environnementale/) | 1 | CLIMAT : capture politique, 15 Md€ subventions fossiles, Convention Citoyenne 20 % appliquée |
+| [📁 2026-07-09_justice-systeme-judiciaire](2026-07/2026-07-09_justice-systeme-judiciaire/) | 1 | JUSTICE : 0,20 % PIB, 88 000 détenus, parquet sous tutelle, verrou de Bercy |
+| [📁 2026-07-09_corruption-systemique](2026-07/2026-07-09_corruption-systemique/) | 1 | CORRUPTION : CJIP 12 Md€+, zéro patron emprisonné, CPI 27e, AFA 70 agents |
+| [📁 2026-07-09_energies-renouvelables](2026-07/2026-07-09_energies-renouvelables/) | 1 | ÉNERGIES RENOUVELABLES : 13 % électricité (vs 30 % UE), délais 7-10 ans, oligopole 5 acteurs |
+| [📁 2026-07-09_sante-publique-hopital](2026-07/2026-07-09_sante-publique-hopital/) | 1 | SANTÉ PUBLIQUE/HÔPITAL : financiarisation T2A, déficit 2,9 Md€, extraction loyers 2,5 Md€/an, déserts médicaux |
+| [📁 2026-07-09_pollution-plastique](2026-07/2026-07-09_pollution-plastique/) | 1 | POLLUTION PLASTIQUE : recyclage 25-30 %, Nestlé filtration illégale, microplastiques Hépar 2 096/L, Citeo gouvernance industrie |
+| [📁 2026-07-09_sideration-fatigue-cognitive](2026-07/2026-07-09_sideration-fatigue-cognitive/) | 1 | SIDÉRATION/FATIGUE COGNITIVE : doomscrolling, impuissance apprise, guerre cognitive, attention 47 sec, confiance politique 22 %, 9 milliardaires = 90 % médias |
+| [📁 2026-07-09_sante-mentale-psychiatrie](2026-07/2026-07-09_sante-mentale-psychiatrie/) | 1 | SANTÉ MENTALE/PSYCHIATRIE : abandon systémique, 60 % lits fermés, 1/3 Français sous psychotropes, prison-pipeline 80 % détenus psy |
+| [📁 2026-07-09_education-nationale](2026-07/2026-07-09_education-nationale/) | 1 | ÉDUCATION NATIONALE : reproduction sociale, décrochage 7,6 %, notation anxiogène, 5,4 % PIB efficience faible |
+| [📁 2026-07-09_dependance-numerique-ecrans](2026-07/2026-07-09_dependance-numerique-ecrans/) | 1 | DÉPENDANCE NUMÉRIQUE/ÉCRANS : 4h/jour enfants, TikTok infraction DSA, design addictif, 4 % ados addiction |
+| [📁 2026-07-09_opioides-addiction-medicamenteuse](2026-07/2026-07-09_opioides-addiction-medicamenteuse/) | 1 | OPIOÏDES/ADDICTION MÉDICAMENTEUSE : iatrogénie de masse, record BZD, Mediator 2 000 morts, 385 CSAPA, nitazènes |
+| [📁 2026-07-04-RIC](2026-07/2026-07-04-RIC) | 140 | RIC Saison 2 : 42 quintessences, audits, protocoles, solutions démocratiques |
 | [📁 2026-07-08_budget-reel-police](2026-07/2026-07-08_budget-reel-police/) | 2 | Police : budget réel, coûts cachés, comparaison internationale |
 | [📁 2026-07-08_contrats-industriels-police](2026-07/2026-07-08_contrats-industriels-police/) | 2 | Police : contrats industriels, matériel, fournisseurs |
 | [📁 2026-07-08_DGSI-renseignement-interieur](2026-07/2026-07-08_DGSI-renseignement-interieur/) | 2 | DGSI : renseignement intérieur, surveillance, cadre légal |
@@ -243,7 +257,22 @@ Légende : `📁 dossier/ (N fichiers)`
 
 | Métrique | Valeur |
 |----------|--------|
-| Dossiers projets | 237 |
+| Dossiers projets | 261 |
 | Fichiers à la racine (hors INDEX) | **0** ✅ |
-| Fichiers organisés | 3 907 |
+| Fichiers organisés | 3 927 |
 | Période couverte | Février — Juillet 2026 |
+
+## 14. TRAVAIL, SANTÉ MENTALE & ADDICTIONS
+
+| Dossier | Fichiers | Sujet |
+|---------|----------|-------|
+| [📁 2026-07-09_alienation-travail](2026-07/2026-07-09_alienation-travail/) | 1 | ALIÉNATION TRAVAIL : burnout, bullshit jobs, perte de sens, médicalisation souffrance |
+| [📁 2026-07-09_managers-toxiques](2026-07/2026-07-09_managers-toxiques/) | 1 | MANAGERS TOXIQUES : harcèlement managérial, France Télécom, impunité régulatoire |
+| [📁 2026-07-09_outils-management-surveillance](2026-07/2026-07-09_outils-management-surveillance/) | 1 | OUTILS MANAGEMENT/SURVEILLANCE : IA RH, bossware, consentement forcé, CNIL impuissante |
+| [📁 2026-07-09_predation-salariale](2026-07/2026-07-09_predation-salariale/) | 1 | PRÉDATION SALARIALE : productivité ×3,5, salaire stagnant, part VA −10 pts, 280 Md€/an |
+| [📁 2026-07-09_industrie-burnout](2026-07/2026-07-09_industrie-burnout/) | 1 | INDUSTRIE DU BURNOUT : pyromane-pompier, 20 Md€ marché RPS, Stimulus, Teale, Holivia |
+| [📁 2026-07-09_ecoles-commerce-managers](2026-07/2026-07-09_ecoles-commerce-managers/) | 1 | ÉCOLES DE COMMERCE : HEC/ESSEC/INSEAD, reproduction sociale, pipeline McKinsey |
+| [📁 2026-07-09_lobby-alcool](2026-07/2026-07-09_lobby-alcool/) | 1 | LOBBY ALCOOL : exception culturelle vs 41 000 morts/an, capture législative |
+| [📁 2026-07-09_solitude-epidemie](2026-07/2026-07-09_solitude-epidemie/) | 1 | SOLITUDE : épidémie silencieuse, 24 % Français, précondition addiction |
+| [📁 2026-07-09_credit-conso-piege](2026-07/2026-07-09_credit-conso-piege/) | 1 | CRÉDIT CONSO : piège dette, 148 013 dossiers surendettement, Cetelem/Sofinco/Cofidis |
+| [📁 2026-07-09_mckinsey-conseil-etat](2026-07/2026-07-09_mckinsey-conseil-etat/) | 1 | MCKINSEY/BCG/BAIN : pénétration État, pyromane-pompier, 96,1 M€ contrats, +31 % |
