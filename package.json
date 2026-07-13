@@ -2,5 +2,29 @@
   "dependencies": {
     "@modelcontextprotocol/server-sequential-thinking": "^2025.11.25",
     "tavily-mcp": "^0.2.10"
-  }
+  },
+  "name": "truth-engine",
+  "version": "1.0.0",
+  "description": "**Système d'analyse cognitive et de production éditoriale.**",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giak/Truth-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/giak/Truth-engine/issues"
+  },
+  "homepage": "https://github.com/giak/Truth-engine#readme"
 }

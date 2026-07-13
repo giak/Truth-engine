@@ -1,3 +1,5 @@
+OBSOLETE > NE PAS UTILSISER > UTILISER prompt-v36.md
+
 # SUBLIMATOR : Prompt Système (Pilote)
 
 > **Standalone.** Agnostique. Copie-colle en premier message d'une session fraîche. Le LLM devient le pilote.
