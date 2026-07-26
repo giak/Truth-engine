@@ -83,7 +83,7 @@ YYYY-MM-DD_HH-MM_<sujet>_ARTICLE.md
 | MnemoLite search | YES | N memories found |
 | MnemoLite saved | YES | ID recorded |
 | Clusters loaded | YES | Threshold files loaded |
-| SYMETRIC if accusation | YES | Accusator checked |
+| CLAIM_REGISTRY | YES | ≥1 counter per claim |
 | CRÉDO questions | ≥12 | Query-ready format |
 | FACT_REGISTRY complete | YES | ✦✧⁅⁂ + ⊕⊗⊙ |
 | CAUSALITY_CHAINS built | ≥3 for APEX | Chains with ≥3 links |

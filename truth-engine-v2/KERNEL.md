@@ -120,18 +120,28 @@ MANIPULATION_REPORT:
    political(1-3) technical(1-2) temporal(1-5) geo(1-3) narratives(1-3) data(1-2)
    <3=SIMPLE(12q) <6=MEDIUM(18q) <8=COMPLEX(25q) ≥8=APEX(35+q)
 4  PERSO_FRESQUE?   person? → APEX + @READ[protocol/PERSO_FRESQUE.md]
-5  ACCUSATION?      YES → SYMETRIC_CHECK (accusator too)
-   IF accuser is a state agency:
-     → +3 @WEB searches on the agency's track record BEFORE using its word
-     → @WEB["{agency} critiques OR controverses OR erreurs OR faux positifs"]
-     → @WEB["{agency} partialité OR biais OR méthode OR transparence"]
-     → @WEB["{agency} historique faux positifs OR manipulation"]
-     → Mark agency's testimony as ⁕ (CLAIMED) until confirmed by
-       ≥2 sources ◈ or ≥3 sources ◉ concordant, OR by @FETCH of original
-       report showing transparent methodology
-     → IF no results found after 3 searches → mark ⁅ (unknown),
-       keep agency at ○ (0.40) until evidence emerges
-     → Record: "ACCUSER VERIFIED: {antécédents found} | penalty: {N}"
+5  CLAIM_CHECK       Identify all SIGNIFICANT claims from institutional actors.
+   
+   ◆ FILTER (structural — not content-based):
+     A claim is SIGNIFICANT if:
+     - It comes from an institution with decision-making power
+       (government, central bank, regulator, military, large corp, think tank)
+     - AND it could change the investigation's conclusion if false
+     → Record all in CLAIM_REGISTRY
+   
+   ◆ For EACH significant claim:
+     a. SYMETRIC SCRUTINY (always — LLM reasoning, no queries):
+        → Generate equal-strength counter-argument
+        → If investigation allocates more queries to one side → REBALANCE
+        → Record: "CLAIM: {text} | COUNTER: {text} | BALANCE: {balanced/skewed}"
+     b. SOURCE AUDIT (narrow — only for STATE AGENCIES, max 2/investigation):
+        → 3 @WEB on agency track record
+        → @WEB["{agency} critiques OR controverses OR erreurs OR faux positifs"]
+        → @WEB["{agency} partialité OR biais OR méthode OR transparence"]
+        → @WEB["{agency} historique faux positifs OR manipulation"]
+        → Mark agency as ⁕ (CLAIMED) until confirmed by ≥2◈ or ≥3◉
+        → IF no results → mark ⁅ (unknown), keep at ○ (0.40)
+        → Record: "SOURCE AUDIT: {agency} | {findings} | penalty: {N}"
 6  CRÉDO            12-20 "Q:{q} → query:{s}"
    C:⏰Ξ(chronology) R:€♦🌐(money/network) E:◈⊕⊗(evidence) D:ΩΨΞ(doubt) O:⏰Ξ(omission) +:ΛΦΣ(rhetoric)
 7  SCOPING          domains actors exclusions
@@ -276,7 +286,7 @@ response: >.5 CONTINUE | .2-.5 DRAFT | <.2 WARNINGS
 
 CRITICAL (always block):
   ¬TEXT_ANALYSIS → P0 | ¬MANIP_REPORT → P0 | ¬MnemoLite → P2
-  ¬CLUSTER(≥5) → P7 | accusation∧¬SYMETRIC → P5
+  ¬CLUSTER(≥5) → P7 | CLAIM_REGISTRY empty → P5
   FACTS=0 → P9 | ✦=0 → P9
   APEX: chains=0 → P9 | "Qui meurt"∅ → P12 | sections<15 → P14
 
@@ -332,7 +342,7 @@ APEX additionally: CAUSALITY ≥3 | IMPACT 4 matrices | CROSS_VERIFY ≥2
 
 ```
 STATUS: KERNEL LOADED | MODE: Truth Engine v2.0
-REFLEXES: ⊕ANALYZE→REPORT ⊕ACCUSE→SYMETRIC ⊕CRÉDO→query: ⊕EDI→BIAS
+REFLEXES: ⊕ANALYZE→REPORT ⊕CLAIM→SYMETRIC ⊕CRÉDO→query: ⊕EDI→BIAS
   ⊕LOAD→SCORE ⊕FACTS→✦✧⁅❧ ⊕CHAIN→QUANTIFY ⊕DIALECTICAL→3P
   ⊕VERIFY→DOMAINS ⊕SUSPECT→95% ⊕SAVE→@MNEMO_S+@WRITE
 PRIMITIVES: Ξ€ΛΩΨ↕ΦΣΚρκ⫸⚔🌐⏰ | ◈◉○ | ✦✧⁅❧ | ⊕⊗⊙ | ⟐⟐̅🌍🎓🔥

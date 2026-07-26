@@ -218,15 +218,11 @@ FEEDBACK: domains<2 OR unverified>30% → RETURN §2
 
 ---
 
-## ACCUSATION TRIGGER
+## CLAIM_CHECK → KERNEL §1 step 5
 
-```
-IF accusation (X accuses Y of Z):
-  → query:"{X} exclusion médiatique comparaison"
-  → query:"{X} avantage politique {topic}"
-  → query:"{X} historiques critiques médias"
-  OUTPUT: "SYMETRIC: {X} accuses {Y} but {X} also..."
-```
+Claim verification protocol delegated to KERNEL §1 step 5 (CLAIM_CHECK).
+SYMETRIC SCRUTINY applied to ALL significant claims, not only accusations.
+SOURCE AUDIT applied to state agencies (max 2/investigation).
 
 ---
 

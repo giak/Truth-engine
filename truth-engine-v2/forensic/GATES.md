@@ -15,8 +15,8 @@ R2: PROFONDEUR MINIMALE
   After step 9, check: "What angles were NOT covered?"
   If gaps → add targeted queries before step 10
 
-R3: SYMÉTRIE RENFORCÉE (clarifies KERNEL step 5)
-  IF accusation → generate equal-strength arguments for BOTH sides
+R3: SYMÉTRIE RENFORCÉE (clarifies KERNEL §1 step 5 CLAIM_CHECK)
+  For EVERY significant claim → generate equal-strength counter-argument
   If one side gets more scrutiny → REBALANCE before step 10
 
 R4: INTERDICTION "KNOWN BUT NOT SOURCED"
@@ -89,7 +89,7 @@ IF any □ unchecked → execute corresponding correction (§3). DO NOT proceed 
 □ EDI calculated + BIAS applied (KERNEL §1 step 16)
 □ REQUEST_LOG complete with ALL tool calls (KERNEL §1 lines 140-146)
 □ No failed searches without retry (R1 enforcement)
-□ Symmetry applied if accusation (KERNEL §1 step 5, enforced by R3)
+□ CLAIM_REGISTRY has ≥1 symmetric counter per significant claim (KERNEL §1 step 5)
 □ Source diversity: geo ≥2 continents + ≥1 local (EPISTEMIC §2)
 □ Source diversity: lang ≥30% non-English + ≥2 language families (EPISTEMIC §2)
 □ H7 adversary source ≥1 (EPISTEMIC §6 — if triggered: ¬🔥 → EDI -0.15)
