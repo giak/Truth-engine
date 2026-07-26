@@ -160,20 +160,9 @@ MANIPULATION_REPORT:
      → Extract 5+ candidate mechanisms from the FETCHed content.
        Do NOT rely on LLM memory — mechanisms must come from the research.
 
-   ◆ PHASE 2 — DIVERGE & SELECT mechanisms
-     From the research results, name ≥3 candidate mechanisms.
-     (Reason: generate a buffer — after merging duplicates, keep ≥2 for output.)
-     → TEST DISTINCTIVENESS: two mechanisms are distinct ONLY if they have
-       DIFFERENT causal trajectories (different chain of enablers).
-       If two mechanisms share the SAME full chain trajectory → they are
-       FACETS of the same mechanism. Merge them, keep one label.
-       Sharing only the root origin (same starting law) is NOT enough to merge
-       — the enablers at each depth must also differ.
-       Example: "Monopole d'État" and "Capture réglementaire" share the same
-       1952 law AND the same 1945 AND 1791 enablers → same mechanism, merged.
-     → If after merging <2 distinct mechanisms remain → return to PHASE 1
-       with broader queries (add "international comparison" "autre explication").
-     → Each selected mechanism must have a DIFFERENT root trajectory.
+   ◆ PHASE 2 — SELECT mechanisms
+     From Phase 1 research, select ≥2 mechanisms with DIFFERENT root trajectories.
+     Same trajectory → same mechanism → merge. Selected mechanisms must come from research, not LLM memory.
 
    ◆ PHASE 3 — TRACE (PELOTE LOOP)
      For each selected mechanism, trace backward via recursive loop.
