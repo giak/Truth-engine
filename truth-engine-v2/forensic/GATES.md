@@ -60,6 +60,9 @@ New checks (NOT in KERNEL §2):
 | ✦ < min | RETURN step 9, +15◈ targeted | 2 (KERNEL feedback) |
 | chains < min | RETURN step 9, +5 causal | 2 (KERNEL feedback) |
 | domains < 2 | RETURN step 9, +5 cross-domain | 2 (KERNEL feedback) |
+| geo < 2 continents or no local | RETURN step 9, +5 queries site:{local_ccTLD} in local language | 1 |
+| lang < 30% non-English | RETURN step 9, +5 queries in affected region language | 1 |
+| H7 triggered ∧ no adversary | RETURN step 9, +3 queries site:{H7_map} per EPISTEMIC §6 | 1 |
 | 429 not retried | Retry failed queries with @WEB | 1 |
 | Symétrie manquante | +5 queries under-scrutinized side | 1 |
 | Profondeur insuffisante | +3 angles manquants | 1 |
@@ -87,6 +90,9 @@ IF any □ unchecked → execute corresponding correction (§3). DO NOT proceed 
 □ REQUEST_LOG complete with ALL tool calls (KERNEL §1 lines 140-146)
 □ No failed searches without retry (R1 enforcement)
 □ Symmetry applied if accusation (KERNEL §1 step 5, enforced by R3)
+□ Source diversity: geo ≥2 continents + ≥1 local (EPISTEMIC §2)
+□ Source diversity: lang ≥30% non-English + ≥2 language families (EPISTEMIC §2)
+□ H7 adversary source ≥1 (EPISTEMIC §6 — if triggered: ¬🔥 → EDI -0.15)
 ```
 
 ---
