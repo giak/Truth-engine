@@ -259,19 +259,6 @@ REQUEST_LOG format (| # | TYPE | QUERY/TOOL_CALL | RESULT | SOURCE | URL |):
   BLOCK if any web search result has no URL.
 ```
 
-**FEEDBACK (max 2 loops):**
-```
-post-10: ✦<min → RETURN 9 (queries reset, +15◈ targeted)
-post-11: handled internally by step 11 (Phase 4 → Phase 1 feedback loop).
-     No external loop needed. If LLM skipped Phase 1 entirely → RETURN 9.
-post-13: domains<2 → RETURN 9 (queries reset, +5 cross-domain)
-```
-
-**REALLOCATION (at 50% queries):**
-```
-◈<target×.5 → +15% PRIMARY | adversary<2 → +10% ADVERSARY
-geo<target×.5 → +10% DIVERSITY | wolves<3∧cx≥6 → +10% WOLF
-```
 
 ---
 
