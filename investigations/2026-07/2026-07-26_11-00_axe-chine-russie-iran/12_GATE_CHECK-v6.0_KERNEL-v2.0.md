@@ -2,7 +2,8 @@
 
 **Date:** 2026-07-26_16-00 CEST | **Protocole:** KERNEL v2.0 — Step 18b, GATES.md §4 (version post-refactor)
 **Fichiers audités:** 15 investigations (01→10 + 14→18)
-**Fichiers exclus du scoring:** 00 (INDEX), 11/13/20 (PELOTE — format non standard), 12 (AUDIT), 19 (MÉTA), 21 (SYNTHÈSE), 22 (pétromonarchies)
+**Fichiers exclus du scoring:** 00 (INDEX), 11/13/20 (PELOTE — format non standard), 12 (AUDIT), 19 (MÉTA), 21 (SYNTHÈSE)
+**Note sur le fichier 22:** L'investigation APEX `22_petromonarchies-golfe-hedging_APEX_INVESTIGATION.md` (375 lignes) a été ajoutée après la clôture du GATE_CHECK v5.0. Elle n'a pas été incluse dans cet audit v6.0 par cohérence avec la baseline v5.0 (15 fichiers). Elle échouerait sur les 3 nouveaux critères comme tous les autres fichiers — son inclusion porterait le bilan à 16/16 FAIL.
 **Méthode:** Scan automatisé (code-searcher 6 patterns × 23 fichiers) + inspection manuelle de 3 fichiers échantillons (01, 06, 17)
 **Contexte:** Le KERNEL a été refactoré en 7 modifications (commits `b5d911e`→`4142613`). Ce GATE_CHECK mesure l'impact de ces modifications sur la conformité du dossier.
 
@@ -52,7 +53,7 @@
 - 15 (Taïwan) — autoporteur
 - 18 (Évaluation symétrique) — autoporteur par conception
 
-### 2.2 Source diversity: geo, lang, H7 (GATES.md §4)
+### 2.2 Source diversity: geo, lang, H7 (GATES.md §4 — 3 critères distincts)
 
 **Règles:**
 - `Source diversity: geo ≥2 continents + ≥1 local`
@@ -80,7 +81,14 @@ Cependant, l'analyse des EDI existants fournit des indices:
 - **lang ≥2 language families:** ~2-3 fichiers au mieux. La quasi-totalité des sources sont en anglais ou français.
 - **H7 adversary:** 0 fichier ne cite délibérément une source « adverse » (média russe, chinois, iranien) comme source d'information légitime. Les médias adverses sont cités comme objets d'analyse, pas comme sources.
 
-### 2.3 EDI self-assessed warning (GATES.md §4)
+### 2.3 Seuils symboles assessed vs scored — ⚠ Amélioration par rapport à v1.0
+
+**Règle v2.0:** 15 symboles *assessed* (0=absent documenté, ✗=non-assessé→BLOCK). Scored ≥1: MEDIUM≥10, COMPLEX≥12, APEX≥15.
+**Ancienne règle v1.0:** 15 symboles *scored* ≥1 pour tous les niveaux.
+**Impact:** Les nouveaux seuils sont PLUS SOUPLES que les anciens. Les fichiers MEDIUM (04, 05) n'ont besoin que de 10 symboles ≥1, les COMPLEX de 12. Les 0 sont autorisés s'ils sont documentés. Tous les fichiers sur-performent actuellement (15/15 ≥1).
+**Verdict:** ✅ **15/15 PASS.** C'est le seul critère où les nouvelles règles sont moins exigeantes — un fait important pour relativiser le 0% global.
+
+### 2.4 EDI self-assessed warning (GATES.md §4)
 
 **Règle:** `EDI calculated + BIAS applied (⚠ self-assessed: ±0.10 CI, not externally validated)`
 **Résultat du scan:** 0 occurrence de `self-assessed` ou `externally validated` dans les 23 fichiers.
@@ -103,26 +111,28 @@ EDI: ... = 0.69 (⚠ self-assessed: ±0.10 CI, not externally validated)
 
 ### 3.1 Grille par fichier
 
-| # | Niv | 15sym assessed | BIAS TEST | ✦ | DIAL | CHAÎNES | WOLVES | HERM | EDI | REQ_LOG | § | CLAIM_REG | geo/lang/H7 | EDI warn | VERDICT v6.0 | v5.0 |
-|---|-----|---------------|-----------|----|------|---------|--------|------|-----|---------|---|-----------|-------------|----------|-------------|------|
-| **01** | APEX | ✅ | ⚠ | 20✅ | ✅ | 5✅ | 14✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **02** | COMPLEX | ✅ | ⚠ | 10✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 10✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **03** | COMPLEX | ✅ | ⚠ | 16✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 9✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **04** | MEDIUM | ✅ | ⚠ | 7✅ | N/R | 1✅ | 5✅ | N/R | ✅ | ✅ | 7✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **05** | MEDIUM | ✅ | ⚠ | 8✅ | N/R | 2✅ | 5✅ | N/R | ✅ | ✅ | 7✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **06** | APEX | ✅ | ✅ | 10✅ | ✅ | 5✅ | 12✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **07** | COMPLEX | ✅ | ⚠ | 10✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 10✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **08** | COMPLEX | ✅ | ⚠ | 8✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 9✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **09** | COMPLEX | ✅ | ⚠ | 10✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 10✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **10** | APEX | ✅ | ⚠ | 12✅ | ✅ | 5✅ | 12✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **14** | APEX | ✅ | ⚠ | 20✅ | ✅ | 5✅ | 12✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **15** | APEX | ✅ | ⚠ | 12✅ | ✅ | 5✅ | 12✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **16** | COMPLEX | ✅ | ⚠ | 8✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 9✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **17** | COMPLEX | ✅ | ⚠ | 8✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 9✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
-| **18** | APEX | ✅ | ⚠ | 12✅ | ✅ | 5✅ | 12✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| # | Niv | 15sym assessed | BIAS TEST | ✦ | DIAL | CHAÎNES | WOLVES | HERM | EDI | REQ_LOG | § | CLAIM_REG | geo | lang | H7 | EDI warn | VERDICT v6.0 | v5.0 |
+|---|-----|---------------|-----------|----|------|---------|--------|------|-----|---------|---|-----------|-----|------|----|----------|-------------|------|
+| **01** | APEX | ✅ | ⚠ | 20✅ | ✅ | 5✅ | 14✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **02** | COMPLEX | ✅ | ⚠ | 10✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 10✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **03** | COMPLEX | ✅ | ⚠ | 16✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 9✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **04** | MEDIUM | ✅ | ⚠ | 7✅ | N/R | 1✅ | 5✅ | N/R | ✅ | ✅ | 7✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **05** | MEDIUM | ✅ | ⚠ | 8✅ | N/R | 2✅ | 5✅ | N/R | ✅ | ✅ | 7✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **06** | APEX | ✅ | ✅ | 10✅ | ✅ | 5✅ | 12✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **07** | COMPLEX | ✅ | ⚠ | 10✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 10✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **08** | COMPLEX | ✅ | ⚠ | 8✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 9✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **09** | COMPLEX | ✅ | ⚠ | 10✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 10✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **10** | APEX | ✅ | ⚠ | 12✅ | ✅ | 5✅ | 12✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **14** | APEX | ✅ | ⚠ | 20✅ | ✅ | 5✅ | 12✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **15** | APEX | ✅ | ⚠ | 12✅ | ✅ | 5✅ | 12✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **16** | COMPLEX | ✅ | ⚠ | 8✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 9✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **17** | COMPLEX | ✅ | ⚠ | 8✅ | ✅ | 3✅ | 8✅ | N/R | ✅ | ✅ | 9✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
+| **18** | APEX | ✅ | ⚠ | 12✅ | ✅ | 5✅ | 12✅ | ✅ | ✅ | ✅ | 15✅ | ❌ | ❌ | ❌ | ❌ | ❌ | **FAIL** | PASS |
 
 **Légende:**
 - ✅ = conforme | ⚠ = conforme mais mineur (BIAS TEST: utilise ancien format A→E avec parfois sources non-agnostiques) | ❌ = non-conforme | N/R = non requis
+- **15sym assessed:** ✅ = 15/15 symbols assessed. Note: sous KERNEL v2.0, les seuils sont plus souples qu'en v1.0 (MEDIUM≥10, COMPLEX≥12, APEX≥15). Tous les fichiers sur-performent (15/15), mais des zéros documentés seraient désormais acceptables pour MEDIUM et COMPLEX.
+- **geo, lang, H7:** 3 critères indépendants (GATES.md §4) présentés en colonnes séparées. Tous échouent pour tous les fichiers — la diversité des sources n'est documentée nulle part.
 
 ### 3.2 Analyse par critère
 
