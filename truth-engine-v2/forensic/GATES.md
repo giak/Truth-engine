@@ -86,7 +86,7 @@ IF any □ unchecked → execute corresponding correction (§3). DO NOT proceed 
 □ Dialectical has 3 perspectives (KERNEL §1 step 8t)
 □ Hermeneutic L1-L6 complete (KERNEL §3 MANDATORY APEX)
 □ Wolves ≥min named (KERNEL §1 step 17)
-□ EDI calculated + BIAS applied (KERNEL §1 step 16)
+□ EDI calculated + BIAS applied (⚠ self-assessed: ±0.10 CI, not externally validated — KERNEL §1 step 16)
 □ REQUEST_LOG complete with ALL tool calls (KERNEL §1 lines 140-146)
 □ No failed searches without retry (R1 enforcement)
 □ CLAIM_REGISTRY has ≥1 symmetric counter per significant claim (KERNEL §1 step 5)
