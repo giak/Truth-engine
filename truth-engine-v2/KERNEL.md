@@ -303,8 +303,8 @@ ALWAYS: TEXT_ANALYSIS | MANIP_REPORT all 15 assessed (0=absent, ✗=unassessed�
   Scored ≥1: MEDIUM≥10 COMPLEX≥12 APEX≥15 | SIMPLE: no minimum
   ◈◉○ stratify
   clusters≥5 loaded + scored | MnemoLite search+save | FACT_REGISTRY ✦✧⁅❧
-  EDI+BIAS | REQUEST_LOG | SUSPICION 95% | DIALECTICAL 3 perspectives
-  WOLVES minimum | GATE check | @WRITE file
+  CLAIM_REGISTRY (≥1 counter per significant claim) | EDI+BIAS | REQUEST_LOG
+  SUSPICION 95% | DIALECTICAL 3 perspectives | WOLVES minimum | GATE check | @WRITE file
 
 APEX additionally: CAUSALITY ≥3 | IMPACT 4 matrices | CROSS_VERIFY ≥2
   INVESTIGATION 15 sections | HERMENEUTIC L1-L6 | FORENSIC reasoning
