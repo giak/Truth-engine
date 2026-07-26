@@ -76,7 +76,7 @@ New checks (NOT in KERNEL §2):
 IF any □ unchecked → execute corresponding correction (§3). DO NOT proceed to step 19.
 
 ```
-□ All 15 symbols scored in MANIPULATION_REPORT (KERNEL §0 step 5-6)
+□ All 15 symbols assessed (0=absent documented, ✗=skipped → BLOCK) — scored ≥1 per complexity: MEDIUM≥10 COMPLEX≥12 APEX≥15
 □ Clusters loaded per thresholds (KERNEL §0 step 6)
 □ CRÉDO has ≥12 queries (KERNEL §1 step 6, enforced by R5)
 □ FACT_REGISTRY has ≥min ✦ facts (KERNEL §1 step 10)

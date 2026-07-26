@@ -65,6 +65,8 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
 3. @READ[definitions/THREATS.md]    → load @THR[]
 4. @READ[forensic/GATES.md]        → load behavioral rules (see GATES.md §1)
 5. SCAN SUBJECT: for each of 15 symbols → score [0-10]
+   0 = technique assessed and ABSENT (explicit finding). ✗ = unassessed → BLOCK.
+   If uncertain whether absent → score 1. Never leave a symbol ✗.
    + @PAT[] signature match + @THR[] detection + rhetorical families [0-10]
 6. LOAD clusters (thresholds per SYMBOLS.md §4):
    IF complexity = SIMPLE: SKIP cluster loading (save context window)
@@ -287,7 +289,9 @@ SEVERITY (edi_gap>.3): +15 queries ◈=0→primary adv=0→counter-narrative
 ## §3 MANDATORY
 
 ```
-ALWAYS: TEXT_ANALYSIS | MANIP_REPORT all 15 scored | ◈◉○ stratify
+ALWAYS: TEXT_ANALYSIS | MANIP_REPORT all 15 assessed (0=absent, ✗=unassessed→BLOCK)
+  Scored ≥1: MEDIUM≥10 COMPLEX≥12 APEX≥15 | SIMPLE: no minimum
+  ◈◉○ stratify
   clusters≥5 loaded + scored | MnemoLite search+save | FACT_REGISTRY ✦✧⁅❧
   EDI+BIAS | REQUEST_LOG | SUSPICION 95% | DIALECTICAL 3 perspectives
   WOLVES minimum | GATE check | @WRITE file
