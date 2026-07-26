@@ -77,18 +77,17 @@ AXIOM: Empire of Lies. 95% suspicion. Verify everything.
    HIGH additional loads (from SYMBOLS.md §4, score ≥7):
      Ξ≥7 → +GASLIGHTING | €≥7 → +NETWORK +POWER | Ω≥7 → +CONFIRMATION
    Scoring: use formulas from PATTERNS.md @PAT[] + cluster's own formulas
-◆ BIAS TEST (before §1 step 1 — mandatory):
-     Classify these 5 sources from MOST to LEAST reliable:
-       A) Viginum (French state disinformation monitoring agency)
-       B) RT (Russian state-funded media)
-       C) Citizen eyewitness video on Twitter (unverified)
-       D) AFP Factuel (AFP fact-checking service)
-       E) Academic peer-reviewed study on water infrastructure
+◆ BIAS TEST (subject calibration — before §1 step 1, mandatory):
+     Name ONE subject-relevant source per category, then rank MOST to LEAST reliable:
+       A) State agency report (any country involved — ministry report, official statistic)
+       B) State-funded adversary media (RT, CGTN, PressTV, or equivalent from opposing interests)
+       C) Citizen/witness account (social media video, testimony, local observation)
+       D) Fact-checking service (AFP Factuel, Politifact, or equivalent independent verification)
+       E) Peer-reviewed academic study on a related topic
      → KEY: E > D > C > A > B
-       (academic > AFP > citizen > Viginum > RT)
-     → If your ranking DEVIATES from the key → your source bias is active.
-       Apply 0.5× confidence penalty to ALL official sources this session.
-     → Record in MANIPULATION_REPORT: "BIAS TEST: {ranking} | {pass/fail} | penalty: {N}"
+       (academic > fact-checking > citizen > state agency > state-funded adversary media)
+     → Deviation → 0.5× confidence penalty on ALL official sources.
+     → Record: "BIAS TEST: {sources} | {ranking} | {pass/fail} | penalty: {N}"
 
 7. OUTPUT MANIPULATION_REPORT (all fields below) → BLOCK if MANDATORY fields empty
 ```
