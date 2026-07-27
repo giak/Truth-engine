@@ -10,7 +10,7 @@ Cet article s'appuie sur le transcript automatique du documentaire pour l'identi
 
 Ces faits sont réels. Le rapprochement entre les trois régimes n'est pas une fiction. La déclaration Xi-Poutine de février 2022, les livraisons de drones Shahed, l'intégration de l'Iran à l'OCS en 2023 : tout cela est documenté. [^1]
 
-Mais le synopsis officiel du film annonce, avant même la première image, que trois régimes autoritaires « s'unissent », qu'ils possèdent une « feuille de route commune », qu'ils mènent une « stratégie tentaculaire » et une « guerre hybride » contre l'Occident. Le producteur CC&C/Mediawan, dans sa présentation officielle, décrit un « objectif commun » entre les trois régimes et une guerre menée « contre les démocraties ». [^2]
+Mais le synopsis officiel d'Arte annonce, avant même la première image, trois régimes « qui s'unissent » autour d'une « feuille de route commune » et d'une « stratégie tentaculaire ». Le producteur CC&C/Mediawan ajoute que leur « objectif commun » est de « mettre un terme à l'hégémonie occidentale » et qu'ils mènent « contre les démocraties une guerre hybride ». [^2]
 
 Ce n'est pas une enquête ouverte. C'est une thèse préalable à laquelle le montage doit donner corps.
 
@@ -36,7 +36,7 @@ Ces faits justifient qu'un documentaire s'intéresse au sujet. La question n'est
 
 ## II. Ce que le film déforme
 
-Les problèmes du documentaire ne se situent pas tous au même niveau. Les regrouper sous une étiquette unique (« dix erreurs » ou « dix distorsions ») serait reproduire l'approche agrégative que cet article reproche au film. Les affirmations problématiques relèvent de quatre catégories distinctes, que l'analyse doit séparer.
+Ces problèmes ne sont pas de même nature. Les regrouper sous une étiquette unique serait reproduire le procédé d'agrégation que cet article documente. Les affirmations problématiques relèvent de quatre catégories distinctes.
 
 ### A. Erreurs et agrégations factuelles
 
@@ -78,7 +78,7 @@ L'acronyme BRIC a été formulé en 2001 par l'économiste Jim O'Neill de Goldma
 
 Cette phrase n'est pas une erreur. Elle est plus grave : elle détruit toute possibilité de réfutation. Lorsque les trois pays coordonnent une action, elle prouve l'axe. Lorsqu'ils agissent séparément, elle prouve encore l'axe. Lorsqu'ils poursuivent des intérêts divergents, ce sont différents fronts d'une même guerre. Aucun événement ne peut infirmer la thèse. Une théorie qui explique indifféremment l'intervention et la non-intervention ne permet plus de distinguer les hypothèses.
 
-La guerre en Iran de février 2026 aurait dû constituer un test : Téhéran est attaqué, ni Moscou ni Pékin n'engagent de forces dans une défense militaire directe. Leur soutien ne s'est toutefois pas limité à la diplomatie : des livraisons d'armes, des composants, des données ou une assistance russe en renseignement ont été rapportés, avec une ampleur encore discutée. [^11] Dans le système interprétatif du documentaire, cette non-intervention directe peut être absorbée sans difficulté : les partenaires auraient choisi d'aider autrement. Une théorie qui explique indifféremment l'intervention et la non-intervention ne permet plus de distinguer les hypothèses.
+La guerre en Iran de février 2026 constitue un test empirique de la thèse du film : Téhéran est attaqué, ni Moscou ni Pékin n'engagent de forces dans une défense militaire directe. Leur soutien ne s'est toutefois pas limité à la diplomatie : des livraisons d'armes, des composants, des données ou une assistance russe en renseignement ont été rapportés, avec une ampleur encore discutée. [^11] Dans le système interprétatif du documentaire, cette non-intervention directe peut être absorbée sans difficulté : les partenaires auraient choisi d'aider autrement.
 
 **La téléologie rétrospective.** Le montage transforme des événements survenus à des périodes différentes en étapes d'un programme unique. L'OCS de 2001, les BRICS de 2006, la Syrie, le Covid, l'Ukraine et les paiements en monnaies locales deviennent les jalons d'une stratégie cohérente alors que rien ne prouve qu'ils aient été pensés comme tels par leurs acteurs au moment où ils se sont produits.
 
@@ -100,7 +100,7 @@ Le dispositif du documentaire ne repose pas seulement sur ce qu'il dit. Il repos
 
 La page officielle d'Arte décrit le film comme mobilisant « de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées ». [^2] Cette présentation définit, dans le paratexte, deux catégories de locuteurs aux statuts différents : d'un côté les analystes qui expliquent, de l'autre les officiels dont les propos sont désignés comme « offensifs ».
 
-Cette asymétrie est documentée dans la communication d'Arte elle-même. Elle ne peut pas encore être démontrée comme systématique dans le montage audiovisuel sans un relevé scène par scène établissant le temps de parole, la distribution du dernier mot, la nature des plans associés à chaque intervenant et le traitement des voix non occidentales qui ne sont pas des officiels. Le film comprend par ailleurs des interlocuteurs non occidentaux aux statuts variés (Tian Feilong, Liu Mingfu, Victor Gao, Hossein Kanani Moghaddam, Mostafa Khoshcheshm, Abolfazl Amouei, entre autres [^32]), dont le traitement audiovisuel n'a pas été codé.
+Cette asymétrie est documentée dans la communication d'Arte elle-même. Elle ne peut pas encore être démontrée comme systématique dans le montage audiovisuel sans un relevé scène par scène établissant le temps de parole, la distribution du dernier mot, la nature des plans associés à chaque intervenant et le traitement des voix non occidentales qui ne sont pas des officiels. Le film comprend par ailleurs plusieurs interlocuteurs non occidentaux aux statuts variés [^32], dont le traitement audiovisuel n'a pas été codé.
 
 L'asymétrie du paratexte est établie. L'asymétrie audiovisuelle systématique reste à démontrer.
 
@@ -124,7 +124,7 @@ Le film s'inscrit dans un environnement politique marqué par un débat public s
 
 Selon l'estimation IRIS reprise par le rapport Draghi, sur le périmètre étudié entre juin 2022 et juin 2023, 78 % des dépenses d'acquisition allaient à des fournisseurs non européens, dont 63 % à des fournisseurs américains. Ce périmètre excluait une partie des achats domestiques. L'IISS, sur une base plus large intégrant les acquisitions nationales, évalue la part des systèmes européens à 52 % et la part américaine à 34 % jusqu'en septembre 2024, puis environ 53 % et 36 % dans son actualisation de mi-2025. [^16] [^17] La Pologne a commandé 250 chars Abrams, 32 F-35 et 96 hélicoptères Apache. L'Allemagne a commandé 35 F-35.
 
-La convergence entre le cadrage du film et les intérêts d'un secteur dont les acteurs financent les institutions qui fournissent certains de ses experts est documentée. L'enquête ne démontre pas de lien causal entre les financements et le contenu. Elle ne démontre pas d'intention coordonnée. Le terme « propagande », qui exigerait la preuve d'une intention de mobilisation, n'est pas établi.
+La convergence est documentée entre le cadrage du film et les intérêts d'un secteur dont les acteurs financent les institutions qui fournissent certains de ses experts. L'enquête ne démontre pas de lien causal entre les financements et le contenu. Elle ne démontre pas d'intention coordonnée. Le terme « propagande », qui exigerait la preuve d'une intention de mobilisation, n'est pas établi.
 
 ---
 
@@ -150,7 +150,7 @@ Ces acteurs ne sont ni dans l'axe, ni dans l'Occident. Leur comportement détrui
 
 ### Les pratiques occidentales comparables
 
-Le film dénonce les médias internationaux russes et chinois comme instruments d'influence. Il n'applique pas la même grille aux médias internationaux occidentaux. Il dénonce les opérations d'ingérence adverse. Il n'applique pas systématiquement la même grille de lecture à ses propres sources d'expertise et à celles qu'il dénonce. Un documentaire centré sur trois États n'est pas tenu de produire une histoire générale des interventions occidentales, mais l'emploi de catégories comme « ingérence » ou « désinformation » sans jamais les appliquer aux pratiques occidentales comparables crée une asymétrie dans le traitement des faits. La conclusion n'est pas que tout se vaut. Elle est que des catégories à prétention universelle devraient être comparées selon une grille commune.
+Le film dénonce les médias internationaux russes et chinois comme instruments d'influence. Il n'applique pas la même grille aux médias internationaux occidentaux. Il dénonce les opérations d'ingérence adverse. Il n'applique pas systématiquement la même grille de lecture à ses propres sources d'expertise et à celles qu'il dénonce. Un documentaire centré sur trois États n'est pas tenu de produire une histoire générale des interventions occidentales, mais l'emploi de catégories comme « ingérence » ou « désinformation » sans jamais les appliquer aux pratiques occidentales comparables crée une asymétrie dans le traitement des faits. Le film utilise des catégories (« ingérence », « désinformation ») qu'il applique à ses adversaires sans jamais les retourner contre les pratiques occidentales comparables : médias internationaux, programmes d'influence, interventions militaires. La conclusion n'est pas que tout se vaut. Elle est que des catégories à prétention universelle gagneraient à être appliquées symétriquement.
 
 ---
 
@@ -209,7 +209,7 @@ Il agrège des comportements distincts (votes pour, abstentions, absences) en ma
 
 Ces éléments démontrent un cadrage orienté. Ils ne démontrent ni commande industrielle ni intention coordonnée de tromper. Le terme « propagande » exigerait la preuve d'une finalité intentionnelle de mobilisation que les données disponibles n'établissent pas.
 
-La qualification la plus précise est celle d'un documentaire géopolitique à thèse et à forte fonction persuasive, dont plusieurs erreurs, agrégations et choix narratifs orientent le spectateur vers une conclusion militaire. Le film utilise les outils du journalisme (archives, données, experts, pluralité apparente) non pour ouvrir l'enquête, mais pour guider le spectateur vers une conclusion que son synopsis annonçait déjà. La qualification de « journalisme de mobilisation stratégique » pourrait être défendue, à condition de préciser qu'elle porte sur la fonction du récit et non sur la preuve d'une commande institutionnelle.
+La qualification la plus précise est celle d'un documentaire géopolitique à thèse et à forte fonction persuasive, dont plusieurs erreurs, agrégations et choix narratifs orientent le spectateur vers une conclusion militaire. Le film utilise les outils du journalisme (archives, données, experts, pluralité apparente) non pour ouvrir l'enquête, mais pour guider le spectateur vers une conclusion que son synopsis annonçait déjà.
 
 ---
 
