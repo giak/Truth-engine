@@ -133,22 +133,22 @@ Reste une question. Si le documentaire est de la propagande, et si cette enquêt
 - CEPA, « Our Supporters » : https://cepa.org/our-supporters
 - IFRI, Documents de référence : https://www.ifri.org/fr/node/50168
 - POLITICO, « Defense industry lobbying in the EU » : https://www.politico.eu/article/defense-industry-lobbying-eu/
-- Légifrance, Loi de programmation militaire 2024-2030 : {{URL à compléter manuellement}}
+- Légifrance, Loi de programmation militaire 2024-2030 : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047914986
 - RUSI, « Brothers in Arms : Assessing North Korea's Contribution to Russia's War in Ukraine » : https://www.rusi.org/explore-our-research/publications/commentary/brothers-arms-assessing-north-koreas-contribution-russias-war-ukraine
 - RUSI, « How Russia is Helping China Prepare to Seize Taiwan » : https://www.rusi.org/explore-our-research/publications/commentary/how-russia-helping-china-prepare-seize-taiwan
 - Carnegie Endowment, « Cooperation Between China, Iran, North Korea, and Russia : Current and Potential Future Threats to America », octobre 2024 : https://carnegieendowment.org/research/2024/10/cooperation-between-china-iran-north-korea-and-russia-current-and-potential-future-threats-to-america
 - SIPRI, Military Expenditure 2026 : https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge
 - Atlantic Council, CBDC Tracker : https://www.atlanticcouncil.org/cbdctracker/
 - CSIS, « Is the US Prepared for War with China? » : https://www.csis.org/analysis/united-states-prepared-war-china
-- Kaufmann, C. (2004), « Threat Inflation and the Failure of the Marketplace of Ideas », *International Security* : {{URL à compléter manuellement}}
+- Kaufmann, C. (2004), « Threat Inflation and the Failure of the Marketplace of Ideas », *International Security* : https://doi.org/10.1162/0162288041762940
 - Belfer Center, « An Illusory Entente : The Myth of a Russia-China-Iran 'Axis' » : https://www.belfercenter.org/publication/illusory-entente-myth-russia-china-iran-axis
 - Foreign Affairs, Chivvis, C. (2025), « The Fragile Axis of Upheaval » : https://www.foreignaffairs.com/china/fragile-axis-upheaval
 - Foreign Affairs, Wright, T. (2026), « Worse Than an Axis » : https://www.foreignaffairs.com/china/worse-axis
 - Foreign Policy, DePetris & Kavanagh (2024), « The 'Axis of Evil' Is Overhyped » : https://foreignpolicy.com/2024/08/14/russia-china-iran-north-korea-axis-evil-cooperation/
-- Chatham House, Brazil multipolarity analysis (2025) : {{URL à compléter manuellement}}
-- Lowy Institute, Indonesia BRICS+ membership analysis (2026) : {{URL à compléter manuellement}}
-- Taylor & Francis, South Africa non-alignment analysis (2024) : {{URL à compléter manuellement}}
-- Middle East Forum, Turkey BRICS and S-400 analysis (2024) : {{URL à compléter manuellement}}
+- Chatham House, Brazil multipolarity analysis (2025) : https://www.chathamhouse.org/2025/03/competing-visions-international-order/06-brazil-sees-opportunity-multipolar-order
+- Lowy Institute, Indonesia BRICS+ membership analysis (2026) : https://www.lowyinstitute.org/the-interpreter/indonesia-s-multi-alignment-dilemma-under-prabowo
+- Taylor & Francis, South Africa non-alignment analysis (2024) : https://www.tandfonline.com/doi/full/10.1080/13523260.2024.2384007
+- Middle East Forum, Turkey BRICS and S-400 analysis (2024) : https://www.meforum.org/middle-east-forum-observer/turkeys-brics-bid-is-the-diplomatic-equivalent-of-its-s-400-purchase
 - UN Digital Library, voting records : {{URL à compléter manuellement}}
 - Chomsky, N. & Herman, E. (1988), *Manufacturing Consent*, Pantheon Books
 - Brzezinski, Z. (1997), *The Grand Chessboard*, Basic Books
