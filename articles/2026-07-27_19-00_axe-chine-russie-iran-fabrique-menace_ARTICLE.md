@@ -10,7 +10,7 @@ L'expression n'est pas une pure invention occidentale : elle a été utilisée d
 
 La question n'est pas de savoir si les trois régimes coopèrent : ils le font. La question est de savoir si cette coopération forme le système cohérent, stable et intégré que le film décrit.
 
-Le documentaire de Sophie Lepault, *Russie, Chine, Iran : la revanche des empires*, diffusé sur Arte en mai 2024 (94 minutes, produit par CC&C/Mediawan), reprend cette formule comme matrice narrative. Le film accumule les faits : exercices militaires conjoints, flotte fantôme, livraisons de drones, admission à l'OCS, déclarations officielles. Ces faits sont réels. Le rapprochement entre les trois régimes n'est pas une fiction.
+Le documentaire de Sophie Lepault, *Russie, Chine, Iran : la revanche des empires*, diffusé sur Arte en mai 2024 (94 minutes, produit par CC&C/Mediawan), reprend cette formule comme matrice narrative. Le film accumule les faits : exercices militaires conjoints, transports pétroliers russes, livraisons de drones, admission à l'OCS, déclarations officielles. Ces faits sont réels. Le rapprochement entre les trois régimes n'est pas une fiction.
 
 Le problème n'est pas que le documentaire mentirait sur les faits. Le problème est ce qu'il en fait.
 
@@ -232,9 +232,67 @@ La Loi de programmation militaire de 413 milliards d'euros était déjà votée 
 
 ---
 
-## VIII. Deux systèmes, une question
+## VIII. La fabrique des catégories : comment un mot devient une menace
 
-Le rapprochement entre la Chine, la Russie et l'Iran est réel. Les exercices militaires conjoints, les livraisons de drones, la flotte fantôme, les transferts de technologie, la coordination diplomatique au sein de l'OCS et des BRICS : tout cela est documenté. Le triangle de fer n'est pas une invention occidentale. L'expression a été utilisée dans un média chinois contrôlé par le Parti, et les coopérations entre les trois régimes sont documentées.
+Le documentaire ne se contente pas de sélectionner et d'agréger des faits réels. Il utilise des catégories qui ne sont pas des descriptions techniques neutres, mais des constructions politiques présentées comme des évidences. La plus révélatrice est la « flotte fantôme ».
+
+### La « flotte fantôme » : anatomie d'une catégorie politique
+
+« Flotte fantôme », « flotte sombre » ou *shadow fleet* ne sont pas des catégories juridiques. Ce sont des expressions utilisées par les gouvernements occidentaux, les autorités de sanctions et les assureurs pour désigner un ensemble hétérogène de navires. Il n'existe pas de statut maritime universel appelé « navire de la flotte fantôme ». L'UE parle d'un réseau de vieux pétroliers utilisant des structures de propriété opaques et des changements de pavillon pour échapper au plafonnement du prix du pétrole. Le Royaume-Uni reconnaît explicitement que certains de ces navires peuvent être conformes aux lois applicables ou ne pas être couverts par les sanctions en question.
+
+Autrement dit : « flotte fantôme » est une qualification politique et opérationnelle, pas un verdict juridique automatique.
+
+Cette catégorie rassemble sous un même label des navires très différents : certains frauduleux (faux pavillons, documents falsifiés), certains mal assurés, certains sanctionnés, d'autres simplement sortis des services maritimes occidentaux. Transporter du pétrole russe en utilisant un assureur non occidental n'est pas, en soi, illégal. Le plafonnement du G7 conditionne l'accès aux services relevant des juridictions de la coalition : assurance, financement, courtage. Un armateur non occidental peut, selon son droit national, transporter du pétrole russe avec un assureur non membre de la coalition. Ce n'est pas une violation. C'est un choix de juridiction.
+
+Le Trésor américain l'explique lui-même : un exportateur peut vendre sous le plafond en utilisant les services occidentaux, ou vendre en dehors du système en utilisant exclusivement des fournisseurs non membres de la coalition. Le terme « contournement » présente comme déviation suspecte le fait de ne plus employer les services du groupe qui a adopté la sanction.
+
+L'enjeu n'est pas seulement sémantique. La catégorie « flotte fantôme » est devenue le fondement d'une doctrine opérationnelle.
+
+### De la catégorie à l'arraisonnement : la chronologie
+
+La Loi de programmation militaire française, dotée de 413 milliards d'euros, est promulguée le 1er août 2023. Le documentaire d'Arte est diffusé en mai 2024. Et à partir de 2025, une politique coordonnée d'interception maritime se met en place.
+
+Le 2 octobre 2025, Emmanuel Macron déclare que l'objectif des contrôles en mer est de « tuer le modèle économique » des transporteurs de pétrole russe en immobilisant les navires pendant plusieurs jours ou plusieurs semaines. Il annonce une politique d'« entrave » coordonnée avec l'OTAN et la Coalition des volontaires.
+
+Dès avril 2025, l'Estonie avait arraisonné le *Kiwala*, soupçonné de faux pavillon djiboutien. La France a ensuite mené quatre opérations : le *Boracay* (septembre 2025), le *Grinch* (janvier 2026, libéré après paiement d'une pénalité de plusieurs millions d'euros), le *Deyna* (mars 2026) et le *Deliver* (juin 2026). Emmanuel Macron annonçait le 13 juillet 2026 que le *Deliver* constituait la cinquième opération française depuis fin 2025, et la Coalition des volontaires déclarait vouloir « intensifier les opérations d'arraisonnement et les contrôles » de manière systématique. Le 13 juillet 2026, la Coalition des volontaires déclare vouloir « intensifier les opérations d'arraisonnement et les contrôles » de manière systématique et coordonnée.
+
+Le mécanisme juridique est le suivant : la Convention des Nations unies sur le droit de la mer (article 110) autorise un navire de guerre à vérifier un navire étranger lorsqu'il existe des motifs raisonnables de soupçonner que celui-ci est dépourvu de nationalité ou utilise un pavillon frauduleux. La France ne peut pas arraisonner un pétrolier parce qu'il transporte du pétrole russe : ce serait illégal en haute mer. Elle l'arraisonne au motif du soupçon de faux pavillon.
+
+La boucle est auto-validante : le navire est considéré comme suspect parce qu'il appartient à la « flotte fantôme » ; il appartient à la « flotte fantôme » parce qu'il présente des caractéristiques jugées suspectes ; ces caractéristiques permettent l'arraisonnement ; l'arraisonnement est présenté comme une confirmation de l'existence et de la dangerosité de la flotte.
+
+Le documentaire d'Arte s'inscrit précisément dans cette séquence. Diffusé en mai 2024, il construit la menace que la doctrine d'arraisonnement, opérationnelle à partir de 2025, est censée contrer. Il ne s'agit pas d'affirmer que le documentaire a causé cette doctrine. Il s'agit de constater que le film occupe une fonction de légitimation dans une chaîne qui va de la construction narrative de la menace à l'opérationnalisation de la réponse.
+
+Ce type de cadrage n'est pas improvisé. Les techniques qu'il mobilise sont précisément celles que l'analyse cognitive des discours permet de cartographier.
+
+Ces clusters sont des outils d'analyse qui détectent des procédés rhétoriques et narratifs, indépendamment de l'intention de leurs auteurs. Leur activation ne prouve pas une manipulation consciente ; elle documente une architecture de cadrage.
+
+### Cartographie des techniques : ce que le documentaire fait, cluster par cluster
+
+Le documentaire active au moins huit des quinze clusters de manipulation documentés par le système d'analyse cognitive Truth Engine. La cartographie suivante n'est pas un exercice théorique : chaque cluster correspond à un procédé précis, détectable dans le film.
+
+**Λ (Cadrage).** Le cluster FRAMING détecte la fausse dichotomie, le langage chargé, la métaphore manipulatrice et le contexte absent. Le documentaire présente un monde binaire (l'Occident démocratique contre l'axe autoritaire) et utilise systématiquement un lexique guerrier (« machine de guerre », « guerre hybride totale », « monde parallèle », « coalition de pays qui haïssent les États-Unis »). Les « valeurs universelles » sont présentées comme un acquis occidental menacé, effaçant la participation non occidentale à la Déclaration de 1948 et les désaccords originels.
+
+**Ξ (Iceberg).** Le cluster ICEBERG détecte l'omission sélective, la manipulation du dénominateur et le tour de catégorie. Le documentaire omet les divisions internes du triangle (absence de doctrine commune, de clause de défense, de commandement conjoint). Il omet l'Inde, le Golfe et le Sud global. Il agrège cinq votes contre, trente-cinq abstentions et douze absences en « 52 pays » qui « ne condamnent pas » : un tour de dénominateur classique.
+
+**⚔ (Guerre cognitive).** Le cluster WARFARE détecte la coordination narrative, les opérations d'information et les zones grises. La formule « ensemble ou séparément » transforme toute action hostile d'un des trois pays en preuve de coordination trilatérale. La « guerre hybride totale » est une catégorie extensible qui absorbe désinformation, cyberopérations, corruption, financements et influence diplomatique (documentés pour certains, interprétés pour d'autres) sous une bannière unique.
+
+**🌐 (Réseau).** Le cluster NETWORK détecte la fermeture élitaire, les portiers et la densité des connexions. Le circuit de production du documentaire (CC&C/Mediawan, Arte financée à 95 % par des fonds publics, experts du CEPA soutenu par Lockheed Martin et Rheinmetall, de l'IFRI soutenu par Thales, KNDS et Safran, et de l'IRSEM dépendant du ministère des Armées) illustre une boucle où les mêmes institutions financent l'expertise qui documente la menace que leurs produits sont censés contrer.
+
+**€ (Argent).** Le cluster MONEY détecte la traçabilité du lobbying, les conflits d'intérêts et la capture réglementaire. Les financements sont établis. L'influence sur le contenu ne l'est pas. Mais la convergence entre le cadrage du documentaire et les intérêts du secteur de la défense est documentée : 63 % des contrats d'armement européens attribués à des fournisseurs américains (IRIS, rapport Draghi), 413 milliards d'euros de LPM, commandes polonaises et allemandes de F-35. Le documentaire ne prouve pas la capture. Il en documente l'écosystème.
+
+**Ψ (Surcharge).** Le cluster OVERLOAD détecte le bombardement informationnel, la contradiction et l'urgence fabriquée. Le documentaire accumule en 94 minutes : invasion de l'Ukraine, drones iraniens, flotte fantôme, OCS, BRICS, cyberattaques, désinformation, corruption, financements occultes, guerre hybride. Le spectateur n'a pas le temps d'examiner chaque affirmation. L'accumulation produit l'impression d'un système coordonné que chaque élément pris isolément ne suffirait pas à établir.
+
+**Ω (Inversion).** Le cluster INVERSION détecte l'inversion accusatoire, le renversement victime-agresseur et la négation de réalité. Le documentaire présente l'expansion de l'OTAN, le retrait du JCPOA et les sanctions occidentales comme des réponses à une menace, jamais comme des causes du rapprochement qu'il dénonce. La « guerre hybride » que mènerait l'axe est traitée comme une agression, tandis que les opérations d'arraisonnement, les sanctions et le réarmement sont présentés comme des mesures défensives.
+
+**⫸ (Agrégation).** Le cluster BUNDLE détecte la convergence de signaux, la cascade informationnelle et la synchronisation narrative. C'est la technique structurante du documentaire : fait A + fait B + fait C → impression d'un commandement commun. La coopération, l'alignement et l'alliance militaire intégrée sont trois niveaux distincts. Le film les fusionne en un bloc unique.
+
+Le documentaire d'Arte n'est pas un cas isolé de maladresse journalistique. Il active une majorité des clusters de manipulation documentés par l'analyse cognitive des discours : de manière suffisamment cohérente pour que le motif soit identifiable. L'enquête n'établit pas de coordination intentionnelle entre ces procédés. Elle documente leur convergence.
+
+---
+
+## IX. Deux systèmes, une question
+
+Le rapprochement entre la Chine, la Russie et l'Iran est réel. Les exercices militaires conjoints, les livraisons de drones, les transferts de technologie, la coordination diplomatique au sein de l'OCS et des BRICS : tout cela est documenté. Le triangle de fer n'est pas une invention occidentale. L'expression a été utilisée dans un média chinois contrôlé par le Parti, et les coopérations entre les trois régimes sont documentées.
 
 Le système de défense occidental qui cadre cette menace est également réel. Les think tanks financés par l'industrie de l'armement, les documentaires produits par des fonds publics, les experts dont les institutions reçoivent des subventions des entreprises qui bénéficient du réarmement : tout cela est documenté. Les financements sont établis. L'influence n'est pas démontrée. Mais la convergence objective entre la dramatisation de la menace et les intérêts économiques du circuit qui la documente est un fait.
 
