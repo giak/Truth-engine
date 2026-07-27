@@ -229,7 +229,7 @@ La qualification la plus précise est celle d'un documentaire géopolitique à t
 
 [^7]: U.S. Energy Information Administration, « China imported record amounts of crude oil in 2023 », 26 mars 2024, eia.gov.
 
-[^8]: AIEA, déclaration introductive du directeur général Rafael Grossi au Conseil des gouverneurs, mars 2025, iaea.org. L'AIEA documente des manquements sans déclarer l'ensemble du programme nucléaire iranien illégal.
+[^8]: AIEA, « NPT Safeguards Agreement with the Islamic Republic of Iran », rapport du directeur général au Conseil des gouverneurs, GOV/2024/62, 19 novembre 2024, iaea.org. Le rapport documente la présence de matières nucléaires non déclarées et l'absence d'explications crédibles de la part de l'Iran, sans déclarer l'ensemble du programme nucléaire iranien illégal. L'Iran reste partie au TNP et conserve un accord de garanties avec l'AIEA.
 
 [^9]: Charte de l'Organisation de coopération de Shanghai, signée le 7 juin 2002, sectsco.org.
 
