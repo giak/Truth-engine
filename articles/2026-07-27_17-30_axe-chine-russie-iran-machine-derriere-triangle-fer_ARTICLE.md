@@ -52,7 +52,7 @@ Le seul dénominateur commun est défensif : la souveraineté comme rempart cont
 
 **L'axe n'a pas de doctrine commune. Il a des adversaires communs.**
 
-Ce constat relève du **niveau B** : inférence forte corroborée par l'absence de cluster idéologique dans les dix-neuf investigations (24-F1, 24-F8) et par l'analyse qualitative des traditions politiques, mais non confirmée par une analyse textuelle primaire des discours en langue originale — une limite documentée dans le dossier.
+Ce constat relève du **niveau B** : inférence forte corroborée par l'absence de cluster idéologique dans les dix-neuf investigations (24-F1, 24-F8) et par l'analyse qualitative des traditions politiques, mais non confirmée par une analyse textuelle primaire des discours en langue originale : une limite documentée dans le dossier.
 
 C'est plus dangereux qu'un bloc idéologique, parce qu'une doctrine diviserait : qui en serait le leader ? Le confucianisme chinois ou l'orthodoxie russe ou l'islam chiite iranien ? L'absence de doctrine permet la coopération opportuniste sans rivalité de leadership. Et c'est plus fragile, parce qu'une alliance d'intérêts se défait quand les intérêts divergent. L'axe n'est pas une Internationale : c'est un syndicat d'intérêts autoritaires.
 
