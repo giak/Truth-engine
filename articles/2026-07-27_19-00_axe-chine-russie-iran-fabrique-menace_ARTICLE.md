@@ -154,9 +154,9 @@ Qualifier le film de « propagande » exigerait de démontrer une finalité inte
 
 ---
 
-## V. Ce que le documentaire omet
+## V. Ce que le triangle n'est pas
 
-Les distorsions et l'asymétrie narrative ne sont pas les seuls outils du cadrage. Les omissions sont aussi structurantes que les affirmations.
+Les distorsions et l'asymétrie narrative ne sont pas les seuls outils du cadrage. Les omissions sont aussi structurantes que les affirmations. La première omission du documentaire est interne au triangle lui-même : ce qui le divise, ce qui le fragilise, ce qui le rend moins cohérent que le film ne le présente.
 
 ### Une alliance sans doctrine
 
@@ -173,6 +173,12 @@ La Russie est décrite par de nombreux analystes comme un « junior partner » d
 L'Iran est encore plus isolé. La guerre déclenchée en février 2026 a révélé la limite opérationnelle de l'axe : ni Moscou ni Pékin n'ont envoyé de forces pour défendre Téhéran. La Russie a fourni un soutien logistique et diplomatique limité. La Chine s'est contentée de déclarations.
 
 Le triangle n'est pas équilatéral. C'est une alliance asymétrique où chaque membre poursuit ses intérêts propres, parfois convergents, parfois non.
+
+---
+
+## VI. Le monde que le documentaire efface
+
+Les omissions du film ne s'arrêtent pas à ce qui fragilise le triangle de l'intérieur. Elles s'étendent à ce qui l'entoure : les acteurs qui, par leur seul positionnement, invalident le cadrage binaire. L'Inde, le Golfe, la Corée du Nord et l'ensemble du Sud global ne sont ni dans l'axe ni dans l'Occident. Le film les ignore ou les annexe.
 
 ### L'Inde, chaînon manquant du cadrage binaire
 
@@ -208,7 +214,7 @@ Une cinquantaine de pays n'ont pas condamné l'invasion russe à l'ONU. Ce n'est
 
 ---
 
-## VI. La destination politique
+## VII. La destination politique
 
 Le documentaire aurait pu s'arrêter au constat. Il aurait pu documenter le rapprochement réel entre les trois régimes, ses dimensions militaires, économiques et diplomatiques, puis ouvrir le débat sur les réponses possibles : endiguement, négociation, équilibre des puissances, désescalade.
 
@@ -228,7 +234,7 @@ La Loi de programmation militaire de 413 milliards d'euros était déjà votée 
 
 ---
 
-## VII. Deux systèmes, une question
+## VIII. Deux systèmes, une question
 
 Le rapprochement entre la Chine, la Russie et l'Iran est réel. Les exercices militaires conjoints, les livraisons de drones, la flotte fantôme, les transferts de technologie, la coordination diplomatique au sein de l'OCS et des BRICS : tout cela est documenté. Le triangle de fer n'est pas une invention occidentale. Il s'est nommé lui-même.
 
