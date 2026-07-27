@@ -161,6 +161,15 @@ Cette investigation documente des fractures RÉELLES mais les amplifie pour serv
 
 ---
 
+## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
+
+| # | CLAIM | COUNTER | BALANCE |
+|---|-------|---------|---------|
+| C1 | L'axe n'est PAS monolithique: rivalités historiques (Russie-Iran depuis 1828), dépendance asymétrique (Russie vassalisée par la Chine), absence d'idéologie commune | **Fichier 01:** les divisions sont réelles mais l'axe fonctionne MALGRÉ elles. L'absence d'idéologie commune est une force — une alliance transactionnelle est plus flexible. L'Ukraine (3 ans de guerre) a démontré la résilience de l'axe face aux sanctions et aux divisions. | balanced (divisions réelles, mais axe résilient malgré elles) |
+| C2 | L'absence de clause de défense mutuelle rend l'axe structurellement fragile — il se fissurera sous pression | L'Iran fournit des drones à la Russie sans traité formel. La Chine soutient l'économie russe sans alliance militaire. La flexibilité est l'atout de l'axe, pas sa faiblesse. La prédiction d'une « fissure » est un vœu pieux occidental — l'axe a survécu à 3 ans de guerre et de sanctions. | skewed (penche fragilité) → REBALANCE: résilience démontrée de l'axe sous-estimée |
+
+---
+
 ## §10 SOURCES
 
 1. Institut Montaigne — Neutralité stratégique chinoise: https://www.institutmontaigne.org/

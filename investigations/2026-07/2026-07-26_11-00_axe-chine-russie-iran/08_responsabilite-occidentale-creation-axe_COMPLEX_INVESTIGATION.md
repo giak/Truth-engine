@@ -135,6 +135,15 @@ Cette investigation documente la responsabilité occidentale de façon convainca
 
 ---
 
+## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
+
+| # | CLAIM | COUNTER | BALANCE |
+|---|-------|---------|---------|
+| C1 | L'Occident a créé l'axe par 30 ans d'erreurs: expansion OTAN (promesses à Gorbatchev 1990), Irak 2003 (ADM inexistantes), Libye 2011 (dépassement mandat ONU), retrait JCPOA (2018) | **Fichier 01:** les erreurs occidentales sont réelles MAIS elles ne justifient pas l'agression. L'Irak 2003 était une erreur — cela ne légitime pas l'invasion de l'Ukraine en 2022. La Libye 2011 a dépassé le mandat ONU — cela ne légitime pas l'annexion de la Crimée. La causalité historique n'est pas une excuse morale. Le syllogisme « l'Occident a fait X → donc l'axe a raison de faire Y » est un whataboutism. | skewed (penche excuse) → REBALANCE: la distinction causalité historique vs justification morale est sous-développée |
+| C2 | La narrative de l'axe est une prophétie auto-réalisatrice — le discours occidental crée l'ennemi qu'il prétend combattre | **Fichier 06/18:** la prophétie auto-réalisatrice existe (l'axe cite la narrative occidentale comme « preuve » d'hostilité) MAIS l'invasion de l'Ukraine a PRÉCÉDÉ la consolidation de la narrative. La Crimée (2014) et le Donbass (2014-2022) ne sont pas des réactions à une « narrative » — ce sont des invasions. L'axe n'a pas attendu le documentaire Arte pour exister. | balanced (effet boomerang réel, mais l'axe préexiste à la narrative) |
+
+---
+
 ## §9 SOURCES
 
 1. National Security Archive (GWU) — Documents déclassifiés OTAN: https://nsarchive.gwu.edu/

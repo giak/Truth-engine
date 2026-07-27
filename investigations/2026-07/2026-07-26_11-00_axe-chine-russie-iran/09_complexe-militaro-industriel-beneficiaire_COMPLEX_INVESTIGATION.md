@@ -165,6 +165,15 @@ Cette investigation documente le CIRCUIT de l'argent mais ne démontre pas que l
 
 ---
 
+## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
+
+| # | CLAIM | COUNTER | BALANCE |
+|---|-------|---------|---------|
+| C1 | Le complexe militaro-industriel transatlantique est le bénéficiaire structurel de la narrative de menace | **Fichier 01/18:** le CMI bénéficie de la menace MAIS la menace est réelle. Lockheed Martin gagne de l'argent parce que la Russie a envahi l'Ukraine — pas l'inverse. La causalité est Mixte: la menace crée le marché, le marché crée des incitations à exagérer la menace. Les deux sont vrais simultanément. | balanced (bénéfice réel, mais menace aussi réelle) |
+| C2 | Le circuit think tank → média → politique → industrie → think tank est fermé — 100% des experts sont liés à l'industrie de défense | **Fichier 06-C1 corrigé:** l'expertise en défense provient nécessairement d'institutions proches de la défense. Le problème n'est pas le financement — c'est le monopole (0% de voix dissidentes) et l'absence de transparence (aucun expert ne déclare ses liens). La critique du circuit fermé est légitime, mais elle surestime la coordination (biais systémique ≠ conspiration). | balanced (circuit fermé réel, interprétation « conspiration » évitée) |
+
+---
+
 ## §10 SOURCES
 
 1. POLITICO — Defense lobbying EU: https://www.politico.eu/article/defense-industry-lobbying-eu/

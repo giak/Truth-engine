@@ -87,6 +87,15 @@ La Chine exporte activement ses technologies de surveillance et de répression v
 
 ---
 
+## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
+
+| # | CLAIM | COUNTER | BALANCE |
+|---|-------|---------|---------|
+| C1 | La Chine exporte des technologies de surveillance (caméras Tiandi, reconnaissance faciale) vers la Russie (Oculus) et l'Iran — créant un écosystème répressif transnational | Ces technologies sont des produits commerciaux vendus sur un marché mondial. Les mêmes caméras sont vendues à des alliés occidentaux (Arabie Saoudite, EAU). L'« exportation de répression » est une lecture sécuritaire — du point de vue chinois, c'est du commerce normal entre États souverains. La Chine ne force personne. | balanced (fait documenté, cadrage « répressif » = lecture occidentale) |
+| C2 | Un écosystème technologique autoritaire transnational émerge, exporté comme modèle alternatif à la gouvernance démocratique | Les pays acheteurs (Russie, Iran, mais aussi Ouzbékistan, Serbie) choisissent ces technologies pour des raisons de prix et de compatibilité, pas pour adopter un « modèle de gouvernance ». Le marché existe parce que les technologies occidentales sont plus chères et assorties de conditions (droits humains). La Chine comble un vide commercial, elle n'impose pas un modèle. | skewed (penche modèle autoritaire) → REBALANCE: demande autonome des acheteurs sous-estimée |
+
+---
+
 ## §7 SOURCES
 
 1. RFE/RL — Coopération censure sino-russe: https://www.rferl.org/

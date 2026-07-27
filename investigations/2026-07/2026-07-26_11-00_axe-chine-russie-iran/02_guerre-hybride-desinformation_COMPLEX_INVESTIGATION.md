@@ -213,6 +213,15 @@ La coordination Chine-Russie-Iran suit un pattern documenté:
 
 ---
 
+## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
+
+| # | CLAIM | COUNTER | BALANCE |
+|---|-------|---------|---------|
+| C1 | Les trois régimes mènent une guerre de désinformation coordonnée (COVID Fort Detrick, Suède/OTAN, Ukraine) | **Fichier 06:** la guerre informationnelle est symétrique. Les démocraties coordonnent aussi leurs narratives (documentaire Arte/LCP, think tanks OTAN, médias publics). La convergence narrative peut être opportuniste (intérêts parallèles) plutôt que délibérée (coordination). Les données disponibles ne permettent pas de trancher. | balanced (coordination probable, mais symétrie ignorée) |
+| C2 | La désinformation coordonnée érode la confiance dans les institutions démocratiques et sert les intérêts stratégiques de l'axe | La confiance dans les institutions démocratiques s'érode aussi pour des raisons ENDOGÈNES (Irak 2003, crise financière 2008, Gilets Jaunes, COVID). Attribuer cette érosion à la désinformation étrangère surestime l'influence de l'axe et sous-estime les défaillances internes des démocraties. | skewed (penche influence externe) → REBALANCE: causes endogènes sous-estimées |
+
+---
+
 ## §10 SOURCES
 
 1. BBC — Fort Detrick conspiracy: https://www.bbc.com/news/world-us-canada-58273322

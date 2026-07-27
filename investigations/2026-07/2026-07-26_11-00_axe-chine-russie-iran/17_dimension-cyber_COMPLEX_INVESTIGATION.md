@@ -99,6 +99,15 @@ Cette investigation se concentre sur la dimension « souveraineté numérique »
 
 ---
 
+## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
+
+| # | CLAIM | COUNTER | BALANCE |
+|---|-------|---------|---------|
+| C1 | Les trois régimes convergent vers un « splinternet » autoritaire: Grand Firewall chinois, RuNet russe, NIN iranien — architecture commune, fournisseurs communs (Huawei) | La convergence architecturale est réelle MAIS le « splinternet » n'est pas coordonné. Chaque régime développe son infrastructure pour des raisons domestiques (contrôle de la population). Huawei vend à tout le monde (y compris des démocraties). La « convergence » est un effet de marché (un seul fournisseur crédible de censure à grande échelle), pas une conspiration. | balanced (architecture similaire, mais explication par le marché > coordination) |
+| C2 | Il n'y a PAS de coordination opérationnelle des cyberattaques entre les trois régimes — les APT groups agissent indépendamment | L'absence de preuve de coordination n'est pas une preuve d'absence. Les APT groups peuvent partager des outils et des infrastructures sans coordination explicite. La « coopération » peut prendre des formes non tracées (partage de vulnérabilités, formation). Le renseignement est opaque par nature. | balanced (absence de preuve documentée, mais nature du renseignement = opaque) |
+
+---
+
 ## SOURCES
 
 1. CISA — Russian State-Sponsored Cyber Threats: https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-110a

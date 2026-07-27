@@ -163,6 +163,15 @@ La dédollarisation n'est pas du « bricolage de sanctionnés ». C'est un proje
 
 ---
 
+## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
+
+| # | CLAIM | COUNTER | BALANCE |
+|---|-------|---------|---------|
+| C1 | La flotte fantôme (435-600 navires, KSE/Kremlin) rend les sanctions occidentales inefficaces — la Russie exporte son pétrole sans laisser de trace | La flotte fantôme existe mais les sanctions ont un effet réel: le pétrole russe se vend avec une décote de ~20$/baril. Le plafonnement des prix (price cap) fonctionne partiellement. La Russie a perdu son marché européen (remplacé par GNL US). L'inefficacité est partielle, pas totale. | skewed (penche inefficacité) → REBALANCE: sous-estimation de l'effet des sanctions |
+| C2 | La dédollarisation (mBridge, CIPS, CBDCs, monnaies locales) menace la centralité du dollar comme arme de sanction | mBridge a traité 55 G$ — une fraction infime du commerce mondial (32 000 G$/an). Le dollar reste 88% des transactions forex. La dédollarisation est réelle mais lente et fragmentée. Le système alternatif est posé mais pas dominant. | balanced (tendance réelle, échelle surestimée) |
+
+---
+
 ## §9 SOURCES
 
 1. KSE Institute — Sanctions Analytics: https://sanctions.kse.ua/en/sanctions-analytics/

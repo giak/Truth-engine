@@ -99,6 +99,15 @@ Cette investigation traite le programme nucléaire iranien comme une menace — 
 
 ---
 
+## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
+
+| # | CLAIM | COUNTER | BALANCE |
+|---|-------|---------|---------|
+| C1 | L'Iran est un État du seuil nucléaire (enrichissement à 60%, breakout time 2-3 jours) — à un cheveu de l'arme | L'Iran enrichit à 60% mais n'a pas d'ogive testée, pas de vecteur balistique fiable à longue portée, et reste sous vérification AIEA (caméras, inspections). Le « breakout time » de 2-3 jours est théorique — entre la décision politique et l'arme fonctionnelle, le délai réel est de 6-12 mois. La menace est réelle mais pas imminente. | skewed (penche imminence) → REBALANCE: délai réel (6-12 mois) vs théorique (2-3 jours) |
+| C2 | La Russie et la Chine protègent systématiquement l'Iran à l'AIEA, empêchant toute résolution contraignante du Conseil des gouverneurs | La protection est réelle MAIS la Russie et la Chine ont aussi intérêt à un Iran non-nucléaire (pas de course aux armements au Moyen-Orient, pas de déstabilisation régionale). Leur « protection » est un levier diplomatique — pas un blanc-seing pour la bombe. Le retour au JCPOA reste théoriquement possible. | balanced (protection réelle, mais intérêts partiellement convergents avec l'Occident) |
+
+---
+
 ## SOURCES
 
 1. AIEA — Iran Board Reports: https://www.iaea.org/newscenter/focus/iran/iaea-and-iran-iaea-board-reports

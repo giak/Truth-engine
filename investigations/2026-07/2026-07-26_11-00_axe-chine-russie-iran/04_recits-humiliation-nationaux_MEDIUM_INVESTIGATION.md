@@ -107,6 +107,15 @@ Les trois régimes partagent une structure narrative identique:
 
 ---
 
+## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
+
+| # | CLAIM | COUNTER | BALANCE |
+|---|-------|---------|---------|
+| C1 | Les trois régimes instrumentalisent des traumatismes historiques pour justifier leur posture anti-occidentale | **Fichier 08:** les traumatismes sont RÉELS. L'Irak 2003 (ADM inexistantes), la Libye 2011, le retrait du JCPOA (2018) — l'Occident a infligé des humiliations objectives. L'« instrumentalisation » suppose un cynisme que les opinions publiques de ces pays ne partagent pas (adhésion massive aux récits nationaux). | balanced (instrumentalisation réelle, trauma réel aussi) |
+| C2 | Ces récits sont des constructions cyniques servant la propagande de régimes autoritaires, pas des traumatismes légitimes | La notion de « cynisme » est un jugement de valeur occidentalocentré. Les peuples russe, chinois et iranien adhèrent massivement à ces récits. Une narrative partagée par 80%+ de la population n'est pas une « construction » — c'est un consensus national. La qualifier de « cynique » nie l'agentivité des peuples concernés. | skewed (penche cynisme) → REBALANCE: adhésion populaire sous-estimée, jugement occidentalocentré |
+
+---
+
 ## §7 SOURCES
 
 1. Association for Asian Studies — National Humiliation Narrative: https://www.asianstudies.org/publications/eaa/archives/the-national-humiliation-narrative-dealing-with-the-present-by-fixating-on-the-past/
