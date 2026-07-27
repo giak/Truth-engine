@@ -270,7 +270,7 @@ Les huit intervenants non-occidentaux sont tous liés à leur régime respectif 
 
 ### Structure du film : analyse du transcript automatique
 
-Le transcript YouTube du documentaire (818 timecodes, ~94 minutes) permet une analyse quantitative de la répartition des langues — et donc des voix — dans le film.
+Le transcript YouTube du documentaire (818 timecodes, ~94 minutes) permet une analyse quantitative de la répartition des langues, et donc des voix, dans le film.
 
 | Langue | Lignes du transcript | % du transcript | Qui parle |
 |--------|:--------------------:|:---------------:|-----------|
@@ -283,9 +283,9 @@ Le transcript YouTube du documentaire (818 timecodes, ~94 minutes) permet une an
 
 Le transcript comporte également 67 marqueurs `[musique]`, indiquant des transitions de chapitre.
 
-**Ce que ces chiffres confirment :** les voix non-occidentales occupent moins de 3 % du texte parlé du documentaire. Elles apparaissent presque exclusivement dans leur langue d'origine (russe, chinois, farsi) — en citation, en archive, ou en déclaration officielle. Le cadre analytique, lui, est entièrement en français : c'est la voix off et les experts francophones ou anglophones qui structurent le récit, contextualisent les faits, et formulent les conclusions.
+**Ce que ces chiffres confirment :** les voix non-occidentales occupent moins de 3 % du texte parlé du documentaire. Elles apparaissent presque exclusivement dans leur langue d'origine (russe, chinois, farsi) : en citation, en archive, ou en déclaration officielle. Le cadre analytique, lui, est entièrement en français : c'est la voix off et les experts francophones ou anglophones qui structurent le récit, contextualisent les faits, et formulent les conclusions.
 
-**Ce que ces chiffres ne mesurent pas :** le temps de parole réel — une ligne en cyrillique peut correspondre à 2 secondes ou à 20 secondes de discours. Et ils ne distinguent pas les experts des voix off. Ces deux mesures nécessitent un visionnage chronométré.
+**Ce que ces chiffres ne mesurent pas :** le temps de parole réel : une ligne en cyrillique peut correspondre à 2 secondes ou à 20 secondes de discours. Et ils ne distinguent pas les experts des voix off. Ces deux mesures nécessitent un visionnage chronométré.
 
 ### Constats
 
