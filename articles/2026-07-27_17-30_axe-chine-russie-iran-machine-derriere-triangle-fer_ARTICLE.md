@@ -1,6 +1,6 @@
 # ⚙️ La machine derrière le triangle de fer : ce qu'Arte ne montre pas
 
-*94 minutes sur l'axe. Zéro sur l'écosystème qui le cadre.*
+*Arte diffuse en 2026 un film de 2024 sur l'axe Chine-Russie-Iran. Aucune mise à jour. Pendant ce temps, la Corée du Nord est entrée en guerre, l'Iran a été attaqué, et les alliés de Téhéran n'ont pas bougé. Le documentaire est figé. Le monde ne l'est plus. Et la machine qui produit le cadrage, personne ne la regarde.*
 
 ---
 
