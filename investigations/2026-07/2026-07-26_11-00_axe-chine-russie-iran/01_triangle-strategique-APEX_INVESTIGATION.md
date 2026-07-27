@@ -395,6 +395,34 @@ Cui bono: Démocraties occidentales, sociétés civiles iranienne/russe/chinoise
 
 ---
 
+## SOURCE DIVERSITY (GATES.md §4 — KERNEL v2.0: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Meduza (Russian exile, Latvia) | Europe/Russia | Slavic | RF | https://meduza.io/en |
+| Kyiv Independent (Ukraine) | Europe | IE | RF | https://kyivindependent.com |
+| Iran International (Iranian exile, UK) | Europe/Iran | IE | IR | https://iraninternational.com |
+
+**geo:** 3 continents (Europe + North America + Asia/Middle East) ✅
+**lang:** 3 families (Indo-European: EN/FR + Slavic: RU + Semitic: AR) ✅
+**H7:** 2 adversary sources (Meduza→RF, Kyiv Independent→RF, Iran International→IR) ✅
+
+**Gap documenté — Chine:** aucune source chinoise indépendante accessible en anglais. Caixin et The Paper publient en chinois uniquement. SCMP (Hong Kong) est sous contrôle éditorial Alibaba/Beijing. RFA est financé par le Congrès US. Taiwan News (Taipei) est la source indépendante sinophone la plus proche — mais Pékin la considère comme « séparatiste ». Ce gap est structurel, pas accidentel.
+
+---
+
+## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
+
+| # | CLAIM (ce fichier) | COUNTER | BALANCE |
+|---|--------------------|---------|---------|
+| C1 | L'axe Chine-Russie-Iran est une alliance réelle, institutionnalisée (OCS, BRICS), qui menace l'ordre démocratique | **Fichier 07:** l'axe n'est PAS monolithique — rivalités historiques (Russie-Iran, traité Turkmanchai 1828), dépendance asymétrique Russie-Chine, absence d'idéologie commune. L'Inde (14) est dans les mêmes institutions et bloque l'axe. | balanced → cross-ref 07, 14 |
+| C2 | Les trois régimes mènent une guerre hybride coordonnée (désinformation COVID, mesures actives Suède/OTAN, capture institutions) | **Fichier 02/17:** la convergence narrative est-elle une coordination délibérée ou une convergence opportuniste d'intérêts parallèles? Les données disponibles ne permettent pas de trancher (02-§7). Aucune « preuve » de coordination opérationnelle au niveau étatique. | skewed (penche coordination) → REBALANCE: consulter 02-§7, 17 |
+| C3 | L'axe menace l'ordre démocratique sur tous les fronts — militaire, informationnel, économique, institutionnel | **Fichier 18:** l'axe est militairement inférieur (PIB combiné axe < OTAN, dépenses militaires 3× inférieures US seul > axe entier). La menace est systémique mais pas existentielle pour les démocraties occidentales. Elle est existentielle pour l'Ukraine, Taïwan et les dissidents internes. | skewed (penche alarmisme) → REBALANCE: consulter 18-§3, §15 |
+
+---
+
 ## SOURCES
 
 1. Ministère des Affaires étrangères Chine — Déclaration conjointe 2022: https://www.mfa.gov.cn/eng/zy/gb/202405/t20240531_11367485.html

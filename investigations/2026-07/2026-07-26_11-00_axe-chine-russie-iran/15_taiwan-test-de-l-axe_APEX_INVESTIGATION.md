@@ -260,6 +260,7 @@ La véritable menace n'est pas militaire — la Chine peut être dissuadée. Ell
 **H7:** 3 adversary sources (Taiwan News→CN, Taipei Times→CN, Meduza→RF) ✅
 
 **Note spécifique:** Taiwan News et Taipei Times sont des sources taïwanaises directement pertinentes. Pékin les considère comme « séparatistes » — ce sont des H7 au sens du KERNEL.
+**Gap Chine:** aucune source chinoise continentale indépendante en anglais. Taiwan News/Taipei Times sont les sources sinophones indépendantes les plus proches — le chinois (sino-tibétain) reste structurellement inaccessible.
 
 ---
 

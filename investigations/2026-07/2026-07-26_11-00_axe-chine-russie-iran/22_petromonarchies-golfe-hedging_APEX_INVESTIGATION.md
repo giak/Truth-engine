@@ -370,6 +370,7 @@ L'Occident n'a pas perdu le Golfe. Il n'a jamais possédé le Golfe. Il a confon
 **H7:** 1 adversary source (Iran International→IR) ✅
 
 **Note spécifique:** Al Jazeera (Qatar) et Al-Monitor sont des sources moyen-orientales directement pertinentes pour le sujet. AGSIW (Arab Gulf States Institute, Washington) est cité dans le FACT_REGISTRY mais est financé par les EAU — conflit d'intérêts documenté (§14.5). Dawn offre la perspective pakistanaise sur le Golfe.
+**Gap Chine:** non prioritaire pour le sujet Golfe. Pour la couverture de la Chine, voir le fichier 01 (triangle stratégique).
 
 ---
 

@@ -411,6 +411,7 @@ Le documentaire Arte et les think tanks occidentaux qui le soutiennent ont besoi
 **H7:** 2 adversary sources (Dawn→PK rival historique, Taiwan News→CN) ✅
 
 **Note spécifique:** The Wire et The Hindu sont des sources indiennes directement pertinentes pour le sujet — elles étaient déjà citées dans le FACT_REGISTRY (F2, F7, F9, F10, F18). Dawn offre la perspective pakistanaise, rivale de l'Inde et alliée chinoise (CPEC).
+**Gap Chine:** non prioritaire pour le sujet Inde. Pour la couverture de la Chine, voir le fichier 01 (triangle stratégique).
 
 ---
 
