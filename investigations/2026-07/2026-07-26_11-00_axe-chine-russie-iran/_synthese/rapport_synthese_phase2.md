@@ -4,13 +4,14 @@
 **Source:** `_quintessence/` — 19 quintessences Phase 1
 **N total:** 19 | **Régime:** nominal | **Seuil cluster:** 4 fiches (max(4, ceil(19/10)))
 **Méthode:** Co-occurrence acteurs (grep noms propres) et mécanismes (grep M-##) — clustering topologique, pas sémantique.
+**Limite du double filtre :** les acteurs comptabilisés sont ceux que l'analyste a choisi d'extraire dans le §3 de chaque quintessence, eux-mêmes filtrés depuis l'investigation source. Un acteur mentionné 50 fois dans un fichier source mais absent du §3 de la quintessence ne compte pas. Le clustering mesure ce qui a été nommé à travers deux filtres successifs (investigation → quintessence → grep), pas ce qui est présent dans le réel. Ce biais est documenté mais non neutralisable.
 **Version précédente:** v2 (16 quintessences, commit `1d61862`) — cette v3 intègre les 3 nouvelles investigations (23, 24, 25).
 
 ---
 
 ## 1. Vue d'ensemble de l'échantillon
 
-19 quintessences (8 APEX, 8 COMPLEX, 3 MEDIUM). Extraction réelle : 42 acteurs uniques extraits par grep, 56 mécanismes M1-M5.
+19 quintessences (8 APEX, 8 COMPLEX, 3 MEDIUM). Extraction réelle : 42 acteurs uniques extraits par grep, 49 mécanismes numérotés M1-M5 répartis sur 19 fichiers. Note : M1, M2, etc. sont des positions numériques internes à chaque quintessence, pas des identifiants de contenu transversal. Le nombre de mécanismes distincts à contenu différencié est estimé à ~15-20 — non mesuré précisément.
 
 ### Couverture d'ingestion
 
@@ -36,7 +37,8 @@
 | **24_ideologie-axe-test-absence** | **LUE EXHAUSTIVE** | **Poutine, Xi, Khamenei, Wang Huning, Douguine, Chivvis, Blackwill, Fontaine** | **M1** |
 | **25_coree-nord-axe** | **LUE EXHAUSTIVE** | **Kim Jong-un, Poutine, Xi, Khamenei, Kim Yo-jong, Shoigu, No Kwang-chol, Gerasimov** | **M1-M3** |
 
-**Score de complétude :** 19/19 = **100 %** ✅
+**Score de complétude interne :** 19/19 = 100 % (toutes les quintessences ont été lues exhaustivement).
+**Complétude externe non mesurée :** le score ci-dessus mesure uniquement que chaque quintessence produite a été ingérée. Il ne mesure pas la couverture du réel (sources primaires en langue originale, angles absents, acteurs non investigués). Le Sahel, l'Amérique latine au-delà du Brésil, et la totalité des sources en chinois/russe/farsi sont hors scope.
 
 ### Évolution v2→v3
 
@@ -48,13 +50,13 @@
 | Xi Jinping | 6/16 | 9/19 | +3 |
 | Khamenei | 6/16 | 8/19 | +2 |
 | Clusters topologiques | 3 | 3 | inchangé |
-| Clusters idéologiques | 0 | 0 | CONFIRMÉ par 24 |
+| Clusters idéologiques | 0 | 0 | NON RÉFUTÉ par 24 |
 
 ---
 
-## 2. Thèses cardinales par auto-clustering topologique
+## 2. Thèses cardinales — 3 clusters topologiques + 2 propriétés émergentes
 
-> **Note de méthode.** Les thèses ci-dessous émergent de la co-occurrence réelle d'acteurs (grep) et de mécanismes (grep M-##) dans ≥4 quintessences. Aucune thèse n'a été préformulée — les clusters ont été identifiés après extraction. Les scores sont qualitatifs (pas de formule de solidité shadow — voir §7 pour l'explication de cet abandon). **Cette version v3 confirme et renforce les clusters v2 avec des comptes mis à jour.**
+> **Note de méthode.** Les thèses ci-dessous émergent de la co-occurrence réelle d'acteurs (grep) et de mécanismes (grep M-##) dans ≥4 quintessences. Aucune thèse n'a été préformulée — les clusters ont été identifiés après extraction. Les scores sont qualitatifs. **T1, T2, T3 sont des clusters topologiques (co-occurrence ≥4). T4 et T5 sont des propriétés émergentes du dossier — absence (T4) et fragmentation (T5) — et sont structurellement différentes des clusters. Elles sont présentées ici par commodité, pas par équivalence.**
 
 ### T1 — L'AXE A UN LEADERSHIP IDENTIFIABLE ET OPÉRATIONNEL (cluster Poutine-Xi-Khamenei-Wang Yi)
 
@@ -68,10 +70,10 @@
 ### T2 — LE COMPLEXE MILITARO-INDUSTRIEL OCCIDENTAL FORME UN RÉSEAU IDENTIFIABLE (cluster Taiclet-Stoltenberg)
 
 - **Cluster:** Jim Taiclet (Lockheed Martin, 4 fichiers), Jens Stoltenberg (ex-OTAN, 4 fichiers), Armin Papperger (Rheinmetall, 3 fichiers), Patrice Caine (Thales, 3), Héloïse Fayet (IFRI, 3) — co-occurrence dans 06, 09, 10, 18.
-- **Mise à jour v3:** Inchangé. Les 3 nouveaux fichiers (Sud Global, idéologie, Corée du Nord) ne mobilisent pas le CMI occidental. Le cluster CMI est structurellement cantonné aux fichiers de critique du documentaire Arte (06, 09, 10, 18). Cette stabilité confirme que le cluster n'est PAS un artefact aléatoire — il est stable quand on ajoute des fichiers hors-thème.
-- **Ce que le cluster montre:** Les PDG de l'industrie de défense et le secrétaire général de l'OTAN co-occurrent dans 4 fichiers. Le réseau CMI est documenté : financement des think tanks (CEPA, IFRI, IRSEM), contrats d'armement (63 % UE → US), bénéfices records (Rheinmetall +40 %). La stabilité du cluster lors de l'ajout de 3 fichiers hors-thème renforce sa validité (un artefact pur de sélection se diluerait).
+- **Mise à jour v3:** Inchangé. Les 3 nouveaux fichiers (Sud Global, idéologie, Corée du Nord) ne mobilisent pas le CMI occidental, car ils ciblent délibérément d'autres angles (gaps identifiés en v2 : orphelin Corée du Nord, idéologie non testée, multipolarité fragmentée). L'absence de changement de T2 n'est pas une preuve de robustesse — c'est une conséquence attendue du choix des nouveaux fichiers. Un artefact pur de sélection ne se dilue que si les nouveaux fichiers partagent le même scope thématique que les anciens — ce qui n'est pas le cas ici.
+- **Ce que le cluster montre:** Les PDG de l'industrie de défense et le secrétaire général de l'OTAN co-occurrent dans 4 fichiers traitant du documentaire Arte. Le réseau CMI est documenté : financement des think tanks (CEPA, IFRI, IRSEM), contrats d'armement (63 % UE → US), bénéfices records (Rheinmetall +40 %). Le cluster est cantonné à un sous-ensemble thématique — sa « stabilité » reflète que ce sous-ensemble n'a pas été modifié, pas une robustesse intrinsèque.
 - **Ce que le cluster ne montre pas:** Taiclet et Stoltenberg apparaissent ensemble parce que le dossier a été conçu pour exposer le circuit militaro-médiatique. L'inférence de « réseau coordonné » reste FRAGILE.
-- **Force:** SOLIDE sur les liens financiers, FRAGILE sur l'inférence de coordination. Cluster stable (v2=v3) — signe de robustesse.
+- **Force:** SOLIDE sur les liens financiers, FRAGILE sur l'inférence de coordination. Cluster stable v2=v3 par construction (les nouveaux fichiers ne partagent pas le scope thématique de T2).
 - **F-##/M-## sous-jacents:** 06-F2 (CEPA Lockheed), 06-F3 (IFRI Thales/Airbus), 09-F2 (63 % contrats UE→US), 09-F4 (CEPA financement), 09-F8 (Rheinmetall +40 %), 10-F2 (experts industrie)
 
 ### T3 — LE CONTOURNEMENT DES SANCTIONS EST LE MÉCANISME LE PLUS TRANSVERSAL DE L'AXE (cluster mécanismes)
@@ -83,18 +85,18 @@
 - **Force:** SOLIDE sur la centralité du mécanisme (5 fichiers, en croissance v2→v3), SPÉCULATIF sur l'efficacité.
 - **F-##/M-## sous-jacents:** 01-M3, 03-M1, 03-F1 (flotte fantôme 435-600), 03-F9 (mBridge 55 G$), 15-M2, 15-F5 (mBridge/e-CNY), 18-M1, 25-M2 (coopération missile NK-Iran → contournement sanctions)
 
-### T4 — AUCUN CLUSTER IDÉOLOGIQUE N'ÉMERGE — CONFIRMÉ PAR L'INVESTIGATION 24 (absence comme résultat vérifié)
+### T4 — AUCUN CLUSTER IDÉOLOGIQUE N'ÉMERGE — HYPOTHÈSE NON RÉFUTÉE PAR L'INVESTIGATION 24 (absence, vérification interne)
 
 - **Cluster:** Aucun mécanisme idéologique (idéologie commune, valeurs partagées, vision du monde) n'atteint le seuil de 4 co-occurrences. Aucun acteur « idéologue » (Wang Huning, Douguine) n'apparaît dans ≥4 fichiers. **Le fichier 24 a été spécifiquement conçu pour tester cette absence — et la confirme.**
-- **Mise à jour v3 (SIGNIFICATIVE):** En v2, T4 était un signal d'absence (SUGGESTIF). En v3, l'investigation 24 (MEDIUM, 8 faits, 1 chaîne causale) démontre que : (a) les trois régimes ont des traditions intellectuelles incompatibles (confucianisme-marxiste / eurasisme-orthodoxie / islam politique chiite), (b) le seul dénominateur commun est défensif (souveraineté comme rempart), (c) les déclarations communes (Xi-Poutine 2022, OCS, BRICS) évitent soigneusement tout langage idéologique positif. T4 passe de SUGGESTIF à CONFIRMÉ.
+- **Mise à jour v3 (SIGNIFICATIVE):** En v2, T4 était un signal d'absence (SUGGESTIF). En v3, l'investigation 24 (MEDIUM, 8 faits, 1 chaîne causale) a testé l'hypothèse et ne l'a pas réfutée : (a) les trois régimes ont des traditions intellectuelles incompatibles (confucianisme-marxiste / eurasisme-orthodoxie / islam politique chiite), (b) le seul dénominateur commun est défensif (souveraineté comme rempart), (c) les déclarations communes (Xi-Poutine 2022, OCS, BRICS) évitent soigneusement tout langage idéologique positif. T4 passe de SUGGESTIF à NON RÉFUTÉ. **Limite importante :** l'investigation 24 a été conduite par le même analyste que le reste du dossier, avec les mêmes sources occidentales (Foreign Affairs, CFR), sans analyse textuelle primaire des discours en langue originale. Il ne s'agit pas d'une vérification indépendante.
 - **Ce que l'absence montre:** L'axe Chine-Russie-Iran est une alliance d'intérêts, pas de valeurs. La narrative du documentaire Arte qui présente l'axe comme un « bloc » cohérent est contredite par l'absence de cluster idéologique ET par l'investigation dédiée (24).
-- **Force:** CONFIRMÉ par investigation dédiée (24). Le « souverainisme » est une anti-idéologie fonctionnelle — suffisante pour la coopération tactique, insuffisante pour une alliance stratégique durable.
+- **Force:** NON RÉFUTÉ par investigation dédiée (24) — mais vérification interne, pas indépendante. Le « souverainisme » est une anti-idéologie fonctionnelle — suffisante pour la coopération tactique, insuffisante pour une alliance stratégique durable.
 - **F-##/M-## sous-jacents:** 24-F1 (Xi-Poutine 2022: aucun langage idéologique), 24-F2 (Chivvis: « axe de bouleversement », pas bloc), 24-F3 (Blackwill & Fontaine: transactionnel), 24-F4 (souveraineté = seul dénominateur), 24-F8 (charte SCO: zéro « valeurs communes »), 04-M1 (récits d'humiliation comme substitut fonctionnel)
 
 ### T5 — LA MULTIPOLARITÉ EST DOCUMENTÉE MAIS SES ACTEURS RESTENT TROP SPÉCIFIQUES POUR FORMER UN CLUSTER (signal fragmenté, inchangé v3)
 
 - **Cluster:** Aucun acteur « multipolaire » n'atteint le seuil de 4. Modi (3 fichiers: 07, 14, 23), MBS (3 fichiers: 16, 22, 23), Erdogan (2 fichiers: 07, 23), Lula (1 fichier: 23), Ramaphosa (1 fichier: 23), Prabowo (1 fichier: 23). **L'investigation 23 (Sud Global) a été conçue pour agréger ce signal — mais au lieu de créer un cluster, elle a ajouté 5 nouveaux acteurs sous le seuil.**
-- **Mise à jour v3 (INSTRUCTIVE):** L'ajout du fichier 23 ne crée PAS de cluster multipolaire. Il confirme le diagnostic de la v2 : le signal multipolaire est massif qualitativement (Inde 5 forums, Golfe hedging, 50+ pays abstention ONU, Brésil-Chine 171 G$) mais structurellement fragmenté par l'architecture du dossier (un pays = un fichier). L'échec du fichier 23 à créer un cluster valide rétrospectivement le diagnostic de la v2 : ce n'était pas un gap à combler, c'était une propriété émergente du dossier.
+- **Mise à jour v3 (INSTRUCTIVE):** L'ajout du fichier 23 ne crée PAS de cluster multipolaire. Ce résultat confirme le diagnostic de la v2 : le signal multipolaire est massif qualitativement (Inde 5 forums, Golfe hedging, 50+ pays abstention ONU, Brésil-Chine 171 G$) mais structurellement fragmenté par l'architecture du dossier (un pays = un fichier). Le fichier 23 n'a pas « échoué » — il a documenté que la multipolarité n'est pas structurée en réseau d'acteurs co-occurrents, ni dans les données du dossier, ni probablement dans le monde réel (pas de coordination entre Lula, Modi, MBS, Ramaphosa).
 - **Force:** RÉEL mais FRAGMENTÉ. L'agrégation en « thèse multipolaire » reste une inférence du rapport, pas un cluster topologique.
 - **F-##/M-## sous-jacents:** 23-F1 (Brésil-Chine 171 G$), 23-F3 (Afrique du Sud abstention ONU), 23-F5 (Turquie OTAN+S-400+BRICS), 23-F6 (Indonésie BRICS+ 2025), 14-F12 (Inde 5 forums), 22-F1 (Arabie Saoudite refuse BRICS), 22-F6 (Qatar base US+Hamas+Iran)
 
@@ -112,7 +114,7 @@
 ### TR2 — Taiclet et Stoltenberg forment l'unique contre-cluster identifiable (T2), structurellement symétrique à T1
 
 - **Thèses reliées:** T2 (CMI) ↔ T1 (leadership axe)
-- **Nature:** Symétrie structurelle STABLE. Le dossier produit DEUX réseaux d'acteurs identifiables : les leaders de l'axe (Poutine, Xi, Khamenei — T1) et les leaders du CMI occidental (Taiclet, Stoltenberg — T2). **La stabilité de T2 lors de l'ajout de 3 fichiers hors-thème (v2=v3) renforce la validité du cluster : il n'est pas un artefact aléatoire.** Les deux clusters émergent de la même méthode (co-occurrence dans ≥4 fichiers). Les deux sont partiellement des artefacts de sélection. Cette symétrie est le fait le plus significatif du clustering.
+- **Nature:** Symétrie structurelle. Le dossier produit DEUX réseaux d'acteurs identifiables : les leaders de l'axe (Poutine, Xi, Khamenei — T1) et les leaders du CMI occidental (Taiclet, Stoltenberg — T2). Les deux clusters émergent de la même méthode (co-occurrence dans ≥4 fichiers). Les deux sont partiellement des artefacts de sélection. **T2 n'a pas changé en v3 parce que les nouveaux fichiers ne partagent pas son scope thématique — pas parce que le cluster serait intrinsèquement robuste.** Cette symétrie reste le fait le plus significatif du clustering, mais son interprétation doit tenir compte de l'asymétrie des volumétries (Poutine:10 vs Taiclet:4).
 - **Format pivot:** `[T1 (Poutine:10, Xi:9, Khamenei:8) ↔ T2 (Taiclet:4, Stoltenberg:4)]`
 - **F-##/M-## sous-jacents:** T1-F1, T1-F3, T2-F2 (CEPA Lockheed), T2-F4 (CEPA financement), 18-F12 (think tanks intéressés)
 
@@ -155,10 +157,10 @@
 
 ### Surprises (post-extraction v3)
 
-1. **Poutine = 10/19.** L'acteur le plus transversal du dossier. Ce n'était pas évident a priori — Xi Jinping, chef de la puissance dominante de l'axe, est à 9. Poutine est le véritable pont entre tous les clusters.
-2. **Ajouter 3 fichiers n'a pas changé les clusters.** Les structures T1, T2, T3 sont stables (v2=v3). C'est un signe de robustesse : le clustering n'est pas un artefact volatile. Les 3 nouveaux fichiers ont renforcé les clusters existants (comptes en hausse) sans en créer de nouveaux.
-3. **L'investigation 23 confirme rétrospectivement le diagnostic de fragmentation de la v2.** Le fichier a été conçu pour agréger le signal multipolaire — mais au lieu de créer un cluster, il a ajouté 5 acteurs différents sous le seuil. La fragmentation n'était pas un gap à combler — c'était une propriété émergente.
-4. **L'investigation 24 valide T4 (absence d'idéologie).** Ce qui était un « signal d'absence » en v2 devient un « résultat confirmé » en v3. L'axe n'a pas d'idéologie commune — et on a testé l'hypothèse inverse.
+1. **Poutine = 10/19.** L'acteur le plus transversal du dossier. Conséquence attendue de la centralité de la guerre en Ukraine (dont la Russie est l'agresseur) et du nombre de fichiers où la Russie est l'acteur central. Xi Jinping est à 9 — la différence est marginale.
+2. **Ajouter 3 fichiers n'a pas changé les clusters — mais c'était prévisible.** Les structures T1, T2, T3 sont stables (v2=v3) parce que les nouveaux fichiers ciblaient délibérément les gaps identifiés en v2 (Corée du Nord, idéologie, multipolarité), pas les clusters existants. La stabilité n'est pas une découverte — c'est une conséquence de la sélection des fichiers.
+3. **L'investigation 23 n'a pas créé de cluster multipolaire — et ce n'est pas un échec.** Le fichier a documenté que la multipolarité n'est pas structurée en réseau d'acteurs co-occurrents, ni dans les données du dossier, ni dans le monde réel (pas de coordination entre Lula, Modi, MBS, Ramaphosa). C'est un résultat.
+4. **L'investigation 24 n'a pas réfuté l'hypothèse d'absence d'idéologie commune.** Ce qui était un « signal d'absence » en v2 devient une « hypothèse non réfutée » en v3. L'axe n'a pas d'idéologie commune — selon les sources disponibles. Limite : vérification interne, pas indépendante, sans analyse textuelle primaire en langue originale.
 5. **L'investigation 25 révèle Kim Jong-un comme acteur de l'axe — mais à 1 occurrence.** Documenté, nommé, vérifié — mais structurellement périphérique dans le clustering.
 
 ### Zones d'ombre persistantes
@@ -199,8 +201,7 @@ La version v1 de ce rapport utilisait une formule numérique `score = max(0, con
 
 ### Score de complétude
 
-- **N cités ≥1×:** 19/19 = **100 %** ✅
-- **Mode:** strict — toutes les quintessences sont ingérées exhaustivement
+- **N cités ≥1×:** 19/19 = 100 % (complétude interne uniquement — voir §1 pour la distinction complétude interne/externe).
 
 ### Limites structurelles
 
@@ -208,6 +209,7 @@ La version v1 de ce rapport utilisait une formule numérique `score = max(0, con
 2. **Biais KERNEL.** SUSPICION_BASELINE = 95 % pour les discours officiels occidentaux. Documenté (fichier 19) mais structurellement non neutralisable.
 3. **Architecture du dossier comme artefact.** Voir §6-F1.
 4. **Absence de sources primaires classifiées.** Coordination militaire réelle, accords secrets — inaccessibles.
+5. **Double filtre d'extraction.** Les acteurs comptabilisés dans le clustering ont traversé deux filtres subjectifs : (a) l'analyste qui a rédigé l'investigation source choisit quels acteurs nommer, (b) l'analyste qui a produit la quintessence choisit quels acteurs extraire dans le §3. Un acteur mentionné 50 fois dans une source mais omis du §3 de la quintessence n'existe pas dans le clustering. Ce biais est documenté mais non mesuré.
 
 ---
 
@@ -228,15 +230,17 @@ La version v1 de ce rapport utilisait une formule numérique `score = max(0, con
 
 ## 9. Recommandation CP1 (Article Oui/Non)
 
-<RECOMMANDATION:OUI>
+<RECOMMANDATION:OUI — CONDITIONNEL>
 
-**Avec les réserves suivantes (mises à jour v3) :**
+**Condition explicite : l'article doit faire de ses propres limites méthodologiques un pilier narratif, pas une note de bas de page. Sans cette transparence, l'article reproduirait le problème qu'il dénonce (une narrative qui présente comme objectif ce qui est structurellement biaisé).**
 
-1. Le clustering topologique confirme DEUX réseaux d'acteurs identifiables (leaders de l'axe, CMI occidental) avec une rigueur symétrique. **La stabilité v2→v3 des deux clusters (inchangés par l'ajout de 3 fichiers) renforce la confiance dans cette base.** MAIS les clusters sont partiellement des artefacts de l'architecture du dossier — l'article devra le dire.
+**Réserves (mises à jour v3) :**
+
+1. Le clustering topologique confirme DEUX réseaux d'acteurs identifiables (leaders de l'axe, CMI occidental). MAIS les clusters sont partiellement des artefacts de l'architecture du dossier, et T2 est cantonné à un sous-ensemble thématique (les fichiers sur le documentaire Arte). L'article devra le dire.
 
 2. Le contournement des sanctions est le seul mécanisme transversal (5 fichiers, en croissance). L'article devrait en faire un pilier structurel, pas un exemple parmi d'autres. **La Corée du Nord (25) ajoute un chaînon au mécanisme : coopération NK-Iran sur le contournement.**
 
-3. L'absence de cluster idéologique (T4) est désormais CONFIRMÉE par investigation dédiée (24), pas seulement suggérée par l'absence. C'est un résultat publiable.
+3. L'absence de cluster idéologique (T4) est une hypothèse NON RÉFUTÉE par l'investigation 24 — pas une confirmation indépendante. L'article doit présenter ce résultat comme tel, avec la limite explicite que la vérification est interne et que l'analyse textuelle primaire des discours en langue originale n'a pas été faite.
 
 4. La multipolarité (T5) reste fragmentée malgré l'investigation d'agrégation (23). **Ce n'est pas un échec — c'est un résultat.** L'article doit documenter que le signal multipolaire est massif qualitativement mais structurellement non agrégeable dans le cadre topologique. C'est une propriété du monde (pas de « bloc » du Sud global), pas une faiblesse du dossier.
 
@@ -245,19 +249,23 @@ La version v1 de ce rapport utilisait une formule numérique `score = max(0, con
 6. Les scores numériques de « solidité » ont été abandonnés. L'article ne doit pas utiliser de pseudo-précision quantitative.
 
 - **Thèse fil rouge:** La narrative du « triangle de fer » et sa critique sont DEUX constructions qui documentent des faits réels — l'axe existe (T1, renforcé par 25), sa menace est amplifiée par un circuit militaro-médiatique identifiable (T2, stable v2→v3), l'axe n'a PAS d'idéologie commune (T4, confirmé par 24), et le monde multipolaire émergent (T5, documenté par 23) invalide le cadrage binaire des deux camps.
-- **Angle:** Le dossier a découvert, presque malgré lui, que sa propre architecture produit DEUX réseaux en miroir (leaders de l'axe ↔ CMI occidental). **Cette symétrie est stable (v2=v3) et constitue la propriété émergente la plus robuste.** L'article doit l'exposer comme résultat central — pas comme un « équilibre » artificiel, mais comme une découverte méthodologique.
-- **Ton:** Forensic, symétrique, explicitement conscient de ses propres artefacts. Ni alarmiste, ni complaisant. La posture n'est pas « nous avons raison » mais « voici ce que les données montrent — et voici ce qu'elles ne montrent pas. » **Avec 19 investigations, 42 acteurs nommés, 56 mécanismes — la granularité est suffisante pour un article de 8 000-10 000 mots.**
+- **Angle:** Le dossier a documenté DEUX réseaux en miroir (leaders de l'axe ↔ CMI occidental). Cette symétrie est réelle mais asymétrique en volumétrie (Poutine:10 vs Taiclet:4). L'article doit l'exposer comme une propriété émergente — pas comme un « équilibre », mais comme le produit d'une architecture de dossier qui a cherché les deux angles avec une rigueur comparable. La symétrie du résultat est partiellement un artefact de la symétrie de la méthode.
+- **Ton:** Forensic, symétrique, explicitement conscient de ses propres artefacts. Ni alarmiste, ni complaisant. La posture n'est pas « nous avons raison » mais « voici ce que les données montrent — et voici ce qu'elles ne montrent pas. » **Avec 19 investigations, 42 acteurs nommés — la granularité est suffisante pour un article de 8 000-10 000 mots. La principale contrainte n'est pas le matériau mais la transparence sur ses limites.**
 
 ---
 
-## Annexe A — Trajectoire du rapport Phase 2
+## Annexe A — Itérations du rapport Phase 2
 
-| Version | Quintessences | Date | Clusters | Méthode | CP1 |
-|---------|:------------:|------|----------|---------|-----|
-| v1 (rejetée) | 16 | 27/07 15:00 | 5 (sémantique, scores numériques) | Clustering manuel + formule solidité shadow | OUI sans réserves |
-| v2 (corrigée) | 16 | 27/07 15:15 | 3 clusters + 2 signaux (topologique) | grep acteurs + M-##, scores qualitatifs | OUI avec 5 réserves |
-| **v3 (courante)** | **19** | **27/07 16:00** | **3 clusters + 2 signaux (topologique, renforcé)** | **grep acteurs + M-##, clusters stables v2→v3, T4 CONFIRMÉ par 24** | **OUI avec 6 réserves** |
+Ce rapport a connu 3 itérations par le même analyste, sans validation externe à aucune étape. Les améliorations sont incrémentales et reflètent un raffinement itératif normal, pas une progression linéaire vers une « vérité ».
+
+| Version | Quintessences | Date | Changement principal |
+|---------|:------------:|------|----------------------|
+| v1 | 16 | 27/07 15:00 | Clustering sémantique manuel + formule solidité shadow numérique. **Rejetée** : scores fabriqués, clustering non topologique, CP1 sans réserves. |
+| v2 | 16 | 27/07 15:15 | Clustering topologique réel (grep acteurs + M-##), scores qualitatifs, 5 réserves. **Correction majeure** de la méthode mais mêmes limites de sources. |
+| **v3** | **19** | **27/07 16:00** | **+3 fichiers (23, 24, 25), clusters inchangés (attendu), T4 testé et non réfuté, double filtre documenté, CP1 conditionnel.** |
+
+**Note :** les versions sont numérotées v1→v2→v3 par commodité, pas pour suggérer une progression téléologique. Chaque version corrige des problèmes de la précédente tout en introduisant ou perpétuant ses propres angles morts.
 
 ---
 
-**Fin du rapport Phase 2 v3.** Clustering topologique réel (grep acteurs + M-##) sur 19 quintessences. 3 clusters + 2 signaux. 3 transversalités. Scores qualitatifs. T4 CONFIRMÉ. T5 structurellement fragmenté (propriété émergente). CP1 = OUI avec 6 réserves. Stabilité v2→v3 documentée.
+**Fin du rapport Phase 2 v4 (corrigé).** Clustering topologique réel (grep acteurs + M-##) sur 19 quintessences. 3 clusters + 2 propriétés émergentes. 3 transversalités. Scores qualitatifs. T4 NON RÉFUTÉ (vérification interne). T5 structurellement fragmenté (propriété émergente). CP1 = OUI CONDITIONNEL. Double filtre + complétude externe non mesurée documentés.
