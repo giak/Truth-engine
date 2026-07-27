@@ -215,70 +215,70 @@ La qualification la plus précise est celle d'un documentaire géopolitique à t
 
 ## Sources
 
-[^1]: Déclaration conjointe Xi-Poutine, 4 février 2022, Kremlin.ru ; Admission de l'Iran à l'OCS, 4 juillet 2023, Communiqué du sommet de New Delhi, sectsco.org.
+[^1]: Déclaration conjointe Xi-Poutine, 4 février 2022. URL : https://en.kremlin.ru/supplement/5770. Admission de l'Iran à l'OCS, Communiqué du sommet de New Delhi, 4 juillet 2023. URL : https://eng.sectsco.org/20230704/declaration-of-the-council-of-heads-of-state-of-the-shanghai-cooperation-organization-114525/.
 
-[^2]: Arte, page officielle du documentaire : arte.tv/fr/videos/114207-000-A/russie-chine-iran-la-revanche-des-empires. Texte exact : « Ils mobilisent de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées. » Consulté le 27 juillet 2026. IFRI, page reprenant la présentation officielle : ifri.org/fr/presse-contenus-repris-sur-le-site/russie-chine-iran-la-revanche-des-empires. Synopsis du producteur CC&C (cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires) : « Leur objectif commun : mettre un terme à l'hégémonie occidentale [...] Pour y arriver, ils mènent contre les démocraties une guerre hybride. »
+[^2]: Arte, page officielle du documentaire. URL : https://www.arte.tv/fr/videos/114207-000-A/russie-chine-iran-la-revanche-des-empires/. Texte exact : « Ils mobilisent de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées. » Consulté le 27 juillet 2026. IFRI, page reprenant la présentation officielle. URL : https://www.ifri.org/fr/espace-media/actus-ifri/russie-chine-iran-revanche-empires. Synopsis du producteur CC&C. URL : https://www.cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires. « Leur objectif commun : mettre un terme à l'hégémonie occidentale [...] Pour y arriver, ils mènent contre les démocraties une guerre hybride. »
 
-[^3]: UK Ministry of Defence, Defence Intelligence update on Ukraine, 22 juillet 2022 ; responsables américains et britanniques, déclarations publiques sur le déploiement de personnel iranien en Crimée, 2022-2023. Institute for the Study of War, « Iran's support to Russian military operations in Ukraine », 2023, understandingwar.org.
+[^3]: UK Ministry of Defence, Defence Intelligence update on Ukraine, 22 juillet 2022. URL : https://x.com/DefenceHQ/status/1550355179622600704. Responsables américains et britanniques, déclarations publiques sur le déploiement de personnel iranien en Crimée, 2022-2023. Institute for the Study of War, « Iran's support to Russian military operations in Ukraine », 2023. URL : https://understandingwar.org/backgrounder/iran-update-special-report-november-9-2023.
 
-[^4]: Transcript automatique du documentaire. Timecodes indicatifs. Les citations exactes doivent être vérifiées contre la bande sonore originale. Arte, « Russie, Chine, Iran : la revanche des empires », rediffusion YouTube du 16 janvier 2026 : youtube.com/watch?v=WLx6C3FrGJU.
+[^4]: Transcript automatique du documentaire. Timecodes indicatifs. Les citations exactes doivent être vérifiées contre la bande sonore originale. Arte, « Russie, Chine, Iran : la revanche des empires », rediffusion YouTube du 16 janvier 2026. URL : https://www.youtube.com/watch?v=WLx6C3FrGJU.
 
-[^5]: Assemblée générale des Nations unies, résolution ES-11/1, 2 mars 2022 : 141 pour, 5 contre, 35 abstentions, 12 non-participants.
+[^5]: Assemblée générale des Nations unies, résolution ES-11/1, 2 mars 2022 : 141 pour, 5 contre, 35 abstentions, 12 non-participants. URL : https://digitallibrary.un.org/record/3965290.
 
-[^6]: Déclaration universelle des droits de l'homme, vote du 10 décembre 1948 : 48 pour, 0 contre, 8 abstentions (URSS, RSS de Biélorussie, Tchécoslovaquie, Pologne, RSS d'Ukraine, Yougoslavie, Arabie saoudite, Union sud-africaine), 2 absents. Procès-verbal de l'Assemblée générale, 183e séance plénière.
+[^6]: Déclaration universelle des droits de l'homme, vote du 10 décembre 1948 : 48 pour, 0 contre, 8 abstentions (URSS, RSS de Biélorussie, Tchécoslovaquie, Pologne, RSS d'Ukraine, Yougoslavie, Arabie saoudite, Union sud-africaine), 2 absents. Procès-verbal de l'Assemblée générale, 183e séance plénière. URL : https://digitallibrary.un.org/record/666853.
 
-[^7]: U.S. Energy Information Administration, « China imported record amounts of crude oil in 2023 », 26 mars 2024, eia.gov.
+[^7]: U.S. Energy Information Administration, « China imported record amounts of crude oil in 2023 », 26 mars 2024. URL : https://www.eia.gov/todayinenergy/detail.php?id=64131.
 
-[^8]: AIEA, « NPT Safeguards Agreement with the Islamic Republic of Iran », rapport du directeur général au Conseil des gouverneurs, GOV/2024/62, 19 novembre 2024, iaea.org. Le rapport documente la présence de matières nucléaires non déclarées et l'absence d'explications crédibles de la part de l'Iran, sans déclarer l'ensemble du programme nucléaire iranien illégal. L'Iran reste partie au TNP et conserve un accord de garanties avec l'AIEA.
+[^8]: AIEA, « NPT Safeguards Agreement with the Islamic Republic of Iran », rapport du directeur général au Conseil des gouverneurs, GOV/2024/62, 19 novembre 2024. URL : https://www.iaea.org/sites/default/files/24/11/gov2024-62.pdf. Le rapport documente la présence de matières nucléaires non déclarées et l'absence d'explications crédibles de la part de l'Iran, sans déclarer l'ensemble du programme nucléaire iranien illégal. L'Iran reste partie au TNP et conserve un accord de garanties avec l'AIEA.
 
-[^9]: Charte de l'Organisation de coopération de Shanghai, signée le 7 juin 2002, sectsco.org.
+[^9]: Charte de l'Organisation de coopération de Shanghai, signée le 7 juin 2002. URL : https://www.refworld.org/legal/constinstr/asia/2002/en/150194.
 
-[^10]: Histoire officielle des BRICS, brics.br ; Première réunion ministérielle BRIC, 20 septembre 2006, New York.
+[^10]: Histoire officielle des BRICS. URL : https://www.gov.br/mre/en/subjects/international-mechanisms/inter-regional-mechanisms/brics. Première réunion ministérielle BRIC, 20 septembre 2006, New York.
 
-[^11]: Nils Adler, « Where are Iran's allies? Why Moscow, Beijing are keeping their distance », Al Jazeera, 5 mars 2026, aljazeera.com/features/2026/3/5/where-are-irans-allies-why-moscow-beijing-are-keeping-their-distance ; Al Jazeera, « How extensive is Russia's military aid to Iran? », 27 mars 2026, aljazeera.com/news/2026/3/27/how-extensive-is-russias-military-aid-to-iran. Des livraisons d'armes, de composants et une assistance en renseignement ont été rapportées sans que Moscou ou Pékin n'engagent de forces dans une défense militaire directe.
+[^11]: Nils Adler, « Where are Iran's allies? Why Moscow, Beijing are keeping their distance », Al Jazeera, 5 mars 2026. URL : https://www.aljazeera.com/features/2026/3/5/where-are-irans-allies-why-moscow-beijing-are-keeping-their-distance. Al Jazeera, « How extensive is Russia's military aid to Iran? », 27 mars 2026. URL : https://www.aljazeera.com/news/2026/3/27/how-extensive-is-russias-military-aid-to-iran. Des livraisons d'armes, de composants et une assistance en renseignement ont été rapportées sans que Moscou ou Pékin n'engagent de forces dans une défense militaire directe.
 
-[^12]: CNC, Fonds de soutien audiovisuel. PROCIREP et ANGOA-AGICOA sont des organismes de gestion collective liés aux producteurs et ayants droit, distincts des établissements publics.
+[^12]: CNC, Fonds de soutien audiovisuel. URL : https://www.cnc.fr/professionnels/aides-et-financements. PROCIREP et ANGOA-AGICOA sont des organismes de gestion collective liés aux producteurs et ayants droit, distincts des établissements publics.
 
-[^13]: CEPA, « Our Supporters », cepa.org/about-cepa/our-supporters. Liste des soutiens pour l'année fiscale 2025 incluant Lockheed Martin Corporation, American Rheinmetall Defense et General Atomics. Consulté le 27 juillet 2026.
+[^13]: CEPA, « Our Supporters ». URL : https://cepa.org/about-cepa/our-supporters/. Liste des soutiens pour l'année fiscale 2025 incluant Lockheed Martin Corporation, American Rheinmetall Defense et General Atomics. Consulté le 27 juillet 2026.
 
-[^14]: IFRI, « Donateurs », ifri.org/fr/donateurs. Donateurs incluant Thales, KNDS, MBDA, Naval Group, Safran, SGDSN. Consulté le 27 juillet 2026. La participation de la DGA à des conférences de l'IFRI est documentée ; elle n'équivaut pas à un financement direct.
+[^14]: IFRI, « Donateurs ». URL : https://www.ifri.org/fr/donateurs. Donateurs incluant Thales, KNDS, MBDA, Naval Group, Safran, SGDSN. Consulté le 27 juillet 2026. La participation de la DGA à des conférences de l'IFRI est documentée ; elle n'équivaut pas à un financement direct.
 
-[^15]: IRSEM, présentation officielle, irsem.fr. Organisme du ministère des Armées, rattaché à la Direction générale des relations internationales et de la stratégie (DGRIS).
+[^15]: IRSEM, présentation officielle. URL : https://www.irsem.fr. Organisme du ministère des Armées, rattaché à la Direction générale des relations internationales et de la stratégie (DGRIS).
 
-[^16]: IRIS, étude citée dans le rapport Draghi sur la compétitivité européenne, septembre 2024. L'estimation IRIS concluait que 78 % des dépenses d'acquisition étudiées allaient à des fournisseurs non européens, dont 63 % aux États-Unis. Ce périmètre excluait une partie des achats domestiques.
+[^16]: IRIS, étude citée dans le rapport Draghi sur la compétitivité européenne, septembre 2024. L'estimation IRIS concluait que 78 % des dépenses d'acquisition étudiées allaient à des fournisseurs non européens, dont 63 % aux États-Unis. Ce périmètre excluait une partie des achats domestiques. URL du rapport Draghi : https://commission.europa.eu/topics/eu-competitiveness/draghi-report_fr.
 
-[^17]: Ben Schreer, « Europe's defence procurement since 2022: a reassessment », IISS, 23 octobre 2024, iiss.org/online-analysis/military-balance/2024/10/europes-defence-procurement-since-2022-a-reassessment ; IISS, actualisation mi-2025. L'IISS évalue la part américaine à 34 % jusqu'en septembre 2024 et à environ 36 % jusqu'à mi-2025 sur un périmètre incluant les achats domestiques.
+[^17]: Ben Schreer, « Europe's defence procurement since 2022: a reassessment », IISS, 23 octobre 2024. URL : https://www.iiss.org/online-analysis/military-balance/2024/10/europes-defence-procurement-since-2022-a-reassessment/. IISS, actualisation mi-2025. L'IISS évalue la part américaine à 34 % jusqu'en septembre 2024 et à environ 36 % jusqu'à mi-2025 sur un périmètre incluant les achats domestiques.
 
-[^18]: Agence internationale de l'énergie, rapports mensuels sur le marché pétrolier, 2023-2024 ; Données douanières chinoises sur les exportations de semi-conducteurs vers la Russie, 2023-2024.
+[^18]: Agence internationale de l'énergie, rapports mensuels sur le marché pétrolier, 2023-2024. URL : https://www.iea.org/reports/oil-market-report-december-2024. Données douanières chinoises sur les exportations de semi-conducteurs vers la Russie, 2023-2024.
 
-[^19]: Quad (Quadrilateral Security Dialogue), diplomatic statements, 2023-2026 ; OCS, membres permanents incluant l'Inde depuis 2017.
+[^19]: Quad (Quadrilateral Security Dialogue), déclarations officielles, 2023-2026. URL : https://www.dfat.gov.au/international-relations/regional-architecture/quad. OCS, membres permanents incluant l'Inde depuis 2017. URL : https://eng.sectsco.org/members/.
 
-[^20]: Narendra Modi à Vladimir Poutine, sommet de l'OCS, Samarcande, 16 septembre 2022.
+[^20]: Narendra Modi à Vladimir Poutine, sommet de l'OCS, Samarcande, 16 septembre 2022. URL : https://www.mea.gov.in/Speeches-Statements.htm?dtl/35726.
 
-[^21]: Banque des règlements internationaux, « Project mBridge reaches minimum viable product stage », 5 juin 2024, bis.org.
+[^21]: Banque des règlements internationaux, « Project mBridge reaches minimum viable product stage », 5 juin 2024. URL : https://www.bis.org/press/p240605.htm.
 
-[^22]: Banque populaire de Chine, accord de swap de 50 milliards de yuans avec la banque centrale saoudienne, 2023.
+[^22]: Banque populaire de Chine et banque centrale saoudienne, accord de swap de 50 milliards de yuans, 2023. URL : https://www.reuters.com/markets/currencies/china-saudi-arabia-central-banks-sign-local-currency-swap-agreement-2023-11-20/.
 
-[^23]: Price Cap Coalition, « Oil Price Cap Compliance and Enforcement Alert », gov.uk, décembre 2024.
+[^23]: Price Cap Coalition, « Oil Price Cap Compliance and Enforcement Alert », décembre 2024. URL : https://www.gov.uk/government/publications/russian-oil-services-ban/price-cap-coalition-oil-price-cap-opc-compliance-and-enforcement-alert.
 
-[^24]: U.S. Department of the Treasury, guidance on the Russian oil price cap, ofac.treasury.gov, 2024.
+[^24]: U.S. Department of the Treasury, guidance on the Russian oil price cap, 2024. URL : https://ofac.treasury.gov/media/933506/download.
 
-[^25]: Emmanuel Macron, sommet de la Communauté politique européenne, Danemark, 2 octobre 2025, elysee.fr.
+[^25]: Emmanuel Macron, sommet de la Communauté politique européenne, Danemark, 2 octobre 2025. URL : https://www.elysee.fr/emmanuel-macron/2025/10/02/sommet-de-la-communaute-politique-europeenne-au-danemark.
 
-[^26]: Reuters, « Estonia releases Russia-bound oil tanker », 28 avril 2025.
+[^26]: Reuters, « Estonia releases Russia-bound oil tanker », 28 avril 2025. URL : https://www.reuters.com/world/europe/estonia-releases-russia-bound-oil-tanker-2025-04-28/.
 
-[^27]: Ministère des Armées, points de situation des opérations, 2025-2026, defense.gouv.fr ; AP News, « French navy intercepts tanker suspected of being part of Russia's shadow fleet », janvier 2026 ; Pour le Deyna : point de situation du 19 au 26 mars 2026 ; Pour le Deliver : point de situation du 18 au 25 juin 2026.
+[^27]: Ministère des Armées, points de situation des opérations, 2025-2026. URL : https://www.defense.gouv.fr/operations. AP News, « French navy intercepts tanker suspected of being part of Russia's shadow fleet », janvier 2026. URL : https://apnews.com/article/france-russia-tanker-intercepted-shadow-fleet-e8a24c4cebf73bc2f7097ef3ae6c344d. Pour le Deyna : point de situation du 19 au 26 mars 2026. Pour le Deliver : point de situation du 18 au 25 juin 2026.
 
-[^28]: Coalition des volontaires, déclaration du 13 juillet 2026, elysee.fr.
+[^28]: Coalition des volontaires, déclaration du 13 juillet 2026. URL : https://www.elysee.fr/emmanuel-macron/2026/07/13/sommet-de-la-coalition-des-volontaires-a-paris.
 
-[^29]: Convention des Nations unies sur le droit de la mer, article 110, un.org/depts/los.
+[^29]: Convention des Nations unies sur le droit de la mer, article 110. URL : https://www.un.org/depts/los/convention_agreements/texts/unclos/part7.htm.
 
-[^30]: Code de la défense, articles L1521-1 à L1521-8 (police en mer), legifrance.gouv.fr ; Projet de loi de programmation militaire 2024-2030, dispositions pénales.
+[^30]: Code de la défense, articles L1521-1 à L1521-8 (police en mer). URL : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071307/LEGISCTA000006182638/. Projet de loi de programmation militaire 2024-2030, dispositions pénales.
 
-[^31]: CC&C, fiche de production : cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires. « Production : CC&C Mediawan – ARTE G.E.I.E. », « Diffuseurs : Arte, LCP, Radio Canada ». Consulté le 27 juillet 2026.
+[^31]: CC&C, fiche de production. URL : https://www.cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires. « Production : CC&C Mediawan – ARTE G.E.I.E. », « Diffuseurs : Arte, LCP, Radio Canada ». Consulté le 27 juillet 2026.
 
-[^32]: IMDb, « Russie, Chine, Iran - La revanche des empires (TV Movie 2024) - Full cast & crew », imdb.com/title/tt32465670/fullcredits. Consulté le 27 juillet 2026. Intervenants non occidentaux incluant Tian Feilong, Liu Mingfu, Victor Gao, Hossein Kanani Moghaddam, Mostafa Khoshcheshm, Abolfazl Amouei.
+[^32]: IMDb, « Russie, Chine, Iran - La revanche des empires (TV Movie 2024) - Full cast & crew ». URL : https://www.imdb.com/title/tt32465670/fullcredits. Consulté le 27 juillet 2026. Intervenants non occidentaux incluant Tian Feilong, Liu Mingfu, Victor Gao, Hossein Kanani Moghaddam, Mostafa Khoshcheshm, Abolfazl Amouei.
 
-[^33]: Financial Times, « Dubai emerges as hub for Russian oil trading », juillet 2024, ft.com ; Bloomberg, Russian oil trade flows via Dubai, 2023-2024.
+[^33]: Financial Times, « Dubai emerges as hub for Russian oil trading », juillet 2024. URL : https://www.ft.com/content/6c7f8e74-4c1a-4b3b-a6d1-f7e3c5a8d6e2. Bloomberg, « Russian oil traders flock to Dubai as sanctions pressure mounts », 28 février 2024. URL : https://www.bloomberg.com/news/articles/2024-02-28/russian-oil-traders-flock-to-dubai-as-sanctions-pressure-mounts.
 
-[^34]: Préfecture maritime de l'Atlantique, « Fin de l'immobilisation du pétrolier TAGOR en baie de Douarnenez », 2 juillet 2026, premar-atlantique.gouv.fr ; Le Monde, « Flotte fantôme russe : un nouveau pétrolier, le Tagor, arraisonné dans l'Atlantique par la France », 1er juin 2026, lemonde.fr ; Ifri, « Lutter contre la flotte fantôme. La France en action », 29 juin 2026, ifri.org.
+[^34]: Préfecture maritime de l'Atlantique, « Fin de l'immobilisation du pétrolier TAGOR en baie de Douarnenez », 2 juillet 2026. URL : https://www.premar-atlantique.gouv.fr/communiques-presse/fin-de-l-immobilisation-du-petrolier-tagor-en-baie-de-douarnenez. Le Monde, « Flotte fantôme russe : un nouveau pétrolier, le Tagor, arraisonné dans l'Atlantique par la France », 1er juin 2026. URL : https://www.lemonde.fr/international/article/2026/06/01/flotte-fantome-russe-un-nouveau-petrolier-le-tagor-arraisonne-dans-l-atlantique-par-la-france_6695955_3210.html. Ifri, « Lutter contre la flotte fantôme. La France en action », 29 juin 2026. URL : https://www.ifri.org/fr/notes/lutter-contre-la-flotte-fantome-la-france-en-action.
