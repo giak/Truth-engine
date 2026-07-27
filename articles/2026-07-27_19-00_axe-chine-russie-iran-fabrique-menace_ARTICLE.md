@@ -1,6 +1,6 @@
 # La fabrique de la menace : ce que le documentaire d'Arte affirme, ce que les faits contredisent
 
-**Dix distorsions, une formule infalsifiable et une conclusion politique. Autopsie de « Russie, Chine, Iran : la revanche des empires ».**
+**Erreurs, agrégations et procédés de cadrage. Autopsie de « Russie, Chine, Iran : la revanche des empires ».**
 
 ---
 
@@ -20,9 +20,9 @@ Ce n'est pas seulement une enquête. C'est une enquête à thèse, dont le cadra
 
 ---
 
-## I. Dix distorsions, des dizaines de minutes
+## I. Ce que le film affirme, ce que les faits contredisent
 
-Le documentaire ne se contente pas d'interpréter des faits réels. Il en déforme plusieurs, en réécrit les généalogies, en gonfle les chiffres, en durcit les qualifications juridiques. Ces distorsions ne sont pas aléatoires. Elles pointent presque toutes dans la même direction : amplifier la cohérence, l'ancienneté et la dangerosité du rapprochement.
+Le documentaire ne se contente pas d'interpréter des faits réels. Il en déforme plusieurs, en réécrit les généalogies, en gonfle les chiffres, en durcit les qualifications juridiques. Certains de ces problèmes sont des erreurs factuelles, d'autres des interprétations contestables, d'autres encore des procédés rhétoriques ou logiques. Leur point commun : ils amplifient presque tous la cohérence, l'ancienneté et la dangerosité du rapprochement.
 
 ### 1. Les « 52 pays » : une masse géopolitique fabriquée
 
@@ -76,13 +76,11 @@ La charte de l'OCS, signée en 2002, invoque la confiance mutuelle, le bon voisi
 
 L'OCS a progressivement acquis une fonction multipolaire et anti-hégémonique. Mais le film prend sa fonction contemporaine et la projette sur son origine. Le procédé est constant : ce qui est devenu partiellement vrai est présenté comme ayant été planifié dès l'origine. C'est la reconstruction rétrospective d'une stratégie continue.
 
-### 7. La « machine de guerre contre l'Occident »
+### 7. La rhétorique de la « machine de guerre »
 
 À 42 minutes 09, un intervenant affirme que Xi et Poutine ont « transformé leur relation en une véritable machine de guerre contre l'Occident. »
 
-La relation sino-russe est réelle, multidimensionnelle, et comprend une coopération militaire croissante. Mais « machine de guerre » est une métaphore, pas un fait. Elle attribue à une relation diplomatique et économique une finalité militaire unifiée que les données disponibles ne confirment pas : il n'existe pas de centre de commandement conjoint, pas de clause de défense mutuelle, pas de doctrine militaire commune.
-
-La formule est une conclusion présentée comme un constat.
+La relation sino-russe est réelle, multidimensionnelle, et comprend une coopération militaire croissante. Mais « machine de guerre » est une métaphore, pas un fait. Elle attribue à une relation diplomatique et économique une finalité militaire unifiée que les données disponibles ne confirment pas : il n'existe pas de centre de commandement conjoint, pas de clause de défense mutuelle, pas de doctrine militaire commune. Le film ne la signale pas comme une opinion d'expert et ne la soumet à aucune contradiction.
 
 ### 8. Une catégorie qui absorbe tout
 
@@ -96,11 +94,11 @@ L'acronyme BRIC a été créé en 2001 par l'économiste Jim O'Neill de Goldman 
 
 Présenter les BRICS comme un simple instrument de contestation sino-russe efface l'autonomie du Brésil, de l'Inde et de l'Afrique du Sud. Ces trois démocraties, aux intérêts souvent divergents de ceux de Pékin et Moscou, sont réduites à des extensions passives d'une stratégie qui n'est pas la leur. L'Inde a d'ailleurs bloqué la proposition d'une monnaie commune des BRICS en 2023.
 
-### 10. La prescription finale
+### 10. La conclusion prescriptive
 
 Entre 1 heure 30 et 1 heure 33, la narration franchit un seuil. Elle ne se limite plus à décrire une menace. Elle enchaîne les exercices de l'OTAN mobilisant 90 000 soldats, l'hypothèse d'une Europe abandonnée par les États-Unis, la nécessité de « continuer à soutenir l'Ukraine », le « destin de puissance militaire » de l'Union européenne, l'objectif d'un continent « capable de se défendre et de se faire respecter », et la réaffirmation de « valeurs universelles. »
 
-Le documentaire construit une progression de la menace qui débouche sur une prescription politique explicite : le réarmement stratégique de l'Europe et la poursuite du soutien militaire à l'Ukraine.
+Ce n'est pas une erreur factuelle. C'est la destination du récit. Le documentaire construit une progression de la menace qui débouche sur une prescription politique explicite : le réarmement stratégique de l'Europe et la poursuite du soutien militaire à l'Ukraine.
 
 ---
 
@@ -164,7 +162,7 @@ Les distorsions et l'asymétrie narrative ne sont pas les seuls outils du cadrag
 
 Le film présente les trois régimes comme un bloc. Il omet de préciser que ce bloc n'a ni doctrine commune, ni clause de défense mutuelle, ni centre de commandement conjoint. Les trois traditions intellectuelles sont incompatibles : le confucianisme-marxiste chinois, l'eurasisme orthodoxe russe et l'islam politique chiite iranien n'ont ni généalogie commune ni vision du monde partagée.
 
-La déclaration Xi-Poutine du 4 février 2022 invoque les « valeurs communes de l'humanité » dans une grammaire diplomatique onusienne, pas dans une internationale idéologique. La charte de l'OCS, signée en 2002, ne mentionne aucune « valeur commune » entre ses membres. Le seul dénominateur est défensif : souveraineté, non-ingérence, anti-hégémonisme. C'est une grammaire minimale, suffisante pour la coopération tactique, insuffisante pour une alliance stratégique durable.
+La déclaration Xi-Poutine du 4 février 2022 invoque les « valeurs communes de l'humanité » dans une grammaire diplomatique onusienne, pas dans une internationale idéologique. La charte de l'OCS, signée en 2002, ne mentionne aucune « valeur commune » entre ses membres. Le seul dénominateur commun est la défense de la souveraineté nationale, la non-ingérence et la contestation de l'hégémonie américaine : une grammaire minimale, suffisante pour la coopération tactique, insuffisante pour une alliance stratégique durable.
 
 L'absence de doctrine commune n'est pas une anomalie. En relations internationales, les alliances d'intérêts sont la norme. L'OTAN elle-même est une alliance d'intérêts : la Turquie et la Hongrie ne partagent pas les mêmes valeurs que le Canada ou le Danemark. Présenter l'absence d'idéologie comme une faiblesse de l'axe est un contresens. Mais présenter l'axe comme un bloc idéologique cohérent, ce que fait le film, est une construction.
 
@@ -194,15 +192,15 @@ L'Inde refuse de choisir. Ce n'est pas un axe. C'est un monde.
 
 Les pétromonarchies du Golfe pratiquent un exercice d'équilibrisme encore plus spectaculaire. L'Arabie saoudite et les Émirats arabes unis sont des alliés de sécurité traditionnels des États-Unis, mais coordonnent leur production pétrolière avec la Russie au sein de l'OPEP+. En octobre 2022, l'OPEP+ a réduit sa production de 2 millions de barils par jour, décision coordonnée avec Moscou malgré la pression américaine.
 
-Dubaï est devenu le premier hub mondial du trading pétrolier russe. Les transactions immobilières à Dubaï impliquant des capitaux russes ont augmenté de 46 % en 2023, selon le Soufan Center. L'Arabie saoudite a rejoint le projet mBridge en 2024, une plateforme de monnaie numérique transfrontalière développée avec la Chine, la Thaïlande et les Émirats arabes unis. La banque centrale saoudienne et la banque centrale chinoise ont signé un accord de swap de 50 milliards de yuans, selon la Banque populaire de Chine.
+Dubaï est devenu une plaque tournante majeure du trading pétrolier russe. Les transactions immobilières à Dubaï impliquant des capitaux russes ont augmenté de 46 % en 2023, selon le Soufan Center. L'Arabie saoudite a rejoint le projet mBridge en 2024, une plateforme de monnaie numérique transfrontalière développée avec la Chine, la Thaïlande et les Émirats arabes unis. La banque centrale saoudienne et la banque centrale chinoise ont signé un accord de swap de 50 milliards de yuans, selon la Banque populaire de Chine.
 
-Le Qatar héberge la plus grande base militaire américaine au Moyen-Orient, entretient des relations avec le Hamas et le Hezbollah, et a servi d'intermédiaire entre Washington et Téhéran. Les Émirats arabes unis ont normalisé leurs relations avec Israël via les accords d'Abraham en 2020, tout en développant une relation économique et diplomatique croissante avec la Chine.
+Le Qatar héberge la plus grande base militaire américaine au Moyen-Orient et a servi d'intermédiaire entre Washington et Téhéran. Les Émirats arabes unis ont normalisé leurs relations avec Israël via les accords d'Abraham en 2020, tout en développant une relation économique et diplomatique croissante avec la Chine.
 
 Le Golfe n'est ni dans l'axe ni dans l'Occident. Il construit l'infrastructure de sortie sans sortir.
 
 ### La Corée du Nord, absente du film
 
-Le documentaire ignore presque entièrement la Corée du Nord. C'est une omission majeure. La Corée du Nord est le seul pays à apporter une contribution militaire directe à l'axe : selon une actualisation de l'Open Source Centre de mars 2026, 8 à 11 millions de munitions livrées à la Russie depuis 2023, représentant 40 à 70 % des munitions de certaines unités russes, et selon les renseignements ukrainiens et sud-coréens, environ 14 000 soldats déployés dans la région de Koursk à partir de la fin 2024.
+Le documentaire ignore presque entièrement la Corée du Nord. C'est une omission majeure. La Corée du Nord est le seul pays à avoir déployé un contingent terrestre massif combattant aux côtés de la Russie : selon une actualisation de l'Open Source Centre de mars 2026, 8 à 11 millions de munitions livrées à la Russie depuis 2023, représentant 40 à 70 % des munitions de certaines unités russes, et selon les renseignements ukrainiens et sud-coréens, environ 14 000 soldats déployés dans la région de Koursk à partir de la fin 2024.
 
 Le 19 juin 2024, Kim Jong-un et Vladimir Poutine ont signé à Pyongyang un traité de « partenariat stratégique global » incluant une clause de défense mutuelle. La Corée du Nord fixe 28 500 soldats américains en Corée du Sud, selon les effectifs de l'USFK (United States Forces Korea). Elle entretient avec l'Iran des liens technologiques sur les missiles balistiques.
 
@@ -230,13 +228,13 @@ La chaîne de fabrication est désormais visible :
 4. Effacement des alternatives : l'Inde, le Golfe, le Brésil, la Turquie, tous les acteurs qui pratiquent un autre chemin que l'alignement sur l'Occident, sont absents ou annexés au récit de l'axe.
 5. Réarmement comme seule conclusion rationnelle : face à cette menace totale, que faire d'autre que s'armer ?
 
-La Loi de programmation militaire de 413 milliards d'euros était déjà votée lorsque le documentaire a été diffusé. Mais le film ne porte pas sur cette loi. Il porte sur le consentement à l'effort de défense que cette loi inaugure, et que les prochaines lois amplifieront.
+La Loi de programmation militaire de 413 milliards d'euros était déjà votée lorsque le documentaire a été diffusé. Mais le film ne porte pas sur cette loi. Il porte sur le consentement à l'effort de défense que cette loi inaugure.
 
 ---
 
 ## VIII. Deux systèmes, une question
 
-Le rapprochement entre la Chine, la Russie et l'Iran est réel. Les exercices militaires conjoints, les livraisons de drones, la flotte fantôme, les transferts de technologie, la coordination diplomatique au sein de l'OCS et des BRICS : tout cela est documenté. Le triangle de fer n'est pas une invention occidentale. Il s'est nommé lui-même.
+Le rapprochement entre la Chine, la Russie et l'Iran est réel. Les exercices militaires conjoints, les livraisons de drones, la flotte fantôme, les transferts de technologie, la coordination diplomatique au sein de l'OCS et des BRICS : tout cela est documenté. Le triangle de fer n'est pas une invention occidentale. L'expression a été utilisée dans un média chinois contrôlé par le Parti, et les coopérations entre les trois régimes sont documentées.
 
 Le système de défense occidental qui cadre cette menace est également réel. Les think tanks financés par l'industrie de l'armement, les documentaires produits par des fonds publics, les experts dont les institutions reçoivent des subventions des entreprises qui bénéficient du réarmement : tout cela est documenté. Les financements sont établis. L'influence n'est pas démontrée. Mais la convergence objective entre la dramatisation de la menace et les intérêts économiques du circuit qui la documente est un fait.
 
