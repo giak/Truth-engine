@@ -221,7 +221,7 @@ La qualification la plus précise est celle d'un documentaire géopolitique à t
 
 [^3]: UK Ministry of Defence, Defence Intelligence update on Ukraine, 22 juillet 2022 ; responsables américains et britanniques, déclarations publiques sur le déploiement de personnel iranien en Crimée, 2022-2023. Institute for the Study of War, « Iran's support to Russian military operations in Ukraine », 2023, understandingwar.org.
 
-[^4]: Transcript automatique du documentaire. Timecodes indicatifs. Les citations exactes doivent être vérifiées contre la bande sonore originale. Dailymotion : « Russie, Chine, Iran _ La revanche des empires _ ARTE », x8yuxgu.
+[^4]: Transcript automatique du documentaire. Timecodes indicatifs. Les citations exactes doivent être vérifiées contre la bande sonore originale. Arte, « Russie, Chine, Iran : la revanche des empires », rediffusion YouTube du 16 janvier 2026 : youtube.com/watch?v=WLx6C3FrGJU.
 
 [^5]: Assemblée générale des Nations unies, résolution ES-11/1, 2 mars 2022 : 141 pour, 5 contre, 35 abstentions, 12 non-participants.
 
