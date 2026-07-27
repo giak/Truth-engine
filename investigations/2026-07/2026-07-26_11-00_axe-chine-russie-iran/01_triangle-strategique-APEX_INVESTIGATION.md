@@ -289,7 +289,7 @@ Les deux lectures contiennent des éléments de vérité. L'alliance Chine-Russi
 | F19 | Iran envoie conseillers militaires en Crimée (formation drones) | 2022-2023 | Iran/Russie | ✧ | Rapports renseignement occidentaux |
 | F20 | Brzezinski prédit l'alliance Chine-Russie-Iran dès 1997 | 1997 | États-Unis | ✦ | « The Grand Chessboard » (1997) |
 
-**EDI:** geo(0.65)×0.25 + lang(0.70)×0.20 + strat(0.85)×0.20 + owner(0.60)×0.15 + persp(0.55)×0.15 + temp(0.90)×0.05 = 0.69
+**EDI:** geo(0.65)×0.25 + lang(0.70)×0.20 + strat(0.85)×0.20 + owner(0.60)×0.15 + persp(0.55)×0.15 + temp(0.90)×0.05 = 0.69 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** sources occidentales majoritaires → -0.10 → EDI ajusté: 0.59 (GAP de 0.11 vs cible 0.70)
 
 ---

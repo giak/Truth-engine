@@ -349,7 +349,7 @@ L'Occident n'a pas perdu le Golfe. Il n'a jamais possédé le Golfe. Il a confon
 
 ---
 
-**EDI:** geo(0.45)×0.25 + lang(0.60)×0.20 + strat(0.75)×0.20 + owner(0.40)×0.15 + persp(0.65)×0.15 + temp(0.80)×0.05 = 0.57
+**EDI:** geo(0.45)×0.25 + lang(0.60)×0.20 + strat(0.75)×0.20 + owner(0.40)×0.15 + persp(0.65)×0.15 + temp(0.80)×0.05 = 0.57 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** occidentalocentrisme documenté (sources majoritairement occidentales) + financement des think tanks par le Golfe (capture épistémique) → -0.12 →
 **EDI ajusté: 0.45** (GAP de 0.25 vs cible 0.70 — explicable par le sujet: données primaires du Golfe inaccessibles)
 

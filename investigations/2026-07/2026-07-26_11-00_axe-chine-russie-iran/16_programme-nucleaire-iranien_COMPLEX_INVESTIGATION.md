@@ -50,7 +50,7 @@ BIAS TEST: E > D > C > A > B → PASS
 | F7 | Discours iranien: « changement de doctrine nucléaire si existence menacée » (2024) | ✦ | Al Jazeera: https://www.aljazeera.com/news/2024/5/9/iran-warns-it-will-change-nuclear-doctrine-if-existence-threatened |
 | F8 | Une Iran nucléaire déclencherait une course aux armements: Arabie Saoudite, Turquie, Égypte | ✦ | Stimson Center: https://www.stimson.org/2026/the-post-war-gulf-arms-competition-nuclear-latency-and-regional-security/ |
 
-**EDI:** geo(0.75)×0.25 + lang(0.70)×0.20 + strat(0.80)×0.20 + owner(0.60)×0.15 + persp(0.70)×0.15 + temp(0.85)×0.05 = 0.72
+**EDI:** geo(0.75)×0.25 + lang(0.70)×0.20 + strat(0.80)×0.20 + owner(0.60)×0.15 + persp(0.70)×0.15 + temp(0.85)×0.05 = 0.72 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** sources AIEA/ISIS dominantes → -0.05 → EDI ajusté: 0.67
 
 ---

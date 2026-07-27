@@ -331,7 +331,7 @@ Cui perde: La narrative binaire « démocraties contre autocraties »
 | F19 | Conflit territorial: Aksai Chin (38 000 km²) sous contrôle chinois, Arunachal Pradesh (90 000 km²) sous contrôle indien revendiqué par Pékin | 1962-présent | Inde/Chine | 128 000 km² contestés | ✧ | Wikipédia — Conflit frontalier sino-indien (synthèse) |
 | F20 | Inde membre simultané OCS + BRICS + Quad + G20 + I2U2 | 2024 | Inde | 5 forums | ✦ | Analyse ORF/Stimson Center |
 
-**EDI:** geo(0.75)×0.25 + lang(0.70)×0.20 + strat(0.85)×0.20 + owner(0.55)×0.15 + persp(0.65)×0.15 + temp(0.90)×0.05 = 0.72
+**EDI:** geo(0.75)×0.25 + lang(0.70)×0.20 + strat(0.85)×0.20 + owner(0.55)×0.15 + persp(0.65)×0.15 + temp(0.90)×0.05 = 0.72 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** sources indiennes et occidentales équilibrées, mais absence de sources chinoises directes → -0.05 → EDI ajusté: 0.67 (dans la cible 0.70 ± tolérance)
 
 ---

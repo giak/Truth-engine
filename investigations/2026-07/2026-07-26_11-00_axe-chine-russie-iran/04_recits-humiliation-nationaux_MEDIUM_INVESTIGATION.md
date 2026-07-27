@@ -83,7 +83,7 @@ Les trois régimes partagent une structure narrative identique:
 
 ---
 
-**EDI:** geo(0.40)×0.25 + lang(0.65)×0.20 + strat(0.70)×0.20 + owner(0.50)×0.15 + persp(0.60)×0.15 + temp(0.80)×0.05 = 0.58
+**EDI:** geo(0.40)×0.25 + lang(0.65)×0.20 + strat(0.70)×0.20 + owner(0.50)×0.15 + persp(0.60)×0.15 + temp(0.80)×0.05 = 0.58 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** occidentalocentrisme documenté mais non neutralisé → -0.10 → EDI ajusté: 0.48 (GAP de 0.22 vs cible 0.70)
 
 ---

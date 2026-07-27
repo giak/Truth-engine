@@ -218,7 +218,7 @@ Trump II négocie un « deal »: la Chine renonce à l'invasion en échange de l
 | F11 | CHIPS Act: Intel reçoit 7,86 G$ de subventions pour usines aux US | ✦ | Intel: https://newsroom.intel.com/corporate/intel-chips-act |
 | F12 | La Chine domine les puces legacy (28nm+) mais dépend des équipements étrangers pour les puces avancées | ✦ | MERICS: https://merics.org/en/comment/chinas-long-term-struggle-become-integral-semiconductor-supply-chains |
 
-**EDI:** geo(0.80)×0.25 + lang(0.75)×0.20 + strat(0.85)×0.20 + owner(0.60)×0.15 + persp(0.65)×0.15 + temp(0.85)×0.05 = 0.74
+**EDI:** geo(0.80)×0.25 + lang(0.75)×0.20 + strat(0.85)×0.20 + owner(0.60)×0.15 + persp(0.65)×0.15 + temp(0.85)×0.05 = 0.74 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** sources US majoritaires, scénarios d'invasion privilégiés → -0.08 → EDI ajusté: 0.66
 
 ---

@@ -41,7 +41,7 @@ La Chine exporte activement ses technologies de surveillance et de répression v
 
 ---
 
-**EDI:** geo(0.55)×0.25 + lang(0.60)×0.20 + strat(0.70)×0.20 + owner(0.50)×0.15 + persp(0.50)×0.15 + temp(0.80)×0.05 = 0.59
+**EDI:** geo(0.55)×0.25 + lang(0.60)×0.20 + strat(0.70)×0.20 + owner(0.50)×0.15 + persp(0.50)×0.15 + temp(0.80)×0.05 = 0.59 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** sources occidentales (RFE/RL, Amnesty, MIT Tech Review) — absence sources chinoises/iraniennes → -0.12 → EDI ajusté: 0.47 (GAP de 0.23 vs cible 0.70)
 
 ---

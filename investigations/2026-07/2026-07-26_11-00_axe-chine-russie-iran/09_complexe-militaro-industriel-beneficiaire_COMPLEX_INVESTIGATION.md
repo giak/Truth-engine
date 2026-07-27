@@ -45,7 +45,7 @@ BIAS TEST: E > D > C > A > B → PASS
 
 ---
 
-**EDI:** geo(0.55)×0.25 + lang(0.60)×0.20 + strat(0.75)×0.20 + owner(0.80)×0.15 + persp(0.60)×0.15 + temp(0.85)×0.05 = 0.66
+**EDI:** geo(0.55)×0.25 + lang(0.60)×0.20 + strat(0.75)×0.20 + owner(0.80)×0.15 + persp(0.60)×0.15 + temp(0.85)×0.05 = 0.66 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** sources pro-défense ET anti-défense équilibrées → pas d'ajustement → EDI: 0.66 (GAP de 0.04 vs cible 0.70)
 
 ---

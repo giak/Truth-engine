@@ -40,7 +40,7 @@ BIAS TEST: E > D > C > A > B → PASS
 
 ---
 
-**EDI:** geo(0.70)×0.25 + lang(0.65)×0.20 + strat(0.80)×0.20 + owner(0.55)×0.15 + persp(0.65)×0.15 + temp(0.85)×0.05 = 0.69
+**EDI:** geo(0.70)×0.25 + lang(0.65)×0.20 + strat(0.80)×0.20 + owner(0.55)×0.15 + persp(0.65)×0.15 + temp(0.85)×0.05 = 0.69 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** contre-narrative assumée, risque d'excuse par le contexte → -0.10 → EDI ajusté: 0.59 (GAP de 0.11 vs cible 0.70)
 
 ---

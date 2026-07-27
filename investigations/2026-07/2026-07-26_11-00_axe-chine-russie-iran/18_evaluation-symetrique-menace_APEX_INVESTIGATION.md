@@ -50,7 +50,7 @@ BIAS TEST: E > D > C > A > B → PASS
 | F11 | THREAT INFLATION: l'Irak 2003 (ADM inexistantes), le « missile gap » des années 1960, et la « domino theory » du Vietnam sont des précédents documentés de menaces exagérées | ✦ | Kaufmann (2004), Friedman (Cato) |
 | F12 | Les think tanks occidentaux ont un intérêt structurel à exagérer les menaces (financement industrie défense, voir fichier 09) | ✦ | Fichier 09 (CEPA: Lockheed Martin, Rheinmetall; IFRI: Thales, Airbus) |
 
-**EDI:** geo(0.78)×0.25 + lang(0.75)×0.20 + strat(0.80)×0.20 + owner(0.65)×0.15 + persp(0.70)×0.15 + temp(0.85)×0.05 = 0.74
+**EDI:** geo(0.78)×0.25 + lang(0.75)×0.20 + strat(0.80)×0.20 + owner(0.65)×0.15 + persp(0.70)×0.15 + temp(0.85)×0.05 = 0.74 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** tentative d'équilibre assumée → -0.05 → EDI ajusté: 0.69 (dans la cible 0.70)
 
 ---

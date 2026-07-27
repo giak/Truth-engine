@@ -291,7 +291,7 @@ Le documentaire a été conçu comme un outil de communication stratégique pour
 
 ---
 
-**EDI:** geo(0.45)×0.25 + lang(0.75)×0.20 + strat(0.85)×0.20 + owner(0.70)×0.15 + persp(0.55)×0.15 + temp(0.90)×0.05 = 0.67
+**EDI:** geo(0.45)×0.25 + lang(0.75)×0.20 + strat(0.85)×0.20 + owner(0.70)×0.15 + persp(0.55)×0.15 + temp(0.90)×0.05 = 0.67 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** intention critique explicite, biais de confirmation documenté → -0.08 → EDI ajusté: 0.59 (GAP de 0.11 vs cible 0.70)
 
 ---

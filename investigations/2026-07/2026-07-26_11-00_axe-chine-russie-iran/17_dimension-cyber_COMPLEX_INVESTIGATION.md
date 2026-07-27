@@ -50,7 +50,7 @@ BIAS TEST: E > D > C > A > B → PASS
 | F7 | APT iraniens: APT34, APT35, MuddyWater — focus disruption et rançongiciels | ✦ | CFR Cyber Operations Tracker |
 | F8 | Les trois pays promeuvent la « souveraineté numérique » à l'ONU/UIT | ✧ | Analyses DGAP/AGSI |
 
-**EDI:** geo(0.65)×0.25 + lang(0.70)×0.20 + strat(0.75)×0.20 + owner(0.60)×0.15 + persp(0.65)×0.15 + temp(0.80)×0.05 = 0.68
+**EDI:** geo(0.65)×0.25 + lang(0.70)×0.20 + strat(0.75)×0.20 + owner(0.60)×0.15 + persp(0.65)×0.15 + temp(0.80)×0.05 = 0.68 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** sources occidentales majoritaires → -0.08 → EDI ajusté: 0.60
 
 ---

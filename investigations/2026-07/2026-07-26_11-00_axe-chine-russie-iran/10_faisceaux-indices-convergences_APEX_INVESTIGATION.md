@@ -324,7 +324,7 @@ Le documentaire a été conçu comme outil de communication stratégique. Le cho
 
 ---
 
-**EDI:** geo(0.50)×0.25 + lang(0.65)×0.20 + strat(0.80)×0.20 + owner(0.75)×0.15 + persp(0.55)×0.15 + temp(0.85)×0.05 = 0.66
+**EDI:** geo(0.50)×0.25 + lang(0.65)×0.20 + strat(0.80)×0.20 + owner(0.75)×0.15 + persp(0.55)×0.15 + temp(0.85)×0.05 = 0.66 ⚠ self-assessed: ±0.10 CI, not externally validated.
 **BIAS:** intention critique explicite + biais de sélection documenté → -0.05 → EDI ajusté: 0.61 (GAP de 0.09 vs cible 0.70)
 
 ---
