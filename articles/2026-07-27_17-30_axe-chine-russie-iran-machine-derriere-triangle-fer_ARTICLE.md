@@ -1,4 +1,6 @@
-# La machine derrière le « triangle de fer » : ce que le documentaire d'Arte laisse hors champ
+# ⚙️ La machine derrière le triangle de fer : ce qu'Arte ne montre pas
+
+*94 minutes sur l'axe. Zéro sur l'écosystème qui le cadre.*
 
 ---
 
