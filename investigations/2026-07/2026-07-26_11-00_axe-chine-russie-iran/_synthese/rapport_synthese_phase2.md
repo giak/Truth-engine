@@ -87,7 +87,7 @@
 
 ### T4 — AUCUN CLUSTER IDÉOLOGIQUE N'ÉMERGE — HYPOTHÈSE NON RÉFUTÉE PAR L'INVESTIGATION 24 (absence, vérification interne)
 
-- **Cluster:** Aucun mécanisme idéologique (idéologie commune, valeurs partagées, vision du monde) n'atteint le seuil de 4 co-occurrences. Aucun acteur « idéologue » (Wang Huning, Douguine) n'apparaît dans ≥4 fichiers. **Le fichier 24 a été spécifiquement conçu pour tester cette absence — et la confirme.**
+- **Cluster:** Aucun mécanisme idéologique (idéologie commune, valeurs partagées, vision du monde) n'atteint le seuil de 4 co-occurrences. Aucun acteur « idéologue » (Wang Huning, Douguine) n'apparaît dans ≥4 fichiers. **Le fichier 24 a été spécifiquement conçu pour tester cette hypothèse d'absence — et ne l'a pas réfutée.**
 - **Mise à jour v3 (SIGNIFICATIVE):** En v2, T4 était un signal d'absence (SUGGESTIF). En v3, l'investigation 24 (MEDIUM, 8 faits, 1 chaîne causale) a testé l'hypothèse et ne l'a pas réfutée : (a) les trois régimes ont des traditions intellectuelles incompatibles (confucianisme-marxiste / eurasisme-orthodoxie / islam politique chiite), (b) le seul dénominateur commun est défensif (souveraineté comme rempart), (c) les déclarations communes (Xi-Poutine 2022, OCS, BRICS) évitent soigneusement tout langage idéologique positif. T4 passe de SUGGESTIF à NON RÉFUTÉ. **Limite importante :** l'investigation 24 a été conduite par le même analyste que le reste du dossier, avec les mêmes sources occidentales (Foreign Affairs, CFR), sans analyse textuelle primaire des discours en langue originale. Il ne s'agit pas d'une vérification indépendante.
 - **Ce que l'absence montre:** L'axe Chine-Russie-Iran est une alliance d'intérêts, pas de valeurs. La narrative du documentaire Arte qui présente l'axe comme un « bloc » cohérent est contredite par l'absence de cluster idéologique ET par l'investigation dédiée (24).
 - **Force:** NON RÉFUTÉ par investigation dédiée (24) — mais vérification interne, pas indépendante. Le « souverainisme » est une anti-idéologie fonctionnelle — suffisante pour la coopération tactique, insuffisante pour une alliance stratégique durable.
@@ -175,7 +175,7 @@
 
 ### Fragilité F1 — Les clusters T1 et T2 sont partiellement des artefacts de sélection
 
-Le dossier a été conçu avec deux angles explicites : documenter la menace (01, 02, 03, 15, 16, 17, 25) et déconstruire la narrative occidentale (06, 08, 09, 10). Les clusters T1 (leaders de l'axe) et T2 (CMI occidental) émergent mécaniquement de cette architecture. **La stabilité de T2 lors de l'ajout de 3 fichiers hors-thème (23, 24, 25) atténue partiellement cette fragilité — le cluster n'est pas purement volatile.**
+Le dossier a été conçu avec deux angles explicites : documenter la menace (01, 02, 03, 15, 16, 17, 25) et déconstruire la narrative occidentale (06, 08, 09, 10). Les clusters T1 (leaders de l'axe) et T2 (CMI occidental) émergent mécaniquement de cette architecture. **T2 n'a pas changé en v3 parce que les nouveaux fichiers (23, 24, 25) ciblent délibérément d'autres angles — pas parce que le cluster serait intrinsèquement robuste. La non-volatilité observée est un artefact de scope, pas une preuve de stabilité.**
 
 **Question ouverte:** Si on ajoutait 10 fichiers sur d'autres sujets (climat, commerce, santé), Poutine et Xi seraient-ils encore à 10 et 9 ? Probablement pas. Les scores de co-occurrence restent contingents à l'architecture du dossier.
 
