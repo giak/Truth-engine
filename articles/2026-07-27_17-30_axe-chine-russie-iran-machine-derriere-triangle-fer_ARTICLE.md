@@ -268,6 +268,25 @@ Sur les seize analystes occidentaux, au moins onze ont une affiliation directe �
 
 Les huit intervenants non-occidentaux sont tous liés à leur régime respectif : think tank pro-PCC, université d'État, armée, parti au pouvoir, ancien commandant de l'IRGC, parlementaire. Aucune voix dissidente chinoise, russe ou iranienne n'est représentée : ni les démocrates de Hong Kong, ni l'opposition russe en exil, ni les militants iraniens pour les droits humains.
 
+### Structure du film : analyse du transcript automatique
+
+Le transcript YouTube du documentaire (818 timecodes, ~94 minutes) permet une analyse quantitative de la répartition des langues — et donc des voix — dans le film.
+
+| Langue | Lignes du transcript | % du transcript | Qui parle |
+|--------|:--------------------:|:---------------:|-----------|
+| Français (voix off + experts) | ~1 633 | ~97,4 % | Narration, experts français et anglophones |
+| Russe (cyrillique) | 23 | ~1,4 % | Poutine, Karaganov, Popov, archives russes |
+| Farsi/arabe | 18 | ~1,1 % | Khamenei, officiels iraniens, archives |
+| Chinois (hanzi) | 3 | ~0,2 % | Xi Jinping, officiels chinois |
+| Allemand/anglais | 3 | ~0,2 % | Joe Biden, intervenants germanophones |
+| **Total voix non-occidentales** | **44** | **~2,6 %** | |
+
+Le transcript comporte également 67 marqueurs `[musique]`, indiquant des transitions de chapitre.
+
+**Ce que ces chiffres confirment :** les voix non-occidentales occupent moins de 3 % du texte parlé du documentaire. Elles apparaissent presque exclusivement dans leur langue d'origine (russe, chinois, farsi) — en citation, en archive, ou en déclaration officielle. Le cadre analytique, lui, est entièrement en français : c'est la voix off et les experts francophones ou anglophones qui structurent le récit, contextualisent les faits, et formulent les conclusions.
+
+**Ce que ces chiffres ne mesurent pas :** le temps de parole réel — une ligne en cyrillique peut correspondre à 2 secondes ou à 20 secondes de discours. Et ils ne distinguent pas les experts des voix off. Ces deux mesures nécessitent un visionnage chronométré.
+
 ### Constats
 
 1. **Ratio : 16 Occidentaux pour 8 non-Occidentaux (2:1).** Les voix occidentales dominent numériquement le montage.
