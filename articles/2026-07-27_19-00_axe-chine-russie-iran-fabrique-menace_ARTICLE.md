@@ -14,7 +14,7 @@ Le documentaire de Sophie Lepault, *Russie, Chine, Iran : la revanche des empire
 
 Le problème n'est pas que le documentaire mentirait sur les faits. Le problème est ce qu'il en fait.
 
-Il les sélectionne dans une direction cumulative, les agglomère en un système plus cohérent que le réel, les assortit d'erreurs presque toutes orientées dans le même sens, les enveloppe dans une catégorie infalsifiable (« ensemble ou séparément »), distribue asymétriquement l'autorité narrative entre experts occidentaux et officiels adverses, omet les divisions internes et la multipolarité du monde, puis conduit le spectateur vers la seule conclusion que cette architecture rend possible : le réarmement européen.
+Il les sélectionne dans une direction cumulative, les agglomère en un système plus cohérent que le réel, les assortit d'erreurs et d'interprétations orientées, les enveloppe dans une catégorie infalsifiable (« ensemble ou séparément »), distribue asymétriquement l'autorité narrative entre experts occidentaux et officiels adverses, omet les divisions internes et la multipolarité du monde, puis conduit le spectateur vers la seule conclusion que cette architecture rend possible : le réarmement européen.
 
 Ce n'est pas seulement une enquête. C'est une enquête à thèse, dont le cadrage organise les faits vers une conclusion politique déterminée.
 
@@ -22,7 +22,7 @@ Ce n'est pas seulement une enquête. C'est une enquête à thèse, dont le cadra
 
 ## I. Ce que le film affirme, ce que les faits contredisent
 
-Le documentaire ne se contente pas d'interpréter des faits réels. Il en déforme plusieurs, en réécrit les généalogies, en gonfle les chiffres, en durcit les qualifications juridiques. Certains de ces problèmes sont des erreurs factuelles, d'autres des interprétations contestables, d'autres encore des procédés rhétoriques ou logiques. Leur point commun : ils amplifient presque tous la cohérence, l'ancienneté et la dangerosité du rapprochement.
+Le documentaire ne se contente pas d'interpréter des faits réels. Il en déforme plusieurs, en réécrit les généalogies, en gonfle les chiffres, en durcit les qualifications juridiques. Certains de ces problèmes sont des erreurs factuelles, d'autres des interprétations contestables, d'autres encore des procédés rhétoriques ou logiques. Ces exemples partagent une orientation commune : ils amplifient presque tous la cohérence, l'ancienneté et la dangerosité du rapprochement.
 
 ### 1. Les « 52 pays » : une masse géopolitique fabriquée
 
@@ -30,11 +30,11 @@ Le documentaire ne se contente pas d'interpréter des faits réels. Il en défor
 
 Le vote de l'Assemblée générale des Nations unies sur la résolution ES-11/1 était de 141 voix pour, 5 contre et 35 abstentions. Douze pays n'ont pas participé au vote.
 
-Le chiffre de 52 additionne trois comportements politiquement distincts : voter contre (5 pays, dont la Russie elle-même, la Biélorussie, la Syrie, la Corée du Nord et l'Érythrée), s'abstenir (35 pays), et ne pas participer (12 pays). Une absence, une abstention et un soutien explicite à Moscou ne disent pas la même chose. L'agrégation produit pourtant un effet politique déterminé : 5 alliés ou soutiens explicites deviennent 52 États composant un front silencieux contre l'Occident.
+Le chiffre de 52 additionne trois comportements politiquement distincts : voter contre (5 pays, dont la Russie elle-même, la Biélorussie, la Syrie, la Corée du Nord et l'Érythrée), s'abstenir (35 pays), et ne pas participer (12 pays). Une absence, une abstention et un soutien explicite à Moscou ne disent pas la même chose. L'agrégation produit pourtant un effet politique déterminé : cinq votes contre, trente-cinq abstentions et douze absences deviennent une masse indistincte de cinquante-deux pays, présentés comme un « silence assourdissant » face à l'agression.
 
 Le film commence par produire une masse géopolitique à partir de comportements hétérogènes. Ce procédé, l'agrégation trompeuse, se répétera.
 
-### 2. Le faux consensus universel de 1948
+### 2. L'unanimité qui n'en était pas une
 
 À 13 minutes 18, la voix off affirme que les principes fondamentaux du droit international « faisaient l'unanimité après la Seconde Guerre mondiale. »
 
@@ -162,7 +162,7 @@ Les distorsions et l'asymétrie narrative ne sont pas les seuls outils du cadrag
 
 Le film présente les trois régimes comme un bloc. Il omet de préciser que ce bloc n'a ni doctrine commune, ni clause de défense mutuelle, ni centre de commandement conjoint. Les trois traditions intellectuelles sont incompatibles : le confucianisme-marxiste chinois, l'eurasisme orthodoxe russe et l'islam politique chiite iranien n'ont ni généalogie commune ni vision du monde partagée.
 
-La déclaration Xi-Poutine du 4 février 2022 invoque les « valeurs communes de l'humanité » dans une grammaire diplomatique onusienne, pas dans une internationale idéologique. La charte de l'OCS, signée en 2002, ne mentionne aucune « valeur commune » entre ses membres. Le seul dénominateur commun est la défense de la souveraineté nationale, la non-ingérence et la contestation de l'hégémonie américaine : une grammaire minimale, suffisante pour la coopération tactique, insuffisante pour une alliance stratégique durable.
+La déclaration Xi-Poutine du 4 février 2022 invoque les « valeurs communes de l'humanité » dans une grammaire diplomatique onusienne, pas dans une internationale idéologique. La charte de l'OCS, signée en 2002, ne mentionne aucune « valeur commune » entre ses membres. Le seul dénominateur commun est la défense de la souveraineté nationale, la non-ingérence, la contestation de l'hégémonie américaine et la promotion d'un ordre international multipolaire : une grammaire minimale, suffisante pour la coopération tactique, insuffisante pour une alliance stratégique durable.
 
 L'absence de doctrine commune n'est pas une anomalie. En relations internationales, les alliances d'intérêts sont la norme. L'OTAN elle-même est une alliance d'intérêts : la Turquie et la Hongrie ne partagent pas les mêmes valeurs que le Canada ou le Danemark. Présenter l'absence d'idéologie comme une faiblesse de l'axe est un contresens. Mais présenter l'axe comme un bloc idéologique cohérent, ce que fait le film, est une construction.
 
