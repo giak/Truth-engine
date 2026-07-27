@@ -177,24 +177,24 @@ Reste une question. Si le documentaire est de la propagande, et si cette enquêt
 
 ## LOI antagoniste : rapport de pannes
 
-### Faille 1 — Logique
+### Faille 1 : Logique
 La thèse organisatrice affirme trois choses simultanément : l'axe existe, sa menace est amplifiée, le monde est plus vaste que deux camps. Le risque est que le lecteur retienne que « tout se vaut » : l'axe et l'OTAN, le documentaire et sa critique. L'article n'est pas un relativisme. La phrase du §7 (« Les deux choses sont vraies ») doit être immédiatement suivie d'une hiérarchisation : l'invasion de l'Ukraine a fait des centaines de milliers de morts. Le documentaire Arte n'a tué personne. La symétrie est méthodologique, pas morale.
 
 **Recommandation :** après « Les deux choses sont vraies », ajouter : « Mais elles ne sont pas équivalentes. L'axe a envahi un pays souverain. Le documentaire a produit du consentement pour un budget militaire. Les deux sont documentés. Les deux ne pèsent pas le même poids. »
 
-### Faille 2 — Mots-tic
+### Faille 2 : Mots-tic
 « Circuit » apparaît 7 fois dans l'article. « Infrastructure » 5 fois. « Documentaire » 22 fois. La répétition de « documentaire » est structurelle (c'est le sujet), mais « circuit » et « infrastructure » pourraient être variés : « écosystème », « réseau », « architecture ».
 
-### Faille 3 — Micro-définitions
+### Faille 3 : Micro-définitions
 « Équilibre de Nash » est utilisé au §4 sans définition. 95 % des lecteurs ne savent pas ce que c'est. Remplacer par « stratégie rationnelle » ou ajouter une définition d'une phrase.
 
 **Recommandation :** « équilibre de Nash » → « stratégie rationnelle » ou ajouter : « (en théorie des jeux, la situation où aucun acteur n'a intérêt à changer sa stratégie si les autres gardent la leur) ».
 
-### Faille 4 — Équation de synthèse
+### Faille 4 : Équation de synthèse
 Le lecteur peut-il résumer l'article en une phrase ? Test : « Le documentaire Arte sur l'axe Chine-Russie-Iran documente des faits réels mais est lui-même un produit du circuit militaro-médiatique qu'il ne nomme pas ; l'axe existe et sa menace est amplifiée ; et le monde multipolaire invalide le cadrage binaire des deux camps. » 47 mots. Trop long. Cible : 25-30 mots. Version compressée : « Le documentaire Arte a raison sur les faits mais tait qui l'a produit : l'axe existe, sa menace est amplifiée par ceux qui en profitent, et le monde ne se réduit pas à deux camps. » 37 mots. Acceptable.
 
-### Faille 5 — Sourcing
+### Faille 5 : Sourcing
 LOI 2 : 6 URLs marquées `{{URL à compléter}}`. À finaliser avant publication Substack. Les sources sans URL (Chomsky, Brzezinski, Kaufmann) sont des ouvrages imprimés : format acceptable sans lien.
 
-### Faille 6 — Ton
+### Faille 6 : Ton
 L'article tient la posture forensic annoncée. Une exception au §7 : « Le lecteur fait face à deux machines de production de vérité. » La métaphore de la « machine » est mécaniste, pas biologique (LOI 11 OK), mais le terme « pris » suggère une impuissance que l'article ne démontre pas : le lecteur n'est pas « pris », il est informé des deux biais. Remplacer « pris entre » par « face à ».
