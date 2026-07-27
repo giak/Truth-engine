@@ -415,6 +415,16 @@ Cinq conclusions:
 
 ---
 
+## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
+
+| # | CLAIM (ce fichier) | COUNTER | BALANCE |
+|---|--------------------|---------|---------|
+| C1 | 12 faisceaux indépendants convergent (⫸:0.83) vers un biais systémique de manufacture du consentement | **§14 AUTO-CRITIQUE de ce même fichier:** les contre-faisceaux n'ont pas été agrégés avec la même rigueur (indépendance d'Arte, publications académiques des experts, réalité de la menace). Le taux de convergence est une estimation subjective. Le standard de preuve appliqué au documentaire n'est pas appliqué à cette investigation. | skewed → REBALANCE: agrégation des contre-faisceaux non effectuée |
+| C2 | L'Hypothèse B (biais systémique sans conspiration) est la plus probable (55%) | **§14 AUTO-CRITIQUE:** c'est aussi l'hypothèse la plus confortable — elle permet de suggérer une coordination sans en fournir la preuve. La distinction « système vs conspiration » peut être spécieuse: à partir de combien de convergences passe-t-on du système à la coordination? Cette investigation ne fixe pas ce seuil. | skewed (penche B) → REBALANCE: l'hypothèse A (coïncidences) n'a jamais été sérieusement testée |
+| C3 | Le documentaire est structurellement biaisé par son financement public (CNC/PROCIREP/ANGOA) et ses experts liés à l'industrie de défense | **Fichier 01/18:** l'indépendance éditoriale d'Arte (pas de publicité, gouvernance franco-allemande, charte éditoriale) est documentée. Le financement public n'est pas intrinsèquement corrupteur — sinon TOUT média public serait disqualifié. La critique du messager ne réfute pas le message. | balanced (fait structurel exact, mais conclusion normative contestable) |
+
+---
+
 ## SOURCES
 
 1. Chomsky, N. & Herman, E. (1988) — Manufacturing Consent. Pantheon Books.

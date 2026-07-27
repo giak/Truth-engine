@@ -245,6 +245,16 @@ La véritable menace n'est pas militaire — la Chine peut être dissuadée. Ell
 
 ---
 
+## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
+
+| # | CLAIM (ce fichier) | COUNTER | BALANCE |
+|---|--------------------|---------|---------|
+| C1 | Taïwan est le test décisif de l'axe: en cas d'invasion, l'axe fonctionnerait COMME UN AXE — la Russie fixe l'OTAN, l'Iran crée une diversion | **Fichier 18:** l'axe n'a pas de clause de défense mutuelle. La Russie et l'Iran aideraient diplomatiquement mais ne s'engageraient pas militairement contre les États-Unis. L'axe est un réseau d'intérêts convergents en temps de paix — personne ne sait s'il survivrait à la guerre. | balanced (préparation réelle, mais alliance non testée en conflit) |
+| C2 | La Russie entraîne activement les forces aéroportées chinoises (drones, déminage) — compétences directement transférables à Taïwan | **§14 AUTO-CRITIQUE:** l'entraînement est documenté par RUSI mais son interprétation est spéculative. L'APL s'entraîne avec de nombreux pays. Les exercices conjoints sino-russes existent depuis 2005 sans avoir débouché sur une guerre. La coopération militaire n'est pas une intention d'invasion. | balanced (fait documenté, interprétation spéculative) |
+| C3 | L'architecture financière alternative (mBridge >55 G$, CIPS, e-CNY 2,3 billions $) immuniserait partiellement la Chine contre les sanctions | **Fichier 18-§13.2:** mBridge a traité 55 G$ — une fraction infime du commerce extérieur chinois (6 000 G$/an). L'efficacité des sanctions contre la Russie en 2022 a surpris tout le monde (gel des réserves, exclusion SWIFT). La Chine serait PLUS résiliente que la Russie, mais pas immunisée. L'effet de surprise joue une seule fois. | skewed (penche « immunité ») → REBALANCE: sous-estimation de la vulnérabilité chinoise aux sanctions secondaires, surestimation de mBridge |
+
+---
+
 ## SOURCES
 
 1. RUSI — How Russia is Helping China Prepare to Seize Taiwan (2025): https://www.rusi.org/explore-our-research/publications/commentary/how-russia-helping-china-prepare-seize-taiwan

@@ -355,6 +355,16 @@ L'Occident n'a pas perdu le Golfe. Il n'a jamais possédé le Golfe. Il a confon
 
 ---
 
+## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
+
+| # | CLAIM (ce fichier) | COUNTER | BALANCE |
+|---|--------------------|---------|---------|
+| C1 | Les pétromonarchies pratiquent un hedging qui invalide le cadrage binaire « axe contre Occident » — elles sont dans les deux camps simultanément | **§14 AUTO-CRITIQUE:** présenter le hedging comme « rationnel » occulte l'autoritarisme. Les régimes du Golfe sont des autocraties (MBS, MBZ, Tamim) qui répriment leurs populations. Le multi-alignement n'est pas un choix démocratique — c'est une stratégie d'élites répressives. Le hedging est peut-être rationnel, mais il n'est pas légitime. | skewed (penche célébration du hedging) → REBALANCE: coût humain du hedging (Yémen, kafala, répression) sous-pesé |
+| C2 | Le Golfe finance TOUS les camps simultanément — pétrole russe, bases US, GNL chinois, SWFs globaux | **§15.1 IMPACT:** le « multi-alignement » finance aussi la guerre au Yémen (377 000 morts, ONU 2021), le travail forcé (kafala — 6 500 morts estimés au Qatar), et la guerre russe (OPEP+ maintient le pétrole >80$). Le hedging a un coût humain massif que l'investigation mentionne mais ne pondère pas. | skewed → REBALANCE: la section IMPACT (15.1) documente le coût mais ces faits ne sont pas intégrés dans l'analyse du hedging |
+| C3 | La normalisation saoudo-iranienne négociée par la Chine (Pékin, mars 2023) est un camouflet diplomatique pour Washington | **§6 P3 ARBITRAGE:** les US restent le garant sécuritaire ultime du Golfe. Sans le parapluie américain, Riyad et Abou Dhabi seraient vulnérables face à l'Iran. Le « camouflet » est théâtral — la dépendance sécuritaire est structurelle. Le Golfe diversifie ses fournisseurs diplomatiques, pas son assurance-vie. | balanced (camouflet symbolique réel, mais dépendance sécuritaire structurelle intacte) |
+
+---
+
 ## REQUEST_LOG
 
 | # | Query | Source |

@@ -242,6 +242,16 @@ La question centrale n'est pas « l'axe est-il une menace? » — il l'est. La q
 
 ---
 
+## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
+
+| # | CLAIM (ce fichier) | COUNTER | BALANCE |
+|---|--------------------|---------|---------|
+| C1 | L'axe est militairement inférieur (PIB axe < OTAN, dépenses 3× inférieures) mais systémiquement dangereux (mBridge, splinternet, blocage ONU) | **Fichier 01/15:** l'infériorité militaire conventionnelle ne tient pas compte de l'asymétrie. Les missiles hypersoniques chinois DF-17/DF-ZF sont conçus pour saturer les défenses US. Taïwan est une île — le rapport de force n'est pas symétrique. L'infériorité théorique peut être compensée par le terrain et la surprise. | balanced (fait exact, mais choix d'indicateurs conventionnels sous-estime l'asymétrie) |
+| C2 | La menace est réelle ET exagérée simultanément — le documentaire Arte a raison sur les faits ET c'est de la propagande | **Fichier 01:** le paradoxe peut être un refuge rhétorique. Si la menace est « à la fois réelle et exagérée », toute critique est immunisée. Dire « les deux sont vrais » n'est pas une analyse — c'est un constat d'impuissance analytique qui refuse de pondérer. | skewed (penche paradoxe confortable) → REBALANCE: le paradoxe doit être testé, pas affirmé. Quelle proportion vérité/propagande? |
+| C3 | Les deux camps mentent sur la menace — l'Occident l'exagère, l'axe la nie. Symétrie. | **§12 AUTO-CRITIQUE:** la symétrie est trompeuse. L'Occident a un débat public ouvert (Mearsheimer vs Wright). L'axe n'a pas de débat public — narrative unique, dissidence criminalisée. Équivaloir les deux est une fausse symétrie qui banalise la censure autoritaire. | skewed (fausse symétrie) → REBALANCE: asymétrie du débat public documentée mais non intégrée |
+
+---
+
 ## SOURCES
 
 1. SIPRI — Military Expenditure 2026: https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge

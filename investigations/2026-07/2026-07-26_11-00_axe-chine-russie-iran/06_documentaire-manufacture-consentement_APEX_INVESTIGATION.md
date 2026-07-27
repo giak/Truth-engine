@@ -365,6 +365,16 @@ Cinq conclusions:
 
 ---
 
+## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
+
+| # | CLAIM (ce fichier) | COUNTER | BALANCE |
+|---|--------------------|---------|---------|
+| C1 | 100% des experts français du documentaire sont liés à des institutions financées par l'industrie de défense (CEPA→Lockheed, IFRI→Thales, IRSEM→MinArm) | **Fichier 01/18:** l'expertise en défense provient nécessairement d'institutions financées par la défense — c'est leur domaine de compétence, pas une preuve de corruption. Un oncologue financé par la recherche sur le cancer n'est pas disqualifié pour parler du cancer. La question n'est pas le financement — c'est l'absence de transparence (aucun expert ne déclare ses liens à l'écran) et le monopole (0% de voix dissidentes). | balanced (fait exact, mais le problème est le monopole + l'opacité, pas le financement per se) |
+| C2 | Le documentaire omet systématiquement toute responsabilité occidentale (Irak 2003, Libye 2011, promesses OTAN à Gorbatchev, retrait JCPOA) | **Fichier 08:** la responsabilité occidentale est réelle ET documentée. Mais elle ne change pas le fait que l'axe EST une menace actuelle. Dénoncer l'axe ne nie pas les erreurs occidentales. Le syllogisme implicite « l'Occident a fait des erreurs → donc l'axe n'est pas une menace » est un whataboutism. | balanced → cross-ref 08 |
+| C3 | Le documentaire fonctionne comme une opération de manufacture du consentement (Chomsky/Herman): financement public, experts alignés, timing LPM 413G€ | **Fichier 01/18:** le documentaire documente des FAITS RÉELS (l'alliance existe, les transferts d'armes sont documentés). L'axe n'est pas une invention. Un messager biaisé peut dire la vérité — le problème est le cadrage, pas la factualité. | balanced (paradoxe: propagande ET vérité partielle) |
+
+---
+
 ## SOURCES
 
 1. Film-documentaire.fr — Fiche technique: https://www.film-documentaire.fr/4DACTION/w_fiche_film/70000_1

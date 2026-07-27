@@ -396,6 +396,16 @@ Le documentaire Arte et les think tanks occidentaux qui le soutiennent ont besoi
 
 ---
 
+## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
+
+| # | CLAIM (ce fichier) | COUNTER | BALANCE |
+|---|--------------------|---------|---------|
+| C1 | L'Inde est la réfutation vivante de la thèse du « triangle de fer »: démocratie de 1,4 milliard dans l'OCS/BRICS, bloque le BRI et la monnaie commune, conflit territorial avec la Chine | **§14 AUTO-CRITIQUE:** l'Inde finance la machine de guerre russe (168 G$ de pétrole depuis 2022). Son opposition à la Chine dans l'OCS n'efface pas son soutien économique à la Russie. La contradiction est tenable uniquement parce que Washington la tolère. | balanced (fait exact, mais interprétation « réfutation vivante » ignore le soutien matériel à la Russie) |
+| C2 | L'Inde bloque structurellement la Chine et la Russie dans l'OCS et les BRICS — ces institutions ne sont PAS des instruments de l'axe | **§14 AUTO-CRITIQUE:** la Chine et la Russie TOLÈRENT la présence indienne parce qu'elle leur sert de couverture diplomatique. La présence indienne ne prouve pas l'impuissance de l'axe — elle pourrait prouver sa sophistication. L'axe tolère un « loyal opposition » qui légitime l'institution sans menacer son agenda. | skewed (penche « blocage indien ») → REBALANCE: l'hypothèse « couverture tolérée » n'est pas sérieusement évaluée |
+| C3 | L'Inde pratique une « autonomie stratégique » (multi-alignement) — ni dans l'axe, ni dans le bloc occidental | **§14 AUTO-CRITIQUE:** la dérive autoritaire de Modi (hindutva, répression des minorités, musellement de la presse — classement RSF en chute libre) rapproche objectivement l'Inde des régimes de l'axe. La narrative « démocratique » masque un autoritarisme croissant. L'Inde partage avec la Russie et la Chine une méfiance post-coloniale commune. | balanced (fait réel, mais catégorie « démocratie » contestée) |
+
+---
+
 ## SOURCES
 
 1. SCO — India membership: http://eng.sectsco.org/
