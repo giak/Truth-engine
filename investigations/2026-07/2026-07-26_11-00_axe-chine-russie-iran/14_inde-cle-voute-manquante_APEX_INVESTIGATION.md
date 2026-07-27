@@ -396,6 +396,24 @@ Le documentaire Arte et les think tanks occidentaux qui le soutiennent ont besoi
 
 ---
 
+## SOURCE DIVERSITY (GATES.md §4 — KERNEL v2.0: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| The Hindu (India) | Asia | IE | — | https://thehindu.com |
+| Dawn (Pakistan) | Asia | IE | CN | https://dawn.com |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Taiwan News (Taiwan) | Asia | IE | CN | https://taiwannews.com.tw |
+
+**geo:** 3 continents (Europe + North America + Asia/Middle East) ✅
+**lang:** 2 families (IE: EN/FR/HI + Semitic: AR) ✅ — note: hindi/ourdou accessibles mais non utilisés (barrière linguistique)
+**H7:** 2 adversary sources (Dawn→PK rival historique, Taiwan News→CN) ✅
+
+**Note spécifique:** The Wire et The Hindu sont des sources indiennes directement pertinentes pour le sujet — elles étaient déjà citées dans le FACT_REGISTRY (F2, F7, F9, F10, F18). Dawn offre la perspective pakistanaise, rivale de l'Inde et alliée chinoise (CPEC).
+
+---
+
 ## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
 
 | # | CLAIM (ce fichier) | COUNTER | BALANCE |

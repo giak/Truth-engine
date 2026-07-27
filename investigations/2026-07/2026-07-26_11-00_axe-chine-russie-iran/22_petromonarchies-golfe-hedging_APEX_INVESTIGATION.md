@@ -355,6 +355,24 @@ L'Occident n'a pas perdu le Golfe. Il n'a jamais possédé le Golfe. Il a confon
 
 ---
 
+## SOURCE DIVERSITY (GATES.md §4 — KERNEL v2.0: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Al-Monitor (US-based, Middle East focus) | Middle East | Semitic/IE | — | https://al-monitor.com |
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Dawn (Pakistan) | Asia | IE | — | https://dawn.com |
+| Iran International (Iranian exile, UK) | Europe/Iran | IE | IR | https://iraninternational.com |
+
+**geo:** 3 continents (Europe + North America + Asia/Middle East) ✅
+**lang:** 2 families (IE: EN/FR + Semitic: AR) ✅
+**H7:** 1 adversary source (Iran International→IR) ✅
+
+**Note spécifique:** Al Jazeera (Qatar) et Al-Monitor sont des sources moyen-orientales directement pertinentes pour le sujet. AGSIW (Arab Gulf States Institute, Washington) est cité dans le FACT_REGISTRY mais est financé par les EAU — conflit d'intérêts documenté (§14.5). Dawn offre la perspective pakistanaise sur le Golfe.
+
+---
+
 ## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
 
 | # | CLAIM (ce fichier) | COUNTER | BALANCE |

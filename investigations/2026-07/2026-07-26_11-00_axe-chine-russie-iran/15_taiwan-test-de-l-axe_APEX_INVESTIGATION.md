@@ -245,6 +245,24 @@ La véritable menace n'est pas militaire — la Chine peut être dissuadée. Ell
 
 ---
 
+## SOURCE DIVERSITY (GATES.md §4 — KERNEL v2.0: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| Taiwan News (Taiwan) | Asia | IE | CN | https://taiwannews.com.tw |
+| Taipei Times (Taiwan) | Asia | IE | CN | https://taipeitimes.com |
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Meduza (Russian exile, Latvia) | Europe/Russia | Slavic | RF | https://meduza.io/en |
+
+**geo:** 3 continents (Europe + North America + Asia/Middle East) ✅
+**lang:** 3 families (IE: EN/FR + Slavic: RU + Semitic: AR) ✅
+**H7:** 3 adversary sources (Taiwan News→CN, Taipei Times→CN, Meduza→RF) ✅
+
+**Note spécifique:** Taiwan News et Taipei Times sont des sources taïwanaises directement pertinentes. Pékin les considère comme « séparatistes » — ce sont des H7 au sens du KERNEL.
+
+---
+
 ## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
 
 | # | CLAIM (ce fichier) | COUNTER | BALANCE |

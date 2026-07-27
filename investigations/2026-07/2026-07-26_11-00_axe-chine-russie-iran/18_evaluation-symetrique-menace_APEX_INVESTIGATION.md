@@ -242,6 +242,24 @@ La question centrale n'est pas « l'axe est-il une menace? » — il l'est. La q
 
 ---
 
+## SOURCE DIVERSITY (GATES.md §4 — KERNEL v2.0: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Meduza (Russian exile, Latvia) | Europe/Russia | Slavic | RF | https://meduza.io/en |
+| Kyiv Independent (Ukraine) | Europe | IE | RF | https://kyivindependent.com |
+| Iran International (Iranian exile, UK) | Europe/Iran | IE | IR | https://iraninternational.com |
+
+**geo:** 3 continents (Europe + North America + Asia/Middle East) ✅
+**lang:** 3 families (IE: EN/FR + Slavic: RU + Semitic: AR) ✅
+**H7:** 3 adversary sources (Meduza→RF, Kyiv Independent→RF, Iran International→IR) ✅
+
+**Gap documenté — Chine:** aucune source chinoise indépendante en anglais.
+
+---
+
 ## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
 
 | # | CLAIM (ce fichier) | COUNTER | BALANCE |

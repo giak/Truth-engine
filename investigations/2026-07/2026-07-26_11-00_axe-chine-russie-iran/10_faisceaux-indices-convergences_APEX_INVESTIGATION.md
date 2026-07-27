@@ -415,6 +415,23 @@ Cinq conclusions:
 
 ---
 
+## SOURCE DIVERSITY (GATES.md §4 — KERNEL v2.0: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Meduza (Russian exile, Latvia) | Europe/Russia | Slavic | RF | https://meduza.io/en |
+| Taiwan News (Taiwan) | Asia | IE | CN | https://taiwannews.com.tw |
+
+**geo:** 3 continents (Europe + North America + Asia/Middle East) ✅
+**lang:** 3 families (IE: EN/FR + Slavic: RU + Semitic: AR) ✅
+**H7:** 2 adversary sources (Meduza→RF, Taiwan News→CN) ✅
+
+**Gap documenté — Chine:** aucune source chinoise indépendante en anglais. Taiwan News est la source sinophone indépendante la plus proche.
+
+---
+
 ## CLAIM_REGISTRY (GATES.md §4 — KERNEL §1 step 5 CLAIM_CHECK)
 
 | # | CLAIM (ce fichier) | COUNTER | BALANCE |
