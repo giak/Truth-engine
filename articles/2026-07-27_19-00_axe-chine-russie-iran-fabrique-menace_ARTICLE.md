@@ -14,7 +14,7 @@ Le documentaire de Sophie Lepault, *Russie, Chine, Iran : la revanche des empire
 
 Le problème n'est pas que le documentaire mentirait sur les faits. Le problème est ce qu'il en fait.
 
-Il les sélectionne dans une direction cumulative, les agglomère en un système plus cohérent que le réel, les assortit d'erreurs et d'interprétations orientées, les enveloppe dans une catégorie infalsifiable (« ensemble ou séparément »), distribue asymétriquement l'autorité narrative entre experts occidentaux et officiels adverses, omet les divisions internes et la multipolarité du monde, puis conduit le spectateur vers la seule conclusion que cette architecture rend possible : le réarmement européen.
+L'enquête qui suit documente plusieurs procédés récurrents dans ce cadrage : une sélection cumulative des faits, une agrégation qui donne au rapprochement plus de cohérence que les sources ne l'établissent, une catégorie infalsifiable (« ensemble ou séparément »), une distribution asymétrique de l'autorité narrative entre experts occidentaux et officiels adverses, et l'omission des divisions internes comme de la multipolarité du monde. La destination politique du film, le réarmement européen, est la conclusion que cette architecture rend possible.
 
 Ce n'est pas seulement une enquête. C'est une enquête à thèse, dont le cadrage organise les faits vers une conclusion politique déterminée.
 
@@ -22,7 +22,7 @@ Ce n'est pas seulement une enquête. C'est une enquête à thèse, dont le cadra
 
 ## I. Ce que le film affirme, ce que les faits contredisent
 
-Le documentaire ne se contente pas d'interpréter des faits réels. Il en déforme plusieurs, en réécrit les généalogies, en gonfle les chiffres, en durcit les qualifications juridiques. Certains de ces problèmes sont des erreurs factuelles, d'autres des interprétations contestables, d'autres encore des procédés rhétoriques ou logiques. Ces exemples partagent une orientation commune : ils amplifient presque tous la cohérence, l'ancienneté et la dangerosité du rapprochement.
+Le documentaire ne se contente pas d'interpréter des faits réels. Il en déforme plusieurs, en réécrit les généalogies, en gonfle les chiffres, en durcit les qualifications juridiques. Certains de ces problèmes sont des erreurs factuelles, d'autres des interprétations contestables, d'autres encore des procédés rhétoriques ou logiques. Ces dix exemples, sans prétendre à l'exhaustivité, illustrent un biais directionnel : ils amplifient la cohérence, l'ancienneté et la dangerosité du rapprochement.
 
 ### 1. Les « 52 pays » : une masse géopolitique fabriquée
 
@@ -150,7 +150,7 @@ Mais la coïncidence temporelle mérite d'être notée. La Loi de programmation 
 
 Selon une étude de l'IRIS (Institut de relations internationales et stratégiques) reprise par le rapport Draghi, 63 % des contrats d'armement passés par les États membres de l'UE entre juin 2022 et juin 2023 l'ont été auprès de fournisseurs américains. Ce chiffre mesure la part des importations hors UE, pas la part totale des dépenses de défense européennes. L'IISS estime la part américaine à environ 34-36 % sur un périmètre incluant les achats domestiques. La Pologne a annoncé des commandes de 250 chars Abrams, 32 avions F-35 et 96 hélicoptères Apache. L'Allemagne a commandé 35 F-35. La France elle-même, championne de l'autonomie stratégique, voit ses voisins européens acheter américain. La menace construite par le documentaire converge avec les intérêts économiques d'un complexe militaro-industriel transatlantique dont les principaux acteurs figurent parmi les premiers bénéficiaires du réarmement européen.
 
-Qualifier le film de « propagande » exigerait de démontrer une finalité intentionnelle de mobilisation que les données disponibles n'établissent pas. Mais le qualifier de « produit de cadrage de la menace » est défendable : le film sélectionne, agrège, déforme et hiérarchise des faits réels pour produire une représentation plus cohérente, plus hostile et plus totalisante que ce que les preuves établissent, et oriente cette représentation vers une conclusion politique déterminée.
+L'enquête documente un biais directionnel dans la sélection et la hiérarchisation des faits. Le cadrage du film est compatible avec les intérêts du secteur de la défense, sans que l'enquête établisse de lien causal entre les financements et le contenu. Elle ne démontre pas une intention coordonnée de manipulation. Le terme « propagande », qui exigerait la preuve d'une finalité intentionnelle de mobilisation, n'est pas établi par les données disponibles.
 
 ---
 
@@ -220,7 +220,7 @@ Le documentaire aurait pu s'arrêter au constat. Il aurait pu documenter le rapp
 
 Il ne le fait pas. Les dernières minutes enchaînent les exercices de l'OTAN mobilisant 90 000 soldats, l'hypothèse d'une Europe abandonnée par les États-Unis, la nécessité de « continuer à soutenir l'Ukraine », le « destin de puissance militaire » de l'Union européenne et l'objectif d'un continent « capable de se défendre et de se faire respecter. »
 
-La chaîne de fabrication est désormais visible :
+La progression du récit est désormais visible :
 
 1. Gonflement et homogénéisation de la menace : les 52 pays, les 40 %, l'OCS originellement anti-occidentale, le programme nucléaire illégal, la machine de guerre.
 2. Disqualification morale : les adversaires sont des régimes illégaux, agressifs, manipulateurs, qui haïssent la démocratie et veulent semer le chaos.
