@@ -208,6 +208,9 @@ Quintessences-contexte (transition/note contextuelle) :
 6. **Les KO sentences sont des constats, pas des jugements.** Pas d'imputation d'intention. Pas de pathos. Des faits retournés.
 7. **La question ouverte n'est pas une conclusion.** C'est une absence qui reste.
 8. **Zéro em-dash.** Utiliser « : », « - », parenthèses.
+9. **VÉRIFIABILITÉ DES KO SENTENCES.** Toute KO sentence doit être directement vérifiable depuis le rapport Phase 2 SANS inférence intermédiaire. Une KO sentence qui contient « propagande », « zéro », « jamais », ou « tous » sans que le rapport Phase 2 n'établisse DIRECTEMENT ce fait est un drapeau rouge. Règle : si un lecteur peut répondre « pas exactement » ou « c'est plus compliqué » à une KO sentence, la reformuler.
+10. **DISTINCTION DES NIVEAUX PROBATOIRES.** Distinguer systématiquement entre six niveaux : (1) relations institutionnelles documentées, (2) dépendances financières potentielles, (3) influence éditoriale observée, (4) coordination démontrée, (5) intention imputée, (6) effet mesuré sur le public. Ne jamais sauter de (1) à (5) ou (6) en une phrase. Si le rapport Phase 2 ne dépasse pas le niveau (2), le blueprint ne peut pas affirmer les niveaux (3)-(6).
+11. **USAGE DU MOT « PROPAGANDE ».** Si le mot « propagande » apparaît dans les KO sentences ou le §7, le blueprint doit expliciter quels critères spécifiques sont satisfaits par le matériau Phase 2 : sélection systématique des faits dans une direction persuasive, asymétrie stable des statuts de parole, procédés narratifs de dramatisation, éviction d'explications concurrentes pertinentes, finalité de mobilisation ou de légitimation identifiable. Si ≥3 de ces critères ne sont pas documentés dans le rapport, remplacer « propagande » par « produit de cadrage de la menace » ou « documentaire inscrit dans un écosystème aux dépendances documentables. »
 
 ---
 

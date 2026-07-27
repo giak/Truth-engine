@@ -16,15 +16,15 @@ Cet article porte sur la réalité derrière la narrative du « triangle de fer 
 
 ### Q1. Le fait qui surprend
 
-L'axe Chine-Russie-Iran n'a pas d'idéologie commune. Xi Jinping parle de « Rêve chinois » (nationalisme civilisationnel), Poutine d'« État-civilisation » orthodoxe, Khamenei de « velayat-e faqih » (théocratie chiite). Les trois traditions sont structurellement incompatibles. Les déclarations communes (Xi-Poutine 2022, charte OCS) évitent soigneusement tout langage idéologique positif. Le seul dénominateur commun est défensif : « la souveraineté comme rempart contre l'ingérence occidentale. » Un « axe » sans valeurs partagées. C'est le fait qui oblige à repenser tout le reste.
+L'axe Chine-Russie-Iran n'a pas d'idéologie commune. Xi Jinping parle de « Rêve chinois » (nationalisme civilisationnel), Poutine d'« État-civilisation » orthodoxe, Khamenei de « velayat-e faqih » (théocratie chiite). Les trois traditions sont structurellement incompatibles. Les déclarations communes (Xi-Poutine 2022, charte OCS) évitent toute doctrine unifiée : la déclaration sino-russe mentionne bien des « valeurs communes de l'humanité » (paix, développement, équité, justice, démocratie, liberté), mais ces termes relèvent de la grammaire diplomatique onusienne, pas d'une internationale idéologique comparable au communisme soviétique. Le seul dénominateur commun est défensif : « la souveraineté comme rempart contre l'ingérence occidentale. » Un axe sans doctrine unifiée, mais avec une convergence idéologique minimale (anti-hégémonisme, souverainisme, rejet de l'universalisme libéral). C'est le fait qui oblige à repenser tout le reste.
 
 ### Q2. La tension dramatique
 
-Le documentaire Arte documente des faits réels (F1: déclaration Xi-Poutine 20 jours avant l'invasion, F3: Iran admis à l'OCS, F20: Brzezinski l'avait prédit en 1997). Mais il est lui-même un produit du circuit militaro-médiatique qu'il ne nomme jamais : produit par CC&C/Mediawan pour Arte/LCP (95 % fonds publics), cautionné par des experts de l'IFRI (financé par Thales/Airbus/DGA) et du CEPA (financé par Lockheed Martin/Rheinmetall), diffusé au moment précis où la France vote 413 milliards d'euros de budget militaire. Les deux choses sont vraies simultanément : l'axe existe, et le documentaire qui le dénonce est de la propagande. La tension n'est pas à résoudre : c'est le sujet.
+Le documentaire Arte documente des faits réels (F1: déclaration Xi-Poutine 20 jours avant l'invasion, F3: Iran admis à l'OCS, F20: Brzezinski l'avait prédit en 1997). Mais il est lui-même un produit du circuit militaro-médiatique qu'il ne nomme jamais : produit par CC&C/Mediawan pour Arte/LCP (95 % fonds publics), cautionné par des experts de l'IFRI (financé par Thales/Airbus/DGA) et du CEPA (financé par Lockheed Martin/Rheinmetall), diffusé au moment précis où la France vote 413 milliards d'euros de budget militaire. Les deux choses sont vraies simultanément : l'axe existe, et le documentaire qui le dénonce est le produit d'un écosystème dont les dépendances financières et institutionnelles sont documentables. Le qualifier de « propagande » exigerait de démontrer une finalité intentionnelle de mobilisation que les données disponibles n'établissent pas : elles établissent un biais de cadrage inscrit dans la structure même du circuit de production. La tension n'est pas à résoudre : c'est le sujet.
 
 ### Q3. La thèse organisatrice
 
-L'axe Chine-Russie-Iran se comprend comme une triple réalité simultanée : (1) une menace systémique documentée dans ses infrastructures (contournement des sanctions, flotte fantôme, mBridge, exercices navals conjoints, entraînement militaire pour Taïwan), (2) une menace dont l'amplification médiatique profite à un circuit militaro-médiatique occidental identifiable (Lockheed Martin → CEPA → IFRI → Arte/LCP → LPM 413G€), et (3) une menace qui n'épuise pas la géopolitique mondiale : l'Inde, les pétromonarchies du Golfe, le Brésil, la Turquie et 50+ pays du Sud global refusent de choisir entre les deux camps, invalidant le cadrage binaire que le documentaire ET ses critiques reproduisent.
+L'axe Chine-Russie-Iran se comprend comme une triple réalité simultanée : (1) une menace systémique documentée dans ses infrastructures (contournement des sanctions, flotte fantôme, mBridge, exercices navals conjoints, entraînement militaire pour Taïwan), (2) une menace dont le cadrage médiatique binaire profite à un circuit militaro-médiatique occidental identifiable (Lockheed Martin → CEPA → IFRI → Arte/LCP → budgets défense) — sans que l'intention ni le degré exact d'amplification soient établis au-delà du constat que les intérêts économiques de ce circuit convergent avec la dramatisation de la menace, et (3) une menace qui n'épuise pas la géopolitique mondiale : l'Inde, les pétromonarchies du Golfe, le Brésil, la Turquie et de nombreuses puissances pivot du Sud global pratiquent un multi-alignement qui ne se réduit ni à l'alignement ni à l'opposition, invalidant le cadrage binaire que le documentaire ET ses critiques reproduisent.
 
 ### Q4. L'angle
 
@@ -53,17 +53,17 @@ L'axe Chine-Russie-Iran se comprend comme une triple réalité simultanée : (1)
 ### Q7. Les KO sentences
 
 1. « L'axe n'a pas d'idéologie. Il a des adversaires communs. »
-2. « Le documentaire a raison sur les faits. Il est aussi de la propagande. Les deux sont vrais. »
+2. « Le documentaire a raison sur les faits. Son cadrage est le produit d'un écosystème identifiable. Les deux sont vrais. »
 3. « Taiclet (Lockheed Martin) et Poutine co-occurrent dans le même dossier : l'un comme menace, l'autre comme bénéficiaire de la menace. »
 4. « 63 % des contrats d'armement européens vont aux entreprises américaines. L'Europe finance sa propre vassalisation. »
-5. « La Corée du Nord a envoyé 14 000 soldats en Ukraine. La Chine, zéro. »
+5. « La Corée du Nord a déployé environ 14 000 soldats à Koursk, en territoire russe. La Chine, zéro. »
 6. « 50 pays ont refusé de condamner l'invasion russe à l'ONU. Ce n'est pas un axe, c'est un espace. »
 7. « Brzezinski l'avait prédit en 1997. Personne ne l'a écouté. »
 8. « Le contournement des sanctions est le seul mécanisme qui relie tous les acteurs de l'axe. Plus que l'idéologie. Plus que la guerre. »
 
 ### Q8. La question ouverte
 
-Si le documentaire Arte est de la propagande : et il l'est : et si cette investigation est structurellement biaisée par sa SUSPICION_BASELINE de 95 % contre les discours officiels occidentaux : et elle l'est : alors où se trouve le lecteur ? Dans quel espace peut-il se tenir pour observer DEUX machines de production de vérité sans être happé par l'une ou l'autre ? L'article ne répond pas à cette question. Il la rend possible.
+Si le documentaire Arte est un produit de cadrage de la menace dont l'écosystème de production est documentable — et cette investigation le documente sans établir d'intention coordonnée —, et si cette enquête est elle-même structurellement biaisée par sa SUSPICION_BASELINE de 95 % — et elle l'est —, alors où se trouve le lecteur ? Dans quel espace peut-il se tenir pour observer DEUX machines de production de vérité sans être happé par l'une ou l'autre ? L'article ne répond pas à cette question. Il la rend possible.
 
 ---
 
@@ -96,8 +96,8 @@ Si le documentaire Arte est de la propagande : et il l'est : et si cette investi
 ### §1 : Qui a fabriqué ce documentaire ?
 
 - **Rôle narratif :** Tension : le lecteur découvre que le documentaire qu'il vient d'accepter comme factuel est un produit manufacturé.
-- **Résumé :** Le circuit de production : CC&C/Mediawan → Arte France (95 % fonds publics) / LCP (Assemblée nationale) / Radio-Canada (société d'État). Financement : CNC, PROCIREP, ANGOA-AGICOA. Les experts : IFRI (financé par Thales, Airbus, DGA), CEPA (financé par Lockheed Martin, Rheinmetall), IRSEM (ministère des Armées). Le timing : diffusion 2024, année du vote de la LPM 413 milliards d'euros. Aucun complot : le fonctionnement normal d'un système.
-- **KO sentence :** « 100 % des experts français sont liés à des institutions financées par l'État ou l'industrie de défense. Zéro voix dissidente. »
+- **Résumé :** Le circuit de production : CC&C/Mediawan → Arte France (95 % fonds publics) / LCP (Assemblée nationale) / Radio-Canada (société d'État). Financement : CNC, PROCIREP, ANGOA-AGICOA. Les experts : IFRI (financé par Thales, Airbus, DGA), CEPA (financé par Lockheed Martin, Rheinmetall), IRSEM (ministère des Armées). Le timing : diffusion en mai 2024, dix mois après la promulgation de la LPM 413 milliards d'euros (août 2023). La coïncidence temporelle avec le vote n'existe pas — la thèse de légitimation postérieure du réarmement reste ouverte. Aucun complot : le fonctionnement normal d'un système.
+- **KO sentence :** « 100 % des experts français sont liés à des institutions financées par l'État ou l'industrie de défense. Les voix non-occidentales sont présentes comme sujets ou accusés, non comme experts autorisés. »
 - **Faits mobilisés :** 06-F1 (production CC&C/Mediawan), 06-F2 (CEPA Lockheed), 06-F3 (IFRI Thales/Airbus), 06-F5 (LPM 413G€), 06-F10 (100% experts liés État/défense), 06-F8 (0 voix dissidentes)
 - **Quintessences source :** 06 (phare), 09 (appui : budgets lobbying), 10 (appui : faisceaux)
 - **À résister :** Ne pas sombrer dans le complotisme. « Circuit fermé », pas « conspiration. »
@@ -105,7 +105,7 @@ Si le documentaire Arte est de la propagande : et il l'est : et si cette investi
 ### §2 : L'axe a-t-il seulement une idéologie ?
 
 - **Rôle narratif :** Révélation : la première grande surprise : l'axe n'a pas de valeurs communes.
-- **Résumé :** Les trois traditions sont incompatibles : confucianisme-marxiste (Chine), eurasisme-orthodoxie (Russie), islam politique chiite (Iran). La charte de l'OCS (2002) ne mentionne aucune « valeur commune ». La déclaration Xi-Poutine 2022 ne contient aucun langage idéologique positif. Le seul dénominateur commun est défensif : « la souveraineté comme rempart. » Le « triangle de fer » du documentaire est une alliance d'intérêts, pas de civilisation. C'est plus dangereux : et plus fragile : qu'un bloc idéologique.
+- **Résumé :** Les trois traditions sont incompatibles : confucianisme-marxiste (Chine), eurasisme-orthodoxie (Russie), islam politique chiite (Iran). La charte de l'OCS (2002) ne mentionne aucune « valeur commune ». La déclaration Xi-Poutine 2022 mentionne des « valeurs communes de l'humanité » (paix, développement, équité, justice, démocratie, liberté), mais ces termes relèvent de la grammaire diplomatique onusienne, pas d'une doctrine unifiée comparable au communisme soviétique. Le seul dénominateur commun est défensif : « la souveraineté comme rempart. » Le « triangle de fer » du documentaire est une alliance d'intérêts, pas de civilisation. C'est plus dangereux : et plus fragile : qu'un bloc idéologique.
 - **KO sentence :** « L'axe n'a pas d'idéologie. Il a des adversaires communs. »
 - **Faits mobilisés :** 24-F1 (Xi-Poutine 2022 sans langage idéologique), 24-F2 (Chivvis: axe de bouleversement), 24-F4 (souveraineté = seul dénominateur), 24-F8 (charte SCO: zéro valeurs communes), 04-F5 (récits humiliation comme substitut)
 - **Quintessences source :** 24 (phare), 04 (appui)
@@ -123,8 +123,8 @@ Si le documentaire Arte est de la propagande : et il l'est : et si cette investi
 ### §4 : Le monde que le documentaire ne peut pas voir
 
 - **Rôle narratif :** Élargissement : briser le cadre binaire en montrant le troisième espace.
-- **Résumé :** 50 pays ont refusé de condamner la Russie à l'ONU. L'Inde est membre de 5 forums géopolitiques simultanément (Quad, BRICS, OCS, I2U2, G20) sans allégeance à aucun. Le Brésil commerce deux fois plus avec la Chine qu'avec les États-Unis (171 G$ vs 83 G$). L'Arabie Saoudite refuse d'entrer dans les BRICS tout en achetant des drones chinois. La Turquie est dans l'OTAN, a acheté des S-400 russes, et a candidaté aux BRICS. Ce n'est pas un troisième « bloc » : il n'y a ni charte ni leader. C'est un espace. Et il invalide le cadrage binaire que le documentaire ET ses critiques reproduisent.
-- **KO sentence :** « 50 pays ont refusé de choisir. Ce n'est pas un axe, c'est un espace. »
+- **Résumé :** 141 pays ont condamné l'invasion russe à l'ONU : mais 35 se sont abstenus et 12 n'ont pas participé au vote. Plusieurs puissances pivot (Inde, Brésil, Afrique du Sud, Turquie) pratiquent un multi-alignement qui ne se réduit ni à l'alignement ni à l'opposition. L'Inde est membre de 5 forums géopolitiques simultanément (Quad, BRICS, OCS, I2U2, G20) sans allégeance à aucun. Le Brésil commerce deux fois plus avec la Chine qu'avec les États-Unis (171 G$ vs 83 G$). L'Arabie Saoudite refuse d'entrer dans les BRICS tout en achetant des drones chinois. La Turquie est dans l'OTAN, a acheté des S-400 russes, et a candidaté aux BRICS. Ce n'est pas un troisième « bloc » : il n'y a ni charte ni leader. C'est un espace. Et il invalide le cadrage binaire que le documentaire ET ses critiques reproduisent.
+- **KO sentence :** « 35 abstentions, 12 absences. Des puissances pivot refusent le cadrage binaire. Ce n'est pas un axe, c'est un espace. »
 - **Faits mobilisés :** 23-F1 (Brésil-Chine 171 G$), 23-F3 (Afrique du Sud abstention ONU), 23-F5 (Turquie OTAN+S-400+BRICS), 14-F12 (Inde 5 forums), 22-F1 (Arabie Saoudite refuse BRICS), 22-F6 (Qatar base US+Hamas+Iran)
 - **Quintessences source :** 23 (phare), 14 (appui), 22 (appui), 07 (appui : divisions)
 - **À résister :** Ne pas idéaliser le Sud global. Ces pays ne sont pas « neutres » par vertu : ils maximisent leurs intérêts.
@@ -142,7 +142,7 @@ Si le documentaire Arte est de la propagande : et il l'est : et si cette investi
 
 - **Rôle narratif :** Dernière révélation : le chaînon manquant que ni le documentaire ni ses critiques n'avaient vu.
 - **Résumé :** La Corée du Nord est absente du documentaire Arte et était absente des 22 premières investigations du dossier. Elle est pourtant le « force multiplier » de l'axe. 4 à 6 millions d'obus livrés à la Russie. 14 000 soldats déployés à Koursk : première projection de force nord-coréenne hors péninsule depuis 1953. Traité de partenariat stratégique global signé avec Poutine en 2024. Et, surtout, elle fixe 28 500 soldats américains en Corée du Sud : qui ne pourront pas être redéployés si la Chine envahit Taïwan. La Corée du Nord est le seul pays qui apporte une contribution militaire directe à l'axe. La Chine ne l'a pas fait.
-- **KO sentence :** « La Corée du Nord a envoyé 14 000 soldats en Ukraine. La Chine, zéro. »
+- **KO sentence :** « La Corée du Nord a déployé environ 14 000 soldats à Koursk, en territoire russe. La Chine, zéro. »
 - **Faits mobilisés :** 25-F1 (NK 4-6M obus), 25-F2 (14 000 soldats Koursk), 25-F8 (traité Kim-Poutine 2024), 25-M3 (NK ancre stratégique Taïwan)
 - **Quintessences source :** 25 (phare), 15 (appui : Taïwan)
 - **À résister :** Ne pas exagérer la coordination. Kim Jong-un est un acteur autonome, pas un pion de Pékin.
@@ -150,8 +150,8 @@ Si le documentaire Arte est de la propagande : et il l'est : et si cette investi
 ### §7 : Où est le lecteur dans cette machine ?
 
 - **Rôle narratif :** Ouverture : la question qui reste après la lecture.
-- **Résumé :** Le documentaire Arte est de la propagande : une machine de production de consentement pour 413 milliards d'euros de budget militaire. Cette investigation est structurellement biaisée : SUSPICION_BASELINE de 95 % contre les discours officiels occidentaux, 80 % de sources occidentales, clustering qui mesure ce qu'elle a elle-même nommé. Le lecteur est pris entre deux machines de production de vérité, chacune documentant des faits réels, chacune structurellement incapable de voir ses propres angles morts. L'article ne résout pas cette tension. Il la rend visible. Et c'est peut-être tout ce qu'un article peut faire.
-- **KO sentence :** « Le documentaire a raison sur les faits. Il est aussi de la propagande. Les deux sont vrais. »
+- **Résumé :** Le documentaire Arte est un produit de cadrage de la menace, inscrit dans un écosystème où experts, financements publics et intérêts industriels convergent. L'appeler « propagande » exigerait de démontrer une finalité intentionnelle de mobilisation que cet article n'établit pas : il établit que le cadrage binaire, l'homogénéité de l'expertise et les dépendances financières du circuit de production sont documentables. Cette investigation est structurellement biaisée : SUSPICION_BASELINE de 95 % contre les discours officiels occidentaux, 80 % de sources occidentales, clustering qui mesure ce qu'elle a elle-même nommé. Le lecteur est pris entre deux machines de production de vérité, chacune documentant des faits réels, chacune structurellement incapable de voir ses propres angles morts. L'article ne résout pas cette tension. Il la rend visible. Et c'est peut-être tout ce qu'un article peut faire.
+- **KO sentence :** « Le documentaire a raison sur les faits. Son cadrage est le produit d'un écosystème identifiable. Les deux sont vrais. »
 - **Faits mobilisés :** Rapport Phase 2 §6-F1 (architecture comme artefact), §7 (double filtre), §9 (CP1 conditionnel), 18-F11 (threat inflation précédents), 18-auto-critique (§12 source)
 - **Quintessences source :** 18 (phare), 08 (appui : responsabilité occidentale)
 - **À résister :** Ne pas finir sur une fausse humilité (« nous ne savons pas »). Finir sur une question précise qui habite.
