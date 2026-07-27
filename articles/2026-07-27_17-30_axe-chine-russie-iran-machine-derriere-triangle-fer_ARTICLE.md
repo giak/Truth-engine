@@ -222,6 +222,61 @@ Reste une question. Si le documentaire est un produit de cadrage, et si cette en
 
 ---
 
+## Annexe : Les intervenants du documentaire
+
+Cette annexe recense les vingt-quatre intervenants identifiés du documentaire « Russie, Chine, Iran : la revanche des empires » à partir des sources publiques disponibles (SensCritique, IMDb, page Ifri, Télé 7 Jours). La colonne « Statut narratif » est remplie à partir de ce que la page Ifri et la structure du documentaire rendent public : le Groupe A est présenté comme « analystes », le Groupe B comme « officiels » aux « propos offensifs. » Ces étiquettes sont celles de la production, pas de l'enquête. La colonne « Temps de parole » est laissée vide : elle ne peut être remplie qu'après un visionnage chronométré du film, que cette enquête n'a pas encore effectué. Les affiliations institutionnelles et les sources de financement, en revanche, sont vérifiables publiquement.
+
+La page Ifri décrivant le documentaire utilise une formule qui constitue un fait en elle-même : « Ils mobilisent de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées. »
+
+Deux catégories sont donc posées par la production elle-même : les « analystes » (occidentaux) et les « officiels » (chinois, iraniens, russes) aux « propos offensifs. » L'asymétrie n'est pas découverte par cette enquête : elle est revendiquée par le cadrage du film.
+
+### Groupe A : Analystes et experts occidentaux (16 intervenants)
+
+| # | Intervenant | Pays | Affiliation | Financement | Statut narratif (à vérifier) | Temps (à vérifier) |
+|:--:|-------------|------|-------------|:-----------:|:---------------------------:|:------------------:|
+| 1 | François Hollande | France | Ancien Président de la République | État | Analyste | |
+| 2 | David Colon | France | Sciences Po, historien de la désinformation | Établissement public | Analyste | |
+| 3 | Héloïse Fayet | France | IFRI, Centre des études de sécurité | Thales, Airbus, DGA | Analyste | |
+| 4 | Paul Charon | France | IRSEM, Institut de recherche stratégique de l'École militaire | Ministère des Armées | Analyste | |
+| 5 | Bruno Tertrais | France | FRS, Fondation pour la recherche stratégique | Financements défense | Analyste | |
+| 6 | Alice Ekman | France/UE | EUISS, Institut d'études de sécurité de l'UE | Agence de l'UE | Analyste | |
+| 7 | Agathe Demarais | France/UK | ECFR, European Council on Foreign Relations | Financements divers | Analyste | |
+| 8 | Sir John Sawers | Royaume-Uni | Ancien chef du MI6 | État britannique | Analyste | |
+| 9 | Dina Esfandiary | Royaume-Uni/Iran | Crisis Group, conseillère MENA | ONG | Analyste | |
+| 10 | Craig Singleton | États-Unis | FDD, Foundation for Defense of Democracies | Financements pro-défense | Analyste | |
+| 11 | Alina Polyakova | États-Unis | CEPA, Center for European Policy Analysis | Lockheed Martin, Rheinmetall, General Atomics | Analyste | |
+| 12 | James Rubin | États-Unis | Ancien diplomate, envoyé spécial | État américain | Analyste | |
+| 13 | Daniel Stenling | Suède | Responsable sécurité nationale | État suédois | Analyste | |
+| 14 | Patrick Oksanen | Suède | Expert en sécurité | État/think tank | Analyste | |
+| 15 | Hillel Neuer | Suisse | UN Watch, directeur exécutif | ONG | Analyste | |
+| 16 | Alireza Akhondi | Suède | Politicien suédois d'origine iranienne | État suédois | Analyste | |
+
+Sur les seize analystes occidentaux, au moins onze ont une affiliation directe à un ministère de la Défense, une agence d'État, ou un think tank recevant des financements significatifs de l'industrie de l'armement. Les cinq autres relèvent d'ONG (Crisis Group, UN Watch) ou d'institutions académiques et diplomatiques sans lien documenté avec la défense.
+
+### Groupe B : Voix chinoises, russes et iraniennes (8 intervenants)
+
+| # | Intervenant | Pays | Affiliation | Lien au régime | Statut narratif (à vérifier) | Temps (à vérifier) |
+|:--:|-------------|------|-------------|:------------:|:---------------------------:|:------------------:|
+| 17 | Victor Gao | Chine | CCG, Center for China and Globalization | Think tank lié au PCC | Officiel/témoin | |
+| 18 | Feilong Tian | Chine | Université Beihang, faculté de droit | Université d'État | Officiel/témoin | |
+| 19 | Mingfu Liu | Chine | Université de défense nationale de l'APL | Armée chinoise | Officiel/témoin | |
+| 20 | Sergueï Karaganov | Russie | Conseil pour la politique étrangère et de défense | Proche Kremlin | Officiel/témoin | |
+| 21 | Evgeny Popov | Russie | Journaliste, député Russie unie | Parti au pouvoir | Officiel/témoin | |
+| 22 | Hossein Kanani Moghaddam | Iran | Ancien commandant des Gardiens de la révolution | Corps d'État | Officiel/témoin | |
+| 23 | Mostafa Khoshcheshm | Iran | Analyste politique | Proche régime | Officiel/témoin | |
+| 24 | Abolfazl Amouei | Iran | Député au Parlement | État iranien | Officiel/témoin | |
+
+Les huit intervenants non-occidentaux sont tous liés à leur régime respectif : think tank pro-PCC, université d'État, armée, parti au pouvoir, ancien commandant de l'IRGC, parlementaire. Aucune voix dissidente chinoise, russe ou iranienne n'est représentée : ni les démocrates de Hong Kong, ni l'opposition russe en exil, ni les militants iraniens pour les droits humains.
+
+### Constats
+
+1. **Ratio : 16 Occidentaux pour 8 non-Occidentaux (2:1).** Les voix occidentales dominent numériquement le montage.
+2. **Symétrie des affiliations :** Parmi les 16 Occidentaux, 11 sont liés à des institutions étatiques ou de défense. Parmi les 8 non-Occidentaux, les 8 sont liés à leur régime. La différence n'est pas dans la proximité au pouvoir : elle est dans le *statut narratif* que le montage attribue à chaque groupe.
+3. **Le cadrage est explicite :** La page Ifri distingue elle-même les « analystes » (groupe A) des « officiels » aux « propos offensifs » (groupe B). Cette distinction n'est pas une interprétation de l'enquête : elle est le vocabulaire de la production.
+4. **Ce que cette annexe ne permet pas de conclure :** Sans les colonnes « Statut narratif » et « Temps de parole » remplies par un visionnage chronométré, on ne peut pas affirmer que le montage *traite* les deux groupes différemment. L'annexe documente les conditions institutionnelles de production de l'expertise, pas le résultat audiovisuel. C'est la pièce qui manque pour transformer l'intuition en démonstration.
+
+---
+
 ## Chambre des Titres : 9 propositions
 
 ### Titres-choc / provocateurs
