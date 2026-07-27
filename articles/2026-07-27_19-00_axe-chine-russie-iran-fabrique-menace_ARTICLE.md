@@ -148,7 +148,7 @@ L'influence de ces financements sur le contenu du documentaire n'est pas démont
 
 Mais la coïncidence temporelle mérite d'être notée. La Loi de programmation militaire 2024-2030, dotée de 413 milliards d'euros, a été promulguée le 1er août 2023. Le documentaire a été diffusé pour la première fois en mai 2024, dix mois plus tard. Il existe un débat public sur l'augmentation massive des budgets de défense européens. Un documentaire qui construit méthodiquement la menace que ces budgets sont censés contrer occupe une fonction objective dans ce débat, que cette fonction ait été intentionnelle ou non.
 
-63 % des contrats d'armement européens vont à des entreprises américaines. La Pologne a commandé 250 chars Abrams, 32 avions F-35 et 96 hélicoptères Apache. L'Allemagne a commandé 35 F-35. La France elle-même, championne de l'autonomie stratégique, voit ses voisins européens acheter américain. La menace construite par le documentaire profite objectivement à un complexe militaro-industriel transatlantique.
+Selon l'Agence européenne de défense, 63 % des contrats d'armement des États membres de l'UE ont été attribués à des entreprises américaines entre juin 2022 et juin 2023. La Pologne a annoncé des commandes de 250 chars Abrams, 32 avions F-35 et 96 hélicoptères Apache. L'Allemagne a commandé 35 F-35. La France elle-même, championne de l'autonomie stratégique, voit ses voisins européens acheter américain. La menace construite par le documentaire profite objectivement à un complexe militaro-industriel transatlantique.
 
 Qualifier le film de « propagande » exigerait de démontrer une finalité intentionnelle de mobilisation que les données disponibles n'établissent pas. Mais le qualifier de « produit de cadrage de la menace » est défendable : le film sélectionne, agrège, déforme et hiérarchise des faits réels pour produire une représentation plus cohérente, plus hostile et plus totalisante que ce que les preuves établissent, et oriente cette représentation vers une conclusion politique déterminée.
 
@@ -168,9 +168,9 @@ L'absence de doctrine commune n'est pas une anomalie. En relations international
 
 ### Une alliance asymétrique
 
-La Russie est devenue un « junior partner » de la Chine. La guerre d'Ukraine a rendu Moscou dépendant de Pékin pour ses exportations énergétiques (l'Inde et la Chine représentent désormais plus de 80 % des exportations de pétrole russe par voie maritime), pour les technologies duales (les importations chinoises de semi-conducteurs vers la Russie ont plus que triplé depuis 2022, selon les données de China Customs) et pour la légitimation diplomatique.
+La Russie est décrite par de nombreux analystes comme un « junior partner » de la Chine. La guerre d'Ukraine a rendu Moscou dépendant de Pékin pour ses exportations énergétiques (l'Inde et la Chine représentent désormais plus de 80 % des exportations de pétrole russe par voie maritime), pour les technologies duales (les exportations chinoises de semi-conducteurs vers la Russie ont fortement augmenté depuis 2022, les données douanières chinoises montrant un doublement de certaines catégories de puces) et pour la légitimation diplomatique.
 
-L'Iran est encore plus isolé. La guerre déclenchée en février 2026, à la suite de l'assassinat du guide suprême Ali Khamenei, a révélé la limite opérationnelle de l'axe : ni Moscou ni Pékin n'ont envoyé de forces pour défendre Téhéran. La Russie a fourni un soutien logistique et diplomatique limité. La Chine s'est contentée de déclarations.
+L'Iran est encore plus isolé. La guerre déclenchée en février 2026 a révélé la limite opérationnelle de l'axe : ni Moscou ni Pékin n'ont envoyé de forces pour défendre Téhéran. La Russie a fourni un soutien logistique et diplomatique limité. La Chine s'est contentée de déclarations.
 
 Le triangle n'est pas équilatéral. C'est une alliance asymétrique où chaque membre poursuit ses intérêts propres, parfois convergents, parfois non.
 
@@ -194,7 +194,7 @@ Le Golfe n'est ni dans l'axe ni dans l'Occident. Il construit l'infrastructure d
 
 ### La Corée du Nord, absente du film
 
-Le documentaire ignore presque entièrement la Corée du Nord. C'est une omission majeure. La Corée du Nord est le seul pays à apporter une contribution militaire directe à l'axe : 4 à 6 millions d'obus livrés à la Russie depuis 2023, représentant 40 à 70 % des munitions de certaines unités russes, et environ 14 000 soldats déployés dans la région de Koursk à partir de la fin 2024.
+Le documentaire ignore presque entièrement la Corée du Nord. C'est une omission majeure. La Corée du Nord est le seul pays à apporter une contribution militaire directe à l'axe : Selon les estimations des services de renseignement sud-coréens et ukrainiens, 4 à 6 millions d'obus livrés à la Russie depuis 2023, représentant 40 à 70 % des munitions de certaines unités russes, et selon les renseignements ukrainiens et sud-coréens, environ 14 000 soldats déployés dans la région de Koursk à partir de la fin 2024.
 
 Le 19 juin 2024, Kim Jong-un et Vladimir Poutine ont signé à Pyongyang un traité de « partenariat stratégique global » incluant une clause de défense mutuelle. La Corée du Nord fixe 28 500 soldats américains en Corée du Sud. Elle entretient avec l'Iran des liens technologiques sur les missiles balistiques.
 
