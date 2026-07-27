@@ -35,8 +35,8 @@ Audit #1 (v1.0)     Audit #2 (v2.0)     Audit #3 (v3.0)     Audit #4 (v4.0)     
                          ↓ KERNEL v2.0 REFACTOR (7 modifications, commits b5d911e→4142613) ↓
 
 Audit #6 (v6.0)      Audit #6.1 (v6.1)   Correction vague 1   Correction vague 2   Correction vague 3
-    0%                  33%                 67%                  81%                 100%
-    0/15                7/16 (APEX EDI)    7/16 (APEX CLAIM)   7/16 (APEX SRC)     16/16 TOUS
+    0%                  33%                 48%                  63%                 100%
+    0/15                16/16 (EDI warn)    7/7 APEX CLAIM      7/7 APEX SRC        16/16 TOUS
   +3 CRITÈRES          EDI: 16/16 ✅       CLAIM_REG: 7/7      SRC_DIV: 7/7        CLAIM_REG: 9/9
   → TOUS FAIL          Partial: 9 C/M      Partial: 9 C/M      Partial: 9 C/M      SRC_DIV: 9/9
 
@@ -114,7 +114,7 @@ Audit #6 (v6.0)      Audit #6.1 (v6.1)   Correction vague 1   Correction vague 2
 | 5 | SOURCE DIVERSITY (COMPLEX/MEDIUM) | `8becd4a` | 9/9 | 17-30 CEST | 27 sources non-occidentales. geo≥2, lang≥2, H7≥1. Gap Chine documenté. |
 | — | GATE_CHECK v7.0 (ce fichier) | _(ce commit)_ | 1 (audit) | 17-00 CEST | Audit final: 16/16 PASS, 100% conformité. |
 
-**Total:** 10 commits, 5 vagues, 16 fichiers modifiés, ~250 lignes ajoutées, 39 claims, ~62 sources non-occidentales.
+**Total:** 9 commits, 5 vagues, 16 fichiers modifiés, ~250 lignes ajoutées, 39 claims, ~62 sources non-occidentales.
 
 ---
 
