@@ -178,7 +178,7 @@ Le triangle n'est pas équilatéral. C'est une alliance asymétrique où chaque 
 
 L'Inde est le chaînon qui fait s'effondrer le cadrage binaire du documentaire. Elle est simultanément membre de l'Organisation de coopération de Shanghai (depuis 2017), des BRICS, du Quad (avec les États-Unis, le Japon et l'Australie), du G20 et de l'I2U2 (avec les États-Unis, Israël et les Émirats arabes unis). Cinq forums, trois camps différents.
 
-L'Inde importe 35 à 38 % de son pétrole de Russie, soit environ 168 milliards de dollars cumulés depuis 2022, tout en participant au Quad, une alliance de sécurité maritime explicitement dirigée contre l'expansion chinoise. En septembre 2023, Narendra Modi déclarait à Vladimir Poutine, en marge du sommet de l'OCS : « L'ère d'aujourd'hui n'est pas une ère de guerre. » L'Inde bloque de l'intérieur la proposition d'une monnaie commune des BRICS.
+L'Inde importe 35 à 38 % de son pétrole de Russie, soit environ 168 milliards de dollars cumulés depuis 2022, selon le Centre for Research on Energy and Clean Air, tout en participant au Quad, une alliance de sécurité maritime explicitement dirigée contre l'expansion chinoise. En septembre 2023, Narendra Modi déclarait à Vladimir Poutine, en marge du sommet de l'OCS : « L'ère d'aujourd'hui n'est pas une ère de guerre. » L'Inde bloque de l'intérieur la proposition d'une monnaie commune des BRICS.
 
 L'Inde refuse de choisir. Ce n'est pas un axe. C'est un monde.
 
@@ -186,7 +186,7 @@ L'Inde refuse de choisir. Ce n'est pas un axe. C'est un monde.
 
 Les pétromonarchies du Golfe pratiquent un exercice d'équilibrisme encore plus spectaculaire. L'Arabie saoudite et les Émirats arabes unis sont des alliés de sécurité traditionnels des États-Unis, mais coordonnent leur production pétrolière avec la Russie au sein de l'OPEP+. En octobre 2022, l'OPEP+ a réduit sa production de 2 millions de barils par jour, décision coordonnée avec Moscou malgré la pression américaine.
 
-Dubaï est devenu le premier hub mondial du trading pétrolier russe. Les transactions immobilières à Dubaï impliquant des capitaux russes ont augmenté de 46 % en 2023. L'Arabie saoudite a rejoint le projet mBridge en 2024, une plateforme de monnaie numérique transfrontalière développée avec la Chine, la Thaïlande et les Émirats arabes unis. La banque centrale saoudienne et la banque centrale chinoise ont signé un accord de swap de 50 milliards de yuans.
+Dubaï est devenu le premier hub mondial du trading pétrolier russe. Les transactions immobilières à Dubaï impliquant des capitaux russes ont augmenté de 46 % en 2023, selon le Soufan Center. L'Arabie saoudite a rejoint le projet mBridge en 2024, une plateforme de monnaie numérique transfrontalière développée avec la Chine, la Thaïlande et les Émirats arabes unis. La banque centrale saoudienne et la banque centrale chinoise ont signé un accord de swap de 50 milliards de yuans, selon la Banque populaire de Chine.
 
 Le Qatar héberge la plus grande base militaire américaine au Moyen-Orient, entretient des relations avec le Hamas et le Hezbollah, et a servi d'intermédiaire entre Washington et Téhéran. Les Émirats arabes unis ont normalisé leurs relations avec Israël via les accords d'Abraham en 2020, tout en développant une relation économique et diplomatique croissante avec la Chine.
 
@@ -196,7 +196,7 @@ Le Golfe n'est ni dans l'axe ni dans l'Occident. Il construit l'infrastructure d
 
 Le documentaire ignore presque entièrement la Corée du Nord. C'est une omission majeure. La Corée du Nord est le seul pays à apporter une contribution militaire directe à l'axe : Selon les estimations des services de renseignement sud-coréens et ukrainiens, 4 à 6 millions d'obus livrés à la Russie depuis 2023, représentant 40 à 70 % des munitions de certaines unités russes, et selon les renseignements ukrainiens et sud-coréens, environ 14 000 soldats déployés dans la région de Koursk à partir de la fin 2024.
 
-Le 19 juin 2024, Kim Jong-un et Vladimir Poutine ont signé à Pyongyang un traité de « partenariat stratégique global » incluant une clause de défense mutuelle. La Corée du Nord fixe 28 500 soldats américains en Corée du Sud. Elle entretient avec l'Iran des liens technologiques sur les missiles balistiques.
+Le 19 juin 2024, Kim Jong-un et Vladimir Poutine ont signé à Pyongyang un traité de « partenariat stratégique global » incluant une clause de défense mutuelle. La Corée du Nord fixe 28 500 soldats américains en Corée du Sud, selon les effectifs de l'USFK (United States Forces Korea). Elle entretient avec l'Iran des liens technologiques sur les missiles balistiques.
 
 Et pourtant : la Chine contrôle 98 % du commerce extérieur nord-coréen. La Chine n'a pas déployé de troupes à Koursk. La Russie a entraîné l'armée chinoise pour Taïwan (exercices de drones, déminage, lutte anti-sous-marine). La Corée du Nord a déployé 14 000 soldats. La Chine, zéro.
 
