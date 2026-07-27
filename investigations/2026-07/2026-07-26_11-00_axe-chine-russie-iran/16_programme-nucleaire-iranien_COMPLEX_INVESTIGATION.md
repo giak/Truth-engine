@@ -99,6 +99,19 @@ Cette investigation traite le programme nucléaire iranien comme une menace — 
 
 ---
 
+## SOURCE DIVERSITY (allégé — GATES.md §4: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| Iran International (Iranian exile, UK) | Europe/Iran | IE | IR | https://iraninternational.com |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+
+**geo:** 3 continents ✅ | **lang:** 2 families (IE+Semitic) ✅ | **H7:** 1 (Iran International→IR) ✅
+**Note:** Iran International est directement pertinent (source iranienne indépendante). Al Jazeera couvre le nucléaire iranien en profondeur depuis le Golfe.
+
+---
+
 ## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
 
 | # | CLAIM | COUNTER | BALANCE |

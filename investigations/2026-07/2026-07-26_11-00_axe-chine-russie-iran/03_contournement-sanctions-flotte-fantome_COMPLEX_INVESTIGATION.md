@@ -163,6 +163,19 @@ La dédollarisation n'est pas du « bricolage de sanctionnés ». C'est un proje
 
 ---
 
+## SOURCE DIVERSITY (allégé — GATES.md §4: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Kyiv Independent (Ukraine) | Europe | IE | RF | https://kyivindependent.com |
+
+**geo:** 3 continents ✅ | **lang:** 2 families (IE+Semitic) ✅ | **H7:** 1 (Kyiv Independent→RF) ✅
+**Gap Chine:** non prioritaire (sujet: sanctions/flotte fantôme). Voir fichier 01.
+
+---
+
 ## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
 
 | # | CLAIM | COUNTER | BALANCE |

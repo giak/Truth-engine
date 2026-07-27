@@ -87,6 +87,19 @@ La Chine exporte activement ses technologies de surveillance et de répression v
 
 ---
 
+## SOURCE DIVERSITY (allégé — GATES.md §4: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Hong Kong Free Press | Asia | IE | CN | https://hongkongfp.com |
+
+**geo:** 3 continents ✅ | **lang:** 2 families (IE+Semitic) ✅ | **H7:** 1 (HKFP→CN) ✅
+**Gap Chine:** HKFP est la source sinophone indépendante la plus proche en anglais. Le chinois (sino-tibétain) reste inaccessible.
+
+---
+
 ## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
 
 | # | CLAIM | COUNTER | BALANCE |

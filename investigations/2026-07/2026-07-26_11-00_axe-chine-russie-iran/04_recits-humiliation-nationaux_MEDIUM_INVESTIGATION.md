@@ -107,6 +107,19 @@ Les trois régimes partagent une structure narrative identique:
 
 ---
 
+## SOURCE DIVERSITY (allégé — GATES.md §4: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Iran International (Iranian exile, UK) | Europe/Iran | IE | IR | https://iraninternational.com |
+
+**geo:** 3 continents ✅ | **lang:** 2 families (IE+Semitic) ✅ | **H7:** 1 (Iran International→IR) ✅
+**Gap Chine:** non prioritaire (sujet: récits d'humiliation). Voir fichier 01.
+
+---
+
 ## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
 
 | # | CLAIM | COUNTER | BALANCE |

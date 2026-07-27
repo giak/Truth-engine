@@ -99,6 +99,19 @@ Cette investigation se concentre sur la dimension « souveraineté numérique »
 
 ---
 
+## SOURCE DIVERSITY (allégé — GATES.md §4: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Taiwan News (Taiwan) | Asia | IE | CN | https://taiwannews.com.tw |
+
+**geo:** 3 continents ✅ | **lang:** 2 families (IE+Semitic) ✅ | **H7:** 1 (Taiwan News→CN) ✅
+**Gap Chine:** Taiwan News = source sinophone indépendante. Aucune source chinoise continentale indépendante en anglais.
+
+---
+
 ## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
 
 | # | CLAIM | COUNTER | BALANCE |

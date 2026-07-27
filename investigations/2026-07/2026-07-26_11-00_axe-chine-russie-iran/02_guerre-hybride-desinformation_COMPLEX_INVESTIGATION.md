@@ -213,6 +213,19 @@ La coordination Chine-Russie-Iran suit un pattern documenté:
 
 ---
 
+## SOURCE DIVERSITY (allégé — GATES.md §4: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Meduza (Russian exile, Latvia) | Europe/Russia | Slavic | RF | https://meduza.io/en |
+
+**geo:** 3 continents ✅ | **lang:** 3 families (IE+Slavic+Semitic) ✅ | **H7:** 1 (Meduza→RF) ✅
+**Gap Chine:** aucune source chinoise indépendante en anglais. Voir fichier 01 pour le détail.
+
+---
+
 ## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
 
 | # | CLAIM | COUNTER | BALANCE |

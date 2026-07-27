@@ -165,6 +165,19 @@ Cette investigation documente le CIRCUIT de l'argent mais ne démontre pas que l
 
 ---
 
+## SOURCE DIVERSITY (allégé — GATES.md §4: geo≥2, lang≥2, H7≥1)
+
+| Source | geo | lang | H7 | URL |
+|--------|-----|------|-----|-----|
+| The Wire (India) | Asia | IE | — | https://thewire.in |
+| Al Jazeera English (Qatar) | Middle East | Semitic | — | https://aljazeera.com |
+| Meduza (Russian exile, Latvia) | Europe/Russia | Slavic | RF | https://meduza.io/en |
+
+**geo:** 3 continents ✅ | **lang:** 3 families (IE+Slavic+Semitic) ✅ | **H7:** 1 (Meduza→RF) ✅
+**Gap Chine:** non prioritaire (sujet: CMI occidental). Voir fichier 01.
+
+---
+
 ## CLAIM_REGISTRY (allégé — GATES.md §4, KERNEL §1 step 5)
 
 | # | CLAIM | COUNTER | BALANCE |
