@@ -98,7 +98,7 @@ Le film ne se limite pas à informer sur un rapprochement géopolitique. Il cons
 
 Le dispositif du documentaire ne repose pas seulement sur ce qu'il dit. Il repose sur la distribution de la parole.
 
-La page officielle d'Arte présente le film comme donnant la parole à « des analystes et des interlocuteurs de renom », tout en confrontant le spectateur aux propos « offensifs » d'officiels chinois, iraniens et russes. [^2] Cette présentation définit, dans le paratexte, deux catégories de locuteurs aux statuts différents : d'un côté les analystes qui expliquent, de l'autre les officiels dont les propos sont désignés comme « offensifs ».
+La page officielle d'Arte décrit le film comme mobilisant « de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées ». [^2] Cette présentation définit, dans le paratexte, deux catégories de locuteurs aux statuts différents : d'un côté les analystes qui expliquent, de l'autre les officiels dont les propos sont désignés comme « offensifs ».
 
 Cette asymétrie est documentée dans la communication d'Arte elle-même. Elle ne peut pas encore être démontrée comme systématique dans le montage audiovisuel sans un relevé scène par scène établissant le temps de parole, la distribution du dernier mot, la nature des plans associés à chaque intervenant et le traitement des voix non occidentales qui ne sont pas des officiels. Le film comprend par ailleurs des interlocuteurs non occidentaux aux statuts variés (Tian Feilong, Liu Mingfu, Victor Gao, Hossein Kanani Moghaddam, Mostafa Khoshcheshm, Abolfazl Amouei, entre autres [^32]), dont le traitement audiovisuel n'a pas été codé.
 
@@ -217,9 +217,9 @@ La qualification la plus précise est celle d'un documentaire géopolitique à t
 
 [^1]: Déclaration conjointe Xi-Poutine, 4 février 2022, Kremlin.ru ; Admission de l'Iran à l'OCS, 4 juillet 2023, Communiqué du sommet de New Delhi, sectsco.org.
 
-[^2]: Page officielle du documentaire sur arte.tv : « Russie, Chine, Iran : la revanche des empires », consultée le 27 juillet 2026 ; Présentation du producteur CC&C/Mediawan.
+[^2]: Arte, page officielle du documentaire : arte.tv/fr/videos/119561-000-A/russie-chine-iran-la-revanche-des-empires. Texte exact : « Ils mobilisent de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées. » Consulté le 27 juillet 2026. IFRI, page reprenant la présentation officielle : ifri.org/fr/presse-contenus-repris-sur-le-site/russie-chine-iran-la-revanche-des-empires. Synopsis du producteur CC&C (cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires) : « Leur objectif commun : mettre un terme à l'hégémonie occidentale [...] Pour y arriver, ils mènent contre les démocraties une guerre hybride. »
 
-[^3]: UK Ministry of Defence, Defence Intelligence updates on Ukraine, 2022-2024 ; Institute for the Study of War, Iran's supply of Shahed drones to Russia, 2023.
+[^3]: UK Ministry of Defence, Defence Intelligence update on Ukraine, 22 juillet 2022 (première confirmation publique de drones iraniens) ; Institute for the Study of War, « Iran's support to Russian military operations in Ukraine », 2023, understandingwar.org.
 
 [^4]: Transcript automatique du documentaire. Timecodes indicatifs. Les citations exactes doivent être vérifiées contre la bande sonore originale. Dailymotion : « Russie, Chine, Iran _ La revanche des empires _ ARTE », x8yuxgu.
 
@@ -229,25 +229,25 @@ La qualification la plus précise est celle d'un documentaire géopolitique à t
 
 [^7]: U.S. Energy Information Administration, « China imported record amounts of crude oil in 2023 », 26 mars 2024, eia.gov.
 
-[^8]: Agence internationale de l'énergie atomique, déclarations du directeur général au Conseil des gouverneurs, 2024-2025, iaea.org. L'AIEA documente des manquements sans déclarer l'ensemble du programme nucléaire iranien illégal.
+[^8]: AIEA, déclaration introductive du directeur général Rafael Grossi au Conseil des gouverneurs, mars 2025, iaea.org. L'AIEA documente des manquements sans déclarer l'ensemble du programme nucléaire iranien illégal.
 
 [^9]: Charte de l'Organisation de coopération de Shanghai, signée le 7 juin 2002, sectsco.org.
 
 [^10]: Histoire officielle des BRICS, brics.br ; Première réunion ministérielle BRIC, 20 septembre 2006, New York.
 
-[^11]: Al Jazeera, « Where are Iran's allies? Why Moscow, Beijing are keeping their distance », 5 mars 2026, aljazeera.com ; Al Jazeera, « How extensive is Russia's military aid to Iran? », 27 mars 2026, aljazeera.com. Des livraisons d'armes, de composants et une assistance en renseignement ont été rapportées sans que Moscou ou Pékin n'engagent de forces dans une défense militaire directe.
+[^11]: Nils Adler, « Where are Iran's allies? Why Moscow, Beijing are keeping their distance », Al Jazeera, 5 mars 2026, aljazeera.com/features/2026/3/5/where-are-irans-allies-why-moscow-beijing-are-keeping-their-distance ; Al Jazeera, « How extensive is Russia's military aid to Iran? », 27 mars 2026, aljazeera.com/news/2026/3/27/how-extensive-is-russias-military-aid-to-iran. Des livraisons d'armes, de composants et une assistance en renseignement ont été rapportées sans que Moscou ou Pékin n'engagent de forces dans une défense militaire directe.
 
 [^12]: CNC, Fonds de soutien audiovisuel. PROCIREP et ANGOA-AGICOA sont des organismes de gestion collective liés aux producteurs et ayants droit, distincts des établissements publics.
 
-[^13]: CEPA, « Our Supporters », cepa.org, consulté le 27 juillet 2026. Donateurs incluant Lockheed Martin, American Rheinmetall Defense, General Atomics.
+[^13]: CEPA, « Our Supporters », cepa.org/about-cepa/our-supporters. Liste des soutiens pour l'année fiscale 2025 incluant Lockheed Martin Corporation, American Rheinmetall Defense et General Atomics. Consulté le 27 juillet 2026.
 
-[^14]: IFRI, « Donateurs », ifri.org, consulté le 27 juillet 2026. Donateurs incluant Thales, KNDS, MBDA, Naval Group, Safran, SGDSN. La participation de la DGA à des conférences de l'IFRI est documentée ; elle n'équivaut pas à un financement direct.
+[^14]: IFRI, « Donateurs », ifri.org/fr/donateurs. Donateurs incluant Thales, KNDS, MBDA, Naval Group, Safran, SGDSN. Consulté le 27 juillet 2026. La participation de la DGA à des conférences de l'IFRI est documentée ; elle n'équivaut pas à un financement direct.
 
-[^15]: IRSEM, présentation officielle, irsem.fr. Organisme du ministère des Armées.
+[^15]: IRSEM, présentation officielle, irsem.fr. Organisme du ministère des Armées, rattaché à la Direction générale des relations internationales et de la stratégie (DGRIS).
 
 [^16]: IRIS, étude citée dans le rapport Draghi sur la compétitivité européenne, septembre 2024. L'estimation IRIS concluait que 78 % des dépenses d'acquisition étudiées allaient à des fournisseurs non européens, dont 63 % aux États-Unis. Ce périmètre excluait une partie des achats domestiques.
 
-[^17]: IISS, « Europe's defence procurement since 2022: a reassessment », octobre 2024, iiss.org ; IISS, actualisation mi-2025. L'IISS évalue la part américaine à 34 % jusqu'en septembre 2024 et à environ 36 % jusqu'à mi-2025 sur un périmètre incluant les achats domestiques.
+[^17]: Ben Schreer, « Europe's defence procurement since 2022: a reassessment », IISS, 23 octobre 2024, iiss.org/online-analysis/military-balance/2024/10/europes-defence-procurement-since-2022-a-reassessment ; IISS, actualisation mi-2025. L'IISS évalue la part américaine à 34 % jusqu'en septembre 2024 et à environ 36 % jusqu'à mi-2025 sur un périmètre incluant les achats domestiques.
 
 [^18]: Agence internationale de l'énergie, rapports mensuels sur le marché pétrolier, 2023-2024 ; Données douanières chinoises sur les exportations de semi-conducteurs vers la Russie, 2023-2024.
 
@@ -275,9 +275,9 @@ La qualification la plus précise est celle d'un documentaire géopolitique à t
 
 [^30]: Code de la défense, articles L1521-1 à L1521-8 (police en mer), legifrance.gouv.fr ; Projet de loi de programmation militaire 2024-2030, dispositions pénales.
 
-[^31]: CC&C, fiche de production officielle : « Production : CC&C Mediawan – ARTE G.E.I.E. », « Diffuseurs : Arte, LCP, Radio Canada », cccprod.com, consulté le 27 juillet 2026.
+[^31]: CC&C, fiche de production : cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires. « Production : CC&C Mediawan – ARTE G.E.I.E. », « Diffuseurs : Arte, LCP, Radio Canada ». Consulté le 27 juillet 2026.
 
-[^32]: IMDb, « Russie, Chine, Iran - La revanche des empires (TV Movie 2024) - Full cast & crew », imdb.com/title/tt32465670/fullcredits.
+[^32]: IMDb, « Russie, Chine, Iran - La revanche des empires (TV Movie 2024) - Full cast & crew », imdb.com/title/tt32465670/fullcredits. Consulté le 27 juillet 2026. Intervenants non occidentaux incluant Tian Feilong, Liu Mingfu, Victor Gao, Hossein Kanani Moghaddam, Mostafa Khoshcheshm, Abolfazl Amouei.
 
 [^33]: Financial Times, « Dubai emerges as hub for Russian oil trading », juillet 2024, ft.com ; Bloomberg, Russian oil trade flows via Dubai, 2023-2024.
 
