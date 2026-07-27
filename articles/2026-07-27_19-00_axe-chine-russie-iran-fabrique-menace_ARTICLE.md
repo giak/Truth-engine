@@ -18,6 +18,8 @@ L'enquête qui suit documente plusieurs procédés récurrents dans ce cadrage :
 
 Ce n'est pas seulement une enquête. C'est une enquête à thèse, dont le cadrage organise les faits vers une conclusion politique déterminée.
 
+La preuve de cette thèse préalable est fournie par Arte elle-même. Le synopsis officiel du documentaire n'annonce pas une question ouverte. Avant même la première image, il affirme que trois régimes autoritaires « s'unissent », qu'ils possèdent une « feuille de route commune », qu'ils mènent une « stratégie tentaculaire » et une « guerre hybride » contre l'Occident. Le producteur CC&C/Mediawan, dans sa présentation officielle du film, décrit un « objectif commun » entre les trois régimes et une guerre menée contre les démocraties. Le spectateur n'entre pas dans une enquête sur la nature du rapprochement. Il entre dans l'autopsie d'une alliance hostile que le diffuseur déclare préalablement constituée.
+
 ---
 
 ## I. Ce que le film affirme, ce que les faits contredisent
@@ -230,6 +232,22 @@ La progression du récit est désormais visible :
 
 La Loi de programmation militaire de 413 milliards d'euros était déjà votée lorsque le documentaire a été diffusé. Mais le film ne porte pas sur cette loi. Il porte sur le consentement à l'effort de défense que cette loi inaugure.
 
+### L'ingénierie émotionnelle : peur graduelle, saturation, solution
+
+Cette progression n'est pas seulement argumentative. Elle est affective.
+
+Le documentaire suit une structure qui correspond au modèle de l'appel à la peur documenté par la recherche en communication persuasive. La menace commence par des faits militaires visibles (l'invasion de l'Ukraine), puis s'élargit progressivement : contournement économique, institutions alternatives, guerre informationnelle, surveillance, droits humains, ordre mondial, menace civilisationnelle. Elle finit par devenir militaire, économique, numérique, juridique, idéologique, mondiale, permanente et souvent invisible. Le spectateur ne peut plus localiser le danger. Il est partout.
+
+Puis, au moment précis où la menace devient totale, le film fournit la solution : le soutien à l'Ukraine, la puissance militaire européenne, la capacité à « se défendre et se faire respecter ». Les recherches sur les appels à la peur (Witte, 1992, Extended Parallel Process Model) montrent que ce séquençage : menace grave et vulnérabilité ressentie, suivies d'une solution présentée comme efficace, est précisément la configuration qui maximise l'acceptation du message.
+
+Le film ne démontre pas que ses auteurs ont consciemment appliqué un manuel de psychologie. Il montre qu'il en reproduit la structure fonctionnelle.
+
+La saturation cognitive renforce ce mécanisme. Quatre-vingt-quatorze minutes d'événements, de cartes, de dirigeants, de conflits, de sanctions et d'experts produisent un effet distinct de la démonstration rationnelle : le volume des éléments devient lui-même la preuve. Le spectateur n'a pas le temps de distinguer l'exact, le contesté, le probable, l'interprété, le métaphorique et le juridiquement faux. La densité protège le récit contre la vérification en temps réel.
+
+La dernière opération est la plus décisive. Le film ne se contente pas d'affirmer qu'une coopération existe. Il construit progressivement une menace totale. Puis sa conclusion déplace la question : non plus « cette alliance existe-t-elle sous cette forme ? », mais « comment l'Europe peut-elle survivre à cette menace ? ». Le réarmement n'apparaît plus comme une politique à débattre. Il devient la conséquence logique de la réalité montrée.
+
+C'est une technique de fermeture du champ des possibles : définir le problème, exclure les interprétations concurrentes, dramatiser l'urgence, réduire les solutions, présenter la politique retenue comme une nécessité que la réalité impose.
+
 ---
 
 ## VIII. La fabrique des catégories : comment un mot devient une menace
@@ -264,7 +282,19 @@ Le documentaire d'Arte s'inscrit précisément dans cette séquence. Diffusé en
 
 Ce type de cadrage n'est pas improvisé. Les techniques qu'il mobilise sont précisément celles que l'analyse cognitive des discours permet de cartographier.
 
-Ces clusters sont des outils d'analyse qui détectent des procédés rhétoriques et narratifs, indépendamment de l'intention de leurs auteurs. Leur activation ne prouve pas une manipulation consciente ; elle documente une architecture de cadrage.
+### Le même procédé, au-delà de la flotte fantôme
+
+La transformation d'une catégorie politique en catégorie technique ne se limite pas à la flotte fantôme. Le documentaire applique le même mécanisme à au moins trois autres notions.
+
+**Les « sanctions internationales ».** Le film parle uniformément de « sanctions internationales » pour désigner les mesures adoptées contre la Russie et l'Iran. Or de nombreuses sanctions évoquées sont américaines, européennes ou occidentales. Elles n'ont pas toutes été adoptées par le Conseil de sécurité des Nations unies. Les appeler « internationales » leur confère une universalité qu'elles ne possèdent pas nécessairement. Ce n'est pas un détail sémantique : c'est le passage d'un instrument de puissance régional à une norme présentée comme universelle.
+
+**La « désinformation ».** Le terme peut désigner un mensonge délibéré, une erreur, de la propagande, une interprétation dissidente, un récit concurrent ou une sélection éditoriale. Le documentaire applique cette suspicion presque exclusivement aux médias et aux acteurs russes, chinois et iraniens. Ses propres approximations, ses propres agrégations (les 52 pays, les 40 %), ses propres omissions restent qualifiées d'analyse. Le terme fonctionne comme un marqueur d'illégitimité réservé aux adversaires.
+
+**Les « valeurs universelles ».** Le film traite l'interprétation occidentale contemporaine de certaines normes comme si elle était la seule expression possible de l'universalisme. Toute contestation de ce monopole interprétatif (la déclaration Xi-Poutine, la revendication chinoise d'une « démocratie populaire », la défense iranienne d'un ordre islamique) est présentée comme un rejet des droits humains, non comme une compétition entre différentes conceptions de la légitimité. La Déclaration universelle de 1948 a pourtant été rédigée par des représentants de multiples traditions, dont des délégués non occidentaux. Présenter sa lecture occidentale contemporaine comme la seule possible est une opération de cadrage, pas un constat neutre.
+
+Le procédé général est le suivant : une catégorie produite par les puissances occidentales est présentée comme une description technique objective, puis utilisée pour qualifier moralement les adversaires et justifier une action. La « flotte fantôme » est le cas le plus documenté parce que la doctrine d'arraisonnement permet de suivre la conversion complète du mot en politique opérationnelle. Mais le mécanisme est le même pour les sanctions, la désinformation et les valeurs.
+
+Ces catégories politiques, une fois identifiées, se cartographient sur les clusters de cadrage documentés par l'analyse cognitive des discours. Ces clusters sont des outils qui détectent des procédés rhétoriques et narratifs, indépendamment de l'intention de leurs auteurs. Leur activation ne prouve pas une manipulation consciente ; elle documente une architecture de cadrage.
 
 ### Cartographie des techniques : ce que le documentaire fait, cluster par cluster
 
