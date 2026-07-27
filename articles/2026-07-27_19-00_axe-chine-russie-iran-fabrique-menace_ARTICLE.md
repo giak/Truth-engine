@@ -6,9 +6,9 @@
 
 Le 4 février 2022, Xi Jinping et Vladimir Poutine publient une déclaration conjointe à Pékin. Trois semaines plus tard, la Russie envahit l'Ukraine. En septembre, l'Iran commence à livrer des drones Shahed à Moscou. En 2023, l'Iran est admis à l'Organisation de coopération de Shanghai. La même année, un média chinois contrôlé par le Parti communiste publie un article titré : « Un triangle de fer entre la Chine, la Russie et l'Iran est en train de se former, et les États-Unis sont confrontés à un défi stratégique sans précédent. »
 
-Le triangle de fer n'est pas une étiquette occidentale. C'est une auto-désignation.
+L'expression n'est pas une pure invention occidentale : elle a été utilisée dans un média chinois contrôlé par le Parti communiste pour célébrer le rapprochement. Mais elle ne constitue ni une appellation officielle commune ni une auto-désignation adoptée par les trois États. Le documentaire la transforme en matrice narrative.
 
-L'auto-désignation est un acte politique réel. La question n'est pas de savoir si les trois régimes se désignent comme axe : ils le font. La question est de savoir si cette auto-désignation correspond à une réalité opérationnelle, et ce que le documentaire fait de l'écart entre les deux.
+La question n'est pas de savoir si les trois régimes coopèrent : ils le font. La question est de savoir si cette coopération forme le système cohérent, stable et intégré que le film décrit.
 
 Le documentaire de Sophie Lepault, *Russie, Chine, Iran : la revanche des empires*, diffusé sur Arte en mai 2024 (94 minutes, produit par CC&C/Mediawan), reprend cette formule comme matrice narrative. Le film accumule les faits : exercices militaires conjoints, flotte fantôme, livraisons de drones, admission à l'OCS, déclarations officielles. Ces faits sont réels. Le rapprochement entre les trois régimes n'est pas une fiction.
 
@@ -16,7 +16,7 @@ Le problème n'est pas que le documentaire mentirait sur les faits. Le problème
 
 Il les sélectionne dans une direction cumulative, les agglomère en un système plus cohérent que le réel, les assortit d'erreurs presque toutes orientées dans le même sens, les enveloppe dans une catégorie infalsifiable (« ensemble ou séparément »), distribue asymétriquement l'autorité narrative entre experts occidentaux et officiels adverses, omet les divisions internes et la multipolarité du monde, puis conduit le spectateur vers la seule conclusion que cette architecture rend possible : le réarmement européen.
 
-Ce n'est pas une enquête. C'est un produit de cadrage.
+Ce n'est pas seulement une enquête. C'est une enquête à thèse, dont le cadrage organise les faits vers une conclusion politique déterminée.
 
 ---
 
@@ -92,7 +92,7 @@ Ce point est suffisamment structurant pour mériter un traitement séparé (voir
 
 À 1 heure 19, le film présente les BRICS comme un instrument de contestation de l'ordre occidental, en mentionnant l'intégration de l'Iran en 2024.
 
-L'acronyme BRIC a été créé en 2001 par l'économiste Jim O'Neill de Goldman Sachs. Le premier processus politique réunissait le Brésil, la Russie, l'Inde et la Chine. La première réunion formelle des ministres des Affaires étrangères a eu lieu en 2006. L'Afrique du Sud n'a rejoint le groupe qu'en 2010. L'objectif déclaré était de renforcer les positions communes et de réformer la gouvernance internationale afin de mieux refléter le poids des puissances émergentes.
+L'acronyme BRIC a été créé en 2001 par l'économiste Jim O'Neill de Goldman Sachs. Le premier processus politique réunissait le Brésil, la Russie, l'Inde et la Chine. La première réunion formelle des ministres des Affaires étrangères a eu lieu en 2006. L'Afrique du Sud, invitée en décembre 2010, participe au groupe à partir du sommet de 2011. L'objectif déclaré était de renforcer les positions communes et de réformer la gouvernance internationale afin de mieux refléter le poids des puissances émergentes.
 
 Présenter les BRICS comme un simple instrument de contestation sino-russe efface l'autonomie du Brésil, de l'Inde et de l'Afrique du Sud. Ces trois démocraties, aux intérêts souvent divergents de ceux de Pékin et Moscou, sont réduites à des extensions passives d'une stratégie qui n'est pas la leur. L'Inde a d'ailleurs bloqué la proposition d'une monnaie commune des BRICS en 2023.
 
@@ -142,7 +142,7 @@ Le documentaire n'est pas un objet isolé. Il s'inscrit dans un circuit de produ
 
 Le film a été produit par CC&C/Mediawan pour Arte, avec la participation de LCP (Assemblée nationale) et de Radio-Canada. Arte est financée à 95 % par des fonds publics via la contribution à l'audiovisuel public. Le financement a été complété par le CNC, la PROCIREP et l'ANGOA-AGICOA.
 
-Les experts qui structurent le récit du documentaire ne sont pas des universitaires sans attaches. Le Centre for European Policy Analysis (CEPA), dont plusieurs analystes interviennent, est financé par Lockheed Martin, Rheinmetall et General Atomics, trois entreprises figurant parmi les premiers bénéficiaires du réarmement européen. L'Institut français des relations internationales (IFRI), représenté notamment par Héloïse Fayet, est financé par Thales, Airbus et la Direction générale de l'armement. L'Institut de recherche stratégique de l'École militaire (IRSEM) dépend directement du ministère des Armées.
+Les experts qui structurent le récit du documentaire ne sont pas des universitaires sans attaches. Le Centre for European Policy Analysis (CEPA), représenté par sa présidente Alina Polyakova, est financé par Lockheed Martin, Rheinmetall et General Atomics, trois entreprises figurant parmi les premiers bénéficiaires du réarmement européen. L'Institut français des relations internationales (IFRI), représenté notamment par Héloïse Fayet, est financé par Thales, KNDS, MBDA, Naval Group et Safran, et collabore avec la Direction générale de l'armement. L'Institut de recherche stratégique de l'École militaire (IRSEM) dépend directement du ministère des Armées.
 
 Ces financements sont établis. Ils sont publics, déclarés, traçables. Ils ne sont pas cachés.
 
@@ -150,7 +150,7 @@ L'influence de ces financements sur le contenu du documentaire n'est pas démont
 
 Mais la coïncidence temporelle mérite d'être notée. La Loi de programmation militaire 2024-2030, dotée de 413 milliards d'euros, a été promulguée le 1er août 2023. Le documentaire a été diffusé pour la première fois en mai 2024, neuf mois plus tard. Il existe un débat public sur l'augmentation massive des budgets de défense européens. Un documentaire qui construit méthodiquement la menace que ces budgets sont censés contrer occupe une fonction objective dans ce débat, que cette fonction ait été intentionnelle ou non.
 
-Selon l'Agence européenne de défense, 63 % des contrats d'armement des États membres de l'UE ont été attribués à des entreprises américaines entre juin 2022 et juin 2023. La Pologne a annoncé des commandes de 250 chars Abrams, 32 avions F-35 et 96 hélicoptères Apache. L'Allemagne a commandé 35 F-35. La France elle-même, championne de l'autonomie stratégique, voit ses voisins européens acheter américain. La menace construite par le documentaire converge avec les intérêts économiques d'un complexe militaro-industriel transatlantique dont les principaux acteurs figurent parmi les premiers bénéficiaires du réarmement européen.
+Selon une étude de l'IRIS (Institut de relations internationales et stratégiques) reprise par le rapport Draghi, 63 % des contrats d'armement passés par les États membres de l'UE entre juin 2022 et juin 2023 l'ont été auprès de fournisseurs américains. Ce chiffre mesure la part des importations hors UE, pas la part totale des dépenses de défense européennes. L'IISS estime la part américaine à environ 34-36 % sur un périmètre incluant les achats domestiques. La Pologne a annoncé des commandes de 250 chars Abrams, 32 avions F-35 et 96 hélicoptères Apache. L'Allemagne a commandé 35 F-35. La France elle-même, championne de l'autonomie stratégique, voit ses voisins européens acheter américain. La menace construite par le documentaire converge avec les intérêts économiques d'un complexe militaro-industriel transatlantique dont les principaux acteurs figurent parmi les premiers bénéficiaires du réarmement européen.
 
 Qualifier le film de « propagande » exigerait de démontrer une finalité intentionnelle de mobilisation que les données disponibles n'établissent pas. Mais le qualifier de « produit de cadrage de la menace » est défendable : le film sélectionne, agrège, déforme et hiérarchise des faits réels pour produire une représentation plus cohérente, plus hostile et plus totalisante que ce que les preuves établissent, et oriente cette représentation vers une conclusion politique déterminée.
 
@@ -186,7 +186,7 @@ Les omissions du film ne s'arrêtent pas à ce qui fragilise le triangle de l'in
 
 L'Inde est le chaînon qui fait s'effondrer le cadrage binaire du documentaire. Elle est simultanément membre de l'Organisation de coopération de Shanghai (depuis 2017), des BRICS, du Quad (avec les États-Unis, le Japon et l'Australie), du G20 et de l'I2U2 (avec les États-Unis, Israël et les Émirats arabes unis). Cinq forums, trois camps différents.
 
-L'Inde importe 35 à 38 % de son pétrole de Russie, soit environ 168 milliards de dollars cumulés depuis 2022, selon le Centre for Research on Energy and Clean Air, tout en participant au Quad, une alliance de sécurité maritime explicitement dirigée contre l'expansion chinoise. En septembre 2023, Narendra Modi déclarait à Vladimir Poutine, en marge du sommet de l'OCS : « L'ère d'aujourd'hui n'est pas une ère de guerre. » L'Inde bloque de l'intérieur la proposition d'une monnaie commune des BRICS.
+L'Inde importe 35 à 38 % de son pétrole de Russie, soit environ 168 milliards de dollars cumulés depuis 2022, selon le Centre for Research on Energy and Clean Air, tout en participant au Quad, un partenariat stratégique dont le développement répond aux inquiétudes suscitées par la puissance chinoise, sans constituer une alliance militaire formelle. En septembre 2022, Narendra Modi déclarait à Vladimir Poutine, en marge du sommet de l'OCS à Samarcande : « L'ère d'aujourd'hui n'est pas une ère de guerre. » L'Inde bloque de l'intérieur la proposition d'une monnaie commune des BRICS.
 
 L'Inde refuse de choisir. Ce n'est pas un axe. C'est un monde.
 
@@ -202,17 +202,17 @@ Le Golfe n'est ni dans l'axe ni dans l'Occident. Il construit l'infrastructure d
 
 ### La Corée du Nord, absente du film
 
-Le documentaire ignore presque entièrement la Corée du Nord. C'est une omission majeure. La Corée du Nord est le seul pays à apporter une contribution militaire directe à l'axe : Selon les estimations des services de renseignement sud-coréens et ukrainiens, 4 à 6 millions d'obus livrés à la Russie depuis 2023, représentant 40 à 70 % des munitions de certaines unités russes, et selon les renseignements ukrainiens et sud-coréens, environ 14 000 soldats déployés dans la région de Koursk à partir de la fin 2024.
+Le documentaire ignore presque entièrement la Corée du Nord. C'est une omission majeure. La Corée du Nord est le seul pays à apporter une contribution militaire directe à l'axe : selon une actualisation de l'Open Source Centre de mars 2026, 8 à 11 millions de munitions livrées à la Russie depuis 2023, représentant 40 à 70 % des munitions de certaines unités russes, et selon les renseignements ukrainiens et sud-coréens, environ 14 000 soldats déployés dans la région de Koursk à partir de la fin 2024.
 
 Le 19 juin 2024, Kim Jong-un et Vladimir Poutine ont signé à Pyongyang un traité de « partenariat stratégique global » incluant une clause de défense mutuelle. La Corée du Nord fixe 28 500 soldats américains en Corée du Sud, selon les effectifs de l'USFK (United States Forces Korea). Elle entretient avec l'Iran des liens technologiques sur les missiles balistiques.
 
-Et pourtant : la Chine contrôle 98 % du commerce extérieur nord-coréen, selon le Council on Foreign Relations. La Chine n'a pas déployé de troupes à Koursk. La Russie a entraîné l'armée chinoise pour Taïwan (exercices de drones, déminage, lutte anti-sous-marine), selon un rapport du Royal United Services Institute de 2025. La Corée du Nord a déployé 14 000 soldats. La Chine, zéro.
+Et pourtant : la Chine contrôle 98 % du commerce extérieur nord-coréen, selon le Council on Foreign Relations. La Chine n'a pas déployé de troupes à Koursk. La Russie a formé l'armée chinoise aux opérations aéroportées et à la saisie d'infrastructures (véhicules blindés BMD-4M, systèmes de parachutage), selon un rapport du Royal United Services Institute de 2025. La Corée du Nord a déployé 14 000 soldats. La Chine, zéro.
 
 ### Le Sud global, angle mort du cadrage
 
 Au-delà de l'Inde et du Golfe, c'est l'ensemble du Sud global qui invalide le cadrage binaire. Le Brésil commerce deux fois plus avec la Chine qu'avec les États-Unis (171 milliards de dollars en 2024, selon les données commerciales compilées par le South China Morning Post). La Turquie est dans l'OTAN, a acheté des missiles S-400 russes, et a officiellement candidaté aux BRICS. L'Afrique du Sud participe aux BRICS tout en maintenant des relations diplomatiques et commerciales avec l'Occident. L'Indonésie, sous la présidence de Prabowo Subianto, pratique un multi-alignement actif entre la Chine, les États-Unis et les puissances moyennes.
 
-Une cinquantaine de pays n'ont pas condamné l'invasion russe à l'ONU. Ce n'est pas un axe. C'est un espace. Il n'y a ni charte, ni leader, ni coordination. Il y a des intérêts nationaux poursuivis de manière opportuniste dans un monde que le cadrage binaire ne décrit pas.
+Trente-cinq États se sont abstenus, douze n'ont pas participé au vote et cinq ont voté contre la résolution. Ces comportements hétérogènes ne forment ni alliance ni stratégie commune. Il y a des intérêts nationaux poursuivis de manière opportuniste dans un monde que le cadrage binaire ne décrit pas.
 
 ---
 
