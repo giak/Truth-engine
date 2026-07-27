@@ -12,9 +12,9 @@ Ces faits sont réels. Le rapprochement entre les trois régimes n'est pas une f
 
 Mais le synopsis officiel d'Arte annonce, avant même la première image, trois régimes « qui s'unissent » autour d'une « feuille de route commune » et d'une « stratégie tentaculaire ». Le producteur CC&C/Mediawan ajoute que leur « objectif commun » est de « mettre un terme à l'hégémonie occidentale » et qu'ils mènent « contre les démocraties une guerre hybride ». [^2]
 
-Ce n'est pas une enquête ouverte. C'est une thèse préalable à laquelle le montage doit donner corps.
+Ce n'est pas une enquête ouverte. Le film est présenté au public par un paratexte fortement conclusif : l'unité, l'intention anti-occidentale et la dangerosité du rapprochement sont largement affirmées avant même le visionnage.
 
-L'analyse qui suit examine comment le film procède. Elle ne démontre pas que le documentaire ment sur les faits. Elle documente comment il les transforme : par des erreurs et des agrégations, par des interprétations présentées comme des connaissances, par des procédés rhétoriques qui rendent sa thèse impossible à réfuter, et par une architecture narrative qui distribue inégalement l'autorité de la parole. La destination de ce travail (le réarmement européen) est la conclusion que cette architecture rend possible.
+L'analyse qui suit examine comment le film procède. Elle ne démontre pas que le documentaire ment sur les faits. Elle documente comment il les transforme : par des erreurs et des agrégations, par des interprétations présentées comme des connaissances, par des procédés rhétoriques qui rendent sa thèse impossible à réfuter, et par une architecture narrative qui distribue inégalement l'autorité de la parole. La destination de ce travail (le renforcement militaire de l'Europe) est la conclusion que cette architecture rend possible.
 
 ---
 
@@ -22,11 +22,11 @@ L'analyse qui suit examine comment le film procède. Elle ne démontre pas que l
 
 Le rapprochement entre la Chine, la Russie et l'Iran est réel et significatif. Le documentaire a raison de le documenter. Les principaux éléments qu'il présente sont établis :
 
-- **Coopération militaire.** La Chine et la Russie multiplient les exercices conjoints depuis 2014. L'Iran a fourni des drones Shahed à la Russie à partir de l'été 2022, constituant l'un des transferts d'armes les plus significatifs d'un État tiers vers le théâtre ukrainien [^3]. Des instructeurs iraniens ont été déployés en Crimée pour former les forces russes à l'utilisation de ces drones.
+- **Coopération militaire.** La Chine et la Russie multiplient les exercices conjoints depuis 2014. L'Iran a fourni des drones Shahed à la Russie à partir de l'été 2022. Des responsables américains et britanniques ont affirmé que du personnel iranien avait été déployé en Crimée pour assister les forces russes dans l'utilisation de ces drones ; cette affirmation reste attribuée à ses sources gouvernementales. [^3]
 
-- **Intégration énergétique et financière.** La Chine a considérablement augmenté ses achats de pétrole russe depuis 2022. Les trois pays développent des mécanismes de paiement alternatifs au dollar. La Russie et l'Iran, tous deux sous sanctions occidentales, coordonnent leurs stratégies de contournement.
+- **Intégration énergétique et financière.** La Chine a considérablement augmenté ses achats de pétrole russe depuis 2022. Les trois pays ont développé plusieurs accords bilatéraux et mécanismes destinés à réduire leur exposition au dollar et aux services financiers occidentaux. [^3]
 
-- **Alignement institutionnel.** L'Iran a été admis comme membre à part entière de l'OCS le 4 juillet 2023. La Chine, la Russie et l'Iran sont désormais réunis au sein des BRICS élargis. Ils coordonnent régulièrement leurs votes dans les enceintes multilatérales.
+- **Alignement institutionnel.** L'Iran a été admis comme membre à part entière de l'OCS le 4 juillet 2023. La Chine, la Russie et l'Iran sont désormais réunis au sein des BRICS élargis. Ils convergent sur plusieurs votes et déclarations dans les enceintes multilatérales, sans que l'article dispose encore d'une mesure systématique de leur coordination.
 
 - **Convergence rhétorique.** La déclaration Xi-Poutine du 4 février 2022 affirme une vision commune de l'ordre international. Les trois régimes dénoncent l'unilatéralisme occidental et revendiquent un monde multipolaire.
 
@@ -56,7 +56,7 @@ Les données de l'Energy Information Administration américaine indiquent une pr
 
 **Le « programme nucléaire illégal ». À 15:23, le film affirme que l'Iran est sanctionné en raison de « son programme nucléaire illégal depuis très longtemps. » [^4]**
 
-Cette formulation est juridiquement insoutenable dans sa généralité. L'Iran reste partie au Traité de non-prolifération nucléaire. L'AIEA a documenté des manquements et des violations de résolutions du Conseil de sécurité. Elle n'a pas déclaré que l'ensemble du programme nucléaire iranien, y compris son principe civil, serait illégal. [^8] Le glissement est important : des activités et manquements illégaux deviennent « un programme illégal ». Une controverse juridique est transformée en essence criminelle.
+Le principe d'un programme nucléaire civil n'est pas illégal en soi pour un État partie au TNP. En revanche, l'AIEA et le Conseil de sécurité ont documenté ou sanctionné des activités, des manquements et des refus de coopération particuliers. [^8] Le film transforme ces qualifications ciblées en illégalité globale du programme.
 
 ### B. Interprétations présentées comme faits
 
@@ -66,7 +66,7 @@ La coopération militaire sino-russe est documentée. Mais « machine de guerre 
 
 **L'OCS comme arme originelle. À 19:31, la voix off décrit l'OCS comme un « sommet anti-occidental » créé « pour concurrencer les institutions internationales existantes. » [^4]**
 
-La charte de l'OCS, signée en 2002, invoque la confiance mutuelle, le bon voisinage, la stabilité régionale et la lutte contre le terrorisme, le séparatisme et l'extrémisme. [^9] L'organisation a progressivement acquis une fonction multipolaire. Mais le film prend sa fonction contemporaine et la projette sur son origine, comme si la concurrence avec l'Occident avait été sa finalité fondatrice.
+La charte de l'OCS, signée en 2002, met en avant la confiance mutuelle, le bon voisinage, la stabilité régionale, la coopération et la lutte contre le terrorisme, le séparatisme et l'extrémisme, tout en affirmant que l'organisation n'est pas dirigée contre d'autres États. [^9] Ces déclarations d'auto-présentation ne prouvent pas l'absence d'arrière-pensées géopolitiques. Elles montrent toutefois que la finalité anti-occidentale exclusive attribuée par le film n'est pas établie par les textes fondateurs. L'organisation a progressivement acquis une fonction multipolaire, mais le film prend cette fonction contemporaine et la projette sur son origine.
 
 **Les BRICS réécrits. À 01:19:00, le film présente les BRICS comme un instrument de contestation créé par la Chine et la Russie, avec le Brésil, l'Inde et l'Afrique du Sud. [^4]**
 
@@ -88,7 +88,7 @@ La guerre en Iran de février 2026 constitue un test empirique de la thèse du f
 
 Entre 01:30:00 et 01:33:00, le film quitte le registre du constat pour entrer dans celui de la prescription. [^4] La narration enchaîne les exercices de l'OTAN mobilisant 90 000 soldats, l'hypothèse d'une Europe abandonnée par les États-Unis, la nécessité de « continuer à soutenir l'Ukraine », le « destin de puissance militaire » de l'Union européenne et l'objectif d'un continent « capable de se défendre et de se faire respecter. »
 
-Ce n'est pas une erreur factuelle. C'est la destination du récit. La progression est désormais visible : accumuler les menaces, les agréger en système cohérent, disqualifier moralement les adversaires, élargir la menace à tous les domaines (militaire, économique, informationnel, juridique), puis présenter le réarmement comme seule réponse rationnelle.
+Ce n'est pas une erreur factuelle. C'est la destination du récit. La progression est désormais visible : accumuler les menaces, les agréger en système cohérent, disqualifier moralement les adversaires, élargir la menace à tous les domaines (militaire, économique, informationnel, juridique), puis présenter le renforcement militaire de l'Europe comme seule réponse rationnelle.
 
 Le film ne se limite pas à informer sur un rapprochement géopolitique. Il construit la nécessité d'une réponse militaire à ce rapprochement.
 
@@ -114,11 +114,11 @@ Le film a été produit par CC&C–Mediawan en coproduction avec Arte G.E.I.E., 
 
 Trois institutions fournissant des experts au film illustrent la proximité entre l'expertise mobilisée et le secteur de la défense. Cette sélection n'est pas une cartographie exhaustive des intervenants : le film comprend également un ancien président français, d'anciens responsables du renseignement, des universitaires, des ONG, des responsables politiques non occidentaux et d'autres personnalités dont les affiliations mériteraient un inventaire complet.
 
-- Le Centre for European Policy Analysis (CEPA), représenté par sa présidente Alina Polyakova, déclare parmi ses soutiens Lockheed Martin, American Rheinmetall Defense et General Atomics, trois entreprises figurant parmi les premiers bénéficiaires du réarmement européen. [^13]
-- L'Institut français des relations internationales (IFRI), représenté notamment par Héloïse Fayet, compte parmi ses donateurs Thales, KNDS, MBDA, Naval Group, Safran et le Secrétariat général de la défense et de la sécurité nationale (SGDSN). [^14]
+- Le Centre for European Policy Analysis (CEPA), représenté par sa présidente Alina Polyakova, déclarait en 2025 parmi ses soutiens Lockheed Martin, American Rheinmetall Defense et General Atomics. [^13] La liste consultée est postérieure à la production du film (2024) ; les soutiens du CEPA pendant la période de production n'ont pu être établis avec certitude.
+- L'Institut français des relations internationales (IFRI), représenté notamment par Héloïse Fayet, compte parmi ses donateurs affichés en 2026 Thales, KNDS, MBDA, Naval Group, Safran et le Secrétariat général de la défense et de la sécurité nationale (SGDSN). [^14] La liste Ifri consultée est postérieure à la diffusion du film.
 - L'Institut de recherche stratégique de l'École militaire (IRSEM), représenté par Paul Charon, dépend directement du ministère des Armées. [^15]
 
-Ces financements sont établis. Ils ne sont pas cachés. L'influence de ces financements sur le contenu du documentaire n'est pas démontrée. Le fait que Thales finance l'IFRI ne prouve pas que Thales dicte ce que les chercheurs de l'IFRI disent dans le film. Une cartographie complète de l'ensemble des intervenants et de leurs affiliations reste à produire pour déterminer si l'expertise dominante provient effectivement d'un même espace stratégique.
+Ces financements sont documentés pour la période postérieure au film. Ils ne sont pas cachés. L'influence de ces financements sur le contenu du documentaire n'est pas démontrée. Plusieurs grandes entreprises de défense figurent parmi les soutiens déclarés de certaines institutions représentées dans le film : cela établit un environnement d'intérêts, non une influence sur les propos ou le montage.
 
 Le film s'inscrit dans un environnement politique marqué par un débat public sur l'augmentation des budgets de défense européens. La Loi de programmation militaire 2024-2030, dotée de 413 milliards d'euros, a été promulguée le 1er août 2023, neuf mois avant la diffusion. L'enquête n'établit aucun lien entre le documentaire et les rédacteurs de la LPM.
 
@@ -164,11 +164,11 @@ Son analyse révèle néanmoins un mécanisme qui éclaire l'ensemble du film : 
 
 « Flotte fantôme » n'est pas un statut juridique universel. C'est une expression utilisée par les gouvernements occidentaux et les autorités de sanctions pour désigner un ensemble hétérogène de navires. Le Royaume-Uni reconnaît explicitement que certains de ces navires peuvent être conformes aux lois applicables ou ne pas être couverts par les sanctions en question. [^23]
 
-La catégorie rassemble sous un même label des bâtiments très différents : certains frauduleux (faux pavillons, documents falsifiés), certains mal assurés (compagnies non occidentales à la solvabilité incertaine), d'autres simplement sortis des services maritimes occidentaux. Transporter du pétrole russe avec un assureur non occidental n'est pas, en soi, illégal. Le plafonnement du G7 conditionne l'accès aux services des juridictions de la coalition. Un armateur non occidental peut, selon son droit national, opérer hors de ce système. Le Trésor américain l'explique lui-même : un exportateur peut soit vendre sous le plafond en utilisant les services occidentaux, soit vendre en dehors du système en utilisant exclusivement des fournisseurs non membres de la coalition. [^24]
+La catégorie rassemble sous un même label des bâtiments très différents : certains frauduleux (faux pavillons, documents falsifiés), certains disposant d'une couverture fournie par des assureurs difficiles à identifier ou dont la capacité d'indemnisation est contestée, et d'autres utilisant simplement des assureurs non occidentaux, ce qui n'est pas illégal en soi, d'autres simplement sortis des services maritimes occidentaux. Transporter du pétrole russe avec un assureur non occidental n'est pas, en soi, illégal. Le plafonnement du G7 conditionne l'accès aux services des juridictions de la coalition. Un armateur non occidental peut, selon son droit national, opérer hors de ce système. Le Trésor américain l'explique lui-même : un exportateur peut soit vendre sous le plafond en utilisant les services occidentaux, soit vendre en dehors du système en utilisant exclusivement des fournisseurs non membres de la coalition. [^24]
 
 ### De la catégorie à la doctrine : une chronologie
 
-À partir de 2025, une politique coordonnée d'interception maritime se met en place. Le 2 octobre 2025, Emmanuel Macron déclare que l'objectif des contrôles en mer est de « tuer le modèle économique » des transporteurs de pétrole russe en immobilisant les navires pendant plusieurs jours ou semaines. Il annonce une politique d'« entrave » avec l'OTAN et la Coalition des volontaires. [^25]
+À partir de 2025, une politique coordonnée d'interception maritime se met en place. Le 2 octobre 2025, Emmanuel Macron déclare que l'immobilisation des navires permet de « tuer le modèle économique » des transporteurs de pétrole russe (« kill the business model », transcription anglaise officielle de l'Élysée). Il annonce des politiques d'entrave destinées à réduire la capacité de financement de l'effort de guerre russe. [^25]
 
 La chronologie des opérations documentées :
 
@@ -177,7 +177,7 @@ La chronologie des opérations documentées :
 - **Grinch** (janvier 2026) : arraisonné par la France, libéré après paiement d'une pénalité de plusieurs millions d'euros. [^27]
 - **Deyna** (mars 2026) : pavillon mozambicain contesté, dérouté vers mouillage, signalé au procureur de Marseille. [^27]
 - **Tagor** (31 mai 2026) : intercepté dans l'Atlantique. Pavillon contesté, immobilisé en baie de Douarnenez. Libéré le 2 juillet 2026 après condamnation à une amende d'un million d'euros. [^34]
-- **Deliver** (23 juin 2026) : pavillon camerounais contesté. Cinquième opération française depuis fin 2025. [^27]
+- **Deliver** (23 juin 2026 selon le ministère des Armées, 1er juin selon une déclaration de l'Élysée du 13 juillet) : pavillon camerounais contesté. Cinquième opération française depuis fin 2025. [^27]
 
 Le 13 juillet 2026, la Coalition des volontaires déclare vouloir « intensifier les opérations d'arraisonnement et les contrôles » de manière systématique et coordonnée. [^28]
 
@@ -195,7 +195,7 @@ La catégorie politique de flotte fantôme sert à sélectionner des navires pri
 
 L'enquête établit que la catégorie « flotte fantôme » n'est pas juridique mais politique, qu'elle agrège des navires aux statuts différents, et qu'une doctrine d'arraisonnement coordonnée s'est intensifiée à partir de 2025. Le film participe à la diffusion d'une catégorie déjà présente dans le discours des sanctions. L'intensification ultérieure des arraisonnements montre que cette même catégorie a acquis une fonction opérationnelle croissante. Aucun lien causal propre au documentaire n'est établi.
 
-La qualification la plus précise du mécanisme n'est pas « tout navire fantôme peut être saisi ». C'est : « tout navire classé fantôme devient une cible prioritaire contre laquelle nous rechercherons systématiquement l'une des exceptions autorisant l'intervention. » Un blanc-seing politique converti en doctrine opérationnelle, sans être encore un blanc-seing juridique.
+L'inscription dans cette catégorie augmente la probabilité d'une surveillance renforcée et de la recherche d'un motif juridique individualisé permettant une intervention. Une doctrine de ciblage et d'entrave sous contrôle formel du droit de la mer, dont la latitude politique s'est accrue sans constituer encore un blanc-seing juridique.
 
 ---
 
@@ -205,7 +205,7 @@ Le rapprochement entre la Chine, la Russie et l'Iran est réel et produit des ef
 
 Mais il ne se contente pas de les documenter. Il les transforme.
 
-Il agrège des comportements distincts (votes pour, abstentions, absences) en masse hostile. Il présente des chiffres sans source ni périmètre. Il intègre des métaphores d'experts à une progression démonstrative sans contradiction apparente. Il projette sur l'origine des institutions leur fonction contemporaine. Il fusionne coopération, alignement et alliance dans une catégorie unique (« ensemble ou séparément ») qui absorbe toute critique. Sa communication officielle distribue inégalement l'autorité entre « analystes » et officiels aux propos « offensifs ». Il omet les divisions internes du triangle, l'Inde, le Golfe et les pratiques occidentales comparables. Et il conduit vers une prescription (le réarmement) sans exposer avec la même intensité les alternatives ni les intérêts de ceux qui bénéficient de cette réponse.
+Il agrège des comportements distincts (votes pour, abstentions, absences) en masse hostile. Il présente des chiffres sans source ni périmètre. Il intègre des métaphores d'experts à une progression démonstrative sans contradiction apparente. Il projette sur l'origine des institutions leur fonction contemporaine. Il fusionne coopération, alignement et alliance dans une catégorie unique (« ensemble ou séparément ») qui absorbe toute critique. Sa communication officielle distribue inégalement l'autorité entre « analystes » et officiels aux propos « offensifs ». Il omet les divisions internes du triangle, l'Inde, le Golfe et les pratiques occidentales comparables. Et il conduit vers une prescription (le renforcement militaire de l'Europe) sans exposer avec la même intensité les alternatives ni les intérêts de ceux qui bénéficient de cette réponse.
 
 Ces éléments démontrent un cadrage orienté. Ils ne démontrent ni commande industrielle ni intention coordonnée de tromper. Le terme « propagande » exigerait la preuve d'une finalité intentionnelle de mobilisation que les données disponibles n'établissent pas.
 
@@ -217,9 +217,9 @@ La qualification la plus précise est celle d'un documentaire géopolitique à t
 
 [^1]: Déclaration conjointe Xi-Poutine, 4 février 2022, Kremlin.ru ; Admission de l'Iran à l'OCS, 4 juillet 2023, Communiqué du sommet de New Delhi, sectsco.org.
 
-[^2]: Arte, page officielle du documentaire : arte.tv/fr/videos/119561-000-A/russie-chine-iran-la-revanche-des-empires. Texte exact : « Ils mobilisent de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées. » Consulté le 27 juillet 2026. IFRI, page reprenant la présentation officielle : ifri.org/fr/presse-contenus-repris-sur-le-site/russie-chine-iran-la-revanche-des-empires. Synopsis du producteur CC&C (cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires) : « Leur objectif commun : mettre un terme à l'hégémonie occidentale [...] Pour y arriver, ils mènent contre les démocraties une guerre hybride. »
+[^2]: Arte, page officielle du documentaire : arte.tv/fr/videos/114207-000-A/russie-chine-iran-la-revanche-des-empires. Texte exact : « Ils mobilisent de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées. » Consulté le 27 juillet 2026. IFRI, page reprenant la présentation officielle : ifri.org/fr/presse-contenus-repris-sur-le-site/russie-chine-iran-la-revanche-des-empires. Synopsis du producteur CC&C (cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires) : « Leur objectif commun : mettre un terme à l'hégémonie occidentale [...] Pour y arriver, ils mènent contre les démocraties une guerre hybride. »
 
-[^3]: UK Ministry of Defence, Defence Intelligence update on Ukraine, 22 juillet 2022 (première confirmation publique de drones iraniens) ; Institute for the Study of War, « Iran's support to Russian military operations in Ukraine », 2023, understandingwar.org.
+[^3]: UK Ministry of Defence, Defence Intelligence update on Ukraine, 22 juillet 2022 ; responsables américains et britanniques, déclarations publiques sur le déploiement de personnel iranien en Crimée, 2022-2023. Institute for the Study of War, « Iran's support to Russian military operations in Ukraine », 2023, understandingwar.org.
 
 [^4]: Transcript automatique du documentaire. Timecodes indicatifs. Les citations exactes doivent être vérifiées contre la bande sonore originale. Dailymotion : « Russie, Chine, Iran _ La revanche des empires _ ARTE », x8yuxgu.
 
