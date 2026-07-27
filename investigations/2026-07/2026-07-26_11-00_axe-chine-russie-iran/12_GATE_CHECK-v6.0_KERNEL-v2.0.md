@@ -30,7 +30,7 @@
 - CLAIM_REGISTRY: 7/16 (APEX) = **44%** — COMPLEX/MEDIUM non mis à jour
 - Source diversity (geo/lang/H7): 7/16 (APEX) = **44%** — COMPLEX/MEDIUM non mis à jour
 
-**Taux global pondéré (3 critères × 16 fichiers):** EDI(100%) + CLAIM_REG(44%) + SrcDiv(44%) / 3 = **63%** (vs 0% initial)
+**Taux global pondéré (3 critères × 16 fichiers):** EDI(100%) + CLAIM_REG(44%) + SrcDiv(44%) / 3 = **63%** (vs 0% initial). Note: l'estimation antérieure de 67% arrondissait 2 critères sur 3 corrigés — le calcul pondéré réel donne 63%.
 
 **Nuance:** Les 14 critères antérieurs restent à 100%. Les 9 fichiers COMPLEX/MEDIUM n'ont que l'EDI warning.
 
@@ -229,27 +229,30 @@ Le chinois (sino-tibétain) est structurellement inaccessible en source primaire
 
 ---
 
-## §7 COMPARAISON DÉTAILLÉE — Anciens vs Nouveaux critères
+## §7 COMPARAISON DÉTAILLÉE — Anciens vs Nouveaux critères (v6.1)
 
-| Critère | Présent dans v5.0? | Présent dans v6.0? | Taux v5.0 | Taux v6.0 |
-|---------|-------------------|-------------------|-----------|-----------|
-| 15 symboles (all scored) | Oui | Oui → assessed (0=absent) | 100% | 100% (plus souple) |
-| BIAS TEST | Oui | Oui → agnostique | 100% | ~93% (⚠ cosmétique) |
-| ✦ minimum | Oui | Oui | 100% | 100% |
-| Perspectives dialectiques | Oui | Oui | 100% | 100% |
-| Chaînes causales | Oui | Oui | 100% | 100% |
-| WOLVES nommés | Oui | Oui | 100% | 100% |
-| Herméneutique (APEX) | Oui | Oui | 100% | 100% |
-| EDI calculé | Oui | Oui | 100% | 100% |
-| REQUEST_LOG | Oui | Oui | 100% | 100% |
-| Sections minimum | Oui | Oui | 100% | 100% |
-| CRÉDO ≥12 | Oui | Oui | 100% | 100% |
-| No failed searches | Oui | Oui | 100% | 100% |
-| CLAIM_REGISTRY | — | **Nouveau** | N/A | **0%** |
-| geo diversity | — | **Nouveau** | N/A | **0%** |
-| lang diversity | — | **Nouveau** | N/A | **0%** |
-| H7 adversary | — | **Nouveau** | N/A | **0%** |
-| EDI self-assessed | — | **Nouveau** | N/A | **0%** |
+| Critère | Présent dans v5.0? | Présent dans v6.0? | Taux v5.0 | Taux v6.0 | Taux v6.1 (post-corr) |
+|---------|-------------------|-------------------|-----------|-----------|----------------------|
+| 15 symboles (all scored) | Oui | Oui → assessed (0=absent) | 100% | 100% | 100% (plus souple) |
+| BIAS TEST | Oui | Oui → agnostique | 100% | ~93% (⚠ cosmétique) | ~93% (inchangé) |
+| ✦ minimum | Oui | Oui | 100% | 100% | 100% |
+| Perspectives dialectiques | Oui | Oui | 100% | 100% | 100% |
+| Chaînes causales | Oui | Oui | 100% | 100% | 100% |
+| WOLVES nommés | Oui | Oui | 100% | 100% | 100% |
+| Herméneutique (APEX) | Oui | Oui | 100% | 100% | 100% |
+| EDI calculé | Oui | Oui | 100% | 100% | 100% |
+| REQUEST_LOG | Oui | Oui | 100% | 100% | 100% |
+| Sections minimum | Oui | Oui | 100% | 100% | 100% |
+| CRÉDO ≥12 | Oui | Oui | 100% | 100% | 100% |
+| No failed searches | Oui | Oui | 100% | 100% | 100% |
+| CLAIM_REGISTRY ✦ | — | **Nouveau** | N/A | **0%** | **44%** (7/7 APEX ✅) |
+| geo diversity ✦ | — | **Nouveau** | N/A | **0%** | **44%** (7/7 APEX ✅) |
+| lang diversity ✦ | — | **Nouveau** | N/A | **0%** | **44%** (7/7 APEX ✅) |
+| H7 adversary ✦ | — | **Nouveau** | N/A | **0%** | **44%** (7/7 APEX ✅) |
+| EDI self-assessed ✦ | — | **Nouveau** | N/A | **0%** | **100%** (16/16 ✅) |
+
+✦ = nouveau critère KERNEL v2.0. Taux pondéré v6.1: (100+44+44)/3 = 63%.
+Note: l'estimation initiale de 67% arrondissait 2 critères sur 3 corrigés. Le calcul réel (moyenne pondérée par fichier) donne 63%.
 
 ---
 
