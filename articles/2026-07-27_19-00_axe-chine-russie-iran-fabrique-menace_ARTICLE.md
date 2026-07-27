@@ -8,13 +8,15 @@ Le 4 février 2022, Xi Jinping et Vladimir Poutine publient une déclaration con
 
 Le triangle de fer n'est pas une étiquette occidentale. C'est une auto-désignation.
 
+L'auto-désignation est un acte politique réel. La question n'est pas de savoir si les trois régimes se désignent comme axe : ils le font. La question est de savoir si cette auto-désignation correspond à une réalité opérationnelle, et ce que le documentaire fait de l'écart entre les deux.
+
 Le documentaire de Sophie Lepault, *Russie, Chine, Iran : la revanche des empires*, diffusé sur Arte en mai 2024 (94 minutes, produit par CC&C/Mediawan), reprend cette formule comme matrice narrative. Le film accumule les faits : exercices militaires conjoints, flotte fantôme, livraisons de drones, admission à l'OCS, déclarations officielles. Ces faits sont réels. Le rapprochement entre les trois régimes n'est pas une fiction.
 
 Le problème n'est pas que le documentaire mentirait sur les faits. Le problème est ce qu'il en fait.
 
 Il les sélectionne dans une direction cumulative, les agglomère en un système plus cohérent que le réel, les assortit d'erreurs presque toutes orientées dans le même sens, les enveloppe dans une catégorie infalsifiable (« ensemble ou séparément »), distribue asymétriquement l'autorité narrative entre experts occidentaux et officiels adverses, omet les divisions internes et la multipolarité du monde, puis conduit le spectateur vers la seule conclusion que cette architecture rend possible : le réarmement européen.
 
-Ce n'est pas une enquête. C'est une opération de cadrage.
+Ce n'est pas une enquête. C'est un produit de cadrage.
 
 ---
 
@@ -30,7 +32,7 @@ Le vote de l'Assemblée générale des Nations unies sur la résolution ES-11/1 
 
 Le chiffre de 52 additionne trois comportements politiquement distincts : voter contre (5 pays, dont la Russie elle-même, la Biélorussie, la Syrie, la Corée du Nord et l'Érythrée), s'abstenir (35 pays), et ne pas participer (12 pays). Une absence, une abstention et un soutien explicite à Moscou ne disent pas la même chose. L'agrégation produit pourtant un effet politique déterminé : 5 alliés ou soutiens explicites deviennent 52 États composant un front silencieux contre l'Occident.
 
-Le film commence par fabriquer une masse géopolitique à partir de comportements hétérogènes. Ce procédé, l'agrégation trompeuse, se répétera.
+Le film commence par produire une masse géopolitique à partir de comportements hétérogènes. Ce procédé, l'agrégation trompeuse, se répétera.
 
 ### 2. Le faux consensus universel de 1948
 
@@ -72,7 +74,7 @@ Pris isolément, ce serait une erreur statistique. Mais elle rejoint toutes les 
 
 La charte de l'OCS, signée en 2002, invoque la confiance mutuelle, le bon voisinage, la stabilité régionale, la lutte contre le terrorisme, le séparatisme et l'extrémisme, et la coopération politique et économique. Elle précise que l'organisation est ouverte, non alignée et non dirigée contre un autre État.
 
-L'OCS a progressivement acquis une fonction multipolaire et anti-hégémonique. Mais le film prend sa fonction contemporaine et la projette sur son origine. Le procédé est constant : ce qui est devenu partiellement vrai est présenté comme ayant été planifié dès l'origine. C'est la fabrication rétrospective d'une stratégie continue.
+L'OCS a progressivement acquis une fonction multipolaire et anti-hégémonique. Mais le film prend sa fonction contemporaine et la projette sur son origine. Le procédé est constant : ce qui est devenu partiellement vrai est présenté comme ayant été planifié dès l'origine. C'est la reconstruction rétrospective d'une stratégie continue.
 
 ### 7. La « machine de guerre contre l'Occident »
 
@@ -146,9 +148,9 @@ Ces financements sont établis. Ils sont publics, déclarés, traçables. Ils ne
 
 L'influence de ces financements sur le contenu du documentaire n'est pas démontrée. Le fait que Thales finance l'IFRI ne prouve pas que Thales dicte ce que les chercheurs de l'IFRI disent dans le film. Le fait que Lockheed Martin finance le CEPA ne prouve pas que le CEPA a influencé le montage ou le script.
 
-Mais la coïncidence temporelle mérite d'être notée. La Loi de programmation militaire 2024-2030, dotée de 413 milliards d'euros, a été promulguée le 1er août 2023. Le documentaire a été diffusé pour la première fois en mai 2024, dix mois plus tard. Il existe un débat public sur l'augmentation massive des budgets de défense européens. Un documentaire qui construit méthodiquement la menace que ces budgets sont censés contrer occupe une fonction objective dans ce débat, que cette fonction ait été intentionnelle ou non.
+Mais la coïncidence temporelle mérite d'être notée. La Loi de programmation militaire 2024-2030, dotée de 413 milliards d'euros, a été promulguée le 1er août 2023. Le documentaire a été diffusé pour la première fois en mai 2024, neuf mois plus tard. Il existe un débat public sur l'augmentation massive des budgets de défense européens. Un documentaire qui construit méthodiquement la menace que ces budgets sont censés contrer occupe une fonction objective dans ce débat, que cette fonction ait été intentionnelle ou non.
 
-Selon l'Agence européenne de défense, 63 % des contrats d'armement des États membres de l'UE ont été attribués à des entreprises américaines entre juin 2022 et juin 2023. La Pologne a annoncé des commandes de 250 chars Abrams, 32 avions F-35 et 96 hélicoptères Apache. L'Allemagne a commandé 35 F-35. La France elle-même, championne de l'autonomie stratégique, voit ses voisins européens acheter américain. La menace construite par le documentaire profite objectivement à un complexe militaro-industriel transatlantique.
+Selon l'Agence européenne de défense, 63 % des contrats d'armement des États membres de l'UE ont été attribués à des entreprises américaines entre juin 2022 et juin 2023. La Pologne a annoncé des commandes de 250 chars Abrams, 32 avions F-35 et 96 hélicoptères Apache. L'Allemagne a commandé 35 F-35. La France elle-même, championne de l'autonomie stratégique, voit ses voisins européens acheter américain. La menace construite par le documentaire converge avec les intérêts économiques d'un complexe militaro-industriel transatlantique dont les principaux acteurs figurent parmi les premiers bénéficiaires du réarmement européen.
 
 Qualifier le film de « propagande » exigerait de démontrer une finalité intentionnelle de mobilisation que les données disponibles n'établissent pas. Mais le qualifier de « produit de cadrage de la menace » est défendable : le film sélectionne, agrège, déforme et hiérarchise des faits réels pour produire une représentation plus cohérente, plus hostile et plus totalisante que ce que les preuves établissent, et oriente cette représentation vers une conclusion politique déterminée.
 
@@ -168,7 +170,7 @@ L'absence de doctrine commune n'est pas une anomalie. En relations international
 
 ### Une alliance asymétrique
 
-La Russie est décrite par de nombreux analystes comme un « junior partner » de la Chine. La guerre d'Ukraine a rendu Moscou dépendant de Pékin pour ses exportations énergétiques (l'Inde et la Chine représentent désormais plus de 80 % des exportations de pétrole russe par voie maritime), pour les technologies duales (les exportations chinoises de semi-conducteurs vers la Russie ont fortement augmenté depuis 2022, les données douanières chinoises montrant un doublement de certaines catégories de puces) et pour la légitimation diplomatique.
+La Russie est décrite par de nombreux analystes comme un « junior partner » de la Chine. La guerre d'Ukraine a rendu Moscou dépendant de Pékin pour ses exportations énergétiques (l'Inde et la Chine représentent désormais plus de 80 % des exportations de pétrole russe par voie maritime, selon les données de l'Agence internationale de l'énergie), pour les technologies duales (les exportations chinoises de semi-conducteurs vers la Russie ont fortement augmenté depuis 2022, les données douanières chinoises montrant un doublement de certaines catégories de puces) et pour la légitimation diplomatique.
 
 L'Iran est encore plus isolé. La guerre déclenchée en février 2026 a révélé la limite opérationnelle de l'axe : ni Moscou ni Pékin n'ont envoyé de forces pour défendre Téhéran. La Russie a fourni un soutien logistique et diplomatique limité. La Chine s'est contentée de déclarations.
 
@@ -204,11 +206,11 @@ Le documentaire ignore presque entièrement la Corée du Nord. C'est une omissio
 
 Le 19 juin 2024, Kim Jong-un et Vladimir Poutine ont signé à Pyongyang un traité de « partenariat stratégique global » incluant une clause de défense mutuelle. La Corée du Nord fixe 28 500 soldats américains en Corée du Sud, selon les effectifs de l'USFK (United States Forces Korea). Elle entretient avec l'Iran des liens technologiques sur les missiles balistiques.
 
-Et pourtant : la Chine contrôle 98 % du commerce extérieur nord-coréen. La Chine n'a pas déployé de troupes à Koursk. La Russie a entraîné l'armée chinoise pour Taïwan (exercices de drones, déminage, lutte anti-sous-marine). La Corée du Nord a déployé 14 000 soldats. La Chine, zéro.
+Et pourtant : la Chine contrôle 98 % du commerce extérieur nord-coréen, selon le Council on Foreign Relations. La Chine n'a pas déployé de troupes à Koursk. La Russie a entraîné l'armée chinoise pour Taïwan (exercices de drones, déminage, lutte anti-sous-marine), selon un rapport du Royal United Services Institute de 2025. La Corée du Nord a déployé 14 000 soldats. La Chine, zéro.
 
 ### Le Sud global, angle mort du cadrage
 
-Au-delà de l'Inde et du Golfe, c'est l'ensemble du Sud global qui invalide le cadrage binaire. Le Brésil commerce deux fois plus avec la Chine qu'avec les États-Unis (171 milliards de dollars en 2024). La Turquie est dans l'OTAN, a acheté des missiles S-400 russes, et a officiellement candidaté aux BRICS. L'Afrique du Sud participe aux BRICS tout en maintenant des relations diplomatiques et commerciales avec l'Occident. L'Indonésie, sous la présidence de Prabowo Subianto, pratique un multi-alignement actif entre la Chine, les États-Unis et les puissances moyennes.
+Au-delà de l'Inde et du Golfe, c'est l'ensemble du Sud global qui invalide le cadrage binaire. Le Brésil commerce deux fois plus avec la Chine qu'avec les États-Unis (171 milliards de dollars en 2024, selon les données commerciales compilées par le South China Morning Post). La Turquie est dans l'OTAN, a acheté des missiles S-400 russes, et a officiellement candidaté aux BRICS. L'Afrique du Sud participe aux BRICS tout en maintenant des relations diplomatiques et commerciales avec l'Occident. L'Indonésie, sous la présidence de Prabowo Subianto, pratique un multi-alignement actif entre la Chine, les États-Unis et les puissances moyennes.
 
 Une cinquantaine de pays n'ont pas condamné l'invasion russe à l'ONU. Ce n'est pas un axe. C'est un espace. Il n'y a ni charte, ni leader, ni coordination. Il y a des intérêts nationaux poursuivis de manière opportuniste dans un monde que le cadrage binaire ne décrit pas.
 
@@ -219,8 +221,6 @@ Une cinquantaine de pays n'ont pas condamné l'invasion russe à l'ONU. Ce n'est
 Le documentaire aurait pu s'arrêter au constat. Il aurait pu documenter le rapprochement réel entre les trois régimes, ses dimensions militaires, économiques et diplomatiques, puis ouvrir le débat sur les réponses possibles : endiguement, négociation, équilibre des puissances, désescalade.
 
 Il ne le fait pas. Les dernières minutes enchaînent les exercices de l'OTAN mobilisant 90 000 soldats, l'hypothèse d'une Europe abandonnée par les États-Unis, la nécessité de « continuer à soutenir l'Ukraine », le « destin de puissance militaire » de l'Union européenne et l'objectif d'un continent « capable de se défendre et de se faire respecter. »
-
-Le spectateur n'a pas été informé. Il a été conduit.
 
 La chaîne de fabrication est désormais visible :
 
