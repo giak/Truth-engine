@@ -158,7 +158,7 @@ La conclusion n'est pas que tout se vaut. Elle est que les pratiques doivent êt
 
 ---
 
-## VI. La flotte fantôme : étude de cas
+## VI. La flotte fantôme : anatomie d'une catégorie politique devenue doctrine
 
 Le documentaire évoque la « flotte fantôme » comme une réalité établie, un réseau de pétroliers opaques permettant à la Russie de contourner les sanctions. [^4] L'analyse de cette notion révèle un mécanisme qui éclaire l'ensemble du film : la transformation d'une catégorie politique en catégorie technique, puis sa conversion en doctrine opérationnelle.
 
@@ -166,21 +166,41 @@ Le documentaire évoque la « flotte fantôme » comme une réalité établie, u
 
 « Flotte fantôme » n'est pas un statut juridique universel. C'est une expression utilisée par les gouvernements occidentaux et les autorités de sanctions pour désigner un ensemble hétérogène de navires. Le Royaume-Uni reconnaît explicitement que certains de ces navires peuvent être conformes aux lois applicables ou ne pas être couverts par les sanctions en question. [^23]
 
-La catégorie rassemble sous un même label des bâtiments très différents : certains frauduleux (faux pavillons), certains mal assurés, d'autres simplement sortis des services maritimes occidentaux. Transporter du pétrole russe avec un assureur non occidental n'est pas, en soi, illégal. Le plafonnement du G7 conditionne l'accès aux services des juridictions de la coalition. Un armateur non occidental peut, selon son droit national, opérer hors de ce système. [^24]
+La catégorie rassemble sous un même label des bâtiments très différents : certains frauduleux (faux pavillons, documents falsifiés), certains mal assurés (compagnies non occidentales à la solvabilité incertaine), d'autres simplement sortis des services maritimes occidentaux. Transporter du pétrole russe avec un assureur non occidental n'est pas, en soi, illégal. Le plafonnement du G7 conditionne l'accès aux services des juridictions de la coalition. Un armateur non occidental peut, selon son droit national, opérer hors de ce système. Le Trésor américain l'explique lui-même : un exportateur peut soit vendre sous le plafond en utilisant les services occidentaux, soit vendre en dehors du système en utilisant exclusivement des fournisseurs non membres de la coalition. [^24]
 
-### De la catégorie à la doctrine
+### De la catégorie à la doctrine : une chronologie
 
-La Loi de programmation militaire est promulguée le 1er août 2023. Le documentaire est diffusé en mai 2024. Et à partir de 2025, une politique coordonnée d'interception maritime se met en place.
+La Loi de programmation militaire est promulguée le 1er août 2023. Le documentaire est diffusé en mai 2024. À partir de 2025, une politique coordonnée d'interception maritime se met en place.
 
-Le 2 octobre 2025, Emmanuel Macron déclare que l'objectif des contrôles en mer est de « tuer le modèle économique » des transporteurs de pétrole russe en immobilisant les navires pendant plusieurs jours ou semaines. [^25]
+Le 2 octobre 2025, Emmanuel Macron déclare que l'objectif des contrôles en mer est de « tuer le modèle économique » des transporteurs de pétrole russe en immobilisant les navires pendant plusieurs jours ou semaines. Il annonce une politique d'« entrave » avec l'OTAN et la Coalition des volontaires. [^25]
 
-À partir d'avril 2025, l'Estonie arraisonne le Kiwala, soupçonné de faux pavillon djiboutien. [^26] La France mène ensuite plusieurs opérations : le Boracay (septembre 2025), le Grinch (janvier 2026, libéré après paiement d'une pénalité de plusieurs millions d'euros), le Deyna (mars 2026) et le Deliver (juin 2026). [^27] Le 13 juillet 2026, la Coalition des volontaires déclare vouloir « intensifier les opérations d'arraisonnement et les contrôles » de manière systématique. [^28]
+La chronologie des opérations documentées :
 
-Le mécanisme juridique repose sur la Convention des Nations unies sur le droit de la mer. Son article 110 autorise un navire de guerre à vérifier un navire étranger lorsqu'il existe des motifs raisonnables de soupçonner notamment que celui-ci est sans nationalité. La France ne peut pas arraisonner un pétrolier parce qu'il transporte du pétrole russe. Elle l'arraisonne au motif du soupçon d'absence de nationalité. [^29]
+- **Kiwala** (avril 2025) : arraisonné par l'Estonie, soupçonné de faux pavillon djiboutien. Libéré après reconnaissance temporaire par Djibouti. [^26]
+- **Boracay** (septembre 2025) : première opération française. Dérouté.
+- **Grinch** (janvier 2026) : arraisonné par la France, libéré après paiement d'une pénalité de plusieurs millions d'euros. [^27]
+- **Deyna** (mars 2026) : pavillon mozambicain contesté, dérouté vers mouillage, signalé au procureur de Marseille. [^27]
+- **Deliver** (juin 2026) : pavillon camerounais contesté. Cinquième opération française depuis fin 2025. [^27]
 
-La boucle est circulaire : le navire est suspect parce qu'il appartient à la « flotte fantôme » ; il appartient à la « flotte fantôme » parce qu'il présente des caractéristiques jugées suspectes ; ces caractéristiques justifient l'arraisonnement ; l'arraisonnement est présenté comme une confirmation de la dangerosité de la catégorie.
+Le 13 juillet 2026, la Coalition des volontaires déclare vouloir « intensifier les opérations d'arraisonnement et les contrôles » de manière systématique et coordonnée. [^28]
 
-La continuité chronologique entre le film (mai 2024) et la doctrine d'arraisonnement (2025-2026) est établie. Elle ne démontre pas que le documentaire a causé cette doctrine, ni que ses auteurs la connaissaient à l'avance. Elle documente une circulation du cadre entre médias et action publique qui constitue, en elle-même, un objet d'analyse. [Voir notre enquête séparée : `investigations/2026-07/2026-07-27_flotte-fantome-doctrine-arraisonnement/2026-07-27_22-30_flotte-fantome-genealogie-categorie-politique_INVESTIGATION.md`]
+### Le mécanisme juridique
+
+La Convention des Nations unies sur le droit de la mer pose une règle générale : en haute mer, un navire dépend de la juridiction exclusive de son État de pavillon. Une marine étrangère ne peut pas monter à bord d'un pétrolier valablement enregistré simplement parce que sa cargaison est russe. [^29]
+
+L'article 110 de la Convention autorise néanmoins un navire de guerre à vérifier un navire étranger lorsqu'il existe des motifs raisonnables de soupçonner que celui-ci est sans nationalité. La France ne peut pas arraisonner un pétrolier parce qu'il transporte du pétrole russe. Elle l'arraisonne au motif du soupçon d'absence de nationalité. [^29]
+
+Le droit français de police en mer permet aux bâtiments de l'État d'exercer ces contrôles. Le capitaine qui ne peut pas justifier la nationalité de son navire encourt un an d'emprisonnement et 150 000 euros d'amende. [^30]
+
+La boucle est circulaire : le navire est suspect parce qu'il appartient à la « flotte fantôme » ; il appartient à la « flotte fantôme » parce qu'il présente des caractéristiques jugées suspectes (pavillon non occidental, assureur inconnu, AIS intermittent) ; ces caractéristiques justifient l'arraisonnement au titre du soupçon de faux pavillon ; l'arraisonnement est présenté comme une confirmation de la dangerosité de la catégorie.
+
+### Ce qui est établi, ce qui ne l'est pas
+
+L'enquête établit que la catégorie « flotte fantôme » n'est pas juridique mais politique, qu'elle agrège des navires aux statuts différents, et qu'une doctrine d'arraisonnement coordonnée s'est mise en place après la diffusion du documentaire. Elle ne démontre pas que le documentaire a causé cette doctrine, ni que ses auteurs la connaissaient à l'avance, ni que les irrégularités de pavillon sont fabriquées par les autorités occidentales.
+
+La continuité chronologique entre le film (mai 2024) et la doctrine d'arraisonnement (2025-2026) est établie. Elle documente une circulation du cadre entre médias et action publique : la même catégorie politique qui décrit la menace dans le film structure, deux ans plus tard, la réponse opérationnelle. Cette circulation constitue, en elle-même, un objet d'analyse : précisément le type de phénomène que les citoyens sont en droit d'examiner lorsque la catégorie politique devient un instrument de guerre économique.
+
+La qualification la plus précise du mécanisme n'est pas « tout navire fantôme peut être saisi ». C'est : « tout navire classé fantôme devient une cible prioritaire contre laquelle nous rechercherons systématiquement l'une des exceptions autorisant l'intervention. » Un blanc-seing politique converti en doctrine opérationnelle, sans être encore un blanc-seing juridique.
 
 ---
 
@@ -252,8 +272,10 @@ La qualification la plus précise est celle d'un documentaire de communication s
 
 [^26]: Reuters, « Estonia releases Russia-bound oil tanker », 28 avril 2025.
 
-[^27]: Ministère des Armées, points de situation des opérations, 2025-2026, defense.gouv.fr ; AP News, « French navy intercepts tanker suspected of being part of Russia's shadow fleet », janvier 2026.
+[^27]: Ministère des Armées, points de situation des opérations, 2025-2026, defense.gouv.fr ; AP News, « French navy intercepts tanker suspected of being part of Russia's shadow fleet », janvier 2026 ; Pour le Deyna : point de situation du 19 au 26 mars 2026 ; Pour le Deliver : point de situation du 18 au 25 juin 2026.
 
 [^28]: Coalition des volontaires, déclaration du 13 juillet 2026, elysee.fr.
 
 [^29]: Convention des Nations unies sur le droit de la mer, article 110, un.org/depts/los.
+
+[^30]: Code de la défense, articles L1521-1 à L1521-8 (police en mer), legifrance.gouv.fr ; Projet de loi de programmation militaire 2024-2030, dispositions pénales.
