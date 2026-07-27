@@ -1,4 +1,4 @@
-# La fabrique de la menace : comment le documentaire d'Arte transforme une coopération réelle en guerre totale
+# 🎬 La fabrique de la menace : comment le documentaire d'Arte transforme des coopérations réelles en récit de guerre totale
 
 **Le 4 février 2022, Xi Jinping et Vladimir Poutine signent une déclaration conjointe. Trois semaines plus tard, la Russie envahit l'Ukraine. En septembre, l'Iran commence à livrer des drones à Moscou. En 2023, l'Iran est admis à l'Organisation de coopération de Shanghai. Le documentaire « Russie, Chine, Iran : la revanche des empires », diffusé sur Arte en mai 2024, utilise ces faits comme matériau d'une démonstration. Cet article examine ce que le film fait avec ces faits : non pas s'il les invente, mais comment il les sélectionne, les agrège et les ordonne vers une conclusion politique.**
 
@@ -15,6 +15,10 @@ Mais le synopsis officiel d'Arte annonce, avant même la première image, trois 
 Ce n'est pas une enquête ouverte. Le film est présenté au public par un paratexte fortement conclusif : l'unité, l'intention anti-occidentale et la dangerosité du rapprochement sont largement affirmées avant même le visionnage.
 
 L'analyse qui suit examine comment le film procède. Elle ne démontre pas que le documentaire ment sur les faits. Elle documente comment il les transforme : par des erreurs et des agrégations, par des interprétations présentées comme des connaissances, par des procédés rhétoriques qui rendent sa thèse impossible à réfuter, et par une architecture narrative qui distribue inégalement l'autorité de la parole. La destination de ce travail (le renforcement militaire de l'Europe) est la conclusion que cette architecture rend possible.
+
+---
+
+**Limite de méthode.** Les passages examinés dans cet article ne constituent ni un recensement exhaustif des affirmations du documentaire ni un échantillon statistiquement représentatif. Ils ont été sélectionnés parce qu'ils permettent d'observer plusieurs mécanismes précis de transformation des faits. L'article établit l'existence de ces mécanismes dans les séquences étudiées ; il ne mesure pas encore leur fréquence dans l'ensemble des quatre-vingt-quatorze minutes du film.
 
 ---
 
@@ -42,7 +46,7 @@ Ces problèmes ne sont pas de même nature. Les regrouper sous une étiquette un
 
 **Les « 52 pays ». À 06:30, la voix off affirme : « Le 2 mars 2022, 52 pays sur 193 ne condamnent pas l'agression russe. » Le film parle d'un « silence assourdissant ». [^4]**
 
-Le vote de l'Assemblée générale des Nations unies sur la résolution ES-11/1 était de 141 voix pour, 5 contre et 35 abstentions. Douze pays n'ont pas participé au vote. Le chiffre de 52 additionne trois comportements politiquement distincts : voter contre (5), s'abstenir (35), ne pas participer (12). Une abstention, une absence et un soutien explicite à Moscou ne sont pas équivalents. L'agrégation les fond dans une masse unique de « 52 pays » présentés comme un front silencieux contre l'Occident. [^5]
+Le vote de l'Assemblée générale des Nations unies sur la résolution ES-11/1 était de 141 voix pour, 5 contre et 35 abstentions. Douze pays n'ont pas participé au vote. Le chiffre de 52 additionne trois comportements politiquement distincts : voter contre (5), s'abstenir (35), ne pas participer (12). Une abstention, une absence et un soutien explicite à Moscou ne sont pas équivalents. L'agrégation les fond dans une masse unique de « 52 pays » présentés comme une masse cohérente de refus de condamner Moscou. [^5]
 
 Ce procédé n'est pas une simple imprécision. Il produit, dès les premières minutes du film, un effet politique : cinq votes contre (dont celui de la Russie elle-même), trente-cinq abstentions et douze absences deviennent une masse indistincte de cinquante-deux États. L'agrégation efface les motivations différentes de ces comportements et amplifie l'image d'un refus mondial de condamner Moscou.
 
@@ -76,9 +80,9 @@ L'acronyme BRIC a été formulé en 2001 par l'économiste Jim O'Neill de Goldma
 
 **La formule infalsifiable. À partir de 51:14, le film affirme que les trois pays mènent « ensemble ou séparément une guerre hybride totale » contre les démocraties. [^4]**
 
-Cette phrase n'est pas une erreur. Elle est plus grave : elle détruit toute possibilité de réfutation. Lorsque les trois pays coordonnent une action, elle prouve l'axe. Lorsqu'ils agissent séparément, elle prouve encore l'axe. Lorsqu'ils poursuivent des intérêts divergents, ce sont différents fronts d'une même guerre. Aucun événement ne peut infirmer la thèse. Une théorie qui explique indifféremment l'intervention et la non-intervention ne permet plus de distinguer les hypothèses.
+Cette phrase n'est pas une erreur. Elle est plus grave : elle empêche de distinguer ce qui prouve une coordination de ce qui relève d'une convergence parallèle ou d'une politique nationale autonome. Lorsque les trois pays coordonnent une action, elle prouve l'axe. Lorsqu'ils agissent séparément, elle prouve encore l'axe. Lorsqu'ils poursuivent des intérêts divergents, ce sont différents fronts d'une même guerre. La formule rend ainsi difficile la falsification de la version forte de l'axe.
 
-La guerre en Iran de février 2026 constitue un test empirique de la thèse du film : Téhéran est attaqué, ni Moscou ni Pékin n'engagent de forces dans une défense militaire directe. Leur soutien ne s'est toutefois pas limité à la diplomatie : des livraisons d'armes, des composants, des données ou une assistance russe en renseignement ont été rapportés, avec une ampleur encore discutée. [^11] Dans le système interprétatif du documentaire, cette non-intervention directe peut être absorbée sans difficulté : les partenaires auraient choisi d'aider autrement.
+La guerre en Iran de février 2026 constitue un test empirique de la version forte de la thèse, celle d'un axe solidaire organisant un partage des risques existentiels. Téhéran est attaqué, ni Moscou ni Pékin n'engagent de forces dans une défense militaire directe. Mais ce test ne réfute pas les versions plus faibles : coopération, aide technique, alignement diplomatique, convergence anti-occidentale. Leur soutien ne s'est pas limité à la diplomatie : des livraisons d'armes, des composants, des données ou une assistance russe en renseignement ont été rapportés, avec une ampleur encore discutée. [^11] Dans le système interprétatif du documentaire, la non-intervention directe peut être absorbée sans difficulté : les partenaires auraient choisi d'aider autrement.
 
 **La téléologie rétrospective.** Le montage transforme des événements survenus à des périodes différentes en étapes d'un programme unique. L'OCS de 2001, les BRICS de 2006, la Syrie, le Covid, l'Ukraine et les paiements en monnaies locales deviennent les jalons d'une stratégie cohérente alors que rien ne prouve qu'ils aient été pensés comme tels par leurs acteurs au moment où ils se sont produits.
 
@@ -90,7 +94,7 @@ Entre 01:30:00 et 01:33:00, le film quitte le registre du constat pour entrer da
 
 Ce n'est pas une erreur factuelle. C'est la destination du récit. La progression est désormais visible : accumuler les menaces, les agréger en système cohérent, disqualifier moralement les adversaires, élargir la menace à tous les domaines (militaire, économique, informationnel, juridique), puis présenter le renforcement militaire de l'Europe comme seule réponse rationnelle.
 
-Le film ne se limite pas à informer sur un rapprochement géopolitique. Il construit la nécessité d'une réponse militaire à ce rapprochement.
+Le film ne se limite pas à informer sur un rapprochement géopolitique. Il se termine par une prescription militaire explicite. Celle-ci apparaît comme la conclusion naturelle de la progression cumulative des menaces organisée au cours du récit. L'article établit cette continuité narrative ; il ne démontre pas que la totalité du film a été conçue dès l'origine pour produire cette prescription.
 
 ---
 
@@ -106,31 +110,19 @@ L'asymétrie du paratexte est établie. L'asymétrie audiovisuelle systématique
 
 ---
 
-## IV. L'écosystème économique : qui finance l'expertise
+## IV. Contexte institutionnel des intervenants
 
-Le documentaire s'inscrit dans un circuit d'expertise et de production dont les financements sont documentables.
+Le documentaire mobilise une vingtaine d'intervenants [^32] : un ancien président de la République, d'anciens responsables du renseignement, des universitaires, des experts d'institutions variées, des ONG, des responsables politiques non occidentaux, des journalistes. Le film a été produit par CC&C–Mediawan en coproduction avec Arte G.E.I.E., avec la participation de LCP (Assemblée nationale) et de Radio-Canada, et le soutien du CNC. [^12]
 
-Le film a été produit par CC&C–Mediawan en coproduction avec Arte G.E.I.E., avec la participation de LCP (Assemblée nationale) et de Radio-Canada. Son financement réunit un diffuseur public européen, le soutien public du CNC et des mécanismes professionnels de gestion collective comme la PROCIREP et l'ANGOA-AGICOA. [^12]
+Plusieurs intervenants appartiennent à des institutions liées aux appareils publics de défense ou bénéficiant de soutiens du secteur de l'armement à différentes périodes. Les données actuellement disponibles [^13] [^14] [^15] ne permettent ni de reconstruire les financements contemporains de la production ni d'établir une influence sur la sélection des experts, leurs propos ou le montage. Ces affiliations constituent un contexte institutionnel à inventorier, non une preuve du cadrage observé.
 
-Trois institutions fournissant des experts au film illustrent la proximité entre l'expertise mobilisée et le secteur de la défense. Cette sélection n'est pas une cartographie exhaustive des intervenants : le film comprend également un ancien président français, d'anciens responsables du renseignement, des universitaires, des ONG, des responsables politiques non occidentaux et d'autres personnalités dont les affiliations mériteraient un inventaire complet.
-
-- Le Centre for European Policy Analysis (CEPA), représenté par sa présidente Alina Polyakova, déclarait en 2025 parmi ses soutiens Lockheed Martin, American Rheinmetall Defense et General Atomics. [^13] La liste consultée est postérieure à la production du film (2024) ; les soutiens du CEPA pendant la période de production n'ont pu être établis avec certitude.
-- L'Institut français des relations internationales (IFRI), représenté notamment par Héloïse Fayet, compte parmi ses donateurs affichés en 2026 Thales, KNDS, MBDA, Naval Group, Safran et le Secrétariat général de la défense et de la sécurité nationale (SGDSN). [^14] La liste Ifri consultée est postérieure à la diffusion du film.
-- L'Institut de recherche stratégique de l'École militaire (IRSEM), représenté par Paul Charon, dépend directement du ministère des Armées. [^15]
-
-Ces financements sont documentés pour la période postérieure au film. Ils ne sont pas cachés. L'influence de ces financements sur le contenu du documentaire n'est pas démontrée. Plusieurs grandes entreprises de défense figurent parmi les soutiens déclarés de certaines institutions représentées dans le film : cela établit un environnement d'intérêts, non une influence sur les propos ou le montage.
-
-Le film s'inscrit dans un environnement politique marqué par un débat public sur l'augmentation des budgets de défense européens. La Loi de programmation militaire 2024-2030, dotée de 413 milliards d'euros, a été promulguée le 1er août 2023, neuf mois avant la diffusion. L'enquête n'établit aucun lien entre le documentaire et les rédacteurs de la LPM.
-
-Selon l'estimation IRIS reprise par le rapport Draghi, sur le périmètre étudié entre juin 2022 et juin 2023, 78 % des dépenses d'acquisition allaient à des fournisseurs non européens, dont 63 % à des fournisseurs américains. Ce périmètre excluait une partie des achats domestiques. L'IISS, sur une base plus large intégrant les acquisitions nationales, évalue la part des systèmes européens à 52 % et la part américaine à 34 % jusqu'en septembre 2024, puis environ 53 % et 36 % dans son actualisation de mi-2025. [^16] [^17] La Pologne a commandé 250 chars Abrams, 32 F-35 et 96 hélicoptères Apache. L'Allemagne a commandé 35 F-35.
-
-La convergence est documentée entre le cadrage du film et les intérêts d'un secteur dont les acteurs financent les institutions qui fournissent certains de ses experts. L'enquête ne démontre pas de lien causal entre les financements et le contenu. Elle ne démontre pas d'intention coordonnée. Le terme « propagande », qui exigerait la preuve d'une intention de mobilisation, n'est pas établi.
+> **Voir en annexe : affiliations des trois institutions documentées (CEPA, IFRI, IRSEM) et contexte macroéconomique.**
 
 ---
 
 ## V. Ce que le film omet
 
-Les omissions du documentaire sont aussi structurantes que ses affirmations. Elles relèvent d'un même procédé : ce qui fragilise la thèse du bloc cohérent et hostile est minoré ou absent.
+Les omissions du documentaire sont aussi structurantes que ses affirmations. Dans les séquences et le transcript examinés, ce qui fragilise la thèse du bloc cohérent et hostile ne bénéficie pas d'un traitement proportionné à sa capacité de compliquer le cadrage binaire.
 
 ### Les divisions internes
 
@@ -150,7 +142,9 @@ Ces acteurs ne sont ni dans l'axe, ni dans l'Occident. Leur comportement détrui
 
 ### Les pratiques occidentales comparables
 
-Le film dénonce les médias internationaux russes et chinois comme instruments d'influence. Il n'applique pas la même grille aux médias internationaux occidentaux. Il dénonce les opérations d'ingérence adverse. Il n'applique pas systématiquement la même grille de lecture à ses propres sources d'expertise et à celles qu'il dénonce. Un documentaire centré sur trois États n'est pas tenu de produire une histoire générale des interventions occidentales, mais l'emploi de catégories comme « ingérence » ou « désinformation » sans jamais les appliquer aux pratiques occidentales comparables crée une asymétrie dans le traitement des faits. Le film utilise des catégories (« ingérence », « désinformation ») qu'il applique à ses adversaires sans jamais les retourner contre les pratiques occidentales comparables : médias internationaux, programmes d'influence, interventions militaires. La conclusion n'est pas que tout se vaut. Elle est que des catégories à prétention universelle gagneraient à être appliquées symétriquement.
+Dans les séquences examinées, les catégories d'ingérence et de désinformation sont principalement appliquées aux adversaires. Un documentaire centré sur trois États n'est pas tenu de retracer toutes les interventions occidentales. Mais lorsqu'une catégorie se présente comme universelle, l'absence de comparaison avec des pratiques occidentales fonctionnellement analogues produit une asymétrie analytique.
+
+La conclusion n'est pas que tout se vaut. Elle est que des catégories à prétention universelle gagneraient à être appliquées symétriquement.
 
 ---
 
@@ -164,7 +158,13 @@ Son analyse révèle néanmoins un mécanisme qui éclaire l'ensemble du film : 
 
 « Flotte fantôme » n'est pas un statut juridique universel. C'est une expression utilisée par les gouvernements occidentaux et les autorités de sanctions pour désigner un ensemble hétérogène de navires. Le Royaume-Uni reconnaît explicitement que certains de ces navires peuvent être conformes aux lois applicables ou ne pas être couverts par les sanctions en question. [^23]
 
-La catégorie rassemble sous un même label des bâtiments très différents : certains frauduleux (faux pavillons, documents falsifiés), certains disposant d'une couverture fournie par des assureurs difficiles à identifier ou dont la capacité d'indemnisation est contestée, et d'autres utilisant simplement des assureurs non occidentaux, ce qui n'est pas illégal en soi, d'autres simplement sortis des services maritimes occidentaux. Transporter du pétrole russe avec un assureur non occidental n'est pas, en soi, illégal. Le plafonnement du G7 conditionne l'accès aux services des juridictions de la coalition. Un armateur non occidental peut, selon son droit national, opérer hors de ce système. Le Trésor américain l'explique lui-même : un exportateur peut soit vendre sous le plafond en utilisant les services occidentaux, soit vendre en dehors du système en utilisant exclusivement des fournisseurs non membres de la coalition. [^24]
+La catégorie rassemble sous un même label des bâtiments très différents :
+1. des navires frauduleux (faux pavillons, documents falsifiés) ;
+2. des navires disposant d'une couverture par des assureurs difficiles à identifier ou dont la capacité d'indemnisation est contestée ;
+3. des navires utilisant des assureurs non occidentaux, ce qui n'est pas illégal en soi ;
+4. des navires simplement sortis des services maritimes occidentaux.
+
+Transporter du pétrole russe avec un assureur non occidental n'est pas, en soi, illégal. Le plafonnement du G7 conditionne l'accès aux services des juridictions de la coalition. Un armateur non occidental peut, selon son droit national, opérer hors de ce système. Le Trésor américain l'explique lui-même : un exportateur peut soit vendre sous le plafond en utilisant les services occidentaux, soit vendre en dehors du système en utilisant exclusivement des fournisseurs non membres de la coalition. [^24]
 
 ### De la catégorie à la doctrine : une chronologie
 
@@ -209,7 +209,23 @@ Il agrège des comportements distincts (votes pour, abstentions, absences) en ma
 
 Ces éléments démontrent un cadrage orienté. Ils ne démontrent ni commande industrielle ni intention coordonnée de tromper. Le terme « propagande » exigerait la preuve d'une finalité intentionnelle de mobilisation que les données disponibles n'établissent pas.
 
-La qualification la plus précise est celle d'un documentaire géopolitique à thèse et à forte fonction persuasive, dont plusieurs erreurs, agrégations et choix narratifs orientent le spectateur vers une conclusion militaire. Le film utilise les outils du journalisme (archives, données, experts, pluralité apparente) non pour ouvrir l'enquête, mais pour guider le spectateur vers une conclusion que son synopsis annonçait déjà.
+La qualification la plus précise est celle d'une enquête géopolitique fermée par un cadrage sécuritaire : des coopérations réelles sont agrégées en menace totale, puis reliées à une réponse militaire présentée comme naturelle. Le film utilise les outils du journalisme (archives, données, experts, pluralité apparente) non pour ouvrir l'enquête, mais pour guider le spectateur vers une conclusion que son synopsis annonçait déjà.
+
+---
+
+## Annexe : affiliations des intervenants et contexte institutionnel
+
+Le documentaire mobilise une vingtaine d'intervenants [^32]. Cette annexe documente, pour les seules institutions pour lesquelles des données de financement sont disponibles, les affiliations de certaines d'entre elles lors d'années postérieures à la diffusion. La plupart des intervenants ne sont pas concernés par ces données.
+
+- **CEPA.** Le Centre for European Policy Analysis, représenté par sa présidente Alina Polyakova, déclarait en 2025 parmi ses soutiens Lockheed Martin, American Rheinmetall Defense et General Atomics. [^13] La liste consultée est postérieure à la production du film. Les soutiens du CEPA pendant la période de production (2023-2024) n'ont pu être établis avec certitude.
+
+- **IFRI.** L'Institut français des relations internationales, représenté notamment par Héloïse Fayet, comptait parmi ses donateurs affichés en 2026 Thales, KNDS, MBDA, Naval Group, Safran et le SGDSN. [^14] Cette liste est postérieure à la diffusion du film.
+
+- **IRSEM.** L'Institut de recherche stratégique de l'École militaire, représenté par Paul Charon, dépend directement du ministère des Armées. [^15]
+
+Ces financements sont documentés pour la période postérieure au film. L'enquête n'établit aucun lien causal entre les financements et le contenu du documentaire, ni d'intention coordonnée.
+
+Le film s'inscrit plus largement dans un environnement politique marqué par un débat public sur l'augmentation des budgets de défense européens. Selon l'estimation IRIS reprise par le rapport Draghi, sur le périmètre étudié entre juin 2022 et juin 2023, 78 % des dépenses d'acquisition allaient à des fournisseurs non européens, dont 63 % à des fournisseurs américains. L'IISS, sur une base plus large intégrant les acquisitions nationales, évalue la part américaine à 34 % jusqu'en septembre 2024 et à environ 36 % jusqu'à mi-2025. [^16] [^17] Ces données sont mentionnées à titre de contexte macroéconomique, sans lien établi avec le documentaire.
 
 ---
 
