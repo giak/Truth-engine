@@ -270,22 +270,25 @@ Les huit intervenants non-occidentaux sont tous liés à leur régime respectif 
 
 ### Structure du film : analyse du transcript automatique
 
-Le transcript YouTube du documentaire (818 timecodes, ~94 minutes) permet une analyse quantitative de la répartition des langues, et donc des voix, dans le film.
+Le transcript YouTube du documentaire (818 timecodes) permet une analyse quantitative de la répartition des langues, et donc des voix, dans le film. L'analyse qui suit calcule la durée réelle en secondes par langue à partir des timecodes, et non le ratio de lignes.
 
-| Langue | Lignes du transcript | % du transcript | Qui parle |
-|--------|:--------------------:|:---------------:|-----------|
-| Français (voix off + experts) | ~1 633 | ~97,4 % | Narration, experts français et anglophones |
-| Russe (cyrillique) | 23 | ~1,4 % | Poutine, Karaganov, Popov, archives russes |
-| Farsi/arabe | 18 | ~1,1 % | Khamenei, officiels iraniens, archives |
-| Chinois (hanzi) | 3 | ~0,2 % | Xi Jinping, officiels chinois |
-| Allemand/anglais | 3 | ~0,2 % | Joe Biden, intervenants germanophones |
-| **Total voix non-occidentales** | **44** | **~2,6 %** | |
+| Langue | Durée | % du temps transcrit | Qui parle |
+|--------|:-----:|:--------------------:|-----------|
+| Français (voix off + experts) | 51,0 min | **85,4 %** | Narration, experts francophones et anglophones |
+| Russe (cyrillique) | 2,1 min | 3,5 % | Poutine, Karaganov, Popov, archives russes |
+| Farsi/arabe | 0,9 min | 1,5 % | Khamenei, officiels iraniens, archives |
+| Chinois (hanzi) | 0,7 min | 1,2 % | Xi Jinping, officiels chinois |
+| Anglais/allemand | 0,4 min | 0,7 % | Joe Biden, intervenants germanophones |
+| [musique] | 4,5 min | 7,6 % | Transitions de chapitre |
+| **Total voix non-occidentales** | **3,7 min** | **6,2 %** | |
 
-Le transcript comporte également 67 marqueurs `[musique]`, indiquant des transitions de chapitre.
+Le transcript analysé couvre environ 60 minutes sur les 94 du film : l'écart correspond aux silences, aux plans sans parole, et à une troncature du transcript automatique. Les proportions sont néanmoins représentatives de la structure du film.
 
-**Ce que ces chiffres confirment :** les voix non-occidentales occupent moins de 3 % du texte parlé du documentaire. Elles apparaissent presque exclusivement dans leur langue d'origine (russe, chinois, farsi) : en citation, en archive, ou en déclaration officielle. Le cadre analytique, lui, est entièrement en français : c'est la voix off et les experts francophones ou anglophones qui structurent le récit, contextualisent les faits, et formulent les conclusions.
+Le segment non-français le plus long dure **21 secondes**. Les 44 segments non-occidentaux sont tous des citations, des archives ou des déclarations officielles, jamais de l'analyse.
 
-**Ce que ces chiffres ne mesurent pas :** le temps de parole réel : une ligne en cyrillique peut correspondre à 2 secondes ou à 20 secondes de discours. Et ils ne distinguent pas les experts des voix off. Ces deux mesures nécessitent un visionnage chronométré.
+**Ce que ces chiffres confirment :** les voix non-occidentales occupent 3 minutes et 42 secondes de temps de parole sur 60 minutes de contenu transcrit. Le cadre analytique, 85,4 % du temps, est entièrement en français, porté par la voix off et les experts occidentaux. L'asymétrie n'est pas une intuition : c'est un ratio documenté de 14:1 en durée.
+
+**Ce que ces chiffres ne mesurent pas :** le temps de parole individuel de chaque intervenant : la diarization (identification du locuteur) nécessiterait un outil comme whisperx ou pyannote.audio, non déployé à ce stade.
 
 ### Constats
 
