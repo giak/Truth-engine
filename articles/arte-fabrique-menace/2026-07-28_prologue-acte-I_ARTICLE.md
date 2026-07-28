@@ -264,4 +264,34 @@ La chaîne est désormais presque complète. Le bloc a été fabriqué (Acte I).
 
 ---
 
-*Prochaine section : Produire la mobilisation.*
+---
+
+## VII. Produire la mobilisation
+
+La chaîne est presque complète. Le bloc a été fabriqué, militarisé, totalisé. Les crises intérieures ont été absorbées. Un plan a été attribué. Il ne reste qu'une opération : transformer ce diagnostic en prescription.
+
+### Le destin de puissance militaire
+
+À 01:31:33, après quatre-vingt-onze minutes d'accumulation, la voix off énonce la conclusion : « Alors que le soutien des États-Unis à l'OTAN pourrait connaître des soubresauts et que l'Europe pourrait se retrouver seule à soutenir l'Ukraine contre la Russie, l'Union européenne est plus que jamais confrontée à son destin de puissance militaire. »
+
+Le mot « destin » est le point d'aboutissement du dispositif rhétorique. Un destin n'est pas un choix. Il n'est pas une option parmi d'autres. Il est une fatalité que l'on peut retarder mais pas éviter. Après avoir construit la menace comme totale, permanente, interne et planifiée, la voix off peut se permettre de présenter le réarmement non comme une décision politique mais comme une nécessité historique. Le spectateur n'est pas invité à débattre de l'opportunité d'une Europe puissance militaire. Il est informé que cette puissance est son destin.
+
+### L'entonnoir de solution
+
+À 01:31:51, un intervenant déploie la chaîne pratique : « Si Poutine devait gagner cette guerre parce que nous, Européens et Américains, ne soutenons plus l'Ukraine... » La phrase n'est pas achevée dans la transcription, mais le contexte et les interventions suivantes lèvent toute ambiguïté : elle appelle au maintien du soutien militaire à l'Ukraine. Un deuxième intervenant relaie : l'Europe doit être « capable de se défendre et de se faire respecter. » La séquence fonctionne comme un entonnoir de solution : soutien à l'Ukraine → risque de victoire russe → nécessité de se défendre → obligation de se faire respecter. Chaque maillon rend le suivant plus difficile à contester. Si vous acceptez le premier (soutenir l'Ukraine), vous êtes conduit au dernier (la puissance militaire).
+
+### Une deuxième voie, à sa place
+
+Le film n'est pas exclusivement militaire. Un intervenant ajoute une « deuxième façon » : « Nous réinvestir dans nos démocraties » et reformuler des valeurs universelles. Il serait inexact d'écrire que le documentaire ne propose qu'une réponse armée.
+
+Mais cette deuxième voie occupe une position structurellement subordonnée. La prescription militaire est énoncée par la voix off, qui est la voix du dispositif éditorial. L'appel démocratique est énoncé par un intervenant, qui est une voix parmi d'autres. La hiérarchie des énonciateurs reflète la hiérarchie des prescriptions : la puissance militaire est le destin de l'Europe ; le réinvestissement démocratique est une suggestion complémentaire. Les deux ne pèsent pas le même poids.
+
+### Ce que l'Acte VI accomplit
+
+La destination du film est désormais visible. Le documentaire a construit une chaîne narrative complète : coopérations réelles → bloc homogène → machine de guerre → guerre totale → absorption des crises → plan coordonné → mobilisation. Chaque acte a rendu le suivant possible. Aucun n'était suffisant seul. Leur accumulation les rend difficiles à contester : pour réfuter la conclusion militaire, il faudrait réfuter non pas une séquence, mais l'architecture entière.
+
+Le documentaire ne se limite pas à informer sur un rapprochement géopolitique. Il organise ce rapprochement en une progression qui conduit le spectateur d'un constat (ils coopèrent) à une prescription (nous devons nous armer). Ce n'est pas un hasard. C'est la fonction du récit.
+
+---
+
+*Prochaine section : Arte comme spécimen, puis Conclusion.*
