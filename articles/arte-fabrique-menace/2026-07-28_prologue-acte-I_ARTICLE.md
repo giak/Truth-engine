@@ -124,4 +124,58 @@ Le glissement lexical est spectaculaire : de « sommet » à « pacte » puis «
 
 ---
 
-*Prochaine section : Totaliser la menace.*
+---
+
+## IV. Totaliser la menace
+
+Le bloc est fabriqué. Il a été militarisé en machine de guerre. Il faut maintenant étendre cette guerre à tous les domaines du réel. C'est l'opération la plus ambitieuse du documentaire : transformer une confrontation géopolitique circonscrite en menace totale, omniprésente, qui ne laisse aucun espace neutre.
+
+### Tous les fronts, visibles et invisibles
+
+À 51:23, la voix off ouvre la séquence la plus englobante du film : « Dès la fin des années 1990, les trois puissances ont déjà commencé à unir leurs forces sur d'autres terrains à travers une guerre hybride contre l'Occident qui va se jouer sur tous les fronts, visibles et invisible en même temps. L'objectif ? Semer le chaos dans les démocraties. »
+
+La formule « tous les fronts, visibles et invisibles » est une opération de totalisation. Elle étend la guerre au-delà du militaire vers l'informationnel, l'économique, le financier, le cybernétique, le politique, le social et le psychologique. Il n'y a plus de domaine qui ne soit pas un front. Il n'y a plus d'activité qui ne soit pas une opération. Le commerce est un front. La diplomatie est un front. L'information est un front. Tout est guerre.
+
+### Un objectif unique : le chaos
+
+À 51:33, la voix off répond à sa propre question : « L'objectif ? Semer le chaos dans les démocraties. » Une phrase. Sept mots. L'intégralité des politiques étrangères chinoise, russe et iranienne est ramenée à une intention unique : le chaos.
+
+Or ces trois pays poursuivent aussi des intérêts commerciaux, diplomatiques, énergétiques et de prestige qui n'ont rien à voir avec le désordre des démocraties occidentales. La Chine veut sécuriser ses routes d'approvisionnement, la Russie veut préserver ses zones d'influence, l'Iran veut sortir de l'isolement diplomatique. Réduire cette complexité à « semer le chaos » n'est pas une simplification. C'est une attribution d'intention qui transforme des politiques étrangères ordinaires en programme de destruction. La totalisation des moyens est doublée d'une totalisation des fins : non seulement tout est un front, mais tout front vise le même but.
+
+### Le premier front : l'information
+
+À 53:26, la voix off précise : « Le premier front sur lequel les trois pays convergent est la guerre de l'information. » Suit une énumération : « Des médias internationaux pratiquement dans toutes les langues. Des équipes de cyberguerriers qui mènent au quotidien le combat sur le territoire de l'ennemi au cœur des systèmes de la formation et des robots informatiques, des trolls et influenceurs en ligne qui relaient la propagande sur les réseaux sociaux occidentaux. »
+
+Cette énumération agrège des phénomènes de nature très différente. Les médias internationaux (RT, CGTN, PressTV) sont des organes de presse étrangers dont l'existence n'a rien d'illégal en soi. Les cyberopérations offensives constituent des actes hostiles documentés. Les « trolls et influenceurs » relèvent d'un spectre allant de la propagande coordonnée à la simple expression d'opinions alignées. En les fondant dans une même liste, la voix off produit un continuum de la menace qui va du journalisme d'État à la cyberattaque, sans distinguer les degrés de gravité ni les régimes juridiques applicables. C'est l'extension du domaine de la guerre : des réalités hétérogènes deviennent les pièces interchangeables d'un même front.
+
+### La validation par l'expert
+
+À 53:59, un intervenant prend le relais : « C'est une guerre permanente entre la Chine et les États-Unis, entre l'Iran et les États-Unis, entre la Russie et les États-Unis et entre les trois pays de cet axe de la désinformation et différents régimes démocratiques. Mais une guerre qui pour l'essentiel est en deçà de notre perception, qui pour l'essentiel est une guerre mondiale sans fumée. »
+
+Le concept de guerre totale n'est plus seulement énoncé par la narration. Il est validé par un expert qui ajoute deux dimensions : la permanence (« guerre permanente ») et l'invisibilité (« en deçà de notre perception », « sans fumée »). La voix off a posé le cadre ; l'intervenant le renforce en y ajoutant l'autorité de l'expertise. La guerre n'est pas seulement totale et hybride. Elle est permanente, invisible, et déjà en cours sans que le spectateur en soit pleinement conscient. L'effet recherché est double : inquiéter (la menace est partout) et sidérer (elle est indétectable).
+
+### La formule qui brouille les critères
+
+À 01:01:47, la voix off prononce la phrase qui verrouille tout l'édifice : « La Russie, la Chine et l'Iran mènent aujourd'hui ensemble ou séparément une guerre hybride totale contre les régimes démocratiques. »
+
+Cette phrase est la pièce maîtresse de l'Acte III. Elle ne se contente pas d'énoncer une thèse. Elle la rend structurellement impossible à réfuter.
+
+L'expression « ensemble ou séparément » absorbe trois réalités distinctes dans une même catégorie. L'action coordonnée (des exercices militaires conjoints planifiés de longue date), la convergence parallèle (deux pays qui poursuivent des politiques similaires sans se consulter) et la politique autonome (un pays qui agit seul dans son intérêt national) deviennent trois manifestations interchangeables d'une même guerre. Si les trois pays coordonnent une opération, c'est la preuve de l'axe. S'ils agissent séparément, c'est encore la preuve de l'axe. S'ils poursuivent des intérêts divergents, ces divergences sont présentées comme différents fronts d'une même guerre. Si un quatrième pays les soutient ponctuellement, il devient une extension du système.
+
+Le mot « guerre » ne décrit plus une coordination observable entre des acteurs identifiés. Il devient une machine interprétative capable d'absorber n'importe quel comportement hostile à l'Occident, qu'il soit coordonné ou non, intentionnel ou non, militaire ou non. La thèse du documentaire est désormais infalsifiable : aucun fait ne peut la contredire, parce que la formule a été conçue pour intégrer tous les faits possibles.
+
+### Le transfert d'autorité
+
+Immédiatement après, à 01:02:00, la voix off ajoute : « En 2023, la CIA et les services de renseignement d'une dizaine de démocraties occidentales placent ces trois régimes autoritaires au sommet de la liste des menaces les plus inquiétantes. »
+
+L'invocation des services de renseignement fonctionne comme un transfert d'autorité. Le spectateur n'a pas accès aux pièces sur lesquelles la CIA fonde son classement. Il ne peut pas vérifier la méthodologie, le périmètre, les critères. Mais l'autorité de l'institution est mobilisée pour clore le débat. Ce n'est plus le documentaire qui affirme que la menace est totale. Ce sont « la CIA et les services de renseignement d'une dizaine de démocraties occidentales » qui le confirment. La boucle est fermée : la narration a énoncé la thèse, l'expert l'a validée, les services secrets la certifient.
+
+### Ce que ces cinq séquences accomplissent
+
+En dix minutes, le documentaire a fait de la guerre le principe organisateur de la réalité internationale. Il est parti d'une confrontation géopolitique circonscrite (la guerre en Ukraine, les sanctions, les exercices conjoints) et l'a étendue à tous les domaines : militaire, informationnel, économique, cybernétique, politique, social, psychologique. Il a effacé la distinction entre guerre et paix au profit d'un continuum de menace permanente et invisible. Il a rendu sa thèse infalsifiable grâce à une formule qui absorbe coordination et autonomie dans une même catégorie. Et il a validé l'ensemble par le transfert d'autorité aux services de renseignement.
+
+La progression depuis l'Acte I est nette. Au début du film, la question était : ces trois pays coopèrent-ils ? À la fin de l'Acte III, la question est devenue : dans quelle mesure cette guerre totale et invisible vous a-t-elle déjà atteint sans que vous le sachiez ? Le glissement n'est pas seulement argumentatif. Il est perceptif. Le spectateur n'est plus invité à examiner des faits. Il est placé dans un monde où tout fait est déjà un front.
+
+---
+
+*Prochaine section : Absorber les crises intérieures.*
