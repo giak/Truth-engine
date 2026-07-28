@@ -1,0 +1,799 @@
+{
+  "generated_at": "2026-07-11T05:42:49.079792+00:00",
+  "cycle": "V154-V253",
+  "manifest_version": "v1",
+  "n_keys_total": 43,
+  "n_by_tier": {
+    "1-haute": 24,
+    "2-moyenne": 17,
+    "3-basse": 2
+  },
+  "keys": [
+    {
+      "key": "Muller-Hertz-Scientific-Report-2024-Autopsies-458-corps",
+      "url_hint": "",
+      "source_paper": "V190-Bucha",
+      "tier_priority": 1,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": true,
+      "fabrication_status": "δ-définitif-prouvé-fabrication-suspected-3-sources-concordant-2026-07-11"
+    },
+    {
+      "key": "Muller-Hertz-Bellingcat-Investigation-2022-Autopsies-458-corps",
+      "url_hint": "https://www.bellingcat.com/news/ukraine-and-russia/",
+      "source_paper": "V190-Bucha",
+      "tier_priority": 1,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": true,
+      "fabrication_status": "δ-définitif-prouvé-fabrication-suspected-3-sources-concordant-2026-07-11"
+    },
+    {
+      "key": "OSCE-ODIHR-Bucha-Mission-2022",
+      "url_hint": "https://www.osce.org/odihr/",
+      "source_paper": "V190-Bucha",
+      "tier_priority": 1,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_07-00_V190-bucha-timeline-maxar-vs-retrait-russe-autopsies-muller-hertz-artillerie-flechettes-mixed-executions-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "ICC-OTP-Bucha-Warrants-2023",
+      "url_hint": "https://www.icc-cpi.int/news/",
+      "source_paper": "V190-V192",
+      "tier_priority": 1,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_07-00_V190-bucha-timeline-maxar-vs-retrait-russe-autopsies-muller-hertz-artillerie-flechettes-mixed-executions-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_07-30_SYNTHESE-V187-V190_Faux-drapeaux-Section-4-Muller-Hertz-Bucha-Mixed_ARTICLE.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Maxar-Satellites-Yablonska-Street-19-mars-2022",
+      "url_hint": "https://www.maxar.com/",
+      "source_paper": "V190-Bucha",
+      "tier_priority": 1,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_07-30_SYNTHESE-V187-V190_Faux-drapeaux-Section-4-Muller-Hertz-Bucha-Mixed_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Amnesty-Bucha-Report-2022",
+      "url_hint": "https://www.amnesty.org/en/search/?query=bucha",
+      "source_paper": "V190-Bucha",
+      "tier_priority": 1,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_07-00_V190-bucha-timeline-maxar-vs-retrait-russe-autopsies-muller-hertz-artillerie-flechettes-mixed-executions-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "HRW-Bucha-Report-2022",
+      "url_hint": "https://www.hrw.org/search?keyword=bucha",
+      "source_paper": "V190-Bucha",
+      "tier_priority": 2,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Bellingcat-Bucha-Evidence-Review",
+      "url_hint": "https://www.bellingcat.com/",
+      "source_paper": "V190-Bucha",
+      "tier_priority": 2,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_07-00_V190-bucha-timeline-maxar-vs-retrait-russe-autopsies-muller-hertz-artillerie-flechettes-mixed-executions-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md",
+        "2026-07-11_09-15_SYNTHESE-V194-V196_Crossfire-Mediatique-NYT-Irpin-Kostiantynivka_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Katchanovski-Univ-Ottawa-Peer-Reviewed-2024",
+      "url_hint": "https://www.researchgate.net/profile/",
+      "source_paper": "V191-SBU-Botsman",
+      "tier_priority": 1,
+      "thematic": "Représailles-UA-V191",
+      "presence": [
+        "2026-07-11_07-15_V191-bucha-represailles-sbu-botsmans-purges-post-retrait-videos-effacees-unites-nettoyage-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "SBU-Activities-Statement-Anthme-@-FETCH",
+      "url_hint": "https://ssu.gov.ua/en/activity",
+      "source_paper": "V191-SBU-Botsman",
+      "tier_priority": 2,
+      "thematic": "Représailles-UA-V191",
+      "presence": [
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Forensic-Architecture-Bucha-SBU",
+      "url_hint": "https://forensic-architecture.org/",
+      "source_paper": "V191-SBU-Botsman",
+      "tier_priority": 2,
+      "thematic": "Représailles-UA-V191",
+      "presence": [
+        "2026-07-11_07-15_V191-bucha-represailles-sbu-botsmans-purges-post-retrait-videos-effacees-unites-nettoyage-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Ukrainian-Ombudsman-Post-Withdrawal-Audit",
+      "url_hint": "https://ombudsman.gov.ua/en/",
+      "source_paper": "V191-SBU-Botsman",
+      "tier_priority": 2,
+      "thematic": "Représailles-UA-V191",
+      "presence": [
+        "2026-07-11_07-15_V191-bucha-represailles-sbu-botsmans-purges-post-retrait-videos-effacees-unites-nettoyage-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "ICC-Rome-Statute-2002",
+      "url_hint": "https://www.icc-cpi.int/sites/default/files/RS-Eng.pdf",
+      "source_paper": "V192-CPI",
+      "tier_priority": 1,
+      "thematic": "CPI-Asymétrie-V192",
+      "presence": [
+        "2026-07-11_07-30_V192-mandat-cpi-poutine-asymetries-cas-ukrainiens-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Karim-Khan-Warrant-Poutine-2023-03-17",
+      "url_hint": "https://www.icc-cpi.int/news/statement-prosecutor-karim-khan-kc-issuance-arrest-warrants-against-president-vladimir-putin",
+      "source_paper": "V192-CPI",
+      "tier_priority": 1,
+      "thematic": "CPI-Asymétrie-V192",
+      "presence": [
+        "2026-07-11_07-30_V192-mandat-cpi-poutine-asymetries-cas-ukrainiens-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "ICC-Investigation-UA-2022-04-28",
+      "url_hint": "https://www.icc-cpi.int/news/ukraine-investigation",
+      "source_paper": "V192-CPI",
+      "tier_priority": 1,
+      "thematic": "CPI-Asymétrie-V192",
+      "presence": [
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Ukraine-RADA-Declaration-2014-02-21",
+      "url_hint": "https://zakon.rada.gov.ua/laws/show/962-18",
+      "source_paper": "V192-CPI",
+      "tier_priority": 1,
+      "thematic": "CPI-Asymétrie-V192",
+      "presence": [
+        "2026-07-11_07-30_V192-mandat-cpi-poutine-asymetries-cas-ukrainiens-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Ukraine-RADA-Second-Declaration-2015-09-08",
+      "url_hint": "https://zakon.rada.gov.ua/laws/show/617-19",
+      "source_paper": "V192-CPI",
+      "tier_priority": 2,
+      "thematic": "CPI-Asymétrie-V192",
+      "presence": [
+        "2026-07-11_07-30_V192-mandat-cpi-poutine-asymetries-cas-ukrainiens-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Russia-Withdrawal-Rome-Statute-2016-11-30",
+      "url_hint": "https://www.icc-cpi.int/rs",
+      "source_paper": "V192-CPI",
+      "tier_priority": 2,
+      "thematic": "CPI-Asymétrie-V192",
+      "presence": [
+        "2026-07-11_07-30_V192-mandat-cpi-poutine-asymetries-cas-ukrainiens-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Karim-Khan-Personal-Jurisdiction-doctrine-Article-12-2-b",
+      "url_hint": "https://www.icc-cpi.int/sites/default/files/RS-Eng.pdf",
+      "source_paper": "V192-CPI",
+      "tier_priority": 1,
+      "thematic": "CPI-Asymétrie-V192",
+      "presence": [
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Amnesty-Twomey-Rapport-Militarisation-juin-2022",
+      "url_hint": "https://www.amnesty.org/en/latest/news/2022/08/ukraine-ukrainian-fighting-tactics-endanger-civilians/",
+      "source_paper": "V193-Marioupol",
+      "tier_priority": 1,
+      "thematic": "Marioupol-Amnesty-V193",
+      "presence": [
+        "2026-07-11_07-45_V193-theatre-marioupol-bombardement-russe-16-mars-2022-rapport-amnesty-twomey-militarisation-regiment-azov-scandale-censure-callamard-apologie-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Amnesty-Callamard-Apology-juillet-2022-Officiel",
+      "url_hint": "https://www.amnesty.org/en/latest/news/2022/08/urging-ukrainian-authorities-investigate-claims/",
+      "source_paper": "V193-Marioupol",
+      "tier_priority": 1,
+      "thematic": "Marioupol-Amnesty-V193",
+      "presence": [],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Amnesty-Press-Release-2022-06-30",
+      "url_hint": "https://www.amnesty.org/en/latest/news/",
+      "source_paper": "V193-Marioupol",
+      "tier_priority": 2,
+      "thematic": "Marioupol-Amnesty-V193",
+      "presence": [
+        "2026-07-11_07-45_V193-theatre-marioupol-bombardement-russe-16-mars-2022-rapport-amnesty-twomey-militarisation-regiment-azov-scandale-censure-callamard-apologie-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Amnesty-Callamard-Apology-juillet-2022",
+      "url_hint": "https://www.amnesty.org/en/latest/news/",
+      "source_paper": "V193-Marioupol",
+      "tier_priority": 1,
+      "thematic": "Marioupol-Amnesty-V193",
+      "presence": [
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "BBC-Marioupol-Theatre-Bombing-2022-03-16",
+      "url_hint": "https://www.bbc.com/news/world-europe-mar",
+      "source_paper": "V193-Marioupol",
+      "tier_priority": 1,
+      "thematic": "Marioupol-Amnesty-V193",
+      "presence": [
+        "2026-07-11_07-45_V193-theatre-marioupol-bombardement-russe-16-mars-2022-rapport-amnesty-twomey-militarisation-regiment-azov-scandale-censure-callamard-apologie-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "OSCE-ODIHR-Marioupol-Mission-2022",
+      "url_hint": "https://www.osce.org/odihr/",
+      "source_paper": "V193-Marioupol",
+      "tier_priority": 2,
+      "thematic": "Marioupol-Amnesty-V193",
+      "presence": [
+        "2026-07-11_07-45_V193-theatre-marioupol-bombardement-russe-16-mars-2022-rapport-amnesty-twomey-militarisation-regiment-azov-scandale-censure-callamard-apologie-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "MFA-UA-Marioupol-Theatre-Anthme-@-FETCH",
+      "url_hint": "https://mfa.gov.ua/en",
+      "source_paper": "V193-Marioupol",
+      "tier_priority": 2,
+      "thematic": "Marioupol-Amnesty-V193",
+      "presence": [
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Ukraine-Azov-Statement-Anthme-@-FETCH",
+      "url_hint": "https://azov.org.ua/en/",
+      "source_paper": "V193-Marioupol",
+      "tier_priority": 2,
+      "thematic": "Marioupol-Amnesty-V193",
+      "presence": [
+        "2026-07-11_07-45_V193-theatre-marioupol-bombardement-russe-16-mars-2022-rapport-amnesty-twomey-militarisation-regiment-azov-scandale-censure-callamard-apologie-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Russia-MoD-Statement-Anthme-@-FETCH",
+      "url_hint": "https://function.mil.ru/news_page/",
+      "source_paper": "V193-Marioupol",
+      "tier_priority": 3,
+      "thematic": "Marioupol-Amnesty-V193",
+      "presence": [
+        "2026-07-11_07-45_V193-theatre-marioupol-bombardement-russe-16-mars-2022-rapport-amnesty-twomey-militarisation-regiment-azov-scandale-censure-callamard-apologie-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md",
+        "2026-07-11_09-15_SYNTHESE-V194-V196_Crossfire-Mediatique-NYT-Irpin-Kostiantynivka_ARTICLE.md",
+        "2026-07-11_09-30_SYNTHESE-V197_Oliver-Stone-Ukraine-on-Fire-Cloture-Section-4_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "Tier-3 = sources à utiliser SEULEMENT avec cross-check A4-anti-conspiration. Russia-MoD + RT biaisés par doctrine Kremlin.",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "NYT-Coverage-Retractions-Anthme-@-FETCH",
+      "url_hint": "https://www.nytimes.com/",
+      "source_paper": "V194-NYT",
+      "tier_priority": 1,
+      "thematic": "Crossfire-NYT-V194",
+      "presence": [],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "WSJ-Precision-Irpin-Bridge-Anthme-@-FETCH",
+      "url_hint": "https://www.wsj.com/",
+      "source_paper": "V195-Irpin",
+      "tier_priority": 1,
+      "thematic": "Irpin-Bridge-V195",
+      "presence": [],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "NYT-Kostiantynivka-Iskander-Anthme-@-FETCH",
+      "url_hint": "https://www.nytimes.com/",
+      "source_paper": "V196-Kostiantynivka",
+      "tier_priority": 1,
+      "thematic": "Kostiantynivka-Iskander-V196",
+      "presence": [],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "IMDB-Oliver-Stone-Ukraine-on-Fire-Archive",
+      "url_hint": "https://www.imdb.com/title/tt5769416/",
+      "source_paper": "V197-Documentaire-Stone",
+      "tier_priority": 1,
+      "thematic": "Documentaire-Stone-V197",
+      "presence": [
+        "2026-07-11_08-45_V197-oliver-stone-ukraine-on-fire-2016-loup-documentaire-suivi-limite-complotisme-vs-verite-terrain-zones-ombre-maidan-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-30_SYNTHESE-V197_Oliver-Stone-Ukraine-on-Fire-Cloture-Section-4_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "NYT-Critique-Oliver-Stone-Ukraine",
+      "url_hint": "https://www.nytimes.com/",
+      "source_paper": "V197-Documentaire-Stone",
+      "tier_priority": 1,
+      "thematic": "Documentaire-Stone-V197",
+      "presence": [
+        "2026-07-11_08-45_V197-oliver-stone-ukraine-on-fire-2016-loup-documentaire-suivi-limite-complotisme-vs-verite-terrain-zones-ombre-maidan-KERNEL-APEX-INVESTIGATION.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Hollywood-Reporter-Critique-Oliver-Stone",
+      "url_hint": "https://www.hollywoodreporter.com/",
+      "source_paper": "V197-Documentaire-Stone",
+      "tier_priority": 1,
+      "thematic": "Documentaire-Stone-V197",
+      "presence": [
+        "2026-07-11_08-45_V197-oliver-stone-ukraine-on-fire-2016-loup-documentaire-suivi-limite-complotisme-vs-verite-terrain-zones-ombre-maidan-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-30_SYNTHESE-V197_Oliver-Stone-Ukraine-on-Fire-Cloture-Section-4_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Variety-Review-Oliver-Stone-Ukraine",
+      "url_hint": "https://variety.com/",
+      "source_paper": "V197-Documentaire-Stone",
+      "tier_priority": 1,
+      "thematic": "Documentaire-Stone-V197",
+      "presence": [],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Alcr-Monitor-2024-Oliver-Stone-Omerta",
+      "url_hint": "https://www.acrimed.org/",
+      "source_paper": "V197-Documentaire-Stone",
+      "tier_priority": 1,
+      "thematic": "Documentaire-Stone-V197",
+      "presence": [
+        "2026-07-11_08-45_V197-oliver-stone-ukraine-on-fire-2016-loup-documentaire-suivi-limite-complotisme-vs-verite-terrain-zones-ombre-maidan-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-30_SYNTHESE-V197_Oliver-Stone-Ukraine-on-Fire-Cloture-Section-4_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Russia-Today-RT-Oliver-Stone-Promotion-Anthme-@-FETCH",
+      "url_hint": "https://www.rt.com/",
+      "source_paper": "V197-Documentaire-Stone",
+      "tier_priority": 3,
+      "thematic": "Documentaire-Stone-V197",
+      "presence": [
+        "2026-07-11_08-45_V197-oliver-stone-ukraine-on-fire-2016-loup-documentaire-suivi-limite-complotisme-vs-verite-terrain-zones-ombre-maidan-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-30_SYNTHESE-V197_Oliver-Stone-Ukraine-on-Fire-Cloture-Section-4_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "Tier-3 = sources à utiliser SEULEMENT avec cross-check A4-anti-conspiration. Russia-MoD + RT biaisés par doctrine Kremlin.",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Igor-Lopatonok-Interview-Defense-Anthme-@-FETCH",
+      "url_hint": "https://www.youtube.com/",
+      "source_paper": "V197-Documentaire-Stone",
+      "tier_priority": 2,
+      "thematic": "Documentaire-Stone-V197",
+      "presence": [],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "LeMonde-Bucha-2022",
+      "url_hint": "https://www.lemonde.fr/",
+      "source_paper": "V190-Bucha",
+      "tier_priority": 2,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_07-00_V190-bucha-timeline-maxar-vs-retrait-russe-autopsies-muller-hertz-artillerie-flechettes-mixed-executions-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_07-15_V191-bucha-represailles-sbu-botsmans-purges-post-retrait-videos-effacees-unites-nettoyage-KERNEL-APEX-INVESTIGATION.md",
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "RFI-Bucha-2022",
+      "url_hint": "https://www.rfi.fr/fr/",
+      "source_paper": "V190-Bucha",
+      "tier_priority": 2,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Alcr-Monitor-2024-Bucha-Omission-A8",
+      "url_hint": "https://www.acrimed.org/",
+      "source_paper": "V190-Bucha",
+      "tier_priority": 2,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_09-00_SYNTHESE-V190-V193_Forensique-Terrain-Bucha-Maidan-Marioupol-CPI-Asymetrie_ARTICLE.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Le-Monde-Diplomatique-Asymetrie-CPI-A8-A7",
+      "url_hint": "https://www.monde-diplomatique.fr/",
+      "source_paper": "V192-CPI",
+      "tier_priority": 2,
+      "thematic": "CPI-Asymétrie-V192",
+      "presence": [],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": false,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    },
+    {
+      "key": "Press-FR-Blackout-1958-Cycle-A8",
+      "url_hint": "https://www.acrimed.org/",
+      "source_paper": "V190-V193-A8",
+      "tier_priority": 2,
+      "thematic": "Forensique-terrain-Bucha-V190",
+      "presence": [
+        "2026-07-11_06-45_V186-blackout-mediatique-francais-omerta-afp-le-monde-refus-investiguer-aveu-nuland-cycle-KERNEL-APEX-INVESTIGATION.md"
+      ],
+      "url_resolved": "",
+      "http_status": 0,
+      "fetch_status": "PENDING",
+      "needs_llm_resolve": true,
+      "resolve_strategy": "@WEB-search-priority-1-2-3-4-BY-LLM-AGENT",
+      "a4_warning": "",
+      "fabrication_alert": false,
+      "fabrication_status": ""
+    }
+  ]
+}
