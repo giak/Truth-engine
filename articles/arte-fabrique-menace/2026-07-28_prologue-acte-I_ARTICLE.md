@@ -216,4 +216,52 @@ L'effet est double. Sur le plan analytique, le film rend impossible la distincti
 
 ---
 
-*Prochaine section : Donner un plan à l'histoire.*
+---
+
+## VI. Donner un plan à l'histoire
+
+L'ennemi est partout : à l'extérieur, à l'intérieur, dans tous les domaines, à toutes les échelles. Mais il manque encore une pièce au dispositif. Une menace totale, permanente et interne n'est qu'un danger diffus. Pour justifier une réponse, il faut lui donner une direction, une intention, un plan. L'Acte V transforme le chaos en programme.
+
+### La déstabilisation des institutions
+
+À 01:13:04, la voix off étend la menace à l'architecture même de l'ordre international : « Cette nouvelle coalition contre les démocraties parvient même à déstabiliser les plus hautes institutions internationales. » L'adverbe « même » signale un franchissement de seuil. Les démocraties n'étaient que les premières cibles. Désormais, ce sont les institutions qui encadrent les relations entre États (l'ONU, ses agences, les organes multilatéraux) qui sont atteintes. Plus aucun espace n'est neutre. Même les lieux conçus pour organiser la coexistence sont devenus des fronts.
+
+### Le monde parallèle
+
+À 01:19:16, la voix off formule le concept le plus englobant du documentaire : « En plus de créer le chaos dans les pays démocratiques et de neutraliser les valeurs universelles des droits de l'homme, ce nouvel axe de pays autoritaire mené par la Chine est en train d'organiser un véritable monde parallèle alternatif au monde occidental. »
+
+La notion de « monde parallèle » est une opération de binarisation. Elle divise la planète en deux réalités étanches : le monde occidental et son double hostile. Elle efface les chevauchements, les ambivalences, les multi-alignements. L'Inde, qui est simultanément membre du Quad avec les États-Unis et de l'OCS avec la Chine, n'existe pas dans ce schéma. Les pétromonarchies du Golfe, alliées de sécurité de Washington mais partenaires énergétiques de Pékin, n'existent pas. Le « monde parallèle » est une simplification qui transforme une réalité multipolaire en face-à-face binaire.
+
+### La première étape du plan
+
+À 01:19:42, la voix off passe de la description à l'attribution d'intention : « Fin août 2023, c'est lors du sommet des BRICS de Johannesburg qu'ils vont concrétiser la première étape de leur plan. »
+
+Le mot « plan » est décisif. L'élargissement des BRICS à six nouveaux membres (Arabie saoudite, Émirats arabes unis, Iran, Égypte, Éthiopie, Argentine) est une décision multilatérale prise par consensus entre des pays aux intérêts très divergents. En la présentant comme « la première étape de leur plan », la voix off transforme une dynamique institutionnelle complexe en séquence coordonnée par deux acteurs : la Chine et la Russie. L'autonomie du Brésil, de l'Inde et de l'Afrique du Sud dans le processus est effacée. Ils deviennent des instruments d'un plan qu'ils n'ont pas conçu.
+
+### Taïwan comme preuve
+
+À 01:24:49, la téléologie devient prospective : « Pour la Chine, l'enjeu est de taille car cet espace alternatif l'immuniserait contre les sanctions occidentales dans le cas d'une annexion de l'île de Taïwan. »
+
+L'hypothèse est plausible. La Chine se prépare effectivement à différents scénarios concernant Taïwan, et la construction d'une infrastructure financière alternative peut servir cet objectif. Mais la voix off ne la présente pas comme une hypothèse parmi d'autres. Elle la présente comme la motivation certaine de toute la politique financière chinoise. Les autres raisons possibles (autonomie stratégique, réduction de la dépendance au dollar, montée en puissance diplomatique) sont évacuées au profit d'une explication unique : la préparation de l'annexion.
+
+### L'objectif commun attribué
+
+À 01:25:27, la voix off achève la construction : « En créant un monde parallèle à l'abri des sanctions et en forgeant des coalitions toujours plus vastes, l'objectif pour la Chine, la Russie et l'Iran est de pouvoir enfin mener à bien leurs ambitions respectives sans se soucier des conséquences éventuelles. »
+
+La phrase prête aux trois régimes un objectif commun (« mener à bien leurs ambitions respectives ») sans citer de source primaire. Elle transforme des politiques étrangères distinctes en programme unique. Elle efface le fait que ces trois pays ont aussi des ambitions contradictoires (la Russie et l'Iran sont concurrents sur le marché de l'énergie, la Chine et la Russie ont des intérêts divergents en Asie centrale, l'Iran et la Chine n'ont pas la même vision de l'ordre régional au Moyen-Orient). L'attribution d'une intention collective unifiée est l'aboutissement logique de la chaîne : après avoir fabriqué le bloc, l'avoir militarisé et totalisé, le documentaire lui donne un plan.
+
+### Des nuances qui ne changent pas le plan
+
+Le film intègre des contre-pièces réelles. Il mentionne le coup d'État de 1953 en Iran et le soutien américain au Shah (22:47-25:00). Il reconnaît que la décision de Trump de retirer les États-Unis du JCPOA a « rapproché les trois dirigeants » et « plus que jamais accéléré leur coopération » (49:54-50:15). Un intervenant admet à 01:29:49 que « les coalitions peuvent donc être flexibles » et que la Chine courtise l'Europe pour la « faire sortir du bloc occidental. »
+
+Ces nuances existent. Elles empêchent de qualifier le film de récit entièrement manichéen ou amnésique. Mais elles n'inversent pas la direction du récit. Le coup d'État de 1953 est présenté comme un déclencheur historique lointain, pas comme une cause toujours active. La décision de Trump est décrite comme un accélérateur, pas comme une responsabilité occidentale structurelle. La flexibilité des coalitions est immédiatement recadrée comme une menace supplémentaire : la Chine tente de détacher l'Europe du bloc occidental. Les nuances sont intégrées, mais le plan reste intact.
+
+### Ce que ces cinq séquences accomplissent
+
+En une dizaine de minutes, le documentaire a doté la menace d'un projet. Il a binarisé le monde en deux blocs étanches, réécrit des décisions multilatérales en étapes d'un plan sino-russe, interprété toute la politique financière chinoise comme préparation à l'annexion de Taïwan, et attribué aux trois régimes un objectif commun sans citer de source. Les contre-pièces existent mais ne dévient pas la trajectoire.
+
+La chaîne est désormais presque complète. Le bloc a été fabriqué (Acte I). Il a été militarisé (Acte II). La guerre a été totalisée (Acte III). Les crises intérieures ont été absorbées (Acte IV). Un plan lui a été attribué (Acte V). Il ne reste plus qu'à désigner la réponse.
+
+---
+
+*Prochaine section : Produire la mobilisation.*
