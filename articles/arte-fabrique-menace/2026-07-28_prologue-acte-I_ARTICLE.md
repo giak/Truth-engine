@@ -178,4 +178,42 @@ La progression depuis l'Acte I est nette. Au début du film, la question était 
 
 ---
 
-*Prochaine section : Absorber les crises intérieures.*
+---
+
+## V. Absorber les crises intérieures
+
+La guerre est désormais totale. Tous les domaines sont des fronts. Mais il reste un problème : que faire des crises qui surviennent à l'intérieur des démocraties et qui n'ont manifestement rien à voir avec la Chine, la Russie ou l'Iran ? L'Acte IV répond à cette question en rendant l'ennemi responsable des divisions internes de l'Occident. C'est l'opération la plus subtile du documentaire : non plus étendre la menace vers l'extérieur, mais la faire pénétrer à l'intérieur des sociétés démocratiques, jusqu'à rendre indistinguables les causes endogènes et les causes exogènes des crises.
+
+### La séquence suédoise
+
+À 01:04:40, le film bascule vers la Suède. Un militant d'extrême droite brûle un Coran devant l'ambassade de Turquie à Stockholm. La voix off précise qu'il est « filmé par un journaliste affilié au réseau prorusse qui aurait financé l'opération ». Un intervenant décrit la scène comme une « mesure active » russe : « amplifier la perception d'actes contre les musulmans en organisant une mise en scène d'un Coran brûlé par un Suédois devant l'ambassade de Turquie. » Dès le lendemain, la Turquie annonce ne plus soutenir l'adhésion de la Suède à l'OTAN.
+
+L'affaire peut constituer un cas réel d'opération d'influence. Le problème n'est pas l'invraisemblance de l'opération elle-même. Il est dans ce que le montage en fait ensuite.
+
+À 01:08:14, la voix off enchaîne : « Les conséquences de ces mesures actives russes ne se feront pas attendre. » Immédiatement, le film montre un attentat islamiste contre des supporters suédois. Le raccord suggère une chaîne causale : opération russe → divisions → attentat. Une succession temporelle est présentée comme une causalité démontrée. Le spectateur n'a pas le temps de se demander si l'attentat aurait eu lieu sans l'opération russe, si d'autres facteurs ont joué, si le lien est direct ou médiatisé. Le montage a déjà répondu.
+
+C'est une compression causale. Le documentaire ne ment pas sur les faits : l'autodafé a eu lieu, le journaliste était affilié à un réseau prorusse, l'adhésion à l'OTAN a été bloquée, un attentat a suivi. Mais en les enchaînant sans distance critique, il crée une causalité que les faits, pris séparément, ne démontrent pas. Le post hoc narratif (après cela, donc à cause de cela) est l'un des procédés les plus efficaces du genre documentaire, précisément parce qu'il n'a pas besoin d'être énoncé pour opérer. Le montage suffit.
+
+### Tout ce qui fragilise
+
+À 01:07:52, un intervenant énonce un principe qui étend considérablement la portée de la démonstration : « parce que tout ce qui fragilise les démocraties renforce en retour les régimes autoritaires. »
+
+Cette phrase est un point critique du film. Elle permet de reclasser presque toute crise intérieure comme un effet ou un bénéfice de l'ennemi. Un mouvement social ? Il fragilise la démocratie, donc il renforce Pékin, Moscou et Téhéran. Une défiance envers les institutions ? Même mécanisme. Un attentat terroriste ? Idem. La perte de cohésion sociale, la polarisation politique, l'abstention électorale, la crise du logement : tous les dysfonctionnements internes des démocraties deviennent des victoires pour l'axe.
+
+Ce syllogisme n'est pas faux au sens strict. Il est absorbant. Il rend l'ennemi copropriétaire de toutes les difficultés occidentales, sans avoir à démontrer son implication dans chacune d'elles. Les causes endogènes (inégalités, corruption, mal-gouvernance, crises de représentation) disparaissent derrière une causalité géopolitique générale. Le spectateur n'est plus invité à se demander si les démocraties produisent elles-mêmes leurs propres fragilités. Il est invité à voir dans chaque fragilité la main de l'adversaire.
+
+### La guerre à mort
+
+À 01:07:57, le même intervenant conclut : « La guerre de l'information, c'est une guerre à mort entre les régimes démocratiques et les régimes autoritaires. »
+
+La formule « guerre à mort » clôt l'Acte IV sur une note d'irréversibilité. Une guerre ordinaire peut se terminer par un traité, un cessez-le-feu, une négociation. Une guerre à mort ne peut se terminer que par la disparition de l'un des deux camps. La formule ne laisse aucune place à la coexistence, à la diplomatie, à la désescalade. Elle transforme une rivalité géopolitique en lutte existentielle.
+
+### Ce que ces quatre séquences accomplissent
+
+En moins de cinq minutes, le documentaire a fait de l'ennemi le copropriétaire invisible de toutes les fragilités occidentales. Il a montré comment une opération d'influence (réelle ou présumée) peut être reliée par le montage à un attentat sans que la causalité soit démontrée. Il a établi un principe général qui permet d'attribuer à l'axe tout dysfonctionnement interne des démocraties. Et il a qualifié cette guerre de « guerre à mort », excluant toute issue autre que la défaite d'un camp.
+
+L'effet est double. Sur le plan analytique, le film rend impossible la distinction entre ce qui relève de l'action adverse et ce qui relève des dynamiques propres aux sociétés démocratiques. Sur le plan émotionnel, il installe un sentiment d'encerclement : l'ennemi n'est plus seulement aux frontières, il est à l'intérieur, dans les divisions, dans les crises, dans les doutes. La totalisation de la menace est achevée. Elle n'est plus seulement spatiale (tous les fronts) et temporelle (permanente). Elle est désormais interne.
+
+---
+
+*Prochaine section : Donner un plan à l'histoire.*
