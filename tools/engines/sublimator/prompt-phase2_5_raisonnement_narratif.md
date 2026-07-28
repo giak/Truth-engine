@@ -46,6 +46,27 @@ Le format du prompt détermine le mode cognitif du LLM :
 
 ---
 
+## Calibration stylistique — Avant de raisonner
+
+> Ces trois transformations s'appliquent à la prose du blueprint : réponses Q0-Q8, KO sentences, descriptions de sections dans les blocs A/B/C. Le blueprint n'est pas publié, mais sa clarté conditionne la qualité de la Phase 3.
+
+**Transformation 1 — Connecteurs → Asyndète**
+❌ « En effet, le rapport montre que la thèse T3 est la plus solide. Par ailleurs, les surprises confirment cette orientation. »
+✅ « La thèse T3 absorbe le plus de faits. Les surprises la renforcent. »
+*Principe : supprimer les connecteurs logiques. Laisser la ponctuation et l'ordre des phrases porter le raisonnement.*
+
+**Transformation 2 — Périphrase → Densité**
+❌ « C'est une tension qui structure l'ensemble du matériau. »
+✅ « Cette tension structure le matériau. »
+*Principe : remplacer « C'est un X qui... » par une construction directe. Le raisonnement gagne en densité.*
+
+**Transformation 3 — Flou → Précision**
+❌ « Le rapport suggère que le verrou est à la fois institutionnel et culturel. »
+✅ « Le rapport Phase 2 documente un verrou institutionnel (4 articles, 237 ans). Il suggère aussi un verrou culturel (indifférence à 12x). Les deux ne sont pas au même niveau de preuve. »
+*Principe : distinguer ce qui est documenté de ce qui est inféré. Ne pas aplatir les niveaux de certitude.*
+
+---
+
 ## Questions de raisonnement (répondre dans l'ordre)
 
 Chaque réponse : 1 à 5 phrases maximum. Pas de listes exhaustives. Pas de copie du rapport. **Reformuler avec ses propres mots.**
@@ -210,7 +231,10 @@ Quintessences-contexte (transition/note contextuelle) :
 8. **Zéro em-dash.** Utiliser « : », « - », parenthèses.
 9. **VÉRIFIABILITÉ DES KO SENTENCES.** Toute KO sentence doit être directement vérifiable depuis le rapport Phase 2 SANS inférence intermédiaire. Une KO sentence qui contient « propagande », « zéro », « jamais », ou « tous » sans que le rapport Phase 2 n'établisse DIRECTEMENT ce fait est un drapeau rouge. Règle : si un lecteur peut répondre « pas exactement » ou « c'est plus compliqué » à une KO sentence, la reformuler.
 10. **DISTINCTION DES NIVEAUX PROBATOIRES.** Distinguer systématiquement entre six niveaux : (1) relations institutionnelles documentées, (2) dépendances financières potentielles, (3) influence éditoriale observée, (4) coordination démontrée, (5) intention imputée, (6) effet mesuré sur le public. Ne jamais sauter de (1) à (5) ou (6) en une phrase. Si le rapport Phase 2 ne dépasse pas le niveau (2), le blueprint ne peut pas affirmer les niveaux (3)-(6).
+  **Lexique de gradation** (pour distinguer les niveaux dans la prose du blueprint) : « est documenté par »/« établit que » (niveau 1), « corrobore »/« converge vers » (niveau 2), « suggère que » (niveau 3), « est compatible avec l'hypothèse que » (niveau 4), « rien n'exclut que »/« pourrait indiquer que » (niveau 5), « X affirme sans preuve publique que »/« selon une source unique non recoupée » (niveau 6). Interdiction : utiliser « démontre » ou « prouve » pour les niveaux 2-6.
 11. **USAGE DU MOT « PROPAGANDE ».** Si le mot « propagande » apparaît dans les KO sentences ou le §7, le blueprint doit expliciter quels critères spécifiques sont satisfaits par le matériau Phase 2 : sélection systématique des faits dans une direction persuasive, asymétrie stable des statuts de parole, procédés narratifs de dramatisation, éviction d'explications concurrentes pertinentes, finalité de mobilisation ou de légitimation identifiable. Si ≥3 de ces critères ne sont pas documentés dans le rapport, remplacer « propagande » par « produit de cadrage de la menace » ou « documentaire inscrit dans un écosystème aux dépendances documentables. »
+12. **PROPRETÉ DE LA LANGUE.** Proscrire les anglicismes : « implémenter » → « mettre en œuvre », « digital » → « numérique », « adresser » → « traiter », « basé sur » → « fondé sur », « focus » → « centrer »/« privilégier ». Proscrire les tics LLM : « Il est important de noter que », « D'une part... d'autre part », « Force est de constater que », « C'est un X qui... » (remplacer par construction directe).
+13. **RYTHME DU RAISONNEMENT.** Dans les réponses Q0-Q8 et les KO sentences : supprimer ≥50 % des connecteurs logiques (asyndète). La logique est portée par la ponctuation et l'ordre des phrases, pas par des « En effet »/« Ainsi ». Varier la longueur : alterner phrases denses (20-30 mots) et phrases courtes (5-12 mots).
 
 ---
 
@@ -240,6 +264,15 @@ Le blueprint est présenté à l'utilisateur qui peut :
 - **E** (explorer) : tester un angle alternatif, une thèse concurrente.
 
 **Une seule passe.** Pas de régénération sans action humaine.
+
+### Passe de serrage (avant écriture du blueprint)
+
+Avant d'écrire le fichier `blueprint_narratif.md`, relire les réponses Q0-Q8 et les KO sentences. Appliquer une passe rapide :
+1. Supprimer les connecteurs superflus (asyndète).
+2. Raccourcir toute phrase de ≥25 mots.
+3. Vérifier que chaque KO sentence est vérifiable sans inférence (Contrainte 9).
+4. Vérifier que le lexique de gradation est utilisé correctement (Contrainte 10).
+5. Supprimer anglicismes et tics (Contrainte 12).
 
 ---
 
