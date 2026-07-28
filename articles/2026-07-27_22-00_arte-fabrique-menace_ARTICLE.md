@@ -18,7 +18,7 @@ L'analyse qui suit examine comment le film procède. Elle ne démontre pas que l
 
 ---
 
-**Limite de méthode.** Les passages examinés dans cet article ne constituent ni un recensement exhaustif des affirmations du documentaire ni un échantillon statistiquement représentatif. Ils ont été sélectionnés parce qu'ils permettent d'observer plusieurs mécanismes précis de transformation des faits. L'article établit l'existence de ces mécanismes dans les séquences étudiées ; il ne mesure pas encore leur fréquence dans l'ensemble des quatre-vingt-quatorze minutes du film.
+**Limite de méthode.** Les passages examinés dans cet article ne constituent ni un recensement exhaustif ni un échantillon statistiquement représentatif des affirmations du documentaire. Ils ont été sélectionnés parce qu'ils permettent d'observer plusieurs mécanismes précis de transformation des faits. L'article établit l'existence de ces mécanismes dans les séquences étudiées ; il ne mesure pas encore leur fréquence dans l'ensemble des quatre-vingt-quatorze minutes du film.
 
 ---
 
@@ -46,9 +46,9 @@ Ces problèmes ne sont pas de même nature. Les regrouper sous une étiquette un
 
 **Les « 52 pays ». À 06:30, la voix off affirme : « Le 2 mars 2022, 52 pays sur 193 ne condamnent pas l'agression russe. » Le film parle d'un « silence assourdissant ». [4]**
 
-Le vote de l'Assemblée générale des Nations unies sur la résolution ES-11/1 était de 141 voix pour, 5 contre et 35 abstentions. Douze pays n'ont pas participé au vote. Le chiffre de 52 additionne trois comportements politiquement distincts : voter contre (5), s'abstenir (35), ne pas participer (12). Une abstention, une absence et un soutien explicite à Moscou ne sont pas équivalents. L'agrégation les fond dans une masse unique de « 52 pays » présentés comme une masse cohérente de refus de condamner Moscou. [5]
+Le vote de l'Assemblée générale des Nations unies sur la résolution ES-11/1 était de 141 voix pour, 5 contre et 35 abstentions. Douze pays n'ont pas participé au vote. Le chiffre de 52 additionne trois comportements politiquement distincts. Cinq votes contre. Trente-cinq abstentions. Douze absences. Une seule masse. [5]
 
-Ce procédé n'est pas une simple imprécision. Il produit, dès les premières minutes du film, un effet politique : cinq votes contre (dont celui de la Russie elle-même), trente-cinq abstentions et douze absences deviennent une masse indistincte de cinquante-deux États. L'agrégation efface les motivations différentes de ces comportements et amplifie l'image d'un refus mondial de condamner Moscou.
+Ce procédé produit, dès les premières minutes du film, un effet politique : cinq votes contre (dont celui de la Russie elle-même), trente-cinq abstentions et douze absences deviennent une masse indistincte de cinquante-deux États. L'agrégation efface les motivations différentes de ces comportements et amplifie l'image d'un refus mondial de condamner Moscou.
 
 **L'unanimité qui n'en était pas une. À 13:18, la voix off affirme que les principes du droit international « faisaient l'unanimité après la Seconde Guerre mondiale. » [4]**
 
@@ -80,7 +80,7 @@ L'acronyme BRIC a été formulé en 2001 par l'économiste Jim O'Neill de Goldma
 
 **La formule infalsifiable. À partir de 51:14, le film affirme que les trois pays mènent « ensemble ou séparément une guerre hybride totale » contre les démocraties. [4]**
 
-Cette phrase n'est pas une erreur. Elle est plus grave : elle empêche de distinguer ce qui prouve une coordination de ce qui relève d'une convergence parallèle ou d'une politique nationale autonome. Lorsque les trois pays coordonnent une action, elle prouve l'axe. Lorsqu'ils agissent séparément, elle prouve encore l'axe. Lorsqu'ils poursuivent des intérêts divergents, ce sont différents fronts d'une même guerre. La formule rend ainsi difficile la falsification de la version forte de l'axe.
+Cette phrase n'est pas une erreur. Elle est plus grave : elle empêche de distinguer ce qui prouve une coordination de ce qui relève d'une convergence parallèle ou d'une politique nationale autonome. Lorsque les trois pays coordonnent une action, elle prouve l'axe. Lorsqu'ils agissent séparément, elle prouve encore l'axe. Lorsqu'ils poursuivent des intérêts divergents, ce sont différents fronts d'une même guerre. Coordination, convergence, autonomie. La formule absorbe tout.
 
 La guerre en Iran de février 2026 constitue un test empirique de la version forte de la thèse, celle d'un axe solidaire organisant un partage des risques existentiels. Téhéran est attaqué, ni Moscou ni Pékin n'engagent de forces dans une défense militaire directe. Mais ce test ne réfute pas les versions plus faibles : coopération, aide technique, alignement diplomatique, convergence anti-occidentale. Leur soutien ne s'est pas limité à la diplomatie : des livraisons d'armes, des composants, des données ou une assistance russe en renseignement ont été rapportés, avec une ampleur encore discutée. [11] Dans le système interprétatif du documentaire, la non-intervention directe peut être absorbée sans difficulté : les partenaires auraient choisi d'aider autrement.
 
@@ -140,6 +140,8 @@ Les pétromonarchies du Golfe sont des alliés de sécurité des États-Unis qui
 
 Ces acteurs ne sont ni dans l'axe, ni dans l'Occident. Leur comportement détruit la géométrie binaire.
 
+Ni axe, ni Occident. Le monde réel.
+
 ### Les pratiques occidentales comparables
 
 Dans les séquences examinées, les catégories d'ingérence et de désinformation sont principalement appliquées aux adversaires. Un documentaire centré sur trois États n'est pas tenu de retracer toutes les interventions occidentales. Mais lorsqu'une catégorie se présente comme universelle, l'absence de comparaison avec des pratiques occidentales fonctionnellement analogues produit une asymétrie analytique.
@@ -156,7 +158,7 @@ Son analyse révèle néanmoins un mécanisme qui éclaire l'ensemble du film : 
 
 ### Une catégorie politique, pas juridique
 
-« Flotte fantôme » n'est pas un statut juridique universel. C'est une expression utilisée par les gouvernements occidentaux et les autorités de sanctions pour désigner un ensemble hétérogène de navires. Le Royaume-Uni reconnaît explicitement que certains de ces navires peuvent être conformes aux lois applicables ou ne pas être couverts par les sanctions en question. [23]
+« Flotte fantôme » n'est pas un statut juridique universel. Expression utilisée par les gouvernements occidentaux et les autorités de sanctions pour désigner un ensemble hétérogène de navires. Le Royaume-Uni reconnaît explicitement que certains de ces navires peuvent être conformes aux lois applicables ou ne pas être couverts par les sanctions en question. [23]
 
 La catégorie rassemble sous un même label des bâtiments très différents :
 1. des navires frauduleux (faux pavillons, documents falsifiés) ;
@@ -195,13 +197,15 @@ La catégorie politique de flotte fantôme sert à sélectionner des navires pri
 
 L'enquête établit que la catégorie « flotte fantôme » n'est pas juridique mais politique, qu'elle agrège des navires aux statuts différents, et qu'une doctrine d'arraisonnement coordonnée s'est intensifiée à partir de 2025. Le film participe à la diffusion d'une catégorie déjà présente dans le discours des sanctions. L'intensification ultérieure des arraisonnements montre que cette même catégorie a acquis une fonction opérationnelle croissante. Aucun lien causal propre au documentaire n'est établi.
 
-L'inscription dans cette catégorie augmente la probabilité d'une surveillance renforcée et de la recherche d'un motif juridique individualisé permettant une intervention. Une doctrine de ciblage et d'entrave sous contrôle formel du droit de la mer, dont la latitude politique s'est accrue sans constituer encore un blanc-seing juridique.
+L'inscription dans cette catégorie augmente la probabilité d'une surveillance renforcée. Elle conduit à la recherche d'un motif juridique individualisé permettant une intervention. Une doctrine de ciblage et d'entrave sous contrôle formel du droit de la mer, dont la latitude politique s'est accrue sans constituer encore un blanc-seing juridique.
 
 ---
 
 ## VII. Conclusion
 
-Le rapprochement entre la Chine, la Russie et l'Iran est réel et produit des effets stratégiques. Le documentaire ne l'invente pas. Il documente des faits établis : exercices militaires, transferts d'armes, intégration énergétique, alignement institutionnel.
+Le rapprochement entre la Chine, la Russie et l'Iran est réel et produit des effets stratégiques. Le documentaire ne l'invente pas.
+
+Il documente des faits établis : exercices militaires, transferts d'armes, intégration énergétique, alignement institutionnel.
 
 Mais il ne se contente pas de les documenter. Il les transforme.
 
@@ -209,7 +213,11 @@ Il agrège des comportements distincts (votes pour, abstentions, absences) en ma
 
 Ces éléments démontrent un cadrage orienté. Ils ne démontrent ni commande industrielle ni intention coordonnée de tromper. Le terme « propagande » exigerait la preuve d'une finalité intentionnelle de mobilisation que les données disponibles n'établissent pas.
 
-La qualification la plus précise est celle d'une enquête géopolitique fermée par un cadrage sécuritaire : des coopérations réelles sont agrégées en menace totale, puis reliées à une réponse militaire présentée comme naturelle. Le film utilise les outils du journalisme (archives, données, experts, pluralité apparente) non pour ouvrir l'enquête, mais pour guider le spectateur vers une conclusion que son synopsis annonçait déjà.
+La qualification la plus précise est celle d'une enquête géopolitique fermée par un cadrage sécuritaire : des coopérations réelles sont agrégées en menace totale, puis reliées à une réponse militaire présentée comme naturelle.
+
+Le film utilise les outils du journalisme non pour ouvrir l'enquête, mais pour guider le spectateur vers une conclusion que son synopsis annonçait déjà.
+
+Journalisme à l'envers. La conclusion précède l'enquête.
 
 ---
 
