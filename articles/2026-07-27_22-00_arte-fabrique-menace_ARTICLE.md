@@ -4,7 +4,7 @@
 
 ---
 
-Le documentaire de Sophie Lepault (94 minutes, produit par CC&C–Mediawan en coproduction avec Arte G.E.I.E., avec la participation de LCP et Radio-Canada [31]) se présente comme une enquête. Il accumule les preuves du rapprochement entre Pékin, Moscou et Téhéran : exercices militaires conjoints, transports pétroliers russes, livraisons de drones iraniens, admission de l'Iran à l'OCS, déclarations officielles.
+Le documentaire de Sophie Lepault (94 minutes, produit par CC&C Mediawan en coproduction avec Arte G.E.I.E., avec la participation de LCP et Radio-Canada [31]) se présente comme une enquête. Il accumule les preuves du rapprochement entre Pékin, Moscou et Téhéran : exercices militaires conjoints, transports pétroliers russes, livraisons de drones iraniens, admission de l'Iran à l'OCS, déclarations officielles.
 
 Cet article s'appuie sur le transcript automatique du documentaire pour l'identification des affirmations et des timecodes. Les citations exactes n'ont pas toutes été vérifiées à l'oreille contre la bande sonore originale. Les timecodes sont indicatifs.
 
@@ -104,7 +104,7 @@ Le dispositif du documentaire ne repose pas seulement sur ce qu'il dit. Il repos
 
 La page officielle d'Arte décrit le film comme mobilisant « de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées ». [2] Cette présentation définit, dans le paratexte, deux catégories de locuteurs aux statuts différents : d'un côté les analystes qui expliquent, de l'autre les officiels dont les propos sont désignés comme « offensifs ».
 
-Cette asymétrie est documentée dans la communication d'Arte elle-même. Elle ne peut pas encore être démontrée comme systématique dans le montage audiovisuel sans un relevé scène par scène établissant le temps de parole, la distribution du dernier mot, la nature des plans associés à chaque intervenant et le traitement des voix non occidentales qui ne sont pas des officiels. Le film comprend par ailleurs plusieurs interlocuteurs non occidentaux aux statuts variés [32], dont le traitement audiovisuel n'a pas été codé.
+Cette asymétrie est documentée dans la communication d'Arte elle-même. Ce mécanisme — la distribution inégale de l'autorité narrative entre des « analystes » qui expliquent et des « officiels » dont les propos sont désignés comme « offensifs » — n'est pas propre à ce documentaire. **[📻 Médias, censure et désinformation : l'architecture du silence](https://giak.substack.com/p/medias-censure-et-desinformation)** en a analysé les ressorts structurels dans le paysage médiatique français. L'asymétrie audiovisuelle ne peut pas encore être démontrée comme systématique dans le montage audiovisuel sans un relevé scène par scène établissant le temps de parole, la distribution du dernier mot, la nature des plans associés à chaque intervenant et le traitement des voix non occidentales qui ne sont pas des officiels. Le film comprend par ailleurs plusieurs interlocuteurs non occidentaux aux statuts variés [32], dont le traitement audiovisuel n'a pas été codé.
 
 L'asymétrie du paratexte est établie. L'asymétrie audiovisuelle systématique reste à démontrer.
 
@@ -233,7 +233,7 @@ Le documentaire mobilise une vingtaine d'intervenants [32]. Cette annexe documen
 
 Ces financements sont documentés pour la période postérieure au film. L'enquête n'établit aucun lien causal entre les financements et le contenu du documentaire, ni d'intention coordonnée.
 
-Le film s'inscrit plus largement dans un environnement politique marqué par un débat public sur l'augmentation des budgets de défense européens. Selon l'estimation IRIS reprise par le rapport Draghi, sur le périmètre étudié entre juin 2022 et juin 2023, 78 % des dépenses d'acquisition allaient à des fournisseurs non européens, dont 63 % à des fournisseurs américains. L'IISS, sur une base plus large intégrant les acquisitions nationales, évalue la part américaine à 34 % jusqu'en septembre 2024 et à environ 36 % jusqu'à mi-2025. [16] [17] Ces données sont mentionnées à titre de contexte macroéconomique, sans lien établi avec le documentaire.
+Le film s'inscrit plus largement dans un environnement politique marqué par un débat public sur l'augmentation des budgets de défense européens. Cette dynamique budgétaire, sa dépendance aux fournisseurs non européens et ses conséquences sur l'autonomie stratégique française ont été documentées par **[⚔️ La Défense rongée : 449 Md€ sans munitions, 101 voyages ELNET, 24 pays sans standard français](https://giak.substack.com/p/la-defense-rongee-la-defense-ronge)**. Selon l'estimation IRIS reprise par le rapport Draghi, sur le périmètre étudié entre juin 2022 et juin 2023, 78 % des dépenses d'acquisition allaient à des fournisseurs non européens, dont 63 % à des fournisseurs américains. L'IISS, sur une base plus large intégrant les acquisitions nationales, évalue la part américaine à 34 % jusqu'en septembre 2024 et à environ 36 % jusqu'à mi-2025. [16] [17] Ces données sont mentionnées à titre de contexte macroéconomique, sans lien établi avec le documentaire.
 
 ---
 
