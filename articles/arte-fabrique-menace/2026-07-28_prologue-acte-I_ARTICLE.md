@@ -327,3 +327,79 @@ La qualification la plus précise est celle-ci : des coopérations réelles sont
 Le cas Arte ne démontre pas que tous les médias occidentaux obéissent à un centre unique. Il met au jour un mécanisme plus moderne et plus inquiétant : des acteurs distincts, partageant les mêmes sources, les mêmes experts et les mêmes limites du dicible, peuvent produire le même monde sans avoir besoin de se coordonner. La propagande contemporaine n'a plus toujours besoin d'un ministère. Un écosystème peut suffire.
 
 ---
+
+## Sources
+
+**1.**  Déclaration conjointe Xi-Poutine, 4 février 2022. URL : https://en.kremlin.ru/supplement/5770. Admission de l'Iran à l'OCS, Communiqué du sommet de New Delhi, 4 juillet 2023. URL : https://eng.sectsco.org/20230704/declaration-of-the-council-of-heads-of-state-of-the-shanghai-cooperation-organization-114525/.
+
+**2.**  Arte, page officielle du documentaire. URL : https://www.arte.tv/fr/videos/114207-000-A/russie-chine-iran-la-revanche-des-empires/. Texte exact : « Ils mobilisent de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées. » Consulté le 27 juillet 2026. IFRI, page reprenant la présentation officielle. URL : https://www.ifri.org/fr/espace-media/actus-ifri/russie-chine-iran-revanche-empires. Synopsis du producteur CC&C. URL : https://www.cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires. « Leur objectif commun : mettre un terme à l'hégémonie occidentale [...] Pour y arriver, ils mènent contre les démocraties une guerre hybride. »
+
+**3.**  White House, point de presse de Jake Sullivan, 11 juillet 2022. AP News, « White House: Iran set to deliver armed drones to Russia ». URL : https://apnews.com/article/russia-ukraine-biden-iran-jake-sullivan-4a9f1b2749893d8f1ed9f039869cf119. UK Ministry of Defence, Defence Intelligence update, 25 février 2023. URL : https://x.com/DefenceHQ/status/1629374055152332801. Responsables américains et britanniques, déclarations publiques sur le déploiement de personnel iranien en Crimée, 2022-2023. Institute for the Study of War, analyses thématiques sur la coopération militaire irano-russe, 2023. URL : https://understandingwar.org/backgrounder/iran-update-special-report-november-9-2023.
+
+**4.**  Transcription automatique du documentaire (diarisation pyannote + faster-whisper). Repères temporels localisés automatiquement puis contrôlés dans le fichier de transcription. Arte, « Russie, Chine, Iran : la revanche des empires », rediffusion YouTube du 16 janvier 2026. URL : https://www.youtube.com/watch?v=WLx6C3FrGJU.
+
+**5.**  Assemblée générale des Nations unies, résolution ES-11/1, 2 mars 2022 : 141 pour, 5 contre, 35 abstentions, 12 non-participants. URL : https://digitallibrary.un.org/record/3965290.
+
+**6.**  Déclaration universelle des droits de l'homme, vote du 10 décembre 1948 : 48 pour, 0 contre, 8 abstentions (URSS, RSS de Biélorussie, Tchécoslovaquie, Pologne, RSS d'Ukraine, Yougoslavie, Arabie saoudite, Union sud-africaine), 2 absents. Procès-verbal de l'Assemblée générale, 183e séance plénière. URL : https://digitallibrary.un.org/record/666853.
+
+**7.**  S&P Global Commodity Insights, « CHINA DATA: Russian crude imports up 24% to 2.15 mil b/d in 2023 », 22 janvier 2024. URL : https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/crude-oil/012224-china-data-russian-crude-imports-up-24-to-215-mil-bd-in-2023. Données de l'administration générale des douanes de la République populaire de Chine.
+
+**8.**  AIEA, « NPT Safeguards Agreement with the Islamic Republic of Iran », rapport du directeur général au Conseil des gouverneurs, GOV/2024/62, 19 novembre 2024. URL : https://www.iaea.org/sites/default/files/24/11/gov2024-62.pdf. Le rapport documente la présence de matières nucléaires non déclarées et l'absence d'explications crédibles de la part de l'Iran, sans déclarer l'ensemble du programme nucléaire iranien illégal. L'Iran reste partie au TNP (Traité sur la non-prolifération des armes nucléaires) et conserve un accord de garanties avec l'AIEA.
+
+**9.**  Charte de l'Organisation de coopération de Shanghai, signée le 7 juin 2002. URL : https://www.refworld.org/legal/constinstr/asia/2002/en/150194.
+
+**10.**  Zbigniew Brzezinski, *The Grand Chessboard: American Primacy and Its Geostrategic Imperatives*, Basic Books, 1997. La prédiction d'un « axe » sino-russe-iranien est citée par le documentaire à 00:36:55.
+
+**11.**  Nils Adler, « Where are Iran's allies? Why Moscow, Beijing are keeping their distance », Al Jazeera, 5 mars 2026. URL : https://www.aljazeera.com/features/2026/3/5/where-are-irans-allies-why-moscow-beijing-are-keeping-their-distance. Al Jazeera, « How extensive is Russia's military aid to Iran? », 27 mars 2026. URL : https://www.aljazeera.com/news/2026/3/27/how-extensive-is-russias-military-aid-to-iran.
+
+**12.**  CEPA (Center for European Policy Analysis), « Our Supporters ». URL : https://cepa.org/about-cepa/our-supporters/. Liste des soutiens pour l'année fiscale 2025 incluant Lockheed Martin Corporation, American Rheinmetall Defense et General Atomics. Consulté le 27 juillet 2026.
+
+**13.**  IFRI (Institut français des relations internationales), « Donateurs ». URL : https://www.ifri.org/fr/donateurs. Donateurs incluant Thales, KNDS, MBDA, Naval Group, Safran, SGDSN. Consulté le 27 juillet 2026.
+
+**14.**  IRSEM (Institut de recherche stratégique de l'École militaire), présentation officielle. URL : https://www.irsem.fr. Organisme du ministère des Armées, rattaché à la Direction générale des relations internationales et de la stratégie (DGRIS).
+
+**15.**  Agence internationale de l'énergie, rapports mensuels sur le marché pétrolier, 2023-2024. URL : https://www.iea.org/reports/oil-market-report-december-2024. Données douanières chinoises sur les exportations de semi-conducteurs vers la Russie, 2023-2024.
+
+**16.**  Quad (Quadrilateral Security Dialogue), déclarations officielles, 2023-2026. URL : https://www.dfat.gov.au/international-relations/regional-architecture/quad. OCS, membres permanents incluant l'Inde depuis 2017. URL : https://eng.sectsco.org/members/.
+
+**17.**  Narendra Modi à Vladimir Poutine, sommet de l'OCS, Samarcande, 16 septembre 2022. URL : https://www.mea.gov.in/Speeches-Statements.htm?dtl/35726.
+
+**18.**  Banque des règlements internationaux, « Project mBridge reaches minimum viable product stage », 5 juin 2024. URL : https://www.bis.org/press/p240605.htm.
+
+**19.**  Banque populaire de Chine et banque centrale saoudienne, accord de swap de 50 milliards de yuans, 2023. URL : https://www.reuters.com/markets/currencies/china-saudi-arabia-central-banks-sign-local-currency-swap-agreement-2023-11-20/.
+
+**20.**  Price Cap Coalition, « Oil Price Cap Compliance and Enforcement Alert », décembre 2024. URL : https://www.gov.uk/government/publications/russian-oil-services-ban/price-cap-coalition-oil-price-cap-opc-compliance-and-enforcement-alert.
+
+**21.**  U.S. Department of the Treasury, guidance on the Russian oil price cap, 2024. URL : https://ofac.treasury.gov/media/933506/download.
+
+**22.**  Emmanuel Macron, sommet de la Communauté politique européenne, Danemark, 2 octobre 2025. URL : https://www.elysee.fr/emmanuel-macron/2025/10/02/sommet-de-la-communaute-politique-europeenne-au-danemark.
+
+**23.**  Reuters, « Estonia releases Russia-bound oil tanker », 28 avril 2025. URL : https://www.reuters.com/world/europe/estonia-releases-russia-bound-oil-tanker-2025-04-28/.
+
+**24.**  Ministère des Armées, points de situation des opérations, 2025-2026. URL : https://www.defense.gouv.fr/operations. AP News, « French navy intercepts tanker suspected of being part of Russia's shadow fleet », janvier 2026. URL : https://apnews.com/article/france-russia-tanker-intercepted-shadow-fleet-e8a24c4cebf73bc2f7097ef3ae6c344d. Pour le Deyna : point de situation du 19 au 26 mars 2026. Pour le Deliver : point de situation du 18 au 25 juin 2026.
+
+**25.**  Coalition des volontaires, déclaration du 13 juillet 2026. URL : https://www.elysee.fr/emmanuel-macron/2026/07/13/sommet-de-la-coalition-des-volontaires-a-paris.
+
+**26.**  Convention des Nations unies sur le droit de la mer, article 110. URL : https://www.un.org/depts/los/convention_agreements/texts/unclos/part7.htm.
+
+**27.**  Code de la défense, articles L1521-1 à L1521-9 (police en mer, dont L1521-9 pour le refus d'obtempérer). URL : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071307/LEGISCTA000006182638/.
+
+**28.**  CC&C, fiche de production. URL : https://www.cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires. « Production : CC&C Mediawan – ARTE G.E.I.E. », « Diffuseurs : Arte, LCP, Radio Canada ». Consulté le 27 juillet 2026.
+
+**29.**  IMDb, « Russie, Chine, Iran - La revanche des empires (TV Movie 2024) - Full cast & crew ». URL : https://www.imdb.com/title/tt32465670/fullcredits. Consulté le 27 juillet 2026. Intervenants non occidentaux incluant Tian Feilong, Liu Mingfu, Victor Gao, Hossein Kanani Moghaddam, Mostafa Khoshcheshm, Abolfazl Amouei.
+
+**30.**  Financial Times, « How Dubai became 'the new Geneva' for Russian oil trade », 18 juillet 2023. URL : https://www.ft.com/content/7ac92047-b306-49d0-9811-ddde5c916dd6.
+
+**31.**  Préfecture maritime de l'Atlantique, « Fin de l'immobilisation du pétrolier TAGOR en baie de Douarnenez », 2 juillet 2026. URL : https://www.premar-atlantique.gouv.fr/communiques-presse/fin-de-l-immobilisation-du-petrolier-tagor-en-baie-de-douarnenez. Le Monde, « Flotte fantôme russe : un nouveau pétrolier, le Tagor, arraisonné dans l'Atlantique par la France », 1er juin 2026. URL : https://www.lemonde.fr/international/article/2026/06/01/flotte-fantome-russe-un-nouveau-petrolier-le-tagor-arraisonne-dans-l-atlantique-par-la-france_6695955_3210.html. Ifri, « Lutter contre la flotte fantôme. La France en action », 29 juin 2026. URL : https://www.ifri.org/fr/notes/lutter-contre-la-flotte-fantome-la-france-en-action.
+
+**32.**  Diarisation automatique du documentaire via pyannote.audio (segmentation des locuteurs) et faster-whisper (modèle medium, int8, transcription). 47 clusters de locuteurs identifiés, 1 241 segments, 74,4 minutes de temps de parole. SPEAKER_10 (narrateur principal) : 418 segments, 24,7 minutes, identifié avec une confiance élevée. Les identifiants techniques ne sont pas assimilés à des personnes physiques sans vérification audiovisuelle.
+
+---
+
+## Annexe
+
+Affiliations publiques de certains intervenants, pour les seules institutions dont les données de financement sont disponibles. Ces affiliations, parfois postérieures à la diffusion, ne démontrent aucun lien causal avec le contenu du film.
+
+- **CEPA** (Center for European Policy Analysis). Représenté par sa présidente Alina Polyakova. Déclarait en 2025 parmi ses soutiens Lockheed Martin, American Rheinmetall Defense et General Atomics [12].
+- **IFRI** (Institut français des relations internationales). Représenté par Héloïse Fayet. Comptait en 2026 parmi ses donateurs Thales, KNDS, MBDA, Naval Group, Safran et le SGDSN [13].
+- **IRSEM** (Institut de recherche stratégique de l'École militaire). Représenté par Paul Charon. Dépend du ministère des Armées [14].
