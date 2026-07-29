@@ -52,7 +52,7 @@ Les **citoyens** sont des personnes réelles, titulaires de droits et de devoirs
 
 La **Nation** est une personne politique abstraite. Elle ne se réduit ni aux électeurs du jour, ni à une génération, ni à l'addition des intérêts particuliers. Elle permet de penser une volonté commune continue, au-delà des individus présents.
 
-Le **peuple**, dans l'ordre constitutionnel, désigne notamment le corps des citoyens lorsqu'il est juridiquement constitué pour exercer la souveraineté : lors d'une élection ou d'un référendum. Dans cet article, j'appelle **peuple décidant** le corps électoral lorsqu'il est juridiquement constitué pour produire une décision par l'élection ou le référendum.
+Le **peuple**, dans l'ordre constitutionnel, désigne notamment le corps des citoyens lorsqu'il est juridiquement constitué pour exercer la souveraineté : lors d'une élection ou d'un référendum.
 
 Ces réalités se recouvrent sans se confondre.
 
@@ -101,7 +101,7 @@ Une exception importante empêche de caricaturer ce constat. À l'occasion d'un 
 
 Il existe par ailleurs des droits d'impulsion qu'il faut distinguer de l'initiative décisionnelle. Une pétition peut saisir le Conseil économique, social et environnemental ; les assemblées parlementaires disposent de plateformes pouvant conduire à un débat ; au niveau local, l'article 72-1 permet de demander l'inscription d'une question à l'ordre du jour. Ces mécanismes peuvent obliger à recevoir, examiner ou répondre. Aucun ne permet à un seuil de citoyens de provoquer, à lui seul, un vote populaire national sur une loi ou une révision constitutionnelle.
 
-L'article 27 déclare nul tout mandat impératif. Le parlementaire n'est pas juridiquement tenu d'exécuter le programme sur lequel il a été élu, ni les instructions ultérieures de ses électeurs. L'article 27 protège la liberté de vote du parlementaire contre toute instruction juridiquement obligatoire. Séparément, le droit français ne prévoit aucune procédure permettant aux électeurs de mettre fin à son mandat avant l'échéance. Le mandat est donc libre dans son contenu et protégé dans sa durée, hors les causes de cessation prévues par le droit.
+L'article 27 déclare nul tout mandat impératif, protégeant ainsi la liberté de vote du parlementaire contre toute instruction juridiquement obligatoire. Séparément, le droit français ne prévoit aucune procédure de révocation anticipée. Le mandat est donc libre dans son contenu et protégé dans sa durée, hors les causes de cessation prévues par le droit.
 
 L'article 89 réserve l'initiative de la révision constitutionnelle au président de la République, sur proposition du Premier ministre, et aux membres du Parlement. Le peuple peut être appelé à ratifier une révision. Il ne peut pas l'engager.
 
@@ -175,7 +175,7 @@ Conflit d'intérêts institutionnel. Nullement moral.
 
 Il n'exige ni corruption, ni complot, ni consigne secrète. Il suffit que ceux qui contrôlent l'agenda conservent le droit exclusif de décider s'ils le partageront.
 
-Aucune conspiration nécessaire. L'architecture suffit, comme l'a documenté **🔄 [Le changement de régime](https://giak.substack.com/p/le-changement-de-regime-pourquoi)**.
+L'architecture suffit, comme l'a documenté **🔄 [Le changement de régime](https://giak.substack.com/p/le-changement-de-regime-pourquoi)**.
 
 ---
 
@@ -366,11 +366,9 @@ Le second consiste à faire de la France une anomalie unique, comme si toute dé
 - **Suisse fédérale.** 100 000 signatures en 18 mois pour une initiative constitutionnelle, 50 000 en 100 jours pour un référendum facultatif. Le peuple peut proposer une révision constitutionnelle et demander le vote sur certains actes. Limites : contrôles de validité, double majorité pour la Constitution, pas d'initiative législative fédérale générale équivalente.
 - **Italie.** 500 000 électeurs pour un référendum abrogatif, 50 000 pour une proposition de loi populaire. Le peuple peut abroger totalement ou partiellement une loi et déposer un texte au Parlement. Limites : matières exclues, contrôle d'admissibilité, quorum pour l'abrogatif.
 - **Bavière.** Un dixième des électeurs pour soutenir un projet de loi populaire. Le peuple peut provoquer un référendum législatif au niveau du Land. Limites : budget exclu, mécanisme infranational.
-- **Irlande.** Initiative institutionnelle au Parlement. Tout amendement constitutionnel doit être approuvé par référendum. Limites : les citoyens ne peuvent déclencher seuls la révision.
+- **Irlande.** Initiative institutionnelle au Parlement : seule une proposition issue du Dáil peut être soumise au peuple. Tout amendement constitutionnel doit être approuvé par référendum. Limites : les citoyens ne peuvent déclencher seuls la révision.
 - **Allemagne fédérale.** Pas d'initiative législative citoyenne générale. Votes directs surtout dans les Länder, exception fédérale liée à la réorganisation territoriale. Limites : modèle fédéral national fortement représentatif.
 - **Royaume-Uni.** Référendums autorisés au cas par cas par le Parlement. Le peuple décide politiquement lorsque le scrutin est organisé. Limites : aucun droit citoyen général de déclenchement.
-
-Les seuils suisses sont détaillés par la Chancellerie fédérale. Le référendum abrogatif italien est prévu par l'article 75 de la Constitution, et l'initiative législative populaire par son article 71. La Constitution bavaroise prévoit que les lois peuvent être adoptées par le peuple et qu'un dixième des électeurs peut soutenir un projet, hors budget. En Irlande, toute proposition de révision doit partir du Dáil avant d'être obligatoirement soumise au peuple, selon la procédure de l'Oireachtas. Au niveau fédéral allemand, le vote direct est essentiellement prévu pour la réorganisation territoriale, tandis que les Länder disposent de mécanismes plus étendus ; au Royaume-Uni, les référendums nationaux restent organisés au cas par cas par le Parlement.
 
 Aucun modèle ne réalise une souveraineté populaire pure. Tous répartissent différemment quatre pouvoirs :
 
@@ -430,7 +428,7 @@ Le système n'est pas gardé par une caste immuable réunie dans une pièce.
 
 Il est reproduit par des coalitions variables d'acteurs qui, pour des raisons sincères, doctrinales, partisanes ou intéressées, conservent collectivement un résultat constant : **en l'état actuel du droit, aucun seuil purement citoyen ne peut faire comparaître le souverain national**.
 
-L'asymétrie n'est pas seulement juridique. Entre deux élections, le temps politique n'est pas vide : il est occupé par ceux qui disposent d'une organisation permanente, d'une expertise et d'un accès continu aux décideurs : partis, syndicats, entreprises, administrations. Le bulletin de vote est égal. L'accès continu à la fabrication de la décision ne l'est pas. À cette asymétrie juridique peut s'ajouter une asymétrie de ressources : les organisations permanentes disposent d'un accès, d'une expertise et d'une continuité d'action que les citoyens non organisés possèdent rarement. Cette question, distincte du verrou constitutionnel démontré ici, exige toutefois sa propre enquête.
+Entre deux élections, le temps politique est occupé par ceux qui disposent d'une organisation permanente, d'une expertise et d'un accès continu aux décideurs : partis, syndicats, entreprises. Le bulletin de vote est égal ; la fabrication quotidienne de la décision ne l'est pas. Cette asymétrie de ressources, distincte du verrou constitutionnel décrit ici, exigera sa propre enquête.
 
 ---
 
@@ -456,7 +454,7 @@ Ils justifient :
 
 Ils ne justifient pas que l'un des deux termes de l'équation soit nul.
 
-Reconnaître ce monopole ne revient pas à nier les contre-pouvoirs. La presse enquête et expose. Les juges annulent et censurent. Les syndicats négocient. Les manifestations font reculer. Les alternances modifient les politiques. Ces mécanismes sont réels et produisent des effets : ils rendent le régime pluraliste et perméable. Mais aucun ne confère aux citoyens l'initiative nationale. Ils peuvent déclencher une réaction politique ; ils ne disposent d'aucun droit de déclenchement national juridiquement opposable. L'initiative, elle, serait un droit de procédure.
+Reconnaître ce monopole ne revient pas à nier les contre-pouvoirs. La presse enquête et expose. Les juges annulent et censurent. Les syndicats négocient. Les manifestations font reculer. Les alternances modifient les politiques. Ces mécanismes sont réels et produisent des effets : ils rendent le régime pluraliste et perméable. Mais aucun ne confère aux citoyens l'initiative nationale. Ils peuvent déclencher une réaction politique ; ils ne disposent d'aucun droit d'arbitrage juridiquement opposable. L'initiative, elle, serait un droit de procédure.
 
 La représentation n'en reste pas moins nécessaire pour gouverner continûment. Elle ne démontre pas que les citoyens doivent être incapables d'imposer ponctuellement un arbitrage.
 
