@@ -114,9 +114,9 @@ L'attribution à la narration est ici déterminante. Si un expert avait prononc�
 
 Le film intègre une contre-pièce. À **35:20**, un intervenant déclare : *« Le groupe de Shanghai n'était pas anti-occidental à l'époque, il était pro-oriental. Nous avons lentement progressé vers la création d'un système alternatif à l'Occident, pas contre l'Occident au début, mais lorsqu'il a commencé à mener des politiques de plus en plus hostiles, le groupe de Shanghai s'est avéré être de facto contre. »*
 
-Cette déclaration contredit partiellement la voix off de 19:31, qui présentait l'OCS comme « un sommet anti-occidental créé pour concurrencer les institutions internationales existantes. » L'intervenant reconnaît que l'hostilité est réactive, non originelle. Il admet une progressivité que la narration efface.
+Cette déclaration contredit partiellement la voix off de **19:31**, qui présentait l'OCS comme « un sommet anti-occidental créé pour concurrencer les institutions internationales existantes. » L'intervenant reconnaît que l'hostilité est réactive, non originelle. Il admet une progressivité que la narration efface.
 
-Mais cette nuance intervient seize minutes après le cadrage initial. La voix off a déjà posé le verdict. L'intervenant ne le corrige pas frontalement ; il le nuance dans une séquence que la narration n'intègre pas à sa propre démonstration ultérieure. À 50:27, la voix off est revenue à la métaphore des « pions posés » sans mentionner la progressivité défensive évoquée par l'intervenant. La question n'est pas de savoir si le film contient une nuance. Elle est de savoir si cette nuance structure le récit ou si elle est absorbée par lui. Ici, c'est visiblement le second cas.
+Mais cette nuance intervient seize minutes après le cadrage initial. La voix off a déjà posé le verdict. L'intervenant ne le corrige pas frontalement ; il le nuance dans une séquence que la narration n'intègre pas à sa propre démonstration ultérieure. À **50:27**, la voix off est revenue à la métaphore des « pions posés » sans mentionner la progressivité défensive évoquée par l'intervenant. La question n'est pas de savoir si le film contient une nuance. Elle est de savoir si cette nuance structure le récit ou si elle est absorbée par lui. Ici, c'est visiblement le second cas.
 
 ### Ce que ces quatre séquences accomplissent
 
