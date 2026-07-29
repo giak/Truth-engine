@@ -362,7 +362,7 @@ Les numéros entre crochets dans le texte renvoient aux sources ci-dessous.
 
 ## Annexe
 
-Affiliations publiques de certains intervenants, pour les seules institutions dont les données de financement sont disponibles. Ces affiliations, parfois postérieures à la diffusion, ne démontrent aucun lien causal avec le contenu du film.
+Affiliations publiques de certains intervenants.
 
 - **CEPA** (Center for European Policy Analysis). Représenté par sa présidente Alina Polyakova. Déclarait en 2025 parmi ses soutiens Lockheed Martin, American Rheinmetall Defense et General Atomics [8].
 - **IFRI** (Institut français des relations internationales). Représenté par Héloïse Fayet. Comptait en 2026 parmi ses donateurs Thales, KNDS, MBDA, Naval Group, Safran et le SGDSN [9].
