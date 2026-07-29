@@ -26,9 +26,9 @@ Avant d'examiner ce que le film fait avec les faits, il faut reconnaître ce qu'
 
 La coopération militaire est établie. La Chine et la Russie multiplient les exercices conjoints depuis 2014. L'Iran a fourni des drones Shahed à la Russie à partir de l'été 2022, fait confirmé par les gouvernements américain et britannique. Du personnel iranien aurait été déployé en Crimée pour assister les forces russes [3].
 
-L'intégration énergétique s'est accélérée. La Chine a considérablement augmenté ses achats de pétrole russe depuis 2022. Les trois pays ont développé des mécanismes destinés à réduire leur exposition au dollar et aux services financiers occidentaux.
+L'intégration énergétique s'est accélérée. La Chine a considérablement augmenté ses achats de pétrole russe depuis 2022 [11]. Les trois pays ont développé des mécanismes destinés à réduire leur exposition au dollar et aux services financiers occidentaux.
 
-L'alignement institutionnel s'est renforcé. L'Iran a été admis comme membre à part entière de l'Organisation de coopération de Shanghai le 4 juillet 2023. Les trois pays siègent désormais au sein des BRICS et convergent sur plusieurs votes dans les enceintes multilatérales.
+L'alignement institutionnel s'est renforcé. L'Iran a été admis comme membre à part entière de l'Organisation de coopération de Shanghai le 4 juillet 2023. Les trois pays siègent désormais au sein des BRICS [12] et convergent sur plusieurs votes dans les enceintes multilatérales.
 
 La convergence rhétorique est documentée. La déclaration Xi-Poutine du 4 février 2022 affirme une vision commune de l'ordre international. Les trois régimes dénoncent l'unilatéralisme occidental et revendiquent un monde multipolaire [1].
 
@@ -180,7 +180,7 @@ La guerre est désormais totale. Tous les domaines sont des fronts. Mais il rest
 
 ### La séquence suédoise
 
-À 01:04:40, le film bascule vers la Suède. Un militant d'extrême droite brûle un Coran devant l'ambassade de Turquie à Stockholm. La voix off précise qu'il est « filmé par un journaliste affilié au réseau prorusse qui aurait financé l'opération ». Un intervenant décrit la scène comme une « mesure active » russe : « amplifier la perception d'actes contre les musulmans en organisant une mise en scène d'un Coran brûlé par un Suédois devant l'ambassade de Turquie. » Dès le lendemain, la Turquie annonce ne plus soutenir l'adhésion de la Suède à l'OTAN.
+À 01:04:40, le film bascule vers la Suède. Un militant d'extrême droite brûle un Coran devant l'ambassade de Turquie à Stockholm. La voix off précise qu'il est « filmé par un journaliste affilié au réseau prorusse qui aurait financé l'opération » [13]. Un intervenant décrit la scène comme une « mesure active » russe : « amplifier la perception d'actes contre les musulmans en organisant une mise en scène d'un Coran brûlé par un Suédois devant l'ambassade de Turquie. » Dès le lendemain, la Turquie annonce ne plus soutenir l'adhésion de la Suède à l'OTAN.
 
 L'affaire peut constituer un cas réel d'opération d'influence. Le problème n'est pas l'invraisemblance de l'opération elle-même. Il est dans ce que le montage en fait ensuite.
 
@@ -228,13 +228,13 @@ La notion de « monde parallèle » est une opération de binarisation. Elle div
 
 À 01:19:42, la voix off passe de la description à l'attribution d'intention : « Fin août 2023, c'est lors du sommet des BRICS de Johannesburg qu'ils vont concrétiser la première étape de leur plan. »
 
-Le mot « plan » est décisif. L'élargissement des BRICS avec l'invitation adressée à six États (Arabie saoudite, Émirats arabes unis, Iran, Égypte, Éthiopie, Argentine) est une décision multilatérale prise par consensus entre des pays aux intérêts très divergents. En la présentant comme « la première étape de leur plan », la voix off transforme une dynamique institutionnelle complexe en séquence coordonnée par deux acteurs : la Chine et la Russie. L'autonomie du Brésil, de l'Inde et de l'Afrique du Sud dans le processus est effacée. Ils deviennent des instruments d'un plan qu'ils n'ont pas conçu.
+Le mot « plan » est décisif. L'élargissement des BRICS avec l'invitation adressée à six États (Arabie saoudite, Émirats arabes unis, Iran, Égypte, Éthiopie, Argentine) [12] est une décision multilatérale prise par consensus entre des pays aux intérêts très divergents. En la présentant comme « la première étape de leur plan », la voix off transforme une dynamique institutionnelle complexe en séquence coordonnée par deux acteurs : la Chine et la Russie. L'autonomie du Brésil, de l'Inde et de l'Afrique du Sud dans le processus est effacée. Ils deviennent des instruments d'un plan qu'ils n'ont pas conçu.
 
 ### Taïwan comme preuve
 
 À 01:24:49, la téléologie devient prospective : « Pour la Chine, l'enjeu est de taille car cet espace alternatif l'immuniserait contre les sanctions occidentales dans le cas d'une annexion de l'île de Taïwan. »
 
-L'hypothèse est plausible. La Chine se prépare effectivement à différents scénarios concernant Taïwan, et la construction d'une infrastructure financière alternative peut servir cet objectif. Mais la voix off ne la présente pas comme une hypothèse parmi d'autres. Elle la présente comme la motivation certaine de toute la politique financière chinoise. Le film privilégie cette fonction stratégique sans exposer clairement le degré de certitude de l'hypothèse ni les autres motivations possibles de la dédollarisation chinoise.
+L'hypothèse est plausible. La Chine se prépare effectivement à différents scénarios concernant Taïwan, et la construction d'une infrastructure financière alternative [16] peut servir cet objectif. Mais la voix off ne la présente pas comme une hypothèse parmi d'autres. Elle la présente comme la motivation certaine de toute la politique financière chinoise. Le film privilégie cette fonction stratégique sans exposer clairement le degré de certitude de l'hypothèse ni les autres motivations possibles de la dédollarisation chinoise.
 
 ### L'objectif commun attribué
 
@@ -244,7 +244,7 @@ La phrase prête aux trois régimes un objectif commun (« mener à bien leurs a
 
 ### Des nuances qui ne changent pas le plan
 
-Le film intègre des contre-pièces réelles. Il mentionne le coup d'État de 1953 en Iran et le soutien américain au Shah (22:47-25:00). Il reconnaît que la décision de Trump de retirer les États-Unis du JCPOA a « rapproché les trois dirigeants » et « plus que jamais accéléré leur coopération » (49:54-50:15). Un intervenant admet à 01:29:49 que « les coalitions peuvent donc être flexibles » et que la Chine courtise l'Europe pour la « faire sortir du bloc occidental. »
+Le film intègre des contre-pièces réelles. Il mentionne le coup d'État de 1953 en Iran et le soutien américain au Shah (22:47-25:00) [15]. Il reconnaît que la décision de Trump de retirer les États-Unis du JCPOA [14] a « rapproché les trois dirigeants » et « plus que jamais accéléré leur coopération » (49:54-50:15). Un intervenant admet à 01:29:49 que « les coalitions peuvent donc être flexibles » et que la Chine courtise l'Europe pour la « faire sortir du bloc occidental. »
 
 Ces nuances existent. Elles empêchent de qualifier le film de récit entièrement manichéen ou amnésique. Mais elles n'inversent pas la direction du récit. Le coup d'État de 1953 est présenté comme un déclencheur historique lointain, pas comme une cause toujours active. La décision de Trump est décrite comme un accélérateur, pas comme une responsabilité occidentale structurelle. La flexibilité des coalitions est immédiatement recadrée comme une menace supplémentaire : la Chine tente de détacher l'Europe du bloc occidental. Les nuances sont intégrées, mais le plan reste intact.
 
@@ -306,7 +306,7 @@ Cette architecture a été démontée en six actes. Acte I : le film agrège des
 
 Chaque acte a rendu le suivant possible. Aucun n'était suffisant seul. Leur accumulation produit un effet que chaque séquence, prise isolément, ne permettrait pas d'atteindre : la naturalisation d'une réponse militaire à une menace que le film a lui-même construite.
 
-Cette construction ne démontre ni commande gouvernementale, ni consigne secrète, ni coordination industrielle, ni intention personnelle de tromper. Elle n'en a pas besoin pour remplir sa fonction. Par la répétition de ses opérations, leur direction commune et leur destination politique, le film constitue une manipulation narrative systématique et un récit de mobilisation stratégique présenté sous la forme d'une enquête géopolitique.
+Cette construction ne démontre ni commande gouvernementale, ni consigne secrète, ni coordination industrielle, ni intention personnelle de tromper. Elle n'en a pas besoin pour remplir sa fonction. Cette lecture rejoint les analyses qui ont documenté le caractère surévalué de la menace que représente ce rapprochement [17], et l'absence d'un « axe » institutionnalisé entre les trois régimes [18]. Par la répétition de ses opérations, leur direction commune et leur destination politique, le film constitue une manipulation narrative systématique et un récit de mobilisation stratégique présenté sous la forme d'une enquête géopolitique.
 
 La qualification la plus précise est celle-ci : des coopérations réelles sont agrégées en menace totale, puis reliées à une réponse militaire présentée comme la conséquence naturelle du diagnostic. Au sens fonctionnel du terme, il s'agit d'une propagande : sélection directionnelle des faits, répétition des mêmes catégories, polarisation morale, totalisation de la menace et naturalisation d'une réponse politique. Cette qualification ne suppose ni consigne gouvernementale, ni coordination secrète, ni intention personnelle de tromper.
 
@@ -335,6 +335,22 @@ Le cas Arte ne démontre pas que tous les médias occidentaux obéissent à un c
 **9.** IFRI (Institut français des relations internationales), « Donateurs ». URL : https://www.ifri.org/fr/donateurs. Donateurs incluant Thales, KNDS, MBDA, Naval Group, Safran, SGDSN. Consulté le 27 juillet 2026.
 
 **10.** IRSEM (Institut de recherche stratégique de l'École militaire), présentation officielle. URL : https://www.irsem.fr. Organisme du ministère des Armées, rattaché à la Direction générale des relations internationales et de la stratégie (DGRIS).
+
+**11.** S&P Global Commodity Insights, « CHINA DATA: Russian crude imports up 24% to 2.15 mil b/d in 2023 », 22 janvier 2024. URL : https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/crude-oil/012224-china-data-russian-crude-imports-up-24-to-215-mil-bd-in-2023. Données de l'administration générale des douanes de la République populaire de Chine.
+
+**12.** BRICS, Johannesburg II Declaration, 24 août 2023. URL : https://www.dirco.gov.za/wp-content/uploads/2023/08/Jhb-II-Declaration-24-August-2023.pdf. Invitation adressée à l'Argentine, l'Égypte, l'Éthiopie, l'Iran, l'Arabie saoudite et les Émirats arabes unis à devenir membres à part entière à compter du 1er janvier 2024.
+
+**13.** The Guardian, « Russia using disinformation to imply Sweden supported Quran burnings », 26 juillet 2023. URL : https://www.theguardian.com/world/2023/jul/26/russia-using-disinformation-to-imply-sweden-supported-quran-burnings.
+
+**14.** Reuters, « Trump withdraws U.S. from 'defective at the core' Iran nuclear deal », 8 mai 2018. URL : https://www.reuters.com/article/us-iran-nuclear-usa-trump-idUSKBN1I92IM.
+
+**15.** National Security Archive, « NATO Expansion: What Gorbachev Heard », 12 décembre 2017. URL : https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early. CIA, Operation Ajax : coup d'État de 1953 en Iran, documents déclassifiés.
+
+**16.** Banque des règlements internationaux, « Project mBridge reaches minimum viable product stage », 5 juin 2024. URL : https://www.bis.org/press/p240605.htm.
+
+**17.** Daniel R. DePetris et Jennifer Kavanagh, « The 'Axis of Evil' Is Overhyped », *Foreign Policy*, 14 août 2024. URL : https://foreignpolicy.com/2024/08/14/russia-china-iran-north-korea-axis-evil-cooperation/.
+
+**18.** Nicole Grajewski, « An Illusory Entente: The Myth of a Russia-China-Iran "Axis" », Belfer Center for Science and International Affairs, Harvard Kennedy School, 2022. URL : https://www.belfercenter.org/publication/illusory-entente-myth-russia-china-iran-axis.
 
 ---
 
