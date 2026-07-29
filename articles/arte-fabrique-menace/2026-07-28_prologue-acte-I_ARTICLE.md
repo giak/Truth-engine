@@ -16,7 +16,7 @@ Cet article examine comment le film procède. Il ne cherche pas à démontrer qu
 
 La thèse n'est pas qu'Arte aurait fabriqué les faits. Elle est que le documentaire les organise en une manipulation narrative : une architecture répétitive et cumulative qui ferme progressivement le champ des interprétations et donne au renforcement militaire européen la forme d'une nécessité. Le mot « manipulation » décrit ici une opération sur la perception du spectateur, pas la preuve d'une intention secrète ou d'un ordre politique.
 
-Les séquences examinées dans cet article ne constituent pas un recensement exhaustif des affirmations du film. Elles ont été sélectionnées parce qu'elles permettent d'observer plusieurs mécanismes précis de transformation des faits. L'analyse établit l'existence de ces mécanismes dans les passages étudiés. Une transcription du documentaire a permis de localiser les prises de parole et d'attribuer chaque citation à la voix narrative ou à un intervenant [4]. Les citations reproduites ici n'ont pas toutes été vérifiées à l'écoute de la bande sonore originale.
+Les séquences examinées dans cet article ne constituent pas un recensement exhaustif des affirmations du film. Elles ont été sélectionnées parce qu'elles permettent d'observer plusieurs mécanismes précis de transformation des faits. L'analyse établit l'existence de ces mécanismes dans les passages étudiés. Les citations et leurs repères temporels sont issus d'une transcription automatique diarisée du documentaire (segmentation des locuteurs via pyannote, transcription via faster-whisper). La voix narrative principale a été identifiée avec une confiance élevée. Les erreurs manifestes de transcription (noms propres, termes techniques) ont été corrigées manuellement. Les marqueurs [transcription] ou [sic] signalent les passages où une incertitude résiduelle subsiste [4].
 
 ---
 
@@ -54,7 +54,7 @@ Dès les premières minutes, le documentaire ne se contente pas d'exposer des co
 
 ### La réécriture des origines
 
-À 19:31, la voix off décrit l'Organisation de coopération de Shanghai comme « un sommet anti-occidental créé en 2001 par la Chine et la Russie pour concurrencer les institutions internationales existantes ». La charte de l'OCS, signée en 2002, met en avant la confiance mutuelle, le bon voisinage, la stabilité régionale et la lutte contre le terrorisme, le séparatisme et l'extrémisme [9]. Elle précise que l'organisation n'est pas dirigée contre d'autres États. L'OCS a progressivement acquis une fonction multipolaire et anti-hégémonique au fil des années 2010. Mais le film prend cette fonction contemporaine et la projette sur l'origine, transformant une coopération sécuritaire régionale en arme anti-occidentale planifiée dès 2001. C'est une téléologie rétrospective : ce qui est devenu partiellement vrai est présenté comme ayant été voulu dès le premier jour.
+À 19:31, la voix off décrit l'Organisation de coopération de Shanghai comme « un sommet anti-occidental créé en 2001 par la Chine et la Russie pour concurrencer les institutions internationales existantes ». La charte de l'OCS, signée en 2002, met en avant la confiance mutuelle, le bon voisinage, la stabilité régionale et la lutte contre le terrorisme, le séparatisme et l'extrémisme [6]. Elle précise que l'organisation n'est pas dirigée contre d'autres États. L'OCS a progressivement acquis une fonction multipolaire et anti-hégémonique au fil des années 2010. Mais le film prend cette fonction contemporaine et la projette sur l'origine, transformant une coopération sécuritaire régionale en arme anti-occidentale planifiée dès 2001. C'est une téléologie rétrospective : ce qui est devenu partiellement vrai est présenté comme ayant été voulu dès le premier jour.
 
 ### L'escalade lexicale
 
@@ -90,7 +90,7 @@ La phrase accomplit trois opérations simultanées. Premièrement, elle réduit 
 
 ### La contre-offensive
 
-À 34:51, la voix off poursuit : « Ils enterrent tous deux leurs conflits passés pour faire front commun contre l'influence occidentale et lance une contre-offensive [transcription] groupe de Shanghai [transcription]. » Le vocabulaire est militaire de part en part : « enterrer les conflits » (comme on enterre les armes), « faire front », « contre-offensive ». La création de l'OCS, qui relève de la diplomatie multilatérale, est décrite comme une manœuvre de guerre. L'organisation régionale devient une tête de pont.
+À 34:51, la voix off poursuit : « Ils enterrent tous deux leurs conflits passés pour faire front commun contre l'influence occidentale et lance une contre-offensive du groupe de Shanghai [transcription]. » Le vocabulaire est militaire de part en part : « enterrer les conflits » (comme on enterre les armes), « faire front », « contre-offensive ». La création de l'OCS, qui relève de la diplomatie multilatérale, est décrite comme une manœuvre de guerre. L'organisation régionale devient une tête de pont.
 
 ### La machine de guerre
 
@@ -104,7 +104,7 @@ L'attribution à la narration est ici déterminante. Si un expert avait prononc�
 
 ### Les pions sont posés
 
-À 50:27, la boucle est refermée : « tous les pions sont posés. L'Iran, la Russie et la Chine se sont rapprochés pour défier l'Occident. Ils forment désormais un triangle stratégique et pragmatique. » La métaphore des « pions » suggère une partie d'échecs planifiée, un jeu à somme nulle dont les pièces auraient été disposées méthodiquement. Mais ce que le film a documenté depuis le début n'est pas un plan. C'est une succession de décisions réactives : la Chine a soutenu la Russie après les sanctions de 2014, l'Iran a vendu des drones après l'invasion de 2022, les BRICS se sont élargis en 2023 dans un processus multilatéral. Présenter cette succession comme un échiquier dont « tous les pions sont posés » transforme une convergence partiellement réactive en stratégie continue. C'est un accomplissement prophétique : la prédiction de Brzezinski en 1997 (que le film cite explicitement à 36:55) est présentée comme réalisée [10], et le récit valide sa propre prophétie.
+À 50:27, la boucle est refermée : « tous les pions sont posés. L'Iran, la Russie et la Chine se sont rapprochés pour défier l'Occident. Ils forment désormais un triangle stratégique et pragmatique. » La métaphore des « pions » suggère une partie d'échecs planifiée, un jeu à somme nulle dont les pièces auraient été disposées méthodiquement. Mais ce que le film a documenté depuis le début n'est pas un plan. C'est une succession de décisions réactives : la Chine a soutenu la Russie après les sanctions de 2014, l'Iran a vendu des drones après l'invasion de 2022, les BRICS se sont élargis en 2023 dans un processus multilatéral. Présenter cette succession comme un échiquier dont « tous les pions sont posés » transforme une convergence partiellement réactive en stratégie continue. C'est un accomplissement prophétique : la prédiction de Brzezinski en 1997 (que le film cite explicitement à 36:55) est présentée comme réalisée [7], et le récit valide sa propre prophétie.
 
 ### Une nuance qui ne dévie pas le récit
 
@@ -168,7 +168,7 @@ L'invocation des services de renseignement fonctionne comme un transfert d'autor
 
 ### Ce que ces cinq séquences accomplissent
 
-En dix minutes, le documentaire a fait de la guerre le principe organisateur de la réalité internationale. Il est parti d'une confrontation géopolitique circonscrite (la guerre en Ukraine, les sanctions, les exercices conjoints) et l'a étendue à tous les domaines : militaire, informationnel, économique, cybernétique, politique, social, psychologique. Il a effacé la distinction entre guerre et paix au profit d'un continuum de menace permanente et invisible. Il a rendu sa thèse infalsifiable grâce à une formule qui absorbe coordination et autonomie dans une même catégorie. Et il a validé l'ensemble par le transfert d'autorité aux services de renseignement.
+En dix minutes, le documentaire a fait de la guerre le principe organisateur de la réalité internationale. Il est parti d'une confrontation géopolitique circonscrite (la guerre en Ukraine, les sanctions, les exercices conjoints) et l'a étendue à tous les domaines : militaire, informationnel, économique, cybernétique, politique, social, psychologique. Il a effacé la distinction entre guerre et paix au profit d'un continuum de menace permanente et invisible. Il a rendu la version forte de sa thèse difficile à falsifier grâce à une formule qui absorbe coordination et autonomie dans une même catégorie. Et il a validé l'ensemble par le transfert d'autorité aux services de renseignement.
 
 La progression depuis l'Acte I est nette. Au début du film, la question était : ces trois pays coopèrent-ils ? À la fin de l'Acte III, la question est devenue : dans quelle mesure cette guerre totale et invisible vous a-t-elle déjà atteint sans que vous le sachiez ? Le glissement n'est pas seulement argumentatif. Il est perceptif. Le spectateur n'est plus invité à examiner des faits. Il est placé dans un monde où tout fait est déjà un front.
 
@@ -194,7 +194,7 @@ C'est une compression causale. Le documentaire ne ment pas sur les faits : l'aut
 
 Cette phrase est un point critique du film. Elle permet de reclasser presque toute crise intérieure comme un effet ou un bénéfice de l'ennemi. Un mouvement social ? Il fragilise la démocratie, donc il renforce Pékin, Moscou et Téhéran. Une défiance envers les institutions ? Même mécanisme. Un attentat terroriste ? Idem. Poussée à sa conséquence logique, cette formule pourrait englober des mouvements sociaux, la défiance politique, la polarisation ou d'autres crises endogènes.
 
-Ce syllogisme n'est pas faux au sens strict. Il est absorbant. Il rend l'ennemi copropriétaire de toutes les difficultés occidentales, sans avoir à démontrer son implication dans chacune d'elles. Les causes endogènes (inégalités, corruption, mal-gouvernance, crises de représentation) disparaissent derrière une causalité géopolitique générale. Le spectateur n'est plus invité à se demander si les démocraties produisent elles-mêmes leurs propres fragilités. Il est invité à voir dans chaque fragilité la main de l'adversaire.
+Ce syllogisme n'est pas faux au sens strict. Il est absorbant. Il rend l'ennemi copropriétaire de toutes les difficultés occidentales, sans avoir à démontrer son implication dans chacune d'elles. Les causes endogènes (inégalités, corruption, mal-gouvernance, crises de représentation) disparaissent derrière une causalité géopolitique générale. Le spectateur n'est plus invité à se demander si les démocraties produisent elles-mêmes leurs propres fragilités. Une crise d'origine interne peut ainsi être réinscrite dans le bilan stratégique de l'affrontement, au risque de déplacer l'attention de ses causes propres vers son exploitation géopolitique.
 
 ### La guerre à mort
 
@@ -302,7 +302,7 @@ Le documentaire « Russie, Chine, Iran : la revanche des empires » ne fabrique 
 
 Mais le film ne se contente pas de les documenter. Il les organise en une architecture qui, séquence après séquence, transforme des coopérations réelles mais hétérogènes en menace totale, cohérente et planifiée.
 
-Cette architecture a été démontée en six actes. Acte I : le film agrège des comportements distincts (votes contre, abstentions, absences) en un bloc homogène doté d'un camp, d'un ennemi et d'une psychologie commune. Acte II : il militarise ce bloc, transformant la coopération sino-russe en « machine de guerre contre l'Occident », formule assumée par la narration elle-même. Acte III : il totalise la menace, étendant la guerre à tous les domaines et la rendant structurellement infalsifiable grâce à la formule « ensemble ou séparément ». Acte IV : il absorbe les crises intérieures des démocraties dans la guerre hybride, rendant l'ennemi copropriétaire invisible de toutes les fragilités occidentales. Acte V : il attribue à cet ennemi un plan, réécrivant des décisions multilatérales en étapes d'une stratégie coordonnée et prêtant aux trois régimes une intention commune sans source primaire. Acte VI : il transforme cette accumulation de menaces en prescription, faisant du renforcement militaire de l'Europe non pas un choix politique mais un « destin ».
+Cette architecture a été démontée en six actes. Acte I : le film agrège des comportements distincts (votes contre, abstentions, absences) en un bloc homogène doté d'un camp, d'un ennemi et d'une psychologie commune. Acte II : il militarise ce bloc, transformant la coopération sino-russe en « machine de guerre contre l'Occident », formule assumée par la narration elle-même. Acte III : il totalise la menace, étendant la guerre à tous les domaines et la rendant structurellement difficile à falsifier grâce à la formule « ensemble ou séparément ». Acte IV : il absorbe les crises intérieures des démocraties dans la guerre hybride, rendant l'ennemi copropriétaire invisible de toutes les fragilités occidentales. Acte V : il attribue à cet ennemi un plan, réécrivant des décisions multilatérales en étapes d'une stratégie coordonnée et prêtant aux trois régimes une intention commune sans source primaire. Acte VI : il transforme cette accumulation de menaces en prescription, faisant du renforcement militaire de l'Europe non pas un choix politique mais un « destin ».
 
 Chaque acte a rendu le suivant possible. Aucun n'était suffisant seul. Leur accumulation produit un effet que chaque séquence, prise isolément, ne permettrait pas d'atteindre : la naturalisation d'une réponse militaire à une menace que le film a lui-même construite.
 
@@ -316,69 +316,25 @@ Le cas Arte ne démontre pas que tous les médias occidentaux obéissent à un c
 
 ## Sources
 
-**1.**  Déclaration conjointe Xi-Poutine, 4 février 2022. URL : https://en.kremlin.ru/supplement/5770. Admission de l'Iran à l'OCS, Communiqué du sommet de New Delhi, 4 juillet 2023. URL : https://eng.sectsco.org/20230704/declaration-of-the-council-of-heads-of-state-of-the-shanghai-cooperation-organization-114525/.
+**1.** Déclaration conjointe Xi-Poutine, 4 février 2022. URL : https://en.kremlin.ru/supplement/5770. Admission de l'Iran à l'OCS, Communiqué du sommet de New Delhi, 4 juillet 2023. URL : https://eng.sectsco.org/20230704/declaration-of-the-council-of-heads-of-state-of-the-shanghai-cooperation-organization-114525/.
 
-**2.**  Arte, page officielle du documentaire. URL : https://www.arte.tv/fr/videos/114207-000-A/russie-chine-iran-la-revanche-des-empires/. Texte exact : « Ils mobilisent de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées. » Consulté le 27 juillet 2026. IFRI, page reprenant la présentation officielle. URL : https://www.ifri.org/fr/espace-media/actus-ifri/russie-chine-iran-revanche-empires. Synopsis du producteur CC&C. URL : https://www.cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires. « Leur objectif commun : mettre un terme à l'hégémonie occidentale [...] Pour y arriver, ils mènent contre les démocraties une guerre hybride. »
+**2.** Arte, page officielle du documentaire. URL : https://www.arte.tv/fr/videos/114207-000-A/russie-chine-iran-la-revanche-des-empires/. Texte exact : « Ils mobilisent de nombreux analystes et interlocuteurs de renom, dont les propos sont mis en regard avec ceux, offensifs, d'officiels chinois, iraniens et russes, aux intentions désormais clairement affichées. » Consulté le 27 juillet 2026. IFRI, page reprenant la présentation officielle. URL : https://www.ifri.org/fr/espace-media/actus-ifri/russie-chine-iran-revanche-empires. Synopsis du producteur CC&C. URL : https://www.cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires. « Leur objectif commun : mettre un terme à l'hégémonie occidentale [...] Pour y arriver, ils mènent contre les démocraties une guerre hybride. »
 
-**3.**  White House, point de presse de Jake Sullivan, 11 juillet 2022. AP News, « White House: Iran set to deliver armed drones to Russia ». URL : https://apnews.com/article/russia-ukraine-biden-iran-jake-sullivan-4a9f1b2749893d8f1ed9f039869cf119. UK Ministry of Defence, Defence Intelligence update, 25 février 2023. URL : https://x.com/DefenceHQ/status/1629374055152332801. Responsables américains et britanniques, déclarations publiques sur le déploiement de personnel iranien en Crimée, 2022-2023. Institute for the Study of War, analyses thématiques sur la coopération militaire irano-russe, 2023. URL : https://understandingwar.org/backgrounder/iran-update-special-report-november-9-2023.
+**3.** White House, point de presse de Jake Sullivan, 11 juillet 2022. AP News, « White House: Iran set to deliver armed drones to Russia ». URL : https://apnews.com/article/russia-ukraine-biden-iran-jake-sullivan-4a9f1b2749893d8f1ed9f039869cf119. UK Ministry of Defence, Defence Intelligence update, 25 février 2023. URL : https://x.com/DefenceHQ/status/1629374055152332801. Responsables américains et britanniques, déclarations publiques sur le déploiement de personnel iranien en Crimée, 2022-2023. Institute for the Study of War, analyses thématiques sur la coopération militaire irano-russe, 2023. URL : https://understandingwar.org/backgrounder/iran-update-special-report-november-9-2023.
 
-**4.**  Transcription automatique du documentaire (diarisation pyannote + faster-whisper). Repères temporels localisés automatiquement puis contrôlés dans le fichier de transcription. Arte, « Russie, Chine, Iran : la revanche des empires », rediffusion YouTube du 16 janvier 2026. URL : https://www.youtube.com/watch?v=WLx6C3FrGJU.
+**4.** Transcription automatique du documentaire (diarisation pyannote + faster-whisper). Repères temporels localisés automatiquement puis contrôlés dans le fichier de transcription. Arte, « Russie, Chine, Iran : la revanche des empires », rediffusion YouTube du 16 janvier 2026. URL : https://www.youtube.com/watch?v=WLx6C3FrGJU.
 
-**5.**  Assemblée générale des Nations unies, résolution ES-11/1, 2 mars 2022 : 141 pour, 5 contre, 35 abstentions, 12 non-participants. URL : https://digitallibrary.un.org/record/3965290.
+**5.** Assemblée générale des Nations unies, résolution ES-11/1, 2 mars 2022 : 141 pour, 5 contre, 35 abstentions, 12 non-participants. URL : https://digitallibrary.un.org/record/3965290.
 
-**6.**  Déclaration universelle des droits de l'homme, vote du 10 décembre 1948 : 48 pour, 0 contre, 8 abstentions (URSS, RSS de Biélorussie, Tchécoslovaquie, Pologne, RSS d'Ukraine, Yougoslavie, Arabie saoudite, Union sud-africaine), 2 absents. Procès-verbal de l'Assemblée générale, 183e séance plénière. URL : https://digitallibrary.un.org/record/666853.
+**6.** Charte de l'Organisation de coopération de Shanghai, signée le 7 juin 2002. URL : https://www.refworld.org/legal/constinstr/asia/2002/en/150194.
 
-**7.**  S&P Global Commodity Insights, « CHINA DATA: Russian crude imports up 24% to 2.15 mil b/d in 2023 », 22 janvier 2024. URL : https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/crude-oil/012224-china-data-russian-crude-imports-up-24-to-215-mil-bd-in-2023. Données de l'administration générale des douanes de la République populaire de Chine.
+**7.** Zbigniew Brzezinski, *The Grand Chessboard: American Primacy and Its Geostrategic Imperatives*, Basic Books, 1997. La prédiction d'un « axe » sino-russe-iranien est citée par le documentaire à 00:36:55.
 
-**8.**  AIEA, « NPT Safeguards Agreement with the Islamic Republic of Iran », rapport du directeur général au Conseil des gouverneurs, GOV/2024/62, 19 novembre 2024. URL : https://www.iaea.org/sites/default/files/24/11/gov2024-62.pdf. Le rapport documente la présence de matières nucléaires non déclarées et l'absence d'explications crédibles de la part de l'Iran, sans déclarer l'ensemble du programme nucléaire iranien illégal. L'Iran reste partie au TNP (Traité sur la non-prolifération des armes nucléaires) et conserve un accord de garanties avec l'AIEA.
+**8.** CEPA (Center for European Policy Analysis), « Our Supporters ». URL : https://cepa.org/about-cepa/our-supporters/. Liste des soutiens pour l'année fiscale 2025 incluant Lockheed Martin Corporation, American Rheinmetall Defense et General Atomics. Consulté le 27 juillet 2026.
 
-**9.**  Charte de l'Organisation de coopération de Shanghai, signée le 7 juin 2002. URL : https://www.refworld.org/legal/constinstr/asia/2002/en/150194.
+**9.** IFRI (Institut français des relations internationales), « Donateurs ». URL : https://www.ifri.org/fr/donateurs. Donateurs incluant Thales, KNDS, MBDA, Naval Group, Safran, SGDSN. Consulté le 27 juillet 2026.
 
-**10.**  Zbigniew Brzezinski, *The Grand Chessboard: American Primacy and Its Geostrategic Imperatives*, Basic Books, 1997. La prédiction d'un « axe » sino-russe-iranien est citée par le documentaire à 00:36:55.
-
-**11.**  Nils Adler, « Where are Iran's allies? Why Moscow, Beijing are keeping their distance », Al Jazeera, 5 mars 2026. URL : https://www.aljazeera.com/features/2026/3/5/where-are-irans-allies-why-moscow-beijing-are-keeping-their-distance. Al Jazeera, « How extensive is Russia's military aid to Iran? », 27 mars 2026. URL : https://www.aljazeera.com/news/2026/3/27/how-extensive-is-russias-military-aid-to-iran.
-
-**12.**  CEPA (Center for European Policy Analysis), « Our Supporters ». URL : https://cepa.org/about-cepa/our-supporters/. Liste des soutiens pour l'année fiscale 2025 incluant Lockheed Martin Corporation, American Rheinmetall Defense et General Atomics. Consulté le 27 juillet 2026.
-
-**13.**  IFRI (Institut français des relations internationales), « Donateurs ». URL : https://www.ifri.org/fr/donateurs. Donateurs incluant Thales, KNDS, MBDA, Naval Group, Safran, SGDSN. Consulté le 27 juillet 2026.
-
-**14.**  IRSEM (Institut de recherche stratégique de l'École militaire), présentation officielle. URL : https://www.irsem.fr. Organisme du ministère des Armées, rattaché à la Direction générale des relations internationales et de la stratégie (DGRIS).
-
-**15.**  Agence internationale de l'énergie, rapports mensuels sur le marché pétrolier, 2023-2024. URL : https://www.iea.org/reports/oil-market-report-december-2024. Données douanières chinoises sur les exportations de semi-conducteurs vers la Russie, 2023-2024.
-
-**16.**  Quad (Quadrilateral Security Dialogue), déclarations officielles, 2023-2026. URL : https://www.dfat.gov.au/international-relations/regional-architecture/quad. OCS, membres permanents incluant l'Inde depuis 2017. URL : https://eng.sectsco.org/members/.
-
-**17.**  Narendra Modi à Vladimir Poutine, sommet de l'OCS, Samarcande, 16 septembre 2022. URL : https://www.mea.gov.in/Speeches-Statements.htm?dtl/35726.
-
-**18.**  Banque des règlements internationaux, « Project mBridge reaches minimum viable product stage », 5 juin 2024. URL : https://www.bis.org/press/p240605.htm.
-
-**19.**  Banque populaire de Chine et banque centrale saoudienne, accord de swap de 50 milliards de yuans, 2023. URL : https://www.reuters.com/markets/currencies/china-saudi-arabia-central-banks-sign-local-currency-swap-agreement-2023-11-20/.
-
-**20.**  Price Cap Coalition, « Oil Price Cap Compliance and Enforcement Alert », décembre 2024. URL : https://www.gov.uk/government/publications/russian-oil-services-ban/price-cap-coalition-oil-price-cap-opc-compliance-and-enforcement-alert.
-
-**21.**  U.S. Department of the Treasury, guidance on the Russian oil price cap, 2024. URL : https://ofac.treasury.gov/media/933506/download.
-
-**22.**  Emmanuel Macron, sommet de la Communauté politique européenne, Danemark, 2 octobre 2025. URL : https://www.elysee.fr/emmanuel-macron/2025/10/02/sommet-de-la-communaute-politique-europeenne-au-danemark.
-
-**23.**  Reuters, « Estonia releases Russia-bound oil tanker », 28 avril 2025. URL : https://www.reuters.com/world/europe/estonia-releases-russia-bound-oil-tanker-2025-04-28/.
-
-**24.**  Ministère des Armées, points de situation des opérations, 2025-2026. URL : https://www.defense.gouv.fr/operations. AP News, « French navy intercepts tanker suspected of being part of Russia's shadow fleet », janvier 2026. URL : https://apnews.com/article/france-russia-tanker-intercepted-shadow-fleet-e8a24c4cebf73bc2f7097ef3ae6c344d. Pour le Deyna : point de situation du 19 au 26 mars 2026. Pour le Deliver : point de situation du 18 au 25 juin 2026.
-
-**25.**  Coalition des volontaires, déclaration du 13 juillet 2026. URL : https://www.elysee.fr/emmanuel-macron/2026/07/13/sommet-de-la-coalition-des-volontaires-a-paris.
-
-**26.**  Convention des Nations unies sur le droit de la mer, article 110. URL : https://www.un.org/depts/los/convention_agreements/texts/unclos/part7.htm.
-
-**27.**  Code de la défense, articles L1521-1 à L1521-9 (police en mer, dont L1521-9 pour le refus d'obtempérer). URL : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071307/LEGISCTA000006182638/.
-
-**28.**  CC&C, fiche de production. URL : https://www.cccprod.com/fr/production/russie-chine-iran-la-revanche-des-empires. « Production : CC&C Mediawan – ARTE G.E.I.E. », « Diffuseurs : Arte, LCP, Radio Canada ». Consulté le 27 juillet 2026.
-
-**29.**  IMDb, « Russie, Chine, Iran - La revanche des empires (TV Movie 2024) - Full cast & crew ». URL : https://www.imdb.com/title/tt32465670/fullcredits. Consulté le 27 juillet 2026. Intervenants non occidentaux incluant Tian Feilong, Liu Mingfu, Victor Gao, Hossein Kanani Moghaddam, Mostafa Khoshcheshm, Abolfazl Amouei.
-
-**30.**  Financial Times, « How Dubai became 'the new Geneva' for Russian oil trade », 18 juillet 2023. URL : https://www.ft.com/content/7ac92047-b306-49d0-9811-ddde5c916dd6.
-
-**31.**  Préfecture maritime de l'Atlantique, « Fin de l'immobilisation du pétrolier TAGOR en baie de Douarnenez », 2 juillet 2026. URL : https://www.premar-atlantique.gouv.fr/communiques-presse/fin-de-l-immobilisation-du-petrolier-tagor-en-baie-de-douarnenez. Le Monde, « Flotte fantôme russe : un nouveau pétrolier, le Tagor, arraisonné dans l'Atlantique par la France », 1er juin 2026. URL : https://www.lemonde.fr/international/article/2026/06/01/flotte-fantome-russe-un-nouveau-petrolier-le-tagor-arraisonne-dans-l-atlantique-par-la-france_6695955_3210.html. Ifri, « Lutter contre la flotte fantôme. La France en action », 29 juin 2026. URL : https://www.ifri.org/fr/notes/lutter-contre-la-flotte-fantome-la-france-en-action.
-
-**32.**  Diarisation automatique du documentaire via pyannote.audio (segmentation des locuteurs) et faster-whisper (modèle medium, int8, transcription). 47 clusters de locuteurs identifiés, 1 241 segments, 74,4 minutes de temps de parole. SPEAKER_10 (narrateur principal) : 418 segments, 24,7 minutes, identifié avec une confiance élevée. Les identifiants techniques ne sont pas assimilés à des personnes physiques sans vérification audiovisuelle.
+**10.** IRSEM (Institut de recherche stratégique de l'École militaire), présentation officielle. URL : https://www.irsem.fr. Organisme du ministère des Armées, rattaché à la Direction générale des relations internationales et de la stratégie (DGRIS).
 
 ---
 
@@ -386,6 +342,6 @@ Le cas Arte ne démontre pas que tous les médias occidentaux obéissent à un c
 
 Affiliations publiques de certains intervenants, pour les seules institutions dont les données de financement sont disponibles. Ces affiliations, parfois postérieures à la diffusion, ne démontrent aucun lien causal avec le contenu du film.
 
-- **CEPA** (Center for European Policy Analysis). Représenté par sa présidente Alina Polyakova. Déclarait en 2025 parmi ses soutiens Lockheed Martin, American Rheinmetall Defense et General Atomics [12].
-- **IFRI** (Institut français des relations internationales). Représenté par Héloïse Fayet. Comptait en 2026 parmi ses donateurs Thales, KNDS, MBDA, Naval Group, Safran et le SGDSN [13].
-- **IRSEM** (Institut de recherche stratégique de l'École militaire). Représenté par Paul Charon. Dépend du ministère des Armées [14].
+- **CEPA** (Center for European Policy Analysis). Représenté par sa présidente Alina Polyakova. Déclarait en 2025 parmi ses soutiens Lockheed Martin, American Rheinmetall Defense et General Atomics [8].
+- **IFRI** (Institut français des relations internationales). Représenté par Héloïse Fayet. Comptait en 2026 parmi ses donateurs Thales, KNDS, MBDA, Naval Group, Safran et le SGDSN [9].
+- **IRSEM** (Institut de recherche stratégique de l'École militaire). Représenté par Paul Charon. Dépend du ministère des Armées [10].
