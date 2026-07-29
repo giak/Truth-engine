@@ -290,7 +290,7 @@ Le documentaire « Russie, Chine, Iran : la revanche des empires » n'est pas un
 
 En juin 2026, un autre article de cette série analysait un segment de trente minutes du Club BFM consacré à l'Ukraine. Quatre intervenants : trois sans aucune expertise militaire ou diplomatique, un lieutenant-colonel hors service depuis vingt et un ans. Six mécanismes de convergence narrative documentés. Aucun besoin d'ordres : les intervenants partageaient les mêmes sources, les mêmes catégories, les mêmes frontières de l'acceptable. Le résultat était un récit unique produit par un plateau qui n'avait pas reçu de consigne.
 
-Un autre article examinait la concentration du paysage médiatique français et établissait que cinq propriétaires contrôlent environ soixante-quinze pour cent de l'audience nationale. Un autre encore analysait le parasitage narratif autour d'une fuite d'eau à Clichy : deux comptes, quarante-quatre minutes d'intervalle, cinq milliards d'euros d'enjeux masqués par un tweet. La méthode était la même : l'analyse de la transcription comme outil de démonstration, l'architecture narrative comme objet d'analyse, la convergence sans commandement comme mécanisme central.
+Un autre article examinait la concentration du paysage médiatique français et établissait que cinq propriétaires contrôlent environ soixante-quinze pour cent de l'audience nationale [19]. Un autre encore analysait le parasitage narratif autour d'une fuite d'eau à Clichy : deux comptes, quarante-quatre minutes d'intervalle, cinq milliards d'euros d'enjeux masqués par un tweet. La méthode était la même : l'analyse de la transcription comme outil de démonstration, l'architecture narrative comme objet d'analyse, la convergence sans commandement comme mécanisme central.
 
 Le cas Arte ne démontre pas que les récits médiatiques convergents seraient commandés par un centre unique. Il fournit un spécimen supplémentaire d'un mécanisme déjà observé ailleurs : mêmes catégories stratégiques, mêmes autorités de validation, même extension de la menace et même resserrement du champ des réponses. La comparaison entre ces cas ne prouve pas leur coordination. Elle permet de tester la récurrence de leurs procédés.
 
@@ -351,6 +351,8 @@ Le cas Arte ne démontre pas que tous les médias occidentaux obéissent à un c
 **17.** Daniel R. DePetris et Jennifer Kavanagh, « The 'Axis of Evil' Is Overhyped », *Foreign Policy*, 14 août 2024. URL : https://foreignpolicy.com/2024/08/14/russia-china-iran-north-korea-axis-evil-cooperation/.
 
 **18.** Nicole Grajewski, « An Illusory Entente: The Myth of a Russia-China-Iran "Axis" », Belfer Center for Science and International Affairs, Harvard Kennedy School, 2022. URL : https://www.belfercenter.org/publication/illusory-entente-myth-russia-china-iran-axis.
+
+**19.** Giak, « L'écart légalité/légitimité : la signature du régime politique français », Substack, 21 juin 2026. URL : https://giak.substack.com/p/lecart-legalitelegitimite-la-signature. Données de l'Arcom et de Médiamétrie sur la concentration du paysage audiovisuel français.
 
 ---
 
