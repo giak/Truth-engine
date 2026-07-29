@@ -1,4 +1,4 @@
-# La fabrique de la menace
+# 🎬 La fabrique de la menace
 
 **Comment le documentaire d'Arte transforme des coopérations réelles en récit de guerre totale**
 
@@ -315,6 +315,10 @@ Le cas Arte ne démontre pas que tous les médias occidentaux obéissent à un c
 ---
 
 ## Sources
+
+Les numéros entre crochets dans le texte renvoient aux sources ci-dessous.
+
+---
 
 **1.** Déclaration conjointe Xi-Poutine, 4 février 2022. URL : https://en.kremlin.ru/supplement/5770. Admission de l'Iran à l'OCS, Communiqué du sommet de New Delhi, 4 juillet 2023. URL : https://eng.sectsco.org/20230704/declaration-of-the-council-of-heads-of-state-of-the-shanghai-cooperation-organization-114525/.
 
