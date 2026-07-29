@@ -4,7 +4,7 @@
 
 ---
 
-## §0. Méthode : partir du verrou, remonter la chaîne
+## §0. Thèse et périmètre
 
 Cet article prolonge deux enquêtes antérieures : **🔒 [Le verrou invisible : anatomie du RIC français, 237 ans d'absence documentée](https://giak.substack.com/p/le-verrou-invisible-anatomie-du-ric)** et **🔄 [Le changement de régime : pourquoi ce système ne peut pas se réformer](https://giak.substack.com/p/le-changement-de-regime-pourquoi)**. Sa thèse tient en une phrase : le peuple français est souverain en titre, électeur en pratique, mais il ne possède pas la compétence qui lui permettrait de se constituer lui-même en corps décidant. Il n'existe, comme auteur d'une décision nationale, que sur convocation.
 
@@ -38,9 +38,9 @@ Socialement, le peuple existe toujours. Juridiquement, comme auteur d'une décis
 
 Voilà le verrou.
 
-Le débat public s'arrête aux personnes : tel ministre, tel parti, telle décision. On traque les responsables. On épargne les rouages. Quand le sage montre la lune, le fou regarde le doigt.
+Le débat public s'arrête aux personnes : tel ministre, tel parti, telle décision. On traque les responsables. On épargne les rouages.
 
-L'enquête regarde la lune. Le résultat total n'a pas été conçu par un pilote unique. Plusieurs de ses strates ont toutefois été ajoutées avec des fonctions locales conscientes : la délégation de l'exercice de la souveraineté en 1791, la sélection sociale des électeurs en 1795, la centralisation administrative sous Bonaparte, le renforcement de l'exécutif en 1958, l'alignement des calendriers électoraux en 2000-2001. Aucun de leurs auteurs n'a dessiné le résultat de 2026. Mais leur accumulation a produit une asymétrie plus durable qu'aucun d'eux n'avait intégralement prévue.
+L'enquête regarde l'architecture. Le résultat total n'a pas été conçu par un pilote unique. Plusieurs de ses strates ont toutefois été ajoutées avec des fonctions locales conscientes : la délégation de l'exercice de la souveraineté en 1791, la sélection sociale des électeurs en 1795, le renforcement de l'exécutif en 1958, l'alignement des calendriers électoraux en 2000-2001. Aucun de leurs auteurs n'a dessiné le résultat de 2026. Mais leur accumulation a produit une asymétrie plus durable qu'aucun d'eux n'avait intégralement prévue.
 
 ---
 
@@ -399,7 +399,7 @@ En 2019, des députés proposent un RIC législatif, abrogatif, révocatoire et 
 
 En 2023, une proposition sénatoriale cherche à assouplir le RIP, notamment en abaissant certains seuils et en créant une procédure commençant par les citoyens. Le rapport reconnaît que le mécanisme existant est resté théorique et qualifie certains obstacles de « herses juridiques ». La commission n'adopte pas le texte, en affirmant que la démocratie participative ne doit pas porter atteinte au rôle essentiel du Parlement. Le rapport du Sénat expose ainsi le conflit sans détour : accroître l'initiative citoyenne, mais empêcher qu'elle ne contourne la représentation. Puis, le 22 novembre, le Sénat rejette la proposition par 224 voix contre 102 ; les 131 votants du groupe Les Républicains présents dans le scrutin votent tous contre, tandis que 63 des 64 membres du groupe Socialiste, écologiste et républicain votent pour.
 
-En février 2026, la commission des lois de l'Assemblée adopte une proposition de RIC délibératif, comprenant des dimensions constituante, législative et locale. Elle est inscrite le 12 février dans la journée réservée au groupe Écologiste et social. Mais l'Assemblée ne peut pas l'examiner avant minuit, après les textes qui la précèdent. Ni adoption. Ni rejet. Ce cas ne démontre pas, à lui seul, une obstruction intentionnelle. Il montre plus froidement qu'un texte peut franchir une commission et mourir provisoirement par épuisement du temps d'ordre du jour. Au 29 juillet 2026, il n'a pas abouti à une révision constitutionnelle.
+En février 2026, la commission des lois de l'Assemblée adopte une proposition de RIC délibératif, comprenant des dimensions constituante, législative et locale. Elle est inscrite le 12 février dans la journée réservée au groupe Écologiste et social. Mais l'Assemblée ne peut pas l'examiner avant minuit, après les textes qui la précèdent. Ni adoption. Ni rejet. Ce cas ne démontre pas, à lui seul, une obstruction intentionnelle. Il montre plus froidement qu'un texte peut franchir une commission et rester sans examen en séance par épuisement du temps d'ordre du jour. Au 29 juillet 2026, il n'a pas abouti à une révision constitutionnelle.
 
 Ces faits interdisent trois simplifications :
 
