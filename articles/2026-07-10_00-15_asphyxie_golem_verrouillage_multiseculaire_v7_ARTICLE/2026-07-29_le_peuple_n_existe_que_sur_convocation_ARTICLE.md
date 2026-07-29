@@ -52,7 +52,7 @@ Les **citoyens** sont des personnes réelles, titulaires de droits et de devoirs
 
 La **Nation** est une personne politique abstraite. Elle ne se réduit ni aux électeurs du jour, ni à une génération, ni à l'addition des intérêts particuliers. Elle permet de penser une volonté commune continue, au-delà des individus présents.
 
-Le **peuple**, dans l'ordre constitutionnel, désigne notamment le corps des citoyens lorsqu'il est juridiquement constitué pour exercer la souveraineté : lors d'une élection ou d'un référendum.
+Le **peuple**, dans l'ordre constitutionnel, désigne notamment le corps des citoyens lorsqu'il est juridiquement constitué pour exercer la souveraineté : lors d'une élection ou d'un référendum. Dans cet article, j'appelle **peuple décidant** le corps électoral lorsqu'il est juridiquement constitué pour produire une décision par l'élection ou le référendum.
 
 Ces réalités se recouvrent sans se confondre.
 
@@ -99,7 +99,9 @@ L'article 39 réserve l'initiative des lois au Premier ministre et aux membres d
 
 Une exception importante empêche de caricaturer ce constat. À l'occasion d'un procès, un justiciable peut soulever une question prioritaire de constitutionnalité. Si les filtres juridictionnels sont franchis et si le Conseil constitutionnel lui donne raison, la disposition contestée peut être abrogée. Véritable pouvoir d'impulsion individuel. Mais ce n'est ni l'initiative d'une politique publique, ni un veto populaire : la contestation doit naître dans un litige, porter sur les droits et libertés constitutionnels, être transmise par les juges, puis être tranchée par le Conseil constitutionnel.
 
-L'article 27 déclare nul tout mandat impératif. Le parlementaire n'est pas juridiquement tenu d'exécuter le programme sur lequel il a été élu, ni les instructions ultérieures de ses électeurs. Ce principe protège sa liberté de délibération. Il protège aussi son changement de position contre toute sanction populaire avant l'échéance.
+Il existe par ailleurs des droits d'impulsion qu'il faut distinguer de l'initiative décisionnelle. Une pétition peut saisir le Conseil économique, social et environnemental ; les assemblées parlementaires disposent de plateformes pouvant conduire à un débat ; au niveau local, l'article 72-1 permet de demander l'inscription d'une question à l'ordre du jour. Ces mécanismes peuvent obliger à recevoir, examiner ou répondre. Aucun ne permet à un seuil de citoyens de provoquer, à lui seul, un vote populaire national sur une loi ou une révision constitutionnelle.
+
+L'article 27 déclare nul tout mandat impératif. Le parlementaire n'est pas juridiquement tenu d'exécuter le programme sur lequel il a été élu, ni les instructions ultérieures de ses électeurs. L'article 27 protège la liberté de vote du parlementaire contre toute instruction juridiquement obligatoire. Séparément, le droit français ne prévoit aucune procédure permettant aux électeurs de mettre fin à son mandat avant l'échéance. Le mandat est donc libre dans son contenu et protégé dans sa durée, hors les causes de cessation prévues par le droit.
 
 L'article 89 réserve l'initiative de la révision constitutionnelle au président de la République, sur proposition du Premier ministre, et aux membres du Parlement. Le peuple peut être appelé à ratifier une révision. Il ne peut pas l'engager.
 
@@ -115,7 +117,7 @@ Le RIP n'est pas un RIC défectueux.
 
 C'est exactement ce que dit la Constitution : **une initiative parlementaire soutenue par des électeurs**.
 
-Cette absence d'initiative citoyenne nationale n'est pas un angle mort du débat public. Les strates de verrouillage, constitutionnelles et supranationales, qui maintiennent le RIC hors d'atteinte malgré un soutien populaire documenté ont été cartographiées ailleurs.
+Cette absence d'initiative citoyenne nationale n'est pas un angle mort du débat public. Les strates de verrouillage constitutionnel qui maintiennent le RIC hors d'atteinte malgré un soutien populaire documenté ont été cartographiées ailleurs.
 
 La même distribution apparaît partout :
 
@@ -279,7 +281,7 @@ La résistance à cette architecture prend trois formes. Aucune ne confère l'in
 
 **La voie de la rue.** La mobilisation peut augmenter le coût politique d'une décision, obtenir des concessions, parfois faire reculer un gouvernement. Mais elle ne peut pas déclencher un arbitrage populaire, abroger une loi, ni initier une révision constitutionnelle.
 
-**La voie juridictionnelle.** La QPC, le juge administratif, la Cour de cassation peuvent annuler, censurer, condamner. Mais ils contrôlent la légalité des actes, pas l'opportunité des choix politiques. Et la saisine est filtrée : il faut un litige, un juge qui accepte de transmettre, une juridiction suprême qui accepte de renvoyer.
+**La voie juridictionnelle.** Un citoyen peut contester un acte administratif devant le juge compétent et, au cours d'un litige, soulever une question prioritaire de constitutionnalité contre une disposition législative portant atteinte aux droits et libertés constitutionnels. La QPC est filtrée par la juridiction saisie, puis par le Conseil d'État ou la Cour de cassation, avant une éventuelle décision du Conseil constitutionnel. Ces recours peuvent faire annuler un acte, engager une responsabilité ou conduire à l'abrogation d'une disposition. Ils contrôlent le droit ; ils ne permettent pas aux citoyens d'imposer l'arbitrage politique national d'une réforme.
 
 Ces trois séquences testent trois capacités d'influence : voter, mobiliser, contester en justice. Chacune peut modifier le cours politique ; aucune ne confère aux citoyens un droit autonome d'imposer un arbitrage populaire national.
 
@@ -308,7 +310,7 @@ La leçon n'est pas : « le vote de 2005 n'a servi à rien ».
 
 Elle est plus précise et plus grave :
 
-> **Un refus populaire portant sur un objet unique peut être politiquement remplacé par une autorisation électorale globale, sans que les citoyens disposent du droit d'exiger un nouvel arbitrage sur l'objet reformulé.**
+> **Un refus populaire portant sur un objet unique peut être politiquement contourné par l'élection d'un candidat ayant annoncé une ratification parlementaire d'un traité simplifié, sans que les citoyens disposent du droit d'exiger un nouvel arbitrage sur l'objet reformulé.**
 
 Le peuple a fermé une voie. Les institutions ont conservé la maîtrise de la prochaine voie, du prochain texte et du prochain mode de ratification.
 
@@ -368,7 +370,7 @@ Le second consiste à faire de la France une anomalie unique, comme si toute dé
 - **Allemagne fédérale.** Pas d'initiative législative citoyenne générale. Votes directs surtout dans les Länder, exception fédérale liée à la réorganisation territoriale. Limites : modèle fédéral national fortement représentatif.
 - **Royaume-Uni.** Référendums autorisés au cas par cas par le Parlement. Le peuple décide politiquement lorsque le scrutin est organisé. Limites : aucun droit citoyen général de déclenchement.
 
-Les seuils suisses sont détaillés par la Chancellerie fédérale. Le référendum abrogatif italien est prévu par l'article 75 de la Constitution, et l'initiative législative populaire par son article 71. La Constitution bavaroise prévoit que les lois peuvent être adoptées par le peuple et qu'un dixième des électeurs peut soutenir un projet, hors budget. En Irlande, toute proposition de révision doit partir du Dáil avant d'être obligatoirement soumise au peuple, selon la procédure de l'Oireachtas. Au niveau fédéral allemand, le vote direct est essentiellement prévu pour la réorganisation territoriale, tandis que les Länder disposent de mécanismes plus étendus ; au Royaume-Uni, les référendums nationaux restent organisés au cas par cas par le Parlement (Allemagne, Royaume-Uni).
+Les seuils suisses sont détaillés par la Chancellerie fédérale. Le référendum abrogatif italien est prévu par l'article 75 de la Constitution, et l'initiative législative populaire par son article 71. La Constitution bavaroise prévoit que les lois peuvent être adoptées par le peuple et qu'un dixième des électeurs peut soutenir un projet, hors budget. En Irlande, toute proposition de révision doit partir du Dáil avant d'être obligatoirement soumise au peuple, selon la procédure de l'Oireachtas. Au niveau fédéral allemand, le vote direct est essentiellement prévu pour la réorganisation territoriale, tandis que les Länder disposent de mécanismes plus étendus ; au Royaume-Uni, les référendums nationaux restent organisés au cas par cas par le Parlement.
 
 Aucun modèle ne réalise une souveraineté populaire pure. Tous répartissent différemment quatre pouvoirs :
 
@@ -428,7 +430,7 @@ Le système n'est pas gardé par une caste immuable réunie dans une pièce.
 
 Il est reproduit par des coalitions variables d'acteurs qui, pour des raisons sincères, doctrinales, partisanes ou intéressées, conservent collectivement un résultat constant : **en l'état actuel du droit, aucun seuil purement citoyen ne peut faire comparaître le souverain national**.
 
-L'asymétrie n'est pas seulement juridique. Entre deux élections, le temps politique n'est pas vide : il est occupé par ceux qui disposent d'une organisation permanente, d'une expertise et d'un accès continu aux décideurs : partis, syndicats, entreprises, administrations. Le bulletin de vote est égal. L'accès continu à la fabrication de la décision ne l'est pas. Les citoyens interviennent épisodiquement ; les intérêts organisés interviennent quotidiennement. Le monopole de l'initiative est ainsi redoublé par une asymétrie des moyens.
+L'asymétrie n'est pas seulement juridique. Entre deux élections, le temps politique n'est pas vide : il est occupé par ceux qui disposent d'une organisation permanente, d'une expertise et d'un accès continu aux décideurs : partis, syndicats, entreprises, administrations. Le bulletin de vote est égal. L'accès continu à la fabrication de la décision ne l'est pas. À cette asymétrie juridique peut s'ajouter une asymétrie de ressources : les organisations permanentes disposent d'un accès, d'une expertise et d'une continuité d'action que les citoyens non organisés possèdent rarement. Cette question, distincte du verrou constitutionnel démontré ici, exige toutefois sa propre enquête.
 
 ---
 
@@ -471,7 +473,7 @@ Il oppose :
 
 Le principe minimal pourrait tenir en une phrase :
 
-> Un seuil vérifié de citoyens doit pouvoir déclencher un processus national contraignant conduisant à un examen et à un vote parlementaires obligatoires, puis, en cas de rejet et sous un seuil supérieur, à un référendum.
+> Un seuil vérifié de citoyens doit pouvoir déclencher un processus national contraignant conduisant à un examen et à un vote parlementaires obligatoires, puis, en cas de rejet et si un seuil supérieur est atteint, à un référendum.
 
 Cette architecture ne fait pas de chaque pétition une loi. Elle ne supprime ni les représentants, ni les juges, ni la délibération. Elle retire aux institutions un seul monopole : celui de décider si la demande citoyenne mérite même d'être arbitrée.
 
@@ -493,11 +495,11 @@ Dire que le peuple est souverain sans examiner ses compétences l'est tout autan
 
 Le système français organise une démocratie élective dans laquelle les citoyens désignent les gouvernants, peuvent les sanctionner à terme et décident lorsqu'un référendum leur est soumis. Il réserve presque entièrement aux organes constitués le pouvoir de transformer une question en décision nationale.
 
-Ce monopole n'est pas apparu par accident.
+Ce monopole ne résulte ni d'un accident unique ni d'un plan unique. Il procède de choix successifs, parfois explicitement restrictifs, parfois motivés par d'autres objectifs, puis de l'absence répétée de réforme du pouvoir d'initiative.
 
-En 1791, l'exercice de la souveraineté nationale par délégation est consciemment constitutionnalisé. En 1795, la crainte du désordre populaire se double explicitement d'une sélection sociale. En 1958, l'exécutif est renforcé sans compensation citoyenne. En 1962 et 1969, le peuple démontre sa force lorsqu'un président choisit de l'appeler. En 2001, la concentration présidentielle est renforcée malgré des effets annoncés. En 2005, un non précis est suivi d'une autre voie institutionnelle après une autorisation électorale plus générale. En 2019, le transfert d'initiative est renvoyé par un vote de la majorité présidentielle ; en 2023, il est rejeté par la majorité sénatoriale ; en 2026, un autre projet franchit la commission mais n'atteint pas l'examen en séance avant l'expiration de son créneau.
+En 1791, l'exercice de la souveraineté nationale par délégation est consciemment constitutionnalisé. En 1795, la crainte du désordre populaire se double explicitement d'une sélection sociale. En 1958, l'exécutif est renforcé sans compensation citoyenne. En 1962 et 1969, le peuple démontre sa force lorsqu'un président choisit de l'appeler. En 2001, la concentration présidentielle est renforcée malgré des effets annoncés. En 2005, un texte déterminé est rejeté ; en 2007, un candidat ayant annoncé une ratification parlementaire d'un traité simplifié est élu ; en 2008, un autre texte reprenant une part importante des innovations institutionnelles est ratifié sans nouveau référendum. En 2019, le transfert d'initiative est renvoyé par un vote de la majorité présidentielle ; en 2023, il est rejeté par la majorité sénatoriale ; en 2026, un autre projet franchit la commission mais n'atteint pas l'examen en séance avant l'expiration de son créneau.
 
-Aucun pilote unique. Pure continuité fonctionnelle.
+Aucun pilote unique. Une continuité de résultat produite par des choix hétérogènes.
 
 À chaque strate, les raisons changent : unité nationale, compétence, propriété, ordre, stabilité, efficacité, protection des droits, défense du Parlement. Certaines sont sincères et fondées. D'autres protègent aussi des positions acquises.
 
@@ -515,7 +517,7 @@ C'est de décider quand une multitude de citoyens aura le droit de devenir le pe
 
 Tant que les citoyens ne disposeront d'aucune procédure autonome pour provoquer cette transformation, la République pourra continuer à proclamer leur souveraineté tout en conservant sa clé.
 
-La Suisse a institué le référendum facultatif en 1874 puis l'initiative constitutionnelle en 1891. La Bavière en a fait un pilier de sa Constitution. L'Italie a inscrit le référendum abrogatif dans sa Constitution de 1948, rendu effectif par la loi d'application de 1970. La France, depuis que la Déclaration de 1789 a placé la souveraineté dans la Nation, maintient le monopole. Non par incapacité technique : la comparaison l'a montré. Par choix institutionnel continu.
+La Suisse a institué le référendum facultatif en 1874 puis l'initiative constitutionnelle en 1891. La Bavière en a fait un pilier de sa Constitution. L'Italie a inscrit le référendum abrogatif dans sa Constitution de 1948, rendu effectif par la loi d'application de 1970. La France, depuis que la Déclaration de 1789 a placé la souveraineté dans la Nation, maintient le monopole. Ce n'est pas une impossibilité technique. C'est un état institutionnel maintenu jusqu'ici par des textes, des décisions et des non-réformes identifiables.
 
 Le peuple ne sera pas absent.
 
@@ -540,23 +542,57 @@ Sa proposition centrale peut être falsifiée simplement : il suffirait d'identi
 
 ## Sources essentielles
 
+### Textes constitutionnels et législatifs
+
 - [Déclaration des droits de l'homme et du citoyen de 1789 : Conseil constitutionnel](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789)
-- [Discours de Sieyès du 7 septembre 1789 : Archives parlementaires/Persée](https://www.persee.fr/doc/arcpa_0000-0000_1875_num_8_1_4952_t2_0592_0000_6)
 - [Constitution de 1791 : Conseil constitutionnel](https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/constitution-de-1791)
 - [Constitution du 24 juin 1793 : Conseil constitutionnel](https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/constitution-du-24-juin-1793)
 - [Constitution du 5 fructidor an III : Conseil constitutionnel](https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/constitution-du-5-fructidor-an-iii)
 - [Constitution du 4 octobre 1958 : Légifrance](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571356/)
+- [Article 3 de la Constitution de 1958 : Légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019240995)
+- [Article 11 (référendum et RIP) : Légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241004)
+- [Article 27 (mandat impératif) : Légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006527492)
+- [Article 39 (initiative des lois) : Légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241026)
+- [Article 61-1 (question prioritaire de constitutionnalité) : Légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241077)
+- [Article 62 (abrogation par le Conseil constitutionnel) : Légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241079)
+- [Article 89 (révision constitutionnelle) : Légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019240655)
+- [Constitution italienne, article 71 (initiative législative populaire) : Sénat italien](https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-ii/articolo-71)
+- [Constitution italienne, article 75 (référendum abrogatif) : Sénat italien](https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-ii/articolo-75)
+- [Loi italienne n° 352 du 25 mai 1970 (application du référendum) : Sénat italien](https://www.senato.it/show-doc?id=1105761&idoggetto=0&leg=18&part=dossier_dossier1-sezione_sezione13&tipodoc=DOSSIER)
+- [Constitution bavaroise : Landtag de Bavière](https://www.bayern.landtag.de/fileadmin/Internet_Dokumente/Oeffarbeit_Paed_Betreuung/BV_Franz_Fassung_Stand_2003_BF.pdf)
+
+### Sources historiques
+
+- [Discours de Sieyès du 7 septembre 1789 : Archives parlementaires/Persée](https://www.persee.fr/doc/arcpa_0000-0000_1875_num_8_1_4952_t2_0592_0000_6)
+- [Présentation historique du Directoire : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/constitution-de-l-an-iii-le-directoire)
+- [Le parlementarisme rationalisé de 1958 : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/cinquieme-republique/la-constitution-de-1958-et-l-instauration-de-la-ve-republique)
+- [Référendum de 1962 (élection présidentielle au suffrage universel) : Vie-publique](https://www.vie-publique.fr/fiches/38016-la-revision-constitutionnelle-et-le-referendum-de-1962)
+- [Démission du général de Gaulle (28 avril 1969) : Élysée](https://www.elysee.fr/charles-de-gaulle)
+- [Discours de Nicolas Sarkozy sur le traité simplifié (12 septembre 2006) : Vie-publique](https://www.vie-publique.fr/discours/165602-declaration-de-m-nicolas-sarkozy-ministre-de-linterieur-et-de-lamena)
+- [Débat sénatorial sur l'inversion du calendrier électoral (30 janvier 2001) : Sénat](https://www.senat.fr/seances/s200101/s20010130/sc20010130023.html)
+
+### Sources parlementaires et juridictionnelles
+
 - [Référendums de la Cinquième République : Conseil constitutionnel](https://www.conseil-constitutionnel.fr/referendum-sous-la-ve-republique/tableau-recapitulatif-des-referendums-de-la-veme-republique)
 - [Étude annuelle 2024, *La souveraineté* : Conseil d'État](https://www.conseil-etat.fr/content/download/217844/document/souverainete_2024_web.pdf)
-- [Rapport sur le traité de Lisbonne : Assemblée nationale](https://www.assemblee-nationale.fr/13/europe/rap-info/i0562-t1.asp)
+- [Rapport sur le traité de Lisbonne (tableau comparatif TCE) : Assemblée nationale](https://www.assemblee-nationale.fr/13/europe/rap-info/i0562-t2.asp)
 - [Décision finale sur le RIP Aéroports de Paris : Conseil constitutionnel](https://www.conseil-constitutionnel.fr/decision/2020/201919RIP.htm)
 - [Proposition de RIC de 2019 : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/15/dossiers/possibilite_referendums_initiative_citoyenne)
+- [Scrutin n° 1712 du 21 février 2019 (motion de renvoi RIC) : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/15/scrutins/1712)
 - [Rapport sénatorial de 2023 sur le RIP : Sénat](https://www.senat.fr/rap/l23-099/l23-0991.pdf)
+- [Scrutin n° 64 du 22 novembre 2023 (rejet RIP) : Sénat](https://www.senat.fr/scrutin-public/2023/scr2023-64.html)
 - [Proposition de RIC délibératif de 2026 : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/17/dossiers/instaurer_referendum_initiative_citoyenne_deliberatif_17e)
+- [Journée réservée du groupe Écologiste et social (12 février 2026) : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/journee-reservee-du-groupe-ecos-adoption-et-examen-de-plusieurs-propositions-de-loi)
+
+### Droit comparé
+
 - [Droits populaires fédéraux : Chancellerie fédérale suisse](https://www.bk.admin.ch/dam/de/sd-web/5IGPIvvgJgPa/abc_der_politischenrechte.pdf)
-- [Constitution italienne, article 75 : Sénat italien](https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-ii/articolo-75)
-- [Constitution bavaroise : Landtag de Bavière](https://www.bayern.landtag.de/fileadmin/Internet_Dokumente/Oeffarbeit_Paed_Betreuung/BV_Franz_Fassung_Stand_2003_BF.pdf)
+- [Vote direct et référendums en Allemagne fédérale : Bundestag](https://www.bundestag.de/resource/blob/529470/427bd34cf00cb84e5c02c0e91b7bfb72/wd-3-162-17-pdf-data.pdf)
+- [Référendums au Royaume-Uni : Parlement britannique](https://publications.parliament.uk/pa/ld200910/ldselect/ldconst/99/99.pdf)
 - [Révision constitutionnelle en Irlande : Houses of the Oireachtas](https://data.oireachtas.ie/ie/oireachtas/libraryResearch/2024/2024-03-06_l-rs-infographic-amending-bunreacht-na-heireann-constitution-of-ireland_en.pdf)
+
+### Pour prolonger l'enquête
+
 - [Le verrou invisible : anatomie du RIC français, 237 ans d'absence documentée : Substack](https://giak.substack.com/p/le-verrou-invisible-anatomie-du-ric)
 - [Le changement de régime : pourquoi ce système ne peut pas se réformer : Substack](https://giak.substack.com/p/le-changement-de-regime-pourquoi)
 - [19 civilisations, 5000 ans, une leçon : la France n'est pas le modèle, elle est l'exception : Substack](https://giak.substack.com/p/19-civilisations-5000-ans-une-lecon)
