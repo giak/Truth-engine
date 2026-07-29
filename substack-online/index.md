@@ -1,7 +1,7 @@
 # 📚 Index Central des Posts Substack
 
 > **Objectif :** Référencer tous les articles publiés avec sous-titre et mots-clés pour éviter de lire le HTML.
-> **Mise à jour :** 2026-07-07
+> **Mise à jour :** 2026-07-29
 > **Source :** `substack-online/posts.csv` + `posts/*.html`
 
 ---
@@ -10,7 +10,7 @@
 
 | Métrique | Valeur |
 |----------|--------|
-| **Total posts publiés** | **114** |
+| **Total posts publiés** | **117** |
 | **Période** | Novembre 2025 → Juillet 2026 |
 | **Mois le plus productif** | Mai 2026 (23 posts) |
 | **Série Le Changement de Régime** | 18 articles (30 mai 2026) |
@@ -23,6 +23,7 @@
 
 | # | Date | Titre & Sous-titre | Mots-clés | Thèse |
 |---|------|--------------------|-----------|-------|
+| 117 | 2026-07-28 | [🎬 La fabrique de la menace : comment le documentaire d'Arte transforme une coopération réelle en guerre totale](https://giak.substack.com/p/la-fabrique-de-la-menace-comment) — *Autopsie d'un dispositif de persuasion : six actes, vingt-huit séquences, une destination.* | médias, manipulation, géopolitique, Arte, désinformation | Analyse forensique du documentaire Arte « Russie, Chine, Iran : la revanche des empires » (94 min, mai 2024). Six actes narratifs démontés séquence par séquence : agrégation (52 pays), militarisation (« machine de guerre contre l'Occident » assumée par la voix off), totalisation (« ensemble ou séparément »), absorption (crises intérieures), téléologie (BRICS comme « plan »), prescription (« destin de puissance militaire »). Thèse : le film ne ment pas sur les faits mais les organise en manipulation narrative systématique. 28 séquences vérifiées, 19 sources. |
 | 116 | 2026-07-12 | [🔒 La honte française : du tortionnaire Sisi aux soldats de Zelensky, une décennie de complicité (2014-2026)](https://giak.substack.com/p/la-honte-francaise-du-tortionnaire-sisi-aux-soldats-de-zelensky) — *Ce que le 14 juillet 2026 expose n'est pas une chute. C'est un choix. Enquête forensique sur une décennie où le discours sur les valeurs a masqué la complicité avec les tortionnaires, les saboteurs et les dictateurs.* | Macron, Ukraine, corruption, dictature, médias, démocratie | 9 sections, 20 faits sourcés, 8 faisceaux forensiques : de Sisi (2020) à Zelensky (2026), en passant par Nord Stream, Biolabs, Burisma et la traite des femmes ukrainiennes. |
 | 115 | 2026-07-10 | [🔒 L'asphyxie du Golem v7 : dérives systémiques d'un verrouillage français (1789-2026) — 5684 mots, 7 actions CP2 appliquées](https://giak.substack.com/p/lasphyxie-du-golem-derives-systemiques-1789-2026) — *237 ans d'absence d'initiative populaire, 8 épisodes de résistance documentés, et le dédoublement anesthésiant extraction/redistribution.* | verrouillage multiséculaire, ρ multi-phases, sources institutionnelles | 14 sections, sourcing CEPEJ/INSEE/Cour des comptes/DREES, ρ 3 sous-catégories, T6 supprimé |
 | 114 | 2026-07-09 | [🔒 L'asphyxie du Golem : anatomie forensique d'un verrouillage français qui ne s'est jamais refermé (1789-2026)](https://giak.substack.com/p/lasphyxie-du-golem-verrouillage-multiseculaire-fr) — *237 ans d'absence de souveraineté directe, 6 fuseaux de résistance endogène, et la saturation thermodynamique d'un système qui s'épuise en verrouillant.* | système, démocratie, résistance | 12 stations chronologiques 1789-2026, anatomie forensique d'un verrouillage multiséculaire, ρ multi-phases 6 fuseaux (Mai 68, Juppé 1995, TCE 2005, GJ 2018, Cassation 2025, CNIL 2025, CJR 2025). |
