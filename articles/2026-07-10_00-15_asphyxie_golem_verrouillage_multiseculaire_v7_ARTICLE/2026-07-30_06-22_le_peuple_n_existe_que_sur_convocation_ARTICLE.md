@@ -6,135 +6,550 @@
 
 ## §0. Thèse et périmètre
 
-Cet article prolonge deux enquêtes antérieures : **🔒 [Le verrou invisible : anatomie du RIC (référendum d'initiative citoyenne) français, 237 ans d'absence documentée](https://giak.substack.com/p/le-verrou-invisible-anatomie-du-ric)** et **🔄 [Le changement de régime : pourquoi ce système ne peut pas se réformer](https://giak.substack.com/p/le-changement-de-regime-pourquoi)**. Sa thèse tient en une formule :
+Cet article prolonge deux enquêtes antérieures : **🔒 [Le verrou invisible : anatomie du RIC (référendum d'initiative citoyenne) français, 237 ans d'absence documentée](https://giak.substack.com/p/le-verrou-invisible-anatomie-du-ric)** et **🔄 [Le changement de régime : pourquoi ce système ne peut pas se réformer](https://giak.substack.com/p/le-changement-de-regime-pourquoi)**. Sa thèse tient en une phrase :
 
-> Le peuple français est proclammé souverain dans les textes et consulté lors des scrutins, mais il demeure dépouillé du premier des pouvoirs politiques : l'initiative. Il possède le droit de répondre aux questions qu'on lui pose, jamais celui d'inscrire sa propre volonté à l'ordre du jour. Il n'existe institutionnellement que sur convocation.
-
----
-
-## 1. Dix millions de citoyens ne font pas encore un souverain
-
-Dix millions de citoyens français pourraient inscrire une même exigence sur un même registre, faire certifier leurs identités par les officiers de la République, rédiger un texte d'une rigueur juridique irréprochable et s'accorder jusqu'au dernier sur l'urgence d'un vote national : l'architecture des institutions n'en serait pas ébranlée d'un millimètre. Ils n'auraient pas le pouvoir d'inscrire leur proposition à l'ordre du jour d'une assemblée, ni de contraindre un gouvernement à la délibération, ni de provoquer l'arbitrage du pays. Ils auraient le droit de pétitionner, de manifester sous les fenêtres du pouvoir, de créer une association ou de fonder un parti pour l'échéance suivante. Ils ne disposeraient d'aucun levier pour transformer leur consentement ou leur refus en une décision nationale contraignante.
-
-L'article 3 de la Constitution de 1958 affirme que la souveraineté nationale appartient au peuple, qui l'exerce par ses représentants et par la voie du référendum. La formule paraît sceller le principe ; elle dissimule l'asymétrie. Elle définit l'auteur de la légitimité et les canaux de son expression, mais elle tait l'essentiel : qui détient la clé d'activation des procédures ? L'élection survient selon un calendrier fixé par la loi ; le référendum n'émerge que si une autorité constituée décide de l'ouvrir. Hors de ces fenêtres réglementées, la multitude des citoyens demeure titulaire de droits civils et politiques, mais elle se trouve privée de toute capacité à se constituer d'elle-même en corps souverain décidant.
-
-Le débat public s'épuise dans la traque des personnes : on accuse un ministre, on combat un parti, on dénonce une décision. Cette focalisation sur les acteurs épargne la mécanique. Le système politique contemporain n'est pas le produit d'un complot unique ou d'un dessin totalisateur. Il découle de l'accumulation de strates historiques dont chacune répondait à une intention précise : la délégation représentative sous la Révolution, le filtrage social sous le Directoire, la prééminence de l'exécutif sous la Cinquième République, puis l'alignement des calendriers électoraux à l'aube du XXIe siècle. De cet empilement procède un verrouillage plus durable qu'aucun de ses concepteurs n'aurait pu intégralement anticiper.
+> Le peuple français est souverain dans les textes, électeur en pratique. Mais il ne possède pas le premier des pouvoirs politiques : le déclenchement. Il a le droit de répondre, jamais celui de poser la question. Il n'existe que sur convocation.
 
 ---
 
-## 2. La tripartition occultée : Nation, peuple, citoyens
+## Dix millions de citoyens ne font pas encore un souverain
 
-L'illusion démocratique s'entretient par la confusion de trois notions que le langage politique moderne emploie comme des synonymes : les citoyens, la Nation et le peuple.
+Prenons dix millions de citoyens français.
 
-Les citoyens désignent les personnes physiques réelles, titulaires de droits subjectifs et de devoirs légaux, qui travaillent, délibèrent, contestent et subissent quotidiennement les décisions de l'État. La Nation constitue une personne morale abstraite, transgénérationnelle, indivisible, incarnant la continuité de la communauté politique au-delà des individus vivants. Le peuple, dans l'ordre juridique strict, ne se confond ni avec l'ensemble des habitants ni avec la somme des volontés individuelles : il désigne le corps électoral au moment exact où les textes le constituent pour exercer un acte de souveraineté.
+Supposons leurs identités vérifiées. Supposons leur demande claire, licite, rédigée avec précision. Supposons qu'ils réclament tous la même chose : l'examen d'une loi, l'abrogation d'une réforme, un référendum sur un traité ou une modification de la Constitution.
 
-Dès 1789, l'article 3 de la Déclaration des droits de l'homme et du citoyen fonde la légitimité non pas dans le peuple concret, mais dans le principe de la Nation. La Constitution de 1791 formalise la rupture en énonçant que la Nation, de qui seule émanent tous les pouvoirs, ne peut les exercer que par délégation. La construction juridique résout un problème pratique réel, car des millions de volontés dispersées ne fabriquent pas spontanément un texte de loi. Mais elle accomplit simultanément une opération décisive : elle sépare la source théorique du pouvoir des individus réels qui composent le pays.
+Que peuvent-ils déclencher par eux-mêmes ?
 
-En 1958, la rédaction constitutionnelle cherche une synthèse en affirmant que la souveraineté nationale appartient au peuple. Comme l'a rappelé le Conseil d'État dans son étude annuelle de 2024 consacrée à la souveraineté, cette formule hybride juxtapose la tradition représentative de la souveraineté nationale et l'inspiration démocratique de la souveraineté populaire. De cette tension dérive le paradoxe français : le peuple est proclamé source de toute légitimité, mais ses représentants s'expriment au nom d'une Nation abstraite, interdisant aux citoyens réels de revendiquer un droit d'initiative autonome.
+Pas une proposition de loi nationale au sens constitutionnel. Pas son inscription obligatoire à l'ordre du jour. Pas un référendum. Pas l'abrogation politique d'une loi. Pas une révision constitutionnelle. Pas la révocation d'un élu national. Pas même un scrutin permettant de vérifier si leur position est devenue majoritaire dans le pays.
 
-On objecte souvent qu'une pétition, une manifestation ou un sondage ne sauraient tenir lieu de volonté générale, car ils ne garantissent ni l'universalité du corps électoral, ni l'égalité de la campagne, ni le secret du vote. L'argument est incontestable, mais il se retourne contre l'institution : le problème n'est pas qu'une foule ou une pétition ne puisse pas légiférer directement ; le problème est qu'aucune procédure n'autorise un seuil massif de citoyens à déclencher la tenue d'un scrutin officiel pour vérifier si leur exigence est devenue majoritaire dans le pays. La République ne refuse pas seulement de s'incliner devant une opinion : elle interdit au corps électoral de se convoquer lui-même pour l'évaluer.
+Ils peuvent pétitionner, manifester, financer une campagne, créer une association ou un parti, saisir certaines institutions, convaincre des parlementaires, peser sur l'opinion, préparer l'élection suivante. Libertés réelles. Aucunement accessoires.
 
----
+Aucune ne transforme leur demande en décision nationale opposable (juridiquement contraignante pour les institutions).
 
-## 3. L'architecture du verrou constitutionnel
+L'article 3 de la Constitution de 1958 affirme :
 
-L'examen froid des compétences attribuées par la Constitution du 4 octobre 1958 met à nu la répartition des clés du pouvoir. L'article 39 réserve l'initiative des lois au Premier ministre et aux membres du Parlement, interdisant à toute proposition d'origine citoyenne de franchir le seuil des assemblées sans le parrainage d'un ayant droit constitutionnel. L'article 89 confie l'initiative de la révision de la Constitution au président de la République sur proposition du Premier ministre, ainsi qu'aux parlementaires, reléguant le peuple au rôle d'organe de ratification éventuel. L'article 27 prohibe le mandat impératif, garantissant aux élus l'indépendance absolue de leur vote face à leurs mandants, tandis qu'aucun mécanisme de rappel ou de révocation en cours de mandat n'existe dans le droit national.
+> « La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum. »
 
-L'accès au référendum relève du même monopole. Aux termes de l'article 11, la décision d'appeler le corps électoral appartient au président de la République, sur proposition du gouvernement ou des deux assemblées. La réforme constitutionnelle de 2008 a introduit le Référendum d'Initiative Partagée (RIP), souvent présenté à tort comme une concession au référendum d'initiative citoyenne. L'analyse du texte dissipe l'équivoque : le mécanisme exige une initiative initiale émanant d'un cinquième des membres du Parlement (soit 185 députés ou sénateurs) avant de pouvoir être soutenue par un dixième des électeurs inscrits (soit environ 4,7 millions de signatures). Les citoyens n'ont aucun moyen d'initier la procédure ; ils ne peuvent que venir en appui d'un texte rédigé et porté par la représentation nationale. Plus encore, l'obligation d'organiser le scrutin référendaire s'évanouit si les deux chambres choisissent simplement d'examiner la proposition dans les délais prévus, sans même avoir à l'adopter. L'expérience de la privatisation d'Aéroports de Paris en 2019-2020 a démontré la portée de ce dispositif : en dépit du franchissement du contrôle de constitutionnalité et du recueil de plus d'un million de soutiens certifiés, le processus est demeuré entièrement tributaire du calendrier et de la volonté des chambres.
+La phrase paraît résoudre la question. Elle la dissimule.
 
-Les voies de droit ouvertes aux individus ne sauraient pallier cette absence d'initiative politique. La création de la Question Prioritaire de Constitutionnalité (article 61-1) permet certes à tout justiciable de contester la conformité d'une loi aux droits et libertés garantis par la Constitution, pouvant conduire à son abrogation par le Conseil constitutionnel (article 62). Mais ce pouvoir d'impulsion reste judiciaire, défensif et circonscrit au respect des normes supérieures : il ne permet en aucun cas de proposer une orientation publique, d'abroger une loi pour des motifs d'opportunité politique ou d'imposer un arbitrage populaire. De même, les droits de pétition auprès du Conseil économique, social et environnemental ou des assemblées parlementaires, tout comme le droit de pétition local prévu à l'article 72-1, peuvent contraindre une institution à écouter ou à délibérer ; aucun ne confère le pouvoir d'imposer un scrutin contraignant.
+Elle dit **qui** est souverain et **comment** il exerce sa souveraineté. Elle ne dit pas **qui décide du moment où l'une ou l'autre voie sera ouverte**.
 
----
+L'élection survient selon un calendrier fixé par le droit. Le référendum survient lorsqu'une procédure contrôlée par des autorités constituées l'autorise. Hors de ces rendez-vous, les citoyens restent titulaires de droits politiques, mais ils ne peuvent se constituer eux-mêmes en corps national décidant.
 
-## 4. La souveraineté confisquée par l'agenda
+Socialement, le peuple existe toujours. Juridiquement, comme auteur d'une décision souveraine, il n'apparaît que sur convocation.
 
-La nature profonde du pouvoir politique ne réside pas dans la simple faculté d'exprimer un choix binaire lors d'une consultation. Elle consiste, au stade préalable, à déterminer l'agenda : choisir le sujet qui deviendra décidable, en fixer le calendrier, en rédiger la formulation, en sélectionner les alternatives et en arrêter le mode de dénouement. Qui maîtrise l'agenda conserve la conduite du jeu politique, même lorsqu'il subit une défaite électorale ponctuelle ; qui est privé de l'agenda se trouve réduit à réagir aux termes fixés par autrui.
+Voilà le verrou.
 
-L'affirmation selon laquelle le peuple conserve le dernier mot occulte ainsi la question essentielle : le dernier mot sur quel texte, préparé par qui et soumis à quel moment ? En réservant l'exclusivité du déclenchement aux organes constitués, le droit français interdit aux citoyens de transformer une exigence collective en question nationale obligatoire. Ce manque correspond à l'absence d'un droit d'auto-convocation conditionnelle du corps électoral. L'auto-convocation n'implique pas qu'une fraction de la population puisse s'arroger unilatéralement la décision souveraine ; elle signifie qu'un seuil élevé et vérifié de citoyens devrait pouvoir activer l'organisation d'un vote national contraignant. Le seuil de signatures ne ferait pas la loi, mais il conférerait le droit d'en imposer l'arbitrage.
+Le débat public s'arrête aux personnes : tel ministre, tel parti, telle décision. On traque les responsables. On épargne les rouages.
 
-L'absence d'un tel mécanisme enferme la démocratie représentative dans un conflit d'intérêts d'ordre structurel. Pour que les citoyens acquièrent le pouvoir de provoquer un référendum ou d'inscrire une loi à l'agenda, il faudrait que les détenteurs actuels de l'initiative acceptent de partager leur privilège. Or, toute assemblée ou tout exécutif évalue la rétrocession d'initiative comme une dépossession de ses propres prérogatives. Cette résistance ne requiert ni malveillance individuelle ni conspiration secrète : elle résulte du fonctionnement mécanique d'institutions programmées pour préserver la totalité de leurs compétences.
-
----
-
-## 5. L'exclusion comme principe fondateur (1789–1795)
-
-La mythologie politique nationale tend à présenter l'impuissance d'initiative citoyenne comme une déviation tardive d'une promesse initiale pure. L'examen des sources révolutionnaires révèle au contraire que le monopole représentatif fut théorisé et construit dès la fondation.
-
-Lors de son discours du 7 septembre 1789 devant l'Assemblée constituante, Emmanuel-Joseph Sieyès oppose fermement la démocratie directe au gouvernement représentatif. Son argumentation ne repose pas seulement sur l'obstacle géographique d'un grand État, mais sur une doctrine précise de la division du travail : dans une société moderne dévouée au commerce et à la production, la grande majorité des citoyens n'a ni le temps ni l'instruction nécessaires pour concourir directement à la confection des lois, et doit s'en remettre à des représentants spécialisés. Cette vision fonde la séparation entre la capacité d'élire et la compétence de décider.
-
-La Constitution de 1791 formalise cette logique en instaurant le suffrage censitaire, restreignant le droit de vote aux citoyens actifs acquittant un certain niveau d'impôt et excluant totalement les femmes ainsi que les populations soumises au régime colonial. Deux arbitrages distincts sont accomplis simultanément : d'une part, les citoyens ne font pas la loi par eux-mêmes ; d'autre part, la désignation des représentants est réservée aux classes propriétaires. Si la doctrine représentative répond à la difficulté technique de faire délibérer des millions de personnes, le filtrage censitaire traduit la volonté explicite de préserver l'ordre social.
-
-L'histoire constitutionnelle montre pourtant qu'un autre modèle fut conçu. La Constitution du 24 juin 1793 place expressément la souveraineté dans le peuple et prévoit l'intervention des assemblées primaires de citoyens pour former opposition aux projets de loi et provoquer la délibération populaire. Bien que ce texte n'ait jamais été appliqué en raison de l'état de guerre, sa rédaction démontre que la conception d'un veto législatif et d'une initiative citoyenne était juridiquement formalisée dès la Révolution.
-
-Après la chute de Robespierre et la période de la Terreur, la Constitution du 5 fructidor an III (1795) consacre le reflux explicite de l'élément populaire. Les débats de la Convention thermidorienne, éclairés par le rapport de Boissy d'Anglas, proclament la nécessité d'assurer le gouvernement des propriétaires et d'écarter la menace des insurrections populaires. La méfiance envers la foule est alors érigée en dogme constitutionnel et traduite dans des mécanismes de filtrage et de double degré de juridiction, tandis que la méfiance des citoyens envers leurs mandants ne reçoit aucun instrument de contrôle récurant.
+L'enquête regarde l'architecture. Le résultat total n'a pas été conçu par un pilote unique. Plusieurs de ses strates ont toutefois été ajoutées avec des fonctions locales conscientes : la délégation de l'exercice de la souveraineté en 1791, la sélection sociale des électeurs en 1795, le renforcement de l'exécutif en 1958, l'alignement des calendriers électoraux en 2000-2001. Aucun de leurs auteurs n'a dessiné le résultat de 2026. Mais leur accumulation a produit une asymétrie plus durable qu'aucun d'eux n'avait intégralement prévue.
 
 ---
 
-## 6. La Cinquième République ou la souveraineté verticale
+## 1. Nation, peuple, citoyens : trois réalités que le mot « démocratie » confond
 
-La Constitution du 4 octobre 1958 naît du désordre de la Quatrième République, marquée par l'instabilité ministérielle et la paralysie face à la guerre d'Algérie. La préoccupation première de Charles de Gaulle et de Michel Debré consiste à rationaliser le parlementarisme et à construire un pouvoir exécutif capable d'orienter l'État sans être renversé au gré des coalitions éphémères.
+L'erreur commence lorsqu'on traite comme synonymes la Nation, le peuple et les citoyens.
 
-L'architecture nouvelle réordonne la souveraineté en faveur de la présidence de la République. Par l'usage de l'article 11 en 1962, le général de Gaulle contourne la procédure rigide de l'article 89 et l'opposition des deux chambres pour faire approuver par le peuple l'élection du chef de l'État au suffrage universel direct. Le référendum démontre ici toute son efficacité démocratique dans la sanction du verdict, mais il révèle sa nature verticale dans son déclenchement : le président utilise la consultation populaire comme une arme contre les partis et le Parlement, sans que le corps électoral ne reçoive en retour le pouvoir d'initier la démarche. La démission de de Gaulle au lendemain du rejet du référendum du 27 avril 1969 (52,41 % de non) confirme l'asymétrie : le peuple a pu provoquer le départ du chef de l'État uniquement parce que celui-ci avait fait du vote une condition personnelle de son maintien.
+Les **citoyens** sont des personnes réelles, titulaires de droits et de devoirs. Ils votent, s'organisent, contestent, délibèrent et vivent les conséquences des décisions publiques.
 
-L'instauration du quinquennat en 2000 et l'inversion du calendrier électoral en 2001 accentuent la présidentialisation. En plaçant l'élection présidentielle immédiatement avant les élections législatives, la réforme vise à garantir au président élu une majorité parlementaire disciplinée, réduisant le scrutin législatif à une ratification de l'échéance présidentielle. La souveraineté populaire se trouve ainsi concentrée dans un acte d'investiture initial. Le sommet de l'État tire sa légitimité du suffrage universel, mais il conserve le monopole absolu du choix des moments où le souverain sera de nouveau convoqué.
+La **Nation** est une personne politique abstraite. Elle ne se réduit ni aux électeurs du jour, ni à une génération, ni à l'addition des intérêts particuliers. Elle permet de penser une volonté commune continue, au-delà des individus présents.
 
----
+Le **peuple**, dans l'ordre constitutionnel, désigne notamment le corps des citoyens lorsqu'il est juridiquement constitué pour exercer la souveraineté : lors d'une élection ou d'un référendum.
 
-## 7. Les épreuves contemporaines ou l'impuissance organisée
+Ces réalités se recouvrent sans se confondre.
 
-L'histoire récente offre quatre cas d'école qui testent les limites des moyens d'action dont disposent les citoyens face à la décision publique.
+En 1789, l'article 3 de la Déclaration des droits de l'homme et du citoyen ne place pas le principe de souveraineté dans le peuple, mais dans la **Nation**. Son article 6 ajoute que tous les citoyens ont le droit de concourir « personnellement, ou par leurs représentants » à la formation de la loi.
 
-Lors du référendum du 29 mai 2005 sur la Constitution européenne, 54,67 % des suffrages exprimés rejettent le projet de loi autorisant la ratification. Le texte soumis au vote n'entre pas en vigueur. Toutefois, en 2008, les innovations institutionnelles majeures du texte rejeté sont reprises dans le traité de Lisbonne et autorisées par la voie parlementaire. L'élection de Nicolas Sarkozy en 2007, dont le programme mentionnait explicitement le recours à un traité simplifié ratifié par le Parlement, offre une légitimation politique à l'opération. L'épisode démontre une réalité juridique précise : un refus populaire exprimé par référendum sur un objet déterminé peut être contourné par l'élection ultérieure d'un candidat portant un programme général, sans que les citoyens ne disposent du droit d'exiger un nouveau vote sur le texte reformulé.
+La Constitution de 1791 tranche l'ambiguïté :
 
-Le mouvement des Gilets jaunes en 2018–2019 et la mobilisation contre la réforme des retraites en 2023 illustrent l'étanchéité de la machine. Lors de la crise des Gilets jaunes, la revendication du RIC s'impose au cœur du débat public et contraint le gouvernement à des concessions financières majeures. Pour autant, l'institution refuse fermement le transfert de compétence. En 2023, en dépit de grèves massives et d'un rejet consigné dans toutes les enquêtes d'opinion, l'exécutif recourt à l'article 49.3 pour faire adopter la réforme des retraites sans vote d'assemblée. Les citoyens opposés au texte ne disposent d'aucun mécanisme légal pour suspendre l'application de la loi ou en imposer l'arbitrage référendaire.
+> « La Nation, de qui seule émanent tous les Pouvoirs, ne peut les exercer que par délégation. »
 
-La Convention Citoyenne pour le Climat (2019–2020) complète le tableau de la souveraineté sur invitation. En convoquant cent cinquante citoyens tirés au sort pour élaborer des propositions de transition écologique, le pouvoir exécutif promet la reprise des mesures « sans filtre ». Cependant, au terme des travaux, l'exécutif sélectionne, amende et écarte une partie significative des propositions lors de la rédaction du projet de loi. L'expérience montre que la démocratie délibérative tirée au sort, tant qu'elle ne repose sur aucun droit d'initiative juridique opposable, demeure une instance consultative soumise au bon plaisir de l'autorité qui l'a convoquée.
+La Nation est souveraine, mais elle ne parle normalement qu'à travers des représentants. La construction n'est pas absurde. Elle répond à un problème réel : des millions de volontés particulières ne produisent pas spontanément une décision nationale unique.
 
----
+Elle réalise une opération décisive : elle sépare le titulaire abstrait de la souveraineté des personnes concrètes qui pourraient prétendre l'exercer.
 
-## 8. L'alibi de l'impossibilité technique : le droit comparé
+La Constitution de 1958 rassemble les deux traditions dans une formule de compromis : la souveraineté reste **nationale**, mais elle « appartient au peuple ». Dans son étude annuelle de 2024, le Conseil d'État rappelle que la souveraineté nationale repose sur une Nation abstraite et exige la représentation, tandis que la souveraineté populaire part des individus composant le peuple et incline davantage vers les mécanismes directs.
 
-L'argument de l'incompatibilité de l'initiative citoyenne avec le fonctionnement d'un État moderne s'effondre devant l'examen du droit comparé. La diversité des systèmes constitutionnels démontre que la privation d'initiative résulte d'un choix institutionnel spécifique et non d'une contrainte technique universelle.
+Ce compromis explique le paradoxe français :
 
-La Suisse fédérale pratique la démocratie directe depuis la révision de 1874 pour le référendum facultatif et de 1891 pour l'initiative populaire constitutionnelle. Le recueil de 100 000 signatures permet à des citoyens de proposer une révision de la Constitution fédérale, tandis que 50 000 signatures suffisent pour soumettre une loi votée par l'Assemblée fédérale au vote populaire. L'Italie consacre dans l'article 75 de sa Constitution de 1948 le référendum abrogatif, permettant à 500 000 électeurs de demander l'annulation totale ou partielle d'une loi en vigueur, sous réserve de la vérification de recevabilité par la Cour constitutionnelle et d'un quorum de participation.
+- le peuple est la source incontestable de la légitimité ;
+- ses représentants parlent au nom de la Nation entière ;
+- les citoyens ne disposent pas pour autant d'un droit autonome de produire une volonté nationale opposable.
 
-D'autres modèles aménagent une répartition différenciée de l'initiative et du dernier mot. La Bavière intègre l'initiative législative citoyenne au niveau de l'État fédéré, exigeant le soutien d'un dixième des électeurs pour provoquer un référendum. L'Irlande réserve l'initiative de la révision constitutionnelle au Parlement (le Dáil), mais rend la ratification référendaire par le peuple obligatoirement requise pour toute modification de la Constitution. Enfin, des nations comme l'Allemagne fédérale au niveau national ou le Royaume-Uni partagent avec la France l'absence d'un RIC national général, confirmant que le modèle républicain français s'inscrit dans une famille constitutionnelle qui préserve jalousement le monopole de ses représentants.
+Il ne suffit pas qu'une opinion soit très répandue pour devenir « la volonté du peuple ». Un sondage n'est pas un scrutin. Une manifestation ne comprend pas tout le corps électoral. Une pétition ne garantit ni l'unicité de la question, ni l'égalité de la campagne, ni le secret du vote, ni la stabilité du consentement.
 
----
+Cette objection se retourne contre le système.
 
-## 9. La cartographie des verrous contemporains
+Le scandale n'est pas qu'une majorité déjà prouvée soit toujours ignorée. Le scandale est que les citoyens ne disposent d'aucune procédure autonome permettant de vérifier, par un vote national, s'ils sont devenus majoritaires.
 
-L'absence de RIC dans le droit français ne provient pas d'une omission fortuite : elle s'explique par l'interruption systématique des initiatives parlementaires visant à instaurer l'initiative citoyenne. L'examen des votes au sein des deux chambres permet d'attribuer la responsabilité des rejets à des coalitions et des procédures identifiables.
-
-Le 21 février 2019, lors du débat à l'Assemblée nationale sur une proposition de loi constitutionnelle instaurant le RIC sous plusieurs formes, la majorité présidentielle fait adopter la motion de renvoi en commission (scrutin n° 1712) par 91 voix (86 LREM et 5 MoDem) contre 50 oppositions émanant de divers groupes minoritaires. L'usage de cette motion de procédure met fin à l'examen du texte avant tout vote sur le fond.
-
-Le 22 novembre 2023, le Sénat examine une proposition de loi visant à réformer le Référendum d'Initiative Partagée pour en abaisser les seuils et permettre un déclenchement d'origine citoyenne. Le rapport de la commission des lois rejette explicitement le texte au motif qu'il porterait atteinte à la prééminence du Parlement. Le Sénat confirme ce rejet (scrutin n° 64) par 224 voix (dont la totalité du groupe Les Républicains) contre 102 voix.
-
-En février 2026, la commission des lois de l'Assemblée nationale adopte une proposition de loi constitutionnelle instaurant un RIC délibératif. Inscrit à l'ordre du jour du 12 février dans le cadre de la journée réservée au groupe Écologiste et social, le texte ne peut être discuté avant l'heure limite de minuit en raison de l'allongement des débats sur les textes précédents. Il s'éteint par expiration du temps parlementaire alloué. Ces trois événements montrent que le monopole représentatif est maintenu par des arbitrages procéduraux et des votes de majorité constants.
+La République ne nie pas seulement à une multitude la qualité de peuple souverain. Elle lui refuse l'interrupteur juridique qui permettrait de l'établir.
 
 ---
 
-## 10. Répondre aux objections sans capituler
+## 2. La machine constitutionnelle : le peuple tranche, d'autres ouvrent le scrutin
 
-Les objections soulevées contre l'initiative citoyenne sont connues : risque de démagogie, tyrannie de la majorité, manipulation par des intérêts financiers, instabilité législative ou adoption de mesures contradictoires. Ces risques sont réels et documentés.
+Pour comprendre le mécanisme, il faut abandonner un instant les grands mots et examiner les compétences.
 
-Toutefois, la prise en compte de ces dangers justifie l'instauration de garanties juridiques rigoureuses : filtrage de recevabilité par la juridiction constitutionnelle, contrôle de conformité aux droits fondamentaux et aux traités internationaux, délais de délibération obligatoires, transparence des financements de campagne, seuils de signatures exigeants et possibilité pour le Parlement de proposer un contre-projet.
+- **Déposer une loi.** Initiative : Premier ministre ou parlementaires. Pouvoir citoyen autonome : aucun.
+- **Imposer l'examen d'un texte.** Initiative : gouvernement et assemblées selon leurs règles. Pouvoir citoyen autonome : aucun droit général.
+- **Convoquer un référendum (article 11).** Initiative : président sur proposition prévue par le texte, ou initiative parlementaire soutenue par les électeurs. Pouvoir citoyen autonome : aucun déclenchement purement citoyen.
+- **Référendum local et pétition (article 72-1).** Initiative : assemblée délibérante locale. Pouvoir citoyen autonome : aucun droit d'imposer un référendum décisionnel.
+- **Rendre un programme obligatoire.** Initiative : aucune procédure ; pour les parlementaires, le mandat impératif est nul. Pouvoir citoyen autonome : aucun.
+- **Révoquer un élu national.** Initiative : aucune procédure électorale de rappel. Pouvoir citoyen autonome : aucun.
+- **Engager une révision constitutionnelle.** Initiative : président sur proposition du Premier ministre, ou parlementaires. Pouvoir citoyen autonome : aucun.
 
-En revanche, l'existence de ces risques ne justifie en rien le maintien d'une capacité d'initiative citoyenne égale à zéro. La démocratie représentative exige des mandataires pour instruire et gouverner dans la continuité ; elle n'exige pas que ces mandataires détiennent le monopole exclusif du déclenchement des questions nationales.
+L'article 39 réserve l'initiative des lois au Premier ministre et aux membres du Parlement. Les citoyens peuvent rédiger tout ce qu'ils veulent ; leur texte ne devient une initiative législative qu'après sa reprise par l'un de ces acteurs.
+
+Une exception importante empêche de caricaturer ce constat. À l'occasion d'un procès, un justiciable peut soulever une question prioritaire de constitutionnalité. Si les filtres juridictionnels sont franchis et si le Conseil constitutionnel lui donne raison, la disposition contestée peut être abrogée. Véritable pouvoir d'impulsion individuel. Mais ce n'est ni l'initiative d'une politique publique, ni un veto populaire : la contestation doit naître dans un litige, porter sur les droits et libertés constitutionnels, être transmise par les juges, puis être tranchée par le Conseil constitutionnel.
+
+Il existe par ailleurs des droits d'impulsion qu'il faut distinguer de l'initiative décisionnelle. Une pétition peut saisir le Conseil économique, social et environnemental ; les assemblées parlementaires disposent de plateformes pouvant conduire à un débat ; au niveau local, l'article 72-1 permet de demander l'inscription d'une question à l'ordre du jour ou de consulter les habitants. Ces mécanismes peuvent obliger à recevoir, examiner ou répondre. Aucun ne permet à un seuil de citoyens de provoquer, à lui seul, un vote populaire national sur une loi ou une révision constitutionnelle.
+
+L'article 27 déclare nul tout mandat impératif (qui obligerait l'élu à suivre des instructions sous peine d'être révoqué), protégeant ainsi la liberté de vote du parlementaire contre toute instruction juridiquement obligatoire. Séparément, le droit français ne prévoit aucune procédure de révocation anticipée. Le mandat est donc libre dans son contenu et protégé dans sa durée, hors les causes de cessation prévues par le droit.
+
+L'article 89 réserve l'initiative de la révision constitutionnelle au président de la République, sur proposition du Premier ministre, et aux membres du Parlement. Le peuple peut être appelé à ratifier une révision. Il ne peut pas l'engager.
+
+Reste le référendum d'initiative partagée, souvent présenté comme une brèche.
+
+Le nom trompe. L'article 11 exige d'abord l'initiative d'un cinquième des parlementaires, soit 185 députés ou sénateurs, puis le soutien d'un dixième des électeurs inscrits. Les citoyens ne possèdent pas la première clé. Ils soutiennent une proposition déjà déposée par des représentants.
+
+Même lorsque le seuil est atteint, le vote populaire n'est pas garanti : si les deux assemblées « examinent » la proposition dans le délai prévu, l'obligation de référendum disparaît. Elles n'ont pas à l'adopter. L'examen suffit.
+
+L'expérience Aéroports de Paris (la tentative de privatisation d'ADP, soumise au RIP en 2019-2020) a confirmé la difficulté sans démontrer une impossibilité absolue. La proposition a franchi le contrôle initial, puis recueilli 1 093 030 soutiens validés, loin des quelque 4,7 millions alors nécessaires.
+
+Le RIP n'est pas un RIC défectueux.
+
+C'est exactement ce que dit la Constitution : **une initiative parlementaire soutenue par des électeurs**.
+
+Cette absence d'initiative citoyenne nationale n'est pas un angle mort du débat public. Les strates de verrouillage constitutionnel qui maintiennent le RIC hors d'atteinte malgré un soutien populaire documenté ont été cartographiées ailleurs.
+
+La même distribution apparaît partout :
+
+- le citoyen peut choisir les opérateurs ;
+- les opérateurs choisissent les objets ;
+- le peuple tranche parfois ;
+- les opérateurs décident presque toujours s'il tranchera.
+
+La souveraineté populaire française n'est pas fictive lorsqu'elle s'exerce. Un référendum régulièrement organisé produit une décision réelle. Ce qui manque n'est pas la force du verdict, mais la maîtrise de son apparition.
+
+---
+
+## 3. Le pouvoir caché dans l'agenda
+
+Le pouvoir politique n'est pas seulement la capacité de répondre oui ou non.
+
+Il consiste d'abord à déterminer :
+
+- quelle question deviendra décidable ;
+- sous quelle formulation ;
+- à quel moment ;
+- après quelle campagne ;
+- selon quelle procédure ;
+- avec quelles alternatives ;
+- et qui aura qualité pour trancher.
+
+Celui qui contrôle l'agenda peut perdre une décision et conserver la maîtrise de la suite. Celui qui ne contrôle que la réponse peut gagner un vote sans contrôler la prochaine question.
+
+L'expression « le peuple a le dernier mot » est incomplète. Le dernier mot sur quoi ? Écrit par qui ? Présenté quand ? Et que se passe-t-il après ?
+
+En France, le peuple peut parfois avoir le dernier mot, mais il ne possède presque jamais le premier geste.
+
+Cette distinction éclaire l'apparente énigme d'un peuple proclamé souverain mais institutionnellement intermittent. Il n'est pas interdit de vote. Il est privé de la compétence qui permettrait de convertir une demande collective en question nationale obligatoire.
+
+Cette compétence peut être nommée :
+
+> le droit d'auto-convocation conditionnelle du corps électoral.
+
+« Auto-convocation » ne signifie pas qu'un groupe s'autoproclamerait peuple. Cela signifie qu'un nombre déterminé de citoyens, vérifiés selon une procédure publique, pourrait obliger les institutions à organiser la vérification démocratique de leur demande.
+
+Le seuil ne prouverait pas la majorité. Il donnerait le droit de la mesurer.
+
+Une pétition deviendrait alors non pas une loi, mais le déclencheur d'un processus. La décision resterait au corps électoral tout entier, après contrôle, contradiction et délibération.
+
+L'absence d'un tel droit place les citoyens dans une situation circulaire :
+
+1. ils demandent à exercer une compétence ;
+2. seuls les détenteurs actuels de cette compétence peuvent ouvrir la procédure ;
+3. ces détenteurs évaluent eux-mêmes les dangers de leur dessaisissement (perte de leurs prérogatives) ;
+4. aucune décision populaire ne peut intervenir sans leur consentement préalable.
+
+Conflit d'intérêts institutionnel. Nullement moral.
+
+Il n'exige ni corruption, ni complot, ni consigne secrète. Il suffit que ceux qui contrôlent l'agenda conservent le droit exclusif de décider s'ils le partageront.
+
+L'architecture suffit, comme l'a documenté **🔄 [Le changement de régime](https://giak.substack.com/p/le-changement-de-regime-pourquoi)**.
+
+---
+
+## 4. 1789–1795 : l'exclusion n'est pas un accident survenu après la fondation
+
+L'histoire flatte volontiers les commencements. Elle transforme les institutions en promesses pures, ensuite dégradées par des héritiers moins vertueux.
+
+Les sources françaises racontent autre chose.
+
+La Révolution accomplit une émancipation immense : le pouvoir cesse d'être la propriété d'une dynastie. La loi devient l'expression de la volonté générale. Les citoyens sont reconnus comme ses coauteurs possibles.
+
+Mais, dès son discours du 7 septembre 1789, Sieyès, principal théoricien de la souveraineté nationale, oppose la participation directe à la formation de la loi et le gouvernement représentatif. Son argument n'est pas seulement géographique. Il tient à la division du travail, au temps disponible, à la compétence et à une certaine conception de la liberté moderne. Dans une grande société, les citoyens doivent pouvoir vaquer à leurs activités tandis que des representatives instruisent les affaires publiques.
+
+Cette raison est sérieuse. Elle ne justifie pas à elle seule :
+
+- l'absence d'initiative citoyenne ;
+- l'absence de veto populaire ;
+- l'impossibilité de rappeler un représentant ;
+- l'exclusivité durable de la compétence politique ;
+- ni le filtrage social du corps électoral.
+
+La Constitution de 1791 ne se contente pas d'organiser la représentation. Elle distingue citoyens actifs (ceux qui paient un certain niveau d'impôt et peuvent voter) et passifs, maintient le suffrage censitaire (droit de vote réservé aux contribuables atteignant un seuil fiscal) et exclut les femmes. L'indépendance matérielle supposée devient une condition de capacité politique. L'universalité proclamée cohabite avec une citoyenneté graduée, tandis que l'ordre colonial et l'esclavage en révèlent la contradiction extrême.
+
+Deux choix sont effectués simultanément :
+
+1. les citoyens ne feront pas directement la loi ;
+2. tous ne participeront pas également au choix de ceux qui la feront.
+
+Le premier relève d'une théorie du gouvernement représentatif. Le second révèle une hiérarchie sociale assumée.
+
+L'argument de l'impossibilité technique est d'autant moins suffisant qu'une autre architecture fut pensée. La Constitution de 1793 place la souveraineté dans le peuple et prévoit que les projets de loi soient transmis aux assemblées primaires (assemblées locales de citoyens) ; un mécanisme d'opposition peut conduire à une décision populaire.
+
+Ce texte ne crée pas un RIC contemporain et ne fut jamais appliqué. Il prouve néanmoins qu'un peuple doté d'un veto législatif était concevable au cœur même de la Révolution.
+
+L'alternative existait. Elle fut écrite. Elle ne gouverna pas.
+
+En 1795, après la Terreur, les insurrections et la crise de l'État, la priorité devient explicitement la prévention des « excès ». La présentation historique de l'Assemblée nationale décrit un régime construit pour stabiliser la République et écarter le retour de la radicalité populaire. Chez Boissy d'Anglas, rapporteur du projet de Constitution de l'an III, le gouvernement des « meilleurs » est associé à l'instruction, à la propriété et au maintien de l'ordre.
+
+La peur n'est pas inventée. Les constituants ont vu la violence politique, la guerre et l'effondrement institutionnel. Les bonnes intentions existent.
+
+Mais elles ne sont pas seules.
+
+La protection de la propriété, la sélection sociale et la défiance envers les classes populaires sont documentées. Les risques sont traités de manière dissymétrique :
+
+- la capture de la décision par la foule est combattue par des exclusions ;
+- la capture des représentants par leurs intérêts, leurs réseaux ou leur milieu est beaucoup moins armée.
+
+L'erreur fondatrice n'est donc pas une confiance enfantine dans la probité morale des élites.
+
+Elle est plus structurelle :
+
+> La méfiance envers le peuple fut convertie en droit ; la méfiance du peuple envers ses représentants resta une opinion.
+
+Il n'existe pas pour autant de programme secret courant de 1789 à 2026. Les constituants révolutionnaires n'ont prévu ni les partis modernes, ni la discipline parlementaire, ni l'État administratif contemporain, ni les médias de masse, ni l'Union européenne.
+
+Le système total n'a pas d'architecte unique.
+
+Ses composants, eux, ont des auteurs, des objectifs et des effets immédiats souvent parfaitement conscients.
+
+---
+
+## 5. La Cinquième République : le peuple appelé d'en haut
+
+La Constitution de 1958 répond à une crise véritable : instabilité ministérielle, guerre d'Algérie, incapacité de la Quatrième République à produire une direction durable. Les constituants veulent restaurer un exécutif capable d'agir et encadrer le Parlement. Le parlementarisme rationalisé (l'encadrement strict des pouvoirs du Parlement par la Constitution) n'est pas un effet caché ; il constitue l'un des objectifs du texte.
+
+Il serait faux d'affirmer que de Gaulle et Michel Debré visent d'abord à faire taire les citoyens. Leur cible immédiate est le régime d'assemblée.
+
+Mais le choix reste asymétrique :
+
+- l'exécutif est renforcé contre le Parlement ;
+- le Parlement est encadré pour stabiliser le gouvernement ;
+- le citoyen ne reçoit aucun pouvoir autonome compensateur.
+
+La Constitution accorde au président une arme remarquable : il peut appeler le peuple contre les représentants. En 1962, de Gaulle utilise l'article 11 pour soumettre directement l'élection présidentielle au suffrage universel, en contournant l'opposition des assemblées. Le peuple approuve.
+
+Le référendum est ici démocratique dans son verdict et vertical dans son initiative.
+
+Le président peut ouvrir la porte du souverain afin de surmonter le Parlement. Le souverain, lui, ne peut ouvrir aucune porte.
+
+L'épisode de 1969 porte cette logique à son point de vérité. De Gaulle soumet à référendum une réforme du Sénat et de la régionalisation. Le non l'emporte avec 52,41 % des suffrages exprimés. Le président, qui avait lié son maintien au résultat, démissionne le lendemain.
+
+Le vote populaire provoque réellement le départ du chef de l'État, par application d'un engagement politique que celui-ci s'était lui-même imposé.
+
+Mais il ne l'a fait que parce que le chef avait choisi la question, le calendrier et l'enjeu politique de la consultation.
+
+> Le peuple pouvait politiquement provoquer la démission du président, à la condition unique que celui-ci ait lié son sort au scrutin. Il ne pouvait ni le convoquer, ni choisir le motif du jugement.
+
+L'élection présidentielle au suffrage universel direct renforce ensuite cette verticalité. Elle démocratise puissamment la désignation du sommet, mais concentre le bénéfice de cette légitimité sur une personne. Le peuple choisit davantage le chef ; il ne contrôle pas davantage l'exercice quotidien.
+
+Le quinquennat de 2000 et l'inversion du calendrier de 2001 (placer la présidentielle avant les législatives, pour que celles-ci confirment le choix présidentiel) ont fortement incité les législatives à prolonger le choix présidentiel, effet massif de 2002 à 2017. La présidentialisation fut explicitement discutée au Sénat avant l'adoption. Les scrutins de 2022 et 2024 montrent toutefois qu'il s'agit d'une tendance institutionnelle, non d'une ratification automatique.
+
+La Cinquième République n'a pas supprimé le peuple. Elle l'a concentré dans des actes d'investiture et de ratification.
+
+Le citoyen choisit le sommet. Le sommet décide quand le citoyen redeviendra souverain.
+
+---
+
+## 6. Quatre épreuves modernes
+
+La résistance à cette architecture prend plusieurs formes. Aucune ne confère l'initiative.
+
+**La voie électorale.** Le bulletin peut congédier une équipe, alterner, sanctionner. Mais il ne peut pas inscrire une question à l'ordre du jour, forcer une décision, ni révoquer un élu avant l'échéance.
+
+**La voie de la rue.** La mobilisation peut augmenter le coût politique d'une décision, obtenir des concessions, parfois faire reculer un gouvernement. Mais elle ne peut pas déclencher un arbitrage populaire, abroger une loi, ni initier une révision constitutionnelle.
+
+**La voie juridictionnelle.** Un citoyen peut contester un acte administratif devant le juge compétent et, au cours d'un litige, soulever une question prioritaire de constitutionnalité contre une disposition législative portant atteinte aux droits et libertés constitutionnels. La QPC est filtrée par la juridiction saisie, puis par le Conseil d'État ou la Cour de cassation, avant une éventuelle décision du Conseil constitutionnel. Ces recours peuvent faire annuler un acte, engager une responsabilité ou conduire à l'abrogation d'une disposition. Ils contrôlent le droit ; ils ne permettent pas aux citoyens d'imposer l'arbitrage politique national d'une réforme.
+
+Ces séquences testent des capacités d'influence : voter, mobiliser, contester en justice. Chacune peut modifier le cours politique ; aucune ne confère aux citoyens un droit autonome d'imposer un arbitrage populaire national.
+
+### 2005–2008 : gagner le vote, perdre la maîtrise de la suite
+
+Le 29 mai 2005, 54,67 % des suffrages exprimés rejettent le projet de loi autorisant la ratification du traité établissant une Constitution pour l'Europe. Le résultat officiel est incontestable.
+
+Deux slogans à écarter.
+
+Le vote n'a pas été juridiquement annulé : le traité constitutionnel n'est pas entré en vigueur. Le traité de Lisbonne n'est pas non plus littéralement le même texte. Il renonce à la forme constitutionnelle unifiée, supprime certains symboles et modifie plusieurs dispositions.
+
+Mais il reprend également une part importante des innovations institutionnelles du projet rejeté, comme le montrent les tableaux comparatifs de l'Assemblée nationale. Après une révision de la Constitution, sa ratification est autorisée par voie parlementaire en 2008, sans nouveau référendum.
+
+Un élément essentiel interdit de décrire cette séquence comme une manœuvre entièrement clandestine. Pendant la campagne présidentielle de 2007, Nicolas Sarkozy promet publiquement un traité simplifié et précise qu'il sera soumis à ratification parlementaire. Il remporte ensuite l'élection.
+
+Cette option a donc été annoncée avant le scrutin, puis portée par le candidat élu. Mais une élection présidentielle n'authentifie pas séparément chacun des éléments d'un programme.
+
+Le référendum de 2005 portait sur un texte déterminé. L'élection de 2007 départageait des personnes et des programmes composés de dizaines d'engagements. Elle ne permettait pas de distinguer :
+
+- les électeurs approuvant la stratégie européenne ;
+- ceux qui la toléraient pour d'autres priorités ;
+- ceux qui votaient surtout contre l'adversaire ;
+- ceux qui auraient accepté un nouveau texte, mais exigé un référendum.
+
+La leçon n'est pas : « le vote de 2005 n'a servi à rien ».
+
+Elle est plus précise et plus grave :
+
+> **Un refus populaire portant sur un objet unique peut être politiquement contourné par l'élection d'un candidat ayant annoncé une ratification parlementaire d'un traité simplifié, sans que les citoyens disposent du droit d'exiger un nouvel arbitrage sur l'objet reformulé.**
+
+Le peuple a fermé une voie. Les institutions ont conservé la maîtrise de la prochaine voie, du prochain texte et du prochain mode de ratification.
+
+### 2018–2019 : obtenir des concessions, pas la compétence
+
+Les Gilets jaunes ne sont pas « le peuple ». Leur mouvement est composite, traversé de revendications et de sensibilités contradictoires. Nulle manifestation ne peut s'attribuer la souveraineté nationale.
+
+Le RIC (référendum d'initiative citoyenne) devient l'une de leurs revendications les plus visibles. La crise impose des concessions fiscales et sociales, provoque un grand débat national et bouleverse l'agenda politique.
+
+Elle n'obtient aucun transfert durable d'initiative.
+
+Cette séquence réfute deux idées opposées.
+
+La rue n'est pas impuissante : un rapport de force peut arracher des mesures substantielles. Mais une concession de contenu n'est pas une redistribution de compétence. Le gouvernement peut céder sur une taxe ou une dépense et conserver intact le pouvoir de choisir les prochaines décisions.
+
+En février 2019, une proposition de révision comprenant plusieurs formes de RIC est discutée à l'Assemblée nationale. Une motion de renvoi en commission est adoptée. Le transfert n'a pas lieu.
+
+Le résultat est plus révélateur que toute spéculation sur les intentions : le pouvoir paie le prix politique et budgétaire de la crise, mais ne cède pas la machine qui permettrait aux citoyens d'en provoquer eux-mêmes l'arbitrage.
+
+### 2019–2020 : convoquer des citoyens, sélectionner les réponses
+
+La Convention Citoyenne pour le Climat offre un cas d'école de la souveraineté sur invitation.
+
+Cent cinquante citoyens tirés au sort sont chargés de réviser les politiques écologiques du pays, avec la promesse présidentielle que leurs propositions seront transmises « sans filtre » au Parlement ou au peuple par référendum.
+
+Le résultat réaffirme la hiérarchie institutionnelle.
+
+L'exécutif filtre, amende ou écarte plusieurs propositions majeures avant d'en traduire une partie dans la loi. Les citoyens tirés au sort ont accompli un travail délibératif substantiel ; ils n'ont disposé d'aucun pouvoir juridique pour empêcher le pouvoir exécutif de reprendre la main sur la formulation finale.
+
+La leçon est limpide : la démocratie délibérative tirée au sort peut enrichir la réflexion ou fournir de la légitimité. Sans droit d'initiative autonome, elle reste une instance consultative dont le pouvoir dépend entièrement du bon plaisir de celui qui l'a convoquée.
+
+### 2023 : rendre une décision coûteuse sans pouvoir la saisir
+
+La réforme des retraites de 2023 fournit un cas d'étude presque pur.
+
+Les opposants peuvent manifester, faire grève, saisir les juges, convaincre des parlementaires et soutenir des motions de censure. Le gouvernement engage sa responsabilité par l'article 49.3 (qui permet l'adoption d'un texte sans vote, sauf motion de censure) ; les motions échouent ; le Conseil constitutionnel valide l'essentiel du texte.
+
+Parler de coup d'État serait faux.
+
+La légalité de la séquence révèle précisément le problème.
+
+Même très nombreux, les citoyens opposés à la réforme ne peuvent :
+
+- suspendre la procédure par un seuil de signatures ;
+- imposer un vote national ;
+- déclencher un référendum abrogatif ;
+- obliger les institutions à vérifier l'existence d'une majorité populaire.
+
+Les sondages ne valent pas décision et la rue ne représente pas tout le pays. C'est justement pourquoi une procédure de vérification serait nécessaire.
+
+Le régime sait mesurer la contestation. Il sait compter les manifestants, commander des enquêtes d'opinion et évaluer le coût politique.
+
+Il ne permet pas aux citoyens de convertir ce conflit en arbitrage souverain.
+
+---
+
+## 7. Ce n'est pas une impossibilité technique, ni une singularité absolue
+
+La comparaison internationale détruit deux alibis.
+
+Le premier consiste à présenter toute initiative citoyenne comme impraticable dans un État moderne. Plusieurs démocraties la pratiquent.
+
+Le second consiste à faire de la France une anomalie unique, comme si toute démocratie digne de ce nom reposait sur un RIC national intégral. C'est faux également. Quelques exemples suffisent à le montrer.
+
+- **Suisse fédérale.** 100 000 signatures en 18 mois pour une initiative constitutionnelle, 50 000 en 100 jours pour un référendum facultatif. Le peuple peut proposer une révision constitutionnelle et demander le vote sur certains actes. Limites : contrôles de validité, double majorité pour la Constitution, pas d'initiative législative fédérale générale équivalente.
+- **Italie.** 500 000 électeurs pour un référendum abrogatif, 50 000 pour une proposition de loi populaire. Le peuple peut abroger totalement ou partiellement une loi et déposer un texte au Parlement. Limites : matières exclues, contrôle d'admissibilité, quorum pour l'abrogatif.
+- **Bavière.** Un dixième des électeurs pour soutenir un projet de loi populaire. Le peuple peut provoquer un référendum législatif au niveau du Land (État fédéré). Limites : budget exclu, mécanisme infranational.
+- **Irlande.** Initiative institutionnelle au Parlement : seule une proposition issue du Dáil (la chambre basse du Parlement irlandais) peut être soumise au peuple. Tout amendement constitutionnel doit être approuvé par référendum. Limites : les citoyens ne peuvent déclencher seuls la révision (les assemblées citoyennes tirées au sort, depuis 2012, ont exercé une influence d'impulsion significative sans pouvoir de déclenchement juridique).
+- **Allemagne fédérale.** Pas d'initiative législative citoyenne générale. Votes directs surtout dans les Länder (États fédérés), exception fédérale liée à la réorganisation territoriale. Limites : modèle fédéral national fortement représentatif.
+- **Royaume-Uni.** Référendums autorisés au cas par cas par le Parlement. Le peuple décide politiquement lorsque le scrutin est organisé. Limites : aucun droit citoyen général de déclenchement.
+
+Aucun modèle ne réalise une souveraineté populaire pure. Tous répartissent différemment quatre pouvoirs :
+
+1. initier ;
+2. formuler ;
+3. contrôler la recevabilité ;
+4. trancher.
+
+La Suisse donne une forte initiative au corps civique. L'Irlande donne au peuple un dernier mot constitutionnel obligatoire sans lui donner le premier. L'Allemagne fédérale et le Royaume-Uni montrent qu'une grande démocratie peut rester dépourvue de RIC national général.
+
+La conclusion permise est donc limitée, mais décisive :
+
+> L'impuissance citoyenne française n'est pas une fatalité technique : un choix institutionnel parmi d'autres.
+
+La comparaison ne distribue pas des brevets de démocratie. Elle rend les choix visibles.
+
+---
+
+## 8. Qui maintient réellement le monopole ?
+
+Accuser « les élites » en bloc produit une émotion et détruit une enquête.
+
+Les acteurs contemporains ne sont ni unanimes, ni immobiles.
+
+En 2019, des députés proposent un RIC législatif, abrogatif, révocatoire et constituant. Le 21 février, l'Assemblée adopte par 91 voix contre 50, avec 3 abstentions, la motion de renvoi en commission déposée par Gilles Le Gendre, alors président du groupe La République en marche. Les 91 voix du renvoi viennent de la majorité présidentielle (86 LREM, 5 MoDem) ; les 50 oppositions, de plusieurs groupes minoritaires. Ce scrutin ne prouve pas que chacun des 91 votants refusait tout RIC imaginable. Il établit exactement ceci : une majorité composée des groupes soutenant l'exécutif a interrompu l'examen de cette proposition précise par une procédure parlementaire identifiée.
+
+En 2023, une proposition sénatoriale cherche à assouplir le RIP, notamment en abaissant certains seuils et en créant une procédure commençant par les citoyens. Le rapport reconnaît que le mécanisme existant est resté théorique et qualifie certains obstacles de « herses juridiques ». La commission n'adopte pas le texte, en affirmant que la démocratie participative ne doit pas porter atteinte au rôle essentiel du Parlement. Le rapport du Sénat expose ainsi le conflit sans détour : accroître l'initiative citoyenne, mais empêcher qu'elle ne contourne la représentation. Puis, le 22 novembre, le Sénat rejette la proposition par 224 voix contre 102 ; la totalité des 131 sénateurs Les Républicains présents votent contre, la quasi-totalité des 64 sénateurs socialistes et écologistes votent pour.
+
+En février 2026, la commission des lois de l'Assemblée adopte une proposition de RIC délibératif, comprenant des dimensions constituante, législative et locale. Elle est inscrite le 12 février dans la journée réservée au groupe Écologiste et social. Mais l'Assemblée ne peut pas l'examiner avant minuit, après les textes qui la précèdent. Ni adoption. Ni rejet. Ce cas ne démontre pas, à lui seul, une obstruction intentionnelle. Il montre plus froidement qu'un texte peut franchir une commission et rester sans examen en séance par épuisement du temps d'ordre du jour. Au 29 juillet 2026, il n'a pas abouti à une révision constitutionnelle.
+
+Ces faits interdisent trois simplifications :
+
+- tous les élus ne refusent pas le partage de l'initiative ;
+- tous les opposants au RIC ne défendent pas cyniquement leur carrière ;
+- l'institution n'est pas une volonté unique.
+
+Ils établissent autre chose.
+
+Chaque tentative doit franchir des organes dont elle modifierait les pouvoirs. Les représentants évaluent les risques pour les droits, la stabilité et la qualité de la loi ; ils évaluent aussi, inévitablement, un dispositif qui réduirait leur exclusivité sur l'agenda.
+
+Le conflit d'intérêts ne suffit pas à invalider leurs objections. Il interdit de les traiter comme des arbitres neutres.
+
+La responsabilité doit donc être attribuée acte par acte :
+
+- qui a proposé ;
+- qui a amendé ;
+- qui a voté ;
+- qui a fixé l'ordre du jour ;
+- qui a renvoyé ;
+- qui disposait du pouvoir d'avancer ;
+- quelle justification fut donnée ;
+- quel contre-pouvoir équivalent fut proposé.
+
+Cette méthode est moins confortable que le mot « oligarchie ». Elle est plus accusatrice, parce qu'elle nomme les décisions et leurs auteurs.
+
+Le système n'est pas gardé par une caste immuable réunie dans une pièce.
+
+Il est reproduit par des coalitions variables d'acteurs qui, pour des raisons sincères, doctrinales, partisanes ou intéressées, conservent collectivement un résultat constant : **en l'état actuel du droit, aucun seuil purement citoyen ne peut faire comparaître le souverain national**.
+
+Entre deux élections, le temps politique est occupé par ceux qui disposent d'une organisation permanente, d'une expertise et d'un accès continu aux décideurs : partis, syndicats, entreprises. Le bulletin de vote est égal ; la fabrication quotidienne de la décision ne l'est pas. Cette asymétrie de ressources, distincte du verrou constitutionnel décrit ici, exigera sa propre enquête.
+
+---
+
+## 9. Les objections sérieuses ne justifient pas le degré zéro
+
+Un peuple peut se tromper.
+
+Une majorité peut menacer une minorité, céder à la peur, croire une campagne mensongère ou adopter deux décisions incompatibles. Une question binaire peut mutiler un problème complexe. L'argent peut dominer la collecte des signatures et la campagne. La fréquence des scrutins peut épuiser la participation. Un référendum organisé par le pouvoir peut devenir un plébiscite.
+
+Ces dangers sont réels.
+
+Ils justifient :
+
+- un contrôle de recevabilité ;
+- la protection des droits constitutionnels ;
+- la transparence du financement ;
+- un délai de délibération ;
+- une information contradictoire ;
+- un texte juridiquement stabilisé ;
+- des seuils proportionnés ;
+- éventuellement un contre-projet parlementaire ;
+- des règles empêchant la répétition immédiate du même vote.
+
+Ils ne justifient pas que la capacité de déclenchement citoyenne soit réduite à zéro.
+
+Reconnaître ce monopole ne revient pas à nier les contre-pouvoirs. La presse enquête et expose. Les juges annulent et censurent. Les syndicats négocient. Les manifestations font reculer. Les alternances modifient les politiques. Ces mécanismes sont réels et produisent des effets : ils rendent le régime pluraliste et perméable. Mais aucun ne confère aux citoyens l'initiative nationale. Ils peuvent déclencher une réaction politique ; ils ne disposent d'aucun droit d'arbitrage juridiquement opposable. L'initiative, elle, serait un droit de procédure.
+
+La représentation n'en reste pas moins nécessaire pour gouverner continûment. Elle ne démontre pas que les citoyens doivent être incapables d'imposer ponctuellement un arbitrage.
+
+Le mandat libre est nécessaire pour délibérer et répondre à l'imprévu. Il ne démontre pas que tout changement majeur puisse échapper jusqu'au terme à toute reprise populaire.
+
+La protection des minorités limite légitimement la majorité. Elle ne donne pas aux représentants un droit naturel d'empêcher la majorité de se former juridiquement.
+
+Le vrai choix n'oppose pas le Parlement au référendum permanent.
+
+Il oppose :
+
+- un système où l'initiative nationale appartient exclusivement aux institutions ;
+- un système où les citoyens peuvent, sous conditions strictes, obliger les institutions à vérifier une volonté collective.
+
+Le principe minimal pourrait tenir en une phrase :
+
+> Un seuil vérifié de citoyens doit pouvoir déclencher un processus national contraignant conduisant à un examen et à un vote parlementaires obligatoires, puis, en cas de rejet et si un seuil supérieur est atteint, à un référendum.
+
+Cette architecture ne fait pas de chaque pétition une loi. Elle ne supprime ni les représentants, ni les juges, ni la délibération. Elle retire aux institutions un seul monopole : celui de décider si la demande citoyenne mérite même d'être arbitrée.
+
+Les seuils, les matières exclues, les délais et les contrôles doivent être débattus. Le principe, lui, répond exactement au défaut constaté.
+
+Il donne au corps civique non pas le gouvernement quotidien, mais le droit de provoquer sa propre apparition souveraine.
 
 ---
 
 ## Conclusion : Le droit de devenir le peuple
 
-Le système politique français n'est ni un régime autoritaire sans libertés ni une démocratie d'initiative populaire. Il s'agit d'une république élective rigide, dans laquelle la légitimité émane du peuple, mais dont les procédures interdisent aux citoyens de décider du moment et de l'objet de leurs propres arbitrages.
+La France n'est pas une dictature parce que ses citoyens ne disposent pas d'un RIC.
 
-Le pouvoir suprême ne consiste pas à parler au nom du peuple, mais à détenir la clé qui l'autorise à apparaître juridiquement. Tant que les citoyens ne disposeront d'aucun instrument d'auto-convocation conditionnelle, la souveraineté populaire demeurera une fiction honorifique. Le peuple restera souverain sur invitation.
+Ses élections sont compétitives. Ses libertés publiques sont substantielles. Ses juridictions limitent le pouvoir. Ses alternances modifient les politiques. Ses mobilisations obtiennent parfois des victoires majeures.
+
+Dire que tout serait une mascarade serait faux.
+
+Dire que le peuple est souverain sans examiner ses compétences l'est tout autant.
+
+Le système français organise une démocratie élective dans laquelle les citoyens désignent les gouvernants, peuvent les sanctionner à terme et décident lorsqu'un référendum leur est soumis. Il réserve presque entièrement aux organes constitués le pouvoir de transformer une question en décision nationale.
+
+Ce monopole ne résulte ni d'un accident unique ni d'un plan unique. Il procède de choix successifs, parfois explicitement restrictifs, parfois motivés par d'autres objectifs, puis de l'absence répétée de réforme du pouvoir d'initiative.
+
+En 1791, l'exercice de la souveraineté nationale par délégation est consciemment constitutionnalisé. En 1795, la crainte du désordre populaire se double explicitement d'une sélection sociale. En 1958, l'exécutif est renforcé sans compensation citoyenne. En 1962 et 1969, le peuple démontre sa force lorsqu'un président choisit de l'appeler. En 2001, la concentration présidentielle est renforcée malgré des effets annoncés. En 2005, un texte déterminé est rejeté ; en 2007, un candidat ayant annoncé une ratification parlementaire d'un traité simplifié est élu ; en 2008, un autre texte reprenant une part importante des innovations institutionnelles est ratifié sans nouveau référendum. En 2019, le transfert d'initiative est renvoyé par un vote de la majorité présidentielle ; en 2023, il est rejeté par la majorité sénatoriale ; en 2026, un autre projet franchit la commission mais n'atteint pas l'examen en séance avant l'expiration de son créneau.
+
+Aucun pilote unique. Une continuité de résultat produite par des choix hétérogènes.
+
+À chaque strate, les raisons changent : unité nationale, compétence, propriété, ordre, stabilité, efficacité, protection des droits, défense du Parlement. Certaines sont sincères et fondées. D'autres protègent aussi des positions acquises.
+
+Toutes convergent vers la même asymétrie :
+
+> **Les institutions peuvent convoquer le peuple ; les citoyens ne peuvent pas contraindre les institutions à le faire.**
+
+Voilà pourquoi la formule constitutionnelle n'est ni un pur mensonge, ni toute la vérité.
+
+Le peuple français est effectivement souverain lorsqu'il vote. Mais d'autres décident presque toujours quand sa souveraineté prendra une forme décisionnelle, sur quel objet et par quelle procédure.
+
+Le pouvoir le plus profond n'est pas de parler au nom du peuple.
+
+C'est de décider quand une multitude de citoyens aura le droit de devenir le peuple.
+
+Tant que les citoyens ne disposeront d'aucune procédure autonome pour provoquer cette transformation, la République pourra continuer à proclamer leur souveraineté tout en conservant sa clé.
+
+La Suisse a institué le référendum facultatif en 1874 puis l'initiative constitutionnelle en 1891. La Bavière en a fait un pilier de sa Constitution. L'Italie a inscrit le référendum abrogatif dans sa Constitution de 1948, rendu effectif par la loi d'application de 1970. La France, depuis que la Déclaration de 1789 a placé la souveraineté dans la Nation, maintient le monopole. Ce n'est pas une impossibilité technique. C'est un état institutionnel maintenu jusqu'ici par des textes, des décisions et des non-réformes identifiables.
+
+Le peuple ne sera pas absent.
+
+Il restera souverain sur invitation.
 
 ---
 
 ## Note méthodologique
 
-Cette étude applique une distinction rigoureuse entre le fait juridique (établi par les normes et les procès-verbaux d'assemblée), l'intention documentée (issue des travaux préparatoires et des discours officiels), le mécanisme procédural (déduit de l'attribution des compétences) et l'interprétation politique. Elle s'interdit d'inférer une intention du seul effet constaté et fonde ses conclusions sur des sources primaires vérifiables. La thèse présentée est falsifiable : il suffirait d'identifier dans le droit national une procédure permettant à un seuil déterminé de citoyens de provoquer obligatoirement un vote populaire national sans initiative préalable de l'exécutif ou du Parlement. Au 30 juillet 2026, cette procédure n'existe pas.
+Cette enquête distingue :
+
+- le **fait juridique**, établi par les textes et les procédures ;
+- l'**intention documentée**, établie par les discours et travaux préparatoires ;
+- le **mécanisme**, déduit de la distribution effective des compétences ;
+- l'**interprétation politique**, qui demeure discutable.
+
+Elle n'infère pas une intention du seul effet constaté. Elle ne confond pas influence, participation, recours, initiative et décision. Elle ne suppose jamais qu'une pétition, un sondage ou une mobilisation exprime à lui seul la volonté du peuple.
+
+Sa proposition centrale peut être falsifiée simplement : il suffirait d'identifier, au niveau national, une procédure permettant à un nombre déterminé de citoyens français, sans initiative préalable du président, du gouvernement ou des parlementaires, de provoquer obligatoirement un vote populaire sur une loi ou une révision constitutionnelle.
+
+À la date du 29 juillet 2026, cette procédure n'existe pas.
 
 ## Sources essentielles
 
@@ -153,25 +568,28 @@ Cette étude applique une distinction rigoureuse entre le fait juridique (établ
 - [Article 62 (abrogation par le Conseil constitutionnel) : Légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241079)
 - [Article 72-1 (référendum local et pétition) : Légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006527574)
 - [Article 89 (révision constitutionnelle) : Légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019240655)
-- [Constitution italienne, article 71 et 75 : Sénat italien](https://www.senato.it/istituzione/la-costituzione)
-- [Loi italienne n° 352 du 25 mai 1970 : Sénat italien](https://www.senato.it/show-doc?id=1105761&idoggetto=0&leg=18&part=dossier_dossier1-sezione_sezione13&tipodoc=DOSSIER)
+- [Constitution italienne, article 71 (initiative législative populaire) : Sénat italien](https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-ii/articolo-71)
+- [Constitution italienne, article 75 (référendum abrogatif) : Sénat italien](https://www.senato.it/istituzione/la-costituzione/parte-ii/titolo-i/sezione-ii/articolo-75)
+- [Loi italienne n° 352 du 25 mai 1970 (application du référendum) : Sénat italien](https://www.senato.it/show-doc?id=1105761&idoggetto=0&leg=18&part=dossier_dossier1-sezione_sezione13&tipodoc=DOSSIER)
 - [Constitution bavaroise : Landtag de Bavière](https://www.bayern.landtag.de/fileadmin/Internet_Dokumente/Oeffarbeit_Paed_Betreuung/BV_Franz_Fassung_Stand_2003_BF.pdf)
 
 ### Sources historiques et travaux préparatoires
 
 - [Discours de Sieyès du 7 septembre 1789 : Archives parlementaires/Persée](https://www.persee.fr/doc/arcpa_0000-0000_1875_num_8_1_4952_t2_0592_0000_6)
-- [Présentation historique de la Constitution de l'an III : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/constitution-de-l-an-iii-le-directoire)
+- [Présentation historique du Directoire : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/constitution-de-l-an-iii-le-directoire)
 - [Le parlementarisme rationalisé de 1958 : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/cinquieme-republique/la-constitution-de-1958-et-l-instauration-de-la-ve-republique)
-- [Référendum de 1962 : Vie-publique](https://www.vie-publique.fr/fiches/38016-la-revision-constitutionnelle-et-le-referendum-de-1962)
+- [Référendum de 1962 (élection présidentielle au suffrage universel) : Vie-publique](https://www.vie-publique.fr/fiches/38016-la-revision-constitutionnelle-et-le-referendum-de-1962)
 - [Démission du général de Gaulle (28 avril 1969) : Élysée](https://www.elysee.fr/charles-de-gaulle)
 - [Discours de Nicolas Sarkozy sur le traité simplifié (12 septembre 2006) : Vie-publique](https://www.vie-publique.fr/discours/165602-declaration-de-m-nicolas-sarkozy-ministre-de-linterieur-et-de-lamena)
 - [Débat sénatorial sur l'inversion du calendrier électoral (30 janvier 2001) : Sénat](https://www.senat.fr/seances/s200101/s20010130/sc20010130023.html)
 
 ### Sources parlementaires et juridictionnelles
 
-- [Étude annuelle 2024, La souveraineté : Conseil d'État](https://www.conseil-etat.fr/content/download/217844/document/souverainete_2024_web.pdf)
-- [Rapport sur le traité de Lisbonne (tableau comparatif) : Assemblée nationale](https://www.assemblee-nationale.fr/13/europe/rap-info/i0562-t2.asp)
+- [Référendums de la Cinquième République : Conseil constitutionnel](https://www.conseil-constitutionnel.fr/referendum-sous-la-ve-republique/tableau-recapitulatif-des-referendums-de-la-veme-republique)
+- [Étude annuelle 2024, *La souveraineté* : Conseil d'État](https://www.conseil-etat.fr/content/download/217844/document/souverainete_2024_web.pdf)
+- [Rapport sur le traité de Lisbonne (tableau comparatif TCE) : Assemblée nationale](https://www.assemblee-nationale.fr/13/europe/rap-info/i0562-t2.asp)
 - [Décision finale sur le RIP Aéroports de Paris : Conseil constitutionnel](https://www.conseil-constitutionnel.fr/decision/2020/201919RIP.htm)
+- [Proposition de RIC de 2019 : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/15/dossiers/possibilite_referendums_initiative_citoyenne)
 - [Scrutin n° 1712 du 21 février 2019 (motion de renvoi RIC) : Assemblée nationale](https://www.assemblee-nationale.fr/dyn/15/scrutins/1712)
 - [Rapport sénatorial de 2023 sur le RIP : Sénat](https://www.senat.fr/rap/l23-099/l23-0991.pdf)
 - [Scrutin n° 64 du 22 novembre 2023 (rejet RIP) : Sénat](https://www.senat.fr/scrutin-public/2023/scr2023-64.html)
@@ -190,5 +608,3 @@ Cette étude applique une distinction rigoureuse entre le fait juridique (établ
 - [Le verrou invisible : anatomie du RIC (référendum d'initiative citoyenne) français, 237 ans d'absence documentée : Substack](https://giak.substack.com/p/le-verrou-invisible-anatomie-du-ric)
 - [Le changement de régime : pourquoi ce système ne peut pas se réformer : Substack](https://giak.substack.com/p/le-changement-de-regime-pourquoi)
 - [19 civilisations, 5000 ans, une leçon : la France n'est pas le modèle, elle est l'exception : Substack](https://giak.substack.com/p/19-civilisations-5000-ans-une-lecon)
-
-
