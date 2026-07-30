@@ -1,10 +1,10 @@
 # V191 — Bucha représailles SBU / « Botsmans » (purges post-retrait russe / vidéos effacées d'unités de nettoyage UA tirant sans brassard bleu en mars-avril 2022) — KERNEL APEX INVESTIGATION
 
-> **Statut** : À VÉRIFIER (KERNEL APEX strict, 2026-07-11_07-15)
+> **Statut** : DÉMENTI — Propagande russe, origine tracée à la vidéo de Serhiy Korotkykh alias « Botsman » (KERNEL APEX strict, 2026-07-11_07-15, révisé 2026-07-31_13-00)
 > **Position** : 5ème de la **section [4] Faux drapeaux & forensique Maidan / Bucha / Kramatorsk (V187-V197)** — série forensique post-V190 (Maxar/Muller-Hertz)
 > **Anti-prioritaires** : Anti1 anti-sycophancy main + Anti4 anti-conspiration co + Anti5 honnête-placeholder co + Anti8 anti-omission-press-FR co, PRIORITY ×1.5 quadruples
 > **Intersection** : UA + FR + 14 juillet 2026 (défilé privatisation) — représailles-SBU-purges-post-retrait-vidéos-effacées-botsmans-cleanup-units
-> **État strict** : [À VÉRIFIER] — 4 placeholders-Anti5-marqués-honnête-cohérents-Non-affirmés-comme-prouvés
+> **État strict** : [DÉMENTI] — Vérification forensique du 2026-07-31 : la narrative des « unités de nettoyage UA exécutant des civils pro-russes à Bucha » trouve son origine dans une vidéo Telegram de Serhiy Korotkykh (alias « Botsman ») qui montrait l'après-retrait russe, pas des exécutions ukrainiennes. Cette vidéo a été instrumentalisée par la propagande russe et systématiquement démentie par les fact-checkers Tier-1 (VoxUkraine, AP/FRONTLINE/SITU, Bellingcat). Les 4 placeholders sont résolus : voir investigation de vérification `2026-07-31_13-00_verification-V191-katchanovski-botsmans-dementi_APEX_INVESTIGATION.md`. Le fichier V191 conserve une valeur archivistique comme documentation d'une désinformation et cas d'école du piège épistémologique anti-sycophantique.
 
 ---
 

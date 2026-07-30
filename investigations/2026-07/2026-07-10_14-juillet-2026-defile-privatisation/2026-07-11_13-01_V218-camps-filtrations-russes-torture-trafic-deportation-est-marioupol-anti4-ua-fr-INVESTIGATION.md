@@ -161,7 +161,7 @@ WOLF #35 : EUvsDisinfo-task-force-V218 — quote-canon-DEC-pr-V218-actuals-publi
 | Cible-V218 | Statistiques-canon-V218 | Source-canon-V218-pr-V218-strict-press-FR-juillet-2026 |
 |--------|---------|---------|
 | Disparus-Marioupol | **10000-disparus-actuals-publies-pr-V218-corpus-V154-V253-extension-press-FR-juillet-2026-strict-actuals** + 200000-citizens-pr-V218-cycle-actuals | Bellingcat-Marioupol-actuals-publies |
-| Enfants-déportés-Russie | **19800-enfants-déportés-actuals-publies-pr-V218-corpus-V154-V253-extension-press-FR-juillet-2026-strict-actuals** | ANIF-UA-rapport-public-actuals |
+| Enfants-déportés-Russie | **19800-enfants-déportés** (chiffre de l'accusation ANIF UA/gouvernement ukrainien — non vérifiable indépendamment, voir strate 17 dossier Fedorova) **-actuals-publies-pr-V218-corpus-V154-V253-extension-press-FR-juillet-2026-strict-actuals** | ANIF-UA-rapport-public-actuals |
 | Enfants-recover-ANIF | **12800-enfants-recover-actuals-publies-pr-V218-corpus-V154-V253-extension-press-FR-juillet-2026-strict-actuals** | ANIF-UA-database-actuals |
 | Camps-filtres-actuels | **31-camps-actuals-publies-pr-V218-corpus-V154-V253-extension-press-FR-juillet-2026-strict-actuals** | OHCHR-OCHA-actuals |
 | Adultes-déportés-Russie | **26000-adultes-pr-V218-corpus-V154-V253-extension-press-FR-juillet-2026-strict-actuals** + others | OHCHR-OCHA-actuals |
@@ -190,7 +190,7 @@ WOLF #35 : EUvsDisinfo-task-force-V218 — quote-canon-DEC-pr-V218-actuals-publi
 | 24-février-2022 | Invasion-RU-UA-pr-V218-corpus-V154-V253-extension-actuals |
 | 24-février-2022-août-2022 | Siège-Marioupol-actuals-publies-pr-V218-corpus-V154-V253-extension-actuals |
 | Mai-Juin-2022 | Filtration-camps-Bezimenne-actuals |
-| Mars-2022-Mars-2026 | Déportation-Est-19800-enfants-actuals-publies-pr-V218 |
+| Mars-2022-Mars-2026 | Déportation-Est-19800-enfants (chiffre accusation — non vérifiable indépendamment, strate 17)-actuals-publies-pr-V218 |
 | 17-mars-2023 | ICC-Arrest-Warrant-Poutine-Lvova-Belova-actuals-publies-pr-V218 |
 | Juin-2024 | OHCHR-Report-Camps-Filtrations-actuals-publies |
 | Juin-2024 | HRW-Report-Forced-Deportations-actuals |
@@ -249,7 +249,7 @@ WOLF #35 : EUvsDisinfo-task-force-V218 — quote-canon-DEC-pr-V218-actuals-publi
 - 24-FEV-2022-INVASION-RU-UA-pr-V218-corpus-V154-V253-extension-actuals
 - MARIUPOL-SIEGE-AOÛT-2022-10000-DISPARUS-actuals-pr-V218-corpus-V154-V253-extension-actuals
 - 31-CAMPS-FILTRATIONS-BEZIMENNE-MANGUSH-DONETSK-OLENIVKA-actuals-pr-V218-corpus-V154-V253-extension-actuals
-- 19800-ENFANTS-DEPORTES-RUSSIE-actuals-publies-pr-V218-corpus-V154-V253-extension-press-FR-juillet-2026-strict-actuals
+- 19800-ENFANTS-DEPORTES-RUSSIE (chiffre accusation — non vérifiable indépendamment, strate 17)-actuals-publies-pr-V218-corpus-V154-V253-extension-press-FR-juillet-2026-strict-actuals
 - 12800-ENFANTS-RECOVER-ANIF-UA-actuals-publies-pr-V218-corpus-V154-V253-extension-press-FR-juillet-2026-strict-actuals
 - ICC-ARREST-WARRANT-POUTINE-LVOVA-BELOVA-17-MARS-2023-actuals-pr-V218-corpus-V154-V253-extension-actuals
 - OHCHR-REPORT-FILTRATION-CAMPS-2024-actuals-publies-pr-V218-corpus-V154-V253-extension-press-FR-juillet-2026-strict-actuals

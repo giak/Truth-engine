@@ -93,7 +93,7 @@ def parse_rapport(rapport: Path, source: dict) -> dict:
 
     # C3 : transversalites >= 2 avec format pivot
     section3 = _extract_section(lines, 3, 4)
-    c3_trans_count = len(re.findall(r'^### X[1-3]', section3, re.MULTILINE))
+    c3_trans_count = len(re.findall(r'^### Transversalité [1-9]', section3, re.MULTILINE))
     c3_pivots = len(re.findall(r'\[[^\]]+\([^)]+\) \u2194 [^\]]+\([^)]*\)\]', section3))
     c3_ok = (c3_trans_count >= 2 and c3_pivots >= 1)
 
@@ -128,7 +128,7 @@ def parse_rapport(rapport: Path, source: dict) -> dict:
         cited_source_stems = set()
     else:
         c6_indetermine = False
-        pattern_file = re.compile(r'`?<?([^`>]+)\.md>?`?')
+        pattern_file = re.compile(r'\|\s*`?<?([^`>|]+)\.md>?`?')
         cited_files = set(pattern_file.findall(section1))
         source_files_set = set(Path(f).stem for f in source['files'])
         cited_source_stems = cited_files & source_files_set

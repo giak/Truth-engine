@@ -1,7 +1,7 @@
 # 📚 Index Central des Posts Substack
 
 > **Objectif :** Référencer tous les articles publiés avec sous-titre et mots-clés pour éviter de lire le HTML.
-> **Mise à jour :** 2026-07-29
+> **Mise à jour :** 2026-07-30
 > **Source :** `substack-online/posts.csv` + `posts/*.html`
 
 ---
@@ -10,7 +10,7 @@
 
 | Métrique | Valeur |
 |----------|--------|
-| **Total posts publiés** | **117** |
+| **Total posts publiés** | **118** |
 | **Période** | Novembre 2025 → Juillet 2026 |
 | **Mois le plus productif** | Mai 2026 (23 posts) |
 | **Série Le Changement de Régime** | 18 articles (30 mai 2026) |
@@ -23,6 +23,7 @@
 
 | # | Date | Titre & Sous-titre | Mots-clés | Thèse |
 |---|------|--------------------|-----------|-------|
+| 118 | 2026-07-30 | [🔒 Le peuple n'existe que sur convocation](https://giak.substack.com/p/le-peuple-nexiste-que-sur-convocation) — *Comment la République réserve aux institutions le pouvoir de faire apparaître son souverain* | démocratie, souveraineté, constitution, RIC, histoire | Thèse : le peuple français est souverain dans les textes, électeur en pratique, mais ne possède pas le premier des pouvoirs politiques : le déclenchement. Il a le droit de répondre, jamais de poser la question. 9 sections remontant de 1789 (Sieyès) à 2026 (RIC délibératif bloqué à minuit). Analyse du méta-verrou : le monopole de l'agenda. Droit comparé Suisse/Italie/Bavière/Irlande. Quatre épreuves modernes : TCE 2005, Gilets jaunes 2018, Convention climat 2020, retraites 2023. Sources : textes constitutionnels, travaux préparatoires, scrutins parlementaires. Prolonge Le verrou invisible et Le changement de régime. |
 | 117 | 2026-07-28 | [🎬 La fabrique de la menace : comment le documentaire d'Arte transforme une coopération réelle en guerre totale](https://giak.substack.com/p/la-fabrique-de-la-menace-comment) — *Autopsie d'un dispositif de persuasion : six actes, vingt-huit séquences, une destination.* | médias, manipulation, géopolitique, Arte, désinformation | Analyse forensique du documentaire Arte « Russie, Chine, Iran : la revanche des empires » (94 min, mai 2024). Six actes narratifs démontés séquence par séquence : agrégation (52 pays), militarisation (« machine de guerre contre l'Occident » assumée par la voix off), totalisation (« ensemble ou séparément »), absorption (crises intérieures), téléologie (BRICS comme « plan »), prescription (« destin de puissance militaire »). Thèse : le film ne ment pas sur les faits mais les organise en manipulation narrative systématique. 28 séquences vérifiées, 19 sources. |
 | 116 | 2026-07-12 | [🔒 La honte française : du tortionnaire Sisi aux soldats de Zelensky, une décennie de complicité (2014-2026)](https://giak.substack.com/p/la-honte-francaise-du-tortionnaire-sisi-aux-soldats-de-zelensky) — *Ce que le 14 juillet 2026 expose n'est pas une chute. C'est un choix. Enquête forensique sur une décennie où le discours sur les valeurs a masqué la complicité avec les tortionnaires, les saboteurs et les dictateurs.* | Macron, Ukraine, corruption, dictature, médias, démocratie | 9 sections, 20 faits sourcés, 8 faisceaux forensiques : de Sisi (2020) à Zelensky (2026), en passant par Nord Stream, Biolabs, Burisma et la traite des femmes ukrainiennes. |
 | 115 | 2026-07-10 | [🔒 L'asphyxie du Golem v7 : dérives systémiques d'un verrouillage français (1789-2026) — 5684 mots, 7 actions CP2 appliquées](https://giak.substack.com/p/lasphyxie-du-golem-derives-systemiques-1789-2026) — *237 ans d'absence d'initiative populaire, 8 épisodes de résistance documentés, et le dédoublement anesthésiant extraction/redistribution.* | verrouillage multiséculaire, ρ multi-phases, sources institutionnelles | 14 sections, sourcing CEPEJ/INSEE/Cour des comptes/DREES, ρ 3 sous-catégories, T6 supprimé |

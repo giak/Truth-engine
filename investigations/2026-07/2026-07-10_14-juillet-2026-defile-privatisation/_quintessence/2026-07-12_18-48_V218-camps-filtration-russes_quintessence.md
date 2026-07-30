@@ -5,7 +5,7 @@
 
 ## Résumé exécutif
 
-Le pendant asymétrique de la matrice criminelle Ouest (V209-V217). L'État russe, via le FSB (Alexander Bortnikov) et les administrations d'occupation (DPR Denis Pushilin, LPR Leonid Pasechnik), opère 31 camps de filtration à Bezimenne, Mangush, Donetsk et Olenivka. Bilan documenté : 10 000 disparus à Marioupol, 19 800 enfants déportés en Russie, 12 800 enfants récupérés par l'ANIF UA. La CPI a émis un mandat d'arrêt contre Poutine et Maria Lvova-Belova le 17 mars 2023. Lvova-Belova instrumentalise le récit d'« évacuations humanitaires volontaires » (Couche-1).
+Le pendant asymétrique de la matrice criminelle Ouest (V209-V217). L'État russe, via le FSB (Alexander Bortnikov) et les administrations d'occupation (DPR Denis Pushilin, LPR Leonid Pasechnik), opère 31 camps de filtration à Bezimenne, Mangush, Donetsk et Olenivka. Bilan documenté : 10 000 disparus à Marioupol, 19 800 enfants déportés en Russie (chiffre de l'accusation ANIF UA/gouvernement ukrainien — non vérifiable indépendamment, voir strate 17 du dossier Fedorova), 12 800 enfants récupérés par l'ANIF UA. La CPI a émis un mandat d'arrêt contre Poutine et Maria Lvova-Belova le 17 mars 2023. Lvova-Belova instrumentalise le récit d'« évacuations humanitaires volontaires » (Couche-1).
 
 ## Données-clés
 

@@ -1,9 +1,9 @@
-# V192 — Mandat CPI (Cour Pénale Internationale) contre Poutine + asymétries CPI Karim Khan (déportations 19 500 enfants russes / comparaison aux mandats inexistants pour bavures ukrainiennes) — KERNEL APEX INVESTIGATION
+# V192 — Mandat CPI (Cour Pénale Internationale) contre Poutine + asymétries CPI Karim Khan (déportations 19 500 enfants russes selon l'accusation — chiffre non vérifiable indépendamment, voir strate 17 dossier Fedorova / comparaison aux mandats inexistants pour bavures ukrainiennes) — KERNEL APEX INVESTIGATION
 
 > **Statut** : VÉRIFIÉ (KERNEL APEX strict, 2026-07-11_07-30)
 > **Position** : 6ème de la **section [4] Faux drapeaux & forensique Maidan / Bucha / Kramatorsk (V187-V197)** — série forensique post-V191 (Bucha représailles SBU/Botsmans)
 > **Anti-prioritaires** : Anti7 anti-bothsidesing main + Anti4 anti-conspiration co + Anti8 anti-omission-press-FR co + Anti1 anti-sycophancy co, PRIORITY ×1.5 quadruples
-> **Intersection** : FR + UA + 14 juillet 2026 (défilé privatisation) — CPI-mandat-Poutine-2023-asymétries-cas-UA-19 500-enfants-déportés-bavures-ukrainiennes-absentes-mandats-CPI
+> **Intersection** : FR + UA + 14 juillet 2026 (défilé privatisation) — CPI-mandat-Poutine-2023-asymétries-cas-UA-19 500-enfants-déportés (chiffre de l'accusation — non vérifiable indépendamment, strate 17)-bavures-ukrainiennes-absentes-mandats-CPI
 > **État strict** : [VÉRIFIÉ] — 9-Official-distinct-confirmed-documentés (5-Official-core + 4-Official-supplementary)
 
 ---
@@ -281,7 +281,7 @@ V192 officialise l'**ironie-clé-CPI-asymétrie** : le mandat-Poutine-existe-par
 ### §8.1 Matrice-mandat-CPI-cycle-A7-crossV192
 
 - **2023-03-17-Warrant-Poutine-Cycle-A7-crossV192** : distinct-cohérent-cross-V192.
-- **19-500-enfants-ukrainiens-déportés-Cycle-A7-crossV192** : distinct-cohérent-cross-V192.
+- **19-500-enfants-ukrainiens-déportés-Cycle-A7-crossV192** (chiffre de l'accusation CPI/gouvernement ukrainien — non vérifiable indépendamment, strate 17) : distinct-cohérent-cross-V192.
 - **1100-Days-Karim-Khan-Statement-Cycle-A7-crossV192-Anthme-@-FETCH** : distinct-cohérent-cross-V192.
 
 ### §8.2 Matrice-asymétrie-CPI-cycle-A7-crossV192

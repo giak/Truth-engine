@@ -5,7 +5,7 @@
 
 ## §1 — Noyau dur
 
-Le 17 mars 2023, la CPI (procureur Karim Khan) émet un mandat d'arrêt contre Vladimir Poutine pour déportation illicite de 19 500 enfants ukrainiens (article 8-2-a-vii du Statut de Rome). À ce jour, **aucun mandat CPI n'a été émis contre un officiel ukrainien**, malgré les allégations documentées de bavures (V191 SBU Botsmans, V193 Azov militarisation). Cette asymétrie est techniquement justifiée (la Russie était État partie jusqu'en 2016 ; l'Ukraine a déposé deux déclarations d'acceptation en 2014-2015), mais elle est politiquement exploitable.
+Le 17 mars 2023, la CPI (procureur Karim Khan) émet un mandat d'arrêt contre Vladimir Poutine pour déportation illicite de 19 500 enfants ukrainiens (article 8-2-a-vii du Statut de Rome) — chiffre de l'accusation, non vérifiable indépendamment (voir strate 17 du dossier Fedorova). À ce jour, **aucun mandat CPI n'a été émis contre un officiel ukrainien**, malgré les allégations documentées de bavures (V191 SBU Botsmans — DÉMENTI depuis la strate 16, V193 Azov militarisation). Cette asymétrie est techniquement justifiée (la Russie était État partie jusqu'en 2016 ; l'Ukraine a déposé deux déclarations d'acceptation en 2014-2015), mais elle est politiquement exploitable.
 
 ## §2 — Mécanisme
 
