@@ -1,0 +1,12 @@
+flowchart TB
+    S07["07_sources_antecedentes/<br/><b>enquêtes Moreau (déc. 2025)</b><br/>le précédent documenté"] --> S02["02_enquetes/<br/><b>35 strates APEX</b> (30-31 juil. 2026)<br/>l'enquête brute, chaque fait sourcé"]
+    S02 --> S03["03_quintessences/<br/><b>36 quintessences</b><br/>l'essentiel de chaque strate"]
+    S03 --> S04["04_syntheses/<br/><b>rapport Phase 2, blueprint,<br/>audit antagoniste</b>"]
+    S04 --> S01["01_brouillons_audits/<br/><b>4 brouillons + 3 audits</b><br/>le texte contesté, corrigé, validé"]
+    S01 --> S00["00_article_final/<br/><b>LE TEXTE PUBLIÉ</b><br/>version « (9) », seule validée"]
+    S00 --> S06["06_publication/<br/><b>fiche Substack #119</b><br/>URL, numéro, thèse"]
+    S05["05_donnees_intervenants/<br/><b>comptages médiatiques</b><br/>asymétrie des plateaux"] -.nourrit.-> S02
+    S08["08_mnemolite/<br/><b>6 mémoires RAG</b><br/>la base de connaissances"] -.contexte.-> S00
+    S09["09_git/<br/><b>chronologie des commits</b><br/>4 commits, états validés"] -.trace.-> S00
+    classDef pub fill:#b02a37,color:#fff
+    class S00 pub
