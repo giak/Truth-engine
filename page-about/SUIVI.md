@@ -671,6 +671,136 @@ interdit (148, 105, 2,9 M, 80 %, 117, 118, 19 protocoles, 3,2 M).
 validés en l'état » : dépassé par la réécriture v9 (note de révision ajoutée
 en §5 du fichier d'audit, voir le pointeur).
 
+### 2026-08-02 — v9c→v9f : différenciation des deux textes (retour auteur « j'ai l'impression que les textes sont les mêmes »)
+
+Retour auteur : « les textes de about et machine sont les mêmes ». Mesure
+objective (script, n-grammes de 6 mots communs) : **147 segments partagés**
+entre `about-page.md` et `machine.md`. Diagnostic : en v9, j'avais gonflé le
+vestibule avec des blocs entiers du dossier (IA, défauts, trace, bilan, devise
+quasi recopiés). Or leurs fonctions sont opposées : le vestibule **convertit**
+(pourquoi lire, pourquoi croire, comment s'abonner), le dossier **démontre**
+(comment c'est fait, pièce par pièce).
+
+Quatre passes de différenciation, toutes mesurées :
+
+| Passe | Traitement | Segments 6 mots communs |
+|-------|-----------|-------------------------|
+| v9 | état initial | 147 |
+| v9c | vestibule réécrit en texte court et autonome (~850-900 mots visés), le détail reste dans le dossier | — |
+| v9d | script 8+8 paires : échos verbatim reformulés dans chaque texte (IA, trace, défauts, contrat, devise de travail) | 32 |
+| v9e | 8 échos stylistiques brisés (registre a un trou/comporte une lacune, article long va de/atteint, signaler pas à l'éviter/le cacher, phrase de l'article/de l'article publié) + restauration de la clause « les objections retenues ou écartées » perdue à v9d | 27 |
+| v9f | 2 micro-corrections reviewer (retrait « de travail encadré » redondant → « environnement d'investigation » ; virgule au lieu du 2e deux-points dans la phrase des défauts) | 23 |
+
+Résultat final : **23 segments communs, tous factuels ou intentionnels** :
+chaîne Clichy (geyser, 51 000/13 500, 5,3 Md€, 27 juin), devise canonique
+« Cartographier l'architecture du mensonge institutionnel... » (citée dans les
+deux textes), titre « La machine qui documente les machines » (renvoi croisé),
+chiffre « 5 000 à 15 000 mots ». Zéro écho stylistique résiduel.
+
+Fonctions désormais distinctes et vérifiées par relecture reviewer :
+- `about-page.md` (vestibule, 844 mots) : constat → identité → preuve Clichy →
+  IA frontale (ni source ni oracle) → ce que vous recevez → s'abonner → méthode
+  en trois idées (95 %, manipulation avant faits, matrice, refus de confondre) →
+  défauts publiés → bilan (119, 2,2 M, 40 symboles, 15 clusters) → trace →
+  pourquoi « Résistance Cognitive » → soutenir → contact → devise
+- `machine.md` (dossier, 2 134 mots) : anomalie → cadrage (40 symboles,
+  15 clusters, 95 %) → matière (matrice ✦✧⁅❧, Arte 94 min/30 séquences/
+  28 timecodes, 8 couches) → réduction → vérification (15 passes/25 corrections/
+  3 rapports) → 6 distinctions → prix et trace → défauts connus → verdict
+  (contrat : faits, sources, liens, objections retenues ou écartées, distance
+  preuve-conclusion)
+
+Contraintes validées sur les deux fichiers : 0 em-dash, 0 en-dash,
+0 espace simple avant ponctuation, 0 double espace, guillemets équilibrés
+(3/3 et 2/2), NBSP avant « : » et « ; », apostrophes typographiques.
+Chiffres vérifiés conservés (119 articles, 2,2 M, 40 symboles, 15 clusters,
+95 %, 44 min, 51 000, 13 500, 5,3 Md€, 16-30 h, 5 000-15 000).
+
+⚠️ Question ouverte pour l'auteur (reviewer, non bloquante) : le bloc
+« Qui décide ? Qui paie ? Qui bénéficie ? Qui supporte les conséquences ?
+Qui peut interrompre le mécanisme ? » du benchmark ChatGPT a disparu du
+vestibule lors du raccourcissement v9c. Le restaurer en version compacte
+(une ligne, ~12 mots, budget ~900 mots) est recommandé par la relecture :
+c'est un dispositif de conversion propre au vestibule (le dossier ne l'a
+jamais porté), sans menace sur la différenciation. À trancher par l'auteur.
+
+### 2026-08-02 — v9g : micro-corrections de relecture finale
+
+Trois points de la relecture finale appliqués sur `page-about/about-page.md` :
+
+1. Micro-défaut de français : « la même suspicion initiale de 95 % sur le
+   récit officiel » → « une suspicion initiale de 95 % sur le récit officiel »
+   (le « même » pendait sans second terme de comparaison)
+2. « Truth Engine n'est ni une source, ni un oracle : c'est un environnement
+   d'investigation » (retrait de « de travail encadré », redondant avec
+   « l'humain est aux commandes à chaque étape »)
+3. Virgule au lieu du 2e deux-points : « certains articles sont de moindre
+   qualité, je le dis »
+
+Mesures finales (script) : about-page.md = 843 mots ; machine.md = 2 134 mots ;
+0 em-dash ; 0 en-dash ; 0 espace simple avant ponctuation ; 0 double espace ;
+guillemets équilibrés (3/3 et 2/2). Chevauchement 6-mots : 23 segments, tous
+factuels ou intentionnels (chaîne Clichy, devise, titre, chiffres).
+
+Reste une décision d'auteur (question ouverte ci-dessus) : restaurer ou non le
+bloc de questions « Qui décide ? Qui paie ? Qui bénéficie ?... » dans le
+vestibule. La relecture recommande la restauration compacte (~12 mots) ;
+l'auteur tranche.
+→ **Tranché en v9h (2026-08-02) : restauré + CTA renforcé, voir entrée v9h.**
+
+### 2026-08-02 — v9h : décisions auteur (ask_user) appliquées au vestibule
+
+Deux décisions auteur (ask_user, options validées) appliquées à
+`page-about/about-page.md` :
+
+1. **Bloc de questions restauré** en une ligne après le constat d'ouverture,
+   avant l'identité : « Qui décide ? Qui paie ? Qui bénéficie ? Qui supporte
+   les conséquences ? Qui peut interrompre le mécanisme ? ». Ce bloc du
+   benchmark ChatGPT avait disparu lors du raccourcissement v9c ; il est
+   propre au vestibule (le dossier ne le porte pas), donc sans menace sur la
+   différenciation (chevauchement 6-mots inchangé : 23 segments factuels).
+2. **CTA S'abonner renforcé** : « Gratuit. Chaque semaine. Aucun engagement.
+   Chaque enquête arrive directement dans votre boîte. » (sans répéter
+   « Aucun paywall, aucune publicité », déjà dans « Ce que vous recevez »).
+
+Mesures v9h (script) : about-page.md = 870 mots (budget ~850-900 respecté) ;
+0 em-dash ; 0 en-dash ; 0 espace simple avant ponctuation ; 0 double espace ;
+guillemets équilibrés (3/3) ; NBSP avant « ? » et « : » présentes ; apostrophes
+typographiques. machine.md inchangé (2 134 mots).
+
+Répétition intra-texte assumée : « Gratuit » et « Chaque semaine » figurent
+chacun deux fois dans le vestibule (« Un article gratuit chaque semaine »
+dans Ce que vous recevez + « Gratuit. Chaque semaine. » dans le CTA) :
+renforcement rhétorique volontaire de la cadence hebdomadaire, pas un accident.
+
+État final de la passe de différenciation v9c→v9h : deux textes distincts par
+la fonction (vestibule convertit, dossier démontre) et par le lexique ;
+chevauchement 6-mots = 23 segments, tous factuels ou intentionnels (chaîne
+Clichy, devise, titre, chiffres) ; contraintes au vert sur les deux fichiers.
+
+### 2026-08-02 — v9i : relecture voix haute, deux micro-corrections
+
+Relecture voix haute demandée par l'auteur (rythme, transitions, formules)
+sur les deux textes v9h. Deux micro-corrections justifiées appliquées :
+
+1. **Précision factuelle (chaîne partagée)** : « un compte coordonné de
+   13 500 vues » → « un compte coordonné dont le tweet a cumulé 13 500
+   vues », dans les deux textes. Les vues appartiennent au tweet, pas au
+   compte (un compte a des abonnés) ; reliquat de la confusion vues/abonnés
+   traquée depuis l'audit v4. Chiffres 51 000 et 13 500 inchangés.
+2. **Écho intra-vestibule** : « un protocole où l'humain reste aux commandes
+   à chaque étape » → « un protocole où l'humain reste aux commandes » (la
+   section IA porte déjà « l'humain est aux commandes à chaque étape » ; le
+   doublon de 3 mots « aux commandes » restant est un renforcement assumé).
+
+Mesures v9i (script) : about-page.md = 871 mots ; machine.md = 2 138 mots ;
+0 em-dash ; 0 en-dash ; 0 espace simple avant ponctuation ; 0 double espace ;
+guillemets équilibrés (3/3 et 2/2). Chevauchement 6-mots = 27 segments,
+tous factuels (la formule partagée « dont le tweet a cumulé 13 500 vues »
+génère 4 segments supplémentaires de la chaîne Clichy : identité factuelle,
+pas des échos stylistiques). Relecture reviewer : passe confirmée, un point
+de trace aligné (23 → 27) après mesure finale.
+
 ## Chiffres à reconfirmer avec l'auteur avant publication
 
 - « 25 enquêtes distinctes » pour l'article Arte : dépôt = 19 (décider du chiffre)
