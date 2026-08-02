@@ -1,7 +1,7 @@
 # 📚 Index Central des Posts Substack
 
 > **Objectif :** Référencer tous les articles publiés avec sous-titre et mots-clés pour éviter de lire le HTML.
-> **Mise à jour :** 2026-07-30
+> **Mise à jour :** 2026-08-02
 > **Source :** `substack-online/posts.csv` + `posts/*.html`
 
 ---
@@ -10,8 +10,8 @@
 
 | Métrique | Valeur |
 |----------|--------|
-| **Total posts publiés** | **118** |
-| **Période** | Novembre 2025 → Juillet 2026 |
+| **Total posts publiés** | **119** (IDs 1-120, #113 absent) |
+| **Période** | Novembre 2025 → Août 2026 |
 | **Mois le plus productif** | Mai 2026 (23 posts) |
 | **Série Le Changement de Régime** | 18 articles (30 mai 2026) |
 
@@ -23,6 +23,8 @@
 
 | # | Date | Titre & Sous-titre | Mots-clés | Thèse |
 |---|------|--------------------|-----------|-------|
+| 120 | 2026-08-02 | [Machine](https://giak.substack.com/p/machine) | méthode, protocole, IA, transparence, traçabilité | Documentation du protocole qui produit ce blog : chaque affirmation traçable jusqu'à sa source, l'humain aux commandes à chaque étape, la machine elle-même documentée comme un mécanisme. |
+| 119 | 2026-07-31 | [⚖️ Du « narratif » à l'ingérence : le seuil Fedorova](https://giak.substack.com/p/du-narratif-a-lingerence-le-seuil) — *Le 29 mai, le gouvernement invoquait la démocratie. Le 13 juillet, il rappelait que chacun était libre de parler. Le 29 juillet, il choisissait l'expulsion. Le 31, il gelait les avoirs. L'État n'a toujours pas rendu publique la chaîne de preuve qui transforme une parole contestable en ingérence étrangère, puis cette qualification en contraintes territoriales, professionnelles et financières.* | liberté d'expression, justice, OQTF, ingérence, médias, géopolitique | Enquête forensique du basculement Fedorova : du 29 mai (Barrot : « on peut mentir sans finir au goulag ») au 29 juillet (arrêté d'expulsion) puis au 31 juillet (gel des avoirs, NOR ECOT2616999A). Cinq seuils analytiques (opinion, affirmation trompeuse, propagande, opération d'influence, contrainte administrative) : le passage de l'un à l'autre ne s'obtient pas par la répétition du mot « propagande ». La chaîne de preuve n'est pas publiée : la qualification n'est pas sa propre preuve. Base légale L.562-1/L.562-2-1 (acte accompli « à la demande ou pour le compte d'une puissance étrangère ») : Fedorova est au moins le 2e cas public de ce nouvel instrument (après Nyamsi, 10 février 2026) ; Moreau illustre la sanction européenne, la neutralisation financière visant Français et étrangers, seule l'exclusion territoriale dépendant de la nationalité. Asymétrie : 37,8 Md€ de GNL russe importés par l'UE (IEEFA), la France premier importateur, TotalEnergies 19,4 % de Novatek et ~400 M$/an de levée Yamal. Verdict : tyrannie procédurale, la frontière et le système financier comme instruments de silence. |
 | 118 | 2026-07-30 | [🔒 Le peuple n'existe que sur convocation](https://giak.substack.com/p/le-peuple-nexiste-que-sur-convocation) — *Comment la République réserve aux institutions le pouvoir de faire apparaître son souverain* | démocratie, souveraineté, constitution, RIC, histoire | Thèse : le peuple français est souverain dans les textes, électeur en pratique, mais ne possède pas le premier des pouvoirs politiques : le déclenchement. Il a le droit de répondre, jamais de poser la question. 9 sections remontant de 1789 (Sieyès) à 2026 (RIC délibératif bloqué à minuit). Analyse du méta-verrou : le monopole de l'agenda. Droit comparé Suisse/Italie/Bavière/Irlande. Quatre épreuves modernes : TCE 2005, Gilets jaunes 2018, Convention climat 2020, retraites 2023. Sources : textes constitutionnels, travaux préparatoires, scrutins parlementaires. Prolonge Le verrou invisible et Le changement de régime. |
 | 117 | 2026-07-28 | [🎬 La fabrique de la menace : comment le documentaire d'Arte transforme une coopération réelle en guerre totale](https://giak.substack.com/p/la-fabrique-de-la-menace-comment) — *Autopsie d'un dispositif de persuasion : six actes, vingt-huit séquences, une destination.* | médias, manipulation, géopolitique, Arte, désinformation | Analyse forensique du documentaire Arte « Russie, Chine, Iran : la revanche des empires » (94 min, mai 2024). Six actes narratifs démontés séquence par séquence : agrégation (52 pays), militarisation (« machine de guerre contre l'Occident » assumée par la voix off), totalisation (« ensemble ou séparément »), absorption (crises intérieures), téléologie (BRICS comme « plan »), prescription (« destin de puissance militaire »). Thèse : le film ne ment pas sur les faits mais les organise en manipulation narrative systématique. 28 séquences vérifiées, 19 sources. |
 | 116 | 2026-07-12 | [🔒 La honte française : du tortionnaire Sisi aux soldats de Zelensky, une décennie de complicité (2014-2026)](https://giak.substack.com/p/la-honte-francaise-du-tortionnaire-sisi-aux-soldats-de-zelensky) — *Ce que le 14 juillet 2026 expose n'est pas une chute. C'est un choix. Enquête forensique sur une décennie où le discours sur les valeurs a masqué la complicité avec les tortionnaires, les saboteurs et les dictateurs.* | Macron, Ukraine, corruption, dictature, médias, démocratie | 9 sections, 20 faits sourcés, 8 faisceaux forensiques : de Sisi (2020) à Zelensky (2026), en passant par Nord Stream, Biolabs, Burisma et la traite des femmes ukrainiennes. |
