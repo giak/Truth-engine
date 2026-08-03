@@ -23,7 +23,7 @@ La méthode repose sur trois principes. Premièrement : la recherche de la mani
 
 Partout, la méthode refuse de confondre ce que le récit dominant mélange. Une corrélation n'est pas une causalité : que deux événements se suivent ne prouve pas que le premier a causé le second. Un bénéficiaire n'est pas un organisateur : qu'un acteur profite d'une situation ne démontre pas qu'il l'a créée. Une convergence n'est pas une coordination : que des intérêts s'alignent ne suffit pas à établir qu'ils ont fait l'objet d'une entente.
 
-Le protocole complet est documenté dans un texte séparé : [La machine qui documente les machines](https://giak.substack.com/p/machine).
+Le protocole complet est documenté dans un texte séparé : [La machine qui documente les machines](https://giak.substack.com/p/machine). Pour la première fois, un dossier de fabrication complet y est publié : 120 fichiers issus d'une enquête, téléchargeables, pour vérifier chaque étape du raisonnement.
 
 **Ce système a des défauts. Je les publie.**
 
