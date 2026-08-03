@@ -26,9 +26,10 @@ Ce dossier contient toute la matière qui a produit cet article : 35 investigati
   - [07_sources_antecedentes - les enquêtes antérieures citées](#d07)
   - [08_mnemolite - les données de la base de connaissances](#d08)
   - [09_git - la chronologie des commits](#d09)
-  - [10_protocole - le protocole Truth Engine](#d10)
+  - [10_protocole - protocole et moteurs](#d10)
 - [Petit lexique](#lexique)
 - [Fiche signalétique du dossier](#fiche)
+- [Licence et réutilisation](#licence)
 - [Note de méthode sur ce dossier](#methode)
 
 ## <a id="ouvrir"></a>Comment ouvrir les fichiers
@@ -53,9 +54,11 @@ Ce dossier contient désormais un second article, à la racine : [2026-08-03_res
 
 Intitulé **« Un hybride sans équivalent identifié : anatomie comparative de Résistance Cognitive »**, il n'enquête pas sur Fedorova : il documente la machine qui a produit ce dossier. Il prend l'affaire comme preuve (les 113 fichiers de l'investigation, l'enquête APEX sur le tweet de Fourest, les quintessences, les audits) et compare l'ensemble du dispositif aux publications françaises et internationales les plus proches (Le Monde diplomatique, Élucid, Mediapart, Les Jours, Disclose, Splann !, Bellingcat, The Markup, Cory Doctorow, Molly White). Sa thèse est précise : aucune de ces publications ne réunit les onze propriétés que Truth Engine combine, mais cette singularité ne prouve pas sa supériorité.
 
-Les liens internes de cet article pointent vers les fichiers de ce dossier : l'[enquête APEX sur le tweet de Fourest](02_enquetes/2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX_INVESTIGATION.md), le [KERNEL](10_protocole/KERNEL.md) et l'[architecture](10_protocole/ARCHITECTURE.md) du protocole. Le dossier `10_protocole/` a été créé pour rendre ces références autonomes : il contient les deux documents de référence de Truth Engine v2.
+Les liens internes de cet article pointent vers les fichiers de ce dossier : l'[enquête APEX sur le tweet de Fourest](02_enquetes/2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX_INVESTIGATION.md), le [KERNEL](10_protocole/TRUTH_ENGINE_V2_KERNEL.md) et l'[architecture](10_protocole/TRUTH_ENGINE_V2_ARCHITECTURE.md) de Truth Engine v2, ainsi que l'[architecture du moteur Sublimator](10_protocole/SUBLIMATOR_ARCHITECTURE.md) et l'[architecture du moteur Writer](10_protocole/WRITER_ARCHITECTURE.md). Le dossier `10_protocole/` a été créé pour rendre ces références autonomes : il contient les documents de référence de Truth Engine v2 et des moteurs Sublimator et Writer.
 
-Cette copie est un instantané daté du 3 août 2026 : les liens y sont relatifs au dossier. La version vivante de l'article, avec ses liens GitHub, reste dans `articles/` pour la publication en ligne. Toute édition ultérieure de l'article dans `articles/` doit être recopiée à la racine de ce dossier, les liens GitHub y étant réécrits en liens relatifs (`02_enquetes/…`, `10_protocole/…`), puis le ZIP régénéré, pour que le dossier reste cohérent.
+Cette copie est un instantané daté du 3 août 2026 : les liens y sont relatifs au dossier. La version vivante de l'article, avec ses liens GitHub, reste dans `articles/` pour la publication en ligne. Toute édition ultérieure de l'article dans `articles/` doit être recopiée à la racine de ce dossier, les liens GitHub y étant réécrits en liens relatifs (`02_enquetes/…`, `10_protocole/…`), puis le ZIP régénéré et son fichier `SHA256SUMS` mis à jour, pour que le dossier reste cohérent.
+
+**Identité de l'archive.** L'archive ZIP publiée est identifiée par un fichier `SHA256SUMS` placé à ses côtés, qui contient son empreinte SHA-256 exacte. Pour vérifier l'intégrité de l'archive reçue : `sha256sum -c SHA256SUMS`, à exécuter dans le dossier contenant l'archive. Toute régénération du ZIP impose de régénérer ce fichier.
 
 ---
 
@@ -265,14 +268,16 @@ L'historique Git du dossier, en deux volets : [HISTORIQUE_COMMITS.md](09_git/HIS
 
 **Ce que Git apporte en plus du dossier :** les états validés du travail, preuve de l'ordre réel (enquête → audit → correction → validation), et la possibilité de retrouver l'état exact du dossier à n'importe quelle date via `git show <hash>:<chemin>`. L'écart entre `2ff5a9a8` et `6458d32f` recouvre les itérations 4 à 9 de l'article, qui n'ont pas fait l'objet de commits séparés : les versions intermédiaires figurent dans `01_brouillons_audits/`.
 
-### <a id="d10"></a>10_protocole/ — le protocole Truth Engine
+### <a id="d10"></a>10_protocole/ — le protocole et les moteurs
 
-Deux fichiers copiés depuis `truth-engine-v2/`, ajoutés pour rendre autonomes les références de l'article sur la méthode :
+Quatre fichiers copiés depuis le dépôt, ajoutés pour rendre autonomes les références de l'article sur la méthode :
 
-- [KERNEL.md](10_protocole/KERNEL.md) : le protocole d'investigation (analyse textuelle, pelote des faits, registre des preuves, gates de validation).
-- [ARCHITECTURE.md](10_protocole/ARCHITECTURE.md) : les relations entre les modules et le passage des données d'une étape à l'autre.
+- [TRUTH_ENGINE_V2_KERNEL.md](10_protocole/TRUTH_ENGINE_V2_KERNEL.md) : le protocole d'investigation (analyse textuelle, pelote des faits, registre des preuves, gates de validation).
+- [TRUTH_ENGINE_V2_ARCHITECTURE.md](10_protocole/TRUTH_ENGINE_V2_ARCHITECTURE.md) : les relations entre les modules et le passage des données d'une étape à l'autre.
+- [SUBLIMATOR_ARCHITECTURE.md](10_protocole/SUBLIMATOR_ARCHITECTURE.md) : l'architecture du moteur de condensation (phases 1 à 3, prompts v36/v37/v38, checkpoints humains, validation).
+- [WRITER_ARCHITECTURE.md](10_protocole/WRITER_ARCHITECTURE.md) : l'architecture du moteur de rédaction (pipeline en 5 étapes, standard de prose en 9 principes, relecture de conformité, validation technique).
 
-Ces copies sont des instantanés de référence à la date de constitution du dossier (3 août 2026) ; les versions vivantes restent dans `truth-engine-v2/`.
+Ces copies sont des instantanés de référence à la date de constitution du dossier (3 août 2026) ; les versions vivantes restent dans `truth-engine-v2/` (KERNEL, architecture), `tools/engines/sublimator/` (architecture Sublimator) et `tools/engines/writer/` (architecture Writer).
 
 ---
 
@@ -302,6 +307,20 @@ Le vocabulaire de ce dossier, sans présupposé :
 - **Verbatim clé (Barrot, 29 mai 2026) :** « on peut mentir sans finir au goulag ».
 - **Verdict :** tyrannie procédurale, la frontière et le système financier comme instruments de silence.
 - **Limites assumées :** l'arrêté intégral n'est pas public ; le dossier de la DGSI n'est pas consultable ; le secret-défense s'impose au juge administratif comme aux journalistes.
+
+---
+
+## <a id="licence"></a>Licence et réutilisation
+
+Ce dossier est mis à disposition selon les termes de la licence **Creative Commons Attribution - Pas d'Utilisation Commerciale - Pas de Modification 4.0 International (CC BY-NC-ND 4.0)**. Le texte complet figure dans [LICENSE.md](LICENSE.md) à la racine du dossier.
+
+En résumé :
+
+- **Partage libre** : vous pouvez copier et redistribuer le dossier tel quel, à condition de créditer l'auteur (Christophe Giacomel, publiant sous le nom de Giak, Résistance Cognitive) et d'indiquer la licence.
+- **Pas d'usage commercial** : aucune exploitation commerciale sans accord préalable.
+- **Pas de modification** : pas de remix, de transformation ni d'adaptation distribués sans accord préalable.
+
+Les textes relèvent de cette licence, à l'exception des copies de protocole dans `10_protocole/` (`TRUTH_ENGINE_V2_KERNEL.md`, `TRUTH_ENGINE_V2_ARCHITECTURE.md`, `SUBLIMATOR_ARCHITECTURE.md`, `WRITER_ARCHITECTURE.md`), issues du dépôt et couvertes par la licence MIT de leur source. Le code et l'outillage du dépôt Truth Engine restent couverts par la licence MIT du dépôt, distincte de celle-ci.
 
 ---
 

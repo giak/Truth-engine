@@ -144,11 +144,9 @@ Il ne contient pas une recherche unique suivie d’un article. L’enquête avan
 
 Trois moteurs se partagent ces transformations.
 
-**Truth Engine enquête.** Il applique le KERNEL, ouvre les strates, recherche les sources, distingue les faits des hypothèses et produit les dossiers APEX : le nom donné au niveau d’enquête le plus exigeant du protocole. Dans le cas Fedorova, sa sortie est constituée des 35 enquêtes brutes.
+**Truth Engine enquête.** Il applique le KERNEL, ouvre les strates, recherche les sources, distingue les faits des hypothèses et produit les dossiers APEX : le nom donné au niveau d’enquête le plus exigeant du protocole. Dans le cas Fedorova, sa sortie est constituée des 35 enquêtes brutes.**[Sublimator condense](https://github.com/giak/Truth-engine/blob/main/tools/engines/sublimator/ARCHITECTURE.md).** Il extrait les faits atomiques, les acteurs, les causalités, les données, les limites et les sources ; il dédoublonne et remet chaque enquête dans un format commun. Sa sortie est constituée des 36 « quintessences » : une par strate, plus celle de la synthèse terminale.
 
-**Sublimator condense.** Il extrait les faits atomiques, les acteurs, les causalités, les données, les limites et les sources ; il dédoublonne et remet chaque enquête dans un format commun. Sa sortie est constituée des 36 « quintessences » : une par strate, plus celle de la synthèse terminale.
-
-**Writer transforme cette matière en publication.** Il rapproche les quintessences, produit le rapport de synthèse, construit un blueprint (le plan narratif détaillé), rédige les versions de l’article et les soumet à des audits antagonistes. C’est à ce stade que le dossier documentaire devient un texte lisible, et que le récit peut être rejeté s’il dépasse les preuves.
+**[Writer transforme cette matière en publication](https://github.com/giak/Truth-engine/blob/main/tools/engines/writer/ARCHITECTURE.md).** Il rapproche les quintessences, produit le rapport de synthèse, construit un blueprint (le plan narratif détaillé), rédige les versions de l’article et les soumet à des audits antagonistes. C’est à ce stade que le dossier documentaire devient un texte lisible, et que le récit peut être rejeté s’il dépasse les preuves.
 
 Ces moteurs ne sont pas trois auteurs artificiels autonomes qui se passeraient mécaniquement un dossier. Ce sont trois fonctions du système, exécutées par des LLM et pilotées par mes décisions, mes relances et mes corrections. Leur séparation permet de ne pas demander au même geste de rechercher, de compresser et de raconter.
 
@@ -378,6 +376,8 @@ Je sais seulement que ce système produit des cartes, qu’il se trompe, que ses
 
 - [KERNEL de Truth Engine v2](https://github.com/giak/Truth-engine/blob/main/truth-engine-v2/KERNEL.md)
 - [Architecture de Truth Engine v2](https://github.com/giak/Truth-engine/blob/main/truth-engine-v2/ARCHITECTURE.md)
+- [Architecture de Sublimator](https://github.com/giak/Truth-engine/blob/main/tools/engines/sublimator/ARCHITECTURE.md)
+- [Architecture de Writer](https://github.com/giak/Truth-engine/blob/main/tools/engines/writer/ARCHITECTURE.md)
 - [Enquête APEX sur Caroline Fourest, Xenia Fedorova et la mesure d’expulsion](https://github.com/giak/Truth-engine/blob/main/investigations/2026-07/2026-07-30_Caroline-Fourest-Xenia-Fedorova-OQTF/2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX_INVESTIGATION.md)
 - [La machine qui documente les machines](https://giak.substack.com/p/machine)
 - [À propos de Résistance Cognitive](https://giak.substack.com/about)

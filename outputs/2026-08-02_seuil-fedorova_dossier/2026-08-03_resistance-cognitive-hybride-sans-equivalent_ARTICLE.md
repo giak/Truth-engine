@@ -64,9 +64,7 @@ Cette distinction n’affaiblit pas l’expérience. Elle la rend compréhensibl
 
 Truth Engine n’est pas simplement une très longue consigne adressée à un modèle.
 
-J’y travaille depuis plus de deux ans, sans y être à temps plein. Le projet s’est construit par essais, erreurs, ajouts, suppressions et réorganisations. Ce temps n’a pas seulement servi à améliorer une consigne. Il a servi à développer un protocole et le cadre logiciel capable de l’exécuter.
-
-Au centre se trouve le [KERNEL de Truth Engine v2](10_protocole/KERNEL.md). Il orchestre une architecture distribuée dans une trentaine de fichiers : ontologie, schémas de manipulation, menaces cognitives, étapes d’analyse, recherche, mémoire, modules spécialisés, vérification et formats de sortie. Le document d’[architecture](10_protocole/ARCHITECTURE.md) décrit leurs relations et le passage des données d’une étape à l’autre.
+J’y travaille depuis plus de deux ans, sans y être à temps plein. Le projet s’est construit par essais, erreurs, ajouts, suppressions et réorganisations. Ce temps n’a pas seulement servi à améliorer une consigne. Il a servi à développer un protocole et le cadre logiciel capable de l’exécuter.Au centre se trouve le [KERNEL de Truth Engine v2](10_protocole/TRUTH_ENGINE_V2_KERNEL.md). Il orchestre une architecture distribuée dans une trentaine de fichiers : ontologie, schémas de manipulation, menaces cognitives, étapes d’analyse, recherche, mémoire, modules spécialisés, vérification et formats de sortie. Le document d’[architecture](10_protocole/TRUTH_ENGINE_V2_ARCHITECTURE.md) décrit leurs relations et le passage des données d’une étape à l’autre.
 
 Le système emploie un **métalangage cognitif**. Des symboles comme Ξ, Λ, Ω ou Φ ne servent pas à donner une apparence savante au texte final. Ils compressent des catégories, des opérations et des conditions de chargement : quel phénomène chercher, quel module activer, comment marquer l’état d’une preuve, quelle vérification doit bloquer la sortie.
 
@@ -144,11 +142,9 @@ Il ne contient pas une recherche unique suivie d’un article. L’enquête avan
 
 Trois moteurs se partagent ces transformations.
 
-**Truth Engine enquête.** Il applique le KERNEL, ouvre les strates, recherche les sources, distingue les faits des hypothèses et produit les dossiers APEX : le nom donné au niveau d’enquête le plus exigeant du protocole. Dans le cas Fedorova, sa sortie est constituée des 35 enquêtes brutes.
+**Truth Engine enquête.** Il applique le KERNEL, ouvre les strates, recherche les sources, distingue les faits des hypothèses et produit les dossiers APEX : le nom donné au niveau d’enquête le plus exigeant du protocole. Dans le cas Fedorova, sa sortie est constituée des 35 enquêtes brutes.**[Sublimator condense](10_protocole/SUBLIMATOR_ARCHITECTURE.md).** Il extrait les faits atomiques, les acteurs, les causalités, les données, les limites et les sources ; il dédoublonne et remet chaque enquête dans un format commun. Sa sortie est constituée des 36 « quintessences » : une par strate, plus celle de la synthèse terminale.
 
-**Sublimator condense.** Il extrait les faits atomiques, les acteurs, les causalités, les données, les limites et les sources ; il dédoublonne et remet chaque enquête dans un format commun. Sa sortie est constituée des 36 « quintessences » : une par strate, plus celle de la synthèse terminale.
-
-**Writer transforme cette matière en publication.** Il rapproche les quintessences, produit le rapport de synthèse, construit un blueprint (le plan narratif détaillé), rédige les versions de l’article et les soumet à des audits antagonistes. C’est à ce stade que le dossier documentaire devient un texte lisible, et que le récit peut être rejeté s’il dépasse les preuves.
+**[Writer transforme cette matière en publication](10_protocole/WRITER_ARCHITECTURE.md).** Il rapproche les quintessences, produit le rapport de synthèse, construit un blueprint (le plan narratif détaillé), rédige les versions de l’article et les soumet à des audits antagonistes. C’est à ce stade que le dossier documentaire devient un texte lisible, et que le récit peut être rejeté s’il dépasse les preuves.
 
 Ces moteurs ne sont pas trois auteurs artificiels autonomes qui se passeraient mécaniquement un dossier. Ce sont trois fonctions du système, exécutées par des LLM et pilotées par mes décisions, mes relances et mes corrections. Leur séparation permet de ne pas demander au même geste de rechercher, de compresser et de raconter.
 
@@ -376,8 +372,10 @@ Je sais seulement que ce système produit des cartes, qu’il se trompe, que ses
 
 **Truth Engine et Résistance Cognitive**
 
-- [KERNEL de Truth Engine v2](10_protocole/KERNEL.md)
-- [Architecture de Truth Engine v2](10_protocole/ARCHITECTURE.md)
+- [KERNEL de Truth Engine v2](10_protocole/TRUTH_ENGINE_V2_KERNEL.md)
+- [Architecture de Truth Engine v2](10_protocole/TRUTH_ENGINE_V2_ARCHITECTURE.md)
+- [Architecture de Sublimator](10_protocole/SUBLIMATOR_ARCHITECTURE.md)
+- [Architecture de Writer](10_protocole/WRITER_ARCHITECTURE.md)
 - [Enquête APEX sur Caroline Fourest, Xenia Fedorova et la mesure d’expulsion](02_enquetes/2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX_INVESTIGATION.md)
 - [La machine qui documente les machines](https://giak.substack.com/p/machine)
 - [À propos de Résistance Cognitive](https://giak.substack.com/about)
