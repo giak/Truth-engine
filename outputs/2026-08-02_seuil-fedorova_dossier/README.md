@@ -11,6 +11,7 @@ Ce dossier contient toute la matière qui a produit cet article : 35 investigati
 ## <a id="sommaire"></a>Sommaire
 
 - [L'affaire en dix lignes](#affaire)
+- [L'article sur la méthode, ajouté au dossier](#article-methode)
 - [Comment ouvrir les fichiers](#ouvrir)
 - [Comment lire ce dossier](#lire)
 - [Schémas de navigation](#schemas)
@@ -25,6 +26,7 @@ Ce dossier contient toute la matière qui a produit cet article : 35 investigati
   - [07_sources_antecedentes - les enquêtes antérieures citées](#d07)
   - [08_mnemolite - les données de la base de connaissances](#d08)
   - [09_git - la chronologie des commits](#d09)
+  - [10_protocole - le protocole Truth Engine](#d10)
 - [Petit lexique](#lexique)
 - [Fiche signalétique du dossier](#fiche)
 - [Note de méthode sur ce dossier](#methode)
@@ -42,6 +44,18 @@ Le README que vous lisez est le point d'entrée : les noms de fichiers en bleu s
 ## <a id="lire"></a>Comment lire ce dossier
 
 Vous avez entre les mains la totalité de la chaîne de production d'un article d'investigation, du fait brut au texte publié. Ce dossier suit l'ordre exact dans lequel le travail a été fait : **enquête d'abord, écriture ensuite**. Chaque dossier a un rôle précis, et les fichiers s'emboîtent du bas vers le haut : les sources antérieures nourrissent les enquêtes, les enquêtes nourrissent les quintessences, les quintessences nourrissent la synthèse et le blueprint, le blueprint produit l'article, les audits le corrigent. Deux dossiers viennent compléter l'archive : les données extraites de la base de connaissances Mnemolite (08) et l'historique Git des commits qui portent le dossier (09).
+
+---
+
+## <a id="article-methode"></a>L'article sur la méthode, ajouté au dossier
+
+Ce dossier contient désormais un second article, à la racine : [2026-08-03_resistance-cognitive-hybride-sans-equivalent_ARTICLE.md](2026-08-03_resistance-cognitive-hybride-sans-equivalent_ARTICLE.md).
+
+Intitulé **« Un hybride sans équivalent identifié : anatomie comparative de Résistance Cognitive »**, il n'enquête pas sur Fedorova : il documente la machine qui a produit ce dossier. Il prend l'affaire comme preuve (les 113 fichiers de l'investigation, l'enquête APEX sur le tweet de Fourest, les quintessences, les audits) et compare l'ensemble du dispositif aux publications françaises et internationales les plus proches (Le Monde diplomatique, Élucid, Mediapart, Les Jours, Disclose, Splann !, Bellingcat, The Markup, Cory Doctorow, Molly White). Sa thèse est précise : aucune de ces publications ne réunit les onze propriétés que Truth Engine combine, mais cette singularité ne prouve pas sa supériorité.
+
+Les liens internes de cet article pointent vers les fichiers de ce dossier : l'[enquête APEX sur le tweet de Fourest](02_enquetes/2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX_INVESTIGATION.md), le [KERNEL](10_protocole/KERNEL.md) et l'[architecture](10_protocole/ARCHITECTURE.md) du protocole. Le dossier `10_protocole/` a été créé pour rendre ces références autonomes : il contient les deux documents de référence de Truth Engine v2.
+
+Cette copie est un instantané daté du 3 août 2026 : les liens y sont relatifs au dossier. La version vivante de l'article, avec ses liens GitHub, reste dans `articles/` pour la publication en ligne. Toute édition ultérieure de l'article dans `articles/` doit être recopiée à la racine de ce dossier, les liens GitHub y étant réécrits en liens relatifs (`02_enquetes/…`, `10_protocole/…`), puis le ZIP régénéré, pour que le dossier reste cohérent.
 
 ---
 
@@ -250,6 +264,15 @@ L'historique Git du dossier, en deux volets : [HISTORIQUE_COMMITS.md](09_git/HIS
 | `3417673c` | 29 mai 2026 | L'archivage des sources Moreau (déplacement vers `archive/legacy-outputs/logs/`) |
 
 **Ce que Git apporte en plus du dossier :** les états validés du travail, preuve de l'ordre réel (enquête → audit → correction → validation), et la possibilité de retrouver l'état exact du dossier à n'importe quelle date via `git show <hash>:<chemin>`. L'écart entre `2ff5a9a8` et `6458d32f` recouvre les itérations 4 à 9 de l'article, qui n'ont pas fait l'objet de commits séparés : les versions intermédiaires figurent dans `01_brouillons_audits/`.
+
+### <a id="d10"></a>10_protocole/ — le protocole Truth Engine
+
+Deux fichiers copiés depuis `truth-engine-v2/`, ajoutés pour rendre autonomes les références de l'article sur la méthode :
+
+- [KERNEL.md](10_protocole/KERNEL.md) : le protocole d'investigation (analyse textuelle, pelote des faits, registre des preuves, gates de validation).
+- [ARCHITECTURE.md](10_protocole/ARCHITECTURE.md) : les relations entre les modules et le passage des données d'une étape à l'autre.
+
+Ces copies sont des instantanés de référence à la date de constitution du dossier (3 août 2026) ; les versions vivantes restent dans `truth-engine-v2/`.
 
 ---
 
