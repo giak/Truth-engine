@@ -1,9 +1,9 @@
 # Historique Git du dossier Fedorova
 
 **Dépôt :** truth-engine (local)
-**Période couverte :** 29 mai 2026 (normalisation des archives) → 2 août 2026 (version finale et publication)
+**Période couverte :** 29 mai 2026 (normalisation des archives) → 3 août 2026 (constitution finale du dossier)
 
-Ce dossier retrace la vie du dossier dans l'historique Git. Quatre commits portent directement le travail Fedorova, auxquels s'ajoute un commit d'archivage antérieur (les enquêtes Moreau de décembre 2025, sources du parallèle central de l'article).
+Ce dossier retrace la vie du dossier dans l'historique Git. Quatre commits de production portent directement le travail Fedorova (dans `articles/` et `investigations/`), auxquels s'ajoutent un commit d'archivage antérieur (les enquêtes Moreau de décembre 2025, sources du parallèle central de l'article) et les quatre commits qui ont constitué puis enrichi le répertoire du dossier lui-même (`849f4d6`, `2b00b4f`, `8a70bee`, `44961e3`, section 5 ci-dessous).
 
 ---
 
@@ -63,6 +63,20 @@ Le titre de ce commit couvre la page About, mais le commit contient aussi la val
 
 **Ce qu'il contient :** le déplacement des enquêtes Moreau de décembre 2025 (sanctions UE contre Xavier Moreau) vers `archive/legacy-outputs/logs/`. Ce ne sont pas des commits de travail, mais c'est le moment où les sources antérieures citées par l'article (le précédent Moreau) ont été archivées à leur emplacement actuel.
 
+
+### 5. `849f4d6`, `2b00b4f`, `8a70bee`, `44961e3` — LA CONSTITUTION DU RÉPERTOIRE DU DOSSIER
+
+Les quatre commits précédents portent la production de l’article dans `articles/` et `investigations/`. Le répertoire `outputs/2026-08-02_seuil-fedorova_dossier/` lui-même a été constitué ensuite, en quatre commits :
+
+| Commit | Date | Rôle |
+|--------|------|------|
+| `849f4d6` | 2 août 2026, 22h15 | La constitution du dossier : 103 fichiers (00-09), l’article final, les audits, la correction de numérotation S15/S18 |
+| `2b00b4f` | 2 août 2026, 23h01 | Le README navigable du dossier (sommaire, liens, lexique, 3 schémas) |
+| `8a70bee` | 3 août 2026, 11h31 | L’intégration de l’article sur la méthode (« Un hybride sans équivalent »), liens réécrits en relatifs |
+| `44961e3` | 3 août 2026, 14h45 | Les architectures Sublimator et Writer dans `10_protocole/` et le renommage précis des fichiers de protocole |
+
+Le message de `849f4d6` annonce « 103 fichiers » : c’est le compte à la constitution du dossier. Le dépôt Git en suit aujourd’hui 114, et le dossier complet en contient 120 : 114 fichiers suivis + 6 visuels (PNG/SVG) ignorés par le dépôt (règle `*.png`, `*.svg` du `.gitignore`) = 120. Le compte Git est passé de 113 à 114 le 3 août 2026, avec l’ajout du fichier de table des strates (`02_enquetes/2026-08-03_TABLE-STRATES-S1-S35.md`).
+
 ---
 
 ## Chronologie complète du dossier
@@ -76,6 +90,10 @@ Le titre de ce commit couvre la page About, mais le commit contient aussi la val
 | 2026-07-30 | `2ff5a9a8` | Audit critique 1 → corrections post-audit |
 | 2026-07-31 | (publication) | Article publié sur Substack (post #119) |
 | 2026-08-02 | `6458d32f` | Version finale (9) + audits 2 et 3 validant le texte + index #119 |
+| 2026-08-02 | `849f4d6` | Constitution du dossier (00-09, 103 fichiers) |
+| 2026-08-02 | `2b00b4f` | README navigable du dossier |
+| 2026-08-03 | `8a70bee` | Intégration de l’article sur la méthode |
+| 2026-08-03 | `44961e3` | Architectures Sublimator/Writer + renommage `10_protocole/` |
 
 ---
 

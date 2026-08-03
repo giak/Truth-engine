@@ -8,7 +8,7 @@ Le 31 juillet 2026, Résistance Cognitive publie une enquête d’environ 7 000 
 
 Le lecteur voit un article.
 
-Derrière cet article se trouvent **113 fichiers** : 35 enquêtes successives, 36 résumés structurés, des travaux antérieurs, des comptages, plusieurs plans, quatre brouillons et trois audits critiques.
+Derrière cet article se trouvent **120 fichiers**, dont 35 enquêtes successives, 36 résumés structurés, des travaux antérieurs, des comptages, plusieurs plans, quatre brouillons et trois audits critiques.
 
 Parmi eux, un fichier est particulièrement important. Il compte 448 lignes et part d’un tweet de Caroline Fourest. Il contient une synthèse, une analyse des procédés de manipulation, un test des biais possibles, une chronologie, une cartographie des acteurs, plusieurs lectures contradictoires, des chaînes causales, un état des preuves, des scénarios, des limites et des sources.
 
