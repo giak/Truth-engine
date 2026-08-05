@@ -64,7 +64,7 @@ La fragmentation souverainiste ne vient pas d'abord des personnalités. Elle vie
 
 **1er goulet : les 500 parrainages.** Le seuil des 500 signatures d'élus existe depuis 1976. Il favorise les réseaux installés : maires, conseillers, notables. Aucune figure des Gilets jaunes ne l'a jamais franchi. Ingrid Levavasseur, Jacline Mouraud, Éric Drouet, Maxime Nicolle : aucun parrainage collecté en nombre. François Asselineau, malgré sa notoriété, ne réunit pas les 500 signatures en 2022. Le goulet n'est pas idéologique : il est relationnel. Il récompense l'implantation et la continuité, pas l'impulsion ni la popularité.
 
-**2e goulet : le financement public conditionné.** La Commission nationale des comptes de campagne et des financements politiques (CNCCFP) distribue 65,4 millions d'euros par an d'aide publique aux partis. L'accès est conditionné à l'obtention préalable d'élus et de suffrages. Pas d'élus, pas d'argent. Pas d'argent, pas de campagne. Pas de campagne, pas d'élus. Le mécanisme est circulaire : la porte d'entrée exige ce que le système empêche d'obtenir. Jean Lassalle lance en 2022 une cagnotte citoyenne de 100 000 euros pour financer sa campagne, pendant que le fonds Périclès, dédié à la reconquête idéologique, reçoit 150 millions d'euros sur 10 ans. Les 2 échelles ne se rencontrent pas.
+**2e goulet : le financement public conditionné.** La Commission nationale des comptes de campagne et des financements politiques (CNCCFP) distribue 65,4 millions d'euros par an d'aide publique aux partis. L'accès est conditionné à l'obtention préalable d'élus et de suffrages. Pas d'élus, pas d'argent. Pas d'argent, pas de campagne. Pas de campagne, pas d'élus. Le mécanisme est circulaire : la porte d'entrée exige ce que le système empêche d'obtenir. Jean Lassalle lance en janvier 2021 une cagnotte citoyenne qui dépasse les 100 000 euros pour financer sa campagne de 2022, pendant que le fonds Périclès, dédié à la reconquête idéologique, reçoit 150 millions d'euros sur 10 ans. Les 2 échelles ne se rencontrent pas.
 
 **3e goulet : le temps de parole indexé sur l'existant.** Les données de l'ARCOM pour la présidentielle 2022 sont sans ambiguïté. Emmanuel Macron cumule 1 164 h 54 de temps de parole sur les chaînes d'information. Marine Le Pen : 968 h 40. Éric Zemmour : 450 h 07. François Asselineau : 4 h 24 sur 112 jours, soit environ 2 min 20 par jour. Le ratio entre Macron et Asselineau atteint 264 pour 1, le plus élevé de tous les candidats. Sur CNews, Asselineau totalise 31 minutes pour la période, un seul passage. Sur BFM TV : 35 minutes. Les 2 plus gros pourvoyeurs de temps pour Asselineau sont des radios, Sud Radio et Europe 1, 1 h 31 chacun. La radio reste structurellement plus accessible aux très petits candidats que la télévision.
 
@@ -92,7 +92,7 @@ Le cas Bolloré est le mieux étayé. Reporters sans frontières a analysé plus
 
 Le régulateur illustre la porte tournante. L'ARCOM est présidé depuis février 2025 par Martin Ajdari, ancien directeur général de France Télévisions. Le régulateur de l'audiovisuel est dirigé par un ancien patron du service public audiovisuel. La fusion entre régulateur et régulé n'est pas une inférence : c'est une succession de fonctions documentée.
 
-La confiance suit. La confiance dans les médias est tombée à 29 % en France, selon le Reuters Institute, au 41e rang mondial. 60 % des Français adhèrent à au moins une théorie du complot, selon une enquête de l'ARCOM. Les 2 chiffres se répondent : moins la presse est crue, plus la défiance produit son propre récit, plus la censure se justifie par la défiance. Le cercle est bouclé par la « lutte contre la désinformation ».
+La confiance suit. La confiance dans les médias est tombée à 29 % en France, selon le Reuters Institute, au 41e rang mondial. 60 % des Français adhèrent à au moins une théorie du complot, selon l'enquête de l'ARCOM de mars 2024. Les 2 chiffres se répondent : moins la presse est crue, plus la défiance produit son propre récit, plus la censure se justifie par la défiance. Le cercle est bouclé par la « lutte contre la désinformation ».
 
 **9 milliardaires possèdent 80 % des médias. Pas 1. 9.**
 
@@ -179,7 +179,7 @@ Le corollaire est brutal. Si la fragmentation est rentable pour les chefs de fil
 
 Le contraste est complet entre l'ingénierie décrite et la réalité observée. Les figures du champ continuent de produire du contenu, des collectes, des procédures et des micro-partis. Personne n'a produit de contrat de gouvernance. Personne n'a publié de tronc financier mutualisé. Personne n'a signé de charte de message. Les 12 conditions sont connues, écrites, chiffrables. Aucune n'est réunie. Ce n'est pas un manque d'intelligence. C'est un manque d'architecture, et l'architecture suppose un intérêt collectif à l'échec du solo. Cet intérêt n'existe pas.
 
-La demande, elle, demeure. 83 % des Français favorables au RIC. 65 à 83 % selon les instituts et les années, stables depuis 2017. 6 territoires pratiquent des formes de démocratie directe sans sombrer dans la tyrannie de la majorité : la Suisse organise des initiatives populaires depuis 1891, l'Italie 72 référendums abrogatifs depuis 1970, la Bavière 6 référendums en 80 ans, Taïwan 21 référendums depuis 2004 avec un seuil de 1,5 % des électeurs, l'Uruguay et l'Estonie complètent le tableau. Aucun n'a produit le chaos prédit par les 80 % de constitutionnalistes français hostiles au RIC, dont le porte-voix Jean-Éric Schoettl a publié en 2023 que la démocratie directe est « un mythe dangereux ». La France reste le seul de ces territoires à n'avoir jamais permis à ses citoyens de poser une question à leur propre État.
+La demande, elle, demeure. 83 % des Français favorables au RIC. 65 à 83 % selon les instituts et les années, stables depuis 2017. 6 territoires pratiquent des formes de démocratie directe sans sombrer dans la tyrannie de la majorité : la Suisse organise des initiatives populaires depuis 1891, l'Italie 72 référendums abrogatifs depuis 1970, la Bavière 6 référendums en 80 ans, Taïwan 21 référendums depuis 2004 avec un seuil de 1,5 % des électeurs, l'Uruguay et l'Estonie complètent le tableau. Aucun n'a produit le chaos prédit par les 80 % de constitutionnalistes français hostiles au RIC, dont le porte-voix Jean-Éric Schoettl jugeait en 2023 les formes de démocratie directe « illusoires ou dangereuses ». La France reste le seul de ces territoires à n'avoir jamais permis à ses citoyens de poser une question à leur propre État.
 
 Le 4 février 2026, la proposition de loi de Marie Pochon instaurant un RIC « délibératif » a été adoptée en commission des lois. Elle a été bloquée. La seule initiative parlementaire récente portant le RIC a été vidée de son caractère contraignant par sa définition même : délibératif, non décisionnel, encadré. Une pétition citoyenne à l'Assemblée nationale, lancée en janvier 2026, vise 700 000 soutiens en 18 mois. Aucune pétition de la législature n'a atteint ce seuil. Le verrou n'est pas seulement institutionnel, 5 strates empilées depuis 1789. Il est dans l'écart entre le souhait et l'action : 83 % d'approbation, moins de 5 % de priorité, un facteur de l'ordre de 12 selon les enquêtes.
 
@@ -193,27 +193,68 @@ Si 83 % des Français veulent le RIC, si 6 pays le pratiquent sans sombrer, si 2
 
 ## Sources
 
+Les URLs ont été vérifiées le 5 août 2026, sauf mention contraire. Les sources marquées « accès restreint » sont derrière un paywall ou un blocage anti-robot, mais leurs titres et dates sont confirmés par les résultats de recherche.
+
 **Données électorales et institutionnelles**
 
-- ARCOM, temps de parole des candidats à l'élection présidentielle 2022, dataset data.gouv.fr (4 périodes : équité, égalité stricte, second tour). Ratios et totaux issus de l'exploitation publique des données. https://www.data.gouv.fr/datasets/temps-de-parole-des-candidats-election-presidentielle-2022
-- IFOP, enquête d'avril 2017 commanditée par RIC-France : 83 % des Français favorables au référendum d'initiative citoyenne. L'étude originale n'est plus accessible en ligne ; le chiffre est repris par les publications RIC-France et par la presse de 2017.
-- IFOP, Elabe, OpinionWay, CEVIPOF : fourchettes 65-83 % d'approbation du RIC, moins de 5 % de priorité électorale.
-- Ministère de l'Intérieur : résultats des élections européennes 2024 et présidentielle 2017.
-- Assemblée nationale : proposition de loi n° 2081 (RIC délibératif, adoptée en commission le 4 février 2026). https://www.assemblee-nationale.fr/dyn/17/textes/l17b2081_proposition-loi ; pétition n° i-3138. https://petitions.assemblee-nationale.fr/initiatives/i-3138
-- Élections européennes de 1999 en France : liste Pasqua-de Villiers 13,06 %, 13 sièges. https://www.france-politique.fr/elections-europeennes-1999.htm
-- Élection présidentielle 2002 : Chevènement 5,33 % au premier tour, bilan officiel du Conseil constitutionnel. https://www.conseil-constitutionnel.fr/election-presidentielle-2002/bilan-du-premier-tour-de-l-election-presidentielle-de-2002
-- Référendum du 29 mai 2005 sur le traité constitutionnel européen : NON à 54,67 %. https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_fran%C3%A7ais_sur_le_trait%C3%A9_%C3%A9tablissant_une_Constitution_pour_l%27Europe
+- ARCOM, temps de parole des candidats à l'élection présidentielle 2022, dataset public sur data.gouv.fr (4 périodes : équité, égalité stricte, second tour). Les ratios et totaux cités (1 164 h 54 pour Emmanuel Macron, 4 h 24 pour François Asselineau, ratio 264 pour 1, égalité stricte 34 h 47 à 40 h 29) sont issus de l'exploitation directe de ce jeu de données. https://www.data.gouv.fr/datasets/temps-de-parole-des-candidats-election-presidentielle-2022
+- CNCCFP, rapport d'activité 2024 : aide publique aux partis, 65,4 millions d'euros par an, et comptes des formations politiques. https://cnccfp.fr/wp-content/uploads/2025/07/cnccfp-rapport_activite_2024-DP.pdf
+- CNCCFP, comptes de campagne de la présidentielle 2022 publiés au Journal officiel. https://cnccfp.fr/election-presidentielle-des-10-et-24-avril-2022-publication-au-journal-officiel-des-decisions-de-la-commission/
+- Assemblée nationale, proposition de loi n° 2081 de Marie Pochon (RIC délibératif, adoptée en commission des lois le 4 février 2026). https://www.assemblee-nationale.fr/17/propositions/pion2081.asp
+- Assemblée nationale, pétition n° i-3138 (700 000 soutiens visés en 18 mois). https://petitions.assemblee-nationale.fr/initiatives/i-3138
+- Vie-publique, « Le référendum d'initiative partagée (RIP) » : règles du 1/5 des parlementaires et 4,7 millions d'électeurs. https://www.vie-publique.fr/fiches/19584-le-referendum-dinitiative-partagee-rip
+- Vie-publique, « RIP : le Conseil constitutionnel rejette une nouvelle procédure ». https://www.vie-publique.fr/en-bref/275311-rip-le-conseil-constitutionnel-rejette-une-nouvelle-procedure
+- TF1 Info, « Réforme des retraites : le Conseil constitutionnel rejette la 2e demande de RIP ». https://www.tf1info.fr/politique/reforme-des-retraites-le-conseil-constitutionnel-rejette-la-deuxieme-demande-de-rip-2255984.html
+- JDD, « Présidentielle 2027 : la liste des 40 candidats déclarés ou pressentis », juin 2026. https://www.lejdd.fr/politique/presidentielle-2027-la-liste-des-40-candidats-declares-ou-pressentis-177960
+- Le Monde, Les Décodeurs, « Présidentielle 2027 : qui sont les 34 candidats déclarés et probables », 2 juillet 2026 (accès restreint). https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html
+- La Dépêche, « Présidentielle 2027 : la course aux 500 signatures », 6 mai 2026. https://www.ladepeche.fr/2026/05/06/presidentielle-2027-la-course-aux-500-signatures-deja-au-coeur-des-strategies-quelles-sont-les-regles-de-cette-etape-decisive-pour-les-candidats-13354759.php
+- BFM TV, « La cagnotte de Jean Lassalle pour la présidentielle dépasse les 100 000 euros », 12 janvier 2021. https://www.bfmtv.com/politique/la-cagnotte-de-jean-lassalle-pour-la-presidentielle-depasse-les-100-000-euros_AN-202101120014.html
+- France-politique, résultats des élections européennes de 1999 : liste Pasqua-de Villiers 13,06 %, 13 sièges, 2,3 millions de voix. https://www.france-politique.fr/elections-europeennes-1999.htm
+- Conseil constitutionnel, bilan officiel du premier tour de l'élection présidentielle de 2002 : Jean-Pierre Chevènement 5,33 %. https://www.conseil-constitutionnel.fr/election-presidentielle-2002/bilan-du-premier-tour-de-l-election-presidentielle-de-2002
+- Wikipédia, référendum du 29 mai 2005 sur le traité établissant une Constitution pour l'Europe : NON à 54,67 %. https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_fran%C3%A7ais_sur_le_trait%C3%A9_%C3%A9tablissant_une_Constitution_pour_l%27Europe
+- Ministère de l'Intérieur : résultats des élections européennes de 2024 (UPR 1,02 %, Les Patriotes 0,93 %, République souveraine 0,06 %, liste Lalanne 0,02 %) et de la présidentielle de 2017 (Asselineau 0,92 %). https://www.resultats-elections.interieur.gouv.fr
+- Vie-publique, référendum du 20 septembre 1992 sur le traité de Maastricht : 51,04 % de OUI. https://www.vie-publique.fr/fiches/19523-le-referendum-du-20-septembre-1992-sur-le-traite-de-maastricht
 
 **Rapports et études**
 
-- Reporters sans frontières, « Pluralisme en France : sur CNews, le grand contournement » (analyse de plus de 700 000 bandeaux), novembre 2025. https://rsf.org/fr/pluralisme-en-france-sur-cnews-le-grand-contournement
+- Reporters sans frontières, « Pluralisme en France : sur CNews, le grand contournement », analyse de plus de 700 000 bandeaux de mars 2025, enquête publiée en novembre 2025. https://rsf.org/fr/pluralisme-en-france-sur-cnews-le-grand-contournement
+- ARCOM, communiqué « Pluralisme des courants de pensée et d'opinion : mise en demeure de CNews » (déséquilibre manifeste et durable). https://www.arcom.fr/presse/pluralisme-des-courants-de-pensee-et-dopinion-mise-en-demeure-de-cnews
+- Mediapart, « L'Arcom inflige une sanction de 200 000 euros à CNews pour deux séquences en 2025 ». https://www.mediapart.fr/journal/culture-et-idees/300726/l-arcom-inflige-une-sanction-de-200-000-euros-cnews-pour-deux-sequences-en-2025
 - Reuters Institute, Digital News Report 2025 : confiance dans les médias, 29 % en France, 41e rang mondial. https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/france
-- Cour des comptes : pantouflages des hauts fonctionnaires issus de l'ENA vers le secteur privé.
-- Intelligence Online, juillet 2025 : collaboration d'un micro-influenceur, Louis Duclos, avec la cellule d'influence du Quai d'Orsay.
-- CNIL : alertes sur l'extension du périmètre de Viginum et la collecte de données sensibles.
-- ARCOM, enquête 2024 : 60 % des Français adhèrent à au moins une théorie du complot.
+- ARCOM, enquête « Les Français et l'information » (mars 2024) : 60 % des Français adhèrent à au moins une théorie du complot. Synthèse et données sur data.gouv.fr. https://www.data.gouv.fr/fr/datasets/les-francais-et-linformation-barometre
+- ARCOM, « Les Français et les fausses informations » (enquête de mars 2026, chiffres distincts : 22 % de perméabilité à 4 fausses informations sur 7). https://www.arcom.fr/se-documenter/etudes-et-donnees/etudes-bilans-et-rapports-de-larcom/les-francais-et-les-fausses-informations
+- Cour des comptes, rapport d'avril 2021 sur le retour à l'emploi des anciens élèves de l'ENA : 230 départs vers le secteur privé documentés en 10 ans. Le document PDF (41 Mo) est accessible depuis la page de téléchargement. https://www.ccomptes.fr/fr/documents/53469
+- CEVIPOF (Sciences Po), « Baromètre de la confiance politique 2025 : le grand désarroi démocratique ». https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-du-cevipof-2025-le-grand-desarroi-democratique/
+- Sénat, rapport de la commission d'enquête sur le Fonds Marianne (r22-829-2) : subventions aux associations, dont Conspiracy Watch (60 000 euros). https://www.senat.fr/rap/r22-829-2/r22-829-21.pdf
+- Public Sénat, « Fonds Marianne : trois associations détaillent le bon usage de leurs subventions ». https://www.publicsenat.fr/actualites/politique/fonds-marianne-trois-associations-detaillent-le-bon-usage-de-leurs-subventions
+- Rechecking Media, « Le business très lucratif de Conspiracy Watch » : budget d'environ 230 000 euros, près de la moitié financée par l'État. https://www.recheckingmedia.org/le-business-tres-lucratif-de-conspiracy-watch/
+- Le Figaro, « Pour lutter contre les ingérences étrangères, Viginum pourra désormais collecter les données personnelles des petites plateformes », 11 février 2026. https://www.lefigaro.fr/secteur/high-tech/pour-lutter-contre-les-ingerences-etrangeres-viginum-pourra-desormais-collecter-les-donnees-personnelles-des-petites-plateformes-20260211
+- Next INpact, « La CNIL explique comment Viginum triera les données extraites des réseaux sociaux ». https://next.ink/4767/la-cnil-explique-comment-viginum-triera-donnees-extraites-reseaux-sociaux/
 
-**Publications de référence**
+**Presse et enquêtes**
+
+- Mediapart, « Le plan Périclès : des millions pour l'extrême droite et une victoire du RN » (dotation de 150 millions d'euros sur 10 ans), 19 juillet 2024. https://www.mediapart.fr/journal/france/190724/le-plan-pericles-des-millions-pour-l-extreme-droite-et-une-victoire-du-rn
+- L'Humanité, « Projet Périclès : le document qui dit tout du plan de Pierre-Édouard Stérin pour installer le RN au pouvoir », 18-19 juillet 2024. https://www.humanite.fr/politique/bien-commun/projet-pericles-le-document-qui-dit-tout-du-plan-de-pierre-edouard-sterin-pour-installer-le-rn-au-pouvoir
+- France Info, « Plan Périclès : ce que l'on sait du projet du milliardaire Pierre-Édouard Stérin ». https://www.franceinfo.fr/politique/front-national/plan-pericles-ce-que-l-on-sait-du-projet-du-milliardaire-catholique-pierre-edouard-sterin-pour-promouvoir-des-valeurs-conservatrices-et-faire-gagner-la-droite-aux-elections_6677268.html
+- L'Humanité, « Groupe Lagardère : Bernard Arnault cède ses parts à Vincent Bolloré, seul maître à bord avec 75 % du capital ». https://www.humanite.fr/medias/arnaud-lagardere/groupe-lagardere-bernard-arnault-cede-ses-parts-a-vincent-bollore-seul-maitre-a-bord-avec-75-du-capital
+- MediaCités, « La crise politique que nous vivons prouve la réussite du combat civilisationnel mené par Vincent Bolloré », 18 juin 2024. https://www.mediacites.fr/paroles-dexperts/national/2024/06/18/la-crise-politique-que-nous-vivons-prouve-la-reussite-du-combat-civilisationnel-mene-par-vincent-bollore/
+- Le Nouvel Obs, « Ils vont plus loin que le groupe Bolloré : le média satellite qui déborde CNews par l'extrême droite », 18 juin 2026. https://www.nouvelobs.com/medias/20260618.OBS115900/ils-vont-plus-loin-que-le-groupe-bollore-frontieres-le-media-satellite-qui-deborde-cnews-par-lextreme-droite.html
+- Acrimed, « La convergence médiatique des droites ». https://www.acrimed.org/La-convergence-mediatique-des-droites
+- Mediapart, « Les notes internes qui mettent à nu le système Soral » (redressement fiscal, liquidation). https://www.mediapart.fr/journal/france/310815/les-notes-internes-qui-mettent-nu-le-systeme-soral
+- Putsch Media, « TV Libertés annonce la fermeture brutale de ses comptes bancaires », 2 juin 2025. https://putsch.media/20250602/actualites/societe/video-tv-libertes-annonce-la-fermeture-brutale-de-ses-comptes-bancaires/
+- Le Monde, Pixels, « TV Libertés, la nouvelle chaîne de la fachosphère sur les réseaux sociaux », 16 janvier 2023 (accès restreint). https://www.lemonde.fr/pixels/article/2023/01/16/tv-libertes-la-nouvelle-chaine-de-la-fachosphere-sur-les-reseaux-sociaux_6158100_4408996.html
+- L'Express, « Complotisme : ces six théories de plus en plus populaires chez les Français » (reprise de l'enquête ARCOM 2024). https://www.lexpress.fr/economie/medias/complotisme-ces-six-theories-de-plus-en-plus-populaires-chez-les-francais-OC2IFLZDYVHI5PUQN77DCIQHB4/
+- FranceSoir, « Les Français exigent d'être entendus : un sondage choc commandé par le sénateur ». https://www.francesoir.fr/politique-france/les-francais-exigent-d-etre-entendus-un-sondage-choc-commande-par-le-senateur
+- Valeurs actuelles, « Commission d'enquête sur l'audiovisuel public : le patron de l'Arcom interrogé sur le temps de parole imposé à Philippe de Villiers ». https://www.valeursactuelles.com/societe/commission-denquete-sur-laudiovisuel-public-le-patron-de-larcom-interroge-sur-le-temps-de-parole-impose-a-philippe-de-villiers
+
+**Déclarations et nominations**
+
+- Delphine Ernotte, présidente de France Télévisions, audition du 5 juillet 2023 (commission des finances de l'Assemblée nationale) : « On ne représente pas la France telle qu'elle est mais telle qu'on voudrait qu'elle soit » (propos tenus à propos de la représentation des femmes expertes à l'antenne). https://www.lefigaro.fr/vox/medias/representer-la-france-telle-qu-on-voudrait-qu-elle-soit-ce-que-revele-l-aveu-de-la-presidente-de-france-tv-20230711
+- HuffPost (avec l'AFP), « Martin Ajdari président de l'Arcom ? Emmanuel Macron a fait son choix pour succéder à Roch-Olivier Maistre » (nomination effective au 2 février 2025). https://www.huffingtonpost.fr/medias/article/martin-ajdari-president-de-l-arcom-emmanuel-macron-a-fait-son-choix-pour-succeder-a-roch-olivier-maistre_242884.html
+- Jean-Éric Schoettl, ancien secrétaire général du Conseil constitutionnel, « Extension des procédures référendaires : attention danger », Le Club des Juristes, 9 novembre 2023 : les formes de démocratie directe sont « illusoires ou dangereuses » lorsqu'elles se présentent comme des alternatives à la démocratie représentative. https://www.leclubdesjuristes.com/opinion/extension-des-procedures-referendaires-attention-danger-1501/
+- Jean-Éric Schoettl, « Les pièges du référendum façon QCM voulu par Emmanuel Macron », Le Figaro, 12 mai 2025. https://www.lefigaro.fr/vox/societe/jean-eric-schoettl-les-pieges-du-referendum-facon-qcm-voulu-par-emmanuel-macron-20250512
+
+**Publications de référence (auteur)**
 
 - [Le verrou invisible : anatomie du RIC français, 237 ans d'absence documentée](https://giak.substack.com/p/le-verrou-invisible-anatomie-du-ric)
 - [Le peuple n'existe que sur convocation](https://giak.substack.com/p/le-peuple-nexiste-que-sur-convocation)
@@ -222,7 +263,9 @@ Si 83 % des Français veulent le RIC, si 6 pays le pratiquent sans sombrer, si 2
 - [Médias, censure et désinformation : l'architecture du silence](https://giak.substack.com/p/medias-censure-et-desinformation)
 - [Le peuple est le seul souverain : le système de désorganisation](https://giak.substack.com/p/le-peuple-est-le-seul-souverain-le)
 
-**Déclarations**
+**Sources indirectes**
 
-- Delphine Ernotte, présidente de France Télévisions, 5 juillet 2023 : « On ne représente pas la France telle qu'elle est mais telle qu'on voudrait qu'elle soit » (déclaration faite à propos de la représentation des femmes expertes à l'antenne).
-- Jean-Éric Schoettl, ancien secrétaire général du Conseil constitutionnel, 2023 : « La démocratie directe est un mythe dangereux. »
+- IFOP, enquête d'avril 2017 commanditée par RIC-France : 83 % des Français favorables au référendum d'initiative citoyenne. L'étude originale n'est plus accessible en ligne ; le chiffre est repris par les publications RIC-France et la presse de 2017.
+- IFOP, Elabe, OpinionWay, CEVIPOF : fourchettes 65-83 % d'approbation du RIC, moins de 5 % de priorité électorale. L'écart de 12 fois entre approbation et priorité est une mesure d'écart issue de paires d'enquêtes, pas un quotient arithmétique.
+- Intelligence Online, juillet 2025 : collaboration d'un micro-influenceur, Louis Duclos (alias ObsDelphi), avec la cellule d'influence du Quai d'Orsay (accès restreint, publication réservée aux abonnés). https://www.intelligenceonline.fr
+- Délibération CNIL n° 2025-108 du 6 novembre 2025 portant avis sur le projet de décret relatif à Viginum (accès restreint par blocage anti-robot). https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053459708
