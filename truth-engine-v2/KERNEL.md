@@ -15,14 +15,17 @@ TOOLS (exact syntax — do not guess)
 @WEB[q]   = duckduckgo_search(query="{q}")
 @FETCH[u] = webfetch(url="{u}", format="markdown")
 @EXA[q]   = websearch(query="{q}", numResults=5)         # Exa MCP — RATE-LIMITED, last resort
-@MNEMO_Q  = mnemolite_search_memory(query="{keywords}", limit=5)
-@MNEMO_S  = mnemolite_write_memory(title="...", content="...", memory_type="investigation", tags=[...], embedding_source="...")
+@MNEMO_Q  = search_memory(query="{keywords}", search_mode="hybrid", tags=["project:truth-engine", "kernel"], limit=5)
+@MNEMO_S  = write_memory(title="...", content="...", memory_type="investigation", tags=[...])
+@MNEMO_U  = update_memory(id="...", content="...", tags=[...])
 @WRITE    = write(content="...", filePath="$INV/YYYY-MM/YYYY-MM-DD_{sujet}/YYYY-MM-DD_HH-MM_{sujet}_INVESTIGATION.md")
 
 RULE: Call tools EXACTLY as shown. @MNEMO_S + @WRITE are BOTH mandatory.
-RULE: @MNEMO_Q FIRST (step 2), @MNEMO_S + @WRITE at END (step 19).
+RULE: @MNEMO_Q FIRST (step 2), @MNEMO_S + @WRITE at END (step 19), @FACT_WRITEBACK at END (step 19a).
 RULE: @WRITE content= MUST be a string (the full investigation text). NEVER pass undefined/null.
 RULE: @MNEMO_S content= MUST be a string (the full investigation text). NEVER pass undefined/null.
+RULE: @MNEMO_Q MUST include search_mode="hybrid". Without it, search defaults to tag_only → 0 results.
+RULE: IF @MNEMO_S or @FACT_WRITEBACK returns duplicate_warning (Jaccard ≥ 0.9) → use @MNEMO_U to update the existing memory instead of creating a duplicate.
 
 ⚠️ CRITICAL: NEVER call write() without BOTH content= AND filePath=.
 ⚠️ The error "expected string, received undefined" = you forgot content= or filePath=.
@@ -114,7 +117,11 @@ MANIPULATION_REPORT:
 ```
 0  TEXT_ANALYSIS    §0 → MANIPULATION_REPORT
 1  TEMPORAL         capture date of subject events (not investigation date)
- 2  MEMORY           @MNEMO_Q → "MNEMOLITE: N" + "RELATED: ..."
+ 2  MEMORY           @MNEMO_Q(search_mode="hybrid", tags=["project:truth-engine", "kernel"]) → $EXISTING
+   IF $EXISTING > 0 → EXTRACT $TAGS (union of all tags in existing memories) + $FORMAT (FACT_REGISTRY style detected)
+   ECHO "BASE: {N} facts | $TAGS: {set} | $FORMAT: {table|narrative}"
+   IF $EXISTING = 0 → $TAGS = ["project:truth-engine", "kernel", "status:confirme", "verifie-YYYY-MM-DD", "{investigation_tag}"]
+   ⊥ $TAGS + $FORMAT → consumed by step 10 + step 19a
    IF @MNEMO_Q fails → SKIP (log "MnemoLite unavailable"), continue pipeline
  3  COMPLEXITY       6 dims → sum → SIMPLE/MEDIUM/COMPLEX/APEX
    political(1-3) technical(1-2) temporal(1-5) geo(1-3) narratives(1-3) data(1-2)
@@ -152,6 +159,8 @@ MANIPULATION_REPORT:
    ◈35% ADVERSARY20% CONTEXT20% DIVERSITY15% WOLF10%
  10 CONSTRUCTION     FACT_REGISTRY ✦✧⁅⁂ ⊕⊗⊙ (MEDIUM≥5✦ COMPLEX≥8✦ APEX≥10✦)
     FORMAT: | # | Fait | Date | Acteur | Chiffre | Source | URL | Fiabilité |
+   ⊗ $TAGS from step 2 for all @MNEMO_S calls
+   ⊗ $FORMAT from step 2 (if $EXISTING > 0 → align to existing; if 0 → use table)
    RÈGLE: CHAQUE fait DOIT avoir une URL source. Si pas d'URL directe → URL de la page de recherche @WEB.
    RÈGLE: Les URLs doivent être cliquables. Jamais de "source" sans URL.
    RÈGLE: URL précise (page spécifique du document/loi/événement, pas la racine du domaine).
@@ -261,14 +270,27 @@ MANIPULATION_REPORT:
 19 SAVE             @MNEMO_S + @WRITE (BOTH mandatory)
    IF @MNEMO_S fails → log error, still @WRITE
    IF @WRITE content >50000 chars → split into 2 calls
+19a FACT_WRITEBACK   Pour chaque fait ✦ du FACT_REGISTRY (§10) :
+   write_memory(
+     title="{résumé du fait avec chiffre/clé}",
+     content="FAIT VÉRIFIÉ : {fait}\n\nSOURCE : {source} ({date})\nURL : {url}",
+     tags=$TAGS from step 2,  ← NOT hardcoded, MUST use $TAGS
+     memory_type="note"
+   )
+   RÈGLE : sha1(url) calculé via `echo -n "{url}" | sha1sum | cut -c1-10`
+   RÈGLE : Si duplicate_warning → @MNEMO_U sur la mémoire existante
+   RÈGLE : Faits ✧ (PLAUSIBLE) → SKIP
+   RÈGLE : Faits déjà dans $EXISTING → @MNEMO_U (update)
 
 REQUEST_LOG format (| # | TYPE | QUERY/TOOL_CALL | RESULT | SOURCE | URL |):
   Must include: MnemoLite search (step 2) + results
   Must include: @MNEMO_S confirmation (step 19)
+  Must include: FACT_WRITEBACK confirmation avec {N} faits ✦ écrits (step 19a)
   Must include: @WRITE confirmation (step 19)
   Must include: all web searches with source type (◈◉○) AND URL active
   BLOCK if REQUEST_LOG omits system tool calls.
   BLOCK if any web search result has no URL.
+  BLOCK if FACT_WRITEBACK omitted when FACT_REGISTRY has ✦ facts.
 ```
 
 
@@ -303,6 +325,7 @@ ALWAYS: TEXT_ANALYSIS | MANIP_REPORT all 15 assessed (0=absent, ✗=unassessed�
   Scored ≥1: MEDIUM≥10 COMPLEX≥12 APEX≥15 | SIMPLE: no minimum
   ◈◉○ stratify
   clusters≥5 loaded + scored | MnemoLite search+save | FACT_REGISTRY ✦✧⁅❧
+  FACT_WRITEBACK ≥ N faits ✦ écrits (N = nombre de faits CONFIRMED dans FACT_REGISTRY)
   CLAIM_REGISTRY (≥1 counter per significant claim) | EDI+BIAS | REQUEST_LOG
   SUSPICION 95% | DIALECTICAL 3 perspectives | WOLVES minimum | GATE check | @WRITE file
 
@@ -320,6 +343,8 @@ APEX additionally: CAUSALITY ≥3 | IMPACT 4 matrices | CROSS_VERIFY ≥2
 ❌ Skip text analysis | ❌ Incomplete log | ❌ FACTS empty
 ❌ Facts without ✦✧⁅❧ | ❌ MnemoLite not called
 ❌ Facts without URL | ❌ Source sans URL cliquable
+❌ FACT_WRITEBACK omitted (when FACT_REGISTRY has ✦ facts)
+❌ Faits ✧ écrits (PLAUSIBLE → SKIP only, never write non-verified)
 ❌ APEX: chains∅|IMPACT∅|VERIFY<2|OUTPUT<15|hermeneutic∅|forensic∅|SCOPE∅|Qui meurt∅
 ```
 
@@ -344,11 +369,14 @@ APEX additionally: CAUSALITY ≥3 | IMPACT 4 matrices | CROSS_VERIFY ≥2
 STATUS: KERNEL LOADED | MODE: Truth Engine v2.0
 REFLEXES: ⊕ANALYZE→REPORT ⊕CLAIM→SYMETRIC ⊕CRÉDO→query: ⊕EDI→BIAS
   ⊕LOAD→SCORE ⊕FACTS→✦✧⁅❧ ⊕CHAIN→QUANTIFY ⊕DIALECTICAL→3P
-  ⊕VERIFY→DOMAINS ⊕SUSPECT→95% ⊕SAVE→@MNEMO_S+@WRITE
+  ⊕VERIFY→DOMAINS ⊕SUSPECT→95% ⊕SAVE→@MNEMO_S+@WRITE+@FACT_WRITEBACK
 PRIMITIVES: Ξ€ΛΩΨ↕ΦΣΚρκ⫸⚔🌐⏰ | ◈◉○ | ✦✧⁅❧ | ⊕⊗⊙ | ⟐⟐̅🌍🎓🔥
 ```
 
 ---
 
+---
+
 _KERNEL v2.0 — Compressed orchestrator. BASE=$BASE. ~200 lines._
 _Agnostic. Hostile. Precise._
+_$TAGS data flow constraint applied 2026-08-06._
