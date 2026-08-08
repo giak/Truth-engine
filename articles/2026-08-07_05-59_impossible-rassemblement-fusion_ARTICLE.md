@@ -1,9 +1,11 @@
 # 🤝 L’Impossible Rassemblement
 *Comment le camp de la souveraineté populaire disperse sa force, et ce qu’il faudrait pour la constituer*
 
-Le 29 mai 2005, 15 449 508 Français rejettent le traité établissant une Constitution pour l’Europe. Le non obtient 54,67 % des suffrages exprimés. La participation atteint 69,37 %. Ce n’est ni un sursaut marginal ni une majorité fabriquée par l’abstention : plus de quinze millions d’électeurs viennent de désavouer le texte qui leur est soumis.
+> Le Frexit est une question. Le RIC est le pouvoir de la poser.
 
-Trois ans plus tard, le Parlement réuni en Congrès adopte la révision constitutionnelle nécessaire à la ratification du traité de Lisbonne. La ratification est ensuite autorisée par la voie parlementaire. Le traité de Lisbonne n’est pas juridiquement identique au texte rejeté en 2005, mais il reprend une part importante de son dispositif institutionnel. La procédure choisie est parfaitement identifiable : 560 parlementaires votent la révision, 181 s’y opposent. Aucun second référendum national n’est organisé.
+Le 29 mai 2005, 15 449 508 Français rejettent le traité établissant une Constitution pour l’Europe. Le non obtient 54,67 % des suffrages exprimés. La participation atteint 69,37 %. Ce n’est ni un sursaut marginal ni une majorité fabriquée par l’abstention : plus de 15 millions d’électeurs viennent de désavouer le texte qui leur est soumis.
+
+3 ans plus tard, le Parlement réuni en Congrès adopte la révision constitutionnelle nécessaire à la ratification du traité de Lisbonne. La ratification est ensuite autorisée par la voie parlementaire. Le traité de Lisbonne n’est pas juridiquement identique au texte rejeté en 2005, mais il reprend une part importante de son dispositif institutionnel. La procédure choisie est parfaitement identifiable : 560 parlementaires votent la révision, 181 s’y opposent. Aucun second référendum national n’est organisé.
 
 Cette séquence ne démontre pas que le vote de 2005 n’aurait servi à rien. Elle démontre quelque chose de plus précis.
 
@@ -37,17 +39,17 @@ Il est reproduit de l’intérieur.
 
 ## Une demande existe. Elle n’est pas une force.
 
-Les enquêtes de janvier 2019 mesurent une approbation massive du principe. Le baromètre Harris Interactive pour RTL et M6 (1 967 personnes interrogées du 27 au 28 décembre 2018) enregistre 80 % de favorables au RIC pour proposer une loi, 72 % pour en abroger une, 63 % pour mettre fin au mandat d’un élu et 62 % pour un RIC constituant. Un sondage Ifop pour Valeurs Actuelles (janvier 2019) mesure 77 % d’approbation pour un RIC de proposition, 68 % pour un RIC révocatoire et 65 % pour un RIC constituant. Ces enquêtes mesurent une approbation de principe, non une priorité électorale ni une disposition volontaire à rejoindre une organisation.
+Les enquêtes de janvier 2019 mesurent une approbation massive du principe. Le baromètre Harris Interactive pour RTL et M6 (1 967 personnes interrogées du 27 au 28 décembre 2018) enregistre 80 % de favorables au RIC pour proposer une loi, 72 % pour en abroger une, 63 % pour mettre fin au mandat d’un élu et 62 % pour un RIC constituant. Un sondage Ifop pour Valeurs Actuelles (janvier 2019) mesure 77 % d’approbation pour un RIC de proposition, 72 % pour un référendum-véto sur une loi votée et 67 % pour un RIC révocatoire. Ces enquêtes mesurent une approbation de principe, non une priorité électorale ni une disposition volontaire à rejoindre une organisation.
 
-Aux élections européennes de 2024, l’Union populaire républicaine obtient 1,02 % des suffrages. La coalition « L’Europe ça suffit ! », conduite par Les Patriotes, en recueille 0,93 %. Les deux principales offres faisant explicitement de la sortie de l’Union européenne un axe central totalisent donc un peu moins de 2 % des voix et aucun siège.
+Aux élections européennes de 2024, l’Union populaire républicaine obtient 1,02 % des suffrages. La coalition « L’Europe ça suffit ! », conduite par Les Patriotes, en recueille 0,93 %. Les 2 principales offres faisant explicitement de la sortie de l’Union européenne un axe central totalisent donc un peu moins de 2 % des voix et aucun siège.
 
-Ces deux résultats ne mesurent pas le même objet.
+Ces 2 résultats ne mesurent pas le même objet.
 
 Le sondage recueille l’approbation d’un principe isolé, sans coût immédiat et sans choix concurrent. L’élection oblige à sélectionner une liste complète, des candidats, une stratégie, une identité politique et un ensemble de propositions.
 
 Un citoyen peut approuver le RIC sans souhaiter quitter l’Union européenne.
 
-Il peut souhaiter les deux et refuser les organisations qui les proposent.
+Il peut souhaiter les 2 et refuser les organisations qui les proposent.
 
 Il peut approuver la démocratie directe tout en votant d’abord sur l’immigration, le niveau de vie, les retraites ou les services publics.
 
@@ -210,7 +212,7 @@ L’expression recouvre des dispositifs très différents :
 
 L’Ifop a lui-même testé plusieurs formes de RIC. Le niveau d’approbation varie lorsque les pouvoirs proposés et leurs modalités deviennent plus précis. L’adhésion à un sigle général ne signifie donc pas que les Français approuveraient indistinctement toutes ses versions.
 
-Sous le même sigle coexistent au moins cinq acceptions juridiquement distinctes : le RIC législatif, qui permet aux citoyens de provoquer l’examen d’un texte ; le RIC abrogatif, qui permet d’abroger une loi ; le RIC révocatoire, qui permet de révoquer un élu ; le RIC constituant, qui permet de réviser la Constitution ; et les dispositifs combinés, qui ajoutent à ces pouvoirs une assemblée citoyenne ou des contrôles préalables. Ces mécanismes ne se substituent pas les uns aux autres.
+Sous le même sigle coexistent au moins 5 acceptions juridiquement distinctes : le RIC législatif, qui permet aux citoyens de provoquer l’examen d’un texte ; le RIC abrogatif, qui permet d’abroger une loi ; le RIC révocatoire, qui permet de révoquer un élu ; le RIC constituant, qui permet de réviser la Constitution ; et les dispositifs combinés, qui ajoutent à ces pouvoirs une assemblée citoyenne ou des contrôles préalables. Ces mécanismes ne se substituent pas les uns aux autres.
 
 Chaque acception change la nature du pouvoir accordé : déclencher un vote, abroger une décision, révoquer un titulaire ou réécrire la Constitution ne sont pas des fonctions équivalentes. Les seuils de signature, les matières exclues, les quorums et les délais modifient encore le dispositif. Ajouter le même mot à des textes différents ne garantit pas l’accord sur la même institution.
 
@@ -255,15 +257,15 @@ Elle possède un slogan.
 
 ---
 
-## Trois convergences, trois ruptures
+## 3 convergences, 3 ruptures
 
 L’histoire récente ne montre pas que les rassemblements seraient toujours impossibles.
 
 Elle montre qu’ils cessent généralement au moment où il faut partager le contrôle, déterminer l’après-victoire ou reconnaître une autorité commune.
 
-### 1999 : une liste commune, deux appareils
+### 1999 : une liste commune, 2 appareils
 
-En 1999, Charles Pasqua et Philippe de Villiers conduisent une liste souverainiste commune aux élections européennes. Elle obtient 13,06 % des suffrages, plus de 2,3 millions de voix et treize sièges sur 87, en devançant la liste officielle de la droite parlementaire. Le résultat démontre qu’une convergence électorale souverainiste peut dépasser la marginalité.
+En 1999, Charles Pasqua et Philippe de Villiers conduisent une liste souverainiste commune aux élections européennes. Elle obtient 13,06 % des suffrages, plus de 2,3 millions de voix et 13 sièges sur 87, en devançant la liste officielle de la droite parlementaire. Le résultat démontre qu’une convergence électorale souverainiste peut dépasser la marginalité.
 
 Le Rassemblement pour la France est ensuite constitué.
 
@@ -273,13 +275,13 @@ L’organisation existe.
 
 Elle ne devient pas souveraine sur ses fondateurs.
 
-Les réseaux pasquaïens et villiéristes continuent de se disputer les fédérations, les responsabilités et les ressources. Le conflit financier devient central. Selon les informations publiées à l’époque, les deux camps s’opposaient sur l’utilisation du financement du MPF et sur la gestion du nouvel appareil ; la presse a rapporté le grief constant adressé à Philippe de Villiers de confier les postes sensibles à ses proches.
+Les réseaux pasquaïens et villiéristes continuent de se disputer les fédérations, les responsabilités et les ressources. Le conflit financier devient central. Selon les informations publiées à l’époque, les 2 camps s’opposaient sur l’utilisation du financement du MPF et sur la gestion du nouvel appareil ; la presse a rapporté le grief constant adressé à Philippe de Villiers de confier les postes sensibles à ses proches.
 
 La rupture ne prouve donc pas l’absence d’ingénierie.
 
 Elle montre une ingénierie insuffisante pour résoudre la question essentielle :
 
-> L’organisation commune possède-t-elle réellement les ressources, ou ne fait-elle que superposer deux propriétaires qui peuvent repartir avec elles ?
+> L’organisation commune possède-t-elle réellement les ressources, ou ne fait-elle que superposer 2 propriétaires qui peuvent repartir avec elles ?
 
 Le RPF avait des règles.
 
@@ -297,7 +299,7 @@ Elle se situe principalement dans la gauche antilibérale. Les souverainistes de
 
 Même pendant la campagne, les partisans du non restent divisés. À droite, Philippe de Villiers et Nicolas Dupont-Aignan acceptent des coordinations ponctuelles, mais conservent leurs arguments, leurs structures et leurs intérêts propres. Les questions de temps d’antenne, de financement et d’ambition présidentielle pèsent déjà sur les tentatives de rapprochement.
 
-Après la victoire, aucune institution ne peut répondre au nom des quinze millions d’électeurs :
+Après la victoire, aucune institution ne peut répondre au nom des 15 millions d’électeurs :
 
 - Que signifie exactement le non ?
 - Faut-il renégocier ?
@@ -351,6 +353,10 @@ Le pouvoir informel demeure.
 Le mouvement a donc produit de nombreuses structures partielles.
 
 Il n’a pas produit une autorité nationale suffisamment reconnue pour engager durablement l’ensemble.
+
+Il faut pourtant regarder cette expérience en face : les Gilets jaunes, dont le RIC était devenu une revendication structurante, ont été la mobilisation française la moins marquée par le préalable du Frexit. Si la revendication de démocratie directe la plus puissante de l’histoire récente n’a produit ni autorité, ni candidat, ni texte commun, alors une demande, même partagée par des centaines de milliers de personnes, ne devient pas une force par elle-même.
+
+Cette séquence ne réfute donc pas la thèse de cet article : elle la précise. Le RIC était leur exigence. Il n’était pas encore leur institution. Ce qui manquait n’était pas le contenu de la revendication, mais l’infrastructure capable de la définir, de la financer et de l’arbitrer. La preuve par la négative rejoint ici la preuve par l’exemple : sans centre reconnu, la demande la plus massive se dissout dans des structures partielles.
 
 ---
 
@@ -432,19 +438,19 @@ Mais ces règles augmentent la valeur des ressources déjà possédées.
 
 ### Les présentations
 
-La candidature présidentielle exige au moins cinq cents présentations émanant d’élus habilités. Le dispositif vérifie donc autre chose qu’une popularité nationale : il mesure également l’existence d’un réseau territorial et institutionnel.
+La candidature présidentielle exige au moins 500 présentations émanant d’élus habilités, réparties sur au moins 30 départements ou collectivités d’outre-mer, sans que plus d’un dixième provienne du même département. Le dispositif vérifie donc autre chose qu’une popularité nationale : il mesure l’existence d’un réseau territorial et institutionnel.
 
 Une audience numérique ne remplace pas un réseau de maires.
 
 Une pétition ne remplace pas des années de relations locales.
 
-La règle des cinq cents signatures existe depuis 1976. Depuis la loi organique du 25 avril 2016, les présentations sont publiées intégralement. Vérification effectuée dans l’enquête préparatoire : aucun candidat issu des Gilets jaunes n’atteint les cinq cents signatures en 2022. François Asselineau n’a pas réuni les cinq cents signatures (279 présentations validées), Georgios Kuzmanovic 46, Clara Egger 34.
+La règle des 500 signatures existe depuis 1976. Depuis la loi organique du 25 avril 2016, les présentations sont publiées intégralement. Aucun candidat issu des Gilets jaunes n’a atteint les 500 signatures en 2022. François Asselineau n’a pas réuni les 500 signatures (293 présentations validées), Georges Kuzmanovic 49, Clara Egger 36.
 
 Celui qui possède ce réseau détient un actif rare. Il hésitera d’autant plus à le placer au service d’une coalition dont il ne contrôle pas la direction.
 
 ### Le financement
 
-En 2024, l’aide publique directe aux partis atteint 66,44 millions d’euros. Elle est répartie en deux fractions : l’une dépend notamment des voix obtenues aux élections législatives, l’autre du rattachement des parlementaires. Elle représente environ 34 % des produits de l’ensemble des partis et 45 % de ceux qui en bénéficient effectivement.
+En 2024, l’aide publique directe aux partis atteint 66,44 millions d’euros. Elle est répartie en 2 fractions : l’une dépend notamment des voix obtenues aux élections législatives, l’autre du rattachement des parlementaires. Elle représente environ 34 % des produits de l’ensemble des partis et 45 % de ceux qui en bénéficient effectivement.
 
 Le mécanisme n’interdit pas le financement privé ni l’émergence de petites formations. Les cotisations, les dons et les emprunts existent.
 
@@ -468,7 +474,9 @@ Il crée en même temps un avantage cumulatif.
 
 La visibilité passée contribue à la visibilité présente.
 
-Depuis la clôture officielle de la liste des candidats, tous ceux qui y figurent bénéficient d’une égalité stricte : douze candidats en 2022. L’inégalité intervient avant cette clôture, pendant la période où l’équité prend en compte la représentativité de chaque candidat et son implication dans la campagne. La durée des mois structurants de chaque séquence électorale relève donc de l’inégalité de traitement, seule la campagne officielle relevant de l’égalité. Un candidat s’appuyant sur une marque reconnue, un financement constitué et une couverture antérieure se trouve déjà en position de force lorsque débute la période d’égalité stricte.
+L’écart est mesurable. Selon les cumuls établis à partir des fichiers de l’open data ARCOM, sur l’ensemble de la séquence électorale de 2022 (du 1er janvier au 22 avril), le temps de parole propre d’Emmanuel Macron a atteint 127 heures 16, celui de François Asselineau 3 heures 01 : un ratio d’environ 42 pour 1. En incluant le temps d’antenne des soutiens, les cumuls atteignent 1 882 heures contre 11 heures 15, soit un ratio d’environ 167 pour 1. L’avantage cumulatif n’est pas une impression : c’est une masse de présence radiophonique et télévisée qui précède et conditionne la collecte, la campagne et la notoriété.
+
+Depuis la clôture officielle de la liste des candidats, tous ceux qui y figurent bénéficient d’une égalité stricte : 12 candidats en 2022. L’inégalité intervient avant cette clôture, pendant la période où l’équité prend en compte la représentativité de chaque candidat et son implication dans la campagne. La durée des mois structurants de chaque séquence électorale relève donc de l’inégalité de traitement, seule la campagne officielle relevant de l’égalité. Un candidat s’appuyant sur une marque reconnue, un financement constitué et une couverture antérieure se trouve déjà en position de force lorsque débute la période d’égalité stricte.
 
 La notoriété facilite la collecte.
 
@@ -494,15 +502,13 @@ Il lui suffit de rendre l’autonomie moins risquée que la coalition.
 
 Le rassemblement ne doit plus commencer par les noms.
 
-Il doit commencer par les règles.
+Il doit commencer par les règles. Le recensement des capacités nécessaires à une coalition réelle est long : mandat limité, gouvernance, arbitrage, discipline de message, financement mutualisé, territorialisation, formation des candidats, conformité juridique, infrastructures numériques, sécurité et données.
 
-Les travaux qui ont préparé cette enquête ont recensé de nombreuses capacités nécessaires : mandat limité, gouvernance, arbitrage, discipline de message, financement mutualisé, territorialisation, formation des candidats, conformité juridique, infrastructures numériques, sécurité et données.
-
-Avant cette enquête, un long fil publié en 2025 par une figure notable du mouvement avait déjà formalisé le cadre, sans qu’il soit jamais mis en œuvre, en tout ou en partie. Il tient en douze conditions : mandat commun limité ; contrat de gouvernance fixant règles d’entrée et de sortie ; procédure d’arbitrage écrite ; discipline de message ; tronc financier mutualisé ; territorialisation ; chaîne de candidats ; calendrier d’exécution ; cellule juridique ; infrastructures numériques ; sécurité interne ; données et analyse. Le même fil formule onze techniques de sabotage et des parades à chacune. Il ne comptabilise pas quelle proportion de ces techniques a été observée ; les enquêtes vérifiées permettent d’en documenter plusieurs, sans que le total soit établi. Dans les trois cas étudiés, aucun élément public ne permet d’établir que le mandat, les actifs communs et l’arbitrage contraignant aient été réunis simultanément et durablement à l’échelle de l’ensemble de la coalition.
+Avant ce texte, un long fil publié en septembre 2025 par l’auteur de cet article ([L’Impossible Rassemblement, chronique d’un échec programmé](https://x.com/gigicicicricri/status/1965054889676996717)) avait déjà formalisé le cadre, sans qu’il soit jamais mis en œuvre, en tout ou en partie. Il tient en 12 conditions : mandat commun limité ; contrat de gouvernance fixant règles d’entrée et de sortie ; procédure d’arbitrage écrite ; discipline de message ; tronc financier mutualisé ; territorialisation ; chaîne de candidats ; calendrier d’exécution ; cellule juridique ; infrastructures numériques ; sécurité interne ; données et analyse. Le même fil formule 11 mécanismes de fragmentation et des parades à chacun. Le mot de sabotage n’est pas repris ici : rien ne permet d’affirmer qu’un acteur extérieur les orchestre, et la démonstration de cet article n’en a pas besoin. Le fil ne comptabilise pas quelle proportion de ces mécanismes a été observée ; les cas documentés permettent d’en illustrer plusieurs, sans que le total soit établi. Dans les 3 cas documentés, aucun élément public ne permet d’établir que le mandat, les actifs communs et l’arbitrage contraignant aient été réunis simultanément et durablement à l’échelle de l’ensemble de la coalition.
 
 Tout ne doit pas être construit simultanément.
 
-Trois engagements permettent déjà de distinguer une coalition réelle d’un meeting.
+3 engagements permettent déjà de distinguer une coalition réelle d’un meeting.
 
 ### Un texte signé
 
@@ -757,6 +763,22 @@ Pas d’expérience commune sans mutualisation initiale.
 
 ---
 
+## À qui profite son absence ?
+
+Poser cette question, ce n’est pas accuser un centre d’orchestrer la division. C’est constater qui se trouve, dans l’ordre existant, en position de bénéficier de l’absence d’une force commune.
+
+Le Rassemblement national bénéficie d’abord : chaque fragment souverainiste laissé à lui-même lui abandonne la quasi-totalité de l’électorat de rupture, sans partager son hégémonie interne.
+
+Les médias concentrés bénéficient ensuite : une dissidence en miettes fait de l’audience, une force commune ferait une négociation.
+
+Les institutions européennes et la classe politique bénéficient encore : aucune contrainte électorale organisée ne vient peser sur la conduite de l’intégration.
+
+Et chaque dirigeant souverainiste bénéficie, à court terme, de la conservation de son petit pouvoir. Le calcul dissymétrique décrit plus haut n’est pas une faute morale : il est la condition de tous les autres bénéfices.
+
+La fragmentation n’a pas de planificateur. Elle a des bénéficiaires. Et tant que l’autonomie demeurera la moins risquée des options, la division se reproduira, sans complot, à chaque génération.
+
+---
+
 ## Le premier acte
 
 Le premier acte du rassemblement ne sera donc pas une grande réunion de personnalités.
@@ -765,7 +787,7 @@ Ce ne sera pas une photographie.
 
 Ce ne sera pas un appel supplémentaire.
 
-Ce ne sera pas une nouvelle candidature déclarée deux ans avant une élection.
+Ce ne sera pas une nouvelle candidature déclarée 2 ans avant une élection.
 
 Ce sera un engagement coûteux et vérifiable.
 
@@ -805,23 +827,23 @@ Elle commencera lorsque ceux qui prétendent vouloir le pouvoir commun acceptero
 
 ## Sources
 
-Les chiffres et faits cités dans le texte sont vérifiés, dans la mesure du possible, contre les sources primaires suivantes. L’enquête préparatoire complète est archivée dans le registre du corpus : `investigations/2026-08/corpus-souverainete-2027/REGISTRE.md` ; le fil fondateur des douze conditions et des onze types de sabotage est archivé sous `investigations/2026-08/corpus-souverainete-2027/_synthese/L_IMPOSSIBLE_RASSEMBLEMENT_twitter_20250908.md`.
+Les chiffres et faits cités dans le texte sont vérifiés, dans la mesure du possible, contre les sources primaires suivantes.
 
 - Congrès de Versailles, 4 février 2008 : scrutin sur la révision constitutionnelle nécessaire à la ratification du traité de Lisbonne, 560 pour, 181 contre, 152 abstentions, majorité des trois cinquièmes requise et atteinte (445 sur 741 suffrages exprimés). Scrutin de l’Assemblée nationale : http://www.assemblee-nationale.fr/13/scrutins/jo9000.asp ; Le Monde, 4 février 2008.
 - Référendum du 29 mai 2005 sur le traité établissant une Constitution pour l’Europe : non à 54,67 %, participation de 69,37 %. Résultat proclamé par le Conseil constitutionnel (décision n° 2005-38 REF du 1er juin 2005) : https://www.conseil-constitutionnel.fr/decision/2005/200538REF.htm ; dossier officiel du Conseil constitutionnel : https://www.conseil-constitutionnel.fr/rubrique-principale/referendum-traite-constitution-pour-l-europe
-- Élections européennes de 1999 : liste Pasqua-de Villiers, 13,06 %, treize sièges, plus de 2,3 millions de voix. Archives électorales tenues par Laurent de Boissier (France-politique), établies à partir des données publiées par le ministère de l’Intérieur : https://www.france-politique.fr/elections-europeennes-1999.htm
+- Élections européennes de 1999 : liste Pasqua-de Villiers, 13,06 %, 13 sièges, plus de 2,3 millions de voix. Archives électorales tenues par Laurent de Boissier (France-politique), établies à partir des données publiées par le ministère de l’Intérieur : https://www.france-politique.fr/elections-europeennes-1999.htm
 - Élections européennes de 2024 : UPR 1,02 %, Les Patriotes 0,93 % (ministère de l’Intérieur). https://www.resultats-elections.interieur.gouv.fr
-- RIP « Aéroports de Paris » : 1 093 030 soutiens validés, loin des 4 710 396 signatures exigées ; aucune procédure d’initiative partagée n’a abouti depuis l’introduction du dispositif par la révision de 2008. https://www.vie-publique.fr/fiches/19584-le-referendum-dinitiative-partagee-rip
+- RIP « Aéroports de Paris » : 1 093 030 soutiens validés, loin des 4 717 396 signatures exigées ; aucune procédure d’initiative partagée n’a abouti depuis l’introduction du dispositif par la révision de 2008. https://www.vie-publique.fr/fiches/19584-le-referendum-dinitiative-partagee-rip
 - Règles du RIP : initiative d’un cinquième des parlementaires, soutien de 10 % des électeurs inscrits. https://www.vie-publique.fr/fiches/19584-le-referendum-dinitiative-partagee-rip
-- Ifop pour Valeurs Actuelles, sondage de janvier 2019 : 77 % favorables au RIC de proposition, 68 % au RIC révocatoire, 65 % au RIC constituant (1 210 personnes interrogées). Résultats détaillés : https://www.ifop.com/wp-content/uploads/2019/02/116120-resultats-les-francais-et-le-ric.pdf ; analyse de l’Ifop : https://www.ifop.com/wp-content/uploads/2019/02/cp-ric-def.pdf
+- Ifop pour Valeurs Actuelles, sondage de janvier 2019 : 77 % favorables au RIC de proposition, 72 % au référendum-véto, 67 % au RIC révocatoire (1 210 personnes interrogées). Résultats détaillés : https://www.ifop.com/wp-content/uploads/2019/02/116120-resultats-les-francais-et-le-ric.pdf ; analyse de l’Ifop : https://www.ifop.com/wp-content/uploads/2019/02/cp-ric-def.pdf
 - Baromètre Harris Interactive pour RTL et M6, janvier 2019 : 80 % favorables au RIC pour proposer une loi, 72 % pour abroger une loi, 63 % pour mettre fin au mandat d’un élu, 62 % pour modifier la Constitution (1 967 personnes interrogées du 27 au 28 décembre 2018). https://www.rtl.fr/actu/politique/gilets-jaunes-80-des-francais-favorables-au-ric-pour-proposer-une-loi-7796101142
 - CNCCFP, rapport d’activité 2024 : aide publique aux partis, 66,44 millions d’euros (32,25 millions de première fraction, 34,19 millions de deuxième fraction), soit environ 34 % des produits des 569 partis enregistrés et 45 % des produits des partis bénéficiaires. Avis CNCCFP publié au Journal officiel n° 34 du 10 février 2026 ; décret n° 2024-77 du 2 février 2024.
-- Loi organique du 25 avril 2016 : publication intégrale des présentations de candidats à l’élection présidentielle.
-- Élection présidentielle de 2022 : douze candidats retenus par le Conseil constitutionnel (décision n° 2022-193 PDR du 24 mars 2022). https://www.conseil-constitutionnel.fr/decision/2022/2022193PDR.htm
-- ARCOM, campagne de l’élection présidentielle 2022 : l’égalité stricte des temps de parole s’applique entre les douze candidats pendant la période officielle de campagne. Open data des temps de parole : https://www.data.gouv.fr/datasets/temps-de-parole-des-candidats-election-presidentielle-2022 ; données brutes par période : https://www.arcom.fr/temps-parole/election/open-data/presidentielle/2022-8
-- Parrainages 2022 : François Asselineau n’a pas réuni les cinq cents signatures (279 présentations validées), Georgios Kuzmanovic 46 présentations, Clara Egger 34 présentations publiées (Conseil constitutionnel, décision n° 2022-193 PDR du 24 mars 2022).
+- Présentation des candidats : au moins 500 présentations d’élus réparties sur au moins 30 départements ou collectivités d’outre-mer, sans que plus d’un dixième provienne du même département. Le seuil de 100 présentations fixé par la loi organique n° 62-1292 du 6 novembre 1962 (art. 3) a été porté à 500 par la loi organique n° 76-528 du 18 juin 1976 : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000522406 ; publication intégrale des présentations depuis la loi organique du 25 avril 2016.
+- Élection présidentielle de 2022 : 12 candidats retenus par le Conseil constitutionnel (décision n° 2022-193 PDR du 24 mars 2022). https://www.conseil-constitutionnel.fr/decision/2022/2022193PDR.htm
+- ARCOM, élection présidentielle 2022 : l’égalité stricte des temps de parole s’applique entre les 12 candidats pendant la période officielle de campagne ; sur l’ensemble de la séquence (du 1er janvier au 22 avril 2022), le cumul des temps de parole propres atteint 127 heures 16 pour Emmanuel Macron et 3 heures 01 pour François Asselineau (ratio d’environ 42 pour 1) ; en incluant le temps d’antenne des soutiens, 1 882 heures contre 11 heures 15 (ratio d’environ 167 pour 1). Cumuls calculés par agrégation des fichiers CSV de l’open data ARCOM (colonnes de durée des relevés successifs ; le total d’Asselineau additionne les 2 orthographes du nom présentes dans les fichiers). Les relevés couvrent la campagne, les jours de scrutin (9 et 10 avril) ne faisant pas l’objet de relevés. Open data des temps de parole : https://www.data.gouv.fr/datasets/temps-de-parole-des-candidats-election-presidentielle-2022 ; données brutes par période : https://www.arcom.fr/temps-parole/election/open-data/presidentielle/2022-8
+- Parrainages 2022 : François Asselineau n’a pas réuni les 500 signatures (293 présentations validées), Georges Kuzmanovic 49 présentations, Clara Egger 36 présentations publiées. Aucune figure issue des Gilets jaunes (Éric Drouet, Fabrice Grimal, Philippe Furlan) n’a atteint les 500 signatures. Décomptes validés par le Conseil constitutionnel, publiés au fil de la campagne et reproduits dans Wikipédia, « Candidatures à l’élection présidentielle française de 2022 » : https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2022 ; liste des 12 candidats retenus : décision n° 2022-193 PDR du 24 mars 2022 : https://www.conseil-constitutionnel.fr/decision/2022/2022193PDR.htm
 - Article 11 : la révision de 1962, soumise par la voie de l’article 11 (élection du président au suffrage universel direct), n’a pas été contrôlée par le Conseil constitutionnel (décision n° 62-20 DC du 6 novembre 1962) ; la même voie, renouvelée sans succès en 1969, a ensuite été abandonnée. https://www.conseil-constitutionnel.fr/decision/1962/6220DC.htm
 - Charte antilibérale et collectifs unitaires (2005-2006) : le 13 mai 2006, les 355 délégués réunis en assises nationales à Paris adoptent la charte « Pour une alternative au libéralisme », élaborée par les collectifs issus du « non » du 29 mai 2005 ; l’appel du 11 mai 2006 pour un rassemblement antilibéral de gauche et des candidatures communes. Environ 800 collectifs locaux se constituent ; aucune candidature commune ne se dégage finalement pour 2007. L’Humanité, « La charte antilibérale des collectifs du 29 mai », 15 mai 2006 : https://www.humanite.fr/social-et-economie/-/la-charte-antiliberale-des-collectifs-du-29-mai ; Wikipédia, « Collectifs unitaires » : https://fr.wikipedia.org/wiki/Collectifs_unitaires
 - Recherche sur les arènes médiatiques des Gilets jaunes : le RIC apparaît comme une revendication structurante et argumentée ; les décisions y sont discutées à travers des votes, des sondages et des pétitions internes. N. Souillard, B. Sebbah, L. Loubère, L. Thiong-Kay et N. Smyrnaios, « Les Gilets jaunes, étude d’un mouvement social au prisme de ses arènes médiatiques », Terminal, n° 127, 2020 : https://journals.openedition.org/terminal/5671
 
-Certaines affirmations du texte reposent sur l’analyse transversale du corpus d’enquêtes (croisement des sources, recoupements documentaires), et non sur une source unique : le statut de chaque fait est détaillé dans les fichiers de l’enquête préparatoire. Les mentions dont la vérification publique n’a pas abouti sont signalées comme telles dans les dossiers du corpus.
+Certaines affirmations du texte reposent sur le croisement de plusieurs sources et sur des recoupements documentaires, et non sur une source unique. Les mentions dont la vérification publique n’a pas abouti sont signalées comme telles.
