@@ -120,7 +120,8 @@ MANIPULATION_REPORT:
  2  MEMORY           @MNEMO_Q(search_mode="hybrid", tags=["project:truth-engine", "kernel"]) → $EXISTING
    IF $EXISTING > 0 → EXTRACT $TAGS (union of all tags in existing memories) + $FORMAT (FACT_REGISTRY style detected)
    ECHO "BASE: {N} facts | $TAGS: {set} | $FORMAT: {table|narrative}"
-   IF $EXISTING = 0 → $TAGS = ["project:truth-engine", "kernel", "status:confirme", "verifie-YYYY-MM-DD", "{investigation_tag}"]
+   IF $EXISTING = 0 → $TAGS = ["project:truth-engine", "kernel", "status:CONFIRME", "verifie-YYYY-MM-DD", "{investigation_tag}"]
+   RÈGLE : casse canonique du registre (EPIC-60) : `status:CONFIRME` MAJUSCULE (jamais `status:confirme`) ; `fact:verifie` est OBSOLÈTE (remplacé au write par `status:CONFIRME`) ; namespaces réservés : status, fact, project, sys, session, date, source ; `kernel` documenté. Le modèle normalise la casse à l'écriture, mais la source doit déjà être conforme.
    ⊥ $TAGS + $FORMAT → consumed by step 10 + step 19a
    IF @MNEMO_Q fails → SKIP (log "MnemoLite unavailable"), continue pipeline
  3  COMPLEXITY       6 dims → sum → SIMPLE/MEDIUM/COMPLEX/APEX
