@@ -17,7 +17,7 @@
 
 ## Règles de formatage critiques
 
-### Interdiction du tiret cadratin
+### Interdiction du tiret cadratin dans les **articles**
 - **Scope strict :** articles publiés (Phase 3) uniquement. Ne JAMAIS appliquer aux fiches internes (quintessences Phase 1, INVESTIGATIONS sources).
 - Ne jamais utiliser le tiret cadratin (em dash U+2014, « — ») dans les **articles**.
 - Utiliser « : » pour les séparateurs, « - » pour les listes, et des parenthèses pour les incises.
