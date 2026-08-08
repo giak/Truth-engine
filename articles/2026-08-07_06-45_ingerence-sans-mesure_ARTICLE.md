@@ -164,59 +164,75 @@ Le 22 juillet 2026, le Gouvernement a fourni une réponse juridique. **La mesure
 
 **Législation française** :
 - Loi n° 2004-575 du 21 juin 2004 (LCEN) : https://www.legifrance.gouv.fr/loda/article_lc/LEGIART000042038977/
-- Loi n° 2018-1202 du 22 décembre 2018 : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037847559/
-- Décret n° 2021-922 du 13 juillet 2021 (Viginum) : https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043788361/
+- Loi n° 2018-1202 du 22 décembre 2018 (référé « fake news ») : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037847559/
+- Décret n° 2021-922 du 13 juillet 2021 (création Viginum) : https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043788361/
 - Loi n° 2024-449 du 21 mai 2024 (SREN) : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049567491
-- Loi n° 2024-850 du 25 juillet 2024 : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050050889
-- Décret n° 2026-70 du 11 février 2026 : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049304107
+- Loi n° 2024-850 du 25 juillet 2024 (ingérences étrangères, registre HATVP, gel des avoirs) : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050050889
+- Décret n° 2026-70 du 11 février 2026 (extension collecte Viginum) : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049304107
 - Projet de loi n° 913 (Sénat, 22 juillet 2026) : https://www.senat.fr/leg/pjl25-913.html
 - Étude d'impact du projet de loi n° 913 : https://www.senat.fr/leg/etudes-impact/pjl25-913-ei/pjl25-913-ei.html
 
-**Droit européen** :
-- Règlement (UE) 2022/2065 (DSA) : https://eur-lex.europa.eu/eli/reg/2022/2065/oj/fra
-- Règlement (UE) 2024/1083 (EMFA)
+**Droit européen et international** :
+- Règlement (UE) 2022/2065 (Digital Services Act) : https://eur-lex.europa.eu/eli/reg/2022/2065/oj/fra
+- Règlement (UE) 2024/1083 (European Media Freedom Act, EMFA) : https://eur-lex.europa.eu/eli/reg/2024/1083/oj/fra
 - DSA Transparency Database : FAQ : https://digital-strategy.ec.europa.eu/en/faqs/dsa-transparency-database-questions-and-answers
+- Commission de Venise, avis CDL-AD(2025)003 sur l'annulation des résultats électoraux par les cours constitutionnelles : https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2025)003-e
 
 **Jurisprudence** :
-- TGI Paris, 17 mai 2019, n° 19/53935 : https://www.legalis.net/jurisprudences/tgi-de-paris-jugement-du-17-mai-2019/
-- Cour de cassation, 7 janvier 2026, n° 23-22.723 et 24-13.163 : https://www.courdecassation.fr/decision/6775d92a16ea013c7a2b9f14
-- Conseil d'État, avis du 16 juillet 2026 : conseil-etat.fr
-- Cour de cassation, communiqué conjoint Soulard/Heitz, 25 juin 2026
-- CEDH, arrêt condamnation France, avril 2025
+- TGI Paris, 17 mai 2019, n° 19/53935 (unique saisine référé « fake news » : rejetée) : https://www.legalis.net/jurisprudences/tgi-de-paris-jugement-du-17-mai-2019/
+- Cour de cassation, chambre commerciale, 7 janvier 2026, n° 24-13.163 (Airbnb : refus statut hébergeur, requalification éditeur) : https://www.legifrance.gouv.fr/juri/id/JURITEXT000053345455
+- Conseil d'État, avis du 16 juillet 2026 sur le projet de loi Nuñez : https://www.conseil-etat.fr/avis-consultatifs/derniers-avis-rendus/au-gouvernement/avis-sur-un-projet-de-loi-relatif-a-la-lutte-contre-les-ingerences-etrangeres-dans-la-vie-democratique
+- Cour de cassation/CSM, déclaration commune Soulard/Heitz, 25 juin 2026 : http://www.conseil-superieur-magistrature.fr/publications/declaration-commune-des-presidents-de-formation-du-csm
+- CEDH, L. et autres c. France, 24 avril 2025 (condamnation pour défaut de protection des mineurs) : https://hudoc.echr.coe.int/fre?i=001-242789
 - Tribunal correctionnel de Paris, 31 octobre 2025, affaire des « mains rouges » du Mémorial de la Shoah : https://www.tf1info.fr/justice-faits-divers/mains-rouges-sur-le-memorial-de-la-shoah-2-a-4-ans-de-prison-pour-les-prevenus-bulgares-2404007.html
 - Discours de rentrée de Laure Beccuau, procureure de Paris, janvier 2026 (accès restreint) : https://www.tribunal-de-paris.justice.fr/sites/default/files/2026-01/Discours%20de%20rentr%C3%A9e%20et%20d%27installation%20du%20PNACO%2C%20de%20Laure%20Beccuau%2C%20procureure%20de%20Paris.pdf
 
 **Registres de transparence** :
-- EU Transparency Register : ID 593474530364-05 (EU DisinfoLab), ID 847550548807-30 (EFCSN)
-- Registre du commerce finlandais (PRH) : Business ID 3143603-4 (Check First)
+- EU DisinfoLab : registre de transparence UE ID 593474530364-05 : https://www.lobbyfacts.eu/datacard/eu-disinfolab?rid=593474530364-05
+- EFCSN : registre de transparence UE ID 847550548807-30 : https://www.lobbyfacts.eu/datacard/european-fact-checking-standards-network?rid=847550548807-30
+- Check First Oy : registre du commerce finlandais PRH, Business ID 3143603-4 : https://www.ytj.fi/en/index/companysearch.html
+- HATVP : répertoire de l'influence étrangère (Argos) : https://www.hatvp.fr/repertoire-de-linfluence-etrangere/
 - LobbyFacts.eu : https://www.lobbyfacts.eu/
 
 **Données techniques et rapports officiels** :
-- Viginum : Dépôt GitHub Rapports-Techniques (RRN, Portal Kombat, Matriochka) : https://github.com/VIGINUM-FR/Rapports-Techniques
-- Viginum : Rapport d'activité 2024 : https://www.sgdsn.gouv.fr/files/files/Publications/VIGINUM_rapport_activit%C3%A9_24_vd.pdf
-- Viginum : Comité éthique et scientifique, premier rapport : https://www.sgdsn.gouv.fr/publications/viginum-publication-du-premier-rapport-du-comite-ethique-et-scientifique
-- CNIL : Avis du 18 novembre 2021 (délibération n° 2021-131) : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044454840
-- Sénat : Rapport n° 875 sur la proposition de loi Nuñez (2025-2026) : https://www.senat.fr/rap/r25-875/r25-8755.html
+- Viginum : dépôt GitHub Rapports-Techniques (RRN, Portal Kombat, Matriochka) : https://github.com/VIGINUM-FR/Rapports-Techniques
+- Viginum : rapport d'activité 2024 : https://www.sgdsn.gouv.fr/files/files/Publications/VIGINUM_rapport_activit%C3%A9_24_vd.pdf
+- Viginum : premier rapport du comité éthique et scientifique : https://www.sgdsn.gouv.fr/publications/viginum-publication-du-premier-rapport-du-comite-ethique-et-scientifique
+- CNIL : délibération n° 2021-131 du 18 novembre 2021 (encadrement Viginum) : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044454840
+- Sénat : rapport n° 875 (2025-2026) sur la proposition de loi Nuñez : https://www.senat.fr/rap/r25-875/r25-8755.html
+- CIIVISE : https://www.ciivise.fr/
 
 **Données quantitatives** :
-- DSA Transparency Database : agrégats mars-mai 2026 (dsa-tdb bucket CloudFront)
-- Fichier brut 22 juillet 2026 : 24 302 119 décisions, analyse locale pyarrow
+- DSA Transparency Database : agrégats mensuels mars-mai 2026, téléchargement bucket CloudFront et analyse locale pyarrow
+- Fichier brut 22 juillet 2026 : 24 302 119 décisions de modération, analyse locale ; agrégats publics interrompus depuis le 12 juin 2026
 
 **Plateformes et attributions** :
 - Meta : Adversarial Threat Report Q3 2022 (1 633 comptes, 703 Pages supprimées) : https://about.fb.com/news/2022/11/metas-adversarial-threat-report-q3-2022/
-- DOJ : Doppelgänger (saisie de 32 domaines, septembre 2024) : https://www.justice.gov/usao-edpa/pr/justice-department-disrupts-covert-russian-government-sponsored-foreign-malign
-- France Diplomatie : Attribution GRU/APT28, 29 avril 2025 : https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/russie-attribution-de-cyberattaques-contre-la-france-au-service-de-renseignement-militaire-russe
-- ZDNET : MacronLeaks : l'ANSSI ne confirme pas la piste russe (2017) : https://www.zdnet.fr/actualites/macronleaks-l-anssi-ne-confirme-pas-la-piste-russe-39853234.htm
+- DOJ : Doppelgänger, saisie de 32 domaines, septembre 2024 : https://www.justice.gov/usao-edpa/pr/justice-department-disrupts-covert-russian-government-sponsored-foreign-malign
+- France Diplomatie : attribution GRU/APT28, 29 avril 2025 : https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/russie-attribution-de-cyberattaques-contre-la-france-au-service-de-renseignement-militaire-russe
+- ZDNET : MacronLeaks, l'ANSSI ne confirme pas la piste russe, 2017 : https://www.zdnet.fr/actualites/macronleaks-l-anssi-ne-confirme-pas-la-piste-russe-39853234.htm
+- Forbidden Stories : « Propaganda Machine » (Storm-1516) : https://forbiddenstories.org/propaganda-machine-secret-documents-reveal-russias-foreign-influence-strategy-across-three-continents/
+- *The New York Times* : opération STOIC, Israël, 5 juin 2024 : https://www.nytimes.com/2024/06/05/technology/israel-campaign-gaza-social-media.html
 
 **Académique** :
-- Botan, M. (2026). « Accountability in name only: Fact-checking under the EU's Code of Practice on Disinformation. » HKS Misinformation Review, Vol. 7(3)
+- Botan, M. (2026). « Accountability in Name Only: Fact-Checking Under the EU's Code of Practice on Disinformation. » *Harvard Kennedy School Misinformation Review*, Vol. 7(3) : https://misinforeview.hks.harvard.edu/article/accountability-in-name-only-fact-checking-under-the-eus-code-of-practice-on-disinformation/
 
-**Budgets** :
-- PLF 2026 : Programme 129 (SGDSN) et Programme 180 (AFP)
-- EU Justice Scoreboard 2025
-- Corporate Europe Observatory / LobbyControl (octobre 2025)
+**Budgets et financements** :
+- PLF 2026, Programme 129 (SGDSN) et Programme 180 (AFP) : https://www.budget.gouv.fr/documentation/file-download/21387
+- EU Justice Scoreboard 2025 (budgets comparés justice UE) : https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/upholding-rule-law/eu-justice-scoreboard_en
+- Corporate Europe Observatory / LobbyControl, octobre 2025 (151 M€ lobbying Big Tech) : https://corporateeurope.org/en/2025/10/big-tech-lobby-budgets-hit-record-levels
+- EMIF (European Media and Information Fund), Fondation Gulbenkian : https://gulbenkian.pt/emifund/
 
 **Presse** :
-- AFP Factuel : Déclaration Marc-Antoine Brillant, janvier 2026 (accès restreint) : https://factuel.afp.com/doc.afp.com.94KA4G3
-- Le Monde, Le Figaro, Libération, L'Opinion (Grégoire Arnould, 5 août 2026), Mediapart, BFMTV, Le Parisien, TF1 Info, 20 Minutes
-- The New York Times, Forbidden Stories, Associated Press, Reuters
+- AFP Factuel : déclaration Marc-Antoine Brillant, janvier 2026 (accès restreint) : https://factuel.afp.com/doc.afp.com.94KA4G3
+- *Le Parisien* : « Affaire Lyhanna : Jérôme Barella entendu par un juge d'instruction », 15 juillet 2026 : https://www.leparisien.fr/faits-divers/affaire-lyhanna-jerome-barella-entendu-par-un-juge-dinstruction-ce-mercredi-15-07-2026-L3A6RE6QQBCZHIGZZ3PHG4NMMA.php
+- LCP/AFP : « Lyhanna : un dysfonctionnement de la justice inacceptable, déclare Emmanuel Macron », 5 juin 2026 : https://lcp.fr/actualites/lyhanna-un-dysfonctionnement-de-la-justice-inacceptable-declare-emmanuel-macron-437344
+- *Libération* : « Marine Tondelier demande l'interdiction de X », 5 août 2026 : https://www.liberation.fr/politique/ingerences-etrangeres-marine-tondelier-demande-linterdiction-de-x-source-de-fake-news-a-lalgorithme-pipe-20260805_526AOJ6MTFCSJAWFRFUY6ERY5A/
+- BFMTV : « Gabriel Attal fustige les ingérences du régime du Kremlin », 6 août 2026 : https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-gabriel-attal-fustige-les-ingerences-du-regime-du-kremlin-visant-a-soutenir-marine-le-pen_AN-202608060195.html
+- *Le Monde* : « Several firms may have been involved in interference during French local elections » (BlackCore), 13 juin 2026 : https://www.lemonde.fr/en/pixels/article/2026/06/13/several-firms-may-have-been-involved-in-interference-during-french-local-elections_6754433_13.html
+- *Times of Israel* : « France probing if shadowy Israeli firm BlackCore meddled in municipal elections », mars 2026 : https://www.timesofisrael.com/france-probing-if-shadowy-israeli-firm-blackcore-meddled-in-municipal-elections-sources/amp/
+- *Mediapart* : « Plus de 200 Français ont été fichés pour le compte des services secrets des Émirats arabes unis » (Alp Services), 7 juillet 2023 : https://www.mediapart.fr/journal/international/070723/plus-de-200-francais-ont-ete-fiches-pour-le-compte-des-services-secrets-des-emirats-arabes-unis
+- *Le Monde* : « Rafale aux Émirats : treize ans de négociations pour un contrat record », 3 décembre 2021 : https://www.lemonde.fr/international/article/2021/12/03/rafale-aux-emirats-treize-ans-de-negociations-pour-un-contrat-record_6104569_3210.html
+- Assemblée nationale : commission d'enquête relative aux ingérences politiques, économiques et financières de puissances étrangères : https://www.assemblee-nationale.fr/dyn/16/organes/autres-commissions/commissions-enquete/ce-ingerences-etrangeres
+- Sénat : « Les représentants d'intérêts » (encadrement du lobbying) : https://www.senat.fr/connaitre-le-senat/role-et-fonctionnement/les-representants-dinterets.html
+- *Le Monde* : « Des membres de la Ciivise 1 veulent reprendre le travail après la démission du nouveau président », 14 février 2024 : https://www.lemonde.fr/societe/article/2024/02/14/des-membres-de-la-ciivise-1-veulent-reprendre-le-travail-qu-ils-ont-mis-en-place-apres-la-demission-du-nouveau-president_6216503_3224.html
