@@ -1,31 +1,26 @@
-# CLUSTER_GASLIGHTING
+# CLUSTER_GASLIGHTING v2.1
 
-@SCORING: GAS=contradictions×denial×pathologizing | Ξ≥7→loaded (HIGH rule) | ≥5→activate | ≥9→reality_inverted
-@TRIGGERS: ≥5→selective | ≥7→all_concepts+archive_validation+5H | ≥9→full_gaslight_protocol
+**Purpose:** perform the archive-heavy review additionally routed by `SYMBOLS.md §4`. Use `@PAT[GAS]`; do not diagnose gaslighting from contradiction alone.
 
-@CONCEPTS:
-| Concept | Detection | Query_Boost |
-|---------|-----------|-------------|
-| CONTRADICTION | Statement contradicts previous statement | "contradicts", "inconsistent", "changed position" |
-| DENIAL | Observable reality denied | "never happened", "didn't say", "denied" |
-| PATHOLOGIZING | Witness labeled crazy/unstable | "crazy", "unstable", "paranoid", "conspiracy" |
-| MEMORY_ATTACK | "You're remembering wrong" | "wrong memory", "misremembering", "confused" |
-| REALITY_REPLACEMENT | Alternative reality presented as truth | "alternative facts", "different reality" |
-| ISOLATION | Target cut off from validating sources | "isolated", "no support", "alone" |
-| EXHAUSTION | Target worn down by repeated denial | "exhausted", "worn down", "giving up" |
-| OMNIPOTENCE | Gaslighter claims total knowledge | "I know best", "trust me", "I have all info" |
-| DEGRADATION | Target's credibility systematically attacked | "discredited", "attacked", "undermined" |
-| ABSURD | Demands become increasingly unreasonable | "absurd", "unreasonable", "impossible" |
+## Concepts
 
-@QUERIES:
-`{topic} contradicts inconsistent changed position` | `{topic} never happened didn't say denied` | `{topic} crazy unstable paranoid conspiracy` | `{topic} wrong memory misremembering confused` | `{topic} alternative facts different reality` | `{topic} isolated no support alone` | `{topic} exhausted worn down giving up` | `{topic} I know best trust me all info` | `{topic} discredited attacked undermined` | `{topic} absurd unreasonable impossible demands`
+- `CONTRADICTION`: materially incompatible dated claims/actions.
+- `DENIAL`: prior observable claim/action denied.
+- `PATHOLOGIZING`: witness credibility attacked through mental-state labels.
+- `MEMORY_ATTACK`: archive/testimony dismissed without evidence.
+- `REALITY_REPLACEMENT`: unsupported alternative account asserted as settled.
+- `ISOLATION`: access to validating sources materially restricted.
+- `EXHAUSTION`: repeated denial imposes documented burden.
+- `OMNIPOTENCE`: exclusive knowledge/authority claimed.
+- `DEGRADATION`: systematic credibility attack.
+- `ABSURD`: escalating inconsistent/impossible demands.
 
-@DEEP_DIVE(≥7):
-H1 ARCHIVE: what was said/done before? document it | H2 CONTRADICTION: what is the contradiction? | H3 PATHOLOGIZING: who is being labeled crazy and why? | H4 ISOLATION: is target being cut off from validation? | H5 REALITY: what is the observable reality being denied?
+## Query stems
 
-@MAX(≥9):
-Reality inverted → full Biderman 8-technique analysis → archive reconstruction → gaslighting index → cross-reference CLUSTER_INVERSION for technique overlap
+`"{exact old statement}" archive` | `"{exact current statement}" transcript` | `{event} correction clarification full context` | `{witness} credibility evidence record` | `{deleted item} archived copy date`
 
-@OUTPUT: GAS score + contradictions | active concepts + evidence | archive timeline | H1-H5 | gaslighting assessment
+## Deep review/output
 
-@CONNECTIONS: parent:Ξ(HIGH rule) | pairs:[INVERSION,OVERLOAD,POWER] | patterns:[CONTRADICTION,DENIAL,PATHOLOGIZING] | Gate:KERNEL §2
+Build side-by-side claim timeline; verify speakers, dates, scope and versions; test correction/new-evidence/policy-change explanations; record any pathologizing/isolation separately. Output `archive table | material contradictions | alternative explanations | GAS assessment | status/gaps`.
+
+**Pairs:** INVERSION, OVERLOAD, POWER. Never use a high Ξ score as evidence of GAS.

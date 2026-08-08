@@ -1,141 +1,89 @@
-# SEARCH EPISTEMIC v2.0 — Source Pluralism & Narrative Cartography
+# SEARCH EPISTEMIC v2.1 — Corpus diversity diagnostic
 
----
+This file owns source-role classification and EDI. EDI measures diversity/coverage of the collected corpus, not truth, confidence or moral legitimacy.
 
-## §1 SOURCE STRATIFICATION (◈◉○)
+## §1 Claim-relative source roles
 
-| Tier | Symbol | Types | Confidence |
-|------|--------|-------|------------|
-| **PRIMARY** | ◈ | Raw documents, leaks, court files, FOIA, data | 0.90–0.95 |
-| **SECONDARY** | ◉ | Investigative journalism, academic research, expert testimony | 0.75–0.85 |
-| **TERTIARY** | ○ | Mainstream media, aggregators, opinion, official statements | 0.40–0.70 |
+| Role | Use | Checks |
+|---|---|---|
+| ◈ Direct/primary | closest inspectable object for the exact claim | authenticity, provenance, completeness, scope, date |
+| ◉ Analytical/secondary | analysis of traceable evidence | method, access to originals, expertise, conflicts, reproducibility |
+| ○ Discovery/tertiary | locate objects/context or record an assertion | upstream source, attribution, unsupported interpretation |
 
-**Priority**: ◈ > ◉ > ○. **Critical**: Official (⟐) weighted LOW (0.20) unless corroborated by ◈.
+Classify per claim. An official release is ◈ for what was officially announced, not automatically for whether the announced fact is true. A leak is ◈ only after provenance/authenticity review. Whistleblower, academic, dissident, state, corporate and independent labels do not set reliability.
 
-**Source reliability weights:** dissident_whistleblower:0.95 independent_investigative:0.90 field_testimony:0.85 alternative_media:0.80 archival_contradictions:0.80 international_opposing:0.75 official_institutions:0.20
+Corroboration requires independent upstream evidence. Syndication, copied datasets and circular citation count once.
 
-**Classification algorithm:**
-```
-STEP_1: Govt/IGO/Military → ○ (0.20-0.40) | Corporate → check funding → ◉ or ○ | Independent/Academic → ◉ (0.75-0.85)
-STEP_2: Contains leaked docs? → those elements only: ◈ (0.90-0.95). Source interpretation stays at STEP_1 tier.
-STEP_3: ≥2 independent sources corroborate? → confidence +0.10-0.20 within tier. Circular = NOT valid.
-Principles: Official≠Reliable | Evidence transcends institution | Interpretation inherits bias | Follow the money
-```
+## §2 Diversity dimensions [0..1]
 
----
+Determine applicability before scoring. A genuinely local/monolingual/instantaneous question may make a dimension N/A; renormalize remaining weights and explain.
 
-## §2 DIVERSITY ANALYSIS
-
-**Geographic:** Priority: LOCAL→NEIGHBOR→REGIONAL→DISTANT→HEGEMON(lowest). ≥2 continents, ≥1 local, avoid monoculture.
-
-**Linguistic:** ≥30% non-English, ≥2 language families, primary language of affected region. Translation path affects confidence.
-
-**Perspective (5 narratives):** ⟐ Official (consent) | ⟐̅ Counter (hidden interests) | 🌍 Regional (escape Western bias) | 🎓 Academic (depth) | 🔥 Dissident (what power hides)
-
-**Ownership:** TYPES: [state, corporate, independent, academic, activist, personal]. Target: non-corporate ≥50%. Formula: `(types/6 × 0.6) + (non_corporate_pct × 0.4)`
-
-**Temporal:** TYPES: [real_time, recent(<1w), medium(<1m), archival(>1y), historical]. Target: ≥3 temporalities. Formula: `(temporalities/5 × 0.6) + (archival_present × 0.4)`
-
----
-
-## §3 CORROBORATION (⊕⊗⊙ ≋)
-
-**Fact quality:** ✦ Hard (◈+⊕) | ✧ Soft (◉ coherent) | ⁕ Claim (○ only) | ⁂ Speculation (hypothesis)
-
-**Corroboration:** ⊕ Confirmed (≥2◈ or ≥3◉ concordant) | ⊗ Contradicted (≥2◈ contradict) | ⊙ Partial (mixed)
-
-**Divergence zones:** ≋+ (different emphasis) | ≋++ (contradictory claims) | ≋+++ (one side ◈, other ○)
-
----
-
-## §4 EDI CALCULATION
-
-**Formula (see KERNEL §1 step 16 for compact version):**
-```
-EDI = geo×0.25 + lang×0.20 + strat×0.20 + owner×0.15 + persp×0.15 + temp×0.05
+```text
+geo   = mean(local_or_affected_presence, affected_regions_coverage, relevant_external_comparison)
+lang  = mean(original_language_coverage, relevant_languages_coverage, traceable_translation)
+strat = mean(direct_evidence_coverage, analytical_challenge_coverage, low_upstream_circularity)
+owner = mean(ownership_type_coverage, low_dominant_owner_share, ownership_traceability)
+persp = materially_supported_applicable_perspectives / applicable_perspectives
+temp  = covered_relevant_temporalities / relevant_temporalities
 ```
 
-**Dimension sub-formulas (NOT in KERNEL):**
-```
-geo:   (continents/6 × 0.4) + (zones/10 × 0.3) + (local_presence × 0.3)
-lang:  (languages/10 × 0.3) + (non_english_pct × 0.4) + (families/5 × 0.3)
-strat: (primary_pct × 0.5) + (secondary_pct × 0.3) + (tertiary_pct × 0.2)
-owner: (types/6 × 0.6) + (non_corporate_pct × 0.4)
-persp: (perspectives/7 × 0.5) + (official_vs_counter × 0.3) + (dissident_present × 0.2)
-temp:  (temporalities/5 × 0.6) + (archival_presence × 0.4)
-```
+Perspective set has exactly five members: `⟐ dominant/official`, `⟐̅ critical/counter`, `🌍 local/regional`, `🎓 academic/expert`, `🔥 dissident`. Presence requires a material, relevant contribution; a token citation does not count.
 
-**Classification:** ≥0.65 EXCELLENT | ≥0.50 GOOD | ≥0.35 ACCEPTABLE | <0.35 EPISTEMIC_MONOCULTURE
+Temporalities: contemporaneous, recent, archival, historical — include only those the question needs.
 
-**BIAS penalties (see KERNEL §1 step 16 for compact):**
-| Penalty | Trigger | Weight |
-|---------|---------|--------|
-| P1: Institutional | govt>60% OR corp>60% | -0.20 |
-| P1b: Power | govt+corp>75% | -0.25 |
-| P2: No Adversary | sensitive + no dissident | -0.15 |
-| P3: Echo Chamber | only ⟐, no ⟐̅/🔥 | -0.20 |
-| P4: Tertiary Over | ○>70% | -0.15 |
-| P5: Circular | same institutional family | -0.10 |
+## §3 Canonical EDI
 
-**Composite:** `EDI* = 0.5×EDI + 0.3×Coverage + 0.2×Independence` where Coverage=met_quotas/total, Independence=f(diversity, low_syndication)
-
-**Output:** `EDI:{final} (raw:{raw} penalties:{sum}[flags]) | COV:{c} IND:{i} CC:{cc} → EDI*:{e}`
-
----
-
-## §5 CONVERGENCE — 4-Iteration Protocol
-
-```
-C(n) = 1 - (new_info_at_n / total_info_discovered)    Target: ≥0.85
+```text
+weights = geo:.25 lang:.20 strat:.20 owner:.15 persp:.15 temp:.05
+EDI_raw = Σ(weight[d]×score[d]) / Σ(weight[d]) for applicable d
+EDI = clamp(EDI_raw - unique_penalties, 0, 1)
 ```
 
-**Stopping:** ≥0.90→COMPLETE | ≥0.85+EDI≥0.60→SUFFICIENT | n≥3+C≥0.75→ACCEPTABLE | n>5→STOP
+Penalties are corpus warnings, applied once per underlying cause:
 
-| Phase | Purpose | Sources | EDI | Convergence | Time |
-|-------|---------|---------|-----|-------------|------|
-| I0 Recon | Cartography + gaps | 8–15 | ~0.40 | — | 5–10m |
-| I1 Explore | Fill gaps + ◈🎓🔥 | +5–10 | ~0.55 | C(1)~0.50 | 10–15m |
-| I2 Deep | Triangulate + orchestration | +5 | exact | C(2)~0.75 | 15–20m |
-| I3 Synthesis | Validation + output | final | ≥0.60 | C(3)≥0.85 | 5–10m |
+| Flag | Trigger | Penalty |
+|---|---|---:|
+| OWNERSHIP_CONCENTRATION | one upstream owner/family >60% | .10 |
+| POWER_BLOC_CONCENTRATION | one materially interested power bloc >75% | .15 |
+| MISSING_COUNTER | credible opposed perspective applicable but absent | .10 |
+| NO_DIRECT_EVIDENCE | decisive claims need direct objects but none obtained | .15 |
+| CIRCULAR_EVIDENCE | >50% accepted support shares one upstream object | .15 |
+| UNTRACEABLE_TRANSLATION | decisive translated evidence lacks traceable original | .05 |
 
-**Budget:** 35–55min, 18–25 sources, EDI 0.60–0.75
+Do not stack OWNERSHIP and POWER_BLOC for the same concentration; keep the larger. Do not penalize a missing perspective that is genuinely unavailable/non-applicable; report the gap.
 
-**Orchestration (⚑):**
-```
-P_orch = temporal_sync×0.30 + vocab×0.25 + cui_bono×0.20 + historical×0.15 + suppress×0.10
-```
-<0.30 organic | 0.30-0.60 possible | 0.60-0.85 probable | >0.85 quasi-certain ⚑⚑⚑
+Bands: `≥.65 BROAD | ≥.50 ADEQUATE | ≥.35 LIMITED | <.35 MONOCULTURE_RISK`.
 
-**Red flags:** ⚑TEMPORAL_SYNC (<12h, ≥10 outlets) | ⚑VOCAB_IDENTICAL | ⚑CUI_BONO | ⚑SUPPRESSION | ⚑HISTORICAL
+Base targets: SIMPLE .30, MEDIUM .50, COMPLEX .70, APEX .80. Explicit legacy branch targets may override when selected and recorded: PERSO .75, SENSITIVE .65, PROSPECTIVE .50, INTERNATIONAL .65. Targets trigger search while material gaps remain; they cannot block an honest inconclusive result or upgrade a fact.
 
-**Heuristics:** H6 Academic(🎓<2→+2-4◉) | H7 Adversary(🔥absent→+2-5src) | H8 Triangulation(≋detected→⊕⊗⊙) | H9 Cui Bono(ALWAYS→funding+COI)
+## §4 Coverage, independence and convergence
 
----
-
-## §6 ADVERSARY MEDIA MAP (H7)
-
-**Trigger keywords:** election, government, war, conflict, military, sanctions, propaganda, disinformation, corruption, fraud, pharmaceutical, whistleblower, protest, surveillance, inequality
-
-**Complexity override:** H7_triggered ∧ complexity<4.0 → force MEDIUM
-
-**Media Map v3.0 (45+ sources):**
-- **State:** RU:rt.com(C) sputnik(C) tass(B) | CN:globaltimes(C) xinhua(B) chinadaily(B) | IR:presstv(C) tasnim(C) | KP:kcna(D)
-- **Independent:** US:intercept(A) propublica(A) grayzone(C) consortium(B) | FR:mediapart(A) disclose(A) bastamag(B) | UK:declassified(B) middleeasteye(B) bellingcat(A) | DE:nachdenkseiten(B)
-- **Think tanks:** quincy(B) cato(B) cepr(B)
-- **Whistleblower:** wikileaks(A) icij(A)
-- **Global South:** BR:terra(B) uol(B) CartaCapital(B) | MX:proceso(B) animalpolitico(B) | AR:pagina12(C) lanacion(B) | IN:wire(B) scroll(B) hindu(B) | PK:dawn(B) | ZA:mail&guardian(B) dailymaverick(B) | NG:punch(B) | KE:nation(B) | QA:aljazeera(A)
-
-**Query:** `site:{source} "{subject}" {keywords}` — MANDATORY: ≥1 adversary source. Not found → EDI -0.15.
-
-**Validation targets:**
-```yaml
-MANDATORY: sources≥5, EDI≥0.50, ◈≥2, narratives≥2, geo≥2cont, lang≥30%non-EN
-OPTIMAL:   sources 10-15, EDI≥0.65, ◈≥3, narratives≥3, divergences≥1
-AUTO_FAIL: EDI<.35→MONOCULTURE | ◈=0→NO_PRIMARY | Only⟐→CONSENSUS | Same ownership→FAKE_DIVERSITY
+```text
+COV = met_applicable_search_targets / applicable_search_targets
+IND = unique_upstream_evidence_families / accepted_evidence_sources
+CC  = resolved_material_contradictions / material_contradictions; if none, N/A
+EDI* = .5×EDI + .3×COV + .2×IND
+C(n) = 1 - new_unique_material_items_n / total_unique_material_items_after_n
 ```
 
-**Output:** `[SOURCES] ◈:{X}◉:{Y}○:{Z} | EDI:{f}(raw:{r}pen:{p}[fl]) | geo:{g}lang:{l}% | ⟐:{A}⟐̅:{B}🌍:{C}🎓:{D}🔥:{E} | ≋:{d}⚑:{r} | COV:{c}IND:{i}CC:{cc}→EDI*:{e}`
+All denominators must be >0; otherwise output `N/A`. `EDI*` and `C(n)` remain process diagnostics. Convergence means diminishing new material, not correctness.
 
----
+Iteration guide: I0 map claims/sources → I1 fill decisive gaps → I2 triangulate/contradict → I3 synthesize/reopen. Stop at evidentiary saturation, after bounded gate corrections, or when access is exhausted; record why.
 
-_Version 2.0 — Source Pluralism & Narrative Cartography. Compressed._
+## §5 Adversarial/counter perspective (H7)
+
+For politically or materially contested subjects, seek the strongest source that represents opposed interests or interpretation and actually engages the claim. Search by actor, jurisdiction, original language, watchdog/opposition/defense terms and underlying documents.
+
+State-funded adversarial media, dissident outlets and institutional opponents are discovery/perspective candidates, not privileged truth sources. Recheck current ownership, access, evidence and relevance. If no credible counter-source is found, log `NONE_FOUND`; do not fabricate balance.
+
+## §6 Required output
+
+```text
+[SOURCES] ◈:{n} ◉:{n} ○:{n}
+EDI:{final} raw:{raw} penalties:{sum}[flags] N/A:{dimensions}
+geo:{g} lang:{l} strat:{s} owner:{o} persp:{p} temp:{t}
+⟐:{n} ⟐̅:{n} 🌍:{n} 🎓:{n} 🔥:{n} | COV:{c} IND:{i} CC:{cc} EDI*:{e}
+DIAGNOSTIC_NOT_TRUTH
+```
+
+_Canonical authority: source roles and EDI._

@@ -1,54 +1,55 @@
-# PERSO_FRESQUE — Biography Investigation Protocol (APEX)
+# PERSO_FRESQUE v2.1 — Longitudinal person protocol
 
-**Version:** 2.1 | **Trigger:** subject=person → FORCE APEX | **EDI target:** ≥0.75
+**Trigger:** the subject is a person. Force APEX depth, not predetermined suspicion or findings; mark longitudinal lenses NOT APPLICABLE when the question does not need them.
 
----
+## §1 Lenses
 
-## §0 MODULES (DSL)
+| Lens | Build | Key checks |
+|---|---|---|
+| Chronology | dated roles, mandates, employers, boards, declarations | gaps, overlaps, source versions |
+| Substance | authored/signed/voted/implemented actions | legal competence, actual effect, symbolic action |
+| Influence | sourced meetings, donors, lobby contacts, advisers, affiliations | timing, disclosure, alternative access path |
+| Position drift | comparable promises, statements, votes and decisions | changed facts/context, scope, honest revision |
+| Biography gap | official biography versus primary records | materiality, negative and positive omissions |
+| Responsibility | authority + documented action + consequence | intent evidence and bounded scope |
 
-```
-@PF[M0]: person→APEX | EDI≥0.75
-@PF[M1:chrono]: wiki+vie-publique+AN | "parcours|carrière|mandats"
-@PF[M2:substance◈]: AN+Sénat+lois | "rapports|amendements|proposition" filetype:pdf
-@PF[M3:influence]: HATVP+lobby+MEDEF | "déclaration patrimoine|lobbying|cabinets"
-@PF[M4:pivot]: promesse≠vote+revirement | "trahison|changement position" + mediapart/disclose
-```
+## §2 Search modules
 
-## §1 EVALUATION GRID
-
-```
-SCORE = ROI_dem(30%) + Capture(25%) + Λ_drift(20%) + Ω_cœur(25%) → /100
-@PF[ROI] = Σ(SW) / CPC | SW10=loi_struct | SW5=rapport | SW0.1=tweet/média
-@PF[Capture] = ghostwriting + lobby_dependency
-@PF[Λ_drift] = keyword_inversion + corporate_frame_adoption + thinktank_language
-@PF[Ω_cœur] = promesse≠vote + reversal_accumulation(5y) + "pragmatisme"(Λ_trick)
-```
-
-## §2 DETECTION PATTERNS
-
-```
-@PF[ROI_DEM]: mandate_years | CPC=Σ(indemnités+budget_cabinet) | SW vs CPC
-@PF[Λ_DRIFT]: conquest≠exercise | corporate_terms | thinktank_elements
-@PF[GHOST_POWER]: similarity>80%_lobby | stylometric_mismatch | rapid_response
-@PF[Ω_LONG]: vote_opposite_promise | reversals(5y+) | justification="pragmatisme"
-@PF[CUI_BONO]: pantouflage_anticipation | favoritism_pre_sector | HATVP_delta
+```text
+@PF[CHRONO]    official biography + mandates + employer/board registers + archives
+@PF[ACTIONS]   votes + laws + amendments + reports + signed decisions + implementation
+@PF[INTERESTS] asset/interest declarations + lobbying + donations + contracts + ownership
+@PF[PIVOTS]    exact promise/statement before and after + corresponding action
+@PF[NETWORK]   typed relationships with dates and provenance
 ```
 
-## §3 PHASES
+Use jurisdiction-appropriate official registers and independent investigations; named examples are query hints, never mandatory authority.
 
+## §3 Analysis discipline
+
+- Compare equivalent statements/actions in context. A changed position is not deception by default.
+- Detect text reuse/ghostwriting only with source documents and a reproducible comparison; stylistic intuition is insufficient.
+- Quantify public cost/output only with comparable units. Do not divide arbitrary symbolic weights by euros to create a “democratic ROI”.
+- Revolving-door timing is a conflict question, not proof of capture.
+- Shared affiliation is an edge; tasking/control requires separate evidence.
+- Include exculpatory facts and failed allegations with the same traceability.
+
+Optional lens summary (no forced aggregate):
+
+```text
+DEMOCRATIC_OUTPUT:{evidenced actions/effects/cost limits}
+CAPTURE_RISK:{documented dependencies/COI + counterevidence}
+FRAME_DRIFT:{comparable language changes + context}
+REVERSALS:{promise→action pairs + explanation/status}
 ```
-P1[Archaeology]: mandats◈ (AN+Sénat+wiki+vie-publique) → CPC=Σ(indemnités+budgets)
-P2[Substance]: SW10/SW5/SW0.1 → Democratic_ROI=Σ(SW)/CPC
-P3[Pivot Ω]: promesse◈ vs 1er_bloc_vote → date+logique_renversement
+
+## §4 Output
+
+```text
+FRESQUE_TIMELINE | ACTION_REGISTRY | INTERESTS/NETWORK | PIVOTS
+BIOGRAPHY_GAPS | EXCULPATORY_RECORD | RESPONSIBILITY_MAP | UNKNOWN
 ```
 
-## §4 ITERATION + VALIDATION
+Apply ordinary FACT_REGISTRY statuses, EDI and REQUEST_LOG. No minimum source mix, score, reversal or named wolf can replace evidence.
 
-```
-@ITER: ≋(◉≠◈)→+3q | C(n)≥0.90→stop | hostility_symmetric(🔥+⟐) per action
-@VALID: ◈≥5◉≥5○≥5 | EDI≥0.75 | timeline_gap≤12mo | Λ_src≥3 | wolf≥1
-```
-
----
-
-_Version 2.1 — 135→72L. Compressed DSL. See KERNEL.md §1 step 4._
+_Canonical authority: person-specific longitudinal branch._

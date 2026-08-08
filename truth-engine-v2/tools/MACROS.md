@@ -1,117 +1,65 @@
-# MACROS v2.0 — Truth Engine Compact Notation System
+# MACROS v2.1 — Compact control notation
 
-## Status Macros
+Macros abbreviate canonical behavior; they never override KERNEL or domain authorities.
 
-```
-✅OK[msg]    = → STATUS: **msg** ✅
-⚠️WARN[msg]  = → STATUS: **msg** ⚠️
-❌FAIL[msg]  = → STATUS: **msg** ❌
-🔄ITER[msg]  = → STATUS: **msg** 🔄
-```
+## Status
 
-## Multi-Action Macros
-
-```
-FAIL_MCP[cx] =
-  → STATUS: **INVESTIGATION FAILED** ❌
-  → ERROR: "Web searches MANDATORY for {cx} but MCP not connected"
-  → ACTION: "Check MCP_STATUS.md, reconnect, or downgrade to SIMPLE"
-  → STOP
-
-DEGRADE_MODE[warn_list] =
-  → STATUS: **DEGRADED MODE** ⚠️
-  → WARNING: {warn_list}
-  → ASK USER: "Proceed? (y/n)"
-  → IF no: STOP | IF yes: PROCEED
-
-PARTIAL_I[n,gap] =
-  → STATUS: **I{n} PARTIAL** ⚠️
-  → WARNING: "I{n} executed {queries}/{min} (gap: -{gap})"
-  → PENALTY: ISN -2.0, EDI cap 0.30
-  → ACTION: Generate I{n+1} AUTO
-  → OUTPUT: "[CRITICAL] INCOMPLETE - {gap} queries missing"
-
-ACCEPT_I[n,gaps] =
-  → STATUS: **I{n} ACCEPTABLE** ✅
-  → FLAG: "Minor gaps {gaps} within tolerance"
-  → ACTION: None
+```text
+✅OK[msg]   = STATUS:msg OK
+⚠️WARN[msg] = STATUS:msg WARNING + explicit impact
+❌FAIL[msg] = STATUS:msg BLOCKED + gate/reason
+🔄ITER[msg] = STATUS:msg TARGETED_CORRECTION
 ```
 
-## Complexity Macros
+## Runtime/degraded mode
 
-```
-CX_CHECK[val] = complexity ∈ {val}
-CX_ROUTE[S,M,C,A] = IF CX[SIMPLE]:S ELIF CX[MEDIUM]:M ELIF CX[COMPLEX]:C ELIF CX[APEX]:A
-CX_TARGET[metric] = {SIMPLE:metric[S], MEDIUM:metric[M], COMPLEX:metric[C], APEX:metric[A]}
-```
-
-## Conditional Macros
-
-```
-IF_GAP[condition,action] = IF {condition}_gap > 0: → {action}
-CHECK_THRESHOLD[metric,val,action] = IF {metric} ≥ {val}: → {action} ELSE: CONTINUE
-VALIDATE_TARGET[metric,penalty] = IF {metric} < target: → PENALTY:{penalty} ELSE: → BONUS:+0.1
+```text
+FAIL_MCP[reason] = log FAILED:{reason}; continue degraded if evidence can still be inspected; otherwise INCONCLUSIVE
+DEGRADE_MODE[gaps] = proceed with visible gaps unless a GATES critical condition depends on them
+PARTIAL_I[n,gap] = record iteration, unresolved material gap and next bounded query; no automatic score penalty
+ACCEPT_I[n,gaps] = accept only after saturation/limit; expose gaps
 ```
 
-## Query Macros
+## Routing
 
-```
-QRY_MIN[cx]       = ≥{SIMPLE:5, MEDIUM:8, COMPLEX:12, APEX:15}[cx]
-QRY_ALLOC[p,h,c,d,o] = PRIMARY_◈={p} ADVERSARY_H7={h} CONTEXT_⟐={c} DIVERSITY={d} OPPORTUNISTIC={o}
-QRY_ENFORCE[tot,min,iter] =
-  IF tot < min AND iter < I2: PARTIAL_I[iter, min-tot]
-  ELIF tot < min AND iter ≥ I2: ❌FAIL["Max iterations, queries {tot}/{min}"]
-```
-
-## EDI Macros
-
-```
-EDI_TARGET[cx] = {SIMPLE:0.30, MEDIUM:0.50, COMPLEX:0.70, APEX:0.80}[cx]
-EDI_CALC[] = (geo×0.25 + lang×0.20 + strat×0.20 + owner×0.15 + persp×0.15 + temp×0.05)
-EDI_CHECK[val,target] = IF val < target: → FLAG:"EDI gap {target-val}" → TRIGGER:Adaptive search
+```text
+CX_CHECK[val] = $CX == val
+CX_ROUTE[S,M,C,A] = choose branch from stored $CX
+CX_TARGET[metric] = read canonical target from KERNEL/EPISTEMIC/OUTPUT owner
+CHECK_THRESHOLD[metric,val,action] = compare observed metric; action routes work, never verdict
+IF_GAP[condition,action] = if material condition unresolved, run bounded action per GATES §4
+VALIDATE_TARGET[metric,action] = target miss → action while material; else disclose saturation
 ```
 
-## Output Macros
+## Search and iteration
 
-```
-OUT_P1[content] = Output Part 1: {content}
-OUT_P2[diag,mod,src] = [DIAGNOSTICS]{diag} [MODULES]{mod} [SOURCES]{src}
-OUT_P3_WOLF[actors] = Part 3 WOLF: {actors}
-OUT_P3_SKIP[reason] = Part 3: (WOLF {reason})
-SAVE_LOG[file] = Generate: logs/YYYY-MM-DD_HH-MM-SS_{file}.md → Write ALL 3 parts → Confirm
-```
-
-## Iteration Macros
-
-```
-I_AUTO[gaps] = → STATUS: ITERATION RECOMMENDED 🔄 → REASON: Gaps {gaps} → ACTION: Execute "I1 AUTO"
-I_COMPLETE[] = → STATUS: INVESTIGATION COMPLETE ✅ → REASON: All targets met
-I_CONVERGE[score] = IF score ≥ 0.85: I_COMPLETE[] ELIF score ≥ 0.75: ⚠️WARN["Acceptable"] ELSE: I_AUTO[critical_gaps]
+```text
+QRY_MIN[cx] = KERNEL step 6 target (compatibility name; target, not quota)
+QRY_ALLOC[p,h,c,d,o] = planning guide only; decisive gaps may reallocate
+QRY_ENFORCE[tot,target,iter] = if material gap remains, bounded targeted iteration; else record shortfall
+I_AUTO[gaps] = one GATES-bounded correction on material gaps
+I_COMPLETE[] = critical gates pass + material searches saturated/limited
+I_CONVERGE[score] = apply EPISTEMIC C(n); convergence never means truth
 ```
 
-## Source Quotas
+## EDI
 
-```
-QUOTAS:
-  ◈ primary ≥3 (I2 ≥4 ; ≥1 non-EN if pertinent)
-  continents ≥2 (geo ≥3)
-  non-EN ≥40% (geo often ≥50%)
-  non-corporate ≥50%
-  adversary ≥1 (sensitive ≥2)
-  temporalities ≥3 (real-time, recent, archival)
-IF quota unmet → re-query targeted baskets
+```text
+EDI_TARGET[cx] = search/EPISTEMIC.md §3
+EDI_CALC[] = search/EPISTEMIC.md §3 applicable-weight calculation
+EDI_CHECK[val,target] = diagnose gap; targeted diversity search if material; never upgrade facts
+CoverageScore | IndependenceScore | ContradictionCoverage | EDI* = EPISTEMIC §4
 ```
 
-## Coverage & Independence Scores
+## Output/save
 
+```text
+OUT_P1[content] = output content, not file-splitting authority
+OUT_P2[content] = output continuation, not file-splitting authority
+OUT_P3_WOLF[actors] = responsibility map with sourced action/intent type
+OUT_P3_SKIP[reason] = NO INDIVIDUAL RESPONSIBILITY ESTABLISHED:{reason}
+SAVE_LOG[file] = compatibility alias → append REQUEST_LOG to investigation; save via KERNEL step 19
+SERIAL_PENDING[action] = REQUEST_LOG result PENDING_AT_SERIALIZATION
 ```
-CoverageScore = met_quotas / total_quotas
-IndependenceScore = f(diversity_families, low_syndication)
-ContradictionCoverage = adversary_present × divergence_processed
-EDI* = 0.5×EDI + 0.3×Coverage + 0.2×Independence
-Output: "COV:{c} IND:{i} CC:{cc} → EDI*:{e}"
-```
 
----
-
-*MACROS v2.0 — Compact notation. Canonical source (DSL §7 references this file).*
+_Canonical authority: compact control aliases only._

@@ -1,31 +1,30 @@
-# CLUSTER_CONFIRMATION
+# CLUSTER_CONFIRMATION v2.1
 
-@SCORING: κ=nudge_frequency×choice_architecture×invisibility | κ≥5→activate | ≥7→deep_dive | ≥9→systemic_manipulation
-@TRIGGERS: ≥5→selective | ≥7→all_concepts+choice_audit+5H | ≥9→full_nudge_mapping
+**Purpose:** inspect subtle influence and choice architecture (`κ`). Routing is canonical in `SYMBOLS.md §4`. Steering is not deception unless design, material effect and disclosure support that claim.
 
-@CONCEPTS:
-| Concept | Detection | Query_Boost |
-|---------|-----------|-------------|
-| NUDGE_THEORY | Choice architecture designed to steer | "nudge", "choice architecture", "default" |
-| SOCIAL_COOLING | Self-censorship due to perceived norms | "self-censor", "spiral of silence", "chilling effect" |
-| DEFAULT_MANIPULATION | Opt-out instead of opt-in, inertia exploited | "opt-out", "default setting", "automatic enrollment" |
-| SOCIAL_PROOF_FABRICATED | "Everyone agrees" manufactured | "consensus", "everyone knows", "majority" |
-| CHOICE_ILLUSION | Multiple options, all lead to same outcome | "illusion of choice", "false alternatives" |
-| SUBTLE_FRAMING | Micro-framing in UI, forms, interfaces | "dark pattern", "UI manipulation", "design choice" |
-| NORM_CONSTRUCTION | Social norm manufactured, not organic | "social norm", "what people think", "acceptable" |
-| BEHAVIORAL_PREDICTION | Behavior modeled and pre-empted | "predictive", "behavioral model", "anticipate" |
-| CONSENT_MANUFACTURING | "Agreement" obtained through design | "consent", "agreed to", "accepted terms" |
-| INVISIBLE_HAND | Influence without awareness | "unaware", "subliminal", "below awareness" |
+## Concepts
 
-@QUERIES:
-`{topic} nudge choice architecture default` | `{topic} self-censor spiral of silence chilling effect` | `{topic} opt-out default setting automatic enrollment` | `{topic} consensus everyone knows majority fabricated` | `{topic} illusion of choice false alternatives` | `{topic} dark pattern UI manipulation design choice` | `{topic} social norm manufactured not organic` | `{topic} predictive behavioral model anticipate` | `{topic} consent agreed to accepted terms manufactured` | `{topic} unaware subliminal below awareness`
+- `NUDGE_THEORY`: deliberate choice architecture.
+- `SOCIAL_COOLING`: anticipated judgment produces self-restraint.
+- `DEFAULT_MANIPULATION`: inertia exploited through defaults.
+- `SOCIAL_PROOF_FABRICATED`: consensus signal lacks genuine basis.
+- `CHOICE_ILLUSION`: nominal options converge on the same material outcome.
+- `SUBTLE_FRAMING`: microcopy/layout changes perception.
+- `NORM_CONSTRUCTION`: promoted norm presented as spontaneous.
+- `BEHAVIORAL_PREDICTION`: modeled behavior used to pre-empt choice.
+- `CONSENT_MANUFACTURING`: acceptance shaped by material design asymmetry.
+- `INVISIBLE_HAND`: relevant steering not reasonably visible.
 
-@DEEP_DIVE(≥7):
-H1 NUDGE: what defaults are set and who benefits? | H2 SOCIAL_COOLING: what voices are silenced? | H3 CHOICE: are alternatives real or illusory? | H4 NORM: is the social norm organic or manufactured? | H5 CONSENT: is agreement informed or designed?
+## Diagnostic
 
-@MAX(≥9):
-Systemic manipulation → full choice architecture audit → nudge mapping → consent validity assessment → cross-reference CLUSTER_SPECTACLE for emotional manipulation
+`κ = mean(default_asymmetry, friction_asymmetry, invisibility, materiality)` on documented [0..10] inputs; otherwise `NOT COMPUTABLE`. Test user intent, reversibility, legal/UX necessity and neutral design.
 
-@OUTPUT: κ score + nudge count | active concepts + evidence | choice architecture map | H1-H5 | systemic manipulation assessment
+## Query stems
 
-@CONNECTIONS: parent:κ | pairs:[SPECTACLE,FRAMING,INVERSION] | patterns:[NUDGE_THEORY,SOCIAL_COOLING,DEFAULT_MANIPULATION] | Gate:KERNEL §2
+`{product/policy} default opt-out` | `{interface} dark pattern friction cancellation` | `{claim} consensus methodology survey` | `{system} behavioral model targeting` | `{consent} disclosure usability audit`
+
+## Deep review/output
+
+Map choice → default → friction → disclosure → measured behavior → beneficiary. Output `κ inputs | architecture map | effect evidence | consent limits | alternative design | unknowns`.
+
+**Pairs:** SPECTACLE, FRAMING, INVERSION.

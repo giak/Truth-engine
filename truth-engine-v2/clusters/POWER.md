@@ -1,31 +1,26 @@
-# CLUSTER_POWER
+# CLUSTER_POWER v2.1
 
-@SCORING: ↕=asymmetry×closure×dependency | ↕≥5→activate | ≥7→deep_dive | ≥9→class_analysis
-@TRIGGERS: ≥5→selective | ≥7→all_concepts+vertical_mapping+5H | ≥9→full_class_archaeology
+**Purpose:** map asymmetry, closure, dependency and accountability (`↕`). Structural effect may exist without a centrally intended plan.
 
-@CONCEPTS:
-| Concept | Detection | Query_Boost |
-|---------|-----------|-------------|
-| TOP_BOTTOM_ASYMMETRY | Rules differ for elites vs ordinary people | "double standard", "one rule for them" |
-| CLASS_DIVISION | Wealth/income/power gap widening | "inequality", "wealth gap", "class divide" |
-| VERTICAL_SOLIDARITY | Elites protect each other across borders | "elite solidarity", "class protection" |
-| ELITE_CLOSURE | Power positions inaccessible to outsiders | "closed circle", "inner sanctum", "old guard" |
-| DEPENDENCY_CREATION | Bottom dependent on top for survival | "dependent", "no alternative", "trapped" |
-| POWER_DISTANCE | Social mobility blocked, hierarchy fixed | "no mobility", "fixed hierarchy", "caste" |
-| ACCOUNTABILITY_GAP | Elites face no consequences | "no consequences", "above the law", "untouchable" |
-| RESOURCE_HOARDING | Wealth concentrated at top, scarcity at bottom | "hoarding", "concentration", "scarcity" |
-| NARRATIVE_CONTROL_TOP | Top defines what bottom thinks | "top-down narrative", "manufactured consent" |
-| VERTICAL_VIOLENCE | Structural violence from top to bottom | "structural violence", "systemic harm" |
+## Concepts
 
-@QUERIES:
-`{topic} double standard one rule for them` | `{topic} inequality wealth gap class divide` | `{topic} elite solidarity class protection` | `{topic} closed circle inner sanctum old guard` | `{topic} dependent no alternative trapped` | `{topic} no mobility fixed hierarchy caste` | `{topic} no consequences above the law untouchable` | `{topic} hoarding concentration scarcity` | `{topic} top-down narrative manufactured consent` | `{topic} structural violence systemic harm`
+- `TOP_BOTTOM_ASYMMETRY`: equivalent conduct receives unequal rules/outcomes.
+- `CLASS_DIVISION`: wealth/income/authority distribution changes materially.
+- `VERTICAL_SOLIDARITY`: powerful actors protect peers through documented action.
+- `ELITE_CLOSURE`: access to authority is structurally restricted.
+- `DEPENDENCY_CREATION`: survival/access becomes controlled by a narrow actor.
+- `POWER_DISTANCE`: mobility/voice is institutionally constrained.
+- `ACCOUNTABILITY_GAP`: sanctions differ after comparable conduct.
+- `RESOURCE_HOARDING`: concentrated control creates downstream scarcity.
+- `NARRATIVE_CONTROL_TOP`: authority controls relevant publication/distribution.
+- `VERTICAL_VIOLENCE`: policy/structure produces evidenced unequal harm.
 
-@DEEP_DIVE(≥7):
-H1 ASYMMETRY: what rules apply to elites vs ordinary? | H2 CLASS: what is the real wealth/power distribution? | H3 CLOSURE: how is access to power blocked? | H4 DEPENDENCY: what creates bottom→top dependency? | H5 ACCOUNTABILITY: who faces consequences and who doesn't?
+## Query stems
 
-@MAX(≥9):
-Class analysis → full power archaeology → resource flow mapping → accountability gap documentation → cross-reference CLUSTER_NETWORK for elite mapping
+`{rule} enforcement outcomes by group` | `{sector} wealth ownership concentration data` | `{appointment} eligibility selection` | `{actor} sanction accountability comparison` | `{policy} distributional impact dependency`
 
-@OUTPUT: ↕ score + asymmetry metrics | active concepts + evidence | class distribution | H1-H5 | power structure assessment
+## Deep review/output
 
-@CONNECTIONS: parent:↕ | pairs:[NETWORK,MONEY,BIO] | patterns:[TOP_BOTTOM_ASYMMETRY,ELITE_CLOSURE,ACCOUNTABILITY_GAP] | Gate:KERNEL §2
+Define comparison groups and baseline; measure authority/resources/sanctions; test legal/functional distinctions; trace policy to effect; separate inequality from intent. Output `↕ inputs | comparison table | access/accountability | distribution | causal status | alternatives/gaps`.
+
+**Pairs:** NETWORK, MONEY, BIO.

@@ -1,109 +1,78 @@
-# TRUTH ENGINE — GATES v2.0
-# Auto-validation pipeline. Loaded at KERNEL §0 step 4, executed at step 18b.
+# TRUTH ENGINE — GATES v2.1
 
----
+Loaded at phase 0; executed at steps 18/18b. Gates protect evidence integrity. Targets guide effort but never force findings.
 
-## §1 BEHAVIORAL RULES (loaded at step 0, apply to entire pipeline)
+## §1 Runtime rules
 
-R1: 429 FALLBACK → DuckDuckGo immediately
-  IF @EXA returns 429 → IMMEDIATELY retry same query with @WEB
-  IF @WEB also fails → log as "FAILED" in REQUEST_LOG
-  IF >3 searches failed after retry → BLOCKING (STOP, report to user)
+1. **Fallback:** failed/noisy query → simplify/reformulate once with `@WEB`; use `@FETCH` for a known result URL. Exa 429 disables Exa for the run. Log failures; do not fabricate replacement results.
+2. **Symmetry:** every significant claim receives strongest evidence-consistent support, credible counter and explicit missing check. Equal scrutiny does not mean equal proof.
+3. **Traceability:** every supported fact points to the specific source used. Search pages/snippets are discovery traces, not confirmation.
+4. **No quota truth:** query, source, fact, chain and EDI targets may trigger more work while a material gap remains; saturation or unavailable evidence yields an explicit limitation.
+5. **Stop inference:** unsupported step → `⁅ UNKNOWN/GAP`; never bridge it for narrative completeness.
 
-R2: PROFONDEUR MINIMALE
-  For each axis, search ≥3 angles: data, money, network
-  After step 9, check: "What angles were NOT covered?"
-  If gaps → add targeted queries before step 10
+## §2 Critical gates
 
-R3: SYMÉTRIE RENFORCÉE (clarifies KERNEL §1 step 5 CLAIM_CHECK)
-  For EVERY significant claim → generate equal-strength counter-argument
-  If one side gets more scrutiny → REBALANCE before step 10
+| Gate | Pass condition | On failure |
+|---|---|---|
+| G0 Analysis | MANIPULATION_REPORT exists; 15 symbols assessed; none `✗` | return step 0 |
+| G1 Scope | central question, period, geography and exclusions explicit | return step 7 |
+| G2 Claims | all material claims registered with support/counter/gap | return step 5 |
+| G3 Facts | factual work has FACT_REGISTRY; each row has canonical status | return step 10 |
+| G4 Confirmation | every `✦` has specific claim-relevant evidence and URL | downgrade or return step 9/10 |
+| G5 Causality | every CAUSE/ENABLER is sourced; chronology is not relabeled cause | downgrade link or return step 11 |
+| G6 Responsibility | every named individual has sourced action and bounded responsibility; intent typed | remove/downgrade or return step 17 |
+| G7 Contradiction | material conflict is represented, not hidden | return step 13 |
+| G8 Output | required sections and REQUEST_LOG exist; unknowns are explicit | return step 14 |
+| G9 Serialization | complete string + resolved safe path before any write; no invented success | stop before step 19 |
 
-R4: INTERDICTION "KNOWN BUT NOT SOURCED"
-  Never claim a fact without a source URL
-  If unsourced → mark as ⁂ (SPECULATED) or don't claim
+MnemoLite unavailability is degraded mode, not a blocker, unless the investigation explicitly depends on inaccessible prior state.
 
-R5: CRÉDO COUNT ENFORCEMENT (enforces KERNEL step 6)
-  Count queries before proceeding to step 7
-  IF <12 → RETURN step 6
+## §3 Advisory gap severity
 
----
+```text
+edi_gap   = max(0, EDI_target-EDI_actual) / max(EDI_target,0.01)
+query_gap = max(0, query_target-query_actual) / max(query_target,1)
+coverage_gap = unmet_applicable_targets / applicable_targets
+cx = SIMPLE:.50 | MEDIUM:.70 | COMPLEX:.85 | APEX:1.00
+GAP_SEVERITY = clamp(mean(edi_gap,query_gap,coverage_gap) × cx, 0, 1)
 
-## §2 GATE REFERENCE (maps to KERNEL §2 — no redefinition)
-
-| Checklist item | KERNEL §2 gate | Severity |
-|---------------|----------------|----------|
-| TEXT_ANALYSIS executed | ¬TEXT_ANALYSIS → P0 | CRITICAL |
-| Clusters ≥5 loaded | ¬CLUSTER(≥5) → P7 | CRITICAL |
-| ✦ facts ≥ min | ✦=0 → P9 | CRITICAL |
-| Causality chains ≥ min | APEX: chains=0 → P9 | CRITICAL |
-| "Qui meurt" present | "Qui meurt"∅ → P12 | CRITICAL |
-| APEX sections ≥ 15 | sections<15 → P14 | CRITICAL |
-| EDI gap > 0.5 ∧ queries < 35 | BLOCK if edi_gap>.5 ∧ queries<35 | BLOCKING |
-
-New checks (NOT in KERNEL §2):
-| Checklist item | Severity |
-|---------------|----------|
-| Every ✦ fact has a URL | CRITICAL (enforces step 113-114) |
-| Dialectical has 3 perspectives | CRITICAL (enforces KERNEL §3 MANDATORY) |
-| Hermeneutic L1-L6 complete | CRITICAL (enforces KERNEL §3 MANDATORY APEX) |
-| Wolves ≥ min named | SEVERE (enforces step 17) |
-| REQUEST_LOG complete | SEVERE (enforces step 136-142) |
-| No failed searches without retry | BLOCKING (R1 enforcement) |
-
----
-
-## §3 CORRECTION PROCEDURES (execute when checklist item fails at 18b)
-
-| Failed check | Correction | Max loops |
-|-------------|-----------|-----------|
-| ✦ < min | RETURN step 9, +15◈ targeted | 2 (KERNEL feedback) |
-| chains < min | RETURN step 9, +5 causal | 2 (KERNEL feedback) |
-| domains < 2 | RETURN step 9, +5 cross-domain | 2 (KERNEL feedback) |
-| geo < 2 continents or no local | RETURN step 9, +5 queries site:{local_ccTLD} in local language | 1 |
-| lang < 30% non-English | RETURN step 9, +5 queries in affected region language | 1 |
-| H7 triggered ∧ no adversary | RETURN step 9, +3 queries site:{H7_map} per EPISTEMIC §6 | 1 |
-| 429 not retried | Retry failed queries with @WEB | 1 |
-| Symétrie manquante | +5 queries under-scrutinized side | 1 |
-| Profondeur insuffisante | +3 angles manquants | 1 |
-| URLs manquantes | RETURN step 10, add URLs | 1 |
-| >3 searches failed | BLOCKING → STOP, report | — |
-
----
-
-## §4 PRE-DELIVERY CHECKLIST (executed at step 18b)
-
-IF any □ unchecked → execute corresponding correction (§3). DO NOT proceed to step 19.
-
-```
-□ All 15 symbols assessed (0=absent documented, ✗=unassessed → BLOCK) — scored ≥1 per complexity: MEDIUM≥10 COMPLEX≥12 APEX≥15 (SIMPLE: no minimum)
-□ Clusters loaded per thresholds (KERNEL §0 step 6)
-□ CRÉDO has ≥12 queries (KERNEL §1 step 6, enforced by R5)
-□ FACT_REGISTRY has ≥min ✦ facts (KERNEL §1 step 10)
-□ EVERY ✦ fact has a URL (KERNEL §1 step 10)
-□ Causality chains ≥3 links, ≥min count (KERNEL §1 step 11)
-□ Impact has ALL 4 matrices (KERNEL §3 MANDATORY APEX)
-□ Dialectical has 3 perspectives (KERNEL §1 step 8t)
-□ Hermeneutic L1-L6 complete (KERNEL §3 MANDATORY APEX)
-□ Wolves ≥min named (KERNEL §1 step 17)
-□ EDI calculated + BIAS applied (⚠ self-assessed: ±0.10 CI, not externally validated — KERNEL §1 step 16)
-□ REQUEST_LOG complete with ALL tool calls (KERNEL §1 lines 140-146)
-□ No failed searches without retry (R1 enforcement)
-□ CLAIM_REGISTRY has ≥1 symmetric counter per significant claim (KERNEL §1 step 5)
-□ Source diversity: geo ≥2 continents + ≥1 local (EPISTEMIC §2)
-□ Source diversity: lang ≥30% non-English + ≥2 language families (EPISTEMIC §2)
-□ H7 adversary source ≥1 (EPISTEMIC §6 — if triggered: ¬🔥 → EDI -0.15)
+<.20 proceed + disclose | .20–.49 one targeted correction loop
+≥.50 draft/inconclusive unless bounded correction can resolve a material gap
 ```
 
----
+This score measures process coverage, not truth. It cannot override a critical gate or upgrade evidence.
 
-## §5 INTEGRATION NOTES
+## §4 Bounded corrections
 
-- Behavioral rules (§1) loaded at KERNEL §0 step 4
-- Checklist (§4) executed at KERNEL §1 step 18b
-- §2 references KERNEL §2 gates — no duplication
-- §3 uses existing KERNEL feedback loops (lines 149-154) where applicable
+| Gap | Correction | Limit |
+|---|---|---:|
+| decisive claim weak | targeted primary/counter-evidence queries | 2 loops |
+| source circularity | locate independent provenance or original object | 1 loop |
+| missing/indirect URL | fetch exact document/page; otherwise downgrade | 2 attempts |
+| unexplained causal link | search direct enabler; otherwise type PRECEDENT/CONTEXT/UNKNOWN | 2 attempts |
+| one-sided corpus | strongest credible underrepresented perspective | 1 loop |
+| failed query | simplify, localize or use known URL | 1 reformulation |
+| output/log omission | repair from actual runtime record only | 1 loop |
 
----
+After the limit, preserve the gap. Do not keep searching to satisfy a number.
 
-_GATES v2.0 — Enforcement mechanism for Truth Engine pipeline._
+## §5 Pre-delivery checklist
+
+```text
+□ G0–G9 pass or non-applicable reason is explicit
+□ 15 narrative symbols assessed from observations
+□ Loaded clusters exactly match SYMBOLS.md §4
+□ Claims have support, credible counter or NONE_FOUND, and GAP
+□ FACT_REGISTRY uses canonical statuses; every ✦ has specific evidence/URL
+□ Memory-derived leads were revalidated before decisive use
+□ Causal links are typed; no forced depth/convergence
+□ Impact entries are evidenced or NONE ESTABLISHED/NOT APPLICABLE
+□ Responsibility map contains no unsupported person/intent
+□ EDI reports applicable dimensions, penalties and limitations
+□ REQUEST_LOG contains actual material calls; serialization-pending rows are honest
+□ Investigation/article preserve epistemic status and contradictions
+```
+
+Proceed to step 19 only when critical gates pass. Advisory gaps remain visible in `PÉRIMÈTRE & LIMITES`.
+
+_Canonical authority: integrity gates and bounded correction._

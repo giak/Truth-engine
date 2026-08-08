@@ -1,200 +1,111 @@
-# PATTERNS — All @PAT[] Definitions with Scoring Formulas
+# PATTERNS v2.1 — Diagnostic signatures and formulas
 
-**Version:** 2.0
+Patterns generate questions and comparable measurements. They are not verdicts. Show inputs, units, missing values and sensitivity; never invent a denominator or convert a heuristic into probability.
 
----
+## §1 Shared scoring discipline
 
-## §1 CORE PATTERNS
-
-### @PAT[ICEBERG] Ξ
-**Scan:** stats without context, missing methodology, single metric
-**Signature:** `Ξ>3 ∧ N>>R ∧ source_gaps`
-**Formula:** ICEBERG Factor = N/R (reality_total / shown_partial)
-
-| Priority | Formula | Trigger | Reliability |
-|----------|---------|---------|-------------|
-| P1 (Numerical) | Factor = Claim_Value / Reality_Value | Both values available | HIGHEST |
-| P2 (Population) | Factor = Total_Population / Visible_Population | Population counts extractable | HIGH |
-| P3 (Shadow) | Factor = 1 + (Shadow_Zones_Count × 0.5) | Shadow zones identified | MODERATE |
-| P4 (Narrative) | Factor = Hidden_Narratives / Shown_Narratives | Fallback | LOW |
-
-**Confidence:** source_diversity × validation × temporal_consistency
-**Classification:** 2.0-3.9 → Ξ+ | 4.0-9.9 → Ξ++ | ≥10.0 → Ξ+++
-**Cluster:** clusters/ICEBERG.md
-
----
-
-### @PAT[MONEY] €
-**Scan:** hidden_beneficiaries, opacity, shell_companies
-**Signature:** `€>3 ∧ opacity_high ∧ flows_hidden`
-**Formula:** Money_Factor = (Hidden_Amount / Declared_Amount) × Opacity + COI
-
-| Priority | Formula | Trigger | Reliability |
-|----------|---------|---------|-------------|
-| P1 (Numerical) | (Hidden/Declared) × Opacity + COI | Both amounts quantified | HIGHEST |
-| P2 (Channels) | (Hidden_Channels/Declared_Channels) × Opacity + COI | Channels identifiable | HIGH |
-| P3 (COI) | COI_Score × Opacity_Multiplier | COI documented | MODERATE |
-| P4 (Opacity) | Opacity_Score × 3.0 | Fallback | LOW |
-
-**Opacity:** O = Jurisdictions × Disclosure_gaps × Complexity_layers
-**COI:** C = Σ(revolving_doors×0.5 + board_overlaps×0.3 + grants×0.4 + speaker_fees×0.2 + advisory×0.3)
-**Classification:** 1.0-2.9 → €+ | 3.0-6.9 → €++ | ≥7.0 → €+++
-**Cluster:** clusters/MONEY.md
-
----
-
-### @PAT[BIO] ♦
-**Scan:** elite_reproduction, revolving_door, power_proximity
-**Signature:** `♦>3 ∧ revolving_door ∧ networks_hidden`
-**Formula:** Bio_Factor = (Hidden_Networks / Public_Positions) × Density + Inbreeding + Demo_Risk
-
-| Priority | Formula | Trigger | Reliability |
-|----------|---------|---------|-------------|
-| P0 (Quick) | Revolving_Doors / Total_Actors | Door visible | MEDIUM |
-| P1 (Quantified) | (Hidden/Public) × Density + Inbreeding + Demo_Risk | Network counts available | HIGHEST |
-| P2 (Networks) | Networks_Count × Avg_Density + Inbreeding + Demo_Risk | Networks identified | HIGH |
-| P3 (Qualitative) | (8D_Score + 5D_Score) / 2 | Fallback | MODERATE |
-
-**Density:** D = Overlapping_Connections / Total_Possible
-**Inbreeding:** I = (Same_School + Same_Club + Same_Sector) / Total_Networks
-**Demo_Risk:** R = (Exec + Legis + Judic + Media + Corp) × Density / Accountability
-**Classification:** 1.0-2.9 → ♦+ | 3.0-6.9 → ♦++ | ≥7.0 → ♦+++
-**Cluster:** clusters/BIO.md
-
----
-
-### @PAT[NET] 🌐
-**Scan:** network_closure, influence_concentration, gatekeepers
-**Signature:** `🌐>3 ∧ density_high ∧ centralization`
-**Formula:** Net_Power = (Centrality² × Influence) / (Total_Network × Periphery)
-
-| Priority | Formula | Trigger | Reliability |
-|----------|---------|---------|-------------|
-| P0 (Quick) | Core_Actors / Total_Network | Core identifiable | MEDIUM |
-| P1 (Metrics) | (C² × I) / (N × P) | Full metrics | HIGHEST |
-| P2 (Topology) | Topology_Factor × Concentration_Ratio | Type clear | HIGH |
-| P3 (Qualitative) | Control_Score (0-10) | Fallback | MODERATE |
-
-**Centrality:** C = (Betweenness + Closeness + Eigenvector) / 3
-**Classification:** 0.0-2.9 → 🌐+ | 3.0-9.9 → 🌐++ | ≥10.0 → 🌐+++
-**Cluster:** clusters/NETWORK.md
-
----
-
-### @PAT[WAR] ⚔
-**Scan:** coordination, psyops, attribution_gaps
-**Signature:** `⚔>3 ∧ coordination ∧ persistence`
-**Formula:** War_Factor = (Coordination × Sophistication × Persistence) / (Attribution × Defense)
-
-| Priority | Formula | Trigger | Reliability |
-|----------|---------|---------|-------------|
-| P1 (Metrics) | (C × S × P) / (A × D) | All quantifiable | HIGHEST |
-| P2 (Coord) | (C × S × P) × Attribution_Penalty | Attack clear | HIGH |
-| P3 (Qualitative) | Pattern_Match_Score (0-10) | Fallback | MODERATE |
-
-**Coordination:** C = Timing_Overlap × Message_Uniformity × Actor_Diversity
-**Sophistication:** S = Σ(technique_levels) / count (1.0=basic → 4.0=state)
-**Classification:** 0.0-4.9 → ⚔+ | 5.0-14.9 → ⚔++ | ≥15.0 → ⚔+++
-**Cluster:** clusters/WAR.md
-
----
-
-### @PAT[TEMP] ⏰
-**Scan:** timing_orchestration, suspicious_coincidence
-**Signature:** `⏰>3 ∧ sync_high ∧ P_random_low`
-**Formula:** Temporal_Factor = temporal_sync×0.30 + vocab_uniform×0.25 + cui_bono×0.20 + historical×0.15 + suppress×0.10
-
-**Components:**
-- temporal_sync = Coincidence_Count / Days_Window (0.0-1.0)
-- vocab_uniform = Shared_Terms / Total_Vocabulary (0.0-1.0)
-- cui_bono = Beneficiaries_Overlapping / Total_Actors (0.0-1.0)
-- historical = Pattern_Match_Previous / Total_Elements (0.0-1.0)
-- suppress = Counter_Evidence_Disappeared / Counter_Total (0.0-1.0)
-
-**Orchestration probability:** P_random = (1 / Coincidences!) × (Time_Window_Days / 365)^Coincidences
-**Classification:** TF 0.0-0.3 + P>10% → ⏰+ | TF 0.4-0.7 + P 1-10% → ⏰++ | TF ≥0.8 + P<1% → ⏰+++
-**Cluster:** clusters/TEMPORAL.md
-
----
-
-### @PAT[GAS] Ω
-**Scan:** contradiction, denial, timeline_gaps, memory_erasure
-**Signature:** `C<2 ∧ Ψ>4 ∧ contradictions`
-**Macro:** contradiction→archive_search→timeline_validation→evidence_doc
-**Empire Trigger:** Gaslighting = (Ω × inversions) + (C_négatif × 2) > 6.0
-**Cluster:** clusters/INVERSION.md
-
----
-
-### @PAT[ASTRO]
-**Scan:** fake_grassroots, opaque_funding, coordinated_movement
-**Signature:** `fake_grassroots ∧ opacity`
-**Macro:** movement→funding_analysis→growth_tracking→sync_detection
-**Modules:** [Ξ, Σ, A, €]
-**Cluster:** clusters/FRAGMENTATION.md
-
----
-
-### @PAT[CYN] Κ
-**Scan:** facade_gap, institutional_denial
-**Signature:** `Κ>3 ∧ disbelief_high`
-**Macro:** public_disbelief→official_persistence→mutual_knowledge→facade
-**Cluster:** clusters/GASLIGHTING.md
-
----
-
-### @PAT[FASC] ⫸
-**Scan:** indices_convergence, faisceau_pattern
-**Signature:** `indices≥3 ∧ convergence`
-**Macro:** indices_collection→temporal_mapping→convergence_analysis
-**Convergence:** 0.3-0.5 → ⫸+ | 0.6-0.8 → ⫸++ | ≥0.9 → ⫸+++
-**Cluster:** clusters/POWER.md
-
----
-
-## §2 EXTENDED PATTERNS
-
-**@PAT[POLITICAL] 🏛️:** Impact = Σ(Power_Shift_i × Visibility_i × Duration_i) | Cui_Bono = Winners - Losers + Hidden
-**@PAT[GEOPOLITICAL] 🌍:** Complexity = N_Actors × Divergence × Instability | Power_Shift = Σ(Winners_Gain - Losers_Loss) across economic+security+ideological+strategic
-**@PAT[DEEPFAKE]:** `Φ>4 ∧ Ψ>3 ∧ ⏰>2 ∧ synthetic_media` — high impact + timing + artifacts + no verification
-**@PAT[SURV_CAP]:** `€>4 ∧ κ>3 ∧ 🌐>4 ∧ data_extraction` — free service + hidden harvesting + behavioral surplus
-**@PAT[COG_INFRA]:** `⚔>4 ∧ 🌐>4 ∧ Ψ>3 ∧ ⏰>3 ∧ mass_targeting` — collective sense-making systems
-
----
-
-## §3 RHETORICAL FAMILIES
-
-**Formula:** RHETORICAL_SCORE = (MANIPULATION_COUNT × PERSONA_GAP) / authenticity
-
-| Family | Aliases | Markers |
-|--------|---------|---------|
-| **DEM** | demagogy, populist_framing | "the people", "the elites", "simple solution", "common sense", "they are to blame" |
-| **BF** | bad_faith, sophistry | motte_and_bailey, goalpost_shifting, gish_gallop, whataboutism, tu_quoque, strawman |
-| **NUM** | numeric_abuse, stats_tricks | "% with no base", "studies show", "the numbers speak for themselves", technobabble |
-| **AUTH** | manufactured_authority | tone_policing, false_authority, DARVO |
-| **FAC** | performative_policy | virtue_signaling, infantilization, false_equivalence, greenwashing |
-
-**Classification:** <2.0 authentic | 2.0-3.9 moderate | 4.0-6.9 systemic | ≥7.0 intensive
-
----
-
-## §4 COMPOSITE PATTERNS
-
-**@PAT[SHOCK]:** `Ψ>4.5 ∧ τ<48h ∧ Λ_monopoly` — trauma→urgency→solution | Module: [Ψ, Λ, Ω]
-**@PAT[BIDERMAN]:** `≥4/8 coercion techniques` — isolation+monopoly+exhaustion+threats | Module: [Ψ, Ω, ↕]
-**@PAT[INFODEMIC]:** `(vol×speed×contra)/capacity > 8` — volume>150/day + acceleration | Module: [Ψ, Ξ, ⫸]
-
----
-
-## §5 APEX FORMULAS
-
-```
-ITERATION_CONVERGENCE: convergence = (1 - new_info_rate) × iteration_count
-SOURCE_TRIANGULATION:  scoring = (accuracy × expertise) / (bias + 1)
-TEMPORAL_MANIPULATION: Orchestration_Prob = (Prep × Coord × Timing_Precision) / Claimed_Spontaneity
+```text
+OBSERVE → MEASURE when comparable data exist → TEST counter-explanation → CLASSIFY → RECORD GAP.
+Normalize a formula to [0..10] only when its input scale is explicit.
+LOW 1–2 | PLAUSIBLE 3–4 | MATERIAL 5–6 | STRONG 7–8 | EXTENSIVE 9–10.
+No input → NOT COMPUTABLE, not zero. Division by zero → NOT COMPUTABLE.
 ```
 
----
+## §2 Core @PAT[]
 
-_Version 2.0 — All pattern definitions with scoring formulas_
-_Referenced by: KERNEL.md §0, clusters/*.md_
+### @PAT[ICEBERG] — Ξ
+
+- Signature: selective period/category/denominator/method plus material omitted population or value.
+- Measured factor, only for comparable quantities: `ICEBERG_FACTOR = total_relevant / visible_claimed`.
+- If total is unknown: record omission dimensions and bounds; do not manufacture a ratio.
+- Flow: claim → definition → exclusions → reconstructed range → sensitivity → gap.
+
+### @PAT[MONEY] — €
+
+- Signature: material beneficiary + opaque flow/ownership/COI + decision relevance.
+- When amounts are comparable: `MONEY_FACTOR = hidden_or_indirect / declared_direct`.
+- Otherwise score documented signals: funding opacity, revolving door, subsidy, capture, externality, ownership concentration.
+- Flow: payer → channel → intermediary → beneficiary → decision → disclosed/hidden.
+
+### @PAT[BIO] — ♦
+
+- Signature: public biography omits decision-relevant affiliations, access path or revolving doors.
+- With a graph: `DENSITY = observed_links / possible_links`; state node/edge definitions.
+- Without a graph: use a sourced chronology across education, career, family, clubs, boards, donations, media and politics.
+- Flow: position → prior tie → documented action → timing → responsibility boundary.
+
+### @PAT[NET] — 🌐
+
+- Signature: repeated actors plus evidenced links and control points.
+- Metrics only on an explicit graph: density, degree/betweenness, components and ownership/control edges.
+- A shared school, event or employer is association, not coordination.
+- Flow: nodes → typed edges → provenance → gatekeepers → alternative topology.
+
+### @PAT[WAR] — ⚔
+
+- Signature: message/timing coordination plus infrastructure, targeting or tasking evidence.
+- Diagnostic index: mean of observed `coordination,sophistication,persistence,targeting` minus uncertainty for attribution/independence; document scales.
+- Similar wording alone may arise from wire copy, common facts or imitation. Test these first.
+- Flow: content → distribution → infrastructure → command/tasking evidence → attribution confidence.
+
+### @PAT[TEMP] — ⏰
+
+- `P_ORCH = .30×sync + .25×vocab + .20×prepared_benefit + .15×historical_match + .10×suppression`, each observed input [0..10].
+- This is a review index, not a statistical probability.
+- `P_random` may be reported only from a defensible stated null model, sample/window and assumptions; otherwise `NOT ESTIMATED`.
+- Flow: full timeline → independent clocks → common upstream cause → coordination evidence → alternatives.
+
+### @PAT[GAS] — Ω
+
+- Signature: archived statement/action conflicts with current denial plus attack on witness/memory or replacement narrative.
+- Flow: exact claim → contemporaneous archive → current claim → material contradiction → plausible correction/context → assessment.
+- A correction, changed evidence or honest policy reversal is not automatically gaslighting.
+
+### @PAT[ASTRO] — €/⫸
+
+- Signature: purported grassroots movement plus opaque funding and evidenced coordination/professional infrastructure.
+- Flow: origin → legal entity/domain → funders → staff/vendors → message/timing → genuine-member evidence.
+- Rapid growth or polished communication alone is insufficient.
+
+### @PAT[CYN] — Κ
+
+- Signature: documented private/public contradiction or repeated institutional maintenance of a façade despite acknowledged failure.
+- Flow: public rule → internal knowledge → action → beneficiary → accountability.
+- Route: `clusters/INVERSION.md`.
+
+### @PAT[FASC] — ⫸
+
+- Signature: at least three materially independent indices converge on the same bounded hypothesis.
+- `CONVERGENCE = supported_independent_indices / applicable_independent_indices`.
+- Independence must be demonstrated; syndication or a common source counts once.
+- Route: `clusters/FRAGMENTATION.md`.
+
+## §3 Extended patterns
+
+| Pattern | Trigger to investigate | Required falsifier/check |
+|---|---|---|
+| @PAT[POLITICAL] | visible policy/power redistribution | mandate, legal competence, baseline and duration |
+| @PAT[GEOPOLITICAL] | multi-actor interest divergence | perspectives from involved, neighboring and non-aligned actors |
+| @PAT[DEEPFAKE] | synthetic-media artifacts or provenance gap | original file, metadata, reverse search, expert/tool limits |
+| @PAT[SURV_CAP] | data extraction + behavioral use + opaque value transfer | product terms, data flows, revenue and user controls |
+| @PAT[COG_INFRA] | large-scale targeting/distribution system | infrastructure, reach, governance and alternative explanation |
+
+## §4 Rhetorical families
+
+| Code | Family | Markers to quote and test |
+|---|---|---|
+| DEM | Demagogy | homogeneous “people/elites”, scapegoat, effortless solution |
+| BF | Bad faith/sophistry | motte-and-bailey, moving goalposts, Gish gallop, whataboutism, straw man |
+| NUM | Numeric abuse | missing base/denominator/range, incomparable periods, proxy substitution |
+| AUTH | Authority performance | unsupported authority, tone policing, DARVO, credential substitution |
+| FAC | Performative façade | symbolic policy, false equivalence, washing, action/claim gap |
+
+Score [0..10] from quoted instances, materiality and repetition. Disagreement or emotional language alone is not manipulation.
+
+## §5 Composite patterns
+
+- `@PAT[SHOCK]`: acute event + artificial urgency + narrowed alternatives. Check real deadlines and counterfactual options.
+- `@PAT[BIDERMAN]`: multiple coercive conditions. Use as descriptive checklist, not diagnosis by analogy.
+- `@PAT[INFODEMIC]`: information rate/contradictions exceed stated processing capacity. Measure the sampled stream and window.
+
+_Canonical authority: pattern signatures and formulas._

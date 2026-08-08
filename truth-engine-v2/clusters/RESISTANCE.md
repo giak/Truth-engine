@@ -1,31 +1,26 @@
-# CLUSTER_RESISTANCE
+# CLUSTER_RESISTANCE v2.1
 
-@SCORING: ρ=counter_action_count×autonomy×awareness | ρ≥5→activate | ≥7→deep_dive | ≥9→resistance_movement
-@TRIGGERS: ≥5→selective | ≥7→all_concepts+resistance_mapping+5H | ≥9→full_counter_strategy
+**Purpose:** map evidence-based counter-power and epistemic autonomy (`ρ`) without treating opposition as truth by default.
 
-@CONCEPTS:
-| Concept | Detection | Query_Boost |
-|---------|-----------|-------------|
-| COUNTER_MANIPULATION | Active resistance to manipulation | "resists", "pushes back", "counters" |
-| COGNITIVE_SOVEREIGNTY | Independent thinking, source diversity | "independent", "critical thinking", "diverse sources" |
-| MENTAL_DISOBEDIENCE | Refusal to accept official narrative | "refuses", "rejects", "dissident" |
-| FACT_CHECK_INDEPENDENT | Non-institutional verification | "independent fact check", "citizen verification" |
-| ALTERNATIVE_MEDIA | Non-mainstream information sources | "alternative media", "independent journalist" |
-| WHISTLEBLOWER | Insider reveals hidden truth | "whistleblower", "leaker", "insider reveals" |
-| CIVIL_DISOBEDIENCE | Non-compliance with unjust systems | "civil disobedience", "non-compliance", "boycott" |
-| COUNTER_NARRATIVE | Opposing narrative with evidence | "counter-narrative", "opposing view", "alternative" |
-| SOLIDARITY_NETWORK | Mutual support against manipulation | "solidarity", "mutual aid", "support network" |
-| EPISTEMIC_RESISTANCE | Questioning knowledge production itself | "who produces knowledge", "epistemic resistance" |
+## Concepts
 
-@QUERIES:
-`{topic} resists pushes back counters manipulation` | `{topic} independent critical thinking diverse sources` | `{topic} refuses rejects dissident narrative` | `{topic} independent fact check citizen verification` | `{topic} alternative media independent journalist` | `{topic} whistleblower leaker insider reveals` | `{topic} civil disobedience non-compliance boycott` | `{topic} counter-narrative opposing view alternative` | `{topic} solidarity mutual aid support network` | `{topic} who produces knowledge epistemic resistance`
+- `COUNTER_MANIPULATION`: documented action counters a specific technique.
+- `COGNITIVE_SOVEREIGNTY`: independent access and reasoning capacity.
+- `MENTAL_DISOBEDIENCE`: refusal of a claim despite social/institutional cost.
+- `FACT_CHECK_INDEPENDENT`: verification with transparent method/provenance.
+- `ALTERNATIVE_MEDIA`: non-dominant distribution; reliability remains claim-relative.
+- `WHISTLEBLOWER`: insider provides checkable information.
+- `CIVIL_DISOBEDIENCE`: deliberate non-compliance with stated objective/cost.
+- `COUNTER_NARRATIVE`: competing account with evidence and falsifier.
+- `SOLIDARITY_NETWORK`: mutual support enabling voice/action.
+- `EPISTEMIC_RESISTANCE`: challenge to who controls knowledge/data.
 
-@DEEP_DIVE(≥7):
-H1 COUNTER: who is actively resisting? | H2 SOVEREIGNTY: what independent thinking exists? | H3 WHISTLEBLOWER: what insiders have spoken? | H4 COUNTER_NARRATIVE: what is the strongest opposing narrative? | H5 SOLIDARITY: what support networks exist?
+## Query stems
 
-@MAX(≥9):
-Resistance movement → full counter-strategy mapping → solidarity network identification → cross-reference CLUSTER_WAR for defense effectiveness
+`{claim} independent verification method` | `{institution} whistleblower documents` | `{movement} membership funding decisions` | `{policy} legal challenge boycott outcome` | `{counterclaim} evidence rebuttal`
 
-@OUTPUT: ρ score + resistance actions | active concepts + evidence | counter-narrative strength | H1-H5 | resistance movement assessment
+## Deep review/output
 
-@CONNECTIONS: parent:ρ | pairs:[WAR,NETWORK,INVERSION] | patterns:[COUNTER_MANIPULATION,COGNITIVE_SOVEREIGNTY,WHISTLEBLOWER] | Gate:KERNEL §2
+Identify actors, evidence, autonomy, funding and measured effect; test capture, misinformation and representativeness; distinguish suppression from ordinary moderation/law. Output `ρ observations | counter-evidence | autonomy/funding | action/effect | vulnerabilities | status/gaps`.
+
+**Pairs:** WAR, NETWORK, INVERSION.

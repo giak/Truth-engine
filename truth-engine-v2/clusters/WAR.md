@@ -1,31 +1,26 @@
-# CLUSTER_WAR
+# CLUSTER_WAR v2.1
 
-@SCORING: War=(Coordination×Sophistication×Persistence)/(Attribution×Defense) | ⚔≥5→activate | ≥7→deep_dive | ≥9→state_level
-@TRIGGERS: ≥5→selective | ≥7→all_concepts+attribution_analysis+5H | ≥9→state_actor_assessment+full_coordination_map
+**Purpose:** test organized cognitive/information operations (`⚔`) while separating content similarity, infrastructure and attribution. Use `@PAT[WAR]`.
 
-@CONCEPTS:
-| Concept | Detection | Query_Boost |
-|---------|-----------|-------------|
-| COORDINATION | Multiple actors same message, synchronized timing | "coordinated campaign", "message alignment" |
-| SOPHISTICATION | Multi-platform, multi-lingual, adaptive tactics | "professional operation", "state-level" |
-| PERSISTENCE | Campaign continues over weeks/months, evolving | "ongoing campaign", "persistent operation" |
-| ATTRIBUTION_GAP | Source obscured, false flags, proxy actors | "attribution unclear", "false flag", "proxy" |
-| DEFENSE_BYPASS | Targets platform vulnerabilities, algorithm exploitation | "algorithm manipulation", "platform exploit" |
-| NARRATIVE_WEAPON | Truth used as weapon, factcheck selective | "weaponized factcheck", "selective truth" |
-| INFRASTRUCTURE | Bot networks, troll farms, amplification systems | "bot network", "troll farm", "amplification" |
-| PSYOPS | Emotional manipulation, fear/anger targeting | "psychological operation", "emotional targeting" |
-| GRAY_ZONE | Below threshold of war, plausible deniability | "gray zone", "below threshold", "plausible denial" |
-| ESCALATION_LADDER | Gradual intensification, testing responses | "escalation pattern", "testing response" |
+## Concepts
 
-@QUERIES:
-`{topic} coordinated campaign message alignment` | `{topic} professional operation state-level` | `{topic} ongoing campaign persistent operation` | `{topic} attribution unclear false flag proxy` | `{topic} algorithm manipulation platform exploit` | `{topic} weaponized factcheck selective truth` | `{topic} bot network troll farm amplification` | `{topic} psychological operation emotional targeting` | `{topic} gray zone below threshold plausible denial` | `{topic} escalation pattern testing response`
+- `COORDINATION`: common tasking/control beyond shared facts or imitation.
+- `SOPHISTICATION`: multi-platform/language adaptation with evidenced capability.
+- `PERSISTENCE`: campaign continues and adapts over a defined period.
+- `ATTRIBUTION_GAP`: actor/source remains uncertain or proxied.
+- `DEFENSE_BYPASS`: platform/system vulnerability deliberately exploited.
+- `NARRATIVE_WEAPON`: selective truth/fact-check used strategically.
+- `INFRASTRUCTURE`: accounts, vendors, bots or channels supporting distribution.
+- `PSYOPS`: audience/emotion targeting tied to an operation.
+- `GRAY_ZONE`: activity stays below a stated legal/kinetic threshold.
+- `ESCALATION_LADDER`: measured intensity/capability rises through stages.
 
-@DEEP_DIVE(≥7):
-H1 ATTRIBUTION: who is behind this? state/non-state/proxy? | H2 INFRASTRUCTURE: what systems support the operation? | H3 TARGETING: who is the audience and why? | H4 ESCALATION: what is the endgame? | H5 COUNTER: what defenses exist and are they effective?
+## Query stems
 
-@MAX(≥9):
-State-level assessment → full coordination map → infrastructure identification → escalation trajectory → cross-reference CLUSTER_NETWORK for actor mapping
+`{campaign} coordinated behavior report dataset` | `{accounts/domain} infrastructure registration` | `"{phrase}" earliest source` | `{actor} attribution evidence methodology` | `{platform} takedown archive transparency report`
 
-@OUTPUT: ⚔ score + formula inputs | active concepts + evidence | attribution assessment | coordination map | H1-H5 | escalation level
+## Deep review/output
 
-@CONNECTIONS: parent:⚔ | pairs:[NETWORK,TEMPORAL,MONEY] | patterns:[COORDINATION,SOPHISTICATION,ATTRIBUTION_GAP] | Gate:KERNEL §2
+Deduplicate common upstream content; map infrastructure and targeting; distinguish capability, sponsorship and command; test organic convergence/marketing/activism; grade attribution evidence without filling gaps. Output `⚔ inputs | content/infrastructure map | targeting | attribution status | alternatives | escalation | gaps`.
+
+**Pairs:** NETWORK, TEMPORAL, MONEY. State-level attribution requires direct technical/documentary evidence, not score magnitude.

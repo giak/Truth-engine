@@ -1,114 +1,92 @@
-# OUTPUT TEMPLATE — Investigation + Article Format
+# OUTPUT TEMPLATE v2.1 — Investigation and article
 
-**Version:** 2.0
-**Usage:** Defines mandatory sections for investigation output and article transformation.
+This file alone defines delivered section sets and filenames. Gates live in `forensic/GATES.md`; statuses in `definitions/SYMBOLS.md`; save order in KERNEL.
 
----
+## §1 Investigation levels
 
-## INVESTIGATION OUTPUT (from protocol/INVESTIGATION.md §6)
+### SIMPLE — exactly 5 core sections
 
-### MEDIUM: 7 sections | APEX: 15 sections
+1. RÉSUMÉ EXÉCUTIF
+2. CHRONOLOGIE
+3. DOMAINES
+4. CARTE DES PREUVES
+5. PÉRIMÈTRE & LIMITES
 
-| # | Section | Lang | Content | M | A |
-|---|---------|------|---------|---|---|
-| 1 | RÉSUMÉ EXÉCUTIF | FR | ≤500 words: what happened, who, why, unknowns | ✅ | ✅ |
-| 2 | MANIPULATION_REPORT | EN | 15 symbols scored, speaker, implicit claims | — | ✅ |
-| 3 | CLUSTERS | EN | Each loaded cluster: score + formula + classification | — | ✅ |
-| 4 | HERMÉNEUTIQUE | FR | L1-L6 depth layers | — | ✅ |
-| 5 | FORENSIC REASONING | FR | Iceberg: shown/hidden/factor + empire synthèse | — | ✅ |
-| 6 | PRISME DIALECTIQUE | FR | 3 perspectives (⟐🎓/🔥⟐̅/◈◉○) force égale | — | ✅ |
-| 7 | CHRONOLOGIE | FR | ≥10 events (APEX) | ✅ | ✅ |
-| 8 | DOMAINES | FR | Thematic sections | ✅ | ✅ |
-| 9 | RÉSEAU D'ACTEURS | FR | Network map + profiles | ✅ | ✅ |
-| 10 | CHAÎNES DE CASCADE | FR | All chains quantified | ✅ | ✅ |
-| 11 | CARTE DES PREUVES | EN | Sources✦✧⁇❧ + EDI + symbol scores | ✅ | ✅ |
-| 12 | CARTE DIALECTIQUE | FR | Scénario A/B + tensions + wolves + impact | — | ✅ |
-| 13 | PÉRIMÈTRE & LIMITES | FR | Exclusions + constraints | ✅ | ✅ |
-| 14 | ÉTAT DES CONNAISSANCES | FR | KNOWN/SUSPECTED/UNKNOWN | ✅ | ✅ |
-| 15 | SUSPICION SCORES | EN | Per-source suspicion + corroboration | — | ✅ |
+### MEDIUM — exactly 7 core sections
 
-### FILENAME format:
+1. RÉSUMÉ EXÉCUTIF
+2. CHRONOLOGIE
+3. DOMAINES
+4. RÉSEAU D’ACTEURS
+5. CHAÎNES / PELOTE
+6. CARTE DES PREUVES
+7. PÉRIMÈTRE & LIMITES
+
+### COMPLEX — exactly 8 core sections
+
+MEDIUM + `CARTE DIALECTIQUE` after `CHAÎNES / PELOTE`.
+
+### APEX — exactly 15 core sections
+
+| # | Section | Required content |
+|---:|---|---|
+| 1 | RÉSUMÉ EXÉCUTIF | bounded answer, decisive facts, actors, impact, main gaps |
+| 2 | MANIPULATION_REPORT | 15 scores, observations, assumptions, loaded clusters |
+| 3 | CLUSTERS | inputs, diagnostic result, competing explanation, gap |
+| 4 | HERMÉNEUTIQUE | L1–L6, facts separated from inference |
+| 5 | FORENSIC REASONING | shown/omitted/reconstruction or NOT APPLICABLE |
+| 6 | PRISME DIALECTIQUE | dominant, strongest critical, evidence arbitration |
+| 7 | CHRONOLOGIE | sourced relevant events; no forced count |
+| 8 | DOMAINES | thematic findings and cross-domain boundaries |
+| 9 | RÉSEAU D’ACTEURS | typed sourced edges, centrality only if computed |
+| 10 | CHAÎNES / PELOTE | typed causal links, alternatives, coverage and gaps |
+| 11 | CARTE DES PREUVES | CLAIM/FACT_REGISTRY, source roles, contradictions, EDI |
+| 12 | CARTE DIALECTIQUE | scenarios, tensions, impact and responsibility map |
+| 13 | PÉRIMÈTRE & LIMITES | inclusions, exclusions, access/method limits |
+| 14 | ÉTAT DES CONNAISSANCES | known/probable/claimed/hypotheses/contested/unknown/refuted |
+| 15 | SUSPICION / VÉRIFICATION | source audits, upgrades/downgrades, unresolved checks |
+
+`SOURCES` and `REQUEST_LOG` are mandatory appendices for every factual investigation and do not change the core section count.
+
+## §2 Content rules
+
+- French output, dense and factual; one sentence = one bounded claim.
+- Put specific clickable citations next to material claims. `✦` always has a claim-relevant URL.
+- Display canonical epistemic status for facts, causal links and responsibility claims.
+- Required but unsupported content is `UNKNOWN`, `NONE ESTABLISHED` or `NOT APPLICABLE` with reason.
+- Preserve material contradiction; do not smooth it into a synthetic verdict.
+- Include formula inputs when a score/metric is reported; otherwise `NOT COMPUTABLE`.
+- Persist REQUEST_LOG write/article/writeback rows as `PENDING_AT_SERIALIZATION` per its lifecycle contract.
+
+## §3 TL;DR
+
+```text
+SUJET: {scope}
+VÉRIFICATION: {strongest bounded finding + status}
+MANIPULATION/STRUCTURE: {main diagnostic, explicitly non-verdict}
+LIMITE: {largest unresolved gap}
 ```
-YYYY-MM-DD_HH-MM_<sujet>_INVESTIGATION.md
+
+## §4 Article — step 15, exactly 6 sections
+
+1. ACCROCHE — strongest confirmed contrast; no unsupported certainty.
+2. SECTIONS THÉMATIQUES — evidence-led narrative.
+3. IMPACT — gains/losses/deaths/retreats only where established.
+4. CONCLUSION — answer within verified scope.
+5. BIBLIOGRAPHIE — numbered specific URLs and access/publication dates.
+6. LIMITES / DISCLAIMER — unknowns, contested claims and follow-up.
+
+The article may improve readability but cannot upgrade statuses, omit decisive contradictions or merge hypotheses with facts.
+
+## §5 Filenames
+
+```text
+YYYY-MM-DD_HH-MM_{SUBJECT_SLUG}_INVESTIGATION.md
+YYYY-MM-DD_HH-MM_{SUBJECT_SLUG}_INVESTIGATION_PART1.md
+YYYY-MM-DD_HH-MM_{SUBJECT_SLUG}_INVESTIGATION_PART2.md
+YYYY-MM-DD_HH-MM_{SUBJECT_SLUG}_ARTICLE.md
 ```
 
----
+Use the single-file investigation name at ≤50000 chars; PART1/PART2 only above that threshold.
 
-## ARTICLE OUTPUT (defined below)
-
-### Required sections (6):
-
-| # | Section | Language | Content |
-|---|---------|----------|---------|
-| 1 | ACCROCHE | French | 1 dense paragraph: 5 key facts, contrast |
-| 2 | SECTIONS | French | Thematic narrative: starts with strongest fact, ends with synthesis |
-| 3 | VERDICT | French | 4 matrices: qui gagne/perd/meurt/recule |
-| 4 | CONCLUSION | French | 1 sentence capturing entire case |
-| 5 | BIBLIOGRAPHIE | French | Numbered, with URLs and dates |
-| 6 | DISCLAIMER | French | What excluded, why, what needs follow-up |
-
-### FILENAME format:
-```
-YYYY-MM-DD_HH-MM_<sujet>_ARTICLE.md
-```
-
----
-
-## TL;DR FORMAT (for investigation summary)
-
-| Line | Content | Max Chars |
-|------|---------|-----------|
-| 1 | **SUJET**: What is being investigated | 80 |
-| 2 | **VÉRIFICATION**: Key finding (confirmed/rejected) | 80 |
-| 3 | **MANIPULATION**: Main technique from Phase 0 | 80 |
-
----
-
-## SOFT CHECKS (advisory, do not block)
-
-- [ ] All sources verified
-- [ ] Primary sources (◈) confirmed
-- [ ] No source detected as fake news
-- [ ] Source links functional
-- [ ] Detailed calculations shown (no bullshit math)
-
----
-
-## VALIDATION GATES
-
-| Gate | Required | Check |
-|------|----------|-------|
-| TEXT_ANALYSIS executed | YES | MANIPULATION_REPORT present |
-| MANIPULATION_REPORT complete | YES | All 15 symbols scanned |
-| MnemoLite search | YES | N memories found |
-| MnemoLite saved | YES | ID recorded |
-| Clusters loaded | YES | Threshold files loaded |
-| CLAIM_REGISTRY | YES | ≥1 counter per claim |
-| CRÉDO questions | ≥12 | Query-ready format |
-| FACT_REGISTRY complete | YES | ✦✧⁅⁂ + ⊕⊗⊙ |
-| CAUSALITY_CHAINS built | ≥3 for APEX | Chains with ≥3 links |
-| IMPACT_VERDICT all 4 | YES | Qui gagne/perd/meurt/recule |
-| CROSS_VERIFICATION | ≥2 domains | Domain-specific check |
-| INVESTIGATION_OUTPUT | 15 sections (APEX) | All sections present |
-| EDI calculated | YES | Score with BIAS |
-| Severity calculated | YES | Gap analysis |
-| COUNTERMEASURES | IF gaps | Explicit actions |
-
-**IF ANY FAIL → BLOCK & RETURN to indicated phase**
-
----
-
-## DATA STORAGE
-
-**Investigation:** Save to MnemoLite with:
-- title: "[INVESTIGATION] {subject} - {date}"
-- memory_type: investigation
-- tags: themes + keywords
-- embedding_source: structured summary
-
-**Article:** Save to `articles/` directory with filename format above.
-
----
-
-_Version 2.0 — Output format for investigations and articles_
-_Referenced by: KERNEL.md §1 step 14-15, protocol/INVESTIGATION.md §6_
+_Canonical authority: output structure and filenames._

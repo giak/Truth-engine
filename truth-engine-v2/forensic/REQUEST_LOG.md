@@ -1,108 +1,44 @@
-# REQUEST LOG — Standard Format for Investigation Reports
+# REQUEST LOG v2.1 — Research and tool trace
 
-## Purpose
+The log is an audit trail, not a transcript dump. Record every material call that affected scope, evidence, contradiction, save or writeback; collapse exact duplicate/no-op calls without hiding failures.
 
-Standardize research presentation in APEX reports for transparency and reproducibility.
-
----
-
-## Table Structure
+## Canonical table
 
 | # | TYPE | QUERY/TOOL_CALL | RESULT | SOURCE | URL |
-|---|------|-----------------|--------|--------|-----|
-| 1 | ◈ | [requête ou @tool_call] | [extrait clé] | [nom source] | [URL cliquable] |
-| 2 | ◉ | [requête ou @tool_call] | [extrait clé] | [nom source] | [URL cliquable] |
+|---:|---|---|---|---|---|
+| 1 | SYS/◈/◉/○ | exact query or alias | concise result/status | source or tool | specific URL or `—` |
 
-## Column Definitions
+Rules:
 
-### # (Numéro)
-- Sequential query number per branch
-- Starts at 1 for each branch
-- Enables cross-references in justifications
+- Sequential numbering across the run; optional branch headings do not reset it.
+- `TYPE` is `SYS` for memory/write calls; evidence roles `◈◉○` are claim-relative per SYMBOLS.md.
+- One accepted source per result row. A search returning several material sources may occupy several rows.
+- Result states: `FOUND`, `NO_RESULT`, `FAILED:{reason}`, `SKIPPED:{reason}`, `PENDING_AT_SERIALIZATION`.
+- Evidence rows require the exact page/document URL. Internal calls and failures use `—`.
+- Keep result excerpts short and paraphrased; preserve exact quotations only when analytically necessary.
+- Cross-reference material claims to fact/source IDs, not necessarily every query number.
 
-### TYPE (Source Type)
-- ◈ PRIMARY: Leak, FOIA, court docs, data
-- ◉ SECONDARY: Investigative journalism, academic research
-- ○ TERTIARY: MSM, aggregators, official
-- Mandatory field for EDI stratification
+## Required lifecycle rows
 
-### QUERY (Requête)
-- Exact query text (French or subject language)
-- Include branch-specific keywords
-- Valid examples: "Prévalence DNC Occitanie Jan 2026", "Importations œufs Ukraine Jan 2026"
+1. `@MNEMO_Q` and result/degraded status.
+2. Material `@WEB`, `@FETCH`, `@EXA` calls, including failure/fallback.
+3. Decisive contradictions and source-audit calls.
+4. `@MNEMO_S` result when known before file serialization.
+5. Investigation write, article write and FACT_WRITEBACK as `PENDING_AT_SERIALIZATION` in the persisted file.
+6. Their actual post-serialization outcomes in runtime/final delivery; never claim they already exist inside the file they create.
 
-### RÉSULTAT (Résultat)
-- Key extract from results (max 200 chars)
-- Prioritize verifiable factual information
-- Valid examples: "Rapport préfectoral: 3 foyers suspectés à Léran", "Douanes EU: +412% vs 2025"
+If `@MNEMO_S` is called with the complete pre-save investigation, its result may be inserted into the file-bound copy before `@WRITE`; the memory copy legitimately retains `PENDING_AT_SERIALIZATION` for that call.
 
-### SOURCE (Source)
-- Full source name (not just domain)
-- Include specifics: Archives départementales Ariège, Données CNPO, Médiapart, Journal officiel
-- Invalid (too vague): "Site internet", "Article de presse"
+## Header and footer
 
----
+```text
+Investigation:{subject} | date:{date} | complexity:{$CX_SCORE→$CX}
+scope:{period,geo} | modes:{loaded modules} | query target/actual:{N/N}
 
-## Branch Grouping
-
-Queries grouped by investigation branch:
-
-### BRANCH 1: [Name] (X queries)
-
-| # | TYPE | QUERY | RÉSULTAT | SOURCE | URL |
-|---|------|-------|----------|--------|-----|
-
-### BRANCH 2: [Name] (X queries)
-
-| # | TYPE | QUERY | RÉSULTAT | SOURCE | URL |
-|---|------|-------|----------|--------|-----|
-
----
-
-## Final Count
-
-At end of REQUEST LOG, add source count summary:
-
-**📊 DÉCOMPTE RECHERCHES: ◈X ◉X ○X**
-
----
-
-## Cross-Reference Integration
-
-All analysis claims must reference corresponding query number:
-
-> Le plan "un poulailler par département" de Genevard (requête 18) est un effet d'annonce incapable de combler le déficit de 1.2 million de pondeuses (requête 13).
-
----
-
-## Investigation Protocol Header
-
-Before the REQUEST LOG table, include protocol summary:
-
-```markdown
-**Investigation [TYPE] du [DATE]** — [SUBJECT]
-- Complexité: X.X/10
-- Budget requêtes: N recherches
-- Modes: [activated modes]
-- Phases exécutées: [L0-L9 Cascade or specific]
+COUNT: ◈{n} ◉{n} ○{n} | unique evidence objects:{n}
+FAILURES:{n} | FALLBACKS:{n} | unresolved gaps:{list}
 ```
 
----
+Syndicated copies and analyses sharing one upstream evidence object count as one provenance family for independence.
 
-## Quality Gates
-
-The REQUEST LOG is verified against:
-
-- ✅ All searches listed (no omissions)
-- ✅ Each query has source type (◈◉○)
-- ✅ Each query has a result
-- ✅ Each query has a valid source
-- ✅ Grouped by branches
-- ✅ Source stratification detail present
-- ✅ Protocol header present
-- ✅ Final source count present
-- ✅ Cross-references in analysis
-
----
-
-*REQUEST LOG v2.0 — Transparency + Reproducibility Standard*
+_Canonical authority: REQUEST_LOG format and serialization boundary._

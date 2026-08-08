@@ -1,236 +1,191 @@
-# INVESTIGATION — Complete Pipeline
+# INVESTIGATION v2.1 — Evidence construction pipeline
 
-**Version:** 2.0 | **Referenced by:** KERNEL.md §1 | **See also:** definitions/SYMBOLS.md, definitions/PATTERNS.md
+Loaded at KERNEL step 8b. KERNEL owns order/load/save; this file owns cognitive, dialectical, factual, causal, verification and responsibility operations.
 
----
+## §0 Data contracts
 
-## §0 SCOPING
+```text
+SCOPING_REPORT:
+  QUESTION | PERIOD | GEO | DOMAINS | ACTORS/INSTITUTIONS | EXCLUSIONS | EVIDENCE_LIMITS
 
-**Input:** subject → **Output:** SCOPING_REPORT
+CLAIM_REGISTRY:
+  ID | CLAIM | CLAIMANT | MATERIALITY | SUPPORT | COUNTER/NONE_FOUND | GAP | STATUS
 
-```
-1. Central question: 1 sentence
-2. Domains: MILITARY FINANCIAL DIPLOMATIC HUMANITARIAN ENERGY LEGAL TECHNICAL SOCIAL ENVIRONMENTAL
-3. Actors: named individuals (not institutions)
-4. Questions: 12-20 CRÉDO "Q:{q} → query:{s}"
-5. Evidence types: leaks FOIA court satellite market
-6. Exclusions: what's OUT + why
-```
-
-**Complexity (6 dims):** political(1-3) technical(1-2) temporal(1-5) geo(1-5) narratives(1-3) data(1-2)
-**Class:** <3=SIMPLE(12q) <6=MEDIUM(18q) <8=COMPLEX(25q) ≥8=APEX(35+q)
-
-| Level | Queries | Wolves | Domains | ✦ | Chains | Sections |
-|-------|---------|--------|---------|---|--------|----------|
-| SIMPLE | 12 | 5 | 2 | 5 | 1 | 5 |
-| MEDIUM | 18 | 5 | 3 | 8 | 2 | 7 |
-| COMPLEX | 25 | 8 | 4 | 10 | 3 | 8 |
-| APEX | 35+ | 12 | 5 | 10 | 5 | 15 |
-
----
-
-## §1 ANALYSIS → KERNEL §0
-
-See KERNEL §0 for: TEXT_ANALYSIS procedure, MANDATORY rules, MANIPULATION_REPORT format, cluster mapping, cluster threshold enforcement.
-
-**SYMBOL → ACTION** (score ≥5 → investigation branch):
-- Ξ → "Hidden reality" + forensic/REASONING.md + shadow factor
-- € → "Financial flows" + clusters/MONEY.md (if loaded) + opacity trace
-- Λ → "Frame deconstruction" + clusters/FRAMING.md (if loaded)
-- Ω → "Reality check" + clusters/INVERSION.md (if loaded) + timeline
-- ⏰ → "Timing forensics" + P_random calculation
-- ⚔ → "Warfare analysis" + clusters/WAR.md (if loaded)
-- 🌐 → "Network mapping" + clusters/NETWORK.md (if loaded)
-- ♦ → "Biographical archaeology" + clusters/BIO.md (if loaded)
-
----
-
-## §1bis COGNITIVE ANALYSIS (EMPIRE OF LIES)
-
-**Input:** MANIPULATION_REPORT + text → **Output:** COGNITIVE_MAP
-
-### A. CLUSTER SCORING
-For each loaded cluster: @PAT[] formula (PATTERNS.md) → apply → classify(+/++/+++) → document(inputs,result)
-
-### B. HERMENEUTIC DEPTH (L1-L6)
-```
-L1=EXPLICIT(surface, vérifiable) | L2=IMPLICIT(omission/inférence) | L3=STRUCTURAL(rhétorique)
-L4=SYMBOLIC(émotion, codes) | L5=UNCONSCIOUS(non-dit, présupposés) | L6=EPISTEMIC(production/rétention donnée)
-```
-
-### C. FORENSIC REASONING
-Execute forensic/REASONING.md: `SHOWN(R) | HIDDEN(N,≥5) | FACTOR=N/R (2.0-3.9=Ξ+ 4.0-9.9=Ξ++ ≥10=Ξ+++) | CONF=src×val×temp`
-
-### D. COGNITIVE MAP
-```yaml
 COGNITIVE_MAP:
-  MANIPULATION: {symbols,patterns,threats,rhetorical} | CLUSTER_SCORES: {cluster:++/+++}
-  HERMENEUTIC: {L1-L6} | FORENSIC: {R,N,factor,class}
-  EMPIRE_OF_LIES: [1-2 sentences structural lie] | QUERY_GUIDANCE: [from map]
-```
+  CLUSTER_SCORES | HERMENEUTIC L1-L6 | FORENSIC(if Ξ≥5) | ALTERNATIVES | QUERY_GUIDANCE
 
----
-
-## §1ter DIALECTICAL PRISM — 3 Perspectives Force Égale
-
-**MAPS. Does NOT judge. 3 perspectives. EQUAL force. User decides.**
-
-```
-@PRISM[3P]:
-  P1[⟐🎓]: docs_officiels+gouv+rapports | P2[🔥⟐̅]: investigation+censuré+alternatif
-  P3[◈◉○]: ◈_triangulation+vérification_croisée
-  FORMAT: ≥3phrases | tone=neutre | force=égale | suspicion≥0.50 (always≥0.95 baseline)
-  Q: Que dit? Faits affirmés? Qui porte? Cui bono?
-  OUT: affirmations|acteurs|cui_bono|suspicion[≥0.50]|evidence[◈◉○]
-
-  MAP: SCENARIO_A(officiel)→cui_bono | SCENARIO_B(critique)→cui_bono
-       TENSIONS[convergence|divergence|gaps|non_résolus]
-       WOLVES_IN_BOTH | SILENCES[narratif_A∩B=∅]
-       → VOUS_DÉCIDEZ.
-```
-
----
-
-## §2 SEARCH → KERNEL §1 step 9
-
-See KERNEL §1 step 9 for: query distribution (◈35% ADVERSARY20% CONTEXT20% DIVERSITY15% WOLF10%), reallocation at 50%, SEARCH PRIORITY (MnemoLite→DDG→Fetch→Exa).
-
-**Query generation sources:**
-- CASCADE INVERSÉE (L8→L0): network→warfare→temporal→conceptual queries
-- SYMBOL_SCORES: each symbol ≥5 generates domain-specific queries
-- DIALECTICAL MAP: Scenario_A/B + Tensions + Silences → targeted queries
-- SUSPICION PROTOCOL: high suspicion (≥0.70) → verification queries
-- HERMENEUTIC GAPS: L5 (unconscious) + L6 (epistemic) → structural queries
-
----
-
-## §3 CONSTRUCTION
-
-**Input:** search results → **Output:** FACT_REGISTRY + KNOWLEDGE_STATE
-
-```
-For each result:
-  1. EXTRACT: what, who, when, where, how much
-  2. CLASSIFY: ✦✧⁅❧
-  3. SOURCE: ◈◉○ tier
-  4. CROSS-CHECK: ⊕⊗⊙
-  5. REGISTER
+DIALECTICAL_MAP:
+  P1_DOMINANT | P2_CRITICAL | P3_EVIDENCE_ARBITRATION | TENSIONS | SILENCES | IMPACT
 
 FACT_REGISTRY:
-  ✦ CONFIRMED: ≥2 independent sources ⊕
-  ✧ PROBABLE: 1 strong ◈ source
-  ⁕ CLAIMED: asserted ○, not cross-verified
-  ⁂ SPECULATED: hypothesis, no direct evidence
-  ⊗ CONTRADICTED: sources disagree
-  ⊙ PARTIAL: mixed confirmation
+  | # | Fait | Date | Acteur | Chiffre | Source | URL | Fiabilité |
+  Fiabilité = source role + fact status + corroboration, e.g. `◈ ✦ ⊕`.
+```
 
+Use canonical meanings from `definitions/SYMBOLS.md`. A registry row is a bounded claim, not a paragraph mixing statuses.
+
+## §1 Cognitive analysis
+
+### 1. Cluster review
+
+For each loaded cluster only:
+
+1. Extract quoted/observable indicators from subject text.
+2. Apply its formula only with defined inputs; otherwise `NOT COMPUTABLE`.
+3. Search the strongest innocent/competing explanation.
+4. Record score change, evidence and remaining gap.
+
+Cluster score routes scrutiny. It cannot establish intent, coordination, capture or deception.
+
+### 2. Hermeneutic L1–L6
+
+| Layer | Question | Output discipline |
+|---|---|---|
+| L1 Explicit | What is literally asserted? | quote/bounded paraphrase |
+| L2 Implicit | What must be assumed or is omitted? | label inference |
+| L3 Structural | Which frame, categories and incentives organize it? | test alternatives |
+| L4 Symbolic | Which images/emotions/codes carry meaning? | separate effect from intent |
+| L5 Presupposed | Which worldview or audience knowledge is assumed? | state uncertainty |
+| L6 Epistemic | Who can produce, retain, access or contest the evidence? | map data/control gaps |
+
+### 3. Forensic branch
+
+If `Ξ≥5`, execute `forensic/REASONING.md`. Keep `FOUND`, `ESTIMATED` and `UNKNOWN` separate. No hidden-total reconstruction without comparable units and scope.
+
+## §2 Dialectical map
+
+Build three perspectives with equal steelmanning:
+
+1. `P1 ⟐/🎓` — strongest dominant/institutional account.
+2. `P2 ⟐̅/🔥` — strongest credible critical/adversarial account.
+3. `P3 ◈◉○` — evidence arbitration claim by claim.
+
+For each: claims, actors, interests, best evidence, falsifier and silences. Equal argumentative force does not equal equal evidentiary weight. If no credible counter-source is found, write `NONE_FOUND` and preserve the strongest counter-argument; never invent a source or false balance.
+
+Output:
+
+```text
+SCENARIO_A | SCENARIO_B | CONVERGENCES | DIVERGENCES | UNRESOLVED | SHARED_SILENCES
+ARBITRATION: claim→support→counter→status→next check
+```
+
+## §3 Search and factual construction
+
+### Search transformation
+
+- Convert each CLAIM_REGISTRY gap and CRÉDO question into the shortest query that can locate an evidence object.
+- Search original language/name variants, primary repositories and credible counterevidence.
+- Open the exact document/page; a result snippet is not evidence.
+- Track upstream provenance. Syndicated copies or analyses using one source are one evidence family.
+- Use query budgets as targets; stop on saturation, not on a cosmetically complete count.
+
+### FACT_REGISTRY
+
+For each material result:
+
+1. State one falsifiable fact with scope.
+2. Extract what/who/when/where/how much.
+3. Assign source role `◈◉○` for that fact.
+4. Assign exactly one canonical status `✦✧⁕⁂⊗⊙⁅❧`.
+5. Record specific URL and independent corroboration `⊕` when present.
+6. Preserve contradiction as a separate row or linked note; never average incompatible claims.
+
+```text
 KNOWLEDGE_STATE:
-  KNOWN: [✦ summary] | SUSPECTED: [✧ ⁕ summary] | UNKNOWN: [gaps]
-
-APEX: ≥10✦ ≥3⊗ KNOWLEDGE_STATE all 3 states
-FEEDBACK: ✦<min OR ⊗=0 → RETURN §2
+KNOWN       = current ✦ within stated scope
+PROBABLE    = ✧
+CLAIMED     = ⁕
+HYPOTHESES  = ⁂
+CONTESTED   = ⊗/⊙
+UNKNOWN     = ⁅
+REFUTED     = ❧
 ```
 
----
+Targets for confirmed facts guide effort only. Fewer facts with honest limitations beat upgraded weak evidence.
 
-## §4 CAUSALITY
+## §4 PELOTE — causal tracing
 
-**Input:** FACT_REGISTRY + SYMBOL_SCORES → **Output:** TIMELINE + CHAINS + CROSS-DOMAIN + SUSPICIOUS
+Run only when the question is causal or an explanatory chain materially affects the conclusion.
 
-```
-1. TIMELINE: order ✦ chronologically → [DATE] → [EVENT] → [SOURCE ◈◉○] → [CONSEQUENCE]
-2. LINK: "what caused this?" + "what did this cause?"
-3. CHAIN: ≥3 links → Chain N: [event]→[consequence]→[endpoint(quantified)]
-4. CROSS-DOMAIN: MILITARY→ENERGY→FOOD→HUMANITARIAN (trace flows)
-5. QUANTIFY: each endpoint = deaths, $, %, populations
-```
+### A. Discover candidate mechanisms
 
-**Symbol causal questions (for each ≥5):**
-- Ξ: hidden? excluded? real number? | €: profits? channels? who loses?
-- Λ: frame? alternatives? who benefits? | Ω: inversion? real reality?
-- ⏰: timing? P_random? orchestrated? | ⚔: coordinates? sophistication? target?
-- 🌐: center? topology? controls? | ♦: hidden networks? elite reproduction?
+Search before naming causes. Adapt these families to the event’s language:
 
-**APEX:** ≥10 events, ≥3 chains(≥3 links each), ≥1 cross-domain, ≥1 ⏰ flagged
-**FEEDBACK:** chains<min → RETURN §2
-
----
-
-## §5 VERIFICATION
-
-**Input:** FACT_REGISTRY → **Output:** VERIFICATION_REPORT
-
-```
-For each ✦/✧ fact:
-  1. CLASSIFY domain: MILITARY FINANCIAL DIPLOMATIC HUMANITARIAN ENERGY LEGAL TECHNICAL
-  2. VERIFY protocol:
-     MILITARY: DoD+satellite+independent → CONFIRMED/UNCONFIRMED/COVERED_UP
-     FINANCIAL: SEC+market+court → VERIFIED/PATTERN/SUSPICIOUS/CONFIRMED_FRAUD
-     HUMANITARIAN: Amnesty+UN+RedCross+local → CONFIRMED/DISPUTED/UNVERIFIED
-     DIPLOMATIC: StateDept+leaked+participants → CONFIRMED/LEAKED/DENIED
-  3. FLAG: official≠independent → ⊗ | official<<independent → COVER-UP
-  4. UPGRADE: ⁕→✧ (+1 source) | ✧→✦ (+2 independent)
-
-VERIFICATION_REPORT: VERIFIED:N CONTRADICTIONS:N COVER-UPS:N per-domain breakdown
-APEX: ≥2 domains ≥1 contradiction ≥1 upgrade
-FEEDBACK: domains<2 OR unverified>30% → RETURN §2
+```text
+{event} causes/origins/historical roots
+{event} institutional or systemic failure
+{event} competing explanations
+{event} enabling law/institution/material condition
+{event} contemporaneous inquiry/commission/archive
 ```
 
----
+Fetch the strongest sources and extract candidate mechanisms with provenance. Merge candidates that share the same evidenced trajectory.
 
-## §6 INVESTIGATION OUTPUT (in French)
+### B. Trace each mechanism backward
 
-**Input:** All previous phases → **Output:** Investigation (M:7 sect A:15 sect)
+Start at the nearest evidenced law, decision, institution, material condition or event. At each step:
 
-| # | Section | Lang | Content |
-|---|---------|------|---------|
-| 1 | RÉSUMÉ EXÉCUTIF | FR | 5 faits clés, acteurs, impact quantifié, gaps (≤500 words) |
-| 2 | MANIPULATION_REPORT | EN | 15 symbols scored, speaker, implicit claims |
-| 3 | CLUSTERS | EN | Each loaded cluster: score + formula + classification |
-| 4 | HERMÉNEUTIQUE | FR | L1-L6 revelations |
-| 5 | FORENSIC REASONING | FR | Iceberg: shown/hidden/factor + empire synthèse |
-| 6 | PRISME DIALECTIQUE | FR | 3 perspectives (⟐🎓/🔥⟐̅/◈◉○) force égale |
-| 7 | CHRONOLOGIE | FR | ≥10 events (APEX) |
-| 8 | DOMAINES | FR | Thematic sections |
-| 9 | RÉSEAU D'ACTEURS | FR | Network map + profiles |
-| 10 | CHAÎNES DE CASCADE | FR | All chains quantified |
-| 11 | CARTE DES PREUVES | EN | Sources✦✧⁇❧ + EDI + symbol scores |
-| 12 | CARTE DIALECTIQUE | FR | Scénario A/B + tensions + wolves + Qui gagne/perd/meurt/recule + VOUS DÉCIDEZ |
-| 13 | PÉRIMÈTRE & LIMITES | FR | Exclusions + constraints |
-| 14 | ÉTAT DES CONNAISSANCES | FR | KNOWN/SUSPECTED/UNKNOWN |
-| 15 | SUSPICION SCORES | EN | Per-source suspicion + corroboration |
+1. Hypothesize the immediately prior enabler.
+2. Search/fetch a specific source; reformulate once if noisy.
+3. Classify the link:
+   - `CAUSE`: evidence supports production of the outcome.
+   - `ENABLER`: made it materially possible/easier but did not determine it.
+   - `PRECEDENT`: earlier analogous/legal model; descriptive only.
+   - `CONTEXT`: background condition; descriptive only.
+   - `UNKNOWN`: proposed link not established.
+4. Record source, competing explanation and confidence.
+5. Stop at meaningful root, max depth 6 or exhausted evidence. Never insert a node to meet depth.
 
-**TONE:** Dense, factual, no filler. 1 sentence = 1 fact. Markdown tables + citations.
-**THIS IS THE INVESTIGATION.** Article is post-processing (see output/TEMPLATE.md).
+```text
+| FROM | LINK_TYPE | MECHANISM | TO | SOURCE | COUNTER | STATUS |
+```
 
----
+### C. Weave and coverage
 
-## WOLVES
+- Merge trees only on the same evidenced ancestor; otherwise state independence.
+- A sequence or precedent is not silently upgraded to cause.
+- For each FACT_REGISTRY row, cite the exact existing node that explains it, or `UNEXPLAINED`.
+- At most two focused attempts may fill an important unexplained link; then retain `⁅`.
+- Descriptive facts survive a causal gap. The causal conclusion does not.
 
-**Categories:** GOVERNMENT OPPOSITION CORPORATE CIVIL_SOCIETY INTERNATIONAL EXPERTS MEDIA
+Output `TIMELINE`, typed `PELOTE_TREES`, `COVERAGE N/N`, competing explanations and gaps. A short verified chain is valid.
 
-**Auto-detect:** € high→CORPORATE | ↕ high→EXPERTS | Ξ high→INSTITUTIONAL | Λ high→MEDIA
+## §5 Verification
 
-**Minimums:** GOV≥2 OPPOSITION≥1 CORP≥1(if €) EXPERTS≥1(if tech≥2) MEDIA≥1(if Λ) INTL≥1(if geo≥3)
-**Total:** M≥5 C≥8 A≥12
+For every decisive `✦/✧/⊗/⊙`:
 
-**Output:** `WOLF_CATEGORY: [name] → ROLE: [role] → CENTRALITY: [0-1]`
+1. Reopen the exact source and verify it contains the claimed material.
+2. Check date/version, definition, population, jurisdiction and units.
+3. Separate source authenticity from the truth of its assertions.
+4. Test independence and upstream circularity.
+5. Seek the strongest credible disconfirming object or record `NONE_FOUND`.
+6. Upgrade/downgrade using SYMBOLS.md only; reasoning coherence cannot upgrade status.
 
----
+Domain prompts: legal—operative text/jurisdiction; financial—filing/beneficial ownership/accounting period; scientific—design/data/uncertainty/replication; conflict—time/location/provenance/access; humanitarian—definitions/coverage/local testimony; technical—version/configuration/reproduction conditions.
 
-## CLAIM_CHECK → KERNEL §1 step 5
+Do not label `COVER-UP` from discrepancy alone. Record the observable event: non-disclosure, deletion, inconsistency, access refusal or verified concealment, with status.
 
-Claim verification protocol delegated to KERNEL §1 step 5 (CLAIM_CHECK).
-SYMETRIC SCRUTINY applied to ALL significant claims, not only accusations.
-SOURCE AUDIT applied to state agencies (max 2/investigation).
+```text
+VERIFICATION_REPORT:
+REOPENED:{n} | UPGRADED:{ids} | DOWNGRADED:{ids} | CONTRADICTIONS:{ids}
+CIRCULAR:{families} | NONE_FOUND:{claims} | REMAINING_GAPS:{list}
+```
 
----
+## §6 Impact and responsibility (`WOLVES`)
 
-## PERSO_FRESQUE
+Impact map: `QUI GAGNE | QUI PERD | QUI MEURT | QUI RECULE`. For each, identify metric, baseline, period and source. Use `NONE ESTABLISHED` or `NOT APPLICABLE` when warranted; categories may be empty.
 
-Person subject → FORCE APEX + @READ[protocol/PERSO_FRESQUE.md]. EDI target ≥ 0.75.
+Responsibility map includes a person only when a source connects them to a relevant signature, command, vote, decision, implementation, ownership, documented benefit or public claim.
 
----
+```text
+| NAME | ROLE | DOCUMENTED_ACTION | SOURCE | INTENT | RESPONSIBILITY_SCOPE |
+INTENT = PROVEN | CLAIMED | UNKNOWN
+```
 
-_Version 2.0 — Compressed pipeline. 790→~430L._
-_One concept, one place. See KERNEL for execution rules._
+No individual minimum. Do not infer intent from benefit, responsibility from title, guilt from association, or coordination from network proximity.
+
+## §7 Output handoff
+
+At step 14, apply `output/TEMPLATE.md` and `forensic/REQUEST_LOG.md`. Dense French prose; one sentence, one bounded claim; citations adjacent; hypotheses and unknowns visibly labeled. Article post-processing may simplify prose, never epistemic status.
+
+_Canonical authority: investigation operations and intermediate data contracts._

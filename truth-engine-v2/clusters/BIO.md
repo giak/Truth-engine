@@ -1,31 +1,30 @@
-# CLUSTER_BIO
+# CLUSTER_BIO v2.1
 
-@SCORING: Bio=(Hidden_Networks/Public_Positions)×Density+Inbreeding+Demo_Risk | ♦≥5→activate | ≥7→deep_dive | ≥9→elite_reproduction
-@TRIGGERS: ≥5→selective | ≥7→all_concepts+8D_analysis+5H | ≥9→full_biography_archaeology
+**Purpose:** test whether a public biography omits decision-relevant access, affiliations or revolving doors. Routing: `SYMBOLS.md §4`; scoring discipline: `@PAT[BIO]`. Association is not influence or responsibility.
 
-@CONCEPTS:
-| Concept | Detection | Query_Boost |
-|---------|-----------|-------------|
-| ELITE_REPRODUCTION | Same families/schools/clubs reproduce power | "dynasty", "legacy", "old money", "same school" |
-| REVOLVING_DOOR | Person moves between public/private sectors | "former position", "lobbyist", "consultant" |
-| HIDDEN_NETWORKS | Connections not visible in official bio | "classmate", "club member", "family tie" |
-| SOCIAL_CAPITAL | Access through relationships, not merit | "knows the right people", "connections" |
-| MERITOCRACY_ILLUSION | Success attributed to merit, actually network | "self-made", "merit", "hard work" myth |
-| CLASS_CONTINUITY | Power stays within same social class | "aristocracy", "bourgeoisie", "establishment" |
-| CULTURAL_CAPITAL | Taste/education as power marker | "Ivy League", "grande école", "cultural codes" |
-| INFLUENCE_MAPPING | Who influences whom behind the scenes | "advisor", "mentor", "behind the scenes" |
-| BIOGRAPHY_WHITENWASH | Negative aspects removed from public bio | "omitted", "hidden past", "sanitized" |
-| ACCESS_HIDDEN | How person got position not transparent | "how did they get there", "appointment process" |
+## Concepts
 
-@QUERIES:
-`{person} dynasty legacy old money same school` | `{person} former position lobbyist consultant` | `{person} classmate club member family tie` | `{person} knows the right people connections` | `{person} self-made merit myth reality` | `{person} aristocracy bourgeoisie establishment` | `{person} Ivy League grande école cultural codes` | `{person} advisor mentor behind the scenes` | `{person} omitted hidden past sanitized` | `{person} how did they get there appointment process`
+- `ELITE_REPRODUCTION`: recurring family/school/club access to power.
+- `REVOLVING_DOOR`: dated public↔private sector movement.
+- `HIDDEN_NETWORKS`: material ties absent from the presented biography.
+- `SOCIAL_CAPITAL`: access plausibly mediated by relationships.
+- `MERITOCRACY_ILLUSION`: “self-made” claim conflicts with sourced advantages.
+- `CLASS_CONTINUITY`: power remains within a bounded social group.
+- `CULTURAL_CAPITAL`: education/codes function as access filters.
+- `INFLUENCE_MAPPING`: evidenced path from relationship to decision.
+- `BIOGRAPHY_WHITEWASH`: material record removed or sanitized.
+- `ACCESS_HIDDEN`: appointment/access process not disclosed.
 
-@DEEP_DIVE(≥7):
-H1 8D_ANALYSIS: education, career, family, clubs, boards, donations, media, politics | H2 REVOLVING_DOOR: timeline of public→private moves | H3 HIDDEN_NETWORKS: what connections are invisible? | H4 MERITOCRACY: real path to power vs claimed | H5 BIO_WHITENWASH: what is omitted from official bio?
+## Query stems
 
-@MAX(≥9):
-Elite reproduction confirmed → full biography archaeology → 8-dimensional analysis → network mapping → cross-reference CLUSTER_NETWORK for topology
+`{person} career board interests declaration` | `{person} former employer adviser lobby` | `{person} school club family associate` | `{person} appointment process archive` | `{person} biography omitted controversy correction`
 
-@OUTPUT: ♦ score + 8D analysis | active concepts + evidence | network map | H1-H5 | elite reproduction assessment
+## Deep review
 
-@CONNECTIONS: parent:♦ | pairs:[NETWORK,POWER,MONEY] | patterns:[ELITE_REPRODUCTION,REVOLVING_DOOR,HIDDEN_NETWORKS] | Gate:KERNEL §2
+H1 build sourced chronology across education/career/family/clubs/boards/donations/media/politics; H2 type each edge and date; H3 connect ties to documented actions or keep as association; H4 compare official biography with primary registers; H5 seek exculpatory/ordinary career explanations.
+
+## Output
+
+`♦ score/NOT COMPUTABLE | chronology | typed network | revolving doors | biography gaps | action link | alternatives | unknowns`.
+
+**Pairs:** NETWORK, POWER, MONEY. Person-specific longitudinal work also loads `protocol/PERSO_FRESQUE.md` when KERNEL step 4 triggers.

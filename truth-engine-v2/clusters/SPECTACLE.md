@@ -1,31 +1,26 @@
-# CLUSTER_SPECTACLE
+# CLUSTER_SPECTACLE v2.1
 
-@SCORING: Φ=attention_capture×emotion_intensity×substance_ratio | Φ≥5→activate | ≥7→deep_dive | ≥9→spectacle_dominant
-@TRIGGERS: ≥5→selective | ≥7→all_concepts+substance_audit+5H | ≥9→full_spectacle_deconstruction
+**Purpose:** inspect attention/emotion (`Φ`) and symbolic substitution (`Σ`) relative to material substance.
 
-@CONCEPTS:
-| Concept | Detection | Query_Boost |
-|---------|-----------|-------------|
-| SPECTACULARIZATION | Event amplified beyond its substance | "media circus", "spectacle", "frenzy" |
-| INFOTAINMENT | News as entertainment, substance diluted | "infotainment", "showbiz politics", "drama" |
-| VIRTUE_SIGNALING | Moral posturing without action | "virtue signal", "performative", "empty gesture" |
-| EMOTION_HARVESTING | Fear/anger/outrage monetized | "rage bait", "clickbait", "engagement farming" |
-| DISTRACTION_SPECTACLE | Big story hides bigger story | "distraction", "smokescreen", "sideshow" |
-| PERSONALITY_CULT | Focus on person, not issue | "personality cult", "hero worship", "savior" |
-| VISUAL_MANIPULATION | Images chosen for emotional impact | "staged photo", "emotional image", "symbolic" |
-| NARRATIVE_SIMPLIFICATION | Complex issue reduced to slogan | "simplified", "slogan", "soundbite" |
-| CELEBRITY_ACTIVISM | Famous person speaks, drowns experts | "celebrity says", "star supports", "famous" |
-| REALITY_REPLACEMENT | Spectacle becomes the reality | "media reality", "constructed reality", "simulacrum" |
+## Concepts
 
-@QUERIES:
-`{topic} media circus spectacle frenzy` | `{topic} infotainment showbiz politics drama` | `{topic} virtue signal performative empty gesture` | `{topic} rage bait clickbait engagement farming` | `{topic} distraction smokescreen sideshow` | `{topic} personality cult hero worship savior` | `{topic} staged photo emotional image symbolic` | `{topic} simplified slogan soundbite` | `{topic} celebrity says star supports famous` | `{topic} media reality constructed simulacrum`
+- `SPECTACULARIZATION`: coverage intensity exceeds demonstrated substance.
+- `INFOTAINMENT`: entertainment form displaces relevant evidence.
+- `VIRTUE_SIGNALING`: symbolic stance lacks corresponding action.
+- `EMOTION_HARVESTING`: engagement incentives reward outrage/fear.
+- `DISTRACTION_SPECTACLE`: attention shift coincides with a more material event.
+- `PERSONALITY_CULT`: person displaces institutions/issues.
+- `VISUAL_MANIPULATION`: image selection/staging changes interpretation.
+- `NARRATIVE_SIMPLIFICATION`: material mechanisms collapse into slogan.
+- `CELEBRITY_ACTIVISM`: fame displaces relevant expertise/evidence.
+- `REALITY_REPLACEMENT`: mediated representation is treated as the event itself.
 
-@DEEP_DIVE(≥7):
-H1 SUBSTANCE: what is the real story behind the spectacle? | H2 EMOTION: what emotions are being harvested? | H3 DISTRACTION: what bigger story is hidden? | H4 SIMPLIFICATION: what complexity is erased? | H5 REALITY: has spectacle replaced the actual event?
+## Query stems
 
-@MAX(≥9):
-Spectacle dominant → full deconstruction → substance vs form ratio → distraction analysis → cross-reference CLUSTER_ICEBERG for what's hidden
+`{event} coverage volume original data` | `{campaign} spending engagement metrics` | `{symbolic claim} implementation outcome` | `{image/video} original context provenance` | `{same date} policy report announcement`
 
-@OUTPUT: Φ score + substance ratio | active concepts + evidence | emotion metrics | H1-H5 | spectacle dominance assessment
+## Deep review/output
 
-@CONNECTIONS: parent:Φ+Σ | pairs:[FRAMING,OVERLOAD,INVERSION] | patterns:[SPECTACULARIZATION,INFOTAINMENT,VIRTUE_SIGNALING] | Gate:KERNEL §2
+Compare attention, evidence and policy/action; verify alleged distraction chronologically; retrieve original visuals; test legitimate public-interest explanation. Output `Φ/Σ inputs | substance/attention map | symbolic/action gap | emotion incentives | distraction status | alternatives/gaps`.
+
+**Pairs:** FRAMING, OVERLOAD, INVERSION, ICEBERG.

@@ -1,55 +1,39 @@
-# FORENSIC REASONING v2.1 — Reality Total Reconstruction
+# FORENSIC REASONING v2.1 — Hidden-reality reconstruction
 
-**Trigger:** Ξ ICEBERG score ≥5 | **Philosophy:** Guide HOW to think, not WHAT to conclude.
+**Trigger:** `Ξ≥5`. This module separates shown, omitted, reconstructed and unknowable quantities; it does not assume that omission is deliberate.
 
----
+## Four questions
 
-## §0 Core
-
-Official statistic hides reality. Someone decided: WHAT to count, HOW to count, WHO to include/exclude.
-**Mission:** Reconstruct reality_total from ◈ PRIMARY sources. Transparent: found(◈) vs estimated(reasoning) vs uncertain(limitations).
-
-## §1 Four Questions → @Q[]
-
-```
-@Q[1:Hidden]:   EXCLUSIONS méthodologie? Populations invisibles? Cui bono les cacher?
-@Q[2:Evidence]:  ◈ PRIMARY sur exclusions? HRW/Amnesty/académique? Syndicats/ONG challengent?
-@Q[3:Reconstruct]: Estimer magnitude hidden? ◈ PRIMARY (peer-reviewed)? Estimate raisonnée?
-@Q[4:Limites]:   Assumptions? Invalide estimate? Confidence justifiée?
+```text
+@Q[1:HIDDEN]      Which definitions, populations, periods, regions or denominators are excluded?
+@Q[2:EVIDENCE]    Which direct sources expose inclusion/exclusion and methodology?
+@Q[3:RECONSTRUCT] Can a comparable total or bounded range be calculated without mixing units/scopes?
+@Q[4:LIMITS]      Which assumptions dominate the result, and what would invalidate it?
 ```
 
-## §2 Output
+## Method
 
-### If reconstruction possible:
+1. Quote the visible claim and its scope.
+2. Retrieve definition, method, denominator and revisions.
+3. List omitted components with source and inclusion rationale.
+4. Reconstruct only comparable quantities; show formula, units and range.
+5. Run sensitivity on uncertain inputs and test an innocent methodological explanation.
+6. Label every component `FOUND`, `ESTIMATED` or `UNKNOWN`.
+
+`ICEBERG_FACTOR = comparable_total / visible_value` only when both values share definition, unit, population and period. Otherwise report `NOT COMPUTABLE` plus the omission map.
+
+## Output
+
+```text
+[FORENSIC] Ξ:{score} | domain:{domain}
+VISIBLE: {value, definition, period, source, status}
+OMITTED: {component → evidence → reason applicable}
+RECONSTRUCTION: {formula, range, sensitivity} OR NOT COMPUTABLE
+VISIBLE_SHARE/FACTOR: {value} OR NOT COMPUTABLE
+ALTERNATIVE EXPLANATION: {tested result}
+CONFIDENCE: {HIGH|MEDIUM|LOW} | LIMITS:{assumptions/gaps}
 ```
-[FORENSIC] (Ξ:[score]) Domain:[warfare/labor/health/financial/environmental/other]
-Shown(officiel): [value](◈/◉/○) | Méthodologie:[définition/exclusions]
-Hidden: [component] → Estimate:[value] | Reasoning:[WHY+HOW] | Source:[◈/◉/reasoning]
-Reality total: [shown+hidden] | Confidence:[min-max] | Shown%:[shown/reality]
-Sources◈:[list] | Sources◉:[list]
-Assessment: CONF[HIGH/MED/LOW] | Limites:[assumptions] | Conclusion:[1-2 sentences]
-```
 
-### If reconstruction NOT possible:
-```
-[FORENSIC] (Ξ:[score] detected, insufficient evidence)
-  No ◈ PRIMARY on exclusions | Cannot estimate | Requires:[specific ◈ sources]
-  Recommendation: Seek [sources].
-```
+Useful domain contrasts: direct/indirect deaths; unemployment/underemployment/halo; reported/excess mortality; sentenced/pre-trial/control; reported/dark-figure losses; territorial/consumption emissions. Apply only definitions supported in the case.
 
-## §3 Domain Applicability
-
-| Domain | Shown vs Hidden |
-|--------|-----------------|
-| Warfare | Direct deaths vs indirect vs bodies inaccessible |
-| Labor | Official unemployment vs halo vs discouraged vs underemployment |
-| Health | Official disease deaths vs excess mortality all-cause |
-| Prison | Sentenced vs détention provisoire vs contrôle judiciaire |
-| Financial | Reported fraud vs dark figure criminology |
-| Environmental | Official emissions vs real measurements |
-
-Questions remain same. LLM adapts to sources found.
-
----
-
-*FORENSIC REASONING v2.1 — 111→62L. Questions guide thinking. Evidence arbitrates.*
+_Canonical authority: Ξ reconstruction method._
