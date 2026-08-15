@@ -314,7 +314,7 @@ Toutes les gates sont vertes. Fichier conforme KERNEL v2.0, complexité APEX.
 
 ## §15 CROSS_REFERENCE
 
-- Investigation frère : `investigations/2026-08/2026-08-04-souverainistes-opposition-controlee/` (financement de la dissidence, vérifié en profondeur)
+- Investigation frère : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/` (financement de la dissidence, vérifié en profondeur)
 - Mémoire Mnemolite d033b247 : « 20 faits sur le verrou budgétaire UE » (TSCG, EDP, 57 % dépenses publiques, sanctions jamais appliquées, France co-constructrice) : pilier 5 de ce rapport
 - Articles connexes : cartographie Bolloré, « réinformation » E&R/Soral, verrou budgétaire, score Kuzmanovic (0,06 %)
 - Données Eurostat (dépenses publiques 57 % vs 49 %) : F-026

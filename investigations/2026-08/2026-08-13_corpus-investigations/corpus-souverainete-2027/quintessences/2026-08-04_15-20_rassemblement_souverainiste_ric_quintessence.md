@@ -1,8 +1,8 @@
 # QUINTESSENCE — Pourquoi pas un grand rassemblement des souverainistes ? Le RIC comme point de bascule
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_10-46_rassemblement_souverainiste_ric_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-46_rassemblement_souverainiste_ric_INVESTIGATION.md`
 
-**Source :** investigations/2026-08/2026-08-04-rassemblement-souverainiste-ric/2026-08-04_10-46_rassemblement_souverainiste_ric_INVESTIGATION.md
+**Source :** investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-46_rassemblement_souverainiste_ric_INVESTIGATION.md
 **Date :** 2026-08-04 | **Heure :** 15:20 CEST | **Investigueur :** pipeline KERNEL v2.0 | **Complexité :** APEX | **Symboles dominants :** Ξ 6, Λ 6, Ω 6, € 5, ↕ 5, 🌐 5, ⏰ 5
 
 ## 1. Métadonnées & trace source

@@ -1,6 +1,6 @@
 # Quintessence — Gilets Jaunes 2025-2026 : état des lieux politique
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_17-12_gilets_jaunes_figures_2027_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_17-12_gilets_jaunes_figures_2027_INVESTIGATION.md`
 
 Date : 2026-08-04 | Heure : 17:22 CEST | Type : quintessence | Complexité : SIMPLE
 

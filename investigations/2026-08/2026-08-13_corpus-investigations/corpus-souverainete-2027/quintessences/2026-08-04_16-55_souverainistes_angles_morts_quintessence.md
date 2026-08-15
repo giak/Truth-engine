@@ -1,6 +1,6 @@
 # Quintessence — Angles morts de l'atlas souverainiste : gauche, GJ, réseau paneuropéen, médias de niche
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_14-59_souverainistes_angles_morts_HYPER_MATRICE.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_14-59_souverainistes_angles_morts_HYPER_MATRICE.md`
 
 Date : 2026-08-04 | Heure : 16:55 CEST | Type : quintessence | Complexité : APEX+ | Investigateur : GAP-009b
 

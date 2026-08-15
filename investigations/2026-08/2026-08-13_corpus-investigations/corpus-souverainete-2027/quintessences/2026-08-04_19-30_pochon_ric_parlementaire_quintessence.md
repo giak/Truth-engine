@@ -1,6 +1,6 @@
 # Quintessence — Marie Pochon : le RIC par la voie parlementaire (2025-2026)
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_19-15_pochon_ric_parlementaire_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_19-15_pochon_ric_parlementaire_INVESTIGATION.md`
 
 Date : 2026-08-04 | Heure : 19:30 CEST | Type : quintessence | Complexité : SIMPLE
 

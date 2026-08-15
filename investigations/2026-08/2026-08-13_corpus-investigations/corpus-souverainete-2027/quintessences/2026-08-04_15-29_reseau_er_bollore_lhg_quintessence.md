@@ -1,10 +1,10 @@
 # QUINTESSENCE — Réseau E&R / LHG / Bolloré : mythe de l'« opposition médiatique souverainiste »
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_14-10_reseau_er_bollore_lhg_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_14-10_reseau_er_bollore_lhg_INVESTIGATION.md`
 
 ## 1. Métadonnées & trace source
 
-- **Source extraite** : `investigations/2026-08/2026-08-04-reseau-er-bollore-lhg/2026-08-04_14-10_reseau_er_bollore_lhg_INVESTIGATION.md`
+- **Source extraite** : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_14-10_reseau_er_bollore_lhg_INVESTIGATION.md`
 - **Date d'extraction** : 2026-08-04_15-29 CEST
 - **Type d'enquête** : INVESTIGATION (COMPLEX) — enquête correctrice du lien LHG/E&R énoncé en I1, gap-008
 - **Question traitée** : I1 affirmait « LHG (souverainiste) : 30,4 % Bolloré ; E&R : 66,3 % Lagardère ». Ce lien est-il exact ? Existe-t-il un « pôle médiatique souverainiste » cohérent financé par Bolloré/Lagardère ? L'« opposition contrôlée » de I4 repose-t-elle sur des faits actionnariaux réels ?

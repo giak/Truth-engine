@@ -1,8 +1,8 @@
 # QUINTESSENCE — MÉTA-INVESTIGATION : FAISCEAU D'INDICES : LA NEUTRALISATION SYSTÉMIQUE DE LA SOUVERAINETÉ POPULAIRE
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_11-10_faisceau_neutralisation_souverainete_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_11-10_faisceau_neutralisation_souverainete_INVESTIGATION.md`
 
-**Source :** investigations/2026-08/2026-08-04-faisceau-neutralisation-souverainete/2026-08-04_11-10_faisceau_neutralisation_souverainete_INVESTIGATION.md
+**Source :** investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_11-10_faisceau_neutralisation_souverainete_INVESTIGATION.md
 **Date :** 2026-08-04 | **Heure :** 15:30 CEST | **Investigueur :** pipeline KERNEL v2.0 | **Complexité :** APEX (MÉTA) | **Symboles dominants (clampés) :** Ξ 7, € 5, Λ 4.8, Ω 4.0, ↕ 6, Φ 5, Σ 3.5, Κ 7, ⫸ 4.0, 🌐 6, ⏰ 5
 
 ## 1. Métadonnées & trace source

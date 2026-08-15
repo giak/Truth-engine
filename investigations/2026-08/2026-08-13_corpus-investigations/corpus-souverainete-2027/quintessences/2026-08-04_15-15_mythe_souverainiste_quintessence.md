@@ -1,8 +1,8 @@
 # QUINTESSENCE — Démonter le mythe souverainiste : 8 piliers réfutés par les faits
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_10-32_mythe_souverainiste_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-32_mythe_souverainiste_INVESTIGATION.md`
 
-**Source :** investigations/2026-08/2026-08-04-mythe-souverainiste/2026-08-04_10-32_mythe_souverainiste_INVESTIGATION.md
+**Source :** investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-32_mythe_souverainiste_INVESTIGATION.md
 **Date :** 2026-08-04 | **Heure :** 15:15 CEST | **Investigueur :** pipeline KERNEL v2.0 | **Complexité :** APEX | **Symboles dominants :** Ξ 8, Λ 8, € 7, Ω 7, ↕ 5, 🌐 6, ⏰ 5
 
 ## 1. Métadonnées & trace source

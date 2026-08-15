@@ -1,6 +1,6 @@
 # Quintessence — Comparaison internationale des dispositifs d'initiative populaire
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_14-15_comparaison_democratie_directe_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_14-15_comparaison_democratie_directe_INVESTIGATION.md`
 
 Date : 2026-08-04 | Heure : 15:45 CEST | Type : quintessence | Complexité : SIMPLE | Investigateur : GAP-008
 

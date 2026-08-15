@@ -278,8 +278,8 @@ Toutes les gates sont vertes. Fichier conforme KERNEL v2.0, APEX.
 
 - Corpus source : `archive/legacy-outputs/social/documents/mes_note_tweets/20250908_140928_⚠️_L'IMPOSSIBLE_RASSEMBLEMENT_CHRONIQU.md` (thread 2025-09-08, 10 sections)
 - Dossier RIC : `investigations/2026-07/2026-07-04-RIC/` (CIV-RIC-001, META-001, GAPS-002 ; mémoire Mnemolite d033b247 complémentaire sur le verrou budgétaire)
-- Enquête sœur : `investigations/2026-08/2026-08-04-mythe-souverainiste/2026-08-04_10-32_mythe_souverainiste_INVESTIGATION.md` (8 piliers réfutés)
-- Hyper matrice : `investigations/2026-08/2026-08-04-souverainistes-opposition-controlee/2026-08-04_09-45_souverainistes_dissidents_HYPER_MATRICE.md`
+- Enquête sœur : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-32_mythe_souverainiste_INVESTIGATION.md` (8 piliers réfutés)
+- Hyper matrice : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_09-45_souverainistes_dissidents_HYPER_MATRICE.md`
 - Articles liés : verrou RIC (2026-07), « Le peuple n'existe que sur convocation » (article V8 finale)
 
 ## §15 SOURCES (URLs actives)

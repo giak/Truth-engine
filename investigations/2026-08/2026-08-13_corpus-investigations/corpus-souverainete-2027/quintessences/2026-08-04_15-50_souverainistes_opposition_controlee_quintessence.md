@@ -1,6 +1,6 @@
 # Quintessence — Les souverainistes : opposition contrôlée ?
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_09-25_souverainistes_opposition_controlee_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_09-25_souverainistes_opposition_controlee_INVESTIGATION.md`
 
 Date : 2026-08-04 | Heure : 15:50 CEST | Type : quintessence | Complexité : APEX | Investigateur : KERNEL v2.0
 

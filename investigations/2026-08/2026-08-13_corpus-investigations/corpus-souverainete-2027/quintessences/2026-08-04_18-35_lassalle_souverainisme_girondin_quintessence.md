@@ -1,6 +1,6 @@
 # Quintessence — Jean Lassalle : souverainisme girondin, RIC constituant, candidature 2027
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_18-30_lassalle_souverainisme_girondin_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_18-30_lassalle_souverainisme_girondin_INVESTIGATION.md`
 
 Date : 2026-08-04 | Heure : 18:35 CEST | Type : quintessence | Complexité : APEX
 

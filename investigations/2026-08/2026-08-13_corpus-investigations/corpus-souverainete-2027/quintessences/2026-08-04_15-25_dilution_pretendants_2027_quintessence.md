@@ -1,8 +1,8 @@
 # QUINTESSENCE — La dilution des prétendants 2027 : diviser pour mieux régner, le « pouvoir au peuple » comme slogan commun
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_10-57_dilution_pretendants_2027_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-57_dilution_pretendants_2027_INVESTIGATION.md`
 
-**Source :** investigations/2026-08/2026-08-04-dilution-candidats-2027/2026-08-04_10-57_dilution_pretendants_2027_INVESTIGATION.md
+**Source :** investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-57_dilution_pretendants_2027_INVESTIGATION.md
 **Date :** 2026-08-04 | **Heure :** 15:25 CEST | **Investigueur :** pipeline KERNEL v2.0 | **Complexité :** APEX | **Symboles dominants :** Ξ 7, Λ 7, Ω 7, ↕ 6, € 5, Φ 5, 🌐 5, ⏰ 5
 
 ## 1. Métadonnées & trace source

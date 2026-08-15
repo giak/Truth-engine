@@ -1,7 +1,7 @@
 # REGISTRE DES ENQUÊTES 2026-08 : SOUVERAINETÉ POPULAIRE & NEUTRALISATION SYSTÉMIQUE
 
 Date : 2026-08-05 | Heure : 02:45 CEST | Type : REGISTRE | Corpus : 22 enquetes principales + 2 fichiers complementaires, 22 quintessences
-Chemin : investigations/2026-08/corpus-souverainete-2027/
+Chemin : investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/
 Phase 2 : rapport_synthese_phase2.md (Sublimator v37, N=22, CP1=OUI, 5 theses, 3702 mots)
 
 ## Inventaire des enquêtes

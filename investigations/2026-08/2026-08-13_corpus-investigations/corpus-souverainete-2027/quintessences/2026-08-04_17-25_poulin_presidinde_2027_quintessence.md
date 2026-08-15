@@ -1,6 +1,6 @@
 # Quintessence — Alexis Poulin « Présidinde 2027 » : la farce comme fait politique
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_17-15_poulin_presidinde_2027_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_17-15_poulin_presidinde_2027_INVESTIGATION.md`
 
 Date : 2026-08-04 | Heure : 17:25 CEST | Type : quintessence | Complexité : SIMPLE
 

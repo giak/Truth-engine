@@ -1,6 +1,6 @@
 # Quintessence — Étienne Chouard : théoricien du RIC, actualité 2025-2026
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_17-10_chouard_ric_theoricien_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_17-10_chouard_ric_theoricien_INVESTIGATION.md`
 
 Date : 2026-08-04 | Heure : 17:20 CEST | Type : quintessence | Complexité : SIMPLE
 

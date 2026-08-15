@@ -17,14 +17,14 @@ Ton travail comporte 4 étapes obligatoires, dans l'ordre :
 ### ÉTAPE A — LECTURE EXHAUSTIVE (obligatoire, aucune lecture ne peut être sautée)
 Lis intégralement :
 1. **L'article actuel** : `articles/2026-08-05_11-30_impossible-rassemblement-souverainiste_ARTICLE.md`
-2. **Le REGISTRE du corpus** (carte d'identité de tout le travail) : `investigations/2026-08/corpus-souverainete-2027/REGISTRE.md`
-3. **Les 22 enquêtes** : `investigations/2026-08/corpus-souverainete-2027/enquetes/*.md`
-4. **Les 22 quintessences** : `investigations/2026-08/corpus-souverainete-2027/quintessences/*.md`
-5. **La synthèse Phase 2** : `investigations/2026-08/corpus-souverainete-2027/_synthese/rapport_synthese_phase2.md`
-6. **Le clustering topologique** : `investigations/2026-08/corpus-souverainete-2027/_synthese/clustering_topologique_brut.md`
-7. **La heatmap acteurs × fiches** : `investigations/2026-08/corpus-souverainete-2027/_synthese/heatmap_ascii.md`
-8. **Le blueprint narratif** : `investigations/2026-08/corpus-souverainete-2027/_synthese/blueprint_narratif.md`
-9. **Le texte fondateur** « L'IMPOSSIBLE RASSEMBLEMENT » (fil Twitter daté du 8 sept. 2025, ~23 000 caractères) : `investigations/2026-08/corpus-souverainete-2027/_synthese/L_IMPOSSIBLE_RASSEMBLEMENT_twitter_20250908.md`
+2. **Le REGISTRE du corpus** (carte d'identité de tout le travail) : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/REGISTRE.md`
+3. **Les 22 enquêtes** : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/*.md`
+4. **Les 22 quintessences** : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/quintessences/*.md`
+5. **La synthèse Phase 2** : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/_synthese/rapport_synthese_phase2.md`
+6. **Le clustering topologique** : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/_synthese/clustering_topologique_brut.md`
+7. **La heatmap acteurs × fiches** : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/_synthese/heatmap_ascii.md`
+8. **Le blueprint narratif** : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/_synthese/blueprint_narratif.md`
+9. **Le texte fondateur** « L'IMPOSSIBLE RASSEMBLEMENT » (fil Twitter daté du 8 sept. 2025, ~23 000 caractères) : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/_synthese/L_IMPOSSIBLE_RASSEMBLEMENT_twitter_20250908.md`
 10. **Les autres matériaux Twitter** dans `_synthese/` (union des droites, De Villiers, Knafo, PNRED, révolte décentralisée)
 11. **Le corpus des articles publiés** (l'écosystème dans lequel cet article s'inscrit) : `substack-online/index.md`
 

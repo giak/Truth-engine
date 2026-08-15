@@ -1,6 +1,6 @@
 # Quintessence — ARCOM 2022 : temps de parole des souverainistes, extraction quantitative
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_21-30_arcom_2022_temps_parole_souverainistes_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_21-30_arcom_2022_temps_parole_souverainistes_INVESTIGATION.md`
 
 Date : 2026-08-04 | Heure : 21:35 CEST | Type : quintessence | Complexité : APEX
 

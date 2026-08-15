@@ -334,9 +334,9 @@ Toutes les gates sont vertes. Fichier conforme KERNEL v2.0, APEX.
 
 ## §14 CROSS_REFERENCE
 
-- **I1** : `investigations/2026-08/2026-08-04-mythe-souverainiste/2026-08-04_10-32_mythe_souverainiste_INVESTIGATION.md` (7/8 piliers réfutés, UPR 1,02 %, LHG 30,4 % Bolloré)
-- **I2** : `investigations/2026-08/2026-08-04-rassemblement-souverainiste-ric/2026-08-04_10-46_rassemblement_souverainiste_ric_INVESTIGATION.md` (RIC 83 %, PPL délibératives, RIP jamais abouti, 8 tentatives)
-- **I3** : `investigations/2026-08/2026-08-04-dilution-candidats-2027/2026-08-04_10-57_dilution_pretendants_2027_INVESTIGATION.md` (40 candidats, mot-valise, filtre 500 parrainages)
+- **I1** : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-32_mythe_souverainiste_INVESTIGATION.md` (7/8 piliers réfutés, UPR 1,02 %, LHG 30,4 % Bolloré)
+- **I2** : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-46_rassemblement_souverainiste_ric_INVESTIGATION.md` (RIC 83 %, PPL délibératives, RIP jamais abouti, 8 tentatives)
+- **I3** : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-57_dilution_pretendants_2027_INVESTIGATION.md` (40 candidats, mot-valise, filtre 500 parrainages)
 - **Triduum RIC (juillet 2026)** : `investigations/2026-07/2026-07-04-RIC/` (CIV-RIC-001 verrouillage systémique, META-001 ICEBERG MAX 6 faisceaux/15 loups/5 lièvres, CIV-RIC-GAPS-002 7 zones d'ombre) — Mnemolite : 4469c926, 3a6acafa, 5033cc82
 - **Corpus substack** : `substack-online/index.md` (119 articles, thèse du verrouillage)
 - **Article** : « Le peuple n'existe que sur convocation » (2026-07-30) — Mnemolite 8f25db00

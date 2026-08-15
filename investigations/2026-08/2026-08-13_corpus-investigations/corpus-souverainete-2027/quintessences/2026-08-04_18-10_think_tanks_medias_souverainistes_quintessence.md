@@ -1,6 +1,6 @@
 # Quintessence — Think tanks et médias souverainistes : infrastructure d'influence pour 2027
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_18-00_think_tanks_medias_souverainistes_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_18-00_think_tanks_medias_souverainistes_INVESTIGATION.md`
 
 Date : 2026-08-04 | Heure : 18:10 CEST | Type : quintessence | Complexité : APEX
 

@@ -1,6 +1,6 @@
 # Quintessence — Temps d'antenne des souverainistes Frexit : constat d'absence de donnees comparatives
 
-Source : `investigations/2026-08/corpus-souverainete-2027/enquetes/2026-08-04_20-45_temps_antenne_souverainistes_gap_INVESTIGATION.md`
+Source : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_20-45_temps_antenne_souverainistes_gap_INVESTIGATION.md`
 
 Date : 2026-08-04 | Heure : 20:50 CEST | Type : quintessence | Complexite : SIMPLE
 

@@ -300,10 +300,10 @@ Toutes les gates sont vertes. Fichier conforme KERNEL v2.0, APEX.
 ## §14 CROSS_REFERENCE
 
 - Corpus source : `substack-online/index.md` (119 articles, thèse du verrouillage : « Le Verrou », « La caste parasite », « Opposition contrôlée », « Le peuple n'existe que sur convocation »)
-- Enquête sœur #1 : `investigations/2026-08/2026-08-04-mythe-souverainiste/2026-08-04_10-32_mythe_souverainiste_INVESTIGATION.md` (8 piliers réfutés)
-- Enquête sœur #2 : `investigations/2026-08/2026-08-04-rassemblement-souverainiste-ric/2026-08-04_10-46_rassemblement_souverainiste_ric_INVESTIGATION.md` (le RIC comme point de bascule)
+- Enquête sœur #1 : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-32_mythe_souverainiste_INVESTIGATION.md` (8 piliers réfutés)
+- Enquête sœur #2 : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_10-46_rassemblement_souverainiste_ric_INVESTIGATION.md` (le RIC comme point de bascule)
 - Dossier RIC : `investigations/2026-07/2026-07-04-RIC/` (verrouillage systémique)
-- Hyper matrice : `investigations/2026-08/2026-08-04-souverainistes-opposition-controlee/2026-08-04_09-45_souverainistes_dissidents_HYPER_MATRICE.md`
+- Hyper matrice : `investigations/2026-08/2026-08-13_corpus-investigations/corpus-souverainete-2027/enquetes/2026-08-04_09-45_souverainistes_dissidents_HYPER_MATRICE.md`
 - Sondages : Elabe/BFMTV (duel Bardella-Philippe, mars 2026) ; MIS Group (crise de confiance, avr. 2025)
 
 ## §15 SOURCES (URLs actives)
