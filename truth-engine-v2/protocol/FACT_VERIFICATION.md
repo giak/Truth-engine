@@ -115,6 +115,30 @@ python3 tools/verify_facts.py <investigation.md> [--offline]   # exit 0 ok / 1 v
 python3 tools/detect_contradictions.py [chemin...] [--json]    # exit 0 ok / 1 contradictions / 2 aucun registre
 ```
 
+## 4.6 Source primaire non fetchable automatiquement (HEAD/GET bloqués)
+
+Certaines sources primaires bloquent les requêtes automatisées : **Légifrance répond 403 au HEAD
+ET au GET** (constaté 2026-08-16). L'URL est **vivante** (`classify_url` → `head_blocked`), mais le
+contenu n'est pas lisible par le bot. Ce n'est ni `alive` confirmé, ni `dead` : c'est `head_blocked`.
+
+Règles :
+
+1. **Jamais `dead`** : un 403/405/429 n'est pas une source morte. Ne pas déclencher la re-vérification.
+2. **Fetch manuel obligatoire pour L1** : pour qu'un fait sourcé sur une telle source atteigne L1
+   (« fetché »), un humain (ou un outil à contexte navigateur) **lit la page** et fournit l'extrait
+   verbatim. Cet extrait porte le marqueur `(fetché manuel)` + date d'accès, au lieu de `(fetché auto)`.
+3. **`tier` inchangé** : un fetch manuel compte comme « fetché ». Le fait peut donc rester `✦`/`✧`
+   selon le recoupement (§7), et n'est pas rétrogradé `⁅`.
+4. **`⁅` seulement si illisible** : si la source n'est lisible ni par bot ni manuellement (paywall,
+   JS requis, accès refusé), alors le fait est réellement non fetché → `⁅`, et ne peut atteindre `✦`.
+5. **EXCERPT** : toujours indiquer la méthode — `EXCERPT (fetché auto)` / `EXCERPT (fetché manuel,
+   <date>)` / `(non fetché)`.
+
+Conséquence déterministe : `verify_facts.py` traite 403 comme `head_blocked` (ni vivant ni mort), sans
+violation — c'est correct. La distinction auto/manuel est une marque **humaine** portée par l'extrait
+(date + méthode), rejouable mais non vérifiable par script sans accès au contenu : c'est l'invariant
+de discipline, pas de code (AGENTS.md §4).
+
 ## 5. Contrat de confiance (ce que `status:CONFIRME` garantit, et ne garantit pas)
 
 **Garantit** :
