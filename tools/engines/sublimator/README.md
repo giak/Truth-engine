@@ -20,9 +20,6 @@
 ## Architecture
 
 ```
-                  [Phase 1 Extraction LLM par-enquete] (cartographie.json SUPPRIMÉE 2026-07-05 — overengineering)
-                              |
-                              v
             [Phase 1 Extraction LLM par-enquete]
               |                       |
               v                       v
@@ -51,9 +48,9 @@
               [Phase 3 Article 3000-5000 mots (CP2 humain)]
 ```
 
-3 checkpoints humains : CP1 (Phase 1.5 thèse / Phase 2 thèse fil rouge),
-CP2 (Phase 3 article fini). Entre les CP, les validateurs Python valident H0-H7
-automatiquement. *(L'ancien CP0 cartographie a été supprimé 2026-07-05 ; il reste 2 checkpoints actifs.)*
+2 checkpoints humains : CP1 (Phase 1.5 thèse / Phase 2 thèse fil rouge),
+CP2 (Phase 3 article fini). Entre les CP, le sub-agent CRITIQUE + `gates.py`
+valident la structure H0-H7 automatiquement. *(L'ancien CP0 cartographie a été supprimé 2026-07-05.)*
 
 ## Workflow (8 phases)
 
@@ -114,14 +111,7 @@ M1 < 0.5 OU > 2/8 cibles NO-GO OU M3 > 15 % OU M4 > 15 % = **NO-GO**.
 ### Mnemolite DOWN
 
 1. Vérifier `get_system_snapshot` : si `status: DOWN`, **HALTE et signaler**.
-2. Si `cartographie.json` Phase 0 existe → mode dégradé cardex local, les
-   quintessences sont conservées localement.
-3. Si pas de cardex → arrêt explicite, ne produire aucun fichier.
-
-### Naming `_validation/` inconsistent
-
-Convention unifiée : underscore (pas hyphen), drop suffix.
-`sublimator_validate.py` matche par préfixe exact.
+2. Pas de cardex local (Phase 0 supprimée 2026-07-05) : arrêt explicite, ne produire aucun fichier.
 
 ### Hallucination M3/M4 (> 15 %)
 
@@ -137,11 +127,9 @@ Convention unifiée : underscore (pas hyphen), drop suffix.
 
 ## Tests
 
-- *(Section `tests/extractors/` supprimée 2026-07-05 : extractors/cartographie.py retiré comme overengineering.)*
-  `test_gates_json.py`, `test_gates_hardening.py`,
-  `test_head_check_hardening.py`.
-- `tests/pipelines/test_e2e_dispatch_v35.py` : cohérence statique du dispatch
-  Sublimator v35 (résout audit V14).
+- `tests/extractors/` : `test_gates.py` + `test_gates_json.py` + `test_gates_hardening.py` (validation H0-H7) + `test_head_check_hardening.py` (HEAD-check anti-SSRF).
+- `tests/pipelines/test_e2e_dispatch_v35.py` : cohérence statique du dispatch Sublimator v35.
+- `tests/test_verify_facts.py` : vérificateur déterministe du registre de faits.
 
 ## Audit / dette technique
 

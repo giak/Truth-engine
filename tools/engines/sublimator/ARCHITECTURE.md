@@ -168,12 +168,12 @@ substack-online/index.md                ← indexation après CP3
 
 ## §8 Problèmes connus et dette technique
 
-- **Validation algorithmique Python retirée (2026-07-06)** : `sublimator_validate.py` / `sublimator_retry.py` ne portent plus la conformité ; elle est portée par le sub-agent CRITIQUE et les checklists manuelles. Certains tests (`tests/pipelines/`) référencent encore les anciens validateurs et la Phase 0 : traces à purger.
+- **Validation algorithmique Python retirée (2026-07-06)** : `sublimator_validate.py` / `sublimator_retry.py` ne portent plus la conformité ; elle est portée par le sub-agent CRITIQUE et les checklists manuelles. Tests et références stale purgés le 2026-08-15.
 - **Drift de numérotation des LOIS Phase 3** : le README cite 8 LOIS, SPECS v39 formalise L1-L9, `prompt-v38` référence « Lois 1-16 ». À unifier.
 - **Drift de volumétrie Phase 3** : SPECS v39 impose 3000-5000 mots ; `prompt-v38` admet 2200-2800 (essai) et 5000-8000 (enquête). À clarifier.
 - **Drift des checkpoints** : GUIDE.md (v34) décrit 4 checkpoints (CP1 par enquête, CP2, CP2.5, CP3) ; le pipeline v35+ n'en garde que 2 actifs (CP1, CP2) auxquels phase2_5 ajoute CP1.5. GUIDE.md est obsolète.
 - **M9 non mesurable empiriquement** : le compteur de violations d'isolation dépend du tagging LLM `sublimator:enquete_id`, non garanti par le code.
-- **Phase 0 supprimée (2026-07-05)** : `cartographie.json` et `extractors/` retirés comme overengineering ; les références résiduelles dans les tests et audits v36 doivent être ignorées.
+- **Phase 0 supprimée (2026-07-05)** : `cartographie.json` retiré comme overengineering. `extractors/` ré-hébergé le 2026-08-15 avec `gates.py` (H0-H7) + `head_check.py` (HEAD-check anti-SSRF), sans `cartographie.py`.
 - **Mnemolite aspirationnel** : le contrat inter-phases est documenté (SPECS v39 §7.5) mais pas branché ; la validation repose sur checklists + CRITIQUE.
 
 ---
