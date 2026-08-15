@@ -194,11 +194,13 @@ Chaque § défend la thèse fil rouge ; chaque § cite ≥ 1 fait sourcé.
 
 ---
 
-## 6. Phase 3 : Article publié (3000-5000 mots)
+## 6. Phase 3 : Article publié
+
+> **STATUS (2026-08-15) : supersédé sur 2 points par `prompt-v38_phase3.md` (source opérationnelle de vérité).** (1) **LOIS de rédaction** : 16 LOIS (LOI 1-16), pas 9 ; les « 9 LOI » L1-L9 ci-dessous sont une grille KPI de conformité Phase 3 (alignée sur M3.2-M3.6), pas une numérotation des LOIS de rédaction. (2) **Volumétrie** : consultative et dépendante du mode (essai 2200-2800 mots, enquête 5000-8000 mots), et non le « 3000-5000 » figé de M3.1.
 
 ### 6.1 Définition opérationnelle
 
-Document Markdown final destiné à publication Substack. Format ARTICLE (introduction narrative → sections emboîtées → conclusion). Volume cible : 3000-5000 mots.
+Document Markdown final destiné à publication Substack. Format ARTICLE (introduction narrative → sections emboîtées → conclusion). Volume cible : supersédé par `prompt-v38` (essai 2200-2800 / enquête 5000-8000 mots, consultatif).
 
 ### 6.2 Les 9 LOI de Phase 3
 

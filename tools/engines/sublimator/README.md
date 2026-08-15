@@ -45,7 +45,7 @@
               [Phase 2.6 plan_article.md]
                               |
                               v
-              [Phase 3 Article 3000-5000 mots (CP2 humain)]
+              [Phase 3 Article - essai 2200-2800 / enquête 5000-8000 mots (CP2 humain)]
 ```
 
 2 checkpoints humains : CP1 (Phase 1.5 thèse / Phase 2 thèse fil rouge),
@@ -64,7 +64,7 @@ valident la structure H0-H7 automatiquement. *(L'ancien CP0 cartographie a été
   cardinales max, vs 15 en v34). CP1.
 - **Phase 2.5** : Rapport de synthèse (5 sections).
 - **Phase 2.6** : Plan d'article (3-5 sections).
-- **Phase 3** : Article 3000-5000 mots selon 8 LOIS. CP2.
+- **Phase 3** : Article selon 16 LOIS de rédaction. Volumétrie consultative : essai 2200-2800 mots, enquête 5000-8000 mots. CP2.
 
 ## Auto-Audit (sub-agent CRITIQUE)
 

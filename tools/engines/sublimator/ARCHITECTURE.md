@@ -161,7 +161,7 @@ substack-online/index.md                ← indexation après CP3
 | Phase 1 | M1-M8 (Jaccard thèse, intersection F##, hallucination F##/impact, JSON parse, volume tokens, latence, score critic) | M1 ≥ 0.7, M3/M4 < 5 %, M5 = 100 % |
 | Phase 2 | N2.1-N2.4 (F-## partagés par cluster, transversalités, JSON valides) | ≥ 3 F-## / cluster |
 | Phase 2.5 | N2.5.1-N2.5.4 (thèse fil rouge, transversalités, recommandation, volume) | 5/5 sections |
-| Phase 3 | M3.1-M3.6 (volume, sources, cross-links, gras, lexique L4, compliance LOI L9) | 3000-5000 mots (essai), sources ≥ 5 § |
+| Phase 3 | M3.1-M3.6 (volume, sources, cross-links, gras, lexique L4, compliance LOI L9) | essai 2200-2800 / enquête 5000-8000 mots (consultatif), sources ≥ 5 § |
 | Bout-en-bout | E2E.1-E2E.4 (latence, réutilisation F-## ≥ 70 %, transversalités, conformité LOI L9) | variable |
 
 ---
@@ -169,8 +169,8 @@ substack-online/index.md                ← indexation après CP3
 ## §8 Problèmes connus et dette technique
 
 - **Validation algorithmique Python retirée (2026-07-06)** : `sublimator_validate.py` / `sublimator_retry.py` ne portent plus la conformité ; elle est portée par le sub-agent CRITIQUE et les checklists manuelles. Tests et références stale purgés le 2026-08-15.
-- **Drift de numérotation des LOIS Phase 3** : le README cite 8 LOIS, SPECS v39 formalise L1-L9, `prompt-v38` référence « Lois 1-16 ». À unifier.
-- **Drift de volumétrie Phase 3** : SPECS v39 impose 3000-5000 mots ; `prompt-v38` admet 2200-2800 (essai) et 5000-8000 (enquête). À clarifier.
+- **LOIS Phase 3 unifiées (2026-08-15)** : `prompt-v38` fait foi avec 16 LOIS de rédaction (LOI 1-16). Le « 8 LOIS » du README sublimator et les « 9 LOI L1-L9 » de SPECS v39 (grille KPI de conformité, pas une numérotation des LOIS) sont reconciliés : README corrigé, SPECS v39 annoté « supersédé ».
+- **Volumétrie Phase 3 unifiée (2026-08-15)** : consultative et dépendante du mode : essai 2200-2800 mots, enquête 5000-8000 mots (`prompt-v38`). Le « 3000-5000 » de SPECS v39 et du README est supersédé.
 - **Drift des checkpoints** : GUIDE.md (v34) décrit 4 checkpoints (CP1 par enquête, CP2, CP2.5, CP3) ; le pipeline v35+ n'en garde que 2 actifs (CP1, CP2) auxquels phase2_5 ajoute CP1.5. GUIDE.md est obsolète.
 - **M9 non mesurable empiriquement** : le compteur de violations d'isolation dépend du tagging LLM `sublimator:enquete_id`, non garanti par le code.
 - **Phase 0 supprimée (2026-07-05)** : `cartographie.json` retiré comme overengineering. `extractors/` ré-hébergé le 2026-08-15 avec `gates.py` (H0-H7) + `head_check.py` (HEAD-check anti-SSRF), sans `cartographie.py`.
@@ -182,7 +182,7 @@ substack-online/index.md                ← indexation après CP3
 
 | ID | Action | Effort | Impact |
 |----|--------|--------|--------|
-| R1 | Aligner la numérotation des LOIS (README 8 / SPECS L1-L9 / v38 1-16) | 30 min | HAUT |
+| R1 | ✅ Résolu 2026-08-15 : LOIS unifiées sur v38 (16 LOIS) + volumétrie mode-dépendante ; README, SPECS v39 et ARCHITECTURE reconciliés | — | — |
 | R2 | Réconcilier GUIDE.md (v34) avec le pipeline v36-v38 (2-3 CP) | 30 min | MOYEN |
 | R3 | Purger les références aux validateurs Python et à la Phase 0 dans `tests/` | 1 h | MOYEN |
 | R4 | Créer `tools/audit_phase3_em_dash.py` (audit zéro em-dash des articles, cf. `knowledge.md`) | 30 min | HAUT |

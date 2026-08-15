@@ -125,7 +125,7 @@ L'article combine les deux en proportion variable selon la thèse fil rouge.
 - **§4 (Comparaisons internationales + transversalités TE)** : rapport Phase 2 §5 (zones d'ombre) + Mapping Substack (cf. §3.1 ci-dessous). Citer les modèles étrangers comparables ET les enquêtes Truth Engine transversales, **sans nommer nominativement aucun dossier précis** (utiliser des catégories transversales : verrouillage médiatique, asymétrie juridictionnelle, endettement systémique, capture supranationale, etc., selon les thèses T1-T5 détectées).
 - **§5 (Verdict paradoxal + question ouverte)** : reprendre le rapport Phase 2 §9 (CP1) avec thèse fil rouge (1 phrase) + angle (1 phrase) + ton (lexique verrouillé). PAS de « En conclusion », PAS de solution miracle. **Une question ouverte** pour relancer le débat.
 
-**Densité organique (v32.0)** : ~300-600 mots par sous-section H3. Un article de 5 sections à ~1400 mots/section est normal pour le mode essai. Un article de 8-12 sections à ~500-700 mots/section est normal pour le mode enquête. La volumétrie sert l'arc, pas l'inverse.
+**Densité organique** : ~300-600 mots par sous-section H3. Mode essai : 2200-2800 mots au total (≈ 6 sections H2, dont le §0 introductif de ~250-380 mots). Mode enquête : 5000-8000 mots au total (8-12 sections H2 à ~500-700 mots). La volumétrie sert l'arc, pas l'inverse.
 
 ### 2.2 Pattern Anticipation (reconstitution v35 §3.10)
 
@@ -199,7 +199,7 @@ L'article peut contenir 1-3 scénarios contrefactuels pour ouvrir le débat pros
 
 ---
 
-## 4. Lois de rédaction 1-12
+## 4. Lois de rédaction 1-16
 
 > **Ces 16 lois sont les règles d'écriture de tout article Truth Engine.** Le LLM de Phase 3 doit les appliquer strictement.
 
