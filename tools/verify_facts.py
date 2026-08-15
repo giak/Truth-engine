@@ -138,6 +138,8 @@ def verify_record(rec, offline=False):
         issues.append("id invalide : {0}".format(fid))
     if epi not in EPI_CLASSES:
         issues.append("EPI inconnue : {0}".format(epi))
+    if _date and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", _date):
+        issues.append("date invalide (attendu YYYY-MM-DD) : {0}".format(_date))
     if tier not in TIERS:
         issues.append("tier inconnu : {0}".format(tier))
         return issues
