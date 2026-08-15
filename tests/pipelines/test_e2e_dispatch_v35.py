@@ -11,7 +11,6 @@ Verifie (sans mock runtime, sans appel LLM) :
 - prompt-v35.md contient HALTE/cardex
 - quintessence_extractor.md contient la regle VERBATIM (re.search)
 - quintessence_orchestrator.md borne la boucle a 3 iterations
-- les 2 validateurs Python existent
 
 Resout AUDIT_ANTAGONISTE_v35 V14 (« aucun test E2E dispatching »).
 
@@ -19,6 +18,12 @@ Coût : 0 token LLM, stdlib only (pathlib + re), execution <100ms.
 
 Note 2026-07-05 : tests `test_cartographie_*` et `test_phase_0_no_duplicate_step_4`
 SUPPRIMES (Phase 0 eliminee — voir git log).
+
+Note 2026-08-15 : tests `test_validators_python_exist` et
+`test_m9_enforces_isolation_tag_in_quintessence` SUPPRIMES — validateurs Python
+(`sublimator_validate.py` / `sublimator_retry.py`) abandonnes (cf. ARCHITECTURE.md,
+« Validation algorithmique Python retiree 2026-07-06 »). La section « Validateurs »
+du README a ete retiree en consequence.
 """
 
 from pathlib import Path
@@ -111,16 +116,7 @@ def test_v16_iteration_count_in_orchestrator_and_prompt_v35():
     )
 
 
-# 7. Validateurs Python existent
-
-def test_validators_python_exist():
-    vald = SUB / "sublimator_validate.py"
-    retry = SUB / "sublimator_retry.py"
-    assert vald.exists(), "sublimator_validate.py manquant"
-    assert retry.exists(), "sublimator_retry.py manquant"
-
-
-# 8. prompt-v35.md contient HALTE + cardex (V11)
+# 7. prompt-v35.md contient HALTE + cardex (V11)
 
 def test_prompt_v35_halte_cardex_contract():
     text = _read(PROMPT_V35)
@@ -130,56 +126,11 @@ def test_prompt_v35_halte_cardex_contract():
     assert "HALTE" in text, "prompt-v35.md : pas de HALTE explicite"
 
 
-# 9. README existe (V15)
+# 8. README existe (V15)
 
 def test_sublimator_readme_exists():
     readme = SUB / "README.md"
     assert readme.exists(), "tools/engines/sublimator/README.md manquant (V15)"
     text = _read(readme)
-    for section in ("Quickstart", "Architecture", "Workflow", "Validateurs", "Prompts", "épanna"):
+    for section in ("Quickstart", "Architecture", "Workflow", "Prompts", "épanna"):
         assert section in text, f"README.md : section '{section}' absente"
-
-
-# 10. PIVOT C2.1 : M9 metric enforcement Q4 isolation Mnemolite
-
-def test_m9_enforces_isolation_tag_in_quintessence():
-    """Test que m9_mnemolite_tag_isolation() compte correctement les violations.
-
-    Verifie que la fonction M9 detecte les requetes sans tag
-    'sublimator:enquete_id=<id>' obligatoire (Q4 audit v35).
-    """
-    vald = SUB / "sublimator_validate.py"
-    assert vald.exists(), "sublimator_validate.py manquant pour test M9"
-    # Import direct pour tester la fonction
-    import importlib.util
-    spec = importlib.util.spec_from_file_location("sublimator_validate", vald)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    # Quintessence conforme : 4 requetes toutes taggees correctement
-    quin_ok = {
-        "enquete_id": "test_enq_1",
-        "mnemo_queries": [
-            {"query": "ric veto_majoritaire", "tags": ["sublimator:enquete_id=test_enq_1"]},
-            {"query": "assemblee nationale ric", "tags": ["sublimator:enquete_id=test_enq_1"]},
-            {"query": "petition constituant", "tags": ["sublimator:enquete_id=test_enq_1"]},
-            {"query": "referendum revocatoire", "tags": ["sublimator:enquete_id=test_enq_1"]},
-        ],
-    }
-    v, n, pct = mod.m9_mnemolite_tag_isolation(quin_ok, enquete_id="test_enq_1")
-    assert v == 0, f"M9 avec 4/4 taggees : v attendu=0, got={v}"
-    assert n == 4, f"M9 : n attendu=4, got={n}"
-    assert pct == 0.0, f"M9 : pct attendu=0.0, got={pct}"
-    # Quintessence NON conforme : 4 requetes, 3 sans tag
-    quin_bad = {
-        "enquete_id": "test_enq_2",
-        "mnemo_queries": [
-            {"query": "ric veto_majoritaire", "tags": []},  # violation
-            {"query": "assemblee nationale ric", "tags": ["other_tag"]},  # violation
-            {"query": "petition constituant", "tags": ["sublimator:enquete_id=test_enq_2"]},  # OK
-            {"query": "referendum revocatoire"},  # violation (no tags key)
-        ],
-    }
-    v, n, pct = mod.m9_mnemolite_tag_isolation(quin_bad, enquete_id="test_enq_2")
-    assert v == 3, f"M9 avec 3 violations sur 4 : v attendu=3, got={v}"
-    assert n == 4, f"M9 : n attendu=4, got={n}"
-    assert pct == 75.0, f"M9 : pct attendu=75.0, got={pct}"
