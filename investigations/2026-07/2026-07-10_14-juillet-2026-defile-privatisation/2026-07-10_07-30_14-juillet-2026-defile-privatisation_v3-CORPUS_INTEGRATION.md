@@ -24,7 +24,7 @@
 | Amplification asymétrique du chiffre-clé Élysée (sans préciser le ratio) | « 500 soldats étrangers » (7,7 % omis) | « Empire du Mensonge » section « Cartographie de la concentration » confirme BGTV alignement |
 | Cadrage médiatique unique par BFM TV | Article unique du 9/07 = source primaire du narratif | « Empire du Mensonge » : « Patrick Drahi (BFM TV) + 9 milliardaires = 90 % audiences » |
 | Silence stratégique des vigies | Viginum + EU DisinfoLab + NewsGuard ne documentent rien | « Démocratie en cage » (2026-03-26) documente le **même silence** sur Storm-1516 |
-| Police clandestine (DRPP/DGSI) impliquée dans l'infrastructure | Préfecture de Police Paris publie @prefpolice | « Police française anatomie » (2026-07-08) : Préfecture = « enclave napoléonienne 237 ans » |
+| Police clandestine (DRPP/DGSI) impliquée dans l'infrastructure | Préfecture de Police Paris publie @prefpolice | « Police française anatomie » (2026-07-08) : Préfecture = « enclave napoléonienne depuis 1800 » |
 
 **MANIPULATION** : au-delà des 10 soupçons V2, l'agrégation au corpus révèle **5 nouveaux soupçons structurels** :
 
@@ -87,8 +87,8 @@
 
 **Patterns documentés** :
 - Budget consolidé sécurité intérieure France : **36,6 Md€** par an (25,4 Md€ visible + 11,12 Md€ privé + clandestin classifié), personne ne pouvant produire ce chiffre consolidé.
-- Préfecture de Police Paris = **enclave napoléonienne 237 ans** avec sa propre DRPP (Direction du Renseignement de la Préfecture de Police), héritière des Renseignements Généraux, sa propre police judiciaire, son propre budget, préfet nommé discrétionnairement par le Président.
-- DGSI : 5 500 agents, budget classifié, contrôle DPR-CNECT sans pouvoir contraignant.
+- Préfecture de Police Paris = **enclave napoléonienne depuis 1800** avec sa propre DRPP (Direction du Renseignement de la Préfecture de Police), héritière des Renseignements Généraux, sa propre police judiciaire, son propre budget, préfet nommé discrétionnairement par le Président.
+- DGSI : ~5 000 agents (objectif 5 500), budget classifié, contrôle DPR-CNECT sans pouvoir contraignant.
 - DRPP : propre service de renseignement de la Préfecture de Police (herméneutique du pouvoir préfectoral sur le territoire parisien).
 - L.435-1 (loi 28/02/2017) : tirs policiers mortels ×5 depuis 2017.
 - IGPN : 300 agents pour 150 000 = **ratio de contrôle 1/500**.

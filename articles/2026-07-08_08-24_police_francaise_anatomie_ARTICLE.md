@@ -1,6 +1,6 @@
 # 🔒 Police française : anatomie d'un système de contrôle à trois étages
 
-*Force publique, police privée, police clandestine : ce que 237 ans d'architecture napoléonienne ont produit*
+*Force publique, police privée, police clandestine : ce que deux siècles d'architecture napoléonienne ont produit*
 
 > Note de l'auteur. Ce dossier est la vingtième enquête du corpus Truth Engine sur le verrouillage de la démocratie française. Les précédentes ont établi le verrouillage de l'évasion fiscale, du système de santé, de la justice, de l'audiovisuel public, de la dette. La police est le verrou le plus ancien et peut-être le plus fondateur : sans contre-pouvoir effectif sur la force publique, les dix-neuf autres tiennent.
 
@@ -14,19 +14,17 @@ La méthode inverse part du fait brut et remonte. Elle prend au sérieux un chif
 
 Cette méthode n'est pas un exercice solitaire. Elle s'inscrit dans un édifice cumulatif. Comme le démontre **[Le Verrou : 28 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias : la démocratie neutralisée](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention)**, la démocratie française fonctionne par empilement de verrous emboîtés qui ne se détruisent pas en isolant l'un d'eux. Dix-neuf enquêtes Truth Engine ont déjà établi le verrouillage de l'évasion fiscale, du système de santé, de la justice, de l'audiovisuel public, de la dette. Ce dossier est le vingtième. Il repose sur cinq enquêtes, environ cent faits sourcés, et dix-huit mécanismes de verrouillage identifiés.
 
-**252 000 agents, 36,6 milliards d'euros, et personne ne peut vous dire quel en est le coût exact.**
-
 ## §1. Le budget qu'on voit
 
 Le projet de loi de finances 2026 affiche, au titre de la Mission Sécurités, environ 25,4 milliards d'euros pour les forces de sécurité intérieure. Le programme 176 (Police nationale) et le programme 152 (Gendarmerie nationale) en constituent l'ossature. À cela s'ajoutent les polices municipales, environ 26 000 agents, financées par les communes.
 
-Le total affiché est donc d'environ 25,4 milliards d'euros pour 252 000 agents publics. C'est le chiffre que le débat public mobilise. C'est aussi le seul que le Parlement vote.
+Le total affiché est donc celui-ci pour 252 000 agents publics : c'est le chiffre que le débat public mobilise, et le seul que le Parlement vote.
 
-Premier constat : ce budget est en augmentation constante depuis 2017. La LOPMI (Loi d'orientation et de programmation du ministère de l'Intérieur, 15 milliards d'euros sur 2023-2027) a alloué 15 milliards d'euros supplémentaires sur la période. Le budget police a augmenté de 50 % en huit ans. Pendant la même période, comme le documente **[La Justice Fantôme : 0,20 % du PIB, 86 000 détenus, 27 % de confiance :  anatomie du verrou judiciaire](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)**, le budget de la justice est resté bloqué à 0,20 % du PIB, soit le quatrième plus faible de l'Union européenne.
+Premier constat : ce budget est en augmentation constante depuis 2017. La LOPMI (Loi d'orientation et de programmation du ministère de l'Intérieur, 15 milliards d'euros sur 2023-2027) a alloué 15 milliards d'euros supplémentaires sur la période. Le budget des forces de sécurité intérieure a ainsi augmenté d'environ 30 % en neuf ans : la mission Sécurités était dotée de 19,5 milliards d'euros de crédits de paiement en 2017 (Cour des comptes). Pendant la même période, comme le documente **[La Justice Fantôme : 0,20 % du PIB, 86 000 détenus, 27 % de confiance :  anatomie du verrou judiciaire](https://giak.substack.com/p/la-justice-fantome-020-du-pib-86)**, le budget de la justice est resté bloqué à 0,20 % du PIB, soit le quatrième plus faible de l'Union européenne.
 
 **La France dépense 2,5 fois plus pour sa police que pour sa justice.**
 
-Cette proportion constitue une anomalie démocratique. En Allemagne, l'équilibre est presque parfait. Au Royaume-Uni, la justice pèse davantage que la police dans le budget régalien. La France inverse ce rapport : elle finance la répression plus que le jugement. Ce déséquilibre budgétaire traduit une doctrine tacite : la mise en scène de la force publique l'emporte désormais sur l'effectivité de la sanction.
+Cette proportion constitue une anomalie démocratique : la France finance la répression plus que le jugement. Ce déséquilibre budgétaire traduit une doctrine tacite : la mise en scène de la force publique l'emporte désormais sur l'effectivité de la sanction.
 
 Mais ce budget visible n'est que la surface.
 
@@ -36,7 +34,7 @@ Derrière les 25,4 milliards officiels, plusieurs couches budgétaires échappen
 
 Première couche : les fonds spéciaux. Le PLF 2026 vote 67,1 millions d'euros. L'exécution réelle atteint 114,1 millions d'euros, soit un dépassement de 47 millions :  70 % au-dessus du vote. L'abondement en cours d'exercice est légal et non soumis à nouveau vote. La CVFS (Commission de vérification des fonds spéciaux), composée de six parlementaires assermentés au secret-défense, contrôle a posteriori mais ses rapports sont classifiés. Le Parlement vote un chiffre dont il ne vérifie pas l'usage.
 
-Deuxième couche : le programme 129, « Coordination du travail gouvernemental », qui abrite sous une étiquette interministérielle des agences de sécurité intérieure. VIGINUM (lutte contre les ingérences numériques) : 2,6 millions d'euros. L'OSIIC (Office de surveillance des ingérences et de l'information de combat) : 29,3 millions. La DGSI : budget classifié, non ventilé. Le GIC (Groupement interministériel de contrôle, interceptions) mobilise 46,1 millions d'euros et 250 agents. En 2025, ses 14 316 interceptions judiciaires traduisent une progression de 136 % des interceptions de données informatiques en cinq ans. Le programme 129 dans son ensemble représente 431,1 millions d'euros, intégralement publié dans les documents budgétaires annexes, mais fragmenté entre trop d'agences pour qu'aucune ne soit vraiment lisible.
+Deuxième couche : le programme 129, « Coordination du travail gouvernemental », qui abrite sous une étiquette interministérielle des agences de sécurité intérieure. VIGINUM (lutte contre les ingérences numériques) : 2,6 millions d'euros. L'OSIIC (Office de surveillance des ingérences et de l'information de combat) : 29,3 millions. La DGSI : budget classifié, non ventilé. Le GIC (Groupement interministériel de contrôle, interceptions) mobilise 46,1 millions d'euros et 250 agents. En 2024, il a réalisé 14 316 interceptions de sécurité. Sur la même période de cinq ans, le recours aux logiciels espions (recueil de données informatiques) a progressé de 136 %. Le programme 129 dans son ensemble représente 431,1 millions d'euros, intégralement publié dans les documents budgétaires annexes, mais fragmenté entre trop d'agences pour qu'aucune ne soit vraiment lisible.
 
 Troisième couche : la sécurité privée. Le secteur représente 11,12 milliards d'euros de chiffre d'affaires annuel, en croissance continue depuis 2015. Il emploie environ 180 000 agents, soit presque autant que la police nationale (150 000). Il est faiblement régulé par le CNAPS (Conseil national des activités privées de sécurité), autorité administrative indépendante créée en 2011, dont les moyens de contrôle sont notoirement insuffisants face aux 180 000 salariés du secteur. La sécurité privée est le deuxième étage du système : elle prend en charge ce que la police publique ne peut ou ne veut plus faire, de la surveillance des centres commerciaux à la protection des infrastructures critiques. Son financement est privé, et par conséquent invisible dans les comptes publics. Son personnel est en partie immigré, en partie précaire, et largement dépourvu des garanties statutaires de la fonction publique.
 
@@ -48,41 +46,41 @@ L'estimation basse du budget agrégé de la sécurité intérieure française, t
 
 ## §3. La doctrine du manifestant-cible
 
-La police française n'a pas de doctrine officielle du maintien de l'ordre qui serait codifiée dans un texte public. Elle a une pratique, et cette pratique a une généalogie.
+La police française dispose d'une doctrine officielle du maintien de l'ordre : le Schéma national du maintien de l'ordre (SNMO), publié en septembre 2020, partiellement censuré par le Conseil d'État en juin 2021, révisé en décembre 2021. Le texte existe. Reste à savoir ce que la pratique en fait, car cette pratique a une généalogie que le texte ne dit pas.
 
 La filiation commence avec Roger Trinquier, officier français théoricien de la contre-insurrection pendant la guerre d'Algérie. Son ouvrage *La Guerre moderne* (1961) théorise le contrôle des populations comme champ de bataille : quadrillage du territoire, fichage systématique, infiltration, retournement. Ces techniques, développées contre le FLN, ont migré vers le maintien de l'ordre hexagonal après 1962.
 
 La deuxième filiation est israélienne. Depuis les années 2000, des unités d'élite françaises (RAID, GIGN) sont formées en Israël aux techniques de contre-terrorisme et de contrôle des foules. Des délégations de la police et de la gendarmerie françaises ont observé les opérations israéliennes en Cisjordanie. Le transfert n'est pas documenté dans un traité : il est opérationnel, d'homme à homme, de stage en stage. La doctrine israélienne du *maintien de l'ordre en territoire hostile*, où la population est structurellement suspecte, a imprégné les unités françaises spécialisées, puis diffusé vers les unités territoriales.
 
-La troisième couche est technologique. Le LBD (Lanceur de Balles de Défense) 40 mm, fabriqué par Alsetex, a été déployé à grande échelle à partir de 2018. Pendant le mouvement des Gilets Jaunes, le bilan documenté par Amnesty International et corroboré par une étude publiée dans *The Lancet* fait état de 23 personnes éborgnées et 5 mains arrachées. La même entreprise, Alsetex, a été mise en examen en 2019 pour homicide involontaire lié à l'utilisation de ses munitions. Ses contrats avec le ministère de l'Intérieur ont été renouvelés en 2023 pour 21 millions d'euros sur quatre ans.
+La troisième couche est technologique. Le LBD (Lanceur de Balles de Défense) 40 mm a été déployé à grande échelle à partir de 2018. Pendant le mouvement des Gilets Jaunes, le bilan documenté par Amnesty International et corroboré par une étude publiée dans *The Lancet* fait état de 23 personnes éborgnées et 5 mains arrachées.
 
 **Le manifestant n'est plus un citoyen : c'est une cible.**
 
-La doctrine n'a pas besoin d'être écrite. Elle se lit dans l'équipement, dans les stages, dans la jurisprudence interne des unités. Elle se lit dans les chiffres : entre 2018 et 2024, au moins 23 éborgnés, 5 mains arrachées, et une entreprise mise en examen dont les contrats sont reconduits. Aucun responsable politique ou policier n'a été sanctionné pour ces blessures.
+Le texte existe, mais la pratique s'en écarte. L'écart se lit dans l'équipement, dans les stages, dans la jurisprudence interne des unités. Il se lit dans les chiffres : 23 éborgnés, 5 mains arrachées, et aucun responsable politique ou policier sanctionné pour ces blessures.
 
 ## §4. L'impunité comme système
 
-Le 28 février 2017, la loi relative à la sécurité publique, dite « loi refus d'obtempérer », modifie l'article 435-1 du Code de la sécurité intérieure. Le texte aligne les conditions d'usage de l'arme à feu par les policiers sur celles des gendarmes. Dans les faits, il élargit les cas où un policier peut tirer sans être présumé coupable.
+Le 28 février 2017, la loi relative à la sécurité publique, dite « loi refus d'obtempérer », modifie l'article L.435-1 du Code de la sécurité intérieure. Le texte aligne les conditions d'usage de l'arme à feu par les policiers sur celles des gendarmes. Dans les faits, il élargit les cas où un policier peut tirer sans être présumé coupable.
 
-L'effet est documenté par une étude de Sebastian Roché, Paul Le Derff et Simon Varaine (CNRS/CESDIP, 2024) : **le nombre de décès consécutifs à des tirs policiers a été multiplié par cinq depuis 2017.** La loi n'a pas été abrogée.
+L'effet est documenté par une étude de Sebastian Roché, Paul Le Derff et Simon Varaine (CNRS/CESDIP) : **les décès par tir lors de refus d'obtempérer (véhicule en mouvement) sont passés de 0,06 par mois avant la loi à 0,32 par mois après, soit une multiplication par cinq.** La loi n'a pas été abrogée.
 
 L'impunité policière n'est pas une série de défaillances individuelles. Elle est un système à trois niveaux.
 
 Premier niveau : l'IGPN (Inspection générale de la police nationale). Elle compte environ 300 agents pour 150 000 policiers, soit un ratio d'un contrôleur pour 500 contrôlés. Elle est placée sous l'autorité directe du directeur général de la police nationale, qui est lui-même nommé par le ministre de l'Intérieur, elle n'est pas indépendante. Ses rapports annuels documentent des milliers de plaintes et un taux de sanction disciplinaire qui oscille entre 3 % et 7 % des saisines.
 
-Deuxième niveau : le parquet. En France, le parquet n'est pas indépendant du pouvoir exécutif. L'article 30 du Code de procédure pénale permet au garde des Sceaux de lui adresser des instructions générales. La QPC (Question prioritaire de constitutionnalité) du 8 décembre 2017 a censuré les instructions individuelles, mais les instructions générales perdurent et ne sont pas traçables. Le classement sans suite est la norme pour les plaintes contre des policiers : le taux exact n'est pas publié, mais les estimations associatives le situent au-dessus de 90 %.
+Deuxième niveau : le parquet. En France, le parquet n'est pas indépendant du pouvoir exécutif. L'article 30 du Code de procédure pénale permet au garde des Sceaux de lui adresser des instructions générales. La QPC (Question prioritaire de constitutionnalité) du 8 décembre 2017 a censuré les mots « et sous l'autorité du garde des sceaux » qui rattachaient les magistrats du parquet au pouvoir exécutif ; les instructions individuelles sont, elles, interdites par la loi organique de 2013. Mais les instructions générales demeurent, et elles ne sont pas traçables. Le classement sans suite est la norme pour les plaintes contre des policiers : le taux exact n'est pas publié, mais les estimations associatives le situent au-dessus de 90 %.
 
-Troisième niveau : la protection syndicale. La Cour des comptes, dans un rapport de mars 2025, a révélé que l'État verse 54 millions d'euros par an aux syndicats de police sous forme de décharges syndicales, de mise à disposition de locaux et d'équipements. Ce chiffre, 367 euros par agent, est deux fois supérieur à la moyenne de la fonction publique. En échange de ce financement public sans contrôle, les syndicats défendent juridiquement les policiers mis en cause et bloquent les réformes du contrôle interne. Le Beauvau de la sécurité (2020-2021) a explicitement écarté le volet « contrôle de l'action policière » sous la pression syndicale.
+Troisième niveau : la protection syndicale. L'État finance les syndicats de police sans aucun contrôle de l'usage de ces fonds, et ces syndicats défendent juridiquement les policiers mis en cause en échange. Le mécanisme complet est détaillé au §6.
 
-**La loi de 2017 a multiplié les décès par cinq. Elle n'a pas été abrogée.**
+**La loi de 2017 a multiplié par cinq les décès par tir lors de refus d'obtempérer. Elle n'a pas été abrogée.**
 
-La cogestion syndicale bloque toute réforme du contrôle interne. L'impunité a trois étages et chacun est structurel. La Cour des comptes a chiffré le coût de cette cogestion à 54 millions d'euros par an.
+La cogestion syndicale bloque toute réforme du contrôle interne. L'impunité a trois niveaux, et chacun est structurel.
 
 ## §5. Le complexe industrielo-policier
 
 En 2015, la police nationale française déploie secrètement un logiciel israélien d'analyse vidéo algorithmique nommé Briefcam. Le logiciel, capable de filtrer des images par type d'objet, couleur, vitesse, genre, âge et reconnaissance faciale, est installé sans déclaration à la CNIL, sans analyse d'impact, sans base légale. Il le restera pendant neuf ans.
 
-En 2023, le média Disclose révèle l'affaire : Briefcam est couplé au logiciel NEO, l'interface de consultation des fichiers de police, créant une chaîne de reconnaissance faciale de fait. Aucune autorisation légale n'a été délivrée. Le 19 décembre 2024, la CNIL met en demeure le ministère de l'Intérieur : elle ordonne de « ponter » la fonctionnalité de reconnaissance faciale, sans exiger la désinstallation du logiciel. Le 31 janvier 2025, le tribunal administratif de Grenoble juge Briefcam illégal dans tous ses usages, y compris pour les enquêtes judiciaires, mais sa décision ne concerne qu'une commune, Moirans. La police nationale continue d'utiliser Briefcam.
+En 2023, le média Disclose révèle l'affaire : Briefcam est couplé au logiciel NEO, l'interface de consultation des fichiers de police, créant une chaîne de reconnaissance faciale de fait. Aucune autorisation légale n'a été délivrée. Le 5 décembre 2024, la CNIL met en demeure le ministère de l'Intérieur : elle ordonne de « ponter » la fonctionnalité de reconnaissance faciale, sans exiger la désinstallation du logiciel. Le 31 janvier 2025, le tribunal administratif de Grenoble juge Briefcam illégal dans tous ses usages, y compris pour les enquêtes judiciaires, mais sa décision ne concerne qu'une commune, Moirans. La police nationale continue d'utiliser Briefcam.
 
 **Briefcam est illégal depuis 2015. Il est toujours là.**
 
@@ -94,7 +92,7 @@ Thales, via sa division Digital Identity and Security, est le fournisseur histor
 
 Milipol Paris, le salon mondial de la sécurité intérieure, est organisé sous l'égide du ministère de l'Intérieur. C'est la vitrine commerciale où Alsetex, Thales, IDEMIA et leurs concurrents exposent leurs produits aux délégations policières étrangères. Le circuit est fermé : les technologies exposées à Milipol sont ensuite poussées par CIVIPOL, l'opérateur de coopération du ministère, et par la DCIS, la direction de la coopération internationale de sécurité, vers les polices de 160 pays. Les exportations génèrent des économies d'échelle qui réduisent les coûts pour la police française. La boucle est complète et personne ne l'audite.
 
-Comme le documentait déjà **[L'agenda législatif précède la violence de la rue : l'échec des politiques publiques est devenu un modèle économique](https://giak.substack.com/p/lagenda-legislatif-precede-la-violence)**, ce même complexe (Alsetex, Thales, Briefcam) était déjà à l'œuvre lors des émeutes de juin 2023. La fenêtre d'Overton se déplace en 48 heures : une crise sécuritaire justifie l'équipement, l'équipement normalise la doctrine, et la doctrine produit la prochaine crise.
+Comme le documentait déjà **[L'agenda législatif précède la violence de la rue : l'échec des politiques publiques est devenu un modèle économique](https://giak.substack.com/p/lagenda-legislatif-precede-la-violence)**, ce même complexe (Alsetex, Thales, Briefcam) était déjà à l'œuvre lors des émeutes de juin 2023. La fenêtre d'Overton se déplace en 48 heures : une crise sécuritaire justifie l'équipement, et l'équipement normalise la doctrine.
 
 ## §6. La cogestion syndicale
 
@@ -106,50 +104,49 @@ Alliance a pris un tournant politique documenté depuis 2020. Ses communiqués �
 
 UNSA Police et l'UN1TÉ (ex-SGP-FO) se partagent le reste de la représentativité. Les trois organisations siègent dans toutes les instances de dialogue social, et surtout dans les négociations directes avec le ministre de l'Intérieur. Le Beauvau de la sécurité (2020-2021), convoqué après les violences policières de 2020, a explicitement exclu le volet « contrôle de l'action policière » de son périmètre sous la pression des syndicats, selon Le Monde (27 mai 2021) et Libération (13 mai 2021).
 
-**L'État paie 54 millions d'euros par an aux syndicats qui le négocient.**
+**La cogestion ne se négocie pas : elle s'achète, et c'est l'État qui paie.**
 
 La cogestion fonctionne comme un pacte implicite : l'État finance les syndicats, les syndicats protègent les policiers, et toute réforme du contrôle interne ou de l'impunité est bloquée en amont, avant même d'arriver au débat parlementaire. C'est l'un des mécanismes centraux de verrouillage de l'institution policière, et il est entièrement financé par l'argent public.
 
 ## §7. La police clandestine : DGSI
 
-La Direction générale de la sécurité intérieure est le service de renseignement intérieur français. Créée en 2008 sous le nom de DCRI (Direction centrale du renseignement intérieur) par fusion de la DST (Direction de la surveillance du territoire) et des RG (Renseignements Généraux), devenue DGSI en 2014, elle emploie environ 5 500 agents. Son budget est classifié.
+La Direction générale de la sécurité intérieure est le service de renseignement intérieur français. Créée en 2008 sous le nom de DCRI (Direction centrale du renseignement intérieur) par fusion de la DST (Direction de la surveillance du territoire) et des RG (Renseignements Généraux), devenue DGSI en 2014, elle emploie environ 5 000 agents fin 2024, avec un objectif affiché de 5 500. Son budget est classifié.
 
 La DGSI a connu deux régimes de contrôle successifs. De 2008 à 2015, aucun contrôle parlementaire spécifique n'existait : la DGSI répondait directement au ministre de l'Intérieur et au président de la République, sans intermédiaire élu. En 2015, la loi sur le renseignement a créé la Délégation parlementaire au renseignement (DPR, composée de huit parlementaires assermentés au secret-défense) et la CNCTR (Commission nationale de contrôle des techniques de renseignement). Ces deux instances peuvent émettre des avis et des recommandations, mais elles n'ont pas de pouvoir d'injonction. Leurs membres, assermentés au secret-défense, ne peuvent divulguer le contenu de leurs travaux. Depuis la création de la DST en 1944, le renseignement intérieur français n'a jamais été soumis à un contrôle parlementaire effectif comparable à celui du Congrès américain sur le FBI.
 
-L'affaire Squarcini illustre ce que l'absence de contrôle rend possible. Bernard Squarcini, patron de la DST de 2002 à 2007 puis de la DCRI (l'ancêtre de la DGSI) de 2008 à 2012, a été condamné le 7 mars 2025 pour avoir utilisé les moyens du renseignement intérieur au profit de LVMH. Il avait fait espionner le journal Fakir, fondé par François Ruffin, qui préparait un documentaire sur Bernard Arnault. Il avait également fait surveiller des magistrats et des syndicalistes. L'instruction a duré neuf ans. Squarcini a été condamné à deux ans de prison avec sursis.
+L'affaire Squarcini illustre ce que l'absence de contrôle rend possible. Bernard Squarcini, directeur de la DST de 2007 à 2008 puis de la DCRI (l'ancêtre de la DGSI) de 2008 à 2012, a été condamné le 7 mars 2025 pour avoir utilisé les moyens du renseignement intérieur au profit de LVMH. Il avait fait espionner le journal Fakir, fondé par François Ruffin, qui préparait un documentaire sur Bernard Arnault. Il avait également fait surveiller des magistrats et des syndicalistes. L'instruction a duré neuf ans. Squarcini a été condamné à quatre ans de prison, dont deux ferme sous bracelet électronique, 200 000 euros d'amende et cinq ans d'interdiction professionnelle.
 
 **Le patron du renseignement intérieur a espionné pour LVMH. Il a été condamné neuf ans plus tard.**
 
-La DGSI constitue le troisième étage du système de contrôle social : la police clandestine. Le premier étage est visible (252 000 agents publics, 25,4 milliards), le deuxième est privé (180 000 agents, 11,12 milliards, faiblement régulés), le troisième est invisible (5 500 agents, budget classifié, contrôle parlementaire sans pouvoir contraignant). Les trois étages n'ont pas de coordinateur unique, et c'est précisément cela qui rend le système incontrôlable. Chaque étage a son propre mécanisme de verrouillage, et aucun ne dépend des autres pour fonctionner. Si l'un est mis en cause, les deux autres demeurent.
+La DGSI constitue le troisième étage du système de contrôle social : la police clandestine. Chaque étage a son propre mécanisme de verrouillage, et aucun ne dépend des autres pour fonctionner. Si l'un est mis en cause, les deux autres demeurent.
 
-## §8. Le cliquet : six lois en neuf ans, zéro abrogation
+## §8. Le cliquet : cinq lois en neuf ans, zéro abrogation
 
-Depuis 2015, six lois majeures ont étendu les pouvoirs de la police, du renseignement et verrouillé le contre-pouvoir citoyen sans qu'aucune ne soit abrogée :
+Depuis 2015, cinq lois majeures ont étendu les pouvoirs de la police, du renseignement et verrouillé le contre-pouvoir citoyen sans qu'aucune ne soit abrogée :
 
 - **Loi sur le renseignement** (24 juillet 2015) : légalise les IMSI-catchers, les écoutes administratives sans juge, et crée la DPR et la CNCTR sans pouvoir contraignant.
 - **Loi Sauvadet** (3 juin 2016) : élargit la légitime défense des policiers.
-- **Loi refus d'obtempérer** (28 février 2017) : aligne l'usage de l'arme à feu sur le modèle gendarmerie, multiplie les décès par cinq.
+- **Loi refus d'obtempérer** (28 février 2017) : aligne l'usage de l'arme à feu sur le modèle gendarmerie, multiplie par cinq les décès par tir lors de refus d'obtempérer.
 - **Loi Sécurité globale** (25 mai 2021) : autorise les drones et caméras-piétons, étend les pouvoirs des polices municipales.
 - **Loi JO 2024** (19 mai 2023) : expérimentation de la vidéosurveillance algorithmique (VSA), cadre temporaire dont la pérennisation est en débat.
-- **Loi relative au RIP** (23 juillet 2008) : introduit le Référendum d'Initiative Partagé, conditionné à 4,7 millions de signatures et à la validation du Conseil constitutionnel, sans jamais aboutir en quinze ans d'existence.
 
 L'effet cliquet est mécanique : chaque loi ajoute un pouvoir, aucune loi ne le retire. L'empilement produit un régime d'exception permanent sans que personne l'ait voté comme tel. La loi de 2017 sur le refus d'obtempérer n'a pas été débattue comme une légalisation du tir mortel : elle l'est devenue par la pratique, établie par le CNRS. La loi JO 2024 n'a pas été débattue comme une pérennisation de la surveillance algorithmique : elle le deviendra si le Parlement vote la prolongation, comme le contexte politique le suggère.
 
-**Six lois en neuf ans. Zéro abrogation.**
+**Cinq lois en neuf ans. Zéro abrogation.**
 
-Le cliquet ne repose pas sur un complot. Il repose sur une architecture. Comme le documente **[Le Verrou : 28 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias : la démocratie neutralisée](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention)**, la démocratie française fonctionne par empilement de verrous emboîtés qui ne se détruisent pas en isolant l'un d'eux : le 49.3 et les ordonnances neutralisent le Parlement, les six lois sécuritaires neutralisent le contre-pouvoir citoyen, et l'article 89 neutralise la possibilité même de réviser l'architecture. L'article 11 de la Constitution réserve le référendum au président de la République. L'article 16 donne au président les pleins pouvoirs en cas de crise majeure, mobilisables sans vote parlementaire. L'article 89 alinéa 4 rend la forme républicaine intangible, empêchant toute révision constitutionnelle d'envergure sans le consentement du pouvoir exécutif. Ces trois articles, combinés, créent un verrouillage méta-constitutionnel : **la Constitution est constitutionnellement incapable de se modifier pour limiter les pouvoirs qu'elle a accordés**.
+Le cliquet ne repose pas sur un complot. Il repose sur une architecture. Comme le documente **[Le Verrou : 28 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias : la démocratie neutralisée](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention)**, la démocratie française fonctionne par empilement de verrous emboîtés qui ne se détruisent pas en isolant l'un d'eux : le 49.3 et les ordonnances neutralisent le Parlement, les cinq lois sécuritaires neutralisent le contre-pouvoir citoyen, et l'article 89 neutralise la possibilité même de réviser l'architecture. L'article 11 de la Constitution réserve le référendum au président de la République. L'article 16 donne au président les pleins pouvoirs en cas de crise majeure, mobilisables sans vote parlementaire. L'article 89 alinéa 5 rend la forme républicaine intangible, empêchant toute révision constitutionnelle d'envergure sans le consentement du pouvoir exécutif. Ces trois articles, combinés, créent un verrouillage méta-constitutionnel : **la Constitution est constitutionnellement incapable de se modifier pour limiter les pouvoirs qu'elle a accordés**.
 
 À cette architecture interne s'ajoute une contrainte externe que la plupart des analyses omettent. Le TPI (Transmission Protection Instrument) de la Banque centrale européenne, activé en juillet 2022, conditionne le rachat de dette souveraine au respect du cadre budgétaire européen. Tout gouvernement qui voudrait augmenter massivement le budget de la justice, réduire celui de la police, ou créer des contre-pouvoirs coûteux se heurterait à l'écart de taux obligataire avant même d'atteindre le Parlement. La contrainte monétaire est le verrou le plus silencieux, et le plus efficace.
 
 ## §9. Ce qui reste
 
-La police française n'est pas une institution démocratique classique. Elle est un système de contrôle social à trois étages, construit strate par strate depuis 237 ans, sans que personne l'ait jamais décidé.
+La police française n'est pas une institution démocratique classique. Elle est un système de contrôle social à trois étages, construit strate par strate, sans que personne l'ait jamais décidé.
 
-Premier étage : la force publique visible. 252 000 agents, 25,4 milliards d'euros officiels, 2,5 fois le budget de la justice, une doctrine importée de la contre-insurrection coloniale, une impunité garantie par 54 millions d'euros de décharges syndicales sans contrôle, et six lois en neuf ans sans abrogation.
+Premier étage : la force publique visible. 252 000 agents, 25,4 milliards d'euros officiels, 2,5 fois le budget de la justice, une doctrine importée de la contre-insurrection coloniale, une impunité garantie par 54 millions d'euros de décharges syndicales sans contrôle, et cinq lois en neuf ans sans abrogation.
 
 Deuxième étage : la police privée faiblement régulée. 11,12 milliards d'euros, 180 000 agents sans garanties statutaires, une main-d'œuvre en partie immigrée et précaire, un régulateur sans moyens.
 
-Troisième étage : la police clandestine. 5 500 agents, un budget classifié, plus de quatre-vingts ans sans contrôle parlementaire effectif, un ancien patron condamné pour avoir espionné pour LVMH.
+Troisième étage : la police clandestine. 5 000 agents, un budget classifié, plus de quatre-vingts ans sans contrôle parlementaire effectif, un ancien patron condamné pour avoir espionné pour LVMH.
 
 Les trois étages n'ont pas de chef d'orchestre. C'est précisément ce qui rend le système si résistant à la réforme : il n'y a pas de responsable unique à contraindre, pas de décision fondatrice à annuler, pas de loi-cadre à abroger. Il n'y a que l'empilement.
 
@@ -161,7 +158,33 @@ Les contre-pouvoirs existent formellement. La CNIL peut mettre en demeure, mais 
 
 La question n'est pas « qui verrouille ? ». La réponse est « tout le monde, et personne ». La question est : « qui pourrait déverrouiller ? ». Et la réponse, pour l'instant, est silencieuse.
 
-**237 ans après Napoléon, la Préfecture de police de Paris a toujours sa police politique.**
+**Deux cent vingt-six ans après sa création par Napoléon, la Préfecture de police de Paris a toujours sa police politique.**
+
+---
+
+## Article modifié : mea culpa
+
+*Mise à jour du 15 août 2026.*
+
+Deux corrections ont été apportées à ce dossier, à la suite d'un commentaire d'un lecteur, [Arnaud](https://substack.com/@arnaud11), qui a signalé des imprécisions avec précision. C'est la lecture que j'espère pour ce support : une réfutation sourcée, un débat, du respect. Je l'en remercie.
+
+**1. Le §3 affirmait l'absence de doctrine officielle du maintien de l'ordre. C'était faux.**
+
+Avant : « La police française n'a pas de doctrine officielle du maintien de l'ordre qui serait codifiée dans un texte public. »
+
+Après : « La police française dispose d'une doctrine officielle du maintien de l'ordre : le Schéma national du maintien de l'ordre (SNMO), publié en septembre 2020, partiellement censuré par le Conseil d'État en juin 2021, révisé en décembre 2021. »
+
+Mea culpa : le texte existe. La thèse du §3 a été reformulée en conséquence : ce n'est plus « pas de doctrine », mais « un texte qui existe, et une pratique documentée qui s'en écarte ». C'est cet écart que le dossier décrit.
+
+**2. Le §4 présentait le ×5 de façon trop large.**
+
+Avant : « le nombre de décès consécutifs à des tirs policiers a été multiplié par cinq depuis 2017. »
+
+Après : « les décès par tir lors de refus d'obtempérer (véhicule en mouvement) sont passés de 0,06 par mois avant la loi à 0,32 par mois après, soit une multiplication par cinq. »
+
+Mea culpa : le ×5 porte sur les décès par tir lors de refus d'obtempérer, pas sur l'ensemble des tirs policiers, dont l'évolution globale est plus plate. La formulation a été resserrée.
+
+Merci à Arnaud pour ces deux corrections. C'est exactement ce que je demande à chaque lecteur : signaler un fait faux, avec sa source, et je corrige.
 
 ---
 
@@ -182,6 +205,11 @@ La question n'est pas « qui verrouille ? ». La réponse est « tout le monde, 
 - Opération Sentinelle : 7 000 militaires déployés en permanence sur le territoire national, coût estimé ~1 M€/jour (~365 M€/an). https://www.defense.gouv.fr/operations/territoire-national/france-sentinelle
 - CNAPS (Conseil national des activités privées de sécurité) : moyens de contrôle notoirement insuffisants face aux 180 000 salariés du secteur. https://www.cnaps-securite.fr/qui-sommes-nous/nos-missions/
 - Assemblée nationale, Commission des finances, compte rendu n°17 (24 octobre 2023) : audition sur les moyens du CNAPS. https://www.assemblee-nationale.fr/dyn/16/comptes-rendus/cion_fin/l16cion_fin2324017_compte-rendu.pdf
+- Conseil d'État, « Manœuvre d'encerclement, accréditation des journalistes : le Conseil d'État annule plusieurs points du schéma du maintien de l'ordre », 10 juin 2021. https://www.conseil-etat.fr/actualites/manaeuvre-d-encerclement-accreditation-des-journalistes-le-conseil-d-etat-annule-plusieurs-points-du-schema-du-maintien-de-l-ordre
+- Ministère de l'Intérieur, « Actualisation du schéma national du maintien de l'ordre », décembre 2021. https://www.interieur.gouv.fr/documentation/ressources/actualisation-du-schema-national-du-maintien-de-lordre.html
+- Cour des comptes, Note d'analyse de l'exécution budgétaire 2017, Mission Sécurités : 19,82 Md€ d'AE et 19,51 Md€ de CP ouverts en loi de finances 2017. https://www.ccomptes.fr/en/documents/42513
+- Sénat, rapport général n°139 (2025-2026), annexe 28a, « Sécurités » (rapporteur Bruno Belin, 24 novembre 2025) : crédits cumulés police + gendarmerie 2026 à 25,5 Md€ d'AE et 25,0 Md€ de CP. https://www.senat.fr/rap/l25-139-328-1/l25-139-328-1_mono.html
+- Vie publique, « Projet de loi RIPOST (Ordre public, sécurité et tranquillité) » : adopté définitivement par le Parlement le 21 juillet 2026. https://www.vie-publique.fr/loi/302565-projet-de-loi-ripost-ordre-public-securite-et-tranquillite
 
 ### Sources juridiques
 
@@ -210,6 +238,8 @@ La question n'est pas « qui verrouille ? ». La réponse est « tout le monde, 
 - L'Humanité, « Sécurité. Police et extrême droite, terrain glissant », mai 2021. https://www.humanite.fr/politique/violences-policieres/securite-police-et-extreme-droite-terrain-glissant-708750
 - La Quadrature du Net, « Justice finally finds Briefcam unlawful », 31 janvier 2025. https://www.laquadrature.net/en/2025/01/31/justice-finally-finds-briefcam-unlawful/
 - AEF Info, « Fabien Vanhemelryck reconduit à la tête d'Alliance Police Nationale avec un bureau partiellement modifié », 22 décembre 2025. https://www.aefinfo.fr/depeche/742831-fabien-vanhemelryck-reconduit-a-la-tete-dalliance-police-nationale-avec-un-bureau-partiellement-modifie
+- franceinfo, « Vrai ou faux. Le nombre de tués par la police pour des refus d'obtempérer a-t-il été multiplié par cinq depuis la loi de 2017 ? », 10 juillet 2026. https://www.radiofrance.fr/franceinfo/podcasts/le-vrai-ou-faux/le-vrai-ou-faux-du-vendredi-10-juillet-2026-4334068
+- Ouest-France, « La commande XXL de l'État au Sarthois Alsetex pour les munitions de la police et de la gendarmerie », 23 novembre 2023 : cinq lots pour 21 millions d'euros sur quatre ans. https://www.ouest-france.fr/societe/securite/la-commande-xxl-de-letat-au-sarthois-alsetex-pour-les-munitions-de-la-police-et-de-la-gendarmerie-ac538146-888d-11ee-a92a-0b4bc05f91ae
 
 ### Sources académiques et ONG
 
@@ -223,7 +253,8 @@ La question n'est pas « qui verrouille ? ». La réponse est « tout le monde, 
 
 ### Sources corporate et commerciales
 
-- Etienne Lacroix Group, société holding familiale non cotée. Données financières (CA groupe 173 M€ 2025, Alsetex ~49,8 M€ 2016) issues de la presse spécialisée défense et industrie. Site corporate : https://www.etienne-lacroix.com
+- Etienne Lacroix Group, société holding familiale non cotée : 173 M€ de chiffre d'affaires en 2025. https://www.etienne-lacroix.com/qui-sommes-nous.php
+- Thales, « Share and Shareholding » : État français 26,60 %, Dassault Aviation 26,59 %. https://www.thalesgroup.com/en/investor-relations/share-and-shareholding
 - MGP (Mutuelle Générale de la Police), rapport SFCR 2024 : taux couverture SCR 395 %. Mandataire PSC ministère Intérieur avec MGEN (janvier 2026). https://www.mgp.fr/files/live/sites/mgp/files/pdf-docs/SFCR/MGPSFCR2024-avec-annexes.pdf
 - Alliance Police Nationale, SIREN 308 244 417, association loi 1901. https://annuaire-entreprises.data.gouv.fr/entreprise/ass-alliance-police-nationale-308244417
 - Milipol Paris, salon mondial de la sécurité intérieure sous égide ministère de l'Intérieur. https://www.milipol.com/en

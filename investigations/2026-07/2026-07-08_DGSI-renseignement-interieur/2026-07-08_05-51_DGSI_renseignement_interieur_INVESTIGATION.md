@@ -2,7 +2,7 @@
 
 > **Complexité** : APEX (15 points) | **Date** : 2026-07-08 | **Pipeline** : KERNEL v2.0
 > **Périmètre** : DGSI — 1944 (DST) → 2014 (DGSI) → 2026. Budget, effectifs, opérations, controverses, contrôle.
-> **Thèse organisatrice** : La DGSI est l'agence la plus puissante et la moins contrôlée de l'État français : 5 500 agents, budget classifié, fichage secret-défense, et un précédent documenté de privatisation du renseignement au profit d'intérêts privés (Squarcini/LVMH).
+> **Thèse organisatrice** : La DGSI est l'agence la plus puissante et la moins contrôlée de l'État français : ~5 000 agents (objectif 5 500), budget classifié, fichage secret-défense, et un précédent documenté de privatisation du renseignement au profit d'intérêts privés (Squarcini/LVMH).
 
 ---
 
@@ -11,7 +11,7 @@
 | Fait | Chiffre | Source |
 |------|---------|--------|
 | Création DGSI | 30 avril 2014 (succède DCRI, fusion DST+RG 2008) | Décret officiel |
-| Effectifs | **~5 500 agents** (vs ~4 300 en 2019) | Estimations parlementaires |
+| Effectifs | **~5 000 agents fin 2024** (objectif 5 500 ; ~4 300 en 2019) | Estimations parlementaires, Ouest-France |
 | Budget | **Classifié** (intégré Programme 176 « Police nationale ») | PLF |
 | Directrice actuelle | **Céline Berthon** (depuis 20 décembre 2023) | Nomination officielle |
 | Prédécesseur | Nicolas Lerner (2018-2023) | Archives |
@@ -60,7 +60,7 @@ PRIORITIES:[budget classifié] [Squarcini LVMH] [CRISTINA] [contrôle parlementa
 | 2012 | Affaire Merah : échec évaluation dangerosité | Critiques massives, réformes |
 | 2014 | DCRI devient DGSI (direction générale autonome, 30 avril) | Autonomie RH, budget, technique |
 | 2015 | Loi renseignement (24 juillet) : cadre légal CNCTR, techniques encadrées | Normalisation juridique tardive |
-| 2015-2025 | Doublement effectifs (~4 300 → ~5 500) | Expansion post-attentats |
+| 2015-2025 | Croissance effectifs (~4 300 → ~5 000, objectif 5 500) | Expansion post-attentats |
 | 2018-2023 | Nicolas Lerner dirige DGSI | Transformation technologique |
 | 2021 | LVMH CJIP : 10 M€ amende sans reconnaissance culpabilité | Évitement procès pénal |
 | Décembre 2023 | Céline Berthon nommée directrice | Première femme à la tête de la DGSI |
@@ -84,7 +84,7 @@ PRIORITIES:[budget classifié] [Squarcini LVMH] [CRISTINA] [contrôle parlementa
 ### 8.2 — BUDGET ET EFFECTIFS
 
 - **Budget** : classifié. Intégré au Programme 176 « Police nationale » (Mission Sécurités). Augmentation constante documentée par rapports parlementaires.
-- **Effectifs** : ~5 500 agents (2025-2026), en hausse par rapport à ~4 300 (2019). Fort recrutement post-2015.
+- **Effectifs** : ~5 000 agents fin 2024 (objectif 5 500), en hausse par rapport à ~4 300 (2019). Fort recrutement post-2015.
 - **Fonds spéciaux** : partie du budget DGSI transite par les fonds spéciaux (67,1 M€ votés PLF 2026, 114,1 M€ exécutés 2024). Contrôlés par CVFS sous secret-défense.
 
 ### 8.3 — TECHNIQUES ET FICHIERS
@@ -131,7 +131,7 @@ PRIORITIES:[budget classifié] [Squarcini LVMH] [CRISTINA] [contrôle parlementa
 
 | Agence | Pays | Effectifs | Budget | Contrôle parlementaire | Création |
 |--------|------|-----------|--------|----------------------|----------|
-| **DGSI** | France | ~5 500 | Classifié | DPR (8 élus, secret-défense) | 2014 |
+| **DGSI** | France | ~5 000 | Classifié | DPR (8 élus, secret-défense) | 2014 |
 | **MI5** | UK | ~5 000 | ~£500 M (public) | ISC (comité parlementaire, rapports publics) | 1909 |
 | **FBI** | US | ~35 000 | ~$11 Md (public) | Congrès (auditions publiques, budget voté) | 1908 |
 
@@ -207,7 +207,7 @@ WOLF_PRIVATE:
 | # | Fait | Source | Fiabilité |
 |---|------|--------|-----------|
 | F1 | DGSI créée 30 avril 2014 (succède DCRI, fusion DST+RG 2008) | Décret officiel | ✦ |
-| F2 | ~5 500 agents (2025-2026) | Estimations parlementaires | ✧ |
+| F2 | ~5 000 agents fin 2024, objectif 5 500 | Estimations parlementaires, Ouest-France | ✧ |
 | F3 | Budget classifié (intégré Programme 176) | PLF | ✦ |
 | F4 | Céline Berthon directrice depuis 20 décembre 2023 | Nomination officielle | ✦ |
 | F5 | Squarcini condamné 7 mars 2025 : 4 ans (2 ferme bracelet), 200 000 € | Tribunal Paris | ✦ |

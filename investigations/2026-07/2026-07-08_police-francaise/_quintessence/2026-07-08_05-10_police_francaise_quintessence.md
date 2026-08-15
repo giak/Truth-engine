@@ -26,7 +26,7 @@
 ## 2. Faits atomiques préservés
 
 ✦ **F-001** : Budget forces de l'ordre (Police nationale + Gendarmerie) ~25 Md€/an (PLF 2026) [§8.1 (estimé)]
-✦ **F-002** : Budget police +50 % depuis 2017 (LOPMI +15 Md€ sur 2023-2027) [§1 Résumé exécutif (estimé)]
+✦ **F-002** : Budget police ~+30 % depuis 2017 (19,51 Md€ CP 2017 → ~25 Md€ CP 2026) [§1 Résumé exécutif (estimé)]
 ✦ **F-003** : Ratio budget police/justice 2,5:1 — le plus élevé d'Europe (CEVIPOF, CEPEJ) [§1 Résumé exécutif (estimé)]
 ✦ **F-004** : Budget justice 10,1 Md€ (2024) [§1 Résumé exécutif (estimé)]
 ✦ **F-005** : Sécurité privée : 11,12 Md€ (2023), 210 000 salariés [§8.1 (estimé)]
@@ -100,7 +100,7 @@
 ### Entreprises
 - Thales — systèmes comm, biométrie, CA 22,1 Md€ (2025) [§8.4 (estimé)]
 - Dassault Aviation — actionnaire Thales 26,6 %, drones [§8.4 (estimé)]
-- Alsetex (Lacroix) — fournisseur grenades/LBD, 11 M€ contrats État [§8.4 (estimé)]
+- Alsetex (Lacroix) — fournisseur grenades/LBD, 21 M€ sur quatre ans (2023) [§8.4 (estimé)]
 - Briefcam (Canon/Israël) — reconnaissance faciale illégale [§8.4 (estimé)]
 - Nexter — blindés Centaure [§8.4 (estimé)]
 - AnyVision/Oosto — technologie testée Cisjordanie, déployée en France [ADD1 §16]
@@ -194,8 +194,8 @@
 | 2025 | Loi Narcotrafic | §7 (estimé) |
 | Mars 2025 | Cour des comptes : rapport 54 M€/an décharges syndicales sans contrôle | ADD2 §22 |
 | Février 2026 | Non-lieu définitif Adama Traoré (Cour de cassation) | §7 (estimé) |
-| Mai 2026 | Loi RIPOST votée 4 jours avant match PSG | §7 (estimé) |
-| Juin 2026 | 6e loi sécuritaire en 9 ans, zéro abrogation | §7 (estimé) |
+| 21 juillet 2026 | Loi RIPOST adoptée définitivement | §7 (estimé) |
+| Juillet 2026 | 6e loi sécuritaire en 9 ans, zéro abrogation | §7 (estimé) |
 
 ---
 
@@ -223,7 +223,7 @@
 
 **Niveau L3 (verrou structurel)** : 2015 — Attentats → état d'urgence (714 jours cumulés) → mesures d'exception pérennisées dans le droit commun. [§10 Chaîne 2 (estimé)]
 
-**Preuves** : F-007 (714 jours état urgence), F-008 (6 lois, zéro abrogation), F-017 (RIPOST votée avant match PSG)
+**Preuves** : F-007 (714 jours état urgence), F-008 (6 lois, zéro abrogation), F-017 (RIPOST adoptée le 21 juillet 2026)
 
 **Type de verrou** : Législatif — cliquet autoritaire sans mécanisme de révocation
 

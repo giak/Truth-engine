@@ -36,7 +36,7 @@ Anatomie + Autopsie. On dissèque une institution pour montrer qu'elle est morte
 4. **Ce qu'on leur permet** : loi 2017, ×5 décès, IGPN, classements — l'impunité.
 5. **Qui les équipe** : Alsetex, Thales, Briefcam, Milipol — le complexe industrielo-policier.
 6. **Qui les défend** : 54 M€/an de décharges syndicales, Alliance, Beauvau — la cogestion.
-7. **Qui nous surveille** : DGSI, Squarcini, 5 500 agents, budget classifié — la police clandestine.
+7. **Qui nous surveille** : DGSI, Squarcini, 5 000 agents (objectif 5 500), budget classifié — la police clandestine.
 8. **Qui verrouille** : 6 lois en 9 ans, zéro abrogation, zéro contre-pouvoir effectif — le cliquet.
 9. **Ce qui reste** : la question ouverte.
 
@@ -63,7 +63,7 @@ Anatomie + Autopsie. On dissèque une institution pour montrer qu'elle est morte
 6. « L'État paie 54 millions d'euros par an aux syndicats qui le négocient. »
 7. « Le patron du renseignement intérieur a espionné pour LVMH. Il a été condamné 9 ans plus tard. »
 8. « Six lois en neuf ans. Zéro abrogation. »
-9. « 237 ans après Napoléon, la Préfecture de police de Paris a toujours sa police politique. »
+9. « Deux cent vingt-six ans après sa création par Napoléon, la Préfecture de police de Paris a toujours sa police politique. »
 
 ### Q8. La question ouverte
 
@@ -145,9 +145,9 @@ Si la police française est devenue un système de contrôle social à trois ét
 
 §7 — La police clandestine : DGSI
       Rôle narratif : Dimension clandestine — qui nous surveille
-      Résumé : DGSI : ~5 500 agents, budget classifié, 71 ans sans contrôle parlementaire. Squarcini : DGSE 2002-2007 puis DCRI 2007-2012, condamné 7 mars 2025 pour avoir espionné pour LVMH. Fadettes, Fakir, Montebourg. 9 ans d'instruction. Contrôle : DPR 2015, CNCTR — avis consultatifs, pas de pouvoir d'injonction. 3e pilier du système à trois étages.
+      Résumé : DGSI : ~5 000 agents (objectif 5 500), budget classifié, 71 ans sans contrôle parlementaire. Squarcini : DST 2007-2008 puis DCRI 2008-2012, condamné 7 mars 2025 pour avoir espionné pour LVMH. Fadettes, Fakir, Montebourg. 9 ans d'instruction. Contrôle : DPR 2015, CNCTR — avis consultatifs, pas de pouvoir d'injonction. 3e pilier du système à trois étages.
       KO sentence : « Le patron du renseignement intérieur a espionné pour LVMH. Il a été condamné 9 ans plus tard. »
-      Faits mobilisés : F-001 DGSI 5 500 agents, F-002 budget classifié, F-004 Squarcini, F-005 condamnation 2025, F-007 71 ans sans contrôle, M1 opacité budget, M2 Squarcini, M3 surveillance sans contrôle (tous DGSI)
+      Faits mobilisés : F-001 DGSI ~5 000 agents, F-002 budget classifié, F-004 Squarcini, F-005 condamnation 2025, F-007 71 ans sans contrôle, M1 opacité budget, M2 Squarcini, M3 surveillance sans contrôle (tous DGSI)
       Quintessences source : DGSI-renseignement-interieur
       À couper : Détail historique DST/RG, CRISTINA, technique
 
@@ -161,8 +161,8 @@ Si la police française est devenue un système de contrôle social à trois ét
 
 §9 — Ce qui reste
       Rôle narratif : Ouverture — la question qui habite
-      Résumé : Synthèse des 9 dimensions. Retour au paradoxe initial : pourquoi une institution de 36,6 Md€, documentée sous tous les angles, 237 ans d'histoire, ne change-t-elle jamais ? Pas par complot — par architecture. Les contre-pouvoirs sont structurellement absents (Parlement sans vision consolidée, Cour des comptes sans pouvoir contraignant, CNIL sans sanction). La question n'est pas « qui verrouille ? » mais « qui pourrait déverrouiller ? »
-      KO sentence : « 237 ans après Napoléon, la Préfecture de police de Paris a toujours sa police politique. »
+      Résumé : Synthèse des 9 dimensions. Retour au paradoxe initial : pourquoi une institution de 36,6 Md€, documentée sous tous les angles, deux siècles d'histoire, ne change-t-elle jamais ? Pas par complot — par architecture. Les contre-pouvoirs sont structurellement absents (Parlement sans vision consolidée, Cour des comptes sans pouvoir contraignant, CNIL sans sanction). La question n'est pas « qui verrouille ? » mais « qui pourrait déverrouiller ? »
+      KO sentence : « Deux cent vingt-six ans après sa création par Napoléon, la Préfecture de police de Paris a toujours sa police politique. »
       Faits mobilisés : Tous, synthèse
       Quintessences source : Toutes (5/5)
       À couper : Propositions de réforme (hors scope article enquête)
@@ -177,7 +177,7 @@ Quintessences-phares (section dédiée, 5/5) :
 - police-francaise (2026-07-08_05-10) : §1 budget visible, §2 budget invisible, §3 doctrine, §4 impunité, §8 cliquet — quintessence fondatrice, 5 sections
 - budget-reel-police (2026-07-08_05-58) : §1 budget visible, §2 budget invisible — chiffres consolidés, ventilation programme 129
 - syndicats-police (2026-07-08_05-58) : §6 cogestion syndicale — 54 M€/an, Vanhemelryck, circuit MGP
-- DGSI-renseignement-interieur (2026-07-08_05-58) : §7 police clandestine — 5 500 agents, Squarcini, sans contrôle
+- DGSI-renseignement-interieur (2026-07-08_05-58) : §7 police clandestine — 5 000 agents, Squarcini, sans contrôle
 - contrats-industriels-police (2026-07-08_08-06) : §5 complexe industrielo-policier — Alsetex, Briefcam, Thales, Milipol
 
 Quintessences-appui (0) : N=5 modéré, chaque quintessence porte une dimension unique. Aucune n'est purement appui.

@@ -13,7 +13,7 @@
 | Budget agrégé forces de l'ordre (Police + Gendarmerie) | **~25 Md€/an** (2026) | PLF 2026, Sénat |
 | Ratio budget police/justice | **2,5:1** (le plus élevé d'Europe) | CEVIPOF, CEPEJ |
 | Budget justice | 10,1 Md€ (2024) | Ministère Justice |
-| Hausse budget police depuis 2017 | **+50 %** (LOPMI +15 Md€) | LOPMI 2023-2027 |
+| Hausse budget police depuis 2017 | **~+30 %** (19,51 Md€ CP 2017 → ~25 Md€ CP 2026) | Cour des comptes 2017, Sénat n°139 |
 | Sécurité privée | 11,12 Md€ (2023), 210 000 salariés | Rapports de branche |
 | Effectifs totaux | 252 300 (police+gendarmerie) + 30 000 municipaux | PLF 2026 |
 | Jours d'état d'urgence cumulés | **714 jours** (2015-2017) | Vie Publique |
@@ -79,7 +79,7 @@ Thales 26,6 % détenu par Dassault. État actionnaire des deux. Pantouflage haut
 
 ### TEMPORAL (⏰:7 / ⏰++)
 
-714 jours état d'urgence → 6 lois en 9 ans → accélération. RIPOST votée 4 jours AVANT match PSG.
+714 jours état d'urgence → 6 lois en 9 ans → accélération. RIPOST adoptée le 21 juillet 2026.
 
 ---
 
@@ -173,8 +173,8 @@ Thales 26,6 % détenu par Dassault. État actionnaire des deux. Pantouflage haut
 | Déc. 2024 | CNIL met en demeure Intérieur pour Briefcam (reconnaissance faciale illégale) | Contournement légal documenté |
 | 2025 | Loi Narcotrafic | Extension compétences |
 | Fév. 2026 | Non-lieu définitif Adama Traoré (Cour cassation) | Verrou judiciaire confirmé |
-| Mai 2026 | Loi RIPOST votée 4 jours AVANT match PSG | Loi précède crise |
-| Juin 2026 | 6e loi sécuritaire en 9 ans — zéro abrogation | Cliquet irréversible |
+| 21 juillet 2026 | Loi RIPOST adoptée définitivement par le Parlement | 6e loi sécuritaire, cliquet confirmé |
+| Juillet 2026 | 6e loi sécuritaire en 9 ans — zéro abrogation | Cliquet irréversible |
 
 ---
 
@@ -182,7 +182,7 @@ Thales 26,6 % détenu par Dassault. État actionnaire des deux. Pantouflage haut
 
 ### 8.1 — BUDGET
 
-Budget forces de l'ordre : ~25 Md€ (Police 13,9 Md€ + Gendarmerie 11,1 Md€, PLF 2026). Sécurité privée : 11,12 Md€ (2023). Budget agrégé estimé : 36-40 Md€. Ratio police/justice : 2,5:1 — le plus élevé d'Europe (CEVIPOF/CEPEJ). Évolution : +50 % depuis 2017 (LOPMI +15 Md€). Effectifs : 252 300 (police+gendarmerie) + 30 000 municipaux + 210 000 sécurité privée = **492 300 agents**.
+Budget forces de l'ordre : ~25 Md€ (Police 13,9 Md€ + Gendarmerie 11,1 Md€, PLF 2026). Sécurité privée : 11,12 Md€ (2023). Budget agrégé estimé : 36-40 Md€. Ratio police/justice : 2,5:1 — le plus élevé d'Europe (CEVIPOF/CEPEJ). Évolution : ~+30 % depuis 2017 (19,51 Md€ CP 2017, Cour des comptes → ~25 Md€ CP 2026, Sénat). Effectifs : 252 300 (police+gendarmerie) + 30 000 municipaux + 210 000 sécurité privée = **492 300 agents**.
 
 ### 8.2 — DOCTRINE
 
@@ -308,7 +308,7 @@ WOLF_INTERNATIONAL:
 | # | Fait | Source | Fiabilité |
 |---|------|--------|-----------|
 | F1 | Budget Police + Gendarmerie ~25 Md€ (2026) | PLF 2026, Sénat | ✦ |
-| F2 | Budget police +50 % depuis 2017 (LOPMI +15 Md€) | LOPMI 2023-2027 | ✦ |
+| F2 | Budget police ~+30 % depuis 2017 (19,51 Md€ CP 2017 → ~25 Md€ CP 2026) | Cour des comptes 2017, Sénat n°139 | ✦ |
 | F3 | Ratio police/justice 2,5:1 | CEVIPOF, CEPEJ | ✦ |
 | F4 | Sécurité privée : 11,12 Md€ (2023) | Rapports branche | ✧ |
 | F5 | Effectifs : 252 300 + 30 000 municipaux | PLF 2026 | ✦ |
@@ -323,7 +323,7 @@ WOLF_INTERNATIONAL:
 | F14 | Thales/Dassault : actionnariat croisé, État actionnaire | Bourse, APE | ✦ |
 | F15 | Alliance/UNSA : ~50 % voix élections pro. 2022 | AEF Info | ✧ |
 | F16 | SNMO 2020 : officiellement désescalade | Ministère Intérieur | ✧ |
-| F17 | RIPOST votée avant match PSG | Chronologie article #10 | ✦ |
+| F17 | Loi RIPOST adoptée le 21 juillet 2026 | Vie publique, Libération | ✦ |
 | F18 | CPT/ONU critiques récurrentes France | Rapports CPT, CAT | ✦ |
 | F19 | Tirs mortels hausse post-2017 | Recherche universitaire | ✧ |
 | F20 | France ratio police/habitant > médiane européenne | CEPEJ | ✦ |
@@ -344,9 +344,9 @@ WOLF_INTERNATIONAL:
 
 | Acteur | Gain | Quantification |
 |--------|------|----------------|
-| Ministère Intérieur | Budget, pouvoir, prérogatives | +50 % budget depuis 2017, 6 lois |
+| Ministère Intérieur | Budget, pouvoir, prérogatives | ~+30 % budget depuis 2017, lois accumulées |
 | Thales/Dassault/Nexter | Contrats publics, rente sécuritaire | Thales CA 22,1 Md€ (2025), Dassault actionnaire |
-| Alsetex | Contrats munitions maintien ordre | 11 M€ contrats État (Gilets Jaunes) |
+| Alsetex | Contrats munitions maintien ordre | 21 M€ sur quatre ans (2023) |
 | Syndicats police (Alliance/UNSA) | Protection juridique, influence politique | 50 % voix, accès direct Beauvau |
 | Élus sécuritaires | Électorat, fenêtre Overton déplacée | Retailleau, Ciotti, Zemmour |
 | Sécurité privée | Croissance secteur | 11,12 Md€, 210 000 salariés |

@@ -76,7 +76,7 @@ PRIORITIES:[fonds spéciaux exécution réelle] [programme 129 ventilation] [GIC
 
 ### 8.1 — MISSION SÉCURITÉS (~25 Md€, PLF 2026)
 
-Police nationale : ~13,9 Md€. Gendarmerie nationale : ~11,1 Md€. Sécurité civile, sécurité routière inclus. Budget en hausse de +50 % depuis 2017 (LOPMI +15 Md€). **C'est le noyau visible.**
+Police nationale : ~13,9 Md€. Gendarmerie nationale : ~11,1 Md€. Sécurité civile, sécurité routière inclus. Budget en hausse d'environ 30 % depuis 2017 (Mission Sécurités : 19,51 Md€ CP en 2017, Cour des comptes ; 25,0 Md€ CP police+gendarmerie en 2026, Sénat n°139). **C'est le noyau visible.**
 
 ### 8.2 — PROGRAMME 129 ACTION 2 (431,1 M€, PLF 2026)
 

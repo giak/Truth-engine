@@ -75,15 +75,15 @@ Corpus de 5 quintessences couvrant l'institution policière française sous 5 an
 
 ### T5 — Système de contrôle social à trois étages : force publique + police privée + clandestine
 
-**Énoncé** : La sécurité française ne repose pas sur une force publique unifiée mais sur un empilement de trois couches : une police visible (252 000 agents, ~25 Md€), une police privée (11 Md€, sous-régulée, main-d'œuvre captive immigrée), et une police clandestine (DGSI ~5 500 agents, fonds spéciaux 114 M€, indicateurs).
+**Énoncé** : La sécurité française ne repose pas sur une force publique unifiée mais sur un empilement de trois couches : une police visible (252 000 agents, ~25 Md€), une police privée (11 Md€, sous-régulée, main-d'œuvre captive immigrée), et une police clandestine (DGSI ~5 000 agents, fonds spéciaux 114 M€, indicateurs).
 
 **Étendue** : 5/5 (toutes les quintessences documentent une couche)
 **Solidité (shadow)** : `max(0, 7×1 - 0×0.2 - 2×0.5 - 0×1) / 9 = 0.67` → **HAUTE**
 **Niveau de confiance** : HAUT
-**Pourquoi** : Police visible documentée exhaustivement (budget-reel ~25,4 Md€ État, police-francaise 252 000 agents), police privée 11,12 Md€ (budget-reel, F-007 sécurité privée), DGSI ~5 500 agents + fonds spéciaux classifiés (DGSI, budget-reel). Les trois couches ont des mécanismes de contrôle radicalement différents — la couche clandestine échappe presque entièrement au contrôle parlementaire.
+**Pourquoi** : Police visible documentée exhaustivement (budget-reel ~25,4 Md€ État, police-francaise 252 000 agents), police privée 11,12 Md€ (budget-reel, F-007 sécurité privée), DGSI ~5 000 agents + fonds spéciaux classifiés (DGSI, budget-reel). Les trois couches ont des mécanismes de contrôle radicalement différents — la couche clandestine échappe presque entièrement au contrôle parlementaire.
 **Pourquoi pas** : La notion de « trois étages » est analytique — les trois couches n'ont pas de coordination documentée (pas de « chef d'orchestre » unique).
 **Réfutation possible** : Les trois couches sont structurellement disjointes (police nationale État, sécurité privée marché, DGSI renseignement). Les agréger en un « système » est une construction intellectuelle, pas une réalité opérationnelle.
-**F-##/M-## sous-jacents** : F-001 PLF 2026 (budget), F-007 sécurité privée 11,12 Md€ (budget), F-001 DGSI 5 500 agents (DGSI), M1 opacité budget DGSI (DGSI), M2 sous-budgétisation fonds spéciaux (budget), F-ICE-004 indicateurs (iceberg police)
+**F-##/M-## sous-jacents** : F-001 PLF 2026 (budget), F-007 sécurité privée 11,12 Md€ (budget), F-001 DGSI ~5 000 agents (DGSI), M1 opacité budget DGSI (DGSI), M2 sous-budgétisation fonds spéciaux (budget), F-ICE-004 indicateurs (iceberg police)
 
 ---
 
@@ -192,7 +192,7 @@ Les 5 thèses s'inscrivent dans la lignée des enquêtes Truth Engine antérieur
 
 <RECOMMANDATION:OUI>
 
-**Thèse fil rouge** : La police française n'est pas une institution démocratique classique mais un système de contrôle social à trois étages (force publique + police privée + clandestine) où l'opacité budgétaire, la capture syndicale et industrielle, et l'empilement législatif sans abrogation verrouillent toute réforme depuis 237 ans.
+**Thèse fil rouge** : La police française n'est pas une institution démocratique classique mais un système de contrôle social à trois étages (force publique + police privée + clandestine) où l'opacité budgétaire, la capture syndicale et industrielle, et l'empilement législatif sans abrogation verrouillent toute réforme depuis deux siècles.
 
 **Angle** : Anatomie + Autopsie — disséquer une institution qui a muté du « gardien de la paix » au système de contrôle sans que personne l'ait décidé.
 

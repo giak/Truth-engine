@@ -28,9 +28,9 @@ La police française (Police nationale, Gendarmerie nationale, polices municipal
 
 ## Matériau existant dans le corpus
 
-- Article #12 (Justice Fantôme) : ratio police/justice 2,5:1, budget +50 %
+- Article #12 (Justice Fantôme) : ratio police/justice 2,5:1, budget ~+30 %
 - Article #14 (Le Verrou) : 23 éborgnés LBD, 3 864 condamnations Gilets Jaunes
-- Article #10 (PSG) : complexe 35 Md€, Alsetex 11 M€, Thales, Briefcam, Wintics, Dassault, Bolloré
+- Article #10 (PSG) : complexe 35 Md€, Alsetex 21 M€, Thales, Briefcam, Wintics, Dassault, Bolloré
 - Article #36 (Ingénierie de l'enclos) : Nice Any Vision, Christelle Record 50 gendarmes
 - Article #77 (Schisme) : DDPN Friedrich braque Sig Sauer, privatisation force publique
 - Article #79 (Architecture de l'abattoir) : blindés Centaure encerclent étable

@@ -264,7 +264,7 @@ La France a « pu tomber si bas » parce que 5 systèmes convergent mécaniqueme
 **Caractérisation du complexe-capture :**
 1. **McKinsey 96,1 M€ contrats gouvernement (+31 % vs 2025)** : 4 cabinets McKinsey/BCG/Bain/EY-KPMG-Capgemini-Accenture = ~ 96 M€ documenté.
 2. **Police-Justice L435-1 + IGPN-ratio 1/500** : Pas-de-contrôle-effectif-policiers. Sources https://www.lemonde.fr ◈ (LeMonde-confirmed). Éric Dupond-Moretti (Garde-Sceaux-clef-capture-anti-magistrats-2023-reforme).
-3. **DGSI budget classifié** : 5 500 agents, taux-contrôle-ratio DPR-CNCTR → 0 contraignant.
+3. **DGSI budget classifié** : ~5 000 agents (objectif 5 500), taux-contrôle-ratio DPR-CNCTR → 0 contraignant.
 4. **Elie Hatem** + **Club Le Siècle** + **CEA Think-Tank politique-classement-WOLVES : rapprochement compréhension prestige inter-citoyen-oligarchie-réseaux-EUROFRANCE-UKRAINE-clef-2026**.
 5. **Sénateurs ELNET LR 39 + Renaissance 32** : 101 voyages 2017-2024 sans déclaration Sapin 2 → **voyage-payé-par-Etat-Israël-décide-orientation-UE-UKR**.
 
