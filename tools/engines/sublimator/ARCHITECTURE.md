@@ -140,9 +140,9 @@ substack-online/index.md                ← indexation après CP3
 ## §6 Contrat Mnemolite
 
 - **v35** : `get_system_snapshot` au démarrage, **HALTE** si DOWN (aucun fichier produit).
-- **v37** : mode dégradé par défaut : §5 commence par `[HALTE_APPEL: Mnemolite distant injoignable. Aucun ajout externe effectué.]`. Pas d'invention de contenu Mnemolite.
-- **v38** : Mnemolite indisponible en Phase 3, pas d'apport externe.
-- Règle commune : `search_memory(..., search_mode="hybrid", ...)` obligatoire quand le branchement existe.
+- **v37** : **lecture d'abord** — `search_memory(query, search_mode="hybrid", tags=["project:truth-engine", "status:CONFIRME"])` avant toute re-vérification ; faits `status:CONFIRME` cités sans appel web ; DOWN = balise `[HALTE_APPEL: ...]` en tête de §5.
+- **v38** : **lecture d'abord** — récupérer les faits `status:CONFIRME` (tags `project:truth-engine` + `status:CONFIRME`) et les citer (source + date) sans re-vérifier ; DOWN = sourçage organique Phase 2 uniquement.
+- Règle commune : `search_mode="hybrid"` + filtre `status:CONFIRME` obligatoires quand le branchement existe (registre des faits).
 
 ---
 
@@ -174,7 +174,7 @@ substack-online/index.md                ← indexation après CP3
 - **Drift des checkpoints** : GUIDE.md (v34) décrit 4 checkpoints (CP1 par enquête, CP2, CP2.5, CP3) ; le pipeline v35+ n'en garde que 2 actifs (CP1, CP2) auxquels phase2_5 ajoute CP1.5. GUIDE.md est obsolète.
 - **M9 non mesurable empiriquement** : le compteur de violations d'isolation dépend du tagging LLM `sublimator:enquete_id`, non garanti par le code.
 - **Phase 0 supprimée (2026-07-05)** : `cartographie.json` retiré comme overengineering. `extractors/` ré-hébergé le 2026-08-15 avec `gates.py` (H0-H7) + `head_check.py` (HEAD-check anti-SSRF), sans `cartographie.py`.
-- **Mnemolite aspirationnel** : le contrat inter-phases est documenté (SPECS v39 §7.5) mais pas branché ; la validation repose sur checklists + CRITIQUE.
+- **Mnemolite câblé (2026-08-15)** : write-back `status:CONFIRME` + lecture d'abord v37/v38 branchés et testés live (hybrid + registre `source:<hash>`). Reste aspirationnel : report EPI+memory_id en Phase 1 (v36) et isolation cross-enquête M9.
 
 ---
 

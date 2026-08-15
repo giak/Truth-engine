@@ -123,7 +123,7 @@ python3 tools/verify_facts.py <investigation.md> [--offline]   # exit 0 ok / 1 v
 ## 6. Règle de consommation (aval : ne pas refaire les vérifications)
 
 ```
-LECTURE  : search_memory(query, search_mode="hybrid", tags=[...]) AVANT tout @WEB.
+LECTURE  : search_memory(query, search_mode="hybrid", tags=["project:truth-engine", "status:CONFIRME"]) AVANT tout @WEB.
   HIT + status:CONFIRME            → citer {source + URL + memory_id}, ZÉRO appel web.
   HIT + status:PLAUSIBLE           → traiter comme NON VÉRIFIÉ, reprendre l'échelle L0→L4.
   MISS                             → @WEB → échelle → write-back obligatoire.
