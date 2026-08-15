@@ -1,4 +1,4 @@
-# CLUSTER_ICEBERG v2.1
+# CLUSTER_ICEBERG v2.2
 
 **Purpose:** identify material omissions and reconstruct bounded hidden reality (`Ξ`). Formula: `@PAT[ICEBERG]`; method: `forensic/REASONING.md` when `Ξ≥5`.
 

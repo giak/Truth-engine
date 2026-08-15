@@ -1,4 +1,4 @@
-# CLUSTERS INDEX v2.1
+# CLUSTERS INDEX v2.2
 
 Canonical symbol mapping, thresholds and additional loads live only in `definitions/SYMBOLS.md §4`. This inventory describes file purpose; do not route from it.
 

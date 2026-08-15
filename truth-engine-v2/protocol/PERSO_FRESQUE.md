@@ -1,4 +1,4 @@
-# PERSO_FRESQUE v2.1 — Longitudinal person protocol
+# PERSO_FRESQUE v2.2 — Longitudinal person protocol
 
 **Trigger:** the subject is a person. Force APEX depth, not predetermined suspicion or findings; mark longitudinal lenses NOT APPLICABLE when the question does not need them.
 

@@ -1,9 +1,9 @@
-# CLUSTER TEMPLATE v2.1
+# CLUSTER TEMPLATE v2.2
 
 Each cluster is a conditional prompt fragment and contains unique domain content only.
 
 ```text
-# CLUSTER_{NAME} v2.1
+# CLUSTER_{NAME} v2.2
 PURPOSE: bounded hypothesis/question; point to SYMBOLS routing and PATTERNS formula when applicable.
 
 CONCEPTS: concise unique glossary.

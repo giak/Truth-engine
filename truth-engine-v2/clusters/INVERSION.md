@@ -1,4 +1,4 @@
-# CLUSTER_INVERSION v2.1
+# CLUSTER_INVERSION v2.2
 
 **Purpose:** test reversal of action, blame, language or historical record (`Ω`, also `Κ`). Use `@PAT[GAS]` for the gaslighting subset.
 

@@ -1,4 +1,4 @@
-# CLUSTER_FRAMING v2.1
+# CLUSTER_FRAMING v2.2
 
 **Purpose:** deconstruct how a frame selects categories, alternatives and salience (`Λ`). A frame can be ordinary simplification; intent requires separate evidence.
 

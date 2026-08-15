@@ -1,6 +1,6 @@
-# CLUSTER_BIO v2.1
+# CLUSTER_BIO v2.4
 
-**Purpose:** test whether a public biography omits decision-relevant access, affiliations or revolving doors. Routing: `SYMBOLS.md §4`; scoring discipline: `@PAT[BIO]`. Association is not influence or responsibility.
+**Purpose:** test whether a public biography omits decision-relevant access, affiliations or revolving doors. Routing: contextual `PERSON/BIOGRAPHY` trigger in `SYMBOLS.md §4`; ♦ is a contextual lens, NEVER a narrative score. Measurement discipline: `@PAT[BIO]`. Association is not influence or responsibility.
 
 ## Concepts
 
@@ -25,6 +25,6 @@ H1 build sourced chronology across education/career/family/clubs/boards/donation
 
 ## Output
 
-`♦ score/NOT COMPUTABLE | chronology | typed network | revolving doors | biography gaps | action link | alternatives | unknowns`.
+`♦ LENS:{APPLICABLE|NOT APPLICABLE} | chronology | typed network | revolving doors | biography gaps | action link | alternatives | unknowns`.
 
 **Pairs:** NETWORK, POWER, MONEY. Person-specific longitudinal work also loads `protocol/PERSO_FRESQUE.md` when KERNEL step 4 triggers.

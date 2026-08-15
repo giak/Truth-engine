@@ -1,4 +1,4 @@
-# CLUSTER_WAR v2.1
+# CLUSTER_WAR v2.2
 
 **Purpose:** test organized cognitive/information operations (`⚔`) while separating content similarity, infrastructure and attribution. Use `@PAT[WAR]`.
 

@@ -1,4 +1,4 @@
-# CLUSTER_MONEY v2.1
+# CLUSTER_MONEY v2.2
 
 **Purpose:** trace material flows, ownership and conflicts (`€`). Use `@PAT[MONEY]`. Benefit and conflict are not proof of intent, corruption or causation.
 

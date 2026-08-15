@@ -1,4 +1,4 @@
-# CLUSTER_TEMPORAL v2.1
+# CLUSTER_TEMPORAL v2.2
 
 **Purpose:** reconstruct sequencing and test coordination alternatives (`⏰`). Use `@PAT[TEMP]`; `P_orch` is a diagnostic index, not probability.
 

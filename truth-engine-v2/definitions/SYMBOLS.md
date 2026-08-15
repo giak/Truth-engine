@@ -1,4 +1,4 @@
-# SYMBOLS v2.1 — Canonical ontology and routing
+# SYMBOLS v2.4 — Canonical ontology and routing
 
 This file alone defines symbols, epistemic statuses and cluster routing. Scores route work; they never prove intent, coordination or manipulation.
 
@@ -22,7 +22,9 @@ This file alone defines symbols, epistemic statuses and cluster routing. Scores 
 | 🌐 | Network | How are actors and control points connected? | centrality, gatekeepers, endogamy, cross-sector roles |
 | ⏰ | Temporal | Does sequencing/timing change interpretation? | synchronized release, deletion, agenda pivot, artificial urgency |
 
-**Score [0..10]:** 0 assessed absent; 1–2 weak; 3–4 plausible; 5–6 material; 7–8 strong; 9–10 extensive. Every score needs named observations. `✗` means unassessed and blocks. A high score means “inspect deeply”, not “hypothesis confirmed”.
+**Final score [0..10]:** 0 assessed absent; 1–2 weak; 3–4 plausible; 5–6 material; 7–8 strong; 9–10 extensive. Every score needs named observations. `✗` means unassessed and blocks.
+
+`DEFERRED(INPUT_NOT_EVIDENCE)` is a temporary phase-0 routing state only for TOPIC/PERSON/UPDATE inputs that contain no substantive current material. It is not a score, absence or fact status. Step 9 must replace all 15 DEFERRED values with evidence-based scores before FACT_REGISTRY; any remaining DEFERRED blocks delivery. A high score means “inspect deeply”, not “hypothesis confirmed”.
 
 ## §2 Epistemic symbols and canonical fact statuses
 
@@ -73,7 +75,7 @@ Corroboration markers: `⊕` independent concordance; `⊗` material contradicti
 
 ## §4 Canonical cluster routing
 
-| Primitive | Load threshold | Lower mandatory review | File |
+| Primitive | Load trigger | Lower mandatory review | File |
 |---|---:|---:|---|
 | Ξ | 5 | 3 | clusters/ICEBERG.md |
 | € | 5 | 3 | clusters/MONEY.md |
@@ -89,9 +91,9 @@ Corroboration markers: `⊕` independent concordance; `⊗` material contradicti
 | ⚔ | 5 | — | clusters/WAR.md |
 | 🌐 | 5 | — | clusters/NETWORK.md |
 | ⏰ | 5 | — | clusters/TEMPORAL.md |
-| ♦ | 5 | — | clusters/BIO.md |
+| ♦ | PERSON/BIOGRAPHY | — | clusters/BIO.md |
 
-Rules: at/above load threshold, load; below it, load only an applicable lower-mandatory row; otherwise note without loading. Additional review: `Ξ≥7 → clusters/GASLIGHTING.md`, `€≥7 → clusters/NETWORK.md + clusters/POWER.md`, `Ω≥7 → clusters/CONFIRMATION.md`. Deduplicate files. Cluster evidence may refine a score downward or upward; it cannot bootstrap its own trigger.
+Rules: for numeric rows, load at/above threshold; below it, load only an applicable lower-mandatory row; otherwise note without loading. `♦` is a contextual factual lens, not a sixteenth narrative score: `INPUT_KIND=PERSON` or an explicit biographical investigation loads `clusters/BIO.md` directly; NEVER fabricate a ♦ score. Additional review: `Ξ≥7 → clusters/GASLIGHTING.md`, `€≥7 → clusters/NETWORK.md + clusters/POWER.md`, `Ω≥7 → clusters/CONFIRMATION.md`. Deduplicate files. Cluster evidence may refine a narrative score downward or upward; it cannot bootstrap its own trigger.
 
 ## §5 Resonance — query hints only
 

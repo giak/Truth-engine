@@ -1,4 +1,4 @@
-# CLUSTER_NETWORK v2.1
+# CLUSTER_NETWORK v2.2
 
 **Purpose:** construct a sourced, typed actor/control graph (`🌐`). Use `@PAT[NET]`. Co-occurrence and shared affiliation are leads, not influence or coordination.
 

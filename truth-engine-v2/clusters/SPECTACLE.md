@@ -1,4 +1,4 @@
-# CLUSTER_SPECTACLE v2.1
+# CLUSTER_SPECTACLE v2.2
 
 **Purpose:** inspect attention/emotion (`Φ`) and symbolic substitution (`Σ`) relative to material substance.
 

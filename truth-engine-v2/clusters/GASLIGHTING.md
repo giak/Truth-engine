@@ -1,4 +1,4 @@
-# CLUSTER_GASLIGHTING v2.1
+# CLUSTER_GASLIGHTING v2.2
 
 **Purpose:** perform the archive-heavy review additionally routed by `SYMBOLS.md §4`. Use `@PAT[GAS]`; do not diagnose gaslighting from contradiction alone.
 

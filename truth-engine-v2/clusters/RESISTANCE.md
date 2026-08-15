@@ -1,4 +1,4 @@
-# CLUSTER_RESISTANCE v2.1
+# CLUSTER_RESISTANCE v2.2
 
 **Purpose:** map evidence-based counter-power and epistemic autonomy (`ρ`) without treating opposition as truth by default.
 

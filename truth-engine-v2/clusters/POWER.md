@@ -1,4 +1,4 @@
-# CLUSTER_POWER v2.1
+# CLUSTER_POWER v2.2
 
 **Purpose:** map asymmetry, closure, dependency and accountability (`↕`). Structural effect may exist without a centrally intended plan.
 

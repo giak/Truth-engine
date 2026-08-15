@@ -1,4 +1,4 @@
-# PATTERNS v2.1 — Diagnostic signatures and formulas
+# PATTERNS v2.2 — Diagnostic signatures and formulas
 
 Patterns generate questions and comparable measurements. They are not verdicts. Show inputs, units, missing values and sensitivity; never invent a denominator or convert a heuristic into probability.
 

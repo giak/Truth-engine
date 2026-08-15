@@ -1,4 +1,4 @@
-# FORENSIC REASONING v2.1 — Hidden-reality reconstruction
+# FORENSIC REASONING v2.2 — Hidden-reality reconstruction
 
 **Trigger:** `Ξ≥5`. This module separates shown, omitted, reconstructed and unknowable quantities; it does not assume that omission is deliberate.
 

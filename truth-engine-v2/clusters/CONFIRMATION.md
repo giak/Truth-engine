@@ -1,4 +1,4 @@
-# CLUSTER_CONFIRMATION v2.1
+# CLUSTER_CONFIRMATION v2.2
 
 **Purpose:** inspect subtle influence and choice architecture (`κ`). Routing is canonical in `SYMBOLS.md §4`. Steering is not deception unless design, material effect and disclosure support that claim.
 

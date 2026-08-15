@@ -1,4 +1,4 @@
-# QUERY TEMPLATES v2.1 — Evidence-object search
+# QUERY TEMPLATES v2.8 — Auditable investigation-first search
 
 Templates are starting points. Replace placeholders, use the subject’s language and shorten until results are precise. Search for evidence objects, not confirmation of a preferred story.
 
@@ -19,7 +19,24 @@ Templates are starting points. Replace placeholders, use the subject’s languag
 
 Institutional repositories can contain direct evidence, but their interpretations remain claims. Always classify per fact.
 
-## §2 Counter and falsification routes
+## §2 Investigation axes
+
+Use these routes for `OBJECT_INVESTIGATION`; adapt them to the jurisdiction and object. One query may serve several axes, but a source-audit result cannot silently stand in for them.
+
+| Axis | Objects to seek | Compact query stems |
+|---|---|---|
+| SCOPE_HISTORY | definitions, boundaries, chronology, versions, comparisons, denominators | `{object} definition history timeline methodology`; `{object} comparison by period/context` |
+| EVIDENCE_CASES | data, instances, records, experiments, judgments, audits, filings or primary artifacts | `{object} dataset evidence case record`; `{entity/event} exact document` |
+| RESOURCES_FLOWS | money, data, material, authority, access, transfers and beneficiaries | `{entity/object} funding data access transfer`; `{resource} source recipient amount volume` |
+| MECHANISMS | process, rule, incentive, enabling condition, competing cause | `{object} mechanism process system failure`; `{object} competing explanation` |
+| ACTORS_RELATIONS | entities, governance, dependencies, meetings, appointments, interests, typed relations | `{decision/event} participants relations`; `{entity} role interests dependency register` |
+| RULES_CONTROLS | rules, constraints, standards, oversight, tests, detection, correction and response | `{object} rule control audit test evaluation`; `{entity/system} duty response outcome` |
+| IMPACT_RESPONSIBILITY | distribution, loss/benefit, affected populations, documented decisions/actions | `{object} impact evaluation cost beneficiaries`; `{decision} signatory vote implementation` |
+| COUNTER_HYPOTHESES | negative cases, effective controls, alternative mechanisms, disconfirming data | `{object} decline effective prevention evaluation`; `{claim} alternative explanation rebuttal` |
+
+When public-integrity/corruption is applicable, seek judgments/case files, procurement records, audits, declarations, registers, enforcement statistics and control evaluations. Recorded offences, perceptions, modeled macro-losses, diversion and overcharge remain different measures; never substitute them silently.
+
+## §3 Counter and falsification routes
 
 ```text
 {claim} criticism OR rebuttal OR methodological limitation
@@ -32,7 +49,7 @@ Institutional repositories can contain direct evidence, but their interpretation
 
 Search both the strongest counterargument and evidence that could falsify it. `NONE_FOUND` is valid after a logged reasonable search.
 
-## §3 Money, network, time and omission
+## §4 Money, network, time and omission
 
 ```text
 MONEY:   {entity} funder owner subsidy contract donation lobbying disclosure
@@ -44,22 +61,24 @@ BIO:     {person} mandate board interests declaration vote decision
 
 For network edges, seek a registry, filing, meeting record or direct statement. A co-occurrence page is only a lead.
 
-## §4 Geographic and linguistic diversification
+## §5 Geographic and linguistic diversification
 
 - Search affected locality first, then involved actors, neighbors/comparables and relevant outside perspectives.
 - Use native names, transliterations, local date formats and jurisdiction-specific repository terms.
 - Preserve original URL/text and note translation path.
 - Do not add distant sources merely to raise EDI; material relevance is required.
 
-## §5 Execution
+## §6 Execution
 
 ```text
 1. Start: entity + evidence object + date/jurisdiction.
 2. @WEB for discovery; @FETCH the exact useful URL.
 3. Validate object, author, date/version, scope and upstream provenance.
-4. Deduplicate by evidence object/family.
-5. If noisy/empty, load OPTIMIZATION.md.
-6. Stop when material claims are resolved/saturated or access is exhausted; log gaps.
+4. Link each executed QRY/SRC to affected AXS `ATTEMPT_IDS`; record result/perimeter in REQUEST_LOG.
+5. Deduplicate by evidence object/family.
+6. If noisy/empty, load OPTIMIZATION.md.
+7. Stop LEAD_AUDIT when its material claims resolve/saturate; this does not stop OBJECT_INVESTIGATION.
+8. Stop only when every LED is terminal and every applicable AXS meets canonical SATURATED/GAP semantics; a bare status without auditable attempts cannot close an axis.
 ```
 
 _Canonical authority: domain query templates._

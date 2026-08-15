@@ -1,4 +1,4 @@
-# CLUSTER_FRAGMENTATION v2.1
+# CLUSTER_FRAGMENTATION v2.2
 
 **Purpose:** test convergence of materially independent indices (`⫸`) without turning coincidence into proof. Routing: `SYMBOLS.md §4`; formula: `@PAT[FASC]`.
 

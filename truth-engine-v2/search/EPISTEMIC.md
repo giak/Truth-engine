@@ -1,4 +1,4 @@
-# SEARCH EPISTEMIC v2.1 — Corpus diversity diagnostic
+# SEARCH EPISTEMIC v2.8 — Corpus diversity diagnostic
 
 This file owns source-role classification and EDI. EDI measures diversity/coverage of the collected corpus, not truth, confidence or moral legitimacy.
 
@@ -12,7 +12,7 @@ This file owns source-role classification and EDI. EDI measures diversity/covera
 
 Classify per claim. An official release is ◈ for what was officially announced, not automatically for whether the announced fact is true. A leak is ◈ only after provenance/authenticity review. Whistleblower, academic, dissident, state, corporate and independent labels do not set reliability.
 
-Corroboration requires independent upstream evidence. Syndication, copied datasets and circular citation count once.
+Corroboration requires independent upstream evidence. Syndication, copied datasets and circular citation count once. Use EVIDENCE_REGISTRY `SRC-ID` and `UPSTREAM_FAMILY` rather than publisher count.
 
 ## §2 Diversity dimensions [0..1]
 
@@ -68,21 +68,33 @@ C(n) = 1 - new_unique_material_items_n / total_unique_material_items_after_n
 
 All denominators must be >0; otherwise output `N/A`. `EDI*` and `C(n)` remain process diagnostics. Convergence means diminishing new material, not correctness.
 
-Iteration guide: I0 map claims/sources → I1 fill decisive gaps → I2 triangulate/contradict → I3 synthesize/reopen. Stop at evidentiary saturation, after bounded gate corrections, or when access is exhausted; record why.
+Iteration guide: I0 map leads/claims/axes/sources → I1 fill decisive gaps → I2 triangulate/contradict → I3 synthesize/reopen. LEAD_AUDIT saturation does not imply OBJECT_INVESTIGATION saturation. Stop only when KERNEL lead/axis coverage is terminal, after bounded gate corrections, or when access is exhausted; record why.
 
-## §5 Adversarial/counter perspective (H7)
+## §5 Decisive-claim coverage
+
+Global EDI can look adequate while one decisive claim still depends on a single evidence family. Therefore report a non-scalar coverage profile for every decisive CLM-ID:
+
+```text
+CLM-ID | direct object:YES/NO/N/A | independent families:{n}
+credible counter:FOUND/NONE_FOUND/N/A | freshness:CURRENT/STALE/UNKNOWN | GAP_TYPE
+```
+
+This profile does not create a new score or status. It routes a bounded correction when a decisive claim lacks an applicable direct object, independent provenance, current evidence or credible counter-search. A broad corpus cannot compensate for a decisive single point of failure.
+
+## §6 Adversarial/counter perspective (H7)
 
 For politically or materially contested subjects, seek the strongest source that represents opposed interests or interpretation and actually engages the claim. Search by actor, jurisdiction, original language, watchdog/opposition/defense terms and underlying documents.
 
 State-funded adversarial media, dissident outlets and institutional opponents are discovery/perspective candidates, not privileged truth sources. Recheck current ownership, access, evidence and relevance. If no credible counter-source is found, log `NONE_FOUND`; do not fabricate balance.
 
-## §6 Required output
+## §7 Required output
 
 ```text
 [SOURCES] ◈:{n} ◉:{n} ○:{n}
 EDI:{final} raw:{raw} penalties:{sum}[flags] N/A:{dimensions}
 geo:{g} lang:{l} strat:{s} owner:{o} persp:{p} temp:{t}
 ⟐:{n} ⟐̅:{n} 🌍:{n} 🎓:{n} 🔥:{n} | COV:{c} IND:{i} CC:{cc} EDI*:{e}
+DECISIVE_CLAIM_COVERAGE:{profiles}
 DIAGNOSTIC_NOT_TRUTH
 ```
 

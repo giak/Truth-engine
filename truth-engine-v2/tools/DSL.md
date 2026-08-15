@@ -1,4 +1,4 @@
-# COGNITIVE DSL v2.1 — Reference aliases
+# COGNITIVE DSL v2.8 — Reference aliases
 
 This card compresses references; it defines no ontology, threshold, formula or gate.
 
@@ -11,6 +11,7 @@ This card compresses references; it defines no ontology, threshold, formula or g
 @KB[THR]    → definitions/THREATS.md
 @KB[INV]    → protocol/INVESTIGATION.md
 @KB[PERSO]  → protocol/PERSO_FRESQUE.md
+@KB[UPDATE] → protocol/UPDATE.md
 @KB[EPI]    → search/EPISTEMIC.md
 @KB[QRY]    → search/TEMPLATES.md
 @KB[OPT]    → search/OPTIMIZATION.md
@@ -33,23 +34,34 @@ Legacy aliases: `@KB[DSL]→this`, `@KB[SEARCH]→@KB[EPI]`, `SEARCH_EPISTEMIC.m
 @THR[x]       → THREATS
 @HERM[text]   → INVESTIGATION §1 L1-L6
 @PRISM[3P]    → INVESTIGATION §2
+@LEAD[x]      → INVESTIGATION §0 LEAD_REGISTRY + source/ref/excerpt coverage
+@OBJECT[x]    → KERNEL MODE_RULE + INV_FIRST + COVER_OK
+@AXIS[x]      → KERNEL NA_OK + GAP_OK + SAT_OK + TERM_AXS
 @FACT[x]      → SYMBOLS §2 status + INVESTIGATION §3 registry
+@TRACE[x]     → KERNEL TRACE_OK + INVESTIGATION §5
+@ANCHOR[x]    → KERNEL ANCHOR_OK + INVESTIGATION §3
 @PELOTE[x]    → INVESTIGATION §4
 @VERIFY[x]    → INVESTIGATION §5
 @WOLF[x]      → INVESTIGATION §6 responsibility map
 @EDI[x]       → EPISTEMIC §3
 @QRY[x]       → TEMPLATES; OPTIMIZATION only on failure/noise
-@GAP[x]       → ⁅ UNKNOWN; stop inference; state missing evidence
-@SAVE[x]      → KERNEL step 19/19a
+@GAP[x]       → KERNEL GAP_OK; ⁅ UNKNOWN; stop inference; assign GAP_TYPE
+@DELTA[x]     → UPDATE differential revalidation
+@RESUME[x]    → KERNEL RESUME_OK
+@SAVE[x]      → KERNEL CP_OK + FINAL_OK + steps 19/19a
 ```
 
-## §3 Reasoning syntax
+## §3 Control and reasoning syntax
 
 ```text
+MUST x | NEVER x | IF c → a | ON_FAIL[x] → a
+BLOCK_IF[c] | DEGRADE_IF[c] | EMIT[x] | FREEZE[x] | CHECKPOINT[x]
+PREFER a>b | TARGET n | BOUND n
 L1 EXPLICIT → L2 IMPLICIT → L3 STRUCTURAL → L4 SYMBOLIC → L5 PRESUPPOSED → L6 EPISTEMIC
 P1 DOMINANT | P2 STRONGEST_CRITICAL | P3 EVIDENCE_ARBITRATION
 LINK ∈ {CAUSE,ENABLER,PRECEDENT,CONTEXT,UNKNOWN}
 INTENT ∈ {PROVEN,CLAIMED,UNKNOWN}
+GAP_TYPE → INVESTIGATION §0 canonical set
 OPS: → ← ∧ ∨ ¬ | ≥ ≤ > < = ≈ ± | ⊕ ⊗ ⊙ ≋
 ```
 

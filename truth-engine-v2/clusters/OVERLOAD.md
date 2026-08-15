@@ -1,4 +1,4 @@
-# CLUSTER_OVERLOAD v2.1
+# CLUSTER_OVERLOAD v2.2
 
 **Purpose:** test whether information volume, speed, contradiction and emotional urgency impair judgment (`Ψ`). Effects require a defined stream, window and audience.
 

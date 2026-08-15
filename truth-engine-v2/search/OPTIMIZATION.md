@@ -1,4 +1,4 @@
-# QUERY OPTIMIZATION v2.1 — Failure/noise recovery
+# QUERY OPTIMIZATION v2.8 — Failure/noise recovery
 
 Load only when a query is empty, noisy, blocked or overbroad. No productivity claim is assumed; use actual REQUEST_LOG results.
 
@@ -40,7 +40,7 @@ Try, in order: canonical alternate URL/version → archive or repository copy �
 - Prefer exact object and relevant section over domain authority.
 - Keep one row per material evidence object; collapse syndication.
 - Reject title-only match, wrong namesake/date/jurisdiction, navigation page and circular citation.
-- Reallocate remaining budget to unresolved material claims, not already saturated branches.
+- Reallocate remaining budget to unresolved material LED/CLM/AXS routes, not saturated branches. Failed reformulations remain distinct QRY ATTEMPT_IDS with observed perimeter; a saturated lead audit does not cancel unresolved object axes.
 
 ## §5 Diagnostics
 

@@ -1,4 +1,4 @@
-# THREATS v2.1 — Detection and counter-checks
+# THREATS v2.2 — Detection and counter-checks
 
 `@THR[]` is a triage label. Activate deeper verification only when its observable signature is present. A match does not prove a plan, perpetrator, diagnosis or intent.
 
