@@ -107,6 +107,35 @@ def head_check(url, timeout=DEFAULT_TIMEOUT):
         return None
 
 
+def classify_url(url, timeout=DEFAULT_TIMEOUT):
+    """(status, detail) — trie une URL du registre. Réutilisé par monitor_urls.py (P4).
+
+    status ∈ {alive, dead, unsafe, unreachable, head_blocked} :
+      - alive        : 2xx/3xx → confirmée vivante
+      - dead         : 404/410/451/5xx ou statut inattendu → source défunte → re-vérifier
+      - unsafe       : scheme/IP interdit (anti-SSRF) → URL invalide, à corriger
+      - unreachable  : DNS non résolu ou erreur réseau/timeout → transitoire, retry
+      - head_blocked : 403/405/429 → HEAD refusé, liveness inconnue (GET requis)
+    """
+    if not url:
+        return "unsafe", "empty_url"
+    safe, reason = _validate_url(url)
+    if not safe:
+        if reason == "dns_error":
+            return "unreachable", "dns_error (domaine non résolu)"
+        return "unsafe", reason or "unsafe_url"
+    code = head_check(url, timeout)
+    if code is None:
+        return "unreachable", "no_response (réseau/timeout)"
+    if code in DEAD_STATUS:
+        return "dead", "HTTP {0}".format(code)
+    if 200 <= code < 400:
+        return "alive", "HTTP {0}".format(code)
+    if code in BLOCKED_OK_STATUS:
+        return "head_blocked", "HTTP {0} (HEAD non autorisé)".format(code)
+    return "dead", "HTTP {0} (inattendu)".format(code)
+
+
 def extract_registry(text):
     """Retourne la liste des lignes du bloc FACT_REGISTRY_V1, ou []."""
     if FACT_REGISTRY_START not in text:

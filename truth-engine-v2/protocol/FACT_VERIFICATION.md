@@ -149,6 +149,7 @@ La cohérence interne n'est jamais une preuve : c'est une erreur copiée N fois.
 |----|---------------|
 | KERNEL §10 | FCT-### construit depuis @FETCH+EXCERPT_OK, avec champ EPI ; ✦ réservé à EPI=FACT+L4 ; ÉMETTRE le bloc FACT_REGISTRY_V1 |
 | tools/verify_facts.py | vérificateur déterministe du bloc (anti-SSRF + HEAD-check + familles + gate EPI) |
+| tools/monitor_urls.py | moniteur périodique d'URLs mortes (P4) : scanne les registres, trie dead/unsafe/unreachable/head_blocked, déclenche la re-vérification |
 | KERNEL §13 | VERIFICATION exige le recoupement L3 (≥2 familles) pour ✦ ; source unique → ✧ |
 | KERNEL §19a | inchangé (déjà correct) ; gate : n'écrire CONFIRME que pour EPI=FACT+L4 |
 | SUBLIMATOR Phase 1 (v36) | préserver ✦ ET reporter EPI + memory_id du fait CONFIRME |
