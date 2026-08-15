@@ -348,7 +348,7 @@ Organisés par catégorie fonctionnelle. Les paramètres **obligatoires** sont e
 ```
 # CRUD
 write_memory(title="Analyse dette", content="...", memory_type="investigation", tags=["dette", "économie"])
-search_memory(query="immigration France politique", limit=10, memory_type="article")
+search_memory(query="immigration France politique", limit=10, memory_type="article", search_mode="hybrid")
 read_memory(id="<uuid>")
 delete_memory(id="<uuid>", permanent=false)
 
