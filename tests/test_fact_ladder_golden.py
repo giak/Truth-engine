@@ -39,7 +39,7 @@ from tools.verify_facts import verify_record
 
 def _rec(fid="FCT-001", epi="FACT", tier="✦", url="https://legifrance.gouv.fr/x",
          families="A,E", date="2024-03-07"):
-    return (fid, epi, tier, url, families, date)
+    return (fid, epi, tier, url, families, date, "", "")
 
 
 @pytest.fixture

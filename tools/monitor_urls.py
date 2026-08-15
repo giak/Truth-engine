@@ -31,10 +31,9 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from tools.verify_facts import (
     classify_url,
     extract_registry,
+    find_registry_files,
     parse_line,
 )
-
-REGISTRY_START = "<!-- FACT_REGISTRY_V1 -->"
 
 # status → action (cf. FACT_VERIFICATION.md §6/§10). head_blocked n'est pas une
 # anomalie : le HEAD est refusé, la liveness reste inconnue (GET requis).
@@ -49,29 +48,6 @@ ACTION = {
 PROBLEM_STATUS = {"dead", "unsafe", "unreachable"}
 
 
-def find_registry_files(paths):
-    """Chemins .md contenant un bloc FACT_REGISTRY_V1 (fichiers ou arborescences)."""
-    files = []
-    for p in paths:
-        if os.path.isfile(p):
-            if p.endswith(".md"):
-                files.append(p)
-        elif os.path.isdir(p):
-            for root, _dirs, names in os.walk(p):
-                for name in sorted(names):
-                    if name.endswith(".md"):
-                        files.append(os.path.join(root, name))
-    out = []
-    for f in sorted(set(files)):
-        try:
-            with open(f, "r", encoding="utf-8") as fh:
-                if REGISTRY_START in fh.read():
-                    out.append(f)
-        except OSError:
-            continue
-    return out
-
-
 def scan_file(path, timeout, offline=False):
     """Liste des entrées (path, fid, url, status, detail) pour un fichier registre."""
     with open(path, "r", encoding="utf-8") as fh:
@@ -81,7 +57,7 @@ def scan_file(path, timeout, offline=False):
         rec = parse_line(ln)
         if rec is None:
             continue
-        fid, _epi, _tier, url, _families, _date = rec
+        fid, _epi, _tier, url, _families, _date, _sujet, _valeur = rec
         if not url or url == "-":
             continue  # ❧ : pas d'URL, rien à monitorer
         if offline:

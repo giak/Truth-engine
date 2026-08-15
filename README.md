@@ -51,6 +51,9 @@ python3 tools/verify_facts.py --help
 # Surveiller les URLs mortes du registre
 python3 tools/monitor_urls.py --help
 
+# Détecter les contradictions entre faits
+python3 tools/detect_contradictions.py --help
+
 # Rédaction (Phase 1 → 2 → 2.5 → 3)
 → tools/engines/sublimator/prompt-v36.md
 → tools/engines/sublimator/prompt-v37_phase2.md

@@ -17,6 +17,7 @@ Usage :
 """
 
 import ipaddress
+import os
 import re
 import socket
 import sys
@@ -145,14 +146,42 @@ def extract_registry(text):
     return [ln.strip() for ln in text[start:end].splitlines() if ln.strip()]
 
 
+def find_registry_files(paths):
+    """Chemins .md contenant un bloc FACT_REGISTRY_V1 (fichiers ou arborescences)."""
+    files = []
+    for p in paths:
+        if os.path.isfile(p):
+            if p.endswith(".md"):
+                files.append(p)
+        elif os.path.isdir(p):
+            for root, _dirs, names in os.walk(p):
+                for name in sorted(names):
+                    if name.endswith(".md"):
+                        files.append(os.path.join(root, name))
+    out = []
+    for f in sorted(set(files)):
+        try:
+            with open(f, "r", encoding="utf-8") as fh:
+                if FACT_REGISTRY_START in fh.read():
+                    out.append(f)
+        except OSError:
+            continue
+    return out
+
+
 def parse_line(line):
-    """id, epi, tier, url, families, date — None si ligne mal formée."""
+    """id, epi, tier, url, families, date, sujet, valeur — None si ligne mal formée.
+
+    `sujet` et `valeur` (ajoutés P5) sont optionnels : chaînes vides si absents.
+    """
     parts = [p.strip() for p in line.split("|")]
     if len(parts) < 5:
         return None
     fid, epi, tier, url, families = parts[0], parts[1], parts[2], parts[3], parts[4]
     date = parts[5] if len(parts) > 5 else ""
-    return fid, epi, tier, url, families, date
+    sujet = parts[6] if len(parts) > 6 else ""
+    valeur = parts[7] if len(parts) > 7 else ""
+    return fid, epi, tier, url, families, date, sujet, valeur
 
 
 def _families(spec):
@@ -162,7 +191,7 @@ def _families(spec):
 def verify_record(rec, offline=False):
     """Vérifie un enregistrement. Retourne une liste de violations (str)."""
     issues = []
-    fid, epi, tier, url, families, _date = rec
+    fid, epi, tier, url, families, _date, _sujet, _valeur = rec
     if not re.fullmatch(r"FCT-\d+", fid):
         issues.append("id invalide : {0}".format(fid))
     if epi not in EPI_CLASSES:

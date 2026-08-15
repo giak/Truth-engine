@@ -92,21 +92,27 @@ CARTE DES PREUVES. Une ligne par fait, champs séparés par ` | ` :
 
 ```
 <!-- FACT_REGISTRY_V1 -->
-FCT-001 | FACT | ✦ | https://url/canonique | A,E | 2024-03-07
-FCT-002 | FACT | ✧ | https://url/secondaire | D | -
-FCT-003 | FACT | ❧ | - | - | -
+FCT-001 | FACT | ✦ | https://url/canonique | A,E | 2024-03-07 | dgsi-effectif | 5000
+FCT-002 | FACT | ✧ | https://url/secondaire | D | - | dgsi-effectif | 5500
+FCT-003 | FACT | ❧ | - | - | - | - | -
 <!-- /FACT_REGISTRY_V1 -->
 ```
 
 Champs : `id` (FCT-###) | `epi` (FACT|EVIDENCE|INFERENCE|HYPOTHESIS|SPECULATION|UNKNOWN) |
-`tier` (✦✧⁅❧) | `url` (ou `-`) | `familles` (A-E séparées par virgule, ou `-`) | `date` (optionnel).
+`tier` (✦✧⁅❧) | `url` (ou `-`) | `familles` (A-E séparées par virgule, ou `-`) | `date` (optionnel) |
+`sujet` (optionnel : slug sujet+attribut, ex. `dgsi-effectif`, `squarcini-dst-periode`, ou `-`) |
+`valeur` (optionnel : valeur normalisée — nombre, date, chaîne courte — ou `-`).
 
 Ce bloc est ce que `tools/verify_facts.py` vérifie de façon **déterministe** (anti-SSRF, HEAD-check,
 compte des familles, gate EPI). Le script vérifie la STRUCTURE, jamais la VÉRITÉ du contenu
 (cf. AGENTS.md §4 : « un script déterministe ne doit pas traiter du texte produit par un LLM »).
 
+`tools/detect_contradictions.py` (P5) exploite `sujet`/`valeur` : même sujet normalisé + valeurs
+divergentes → signal pour la gate humaine (le script ne tranche pas quelle valeur est vraie).
+
 ```bash
 python3 tools/verify_facts.py <investigation.md> [--offline]   # exit 0 ok / 1 violations / 2 aucun registre
+python3 tools/detect_contradictions.py [chemin...] [--json]    # exit 0 ok / 1 contradictions / 2 aucun registre
 ```
 
 ## 5. Contrat de confiance (ce que `status:CONFIRME` garantit, et ne garantit pas)
@@ -150,6 +156,7 @@ La cohérence interne n'est jamais une preuve : c'est une erreur copiée N fois.
 | KERNEL §10 | FCT-### construit depuis @FETCH+EXCERPT_OK, avec champ EPI ; ✦ réservé à EPI=FACT+L4 ; ÉMETTRE le bloc FACT_REGISTRY_V1 |
 | tools/verify_facts.py | vérificateur déterministe du bloc (anti-SSRF + HEAD-check + familles + gate EPI) |
 | tools/monitor_urls.py | moniteur périodique d'URLs mortes (P4) : scanne les registres, trie dead/unsafe/unreachable/head_blocked, déclenche la re-vérification |
+| tools/detect_contradictions.py | détecteur de contradictions (P5) : même sujet normalisé + valeurs divergentes → signal pour la gate humaine |
 | KERNEL §13 | VERIFICATION exige le recoupement L3 (≥2 familles) pour ✦ ; source unique → ✧ |
 | KERNEL §19a | inchangé (déjà correct) ; gate : n'écrire CONFIRME que pour EPI=FACT+L4 |
 | SUBLIMATOR Phase 1 (v36) | préserver ✦ ET reporter EPI + memory_id du fait CONFIRME |
