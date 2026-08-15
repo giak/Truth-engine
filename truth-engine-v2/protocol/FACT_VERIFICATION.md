@@ -142,9 +142,17 @@ nouvelle contradictoire, source défunte (URL morte) → re-fetch puis `update_m
 ## 7. Règle d'indépendance du recoupement (anti-propagation)
 
 ```
-2 URL du même émetteur (AFP + ses reprises) := 1 source.
+2 URL du même émetteur := 1 source. Exemple vérifié 2026-08-16 : Légifrance et Service-Public sont
+tous deux édités par la DILA (Direction de l'information légale et administrative, Premier ministre)
+→ 1 seul émetteur, 1 famille A. Deux URLs du même émetteur ne sont PAS une corroboration, quel que
+soit leur nombre.
 Copies internes (article + quintessence + blueprint + synthèse) := 0 source.
-Le recoupement L3 exige ≥2 FAMILLES de provenance DISTINCTES, chacune fetchée indépendamment.
+Le recoupement L3 exige ≥2 FAMILLES de provenance DISTINCTES (A/B/C/D/E), chacune fetchée indépendamment.
+
+`✦` (L4) = recoupé par ≥2 RÔLES distincts (ex. officiel + audit indépendant, ou officiel + académique).
+Un fait sourcé uniquement à des sources officielles (famille A), même à 2 institutions différentes, reste
+`✧` : ce n'est pas un échec, c'est le tier honnête d'un fait à perspective unique. `✦` n'est pas « mieux
+sourcé », c'est « recoupé à travers des rôles différents ».
 ```
 
 La cohérence interne n'est jamais une preuve : c'est une erreur copiée N fois.
