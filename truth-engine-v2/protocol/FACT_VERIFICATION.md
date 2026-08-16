@@ -212,11 +212,13 @@ La cohérence interne n'est jamais une preuve : c'est une erreur copiée N fois.
 - `search_mode:"hybrid"` est supporté ET actif via l'outil MCP (testé 2026-08-15 : `hybrid` renvoie
   `similarity_score` + `embedding_time_ms≈498ms` ; sans paramètre, la recherche est lexicale,
   `similarity_score:null`). Toujours passer `search_mode:"hybrid"` explicitement.
-- **Fix serveur (P7, hors de ce repo)** : le défaut est `search_mode: str = "tag"` dans le conteneur
-  `mnemo-mcp` — `server.py:1231` et `tools/memory_tools.py:810` (constaté 2026-08-16). Le changer en
-  `"hybrid"` rend hybride le défaut. Une édition du conteneur est **transitoire** (perdue au rebuild) ;
-  le fix durable appartient au code source Mnemolite + reconstruction d'image. En attendant,
-  `tools/lint_search_mode.py` garde-fou les call sites du repo (exit 0 = tous `hybrid`).
+- **Fix serveur (P7) FAIT 2026-08-16** : le défaut `search_mode: str = "tag"` a été changé en
+  `"hybrid"` dans le code source Mnemolite (`/home/giak/Work/MnemoLite`, commit `b4be1f2`) —
+  `server.py:1231` et `tools/memory_tools.py:810` — puis le conteneur `mnemo-mcp` redémarré.
+  Vérifié live : une recherche sans `search_mode` renvoie `metadata.search_mode="hybrid"` +
+  `similarity_score` (embedding_failed:false). Le code est **monté en volume** (`./api:/app`) donc
+  pas de rebuild d'image requis pour la prise d'effet. `tools/lint_search_mode.py` reste le
+  garde-fou client (exit 0 = tous `hybrid`).
 - Les namespaces `kernel:` et `acteur:` ne sont PAS réservés (warnings observés) : utiliser des tags
   plats sans « : » pour les domaines/entités.
 
