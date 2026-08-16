@@ -221,3 +221,73 @@ La cohérence interne n'est jamais une preuve : c'est une erreur copiée N fois.
 toujours », ni « certain ». Tout consommateur qui présente un fait CONFIRME doit citer sa source et
 sa date de vérification, pas la certitude. Si une contradiction apparaît après coup, le fait est
 rétrogradé (update_memory → `lifecycle_state=doubt` + note de contradiction), jamais défendu.
+
+## 11. Réconciliation avec le corpus legacy `livre-cst` (2026-08-16)
+
+Le livre (`project:book`) porte un corpus hérité tagué `livre-cst` (schéma `source-chatgpt-csv` +
+`source-web-recherche`, produit par `book/book/audit-apex-v8/archive/index_csv_to_mnemolite.py`).
+Ses enregistrements classent les claims dans le **corps** (champs `Statut canonique` et
+`Classe source`), **sans tag `status:`**, sans `source:<hash>`, sans `verifie-YYYY-MM-DD`.
+
+### 11.1 Le constat qui interdit le mapping naïf
+
+Le `Statut canonique` legacy est une **classification éditoriale produite par un LLM lisant les
+atlas** (`source-chatgpt-csv`), **pas** une vérification par fetch de la source primaire. Un
+`C1 — Confirmé` n'a ni EXCERPT, ni preuve de fetch, ni recoupement ≥2 familles : il équivaut au
+mieux à un **L0 CANDIDAT** avec une source revendiquée.
+
+> Règle cardinale : **`C1 — Confirmé` ≠ `status:CONFIRME`.** Mapper C1 → CONFIRME réintroduirait
+> exactement la confiance auto-attribuée sans fetch que toute cette spec combat. Le corpus legacy
+> est une **couche candidate**, consommable seulement après re-vérification par l'échelle L0→L4.
+
+### 11.2 Table de mapping `Statut canonique` → verdict FACT_VERIFICATION
+
+Distribution mesurée sur le CSV source (backup 2026-07-23, 3 942 lignes T-code) :
+
+| `Statut canonique` legacy | Verdict | tag `status:` | EPI | Action |
+|---|---|---|---|---|
+| `C1 — Confirmé` (523) | CANDIDAT | — (pas de write) | — | re-fetch → L0→L4 |
+| `C2 — Confirmé à périmétrer` (84) | CANDIDAT | — | — | re-fetch + fixer le périmètre |
+| `C3 — Plausible / à tester` (724) | HYPOTHESIS | — | HYPOTHESIS | `lifecycle_state=doubt` |
+| `C4 — Non établi / preuve insuffisante` (488) | UNKNOWN | — | UNKNOWN | pas de write |
+| `C5 — Faux / invalide` (790) | REFUTE | `status:REFUTE` | FACT (réfuté) | citable **uniquement comme faux** |
+| `C6 — Bloqué / source absente` (32) | UNKNOWN | — | UNKNOWN | pas de write, log GAP |
+| `WEB` / `WEB — Source externe à arbitrer` (44/393) | CANDIDAT | — | — | arbitrer → re-fetch |
+| `ENFANCE*` / `LOOP — à arbitrer` (546) | CANDIDAT | — | — | arbitrer → re-fetch |
+
+Seuls deux mappings sont **sûrs en direct** : `C5 — Faux` → `status:REFUTE` (signal négatif réel)
+et `C6`/`S0` → pas de write (source absente). Tout le reste exige le passage par l'échelle.
+
+### 11.3 Table `Classe source` → famille de provenance
+
+| `Classe source` legacy | Famille FACT_VERIFICATION |
+|---|---|
+| `S0 — Absente` (1 551) | aucune (pas de write) |
+| `S1 — Interne / registre` (211) | INTERNE — **non indépendant** (0 source) |
+| `S2 — Externe secondaire` (220+) | secondaire (C média / D ONG / E académique selon l'émetteur) |
+| `S3 — Primaire / officielle` (696+) | A (officiel) |
+
+`S1 — Interne / registre` est le piège du corpus : un claim sourcé au registre interne du livre n'est
+pas une corroboration (même émetteur que le manuscrit). C'est l'équivalent de la règle §7 « copies
+internes = 0 source ».
+
+### 11.4 Consommation (comment lire le corpus legacy)
+
+```
+LEGACY : search_memory(query, search_mode="hybrid", tags=["livre-cst"])   # PAS de filtre status:
+  → lire `Statut canonique` + `Classe source` + `Source` dans le corps
+  → mapper via §11.2/§11.3 (ou tools/classify_legacy.py)
+  → C5 → citer comme faux (status:REFUTE) ; SINON → re-vérifier via l'échelle L0→L4
+  → `Source` legacy (URL) = indice de re-vérification, JAMAIS preuve de fetch.
+```
+
+Le filtre P3 (`status:CONFIRME`) ne remonte **pas** le legacy : c'est correct, le legacy n'est pas
+confirmé. Le legacy se lit via `livre-cst` seul, puis est re-vérifié et **réécrit** sous le schéma
+canonique §4 (nouvelle mémoire `status:*`, jamais mutation rétroactive du legacy).
+
+`tools/classify_legacy.py` applique §11.2/§11.3 de façon déterministe (parse des champs structurés
+legacy, jamais la prose LLM) :
+
+```bash
+python3 tools/classify_legacy.py [--json] <fichier-legacy.md...>   # ou contenu via stdin
+```
