@@ -35,9 +35,9 @@ et `status:CONFIRME` qu'à L4.
 | Niveau | Nom | Condition | Statut Mnemolite résultant |
 |--------|-----|-----------|------------------------------|
 | L0 | CANDIDAT | assertion LLM (rappel ou snippet), aucune URL lue | rien (pas de write) |
-| L1 | FETCHÉ | @FETCH de l'URL primaire + EXCERPT_OK (extrait borné, exact, autonome) | `status:PLAUSIBLE` |
-| L2 | ANCRÉ | ANCHOR_OK : SRC-ID + locator exact + URL canonique + date | `status:PLAUSIBLE` |
-| L3 | RECOUPÉ | ≥2 sources de **familles de provenance distinctes** (A/B/C/D/E, cf. KERNEL §0 BIAS_PREFLIGHT) affirment le même fait, chacune FETCHÉE | `status:PLAUSIBLE` (en attente de gate EPI) |
+| L1 | FETCHÉ | @FETCH de l'URL primaire + EXCERPT_OK (extrait borné, exact, autonome) | `status:VERIFIE` |
+| L2 | ANCRÉ | ANCHOR_OK : SRC-ID + locator exact + URL canonique + date | `status:VERIFIE` |
+| L3 | RECOUPÉ | ≥2 sources de **familles de provenance distinctes** (A/B/C/D/E, cf. KERNEL §0 BIAS_PREFLIGHT) affirment le même fait, chacune FETCHÉE | `status:VERIFIE` (en attente de gate EPI) |
 | L4 | CONFIRMÉ | L3 + gate EPI = FACT + aucun contre-exemple trouvé dans les sources fetchées | `status:CONFIRME` + `verifie-YYYY-MM-DD` |
 
 ```
@@ -55,7 +55,7 @@ EPI := FACT != EVIDENCE != INFERENCE != HYPOTHESIS != SPECULATION != UNKNOWN
 - **FACT** : observation sourcée, directement vérifiable, non interprétée (« le 7 mars 2025, X est
   condamné à 4 ans dont 2 ferme »). Seul FACT peut atteindre L4 / `status:CONFIRME` / ✦.
 - **EVIDENCE** : pièce qui étaye un fait mais n'est pas le fait lui-même (un extrait, un chiffre
-  intermédiaire). Persistée en `memory_type=note`, `status:PLAUSIBLE`. Jamais CONFIRME seule.
+  intermédiaire). Persistée en `memory_type=note`, `status:VERIFIE`. Jamais CONFIRME seule.
 - **INFERENCE / HYPOTHESIS / SPECULATION** : interprétation, prédiction, conjecture. Persistées avec
   `lifecycle_state=doubt`. **Jamais CONFIRME, jamais ✦, jamais citées comme fait en Phase 3.**
 - **UNKNOWN** : invérifiable → pas de write, log GAP.
@@ -155,7 +155,7 @@ de discipline, pas de code (AGENTS.md §4).
 ```
 LECTURE  : search_memory(query, search_mode="hybrid", tags=["project:truth-engine", "status:CONFIRME"]) AVANT tout @WEB.
   HIT + status:CONFIRME            → citer {source + URL + memory_id}, ZÉRO appel web.
-  HIT + status:PLAUSIBLE           → traiter comme NON VÉRIFIÉ, reprendre l'échelle L0→L4.
+  HIT + status:VERIFIE            → traiter comme NON CONFIRMÉ, reprendre l'échelle L0→L4 (monter à L4 = CONFIRME).
   MISS                             → @WEB → échelle → write-back obligatoire.
 ```
 
@@ -197,8 +197,10 @@ La cohérence interne n'est jamais une preuve : c'est une erreur copiée N fois.
 
 ## 9. Conformité au canon (double-check 2026-08-15)
 
-- Statuts : `status:CONFIRME` / `status:PLAUSIBLE` uniquement (namespaces réservés : `status`, `fact`,
-  `project`, `sys`, `session`, `date`, `source`). Pas de `status:CANDIDATE` (invention corrigée).
+- Statuts : `status:CONFIRME` (L4) / `status:VERIFIE` (L1-L3). **Vocabulaire serveur réel** constaté
+  2026-08-16 : CONFIRME, DOUTE, REFUTE, VERIFIE. Le serveur rejette `status:PLAUSIBLE` (statut inconnu)
+  — drift corrigé : L1-L3 s'écrivent désormais `status:VERIFIE`. Namespaces réservés : `status`, `fact`,
+  `project`, `sys`, `session`, `date`, `source`. Pas de `status:CANDIDATE` (invention corrigée).
 - Pas d'expiration automatique des CONFIRME (règle du skill) ; re-vérification à la demande seulement.
 - Le **recoupement L3 est un renforcement délibéré** du canon (qui exige 1 source primaire lue) : il
   répond à la demande « croiser les données » et tue la fausse corroboration par copies internes.
