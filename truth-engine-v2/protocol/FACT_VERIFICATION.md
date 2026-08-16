@@ -157,6 +157,11 @@ LECTURE  : search_memory(query, search_mode="hybrid", tags=["project:truth-engin
   HIT + status:CONFIRME            → citer {source + URL + memory_id}, ZÉRO appel web.
   HIT + status:VERIFIE            → traiter comme NON CONFIRMÉ, reprendre l'échelle L0→L4 (monter à L4 = CONFIRME).
   MISS                             → @WEB → échelle → write-back obligatoire.
+
+RACCOURCI (artefact amont porteur) : si un F-## circule déjà avec `mem:<uuid>` (quintessence §2,
+rapport Phase 2), l'aval n'appelle PAS search_memory : il appelle `read_memory(id)` DIRECTEMENT →
+{source + URL + citation verbatim + verifie-date}. ZÉRO re-recherche, ZÉRO re-vérification : le
+write-back fait foi. C'est la boucle EPI/mem qui ferme Phase 1 → 3 (P6b).
 ```
 
 **Pas d'expiration automatique** (règle canonique `mnemolite-mem-first`) : un fait `status:CONFIRME`
@@ -192,7 +197,7 @@ La cohérence interne n'est jamais une preuve : c'est une erreur copiée N fois.
 | KERNEL §13 | VERIFICATION exige le recoupement L3 (≥2 familles) pour ✦ ; source unique → ✧ |
 | KERNEL §19a | inchangé (déjà correct) ; gate : n'écrire CONFIRME que pour EPI=FACT+L4 |
 | SUBLIMATOR Phase 1 (v36) | préserver ✦ ET reporter EPI + memory_id du fait CONFIRME |
-| SUBLIMATOR Phase 2/3 (v37/v38) | lire Mnemolite (hybrid) au lieu de « DOWN/INDISPONIBLE » ; citer les faits CONFIRME sans re-vérifier (à la demande seulement) |
+| SUBLIMATOR Phase 2/3 (v37/v38) | v37 propage `EPI`+`mem:` des quintessences vers le rapport (§2 « F-## sous-jacents ») ; v38 consomme `read_memory(id)` sur les faits `mem:<uuid>` au lieu de re-chercher (P6b) |
 | skill mnemolite-mem-first | appliquer §6 (consommation) ; le reste du skill fait déjà foi |
 
 ## 9. Conformité au canon (double-check 2026-08-15)

@@ -68,7 +68,7 @@ Tu es le **pilote unique** du pipeline Sublimator Phase 2. Tu transformes **N qu
 - **Pourquoi** : 2-4 lignes argumentant le soutien.
 - **Pourquoi pas** : 2-4 lignes argumentant la contestation.
 - **Réfutation possible** : 1-2 lignes sur la réfutation la plus dévastatrice.
-- **F-##/M-## sous-jacents** : liste exhaustive.
+- **F-##/M-## sous-jacents** : liste exhaustive. Chaque F-## conserve son suffixe `EPI:<classe>` + `mem:<uuid>` tel qu'il figure en §2 des quintessences ingérées (jamais inventé ; `EPI:-`/`mem:-` si absent). Les M-## (mécanismes, EPI=INFERENCE par nature) ne portent jamais de `mem:`.
 
 **Format des transversalités (§3)** : pour chaque transversalité, lister concept/acteur/mécanisme, thèses cardinales reliées (≥3), F-##/M-## sous-jacents, format pivot `[Cluster A (F-12, M-1) ↔ Cluster C (F-05)]`.
 
@@ -185,7 +185,7 @@ investigations/<sujet>/_synthese/
 
 ### Mnemolite (lecture d'abord)
 
-Si `get_system_snapshot` répond UP : `search_memory(query, search_mode="hybrid", tags=["project:truth-engine", "status:CONFIRME"], limit=10)` avant toute re-vérification ; citer les faits `status:CONFIRME` (source + URL + memory_id) sans appel web. Si DOWN : documenter la balise `[HALTE_APPEL: Mnemolite distant injoignable. Aucun ajout externe effectué.]` en première ligne de §5 et continuer. Règle de consommation complète : `truth-engine-v2/protocol/FACT_VERIFICATION.md` §6. Pas d'invention.
+Si `get_system_snapshot` répond UP : `search_memory(query, search_mode="hybrid", tags=["project:truth-engine", "status:CONFIRME"], limit=10)` avant toute re-vérification ; citer les faits `status:CONFIRME` (source + URL + memory_id) sans appel web. Propager dans §2 le suffixe `EPI:<classe>` + `mem:<uuid>` de chaque F-## issu des quintessences (jamais inventé ; `EPI:-`/`mem:-` si absent). Si DOWN : documenter la balise `[HALTE_APPEL: Mnemolite distant injoignable. Aucun ajout externe effectué.]` en première ligne de §5 et continuer. Règle de consommation complète : `truth-engine-v2/protocol/FACT_VERIFICATION.md` §6. Pas d'invention.
 
 ---
 
