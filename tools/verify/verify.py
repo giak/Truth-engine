@@ -277,6 +277,26 @@ def cmd_state_id(cfg, root):
     return 0
 
 
+def cmd_report(cfg, root):
+    """Rapport de suivi lisible (markdown), sans effet de bord ni fichier."""
+    verdict, results = run_checks(cfg, root)
+    state_id, head = compute_state_id(root)
+    branch = current_branch(root)
+    out = [
+        f"- Branche : `{branch or '?'}`",
+        f"- Verdict déterministe : **{verdict}**",
+        f"- STATE_ID : `{state_id}`",
+        f"- HEAD : `{head[:12] if head else '?'}`",
+        "",
+        "| Check | Verdict |",
+        "|---|---|",
+    ]
+    for r in results:
+        out.append(f"| {r['name']} | {r['verdict']} |")
+    print("\n".join(out))
+    return {"PASS": 0, "FAIL": 1, "BLOCKED": 2}[verdict]
+
+
 def cmd_certify(cfg, root, review):
     if review not in VERDICTS:
         eprint(f"--review doit être l'un de {VERDICTS}")
@@ -324,7 +344,7 @@ def cmd_certify(cfg, root, review):
 
 def usage():
     print(
-        "usage: verify.py check | state-id | certify --review PASS|FAIL|BLOCKED"
+        "usage: verify.py check | state-id | report | certify --review PASS|FAIL|BLOCKED"
     )
     return 2
 
@@ -343,6 +363,8 @@ def main(argv):
         return cmd_check(cfg, root)
     if mode == "state-id":
         return cmd_state_id(cfg, root)
+    if mode == "report":
+        return cmd_report(cfg, root)
     if mode == "certify":
         review = "PASS"
         if "--review" in argv:
