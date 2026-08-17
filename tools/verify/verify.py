@@ -55,10 +55,16 @@ def eprint(*args):
 
 
 def find_root(start):
-    """Résoudre la racine du dépôt git en remontant depuis `start`."""
+    """Résoudre la racine du dépôt git en remontant depuis `start`.
+
+    Gère les worktrees : dans un worktree, `.git` est un FICHIER (gitlink),
+    pas un répertoire. On accepte les deux, sinon le script remonterait à tort
+    jusqu'au dépôt principal et lirait la mauvaise branche.
+    """
     d = os.path.abspath(start)
     while True:
-        if os.path.isdir(os.path.join(d, ".git")):
+        git_path = os.path.join(d, ".git")
+        if os.path.isdir(git_path) or os.path.isfile(git_path):
             return d
         parent = os.path.dirname(d)
         if parent == d:
