@@ -354,6 +354,13 @@ substack-online/posts/*.csv
 # Données brutes volumineuses téléchargées (dépassent la limite GitHub de 100 Mo/fichier)
 decp-*.json
 
+# Gros fichiers de données (payloads juridiques, exports, scans, archives)
+*_payload.xml
+scan*.txt
+source_boamp_*_avis.json
+FACTCHECK_DATABASE_MASTER*.csv
+archive/legacy-outputs/social/documents/twitter_save_tweet/note-tweet.js
+
 # opencode / kilo / specstory tooling
 .opencode/
 .kilo/
