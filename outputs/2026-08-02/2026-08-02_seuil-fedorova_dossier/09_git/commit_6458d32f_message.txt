@@ -1,0 +1,6 @@
+COMMIT 6458d32f822e5181361ffc5891c17a0e74ab3e44
+Date : 2026-08-02 09:37:18 +0200
+Auteur : Truth Engine
+Titre : feat(about): page About v9 + machine.md via protocole APEX (vestibule 1105 mots, dossier 2175 mots)
+
+

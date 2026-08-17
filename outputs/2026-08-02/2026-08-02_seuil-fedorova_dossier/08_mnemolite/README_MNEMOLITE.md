@@ -1,0 +1,18 @@
+# Mnemolite : données extraites pour le dossier Fedorova
+
+**Mnemolite** est le moteur RAG du projet (base vectorielle). Cette section archive les 6 mémoires pertinentes pour l'article « Du « narratif » à l'ingérence : le seuil Fedorova », extraites telles quelles (contenu intégral, y compris le texte source d'origine).
+
+**Méthode :** recherche sémantique Mnemolite (tags `fedorova`, `oqtf`, `fourest`, `kretinsky`, `sauvegarde-2026-07-31`), lecture intégrale des mémoires, archivage verbatim. L'export global de la base (`mnemolite_export_memories`) échoue sur une erreur de validation de schéma (champs `entities` de mémoires tierces), d'où l'extraction manuelle.
+
+| Fichier | ID | Titre | Créée | Rôle |
+|---------|-----|-------|-------|------|
+| `01_ddcb22b_fedorova-verdict-forensique.md` | `ddcbb22b-a39d-4827-8916-6bef20e76e7b` | Fedorova OQTF : déclarations vs accusations — verdict forensique | 2026-07-30 | La mémoire-sœur de l'article : le verdict (OQTF sans faits cités, sans condamnation, sans décision Arcom ; refus France de l'inclure au 16e paquet UE) |
+| `02_c41fa354_concentration-medias-5-milliardaires.md` | `c41fa354-fab8-46db-909f-9be3fcef4660` | Concentration des médias français — 5 milliardaires, débat public captif | 2026-06-19 | Contexte : 5 milliardaires > 75 % des audiences, 52 sanctions Arcom. La thèse de l'« ingérence russe » agit sur un débat déjà captif |
+| `03_e74794cd_catalogue-opposition-controlee.md` | `e74794cd-4d7e-4b1b-9cb9-b86caa9d1c6a` | Catalogue Opposition Contrôlée — 10 figures documentées | 2026-05-19 | Fourest #4 : financement Křetínský/EPH/Eustream (€3,8 Mds gaz russe, OCCRP BabakovLeaks 2016) |
+| `04_6bbdf5a7_opposition-controlee-iceberg-max.md` | `6bbdf5a7-5a6b-44de-8228-4c97d405d583` | Opposition Contrôlée — ICEBERG MAX + SUBSTACK (27 faits, 38 acteurs) | 2026-05-19 | La matrice large : « fausse résistante financée par ce qu'elle dénonce », Machine à Silence, DSA 32Md décisions |
+| `05_cfeaa04c_fourest-iceberg-max.md` | `cfeaa04c-062b-4815-b062-fcdf9fc5dae1` | INVESTIGATION ICEBERG MAX : CAROLINE FOUREST | 2025-11-29 | Le paradoxe Křetínský (smoking gun) : réunion Moscou 29/06/2016 avec le PDG Gazprom via Babakov (sanctionné UE) ; 2 condamnations diffamation, 1 sanction CSA, exclusion ONPC 2015 |
+| `06_e9e46462_fourest-apex-infiltration-russe.md` | `e9e46462-1ef8-48e7-b51d-eb58131faf1d` | INVESTIGATION APEX : Caroline Fourest — Infiltration Russe et Menace Démocratique | 2025-11-29 | Déconstruction rhétorique (DSL) du discours de Fourest : faux dilemme 9/10, urgence théâtrale 8/10, synecdoque « totalement infiltrée », 18 sources, WOLF 8 acteurs |
+
+**Articulation avec l'article :** l'article du 31 juillet 2026 applique à l'expulsion de Fedorova la grille forgée depuis novembre 2025 contre la « fausse résistante » : (1) le précédent Moreau (sanctions sans condamnation, dossier `07_sources_antecedentes/`) ; (2) l'arme administrative ciblant des opinions politiques ; (3) l'accusatrice principale (Fourest) dont le propre employeur est financé par le gaz russe ; (4) le débat public captif qui rend l'étiquette « ingérence » instrumentale.
+
+**Note de vérification (2 août 2026) :** la mémoire 01 (`ddcb22b`), créée avant les corrections post-audit, date l'arrêté du 28 juillet 2026 et le présente comme signé par Patrice Faure. Les faits corrigés retenus par l'article final (et par la strate 31) sont : notification le 29 juillet 2026 ; la signature personnelle de Faure n'est pas confirmée (signataire direct ou superviseur). La mémoire est archivée verbatim comme témoin de l'état des connaissances du 30 juillet, sans valeur de version corrigée.
