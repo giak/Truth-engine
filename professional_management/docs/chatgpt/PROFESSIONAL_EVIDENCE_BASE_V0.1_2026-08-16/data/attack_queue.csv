@@ -1,0 +1,11 @@
+attack_id,priority,subject,claim_or_risk,required_action,status
+ATK-001,P0,SolarStack,role + system + performance metrics,Find contemporary/client evidence,OPEN
+ATK-002,P0,Accès Industrie,role + selected scale metrics,Find employment/client evidence; avoid metric dump,OPEN
+ATK-003,P0,Breizh Company,CTO + ERP scope,Find company/contract/archive evidence,OPEN
+ATK-004,P0,MnemoLite,test/tool/page counts,Direct measurement from repo/runtime,OPEN
+ATK-005,P0,Truth Engine,investigation/article units,Define units; recount from filesystem/export,OPEN
+ATK-006,P0,Substack,119 articles / 2.2M words,"Export, deduplicate, count",OPEN
+ATK-007,P0,Historical ROI,all percentage gains,Quarantine until calculation/client evidence,OPEN
+ATK-008,P0,Authorship,solo/from scratch,Define and inspect contribution history,OPEN
+ATK-009,P1,MCO,zero semantic loss,Benchmark or soften claim,OPEN
+ATK-010,P1,Security,expert label,"Use concrete implementations, not label",OPEN

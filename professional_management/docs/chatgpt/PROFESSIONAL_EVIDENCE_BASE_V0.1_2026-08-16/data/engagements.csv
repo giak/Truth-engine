@@ -1,0 +1,12 @@
+engagement_id,organisation,role_claimed,start,end,engagement_type,scope,responsibilities,claim_ids,source_ids,verification_status,confidentiality,notes
+ENG-DRM,Direction du Renseignement Militaire,Analyste,1995-05,1999-05,employment/self-reported,,,CLM-0010,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.
+ENG-MCM,MCM,Intégrateur / Développeur,2000-02,2001-05,employment/self-reported,,,CLM-0011,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.
+ENG-MPTROIS,mptrois.com,Développeur,2001-06,2002-12,employment/self-reported,,,CLM-0012,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.
+ENG-PEKIN,Pekin.fr,Chef de projet / Développeur,2003-06,2004-12,employment/self-reported,,,CLM-0013,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.
+ENG-1GENIA,1Genia (SSII),Chef de projet,2005-04,2007-06,employment/self-reported,,,CLM-0014,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.
+ENG-NEOO5,neoO5.com,Chef de projet / Développeur,2007-07,2008-06,employment/self-reported,,,CLM-0015,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.
+ENG-BREIZH,Breizh Company,CTO,2008-07,2013-01,employment/self-reported,,,CLM-0016,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.
+ENG-LIBRESENS,Libresens,Développeur LAMP full-stack,2013-05,2017-06,employment/self-reported,,,CLM-0017,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.
+ENG-COSAVOIRS,Co-Savoirs,Lead développeur LAMP,2016-10,2017-07,employment/self-reported,,,CLM-0018,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.
+ENG-ACCES,Accès Industrie,Analyste programmeur,2017-12,2022-11,employment/self-reported,,,CLM-0019,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.
+ENG-SOLAR,SolarStack,Développeur senior TypeScript,2023-04,2024-12,employment/self-reported,,,CLM-0020,SRC-0003,SELF_REPORTED,unknown,Corroboration indépendante non collectée dans V0.1.

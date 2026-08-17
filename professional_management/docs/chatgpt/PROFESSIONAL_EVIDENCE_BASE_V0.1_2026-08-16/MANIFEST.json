@@ -1,0 +1,23 @@
+{
+  "name": "PROFESSIONAL_EVIDENCE_BASE",
+  "version": "0.1",
+  "frozen_at": "2026-08-16",
+  "files": {
+    "00_DASHBOARD.md": "0f76584397d8a1fd810cdf6cbd7f88a79cbeebb8e1a93f16978624664bad104c",
+    "01_EVIDENCE_POLICY.md": "5da1a36d0478978ebdec311c93b46f37f968d0af2a719fbd04dfbbe8380818ea",
+    "README.md": "24ce6eb196df9f68ca559ee43b208f4dd8460cb4fcad4555ff3823d29f8f7ac1",
+    "data/artifacts.csv": "a6f4d8dd92ad8985e1c2a8d4e3fc564d2a668e87113bf674aeb5416a22116030",
+    "data/attack_queue.csv": "f7a22f5cfbbadf98e2d619b06f0a52fa5116e1b59f7dfc5dba8b442356121e15",
+    "data/claims.csv": "2e7ce85b9cc38b7bd261837d35e63d5dbbe6fc3593468d25db442ef258471da5",
+    "data/decisions.csv": "321effaf5100312ecff330a274be20879a0ff7132c108e44f08b5d43f410807b",
+    "data/engagements.csv": "b8c465c43ba601a2d60dd99358ecea1b7d22e831874cd6f30bea561a00f361f0",
+    "data/evidence_edges.csv": "5cdb9039ab6848f274a39f8a40a40e93bf4a3acd94ea41b6b508e10778fc1516",
+    "data/metrics.csv": "a026459fd6e6ea5c81adc8bcfbf276b7053267ef376bfb17f29490b942a875ef",
+    "data/sources.csv": "81edc9dcfde0fcd561f35ff61e9e87a9aff75f23c4799c62b821f2ec6e8fbabf",
+    "evidence/input/professional_summary_2026-08-16.md": "144682c2fa1ecc57a9279cce4994fca03c21acfad7bedf8ff638e31b68846d37",
+    "reports/ATTACK_REPORT.md": "a522c8c3508a4d73644f3ef84c83ddddb5afb9b2b7e279c99be5e9d6c590035f",
+    "reports/VALIDATION.txt": "6cd38d0c600ab96387a6cd30daedadc5b43e1e68222c5059d29ec4f1bd03932a",
+    "scripts/validate.py": "7dbd5c6083fb3ce0f043368bede2fca9a9651a8fd3c5f15ff98dbd64d24fa20d"
+  },
+  "scope": "Initial forensic professional evidence baseline"
+}

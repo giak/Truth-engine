@@ -1,0 +1,15 @@
+metric_id,subject_id,name,value,unit,as_of,measurement_method,source_id,confidence,supersedes,notes
+MET-0001,ART-MNEMO,test_count,199,tests/functions (definition unknown),unknown-before-2026-08-16,self-summary,SRC-0001,LOW,,Ancienne valeur; peut être historique.
+MET-0002,ART-MNEMO,test_count,1570,tests (definition unknown),unknown-before-2026-08-16,self-summary,SRC-0001,LOW,MET-0001,Valeur contradictoire seulement si même définition/date; sinon snapshot historique.
+MET-0003,ART-MNEMO,test_count,1893,functions/tests per README,2026-08-16,README declaration,SRC-0007,MEDIUM,MET-0002,À vérifier par collecte pytest.
+MET-0004,ART-MNEMO,mcp_tools,29,tools,unknown-before-2026-08-16,self-summary,SRC-0001,LOW,,Ancien snapshot probable.
+MET-0005,ART-MNEMO,mcp_tools,31,tools,2026-08-16,README declaration,SRC-0007,MEDIUM,MET-0004,À compter depuis l'enregistrement MCP pour niveau OBSERVED.
+MET-0006,ART-MNEMO,memories,~37000,records,unknown-before-2026-08-16,self-summary,SRC-0001,LOW,,Snapshot historique probable.
+MET-0007,ART-MNEMO,memories,~39700,records,2026-08-16,README declaration,SRC-0007,MEDIUM,MET-0006,À vérifier par requête DB si souhaité.
+MET-0008,ART-MNEMO,ui_pages,14,pages,unknown-before-2026-08-16,self-summary,SRC-0001,LOW,,Le résumé contient aussi 13 ailleurs.
+MET-0009,ART-MNEMO,ui_pages,13,pages,2026-08-16,README declaration,SRC-0007,MEDIUM,MET-0008,À compter via routes UI.
+MET-0010,PUB-SUBSTACK,published_articles,108,articles,unknown-before-2026-08-16,self-summary,SRC-0001,LOW,,Probablement valeur antérieure.
+MET-0011,PUB-SUBSTACK,published_articles,119,articles,2026-08-16,Substack About declaration,SRC-0004,MEDIUM,MET-0010,À confirmer par export/liste complète.
+MET-0012,ART-TRUTH,investigations,1095,investigations (definition unknown),unknown-before-2026-08-16,self-summary,SRC-0001,LOW,,Unité à définir.
+MET-0013,ART-TRUTH,investigations_or_reports,100+,folders/reports per README,2026-08-16,README declaration,SRC-0008,MEDIUM,,N'est pas directement comparable à 1095 sans définition.
+MET-0014,PUB-SUBSTACK,research_words,>2200000,words,2026-08-16,Substack About declaration,SRC-0004,LOW,,Requiert comptage du corpus.

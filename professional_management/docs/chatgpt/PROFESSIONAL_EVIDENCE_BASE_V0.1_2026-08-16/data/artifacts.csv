@@ -1,0 +1,9 @@
+artifact_id,type,title,project,date_start,date_end,status,repository,public,description,claim_ids
+ART-MNEMO,SOFTWARE,MnemoLite,MnemoLite,2025-04-24,active,active,https://github.com/giak/mnemo-lite,yes,Mémoire cognitive locale / recherche hybride / MCP.,CLM-0100;CLM-0101;CLM-0102;CLM-0103;CLM-0104;CLM-0105;CLM-0106;CLM-0107
+ART-TRUTH,SOFTWARE_PROTOCOL,Truth Engine,Truth Engine,,active,active,https://github.com/giak/Truth-engine,yes,Système d'analyse cognitive et de production éditoriale.,CLM-0110;CLM-0111;CLM-0112;CLM-0113;CLM-0114;CLM-0115
+ART-EXPANSE,COGNITIVE_PROTOCOL,Expanse,Expanse,,active,active,https://github.com/giak/expanse,yes,Projet se décrivant comme Cognitive Operating System.,CLM-0120;CLM-0121;CLM-0122
+ART-CVGEN,SOFTWARE,CV Generator,CV Generator,2025-03-10,active,active,https://github.com/giak/cv-generator,yes,Application Vue 3/TypeScript JSON Resume.,CLM-0130;CLM-0131;CLM-0132
+ART-RR,SOFTWARE,RéseauRacine,RéseauRacine,,active,active,https://github.com/giak/reseau-racine,yes,Messagerie Rust/Nostr chiffrée.,CLM-0140;CLM-0141;CLM-0142
+PUB-SUBSTACK,PUBLICATION_CORPUS,Résistance Cognitive,Substack,2025,active,active,,yes,Corpus d'articles et d'enquêtes.,CLM-0200;CLM-0201;CLM-0202;CLM-0203;CLM-0204
+PUB-TECH,PUBLICATION_CORPUS,Portfolio technique,Portfolio,,active,active,https://github.com/giak/portfolio,yes,Articles techniques et portfolio.,CLM-0205;CLM-0206
+ART-MCO,COGNITIVE_PROTOCOL,MCO,MCO,,,self-reported,,unknown,Protocole de compression cognitive; performance « zéro perte » non vérifiée.,CLM-0304

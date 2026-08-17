@@ -1,0 +1,66 @@
+claim_id,subject_id,claim_type,statement,valid_from,valid_to,epistemic_status,commercial_value,publicability,sensitivity,last_reviewed,notes
+CLM-0001,PERSON,POSITIONING,Le portfolio public se présente actuellement comme « Architecte Web Senior JavaScript/TypeScript ».,,,OBSERVED,MEDIUM,YES,normal,2026-08-16,
+CLM-0002,PERSON,POSITIONING,Le CV public se présente comme « Développeur FullStack JavaScript TypeScript ».,,,OBSERVED,MEDIUM,YES,normal,2026-08-16,
+CLM-0003,PERSON,INFERENCE,Le positionnement public actuel sous-représente les travaux IA/agentiques documentés en 2025-2026.,,,INFERRED,HIGH,YES,normal,2026-08-16,Inference fondée sur contraste portfolio/CV vs dépôts et résumé 2026.
+CLM-0010,ENG-DRM,ROLE,Analyste à la Direction du Renseignement Militaire de mai 1995 à mai 1999.,1995-05,1999-05,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0011,ENG-MCM,ROLE,Intégrateur / Développeur chez MCM de février 2000 à mai 2001.,2000-02,2001-05,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0012,ENG-MPTROIS,ROLE,Développeur chez mptrois.com de juin 2001 à décembre 2002.,2001-06,2002-12,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0013,ENG-PEKIN,ROLE,Chef de projet / Développeur chez Pekin.fr de juin 2003 à décembre 2004.,2003-06,2004-12,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0014,ENG-1GENIA,ROLE,Chef de projet chez 1Genia d'avril 2005 à juin 2007.,2005-04,2007-06,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0015,ENG-NEOO5,ROLE,Chef de projet / Développeur chez neoO5.com de juillet 2007 à juin 2008.,2007-07,2008-06,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0016,ENG-BREIZH,ROLE,CTO chez Breizh Company de juillet 2008 à janvier 2013.,2008-07,2013-01,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0017,ENG-LIBRESENS,ROLE,Développeur LAMP full-stack chez Libresens de mai 2013 à juin 2017.,2013-05,2017-06,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0018,ENG-COSAVOIRS,ROLE,Lead développeur LAMP chez Co-Savoirs d'octobre 2016 à juillet 2017.,2016-10,2017-07,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0019,ENG-ACCES,ROLE,Analyste programmeur chez Accès Industrie de décembre 2017 à novembre 2022.,2017-12,2022-11,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0020,ENG-SOLAR,ROLE,Développeur senior TypeScript chez SolarStack d'avril 2023 à décembre 2024.,2023-04,2024-12,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,Présent sur CV public; corroboration indépendante non collectée dans V0.1.
+CLM-0021,ENG-BREIZH,DELIVERABLE,"Conception et développement revendiqués d'un ERP interne intégrant devis, facturation, CRM et WMS.",,,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,
+CLM-0022,ENG-SOLAR,SYSTEM,Travail revendiqué sur un système critique hydro-électrique temps réel en TypeScript/Vue/RxJS.,,,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,
+CLM-0023,ENG-SOLAR,METRIC,Le CV public revendique 1000+ événements/seconde.,,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,Requiert logs/bench/artefact technique ou attestation.
+CLM-0024,ENG-SOLAR,METRIC,"Le CV public revendique 99,99 % de disponibilité système.",,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,Requiert source de monitoring ou attestation client.
+CLM-0025,ENG-SOLAR,METRIC,Le CV public revendique une latence <100 ms et mémoire <50 MB.,,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,Requiert benchmark reproductible ou données contemporaines.
+CLM-0026,ENG-COSAVOIRS,RESULT,Le CV public revendique une réduction de 40 % des incidents.,,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,
+CLM-0027,ENG-LIBRESENS,RESULT,Le CV public revendique +50 % de performances applicatives après optimisation DB.,,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,
+CLM-0028,ENG-BREIZH,RESULT,Le CV public revendique -30 % d'erreurs de rapprochement financier/bancaire.,,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,
+CLM-0100,ART-MNEMO,EXISTENCE,Le dépôt public giak/mnemo-lite existe sur GitHub.,,,OBSERVED,HIGH,YES,normal,2026-08-16,
+CLM-0101,ART-MNEMO,TECHNICAL,MnemoLite est principalement un projet Python selon les métadonnées GitHub.,,,OBSERVED,MEDIUM,YES,normal,2026-08-16,
+CLM-0102,ART-MNEMO,ARCHITECTURE,"Le README courant décrit PostgreSQL/pgvector, recherche hybride vectorielle + lexicale + BM25/RRF et embeddings locaux.",,,DOCUMENTED,HIGH,YES,normal,2026-08-16,
+CLM-0103,ART-MNEMO,METRIC,Le README courant déclare 1 893 fonctions/tests.,,,DOCUMENTED,HIGH,CAUTION,normal,2026-08-16,Non exécuté dans cette passe; définition exacte à confirmer par pytest --collect-only.
+CLM-0104,ART-MNEMO,METRIC,Le README courant déclare 31 outils MCP.,,,DOCUMENTED,HIGH,CAUTION,normal,2026-08-16,
+CLM-0105,ART-MNEMO,METRIC,Le README courant déclare environ 39 700 mémoires indexées.,,,DOCUMENTED,MEDIUM,CAUTION,normal,2026-08-16,
+CLM-0106,ART-MNEMO,METRIC,Le README courant déclare 13 pages dans la SPA Vue 3.,,,DOCUMENTED,MEDIUM,CAUTION,normal,2026-08-16,
+CLM-0107,ART-MNEMO,INFERENCE,MnemoLite constitue une preuve technique pertinente de conception d'un système de mémoire/recherche pour agents IA.,,,INFERRED,HIGH,YES,normal,2026-08-16,
+CLM-0110,ART-TRUTH,EXISTENCE,Le dépôt public giak/Truth-engine existe sur GitHub.,,,OBSERVED,HIGH,YES,normal,2026-08-16,
+CLM-0111,ART-TRUTH,SYSTEM,Le README présente Truth Engine comme un système d'analyse cognitive et de production éditoriale.,,,DOCUMENTED,HIGH,YES,normal,2026-08-16,
+CLM-0112,ART-TRUTH,SCOPE,Le README courant mentionne 100+ enquêtes et rapports dans le dépôt.,,,DOCUMENTED,MEDIUM,CAUTION,normal,2026-08-16,
+CLM-0113,ART-TRUTH,METRIC,Le README courant mentionne un export Substack de 86 posts.,,,DOCUMENTED,MEDIUM,CAUTION,normal,2026-08-16,Valeur manifestement historique par rapport à la page Substack actuelle.
+CLM-0114,ART-TRUTH,SCOPE,"Le dépôt racine contient aussi des scripts Python; « 0 .py / 100% prompt-driven » ne peut donc viser que le sous-système v2, pas le dépôt entier.",,,OBSERVED,HIGH,YES,normal,2026-08-16,
+CLM-0115,ART-TRUTH,QUALITY,"L'affirmation « rien n'est affirmé sans sa chaîne de preuve » est une règle méthodologique publiée, pas une performance vérifiée globalement.",,,SELF_REPORTED,HIGH,CAUTION,normal,2026-08-16,
+CLM-0120,ART-EXPANSE,EXISTENCE,"Le dépôt public giak/expanse existe et contient KERNEL, docs, dashboard, runtime, skills, cortex et v16.",,,OBSERVED,MEDIUM,YES,normal,2026-08-16,
+CLM-0121,ART-EXPANSE,SYSTEM,Le projet se définit lui-même comme « Cognitive Operating System ».,,,DOCUMENTED,MEDIUM,CAUTION,normal,2026-08-16,
+CLM-0122,ART-EXPANSE,INFERENCE,"Expanse est une preuve de travail sur protocoles/architectures cognitives LLM, mais le terme « OS cognitif » est un positionnement conceptuel et non une catégorie standard vérifiée.",,,INFERRED,MEDIUM,YES,normal,2026-08-16,
+CLM-0130,ART-CVGEN,EXISTENCE,Le dépôt public giak/cv-generator existe.,,,OBSERVED,MEDIUM,YES,normal,2026-08-16,
+CLM-0131,ART-CVGEN,ARCHITECTURE,"Le README documente Vue 3, TypeScript, Clean Architecture, JSON Resume et i18n français/anglais.",,,DOCUMENTED,HIGH,YES,normal,2026-08-16,
+CLM-0132,ART-CVGEN,QUALITY,Les affirmations de conformité « 100 % JSON Resume » restent de la documentation de projet tant qu'elles ne sont pas vérifiées par test externe.,,,DOCUMENTED,MEDIUM,CAUTION,normal,2026-08-16,
+CLM-0140,ART-RR,EXISTENCE,Le dépôt public giak/reseau-racine existe.,,,OBSERVED,MEDIUM,YES,normal,2026-08-16,
+CLM-0141,ART-RR,TECHNICAL,"Le README documente une messagerie Rust/Nostr utilisant NIP-17/NIP-44, Docker, CLI et cellules chiffrées.",,,DOCUMENTED,MEDIUM,YES,normal,2026-08-16,
+CLM-0142,ART-RR,INFERENCE,Le projet prouve une pratique de Rust/crypto appliquée; il ne suffit pas à qualifier la personne de cryptographe ou expert cybersécurité.,,,INFERRED,HIGH,YES,normal,2026-08-16,
+CLM-0200,PUB-SUBSTACK,EXISTENCE,La page Substack publique « Résistance Cognitive » est active et attribuée à Christophe Giacomel / Giak.,,,OBSERVED,HIGH,YES,normal,2026-08-16,
+CLM-0201,PUB-SUBSTACK,METRIC,La page À propos déclare 119 articles publiés au 16/08/2026.,,,DOCUMENTED,HIGH,CAUTION,normal,2026-08-16,À confirmer par export/listing dédoublonné.
+CLM-0202,PUB-SUBSTACK,METRIC,"La page À propos déclare plus de 2,2 millions de mots de dossiers d'enquête.",,,SELF_REPORTED,MEDIUM,BLOCKED,normal,2026-08-16,Requiert comptage reproductible du corpus.
+CLM-0203,PUB-SUBSTACK,METRIC,La page À propos déclare 16 à 30 heures par article.,,,SELF_REPORTED,LOW,CAUTION,normal,2026-08-16,Temps de travail auto-estimé; faible intérêt probatoire.
+CLM-0204,PUB-SUBSTACK,PROCESS,"La page À propos décrit un workflow LLM avec recherche, compilation, reformulation, vérification humaine, recadrage et confrontation de plusieurs modèles.",,,DOCUMENTED,HIGH,YES,normal,2026-08-16,
+CLM-0205,PUB-TECH,PUBLICATION,"Le portfolio public contient une production technique sur architecture, design patterns, JavaScript/TypeScript et IA/MCP.",,,OBSERVED,MEDIUM,YES,normal,2026-08-16,
+CLM-0206,PUB-TECH,METRIC,Le résumé 2026 revendique 30+ articles techniques.,,,SELF_REPORTED,MEDIUM,CAUTION,normal,2026-08-16,Compter la timeline/les pages pour établir un total exact.
+CLM-0300,PERSON,CAPABILITY,"« Intelligence Artificielle — Expert » est une auto-évaluation, pas un claim canonique publiable tel quel.",,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,
+CLM-0301,PERSON,CAPABILITY,« Sécurité & Privacy — Expert » est une auto-évaluation insuffisamment étayée pour devenir un positionnement principal.,,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,
+CLM-0302,PERSON,CAPABILITY,« Qualité & Testing — Expert » est une auto-évaluation; les pratiques et métriques doivent être publiées à la place du niveau.,,,SELF_REPORTED,MEDIUM,BLOCKED,normal,2026-08-16,
+CLM-0303,PERSON,AUTHORSHIP,"« Tous les projets from scratch, solo » dépasse ce que les dépôts seuls peuvent prouver.",,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,Préférer mainteneur/pilote principal si l'historique le confirme.
+CLM-0304,ART-MCO,QUALITY,« Compression DSL zéro perte sémantique » est un claim de performance fort non vérifié dans V0.1.,,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,"Nécessite protocole d'évaluation, corpus, métrique et résultats reproductibles."
+CLM-0305,PERSON,INFERENCE,Les preuves actuelles soutiennent mieux « architecture logicielle + systèmes IA + knowledge engineering » que « prompt engineer ».,,,INFERRED,HIGH,YES,normal,2026-08-16,
+CLM-0306,PERSON,INFERENCE,Les preuves de fabrication technique sont actuellement plus fortes que les preuves d'usage client et de ROI pour les projets IA récents.,,,INFERRED,HIGH,YES,normal,2026-08-16,
+CLM-0400,REAL-HYDRO,RESULT,"HydroDam: -40 % incidents, ROI <12 mois, -25 % coûts, 85 % prédiction pannes.",,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,Présent dans le résumé 2026; aucune pièce client/mesure indépendante collectée dans V0.1.
+CLM-0401,REAL-ACCES,RESULT,"Accès Industrie: +30 % optimisation d'utilisation, 99,95 % disponibilité et autres métriques de volume.",,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,Présent dans le résumé 2026; aucune pièce client/mesure indépendante collectée dans V0.1.
+CLM-0402,REAL-DFACTO,RESULT,"DFacto: +45 % productivité comptable, ROI 4 mois, +30 % suivi charges, +25 % pilotage.",,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,Présent dans le résumé 2026; aucune pièce client/mesure indépendante collectée dans V0.1.
+CLM-0403,REAL-BBOI,RESULT,"BBOI: -40 % temps de gestion, -60 % erreurs, +35 % efficacité, ROI <6 mois.",,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,Présent dans le résumé 2026; aucune pièce client/mesure indépendante collectée dans V0.1.
+CLM-0404,REAL-BBOIH,RESULT,"BBOIHeures: -70 % erreurs de saisie, 4 h/j gagnées, -15 % coûts RH, 95 % satisfaction.",,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,Présent dans le résumé 2026; aucune pièce client/mesure indépendante collectée dans V0.1.
+CLM-0405,REAL-VDGI,RESULT,"VDGI: +40 % productivité, -60 % erreurs, +30 % traitement, 99,9 % disponibilité.",,,SELF_REPORTED,HIGH,BLOCKED,normal,2026-08-16,Présent dans le résumé 2026; aucune pièce client/mesure indépendante collectée dans V0.1.
