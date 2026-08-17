@@ -693,15 +693,7 @@ avec underscores.
 
 Le verifier ne doit jamais automatiser une règle contradictoire.
 
-**Décision préalable nécessaire :**
-
-```text
-kebab-case
-OU
-snake_case
-```
-
-Une seule convention canonique.
+**Décision prise (2026-08-17) :** kebab-case. Voir `knowledge.md` (Convention de nommage) et `.verify/config.json` (check `naming` activé sur `investigations/`).
 
 ---
 

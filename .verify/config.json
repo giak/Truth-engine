@@ -11,9 +11,9 @@
     }
   ],
   "naming": {
-    "enabled": false,
-    "note": "DÉSACTIVÉ tant que la convention kebab-case vs snake_case n'est pas tranchée (docs/boucle_de_verification.md §20.1). Ne jamais activer une règle contradictoire.",
-    "dirs": ["investigations/", "articles/", "outputs/"],
-    "pattern": "^\\d{4}-\\d{2}-\\d{2}_\\d{2}-\\d{2}_[a-z0-9_-]+_(ARTICLE|HYPER_MATRICE|ARCHITECTURE|SATURATION_AUDIT|REGISTRE|INVESTIGATION)\\.md$"
+    "enabled": true,
+    "note": "kebab-case uniquement (décision 2026-08-17). Scope investigations/ d'abord : articles/ et outputs/ contiennent du legacy non conforme.",
+    "dirs": ["investigations/"],
+    "pattern": "^\\d{4}-\\d{2}-\\d{2}(_\\d{2}-\\d{2})?_[a-z0-9]+(-[a-z0-9]+)*_(ARTICLE|HYPER_MATRICE|ARCHITECTURE|SATURATION_AUDIT|REGISTRE|INVESTIGATION)\\.md$"
   }
 }

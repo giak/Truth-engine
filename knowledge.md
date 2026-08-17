@@ -221,7 +221,7 @@ YYYY-MM-DD_HH-MM_<sujet>_<type>.md
 |---------|--------|---------|
 | Date | `YYYY-MM-DD` | `2026-03-16` |
 | Heure | `HH-MM` | `14-30` |
-| Sujet | `kebab-case` | `reseaux_influence_elections` |
+| Sujet | `kebab-case` | `ingerences-russes` |
 | Type | `MAJUSCULES` | `ARTICLE`, `HYPER_MATRICE` |
 
 ### Types de fichiers
@@ -238,21 +238,21 @@ YYYY-MM-DD_HH-MM_<sujet>_<type>.md
 ### Exemples
 
 ```
-2026-03-16_14-30_reseaux_influence_elections_ARTICLE.md
-2026-03-16_10-15_electeurs_bourreaux_HYPER_MATRICE.md
-2026-03-16_09-00_electeurs_bourreaux_ARCHITECTURE.md
+2026-08-06_11-30_ingerences-russes_INVESTIGATION.md
+2026-03-16_10-15_electeurs-bourreaux_HYPER_MATRICE.md
+2026-03-16_09-00_electeurs-bourreaux_ARCHITECTURE.md
 ```
 
 ### Règles
 
 1. **Date** = date de création
 2. **Heure** = heure de création (optionnel si même jour)
-3. **Sujet** = sujet principal en kebab-case (minuscules, tirets)
+3. **Sujet** = sujet principal en kebab-case (minuscules, tirets), jamais d'underscores
 4. **Type** = en majuscules
-5. **Pas d'espaces** = utiliser des tirets ou underscores
+5. **Pas d'espaces** = utiliser des tirets (kebab-case), jamais d'underscores
 6. **Pas d'accents** = pas de caractères accentués dans les noms
 
-> **NOTE — ambiguïté non résolue (kebab-case vs snake_case) :** la règle dit « kebab-case » (tirets), mais les exemples utilisent des underscores (`reseaux_influence_elections`) et la règle 5 autorise « tirets ou underscores ». Ne pas automatiser ce check de nommage tant que la convention canonique (une seule des deux) n'est pas tranchée. Voir `docs/boucle_de_verification.md` §20.1.
+> **Convention tranchée (2026-08-17) :** kebab-case uniquement, jamais d'underscores dans le sujet. Les fichiers existants en snake_case sont tolérés à titre historique ; tout nouveau fichier doit être en kebab-case.
 
 ## Rôle d'écriture en français
 
