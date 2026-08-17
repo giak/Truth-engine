@@ -10,13 +10,13 @@ Le cycle est immuable. Un fait divers policier éclate, l'indignation collective
 
 Le piège du symptôme est classique. Les voix critiques examinent la loi de 2017 sur le refus d'obtempérer, le nombre de tirs mortels, les classements sans suite de l'IGPN, sans jamais remonter la chaîne causale. Elles observent les maillons isolés. Elles ne voient pas l'architecture.
 
-La méthode inverse part du fait brut et remonte. Elle prend au sérieux un chiffre que le débat public ignore : la France dépense environ 36,6 milliards d'euros par an pour sa sécurité intérieure, police publique et privée confondues, et **aucune institution, ni le Parlement, ni la Cour des comptes, ni le ministère de l'Intérieur, ne peut produire un chiffre consolidé**. C'est moins un mystère qu'un symptôme : le symptôme d'une institution que personne ne contrôle, car personne n'en saisit l'architecture globale.
+La méthode inverse part du fait brut et remonte. Elle prend au sérieux un chiffre que le débat public ignore : la France dépense environ 36 milliards d'euros par an pour sa sécurité intérieure, police publique et privée confondues, et **aucune institution, ni le Parlement, ni la Cour des comptes, ni le ministère de l'Intérieur, ne peut produire un chiffre consolidé**. C'est moins un mystère qu'un symptôme : le symptôme d'une institution que personne ne contrôle, car personne n'en saisit l'architecture globale.
 
 Cette méthode n'est pas un exercice solitaire. Elle s'inscrit dans un édifice cumulatif. Comme le démontre **[Le Verrou : 28 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias : la démocratie neutralisée](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention)**, la démocratie française fonctionne par empilement de verrous emboîtés qui ne se détruisent pas en isolant l'un d'eux. Dix-neuf enquêtes Truth Engine ont déjà établi le verrouillage de l'évasion fiscale, du système de santé, de la justice, de l'audiovisuel public, de la dette. Ce dossier est le vingtième. Il repose sur cinq enquêtes, environ cent faits sourcés, et dix-huit mécanismes de verrouillage identifiés.
 
 ## §1. Le budget qu'on voit
 
-Le projet de loi de finances 2026 affiche, au titre de la Mission Sécurités, environ 25,4 milliards d'euros pour les forces de sécurité intérieure. Le programme 176 (Police nationale) et le programme 152 (Gendarmerie nationale) en constituent l'ossature. À cela s'ajoutent les polices municipales, environ 26 000 agents, financées par les communes.
+Le projet de loi de finances 2026 affiche, au titre de la Mission Sécurités, pour la police et la gendarmerie nationales (programmes 176 et 152) : 25,5 milliards d'euros en autorisations d'engagement et 25,0 milliards en crédits de paiement (Sénat, rapport général n°139, annexe 28a). À cela s'ajoutent les polices municipales, environ 26 000 agents, financées par les communes.
 
 Le total affiché est donc celui-ci pour 252 000 agents publics : c'est le chiffre que le débat public mobilise, et le seul que le Parlement vote.
 
@@ -30,7 +30,7 @@ Mais ce budget visible n'est que la surface.
 
 ## §2. Le budget qu'on ne voit pas
 
-Derrière les 25,4 milliards officiels, plusieurs couches budgétaires échappent à la consolidation parlementaire.
+Derrière les 25,0 milliards officiels de crédits de paiement, plusieurs couches budgétaires échappent à la consolidation parlementaire.
 
 Première couche : les fonds spéciaux. Le PLF 2026 vote 67,1 millions d'euros. L'exécution réelle atteint 114,1 millions d'euros, soit un dépassement de 47 millions :  70 % au-dessus du vote. L'abondement en cours d'exercice est légal et non soumis à nouveau vote. La CVFS (Commission de vérification des fonds spéciaux), composée de six parlementaires assermentés au secret-défense, contrôle a posteriori mais ses rapports sont classifiés. Le Parlement vote un chiffre dont il ne vérifie pas l'usage.
 
@@ -40,7 +40,7 @@ Troisième couche : la sécurité privée. Le secteur représente 11,12 milliard
 
 Quatrième couche : les dépenses de sécurité des autres ministères. Le ministère des Armées maintient en permanence 7 000 soldats de l'opération Sentinelle sur le territoire national, pour un coût estimé à 1 million d'euros par jour, soit environ 365 millions par an. Les douanes, la justice pénitentiaire, les services de renseignement extérieur (DGSE) contribuent également à la fonction de contrôle social sans être comptabilisés dans la Mission Sécurités.
 
-L'estimation basse du budget agrégé de la sécurité intérieure française, toutes couches confondues, dépasse 36,6 milliards d'euros par an. **Personne n'a le droit de vérifier ce chiffre car aucune institution n'a le mandat de le calculer.**
+L'estimation basse du budget agrégé de la sécurité intérieure française, toutes couches confondues, dépasse 36 milliards d'euros par an. **Personne n'a le droit de vérifier ce chiffre car aucune institution n'a le mandat de le calculer.**
 
 À cela s'ajoute une anomalie historique : la Préfecture de police de Paris. Créée par Napoléon en 1800, elle conserve un statut unique en France. Elle dispose de sa propre direction du renseignement (la DRPP, héritière des Renseignements Généraux), de sa propre police judiciaire, de son propre budget. Le préfet de police est nommé discrétionnairement par le président de la République, sans confirmation parlementaire. En 2019, un agent de la DRPP a tué quatre de ses collègues dans une attaque qui a révélé au public l'existence d'un service que la plupart des Français ignoraient. Deux cent vingt-six ans après sa création, la Préfecture de police de Paris est toujours une enclave napoléonienne dans la démocratie française.
 
@@ -48,7 +48,9 @@ L'estimation basse du budget agrégé de la sécurité intérieure française, t
 
 La police française dispose d'une doctrine officielle du maintien de l'ordre : le Schéma national du maintien de l'ordre (SNMO), publié en septembre 2020, partiellement censuré par le Conseil d'État en juin 2021, révisé en décembre 2021. Le texte existe. Reste à savoir ce que la pratique en fait, car cette pratique a une généalogie que le texte ne dit pas.
 
-La filiation commence avec Roger Trinquier, officier français théoricien de la contre-insurrection pendant la guerre d'Algérie. Son ouvrage *La Guerre moderne* (1961) théorise le contrôle des populations comme champ de bataille : quadrillage du territoire, fichage systématique, infiltration, retournement. Ces techniques, développées contre le FLN, ont migré vers le maintien de l'ordre hexagonal après 1962.
+La première filiation est coloniale, mais elle n'est pas là où une lecture rapide la place. L'historien Emmanuel Blanchard (*La Police parisienne et les Algériens, 1944-1962*, 2011) a établi le transfert, pendant la guerre d'Algérie, de structures, de personnels et de pratiques depuis l'appareil répressif colonial vers la police parisienne : le service de coordination des affaires algériennes (1958), calqué sur le centre de renseignement de la préfecture de Constantine ; la force de police auxiliaire, pendant des harkas ; le centre d'identification de Vincennes, à l'instar des centres de détention d'Algérie. Le préfet de police Maurice Papon, ancien préfet IGAME de Constantine converti à la guerre psychologique contre-révolutionnaire, a obtenu en 1958 un couvre-feu pour les Algériens, l'internement administratif sur simple arrêté et, en pratique, l'autorisation de tirer à vue. Le 17 octobre 1961 en est l'aboutissement : la répression coloniale appliquée dans les rues de Paris.
+
+Cette généalogie s'enracine dans la doctrine de la « guerre révolutionnaire » (DGR), formalisée en Indochine puis en Algérie par des officiers français autour du colonel Charles Lacheroy, codifiée par l'instruction sur l'arme psychologique (TTA 117, 1957) et théorisée dans sa version la plus lue par Roger Trinquier (*La Guerre moderne*, 1961) : quadrillage du territoire, fichage, infiltration, retournement, contrôle des populations. Officiellement éradiquée vers 1960, la doctrine a survécu par ses hommes et ses pratiques, passés dans l'appareil de sécurité français. Faire de *La Guerre moderne* la source directe du Schéma national du maintien de l'ordre serait une sur-interprétation : la continuité est documentée par les personnels et les structures, non par une filiation textuelle de Trinquier au SNMO.
 
 La deuxième filiation est israélienne. Depuis les années 2000, des unités d'élite françaises (RAID, GIGN) sont formées en Israël aux techniques de contre-terrorisme et de contrôle des foules. Des délégations de la police et de la gendarmerie françaises ont observé les opérations israéliennes en Cisjordanie. Le transfert n'est pas documenté dans un traité : il est opérationnel, d'homme à homme, de stage en stage. La doctrine israélienne du *maintien de l'ordre en territoire hostile*, où la population est structurellement suspecte, a imprégné les unités françaises spécialisées, puis diffusé vers les unités territoriales.
 
@@ -134,7 +136,7 @@ L'effet cliquet est mécanique : chaque loi ajoute un pouvoir, aucune loi ne le 
 
 **Cinq lois en neuf ans. Zéro abrogation.**
 
-Le cliquet ne repose pas sur un complot. Il repose sur une architecture. Comme le documente **[Le Verrou : 28 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias : la démocratie neutralisée](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention)**, la démocratie française fonctionne par empilement de verrous emboîtés qui ne se détruisent pas en isolant l'un d'eux : le 49.3 et les ordonnances neutralisent le Parlement, les cinq lois sécuritaires neutralisent le contre-pouvoir citoyen, et l'article 89 neutralise la possibilité même de réviser l'architecture. L'article 11 de la Constitution réserve le référendum au président de la République. L'article 16 donne au président les pleins pouvoirs en cas de crise majeure, mobilisables sans vote parlementaire. L'article 89 alinéa 5 rend la forme républicaine intangible, empêchant toute révision constitutionnelle d'envergure sans le consentement du pouvoir exécutif. Ces trois articles, combinés, créent un verrouillage méta-constitutionnel : **la Constitution est constitutionnellement incapable de se modifier pour limiter les pouvoirs qu'elle a accordés**.
+Le cliquet ne repose pas sur un complot. Il repose sur une architecture. Comme le documente **[Le Verrou : 28 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias : la démocratie neutralisée](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention)**, la démocratie française fonctionne par empilement de verrous emboîtés qui ne se détruisent pas en isolant l'un d'eux : le 49.3 et les ordonnances neutralisent le Parlement, les cinq lois sécuritaires neutralisent le contre-pouvoir citoyen. L'article 16 donne au président les pleins pouvoirs en cas de crise majeure, mobilisables sans vote parlementaire. Le référendum législatif dépend de l'initiative du président (art. 11), le référendum d'initiative partagée de 2008 n'ayant jamais abouti. La forme républicaine du Gouvernement, elle, est intangible (art. 89, al. 5). Ces verrous procéduraux, combinés à l'absence de référendum d'initiative partagée opérant, figent l'architecture : **la Constitution ne s'est jamais révisée contre l'exécutif, elle ne s'est révisée que par lui**.
 
 À cette architecture interne s'ajoute une contrainte externe que la plupart des analyses omettent. Le TPI (Transmission Protection Instrument) de la Banque centrale européenne, activé en juillet 2022, conditionne le rachat de dette souveraine au respect du cadre budgétaire européen. Tout gouvernement qui voudrait augmenter massivement le budget de la justice, réduire celui de la police, ou créer des contre-pouvoirs coûteux se heurterait à l'écart de taux obligataire avant même d'atteindre le Parlement. La contrainte monétaire est le verrou le plus silencieux, et le plus efficace.
 
@@ -142,7 +144,7 @@ Le cliquet ne repose pas sur un complot. Il repose sur une architecture. Comme l
 
 La police française n'est pas une institution démocratique classique. Elle est un système de contrôle social à trois étages, construit strate par strate, sans que personne l'ait jamais décidé.
 
-Premier étage : la force publique visible. 252 000 agents, 25,4 milliards d'euros officiels, 2,5 fois le budget de la justice, une doctrine importée de la contre-insurrection coloniale, une impunité garantie par 54 millions d'euros de décharges syndicales sans contrôle, et cinq lois en neuf ans sans abrogation.
+Premier étage : la force publique visible. 252 000 agents, 25,0 milliards d'euros de crédits de paiement officiels, 2,5 fois le budget de la justice, une généalogie coloniale documentée, une impunité garantie par 54 millions d'euros de décharges syndicales sans contrôle, et cinq lois en neuf ans sans abrogation.
 
 Deuxième étage : la police privée faiblement régulée. 11,12 milliards d'euros, 180 000 agents sans garanties statutaires, une main-d'œuvre en partie immigrée et précaire, un régulateur sans moyens.
 
@@ -186,6 +188,18 @@ Mea culpa : le ×5 porte sur les décès par tir lors de refus d'obtempérer, pa
 
 Merci à Arnaud pour ces deux corrections. C'est exactement ce que je demande à chaque lecteur : signaler un fait faux, avec sa source, et je corrige.
 
+*Mise à jour du 16 août 2026.*
+
+Trois corrections factuelles supplémentaires ont été apportées après re-vérification des sources primaires :
+
+**3. Le budget affiché.** « 25,4 milliards » ne correspondait à aucune des sources citées. Le rapport général n°139 du Sénat (annexe 28a, Bruno Belin) établit 25,5 milliards d'euros en autorisations d'engagement et 25,0 milliards en crédits de paiement pour la police et la gendarmerie nationales. L'estimation agrégée a été recalculée en conséquence : environ 36 milliards d'euros, police publique et privée confondues.
+
+**4. L'article 89 de la Constitution.** L'intangibilité de la forme républicaine figure à l'alinéa 5, non à l'alinéa 4. La mention de source a été corrigée.
+
+**5. La portée des articles 11 et 89.** L'alinéa 5 de l'article 89 n'interdit que la révision de la forme républicaine du Gouvernement, pas « toute révision constitutionnelle d'envergure ». L'article 11, lui, ne réserve pas le référendum au seul président : le référendum d'initiative partagée (2008) existe mais n'a jamais abouti. Le paragraphe constitutionnel du §8 a été réécrit en conséquence.
+
+**6. La filiation Trinquier (§3).** Le lecteur [Arnaud](https://substack.com/@arnaud11) a objecté que Roger Trinquier est un théoricien militaire de la contre-insurrection, non un texte de police. Il avait raison. L'affirmation « ces techniques ont migré vers le maintien de l'ordre hexagonal après 1962 » était une sur-interprétation : la doctrine de la guerre révolutionnaire a été officiellement éradiquée vers 1960, et sa postérité documentée est d'abord internationale (États-Unis, Argentine, Portugal). En revanche, la généalogie coloniale de l'ordre sécuritaire français est réelle et documentée (Emmanuel Blanchard, *La Police parisienne et les Algériens, 1944-1962* ; Mathieu Rigouste, *L'Ennemi intérieur*, 2009) : elle passe par les personnels et les structures, Maurice Papon en tête, non par une filiation textuelle de *La Guerre moderne* au SNMO. Le §3 a été réécrit en conséquence.
+
 ---
 
 ## Sources
@@ -217,7 +231,7 @@ Merci à Arnaud pour ces deux corrections. C'est exactement ce que je demande à
 - Code de la sécurité intérieure, Livre VIII (renseignement), art. L.811-1 à L.863-5. https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000025503132/
 - Code de procédure pénale, art. 30 (instructions générales du garde des Sceaux au parquet). https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027753870
 - Conseil constitutionnel, QPC n°2017-680 du 8 décembre 2017 (instructions individuelles du garde des Sceaux censurées). https://www.conseil-constitutionnel.fr/decision/2017/2017680QPC.htm
-- Constitution du 4 octobre 1958, art. 11 (référendum présidentiel), art. 16 (pleins pouvoirs), art. 89 al. 4 (intangibilité forme républicaine). https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571356
+- Constitution du 4 octobre 1958, art. 11 (référendum présidentiel), art. 16 (pleins pouvoirs), art. 89 al. 5 (intangibilité forme républicaine). https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571356
 - Loi n°2015-912 du 24 juillet 2015 relative au renseignement : création DPR, CNCTR, cadre légal IMSI-catchers et écoutes administratives. https://www.legifrance.gouv.fr/loda/id/JORFTEXT000030931899
 - Loi n°2016-731 du 3 juin 2016 (dite loi Sauvadet) : élargissement légitime défense policiers. https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032627222
 - Loi n°2017-258 du 28 février 2017 relative à la sécurité publique : modification art. L.435-1 CSI. https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034104023
@@ -243,6 +257,9 @@ Merci à Arnaud pour ces deux corrections. C'est exactement ce que je demande à
 
 ### Sources académiques et ONG
 
+- Emmanuel Blanchard, *La Police parisienne et les Algériens (1944-1962)*, Éditions du Nouveau Monde, 2011 (recensé dans Métropolitiques, 17 octobre 2012). https://metropolitiques.eu/La-police-et-les-Algeriens.html
+- Mathieu Rigouste, *L'Ennemi intérieur : la généalogie coloniale et militaire de l'ordre sécuritaire dans la France contemporaine*, La Découverte, 2009. https://www.editionsladecouverte.fr/l_ennemi_interieur-9782707169150
+- Jérémy Rubenstein, *Terreur et séduction : une histoire de la doctrine de la « guerre révolutionnaire »*, La Découverte, 2022 (recensé sur Histoire coloniale, 4 octobre 2022). https://histoirecoloniale.net/une-histoire-de-la-doctrine-de-la-guerre-revolutionnaire/
 - Sebastian Roché, Paul Le Derff, Simon Varaine (CNRS/CESDIP), « And the law relaxed the rules : A quasi-experimental study of fatal police shootings in Europe », International Review of Law and Economics, 2024. https://shs.hal.science/halshs-05120493
 - Raphaël Lartizien, Thomas Schouman, Marc Raux, « Yellow vests protests: facial injuries from rubber bullets », The Lancet, vol. 394, n°10197, 10 août 2019. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31764-7/fulltext
 - Amnesty International, « My Eye Exploded: The Global Abuse of Kinetic Impact Projectiles », mars 2023 : recense notamment les 23 éborgnés et 5 mains arrachées pendant les Gilets Jaunes. https://www.amnesty.org/en/documents/act30/6384/2023/en/
