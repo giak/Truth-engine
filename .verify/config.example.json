@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "task": "example-project",
+  "protected_branches": ["main"],
+  "tests": ["pytest -q"],
+  "checks": [],
+  "naming": {
+    "enabled": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "task": "truth-engine",
+  "protected_branches": ["main", "master"],
+  "tests": ["python3 -m pytest tests/extractors/ -q"],
+  "checks": [
+    {
+      "name": "no-em-dash-in-articles",
+      "cmd": "grep -rl '—' articles/ 2>/dev/null && exit 1 || exit 0",
+      "fail_message": "tiret cadratin (U+2014) trouvé dans articles/ — interdit par le contrat (scope Phase 3)"
+    }
+  ],
+  "naming": {
+    "enabled": false,
+    "note": "DÉSACTIVÉ tant que la convention kebab-case vs snake_case n'est pas tranchée (docs/boucle_de_verification.md §20.1). Ne jamais activer une règle contradictoire.",
+    "dirs": ["investigations/", "articles/", "outputs/"],
+    "pattern": "^\\d{4}-\\d{2}-\\d{2}_\\d{2}-\\d{2}_[a-z0-9_-]+_(ARTICLE|HYPER_MATRICE|ARCHITECTURE|SATURATION_AUDIT|REGISTRE|INVESTIGATION)\\.md$"
+  }
+}

@@ -358,6 +358,13 @@ substack-online/posts/*.csv
 .specstory/
 .cursorindexingignore
 
+# Verification gate (moteur générique tools/verify) — artefacts machine, non versionnés
+.verify/pending.json
+.verify/result.json
+
+# Worktrees par chantier (isolation) — jamais commités
+.worktrees/
+
 # MnemoLite specific
 .mnemo/
 .mnemo/cache/
