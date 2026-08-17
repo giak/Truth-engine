@@ -1,0 +1,394 @@
+           Coût complet du soutien public aux installations de production à partir
+            d’énergies renouvelables en fonction de leur niveau de tension de
+                                     raccordement
+
+Synthèse
+Actuellement, en métropole continentale, le soutien par la collectivité au développement des
+énergies renouvelables (EnR) est porté, notamment, par 1) un soutien à la production via les
+charges de service public de l’énergie (CSPE) et 2) une réduction des coûts de raccordement
+prise en charge par le TURPE. Les modalités de ces soutiens déterminent pour beaucoup la
+dynamique de développement des EnR. L’analyse de la CRE dans le présent document vise à :
+       −     présenter le coût cumulé du soutien à la production (« brut », c’est-à-dire hors valorisation sur
+             les marchés de la production soutenue) et de la prise en charge des coûts de raccordement
+             des filières photovoltaïque et éolien terrestre en métropole continentale (principales filières EnR
+             terrestres en matière de volumes soutenus) ;
+       −     présenter les effets de seuil induits par la coexistence de ces deux mécanismes spécifiquement
+             pour la filière photovoltaïque et des propositions d’évolution permettant de les résoudre.
+S’agissant du coût cumulé du soutien, l’analyse menée montre que :
+       -     la majorité du coût du soutien est portée par la CSPE, le coût porté par le TURPE n’excédant
+             pas 12 €/MWh, soit 10 % du coût total ;
+    Dispositif                                             Coût du raccordement pris en charge par le TURPE
+                                      Niveaux à jour
+       de                                                            pour 1 MWh soutenu (€/MWh) 1
+                                       des tarifs de                                                                       Coût pour 1
+     soutien     Segme    Raccord
+                                          soutien          Ouvrages                                                       MWh soutenu
+     via les       nt      ement                                           Quote-part     Renforcement        Total
+                                         moyens             propres                                                         (€/MWh) 2
+     CSPE                                                                     (II)            (III)         (I+II+II)
+                                         (€/MWh)               (I)
+                  0-3
+                             BT             103               0,0              3,6             1,4            5,0             108
+                  kWc
+                  3-9
+                             BT             88                0,0              3,6             1,4            5,0             93
+                  kWc
+                  9-36
+     Guichet                 BT             130               0,0              3,6             1,4            5,0             135
+                  kWc
+    ouvert PV    36-100
+    Bâtiment                 BT             113               7,0              3,6             1,4            12,0            125
+                  kWc
+                             BT             105               7,0              3,6             1,4            12,0            117
+                  100-
+                  500        HTA
+                  kWc      (seuil à         105               1,8              1,8             1,4            5,0             110
+                          250 kVA)
+               +500
+     Appels
+              kWc PV        HTA             100               0,5              0,0             1,4            1,9             102
+     d’offres
+                Bât
+       PV
+               +500
+    Bâtiment/
+              kWc PV        HTA             79                0,5              0,0             1,4            1,9             81
+       PV
+                Sol
+    Sol/Eolie
+               Eolien
+    n à terre               HTA             88                0,0              0,0             0,6            0,6             89
+              à terre 3
+
+       -     la prise en charge des coûts de raccordement par le TURPE est plus importante pour les
+             installations de plus petites puissances, raccordés en BT, que pour les installations raccordés
+
+1
+  Le coût du raccordement pris en charge par le TURPE est en réalité décaissé avant la mise en service de l’installation et donc
+la prise d’effet du contrat de soutien. Il est ramené à titre de comparaison à un coût au MWh sur l’ensemble des 20 ans de soutien,
+actualisé selon un taux d’inflation de 2%.
+2
+  Si le tableau présente les dépenses publiques générées par les contrats d’obligation d’achat/de complément de rémunération
+octroyés aux différentes tranches de puissance pour le solaire photovoltaïque et l’éolien à terre, il convient cependant de noter
+que ce soutien fait l’objet d’une valorisation sur les marchés de l’électricité. A cet effet, le profil de production de la filière peut
+avoir un effet important sur le budget de l’Etat. Le CGCSPE retient ainsi comme hypothèse un prix de marché capturé par la filière
+solaire environ 25% inférieur au prix capturé par la filière éolienne à terre.
+3
+    Le soutien à l’éolien à terre se fait quasiment exclusivement aujourd’hui via l’appel d’offres PPE2 Eolien à terre.
+
+
+    Annexe à la contribution de la CRE dans le cadre de la préparation de la programmation pluriannuelle
+    de l’énergie (PPE3)
+          en HTA, résultat d’une part de mécanismes de réfaction plus favorables en BT qu’en HTA et
+          d’autre part du périmètre des ouvrages considérés comme du réseau public (si le coût des
+          ouvrages propres de raccordement est sensiblement inférieur pour les installations HTA, ces
+          installations doivent en parallèle développer des ouvrages privés similaires aux ouvrages de
+          raccordement BT. Ces ouvrages privés sont intégrés dans le périmètre des charges payées par
+          la CSPE) ;
+      -   les niveaux de soutien sont en général d’autant plus coûteux que la tranche de puissance
+          est faible, exception faite actuellement des plus petites tranches en raison notamment de
+          l’application récente du coefficient de dégressivité sur plusieurs périodes successives. L’analyse
+          en coût complet de ce niveau de soutien ne change par l’interclassement, sauf au sein de la
+          tranche 100-500 kW en raison d’effets de seuils explicités ci-dessous.
+La combinaison des différents vecteurs de soutien au développement des installations EnR, que ce
+soit via les CSPE ou via le TURPE, doit permettre de couvrir le coût complet des installations,
+quelle que soit la répartition entre ces vecteurs. Or, à la fois les mécanismes de soutien de type
+contrat d’obligation d’achat /de complément de rémunération (CSPE) et les aides du type réfaction sur
+les coûts de raccordement (TURPE) portant sur les ouvrages propres et sur la quote-part S3REnR sont
+définis par segment de puissance, impliquant des effets de seuil qui ne sont pas nécessairement
+cohérents entre eux, et donc un niveau global de soutien qui peut être mal dimensionné pour
+certains types d’installation.
+Figure 1 : Récapitulatif des différents effets de seuil de rémunération pour les installations PV
+sur bâtiment
+
+
+
+
+Le cas du segment 100-500 kWc du guichet ouvert « S21 PV Bâtiment » 4, pour lequel un unique
+tarif de soutien s’applique alors que les coûts de raccordement facturés diffèrent fortement selon la
+puissance au sein de la tranche, est particulièrement notable. Ainsi, les différences de prise en charge
+par le TURPE des coûts de raccordement entre niveaux de tension (BT ou HTA) créent une forte
+incitation, observée en pratique, à découper les projets en lots de puissance de raccordement inférieure
+à 250 kVA (limite supérieure du raccordement en BT, caractérisé par une prise en charge plus importante
+des coûts par le TURPE). Cette hétérogénéité des seuils entre les deux formes de soutien a ainsi
+engendré une dynamique de développement massive des projets raccordés en BT.
+Afin de traiter l’articulation de ces effets de seuils, la CRE recommande une homogénéisation pour
+favoriser un développement plus harmonieux des installations EnR. Les mesures suivantes pourraient
+être mises en œuvre indépendamment ou de manière coordonnée :
+      -   Mesure 1 : homogénéiser la prise en charge par le TURPE des coûts de raccordement
+          entre BT et HTA
+
+
+4
+ Arrêté du 6 octobre 2021 fixant les conditions d'achat de l'électricité produite par les installations implantées sur bâtiment, hangar
+ou ombrière utilisant l'énergie solaire photovoltaïque, d'une puissance crête installée inférieure ou égale à 500 kilowatts telles que
+visées au 3° de l'article D. 314-15 du code de l'énergie et situées en métropole continentale.
+
+
+    Annexe à la contribution de la CRE dans le cadre de la préparation de la programmation pluriannuelle
+    de l’énergie (PPE3)
+                    Suppression de la réfaction majorée en BT.
+                    Suppression de l’exonération de quote-part S3REnR en BT, au moins pour les
+                     installations supérieures à 36 kVA.
+      -   Mesure 2 : aligner les seuils de puissance de l’arrêté S21 PV bâtiment 5 sur les seuils de
+          raccordement (36 kVA et 250 kVA).
+Ces solutions peuvent notamment permettre de tempérer à court terme la dynamique actuelle de fuite
+des raccordements en HTA vers la Bqw T, qui a un effet négatif sur le coût des EnR pour la collectivité.
+Une fois la question de l’articulation des effets de seuil résolue, la trajectoire de développement
+des différents segments (et donc le coût induit pour la collectivité) sera avant tout déterminée
+par les objectifs de la PPE, que ce soit l’enveloppe affectée à chaque filière, mais aussi la répartition
+des objectifs entre les différentes typologies de projet au sein d’une filière donnée. En ce qui concerne la
+PPE 3 en cours de concertation, il convient donc de prendre en compte, au-delà de l’avis du Comité de
+gestion des charges de service public de l’électricité (CGCSPE) qui détaille précisément la trajectoire
+de CSPE que la PPE engagerait, que ces objectifs engagent aussi une trajectoire de prise en charge
+des coûts de raccordement par le TURPE croissante au vu des niveaux de développement prévus pour
+les projets de petites puissances.
+
+
+
+
+5
+ Arrêté du 6 octobre 2021 fixant les conditions d'achat de l'électricité produite par les installations implantées sur bâtiment, hangar
+ou ombrière utilisant l'énergie solaire photovoltaïque, d'une puissance crête installée inférieure ou égale à 500 kilowatts telles que
+visées au 3° de l'article D. 314-15 du code de l'énergie et situées en métropole continentale.
+
+
+    Annexe à la contribution de la CRE dans le cadre de la préparation de la programmation pluriannuelle
+    de l’énergie (PPE3)
+     I.    Le coût complet du soutien des projets photovoltaïques et
+           éoliens terrestres est grandement déterminé par la CSPE
+Le graphique suivant présente le coût global de 1 MWh soutenu via le budget de l’Etat au travers de la
+CSPE (coût « brut », c’est à dire hors valorisation sur les marchés de la production soutenue 6), ainsi
+que via le consommateur final au travers du TURPE.
+L’évolution de ce « coût système » est présenté ici entre début 2023 et fin 2024 sur chacune des
+tranches de puissance PV soutenues, mises au regard du développement de l’éolien raccordé en HTA.
+L’évolution des tarifs de soutien pour les projets photovoltaïques de petite puissance est principalement
+portée par le mécanisme de dégressivité 7 de l’arrêté tarifaire « S21 Bâtiment Métropole », qui dépend
+des volumes soutenus, expliquant notamment la baisse majeure des conditions de soutien du 0-9 kWc
+en dessous des niveaux du 100-500 kWc désormais. Cependant, si l’analyse porte sur le tarif d’achat
+en totalité à des fins de simplicité et de comparabilité entre les tranches de puissance, il convient de
+noter que le segment 0-9 kWc se développe quasiment exclusivement en autoconsommation. Or, le
+mécanisme de dégressivité ne concerne pour ces projets qu’une partie de la rémunération 8.
+
+Figure 2 : Evolution de la hiérarchie du coût système (CSPE en bleu + TURPE en rouge) de
+soutien de 1 MWh produit en fonction de la filière et du segment développé
+
+
+
+
+Ce graphique montre que, dans les conditions actuelles, le soutien au développement s’effectue
+majoritairement par les CSPE (en bleu). Le classement par coût de développement pour le système
+des différentes tranches de puissance est ainsi presque entièrement déterminé par l’évolution des tarifs
+de soutien.
+
+
+
+6
+  Si le graphe présente les dépenses publiques générées par les contrats d’obligation d’achat/de complément de rémunération
+octroyés aux différentes tranches de puissance pour le solaire photovoltaïques et l’éolien terrestre, il convient de noter que ce
+soutien fait l’objet d’une valorisation sur les marchés de l’électricité. A cet effet, le profil de production de la filière peut grandement
+impacter les recettes réalisées pour le budget de l’Etat. A titre d’exemple, l’avis du CGCSPE portant sur le projet de PPE retient
+ainsi comme hypothèse un prix de marché capturé par la filière solaire environ 25% inférieur au prix capturé par la filière de
+l’éolien à terre.
+7
+ Adaptation du niveau de soutien selon la dynamique de développement de la filière (baisse du soutien en cas de développement
+au-delà des objectifs trimestriels en particulier).
+8
+   Les projets en autoconsommation du segment 0-9 kWc soutenus par l’arrêté tarifaire S21 se rémunèrent grâce à : une prime à
+l’investissement, aux économies réalisées sur facture pour l’énergie autoconsommée et au tarif d’achat du surplus injecté sur le
+réseau. Le mécanisme de dégressivité actuel n’a d’effet que sur la prime à l’investissement et donc une partie de la rémunération,
+à la différence des projets en vente en totalité pour lesquels la dégressivité s’applique sur le tarif d’achat qui porte l’entièreté de
+la rémunération.
+
+
+    Annexe à la contribution de la CRE dans le cadre de la préparation de la programmation pluriannuelle
+    de l’énergie (PPE3)
+Un porteur de projet est en théorie sensible au niveau global de soutien (somme du soutien à la
+production et de la prise en charge d’une partie des coûts de raccordement) au regard de ses coûts
+complets. Ainsi, à volume de développement égal, le « coût système » (CSPE + TURPE) est censé être
+fixe et couvrir l’ensemble des coûts complets, quelle que soit la répartition entre ces deux postes de
+dépenses. Autrement dit, si le niveau total de soutien est correctement dimensionné, une baisse (ou
+une hausse) de la prise en charge des coûts de raccordement par le TURPE devrait être compensée
+dans les dispositifs de soutien.
+La différence de prise en charge par le TURPE en fonction des différentes tranches ne vient
+modifier la hiérarchie en matière de coût système que pour la tranche de puissance 100-500 kWc
+s’agissant du solaire sur bâtiment, pour laquelle le tarif de soutien est identique pour tous les types
+de raccordement : les installations raccordées en BT coûtent ainsi plus cher à développer qu’en HTA.
+Cette note présente par la suite les conséquences de cet effet de seuil et des propositions pour le
+résoudre.
+ II.    L’accélération du développement de la production du PV en BT fait suite
+        à diverses évolutions réglementaires concernant les mécanismes de
+        soutien à la production et au raccordement
+A) On observe une nette accélération du développement de la production PV raccordée en BT,
+depuis notamment la publication de l’arrêté tarifaire S21
+Le développement des installations de production EnR a été relativement constant jusque fin 2020.
+Depuis, on observe deux inflexions notables :
+   - une forte augmentation des installations PV raccordées en BT (puissance inférieure ou égale à
+        250 kVA) ;
+   - une légère accélération des puissances raccordées des installations de production PV
+        raccordées en HTA
+Pour la première fois, au second trimestre 2024, la puissance raccordée chez Enedis en PV a dépassé
+celle de l’éolien. Depuis, l’écart continue à se creuser.
+Figure 3 : Evolution de la production raccordée au réseau d'Enedis entre 2010 et le T3 2024 inclus
+(en MW cumulés)
+
+
+
+
+Le raccordement de producteurs en BT concerne quasiment exclusivement le PV. La nette accélération
+de la dynamique de développement des installations raccordées en BT (courbe bleue) à compter de
+2022 s’explique notamment par l’entrée en vigueur de l’arrêté S21 (le 8 octobre 2021), permettant
+désormais de soutenir la tranche de puissance 100-500 kWc en guichet ouvert (sans procédure de mise
+en concurrence et sans exposition aux marchés), contre un appel d’offres précédemment.
+
+ Annexe à la contribution de la CRE dans le cadre de la préparation de la programmation pluriannuelle
+ de l’énergie (PPE3)
+Notamment, si des mesures permettant de limiter le découpage des installations de plus de 500 kWc
+pour bénéficier du guichet ouvert sous obligation d’achat sont mises en œuvre dans l’arrêté tarifaire, il
+apparait aujourd’hui qu’elles sont contournées.
+D’autre part, la publication de l’arrêté s’est accompagné le 22 mars 2022 d’un arrêté modifiant celui du
+30 novembre 2017, augmentant la réfaction des ouvrages propres de 40% à 60%, renforçant ainsi les
+effets de seuils détaillés dans la partie suivante.
+Plus récemment, la crise des prix de l’énergie a renforcé largement l’attrait des projets en
+autoconsommation, portant une dynamique de développement très forte sur le segment 0-9 kWc –
+représenté en très large majorité par des particuliers. Ce segment reste cependant sans effet sur les
+coûts de raccordement, car les installations sont quasi exclusivement implantées chez des
+consommateurs existants.
+Il convient de noter que les installations PV au sol de moins de 500 kWc ne sont pas éligibles à un
+mécanisme de soutien, mais qu’un projet de guichet ouvert pour les installations PV au Sol de taille
+inférieure à 1 MWc a fait l’objet d’un avis de la CRE. La CRE s’est prononcée sur ce projet d’arrêté en
+octobre 2024 9, en recommandant notamment de limiter le bénéfice de l’obligation d’achat aux
+puissances inférieures à 200 kWc.
+B) Le raccordement en BT des producteurs PV s’explique par des raisons techniques mais est
+également favorisé par plusieurs incitations portant sur les règles de facturation des
+raccordements
+La forte dynamique de raccordement des projets PV en BT peut s’expliquer par des raisons techniques.
+En effet chaque m² de panneau PV n’a qu’une puissance comprise entre 0,1 et 0,2 kWc en courant
+continu en BT, qu’il est nécessaire de transformer en courant alternatif par des onduleurs eux-mêmes
+en BT. Par la suite la puissance dont la tension est élevée par des transformateurs est regroupée pour
+être dirigée vers le poste de livraison. Une centrale PV est une somme modulaire de groupes de
+production BT quelle que soit sa puissance totale. Ainsi, contrairement aux centrales thermiques ou
+éoliennes qui bénéficient d’économie d’échelle (cf le schéma de la partie suivante) à développer des
+groupes de forte puissance produisant en HTA, c’est beaucoup moins le cas pour le photovoltaïque.
+Cette dynamique est par ailleurs encouragée par des règles de facturation en matière de raccordement
+favorables pour les installations en BT, les conditions ayant notamment évolué en mars 2022 avec
+l’augmentation du taux de réfaction à 60 % sur les ouvrages propres pour les petites installations.
+
+    Rappel des principes de facturation du raccordement des EnR :
+
+    Le raccordement en régime S3REnR est un régime dérogatoire au régime branchement-
+    extension-renforcement. Il s’applique à tous les producteurs EnR se raccordant au réseau
+    public, hors cadre spécifique (appel d’offre éolien offshore notamment).
+    Il permet de mutualiser une partie des coûts de raccordement entre producteurs d’une même région
+    et d’éviter ainsi les effets de seuil et d’aubaine liés aux développements du réseau pour accueillir les
+    productions renouvelables.
+                                                        De manière simplifiée :
+                                                        • Le TURPE finance les renforcements d’ouvrages
+                                                          mutualisés en transport ;
+                                                        • Le producteur finance créations d’ouvrages en
+                                                          haute-tension via la quote-part, à noter que les
+                                                          producteurs BT sont exemptés de QP ;
+                                                        • Le producteur finance seul ses ouvrages propres
+                                                          en basse et en haute tension.
+
+    Le producteur paie ainsi au raccordement (moyennant une réfaction fonction de sa puissance) :
+    • les ouvrages propres de son l'installation ;
+    • ainsi qu'une quote-part des ouvrages créés en application de ce schéma.
+
+
+9
+    https://www.cre.fr/fileadmin/Documents/Deliberations/2024/241024_2024-195_Avis_AT_S24_sol.pdf
+
+
+    Annexe à la contribution de la CRE dans le cadre de la préparation de la programmation pluriannuelle
+    de l’énergie (PPE3)
+Une installation qui se fractionne pour se raccorder en BT plutôt qu’en HTA bénéficiera ainsi :
+    -   de la possibilité pour les petites puissances (inférieure à 36 kVA) de se raccorder en
+        autoconsommation, sans surcoût avec une simple déclaration (passage du compteur Linky en
+        mode producteur) ;
+    -   d’une dispense de quote-part S3REnR (ces installations profitent des capacités des ouvrages
+        des S3REnR sans en payer le coût) ;
+    -   d’ouvrages propres plus étendus facturés avec une réfaction de 60 % incluant ce qui aurait été
+        des ouvrages dans le périmètre de l’installation à sa charge (BT et HTA) à 100 % (cf. schéma
+        ci-après).
+
+
+
+
+          Raccordement en BT                        Raccordement HTA
+
+
+
+ III.   L’impact important à venir du développement du PV en BT
+    A) L’impact sur les tarifs de réseaux sera significatif
+Si les évolutions restent identiques à celles constatées lors des 5 dernières années, le coût pour le
+TURPE, pour les installations en BT, sur les prochaines périodes tarifaires du fait de l’exonération de
+quote-part et de la réfaction seront respectivement :
+     - pour l’exonération de QP : de 640 à 970 M€ pour TURPE 7 (2025-2028) à comparer à 165 M€
+        sur la période précédente,
+     - pour la réfaction des ouvrages propres : de 1 200 à 1 400 M€ pour TURPE 7 (2025-2028) à
+        comparer à 381 M€ sur la période précédente.
+Dans ces mêmes conditions d’évolution, dès cette année la partie exonérée de la quote-part devrait
+dépasser la part payée par les utilisateurs en distribution et en fin de période TURPE 7 la CRE prévoit
+que +60 % des quotes-parts seront exonérés de paiement.
+Une première mesure pour éviter d’orienter les raccordements vers la BT serait de supprimer la
+réfaction en BT. Cela toucherait plus les raccordements en BT sup 36 avec des ouvrages propres
+importants (ceux en BT inf se faisant essentiellement sur des installations de consommation existantes,
+sans ouvrages propres).
+Une seconde mesure serait de supprimer l’exonération de quote-part en BT. Cela toucherait plus
+les raccordements en BT inf 36, leurs coûts de raccordement passant d’une valeur nulle ou quasi nulle
+à la valeur comprenant l’effet de la quote-part. Une sous option serait de ne supprimer l’exonération de
+quote-part que pour les raccordements BT sup 36 pour éviter cet effet. Une telle option porte le risque
+d’un sur-fractionnement des installations BT sup36 en installation BT inf 36.
+
+
+
+
+ Annexe à la contribution de la CRE dans le cadre de la préparation de la programmation pluriannuelle
+ de l’énergie (PPE3)
+    B) Les objectifs PPE 2035 confirment l’importance d’une gestion efficace pour les finances
+       publiques des petites installations PV
+L’impact de long-terme sur les dépenses publiques dans leur ensemble est avant tout déterminé par les
+objectifs de la PPE, que ce soit l’enveloppe affectée à chaque filière mais aussi la répartition des
+objectifs entre les différentes typologies de projet au sein d’une même filière.
+Ces objectifs doivent notamment permettre d’accompagner les nouvelles obligations découlant de
+l’article 40 de la loi APER (encadrées par le décret n° 2024-1023 du 13 novembre 2024) qui imposent
+notamment de solariser les parkings (au moins 50 % des parkings solarisables de plus de 1 500 m² –
+un arrêté prévu par le décret susmentionné doit préciser les exonérations). Le potentiel de
+développement du PV correspondant à ces parkings serait compris entre 20 et 25 GW.
+Le tableau suivant, à mettre en perspective avec la figure 1, récapitule l’estimation des engagements à
+prendre via la CSPE jusqu’en 2035 pour chaque segment de la filière PV et pour la filière éolien à terre,
+afin d’atteindre les objectifs fixés dans le projet de PPE3 en cours de consultation :
+
+                                     Calibrage   actuel      Estimation des engagements à
+                                     des dispositifs de        prendre pour atteindre les
+                                     soutien                         objectifs PPE3
+        GW/an                        (en prenant un taux
+                                     de chute de 20%)        2025-2030          2031-2035
+
+
+        Arrêté S21 | -500 kWc                1,44             1,8 – 2,6          2,7 – 5,4
+          0-9 kWc                            0,17             0,2 - 0,3           0,3 - 0,6
+          9-100 kWc                          0,26             0,3 - 0,5            0,5 - 1
+          100-500 kWc                        1,01             1,3 - 1,8           1,9 - 3,8
+        Arrêté Sol | -1 MWc                    /              0,3 – 0,5          0,5 – 1,0
+        AO Sol | +1 MWc                      1,48             0,8 – 1,2          1,2 – 2,4
+        AO Bâtiment | +500 kWc               0,88             0,3 – 0,5          0,5 – 1,0
+        Total PV                              3,8             3,3 – 4,7          4,9 - 9,8
+
+        Eolien à terre                       1,85             2,0 – 2,7          1,8 – 2,3
+
+
+Afin de permettre aux différents mécanismes de maitrise des volumes développés (dégressivité pour le
+guichet ouvert et concurrence pour les appels d’offres) d’opérer sur les mêmes plages de puissance
+que les règles de facturation du raccordement (et donc de limiter les effets de seuil observés
+aujourd’hui), la CRE recommande de proposer des niveaux de soutien cohérents avec le découpage
+des dispositifs prévus pour les différentes puissances de raccordement. La CRE estime qu’il serait dans
+tous les cas pertinent de prévoir un découpage du soutien à 250 kVA.
+
+
+
+
+ Annexe à la contribution de la CRE dans le cadre de la préparation de la programmation pluriannuelle
+ de l’énergie (PPE3)
+

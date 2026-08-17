@@ -1,0 +1,405 @@
+      Contribution de la CRE dans le cadre de la préparation de la
+           programmation pluriannuelle de l’énergie (PPE3)
+
+
+La programmation pluriannuelle de l’énergie (PPE) doit permettre d’organiser l’atteinte des objectifs que
+s’est fixés la France en matière de transition énergétique, en créant un cadre pour les dix prochaines
+années.
+Le projet de PPE mis en consultation identifie deux enjeux principaux : (i) la baisse de la consommation
+globale en énergie allant de pair avec une électrification des usages et (ii) l’accélération de la production
+de l’ensemble des vecteurs décarbonés permettant la sortie de la dépendance aux énergies fossiles.
+Elle identifie pour cela des priorités d’action que la CRE partage dans leur grande majorité.
+Le projet de PPE identifie par ailleurs les enjeux de planification multi énergie et de mobilisation accrue
+des territoires, une déclinaison au niveau régional de la PPE étant pour le première fois prévue. La CRE
+partage cette vision et a d’ailleurs déjà formulé plusieurs recommandations en ce sens, considérant que
+la mobilisation des territoires était un facteur clé de réussite de la transition énergétique, notamment
+pour organiser la décroissance de l’usage du gaz. La CRE participera par ailleurs à la réflexion sur la
+déclinaison des projets énergétiques à l’échelle locale grâce au lancement d’un nouveau groupe de
+travail de la prospective portant sur « la mise en œuvre territoriale de la transition énergétique ». Ce
+groupe de travail ambitionne d’analyser les conditions nécessaires à la réussite de la mise en œuvre
+territoriale de la transition énergétique.
+Sur la base de son expertise en matière de réseaux et de soutien à la production décarbonée
+notamment, la CRE souhaite apporter sa contribution aux travaux de préparation de la PPE en
+partageant sa vision des principaux facteurs de réussite de la transformation du système énergétique
+dans laquelle la France est engagée.
+En premier lieu, la CRE est favorable à la philosophie générale du projet de PPE3 soumis à
+consultation.
+L’objectif de neutralité carbone en 2050 de notre pays et de l’Union européenne, qui nécessite la sortie
+des énergies fossiles, passe nécessairement par une forte électrification de l’économie, avec
+notamment le développement de la mobilité électrique, des pompes à chaleur et l’électrification des
+procédés industriels. La hausse de la consommation d’électricité devra s’accompagner d’une hausse
+parallèle de la production d’électricité décarbonée, qui ne peut être fondée que sur le nucléaire et les
+énergies renouvelables (ENR).
+Pour le nucléaire, il s’agira, outre l’optimisation de la production déjà bien engagée en 2024, de
+prolonger la durée de vie du parc existant et de développer une nouvelle génération de réacteurs
+nucléaires à mettre en service à partir de 2038. D’ici là, l’essentiel de la croissance de la production
+d’électricité décarbonée ne pourra venir que des ENR.
+Un retard dans le développement de la production renouvelable se traduirait, du fait de la hausse de la
+consommation à venir, par une hausse des prix de l’électricité qui pèserait sur le pouvoir d’achat des
+consommateurs, la compétitivité des entreprises et in fine sur la croissance économique et les finances
+publiques.
+Dans les conditions actuelles, la plupart des ENR doivent, pour se développer, bénéficier d’un soutien
+public. Il revient au gouvernement et au parlement, dans le cadre de la politique énergétique de la
+nation, de déterminer la trajectoire de développement des ENR, en termes d’objectifs globaux en
+volume et de répartition entre les filières les plus compétitives (PV sol, éolien terrestre, éolien en mer
+posé) et celles qui le sont moins (PV toiture, éolien flottant, autres).
+La CRE, si elle ne se prononce pas sur les objectifs chiffrés qui ne relèvent pas de ses missions, est
+donc favorable au projet de PPE3 dans son ensemble. Les trajectoires de développement des ENR
+donneront aux filières industrielles concernées la visibilité indispensable à leur pérennité ou leur
+développement sur notre sol. La garantie d’un bon équilibre entre l’offre et la demande d’électricité
+                                                                                                    1
+pendant la montée en puissance de l’électrification offre la perspective d’un maintien dans la durée des
+prix de l’électricité à un niveau modéré, facteur de succès de l’électrification.
+En second lieu, la CRE identifie certaines priorités d’action permettant de réussir la transition
+dans laquelle la France s’est engagée, tout en maintenant dans la durée un prix de l’énergie
+compétitif, en assurant un niveau élevé de sécurité d’approvisionnement et en saisissant les
+opportunités que cette transition représente en matière de souveraineté industrielle.
+Cette troisième PPE prévoit une forte accélération par rapport aux précédentes, une simple continuation
+du rythme de développement actuel impulsé par les PPE passées ne permettant pas d’atteindre les
+objectifs ambitieux qui devront se matérialiser dès 2030. Ce changement d’échelle nécessite une
+évolution des différentes pratiques, que ce soit en matière d’investissements, dans les réseaux par
+exemple, de modes de consommation ou de mobilisation des moyens de production et de flexibilités.
+                                                      *
+ La transformation du système énergétique va nécessiter, comme identifié dans le projet de
+ PPE, des investissements conséquents, dans les réseaux comme dans les moyens de
+ production. Un des enjeux majeurs consistera à créer un cadre prévisible et stable pour
+ faciliter le financement des projets et attirer les investisseurs
+
+
+La transformation du système énergétique national repose sur son électrification par des moyens
+décarbonés dont la principale caractéristique est d’être constitués, pour les EnR électriques de coûts
+essentiellement fixes. La PPE doit créer des conditions permettant d’attirer les investisseurs pour
+financer ces investissements.
+Il est à ce titre important que la PPE prévoie des objectifs clairs et suffisamment précis par filière, voire
+au sein d’une même filière. La CRE considère à ce titre pertinente la déclinaison des objectifs de
+développement de la filière photovoltaïque par type d’installation correspondant à un mode de soutien
+dédié. Ces objectifs devront ensuite être tenus et déclinés opérationnellement.
+    -   S’agissant des EnR électriques terrestres :
+            o    pour les segments de puissance soutenus par appel d’offres, la CRE rappelle ainsi
+                 l’importance d’établir et de publier suffisamment en amont un calendrier d’appels
+                 d’offres et de respecter les périodes définies, afin de permettre aux acteurs d’anticiper.
+            o    le monitoring des volumes soutenus pour les segments de puissance relevant d’un
+                 arrêté tarifaire passe par le dimensionnement du dispositif de soutien en lui-même
+                 (mécanisme de dégressivité, guichets ouverts ou fermés, …). Il convient de prévoir des
+                 conditions de soutien, qui permettent d’éviter d’éventuels effets d’emballement et donc
+                 de respecter l’exigence de maitrise budgétaire, tout en évitant les effets de stop and go
+                 préjudiciables aux filières et augmentant les risques pour les investisseurs.
+    -   S’agissant de l’éolien en mer, la volonté de passer d’une gestion projet par projet, à une
+        planification par façade et à des appels d’offres multi-lots, est également de nature à accroitre
+        la visibilité et la prévisibilité pour les porteurs de projets.
+    -   Enfin s’agissant de la filière biogaz, la CRE accueille favorablement la volonté exprimée de fixer
+        une trajectoire raisonnable de CPB afin d’accompagner la filière biométhane jusqu’en 2035, ce
+        qui va accroitre la visibilité pour la filière par rapport à la situation actuelle.
+Le développement des EnR va nécessiter un soutien financier durable de l’Etat. La CRE a contribué au
+chiffrage des prévisions d’engagements de l’Etat, dans le cadre de l’élaboration de l’avis du Comité de
+gestion des charges de service public de l’électricité (CGCSPE) sur le volet budgétaire de l’étude
+d’impact de la PPE, qui sera publié prochainement.
+Par ailleurs, la CRE considère qu’à terme, les EnR, en particulier les filières les plus matures, devront
+pouvoir se développer sans soutien de l’Etat. Il est ainsi important de poser les bases d’un cadre
+permettant de ne brider aucunement, en priorité pour ces filières, le développement de contrats de gré
+à gré de type PPA (Power Purchase Agreement), alors que la France est en retard sur ces pays voisins
+dans ce domaine. Cela nécessite en particulier de repenser le partage des risques entre Etat et
+producteurs dans les contrats de soutien, en transférant une part croissante des risques non exogènes
+aux producteurs. Par ailleurs, si la mise en place d’AO mixtes tel qu’envisagé dans le projet de PPE
+constitue effectivement une piste intéressante pour l’éolien en mer, compte tenu notamment des
+
+                                                                                                           2
+contraintes particulières liées au raccordement des parcs, cet outil est moins adapté pour d’autres
+filières. En tout état de cause, la CRE considère qu’il faut éviter tout système reposant sur une option
+de sortie ou d’aller/retour gratuite d’un contrat de soutien : il ne s’agit pas d’un bon vecteur de
+développement in fine des PPA puisque que les risques de développement restent entièrement côté
+Etat.
+L’objectif d’électrification des usages énergétiques de la France impactera par ailleurs fortement les
+réseaux électriques qui doivent déjà faire face à leur vieillissement progressif et à des exigences de
+résistance aux effets du changement climatique. Les budgets d’investissements annoncés sont
+particulièrement importants même si dans la norme de ce que prévoient les autres états européens
+(environ 100 Md€ pour RTE comme pour Enedis à l’horizon 2045). Ces budgets reflètent l’ampleur des
+travaux nécessaires.
+Le financement de ces investissements par les gestionnaires de réseau s’appuiera sur un recours
+important à la dette et sur l’apport de fonds nécessaires de la part de leurs actionnaires.
+Ces charges financières ainsi que les charges d’exploitation sont couvertes par le tarif des réseaux
+(TURPE). Il est établi par la CRE, qui en tant que régulateur indépendant veille à ce que les modalités
+tarifaires soient pérennes et adaptées au niveau de risque que la gestion de tels actifs représente. Tout
+doute en la matière rendrait plus difficile et plus couteux le financement des investissements massifs
+requis pour réunir l’électrification de notre économie.
+                                                    *
+ Pour être soutenables et permettre de créer les conditions d’un prix de l’énergie durablement
+ compétitif pour les consommateurs, ces investissements devront par ailleurs être optimisés
+ et mutualisés autant que possible.
+ L’anticipation de certains investissements de réseaux est par ailleurs indispensable à
+ l’atteinte des différents jalons posés par la programmation pluriannuelle. Cette anticipation
+ devra se faire en limitant au maximum le risque de coûts échoués.
+
+
+Le choix du mix entre filières EnR et les modalités de soutien retenues doivent permettre de
+concilier les objectifs de décarbonation et d’efficacité économique, afin d’optimiser le coût de
+production et ainsi favoriser la compétitivité de notre économie
+Le choix du mix énergétique doit se fonder sur l’analyse du potentiel, l’acceptabilité des projets, tenir
+compte de la nécessaire complémentarité entre profils de production mais également et au premier chef
+reposer sur l’enjeu de décarbonation au meilleur coût, en menant une analyse en coût complet, intégrant
+donc les développements réseau. En particulier, la CRE soulève la question du choix dans le projet de
+PPE de développer de façon plus significative le PV de petite taille dans le cadre des guichets ouverts,
+dont le coût complet de production (coût du soutien via les CSPE et coût de raccordement pour la
+collectivité) est généralement plus élevé par rapport aux installations de plus grande taille, comme le
+démontre l’analyse menée par la CRE annexée au présent document.
+Les interventions publiques dans ce domaine sous forme de contrats d’obligations d’achat ou de
+complément de rémunération doivent par ailleurs au maximum éviter tout risque de rémunérations
+excessives au détriment du budget de l’Etat :
+       o   le dimensionnement du soutien public doit s’inscrire dans une logique de strict nécessaire et
+           donc utiliser autant que faire se peut les logiques d’appels d’offres ou d’appels à projets en
+           s’assurant d’une concurrence effective ;
+       o   les segmentations nécessaires pour le soutien des technologies ou catégories d’installation
+           aux caractéristiques économiques différentes (PV bâtiment / biogaz par exemple) doivent
+           faire l’objet d’audits fréquents pour permettre de mieux calibrer les dispositifs de soutien
+           public et, dans le cas des guichets ouverts, disposer de mécanismes plus adaptés à la réalité
+           économique des projets en étant plus réactifs en cas de « bulle » ou de périodes
+           infructueuses.
+       o   le dimensionnement de la prime de prix négatifs doit pouvoir s’adapter aux évolutions du
+           système (hausse du nombre d’heures à prix négatifs, passage au pas de temps 15 min).
+
+
+
+
+                                                                                                       3
+Les réseaux ne doivent pas être limitants dans l’électrification. Il faut anticiper, mutualiser et
+optimiser leur développement.
+Face à l’ampleur des investissements à mettre en œuvre et au temps long nécessaire aux
+développements de ces infrastructures, l’approche historique de répondre uniquement à la demande
+quand elle se présente n’apparait plus complétement adaptée. En effet dans de nombreux projets, les
+délais de mise en œuvre des réseaux électriques sont limitants.
+En conséquence, il apparait nécessaire d’anticiper certains investissements. La CRE, en tant que
+régulateur notamment en charge de l’approbation des investissements et des conditions de
+raccordement au réseau, soutient cette approche. Considérant les objectifs de la PPE, le risque d’avoir
+des coûts échoués apparait maitrisé dans de nombreuses situations même en considérant des retards
+dans la mise en œuvre des projets. La CRE soutient notamment la nécessité d’anticiper, lorsqu’ils se
+trouvent sur le chemin critique, les travaux de raccordement des parcs éoliens en mer et les
+renforcements de réseaux nécessaires à l’électrification de l’industrie.
+Les délais de réalisation doivent en conséquence être absolument optimisés. La CRE identifie deux
+axes d’accélération :
+    -   la réduction des processus réglementaires (autorisations, concertations,) est un impératif : par
+        exemple en amendant la circulaire « Fontaine ». La CRE a pu constater qu’en la matière la
+        France était parfois moins réactive que ses homologues européens.
+    -   le recours systématique aux flexibilités comme alternative aux réseaux. En effet, face aux
+        investissements massifs que requièrent l’électrification des usages et les développements des
+        moyens de production décarbonés, il est indispensable de faire de ces flexibilités un outil de
+        modération des besoins d’investissements dans les réseaux. La CRE soutient notamment le
+        recours aux raccordements intelligents.
+Enfin, il faut prioriser la réalisation d’ouvrages mutualisés c’est-à-dire susceptibles de répondre aux
+besoins de plusieurs projets. Cette approche est déjà retenue pour les grandes zones d’électrification
+de l’industrie (Fos, Le Havre, Dunkerque, …) et pour les zones à fort potentiel de production
+renouvelable. La mutualisation a démontré son efficacité et elle doit être poursuivie pour prioriser les
+développements de réseau au profit du plus grand nombre.
+                                                     *
+ Ces investissements représentent par ailleurs une opportunité pour l’industrie française et
+ européenne, le cadre retenu devra permettre d’en tirer profit au maximum.
+
+
+La recherche de la maitrise des coûts ne doit pas empêcher l’atteinte des objectifs de souveraineté
+industrielle. Les investissements nécessaires à la transformation de notre système énergétique doivent
+pouvoir profiter aux industries françaises et européennes, sans toutefois que cela génère des surcoûts
+trop importants. La CRE se réjouit ainsi de voir figurer dans le projet de PPE des mesures visant à
+assurer le développement des compétences nécessaires aux ambitions visées ou encore la
+structuration des filières industrielles. La CRE s’est d’ailleurs positionnée à plusieurs reprises pour
+l’introduction dans les appels d’offres de critères relatifs aux enjeux industriels et territoriaux. La mise
+en œuvre du règlement NZIA doit permettre de répondre à cet objectif, comme cela est identifié dans le
+projet de PPE. Pour être efficace, elle devra se fonder sur des critères ambitieux mais réalistes et une
+attention particulière devra être apportée à la faisabilité des contrôles du respect de ces critères. La
+PPE devra par ailleurs tenir compte dans la fixation des objectifs de développement par filière d’un
+calendrier réaliste permettant aux filières de se préparer à la montée en cadence. Cela est notamment
+particulièrement vrai pour la filière photovoltaïque pour laquelle un doublement du rythme annuel de
+développement est prévu et pour la filière éolienne en mer.
+De même, l’ampleur des investissements prévus dans les réseaux est une occasion inédite de localiser
+des savoirs faire et des capacités industrielles en France. RTE et Enedis travaillent dans leur domaine
+à développer des filières françaises.
+                                                     *
+
+
+
+
+                                                                                                          4
+ La transition énergétique passe nécessairement par une électrification des usages, portée
+ notamment par le développement des véhicules électriques et l’installation de pompes à
+ chaleur lorsque cela est possible. Cela implique des investissements non négligeables pour
+ les consommateurs, qui devront être suffisamment soutenus.
+ La réussite de la transition énergétique nécessitera par ailleurs une mobilisation de
+ l’ensemble des acteurs et une évolution des différents usages, notamment pour répondre à
+ l’intermittence des énergies renouvelables. Le cadre législatif et réglementaire doit permettre
+ l’utilisation de l’ensemble des flexibilités, qu’il s’agisse de flexibilité de la demande, de
+ participation de l’ensemble des moyens de production aux différents mécanismes
+ d’équilibrage du système électrique ou encore du développement de moyen de flexibilités
+ comme les batteries.
+ Les interconnexions jouent également un rôle majeur et permettront de bénéficier d’un
+ foisonnement plus important entre les différentes installations de production.
+
+
+Une électrification massive des usages qui nécessite un accompagnement des consommateurs,
+et une adaptation des comportements pour répondre aux besoins de flexibilité du système
+Le projet de PPE s’appuie sur une électrification des usages tout en inscrivant dans la durée la sobriété.
+Afin de permettre cette transition, la CRE souligne l’importance d’équilibrer davantage le soutien de la
+demande en électricité par rapport au soutien de la production. En effet, tant que les solutions à base
+d’électricité ne sont pas les plus compétitives, les mécanismes de soutien à la demande sont des
+éléments essentiels pour permettre de déclencher de la part des consommateurs des investissements
+souvent majeurs rapportés à leur patrimoine. Leur stabilité, leur lisibilité, ainsi que des contrôles
+efficaces sont essentiels. Sans que ce domaine relève explicitement de son domaine, la CRE appelle à
+ce que ces mécanismes soient inscrits dans des dispositifs de nature plus pérenne que les dispositifs
+budgétaires. A défaut, le risque est de voir apparaitre une décorrélation entre les dynamiques
+d’installation de la production décarboné et d’électrification des usages.
+Cette électrification des usages se fera par ailleurs en parallèle d’un développement d’énergies
+intermittentes, mettant au premier plan le recours aux flexibilités, et notamment à la flexibilité de la
+demande. Le développement de tous les mécanismes permettant de mieux faire coïncider
+consommation et production constitue ainsi un enjeu essentiel pour le bon fonctionnement du système
+électrique. A cet effet, l’article 19 du règlement 2024/1747 prévoit que la CRE analyse avec RTE le
+besoin de flexibilité à l’échelle de la France.
+Les consommateurs peuvent participer de plusieurs manières à cet objectif. Au-delà de l’effacement de
+consommation en période de pointe, cette flexibilité passe par des incitations à consommer dans les
+moments où l’énergie, en particulier électrique, est décarbonée et peu chère. La CRE a ainsi engagé
+depuis plusieurs mois un travail sur les principales actions identifiées dans le « plan de passage à
+l’échelle des flexibilités de la demande » du projet de PPE, à savoir le placement des heures creuses
+pendant l’après-midi solaire (le TURPE 7, que la CRE adoptera courant février, précisera les jalons et
+modalités de ce chantier) et la bonne répercussion des signaux tarifaires aux consommateurs.
+Le développement de l’autoconsommation fait partie des solutions pour inciter les consommateurs à
+déplacer leur consommation à des moments où la production est plus abondante. La force de l’incitation
+à l’autoconsommation envisagée par le projet de PPE devra néanmoins être dimensionnée en analysant
+les différents impacts sur le système de cette pratique. Si l’autoconsommation constitue une sorte de
+« signal tarifaire » facilement compréhensible et contribue fortement à l’atteinte des objectifs PV, son
+coût de soutien peut s’avérer très onéreux s’agissant de petites installations. Par ailleurs ce mode de
+consommation peut entraîner des répercussions négatives pour le système, notamment en cas de
+développement massif, que la CRE est en train d’analyser finement dans un rapport qui sera publié
+courant 2025.
+Le développement du stockage et la participation des ENR aux mécanismes de marché sont
+nécessaires
+Le projet de PPE identifie les batteries et les STEP comme des flexibilités complémentaires à la flexibilité
+de la demande. La CRE partage l’importance du développement de ces outils de flexibilités. La PPE
+prévoit que les moyens de stockage par batterie puissent se développer sans soutien de l’Etat, ce qui
+est cohérent avec les analyses menées par la CRE et son comité de prospective, dans le cadre
+notamment du rapport sur la flexibilité et le stockage sur les réseaux d’énergie d’ici les années 2030,
+
+                                                                                                          5
+qui concluent que le stockage par batterie sera rentable à court terme et pourra fournir une flexibilité
+quotidienne ou infra-quotidienne.
+Pour faciliter le développement du stockage, il conviendra de s’assurer de l’accès des installations aux
+différents segments de marché et de créer des conditions d’accès au réseau représentatives des coûts
+réellement engendrés pour le système via un tarif dédié dans le TURPE. La CRE constate que certaines
+barrières à leur intégration au système électrique peuvent encore être levées notamment lors de leur
+raccordement pour lequel leur caractère flexible doit être pris en compte.
+La CRE considère par ailleurs, que les installations EnR doivent également participer à l’équilibrage et
+à la flexibilité du système en modulant leur production lorsque cela est nécessaire. Elle a formulé un
+certain nombre de recommandations en ce sens, appelant à renforcer les obligations de programmation
+dans les contrats d’accès au réseau et en rendant obligatoire la participation des parcs EnR au
+mécanisme d’ajustement.
+Les interconnexions françaises sont indispensables pour la décarbonation
+Pour développer les énergies renouvelables là où elles sont abondantes et apporter de la flexibilité, l’UE
+aura besoin de davantage d’interconnexions électriques. Le développement à grande échelle des
+énergies renouvelables va modifier la répartition géographique de la production d’électricité et accroitre
+les besoins de flexibilité. Les interconnexions sont et seront essentielles à un bon acheminement de
+l’électricité produite au sein de l’Union européenne. Plus de puissance de production décarbonée
+nécessitera plus de capacités d’interconnexions, c’est le sens du plan d’action européen pour les
+réseaux adopté fin 2023. Le sens des échanges aux frontières s’inverse déjà fréquemment et le fera de
+plus en plus. La gestion couplée des interconnexions et des marchés de court terme apporte au système
+électrique européen une flexibilité qui prendra de plus en plus de valeur au fur et à mesure du
+développement de la production renouvelable non pilotable.
+Le marché européen, qui oriente les flux transfrontaliers en fonction des besoins reflétés par les signaux
+de prix, a assuré l’adéquation en temps réel entre les approvisionnements et la demande exprimée-
+dans l’ensemble des États membres. Les règles européennes permettent une adaptation dynamique
+des importations et exportations en fonction des différences de prix qui reflètent le degré de tension subi
+par chaque pays au niveau de ses approvisionnements, et donc de maximiser la valeur partagée de
+l’énergie entre États membres. Cette adaptation en temps réel est un outil puissant pour réduire les
+coûts pour les consommateurs européens. Elle est rendue possible par l’intégration au marché unique.
+La CRE a publié mi-2024 son rapport « Les interconnexions françaises au cœur de l’Europe ; vitales
+face à la crise, indispensables pour la décarbonation ». Le rapport de la CRE met en lumière l’apport
+de ces infrastructures, en particulier dans la période 2020-2023.
+A court terme, la CRE considère prioritaire d’achever entre 2025 et 2030 les deux grands projets
+d’interconnexion à courant continu avec l’Espagne et l’Irlande. Il s’agit des projets Golfe de Gascogne
+(2000 MW) et Celtic Interconnector (700 MW).
+En outre, de nouvelles interconnexions pourront être envisagées sous réserve d’études coûts-bénéfices
+positives.
+                                                     *
+ La baisse programmée des consommations de gaz et le développement progressif du gaz vert
+ en remplacement du gaz fossile sont des changements majeurs dans l’équation énergétique
+ française. La CRE a conclu dans son étude sur l’avenir des infrastructures gazières que
+ l’impact sur les infrastructures nécessaires restera limité à moyen terme. La CRE a aussi
+ souligné la pertinence, dans une logique d’optimisation du réseau, de tendre vers une sortie
+ de l’usage gaz à la maille locale, plutôt que d’interdire des usages spécifiques à la maille
+ nationale.
+
+
+Concernant les réseaux gaziers, La CRE a publié mi 2023 son rapport sur l’avenir des infrastructures
+gazières dans un contexte d’atteinte de la neutralité carbone d’ici 2050. Ce rapport permet d’éclairer la
+place des infrastructures de gaz dans la future PPE.
+L’adaptation des réseaux pour accueillir la production de gaz décarboné nécessitera des
+investissements compris entre 6 et 9,7 Md€ d’ici 2050. L’effort d’investissement annuel correspondant
+(entre 200 et 300 M€ par an) reste raisonnable au regard des coûts d’investissements actuels (1,3 Md€
+par an).
+                                                                                                         6
+Le réseau de transport de gaz actuel restera en très grande partie nécessaire même en cas de baisse
+prononcée de la consommation, pour compenser les écarts géographiques et temporels entre
+consommation et production.
+La plus faible flexibilité de la production de gaz vert entrainera un changement du profil d’utilisation des
+stockages, dont le dimensionnement sera de plus en plus orienté par le besoin à la pointe. L’intégralité
+du parc actuel de stockage ne restera donc pas nécessaire à l’horizon 2050.
+Le réseau de distribution de gaz a été largement renouvelé ces dernières années. Il restera, dans une
+vision nationale, nécessaire et essentiellement dimensionné pour la production de gaz vert. Localement
+néanmoins, en fonction des configurations, certains actifs pourraient être abandonnés, dans une
+proportion qui devrait rester limitée.
+Pour optimiser le réseau de distribution nécessaire à terme, il est pertinent de mener dès à présent un
+exercice de coordination locale, en priorité dans les zones avec des projets de développement de
+réseaux de chaleur. À plus long terme et en fonction de la baisse effective de la consommation, il semble
+plus pertinent, de tendre vers une sortie de l’usage gaz à la maille locale, plutôt que d’interdire des
+usages spécifiques à la maille nationale.
+Les grands terminaux méthaniers devraient rester nécessaires pour la sécurité d’approvisionnement et
+pour la solidarité européenne à moyen voire long terme.
+La CRE prévoit de lancer en février 2025 le second volet de son étude sur l’avenir des infrastructures
+gazières et de publier ses résultats en fin d’année. Son objectif principal sera d’évaluer la soutenabilité
+économique à l’horizon 2050 des tarifs des infrastructures gazières et de questionner la résilience du
+cadre de régulation actuel.
+                                                     *
+ Le développement des filières hydrogène et CCUS doit contribuer à la décarbonation de
+ l’économie française. Ces deux filières soulèvent, pour partie, des problématiques similaires :
+ elles sont toutes deux émergentes et nécessitent des infrastructures à forte intensité
+ capitalistique. Ces infrastructures présentent des caractéristiques techniques voisines des
+ infrastructures gazières déjà régulées par la CRE. S’agissant de l’hydrogène, la CRE a
+ notamment souligné la nécessité d’une régulation adaptée aux enjeux spécifiques du
+ développement local des infrastructures hydrogène, sans obérer pour autant la création
+ d’infrastructures à plus grande échelle. S’agissant du CCUS, seuls certains maillons de la
+ chaîne ont vocation à être régulés.
+
+
+La CRE a présenté en septembre 2024 ses recommandations concernant les grandes orientations de
+régulation dans les secteurs de l’hydrogène et du captage, du stockage et du transport de carbone.
+Elles visent à créer un cadre stable et favorable aux investissements, adapté au développement
+progressif de ces filières.
+L’hydrogène aura des besoins de régulation différenciés entre les échelles locale et nationale
+Concernant l’hydrogène, la CRE partage les perspectives de déploiement prévues par la Stratégie
+nationale pour le développement de l’hydrogène décarboné en France. Celle-ci prévoit dans un premier
+temps un développement local de la production au plus près des consommateurs, avec une priorité
+donnée à quelques hubs industriels. A court terme, la CRE considère que cette stratégie est une
+stratégie prudente, tenant compte du fait que le modèle économique de l’hydrogène n’est pas encore
+totalement stabilisé, rendant incertain un déploiement à grande échelle à ce stade.
+La CRE a souligné la nécessité d’une régulation adaptée aux enjeux spécifiques du développement
+local des infrastructures hydrogène, sans obérer pour autant la création d’infrastructures à plus grande
+échelle. La CRE insiste notamment sur la nécessité de pouvoir étudier au cas par cas l’organisation des
+activités des acteurs afin de différencier les activités concurrentielles et régulées et d’éviter toutes
+subventions croisées entre les systèmes électriques, gaziers et le système hydrogène.
+Afin d’accompagner l’éclosion de la filière, la CRE considère que la mise en place d’un dispositif de
+soutien public orienté en priorité vers les utilisateurs (producteurs ou consommateurs) permettrait de
+développer des infrastructures locales bien dimensionnées. En parallèle et afin de faire face au
+dimensionnement d’infrastructures nationales, il serait pertinent de donner la possibilité aux
+gestionnaires d’infrastructures de bénéficier d’un soutien public direct qui pourrait prendre la forme d’un
+dispositif d’avance remboursable.
+                                                                                                          7
+S’agissant du CCUS, une régulation pourra être nécessaire pour certains maillons de la chaîne
+de valeur
+La CRE a identifié quatre maillons de la chaine de valeur des infrastructures nécessaires au captage
+du dioxyde de carbone (capture, collecte, transport et exutoire). Etant donné le niveau d’incertitude lié
+au développement de la filière constaté à ce stade, même si la CRE constate une maturité plus grande
+sur certains projets que pour l’hydrogène, la CRE ne recommande pas de réguler immédiatement les
+infrastructures de cette chaine. A terme, le niveau de régulation devrait s’organiser en fonction des
+caractéristiques de chacun des maillons : le captage et la collecte semblent plutôt constituer des
+activités de nature concurrentielles, alors que le transport et les installations servant d’exutoire (terminal
+ou stockage) sont plutôt de nature à constituer des monopoles naturels justifiant une régulation.
+
+
+
+
+                                                                                                            8
+

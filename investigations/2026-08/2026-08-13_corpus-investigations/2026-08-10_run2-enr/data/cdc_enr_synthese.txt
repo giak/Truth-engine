@@ -1,0 +1,478 @@
+     ENTITÉS ET POLITIQUES PUBLIQUES
+
+
+
+LE SOUTIEN AUX ÉNERGIES
+        RENOUVELABLES
+ À TRAVERS LES CHARGES
+      DE SERVICE PUBLIC
+            DE L’ÉNERGIE
+
+
+
+                  Rapport public thématique
+
+                                  Synthèse
+
+                                  Mars 2026
+                                                                                                              g AVERTISSEMENT
+                                                               Cette synthèse est destinée à faciliter la lecture et l’utilisation du
+                                                               rapport de la Cour des comptes.
+
+                                                               Seul le rapport engage la Cour des comptes.
+
+                                                               Les réponses des administrations, des organismes et des collectivités
+                                                               concernés figurent en annexe du rapport.
+Synthèse du Rapport public thématique de la Cour des comptes
+
+
+
+
+                2
+                                                                                       Sommaire
+
+Introduction��������������������������������������������������������������������������������������5
+
+
+1 Des soutiens publics à l’origine du développement
+des énergies renouvelables, des effets à corriger
+sur le fonctionnement du système électrique.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 7
+
+
+2 Un soutien dont les effets
+sur les rémunérations des producteurs doivent être mieux
+suivis, contrôlés et maîtrisés. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+
+3 Un soutien dont le coût pour l’État doit être mieux
+
+
+
+
+                                                                                                                                             Synthèse du Rapport public thématique de la Cour des comptes
+anticipé et piloté. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 11
+
+
+Recommandations����������������������������������������������������������������������� 13
+
+
+
+
+                                                                                                                                                           3
+                                                  Introduction
+
+
+Le développement des énergies renouvelables dans la production énergétique, en
+particulier électrique et gazière, constitue l’un des leviers de la politique énergétique
+et climatique de l’Union européenne et de la France en vue d’atteindre la neutralité
+carbone d’ici à 2050.
+
+Dans ce cadre, les pouvoirs publics en France, comme dans les autres pays de l’Union
+européenne, ont fixé des objectifs de développement par filière et mis en place des
+dispositifs de soutien pour assurer la rentabilité des installations et encourager les
+investissements. Sur des durées contractuelles généralement de l’ordre de 20 ans,
+l’État s’engage ainsi à faire bénéficier les producteurs de tarifs de soutien garantis,
+en leur compensant la différence entre ces tarifs et les prix constatés sur les marchés
+de l’énergie.
+
+En France métropolitaine, les contrats de soutien à la production d’électricité
+
+
+
+
+                                                                                            Synthèse du Rapport public thématique de la Cour des comptes
+d’origine renouvelable et à la production de biométhane ont représenté pour
+l’État un coût total cumulé de 26,3 Md€ entre 2016 et 2024, soit un coût annuel
+moyen de 2,9 Md€. Au-delà des tendances liées à l’évolution des volumes de
+production soutenus, ce coût peut varier fortement d’une année sur l’autre du fait
+de la volatilité des prix de marché de l’énergie. De 2016 à 2020, le coût annuel est
+passé de 4,1 à 6 Md€. En 2022 et 2023, il est devenu négatif, la forte hausse des
+prix de l’énergie ayant conduit l’État à percevoir des recettes nettes en application
+de ces contrats de soutien. Depuis 2024, ce soutien occasionne à nouveau des
+dépenses nettes pour l’État : 3,9 Md€ en 2024 et 7,3 Md€ en 2025, montant
+encore prévisionnel. L’ensemble des contrats de soutien en vigueur représente des
+engagements financiers à long terme pour l’État, estimés à 87 Md€ fin 2024 au sein
+des engagements hors bilan de l’État.
+
+
+
+
+                                                                                                          5
+Introduction
+
+                 Charges de SPE liées au soutien aux énergies renouvelables
+             en France métropolitaine au titre des années 2016 à 2025 (en Md€)
+
+
+                                                                                               7,44
+    7
+                                                   6,05
+                                         5,32
+    5                          4,50
+          4,13     4,35                                                              4,03
+                                                             3,23
+    3
+
+    1
+
+   -1     2016     2017    2018          2019     2020     2021      2022   2023      2024     2025*
+
+                                                             -1,71
+                                                                                     -3,12
+   -3
+
+   -5
+
+        Photovoltaïque     Éolien terrestre         Éolien en mer     Bio-énergies      Autres énergies
+        Injection biométhane          Frais de gestion     Montant charges SPE
+
+
+  * Les charges de SPE au titre de l’année 2025 sont des estimations de la Commission de
+  régulation de l’énergie
+  Source : annexe n° 7 de la délibération n°2025- 180 de la Commission de régulation de
+  l’énergie.
+  Note : les frais de gestion incluent aussi, de façon marginale, ceux liés à la gestion des
+  contrats d’obligation d’achat pour la cogénération (incluant des moyens fonctionnant au
+  gaz naturel). La catégorie « autres énergies » comprend les autres filières de production
+  d’électricité, notamment l’hydraulique, l’incinération d’ordures ménagères, le gaz de mines
+  ou la géothermie.
+
+
+Le coût de ce soutien pour les finances                   chaque filière dans les programmations
+publiques, et sa forte variabilité au cours               pluriannuelles de l’énergie (PPE)
+des dernières années, a conduit la Cour à                 successives. Les obser vations et
+se pencher sur les modalités de mise en                   recommandations de la Cour portent
+œuvre de ces dispositifs de soutien, sans                 ainsi sur l’efficacité et l’efficience des
+porter d’appréciation sur les objectifs                   modalités de soutien aux producteurs
+de politique énergétique fixés au niveau                  et sur la maîtrise, la prévisibilité et
+européen et national, ni sur les objectifs                l’anticipation de leur coût pour l’État.
+chiffrés de développement assignés à
+1      Des soutiens publics à l’origine
+       du développement des énergies
+       renouvelables, des effets à
+       corriger sur le fonctionnement
+       du système électrique
+Le soutien financier public apporté         de 150 TWh en 2024, soit 27 % de la
+aux producteurs d’énergies                  production d’électricité. La production
+renouvelables a contribué au                de biométhane injecté dans les réseaux
+premier chef à l’augmentation de la         de gaz naturel dépasse les 10 TWh en
+production d’électricité et de biogaz       2024 contre moins de 0,2 TWh en 2016.
+renouvelables et à l’atteinte des           Les filières solaire et biométhane injecté
+objectifs de développement fixés par        ont ainsi atteint, dès 2023 ou courant
+les PPE successives. Il garantit en effet   2024, les objectifs fixés pour 2023 dans
+
+
+
+
+                                                                                          Synthèse du Rapport public thématique de la Cour des comptes
+aux producteurs des tarifs d’achat          les PPE. Les filières de l’éolien terrestre
+en général bien supérieurs aux prix         et maritime ont également connu une
+qu’ils obtiendraient sur les marchés de     forte croissance, mais accusent un
+gros de l’électricité et de gaz. De fait,   retard par rapport aux objectifs fixés
+la majorité du parc de production           pour fin 2023.
+éolien et solaire en place bénéficie ou a
+bénéficié d’un soutien.
+
+En France métropolitaine, la production
+d’électricité renouvelable est passée de
+moins de 100 TWh en 2016, soit 18 %
+de la production d’électricité, à près
+
+
+
+
+                                                                                                        7
+                                                               Des soutiens publics à l’origine du développement
+                                                               des énergies renouvelables, des effets à corriger
+                                                               sur le fonctionnement du système électrique
+
+
+
+                                                                         Volume d’électricité d’origine renouvelable et de biométhane injecté
+                                                                                      soutenu par les charges de SPE (en TWh)
+
+
+                                                                    TWh
+                                                                    80
+                                                                    70
+                                                                    60
+                                                                    50
+                                                                    40
+                                                                    30
+                                                                    20
+                                                                    10
+                                                                     0
+                                                                         2016     2017       2018   2019        2020    2021      2022      2023     2024
+                                                                            Photovoltaïque      Éolien terrestre        Éolien en mer       Bio-énergies
+
+                                                                            Injection biométhane      Autres EnR électrique
+Synthèse du Rapport public thématique de la Cour des comptes
+
+
+
+
+                                                                    Source : Cour des comptes, à partir des délibérations de la Commission de régulation
+                                                                    de l’énergie
+
+
+
+                                                               Toutefois, certaines de ces modalités               peut favoriser l’apparition et amplifier
+                                                               de soutien peuvent avoir des effets                 des épisodes de prix négatifs sur
+                                                               indésirables sur le fonctionnement et               les marchés, en dehors de toute
+                                                               l’équilibrage du système électrique.                j u st i f i c at i o n é co n o m i q u e. Cet te
+                                                               C’est le cas des contrats d’obligation              situation a conduit l’État à revoir
+                                                               d’achat pour lesquels les installations             les conditions de rémunération des
+                                                               s o nt co n d u i te s à p ro d u i re s a n s      producteurs, pour les inciter à arrêter
+                                                               considération des prix de marché du                 leur production lors des épisodes de
+                                                               moment. Cette modalité, toujours en                 prix négatifs.
+                                                               œuvre pour les petits producteurs,
+
+
+
+
+                8
+2       Un soutien dont les effets
+        sur les rémunérations des
+        producteurs doivent être mieux
+        suivis, contrôlés et maîtrisés
+Le soutien aux produc teurs doit                     risques de sur-rémunération des
+s’exercer au meilleur coût pour les                  bénéficiaires d’autant plus grands
+f i n a n c e s p u b l i q u e s . Le c o d e d e   que la connaissance de l’économie
+l’énergie précise ainsi qu’il doit assurer           des f ilières soutenue est encore
+u n e r é m u n é r at i o n n o r m a l e d e s     insuffisante. Cette connaissance
+capitaux investis, et donc éviter toute              devrait être renforcée par l’élaboration
+sur-rémunération. Ces dispositions                   d’un plan d’audit des filières par la
+répondent aux lignes directrices fixées              Commission de régulation de l’énergie
+par la Commission européenne pour                    (CRE) et par la mise en place d’un
+l’octroi d’aides d’État.                             tableau de bord de suivi de l’économie
+                                                     des principales filières soutenues.
+Le respect de ces exigences repose sur
+
+
+
+
+                                                                                                Synthèse du Rapport public thématique de la Cour des comptes
+une analyse ex ante par le législateur               Cette méconnaissance de l’économie
+et par la Commission européenne, qui                 des filières contrarie le bon pilotage
+approuve les régimes d’aides avant                   tant des guichets ouverts que des
+leur mise en œuvre. Les contrats de                  appels d’offres. Les guichets ouverts
+soutien sont attribués selon deux                    pour le soutien au petit photovoltaïque
+modalités distinctes, les guichets                   et au biométhane injecté ont ainsi
+ouverts et les appels d’offres, qui ont              connu des afflux de demandes, bien
+varié dans le temps selon la filière et              supérieurs aux objectifs fixés, que les
+la gamme de puissance. Dans le cas                   modulations de tarifs d’achat mises
+de guichets ouverts, les modalités y                 en œuvre n’ont pu endiguer. Les
+compris tarifaires sont intégralement                appels d’offres ont été quant à eux, à
+f i xé e s ex a nte , et to u t c a n d i d at       de nombreuses reprises, confrontés
+répondant aux conditions d’éligibilité               à une concurrence insuffisante, qui
+peut en bénéficier. Dans le cas d’appels             incite les producteurs à demander
+d’offres, les candidats sont retenus                 des tarifs élevés. Pour y remédier, les
+sur la base de critères d’éligibilité, en            clauses de compétitivité devraient
+fonction de la compétitivité de leur                 être renforcées, afin d’assurer une
+offre et dans certaines limites (plafond             pression concurrentielle suffisante
+d e p r i x n ot a m m e nt ) . E nf i n , d e s     entre candidats.
+modalités d’indexation annuelle des
+tarifs garantis sont aussi fixées ex ante.           Le législateur a souhaité mettre
+                                                     fin à cer taines situations de sur-
+Or, la détermination des niveaux de                  rémunération avérées. Ainsi, il a
+soutien par la puissance publique,                   récemment souhaité reconsidérer les
+y compris à travers l’organisation                   conditions d’achat de la production
+d’appels d’offres, est exposée à des                 d’électricité d’origine photovoltaïque
+                                                                                                              9
+                                                               Un soutien dont les effets sur les rémunérations
+                                                               des producteurs doivent être mieux suivis,
+                                                               contrôlés et maîtrisés
+
+                                                               e n v i g u e u r e nt re 2 0 0 6 et 2 0 1 0 ,   la difficulté d’intervenir a posteriori
+                                                               notoirement surévaluées. À cette                 sur les mécanismes de soutien, et
+                                                               occasion, le juge constitutionnel                donc l’intérêt d’introduire dès les
+                                                               a validé la possibilité d’une modifi-            contrats initiaux d’éventuelles clauses
+                                                               cation a posteriori des conditions               de révision, comme cela commence
+                                                               contractuelles, dès lors qu’il s’agissait        à être fait dans certains contrats de
+                                                               de corriger des effets d’aubaine dans            soutien. Les modalités d’indexation
+                                                               un objectif d’intérêt général. L’arrêté          automatique des tarifs, qui accroissent
+                                                               d’application de ces dispositions a              ces différences de traitement et sont
+                                                               cependant été annulé par le Conseil              parfois dévoyées, devraient également
+                                                               d’État du fait d’une lacune originelle, à        pouvoir être réexaminées.
+                                                               savoir l’absence de notification de ces
+                                                               aides à la Commission européenne.                Enfin, le contrôle des producteurs
+                                                               Plus récemment, le législateur a voulu           doit être renforcé rapidement. Les
+                                                               introduire un déplafonnement partiel             manquements et non-conformités
+                                                               puis total des montants devant être              relevés par les organismes agréés
+                                                               reversés à l’État par les bénéficiaires          chargés des contrôles, de même que
+                                                               de compléments de rémunération                   les suspicions de fraudes relevées
+                                                               en cas de prix de marché supérieur               p a r l e s a c h e te u r s o b l i g é s , fo n t
+                                                               au tarif de référence retenu dans leur           actuellement l’objet d’un traitement
+                                                               contrat. Sans que le principe même de            disparate et insuffisant par les services
+Synthèse du Rapport public thématique de la Cour des comptes
+
+
+
+
+                                                               la modification souhaitée soit remise            de l’État. La direction générale de
+                                                               en cause, les conditions de sa mise en           l’énergie et du climat ne dispose
+                                                               oeuvre ont été jugées non conformes              d’aucun bilan consolidé en la matière.
+                                                               au droit des contrats par le Conseil             En l’absence de doctrine de traitement,
+                                                               constitutionnel. Ces tentatives pour             les suites données par les services
+                                                               l’instant inabouties, traduisent la              de l’État en région sont lacunaires et
+                                                               volonté de limiter les effets d’aubaine          les sanctions quasi-inexistantes. Un
+                                                               les plus marqués. Le principe de                 plan de lutte contre la fraude devrait
+                                                               telles modifications a été validé par le         être établi sans délai et les outils et
+                                                               juge constitutionnel, mais leur mise             procédures permettant de la détecter
+                                                               en œuvre a achoppé sur des failles               et de recouvrer les indus devraient être
+                                                               juridiques. Elles illustrent également           mis en place.
+
+
+
+
+10
+3       Un soutien dont le coût
+        pour l’État doit être mieux
+        anticipé et piloté
+
+Le coût pour l’État des soutiens à la                assurent un rôle d’intermédiaire entre
+production d’électricité et de gaz par               les producteurs soutenus et l’État. Ces
+des énergies renouvelables se traduit                opérateurs, ou « acheteurs obligés »,
+par des dépenses budgétaires au                      versent directement aux producteurs
+titre des charges de service public                  les soutiens financiers prévus qui sont
+de l’énergie (SPE). Des opérateurs                   ensuite compensés par l’État. Cette
+désignés, notamment EDF obligation                   compensation est supportée par le
+d’achat – entité au sein d’EDF –,                    budget de l’État.
+
+   Relations entre producteurs, acheteurs obligés et marchés dans le cas de soutien
+   par obligation d’achat (à gauche) et par complément de rémunération (à droite)
+
+
+
+
+                                                                                                     Synthèse du Rapport public thématique de la Cour des comptes
+
+
+
+
+     Source : Cour des comptes
+     Note : Ces schémas présentent le cas de prix de marché inférieurs aux tarifs de soutien ou
+     de référence pour un acheteur obligé vendant la totalité de l’énergie produite sur le marché.
+
+L’État couvre aussi les frais de gestion             « d’acheteurs obligés » mériteraient
+de ces opérateurs, pour des montants                 d’être mieux encadrées de manière à
+certes moindres mais non négligeables                éviter des défaillances.
+(plus de 100 M€) et qui justifieraient
+un suivi plus précis des performances                Les engagements financiers de long
+de gestion, tandis que les conditions                terme souscrits par l’État au titre des
+m ê m e s d ’e xe r c i c e d e l’a c t i v i té     charges de SPE sont comptabilisés hors
+                                                                                                                   11
+                                                               Un soutien dont le coût pour l’État
+                                                               doit être mieux anticipé et piloté
+
+                                                               bilan du fait de leur imprévisibilité. Deux   N+1, ce que la Cour a régulièrement
+                                                               exercices de prévision sont réalisés          critiqué . En outre, les modalités de
+                                                               chaque année, l’un pour établir ces           compensation des éventuels frais de
+                                                               engagements hors bilan (EHB) en               trésorerie encourus par les acheteurs
+                                                               annexe du compte général de l’État et         obligés nécessitent d’être revues.
+                                                               l’autre pour la publication d’un rapport
+                                                               détaillant le coût prospectif des charges     Afin de limiter la variabilité du montant
+                                                               par filière et par an. Ces exercices de       des charges d’une année sur l’autre
+                                                               prévision, bien qu’ils reposent sur un        et d’accroître sa prévisibilité, la CRE
+                                                               même modèle développé par la CRE,             a autorisé EDF, en septembre 2025,
+                                                               conduisent à des montants différents,         à vendre une partie de l’électricité
+                                                               du fait de calendriers et d’hypothèses        sous obligation d’achat jusqu’à trois
+                                                               variables. Ne conserver qu’un seul            ans avant sa livraison. Parmi d’autres
+                                                               calcul de ces engagements par an et           pistes, des réflexions pour instaurer
+                                                               présenter le cas échéant une fourchette       d e s o p é rat i o n s d e co u ve r t u re à
+                                                               de valeurs pour les engagements hors          terme pour l’État afin qu’une fraction
+                                                               bilan, fonction des scénarios de prix         de l’électricité sous complément
+                                                               retenus, permettraient de gagner en           de rémunération dépende des prix
+                                                               transparence et en lisibilité.                à terme et non plus seulement des
+                                                                                                             marchés court-terme sont aussi en
+                                                               À plus court terme, chaque année,             cours.
+Synthèse du Rapport public thématique de la Cour des comptes
+
+
+
+
+                                                               les charges de SPE donnent lieu à
+                                                               des dépenses sur le budget de l’État,         Enfin, le projet de loi de finances
+                                                               et doivent donc respecter les règles          pour 2026, dans sa version déposée
+                                                               de gestion communes en matière                e n oc tobre 2 0 2 5 , propos ait une
+                                                               d’inscription et d’exécution des crédits      débudgétisation partielle des charges
+                                                               budgétaires. Or, la dépendance des            de SPE, en affectant une fraction
+                                                               charges de SPE aux prix de court terme        de l’accise sur la consommation de
+                                                               des marchés de l’énergie introduit une        carburants au financement direct des
+                                                               forte imprévisibilité de leur montant         charges liées à la cogénération et au
+                                                               y compris en cours d’année. La bonne          biogaz. Si elle cherche à simplifier la
+                                                               exécution des crédits est aujourd’hui         gestion budgétaire des charges de
+                                                               assurée d’une part par l’ajustement           SPE, cette réforme ne va toutefois pas
+                                                               du calendrier des versements à EDF,           dans le sens d’une amélioration des
+                                                               traitement particulier autorisé par la        finances publiques, car elle conduirait
+                                                               réglementation mais qui peut induire          à augmenter la charge de la dette
+                                                               d’importants effets de trésorerie pour        du fait de la baisse du périmètre des
+                                                               EDF, et d’autre part par la possibilité       obligations dites « vertes » émises par
+                                                               de verser le solde des montants               le Trésor. Cette disposition n’apparaît
+                                                               dus l’année N en janvier de l’année           plus dans la loi de finances pour 2026.
+
+
+
+
+                                                               1 Cour des comptes, Analyse de l’exécution budgétaire 2022, EDMD, avril 2023, p. 47-48,
+                                                               Cour des comptes, Analyse de l’exécution budgétaire 2023, EDMD, avril 2024, p. 57-28 et
+                                                               Cour des comptes, Analyse de l’exécution budgétaire 2024, avril 2025, p. 62.
+12
+                            Recommandations
+
+1. Élaborer un plan d’audit des filières   5. Procéder à un exercice annuel
+de production par la Commission de         unique d’évaluation des engagements
+régulation de l’énergie et un tableau      de charges de SPE de long terme pour
+de bord de suivi de l’économie             la détermination des engagements
+des principales filières soutenues         hors bilan de l’État et pour l’établis-
+budgétairement par l’État (ministère       sement du rapport annuel les accom-
+chargé de l’énergie, CRE, 2026).           pagnant (CRE, ministère chargé de
+                                           l’énergie, 2026).
+2. Renforcer la clause de compéti-
+tivité prévue dans les cahiers des         6. Définir les conditions d’exercice
+charges des appels d’of fres en            d’un opérateur d’électricité ou de gaz
+prévoyant par exemple, comme le            chargé d’une mission d’acheteur obligé
+recommande la Commission de                (ministère chargé de l’énergie, 2026).
+régulation de l’énergie, la suppression
+systématique d’au moins 20 % des           7. É l a b o r e r d e s i n d i c ate u r s d e
+dossiers conformes déposés, quel           performance pour améliorer le suivi
+que soit le niveau de souscription         de l’évolution des frais de gestion
+(ministère chargé de l’énergie, 2026).     des charges de SPE portés par EDF
+                                           OA (ministère chargé de l’énergie, CRE,
+3. Introduire dans les futurs contrats     2026).
+une clause de révision des coefficients
+
+
+
+
+                                                                                              Synthèse du Rapport public thématique de la Cour des comptes
+d’indexation pour mieux tenir compte       8. Réviser régulièrement le taux d’in-
+de la part des coûts d’exploitation        térêt applicable pour le calcul de la
+(coefficient L) (ministère chargé de       compensation des frais financiers des
+l’énergie, 2026).                          opérateurs, en fonction de l’évolution
+                                           des taux de marché (ministère chargé
+4. Établir un plan de lutte contre         de l’énergie, CRE, 2026).
+la fraude et se doter des outils et
+procédures permettant de la détecter
+et de recouvrer les indus (ministère
+chargé de l’énergie, 2026).
+
+
+
+
+                                                                                                            13
+           La présente synthèse ainsi que l’intégralité du rapport
+       « Le soutien aux énergies renouvelables à travers les charges
+                      de service public de l’énergie »
+        sont disponibles sur le site internet de la Cour des comptes :
+                             www.ccomptes.fr
+
+
+
+
+Cour des comptes
+13, rue Cambon
+75100 Paris Cedex 01
+Tél. : 01 42 98 95 00
+www.ccomptes.fr
+

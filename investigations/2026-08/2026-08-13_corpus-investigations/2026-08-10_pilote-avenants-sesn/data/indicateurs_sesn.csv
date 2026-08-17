@@ -1,0 +1,14 @@
+indicateur,valeur,montant_eur,part_montant_pct
+total_contrats,45,103578507.98,100
+total_sirens_titulaires,26,103578507.98,100
+CR5_pct,72.35,,72.35
+CR10_pct,86.38,,86.38
+HHI_points,1419,,
+nb_procedures_negociees,22,50116772.39,48.39
+nb_sans_publicite_ni_mec,5,3353594.32,3.24
+nb_candidatures_uniques,5,6117854.25,5.91
+nb_modifications_declarees,0,0,0
+taux_modification_moyen,0,0,0
+repartition_nature_TRAVAUX,28,80981810.93,78.18
+repartition_nature_SERVICES,16,22506947.05,21.73
+repartition_nature_FOURNITURES,1,89750.00,0.09

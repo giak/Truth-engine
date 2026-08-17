@@ -1,0 +1,2316 @@
+RAPPORT
+Etat des lieux des appels d’offres PPE2
+Mise à jour du bilan réalisé par la CRE en septembre 2024
+
+
+
+
+                                          Janvier 2026
+Rapport n°2026-01
+15 janvier 2026
+
+
+En accord avec les objectifs fixés par la Programmation Pluriannuelle de l’énergie (PPE), le
+gouvernement a lancé, par plusieurs avis publiés au Journal officiel de l’Union européenne (« JOUE »)
+le 30 juillet 2021, une série de sept appels d’offres (AO), dits « PPE2 », à destination de différentes
+technologies de production d’électricité renouvelable en France métropolitaine continentale, sur la
+période 2021-20261. Ces appels d’offres donnent aux lauréats la possibilité de signer un contrat de
+complément de rémunération (CR) sur une durée de vingt ans avec l’Etat 2.
+La Commission de régulation de l’énergie (CRE) :
+     •     rend des avis sur les projets de cahiers des charges des appels d’offres ;
+     •     instruit les dossiers de candidature des porteurs de projets candidats à ces appels d’offres et
+           propose des listes de lauréats au ministre chargé de l’énergie ;
+     •     évalue par la suite les charges de service public de l’énergie engendrées par les contrats de
+           soutien octroyés aux lauréats.
+Le présent rapport vise ainsi à dresser un état des lieux des résultats des appels d’offres PPE2
+à date, en présentant leur état d’avancement par rapport aux objectifs fixés par la PPE et en analysant
+leurs principales caractéristiques (niveau de l’aide accordée et coûts des projets, acteurs principaux,
+caractéristiques techniques et répartition géographique des projets, provenance des principaux
+composants industriels). Cette analyse constitue une mise à jour des résultats du rapport sur les appels
+d’offres PPE2 publié par la CRE en 20243 (appelé « Rapport AO PPE2 2024 » par la suite).
+Le rapport porte plus précisément sur les périodes des appels d’offres PPE2 s’étant tenues à partir du
+mois d’octobre 2021 et jusqu’au 30 juin 2025, date à laquelle les résultats des dernières périodes ont
+pu être consolidés par la CRE. Les périodes instruites par la CRE entre cette date et la publication du
+présent rapport (10e période de l’appel d’offres Eolien à terre, 11 e période de l’appel d’offres PV Bâtiment
+et 4e période de l’appel d’offres Neutre) ne sont pas prises en compte, à l’exception des statistiques et
+analyses portant spécifiquement sur les niveaux de souscription et les prix proposés.
+Les analyses sont réalisées principalement sur la base des données récoltées auprès des candidats
+dans le cadre des appels d’offres.
+
+
+
+
+1
+  L’appel d’offres portant sur la réalisation et l’exploitation d’Installations de production d’électricité à partir de l’énergie mécanique
+du vent implantées à terre, dit « PPE2 Eolien terrestre » (avis JOUE n°386083-2021), l’appel d’offres portant sur la réalisation et
+l’exploitation d’Installations de production d’électricité à partir de l’énergie solaire « Centrales au sol », dit « PPE2 PV Sol » (avis
+JOUE n°386062-2021), l’appel d’offres portant sur la réalisation et l’exploitation d’Installations de production d’électricité à partir
+de l’énergie solaire « Centrales sur bâtiments, serres agrivoltaïques, ombrières et Ombrières agrivoltaïques de puissance
+supérieure à 500 kWc », dit « PPE2 PV Bâtiment » (avis JOUE n°385911-2021), l’appel d’offres portant sur la réalisation et
+l’exploitation d’Installations de production d’électricité innovantes à partir de l’énergie solaire sans dispositifs de stockage, dit
+« PPE2 PV Innovant » (avis JOUE n°386063-2021), Appel d’offres portant sur la réalisation et l’exploitation d’Installations de
+production d’électricité à partir d’énergies renouvelables en autoconsommation et situées en métropole continentale, dit « PPE2
+Autoconsommation » (avis JOUE n°386067-2021), l’appel d’offres portant sur la réalisation et l’exploitation d’installations
+hydroélectriques - Développement de la petite hydroélectricité, dit « PPE2 Petite hydroélectricité » (avis JOUE n°386079-2021)
+et l’appel d’offres portant sur la réalisation et l’exploitation d’Installations de production d’électricité à partir d’énergie solaire
+photovoltaïque, hydroélectrique ou éolienne situées en métropole continentale, dit « PPE2 Neutre » (avis JOUE n°386079-2021).
+2
+  A l’exception des lauréats de l’appel d’offres PPE2 Autoconsommation, qui perçoivent un complément de rémunération pour
+l’énergie injectée sur le réseau pendant 10 ans. Aucune période de cet appel d’offres ne s’est cependant tenue depuis l’automne
+2023.
+3
+ Commission de la Régulation de l’Energie, Etat des lieux et premiers enseignements tirés à fin 2023 des résultats des appels
+d’offres PPE2 - éoliens terrestres et photovoltaïques, septembre 2024.
+
+
+                                                                                                                                    2/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Précisions sur le périmètre des analyses
+Deux périodes de l’appel d’offres PPE2 Petite Hydroélectricité ont été instruites à ce jour : seuls trois
+projets ont été désignés lauréats à l’issue de la 1ère période4 et la 2nde5 a été déclarée infructueuse. Par
+ailleurs, aucun dossier relatif à une installation de la filière de la petite hydroélectricité n’a été déposé
+lors des trois périodes instruites au 30 juin 2025 de l’appel d’offres PPE2 Neutre. Enfin, le rapport de la
+CRE dressant un bilan à mi-parcours des appels d’offres PPE2 publié en 2024 ne prenait pas en compte
+la technologie hydroélectricité, en raison du faible nombre de projets concernés. Ainsi, le présent
+rapport ne porte également que sur les technologies de l’éolien terrestre et du solaire
+photovoltaïque.
+Le présent rapport porte uniquement sur les appels d’offres lancés dans le cadre du régime d’aide
+PPE 2 notifiés en 2021 à la Commission Européenne. L’appel d’offres portant sur des installations
+photovoltaïques dans les zones non interconnectées (« AO 2023 PV ZNI ») et l’appel d’offres
+portant sur les bâtiments et ombrières de puissance supérieure à 100 kWc et inférieure à 500
+kWc (« AO Petit PV Bâtiment » ou « AO Simplifié ») ne sont donc pas pris en compte dans le
+cadre de ce rapport.
+Enfin, les analyses du présent rapport portent, sauf mention contraire, sur les dossiers dits
+« retenus ». Ces derniers ne concernent que les dossiers que la CRE a proposé aux ministres
+chargés de l’énergie de retenir à la suite de ses instructions (et non les dossiers que le ministre a
+choisi de retenir en définitive, le cas échéant à la suite de la proposition d’une liste complémentaire de
+lauréats par la CRE).
+
+
+                                                            ****
+
+
+
+
+4
+    Dépôt des candidatures du 5 février au 4 mars 2024.
+5
+    Dépôt des candidatures du 18 novembre 2024 au 6 janvier 2025.
+
+
+                                                                                                        3/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+Synthèse
+A la fin de l’année 2025, plus de 80 % des volumes appelés prévus par la série de sept appels d’offres
+PPE2 à destination de différentes technologies de production d’électricité renouvelable en France
+métropolitaine continentale, sur la période 2021-2026 notifiés à la Commission européenne en 2021 ont
+fait l’objet d’une instruction par la CRE (soit 23 GW sur 29 GW censés être appelés jusqu’à fin 2026).
+Les dossiers retenus représentent plus de 60 % des volumes totaux prévus (18,2 GW6) et 78 % des
+volumes appelés à date (contre 68 % à fin 2023). Après un démarrage difficile au cœur de la crise
+énergétique, la majorité des appels d’offres a rempli ses objectifs de souscription à partir de l’année
+2023, notamment grâce à des adaptations des cahiers des charges visant à prendre en compte les
+évolutions des coûts des projets.
+Au cours de la crise, les prix moyens proposés par les projets candidats aux appels d’offres ont connu
+une forte augmentation. Depuis 2023, ils sont en baisse pour la filière du solaire photovoltaïque et sont
+relativement stables pour la filière de l’éolien à terre, alors que les dépenses d’investissement (CAPEX),
+pourtant majoritaires dans le coût des projets, connaissent une baisse davantage prononcée, en
+particulier pour la filière photovoltaïque. Deux facteurs principaux peuvent participer aux écarts entre
+l’évolution des CAPEX et des prix, communs aux deux filières : le maintien des taux d’emprunt à un
+niveau élevé depuis 2023 et l’augmentation des coûts d’exploitation et des taxes (OPEX), dont la part
+dans les coûts totaux des projets retenus a pris de l’importance. Dans un contexte d’augmentation de
+la souscription des appels d’offres et donc de la concurrence, la CRE estime qu’une baisse plus
+importante des prix devrait se matérialiser à l’avenir, ce qui transparaît déjà dans les dernières périodes
+d’appels d’offres, dont les résultats ont été publiés à l’automne 2025.
+L’ensemble des projets retenus au 30 juin 2025 7 dans le cadre des appels d’offres PPE2 devrait
+engendrer un montant total d’aides octroyées estimé à 5,7 Mds€ 2025 étalé entre 2024 et 2047 dans un
+scénario de prix de marché médian (70 €2024/MWh en 2030) et tenant compte d’un taux de chute de
+20 %. Cette estimation est très dépendante des hypothèses de prix de marché futurs. A date, les
+installations lauréates des appels d’offres PPE2 n’engendrent cependant qu’un faible niveau de soutien
+effectif par l’Etat, du fait d’un nombre très limité de contrats de soutien ayant déjà pris effet.
+S’agissant des caractéristiques techniques des installations, bien que la taille soit un facteur de
+compétitivité des offres, la puissance installée moyenne des projets retenus est très similaire à celle des
+projets déposés, à l’exception de l’appel d’offres Neutre plus concurrentiel. Par ailleurs, les constats
+principaux suivants peuvent être dressés pour les différentes filières :
+       •    la taille des turbines des projets éoliens à terre n’a que très faiblement augmenté depuis 2021
+            et demeure bien inférieure à la moyenne européenne, ce qui limite le potentiel de baisse des
+            coûts de la filière. Par ailleurs, depuis fin 2023, les projets en repowering sont davantage
+            représentés dans les appels d’offres et globalement davantage retenus par rapport aux autres
+            projets ;
+       •    les projets photovoltaïques au sol sur terrains dégradés bénéficiant d’un bonus de notation
+            proposent des prix plus élevés et constituent plus de la moitié des dossiers retenus sur
+            l’ensemble des périodes, même si leur représentation tend à se réduire depuis 2024 au profit
+            des installations sur terrains agricoles ;
+       •    enfin, parmi les projets photovoltaïques « sur bâtiments », la typologie « Bâtiment » est
+            majoritaire parmi les projets retenus et la typologie « Ombrière » propose des prix plus élevés
+            que les autres typologies.
+En matière de répartition géographique, pour les installations éoliennes terrestres comme
+photovoltaïques, les projets retenus demeurent inégalement répartis entre les régions. Ces répartitions
+sont très similaires à celles observées à fin 2023 dans le précédent rapport de la CRE. S’agissant de la
+filière photovoltaïque, la région Nouvelle-Aquitaine est toutefois devenue la première région en matière
+de puissance retenue.
+
+
+
+
+6
+    Les ministres successifs ont retenu une puissance cumulée de 19,1 GW.
+7
+ L’ensemble des dossiers retenus n’a pas été retraité pour prendre en compte les 128 projets dont les demandes d’abandons
+ont été accordées, et dont certains ont ensuite recandidaté à des périodes ultérieures. Il peut donc contenir certains doublons.
+
+
+                                                                                                                          4/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+S’agissant des entreprises candidates aux appels d’offres PPE2, le paysage concurrentiel demeure
+diversifié, sans position dominante, aussi bien pour la filière de l’éolien terrestre que celle du
+photovoltaïque. De nombreux nouveaux acteurs apparaissent parmi les lauréats par rapport au
+précédent rapport, principalement s’agissant de la filière photovoltaïque.
+Enfin, la situation est inchangée par rapport au précédent rapport s’agissant de la provenance des
+composants principaux des installations. Tandis que la quasi-totalité des turbines des projets éoliens
+retenus devraient être construites par des fabricants européens, les panneaux photovoltaïques utilisés
+par les projets lauréats devraient massivement provenir de Chine. S’agissant de la filière solaire, les
+mesures issues du règlement européen pour une industrie « net-zéro » visant à accroitre la production
+de technologies propres dans l’Union européenne (NZIA) pourraient faire évoluer les équilibres dans
+les prochaines années.
+
+
+
+
+                                                                                                  5/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+Sommaire
+1. Etat d’avancement des appels d’offres à fin 2025 ........................ 7
+
+2. Prix et coûts des projets .............................................................. 13
+
+3. Montant total des aides octroyées............................................... 18
+4. Caractéristiques techniques et compétitivité ............................. 23
+
+5. Sociétés lauréates ........................................................................ 28
+6. Répartition géographique des projets ......................................... 30
+
+7. Provenance des composants des installations .......................... 33
+
+Annexe 1 : Méthodologie de calcul des aides octroyées dans le
+cadre des appels d’offres PPE2 ......................................................... 37
+
+
+
+
+                                                                                            6/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+1. Etat d’avancement des appels d’offres à fin 2025
+La CRE a instruit 38 périodes d’appels d’offres PPE2 (soit les trois quarts des volumes appelés
+prévus) et plus de 3 900 dossiers entre fin 2021 et fin 2025.
+Les appels d’offres PPE2 prévoient le développement d’environ 29 GW de projets au total entre 2021
+et 2026. Cet objectif a évolué par rapport au Rapport AO PPE2 2024, car une période supplémentaire
+appelant 925 MW a été prévue depuis pour l’appel d’offres Eolien à terre8. Le nombre total de périodes
+prévues a ainsi également évolué9.
+Depuis le lancement des appels d’offres en septembre 2021 et jusqu’à fin 2025, la CRE a instruit 3 925
+dossiers de candidature dans le cadre des six appels d’offres portant sur les technologies de l’éolien
+terrestre et du solaire photovoltaïque10.
+
+
+
+
+8
+  De plus, l’objectif de 28 825 MW appelés ne prend pas en compte l’appel d’offres Petite hydroélectricité, comme précisé en
+introduction.
+9
+ Les trois périodes de l’appel d’offres PPE2 Petite Hydroélectricité ne sont plus prises en compte (et la période supplémentaire
+de l’appel d’offres Eolien à terre a été ajoutée), ce qui explique que seules 59 périodes sont étudiées dans ce rapport contre 61
+dans le rapport AO PPE2 2024.
+10
+     Appels d’offres PPE2 Eolien, PV Bâtiment, PV Sol, Neutre, Autoconsommation et PV Innovant.
+
+
+                                                                                                                           7/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Tableau 1 : Etat d’avancement des appels d'offres PPE2 à fin 2025 (les valeurs du Rapport AO
+PPE2 202411, valables à fin 2023, sont indiquées en gris dans les deux dernières lignes du
+tableau)
+
+                           Nombre de
+                            périodes                Volumes appelés       Volumes retenus     Volumes retenus
+        Appel             instruites fin           fin 2025 / Volumes    fin 2025 / Volumes      à fin 2025 /
+       d'offres           2025/ Nombre               appelés au total    appelés à fin 2025   Volumes appelés
+                        total de périodes                 (MW)                  (MW)            au total (MW)
+                             prévues
+
+                                11/14                      4 500/5 600      2 280/4 500         2 280/5 600
+      PPE2 PV
+      Bâtiment
+                                 79 %                         80 %             51 %                41 %
+
+
+                                 8/10                      7 525/9 375      6 396/7 525         6 396/9 375
+       PPE2 PV
+         Sol
+                                 80 %                         80 %             85 %                68 %
+
+
+                                  1/5                       140/700           140/140             140/700
+       PPE2 PV
+       Innovant
+                                 20 %                         20 %             100 %               20 %
+
+
+                                  4/5                      2 000/2 500      2 022/2 000         2 022/2 500
+        PPE2
+        Neutre
+                                 80 %                         80 %             101 %               81 %
+
+
+        PPE                      4/14                       200/700           76/200              76/700
+     Autoconso
+      mmation                    29 %                         29 %             38 %                11 %
+
+
+                                10/11                      9 025/9 950      7 260/9 025         7 260/9 950
+     PPE2 Eolien
+      terrestre
+                                 91 %                         91 %             80 %                73 %
+
+      Total à fin
+         2025                   38 / 59               23 390 / 28 825     18 175 / 23 390     18 175 / 28 825
+      (fin2023)                (24 / 58)             (14 115 / 27 900)    (9 651 / 14 115)    (9 651 / 27 900)
+
+     % à fin 2025                64 %                         81 %             78 %                63 %
+      (fin2023)                 (41 %)                       (50 %)           (68 %)              (35 %)
+
+
+
+
+11
+     Sans l’appel d’offres PPE2 Petite Hydroélectricité.
+
+
+                                                                                                              8/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+A la fin de l’année 2025, la CRE a procédé à l’instruction de près des deux tiers des périodes prévues
+sur l’intervalle 2021-2026. Cela correspond à 81 % des volumes appelés au total. Depuis mi-2023, 4
+nouvelles périodes de l’appel d’offres Eolien terrestre ont été instruites, ainsi que 5 nouvelles périodes
+de l’appel d’offres PV Bâtiment, 3 nouvelles périodes de l’appel d’offres PV Sol et 2 nouvelles périodes
+de l’appel d’offres Neutre. Il convient de noter qu’une grande partie des périodes qui n’ont pas été
+ouvertes à ce jour concernent les appels d’offres PV Innovant et Autoconsommation qui représentent
+des volumes relativement faibles (respectivement 4 et 10 périodes).
+Depuis le lancement des appels d’offres, la CRE a proposé aux ministres chargés de l’énergie de retenir
+2 074 projets pour une puissance de 18,2 GW. Finalement, les ministres successifs ont retenu 2 15912
+projets, qui représentent une puissance cumulée d’environ 19,1 GW. En effet, à plusieurs reprises, la
+CRE a proposé par courrier aux ministres de retenir des listes complémentaires de projets lauréats, du
+fait leur compétitivité. Les ministres ont, dans la grande majorité des cas, décidé de désigner lauréats
+ces projets. Certains projets ont de plus obtenu le statut de lauréat après l’acceptation de leurs recours.
+Les analyses du présent rapport ne portent que sur les dossiers que la CRE a proposé aux ministres
+chargés de l’énergie de retenir à la suite de ses instructions (hors listes complémentaires donc). Par
+simplification, ils sont qualifiés de « retenus » dans le présent rapport.
+La CRE note qu’un grand nombre de projets lauréats d’une période s’étant tenue entre 2021 et 2023 a
+effectué a posteriori des demandes d’abandon, principalement pour recandidater à une autre période
+de l’appel d’offres par la suite, ce qui s’explique notamment par la variation rapide des conditions
+économiques dans un contexte inflationniste et de crise énergétique. Les lauréats d’une période
+d’appels d’offres dont la date de clôture était antérieure à novembre 2022 ont, de plus, pu bénéficier
+d’une procédure simplifiée d’abandon13 de leur projet en vue d’une recandidature réalisée au plus tard
+le 31 décembre 2024.
+Au total, à la date du 30 juin 2025, 128 dossiers désignés lauréats d’un appel d’offres PPE2 ont réalisé
+une demande d’abandon auprès du ministère, qui a été accordée 14. Toutes ces demandes concernent
+des dossiers ayant été désignés lauréat d’une période s’étant tenue avant fin 2023 ; cependant, plus
+d’un tiers des demandes d’abandon a été déposé en 2024, voire en 2025. Les appels d’offres PPE2
+Eolien terrestre, PV Sol et PV Innovant concentrent environ trois quarts de ces demandes. Il est à noter
+qu’aucun lauréat issu de l’appel d’offres Autoconsommation n’a fait de demande d’abandon.
+La Figure 1 ci-dessous présente la répartition, en fonction de leur période de candidature, du nombre
+de lauréats ayant déposé une demande d’abandon.
+
+
+
+
+12
+     Selon les données du site Potentiel mis en place par la DGEC.
+13
+  Ces projets pouvaient abandonner leur statut de lauréat et leur garantie financière n’était pas prélevée s’ils recandidataient
+avant le 31 décembre 2024 et proposaient un prix inférieur au prix plafond indexé de la période initiale de candidature.
+14
+ A noter qu’au 1er janvier 2026, cette statistique n’a évolué qu’à la marge : 130 dossiers désignés lauréats d’un appel d’offres
+PPE2 ont réalisé une demande d’abandon auprès du ministère qui a été accordée (données du site Potentiel mis en place par la
+DGEC).
+
+
+                                                                                                                          9/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+
+Figure 1 : Répartition du nombre de lauréats ayant déposé une demande d’abandon, par appel
+d’offres
+
+
+
+
+D’autres abandons pourraient intervenir, notamment pour les projets qui feraient l’objet d’un retrait de
+l’autorisation d’urbanisme par l’autorité compétente ou d’une annulation de cette autorisation à la suite
+d’un contentieux, ou qui n’obtiendraient pas toute autre autorisation administrative ou dérogation
+nécessaire à leur réalisation. Certains porteurs de projets peuvent également demander l’abandon de
+leur statut de lauréat afin de valoriser l’énergie produite via des PPA (« power purchase agreement »,
+ou contrat d’achat direct d’électricité). Dans son observatoire sur les PPA publié en mars 202515, la CRE
+a indiqué que dans le panel de contrats sur lesquels est fondée son analyse, une part significative des
+PPA porte sur des installations anciennement lauréates d’appels d’offres publics : plus d’un tiers pour
+les installations éoliennes terrestres et plus de 10 % pour les installations photovoltaïques 16. Il est
+encore trop tôt pour estimer la part finale de projets lauréats des AO PPE2 qui ne se mettront pas en
+service, du fait des délais d’achèvement. A titre d’exemple, la CRE estime que le taux de chute moyen
+des appels d’offres CRE4 est de l’ordre de 40-45 % pour les deux filières de production. Ce taux de
+chute élevé s’explique notamment par la forte hausse des coûts qu’ont pu rencontrer les projets pendant
+la crise énergétique. Du fait des mesures introduites en matière d’indexation pré-mise en service pour
+les appels d’offres PPE2 (« indexation K ») à partir de fin 2022, la CRE tient généralement compte de
+taux de chute de 20 % pour ces appels d’offres, post-comptabilisation des abandons, dans ses travaux
+prospectifs.
+
+
+Le niveau de souscription des appels d’offres s’est stabilisé à un niveau élevé à partir de mi-
+2023 (à l’exception de l’appel d’offres PV Bâtiment), après un début difficile expliqué par le
+contexte inflationniste.
+Le lancement de la vague d’appels d’offres PPE2 a coïncidé avec le début de la crise énergétique : les
+années 2021 et 2022 ont ainsi été marquées par de faibles taux de souscription.
+
+
+
+
+15
+  Observatoire de la CRE relatif aux contrats d’achat d’électricité portant sur des actifs de production d’électricité renouvelable
+(« PPA ») situés en France métropolitaine continentale et recommandations en faveur de leur développement. Cet observatoire
+se fonde sur une collecte de données réalisée fin 2023 auprès de producteurs et d’acheteurs ayant signé des PPA. Le panel de
+réponse contient 116 contrats, dont 15 portant sur des installations éoliennes terrestres et 97 portant sur des installations solaires.
+16
+     Selon les données déclarées par les répondants à la CRE.
+
+
+                                                                                                                               10/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Depuis le second semestre 2023 et donc par rapport au précédent bilan publié par la CRE en septembre
+2024, les taux de souscription ont néanmoins retrouvé un niveau davantage satisfaisant, proche ou
+surpassant les volumes appelés. La stabilisation des prix des composants nécessaires aux filières, ainsi
+que l’adaptation des cahiers des charges prévoyant une indexation des tarifs de référence (cf. supra),
+ont permis à la majorité des périodes d’appels d’offres de remplir leurs objectifs. La sous-souscription
+chronique de l’appel d’offres PV Bâtiment jusqu’à mi-2025 peut s’expliquer en partie par la concurrence
+avec le soutien en guichet ouvert (arrêté tarifaire dit « S21 Bâtiment »17) destinée aux mêmes types de
+projets, mais de puissance installée inférieure. Les récentes évolutions à la baisse des conditions
+tarifaires de ce guichet ouvert, ainsi que l’annonce de sa substitution par un nouvel appel d’offres
+spécifique pour le segment 100-500 kWc à partir de septembre 2025, peuvent expliquer la hausse de
+souscription observée dans le cadre de la 11e période (dépôt des candidatures en juillet 2025).
+Enfin, à la suite d’une modification du cahier des charges de l’appel d’offres Neutre valable à partir de
+la 4e période (dépôt des candidatures entre fin septembre et début octobre 2025), la vérification de la
+conformité n’est plus effectuée sur l’ensemble des dossiers déposés au cours de l’instruction, mais
+uniquement sur l’ensemble des dossiers les mieux notés nécessaires pour atteindre le volume appelé.
+En l’absence de données comparables, pour cette dernière période, avec les données présentées dans
+le graphique ci-dessous, le niveau de souscription peut être approché par le rapport entre la puissance
+cumulée des dossiers déposés et la puissance appelée, qui atteint un niveau particulièrement élevé de
+473 %. Il convient de noter que, historiquement, l’appel d’offres Neutre présentait déjà les niveaux de
+souscription au global satisfaisants, du fait i) d’une concurrence entre différentes filières de production
+et ii) d’une période de candidature annuelle unique, pour un volume appelé relativement limité (500
+MW).
+
+
+Figure 2 : Niveau de souscription des périodes d’appels d’offres PPE2, défini comme le ratio
+entre la puissance cumulée des dossiers conformes par la puissance appelée
+                                                  200%
+
+                                                                                                                                                                          175%
+                                                  180%
+     Puissance conforme / Puissance appelée (%)
+
+
+
+
+                                                                                                                                157%                                        161%
+                                                  160%    152%                                                                                  151% 153%
+                                                                                                                                         146%
+                                                                                                         140%
+                                                  140%                            131%                            134%
+                                                                                                                         127%                                               128%
+                                                                                                                                                            123%
+                                                               115%                                                              126%
+                                                  120%                                                          112%                            112%
+                                                                                                                                104%                               124%
+                                                  100%
+                                                         86%                                                               97%                                                     PPE2 PV Bâtiment
+                                                  80%                                                                                             91%
+                                                         66%                                                                                            69%                        PPE2 PV Sol
+                                                                                59%                                                     57%                        61%
+                                                  60%                                                      53%                                                                     PPE2 PV Innovant
+                                                                      39% 36%                                                                                                      PPE2 Neutre
+                                                  40%                           28%
+                                                           21%        20%             25%                                                                                          PPE2 Autoconsommation
+                                                                                            12%
+                                                  20%                                                                                                                              PPE2 Eolien terrestre
+                                                                                                   14%
+                                                                                              6%
+                                                   0%
+                                                           oct.-21
+
+
+
+
+                                                          févr.-22
+
+
+                                                           mai-22
+
+
+
+
+                                                           oct.-22
+
+
+
+
+                                                          févr.-23
+
+
+                                                           mai-23
+
+
+
+
+                                                           oct.-23
+
+
+
+
+                                                          févr.-24
+
+
+                                                           mai-24
+
+
+
+
+                                                           oct.-24
+
+
+
+
+                                                          févr.-25
+
+
+                                                           mai-25
+                                                          nov.-22
+
+
+
+
+                                                          déc.-23
+                                                          nov.-21
+                                                          déc.-21
+
+
+                                                         mars-22
+
+
+                                                           juin-22
+
+
+
+
+                                                          déc.-22
+
+
+                                                         mars-23
+
+
+                                                           juin-23
+
+
+
+
+                                                          nov.-23
+
+
+
+
+                                                         mars-24
+
+
+                                                           juin-24
+
+
+
+
+                                                          nov.-24
+                                                          déc.-24
+
+
+                                                         mars-25
+
+
+                                                           juin-25
+                                                           juil.-21
+
+                                                         sept.-21
+
+
+
+
+                                                           juil.-22
+
+                                                         sept.-22
+
+
+
+
+                                                           juil.-23
+
+                                                         sept.-23
+
+
+
+
+                                                           juil.-24
+
+                                                         sept.-24
+
+
+
+
+                                                           juil.-25
+
+
+                                                         sept.-25
+                                                         janv.-25
+                                                         janv.-22
+
+
+
+
+                                                         janv.-23
+
+
+
+
+                                                         janv.-24
+                                                          août-21
+
+
+
+
+                                                           avr.-22
+
+
+
+
+                                                          août-22
+
+
+
+
+                                                           avr.-23
+
+
+
+
+                                                          août-23
+
+
+
+
+                                                           avr.-24
+
+
+
+
+                                                          août-24
+
+
+
+
+                                                           avr.-25
+
+
+
+
+                                                          août-25
+                                                          août-25
+
+
+
+
+Fin 2025, la puissance cumulée retenue représente 63 % du volume total prévu par la PPE2 (et 78 %
+des volumes appelés à fin 2025).
+Les appels d’offres PPE2 Neutre, PV Innovant et Autoconsommation sont ouverts aux installations
+photovoltaïques au sol et sur bâtiment ; et, dans le cas de l’appel d’offres Neutre, aux installations
+éoliennes. En comptabilisant la puissance cumulée de ces installations par technologie utilisée dans
+tous les appels d’offres PPE2, près de 57 % sont des installations photovoltaïques (au sol ou sur
+bâtiment), les 43 % restantes utilisant l’énergie éolienne.
+
+
+
+
+17
+   Arrêté du 6 octobre 2021 fixant les conditions d'achat de l'électricité produite par les installations implantées sur bâtiment,
+hangar ou ombrière utilisant l'énergie solaire photovoltaïque, d'une puissance crête installée inférieure ou égale à 500 kilowatts
+telles que visées au 3° de l'article D. 314-15 du code de l'énergie et situées en métropole continentale.
+
+
+                                                                                                                                                                                                   11/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 3 : Répartition des puissances cumulées des dossiers déposés (gauche) et retenus
+(droite) à fin 2025 par technologie (contient également les puissances retenues dans le cadre
+des AO PV Innovant, Autoconsommation et Neutre, ventilées selon la technologie utilisée par
+les projets)
+
+
+
+
+Pour rappel, au plus fort de la crise, plusieurs mesures ont été mises en place pour maintenir le
+développement des projets malgré la hausse des prix, ce qui a contribué à retrouver des niveaux de
+souscription satisfaisants :
+       •    l’introduction, à partir de fin 2022, pour l’ensemble des appels d’offres PPE2, d’une indexation
+            des prix proposés par les lauréats avant la prise d’effet du contrat (coefficient « K » : cf. Figure
+            4 ci-dessous s’agissant de son évolution) pour prendre en compte l’évolution des coûts des
+            installations et des taux d’intérêt entre la date de dépôt des candidatures et environ un an avant
+            la mise en service des installations.
+       •    la possibilité pour les porteurs de projets lauréats d’une période d’un appel d'offres dont la date
+            de clôture est antérieure à novembre 2022 de bénéficier d’une procédure simplifiée d’abandon
+            de leur projet en vue d’une recandidature réalisée au plus tard le 31 décembre 202418. Ces
+            projets devaient cependant proposer un prix inférieur au prix plafond de leur période d’origine,
+            indexé par le coefficient K défini dans le cahier des charges correspondant ;
+       •    la possibilité pour certains producteurs 19 d’amortir une partie de la hausse des coûts et des taux
+            d’intérêt en vendant l’électricité produite sur le marché pendant une durée limitée avant la prise
+            d’effet de leur contrat de soutien20.
+
+
+
+
+18
+  Ces projets pouvaient abandonner leur statut de lauréat et leur garantie financière n’était pas prélevée s’ils recandidataient
+avant le 31 décembre 2024 et proposaient un prix inférieur au prix plafond de leur période initiale indexé.
+19
+  La mesure n’étant applicable qu’aux projets lauréats des périodes d’appels d’offres CRE4 et des premières périodes des appels
+d’offres PPE2 dont la date de mise en service est postérieure à septembre 2022 et antérieure au 31 décembre 2024.
+20
+     Cahiers des charges modificatifs publiés le 30 août 2022.
+
+
+                                                                                                                        12/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+
+Figure 4 : Evolution de l’indice K (base 100 en janvier 2021)
+
+
+
+
+                                                  ****
+Conclusion n°1 : A la fin de l’année 2025, plus de 80 % des volumes appelés prévus par la série
+d’appels d’offres PPE2 notifiés en 2021 ont fait l’objet d’une instruction par la CRE (23 GW sur
+29 GW censés être appelés jusqu’à fin 2026) et les dossiers retenus représentent plus de 60 %
+des volumes prévus (18,2 GW).
+Après un démarrage difficile au cœur de la crise énergétique, la majorité des appels d’offres a
+rempli ses objectifs de souscription à partir de l’année 2023, notamment grâce à des adaptations
+des cahiers des charges visant à prendre en compte les évolutions des coûts des projets. L’AO
+PV Bâtiment est resté cependant régulièrement sous-souscrit, exception faite de la dernière
+période instruite, ce qui peut notamment s’expliquer par la présence d’autres mécanismes de
+soutien pour cette typologie de projets. Au global, les appels d’offres PPE2 ont ainsi permis de
+soutenir le déploiement des énergies photovoltaïques et éoliennes, malgré un retard accumulé
+pendant la crise (couverture du volume appelé à date par les volumes retenus à 78 %, contre
+68 % à fin 2023).
+
+
+2. Prix et coûts des projets
+NB : L’ensemble des chiffres présentés ci-dessous concernent les dossiers retenus.
+Les tarifs moyens proposés par les candidats retenus ont légèrement diminué depuis l’année
+2023, après avoir fortement augmenté pendant la crise. La hausse de la concurrence au sein des
+appels d’offres devrait contribuer à accélérer cette baisse.
+Du lancement des appels d’offres PPE2 fin 2021 à mi-2023, les tarifs proposés par les projets ont suivi
+une tendance à la hausse. En effet, les prix moyens (pondérés par la puissance) des projets retenus
+ont augmenté sur cette période :
+    •    de 22 % pour les projets photovoltaïques sur bâtiments ;
+    •    de 40 % pour les projets photovoltaïques au sol ;
+    •    de 35 % pour les projets éoliens.
+
+
+
+
+                                                                                                 13/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Depuis mi-2023 et jusqu’à juin 2025, s’agissant des projets photovoltaïques, les prix proposés ont
+légèrement diminué par rapport à leur niveau maximum pendant la crise (d’environ - 4 % pour les
+installations au sol et sur bâtiments). Les dernières périodes d’appels d’offres instruites par la CRE au
+second semestre 202521 confirment cette tendance à la baisse, particulièrement renforcée s’agissant
+des installations au sol : - 5 % pour le photovoltaïque sur bâtiment et - 10 % pour le photovoltaïque au
+sol.
+En revanche, les prix proposés par les projets éoliens sont restés stables depuis mi-2023, y compris en
+tenant compte de la dernière période de l’appel d’offres Eolien à terre, dont la période de candidature
+s’est tenue en juillet 2025.
+Figure 5 : Evolution des prix moyens proposés par les projets retenus pondérés par la puissance
+des projets par typologie d’installations22, en euros courants (€/MWh) (jusqu’à fin 2025)
+
+
+
+                     110,00
+                                                                                104,79
+                                                                                         101,24      102,10
+                                                                                                                100,74     99,95
+                     100,00                                                                                                        98,20      97,53      96,48
+                                                                                                                                                                              Eolien terrestre
+                                                     90,91
+                      90,00                                                                 86,94 87,18 87,23                                87,61       86,62
+                                             85,27                                  83,91                                          84,16
+       PMP (€/MWh)
+
+
+
+
+                                 83,12                                  82,23                                     87,63 87,92                                                 PV Sol
+                                                             78,80                                  84,84                                              79,48
+                      80,00                                                                82,42        81,90
+                                                                                                                           79,28    79,09                        74,13
+                                                                        76,41                                                  80,31
+                                                                                                                                                                              PV Bâtiment
+                      70,00                    67,33          73,50
+                                     64,52              68,51
+                                       58,84
+                      60,00
+
+
+                      50,00
+                          juil.-21           févr.-22         août-22           mars-23            oct.-23       avr.-24           nov.-24            mai-25        déc.-25         juin-26
+
+
+
+
+Cependant, les tarifs moyens des projets retenus indexés par le coefficient K (qui vise à refléter la
+hausse de l’ensemble des coûts, dont les coûts de financement) sont relativement stables s’agissant
+des projets solaires au sol (exception faite de la 4 e et dernière période de l’appel d’offres Neutre,
+marquée par une très forte souscription de projets au sol) et éolien à terre depuis 2021 (pas de baisse
+des coûts sur le plan « technologique » a priori). S’agissant des projets solaires sur bâtiments,
+l’indexation des tarifs met en avant une tendance baissière des prix proposés. La hausse des prix
+proposés par les candidats semble donc bien en grande partie imputable aux hausses conjoncturelles
+des coûts des projets.
+La filière de l’éolien terrestre est aujourd’hui caractérisée par des CAPEX de l’ordre de 1 700-
+1 800 €/kW (en baisse d’environ -100 à -150 €/kW par rapport au précédent rapport de la CRE) et
+un productible moyen de près de 2 300 hepp23 (en baisse de -200 hepp24). Les montants
+d’investissement dédiés aux turbines ont fortement augmenté entre 2021 et fin 2022, mais leur
+part totale au sein des CAPEX est restée stable.
+
+
+
+
+21
+     9e période de l'appel d'offres Eolien terrestre, 11e période de l’appel d’offres PV Bâtiment et 4e période d’appel d’offres Neutre.
+22 Sont exclues les installations lauréates des appels d’offres portant sur des installations en autoconsommation et sur des projets
+photovoltaïques « innovants ». S’agissant des installations lauréates de l’appel d’offres Neutre, les prix moyens proposés sont
+calculés suivant la typologie d’installation.
+23
+  Hepp : heures équivalentes pleine puissance. La notion de productible, exprimé en kWh d’énergie produits annuellement par
+kW de puissance installée, peut indifféremment être utilisée, les deux grandeurs étant homogènes.
+24
+  Probablement du fait d’une baisse de la disponibilité des sites les mieux ventés ; les nouveaux projets s’implantent donc sur
+des sites moins ventés.
+
+
+                                                                                                                                                                                          14/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Entre novembre 2021 et février 2025, les CAPEX des projets retenus de la filière éolienne à terre ont
+varié entre un point bas de l’ordre de 1 600 €/kW (atteint en novembre 2021) et un point haut de l’ordre
+de 2 100 €/kW (atteint en décembre 2022). Ils se stabilisent en février 2025 autour de 1 750 €/kW. En
+comparaison, les coûts d’investissement moyens issus du panel constitué pour l’audit de la CRE
+« Coûts et rentabilité des énergies renouvelables en France métropolitaine » publié en avril 2014 25 se
+situaient entre 1 400 et 1 600 €/kW en fonction des années de mise en service (entre 2008 et 2012).
+Plus précisément, le coût d’investissement, prédominant dans le coût de production pour les parcs
+éoliens à terre (60 % des coûts totaux), est composé, en 2025, à environ 60 % du coût des turbines
+(part relativement stable au fil des périodes). Le prix des turbines payé par les porteurs de projet est en
+légère baisse depuis 2023 (de l’ordre de -8 %), suivant la tendance à la baisse de l’indice K sur cette
+période (bien que ce dernier vise à refléter l’évolution de l’ensemble des CAPEX et pas seulement des
+turbines26).
+La filière du solaire photovoltaïque est caractérisée par des CAPEX près de deux fois plus faibles
+que l’éolien terrestre (CAPEX d’environ 900 €/kWc pour les projets au sol, mais de 1 150 €/kWc
+pour les projets sur bâtiment, en légère baisse d’environ - 100 €/kWc pour les projets sur
+bâtiment par rapport au précédent rapport de la CRE), mais des productibles également deux
+fois plus faibles (environ 1 200 hepp, en légère baisse de - 50 hepp par rapport au précédent
+rapport). L’achat des modules n’est plus le premier poste de dépense pour les projets
+photovoltaïques au sol et sa part au sein des CAPEX a fortement diminué pour les projets
+photovoltaïques sur bâtiment.
+Les CAPEX représentent également la majeure partie des coûts d’un parc photovoltaïque (60 % des
+coûts totaux pour les installations au sol et 68 % pour les installations sur bâtiments en moyenne depuis
+fin 2021 pour les projets retenus), la filière étant, tout comme l’éolien à terre, fortement capitalistique.
+Après une hausse de 18 % entre décembre 2021 et décembre 2022, les CAPEX moyens observés des
+projets photovoltaïques au sol retenus ont retrouvé à la dernière période étudiée de l’appel d’offres
+PPE2 PV Sol (juin 2025) un niveau équivalent à celui de la première période de cet appel d’offres,
+proche de 900 €/kWc. Ce niveau demeure supérieur à celui observé dans le rapport « Coûts et
+rentabilité du grand photovoltaïque en métropole continentale » de la CRE, publié en février 2019, entre
+2017 et 2018 (800 €/kWc).
+Les CAPEX moyens des projets photovoltaïques retenus dans le cadre de l’appel d’offres PPE2 PV
+Bâtiment sont plus élevés ; ils s‘élèvent en moyenne à 1 150 €/kWc en 2024 et 2025, soit légèrement
+supérieur au niveau de 2017/2018 (1 100 €/kWc).
+La répartition des postes d’investissements pour les projets solaires a longtemps été dominée par
+l’achat des modules. Le coût des modules représentait en 2021 33 % des CAPEX totaux des
+installations au sol et 25 % des coûts des installations sur bâtiment, mais a connu une chute majeure
+entre 2021 et 2025 pour les projets retenus (- 60 % pour les projets au sol et - 42 % pour les projets sur
+bâtiments). Or, cette baisse ne s’est que partiellement reportée sur les prix proposés par les projets, les
+montants économisés étant visiblement reportés sur d’autres postes de dépenses en augmentation.
+
+
+
+
+25
+     Rapport de la CRE d’avril 2014, Coûts et rentabilité des énergies renouvelables en France métropolitaine.
+26
+     Il n’existe, en tout état de cause, pas d’indice spécifique aux turbines éoliennes.
+
+
+                                                                                                                 15/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+
+Figure 6 : Coûts d’investissements (CAPEX) totaux des projets retenus aux appels d’offres par
+kW de puissance installée, par période et par typologie d’installations 27 (périodes de candidature
+jusqu’au 30 juin 2025)
+
+
+
+
+Figure 7 : Part des CAPEX dans les coûts totaux des projets retenus par période et par typologie
+d’installations (périodes de candidature jusqu’au 30 juin 2025)
+
+
+
+
+Selon les données déclaratives des candidats, les coûts d’investissement des projets ont donc
+connu une augmentation moins forte que les prix proposés pendant la crise énergétique. Depuis,
+les CAPEX ont connu une baisse plus importante que celle des prix. Ce découplage peut
+notamment s’expliquer par des conditions de financement dégradées et par l’augmentation des
+OPEX des projets. Ces derniers sont de l’ordre de 50 – 55 €/kW/an pour les projets éoliens à terre
+(en augmentation de 5 €/kW/an par rapport au précédent rapport) et deux fois plus faibles pour
+les projets photovoltaïques (20-25 €/kWc/an, en légère augmentation par rapport au précédent
+rapport de la CRE).
+
+
+
+
+27
+  Sont exclues les installations lauréates des appels d’offres portant sur des installations en autoconsommation et sur des projets
+photovoltaïques « innovants ».
+
+
+                                                                                                                           16/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+La décorrélation entre le rythme d’évolution des CAPEX et celle des prix moyens proposés peut en
+partie s’expliquer par le maintien à des niveaux élevés des taux d’emprunt bancaire des projets. En
+effet, les taux ont également atteint un pic entre 4 % et 4,5 % à la fin de l’année 2023 (selon les données
+déclarées, confirmées par les données de marché d’évolution des taux), mais n’ont pas retrouvé leur
+niveau d’avant crise, en atteignant des valeurs entre 3 % et 4 % au premier semestre 2025 (contre
+1,7 % à 2 % à fin 2021). Le financement des projets étant majoritairement constitué de dette 28, ces taux
+élevés renchérissent les coûts de financement des projets, ce qui contribue à une hausse plus forte et
+une baisse plus faible des prix proposés par rapport aux CAPEX des projets.
+Les OPEX des installations retenues ont également augmenté régulièrement sur toute la période de
+2021 à 2025 :
+     •    + 20 % pour les projets PV sur bâtiment, notamment du fait de l’augmentation des frais de vente
+          de l’électricité (+ 215 %) et des frais des locations (+ 129 %) ;
+     •    + 25 % pour les projets PV au sol, notamment du fait de l’augmentation du coût des assurances
+          (+103 %), des frais de vente de l’électricité (+ 268 %) et des frais de location (+ 56 %) ;
+     •    + 29 % les projets éoliens, notamment du fait de l’augmentation des coûts de maintenance
+          (+ 13%), des frais de vente de l’électricité (+ 139 %) et de l’IFER29 (+ 26 %).
+Bien que toujours minoritaire, la part des OPEX dans les coûts totaux a ainsi augmenté de manière
+notable par rapport à celle des CAPEX (visible dans la Figure 7). Cela a donc également pu contribuer
+au maintien des prix proposés à des niveaux supérieurs à ceux d’avant crise.
+
+
+                                                              ****
+Conclusion n°2 : Au cours de la crise, les prix moyens proposés par les projets ont connu une
+forte augmentation. Depuis 2023, ils connaissent une certaine baisse pour la filière du solaire
+photovoltaïque et sont relativement stables pour la filière de l’éolien à terre.
+Les coûts d’investissements des projets (CAPEX) ont également connu une augmentation
+pendant la crise énergétique, bien qu’elle soit moins prononcée que pour les prix. Depuis 2023,
+les CAPEX de la filière photovoltaïque sont revenus à leur niveau d’avant crise, alors que les
+prix proposés par les projets demeurent bien supérieurs à leur niveau de 2021. De plus, les
+CAPEX de la filière éolienne ont entamé une tendance baissière depuis 2023, alors que les prix
+sont restés stables après une forte hausse. Il existe donc un certain découplage entre l’évolution
+des prix et celle des CAPEX (pourtant majoritaires dans le coût des projets) s’agissant des deux
+filières.
+Deux facteurs principaux peuvent participer à ces écarts entre l’évolution des CAPEX et des prix,
+communs aux deux filières : le maintien des taux d’emprunts à un niveau élevé depuis 2023 et
+l’augmentation des coûts d’exploitation et des taxes (OPEX), dont la part dans les coûts totaux
+des projets retenus a pris de l’importance (+ 4 pp pour le photovoltaïque sur bâtiment, + 8 pp
+pour l’éolien terrestre et + 7 pp pour le photovoltaïque au sol selon les données déclaratives des
+projets, cf. Figure 7).
+Dans un contexte d’augmentation de la souscription des appels d’offres et donc de la
+concurrence, la CRE estime cependant qu’une baisse plus importante des prix devrait se
+matérialiser à l’avenir, ce qui transparaît déjà dans les dernières périodes d’appels d’offres, dont
+les résultats ont été publiés à l’automne 2025.
+
+
+
+
+28
+  En moyenne sur les périodes qui se sont tenues entre 2024 et mi-2025, les montants investis dans les projets retenus reposaient
+sur de la dette à hauteur de 72 % pour l’AO « PV Bâtiment », de 74 % pour les installations photovoltaïques au sol et de 69 %
+pour les installations éoliennes à terre.
+29
+  De même, cette taxe a aussi augmenté pour les autres filières, mais l’effet de cette augmentation est moindre par rapport aux
+autres postes.
+
+
+                                                                                                                         17/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+3. Montant total des aides octroyées
+Le soutien aux installations lauréates des appels d’offres PPE2 prend la forme d’un contrat de
+complément de rémunération symétrique sur une durée de 20 ans. Afin d’estimer le montant des aides
+octroyées dans le cadre des appels d’offres PPE2, la CRE a considéré trois scénarios de prix captés
+par les filières de l’éolien terrestre et du solaire photovoltaïque sur la période entre 2023 (date des
+premières mises en service prévisionnelles des installations soutenues dans le cadre des appels
+d’offres PPE2) et 2047 (date prévisionnelle moyenne de l’échéance des contrats octroyés à la dernière
+période d’appel d’offres s’étant tenue avant le 30 juin 2025).. La méthode d’analyse utilisée pour estimer
+le montant des aides octroyées est décrite en détail en Annexe 1.
+Sur l’ensemble des appels d’offres PPE2, le montant des aides octroyées est estimé à 7,1 Mds€ 2025
+pour l’ensemble des dossiers retenus à mi-2025, dans un scénario de prix de marché médian30 et sans
+considération d’un taux de chute des projets retenus (que la CRE estime généralement dans ses
+évaluations prospectives à un niveau de 20 %). En prenant en compte ce taux de chute, le montant des
+aides octroyées dans le scénario médian s’élèverait à 5,7 Mds€2025.
+Cette estimation est fortement dépendante des hypothèses de prix de marché futurs. En effet, dans un
+scénario de prix de marché bas31, l’écart entre les prix de marchés captés et le tarif de référence
+augmente ; le montant versé aux installations est donc quasiment doublé, pour atteindre un niveau de
+14,8 Mds€2025 au maximum et 11,8 Mds€2025 en tenant compte d’un taux de chute de 20 %. Au contraire,
+dans un scénario de prix de marché hauts 32, la situation s’inverse : les prix captés sont en moyenne
+supérieurs aux tarifs de référence des installations. Les appels d’offres PPE2 deviennent donc une
+source de recettes pour l’Etat, d’un montant de 2,5 Mds€ 2025 au maximum et 2,0 Mds€2025 en tenant
+compte d’un taux de chute de 20 %).
+La Figure 8 présente le montant prévisionnel des aides totales accordées dans le cadre des appels
+d’offres PPE2 (en millions d’euros constants 2025), avec prise en compte d’un taux de chute de 20 %,
+et en considérant distinctement les trois hypothèses de scénarios de prix de marché captés par les
+filières de l’éolien terrestre et du solaire photovoltaïque (bas, médian et haut).
+
+
+
+
+30
+     Le scénario de prix médian considère un prix baseload de l’électricité de 70 €2024/MWh en 2030.
+31
+     Le scénario de prix bas considère un prix baseload de l’électricité de 50 €2024/MWh en 2030.
+32
+     Le scénario de prix hauts considère un prix baseload de l’électricité de 95 €2024/MWh en 2030.
+
+
+                                                                                                       18/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 8 : Montant prévisionnel des aides totales accordées sur toute la durée des contrats dans
+le cadre des appels d'offres PPE2 (en millions d'euros constants 2025), par appels d'offres, avec
+prise en compte d’un taux de chute de 20 % (gauche, clair : scénario de prix bas ; centre :
+scénario de prix médian ; droite, foncé
+                                    CSPE; scénario
+                                            par AO de prix haut)
+                                                   (M€2025)
+                                      7 000
+
+
+                                      6 000    5 721
+
+
+                                      5 000
+
+
+                                      4 000
+                                                                               3 336
+         Montant des aides (M€2025)
+
+
+
+
+                                      3 000
+
+                                                   1 907                           1 936
+                                      2 000                     1 657
+                                                                     1 237
+                                                                                             979
+                                      1 000                             713
+                                                                                               508
+                                                                                       187                                  97 68 31
+                                                                                                            31 31 30
+                                          0
+                                                  Eolien         PV Bâtiment      PV Sol       Neutre    Autoconsommation    Innovant
+                                                                                                   -79
+                                      -1 000
+
+
+                                      -2 000
+
+
+                                      -3 000
+                                                       -2 861
+
+                                      -4 000
+
+
+
+La Figure 9 présente de la même manière le surcoût de production unitaire pour chaque appel d’offres,
+c’est-à-dire le montant versé par l’Etat pour chaque mégawattheure de production (schématiquement,
+le tarif de soutien auquel on soustrait une référence de prix de marché moyen capté par la filière). Il est
+calculé comme le rapport du montant total des aides accordées sur toute la durée des contrats pour un
+appel d’offres dans un scénario de prix donné (cf. Figure 8) par l’énergie totale soutenue dans le cadre
+de cet appel d’offres. Le surcoût unitaire pour la filière solaire est plus important que pour la filière
+éolienne, car les prix de marché anticipés captés par la filière solaire sont moins élevés que ceux captés
+par la filière éolienne. Pour l’appel d’offres Autoconsommation, le surcoût de production unitaire est
+présenté pour la production autoconsommée uniquement et ne dépend donc pas des prix de marché.
+
+
+
+
+                                                                                                                                        19/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 9 : Surcoût de production unitaire (montant total des aides accordées / énergie totale
+soutenue, sur toute la durée des contrats) des appels d'offres PPE2 en €2025/MWh (en millions
+d'euros constants 2025) (gauche, clair : scénario de prix bas ; centre : scénario de prix médian ;
+droite, foncé ; scénario de prix haut)
+                                                                                                        CSPE par AO (M€2025)
+                                                                  60
+
+                                                                                                                          54
+
+
+                                                                  50
+                                                                                         46
+                  Surcoût de production unitaire (en €2025/MWh)
+
+
+
+
+                                                                  40
+
+                                                                                              34                                                            35
+
+
+                                                                  30                                        28
+                                                                                                                               27
+
+                                                                        24                                                                                       24
+
+                                                                                                   20
+                                                                  20
+                                                                                                                 17
+
+
+                                                                                                                                                                      11
+                                                                  10           8                                                                9
+
+
+                                                                                                                      2
+                                                                   0
+                                                                             Eolien      PV Bâtiment         PV Sol        Neutre        Autoconsommation    Innovant
+
+
+                                                                                                                                    -6
+                                                                  -10
+
+                                                                                   -12
+
+
+                                                                  -20
+
+
+
+
+Le soutien versé dans le cadre des appels d’offres PPE2 est imputé au budget de l’Etat 33 et constitue
+des charges de services public de l’énergie (CSPE) calculées et contrôlées annuellement par la CRE.
+Une estimation de la quantité d’énergie soutenue chaque année est présentée en Figure 10.
+
+
+
+
+33
+     Programme P345 de la maquette budgétaire.
+
+
+                                                                                                                                                                           20/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 10 : Estimation de la quantité d'énergie soutenue (TWh) par les appels d'offres PPE2 avec
+prise en compte d’un taux de chute de 20 %
+
+                          25
+                                                                                                                                                   Innovant
+                                                     22   22   22   22   22   22   22   22                                                         Autoconsommation
+                                                                                             22   22   22   22   22   21   21   21
+                                                                                                                                                   Neutre
+                                                20                                                                                   20
+                          20                                                                                                                       PV Sol
+                                                                                                                                                   PV Bâtiment
+ Energie soutenue (TWh)
+
+
+
+
+                                                                                                                                                   Eolien
+                                                                                                                                          15
+                          15
+                                           14
+
+
+
+
+                          10
+                                                                                                                                               8
+
+                                       6
+
+                           5
+
+                                                                                                                                                    2
+                                   2
+                               0
+                           0
+
+
+
+
+La Figure 11 ci-dessous présente l’estimation de la chronique des montants annuels (en euros
+constants) du soutien au cours de la durée des contrats des installations lauréates de périodes instruites
+jusqu’au 30 juin 2025, toujours dans le scénario médian de prix de marché et en considérant un taux
+de chute de 20 %.
+Ces montants augmentent fortement jusqu’en 2027 du fait des mises en service successives des
+installations lauréates, visibles sur la figure ci-dessus (les délais de mises en service sont en moyenne
+de plus de 2 ans) et donc de l’augmentation de la production soutenue. Ils diminuent ensuite fortement
+entre 2028 et 2030, car l’hypothèse de prix en 2030 (70 €2024/MWh) est plus élevée que les prix à terme
+observés pour le calcul des montants versés sur les années 2026 à 2028 (moins de 60 €/MWh en 2028)
+qui sont utilisés pour le calcul des montants versés sur ces années.
+Par la suite, les montants annuels (en €) diminuent régulièrement entre 2030 et 2044 pour deux raisons
+principales :
+                           •   l’indexation annuelle des tarifs d’achat via le coefficient L (0,6 % par an pour l’éolien et 0,4 %
+                               par an pour le photovoltaïque) étant inférieure à l’inflation (hypothèse normative de 2 % dans le
+                               modèle), les prix de marché captés ont tendance à rattraper les tarifs de référence au cours de
+                               la période du contrat. La détérioration des prix captés, modélisée dans les hypothèses retenues,
+                               a quant à elle tendance à faire augmenter les montants d’aide avec le temps, mais son effet est
+                               d’une ampleur moins importante.
+                           •   les panneaux photovoltaïques subissent une perte de rendement de 0,5 % par an, du fait de
+                               leur détérioration qui accompagne leur vieillissement, donc la production photovoltaïque
+                               soutenue diminue avec le temps.
+Enfin, les montants annuels présentés ci-dessous sont convertis en euros constants 2025 afin de
+pouvoir les comparer d’une année sur l’autre.
+
+
+
+
+                                                                                                                                                                      21/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 11 : Montants théoriques versés par année aux installations en fonction de l'appel d'offres
+(M€2025) dans le scénario médian de prix, avec prise en compte d’un taux de chute de 20 %
+                                       700
+                                                                      659
+                                                                631
+
+                                       600
+
+
+
+
+                                       500                                  488
+                                                                                                                                                                  Eolien
+                                                          441
+                                                                                                                                                                  PV Bâtiment
+
+                                       400                                                                                                                        PV Sol
+          Montant des aides (M€2025)
+
+
+
+
+                                                                                                                                                                  Neutre
+                                                                                  326
+                                                                                        308                                                                       Autoconsommation
+                                       300                                                    290
+                                                                                                    272                                                           Innovant
+                                                                                                          255
+                                                                                                                238
+                                                                                                                      221
+                                                                                                                            203
+                                       200                                                                                        188
+                                                                                                                                        172
+                                                                                                                                              157
+                                                                                                                                                    143
+                                                    127                                                                                                   129   114
+                                                                                                                                                                      101
+                                                                                                                                                                             97
+                                       100
+                                                                                                                                                                                  63
+                                               43
+                                                                                                                                                                                       20
+
+                                         0
+                                              2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046 2047
+
+
+
+
+                                       -100
+
+
+
+
+Les montants présentés ci-dessus pour l’année 2024 sont basés sur des hypothèses de mises en
+service cohérentes avec les déclarations des candidats. Dans les faits, un montant de 3,0 M€
+uniquement a été versé au titre de 2024 aux producteurs bénéficiant de contrats de complément de
+rémunération issus d’un appel d’offres PPE2 34. Cela est dû au retard important constaté de mise en
+service des parcs lauréats.
+Plus précisément, au 30 juin 2025, 216 installations avaient activé leur contrat de soutien (détaillées par
+appel d'offres dans le Tableau 2 ci-dessous). D’autre part, la CRE recense 312 installations lauréates
+des appels d’offres PPE2 mises en service au 30 juin 2025 35
+
+
+
+
+34
+  3 M€ pour des lauréats de l’appel d’offres PPE2 Eolien, 1,2 M€ pour des lauréats de l’appel d’offres PPE2 Neutre, 0,3 M€ pour
+des lauréats de l’appel d’offres PPE2 PV Sol et 0,2 M€ pour des lauréats de l’appel d’offres PPE2 PV Bâtiment.
+35
+ D’après les données de Potentiel, service numérique de suivi des projets mis en place par le ministère chargé de l’énergie. La
+mise en service et l’activation du contrat de soutien ne sont pas nécessairement concomitantes, la première dépendant (en
+général, la définition pouvant avoir évolué au cours des périodes) de la mise à disposition du raccordement, tandis que l’activation
+du contrat de soutien est conditionnée à l’envoi de l’attestation de conformité. Cela explique que certaines installations mises en
+service n’ont pas encore activé leur contrat de soutien.
+
+
+                                                                                                                                                                                            22/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Tableau 2 : Nombre d'installations retenues ayant activé leur contrat de soutien au 30 juin 2025,
+par appel d'offres
+
+                                                PV                            Eolien                        Autoconsom
+            Appel d'offres                                    PV Sol                          Neutre
+                                             Bâtiment                        terrestre                        mation
+
+     Nombre d’installations ayant
+                                                 74              78              32              18                14
+     activé leur contrat de soutien
+
+
+Dans leur dossier de candidature, 710 lauréats prévoyaient une mise en service avant le 30 juin 2025.
+Ces données sont déclaratives et ne tiennent pas compte des éventuels retards qui peuvent advenir,
+s’agissant par exemple du raccordement. Par ailleurs, il s’agissait principalement des projets retenus
+dans le cadre des premières périodes des appels d’offres, qui ont pu bénéficier d’un report de leur date
+butoir de prise d’effet du contrat, dans un contexte de crise, ou qui ont pu recandidater de manière
+facilitée à des périodes ultérieures.
+
+
+                                                             ****
+Conclusion n°3 : L’ensemble des projets retenus au 30 juin 2025 36 devrait engendrer un montant
+total d’aides octroyées estimé à 5,7 Mds€2025 étalé entre 2024 et 2047 dans un scénario de prix
+de marché médian et en tenant compte d’un taux de chute de 20 %. Cette estimation est très
+dépendante des hypothèses de prix de marché futurs.
+A date, les installations lauréates des appels d’offres PPE2 n’engendrent cependant qu’un faible
+niveau de soutien effectif par l’Etat, du fait d’un nombre très limité de contrats de soutien ayant
+déjà pris effet.
+
+
+4. Caractéristiques techniques et compétitivité
+Les écarts de puissance installée moyenne entre les projets retenus et les projets déposés sont
+très limités, alors que la taille des installations est un facteur de compétitivité des appels
+d’offres. L’appel d’offres Neutre, pour lequel le niveau de concurrence est bien plus important,
+fait figure d’exception.
+Les installations éoliennes sont en moyenne de plus grande dimension que les installations
+photovoltaïques. Les installations retenues dans le cadre de l’appel d’offres Eolien présentent ainsi une
+puissance installée moyenne de 17 MW. Les projets postulant aux appels d’offres Autoconsommation
+et PV Innovant présentent pour leur part les puissances installées les plus faibles.
+
+
+
+
+36
+  L’ensemble des dossiers retenus n’a pas été retraité pour prendre en compte les 128 projets dont les demandes d’abandons
+ont été accordées, et dont certains ont ensuite recandidaté à des périodes ultérieures. Il peut donc contenir certains doublons.
+
+
+                                                                                                                         23/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Tableau 3 : Puissance installée moyenne des projets déposés et retenus (MW ou MWc)
+
+         Appel d’offres             Puissance moyenne des projets                    Puissance moyenne des projets
+                                        déposés (MW ou MWc)                               retenus (MW ou MWc)
+          PV Bâtiment                                   3,6                                              3,6
+              PV Sol                                    9,1                                              8,8
+              Eolien                                   16,8                                              17,0
+              Neutre                                   12,4                                              14,3
+     Autoconsommation                                   1,4                                              1,3
+          PV Innovant                                   2,5                                              2,7
+
+
+S’agissant des projets éoliens à terre, les dimensions des turbines des projets n’ont que très
+faiblement augmenté depuis 2021, ce qui peut s’expliquer par les contraintes réglementaires
+existantes. Par ailleurs, à partir de fin 2023, les projets éoliens en repowering sont davantage
+représentés aux appels d’offres d’une part et plus souvent retenus que les autres projets d’autre
+part.
+Depuis 2023, la puissance unitaire moyenne des aérogénérateurs déclarée par les projets déposés a
+légèrement augmenté, passant de 3,4 MW à 3,8 MW. Elle reste cependant bien inférieure à la puissance
+unitaire moyenne des projets éoliens en Europe (4,6 MW)37.
+
+
+Figure 12 : Evolution de la puissance unitaire moyenne prévisionnelle des aérogénérateurs, telle
+que déclarée pour les projets déposés (en pointillés) et retenus (trait plein) (MW)
+
+
+
+
+Par ailleurs, le pourcentage de projets déposés correspondant à un repowering est resté stable de début
+2021 à fin 2023, puis a augmenté pour la 7e et la 9e période de l’appel d’offres Eolien terrestre (périodes
+de candidature respectivement en mai 2024 et en février 2025, cf. Figure 13 ci-dessous). Cette tendance
+reste donc à confirmer, sachant que la filière éolienne en France prévoit pour sa part une accélération
+du nombre de repowering dans les prochaines années38.
+Par ailleurs, depuis fin 2023, les projets en repowering sont en moyenne plus souvent retenus en tant
+que lauréats, comme le montre la Figure 13 (à l’exception de la 8e période de l’appel d’offres Eolien
+terrestre)39.
+
+
+
+37
+     Rapport Wind energy in Europe - 2024 Statistics and the outlook for 2025-2030, WindEurope.
+38
+     Capgemini Invent & France Renouvelables, Observatoire de l’éolien 2024.
+39
+  Seuls trois projets éoliens ont été retenus au cours de la 3e période de l’appel d’offres Neutre. Cette période est donc faiblement
+représentative.
+
+
+                                                                                                                             24/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+
+Figure 13 : Part des projets déposés renouvelant leur installation (repowering) parmi les projets
+retenus (trait plein) et déposés (en pointillés), par période
+
+
+
+
+S’agissant des projets photovoltaïques au sol, les projets sur terrains dégradés, qui bénéficient
+d’un bonus de notation, proposent des prix plus élevés. Ils constituent, sur l’ensemble des
+périodes, plus de la moitié des dossiers retenus, mais leur représentation tend à se réduire au
+profit des installations sur terrains agricoles. Les projets sur terrains agricoles présentent une
+puissance installée moyenne supérieure à celles des autres cas, ce qui contribue probablement
+à leur compétitivité actuelle par rapport aux autres types de terrains d’implantation40.
+Les cahiers des charges des appels d’offres PV Sol et Neutre prévoient une liste de quatre « cas » de
+terrains d’implantation éligibles 41 :
+     •    le cas 1 : zones urbanisées/à urbaniser ;
+     •    le cas 2 : zones naturelles ;
+     •    le cas 2 bis : zones agricoles ;
+     •    le cas 3 : terrains dits « dégradés ».
+Les projets inclus dans le cas 3, en ce qu’ils se situent sur des zones à moindre enjeu foncier, perçoivent
+un bonus de 9 points (sur 100) dans la notation, au titre du critère de performance environnementale.
+Les projets sur terrains dégradés sont, sur l’ensemble des périodes PPE2, majoritaires à la fois
+s’agissant des dossiers déposés (50 %) et retenus (52 %). Cependant, si les projets relevant du cas 3
+étaient largement majoritaires lors des premières périodes des appels d’offres, ils ont peu à peu été
+dépassés par les projets relevant du cas 2 bis, introduit en décembre 2022, qui devient majoritaire en
+matière de dossiers déposés à partir de 2024, comme présenté dans la Figure. Le volume d’installations
+sur terrains agricoles pouvant être retenu à chaque période d’appel d’offres PV Sol ou Neutre est
+toutefois limité à 250 MWc, ce qui limite la proportion de projets sur terrains agricoles au sein des
+dossiers retenus.
+
+
+
+
+40
+  Il convient de noter que la quasi-totalité des projets sur terrains agricoles sont des projets dont l’autorisation ne relève pas
+encore des dispositions de la loi relative à l'accélération de la production d'énergies renouvelables (dite « loi APER ») du 10 mars
+2023.
+
+
+
+
+                                                                                                                            25/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 14 : Evolution de la proportion de chaque cas d'implantation 42 s’agissant des projets
+photovoltaïques au sol déposés (%)
+
+
+
+
+Les prix moyens pondérés indexés par le coefficient K (au 1 er octobre 2025) des projets déposés
+relevant du cas 3 est d’environ 85 €2025/MWh sur l’ensemble des périodes des appels d’offres PPE2,
+contre des prix moyens pondérés entre 76 et 80 €2025/MWh pour les autres cas. Cet écart se restreint
+pour les prix moyens pondérés des projets retenus.
+Il convient enfin de noter que les projets relevant des cas 1, 2 et 3 présentent une puissance installée
+moyenne près de deux fois plus faible par rapport aux projets sur terrains agricoles relevant du cas 2
+bis, qui présentent une puissance installée moyenne plus élevée (8 MW vs. 15 MW pour les projets
+déposés). Cela devrait a priori contribuer à la compétitivité au global des projets relavant du cas 2bis.
+
+
+S’agissant des projets photovoltaïques « sur bâtiments », la typologie « Bâtiment » est la plus
+courante. La catégorie « Ombrière agrivoltaïque » présente une puissance installée moyenne
+plus élevée que celles des autres typologies. Par ailleurs, la typologie « Ombrière de parking »
+présente des prix plus élevés que les autres typologies.
+Comme présenté dans la Figure 15, la typologie la plus courante dans l’appel d’offres PV Bâtiment est
+la typologie Bâtiment, suivie de la typologie Ombrière de parking, puis des typologies Ombrière
+agrivoltaïque et Serre agrivoltaïque.
+
+
+
+
+42
+  Un faible nombre de projets sont classés comme « mixtes », c’est-à-dire relevant de plusieurs cas d’implantation différents. Ils
+ne sont pas comptabilisés, ce pourquoi la somme des proportions n’atteint pas 100 %.
+
+
+                                                                                                                          26/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 15 : Puissance cumulée déposée/retenue pour chaque typologie de « bâtiment » des
+projets de l’appel d’offres PV Bâtiment
+
+
+
+
+Les ombrière agrivoltaïques, éligibles à l’appel d’offres depuis fin 2022, présentent en moyenne une
+puissance installée plus élevée que les autres typologies (4,9 MWc contre une moyenne de 3,5 MWc
+pour les autres typologies de projets déposés).
+Les prix moyens pondérés indexés par le coefficient K (au 1 er octobre 2025) des projets déposés de la
+typologie « Ombrière de parking » sont d’environ 108 €2025/MWh, contre des prix moyens pondérés
+entre 100 et 103 €2025/MWh pour les autres typologies de projets. Cet écart se restreint s’agissant des
+projets retenus.
+
+
+                                                 ****
+Conclusion n°4 : Bien que la taille des installations soit un facteur de compétitivité des offres, la
+puissance installée moyenne des projets retenus est très similaire à celle des projets déposés,
+à l’exception de l’appel d’offres Neutre, plus concurrentiel.
+S’agissant des projets éoliens à terre, la taille des turbines n’a que très faiblement augmenté
+depuis 2021 et demeure bien inférieure à la moyenne européenne, ce qui limite le potentiel de
+baisse des coûts de la filière. Depuis fin 2023, les projets en repowering sont davantage
+représentés et globalement plus souvent retenus.
+S’agissant des projets photovoltaïques au sol, les projets sur terrains dégradés, qui bénéficient
+d’un bonus de notation, proposent des prix plus élevés. Ils constituent, sur l’ensemble des
+périodes, plus de la moitié des dossiers retenus, mais leur représentation tend à se réduire
+depuis 2024 au profit des installations sur terrains agricoles. S’agissant des projets
+photovoltaïques « sur bâtiments », la typologie « Bâtiment » est majoritaire parmi les projets
+retenus. Par ailleurs, la typologie « Ombrière de parking » présente des prix plus élevés que les
+autres typologies.
+
+
+
+
+                                                                                                 27/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+5. Sociétés lauréates
+263 sociétés mères différentes (190 dans le cadre du précédent rapport) ont été identifiées parmi les
+projets retenus aux appels d’offres PPE2 43. De plus, 10 partenariats44, majoritairement entre des
+sociétés ayant également proposé des projets seules, ont été créés pour proposer des projets.
+     •    72 sociétés mères (61 dans le cadre du précédent rapport) ont été identifiées parmi les 397
+          projets retenus de la filière éolienne, auxquelles s’ajoutent 3 partenariats (les trois premières
+          sociétés lauréates représentent un cinquième du volume des projets retenus) ;
+     •    130 sociétés mères (69 dans le cadre du précédent rapport) ont été identifiées parmi les 828
+          projets retenus utilisant des panneaux photovoltaïques au sol, auxquelles s’ajoutent 8
+          partenariats (les trois premières sociétés lauréates représentent un peu moins d’un tiers du
+          volume des projets retenus) ;
+     •    149 sociétés mères (79 dans le cadre du précédent rapport) ont été identifiées parmi les 642
+          projets utilisant des panneaux photovoltaïques sur bâtiment, auxquelles s’ajoutent 2
+          partenariats (les trois premières sociétés lauréates représentent un peu moins d’un tiers du
+          volume des projets retenus).
+
+
+
+
+43
+  Les porteurs de projets n’indiquent pas systématiquement la société mère ultime dans leur formulaire de candidature ; ainsi, la
+répartition par société mère présentée, issue d’un retraitement par la CRE, peut être partiellement inexacte.
+44
+  Certains projets sont financés par un groupement composé de plusieurs entreprises, appartenant elles-mêmes à des sociétés
+mères différentes. Dans ces cas, la puissance cumulée du projet est attribuée à chaque société mère à parts égales (il s’agit
+d’une approximation, car la répartition au sein du groupement n’est pas connue).
+
+
+                                                                                                                         28/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 16 : Répartition des projets retenus par sociétés mères (en étiquette de donnée : acteur,
+puissance cumulée retenue toutes filières confondues (MW), part de la puissance totale cumulée
+retenue [16,4 GW])45
+
+
+
+
+La répartition ci-dessus est très similaire à celle produite dans le cadre du précédent rapport ; en
+particulier, les trois maisons mères avec la plus grande part de la puissance totale demeurent
+identiques.
+
+
+                                                                 ****
+Conclusion n°5 : Les résultats des différentes périodes d’appels d’offres PPE2 montrent
+toujours un paysage concurrentiel diversifié, sans position dominante, à la fois pour la filière de
+l’éolien terrestre et celle du photovoltaïque. De nombreux nouveaux acteurs apparaissent
+cependant parmi les lauréats par rapport au précédent rapport, principalement s’agissant de la
+filière photovoltaïque.
+
+
+
+
+45
+     Périodes d’appels d’offres s’étant tenues jusqu’au 30 juin 2025.
+
+
+                                                                                              29/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+6. Répartition géographique des projets
+S’agissant des installations éoliennes à terre, la région Hauts-de-France est toujours largement
+dominante s’agissant de la puissance des projets retenus, alors qu’elle est déjà la région la plus
+dense en énergie éolienne sur le territoire.
+Les Hauts-de-France accueillent toujours la plus grande puissance cumulée de projets retenus avec
+1,6 GW de puissance retenue à mi-2025 (1,0 GW à fin 2023), tandis que les deux régions suivantes, la
+Nouvelle-Aquitaine et le Grand-Est, rassemblent respectivement 1,2 GW et 1,1 GW de projets éoliens
+à terre retenus à mi-2025 (respectivement 0,8 et 0,5 GW à fin 2023). Les projets retenus se concentrent
+notamment dans les régions présentant les plus hauts productibles observés du territoire métropolitain
+(2 48346 heures équivalent pleine puissance (hepp)47 pour les Hauts-de-France et 2 355 hepp pour la
+Nouvelle-Aquitaine). Cependant, certaines régions à très fort potentiel (2 630 hepp pour l’Occitanie)
+accueillent relativement peu de projets. D’autres facteurs peuvent jouer un rôle dans l’attractivité des
+régions comme la disponibilité du foncier ou la capacité de raccordement disponible.
+La région Hauts de France a connu la plus forte augmentation de puissance cumulée retenue en
+absolu depuis le précédent rapport (+ 0,6 GW de puissance additionnelle retenue entre fin 2023 et mi-
+2025). Les régions Grand Est et Occitanie ont, elles, connu les plus fortes progressions relatives en
+matière de puissance retenue (respectivement + 97 % et + 88 %, par rapport à une augmentation de
++ 65 % à l’échelle nationale) à mi-2025 par rapport à la situation observée à fin 2023. Le Grand-Est
+reste donc une région dynamique pour la filière éolienne malgré un productible plus limité (2 218 hepp).
+A l’inverse, les régions Bourgogne-Franche-Comté et Auvergne-Rhône-Alpes ont connu les
+augmentations de puissance retenue les moins fortes depuis fin 2023 (respectivement + 37 % et
++ 30 %).
+Enfin, des projets éoliens ont été sélectionnés en Île de France pour la première fois (la puissance
+retenue de cette région était nulle à fin 2023), mais toujours aucune installation éolienne n’a été retenue
+en région PACA dans le cadre des appels d’offres PPE2.
+S’agissant de la densité régionale de puissance éolienne, les Hauts-de-France présentent toujours une
+densité élevée (199 kW/km²), soit plus de deux fois supérieure à la seconde région la plus dense (le
+Grand-Est). Si cette densité est un cas particulier en France, elle se situe juste au-dessus de la moyenne
+en Allemagne, dont la moitié des Länder ont une densité supérieure à 200 kW/km² 48. Les densités des
+autres régions françaises sont de l’ordre de grandeur de celles observées en Espagne 49.
+
+
+
+
+46
+     D’après les données déclaratives des dossiers déposés.
+47
+  Les heures équivalent pleine puissance permettent d’estimer l’efficacité de l’installation, c’est-à-dire la proportion du temps
+pendant laquelle l’installation produira au maximum de sa capacité. Cette mesure est obtenue en multipliant le facteur de charge
+de l’installation par le nombre d’heure dans une année.
+48
+     Deutsche Windguard, Status des Windenergieausbaus an Land in Deutschland Erstes, Erstes Halbjahr 2025.
+49
+     https://www.statista.com/statistics/1032261/installed-wind-power-capacity-in-spain-by-autonomous-community/
+
+
+                                                                                                                         30/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 17 : Répartition régionale de la puissance éolienne terrestre cumulée (en MW) retenue
+(gauche) 50 et densité régionale de puissance éolienne terrestre déjà raccordée par km² en France
+métropole continentale à fin 2024 (droite) 51
+
+
+
+
+S’agissant des installations photovoltaïques, les puissances retenues demeurent inégalement
+réparties, sans vraie position dominante d’une région particulière observée, et sont moins
+corrélées au productible disponible.
+Il existe de larges disparités dans les volumes de puissances retenues aux appels d’offres PPE2 entre
+les régions, la Bretagne ou la Normandie accueillant de l’ordre de 100 MWc de puissance retenue,
+tandis que la Nouvelle-Aquitaine ou le Centre-Val de Loire accueillent respectivement 1,8 GWc et
+1,6 GWc. Cette répartition ne correspond pas toujours à la localisation des meilleurs productibles
+disponibles, situés dans les régions du sud : si c’est bien le cas de la Nouvelle-Aquitaine et de l’Occitanie
+(pour lesquelles respectivement 1,8 et 1,2 GWc de puissance ont été attribués, pour des productibles
+moyens observés dans les dossiers déposés de 1 236 et 1 339 hepp), la région Provence-Alpes-Côte
+d’Azur (PACA) ne capte que 350 MWc pour un productible moyen des dossiers déposés de 1 421 hepp.
+Les régions Nouvelle-Aquitaine et Centre–Val de Loire ont connu les plus fortes augmentations en
+matière de puissance cumulée retenue en absolu depuis le précédent rapport (respectivement + 1 GWc
+et + 0,7 GWc entre fin 2023 et mi-2025). La région PACA a pour sa part connu la plus forte augmentation
+relative de puissance photovoltaïque retenue (+ 104 % par rapport à une progression de + 81 % à
+l’échelle nationale) entre mi-2025 et la situation à fin 2023. La Région PACA dispose déjà de la première
+densité de projets photovoltaïques raccordés en matière de puissance, mais celle-ci n’a progressé que
+de + 11 % entre fin 2024 et fin 2023, contre + 27 % à l’échelle nationale 52. A l’inverse, le Grand-Est et
+les Hauts-de-France ont connu les augmentations de puissance retenue les moins dynamiques
+(respectivement + 46 % et + 54 % par rapport à fin 2023).
+
+
+
+
+50
+     Périodes d’appels d’offres s’étant tenue jusqu’au 30 juin 2025.
+51
+     Données issues du Panorama de l’électricité renouvelable (Agence ORE, RTE, Enedis, SER, 31 décembre 2024).
+52
+     Panorama de l’électricité renouvelable (Agence ORE, RTE, Enedis, SER, 31 décembre 2024).
+
+
+                                                                                                                  31/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 18 : Répartition régionale de la puissance photovoltaïque au sol et sur bâtiment cumulée
+(en MWc) retenue (gauche) 53 et densité régionale de puissance photovoltaïque déjà raccordée
+par km² en France métropole continentale à fin 2024 (droite) 54
+
+
+
+
+La disponibilité foncière et la densité des installations existantes permettent d’expliquer en partie la
+répartition de la puissance retenue aux appels d’offres PPE2. Ainsi, la région PACA possède une densité
+régionale de puissance raccordée déjà relativement élevée.
+D’autre part, des bonus de points sont accordés aux projets s’installant sur des terrains dégradés dont
+des gisements importants se situent dans des régions relativement au nord (notamment les régions
+Centre-Val de Loire et Grand-Est, comme présenté dans la Figure 19 ci-dessous, selon les données
+déclaratives des candidats).
+Enfin, l’augmentation du nombre de projets « agricoles » (i.e. relevant du « cas 2 bis » dans le cadre
+des AO PPE2 PV Sol ou Neutre ou de type serre/ombrière agrivoltaïque dans le cadre des AO PPE2
+PV Bâtiment ou Neutre), identifiés depuis mi-2023 dans les données de la CRE, peuvent expliquer une
+partie de la forte augmentation de puissance retenue observée en Nouvelle-Aquitaine.
+
+
+
+
+53
+     Périodes d’appels d’offres s’étant tenue jusqu’au 30 juin 2025.
+54
+     Données issues du Panorama de l’électricité renouvelable (Agence ORE, RTE, Enedis, SER, 31 décembre 2024).
+
+
+                                                                                                                  32/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 19 : Répartition géographique des projets photovoltaïques au sol retenus répondant au
+cas 3 des terrains d'implantation, c'est-à-dire des terrains dégradés (anciennes carrières, friches
+industrielles, etc., à gauche) et des projets agricoles retenus 55 (à droite) 56
+
+                                                                              Puissance cumulée
+                                                                            retenue en cas 3 (MWc)                                                                      Puissance cumulée
+                                                                                                                                                                        retenue des projets
+                                                                              696                                                                                         agricoles (MWc)
+                                                                                                                                                                           616
+                                 374                                                                                       4
+
+                     146                                                                                       7
+                             103         696                                                                              0         87
+         69                                                                   0                      5
+                                                                                                                                                                           0
+               253         572                                                                           66         382
+                                       419                                                                                     278
+
+
+
+                                       362                                                                                     56
+                 392                                                                                          616
+
+
+                                               132                                                                                        65
+                            354                                                                                      338
+
+
+                                                                     0                                                                                          0
+
+
+                                                                                                                                                            Avec Bing
+                                                                Avec Bing                                                                GeoNames, Microsoft, TomTom
+
+
+                                                                                              ****
+                                             GeoNames, Microsoft, TomTom
+
+
+
+
+Conclusion n°6 : Pour les installations éoliennes comme photovoltaïques, les projets retenus
+demeurent inégalement répartis entre les régions. Ces répartitions sont très similaires à celles
+observées à fin 2023 dans le précédent rapport de la CRE. S’agissant de la filière photovoltaïque,
+la région Nouvelle-Aquitaine est toutefois devenue la première région en matière de puissance
+retenue, surpassant la région Centre-Val-de-Loire, qui présentait la plus grande puissance
+photovoltaïque retenue à fin 2023.
+Plusieurs facteurs entrent en jeu dans l’attractivité des différentes régions : le productible, en
+premier lieu, mais aussi la disponibilité foncière et la capacité de raccordement disponible.
+
+
+7. Provenance des composants des installations
+La filière de l’éolien à terre prévoit toujours de recourir massivement à des constructeurs
+européens.
+Les projets lauréats ont sélectionné des turbines auprès de 8 constructeurs, dont 5 sont européens
+(plus de 96 % de la puissance cumulée retenue totale). Les turbines construites par Vestas et Nordex,
+constructeurs respectivement danois et allemand, rassemblent plus de 85 % de la puissance cumulée
+des projets retenus, ce qui était déjà le cas à fin 2023.
+
+
+
+
+55
+  Cumul des projets photovoltaïques au sol en cas 2 bis et des projets photovoltaïques sur bâtiment de catégorie « ombrière
+agrivoltaïque » ou « serre agrivoltaïque ».
+56
+     Périodes d’appels d’offres s’étant tenue jusqu’au 30 juin 2025.
+
+
+                                                                                                                                                                                    33/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+
+Figure 20 : Répartition de la puissance installée cumulée retenue par fabricant d'éoliennes -
+Eolien terrestre57
+
+
+
+
+La filière photovoltaïque se fournit majoritairement auprès de fabricants asiatiques, et en
+particulier chinois, sans évolution notable par rapport à la situation à fin 2023.
+Les projets lauréats utilisant des panneaux photovoltaïques prévoient de se fournir auprès de 27
+fabricants, dont 15 sont asiatiques et 6 sont français. Cependant :
+       •    pour les projets photovoltaïques sur bâtiments, les fabricants asiatiques représentent 89 % de
+            la puissance installée retenue, contre 10 % de la puissance installée retenue pour les fabricants
+            français. Cet équilibre est identique à celui observé à fin 2023 ;
+       •    pour les projets photovoltaïques au sol, les fabricants asiatiques représentent 88 % de la
+            puissance installée retenue, contre 2 % de la puissance installée retenue pour les fabricants
+            français. Les parts de marché des fabricants français se sont a priori réduites ; à fin 2023, ils
+            représentaient 5 % de la puissance installée retenue.
+
+
+
+
+57
+     Périodes d’appels d’offres s’étant tenue jusqu’au 30 juin 2025.
+
+
+                                                                                                       34/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Figure 21 : Répartition de la puissance installée cumulée retenue par fabricant de panneaux
+photovoltaïques - PV Sol58
+
+
+
+
+Figure 22 : Répartition de la puissance installée cumulée retenue par fabricant de panneaux
+photovoltaïques- PV Bâtiment59
+
+
+
+
+58
+     Périodes d’appels d’offres s’étant tenue jusqu’au 30 juin 2025.
+59
+     Périodes d’appels d’offres s’étant tenue jusqu’au 30 juin 2025.
+
+
+                                                                                      35/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+
+                                                           ****
+Conclusion n°7 : La situation demeure inchangée par rapport au précédent rapport s’agissant
+de la provenance des composants principaux des installations. Tandis que la quasi-totalité des
+turbines des projets éoliens retenus sont construites par des fabricants européens, les
+panneaux photovoltaïques utilisés par les projets lauréats devraient massivement provenir de
+Chine.
+La répartition du marché reste similaire au paysage concurrentiel de fin 2023 (présenté dans le
+précédent rapport). En particulier, le changement de méthodologie de notation de l’évaluation
+carbone dans le cadre de l’appel d’offres PV Bâtiment à partir de la 8e période ne semble pas
+avoir eu d’effet majeur jusqu’à présent. S’agissant du solaire, les mesures issues du règlement
+européen pour une industrie « net-zéro » visant à accroitre la production de technologies
+propres dans l’Union européenne (NZIA) 60 pourraient faire évoluer les équilibres dans les
+prochaines années.
+
+
+
+
+60
+  Net-Zero Industry Act, règlement européen pour une industrie « net-zéro » visant à accroitre la production de technologies
+propres dans l’Union européenne du 16 mars 2023.
+
+
+                                                                                                                     36/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+
+Annexe 1 : Méthodologie de calcul des aides octroyées dans le cadre
+  des appels d’offres PPE2
+
+Afin d’estimer le montant des aides octroyées dans le cadre des appels d’offres PPE2, la CRE a
+considéré trois scénarios de prix captés par les filières de l’éolien terrestre et du solaire photovoltaïque
+sur la période entre 2023 (date moyenne de mise en service61 des projets retenus à la 1ère période de
+l’appel d’offres Autoconsommation, qui est la 1ère période des appels d’offres PPE2 faisant l’objet de
+mises en service) et 2047 (date moyenne de fin des contrats de soutien des projets retenus à la 9 e
+période de l’appel d’offres Eolien terrestre, qui devrait en théorie porter les dernières mises en service
+des appels d’offres menés jusqu’à mi-2025). Ces scénarios sont décrits en détail ci-dessous et
+représentés sur la Figure 23 ci-dessous.
+Figure 23 : Scénarios de prix utilisés pour estimer les montants des aides octroyées dans le
+cadre des appels d'offres PPE2. Scénarios bas (clair), médian (normal), et haut (foncé) pour les
+prix de marché (gris) et les prix captés Eolien terrestre (bleu) et PV (orange).
+
+
+       160
+
+
+
+       140                                                                                        Scénario bas - Prix de marché
+
+
+                                                                                                  Scénario bas - Prix capté Eolien
+       120
+                                                                                                  Scénario bas - Prix capté PV
+
+       100                                                                                        Scénario médian - Prix de marché
+
+
+                                                                                                  Scénario médian - Prix capté
+        80                                                                                        Eolien
+                                                                                                  Scénario médian - Prix capté PV
+
+        60                                                                                        Scénario haut - Prix de marché
+
+
+                                                                                                  Scénario haut - Prix capté Eolien
+        40
+                                                                                                  Scénario haut - Prix capté PV
+
+        20
+
+
+           0
+            2020       2025           2030          2035          2040          2045          2050
+
+
+
+
+Jusqu’en 2028, les trois scénarios sont identiques :
+       •      pour les années 2023 et 2024, les prix captés constatés pour chaque filière ont été utilisés (prix
+              de marché de référence « M0 » publiés mensuellement par la CRE) ;
+       •      pour l’année 2025, le prix de marché annuel a été calculé à partir des prix de marché mensuels
+              constatés jusqu’en octobre et des prix à terme des produits M11 2025 et M12 2025 62, puis des
+              décotes, présentées dans le Tableau 4, ont été appliquées afin de refléter le prix capté par
+              chaque filière63 ;
+       •      pour les années 2026, 2027 et 2028, les prix de marché annuels ont été calculés à partir des
+              prix à terme des produits Calendaire Base 2026, 2027 et 2028 64, puis les décotes
+              susmentionnées ont été appliquées afin de refléter le prix capté par chaque filière.
+
+
+
+61
+     Selon les données déclarées par les candidats dans leurs dossiers présentés aux appels d’offres.
+62
+     Sur le site d’EEX. Observés sur la période du 20 octobre 2025 au 31 octobre 2025.
+
+64
+     Sur le site d’EEX. Observés sur la période du 5 novembre 2025 au 18 novembre 2025
+
+
+                                                                                                                                   37/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Pour les années 2030 et suivantes, les prix de marchés captés annuels correspondent aux trois
+scénarios de prix (bas, médian et haut), en considérant que ces trajectoires de prix évoluent en fonction
+d’un niveau d’inflation normatif de 2 % par an (avec un prix de l’électricité respectivement de 50, 70 et
+95 €2024/MWh en 2030) et en prenant en compte un profilage lié à la filière. Pour l’année 2029, une
+extrapolation linéaire est effectuée entre les prix captés de 2028 et ceux de 2030.
+Tableau 4 : Décotes appliquées afin de simuler les prix captés par les filières solaire et éolienne
+à terre
+
+                                                Solaire         Eolien
+                                  2025           20,0%           5,0%
+                                  2026           20,8%           5,2%
+                                  2027           21,6%           5,4%
+                                  2028           22,4%           5,6%
+                                  2029           23,2%           5,8%
+                                  2030           24,0%           6,0%
+                                  2031           24,8%           6,2%
+                                  2032           25,6%           6,4%
+                                  2033           26,4%           6,6%
+                                  2034           27,2%           6,8%
+                                  2035           28,0%           7,0%
+                                  2036           28,8%           7,2%
+                                  2037           29,6%           7,4%
+                                  2038           30,4%           7,6%
+                                  2039           31,2%           7,8%
+                                  2040           32,0%           8,0%
+                                  2041           32,8%           8,2%
+                                  2042           33,6%           8,4%
+                                  2043           34,4%           8,6%
+                                  2044           35,2%           8,8%
+                                  2045           36,0%           9,0%
+                                  2046           36,8%           9,2%
+                                  2047           37,6%           9,4%
+                                  2048           38,4%           9,6%
+                                  2049           39,2%           9,8%
+                                  2050           40,0%          10,0%
+
+
+Les montants d’aides octroyées sont estimés par période, en considérant les variables ci-dessous :
+
+
+
+
+                                                                                                   38/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+Tableau 5 : Méthodes de calcul des variables nécessaires au calcul des montants d'aide par
+période d’appel d’offres
+
+       Variable pour la
+                                                                      Méthode retenue
+           période
+
+                                   Produit de la puissance totale retenue et du productible moyen déclaré à
+     Production annuelle
+                                                               chaque période65
+
+                                   Moyenne des prix proposés par les candidats pondérée par la puissance
+      Tarif de référence
+                                                             des installations
+
+      Date de mise en              Moyenne des dates de mise en service des installations pondérée par la
+          service                                      puissance des installations
+
+          Mois de fin
+                                        1er jour du mois, un an avant la date de mise en service moyenne
+       d’indexation au
+                                                 prévisionnelle des candidats retenus de la période
+       coefficient K66
+
+                                   Pour la plupart des périodes, l’indice K constaté est utilisé, car disponible
+                                   (la date de mise en service moyenne de la période était située moins d’un
+        Indexation K                              an après la publication du présent rapport).
+                                    Pour les périodes les plus récentes, une indexation K normative de 2 %
+                                            par an (égale à l’inflation prévisionnelle) est appliquée.
+
+
+Pour chaque variable listée dans le Tableau 5 ci-dessus, et pour chaque période d’appel d’offres, les
+valeurs ainsi obtenues sont présentées dans le Tableau 6 ci-dessous.
+
+
+
+
+65
+   Pour la première année post-mise en service, afin de refléter le fait que les installations de la période ne produisent pas sur
+l’année entière, un taux de disponibilité est appliqué, égal au pourcentage de l’année restant à la date de mise en service de la
+période. Pour la dernière année de production, l’inverse de ce taux est appliqué.
+66
+  Le coefficient d’indexation K est appliqué entre la date limite de dépôt des offres de la période concernée et un an avant la date
+de mise en service de l’installation.
+
+
+                                                                                                                            39/45
+Tableau 6 : Valeurs de la production annuelle, du tarif de référence moyen pondéré retenu et de la date moyenne de mise en service util isées pour
+chaque période des appels d'offres sans prise en compte d’un taux de chute
+
+   Appel d’offres   Période                     1          2            3            4            5            6            7            8            9           10
+
+                    Phase de candidature     oct.-21   févr.-22     juin-22      janv.-23     juin-23      nov.-23      avr.-24      août-24      nov.-24      mars-25
+                    Production    annuelle
+                                             188,47     144,62       105,47        72,71       417,42       434,94        220,8       307,42        258,7       225,89
+                    (GWh)
+                    Tarif moyen pondéré
+                                              83,12      85,27        90,91       104,79       101,24        102,1       100,74        99,95        98,2         97,53
+ PPE2 PV Bâtiment   retenu (€/MWh)
+                    Date moyenne de mise
+                                         05/10/2023    03/01/2024   09/07/2024   10/10/2024   20/05/2025   28/10/2025   27/12/2026   15/06/2026   17/12/2026   04/01/2027
+                    en service théorique
+
+                    Indice K appliqué à la
+                                             100,00%   100,00%      100,00%       99,40%       95,40%       97,90%      103,50%      101,10%      102,30%      101,70%
+                    mise en service
+
+                    Phase de candidature     déc.-21    mai-22      déc.-22       juil.-23    déc.-23      août-24      déc.-24      juin-25
+                    Production    annuelle
+                                             863,79     396,99       142,72      1 809,75     1 081,06     1 157,78     1 070,64     1 185,55
+                    (GWh)
+                    Tarif moyen pondéré
+                                              58,84      68,51        82,23        82,42        81,9         79,28        79,09        79,48
+    PPE2 PV Sol     retenu (€/MWh)
+                    Date moyenne de mise
+                                         23/03/2024    15/09/2024   03/05/2025   08/09/2025   14/12/2025   29/06/2027   20/02/2027   13/10/2027
+                    en service théorique
+                    Indice K appliqué à la
+                                             100,00%   100,00%      100,10%       94,70%       98,40%      103,90%      102,50%      102,70%
+                    mise en service
+                    Phase de candidature     nov.-21
+                    Production    annuelle
+                                             182,64
+ PPE2 PV Innovant   (GWh)
+                    Tarif moyen pondéré
+                                              83,05
+                    retenu (€/MWh)
+
+
+
+
+                                                                                                                                                                   40/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+                     Date moyenne de mise
+                                          28/02/2024
+                     en service théorique
+                     Indice K appliqué à la
+                                              100,00%
+                     mise en service
+                     Phase de candidature     juil.-22   oct.-23      oct.-24
+                     Production    annuelle
+                                              212,23      525,48       561,99
+                     (GWh)
+                     Tarif moyen pondéré
+                                               73,5        84,84        80,31
+  PPE2 Neutre - PV   retenu (€/MWh)
+                     Date moyenne de mise
+                                          22/04/2025     22/04/2026   26/09/2027
+                     en service théorique
+                     Indice K appliqué à la
+                                              100,00%     98,10%      104,00%
+                     mise en service
+
+
+                     Phase de candidature     juil.-22   oct.-23      oct.-24
+
+                     Production    annuelle
+                                              699,45      188,95        79,95
+                     (GWh)
+    PPE2 Neutre -
+                     Tarif moyen pondéré
+       Eolien                                  78,8        87,18        84,16
+                     retenu (€/MWh)
+                     Date moyenne de mise
+                                          22/06/2024     01/01/2026   31/12/2027
+                     en service théorique
+                     Indice K appliqué à la
+                                              100,00%     97,20%      104,60%
+                     mise en service
+                     Phase de candidature     nov.-21    févr.-22     sept.-22     oct.-23
+                  Production     annuelle
+                                               8,57        8,31         10,46       55,97
+                  (GWh)
+       PPE2
+ Autoconsommation Prime
+                  d’autoconsommation
+                                               12,85       10,8         10,7        8,31
+                  moyenne       pondérée
+                  retenu (€/MWh)
+
+
+
+
+                                                                                             41/45
+Rapport n°2026-01
+15 janvier 2026
+
+
+                   Date moyenne de mise
+                                        10/01/2023     22/03/2023   17/07/2023   02/11/2024
+                   en service théorique
+                   Indice K appliqué à la
+                                            100,00%    100,00%      100,00%      100,00%
+                   mise en service
+                   Phase de candidature     nov.-21    avr.-22      déc.-22       mai-23      août-23      déc.-23       mai-24      sept.-24     févr.-25
+                   Production    annuelle
+                                            1 253,05    689,69       131,65      2 258,07     2 187,47     2 365,72     2 366,64     1 739,32     2 174,96
+                   (GWh)
+                   Tarif moyen pondéré
+     PPE2 Eolien                             64,52       67,33        76,41        83,91        86,94        87,23        87,63        87,92        87,61
+                   retenu (€/MWh)
+      terrestre
+                   Date moyenne de mise
+                                        07/09/2024     31/05/2025   05/02/2025   24/04/2025   23/09/2025   06/02/2026   04/08/2026   25/01/2027   23/05/2027
+                   en service théorique
+                   Indice K appliqué à la
+                                            100,00%    100,00%      100,60%       95,70%       93,10%       98,30%      101,30%      102,80%      102,60%
+                   mise en service
+
+
+
+
+                                                                                                                                                               42/45
+Enfin, les hypothèses normatives suivantes sont considérées pour chaque filière (une inflation
+normative de 2 % par an est prise pour hypothèse dans l’ensemble du modèle) :
+Tableau 7 : Hypothèses normatives retenues par filière, pour la perte annuelle de rendement et
+le coefficient d'indexation L
+
+                    Perte annuelle de            Part fixe du coefficient               Coefficient d’indexation L
+      Filière
+                       rendement                    d’indexation L67                     appliqué chaque année
+        PV             - 0,5 % par an                          0,8                             + 0,4 % par an
+      Eolien
+                         0 % par an                            0,7                             + 0,6 % par an
+     terrestre
+
+
+
+
+67
+  Le coefficient d’indexation L est composé d’une part variable et d’une part fixe (dont la somme vaut 1). La part variable est
+ensuite indexée selon une inflation normative de 2 % par an.
+
+
+                                                                                                                        43/45
+Titre du rapport
+Date
+
+
+
+Table des illustrations
+
+Figure 1 : Répartition du nombre de lauréats ayant déposé une demande d’abandon, par appel
+    d’offres                                                                            10
+Figure 2 : Niveau de souscription des périodes d’appels d’offres PPE2, défini comme le ratio
+    entre la puissance cumulée des dossiers conformes par la puissance appelée            11
+Figure 3 : Répartition des puissances cumulées des dossiers déposés (gauche) et retenus
+    (droite) à fin 2025 par technologie (contient également les puissances retenues dans le cadre
+    des AO PV Innovant, Autoconsommation et Neutre, ventilées selon la technologie utilisée
+    par les projets)                                                                           12
+Figure 4 : Evolution de l’indice K (base 100 en janvier 2021)                                  13
+Figure 5 : Evolution des prix moyens proposés par les projets retenus pondérés par la puissance
+    des projets par typologie d’installations, en euros courants (€/MWh) (jusqu’à fin 2025)  14
+Figure 6 : Coûts d’investissements (CAPEX) totaux des projets retenus aux appels d’offres par
+    kW de puissance installée, par période et par typologie d’installations (périodes de
+    candidature jusqu’au 30 juin 2025)                                                     16
+Figure 7 : Part des CAPEX dans les coûts totaux des projets retenus par période et par typologie
+    d’installations (périodes de candidature jusqu’au 30 juin 2025)                           16
+Figure 8 : Montant prévisionnel des aides totales accordées sur toute la durée des contrats dans
+    le cadre des appels d'offres PPE2 (en millions d'euros constants 2025), par appels d'offres,
+    avec prise en compte d’un taux de chute de 20 % (gauche, clair : scénario de prix bas ;
+    centre : scénario de prix médian ; droite, foncé ; scénario de prix haut)                 19
+Figure 9 : Surcoût de production unitaire (montant total des aides accordées / énergie totale
+    soutenue, sur toute la durée des contrats) des appels d'offres PPE2 en €2025/MWh (en
+    millions d'euros constants 2025) (gauche, clair : scénario de prix bas ; centre : scénario de
+    prix médian ; droite, foncé ; scénario de prix haut)                                       20
+Figure 10 : Estimation de la quantité d'énergie soutenue (TWh) par les appels d'offres PPE2 avec
+    prise en compte d’un taux de chute de 20 %                                                21
+Figure 11 : Montants théoriques versés par année aux installations en fonction de l'appel d'offres
+    (M€2025) dans le scénario médian de prix, avec prise en compte d’un taux de chute de 20 %
+                                                                                                22
+Figure 12 : Evolution de la puissance unitaire moyenne prévisionnelle des aérogénérateurs, telle
+    que déclarée pour les projets déposés (en pointillés) et retenus (trait plein) (MW)      24
+Figure 13 : Part des projets déposés renouvelant leur installation (repowering) parmi les projets
+    retenus (trait plein) et déposés (en pointillés), par période                              25
+Figure 14 : Evolution de la proportion de chaque cas d'implantation s’agissant des projets
+    photovoltaïques au sol déposés (%)                                                  26
+Figure 15 : Puissance cumulée déposée/retenue pour chaque typologie de « bâtiment » des
+    projets de l’appel d’offres PV Bâtiment                                          27
+Figure 16 : Répartition des projets retenus par sociétés mères (en étiquette de donnée : acteur,
+    puissance cumulée retenue toutes filières confondues (MW), part de la puissance totale
+    cumulée retenue [16,4 GW])                                                               29
+Figure 17 : Répartition régionale de la puissance éolienne terrestre cumulée (en MW) retenue
+    (gauche) et densité régionale de puissance éolienne terrestre déjà raccordée par km² en
+    France métropole continentale à fin 2024 (droite)                                     31
+Figure 18 : Répartition régionale de la puissance photovoltaïque au sol et sur bâtiment cumulée
+    (en MWc) retenue (gauche) et densité régionale de puissance photovoltaïque déjà raccordée
+    par km² en France métropole continentale à fin 2024 (droite)                             32
+
+
+
+                                                                                            44/45
+Titre du rapport
+Date
+
+
+Figure 19 : Répartition géographique des projets photovoltaïques au sol retenus répondant au
+    cas 3 des terrains d'implantation, c'est-à-dire des terrains dégradés (anciennes carrières,
+    friches industrielles, etc., à gauche) et des projets agricoles retenus (à droite)      33
+Figure 20 : Répartition de la puissance installée cumulée retenue par fabricant d'éoliennes -
+    Eolien terrestre                                                                      34
+Figure 21 : Répartition de la puissance installée cumulée retenue par fabricant de panneaux
+    photovoltaïques - PV Sol                                                             35
+Figure 22 : Répartition de la puissance installée cumulée retenue par fabricant de panneaux
+    photovoltaïques- PV Bâtiment                                                         35
+Figure 23 : Scénarios de prix utilisés pour estimer les montants des aides octroyées dans le
+    cadre des appels d'offres PPE2. Scénarios bas (clair), médian (normal), et haut (foncé) pour
+    les prix de marché (gris) et les prix captés Eolien terrestre (bleu) et PV (orange).      37
+
+
+
+
+                                                                                          45/45
+
