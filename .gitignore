@@ -351,6 +351,9 @@ archive/projects/
 # Substack raw data (CSV exports)
 substack-online/posts/*.csv
 
+# Données brutes volumineuses téléchargées (dépassent la limite GitHub de 100 Mo/fichier)
+decp-*.json
+
 # opencode / kilo / specstory tooling
 .opencode/
 .kilo/
