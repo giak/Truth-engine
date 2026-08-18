@@ -54,29 +54,39 @@ def test_head_check_empty_and_no_hostname():
 
 def test_parse_line_ok():
     assert parse_line("FCT-001 | FACT | ✦ | https://x.fr/a | A,E | 2024-03-07") == \
-        ("FCT-001", "FACT", "✦", "https://x.fr/a", "A,E", "2024-03-07", "", "")
+        ("FCT-001", "FACT", "✦", "https://x.fr/a", "A,E", "2024-03-07", "", "", "")
 
 
 def test_parse_line_avec_sujet_valeur():
     rec = parse_line("FCT-004 | FACT | ✦ | https://x.fr/c | A,E | 2024-03-07 | dgsi-effectif | 5000")
     assert rec == ("FCT-004", "FACT", "✦", "https://x.fr/c", "A,E",
-                   "2024-03-07", "dgsi-effectif", "5000")
+                   "2024-03-07", "dgsi-effectif", "5000", "")
 
 
 def test_parse_line_sans_date():
     rec = parse_line("FCT-002 | FACT | ✧ | https://x.fr/b | D |")
     assert rec is not None and rec[0] == "FCT-002" and rec[5] == ""
-    assert rec[6] == "" and rec[7] == ""
+    assert rec[6] == "" and rec[7] == "" and rec[8] == ""
 
 
 def test_parse_line_courte_invalide():
     assert parse_line("FCT-001 | FACT") is None
 
 
+def test_parse_line_avec_mem():
+    rec = parse_line("FCT-001 | FACT | ✦ | https://x.fr/a | A,E | 2024-03-07 | dgsi | 5000 | babe834b-7ecc-4453-a4ad-5a755253b7d9")
+    assert rec[8] == "babe834b-7ecc-4453-a4ad-5a755253b7d9"
+
+
+def test_parse_line_mem_dash():
+    rec = parse_line("FCT-001 | FACT | ✧ | https://x.fr/a | D | | | | -")
+    assert rec[8] == "-"
+
+
 # --- verify_record : gates ✦ ---
 
 def _rec(tier, epi="FACT", url="https://x.fr/a", families="A,E"):
-    return ("FCT-001", epi, tier, url, families, "", "", "")
+    return ("FCT-001", epi, tier, url, families, "", "", "", "")
 
 
 def test_verify_bon_fait_ok(monkeypatch):
@@ -113,7 +123,7 @@ def test_verify_secondaire_ok():
 
 
 def test_verify_tier_aucune_url_constat():
-    assert verify_record(("FCT-003", "FACT", "❧", "-", "-", "", "", "")) == []
+    assert verify_record(("FCT-003", "FACT", "❧", "-", "-", "", "", "", "")) == []
 
 
 # --- verify_text : bout en bout ---

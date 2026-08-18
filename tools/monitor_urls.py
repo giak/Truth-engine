@@ -57,7 +57,7 @@ def scan_file(path, timeout, offline=False):
         rec = parse_line(ln)
         if rec is None:
             continue
-        fid, _epi, _tier, url, _families, _date, _sujet, _valeur = rec
+        fid, _epi, _tier, url, _families, _date, _sujet, _valeur, _mem = rec
         if not url or url == "-":
             continue  # ❧ : pas d'URL, rien à monitorer
         if offline:

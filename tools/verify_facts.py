@@ -170,9 +170,10 @@ def find_registry_files(paths):
 
 
 def parse_line(line):
-    """id, epi, tier, url, families, date, sujet, valeur — None si ligne mal formée.
+    """id, epi, tier, url, families, date, sujet, valeur, mem — None si ligne mal formée.
 
-    `sujet` et `valeur` (ajoutés P5) sont optionnels : chaînes vides si absents.
+    `sujet` et `valeur` (ajoutés P5) et `mem` (ajouté P6b : memory_id Mnemolite ou `-`)
+    sont optionnels : chaînes vides si absents.
     """
     parts = [p.strip() for p in line.split("|")]
     if len(parts) < 5:
@@ -181,7 +182,8 @@ def parse_line(line):
     date = parts[5] if len(parts) > 5 else ""
     sujet = parts[6] if len(parts) > 6 else ""
     valeur = parts[7] if len(parts) > 7 else ""
-    return fid, epi, tier, url, families, date, sujet, valeur
+    mem = parts[8] if len(parts) > 8 else ""
+    return fid, epi, tier, url, families, date, sujet, valeur, mem
 
 
 def _families(spec):
@@ -189,9 +191,13 @@ def _families(spec):
 
 
 def verify_record(rec, offline=False):
-    """Vérifie un enregistrement. Retourne une liste de violations (str)."""
+    """Vérifie un enregistrement. Retourne une liste de violations (str).
+
+    `mem` (9e champ, memory_id Mnemolite ou `-`) n'est pas validé : c'est un pointeur
+    de bouclage (P6b), pas un fait structurel. Le script ne juge pas la vérité (AGENTS.md §4).
+    """
     issues = []
-    fid, epi, tier, url, families, _date, _sujet, _valeur = rec
+    fid, epi, tier, url, families, _date, _sujet, _valeur, _mem = rec
     if not re.fullmatch(r"FCT-\d+", fid):
         issues.append("id invalide : {0}".format(fid))
     if epi not in EPI_CLASSES:

@@ -68,7 +68,7 @@ def scan(paths):
             rec = parse_line(ln)
             if rec is None:
                 continue
-            fid, _epi, _tier, _url, _fam, _date, sujet, valeur = rec
+            fid, _epi, _tier, _url, _fam, _date, sujet, valeur, _mem = rec
             records.append({
                 "file": f,
                 "fid": fid,

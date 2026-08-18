@@ -92,16 +92,21 @@ CARTE DES PREUVES. Une ligne par fait, champs séparés par ` | ` :
 
 ```
 <!-- FACT_REGISTRY_V1 -->
-FCT-001 | FACT | ✦ | https://url/canonique | A,E | 2024-03-07 | dgsi-effectif | 5000
-FCT-002 | FACT | ✧ | https://url/secondaire | D | - | dgsi-effectif | 5500
-FCT-003 | FACT | ❧ | - | - | - | - | -
+FCT-001 | FACT | ✦ | https://url/canonique | A,E | 2024-03-07 | dgsi-effectif | 5000 | <uuid>
+FCT-002 | FACT | ✧ | https://url/secondaire | D | - | dgsi-effectif | 5500 | -
+FCT-003 | FACT | ❧ | - | - | - | - | - | -
 <!-- /FACT_REGISTRY_V1 -->
 ```
 
 Champs : `id` (FCT-###) | `epi` (FACT|EVIDENCE|INFERENCE|HYPOTHESIS|SPECULATION|UNKNOWN) |
 `tier` (✦✧⁅❧) | `url` (ou `-`) | `familles` (A-E séparées par virgule, ou `-`) | `date` (optionnel) |
 `sujet` (optionnel : slug sujet+attribut, ex. `dgsi-effectif`, `squarcini-dst-periode`, ou `-`) |
-`valeur` (optionnel : valeur normalisée — nombre, date, chaîne courte — ou `-`).
+`valeur` (optionnel : valeur normalisée — nombre, date, chaîne courte — ou `-`) |
+`mem` (optionnel : memory_id Mnemolite du fait `status:CONFIRME`, ou `-`).
+
+Le champ `mem` est renseigné au write-back (KERNEL §19b) avec le memory_id retourné par `write_memory`,
+pour chaque fait `status:CONFIRME` (✦/L4) ; `-` sinon. Phase 1 (v36) le lit **verbatim** depuis le bloc,
+jamais par recherche sémantique : c'est le lien porteur qui ferme la boucle EPI/mem (P6b).
 
 Ce bloc est ce que `tools/verify_facts.py` vérifie de façon **déterministe** (anti-SSRF, HEAD-check,
 compte des familles, gate EPI). Le script vérifie la STRUCTURE, jamais la VÉRITÉ du contenu
