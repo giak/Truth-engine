@@ -1,10 +1,10 @@
-# 🔒 Fedorova : déclarations vs. reproches — l'OQTF est-elle étayée ?
+# 🔒 Fedorova : déclarations vs. reproches : l'OQTF est-elle étayée ?
 
 *Analyse forensique du rapprochement entre ce que Xenia Fedorova a dit et ce que l'État lui reproche, avec détermination de la nature de la décision : OQTF étayée ou décision administrative injuste, à la manière de Xavier Moreau.*
 
 ---
 
-## 1. Ce que Fedorova a dit — Citations verbatim documentées
+## 1. Ce que Fedorova a dit : Citations verbatim documentées
 
 Les citations suivantes sont issues de ses chroniques sur CNews (émission « L'Heure Inter ») et Europe 1, documentées par la chaîne elle-même, reprises par Le Monde, l'INA (La Revue des médias), et la saisine du Parlement européen par Valérie Hayer (Renew Europe).
 
@@ -34,7 +34,7 @@ Aucune citation documentée ne montre Fedorova :
 - Appelant à la violence contre quiconque
 - Menacant des personnes ou des institutions
 - Appelant au renversement du gouvernement français
-- Niant l'Holocauste ou des crimes contre l'humanité (le seul point contestable est la qualification des déportations d'enfants de « légendes » — voir analyse ci-dessous)
+- Niant l'Holocauste ou des crimes contre l'humanité (le seul point contestable est la qualification des déportations d'enfants de « légendes », voir analyse ci-dessous)
 - Coordonnant ou relayant des opérations d'espionnage
 - Appelant à la haine raciale, ethnique ou religieuse
 
@@ -65,30 +65,30 @@ Le texte intégral de l'arrêté ministériel d'expulsion n'est pas public. Les 
 
 ---
 
-## 3. Rapprochement — Déclarations vs. Reproches
+## 3. Rapprochement : Déclarations vs. Reproches
 
 ### 3.1 Grief C : « Relais des campagnes de désinformation pilotées par les autorités russes »
 
 **Déclarations concernées :** Toutes (1-10)
 
-**Analyse :** Fedorova exprime des opinions alignées sur la position officielle russe. C'est un fait — et ce n'est pas contesté par elle. Elle se présente explicitement comme une voix apportant « le point de vue russe. »
+**Analyse :** Fedorova exprime des opinions alignées sur la position officielle russe. C'est un fait, et ce n'est pas contesté par elle. Elle se présente explicitement comme une voix apportant « le point de vue russe. »
 
-**Question juridique :** L'alignement d'une opinion sur la position d'un État étranger constitue-t-il une « désinformation pilotée » ? Non — sauf preuve de coordination opérationnelle (instructions reçues, financements, ordres). Cette preuve n'est pas publique. L'arrêté affirme qu'elle existe (« pilotées par les autorités russes ») mais ne la documente pas.
+**Question juridique :** L'alignement d'une opinion sur la position d'un État étranger constitue-t-il une « désinformation pilotée » ? Non : sauf preuve de coordination opérationnelle (instructions reçues, financements, ordres). Cette preuve n'est pas publique. L'arrêté affirme qu'elle existe (« pilotées par les autorités russes ») mais ne la documente pas.
 
 **Verdict sur ce grief :** Non étayé publiquement. L'accusation de « pilotage » implique une coordination opérationnelle qui n'est pas documentée dans les éléments accessibles. L'alignement d'opinion ne suffit pas à établir le pilotage.
 
 ### 3.2 Grief D : « Diffusion d'un discours de désinformation et de déstabilisation »
 
-**Déclaration la plus problématique :** N°6 — la qualification des déportations d'enfants de « légendes »
+**Déclaration la plus problématique :** N°6 : la qualification des déportations d'enfants de « légendes »
 
 **Analyse :** C'est la seule déclaration documentée de Fedorova qui peut être qualifiée de factuellement fausse. Les déportations d'enfants ukrainiens sont documentées par la CPI, l'ONU, et des ONG multiples. Même la Russie ne nie pas le transfert d'enfants (elle le revendique comme « évacuation humanitaire »). Qualifier ces faits de « légendes » est une négation de faits établis.
 
 **Cependant :**
 - L'arrêté ne cite PAS cette déclaration spécifique. Il utilise des formules génériques.
-- La question de savoir si les transferts constituent des « déportations » (crime de guerre) ou des « évacuations humanitaires » (acte licite) est un débat juridique en cours devant la CPI. Fedorova a pris position dans ce débat — de manière trompeuse en utilisant le mot « légendes », mais dans un cadre qui relève du débat contradictoire.
+- La question de savoir si les transferts constituent des « déportations » (crime de guerre) ou des « évacuations humanitaires » (acte licite) est un débat juridique en cours devant la CPI. Fedorova a pris position dans ce débat, de manière trompeuse en utilisant le mot « légendes », mais dans un cadre qui relève du débat contradictoire.
 - Même si cette déclaration est factuellement contestable, elle n'appelle pas à la violence et n'incite pas à la haine. Elle relève de la controverse historique et politique, pas de l'infraction pénale.
 
-**Verdict sur ce grief :** Partiellement fondé pour la déclaration n°6, mais insuffisant pour justifier une expulsion. La voie normale pour contester une affirmation factuellement fausse est le débat public, la saisine de l'Arcom, ou — dans les cas les plus graves — des poursuites pénales. Aucune de ces voies n'a abouti contre Fedorova.
+**Verdict sur ce grief :** Partiellement fondé pour la déclaration n°6, mais insuffisant pour justifier une expulsion. La voie normale pour contester une affirmation factuellement fausse est le débat public, la saisine de l'Arcom, ou, dans les cas les plus graves, des poursuites pénales. Aucune de ces voies n'a abouti contre Fedorova.
 
 ### 3.3 Grief E : « Saper la confiance des citoyens en leurs institutions »
 
@@ -101,9 +101,9 @@ Le texte intégral de l'arrêté ministériel d'expulsion n'est pas public. Les 
 - L'exclusion du point de vue russe du débat médiatique (citation 9)
 - L'absence de débat sur la souveraineté et l'indépendance stratégique (citation 10)
 
-**Question juridique :** La critique des institutions — y compris des institutions étrangères (OTAN, UE) et de la politique du gouvernement français — constitue-t-elle une « menace à l'ordre public » ?
+**Question juridique :** La critique des institutions, y compris des institutions étrangères (OTAN, UE) et de la politique du gouvernement français, constitue-t-elle une « menace à l'ordre public » ?
 
-**Non.** La critique des institutions est protégée par la liberté d'expression (article 10 de la Convention européenne des droits de l'homme, article 11 de la Déclaration de 1789). La Cour européenne des droits de l'homme a jugé de manière constante que le discours politique — même hostile, même sévère, même infondé — bénéficie d'une protection renforcée. « Sapper la confiance » n'est pas une infraction pénale en droit français. C'est une opinion politique.
+**Non.** La critique des institutions est protégée par la liberté d'expression (article 10 de la Convention européenne des droits de l'homme, article 11 de la Déclaration de 1789). La Cour européenne des droits de l'homme a jugé de manière constante que le discours politique, même hostile, même sévère, même infondé, bénéficie d'une protection renforcée. « Sapper la confiance » n'est pas une infraction pénale en droit français. C'est une opinion politique.
 
 **Verdict sur ce grief :** Non fondé juridiquement. La critique des institutions est une liberté fondamentale, pas une menace à l'ordre public.
 
@@ -115,7 +115,7 @@ Le texte intégral de l'arrêté ministériel d'expulsion n'est pas public. Les 
 - Des actes de terrorisme (cas clair)
 - Des crimes de droit commun graves (cas clair)
 - Des activités d'espionnage (cas clair)
-- **Des activités d'influence informationnelle ?** (zone grise — Fedorova est le cas test)
+- **Des activités d'influence informationnelle ?** (zone grise : Fedorova est le cas test)
 
 La question n'est pas de savoir si Fedorova « menace l'ordre public » au sens commun du terme (elle ne menace personne physiquement). La question est de savoir si l'État peut **requalifier** une activité d'opinion en menace à l'ordre public pour utiliser le droit des étrangers contre une personne que le droit de la presse ne permet pas de faire taire.
 
@@ -135,9 +135,9 @@ L'OQTF est une procédure administrative. Elle ne mobilise ni juge d'instruction
 
 Le juge administratif français valide quasi-systématiquement les décisions de l'exécutif en matière de sécurité nationale. La Cour de Strasbourg a jugé dans Maaouia c. France (2000) que l'article 6 CEDH ne s'applique pas aux procédures d'expulsion. La Déclaration des droits de l'homme de 1789 distingue les droits de l'homme et les droits du citoyen : l'article 6 (droit à un jugement) s'applique aux citoyens, pas aux étrangers en procédure d'expulsion.
 
-### 4.3 Le recours est possible — mais le fond sera inaudible
+### 4.3 Le recours est possible : mais le fond sera inaudible
 
-Le juge administratif de Paris a été saisi d'un recours. Il statuera. Sa décision sera publique. Mais il ne pourra pas examiner les preuves classifiées de la DGSI — le secret-défense s'impose au juge administratif comme à tout le monde. La boucle restera fermée. Le juge ne pourra vérifier ni la coordination présumée avec Moscou, ni l'identité des « autorités russes » qui piloteraient Fedorova.
+Le juge administratif de Paris a été saisi d'un recours. Il statuera. Sa décision sera publique. Mais il ne pourra pas examiner les preuves classifiées de la DGSI, le secret-défense s'imposant au juge administratif comme à tout le monde. La boucle restera fermée. Le juge ne pourra vérifier ni la coordination présumée avec Moscou, ni l'identité des « autorités russes » qui piloteraient Fedorova.
 
 ---
 
@@ -158,18 +158,18 @@ Selon Le Monde, la France a estimé que « le moment n'était pas venu » (« th
 | 3 juin 2026 | 25 eurodéputés (dont Nathalie Loiseau) demandent l'inscription de Fedorova sur les listes de sanctions individuelles européennes |
 | Juin 2026 | Début des négociations du 16e paquet de sanctions contre la Russie |
 | 22 juillet 2026 | Tweet d'Edwy Plenel : la France n'a pas réclamé l'ajout |
-| 22-28 juillet 2026 | Finalisation du 16e paquet — Fedorova n'y figure pas |
+| 22-28 juillet 2026 | Finalisation du 16e paquet : Fedorova n'y figure pas |
 | 28 juillet 2026 | Signature de l'arrêté ministériel d'expulsion (OQTF) contre Fedorova |
 | 29 juillet 2026 | Notification de l'OQTF, réactions en chaîne |
 
-L'OQTF n'est pas un plan B improvisé. C'est le plan A. La France a choisi l'arme administrative nationale — plus visible, plus rapide, moins contrôlée juridiquement — plutôt que l'arme diplomatique européenne — plus légitime, plus solide, mais plus lente.
+L'OQTF n'est pas un plan B improvisé. C'est le plan A. La France a choisi l'arme administrative nationale (plus visible, plus rapide, moins contrôlée juridiquement) plutôt que l'arme diplomatique européenne (plus légitime, plus solide, mais plus lente).
 
 ### 5.3 L'asymétrie des instruments
 
 | | Xavier Moreau (citoyen français) | Xenia Fedorova (ressortissante russe) |
 |---|---|---|
 | **Instrument utilisé** | Sanctions européennes (gel des avoirs, suppression de la chaîne YouTube) | OQTF nationale (expulsion administrative) |
-| **Pourquoi cet instrument ?** | Moreau est français — il ne peut pas être expulsé | Fedorova est russe — elle peut être expulsée |
+| **Pourquoi cet instrument ?** | Moreau est français : il ne peut pas être expulsé | Fedorova est russe : elle peut être expulsée |
 | **Même opinions ?** | Pro-russes | Pro-russes |
 | **Même reproche ?** | Relais de la désinformation du Kremlin | Relais de la désinformation du Kremlin |
 | **Passage devant un juge ?** | Sanctions soumises au contrôle de la CJUE (recours en annulation possible) | OQTF soumise au contrôle du juge administratif français (valide quasi-systématiquement) |
@@ -179,7 +179,7 @@ L'OQTF n'est pas un plan B improvisé. C'est le plan A. La France a choisi l'arm
 
 ### 5.4 Le précédent créé
 
-L'expulsion d'une journaliste pour ses opinions, sans condamnation judiciaire, sans décision de l'Arcom, sans citation de propos spécifiques, crée un précédent dangereux : **l'OQTF éditoriale.** L'expulsion d'un résident étranger pour des opinions diffusées dans des médias autorisés, sans condamnation judiciaire. Ce précédent est réversible — il sera probablement contesté — mais il est établi.
+L'expulsion d'une journaliste pour ses opinions, sans condamnation judiciaire, sans décision de l'Arcom, sans citation de propos spécifiques, crée un précédent dangereux : **l'OQTF éditoriale.** L'expulsion d'un résident étranger pour des opinions diffusées dans des médias autorisés, sans condamnation judiciaire. Ce précédent est réversible, il sera probablement contesté, mais il est établi.
 
 ---
 
@@ -195,17 +195,17 @@ L'expulsion d'une journaliste pour ses opinions, sans condamnation judiciaire, s
 | Décision Arcom | Aucune interdiction | Sans objet (pas de fréquence) |
 | Procédure utilisée | OQTF (CESEDA L631-1) | Sanctions européennes + pression administrative |
 | Fondement allégué | « Menace à l'ordre public » | « Soutien à des actions compromettant l'intégrité territoriale de l'Ukraine » |
-| Contrôle juridictionnel | Juge administratif français | Tribunal de l'UE (Luxembourg) — les deux sont favorables à l'État |
+| Contrôle juridictionnel | Juge administratif français | Tribunal de l'UE (Luxembourg) : les deux sont favorables à l'État |
 
 ### 6.2 Différence cruciale
 
-La différence fondamentale est la **nationalité.** Moreau est français — l'État ne peut pas l'expulser. Il doit utiliser d'autres leviers (sanctions européennes, pression fiscale, enquêtes administratives, menaces sur ses employeurs). Fedorova est russe — l'État peut l'expulser directement.
+La différence fondamentale est la **nationalité.** Moreau est français, l'État ne peut pas l'expulser. Il doit utiliser d'autres leviers (sanctions européennes, pression fiscale, enquêtes administratives, menaces sur ses employeurs). Fedorova est russe, l'État peut l'expulser directement.
 
 Cette différence explique pourquoi Fedorova est la cible prioritaire : elle est **juridiquement plus vulnérable.** Ce n'est pas parce que ses propos sont « plus graves. » C'est parce que son statut administratif offre une prise que le statut de Moreau n'offre pas.
 
 ### 6.3 Réponse à la question : l'OQTF est-elle étayée ou injuste comme Moreau ?
 
-**L'OQTF contre Fedorova est une décision administrative fondée sur des opinions politiques, pas sur des faits juridiquement qualifiables. En cela, elle est comparable au cas Moreau — avec la différence que Fedorova, étant étrangère, est juridiquement plus vulnérable.**
+**L'OQTF contre Fedorova est une décision administrative fondée sur des opinions politiques, pas sur des faits juridiquement qualifiables. En cela, elle est comparable au cas Moreau, avec la différence que Fedorova, étant étrangère, est juridiquement plus vulnérable.**
 
 Plus précisément :
 
@@ -215,13 +215,13 @@ Plus précisément :
 
 ---
 
-## 7. Le test de proportionnalité — Convention européenne des droits de l'homme
+## 7. Le test de proportionnalité : Convention européenne des droits de l'homme
 
 L'article 10 de la CEDH protège la liberté d'expression. Toute ingérence doit être :
 
-1. **Prévoyante par la loi** — (✓ — le CESEDA existe)
-2. **Poursuivant un but légitime** — (✓ — la sécurité nationale est un but légitime)
-3. **Nécessaire dans une société démocratique** — **(✗ — discutable)**
+1. **Prévoyante par la loi** : (✓ : le CESEDA existe)
+2. **Poursuivant un but légitime** : (✓ : la sécurité nationale est un but légitime)
+3. **Nécessaire dans une société démocratique** : **(✗ : discutable)**
 
 Le troisième critère est le test décisif. L'expulsion d'une chroniqueuse pour des opinions politiques est-elle « nécessaire dans une société démocratique » ?
 
@@ -232,11 +232,11 @@ La CourEDH a jurisprudencié :
 
 **Application au cas Fedorova :**
 - Ses chroniques relèvent du discours politique sur des questions d'intérêt général (guerre, sanctions, souveraineté)
-- Ses critiques visent des personnalités politiques (Zelensky) et des institutions (OTAN, UE) — le seuil de protection est donc élevé
-- L'expulsion est la sanction la plus lourde possible pour un résident étranger — elle doit être réservée aux cas les plus graves
+- Ses critiques visent des personnalités politiques (Zelensky) et des institutions (OTAN, UE), le seuil de protection est donc élevé
+- L'expulsion est la sanction la plus lourde possible pour un résident étranger, elle doit être réservée aux cas les plus graves
 - Aucune mesure moins restrictive (droit de réponse, contradiction éditoriale, saisine de l'Arcom) n'a été épuisée avant l'expulsion
 
-**Conclusion sur le test de proportionnalité :** L'OQTF contre Fedorova échoue probablement au test de « nécessité dans une société démocratique. » La CourEDH pourrait la juger disproportionnée — si Fedorova y a recours, ce qui est probable.
+**Conclusion sur le test de proportionnalité :** L'OQTF contre Fedorova échoue probablement au test de « nécessité dans une société démocratique. » La CourEDH pourrait la juger disproportionnée, si Fedorova y a recours, ce qui est probable.
 
 ---
 
@@ -244,13 +244,13 @@ La CourEDH a jurisprudencié :
 
 | Question | Réponse |
 |----------|---------|
-| L'OQTF est-elle juridiquement valide en droit interne ? | Oui — le CESEDA permet l'expulsion pour menace à l'ordre public, et la jurisprudence laisse une large marge à l'administration |
-| L'OQTF est-elle « étayée » par des faits ? | Non — aucun propos spécifique n'est cité ; aucune condamnation judiciaire ; aucune décision Arcom ; aucune preuve publique de coordination avec Moscou |
-| L'OQTF est-elle une « décision administrative totalement injuste » comme Moreau ? | Oui — dans les deux cas, l'État sanctionne des opinions politiques par des procédures administratives, sans condamnation judiciaire |
-| Fedorova a-t-elle dit des choses contestables ? | Oui — qualifier la déportation d'enfants de « légendes » est factuellement contredit par les preuves disponibles |
-| Ces propos justifient-ils une expulsion ? | Non — la voie normale pour contester des affirmations factuellement contestables est le débat contradictoire, l'Arcom, ou la justice pénale. L'expulsion est disproportionnée |
-| L'OQTF est-elle une décision politique ? | Oui — elle s'inscrit dans le conflit Élysée-Bolloré, la guerre informationnelle Russie/Occident, et la pré-campagne présidentielle de 2027 |
-| La France aurait-elle pu utiliser d'autres moyens ? | Oui — saisine de l'Arcom (faite par Valérie Hayer, Renew Europe, mai-juin 2026), débat contradictoire, procédure pénale si infraction constituée |
+| L'OQTF est-elle juridiquement valide en droit interne ? | Oui : le CESEDA permet l'expulsion pour menace à l'ordre public, et la jurisprudence laisse une large marge à l'administration |
+| L'OQTF est-elle « étayée » par des faits ? | Non : aucun propos spécifique n'est cité ; aucune condamnation judiciaire ; aucune décision Arcom ; aucune preuve publique de coordination avec Moscou |
+| L'OQTF est-elle une « décision administrative totalement injuste » comme Moreau ? | Oui : dans les deux cas, l'État sanctionne des opinions politiques par des procédures administratives, sans condamnation judiciaire |
+| Fedorova a-t-elle dit des choses contestables ? | Oui : qualifier la déportation d'enfants de « légendes » est factuellement contredit par les preuves disponibles |
+| Ces propos justifient-ils une expulsion ? | Non : la voie normale pour contester des affirmations factuellement contestables est le débat contradictoire, l'Arcom, ou la justice pénale. L'expulsion est disproportionnée |
+| L'OQTF est-elle une décision politique ? | Oui : elle s'inscrit dans le conflit Élysée-Bolloré, la guerre informationnelle Russie/Occident, et la pré-campagne présidentielle de 2027 |
+| La France aurait-elle pu utiliser d'autres moyens ? | Oui : saisine de l'Arcom (faite par Valérie Hayer, Renew Europe, mai-juin 2026), débat contradictoire, procédure pénale si infraction constituée |
 | Quel est le précédent créé ? | L'OQTF éditoriale : l'expulsion d'un résident étranger pour des opinions diffusées dans des médias autorisés, sans condamnation judiciaire |
 
 ---
@@ -261,5 +261,5 @@ L'image jointe au message initial ne peut être traitée par ce modèle (aucune 
 
 ---
 
-_Analyse forensique — Truth Engine v2.0 — 2026-07-31_15-00 CEST_
+_Analyse forensique : Truth Engine v2.0 : 2026-07-31_15-00 CEST_
 _Honnêteté absolue. Vérité forensique. Pas de sycophancy._

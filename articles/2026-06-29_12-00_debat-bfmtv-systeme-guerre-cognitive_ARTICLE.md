@@ -24,17 +24,17 @@ Aucun invité russe, aucun sceptique, aucune voix pacifiste. Voici ce qu'ils ont
 
 **Colessimo.** L'historien et théologien prend la parole : « Trump mène sa vie au Proche-Orient désormais. Voilà que l'Ukraine peut enfin agir. » Il décrit un objectif : « forcer Poutine, avec l'appui des États-Unis, avec l'appui de l'Europe, à venir enfin à la table des négociations ».
 
-**Bunna — Stratégie Crimée.** L'analyste géopolitique explique : « C'est relativement simple d'isoler la Crimée. » Il détaille le levier : « complexifier le travail de la Russie dans la Crimée, c'est remettre en cause aussi tout le narratif de cette Russie conquérante ».
+**Bunna : Stratégie Crimée.** L'analyste géopolitique explique : « C'est relativement simple d'isoler la Crimée. » Il détaille le levier : « complexifier le travail de la Russie dans la Crimée, c'est remettre en cause aussi tout le narratif de cette Russie conquérante ».
 
-**Amoursky — Guerre technologique.** Le reporter franco-russe décrit l'évolution : « l'Ukraine a réussi à se démarquer sur un terrain en particulier, à savoir la guerre technologique ». Il précise : « le mois dernier, il y avait plus de drones ukrainiens qui ont touché la Russie que de drones russes qui ont touché l'Ukraine ».
+**Amoursky : Guerre technologique.** Le reporter franco-russe décrit l'évolution : « l'Ukraine a réussi à se démarquer sur un terrain en particulier, à savoir la guerre technologique ». Il précise : « le mois dernier, il y avait plus de drones ukrainiens qui ont touché la Russie que de drones russes qui ont touché l'Ukraine ».
 
-**Ancel — La réaction de Poutine.** Le lieutenant-colonel retraité analyse : « Poutine est obligé de réagir ». Il esquisse un scénario : « l'option la plus crédible, c'est le fait que Poutine allume un contrefeu en attaquant un pays balte ». Objectif présumé : « mettre en difficulté l'OTAN et l'Union européenne ».
+**Ancel : La réaction de Poutine.** Le lieutenant-colonel retraité analyse : « Poutine est obligé de réagir ». Il esquisse un scénario : « l'option la plus crédible, c'est le fait que Poutine allume un contrefeu en attaquant un pays balte ». Objectif présumé : « mettre en difficulté l'OTAN et l'Union européenne ».
 
-**Nucléaire — 3 positions.** Colessimo est rassurant : « le nucléaire, c'est un interdit majeur ». Bunna est alarmiste : « le problème de l'arme nucléaire, c'est que personne n'en connaît la grammaire ». Ancel tempère : « Je tiens quand même à rassurer les téléspectateurs. Je pense qu'on en est très, très, très lointain ». C'est le seul sujet où les experts divergent.
+**Nucléaire : 3 positions.** Colessimo est rassurant : « le nucléaire, c'est un interdit majeur ». Bunna est alarmiste : « le problème de l'arme nucléaire, c'est que personne n'en connaît la grammaire ». Ancel tempère : « Je tiens quand même à rassurer les téléspectateurs. Je pense qu'on en est très, très, très lointain ». C'est le seul sujet où les experts divergent.
 
 **Missile Flamingo.** Ancel décrit la nouvelle arme ukrainienne : « Ce missile Flamingo, il peut aller très, très, très loin. Jusqu'à 3 000 km ». Il mentionne une innovation : « les Ukrainiens ont réussi à faire un shkand, c'est-à-dire à trouver un moyen technologique de dérouter les systèmes de brouillage russe ».
 
-**Iran — Le windfall pétrolier.** Bunna analyse la conjoncture : « la stratégie d'essayer de réduire le bonus financier de la Russie via la guerre en Iran est déjà présente depuis plusieurs semaines ». Ancel confirme le maintien du soutien occidental : les États-Unis « apposent leur signature à un communiqué commun sur l'Ukraine » au G7 d'Évian.
+**Iran : Le windfall pétrolier.** Bunna analyse la conjoncture : « la stratégie d'essayer de réduire le bonus financier de la Russie via la guerre en Iran est déjà présente depuis plusieurs semaines ». Ancel confirme le maintien du soutien occidental : les États-Unis « apposent leur signature à un communiqué commun sur l'Ukraine » au G7 d'Évian.
 
 **Clôture.** Colessimo conclut sur le registre épique : « il y a eu un miracle ukrainien, une nation en armes ». Bunna synthétise le calendrier : « fenêtre d'opportunité, grosso modo, jusqu'à l'automne, d'où les 40 jours ». Aucun expert n'évoque les négociations de paix d'Istanbul de mars 2022.
 
@@ -52,7 +52,7 @@ La force du dispositif tient moins dans ce qui est dit que dans qui le dit. Les 
 
 **Cyrille Amoursky**, reporter franco-russe de 24 ans avec 4 ans de carrière, apporte un témoignage de terrain sur la Crimée. Il n'est pas stratège, pas analyste, pas expert en relations internationales. Son rôle dans le débat est de fournir une « couleur locale » (des images, des impressions) qui renforce le récit sans le contester.
 
-Les seules contradictions visibles entre eux — un désaccord tactique entre Ancel et Colessimo sur le moment des négociations — ne remettent jamais en cause le cadre posé en ouverture. C'est un exemple typique d'[opposition contrôlée](https://giak.substack.com/p/opposition-controlee-anatomie-dun) : un désaccord dans le consensus, utile pour donner l'illusion du pluralisme. 
+Les seules contradictions visibles entre eux (un désaccord tactique entre Ancel et Colessimo sur le moment des négociations) ne remettent jamais en cause le cadre posé en ouverture. C'est un exemple typique d'[opposition contrôlée](https://giak.substack.com/p/opposition-controlee-anatomie-dun) : un désaccord dans le consensus, utile pour donner l'illusion du pluralisme. 
 
 Sur les 4 experts, 3 n'ont aucune expertise militaire ou diplomatique. Ancel, ancien lieutenant-colonel, a une expertise militaire réelle mais datée (hors service actif depuis 21 ans), qui ne couvre pas la guerre des drones ni les offensives de 2026. Aucun des invités ne dispose d'une expertise directement opérationnelle sur le conflit Ukraine-Russie en cours.
 
@@ -66,7 +66,7 @@ Le débat ne repose pas sur des mensonges, il repose sur des affirmations non v�
 
 **Deuxième artefact : les « documents internes russes ».** L'animateur les présente comme une « évaluation réaliste de la situation » par les services russes eux-mêmes. Ils ne sont jamais nommés, jamais datés, jamais vérifiés à l'antenne. Aucun expert ne demande à les voir, à les discuter, à en évaluer l'authenticité. Dans un débat journalistique normal, des « documents internes » présentés comme une preuve centrale seraient questionnés. Dans ce débat, ils sont une assertion que personne ne conteste.
 
-**Troisième artefact : l'absence totale des accords d'Istanbul.** C'est le silence le plus assourdissant du débat. Le 29 mars 2022, à Istanbul, l'Ukraine et la Russie ont presque signé un accord de paix. Le projet prévoyait la neutralité de l'Ukraine contre des garanties de sécurité internationales. Les 2 camps avaient fait des concessions. L'accord a échoué : les causes exactes sont débattues — la visite de Boris Johnson à Kiev le 9 avril 2022 est citée par plusieurs sources comme un facteur clé du revirement ukrainien, bien que son poids exact reste discuté. Mais l'existence même de ces négociations, de ce presque-accord, n'a pas été mentionnée une seule fois en 30 minutes de débat sur les perspectives de paix.
+**Troisième artefact : l'absence totale des accords d'Istanbul.** C'est le silence le plus assourdissant du débat. Le 29 mars 2022, à Istanbul, l'Ukraine et la Russie ont presque signé un accord de paix. Le projet prévoyait la neutralité de l'Ukraine contre des garanties de sécurité internationales. Les 2 camps avaient fait des concessions. L'accord a échoué : les causes exactes sont débattues, la visite de Boris Johnson à Kiev le 9 avril 2022 étant citée par plusieurs sources comme un facteur clé du revirement ukrainien, bien que son poids exact reste discuté. Mais l'existence même de ces négociations, de ce presque-accord, n'a pas été mentionnée une seule fois en 30 minutes de débat sur les perspectives de paix.
 
 Le public français ne peut pas exiger une paix qu'il ne sait pas avoir été possible. Les citoyens ne peuvent pas peser sur des choix diplomatiques dont on leur cache l'existence. Ce n'est pas de la désinformation active, c'est de l'omission systémique, et c'est bien plus efficace.
 
@@ -144,23 +144,23 @@ Le système ne se réformera pas. Mais il peut être déserté, surveillé et co
 
 ## Sources et références
 
-### §1 — Bille en tête : le transcript et les acteurs
+### §1 : Bille en tête : le transcript et les acteurs
 - Transcript intégral du Club BFM, segment Ukraine (séquences 1511 à 2268), 30 min, émission du 27 juin 2026, BFMTV, [https://www.bfmtv.com/replay-emissions/le-club-bfm/video-le-club-bfm-samedi-27-juin-2026_VN-202606270329.html](https://www.bfmtv.com/replay-emissions/le-club-bfm/video-le-club-bfm-samedi-27-juin-2026_VN-202606270329.html)
 
-### §2 — Ce qui s'est dit : transcript court
+### §2 : Ce qui s'est dit : transcript court
 - Citations extraites du transcript SRT du Club BFM, 27 juin 2026, BFMTV, [https://www.bfmtv.com/replay-emissions/le-club-bfm/video-le-club-bfm-samedi-27-juin-2026_VN-202606270329.html](https://www.bfmtv.com/replay-emissions/le-club-bfm/video-le-club-bfm-samedi-27-juin-2026_VN-202606270329.html)
 
-### §3 — Les experts du vide
+### §3 : Les experts du vide
 - Guillaume Ancel condamné pour diffamation envers Hubert Védrine, Le Figaro (16 mai 2022), [https://www.lefigaro.fr/flash-actu/role-de-la-france-au-rwanda-un-ex-officier-condamne-pour-diffamation-envers-hubert-vedrine-20220516](https://www.lefigaro.fr/flash-actu/role-de-la-france-au-rwanda-un-ex-officier-condamne-pour-diffamation-envers-hubert-vedrine-20220516)
-- [🧪 Opposition contrôlée — anatomie d'un système auto-stabilisateur](https://giak.substack.com/p/opposition-controlee-anatomie-dun) (21 mai 2026)
+- [🧪 Opposition contrôlée : anatomie d'un système auto-stabilisateur](https://giak.substack.com/p/opposition-controlee-anatomie-dun) (21 mai 2026)
 
-### §4 — Les 3 artefacts narratifs
-- Transcript du Club BFM — annonce des 40 jours et documents russes, BFMTV, [https://www.bfmtv.com/replay-emissions/le-club-bfm/video-le-club-bfm-samedi-27-juin-2026_VN-202606270329.html](https://www.bfmtv.com/replay-emissions/le-club-bfm/video-le-club-bfm-samedi-27-juin-2026_VN-202606270329.html)
-- Communication de Volodymyr Zelensky sur Telegram, 25 juin 2026 — annonce de l'opération d'influence de 40 jours (confirmé par La Dépêche, [ladepeche.fr](https://www.ladepeche.fr/2026/06/26/guerre-en-ukraine-quelle-est-cette-operation-de-40-jours-pour-mettre-fin-a-la-guerre-annoncee-par-volodymyr-zelensky-13439004.php), L'Indépendant, [lindependant.fr](https://www.lindependant.fr/2026/06/26/guerre-en-ukraine-apres-ses-succes-en-crimee-volodymyr-zelensky-ordonne-une-offensive-de-40-jours-pour-forcer-la-russie-a-choisir-la-voie-de-la-paix-13439304.php), et Le Vif, 26 juin 2026)
-- Accords d'Istanbul (29 mars 2022) : archives diplomatiques et médiatiques — notamment le rôle de Boris Johnson dans le revirement ukrainien, documenté par le Financial Times, [ft.com](https://www.ft.com/content/15d980f7-2b3e-4d23-b8ec-f72a27d13da8) (Rachman, G., 2026), et des déclarations des ex-négociateurs (2022-2023)
+### §4 : Les 3 artefacts narratifs
+- Transcript du Club BFM : annonce des 40 jours et documents russes, BFMTV, [https://www.bfmtv.com/replay-emissions/le-club-bfm/video-le-club-bfm-samedi-27-juin-2026_VN-202606270329.html](https://www.bfmtv.com/replay-emissions/le-club-bfm/video-le-club-bfm-samedi-27-juin-2026_VN-202606270329.html)
+- Communication de Volodymyr Zelensky sur Telegram, 25 juin 2026 : annonce de l'opération d'influence de 40 jours (confirmé par La Dépêche, [ladepeche.fr](https://www.ladepeche.fr/2026/06/26/guerre-en-ukraine-quelle-est-cette-operation-de-40-jours-pour-mettre-fin-a-la-guerre-annoncee-par-volodymyr-zelensky-13439004.php), L'Indépendant, [lindependant.fr](https://www.lindependant.fr/2026/06/26/guerre-en-ukraine-apres-ses-succes-en-crimee-volodymyr-zelensky-ordonne-une-offensive-de-40-jours-pour-forcer-la-russie-a-choisir-la-voie-de-la-paix-13439304.php), et Le Vif, 26 juin 2026)
+- Accords d'Istanbul (29 mars 2022) : archives diplomatiques et médiatiques, notamment le rôle de Boris Johnson dans le revirement ukrainien, documenté par le Financial Times, [ft.com](https://www.ft.com/content/15d980f7-2b3e-4d23-b8ec-f72a27d13da8) (Rachman, G., 2026), et des déclarations des ex-négociateurs (2022-2023)
 
-### §5 — La machine médiatique : 6 mécanismes
-- Revolving door Ramon Fernandez : circuit Trésor → Orange → CMA CGM → RMC BFM — nomination à la présidence de RMC BFM en juillet 2025, CB News, [https://www.cbnews.fr/medias/ramon-fernandez-devient-president-rmc-bfm](https://www.cbnews.fr/medias/ramon-fernandez-devient-president-rmc-bfm)
+### §5 : La machine médiatique : 6 mécanismes
+- Revolving door Ramon Fernandez : circuit Trésor → Orange → CMA CGM → RMC BFM, nomination à la présidence de RMC BFM en juillet 2025, CB News, [https://www.cbnews.fr/medias/ramon-fernandez-devient-president-rmc-bfm](https://www.cbnews.fr/medias/ramon-fernandez-devient-president-rmc-bfm)
 - Rachat BFMTV/RMC par CMA CGM, 1,55 Md€, finalisé le 2 juillet 2024, Le Parisien, [https://www.leparisien.fr/economie/medias-larmateur-cma-cgm-rachete-bfmtv-et-rmc-02-07-2024-TJWOEEIIZNF5RGUYPKWXVEFY7Y.php](https://www.leparisien.fr/economie/medias-larmateur-cma-cgm-rachete-bfmtv-et-rmc-02-07-2024-TJWOEEIIZNF5RGUYPKWXVEFY7Y.php)
 - Plus de 100 départs de journalistes par clause de cession dans le groupe RMC BFM suite au rachat, AFP/France Info (2024-2025)
 - Décision Arcom n°2024-585 du 27 juin 2024 autorisant le rachat d'Altice Media par CMA CGM, Légifrance, [https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049833334](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049833334)
@@ -171,15 +171,15 @@ Le système ne se réformera pas. Mais il peut être déserté, surveillé et co
 - [⚖️ Audiovisuel public : anatomie d'une capture d'État](https://giak.substack.com/p/audiovisuel-public-anatomie-dune) (10 avril 2026)
 - [💻 Le Numérique colonisé : 70 % des données françaises sur serveurs américains](https://giak.substack.com/p/le-numerique-colonise-70-des-donnees) (30 mai 2026)
 
-### §6 — Les vrais loups
+### §6 : Les vrais loups
 - Bpifrance détient 3 % du capital de CMA CGM, L'Agefi (2021), [https://www.agefi.fr/news/entreprises/bpifrance-a-revendu-3-du-capital-de-cma-cgm-a-la-famille-saade](https://www.agefi.fr/news/entreprises/bpifrance-a-revendu-3-du-capital-de-cma-cgm-a-la-famille-saade)
 - [📻 Médias, censure et désinformation : l'architecture du silence](https://giak.substack.com/p/medias-censure-et-desinformation) (30 mai 2026)
 
-### §6.1 — La guerre cognitive sans armée
+### §6.1 : La guerre cognitive sans armée
 - 79 % des Français adhèrent à au moins une théorie du complot, enquête Ifop/Fondation Jean-Jaurès/Conspiracy Watch (vague 1, 2017), [https://www.ifop.com/article/enquete-sur-le-complotisme/](https://www.ifop.com/article/enquete-sur-le-complotisme/)
 - [🔬 Le paradoxe français : 66 % de colère, zéro résultat](https://giak.substack.com/p/le-paradoxe-francais-66-de-colere) (18 mai 2026)
 
-### §7 — Ce que produit le verrouillage et comment en sortir
+### §7 : Ce que produit le verrouillage et comment en sortir
 - [🔬 Le paradoxe français : 66 % de colère, zéro résultat](https://giak.substack.com/p/le-paradoxe-francais-66-de-colere) (18 mai 2026)
 - [🔒 Le Verrou : 28 recours au 49.3, 57 % d'abstention, 9 propriétaires qui contrôlent 90 % des médias](https://giak.substack.com/p/le-verrou-28-recours-au-493-57-dabstention)
 - [🗡️ Le peuple est le seul souverain : le système de désorganisation](https://giak.substack.com/p/le-peuple-est-le-seul-souverain-le) (29 mai 2026)

@@ -68,7 +68,7 @@ Cette médiatisation nationale révèle le paradoxe: un scrutin présenté comme
 
 **Mediapart** a révélé le 9 mars 2026 l'intense campagne de lobbying menée par Airbnb auprès des maire français avant les élections. La journaliste **Lucie Delaporte** a documenté les efforts de la plateforme pour influencer les élections.
 
-> « Alors que les maire disposent d'ores et déjà d'outils pour encadrer fortement les locations de courte durée, la firme américaine a mené un patient travail de conviction auprès des élus locaux. » — Lucie Delaporte, Mediapart, 9 mars 2026
+> « Alors que les maire disposent d'ores et déjà d'outils pour encadrer fortement les locations de courte durée, la firme américaine a mené un patient travail de conviction auprès des élus locaux. » : Lucie Delaporte, Mediapart, 9 mars 2026
 
 Airbnb fait face à un risque politique concret. **Emmanuel Grégoire**, candidat de la gauche à Paris, a annoncé dès février 2026: « Avec moi, à Paris, Airbnb, c'est fini! » selon MidiLibre. L'entreprise veut éviter l'élection de candidats pro-régulation.
 
@@ -78,7 +78,7 @@ La plateforme dispose d'outils légaux puissants: inscription obligatoire, taxat
 
 La FFB (Fédération Française du Bâtiment) a présenté 30 propositions aux candidats municipaux en décembre 2025, selon le communiqué officiel publié sur ffbatiment.fr. Le slogan était sans détour: « Maires avec grues, maire élus! »
 
-> « La FFB appelle les candidats à entendre les fortes attentes des Français bloqués dans leur parcours résidentiel. » — Communiqué FFB Nationale, 18 décembre 2025
+> « La FFB appelle les candidats à entendre les fortes attentes des Français bloqués dans leur parcours résidentiel. » : Communiqué FFB Nationale, 18 décembre 2025
 
 Les 30 propositions couvrent 8 thématiques détaillées sur le site de la FFB:
 
@@ -97,11 +97,11 @@ Les communes sont les premiers acheteurs publics du secteur Bâtiment. La FFB jo
 
 **Mediacités** et **Mediapart** ont révélé en février 2026 les montants impressionnants des dons de promoteurs immobiliers à **Jean-Luc Moudenc** (maire de Toulouse) lors de la campagne de 2019-2020.
 
-> « En 2019, une cinquantaine de professionnels de l'immobilier ont financé la campagne de Jean-Luc Moudenc à hauteur de 300 000 euros. » — Mediacités, 10 février 2026
+> « En 2019, une cinquantaine de professionnels de l'immobilier ont financé la campagne de Jean-Luc Moudenc à hauteur de 300 000 euros. » : Mediacités, 10 février 2026
 
 Le montant total atteint **507 650 euros** de 113 donateurs, avec des contributions allant de 500 à 7 500 euros, selon Mediapart du 13 février 2026.
 
-> « J'assume d'être un maire bâtisseur. » — Jean-Luc Moudenc, déclaration à Mediacités
+> « J'assume d'être un maire bâtisseur. » : Jean-Luc Moudenc, déclaration à Mediacités
 
 Les raisons de ces dons sont doubles, documentées par l'enquête de Mediacités:
 
@@ -120,7 +120,7 @@ Ce système de financement crée une dette implicite du politique envers les int
 
 Le ministre de l'Intérieur a adressé aux préfets une circulaire sur l'attribution des nuances politiques aux candidats aux élections municipales, publiée par **Vie Publique** le 28 février 2026.
 
-> « La circulaire a été validée par le Conseil d'État dans une décision du 27 février 2026. » — Vie-Publique.fr
+> « La circulaire a été validée par le Conseil d'État dans une décision du 27 février 2026. » : Vie-Publique.fr
 
 Cette circulaire donne aux préfets le pouvoir de classifier chaque liste candidate, même celles qui se déclarent « sans étiquette ». La nuance décidée par l'administration peut différer de l'étiquette déclarée par le candidat lui-même.
 
@@ -128,7 +128,7 @@ Cette circulaire donne aux préfets le pouvoir de classifier chaque liste candid
 
 Dans les communes de plus de 3 500 habitants, chaque liste reçoit une « nuance politique » officielle, différente de l'étiquette déclarée par les candidats eux-mêmes, selon TF1 Info du 16 février 2026.
 
-> « Même ceux qui se présentent sans étiquette seront classés par les préfets dans l'une des 26 nuances existantes. » — TF1 Info
+> « Même ceux qui se présentent sans étiquette seront classés par les préfets dans l'une des 26 nuances existantes. » : TF1 Info
 
 Les nuances incluent: extrême gauche, union de la gauche, divers gauche, socialist, macroniste, divers droite, union de la droite, extrême droite, et autres catégories repertoriées par le ministère de l'Intérieur.
 
@@ -138,7 +138,7 @@ Le système permet de colorer politiquement des candidats qui préféreraient re
 
 Pour la première fois, La France Insoumise a contesté la classification préfectorale, selon TF1 Info. Cette polémique révèle le pouvoir discrétionnaire de l'administration sur la représentation politique locale.
 
-> « La nuance politique est attribuée par le préfet à chaque liste. » — Association des Maire de la Marne
+> « La nuance politique est attribuée par le préfet à chaque liste. » : Association des Maire de la Marne
 
 Le préfet, représentant de l'État au niveau départmental, décide ainsi de la coloration politique officielle d'un candidat. Cette classification influence la perception des électeurs et la communication des résultats électoraux.
 
@@ -152,11 +152,11 @@ Le préfet, représentant de l'État au niveau départmental, décide ainsi de l
 
 **Viginum**, le service chargé de lutter contre les manipulations en ligne, a démascaré une opération d'ingérence russe visant **Pierre-Yves Bournazel**, candidat Horizons et Renaissance aux municipales de Paris.
 
-> « Le candidat de centre droit aux municipales à Paris a fait l'objet d'une opération d'ingérence numérique menée par un réseau lié à la Russie. » — 20 Minutes, 6 mars 2026
+> « Le candidat de centre droit aux municipales à Paris a fait l'objet d'une opération d'ingérence numérique menée par un réseau lié à la Russie. » : 20 Minutes, 6 mars 2026
 
 L'attaque a été menée par le réseau **Storm-1516**, accusé d'être derrière de nombreuses opérations de désinformation en France et en Europe, selon La Croix du 6 mars 2026.
 
-> « Storm-1516, accusé d'être derrière de nombreuses opérations de désinformation en France et dans d'autres pays européens. » — Viginum, rapport du 6 mars 2026
+> « Storm-1516, accusé d'être derrière de nombreuses opérations de désinformation en France et dans d'autres pays européens. » : Viginum, rapport du 6 mars 2026
 
 La méthode documentée: usurpation du site officiel du candidat pour « discrédite son image ». Une vidéo fake prétendait que Bournazel voulait fermer le Centre Pompidou pour en faire un centre d'accueil de migrants, selon HuffPost.
 
@@ -167,7 +167,7 @@ Deux candidats La France insoumise ont également été visés par des opératio
 - **Sébastien Delogu** (Marseille)
 - **François Piquemal** (Toulouse)
 
-> « Deux candidats La France insoumise aux municipales, à Marseille et Toulouse, ont été la cible d'une ingérence numérique d'origine étrangère. » — RTL, 10 mars 2026
+> « Deux candidats La France insoumise aux municipales, à Marseille et Toulouse, ont été la cible d'une ingérence numérique d'origine étrangère. » : RTL, 10 mars 2026
 
 Les investigations sont en cours pour déterminer l'origine précise de ces opérations.
 
@@ -175,7 +175,7 @@ Les investigations sont en cours pour déterminer l'origine précise de ces opé
 
 **FranceInfo** avait documenté dès octobre 2025 l'existence de **141 faux sites d'information locaux** créés simultanément pour perturber les municipales 2026.
 
-> « À l'approche des municipales de mars 2026, une armée de faux médias locaux en ligne, dopés à l'IA et reliés à des réseaux d'influence russes et chinoises ont été identifiés par des chercheurs. » — FranceInfo, 15 octobre 2025
+> « À l'approche des municipales de mars 2026, une armée de faux médias locaux en ligne, dopés à l'IA et reliés à des réseaux d'influence russes et chinoises ont été identifiés par des chercheurs. » : FranceInfo, 15 octobre 2025
 
 L'objectif déclaré par les chercheurs: fragmenter l'opinion publique, créer un climat d'insécurité et déstabiliser le processus démocratique.
 
@@ -183,7 +183,7 @@ L'objectif déclaré par les chercheurs: fragmenter l'opinion publique, créer u
 
 **SudOuest** a enquêté sur un site Internet baptisée « Sud-Ouest Direct », créé le 14 avril 2025, qui pillait et modifiait des contenus de la presse locale.
 
-> « Enquête. De Bordeaux àMoscou, voyage au cœur d'une importante opération d'ingérence russe à l'heure des élections municipales. » — SudOuest, 14 mars 2026
+> « Enquête. De Bordeaux àMoscou, voyage au cœur d'une importante opération d'ingérence russe à l'heure des élections municipales. » : SudOuest, 14 mars 2026
 
 L'enquête a menés de Bordeaux à Angoulême, en Allemagne, jusqu'àMoscou. Le réseau d'ingérence a été documenté en marche pendant près d'un an avant les élections.
 
@@ -210,32 +210,32 @@ Les partis politiques nationalisent le scrutin tout en prétendant qu'il est loc
 
 ### La question finale
 
-La vraie question n'est plus « pour qui voter? » mais « qui décide vraiment? » Face à ces réseaux d'influence, l'électeur français est-il encore libre de son choix — ou est-il devenu un spectateur impuissant d'une démocratie capturée?
+La vraie question n'est plus « pour qui voter? » mais « qui décide vraiment? » Face à ces réseaux d'influence, l'électeur français est-il encore libre de son choix, ou est-il devenu un spectateur impuissant d'une démocratie capturée?
 
 ---
 
 ## Sources
 
-1. Mediapart — « Élections municipales : l'intense campagne de lobbying d'Airbnb auprès des maire » (9 mars 2026) https://www.mediapart.fr/journal/politique/090326/élections-municipales-l-intense-campagne-de-lobbying-d-airbnb-aupres-des-maires
+1. Mediapart : « Élections municipales : l'intense campagne de lobbying d'Airbnb auprès des maire » (9 mars 2026) https://www.mediapart.fr/journal/politique/090326/élections-municipales-l-intense-campagne-de-lobbying-d-airbnb-aupres-des-maires
 
-2. MidiLibre — « Résultats des municipales 2026 : qui sont les partis gagnants et perdants » (16 mars 2026) https://www.midilibre.fr/2026/03/16/municipales-2026-qui-sont-les-partis-gagnants-et-perdants-en-france-et-quelles-lecons-peut-on-en-tirer-pour-la-suite-13274574.php
+2. MidiLibre : « Résultats des municipales 2026 : qui sont les partis gagnants et perdants » (16 mars 2026) https://www.midilibre.fr/2026/03/16/municipales-2026-qui-sont-les-partis-gagnants-et-perdants-en-france-et-quelles-lecons-peut-on-en-tirer-pour-la-suite-13274574.php
 
-3. FFB Nationale — « Maires avec grues, maire élus ! La FFB présente 30 propositions pour les municipales 2026 » (18 décembre 2025) https://www.ffbatiment.fr/actualites-batiment/presse/propositions-ffb-municipales-2026
+3. FFB Nationale : « Maires avec grues, maire élus ! La FFB présente 30 propositions pour les municipales 2026 » (18 décembre 2025) https://www.ffbatiment.fr/actualites-batiment/presse/propositions-ffb-municipales-2026
 
-4. Mediacités — « Quand l'argent des promoteurs immobiliers ruisselait sur le candidat Moudenc en 2019 » (10 février 2026) https://www.mediacites.fr/municipales-2026/toulouse/2026/02/10/quand-largent-des-promoteurs-immobiliers-ruisselait-sur-le-candidat-moudenc-en-2019/
+4. Mediacités : « Quand l'argent des promoteurs immobiliers ruisselait sur le candidat Moudenc en 2019 » (10 février 2026) https://www.mediacites.fr/municipales-2026/toulouse/2026/02/10/quand-largent-des-promoteurs-immobiliers-ruisselait-sur-le-candidat-moudenc-en-2019/
 
-5. Mediapart — « Les généreux dons des promoteurs immobiliers au maire de Toulouse » (13 février 2026) https://www.mediapart.fr/journal/politique/130226/les-genereux-dons-des-promoteurs-immobiliers-au-maire-de-toulouse
+5. Mediapart : « Les généreux dons des promoteurs immobiliers au maire de Toulouse » (13 février 2026) https://www.mediapart.fr/journal/politique/130226/les-genereux-dons-des-promoteurs-immobiliers-au-maire-de-toulouse
 
-6. Vie-Publique.fr — « Municipales 2026 : la circulaire pour l'attribution des nuances politiques » (28 février 2026) https://www.vie-publique.fr/en-bref/301970-municipales-2026-la-circulaire-pour-lattribution-des-nuances
+6. Vie-Publique.fr : « Municipales 2026 : la circulaire pour l'attribution des nuances politiques » (28 février 2026) https://www.vie-publique.fr/en-bref/301970-municipales-2026-la-circulaire-pour-lattribution-des-nuances
 
-7. TF1 Info — « Extrême gauche, union de la droite, divers : comment sont classés les candidats aux élections municipales ? » (16 février 2026) https://www.tf1info.fr/élections/extreme-gauche-union-de-la-droite-divers-comment-sont-classes-les-candidats-aux-élections-municipales-2425012.html
+7. TF1 Info : « Extrême gauche, union de la droite, divers : comment sont classés les candidats aux élections municipales ? » (16 février 2026) https://www.tf1info.fr/élections/extreme-gauche-union-de-la-droite-divers-comment-sont-classes-les-candidats-aux-élections-municipales-2425012.html
 
-8. 20 Minutes — « Municipales 2026 à Paris : Un candidat à Paris visé par une opération d'ingérence liée à un groupe russe » (6 mars 2026) https://www.20minutes.fr/politique/4204863-20260306-municipales-2026-paris-candidat-paris-vise-operation-ingerence-liee-groupe-russe
+8. 20 Minutes : « Municipales 2026 à Paris : Un candidat à Paris visé par une opération d'ingérence liée à un groupe russe » (6 mars 2026) https://www.20minutes.fr/politique/4204863-20260306-municipales-2026-paris-candidat-paris-vise-operation-ingerence-liee-groupe-russe
 
-9. La Croix — « Municipales 2026 à Paris : Pierre-Yves Bournazel visé par une opération d'ingérence russe » (6 mars 2026) https://www.la-croix.com/politique/municipales-2026-a-paris-pierre-yves-bournazel-vise-par-une-operation-d-ingerence-russe-20260306
+9. La Croix : « Municipales 2026 à Paris : Pierre-Yves Bournazel visé par une opération d'ingérence russe » (6 mars 2026) https://www.la-croix.com/politique/municipales-2026-a-paris-pierre-yves-bournazel-vise-par-une-operation-d-ingerence-russe-20260306
 
-10. RTL — « Municipales 2026 : deux candidats LFI ciblés par une ingérence numérique venant de l'étranger » (10 mars 2026) https://www.rtl.fr/actu/politique/municipales-2026-deux-candidats-lfi-cibles-par-une-ingerence-numerique-venant-de-l-etranger-7900610604
+10. RTL : « Municipales 2026 : deux candidats LFI ciblés par une ingérence numérique venant de l'étranger » (10 mars 2026) https://www.rtl.fr/actu/politique/municipales-2026-deux-candidats-lfi-cibles-par-une-ingerence-numerique-venant-de-l-etranger-7900610604
 
-11. FranceInfo — « Municipales 2026 : de faux sites d'information locale soupçonnés d'être des outils d'ingérence russe et chinoise » (15 octobre 2025) https://www.franceinfo.fr/élections/municipales/municipales-2026-de-faux-sites-d-information-locale-soupconnes-d-etre-des-outils-d-ingerence-russe-et-chinoise_7552339.html
+11. FranceInfo : « Municipales 2026 : de faux sites d'information locale soupçonnés d'être des outils d'ingérence russe et chinoise » (15 octobre 2025) https://www.franceinfo.fr/élections/municipales/municipales-2026-de-faux-sites-d-information-locale-soupconnes-d-etre-des-outils-d-ingerence-russe-et-chinoise_7552339.html
 
-12. SudOuest — « Enquête. De Bordeaux àMoscou, voyage au cœur d'une importante opération d'ingérence russe à l'heure des élections municipales » (14 mars 2026) https://www.sudouest.fr/élections/municipales/enquete-de-bordeaux-a-moscou-voyage-au-coeur-d-une-importante-operation-d-ingerence-russe-a-l-heure-des-élections-municipales-28203956.php
+12. SudOuest : « Enquête. De Bordeaux àMoscou, voyage au cœur d'une importante opération d'ingérence russe à l'heure des élections municipales » (14 mars 2026) https://www.sudouest.fr/élections/municipales/enquete-de-bordeaux-a-moscou-voyage-au-coeur-d-une-importante-operation-d-ingerence-russe-a-l-heure-des-élections-municipales-28203956.php

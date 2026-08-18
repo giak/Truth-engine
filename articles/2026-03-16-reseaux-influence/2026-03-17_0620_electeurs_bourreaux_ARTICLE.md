@@ -16,15 +16,15 @@ Cette assertion, relayée massivement sur les réseaux sociaux, IDENTIFIE le pro
 
 ### Le système qui protège les corrupteurs
 
-La France découvre, élection après élection, des candidats poursuivis, condamnés, parfois incarcérés — et pourtant réélus. Mais ce n'est pas la « corruption individuelle » qui devrait retenir l'attention. C'est le SYSTÈME qui la produit ET la protège.
+La France découvre, élection après élection, des candidats poursuivis, condamnés, parfois incarcérés, et pourtant réélus. Mais ce n'est pas la « corruption individuelle » qui devrait retenir l'attention. C'est le SYSTÈME qui la produit ET la protège.
 
 **Coût des atteinte à la probité : 120 milliards d'euros par an.** C'est le chiffre avancé par Rand Europe, un institut indépendant mandate par le Parlement européen. Ce montant dépasse l'évasion fiscale. Entre 2016 et 2024, les atteintes à la probité ont augmenté de 51% en France.
 
-> « Le système n'a pas les moyens de ses ambitions » — Cour des Comptes 2025
+> « Le système n'a pas les moyens de ses ambitions » : Cour des Comptes 2025
 
 **1/3 des atteintes à la probité impliquent un maire ou un élu local**, selon l'Agence française anticorruption (AFA). La décentralisation n'a pas créé de la transparence ; elle a décentralisé la corruption.
 
-### Les candidats accusés qui briguent — et gagnent
+### Les candidats accusés qui briguent, et gagnent
 
 **Jean-Michel Baylet** incarne ce paradoxe. Ancien ministre, maire de Valence-d'Agen pendant 30 ans, il a été réélu le 15 mars 2026 avec plus de 61% des voix. Malgré une enquête pour violences sexuelles ouverte en 2020 et classé en 2022 pour prescription. Malgré une pétition de 10 000 signatures réclamant son retrait.
 
@@ -34,13 +34,13 @@ La France découvre, élection après élection, des candidats poursuivis, conda
 
 **Gilles Bourdouleix**, maire LR de Cholet depuis 1995, brigue un sixième mandat malgré des condamnations multiples : outrages et menaces sur fonctionnaires, homicide involontaire. « Il n'y avait pas de raison de retirer ma candidature », assume-t-il.
 
-**Laurent Degallaix**, maire Horizons de Valenciennes, était jugé le 19 février 2026 pour « prise illégale d'intérêts » et « subornation de témoin » — cinq jours après avoir annoncé sa candidature à sa réélection.
+**Laurent Degallaix**, maire Horizons de Valenciennes, était jugé le 19 février 2026 pour « prise illégale d'intérêts » et « subornation de témoin », cinq jours après avoir annoncé sa candidature à sa réélection.
 
 ### La justice qui ne sanctionne pas
 
 **65% des Français considèrent les hommes politiques comme « plutôt corrompus ».** C'est ce que révèle l'enquête de la Fondation Jean-Jaurès et Transparency International France réalisée avec Harris Interactive.
 
-> « Tous pourris » — cette croyance, analysée par le politiste Pierre Bréchon, « vient des scandales réels + sentiment d'impunité ».
+> « Tous pourris », cette croyance, analysée par le politiste Pierre Bréchon, « vient des scandales réels + sentiment d'impunité ».
 
 Le paradoxe, identifié par le politiste Pierre Lascoumes dans « Favoritisme et corruption à la française » : les Français s'indignent des affaires, mais sanctionnent peu les corrompus aux urnes.
 
@@ -52,7 +52,7 @@ Le paradoxe, identifié par le politiste Pierre Lascoumes dans « Favoritisme et
 
 Le clientélisme n'est pas une relique du passé. C'est un mécanisme ACTIF qui structure le lien élector en France.
 
-> « Le clientélisme : un phénomène massif mais peu connu » — L'Insoumission, janvier 2026
+> « Le clientélisme : un phénomène massif mais peu connu » : L'Insoumission, janvier 2026
 
 **+30% de subsides accordés aux communes dirigées par un ancien maire devenu ministre.** C'est ce que démontre l'étude du politiste Jean-François Fabre. Le lien est direct : quand un maire monte au gouvernement, sa commune reçoit davantage de subventions.
 
@@ -76,7 +76,7 @@ Le mécanisme est simple :
 2. **Élection** → Le bénéficiaire vote pour le bienfaiteur
 3. **Retour de faveur** → Une fois réélu, le maire redistribue
 
-> « Les classes supérieures s'organisent pour préempter le pouvoir politique » — Rapport « Démocratiser la politique » (2025)
+> « Les classes supérieures s'organisent pour préempter le pouvoir politique » : Rapport « Démocratiser la politique » (2025)
 
 ---
 
@@ -88,7 +88,7 @@ La concentration médiatique en France atteint un niveau sans équivalent en Eur
 
 **9 milliardaires contrôlent plus de 80% des médias français.** Les noms : Bernard Arnault (LVMH), Vincent Bolloré (Canal+/CNews), Xavier Niel (Le Monde/Nouvel Obs), Rodolphe Saadé (CMA CGM/BFMTV).
 
-> « L'influence démesurée des grandes fortunes sur les médias » — Basta Media, 2025
+> « L'influence démesurée des grandes fortunes sur les médias » : Basta Media, 2025
 
 Ces propriétaires n'hésitent pas à influencer DIRECTEMENT le contenu éditorial.
 
@@ -100,10 +100,10 @@ Ces propriétaires n'hésitent pas à influencer DIRECTEMENT le contenu éditori
 
 Les Français CROIENT que les médias sont « libres ». Mais :
 
-- **81% des Français** estiment que les médias respectent assez ou pas du tout le pluralisme — IFOP, 2024
+- **81% des Français** estiment que les médias respectent assez ou pas du tout le pluralisme : IFOP, 2024
 - La confiance dans les médias a chuté de 45% à 32% en 10 ans
 
-> « Les médias sont le premier pouvoir en France » — Médiapart
+> « Les médias sont le premier pouvoir en France » : Médiapart
 
 ---
 
@@ -115,11 +115,11 @@ La FNSEA (Fédération nationale des syndicats d'exploitants agricoles) n'est pa
 
 **37% des amendements parlementaire sont copier-coller de propositions de la FNSEA.** C'est ce que révèle l'enquête de Politis (2025).
 
-> « Cogestion » État-FNSEA — L'Humanité
+> « Cogestion » État-FNSEA : L'Humanité
 
 **La PAC (Politique agricole commune)** : la France négocie pour la FNSEA, pas pour les citoyens.
 
-**Les pesticides** : malgré les scandales (Glyphosate, PFAS), les normes sont récemment renforcées — sous la pression des révélations, pas du lobby.
+**Les pesticides** : malgré les scandales (Glyphosate, PFAS), les normes sont récemment renforcées, sous la pression des révélations, pas du lobby.
 
 ### Le mécanisme
 
@@ -135,7 +135,7 @@ La FNSEA (Fédération nationale des syndicats d'exploitants agricoles) n'est pa
 
 > **La censure n'est pas un bug. C'est une fonctionnalité.**
 
-Les Français découvrent, election après election, que leur accès à l'information est contrôlé par une architecture toujours plus sophistiquée. Mais cette architecture n'est pas le fruit du hasard — c'est un SYSTÈME construit couche par couche.
+Les Français découvrent, election après election, que leur accès à l'information est contrôlé par une architecture toujours plus sophistiquée. Mais cette architecture n'est pas le fruit du hasard : c'est un SYSTÈME construit couche par couche.
 
 ### Niveau 1 : L'Europe construit la machine
 
@@ -176,15 +176,15 @@ Le **Digital Services Act (DSA)**, entré en vigueur en février 2024, n'est pas
 
 **Les limites de l'Arcom** :
 
-- **Sanctions symboliques** : 20 000€ d'amende contre CNews pour climato-scepticisme — alors que les revenus de Bolloré via CNews dépassent les 100 millions d'euros. Le rapport : 1/5 000e.
+- **Sanctions symboliques** : 20 000€ d'amende contre CNews pour climato-scepticisme, alors que les revenus de Bolloré via CNews dépassent les 100 millions d'euros. Le rapport : 1/5 000e.
 
 - **Architecture de censure par procuration** : L'enquête sur l'attaque de l'Élysée contre Pascal Praud (décembre 2025) a révélé un système où l'État passe par l'Arcom pour atteindre les plateformes via des ONG « signalants confiance » (RSF, e-Enfance, CRIF) largement financées par l'État.
 
-- **Timing politique** : Les sanctions de l'Arcom tombent souvent après les élections ou lors de controverses médiatico-politiques. C8 perd son autorisation TNT en février 2025 — 7,6 millions d'euros d'amende — au lendemain d'une campagne contre Bolloré.
+- **Timing politique** : Les sanctions de l'Arcom tombent souvent après les élections ou lors de controverses médiatico-politiques. C8 perd son autorisation TNT en février 2025, 7,6 millions d'euros d'amende, au lendemain d'une campagne contre Bolloré.
 
 - **Label médias** : En décembre 2025, Macron a proposé un label « médias fiables » contre « désinformation ». Risque : une pravda algorithmique où l'État définit la vérité officielle.
 
-**L'Arcom est un régulateur captif** — pas au service des citoyens, mais d'un écosystème où l'État, les grandes plateformes et les milliardaires des médias négocient ensemble les limites de la liberté d'expression.
+**L'Arcom est un régulateur captif**, pas au service des citoyens, mais d'un écosystème où l'État, les grandes plateformes et les milliardaires des médias négocient ensemble les limites de la liberté d'expression.
 
 **La loi « majeurs à 15 ans »** :
 En janvier 2026, l'Assemblée nationale a adopté une loi interdisant l'accès aux réseaux sociaux aux moins de 15 ans :
@@ -225,7 +225,7 @@ En janvier 2026, l'Assemblée nationale a adopté une loi interdisant l'accès a
 
 ### Le constat final
 
-Toutes les plateformes utilisent les mêmes mécanismes. Tous les niveaux (EU, France, plateformes) sont connectés. La censure n'est pas un bug — c'est une fonctionnalité.
+Toutes les plateformes utilisent les mêmes mécanismes. Tous les niveaux (EU, France, plateformes) sont connectés. La censure n'est pas un bug, c'est une fonctionnalité.
 
 ---
 
@@ -235,17 +235,17 @@ Toutes les plateformes utilisent les mêmes mécanismes. Tous les niveaux (EU, F
 
 L'assertion « lobotomisation » a le mérite d'IDENTIFIER le problème. Mais ELLE IGNORE les causes.
 
-> « Les Français n'ont pas trouvé d'enjeu à cette élection » — Benjamin Morel, politiste
+> « Les Français n'ont pas trouvé d'enjeu à cette élection » : Benjamin Morel, politiste
 
 **44% d'abstention aux municipales 2026** : record absolu sous la Ve République.
 
-**L'abstention est 2× plus élevée chez les 20% les plus précaires** — c'est ce que démontre Nonna Mayer (Sciences Po) dans ses recherches sur Election et précarité.
+**L'abstention est 2× plus élevée chez les 20% les plus précaires** : c'est ce que démontre Nonna Mayer (Sciences Po) dans ses recherches sur Election et précarité.
 
-> « La précarité progresse en France et touche désormais bien au-delà des plus pauvres » — The Conversation, février 2026
+> « La précarité progresse en France et touche désormais bien au-delà des plus pauvres » : The Conversation, février 2026
 
-**15,4% de la population** vit sous le seuil de pauvreté — le niveau le plus élevé depuis 1996.
+**15,4% de la population** vit sous le seuil de pauvreté, le niveau le plus élevé depuis 1996.
 
-**13% sont en situation de privation matérielle et sociale** — incapables de payer leurs dépenses courantes.
+**13% sont en situation de privation matérielle et sociale**, incapables de payer leurs dépenses courantes.
 
 ### La mécanique du découplage
 
@@ -255,7 +255,7 @@ L'assertion « lobotomisation » a le mérite d'IDENTIFIER le problème. Mais EL
 4. **Candidats** → Produit du système
 5. **Vote** → « Tous pourris » → Abstention
 
-> « La démocratie représentative ne représente plus le peuple » — Mediapart, février 2026
+> « La démocratie représentative ne représente plus le peuple » : Mediapart, février 2026
 
 ---
 
@@ -269,16 +269,16 @@ Le concept de **« state capture »** (Banque mondiale, FMI, International IDEA)
 
 ### La Vème République
 
-> « Le régime politique actuel a peur du peuple » — Hélène Landemore, politiste, Le Monde, octobre 2025
+> « Le régime politique actuel a peur du peuple » : Hélène Landemore, politiste, Le Monde, octobre 2025
 
-> « La Vème République : monarchique, arrogante et inefficace » — Hélène Landemore
+> « La Vème République : monarchique, arrogante et inefficace » : Hélène Landemore
 
-> « La démocratie française menacée par son oligarchie libérale » — Renaud Meltz, historien, mars 2026
+> « La démocratie française menacée par son oligarchie libérale » : Renaud Meltz, historien, mars 2026
 
 ### Les chiffres qui tuent
 
-- **59%** des Français ne soutiennent aucun parti politique — Vincent Tiberj, 2026
-- **90%** considèrent la démocratie comme un bon régime — Cevipof 2026
+- **59%** des Français ne soutiennent aucun parti politique : Vincent Tiberj, 2026
+- **90%** considèrent la démocratie comme un bon régime : Cevipof 2026
 - Mais seulement **35%** sont satisfaits du fonctionnement actuel
 - **+51%** d'atteintes à la probité en 8 ans
 
@@ -292,12 +292,12 @@ Le récit de la « lobotomisation » est une simplifiction qui IDENTIFIE le prob
 
 **LES FAITS :**
 
-- **Corruption** — 120 Mrds€/an, 65% des Français considèrent les politiques corrompus
-- **Clientélisme** — +30% subsides, Marseille, Montpellier
-- **Médias** — 9 milliardaires >80%
-- **Lobbying** — 37% amendements FNSEA
-- **Censure** — X/Meta/TikTok/YouTube, DSA (machine UE), Arcom (régulateur captif), 141 faux sites
-- **Précarité** — ×2 abstention, 15,4% pauvreté
+- **Corruption** : 120 Mrds€/an, 65% des Français considèrent les politiques corrompus
+- **Clientélisme** : +30% subsides, Marseille, Montpellier
+- **Médias** : 9 milliardaires >80%
+- **Lobbying** : 37% amendements FNSEA
+- **Censure** : X/Meta/TikTok/YouTube, DSA (machine UE), Arcom (régulateur captif), 141 faux sites
+- **Précarité** : ×2 abstention, 15,4% pauvreté
 
 **Le SYSTÈME produit ces candidats ET empêche les électeurs de choisir autrement.**
 
@@ -314,7 +314,7 @@ Le système se revendique « démocratie » alors qu'il :
 
 **Le système peut-il être démantelé ?**
 
-Les données suggèrent que NON — pas par les voies institutionnelles. La Ve République, conçue pour protéger les élites, ne peut pas être réformée par ceux qu'elle protège.
+Les données suggèrent que NON : pas par les voies institutionnelles. La Ve République, conçue pour protéger les élites, ne peut pas être réformée par ceux qu'elle protège.
 
 La seule question restante est : **quand et comment le peuple français reprendra-t-il le contrôle ?**
 
@@ -349,7 +349,7 @@ La seule question restante est : **quand et comment le peuple français reprendr
 
 ---
 
-*Article produit selon le protocole SUBLIMATOR v21.1 — 17 mars 2026*
+*Article produit selon le protocole SUBLIMATOR v21.1 : 17 mars 2026*
 - https://www.01net.com/actualites/le-gouvernement-veut-contraindre-tiktok-snapchat-et-instagram-a-verifier-lage-de-tous-les-utilisateurs-a-partir-de-lannee-prochaine.html
 - https://www.journaldugeek.com/2026/01/30/tiktok-instagram-youtube-voici-les-reseaux-sociaux-qui-seront-bientot-interdits-aux-moins-de-15-ans/
 - https://fr.euronews.com/next/2026/01/27/meta-tiktok-et-youtube-face-a-un-proces-historique-pour-laddiction-des-jeunes-aux-reseaux

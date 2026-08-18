@@ -36,9 +36,9 @@ L'analyse qui suit ne cherche pas à défendre les politiciens incriminés. Elle
 
 ---
 
-## Chapitre 1 : L'Architecture de la Corruption — Qui Protège les Corrompus?
+## Chapitre 1 : L'Architecture de la Corruption, Qui Protège les Corrompus?
 
-> **"Le système n'a pas les moyens de ses ambitions."** — Transparency France
+> **"Le système n'a pas les moyens de ses ambitions."** : Transparency France
 
 La France ne manque pas de lois anticorruption. Elle manque de volonté de les appliquer.
 
@@ -61,9 +61,9 @@ La corruption n'est pas un défaut du système. C'est une caractéristique.
 
 ---
 
-## Chapitre 2 : Le Clientélisme Local — l'Achat Direct du Vote
+## Chapitre 2 : Le Clientélisme Local, l'Achat Direct du Vote
 
-> **"les subventions municipales augmentent de 30% lorsqu'un ancien maire devient ministre."** — étude brice fabre (sciences po)
+> **"les subventions municipales augmentent de 30% lorsqu'un ancien maire devient ministre."** : étude brice fabre (sciences po)
 
 Le clientélisme n'est pas une relique du passé. C'est un système organisé qui fonctionne aujourd'hui.
 
@@ -85,9 +85,9 @@ La fraude existe. Elle est prouvée. Mais elle est présentée comme exceptionne
 
 ---
 
-## Chapitre 3 : Le Verrouillage Médiatique — 9 Milliardaires Contrôlent votre Information
+## Chapitre 3 : Le Verrouillage Médiatique, 9 Milliardaires Contrôlent votre Information
 
-> **"plus de 90% des quotidiens nationaux appartiennent à une poignée de milliardaires."** — l'essentiel de l'éco, mai 2025
+> **"plus de 90% des quotidiens nationaux appartiennent à une poignée de milliardaires."** : l'essentiel de l'éco, mai 2025
 
 Vous pensez être informés? Vous êtes conditionnés.
 
@@ -97,10 +97,10 @@ Neuf milliardaires contrôlent désormais plus de 80% des médias français. Cet
 
 Les propriétaires clés:
 
-- **Vincent Bolloré**: CNews, Europe 1, Prisma Media — droite/extrême droite
-- **Bernard Arnault**: Le Parisien, Les Échos — business/conservateur
-- **Xavier Niel**: Le Monde, Nice-Matin — divers/centre
-- **Rodolphe Saadé**: BFMTV — transport/logistique
+- **Vincent Bolloré**: CNews, Europe 1, Prisma Media : droite/extrême droite
+- **Bernard Arnault**: Le Parisien, Les Échos : business/conservateur
+- **Xavier Niel**: Le Monde, Nice-Matin : divers/centre
+- **Rodolphe Saadé**: BFMTV : transport/logistique
 
 ### Le paradoxe des subventions
 
@@ -110,9 +110,9 @@ Les médias qui devraient contrôler les politiciens sont possédés par les mê
 
 ---
 
-## Chapitre 4 : Le Lobbying Institutionnalisé — Qui Écrit réellement les Lois?
+## Chapitre 4 : Le Lobbying Institutionnalisé, Qui Écrit réellement les Lois?
 
-> **"37% des amendements déposés par les parlementaires hors-nfp sont des demandes directes de la fnsea."** — politis / data for good, mai 2025
+> **"37% des amendements déposés par les parlementaires hors-nfp sont des demandes directes de la fnsea."** : politis / data for good, mai 2025
 
 La France ne serait pas gouvernée par ses élus mais par ses lobbys.
 
@@ -134,9 +134,9 @@ Quand vous votez, vous votez pour des lois écrites par ceux qui bénéficient d
 
 ---
 
-## Chapitre 5 : La Censure Systémique — L'État Censure Ses Citoyens
+## Chapitre 5 : La Censure Systémique, L'État Censure Ses Citoyens
 
-> **"la france a inventé le complexe censuro-industriel."** — thomas fazi, septembre 2025
+> **"la france a inventé le complexe censuro-industriel."** : thomas fazi, septembre 2025
 
 Les Twitter Files France, publiés en septembre 2025 par Michael Shellenberger et Thomas Fazi, ont révélé l'existence d'un système de censure organisé par l'État français.
 
@@ -182,9 +182,9 @@ Le paradoxe absolu : @QuentinCad31672 présente X comme un "bastion de liberté"
 
 ---
 
-## Chapitre 6 : Les Vraies Causes de l'Abstention — Pas de "Lobotomisation"
+## Chapitre 6 : Les Vraies Causes de l'Abstention, Pas de "Lobotomisation"
 
-> **"la propension à s'abstenir double chez les 20% les plus précaires."** — nonna mayer, cnrs/sciences po
+> **"la propension à s'abstenir double chez les 20% les plus précaires."** : nonna mayer, cnrs/sciences po
 
 L'auteur accuse les électeurs d'être "lobotomisés par la bouillie médiatique". La réalité est très différente.
 
@@ -209,7 +209,7 @@ Ce n'est pas l'intelligence qui manque. C'est le choix qui manque.
 
 ---
 
-## Chapitre 7 : L'Analyse de l'auteur — Ce qui Manque
+## Chapitre 7 : L'Analyse de l'auteur, Ce qui Manque
 
 @QuentinCad31672 a raison sur un point. Les électeurs votent pour des politiciens problématiques. Mais son analyse échoue sur tout le reste.
 
@@ -271,5 +271,5 @@ La question finale n'est donc pas "comment réveiller les lobotomisés?" mais "c
 
 ---
 
-*article écrit selon le protocole sublimator v21.0 — the apex engine*
-*mars 2026 — truth engine investigation*
+*article écrit selon le protocole sublimator v21.0 : the apex engine*
+*mars 2026 : truth engine investigation*

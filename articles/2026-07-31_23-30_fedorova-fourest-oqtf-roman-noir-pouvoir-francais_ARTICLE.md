@@ -22,7 +22,7 @@ Cette affaire s'inscrit dans une architecture plus vaste. L'enquête **[📻 Mé
 
 L'arrêté ministériel signé le 28 juillet 2026 par la Préfecture de Police de Paris tient en quelques formules. Le comportement de Xenia Fedorova « porte atteinte aux intérêts fondamentaux de l'État. » Sa présence « constitue une menace particulièrement grave et actuelle pour l'ordre public. » Elle est un « relais des campagnes de désinformation pilotées par les autorités russes. »
 
-L'OQTF — l'obligation de quitter le territoire français — est la procédure administrative qui permet à l'État d'expulser un étranger sans passer par un juge. Arme silencieuse du droit des étrangers, elle se distingue de l'arrêté ministériel d'expulsion, plus rare et plus grave, qui suppose une menace pour l'ordre public. Fedorova a reçu les deux.
+L'OQTF, l'obligation de quitter le territoire français, est la procédure administrative qui permet à l'État d'expulser un étranger sans passer par un juge. Arme silencieuse du droit des étrangers, elle se distingue de l'arrêté ministériel d'expulsion, plus rare et plus grave, qui suppose une menace pour l'ordre public. Fedorova a reçu les deux.
 
 Aucune phrase. Aucune chronique. Aucune date.
 
@@ -70,7 +70,7 @@ L'ironie est structurelle : l'argent du gaz de Poutine finance la lutte contre �
 
 Křetínský n'est pas seulement propriétaire de Franc-Tireur. Il est le principal créancier de Libération, à qui il a accordé environ 60 millions d'euros de prêts. Le journal qui a révélé l'arrêté d'expulsion le 29 juillet : et dont la ligne éditoriale a applaudi à l'OQTF : bénéficie de prêts substantiels de sa part. Convergence d'agendas documentée. Aucune instruction hiérarchique n'est prouvée.
 
-Il y a une troisième strate à cette ironie. La France est le premier importateur européen de gaz naturel liquéfié russe. Sur les 9,89 millions de tonnes importées par l'Union européenne au premier semestre 2026, en hausse de 18 %, la France arrive en tête — le tonnage français spécifique n'est pas public, les données douanières étant agrégées au niveau européen par les courtiers (Kpler). Cumul 2022-2025 : environ 37,8 milliards d'euros. TotalEnergies détient 19,4 % de Novatek, l'opérateur du terminal Yamal LNG d'où provient l'essentiel du GNL russe.
+Il y a une troisième strate à cette ironie. La France est le premier importateur européen de gaz naturel liquéfié russe. Sur les 9,89 millions de tonnes importées par l'Union européenne au premier semestre 2026, en hausse de 18 %, la France arrive en tête, le tonnage français spécifique n'étant pas public, les données douanières étant agrégées au niveau européen par les courtiers (Kpler). Cumul 2022-2025 : environ 37,8 milliards d'euros. TotalEnergies détient 19,4 % de Novatek, l'opérateur du terminal Yamal LNG d'où provient l'essentiel du GNL russe.
 
 L'État français n'est pas actionnaire majoritaire de TotalEnergies. La Caisse des dépôts détient 1,33 % du capital, pour environ 100 millions d'euros de dividendes annuels. Le paradoxe n'est pas une tartufferie coordonnée : c'est une déconnexion politique. La diplomatie française est anti-russe. La politique énergétique française est pro-GNL. Ces deux politiques coexistent dans le même appareil d'État sans que personne n'ait à les arbitrer.
 

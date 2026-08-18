@@ -43,7 +43,7 @@ Le débat médiatique oppose Barbut « l'écolo élitiste » au RN « le défens
 
 Barbut est prise dans un étau que personne avant elle n'a pu desserrer :
 
-**Première mâchoire** : le verrou nucléaire de 1974. Le plan Messmer a fait de la France le pays le plus nucléarisé du monde. L'électricité y est abondante, subventionnée, et à 94 % décarbonée. Conséquence logique : la climatisation alimentée au nucléaire est présentée comme propre. Les défenseurs de la clim ont raison sur ce point technique. EDF a conçu un système où le kWh est si peu cher que la climatisation devient rationnelle. Barbut ne peut pas contredire cette logique sans remettre en cause le choix fondateur de 1974 — ce qu'aucun gouvernement n'a fait en cinquante-deux ans.
+**Première mâchoire** : le verrou nucléaire de 1974. Le plan Messmer a fait de la France le pays le plus nucléarisé du monde. L'électricité y est abondante, subventionnée, et à 94 % décarbonée. Conséquence logique : la climatisation alimentée au nucléaire est présentée comme propre. Les défenseurs de la clim ont raison sur ce point technique. EDF a conçu un système où le kWh est si peu cher que la climatisation devient rationnelle. Barbut ne peut pas contredire cette logique sans remettre en cause le choix fondateur de 1974, ce qu'aucun gouvernement n'a fait en cinquante-deux ans.
 
 **Deuxième mâchoire** : le traumatisme de 2003. Quatorze mille morts en canicule. Chaque Français de plus de trente ans se souvient des corps non réclamés à la morgue, des enterrements collectifs, des médecins généralistes qui disaient « achetez un climatiseur ». Depuis 2003, toute régulation de la climatisation est politiquement impossible. Dire « il faut limiter la clim » en période de canicule, c'est s'exposer à la réponse imparable : « vous voulez la mort des pauvres. »
 
@@ -73,7 +73,7 @@ Le thread d'UlrichFY fonctionne dans le même écosystème. Il prend le clip BFM
 
 ---
 
-## 6. Ce que cet article ne peut pas dire — mais que vous devez retenir
+## 6. Ce que cet article ne peut pas dire, mais que vous devez retenir
 
 Cet article ne peut pas proposer de solution miracle. Il n'y en a pas. La double contrainte est réelle : le nucléaire a objectivement décarboné l'électricité française, et 2003 a objectivement rendu la climatisation vitale.
 
@@ -93,4 +93,4 @@ Elle a raison de l'être. Mais son horreur est celle d'un système qui, depuis 2
 
 *Fichiers sources : investigations/2026-06-27_10-00_ulrichFY_waytz_barbut_clim_INVESTIGATION.md, 2026-06-27_10-30_fausse_polemique_climatisation_INVESTIGATION.md, 2026-06-27_11-45_faisceau_ulrichFY_climatisation_REGISTRE.md, 2026-06-27_12-00_1789_1914_revolution_industrie_energie_INVESTIGATION.md, 2026-06-27_13-00_1914_1945_guerres_energie_frigos_INVESTIGATION.md, 2026-06-27_13-20_1945_1973_trente_glorieuses_petrole_confort_INVESTIGATION.md, 2026-06-27_13-40_1973_2003_nucleaire_ecologie_canicule_INVESTIGATION.md, 2026-06-27_14-00_2003_2026_canicule_ac_guerre_culturelle_INVESTIGATION.md, 2026-06-27_14-30_synthese_237_ans_path_dependency_MEGA_SYNTHESE.md*
 
-*Publiable — licence ouverte, attribution souhaitée.*
+*Publiable : licence ouverte, attribution souhaitée.*

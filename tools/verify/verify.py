@@ -209,17 +209,19 @@ def run_checks(cfg, root):
             results.append(_record(name, "FAIL", msg))
             verdict = "FAIL"
 
-    nverdict, nviolations = check_naming(cfg, root)
-    if nviolations:
-        results.append(_record("naming", nverdict, "; ".join(nviolations)))
-        if nverdict == "FAIL":
+    for name, v, detail in check_naming(cfg, root):
+        results.append(_record(name, v, detail))
+        if v == "FAIL":
             verdict = "FAIL"
+        elif v == "BLOCKED" and verdict != "FAIL":
+            verdict = "BLOCKED"
 
-    cverdict, cviolations = check_content(cfg, root)
-    if cviolations:
-        results.append(_record("content", cverdict, "; ".join(cviolations)))
-        if cverdict == "FAIL":
+    for name, v, detail in check_content(cfg, root):
+        results.append(_record(name, v, detail))
+        if v == "FAIL":
             verdict = "FAIL"
+        elif v == "BLOCKED" and verdict != "FAIL":
+            verdict = "BLOCKED"
 
     return verdict, results
 
@@ -286,32 +288,42 @@ def scoped_files(root, spec, label):
     return None, files
 
 
+def _merge_verdict(cur, new):
+    """FAIL > BLOCKED > PASS : un FAIL ne redevient jamais PASS/BLOCKED."""
+    if cur == "FAIL" or new == "FAIL":
+        return "FAIL"
+    if cur == "BLOCKED" or new == "BLOCKED":
+        return "BLOCKED"
+    return "PASS"
+
+
 def check_naming(cfg, root):
     """Contrôle de nommage, activé uniquement si configuré.
 
-    Le périmètre (dirs, dir_pattern, only_types, since, exclude) est le même
-    que pour le contenu : voir scoped_files(). La convention de nommage ne
-    s'applique qu'aux livrables, pas aux fichiers de travail internes.
+    Retourne une liste de (name, verdict, detail). Le verdict est FAIL si au
+    moins un livrable viole la convention, BLOCKED si la config est invalide.
+    Un PASS est toujours émis avec le nombre de fichiers scannés : un périmètre
+    vide (0 fichier) est ainsi visible, jamais confondu avec une conformité.
     """
     n = cfg.get("naming", {}) or {}
     if not n.get("enabled"):
-        return "PASS", []
+        return []
     pattern = n.get("pattern")
     if not pattern:
-        return "BLOCKED", ["naming.enabled=true mais pattern absent"]
+        return [("naming", "BLOCKED", "naming.enabled=true mais pattern absent")]
     import re
 
     try:
         rx = re.compile(pattern)
     except re.error as exc:
-        return "BLOCKED", [f"pattern invalide : {exc}"]
+        return [("naming", "BLOCKED", f"pattern invalide : {exc}")]
     err, scoped = scoped_files(root, n, "naming")
     if err:
-        return "BLOCKED", [err]
+        return [("naming", "BLOCKED", err)]
     violations = [rel for rel in scoped if not rx.match(os.path.basename(rel))]
     if violations:
-        return "FAIL", violations[:50]
-    return "PASS", []
+        return [("naming", "FAIL", f"{len(violations)} violation(s) sur {len(scoped)} fichier(s) : " + "; ".join(violations[:50]))]
+    return [("naming", "PASS", f"{len(scoped)} fichier(s) scanné(s), 0 violation")]
 
 
 def check_content(cfg, root):
@@ -322,45 +334,48 @@ def check_content(cfg, root):
       forbidden  chaîne ou regex à chercher dans le contenu des fichiers scopés
       plus le périmètre commun (dirs, dir_pattern, only_types, since, exclude).
 
-    Un fichier contenant `forbidden` est une violation. Le scope garantit que
-    seuls les livrables visés (ex: articles publiés) sont contrôlés : les
-    brouillons, copies et fichiers internes n'engendrent pas de faux positifs.
+    Retourne une liste de (name, verdict, detail) par entrée. Le nom de la
+    config est respecté (pas de "content" générique). Un PASS émet le nombre
+    de fichiers scannés : un périmètre vide n'est pas une conformité.
     """
     import re
 
     entries = cfg.get("content", []) or []
-    violations = []
+    out = []
     for c in entries:
         if not isinstance(c, dict):
-            violations.append("content: entrée invalide (non-objet)")
+            out.append(("content", "BLOCKED", "entrée invalide (non-objet)"))
             continue
         name = c.get("name", "content")
         forbidden = c.get("forbidden")
         if not forbidden:
-            violations.append(f"{name}: forbidden absent")
+            out.append((name, "BLOCKED", "forbidden absent"))
             continue
         try:
             rx = re.compile(forbidden)
         except re.error as exc:
-            violations.append(f"{name}: forbidden invalide : {exc}")
+            out.append((name, "BLOCKED", f"forbidden invalide : {exc}"))
             continue
         err, scoped = scoped_files(root, c, name)
         if err:
-            violations.append(err)
+            out.append((name, "BLOCKED", err))
             continue
+        violations = []
         for rel in scoped:
             path = os.path.join(root, rel)
             try:
                 with open(path, encoding="utf-8", errors="replace") as fh:
                     content = fh.read()
             except OSError as exc:
-                violations.append(f"{name}: illisible {rel} : {exc}")
+                violations.append(f"illisible {rel} : {exc}")
                 continue
             if rx.search(content):
                 violations.append(rel)
-    if violations:
-        return "FAIL", violations[:50]
-    return "PASS", []
+        if violations:
+            out.append((name, "FAIL", f"{len(violations)} fichier(s) sur {len(scoped)} contiennent le contenu interdit : " + "; ".join(violations[:50])))
+        else:
+            out.append((name, "PASS", f"{len(scoped)} fichier(s) scanné(s), 0 occurrence"))
+    return out
 
 
 def now_iso():
