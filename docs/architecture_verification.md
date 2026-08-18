@@ -3,6 +3,7 @@
 > Spécification de besoin et d'architecture de la boucle de vérification implémentée dans Truth Engine.
 > Complémentaire au cahier des charges (`docs/boucle_de_verification.md`) et au tableau de bord (`docs/suivi_verification.md`).
 > Ce document décrit l'état **réel** du système au 2026-08-18, pas un état projeté.
+> Exception déclarée : le mode `verify.py gate` (review-local Ollama) est **spécifié mais non implémenté** à cette date (seuls `check`, `state-id`, `report`, `certify` existent dans le code). Toute mention de `gate` ci-dessous est une spécification, pas un état de code. Voir EX2, EX11, §2.2, §2.3.
 
 ---
 
@@ -39,7 +40,7 @@ UNVERIFIED ──► VERIFY ──► PASS ──► DELIVERABLE
 | ID | Exigence | Vérifié par |
 |---|---|---|
 | EX1 | Le verdict est déterministe pour tout ce qui est mécanique | `verify.py check` (branche, tests, nommage, contenu interdit) |
-| EX2 | Le jugement sémantique est confié à un reviewer en contexte neuf | `.agents/truth-reviewer.ts` (`includeMessageHistory: false`) |
+| EX2 | Le jugement sémantique est confié à un reviewer en contexte neuf | spawn : `.agents/truth-reviewer.ts` (`includeMessageHistory: false`) ; local : review-local Ollama stateless (`verify.py gate`, **spécifié non implémenté**) |
 | EX3 | Trois verdicts seulement : PASS, FAIL, BLOCKED. Jamais de score | grammaire des verdicts dans `verify.py` |
 | EX4 | La certification exige un verdict de reviewer explicite | `certify --review` ; défaut `BLOCKED` (fail-safe) |
 | EX5 | Le chantier est isolé de `main` | worktree + branches protégées |
@@ -48,6 +49,7 @@ UNVERIFIED ──► VERIFY ──► PASS ──► DELIVERABLE
 | EX8 | Les périmètres vides sont détectables, pas confondus avec la conformité | chaque PASS émet son nombre de fichiers scannés |
 | EX9 | Une erreur de configuration bloque, elle ne verdit pas | escalade FAIL > BLOCKED > PASS dans `run_checks` |
 | EX10 | Le pipeline KERNEL intègre la gate avant toute livraison | KERNEL 19a GATE_VERIFY, 19b FACT_WRITEBACK conditionnel |
+| EX11 | La revue locale est stateless (clean-room par construction) | `verify.py gate` (**spécifié non implémenté**) : prompt complet à chaque appel Ollama, aucun historique ; Ollama down ou sortie non conforme → BLOCKED, jamais PASS |
 
 ---
 
@@ -62,17 +64,19 @@ UNVERIFIED ──► VERIFY ──► PASS ──► DELIVERABLE
                         └───────────────────────┬────────────────────────┘
                                                 │
         ┌───────────────────────┐               ▼
-        │   truth-verifier.ts   │     ┌────────────────────┐
-        │  (agent orchestrateur)│────►│   verify.py        │
-        │  check → review → cert│     │  check / state-id  │
-        └──────────┬────────────┘     │  certify / report  │
-                   │                  └─────────┬──────────┘
-                   ▼                            │
-        ┌───────────────────────┐               ▼
-        │  truth-reviewer.ts    │     ┌────────────────────┐
-        │  (LLM, clean-room,    │     │  .verify/pending   │
-        │   lecture seule)      │     │  .verify/result    │
-        └───────────────────────┘     └────────────────────┘
+        │   truth-verifier.ts   │     ┌──────────────────────────┐
+        │  (agent orchestrateur)│────►│   verify.py              │
+        │  check → review → cert│     │  check · gate · state-id │
+        └──────────┬────────────┘     │  certify · report        │
+                   │                  └──────────┬───────────────┘
+                   │                             │
+                   ▼                             │
+        ┌───────────────────────┐      ┌─────────▼──────────────┐
+        │  truth-reviewer.ts    │      │  gate = check +        │
+        │  (spawn, clean-room,  │      │  review-local (Ollama  │
+        │   lecture seule)      │      │  qwen3.6:35b stateless)│
+        └───────────────────────┘      │  + certify             │
+                                       └────────────────────────┘
                                                 │
                         ┌───────────────────────▼───────────────────────┐
                         │              worktree (1 chantier)            │
@@ -85,10 +89,11 @@ UNVERIFIED ──► VERIFY ──► PASS ──► DELIVERABLE
 
 | Composant | Fichier | Rôle |
 |---|---|---|
-| Moteur déterministe | `tools/verify/verify.py` | checks, STATE_ID, certification, rapport |
+| Moteur déterministe | `tools/verify/verify.py` | checks, STATE_ID, certification, rapport ; `gate` = check + review-local + certify (**spécifié non implémenté** : seuls `check`/`state-id`/`report`/`certify` existent) |
 | Configuration | `.verify/config.json` | déclaration des checks et périmètres |
-| Agent verifier | `.agents/truth-verifier.ts` | orchestre la chaîne complète dans Codebuff |
-| Agent reviewer | `.agents/truth-reviewer.ts` | revue LLM indépendante, sans historique d'auteur |
+| Agent verifier | `.agents/truth-verifier.ts` | orchestre la chaîne complète dans Codebuff (chemin spawn) |
+| Agent reviewer | `.agents/truth-reviewer.ts` | revue LLM indépendante spawnée, sans historique d'auteur |
+| Reviewer local | Ollama `qwen3.6:35b` | revue stateless (prompt complet à chaque appel, aucun historique) = clean-room par construction ; options `{think: false, format: json}` (**spécifié non implémenté** : dépend du mode `gate`) |
 | Isolateur de chantier | `tools/verify/worktree-new.sh` | 1 chantier = 1 worktree = 1 branche |
 | Contrat | `knowledge.md` (DELIVERY GATE) | obligation contractuelle de passer la gate |
 | Pipeline | `truth-engine-v2/KERNEL.md` (19a/19b) | intégration de la gate au protocole d'investigation |
@@ -120,6 +125,25 @@ UNVERIFIED ──► VERIFY ──► PASS ──► DELIVERABLE
 
 Fail-safe : `certify` sans `--review` émet `BLOCKED`. `NO REVIEW => NO PASS`.
 
+Le bloc `gate` ci-dessous est **spécifié mais non implémenté** au 2026-08-18
+(les fixtures et le benchmark sont prêts : `tools/verify/fixtures/`).
+
+   gate ───► check (déterministe) ── FAIL ──► arrêt : verdict FAIL, jamais de revue
+             │
+             ▼
+        review-local (Ollama qwen3.6:35b, think:false, format:json)
+             │
+             ├── Ollama down / JSON invalide / points manquants → BLOCKED
+             ├── verdict advisory FAIL → FAIL (findings enregistrés)
+             └── verdict advisory PASS + check PASS → PASS
+             │
+             ▼
+        certify (.verify/findings.json + .verify/result.json au format officiel)
+
+Le verdict LLM est advisory : converti par des règles déterministes dans `verify.py`.
+La sortie LLM n'est jamais parsée en confiance (anti-fausse-précision, knowledge.md §3.5) :
+forme tolérante (fences), grammaire close stricte (OK/VIOLATION, PASS/FAIL/BLOCKED).
+
 ### 2.4 Le STATE_ID (invariant I2)
 
 ```
@@ -146,6 +170,13 @@ AUTEUR (session courante)          VERIFIER (truth-verifier.ts)      REVIEWER (t
 ```
 
 L'auteur ne certifie pas son propre travail : le verdict de revue vient du reviewer, le certificat est émis par le verifier.
+
+**Deux chemins de revue indépendante :**
+
+- **Spawn** (Codebuff payant, base2-free, base-chat) : `truth-verifier.ts` spawn `truth-reviewer.ts` (contexte neuf, lecture seule), lit le verdict, certifie.
+- **Review-local** (Freebuff base3-free, ou hors Codebuff) : `verify.py gate` appelle Ollama `qwen3.6:35b` avec le prompt complet (ROLE + CONTRACT + ENUM C1..C7 + nom du fichier + livrable). Stateless : aucun historique, aucun état partagé → clean-room par construction. Le verrou spawn base3-free est prouvé au §57.8 de `docs/boucle_de_verification.md`.
+
+Le gate ne modifie ni les agents `.ts` ni la chaîne spawnée : si le runtime rouvre le spawn, la boucle complète fonctionne sans changement.
 
 ### 2.6 Isolation (worktree)
 
@@ -194,9 +225,9 @@ KERNEL §0 → 18b (GATE_CHECK G0-G10, FREEZE)
 │ création │   │ production    │   │ gate déter-  │   │ revue LLM    │   │ certificat  │
 │ worktree │──►│ du livrable   │──►│ ministique   │──►│ indépendante │──►│ result.json │
 └──────────┘   └───────────────┘   └──────────────┘   └──────────────┘   └─────────────┘
-                                     │                    │
-                                     ▼                    ▼
-                                FAIL/BLOCKED          FAIL → rework
+                                     │ (check)         │ (spawn OU review-local Ollama)
+                                     ▼                 ▼
+                                FAIL/BLOCKED      FAIL → rework
 ```
 
 ### 3.2 Machine à états du verdict
@@ -278,22 +309,24 @@ Point de vigilance : les périmètres sont déclaratifs, donc vérifiables. Un p
 
 ## 5. Limites connues et honnêteté
 
-1. **Le contrat reste conversationnel** : `knowledge.md` et KERNEL 19a imposent la gate à l'agent, mais l'agent peut en théorie ne pas l'exécuter. La contrainte technique existe (`certify` fail-safe, branches protégées), la contrainte d'exécution dépend du runtime Codebuff.
+1. **Le contrat reste conversationnel** : `knowledge.md` et KERNEL 19a imposent la gate à l'agent, mais l'agent peut en théorie ne pas l'exécuter. La contrainte technique existe (`certify` fail-safe, branches protégées). Le chemin spawné dépend du runtime Codebuff ; le chemin `gate` (review-local) est scriptable et ne dépend que d'Ollama.
 2. **Le reviewer LLM est un jugement probabiliste** : la revue sémantique (cohérence, honnêteté, couverture) reste non déterministe par nature. Le déterministe sécurise l'état ; la revue juge le contenu.
 3. **Le certificat `review: PASS` n'est valable que si le verdict vient d'un reviewer réel** : depuis le fix fail-safe, `certify` sans `--review` émet BLOCKED. Un certificat antérieur au fix portant `review: PASS` sans verdict explicite est invalide comme preuve de revue.
 4. **Les 87 fichiers hors périmètre** (brouillons, audits, JSON) peuvent contenir des em-dash : c'est conforme au contrat Phase 3, qui ne couvre que les articles publiés.
 5. **`.git` ≈ 72 Mo** : les gros fichiers retirés du suivi restent dans l'historique ; une purge exigerait `git filter-repo` (destructif, non fait).
 6. **Le naming check couvre les livrables produits après `since`** : les fichiers legacy antérieurs ne sont pas flaggés (choix délibéré pour éviter 2772 violations de bruit).
+7. **Le choix du modèle de revue locale est un compromis rigueur/performances** : le benchmark du 2026-08-18 (5 modèles, 2 livrables, `docs/suivi_verification.md` §5) a retenu `qwen3.6:35b` (`think: false` obligatoire). Les modèles 8-12B sont laxistes (faux PASS sur livrable imparfait : le pire échec pour un moteur de vérité) ; phi4-mini et gemma4:26b éliminés. Le pairing modèle→options vit dans `verify.py`. Le re-run versionné (`tools/verify/fixtures/benchmark_results.json`, 2026-08-18) donne 6/6 points sur BAD et 3/4 sur le témoin (C2 manqué), avec une finding hallucinée sur BAD (date 2011 → 2021) : la sortie LLM est advisory, chaque finding doit être recoupé avant correction du livrable.
 
 ---
 
 ## 6. Références
 
 - Cahier des charges : `docs/boucle_de_verification.md`
-- Tableau de bord : `docs/suivi_verification.md`
+- Tableau de bord : `docs/suivi_verification.md` (rapport benchmark review-local : §5)
+- Spec du gate unifié : `docs/superpowers/specs/2026-08-18-gate-verification-review-local-design.md`
 - Moteur : `tools/verify/verify.py` (README : `tools/verify/README.md`)
 - Configuration : `.verify/config.json` (exemple : `.verify/config.example.json`)
 - Agents : `.agents/truth-verifier.ts`, `.agents/truth-reviewer.ts`
-- Isolation : `tools/verify/worktree-new.sh`
+- Isolateur de chantier : `tools/verify/worktree-new.sh`
 - Contrat : `knowledge.md` (section DELIVERY GATE)
 - Pipeline : `truth-engine-v2/KERNEL.md` (phases 19a GATE_VERIFY, 19b FACT_WRITEBACK)

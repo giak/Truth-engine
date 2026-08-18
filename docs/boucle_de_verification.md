@@ -2425,6 +2425,12 @@ L'option « session Freebuff séparée » (57.6) reste disponible comme second a
 
 **Prochaines étapes si validé :** implémenter `review-local` dans verify.py (appel Ollama + validation JSON + écriture findings.json), mini-benchmark de 5 livrables contrôlés, puis intégration dans la chaîne certifiée.
 
+**Mise à jour (2026-08-18, après POC contrôlé et benchmark) : état « prévu » → « spécifié ».** Le mini-benchmark demandé a été produit, élargi : 5 modèles × 2 livrables (rapport complet `docs/suivi_verification.md` §5, synthèse §57.9). Trois corrections par rapport à ce paragraphe :
+
+1. **gemma2:9b est éliminé** : le re-test contrôlé du même livrable POC (prompt avec contrat, 2026-08-18) a mesuré **1/6 findings** (STATE=OPEN uniquement). La ligne « 6/6 » du tableau ci-dessus ne s'est pas reproduite au re-test méthodique ; elle n'est plus une preuve valide (voir §57.9.2).
+2. **Le modèle cible est qwen3.6:35b** (`think: false` obligatoire, 20.4 tok/s), désigné par le benchmark.
+3. **La voie n'est plus `review-local` isolé mais la commande unique `verify.py gate`** = check + review-local + certify (spécifié : §57.9, spec `docs/superpowers/specs/2026-08-18-gate-verification-review-local-design.md`).
+
 ## 57.8 Réponse forensique : peut-on spawner en Freebuff ? (2026-08-18)
 
 Question posée : « tu es sûr que l'on ne peut pas utiliser les agents et sous agents spawn ? ». Réponse : **oui pour l'état actuel, mais la cause n'est pas une impossibilité technique : c'est un verrou de configuration dans le binaire client.** Preuves extraites du binaire freebuff 0.0.149 (13 août) et du run-state.json de la session de test 07-55.
@@ -2462,5 +2468,65 @@ La conclusion 57.6 (spawn impossible sous Freebuff actuel) est confirmée, mais 
 - **Ne pas attendre le spawn** : le verrou est côté Freebuff, hors de notre contrôle. L'option reviewer local Ollama (57.7) reste la voie principale.
 - **Ne rien casser** : nos agents locaux sont déjà déclarés spawnables dans base2-free/base-chat. Si Freebuff rouvre l'accès, la boucle fonctionnera sans modification.
 - **Le fail-safe BLOCKED reste le bon réflexe** : tout spawn refusé (modèle payant, template sans spawn) doit bloquer, jamais passer en faux PASS.
+
+## 57.9 Le gate unifié : `verify.py gate` (2026-08-18, spécifié)
+
+**57.9.1 De la voie « review-local » isolée à la commande unique.**
+
+Le §57.7 projetait `verify.py review-local` (gemma2:9b, ~40 s, format `{verdict, findings}`). Le POC contrôlé du 18 (même livrable POC, prompt avec contrat) a mesuré gemma2:9b à **1/6 findings** : la ligne « 6/6 » du tableau 57.7 ne s'est pas reproduite au re-test méthodique (les limites « qualité modèle » annoncées au §57.7 se sont confirmées empiriquement). Conséquence : un benchmark élargi (5 modèles × 2 livrables, rapports §5 de suivi) a été exécuté, et la voie est devenue une commande unique : `python3 tools/verify/verify.py gate` = check déterministe + review-local + certify.
+
+**57.9.2 Le benchmark (résumé ; rapport complet `docs/suivi_verification.md` §5).**
+
+Protocole : prompt ROLE + CONTRACT + ENUM (7 points C1..C7) + nom du fichier + livrable, `format: json`, temp 0.3 ; 2 livrables : BAD (6 violations réelles) et témoin (4 défauts réels dissimulés dans un livrable « conforme »).
+
+| Modèle | BAD (6 violations) | Témoin (4 défauts) | tok/s | Verdict |
+|---|---|---|---|---|
+| **qwen3.6:35b** (`think:false`) | FAIL, 6/6 points (1 finding halluciné) | FAIL, 3/4 (C2 manqué) | 21.3 / 18.3 | **retenu** |
+| qwen3:8b | FAIL, 6/6 correctes | PASS (laxiste : 4 défauts manqués) | 11.4 | secours |
+| gemma3:12b | FAIL, 6/6 correctes | PASS (laxiste) | 7.4 | secours |
+| phi4-mini | FAIL, 3 findings | FAIL incohérent (violation sans finding) | 22.4 | éliminé |
+| gemma4:26b | dégénéré (boucle, JSON cassé) | — | 17.1 | éliminé |
+| gemma2:9b | FAIL, 1/6 (re-test contrôlé) | — | — | éliminé |
+
+Enseignement clé : la rigueur (FAIL sur le témoin imparfait) est la qualité demandée ; le laxisme des modèles 8-12B est un risque de faux PASS, le pire échec pour un moteur de vérité.
+
+Correction post-audit (2026-08-18) : le « 4/4 » du témoin cité initialement n'était pas persisté et ne se reproduit pas sur l'artefact versionné. Le re-run `tools/verify/fixtures/benchmark_review_local.py` (résultats dans `benchmark_results.json` + `benchmark.log`) donne 3/4 sur le témoin (C2 manqué) et 6/6 points sur BAD, mais avec une finding hallucinée : le modèle affirme que l'ouvrage de Blanchard est « publié en 2021 », alors qu'il est de 2011 (Nouveau Monde, septembre 2011). Le modèle reste retenu (seul à ne pas faux-PASS le témoin), mais sa sortie est strictement advisory : chaque finding doit être recoupé avant correction.
+
+**57.9.3 La commande gate.**
+
+```text
+verify.py gate
+  1. check (déterministe)            FAIL → arrêt (jamais de revue d'un livrable non conforme)
+  2. review-local Ollama qwen3.6:35b think:false, format:json, temp 0.3, num_predict 4096
+  3. conversion advisory → gate     PASS/FAIL/BLOCKED ; réponse non conforme → BLOCKED
+  4. certify                        .verify/findings.json + .verify/result.json (format officiel)
+```
+
+Le verdict LLM est advisory : converti par des règles déterministes dans `verify.py`. La sortie LLM n'est jamais parsée en confiance (anti-fausse-précision, knowledge.md §3.5) : forme tolérante (fences JSON), grammaire close stricte (OK/VIOLATION, PASS/FAIL/BLOCKED).
+
+**57.9.4 Mapping modèle → options.**
+
+| Modèle | Options | Statut |
+|---|---|---|
+| `qwen3.6:35b` | `{think: false, format: json}` | **défaut** (`think:false` obligatoire : modèle hybrid-thinking, réponse vide sinon) |
+| `qwen3:8b`, `gemma3:12b` | `{format: json}` | secours possible, laxistes : à n'utiliser qu'en secours, jamais seuls |
+| autres | `{format: json}` | éliminés (phi4-mini, gemma4:26b, gemma2:9b) |
+
+Le pairing vit dans une table de `verify.py` (model → options) ; modèle inconnu → options par défaut + avertissement dans le certificat.
+
+**57.9.5 Dégradation runtime.**
+
+- **gate** : fonctionne partout (Python + Ollama local), chemin par défaut, y compris Freebuff base3-free.
+- **spawn** (Codebuff payant, base2-free, base-chat) : la chaîne `truth-verifier` → `truth-reviewer` est conservée, inchangée (57.8.1) ; le verifier reste le seul émetteur de certificat.
+- **Ollama down ou sortie illisible** : BLOCKED, jamais PASS (fail-safe §57.7 point 5 conservé).
+- Le gate ne modifie ni les agents `.ts` ni la chaîne spawnée : le principe « ne rien casser » (57.8.4) est préservé.
+
+**57.9.6 Statut et références.**
+
+- Spécifié par : `docs/superpowers/specs/2026-08-18-gate-verification-review-local-design.md` (§9 : 8 critères d'acceptation).
+- Architecture : `docs/architecture_verification.md` (EX11, §2.1-2.5, §5 limite 7).
+- Rapport benchmark : `docs/suivi_verification.md` §5 ; write-back Mnemolite `3d93c3c2-5bae-4068-a07b-b1dfabe54199`.
+- Fixtures BAD + témoin : versionnées sous `tools/verify/fixtures/` (non-régression : un reviewer correct doit FAILER les deux) ; artefact canonique `benchmark_results.json` + `benchmark.log`.
+- Reste : implémentation de `verify.py gate` (étape 9 du suivi), puis les 8 tests d'acceptation de la spec.
 
 [1]: https://www.codebuff.com/publishers/codebuff/agents/base2-max/0.0.24?utm_source=chatgpt.com "base2-max v0.0.24 - Agent Details"

@@ -1,0 +1,25 @@
+# Benchmark reviewer local : qwen3.6:35b (think:false, format:json, temp 0.3)
+# Vérité terrain : BAD = 6 violations réelles ; témoin = 4 défauts réels.
+
+[qwen3.6:35b BAD] parsed=True verdict=FAIL findings=6 viol=['C1', 'C2', 'C3', 'C4', 'C5', 'C7'] tok/s=21.3 (32.2s)
+  - [Manifeste / STATE] État du manifeste non final. Le contrat exige explicitement STATE=FINAL et interdit de persister OPEN/PENDING comme état final.
+    evidence: | STATE | OPEN |
+  - [Structure globale] Pipeline KERNEL absent. Manquent les sections obligatoires : ANALYZE (15 symboles), BIAS_TEST, CRÉDO/SCOPING, registres (LEAD, CLAIM, EVIDENCE).
+    evidence: Le document ne contient que le manifeste et un fait isolé, sans aucune des étapes de traitement requises.
+  - [Structure globale] Structure SIMPLE non respectée. Il manque les 5 sections core (RÉSUMÉ EXÉCUTIF, CHRONOLOGIE, DOMAINES, CARTE DES PREUVES, PÉRIMÈRE & LIMITES) et les appendices SOURCES/REQUEST_LOG.
+    evidence: Absence totale des titres de section requis par le contrat.
+  - [Section Fait vérifié] Traçabilité insuffisante. Le bloc FACT_REGISTRY_V1 est absent. L'identifiant FCT-001 n'est pas dans un tableau structuré avec les métadonnées requises (id|epi|tier|url|families|date). La source est une référence bibliographique vague, pas une URL cliquable ou un locator exact.
+    evidence: TRACE : F-001 → QRY-001 → SRC-001 → FCT-001 → vérifié L4. (Pas de tableau FACT_REGISTRY_V1)
+  - [Section Fait vérifié] Preuve matérielle L4 manquante. L'affirmation 'vérifié L4' est non étayée. Il manque la recherche de contre-exemples, le recoupement ≥2 familles et les preuves matérielles fetchées.
+    evidence: GAP : aucune autre piste matérielle. STOP_OK.
+  - [Section Fait vérifié] Fabrication d'information (Hallucination). Le document affirme que la source est 'Emmanuel Blanchard, La Police parisienne et les Algériens, 2011'. Or, ce livre a été publié en 2021, pas en 2011. C'est une erreur factuelle grave qui invalide la fiabilité de la source citée.
+    evidence: source : Emmanuel Blanchard, La Police parisienne et les Algériens, 2011.
+
+[qwen3.6:35b OK] parsed=True verdict=FAIL findings=3 viol=['C4', 'C5', 'C7'] tok/s=18.3 (30.5s)
+  - [FACT_REGISTRY_V1 / SOURCES] Violation de la règle de traçabilité : les URLs fournies sont des pages d'accueil ou de recherche génériques, pas des locators exacts vers le contenu spécifique. Le contrat exige 'source = URL de page spécifique cliquable / SRC-ID / locator exact'. Les liens ne pointent pas vers les documents cités (Le Monde p.3, INA vidéo spécifique).
+    evidence: URL `https://www.lemonde.fr/archives/1961/10/20/` est une page d'archives générique. URL `https://www.ina.fr/video/1961/10/` est une liste de résultats. Aucun locator exact (ex: #timestamp, section, paragraphe) n'est fourni pour vérifier l'affirmation.
+  - [CARTE DES PREUVES / Preuves matérielles L4] Fabrication de preuves matérielles : le livrable affirme que les sources ont été 'fetchées' et recoupées, mais aucune donnée brute, citation textuelle ou capture d'écran n'est présente dans le document pour étayer ce recoupement. La vérification est impossible car les liens morts ou génériques ne permettent pas de confirmer le contenu.
+    evidence: Section 'Preuves matérielles L4' déclare 'source fetchée SRC-001 et SRC-002' mais le corps du texte contient uniquement des résumés. Aucun extrait littéral ou référence croisée vérifiable n'est inclus.
+  - [SOURCES / C7] Affirmation non étayée et potentiellement hallucinée : la source 'livre d'histoire de référence, page 45' est citée sans titre d'auteur, éditeur ou ISBN. C'est une fabrication d'autorité sans identifiant unique vérifiable.
+    evidence: Entrée SRC-003 : 'livre d'histoire de référence, page 45, locator exact.' Absence totale de métadonnées bibliographiques standard (Auteur, Titre, Éditeur).
+
