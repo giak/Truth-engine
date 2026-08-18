@@ -2425,4 +2425,42 @@ L'option « session Freebuff séparée » (57.6) reste disponible comme second a
 
 **Prochaines étapes si validé :** implémenter `review-local` dans verify.py (appel Ollama + validation JSON + écriture findings.json), mini-benchmark de 5 livrables contrôlés, puis intégration dans la chaîne certifiée.
 
+## 57.8 Réponse forensique : peut-on spawner en Freebuff ? (2026-08-18)
+
+Question posée : « tu es sûr que l'on ne peut pas utiliser les agents et sous agents spawn ? ». Réponse : **oui pour l'état actuel, mais la cause n'est pas une impossibilité technique : c'est un verrou de configuration dans le binaire client.** Preuves extraites du binaire freebuff 0.0.149 (13 août) et du run-state.json de la session de test 07-55.
+
+**57.8.1 Le runtime supporte parfaitement le spawn de nos agents.**
+
+Le run-state.json de la session de test contient les templates suivants, tous chargés dans le runtime :
+
+| Template | spawn_agents | truth-verifier/truth-reviewer dans spawnableAgents |
+|---|---|---|
+| base2-free (9 variantes : deepseek, deepseek-flash, glm, luna, mimo, minimax-m3, fable, evals, générique) | **OUI** | **OUI** |
+| base-chat (Freebuff Chat, freebuff.com/chat) | **OUI** | **OUI** |
+| base3-free-* (défaut actuel : deepseek, deepseek-flash, glm, luna, mimo, minimax-m3, fable) | NON | NON |
+
+Nos agents locaux sont donc **déjà autorisés** par les templates base2-free et base-chat : `truth-verifier` (model deepseek/deepseek-v4-flash, toolNames incluant spawn_agents, spawnableAgents ["truth-reviewer"]) et `truth-reviewer` (deepseek/deepseek-v4-pro). Le runtime valide chaque spawn contre `spawnableAgents` du parent (message du binaire : « Agent type X is not allowed to spawn child agent type Y »).
+
+**57.8.2 Pourquoi la session actuelle ne peut pas spawner : trois verrous dans le binaire.**
+
+1. **T7="base3" codé en dur** : `WQL(H) = T7==="base3" ? SUA(H) : xXH(H)`. Avec T7=base3, tout modèle dans la map `RXH` (base3) donne un template base3-free-* : deepseek-v4-pro → base3-free-deepseek, deepseek-v4-flash → base3-free-deepseek-flash, minimax-m3 → base3-free-minimax-m3, gpt-5.6-luna → base3-free-luna, mimo → base3-free-mimo, glm → base3-free-glm, fable → base3-free-fable. Tous sans spawn_agents.
+
+2. **La sélection de modèle est verrouillée sur le catalogue uT** : `ENH(H) = FtH(H) ? H : CJ` où `FtH` vérifie l'appartenance à uT = [ylH(deepseek-pro), jlH(minimax), klH(luna), elH(glm), blH(flash), dlH(mimo), kyA(fable)]. Les 7 modèles sélectionnables sont tous dans RXH → tous donnent base3-free-*. Les modèles qui retomberaient sur base2 (kimi-k3-eco, muse-spark, variantes -max) sont premium et **exclus du catalogue sélectionnable** : `ENH` les rejette vers CJ (flash).
+
+3. **Le mode agent est figé en Freebuff** : `setAgentMode` et `toggleAgentMode` contiennent `if (zA) return` (zA = FREEBUFF_MODE==="true") : no-op. Les commandes `/mode:*` sont supprimées en Freebuff (`...(zA?[]:Ja).map(...)`). Impossible de passer en mode LITE/MAX/PLAN pour obtenir un autre template.
+
+**57.8.3 Conséquence : le spawn est verrouillé, pas supprimé.**
+
+- Le 13 août, Freebuff a migré les templates gratuits de base2-free-* vers base3-free-* et retiré spawn_agents des toolNames du main-agent. Les templates base2-free-* (avec spawn) restent présents dans le runtime et référencés par `VQL`/`iF$`/`KF$` : ils ne sont pas supprimés, simplement non sélectionnables.
+- `base-chat` (Freebuff Chat, interface web) expose spawn_agents + truth-verifier/truth-reviewer : le spawn fonctionnerait si une session web libre permettait d'exécuter notre chaîne (non testé, interface web).
+- Le chemin de résolution `WQL(Xi())` retombe sur `base2-free` pour tout modèle hors RXH : si Freebuff rouvrait l'accès à kimi-k3-eco, muse-spark ou aux variantes -max (aujourd'hui premium), le template principal redeviendrait base2-free-* avec spawn.
+
+**57.8.4 Verdict.**
+
+La conclusion 57.6 (spawn impossible sous Freebuff actuel) est confirmée, mais la cause exacte est désormais prouvée : ce n'est pas une capacité retirée du runtime, c'est un verrou de configuration client (T7="base3" + catalogue uT + mode figé). Conséquences :
+
+- **Ne pas attendre le spawn** : le verrou est côté Freebuff, hors de notre contrôle. L'option reviewer local Ollama (57.7) reste la voie principale.
+- **Ne rien casser** : nos agents locaux sont déjà déclarés spawnables dans base2-free/base-chat. Si Freebuff rouvre l'accès, la boucle fonctionnera sans modification.
+- **Le fail-safe BLOCKED reste le bon réflexe** : tout spawn refusé (modèle payant, template sans spawn) doit bloquer, jamais passer en faux PASS.
+
 [1]: https://www.codebuff.com/publishers/codebuff/agents/base2-max/0.0.24?utm_source=chatgpt.com "base2-max v0.0.24 - Agent Details"
