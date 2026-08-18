@@ -44,6 +44,8 @@ Dernière exécution :
 
 Interprétation : sur `main`, le gate bloque (branche protégée). Dans le worktree `te-verification-gate`, le verdict déterministe est **PASS complet** : naming conforme, em-dash conforme sur les **67 livrables ARTICLE** du périmètre (13 articles corrigés, 612 occurrences reformulées). Les artefacts hors scope (05_ARTICLE, PLAN-CORRECTION, audits, copies) restent exclus du contrat.
 
+**Certificat émis (2026-08-18 06:42 CEST)** dans `.worktrees/te-verification-gate/.verify/result.json` : `verdict: PASS`, `deterministic: PASS`, `review: PASS`, `state_changed: false`, HEAD `b3211bfd`. Première certification complète de la boucle en runtime réel.
+
 ## 4. Limites connues
 
 - Agents `.ts` : le chargement et l'exécution réels par Codebuff sont **validés** (2026-08-18, run CLI non-interactif dans le worktree). Reste à automatiser la chaîne dans un vrai chantier complet (commit → gate → certify).
