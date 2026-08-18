@@ -26,33 +26,75 @@ function extractField(res, field) {
   return m ? m[1] : null
 }
 
+// Cherche le premier tableau JSON équilibré commençant à l'index `start`
+// (position du `[`). Retourne le texte JSON du tableau, ou null si jamais
+// équilibré avant la fin de la chaîne.
+function extractBalancedArray(s, start) {
+  let depth = 0
+  let inStr = false
+  let esc = false
+  for (let i = start; i < s.length; i++) {
+    const ch = s[i]
+    if (inStr) {
+      if (esc) esc = false
+      else if (ch === '\\') esc = true
+      else if (ch === '"') inStr = false
+      continue
+    }
+    if (ch === '"') inStr = true
+    else if (ch === '[') depth++
+    else if (ch === ']') {
+      depth--
+      if (depth === 0) return s.slice(start, i + 1)
+    }
+  }
+  return null
+}
+
 function extractFindings(res) {
   // Le reviewer rend un structured_output { verdict, findings: [...] }.
-  // Le toolResult du spawn peut être une chaîne JSON (nested) ou un objet.
-  let s = typeof res === 'string' ? res : JSON.stringify(res ?? {})
-  try {
-    const parsed = JSON.parse(s)
-    if (Array.isArray(parsed) && parsed.length > 0 && typeof parsed[0] === 'object') {
-      for (const item of parsed) {
-        if (Array.isArray(item?.findings)) return item.findings
+  // Le toolResult du spawn peut être : une chaîne JSON, un objet, ou le
+  // wrapper standard [{ agentName, agentType, value: { type, value } }].
+  const s = typeof res === 'string' ? res : JSON.stringify(res ?? {})
+  // 1. Parcours structurel : descend dans les objets imbriqués pour trouver
+  //    la première clé `findings` qui est un tableau.
+  const walk = (node, depth) => {
+    if (depth > 6 || node === null || typeof node !== 'object') return undefined
+    if (Array.isArray(node)) {
+      for (const item of node) {
+        const found = walk(item, depth + 1)
+        if (found !== undefined) return found
       }
-      return parsed.find((x) => x && typeof x === 'object' && 'findings' in x)?.findings ?? []
+      return undefined
     }
-    if (Array.isArray(parsed?.findings)) return parsed.findings
-    // Chaîne JSON imbriquée dans le toolResult (ex: content[0].value)
-    const m = s.match(/"findings"\s*:\s*(\[[\s\S]*?\])\s*(?:,"|,\s*"|})/)
-    if (m) {
-      try {
-        return JSON.parse(m[1])
-      } catch {
-        /* fallthrough */
-      }
+    if (Array.isArray(node.findings)) return node.findings
+    for (const key of Object.keys(node)) {
+      if (key === 'findings') continue
+      const found = walk(node[key], depth + 1)
+      if (found !== undefined) return found
     }
-  } catch {
-    /* chaîne non-JSON : regex de secours ci-dessous */
+    return undefined
   }
-  const m = s.match(/"findings"\s*:\s*(\[[\s\S]*?\])\s*(?:,"|,\s*"|})/)
-  return m ? (() => { try { return JSON.parse(m[1]) } catch { return [] } })() : []
+  try {
+    const found = walk(JSON.parse(s), 0)
+    if (found !== undefined) return found
+  } catch {
+    /* chaîne non-JSON : secours regex équilibré ci-dessous */
+  }
+  // 2. Secours : scanner la chaîne pour le premier `"findings": [` équilibré.
+  const re = /"findings"\s*:\s*\[/g
+  let m
+  while ((m = re.exec(s)) !== null) {
+    const arr = extractBalancedArray(s, m.index + m[0].length - 1)
+    if (arr) {
+      try {
+        return JSON.parse(arr)
+      } catch {
+        continue
+      }
+    }
+  }
+  return []
 }
 
 export default {
@@ -107,6 +149,7 @@ export default {
         },
       }
       reviewVerdict = extractField(rev && rev.toolResult, 'verdict') ?? 'BLOCKED'
+      logger.info({ toolResultType: typeof rev?.toolResult, preview: String(rev?.toolResult ?? '').slice(0, 300) }, 'verify: raw spawn toolResult preview')
       findings = extractFindings(rev && rev.toolResult)
       if (findings.length > 0) {
         logger.info({ n: findings.length }, 'verify: reviewer findings captured')
@@ -123,7 +166,11 @@ export default {
       findingsArg = ` --findings-file ${FINDINGS_PATH}`
       yield {
         toolName: 'write_file',
-        input: { path: FINDINGS_PATH, content: JSON.stringify(findings, null, 2) },
+        input: {
+          path: FINDINGS_PATH,
+          instructions: 'Persist the independent reviewer findings so certify can embed them in the certificate.',
+          content: JSON.stringify(findings, null, 2),
+        },
       }
     }
     yield {
