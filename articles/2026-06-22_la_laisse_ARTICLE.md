@@ -2,7 +2,7 @@
 
 *ou pourquoi le pays qui redistribue le plus est aussi celui qui se croit le plus indépendant*
 
-> *Note de l'auteur. Ce qui suit est un document forensique. Soixante-quatre secteurs, 1 710 milliards d'euros cartographiés, chaque chiffre sourcé, chaque phrase adossée à une enquête. La densité n'est pas un défaut de style : elle est la condition de la rigueur. Ce texte n'a pas été conçu pour être consommé d'une traite. Il demande concentration et ténacité — parce que le système qu'il décrit exige, pour être vu, qu'on accepte de ne pas détourner le regard. Lisez-le par sections. Revenez-y. Il attendra.*
+> *Note de l'auteur. Ce qui suit est un document forensique. Soixante-quatre secteurs, 1 710 milliards d'euros cartographiés, chaque chiffre sourcé, chaque phrase adossée à une enquête. La densité n'est pas un défaut de style : elle est la condition de la rigueur. Ce texte n'a pas été conçu pour être consommé d'une traite. Il demande concentration et ténacité, parce que le système qu'il décrit exige, pour être vu, qu'on accepte de ne pas détourner le regard. Lisez-le par sections. Revenez-y. Il attendra.*
 
 ---
 
@@ -54,17 +54,17 @@ Les niches fiscales : 101 milliards d'euros par an. Invisibles par construction 
 
 Les énergies renouvelables : 7,44 milliards par an de subventions, 87 milliards d'engagements hors bilan que personne n'a votés, contrats garantis 20 ans, et un discours qui interdit toute critique sous peine de « climatoscepticisme ». Invisibles, confortables, morales. 150 sur 150. La laisse parfaite.
 
-La formule n'explique pas tout. Elle laisse 18 % d'écart. Ces 18 %, c'est la morale. Plus un secteur se drape dans la vertu — climat, santé, enfance, culture — plus il peut recevoir sans qu'on lui pose de questions. L'énergéticien vert est plus protégé que le buraliste et son monopole, alors que leurs privilèges sont comparables.
+La formule n'explique pas tout. Elle laisse 18 % d'écart. Ces 18 %, c'est la morale. Plus un secteur se drape dans la vertu (climat, santé, enfance, culture), plus il peut recevoir sans qu'on lui pose de questions. L'énergéticien vert est plus protégé que le buraliste et son monopole, alors que leurs privilèges sont comparables.
 
 Mais la formule capte l'essentiel. Et l'essentiel, c'est que le système français est une machine à produire de l'indignation unidirectionnelle. L'indignation monte, elle ne descend jamais. Chacun regarde l'assiette du voisin. Personne ne regarde la sienne.
 
-Une objection, avant de continuer. Le retraité a cotisé toute sa vie. L'énergéticien du renouvelable n'a jamais cotisé. Les mettre dans le même cadre paraît injuste. Et ça l'est : la pension est un droit contributif, le contrat garanti est un privilège concédé. Mais Ω ne mesure pas la légitimité du transfert — il mesure son invisibilité psychologique. Et de ce point de vue, le retraité et l'énergéticien partagent le même mécanisme : plus le flux est invisible, plus le bénéficiaire se croit indépendant. La cotisation passée rend la pension légitime. Elle ne rend pas le vote intouchable.
+Une objection, avant de continuer. Le retraité a cotisé toute sa vie. L'énergéticien du renouvelable n'a jamais cotisé. Les mettre dans le même cadre paraît injuste. Et ça l'est : la pension est un droit contributif, le contrat garanti est un privilège concédé. Mais Ω ne mesure pas la légitimité du transfert : il mesure son invisibilité psychologique. Et de ce point de vue, le retraité et l'énergéticien partagent le même mécanisme : plus le flux est invisible, plus le bénéficiaire se croit indépendant. La cotisation passée rend la pension légitime. Elle ne rend pas le vote intouchable.
 
 Une autre objection, plus radicale. Si tout transfert public est une « laisse », alors l'école l'est. L'hôpital l'est. La route l'est. Et le concept devient trop large pour être utile. Ce qu'on appelle « laisse », dira un contradicteur, n'est rien d'autre que la coopération sociale moderne. L'objection est sérieuse. Elle mérite une réponse nette.
 
 Ω ne s'applique pas aux services publics universels. Une école ouverte à tous, un hôpital qui soigne sans distinction, une route que chacun emprunte : ces services sont visibles, partagés, et personne n'ignore qu'ils existent. Leur bénéficiaire n'est pas un secteur : c'est la société entière. En revanche, une niche fiscale réservée à certains contribuables, un contrat d'achat d'électricité garanti vingt ans à un producteur privé, un monopole de revente concédé à une profession : ces transferts sont invisibles, différenciés, et leurs bénéficiaires les perçoivent rarement comme des aides. Ω mesure cela. Pas la coopération sociale. La confusion entre les deux n'est pas une objection au cadre : c'est une illustration de son mécanisme. Le système mélange volontairement service public et privilège sectoriel pour rendre le second aussi légitime que le premier.
 
-Une dernière précision. Un transfert peut être légitime, nécessaire, souhaitable — et créer malgré tout une dépendance politique. La retraite par répartition est un choix de société défendable. Elle n'en produit pas moins 17,2 millions d'électeurs dont le niveau de vie dépend d'un flux que personne n'ose réformer. Ω ne dit pas que le transfert est mauvais. Il dit qu'il est invisible à son bénéficiaire, et que cette invisibilité a des conséquences. La légitimité du transfert et son effet de verrou sont deux choses distinctes. Cet article ne tranche pas la première. Il documente la seconde.
+Une dernière précision. Un transfert peut être légitime, nécessaire, souhaitable, et créer malgré tout une dépendance politique. La retraite par répartition est un choix de société défendable. Elle n'en produit pas moins 17,2 millions d'électeurs dont le niveau de vie dépend d'un flux que personne n'ose réformer. Ω ne dit pas que le transfert est mauvais. Il dit qu'il est invisible à son bénéficiaire, et que cette invisibilité a des conséquences. La légitimité du transfert et son effet de verrou sont deux choses distinctes. Cet article ne tranche pas la première. Il documente la seconde.
 
 Voici comment, en commençant par vous.
 
@@ -78,7 +78,7 @@ Votre pension est légitime. C'est un salaire différé, pas une aumône. Person
 
 Mais le système qui vous la verse n'est pas une épargne. C'est un contrat de répartition : les 407 milliards d'euros de pensions annuelles sont prélevés chaque mois sur les salaires de 30 millions d'actifs. 17,2 millions de retraités. 13,9 % du PIB. Ce n'est pas votre argent qui revient : c'est l'argent de vos enfants qui part.
 
-Vous le savez, au fond. Vous savez que le ratio se dégrade — 17,2 millions de retraités pour 30 millions d'actifs, et l'écart se creuse. Vous savez que la dette de 3 500 milliards est le prix de votre tranquillité. Vous savez que les gouvernements que vous avez élus pendant quarante ans ont emprunté plutôt que de toucher à votre pension.
+Vous le savez, au fond. Vous savez que le ratio se dégrade : 17,2 millions de retraités pour 30 millions d'actifs, et l'écart se creuse. Vous savez que la dette de 3 500 milliards est le prix de votre tranquillité. Vous savez que les gouvernements que vous avez élus pendant quarante ans ont emprunté plutôt que de toucher à votre pension.
 
 Mais vous votez. Et vous votez pour que rien ne change.
 
@@ -96,7 +96,7 @@ Ce n'est pas votre pension qui est une laisse. C'est votre vote.
 
 Vous n'êtes pas seul. La formule Ω ne s'applique pas qu'à vous. Elle s'applique aux 64 secteurs. En voici huit.
 
-**Le journaliste.** Ω : 96 sur 150. Il enquête, il informe, il dénonce. Le quatrième pouvoir. Son secteur — médias, audiovisuel, CNC — reçoit 5 milliards d'euros d'argent public par an. France Télévisions, Radio France, Arte, aides à la presse, tarifs postaux préférentiels. Son salaire dépend de subventions. Mais il ne peut pas enquêter sur l'efficacité des aides à la presse sans attaquer la survie de sa propre rédaction. Le quatrième pouvoir a un angle mort : lui-même.
+**Le journaliste.** Ω : 96 sur 150. Il enquête, il informe, il dénonce. Le quatrième pouvoir. Son secteur (médias, audiovisuel, CNC) reçoit 5 milliards d'euros d'argent public par an. France Télévisions, Radio France, Arte, aides à la presse, tarifs postaux préférentiels. Son salaire dépend de subventions. Mais il ne peut pas enquêter sur l'efficacité des aides à la presse sans attaquer la survie de sa propre rédaction. Le quatrième pouvoir a un angle mort : lui-même.
 
 **Le buraliste.** Ω : 132 sur 150. Il se croit commerçant indépendant, dernier lien social du village. Il ne choisit pas ce qu'il vend. Le tabac est un monopole d'État. Les prix sont fixés par l'État. Sa commission est garantie par l'État. Il est le percepteur de taxes privatisé d'un produit qui tue 68 000 personnes par an : le même État qui lui garantit son monopole paie 156 milliards d'euros de coût social du tabagisme. Il collecte 12 milliards de taxes par an. Son « indépendance » tient à la dépendance chimique de ses clients, organisée par l'État, monétisée par lui.
 
@@ -126,7 +126,7 @@ La formule Ω ne décrit pas des personnes. Elle décrit une architecture. Une a
 
 Derrière cette architecture, il y a des architectes. Les niches fiscales ont été rédigées dans les bureaux de Bercy avec l'aide des cabinets de conseil. Les contrats de vingt ans pour les énergies renouvelables ont été calibrés par la Commission de régulation de l'énergie et les lobbies du secteur. Les 87 milliards d'engagements hors bilan n'ont pas été improvisés : ils ont été structurés par des directions administratives que personne n'élit. La machine n'est pas une émergence spontanée. Elle a été construite. Et elle a été construite par des gens qui ont intérêt à ce qu'elle existe.
 
-Un haut fonctionnaire ne crée pas une niche fiscale par hasard. Il la crée parce que la complexité justifie son poste. Un impôt simple, transparent, exigerait une administration squelettique. 430 taxes, 465 niches, un code illisible : chaque couche de complexité est un emploi de haut fonctionnaire qui se justifie. La machine a été construite par des gens dont c'était le métier de la construire, et dont c'est le métier de l'entretenir — des gens dont l'existence dépend de l'existence du labyrinthe qu'ils sont censés simplifier.
+Un haut fonctionnaire ne crée pas une niche fiscale par hasard. Il la crée parce que la complexité justifie son poste. Un impôt simple, transparent, exigerait une administration squelettique. 430 taxes, 465 niches, un code illisible : chaque couche de complexité est un emploi de haut fonctionnaire qui se justifie. La machine a été construite par des gens dont c'était le métier de la construire, et dont c'est le métier de l'entretenir : des gens dont l'existence dépend de l'existence du labyrinthe qu'ils sont censés simplifier.
 
 Et la dépendance n'est pas un accident. C'est le produit. Un secteur adapté à trente ans de niches ne peut pas survivre sans elles. L'État entretient la fragilité, puis il vend la protection.
 
@@ -142,7 +142,7 @@ Et le système fait pire que verrouiller la réforme. Il sélectionne les meille
 
 Ce mécanisme n'est pas une anomalie française : c'est une loi universelle du pouvoir. Mais si toutes les sociétés la pratiquent, seule la France a réussi à l'ériger en vertu démocratique.
 
-Comment en est-on arrivé là ? Le verrou ne s'est pas construit en un jour. 1974 : premier déficit budgétaire depuis la guerre, choc pétrolier, fin des Trente Glorieuses. La dette devient une variable d'ajustement politique plutôt qu'un signal d'alarme. 1981 : la fonction publique explose, nationalisations, retraite à 60 ans — l'État devient le premier employeur et le premier redistributeur. 1983 : tournant de la rigueur, mais l'appareil est déjà trop lourd pour être dégonflé. 1995 : plan Juppé, grèves, recul. La machine résiste à la première tentative sérieuse de réforme. 2017 : macron promet de « casser la table », il rabote quelques centimes autour des bords. La table est toujours là. Chaque couche de la dette, chaque niche fiscale, chaque monopole concédé : une promesse que le système paiera plus tard. Aujourd'hui, la dette est la photo du choix permanent de ne pas choisir. Ce qui paraît éternel est en réalité l'accumulation de soixante-dix ans de renoncements dont personne n'a voulu assumer le coût politique.
+Comment en est-on arrivé là ? Le verrou ne s'est pas construit en un jour. 1974 : premier déficit budgétaire depuis la guerre, choc pétrolier, fin des Trente Glorieuses. La dette devient une variable d'ajustement politique plutôt qu'un signal d'alarme. 1981 : la fonction publique explose, nationalisations, retraite à 60 ans : l'État devient le premier employeur et le premier redistributeur. 1983 : tournant de la rigueur, mais l'appareil est déjà trop lourd pour être dégonflé. 1995 : plan Juppé, grèves, recul. La machine résiste à la première tentative sérieuse de réforme. 2017 : macron promet de « casser la table », il rabote quelques centimes autour des bords. La table est toujours là. Chaque couche de la dette, chaque niche fiscale, chaque monopole concédé : une promesse que le système paiera plus tard. Aujourd'hui, la dette est la photo du choix permanent de ne pas choisir. Ce qui paraît éternel est en réalité l'accumulation de soixante-dix ans de renoncements dont personne n'a voulu assumer le coût politique.
 
 La France n'est pas seule à redistribuer. L'Allemagne prélève presque autant (47 % du PIB). Mais elle collecte 80 impôts et taxes distincts, contre plus de 430 en France. Son code fiscal est segmenté, stable, lisible. La Suède prélève plus que la France, mais publie depuis 1905 le revenu et l'impôt payé de chaque citoyen : n'importe qui peut consulter la fiche fiscale de n'importe qui. L'invisibilité y est structurellement impossible. La France est classée deuxième au Global Business Complexity Index 2024. Elle combine la redistribution suédoise avec l'opacité d'un système conçu pour l'invisibilité. C'est cette combinaison, pas la redistribution seule, qui fabrique la laisse.
 
@@ -156,21 +156,21 @@ C'est pour cela que rien ne change. Pas parce que les politiques sont mauvais. P
 
 Vous êtes arrivé jusqu'ici. Vous avez peut-être reconnu quelqu'un. Un collègue. Un voisin. Vous-même.
 
-Si vous êtes journaliste, vous venez d'apprendre que votre secteur — celui qui enquête sur tout le monde — ne s'audite pas lui-même. Ω : 96. Ce n'est pas une accusation. C'est un score.
+Si vous êtes journaliste, vous venez d'apprendre que votre secteur, celui qui enquête sur tout le monde, ne s'audite pas lui-même. Ω : 96. Ce n'est pas une accusation. C'est un score.
 
 Si vous êtes fonctionnaire, vous savez maintenant que votre sécurité est un emprunt. Ω : 102. Votre travail est légitime. Votre vote mérite d'être interrogé.
 
 Si vous êtes retraité, vous êtes la clé de voûte. 17,2 millions de voix. 407 milliards de raisons de ne rien changer. Votre pension est légitime. Votre vote mérite d'être interrogé.
 
-Si vous êtes cadre, consultant, profession libérale — vous payez, vous ne recevez rien de visible, et vous n'êtes pas assez nombreux pour défaire le verrou.
+Si vous êtes cadre, consultant, profession libérale : vous payez, vous ne recevez rien de visible, et vous n'êtes pas assez nombreux pour défaire le verrou.
 
-Si vous êtes salarié du privé, indépendant, smicard — vous êtes la minorité invisible. Vous payez. Vous ne recevez rien de visible. Et vous n'avez pas le poids électoral pour changer quoi que ce soit. Le prochain article parlera de vous.
+Si vous êtes salarié du privé, indépendant, smicard : vous êtes la minorité invisible. Vous payez. Vous ne recevez rien de visible. Et vous n'avez pas le poids électoral pour changer quoi que ce soit. Le prochain article parlera de vous.
 
 La question n'est pas « que devrait faire la France ? » La France est une machine qui produit exactement le résultat pour lequel elle a été construite. La question est : maintenant que vous le savez, qu'est-ce que vous allez en faire ?
 
 Vous pourriez objecter : si le système empêche toute critique, comment ce texte a-t-il été écrit ? La réponse mérite d'être examinée plutôt que proclamée. Je publie gratuitement sur Substack. Je ne perçois pas d'argent public direct. Mais ma position n'est pas une pureté absolue : elle est une indépendance relative, précaire, que je mesure comme telle. Je n'échappe pas à ce que je décris. J'essaye au moins de le regarder en face.
 
-Ce texte ne propose pas de solution. Il décrit un verrou. Un verrou n'a pas de clé interne : il s'ouvre de l'extérieur, ou il ne s'ouvre pas. La Suède a choisi la transparence radicale il y a cent vingt ans — chaque citoyen peut consulter la fiche fiscale de n'importe quel autre depuis 1905, et le débat public sur l'impôt est si concret qu'un premier ministre a démissionné pour une fraude de 5 000 euros. L'Allemagne a choisi le frein constitutionnel à l'endettement il y a quinze ans — et le suspend dès qu'une crise arrive, ce qui prouve qu'un verrou juridique n'est pas plus solide qu'un verrou politique. Chaque pays a ses contradictions. La singularité française n'est pas d'avoir des laisses : c'est de les avoir rendues invisibles au point que personne ne sait qui tient la sienne.
+Ce texte ne propose pas de solution. Il décrit un verrou. Un verrou n'a pas de clé interne : il s'ouvre de l'extérieur, ou il ne s'ouvre pas. La Suède a choisi la transparence radicale il y a cent vingt ans : chaque citoyen peut consulter la fiche fiscale de n'importe quel autre depuis 1905, et le débat public sur l'impôt est si concret qu'un premier ministre a démissionné pour une fraude de 5 000 euros. L'Allemagne a choisi le frein constitutionnel à l'endettement il y a quinze ans, et le suspend dès qu'une crise arrive, ce qui prouve qu'un verrou juridique n'est pas plus solide qu'un verrou politique. Chaque pays a ses contradictions. La singularité française n'est pas d'avoir des laisses : c'est de les avoir rendues invisibles au point que personne ne sait qui tient la sienne.
 
 ---
 
@@ -182,7 +182,7 @@ Un texte qui avance une thèse de cette ampleur doit anticiper ses critiques. En
 
 Vous avez décidé que l'État était une machine de dépendance, puis vous avez construit un modèle pour retrouver cette conclusion. C'est l'accusation de biais de confirmation. Elle est sérieuse.
 
-L'enquête a commencé par la cartographie, pas par la thèse. La formule Ω est apparue après coup, en observant les régularités dans les 64 secteurs scorés. Mais le lecteur n'a pas accès aux données brutes, et il doit me croire sur parole. C'est une limite assumée du format article. La version complète du dossier-source — scores, sources, régressions, anomalies — existe et pourra être publiée si l'intérêt le justifie. En attendant, le lecteur rigoureux a raison de suspendre son jugement. Cet article ne demande pas la foi : il demande l'examen.
+L'enquête a commencé par la cartographie, pas par la thèse. La formule Ω est apparue après coup, en observant les régularités dans les 64 secteurs scorés. Mais le lecteur n'a pas accès aux données brutes, et il doit me croire sur parole. C'est une limite assumée du format article. La version complète du dossier-source (scores, sources, régressions, anomalies) existe et pourra être publiée si l'intérêt le justifie. En attendant, le lecteur rigoureux a raison de suspendre son jugement. Cet article ne demande pas la foi : il demande l'examen.
 
 ### « Vous réduisez le vote à l'intérêt matériel »
 
@@ -202,7 +202,7 @@ L'objection a été traitée au §1, mais le point est assez central pour être 
 
 Le système n'écrase pas seulement les assistés visibles. Il écrase la liberté.
 
-Une précision, avant d'entrer dans le détail. Ce constat ne porte pas sur la légitimité des transferts individuels. Il porte sur un effet de structure que 1 710 milliards annuels rendent inévitable. Pour être complet, il faut aussi mentionner ce que ce texte n'a pas cartographié : la fraude fiscale, estimée entre 60 et 120 milliards par an par le Conseil des prélèvements obligatoires, et la fraude sociale, entre 6 et 12 milliards. Ces sommes ne sont pas des transferts : ce sont des soustractions unilatérales au contrat social. Leur existence ne justifie pas le système des laisses — elle ajoute une couche d'iniquité à un édifice déjà verrouillé.
+Une précision, avant d'entrer dans le détail. Ce constat ne porte pas sur la légitimité des transferts individuels. Il porte sur un effet de structure que 1 710 milliards annuels rendent inévitable. Pour être complet, il faut aussi mentionner ce que ce texte n'a pas cartographié : la fraude fiscale, estimée entre 60 et 120 milliards par an par le Conseil des prélèvements obligatoires, et la fraude sociale, entre 6 et 12 milliards. Ces sommes ne sont pas des transferts : ce sont des soustractions unilatérales au contrat social. Leur existence ne justifie pas le système des laisses : elle ajoute une couche d'iniquité à un édifice déjà verrouillé.
 
 **Liberté d'entreprendre.** Dans un pays où 57 % du PIB est redistribué, le rendement du placement écrase celui de la production. Pourquoi bâtir une entreprise quand tu peux décrocher un contrat public ? Pourquoi prendre un risque quand tu peux capter une rente ? La sélection adverse ne récompense pas les meilleurs producteurs : elle récompense les meilleurs placeurs. L'entrepreneur qui cherche un marché est remplacé par le consultant qui cherche un contrat public. Le chercheur qui explore est remplacé par le technocrate qui coche des appels à projets fléchés. La France ne manque pas de talents. Elle les oriente vers la capture de rente au lieu de la création de valeur.
 
@@ -220,11 +220,11 @@ Ce n'est pas un débat sur la taille de l'État. C'est un constat mécanique. Lo
 
 Le système ne contredit pas seulement la liberté. Il met sous tension ses propres textes fondateurs. Pas par accident. Par architecture.
 
-La Déclaration de 1789 exige l'égalité devant la loi et le consentement à l'impôt. La Laisse y substitue 64 statuts différenciés et 87 milliards d'engagements hors bilan que personne n'a votés. La Constitution de 1946 garantit le droit au travail et l'action syndicale indépendante. La Laisse rend le travail non rentable par rapport au placement, et finance les syndicats à 874 millions d'euros par an. La Constitution de 1958 exige la sincérité des comptes publics. La Laisse accumule 3 500 milliards de dette dont les intérêts, 54 milliards par an, sont le premier poste budgétaire — avant l'éducation, avant la défense, avant la santé.
+La Déclaration de 1789 exige l'égalité devant la loi et le consentement à l'impôt. La Laisse y substitue 64 statuts différenciés et 87 milliards d'engagements hors bilan que personne n'a votés. La Constitution de 1946 garantit le droit au travail et l'action syndicale indépendante. La Laisse rend le travail non rentable par rapport au placement, et finance les syndicats à 874 millions d'euros par an. La Constitution de 1958 exige la sincérité des comptes publics. La Laisse accumule 3 500 milliards de dette dont les intérêts, 54 milliards par an, sont le premier poste budgétaire : avant l'éducation, avant la défense, avant la santé.
 
 La Convention européenne des droits de l'homme protège la liberté d'expression et la propriété. La Laisse subventionne la presse à 5 milliards par an et confisque la richesse avant que le citoyen n'en dispose. Les traités européens posent le principe d'une concurrence libre. La Laisse y répond par 211 milliards d'aides annuelles aux entreprises, en choisissant les vainqueurs. Le principe est le principe ; l'exception est devenue la règle. La Charte des droits fondamentaux garantit la liberté d'entreprise et la bonne administration. La Laisse érige des monopoles délégués et une opacité fiscale qui rend impossible de savoir qui paie pour qui.
 
-Ce ne sont pas des affirmations rhétoriques. En 2022, le Conseil constitutionnel a censuré le budget pour insincérité des comptes — décision 2022-845 DC. La Cour des comptes alerte chaque année sur l'absence de pilotage des niches fiscales et des dépenses fiscales, dont le montant cumulé (101 milliards) n'est soumis à aucun vote parlementaire spécifique. La Commission européenne a ouvert des enquêtes sur les avantages fiscaux sélectifs de la France (CIR, impatriés, holding). Chaque fois, le constat est le même : le système déroge à ses propres règles sans jamais les abolir. La tension n'est pas théorique. Elle est documentée, décision après décision, rapport après rapport. Rien ne change.
+Ce ne sont pas des affirmations rhétoriques. En 2022, le Conseil constitutionnel a censuré le budget pour insincérité des comptes (décision 2022-845 DC). La Cour des comptes alerte chaque année sur l'absence de pilotage des niches fiscales et des dépenses fiscales, dont le montant cumulé (101 milliards) n'est soumis à aucun vote parlementaire spécifique. La Commission européenne a ouvert des enquêtes sur les avantages fiscaux sélectifs de la France (CIR, impatriés, holding). Chaque fois, le constat est le même : le système déroge à ses propres règles sans jamais les abolir. La tension n'est pas théorique. Elle est documentée, décision après décision, rapport après rapport. Rien ne change.
 
 Ce n'est pas une somme d'accrocs isolés. C'est une incompatibilité systémique. La démocratie française est la façade légale d'un système qui contredit, article par article, les textes mêmes qui la fondent. La Déclaration de 1789, le Préambule de 1946, la Constitution de 1958, la CEDH, la Charte de l'UE, les traités : aucun n'y survit intégralement. Le système ne les abolit pas. Il les rend inopérants. Il les cite en préambule et les contourne en annexe. C'est la différence entre une Constitution et un alibi.
 
@@ -267,45 +267,45 @@ Chacun des 64 secteurs a été scoré sur quatre axes, de 0 à 10.
 | Ω | Secteur |
 |---|---------|
 | 150 | Énergies renouvelables |
-| 149 | Immobilier/Promotion — CNC/Cinéma/Audiovisuel |
+| 149 | Immobilier/Promotion : CNC/Cinéma/Audiovisuel |
 | 148 | Gestion de l'eau (Veolia/Suez) |
-| 147 | Sociétés d'autoroutes — Agroalimentaire — HLM/Logement social |
+| 147 | Sociétés d'autoroutes : Agroalimentaire : HLM/Logement social |
 | 146 | Télécoms (Orange/Free/SFR) |
 | 145 | Jeux d'argent (FDJ/PMU) |
 | 144 | Grande distribution |
 | 143 | Syndicats salariés |
 | 142 | Luxe français |
-| 140 | Transports aériens — French Tech/Startups |
+| 140 | Transports aériens : French Tech/Startups |
 | 139 | Automobile (Renault/Stellantis) |
-| 138 | Industrie pharmaceutique — Énergie (EDF/Total) |
-| 137 | Cultes/Églises — Mutuelles étudiantes |
+| 138 | Industrie pharmaceutique : Énergie (EDF/Total) |
+| 137 | Cultes/Églises : Mutuelles étudiantes |
 | 136 | GAFAM |
-| 135 | Cabinets de conseil — Sécurité privée — Petite enfance |
-| 134 | Organisations patronales (Medef/CPME) — Assurance chômage — Tourisme |
-| 133 | Défense/Industrie armement — Banques/Assurances |
+| 135 | Cabinets de conseil : Sécurité privée : Petite enfance |
+| 134 | Organisations patronales (Medef/CPME) : Assurance chômage : Tourisme |
+| 133 | Défense/Industrie armement : Banques/Assurances |
 | 132 | Tabac/Buralistes |
 | 130 | Économie sociale et solidaire |
 | 127 | La Poste |
 | 126 | Chasse/Pêche (fédérations) |
-| 125 | Plateformes de livraison (Uber/Deliveroo) — ONG développement |
+| 125 | Plateformes de livraison (Uber/Deliveroo) : ONG développement |
 | 121 | RATP/Transports urbains |
-| 119 | Apprentissage/CFA — Fédérations sportives |
+| 119 | Apprentissage/CFA : Fédérations sportives |
 | 118 | Notaires/Professions juridiques |
-| 117 | Culture (institutions) — Universités/Grandes écoles |
+| 117 | Culture (institutions) : Universités/Grandes écoles |
 | 116 | CCI/Ordres professionnels |
-| 115 | Mutuelles santé — Secteur funéraire |
+| 115 | Mutuelles santé : Secteur funéraire |
 | 114 | SNCF/Entreprises publiques |
 | 113 | Police/Gendarmerie |
 | 112 | Formation professionnelle/CPF/Opco |
 | 111 | Partis politiques |
 | 110 | BTP/Marchés publics |
-| 109 | CAC40 (aides) — Associations caritatives |
-| 108 | Éducation nationale — Édition/Librairie |
+| 109 | CAC40 (aides) : Associations caritatives |
+| 108 | Éducation nationale : Édition/Librairie |
 | 107 | Audiovisuel public |
 | 106 | EHPAD |
 | 105 | Hôpitaux publics |
-| 102 | Fonctionnaires (statut) — Dépenses fiscales/Niches |
-| 101 | Associations subventionnées — Syndicats fonctionnaires |
+| 102 | Fonctionnaires (statut) : Dépenses fiscales/Niches |
+| 101 | Associations subventionnées : Syndicats fonctionnaires |
 | 99 | Collectivités territoriales |
 | 97 | Justice/Magistrature |
 | 96 | Médias subventionnés |

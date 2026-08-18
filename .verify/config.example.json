@@ -12,5 +12,16 @@
     "only_types": ["REPORT", "NOTE"],
     "since": "2026-01-01",
     "exclude": []
-  }
+  },
+  "content": [
+    {
+      "name": "no-em-dash-in-published-articles",
+      "forbidden": "—",
+      "dirs": ["articles/"],
+      "dir_pattern": "^\\d{4}-\\d{2}-\\d{2}_[A-Za-z0-9]+(-[A-Za-z0-9]+)*$",
+      "only_types": ["ARTICLE"],
+      "since": "2026-01-01",
+      "exclude": []
+    }
+  ]
 }

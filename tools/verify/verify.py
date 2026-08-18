@@ -215,65 +215,62 @@ def run_checks(cfg, root):
         if nverdict == "FAIL":
             verdict = "FAIL"
 
+    cverdict, cviolations = check_content(cfg, root)
+    if cviolations:
+        results.append(_record("content", cverdict, "; ".join(cviolations)))
+        if cverdict == "FAIL":
+            verdict = "FAIL"
+
     return verdict, results
 
 
-def check_naming(cfg, root):
-    """Contrôle de nommage, activé uniquement si configuré.
+def scoped_files(root, spec, label):
+    """Itérateur sur les fichiers couverts par une spec de périmètre.
 
-    Périmètre optionnel et déclaratif :
+    `spec` est un dict avec les clés optionnelles :
+      dirs         dossiers racines à parcourir (obligatoire, non vide)
       dir_pattern  regex sur les composants du chemin relatif sous chaque dir ;
-                   le dossier n'est parcouru que si au moins un composant matche
-                   (ex: dossiers de chantier datés YYYY-MM-DD_<sujet>, qui peuvent
-                   être nichés sous YYYY-MM/).
-      only_types   si présent, seuls les fichiers se terminant par
-                   _<TYPE>.md (type en MAJUSCULES) sont vérifiés. Les fichiers
-                   de travail internes (MEMO, SYNTHESE, brouillons) échappent
-                   au check : seuls les livrables sont soumis à la convention.
+                   un dossier n'est parcouru que si au moins un composant matche
+                   (ex: dossiers de chantier datés YYYY-MM-DD_<sujet>, nichés sous
+                   YYYY-MM/).
+      only_types   si présent, seuls les fichiers se terminant par _<TYPE>.md
+                   (types en MAJUSCULES) sont retenus.
       since        date de coupure YYYY-MM-DD : seuls les fichiers dont le
-                   préfixe date est >= since sont vérifiés. Permet d'appliquer
-                   la convention aux livrables produits après la décision sans
-                   flagger tout le legacy antérieur (même dans le mois courant).
+                   préfixe date est >= since sont retenus.
+      exclude      regex sur le chemin relatif complet : fichiers/dossiers exclus.
+
+    Retourne (error_or_None, list_of_relative_paths).
     """
-    n = cfg.get("naming", {}) or {}
-    if not n.get("enabled"):
-        return "PASS", []
-    pattern = n.get("pattern")
-    dirs = n.get("dirs", [])
-    excludes = n.get("exclude", [])
-    if not pattern or not dirs:
-        return "BLOCKED", ["naming.enabled=true mais pattern/dirs absents"]
     import re
 
-    try:
-        rx = re.compile(pattern)
-    except re.error as exc:
-        return "BLOCKED", [f"pattern invalide : {exc}"]
+    dirs = spec.get("dirs", [])
+    if not dirs:
+        return f"{label}: dirs absents", []
     dir_rx = None
-    if n.get("dir_pattern"):
+    if spec.get("dir_pattern"):
         try:
-            dir_rx = re.compile(n["dir_pattern"])
+            dir_rx = re.compile(spec["dir_pattern"])
         except re.error as exc:
-            return "BLOCKED", [f"dir_pattern invalide : {exc}"]
-    only_types = n.get("only_types") or []
-    since = n.get("since")
+            return f"{label}: dir_pattern invalide : {exc}", []
+    only_types = spec.get("only_types") or []
+    since = spec.get("since")
     ex_rx = []
-    for e in excludes:
+    for e in spec.get("exclude", []):
         try:
             ex_rx.append(re.compile(e))
         except re.error as exc:
-            return "BLOCKED", [f"exclude invalide '{e}' : {exc}"]
-    violations = []
+            return f"{label}: exclude invalide '{e}' : {exc}", []
+    files = []
     for d in dirs:
         base = os.path.join(root, d)
         if not os.path.isdir(base):
             continue
-        for dirpath, _dirs, files in os.walk(base):
+        for dirpath, _dirs, names in os.walk(base):
             if dir_rx is not None:
                 parts = os.path.relpath(dirpath, base).split(os.sep)
                 if parts != ["."] and not any(dir_rx.match(p) for p in parts):
                     continue
-            for f in files:
+            for f in names:
                 rel = os.path.relpath(os.path.join(dirpath, f), root)
                 if any(e.search(rel) for e in ex_rx):
                     continue
@@ -285,8 +282,82 @@ def check_naming(cfg, root):
                     m = re.match(r"(\d{4}-\d{2}-\d{2})", f)
                     if not m or m.group(1) < since:
                         continue
-                if not rx.match(f):
-                    violations.append(rel)
+                files.append(rel)
+    return None, files
+
+
+def check_naming(cfg, root):
+    """Contrôle de nommage, activé uniquement si configuré.
+
+    Le périmètre (dirs, dir_pattern, only_types, since, exclude) est le même
+    que pour le contenu : voir scoped_files(). La convention de nommage ne
+    s'applique qu'aux livrables, pas aux fichiers de travail internes.
+    """
+    n = cfg.get("naming", {}) or {}
+    if not n.get("enabled"):
+        return "PASS", []
+    pattern = n.get("pattern")
+    if not pattern:
+        return "BLOCKED", ["naming.enabled=true mais pattern absent"]
+    import re
+
+    try:
+        rx = re.compile(pattern)
+    except re.error as exc:
+        return "BLOCKED", [f"pattern invalide : {exc}"]
+    err, scoped = scoped_files(root, n, "naming")
+    if err:
+        return "BLOCKED", [err]
+    violations = [rel for rel in scoped if not rx.match(os.path.basename(rel))]
+    if violations:
+        return "FAIL", violations[:50]
+    return "PASS", []
+
+
+def check_content(cfg, root):
+    """Contrôle de contenu interdit (ex: caractère U+2014), activé si configuré.
+
+    Chaque entrée de cfg["content"] déclare :
+      name       nom du check (affiché dans le rapport)
+      forbidden  chaîne ou regex à chercher dans le contenu des fichiers scopés
+      plus le périmètre commun (dirs, dir_pattern, only_types, since, exclude).
+
+    Un fichier contenant `forbidden` est une violation. Le scope garantit que
+    seuls les livrables visés (ex: articles publiés) sont contrôlés : les
+    brouillons, copies et fichiers internes n'engendrent pas de faux positifs.
+    """
+    import re
+
+    entries = cfg.get("content", []) or []
+    violations = []
+    for c in entries:
+        if not isinstance(c, dict):
+            violations.append("content: entrée invalide (non-objet)")
+            continue
+        name = c.get("name", "content")
+        forbidden = c.get("forbidden")
+        if not forbidden:
+            violations.append(f"{name}: forbidden absent")
+            continue
+        try:
+            rx = re.compile(forbidden)
+        except re.error as exc:
+            violations.append(f"{name}: forbidden invalide : {exc}")
+            continue
+        err, scoped = scoped_files(root, c, name)
+        if err:
+            violations.append(err)
+            continue
+        for rel in scoped:
+            path = os.path.join(root, rel)
+            try:
+                with open(path, encoding="utf-8", errors="replace") as fh:
+                    content = fh.read()
+            except OSError as exc:
+                violations.append(f"{name}: illisible {rel} : {exc}")
+                continue
+            if rx.search(content):
+                violations.append(rel)
     if violations:
         return "FAIL", violations[:50]
     return "PASS", []

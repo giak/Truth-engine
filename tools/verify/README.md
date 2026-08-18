@@ -65,7 +65,18 @@ Le moteur reste identique. Seul le config change.
     "only_types": ["REPORT", "NOTE"],
     "since": "2026-01-01",
     "exclude": []
-  }
+  },
+  "content": [
+    {
+      "name": "no-em-dash-in-published-articles",
+      "forbidden": "—",
+      "dirs": ["articles/"],
+      "dir_pattern": "^\\d{4}-\\d{2}-\\d{2}_[A-Za-z0-9]+(-[A-Za-z0-9]+)*$",
+      "only_types": ["ARTICLE"],
+      "since": "2026-01-01",
+      "exclude": []
+    }
+  ]
 }
 ```
 
@@ -79,6 +90,7 @@ Le moteur reste identique. Seul le config change.
 | `naming.only_types` | Si présent, seuls les livrables `_<TYPE>.md` (types officiels) sont vérifiés. Fichiers de travail internes (`MEMO`, `SYNTHESE`, brouillons) hors scope |
 | `naming.since` | Date de coupure `YYYY-MM-DD` : seuls les fichiers datés ≥ `since` sont vérifiés. Applique la convention aux livrables nouveaux sans flagger le legacy |
 | `naming.exclude` | Regex sur le chemin relatif complet : fichiers/dossiers exclus du check |
+| `content` | Contenu interdit. Chaque entrée : `forbidden` (chaîne ou regex), `name`, et le **même périmètre** que `naming` (`dirs`, `dir_pattern`, `only_types`, `since`, `exclude`). Ex : interdire l'em-dash (U+2014) dans les articles publiés sans flagger les brouillons |
 
 **Règle de séparation** : `DETERMINISTIC POSSIBLE => CODE` ; `SEMANTIC JUDGMENT REQUIRED => REVIEWER`.
 

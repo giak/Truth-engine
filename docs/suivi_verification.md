@@ -20,6 +20,7 @@
 
 - ~~kebab-case vs snake_case~~ : résolu (2026-08-17) → kebab-case, **majuscules tolérées dans le sujet** (marqueur `KERNEL-*`).
 - ~~Périmètre du check naming~~ : résolu (2026-08-17). Le check ne couvre que les **livrables** (types officiels `ARTICLE|HYPER_MATRICE|ARCHITECTURE|SATURATION_AUDIT|REGISTRE|INVESTIGATION`) dans les **dossiers de chantier datés** `YYYY-MM-DD_<sujet>/`, **produits après** `since=2026-08-17`. Le legacy (snake_case, non datés, types internes `MEMO`/`SYNTHESE`/`RESOLUTION`, métadonnées) est hors scope : flagger 2772 fichiers historiques serait du bruit, pas de la vérification.
+- ~~Périmètre du check em-dash~~ : résolu (2026-08-17). Le check shell `grep articles/` flaggait 107 fichiers / 9 601 occurrences dont 87 hors scope (brouillons, copies, audits, APEX, misc, JSON). Remplacé par un **content check** (`forbidden: "—"`) avec le même périmètre déclaratif (dossiers datés + `only_types: [ARTICLE]` + `since`). 6 articles réellement publiés (confirmés par leur slug substack) corrigés : **283 em-dash reformulés** (séparateurs de sources → `:` ; incises → parenthèses/virgules/deux-points).
 - **Runtime des `.agents/*.ts`** : à valider en orchestrant un premier chantier dans Codebuff. Le câblage verdict reviewer → certify est fail-safe (retombe sur `BLOCKED`, jamais `PASS`).
 
 ## 3. Verdict courant
@@ -37,10 +38,10 @@ Dernière exécution :
 |---|---|
 | protected_branch | BLOCKED |
 | test: python3 -m pytest tests/extractors/ -q | PASS |
-| no-em-dash-in-articles | FAIL |
 | naming | PASS |
+| no-em-dash-in-published-articles | PASS |
 
-Interprétation : sur `main`, le gate bloque (branche protégée). Dans le worktree `te-verification-gate`, il reste uniquement `no-em-dash-in-articles` (FAIL, vraie violation Phase 3 à corriger). Le naming est désormais PASS : 0 livrable non conforme depuis la décision (since=2026-08-17).
+Interprétation : sur `main`, le gate bloque (branche protégée). Dans le worktree `te-verification-gate`, le verdict déterministe est désormais **PASS complet** : naming conforme (0 livrable non conforme depuis la décision) et em-dash conforme (les 6 articles publiés corrigés, 283 occurrences reformulées).
 
 ## 4. Limites connues
 

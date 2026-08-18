@@ -1,4 +1,4 @@
-# ARTICLE — Pourquoi les Français ne se révoltent pas ?
+# ARTICLE : Pourquoi les Français ne se révoltent pas ?
 
 **Date** : 2026-04-30  
 **Investigation** : APEX (35+ requêtes, 11 clusters)  
@@ -90,30 +90,30 @@ La passivité française est une [« impuissance apprise » (learned helplessnes
 
 ## §5 BIBLIOGRAPHIE
 
-1. INSEE (2023) — *Poverty and inequality in France reach highest levels in 30 years* — https://www.lemonde.fr/en/france/article/2025/07/09/poverty-and-inequality-in-france-reach-highest-levels-in-30-years_6743177_7.html (2025-07-09)
-2. Amnesty International (2019) — *Gilets jaunes : un bilan inquiétant* — https://www.amnesty.fr/actualites/gilets-jaunes-un-bilan-inquietant/ (2019)
-3. Humanité (2023) — *+24,7% de blessées graves : la répression policière atteint des sommets* — https://www.humanite.fr/societe/igpn/247-de-personnes-gravement-blessees-en-plus-la-repression-policiere-a-atteint-des-sommets-en-2023-selon-le-rapport-de-ligpn (2023)
-4. Contre7 (2025) — *Concentration des médias français - Mise à jour 2025* — https://contre7.fr/2025/12/19/concentration-medias-francais-mise-a-jour-2025/ (2025-12-19)
-5. Cour des comptes (2026) — *Rapport Situation des finances publiques début 2026* — https://www.vie-publique.fr/rapport/302139-cour-des-comptes-rapport-situation-des-finances-publiques-debut-2026 (2026)
-6. Sciences Po CEVIPOF (2025) — *Baromètre de la confiance politique 2025 - Le grand désarroi démocratique* — https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-du-cevipof-2025-le-grand-desarroi-democratique/ (2025)
-7. Le Monde (2025) — *Inequality on the rise in France amid a staggering surge in income* — https://www.lemonde.fr/en/politics/article/2025/11/20/inequality-on-the-rise-in-france-amid-a-staggering-surge-in-income-among-the-ultrarich_6747640_5.html (2025-11-20)
-8. Jacobin (2025) — *In France, Too, Billionaire Tycoons Are Silencing Their Critics* — https://jacobin.com/2025/10/france-media-macron-billionaires-bollore-sterin-kretinsky (2025-10)
-9. The Guardian (2025) — *Broken promises and political crises: how Emmanuel Macron fell from French favour* — https://www.theguardian.com/world/2025/oct/17/broken-promises-and-political-crises-how-emmanuel-macron-fell-from-french-favour (2025-10-17)
-10. France24 (2026) — *France to start 2026 without budget after talks fail* — https://www.rfi.fr/en/france/20260102-from-deficit-to-deadlock-why-france-is-borrowing-310-billion-without-a-voted-budget (2026-01-02)
-11. Légifrance (2021) — *Loi n° 2021-646 du 25 mai 2021 pour une sécurité globale préservant les libertés* — https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043530276 (2021-05-25)
-12. France Inter (2025) — *Comment le nudge a conquis la Macronie* — https://www.radiofrance.fr/franceinter/comment-le-nudge-a-conquis-la-macronie-4585964 (2025)
-13. Badr Chouffai (2026) — *Comment l'Union européenne a privé la France de sa souveraineté économique* — https://badrchouffai.com/la-souverainete-perdue-de-la-france-en-europe-et-dans-le-monde/ (2026-04-28)
-14. MyFrenchLife (2024) — *What France Understands About Protest That America Doesn't* — https://www.myfrenchlife.org/p/what-france-understands-about-protest (2024)
-15. Frontiers in Psychology (2024) — *Learned helplessness revisited: biased evaluation of...* — https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1329664/full (2024)
-16. INSEE (2025) — *Unemployment Q4 2025: 7.9%, 2.5M people* — https://www.insee.fr/en/statistiques/8736808 (2026-02-10)
-17. CGLPL (2024) — *Rapport d'activité 2024* — https://www.cglpl.fr/publications/rapport-dactivite-2024/ (2025-07-07)
-18. INSEE (2025) — *Prix des logements Q1 2025: +1.0%* — https://www.insee.fr/fr/statistiques/8584534 (2025)
-19. IFRAP (2025) — *L'économie informelle correspondrait à 11% du PIB* — https://www.ifrap.org/budget-et-fiscalite/leconomie-informelle-correspondrait-11-du-pib (2025)
-20. Wikipedia (2018) — *École nationale d'administration: 6500 énarques* — https://fr.wikipedia.org/wiki/École_nationale_d%27administration (2025)
-21. Vie Publique (2023) — *Les différentes réformes des retraites de 1993 à 2023* — https://www.vie-publique.fr/eclairage/20111-retraites-les-differentes-reformes-de-1993-2023 (2018)
-22. Politico (2022) — *'McKinseygate' dogs Macron's reelection campaign* — https://politico.eu/article/mckinsey-gate-emmanuel-macron-campaign-france/ (2022-03-31)
-23. JaQadi (2023) — *Article 49.3: combien de fois utilisé depuis 1958?* — https://jaqadi.com/politique/article-49-3-combien-de-fois-a-t-il-ete-utilise-depuis-sa-creation/ (2023-03-22)
-24. Wikipedia (2025) — *Le Siècle club ~200 members* — https://fr.wikipedia.org/wiki/Le_Si%C3%A8cle (2025)
+1. INSEE (2023) : *Poverty and inequality in France reach highest levels in 30 years* : https://www.lemonde.fr/en/france/article/2025/07/09/poverty-and-inequality-in-france-reach-highest-levels-in-30-years_6743177_7.html (2025-07-09)
+2. Amnesty International (2019) : *Gilets jaunes : un bilan inquiétant* : https://www.amnesty.fr/actualites/gilets-jaunes-un-bilan-inquietant/ (2019)
+3. Humanité (2023) : *+24,7% de blessées graves : la répression policière atteint des sommets* : https://www.humanite.fr/societe/igpn/247-de-personnes-gravement-blessees-en-plus-la-repression-policiere-a-atteint-des-sommets-en-2023-selon-le-rapport-de-ligpn (2023)
+4. Contre7 (2025) : *Concentration des médias français - Mise à jour 2025* : https://contre7.fr/2025/12/19/concentration-medias-francais-mise-a-jour-2025/ (2025-12-19)
+5. Cour des comptes (2026) : *Rapport Situation des finances publiques début 2026* : https://www.vie-publique.fr/rapport/302139-cour-des-comptes-rapport-situation-des-finances-publiques-debut-2026 (2026)
+6. Sciences Po CEVIPOF (2025) : *Baromètre de la confiance politique 2025 - Le grand désarroi démocratique* : https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-du-cevipof-2025-le-grand-desarroi-democratique/ (2025)
+7. Le Monde (2025) : *Inequality on the rise in France amid a staggering surge in income* : https://www.lemonde.fr/en/politics/article/2025/11/20/inequality-on-the-rise-in-france-amid-a-staggering-surge-in-income-among-the-ultrarich_6747640_5.html (2025-11-20)
+8. Jacobin (2025) : *In France, Too, Billionaire Tycoons Are Silencing Their Critics* : https://jacobin.com/2025/10/france-media-macron-billionaires-bollore-sterin-kretinsky (2025-10)
+9. The Guardian (2025) : *Broken promises and political crises: how Emmanuel Macron fell from French favour* : https://www.theguardian.com/world/2025/oct/17/broken-promises-and-political-crises-how-emmanuel-macron-fell-from-french-favour (2025-10-17)
+10. France24 (2026) : *France to start 2026 without budget after talks fail* : https://www.rfi.fr/en/france/20260102-from-deficit-to-deadlock-why-france-is-borrowing-310-billion-without-a-voted-budget (2026-01-02)
+11. Légifrance (2021) : *Loi n° 2021-646 du 25 mai 2021 pour une sécurité globale préservant les libertés* : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043530276 (2021-05-25)
+12. France Inter (2025) : *Comment le nudge a conquis la Macronie* : https://www.radiofrance.fr/franceinter/comment-le-nudge-a-conquis-la-macronie-4585964 (2025)
+13. Badr Chouffai (2026) : *Comment l'Union européenne a privé la France de sa souveraineté économique* : https://badrchouffai.com/la-souverainete-perdue-de-la-france-en-europe-et-dans-le-monde/ (2026-04-28)
+14. MyFrenchLife (2024) : *What France Understands About Protest That America Doesn't* : https://www.myfrenchlife.org/p/what-france-understands-about-protest (2024)
+15. Frontiers in Psychology (2024) : *Learned helplessness revisited: biased evaluation of...* : https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1329664/full (2024)
+16. INSEE (2025) : *Unemployment Q4 2025: 7.9%, 2.5M people* : https://www.insee.fr/en/statistiques/8736808 (2026-02-10)
+17. CGLPL (2024) : *Rapport d'activité 2024* : https://www.cglpl.fr/publications/rapport-dactivite-2024/ (2025-07-07)
+18. INSEE (2025) : *Prix des logements Q1 2025: +1.0%* : https://www.insee.fr/fr/statistiques/8584534 (2025)
+19. IFRAP (2025) : *L'économie informelle correspondrait à 11% du PIB* : https://www.ifrap.org/budget-et-fiscalite/leconomie-informelle-correspondrait-11-du-pib (2025)
+20. Wikipedia (2018) : *École nationale d'administration: 6500 énarques* : https://fr.wikipedia.org/wiki/École_nationale_d%27administration (2025)
+21. Vie Publique (2023) : *Les différentes réformes des retraites de 1993 à 2023* : https://www.vie-publique.fr/eclairage/20111-retraites-les-differentes-reformes-de-1993-2023 (2018)
+22. Politico (2022) : *'McKinseygate' dogs Macron's reelection campaign* : https://politico.eu/article/mckinsey-gate-emmanuel-macron-campaign-france/ (2022-03-31)
+23. JaQadi (2023) : *Article 49.3: combien de fois utilisé depuis 1958?* : https://jaqadi.com/politique/article-49-3-combien-de-fois-a-t-il-ete-utilise-depuis-sa-creation/ (2023-03-22)
+24. Wikipedia (2025) : *Le Siècle club ~200 members* : https://fr.wikipedia.org/wiki/Le_Si%C3%A8cle (2025)
 
 ---
 
@@ -136,7 +136,7 @@ La période 2012-2026 suffit à démontrer que la passivité est systémique (TS
 
 ---
 
-**TRUTH ENGINE v2.0 — KERNEL EXECUTED — APEX COMPLET — ICEBERG MAX ✅**
+**TRUTH ENGINE v2.0 : KERNEL EXECUTED : APEX COMPLET : ICEBERG MAX ✅**
 **40+ requêtes | 11 clusters | 15 sections investigation | 6 sections article**
 **ICEBERG MAX : 10 dimensions cachées quantifiées (score 9+)**
-**STATUT : ENQUÊTE TERMINÉE — COMPLET**
+**STATUT : ENQUÊTE TERMINÉE : COMPLET**

@@ -141,4 +141,4 @@ Allons-nous continuer l'extraction pour payer nos dettes, ou détruire le dogme 
 - **Nancy Fraser** : [Capitalisme Cannibale](https://www.versobooks.com/books/3981-cannibal-capitalism).
 - **Karl Marx** : [Le Capital (Allégorie systémique du vampire)](https://www.marxists.org/archive/marx/works/1867-c1/).
 
-*Archive générée via l'APEX v23.0 — The Cold Fusion Engine*
+*Archive générée via l'APEX v23.0 (The Cold Fusion Engine)*

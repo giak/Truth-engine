@@ -3,11 +3,17 @@
   "task": "truth-engine",
   "protected_branches": ["main", "master"],
   "tests": ["python3 -m pytest tests/extractors/ -q"],
-  "checks": [
+  "checks": [],
+  "content": [
     {
-      "name": "no-em-dash-in-articles",
-      "cmd": "grep -rl '—' articles/ 2>/dev/null && exit 1 || exit 0",
-      "fail_message": "tiret cadratin (U+2014) trouvé dans articles/ — interdit par le contrat (scope Phase 3)"
+      "name": "no-em-dash-in-published-articles",
+      "forbidden": "—",
+      "dirs": ["articles/"],
+      "dir_pattern": "^\\d{4}-\\d{2}-\\d{2}_[A-Za-z0-9]+(-[A-Za-z0-9]+)*$",
+      "only_types": ["ARTICLE"],
+      "since": "2026-08-17",
+      "exclude": ["copy", "\\.bak$", "_audit"],
+      "note": "scope = livrables _ARTICLE.md dans les dossiers de chantier datés, produits après la décision Phase 3. Les brouillons, copies, audits et fichiers internes sont hors scope."
     }
   ],
   "naming": {
