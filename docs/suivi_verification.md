@@ -16,7 +16,7 @@
 | 6 | Worktrees | ✅ | `tools/verify/worktree-new.sh`, démo `.worktrees/te-verification-gate` |
 | 7 | Enforcement orchestrateur | ✅ | runtime Codebuff validé (2026-08-18) : spawn verifier → reviewer → `result.json` écrit. Le reviewer a attrapé un vrai bug du moteur (escalade BLOCKED) et une fausse assurance (périmètre em-dash vide). Voir §2 |
 | 8 | Review-local Ollama (POC + benchmark) | ✅ | 5 modèles benchmarkés (2026-08-18), **qwen3.6:35b retenu** (`think: false` obligatoire). Rapport complet §5 |
-| 9 | Implémentation `verify.py gate` | ⬜ | spécifiée (`docs/superpowers/specs/2026-08-18-gate-verification-review-local-design.md` §4) ; fixtures versionnées prêtes (`tools/verify/fixtures/`) ; 8 critères d'acceptation à exécuter |
+| 9 | Implémentation `verify.py gate` | ✅ | `verify.py gate --file <livrable>` implémenté et testé (2026-08-18) : BAD → FAIL 7 findings, témoin → FAIL 3 findings, modèle inexistant → BLOCKED, branche protégée → BLOCKED sans revue. Tests §5.7 |
 
 ## 2. Décisions ouvertes
 
@@ -27,7 +27,7 @@
 - **Runtime des `.agents/*.ts`** : à valider en orchestrant un premier chantier dans Codebuff. Le câblage verdict reviewer → certify est fail-safe (retombe sur `BLOCKED`, jamais `PASS`).
 - **POC round 4 (2026-08-18) : cause racine du findings.json manquant identifiée et corrigée.** Le write_file de `.verify/findings.json` par l'agent était **rejeté par le runtime** : le format `write_file` Codebuff exige `{path, instructions, content}` (les trois champs), et `truth-verifier.ts` ne passait que `{path, content}` → erreur `Invalid parameters for write_file: [instructions: expected string, received undefined]` dans le log du run (ligne 48 du chat `2026-08-18T06-07-35.357Z`). Conséquence : `findings.json` n'a jamais été écrit par l'agent, et l'agent (haiku) a compensé en écrivant lui-même un `result.json` au format custom (worktree/branch/deliverable/conclusion/no_delivery) au lieu de `verify.py certify` : le certificat contenait les 8 findings mais **pas au format officiel** (pas de state_id, review, state_changed). Corrigé : `instructions` ajouté au write_file. L'extraction elle-même fonctionnait (n=8 findings capturés, verdict FAIL extrait).
 - **POC round 5 (2026-08-18) : non concluant, crédits épuisés.** `AI_APICallError: Payment Required` au spawn du reviewer → reviewVerdict `BLOCKED`, nFindings 0, certificat `BLOCKED` au format officiel écrit par `verify.py certify` (le fail-safe a fonctionné : reviewer indisponible → jamais PASS). La preuve du write_file corrigé (findings.json écrit par l'agent) reste à produire : il faudra des crédits Codebuff pour relancer un run complet.
-- **Modèle du reviewer local (2026-08-18) : qwen3.6:35b retenu par benchmark** (5 modèles, 2 livrables, rapport complet §5). Options obligatoires : `{think: false, format: json}` (`think:false` indispensable : modèle hybrid-thinking, réponse vide sinon). Ollama 0.32.14, Vulkan iGPU 780M : 20.4 tok/s, ~70 s/revue. Le pairing modèle→options sera porté par `verify.py gate`. Les petits modèles (8-12B) sont laxistes (faux PASS sur livrable imparfait), phi4-mini et gemma4:26b éliminés.
+- **Modèle du reviewer local (2026-08-18) : qwen3.6:35b retenu par benchmark** (5 modèles, 2 livrables, rapport complet §5). Options obligatoires : `{think: false, format: json}` (`think:false` indispensable : modèle hybrid-thinking, réponse vide sinon). Ollama 0.32.14, Vulkan iGPU 780M : 20.4 tok/s, ~70 s/revue. Le pairing modèle→options est porté par `verify.py gate` (implémenté, tests §5.7). Les petits modèles (8-12B) sont laxistes (faux PASS sur livrable imparfait), phi4-mini et gemma4:26b éliminés.
 
 ## 3. Verdict courant
 
@@ -106,6 +106,22 @@ Re-run versionné (`tools/verify/fixtures/benchmark_results.json`, 2026-08-18) :
 5. **Fixtures de non-régression versionnées** : `tools/verify/fixtures/` (BAD + témoin + `benchmark_review_local.py` + `benchmark_results.json` + `benchmark.log`). Rejouable : `python3 tools/verify/fixtures/benchmark_review_local.py`. Un reviewer correct doit FAILER les deux livrables.
 6. **Coût** : ~70 s/revue à 20.4 tok/s (prompt ~1,5K tokens, sortie ~700) → acceptable pour un gate.
 7. **Le nom de fichier doit être passé dans le prompt** : C6 (horodatage) n'est pas vérifiable sinon.
+
+### 5.7 Tests d'acceptation du gate (2026-08-18)
+
+`verify.py gate` implémenté (étape 9) et exécuté en worktree propre (branche `te-gate-acceptance`).
+
+| # | Test | Résultat |
+|---|---|---|
+| AC-01 | gate sur BAD (6 violations) | ✅ verdict FAIL, 7 findings, `state_changed:false` |
+| AC-02 | gate sur témoin (4 défauts) | ✅ verdict FAIL, 3 findings |
+| AC-04 | Ollama indisponible (`--model nonexistent:999` → 404) | ✅ verdict BLOCKED, `review_note` « Ollama injoignable » |
+| AC-04b | check non PASS (branche protégée `main`) | ✅ verdict BLOCKED, aucune revue (`review_note` explicite) |
+| AC-06 | `think:false` présent (sinon qwen3.6:35b répond vide → BLOCKED) | ✅ implicite : la revue BAD a rendu du JSON valide |
+| AC-07 | `node --check` des `.agents/*.ts` inchangé | ✅ aucune modification des agents |
+| AC-08 | fixtures versionnées et rejouables | ✅ `tools/verify/fixtures/benchmark_review_local.py` |
+
+Non exécuté faute de livrable réellement conforme : AC-03 (PASS sur livrable conforme). Le chemin PASS est couvert par la logique (`review PASS` + `check PASS` + zéro point VIOLATION → PASS), mais aucun livrable témoin 100 % conforme n'a été fabriqué.
 
 ### 5.6 Références
 

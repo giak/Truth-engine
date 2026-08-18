@@ -30,9 +30,28 @@ Trois verdicts, et seulement trois : `PASS`, `FAIL`, `BLOCKED`. Pas de score.
 python3 tools/verify/verify.py check                       # déterministe + STATE_ID (exit 0/1/2)
 python3 tools/verify/verify.py state-id                    # STATE_ID courant
 python3 tools/verify/verify.py certify --review PASS|FAIL|BLOCKED
+python3 tools/verify/verify.py gate --file <livrable> [--model <modèle>]   # check + review-local + certify
 ```
 
 `check` et `certify` écrivent un rapport JSON sur stdout. Codes retour : `0` = PASS, `1` = FAIL, `2` = BLOCKED.
+
+### Gate unifié (`gate`)
+
+`gate` exécute `check` + `review-local` + `certify` en une commande, sans runtime Codebuff :
+
+```
+gate
+  1. check (déterministe)      FAIL/BLOCKED → arrêt : jamais de revue d'un état non conforme
+  2. review-local (Ollama, stateless, prompt complet à chaque appel)
+  3. verdict LLM advisory → PASS/FAIL/BLOCKED par règles déterministes
+  4. certify (findings.json + result.json au format officiel)
+```
+
+- Reviewer local : Ollama `qwen3.6:35b` (`think:false` obligatoire), mapping modèle→options dans `verify.py` (spec gate §6). Modèle inconnu → `format:json` seul + avertissement dans le certificat.
+- Fail-safe : Ollama down, JSON illisible, points incomplets ou verdict PASS incohérent avec des points VIOLATION → `BLOCKED`, jamais `PASS`.
+- La sortie LLM n'est jamais parsée en confiance (anti-fausse-précision) : forme tolérante (fences), grammaire close stricte (OK/VIOLATION, PASS/FAIL/BLOCKED).
+- `--file` est requis pour la revue sémantique (check PASS) ; stdout porte le certificat final, le rapport de check va sur stderr.
+- `gate` dépend d'Ollama (`http://localhost:11434`) : sans Ollama, le verdict est `BLOCKED`, jamais `PASS`.
 
 ## Adapter à n'importe quel projet
 

@@ -20,11 +20,15 @@ Modes :
   certify   Finalise : compare le STATE_ID courant à celui enregistré par
             `check`, enregistre le verdict du reviewer, écrit `.verify/result.json`.
             Code retour : 0 = PASS, 1 = FAIL, 2 = BLOCKED.
+  gate      check + review-local (Ollama, stateless) + certify, en une commande.
+            La revue LLM est advisory : convertie en verdict par des règles
+            déterministes (jamais de faux PASS). Code retour 0/1/2 comme check.
 
 Usage :
   python3 tools/verify/verify.py check
   python3 tools/verify/verify.py state-id
   python3 tools/verify/verify.py certify --review PASS|FAIL|BLOCKED [--findings-file <fichier.json>]
+  python3 tools/verify/verify.py gate [--file <livrable>] [--model <modèle>]
   (--findings-file : persiste les findings du reviewer dans result.json)
 """
 
@@ -33,13 +37,63 @@ import json
 import os
 import subprocess
 import sys
+import urllib.request
 from datetime import datetime, timezone
 
 CONFIG_PATH = ".verify/config.json"
 PENDING_PATH = ".verify/pending.json"
 RESULT_PATH = ".verify/result.json"
+FINDINGS_PATH = ".verify/findings.json"
 
 VERDICTS = ("PASS", "FAIL", "BLOCKED")
+
+OLLAMA_URL = "http://localhost:11434/api/generate"
+REVIEW_MODEL_DEFAULT = "qwen3.6:35b"
+REVIEW_TIMEOUT = 300
+REVIEW_TEMP = 0.3
+REVIEW_NUM_PREDICT = 4096
+REVIEW_POINTS = ("C1", "C2", "C3", "C4", "C5", "C6", "C7")
+# Mapping modèle → options Ollama (spec gate §6). think:false est obligatoire
+# pour qwen3.6:35b (hybrid-thinking : réponse vide sinon). Modèle inconnu :
+# format:json seul, avec avertissement dans le certificat.
+REVIEW_MODEL_OPTIONS = {
+    "qwen3.6:35b": {"think": False, "format": "json"},
+    "qwen3:8b": {"format": "json"},
+    "gemma3:12b": {"format": "json"},
+}
+
+ROLE = """Tu es un reviewer indépendant et hostile au travail présenté. Tu n'as pas produit ce document. Tu es en lecture seule. Tu ne répareras rien.
+Rends exactement UN verdict parmi trois : FAIL (défaut démontrable, chaque défaut documenté), BLOCKED (vérification impossible), PASS (aucun défaut matériel).
+Interdits : scores, pourcentages, flatterie. Style direct. Seuls les défauts qui empêchent rationnellement la livraison vont dans findings."""
+
+CONTRACT = """CONTRAT DU PROJET (extraits canoniques de knowledge.md et truth-engine-v2/KERNEL.md) :
+- Livrable final : STATE=FINAL, NEXT_ACTION=NONE. KERNEL §0 : « NEVER persist OPEN/PENDING as final ».
+- Pipeline KERNEL obligatoire : ANALYZE §0 avec 15 symboles narratifs scorés, BIAS_TEST, CRÉDO/SCOPING, LEAD_REGISTRY, CLAIM_REGISTRY, EVIDENCE_REGISTRY.
+- COMPLEXITY=SIMPLE : exactement 5 sections core (RÉSUMÉ EXÉCUTIF, CHRONOLOGIE, DOMAINES, CARTE DES PREUVES, PÉRIMÈTRE & LIMITES) + appendices SOURCES et REQUEST_LOG obligatoires.
+- Traçabilité : bloc FACT_REGISTRY_V1 (id|epi|tier|url|families|date), identifiant FCT-###, source = URL de page spécifique cliquable / SRC-ID / locator exact.
+- L4 (CONFIRMÉ) : L3 + gate EPI=FACT + recherche de contre-exemples + preuves matérielles dans le livrable (sources fetchées, recoupement ≥2 familles, FACT_REGISTRY_V1, REQUEST_LOG).
+- Horodatage du nom de fichier = date/heure réelle de création (CEST), jamais inventé.
+- Toute affirmation sans source vérifiable = violation grave."""
+
+ENUM = """
+
+PROCÉDURE OBLIGATOIRE, À EXÉCUTER DANS CET ORDRE :
+1. Examine le livrable ci-dessous.
+2. Pour CHACUN des 7 points C1..C7, tranche explicitement : C1:OK ou C1:VIOLATION, etc. (une ligne par point, dans l'ordre).
+3. Convertis en findings UNIQUEMENT les points marqués VIOLATION (location + problem + evidence pour chacun).
+4. Le verdict est FAIL si au moins un point est VIOLATION, sinon PASS, BLOCKED si le livrable est illisible.
+
+Points à trancher :
+C1. STATE du manifeste = FINAL ?
+C2. Pipeline KERNEL présent (ANALYZE 15 symboles, BIAS_TEST, CRÉDO/SCOPING, registres) ?
+C3. Structure SIMPLE complète (5 sections core + SOURCES + REQUEST_LOG) ?
+C4. Traçabilité des faits (FACT_REGISTRY_V1, FCT-###, source URL/locator) ?
+C5. Preuve matérielle de « vérifié L4 » ?
+C6. Horodatage du nom de fichier cohérent ?
+C7. Autre fabrication ou affirmation non étayée ?
+
+RÉPONDS UNIQUEMENT EN JSON :
+{"points": {"C1": "OK" ou "VIOLATION", ..., "C7": ...}, "verdict": "PASS" ou "FAIL" ou "BLOCKED", "findings": [{"location": "...", "problem": "...", "evidence": "..."}]}"""
 
 DEFAULT_CONFIG = {
     "version": 1,
@@ -450,7 +504,7 @@ def _load_findings(root, findings_file):
     return data, None
 
 
-def cmd_certify(cfg, root, review, findings_file=None):
+def cmd_certify(cfg, root, review, findings_file=None, review_note=None):
     if review not in VERDICTS:
         eprint(f"--review doit être l'un de {VERDICTS}")
         return 2
@@ -493,6 +547,8 @@ def cmd_certify(cfg, root, review, findings_file=None):
         "state_changed": state_changed,
         "created_at": now_iso(),
     }
+    if review_note:
+        result["review_note"] = review_note
     if findings:
         result["findings"] = findings
     os.makedirs(os.path.dirname(os.path.join(root, RESULT_PATH)) or ".", exist_ok=True)
@@ -502,9 +558,136 @@ def cmd_certify(cfg, root, review, findings_file=None):
     return {"PASS": 0, "FAIL": 1, "BLOCKED": 2}[final]
 
 
+def review_local(deliverable_path, model):
+    """Revue sémantique stateless d'un livrable par Ollama.
+
+    Retourne (verdict, findings, note). verdict est PASS/FAIL/BLOCKED ;
+    findings est la liste brute du reviewer ; note est un motif de BLOCKED ou
+    un avertissement (modèle hors table). La sortie LLM est strictement
+    advisory : convertie en grammaire close (anti-fausse-précision,
+    knowledge.md §3.5) : forme tolérante (fences), grammaire stricte
+    (OK/VIOLATION, PASS/FAIL/BLOCKED), toute anomalie → BLOCKED, jamais PASS.
+    """
+    if not os.path.isfile(deliverable_path):
+        return "BLOCKED", [], f"livrable introuvable : {deliverable_path}"
+    try:
+        with open(deliverable_path, encoding="utf-8") as f:
+            doc = f.read()
+    except OSError as exc:
+        return "BLOCKED", [], f"livrable illisible : {exc}"
+
+    name = os.path.basename(deliverable_path)
+    prompt = ROLE + "\n" + CONTRACT + ENUM + "\n\n" + name + "\n\nLIVRABLE À EXAMINER :\n\n" + doc
+
+    payload = {
+        "model": model,
+        "prompt": prompt,
+        "stream": False,
+        "format": "json",
+        "options": {"temperature": REVIEW_TEMP, "num_predict": REVIEW_NUM_PREDICT},
+    }
+    payload.update(REVIEW_MODEL_OPTIONS.get(model, {"format": "json"}))
+    warn = "" if model in REVIEW_MODEL_OPTIONS else f"modèle inconnu '{model}' : options par défaut"
+
+    req = urllib.request.Request(
+        OLLAMA_URL,
+        data=json.dumps(payload).encode(),
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=REVIEW_TIMEOUT) as resp:
+            body = json.loads(resp.read().decode())
+    except Exception as exc:  # noqa: BLE001
+        return "BLOCKED", [], f"Ollama injoignable : {exc}"
+
+    raw = body.get("response", "").strip()
+    if raw.startswith("```"):
+        raw = raw.strip("`")
+        if raw.startswith("json"):
+            raw = raw[4:]
+        raw = raw.strip()
+    try:
+        data = json.loads(raw)
+    except Exception as exc:  # noqa: BLE001
+        return "BLOCKED", [], f"réponse non parsable en JSON : {exc}"
+
+    points = data.get("points")
+    verdict = data.get("verdict")
+    findings = data.get("findings")
+    if not isinstance(points, dict) or set(points.keys()) != set(REVIEW_POINTS):
+        return "BLOCKED", [], f"points absents ou incomplets (attendu {','.join(REVIEW_POINTS)})"
+    bad = [k for k in REVIEW_POINTS if points.get(k) not in ("OK", "VIOLATION")]
+    if bad:
+        return "BLOCKED", [], f"valeurs de points inconnues : {','.join(bad)}"
+    if verdict not in VERDICTS:
+        return "BLOCKED", [], f"verdict inconnu : {verdict!r}"
+    if not isinstance(findings, list):
+        return "BLOCKED", [], "findings doit être une liste"
+
+    if verdict == "PASS":
+        if any(points[k] == "VIOLATION" for k in REVIEW_POINTS):
+            return "BLOCKED", findings, "verdict PASS incohérent avec des points VIOLATION"
+        return "PASS", findings, warn or None
+    if verdict == "FAIL":
+        return "FAIL", findings, warn or None
+    return "BLOCKED", findings, warn or "le reviewer a rendu BLOCKED"
+
+
+def cmd_gate(cfg, root, deliverable=None, model=None):
+    """check + review-local + certify en une commande (spec gate, étape 9)."""
+    model = model or REVIEW_MODEL_DEFAULT
+
+    # 1. check déterministe (mêmes contrôles et STATE_ID que `check`)
+    verdict, results = run_checks(cfg, root)
+    state_id, head = compute_state_id(root)
+    pending = {
+        "schema": 1,
+        "task": cfg.get("task", "default"),
+        "deterministic": verdict,
+        "head": head,
+        "state_id": state_id,
+        "created_at": now_iso(),
+    }
+    os.makedirs(os.path.dirname(os.path.join(root, PENDING_PATH)) or ".", exist_ok=True)
+    with open(os.path.join(root, PENDING_PATH), "w", encoding="utf-8") as f:
+        json.dump(pending, f, indent=2, ensure_ascii=False)
+    report = dict(pending)
+    report["checks"] = results
+    print(json.dumps(report, indent=2, ensure_ascii=False), file=sys.stderr)
+
+    # 2. check non PASS → arrêt : jamais de revue d'un état non conforme
+    if verdict != "PASS":
+        eprint(f"gate : check déterministe = {verdict} → pas de revue locale")
+        return cmd_certify(
+            cfg, root, "BLOCKED", None,
+            review_note=f"revue locale non exécutée (check déterministe = {verdict})",
+        )
+
+    # 3. revue locale (advisory) sur le livrable demandé
+    if not deliverable:
+        eprint("gate : --file requis pour la revue sémantique (check déterministe = PASS)")
+        return cmd_certify(
+            cfg, root, "BLOCKED", None,
+            review_note="revue locale non exécutée (--file absent)",
+        )
+    path = deliverable if os.path.isabs(deliverable) else os.path.join(root, deliverable)
+    review, findings, note = review_local(path, model)
+    eprint(f"gate : revue locale {model} → {review}")
+    if note:
+        eprint(f"gate : note : {note}")
+
+    # 4. persister les findings puis certifier (format officiel)
+    findings_file = None
+    if findings:
+        findings_file = FINDINGS_PATH
+        with open(os.path.join(root, findings_file), "w", encoding="utf-8") as f:
+            json.dump(findings, f, indent=2, ensure_ascii=False)
+    return cmd_certify(cfg, root, review, findings_file, review_note=note)
+
+
 def usage():
     print(
-        "usage: verify.py check | state-id | report | certify --review PASS|FAIL|BLOCKED [--findings-file <fichier.json>]"
+        "usage: verify.py check | state-id | report | certify --review PASS|FAIL|BLOCKED [--findings-file <fichier.json>] | gate [--file <livrable>] [--model <modèle>]"
     )
     return 2
 
@@ -537,6 +720,18 @@ def main(argv):
             if i + 1 < len(argv):
                 findings_file = argv[i + 1]
         return cmd_certify(cfg, root, review, findings_file)
+    if mode == "gate":
+        deliverable = None
+        if "--file" in argv:
+            i = argv.index("--file")
+            if i + 1 < len(argv):
+                deliverable = argv[i + 1]
+        model = REVIEW_MODEL_DEFAULT
+        if "--model" in argv:
+            i = argv.index("--model")
+            if i + 1 < len(argv):
+                model = argv[i + 1]
+        return cmd_gate(cfg, root, deliverable, model)
     return usage()
 
 
