@@ -278,7 +278,7 @@ ASSUMPTIONS | PRIORITIES | QUERY_GUIDANCE
    Material state change before correction/branch switch → CHECKPOINT[SEARCH_PARTIAL] with exact unfinished phase/ID/QRY.
    ENFORCE[GAP_OK,SAT_OK,TERM_LED,TERM_AXS,STOP_OK].
 
-10 CONSTRUCTION    Build FCT-001... from both search routes, from @FETCH'd EXCERPT only (NEVER LLM recall/snippet). Tag each FCT with EPI class (FACT|EVIDENCE|INFERENCE|HYPOTHESIS|SPECULATION|UNKNOWN). Source:=SRC-ID+title/date+exact locator. See protocol/FACT_VERIFICATION.md. EMIT FACT_REGISTRY_V1 block (id|epi|tier|url|families|date) in CARTE DES PREUVES.
+10 CONSTRUCTION    Build FCT-001... from both search routes, from @FETCH'd EXCERPT only (NEVER LLM recall/snippet). Tag each FCT with EPI class (FACT|EVIDENCE|INFERENCE|HYPOTHESIS|SPECULATION|UNKNOWN). Source:=SRC-ID+title/date+exact locator. See protocol/FACT_VERIFICATION.md. EMIT FACT_REGISTRY_V1 block (id|epi|tier|url|families|date|sujet|valeur|mem) in CARTE DES PREUVES; mem:- until 19b rebinds it with the returned memory_id.
    ENFORCE[ANCHOR_OK]. ✦ only if EPI=FACT + fetched + anchored (FACT_VERIFICATION L4); single family → ✧; unfetched URL → ⁅; none → ❧. Persisted exact excerpt supports only bounded fact "supplied content states X".
    Unsupported material → typed GAP, NEVER narrative bridge. TARGET confirmed facts MEDIUM5/COMPLEX8/APEX10.
    Expected absent record → INVESTIGATION.md SILENT_EVIDENCE. CHECKPOINT[FACTS:LAST_COMPLETED=10;NEXT_ACTION=11].
@@ -336,12 +336,10 @@ ASSUMPTIONS | PRIORITIES | QUERY_GUIDANCE
 
 19a GATE_VERIFY    REPO_ROOT := parent of BASE (truth-engine root). ENFORCE[VERIFY_OK].
    RUN: python3 tools/verify/verify.py gate --file $INVESTIGATION_PATH (cwd=REPO_ROOT; the tool
-   auto-resolves the git root, including worktrees). gate = check (déterministe, autoritatif)
-   + review-local Ollama (red-team) + certify (écrit .verify/result.json : verdict,
-   deterministic, review, findings, state_id).
-   Interpréter le verdict DÉTERMINISTE (check) sur l'état livré : c'est lui qui fait foi pour la
-   conformité mécanique.
-   PASS → gate mécanique franchie ; record STATE_ID + verdict + review dans RUN_MANIFEST.
+   auto-resolves the git root, including worktrees). gate = check + certify (déterministe seul,
+   sans revue LLM ; écrit .verify/result.json : verdict, deterministic, review=N/A, state_id).
+   Le verdict DÉTERMINISTE (check + horodatage) sur l'état livré est le seul qui fait foi.
+   PASS → gate mécanique franchie ; record STATE_ID + verdict dans RUN_MANIFEST.
    FAIL → read the failing check detail: naming/content on the INVESTIGATION file → correct the
    file; test failure → fix the cause; then rebuild affected registries, re-FREEZE, re-SAVE,
    re-run 19a. BLOCK_IF[persistent FAIL].
@@ -350,15 +348,10 @@ ASSUMPTIONS | PRIORITIES | QUERY_GUIDANCE
        (tools/verify/worktree-new.sh <chantier>); move/re-run there;
        NEVER claim validated delivery on main.
      - config/module/regex error → BLOCK_IF; fix config before any worktree move.
-   Le verdict REVIEW (revue sémantique) est bloquant mais ADJUDICABLE :
-     review=FAIL → findings consignés dans le certificat ; chaque finding doit être ADJUGÉ :
-       réel → corriger et re-run 19a ; faux positif → le consigner explicitement.
-       Le reviewer local (qwen3.6:35b) false-FAIL les livrables conformes
-       (docs/suivi_verification.md §5.8) : un FAIL de revue n'est PAS une condamnation
-       automatique, il exige une adjudication humaine, jamais un PASS silencieux.
-     review=BLOCKED (Ollama down / sortie illisible) → revue indisponible : log + adjudication
-       humaine ; le FAIL-safe tient (jamais de faux PASS).
-   GATE_VERDICT := verdict final du certificat (PASS = deterministic PASS + review PASS).
+   Revues sémantiques : PAS de reviewer local (Ollama supprimé 2026-08-18 : un LLM sans outils
+   ne peut pas fact-checker). La revue clean-room premium, si le runtime l'expose, est le
+   sous-agent Freebuff truth-reviewer (chemin spawn, .agents/truth-verifier.ts), jamais requis.
+   GATE_VERDICT := deterministic (PASS = deterministic PASS).
    BLOCK_IF[deterministic ∈ {FAIL, BLOCKED} without correction or worktree move].
    ON_FAIL[verify tool unavailable] → DEGRADE_IF[GATE_VERDICT:=UNAVAILABLE + log; NEVER claim PASS].
    ONLY IF GATE_VERDICT=PASS → proceed to 19b.
@@ -369,8 +362,12 @@ ASSUMPTIONS | PRIORITIES | QUERY_GUIDANCE
    HASH_CAPABILITY=true → source_hash:=first10hex(SHA1_UTF8(evidence_key));
    $FACT_TAGS:=unique($TAGS+["status:CONFIRME","verifie-YYYY-MM-DD","source:"+source_hash]).
    ELSE tags omit source hash; NEVER invent it.
-   write_memory(title="{fact key}", content="FAIT VÉRIFIÉ : {fait}\n\nSOURCE : {source} ({date})\nURL : {url}",
+   $MEM:=write_memory(title="{fact key}", content="FAIT VÉRIFIÉ : {fait}\n\nSOURCE : {source} ({date})\nURL : {url}",
    tags=$FACT_TAGS, memory_type="note"). Duplicate/existing → @MNEMO_U; non-✦ → SKIP; log actual count/failures.
+   CAPTURE $MEM_ID := id returned by write_memory / @MNEMO_U (NEVER invent). REBIND the FCT-### row in
+   FACT_REGISTRY_V1: append mem:$MEM_ID as 9th field (mem:- if no id). Rewrite $INVESTIGATION_FILE with the
+   mem:-populated block; re-run verify.py gate --file $INVESTIGATION_PATH to re-baseline STATE_ID on the
+   mem:-complete file. Phase 1 reads mem: verbatim, no semantic re-search.
    NEVER run before 19a PASS (a failed gate must not pollute memory).
 
 ## §2 — Cross-module invariants and barriers

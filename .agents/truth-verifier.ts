@@ -6,7 +6,7 @@
  *   1. check   : contrôles déterministes + STATE_ID  (écrit .verify/pending.json)
  *   2. review  : truth-reviewer en contexte neuf (seulement si déterministe == PASS)
  *      → chemin sans spawn (Freebuff base3-free) : fallback verify.py gate
- *        (check + review-local Ollama + certify), si inputSchema.deliverable fourni
+ *        (check + certify, déterministe seul), si inputSchema.deliverable fourni
  *   3. certify : comparaison STATE_ID + enregistrement du verdict final
  *
  * L'artefact d'autorité est `.verify/result.json` (PASS / FAIL / BLOCKED).
@@ -157,9 +157,9 @@ export default {
 
       // Chemin sans spawn : le runtime n'expose pas spawn_agents (Freebuff base3-free,
       // docs/boucle_de_verification.md §57.8). Fallback : verify.py gate (check +
-      // review-local Ollama + certify) en une commande, certificat déjà écrit.
+      // certify, déterministe seul, pas de revue LLM) en une commande, certificat déjà écrit.
       if (rev && rev.toolError) {
-        logger.info('verify: spawn_agents unavailable, falling back to verify.py gate (review-local)')
+        logger.info('verify: spawn_agents unavailable, falling back to verify.py gate (déterministe seul)')
         if (!deliverable) {
           logger.error('verify: gate fallback requires inputSchema.deliverable')
           yield {

@@ -1,5 +1,7 @@
 # Design — Gate de vérification unifié : `verify.py gate` (check + review-local + certify)
 
+> ⚠️ **OBSOLÈTE (2026-08-18)** : le reviewer local Ollama a été supprimé. `verify.py gate` est désormais check + certify (déterministe seul, review=N/A). Cette spec décrit l'état antérieur. À archiver.
+
 > Date : 2026-08-18. Statut : validé en brainstorm. Version 2.
 > Remplace la V1 « spawn spécialistes (thinker/researcher) » (hors cible : l'utilisateur a tranché pour la chaîne reviewer+verifier, pas de thinker).
 > Contexte : `docs/boucle_de_verification.md` (§11-13, AC-07/08, §55, §57.1-57.8), `docs/architecture_verification.md`, `docs/suivi_verification.md` (rapport benchmark §5).
@@ -69,7 +71,7 @@ CONTRACT : extraits canoniques de knowledge.md et truth-engine-v2/KERNEL.md
   LEAD_REGISTRY, CLAIM_REGISTRY, EVIDENCE_REGISTRY
 - COMPLEXITY=SIMPLE : 5 sections core (RÉSUMÉ EXÉCUTIF, CHRONOLOGIE, DOMAINES, CARTE DES
   PREUVES, PÉRIMÈTRE & LIMITES) + appendices SOURCES et REQUEST_LOG
-- Traçabilité : FACT_REGISTRY_V1 (id|epi|tier|url|families|date), FCT-###, source = URL de
+- Traçabilité : FACT_REGISTRY_V1 (id|epi|tier|url|families|date|sujet|valeur|mem), FCT-###, source = URL de
   page spécifique cliquable / SRC-ID / locator exact
 - L4 (CONFIRMÉ) : L3 + gate EPI=FACT + recherche de contre-exemples + preuves matérielles
   (sources fetchées, recoupement ≥2 familles, FACT_REGISTRY_V1, REQUEST_LOG)

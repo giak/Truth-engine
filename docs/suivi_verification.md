@@ -1,5 +1,7 @@
 # Suivi de la boucle de vérification
 
+> ⚠️ **OBSOLÈTE (2026-08-18)** : le reviewer local Ollama a été supprimé (toute la §5 « benchmark des modèles » et les fixtures sont caduques). Canonique : `docs/besoin_factchecking.md`. À archiver.
+
 > Tableau de bord du chantier. Cahier des charges : `docs/boucle_de_verification.md`.
 > Le « verdict courant » est régénérable à tout moment : `python3 tools/verify/verify.py report`.
 

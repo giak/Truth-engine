@@ -1,5 +1,7 @@
 # Architecture de la boucle de vérification
 
+> ⚠️ **OBSOLÈTE (2026-08-18)** : le reviewer local Ollama a été supprimé. `verify.py gate` = check + certify (déterministe seul), plus de review-local. Canonique : `docs/besoin_factchecking.md`. À archiver.
+
 > Spécification de besoin et d'architecture de la boucle de vérification implémentée dans Truth Engine.
 > Complémentaire au cahier des charges (`docs/boucle_de_verification.md`) et au tableau de bord (`docs/suivi_verification.md`).
 > Ce document décrit l'état **réel** du système au 2026-08-18, pas un état projeté.

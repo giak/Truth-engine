@@ -1,3 +1,5 @@
+> ⚠️ **OBSOLÈTE (2026-08-18)** : le reviewer local Ollama a été supprimé. Ce document décrit l'état antérieur (notamment §57.7-57.9). Canonique : `docs/besoin_factchecking.md` + `tools/verify/README.md`. À archiver.
+
 j'ai des agents, orchestrator, des prompts très évolués, des frameworks complexes, etc. (regarde dans ma mémoire et historique de conversation).
 
 ce qui me manque, c'est la vérification. je passe trop de temps à demander aux LLM de "double check" ou carrément "KISS, DRY, YAGNI, no-overgineering, pragmatique, éfficace, robuste, refactoring, concis, précis, rigoureux, maniaque, fiable. NO sycophancy, honnêteté absolue, vérité forensique, Double check tout. no regression."
