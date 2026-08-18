@@ -2348,4 +2348,34 @@ En environnement contraint (Freebuff), la gate se réduit au déterministe + STA
 
 **Preuve à produire avant de conclure** : un run réel sous Freebuff avec `truth-reviewer` déclarant un slug du catalogue (ex. `deepseek/deepseek-v4-pro`), vérifiant dans le log que le spawn tourne sur ce modèle et que `findings.json` + `result.json` sont écrits au format officiel. La contrainte mono-instance Freebuff impose de fermer la session courante avant ce test.
 
+## 57.6 Résultat du test réel (2026-08-18, session 07-55)
+
+**Ce qui est prouvé par le run :**
+
+- Le slug gratuit est honoré : le log montre 26 appels sur `deepseek/deepseek-v4-pro` (template `base3-free-deepseek`), zéro erreur `Payment Required`. L'option B est validée pour la résolution du modèle.
+- La chaîne déterministe fonctionne : `verify.py check` → `pending.json` (deterministic PASS), puis `certify --review FAIL --findings-file .verify/findings.json` → `result.json` au format officiel avec 6 findings, `state_changed: false`. `findings.json` a bien été écrit par l'agent via `write_file`.
+- Le scénario AC-03 est couvert : contrôles déterministes PASS, revue sémantique FAIL → livraison refusée.
+
+**La découverte critique : `spawn_agents` a été retiré du template gratuit.**
+
+Analyse de toutes les sessions :
+
+```text
+base2-free-*  (avril → 12 août 2026) : spawn_agents exposé (True)
+base3-free-*  (13 août → aujourd'hui) : spawn_agents absent (False)
+base2         (payant, 18 août)       : spawn_agents exposé (True)
+```
+
+Le 13 août 2026, Freebuff a migré ses templates gratuits de `base2-free-*` vers `base3-free-*`, et le nouveau template n'expose plus `spawn_agents` (ni les agents spécialisés natifs comme `basher`, `code_searcher`, `researcher_*`). Conséquence directe : **sous Freebuff actuel, le main-agent ne peut pas spawner de sous-agent**. Dans le run de test, l'agent principal a donc exécuté lui-même check → revue (rôle du reviewer) → certify, faute d'outil de spawn.
+
+**Implication honnête :** le test valide la mécanique (modèle gratuit + certificat officiel + findings persistés) mais pas la séparation des rôles. La revue n'a pas été faite par un `truth-reviewer` spawné en contexte neuf, mais par le main-agent lui-même, dans sa propre session : l'indépendance clean-room n'est pas démontrée sous Freebuff actuel.
+
+**Options pour restaurer l'indépendance :**
+
+1. **Session séparée comme reviewer (KISS, zéro crédit)** : le verifier déterministe tourne dans une session (check + certify), puis une session Freebuff fraîche joue le reviewer en contexte neuf (contexte neuf = clean-room réelle, car chaque session démarre sans historique). C'est le fonctionnement naturel de Freebuff et il respecte le principe : reviewer en contexte neuf, lecture seule.
+2. **BYOK OpenRouter** (`CODEBUFF_BYOK_OPENROUTER`) : avec une clé personnelle, le compte pourrait récupérer les templates `base2` (payants) et donc `spawn_agents`. À tester si une clé est disponible ; dépend d'une clé externe, hors périmètre zéro crédit.
+3. **Attendre/contourner le retrait de `spawn_agents`** : rien dans le binaire n'indique que `spawn_agents` reviendra dans `base3-free-*` ; c'est une décision serveur, non documentée.
+
+**Verdict révisé :** l'option B est validée pour le modèle (slug gratuit honoré) mais ne suffit plus à garantir la clean-room, car `spawn_agents` a été retiré des templates gratuits. La solution robuste et gratuite est l'option « session séparée comme reviewer » : elle préserve l'indépendance du reviewer sans dépendre d'un tool de spawn que Freebuff a supprimé.
+
 [1]: https://www.codebuff.com/publishers/codebuff/agents/base2-max/0.0.24?utm_source=chatgpt.com "base2-max v0.0.24 - Agent Details"
