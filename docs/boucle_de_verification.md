@@ -2250,4 +2250,102 @@ Pas de reviewer entre §9 et §10, pas de thinker dans §11, pas de reviewer sup
 
 C'est le meilleur compromis **KISS + DRY + no regression** : ton KERNEL conserve sa responsabilité et son déterminisme ; la nouvelle architecture ajoute une vraie red team indépendante sans contaminer son fonctionnement.
 
+# 57. Identification du fonctionnement des agents et sous-agents Freebuff (2026-08-18)
+
+Ce chapitre documente, avec preuves, comment le runtime Freebuff (binaire 0.0.149, même code que Codebuff avec `FREEBUFF_MODE=true`) résout les thinkers et les spawns. Il a été écrit après investigation du binaire (`strings`) et des logs de session réels.
+
+## 57.1 Preuves extraites du binaire
+
+**Agents natifs enregistrés** (liste `JSH` dans le binaire) :
+
+```text
+base, base_free, base_max, base_experimental, claude4_gemini_thinking,
+superagent, base_agent_builder, ask, planner, dry_run, thinker,
+file_picker, file_explorer, researcher, reviewer, agent_builder,
+example_programmatic
+```
+
+**Sélection du main-agent selon le mode** (fonction `t7A`) :
+
+```js
+v = { ask: du.ask, free: du.base_free, lite: du.base_free, normal: du.base,
+      max: du.base_max, experimental: "base2" }[t ?? "normal"] ?? "base2"
+```
+
+Donc : en Freebuff (mode `free`), le main-agent est `base-free`, un template d'agent dédié, distinct de `base` (payant). Les agents ont des noms d'affichage : `base` = « Buffy the Base Agent », `thinker` = « Theo the Theorizer », `reviewer` = « Nit Pick Nick the Reviewer », `researcher` = « Reid Searcher the Researcher », `file-explorer` = « Dora », `file-picker` = « Fletcher », `planner` = « Peter Plan », `agent-builder` = « Bob the Agent Builder ».
+
+**Le thinker est gratuit par design** : le binaire contient `freebuff-gemini-thinker.ts`, `gemini.ts`, `gemini-with-fallbacks.ts` et le modèle `gemini-2.5-flash-preview:thinking`. Le tool `think-deeply` existe dans le runtime. Le thinker Freebuff utilise Gemini avec chaîne de fallbacks, sans crédit consommé côté utilisateur.
+
+**Catalogue de modèles gratuits** (extrait des constantes `freebuff-models` / `freebuff-model-ids`) :
+
+```text
+deepseek-v4-pro, deepseek-v4-flash, deepseek-v4-pro-max, deepseek-v4-flash-max
+kimi-k2.6, kimi-k2.7-code
+mimo-v2.5, mimo-v2.5-pro
+minimax-m3
+z-ai/glm-4.6, z-ai/glm-4.7, z-ai/glm-4.7-flash, z-ai/glm-5, z-ai/glm-5.1, z-ai/glm-5.2
+gemini-2.5-pro, gemini-2.5-flash, gemini-2.5-flash-lite
+gemini-3.1-flash-lite, gemini-3.5-flash-lite
+gemini-3-flash-preview, gemini-3-pro-preview
+gemini-2.5-flash-preview:thinking (thinker)
+```
+
+**BYOK OpenRouter existe** : le binaire expose `BYOK_OPENROUTER_HEADER = 'x-openrouter-api-key'` et la variable `CODEBUFF_BYOK_OPENROUTER`. Une clé OpenRouter personnelle peut donc être injectée côté serveur, ce qui débloquerait les slugs OpenRouter payants (dont `anthropic/claude-sonnet-4.5`) sans acheter de crédits Codebuff. Le mécanisme est présent dans le binaire ; son activation réelle côté serveur n'a pas été testée.
+
+## 57.2 Preuves empiriques (logs de session)
+
+**Le champ `model` d'un agent local est honoré par le runtime.** Lors des POC de la gate (runs 1 à 4, mode payant), les logs montrent : main-agent = `anthropic/claude-opus-5`, truth-verifier = `anthropic/claude-haiku-4.5`, truth-reviewer = `anthropic/claude-sonnet-4.5`. Les slugs déclarés dans `.agents/*.ts` sont bien ceux exécutés.
+
+**Un slug hors catalogue Freebuff est refusé.** Au run 5 (crédits Codebuff épuisés, bascule Freebuff), le spawn du reviewer a échoué avec `AI_APICallError: Payment Required` : `anthropic/claude-sonnet-4.5` n'appartient pas au catalogue gratuit. Le fail-safe a tenu : verdict `BLOCKED`, certificat officiel écrit.
+
+**Les spawns sans `model` fonctionnent.** Analyse de 5 865 spawns dans les sessions passées : tous passent `model: NONE` (non spécifié) et sont routés par le serveur vers le catalogue gratuit (deepseek-v4-flash, gemini-3.5-flash-lite, deepseek-v4-pro, z-ai/glm-5.2 observés dans les sessions). Le client n'exige donc pas de champ `model` dans l'input `spawn_agents`.
+
+**Sessions Freebuff observées** : `deepseek-v4-pro`, `deepseek-v4-flash`, `z-ai/glm-5.2`, `gemini-3.5-flash-lite`. La session actuelle (ce document) tourne sur `deepseek/deepseek-v4-pro`.
+
+**Contrainte d'exécution** : Freebuff est mono-instance (« Only one freebuff instance is allowed at a time »). Impossible de lancer un spawn de test pendant qu'une session Freebuff est ouverte. C'est la limite pratique des tests automatisés de la gate en mode gratuit.
+
+## 57.3 Ce que cela implique pour la boucle de vérification
+
+1. **Le thinker est gratuit.** La réflexion profonde (analyse d'un livrable, rédaction de critique) peut être déléguée au thinker natif ou à un spawn sans `model`, sans consommation de crédit. C'est un vrai levier pour le reviewer : la revue n'a pas besoin d'un modèle payant pour être utile, elle a besoin d'un contrat strict et d'un contexte neuf.
+
+2. **Le reviewer local actuel est bloqué en Freebuff.** `truth-reviewer.ts` déclare `anthropic/claude-sonnet-4.5` : en mode gratuit, tout spawn échoue en `Payment Required`. La boucle est inutilisable telle quelle sans crédits.
+
+3. **Le fail-safe est le bon réflexe.** Le verdict `BLOCKED` en cas de reviewer indisponible est prouvé (run 5). La question n'est pas de supprimer cette barrière, mais de donner au reviewer un modèle qui existe réellement dans l'environnement courant.
+
+4. **Le contrat reste la brique fiable.** La gate déterministe (`verify.py check`, nommage, STATE_ID) ne dépend d'aucun modèle. La résilience de la boucle repose d'abord sur elle ; le reviewer LLM est un filet supplémentaire, pas le socle.
+
+## 57.4 Brainstorm : options pour un reviewer sans crédit
+
+**Option A : supprimer le champ `model` des agents locaux.**
+
+Le runtime route alors le spawn vers le catalogue gratuit (preuve : 5 865 spawns sans `model`). Zéro configuration, compatible payant et gratuit. Incertitude : le modèle exact devient implicite (choix serveur), et la validation des agents locaux pourrait exiger le champ (à vérifier par un run réel).
+
+**Option B : déclarer un slug du catalogue gratuit.**
+
+`truth-verifier` → `deepseek/deepseek-v4-flash` (léger, rapide) ; `truth-reviewer` → `deepseek/deepseek-v4-pro` ou `z-ai/glm-5.2` (plus costaud). Compatible Codebuff payant aussi. Contrôle explicite du modèle. Risque : dépendance à la disponibilité du slug côté serveur, à revalider si le catalogue change.
+
+**Option C : BYOK OpenRouter.**
+
+Poser sa propre clé OpenRouter (`CODEBUFF_BYOK_OPENROUTER`) pour débloquer les modèles Anthropic. Qualité maximale, mais dépend d'une clé payante externe : hors périmètre « zéro crédit ». À garder comme documentation, pas comme dépendance.
+
+**Option D : reviewer = thinker natif + contrat dans le prompt.**
+
+Utiliser l'agent natif `thinker` (gratuit, Gemini) avec le contrat KERNEL injecté dans le prompt de spawn. Ne nécessite aucun agent local : le KERNEL documente déjà le contrat, le prompt le charge. Simple, mais le thinker natif n'a pas nos `handleSteps` : pas d'orchestration check → review → certify. Il faudrait que le verifier (déterministe, gratuit) orchestre et que le thinker ne soit qu'un avis documenté.
+
+**Option E : verifier déterministe seul, reviewer optionnel.**
+
+En environnement contraint (Freebuff), la gate se réduit au déterministe + STATE_ID ; le reviewer LLM n'est lancé que s'il existe un modèle disponible. Le certificat indique `review: SKIPPED (aucun modèle gratuit configuré)` au lieu de `BLOCKED`. C'est un changement de contrat : `BLOCKED` devient réservé aux erreurs de l'environnement, `SKIPPED` aux absences de reviewer. Attention : affaiblit la garantie de red team.
+
+## 57.5 Verdict (KISS + DRY + YAGNI)
+
+**Recommandation : Option B, avec Option A comme variante testable.**
+
+- Le champ `model` reste présent (contrat AgentDefinition documenté), mais pointe vers le catalogue gratuit. C'est un changement d'une ligne par agent, sans nouvelle mécanique, sans nouveau fichier.
+- **Appliqué le 2026-08-18** : `truth-verifier` = `deepseek/deepseek-v4-flash`, `truth-reviewer` = `deepseek/deepseek-v4-pro`. Build vérifié (bun).
+- Le fail-safe `BLOCKED` reste inchangé : si le slug gratuit devient indisponible, le reviewer échoue et la gate bloque. Aucune régression.
+- Le thinker natif (Option D) peut être utilisé en complément pour la réflexion, sans remplacer la gate.
+- BYOK (Option C) et `SKIPPED` (Option E) sont documentés ici, non implémentés : YAGNI tant que le catalogue gratuit suffit.
+
+**Preuve à produire avant de conclure** : un run réel sous Freebuff avec `truth-reviewer` déclarant un slug du catalogue (ex. `deepseek/deepseek-v4-pro`), vérifiant dans le log que le spawn tourne sur ce modèle et que `findings.json` + `result.json` sont écrits au format officiel. La contrainte mono-instance Freebuff impose de fermer la session courante avant ce test.
+
 [1]: https://www.codebuff.com/publishers/codebuff/agents/base2-max/0.0.24?utm_source=chatgpt.com "base2-max v0.0.24 - Agent Details"

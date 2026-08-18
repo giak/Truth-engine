@@ -16,7 +16,7 @@
 export default {
   id: 'truth-reviewer',
   displayName: 'Truth Reviewer',
-  model: 'anthropic/claude-sonnet-4.5',
+  model: 'deepseek/deepseek-v4-pro',
 
   spawnerPrompt:
     'Spawn this agent for an independent, read-only review of a worktree. It renders PASS, FAIL or BLOCKED with findings.',

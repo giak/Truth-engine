@@ -100,7 +100,7 @@ function extractFindings(res) {
 export default {
   id: 'truth-verifier',
   displayName: 'Truth Verifier',
-  model: 'anthropic/claude-haiku-4.5',
+  model: 'deepseek/deepseek-v4-flash',
 
   spawnerPrompt:
     'Spawn this agent to verify a worktree before delivery: deterministic checks, independent clean-room review, and state certification. The verdict (PASS/FAIL/BLOCKED) is written to .verify/result.json.',
