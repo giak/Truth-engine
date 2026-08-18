@@ -219,12 +219,28 @@ def run_checks(cfg, root):
 
 
 def check_naming(cfg, root):
-    """Contrôle de nommage, activé uniquement si configuré."""
+    """Contrôle de nommage, activé uniquement si configuré.
+
+    Périmètre optionnel et déclaratif :
+      dir_pattern  regex sur les composants du chemin relatif sous chaque dir ;
+                   le dossier n'est parcouru que si au moins un composant matche
+                   (ex: dossiers de chantier datés YYYY-MM-DD_<sujet>, qui peuvent
+                   être nichés sous YYYY-MM/).
+      only_types   si présent, seuls les fichiers se terminant par
+                   _<TYPE>.md (type en MAJUSCULES) sont vérifiés. Les fichiers
+                   de travail internes (MEMO, SYNTHESE, brouillons) échappent
+                   au check : seuls les livrables sont soumis à la convention.
+      since        date de coupure YYYY-MM-DD : seuls les fichiers dont le
+                   préfixe date est >= since sont vérifiés. Permet d'appliquer
+                   la convention aux livrables produits après la décision sans
+                   flagger tout le legacy antérieur (même dans le mois courant).
+    """
     n = cfg.get("naming", {}) or {}
     if not n.get("enabled"):
         return "PASS", []
     pattern = n.get("pattern")
     dirs = n.get("dirs", [])
+    excludes = n.get("exclude", [])
     if not pattern or not dirs:
         return "BLOCKED", ["naming.enabled=true mais pattern/dirs absents"]
     import re
@@ -233,15 +249,44 @@ def check_naming(cfg, root):
         rx = re.compile(pattern)
     except re.error as exc:
         return "BLOCKED", [f"pattern invalide : {exc}"]
+    dir_rx = None
+    if n.get("dir_pattern"):
+        try:
+            dir_rx = re.compile(n["dir_pattern"])
+        except re.error as exc:
+            return "BLOCKED", [f"dir_pattern invalide : {exc}"]
+    only_types = n.get("only_types") or []
+    since = n.get("since")
+    ex_rx = []
+    for e in excludes:
+        try:
+            ex_rx.append(re.compile(e))
+        except re.error as exc:
+            return "BLOCKED", [f"exclude invalide '{e}' : {exc}"]
     violations = []
     for d in dirs:
         base = os.path.join(root, d)
         if not os.path.isdir(base):
             continue
         for dirpath, _dirs, files in os.walk(base):
+            if dir_rx is not None:
+                parts = os.path.relpath(dirpath, base).split(os.sep)
+                if parts != ["."] and not any(dir_rx.match(p) for p in parts):
+                    continue
             for f in files:
+                rel = os.path.relpath(os.path.join(dirpath, f), root)
+                if any(e.search(rel) for e in ex_rx):
+                    continue
+                if only_types and not re.search(
+                    r"_(" + "|".join(only_types) + r")\.md$", f
+                ):
+                    continue
+                if since:
+                    m = re.match(r"(\d{4}-\d{2}-\d{2})", f)
+                    if not m or m.group(1) < since:
+                        continue
                 if not rx.match(f):
-                    violations.append(os.path.relpath(os.path.join(dirpath, f), root))
+                    violations.append(rel)
     if violations:
         return "FAIL", violations[:50]
     return "PASS", []

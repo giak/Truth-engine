@@ -18,7 +18,8 @@
 
 ## 2. Décisions ouvertes
 
-- ~~kebab-case vs snake_case~~ : résolu (2026-08-17) → kebab-case. Check `naming` activé sur `investigations/` : 9 violations à traiter (fichiers racine + sujet en majuscules).
+- ~~kebab-case vs snake_case~~ : résolu (2026-08-17) → kebab-case, **majuscules tolérées dans le sujet** (marqueur `KERNEL-*`).
+- ~~Périmètre du check naming~~ : résolu (2026-08-17). Le check ne couvre que les **livrables** (types officiels `ARTICLE|HYPER_MATRICE|ARCHITECTURE|SATURATION_AUDIT|REGISTRE|INVESTIGATION`) dans les **dossiers de chantier datés** `YYYY-MM-DD_<sujet>/`, **produits après** `since=2026-08-17`. Le legacy (snake_case, non datés, types internes `MEMO`/`SYNTHESE`/`RESOLUTION`, métadonnées) est hors scope : flagger 2772 fichiers historiques serait du bruit, pas de la vérification.
 - **Runtime des `.agents/*.ts`** : à valider en orchestrant un premier chantier dans Codebuff. Le câblage verdict reviewer → certify est fail-safe (retombe sur `BLOCKED`, jamais `PASS`).
 
 ## 3. Verdict courant
@@ -37,9 +38,9 @@ Dernière exécution :
 | protected_branch | BLOCKED |
 | test: python3 -m pytest tests/extractors/ -q | PASS |
 | no-em-dash-in-articles | FAIL |
-| naming | FAIL |
+| naming | PASS |
 
-Interprétation : sur `main`, le gate bloque (branche protégée). Dans le worktree `te-verification-gate`, il reste `no-em-dash-in-articles` (FAIL) et `naming` (FAIL, 9 fichiers non conformes).
+Interprétation : sur `main`, le gate bloque (branche protégée). Dans le worktree `te-verification-gate`, il reste uniquement `no-em-dash-in-articles` (FAIL, vraie violation Phase 3 à corriger). Le naming est désormais PASS : 0 livrable non conforme depuis la décision (since=2026-08-17).
 
 ## 4. Limites connues
 

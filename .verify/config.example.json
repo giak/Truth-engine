@@ -5,6 +5,12 @@
   "tests": ["pytest -q"],
   "checks": [],
   "naming": {
-    "enabled": false
+    "enabled": true,
+    "dirs": ["docs/"],
+    "pattern": "^\\d{4}-\\d{2}-\\d{2}_[A-Za-z0-9]+(-[A-Za-z0-9]+)*_(REPORT|NOTE)\\.md$",
+    "dir_pattern": "^\\d{4}-\\d{2}-\\d{2}_[A-Za-z0-9]+(-[A-Za-z0-9]+)*$",
+    "only_types": ["REPORT", "NOTE"],
+    "since": "2026-01-01",
+    "exclude": []
   }
 }

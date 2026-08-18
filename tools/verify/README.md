@@ -58,9 +58,13 @@ Le moteur reste identique. Seul le config change.
     }
   ],
   "naming": {
-    "enabled": false,
-    "dirs": ["src/"],
-    "pattern": "^[a-z0-9_]+\\.py$"
+    "enabled": true,
+    "dirs": ["docs/"],
+    "pattern": "^\\d{4}-\\d{2}-\\d{2}_[A-Za-z0-9]+(-[A-Za-z0-9]+)*_(REPORT|NOTE)\\.md$",
+    "dir_pattern": "^\\d{4}-\\d{2}-\\d{2}_[A-Za-z0-9]+(-[A-Za-z0-9]+)*$",
+    "only_types": ["REPORT", "NOTE"],
+    "since": "2026-01-01",
+    "exclude": []
   }
 }
 ```
@@ -71,6 +75,10 @@ Le moteur reste identique. Seul le config change.
 | `tests` | Commandes de test. Code retour ≠ 0 → `FAIL` ; commande introuvable (127) → `BLOCKED` |
 | `checks` | Contrôles arbitraires. Tout ce qu'une machine peut vérifier doit être un `check`, pas un prompt |
 | `naming` | Convention de nommage. **Désactivé par défaut** : ne jamais automatiser une règle contradictoire |
+| `naming.dir_pattern` | Regex sur les composants du chemin : le dossier n'est parcouru que si au moins un composant matche (ex : dossiers de chantier datés `YYYY-MM-DD_<sujet>` nichés sous `YYYY-MM/`) |
+| `naming.only_types` | Si présent, seuls les livrables `_<TYPE>.md` (types officiels) sont vérifiés. Fichiers de travail internes (`MEMO`, `SYNTHESE`, brouillons) hors scope |
+| `naming.since` | Date de coupure `YYYY-MM-DD` : seuls les fichiers datés ≥ `since` sont vérifiés. Applique la convention aux livrables nouveaux sans flagger le legacy |
+| `naming.exclude` | Regex sur le chemin relatif complet : fichiers/dossiers exclus du check |
 
 **Règle de séparation** : `DETERMINISTIC POSSIBLE => CODE` ; `SEMANTIC JUDGMENT REQUIRED => REVIEWER`.
 

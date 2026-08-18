@@ -14,6 +14,16 @@
     "enabled": true,
     "note": "kebab-case uniquement (décision 2026-08-17). Scope investigations/ d'abord : articles/ et outputs/ contiennent du legacy non conforme.",
     "dirs": ["investigations/"],
-    "pattern": "^\\d{4}-\\d{2}-\\d{2}(_\\d{2}-\\d{2})?_[a-z0-9]+(-[a-z0-9]+)*_(ARTICLE|HYPER_MATRICE|ARCHITECTURE|SATURATION_AUDIT|REGISTRE|INVESTIGATION)\\.md$"
+    "pattern": "^\\d{4}-\\d{2}-\\d{2}(_\\d{2}-\\d{2})?_[A-Za-z0-9]+(-[A-Za-z0-9]+)*_(ARTICLE|HYPER_MATRICE|ARCHITECTURE|SATURATION_AUDIT|REGISTRE|INVESTIGATION)\\.md$",
+    "dir_pattern": "^\\d{4}-\\d{2}-\\d{2}_[A-Za-z0-9]+(-[A-Za-z0-9]+)*$",
+    "only_types": ["ARTICLE", "HYPER_MATRICE", "ARCHITECTURE", "SATURATION_AUDIT", "REGISTRE", "INVESTIGATION"],
+    "since": "2026-08-17",
+    "exclude": [
+      "^investigations/[^/]+\\.md$",
+      "\\.zip$",
+      "(^|/)_[^/]+/"
+    ],
+    "note_uppercase": "majuscules tolérées dans le sujet (marqueur KERNEL-*, décision 2026-08-17). Interdiction des underscores maintenue.",
+    "note_scope": "périmètre : livrables de type officiel uniquement, dans les dossiers de chantier datés YYYY-MM-DD_<sujet>/, produits après la décision kebab-case (since=2026-08-17). Le legacy antérieur (snake_case, fichiers non datés, types internes MEMO/SYNTHESE/RESOLUTION, métadonnées) est hors scope : ce ne sont pas des livrables conformes à la nouvelle convention."
   }
 }

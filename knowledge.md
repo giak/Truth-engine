@@ -252,7 +252,9 @@ YYYY-MM-DD_HH-MM_<sujet>_<type>.md
 5. **Pas d'espaces** = utiliser des tirets (kebab-case), jamais d'underscores
 6. **Pas d'accents** = pas de caractères accentués dans les noms
 
-> **Convention tranchée (2026-08-17) :** kebab-case uniquement, jamais d'underscores dans le sujet. Les fichiers existants en snake_case sont tolérés à titre historique ; tout nouveau fichier doit être en kebab-case.
+> **Convention tranchée (2026-08-17) :** kebab-case uniquement, jamais d'underscores dans le sujet. Les fichiers existants en snake_case sont tolérés à titre historique ; tout nouveau fichier doit être en kebab-case. Les majuscules sont tolérées dans le sujet (marqueur protocolaire `KERNEL-*`).
+>
+> **Périmètre du check automatique** (`.verify/config.json`) : seuls les livrables de type officiel (`ARTICLE`, `HYPER_MATRICE`, `ARCHITECTURE`, `SATURATION_AUDIT`, `REGISTRE`, `INVESTIGATION`) situés dans un dossier de chantier daté `YYYY-MM-DD_<sujet>/` et datés après `since=2026-08-17` sont vérifiés. Les fichiers internes (`MEMO`, `SYNTHESE`, `RESOLUTION`, métadonnées, legacy snake_case antérieur) sont hors scope.
 
 ## Rôle d'écriture en français
 
