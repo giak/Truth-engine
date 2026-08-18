@@ -497,7 +497,7 @@ def main(argv):
     if mode == "report":
         return cmd_report(cfg, root)
     if mode == "certify":
-        review = "PASS"
+        review = "BLOCKED"  # fail-safe : jamais PASS sans verdict de reviewer explicite
         if "--review" in argv:
             i = argv.index("--review")
             if i + 1 < len(argv):
