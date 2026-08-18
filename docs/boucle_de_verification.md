@@ -2378,4 +2378,51 @@ Le 13 août 2026, Freebuff a migré ses templates gratuits de `base2-free-*` ver
 
 **Verdict révisé :** l'option B est validée pour le modèle (slug gratuit honoré) mais ne suffit plus à garantir la clean-room, car `spawn_agents` a été retiré des templates gratuits. La solution robuste et gratuite est l'option « session séparée comme reviewer » : elle préserve l'indépendance du reviewer sans dépendre d'un tool de spawn que Freebuff a supprimé.
 
+## 57.7 Brainstorm approfondi : reviewer local Ollama (2026-08-18)
+
+Contexte de décision : `spawn_agents` retiré des templates gratuits (base3-free-*), clean-room non démontrable en spawn, session séparée = contournement manuel mono-instance. Il faut une voie automatique, gratuite, avec contexte neuf garanti.
+
+**Découverte : Ollama tourne déjà sur la machine** (`localhost:11434`, version 0.31.2) avec 7 modèles locaux : granite3.2:2b, hermes3:latest, qwen25-coder-7b-opt, gemma2-9b-opt, gemma2:9b, phi4-mini, qwen2.5-coder:7b.
+
+**Tests de faisabilité exécutés (2026-08-18) :**
+
+| Test | Résultat | Durée |
+|---|---|---|
+| Mini-contrat (3 violations), qwen2.5-coder:7b | 1/3 violations détectées, format JSON exact | 12 s |
+| Mini-contrat (3 violations), gemma2:9b | 3/3 violations détectées, format JSON exact | 30 s |
+| Mini-contrat (3 violations), hermes3 | 3/3 violations détectées, format JSON exact | 26 s |
+| **Vrai livrable POC (6 violations), gemma2:9b** | **6/6 violations détectées, format JSON exact, verdict FAIL** | 40 s |
+
+Le test décisif : gemma2:9b sur le livrable POC réel (STATE OPEN, pipeline absent, structure SIMPLE incomplète, source sans URL, « vérifié L4 » sans preuve, horodatage impossible) a produit les 6 findings, au format officiel `{verdict, findings}` avec location/problem/evidence. Comparaison avec le reviewer deepseek-v4-pro du run précédent : même verdict FAIL, mêmes 6 violations. Différence de précision sur le finding horodatage : deepseek-v4-pro a cité le `git log` comme preuve (il a un terminal), gemma2:9b a signalé la violation sans la preuve git (il n'a pas d'outils).
+
+**Pourquoi c'est la meilleure solution (KISS + DRY + YAGNI) :**
+
+1. **Contexte neuf garanti par construction** : chaque requête Ollama est stateless (aucun historique, aucune session). La clean-room n'est plus un artefact d'orchestration, c'est la nature du protocole HTTP. La faiblesse identifiée en 57.6 (reviewer = main-agent dans sa propre session) disparaît.
+2. **Zéro crédit, zéro réseau, zéro dépendance Freebuff** : le reviewer ne passe plus par le runtime Codebuff/Freebuff du tout. Le retrait de `spawn_agents`, la mono-instance, le catalogue de modèles, les quotas : tout cela devient sans objet.
+3. **Automatisable en CI** : le reviewer est un appel HTTP local (`POST /api/generate`), intégrable dans `verify.py` ou un script dédié. Pas de session interactive, pas de tmux, pas de collage de prompt.
+4. **DRY** : le contrat vit dans KERNEL.md/knowledge.md ; le prompt du reviewer référence les règles (§0, §18b, template, FACT_VERIFICATION), il ne les duplique pas.
+5. **Fail-safe inchangé** : Ollama indisponible ou réponse non conforme → BLOCKED, jamais PASS. Même logique que le fail-safe actuel.
+6. **Format contrôlé** : le paramètre `format: json` d'Ollama force la sortie JSON, et le prompt exige le schéma exact. Le parseur reste strict (verdict enum + findings) : réponse non conforme = BLOCKED.
+
+**Limites honnêtes :**
+
+- **Qualité modèle** : un 9b local est inférieur à claude-sonnet-4.5 sur du raisonnement complexe. Pour une gate de conformité contractuelle (état du manifeste, présence de sections, URLs, registres), le test montre que c'est suffisant ; pour une revue sémantique profonde, non. Le reviewer local est un filet de conformité, pas un substitut à l'expertise.
+- **Pas d'outils** : gemma2:9b ne peut pas exécuter `git log` ni `web_search`. La preuve de l'horodatage reste au vérificateur déterministe ou à une vérification git séparée (verify.py peut la faire nativement).
+- **Temps** : 40 s par revue sur cette machine (CPU). Acceptable pour une gate de livraison, à noter pour les pipelines fréquents.
+- **Couverture limitée** : un seul livrable testé (le POC). Un mini-benchmark (3 à 5 livrables contrôlés, moitié conformes, moitié non) est la preuve à produire avant de faire confiance en production.
+
+**Architecture cible :**
+
+```text
+verify.py check        → déterministe + STATE_ID (gratuit, immédiat, brique fiable)
+verify.py review-local → gemma2:9b via Ollama (gratuit, ~40 s, contexte neuf)
+                         prompt = contrat KERNEL injecté + livrable
+                         sortie JSON {verdict, findings} validée strictement
+verify.py certify      → certificat officiel avec findings (existant)
+```
+
+L'option « session Freebuff séparée » (57.6) reste disponible comme second avis optionnel (double revue) mais n'est plus la voie principale : elle est manuelle et mono-instance. L'option BYOK reste documentée pour qui veut un modèle cloud payant.
+
+**Prochaines étapes si validé :** implémenter `review-local` dans verify.py (appel Ollama + validation JSON + écriture findings.json), mini-benchmark de 5 livrables contrôlés, puis intégration dans la chaîne certifiée.
+
 [1]: https://www.codebuff.com/publishers/codebuff/agents/base2-max/0.0.24?utm_source=chatgpt.com "base2-max v0.0.24 - Agent Details"
