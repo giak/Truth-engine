@@ -46,6 +46,8 @@ Interprétation : sur `main`, le gate bloque (branche protégée). Dans le workt
 
 **Certificat émis (2026-08-18 06:42 CEST)** dans `.worktrees/te-verification-gate/.verify/result.json` : `verdict: PASS`, `deterministic: PASS`, `review: PASS`, `state_changed: false`, HEAD `b3211bfd`. Première certification complète de la boucle en runtime réel.
 
+**KERNEL câblé à la gate (2026-08-18)** : étape `19b GATE_VERIFY` ajoutée dans `truth-engine-v2/KERNEL.md` (après le SAVE, avant toute déclaration de livraison) : `python3 tools/verify/verify.py check` sur l'état livré → PASS autorise, FAIL oblige à corriger/re-SAVE/re-run, BLOCKED (branche protégée) impose le worktree. `knowledge.md` DELIVERY GATE alignée. Testé : format KERNEL conforme → PASS (1 fichier scanné) ; snake_case → FAIL détecté.
+
 ## 4. Limites connues
 
 - Agents `.ts` : le chargement et l'exécution réels par Codebuff sont **validés** (2026-08-18, run CLI non-interactif dans le worktree). Reste à automatiser la chaîne dans un vrai chantier complet (commit → gate → certify).

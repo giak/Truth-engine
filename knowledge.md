@@ -13,6 +13,12 @@ Avant toute livraison finale, l'agent DOIT exécuter le gate de vérification ca
 
 `NO PASS => NO DELIVERY`.
 
+**Investigations KERNEL** : le pipeline `truth-engine-v2/KERNEL.md` est câblé à la gate. L'étape `19b GATE_VERIFY` impose, après le FREEZE (§18b) et le SAVE (§19), de lancer `python3 tools/verify/verify.py check` sur l'état livré :
+
+- `PASS` → livraison autorisée, STATE_ID enregistré dans le manifeste.
+- `FAIL` → corriger le livrable (nommage/em-dash), re-FREEZE, re-SAVE, re-run 19b. Jamais de livraison en FAIL.
+- `BLOCKED` (branche protégée `main`/`master`) → le chantier DOIT être déplacé dans un worktree (`tools/verify/worktree-new.sh <chantier>`), jamais certifié sur `main`.
+
 - `FAIL` : réparer puis relancer la vérification complète.
 - `BLOCKED` : déclarer le blocage ; ne pas prétendre que le travail est validé.
 - Toute modification postérieure à `PASS` invalide immédiatement le `PASS` (STATE_ID).
