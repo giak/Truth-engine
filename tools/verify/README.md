@@ -141,6 +141,7 @@ Les agents `.ts` suivent le contrat `AgentDefinition` de Codebuff, vérifié con
 
 - `handleSteps` est un générateur qui reçoit `{ toolResult, toolError }` à chaque `yield` ; `toolResult` est une **chaîne** (JSON ou texte).
 - L'extraction du verdict reviewer → certify est défensive : elle retombe sur `BLOCKED` en cas d'illisibilité, jamais sur `PASS`.
+- `--review` est **obligatoire** : `certify` sans `--review` émet `BLOCKED` (fail-safe). Un certificat `review: PASS` ne peut venir que d'un `--review PASS` explicite. `NO REVIEW => NO PASS`.
 - Ce qui n'a pas pu être validé depuis une session agent : le chargement réel des `.agents/*.ts` par le runtime. À confirmer en orchestrant un premier chantier dans Codebuff.
 
 ### Extension V2 : thinker / researcher
