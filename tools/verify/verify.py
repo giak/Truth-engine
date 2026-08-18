@@ -52,7 +52,7 @@ REVIEW_MODEL_DEFAULT = "qwen3.6:35b"
 REVIEW_TIMEOUT = 300
 REVIEW_TEMP = 0.3
 REVIEW_NUM_PREDICT = 4096
-REVIEW_POINTS = ("C1", "C2", "C3", "C4", "C5", "C6", "C7")
+REVIEW_POINTS = ("C1", "C2", "C3", "C4", "C5", "C6")
 # Mapping modèle → options Ollama (spec gate §6). think:false est obligatoire
 # pour qwen3.6:35b (hybrid-thinking : réponse vide sinon). Modèle inconnu :
 # format:json seul, avec avertissement dans le certificat.
@@ -72,14 +72,13 @@ CONTRACT = """CONTRAT DU PROJET (extraits canoniques de knowledge.md et truth-en
 - COMPLEXITY=SIMPLE : exactement 5 sections core (RÉSUMÉ EXÉCUTIF, CHRONOLOGIE, DOMAINES, CARTE DES PREUVES, PÉRIMÈTRE & LIMITES) + appendices SOURCES et REQUEST_LOG obligatoires.
 - Traçabilité : bloc FACT_REGISTRY_V1 (id|epi|tier|url|families|date), identifiant FCT-###, source = URL de page spécifique cliquable / SRC-ID / locator exact.
 - L4 (CONFIRMÉ) : L3 + gate EPI=FACT + recherche de contre-exemples + preuves matérielles dans le livrable (sources fetchées, recoupement ≥2 familles, FACT_REGISTRY_V1, REQUEST_LOG).
-- Horodatage du nom de fichier = date/heure réelle de création (CEST), jamais inventé.
 - Toute affirmation sans source vérifiable = violation grave."""
 
 ENUM = """
 
 PROCÉDURE OBLIGATOIRE, À EXÉCUTER DANS CET ORDRE :
 1. Examine le livrable ci-dessous.
-2. Pour CHACUN des 7 points C1..C7, tranche explicitement : C1:OK ou C1:VIOLATION, etc. (une ligne par point, dans l'ordre).
+2. Pour CHACUN des 6 points C1..C6, tranche explicitement : C1:OK ou C1:VIOLATION, etc. (une ligne par point, dans l'ordre).
 3. Convertis en findings UNIQUEMENT les points marqués VIOLATION (location + problem + evidence pour chacun).
 4. Le verdict est FAIL si au moins un point est VIOLATION, sinon PASS, BLOCKED si le livrable est illisible.
 
@@ -89,11 +88,10 @@ C2. Pipeline KERNEL présent (ANALYZE 15 symboles, BIAS_TEST, CRÉDO/SCOPING, re
 C3. Structure SIMPLE complète (5 sections core + SOURCES + REQUEST_LOG) ?
 C4. Traçabilité des faits (FACT_REGISTRY_V1, FCT-###, source URL/locator) ?
 C5. Preuve matérielle de « vérifié L4 » ?
-C6. Horodatage du nom de fichier cohérent ?
-C7. Autre fabrication ou affirmation non étayée ?
+C6. Autre fabrication ou affirmation non étayée ?
 
 RÉPONDS UNIQUEMENT EN JSON :
-{"points": {"C1": "OK" ou "VIOLATION", ..., "C7": ...}, "verdict": "PASS" ou "FAIL" ou "BLOCKED", "findings": [{"location": "...", "problem": "...", "evidence": "..."}]}"""
+{"points": {"C1": "OK" ou "VIOLATION", ..., "C6": ...}, "verdict": "PASS" ou "FAIL" ou "BLOCKED", "findings": [{"location": "...", "problem": "...", "evidence": "..."}]}"""
 
 DEFAULT_CONFIG = {
     "version": 1,
@@ -558,6 +556,32 @@ def cmd_certify(cfg, root, review, findings_file=None, review_note=None):
     return {"PASS": 0, "FAIL": 1, "BLOCKED": 2}[final]
 
 
+def check_deliverable_timestamp(deliverable):
+    """Contrôle déterministe : l'horodatage du nom de fichier n'est pas dans le futur.
+
+    La cohérence temporelle (date/heure réelle, jamais inventée) est une
+    vérification mécanique, pas un jugement sémantique : le reviewer LLM n'a ni
+    horloge ni outils et rejette à tort les dates réelles. Retourne
+    (verdict, detail) avec verdict PASS/FAIL/BLOCKED.
+    """
+    import re
+
+    name = os.path.basename(deliverable)
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})_(\d{2})-(\d{2})_", name)
+    if not m:
+        # Pas d'horodatage dans le nom : le format est du ressort du check
+        # naming (déterministe). Ce contrôle ne vérifie que le non-futur.
+        return "PASS", f"horodatage non applicable (pas d'horodatage parsable : {name})"
+    try:
+        ts = datetime(int(m[1]), int(m[2]), int(m[3]), int(m[4]), int(m[5]))
+    except ValueError as exc:
+        return "BLOCKED", f"horodatage invalide : {name} ({exc})"
+    now = datetime.now()
+    if ts > now:
+        return "FAIL", f"horodatage dans le futur : {name} ({ts:%Y-%m-%d %H:%M}) > {now:%Y-%m-%d %H:%M}"
+    return "PASS", f"horodatage non futur : {name}"
+
+
 def review_local(deliverable_path, model):
     """Revue sémantique stateless d'un livrable par Ollama.
 
@@ -577,7 +601,15 @@ def review_local(deliverable_path, model):
         return "BLOCKED", [], f"livrable illisible : {exc}"
 
     name = os.path.basename(deliverable_path)
-    prompt = ROLE + "\n" + CONTRACT + ENUM + "\n\n" + name + "\n\nLIVRABLE À EXAMINER :\n\n" + doc
+    # Le reviewer n'a ni horloge ni outils : lui fournir la date système réelle,
+    # sinon il juge l'horodatage du nom de fichier (C6) contre son propre cutoff
+    # d'entraînement et rejette toute date postérieure comme « future ».
+    current = datetime.now().strftime("%Y-%m-%d %H:%M %Z")
+    prompt = (
+        ROLE + "\n" + CONTRACT + ENUM
+        + f"\n\nDATE DE RÉFÉRENCE (aujourd'hui, heure système) : {current}"
+        + "\n\n" + name + "\n\nLIVRABLE À EXAMINER :\n\n" + doc
+    )
 
     payload = {
         "model": model,
@@ -636,6 +668,9 @@ def review_local(deliverable_path, model):
 def cmd_gate(cfg, root, deliverable=None, model=None):
     """check + review-local + certify en une commande (spec gate, étape 9)."""
     model = model or REVIEW_MODEL_DEFAULT
+    path = None
+    if deliverable:
+        path = deliverable if os.path.isabs(deliverable) else os.path.join(root, deliverable)
 
     # 1. check déterministe (mêmes contrôles et STATE_ID que `check`)
     verdict, results = run_checks(cfg, root)
@@ -651,11 +686,20 @@ def cmd_gate(cfg, root, deliverable=None, model=None):
     os.makedirs(os.path.dirname(os.path.join(root, PENDING_PATH)) or ".", exist_ok=True)
     with open(os.path.join(root, PENDING_PATH), "w", encoding="utf-8") as f:
         json.dump(pending, f, indent=2, ensure_ascii=False)
+
+    # 2. horodatage déterministe du livrable (mécanique, pas sémantique : le
+    #    reviewer LLM n'a ni horloge ni outils et rejette les dates réelles).
+    if verdict == "PASS" and path:
+        ts_verdict, ts_detail = check_deliverable_timestamp(path)
+        if ts_verdict != "PASS":
+            verdict = ts_verdict
+            results.append(_record("gate:horodatage", ts_verdict, ts_detail))
+
     report = dict(pending)
     report["checks"] = results
     print(json.dumps(report, indent=2, ensure_ascii=False), file=sys.stderr)
 
-    # 2. check non PASS → arrêt : jamais de revue d'un état non conforme
+    # 3. check non PASS → arrêt : jamais de revue d'un état non conforme
     if verdict != "PASS":
         eprint(f"gate : check déterministe = {verdict} → pas de revue locale")
         return cmd_certify(
@@ -663,20 +707,19 @@ def cmd_gate(cfg, root, deliverable=None, model=None):
             review_note=f"revue locale non exécutée (check déterministe = {verdict})",
         )
 
-    # 3. revue locale (advisory) sur le livrable demandé
-    if not deliverable:
+    # 4. revue locale (advisory) sur le livrable demandé
+    if not path:
         eprint("gate : --file requis pour la revue sémantique (check déterministe = PASS)")
         return cmd_certify(
             cfg, root, "BLOCKED", None,
             review_note="revue locale non exécutée (--file absent)",
         )
-    path = deliverable if os.path.isabs(deliverable) else os.path.join(root, deliverable)
     review, findings, note = review_local(path, model)
     eprint(f"gate : revue locale {model} → {review}")
     if note:
         eprint(f"gate : note : {note}")
 
-    # 4. persister les findings puis certifier (format officiel)
+    # 5. persister les findings puis certifier (format officiel)
     findings_file = None
     if findings:
         findings_file = FINDINGS_PATH

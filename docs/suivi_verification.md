@@ -121,7 +121,31 @@ Re-run versionné (`tools/verify/fixtures/benchmark_results.json`, 2026-08-18) :
 | AC-07 | `node --check` des `.agents/*.ts` inchangé | ✅ aucune modification des agents |
 | AC-08 | fixtures versionnées et rejouables | ✅ `tools/verify/fixtures/benchmark_review_local.py` |
 
-Non exécuté faute de livrable réellement conforme : AC-03 (PASS sur livrable conforme). Le chemin PASS est couvert par la logique (`review PASS` + `check PASS` + zéro point VIOLATION → PASS), mais aucun livrable témoin 100 % conforme n'a été fabriqué.
+AC-03 exécuté (2026-08-18) : livrable conforme fabriqué (`fixture_CONFORME.md`) → **FAIL** malgré `deterministic: PASS` : le reviewer false-FAIL. Détail et cause racine §5.8.
+
+### 5.8 Chemin PASS : constat décisif (2026-08-18)
+
+Un livrable SIMPLE réellement conforme a été fabriqué (`tools/verify/fixtures/fixture_CONFORME.md`) : STATE=FINAL, 15 symboles scorés, registres LEAD/CLAIM/EVIDENCE, FACT_REGISTRY_V1, deux sources réellement fetchées (éditeur Nouveau Monde + recension La Vie des Idées), recoupement 2 familles, contre-exemple cherché et documenté. Le check déterministe rend **PASS** (naming, em-dash, tests, horodatage non futur).
+
+Le reviewer `qwen3.6:35b` rend **FAIL** sur 7 runs successifs, avec un faux positif DIFFÉRENT à chaque fois :
+
+1. « registres LEAD/CLAIM/EVIDENCE absents de la trace » (faux : présents, ordre canonique).
+2. idem (reproductible).
+3. idem.
+4. « 2026 = date future » (cutoff du modèle antérieur à 2026).
+5. « divergence de 9 min entre création 17:09 et revue 17:18 » (confond heure de création et heure de revue).
+6. « le sujet ne doit pas contenir de tirets » (méconnaît la convention kebab-case).
+7. « l'éditeur est L'Harmattan, pas Nouveau Monde ; La Vie des Idées n'a pas recensé l'ouvrage » (hallucination : l'éditeur est Nouveau Monde et la recension existe, tous deux fetchés en HTTP 200).
+8. « 14 symboles au lieu de 15 » (erreur de comptage).
+
+Conséquence : le chemin PASS est inatteignable avec ce reviewer. Le gate est SÛR (jamais de faux PASS, la propriété critique tient) mais le reviewer est un générateur de faux FAIL. Cause racine : il juge contre un contrat résumé, sans accès aux fichiers réels (KERNEL, SYMBOLS, convention de nommage), sans horloge ni outils, avec un cutoff antérieur à 2026, et le rôle « hostile » amplifie les nitpicks hallucinés.
+
+Correctifs appliqués dans `verify.py` (réduisent la surface, ne résolvent pas le fond) :
+- horodatage (C6) déplacé en contrôle déterministe `check_deliverable_timestamp` (non-futur), retiré du prompt LLM ; points LLM ramenés de C1-C7 à C1-C6 ;
+- date de référence système injectée dans le prompt (le reviewer n'a pas d'horloge) ;
+- fixture conforme versionnée (`fixture_CONFORME.md`) pour non-régression.
+
+Le PASS ne sera opérationnel qu'avec un reviewer capable de juger le contenu sans halluciner : modèle plus fort, accès aux fichiers de contrat, ou validation humaine du verdict.
 
 ### 5.6 Références
 

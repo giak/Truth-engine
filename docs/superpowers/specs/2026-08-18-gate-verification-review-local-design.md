@@ -119,7 +119,7 @@ Prouvé au §57.8 : sous Freebuff base3-free, le verrou spawn est côté binaire
 
 1. `verify.py gate` sur le livrable BAD des fixtures → verdict FAIL, findings ≥ 5, certificat au format officiel.
 2. `verify.py gate` sur le livrable témoin → verdict FAIL (le témoin est imparfait par construction : 4 défauts réels à détecter par le LLM).
-3. `verify.py gate` sur un livrable réellement conforme (à fabriquer pour le test) → PASS.
+3. `verify.py gate` sur un livrable réellement conforme → PASS. **Résultat réel (2026-08-18) : FAIL, voir `docs/suivi_verification.md` §5.8** : le reviewer `qwen3.6:35b` false-FAIL systématiquement (hallucination d'éditeur, erreur de comptage des symboles, rejet des dates 2026). Le chemin PASS n'est pas opérationnel avec ce reviewer ; l'horodatage (C6) a été déplacé en contrôle déterministe (`check_deliverable_timestamp`) et les points LLM ramenés de C1-C7 à C1-C6.
 4. Ollama down simulé → BLOCKED, jamais PASS.
 5. Sortie LLM non JSON / points incomplets → BLOCKED, motif dans le certificat.
 6. `think:false` manquant sur qwen3.6:35b → BLOCKED détecté par le parseur (réponse vide), test unitaire du mapping.
