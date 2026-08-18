@@ -5,6 +5,8 @@
  * de prompt :
  *   1. check   : contrôles déterministes + STATE_ID  (écrit .verify/pending.json)
  *   2. review  : truth-reviewer en contexte neuf (seulement si déterministe == PASS)
+ *      → chemin sans spawn (Freebuff base3-free) : fallback verify.py gate
+ *        (check + review-local Ollama + certify), si inputSchema.deliverable fourni
  *   3. certify : comparaison STATE_ID + enregistrement du verdict final
  *
  * L'artefact d'autorité est `.verify/result.json` (PASS / FAIL / BLOCKED).
@@ -116,9 +118,13 @@ export default {
       type: 'string',
       description: 'Mission et périmètre du chantier à vérifier, transmis au reviewer',
     },
+    deliverable: {
+      type: 'string',
+      description: "Chemin du livrable à revoir (--file du gate). Requis pour le chemin sans spawn si le runtime n'expose pas spawn_agents.",
+    },
   },
 
-  handleSteps: function* ({ prompt, logger }) {
+  handleSteps: function* ({ prompt, deliverable, logger }) {
     // 1. Contrôles déterministes + STATE_ID (avant review).
     logger.info('verify: deterministic checks + state-id')
     const pre = yield {
@@ -148,6 +154,29 @@ export default {
           ],
         },
       }
+
+      // Chemin sans spawn : le runtime n'expose pas spawn_agents (Freebuff base3-free,
+      // docs/boucle_de_verification.md §57.8). Fallback : verify.py gate (check +
+      // review-local Ollama + certify) en une commande, certificat déjà écrit.
+      if (rev && rev.toolError) {
+        logger.info('verify: spawn_agents unavailable, falling back to verify.py gate (review-local)')
+        if (!deliverable) {
+          logger.error('verify: gate fallback requires inputSchema.deliverable')
+          yield {
+            toolName: 'run_terminal_command',
+            input: { command: 'python3 tools/verify/verify.py certify --review BLOCKED', timeout_seconds: 120 },
+          }
+        } else {
+          yield {
+            toolName: 'run_terminal_command',
+            input: { command: `python3 tools/verify/verify.py gate --file ${deliverable}`, timeout_seconds: 600 },
+          }
+        }
+        yield { toolName: 'read_files', input: { paths: ['.verify/result.json'] } }
+        yield 'STEP'
+        return
+      }
+
       reviewVerdict = extractField(rev && rev.toolResult, 'verdict') ?? 'BLOCKED'
       logger.info({ toolResultType: typeof rev?.toolResult, preview: String(rev?.toolResult ?? '').slice(0, 300) }, 'verify: raw spawn toolResult preview')
       findings = extractFindings(rev && rev.toolResult)

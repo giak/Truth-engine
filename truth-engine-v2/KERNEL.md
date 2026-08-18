@@ -335,9 +335,13 @@ ASSUMPTIONS | PRIORITIES | QUERY_GUIDANCE
    ON_FAIL[@MNEMO_S] → record failure and still attempt @WRITE. NEVER invent success.
 
 19a GATE_VERIFY    REPO_ROOT := parent of BASE (truth-engine root). ENFORCE[VERIFY_OK].
-   RUN: python3 tools/verify/verify.py check (cwd=REPO_ROOT; the tool auto-resolves the git root,
-   including worktrees). Interpret the deterministic verdict on the DELIVERED state:
-   PASS → GATE_VERDICT:=PASS; record STATE_ID + verdict in RUN_MANIFEST; delivery authorized.
+   RUN: python3 tools/verify/verify.py gate --file $INVESTIGATION_PATH (cwd=REPO_ROOT; the tool
+   auto-resolves the git root, including worktrees). gate = check (déterministe, autoritatif)
+   + review-local Ollama (red-team) + certify (écrit .verify/result.json : verdict,
+   deterministic, review, findings, state_id).
+   Interpréter le verdict DÉTERMINISTE (check) sur l'état livré : c'est lui qui fait foi pour la
+   conformité mécanique.
+   PASS → gate mécanique franchie ; record STATE_ID + verdict + review dans RUN_MANIFEST.
    FAIL → read the failing check detail: naming/content on the INVESTIGATION file → correct the
    file; test failure → fix the cause; then rebuild affected registries, re-FREEZE, re-SAVE,
    re-run 19a. BLOCK_IF[persistent FAIL].
@@ -346,7 +350,16 @@ ASSUMPTIONS | PRIORITIES | QUERY_GUIDANCE
        (tools/verify/worktree-new.sh <chantier>); move/re-run there;
        NEVER claim validated delivery on main.
      - config/module/regex error → BLOCK_IF; fix config before any worktree move.
-   BLOCK_IF[GATE_VERDICT ∈ {FAIL, BLOCKED} without correction or worktree move].
+   Le verdict REVIEW (revue sémantique) est bloquant mais ADJUDICABLE :
+     review=FAIL → findings consignés dans le certificat ; chaque finding doit être ADJUGÉ :
+       réel → corriger et re-run 19a ; faux positif → le consigner explicitement.
+       Le reviewer local (qwen3.6:35b) false-FAIL les livrables conformes
+       (docs/suivi_verification.md §5.8) : un FAIL de revue n'est PAS une condamnation
+       automatique, il exige une adjudication humaine, jamais un PASS silencieux.
+     review=BLOCKED (Ollama down / sortie illisible) → revue indisponible : log + adjudication
+       humaine ; le FAIL-safe tient (jamais de faux PASS).
+   GATE_VERDICT := verdict final du certificat (PASS = deterministic PASS + review PASS).
+   BLOCK_IF[deterministic ∈ {FAIL, BLOCKED} without correction or worktree move].
    ON_FAIL[verify tool unavailable] → DEGRADE_IF[GATE_VERDICT:=UNAVAILABLE + log; NEVER claim PASS].
    ONLY IF GATE_VERDICT=PASS → proceed to 19b.
 
