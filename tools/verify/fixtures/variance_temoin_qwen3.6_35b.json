@@ -1,0 +1,87 @@
+{
+  "model": "qwen3.6:35b",
+  "doc": "OK (témoin)",
+  "truth_defects": [
+    "C2",
+    "C4",
+    "C5",
+    "C7"
+  ],
+  "think": false,
+  "format": "json",
+  "temperature": 0.3,
+  "runs": [
+    {
+      "run": 1,
+      "parsed": true,
+      "verdict": "FAIL",
+      "viol": [
+        "C2",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "n": 4,
+      "hit": [
+        "C2",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "miss": [],
+      "falsepos": [],
+      "elapsed_s": 34.4,
+      "tok_s": 21.3,
+      "eval_count": 733
+    },
+    {
+      "run": 2,
+      "parsed": true,
+      "verdict": "FAIL",
+      "viol": [
+        "C2",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "n": 4,
+      "hit": [
+        "C2",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "miss": [],
+      "falsepos": [],
+      "elapsed_s": 31.0,
+      "tok_s": 22.9,
+      "eval_count": 711
+    },
+    {
+      "run": 3,
+      "parsed": true,
+      "verdict": "FAIL",
+      "viol": [
+        "C2",
+        "C4",
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "n": 5,
+      "hit": [
+        "C2",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "miss": [],
+      "falsepos": [
+        "C6"
+      ],
+      "elapsed_s": 32.8,
+      "tok_s": 23.0,
+      "eval_count": 755
+    }
+  ]
+}

@@ -82,7 +82,7 @@ Le spawn de la chaîne verifier→reviewer est verrouillé sous Freebuff base3-f
 
 | Modèle | Livrable BAD (6 violations) | Livrable témoin (4 défauts réels) | tok/s | Verdict |
 |---|---|---|---|---|
-| **qwen3.6:35b** (`think:false`) | FAIL, 6/6 points (1 finding halluciné) | FAIL, 3/4 (C2 manqué) | 21.3 / 18.3 | **RETENU** (seul à ne pas faux-PASS le témoin) |
+| **qwen3.6:35b** (`think:false`) | FAIL, 6/6 points (stable 3/3) | FAIL, 4/4 (stable 3/3, 1 faux-positif C6) | 21.3 / 18.3 | **RETENU** (seul à ne pas faux-PASS le témoin) |
 | qwen3:8b | FAIL, 6/6 findings correctes | PASS (laxiste : 4 défauts manqués) | 11.4 | Risque faux PASS |
 | gemma3:12b | FAIL, 6/6 findings correctes | PASS (laxiste) | 7.4 | Risque faux PASS |
 | phi4-mini | FAIL, 3 findings seulement | FAIL incohérent (violation C2 sans finding, pipeline pourtant présent) | 22.4 | Éliminé |
@@ -95,11 +95,11 @@ Les 4 défauts réels du témoin (vérité terrain) :
 3. « aucun contre-exemple trouvé » : assertion non démontrable (aucune méthode de recherche ni liste de tentatives) ; recoupement ≥2 familles non prouvé (dépêches AFP partagées entre Le Monde et INA) → C5.
 4. SRC-003 « livre d'histoire de référence, page 45 » : placeholder sans titre, auteur, éditeur → source irrécupérable → C7.
 
-Re-run versionné (`tools/verify/fixtures/benchmark_results.json`, 2026-08-18) : qwen3.6:35b capte **3 de ces 4** (C4, C5, C7), manque C2. Le « 4/4 » de la version initiale de ce rapport n'était pas persisté et ne se reproduit pas (modèle stochastique, temp 0.3) : l'artefact versionné est la seule source de vérité. Sur BAD, le re-run flag 6/6 points (C1-C5, C7) avec verdict FAIL, mais une finding (C7) contient une correction hallucinée : le modèle affirme que l'ouvrage de Blanchard est « publié en 2021 », alors qu'il est de 2011 (Nouveau Monde, septembre 2011). Conséquence : la sortie LLM est advisory (D5/D6), chaque finding doit être recoupé avant correction du livrable.
+Variance figée (série de 3 runs par livrable, 2026-08-18, temp 0.3, artefacts `tools/verify/fixtures/variance_bad_qwen3.6_35b.json` + `variance_temoin_qwen3.6_35b.json`) : qwen3.6:35b rend **6/6 points sur BAD et 4/4 sur le témoin, 3 runs sur 3 chacun**, sans faux PASS. Le « 3/4 (C2 manqué) » et la finding hallucinée « Blanchard publié en 2021 » du run unique versionné (`benchmark_results.json`, 2026-08-18) étaient des outliers non reproductibles : C2 est détecté de façon fiable (4/4), et l'hallucination 2021 n'apparaît dans aucun des 3 runs frais (0/3). La variance réelle est ailleurs : **1 run témoin sur 3 ajoute un faux positif C6 (horodatage)**, ce qui confirme la décision de déplacer C6 en contrôle déterministe (`check_deliverable_timestamp`). Conséquence : le verdict (FAIL/FAIL, jamais faux PASS) est stable, mais la sortie LLM reste advisory (D5/D6) : chaque finding doit être recoupé avant correction du livrable.
 
 ### 5.5 Enseignements
 
-1. **Rigueur = feature, laxisme = faux PASS.** qwen3.6:35b FAIL les deux livrables (jamais de faux PASS), là où les modèles 8-12B passent le témoin imparfait. Un faux PASS est le pire échec pour un moteur de vérité (« jamais faux PASS »). La rigueur du 35B-A3B l'emporte sur la vitesse des petits modèles. Nuance du re-run versionné : 3/4 sur le témoin (C2 manqué) et une finding hallucinée sur BAD (date 2011 → 2021) : la sortie est fiable pour le verdict, pas pour l'évidence de chaque finding (D5/D6).
+1. **Rigueur = feature, laxisme = faux PASS.** qwen3.6:35b FAIL les deux livrables (jamais de faux PASS), là où les modèles 8-12B passent le témoin imparfait. Un faux PASS est le pire échec pour un moteur de vérité (« jamais faux PASS »). La rigueur du 35B-A3B l'emporte sur la vitesse des petits modèles. Nuance figée par 3 runs : 4/4 défauts captés de façon stable sur le témoin et 6/6 sur BAD, mais 1/3 faux positif C6 (horodatage) et une finding hallucinée non reproductible sur BAD (date 2011 → 2021) : la sortie est fiable pour le verdict, pas pour l'évidence de chaque finding (D5/D6).
 2. **`think: false` obligatoire** pour qwen3.6 (hybrid-thinking : sans cette option, réponse vide malgré 695 tokens générés).
 3. **gemma4:26b non fiable** sur prompt structuré long malgré `format: json` (dégénérescence en boucle). Ne pas le réutiliser en reviewer.
 4. **L'hybride se confirme** : les vérifs mécaniques (STATE, KERNEL, SIMPLE, FACT_REGISTRY, horodatage) sont déterministes et passeront par `verify.py check` ; le LLM (qwen3.6:35b) se concentre sur le sémantique (fabrication L4, locators, assertions indémontrables) — domaine où il est redoutable (findings 3 et 4).
@@ -151,5 +151,6 @@ Le PASS ne sera opérationnel qu'avec un reviewer capable de juger le contenu sa
 
 - Write-back Mnemolite : décision `3d93c3c2-5bae-4068-a07b-b1dfabe54199` (tags : verify, ollama, review-local, benchmark, model-selection, qwen3.6-35b).
 - Scripts POC historiques (non versionnés, volatils) : `/tmp/opencode/benchmark_review_local.py`, `debug_full.py`, `final_qwen_gemma.py`, `fixture_conforme.md`.
-- Artefact canonique versionné : `tools/verify/fixtures/benchmark_results.json` + `benchmark.log` (re-run 2026-08-18 via `benchmark_review_local.py`).
+- Artefact canonique versionné : `tools/verify/fixtures/benchmark_results.json` + `benchmark.log` (run unique 2026-08-18 via `benchmark_review_local.py`).
+- Variance figée (3 runs/livrable) : `tools/verify/fixtures/variance_bad_qwen3.6_35b.json` + `variance_temoin_qwen3.6_35b.json`.
 - Spec révisée : `docs/superpowers/specs/2026-08-18-gate-verification-review-local-design.md`.

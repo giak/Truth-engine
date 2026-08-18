@@ -96,7 +96,7 @@ RÉPONDS UNIQUEMENT EN JSON : {"points": {...}, "verdict": "...", "findings": [.
 | `gemma4:26b` | — | Éliminé (dégénérescence, JSON cassé) |
 | `gemma2:9b` | `{"format": "json"}` | Éliminé (1/6 findings, §57.7) |
 
-> Preuve versionnée (2026-08-18) : `tools/verify/fixtures/benchmark_results.json` + `benchmark.log` (rejouable via `benchmark_review_local.py`). Le re-run donne qwen3.6:35b = 6/6 points sur BAD et **3/4 sur le témoin** (C2 manqué), avec une finding hallucinée sur BAD (date 2011 → 2021). Le « 4/4 » antérieur n'était pas persisté. Le modèle reste retenu (seul à ne pas faux-PASS le témoin), mais sa sortie est advisory (D5/D6) : chaque finding doit être recoupé.
+> Preuve versionnée (2026-08-18) : `tools/verify/fixtures/benchmark_results.json` + `benchmark.log` (run unique, rejouable via `benchmark_review_local.py`), complétés par la variance figée en 3 runs/livrable (`variance_bad_qwen3.6_35b.json`, `variance_temoin_qwen3.6_35b.json`). Résultat : qwen3.6:35b rend **6/6 points sur BAD et 4/4 sur le témoin, 3 runs sur 3**, sans faux PASS. Le « 3/4 (C2 manqué) » et la finding hallucinée « date 2011 → 2021 » du run unique étaient des outliers non reproductibles (0/3). Variance réelle : 1/3 faux positif C6 (horodatage). Le modèle reste retenu (seul à ne pas faux-PASS le témoin), mais sa sortie est advisory (D5/D6) : chaque finding doit être recoupé.
 
 Le mapping vit dans une table de `verify.py` (model → options). Tout modèle inconnu : options par défaut `{"format": "json"}` et avertissement dans le certificat.
 

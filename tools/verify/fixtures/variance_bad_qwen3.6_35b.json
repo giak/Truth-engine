@@ -1,0 +1,98 @@
+{
+  "model": "qwen3.6:35b",
+  "doc": "BAD",
+  "truth_defects": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C7"
+  ],
+  "think": false,
+  "format": "json",
+  "temperature": 0.3,
+  "runs": [
+    {
+      "run": 1,
+      "parsed": true,
+      "verdict": "FAIL",
+      "viol": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "hit": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "miss": [],
+      "falsepos": [],
+      "hallucination_2021_present": false,
+      "n_findings": 6,
+      "elapsed_s": 23.1,
+      "tok_s": 23.7
+    },
+    {
+      "run": 2,
+      "parsed": true,
+      "verdict": "FAIL",
+      "viol": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "hit": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "miss": [],
+      "falsepos": [],
+      "hallucination_2021_present": false,
+      "n_findings": 6,
+      "elapsed_s": 27.4,
+      "tok_s": 23.7
+    },
+    {
+      "run": 3,
+      "parsed": true,
+      "verdict": "FAIL",
+      "viol": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "hit": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "miss": [],
+      "falsepos": [],
+      "hallucination_2021_present": false,
+      "n_findings": 6,
+      "elapsed_s": 23.5,
+      "tok_s": 23.5
+    }
+  ]
+}
