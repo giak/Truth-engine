@@ -24,7 +24,8 @@ Modes :
 Usage :
   python3 tools/verify/verify.py check
   python3 tools/verify/verify.py state-id
-  python3 tools/verify/verify.py certify --review PASS|FAIL|BLOCKED
+  python3 tools/verify/verify.py certify --review PASS|FAIL|BLOCKED [--findings-file <fichier.json>]
+  (--findings-file : persiste les findings du reviewer dans result.json)
 """
 
 import hashlib
@@ -428,7 +429,28 @@ def cmd_report(cfg, root):
     return {"PASS": 0, "FAIL": 1, "BLOCKED": 2}[verdict]
 
 
-def cmd_certify(cfg, root, review):
+def _load_findings(root, findings_file):
+    """Charger les findings du reviewer depuis un fichier JSON, si fourni.
+
+    Retourne (findings, error). findings est une liste (possiblement vide) ;
+    error est une chaîne non vide si le fichier est illisible/invalide.
+    """
+    if not findings_file:
+        return [], None
+    path = os.path.join(root, findings_file)
+    if not os.path.isfile(path):
+        return [], f"{findings_file} introuvable"
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as exc:  # noqa: BLE001
+        return [], f"{findings_file} illisible : {exc}"
+    if not isinstance(data, list):
+        return [], f"{findings_file} doit contenir une liste de findings"
+    return data, None
+
+
+def cmd_certify(cfg, root, review, findings_file=None):
     if review not in VERDICTS:
         eprint(f"--review doit être l'un de {VERDICTS}")
         return 2
@@ -442,6 +464,11 @@ def cmd_certify(cfg, root, review):
         except Exception as exc:  # noqa: BLE001
             eprint(f"{PENDING_PATH} illisible : {exc}")
             return 2
+
+    findings, findings_error = _load_findings(root, findings_file)
+    if findings_error:
+        eprint(f"BLOCKED: {findings_error}")
+        return 2
 
     state_id, head = compute_state_id(root)
     pending_state = pending.get("state_id")
@@ -466,6 +493,8 @@ def cmd_certify(cfg, root, review):
         "state_changed": state_changed,
         "created_at": now_iso(),
     }
+    if findings:
+        result["findings"] = findings
     os.makedirs(os.path.dirname(os.path.join(root, RESULT_PATH)) or ".", exist_ok=True)
     with open(os.path.join(root, RESULT_PATH), "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
@@ -475,7 +504,7 @@ def cmd_certify(cfg, root, review):
 
 def usage():
     print(
-        "usage: verify.py check | state-id | report | certify --review PASS|FAIL|BLOCKED"
+        "usage: verify.py check | state-id | report | certify --review PASS|FAIL|BLOCKED [--findings-file <fichier.json>]"
     )
     return 2
 
@@ -502,7 +531,12 @@ def main(argv):
             i = argv.index("--review")
             if i + 1 < len(argv):
                 review = argv[i + 1].upper()
-        return cmd_certify(cfg, root, review)
+        findings_file = None
+        if "--findings-file" in argv:
+            i = argv.index("--findings-file")
+            if i + 1 < len(argv):
+                findings_file = argv[i + 1]
+        return cmd_certify(cfg, root, review, findings_file)
     return usage()
 
 

@@ -18,10 +18,41 @@
  * @type {import('../config/agents/types/agent-definition').AgentDefinition}
  */
 
+const FINDINGS_PATH = '.verify/findings.json'
+
 function extractField(res, field) {
   const s = (typeof res === 'string' ? res : JSON.stringify(res ?? {})).replace(/\\/g, '')
   const m = s.match(new RegExp('"' + field + '"\\s*:\\s*"([A-Z]+)"'))
   return m ? m[1] : null
+}
+
+function extractFindings(res) {
+  // Le reviewer rend un structured_output { verdict, findings: [...] }.
+  // Le toolResult du spawn peut être une chaîne JSON (nested) ou un objet.
+  let s = typeof res === 'string' ? res : JSON.stringify(res ?? {})
+  try {
+    const parsed = JSON.parse(s)
+    if (Array.isArray(parsed) && parsed.length > 0 && typeof parsed[0] === 'object') {
+      for (const item of parsed) {
+        if (Array.isArray(item?.findings)) return item.findings
+      }
+      return parsed.find((x) => x && typeof x === 'object' && 'findings' in x)?.findings ?? []
+    }
+    if (Array.isArray(parsed?.findings)) return parsed.findings
+    // Chaîne JSON imbriquée dans le toolResult (ex: content[0].value)
+    const m = s.match(/"findings"\s*:\s*(\[[\s\S]*?\])\s*(?:,"|,\s*"|})/)
+    if (m) {
+      try {
+        return JSON.parse(m[1])
+      } catch {
+        /* fallthrough */
+      }
+    }
+  } catch {
+    /* chaîne non-JSON : regex de secours ci-dessous */
+  }
+  const m = s.match(/"findings"\s*:\s*(\[[\s\S]*?\])\s*(?:,"|,\s*"|})/)
+  return m ? (() => { try { return JSON.parse(m[1]) } catch { return [] } })() : []
 }
 
 export default {
@@ -34,7 +65,7 @@ export default {
 
   includeMessageHistory: false,
 
-  toolNames: ['run_terminal_command', 'spawn_agents', 'read_files', 'end_turn'],
+  toolNames: ['run_terminal_command', 'spawn_agents', 'read_files', 'write_file', 'end_turn'],
 
   spawnableAgents: ['truth-reviewer'],
 
@@ -58,6 +89,7 @@ export default {
     const detVerdict = extractField(pre && pre.toolResult, 'deterministic') ?? 'BLOCKED'
 
     let reviewVerdict = 'BLOCKED'
+    let findings = []
     if (detVerdict === 'PASS') {
       // 2. Revue clean-room, uniquement si le déterministe passe (pas de review inutile).
       logger.info('verify: spawning truth-reviewer (clean-room)')
@@ -75,17 +107,29 @@ export default {
         },
       }
       reviewVerdict = extractField(rev && rev.toolResult, 'verdict') ?? 'BLOCKED'
+      findings = extractFindings(rev && rev.toolResult)
+      if (findings.length > 0) {
+        logger.info({ n: findings.length }, 'verify: reviewer findings captured')
+      }
     } else {
       logger.info({ detVerdict }, 'verify: deterministic not PASS, skipping review')
     }
 
     // 3. Certificat : re-compute STATE_ID, détecte toute modification post-review,
-    //    enregistre le verdict final dans .verify/result.json.
-    logger.info({ reviewVerdict }, 'verify: certify')
+    //    persiste les findings du reviewer, enregistre le verdict final dans .verify/result.json.
+    logger.info({ reviewVerdict, nFindings: findings.length }, 'verify: certify')
+    let findingsArg = ''
+    if (findings.length > 0) {
+      findingsArg = ` --findings-file ${FINDINGS_PATH}`
+      yield {
+        toolName: 'write_file',
+        input: { path: FINDINGS_PATH, content: JSON.stringify(findings, null, 2) },
+      }
+    }
     yield {
       toolName: 'run_terminal_command',
       input: {
-        command: `python3 tools/verify/verify.py certify --review ${reviewVerdict}`,
+        command: `python3 tools/verify/verify.py certify --review ${reviewVerdict}${findingsArg}`,
         timeout_seconds: 120,
       },
     }
