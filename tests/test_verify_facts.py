@@ -122,6 +122,19 @@ def test_verify_secondaire_ok():
     assert verify_record(_rec("✧", families="D")) == []
 
 
+def test_verify_secondaire_sha256_ok():
+    # Locator de contenu (artefact local) : ✧ valide sans URL http(s).
+    rec = ("FCT-001", "FACT", "✧", "sha256:" + "a" * 64, "-", "", "", "", "")
+    assert verify_record(rec) == []
+
+
+def test_verify_secondaire_sha256_malforme():
+    # Hash non 64-hex : pas un localisateur valide.
+    rec = ("FCT-001", "FACT", "✧", "sha256:xyz", "-", "", "", "", "")
+    issues = verify_record(rec)
+    assert any("sha256" in i for i in issues)
+
+
 def test_verify_tier_aucune_url_constat():
     assert verify_record(("FCT-003", "FACT", "❧", "-", "-", "", "", "", "")) == []
 

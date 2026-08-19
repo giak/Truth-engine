@@ -105,12 +105,17 @@ FCT-003 | FACT | ❧ | - | - | - | - | - | -
 ```
 
 Champs : `id` (FCT-###) | `epi` (FACT|EVIDENCE|INFERENCE|HYPOTHESIS|SPECULATION|UNKNOWN) |
-`tier` (✦✧⁅❧) | `url` (ou `-`) | `familles` (A-E séparées par virgule, ou `-`) | `date` (optionnel) |
+`tier` (✦✧⁅❧) | `url` (http(s), `sha256:<64 hex>` pour artefact local, ou `-`) | `familles` (A-E séparées par virgule, ou `-`) | `date` (optionnel) |
 `sujet` (optionnel : slug sujet+attribut, ex. `dgsi-effectif`, `squarcini-dst-periode`, ou `-`) |
 `valeur` (optionnel : valeur normalisée — nombre, date, chaîne courte — ou `-`) |
 `mem` (memory_id Mnemolite du fait écrit `status:CONFIRME` (✦) ou `status:VERIFIE` (✧), ou `-` pour les faits non écrits ⁅/❧).
 
 `tier` n'admet QUE {✦,✧,⁅,❧}. Les statuts épistémiques de SYMBOLS.md (⁕ CLAIMED, ⁂ SPECULATED, ⊗ CONTRADICTED, ⊙ PARTIAL) ne sont PAS des tiers : les reporter en `epi` texte (⁕→UNKNOWN, ⁂→HYPOTHESIS), jamais dans la colonne `tier`.
+
+`url` admet deux formes de localisateur : une URL http(s) (source web, HEAD-checkée) ou
+`sha256:<64 hex>` (artefact local téléchargé, ex. vidéo, audio). Le hash est un localisateur de
+contenu, inviolable et insensible à la pourriture d'URL. ✧ requiert l'une des deux formes ;
+✦ requiert une URL http(s) (jamais un hash seul : il ne prouve ni recoupement ni vivacité).
 
 Le champ `mem` est renseigné au write-back (KERNEL §19b) avec le memory_id retourné par `write_memory`,
 pour chaque fait écrit ✦/L4 (`status:CONFIRME`) et ✧/L1-L3 (`status:VERIFIE`) ; `-` pour les faits non écrits (⁅/❧). Phase 1 (v36) le lit **verbatim** depuis le bloc,

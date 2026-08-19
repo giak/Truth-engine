@@ -5,7 +5,7 @@ Parse le bloc FACT_REGISTRY_V1 d'un dossier d'investigation et applique les gate
   - ✦ exige EPI=FACT (jamais INFERENCE/HYPOTHESIS/SPECULATION) ;
   - ✦ exige >=2 familles de provenance indépendantes (A/B/C/D/E) ;
   - ✦ exige une URL http(s) sûre (anti-SSRF) qui répond (200-399, ou 403/405 = HEAD bloqué) ;
-  - ✧ = source unique (URL requise) ; ⁅ = URL morte ; ❧ = pas d'URL (constat, non bloquant sauf ✦).
+  - ✧ = source unique (URL http(s) ou locator `sha256:<64 hex>` requis) ; ⁅ = URL morte ; ❧ = ni URL ni hash (constat, non bloquant sauf ✦).
 
 Ce script vérifie la STRUCTURE (URL vivante, familles, classe EPI, tier), pas la VÉRITÉ du
 contenu. La vérité reste un jugement (fetch + lecture + gate humaine). Cf. AGENTS.md §4.
@@ -208,7 +208,8 @@ def verify_record(rec, offline=False):
         issues.append("tier inconnu : {0}".format(tier))
         return issues
     fams = _families(families)
-    has_url = url and url != "-"
+    has_url = bool(url) and url != "-" and url.lower().startswith(("http://", "https://"))
+    has_sha256 = bool(re.fullmatch(r"sha256:[0-9a-f]{64}", url or ""))
 
     if tier == "✦":
         if epi != "FACT":
@@ -225,8 +226,8 @@ def verify_record(rec, offline=False):
                 issues.append("✦ URL morte (HTTP {0}) : {1}".format(code, url))
             elif code not in BLOCKED_OK_STATUS and not (200 <= code < 400):
                 issues.append("✦ URL statut inattendu (HTTP {0}) : {1}".format(code, url))
-    elif tier == "✧" and not has_url:
-        issues.append("✧ sans URL")
+    elif tier == "✧" and not has_url and not has_sha256:
+        issues.append("✧ sans URL ni hash sha256")
     return issues
 
 
