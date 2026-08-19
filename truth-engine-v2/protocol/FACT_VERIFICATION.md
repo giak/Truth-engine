@@ -38,12 +38,18 @@ et `status:CONFIRME` qu'à L4.
 | L1 | FETCHÉ | @FETCH de l'URL primaire + EXCERPT_OK (extrait borné, exact, autonome) | `status:VERIFIE` |
 | L2 | ANCRÉ | ANCHOR_OK : SRC-ID + locator exact + URL canonique + date | `status:VERIFIE` |
 | L3 | RECOUPÉ | ≥2 sources de **familles de provenance distinctes** (A/B/C/D/E, cf. KERNEL §0 BIAS_PREFLIGHT) affirment le même fait, chacune FETCHÉE | `status:VERIFIE` (en attente de gate EPI) |
-| L4 | CONFIRMÉ | L3 + gate EPI = FACT + aucun contre-exemple trouvé dans les sources fetchées | `status:CONFIRME` + `verifie-YYYY-MM-DD` |
+| L4 | CONFIRMÉ | L3 + gate EPI = FACT + REFUTATION_SEARCHED (≥1 contre-requête explicite) sans réfutation trouvée | `status:CONFIRME` + `verifie-YYYY-MM-DD` |
 
 ```
 BLOCK_IF[✦ attribué sans L4].  ✦ auto-attribué := FAUTE (déclasser en ⁅ ou ❧).
+BLOCK_IF[✦ attribué sans REFUTATION_SEARCHED].  ✦ sans contre-requête explicite := non confirmable, déclasser ✧.
 DEGRADE_IF[source unique] → ✧ (tier 2), jamais ✦.
 DEGRADE_IF[URL présente mais non lue] → ⁅ ; [aucune URL] → ❧.
+
+Réfutation active (V3 adversarial) : la contre-requête n'est pas « je n'ai rien trouvé », c'est
+« j'ai cherché à me faire mentir ». Sans elle, ✦ mesure l'absence passive de contradiction dans les
+sources de soutien, pas la recherche active de contre-preuve. `REFUTATION_SEARCHED:{QRY-ID}→{FOUND|NONE}`
+est tracé par fait ; `FOUND` interdit ✦ (déclasser ou re-scoper le claim), `NONE` autorise ✦ avec la trace.
 ```
 
 ## 3. Gate EPI (classification, obligatoire avant tout write-back)
@@ -93,7 +99,7 @@ CARTE DES PREUVES. Une ligne par fait, champs séparés par ` | ` :
 ```
 <!-- FACT_REGISTRY_V1 -->
 FCT-001 | FACT | ✦ | https://url/canonique | A,E | 2024-03-07 | dgsi-effectif | 5000 | <uuid>
-FCT-002 | FACT | ✧ | https://url/secondaire | D | - | dgsi-effectif | 5500 | -
+FCT-002 | FACT | ✧ | https://url/secondaire | D | - | dgsi-effectif | 5500 | <uuid-verifie>
 FCT-003 | FACT | ❧ | - | - | - | - | - | -
 <!-- /FACT_REGISTRY_V1 -->
 ```
@@ -102,12 +108,12 @@ Champs : `id` (FCT-###) | `epi` (FACT|EVIDENCE|INFERENCE|HYPOTHESIS|SPECULATION|
 `tier` (✦✧⁅❧) | `url` (ou `-`) | `familles` (A-E séparées par virgule, ou `-`) | `date` (optionnel) |
 `sujet` (optionnel : slug sujet+attribut, ex. `dgsi-effectif`, `squarcini-dst-periode`, ou `-`) |
 `valeur` (optionnel : valeur normalisée — nombre, date, chaîne courte — ou `-`) |
-`mem` (optionnel : memory_id Mnemolite du fait `status:CONFIRME`, ou `-`).
+`mem` (memory_id Mnemolite du fait écrit `status:CONFIRME` (✦) ou `status:VERIFIE` (✧), ou `-` pour les faits non écrits ⁅/❧).
 
 `tier` n'admet QUE {✦,✧,⁅,❧}. Les statuts épistémiques de SYMBOLS.md (⁕ CLAIMED, ⁂ SPECULATED, ⊗ CONTRADICTED, ⊙ PARTIAL) ne sont PAS des tiers : les reporter en `epi` texte (⁕→UNKNOWN, ⁂→HYPOTHESIS), jamais dans la colonne `tier`.
 
 Le champ `mem` est renseigné au write-back (KERNEL §19b) avec le memory_id retourné par `write_memory`,
-pour chaque fait `status:CONFIRME` (✦/L4) ; `-` sinon. Phase 1 (v36) le lit **verbatim** depuis le bloc,
+pour chaque fait écrit ✦/L4 (`status:CONFIRME`) et ✧/L1-L3 (`status:VERIFIE`) ; `-` pour les faits non écrits (⁅/❧). Phase 1 (v36) le lit **verbatim** depuis le bloc,
 jamais par recherche sémantique : c'est le lien porteur qui ferme la boucle EPI/mem (P6b).
 
 Ce bloc est ce que `tools/verify_facts.py` vérifie de façon **déterministe** (anti-SSRF, HEAD-check,

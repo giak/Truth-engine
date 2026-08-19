@@ -1,334 +1,189 @@
-# Architecture de la boucle de vérification
+# Architecture de la vérification des faits (fact-checking)
 
-> ⚠️ **OBSOLÈTE (2026-08-18)** : le reviewer local Ollama a été supprimé. `verify.py gate` = check + certify (déterministe seul), plus de review-local. Canonique : `docs/besoin_factchecking.md`. À archiver.
+> Document d'architecture, complément du besoin `docs/besoin_factchecking.md`.
+> État réel au 2026-08-19. Remplace l'ancienne « architecture de la boucle de vérification »
+> (gate + reviewer local Ollama), obsolète depuis la suppression d'Ollama (2026-08-18).
+> Principes : KISS, DRY, YAGNI, Freebuff d'abord, pas de LLM local.
 
-> Spécification de besoin et d'architecture de la boucle de vérification implémentée dans Truth Engine.
-> Complémentaire au cahier des charges (`docs/boucle_de_verification.md`) et au tableau de bord (`docs/suivi_verification.md`).
-> Ce document décrit l'état **réel** du système au 2026-08-18, pas un état projeté.
-> Exception déclarée : le mode `verify.py gate` (review-local Ollama) est **spécifié mais non implémenté** à cette date (seuls `check`, `state-id`, `report`, `certify` existent dans le code). Toute mention de `gate` ci-dessous est une spécification, pas un état de code. Voir EX2, EX11, §2.2, §2.3.
+## 1. Deux problèmes orthogonaux
 
----
+Le chantier « vérification » mélangeait deux natures différentes. Elles sont séparées.
 
-## 1. Besoin
-
-### 1.1 Le problème
-
-Truth Engine produit des livrables (investigations, articles, matrices) par des agents LLM. Historiquement, la vérification reposait sur l'obéissance conversationnelle : des consignes (« double check », « tu es sûr ? ») dans les prompts. Quatre faiblesses structurelles :
-
-1. **Probabiliste** : l'agent peut omettre de vérifier, ou mentir par omission.
-2. **Auto-évaluation** : l'auteur vérifie son propre travail, sans séparation des rôles.
-3. **Sans preuve** : aucun état technique ne bloque la livraison d'un travail modifié après vérification.
-4. **Non reproductible** : deux sessions peuvent produire deux verdicts différents sur le même état.
-
-### 1.2 Le principe
-
-Transformer la consigne rhétorique (« l'agent *devrait* vérifier ») en propriété du workflow (« l'agent **ne peut pas** livrer un travail non vérifié »).
-
-```
-UNVERIFIED ──► VERIFY ──► PASS ──► DELIVERABLE
-                │
-                └── FAIL/BLOCKED ──► correction ou blocage déclaré
-```
-
-### 1.3 Les deux invariants
-
-| Invariant | Formulation | Mécanisme |
+| | Fact-checking (le besoin) | Gate de livraison (orthogonal) |
 |---|---|---|
-| I1 | `NO VERIFIED STATE => NO FINAL DELIVERY` | Gate obligatoire avant livraison, verdict PASS requis |
-| I2 | `CHANGE AFTER PASS => PASS INVALID` | STATE_ID : toute modification de l'état (HEAD, diff, fichiers non suivis) change le hash et invalide le certificat |
+| Vérifie | la vérité : URL vivante, source lue, chiffre/date/% exact, recoupement | la forme : nommage, em-dash, tests, branche, horodatage |
+| Exige | un agent avec outils (fetch + lire) | un script déterministe |
+| Acteur | agent principal Freebuff + spawn `truth-reviewer` | `verify.py check` / `certify` |
+| Référence | ce document + `FACT_VERIFICATION.md` | `tools/verify/README.md` |
 
-### 1.4 Exigences
+Règle : la vérité se vérifie avec un agent à outils ; la forme avec un script.
+Un LLM sans outils ne fact-checke pas. Un script ne juge pas la vérité (AGENTS.md §4).
 
-| ID | Exigence | Vérifié par |
-|---|---|---|
-| EX1 | Le verdict est déterministe pour tout ce qui est mécanique | `verify.py check` (branche, tests, nommage, contenu interdit) |
-| EX2 | Le jugement sémantique est confié à un reviewer en contexte neuf | spawn : `.agents/truth-reviewer.ts` (`includeMessageHistory: false`) ; local : review-local Ollama stateless (`verify.py gate`, **spécifié non implémenté**) |
-| EX3 | Trois verdicts seulement : PASS, FAIL, BLOCKED. Jamais de score | grammaire des verdicts dans `verify.py` |
-| EX4 | La certification exige un verdict de reviewer explicite | `certify --review` ; défaut `BLOCKED` (fail-safe) |
-| EX5 | Le chantier est isolé de `main` | worktree + branches protégées |
-| EX6 | Toute modification après PASS invalide le PASS | STATE_ID recomputé à chaque `check` et `certify` |
-| EX7 | Le périmètre des checks est déclaratif et configurable | `.verify/config.json` (dirs, dir_pattern, only_types, since, exclude) |
-| EX8 | Les périmètres vides sont détectables, pas confondus avec la conformité | chaque PASS émet son nombre de fichiers scannés |
-| EX9 | Une erreur de configuration bloque, elle ne verdit pas | escalade FAIL > BLOCKED > PASS dans `run_checks` |
-| EX10 | Le pipeline KERNEL intègre la gate avant toute livraison | KERNEL 19a GATE_VERIFY, 19b FACT_WRITEBACK conditionnel |
-| EX11 | La revue locale est stateless (clean-room par construction) | `verify.py gate` (**spécifié non implémenté**) : prompt complet à chaque appel Ollama, aucun historique ; Ollama down ou sortie non conforme → BLOCKED, jamais PASS |
-
----
-
-## 2. Architecture
-
-### 2.1 Vue d'ensemble
+## 2. Acteurs : Freebuff d'abord
 
 ```
-                        ┌────────────────────────────────────────────────┐
-                        │                 .verify/config.json           │
-                        │  protected_branches │ tests │ naming │ content│
-                        └───────────────────────┬────────────────────────┘
-                                                │
-        ┌───────────────────────┐               ▼
-        │   truth-verifier.ts   │     ┌──────────────────────────┐
-        │  (agent orchestrateur)│────►│   verify.py              │
-        │  check → review → cert│     │  check · gate · state-id │
-        └──────────┬────────────┘     │  certify · report        │
-                   │                  └──────────┬───────────────┘
-                   │                             │
-                   ▼                             │
-        ┌───────────────────────┐      ┌─────────▼──────────────┐
-        │  truth-reviewer.ts    │      │  gate = check +        │
-        │  (spawn, clean-room,  │      │  review-local (Ollama  │
-        │   lecture seule)      │      │  qwen3.6:35b stateless)│
-        └───────────────────────┘      │  + certify             │
-                                       └────────────────────────┘
-                                                │
-                        ┌───────────────────────▼───────────────────────┐
-                        │              worktree (1 chantier)            │
-                        │  .worktrees/<chantier>  · branche non protégée │
-                        │  livrable : investigations/, articles/, ...    │
-                        └────────────────────────────────────────────────┘
+                       FREEBUFF (runtime hôte)
+   ┌───────────────────────────────────────────────────────────────┐
+   │  agent principal              sous-agent spawn                │
+   │  (KERNEL = fact-checker)      truth-reviewer                  │
+   │  outils : web_search,         clean-room, lecture seule,      │
+   │  read_url, read_files,        contexte neuf, indépendant      │
+   │  MCP Mnemolite                                                 │
+   └───────────────────────────────────────────────────────────────┘
+          │  fetch + lire + recouper + classer + écrire
+          ▼
+   Mnemolite (pierre angulaire des données)
 ```
 
-### 2.2 Composants
+- **Agent principal Freebuff** : produit l'enquête (KERNEL) ET fact-checke (L0→L4).
+  C'est le fact-checker : il fetch, lit, recoupe, classe, écrit.
+- **Sous-agent `truth-reviewer`** : second avis indépendant (clean-room, lecture seule),
+  spawné quand le runtime expose `spawn_agents`. Non exposé dans cette session : l'agent
+  principal joue les deux rôles (limite « auto-juge », §8).
+- **Scripts déterministes** : `verify_facts.py` (structure du registre),
+  `detect_contradictions.py` (valeurs divergentes), `monitor_urls.py` (URLs mortes),
+  `verify.py` (gate de forme). Ils vérifient la STRUCTURE, jamais la VÉRITÉ.
 
-| Composant | Fichier | Rôle |
-|---|---|---|
-| Moteur déterministe | `tools/verify/verify.py` | checks, STATE_ID, certification, rapport ; `gate` = check + review-local + certify (**spécifié non implémenté** : seuls `check`/`state-id`/`report`/`certify` existent) |
-| Configuration | `.verify/config.json` | déclaration des checks et périmètres |
-| Agent verifier | `.agents/truth-verifier.ts` | orchestre la chaîne complète dans Codebuff (chemin spawn) |
-| Agent reviewer | `.agents/truth-reviewer.ts` | revue LLM indépendante spawnée, sans historique d'auteur |
-| Reviewer local | Ollama `qwen3.6:35b` | revue stateless (prompt complet à chaque appel, aucun historique) = clean-room par construction ; options `{think: false, format: json}` (**spécifié non implémenté** : dépend du mode `gate`) |
-| Isolateur de chantier | `tools/verify/worktree-new.sh` | 1 chantier = 1 worktree = 1 branche |
-| Contrat | `knowledge.md` (DELIVERY GATE) | obligation contractuelle de passer la gate |
-| Pipeline | `truth-engine-v2/KERNEL.md` (19a/19b) | intégration de la gate au protocole d'investigation |
+## 3. La chaîne complète : du KERNEL à l'article
 
-### 2.3 Le moteur déterministe (`verify.py`)
-
-```
-   check ──► exécute chaque check déclaré ──► aggrège les verdicts
-     │                                          FAIL > BLOCKED > PASS
-     │                                                │
-     │                                                ▼
-     │                                   calcule STATE_ID (sha256)
-     │                                   head + diff HEAD + untracked
-     │                                                │
-     │                                                ▼
-     │                                   écrit .verify/pending.json
-     │                                   exit 0 (PASS) / 1 (FAIL) / 2 (BLOCKED)
-     │
-   certify --review <V> ──► recompute STATE_ID
-     │                        │
-     │                        ├── changé  → verdict FAIL (PASS invalidé)
-     │                        ├── inchangé + deterministic ≠ PASS → deterministic
-     │                        └── inchangé + deterministic = PASS → review
-     │                                                │
-     │                                                ▼
-     │                                   écrit .verify/result.json (certificat)
-     │                                   exit 0 / 1 / 2
-```
-
-Fail-safe : `certify` sans `--review` émet `BLOCKED`. `NO REVIEW => NO PASS`.
-
-Le bloc `gate` ci-dessous est **spécifié mais non implémenté** au 2026-08-18
-(les fixtures et le benchmark sont prêts : `tools/verify/fixtures/`).
-
-   gate ───► check (déterministe) ── FAIL ──► arrêt : verdict FAIL, jamais de revue
-             │
-             ▼
-        review-local (Ollama qwen3.6:35b, think:false, format:json)
-             │
-             ├── Ollama down / JSON invalide / points manquants → BLOCKED
-             ├── verdict advisory FAIL → FAIL (findings enregistrés)
-             └── verdict advisory PASS + check PASS → PASS
-             │
-             ▼
-        certify (.verify/findings.json + .verify/result.json au format officiel)
-
-Le verdict LLM est advisory : converti par des règles déterministes dans `verify.py`.
-La sortie LLM n'est jamais parsée en confiance (anti-fausse-précision, knowledge.md §3.5) :
-forme tolérante (fences), grammaire close stricte (OK/VIOLATION, PASS/FAIL/BLOCKED).
-
-### 2.4 Le STATE_ID (invariant I2)
+Le fait est vérifié UNE fois (au KERNEL), puis circule PAR RÉFÉRENCE (l'id Mnemolite).
+L'aval ne refait ni recherche web, ni vérification.
 
 ```
-STATE_ID = sha256(
-    head=<SHA du commit courant>
-    diff=<sha256 du diff non commité>
-    untracked=<liste des fichiers non suivis>
-)
+KERNEL (investigation)
+  §10 CONSTRUCTION   FCT-### = @FETCH + EXCERPT_OK ; tag EPI (texte) + tier (glyphe)
+  §13 VERIFICATION   ré-ouvrir les sources ; recoupement ≥2 familles indépendantes
+  §19b FACT_WRITEBACK  écrit les ✦/L4 dans Mnemolite ; capture memory_id → mem:
+       FACT_REGISTRY_V1 : id|epi|tier|url|familles|date|sujet|valeur|mem
+      │
+      ▼  (écriture unique, au write-back, après gate 19a PASS)
+┌────────────────────── MNEMOLITE (pierre angulaire) ──────────────────────┐
+│ status:CONFIRME (L4, ✦)   = « sans question » → cité par read_memory(id) │
+│ status:VERIFIE  (L1-L3, ✧) = « vérifié, source unique » → re-questionnable│
+│ sans status: / legacy      = candidat L0        → re-vérifier L0→L4       │
+└───────────────────────────────────────────────────────────────────────────┘
+      │
+      ▼  (référence par ID, ZÉRO re-recherche web)
+Phase 1 (v36, quintessence) : §2 « Faits atomiques » + EPI:<classe> + mem:<uuid> (verbatim)
+Phase 2 (v37, rapport)      : §2 « F-## sous-jacents » propage EPI + mem:
+Phase 3 (v38, article)      : read_memory(id) → {source + URL + verbatim + date}
 ```
 
-Propriété : toute modification de l'état (commit, édition, ajout de fichier, suppression) change le STATE_ID. Le certificat ne vaut que pour l'état exact au moment du `check`.
-
-### 2.5 Les agents
+## 4. L'échelle de vérification L0→L4 (machine à états)
 
 ```
-AUTEUR (session courante)          VERIFIER (truth-verifier.ts)      REVIEWER (truth-reviewer.ts)
-┌────────────────────┐             ┌──────────────────────┐          ┌──────────────────────┐
-│ produit le livrable│             │ 1. verify.py check   │          │ contexte neuf         │
-│                    │             │ 2. spawn reviewer    │◄────────►│ includeMessageHistory │
-│                    │             │ 3. lit verdict       │          │ : false               │
-│                    │             │ 4. certify --review  │          │ lecture seule         │
-└────────────────────┘             └──────────────────────┘          │ pas d'écriture        │
-                                                                     └──────────────────────┘
+L0 CANDIDAT   assertion LLM (rappel/snippet), aucune URL lue     → rien (pas de write)
+   │  @FETCH + EXCERPT_OK (extrait borné, exact, autonome)
+   ▼
+L1 FETCHÉ     source primaire lue                                → status:VERIFIE
+   │  ANCHOR_OK (SRC-ID + locator exact + URL canonique + date)
+   ▼
+L2 ANCRÉ      source localisée précisément                       → status:VERIFIE
+   │  ≥2 familles de provenance indépendantes (A/B/C/D/E), chacune fetchée
+   ▼
+L3 RECOUPÉ    corroboration par des rôles distincts              → status:VERIFIE
+   │  gate EPI = FACT + REFUTATION_SEARCHED (contre-requête, zéro réfutation)
+   ▼
+L4 CONFIRMÉ   ✦ + status:CONFIRME + verifie-YYYY-MM-DD + hash    → « sans question »
 ```
 
-L'auteur ne certifie pas son propre travail : le verdict de revue vient du reviewer, le certificat est émis par le verifier.
+Dégradations mécaniques : source unique → ✧ ; URL présente mais non lue → ⁅ ; aucune URL → ❧.
+`✦` auto-attribué sans L4 = FAUTE (déclasser en ⁅ ou ❧).
 
-**Deux chemins de revue indépendante :**
+## 5. EPI vs tier (séparation, décidée 2026-08-19)
 
-- **Spawn** (Codebuff payant, base2-free, base-chat) : `truth-verifier.ts` spawn `truth-reviewer.ts` (contexte neuf, lecture seule), lit le verdict, certifie.
-- **Review-local** (Freebuff base3-free, ou hors Codebuff) : `verify.py gate` appelle Ollama `qwen3.6:35b` avec le prompt complet (ROLE + CONTRACT + ENUM C1..C7 + nom du fichier + livrable). Stateless : aucun historique, aucun état partagé → clean-room par construction. Le verrou spawn base3-free est prouvé au §57.8 de `docs/boucle_de_verification.md`.
-
-Le gate ne modifie ni les agents `.ts` ni la chaîne spawnée : si le runtime rouvre le spawn, la boucle complète fonctionne sans changement.
-
-### 2.6 Isolation (worktree)
+Deux dimensions distinctes, jamais mélangées dans la colonne `tier`.
 
 ```
-  dépôt principal (main, protégé)          worktree du chantier
-┌──────────────────────────────┐          ┌─────────────────────────────┐
-│ .git/                        │          │ .worktrees/<chantier>/      │
-│ .verify/config.json          │          │ .verify/config.json (copie) │
-│ tools/verify/verify.py       │          │ .agents/*.ts (copie)        │
-│ knowledge.md                 │          │ investigations/...          │
-└──────────────────────────────┘          │ branche <chantier>          │
-     ▲                                   └─────────────────────────────┘
-     └──── verify.py check sur main → BLOCKED (branche protégée)
+EPI (nature de l'énoncé, TEXTE)            tier (qualité de source, GLYPHE)
+  FACT        observation sourcée           ✦   L4, recoupé ≥2 familles → CONFIRME
+  EVIDENCE    pièce, pas le fait lui-même   ✧   L1-L3, source unique → VERIFIE
+  INFERENCE   interprétation                 ⁅   URL présente mais non lue
+  HYPOTHESIS  conjecture                     ❧   aucune URL
+  SPECULATION prédiction
+  UNKNOWN     invérifiable
+
+Seul EPI=FACT peut atteindre ✦/L4/status:CONFIRME.
+Les statuts épistémiques SYMBOLS.md (⁕ CLAIMED, ⁂ SPECULATED, ⊗ CONTRADICTED, ⊙ PARTIAL)
+ne sont PAS des tiers : ils se reportent en EPI texte (⁕→UNKNOWN, ⁂→HYPOTHESIS).
 ```
 
-Le gate refuse `main`/`master` : le travail de chantier se fait dans un worktree dédié, créé par `worktree-new.sh <chantier>`, qui refuse lui-même les noms de branches protégées.
-
-### 2.7 Intégration KERNEL (investigations)
+## 6. Le registre FACT_REGISTRY_V1 (le lien porteur)
 
 ```
-KERNEL §0 → 18b (GATE_CHECK G0-G10, FREEZE)
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ✦ | https://url/canonique | A,E | 2024-03-07 | sujet | valeur | <uuid>
+FCT-002 | FACT | ✧ | https://url/secondaire | D   | -         | sujet | valeur | <uuid-verifie>
+<!-- /FACT_REGISTRY_V1 -->
+   id      epi   tier   url                familles  date       sujet   valeur   mem
+```
+
+- `mem` = memory_id Mnemolite du fait écrit (`status:CONFIRME` ✦ ou `status:VERIFIE` ✧), renseigné au write-back (§19b), `-` pour les faits non écrits (⁅/❧).
+- Lu VERBATIM par Phase 1 (jamais par recherche sémantique) : c'est le lien qui ferme la boucle.
+- Règle souple : le bloc n'est exigé QUE pour les runs qui écrivent en Mnemolite (write-back ✦/L4 ou ✧/L1-L3).
+- Vérifié par `verify_facts.py` (structure, jamais vérité ; anti-SSRF + HEAD-check + familles + EPI).
+
+## 7. La boucle complète (vue d'ensemble)
+
+```
+ ┌──────────────┐   ┌────────────────┐   ┌─────────────────────┐   ┌──────────────────┐
+ │  KERNEL      │   │  VÉRIFICATION  │   │  WRITE-BACK         │   │  CONSOMMATION    │
+ │  §10-13      │──►│  L0→L4         │──►│  §19b Mnemolite     │──►│  Phase 1/2/3      │
+ │  fetch +     │   │  fetch→ancrer→ │   │  status:CONFIRME    │   │  read_memory(id) │
+ │  classer     │   │  recouper→EPI  │   │  capture mem:<uuid> │   │  zéro re-fetch   │
+ └──────────────┘   └────────────────┘   └─────────────────────┘   └──────────────────┘
+        │                   │                      │                        │
+        │ écrit le          │ classe EPI +         │ écrit le fait          │ cite {source+URL
+        │ registre          │ tier                 │ + source + URL         │ +verbatim+date}
+        ▼                   ▼                      ▼                        ▼
+   FACT_REGISTRY_V1     ✦✧⁅❧ / EPI texte      Mnemolite               article publié
+```
+
+Chaque maillon est mécanique et rejouable. Aucun maillon ne requiert de re-vérifier ce
+qu'un maillon amont a déjà enregistré.
+
+## 8. Limites honnêtes
+
+1. **Auto-juge** : l'agent principal produit ET vérifie. Le second avis (`truth-reviewer` spawn)
+   n'est pas exposé dans cette session. `status:CONFIRME` = déclaration honnête « j'ai fetché
+   et lu », pas une preuve indépendante. Le HEAD-check 200 prouve que l'URL est vivante, pas
+   que le contenu appuie l'affirmation : le contenu est vérifié par le fetch (L1), pas par script.
+2. **CONFIRME est rare** : un fait à émetteur unique (INSEE, taux de pauvreté) reste ✧/VERIFIE,
+   car ✦ exige ≥2 familles indépendantes. Le tier « sans question » couvre une minorité des faits.
+   La règle est juste ; la conséquence (la plupart des faits restent « à questionner ») est assumée.
+3. **`mem:` ne vaut que pour les prochains runs** : les quintessences existantes restent sans
+   `mem:` tant que leur investigation n'a pas été re-vérifiée.
+
+## 9. Backlog : le chantier qui manque
+
+La production (KERNEL) est câblée. La masse existante ne l'est pas.
+
+```
+ Mnemolite (total 40 107 mémoires)
+ ├── 33 612 conversation  → non factuelles, exclues de la vérification
+ └── 6 436 factuelles     → investigation(5 091) + note(1 019) + reference(180)
+                            + article(52) + quintessence(94)
         │
-        ▼
-§19  SAVE              écriture unique STATE:FINAL
-        │
-        ▼
-§19a GATE_VERIFY       python3 tools/verify/verify.py check
-        │                PASS → GATE_VERDICT=PASS, STATE_ID enregistré
-        │                FAIL → corriger, re-FREEZE, re-SAVE, re-run
-        │                BLOCKED → lire le check fautif :
-        │                  branche protégée → worktree obligatoire
-        │                  config/module invalide → BLOCK_IF, corriger la config
-        │
-        ▼ (si PASS seulement)
-§19b FACT_WRITEBACK     écriture mémoire des faits ✦ (jamais avant PASS)
+        ├── status:CONFIRME  → « sans question », rien à faire
+        ├── status:VERIFIE   → re-questionnable, à recouper si cité
+        └── sans status: / legacy livre-cst (~3 942 claims, au mieux L0)
+             └──► CAMPAGNE DE RE-VÉRIFICATION L0→L4 (par lots, agent principal)
 ```
+
+La campagne re-vérifie chaque candidat : fetch de la source primaire, ancrage, recoupement,
+gate EPI, write-back `status:CONFIRME` / `VERIFIE` / `REFUTE`. C'est de la main-d'œuvre
+(agent principal Freebuff), pas du code.
 
 ---
 
-## 3. Schémas de flux
+## Références
 
-### 3.1 Chaîne complète d'un chantier
-
-```
-┌──────────┐   ┌───────────────┐   ┌──────────────┐   ┌──────────────┐   ┌─────────────┐
-│ création │   │ production    │   │ gate déter-  │   │ revue LLM    │   │ certificat  │
-│ worktree │──►│ du livrable   │──►│ ministique   │──►│ indépendante │──►│ result.json │
-└──────────┘   └───────────────┘   └──────────────┘   └──────────────┘   └─────────────┘
-                                     │ (check)         │ (spawn OU review-local Ollama)
-                                     ▼                 ▼
-                                FAIL/BLOCKED      FAIL → rework
-```
-
-### 3.2 Machine à états du verdict
-
-```
-                 ┌────────────┐
-                 │  UNKNOWN   │
-                 └─────┬──────┘
-                       │ verify.py check
-                       ▼
-              ┌────────────────┐
-              │ deterministic  │
-              │ PASS/FAIL/BLOCK│
-              └───────┬────────┘
-                      │ certify --review
-                      ▼
-              ┌────────────────┐          état modifié ?
-              │    CERTIFIED   │─────────► oui ──► FAIL (PASS invalidé)
-              │ PASS/FAIL/BLOCK│
-              └────────────────┘
-                      │
-                      ▼
-              modification post-PASS
-                      │
-                      ▼
-              ┌────────────────┐
-              │  PASS INVALID  │  (STATE_ID recomputé ≠)
-              └────────────────┘
-```
-
-### 3.3 Escalade des verdicts
-
-```
-                    FAIL
-                     ▲
-        ┌────────────┼────────────┐
-        │            │            │
-     FAIL          BLOCKED       PASS
-     (test,         (branche      (tout vert)
-      naming,        protégée,
-      content)       config
-                     invalide)
-```
-
-Règle : un seul FAIL domine tout ; à défaut un BLOCKED domine PASS. Un BLOCKED de naming/content (regex invalide) ne peut pas verdir le gate.
-
-### 3.4 Périmètres déclaratifs
-
-```
-.verify/config.json
-├── naming (investigations/)
-│   ├── dirs: ["investigations/"]
-│   ├── dir_pattern: ^\d{4}-\d{2}-\d{2}_<sujet>$
-│   ├── only_types: ARTICLE|HYPER_MATRICE|ARCHITECTURE|SATURATION_AUDIT|REGISTRE|INVESTIGATION
-│   ├── since: 2026-08-17          ← legacy hors scope
-│   └── exclude: INDEX.md, .zip, _synthese/
-│
-└── content (articles/)
-    ├── name: no-em-dash-in-published-articles
-    ├── forbidden: U+2014 (tiret cadratin)  ← interdit dans les livrables ARTICLE
-    ├── dir_pattern: date + tiret OU underscore
-    ├── only_types: [ARTICLE]
-    └── exclude: copies, .bak, audits, PLAN-CORRECTION, 05_ARTICLE
-```
-
-Point de vigilance : les périmètres sont déclaratifs, donc vérifiables. Un périmètre vide est visible (`0 fichier(s) scanné(s)`), jamais confondu avec la conformité.
-
----
-
-## 4. Fichiers d'état
-
-| Fichier | Contenu | Écrit par | Lecture par |
-|---|---|---|---|
-| `.verify/pending.json` | état déterministe (verdict, STATE_ID, HEAD) | `check` | `certify` |
-| `.verify/result.json` | certificat final (verdict, review, state_changed) | `certify` | humain, dashboard |
-| `.verify/config.json` | déclaration des checks | éditeur humain | `verify.py` |
-
----
-
-## 5. Limites connues et honnêteté
-
-1. **Le contrat reste conversationnel** : `knowledge.md` et KERNEL 19a imposent la gate à l'agent, mais l'agent peut en théorie ne pas l'exécuter. La contrainte technique existe (`certify` fail-safe, branches protégées). Le chemin spawné dépend du runtime Codebuff ; le chemin `gate` (review-local) est scriptable et ne dépend que d'Ollama.
-2. **Le reviewer LLM est un jugement probabiliste** : la revue sémantique (cohérence, honnêteté, couverture) reste non déterministe par nature. Le déterministe sécurise l'état ; la revue juge le contenu.
-3. **Le certificat `review: PASS` n'est valable que si le verdict vient d'un reviewer réel** : depuis le fix fail-safe, `certify` sans `--review` émet BLOCKED. Un certificat antérieur au fix portant `review: PASS` sans verdict explicite est invalide comme preuve de revue.
-4. **Les 87 fichiers hors périmètre** (brouillons, audits, JSON) peuvent contenir des em-dash : c'est conforme au contrat Phase 3, qui ne couvre que les articles publiés.
-5. **`.git` ≈ 72 Mo** : les gros fichiers retirés du suivi restent dans l'historique ; une purge exigerait `git filter-repo` (destructif, non fait).
-6. **Le naming check couvre les livrables produits après `since`** : les fichiers legacy antérieurs ne sont pas flaggés (choix délibéré pour éviter 2772 violations de bruit).
-7. **Le choix du modèle de revue locale est un compromis rigueur/performances** : le benchmark du 2026-08-18 (5 modèles, 2 livrables, `docs/suivi_verification.md` §5) a retenu `qwen3.6:35b` (`think: false` obligatoire). Les modèles 8-12B sont laxistes (faux PASS sur livrable imparfait : le pire échec pour un moteur de vérité) ; phi4-mini et gemma4:26b éliminés. Le pairing modèle→options vit dans `verify.py`. Le re-run versionné (`tools/verify/fixtures/benchmark_results.json`, 2026-08-18) donne 6/6 points sur BAD et 3/4 sur le témoin (C2 manqué), avec une finding hallucinée sur BAD (date 2011 → 2021) : la sortie LLM est advisory, chaque finding doit être recoupé avant correction du livrable.
-
----
-
-## 6. Références
-
-- Cahier des charges : `docs/boucle_de_verification.md`
-- Tableau de bord : `docs/suivi_verification.md` (rapport benchmark review-local : §5)
-- Spec du gate unifié : `docs/superpowers/specs/2026-08-18-gate-verification-review-local-design.md`
-- Moteur : `tools/verify/verify.py` (README : `tools/verify/README.md`)
-- Configuration : `.verify/config.json` (exemple : `.verify/config.example.json`)
+- Besoin : `docs/besoin_factchecking.md`
+- Protocole canonique : `truth-engine-v2/protocol/FACT_VERIFICATION.md` (échelle L0→L4, registre)
+- Pipeline : `truth-engine-v2/KERNEL.md` (§10, §13, §19b)
+- Template de sortie : `truth-engine-v2/output/TEMPLATE.md`
+- Ontologie : `truth-engine-v2/definitions/SYMBOLS.md` (§2 statuts épistémiques)
+- Gate de forme (orthogonale) : `tools/verify/README.md`
 - Agents : `.agents/truth-verifier.ts`, `.agents/truth-reviewer.ts`
-- Isolateur de chantier : `tools/verify/worktree-new.sh`
-- Contrat : `knowledge.md` (section DELIVERY GATE)
-- Pipeline : `truth-engine-v2/KERNEL.md` (phases 19a GATE_VERIFY, 19b FACT_WRITEBACK)
+- Consommation aval : `tools/engines/sublimator/prompt-v36.md` (Phase 1), `prompt-v37_phase2.md`
+  (Phase 2), `prompt-v38_phase3.md` (Phase 3)
