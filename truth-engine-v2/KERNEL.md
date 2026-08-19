@@ -279,7 +279,7 @@ ASSUMPTIONS | PRIORITIES | QUERY_GUIDANCE
    ENFORCE[GAP_OK,SAT_OK,TERM_LED,TERM_AXS,STOP_OK].
 
 10 CONSTRUCTION    Build FCT-001... from both search routes, from @FETCH'd EXCERPT only (NEVER LLM recall/snippet). Tag each FCT with EPI class (FACT|EVIDENCE|INFERENCE|HYPOTHESIS|SPECULATION|UNKNOWN). Source:=SRC-ID+title/date+exact locator. See protocol/FACT_VERIFICATION.md. EMIT FACT_REGISTRY_V1 block (id|epi|tier|url|families|date|sujet|valeur|mem) in CARTE DES PREUVES; mem:- until 19b rebinds it with the returned memory_id.
-   ENFORCE[ANCHOR_OK]. ✦ only if EPI=FACT + fetched + anchored (FACT_VERIFICATION L4); single family → ✧; unfetched URL → ⁅; none → ❧. Persisted exact excerpt supports only bounded fact "supplied content states X".
+   ENFORCE[ANCHOR_OK]. ✦ only if EPI=FACT + fetched + anchored (FACT_VERIFICATION L4); single family → ✧; unfetched URL → ⁅; none → ❧. tier ∈ {✦,✧,⁅,❧} ONLY; EPI is the text field, never a glyph. SYMBOLS.md status glyphs ⁕(CLAIMED)/⁂(SPECULATED)/⊗(CONTRADICTED)/⊙(PARTIAL) are epistemic, not tier: map ⁕→EPI=UNKNOWN, ⁂→EPI=HYPOTHESIS, never into the tier column. Persisted exact excerpt supports only bounded fact "supplied content states X".
    Unsupported material → typed GAP, NEVER narrative bridge. TARGET confirmed facts MEDIUM5/COMPLEX8/APEX10.
    Expected absent record → INVESTIGATION.md SILENT_EVIDENCE. CHECKPOINT[FACTS:LAST_COMPLETED=10;NEXT_ACTION=11].
 
@@ -383,7 +383,7 @@ IMMEDIATE BLOCK_IF: scheduled module unavailable | mandatory checkpoint permanen
 trust violation | owning predicate in {MODE_RULE,INV_FIRST,ROUTE_OK,COVER_OK,GAP_OK,SAT_OK,ANCHOR_OK,TRACE_OK} fails.
 
 FINAL BLOCK_IF: !G0..G10 | symbols contain ✗/DEFERRED | material LED/AXS/CLM omitted/unrouted/untraced |
-unsupported cause/hidden contradiction | factual work lacks FACT_REGISTRY | ✦ fails ANCHOR_OK |
+unsupported cause/hidden contradiction | ✦ write-back candidate lacks FACT_REGISTRY_V1 | ✦ fails ANCHOR_OK |
 manifest OPEN/PENDING | no post-correction rebuild | FINAL string/safe path not frozen | !VERIFY_OK.
 
 DEGRADE_IF: MnemoLite unavailable unless indispensable state inaccessible | hash unavailable→omit tag+log |
@@ -397,7 +397,7 @@ persons, deaths, chains or scores. No forced finding != optional exploration: ev
 
 MUST ALWAYS: RUN_MANIFEST | INPUT_KIND | MISSION_MODE | TEXT_ANALYSIS | final 15 symbols | BIAS_TEST |
 LEAD_REGISTRY | INVESTIGATION_MAP | OBJECT_COVERAGE | CLAIM_REGISTRY | CRÉDO | SCOPING | 3P dialectic |
-source roles ◈◉○ | factual FACT_REGISTRY | TRACE_MATRIX | EDI | REQUEST_LOG | G0–G10 |
+source roles ◈◉○ | FACT_REGISTRY_V1 for ✦ write-back candidates | TRACE_MATRIX | EDI | REQUEST_LOG | G0–G10 |
 @MNEMO_Q once/RUN_ID | OPEN checkpoints | @MNEMO_S attempt | one STATE:FINAL write |
 current revalidated ✦→FACT_WRITEBACK attempt each (19b, only after 19a PASS) | GATE_VERIFY (19a) before any delivery claim.
 

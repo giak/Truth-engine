@@ -47,7 +47,7 @@ Règle de séparation : la vérité se vérifie avec un agent à outils ; la for
 
 Le besoin « tout ce qui est dans Mnemolite doit être vérifié » n'est pas opérationnalisé :
 
-- Backlog factuel non vérifié : 40 107 mémoires (5 091 investigation, 1 019 note, 180 reference, 52 article, 94 quintessence). Le corpus legacy `livre-cst` (~3 942 claims) est au mieux L0 : le statut « C1 Confirmé » ≠ `status:CONFIRME` (FACT_VERIFICATION §11).
+- Backlog factuel non vérifié : 6 436 mémoires factuelles (5 091 investigation, 1 019 note, 180 reference, 52 article, 94 quintessence), hors 33 612 `conversation` (non factuelles, 84 % des 40 107 au total). Le corpus legacy `livre-cst` (~3 942 claims) est au mieux L0 : le statut « C1 Confirmé » ≠ `status:CONFIRME` (FACT_VERIFICATION §11).
 - Aucune campagne systématique de re-vérification L0→L4 du backlog. Seulement la vérification à la production (KERNEL) et à la demande.
 
 ## 6. Architecture cible (KISS : une boucle, deux temps)
@@ -55,7 +55,7 @@ Le besoin « tout ce qui est dans Mnemolite doit être vérifié » n'est pas op
 Acteurs :
 
 - Agent principal Freebuff : outils web_search + read_url + read_files + MCP Mnemolite. C'est le fact-checker.
-- Sous-agent `truth-reviewer` (lecture seule, web_search/read) : clean-room premium, quand le runtime l'expose. Verrouillé en `base3-free` (prouvé : `T7="base3"` codé en dur). Ne pas construire dessus.
+- Sous-agent `truth-reviewer` (lecture seule, web_search/read) : clean-room premium, quand le runtime l'expose. Dans cette session, `spawn_agents` n'est pas exposé (confirmé lors du POC) : l'agent principal Freebuff suffit, ne pas construire dessus.
 
 Boucle :
 
@@ -107,13 +107,14 @@ Phase 3 (v38, article) : read_memory(id) → {source + URL + citation verbatim +
 
 Invariant : un fait Mnemolite vaut « sans question » ssi `status:CONFIRME` (L4). Tout le reste (VERIFIE, sans status:, legacy) reste à questionner avant citation en aval. C'est le sens exact de « Mnemolite = pierre angulaire » : la pierre est sûre, pas magique.
 
-## 11. Les 5 brèches mesurées (forensic, preuves sur disque)
+## 11. Les 6 brèches mesurées (forensic, preuves sur disque)
 
-1. ~~Le lien porteur (memory_id) n'est pas rebouclé.~~ **CORRIGÉ (correctif 1, 2026-08-18)** : §19b capture l'id, FACT_REGISTRY_V1 a la colonne mem:, Phase 1 lit verbatim. Reste à l'exécuter sur les prochains runs réels (les 857 quintessences existantes restent sans mem:).
+1. ~~Le lien porteur (memory_id) n'est pas rebouclé.~~ **CORRIGÉ (correctif 1, 2026-08-18)** : §19b capture l'id, FACT_REGISTRY_V1 a la colonne mem:, Phase 1 lit verbatim. Reste à l'exécuter sur les prochains runs réels (les 146 quintessences YAML présentes sur disque restent sans `mem:` (grep = 0)).
 2. Doublons dans le registre des faits. Deux mémoires distinctes pour le même fait « Check First = société privée à but lucratif » (ffe5c867-…, 4c7ca865-…), toutes deux status:CONFIRME. Le dédoublonnage par evidence_key (FACT_VERIFICATION §4) n'a pas joué. Violation du « une seule source de vérité ».
 3. Drift résiduel dans le corps. Le fait pauvreté porte le tag status:VERIFIE mais son corps dit « ✧ / PLAUSIBLE », statut que le serveur rejette (FACT_VERIFICATION §9). Le tag a été corrigé, pas le contenu.
 4. CONFIRME est structurellement rare. Pour un fait à émetteur unique (ex. INSEE, taux de pauvreté), ✦ exige ≥2 familles indépendantes, donc hors d'atteinte : tout tombe en ✧/VERIFIE. Le tier « sans question » couvre une minorité des faits, pas la majorité. La règle est juste ; la conséquence doit être assumée : la plupart des faits restent « à questionner ».
 5. Backlog non vérifié. Legacy livre-cst (~3 942 claims au mieux L0) + mémoires sans status: cohabitent dans Mnemolite avec les CONFIRME. La pierre angulaire contient donc des données non vérifiées.
+6. Le KERNEL n'émet pas le registre des faits en exécution réelle. Sur le dossier Conspiracy Watch (~50 fichiers de sortie), `verify_facts.py` rend « AUCUN REGISTRE TROUVÉ » : zéro bloc `FACT_REGISTRY_V1`, alors que KERNEL §10 l'exige et liste son absence comme violation de barrière. La colonne de glyphes (`✦✧⁕⁂⁅`) conflate la classe EPI et le tier de source : `⁕` (allégué) et `⁂` (hypothèse) sont hors vocabulaire `TIERS = {✦,✧,⁅,❧}`. Résultat : la prose est rigoureuse, mais rien n'entre dans Mnemolite en `status:CONFIRME`.
 
 ## 12. Correctifs minimaux (KISS : fermer les brèches, pas de nouvelle machine)
 
@@ -122,5 +123,6 @@ Invariant : un fait Mnemolite vaut « sans question » ssi `status:CONFIRME` (L4
 3. Nettoyer le drift. Scan des corps pour le résidu « PLAUSIBLE » → réécrire le corps sans ce mot (le tag status:VERIFIE est déjà correct).
 4. Étiqueter le tier partout. CONFIRME = sans question ; VERIFIE = à re-questionner. Déjà dans §6 de FACT_VERIFICATION ; le rendre visible dans les prompts v36/v37/v38 (c'est déjà écrit, le faire appliquer).
 5. Campagne backlog. Re-vérifier L0→L4 le legacy livre-cst et les mémoires sans status:, par lots, par l'agent principal Freebuff (outils fetch + MCP).
+6. ~~Forcer l'émission du FACT_REGISTRY_V1.~~ **FAIT (2026-08-19), règle souple.** Décision tranchée : le registre n'est exigé QUE pour les runs qui écrivent en Mnemolite (write-back ✦/L4), jamais pour la prose exploratoire (APPROFONDISSEMENT, GAPS, BLUEPRINT). EPI et tier sont séparés dans le bloc (epi = texte, tier ∈ {✦,✧,⁅,❧}) ; `⁕`/`⁂`/`⊗`/`⊙` (statuts épistémiques SYMBOLS.md) sont bannis du champ tier et reportés en EPI texte. La vérification se fait au sein de l'investigation, vers la fin, avant le Markdown final. Tout l'aval (Phase 1/2/3) lit `mem:` verbatim puis `read_memory(id)` : zéro re-recherche web. Mapping : ✦→EPI=FACT tier=✦ (CONFIRME) ; ✧→EPI=FACT tier=✧ (VERIFIE) ; ⁕→EPI=UNKNOWN ; ⁂→EPI=HYPOTHESIS.
 
 Ce qui n'est PAS à construire (YAGNI réaffirmé) : pas de fact-checker LLM local (supprimé 2026-08-18), pas de vérificateur déterministe de vérité (§4), pas d'infra dépendant du spawn base2-free, pas de score de confiance.

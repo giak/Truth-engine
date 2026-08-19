@@ -104,6 +104,8 @@ Champs : `id` (FCT-###) | `epi` (FACT|EVIDENCE|INFERENCE|HYPOTHESIS|SPECULATION|
 `valeur` (optionnel : valeur normalisée — nombre, date, chaîne courte — ou `-`) |
 `mem` (optionnel : memory_id Mnemolite du fait `status:CONFIRME`, ou `-`).
 
+`tier` n'admet QUE {✦,✧,⁅,❧}. Les statuts épistémiques de SYMBOLS.md (⁕ CLAIMED, ⁂ SPECULATED, ⊗ CONTRADICTED, ⊙ PARTIAL) ne sont PAS des tiers : les reporter en `epi` texte (⁕→UNKNOWN, ⁂→HYPOTHESIS), jamais dans la colonne `tier`.
+
 Le champ `mem` est renseigné au write-back (KERNEL §19b) avec le memory_id retourné par `write_memory`,
 pour chaque fait `status:CONFIRME` (✦/L4) ; `-` sinon. Phase 1 (v36) le lit **verbatim** depuis le bloc,
 jamais par recherche sémantique : c'est le lien porteur qui ferme la boucle EPI/mem (P6b).

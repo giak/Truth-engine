@@ -58,6 +58,8 @@ An official source can be ◈ for “the institution declared X” and ○ for �
 
 `⁇` is a read-only legacy alias of `⁅`; normalize new output to `⁅`.
 
+These 8 status glyphs are EPISTEMIC statuses for the narrative fact registry. The machine `FACT_REGISTRY_V1` `tier` field (FACT_VERIFICATION §4.5) is source quality and admits only {✦,✧,⁅,❧}; the epistemic statuses ⁕⁂⊗⊙ map to the `epi` text field, never to `tier`.
+
 Corroboration markers: `⊕` independent concordance; `⊗` material contradiction; `⊙` partial agreement; `≋` narrative divergence; `⚑` temporal/coordination red flag requiring verification.
 
 ## §3 Factual lenses
