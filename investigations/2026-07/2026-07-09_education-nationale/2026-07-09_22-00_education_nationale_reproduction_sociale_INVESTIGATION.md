@@ -24,7 +24,7 @@ L'Éducation nationale est le plus gros employeur de France (1,06 million d'agen
 - **F-011** : Syndicats enseignants : 30 % de syndiqués (vs 10 % privé), FSU en tête, grèves fréquentes
 - **F-012** : Réformes récentes : Blanquer 2019 (bac), Attal 2023 (groupes de niveau, uniformes, redoublement)
 - **F-013** : Écrans à l'école : distraction massive, baisse d'attention documentée, « capital attentionnel » en danger
-- **F-014** : Dépenses éducation France = 5,4 % PIB (vs 4,7 % OCDE), efficience faible *(non confirmé — moyenne OCDE EAG 2023 = 4,9 %, pas 4,7 % ; country note OCDE inaccessible)*
+- **F-014** : Dépenses éducation France = **5,4 % du PIB (2021)**, établissements du primaire au tertiaire, **vs moyenne OCDE 4,9 %** (EAG 2024, country note France) *(confirmé — le « vs 4,7 % OCDE » était inexact, moyenne OCDE = 4,9 %)*
 - **F-015** : Collège unique (1975) : objectif égalité, résultat = reproduction des inégalités sans les corriger
 
 ---
@@ -74,7 +74,7 @@ OCDE PISA 2022, Regards sur l'éducation 2024, PLF 2024 Éducation nationale, S�
 
 ## 8. Gaps
 
-Lien causal direct école-prison : corrélation documentée (Sénat 2022), causalité multidimensionnelle. Efficience faible (5,4 % PIB, résultats PISA médiocres) : comparaison internationale complexe (dépenses incluent retraites enseignants, biaisant la comparaison). Contractuels non formés : statistiques précises par académie non consolidées.
+Lien causal direct école-prison : corrélation documentée (Sénat 2022), causalité multidimensionnelle. Efficience faible : 5,4 % du PIB (2021, country note OCDE EAG 2024 — confirmé, mem `833d6f45`) au-dessus de la moyenne OCDE (4,9 %) avec des résultats PISA médiocres ; la comparaison reste complexe (dépenses incluent retraites enseignants, périmètre OCDE = établissements, biaisant la comparaison ; le « vs 4,7 % OCDE » des versions antérieures était inexact). Contractuels non formés : statistiques précises par académie non consolidées.
 
 ---
 
@@ -96,6 +96,6 @@ FCT-010 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduc
 FCT-011 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
 FCT-012 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
 FCT-013 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
-FCT-014 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-014 | FACT | ✧ | https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/education-at-a-glance-2024-country-notes_532eb29d/france_f7565e23/7deeac76-en.pdf | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | 833d6f45-1c78-44c0-9185-01b9fc33a491
 FCT-015 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
 <!-- /FACT_REGISTRY_V1 -->
