@@ -271,3 +271,16 @@ Résultat : le système est verrouillé. Le déficit est structurel. Et rien ne 
 
 *Document produit par Truth Engine — protocole KERNEL APEX v2.0*
 *Date : 20 juin 2026*
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ✧ | https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-infographie-documents-de-reference/250930-Panorama-d%C3%A9penses-de-sant%C3%A9 | - | - | 2026-06-20_hôpitaux_publics_gestion | - | c6bc7ed9-1b07-48b7-aba2-e5cdaa9d2544
+FCT-002 | FACT | ❧ | - | - | - | 2026-06-20_hôpitaux_publics_gestion | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-06-20_hôpitaux_publics_gestion | - | -
+FCT-004 | FACT | ✧ | https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260728-deficit-des-hopitaux-publics | - | - | 2026-06-20_hôpitaux_publics_gestion | - | 4097f3a7-6ded-437e-954f-a8135891995a
+FCT-005 | FACT | ❧ | - | - | - | 2026-06-20_hôpitaux_publics_gestion | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-06-20_hôpitaux_publics_gestion | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-06-20_hôpitaux_publics_gestion | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-06-20_hôpitaux_publics_gestion | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-06-20_hôpitaux_publics_gestion | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-06-20_hôpitaux_publics_gestion | - | -
+<!-- /FACT_REGISTRY_V1 -->

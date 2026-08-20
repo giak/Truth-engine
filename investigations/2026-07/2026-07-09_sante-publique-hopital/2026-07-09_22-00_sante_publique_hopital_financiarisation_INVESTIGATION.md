@@ -11,16 +11,16 @@ Le système hospitalier français est sacrifié sur l'autel de la financiarisati
 
 ## 1. Faits bruts
 
-- **F-001** : Déficit hôpitaux publics = 2,7-2,9 Md€ en 2024 (DREES)
-- **F-002** : Dette cumulée hôpitaux publics = 29,9 Md€ en 2024
+- **F-001** : Déficit hôpitaux publics = **−2,9 Md€ en 2024 (2,7 % des recettes, DREES E&R n°1380 définitif)** ; 2025 = −2,3 Md€ (2,1 % des recettes)
+- **F-002** : Dette cumulée hôpitaux publics = **30,0 Md€** (27,9 % des recettes 2024 ; 27,1 % fin 2025, DREES)
 - **F-003** : Lits d'hospitalisation complète : baisse continue depuis 2003, -1,3 %/an même post-COVID
 - **F-004** : Densité de lits/France < moyenne UE, très inférieure à l'Allemagne
 - **F-005** : Burnout soignants : >60 % infirmiers, aides-soignants, médecins ont connu un épisode
 - **F-006** : 1/3 des communes françaises classées « désert médical »
 - **F-007** : Écart espérance de vie : 13 ans entre hommes des 5 % les plus riches (84,4 ans) et 5 % les plus pauvres (71,7 ans)
 - **F-008** : 11 % des plus pauvres renoncent à des soins pour raisons financières vs 1 % des plus riches
-- **F-009** : Dépenses de santé = ~12 % du PIB, ~325 Md€ en 2023, 77-79 % public
-- **F-010** : AME (Aide Médicale d'État) = 465 744 bénéficiaires, 1,39 Md€ en 2024, cible politique récurrente
+- **F-009** : Dépenses de santé = **333 Md€ en 2024 (DCSi), 11,4 % du PIB** *(correction 2026-08-20 : le « ~12 % / 325 Md€ 2023 » non confirmé ; 77-79 % public non relu)*
+- **F-010** : AME (Aide Médicale d'État) = **1 387 M€ de dépenses en 2024** (Sénat n°139, +68,5 % en 10 ans), cible politique récurrente *(465 744 bénéficiaires non confirmé)*
 - **F-011** : Ramsay Santé = 140 établissements, ~5,2 Md€ CA, premier groupe hospitalier privé
 - **F-012** : Extraction de loyers privés = ~2,5 Md€/an payés par cliniques privées à des fonds immobiliers (CICTAR 2025)
 - **F-013** : Orpea/Ehpad : scandale 2022 (sous-effectif, malnutrition, subventions détournées), restructuré en Emeis
@@ -83,3 +83,21 @@ Données post-COVID sur fermetures de lits encore fragmentaires. Extraction de l
 ## 9. Complexité & EDI
 
 Complexité 8/10. EDI estimé 0.75.
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ✧ | https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260728-deficit-des-hopitaux-publics | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | 4097f3a7-6ded-437e-954f-a8135891995a
+FCT-002 | FACT | ✧ | https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260728-deficit-des-hopitaux-publics | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | 4097f3a7-6ded-437e-954f-a8135891995a
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+FCT-009 | FACT | ✧ | https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-infographie-documents-de-reference/250930-Panorama-d%C3%A9penses-de-sant%C3%A9 | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | c6bc7ed9-1b07-48b7-aba2-e5cdaa9d2544
+FCT-010 | FACT | ✧ | https://www.senat.fr/rap/l25-139-327/l25-139-327_mono.html | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | 2707d6f7-5d33-44a6-b7d5-549c3c537c27
+FCT-011 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-07-09_22-00_sante_publique_hopital_financiarisation | - | -
+<!-- /FACT_REGISTRY_V1 -->
