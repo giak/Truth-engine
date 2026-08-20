@@ -153,9 +153,43 @@ Règles :
    <date>)` / `(non fetché)`.
 
 Conséquence déterministe : `verify_facts.py` traite 403 comme `head_blocked` (ni vivant ni mort), sans
-violation — c'est correct. La distinction auto/manuel est une marque **humaine** portée par l'extrait
+violation. La distinction auto/manuel est une marque **humaine** portée par l'extrait
 (date + méthode), rejouable mais non vérifiable par script sans accès au contenu : c'est l'invariant
 de discipline, pas de code (AGENTS.md §4).
+
+## 4.7 Récupération alternative et dérive de contenu
+
+Cette section s'applique si un outil échoue, si l'URL est déplacée ou si la page ne porte plus le
+claim. Séparer l'accès de la preuve :
+
+```text
+ACCÈS   : ALIVE | REDIRECTED | HEAD_BLOCKED | DEAD | UNREACHABLE | UNKNOWN
+PREUVE  : SUPPORTS | CONTRADICTS | PARTIAL | NO_ASSERTION | DRIFT | GAP
+```
+
+1. **Échec d'outil != verdict.** `403`, `401`, `405`, `429`, timeout, JavaScript, paywall et résultat
+   vide de `web_search` ne prouvent ni source morte, ni donnée absente, ni claim réfuté. `DEAD` exige
+   un constat de disparition ou d'erreur définitive.
+2. **Fallback borné.** Après `read_url`, essayer l'URL canonique ou sa redirection, puis un navigateur
+   ou Chrome headless. Si la page est déplacée, modifiée ou insuffisante, lancer jusqu'à trois requêtes
+   ciblées : citation ou titre exact, entité + claim + date, domaine officiel. Arrêter dès qu'une source
+   de remplacement lisible est trouvée ; sinon classer `GAP`.
+3. **Lecture manuelle.** Si seul l'utilisateur ou un navigateur interactif lit la page, conserver un
+   extrait verbatim borné avec URL, titre ou section, date et méthode `(fetché manuel)`. « La page
+   fonctionne » ne constitue pas `EXCERPT_OK` sans cet extrait.
+4. **Remplacement et dérive.** Une nouvelle URL est une nouvelle pièce : conserver URL, émetteur, date,
+   locator et extrait séparément. Une page actuelle qui ne mentionne plus un fait ancien produit `DRIFT`
+   ou `NO_ASSERTION`, jamais `CONTRADICTS` si la page n'est pas exhaustive. Ne jamais écraser
+   silencieusement une citation ou un `memory_id` ancien.
+5. **Preuve et écriture.** Snippet, résultat de recherche, mémoire Mnemolite, synthèse et copie interne
+   sont des leads, pas des extraits primaires. Sans `EXCERPT_OK` et `ANCHOR_OK`, le candidat reste L0.
+   `VERIFIE` est autorisé à L1-L3 ; `CONFIRME` exige L4. Aucun write-back à L0.
+
+Trace minimale :
+
+```text
+URL | ACCESS_METHOD | ACCESS_STATE | ACCESSED_AT | LOCATOR | EXCERPT | EVIDENCE_STATE | NEXT_ACTION
+```
 
 ## 5. Contrat de confiance (ce que `status:CONFIRME` garantit, et ne garantit pas)
 

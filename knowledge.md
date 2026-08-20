@@ -82,6 +82,16 @@ Un script déterministe (regex, parseur string-strict) ne doit pas traiter du te
 - Si l'information manque : le dire. Formules autorisées : « Les données disponibles ne permettent pas de conclure », « Je ne sais pas ».
 - Toute fabrication (affirmation sans source, chiffre inventé, événement inventé) est une violation grave.
 
+#### Récupération web, accès bloqué et dérive de contenu
+
+Un échec d'outil n'est pas un verdict : `403`, timeout, page JavaScript, paywall ou résultat vide de `web_search` ne prouvent ni source morte, ni donnée absente, ni claim réfuté.
+
+Après un échec, appliquer `truth-engine-v2/protocol/FACT_VERIFICATION.md` §4.7 : variante canonique, navigateur ou Chrome headless, puis au plus trois recherches ciblées. Toute URL de remplacement doit être lue. À défaut, consigner un extrait manuel borné avec URL, section, date et méthode.
+
+Snippet, résultat de recherche, mémoire Mnemolite, synthèse locale et copie interne ne remplacent jamais l'extrait primaire. Une page modifiée produit une dérive à journaliser, pas une réécriture silencieuse. Une absence dans une page non exhaustive produit `NO_ASSERTION`, pas `REFUTED`.
+
+Aucun write-back à L0 : `EXCERPT_OK` + gate applicable seulement, `VERIFIE` à L1-L3, `CONFIRME` à L4.
+
 ### Vérification pré-affirmation
 
 - N'affirmer avoir lu, vérifié, ou analysé un fichier que si un tool call `read` ou `grep` le prouve dans la session.
