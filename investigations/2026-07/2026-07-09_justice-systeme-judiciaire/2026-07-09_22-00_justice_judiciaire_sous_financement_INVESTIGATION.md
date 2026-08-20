@@ -77,8 +77,8 @@ La justice française est structurellement sous-financée et politiquement dépe
 
 | # | Fait | Chiffre | Source |
 |---|------|---------|--------|
-| 1 | Budget justice France | 0,20 % PIB | CEPEJ 2024 |
-| 2 | Moyenne européenne | 0,31 % PIB | CEPEJ 2024 |
+| 1 | Budget du système judiciaire français : 77,2 €/hab (2022), inférieur à la moyenne européenne en % du PIB | CEPEJ 2024 (via Sénat n°139) | *(correction source primaire 2026-08-20 : les « 0,20 % » exacts non relus, rapport CEPEJ inaccessible)* |
+| 2 | Moyenne européenne | 0,31 % PIB | CEPEJ 2024 | ❧ *(non relu en primaire)* |
 | 3 | Juges/100 000 hab | 11-12 | CEPEJ 2024 |
 | 4 | Moyenne UE juges | 22/100 000 | CEPEJ 2024 |
 | 5 | Détenus | 88 000+ (mai 2026) | Ministère Justice |
@@ -89,7 +89,7 @@ La justice française est structurellement sous-financée et politiquement dépe
 | 10 | Sarkozy condamnation 2021 | 3 ans (1 ferme) | Le Monde |
 
 <!-- FACT_REGISTRY_V1 -->
-FCT-001 | FACT | ❧ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | -
+FCT-001 | FACT | ✧ | https://www.senat.fr/rap/l25-139-317/l25-139-317_mono.html | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | 9ef1126b-855e-4832-b0c6-1be3166289a1
 FCT-002 | FACT | ❧ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | -
 FCT-003 | FACT | ✦ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | a150dd5b-25c8-4ea5-9850-b01ea30b120c
 FCT-004 | FACT | ✦ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | a150dd5b-25c8-4ea5-9850-b01ea30b120c

@@ -86,7 +86,7 @@ Analyse du discours des magistrats, syndicats de la magistrature (USM, Syndicat 
 FCT-001 | FACT | ✧ | https://www.senat.fr/rap/l25-139-317/l25-139-317_mono.html | - | - | 2026-06-20_justice_magistrature_budget | - | 9ef1126b-855e-4832-b0c6-1be3166289a1
 FCT-002 | FACT | ✧ | https://www.senat.fr/rap/l25-139-317/l25-139-317_mono.html | - | - | 2026-06-20_justice_magistrature_budget | - | 9ef1126b-855e-4832-b0c6-1be3166289a1
 FCT-003 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
-FCT-004 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
+FCT-004 | FACT | ✧ | https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20ouvrage%20complet.pdf | - | - | 2026-06-20_justice_magistrature_budget | - | a15a6825-831f-4b73-94a9-59ed166e2414
 FCT-005 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
 FCT-006 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
 FCT-007 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
