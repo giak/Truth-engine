@@ -1,0 +1,18 @@
+{
+  "upstream_id": "FC17_040A2D35079DA036",
+  "upstream_key": "CYCLE17|ECOSYSTEM_RELATION|myth_detector|verified_member_of|european_fact_checking_standards_network_efcsn|R_7845bac23ef581",
+  "candidate_content": "Myth Detector --VERIFIED_MEMBER_OF--> European Fact-Checking Standards Network (EFCSN) | visibility=PUBLIC_DIRECT | status=CURRENT | ",
+  "source_ref_original": "https://members.efcsn.com/signatories",
+  "source_ref_used": "https://members.efcsn.com/signatories",
+  "source_replacement_reason": null,
+  "source_document": "FACTCHECK_CYCLE17_ECOSYSTEM_REGISTRY_GRAPH_2026-08-17.md",
+  "source_ref": "INV-ECOSYSTEM-REGISTRY-67",
+  "raw_epistemic_status": "FACT",
+  "verification_status": "NOT_VERIFIED",
+  "verification_level": "L0",
+  "excerpt_ok": false,
+  "locator": null,
+  "memory_id": null,
+  "writeback_allowed": false,
+  "policy": "LOCAL_ONLY; source must be read and classified L0-L4 before any write-back."
+}

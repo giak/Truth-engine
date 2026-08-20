@@ -1,0 +1,18 @@
+{
+  "upstream_id": "FC17_0217F5CA13303655",
+  "upstream_key": "CYCLE17|ECOSYSTEM_ENTITY|european_digital_media_observatory_edmo|entity_type|network_infrastructure|E_european_digital_media_observatory_edmo",
+  "candidate_content": "European Digital Media Observatory (EDMO) | type=NETWORK_INFRASTRUCTURE | country=EU | role=INFRASTRUCTURE | status=ACTIVE",
+  "source_ref_original": "https://edmo.eu/",
+  "source_ref_used": "https://edmo.eu/",
+  "source_replacement_reason": null,
+  "source_document": "FACTCHECK_CYCLE17_ECOSYSTEM_REGISTRY_GRAPH_2026-08-17.md",
+  "source_ref": "INV-ECOSYSTEM-REGISTRY-67",
+  "raw_epistemic_status": "FACT",
+  "verification_status": "NOT_VERIFIED",
+  "verification_level": "L0",
+  "excerpt_ok": false,
+  "locator": null,
+  "memory_id": null,
+  "writeback_allowed": false,
+  "policy": "LOCAL_ONLY; source must be read and classified L0-L4 before any write-back."
+}
