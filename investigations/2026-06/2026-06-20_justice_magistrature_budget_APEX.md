@@ -82,6 +82,19 @@ Analyse du discours des magistrats, syndicats de la magistrature (USM, Syndicat 
 | 9 | La France se situe **en dessous de la moyenne européenne** en nombre de magistrats par habitant | CEPEJ, rapports | ✧ |
 | 10 | La retraite des magistrats est calculée sur les **6 derniers mois** de traitement indiciaire (régime général des fonctionnaires, sans les primes) | Service-public.fr | ✦ |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ✧ | https://www.senat.fr/rap/l25-139-317/l25-139-317_mono.html | - | - | 2026-06-20_justice_magistrature_budget | - | 9ef1126b-855e-4832-b0c6-1be3166289a1
+FCT-002 | FACT | ✧ | https://www.senat.fr/rap/l25-139-317/l25-139-317_mono.html | - | - | 2026-06-20_justice_magistrature_budget | - | 9ef1126b-855e-4832-b0c6-1be3166289a1
+FCT-003 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
+FCT-008 | FACT | ✧ | https://www.senat.fr/rap/l25-139-317/l25-139-317_mono.html | - | - | 2026-06-20_justice_magistrature_budget | - | 9ef1126b-855e-4832-b0c6-1be3166289a1
+FCT-009 | FACT | ✦ | - | - | - | 2026-06-20_justice_magistrature_budget | - | a150dd5b-25c8-4ea5-9850-b01ea30b120c
+FCT-010 | FACT | ❧ | - | - | - | 2026-06-20_justice_magistrature_budget | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 — 3 CHAÎNES CAUSALES

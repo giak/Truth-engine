@@ -88,6 +88,19 @@ La justice française est structurellement sous-financée et politiquement dépe
 | 9 | AFA budget | 10-15 M€/an | AFA |
 | 10 | Sarkozy condamnation 2021 | 3 ans (1 ferme) | Le Monde |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | -
+FCT-003 | FACT | ✦ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | a150dd5b-25c8-4ea5-9850-b01ea30b120c
+FCT-004 | FACT | ✦ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | a150dd5b-25c8-4ea5-9850-b01ea30b120c
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-09_22-00_justice_judiciaire_sous_financement | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §16 WOLVES
