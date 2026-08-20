@@ -140,18 +140,33 @@ BIAS TEST : PASS
 
 | # | Fait | Chiffre | URL | Fiabilité |
 |---|------|---------|-----|:---:|
-| 1 | Budget défense 2025 | 60 Md€ | senat.fr | ✦ |
-| 2 | LPM 2024-2030 | 413 Md€ | senat.fr | ✦ |
+| 1 | Budget mission Défense PLF 2026 | CP 66,7 Md€ (+11,3 %), AE 93,1 Md€ | senat.fr | ✧ |
+| 2 | LPM 2024-2030 | 400 Md€ crédits budgétaires | senat.fr | ✧ |
 | 3 | Export armement 2024 | 21,6 Md€ | latribune.fr | ✦ |
 | 4 | France 2e exportateur | 9,8 % mondial | sipri.org | ✦ |
-| 5 | AUKUS 2021 | perte contrat | latribune.fr | ✧ |
-| 6 | Dassault = Le Figaro | oui | radiofrance.fr | ✧ |
-| 7 | État actionnaire Thales | 26 % | latribune.fr | ✧ |
-| 8 | Dissuasion nucléaire coût | 6 Md€/an | senat.fr | ✧ |
-| 9 | Reports charges 2024 | 6,8 Md€ | senat.fr | ✧ |
-| 10 | Rafale export contrats | records | latribune.fr | ✧ |
+| 5 | AUKUS 2021 | perte contrat | latribune.fr | ❧ |
+| 6 | Dassault = Le Figaro | oui | radiofrance.fr | ❧ |
+| 7 | État actionnaire Thales | 26 % | latribune.fr | ❧ |
+| 8 | Dissuasion nucléaire coût | 7,4 Md€ (11,1 % CP 2026) | senat.fr | ✧ |
+| 9 | Reports charges | 8,02 Md€ fin 2024 (+106,8 %) | senat.fr | ✧ |
+| 10 | Rafale export contrats | records | latribune.fr | ❧ |
+| 11 | Effectifs armées (plafond 2026) | 272 279 ETPT (+1 162) | senat.fr | ✧ |
 
-**EDI :** 0.82 | ✦:4 ✧:6
+**EDI :** 0.82 | ✦:2 ✧:6 ❧:3
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ✧ | https://www.senat.fr/rap/l25-139-38/l25-139-38_mono.html | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | 75370053-9fd4-40a5-af2b-6ecaa68c1663
+FCT-002 | FACT | ✧ | https://www.senat.fr/rap/l25-139-38/l25-139-38_mono.html | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | 75370053-9fd4-40a5-af2b-6ecaa68c1663
+FCT-003 | FACT | ✧ | https://www.sipri.org/media/press-release/2026/global-international-arms-transfers-increase-while-us-dominance-grows | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | 7ce6073c-501d-4351-8e11-dafd70d261a0
+FCT-004 | FACT | ✧ | https://www.sipri.org/media/press-release/2026/global-international-arms-transfers-increase-while-us-dominance-grows | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | 7ce6073c-501d-4351-8e11-dafd70d261a0
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | -
+FCT-008 | FACT | ✧ | https://www.senat.fr/rap/l25-139-38/l25-139-38_mono.html | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | 75370053-9fd4-40a5-af2b-6ecaa68c1663
+FCT-009 | FACT | ✧ | https://www.senat.fr/rap/l25-139-38/l25-139-38_mono.html | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | 82e4dad9-7f2a-483e-962b-26fd2c6d948d
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | -
+FCT-011 | FACT | ✧ | https://www.senat.fr/rap/l25-139-38/l25-139-38_mono.html | - | - | 2026-07-09_23-40_defense_complexe_militaro_industriel | - | 82e4dad9-7f2a-483e-962b-26fd2c6d948d
+<!-- /FACT_REGISTRY_V1 -->
 
 ---
 

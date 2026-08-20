@@ -71,16 +71,31 @@ Analyse du discours des entreprises de défense, du ministère des Armées et de
 
 | # | Fait | Source | Fiabilité |
 |---|------|--------|-----------|
-| 1 | Le budget de la Défense 2025 est de **50,5 Md€** (2,0% du PIB) — LPM 2024-2030 : 413,3 Md€ | PLF 2025, Sénat (rapport n°144) | ✦ |
-| 2 | Les prises de commandes export d'armement français atteignent **21,6 Md€** en 2024 | Rapport au Parlement 2024 | ✦ |
-| 3 | La France est le **2e exportateur mondial d'armes** (SIPRI 2021-2025) — hausse de 21% vs période précédente | SIPRI, rapports | ✦ |
-| 4 | Safran réalise **~27,7 Md€** de CA (2024), Thales ~20,6 Md€, Dassault ~6,2 Md€, Naval Group ~4,3 Md€ | Rapports annuels 2024 | ✦ |
-| 5 | La part du CA des groupes de défense réalisée avec l'État français est estimée entre **30 et 50%** selon les entreprises | Rapports annuels, analyses | ✧ |
-| 6 | Le ministère des Armées a accumulé **~6,80 Md€** de reports de charges (dettes fournisseurs) fin 2024 | Sénat, rapport n°144 | ✦ |
-| 7 | Les principaux clients de l'armement français sont l'**Inde (24%)** et l'**Égypte (11%)** | SIPRI, rapports | ✦ |
-| 8 | Le CIR est accessible aux entreprises de défense — le montant perçu par chaque groupe n'est pas public (secret fiscal) | CIR général, non sectorisé | ✧ |
-| 9 | Les revolving doors sont contrôlés par la HATVP — 3 ans d'interdiction (5 ans depuis loi 2024 pour ingérences étrangères) | HATVP, Code pénal art. 432-13 | ✦ |
-| 10 | PEA (programmes d'études amont) + ASTRID + RAPID + AID + Definvest : **plusieurs centaines de M€/an** de subventions R&D aux entreprises de défense | DGA, PLF | ✧ |
+| 1 | Le budget de la Défense, périmètre LPM hors pensions, est de **57,15 Md€ en 2026** (LFI 2025 ≈ 50,5 Md€) — LPM 2024-2030 : **400 Md€ de crédits budgétaires** (Sénat n°139 PLF 2026) | Sénat, rapport n°139 (annexe Défense, l25-139-38) | ✧ |
+| 2 | Les prises de commandes export d'armement français atteignent **21,6 Md€** en 2024 (+163 % vs 2023) | Rapport au Parlement 2025 (presse Sud Ouest/BFM 08/09/2025) | ✦ |
+| 3 | La France est le **2e exportateur mondial d'armes** (SIPRI 2021-2025, 9,8 %) — hausse de 21% vs période précédente | SIPRI, communiqué 09/03/2026 | ✦ |
+| 4 | Safran réalise **~27,7 Md€** de CA (2024), Thales ~20,6 Md€, Dassault ~6,2 Md€, Naval Group ~4,3 Md€ | Rapports annuels 2024 | ❧ |
+| 5 | La part du CA des groupes de défense réalisée avec l'État français est estimée entre **30 et 50%** selon les entreprises | Rapports annuels, analyses | ❧ |
+| 6 | Le ministère des Armées a accumulé **8,02 Md€** de reports de charges fin 2024 (+106,8 % vs fin 2022 : 3,88 Md€) | Sénat, rapport n°139 (annexe Défense) | ✧ |
+| 7 | Les principaux clients de l'armement français sont l'**Inde (24%)**, l'**Égypte (11%)** et la **Grèce (10%)** | SIPRI, communiqué 09/03/2026 | ✦ |
+| 8 | Le CIR est accessible aux entreprises de défense — le montant perçu par chaque groupe n'est pas public (secret fiscal) | CIR général, non sectorisé | ❧ |
+| 9 | Les revolving doors sont contrôlés par la HATVP — 3 ans d'interdiction (5 ans depuis loi 2024 pour ingérences étrangères) | HATVP, Code pénal art. 432-13 | ❧ |
+| 10 | PEA (programmes d'études amont) + ASTRID + RAPID + AID + Definvest : **plusieurs centaines de M€/an** de subventions R&D aux entreprises de défense | DGA, PLF | ❧ |
+| 11 | Plafond d'emplois armées **2026 : 272 279 ETPT** (+1 162 vs 2025) ; schéma d'emplois +800 EPT | Sénat, rapport n°139 (annexe Défense) | ✧ |
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ✧ | https://www.senat.fr/rap/l25-139-38/l25-139-38_mono.html | - | - | 2026-06-20_defense_industrie_armement_subventions | - | 75370053-9fd4-40a5-af2b-6ecaa68c1663
+FCT-002 | FACT | ✧ | https://www.sipri.org/media/press-release/2026/global-international-arms-transfers-increase-while-us-dominance-grows | - | - | 2026-06-20_defense_industrie_armement_subventions | - | 7ce6073c-501d-4351-8e11-dafd70d261a0
+FCT-003 | FACT | ✧ | https://www.sipri.org/media/press-release/2026/global-international-arms-transfers-increase-while-us-dominance-grows | - | - | 2026-06-20_defense_industrie_armement_subventions | - | 7ce6073c-501d-4351-8e11-dafd70d261a0
+FCT-004 | FACT | ❧ | - | - | - | 2026-06-20_defense_industrie_armement_subventions | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-06-20_defense_industrie_armement_subventions | - | -
+FCT-006 | FACT | ✧ | https://www.senat.fr/rap/l25-139-38/l25-139-38_mono.html | - | - | 2026-06-20_defense_industrie_armement_subventions | - | 82e4dad9-7f2a-483e-962b-26fd2c6d948d
+FCT-007 | FACT | ✧ | https://www.sipri.org/media/press-release/2026/global-international-arms-transfers-increase-while-us-dominance-grows | - | - | 2026-06-20_defense_industrie_armement_subventions | - | 7ce6073c-501d-4351-8e11-dafd70d261a0
+FCT-008 | FACT | ❧ | - | - | - | 2026-06-20_defense_industrie_armement_subventions | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-06-20_defense_industrie_armement_subventions | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-06-20_defense_industrie_armement_subventions | - | -
+FCT-011 | FACT | ✧ | https://www.senat.fr/rap/l25-139-38/l25-139-38_mono.html | - | - | 2026-06-20_defense_industrie_armement_subventions | - | 82e4dad9-7f2a-483e-962b-26fd2c6d948d
+<!-- /FACT_REGISTRY_V1 -->
 
 ---
 
