@@ -13,10 +13,10 @@ L'Éducation nationale est le plus gros employeur de France (1,06 million d'agen
 
 - **F-001** : Éducation nationale : 1,06 million d'agents (non relu), **2e budget de l'État en 2026** *(correction 2026-08-20, source primaire Sénat n°139 : « premier budget (PLF 2024) » → 2e poste en AE derrière la Défense, 64,49 Md€ CP hors pensions / 89,64 Md€ avec pensions — cf. mem fd107986)*
 - **F-002** : Budget en hausse de 29 % depuis 2017 (+14,3 Md€), sans amélioration PISA
-- **F-003** : PISA 2022 : baisse continue depuis 2003 en maths, lecture, sciences
-- **F-004** : France = un des pays OCDE où origine sociale prédit le plus la réussite scolaire
-- **F-005** : 3 000+ postes enseignants non pourvus chaque rentrée, recours massif aux contractuels
-- **F-006** : Décrochage scolaire : 7,6 % (76 000-80 000 jeunes/an), fortement corrélé à la délinquance
+- **F-003** : PISA 2022 : **474 maths/lecture, 487 sciences ; −21 pts maths et −19 pts lecture vs 2018** — baisse inédite depuis 2000 (OCDE/vie-publique) *(le « depuis 2003 » n'est pas détaillé score par score)*
+- **F-004** : France = un des pays OCDE où **origine sociale prédit le plus la réussite scolaire** *(confirmé : « un des pays qui réussit le moins à atténuer l'impact du milieu socio-économique », PISA 2022)*
+- **F-005** : 3 000+ postes enseignants non pourvus chaque rentrée, recours massif aux contractuels *(non relu)*
+- **F-006** : Décrochage scolaire : **7,6 % des 18-24 ans sortis sans diplôme (2022 et 2023, Eurostat edat_lfse_14)** *(76 000-80 000 jeunes/an et corrélation délinquance non confirmés)*
 - **F-007** : Grandes écoles : enfants de cadres surreprésentés, financement/étudiant >> universités
 - **F-008** : Précarité étudiante : 1 étudiant sur 2 saute des repas, files d'attente aux banques alimentaires
 - **F-009** : Notation 0-20 anxiogène : système compétitif de classement dès le primaire
@@ -24,7 +24,7 @@ L'Éducation nationale est le plus gros employeur de France (1,06 million d'agen
 - **F-011** : Syndicats enseignants : 30 % de syndiqués (vs 10 % privé), FSU en tête, grèves fréquentes
 - **F-012** : Réformes récentes : Blanquer 2019 (bac), Attal 2023 (groupes de niveau, uniformes, redoublement)
 - **F-013** : Écrans à l'école : distraction massive, baisse d'attention documentée, « capital attentionnel » en danger
-- **F-014** : Dépenses éducation France = 5,4 % PIB (vs 4,7 % OCDE), efficience faible
+- **F-014** : Dépenses éducation France = 5,4 % PIB (vs 4,7 % OCDE), efficience faible *(non confirmé — moyenne OCDE EAG 2023 = 4,9 %, pas 4,7 % ; country note OCDE inaccessible)*
 - **F-015** : Collège unique (1975) : objectif égalité, résultat = reproduction des inégalités sans les corriger
 
 ---
@@ -85,10 +85,10 @@ Complexité 8/10. EDI estimé 0.75.
 <!-- FACT_REGISTRY_V1 -->
 FCT-001 | FACT | ✧ | https://www.senat.fr/rap/l25-139-313/l25-139-313_mono.html | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | fd107986-b16e-4ba8-a5fb-9ab074d07817
 FCT-002 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
-FCT-003 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
-FCT-004 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-003 | FACT | ✧ | https://www.vie-publique.fr/eclairage/19539-resultats-des-eleves-la-france-et-le-classement-pisa-2022 | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | 590ebcdf-5c63-4961-ae3f-e470dfb040af
+FCT-004 | FACT | ✧ | https://www.vie-publique.fr/eclairage/19539-resultats-des-eleves-la-france-et-le-classement-pisa-2022 | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | 590ebcdf-5c63-4961-ae3f-e470dfb040af
 FCT-005 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
-FCT-006 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-006 | FACT | ✧ | https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_14/default/table?lang=en | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | c59c597e-b731-4702-8ffa-a3c69c974bf5
 FCT-007 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
 FCT-008 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
 FCT-009 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
