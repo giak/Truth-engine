@@ -431,6 +431,44 @@ Tous les leads DECISIVE et IMPORTANT sont couverts par les axes :
 | FCT-032 | La CJIP (Convention judiciaire d'intérêt public) est utilisée : 4 signées en 2025 | 2025 | 4 | SRC-006 | ◈ ✧ |
 | FCT-033 | Les pays scandinaves ont des scores CPI de 85-90/100 (vs 66 pour la France) | 2024 | 85-90 vs 66 | SRC-011 (TI) | ◈ ✧ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-026 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-027 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-028 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-029 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-030 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-031 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-032 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-033 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+FCT-040 | FACT | ❧ | - | - | - | 2026-08-11_23-00_preparation-investigations-corruption | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CLAIMS VALIDÉS / INVALIDÉS
 
 | CLM-ID | VERDICT | PREUVE |

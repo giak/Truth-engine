@@ -146,3 +146,9 @@ Les 3 asymétries définitives du fil :
 
 ---
 *Registre créé 2026-08-10 11:24 CEST — KERNEL v2.8 — Buffy*
+
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_11-24_point-consolide-final-acces-donnee | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_11-24_point-consolide-final-acces-donnee | - | -
+<!-- /FACT_REGISTRY_V1 -->

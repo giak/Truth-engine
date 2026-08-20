@@ -84,6 +84,35 @@ Légende statuts : ◈ confirmé (source primaire lue) · ✧ probable (source s
 | FCT-024 | La grille de décision complète de l'IEF (critères pondérés, conditions exactes par opération) n'est pas publiée | — | 2019-2026 | ✗ (constat d'absence) | SRC-08 |
 | FCT-025 | Photonis ensuite : rachat par HLD maintenu sous pavillon français | 100 % | 2021-2026 | ✧ | SRC-01 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-08-09_15-35_grille-ief-photonis-latecoere | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CLAIM_REGISTRY
 
 | ID | Claim | Statut | Justification |

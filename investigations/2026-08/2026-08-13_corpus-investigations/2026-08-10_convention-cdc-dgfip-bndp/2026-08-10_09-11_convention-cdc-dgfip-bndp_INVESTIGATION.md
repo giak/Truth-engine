@@ -55,6 +55,21 @@ LIEN         : point consolidé 08-50 (G-05) ; dossier 08-38 (GAP-003) ; dossier
 | FCT-010 | Le mécanisme réel du régime d'exception se décompose en 4 instruments documentés : (1) droit légal CdC (L. 141-5/141-9), (2) habilitation en consultation délivrée par la DGFiP (Annexe 4), (3) partenariat de recherche CdC/IPP (rapport + page IPP), (4) fourniture de données + appariement CASD (rapport + newsletter) | 4 instruments | Croisement | CONFIRMÉ (faisceau) |
 | FCT-011 | Pour l'IPP (chercheurs), le canal standard serait le CSS/CDAP — mais aucune demande publique du CSS pour ce projet n'a été identifiée (les données ont pu être fournies directement par la DGFiP dans le cadre du partenariat avec la Cour) | non tranché | Analyse | CONSTAT BORNÉ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_09-11_convention-cdc-dgfip-bndp | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. PELOTE
 
 ```

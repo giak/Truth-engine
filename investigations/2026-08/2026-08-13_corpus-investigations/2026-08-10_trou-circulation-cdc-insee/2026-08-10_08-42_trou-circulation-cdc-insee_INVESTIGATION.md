@@ -126,6 +126,20 @@ L'Insee ne demande pas la BNDP en tant que telle : il demande une **« base de d
 | FCT-009 | **Nuance** : l'Insee demande une base statistique DMTG, pas la BNDP ; la BNDP est insuffisante en volet DMTG pour la statistique (Sénat 760 p. 14) — mais la CdC prouve l'aménagement possible (algorithme IPP, actes, CASD) | 2 régimes | Sénat 760 (07-26) + Annexe 4 | CONFIRMÉ (lecture bornée) |
 | FCT-010 | **Le trou de circulation est structurel** : la même DGFiP fournit (droit, à la Cour, 2025) et est sollicitée pour « progresser » (demande, par l'Insee, 2026) | contraste | FCT-001 + FCT-006 | CONFIRMÉ (conclusion) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_08-42_trou-circulation-cdc-insee | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_08-42_trou-circulation-cdc-insee | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_08-42_trou-circulation-cdc-insee | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_08-42_trou-circulation-cdc-insee | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_08-42_trou-circulation-cdc-insee | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_08-42_trou-circulation-cdc-insee | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_08-42_trou-circulation-cdc-insee | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_08-42_trou-circulation-cdc-insee | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_08-42_trou-circulation-cdc-insee | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_08-42_trou-circulation-cdc-insee | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 8. LIMITES
 
 1. **Le rapport CdC complet a été lu** (129 p., procédures + Annexe 4) ; l'audition Insee (T2) et la TDM ont été lues ; mais **la réponse écrite de l'Insee à la commission** (les « compléments écrits » annoncés en début d'audition) n'a pas été recherchée — elle pourrait préciser la position de l'Insee sur la BNDP.

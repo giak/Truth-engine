@@ -70,6 +70,20 @@ Légende statuts : ◈ confirmé (source lue en session) · ✧ probable (source
 | FCT-009 | Commission d'enquête parlementaire sur les privatisations/APE 2018-2019 : aucun chiffrage des frais de conseil de Toulouse/ADP identifié | — | 2018-2019 | ✗ (constat d'absence, base AN) | SRC-10 |
 | FCT-010 | Bilan : mandats de l'État identifiés en nature (SocGen Toulouse, Lazard FDJ) mais montants individuels non publiés ; seul agrégat documenté = > 31 M€ de frais de mise en Bourse FDJ (côté société, pas côté État) | > 31 M€ | 2026 | ◈ (synthèse) | SRC-01..09 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_21-23_chiffrage-mandats-banques-conseils | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_21-23_chiffrage-mandats-banques-conseils | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_21-23_chiffrage-mandats-banques-conseils | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_21-23_chiffrage-mandats-banques-conseils | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_21-23_chiffrage-mandats-banques-conseils | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_21-23_chiffrage-mandats-banques-conseils | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_21-23_chiffrage-mandats-banques-conseils | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_21-23_chiffrage-mandats-banques-conseils | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_21-23_chiffrage-mandats-banques-conseils | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_21-23_chiffrage-mandats-banques-conseils | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CLAIM_REGISTRY
 
 | ID | Claim | Statut | Justification |

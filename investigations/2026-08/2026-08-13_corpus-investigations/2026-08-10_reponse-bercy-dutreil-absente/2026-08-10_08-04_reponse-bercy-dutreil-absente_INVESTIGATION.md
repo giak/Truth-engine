@@ -91,6 +91,17 @@ Le silence de Bercy **ne prouve pas** : (a) une volonté de dissimuler le régim
 | FCT-006 | Le ministère de l'économie (destinataire nommé par la Cour) est resté silencieux sur un rapport qui documente l'exploitation de sa propre base de données (BNDP) par la CdC | silence | FCT-001 + dossier 07-46 (Annexe 4) | CONFIRMÉ (faisceau) |
 | FCT-007 | **Limite** : le silence ne prouve ni dissimulation ni mépris — les causes banales (agenda, choix de communication) ne sont pas exclues ; le fait documenté est le silence lui-même | non tranchable | analyse | CONSTAT BORNÉ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_08-04_reponse-bercy-dutreil-absente | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_08-04_reponse-bercy-dutreil-absente | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_08-04_reponse-bercy-dutreil-absente | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_08-04_reponse-bercy-dutreil-absente | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_08-04_reponse-bercy-dutreil-absente | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_08-04_reponse-bercy-dutreil-absente | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_08-04_reponse-bercy-dutreil-absente | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 6. LIMITES
 
 1. **Identité du titulaire du portefeuille** : la fonction ministérielle est confirmée par le PDF, mais la personne physique dirigeant le ministère au 18/11/2025 n'a pas été vérifiée en session (le corpus a écrit « Lecornu » par raccourci — cf. §2.3). Le fait ne dépend pas de cette identité.

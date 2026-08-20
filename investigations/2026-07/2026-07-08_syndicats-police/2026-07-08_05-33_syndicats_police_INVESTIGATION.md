@@ -280,6 +280,29 @@ WOLF_INSTITUTION:
 | F19 | Subventions directes annuelles ~1,4 M€ | Cour des comptes | ✦ |
 | F20 | Alliance assume positionnement pro-RN (2020-) | Mediapart, L'Humanité | ✧ |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-07-08_05-33_syndicats_police | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### KNOWLEDGE_STATE
 
 **KNOWN (✦)** : Budget 54 M€, structure juridique Alliance (1901), résultats électoraux 2022, mandataire PSC MGP 2026, identité dirigeants, rapport Cour des comptes.

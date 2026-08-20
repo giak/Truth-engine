@@ -87,6 +87,28 @@ La cession d'Opella (santé grand public de Sanofi) au fonds américain CD&R a �
 | FCT-017 | Critique documentée : usage de fonds publics (Bpifrance) pour soutenir une opération privée de capital-investissement ; robustesse juridique à long terme de l'accord tripartite questionnée (droit des sociétés, droit européen) | — | SRC-05 Club des Juristes | ✦ |
 | FCT-018 | Sanofi conserve 48,2 % et reste premier actionnaire aux côtés de CD&R ; le contrôle opérationnel passe à CD&R (50 %) | 48,2 % | SRC-03 Sanofi 30/04/2025 | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-14_09-00_opella-sanofi-cdr | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 5. CLAIM_REGISTRY
 
 | ID | Claim | Support | Contre-évidence | Statut |

@@ -192,6 +192,17 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-004 | **Données de masse confirmées dans le PDF** (croisement page web 04-20) : 7 des 9 milliardaires créés en 2024 = super-héritiers ; quart des milliardaires issu des 3 mêmes familles ; **60 % de la fortune héritée** (vs 35 % début des années 1970) ; top 0,1 % ≈ **13 M€ = 180× l'héritage médian** ; top 1 % > 4,2 M€ ; taux marginal théorique 45 % au-delà de 1,8 M€ ; ~10 % de droits effectifs pour les 0,1 % ; 87 % des héritages ne paient rien ; 5 % de taux effectif moyen ; jusqu'à 518 650 € sans impôt (note 21, 100 000 €/15 ans + 31 865 €) ; démembrement = 2-3 Md€/an (CAE) ; assurance-vie = 4-5 Md€/an (CAE), 5 % des bénéficiaires = 45 % du total | 7/9 ; 3 ; 60 % ; 13 M€ ; 180× ; 4,2 M€ ; 45 % ; 10 % ; 87 % ; 5 % ; 518 650 € ; 2-3 Md€ ; 4-5 Md€ | Oxfam PDF (lu) + CAE via PDF | ✦ |
 | FCT-005 | **Données Dutreil du rapport Oxfam (connexion transverse)** : coût officiel « autour de 500 millions d'euros… inchangée depuis 10 ans » ; CAE : 2-3 Md€/an ; bénéficiaires en moyenne 2 M€ ; **40 % du montant total transmis via pactes Dutreil 2018-2019 concernait des pactes de plus de 60 M€** ; recommandation : plafond à 2 M€ au-delà duquel l'exonération ne s'applique plus ; 84 % des Français pensent que l'impôt devrait diminuer, 79 % opposés à l'augmentation (Odoxa 25/04/2024) ; +7 points quand on précise que les sondés ne paieraient pas | 500 M€ ; 10 ans ; 2-3 Md€ ; 2 M€ ; 40 % ; 60 M€ ; 84 % ; 79 % | Oxfam PDF (lu) | ✦ (corrobore 04-25 FCT-009) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_06-30_resolution-gap004-oxfam-pdf | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_06-30_resolution-gap004-oxfam-pdf | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_06-30_resolution-gap004-oxfam-pdf | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_06-30_resolution-gap004-oxfam-pdf | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_06-30_resolution-gap004-oxfam-pdf | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_06-30_resolution-gap004-oxfam-pdf | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-10_06-30_resolution-gap004-oxfam-pdf | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

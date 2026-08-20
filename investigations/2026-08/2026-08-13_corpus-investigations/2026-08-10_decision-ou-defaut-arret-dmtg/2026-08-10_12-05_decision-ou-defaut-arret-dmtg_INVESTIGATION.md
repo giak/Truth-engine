@@ -117,6 +117,20 @@ Le DESF (Département des études statistiques et fiscales) de la DGFiP est un S
 | FCT-009 | La **QE n° 11677** (Lachaud, 12/2025, réponse 03/2026) confirme que la dernière enquête DMTG date de 2010, qualifie la BNDP d'« outil de gestion insuffisamment renseigné », et annonce un enrichissement « en cours » — **sans chiffrer le module statistique** | CONFIRMÉ (dossier 08-46, page AN lue) | SRC-06 (QE 11677) |
 | FCT-010 | **Verdict du dossier** : l'arrêt de la DMTG après 2010 est un **DÉFAUT** (défaut de priorisation, non-renouvellement dans un cadre de contrainte de moyens), **pas une décision formelle publique** — il n'existe aucun acte réglementaire, délibération CNIS ou circulaire DGFiP identifié qui décide ou motive l'arrêt | VERDICT (agrégation FCT-001 à 009) | SRC-01 à 06 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_12-05_decision-ou-defaut-arret-dmtg | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_12-05_decision-ou-defaut-arret-dmtg | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_12-05_decision-ou-defaut-arret-dmtg | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_12-05_decision-ou-defaut-arret-dmtg | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_12-05_decision-ou-defaut-arret-dmtg | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_12-05_decision-ou-defaut-arret-dmtg | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_12-05_decision-ou-defaut-arret-dmtg | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_12-05_decision-ou-defaut-arret-dmtg | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_12-05_decision-ou-defaut-arret-dmtg | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_12-05_decision-ou-defaut-arret-dmtg | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §4 GATE_CHECK / VERDICT

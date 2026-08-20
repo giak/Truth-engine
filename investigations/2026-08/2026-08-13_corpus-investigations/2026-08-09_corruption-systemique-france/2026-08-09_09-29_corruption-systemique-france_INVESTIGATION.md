@@ -133,6 +133,106 @@ COMPLEXITY:APEX (13) | CLUSTERS: LOADED (13 : ICEBERG, MONEY, NETWORK, POWER, CO
 | FCT-002 | IPC 2024 : « dégringolade alarmante », 26 ministres impliqués depuis 2017 | Transparency France, 11/02/2025 | ✦ |
 | FCT-017 | CPI monde : moyenne 42/100, recul des pays propres | Transparency.org 2026 | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-026 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-027 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-028 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-029 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-030 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-032 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-033 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-034 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-035 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-036 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-037 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-038 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-039 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-040 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-041 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-042 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-043 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-044 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-046 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-047 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-048 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-049 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-050 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-051 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-052 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-053 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-054 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-058 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-059 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-060 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-061 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-062 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-063 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-064 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-065 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-066 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-067 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-068 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-069 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-070 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-071 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-072 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-073 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-074 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-075 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-076 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-077 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-078 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-079 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-080 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-081 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-082 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-083 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-084 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-085 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-086 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-087 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-088 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-089 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-090 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-091 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-092 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-093 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-094 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-095 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-096 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-097 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-098 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-099 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-100 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-101 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-102 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-103 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-104 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-105 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-106 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-107 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-108 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-109 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-110 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-111 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-112 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-113 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-114 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-115 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-116 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 **Famille B : RÉGALIEN / PNF / FISC**
 | ID | Fait | Source | Conf. |
 |----|------|--------|-------|

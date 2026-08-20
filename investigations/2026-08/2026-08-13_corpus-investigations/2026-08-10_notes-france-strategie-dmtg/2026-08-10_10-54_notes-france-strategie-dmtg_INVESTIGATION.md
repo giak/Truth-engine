@@ -28,6 +28,15 @@ Vérifier si les notes d'analyse France Stratégie **n° 120** « Inégalité de
 | FCT-004 | **Source réelle de la note 120** : « France Stratégie, à partir de l'enquête Formation et qualification professionnelle (FQP) 2014-2015 » (l. 237) — **pas de DMTG** | CONFIRMÉ | PDF note 120, l. 237 |
 | FCT-005 | **La fiche source DMTG du CASD liste donc 2 publications (notes 120 et 121) qui n'utilisent pas l'enquête DMTG** : leur présence dans la fiche n'est pas un indicateur d'usage de la source, mais un rattachement probablement thématique (inégalités, carrières) — **la fiche CASD ne peut pas être utilisée comme preuve d'usage de la source** (les 3 autres publications de la fiche n'ont pas été vérifiées dans le texte) | CONFIRMÉ (faisceau, borné : le critère de rattachement de la fiche CASD n'est pas publié) | FCT-001 à 004 + fiche source DMTG (dossier 09-15) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_10-54_notes-france-strategie-dmtg | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_10-54_notes-france-strategie-dmtg | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_10-54_notes-france-strategie-dmtg | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_10-54_notes-france-strategie-dmtg | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_10-54_notes-france-strategie-dmtg | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## VERDICT
 
 Le GAP 3 est résolu : **les deux notes France Stratégie listées dans la fiche source DMTG n'utilisent pas l'enquête DMTG**. Leurs sources réelles, vérifiées dans le texte :

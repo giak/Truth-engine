@@ -36,3 +36,8 @@ AXES (AXS-001 à 008) :
 - AXS-006 IMMOBILI : pinel pérenne, LMNP, direct, SCPI, locations courtes, déficit
 - AXS-007 COMMANDE-PUBLIQUE : « gonflage des factures », gré à gré (170 Md€), options, échelles clauses, maîtrise d'ouvrage (le « surcoût privé »)
 - AXS-008 FRAUDE vs OPTIMISATION : la frontière pénale/fiscale (les niches basculer vers l'abus de droit), point de bascule
+
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-098 | FACT | ❧ | - | - | - | 2026-08-09_12-29_enrichissement-legalise-france | - | -
+<!-- /FACT_REGISTRY_V1 -->

@@ -78,18 +78,18 @@ SCOPE:{lead: filiation « Trinquier → maintien de l'ordre hexagonal post-1962 
 ## §2 REGISTRE MACHINE-READABLE (FACT_REGISTRY_V1)
 
 <!-- FACT_REGISTRY_V1 -->
-FCT-001 | FACT | ✧ | https://enderi.fr/roger-trinquier-le-theoricien-oublie-de-la-guerre-moderne-qui-continue-dinfluencer-les-armees-du-monde/ | C | 2026-05-26 | trinquier-officier-militaire | officier contre-insurrection
-FCT-002 | FACT | ✧ | https://enderi.fr/roger-trinquier-le-theoricien-oublie-de-la-guerre-moderne-qui-continue-dinfluencer-les-armees-du-monde/ | C | 2026-05-26 | la-guerre-moderne-1961 | ouvrage majeur 1961
-FCT-003 | FACT | ✧ | https://blogs.mediapart.fr/francois-geze/blog/250320/la-doctrine-de-la-guerre-revolutionnaire-genese-mise-en-oeuvre-et-posterite | D | 2020-03-25 | dgr-doctrine-officielle-1955-1959 | de facto officielle
-FCT-004 | FACT | ✧ | https://blogs.mediapart.fr/francois-geze/blog/250320/la-doctrine-de-la-guerre-revolutionnaire-genese-mise-en-oeuvre-et-posterite | D | 2020-03-25 | dgr-lacheroy-hogard | théoricien = Lacheroy
-FCT-005 | FACT | ✧ | https://histoirecoloniale.net/une-histoire-de-la-doctrine-de-la-guerre-revolutionnaire/ | E | 2022-10-04 | dgr-eradication-1960 | fin statut officiel
-FCT-006 | FACT | ✦ | https://afriquexxi.info/L-etonnante-posterite-de-la-doctrine-francaise-de-contre-insurrection | C,E | 2025-02-14 | dgr-posterite-internationale | US/Argentine/Portugal
-FCT-007 | FACT | ✧ | https://www.ritimo.org/Maintien-de-l-ordre-en-France-entre-violence-coloniale-et-restructuration | D | 2021-09-20 | rigouste-genealogie-coloniale | thèse généalogie personnels
-FCT-008 | FACT | ✧ | https://metropolitiques.eu/La-police-et-les-Algeriens.html | E | 2012-10-17 | blanchard-continuite-coloniale-police | transfert structures/personnels/pratiques
-FCT-009 | FACT | ✧ | https://metropolitiques.eu/La-police-et-les-Algeriens.html | E | 2012-10-17 | papon-constantine-paris-1961 | préfet IGAME → préfet police
-FCT-010 | FACT | ✧ | https://fr.wikipedia.org/wiki/Centre_d%27instruction_%C3%A0_la_pacification_et_%C3%A0_la_contre-gu%C3%A9rilla | C,E | 1957-01-01 | cipcg-arzew | école guerre psychologique
-FCT-011 | FACT | ✧ | https://www.lemonde.fr/decryptages/article/2018/04/24/mai-68-le-sac-noyau-dur-du-gaullisme_5289611_1668393.html | C | 2018-04-24 | sac-police-parallele | fondé 1960 Pasqua
-FCT-012 | FACT | ✧ | https://journals.openedition.org/conflits/3128 | E | 2007-09-01 | rg-subversion-adversaire-interieur | lutte contre la subversion
+FCT-001 | FACT | ⁅ | https://enderi.fr/roger-trinquier-le-theoricien-oublie-de-la-guerre-moderne-qui-continue-dinfluencer-les-armees-du-monde/ | C | 2026-05-26 | trinquier-officier-militaire | officier contre-insurrection | -
+FCT-002 | FACT | ⁅ | https://enderi.fr/roger-trinquier-le-theoricien-oublie-de-la-guerre-moderne-qui-continue-dinfluencer-les-armees-du-monde/ | C | 2026-05-26 | la-guerre-moderne-1961 | ouvrage majeur 1961 | -
+FCT-003 | FACT | ⁅ | https://blogs.mediapart.fr/francois-geze/blog/250320/la-doctrine-de-la-guerre-revolutionnaire-genese-mise-en-oeuvre-et-posterite | D | 2020-03-25 | dgr-doctrine-officielle-1955-1959 | de facto officielle | -
+FCT-004 | FACT | ⁅ | https://blogs.mediapart.fr/francois-geze/blog/250320/la-doctrine-de-la-guerre-revolutionnaire-genese-mise-en-oeuvre-et-posterite | D | 2020-03-25 | dgr-lacheroy-hogard | théoricien = Lacheroy | -
+FCT-005 | FACT | ⁅ | https://histoirecoloniale.net/une-histoire-de-la-doctrine-de-la-guerre-revolutionnaire/ | E | 2022-10-04 | dgr-eradication-1960 | fin statut officiel | -
+FCT-006 | FACT | ✦ | https://afriquexxi.info/L-etonnante-posterite-de-la-doctrine-francaise-de-contre-insurrection | C,E | 2025-02-14 | dgr-posterite-internationale | US/Argentine/Portugal | 87c81889-f51c-4a19-b5ce-89b525a6e63f
+FCT-007 | FACT | ⁅ | https://www.ritimo.org/Maintien-de-l-ordre-en-France-entre-violence-coloniale-et-restructuration | D | 2021-09-20 | rigouste-genealogie-coloniale | thèse généalogie personnels | -
+FCT-008 | FACT | ⁅ | https://metropolitiques.eu/La-police-et-les-Algeriens.html | E | 2012-10-17 | blanchard-continuite-coloniale-police | transfert structures/personnels/pratiques | -
+FCT-009 | FACT | ⁅ | https://metropolitiques.eu/La-police-et-les-Algeriens.html | E | 2012-10-17 | papon-constantine-paris-1961 | préfet IGAME → préfet police | -
+FCT-010 | FACT | ⁅ | https://fr.wikipedia.org/wiki/Centre_d%27instruction_%C3%A0_la_pacification_et_%C3%A0_la_contre-gu%C3%A9rilla | C,E | 1957-01-01 | cipcg-arzew | école guerre psychologique | -
+FCT-011 | FACT | ⁅ | https://www.lemonde.fr/decryptages/article/2018/04/24/mai-68-le-sac-noyau-dur-du-gaullisme_5289611_1668393.html | C | 2018-04-24 | sac-police-parallele | fondé 1960 Pasqua | -
+FCT-012 | FACT | ⁅ | https://journals.openedition.org/conflits/3128 | E | 2007-09-01 | rg-subversion-adversaire-interieur | lutte contre la subversion | -
 <!-- /FACT_REGISTRY_V1 -->
 
 Note de construction : seul FCT-006 est `✦` (3 sources fetchées indépendantes : Afrique XXI/Peterson [E], Enderi/Demélas-Dory [C], Histoire coloniale/Rubenstein [E]). Les autres faits sont `✧` (famille unique fetchée ou sources liées à La Découverte, donc non indépendantes).

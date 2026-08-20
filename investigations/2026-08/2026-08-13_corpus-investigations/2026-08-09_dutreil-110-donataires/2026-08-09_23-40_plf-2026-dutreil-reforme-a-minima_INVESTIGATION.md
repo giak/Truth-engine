@@ -204,6 +204,21 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-009 | Réponse aux recommandations Sénat 760 (17/06/2026) : POSTÉRIEURES à la LF 2026 (visent le PLF 2027) ; **aucune réponse publique identifiée au 09/08/2026** | 0 réponse | SRC-04 (chercheur) + hérité 23-25 | ✦ (constat d'absence) |
 | FCT-010 | Mesure connexe de la même loi : **taxe de 20 % sur certains actifs patrimoniaux** (holdings patrimoniales ; énumération proche des actifs exclus du Dutreil). **PRÉCISÉ 10/08/2026 04:07 (dossier 2026-08-10_04-07_taxe-holdings-20pct) : art. 7 LF 2026 → CGI 235 ter C ; taxe « démantelée » en navette (1-1,5 Md€ initial 2 % revenus passifs → ~100 M€ final 20 % actifs somptuaires, amendement Juvin 31/10/2025, seuil 50 %) ; CC 2026-901 DC : non-examen au fond (§60)** | 20 % | SRC-05 Actu-Juridique (taxe holdings) + dossier 04-07 | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_23-40_plf-2026-dutreil-reforme-a-minima | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

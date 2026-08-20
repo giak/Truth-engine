@@ -198,6 +198,18 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-007 | **Les 110 donataires (65 % de la dépense, 30 M€ de moyenne) transmettent des titres et de la trésorerie — les actifs exonérés** ; les opérations géantes (Bolloré/Vivendi 2023 ~1,5 Md€, hérité) sont intactes | 65 % ; 110 ; 30 M€ | 22-56 (hérité) + structure actif | ✦ |
 | FCT-008 | **Lecture anti-sycophancie** : le notariat défend la présomption d'utilité de la trésorerie (seuil 50→70 %) — il ne conteste pas l'exclusion du luxe ; la réforme « durcit la forme, préserve le fond » (verdict 23-40) ; gain résiduel non mesuré | — | Actu-Juridique (lu) + 23-40 | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_04-15_impact-exclusions-dutreil-dmtg | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_04-15_impact-exclusions-dutreil-dmtg | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_04-15_impact-exclusions-dutreil-dmtg | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_04-15_impact-exclusions-dutreil-dmtg | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_04-15_impact-exclusions-dutreil-dmtg | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_04-15_impact-exclusions-dutreil-dmtg | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_04-15_impact-exclusions-dutreil-dmtg | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_04-15_impact-exclusions-dutreil-dmtg | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

@@ -111,6 +111,20 @@ La résolution de ce dossier documente H1 comme lecture principale (le R. 141-4 
 | FCT-009 | **Limite H1/H2** : le R. 141-4 ne mentionne pas explicitement le mot « secret » ; l'existence d'un décret d'application spécifique aux données couvertes par un secret (H2) n'est ni confirmée ni infirmée | non tranchable | analyse | CONSTAT BORNÉ |
 | FCT-010 | La convention CdC/DGFiP d'accès à la BNDP n'est pas un arrangement exceptionnel : c'est l'instrument standard du R. 141-4 (dernier alinéa) | — | FCT-002 | CONFIRMÉ (lecture) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_08-38_decret-2023-520-acces-donnees | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_08-38_decret-2023-520-acces-donnees | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_08-38_decret-2023-520-acces-donnees | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_08-38_decret-2023-520-acces-donnees | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_08-38_decret-2023-520-acces-donnees | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_08-38_decret-2023-520-acces-donnees | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_08-38_decret-2023-520-acces-donnees | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_08-38_decret-2023-520-acces-donnees | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_08-38_decret-2023-520-acces-donnees | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_08-38_decret-2023-520-acces-donnees | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 6. LIMITES
 
 1. **Légifrance et Pappers bloqués en session (Cloudflare)** : le titre complet du décret 2023-520 provient de 4 sources indépendantes via DuckDuckGo (dont deux entrées Légifrance loda/jorf) mais le texte intégral du décret n'a pas été relu en session ; l'articulation exacte entre l'alinéa 2 de L. 141-5 (« décret en Conseil d'État », « données couvertes par un secret ») et le R. 141-4 (modalités générales) reste une lecture (H1), pas une vérification textuelle.

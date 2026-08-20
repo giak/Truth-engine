@@ -123,6 +123,23 @@ Le dossier 23-25 a identifié la « base de données en cours de constitution »
 | FCT-012 | VERDICT : commission ne peut pas financer (pas de pouvoir budgétaire) ; PLF 2027 indéterminé ; interrogeabilité publique = agrégée au mieux, horizon 2029-2033 (lot 3 = 2033 au moins, Sénat 760), jamais nominative | Synthèse | RÉSOLU EN ÉTAT ZÉRO |
 | FCT-013 | Projet « IA Enregistrement » (Blondy, CPO, ✧ 2 occurrences T2 seulement) : la succession = « moment où la photo pourrait être la plus complète » ; garde-fou « la fonction statistique doit être embarquée dès l'origine » (leçon Moorea→Fidji) ; Mattei « un peu étonné » que l'administration ne dispose pas des données Dutreil ; de Courson : reconstitution du patrimoine possible, numérisation « d'ici deux ans » | ce_t2.txt p. 208-209 | CONFIRMÉ (T2 lu) + ✧ (nom exact du projet) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-10_07-18_financement-base-successions | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 7. CONTRADICTIONS
 
 | ID | Fait A | Fait B | Résolution |

@@ -116,3 +116,12 @@ Les 5 asymétries chiffrées du faisceau :
 
 ---
 *Registre créé 2026-08-10 08:50 CEST — KERNEL v2.8 — Buffy*
+
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_08-50_point-consolide-faisceau-bndp | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_08-50_point-consolide-faisceau-bndp | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_08-50_point-consolide-faisceau-bndp | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_08-50_point-consolide-faisceau-bndp | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_08-50_point-consolide-faisceau-bndp | - | -
+<!-- /FACT_REGISTRY_V1 -->

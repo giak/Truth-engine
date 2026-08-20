@@ -191,6 +191,19 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-007 | Sources candidates de nomination indirecte : Blast « Le pacte Dutreil, symbole d'une société d'héritiers » et « Comment Bernard Arnault et les ultrariches échappent à l'impôt » ; Oxfam « Super-héritages » — **LUES INTÉGRALEMENT 10/08/2026 04:25** (dossier 2026-08-10_04-25_blast-oxfam-centile-dutreil) : verrou secret fiscal confirmé (aucune liste des 110) ; faisceau nominatif maximal (Arnault 44,4→6,5 % via Canard ✧, Pinault 3 enfants, Besnier/Lactalis 20 ans, liste des 6 familles) | 3 sources | SRC-08 Blast ; SRC-09 Oxfam ; SRC-10 dossier GAP-002b | ✦ (GAP-002b exécuté) |
 | FCT-008 | La levée du verrou est institutionnelle : Annexe 12 du CIR (Sénat 808, force une commission d'enquête) ; rec. n° 6 Sénat 760 (base de données successions en cours de constitution) | 2 voies | hérité 22-15/22-56 | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_23-14_resolution-gap002-bollore-operation2024 | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_23-14_resolution-gap002-bollore-operation2024 | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_23-14_resolution-gap002-bollore-operation2024 | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_23-14_resolution-gap002-bollore-operation2024 | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_23-14_resolution-gap002-bollore-operation2024 | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_23-14_resolution-gap002-bollore-operation2024 | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_23-14_resolution-gap002-bollore-operation2024 | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_23-14_resolution-gap002-bollore-operation2024 | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_23-14_resolution-gap002-bollore-operation2024 | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

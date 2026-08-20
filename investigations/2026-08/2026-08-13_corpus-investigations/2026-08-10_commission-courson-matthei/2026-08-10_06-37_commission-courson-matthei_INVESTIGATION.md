@@ -196,6 +196,17 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-005 | **Recommandations (19, lues)** : n° 10 « Restreindre l'assiette du pacte Dutreil à la seule fraction de la valeur des parts ou actions transmises correspondant à la détention de biens professionnels nécessaires à l'exercice de l'activité des sociétés transmises » (alignement Allemagne/RU/Belgique ; la LF 2026 n'a « que partiellement répondu » ; trésorerie : tension de Montchalin vs DLF Martel, « critères forfaitaires instaurant une présomption irréfragable ») ; n° 12 taxation du flux successoral total viager « lorsque des données complètes seront disponibles » (lien base e-enregistrement, hérité 23-25) ; CDHR proposée comme taux plancher ; taxe Zucman écartée (« inconstitutionnelle et irréaliste » — contesté par Coquerel) ; n° 1-9, 11, 13-19 (RFR, Ficoba, fichier patrimoine professionnel, numérisation DGFiP, amortissements meublé, apport-cession, CEHR, sociétés de capitaux, taxe holdings) | 19 recommandations ; n° 10 ; n° 12 | Rapport (lu intégralement) | ✦ |
 | FCT-006 | **VERDICT** : la commission a terminé ses travaux (rapport déposé 08/07/2026) — le corpus 04-25 (« en cours ») est corrigé ; la nomination des 110 donataires Dutreil reste **INACCESSIBLE** (annexe IFI anonymisée seulement) ; la porte institutionnelle s'est refermée SANS nommer le centile, mais avec le chiffrage officiel le plus complet à date (45 → 5,6 % ; 5 Md€ 2024) et une recommandation d'action sur l'assiette (n° 10) ; le PLF 2027 est la prochaine porte (hérité 23-40) | — | Rapport (lu) + ce dossier | ✦ (verdict) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_06-37_commission-courson-matthei | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_06-37_commission-courson-matthei | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_06-37_commission-courson-matthei | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_06-37_commission-courson-matthei | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_06-37_commission-courson-matthei | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_06-37_commission-courson-matthei | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-10_06-37_commission-courson-matthei | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

@@ -211,6 +211,26 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-015 | CdC 07/2023 : recommande le recentrage du CIR sur les PME (note « Piloter et évaluer les dépenses fiscales ») | recentrage | SRC-13 CdC 07/2023 | ✦ |
 | FCT-016 | Cumul CIR des 8 groupes de l'annexe : 171+152+133,9+119+108+63,2+40,4+40 = 827,5 M€ ≈ 10,7 % du CIR national (~7,7 Md€) | ~827,5 M€ | calcul (SRC-03, SRC-14) | ⁂ calcul |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_22-42_cir-taux-retour-effet-aubaine | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

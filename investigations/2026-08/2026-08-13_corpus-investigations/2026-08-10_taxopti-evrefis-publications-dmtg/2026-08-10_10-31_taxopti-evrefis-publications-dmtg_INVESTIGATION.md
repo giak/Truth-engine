@@ -33,6 +33,18 @@ Relier les projets CSS **TAXOPTI** (PSE, « Taxation optimale du capital et de l
 | FCT-007 | Les publications France Stratégie (n° 3-4) n'ont **aucun lien documenté** avec TAXOPTI ni EVREFIS : elles traitent de carrières et d'inégalité des chances (sources probables DADS/Enquête Emploi), la fiche DMTG les liste sans projet associé | CONFIRMÉ (constat d'absence de lien) | fiche source DMTG + fiches 454/455 |
 | FCT-008 | Ni les fiches CASD, ni les listes CSS (nov. 2025, avr. 2026), ni le référentiel ne publient la cartographie « publication ↔ projet » : **la traçabilité des travaux issus de la donnée successorale habilitée n'est pas publique** | CONFIRMÉ (constat d'absence) | fiches CASD + listes CSS |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_10-31_taxopti-evrefis-publications-dmtg | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_10-31_taxopti-evrefis-publications-dmtg | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_10-31_taxopti-evrefis-publications-dmtg | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_10-31_taxopti-evrefis-publications-dmtg | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_10-31_taxopti-evrefis-publications-dmtg | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_10-31_taxopti-evrefis-publications-dmtg | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_10-31_taxopti-evrefis-publications-dmtg | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_10-31_taxopti-evrefis-publications-dmtg | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## VERDICT
 
 Le croisement documente un **faisceau à deux maillons**, sans lien déclaré nulle part :

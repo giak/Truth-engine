@@ -200,6 +200,26 @@ Hypothèse : 3 × (88,2 à 267,5 M€) + 355,7 M€ = 620,3 M€ à 1 158,2 M€
 | FCT-012 | Projection conditionnelle (extrapolation, ⁂) : si les 3 banques restantes concluaient des CJIP de 88,2 à 267,5 M€ chacune, le total passerait à 620 M€ - 1 158 M€ (355,7 + 3×88,2 à 3×267,5) | 0,62-1,16 Md€ | calcul annexe (SRC-02/01) | ⁂ |
 | FCT-013 | Ratio récupération/estimation : 355,7 M€ / 33 Md€ ≈ 1,1 % ; avec 4,5 Md€ de redressements engagés : < 15 % de l'estimation académique (calcul, périmètres différents) | 1,1 % | calcul (parent FCT-005/007) | ⁂ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_14-46_cjip-cumcum-banques | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

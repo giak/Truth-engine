@@ -154,6 +154,37 @@ EVIDENCE_LIMITS: Texte intégral de l'arrêt CE non encore récupéré. Comptes 
 | FCT-004 | Le 12 février 2016, Benoît Vallet (DGS) rejette formellement la demande de vaccin DTP seul | 12 Fév 2016 | DGS | — | SRC-001 (VIDAL, §7) | URL SRC-001 | ◈ ✦ |
 | FCT-005 | 2 265 personnes saisissent le Conseil d'État suite au rejet implicite du ministère | 2015-2016 | Citoyens | 2 265 | SRC-001 (VIDAL, §6) | URL SRC-001 | ◉ ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-026 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+FCT-027 | FACT | ❧ | - | - | - | 2026-08-12_06-00_buzyn-vaccination-obligatoire | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### Bloc 2 : L'injonction du Conseil d'État et le piège juridique
 
 | # | Fait | Date | Acteur | Chiffre | Source | URL | Fiabilité |

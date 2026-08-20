@@ -92,6 +92,18 @@ Le coût de la BNDP (conception, maintenance) **n'est pas documenté dans les so
 | FCT-007 | **Coût de la BNDP : non documenté** — aucune ligne au PAP 156 (dossier 07-33), aucun chiffre CdC/Sénat ; le coût de l'exploitation statistique, lui, est chiffré à « quelques dizaines de millions d'euros » (CPO) avec 0,5 ETP au DESF | absence | Sénat 760 ; PAP 156 | ✦ (constat d'absence) |
 | FCT-008 | Modification du traitement BNDP (~2021) : données traitées et durée de conservation (texte modificatif non relu — Légifrance bloqué) | ~2021 | Brève LexisNexis | ✧ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_07-46_bndp-acces-exceptionnel | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_07-46_bndp-acces-exceptionnel | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_07-46_bndp-acces-exceptionnel | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_07-46_bndp-acces-exceptionnel | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_07-46_bndp-acces-exceptionnel | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_07-46_bndp-acces-exceptionnel | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_07-46_bndp-acces-exceptionnel | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_07-46_bndp-acces-exceptionnel | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 6. LIMITES
 
 1. **Légifrance inaccessible en session (Cloudflare)** : le texte intégral de l'arrêté du 11/04/2005 et de sa modification n'a pas été relu à la source primaire — le contenu (FCT-001/002/008) repose sur la brève LexisNexis (source secondaire spécialisée, fiable mais non primaire).

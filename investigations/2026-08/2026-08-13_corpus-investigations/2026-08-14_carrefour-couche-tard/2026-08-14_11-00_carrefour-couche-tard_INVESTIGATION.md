@@ -82,6 +82,24 @@ Le 12/01/2021 (soir), l'agence Bloomberg révèle l'approche amicale du groupe c
 | FCT-013 | Couche-Tard fustige ensuite « les politiques français » (05/02/2021) et maintient son intérêt pour des partenariats | 05/02/2021 | SRC-09 BFM 05/02/2021 | ✦ |
 | FCT-014 | Aucune procédure de blocage formelle complète n'a été nécessaire : la déclaration politique a suffi à dissuader l'acquéreur | — | SRC-04 Le Club des Juristes | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-14_11-00_carrefour-couche-tard | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 5. CLAIM_REGISTRY
 
 | ID | Claim | Support | Contre-évidence | Statut |

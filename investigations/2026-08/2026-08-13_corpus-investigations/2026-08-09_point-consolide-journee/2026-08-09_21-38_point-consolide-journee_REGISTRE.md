@@ -259,3 +259,13 @@ Rapport annuel EPPO 2024 (publié 03/03/2025) : **2 666 enquêtes actives UE fin
 
 - MEM-PTS-001 : statut CONFIRME — Point consolidé de la journée 2026-08-09 (21:38) : 24 dossiers + HYPER_MATRICE, 12 actionnables B exécutés, 13 résidus suspects (33 %) sur 39 trous. Réponse à « les trous noirs sont-ils suspects ? » : NON pour 67 % (expliqués/déclarés), OUI pour 13 points nommés — convergence documentée sans preuve de coordination ni d'intention. La thèse « corruption systémique internalisée » = inférence à partir de faits réels, non établie. 5 faisceaux agrégés (pantouflage des décideurs de cession, écarts de cession, opacité structurelle des mandats, arbitraire de la répression, procédures en cours). ICEBERG MAX : 10 angles non explorés (dont UE, bénéficiaires, avenants, gré à gré 170 Md€), 7 lièvres, 5 anguilles, 3 loups.
 - MEM-PTS-002 (STATUT CONFIRME, mis à jour 21:50) : **Angle UE résolu** — la France n'est pas « bonne élève » : (1) CPI 71/100 (2023, 20e) → 67/100 (2024, 25e, « chute sans précédent », dix rangs derrière l'Allemagne) → ~66-67 (2025, 27e) ; (2) Eurobaromètre 548 (07/2024) : 82 % des Français perçoivent la corruption dans les institutions publiques nationales (UE : 71 %) ; (3) GRECO 4e cycle (addendum 30/01/2024) : 2/11 recommandations non mises en œuvre ; (4) **GRECO 5e cycle : addendum public 11/12/2025 — non-conformité déclarée, article 32 révisé §2(i) activé, lettre du SG du Conseil de l'Europe au MAE français, rapport exigé avant 30/11/2026** (PDF lu, 94 753 octets : CJR non réformée, contrôle des conseillers ministériels limité au secteur privé, déports des cabinets non publics) ; (5) Commission état de droit 2024-2025 : recommandations lobbying, décret 2025-733, PNF 771 affaires ; (6) EPPO 2024 : 114 enquêtes actives France (49 transfrontalières), ~4 % du total UE (2 666). Verdict : réputation de bonne élève (CPI médian UE) vs perception citoyenne dégradée et contrôle préventif déclaré non conforme — le faisceau national (HATVP sans sanction, opacité des mandats, pantouflage) et le faisceau européen convergent sans preuve de coordination.
+
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_21-38_point-consolide-journee | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_21-38_point-consolide-journee | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_21-38_point-consolide-journee | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_21-38_point-consolide-journee | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_21-38_point-consolide-journee | - | -
+FCT-086 | FACT | ❧ | - | - | - | 2026-08-09_21-38_point-consolide-journee | - | -
+<!-- /FACT_REGISTRY_V1 -->

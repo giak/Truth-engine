@@ -53,6 +53,21 @@ LIEN         : dossier 2026-08-10_09-15_casd-referentiel-dmtg-bndp (GAP 2 : séa
 | FCT-009 | **TELPARE est l'utilisateur académique le plus récent de la source DMTG** (PSE, jusqu'en 2030) — il documente un usage scientifique actuel de l'échantillon 2010 (modélisation de la transmission intergénérationnelle des inégalités) | usage actuel | Excel + PDF (lus) | CONFIRMÉ |
 | FCT-010 | La liste des projets habilités est **le seul document public permettant de tracer les accès CSS** — avec 1 169 lignes (Excel 251106) ; elle liste projets, porteurs, dates de fin d'habilitation et sources | liste publique | Excel 251106 (lu) | CONFIRMÉ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_09-19_css-projets-dmtg-dutreil | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. PELOTE
 
 ```

@@ -282,6 +282,43 @@ Les deux perspectives sont factuellement incomplètes :
 | F019 | Dupont-Aignan : 4,7 % (2017), 2,06 % (2022), battu législatives 2024 | https://www.resultats-elections.interieur.gouv.fr | T1 | ✦ |
 | F020 | Génération Frexit (2020) : cadres UPR partis, critique de la mainmise d'Asselineau | https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9ration_Frexit | T2 | ✧ |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-015 | FACT | ⁅ | https://fr.wikipedia.org/wiki/Les_Patriotes_(parti_politique | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-016 | FACT | ⁅ | https://www.lalettre.fr | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-017 | FACT | ⁅ | https://www.intelligenceonline.fr | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-019 | FACT | ⁅ | https://www.economie.gouv.fr/particuliers/reduction-impot-dons-parti-politique | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-020 | FACT | ⁅ | https://www.lexpress.fr/politique/2026 | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-021 | FACT | ⁅ | https://www.bfmtv.com | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-022 | FACT | ⁅ | https://www.facebook.com/francoisasselineau | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-023 | FACT | ⁅ | https://www.upr.fr | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-024 | FACT | ⁅ | https://www.resultats-elections.interieur.gouv.fr | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-025 | FACT | ⁅ | https://www.lemonde.fr/politique/article/2025/09/17/ | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-026 | FACT | ⁅ | https://www.francetvinfo.fr | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-027 | FACT | ⁅ | https://www.liberation.fr | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-028 | FACT | ⁅ | https://www.leparisien.fr | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-029 | FACT | ⁅ | https://www.europarl.europa.eu | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-030 | FACT | ⁅ | https://fr.wikipedia.org/wiki/Philippe_de_Villiers | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-031 | FACT | ⁅ | https://www.vie-publique.fr | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-032 | FACT | ⁅ | https://www.vie-publique.fr | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-033 | FACT | ⁅ | https://www.resultats-elections.interieur.gouv.fr | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+FCT-034 | FACT | ⁅ | https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9ration_Frexit | - | - | 2026-08-04_09-25_souverainistes_opposition_controlee | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 **Scoring :** ✦ 15 | ✧ 3 | ❧ 2 | ⁅ 0 → Fiabilité : ÉLEVÉE (15/20 sources primaires, 2 auto-déclarations marquées).
 
 ---

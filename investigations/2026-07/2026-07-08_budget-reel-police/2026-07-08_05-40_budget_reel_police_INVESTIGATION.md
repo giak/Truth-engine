@@ -222,6 +222,29 @@ WOLF_PRIVATE:
 | F19 | Budget écosystème estimé : ~36,6 Md€ (incluant privé) | Calcul Truth Engine | ⁅ |
 | F20 | Aucun document officiel unique ne consolide l'ensemble | Constat d'absence | ✦ |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-07-08_05-40_budget_reel_police | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### KNOWLEDGE_STATE
 
 **KNOWN (✦)** : Mission Sécurités, ventilation Programme 129, fonds spéciaux exécution 2024, activité GIC/CNCTR, absence de dépenses fiscales sécurité privée.

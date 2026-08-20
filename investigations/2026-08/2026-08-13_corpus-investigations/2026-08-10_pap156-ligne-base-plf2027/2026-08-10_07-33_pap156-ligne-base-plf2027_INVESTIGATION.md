@@ -116,6 +116,22 @@ LIEN_CORPUS     : Dossiers 07-18, 07-26, 23-25 (base-donnees-successions-eenregi
 | FCT-011 | performance-publique.budget.gouv.fr **injoignable au 10/08/2026** (échec DNS via jina) ; budget.gouv.fr file-download protégé par Incapsula ; **route AN = seule route fiabilisée en session** pour les PAP | — | constat technique | ✦ |
 | FCT-012 | PILAT et PAYSAGE **sans tableau de coût** dans le PAP (contrairement à la facturation électronique) : leur financement n'est pas public au niveau programme | absence | PAP 2026 (section grands projets) | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-10_07-33_pap156-ligne-base-plf2027 | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CONTRADICTIONS
 
 | ID | Contradiction | Résolution |

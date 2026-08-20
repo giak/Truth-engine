@@ -328,6 +328,29 @@ WOLF_INTERNATIONAL:
 | F19 | Tirs mortels hausse post-2017 | Recherche universitaire | ✧ |
 | F20 | France ratio police/habitant > médiane européenne | CEPEJ | ✦ |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### KNOWLEDGE_STATE
 
 **KNOWN (✦)** : Budget forces ordre, ratio police/justice, lois accumulées, cas judiciaires documentés, existence complexe militaro-industriel, doctrine Trinquier historique, hégémonie syndicale.

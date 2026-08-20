@@ -62,6 +62,22 @@ TOTAL : 78/90 (seuil 60/90 atteint)
 | FCT-011 | Le transfert des compétences de la commission à la HATVP (01/02/2020, loi 2019-828) implique que les avis rendus à partir de 2020 relèvent du registre des délibérations HATVP (public, cf. dossier 17-34) — pas des Archives nationales | ◈ (dérivé des dossiers 17-02/17-34) | SRC-04 |
 | FCT-012 | Bilan du trou central 2014-2019 : **résolu en tant que trou structurel à 3 couches** — (1) non versé aux AN dans l'état actuel du catalogue (versement s'arrête 2011) ; (2) s'il existait, non communicable avant ~2064-2069 (50 ans, avis nominatifs) sauf dérogation ; (3) les dossiers 2012-2019 sont probablement restés à la DGAFP puis transférés à la HATVP (01/02/2020) — statut de conservation des dossiers 2012-2019 non documenté publiquement | ✧ (dérivé, hypothèse de conservation à vérifier) | SRC-01..04 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_17-48_archives-nationales-commission-deontologie | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. SOURCES
 
 | ID | Référence | Mode |

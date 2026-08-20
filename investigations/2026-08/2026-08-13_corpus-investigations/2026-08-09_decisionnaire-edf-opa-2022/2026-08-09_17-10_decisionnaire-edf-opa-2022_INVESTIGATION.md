@@ -78,6 +78,27 @@ Légende statuts : ◈ confirmé (source lue en session ou source officielle rec
 | FCT-015 | Valenty : successeur de Vincent au secteur Énergie, arrêté du 29/09/2022 (corrige le 16-06 : « octobre 2022 » précisé en 30/09/2022) | — | 29/09/2022 | ◈ (Légifrance JORFTEXT000046343990) | SRC-02 |
 | FCT-016 | Bilan croisement complété (dossier 16-37, FCT-018) : Toulouse = Lepage → privé (FBF) ; FDJ = Sarrazin → public ; EDF = Vincent → privé (Renault) — 2 privés / 1 public | — | 2015-2026 | ◈ (synthèse) | SRC-01..06 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_17-10_decisionnaire-edf-opa-2022 | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CLAIM_REGISTRY
 
 | ID | Claim | Statut | Justification |

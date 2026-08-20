@@ -56,6 +56,22 @@ LIEN         : dossier 2026-08-10_09-19_css-projets-dmtg-dutreil (RECOMMANDATION
 | FCT-011 | **Répartition des 8 projets** : 7 académiques (PSE × 3 : TELPARE/DEPUBMO/TAXOPTI ; IPP : EVREFIS ; Sciences Po : COMPOME ; AMSE : COMPREP ; Avignon : MULFONC) + 1 institutionnel (Départements Data) — les 3 projets PSE concentrent près de la moitié des usages académiques de DMTG (3/7 ≈ 43 %) ; les échéances vont du 29/04/2026 (COMPOME) au 07/10/2031 (Départements Data) | 7 académiques / 8 | PDF 260402 (corrélation complète) | CONFIRMÉ |
 | FCT-012 | **Aucune autre source successorale dans le PDF** : les seules occurrences « succession » hors DMTG sont « successions de cultures » (BECREAT, agriculture) et « phytosanitaires, de successions » (contexte agricole) — la DMTG est la SEULE source successorale du référentiel CSS | 0 autre | PDF 260402 l. 1498, 17324 (lues) | CONFIRMÉ (constat d'absence) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-10_09-31_correlation-8-projets-dmtg | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. PELOTE
 
 ```

@@ -89,6 +89,26 @@ Atos, champion informatique français, a annoncé en **juin 2022** sa scission e
 | FCT-015 | Cadre IEF consolidé : décret n° 2026-718 du 30/07/2026 (JO 02/08/2026), seuil de 10 % des droits de vote pour les investisseurs extra-européens dans les sociétés françaises cotées de secteurs sensibles | 10 % | SRC-14 Légifrance JORFTEXT000054596119 (déjà référencé corpus grille-ief) | ✦ |
 | FCT-016 | Les supercalculateurs Bull/Atos sont utilisés pour la dissuasion nucléaire (CEA) : enjeu de souveraineté documenté à l'appui du rachat par l'État | — | SRC-09 Sénat r23-568 ; SRC-12 Bercy | ✧ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-14_10-00_atos-demantelement | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 5. CLAIM_REGISTRY
 
 | ID | Claim | Support | Contre-évidence | Statut |

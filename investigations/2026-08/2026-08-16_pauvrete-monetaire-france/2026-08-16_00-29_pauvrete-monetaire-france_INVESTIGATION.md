@@ -60,11 +60,11 @@ illisible. Non compté comme source (EXCERPT_OK impossible).
 
 ```
 <!-- FACT_REGISTRY_V1 -->
-FCT-001 | FACT | ✧ | https://www.insee.fr/fr/statistiques/8600989 | A | 2025-07-07 | pauvrete-taux-60-2023 | 15.4
-FCT-002 | FACT | ✧ | https://www.insee.fr/fr/statistiques/8600989 | A | 2025-07-07 | pauvrete-seuil-60-euros-2023 | 1288
-FCT-003 | FACT | ✧ | https://www.insee.fr/fr/statistiques/8600989 | A | 2025-07-07 | pauvrete-nb-pauvres-millions-2023 | 9.8
-FCT-004 | FACT | ✧ | https://www.inegalites.fr/A-quels-niveaux-se-situent-les-seuils-de-pauvrete-en-France | D | 2025-07-09 | pauvrete-seuil-60-euros-2024 | 1337
-FCT-005 | FACT | ✧ | https://www.insee.fr/fr/statistiques/8600989 | A | 2025-07-07 | niveau-vie-median-euros-2023 | 25760
+FCT-001 | FACT | ✧ | https://www.insee.fr/fr/statistiques/8600989 | A | 2025-07-07 | pauvrete-taux-60-2023 | 15.4 | 452c2c9e-0dbd-40bd-9dfa-495f626453c6
+FCT-002 | FACT | ✧ | https://www.insee.fr/fr/statistiques/8600989 | A | 2025-07-07 | pauvrete-seuil-60-euros-2023 | 1288 | 452c2c9e-0dbd-40bd-9dfa-495f626453c6
+FCT-003 | FACT | ✧ | https://www.insee.fr/fr/statistiques/8600989 | A | 2025-07-07 | pauvrete-nb-pauvres-millions-2023 | 9.8 | 452c2c9e-0dbd-40bd-9dfa-495f626453c6
+FCT-004 | FACT | ✧ | https://www.inegalites.fr/A-quels-niveaux-se-situent-les-seuils-de-pauvrete-en-France | D | 2025-07-09 | pauvrete-seuil-60-euros-2024 | 1337 | 452c2c9e-0dbd-40bd-9dfa-495f626453c6
+FCT-005 | FACT | ✧ | https://www.insee.fr/fr/statistiques/8600989 | A | 2025-07-07 | niveau-vie-median-euros-2023 | 25760 | 452c2c9e-0dbd-40bd-9dfa-495f626453c6
 <!-- /FACT_REGISTRY_V1 -->
 ```
 

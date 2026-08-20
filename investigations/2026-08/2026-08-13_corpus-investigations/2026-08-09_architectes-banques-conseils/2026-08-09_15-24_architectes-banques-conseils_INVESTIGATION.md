@@ -84,6 +84,35 @@ Légende statuts : ◈ confirmé (source primaire lue) · ✧ probable (source s
 | FCT-024 | Commissions Rothschild dans la vente Alstom/GE (côté Alstom) | 12 M€ | 2014-2018 | ◈ | SRC-01 |
 | FCT-025 | Aucune mise en examen publique ni jugement au fond sur la vente Alstom/GE à date | — | 2026 | ✦ (état au 09/08/2026) | SRC-03 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-08-09_15-24_architectes-banques-conseils | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CLAIM_REGISTRY
 
 | ID | Claim | Statut | Justification |

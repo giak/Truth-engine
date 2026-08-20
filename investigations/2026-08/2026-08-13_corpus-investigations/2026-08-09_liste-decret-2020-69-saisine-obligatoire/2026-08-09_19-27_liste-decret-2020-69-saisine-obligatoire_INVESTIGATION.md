@@ -62,6 +62,23 @@ TOTAL : 79/90 (seuil 60/90 atteint)
 | FCT-009 | La version consolidée actuelle de la liste (art. 2 tel que modifié par décret 2024-1038, en vigueur 01/02/2025) renvoie aux articles R. 123-15, R. 124-29 et R. 124-38 du CGFP — **non applicable au cas 2022** mais confirme la structure : la saisine obligatoire couvre les emplois soumis à déclaration d'intérêts et les emplois à la décision du Gouvernement (R. 124-29 lu via Pappers, version 2025) | ◈ | SRC-01 |
 | FCT-010 | Le RA-2022 HATVP (dossier 17-34, FCT-010) documente un agent APE « chargé du suivi des participations » dont la reconversion vers un concurrent étranger a été **bloquée** en 2022 — cohérent avec l'appartenance des emplois APE à la liste (FCT-007) : la HATVP a bien contrôlé des agents APE de suivi des participations | ◈ (recoupé avec 17-34) | SRC-05 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_19-27_liste-decret-2020-69-saisine-obligatoire | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. SOURCES
 
 | ID | Référence | Mode |

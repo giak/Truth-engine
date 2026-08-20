@@ -845,6 +845,71 @@ Si le cadrage 🔥⟐̅ prévaut :
 | 39 | @MNEMO_S | @MNEMO_S[France-tomber-si-bas 14-juillet-vérouillage-canon-2026-07-12] | MNEMOLITE-unavailable-session-courant-$ | — | (logs-cumulés) |
 | 40 | @WRITE | @WRITE[investigations/2026-07/.../2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage_INVESTIGATION.md] | ✓ saved present file | — | — |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-006 | FACT | ⁅ | https://www.bfmtv.com/economie/entreprises/defense/pour-montrer-le-reveil-strategique-europeen-500-soldats-etrangers-ouvriront-le-defile-du-14-juillet-et-il-y-aura-aussi-des-aeronefs-dotes-d-armements-fictifs_AD-202607090381.html | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-007 | FACT | ⁅ | https://www.conseil-constitutionnel.fr/la-constitution-de-la-cinquieme-republique | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-008 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018541947 | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-009 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000030889657 | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-010 | FACT | ⁅ | https://www.sciencespo.fr/cevipof/fr/content/les-francais-et-la-democratie-10e-edition | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-011 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043411881 | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-012 | FACT | ⁅ | https://www.bce.int | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-013 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000047814079 | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-014 | FACT | ⁅ | https://www.sgdsn.gouv.fr/files/files/Publications/20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Technical%20report_Storm-1516.pdf | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-015 | FACT | ⁅ | https://www.sgdsn.gouv.fr/files/files/Publications/20260206_NP_TLP-CLEAR_SGDSN_VIGINUM_Fiche-Technique-Storm-1516_0.pdf | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-016 | FACT | ⁅ | https://www.bfmtv.com/societe/soldats-ukrainiens-hymne-europeens-le-gouverneur-militaire-de-paris-dement-plusieurs-rumeurs-sur-le-defile-du-14-juillet_AN-202606180404.html | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-021 | FACT | ⁅ | https://www.facebook.com/prefecturedepolice/posts/14juillet-les-pr%C3%A9-inscriptions-pour-assister-au-d%C3%A9fil%C3%A9-du-14-juillet-sur-les-cha/1451856293637463/ | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-022 | FACT | ⁅ | https://www.bfmtv.com/economie/entreprises/defense/pour-montrer-le-reveil-strategique-europeen-500-soldats-etrangers-ouvriront-le-defile-du-14-juillet-et-il-y-aura-aussi-des-aeronefs-dotes-d-armements-fictifs_AD-202607090381.html | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-023 | FACT | ⁅ | https://france3-regions.franceinfo.fr/paris-ile-de-france/comment-assister-au-defile-du-14-juillet-sur-les-champs-elysees-a-paris-inscription-en-ligne-et-qr-code-obligatoires-3384124.html | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-026 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-027 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-028 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-029 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-030 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-031 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-032 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-033 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-034 | FACT | ⁅ | https://www.sgdsn.gouv.fr/files/files/Publications/20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Technical%20report_Storm-1516.pdf | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-035 | FACT | ⁅ | https://www.sgdsn.gouv.fr/files/files/Publications/20260206_NP_TLP-CLEAR_SGDSN_VIGINUM_Fiche-Technique-Storm-1516_0.pdf | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-036 | FACT | ⁅ | https://observers.france24.com/fr/desinformation-russe-un-faux-reportage-accuse-zelensky-d-avoir-achete-un-hotel-a-courchevel | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-037 | FACT | ⁅ | https://www.bfmtv.com/economie/entreprises/defense/pour-montrer-le-reveil-strategique-europeen-500-soldats-etrangers-ouvriront-le-defile-du-14-juillet-et-il-y-aura-aussi-des-aeronefs-dotes-d-armements-fictifs_AD-202607090381.html | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-038 | FACT | ⁅ | https://france3-regions.franceinfo.fr/paris-ile-de-france/comment-assister-au-defile-du-14-juillet-sur-les-champs-elysees-a-paris-inscription-en-ligne-et-qr-code-obligatoires-3384124.html | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-039 | FACT | ⁅ | https://www.facebook.com/prefecturedepolice/posts/14juillet-les-pr%C3%A9-inscriptions-pour-assister-au-d%C3%A9fil%C3%A9-du-14-juillet-sur-les-cha/1451856293637463/ | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-040 | FACT | ⁅ | https://www.politico.eu/article/ukraine-emmanuel-macron-invites-coalition-of-the-willing-attend-bastille-day/ | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-041 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043411881 | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-042 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000030889657 | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-043 | FACT | ⁅ | https://www.conseil-constitutionnel.fr/la-constitution-de-la-cinquieme-republique | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-044 | FACT | ⁅ | https://www.bce.int | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-045 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033938834 | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-046 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000047814079 | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-047 | FACT | ⁅ | https://www.ifop.com | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-048 | FACT | ⁅ | https://www.sciencespo.fr/cevipof/fr/content/les-francais-et-la-democratie-10e-edition | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-049 | FACT | ⁅ | https://www.lobbyingtransparency.eu | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-050 | FACT | ⁅ | https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Core77.pdf | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-051 | FACT | ⁅ | https://digital-strategy.ec.europa.eu | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-052 | FACT | ⁅ | https://www.ohchr.org/en/countries/ukraine | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-053 | FACT | ⁅ | https://www.bbc.com | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-054 | FACT | ⁅ | https://www.bellingcat.com | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-055 | FACT | ⁅ | https://www.bellingcat.com | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-056 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033938834 | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-057 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018541947 | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-058 | FACT | ⁅ | https://www.bfmtv.com/economie/entreprises/defense/pour-montrer-le-reveil-strategique-europeen-500-soldats-etrangers-ouvriront-le-defile-du-14-juillet-et-il-y-aura-aussi-des-aeronefs-dotes-d-armements-fictifs_AD-202607090381.html | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-059 | FACT | ⁅ | https://france3-regions.franceinfo.fr/paris-ile-de-france/comment-assister-au-defile-du-14-juillet-sur-les-champs-elysees-a-paris-inscription-en-ligne-et-qr-code-obligatoires-3384124.html | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-060 | FACT | ⁅ | https://www.sgdsn.gouv.fr/files/files/Publications/20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Technical%20report_Storm-1516.pdf | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-061 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+FCT-062 | FACT | ❧ | - | - | - | 2026-07-12_20-00_France-tomber-si-bas-anatomie-forensique-verrouillage | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 **TOTAL REQUÊTES = 40 ≋ 35+ APEX-CONFORME.** (40 ≋ 35 ≋ ≋+ ≋)
 
 ---

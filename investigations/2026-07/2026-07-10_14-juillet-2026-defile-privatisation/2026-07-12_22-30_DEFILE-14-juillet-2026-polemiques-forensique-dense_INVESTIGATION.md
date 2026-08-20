@@ -166,6 +166,28 @@
 | E13 | 2026-07-14 | 14-juillet-2026-CEREMONIE-PRINCIPALE-DEFILE-CHAMPS-ELYSÉES | [ÉVÉNEMENT-À-ADVENIR-au-2026-07-12-2-jours-avant] |
 | E14 | 2026-07-15+ | VIGINUM-publication-publique-probable-Storm-1516-14-juillet-2026 | https://www.sgdsn.gouv.fr ◉ [PROBABLE-délai-typique-4-8-semaines-post-épisode] |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-006 | FACT | ⁅ | https://www.britannica.com/event/French-Revolution | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-007 | FACT | ⁅ | https://www.conseil-constitutionnel.fr/la-constitution-de-la-cinquieme-republique | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-008 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000030889657 | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-009 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043411881 | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-010 | FACT | ⁅ | https://www.legifrance.gouv.fr/loda/id/JORFTEXT000047814079 | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-011 | FACT | ⁅ | https://www.sgdsn.gouv.fr/files/files/Publications/20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Technical%20report_Storm-1516.pdf | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-012 | FACT | ⁅ | https://www.sgdsn.gouv.fr/files/files/Publications/20260206_NP_TLP-CLEAR_SGDSN_VIGINUM_Fiche-Technique-Storm-1516_0.pdf | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-013 | FACT | ⁅ | https://www.bfmtv.com/societe/soldats-ukrainiens-hymne-europeens-le-gouverneur-militaire-de-paris-dement-plusieurs-rumeurs-sur-le-defile-du-14-juillet_AN-202606180404.html | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-014 | FACT | ⁅ | https://www.bfmtv.com/economie/entreprises/defense/pour-montrer-le-reveil-strategique-europen-500-soldats-etrangers-ouvriront-le-defile-du-14-juillet-et-il-y-aura-aussi-des-aeronefs-dotes-d-armements-fictifs_AD-202607090381.html | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-015 | FACT | ⁅ | https://www.facebook.com/prefecturedepolice/posts/14juillet-les-pr%C3%A9-inscriptions-pour-assister-au-d%C3%A9fil%C3%A9-du-14-juillet-sur-les-cha/1451856293637463/ | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-016 | FACT | ⁅ | https://france3-regions.franceinfo.fr/paris-ile-de-france/comment-assister-au-defile-du-14-juillet-sur-les-champs-elysees-a-paris-inscription-en-ligne-et-qr-code-obligatoires-3384124.html | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+FCT-019 | FACT | ⁅ | https://www.sgdsn.gouv.fr | - | - | 2026-07-12_22-30_DEFILE-14-juillet-2026-polemiques-forensique-dense | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 **Total : 14 events chronologiques (APEX ≥10 ≋+).**
 
 ---

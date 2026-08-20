@@ -54,6 +54,21 @@ LIEN         : bilan 2026-08-10_08-08_bilan-connaissance-patrimoniale (GAP-001)
 | FCT-010 | **La réponse ne chiffre PAS le coût du module statistique e-enregistrement** (« quelques dizaines de M€ » du CPO = seul chiffrage identifié à date dans les documents accessibles — GAP-001 partiellement ouvert) | CONSTAT D'ABSENCE | SRC-001 |
 | FCT-011 | Tension documentée : Bercy affirme l'enrichissement « en cours » (réponse 10/03/2026) mais le Sénat 760 (publié 17/06/2026, constat issu de son enquête antérieure) relève le module statistique non financé (0,5 ETP) — recouvrement temporel des deux constats non précisé | CONSTAT (croisement corpus) | SRC-001, SRC-003 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_08-46_qe11677-bndp-eenregistrement | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. PELOTE
 
 ```

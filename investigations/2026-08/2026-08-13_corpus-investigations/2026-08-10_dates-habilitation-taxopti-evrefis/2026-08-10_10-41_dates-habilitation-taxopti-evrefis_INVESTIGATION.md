@@ -34,6 +34,20 @@ Dater le début d'habilitation des projets CSS **TAXOPTI** (PSE) et **EVREFIS** 
 | FCT-009 | La fin 2021-08-07 de TAXOPTI est **incohérente avec une habilitation initiale de 6 ans en vigueur depuis déc. 2016** (début = 08/2015, antérieur à la règle des 6 ans ; le CSS existe depuis 2009, décret n° 2009-318, la loi République numérique du 07/10/2016 a réformé le régime et la FAQ date la règle des 6 ans de déc. 2016, avant : 3 ans) : soit durée adaptée au projet (le CSS fixe la durée des travaux), soit prolongation antérieure non documentée — **début exact indéterminable** | CONFIRMÉ (déduction bornée) | FAQ CSS (6 ans depuis 12/2016) + dates listes |
 | FCT-010 | Les publications WID.world 2016-2017 (BdF WP 636 06/2017, WID WP 2017/4 12/2016) **précèdent la première trace documentée de TAXOPTI (08/2020) et très probablement l'habilitation elle-même** : leur attribution à TAXOPTI n'est pas étayable | CONFIRMÉ (faisceau) | fiches CASD 108/109 + FCT-002 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_10-41_dates-habilitation-taxopti-evrefis | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_10-41_dates-habilitation-taxopti-evrefis | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_10-41_dates-habilitation-taxopti-evrefis | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_10-41_dates-habilitation-taxopti-evrefis | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_10-41_dates-habilitation-taxopti-evrefis | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_10-41_dates-habilitation-taxopti-evrefis | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_10-41_dates-habilitation-taxopti-evrefis | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_10-41_dates-habilitation-taxopti-evrefis | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_10-41_dates-habilitation-taxopti-evrefis | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_10-41_dates-habilitation-taxopti-evrefis | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## VERDICT
 
 Le GAP 2 aboutit à un double résultat :

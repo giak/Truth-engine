@@ -66,6 +66,26 @@ TOTAL : 76/90 (seuil 60/90 atteint)
 | FCT-015 | Synthèse : **aucune trace publique de contrôle HATVP pour le départ Vincent** — mais le poste était DANS la liste de saisine obligatoire (FCT-014 levé, dossier 19-27) → l'hypothèse **(a) « emploi hors liste → contrôle interne » est RÉFUTÉE** ; restent 2 hypothèses non exclusives : (b) avis rendu en 2022 mais non publié (publication sélective, FCT-012 : 3-5 résumés pour 318 avis) ; (c) défaut de saisine (documenté comme fréquent : ~20 cas 2021, ~40 cas 2022, 4 transmissions au parquet, FCT-008/FCT-011) — indistinguables par les sources publiques | ✧ (dérivé, affiné 09/08/2026 19:27) | SRC-01..07 |
 | FCT-016 | Renault étant hors du portefeuille supervisé par Vincent (secteur Énergie : EDF, Orano), le risque pénal art. 432-13 (supervision de l'entreprise visée dans les 3 ans) était structurellement faible pour ce départ — cohérent avec un avis de compatibilité simple (sans réserves lourdes) s'il y en eut un | ✧ (dérivé) | SRC-05 + SRC-04 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_17-34_avis-hatvp-vincent-renault | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. SOURCES
 
 | ID | Référence | Mode |

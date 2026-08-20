@@ -185,6 +185,25 @@ Verdict : **légèrement favorable** (score 5/9). Le transcript est un plaidoyer
 | FCT-014 | Réponse « estimez-vous chanceux » | non vérifiée | corpus (déclaré) ; France3 26/09/2025 lu : ABSENTE | ❧ |
 | FCT-015 | 10 maires TA (Paris, Dijon…) | ✔ | corpus, site TC | ✧ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_08-20_transparence-citoyenne-lerois | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 14. VERIFICATION (annexe gates)
 
 - G0 (source) : transcript présent, fiable ✓

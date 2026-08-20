@@ -119,6 +119,19 @@ Le point consolidé final 11-24 a identifié l'Angle 1 comme test décisif daté
 | FCT-005 | Les variables de contrôle sont identifiées : PILAT (P5) et facturation électronique (P6) — si elles progressent pendant que la rec. 7 reste invisible, la non-priorisation est démontrée par contraste | CONFIRMÉ (analyse) | 07-33 + ce dossier |
 | FCT-006 | Le seuil de verdict du fil est explicite : P4 OUI ou P7 OUI = fil brisé ; S3 (aucun signal) = fil confirmé | CONFIRMÉ (critère) | ce dossier |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_11-27_protocole-plf2027-rec7 | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_11-27_protocole-plf2027-rec7 | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_11-27_protocole-plf2027-rec7 | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_11-27_protocole-plf2027-rec7 | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_11-27_protocole-plf2027-rec7 | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_11-27_protocole-plf2027-rec7 | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_11-27_protocole-plf2027-rec7 | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_11-27_protocole-plf2027-rec7 | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_11-27_protocole-plf2027-rec7 | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 7. GAPS / ACTIONS
 
 | ID | Action | Date | Déclencheur |

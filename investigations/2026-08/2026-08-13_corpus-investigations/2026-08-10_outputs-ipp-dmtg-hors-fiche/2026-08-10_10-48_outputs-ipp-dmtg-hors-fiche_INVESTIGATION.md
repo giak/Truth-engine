@@ -29,6 +29,16 @@ Identifier les publications IPP/CREST utilisant l'enquête DMTG **hors de la fic
 | FCT-005 | **Rapport IPP n° 46** « Le plafonnement de l'impôt sur la fortune » (2023) : **non vérifiable en session** — HAL bloqué par Anubis (anti-bot, y compris l'API de fichier), absent de la Wayback des uploads ipp.eu 2023 | CONSTAT (non vérifié) | API HAL (bloqué) + CDX Wayback |
 | FCT-006 | **Cartographie IPP/DMTG** : l'équipe IPP/CREST du champ fiscalité du capital (Bach, Bozio, Guillouzouic-Le Corff, Malgouyres) ne documente qu'**une seule publication utilisant l'échantillon DMTG** : le commentaire AER 2023 — qui figure déjà dans la fiche CASD. **Aucune publication IPP DMTG hors fiche n'a été trouvée** (hors rapport n° 46 non vérifié) | CONFIRMÉ (constat d'absence, borné : rapport 46 non vérifié) | FCT-001 à 005 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_10-48_outputs-ipp-dmtg-hors-fiche | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_10-48_outputs-ipp-dmtg-hors-fiche | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_10-48_outputs-ipp-dmtg-hors-fiche | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_10-48_outputs-ipp-dmtg-hors-fiche | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_10-48_outputs-ipp-dmtg-hors-fiche | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_10-48_outputs-ipp-dmtg-hors-fiche | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## VERDICT
 
 Le GAP 1 aboutit à un **constat d'absence**, qui corrige une surévaluation du screening web :

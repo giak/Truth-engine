@@ -65,6 +65,25 @@ TOTAL : 79/90 (seuil 60/90 atteint)
 | FCT-014 | Le silence médiatique de 5,5 ans (01/2021 → 08/2026) sur une affaire portée par Mediapart est un **signal modéré, non probant**, compatible avec un classement silencieux (Mediapart suit habituellement ses affaires ; l'absence d'article de suivi contraste avec la mise en avant initiale) — sans exclure une enquête dormante sans fuite | ✧ (dérivé — inférence de presse, pas un fait judiciaire) | SRC-01, SRC-03 |
 | FCT-015 | Le C5 du bilan 17-14 (« le seul pantouflage APE passé devant la justice ») est **précisé, non résolu** : l'enquête préliminaire existe (documentée), son issue est inconnue — « passé devant la justice » = enquête préliminaire, pas poursuite pénale avérée | ◈ (synthèse) | SRC-01..09 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_17-40_suite-pnf-azema | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. SOURCES
 
 | ID | Référence | Mode |

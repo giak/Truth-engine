@@ -308,6 +308,27 @@ Fedorova est le point d'intersection des trois pôles — à la fois vecteur d'i
 | 17 | Barrot qualifie Fedorova de « propagandiste patentée » | 2026 | MAE | Déclarations publiques | ✧ |
 | 18 | Campagne Franc-Tireur >1 an contre Fedorova | 2025-2026 | Franc-Tireur | Archives Franc-Tireur | ◈ |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ⁅ | https://www.politico.eu/article/france-expulsion-xenia-fedorova-russia-tv/ | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-002 | FACT | ⁅ | https://lcp.fr/actualites/la-chroniqueuse-xenia-fedorova-visee-par-un-arrete-d-expulsion | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-011 | FACT | ⁅ | https://www.franc-tireur.fr/xenia-fedorova-le-diable-shabille-en-pravda | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-07-30_09-30_expulsion-fedorova-fourest-tweet_APEX | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 **EDI estimé :** geo: 0.55, lang: 0.60 (français + anglais), strat: 0.52 (mix ◈/◉/○), owner: 0.50, persp: 0.45, temp: 0.55
 **EDI raw :** 0.52 | BIAS : -0.15 (○>70% sur les sources étatiques) → **EDI final : 0.37 ACCEPTABLE (limite)**
 

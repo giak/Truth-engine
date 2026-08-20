@@ -216,6 +216,31 @@ Le CumCum est un **évitement de la retenue à la source française sur les divi
 | FCT-018 | CumEx Files (Correctiv, 18/10/2018) : ≥55 Md€ ; CumEx Files 2.0 (21/10/2021) : ≥150 Md€ (2000-2020) ; 12 pays, 180 000 pages, 38 journalistes/19 rédactions | 55→150 Md€ | SRC-18 Correctiv | ✦ |
 | FCT-019 | Revalidation du FCT-038 parent : « impact européen 55-60 Md€ ; France >10 Md€ cumulés » : confirmé et précisé (33 Md€ cumulés Mannheim = borne haute de l'estimation académique) | >10 Md€ | SRC-02 ; parent FCT-038 | ✧ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+FCT-038 | FACT | ❧ | - | - | - | 2026-08-09_14-16_cumcum-cumex-france | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

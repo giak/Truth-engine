@@ -216,6 +216,20 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-009 | **Fragilités constitutionnelles** (Lazard/cabinets) : différence de traitement FR/étranger ; plafonnement + clause de sauvegarde réservés aux participations étrangères (asymétrie) ; caractère confiscatoire potentiel (20 % sans plafond) ; égalité devant les charges publiques ; QPC annoncées (✧) | 4 fragilités | Actu-Juridique (lu) + chercheur (✧) | ✦ + ✧ |
 | FCT-010 | **Objectif et modèle** : mesure anti-abus / discipline fiscale (inciter à la réallocation vers l'économie réelle) ; modèle = Personal Holding Company Tax américaine (rendement historique : **0,0001 % du PIB** pour 20 %) ; échec de la taxe Zucman (2 % patrimoine > 100 M€) et de l'imposition des non-distribués (bloquée par la directive « mère-fille ») | 0,0001 % PIB | Actu-Juridique (lu) + La Tribune (lu) | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_04-07_taxe-holdings-20pct | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_04-07_taxe-holdings-20pct | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_04-07_taxe-holdings-20pct | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_04-07_taxe-holdings-20pct | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_04-07_taxe-holdings-20pct | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_04-07_taxe-holdings-20pct | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_04-07_taxe-holdings-20pct | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_04-07_taxe-holdings-20pct | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_04-07_taxe-holdings-20pct | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_04-07_taxe-holdings-20pct | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

@@ -91,6 +91,28 @@ Les turbines Arabelle (les plus puissantes du monde, 700 MW-1,9 GW, ~moitié du 
 | FCT-017 | Clôture le 31/05/2024 ; Bernard Fontana (président de Framatome) nommé président du conseil d'Arabelle Solutions : intégration au champion nucléaire EDF/Framatome | 31/05/2024 | SRC-17 communiqué EDF 31/05/2024 ; Le Monde 31/05/2024 | ✦ |
 | FCT-018 | La renationalisation intégrale d'EDF (9,7 Md€, 2022-2023) précède le rachat ; arc complet : cession 2014 sans valorisation isolée → dix ans sous ITAR → rachat 2024 par une entreprise publique (prix net ~175-200 M, EV ~1,1 Md$) — pattern « vendre bas, racheter à la décote » documenté, coût consolidé du cycle jamais publié | 9,7 Md€ ; 12,4 Md€ → ~175-200 M net | SRC-18 synthèse FCT-003/FCT-015/FCT-016 (constat composé) | ⚠ (calcul composé, inférence étiquetée) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-14_13-00_arabelle-edf-ge-steam-power | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 5. CLAIM_REGISTRY
 
 | ID | Claim | Support | Contre-évidence | Statut |

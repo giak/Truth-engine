@@ -218,6 +218,36 @@ Il existe un **faisceau convergent de signaux**, mesurable sur quatre registres 
 | FCT-025 | Cour des comptes (16/12/2025) : 650-700 condamnés pour fraude fiscale par an, 44 % de classements | 650-700 | Cour des comptes | ✦ |
 | FCT-026 | 2 500 élus poursuivis 2020-2026, 37 % de condamnations | 2 500 | SMACL | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-026 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### TRACE_MATRIX
 
 | LED/AXS/CLM | SUPPORT_FCT | COUNTER_FCT | FINAL_STATUS |

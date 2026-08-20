@@ -75,6 +75,26 @@ Légende statuts : ◈ confirmé (source lue en session) · ✧ probable (source
 | FCT-015 | 0 sanction HATVP prononcée historiquement (recoupement dossier 0929) | 0 | 2013-2026 | ◈ (corpus) | SRC-08 |
 | FCT-016 | QPC 2024-1120 : censure de la sanction automatique du pantouflage | — | 2024 | ◈ (corpus) | SRC-08 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_16-06_base-hatvp-mobilites | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CLAIM_REGISTRY
 
 | ID | Claim | Statut | Justification |

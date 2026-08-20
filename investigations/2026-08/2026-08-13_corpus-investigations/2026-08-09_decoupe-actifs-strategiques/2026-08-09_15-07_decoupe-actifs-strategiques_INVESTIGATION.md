@@ -225,6 +225,32 @@ Il existe un **faisceau de faits documentés** sur trois registres qu'il faut di
 | FCT-021 | Mécanismes de protection : action spécifique (ord. 2014-948 + décret 2014-949 du 20/08/2014 — la date « 29/08/2014 » évoquée par l'utilisateur est une imprécision, vérifiée à Légifrance) ; IEF (art. L151-3 C. mon. fin.) | — | SRC-05 Légifrance (lu) | ✦ |
 | FCT-022 | Aucun chiffrage global officiel de « sous-évaluation » des privatisations/cessions françaises (Cour des comptes : pas d'écart global unique ; critiques méthodologiques sur autoroutes 2006 et FDJ) ; seul écart documenté : Toulouse +199 M€ | — | SRC-10 ; recherche ciblée | ⁅ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-09_15-07_decoupe-actifs-strategiques | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

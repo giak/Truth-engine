@@ -80,6 +80,28 @@ Légende statuts : ◈ confirmé (source lue en session ou source officielle rec
 | FCT-017 | **CORRIGÉ 09/08/2026 20:53 (dossier 20-53)** : Pierre Jeannin (pas Emmanuel), ingénieur en chef des mines, directeur de participations Industrie depuis 15/02/2023 (arrêté 06/02/2023, JORFTEXT000047106746, lu) ; « Fanny Garcin » **introuvable à l'APE** (constat d'absence) — Transports 2019-2022 : Lepage (→2019) → intérims → Claire Vernet-Garnier (arrêté 28/09/2021, JORFTEXT000044127049, directrice Transports 04/10/2021) → May Gicquel (11/2022-07/2025) | — | 2019-2025 | ◈ (arrêté Jeannin lu) / ✧ (Vernet-Garnier, Gicquel via agent) | SRC-10, SRC-12 |
 | FCT-018 | Bilan croisement : 2 décideurs sectoriels identifiés sur les 3 opérations — Lepage (Toulouse) → PRIVÉ (FBF/ASF) ; Sarrazin (FDJ) → PUBLIC ; EDF → nom non public | — | 2015-2026 | ◈ (synthèse FCT-002..011) | SRC-01..06 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_16-37_croisement-directeurs-cessions | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CLAIM_REGISTRY
 
 | ID | Claim | Statut | Justification |

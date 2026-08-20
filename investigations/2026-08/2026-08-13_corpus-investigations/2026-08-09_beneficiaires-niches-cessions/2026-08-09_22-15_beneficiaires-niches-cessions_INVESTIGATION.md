@@ -203,6 +203,28 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-017 | Demande IPO FDJ : >11 Md€ (dont ~10 Md€ institutionnels, >1,6 Md€ particuliers) ; la moitié des institutionnels non servis ; part particuliers portée de 33 % à 40,4 % ; 500 000 particuliers souscripteurs ; liste nominative des attributaires NON publique (secret des affaires du syndicat de placement) | 11 Md€ ; 40,4 % | SRC-08/09 | ✦ (fait), ✗ (liste) |
 | FCT-018 | Produit de cession FDJ pour l'État : ~1,8 Md€ net (abondement du FII), État conservant 20 % et les recettes fiscales des jeux | ~1,8 Md€ | SRC-08 | ✧ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_22-15_beneficiaires-niches-cessions | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

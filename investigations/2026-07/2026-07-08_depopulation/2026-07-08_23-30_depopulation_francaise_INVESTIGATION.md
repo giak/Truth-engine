@@ -475,6 +475,29 @@ Choc politique : rétablissement de l'universalité des allocations, doublement 
 | 5 | @WEB | réformes allocations familiales France 2015-2025 | ✓ Modulation 2015 | vie-publique.fr |
 | 6 | @READ | substack-online/index.md | ✓ 112 posts | — |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-07-08_23-30_depopulation_francaise | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 **Note MnemoLite :** MnemoLite (outil RAG du projet) non disponible dans cet environnement d'exécution. @MNEMO_Q et @MNEMO_S non exécutés.
 
 **Total :** 5 @WEB, 1 @READ. Toutes les sources vérifiées.

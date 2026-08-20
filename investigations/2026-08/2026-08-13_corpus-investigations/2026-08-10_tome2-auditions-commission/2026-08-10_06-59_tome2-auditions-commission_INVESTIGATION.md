@@ -121,6 +121,26 @@ Le Tome 2 (auditions) transforme le constat du dossier 06-37 : ce n'est pas seul
 | FCT-015 | **Berr (La Boétie)** : suppression du Dutreil (programme NFP) ; coût « a quintuplé... de 1,2 à 5,4 milliards » (CdC) ; « les deux tiers... dus à 110 personnes, lesquelles bénéficient d'une réduction fiscale de **32 millions par personne, pour un avantage fiscal moyen de 500 000 euros** » — **reformulation imprécise : 32 vs 30 M€ (CdC), 500 000 € = moyenne de TOUS les donataires (pas des 110)** ; taxation 100 % au-delà de 12-15 M€ ; héritage moyen des 0,1 % ≈ 13 M€ | 1,2 → 5,4 Md€ ; 32 M€ ; 12-15 M€ ; 13 M€ | Tome 2 p. 730-732 (lu) | ✦ (divergence CONTR-003) |
 | FCT-016 | **Ministres (16/06) et réponse au rapport CdC** : 555 emplois créés au contrôle fiscal 2023-2025 ; « aucune instruction individuelle n'est donnée en matière de contrôle fiscal » (Amiel) ; Lescure : 10 % les plus fortunés = 48 % du patrimoine brut (2024, stable vs 2015) vs 75 % dans le monde ; **la réponse de la ministre contestant les conclusions du rapport CdC sur la fraude est jointe au questionnaire (non publiée dans le rapport)** | 555 ; 48 % ; 75 % | Tome 2 p. 659-680 (lu) | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-10_06-59_tome2-auditions-commission | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 6. LIMITES
 
 - **Lecture ciblée, pas intégrale ligne à ligne** : seule la DGFiP (p. 239-265, quasi-totalité) et la fin des experts-comptables (p. 747-751) sont réellement lues en quasi-intégral ; les autres auditions clés sont lues en **extraits ciblés** (début + passages Dutreil/refus/chiffres) avec **greps systématiques** : CPO/CdC (début, p. 195-198), avocats (2 extraits, p. 358-364), Zucman (début + crédits lombards, p. 408-423), AFFO (p. 517-518), MEDEF (p. 532-535), ministres (3 extraits, p. 659-680) ; les autres auditions (notariat, IACF, OCDE, universitaires, IFRAP, Terra Nova, Piketty, ETI, Oxfam, AMF, Frémeaux, Afep, DLF, Mazin) n'ont été que greppées, pas lues.

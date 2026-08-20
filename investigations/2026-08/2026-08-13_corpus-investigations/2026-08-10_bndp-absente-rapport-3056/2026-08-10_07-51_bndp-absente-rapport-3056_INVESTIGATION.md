@@ -93,6 +93,19 @@ Le corpus ne peut pas trancher entre H1 et H2 — c'est un constat d'absence, pa
 | FCT-008 | **CGPIF (Mazin)** : données clients protégées RGPD, aucune consolidation, la chambre « n'a ni vocation, ni légitimité à les collecter » | verbatim | T2 l. 11112-11140 | ✦ |
 | FCT-009 | La même source est désignée différemment : **« données fiscales issues des directions... » (3056, note 2) vs « BNDP » (CdC, Annexe 4)** — ellipse d'identification documentée | 2 désignations | T1 note (2) ; CdC Annexe 4 (07-46) | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_07-51_bndp-absente-rapport-3056 | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_07-51_bndp-absente-rapport-3056 | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_07-51_bndp-absente-rapport-3056 | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_07-51_bndp-absente-rapport-3056 | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_07-51_bndp-absente-rapport-3056 | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_07-51_bndp-absente-rapport-3056 | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_07-51_bndp-absente-rapport-3056 | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_07-51_bndp-absente-rapport-3056 | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_07-51_bndp-absente-rapport-3056 | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 6. CONTRADICTIONS
 
 | ID | Contradiction | Résolution |

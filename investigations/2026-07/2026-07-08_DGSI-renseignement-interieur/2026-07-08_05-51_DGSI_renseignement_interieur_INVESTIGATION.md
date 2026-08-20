@@ -227,6 +227,29 @@ WOLF_PRIVATE:
 | F19 | Loi renseignement 24 juillet 2015 : cadre légal | Légifrance | ✦ |
 | F20 | Budget MI5 ~£500 M public vs DGSI classifié | Rapports UK | ✦ |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-07-08_05-51_DGSI_renseignement_interieur | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §14 — ÉTAT DES CONNAISSANCES

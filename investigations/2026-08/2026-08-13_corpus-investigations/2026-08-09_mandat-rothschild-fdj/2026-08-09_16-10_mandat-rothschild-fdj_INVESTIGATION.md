@@ -69,6 +69,21 @@ Légende statuts : ◈ confirmé (source primaire lue en session) · ✧ probabl
 | FCT-009 | Le récit AlumnEye « Rothschild a conseillé la FDJ et indirectement l'APE » est partiellement exact : conseil de la FDJ oui, mais pas « indirectement l'APE » (qui était conseillée par Lazard) | — | — | ◈ (correction du FCT-013 du GAP-T3) | SRC-01, SRC-02 |
 | FCT-010 | IPO FDJ : 99 320 000 actions cédées max (52 % du capital), fourchette 16,50-19,90 € (institutionnels) / 16,17-19,50 € (particuliers, -2 %) | 52 % | 2019 | ◈ (communiqué FDJ lu) | SRC-01 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_16-10_mandat-rothschild-fdj | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CLAIM_REGISTRY
 
 | ID | Claim | Statut | Justification |

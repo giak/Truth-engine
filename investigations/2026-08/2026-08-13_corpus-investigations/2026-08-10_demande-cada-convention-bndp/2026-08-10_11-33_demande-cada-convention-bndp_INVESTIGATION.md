@@ -130,6 +130,21 @@ Le faisceau du 11-24 a établi :
 | FCT-010 | La réponse du gouvernement au rapport 3056 est attendue le 10/09/2026 (point de contrôle, dossier 07-39) — fenêtre de lancement tactique | CONFIRMÉ (dossier 07-39) | SRC-06 (07-39) |
 | FCT-011 | Deux lettres modèles rédigées (Annexes A et B), prêtes à l'envoi : DGFiP (objet principal) et CdC (subsidiaire) | PRODUIT EN SESSION | SRC-07 (ce dossier) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_11-33_demande-cada-convention-bndp | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §4 GATE_CHECK / VERDICT

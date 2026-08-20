@@ -226,6 +226,26 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-015 | **VERDICT GAP-002b** : aucune des 3 sources ne nomme les 110 donataires, ni l'opération 2023 (Bolloré/Vivendi), ni l'« opération 2024 » ; le verrou secret fiscal tient ; la nomination du centile reste institutionnelle (commission d'enquête, base DGFiP) | 0 nom du centile | 3 sources lues + hérité 22-56/23-14 | ✦ (constat d'absence) |
 | FCT-016 | **Commission d'enquête AN** : créée le 17/02/2026 (résolution LIOT n° 2418 du 02/02/2026), **Jean-Paul Mattei (Modem) président, Charles de Courson (LIOT) rapporteur** (l'initiative n'est pas de de Courson seul) ; **rapport n° 3056 (Tome 1, 327 p.) déposé le 08/07/2026, lu intégralement 10/08/2026 (dossier 06-37)** : reprise formule CdC (110 donataires / 65 % / 30 M€), annexe des 50 plus gros contribuables IFI obtenue de Bercy par Mattei/de Courson mais **ANONYMISÉE** (les 110 ne sont pas nommés, verrou maintenu), recommandation n° 10 (restreindre l'assiette Dutreil aux seuls biens professionnels), taux cumulé Dutreil+démembrement **5,6 %** ; Coquerel (vice-président) : « On fabrique une société d'héritiers, une noblesse d'argent. La part du patrimoine hérité est de 60 %. La concentration du patrimoine entre les mains des 1 % atteint 25 %, +10 points en 10 ans » | 60 % ; 25 % ; +10 pts ; 5,6 % | AN 08/07/2026 (PDF T1 lu) + Blast 20/04/2026 (lu) | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-10_04-25_blast-oxfam-centile-dutreil | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

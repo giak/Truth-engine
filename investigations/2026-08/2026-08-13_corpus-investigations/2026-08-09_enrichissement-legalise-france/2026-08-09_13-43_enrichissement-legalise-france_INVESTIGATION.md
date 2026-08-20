@@ -248,6 +248,52 @@ Les scores mesurent la densité des signaux documentés dans le corpus collecté
 | FCT-006 | Autres grosses niches : emploi à domicile ~6,4 Md€, Dutreil ~5 Md€, abattement 10 % pensions ~4,8 Md€, TVA réduite travaux/restauration 4,2-4,6 Md€, épargne salariale ~2,9 Md€ | cumul ~25 Md€ | SRC-03 ; SRC-04 | ✦ |
 | FCT-007 | Dépenses fiscales ≈ 25,8 % des recettes fiscales nettes de l'État | 25,8 % | SRC-01 | ✧ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-026 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-027 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-028 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-029 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-030 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-031 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-032 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-033 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-034 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-035 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-036 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-037 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-038 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-039 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-040 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-080 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+FCT-097 | FACT | ❧ | - | - | - | 2026-08-09_13-43_enrichissement-legalise-france | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 **Famille B. OPTIMISATION DES GRANDES ENTREPRISES (AXS-002)**
 | ID | Fait | Chiffre | Source | Statut |
 |----|------|---------|--------|--------|

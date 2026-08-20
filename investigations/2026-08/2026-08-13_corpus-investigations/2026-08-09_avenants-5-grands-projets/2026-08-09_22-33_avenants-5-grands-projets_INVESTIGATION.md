@@ -206,6 +206,26 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-016 | SOLIDEO : supervision des marchés saluée par le Sénat n° 748 (16/06/2026) : la méthode de supervision a évité les dérives financières majeures ; ouvrages ~2,49 Md€ (1,68 via maquette), villages ~1,96 Md€ | 2,49 / 1,96 Md€ | SRC-10 Sénat 748 | ✦ |
 | FCT-017 | GAP confirmé et étendu : la commission d'enquête Sénat GPE 2023 (« le coût du dépassement ») n'est pas localisable en ligne (URL r22-580-1 = 404, numéro non confirmé) | NON LOCALISÉ | SRC-03 (constat) | ✦ (constat) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_22-33_avenants-5-grands-projets | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

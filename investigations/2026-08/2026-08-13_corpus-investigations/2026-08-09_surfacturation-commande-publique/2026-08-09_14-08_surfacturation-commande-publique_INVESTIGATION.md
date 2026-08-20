@@ -221,6 +221,42 @@ Le préjudice exact est **non mesuré par aucune institution française** : ni l
 | FCT-027 | Conseil à l'État 2021 : >1 Md€ (893,9 M€ pour les seuls ministères) ; McKinsey : ~18 M€ de contrats cumulés (crise sanitaire et réformes), à ne pas confondre avec le total du conseil d'État | 893,9 M€ / 18 M€ | SRC-19 TF1 Vérif (correction de la confusion « 900 M€ ») ; SRC-01 (parent FCT-034) | ✦ |
 | FCT-026 | Calcul encadré : 8-25 % × 170 Md€ = 13,6-42,5 Md€/an ; × 400 Md€ = 32-100 Md€/an ; Anticor 20-25 % × 170 = 34-42,5 Md€/an ; ratio préjudice potentiel/jugé ≈ 100-1000x | 14-100 Md€/an | calcul annexe (SRC-17/18/01), étiquette « 14-100 Md€ » = union arrondie de deux périmètres (170 vs 400 Md€) ; tension avec RAND plausible (8-18 Md€ de corruption totale) signalée en CONTR-004 | ⁂ extrapolation |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-026 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-027 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-034 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-035 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-036 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-104 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+FCT-105 | FACT | ❧ | - | - | - | 2026-08-09_14-08_surfacturation-commande-publique | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

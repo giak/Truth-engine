@@ -35,6 +35,15 @@ Vérifier dans le **texte des documents** (pas les répertoires) la mention expl
 | FCT-004 | Le commentaire AER 2023 (Bach, Bozio, Guillouzouic-Le Corff, Malgouyres) : le résumé officiel AEA ne contient **aucune mention** de DMTG, mutations, succession, inheritance ou estate ; il déclare utiliser « identical data » (les données de l'article commenté Boissel & Matray 2022, données fiscales d'entreprises FARE/FICUS) | CONFIRMÉ (résumé seul — texte intégral non lu) | SRC-003 |
 | FCT-005 | La référence « DMTG » dans la fiche CASD est donc **exacte pour 1 publication sur 5** (BdF WP 636) ; parmi les 4 autres : 2 vérifiées intégralement sans mention (notes FS 120/121, dossier 10-54), 1 vérifiée intégralement sans mention (WID WP 2017/4), 1 résumé seul sans mention (AER 2023, texte intégral non lu) | CONFIRMÉ (agrégation FCT-001 à 004 + dossier 10-54) | SRC-001, SRC-002, SRC-003, 10-54 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_11-13_verif-3-publications-fiche-dmtg | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_11-13_verif-3-publications-fiche-dmtg | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_11-13_verif-3-publications-fiche-dmtg | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_11-13_verif-3-publications-fiche-dmtg | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_11-13_verif-3-publications-fiche-dmtg | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 5. VERDICT
 
 **GAP 2 du 10-54 RÉSOLU.** Sur les 5 publications de la fiche source DMTG du CASD, une seule utilise effectivement l'enquête DMTG / les déclarations de succession 2010 dans sa méthodologie : le papier « Accounting for Wealth Inequality Dynamics » (Garbinti, Goupille-Lebret, Piketty, devenu BdF WP 636) — qui applique la méthode estate multiplier aux micro-échantillons 1984-2010, dont **2010** (l'échantillon DMTG du CASD). Les 4 autres : WID WP 2017/4 (0 mention — papier sur les **revenus** DINA, pas sur les mutations), AER 2023 (résumé sans mention, données Boissel-Matray), notes France Stratégie 120/121 (déjà réfutées au 10-54).

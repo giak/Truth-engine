@@ -623,6 +623,38 @@ Le faisceau Twitter amplifie mais ne fournit pas la **preuve** que le dispositif
 | S7 | http://www.defense.gouv.fr/evenements/programme-du-14-juillet-2026 | ◈ | Active (référencée) |
 | S8 | https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet | ◈ | Active (référencée) |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ⁅ | https://france3-regions.franceinfo.fr/paris-ile-de-france/comment-assister-au-defile-du-14-juillet-sur-les-champs-elysees-a-paris-inscription-en-ligne-et-qr-code-obligatoires-3384124.html | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-002 | FACT | ⁅ | https://www.bfmtv.com/economie/entreprises/defense/pour-montrer-le-reveil-strategique-europeen-500-soldats-etrangers-ouvriront-le-defile-du-14-juillet-et-il-y-aura-aussi-des-aeronefs-dotes-d-armements-fictifs_AD-202607090381.html | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-008 | FACT | ⁅ | https://france3-regions.franceinfo.fr/paris-ile-de-france/comment-assister-au-defile-du-14-juillet-sur-les-champs-elysees-a-paris-inscription-en-ligne-et-qr-code-obligatoires-3384124.html | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-010 | FACT | ⁅ | https://www.bfmtv.com/societe/soldats-ukrainiens-hymne-europeens-le-gouverneur-militaire-de-paris-dement-plusieurs-rumeurs-sur-le-defile-du-14-juillet_AN-202606180404.html | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-011 | FACT | ⁅ | https://france3-regions.franceinfo.fr/paris-ile-de-france/comment-assister-au-defile-du-14-juillet-sur-les-champs-elysees-a-paris-inscription-en-ligne-et-qr-code-obligatoires-3384124.html | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-020 | FACT | ⁅ | http://www.defense.gouv.fr/evenements/programme-du-14-juillet-2026 | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-021 | FACT | ⁅ | https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-022 | FACT | ⁅ | https://www.bfmtv.com/economie/entreprises/defense/pour-montrer-le-reveil-strategique-europeen-500-soldats-etrangers-ouvriront-le-defile-du-14-juillet-et-il-y-aura-aussi-des-aeronefs-dotes-d-armements-fictifs_AD-202607090381.html | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-023 | FACT | ⁅ | https://www.bfmtv.com/societe/soldats-ukrainiens-hymne-europeens-le-gouverneur-militaire-de-paris-dement-plusieurs-rumeurs-sur-le-defile-du-14-juillet_AN-202606180404.html | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-024 | FACT | ⁅ | https://france3-regions.franceinfo.fr/paris-ile-de-france/comment-assister-au-defile-du-14-juillet-sur-les-champs-elysees-a-paris-inscription-en-ligne-et-qr-code-obligatoires-3384124.html | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-025 | FACT | ⁅ | https://www.facebook.com/prefecturedepolice/posts/14juillet-les-pr%C3%A9-inscriptions-pour-assister-au-d%C3%A9fil%C3%A9-du-14-juillet-sur-les-cha/1451856293637463/ | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-026 | FACT | ⁅ | https://policeetrealites.com/2026/07/08/defile-du-14-juillet-a-paris-linscription-en-ligne-devient-obligatoire/ | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-027 | FACT | ⁅ | https://leparisien.fr/politique/la-fete-doit-rester-la-fete-il-faudra-sinscrire-pour-assister-au-defile-du-14-juillet-a-paris-08-07-2026-PKHZPERPFBE5FK2D637ZBF7SUI.php | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-028 | FACT | ⁅ | http://www.defense.gouv.fr/evenements/programme-du-14-juillet-2026 | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+FCT-029 | FACT | ⁅ | https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet | - | - | 2026-07-10_07-06_14-juillet-2026-defile-privatisation | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §DISCLAIMER

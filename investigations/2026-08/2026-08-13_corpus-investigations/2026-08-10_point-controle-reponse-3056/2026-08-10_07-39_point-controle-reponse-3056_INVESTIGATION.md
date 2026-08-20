@@ -121,6 +121,19 @@ Position attendue en 3 formes possibles : (a) **acceptation** (« le Gouvernemen
 | FCT-007 | La réponse au Sénat 760 (rec. n° 2/3, financement module statistique) est **également inexistante** à date | 0 | dossier 07-18 FCT-010 | ✦ |
 | FCT-008 | Les 4 vecteurs réels de réponse : page AN (V1), **PLF 2027/bleu 156 (V2 — le plus probable)**, questions parlementaires (V3), débat/communication (V4) | — | analyse cadre | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_07-39_point-controle-reponse-3056 | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_07-39_point-controle-reponse-3056 | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_07-39_point-controle-reponse-3056 | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_07-39_point-controle-reponse-3056 | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_07-39_point-controle-reponse-3056 | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_07-39_point-controle-reponse-3056 | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_07-39_point-controle-reponse-3056 | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_07-39_point-controle-reponse-3056 | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_07-39_point-controle-reponse-3056 | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 7. SOURCES DES EXEMPLES DE PRATIQUE (FCT-003)
 
 - Fonds Marianne (commission d'enquête Sénat, rapport 07/2023) : https://www.senat.fr/travaux-parlementaires/commissions/commission-des-finances/controle-en-clair/commission-denquete-sur-le-fonds-marianne.html

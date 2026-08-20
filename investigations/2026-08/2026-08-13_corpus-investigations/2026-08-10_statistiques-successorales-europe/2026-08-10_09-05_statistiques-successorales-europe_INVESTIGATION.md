@@ -59,6 +59,25 @@ LIEN         : point consolidé 2026-08-10_08-50_point-consolide-faisceau-bndp (
 | FCT-014 | **La France est parmi les pays qui taxent le plus lourdement** les transmissions du groupe (fourchette Eurostat ~0,7 % PIB — FCT-013 ✧ non relu), et paradoxalement le SEUL des 4 à ne pas publier de statistique successorale annuelle (dernière enquête DMTG 2010 — dossier 23-25, QE 11677) | contraste | Croisement corpus + présent dossier | DOCUMENTÉ (faisceau borné — dépend de la fourchette ✧ FCT-013) |
 | FCT-015 | **La publication ne dépend pas de la taille des recettes** : le Danemark (0,15-0,20 % PIB) publie via ses statistiques publiques ; la France (0,7 % PIB, 20,8 Md€ en 2024) ne publie pas | — | Croisement FCT-013/014 | CONSTAT (analyse) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-10_09-05_statistiques-successorales-europe | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. PELOTE
 
 ```

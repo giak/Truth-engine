@@ -199,6 +199,22 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-011 | Ordres de grandeur : ~21 Md€ de recettes DMTG/an (16 successions + 5 donations) ; flux brut estimé 250-300 Md€/an ; ~700 000 actes/an | 21 Md€ ; 250-300 Md€ | SRC-03 | ✧ |
 | FCT-012 | Rapport CdC Dutreil (18/11/2025) : analyse fondée sur des « données fiscales inédites » (page CdC lue : actes notariés + données DGFiP jamais exploitées) en partenariat avec l'IPP ; le nom de la Base Nationale des Données Patrimoniales (BNDP) est précisé par le chercheur (✧) — preuve d'exploitabilité par accès exceptionnel | BNDP (✧) | SRC-05 CdC (hérité 22-56) + SRC-03 (BNDP, via chercheur) | ✦ (CdC/IPP) + ✧ (nom BNDP) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_23-25_base-donnees-successions-eenregistrement | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

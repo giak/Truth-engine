@@ -112,6 +112,20 @@ Rien dans cette chaîne légale ne crée un droit du public (ou des chercheurs d
 | FCT-009 | **Application au rapport Dutreil** : la communication de la BNDP et l'habilitation des rapporteurs (Annexe 4 du rapport CdC) correspondent exactement au dispositif L. 141-5 + L. 141-9/L. 140 — la CdC a agi dans son droit légal, la DGFiP a satisfait une obligation | 18/11/2025 | Rapport CdC Annexe 4 (dossier 07-46) + chaîne légale identifiée | CONFIRMÉ (faisceau) |
 | FCT-010 | **Aucun droit du public ni des chercheurs de droit commun** ne découle de cette chaîne : la levée du secret ne joue qu'au bénéfice des membres de la Cour et des entités qu'elle désigne | — | Textes lus (L. 141-9, LPF L. 140) | CONFIRMÉ (conclusion bornée) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_08-00_cdc-acces-donnees-fiscales | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_08-00_cdc-acces-donnees-fiscales | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_08-00_cdc-acces-donnees-fiscales | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_08-00_cdc-acces-donnees-fiscales | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_08-00_cdc-acces-donnees-fiscales | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_08-00_cdc-acces-donnees-fiscales | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_08-00_cdc-acces-donnees-fiscales | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_08-00_cdc-acces-donnees-fiscales | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_08-00_cdc-acces-donnees-fiscales | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_08-00_cdc-acces-donnees-fiscales | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 6. LIMITES
 
 1. **Légifrance inaccessible en session (Cloudflare)** : le texte du LPF L. 140 a été lu dans le PDF codifié codes.droit.org (miroir du droit, considéré fiable) puis **confirmé par Légifrance via le chercheur web** (LEGIARTI000045404696) — la double vérification atténue le risque, mais seul le corps codes.droit.org a été lu par la session elle-même.

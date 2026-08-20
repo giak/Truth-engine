@@ -90,6 +90,33 @@ Légende statuts : ◈ documenté · ✧ estimé · ⁂ projeté · ⚠ contest�
 | FCT-022 | **Coûts de transaction Alstom (REG-3)** : 262 M€ dont 105 M€ conseils/banques, 97 M€ fiscaux, 60 M€ divers (courrier Poupart-Lafarge 11/04/2018) | 262 M€ | 2018 | ◈ | SRC-07 |
 | FCT-023 | Contre-fait recettes : total encaissé par l'État (autoroutes 14,8 + 4,0 Md€ ; aéroports 2,06 Md€ ; FDJ ~1,8 Md€) | ~22,7 Md€ | 2002-2019 | ◈ | SRC-01..04 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-08-09_15-48_consolidation-ecarts-cession | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. TABLEAU DE CONSOLIDATION (le livrable)
 
 | Opération | Registre | Écart documenté | Statut | Source | Borne |

@@ -270,3 +270,11 @@ GAP_SEVERITY : non calculé (document de synthèse, faits hérités des parents 
 ---
 
 *TL;DR : SYNTHÈSE TRANSVERSALE de 7 investigations (corruption systémique, enrichissement légalisé, surfacturation, CumCum/CJIP/effectivité LF 2025, découpe). 7 FAISCEAUX : (1) écart de valorisation documenté (Toulouse +199 M€, autoroutes 6,5-7,8 Md€, FDJ +15 % le jour de l'IPO, EDF surprime 45 %) ; (2) sélectivité répressive (CJIP 12,145 Md€ sans personnes physiques vs exécutants jugés) ; (3) verrou fiscal-légal (niches 91,83 Md€ > toutes estimations de fraude) ; (4) porte tournante (HATVP 38,6 % CI, 60 % vers privé, Vial APE→Montefiore) ; (5) contrôles après la sortie (6-10 ans de retard) ; (6) pouvoir étranger comme levier (DOJ/Alstom, veto Photonis vs autorisation Latécoère) ; (7) mesure absente (aucun chiffrage global). PATTERN en 5 temps (actif → sortie contestée → écart → contrôle tardif → sanction sélective) = convergence STRUCTURELLE documentée, pas un plan. LIÈVRES : banques-conseils absentes du corpus, écart Toulouse inexpliqué, boîte noire DOJ/Alstom. ANGUILLES : pantouflage post-cessions, CJIP silencieuses, gré à gré dérogatoire. LOUPS : convergence des cercles (à documenter), rumeur « Macron bradage » non soutenue, prime à la discrétion CJIP, valeur de souveraineté perdue jamais chiffrée. VERDICT : PRÉSUMPTION FORTE d'un système d'opacité/sélectivité ; RÉFUTATION d'un plan coordonné ; « tout est de la corruption » reste une généralisation non soutenue. 7 enquêtes recommandées (banques-conseils, grille IEF, revolving doors, chiffrage global, 3 CJIP, bilan anti-CumCum, archives commissions).*
+
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_15-15_faisceaux-angles-morts | - | -
+FCT-080 | FACT | ❧ | - | - | - | 2026-08-09_15-15_faisceaux-angles-morts | - | -
+FCT-085 | FACT | ❧ | - | - | - | 2026-08-09_15-15_faisceaux-angles-morts | - | -
+FCT-086 | FACT | ❧ | - | - | - | 2026-08-09_15-15_faisceaux-angles-morts | - | -
+<!-- /FACT_REGISTRY_V1 -->

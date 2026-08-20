@@ -209,6 +209,26 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-015 | Méthodologie CdC : données fiscales inédites de la DGFiP, « jamais exploitées » + partenariat de recherche IPP (comparaison 2010-2018) | DGFiP+IPP | SRC-01 | ✦ |
 | FCT-016 | Rapport CdC complet disponible : PDF « 20251118-Pacte Dutreil.pdf » + synthèse « 20251118-Synthese-Pacte Dutreil.pdf » + réponse ministérielle « 20251118-reponse-Pacte Dutreil.pdf » (ccomptes.fr) | 3 PDF | SRC-01 | ✦ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_22-56_dutreil-110-donataires | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

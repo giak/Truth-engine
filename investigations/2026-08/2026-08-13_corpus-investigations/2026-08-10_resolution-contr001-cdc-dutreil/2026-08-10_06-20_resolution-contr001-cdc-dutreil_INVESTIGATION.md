@@ -180,6 +180,16 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-004 | **Corrections appliquées au corpus** : le 04-25 est mis à jour — CLM-004 et FCT-008 (formule Blast « 0,01 % des transmissions ») remplacés par la formule CdC exacte (« 1 % des donataires et héritiers = 110 personnes = 65 % ») ; CONTR-001 passe de DOCUMENTÉE à **RÉSOLUE (défavorable à Blast)** ; TL;DR du 04-25 corrigé | 3 entrées corrigées | ce dossier + 04-25 (MAJ 10/08/2026 06:20) | ✦ |
 | FCT-005 | **Verdict CONTR-001** : la divergence de granularité était une divergence de REFORMULATION — le corpus 22-56 et la CdC sont identiques (« dernier centile », 1 %, 110, 65 %, 30 M€) ; la formule de Blast était fausse ; la quantification du GAP-002b (5,5 Md€, 65 %, 110, 30 M€, nomination impossible) est inchangée et renforcée | — | ce dossier | ✦ (verdict) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_06-20_resolution-contr001-cdc-dutreil | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_06-20_resolution-contr001-cdc-dutreil | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_06-20_resolution-contr001-cdc-dutreil | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_06-20_resolution-contr001-cdc-dutreil | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_06-20_resolution-contr001-cdc-dutreil | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_06-20_resolution-contr001-cdc-dutreil | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |

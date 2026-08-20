@@ -535,6 +535,29 @@ Internalisation des compétences (réembauche massive d'experts publics). Interd
 | 5 | @READ | all_investigations.scratch.md | ✓ Fresque OLI + 12 mécanismes | — |
 | 6 | @CODE | pyromane|pompier|crée.*problème.*solution | ✓ 48+ matches | — |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-07-08_23-00_pyromane_pompier | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 **Total :** 3 @WEB, 2 @READ, 1 @CODE. Toutes les sources vérifiées.
 
 ---

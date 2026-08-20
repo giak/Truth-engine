@@ -79,6 +79,26 @@ Légende statuts : ◈ confirmé (source lue en session ou source officielle rec
 | FCT-015 | Bilan : pour les 2 départs APE→privé majeurs de la fenêtre 2014-2019 (Azéma, Turrini), le contrôle est documenté pour 1 (Azéma : avis favorable puis enquête PNF), absent de toute trace pour l'autre (Turrini) | — | 2014-2021 | ◈ (synthèse FCT-006..011) | SRC-04..07 |
 | FCT-016 | L'effectivité du contrôle est structurellement non vérifiable : avis non publiés + pas de suivi a posteriori + 0 sanction documentée (recoupement dossier 0929 pour la HATVP ; commission : pas de sanction connue) | — | 1993-2020 | ◈ (structure) | SRC-02, SRC-09 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_17-02_archives-commission-deontologie | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CLAIM_REGISTRY
 
 | ID | Claim | Statut | Justification |

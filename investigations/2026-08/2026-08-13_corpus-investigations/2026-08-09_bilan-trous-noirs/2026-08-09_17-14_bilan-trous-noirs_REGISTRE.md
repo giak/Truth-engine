@@ -243,3 +243,9 @@ Ce sont les trous où **des faits vérifiés convergent** vers un questionnement
 | Avis HATVP Vincent | investigations/2026-08/2026-08-13_corpus-investigations/2026-08-09_avis-hatvp-vincent-renault/2026-08-09_17-34_avis-hatvp-vincent-renault_INVESTIGATION.md |
 | Suite PNF Azéma | investigations/2026-08/2026-08-13_corpus-investigations/2026-08-09_suite-pnf-azema/2026-08-09_17-40_suite-pnf-azema_INVESTIGATION.md |
 | Archives nationales | investigations/2026-08/2026-08-13_corpus-investigations/2026-08-09_archives-nationales-commission-deontologie/2026-08-09_17-48_archives-nationales-commission-deontologie_INVESTIGATION.md |
+
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_17-14_bilan-trous-noirs | - | -
+FCT-086 | FACT | ❧ | - | - | - | 2026-08-09_17-14_bilan-trous-noirs | - | -
+<!-- /FACT_REGISTRY_V1 -->

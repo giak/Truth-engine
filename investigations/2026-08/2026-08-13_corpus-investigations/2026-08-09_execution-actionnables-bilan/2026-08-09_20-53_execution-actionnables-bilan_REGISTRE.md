@@ -142,6 +142,30 @@ Légende statuts : ◈ confirmé (source lue en session) · ✧ probable (source
 | FCT-018 | Presse juin-juillet 2022 : AUCUN article citant Zajdenweber nommément sur l'OPA EDF (représentante État au CA EDF = Céline Fornaro 29/06/2022 ; DG APE = Martin Vial) | — | 06-07/2022 | ✗ (constat d'absence, 2 chercheurs) | SRC-12 |
 | FCT-019 | Bilan croisement corrigé : Toulouse = Lepage → privé (FBF) ; FDJ = Sarrazin → PUBLIC (RPUE Bruxelles 09/2025) ; EDF = Vincent → privé (Renault) — 2 privés / 1 public confirmé | — | 2015-2025 | ◈ (synthèse) | SRC-01..04 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-08-09_20-53_execution-actionnables-bilan | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CLAIM_REGISTRY
 
 | ID | Claim | Statut | Justification |

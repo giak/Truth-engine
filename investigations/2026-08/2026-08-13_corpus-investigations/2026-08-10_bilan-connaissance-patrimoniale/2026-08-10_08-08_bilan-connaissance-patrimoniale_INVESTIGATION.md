@@ -102,6 +102,19 @@ CONTEXTE        : La journée du 10/08/2026 a produit 4 dossiers sur la connaiss
 | FCT-005 | Le « manque de données » est un défaut de circulation entre administrations (Insee demande une base que la BNDP est déjà), pas une réalité physique | — | 07-51 + 07-46 | CONFIRMÉ (faisceau) |
 | FCT-006 | La chaîne de l'opacité est sourcée de bout en bout : 99 % actes numériques → déclarations papier → module non financé → 0,5 ETP → 35-40 % invisible → micro-données « avant 2028 » → jamais nominatif | 6 maillons | 07-26 | CONFIRMÉ (chaîne complète) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_08-08_bilan-connaissance-patrimoniale | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_08-08_bilan-connaissance-patrimoniale | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_08-08_bilan-connaissance-patrimoniale | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_08-08_bilan-connaissance-patrimoniale | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_08-08_bilan-connaissance-patrimoniale | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_08-08_bilan-connaissance-patrimoniale | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_08-08_bilan-connaissance-patrimoniale | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-10_08-08_bilan-connaissance-patrimoniale | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-10_08-08_bilan-connaissance-patrimoniale | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 8. LIMITES DU BILAN
 
 1. **Aucun fait nouveau en session** : ce bilan agrège des faits déjà documentés ; il ne vérifie pas de nouvelle source primaire (par construction — c'est un méta-bilan demandé pour tester la cohérence).

@@ -54,6 +54,19 @@ LIEN         : dossier 2026-08-10_09-19_css-projets-dmtg-dutreil (FCT-005/006 : 
 | FCT-008 | **La Wayback Machine ne permet pas de retrouver les listes antérieures** de projets CSS (CDX sur wp-content/uploads : timeout / résultat vide) — la chronologie complète reste inaccessible | indisponible | Wayback CDX (tentée) | CONSTAT (borné) |
 | FCT-009 | **Le CSS ne publie pas les motifs de fin d'habilitation** (retrait, refus, non-renouvellement) — seules les durées apparaissent dans les listes ; un refus de renouvellement ou un retrait ne serait pas documenté publiquement | pas de motifs publics | Structure du CSS (dossier 09-19) | CONSTAT (borné) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_09-53_confite-disparition | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_09-53_confite-disparition | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_09-53_confite-disparition | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_09-53_confite-disparition | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_09-53_confite-disparition | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_09-53_confite-disparition | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_09-53_confite-disparition | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_09-53_confite-disparition | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_09-53_confite-disparition | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. PELOTE
 
 ```

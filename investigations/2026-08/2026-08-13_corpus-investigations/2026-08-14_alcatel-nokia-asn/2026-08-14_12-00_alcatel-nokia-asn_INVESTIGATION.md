@@ -90,6 +90,28 @@ L'opération Nokia/Alcatel-Lucent a été annoncée les **14-15/04/2015** sous f
 | FCT-017 | Conditions de la cession 2024 : consultation des instances représentatives du personnel, maintien du siège et des sites en France/Europe, sanctuarisation du savoir-faire souverain | — | SRC-17 communiqué Bercy 05/11/2024 | ✦ |
 | FCT-018 | Arc documenté : Alcatel-Lucent cédée ~15,6 Md€ en 2015 (État autorisateur) ; son actif le plus stratégique (ASN) revendu à l'État 80 % pour ~100 M€ (EV 350 M€) en 2024-2025 — décote composée (≈1/150e du prix de 2015, pour 80 % d'une filiale) | 15,6 Md€ vs 350 M€ | SRC-18 synthèse FCT-002/FCT-013 (constat composé) | ⚠ (calcul composé, inférence étiquetée) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-14_12-00_alcatel-nokia-asn | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 5. CLAIM_REGISTRY
 
 | ID | Claim | Support | Contre-évidence | Statut |

@@ -124,6 +124,44 @@ Cette investigation démontre que ces émeutes ne sont pas un « dérapage » ac
 | F34 | 80 % des médias français détenus par 9 milliardaires | 2025-2026 | ✦ | https://contre7.fr/2025/12/19/concentration-medias-francais-mise-a-jour-2025/ |
 | F35 | PSG propriété de QSI (Qatar Sports Investments) depuis 2011 | 2011-présent | ✦ | https://fr.wikipedia.org/wiki/Paris_Saint-Germain_Football_Club |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ⁅ | https://www.lemonde.fr/sport/article/2026/05/30/psg-arsenal-finale-ligue-des-champions_6695500_3242.html | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-003 | FACT | ⁅ | https://www.lemonde.fr/sport/article/2026/05/30/psg-arsenal-finale-ligue-des-champions_6695500_3242.html | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-007 | FACT | ⁅ | https://www.leparisien.fr/paris-75/victoire-du-psg-apres-les-debordements-la-mairie-du-viiie-arrondissement-reclame-le-zero-rassemblement-sur-les-champs-elysees-31-05-2026-7DAQC72G4FA3TESWSCPQJP6NVQ.php | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-010 | FACT | ⁅ | https://www.lemonde.fr/societe/article/2026/05/31/apres-la-victoire-du-psg-en-finale-de-la-ligue-des-champions-des-heurts-mais-une-joie-partagee-a-paris-le-foot-c-est-ce-qui-nous-rassemble_6695542_3224.html | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-014 | FACT | ⁅ | https://www.leparisien.fr/paris-75/victoire-du-psg-apres-les-debordements-la-mairie-du-viiie-arrondissement-reclame-le-zero-rassemblement-sur-les-champs-elysees-31-05-2026-7DAQC72G4FA3TESWSCPQJP6NVQ.php | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-021 | FACT | ⁅ | https://www.leparisien.fr/paris-75/victoire-du-psg-apres-les-debordements-la-mairie-du-viiie-arrondissement-reclame-le-zero-rassemblement-sur-les-champs-elysees-31-05-2026-7DAQC72G4FA3TESWSCPQJP6NVQ.php | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-026 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-027 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-028 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-029 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-030 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-031 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-032 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-033 | FACT | ❧ | - | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-034 | FACT | ⁅ | https://contre7.fr/2025/12/19/concentration-medias-francais-mise-a-jour-2025/ | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+FCT-035 | FACT | ⁅ | https://fr.wikipedia.org/wiki/Paris_Saint-Germain_Football_Club | - | - | 2026-06-05_15-00_emeutes-psg-2026 | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## CHRONOLOGIE

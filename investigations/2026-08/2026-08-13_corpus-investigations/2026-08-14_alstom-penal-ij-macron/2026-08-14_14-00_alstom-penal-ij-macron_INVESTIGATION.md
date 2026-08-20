@@ -92,6 +92,28 @@ Le volet pénal français de l'affaire Alstom s'est structuré en deux temps. **
 | FCT-017 | La thèse de Frédéric Pierucci (« Le Piège américain », 2019 : le DOJ a utilisé le FCPA pour contraindre Alstom à se vendre à GE) n'est pas tranchée judiciairement en France | — | SRC-17 Pierucci « Le Piège américain » (JC Lattès, 2019) ; synthèse | ⚠ (thèse documentée, non tranchée) |
 | FCT-018 | Arc documenté : 2019-2026, deux volets (corruption internationale vs conditions de cession), un non-lieu partiel (25/10/2024), une IJ en cours (disjonction 09/12/2022), une partie civile (20/02/2026), 0 mise en examen — le pénal documente le trouble sans le trancher ; l'intégrité reste documentée par le rapport n° 897 (« faillite des élites ») | 0 mise en examen | SRC-18 synthèse FCT-001..017 (constat composé) | ⚠ (calcul composé, inférence étiquetée) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-14_14-00_alstom-penal-ij-macron | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 5. CLAIM_REGISTRY
 
 | ID | Claim | Support | Contre-évidence | Statut |

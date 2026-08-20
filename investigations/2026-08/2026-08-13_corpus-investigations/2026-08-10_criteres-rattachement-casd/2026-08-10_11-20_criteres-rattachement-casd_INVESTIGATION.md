@@ -36,6 +36,19 @@ Identifier le mécanisme réel par lequel une publication se retrouve listée su
 | FCT-008 | **La source DMTG (src.php?id=106) documente son périmètre réel** : échantillon de successions ayant payé des DMTG, application MOOREA « exhaustives mais incomplètes » complétée par les dossiers papier des FI (fins de fichier) ; produits 2010 (DOI 10.34724/CASD.106.881.V1), 2006, 1994 | CONFIRMÉ | SRC-006 |
 | FCT-009 | **Conséquence pour le faisceau** : la « sur-liste » de la fiche DMTG (3 vérifiées intégralement sans mention + 1 résumé seul non vérifié en texte intégral — AER 2023 — + 1 usage avéré) n'est ni une erreur ni une tromperie — c'est la **conséquence structurelle du critère projet** : toute publication d'un projet habilité DMTG hérite de la mention, indépendamment de son contenu | CONFIRMÉ (analyse) | Croisement FCT-001 à 006 + 11-13 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_11-20_criteres-rattachement-casd | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_11-20_criteres-rattachement-casd | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_11-20_criteres-rattachement-casd | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_11-20_criteres-rattachement-casd | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_11-20_criteres-rattachement-casd | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_11-20_criteres-rattachement-casd | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_11-20_criteres-rattachement-casd | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_11-20_criteres-rattachement-casd | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_11-20_criteres-rattachement-casd | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 5. PELOTE
 
 ```

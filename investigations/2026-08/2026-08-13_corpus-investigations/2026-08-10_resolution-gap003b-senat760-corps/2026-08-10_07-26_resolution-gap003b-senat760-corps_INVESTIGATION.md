@@ -131,6 +131,24 @@ Le dossier 23-25 (09/08/2026, GAP-003) a identifié la base successions = platef
 | FCT-013 | Donations : aucun calendrier ; surreprésentation hauts patrimoines par ce biais | jina_760e.txt (p. 15) | CONFIRMÉ (source primaire) |
 | FCT-014 | Contexte p. 12-13 : CASD, Fidélipro (HVP 2026 annulée, collecte 2029), 16/20 transparence, registre financier Piketty (DCT), ISF écarté, Hermès 163/Arnault 117 Md€ | jina_76012/13.txt | CONFIRMÉ (pages lues) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-10_07-26_resolution-gap003b-senat760-corps | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 7. CONTRADICTIONS
 
 | ID | Fait A | Fait B | Résolution |

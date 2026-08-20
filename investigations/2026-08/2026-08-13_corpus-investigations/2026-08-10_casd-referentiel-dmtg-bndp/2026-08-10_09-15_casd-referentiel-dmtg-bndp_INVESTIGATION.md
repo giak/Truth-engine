@@ -54,6 +54,21 @@ LIEN         : dossier 2026-08-10_09-11_convention-cdc-dgfip-bndp (GAP 3) ; poin
 | FCT-010 | **Le faisceau s'enrichit d'un paradoxe** : la source DMTG 2010 est accessible aux chercheurs AUJOURD'HUI (canal public documenté), mais le module statistique pour produire un millésime 2021+ n'est pas financé — l'accès existe, la production de données récentes non | paradoxe | Croisement FCT-004 + 07-26 (module non financé) | CONSTAT (analyse) |
 | FCT-011 | La page catalogue CASD liste des centaines de sources fiscales DGFiP (POTE, FELIN, ISF-IFI, BIC-RN/RS, ISGROUPE, CBCR, DMTG, DMTO_Fidji, Foncier_bati, etc.) — les données successorales/patrimoniales sont donc intégrées à l'infrastructure publique de recherche, hors BNDP | catalogue large | casd.eu/donnees-utilisees (lue) | CONFIRMÉ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-10_09-15_casd-referentiel-dmtg-bndp | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. PELOTE
 
 ```

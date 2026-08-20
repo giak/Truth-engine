@@ -85,6 +85,35 @@ Légende statuts : ◈ confirmé (source primaire lue en session) · ✧ probabl
 | FCT-024 | QPC 2024-1120 : censure de la sanction automatique du pantouflage (Conseil constitutionnel) | n.c. | 2024 | ◈ (dossier 0929) | SRC-07 |
 | FCT-025 | Citation Laurent Mauduit (AlumnEye) : « les banques font appel à ces hauts fonctionnaires pour leur carnet d'adresses… qui ouvrirait des portes et permettrait de remporter des transactions » | n.c. | n.d. | ◈ (propos rapporté) | SRC-01 |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-018 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-019 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-020 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-021 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-022 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-023 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-024 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+FCT-025 | FACT | ❧ | - | - | - | 2026-08-09_15-42_revolving-doors-ape-bercy | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ## 4. CLAIM_REGISTRY
 
 | ID | Claim | Statut | Justification |

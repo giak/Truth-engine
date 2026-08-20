@@ -43,6 +43,27 @@ ELABORATE        : Il n'existe pas de source primaire « corruption France » : 
 | FCT-016 | Sentiment d'impunité : 72 % des Français jugent les élus « plutôt corrompus » (2011) | 72 % | TNS-Sofres pour TI France | CONFIRMÉ (date ancienne) |
 | FCT-017 | Dégradation mondiale : score moyen IPC 42/100, pays « propres » en recul | 42 | Transparency.org 2026 | CONFIRMÉ |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-016 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## MANIPULATION_REPORT (15 symboles scorés sur corpus)

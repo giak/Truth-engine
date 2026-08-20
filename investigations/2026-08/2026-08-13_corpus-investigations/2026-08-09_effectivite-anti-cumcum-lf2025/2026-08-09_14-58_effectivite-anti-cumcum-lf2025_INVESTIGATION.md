@@ -203,6 +203,24 @@ HASH_CAPABILITY: HASH_UNAVAILABLE
 | FCT-013 | Mécanismes de restitution préexistants : art. 235 quater CGI (entités non-résidentes déficitaires, restitution temporaire) et art. 235 quinquies CGI (loi 2021-1900, charges d'acquisition/conservation) : voies parallèles de remboursement de la RAS | — | SRC-08 | ✦ |
 | FCT-014 | Aucun renvoi préjudiciel majeur ni QPC validée visant directement le nouveau mécanisme anti-CumCum en 2025-2026 | 0 | SRC-08 ; SRC-05 | ✦ (absence documentée) |
 
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_14-58_effectivite-anti-cumcum-lf2025 | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ### CONTRADICTION_LEDGER
 
 | ID | Contradiction | Résolution | Statut |
