@@ -15,12 +15,12 @@ L'Éducation nationale est le plus gros employeur de France (1,06 million d'agen
 - **F-002** : Budget en hausse de 29 % depuis 2017 (+14,3 Md€), sans amélioration PISA
 - **F-003** : PISA 2022 : **474 maths/lecture, 487 sciences ; −21 pts maths et −19 pts lecture vs 2018** — baisse inédite depuis 2000 (OCDE/vie-publique) *(le « depuis 2003 » n'est pas détaillé score par score)*
 - **F-004** : France = un des pays OCDE où **origine sociale prédit le plus la réussite scolaire** *(confirmé : « un des pays qui réussit le moins à atténuer l'impact du milieu socio-économique », PISA 2022)*
-- **F-005** : 3 000+ postes enseignants non pourvus chaque rentrée, recours massif aux contractuels *(non relu)*
+- **F-005** : 3 000+ postes enseignants non pourvus chaque rentrée, recours massif aux contractuels *(confirmé : 3 100+ en 2023, >2 000 en 2025 — en baisse ; 1,46 candidat/poste vs 2,22 en 2008 — cf. mem 21f01545)*
 - **F-006** : Décrochage scolaire : **7,6 % des 18-24 ans sortis sans diplôme (2022 et 2023, Eurostat edat_lfse_14)** *(76 000-80 000 jeunes/an et corrélation délinquance non confirmés)*
-- **F-007** : Grandes écoles : enfants de cadres surreprésentés, financement/étudiant >> universités
+- **F-007** : Grandes écoles : enfants de cadres surreprésentés, financement/étudiant >> universités *(confirmé : prépa 18 560 €/an vs université 12 250 € (DEPP) ; accès grandes écoles 1,6 % défavorisés vs 16 % très favorisés (France Stratégie) — cf. mem b66c52bb)*
 - **F-008** : Précarité étudiante : 1 étudiant sur 2 saute des repas, files d'attente aux banques alimentaires
 - **F-009** : Notation 0-20 anxiogène : système compétitif de classement dès le primaire
-- **F-010** : Baccalauréat : 90 %+ de réussite, grade inflation, perte de valeur signal
+- **F-010** : Baccalauréat : 90 %+ de réussite, grade inflation, perte de valeur signal *(confirmé définitif : 91,4 % en 2026, ≈91,8 % en 2025 ; provisoire 85,5 % ; 62 % enfants d'ouvriers vs 94 % enfants de cadres (France Stratégie) — cf. mem cee2ae38)*
 - **F-011** : Syndicats enseignants : 30 % de syndiqués (vs 10 % privé), FSU en tête, grèves fréquentes
 - **F-012** : Réformes récentes : Blanquer 2019 (bac), Attal 2023 (groupes de niveau, uniformes, redoublement)
 - **F-013** : Écrans à l'école : distraction massive, baisse d'attention documentée, « capital attentionnel » en danger
@@ -87,12 +87,12 @@ FCT-001 | FACT | ✧ | https://www.senat.fr/rap/l25-139-313/l25-139-313_mono.htm
 FCT-002 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
 FCT-003 | FACT | ✧ | https://www.vie-publique.fr/eclairage/19539-resultats-des-eleves-la-france-et-le-classement-pisa-2022 | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | 590ebcdf-5c63-4961-ae3f-e470dfb040af
 FCT-004 | FACT | ✧ | https://www.vie-publique.fr/eclairage/19539-resultats-des-eleves-la-france-et-le-classement-pisa-2022 | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | 590ebcdf-5c63-4961-ae3f-e470dfb040af
-FCT-005 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-005 | FACT | ✧ | https://www.leparisien.fr/societe/recrutement-des-enseignants-plus-de-3-100-postes-non-pourvus-aux-concours-en-2023-06-07-2023-RZP4H4S4FRE7HF7T2TJXFJXJHE.php | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | 21f01545-5980-4bde-8c0c-c7975a2e8dd4
 FCT-006 | FACT | ✧ | https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_14/default/table?lang=en | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | c59c597e-b731-4702-8ffa-a3c69c974bf5
-FCT-007 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-007 | FACT | ✧ | https://www.inegalites.fr/scolarite-combien-coutent-les-eleves-et-les-etudiants | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | b66c52bb-4a17-4986-a19a-a427d96411e1
 FCT-008 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
 FCT-009 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
-FCT-010 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-010 | FACT | ✧ | https://www.leparisien.fr/societe/resultats-du-baccalaureat-2026-le-taux-de-reussite-definitif-s-eles-11-07-2026 | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | cee2ae38-777e-4267-b282-e248b6d8247c
 FCT-011 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
 FCT-012 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
 FCT-013 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
