@@ -156,7 +156,7 @@ BIAS TEST : PASS
 
 <!-- FACT_REGISTRY_V1 -->
 FCT-001 | FACT | ✧ | https://www.senat.fr/rap/l25-139-328-1/l25-139-328-1_mono.html | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | 50b9e18f-c2f2-4252-8a06-460555858ec3
-FCT-002 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
+FCT-002 | FACT | ✧ | https://www.interieur.gouv.fr/Le-ministere/Police-nationale | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | c706cb69-cc49-4a41-bc19-b9b778395c90
 FCT-003 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
 FCT-004 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
 FCT-005 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -

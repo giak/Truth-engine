@@ -311,7 +311,7 @@ WOLF_INTERNATIONAL:
 | F2 | Budget police ~+30 % depuis 2017 (19,51 Md€ CP 2017 → ~25 Md€ CP 2026) | Cour des comptes 2017, Sénat n°139 | ✦ |
 | F3 | Ratio police/justice 2,5:1 | CEVIPOF, CEPEJ | ✦ |
 | F4 | Sécurité privée : 11,12 Md€ (2023) | Rapports branche | ✧ |
-| F5 | Effectifs : 252 300 + 30 000 municipaux | PLF 2026 | ✦ |
+| F5 | Effectifs officiels : police nationale « plus de 150 000 » personnes, gendarmerie « près de 98 000 » | interieur.gouv.fr | ✦ *(correction source primaire 2026-08-20 : le « 252 300 + 30 000 municipaux » du PAP PLF 2026 n'a pas été confirmé, document inaccessible)* |
 | F6 | 714 jours état d'urgence cumulés (2015-2017) | Vie Publique | ✦ |
 | F7 | 6 lois sécuritaires post-2015, zéro abrogation | Légifrance | ✦ |
 | F8 | 38 décès interventions police (2022) | IGPN | ✧ |
@@ -333,7 +333,7 @@ FCT-001 | FACT | ✦ | https://www.senat.fr/rap/l25-139-328-1/l25-139-328-1_mono
 FCT-002 | FACT | ✦ | https://www.senat.fr/rap/l25-139-328-1/l25-139-328-1_mono.html | - | - | 2026-07-08_23-00_police_francaise | - | c6f4775b-e91b-4726-bd94-96c6f3588597
 FCT-003 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
 FCT-004 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
-FCT-005 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-005 | FACT | ✧ | https://www.interieur.gouv.fr/Le-ministere/Police-nationale | - | - | 2026-07-08_23-00_police_francaise | - | c706cb69-cc49-4a41-bc19-b9b778395c90
 FCT-006 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
 FCT-007 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
 FCT-008 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
