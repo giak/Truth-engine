@@ -57,7 +57,7 @@ Les deux `403` ne sont donc pas des verdicts. Dans un cas, le navigateur a néan
 - Trois candidats utilisent la page EFCSN et un quatrième candidat déjà traité utilise la même page. Les entités sont distinctes : les mémoires similaires ne sont pas des doublons.
 - La page ADMO couvre deux candidats différents ; cette réutilisation de source est valide, avec un locator propre à chaque claim.
 - Une erreur de provenance a été détectée sur le premier candidat ADMO : la redirection `/` → `/en/` n'était pas conservée séparément. La mémoire a été corrigée avant clôture du lot.
-- Les dix manifestes locaux copient les clés exactes du CSV et restent initialisés `NOT_VERIFIED`, `memory_id=null`, `writeback_allowed=false`.
+- Les dix manifestes locaux copient les clés exactes du CSV. Les six candidats non écrits restent `NOT_VERIFIED`, `memory_id=null`, `writeback_allowed=false` ; les quatre candidats écrits ont été rebouclés vers leur `memory_id`, niveau `L2` et locator.
 
 ## Conclusion opérationnelle
 

@@ -8,11 +8,11 @@
   "source_document": "FACTCHECK_CYCLE17_ECOSYSTEM_REGISTRY_GRAPH_2026-08-17.md",
   "source_ref": "INV-ECOSYSTEM-REGISTRY-67",
   "raw_epistemic_status": "FACT",
-  "verification_status": "NOT_VERIFIED",
-  "verification_level": "L0",
-  "excerpt_ok": false,
-  "locator": null,
-  "memory_id": null,
-  "writeback_allowed": false,
+  "verification_status": "VERIFIE",
+  "verification_level": "L2",
+  "excerpt_ok": true,
+  "locator": "section VERIFIED MEMBERS; entry Internews Kosova - KALLXO",
+  "memory_id": "5b3ccf27-a0b0-45d7-bc63-0d343c2d259d",
+  "writeback_allowed": true,
   "policy": "LOCAL_ONLY; source must be read and classified L0-L4 before any write-back."
 }
