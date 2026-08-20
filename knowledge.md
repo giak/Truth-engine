@@ -90,7 +90,9 @@ Après un échec, appliquer `truth-engine-v2/protocol/FACT_VERIFICATION.md` §4.
 
 Snippet, résultat de recherche, mémoire Mnemolite, synthèse locale et copie interne ne remplacent jamais l'extrait primaire. Une page modifiée produit une dérive à journaliser, pas une réécriture silencieuse. Une absence dans une page non exhaustive produit `NO_ASSERTION`, pas `REFUTED`.
 
-Aucun write-back à L0 : `EXCERPT_OK` + gate applicable seulement, `VERIFIE` à L1-L3, `CONFIRME` à L4.
+Le niveau enregistré est le niveau maximal atteint, jamais une plage : écrire `L1` ou `L2`, pas `L1/L2`. `L2` exige un locator exact et rejouable ; le titre, la date et l'URL seuls ne suffisent pas. Une URL de remplacement doit conserver l'URL initiale, l'URL utilisée et le motif du remplacement.
+
+Aucun write-back à L0 : `EXCERPT_OK` + gate applicable seulement, `VERIFIE` à L1-L3, `CONFIRME` à L4. Pour un candidat issu exceptionnellement d'un corpus structuré externe, appliquer le profil minimal de FACT_VERIFICATION §4.8 ; ce profil ne certifie ni un dossier KERNEL ni `CONFIRME`.
 
 ### Vérification pré-affirmation
 

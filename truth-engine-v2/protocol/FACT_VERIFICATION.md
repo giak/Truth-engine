@@ -29,14 +29,13 @@ Un snippet Google ou une phrase « qui sonne juste » n'est jamais une source : 
 
 ## 2. L'échelle de vérification (machine à états, L0 → L4)
 
-Un candidat-fait monte l'échelle. Chaque niveau est mécanique et falsifiable. Un fait ne reçoit ✦
-et `status:CONFIRME` qu'à L4.
+Un candidat-fait monte l'échelle. Chaque niveau est mécanique et falsifiable. On enregistre toujours le niveau maximal atteint, jamais une plage : `L2`, et non `L1/L2`. Un fait ne reçoit ✦ et `status:CONFIRME` qu'à L4.
 
 | Niveau | Nom | Condition | Statut Mnemolite résultant |
 |--------|-----|-----------|------------------------------|
 | L0 | CANDIDAT | assertion LLM (rappel ou snippet), aucune URL lue | rien (pas de write) |
 | L1 | FETCHÉ | @FETCH de l'URL primaire + EXCERPT_OK (extrait borné, exact, autonome) | `status:VERIFIE` |
-| L2 | ANCRÉ | ANCHOR_OK : SRC-ID + locator exact + URL canonique + date | `status:VERIFIE` |
+| L2 | ANCRÉ | ANCHOR_OK : SRC-ID + locator exact et rejouable + URL canonique + date | `status:VERIFIE` |
 | L3 | RECOUPÉ | ≥2 sources de **familles de provenance distinctes** (A/B/C/D/E, cf. KERNEL §0 BIAS_PREFLIGHT) affirment le même fait, chacune FETCHÉE | `status:VERIFIE` (en attente de gate EPI) |
 | L4 | CONFIRMÉ | L3 + gate EPI = FACT + REFUTATION_SEARCHED (≥1 contre-requête explicite) sans réfutation trouvée | `status:CONFIRME` + `verifie-YYYY-MM-DD` |
 
@@ -72,24 +71,30 @@ NEVER: écrire une mémoire `status:CONFIRME` pour un objet EPI != FACT.
 
 ## 4. Registre des faits Mnemolite (schéma unique, « registre des faits »)
 
-Chaque fait L4 est écrit une seule fois, avec clé déterministe :
+Chaque fait FACT écrit à L1-L4 l'est une seule fois, avec clé déterministe et niveau maximal explicite :
 
 ```
 title            = {fait condensé, ≤200 chars, forme interrogable}
-content          = "FAIT VÉRIFIÉ : {énoncé factuel exact}\n\n"
-                   "SOURCE : {institution/auteur} ({date de publication})\n"
+content          = "FAIT VÉRIFIÉ : {énoncé factuel exactement borné par l'extrait}\n\n"
+                   "SOURCE_ORIGINALE : {url initiale ou -}\n"
+                   "SOURCE_UTILISÉE : {institution/auteur} ({date de publication})\n"
                    "URL : {url canonique}\n"
-                   "EXCERPT : {extrait verbatim borné}\n"
-                   "CROSS-CHECK : {source 2, famille de provenance}\n"
+                   "LOCATOR : {locator exact ou NON ÉTABLI}\n"
+                   "EXCERPT : {extrait verbatim borné + méthode d'accès}\n"
+                   "CROSS-CHECK : {source 2 et famille, ou NON EFFECTUÉ}\n"
                    "EPI : FACT\n"
+                   "VERIFICATION_LEVEL : {L1|L2|L3|L4}\n"
+                   "UPSTREAM_ID : {identifiant amont ou -}\n"
+                   "UPSTREAM_KEY : {clé amont ou -}\n"
 memory_type      = "note"
-tags             = [ "status:CONFIRME", "verifie-YYYY-MM-DD",
-                     "source:"+{hash10}, "project:truth-engine", {tags domaine/entité SANS « : »} ]
+tags             = [ "status:VERIFIE|status:CONFIRME", "source:"+{hash10},
+                     "project:truth-engine", {tags domaine/entité SANS « : »} ]
 embedding_source = {résumé structuré 200-400 mots : sujet, thèmes, entités, période}  # pour la recherche sémantique
 ```
 
-Clé de déduplication (`evidence_key`, KERNEL §19a) : `canonical_url + locator` ou `hash`.
-Duplicate → `update_memory` (jamais de doublon). L'URL **cliquable** est obligatoire, jamais un domaine.
+Un fait L1 peut être écrit `status:VERIFIE` sans locator L2, mais il ne doit pas être décrit comme ancré. Un fait L2 doit porter son locator ; un fait L3 doit porter les sources et familles distinctes ; un fait L4 doit en plus porter la contre-recherche. L'énoncé écrit doit être réduit à ce que l'extrait établit : un qualificatif temporel, causal ou quantitatif non présent dans l'extrait devient une réserve ou un claim séparé.
+
+Clé de déduplication (`evidence_key`, KERNEL §19a) : `canonical_url + locator` ou `canonical_id` stable. `source:{hash10}` est le hash de cette clé de preuve pour la déduplication ; ce n'est pas un hash du contenu de la page. Un hash de contenu peut être ajouté séparément lorsqu'il est calculable. Duplicate → `update_memory` (jamais de doublon). L'URL **cliquable** est obligatoire, jamais un domaine.
 
 ## 4.5 Bloc machine-readable FACT_REGISTRY_V1 (markdown)
 
@@ -177,19 +182,46 @@ PREUVE  : SUPPORTS | CONTRADICTS | PARTIAL | NO_ASSERTION | DRIFT | GAP
 3. **Lecture manuelle.** Si seul l'utilisateur ou un navigateur interactif lit la page, conserver un
    extrait verbatim borné avec URL, titre ou section, date et méthode `(fetché manuel)`. « La page
    fonctionne » ne constitue pas `EXCERPT_OK` sans cet extrait.
-4. **Remplacement et dérive.** Une nouvelle URL est une nouvelle pièce : conserver URL, émetteur, date,
-   locator et extrait séparément. Une page actuelle qui ne mentionne plus un fait ancien produit `DRIFT`
-   ou `NO_ASSERTION`, jamais `CONTRADICTS` si la page n'est pas exhaustive. Ne jamais écraser
-   silencieusement une citation ou un `memory_id` ancien.
+4. **Remplacement, dérive et portée.** Une nouvelle URL est une nouvelle pièce : conserver URL initiale,
+   URL utilisée, motif du remplacement, émetteur, date, locator et extrait séparément. Une page actuelle qui
+   ne mentionne plus un fait ancien produit `DRIFT` ou `NO_ASSERTION`, jamais `CONTRADICTS` si la page n'est
+   pas exhaustive. Ne jamais écraser silencieusement une citation ou un `memory_id`. Le claim écrit doit
+   être strictement borné par l'extrait : la provenance du candidat ne transfère pas ses qualificatifs au fait.
 5. **Preuve et écriture.** Snippet, résultat de recherche, mémoire Mnemolite, synthèse et copie interne
-   sont des leads, pas des extraits primaires. Sans `EXCERPT_OK` et `ANCHOR_OK`, le candidat reste L0.
-   `VERIFIE` est autorisé à L1-L3 ; `CONFIRME` exige L4. Aucun write-back à L0.
+   sont des leads, pas des extraits primaires. Sans `EXCERPT_OK`, le candidat reste L0 ; sans `ANCHOR_OK`,
+   il reste L1 au maximum. `VERIFIE` est autorisé à L1-L3 ; `CONFIRME` exige L4. Aucun write-back à L0.
 
 Trace minimale :
 
 ```text
-URL | ACCESS_METHOD | ACCESS_STATE | ACCESSED_AT | LOCATOR | EXCERPT | EVIDENCE_STATE | NEXT_ACTION
+URL_ORIGINALE | URL_UTILISÉE | REASON_REPLACED | ACCESS_METHOD | ACCESS_STATE | ACCESSED_AT | LOCATOR | EXCERPT | EVIDENCE_STATE | NEXT_ACTION
 ```
+
+## 4.8 Import contrôlé d'un candidat structuré hors dossier KERNEL
+
+Ce profil sert uniquement à tester ou importer exceptionnellement un candidat atomique provenant d'un
+corpus structuré externe (par exemple SQLite, CSV ou registre local). Il ne remplace pas le dossier KERNEL
+ni sa gate de livraison.
+
+Avant `write_memory`, le manifeste local doit contenir :
+
+```text
+UPSTREAM_ID + UPSTREAM_KEY stables, ou justification de leur absence
+EPI=FACT
+SOURCE_REF_ORIGINALE + SOURCE_REF_UTILISÉE + motif du remplacement éventuel
+EXCERPT_OK + ACCESS_METHOD + ACCESSED_AT
+VERIFICATION_LEVEL = niveau maximal unique (L1, L2, L3 ou L4)
+LOCATOR exact si L2+
+FAMILIES et contre-requête si L3/L4
+```
+
+Le write-back est autorisé seulement si ces champs sont cohérents. Il écrit `status:VERIFIE` à L1-L3 et
+`status:CONFIRME` à L4, capture l'identifiant réellement retourné, puis reboucle `UPSTREAM_ID → memory_id`
+dans le manifeste. Le compteur avant/après est contrôlé. Une erreur de niveau, de portée du claim, de
+locator ou d'identifiant bloque l'écriture et laisse le candidat `NOT_VERIFIED`.
+
+Un import hors KERNEL ne doit pas être présenté comme une investigation certifiée. Pour un dossier KERNEL,
+la séquence §19a puis §19b et le gate `verify.py` restent obligatoires.
 
 ## 5. Contrat de confiance (ce que `status:CONFIRME` garantit, et ne garantit pas)
 
