@@ -44,6 +44,20 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁂ hypot
 | FCT-10 | **Le « 80 k€ Fonds Marianne → ISD » n'est pas reproduit en primaire** : source unique OJIM, aucun document CIPDR/IGA ne le confirme. Rétrogradé ⁕ (dossier 10-44). | ⁕ | — |
 | FCT-11 | Ripost (CW) est financé par le **Fonds Marianne 60 000 € (2021)** via le CIPDR — établi ✦ (dossier 10-37). Le « concours » de l'ISD à Ripost repose sur OJIM (source hostile unique). | ✦/◉ | dossier 10-37 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5010329/full-print | - | - | 12-45_isd-triangulation | - | 26fa5c15-0744-40ce-b2bd-68194a14fe66
+FCT-02 | FACT | ✧ | https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5010329/full-print | - | - | 12-45_isd-triangulation | - | fedb053a-2683-4ff5-b69d-d9ee716aebb8
+FCT-03 | FACT | ✧ | https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5010329/full-print | - | - | 12-45_isd-triangulation | - | 2141459d-8a3d-476c-9350-cab826cb8223
+FCT-04 | FACT | ✧ | https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5010329/full-print | - | - | 12-45_isd-triangulation | - | 670b43c1-87fe-41b1-8048-6e6d8d534785
+FCT-05 | FACT | ✧ | https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5010329/full-print | - | - | 12-45_isd-triangulation | - | 48097f5a-8b13-494f-9342-b0e6e685de7b
+FCT-06 | FACT | ✧ | https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/5010329/full-print | - | - | 12-45_isd-triangulation | - | ee251bed-cf17-455a-a988-10b4abf4171c
+FCT-07 | FACT | ✧ | https://www.isdglobal.org/partnerships-and-funders/ | - | - | 12-45_isd-triangulation | - | c769084f-0a1e-471f-b103-524abfec89e1
+FCT-08 | FACT | ⁅ | - | - | - | 12-45_isd-triangulation | - | -
+FCT-09 | FACT | ❧ | - | - | - | 12-45_isd-triangulation | - | -
+FCT-10 | FACT | ❧ | - | - | - | 12-45_isd-triangulation | - | -
+FCT-11 | FACT | ❧ | - | - | - | 12-45_isd-triangulation | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

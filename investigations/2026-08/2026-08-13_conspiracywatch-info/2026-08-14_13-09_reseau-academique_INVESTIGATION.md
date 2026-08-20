@@ -39,6 +39,16 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-06 | Autres membres ORAP : **Nicolas Lebourg** (historien, chercheur, Univ. Montpellier), Sylvain Crépon, Joël Gombin. | ✦ | SRC-02 |
 | FCT-07 | Valérie Igounet est « chercheuse associée à l'Institut d'Histoire du Temps Présent (**IHTP/CNRS**) » (dossier 13-11/Ulule). | ✦ | Ulule |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://fr.wikipedia.org/wiki/Fondation_Jean-Jaurès | - | - | 13-09_reseau-academique | - | 0ed06764-20eb-4381-8ecf-d6d71d87ebda
+FCT-02 | FACT | ✧ | https://www.jean-jaures.org/wp-content/uploads/2024/04/RA-2023.pdf | - | - | 13-09_reseau-academique | - | 0e0927b4-d973-4681-85c8-d3b4d5d4b9f9
+FCT-03 | FACT | ✧ | https://www.jean-jaures.org/wp-content/uploads/2024/04/RA-2023.pdf | - | - | 13-09_reseau-academique | - | 6bccbfbe-2137-4b73-99aa-5fd36d424785
+FCT-04 | FACT | ✧ | https://www.jean-jaures.org/wp-content/uploads/2024/04/RA-2023.pdf | - | - | 13-09_reseau-academique | - | 9fff2f58-a6b9-4458-9d5c-d6bad46152df
+FCT-05 | FACT | ✧ | https://www.jean-jaures.org/wp-content/uploads/2024/04/RA-2023.pdf | - | - | 13-09_reseau-academique | - | 2976aaf1-5201-4fff-b178-ef95666335b8
+FCT-06 | FACT | ✧ | https://fr.wikipedia.org/wiki/Fondation_Jean-Jaurès | - | - | 13-09_reseau-academique | - | 952736c1-c1aa-4d88-b2ca-c604974f87d2
+FCT-07 | FACT | ❧ | - | - | - | 13-09_reseau-academique | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

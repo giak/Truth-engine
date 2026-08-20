@@ -45,6 +45,14 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-04 | **CW / Observatoire du conspirationnisme ne figure PAS dans la liste des signaleurs de confiance.** | ✦ | SRC-01 (absence documentée) |
 | FCT-05 | Le **Crif** est signaleur de confiance — or **Pierre-André Taguieff (mentor/parrain de CW) fut « conseiller du CRIF »** (dossier 12-50). La LICRA également. | ✦ | SRC-01 + dossier 12-50 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://digital-strategy.ec.europa.eu/fr/policies/trusted-flaggers-under-dsa | - | - | 12-59_signaleurs-confiance-arcom | - | 7f78b8dc-3dbe-4e94-a696-01b4a1e3eaea
+FCT-02 | FACT | ✧ | https://digital-strategy.ec.europa.eu/fr/policies/trusted-flaggers-under-dsa | - | - | 12-59_signaleurs-confiance-arcom | - | a42d4094-61a1-4fe2-8788-8d1e1a5a7772
+FCT-03 | FACT | ✧ | https://www.arcom.fr/nous-connaitre-nos-missions/superviser-les-plateformes-en-ligne-et-les-reseaux-sociaux/reglement-sur-les-services-numeriques-dsa-liste-des-signaleurs-de-confiance-designes-par-larcom | - | - | 12-59_signaleurs-confiance-arcom | - | 009f2820-16c0-4787-9dbc-da7a918ba22c
+FCT-04 | FACT | ✧ | https://www.arcom.fr/nous-connaitre-nos-missions/superviser-les-plateformes-en-ligne-et-les-reseaux-sociaux/reglement-sur-les-services-numeriques-dsa-liste-des-signaleurs-de-confiance-designes-par-larcom | - | - | 12-59_signaleurs-confiance-arcom | - | d1ed35e0-6782-46d3-aadf-9cccfc147f51
+FCT-05 | FACT | ❧ | - | - | - | 12-59_signaleurs-confiance-arcom | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

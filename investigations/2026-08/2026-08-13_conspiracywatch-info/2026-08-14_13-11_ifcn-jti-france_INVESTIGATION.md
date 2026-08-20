@@ -38,6 +38,13 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-03 | **JTI (RSF)** : standard international (130 critères : identité/transparence + professionnalisme/responsabilité). Certifiés France : **France Médias Monde** (renouvelé 29/10/2025), **Radio France** (05/2025), **Les Surligneurs**, AFP. | ✦ | SRC-02/03/04 |
 | FCT-04 | **CW n'est ni signataire IFCN, ni certifié JTI** — confirmé dans tous les benchmarks (dossiers 10-39, 11-06, 12-58). | ✦ | dossiers antérieurs |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ❧ | - | - | - | 13-11_ifcn-jti-france | - | -
+FCT-02 | FACT | ❧ | - | - | - | 13-11_ifcn-jti-france | - | -
+FCT-03 | FACT | ❧ | - | - | - | 13-11_ifcn-jti-france | - | -
+FCT-04 | FACT | ❧ | - | - | - | 13-11_ifcn-jti-france | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

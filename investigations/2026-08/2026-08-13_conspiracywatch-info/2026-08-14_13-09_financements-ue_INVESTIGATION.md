@@ -40,6 +40,16 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-06 | **CW/ODC ne perçoit AUCUNE aide européenne** (Pappers : « Aucune aide européenne n'est disponible pour cette entreprise »). | ✦ | SRC-04 |
 | FCT-07 | CW n'est membre ni d'EDMO, ni de l'EFCSN, ni d'un hub EDMO — donc **inéligible** aux guichets EFCSN (70 k€/projet) et Democracy Shield (5 M€). | ✦ | dossiers 10-39, 12-58 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://www.afp.com/en/european-projects | - | - | 13-09_financements-ue | - | 8e831052-08e3-4d4e-9c06-576341c0e388
+FCT-02 | FACT | ✧ | https://digital-strategy.ec.europa.eu/en/news/commission-boosts-independent-fact-checking-eu5-million-grant-under-european-democracy-shield | - | - | 13-09_financements-ue | - | 0675321e-31c8-4290-a00c-56c94a06f9ea
+FCT-03 | FACT | ❧ | - | - | - | 13-09_financements-ue | - | -
+FCT-04 | FACT | ❧ | - | - | - | 13-09_financements-ue | - | -
+FCT-05 | FACT | ❧ | - | - | - | 13-09_financements-ue | - | -
+FCT-06 | FACT | ✧ | https://www.pappers.fr/entreprise/observatoire-du-conspirationnisme-805407194 | - | - | 13-09_financements-ue | - | 24ebd818-380a-471c-8efe-ac1ea0710596
+FCT-07 | FACT | ❧ | - | - | - | 13-09_financements-ue | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

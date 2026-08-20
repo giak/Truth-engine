@@ -37,6 +37,15 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-05 | Revenus ISD : 1,4 M£ (2016) → **6,1 M£ (2024)** ; effectif 25 (2016) → 42 (2024). | ✦ | SRC-01 |
 | FCT-06 | L'Open Society Institute a financé des projets ISD (médias sociaux / intolérance). | ✦ | SRC-01 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://fr.wikipedia.org/wiki/Institute_for_Strategic_Dialogue | - | - | 13-07_isd-france-correction | - | 8293702a-6be0-424a-9dd7-1951ce558161
+FCT-02 | FACT | ✧ | https://fr.wikipedia.org/wiki/Institute_for_Strategic_Dialogue | - | - | 13-07_isd-france-correction | - | eb9ca612-e378-410e-87cb-54460514253a
+FCT-03 | FACT | ✧ | https://fr.wikipedia.org/wiki/Institute_for_Strategic_Dialogue | - | - | 13-07_isd-france-correction | - | 6c6ce497-af6f-4101-b4f9-0c4947ce8cf6
+FCT-04 | FACT | ✧ | https://fr.wikipedia.org/wiki/Institute_for_Strategic_Dialogue | - | - | 13-07_isd-france-correction | - | d35db064-523f-44d2-9364-9d1605a9bc03
+FCT-05 | FACT | ✧ | https://fr.wikipedia.org/wiki/Institute_for_Strategic_Dialogue | - | - | 13-07_isd-france-correction | - | 37d0e491-9971-436d-bcff-2ccc47036f81
+FCT-06 | FACT | ✧ | https://fr.wikipedia.org/wiki/Institute_for_Strategic_Dialogue | - | - | 13-07_isd-france-correction | - | a7321b23-5687-42b5-864f-194bbd66432f
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

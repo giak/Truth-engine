@@ -38,6 +38,15 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-05 | Meta a **retiré son programme de fact-checking tiers aux États-Unis (01/2025)** mais l'a **maintenu en UE** (sous contrainte DSA). | ✦ | SRC-03 + dossiers antérieurs |
 | FCT-06 | Les montants individuels Meta/TikTok → chaque partenaire sont **non publiés (⁅)**. | ⁅ | — |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://transparency.meta.com/sr/france-legislative-election-report-2024 | - | - | 13-05_contrats-plateformes | - | fc026732-8e87-48bd-bafb-df05f42cafe5
+FCT-02 | FACT | ✧ | https://transparency.meta.com/sr/france-legislative-election-report-2024 | - | - | 13-05_contrats-plateformes | - | 92780bc5-4b1f-4759-9fc0-5a768ffb4490
+FCT-03 | FACT | ❧ | - | - | - | 13-05_contrats-plateformes | - | -
+FCT-04 | FACT | ❧ | - | - | - | 13-05_contrats-plateformes | - | -
+FCT-05 | FACT | ❧ | - | - | - | 13-05_contrats-plateformes | - | -
+FCT-06 | FACT | ⁅ | - | - | - | 13-05_contrats-plateformes | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

@@ -41,6 +41,17 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-07 | Meta a retiré son programme de fact-checking tiers aux États-Unis (2025) ; en UE, le **DSA** et le **Code of Conduct on Disinformation (2025)** sont désormais les garde-fous légaux. | ✦ | SRC-03 |
 | FCT-08 | **CW n'est membre ni de l'EFCSN (60+ membres), ni de l'IFCN, ni d'un hub EDMO, ni de la JTI** — alors que Les Surligneurs (son comparable français) est IFCN + EFCSN + EDMO. | ✦ | dossiers 10-39, 11-06 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://digital-strategy.ec.europa.eu/en/policies/european-digital-media-observatory | - | - | 12-58_comparatif-ue | - | b233821e-13bf-47db-95ed-09b0cf6cf9a8
+FCT-02 | FACT | ✧ | https://efcsn.com/about/ | - | - | 12-58_comparatif-ue | - | c40e5bff-e042-4d8f-ad80-e0051d056cf8
+FCT-03 | FACT | ✧ | https://efcsn.com/about/ | - | - | 12-58_comparatif-ue | - | 49cb9e1a-aa8b-427e-88e6-f31749ecaa72
+FCT-04 | FACT | ✧ | https://efcsn.com/about/ | - | - | 12-58_comparatif-ue | - | 19b6cc92-61e6-4291-98cb-be3657686372
+FCT-05 | FACT | ❧ | - | - | - | 12-58_comparatif-ue | - | -
+FCT-06 | FACT | ✧ | https://misinforeview.hks.harvard.edu/article/accountability-in-name-only-fact-checking-under-the-eus-code-of-practice-on-disinformation/ | - | - | 12-58_comparatif-ue | - | e841c202-b608-4726-9f8a-aa5d486d996f
+FCT-07 | FACT | ✧ | https://misinforeview.hks.harvard.edu/article/accountability-in-name-only-fact-checking-under-the-eus-code-of-practice-on-disinformation/ | - | - | 12-58_comparatif-ue | - | 4035969e-f810-43f6-abf1-cfa2dde9480d
+FCT-08 | FACT | ❧ | - | - | - | 12-58_comparatif-ue | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

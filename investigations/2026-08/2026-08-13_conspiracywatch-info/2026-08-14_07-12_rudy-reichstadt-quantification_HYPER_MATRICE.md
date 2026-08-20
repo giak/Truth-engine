@@ -50,6 +50,10 @@ Le rapport d'activité DILCRAH 2023 liste « Observatoire du conspirationnisme �
 
 ---
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-028 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 07-12_rudy-reichstadt-quantification | - | 18b00edd-86dc-47b9-ad76-9d218a71d8cc
+<!-- /FACT_REGISTRY_V1 -->
+
 ## REQUEST_LOG
 
 | # | ACTION | RESULT |

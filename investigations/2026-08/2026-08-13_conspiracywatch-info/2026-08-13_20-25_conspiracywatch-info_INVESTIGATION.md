@@ -191,6 +191,23 @@ No verified causal chain beyond l'ENABLER structurel (CAU-001). L'argument « un
 | FCT-013 | Montant exact FMS : non public. | ⁅ | GAP_ACCESS |
 | FCT-014 | « Négation Europe 1 2019 » (prior-investigation) : non réouverte. | ⁕ | GAP_AUTHENTICITY |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ✧ | https://www.helloasso.com/associations/observatoire-du-conspirationnisme | - | - | 20-25_conspiracywatch-info | - | f4d28da1-7624-4a3e-b2cc-a85d7745c5b2
+FCT-002 | FACT | ✧ | https://fr.wikipedia.org/wiki/Conspiracy_Watch | - | - | 20-25_conspiracywatch-info | - | b548c69c-f3bb-468a-b18b-50d9aa7a448b
+FCT-003 | FACT | ✧ | https://www.helloasso.com/associations/observatoire-du-conspirationnisme | - | - | 20-25_conspiracywatch-info | - | 2672223c-aeaa-4446-9c2f-4cd92cfcf48c
+FCT-004 | FACT | ✧ | https://www.helloasso.com/associations/observatoire-du-conspirationnisme | - | - | 20-25_conspiracywatch-info | - | 8521eb47-74d5-49c8-a269-59ea28c14d32
+FCT-005 | FACT | ✧ | https://www.helloasso.com/associations/observatoire-du-conspirationnisme | - | - | 20-25_conspiracywatch-info | - | 166187f4-1b65-440e-891a-58598e9c1316
+FCT-006 | FACT | ✧ | https://www.helloasso.com/associations/observatoire-du-conspirationnisme | - | - | 20-25_conspiracywatch-info | - | f7b9a3b7-fa3e-4266-82e6-958d08b9e193
+FCT-007 | FACT | ✧ | https://fr.wikipedia.org/wiki/Conspiracy_Watch | - | - | 20-25_conspiracywatch-info | - | cca8199c-4975-4e66-8fdf-6eff5c688e12
+FCT-008 | FACT | ❧ | - | - | - | 20-25_conspiracywatch-info | - | -
+FCT-009 | FACT | ✧ | https://www.blast-info.fr/articles/2023/conspiracy-watch-2-subventions-en-cascade-sous-la-presidence-macron-cFyeHFIhSDCkfIXp9ZTW2w | - | - | 20-25_conspiracywatch-info | - | 885c054e-55be-40cf-ab9c-462123faf2a7
+FCT-010 | FACT | ✧ | https://www.monde-diplomatique.fr/mav/158/BREVILLE/58491 | - | - | 20-25_conspiracywatch-info | - | eed63c87-2b6d-40be-aa6c-0a36dda9c17b
+FCT-011 | FACT | ✧ | https://www.off-investigation.fr/conspiracy-watch-anticomplotisme-au-service-du-pouvoir-politique/ | - | - | 20-25_conspiracywatch-info | - | 959d6285-0705-4741-9f14-4b062e4ceada
+FCT-012 | FACT | ✧ | https://fr.wikipedia.org/wiki/Conspiracy_Watch | - | - | 20-25_conspiracywatch-info | - | eb13f2f3-e837-4e51-b8b1-fcc02175d64e
+FCT-013 | FACT | ⁅ | - | - | - | 20-25_conspiracywatch-info | - | -
+FCT-014 | FACT | ❧ | - | - | - | 20-25_conspiracywatch-info | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 **LEAD_REGISTRY / OBJECT_COVERAGE / INVESTIGATION_MAP** : voir checkpoint compact (§STATE), reproduits ici en forme courte.
 
 **TRACE_MATRIX (extrait)**

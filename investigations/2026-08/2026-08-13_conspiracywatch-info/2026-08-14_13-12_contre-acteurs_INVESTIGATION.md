@@ -39,6 +39,15 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-05 | Giry : le « complotisme » comme catégorie idéologique | **CONFIRMÉ académiquement** : Giry (et Kreis) documentent que la catégorie « complotisme » sert aussi à disqualifier des critiques légitimes. C'est la critique la plus profonde, visant le cadre lui-même. | ✦ (débat académique) |
 | FCT-06 | **Position des critiques eux-mêmes** : Ismaïli est hébergée par **UPR (Asselineau), André Bercoff, Greg Tabibian** — la sphère souverainiste ; Blast et Le Monde diplomatique sont **à gauche** ; Giry est **académique** (le plus neutre). | ✦ | sources (UPR.fr, YouTube, PRIM) |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ❧ | - | - | - | 13-12_contre-acteurs | - | -
+FCT-02 | FACT | ⁅ | - | - | - | 13-12_contre-acteurs | - | -
+FCT-03 | FACT | ❧ | - | - | - | 13-12_contre-acteurs | - | -
+FCT-04 | FACT | ❧ | - | - | - | 13-12_contre-acteurs | - | -
+FCT-05 | FACT | ❧ | - | - | - | 13-12_contre-acteurs | - | -
+FCT-06 | FACT | ❧ | - | - | - | 13-12_contre-acteurs | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

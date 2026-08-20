@@ -39,6 +39,15 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-05 | AgoraVox/ONC (2013) : « Taguieff est un contributeur **régulier** du site islamophobe Dreuz.info », depuis **2009** (arrivée annoncée officiellement). | ✦ | SRC-04 |
 | FCT-06 | La collaboration Taguieff-Dreuz s'étend donc de **2009 à 2017 (au moins)**, soit **la période exacte** où Taguieff parraine CW (2007) et où CW se professionnalise (2017, FMS). | ✦ | SRC-01/04 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://www.dreuz.com/author/pat/ | - | - | 13-17_taguieff-dreuz | - | 8cbc7af7-2f48-4756-ac9b-76da8f6adf5b
+FCT-02 | FACT | ✧ | https://www.dreuz.com/author/pat/ | - | - | 13-17_taguieff-dreuz | - | 2bd93ec2-6320-4247-915e-5939d92c1e77
+FCT-03 | FACT | ❧ | - | - | - | 13-17_taguieff-dreuz | - | -
+FCT-04 | FACT | ✧ | https://www.dreuz.com/2013/05/lhonneur-perdu-de-pierre-andre-taguieff-47113.html | - | - | 13-17_taguieff-dreuz | - | 9696f10a-bccb-4299-ac99-36d0c3b556e4
+FCT-05 | FACT | ❧ | - | - | - | 13-17_taguieff-dreuz | - | -
+FCT-06 | FACT | ❧ | - | - | - | 13-17_taguieff-dreuz | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

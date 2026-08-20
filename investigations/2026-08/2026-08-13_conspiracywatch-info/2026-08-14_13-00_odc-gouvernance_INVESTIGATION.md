@@ -45,6 +45,19 @@ Statuts : ✦ confirmé (primaire/corroboration) · ✧ probable · ⁕ allégu�
 | FCT-09 | 1 contentieux : Tribunal judiciaire de Paris, 12/06/2024, n° 23/15454, ODC **défendeur**, « prononce la nullité de l'assignation ». **Aucun compte annuel déposé** (confirmé : « Aucun compte n'est disponible »). **Aucune aide européenne** enregistrée. | ✦ | SRC-01 |
 | FCT-10 | Objet associatif (JOAFE 2024) : « édition d'un service de presse en ligne **d'information politique et générale** » — confirme l'auto-qualification « IPG » contredite par la CPPAP (39bisA, dossier 11-11). | ✦ | SRC-01 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://www.pappers.fr/entreprise/observatoire-du-conspirationnisme-805407194 | - | - | 13-00_odc-gouvernance | - | ba027a29-3998-4662-96fa-547c4e29e90c
+FCT-02 | FACT | ✧ | https://fr.wikipedia.org/wiki/Iannis_Roder | - | - | 13-00_odc-gouvernance | - | cfb761bc-17dc-4ab8-b542-def5c2d7db6f
+FCT-03 | FACT | ✧ | https://fr.wikipedia.org/wiki/Iannis_Roder | - | - | 13-00_odc-gouvernance | - | 66544944-8e3c-4861-9d1f-29bba8d453aa
+FCT-04 | FACT | ❧ | - | - | - | 13-00_odc-gouvernance | - | -
+FCT-05 | FACT | ✧ | https://fr.wikipedia.org/wiki/Iannis_Roder | - | - | 13-00_odc-gouvernance | - | 7af1f899-dfa0-47a6-9dde-bc8de0b21676
+FCT-06 | FACT | ✧ | https://www.pappers.fr/entreprise/observatoire-du-conspirationnisme-805407194 | - | - | 13-00_odc-gouvernance | - | 416ab0c8-5859-4c5b-8cc8-76322e94ae9c
+FCT-07 | FACT | ✧ | https://www.pappers.fr/entreprise/observatoire-du-conspirationnisme-805407194 | - | - | 13-00_odc-gouvernance | - | 5dbf19e2-75b4-46f3-b6da-8298f6be8e4b
+FCT-08 | FACT | ✧ | https://www.pappers.fr/entreprise/observatoire-du-conspirationnisme-805407194 | - | - | 13-00_odc-gouvernance | - | df1a9121-568c-41e9-b2c2-0af9d16d2e57
+FCT-09 | FACT | ✧ | https://www.pappers.fr/entreprise/observatoire-du-conspirationnisme-805407194 | - | - | 13-00_odc-gouvernance | - | f9637792-ca87-421a-b2f3-df46b86dba54
+FCT-10 | FACT | ✧ | https://www.pappers.fr/entreprise/observatoire-du-conspirationnisme-805407194 | - | - | 13-00_odc-gouvernance | - | 3af3d634-40a5-4167-8b7f-51cc9acf498f
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

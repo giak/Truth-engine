@@ -38,6 +38,14 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-04 | **CW / Observatoire du conspirationnisme n'est PAS membre de DE FACTO** ni contributeur de ses fact-checks. | ✦ | SRC-01/02 (absence) |
 | FCT-05 | Le réseau EDMO compte au total 14-15 hubs (DE FACTO pour la France, CEDMO pour l'Europe centrale, etc.), tous co-financés par l'UE. | ✦ | dossier 12-58 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://lessurligneurs.eu/projets/de-facto/ | - | - | 13-13_defacto-edmo | - | aaf7b77e-e772-4fe2-936c-37fd25d42767
+FCT-02 | FACT | ✧ | https://defacto-observatoire.fr/About/ | - | - | 13-13_defacto-edmo | - | af3d34e4-3b14-445e-ae9a-02ca323d869a
+FCT-03 | FACT | ✧ | https://defacto-observatoire.fr/About/ | - | - | 13-13_defacto-edmo | - | 1a679c8e-dd78-45fa-8df1-02405166a869
+FCT-04 | FACT | ✧ | https://defacto-observatoire.fr/About/ | - | - | 13-13_defacto-edmo | - | f4f4f690-0171-481c-81a2-c6f14bff4e9e
+FCT-05 | FACT | ❧ | - | - | - | 13-13_defacto-edmo | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

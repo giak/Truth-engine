@@ -42,6 +42,18 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁂ hypot
 | FCT-08 | La page FMS « Rapport 2018 de Conspiracy Watch » confirme : « L'Observatoire du conspirationnisme reçoit le soutien de la Fondation pour la Mémoire de la Shoah. » | ✦ | SRC-04 |
 | FCT-09 | La page HelloAsso de l'ODC affiche un don « Montant libre » ; **aucun total collecté public** n'est affiché sur la page association (le compteur de collecte n'apparaît pas dans le texte extrait). | ⁅ | SRC-03 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://www.fondationshoah.org/sites/default/files/1-fondation/fms-ra-24_web_ok.pdf | - | - | 12-40_fms-cw-montant | - | 9e4a3d28-dd11-4a41-8e97-a43cb8b7693c
+FCT-02 | FACT | ✧ | https://www.fondationshoah.org/sites/default/files/1-fondation/fms-ra-24_web_ok.pdf | - | - | 12-40_fms-cw-montant | - | a8c5cb52-585b-45cb-9df8-16ab216f4266
+FCT-03 | FACT | ✧ | https://www.fondationshoah.org/sites/default/files/1-fondation/fms-ra-24_web_ok.pdf | - | - | 12-40_fms-cw-montant | - | 1faadf98-b7be-418f-9ea9-7b94dbc9c389
+FCT-04 | FACT | ✧ | https://www.fondationshoah.org/sites/default/files/1-fondation/fms-ra-24_web_ok.pdf | - | - | 12-40_fms-cw-montant | - | 97837f53-c716-476f-981c-21ea6e53b2ad
+FCT-05 | FACT | ✧ | https://www.fondationshoah.org/sites/default/files/1-fondation/fms-ra-24_web_ok.pdf | - | - | 12-40_fms-cw-montant | - | cfafa7fe-b120-4925-a135-e0fcb8849d3b
+FCT-06 | FACT | ❧ | - | - | - | 12-40_fms-cw-montant | - | -
+FCT-07 | FACT | ❧ | - | - | - | 12-40_fms-cw-montant | - | -
+FCT-08 | FACT | ✧ | https://www.fondationshoah.org/lutte-contre-lantisemitisme/rapport-2018-de-conspiracy-watch | - | - | 12-40_fms-cw-montant | - | 5ddefdc7-a1b3-498b-b24f-e5bdca0b4f1c
+FCT-09 | FACT | ⁅ | - | - | - | 12-40_fms-cw-montant | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

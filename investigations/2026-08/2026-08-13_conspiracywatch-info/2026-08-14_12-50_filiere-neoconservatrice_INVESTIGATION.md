@@ -44,6 +44,19 @@ Statuts : ✦ confirmé (primaire/corroboration) · ✧ probable · ⁕ allégu�
 | FCT-09 | Taguieff y travaillait « main dans la main avec Millière et Bat Yeor » (figures du courant anti-islam). | ◉ | SRC-03 |
 | FCT-10 | CW cite Taguieff 11 fois dans *L'Opium des imbéciles* et le tient pour « l'auteur qui fait le plus autorité » ; Taguieff a **parrainé** la création de l'Observatoire (2007). | ✦ | dossier 10-52 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://fr.wikipedia.org/wiki/Michel_Taubmann | - | - | 12-50_filiere-neoconservatrice | - | d09e780d-f0a3-4307-85bb-a64879b0cdb5
+FCT-02 | FACT | ✧ | https://fr.wikipedia.org/wiki/Michel_Taubmann | - | - | 12-50_filiere-neoconservatrice | - | 530f8b3e-cfd9-4b52-880b-f726d45da3a3
+FCT-03 | FACT | ✧ | https://fr.wikipedia.org/wiki/Michel_Taubmann | - | - | 12-50_filiere-neoconservatrice | - | 86d74a82-1de4-412a-ae76-09f3ffab2454
+FCT-04 | FACT | ✧ | https://fr.wikipedia.org/wiki/Michel_Taubmann | - | - | 12-50_filiere-neoconservatrice | - | 708f4b11-0392-4ff7-acb2-51b8d95549cc
+FCT-05 | FACT | ✧ | https://www.agoravox.fr/tribune-libre/article/pierre-andre-taguieff-le-neo-con-136134 | - | - | 12-50_filiere-neoconservatrice | - | e1b0936f-5221-4825-b62a-11f45ad48752
+FCT-06 | FACT | ✧ | https://www.agoravox.fr/tribune-libre/article/pierre-andre-taguieff-le-neo-con-136134 | - | - | 12-50_filiere-neoconservatrice | - | 69cd2b97-e42f-488a-9cf9-c99c1153e66a
+FCT-07 | FACT | ✧ | https://www.agoravox.fr/tribune-libre/article/pierre-andre-taguieff-le-neo-con-136134 | - | - | 12-50_filiere-neoconservatrice | - | 91fc49d5-e14e-4661-af12-4e1fef7781cb
+FCT-08 | FACT | ✧ | https://www.agoravox.fr/tribune-libre/article/pierre-andre-taguieff-le-neo-con-136134 | - | - | 12-50_filiere-neoconservatrice | - | f8b898b6-2000-4a7a-b939-3e97b5061b63
+FCT-09 | FACT | ✧ | https://www.agoravox.fr/tribune-libre/article/pierre-andre-taguieff-le-neo-con-136134 | - | - | 12-50_filiere-neoconservatrice | - | 86783ff1-2aff-4689-a078-2b54a9f76a93
+FCT-10 | FACT | ❧ | - | - | - | 12-50_filiere-neoconservatrice | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

@@ -38,6 +38,16 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-06 | L'équipe est « réunie autour de **Rudy Reichstadt, Valérie Igounet et Tristan Mendès France** » (confirme la structure établie au dossier 13-00). | ✦ | SRC-01 |
 | FCT-07 | CW affirme avoir « **systématiquement gagné** » les « procédures-bâillons » engagées contre lui (SLAPP) — corroboré par le contentieux TJ Paris 2024 (nullité d'assignation, dossier 13-00). | ✦ | SRC-01 + dossier 13-00 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ✧ | https://fr.ulule.com/soutien-conspiracy-watch/ | - | - | 13-11_collecte-dons | - | 877127b1-255d-4824-9156-241da40358db
+FCT-02 | FACT | ✧ | https://fr.ulule.com/soutien-conspiracy-watch/ | - | - | 13-11_collecte-dons | - | cb3751cc-11b5-40ce-948f-e41663e4e1fe
+FCT-03 | FACT | ✧ | https://fr.ulule.com/soutien-conspiracy-watch/ | - | - | 13-11_collecte-dons | - | f48d8153-f4cf-45f5-bf0b-1539d8868b1b
+FCT-04 | FACT | ✧ | https://fr.ulule.com/soutien-conspiracy-watch/ | - | - | 13-11_collecte-dons | - | e7ac914d-eeeb-4052-b153-729e7f3429d9
+FCT-05 | FACT | ✧ | https://fr.ulule.com/soutien-conspiracy-watch/ | - | - | 13-11_collecte-dons | - | 81953ee5-58cb-4722-b86e-4add707d1063
+FCT-06 | FACT | ✧ | https://fr.ulule.com/soutien-conspiracy-watch/ | - | - | 13-11_collecte-dons | - | 97fc027e-f933-41b0-ae5d-c6acae26eaf7
+FCT-07 | FACT | ✧ | https://fr.ulule.com/soutien-conspiracy-watch/ | - | - | 13-11_collecte-dons | - | d3496670-a6ca-488a-90f3-e52c791f1b74
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

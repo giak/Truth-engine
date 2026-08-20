@@ -35,6 +35,13 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 | FCT-03 | E&R a été **déplateformé** (YouTube 2020, dossier 07-19) et **ciblé par Stop Hate Money** : son financement s'est replié sur ses propres canaux (souscriptions, boutique, dons directs) — **sans reçu fiscal 66 %**, sans subvention publique, sans philanthropie. | ✦ | SRC-02 |
 | FCT-04 | Les dons à CW sont **défiscalisés à 66 %** et adossés à 4 circuits ; les dons à E&R sont **bruts** (aucun avantage). | ✦ | SRC-02 |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-01 | FACT | ❧ | - | - | - | 13-15_symetrie-chiffree | - | -
+FCT-02 | FACT | ✧ | https://www.actualitte.com/ | - | - | 13-15_symetrie-chiffree | - | 46db6c94-55bb-4f29-988d-0526f0c66069
+FCT-03 | FACT | ❧ | - | - | - | 13-15_symetrie-chiffree | - | -
+FCT-04 | FACT | ❧ | - | - | - | 13-15_symetrie-chiffree | - | -
+<!-- /FACT_REGISTRY_V1 -->
+
 ---
 
 ## §3 VERDICT (borné)

@@ -234,6 +234,46 @@ Aucune chaîne causale vérifiée au-delà des ENABLER structurels (CAU-001/002)
 | FCT-036 | Contenus électoraux 2022 pro-Macron/anti-opposants. | ⁕ | SRC-004 |
 | FCT-037 | Page « Nos partenaires » (06/05/2026) liste FMS + DILCRAH + dons, omet CIPDR/Culture. | ✦ (omission constatée) | SRC-003 ◈ |
 
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | c2d34306-6ac0-44cf-b9af-8fbd4340f573
+FCT-002 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | 21ad3084-aab3-4a3a-a4fe-d7dadac0e048
+FCT-003 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | 8ac0d58d-94a0-4644-961c-8e2f1607b338
+FCT-004 | FACT | ❧ | - | - | - | 06-55_rudy-reichstadt | - | -
+FCT-005 | FACT | ❧ | - | - | - | 06-55_rudy-reichstadt | - | -
+FCT-006 | FACT | ❧ | - | - | - | 06-55_rudy-reichstadt | - | -
+FCT-007 | FACT | ❧ | - | - | - | 06-55_rudy-reichstadt | - | -
+FCT-008 | FACT | ❧ | - | - | - | 06-55_rudy-reichstadt | - | -
+FCT-009 | FACT | ✧ | https://www.senat.fr/compte-rendu-commissions/20230529/fin.html | - | - | 06-55_rudy-reichstadt | - | d1e1657c-1315-442b-a660-0d66835483fc
+FCT-010 | FACT | ✦ | https://www.senat.fr/compte-rendu-commissions/20230529/fin.html | - | - | 06-55_rudy-reichstadt | - | c356a201-b2ce-47fb-8ee7-e8b2a289a84c
+FCT-011 | FACT | ✦ | https://www.senat.fr/compte-rendu-commissions/20230529/fin.html | - | - | 06-55_rudy-reichstadt | - | 6175aa41-692a-45bc-9789-7f9ad98fa8cf
+FCT-012 | FACT | ✦ | https://www.senat.fr/compte-rendu-commissions/20230529/fin.html | - | - | 06-55_rudy-reichstadt | - | 4c7de811-8f00-4163-b1ec-f12585e3ed29
+FCT-013 | FACT | ✦ | https://www.senat.fr/compte-rendu-commissions/20230529/fin.html | - | - | 06-55_rudy-reichstadt | - | 4c7de811-8f00-4163-b1ec-f12585e3ed29
+FCT-014 | FACT | ✧ | https://www.senat.fr/compte-rendu-commissions/20230529/fin.html | - | - | 06-55_rudy-reichstadt | - | 1ae0daa7-3f13-43b5-b626-0cc8772dd358
+FCT-015 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | 9e2c6d7f-5820-4a84-9174-bdec956fcc24
+FCT-016 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | 993b9b49-af87-4c91-80c5-b6c21c1b5738
+FCT-017 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | 1304d1a5-1f87-454c-82c8-6c7def268a5e
+FCT-018 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | 9a4d3c2e-d29f-4ca1-9e91-8d893cce7ae8
+FCT-019 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | 4c202111-83ad-425c-a23a-0a5835355ea9
+FCT-020 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | e20854c3-b56c-4e56-a05a-e0d0cefa19c0
+FCT-021 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | 234aeaa7-fa68-4b68-b4d5-339ad4e6c48d
+FCT-022 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | e5c79b0e-6b91-40aa-8908-1396d9d2693f
+FCT-023 | FACT | ✧ | https://fr.wikipedia.org/wiki/Rudy_Reichstadt | - | - | 06-55_rudy-reichstadt | - | 5d62295d-0306-4047-b68e-1f32112a6c7e
+FCT-024 | FACT | ❧ | - | - | - | 06-55_rudy-reichstadt | - | -
+FCT-025 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | 3d5fccfe-6d87-4fd0-a766-a8f8dcd25508
+FCT-026 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | e80e62af-3438-45f7-a593-445845fb7e1e
+FCT-027 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | 68fdcb8c-928c-4cf2-b09a-8ca952146091
+FCT-028 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | 18b00edd-86dc-47b9-ad76-9d218a71d8cc
+FCT-029 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | 2f2442b5-8d2d-420e-b7c6-fbcfdad62cdc
+FCT-030 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | 584757d5-d563-461e-afb5-c70ef0133b20
+FCT-031 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | d31327b0-5e29-41c4-b735-1c8240db4922
+FCT-032 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | 97703be0-69e0-4451-aae4-dd08828f3649
+FCT-033 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | c5bc4181-6729-4525-9969-6e014a6feba7
+FCT-034 | FACT | ❧ | - | - | - | 06-55_rudy-reichstadt | - | -
+FCT-035 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | ebd234db-916d-4730-af17-d376a7633209
+FCT-036 | FACT | ✧ | https://www.profession-gendarme.com/rudy-reichstadt-limposteur-macroniste-paye-par-nos-impots-3/ | - | - | 06-55_rudy-reichstadt | - | e638a81e-648f-4c76-bd83-32f6812af93c
+FCT-037 | FACT | ✧ | https://www.conspiracywatch.info/nos-partenaires | - | - | 06-55_rudy-reichstadt | - | 73d3c39a-6e44-405f-8239-2372a408310f
+<!-- /FACT_REGISTRY_V1 -->
+
 **LEAD_REGISTRY (extrait)**
 
 | ID | SOURCE | LEAD | KIND | MATERIALITY | STATUS |
