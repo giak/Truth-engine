@@ -33,16 +33,18 @@ Statuts : ✦ confirmé (primaire) · ✧ probable · ⁕ allégué · ⁅ incon
 
 | FCT-ID | Fait | Statut | Source |
 |---|---|---|---|
-| FCT-01 | Les signataires **IFCN** en France sont : **AFP Factuel, Le Monde Les Décodeurs, Libération CheckNews, France 24 Les Observateurs, 20 Minutes Fake Off, Les Surligneurs, franceinfo** (6-7 médias selon les sources). | ✧ | SRC-05 + dossier 10-39 |
+| FCT-01 | Les signataires **IFCN** en France (registre officiel, 2026-08-20) : **4 actifs/en renouvellement** (AFP Fact Check, France 24 Les Observateurs, 20 Minutes Fake off, Les Surligneurs) + **5 expirés** (franceinfo, Le Monde Les Décodeurs, Les Vérificateurs, Libération CheckNews, Science Feedback). *(Corrige la version initiale qui listait Le Monde/Libération/franceinfo comme actifs.)* | ✧ | registre IFCN (API) |
+| FCT-02 | Les **Surligneurs** est signataire IFCN depuis **juillet 2021** (seul associatif français certifié, avec 20 Minutes Fake off comme unité d'un groupe). | ✦ | registre IFCN + lessurligneurs.eu |
+| FCT-03 | **JTI (RSF)** : standard international « de type ISO » (CWA 17493, CEN 2019), 130 critères, certification par auditeur externe. Les Surligneurs y **participent** (rapport de transparence) — certification par auditeur non confirmée en primaire ; certifiés FMM/Radio France documentés mais non relus (web indisponible). *(Borné.)* | ✧ | JTI + lessurligneurs.eu |
 | FCT-02 | Les **Surligneurs** est signataire IFCN depuis **2021** (seul associatif français certifié, avec 20 Minutes Fake Off comme unité d'un groupe). | ✦ | dossier 10-39 |
 | FCT-03 | **JTI (RSF)** : standard international (130 critères : identité/transparence + professionnalisme/responsabilité). Certifiés France : **France Médias Monde** (renouvelé 29/10/2025), **Radio France** (05/2025), **Les Surligneurs**, AFP. | ✦ | SRC-02/03/04 |
 | FCT-04 | **CW n'est ni signataire IFCN, ni certifié JTI** — confirmé dans tous les benchmarks (dossiers 10-39, 11-06, 12-58). | ✦ | dossiers antérieurs |
 
 <!-- FACT_REGISTRY_V1 -->
-FCT-01 | FACT | ❧ | - | - | - | 13-11_ifcn-jti-france | - | -
-FCT-02 | FACT | ❧ | - | - | - | 13-11_ifcn-jti-france | - | -
-FCT-03 | FACT | ❧ | - | - | - | 13-11_ifcn-jti-france | - | -
-FCT-04 | FACT | ❧ | - | - | - | 13-11_ifcn-jti-france | - | -
+FCT-01 | FACT | ✧ | https://ifcncodeofprinciples.poynter.org/signatories | - | - | ifcn-jti-france | - | 43fdaddf-2877-4dd9-9ff3-60cd6d73e8c6
+FCT-02 | FACT | ✧ | https://lessurligneurs.eu/notre-methode/ | - | - | ifcn-jti-france | - | 1c450f1a-77f8-4e9c-b8c9-37b862ff9f4d
+FCT-03 | FACT | ✧ | https://journalismtrustinitiative.org/fr/ | - | - | ifcn-jti-france | - | f6b10e02-890f-4a64-ae5f-ee9d3ad55cce
+FCT-04 | FACT | ✧ | https://ifcncodeofprinciples.poynter.org/signatories | - | - | ifcn-jti-france | - | 5b9df3fe-c40a-4bf6-8591-dd2908ccde70
 <!-- /FACT_REGISTRY_V1 -->
 
 ---
