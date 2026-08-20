@@ -329,8 +329,8 @@ WOLF_INTERNATIONAL:
 | F20 | France ratio police/habitant > médiane européenne | CEPEJ | ✦ |
 
 <!-- FACT_REGISTRY_V1 -->
-FCT-001 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
-FCT-002 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
+FCT-001 | FACT | ✦ | https://www.senat.fr/rap/l25-139-328-1/l25-139-328-1_mono.html | - | - | 2026-07-08_23-00_police_francaise | - | c6f4775b-e91b-4726-bd94-96c6f3588597
+FCT-002 | FACT | ✦ | https://www.senat.fr/rap/l25-139-328-1/l25-139-328-1_mono.html | - | - | 2026-07-08_23-00_police_francaise | - | c6f4775b-e91b-4726-bd94-96c6f3588597
 FCT-003 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
 FCT-004 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -
 FCT-005 | FACT | ❧ | - | - | - | 2026-07-08_23-00_police_francaise | - | -

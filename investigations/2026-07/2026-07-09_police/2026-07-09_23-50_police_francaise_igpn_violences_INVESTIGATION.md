@@ -141,7 +141,7 @@ BIAS TEST : PASS
 
 | # | Fait | Chiffre | URL | Fiabilité |
 |---|------|---------|-----|:---:|
-| 1 | Budget police nationale | 13,7 Md€ AE | senat.fr | ✦ |
+| 1 | Budget police nationale (2026) | 14,3 Md€ AE / 13,9 Md€ CP | Sénat n°139 | ✦ *(correction source primaire 2026-08-20 : le « 13,7 Md€ AE » n'est pas confirmé)* |
 | 2 | Effectifs police | 150 000 | senat.fr | ✧ |
 | 3 | IGPN enquêtes pénales | 10 % | nouvelobs.com | ✦ |
 | 4 | Gilets Jaunes éborgnés | 23 | amnesty.fr | ✧ |
@@ -153,6 +153,19 @@ BIAS TEST : PASS
 | 10 | Rapport Flagrant Déni | 2025 | nouvelobs.com | ✦ |
 
 **EDI :** 0.85 | ✦:4 ✧:6
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ✧ | https://www.senat.fr/rap/l25-139-328-1/l25-139-328-1_mono.html | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | 50b9e18f-c2f2-4252-8a06-460555858ec3
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-09_23-50_police_francaise_igpn_violences | - | -
+<!-- /FACT_REGISTRY_V1 -->
 
 ---
 
