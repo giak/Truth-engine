@@ -73,16 +73,29 @@
 
 | F### | Fait | Source | Fiabilité |
 |------|------|--------|-----------|
-| F001 | **Dépense intérieure d'éducation (DIE) : 197,1 Md€** en 2024 — 6,8% du PIB | INSEE / DEPP | ✦ |
-| F002 | **Budget mission Enseignement scolaire : 64,5 Md€** (hors pensions) — 86,8 Md€ (avec pensions) | PLF 2025 / Sénat | ✦ |
-| F003 | **Effectifs : ~1,2 million d'agents** dont ~850 000 enseignants (710 000 public, ~140 000 privé) | DEPP, RERS 2024 | ✦ |
-| F004 | **Masse salariale : ~90% du budget** de la mission Enseignement scolaire | PLF 2025 / Cour des comptes | ✦ |
-| F005 | **Salaire net moyen enseignant titulaire : 2 920 €/mois** (2023) — 2 680€ PE, 2 970€ certifié | DEPP | ✦ |
-| F006 | **Dépenses de retraites (CAS Pensions) : ~22,3 Md€** intégrés dans le budget | PLF 2025 / Sénat | ✦ |
-| F007 | **Résultats PISA 2022 :** France dans la moyenne OCDE mais **inégalités sociales parmi les plus fortes** | OCDE PISA 2022 | ✦ |
-| F008 | **Redoublement :** coût estimé à plusieurs milliards €/an — efficacité contestée par la recherche | Cour des comptes / Cnesco | ✧ |
-| F009 | **Absentéisme :** volume important d'heures non assurées dans le second degré — remplacement insuffisant | Cour des comptes | ✧ |
-| F010 | **Personnels non-enseignants : ~350 000** — mais seulement 4,3% d'administratifs (sous-administration selon le Sénat) | Sénat / DEPP | ✧ |
+| F001 | **Dépense intérieure d'éducation (DIE) : 197,1 Md€** en 2024 — 6,8% du PIB | INSEE / DEPP | ❧ *(non relu en primaire — DEPP inaccessible)* |
+| F002 | **Budget mission Enseignement scolaire : 64,49 Md€ CP / 64,46 AE** (hors pensions) — **89,64 Md€ CP** (avec pensions) | Sénat n°139 (PLF 2026) | ✦ *(correction source primaire 2026-08-20 : 86,8 Md€ (2025) → 89,64 Md€ (2026))* |
+| F003 | **Plafond ETPT enseignants : 839 679** (LFI 2026) ; ~1,2 M agents mission non relu | Sénat n°139 | ✦ *(correction : « ~850 000 » → plafond 839 679 ETPT)* |
+| F004 | **Masse salariale : ~90% du budget** de la mission Enseignement scolaire | PLF 2025 / Cour des comptes | ❧ *(non relu en primaire)* |
+| F005 | **Salaire net moyen enseignant titulaire : 2 920 €/mois** (2023) — 2 680€ PE, 2 970€ certifié | DEPP | ❧ *(non relu en primaire)* |
+| F006 | **Dépenses de retraites (CAS Pensions) : ~25,1 Md€** (2026, dérivation 89,64 − 64,49) | Sénat n°139 | ✦ *(correction source primaire : 22,3 Md€ (2025) → ~25,1 Md€ (2026))* |
+| F007 | **Résultats PISA 2022 :** France dans la moyenne OCDE mais **inégalités sociales parmi les plus fortes** | OCDE PISA 2022 | ❧ *(non relu en primaire)* |
+| F008 | **Redoublement :** coût estimé à plusieurs milliards €/an — efficacité contestée par la recherche | Cour des comptes / Cnesco | ❧ *(non relu en primaire)* |
+| F009 | **Absentéisme :** volume important d'heures non assurées dans le second degré — remplacement insuffisant | Cour des comptes | ❧ *(non relu en primaire)* |
+| F010 | **Personnels non-enseignants : ~350 000** — mais seulement 4,3% d'administratifs (sous-administration selon le Sénat) | Sénat / DEPP | ❧ *(non relu en primaire)* |
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ❧ | - | - | - | 2026-06-20_education_nationale_budget | - | -
+FCT-002 | FACT | ✧ | https://www.senat.fr/rap/l25-139-313/l25-139-313_mono.html | - | - | 2026-06-20_education_nationale_budget | - | fd107986-b16e-4ba8-a5fb-9ab074d07817
+FCT-003 | FACT | ✧ | https://www.senat.fr/rap/l25-139-313/l25-139-313_mono.html | - | - | 2026-06-20_education_nationale_budget | - | fd107986-b16e-4ba8-a5fb-9ab074d07817
+FCT-004 | FACT | ❧ | - | - | - | 2026-06-20_education_nationale_budget | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-06-20_education_nationale_budget | - | -
+FCT-006 | FACT | ✧ | https://www.senat.fr/rap/l25-139-313/l25-139-313_mono.html | - | - | 2026-06-20_education_nationale_budget | - | fd107986-b16e-4ba8-a5fb-9ab074d07817
+FCT-007 | FACT | ❧ | - | - | - | 2026-06-20_education_nationale_budget | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-06-20_education_nationale_budget | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-06-20_education_nationale_budget | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-06-20_education_nationale_budget | - | -
+<!-- /FACT_REGISTRY_V1 -->
 
 ---
 

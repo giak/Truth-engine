@@ -11,7 +11,7 @@ L'Éducation nationale est le plus gros employeur de France (1,06 million d'agen
 
 ## 1. Faits bruts
 
-- **F-001** : Éducation nationale : 1,06 million d'agents, premier budget de l'État (PLF 2024)
+- **F-001** : Éducation nationale : 1,06 million d'agents (non relu), **2e budget de l'État en 2026** *(correction 2026-08-20, source primaire Sénat n°139 : « premier budget (PLF 2024) » → 2e poste en AE derrière la Défense, 64,49 Md€ CP hors pensions / 89,64 Md€ avec pensions — cf. mem fd107986)*
 - **F-002** : Budget en hausse de 29 % depuis 2017 (+14,3 Md€), sans amélioration PISA
 - **F-003** : PISA 2022 : baisse continue depuis 2003 en maths, lecture, sciences
 - **F-004** : France = un des pays OCDE où origine sociale prédit le plus la réussite scolaire
@@ -81,3 +81,21 @@ Lien causal direct école-prison : corrélation documentée (Sénat 2022), causa
 ## 9. Complexité & EDI
 
 Complexité 8/10. EDI estimé 0.75.
+
+<!-- FACT_REGISTRY_V1 -->
+FCT-001 | FACT | ✧ | https://www.senat.fr/rap/l25-139-313/l25-139-313_mono.html | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | fd107986-b16e-4ba8-a5fb-9ab074d07817
+FCT-002 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-003 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-004 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-005 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-006 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-007 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-008 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-009 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-010 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-011 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-012 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-013 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-014 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+FCT-015 | FACT | ❧ | - | - | - | 2026-07-09_22-00_education_nationale_reproduction_sociale | - | -
+<!-- /FACT_REGISTRY_V1 -->
