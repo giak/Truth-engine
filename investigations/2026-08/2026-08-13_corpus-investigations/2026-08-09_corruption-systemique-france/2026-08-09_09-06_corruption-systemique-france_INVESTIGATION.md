@@ -32,7 +32,7 @@ ELABORATE        : Il n'existe pas de source primaire « corruption France » : 
 | FCT-005 | PNF : 771 procédures en 2025, 46 % probité | 771 | Synthèse PNF 2025 | CONFIRMÉ |
 | FCT-006 | Maire de Tarbes condamné (favoritisme + prise illégale d'intérêts), 08/12/2025 | 2 ans sursis + 75 000 € + inéligibilité | France 3 / La Rép des Pyrénées | CONFIRMÉ |
 | FCT-007 | Élu de La Réunion condamné : marché truqué (électricité), 25/09/2025 | 5 ans dont 2 ferme | AFP | CONFIRMÉ |
-| FCT-008 | HATVP : 5 122 déclarations traitées en 2024 | 5 122 | Rapport annuel HATVP 2024 | CONFIRMÉ |
+| FCT-008 | HATVP : 5 122 déclarations traitées en 2024 | 5 122 | Rapport annuel HATVP 2024 | ❧ GAP — 5 122 (2024) non relu en primaire ; chiffres 2025 vérifiés (mem 2bb2d84a) |
 | FCT-009 | Sanctions pantouflage : quasi inexistantes, contrôles insuffisants | ~0 sanction | Cour des comptes, 14/05/2025 | CONFIRMÉ |
 | FCT-010 | Sanction automatique du pantouflage censurée par le Conseil constitutionnel | QPC 2024-1120, 24/01/2025 | Conseil constitutionnel | CONFIRMÉ |
 | FCT-011 | Avis HATVP favorable avec réserves à un haut fonctionnaire rejoignant la FNSEA | Avis 2026-A-51 | HATVP / Sud-Ouest | CONFIRMÉ |
@@ -45,11 +45,11 @@ ELABORATE        : Il n'existe pas de source primaire « corruption France » : 
 
 
 <!-- FACT_REGISTRY_V1 -->
-FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-001 | FACT | ✦ | https://www.transparency.org/en/cpi/2025 | - | - | 2026-08-09_09-06_corruption-systemique-france | - | e668772f-29b4-4e2b-94ec-7b9c5bc9d460
 FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
 FCT-003 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
 FCT-004 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
-FCT-005 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
+FCT-005 | FACT | ✦ | https://jss.fr/post/bilan-stable-activite-parquet-national-financier-2025 | - | - | 2026-08-09_09-06_corruption-systemique-france | - | 37518f25-ad10-43e9-8a94-eb85ff71ad07
 FCT-006 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
 FCT-007 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -
 FCT-008 | FACT | ❧ | - | - | - | 2026-08-09_09-06_corruption-systemique-france | - | -

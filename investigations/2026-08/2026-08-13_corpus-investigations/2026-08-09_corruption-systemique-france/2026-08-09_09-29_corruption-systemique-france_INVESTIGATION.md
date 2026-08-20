@@ -135,7 +135,7 @@ COMPLEXITY:APEX (13) | CLUSTERS: LOADED (13 : ICEBERG, MONEY, NETWORK, POWER, CO
 
 
 <!-- FACT_REGISTRY_V1 -->
-FCT-001 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
+FCT-001 | FACT | ✦ | https://www.transparency.org/en/cpi/2025 | - | - | 2026-08-09_09-29_corruption-systemique-france | - | e668772f-29b4-4e2b-94ec-7b9c5bc9d460
 FCT-002 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
 FCT-014 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
 FCT-017 | FACT | ❧ | - | - | - | 2026-08-09_09-29_corruption-systemique-france | - | -
