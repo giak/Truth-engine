@@ -1,4 +1,4 @@
-# INVESTIGATION v2.8 — Behavior-hardened investigation pipeline
+# INVESTIGATION v2.10.6 — Behavior-hardened investigation pipeline
 
 Loaded at KERNEL step 8b. KERNEL owns order/load/save and cross-domain predicates; this file owns cognitive,
 dialectical, factual, causal, verification and responsibility operations.
@@ -60,6 +60,12 @@ CONTROL_MAP:
   CTRL-ID | CONTROLLER/MECHANISM | RULE/DUTY/AUTHORITY | INFORMATION/INPUT | DOCUMENTED_ACTION/INACTION/RESULT
   OVERSIGHT/OUTCOME | FCT/SRC-IDs | GAP
   CTRL-ID=CTRL-001...
+
+FACT_REGISTRY_V1:
+  FCT-ID | EPI_TEXT | TIER:{✦|✧|⁅|❧} | CANONICAL_URL/PATH | DERIVED_FAMILIES | DATE | SUBJECT_KEY | VALUE | MEM_ID
+
+FCT_SOURCE_MAP_V1:
+  FCT-ID | SUPPORT_SRC_IDS
 
 TRACE_MATRIX:
   LED/AXS/CLM-ID | ATTEMPT_QRY/SRC | SUPPORT_FCT | COUNTER_FCT | SRC_FAMILIES | CAU/CTRL/ACT-ID | FINAL_STATUS | GAP_TYPE
@@ -159,19 +165,20 @@ For every material result:
 
 1. State one falsifiable fact with bounded scope.
 2. Extract what/who/when/where/how much.
-3. Assign source role `◈◉○` for that fact.
-4. Assign exactly one canonical status `✦✧⁕⁂⊗⊙⁅❧`.
-5. Record `SRC-ID`, exact locator, specific URL/validated INPUT_REF, and independent corroboration `⊕` when present. Persisted exact excerpt is sufficient only for “supplied content states X”.
-6. Preserve contradiction as a separate row or linked note; never average incompatible claims.
+3. Assign source role `◈◉○` claim-relatively for each evidence object.
+4. Assign `EPI` as text: `FACT|EVIDENCE|INFERENCE|HYPOTHESIS|SPECULATION|UNKNOWN`.
+5. Assign `TIER` only from `{✦,✧,⁅,❧}` under `protocol/FACT_VERIFICATION.md`; **EPI != TIER**. Narrative glyphs `⁕⁂⊗⊙` never enter the tier column.
+6. Record `SRC-ID`, exact locator, specific URL/validated INPUT_REF; emit `FCT_SOURCE_MAP_V1` with support-only SRC IDs and derive provenance families from those SRC rows.
+7. Preserve contradiction as a separate row or linked note; never average incompatible claims. Persisted exact excerpt is sufficient only for “supplied content states X”.
 
 ```text
-KNOWN       = current ✦ within stated scope
-PROBABLE    = ✧
-CLAIMED     = ⁕
-HYPOTHESES  = ⁂
-CONTESTED   = ⊗/⊙
-UNKNOWN     = ⁅
-REFUTED     = ❧
+KNOWN       = EPI=FACT + tier ✦ within stated scope
+PROBABLE    = EPI=FACT + tier ✧
+CLAIMED     = EPI=UNKNOWN with narrative status ⁕
+HYPOTHESES  = EPI=HYPOTHESIS with narrative status ⁂
+CONTESTED   = claim-level status ⊗/⊙ in CLAIM/STATUS views, not FACT tier
+UNKNOWN     = tier ⁅
+REFUTED     = tier ❧
 ```
 
 Confirmed-fact targets guide effort only. Fewer facts with honest limitations beat upgraded weak evidence.
@@ -297,7 +304,7 @@ No individual minimum. Do not infer intent from benefit, responsibility from tit
 
 ## §7 Output handoff
 
-KERNEL loads `forensic/REQUEST_LOG.md` at step 0. Step 14 applies `output/TEMPLATE.md`; lead audit stays distinct and `OBJECT_QUESTION` leads in INVESTIGATION. OPEN snapshots retain INPUT_REF plus bounded decisive/important source excerpts; they are state, not drafts. After EDI, WOLVES and gate corrections, step 18b rebuilds/freezes current state; only `STATE:FINAL` is deliverable.
+KERNEL loads `forensic/REQUEST_LOG.md` at step 0. Step 14 applies `output/TEMPLATE.md`; lead audit stays distinct and `OBJECT_QUESTION` leads in INVESTIGATION. RUN_STATE checkpoints retain INPUT_REF plus bounded decisive/important source excerpts; they are state, not drafts, and never rewrite the investigation Markdown. After EDI, WOLVES and gate corrections, step 18b rebuilds/freezes current state; only `STATE:FINAL` is deliverable.
 
 French output; one sentence, one bounded claim; citations adjacent; hypotheses, contradictions and unknowns visible.
 

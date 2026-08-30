@@ -1,6 +1,6 @@
-# FACT_VERIFICATION — Échelle de vérification, registre des faits, contrat de confiance
+# FACT_VERIFICATION v2.10.6 — Échelle de vérification, registre des faits, contrat de confiance
 
-> Protocole canonique. Se branche sur KERNEL §10 (CONSTRUCTION), §13 (VERIFICATION), §19a (FACT_WRITEBACK),
+> Protocole canonique. Chargé explicitement par KERNEL §10 (CONSTRUCTION), puis autorité sémantique pour §13 (VERIFICATION) et §19b (FACT_WRITEBACK),
 > et sur le skill global `mnemolite-mem-first`. Consommé en aval par SUBLIMATOR Phase 1/2/3.
 > But unique : transformer une recherche web en fait VÉRIFIÉ, le persister dans Mnemolite,
 > et permettre à tout consommateur de s'appuyer dessus sans refaire la vérification.
@@ -94,7 +94,7 @@ embedding_source = {résumé structuré 200-400 mots : sujet, thèmes, entités,
 
 Un fait L1 peut être écrit `status:VERIFIE` sans locator L2, mais il ne doit pas être décrit comme ancré. Un fait L2 doit porter son locator ; un fait L3 doit porter les sources et familles distinctes ; un fait L4 doit en plus porter la contre-recherche. L'énoncé écrit doit être réduit à ce que l'extrait établit : un qualificatif temporel, causal ou quantitatif non présent dans l'extrait devient une réserve ou un claim séparé.
 
-Clé de déduplication (`evidence_key`, KERNEL §19a) : `canonical_url + locator` ou `canonical_id` stable. `source:{hash10}` est le hash de cette clé de preuve pour la déduplication ; ce n'est pas un hash du contenu de la page. Un hash de contenu peut être ajouté séparément lorsqu'il est calculable. Duplicate → `update_memory` (jamais de doublon). L'URL **cliquable** est obligatoire, jamais un domaine.
+Clé de déduplication (`evidence_key`, KERNEL §19b) : `canonical_url + locator` ou `canonical_id` stable. `source:{hash10}` est le hash de cette clé de preuve pour la déduplication ; ce n'est pas un hash du contenu de la page. Un hash de contenu peut être ajouté séparément lorsqu'il est calculable. Duplicate → `update_memory` (jamais de doublon). L'URL **cliquable** est obligatoire, jamais un domaine.
 
 ## 4.5 Bloc machine-readable FACT_REGISTRY_V1 (markdown)
 
@@ -137,6 +137,23 @@ divergentes → signal pour la gate humaine (le script ne tranche pas quelle val
 python3 tools/verify_facts.py <investigation.md> [--offline]   # exit 0 ok / 1 violations / 2 aucun registre
 python3 tools/detect_contradictions.py [chemin...] [--json]    # exit 0 ok / 1 contradictions / 2 aucun registre
 ```
+
+### 4.5b Provenance machine-readable `FCT_SOURCE_MAP_V1`
+
+KERNEL émet exactement une ligne par FCT :
+
+```text
+## FCT_SOURCE_MAP_V1
+FCT-001 | SRC-002,SRC-003
+FCT-002 | SRC-004
+FCT-003 | -
+```
+
+Le mapping contient uniquement les **sources de support** du fait. Les contre-sources restent dans TRACE/CONTRADICTION.
+Chaque ligne SRC canonique porte un `fam:<token>` explicite. Le champ `families` de `FACT_REGISTRY_V1` est dérivé
+exactement de l’union des familles des SRC mappés : il n’est jamais saisi ou compté à la main. Une source web mappée
+à un fait ✦/✧ doit avoir été FETCHée. Le `url` canonique du FCT doit correspondre à au moins une source mappée.
+`✦` exige au moins deux familles indépendantes **dérivées** ; une famille unique est compatible avec `✧`.
 
 ## 4.6 Source primaire non fetchable automatiquement (HEAD/GET bloqués)
 
@@ -221,7 +238,7 @@ dans le manifeste. Le compteur avant/après est contrôlé. Une erreur de niveau
 locator ou d'identifiant bloque l'écriture et laisse le candidat `NOT_VERIFIED`.
 
 Un import hors KERNEL ne doit pas être présenté comme une investigation certifiée. Pour un dossier KERNEL,
-la séquence §19a puis §19b et le gate `verify.py` restent obligatoires.
+la séquence §19a PRE_GATE puis §19b PERSIST_REBIND/DELIVERY_GATE reste obligatoire.
 
 ## 5. Contrat de confiance (ce que `status:CONFIRME` garantit, et ne garantit pas)
 
@@ -234,23 +251,31 @@ la séquence §19a puis §19b et le gate `verify.py` restent obligatoires.
 
 **Ne garantit pas** : l'infaillibilité, l'absence de contradiction future, la causalité, l'intention.
 
-## 6. Règle de consommation (aval : ne pas refaire les vérifications)
+## 6. Règle de consommation et warm route
+
+Deux contextes doivent rester séparés : consommation aval et construction d'un FCT KERNEL courant.
 
 ```
-LECTURE  : search_memory(query, search_mode="hybrid", tags=["project:truth-engine", "status:CONFIRME"]) AVANT tout @WEB.
-  HIT + status:CONFIRME            → citer {source + URL + memory_id}, ZÉRO appel web.
-  HIT + status:VERIFIE            → traiter comme NON CONFIRMÉ, reprendre l'échelle L0→L4 (monter à L4 = CONFIRME).
-  MISS                             → @WEB → échelle → write-back obligatoire.
+CONSOMMATION_AVAL (article/synthèse, aucune revalidation demandée) :
+  search_memory(... status:CONFIRME) avant toute discovery.
+  HIT + status:CONFIRME → citer {source + URL + memory_id}; zéro recherche de redécouverte.
+  HIT + status:VERIFIE  → ne pas présenter comme CONFIRME; re-vérifier si le livrable exige une preuve courante.
+  MISS                  → discovery/fetch normal.
 
-RACCOURCI (artefact amont porteur) : si un F-## circule déjà avec `mem:<uuid>` (quintessence §2,
-rapport Phase 2), l'aval n'appelle PAS search_memory : il appelle `read_memory(id)` DIRECTEMENT →
-{source + URL + citation verbatim + verifie-date}. ZÉRO re-recherche, ZÉRO re-vérification : le
-write-back fait foi. C'est la boucle EPI/mem qui ferme Phase 1 → 3 (P6b).
+KERNEL_NEW_OR_UPDATE (fait décisif/current FCT) :
+  HIT + canonical URL/key → WARM_ROUTE; utiliser mémoire comme pointeur non fiable, puis @FETCH direct de l'URL canonique.
+  NEVER: transformer le HIT mémoire en preuve courante ou en INSPECTED.
+  @WEB seulement si URL absente/morte/stale/hors-scope, pour corroboration indépendante, réfutation, nouvel objet ou gap matériel.
+  Un web-backed ✦/✧ courant exige toujours un @FETCH observé dans le run courant (INSPECTED_TRACE_OK).
+
+RACCOURCI ARTEFACT AMONT : un `mem:<uuid>` permet `read_memory(id)` direct au lieu de search_memory, mais ne remplace pas le @FETCH
+si ce fait devient un FCT décisif d'une nouvelle investigation KERNEL.
 ```
 
-**Pas d'expiration automatique** (règle canonique `mnemolite-mem-first`) : un fait `status:CONFIRME`
-n'est jamais automatiquement périmé. On re-vérifie **à la demande seulement** : fait contesté, donnée
-nouvelle contradictoire, source défunte (URL morte) → re-fetch puis `update_memory` (nouvelle verifie-date).
+**Pas d'expiration automatique** de la mémoire : `status:CONFIRME` conserve son historique. La fraîcheur de preuve est néanmoins une propriété du run courant :
+une revalidation explicite, un fait évolutif/contesté, une source morte ou tout FCT web-backed courant impose la route KERNEL ci-dessus.
+
+Principe performance : **MEMORY saves discovery, never inspection.**
 
 ## 7. Règle d'indépendance du recoupement (anti-propagation)
 
@@ -279,10 +304,19 @@ La cohérence interne n'est jamais une preuve : c'est une erreur copiée N fois.
 | tools/monitor_urls.py | moniteur périodique d'URLs mortes (P4) : scanne les registres, trie dead/unsafe/unreachable/head_blocked, déclenche la re-vérification |
 | tools/detect_contradictions.py | détecteur de contradictions (P5) : même sujet normalisé + valeurs divergentes → signal pour la gate humaine |
 | KERNEL §13 | VERIFICATION exige le recoupement L3 (≥2 familles) pour ✦ ; source unique → ✧ |
-| KERNEL §19a | inchangé (déjà correct) ; gate : n'écrire CONFIRME que pour EPI=FACT+L4 |
+| KERNEL §19b | FACT_WRITEBACK : CONFIRME seulement pour EPI=FACT+L4 ; VERIFIE pour EPI=FACT+L1-L3 ; PRE_GATE §19a doit déjà être PASS ; sérialiser `WRITEBACK_EXECUTION_V1`, `WRITEBACK_ROW` structuré et le `memory_id` retourné dans `FACT_REGISTRY_V1.mem` |
 | SUBLIMATOR Phase 1 (v36) | préserver ✦ ET reporter EPI + memory_id du fait CONFIRME |
 | SUBLIMATOR Phase 2/3 (v37/v38) | v37 propage `EPI`+`mem:` des quintessences vers le rapport (§2 « F-## sous-jacents ») ; v38 consomme `read_memory(id)` sur les faits `mem:<uuid>` au lieu de re-chercher (P6b) |
 | skill mnemolite-mem-first | appliquer §6 (consommation) ; le reste du skill fait déjà foi |
+
+`WRITEBACK_EXECUTION_V1` est de la métadonnée d'exécution, pas une preuve. Il contient exactement une ligne par FCT éligible et uniquement des compteurs observés :
+
+```text
+FCT-001 | ELIGIBLE:CONFIRME | attempted:1 | success:1 | failure:0 | blocked:0 | reason:NONE
+FCT-002 | ELIGIBLE:VERIFIE | attempted:0 | success:0 | failure:0 | blocked:1 | reason:MNEMO_UNAVAILABLE
+```
+
+Un succès sans `memory_id` retourné est un échec de writeback et ne peut jamais laisser `FACT_REGISTRY_V1.mem=-` tout en comptant `success:1`.
 
 ## 9. Conformité au canon (double-check 2026-08-15)
 
@@ -382,3 +416,28 @@ legacy, jamais la prose LLM) :
 ```bash
 python3 tools/classify_legacy.py [--json] <fichier-legacy.md...>   # ou contenu via stdin
 ```
+
+
+## Warm-memory canonical update (2.10.6)
+
+A current revalidation of an already hydrated canonical fact does not create a second canonical note. Runtime `MEMORY_WRITE_MODE_V1` decides mechanically:
+
+- `origin_memory_id` present => `UPDATE` that memory record after PRE_GATE PASS;
+- no origin memory => `WRITE` a new canonical record;
+- current returned memory id is rebound into `FACT_REGISTRY_V1.mem`;
+- provenance fields remain lineage metadata, never evidence.
+
+This changes persistence mechanics only. Current ✦/✧ still require current evidence and INSPECTED_TRACE_OK.
+
+
+## Legal-status source hierarchy (2.10.6)
+
+For a fact whose material proposition is the legal identity, adoption, applicability, expiry, amendment or replacement of a regulation/directive/law:
+
+- prefer the exact official legal act or official institutional procedure page as mapped support;
+- when an accessible official family-A source exists, a ✦ legal-status fact must include at least one such source; secondary analysis alone is insufficient for ✦;
+- canonical fact content should name the operative instrument identifier when it is material to distinguish extension, replacement, amendment or a new act;
+- a remembered legal basis that is missing, superseded or contradictory forces `RECHECK`, never silent `REUSE`;
+- when an official summary/landing page conflicts with the operative legal act or a newer official correction/procedure page, treat the stale summary as historical evidence and resolve the current proposition from the operative/newer official source; never serialize the conflict as “unresolved” merely because both pages are official.
+
+This rule exists to prevent an old memory from preserving a correct date while silently carrying an obsolete legal basis.

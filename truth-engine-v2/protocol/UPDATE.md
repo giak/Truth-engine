@@ -1,6 +1,7 @@
-# UPDATE v2.8 — Differential revalidation
+# UPDATE v2.10.6 — Differential revalidation
 
 Load only when `INPUT_KIND=UPDATE`. This protocol updates an earlier investigation without treating its conclusions or memory as current evidence.
+> UPDATE is entered only when the CURRENT user explicitly requests update/revalidation/continuation. Finding a prior run in MnemoLite does not change INPUT_KIND.
 
 Preserve the parent `OBJECT_QUESTION`, OBJECT_COVERAGE and material LED/AXS coverage unless the current user changes scope. `MISSION_MODE` always comes from the current request; parent mode is metadata only. Reopen parent INPUT_REF when material; otherwise use persisted excerpts and type missing context ACCESS. If a legacy parent lacks these fields, treat its question/conclusions as leads and re-scope; NEVER infer `VERIFY_ONLY`. Updating a source claim never replaces the underlying object with a bounded fact-check.
 
@@ -21,7 +22,13 @@ UPDATE_REQUEST:{explicit requested change|general revalidation}
 
 ## §2 Revalidation route
 
-Classify parent facts before synthesis:
+At warm hydration, first classify each remembered/current material object for execution:
+
+```text
+REUSE | RECHECK | NEW | GAP
+```
+
+This is a work-allocation class only. UPDATE semantic outcome still uses:
 
 ```text
 UNCHANGED | NEW | UPDATED | DOWNGRADED | REFUTED | EXPIRED | OUT_OF_SCOPE
@@ -65,6 +72,7 @@ Every changed status appears in `STATUS_DELTA`; every new/unresolved material co
 
 - Generate a new RUN_ID and set PARENT_RUN_ID; never overwrite the parent investigation file.
 - Attempt `@MNEMO_S` for the new investigation. Duplicate warning follows the KERNEL update rule.
-- FACT_WRITEBACK includes only current, reopened and revalidated `✦`; expired, refuted or merely inherited parent facts are not written as verified.
+- FACT_WRITEBACK includes only current, reopened and revalidated `EPI=FACT` rows: `✦`→`status:CONFIRME`, `✧`→`status:VERIFIE`; expired, refuted, non-FACT or merely inherited parent facts are not written as verified.
+- Persistence follows KERNEL strictly: PRE_GATE §19a before any new Mnemo/writeback side effect, then §19b writeback/rebind/delivery gate.
 
 _Canonical authority: UPDATE lineage, differential revalidation and DELTA_REPORT._
