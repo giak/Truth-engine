@@ -220,10 +220,10 @@ Il existe un **faisceau convergent de signaux**, mesurable sur quatre registres 
 
 
 <!-- FACT_REGISTRY_V1 -->
-FCT-001 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
-FCT-002 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-001 | FACT | ✦ | https://www.transparency.org/en/cpi/2025 | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | e668772f-29b4-4e2b-94ec-7b9c5bc9d460
+FCT-002 | FACT | ✦ | https://www.transparency.org/en/cpi/2025 | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | e668772f-29b4-4e2b-94ec-7b9c5bc9d460
 FCT-003 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
-FCT-004 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-004 | FACT | ✦ | https://www.coe.int/fr/web/greco | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | e668772f-29b4-4e2b-94ec-7b9c5bc9d460
 FCT-005 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
 FCT-006 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
 FCT-007 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
@@ -236,7 +236,7 @@ FCT-013 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corrupti
 FCT-014 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
 FCT-015 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
 FCT-016 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
-FCT-017 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
+FCT-017 | FACT | ✦ | https://jss.fr/post/bilan-stable-activite-parquet-national-financier-2025 | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | 37518f25-ad10-43e9-8a94-eb85ff71ad07
 FCT-018 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
 FCT-019 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
 FCT-020 | FACT | ❧ | - | - | - | 2026-08-14_20-30_signaux-convergents-corruption-publique | - | -
