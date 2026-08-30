@@ -1,0 +1,29 @@
+{
+  "name": "WRITER_MAESTRO_V2_BUNDLE",
+  "version": "2.0.1",
+  "files": [
+    "LONG_FORM.md",
+    "MAESTRO.md",
+    "MANIFEST.json",
+    "README.md",
+    "START_HERE.md",
+    "examples/INVOCATION.md",
+    "prompts/ARCHITECT.md",
+    "prompts/LINGUIST.md",
+    "prompts/RED_TEAM.md",
+    "prompts/REWRITE_ARTICLE.md",
+    "protocol/GLOBAL_STATE.md",
+    "protocol/HARD_GATE.md",
+    "protocol/REVIEW_FORMAT.md",
+    "protocol/SEMANTIC_DIFF.md",
+    "tests/ACCEPTANCE_CHECKLIST.md",
+    "tests/MUTATION_TESTS.md"
+  ],
+  "purpose": "Multi-agent French long-form rewriting with semantic regression controls",
+  "notes": [
+    "Zero em-dash in bundle text",
+    "LONG_FORM uses compact GLOBAL_STATE",
+    "Semantic diff is explicitly heuristic",
+    "Mutation tests are specifications, not pre-executed results"
+  ]
+}
