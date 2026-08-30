@@ -1,0 +1,9 @@
+source_id,publisher,date,topic,url,access_state,source_class,confidence
+RSRC203A-01,Yahoo Actualités,2021-07-23,×12 / modélisation Pasteur,https://fr.news.yahoo.com/covid-19-vaccination-reduit-elle-par-12-risque-contamination-135540814.html,FULL_TEXT_SEARCH_INDEX,PRIMARY_MEDIA,HIGH
+RSRC203A-02,Conspiracy Watch,2020-04-09,Soros / origine / compression fabrication-fuite,https://www.conspiracywatch.info/nen-deplaise-aux-complotistes-george-soros-na-rien-a-voir-avec-le-covid-19.html,LIVE,PRIMARY_MEDIA,HIGH
+RSRC203A-03,Conspiracy Watch,2020-04-16,Mise à jour article arme biologique / fuite accidentelle,https://www.conspiracywatch.info/pourquoi-le-coronavirus-nest-probablement-pas-une-arme-biologique.html,LIVE_WITH_UPDATE,PRIMARY_MEDIA,HIGH
+RSRC203A-04,Conspiracy Watch,2020-04-20,Conspiracy News #16.2020,https://www.conspiracywatch.info/conspiracy-news-16-2020.html,LIVE_PAYWALL_INDEXED,PRIMARY_MEDIA,HIGH
+RSRC203A-05,AFP Factuel,2021-06-18/29,Bridle / note de reformulation,https://factuel.afp.com/doc.afp.com.9CE9N2,LIVE_UPDATED,PRIMARY_FACTCHECK,HIGH
+RSRC203A-06,BnF,current,Archives de l'internet / Covid,https://www.bnf.fr/fr/consulter-les-archives-de-linternet,LIVE,OFFICIAL_ARCHIVE_GUIDANCE,HIGH
+RSRC203A-07,Internet Archive,current,Wayback limitations,https://archivesupport.zendesk.com/hc/en-us/articles/360004651732-Using-The-Wayback-Machine,LIVE,OFFICIAL_ARCHIVE_GUIDANCE,HIGH
+RSRC203A-08,Common Crawl,current,URL Index / WARC,https://commoncrawl.org/url-index,LIVE,OFFICIAL_ARCHIVE_GUIDANCE,HIGH

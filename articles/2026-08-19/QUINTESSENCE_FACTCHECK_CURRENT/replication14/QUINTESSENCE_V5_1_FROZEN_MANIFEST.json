@@ -1,0 +1,456 @@
+{
+  "protocol": "QUINTESSENCE FALSIFICATION V5.1-FROZEN",
+  "frozen_at": "2026-08-23",
+  "prompt_file": "QUINTESSENCE_FALSIFICATION_V5_1_FROZEN_2026-08-23.md",
+  "prompt_sha256": "5865b36b3c202ca0275eedcbc3cf54006a70ebaa3afa06b3ee97ac0ffead0540",
+  "expected_atom_count": 41,
+  "atoms": [
+    {
+      "id": "C01-A",
+      "type": "DATA",
+      "cutoff": "2021-07-28",
+      "required": [],
+      "seed": null,
+      "question": "Une source publique ouverte et disponible au plus tard le 28 juillet 2021 documente-t-elle que des personnes vaccinées infectées peuvent transmettre le SARS-CoV-2 ?"
+    },
+    {
+      "id": "C01-B",
+      "type": "SEARCH",
+      "cutoff": "2021-07-28",
+      "required": [],
+      "seed": null,
+      "question": "Une source publique ouverte et disponible au plus tard le 28 juillet 2021 établissant un risque de transmission strictement nul chez les vaccinés a-t-elle été retrouvée ?"
+    },
+    {
+      "id": "C02-A",
+      "type": "TEXT",
+      "cutoff": "2021-06-01",
+      "required": [
+        "S_C02_ANSM_20210521"
+      ],
+      "seed": null,
+      "question": "Le rapport ANSM indique-t-il que les 28 correspondent à 28 notifications d'effets indésirables avec Comirnaty, dont 14 fausses couches, plutôt qu'à 28 femmes enceintes vaccinées au total ?"
+    },
+    {
+      "id": "C02-B",
+      "type": "TEXT",
+      "cutoff": "2021-06-01",
+      "required": [
+        "S_C02_ANSM_20210521"
+      ],
+      "seed": null,
+      "question": "Le rapport ANSM dit-il qu'il est impossible de calculer l'incidence des fausses couches en l'absence du dénominateur correspondant au nombre de femmes vaccinées avant 22 semaines d'aménorrhée ?"
+    },
+    {
+      "id": "C03-A",
+      "type": "DATA",
+      "cutoff": "2021-07-15",
+      "required": [
+        "S_C03_FACTCHECK",
+        "S_C03_NEJM"
+      ],
+      "seed": null,
+      "question": "Le dénominateur utilisé pour produire le chiffre « 82 % » inclut-il correctement toutes les grossesses pertinentes pour estimer un risque de fausse couche ?"
+    },
+    {
+      "id": "C03-B",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C03_NEJM_CORRECTION"
+      ],
+      "seed": null,
+      "question": "La correction NEJM indique-t-elle qu'aucun dénominateur approprié n'était disponible pour calculer le risque de fausse couche spontanée ?"
+    },
+    {
+      "id": "C03-C",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C03_FACTCHECK"
+      ],
+      "seed": null,
+      "question": "FactCheck.org signale-t-il explicitement une mise à jour de son article liée à cette correction du 12,6 % ?"
+    },
+    {
+      "id": "C04-A",
+      "type": "TEXT",
+      "cutoff": "2021-08-30",
+      "required": [
+        "S_C04_OUCRU"
+      ],
+      "seed": null,
+      "question": "Les auteurs indiquent-ils que le ratio 251× compare des vaccinés et non-vaccinés contemporains infectés par le même variant dans des conditions comparables ?"
+    },
+    {
+      "id": "C04-B",
+      "type": "TEXT",
+      "cutoff": "2021-08-30",
+      "required": [
+        "S_C04_OUCRU"
+      ],
+      "seed": null,
+      "question": "Les auteurs qualifient-ils explicitement l'interprétation « vaccinés = 251× plus de charge virale que non-vaccinés » de mauvaise représentation de leurs données ?"
+    },
+    {
+      "id": "C05-A",
+      "type": "TEXT",
+      "cutoff": "2020-09-16",
+      "required": [
+        "S_C05_NATURE"
+      ],
+      "seed": null,
+      "question": "Andersen et al. affirment-ils explicitement que leur analyse permet de prouver l'impossibilité de tout scénario impliquant un laboratoire ?"
+    },
+    {
+      "id": "C05-B",
+      "type": "SEARCH",
+      "cutoff": "2020-09-16",
+      "required": [],
+      "seed": null,
+      "question": "Une source indépendante de Li-Meng Yan, rendue publique au plus tard le 16 septembre 2020, contenant des données ou éléments documentaires vérifiables et concluant explicitement à une création ou manipulation intentionnelle du SARS-CoV-2 a-t-elle été retrouvée ?"
+    },
+    {
+      "id": "C05-C",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C05_POLITIFACT"
+      ],
+      "seed": null,
+      "question": "PolitiFact indique-t-il explicitement avoir retiré ou suspendu son ancien fact-check parce qu'une prémisse sur l'impossibilité d'une manipulation était devenue plus contestée ?"
+    },
+    {
+      "id": "C06-A",
+      "type": "TEXT",
+      "cutoff": "2021-09-28",
+      "required": [
+        "S_C06_OGATA"
+      ],
+      "seed": null,
+      "question": "Ogata et al. rapportent-ils la détection de S1 ou Spike dans le plasma après vaccination ARNm ?"
+    },
+    {
+      "id": "C06-B",
+      "type": "TEXT",
+      "cutoff": "2021-09-28",
+      "required": [
+        "S_C06_OGATA"
+      ],
+      "seed": null,
+      "question": "Ogata et al. rapportent-ils un endpoint clinique établissant à lui seul une toxicité systémique causée par cette détection ?"
+    },
+    {
+      "id": "C06-C",
+      "type": "DATA",
+      "cutoff": "2021-09-28",
+      "required": [
+        "S_C06_OGATA"
+      ],
+      "seed": null,
+      "question": "La première disponibilité publique de l'étude Ogata est-elle antérieure ou égale au 28 septembre 2021 ?"
+    },
+    {
+      "id": "C07-A",
+      "type": "SEARCH",
+      "cutoff": "2021-06-18",
+      "required": [],
+      "seed": "S_C07_GOLAN_PREPRINT",
+      "question": "Une étude humaine rendue publiquement accessible, y compris sous forme de preprint, mesurant directement l'ARNm vaccinal dans le lait maternel a-t-elle été retrouvée avant ou au 18 juin 2021 ?"
+    },
+    {
+      "id": "C07-B",
+      "type": "TEXT",
+      "cutoff": "2021-06-18",
+      "required": [
+        "S_C07_GOLAN_PREPRINT"
+      ],
+      "seed": null,
+      "question": "Le preprint Golan affirme-t-il avoir démontré une impossibilité absolue de passage de l'ARNm vaccinal dans le lait maternel ?"
+    },
+    {
+      "id": "C07-C",
+      "type": "DATA",
+      "cutoff": null,
+      "required": [
+        "S_C07_HANNA"
+      ],
+      "seed": null,
+      "question": "Une étude ultérieure rapporte-t-elle la détection d'ARNm vaccinal dans certains échantillons de lait maternel ?"
+    },
+    {
+      "id": "C08-A",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C08_ANSM_ARCHIVE"
+      ],
+      "seed": null,
+      "question": "La capture ANSM du 31 mai 2021 contient-elle explicitement la formule « fortement recommandée » pour la vaccination ARNm des femmes enceintes ?"
+    },
+    {
+      "id": "C08-B",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C08_ANSM_ARCHIVE"
+      ],
+      "seed": null,
+      "question": "Cette capture contient-elle des formulations exprimant des données limitées, de la prudence ou une décision individualisée avec un médecin ?"
+    },
+    {
+      "id": "C08-C",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C08_ANSM_CURRENT"
+      ],
+      "seed": null,
+      "question": "La page ANSM actuelle contient-elle la formule « fortement recommandée » ?"
+    },
+    {
+      "id": "C08-D",
+      "type": "DATA",
+      "cutoff": null,
+      "required": [
+        "S_C08_ANSM_ARCHIVE",
+        "S_C08_ANSM_CURRENT"
+      ],
+      "seed": null,
+      "question": "Ces deux versions suffisent-elles à identifier la première date exacte d'introduction de la formule « fortement recommandée » ?"
+    },
+    {
+      "id": "C09-A",
+      "type": "TEXT",
+      "cutoff": "2021-07-12",
+      "required": [
+        "S_C09_PASTEUR_V1"
+      ],
+      "seed": null,
+      "question": "Le document Pasteur v1 du 28 juin produit-il explicitement un ratio proche de 12 entre risque de transmission des non-vaccinés et des vaccinés dans son scénario de référence ?"
+    },
+    {
+      "id": "C09-B",
+      "type": "TEXT",
+      "cutoff": "2021-07-12",
+      "required": [
+        "S_C09_PASTEUR_V1"
+      ],
+      "seed": null,
+      "question": "Le document présente-t-il ce ratio comme un résultat de modélisation ?"
+    },
+    {
+      "id": "C09-C",
+      "type": "TEXT",
+      "cutoff": "2021-07-12",
+      "required": [
+        "S_C09_PASTEUR_V1"
+      ],
+      "seed": null,
+      "question": "Le document v1 explicite-t-il des hypothèses conditionnant ses résultats, notamment R0, couverture vaccinale ou efficacité vaccinale ?"
+    },
+    {
+      "id": "C09-D",
+      "type": "TEXT",
+      "cutoff": "2021-07-12",
+      "required": [
+        "S_C09_MACRON"
+      ],
+      "seed": null,
+      "question": "Dans la phrase contenant « divisent par 12 son pouvoir de contamination », Emmanuel Macron mentionne-t-il explicitement qu'il s'agit d'une modélisation conditionnelle ?"
+    },
+    {
+      "id": "C10-A",
+      "type": "TEXT",
+      "cutoff": "2021-07-21",
+      "required": [
+        "S_C10_NEJM_DELTA"
+      ],
+      "seed": null,
+      "question": "L'étude NEJM rapporte-t-elle une efficacité de 100 % contre l'infection symptomatique par Delta après deux doses ?"
+    },
+    {
+      "id": "C10-B",
+      "type": "SEARCH",
+      "cutoff": "2021-07-21",
+      "required": [],
+      "seed": null,
+      "question": "Une source ouverte publiée avant ou au 21 juillet 2021 documentant des infections post-vaccinales a-t-elle été retrouvée ?"
+    },
+    {
+      "id": "C11-A",
+      "type": "TEXT",
+      "cutoff": "2021-01-31",
+      "required": [
+        "S_C11_WHO"
+      ],
+      "seed": null,
+      "question": "La notice OMS affirme-t-elle que les tests PCR produisent « massivement » des faux positifs ?"
+    },
+    {
+      "id": "C11-B",
+      "type": "TEXT",
+      "cutoff": "2021-01-31",
+      "required": [
+        "S_C11_WHO"
+      ],
+      "seed": null,
+      "question": "La notice demande-t-elle de tenir compte de facteurs d'interprétation tels que Ct/seuil, prévalence, contexte clinique ou instructions du fabricant ?"
+    },
+    {
+      "id": "C12-A",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C12_SARS1_PATENT"
+      ],
+      "seed": null,
+      "question": "Le brevet US7776521B1 concerne-t-il explicitement le SARS-CoV-2 identifié en 2019-2020 ?"
+    },
+    {
+      "id": "C12-B",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C12_SARS1_PATENT"
+      ],
+      "seed": null,
+      "question": "Le brevet US7776521B1 affirme-t-il que le SARS-CoV-2 a été créé intentionnellement ?"
+    },
+    {
+      "id": "C12-C",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C12_PIRBRIGHT_PATENT"
+      ],
+      "seed": null,
+      "question": "Le brevet US10130701B2 concerne-t-il un coronavirus aviaire / virus de bronchite infectieuse plutôt que le SARS-CoV-2 ?"
+    },
+    {
+      "id": "C12-D",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C12_PIRBRIGHT_PATENT"
+      ],
+      "seed": null,
+      "question": "Le brevet US10130701B2 affirme-t-il que le SARS-CoV-2 a été créé intentionnellement ?"
+    },
+    {
+      "id": "C13-A",
+      "type": "TEXT",
+      "cutoff": "2021-08-31",
+      "required": [
+        "S_C13_EU_DIRECTIVE"
+      ],
+      "seed": null,
+      "question": "La réglementation européenne exclut-elle explicitement les vaccins contre les maladies infectieuses de la catégorie des médicaments de thérapie génique ?"
+    },
+    {
+      "id": "C13-B",
+      "type": "TEXT",
+      "cutoff": "2021-08-31",
+      "required": [
+        "S_C13_EU_DIRECTIVE"
+      ],
+      "seed": null,
+      "question": "La définition réglementaire européenne exige-t-elle explicitement une modification permanente du génome humain pour qu'un produit relève de la thérapie génique ?"
+    },
+    {
+      "id": "C13-C",
+      "type": "TEXT",
+      "cutoff": "2021-08-31",
+      "required": [
+        "S_C13_EU_DIRECTIVE"
+      ],
+      "seed": null,
+      "question": "Le texte réglementaire permet-il de réduire la classification à la seule question « le produit modifie-t-il l'ADN humain ? »"
+    },
+    {
+      "id": "C14-A",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C14_CHECKNEWS"
+      ],
+      "seed": null,
+      "question": "L'article reconnaît-il explicitement que la vaccination n'empêche pas totalement la transmission ?"
+    },
+    {
+      "id": "C14-B",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C14_CHECKNEWS"
+      ],
+      "seed": null,
+      "question": "L'article présente-t-il la prévention des formes graves, de l'hospitalisation ou de la saturation hospitalière comme justification importante du pass vaccinal ?"
+    },
+    {
+      "id": "C14-C",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C14_CHECKNEWS"
+      ],
+      "seed": null,
+      "question": "L'article cite-t-il un responsable politique reconnaissant qu'une croyance ou justification antérieure sur l'absence d'infection/transmission après vaccination était trop forte ?"
+    },
+    {
+      "id": "C14-D",
+      "type": "TEXT",
+      "cutoff": null,
+      "required": [
+        "S_C14_CHECKNEWS"
+      ],
+      "seed": null,
+      "question": "CheckNews ou Libération reconnaît-il explicitement dans cet article qu'un de ses propres contenus antérieurs était faux, trop catégorique ou devait être corrigé ?"
+    }
+  ],
+  "canonical_source_types": {
+    "S_C02_ANSM_20210521": "PRIMARY",
+    "S_C03_FACTCHECK": "SECONDARY",
+    "S_C03_NEJM": "STUDY",
+    "S_C03_NEJM_CORRECTION": "PRIMARY",
+    "S_C04_OUCRU": "PRIMARY",
+    "S_C05_POLITIFACT": "SECONDARY",
+    "S_C05_NATURE": "STUDY",
+    "S_C06_OGATA": "STUDY",
+    "S_C07_GOLAN_PREPRINT": "STUDY",
+    "S_C07_HANNA": "STUDY",
+    "S_C08_ANSM_ARCHIVE": "PRIMARY",
+    "S_C08_ANSM_CURRENT": "PRIMARY",
+    "S_C09_PASTEUR_V1": "STUDY",
+    "S_C09_MACRON": "PRIMARY",
+    "S_C10_NEJM_DELTA": "STUDY",
+    "S_C11_WHO": "PRIMARY",
+    "S_C12_SARS1_PATENT": "PRIMARY",
+    "S_C12_PIRBRIGHT_PATENT": "PRIMARY",
+    "S_C13_EU_DIRECTIVE": "PRIMARY",
+    "S_C14_CHECKNEWS": "SECONDARY"
+  },
+  "policy": {
+    "validation_scope": "mechanical protocol compliance only; no substantive fact-checking",
+    "atom_level_invalidation": true,
+    "whole_run_rejected_only_for": [
+      "prompt_hash_mismatch",
+      "missing_or_duplicate_atoms_preventing_unique_atom_map"
+    ],
+    "hard_rules": [
+      "expected_atoms",
+      "type",
+      "answer_domain",
+      "required_opening",
+      "support_opened",
+      "text_direct_support",
+      "cutoff",
+      "search_found_opened",
+      "excerpt_word_limit"
+    ],
+    "warnings": [
+      "canonical_source_type_mismatch",
+      "not_found_existential_language"
+    ]
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "created_at": "2026-08-26T14:05:00+02:00",
+  "canonical_metrics": {
+    "integrity": "ok",
+    "investigations": 38,
+    "sources": 292,
+    "claims": 79,
+    "conversation_log": 19,
+    "article_versions": [
+      [
+        "ART-V001",
+        "SUPERSEDED",
+        "2026-08-26_ia-modele-salarial-forensique_ARTICLE.md"
+      ],
+      [
+        "ART-V002",
+        "SUPERSEDED",
+        "2026-08-25_quand-le-travail-ne-vaut-plus-son-temps_V2.md"
+      ],
+      [
+        "ART-V003",
+        "SUPERSEDED",
+        "2026-08-25_quand-le-travail-ne-vaut-plus-son-temps_V3.md"
+      ],
+      [
+        "ART-V003R1",
+        "READY_FINAL_REVIEW",
+        "2026-08-25_quand-le-travail-ne-vaut-plus-son-temps_V3_1.md"
+      ]
+    ],
+    "article_figures": 16,
+    "article_fix_queue": 30,
+    "graph_edges": 481,
+    "gaps": 20
+  },
+  "files": [
+    {
+      "archive_path": "00_README/KNOWN_GAPS.md",
+      "source_path": "generated",
+      "role": "Limites et gaps de l'archive",
+      "canonical": true,
+      "note": "",
+      "size_bytes": 1283,
+      "sha256": "50143aae51a622fdcb92fd79826d283eba27f43fe36a4c4ce83af9d47874ef00"
+    },
+    {
+      "archive_path": "00_README/LINEAGE.md",
+      "source_path": "generated",
+      "role": "Lineage et état canonique",
+      "canonical": true,
+      "note": "",
+      "size_bytes": 1559,
+      "sha256": "f3d619ee68e893d45464d8cac3203e7ed515db16f1ce957a5af0b237c88f1a60"
+    },
+    {
+      "archive_path": "00_README/README_FIRST.md",
+      "source_path": "generated",
+      "role": "Guide principal",
+      "canonical": true,
+      "note": "",
+      "size_bytes": 2612,
+      "sha256": "f6d5098462d6c854b374e72937d69d6edc48fce51cca87962263cec279cef0f1"
+    },
+    {
+      "archive_path": "01_ARTICLE_VERSIONS/2026-08-25_V3_1_ANNEXE_PANEL_30_CAS.md",
+      "source_path": "/mnt/data/2026-08-25_V3_1_ANNEXE_PANEL_30_CAS.md",
+      "role": "Annexe méthodologique 30 cas",
+      "canonical": true,
+      "note": "",
+      "size_bytes": 10024,
+      "sha256": "18c0be11ca48ea8f5a2c1795757c259993ee5f5d776c3be100cd073344361392"
+    },
+    {
+      "archive_path": "01_ARTICLE_VERSIONS/2026-08-25_quand-le-travail-ne-vaut-plus-son-temps_V2.md",
+      "source_path": "/mnt/data/2026-08-25_quand-le-travail-ne-vaut-plus-son-temps_V2.md",
+      "role": "V2 / refactor P0-P1",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 27898,
+      "sha256": "4c2348b5ce1f7f1e7121819fd893c4d0f98d2a4e8b0b7347bde4a869c81fb606"
+    },
+    {
+      "archive_path": "01_ARTICLE_VERSIONS/2026-08-25_quand-le-travail-ne-vaut-plus-son-temps_V3.md",
+      "source_path": "/mnt/data/2026-08-25_quand-le-travail-ne-vaut-plus-son-temps_V3.md",
+      "role": "V3 / reset substantiel",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 50350,
+      "sha256": "bf8a4cda85101004d853ceab8f5dc7b2ffd0e45b6ecd558265ea5edf01fd6357"
+    },
+    {
+      "archive_path": "01_ARTICLE_VERSIONS/2026-08-25_quand-le-travail-ne-vaut-plus-son-temps_V3_1.md",
+      "source_path": "/mnt/data/2026-08-25_quand-le-travail-ne-vaut-plus-son-temps_V3_1.md",
+      "role": "V3.1 / version corrigée finale de travail",
+      "canonical": true,
+      "note": "",
+      "size_bytes": 63022,
+      "sha256": "b7711ef8cdef02729198b56ef7d9a110b9b57a6940e6daf5145e379ef8d07b5a"
+    },
+    {
+      "archive_path": "01_ARTICLE_VERSIONS/2026-08-26_ia-modele-salarial-forensique_ARTICLE.md",
+      "source_path": "/mnt/data/2026-08-26_ia-modele-salarial-forensique_ARTICLE.md",
+      "role": "V1 / article initial",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 38967,
+      "sha256": "54c84a9d2e86352c7da8c35c0e80add0eb1dae112cfc077e58a8a3bb3e072d14"
+    },
+    {
+      "archive_path": "02_INVESTIGATIONS/2026-08-25_17-03_fresque-9d-travail-ia_INVESTIGATION.md",
+      "source_path": "/mnt/data/2026-08-25_17-03_fresque-9d-travail-ia_INVESTIGATION.md",
+      "role": "Investigation / matière probatoire",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 13184,
+      "sha256": "93246cad570c59df2f3137e25439107c9181a0efef99b53e1ffa89f4debf69c0"
+    },
+    {
+      "archive_path": "02_INVESTIGATIONS/2026-08-25_17-13_dix-organisations-chaine-ia-travail_INVESTIGATION.md",
+      "source_path": "/mnt/data/2026-08-25_17-13_dix-organisations-chaine-ia-travail_INVESTIGATION.md",
+      "role": "Investigation / matière probatoire",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 21019,
+      "sha256": "b1180dce6d1ad17d93274e3e7a892eefea7c33a93fbed515b878a977ab75f226"
+    },
+    {
+      "archive_path": "02_INVESTIGATIONS/2026-08-25_17-48_p0-suite-dix-organisations_INVESTIGATION.md",
+      "source_path": "/mnt/data/2026-08-25_17-48_p0-suite-dix-organisations_INVESTIGATION.md",
+      "role": "Investigation / matière probatoire",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 20018,
+      "sha256": "76ec0c761e820ce120249a27c5c86d2273835e293a049db32300265dfe2e9d20"
+    },
+    {
+      "archive_path": "02_INVESTIGATIONS/2026-08-25_18-10_ia-declaree-vs-ia-reelle_INVESTIGATION.md",
+      "source_path": "/mnt/data/2026-08-25_18-10_ia-declaree-vs-ia-reelle_INVESTIGATION.md",
+      "role": "Investigation / matière probatoire",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 11612,
+      "sha256": "c94d595eec296c4e31b0ebc282ad0ee21f2dd4b79939dc9dbef950f79b7b1e5e"
+    },
+    {
+      "archive_path": "02_INVESTIGATIONS/2026-08-25_18-24_licenciements-ia-et-prix-services_INVESTIGATION.md",
+      "source_path": "/mnt/data/2026-08-25_18-24_licenciements-ia-et-prix-services_INVESTIGATION.md",
+      "role": "Investigation / matière probatoire",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 15588,
+      "sha256": "a2d0005feae8aabf9137242cdcf61ddd18a69811bc0c68040f77a2d9e7f78ccf"
+    },
+    {
+      "archive_path": "02_INVESTIGATIONS/2026-08-25_18-36_pyramide-services_INVESTIGATION.md",
+      "source_path": "/mnt/data/2026-08-25_18-36_pyramide-services_INVESTIGATION.md",
+      "role": "Investigation / matière probatoire",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 18443,
+      "sha256": "583a6df211b6afbdb6457ec040ae998c02052b8be8f44d605744ad7d9bb997c7"
+    },
+    {
+      "archive_path": "02_INVESTIGATIONS/2026-08-25_18-54_fresque-historique-travail-ia_INVESTIGATION.md",
+      "source_path": "/mnt/data/2026-08-25_18-54_fresque-historique-travail-ia_INVESTIGATION.md",
+      "role": "Investigation / matière probatoire",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 15672,
+      "sha256": "09eb08857f99039dd44bcb98be9a0a3b568067c3bca2082da5ee015ab0614c67"
+    },
+    {
+      "archive_path": "03_AUDITS_QA/2026-08-25_V3_1_P0_P1_APPLIED.md",
+      "source_path": "/mnt/data/2026-08-25_V3_1_P0_P1_APPLIED.md",
+      "role": "Audit / QA / décisions éditoriales",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1877,
+      "sha256": "b781b283b49044fdf736aebcb9a3577b53e100dd3916b05eb21a04664a1ab554"
+    },
+    {
+      "archive_path": "03_AUDITS_QA/2026-08-25_V3_DOUBLECHECK_FORENSIQUE.md",
+      "source_path": "/mnt/data/2026-08-25_V3_DOUBLECHECK_FORENSIQUE.md",
+      "role": "Audit / QA / décisions éditoriales",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 7611,
+      "sha256": "166311dc4276b2dd6432a286e25b33f29b7ced8cc5008999a73486eff0c0c408"
+    },
+    {
+      "archive_path": "03_AUDITS_QA/2026-08-25_article-v2_p0-p1_APPLIED.md",
+      "source_path": "/mnt/data/2026-08-25_article-v2_p0-p1_APPLIED.md",
+      "role": "Audit / QA / décisions éditoriales",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1517,
+      "sha256": "37228ba26db8dcda62e653eb3daf04051ee4286f96078a36cc0fc7c843039d0a"
+    },
+    {
+      "archive_path": "03_AUDITS_QA/2026-08-25_article-v3_RESET_REPORT.md",
+      "source_path": "/mnt/data/2026-08-25_article-v3_RESET_REPORT.md",
+      "role": "Audit / QA / décisions éditoriales",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 2110,
+      "sha256": "dbaf692a9188c9f654fc95b9bdd2df2949dd9eb8dae34c8c93324acc1f5ec2c2"
+    },
+    {
+      "archive_path": "03_AUDITS_QA/2026-08-25_audit-multirole-article-v1_REVIEW.md",
+      "source_path": "/mnt/data/2026-08-25_audit-multirole-article-v1_REVIEW.md",
+      "role": "Audit / QA / décisions éditoriales",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 7282,
+      "sha256": "d8c784a1f5aa5ab5fc2c1b34dbf99e5772728fe7e7f37c046b2c1643fe9d90ef"
+    },
+    {
+      "archive_path": "04_TRACEABILITY/IA_TRAVAIL_MANIFEST_SHA256.txt",
+      "source_path": "/mnt/data/IA_TRAVAIL_MANIFEST_SHA256.txt",
+      "role": "Manifest antérieur",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 5973,
+      "sha256": "1c0bb9b6e3cdf18cf82bd29bd4b9aa2fe73ddc8869c7d935f21d9569478736bb"
+    },
+    {
+      "archive_path": "04_TRACEABILITY/IA_TRAVAIL_TRACEABILITY_DASHBOARD_preview.png",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_DASHBOARD_preview.png",
+      "role": "Aperçu visuel du dashboard",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 399589,
+      "sha256": "2e03956e3eea2c98780584bfdb6f3ba1c72f7d805068aa59db80be150496adc3"
+    },
+    {
+      "archive_path": "04_TRACEABILITY/IA_TRAVAIL_TRACEABILITY_README.md",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_README.md",
+      "role": "README du socle maître",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 2066,
+      "sha256": "75391a52103948bb32e47f2fa3fa835b64042e5ffeaf80662dd1ef9674caacc6"
+    },
+    {
+      "archive_path": "04_TRACEABILITY/canonical_v3_1/IA_TRAVAIL_TRACEABILITY_MASTER.sqlite",
+      "source_path": "/mnt/data/IA_TRAVAIL_V3_1_BUNDLE_2026-08-25.zip!/IA_TRAVAIL_TRACEABILITY_MASTER.sqlite",
+      "role": "État canonique de traçabilité V3.1",
+      "canonical": true,
+      "note": "Extrait du bundle V3.1, utilisé comme référence canonique.",
+      "size_bytes": 466944,
+      "sha256": "701b914a52f141081c0b867231a3eb89f80e326dc0e8d7ba525949a0374ee38f"
+    },
+    {
+      "archive_path": "04_TRACEABILITY/canonical_v3_1/IA_TRAVAIL_TRACEABILITY_MASTER.xlsx",
+      "source_path": "/mnt/data/IA_TRAVAIL_V3_1_BUNDLE_2026-08-25.zip!/IA_TRAVAIL_TRACEABILITY_MASTER.xlsx",
+      "role": "État canonique de traçabilité V3.1",
+      "canonical": true,
+      "note": "Extrait du bundle V3.1, utilisé comme référence canonique.",
+      "size_bytes": 245056,
+      "sha256": "8f9f8b1b6b2ea2deb4cdc240d4733e825e229fb2c02c592353aee2015c01b3ba"
+    },
+    {
+      "archive_path": "04_TRACEABILITY/root_snapshot_regression/IA_TRAVAIL_TRACEABILITY_MASTER_ROOT_2026-08-26.sqlite",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_MASTER.sqlite",
+      "role": "Snapshot racine détecté comme régressé",
+      "canonical": false,
+      "note": "État racine V1-only détecté lors de l'archivage ; conservé comme preuve de régression.",
+      "size_bytes": 376832,
+      "sha256": "c7f8f7dce0210e18d0b7ad4ffc95d110ec0cfaa139e44558e532bd41aa5d53b8"
+    },
+    {
+      "archive_path": "04_TRACEABILITY/root_snapshot_regression/IA_TRAVAIL_TRACEABILITY_MASTER_ROOT_2026-08-26.xlsx",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_MASTER.xlsx",
+      "role": "Snapshot racine du dashboard",
+      "canonical": false,
+      "note": "Le classeur racine avait le même SHA-256 que le classeur canonique V3.1 au moment du contrôle.",
+      "size_bytes": 245056,
+      "sha256": "8f9f8b1b6b2ea2deb4cdc240d4733e825e229fb2c02c592353aee2015c01b3ba"
+    },
+    {
+      "archive_path": "05_CONVERSATION/CONVERSATION_ARCHIVE_LIMITATION.md",
+      "source_path": "generated",
+      "role": "Avertissement de complétude conversation",
+      "canonical": true,
+      "note": "Documente l'absence d'export verbatim.",
+      "size_bytes": 821,
+      "sha256": "c516223dc1e9dd0c051dcc74c4713440833c2b42267a967f7e4ed71e690603f9"
+    },
+    {
+      "archive_path": "05_CONVERSATION/CURRENT_CONVERSATION_EVENTS.md",
+      "source_path": "/mnt/data/CURRENT_CONVERSATION_EVENTS.md",
+      "role": "Synthèse structurée de conversation disponible localement",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 4162,
+      "sha256": "1307494a31a66cf6ff569c064d937d1016341b3031f828f37856aa57b3c8207b"
+    },
+    {
+      "archive_path": "06_METHOD_PROMPTS/prompt-phase2_5_raisonnement_narratif.md",
+      "source_path": "/mnt/data/prompt-phase2_5_raisonnement_narratif.md",
+      "role": "Prompt / méthode de raisonnement ou rédaction",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 20301,
+      "sha256": "1e3a037251c0ac3cce73ecb43df0f2b1f15c6e30a48c4129ef15d908c19cca7b"
+    },
+    {
+      "archive_path": "06_METHOD_PROMPTS/prompt-v38_phase3(3).md",
+      "source_path": "/mnt/data/prompt-v38_phase3(3).md",
+      "role": "Prompt / méthode de raisonnement ou rédaction",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 40575,
+      "sha256": "e700ade3ab3cb8d2a03f70dd16822b0b5c164b7ab89df01ce8ed9c0a61922a30"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/a_large_multi_panel_editorial_collage_infographi.png",
+      "source_path": "/mnt/data/a_large_multi_panel_editorial_collage_infographi.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 2496531,
+      "sha256": "3ef97da29f62c62d6ceecae0abaa1a70144fb1ccc0a47a50e60bb1235d230fee"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/analyse_comparative_au_bureau.png",
+      "source_path": "/mnt/data/analyse_comparative_au_bureau.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1896336,
+      "sha256": "2e31c67f5781accfeab051260ad92610f7bc28be75d25d738aee3cd9f3df75a5"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/analyse_juridique_et_suivi_du_temps_facturable.png",
+      "source_path": "/mnt/data/analyse_juridique_et_suivi_du_temps_facturable.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1794360,
+      "sha256": "154473665b82d9a00b2120cb35e34ec381a9267a2d4fc5a31511ad833e7f1a95"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/automatisation_transfert_de_l_emploi.png",
+      "source_path": "/mnt/data/automatisation_transfert_de_l_emploi.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 844955,
+      "sha256": "71235d66d6fe8242a0a9d055b2ea09a3715c5c1d75277095b656047b2024c93a"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/bureau_sous_tension_entre_dossiers_et_écrans.png",
+      "source_path": "/mnt/data/bureau_sous_tension_entre_dossiers_et_écrans.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 2116443,
+      "sha256": "59dc247694d7182ee3af08a45b68fe9c0b39f4643b2448713cd6f665877c8759"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/centre_de_contrôle_informatique_en_entreprise.png",
+      "source_path": "/mnt/data/centre_de_contrôle_informatique_en_entreprise.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1999389,
+      "sha256": "6f8238fe5b938ae726bfb53695399102a557a865ba213eee562d3ff08e91b53f"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/diagnostic_de_l_essai_à_la_transformation.png",
+      "source_path": "/mnt/data/diagnostic_de_l_essai_à_la_transformation.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 931364,
+      "sha256": "4dc9825422e2bc9603e3f323a53337960690e40164c93f3dd813937e20dbd2c4"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/du_travail_à_l_intelligence_artificielle.png",
+      "source_path": "/mnt/data/du_travail_à_l_intelligence_artificielle.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 936151,
+      "sha256": "71f2644a25bca90176385f80956531d583a015c75e26e4dae0c7aad6a8d4b084"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/imagegen.png",
+      "source_path": "/mnt/data/imagegen.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1752953,
+      "sha256": "e758742258cc3a958d1d53a401a04f4a52170f513f59b6b691c83355bb606cd1"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/l_ia_et_le_temps_facturable.png",
+      "source_path": "/mnt/data/l_ia_et_le_temps_facturable.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 856067,
+      "sha256": "95137c364f6da4674ba712e32854e83fe8559008e5f35331dec0d331caea3ca7"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/le_paradoxe_du_junior_apprendre_à_l_ère_de_l_ia.png",
+      "source_path": "/mnt/data/le_paradoxe_du_junior_apprendre_à_l_ère_de_l_ia.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 866673,
+      "sha256": "b0e34c0187e4e569e27f4e5f0b188e0cd2c09c2f07dac849104596342f4d02dc"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/répartition_de_la_valeur_du_temps_économisé.png",
+      "source_path": "/mnt/data/répartition_de_la_valeur_du_temps_économisé.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 871461,
+      "sha256": "8c9321e4f46c427350e07e95e5087efce8714aaa33949024b2d2be9160ac705d"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/stratégie_ia_au_cœur_du_bureau.png",
+      "source_path": "/mnt/data/stratégie_ia_au_cœur_du_bureau.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 2049271,
+      "sha256": "8aa5e0ca96c720d834119570390cad9facf009605e5c53ea2a57561170ac1f0d"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/travail_nocturne_au_bureau_high_tech.png",
+      "source_path": "/mnt/data/travail_nocturne_au_bureau_high_tech.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1752953,
+      "sha256": "e758742258cc3a958d1d53a401a04f4a52170f513f59b6b691c83355bb606cd1"
+    },
+    {
+      "archive_path": "08_VISUAL_ITERATIONS/typologie_des_formes_de_remplacement.png",
+      "source_path": "/mnt/data/typologie_des_formes_de_remplacement.png",
+      "role": "Itération visuelle / illustration article",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 890021,
+      "sha256": "fbf088da98f02eb8ae434dcc27fe9404418a021a06ee4c71efddbffa85f0c471"
+    },
+    {
+      "archive_path": "09_REFERENCE_STYLE_FACTCHECK/root_svg/FIG_02_CONTINUUM_EPISTEMIQUE.svg",
+      "source_path": "/mnt/data/FIG_02_CONTINUUM_EPISTEMIQUE.svg",
+      "role": "Référence SVG article fact-checking",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 6195,
+      "sha256": "0a6143aae5ac1be17f5f195f6a84146f9fb3db1298ee91076dece9ba5c78edb8"
+    },
+    {
+      "archive_path": "09_REFERENCE_STYLE_FACTCHECK/root_svg/FIG_03_MODELE_AU_SLOGAN_X12.svg",
+      "source_path": "/mnt/data/FIG_03_MODELE_AU_SLOGAN_X12.svg",
+      "role": "Référence SVG article fact-checking",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 7361,
+      "sha256": "be4275e48fc448e882d3f269d95ebc506c7fa50a86e038e877d0a0c2d132efae"
+    },
+    {
+      "archive_path": "09_REFERENCE_STYLE_FACTCHECK/root_svg/FIG_04_CORRECTION_CONTEXTUALISATION_REPARATION.svg",
+      "source_path": "/mnt/data/FIG_04_CORRECTION_CONTEXTUALISATION_REPARATION.svg",
+      "role": "Référence SVG article fact-checking",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 6468,
+      "sha256": "220293fce6558fce44bf75e9415429290de06e64539976c84c394af64519790d"
+    },
+    {
+      "archive_path": "09_REFERENCE_STYLE_FACTCHECK/root_svg/FIG_05_FALSIFICATION_REPARATION.svg",
+      "source_path": "/mnt/data/FIG_05_FALSIFICATION_REPARATION.svg",
+      "role": "Référence SVG article fact-checking",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 7414,
+      "sha256": "a3499d165aa982e17583fdee455407676ea68f3cc4f7dd13cc2b0d23719ee404"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_TRACEABILITY_BUNDLE.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_BUNDLE.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 259882,
+      "sha256": "a55c257a273db72c2bd3330c4e99f223121cf02624b9db4236ec53a1c998d1db"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 283843,
+      "sha256": "c91f50c2db89378110b187a9f1714952634430df231c5635ac184c569f88d0f2"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_1810.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_1810.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 322051,
+      "sha256": "1f35136e44ac7cf9dd33d6991f95f35a7abb50d0b7324c926825849d214413e6"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_1824.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_1824.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 353200,
+      "sha256": "6f78989ea373be45dccdc8fe172f3d3cd087d3d88f2b3e69d977c3df6e33e92c"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_1836.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_1836.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 385251,
+      "sha256": "5b307174e846280b437bd76494158e24ab554dd432c3a45fe3974743e18ead99"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_1854.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_1854.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 302501,
+      "sha256": "87a1cc63a7294edf45a6a8fcc8b2aa004adad8b5dca0d8cb5a50078aff1866d5"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_AUDIT_V1.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_AUDIT_V1.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 276876,
+      "sha256": "fb41f42c7b9d7dd977d64f880c4b7a34dc0826fa3fadfdcf4a400fc96bf5b07e"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_V2_P0P1.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_TRACEABILITY_BUNDLE_2026-08-25_V2_P0P1.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 287316,
+      "sha256": "fe87d83b09473afbf78f6668f6ea570e52b74bce8bae9355584b76d693c359e7"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_V3_1_BUNDLE_2026-08-25.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_V3_1_BUNDLE_2026-08-25.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1580293,
+      "sha256": "4f594b990e89a38d793fd64240889aa6ff57deda94d66863cb369b7453a27ce3"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_V3_1_FIGURES.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_V3_1_FIGURES.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1231883,
+      "sha256": "21672ec26a817f4dccb226e28d491c0ee98ed94c4f60da862d0c0bd1332aea9a"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_V3_BUNDLE_2026-08-25.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_V3_BUNDLE_2026-08-25.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1531519,
+      "sha256": "153bfaf43dd7203d7bed6b2b76afef66804e2dc7541b0fc7ce0246176bbe0e4f"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_V3_DOUBLECHECK_BUNDLE_2026-08-25.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_V3_DOUBLECHECK_BUNDLE_2026-08-25.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1557558,
+      "sha256": "7e64b216439d81e817d62da7bd3f4d070c21270f58779b6f70d4b9fee2a90dca"
+    },
+    {
+      "archive_path": "10_HISTORY_BUNDLES/IA_TRAVAIL_V3_FIGURES.zip",
+      "source_path": "/mnt/data/IA_TRAVAIL_V3_FIGURES.zip",
+      "role": "Bundle historique / passation",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 1492804,
+      "sha256": "359ecc6b806038089c8a47d385c6cd6bfa10fb8d4d721c0f4f3cc3a6b36e3f40"
+    },
+    {
+      "archive_path": "11_SOURCE_INPUTS/2026-08-24_leffondrement-du-modele-salarial(1).zip",
+      "source_path": "/mnt/data/2026-08-24_leffondrement-du-modele-salarial(1).zip",
+      "role": "Bundle source initial / matière fournie en amont",
+      "canonical": false,
+      "note": "",
+      "size_bytes": 249828,
+      "sha256": "90be6cdb884542236f220acda35ef70b2af2f230abc3e820902c07caf273352c"
+    }
+  ]
+}

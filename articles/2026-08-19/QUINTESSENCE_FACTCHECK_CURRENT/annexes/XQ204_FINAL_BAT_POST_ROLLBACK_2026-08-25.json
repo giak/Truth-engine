@@ -1,0 +1,190 @@
+{
+  "bat_id": "XQ204E_POST_ROLLBACK_FINAL",
+  "run_date": "2026-08-25",
+  "status": "PASS_WITH_BOUNDS",
+  "article": "QUINTESSENCE_ARTICLE_FACTCHECK_TRUST_XQ204_2026-08-25.md",
+  "article_sha256": "0ddd1ab44ff314d10b49be90036c360374727a2b5f6f1bb64f7e26ad6e051b4e",
+  "source_definitions": 113,
+  "citation_calls": 187,
+  "unique_sources_cited": 113,
+  "missing_relative_targets": [],
+  "prose": {
+    "blocks": 239,
+    "median_words": 45,
+    "gt100": 10,
+    "gt120": 0,
+    "max_words": 119
+  },
+  "figures": [
+    {
+      "file": "FIG_01_VERIFICATION_ET_LABEL.png",
+      "xq203_sha256": "163e4b38be25f9a1fc2a03ce38db9be1bcc4f4fa5d0630dde4bcb83e2b87ddbd",
+      "current_sha256": "163e4b38be25f9a1fc2a03ce38db9be1bcc4f4fa5d0630dde4bcb83e2b87ddbd",
+      "byte_identical": true,
+      "size": [
+        2400,
+        1500
+      ],
+      "mode": "L",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "FIG_01_VERIFICATION_ET_LABEL.svg",
+      "xq203_sha256": "4ff8a69f22eaccf1aae4963d45d205a8cd2cf3641bbca9ecafc227b51fdc0df7",
+      "current_sha256": "4ff8a69f22eaccf1aae4963d45d205a8cd2cf3641bbca9ecafc227b51fdc0df7",
+      "byte_identical": true,
+      "svg_xml": "PASS"
+    },
+    {
+      "file": "FIG_02_CONTINUUM_EPISTEMIQUE.png",
+      "xq203_sha256": "07713c717b3f3af0c0a9d4bf3f8f494af47c28e75dae3eb378d8f8b306a4c4db",
+      "current_sha256": "07713c717b3f3af0c0a9d4bf3f8f494af47c28e75dae3eb378d8f8b306a4c4db",
+      "byte_identical": true,
+      "size": [
+        2400,
+        1500
+      ],
+      "mode": "L",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "FIG_02_CONTINUUM_EPISTEMIQUE.svg",
+      "xq203_sha256": "0a6143aae5ac1be17f5f195f6a84146f9fb3db1298ee91076dece9ba5c78edb8",
+      "current_sha256": "0a6143aae5ac1be17f5f195f6a84146f9fb3db1298ee91076dece9ba5c78edb8",
+      "byte_identical": true,
+      "svg_xml": "PASS"
+    },
+    {
+      "file": "FIG_03_MODELE_AU_SLOGAN_X12.png",
+      "xq203_sha256": "a704f1711ad4c3f7ec67e9b554162b434de57483fa48976052e923c48623b21d",
+      "current_sha256": "a704f1711ad4c3f7ec67e9b554162b434de57483fa48976052e923c48623b21d",
+      "byte_identical": true,
+      "size": [
+        2400,
+        1500
+      ],
+      "mode": "L",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "FIG_03_MODELE_AU_SLOGAN_X12.svg",
+      "xq203_sha256": "be4275e48fc448e882d3f269d95ebc506c7fa50a86e038e877d0a0c2d132efae",
+      "current_sha256": "be4275e48fc448e882d3f269d95ebc506c7fa50a86e038e877d0a0c2d132efae",
+      "byte_identical": true,
+      "svg_xml": "PASS"
+    },
+    {
+      "file": "FIG_04_CORRECTION_CONTEXTUALISATION_REPARATION.png",
+      "xq203_sha256": "f32f435740d80916c2a55b224e29437355145d34116fccede02402f459181671",
+      "current_sha256": "f32f435740d80916c2a55b224e29437355145d34116fccede02402f459181671",
+      "byte_identical": true,
+      "size": [
+        2400,
+        1500
+      ],
+      "mode": "L",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "FIG_04_CORRECTION_CONTEXTUALISATION_REPARATION.svg",
+      "xq203_sha256": "220293fce6558fce44bf75e9415429290de06e64539976c84c394af64519790d",
+      "current_sha256": "220293fce6558fce44bf75e9415429290de06e64539976c84c394af64519790d",
+      "byte_identical": true,
+      "svg_xml": "PASS"
+    },
+    {
+      "file": "FIG_05_FALSIFICATION_REPARATION.png",
+      "xq203_sha256": "b22a72ebe333052d7a918138e0fc6d044b6aba799ab70125c7907e520b81b1d7",
+      "current_sha256": "b22a72ebe333052d7a918138e0fc6d044b6aba799ab70125c7907e520b81b1d7",
+      "byte_identical": true,
+      "size": [
+        2400,
+        1500
+      ],
+      "mode": "L",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "FIG_05_FALSIFICATION_REPARATION.svg",
+      "xq203_sha256": "a3499d165aa982e17583fdee455407676ea68f3cc4f7dd13cc2b0d23719ee404",
+      "current_sha256": "a3499d165aa982e17583fdee455407676ea68f3cc4f7dd13cc2b0d23719ee404",
+      "byte_identical": true,
+      "svg_xml": "PASS"
+    }
+  ],
+  "data_counts": {
+    "repair_strength_cases": 6,
+    "fresque_events": 45,
+    "claim_audit_rows": 13,
+    "repair_ledger_rows": 10
+  },
+  "sqlite": {
+    "integrity_check": "ok",
+    "xq204_findings_count": 17,
+    "rejected_d_findings": 3,
+    "mobile_gap_status": "CLOSED_NOT_REQUIREMENT"
+  },
+  "checks": {
+    "article_sources_113_contiguous": true,
+    "all_113_sources_used": true,
+    "no_orphan_citations": true,
+    "relative_targets_exist": true,
+    "emdash_zero": true,
+    "endash_zero": true,
+    "five_canonical_figure_refs": true,
+    "no_mobile_or_rejected_article_ref": true,
+    "10_figures_byte_identical_xq203": true,
+    "5_svgs_xml_valid": true,
+    "5_pngs_2400x1500": true,
+    "repair_case_count_synced": true,
+    "fresque_count_synced": true,
+    "sqlite_integrity_ok": true,
+    "sqlite_pass_d_rejected_traced": true,
+    "afp_bound_preserved": true,
+    "fact_furious_bound_preserved": true
+  },
+  "external_spot_checks": [
+    {
+      "source": "Yahoo",
+      "status": "CONFIRMED_2026-08-25",
+      "url": "https://fr.news.yahoo.com/covid-19-vaccination-reduit-elle-par-12-risque-contamination-135540814.html"
+    },
+    {
+      "source": "Conspiracy Watch",
+      "status": "CONFIRMED_2026-08-25",
+      "url": "https://www.conspiracywatch.info/pourquoi-le-coronavirus-nest-probablement-pas-une-arme-biologique.html"
+    },
+    {
+      "source": "AFP Bridle",
+      "status": "CONFIRMED_CURRENT_NOTE_PRIOR_WORDING_UNKNOWN_2026-08-25",
+      "url": "https://factuel.afp.com/doc.afp.com.9CE9N2"
+    },
+    {
+      "source": "EPI-PHARE",
+      "status": "CONFIRMED_2026-08-25",
+      "url": "https://www.epi-phare.fr/rapports-detudes-et-publications/vaccination-covid19-grossesse-malformations/"
+    }
+  ],
+  "open_bounds": [
+    "AFP Bridle pré-29/06 exact non récupéré",
+    "Fact & Furious original complet + historique non récupérés"
+  ],
+  "publication_target": "SUBSTACK",
+  "pass_d": "REJECTED_VISUAL_REGRESSION_YAGNI",
+  "figure_rollback": "PASS_BYTE_IDENTICAL_XQ203"
+}

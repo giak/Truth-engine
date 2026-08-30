@@ -1,0 +1,155 @@
+clean_id,blind_id,original_claim_id,actor,speech_date,constraint_context,claim_text,original_code,second_code,third_code,third_confidence,three_way_unanimous,majority_code,all_non_C0,any_C2,c2_votes
+G001,B071,GC092,Jean Castex,2021-02-25,restrictions territoriales,Ne pas reconfiner fin janvier était la bonne décision et a permis de gagner du temps.,C1,C0,C1,70,False,C1,False,False,0
+G002,B050,GC139,Olivier Véran,2021-07-20,pass / obligation,La vaccination protège fortement des formes graves et réduit aussi la circulation virale.,C1,C0,C0,85,False,C0,False,False,0
+G003,B141,GC094,Jean Castex,2021-02-25,restrictions territoriales,Le confinement ne doit être utilisé que lorsque rien d’autre ne permet de maîtriser la situation.,C1,C0,C0,80,False,C0,False,False,0
+G004,B074,GC091,Jean Castex,2021-02-25,restrictions territoriales,Alpha est plus contagieux que les souches précédentes.,C0,C0,C0,90,True,C0,False,False,0
+G005,B135,GC093,Jean Castex,2021-02-25,restrictions territoriales,Les confinements stricts de pays voisins n’ont pas permis d’atteindre le zéro Covid.,C0,C0,C1,65,False,C0,False,False,0
+G006,B007,GC045,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,Les vaccins disponibles évitent 95 % des formes graves dues à Delta.,C1,C0,C1,75,False,C1,False,False,0
+G007,B036,GC118,Olivier Véran,2020-10-13,régime transitoire,Les chances de ne plus avoir à combattre le virus au 31 janvier 2021 sont nulles.,C1,C0,C0,85,False,C0,False,False,0
+G008,B016,GC044,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,Les vaccins disponibles divisent par 12 le pouvoir de contamination de Delta.,C2,C2,C2,80,True,C2,True,True,3
+G009,B037,GC012,Emmanuel Macron,2020-10-28,second confinement,La famille et les amis sont les lieux où les Français se sont le plus contaminés.,C1,C0,C0,85,False,C0,False,False,0
+G010,B136,GC016,Emmanuel Macron,2020-10-28,second confinement,"Sans coup de frein brutal, les hôpitaux seront très vite saturés.",C0,C0,C0,90,True,C0,False,False,0
+G011,B127,GC062,Emmanuel Macron,2021-11-09,rappel / pass,Une dose de rappel est la solution à cette baisse d’immunité.,C1,C0,C1,70,False,C1,False,False,0
+G012,B061,GC108,Jean Castex,2021-03-18,confinements territorialisés,Le risque de contamination est infiniment plus faible en plein air qu’en intérieur regroupé sans masque.,C1,C1,C0,90,False,C1,False,False,0
+G013,B076,GC029,Emmanuel Macron,2021-03-31,restrictions / écoles,L’accélération due au variant risque de faire perdre le contrôle si rien ne change.,C0,C0,C0,85,True,C0,False,False,0
+G014,B020,GC060,Emmanuel Macron,2021-11-09,rappel / pass,Une personne vaccinée a environ 11 fois moins de risque d’être admise en soins critiques.,C0,C0,C0,85,True,C0,False,False,0
+G015,B080,GC125,Olivier Véran,2020-10-24,état urgence sanitaire,"Sans régime transitoire de sortie, le pays risquerait une sortie sèche sans moyens de limiter les rassemblements ou fermer des établissements.",C0,C0,C0,80,True,C0,False,False,0
+G016,B124,GC121,Olivier Véran,2020-10-24,état urgence sanitaire,"Environ 2 000 hospitalisations, 300 admissions en réanimation et près de 300 décès ont été déclarés en 24 heures.",C0,C0,C0,90,True,C0,False,False,0
+G017,B055,GC010,Emmanuel Macron,2020-10-28,second confinement,"Près de 3 000 personnes sont en réanimation, soit plus de la moitié des capacités nationales.",C0,C0,C0,90,True,C0,False,False,0
+G018,B068,GC129,Olivier Véran,2021-01-20,état urgence sanitaire,Les mesures prises ont permis d’éviter la saturation des services de réanimation.,C1,C0,C0,75,False,C0,False,False,0
+G019,B139,GC078,Jean Castex,2020-10-22,extension couvre-feu,Plus de 44 % des capacités de réanimation sont occupées par des patients Covid.,C0,C0,C0,90,True,C0,False,False,0
+G020,B085,GC009,Emmanuel Macron,2020-10-28,second confinement,Le nombre de contaminations rapporté à la population a doublé en moins de deux semaines.,C0,C0,C0,90,True,C0,False,False,0
+G021,B105,GC046,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,"Plus la vaccination augmente, moins le virus se diffuse et moins il y a d’hospitalisations.",C1,C0,C0,85,False,C0,False,False,0
+G022,B066,GC002,Emmanuel Macron,2020-03-16,confinement,La situation sanitaire se dégrade fortement et la pression hospitalière s’accentue; une vague de cas graves se profile dans certaines régions.,C0,C0,C0,90,True,C0,False,False,0
+G023,B005,GC107,Jean Castex,2021-03-18,confinements territorialisés,"Fermer une partie des commerces doit réduire les contacts en lieux clos et donc ralentir l’épidémie, indépendamment du risque propre à chaque commerce.",C1,C0,C1,70,False,C1,False,False,0
+G024,B003,GC106,Jean Castex,2021-03-18,confinements territorialisés,L’approche territorialisée a permis de freiner plusieurs semaines la circulation malgré Alpha.,C1,C0,C0,75,False,C0,False,False,0
+G025,B018,GC140,Olivier Véran,2021-07-20,pass / obligation,Plus de 95 % des personnes hospitalisées pour forme grave ne disposent pas d’un schéma vaccinal complet.,C1,C0,C0,85,False,C0,False,False,0
+G026,B145,GC126,Olivier Véran,2020-10-24,état urgence sanitaire,Les systèmes Contact-Covid et SI-DEP sont indispensables à l’efficacité de la lutte contre l’épidémie.,C1,C0,C0,80,False,C0,False,False,0
+G027,B030,GC101,Jean Castex,2021-03-18,confinements territorialisés,"Alpha est plus contagieux, plus virulent et potentiellement plus grave.",C1,C0,C1,75,False,C1,False,False,0
+G028,B084,GC128,Olivier Véran,2021-01-20,état urgence sanitaire,Les mesures prises ont permis de limiter la propagation du virus.,C1,C0,C0,75,False,C0,False,False,0
+G029,B146,GC006,Emmanuel Macron,2020-03-16,confinement,Les circonstances obligent à l’effort inédit de restriction des déplacements et contacts.,C1,C0,C0,90,False,C0,False,False,0
+G030,B032,GC152,Olivier Véran,2022-01-11,passe vaccinal,Transformer le pass sanitaire en passe vaccinal doit renforcer les incitations à la vaccination et réduire les risques de contamination.,C1,C1,C1,70,True,C1,True,False,0
+G031,B069,GC024,Emmanuel Macron,2020-10-28,second confinement,Le confinement est la stratégie à retenir parce que les autres options considérées sont insuffisantes et qu’il a stoppé le virus au printemps.,C1,C0,C1,70,False,C1,False,False,0
+G032,B152,GC112,Jean Castex,2021-03-18,confinements territorialisés,"Quatre semaines sont le temps nécessaire pour que les nouvelles mesures produisent un effet suffisant, sauf amélioration plus rapide.",C1,C0,C0,80,False,C0,False,False,0
+G033,B131,GC120,Olivier Véran,2020-10-24,état urgence sanitaire,"Environ 42 000 tests positifs ont été recensés en 24 heures, très au-dessus d’août.",C0,C0,C0,90,True,C0,False,False,0
+G034,B107,GC026,Emmanuel Macron,2021-03-31,restrictions / écoles,Le variant Alpha est plus contagieux et plus meurtrier.,C0,C0,C1,75,False,C0,False,False,0
+G035,B150,GC100,Jean Castex,2021-03-18,confinements territorialisés,"La cause de la troisième vague est l’arrivée d’Alpha, qui représente environ les trois quarts des contaminations.",C1,C0,C0,85,False,C0,False,False,0
+G036,B132,GC049,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,La vaccination est la seule façon de se protéger et de protéger les autres.,C2,C1,C2,80,False,C2,True,True,2
+G037,B083,GC138,Olivier Véran,2021-07-20,pass / obligation,Les projections Pasteur indiquent qu’une vague sanitaire importante peut survenir d’ici la fin août sans freinage suffisant.,C1,C0,C0,80,False,C0,False,False,0
+G038,B130,GC058,Emmanuel Macron,2021-11-09,rappel / pass,Il faudra vivre avec le virus et ses variants jusqu’à ce que la population mondiale dans son ensemble soit immunisée.,C1,C0,C0,85,False,C0,False,False,0
+G039,B062,GC116,Olivier Véran,2020-10-13,régime transitoire,"À Lille, l’incidence est d’environ 480/100 000 et 382/100 000 chez les personnes âgées.",C0,C0,C0,90,True,C0,False,False,0
+G040,B027,GC051,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,Faible vaccination et forte pression hospitalière justifient état d’urgence et couvre-feu en Martinique et à La Réunion.,C1,C0,C0,80,False,C0,False,False,0
+G041,B121,GC134,Olivier Véran,2021-07-20,pass / obligation,"La reprise épidémique est principalement portée par Delta, extrêmement contagieux, à l’origine de la quatrième vague.",C0,C0,C0,90,True,C0,False,False,0
+G042,B143,GC088,Jean Castex,2021-01-14,couvre-feu 18 h,La situation du 14 janvier ne justifie pas un nouveau confinement; un confinement deviendrait nécessaire si elle se dégradait fortement.,C1,C0,C0,75,False,C0,False,False,0
+G043,B009,GC061,Emmanuel Macron,2021-11-09,rappel / pass,Toutes les études montrent qu’après six mois l’immunité diminue et le risque de forme grave réaugmente.,C1,C0,C0,85,False,C0,False,False,0
+G044,B053,GC019,Emmanuel Macron,2020-10-28,second confinement,Laisser circuler jusqu’à 50-60 % contaminés entraînerait au moins 400 000 morts supplémentaires en quelques mois.,C1,C1,C1,65,True,C1,True,False,0
+G045,B063,GC005,Emmanuel Macron,2020-03-16,confinement,Rester chez soi et limiter les contacts est le plus important pour aider les soignants.,C1,C0,C0,90,False,C0,False,False,0
+G046,B011,GC047,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,"Plus la vaccination augmente, plus elle évite l’apparition de mutations potentiellement plus dangereuses.",C1,C0,C1,70,False,C1,False,False,0
+G047,B008,GC151,Olivier Véran,2022-01-11,passe vaccinal,La troisième dose confère une protection bien plus forte contre les formes graves et l’hospitalisation.,C0,C0,C0,85,True,C0,False,False,0
+G048,B039,GC123,Olivier Véran,2020-10-24,état urgence sanitaire,Les mesures prises depuis août ont produit des résultats importants dans certaines métropoles comme Nice ou Bordeaux.,C1,C0,C0,75,False,C0,False,False,0
+G049,B056,GC034,Emmanuel Macron,2021-03-31,restrictions / écoles,"Le virus circule dans les établissements scolaires, mais pas plus qu’ailleurs.",C1,C0,C0,80,False,C0,False,False,0
+G050,B090,GC115,Olivier Véran,2020-10-13,régime transitoire,La situation sanitaire est extrêmement instable et le virus circule vite.,C0,C0,C0,90,True,C0,False,False,0
+G051,B059,GC147,Olivier Véran,2022-01-11,passe vaccinal,Les mesures existantes ont permis de contenir l’épidémie et d’éviter des choix plus radicaux comme des fermetures ou confinements.,C1,C1,C1,70,True,C1,True,False,0
+G052,B021,GC098,Jean Castex,2021-02-25,restrictions territoriales,"Vaccination, tests et traitements permettront un retour progressif vers une vie plus normale au printemps.",C1,C0,C1,70,False,C1,False,False,0
+G053,B129,GC083,Jean Castex,2021-01-14,couvre-feu 18 h,La circulation encore limitée d’Alpha peut devenir dominante et doit être freinée.,C1,C0,C0,85,False,C0,False,False,0
+G054,B047,GC068,Jean Castex,2020-09-11,tester-tracer-isoler,Les nouvelles hospitalisations repartent et la hausse des cas chez les personnes âgées augmente le risque de formes graves.,C0,C0,C0,85,True,C0,False,False,0
+G055,B089,GC122,Olivier Véran,2020-10-24,état urgence sanitaire,"Dans les jours et semaines suivantes la situation va empirer quoi que nous fassions, en raison du délai entre diagnostic et formes graves.",C0,C0,C0,90,True,C0,False,False,0
+G056,B057,GC015,Emmanuel Macron,2020-10-28,second confinement,"Quoi que nous fassions, près de 9 000 patients seront en réanimation à la mi-novembre.",C2,C2,C1,65,False,C2,True,True,2
+G057,B092,GC075,Jean Castex,2020-10-22,extension couvre-feu,Les cas chez les plus de 65 ans ont environ triplé en six semaines.,C0,C0,C0,90,True,C0,False,False,0
+G058,B103,GC043,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,"Sans action immédiate, les cas monteront fortement et entraîneront inévitablement une hausse des hospitalisations dès août.",C1,C0,C0,80,False,C0,False,False,0
+G059,B049,GC089,Jean Castex,2021-02-25,restrictions territoriales,Le nombre quotidien de cas dépasse 30 000 après un plateau autour de 15 000 à 20 000.,C0,C0,C0,90,True,C0,False,False,0
+G060,B013,GC086,Jean Castex,2021-01-14,couvre-feu 18 h,Le couvre-feu avancé à 18 h a une efficacité sanitaire.,C1,C0,C1,70,False,C1,False,False,0
+G061,B120,GC011,Emmanuel Macron,2020-10-28,second confinement,Les mesures déjà prises étaient indispensables mais se révèlent insuffisantes pour endiguer la vague.,C1,C0,C0,85,False,C0,False,False,0
+G062,B077,GC023,Emmanuel Macron,2020-10-28,second confinement,Augmenter les capacités de réanimation n’est pas une réponse suffisante à la vague.,C1,C0,C0,80,False,C0,False,False,0
+G063,B096,GC020,Emmanuel Macron,2020-10-28,second confinement,Créer une bulle autour des seules personnes à risque n’est pas réaliste et est insuffisant.,C1,C0,C0,80,False,C0,False,False,0
+G064,B038,GC132,Olivier Véran,2021-01-20,état urgence sanitaire,Il existe une course contre le temps pour empêcher que les variants plus transmissibles deviennent dominants.,C1,C0,C0,85,False,C0,False,False,0
+G065,B104,GC104,Jean Castex,2021-03-18,confinements territorialisés,Ne pas confiner fin janvier était la bonne décision; un confinement préventif aurait probablement duré trois mois et aurait été excessif.,C1,C1,C1,70,True,C1,True,False,0
+G066,B040,GC052,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,Faire porter davantage les restrictions sur les non-vaccinés est justifié par la différence de risque créée par la vaccination.,C1,C0,C1,75,False,C1,False,False,0
+G067,B102,GC154,Olivier Véran,2022-01-11,passe vaccinal,L’accès préfectoral aux données nécessaires au contrôle de quarantaine/isolement est une condition indispensable à la maîtrise des chaînes de transmission.,C1,C1,C0,80,False,C1,False,False,0
+G068,B100,GC063,Emmanuel Macron,2021-11-09,rappel / pass,Chez les moins de 65 ans aussi la protection vaccinale diminue au fil du temps.,C0,C0,C0,85,True,C0,False,False,0
+G069,B035,GC102,Jean Castex,2021-03-18,confinements territorialisés,Les mesures depuis janvier ont permis de contenir pendant plusieurs semaines la progression épidémique.,C1,C0,C0,80,False,C0,False,False,0
+G070,B117,GC124,Olivier Véran,2020-10-24,état urgence sanitaire,"Une prolongation de l’état d’urgence d’environ trois mois est aujourd’hui nécessaire, tout en permettant une sortie anticipée.",C1,C0,C0,80,False,C0,False,False,0
+G071,B026,GC085,Jean Castex,2021-01-14,couvre-feu 18 h,"Dans les premiers départements à 18 h, la hausse des cas est deux à trois fois plus faible que dans les autres.",C0,C0,C1,70,False,C0,False,False,0
+G072,B065,GC146,Olivier Véran,2022-01-11,passe vaccinal,"Plus de 22 000 patients sont hospitalisés pour Covid, dont environ 3 900 en soins critiques/réanimation.",C0,C0,C0,90,True,C0,False,False,0
+G073,B086,GC059,Emmanuel Macron,2021-11-09,rappel / pass,Une cinquième vague a commencé en Europe; en France l’incidence augmente de 40 % en une semaine et les hospitalisations remontent.,C0,C0,C0,90,True,C0,False,False,0
+G074,B017,GC030,Emmanuel Macron,2021-03-31,restrictions / écoles,Ne rien faire conduirait à une potentielle saturation hospitalière dans tout le pays.,C1,C0,C0,80,False,C0,False,False,0
+G075,B072,GC025,Emmanuel Macron,2021-03-31,restrictions / écoles,Les choix depuis janvier ont fait gagner des jours de liberté et d’école sans perdre le contrôle de l’épidémie.,C1,C1,C1,70,True,C1,True,False,0
+G076,B058,GC073,Jean Castex,2020-10-22,extension couvre-feu,"L’incidence nationale est d’environ 251 pour 100 000, en hausse d’environ 40 % en une semaine.",C0,C0,C0,90,True,C0,False,False,0
+G077,B114,GC149,Olivier Véran,2022-01-11,passe vaccinal,La vaccination permet d’envisager de vivre le plus normalement possible malgré Omicron sans fermer massivement les activités.,C1,C0,C0,80,False,C0,False,False,0
+G078,B024,GC039,Emmanuel Macron,2021-03-31,restrictions / écoles,Les restrictions d’avril et la vaccination formeront une tenaille permettant de contenir le virus et commencer à rouvrir à partir de mi-mai.,C1,C0,C1,70,False,C1,False,False,0
+G079,B099,GC077,Jean Castex,2020-10-22,extension couvre-feu,Il est encore trop tôt pour mesurer l’effet du couvre-feu déjà instauré.,C0,C0,C0,85,True,C0,False,False,0
+G080,B082,GC037,Emmanuel Macron,2021-03-31,restrictions / écoles,Prioriser la vaccination des plus âgés et fragiles permettra de soulager plus vite l’hôpital et sauver des vies.,C0,C0,C0,85,True,C0,False,False,0
+G081,B119,GC054,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,Étendre au maximum le pass sanitaire doit pousser un maximum de personnes à se faire vacciner.,C0,C0,C1,75,False,C0,False,False,0
+G082,B109,GC076,Jean Castex,2020-10-22,extension couvre-feu,L’extension du couvre-feu est préventive face à l’accélération de la circulation virale.,C1,C0,C0,80,False,C0,False,False,0
+G083,B067,GC055,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,Vacciner partout dans le monde est indispensable pour éviter les variants et en finir durablement avec la pandémie.,C1,C0,C0,85,False,C0,False,False,0
+G084,B116,GC137,Olivier Véran,2021-07-20,pass / obligation,L’impact hospitalier futur reste incertain dans un pays largement vacciné.,C0,C0,C0,80,True,C0,False,False,0
+G085,B075,GC082,Jean Castex,2021-01-14,couvre-feu 18 h,"Les nouveaux variants, notamment Alpha, sont nettement plus contagieux.",C0,C0,C0,90,True,C0,False,False,0
+G086,B054,GC050,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,"Les premiers vaccinés verront prochainement leurs anticorps et leur immunité diminuer, justifiant des rappels.",C1,C0,C0,80,False,C0,False,False,0
+G087,B023,GC066,Emmanuel Macron,2021-11-09,rappel / pass,"Vaccination, pass sanitaire et gestes barrières permettront de continuer à vivre sans nouvelles fermetures ni restrictions de libertés.",C1,C0,C1,70,False,C1,False,False,0
+G088,B094,GC041,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,La France connaît une reprise forte de l’épidémie touchant tous les territoires.,C0,C0,C0,90,True,C0,False,False,0
+G089,B033,GC084,Jean Castex,2021-01-14,couvre-feu 18 h,Le renforcement des contrôles aux frontières doit limiter l’importation et la diffusion des variants.,C1,C0,C0,80,False,C0,False,False,0
+G090,B108,GC056,Emmanuel Macron,2021-11-09,rappel / pass,Les choix collectifs pris à chaque étape ont été indispensables pour protéger la population.,C1,C0,C1,65,False,C1,False,False,0
+G091,B148,GC057,Emmanuel Macron,2021-11-09,rappel / pass,"Grâce au pass sanitaire et à la stratégie de juillet, la France est parvenue à maîtriser l’épidémie.",C1,C0,C1,70,False,C1,False,False,0
+G092,B043,GC105,Jean Castex,2021-03-18,confinements territorialisés,Les modèles annonçant un emballement mi-février ne se sont pas réalisés grâce à la mobilisation collective.,C1,C0,C0,80,False,C0,False,False,0
+G093,B101,GC031,Emmanuel Macron,2021-03-31,restrictions / écoles,L’extension nationale des restrictions est justifiée parce qu’aucune région métropolitaine n’est épargnée et les hospitalisations augmentent partout.,C0,C0,C0,85,True,C0,False,False,0
+G094,B002,GC141,Olivier Véran,2021-07-20,pass / obligation,Fermer les établissements à tous aurait le même impact épidémique et sanitaire que les fermer seulement aux non-vaccinés.,C1,C0,C2,75,False,NO_MAJORITY,False,True,1
+G095,B091,GC113,Jean Castex,2021-03-18,confinements territorialisés,La campagne de vaccination va permettre de sortir de la crise et lever progressivement les restrictions.,C1,C0,C0,80,False,C0,False,False,0
+G096,B097,GC145,Olivier Véran,2022-01-11,passe vaccinal,"Environ 350 000 contaminations quotidiennes sont enregistrées, un niveau record.",C0,C0,C0,90,True,C0,False,False,0
+G097,B125,GC143,Olivier Véran,2021-07-20,pass / obligation,"L’enjeu n’est pas le pass sanitaire ou la liberté, mais le pass sanitaire ou le confinement.",C2,C0,C2,80,False,C2,False,True,2
+G098,B142,GC022,Emmanuel Macron,2020-10-28,second confinement,Tester-alerter-protéger n’est plus efficace avec 40 000 à 50 000 cas dépistés par jour.,C1,C0,C0,85,False,C0,False,False,0
+G099,B151,GC090,Jean Castex,2021-02-25,restrictions territoriales,"L’explication la plus évidente de la reprise est la progression des variants, en particulier Alpha.",C0,C0,C0,85,True,C0,False,False,0
+G100,B051,GC040,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,"Les efforts proportionnés, la réouverture progressive et le plan vaccinal ont produit des résultats incontestables.",C1,C0,C1,70,False,C1,False,False,0
+G101,B088,GC080,Jean Castex,2020-10-22,extension couvre-feu,Les contaminations d’aujourd’hui produisent les hospitalisations et une partie des décès de demain.,C1,C0,C0,90,False,C0,False,False,0
+G102,B034,GC021,Emmanuel Macron,2020-10-28,second confinement,"Confiner seulement les personnes âgées est inefficace pour protéger l’hôpital et, à terme, les aînés.",C1,C0,C0,85,False,C0,False,False,0
+G103,B134,GC087,Jean Castex,2021-01-14,couvre-feu 18 h,Le Conseil scientifique a confirmé l’utilité du couvre-feu.,C1,C0,C0,80,False,C0,False,False,0
+G104,B122,GC095,Jean Castex,2021-02-25,restrictions territoriales,Le confinement le week-end dans les territoires très touchés est attendu comme moyen d’infléchir la dynamique.,C1,C0,C1,70,False,C1,False,False,0
+G105,B079,GC070,Jean Castex,2020-09-11,tester-tracer-isoler,Renforcer le dépistage prioritaire et le traçage doit casser les chaînes de contamination.,C1,C0,C0,85,False,C0,False,False,0
+G106,B025,GC114,Jean Castex,2021-03-18,confinements territorialisés,L’EMA confirme qu’AstraZeneca est très efficace contre les formes graves et globalement sûr; les bénéfices dépassent largement les risques rares.,C0,C0,C0,90,True,C0,False,False,0
+G107,B140,GC065,Emmanuel Macron,2021-11-09,rappel / pass,"Le vaccin, bien qu’efficace, ne suffit pas à lui seul.",C0,C0,C0,85,True,C0,False,False,0
+G108,B095,GC119,Olivier Véran,2020-10-13,régime transitoire,La prolongation des dispositions transitoires au-delà du 31 janvier est nécessaire pour éviter une nouvelle procédure d’urgence et garder les outils de lutte.,C1,C0,C0,80,False,C0,False,False,0
+G109,B022,GC036,Emmanuel Macron,2021-03-31,restrictions / écoles,La forte baisse de mortalité des plus de 80 ans et la situation en EHPAD apportent la preuve de l’efficacité vaccinale.,C1,C0,C0,85,False,C0,False,False,0
+G110,B106,GC008,Emmanuel Macron,2020-10-28,second confinement,Le virus circule à une vitesse que même les prévisions les plus pessimistes n’avaient pas anticipée.,C2,C1,C0,80,False,NO_MAJORITY,False,True,1
+G111,B048,GC001,Emmanuel Macron,2020-03-16,confinement,Une personne sans symptôme peut transmettre le virus.,C0,C0,C0,95,True,C0,False,False,0
+G112,B028,GC014,Emmanuel Macron,2020-10-28,second confinement,La deuxième vague sera sans doute plus dure et plus meurtrière que la première.,C1,C0,C1,70,False,C1,False,False,0
+G113,B052,GC017,Emmanuel Macron,2020-10-28,second confinement,"Sans coup de frein brutal, les médecins devront choisir entre des patients.",C0,C0,C0,85,True,C0,False,False,0
+G114,B128,GC110,Jean Castex,2021-03-18,confinements territorialisés,Les lieux de travail représentent environ 29 % des cas identifiés dans l’étude Pasteur citée.,C0,C0,C0,85,True,C0,False,False,0
+G115,B112,GC067,Jean Castex,2020-09-11,tester-tracer-isoler,L’incidence nationale est passée d’environ 57 à 72 cas pour 100 000 en une semaine.,C0,C0,C0,90,True,C0,False,False,0
+G116,B010,GC150,Olivier Véran,2022-01-11,passe vaccinal,"Le débat sur le passe vaccinal a déjà accru les primo-vaccinations, comme le passe sanitaire auparavant.",C1,C0,C0,80,False,C0,False,False,0
+G117,B042,GC136,Olivier Véran,2021-07-20,pass / obligation,"La progression est extrêmement rapide, avec des hausses hebdomadaires de plusieurs centaines de pourcents et un doublement très court.",C0,C1,C0,90,False,C0,False,False,0
+G118,B153,GC117,Olivier Véran,2020-10-13,régime transitoire,Les niveaux d’incidence et leur dynamique empêchent d’interrompre les dispositions de protection sanitaire.,C0,C0,C0,85,True,C0,False,False,0
+G119,B070,GC042,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,Delta est trois fois plus contagieux que la première souche.,C1,C0,C1,75,False,C1,False,False,0
+G120,B111,GC069,Jean Castex,2020-09-11,tester-tracer-isoler,Une circulation d’abord concentrée chez les jeunes finit inévitablement par toucher les plus vulnérables.,C1,C0,C0,85,False,C0,False,False,0
+G121,B098,GC135,Olivier Véran,2021-07-20,pass / obligation,La vague touche surtout les 20-40 ans et certains territoires ont des incidences très élevées.,C0,C0,C0,85,True,C0,False,False,0
+G122,B147,GC071,Jean Castex,2020-09-11,tester-tracer-isoler,Sept jours d’isolement correspondent à la durée pendant laquelle il existe un véritable risque de contagion.,C1,C0,C0,80,False,C0,False,False,0
+G123,B126,GC144,Olivier Véran,2021-07-20,pass / obligation,Le pass sanitaire et la vaccination doivent aider à atteindre l’immunité collective et à se débarrasser du virus.,C1,C0,C1,70,False,C1,False,False,0
+G124,B133,GC072,Jean Castex,2020-09-11,tester-tracer-isoler,Les indicateurs de Marseille et Bordeaux et les projections de réanimation à trois semaines annoncent une dégradation justifiant de nouvelles mesures.,C1,C0,C0,85,False,C0,False,False,0
+G125,B149,GC079,Jean Castex,2020-10-22,extension couvre-feu,"Compte tenu des nouveaux cas, la tension hospitalière et les décès vont continuer à augmenter pendant plusieurs semaines.",C1,C0,C0,90,False,C0,False,False,0
+G126,B041,GC038,Emmanuel Macron,2021-03-31,restrictions / écoles,La vaccination est la clé pour renouer avec la vie et rouvrir le pays.,C1,C0,C0,85,False,C0,False,False,0
+G127,B001,GC053,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,Rendre les tests PCR payants doit encourager la vaccination plutôt que la multiplication des tests.,C0,C1,C1,70,False,C1,False,False,0
+G128,B113,GC064,Emmanuel Macron,2021-11-09,rappel / pass,Plus de 80 % des personnes en réanimation ont plus de 50 ans.,C0,C0,C0,90,True,C0,False,False,0
+G129,B060,GC028,Emmanuel Macron,2021-03-31,restrictions / écoles,Les restrictions décidées le 18 mars ont eu de premiers effets après deux semaines.,C1,C1,C0,80,False,C1,False,False,0
+G130,B031,GC013,Emmanuel Macron,2020-10-28,second confinement,Le virus semble gagner en force à mesure que l’hiver approche et les températures baissent.,C0,C0,C1,65,False,C0,False,False,0
+G131,B115,GC003,Emmanuel Macron,2020-03-16,confinement,"Respecter les gestes barrières et consignes sanitaires est le seul moyen de protéger les vulnérables, réduire les infections et la pression en réanimation.",C1,C0,C0,90,False,C0,False,False,0
+G132,B123,GC035,Emmanuel Macron,2021-03-31,restrictions / écoles,L’adaptation de fermeture scolaire sur trois semaines est la solution la plus adaptée pour freiner le virus tout en préservant l’éducation.,C1,C1,C1,70,True,C1,True,False,0
+G133,B004,GC081,Jean Castex,2021-01-14,couvre-feu 18 h,La France a passé les fêtes sans flambée épidémique grâce au comportement responsable de la population.,C1,C0,C0,80,False,C0,False,False,0
+G134,B015,GC097,Jean Castex,2021-02-25,restrictions territoriales,La baisse de l’incidence chez les plus âgés alors qu’elle remonte ailleurs montre que les effets de la vaccination commencent.,C1,C0,C0,85,False,C0,False,False,0
+G135,B081,GC142,Olivier Véran,2021-07-20,pass / obligation,Le pass sanitaire doit protéger les Français et permettre un retour à une vie aussi normale que possible.,C1,C0,C0,80,False,C0,False,False,0
+G136,B012,GC033,Emmanuel Macron,2021-03-31,restrictions / écoles,Les rassemblements privés et familiaux sont les occasions où l’on se contamine le plus.,C1,C0,C0,85,False,C0,False,False,0
+G137,B019,GC096,Jean Castex,2021-02-25,restrictions territoriales,"Des niveaux élevés d’incidence, de variants et de tension hospitalière justifient des mesures territoriales renforcées.",C0,C0,C0,85,True,C0,False,False,0
+G138,B044,GC007,Emmanuel Macron,2020-03-16,confinement,"La fermeture des frontières extérieures de l’UE doit protéger, contenir la dissémination et préserver les systèmes de soins.",C1,C0,C0,80,False,C0,False,False,0
+G139,B138,GC109,Jean Castex,2021-03-18,confinements territorialisés,Les regroupements privés et situations similaires sont les circonstances où le virus prospère d’abord.,C1,C0,C0,85,False,C0,False,False,0
+G140,B144,GC099,Jean Castex,2021-03-18,confinements territorialisés,"Les cas augmentent de 23,6 % en une semaine et la France entre dans une troisième vague.",C0,C0,C0,90,True,C0,False,False,0
+G141,B046,GC018,Emmanuel Macron,2020-10-28,second confinement,35 % des personnes en réanimation ont moins de 65 ans.,C0,C0,C0,90,True,C0,False,False,0
+G142,B029,GC111,Jean Castex,2021-03-18,confinements territorialisés,Les nouvelles mesures sont absolument indispensables et équilibrées pour freiner sans enfermer.,C1,C0,C1,70,False,C1,False,False,0
+G143,B154,GC131,Olivier Véran,2021-01-20,état urgence sanitaire,Des variants plus transmissibles circulent et peuvent modifier rapidement la dynamique.,C0,C0,C0,85,True,C0,False,False,0
+G144,B014,GC130,Olivier Véran,2021-01-20,état urgence sanitaire,Le niveau quotidien de cas reste autour de 19 000-20 000 et la pression hospitalière ne diminue pas nettement.,C0,C0,C0,90,True,C0,False,False,0
+G145,B078,GC153,Olivier Véran,2022-01-11,passe vaccinal,Une étude française montre une charge virale expirée plus faible chez les personnes complètement vaccinées.,C1,C1,C0,80,False,C1,False,False,0
+G146,B087,GC074,Jean Castex,2020-10-22,extension couvre-feu,"Le nombre de reproduction est autour de 1,35, correspondant à un doublement environ toutes les deux semaines à dynamique constante.",C0,C0,C0,90,True,C0,False,False,0
+G147,B006,GC133,Olivier Véran,2021-01-20,état urgence sanitaire,"La campagne vaccinale doit permettre de maîtriser l’épidémie à moyen terme, mais pas de retirer immédiatement les outils exceptionnels.",C1,C0,C0,80,False,C0,False,False,0
+G148,B093,GC127,Olivier Véran,2021-01-20,état urgence sanitaire,La situation sanitaire et les prévisions du premier semestre rendent indispensable la prorogation de l’état d’urgence jusqu’au 1er juin.,C1,C0,C0,80,False,C0,False,False,0
+G149,B064,GC027,Emmanuel Macron,2021-03-31,restrictions / écoles,44 % des patients en réanimation ont moins de 65 ans.,U,C0,C0,90,False,C0,False,False,0
+G150,B045,GC148,Olivier Véran,2022-01-11,passe vaccinal,Le pays fait face à un variant Omicron extrêmement virulent.,C1,C1,C2,85,False,C1,True,True,1
+G151,B137,GC103,Jean Castex,2021-03-18,confinements territorialisés,Le confinement du week-end a eu un effet réel mais insuffisant pour casser fortement la dynamique.,C1,C0,C0,80,False,C0,False,False,0
+G152,B118,GC004,Emmanuel Macron,2020-03-16,confinement,Limiter le nombre de contacts quotidiens est la priorité absolue pour ralentir la propagation.,C1,C0,C0,90,False,C0,False,False,0
+G153,B110,GC048,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,La vaccination de tous est le seul chemin vers le retour à la vie normale.,C2,C0,C2,80,False,C2,False,True,2
+G154,B073,GC032,Emmanuel Macron,2021-03-31,restrictions / écoles,Le télétravail est sans doute la mesure la plus efficace contre la circulation dans ce contexte.,C1,C0,C1,75,False,C1,False,False,0

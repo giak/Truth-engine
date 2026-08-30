@@ -1,0 +1,28 @@
+{
+  "source_sha256": "0ddd1ab44ff314d10b49be90036c360374727a2b5f6f1bb64f7e26ad6e051b4e",
+  "xq205_sha256": "d5c5cd70f25acbf08400e86a9344159a7724dab65859ae006c74429375991c37",
+  "body_words": 12432,
+  "em_dash": 0,
+  "en_dash": 0,
+  "refs_used_count": 114,
+  "refs_defined_count": 114,
+  "missing_defs": [],
+  "unused_defs": [],
+  "citation_calls": 188,
+  "relative_targets": [
+    "figures/FIG_01_VERIFICATION_ET_LABEL.png",
+    "figures/FIG_02_CONTINUUM_EPISTEMIQUE.png",
+    "figures/FIG_03_MODELE_AU_SLOGAN_X12.png",
+    "figures/FIG_04_CORRECTION_CONTEXTUALISATION_REPARATION.png",
+    "replication14/QUINTESSENCE_FALSIFICATION_V5_1_FROZEN_2026-08-23.md",
+    "figures/FIG_05_FALSIFICATION_REPARATION.png",
+    "replication14/QUINTESSENCE_FALSIFICATION_V5_1_FROZEN_2026-08-23.md",
+    "annexes/QUINTESSENCE_ANNEXE_METHODO_TRIPLE_CODAGE_2026-08-22.md",
+    "annexes/XQ203_AUDIT_X12_NEGATIVE_SEARCH_PROTOCOL_2026-08-24.md"
+  ],
+  "point_de_lecture": 1,
+  "a_retenir": 4,
+  "mini_schema": 3,
+  "ce_que_etablit": 1,
+  "comment_lire": 1
+}

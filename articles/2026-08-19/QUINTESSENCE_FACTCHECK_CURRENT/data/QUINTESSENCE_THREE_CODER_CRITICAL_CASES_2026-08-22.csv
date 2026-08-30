@@ -1,0 +1,15 @@
+clean_id,blind_id,original_claim_id,actor,speech_date,constraint_context,claim_text,original_code,second_code,third_code,third_confidence,three_way_unanimous,majority_code,all_non_C0,any_C2,c2_votes
+G008,B016,GC044,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,Les vaccins disponibles divisent par 12 le pouvoir de contamination de Delta.,C2,C2,C2,80,True,C2,True,True,3
+G030,B032,GC152,Olivier Véran,2022-01-11,passe vaccinal,Transformer le pass sanitaire en passe vaccinal doit renforcer les incitations à la vaccination et réduire les risques de contamination.,C1,C1,C1,70,True,C1,True,False,0
+G036,B132,GC049,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,La vaccination est la seule façon de se protéger et de protéger les autres.,C2,C1,C2,80,False,C2,True,True,2
+G044,B053,GC019,Emmanuel Macron,2020-10-28,second confinement,Laisser circuler jusqu’à 50-60 % contaminés entraînerait au moins 400 000 morts supplémentaires en quelques mois.,C1,C1,C1,65,True,C1,True,False,0
+G051,B059,GC147,Olivier Véran,2022-01-11,passe vaccinal,Les mesures existantes ont permis de contenir l’épidémie et d’éviter des choix plus radicaux comme des fermetures ou confinements.,C1,C1,C1,70,True,C1,True,False,0
+G056,B057,GC015,Emmanuel Macron,2020-10-28,second confinement,"Quoi que nous fassions, près de 9 000 patients seront en réanimation à la mi-novembre.",C2,C2,C1,65,False,C2,True,True,2
+G065,B104,GC104,Jean Castex,2021-03-18,confinements territorialisés,Ne pas confiner fin janvier était la bonne décision; un confinement préventif aurait probablement duré trois mois et aurait été excessif.,C1,C1,C1,70,True,C1,True,False,0
+G075,B072,GC025,Emmanuel Macron,2021-03-31,restrictions / écoles,Les choix depuis janvier ont fait gagner des jours de liberté et d’école sans perdre le contrôle de l’épidémie.,C1,C1,C1,70,True,C1,True,False,0
+G094,B002,GC141,Olivier Véran,2021-07-20,pass / obligation,Fermer les établissements à tous aurait le même impact épidémique et sanitaire que les fermer seulement aux non-vaccinés.,C1,C0,C2,75,False,NO_MAJORITY,False,True,1
+G097,B125,GC143,Olivier Véran,2021-07-20,pass / obligation,"L’enjeu n’est pas le pass sanitaire ou la liberté, mais le pass sanitaire ou le confinement.",C2,C0,C2,80,False,C2,False,True,2
+G110,B106,GC008,Emmanuel Macron,2020-10-28,second confinement,Le virus circule à une vitesse que même les prévisions les plus pessimistes n’avaient pas anticipée.,C2,C1,C0,80,False,NO_MAJORITY,False,True,1
+G132,B123,GC035,Emmanuel Macron,2021-03-31,restrictions / écoles,L’adaptation de fermeture scolaire sur trois semaines est la solution la plus adaptée pour freiner le virus tout en préservant l’éducation.,C1,C1,C1,70,True,C1,True,False,0
+G150,B045,GC148,Olivier Véran,2022-01-11,passe vaccinal,Le pays fait face à un variant Omicron extrêmement virulent.,C1,C1,C2,85,False,C1,True,True,1
+G153,B110,GC048,Emmanuel Macron,2021-07-12,pass / vaccination / tests payants,La vaccination de tous est le seul chemin vers le retour à la vie normale.,C2,C0,C2,80,False,C2,False,True,2

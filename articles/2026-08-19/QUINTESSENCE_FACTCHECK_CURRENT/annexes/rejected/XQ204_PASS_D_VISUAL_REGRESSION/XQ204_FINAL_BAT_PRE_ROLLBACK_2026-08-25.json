@@ -1,0 +1,162 @@
+{
+  "bat_id": "XQ204E",
+  "run_at": "2026-08-25",
+  "status": "PASS_WITH_BOUNDS",
+  "article": "QUINTESSENCE_ARTICLE_FACTCHECK_TRUST_XQ204_2026-08-25.md",
+  "article_sha256": "0ddd1ab44ff314d10b49be90036c360374727a2b5f6f1bb64f7e26ad6e051b4e",
+  "source_definitions": 113,
+  "citation_calls": 187,
+  "unique_sources_cited": 113,
+  "missing_definitions": [],
+  "unused_sources": [],
+  "relative_links": 15,
+  "missing_relative_targets": [],
+  "typography": {
+    "emdash": 0,
+    "endash": 0,
+    "straight_double": 0,
+    "straight_apostrophe": 0,
+    "english_curly_body": 0,
+    "tabs": 0,
+    "double_spaces_body": 0
+  },
+  "prose": {
+    "blocks": 239,
+    "median_words": 45,
+    "gt100": 10,
+    "gt120": 0,
+    "max_words": 119
+  },
+  "figures": [
+    {
+      "file": "FIG_01_VERIFICATION_ET_LABEL.svg",
+      "width": 1200.0,
+      "height": 1920.0,
+      "min_font_px": 34.0,
+      "effective_min_at_390": 11.05,
+      "emdash_count": 0,
+      "sha256": "88399b469d88632bf1cdba1f7287c63fdfe40ca16ae288bf656e5753b8c119c8"
+    },
+    {
+      "file": "FIG_02_CONTINUUM_EPISTEMIQUE.svg",
+      "width": 1200.0,
+      "height": 1840.0,
+      "min_font_px": 34.0,
+      "effective_min_at_390": 11.05,
+      "emdash_count": 0,
+      "sha256": "ed5dc953afb6724396ebdebcb30c13c8e203fb19de81263978376b41d0f9c7ef"
+    },
+    {
+      "file": "FIG_03_MODELE_AU_SLOGAN_X12.svg",
+      "width": 1200.0,
+      "height": 2100.0,
+      "min_font_px": 34.0,
+      "effective_min_at_390": 11.05,
+      "emdash_count": 0,
+      "sha256": "f556406902c5174b18c770cac71396a0ffe91c8c772d6b96a12593cefcfba84d"
+    },
+    {
+      "file": "FIG_04_CORRECTION_CONTEXTUALISATION_REPARATION.svg",
+      "width": 1200.0,
+      "height": 1920.0,
+      "min_font_px": 34.0,
+      "effective_min_at_390": 11.05,
+      "emdash_count": 0,
+      "sha256": "d4ff696ba076f7c195e4bf1fff755d24a7c015f6a4abac7f90d0ab080f30c11d"
+    },
+    {
+      "file": "FIG_05_FALSIFICATION_REPARATION.svg",
+      "width": 1200.0,
+      "height": 1900.0,
+      "min_font_px": 34.0,
+      "effective_min_at_390": 11.05,
+      "emdash_count": 0,
+      "sha256": "d753d03f97d0c1e6f26057ec23a92e4e0322235c5f8d0f54851870e710a0c40b"
+    }
+  ],
+  "term_definitions": {
+    "AFP": true,
+    "CLEMI": true,
+    "OMS": true,
+    "ARNm": true,
+    "PCR": true,
+    "FDA": true,
+    "EMA": true,
+    "ANSM": true,
+    "OR": true,
+    "IC": true,
+    "HAS": true,
+    "IFCN": true,
+    "EFCSN": true,
+    "AVC": true,
+    "SEAE": true
+  },
+  "documentary_bounds": {
+    "AFP_PRE_29_JUNE_UNKNOWN": true,
+    "FACT_FURIOUS_ORIGINAL_UNKNOWN": true,
+    "CW_PREMIUM_BODY_NOT_ATTRIBUTED": true
+  },
+  "trace_checks": {
+    "F200_004_DATE_ONLY": true,
+    "F200_045_16APR": true
+  },
+  "data_counts": {
+    "repair_strength_cases": 6,
+    "fresque_events": 45,
+    "claim_audit_rows": 13,
+    "repair_ledger_rows": 10
+  },
+  "checks": {
+    "sources_113_contiguous": true,
+    "all_sources_used": true,
+    "no_orphan_citations": true,
+    "relative_targets_exist": true,
+    "emdash_zero": true,
+    "endash_zero": true,
+    "straight_quotes_zero": true,
+    "english_curly_quotes_body_zero": true,
+    "tabs_zero": true,
+    "double_spaces_body_zero": true,
+    "all_reader_terms_defined": true,
+    "five_figures": true,
+    "figure_mobile_font_floor": true,
+    "figure_emdash_zero": true,
+    "explicit_documentary_bounds": true,
+    "trace_cw_corrected": true,
+    "repair_case_count_synced": true,
+    "fresque_event_count_synced": true,
+    "yahoo_stale_nonreplayable_absent": true
+  },
+  "external_spot_checks": [
+    {
+      "claim": "Yahoo 23/07/2021 identifie le ×12 comme une modélisation Pasteur et appelle à la prudence",
+      "url": "https://fr.news.yahoo.com/covid-19-vaccination-reduit-elle-par-12-risque-contamination-135540814.html",
+      "status": "CONFIRMED"
+    },
+    {
+      "claim": "Conspiracy Watch MàJ 16/04/2020 distingue une fuite accidentelle à étayer de la fabrication/arme biologique",
+      "url": "https://www.conspiracywatch.info/pourquoi-le-coronavirus-nest-probablement-pas-une-arme-biologique.html",
+      "status": "CONFIRMED"
+    },
+    {
+      "claim": "Pasteur v2 06/09/2021: R0=5, couverture 70-80-90, 60% vs 80% protection donnent environ 4× vs 10× de contribution relative à la transmission",
+      "url": "https://modelisation-covid19.pasteur.fr/partially-vaccinated-population/InstitutPasteur-Epidemio-SARS-CoV-2-with-vaccines-and-Delta_2021.09.06_HAL.pdf",
+      "status": "CONFIRMED"
+    },
+    {
+      "claim": "EPI-PHARE 2025: 527564 éligibles, 130338 exposés, OR pondéré 0,98, IC95% 0,93-1,04",
+      "url": "https://www.epi-phare.fr/rapports-detudes-et-publications/vaccination-covid19-grossesse-malformations/",
+      "status": "CONFIRMED"
+    },
+    {
+      "claim": "AFP Bridle: publication 18/06/2021, mise à jour 29/06/2021, note de reformulation du paragraphe lait maternel",
+      "url": "https://factuel.afp.com/doc.afp.com.9CE9N2",
+      "status": "CONFIRMED_CURRENT_PAGE_PRIOR_WORDING_NOT_RECOVERED"
+    }
+  ],
+  "open_bounds": [
+    "Formulation exacte AFP Bridle avant la reformulation du 29/06/2021 non récupérée.",
+    "Original complet et historique de correction du contenu Fact & Furious pharmacovigilance non récupérés."
+  ],
+  "scope_note": "BAT mécanique exhaustif du candidat et spot-check externe ciblé des claims modifiés/sensibles; il ne constitue pas un rechargement en direct des 110+ URL externes."
+}

@@ -1,0 +1,113 @@
+{
+  "batch": "XQ203A",
+  "date": "2026-08-25",
+  "scope": "post-XQ203 traceability/data-only audit; article text unchanged",
+  "article": {
+    "filename": "QUINTESSENCE_ARTICLE_FACTCHECK_TRUST_XQ203_2026-08-24.md",
+    "sha256": "26d902f33a5fcc83a72ae698b879fb41b29fb159c300189b5148757c7af6b456",
+    "text_change": false
+  },
+  "measured": {
+    "em_dash_count": 4,
+    "en_dash_count": 2,
+    "prose_blocks_before_sources": 235,
+    "median_words_per_prose_block": 46,
+    "prose_blocks_gt_100_words": 14,
+    "max_words_in_prose_block": 290,
+    "figure_count": 5,
+    "figure_reference_width_px": 2400,
+    "mobile_reference_width_px": 390,
+    "figure_min_source_font_px": [
+      23,
+      23,
+      22,
+      22,
+      22
+    ],
+    "figure_min_effective_font_at_390_px": [
+      3.74,
+      3.74,
+      3.58,
+      3.58,
+      3.58
+    ]
+  },
+  "documentary_updates": {
+    "yahoo_x12": {
+      "status": "FULL_TEXT_RECOVERED",
+      "date": "2021-07-23",
+      "impact": "XQ203 wording 'not replayable' obsolete; article patch required"
+    },
+    "conspiracy_watch_09apr": {
+      "status": "CATEGORY_SCOPE_COMPRESSION_CONFIRMED"
+    },
+    "conspiracy_watch_16apr": {
+      "status": "EARLY_ACTOR_LEVEL_CONTEXTUALIZATION_CONFIRMED",
+      "delay_from_09apr_days": 7
+    },
+    "conspiracy_news_16_2020": {
+      "published_date": "2020-04-20",
+      "previous_dataset_date": "2020-04-18",
+      "status": "DATA_CORRECTED"
+    },
+    "afp_bridle": {
+      "update_note_date": "2021-06-29",
+      "pre_update_wording": "NOT_RECOVERED"
+    }
+  },
+  "method_locks": [
+    "NO_WAYBACK_CAPTURE != PAGE_NEVER_EXISTED",
+    "archive cascade: live web/index -> Wayback -> Common Crawl -> BnF -> indirect traces",
+    "paywall != evidence unavailable if indexed/archived copies exist",
+    "indirect trace must remain labeled indirect"
+  ],
+  "article_patch_queue": {
+    "P0": [
+      "remove 4 em dashes",
+      "define key acronyms/technical abbreviations at first use",
+      "replace obsolete Yahoo non-replayability wording",
+      "move Conspiracy Watch contextualization from 2021-only framing to 16 Apr 2020 actor-level history"
+    ],
+    "P1": [
+      "mobile-first variants/refactor of existing 5 figures",
+      "targeted cognitive segmentation; no blanket paragraph cutting"
+    ],
+    "blocked_gaps": [
+      "AFP Bridle pre-29 Jun 2021 wording",
+      "Fact & Furious original + correction history"
+    ]
+  },
+  "evidence_artifacts": {
+    "mobile_figure_qa": "annexes/XQ203A_MOBILE_FIGURE_QA_390PX.png",
+    "editorial_forensic_audit": "data/XQ203A_EDITORIAL_FORENSIC_AUDIT_2026-08-25.csv",
+    "research_source_registry": "data/XQ203A_RESEARCH_SOURCE_REGISTRY_2026-08-25.csv",
+    "audit_annex": "annexes/XQ203A_EDITORIAL_COGNITIVE_FORENSIC_AUDIT_2026-08-25.md",
+    "sqlite": "data/QUINTESSENCE_XQ196_INV_FC65.sqlite"
+  },
+  "traceability_policy": {
+    "preserve_negative_findings": true,
+    "preserve_open_gaps": true,
+    "preserve_source_urls": true,
+    "do_not_silently_overwrite_history": true,
+    "article_text_frozen_in_this_patch": true
+  },
+  "sqlite": {
+    "path": "data/QUINTESSENCE_XQ196_INV_FC65.sqlite",
+    "source_library_file_id": "file_000000005bc881f9a4803fb8a1664dd9",
+    "baseline_sha256": "26ffdc8ef752ad90184a5d006d4bdd5cff54ebd1fe0e0838495fb7346a662874",
+    "updated": true,
+    "integrity_check": "ok",
+    "counts": {
+      "findings": 37,
+      "xq203a_findings": 22,
+      "sources": 17,
+      "xq203a_sources": 8,
+      "gaps": 8,
+      "metadata": 19,
+      "trace_files": 8
+    },
+    "scope": "base XQ196 preserved; XQ203A rows and trace links appended",
+    "updated_sha256": "e6808d14c515d608e0dc50129c0f4247e6f6f6b7362a95fdb2a764b2931b2739",
+    "hash_policy": "SQLite excludes the JSON state file from its internal trace_files hashes to avoid a cyclic digest; MANIFEST_SHA256_XQ203A is the package integrity root."
+  }
+}

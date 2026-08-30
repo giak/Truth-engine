@@ -1,0 +1,318 @@
+diff -ru /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_00_FRESQUE_HISTORIQUE_TRAVAIL.svg /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_00_FRESQUE_HISTORIQUE_TRAVAIL.svg
+--- /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_00_FRESQUE_HISTORIQUE_TRAVAIL.svg	2026-08-27 20:51:38.000000000 +0000
++++ /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_00_FRESQUE_HISTORIQUE_TRAVAIL.svg	2026-08-28 18:15:44.581963918 +0000
+@@ -31,7 +31,7 @@
+ <text x="2310" y="76" text-anchor="end" class="sf kicker">IA ET TRAVAIL</text>
+ <line x1="90" y1="112" x2="2310" y2="112" class="rule"/>
+ <text x="1200" y="205" text-anchor="middle" class="rm title">Comment le temps est devenu une unité centrale du travail</text>
+-<text x="1200" y="265" text-anchor="middle" class="rm sub">Sept régimes se superposent : techniques et organisations modifient ce qui est mesuré, mécanisé et rare, tandis qu’une part importante des droits sociaux reste liée à l’emploi ou au statut.</text>
++<text x="1200" y="265" text-anchor="middle" class="rm sub">Sept régimes se superposent : techniques et organisations modifient ce qui est mesuré, mécanisé et rare, tandis qu’une partie des revenus, droits et trajectoires reste liée à l’emploi ou au statut.</text>
+ 
+ <!-- era headers -->
+ <g>
+@@ -94,7 +94,7 @@
+ <text x="180" y="602" text-anchor="middle" class="sf rowhead">CE QUE</text><text x="180" y="635" text-anchor="middle" class="sf rowhead">L’ORGANISATION</text><text x="180" y="668" text-anchor="middle" class="sf rowhead">ACHÈTE / MESURE</text>
+ <text x="180" y="760" text-anchor="middle" class="sf rowhead">CE QUE</text><text x="180" y="793" text-anchor="middle" class="sf rowhead">LA TECHNIQUE</text><text x="180" y="826" text-anchor="middle" class="sf rowhead">MÉCANISE</text>
+ <text x="180" y="915" text-anchor="middle" class="sf rowhead">OÙ SE TROUVE</text><text x="180" y="948" text-anchor="middle" class="sf rowhead">LA RARETÉ</text>
+-<text x="180" y="1068" text-anchor="middle" class="sf rowheadsm">UNE PARTIE DES</text><text x="180" y="1101" text-anchor="middle" class="sf rowheadsm">DROITS SOCIAUX</text><text x="180" y="1134" text-anchor="middle" class="sf rowheadsm">RESTE ADOSSÉE À</text>
++<text x="180" y="1068" text-anchor="middle" class="sf rowheadsm">REVENUS, DROITS</text><text x="180" y="1101" text-anchor="middle" class="sf rowheadsm">ET TRAJECTOIRES</text><text x="180" y="1134" text-anchor="middle" class="sf rowheadsm">S’ADOSSENT À</text>
+ 
+ <!-- row cells backgrounds and verticals -->
+ <g>
+@@ -158,9 +158,9 @@
+ <rect x="250" y="1325" width="1900" height="92" fill="#f3f3f3"/>
+ <rect x="250" y="1325" width="8" height="92" fill="#111"/>
+ <text x="1200" y="1370" text-anchor="middle" class="rm note">Certaines techniques déplacent les contraintes productives plus vite que les institutions ne s’adaptent.</text>
+-<text x="1200" y="1405" text-anchor="middle" class="rm note">L’IA peut élargir l’écart entre le temps nécessaire à certaines productions et le temps auquel restent liés revenu, carrière et droits.</text>
++<text x="1200" y="1405" text-anchor="middle" class="rm note">L’IA peut réduire certaines heures nécessaires sans modifier au même rythme les institutions liées à l’emploi et aux statuts.</text>
+ 
+ <line x1="90" y1="1450" x2="2310" y2="1450" class="thin"/>
+-<text x="90" y="1482" class="rm small" font-style="italic">Fresque analytique R8  ·  régimes superposés, non succession téléologique</text>
++<text x="90" y="1482" class="rm small" font-style="italic">Fresque analytique R17  ·  régimes superposés, non succession téléologique</text>
+ <text x="2310" y="1482" text-anchor="end" class="rm small" font-style="italic">Sources : Thompson 1967 ; OIT 1919 ; Taylor 1911 ; Insee 2019/2026 ; Légifrance 2000</text>
+ </svg>
+Only in /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures: FIG_00_FRESQUE_HISTORIQUE_TRAVAIL_preview.png
+diff -ru /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_01_CHAINE_CONVERSION.svg /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_01_CHAINE_CONVERSION.svg
+--- /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_01_CHAINE_CONVERSION.svg	2026-08-28 15:57:56.000000000 +0000
++++ /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_01_CHAINE_CONVERSION.svg	2026-08-28 18:15:44.582472406 +0000
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1500" viewBox="0 0 2400 1500" role="img" aria-labelledby="title desc">
+-<title id="title">De la performance technique à la capacité réellement libérée</title>
++<title id="title">De la performance technique à la capacité nette libérée</title>
+ <desc id="desc">Chaîne analytique de conversion de la performance technique en capacité réellement disponible.</desc>
+ <defs>
+     <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="strokeWidth">
+@@ -29,8 +29,8 @@
+ <text x="90" y="78" class="sf kicker">FIG. 01  ·  CHAÎNE DE CONVERSION</text>
+ <text x="2310" y="78" text-anchor="end" class="sf kicker">IA ET TRAVAIL</text>
+ <line x1="90" y1="112" x2="2310" y2="112" class="rule"/>
+-<text x="1200" y="214" text-anchor="middle" class="rm title">De la performance technique à la capacité réellement libérée</text>
+-<text x="1200" y="278" text-anchor="middle" class="rm sub">Entre la performance technique et le temps réellement libéré, contrôle, intégration et maintenance modifient le résultat.</text>
++<text x="1200" y="214" text-anchor="middle" class="rm title">De la performance technique à la capacité nette libérée</text>
++<text x="1200" y="278" text-anchor="middle" class="rm sub">Entre la performance technique et la capacité nette libérée, contrôle, intégration et maintenance modifient le résultat.</text>
+ <rect x="70" y="390" width="400" height="380" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+ <text x="270.0" y="435" text-anchor="middle" class="rm panel">(a)</text>
+ <text x="270.0" y="478" text-anchor="middle" class="sf panel">CAPACITÉ TECHNIQUE</text>
+@@ -43,7 +43,7 @@
+ <text x="270.0" y="744" text-anchor="middle" class="rm note" >ce que le modèle peut faire</text>
+ <rect x="525" y="390" width="400" height="380" fill="#f3f3f3" stroke="#111111" stroke-width="2.4"/>
+ <text x="725.0" y="435" text-anchor="middle" class="rm panel">(b)</text>
+-<text x="725.0" y="478" text-anchor="middle" class="sf panel">GAIN BRUT</text>
++<text x="725.0" y="478" text-anchor="middle" class="sf panel">TEMPS BRUT</text>
+ <line x1="550" y1="502" x2="900" y2="502" class="thin"/>
+ <text x="725.0" y="555" text-anchor="middle" class="rm body2" >temps économisé</text>
+ <text x="725.0" y="605" text-anchor="middle" class="rm body2" >avant contrôle</text>
+@@ -63,18 +63,18 @@
+ <text x="1180.0" y="754" text-anchor="middle" class="rm note" style="font-size:24px">souvent hors test technique</text>
+ <rect x="1435" y="390" width="400" height="380" fill="#f3f3f3" stroke="#111111" stroke-width="3.6"/>
+ <text x="1635.0" y="435" text-anchor="middle" class="rm panel">(d)</text>
+-<text x="1635.0" y="478" text-anchor="middle" class="sf panel">TEMPS NET LIBÉRÉ</text>
++<text x="1635.0" y="478" text-anchor="middle" class="sf panel" style="font-size:24px">CAPACITÉ NETTE LIBÉRÉE</text>
+ <line x1="1460" y1="502" x2="1810" y2="502" class="thin"/>
+-<text x="1635.0" y="555" text-anchor="middle" class="rm body2" >temps utile</text>
++<text x="1635.0" y="555" text-anchor="middle" class="rm body2" >temps / capacité récupérés</text>
+ <text x="1635.0" y="605" text-anchor="middle" class="rm body2" >après contrôle</text>
+ <text x="1635.0" y="655" text-anchor="middle" class="rm body2" >à qualité comparable</text>
+ <line x1="1460" y1="702" x2="1810" y2="702" class="thin" stroke-dasharray="8 8"/>
+-<text x="1635.0" y="744" text-anchor="middle" class="rm note" >capacité temporelle nette</text>
++<text x="1635.0" y="744" text-anchor="middle" class="rm note" >pas encore une productivité</text>
+ <rect x="1890" y="390" width="400" height="380" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+ <text x="2090.0" y="435" text-anchor="middle" class="rm panel">(e)</text>
+-<text x="2090.0" y="478" text-anchor="middle" class="sf panel">CAPACITÉ DISPONIBLE</text>
++<text x="2090.0" y="478" text-anchor="middle" class="sf panel">USAGE DE LA CAPACITÉ</text>
+ <line x1="1915" y1="502" x2="2265" y2="502" class="thin"/>
+-<text x="2090.0" y="545" text-anchor="middle" class="rm body2" >usage du gain</text>
++<text x="2090.0" y="545" text-anchor="middle" class="rm body2" >conversion possible</text>
+ <text x="2090.0" y="590" text-anchor="middle" class="rm body2" >volume</text>
+ <text x="2090.0" y="630" text-anchor="middle" class="rm body2" >délai</text>
+ <text x="2090.0" y="670" text-anchor="middle" class="rm body2" >qualité</text>
+@@ -87,11 +87,11 @@
+ <line x1="1845" y1="580" x2="1872" y2="580" stroke="#111111" stroke-width="3" marker-end="url(#arrow)"/>
+ <rect x="180" y="850" width="2040" height="270" fill="#f3f3f3"/>
+ <rect x="180" y="850" width="9" height="270" fill="#111111"/>
+-<text x="1200" y="930" text-anchor="middle" class="rm sub" >Un gain technique n’est pas encore un gain économique.</text>
++<text x="1200" y="930" text-anchor="middle" class="rm sub" >Une capacité nette libérée n’est pas encore une mesure complète de productivité.</text>
+ <text x="1200" y="984" text-anchor="middle" class="rm sub" >Et un gain économique n’indique pas encore qui en bénéficie.</text>
+ <line x1="260" y1="1012" x2="2140" y2="1012" class="thin"/>
+-<text x="1200" y="1075" text-anchor="middle" class="rm title" style="font-size:44px;font-weight:700">La performance technique ne mesure pas encore le gain économique.</text>
++<text x="1200" y="1075" text-anchor="middle" class="rm title" style="font-size:44px;font-weight:700">La performance technique ne mesure pas à elle seule la productivité économique.</text>
+ <line x1="90" y1="1410" x2="2310" y2="1410" class="thin"/>
+-<text x="90" y="1460" class="rm small" font-style="italic">Schéma analytique R6  ·  aucune proportion quantitative implicite</text>
+-<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R6  ·  27/08/2026</text>
++<text x="90" y="1460" class="rm small" font-style="italic">Schéma analytique R17  ·  aucune proportion quantitative implicite</text>
++<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R17  ·  28/08/2026</text>
+ </svg>
+diff -ru /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_02_DEPLACEMENT_CONTRAINTE.svg /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_02_DEPLACEMENT_CONTRAINTE.svg
+--- /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_02_DEPLACEMENT_CONTRAINTE.svg	2026-08-27 20:51:38.000000000 +0000
++++ /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_02_DEPLACEMENT_CONTRAINTE.svg	2026-08-28 18:15:44.582762756 +0000
+@@ -30,8 +30,8 @@
+ <text x="2310" y="78" text-anchor="end" class="sf kicker">GRILLE NON MÉTRIQUE</text>
+ <line x1="90" y1="112" x2="2310" y2="112" class="rule"/>
+ <text x="1200" y="214" text-anchor="middle" class="rm title">Quand le temps cesse d’être la contrainte principale</text>
+-<text x="1200" y="278" text-anchor="middle" class="rm sub">Une tâche accélérée peut déplacer la contrainte vers un autre niveau du système.</text>
+-<line x1="250" y1="416" x2="2165" y2="416" stroke="#111111" stroke-width="3" marker-end="url(#arrow)"/>
++<text x="1200" y="278" text-anchor="middle" class="rm sub">Une tâche accélérée peut déplacer la contrainte ; les contraintes ci-dessous ne suivent pas un ordre unique.</text>
++<line x1="250" y1="416" x2="2165" y2="416" stroke="#111111" stroke-width="3"/>
+ <line x1="280" y1="397" x2="280" y2="436" class="rule"/><circle cx="280" cy="416" r="11" fill="#ffffff" stroke="#111111" stroke-width="3"/>
+ <text x="280" y="360" text-anchor="middle" class="sf panel">Validation</text>
+ <text x="280" y="480" text-anchor="middle" class="rm small" font-style="italic">interne à la tâche</text>
+@@ -80,6 +80,6 @@
+ <text x="1200" y="1230" text-anchor="middle" class="rm title" style="font-size:50px">Lorsque le temps recule, une autre contrainte peut devenir déterminante.</text>
+ <text x="1200" y="1298" text-anchor="middle" class="rm sub">Le gain sur une tâche ne prédit ni le volume, ni l’emploi, ni le résultat social.</text>
+ <line x1="90" y1="1410" x2="2310" y2="1410" class="thin"/>
+-<text x="90" y="1460" class="rm small" font-style="italic">Concept analytique R6  ·  déplacement de la contrainte dominante</text>
+-<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R6  ·  27/08/2026</text>
++<text x="90" y="1460" class="rm small" font-style="italic">Concept analytique R17  ·  contraintes possibles, non ordonnées</text>
++<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R17  ·  28/08/2026</text>
+ </svg>
+diff -ru /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_03_EMPLOI_VISIBLE_CONTREFACTUEL.svg /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_03_EMPLOI_VISIBLE_CONTREFACTUEL.svg
+--- /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_03_EMPLOI_VISIBLE_CONTREFACTUEL.svg	2026-08-27 20:51:38.000000000 +0000
++++ /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_03_EMPLOI_VISIBLE_CONTREFACTUEL.svg	2026-08-28 18:15:44.583094273 +0000
+@@ -35,7 +35,7 @@
+ <text x="130" y="408" class="rm panel">(a)</text>
+ <text x="192" y="408" class="sf panel">DIRECTEMENT OBSERVABLE</text>
+ <line x1="130" y1="436" x2="720" y2="436" class="thin"/>
+-<text x="130" y="505" text-anchor="start" class="sf body2" >licenciement direct</text>
++<text x="130" y="505" text-anchor="start" class="sf body2" >licenciement enregistré</text>
+ <text x="130" y="553" text-anchor="start" class="sf body2" >poste formellement supprimé</text>
+ <text x="130" y="601" text-anchor="start" class="sf body2" >rupture enregistrée</text>
+ <line x1="130" y1="798" x2="720" y2="798" class="thin" stroke-dasharray="8 8"/>
+@@ -53,9 +53,9 @@
+ <text x="905" y="880" text-anchor="start" class="rm note" >règles et décisions</text>
+ <rect x="1650" y="360" width="650" height="600" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+ <text x="1680" y="408" class="rm panel">(c)</text>
+-<text x="1742" y="408" class="sf panel">CONTREFACTUEL</text>
++<text x="1742" y="408" class="sf panel" style="font-size:24px">PRINCIPALEMENT CONTREFACTUEL</text>
+ <line x1="1680" y1="436" x2="2270" y2="436" class="thin"/>
+-<text x="1680" y="505" text-anchor="start" class="sf body2" >recrutement différé</text>
++<text x="1680" y="505" text-anchor="start" class="sf body2" >recrutement reporté ou évité</text>
+ <text x="1680" y="553" text-anchor="start" class="sf body2" >poste jamais ouvert</text>
+ <text x="1680" y="601" text-anchor="start" class="sf body2" >besoin absorbé autrement</text>
+ <line x1="1680" y1="798" x2="2270" y2="798" class="thin" stroke-dasharray="8 8"/>
+@@ -68,8 +68,8 @@
+ <text x="1200" y="1122" text-anchor="middle" class="rm body">plus l’ajustement est contrefactuel, plus la preuve exige un comparateur et une chronologie explicite</text>
+ <line x1="100" y1="1162" x2="2300" y2="1162" class="rule"/>
+ <rect x="230" y="1220" width="1940" height="132" fill="#f3f3f3"/><rect x="230" y="1220" width="9" height="132" fill="#111111"/>
+-<text x="1200" y="1304" text-anchor="middle" class="rm title" style="font-size:50px">Un licenciement laisse une trace. Un poste jamais ouvert en laisse peu.</text>
++<text x="1200" y="1304" text-anchor="middle" class="rm title" style="font-size:50px">Une suppression formelle laisse une trace. Un poste jamais ouvert en laisse peu.</text>
+ <line x1="90" y1="1410" x2="2310" y2="1410" class="thin"/>
+ <text x="90" y="1460" class="rm small" font-style="italic">Règle : identifier le mécanisme avant de compter  ·  ampleur agrégée inconnue</text>
+-<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R6  ·  27/08/2026</text>
++<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R17  ·  28/08/2026</text>
+ </svg>
+diff -ru /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_04_GAIN_DEMANDE_PRIX.svg /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_04_GAIN_DEMANDE_PRIX.svg
+--- /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_04_GAIN_DEMANDE_PRIX.svg	2026-08-28 15:56:46.000000000 +0000
++++ /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_04_GAIN_DEMANDE_PRIX.svg	2026-08-28 18:15:44.583477727 +0000
+@@ -30,16 +30,16 @@
+ <text x="2310" y="78" text-anchor="end" class="sf kicker">INCIDENCE ÉCONOMIQUE</text>
+ <line x1="90" y1="112" x2="2310" y2="112" class="rule"/>
+ <text x="1200" y="214" text-anchor="middle" class="rm title">Capacité libérée, demande et prix</text>
+-<text x="1200" y="278" text-anchor="middle" class="rm sub">Une même capacité nette peut produire des résultats opposés selon le marché et la stratégie.</text>
++<text x="1200" y="278" text-anchor="middle" class="rm sub">Une même capacité nette libérée peut produire des résultats opposés selon le marché et la stratégie.</text>
+ <rect x="70" y="370" width="400" height="330" fill="#fff" stroke="#111111" stroke-width="2.4"/>
+ <text x="270.0" y="415" text-anchor="middle" class="rm panel">(a)</text>
+-<text x="270.0" y="458" text-anchor="middle" class="sf panel">CAPACITÉ NETTE</text>
++<text x="270.0" y="458" text-anchor="middle" class="sf panel" style="font-size:24px">CAPACITÉ NETTE LIBÉRÉE</text>
+ <line x1="95" y1="482" x2="445" y2="482" class="thin"/>
+ <text x="270.0" y="540" text-anchor="middle" class="rm body2" >temps réellement</text>
+ <text x="270.0" y="588" text-anchor="middle" class="rm body2" >libéré</text>
+ <line x1="95" y1="612" x2="445" y2="612" class="thin" stroke-dasharray="8 8"/>
+ <text x="270.0" y="646" text-anchor="middle" class="rm note" >point de départ</text>
+-<text x="270.0" y="680" text-anchor="middle" class="rm note" >mesuré</text>
++<text x="270.0" y="680" text-anchor="middle" class="rm note" >à établir</text>
+ <rect x="525" y="370" width="400" height="330" fill="#f3f3f3" stroke="#111111" stroke-width="2.4"/>
+ <text x="725.0" y="415" text-anchor="middle" class="rm panel">(b)</text>
+ <text x="725.0" y="458" text-anchor="middle" class="sf panel">DEMANDE</text>
+@@ -93,6 +93,6 @@
+ <text x="1200" y="1225" text-anchor="middle" class="rm title" style="font-size:48px">Aucun résultat n’est mécanique.</text>
+ <text x="1200" y="1292" text-anchor="middle" class="rm sub">Prix, demande, concurrence, coûts complémentaires et stratégie peuvent modifier le résultat.</text>
+ <line x1="90" y1="1410" x2="2310" y2="1410" class="thin"/>
+-<text x="90" y="1460" class="rm small" font-style="italic">Arbre de scénarios R6  ·  issues simultanées possibles, non additives</text>
+-<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R6  ·  27/08/2026</text>
++<text x="90" y="1460" class="rm small" font-style="italic">Arbre de scénarios R17  ·  lecture analytique, ordre non causal, issues non additives</text>
++<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R17  ·  28/08/2026</text>
+ </svg>
+diff -ru /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_05_EXPOSITION_RESEAU.svg /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_05_EXPOSITION_RESEAU.svg
+--- /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_05_EXPOSITION_RESEAU.svg	2026-08-27 20:51:38.000000000 +0000
++++ /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_05_EXPOSITION_RESEAU.svg	2026-08-28 18:15:44.584079744 +0000
+@@ -61,15 +61,15 @@
+ <line x1="1680" y1="798" x2="2270" y2="798" class="thin" stroke-dasharray="8 8"/>
+ <text x="1680" y="840" text-anchor="start" class="rm note" >budget, prix, délai</text>
+ <text x="1680" y="880" text-anchor="start" class="rm note" >peuvent être renégociés</text>
+-<line x1="762" y1="660" x2="855" y2="660" stroke="#111111" stroke-width="3" marker-end="url(#arrow)"/>
+-<line x1="1537" y1="660" x2="1630" y2="660" stroke="#111111" stroke-width="3" marker-end="url(#arrow)"/>
++
++
+ <line x1="100" y1="1015" x2="2300" y2="1015" class="rule"/>
+-<text x="1200" y="1064" text-anchor="middle" class="sf panel">CIRCULATION DE L’EXPOSITION</text>
+-<text x="1200" y="1122" text-anchor="middle" class="rm body">prix  →  budgets  →  parts de marché  →  statuts  →  volume de travail</text>
++<text x="1200" y="1064" text-anchor="middle" class="sf panel">VARIABLES DE TRANSMISSION</text>
++<text x="1200" y="1122" text-anchor="middle" class="rm body">prix  ↔  budgets  ↔  parts de marché  ↔  statuts  ↔  volume de travail</text>
+ <line x1="100" y1="1162" x2="2300" y2="1162" class="rule"/>
+ <rect x="230" y="1220" width="1940" height="132" fill="#f3f3f3"/><rect x="230" y="1220" width="9" height="132" fill="#111111"/>
+ <text x="1200" y="1304" text-anchor="middle" class="rm title" style="font-size:50px">Une entreprise peut être exposée sans utiliser elle-même l’IA.</text>
+ <line x1="90" y1="1410" x2="2310" y2="1410" class="thin"/>
+ <text x="90" y="1460" class="rm small" font-style="italic">Référence mécanistique : automatisation robotique en France  ·  ampleur pour l’IA générative à mesurer</text>
+-<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R6  ·  27/08/2026</text>
++<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R17  ·  28/08/2026</text>
+ </svg>
+diff -ru /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_06_FABRIQUE_EXPERIENCE.svg /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_06_FABRIQUE_EXPERIENCE.svg
+--- /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_06_FABRIQUE_EXPERIENCE.svg	2026-08-27 20:51:38.000000000 +0000
++++ /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_06_FABRIQUE_EXPERIENCE.svg	2026-08-28 18:15:44.584356985 +0000
+@@ -30,9 +30,9 @@
+ <text x="2310" y="78" text-anchor="end" class="sf kicker">DOUBLE MÉCANISME</text>
+ <line x1="90" y1="112" x2="2310" y2="112" class="rule"/>
+ <text x="1200" y="214" text-anchor="middle" class="rm title">La production de l’expérience</text>
+-<text x="1200" y="278" text-anchor="middle" class="rm sub">La raréfaction des tâches d’entrée et l’apprentissage assisté peuvent agir simultanément.</text>
++<text x="1200" y="278" text-anchor="middle" class="rm sub">La compression possible des tâches d’entrée et l’apprentissage assisté peuvent agir simultanément.</text>
+ <rect x="820" y="350" width="760" height="125" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+-<text x="1200" y="405" text-anchor="middle" class="sf panel">IA SUR TÂCHES D’ENTRÉE</text>
++<text x="1200" y="405" text-anchor="middle" class="sf panel">IA SUR CERTAINES TÂCHES D’ENTRÉE</text>
+ <text x="1200" y="447" text-anchor="middle" class="rm small" font-style="italic">même technologie, deux canaux de transmission</text>
+ <rect x="180" y="590" width="900" height="360" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+ <text x="220" y="646" class="sf panel">PORTES D’ENTRÉE</text>
+@@ -40,7 +40,7 @@
+ <rect x="1320" y="590" width="900" height="360" fill="#f3f3f3" stroke="#111111" stroke-width="3.6"/>
+ <text x="1360" y="646" class="sf panel">APPRENTISSAGE ASSISTÉ</text>
+ <line x1="1360" y1="674" x2="2180" y2="674" class="thin"/>
+-<text x="220" y="725" text-anchor="start" class="sf body" >certaines embauches de début de carrière ↓</text>
++<text x="220" y="725" text-anchor="start" class="sf body" >certaines embauches peuvent ↓</text>
+ <text x="220" y="790" text-anchor="start" class="sf body" >pratique disponible peut ↓</text>
+ <text x="220" y="855" text-anchor="start" class="sf body" >diversité des cas peut ↓</text>
+ <line x1="220" y1="880" x2="1040" y2="880" class="thin" stroke-dasharray="8 8"/>
+@@ -48,7 +48,7 @@
+ <text x="220" y="940" text-anchor="start" class="rm note" >la production future d’expérience</text>
+ <text x="1360" y="725" text-anchor="start" class="sf body" >aide contextuelle peut ↑</text>
+ <text x="1360" y="790" text-anchor="start" class="sf body" >retours d’expérience peuvent ↑</text>
+-<text x="1360" y="855" text-anchor="start" class="sf body" >progression de certains débutants ↑</text>
++<text x="1360" y="855" text-anchor="start" class="sf body" >progression de certains débutants peut ↑</text>
+ <line x1="1360" y1="880" x2="2180" y2="880" class="thin" stroke-dasharray="8 8"/>
+ <text x="1360" y="910" text-anchor="start" class="rm note" >dans certains contextes,</text>
+ <text x="1360" y="940" text-anchor="start" class="rm note" >les entrants peuvent apprendre plus vite</text>
+@@ -62,6 +62,6 @@
+ <text x="1200" y="1206" text-anchor="middle" class="rm body2" style="font-size:23px">entrants × pratique × diversité des cas × retours d’expérience × responsabilité</text>
+ <text x="1200" y="1320" text-anchor="middle" class="rm sub">L’effet net sur la formation future de l’expertise n’est pas établi.</text>
+ <line x1="90" y1="1410" x2="2310" y2="1410" class="thin"/>
+-<text x="90" y="1460" class="rm small" font-style="italic">Grille analytique R6  ·  ce n’est pas une équation estimée</text>
+-<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R6  ·  27/08/2026</text>
++<text x="90" y="1460" class="rm small" font-style="italic">R17  ·  signaux : Stanford/Census (non causaux) ; QJE (apprentissage) ; effet net inconnu</text>
++<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R17  ·  28/08/2026</text>
+ </svg>
+diff -ru /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_07_REGISTRE_INCIDENCE.svg /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_07_REGISTRE_INCIDENCE.svg
+--- /mnt/data/r16_extract/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R16_FORENSIC_DOUBLE_CHECK/figures/FIG_07_REGISTRE_INCIDENCE.svg	2026-08-28 15:56:46.000000000 +0000
++++ /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures/FIG_07_REGISTRE_INCIDENCE.svg	2026-08-28 18:15:44.584984209 +0000
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1500" viewBox="0 0 2400 1500" role="img" aria-labelledby="title desc">
+-<title id="title">Du gain économique à la personne</title>
++<title id="title">De l’effet économique à la personne</title>
+ <desc id="desc">Chaîne d’incidence du gain économique jusqu’à la personne, au ménage ou à l’usager.</desc>
+ <defs>
+     <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="strokeWidth">
+@@ -27,21 +27,21 @@
+ </defs>
+ <rect width="2400" height="1500" fill="#ffffff"/>
+ <text x="90" y="78" class="sf kicker">FIG. 07  ·  REGISTRE D’INCIDENCE</text>
+-<text x="2310" y="78" text-anchor="end" class="sf kicker">CIRCUIT DU DIVIDENDE IA</text>
++<text x="2310" y="78" text-anchor="end" class="sf kicker">CIRCUIT ANALYTIQUE D’INCIDENCE</text>
+ <line x1="90" y1="112" x2="2310" y2="112" class="rule"/>
+-<text x="1200" y="214" text-anchor="middle" class="rm title">Du gain économique à la personne</text>
+-<text x="1200" y="278" text-anchor="middle" class="rm sub">Le lieu où le gain apparaît d’abord n’est pas nécessairement celui où il bénéficie finalement.</text>
++<text x="1200" y="214" text-anchor="middle" class="rm title">De l’effet économique à la personne</text>
++<text x="1200" y="278" text-anchor="middle" class="rm sub">Le lieu où un effet économique apparaît d’abord n’est pas nécessairement celui où il atteint finalement les personnes.</text>
+ <rect x="100" y="360" width="650" height="600" fill="#ffffff" stroke="#111111" stroke-width="2.4"/>
+ <text x="130" y="408" class="rm panel">(a)</text>
+-<text x="192" y="408" class="sf panel">GAIN ÉCONOMIQUE NET</text>
++<text x="192" y="408" class="sf panel">EFFET INITIAL À ÉTABLIR</text>
+ <line x1="130" y1="436" x2="720" y2="436" class="thin"/>
+-<text x="130" y="505" text-anchor="start" class="sf body2" >temps libéré</text>
++<text x="130" y="505" text-anchor="start" class="sf body2" >capacité nette libérée</text>
+ <text x="130" y="553" text-anchor="start" class="sf body2" >qualité accrue</text>
+ <text x="130" y="601" text-anchor="start" class="sf body2" >coût évité</text>
+ <text x="130" y="649" text-anchor="start" class="sf body2" >capacité supplémentaire</text>
+ <line x1="130" y1="798" x2="720" y2="798" class="thin" stroke-dasharray="8 8"/>
+-<text x="130" y="840" text-anchor="start" class="rm note" >mesurer le gain économique</text>
+-<text x="130" y="880" text-anchor="start" class="rm note" >avant de le distribuer</text>
++<text x="130" y="840" text-anchor="start" class="rm note" >distinguer les dimensions</text>
++<text x="130" y="880" text-anchor="start" class="rm note" >avant d’étudier leur répartition</text>
+ <rect x="875" y="360" width="650" height="600" fill="#f3f3f3" stroke="#111111" stroke-width="3.6"/>
+ <text x="905" y="408" class="rm panel">(b)</text>
+ <text x="967" y="408" class="sf panel">DISTRIBUTION INTERMÉDIAIRE</text>
+@@ -68,11 +68,11 @@
+ <line x1="1537" y1="660" x2="1630" y2="660" stroke="#111111" stroke-width="3" marker-end="url(#arrow)"/>
+ <line x1="100" y1="1015" x2="2300" y2="1015" class="rule"/>
+ <text x="1200" y="1064" text-anchor="middle" class="sf panel">VARIABLES DE PARTAGE</text>
+-<text x="1200" y="1122" text-anchor="middle" class="rm body">marché  →  contrats  →  droit  →  dialogue social  →  démographie  →  choix budgétaires</text>
++<text x="1200" y="1122" text-anchor="middle" class="rm body">marché  |  contrats  |  droit  |  dialogue social  |  démographie  |  choix budgétaires</text>
+ <line x1="100" y1="1162" x2="2300" y2="1162" class="rule"/>
+ <rect x="230" y="1220" width="1940" height="132" fill="#f3f3f3"/><rect x="230" y="1220" width="9" height="132" fill="#111111"/>
+-<text x="1200" y="1304" text-anchor="middle" class="rm title" style="font-size:42px">L’emploi n’est qu’un des canaux par lesquels le gain atteint, ou non, les personnes.</text>
++<text x="1200" y="1304" text-anchor="middle" class="rm title" style="font-size:42px">L’emploi n’est qu’un des canaux par lesquels un effet économique atteint, ou non, les personnes.</text>
+ <line x1="90" y1="1410" x2="2310" y2="1410" class="thin"/>
+-<text x="90" y="1460" class="rm small" font-style="italic">Registre d’incidence R6  ·  destinations simultanées, parts nationales inconnues</text>
+-<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R6  ·  27/08/2026</text>
++<text x="90" y="1460" class="rm small" font-style="italic">Registre d’incidence R17  ·  dimensions distinctes, destinations simultanées, parts inconnues</text>
++<text x="2310" y="1460" text-anchor="end" class="rm small" font-style="italic">IA et travail  ·  R17  ·  28/08/2026</text>
+ </svg>
+Only in /mnt/data/ia_travail_final/QUAND_LE_TRAVAIL_NE_VAUT_PLUS_SON_TEMPS_V3_3_R17_FIGURES_FORENSIQUES/figures: previews

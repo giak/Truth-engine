@@ -1,0 +1,861 @@
+# 🔍 Qui fabrique l’autorité du vrai ?
+
+*Quand le fact-checking devient une infrastructure de qualification : sélection, argent, plateformes, certifications, données et réparation.*
+
+## Pourquoi cette enquête
+
+**La liberté d’expression m’est aussi fondamentale que respirer.**
+
+Depuis des mois, mes enquêtes sur les différents « verrous » reviennent à la même question : **que reste-t-il d’un droit lorsqu’il existe toujours dans les textes, mais perd progressivement sa prise sur le réel ?**
+
+Nous sommes libres de parler. Le peuple est souverain. Nous disposons de recours et de garanties. Pourtant, entre ces principes et leur exercice s’interposent de plus en plus de règles, de procédures, d’autorités, de plateformes et d’algorithmes.
+
+Je l’ai vécu à mon échelle. J’ai fini par abandonner *X*, anciennement Twitter, puis *Facebook*, après avoir constaté et documenté une chute massive de ma visibilité, compatible avec un déclassement algorithmique sévère. Je pouvais encore publier. Personne ne m’interdisait formellement de parler. Mais **le droit de parler n’emporte plus nécessairement le pouvoir d’être entendu**.
+
+C’est ce déplacement qui m’inquiète. Le verrou moderne ne supprime pas forcément un droit. Il peut le laisser intact dans les textes tout en réduisant peu à peu sa portée réelle.
+
+Cette enquête sur le fact-checking s’inscrit dans cette réflexion. Non parce que vérifier un fait serait censurer une opinion. Mais parce que la nature du problème change lorsque la vérification cesse d’être seulement un article à lire et devient aussi **un signal capable d’agir sur la circulation de la parole**.
+
+J’ai donc voulu démonter la mécanique : contrats, plateformes, argent, certifications, sélection, bases de données, algorithmes, corrections et recours. **Qui qualifie ? Qui transmet ? Qui amplifie ou réduit ? Qui corrige ? Et qui contrôle ceux qui contrôlent ?**
+
+Avec une règle au-dessus de toutes les autres : **ne jamais faire dire aux faits plus qu’ils ne disent.**
+
+---
+
+**3,2 millions.**
+
+C’est le chiffre qui ouvre cette enquête. Dans son rapport couvrant le second semestre 2025, *Meta* indique, pour la ligne « France », **plus de 3,2 millions de contenus distincts vus sur Facebook auxquels une étiquette de fact-checking a été appliquée après qu’un partenaire a évalué comme fausse l’information correspondante**. Parmi les tentatives uniques de repartage de ces contenus, **57,8 % n’ont pas été finalisées**.[^1]
+
+Il faut immédiatement poser deux limites. D’abord, le tableau de *Meta* est filtré sur les contenus créés dans les pays de l’Espace économique européen et ventilé par État membre : il ne permet pas d’affirmer que ces 3,2 millions de contenus ont tous été vus par des utilisateurs situés en France. Ensuite, les 57,8 % décrivent ce qui a été observé parmi les tentatives de repartage concernées. Ce chiffre ne permet pas de savoir ce que les mêmes utilisateurs auraient fait en l’absence du dispositif.
+
+Il ne s’agit donc ni de 3,2 millions de suppressions, ni d’un « taux de censure » de 57,8 %. Le fait établi est plus précis : **une évaluation produite à partir d’un article de vérification peut devenir un signal utilisé par une plateforme et produire des effets très au-delà du lectorat de cet article**.
+
+Dans ce texte, « fact-checking » désigne la vérification journalistique d’affirmations factuelles. Trois objets doivent rester distincts : l’article publié par le journaliste, l’évaluation éventuellement transmise à une plateforme, puis le traitement que cette plateforme décide d’appliquer selon ses propres règles.
+
+Cette distinction est essentielle. Un fact-check peut être lu, discuté ou ignoré comme n’importe quel article. Mais l’évaluation qui en découle peut aussi être associée à d’autres contenus, influer sur leur distribution, conditionner certains partenariats, alimenter des bases structurées et être réutilisée par des systèmes automatisés.
+
+À partir de là, la question n’est plus seulement : *le fact-check était-il exact ?*
+
+Elle devient : **quel pouvoir attachons-nous au fait d’être reconnu comme celui qui a raison, et comment ce pouvoir est-il contrôlé ?**
+
+Ma précédente enquête, **[L’ingérence sans mesure](https://giak.substack.com/p/lingerence-sans-mesure)**, avait déjà rencontré une partie de cette architecture en étudiant la lutte européenne contre la désinformation. Il restait à descendre d’un étage et à regarder les rouages : contrats, rémunérations, certifications, sanctions, appels à projets, bases de données, corrections et effets mesurables.
+
+C’est l’objet de cette enquête.
+
+## En bref
+
+Cette enquête **ne démontre pas** l’existence d’un ministère centralisé de la vérité, d’un cartel homogène du fact-checking ou d’une chaîne générale dans laquelle un financeur dicterait les verdicts.
+
+Elle montre autre chose. Des fonctions autrefois plus séparées se raccordent désormais. Une rédaction choisit ce qu’elle vérifie. Une plateforme peut transformer une vérification en signal technique et lui attacher des effets. Des partenaires sont rémunérés selon leur activité ou des résultats mesurables. Des certifications peuvent ouvrir l’accès à des contrats et à des financements. Des articles deviennent des données structurées, réutilisables par des bases et des systèmes automatisés. Certains outils exploitent enfin le corpus des vérifications passées pour repérer plus vite de nouvelles occurrences.
+
+Dans le même temps, les mécanismes de correction existent, mais la réparation complète de leurs effets reste beaucoup plus difficile à mesurer.
+
+**Le problème est moins le centre que la composition.**
+
+J’emploie ici le mot « infrastructure » dans un sens simple : un ensemble de dispositifs reliés entre eux, dont la sortie de l’un peut devenir l’entrée du suivant. Ce mot n’implique ni direction centrale, ni intention commune, ni responsabilité juridique collective.
+
+Une règle gouverne donc tout le texte :
+
+> **financement n’est pas contrôle ; relation n’est pas coordination ; sélection asymétrique n’est pas intention partisane ; évaluation asymétrique n’est pas perte de portée mesurée ; correction n’est pas réparation.**
+
+---
+
+## Une infrastructure construite par étapes
+
+L’architecture décrite ici n’est pas née d’un seul coup en 2026. Elle s’est formée par couches successives. Comprendre cette chronologie évite deux récits également trompeurs : celui d’un système conçu dès l’origine par un architecte unique, et celui d’une simple juxtaposition d’initiatives sans continuité.
+
+En avril 2018, la Commission européenne proposait déjà, parmi ses réponses à la désinformation en ligne, de soutenir un **réseau indépendant de fact-checkers** et un Code européen de bonnes pratiques.[^2] À ce stade, ni le réseau actuel ni les infrastructures étudiées plus loin n’existaient sous leur forme présente. L’orientation, en revanche, était claire : renforcer les capacités de vérification et organiser davantage la coopération autour de la désinformation.
+
+En mai 2021, les orientations de la Commission deviennent plus précises. Elles demandent aux signataires d’élargir la coopération avec les fact-checkers, de mieux intégrer et rendre visibles leurs productions, d’étudier un **répertoire commun de vérifications**, de garantir leur indépendance et une rémunération équitable, puis de faciliter les échanges de données entre services.[^3]
+
+Ces objectifs précèdent la création de l’*European Fact-Checking Standards Network* (EFCSN), que l’on peut traduire par « réseau européen des standards du fact-checking ». L’EFCSN réunit des organisations de vérification autour d’un code commun et délivre une certification dont nous verrons plus loin les effets concrets.
+
+Le Code renforcé adopté en 2022 ne peut pourtant pas être présenté comme un texte dicté ligne par ligne par la Commission. Celle-ci précise qu’il résulte du travail des signataires, que chacun choisit les engagements auxquels il souscrit et qu’il reste responsable de leur mise en œuvre.[^4] Il est donc plus juste de parler d’une **construction progressive et négociée**, à laquelle participent institutions publiques, plateformes, acteurs de la publicité, chercheurs, organisations de la société civile et fact-checkers, avec des rôles et des pouvoirs différents.
+
+En 2025, une nouvelle étape est franchie. Le Code est intégré, à la demande de ses signataires, au cadre du *Digital Services Act* (DSA), le règlement européen sur les services numériques. Depuis le 1er juillet 2025, il sert de référence pour apprécier certains engagements des très grandes plateformes et moteurs de recherche signataires face aux risques de désinformation ; ces engagements entrent aussi dans un cadre d’audit indépendant.[^5]
+
+Puis vient 2026. La Commission européenne finance **FACTEUR**, acronyme de *Fact-Checkers for European Resilience Against Disinformation*, que l’on peut traduire par « fact-checkers pour la résilience européenne face à la désinformation ». Le programme reçoit cinq millions d’euros et est coordonné par l’EFCSN. Il doit notamment soutenir des organisations du secteur et développer une base commune appelée *Integrity Base*, destinée à structurer et mutualiser des vérifications.[^50][^51]
+
+La trajectoire devient lisible :
+
+```text
+2018  réseau + autorégulation
+  ↓
+2021  coopération + visibilité + rémunération + répertoire commun
+  ↓
+2022  Code renforcé co-rédigé par les signataires
+  ↓
+2025  articulation avec le cadre du DSA
+  ↓
+2026  FACTEUR + Integrity Base + financements + licences + IA
+```
+
+Cette chronologie **ne prouve pas que chaque étape a causé la suivante**, encore moins qu’un acteur aurait secrètement piloté l’ensemble. Elle montre plus sobrement une continuité : des briques apparaissent, sont reprises, renforcées, normalisées puis raccordées à d’autres dispositifs.
+
+> **continuité n’est pas commandement ; co-construction n’est pas collusion ; institutionnalisation n’est pas preuve de capture.**
+
+## Quand une vérification devient un signal de plateforme
+
+Le mécanisme est aujourd’hui décrit publiquement par *Meta*.
+
+Lorsqu’un partenaire évalue un contenu comme « faux », « altéré » ou « partiellement faux », la plateforme peut lui ajouter une notice, réduire sa distribution et appliquer automatiquement le même traitement à des contenus identiques ou presque identiques repérés par ses systèmes.[^1]
+
+```text
+article de vérification
+→ évaluation
+→ détection de contenus similaires
+→ étiquette ou friction
+→ réduction possible de distribution
+→ restrictions supplémentaires pour certains récidivistes
+```
+
+Le journaliste ne décide pas nécessairement de la sanction. La plateforme ne rédige pas nécessairement le fact-check. **Mais les deux fonctions sont reliées.**
+
+Un ancien rapport de *Full Fact*, organisation britannique spécialisée dans la vérification des faits, permet de voir concrètement ce changement d’échelle. Pendant la campagne britannique de 2019, *Full Fact* rattache un article à **71 contenus** présents dans la file de *Facebook*. Deux jours plus tard, *Facebook* lui indique que l’évaluation a été appliquée à **971 occurrences** de la même affirmation.[^6]
+
+Ce cas ne permet pas de calculer un multiplicateur général de 13,7. Il démontre simplement la propagation : **une évaluation éditoriale peut devenir l’entrée d’une règle technique appliquée à des contenus que le journaliste n’a pas examinés un par un.**
+
+Le même rapport met en lumière une autre tension. À l’époque, le programme de vérification par des tiers de *Facebook* exemptait certaines publications de responsables politiques de la notation technique. *Full Fact* décrit ainsi des situations où le statut politique de l’auteur modifiait l’éligibilité d’un contenu ou entraînait le retrait d’une évaluation déjà appliquée.[^6]
+
+La défense de cette exception mérite d’être prise au sérieux. En 2019, *Facebook* expliquait qu’une entreprise privée ne devait pas devenir l’arbitre général de la parole politique, que celle-ci est déjà fortement scrutée dans une démocratie dotée d’une presse libre et que les électeurs doivent pouvoir juger eux-mêmes les déclarations des candidats.[^7] C’est un argument démocratique réel. Mais il produit aussi un arbitrage : selon le statut de l’auteur, des contenus comparables peuvent ne pas subir la même couche de traitement technique.
+
+Des travaux publiés en juillet 2026 dans la *HKS Misinformation Review*, revue académique de la Harvard Kennedy School consacrée à la désinformation, montrent que cette tension ne relève pas seulement de l’histoire. À partir de vingt entretiens et d’une enquête auprès de vingt-trois fact-checkers de l’Union européenne, les auteurs décrivent le conflit entre la mission journalistique de contrôle des responsables politiques et les règles du programme *Third-Party Fact-Checking* (3PFC), c’est-à-dire la vérification par des tiers de *Meta*, qui excluait les propres affirmations et publications des responsables politiques de cette notation technique.[^8]
+
+Les mêmes répondants expliquent continuer à vérifier les responsables politiques hors partenariat et chercher à négocier ou clarifier les règles avec la plateforme. Nous ne sommes donc pas face à une tutelle simple, mais à **une gouvernance négociée**.
+
+Une seconde étude de 2026, publiée dans la même revue, analyse les rapports de transparence des grandes plateformes et interroge des fact-checkers européens. Les répondants décrivent un accès insuffisant aux données leur permettant de savoir si une vérification a effectivement conduit à une étiquette, un déclassement, une modification de recommandation ou un autre effet de visibilité. Les auteurs concluent que les fact-checkers restent souvent périphériques dans la gouvernance des plateformes et voient imparfaitement l’usage fait de leurs propres productions.[^9]
+
+L’étude n’ouvre pas les journaux internes des plateformes. Elle confirme néanmoins une dissymétrie importante : **le fact-checker peut fournir le signal sans contrôler, ni même observer complètement, ce que le système en fait ensuite**.
+
+Cette distinction rejoint celle étudiée dans **[Du « narratif » à l’ingérence : le seuil Fedorova](https://giak.substack.com/p/du-narratif-a-lingerence-le-seuil)** : une qualification et la conséquence qu’on lui attache sont deux objets différents.
+
+Le pouvoir n’est donc pas seulement de dire « faux ». Il est aussi de déterminer **ce que ce mot déclenche ensuite**.
+
+Ce mécanisme existe dans l’espace informationnel français. En février 2026, à l’approche des élections municipales, *Meta* indiquait travailler en France avec l’*Agence France-Presse* (AFP), *20 Minutes*, *Les Surligneurs* et *France 24*. La plateforme expliquait également regrouper les contenus électoraux à l’aide de mots-clés et avoir formé ses partenaires à *Meta Content Library*, sa bibliothèque permettant de rechercher des contenus publics.[^10]
+
+Les exemples britanniques éclairent donc certains mécanismes historiques, mais l’architecture qu’ils révèlent n’est pas étrangère à la France.
+
+---
+
+## Avant le verdict, un pouvoir plus discret : choisir
+
+Pour vérifier une affirmation, il faut d’abord décider qu’elle mérite de l’être. Ce pouvoir de sélection est moins visible que le verdict, mais il est décisif.
+
+Aucune rédaction ne peut tout examiner. Elle choisit en fonction de la viralité, de l’importance publique, des preuves disponibles, de son identité éditoriale, de ses ressources, de l’actualité et des outils dont elle dispose. Deux équipes peuvent donc appliquer une méthode rigoureuse aux affirmations qu’elles retiennent et produire malgré tout deux représentations très différentes du débat public.
+
+Une étude comparative publiée dans la revue *Journalism*, fondée sur **40 entretiens** et l’analyse de **3 154 articles de vérification** produits dans huit pays par plus de vingt organisations, permet de préciser ce mécanisme. Elle identifie trois conditions centrales de sélection : la possibilité de vérifier effectivement l’affirmation, la disponibilité des données nécessaires et sa viralité. Viennent ensuite sa portée, la notoriété de l’auteur, l’actualité, la pertinence et, selon les organisations, les demandes des utilisateurs.[^11]
+
+Ce résultat fournit un contrepoids important aux explications uniquement partisanes : **une asymétrie de sélection peut naître de contraintes professionnelles, de ressources ou de visibilité sans qu’une intention politique soit nécessaire**.
+
+La présidentielle française de 2017 offre un exemple concret de la manière dont les outils eux-mêmes orientent l’attention. « CrossCheck » réunit alors **118 journalistes de 33 rédactions**. Une information devient réutilisable par les partenaires lorsque deux journalistes au moins arrivent à la même conclusion. Le dispositif traite 67 informations douteuses et donne lieu à 276 publications.[^12]
+
+Les chercheurs Jérémie Nicey et Laurent Bigot, qui ont observé le projet, décrivent l’usage de *NewsWhip*, *BuzzSumo* et surtout *CrowdTangle*, des outils servant à repérer et mesurer la viralité des contenus. Ils pouvaient attirer l’attention des journalistes sur une rumeur et les inciter à la vérifier. Les chercheurs rapportent aussi un soutien de *Google* à l’achat de visibilité pour les fact-checks sur *Facebook* et des réunions dans les locaux de *Google France*.[^12]
+
+La même source fournit cependant son propre contre-argument : les participants estimaient que « CrossCheck » n’aurait pas pu exister sans l’apport des plateformes, **tout en affirmant avoir travaillé sans ingérence éditoriale extérieure**.[^12]
+
+C’est exactement la distinction qui importe ici : dépendre d’une infrastructure ou d’un financement n’est pas recevoir un ordre éditorial. Mais un outil qui rend certaines rumeurs visibles, mesurables et urgentes participe déjà au choix de ce qui mérite l’attention.
+
+Une étude de l’économiste Charles Louis-Sidois, publiée en 2025 dans le *Journal of the European Economic Association*, permet d’aller plus loin.[^13] Le chercheur a d’abord collecté **10 628 articles** publiés par les six principaux fact-checkers français généralistes jusqu’en juillet 2021. Après les exclusions nécessaires à son protocole et l’identification des affiliations politiques, **2 405 articles** composent l’échantillon final analysé.
+
+L’étude observe des différences politiques entre les productions des fact-checkers, qui reflètent en partie l’orientation de leur média d’appartenance. Les personnalités ou entités idéologiquement plus proches du média sont relativement moins vérifiées et, lorsqu’elles le sont, les affirmations sélectionnées sont plus souvent jugées correctes. Ces écarts augmentent aussi avant certaines élections.[^13]
+
+L’auteur conclut que les fact-checkers ne sont pas politiquement neutres au sens de son modèle comparatif. Mais un résultat mérite une attention particulière. Sur les **2 082 affirmations distinctes** de l’échantillon final, 232 ont été vérifiées plus d’une fois. Louis-Sidois ne trouve que **deux cas de désaccord** entre fact-checkers sur ces affirmations partagées, dont un qu’il attribue au moment différent de la vérification.[^13]
+
+Dans ce corpus historique, l’essentiel des différences apparaît donc **avant le verdict**, dans le choix des affirmations examinées, beaucoup plus que dans une tendance générale à rendre des verdicts opposés sur un même objet.
+
+Deux réserves doivent toutefois rester visibles. Les affirmations vérifiées plusieurs fois peuvent être particulièrement manifestement fausses, ce qui facilite l’accord. Et des vérifications successives ne sont pas nécessairement indépendantes.[^13] L’étude ne dispose pas non plus d’un fact-checker parfaitement neutre qui servirait de référence absolue ; les différences observées ne démontrent donc pas, à elles seules, une violation délibérée des règles d’impartialité.[^13]
+
+Le signal historique est sérieux. Sa portée doit rester précise.
+
+Un autre travail empêche justement de transformer toute asymétrie de sélection en causalité partisane. Une étude publiée dans *PNAS Nexus* en 2025 examine les fact-checks de *PolitiFact* visant les membres du Congrès américain entre 2018 et 2021. Après prise en compte de la couverture médiatique, du statut de dirigeant, de l’activité sur les réseaux sociaux et de plusieurs caractéristiques du contenu, les auteurs ne trouvent pas que l’appartenance républicaine prédise davantage de fact-checks. **La visibilité et la centralité politique des élus, ce que l’étude appelle leur *prominence*, expliquent beaucoup mieux la concentration des vérifications.** Vingt pour cent des élus étudiés reçoivent ainsi 90 % des fact-checks.[^14]
+
+Ce résultat ne réfute pas Louis-Sidois : les deux études ne posent pas la même question et n’utilisent ni la même population ni le même modèle. Leur différence rappelle surtout une règle élémentaire : **avant de parler de biais, il faut savoir quel est le dénominateur, quelle est l’unité d’analyse et quelles variables ont été contrôlées.**
+
+Un événement français fermé permet de tester la question plus directement : **le débat Macron-Le Pen du 20 avril 2022**. Une étude portant sur six rédactions recense **51 propos de Marine Le Pen vérifiés contre 24 d’Emmanuel Macron**, plus huit vérifications comparant leurs positions. Les auteurs décrivent, dans leur corpus, une attitude plus critique envers Marine Le Pen et montrent que certaines rédactions peuvent qualifier différemment une même affirmation selon le contexte retenu.[^15]
+
+Le résultat est réel. Il ne fournit toujours pas le dénominateur nécessaire pour conclure à un parti pris : on ignore combien d’affirmations comparables, vérifiables et effectivement erronées chaque candidat a produites pendant le débat. **51 contre 24 établit une asymétrie de sélection dans cet événement ; cela ne suffit pas à en attribuer la cause.**
+
+Le fact-check de l’AFP publié le lendemain constitue d’ailleurs un contre-exemple utile aux récits trop simples. Sur la dette, il contredit le « complètement faux » d’Emmanuel Macron et juge plutôt juste l’ordre de grandeur avancé par Marine Le Pen. Plus loin, il corrige Marine Le Pen sur la taxe carbone, puis Macron sur les travailleurs détachés.[^16]
+
+La bonne conclusion n’est donc ni « les fact-checkers visent toujours le même camp », ni « puisqu’ils corrigent tout le monde, leur sélection est neutre ». **Un verdict individuel et la distribution globale des sujets choisis sont deux objets différents.**
+
+La présidentielle de 2022 montre aussi comment ces choix peuvent être mutualisés. La coalition « Objectif Désinfox », lancée par l’AFP avec le soutien de *Google*, réunit **23 médias et 180 journalistes** pendant plus de vingt semaines. L’AFP annonce 202 fact-checks et 23 vidéos, une page commune, des outils partagés et un dispositif de signalement citoyen dont plusieurs dizaines de remontées ont débouché sur des contenus. L’agence précise que le projet était coordonné en totale indépendance éditoriale.[^17]
+
+Là encore, le soutien d’une plateforme n’est pas une preuve de contrôle éditorial. Mais l’histoire ne s’arrête pas à la coalition.
+
+Une étude de cas publiée par l’université de Princeton, fondée notamment sur des entretiens avec les responsables de VIGINUM, le service français chargé de détecter et caractériser les ingérences numériques étrangères, rapporte que ses agents se sont aussi appuyés sur les informations d’« Objectif Désinfox » pour analyser certaines campagnes, notamment en regardant si des contenus avaient été signalés comme faux ou trompeurs.[^18]
+
+Ce document n’est pas un rapport officiel de VIGINUM et ne permet pas d’affirmer que le service adoptait automatiquement les verdicts des rédactions. Il établit néanmoins une **interface réelle** : une qualification produite dans l’écosystème journalistique pouvait devenir une information utilisée dans une analyse étatique. La même étude indique que VIGINUM a détecté 60 campagnes suspectes pendant les scrutins de 2022, n’en a étudié que 12 plus en détail et n’en a finalement caractérisé que cinq comme ingérences numériques étrangères.[^18] Ce filtrage constitue précisément une contre-preuve contre l’idée d’une conversion automatique de tout signal en accusation d’ingérence.
+
+Pris ensemble, le signal historique de Louis-Sidois et l’asymétrie observée lors du débat de 2022 n’autorisent donc pas à extrapoler un taux de biais à la France de 2026.
+
+Notre propre travail sur les corpus plus récents a rencontré le même mur. Pour démontrer un double standard actuel, il faudrait connaître non seulement ce qui a été vérifié, mais aussi toutes les affirmations comparables qui auraient pu l’être, puis contrôler leur importance, leur vérifiabilité, leur viralité, leur thème, leur date et la disponibilité des preuves.
+
+Sans ce dénominateur, le comptage impressionne davantage qu’il ne démontre.
+
+**La sélection peut avoir des effets politiques sans que l’intention partisane soit démontrée.**
+
+Le cadrage fonctionne de la même manière : des faits localement exacts peuvent produire des représentations très différentes selon leur sélection et leur ordre. C’était précisément l’objet de **[La fabrique de la menace](https://giak.substack.com/p/la-fabrique-de-la-menace-comment)**. Le fact-checking n’échappe pas à cette difficulté simplement parce qu’il travaille sur des faits.
+
+### Nous avons essayé de mesurer le biais actuel, puis rejeté notre propre test
+
+Il est facile d’écrire qu’un biais contemporain « reste à mesurer ». Nous avons essayé de le faire. Pour la présidentielle de 2022, le jeu de données universitaire « STVD-FC » rassemble environ **1 330 affirmations issues de Factoscope**, dispositif de fact-checking politique, près de **6 730 programmes télévisés** et plusieurs milliers d’heures de télévision.[^19] À première vue, le protocole semblait simple : comparer ce que Factoscope avait vérifié à l’ensemble des affirmations disponibles, puis calculer des taux de sélection.
+
+Le problème est apparu avant même le calcul. Factoscope ne choisissait pas ses objets uniquement à la télévision : presse, radio, documents de campagne, réseaux sociaux et autres interventions entraient aussi dans son univers. Diviser tous ses fact-checks par un dénominateur exclusivement télévisuel aurait mélangé deux populations différentes et produit un faux « taux de biais global ».
+
+Nous avons donc rejeté ce test. Le seul protocole défendable aurait été plus modeste : comparer, à l’intérieur de la télévision, les fact-checks Factoscope retrouvables dans le corpus aux affirmations télévisées comparables et vérifiables.
+
+> **Nous avons préféré perdre un résultat spectaculaire plutôt que fabriquer un dénominateur.**
+
+Même avec l’accès complet au corpus, un éventuel signal n’aurait pas permis d’extrapoler un biais global de Factoscope, encore moins celui de l’ensemble du fact-checking français en 2026. Le statut honnête reste : **signal historique sérieux, biais politique uniforme actuel non démontré**.
+
+### Quand les vérifications passées orientent l’attention future
+
+La sélection ne se joue plus seulement dans la tête d’un journaliste. Certains outils utilisent aussi les vérifications passées pour orienter la recherche présente.
+
+*Full Fact* décrit des systèmes qui surveillent presse, télévision, radio, vidéos, réseaux sociaux et débats parlementaires, extraient des affirmations, leur attribuent un score de priorité, puis rapprochent les nouveaux contenus de faits récemment vérifiés.[^20]
+
+*Les Surligneurs* documentent un mécanisme particulièrement lisible avec « FRAME », leur outil de veille : les discours de plus de 1 600 personnalités politiques sont transcrits puis comparés à une base de fact-checks existante ; lorsqu’une déclaration déjà réfutée réapparaît, une alerte est envoyée aux journalistes.[^21]
+
+```text
+sélection initiale
+→ fact-check publié
+→ entrée dans le corpus
+→ comparaison avec les nouveaux discours
+→ alerte
+→ attention humaine accrue
+→ nouvelle vérification ou republication
+→ corpus renforcé
+```
+
+Cette boucle a une utilité évidente : elle permet de reconnaître plus vite une fausse information répétitive et augmente la capacité d’une rédaction. Mais elle crée aussi un effet de mémoire : **ce qui a été choisi et documenté hier devient plus facile à repérer aujourd’hui ; ce qui ne l’a jamais été ne bénéficie pas forcément de la même visibilité technique.**
+
+Tous les dispositifs ne fonctionnent pas ainsi. « Climate Safeguards », par exemple, filtre d’abord des transcriptions liées au climat, les analyse à l’aide de modèles configurés à partir de connaissances scientifiques, puis soumet les cas potentiels à une vérification humaine.[^22]
+
+La conclusion doit donc rester bornée : **certains outils transforment le corpus historique en instrument de découverte et de priorisation ; l’ampleur d’un éventuel verrouillage thématique ou politique reste à mesurer.**
+
+---
+
+## « Qui paye commande » : oui, mais commande quoi ?
+
+L’intuition est ancienne : **on ne mord pas la main qui vous donne à manger**. Elle devient trompeuse dès qu’on transforme une relation économique en preuve automatique d’obéissance éditoriale.
+
+Un financeur peut définir un programme, un thème, une durée, des livrables ou des critères. Il peut payer des postes, augmenter une capacité de production, décider de renouveler ou non son soutien et créer un coût de sortie. Le bénéficiaire peut aussi anticiper ce que le financeur attend. Tout cela peut peser. Mais **influencer le cadre n’est pas encore dicter le verdict**.
+
+> **L’argent exerce au minimum un pouvoir de cadrage, de capacité et de sortie. Son influence sur le verdict lui-même doit être démontrée séparément.**
+
+L’analogie avec un sondage est utile. Le commanditaire ne choisit pas nécessairement le pourcentage final, mais son identité, la question posée, la population étudiée, le calendrier et la méthode comptent suffisamment pour devoir être transparents. Dans le fact-checking, deux caricatures doivent donc être rejetées : « celui qui paie dicte nécessairement le verdict » n’est pas établi ; « puisqu’aucun ordre éditorial n’est prouvé, l’argent n’a aucune influence » est tout aussi insuffisant.
+
+**L’argent sélectionne au minimum des possibles.**
+
+### Commander un travail n’est pas commander sa conclusion
+
+Un financement peut définir le problème avant même qu’une conclusion existe. « Climate Safeguards », financé dans le cadre du *JournalismAI Innovation Challenge*, un concours d’innovation pour les rédactions utilisant l’intelligence artificielle et soutenu par *Google News Initiative*, fixe un thème, des médias observés, un type d’outil et des livrables autour de la désinformation climatique à la télévision et à la radio.[^23]
+
+De son côté, un appel de l’EFCSN attribue **9 999,94 euros** à *Maldita.es*, organisation espagnole de fact-checking, et à *Science Feedback*, organisation spécialisée notamment dans la vérification scientifique, pour examiner l’application des politiques de désinformation climatique de *YouTube* et *TikTok* en France et en Espagne.[^24]
+
+Le thème, les plateformes, la géographie et la question d’audit sont donc fixés. Dans les pièces récupérées, le résultat ne l’est pas. **Le financeur commande une catégorie de travail, pas nécessairement sa conclusion.**
+
+Les données publiques ne permettent pas davantage d’isoler proprement l’effet causal de la subvention sur la part globale de production consacrée au thème financé. Ces sujets pouvaient déjà faire partie de la mission du bénéficiaire, et l’actualité elle-même influence fortement ce qu’une rédaction traite.
+
+### L’activité est économiquement mesurée
+
+Plusieurs dispositifs convergent sur ce point, sans fonctionner de manière identique.
+
+En 2018, *CheckNews*, service de vérification du quotidien *Libération*, déclarait une rémunération de *Facebook* dépendant du **nombre d’articles entrés dans la base**, avec un objectif d’environ vingt par mois afin de financer deux postes. La rédaction déclarait 245 000 dollars pour 249 articles, tout en affirmant refuser de produire des sujets sans intérêt uniquement pour atteindre ce volume.[^12] Ce total annuel ne permet pas de reconstruire un tarif unitaire.
+
+Dans son rapport de mars 2026, *Meta* indique que les contributions financières de ses accords européens reposent sur des **résultats mesurables**, sans publier de barème actuel par partenaire.[^1] *Full Fact* déclare avoir reçu **342 712 livres sterling** de *Meta* en 2025 et indiquait historiquement que la quantité de fact-checking entrait dans le montant auquel l’organisation pouvait prétendre.[^25][^6] *TikTok*, de son côté, décrit des contrats-cadres standardisés, une rémunération calculée selon le **travail réalisé à partir de tarifs standardisés** et une facturation mensuelle.[^26]
+
+La conclusion robuste est donc simple : **dans plusieurs dispositifs, l’activité et la production sont mesurées et rémunérées ; aucune pièce publique récupérée n’établit qu’une orientation idéologique ou qu’un type de verdict particulier serait mieux payé.**
+
+### La production est mesurée plus clairement que le coût d’une erreur
+
+La question suivante concerne les incitations. Nous savons, dans plusieurs dispositifs, que le volume de travail, l’activité, le nombre de vérifications ou le nombre de contenus intégrés dans une base peuvent avoir une traduction économique. Les « Database Grants », c’est-à-dire les subventions destinées à alimenter la base européenne commune, relient même une partie du paiement au volume effectivement intégré.[^27]
+
+Nous avons cherché le mécanisme symétrique : que coûte économiquement au producteur une évaluation erronée, un faux positif ou une révision après contestation ? Les règles de certification prévoient des corrections, des plaintes et des sanctions qui peuvent aller jusqu’à la suspension ou au retrait.[^28][^29] Mais, dans les contrats contemporains que nous avons pu examiner publiquement, aucune formule ne permet d’établir qu’une erreur reconnue entraîne automatiquement une pénalité financière chiffrée.
+
+Cela ne prouve pas qu’aucune clause privée de qualité n’existe. Cela révèle une différence de transparence : **la rémunération d’une production supplémentaire est partiellement observable ; le coût économique d’une erreur ou d’une révision l’est beaucoup moins.**
+
+La question n’est donc pas de prétendre que « le système récompense l’erreur », mais de demander : **quels comportements sont mesurés, rémunérés, pénalisés ou simplement corrigés ?**
+
+### Le pouvoir de sortie
+
+Un financement n’a pas besoin de dicter un article pour peser sur ce qui peut être produit. Il peut financer les personnes qui sont capables de le produire.
+
+L’AFP rapporte **7 536 fact-checks et 150 journalistes en 2024**, contre **6 855 fact-checks et 126 journalistes** fin 2025. L’agence relie la baisse de production à plusieurs facteurs, dont une diminution d’effectifs liée à l’incertitude sur les contrats avec les plateformes et une réallocation de ressources.[^30] Il serait faux d’attribuer les 24 postes ou la baisse de 9,3 % à *Meta* seul. Il serait tout aussi faux de prétendre que le financement n’a aucun effet matériel.
+
+*Les Surligneurs* décrivent eux aussi l’incertitude sur les programmes de plateformes comme une urgence ayant accéléré leur diversification vers les dons, les abonnements et une offre professionnelle.[^31]
+
+La conclusion raisonnable est donc que **l’incertitude contractuelle peut affecter les capacités, puis la production, dans un environnement où plusieurs causes se combinent.**
+
+### « On ne mord pas la main qui nourrit » : le slogan ne suffit pas
+
+Une enquête honnête doit chercher les cas qui contredisent son intuition.
+
+Le 27 février 2024, *Les Surligneurs* annoncent un **accord commercial avec Meta**. Quelques jours plus tard, ils publient une analyse explicitement critique de la politique d’abonnement de *Facebook* et *Instagram* au regard du Règlement général sur la protection des données (RGPD).[^32][^33]
+
+*Science Feedback* fournit un second contre-exemple en critiquant l’insuffisance de l’action de plusieurs plateformes, dont *Meta*, alors que celle-ci figure parmi ses catégories significatives déclarées de financement ou de partenariat.[^34]
+
+Ces cas réfutent la formule absolue selon laquelle « un organisme financé ne critique jamais son financeur ». Ils ne répondent pas à une question plus difficile : une organisation financée traite-t-elle **aussi souvent, aussi vite, aussi sévèrement et avec la même visibilité** les controverses qui touchent son financeur que des controverses comparables ?
+
+Pour le savoir, il faudrait disposer d’une cohorte, d’un dénominateur et de mesures avant, pendant et après financement. Ces données ne sont pas publiquement disponibles dans le corpus récupéré.
+
+### Ce que la recherche permet d’ajouter, sans inventer la commande
+
+La littérature extérieure au fact-checking sert surtout à tester les mécanismes plausibles.
+
+Sur **270 organisations** ayant demandé des subventions européennes, Crepaz et Hanegraaff constatent qu’une part importante craint qu’une attitude critique nuise au financement. Ils ne mesurent toutefois pas une probabilité de subvention significativement plus faible pour les organisations les plus confrontatrices.[^35]
+
+Dans le journalisme financé par des donateurs, Scott, Bunce et Wright trouvent peu de commande directe du contenu, mais décrivent des influences indirectes sur les ressources, les formats, les publics visés, les objectifs d’impact et l’anticipation de futurs financeurs. Une seconde étude de la même équipe, fondée sur **74 entretiens**, retrouve des mécanismes comparables.[^36][^37]
+
+Plus près de notre sujet, **54 entretiens** avec plateformes, médias et fact-checkers montrent que les ressources disponibles et les valeurs journalistiques participent à définir quelles désinformations sont jugées importantes et quelles réponses paraissent légitimes.[^38]
+
+Ces travaux imposent deux précautions. D’abord, le financement public n’est pas une cause homogène : une étude d’ONG européennes observe des effets différents selon son origine.[^39] Ensuite, des travaux internationaux décrivent des décalages possibles entre priorités des bailleurs et stratégies locales, sans permettre de transférer automatiquement ces conclusions à la France.[^40]
+
+La concentration financière doit elle aussi être mesurée organisation par organisation. *Science Feedback/SciVerify* publie pour 2024 un revenu consolidé de **1 466 266 euros** et huit catégories représentant chacune plus de 5 % de ses revenus. Cela établit une diversification réelle des sources, mais ne permet pas de calculer la part exacte du premier financeur ni un indice complet de concentration.[^41] Les données publiques ne fournissent pas davantage une série homogène 2024-2026 pour *Les Surligneurs*, l’AFP ou *Conspiracy Watch*.
+
+Enfin, l’influence inconsciente reste plausible sans être démontrée chez les fact-checkers français. Des expériences de Moore, Tanlu et Bazerman sur **139 auditeurs professionnels** montrent que le rôle assigné peut modifier certains jugements comptables, même sans ordre explicite.[^42] Une revue de la *Cochrane Collaboration*, réseau international de référence pour les synthèses de recherche en santé, portant sur **75 études méthodologiques**, observe de son côté une association entre financement industriel et conclusions plus favorables au sponsor.[^43]
+
+Ces résultats montrent qu’un rôle ou une relation d’intérêt **peut** infléchir un jugement professionnel. Ils ne permettent pas d’attribuer ce mécanisme aux fact-checkers français sans étude spécifique.
+
+Le bilan tient en quatre points. **Nous n’avons pas établi qu’un financeur impose le verdict. L’idée qu’un organisme financé ne critique jamais son financeur est réfutée. En revanche, le pouvoir du financement sur le cadre, la capacité et la possibilité de se retirer est fortement documenté. Restent ouvertes la mesure d’un éventuel effet sur la critique du financeur, celle d’un biais inconscient propre aux fact-checkers français et la concentration financière exacte de plusieurs organisations.**
+
+L’argent n’a pas besoin de dicter le verdict pour structurer une partie du terrain sur lequel il sera produit.
+
+---
+
+## Certification : une clé d’accès
+
+Deux réseaux reviennent dans toute cette enquête. L’*International Fact-Checking Network* (IFCN) est le réseau international de référence créé autour d’un code de principes pour les organisations de fact-checking. L’EFCSN en constitue l’équivalent européen autour de son propre code de standards.
+
+Ils ne délivrent aucun permis légal pour vérifier les faits. N’importe quel journaliste peut enquêter sans leur autorisation.
+
+Leur pouvoir est plus concret : **leur certification peut ouvrir des portes.**
+
+*Meta* exige de ses partenaires européens une accréditation active IFCN ou EFCSN.[^1] *TikTok* indique travailler avec des partenaires certifiés IFCN.[^26] Certains appels européens réservés aux fact-checkers exigent une certification EFCSN.[^27]
+
+Le statut possède donc une valeur opérationnelle et économique.
+
+L’EFCSN le dit lui-même sur sa page de candidature : devenir membre vérifié peut ouvrir l’accès à des partenariats et à des financements, notamment par des projets, des appels ouverts et des subventions. Le réseau indique également qu’**environ 80 % de son budget est reversé aux organisations membres**.[^44]
+
+Ce chiffre ne signifie évidemment pas que 80 % du budget de chaque fact-checker provient de l’EFCSN. Il montre que **le réseau de certification est aussi un canal de redistribution financière et d’accès à des opportunités.**
+
+Cette certification peut-elle être perdue ? Oui, mais pas à la première erreur venue.
+
+La politique actuelle de l’IFCN prévoit une gradation : discussion pour un problème mineur, action corrective publique pour un problème sérieux, suspension temporaire dans certains cas, puis retrait du statut pour les violations les plus graves.[^28]
+
+L’EFCSN dispose lui aussi d’une procédure formelle. Une plainte substantielle peut conduire à l’intervention d’un examinateur, puis à une décision de son organe de gouvernance, le *Governance Body*, à la majorité qualifiée des deux tiers, après droit de réponse et avis obligatoire d’un évaluateur externe. Les membres doivent se récuser lorsqu’une affaire concerne leur propre organisation. Les sanctions vont de la réprimande au retrait de l’adhésion.[^29]
+
+Le système est donc gradué. Une erreur ordinaire appelle d’abord une correction ; un manquement grave ou répété peut déclencher une procédure, puis une suspension ou un retrait, avec une éventuelle perte d’accès à certains programmes.
+
+Un cas historique illustre cet effet de seuil. En 2018, *Check Your Fact*, organisation liée au *Daily Caller*, perd temporairement son statut IFCN avant d’être réadmise. Les discussions sur son intégration au programme de *Facebook* sont interrompues pendant cette période ; après sa réaccréditation, l’organisation devient partenaire de la plateforme.[^45]
+
+La conséquence sur l’éligibilité est visible. La perte monétaire exacte ne l’est pas.
+
+Un second cas, plus récent, empêche de réduire la question à un épisode ancien. En 2025, *The Times*, citant le directeur de l’IFCN, rapporte que *Logically Facts*, entreprise britannique de fact-checking et de services technologiques, a perdu sa certification IFCN, en partie à cause de son travail pour le gouvernement de l’État indien du Karnataka et de questions de transparence sur la séparation entre activités journalistiques et prestations privées ou gouvernementales. À la même période, l’entreprise perd également des contrats avec *Meta* et *TikTok* représentant plusieurs millions de livres de revenus.[^46]
+
+La chronologie pourrait inciter à conclure : `perte de certification → perte des contrats`. Ce serait trop fort. Le même article rapporte que des sources proches de *Logically* attribuaient ces pertes à des raisons commerciales plutôt qu’à la certification.
+
+Le cas établit donc la coexistence d’un statut professionnel, de gros contrats de plateformes et d’un choc économique. Il ne permet pas d’attribuer ce choc à une cause unique.
+
+Deux affirmations opposées peuvent ainsi être rejetées : **« la certification ne sert à rien » est faux ; « chaque erreur fait perdre de l’argent au fact-checker » n’est pas démontré.**
+
+Ce que le public voit beaucoup moins bien, c’est la fréquence réelle des sanctions, leurs conséquences contractuelles précises et le coût économique effectivement subi.
+
+### Nous avons regardé ce que les évaluateurs font réellement
+
+Les textes de procédure ne suffisent pas à savoir si une certification produit autre chose qu’un badge. Nous avons donc examiné vingt dossiers publics d’admission ou de renouvellement retrouvés sur la plateforme de l’EFCSN et codé les échanges visibles entre candidats et évaluateurs.[^47]
+
+Dans ce sous-corpus, **15 séquences datées de correction ou de mise en conformité** apparaissent dans **9 organisations**. Le délai médian entre une demande codée et sa résolution visible est de **34 jours**, avec des cas beaucoup plus rapides et d’autres dépassant quatre mois.[^47]
+
+Les demandes sont concrètes : expliciter une méthodologie, compléter une politique de correction, ajouter une procédure de plainte, préciser des biographies, rendre une relation financière plus visible, documenter un conflit potentiel ou corriger un registre de corrections.
+
+Cela réfute une caricature : **la certification n’est pas seulement un tampon automatique posé sur des déclarations inchangées.** Des évaluateurs demandent des modifications et des candidats les effectuent.
+
+Mais le même recensement montre aussi pourquoi il serait abusif de présenter le badge comme une preuve scientifique de neutralité.
+
+Première limite : les critères obligatoires et les *best practices*, c’est-à-dire les bonnes pratiques recommandées mais facultatives, ne doivent pas être confondus. Dans plusieurs dossiers, une mention comme `Non Compliant` (« non conforme ») ou `Requires Action` (« action requise ») ne correspond pas nécessairement à un défaut bloquant.
+
+Deuxième limite : l’interprétation varie. Nous avons retrouvé des évaluateurs qui reconsidèrent leur propre demande, des critères requalifiés après clarification du standard et des cas où le formulaire exprime mal la notion de « non applicable ». Compter mécaniquement les mentions `Non Compliant` produirait donc une fausse mesure de la sévérité du système.
+
+Troisième limite : **le corpus public souffre d’un biais de survivance**. Les pages les plus faciles à retrouver concernent surtout des organisations finalement devenues membres vérifiés. Elles montrent comment des candidats admis ont été corrigés, mais elles ne constituent pas la population complète de tous les refus, retraits ou dossiers abandonnés.
+
+Enfin, le contrôle après certification reste le maillon le moins bien quantifié. Le Code prévoit plaintes, avis externe, décision et sanctions, mais nous n’avons pas pu reconstruire une série publique exhaustive permettant de suivre, sur plusieurs années :
+
+```text
+plainte
+→ recevabilité
+→ instruction
+→ décision
+→ sanction éventuelle
+→ récusation
+→ recours
+→ conséquence économique
+```
+
+La formulation la plus exacte est donc :
+
+> **l’EFCSN exerce un contrôle procédural réel et observable sur des dossiers qui aboutissent à la certification. Cela ne permet de déduire ni un taux global d’exactitude, ni une neutralité statistique de sélection, ni l’homogénéité parfaite des évaluateurs, ni l’effectivité complète des sanctions après certification.**
+
+En clair : **un contrôle limité n’est pas une absence de contrôle ; être certifié ne signifie pas être scientifiquement démontré neutre.**
+
+---
+
+## « RiPOST » et « Désinfox Coronavirus » : deux interfaces françaises
+
+*Conspiracy Watch*, service de presse en ligne édité par l’*Observatoire du conspirationnisme*, relève d’un autre type de dispositif. Devant la commission d’enquête du Sénat sur le Fonds Marianne, Rudy Reichstadt décrit « RiPOST », appelé « Riposte » pendant l’audition, comme un programme destiné à exposer des internautes à des contenus de contre-discours lorsqu’ils recherchent certains termes liés à la culture complotiste. Le mécanisme s’appuie notamment sur *Google Ad Grants*, un programme qui fournit des crédits publicitaires à des organisations éligibles.[^48]
+
+```text
+requête ciblée
+→ publicité
+→ contenu de contre-discours
+→ exposition recherchée / potentiellement accrue
+```
+
+Rien dans les pièces récupérées ne démontre une modification du classement naturel des résultats de *Google*, ni que l’État aurait dicté les conclusions éditoriales de *Conspiracy Watch*. Le Sénat documente en revanche des financements publics et l’intégration du projet au Fonds Marianne. Rudy Reichstadt explique avoir ajusté le projet au cahier des charges **afin de maximiser ses chances d’être retenu**.
+
+C’est un exemple très concret de ce que signifie « le financeur cadre ». Adapter un projet à un appel produit un effet sur sa forme. Cela ne prouve pas une instruction sur ses conclusions.
+
+La question de l’efficacité reste ouverte. Nous n’avons pas récupéré publiquement les impressions, clics, taux de clic, mots-clés, pages d’atterrissage, conversions ni la dépense réellement consommée. **Le mécanisme d’exposition et l’adaptation du projet sont documentés ; son effet réel ne l’est pas assez pour calculer une efficacité ou un retour sur investissement informationnel.**
+
+### 2020 : lorsque le gouvernement sélectionnait lui-même les « désinfox »
+
+Au printemps 2020, le site officiel du gouvernement français héberge une page « Désinfox Coronavirus » qui référence des articles de presse destinés à mettre en évidence la fausseté de certaines informations.[^49]
+
+Le Syndicat national des journalistes saisit le Conseil d’État le 4 mai. Le Premier ministre supprime la page le lendemain. Le 8 mai, le juge constate que la requête est devenue sans objet et prononce un non-lieu, avec 2 000 euros de frais à la charge de l’État.
+
+La précision juridique est essentielle : **le Conseil d’État n’a pas jugé le dispositif illégal.**
+
+Le fait matériel demeure néanmoins : l’exécutif avait sélectionné, sur son propre site, des productions journalistiques destinées à distinguer le vrai du faux ; la contestation est venue de journalistes eux-mêmes ; le dispositif a été retiré avant toute décision au fond.
+
+Ce cas ne prouve ni censure coercitive ni chaîne de commandement. Il montre pourquoi la sélection de sources jugées fiables devient politiquement sensible dès que l’État entre lui-même dans la boucle.
+
+---
+
+## FACTEUR : du financement à l’infrastructure
+
+Revenons au programme européen introduit au début de l’article. Le 31 mars 2026, la Commission européenne annonce une convention de **5 millions d’euros** pour FACTEUR, *Fact-Checkers for European Resilience Against Disinformation*.[^50]
+
+Le programme, coordonné par l’EFCSN, doit fonctionner pendant trente mois. Plus de 60 % de l’enveloppe doit être redistribuée à des organisations de fact-checking ; la page du projet affiche **3,16 millions d’euros de subventions**.[^51]
+
+Ces montants ne démontrent aucune orientation éditoriale. Ils établissent un choix de politique publique : **augmenter la capacité du secteur**.
+
+Et FACTEUR ne finance pas seulement des articles. Il soutient aussi l’innovation, l’expansion d’organisations, des dispositifs de protection, des infrastructures techniques et une base de données commune.
+
+C’est là que le changement d’échelle devient visible.
+
+La première vague annoncée par l’EFCSN comprend 23 projets pour environ 730 000 euros.[^52] Pour auditer sérieusement l’équité d’une telle sélection, la seule liste des gagnants ne suffit pas. Il faudrait connaître toutes les candidatures, leur éligibilité, leurs scores, l’affectation des évaluateurs, la composition du comité final et les récusations réellement appliquées.
+
+Les règles publiques prévoient des évaluations et des mécanismes de récusation.[^53] En revanche, les documents accessibles ne permettent pas de reconstruire chaque décision dans le détail.
+
+La conclusion doit rester précise :
+
+> **les garde-fous sont publics ; leur application décision par décision n’est pas reconstructible avec les données que nous avons pu récupérer.**
+
+Ce n’est pas une preuve de faute. C’est une différence entre **connaître les règles** et **pouvoir vérifier leur application**.
+
+Pourquoi cette différence compte-t-elle ? Parce que le rapprochement conservateur entre les 23 projets gagnants de la première vague et la gouvernance actuelle de l’EFCSN fait apparaître **6 projets sur 23** portés par des organisations ou des marques représentées au sein de son organe de gouvernance. Dans la catégorie « Innovation », le rapport est de **4 sur 8**.[^54]
+
+Ces chiffres sont descriptifs. **Ils ne sont pas des taux de succès.**
+
+Pour tester un favoritisme, il faudrait connaître le vrai dénominateur : toutes les candidatures, leur qualité, leurs scores, la composition du comité final, l’affectation des évaluateurs et les récusations appliquées. Ces variables ne sont pas publiquement reconstructibles dans le corpus récupéré.
+
+Il serait donc faux d’écrire :
+
+```text
+4 gagnants sur 8 liés à des organisations représentées dans la gouvernance
+→ 50 % de favoritisme
+```
+
+La question correcte est :
+
+```text
+chevauchement observé
+→ une règle de récusation existe ?       oui
+→ a-t-elle été appliquée dans chaque cas ?
+→ qui a participé à la décision ?
+→ avec quels scores ?
+→ quelle trace publique permet de le vérifier ?
+```
+
+C’est à cette dernière étape que l’audit extérieur bute.
+
+Le résultat intéressant n’est donc pas une accusation de favoritisme. C’est le cumul de plusieurs fonctions au sein d’un même réseau : **certification, représentation, allocation de ressources et infrastructure technique**, avec de vrais garde-fous formels mais sans toutes les traces publiques nécessaires pour en vérifier l’application décision par décision.
+
+> **chevauchement n’est pas favoritisme ; règle de récusation n’est pas preuve de récusation ; absence de trace publique n’est pas preuve d’absence de récusation.**
+
+---
+
+## Quand un article devient une donnée réutilisable
+
+La partie la moins spectaculaire de FACTEUR est peut-être la plus structurante.
+
+Les *Database Grants*, que l’on peut traduire par « subventions pour la base de données », sont dotées de **860 000 euros**. Elles financent la connexion des archives des fact-checkers à une base européenne commune.[^27]
+
+Les bénéficiaires doivent notamment :
+
+- fournir leurs fact-checks en texte intégral ;
+- mettre en place l’infrastructure technique nécessaire ;
+- examiner et corriger, si besoin, les métadonnées produites par intelligence artificielle ;
+- accorder à l’EFCSN des droits de licence permettant l’accès aux données par des tiers.[^27]
+
+Le montant de la subvention dépend notamment de la taille de l’organisation et du nombre prévu de fact-checks intégrés. Le paiement final tient compte du volume réellement versé dans la base.[^27]
+
+Jusqu’ici, un fact-check était d’abord une page destinée à être lue. Une fois structuré dans une base, il devient aussi **une fiche que des logiciels peuvent rechercher, comparer et réutiliser automatiquement**.
+
+```text
+article
+→ texte structuré
+→ métadonnées
+→ intégration dans une base commune
+→ recherche et analyse
+→ accès par des tiers / licence
+```
+
+La vérification devient ainsi aussi une **ressource informationnelle réutilisable**.
+
+Une distinction juridique est indispensable : **rester propriétaire d’un contenu n’empêche pas d’accorder à d’autres le droit de l’utiliser.**
+
+La documentation d’*Integrity Base*, la base commune développée dans cet écosystème, indique que les données restent la propriété des organisations qui les créent. Les règles des *Database Grants* exigent parallèlement que les bénéficiaires accordent à l’EFCSN des droits permettant de rendre ces données accessibles à des tiers, selon des conditions présentées comme équitables et raisonnables.[^27][^55]
+
+Il n’y a là aucune contradiction. Le producteur peut rester propriétaire tout en concédant des droits d’usage, de distribution ou de réutilisation. La bonne question n’est donc plus seulement « qui possède ? », mais **« qui peut utiliser quoi, et dans quelles conditions ? »**
+
+L’accord complet qui règle ces licences n’a pas été récupéré. Nous ne pouvons donc pas préciser les catégories de clients, les tarifs, la durée, le territoire, les possibilités de sous-licence, les usages commerciaux ni les obligations exactes en cas de correction ou de retrait.[^27][^56]
+
+Une telle base peut être très utile. Une vieille rumeur peut être reconnue plus vite. Plusieurs rédactions peuvent éviter de refaire le même travail. Les recherches transfrontalières deviennent plus faciles. Des outils automatiques peuvent rapprocher une nouvelle affirmation de dossiers déjà vérifiés.
+
+Mais ce gain de mémoire crée aussi un nouveau risque : **une erreur structurée peut voyager plus facilement qu’une simple page web.**
+
+Un article peut déjà être copié, cité, capturé ou devenir viral. Sa transformation en donnée ajoute d’autres canaux : indexation, agrégation, interfaces de programmation, bases partagées et licences. Une interface de programmation, ou API, permet simplement à des logiciels d’échanger automatiquement avec une base sans qu’un humain consulte chaque page.
+
+Une erreur peut donc circuler non seulement comme contenu, mais comme objet lisible et réutilisable par des machines.
+
+Les documents de l’EFCSN évoquent en outre des usages futurs liés à l’intelligence artificielle. Dans son livre blanc de mars 2026, le réseau présente sa base centrale comme une infrastructure pouvant servir à **entraîner des modèles d’intelligence artificielle** et à soutenir des audits indépendants.[^56] Lors de « GlobalFact 2026 », conférence internationale consacrée au fact-checking, l’EFCSN déclare également être déjà en discussion avec des clients potentiels intéressés par la licence de ces données.[^55]
+
+La borne est essentielle : **cela établit une intention d’usage et l’existence revendiquée de discussions, pas un contrat signé, un client identifié, un chiffre d’affaires ni un entraînement déjà réalisé.**
+
+Cette mise en données du fact-checking ne concerne d’ailleurs pas seulement l’EFCSN. Le jeu de données académique « FACTors », publié en 2025, rassemble **118 112 affirmations provenant de 117 993 rapports de fact-checking**, produits par 39 organisations signataires actives de l’IFCN et/ou de l’EFCSN, afin de permettre des analyses et des usages automatisés à l’échelle de l’écosystème.[^57]
+
+Un cas français montre enfin comment une certification peut devenir un filtre de sources pour une machine. L’assistant « Vera », opéré par l’association *LaReponse.tech*, explique sélectionner ses sources de fact-checking selon les standards de l’EFCSN ou de l’IFCN. Pour les médias, il s’appuie notamment sur la *Journalism Trust Initiative* (JTI), une initiative de normalisation de la transparence et des pratiques journalistiques, ou sur certains consortiums d’investigation.[^58]
+
+Dans ce système précis, la chaîne devient :
+
+```text
+certification / standard
+→ source jugée éligible
+→ recherche de documents
+→ citation par un assistant d’IA
+```
+
+C’est une évolution importante. Un standard professionnel peut devenir une règle de présélection des sources auxquelles un système automatisé accorde sa confiance.
+
+Mais il faut là encore conserver la limite. Ce cas ne démontre ni que « Vera » utilise *Integrity Base*, ni que tous les assistants d’intelligence artificielle filtrent leurs sources de cette manière, ni qu’une certification rend une source vraie sur chaque sujet.
+
+Dans le vocabulaire de l’IA, la recherche de documents pertinents avant de répondre est souvent appelée *retrieval*, c’est-à-dire « récupération de sources ». Lorsqu’un modèle génère ensuite sa réponse en s’appuyant sur ces documents, on parle de *Retrieval-Augmented Generation* (RAG), ou « génération augmentée par récupération ».
+
+Recherche simple, indexation, rapprochement automatique, RAG, entraînement d’un modèle, réglage fin et intégration dans un produit sont des opérations différentes. Les confondre empêcherait précisément l’audit que cette infrastructure appelle.
+
+La distinction reste capitale : **annoncer un usage possible de l’IA ne signifie pas qu’il ait déjà été réalisé.** Aucun modèle précis entraîné sur *Integrity Base*, aucun client signé, aucun tarif et aucune opération commerciale d’entraînement effectivement réalisée n’ont été établis dans les sources examinées.
+
+La vraie question est donc plus concrète : **quels droits sont accordés, pour quel usage, sur quelle version des données et avec quelles obligations lorsqu’un verdict est corrigé ?**
+
+---
+
+## Quand une erreur se propage, que devient sa correction ?
+
+Tout système de qualification produit des erreurs. La vraie question n’est donc pas de savoir s’il en existera, mais **comment elles sont détectées, corrigées, propagées et réparées**.
+
+En 2024, *Les Surligneurs* reconnaissent deux évaluations trop strictes appliquées à des vidéos de *Révolution Permanente* dans l’environnement *Meta*. Leurs articles visaient des affirmations précises, tandis que l’évaluation transmise à la plateforme qualifiait les publications dans leur ensemble. Les deux vidéos ont subi une baisse de visibilité avant modification.[^59]
+
+```text
+analyse détaillée
+→ affirmation visée
+→ catégorie technique
+→ publication à laquelle la catégorie est appliquée
+→ effet de plateforme
+```
+
+Le cas révèle deux problèmes. D’abord, une évaluation peut produire un effet de distribution. Ensuite, l’erreur peut apparaître au moment où une analyse nuancée est traduite dans une catégorie technique plus grossière et appliquée à un objet plus large.
+
+Il faut donc vérifier séparément la justesse de l’analyse, la catégorie choisie, le périmètre auquel elle est appliquée et la proportion de l’effet qui en découle. Ici, la correction est documentée ; les impressions perdues et la récupération exacte de la visibilité ne le sont pas.
+
+Une étude publiée en 2026 permet de sortir de l’anecdote. Elle porte sur **62 organisations signataires de l’EFCSN** et **1 555 corrections**. Plus de la moitié des organisations n’avaient publié aucune correction ou moins de dix sur la période étudiée. Parmi les corrections examinées en détail, beaucoup concernaient des fautes typographiques ou des mises à jour ; la responsabilité de l’erreur restait souvent floue et sa cause n’était pas toujours expliquée.[^60]
+
+Ces chiffres ne mesurent pas le taux d’erreur initial. Ils montrent l’hétérogénéité de la manière dont les corrections sont documentées.
+
+Un cas *Ouest-France* rappelle par ailleurs qu’une correction éditoriale ne fait pas disparaître les copies déjà parties. En mars 2022, une erreur de titre sur Jean-Luc Mélenchon est corrigée après circulation de captures d’écran ; les captures, elles, continuent d’exister.[^61] Les évaluations peuvent aussi être révisées : *Full Fact* a ainsi modifié en 2024 une appréciation « partiellement faux » en « contexte manquant ».[^62]
+
+L’erreur peut enfin apparaître après un fact-check parfaitement correct. En juillet 2024, *Meta* reconnaît qu’un système de rapprochement avait relié par erreur une vérification portant sur une photographie modifiée à la photographie authentique.[^63]
+
+Autrement dit, il faut mesurer non seulement les erreurs journalistiques, mais aussi celles des systèmes qui **propagent** les verdicts.
+
+### Corriger arrête l’erreur, mais ne répare pas forcément ses effets
+
+Une évaluation technique erronée n’est pas nécessairement irréversible. Dans une documentation publiée en 2023, *Meta* indiquait qu’après modification d’une évaluation, la baisse de distribution pouvait être levée, certains refus publicitaires associés retirés et l’avertissement technique contribuant au statut de récidiviste supprimé. La distribution globale d’une page ou d’un domaine pouvait toutefois prendre **quelques jours** à récupérer.[^64]
+
+Ce document prouve l’existence historique d’un mécanisme de réversibilité. Il ne garantit pas que toutes les modalités soient identiques en 2026.
+
+Surtout, lever une mesure aujourd’hui ne recrée pas hier. Une fenêtre d’actualité perdue, des clics non obtenus, une audience manquée ou une opportunité disparue ne sont pas automatiquement restitués. Et lorsqu’une qualification a déjà été copiée dans des bases ou transmise à des tiers, une autre question apparaît : **la correction suit-elle le même chemin que l’erreur ?**
+
+*Google* documente par exemple la mise à jour de *ClaimReview*, un format de données structurées utilisé pour décrire une vérification et son verdict, ainsi qu’un écosystème régulièrement rafraîchi.[^65] Cela ne prouve pas que toutes les copies, tous les index, toutes les bases ou tous les futurs licenciés reçoivent effectivement chaque nouvelle version.
+
+La conclusion est donc simple : **la propagation d’un verdict est aujourd’hui mieux documentée publiquement que la propagation complète de sa correction.**
+
+Une infrastructure qui sait faire voyager une qualification devrait pouvoir faire voyager son correctif au moins aussi loin.
+
+---
+
+## Les « Notes de la communauté » déplacent le pouvoir, elles ne l’abolissent pas
+
+Le débat est souvent présenté comme un choix binaire : vérification professionnelle ou chaos.
+
+Les « Community Notes », les « Notes de la communauté » de *X*, montrent qu’un autre modèle existe. Des utilisateurs proposent des notes ; d’autres les évaluent ; un mécanisme de consensus cherche à faire émerger celles qui sont soutenues par des contributeurs dont les historiques indiquent des perspectives différentes.
+
+L’autorité ne repose plus d’abord sur le statut d’une organisation, mais sur une procédure distribuée.
+
+Une étude publiée en 2026 dans *Nature Communications*, portant sur **237 180 cascades** et plus de **431 millions de repartages**, estime que l’affichage d’une note réduit en moyenne de **61,2 % les repartages ultérieurs** du contenu concerné.[^66]
+
+Mais les notes arrivent souvent tard. À l’échelle globale du système étudié, la réduction de l’engagement total tombe à **14,9 %**.[^66]
+
+La leçon est importante : une intervention peut être très efficace **une fois affichée** et beaucoup moins à l’échelle du système si elle intervient après que l’essentiel de la diffusion a déjà eu lieu.
+
+Une autre étude, publiée en 2026 dans *Science Advances* et portant notamment sur les législatives françaises de 2024, montre que le mécanisme de consensus peut sous-modérer certains contenus polarisants parce que les notes ont davantage de mal à atteindre le seuil nécessaire à leur affichage.[^67]
+
+Le pouvoir n’a donc pas disparu. Il s’est déplacé vers les règles du consensus, la population des contributeurs, les seuils et l’algorithme.
+
+Le Centre commun de recherche de la Commission européenne (JRC, pour *Joint Research Centre*) arrive d’ailleurs à une conclusion moins binaire dans une synthèse de 2025 : les approches professionnelles, communautaires et assistées par intelligence artificielle ont chacune leurs limites, et un modèle hybride peut être plus efficace que leur utilisation isolée.[^68] Le document note notamment que les productions de fact-checkers sont déjà fréquemment citées dans des dispositifs comme les « Notes de la communauté ».
+
+La comparaison utile n’est donc pas « experts contre citoyens ». Elle tient en six questions : **qui sélectionne, qui qualifie, qui peut être qualifié, quel effet suit la qualification, comment le recours fonctionne et qui peut auditer la procédure ?**
+
+---
+
+## Ce que l’enquête ne prouve pas
+
+Une enquête crédible doit aussi publier ce qu’elle n’a pas réussi à démontrer.
+
+Le corpus actuel ne permet pas d’affirmer que *Conspiracy Watch* serait un bras éditorial de l’État, qu’un biais politique uniforme du fact-checking français serait établi pour 2022-2026 ou qu’une collusion générale relierait les acteurs étudiés.
+
+Il ne permet pas davantage d’affirmer que les plateformes rémunéreraient le sens idéologique des verdicts, qu’une erreur individuelle entraînerait automatiquement une pénalité financière, que l’EFCSN favoriserait certains bénéficiaires dans FACTEUR ou qu’une perte de certification provoquerait automatiquement la résiliation d’un contrat de plateforme.
+
+Nous ne pouvons pas non plus affirmer que les crédits publicitaires de RiPOST auraient modifié le classement naturel de *Google*, qu’un client déterminé aurait déjà acheté les données d’*Integrity Base* ou qu’un modèle d’intelligence artificielle précis aurait déjà été entraîné sur cette base.
+
+Enfin, les 57,8 % de tentatives de repartage non finalisées dans les données de *Meta* ne constituent pas un « taux de censure ».
+
+Ces limites retirent beaucoup de slogans faciles. **Elles ne détruisent pas la thèse ; elles la rendent plus précise.**
+
+---
+
+## Six tests suffisent
+
+Il n’est pas nécessaire de décider à l’avance si cette architecture est bonne ou mauvaise. Il suffit de la rendre vérifiable.
+
+**Publier les dénominateurs.** Combien de contenus étaient éligibles, combien ont été sélectionnés, évalués ou exemptés ? Sans dénominateur, impossible de distinguer une exception marginale d’un mécanisme structurel.
+
+**Publier l’effet technique.** Étiquettes, déclassements, appariements automatiques, restrictions de recommandation ou de monétisation devraient être documentés, avec des mesures de portée lorsque cela est possible.
+
+**Mesurer la réparation.** Une correction devrait indiquer quand le verdict a changé, quand la restriction a réellement cessé et ce que l’on sait de la récupération de visibilité.
+
+**Faire voyager le correctif.** Si un verdict peut atteindre des copies, des interfaces de programmation, des index, des bases ou des licenciés, sa correction devrait pouvoir suivre le même chemin.
+
+**Rendre les financements auditables.** Lorsqu’un dispositif prévoit des évaluateurs, un classement et des récusations, publier les règles ne suffit pas. Il faut pouvoir vérifier leur application décision par décision, sans transformer l’absence de données en accusation.
+
+**Appliquer le test de l’adversaire.** Accepterions-nous exactement les mêmes pouvoirs, les mêmes exceptions et les mêmes garanties si les institutions ou les plateformes concernées étaient demain dirigées par nos adversaires politiques ?
+
+Une bonne règle démocratique doit rester acceptable lorsque l’adversaire l’applique.
+
+---
+
+## Conclusion : le fact-checking doit subir son propre test
+
+La mauvaise question est probablement celle qui domine le débat depuis des années : **êtes-vous pour ou contre le fact-checking ?**
+
+Une démocratie a besoin de journalistes capables de vérifier les faits et de contredire les puissants comme les rumeurs. Elle a aussi besoin de citoyens capables de contredire les journalistes, de chercheurs capables d’auditer les plateformes et de mécanismes de correction publics.
+
+Pour autant, les résultats matériels de cette enquête sont substantiels.
+
+La sélection est un pouvoir éditorial. Une évaluation peut devenir un signal technique. Une plateforme peut lui attacher des effets et l’automatisation peut les propager. L’activité des partenaires est économiquement mesurée. Une certification peut ouvrir des contrats, des financements ou l’accès à certaines sources pour des machines. L’Union européenne finance désormais non seulement des contenus, mais une infrastructure commune. Les articles peuvent devenir des données structurées et licenciables. Les corrections existent, mais leur propagation et la réparation complète de leurs effets restent beaucoup moins faciles à auditer.
+
+Aucun de ces constats n’exige un architecte central. Mis ensemble, ils décrivent pourtant quelque chose de plus vaste qu’une rubrique journalistique : **une infrastructure distribuée de qualification de l’information**.
+
+Le contexte français renforce l’exigence de preuve sans constituer lui-même une preuve d’abus. Le **CEVIPOF**, Centre de recherches politiques de Sciences Po, mesure en 2026 **15 % de confiance dans les partis politiques**, **18 % dans le président de la République** et **20 % dans l’Assemblée nationale**. Le *Reuters Institute for the Study of Journalism*, centre de recherche de l’université d’Oxford consacré aux médias, situe parallèlement la confiance générale dans l’information à **29 %** en France.[^69][^70]
+
+Ces chiffres ne démontrent rien sur l’exactitude ou l’impartialité du fact-checking. Ils expliquent pourquoi un dispositif destiné à produire de la confiance ne peut raisonnablement demander qu’on lui fasse confiance par statut.
+
+Le problème commence lorsque la qualification devient l’entrée d’autres systèmes : une rédaction sélectionne, un vérificateur qualifie, un certificateur ouvre certaines portes, un financeur augmente une capacité, une plateforme attache un effet, un algorithme propage, une base mémorise et un tiers réutilise.
+
+Chacun peut n’être responsable que de sa fonction locale. L’effet global peut néanmoins être réel. La responsabilité est alors **fragmentée entre plusieurs fonctions**, ce qui ne signifie pas qu’elle disparaît juridiquement.
+
+Deux boucles résument le problème :
+
+```text
+SÉLECTION
+→ CORPUS
+→ STRUCTURATION
+→ COMPARAISON / RÉCUPÉRATION DE SOURCES
+→ ALERTE / PRIORISATION
+→ NOUVELLE SÉLECTION
+```
+
+La seconde concerne la correction :
+
+```text
+CORRECTION À LA SOURCE
+→ BASE MISE À JOUR ?
+→ LICENCIÉS NOTIFIÉS ?
+→ COPIES RAFRAÎCHIES ?
+→ INDEX / OUTILS / SYSTÈMES D’IA MIS À JOUR ?
+```
+
+La première boucle peut augmenter l’efficacité tout en renforçant la mémoire des choix passés. La seconde rappelle qu’une infrastructure capable de propager rapidement une qualification doit pouvoir documenter avec la même précision la propagation de sa correction.
+
+Il n’est pas nécessaire d’imaginer un ministère de la Vérité ou un complot central. **Une suite de systèmes, chacun guidé par sa propre logique, peut produire un effet global dès lors que la sortie de l’un devient l’entrée du suivant.**
+
+La règle démocratique peut donc être simple :
+
+> **plus le pouvoir attaché à une qualification est fort, plus sa sélection, son financement, ses effets, son recours et sa réparation doivent être auditables.**
+
+Le fact-checking est né pour vérifier. À mesure qu’il devient signal de plateforme, condition d’accès, activité rémunérée, infrastructure de données et entrée possible de systèmes automatisés, il doit accepter la conséquence logique de sa propre philosophie : **être vérifié à son tour.**
+
+---
+
+## Notes et sources
+
+[^1]: *Meta*, rapport du Code de conduite contre la désinformation couvrant juillet-décembre 2025, SLI 31.1.1. Le tableau est filtré sur les contenus créés sur Facebook dans les pays de l’EEE. Ligne France : plus de 3,2 millions de contenus distincts vus sur Facebook et traités avec une vérification factuelle après une évaluation de fausseté ; plus de 60 000 articles de partenaires utilisés ; 57,8 % de non-finalisation parmi les tentatives de repartage de contenus traités. Ce dernier taux est descriptif et ne constitue pas, à lui seul, une estimation causale contrefactuelle. https://disinfocode.eu/reports/facebook/8/text
+
+[^2]: Commission européenne, « Factsheet on Tackling online disinformation », 26 avril 2018. La Commission propose notamment un Code européen et le soutien à un réseau indépendant de fact-checkers. https://digital-strategy.ec.europa.eu/en/library/factsheet-tackling-online-disinformation ; https://digital-strategy.ec.europa.eu/en/news/tackling-online-disinformation-commission-proposes-eu-wide-code-practice-disinformation
+
+[^3]: Commission européenne, « Guidance on Strengthening the Code of Practice on Disinformation », 26 mai 2021. Les orientations demandent notamment d'étendre la coopération avec les fact-checkers, d'améliorer l'intégration et la visibilité de leurs contenus, d'étudier un répertoire commun (*repository*), de garantir leur indépendance et une rémunération équitable, et de faciliter les flux entre services. https://digital-strategy.ec.europa.eu/en/policies/qa-code-practice-disinformation ; https://digital-strategy.ec.europa.eu/en/library/guidance-strengthening-code-practice-disinformation
+
+[^4]: Commission européenne, « The 2022 Code of Practice on Disinformation ». La Commission précise que le Code renforcé est le résultat du travail des signataires ; ceux-ci décident de leurs engagements et sont responsables de leur mise en œuvre. https://digital-strategy.ec.europa.eu/en/policies/code-practice-disinformation
+
+[^5]: Commission européenne, « The Code of Conduct on Disinformation », 13 février 2025, mise à jour 24 mars 2026. L'intégration du Code dans le cadre du Digital Services Act a pris effet le 1er juillet 2025 ; il sert de référence pertinente pour la conformité des VLOP/VLOSE signataires aux risques de désinformation, avec audit indépendant des engagements concernés. https://digital-strategy.ec.europa.eu/en/library/code-conduct-disinformation ; https://digital-strategy.ec.europa.eu/en/news/code-conduct-disinformation-signatories-publish-their-latest-reports-codes-transparency-0
+
+[^6]: *Full Fact*, *Report on the Facebook Third-Party Fact-Checking programme | July 2019 - December 2020*. Le rapport documente notamment le passage de 71 contenus rattachés manuellement à 971 occurrences auxquelles Facebook indique avoir appliqué l’évaluation, ainsi que les difficultés autour de l’exemption politique. https://fullfact.org/media/uploads/tpfc-2020.pdf
+
+[^7]: *Facebook*, Nick Clegg, « Facebook, Elections and Political Speech », 24 septembre 2019. Justification publique de l’exemption politique historique : refus de faire d’une entreprise privée l’arbitre général de la parole des responsables politiques, importance de laisser le public juger cette parole et constat qu’elle est déjà fortement scrutée. Il s’agit de la justification de Facebook, pas d’une validation indépendante de ses effets. https://about.fb.com/news/2019/09/elections-and-political-speech/
+
+[^8]: Nathalia Gonzalez, Juliana da Cunha Mota et Nicole Stremlau, « “When politicians make claims, we are journalists”: Political fact-checking and social media partnerships », *HKS Misinformation Review*, 28 juillet 2026. https://misinforeview.hks.harvard.edu/article/when-politicians-make-claims-we-are-journalists-political-fact-checking-and-social-media-partnerships/
+
+[^9]: Maximilian Botan, « Accountability in name only [« reddition de comptes de nom seulement »]: Fact-checking under the EU’s Code of Practice on Disinformation », *HKS Misinformation Review*, 2026. Analyse de rapports de transparence de plateformes et enquête auprès de fact-checkers européens ; accès aux données, retour d’information et visibilité sur les effets aval jugés insuffisants. https://misinforeview.hks.harvard.edu/article/accountability-in-name-only-fact-checking-under-the-eus-code-of-practice-on-disinformation/
+
+[^10]: *Meta*, « Comment Meta se prépare pour les élections municipales françaises de 2026 », 20 février 2026. https://about.fb.com/fr/news/2026/02/comment-meta-se-prepare-pour-les-elections-municipales-francaises-de-2026/
+
+[^11]: Regina Cazzamatta, « The truth game: Verification factors behind fact-checkers’ selection decisions », *Journalism*, publication en ligne 2025, vol. 27 en 2026. Quarante entretiens et analyse de 3 154 articles produits dans huit pays par plus de vingt organisations ; checkability, verifiability et virality comme préconditions centrales de sélection. https://journals.sagepub.com/doi/10.1177/14648849251371952
+
+[^12]: Jérémie Nicey et Laurent Bigot, « Le soutien de Google et de Facebook au fact-checking français : entre transparence et dépendance », *Sur le journalisme*, vol. 9, n° 1, 2020. L’étude repose notamment sur une observation participante de « CrossCheck » et reproduit la déclaration de *CheckNews* sur sa rémunération Facebook en 2018. https://revue.surlejournalisme.com/slj/article/download/418/391
+
+[^13]: Charles Louis-Sidois, « Both Judge and Party? Investigating the Political Unbiasedness of Fact-Checkers », *Journal of the European Economic Association*, 2025. Corpus initial : 10 628 articles ; échantillon final à affiliation politique identifiée : 2 405. https://academic.oup.com/jeea/article/23/6/2137/8087339
+
+[^14]: Kevin T. Greene, Nilima Pisharody, Faelynn Carroll et Jacob N. Shapiro, « Fact-checks focus on famous politicians, not partisans », *PNAS Nexus*, vol. 4, n° 1, 2025. Étude des membres du Congrès américain fact-checkés par PolitiFact entre 2018 et 2021 : après contrôle de plusieurs covariables, la visibilité politique et médiatique prédit davantage la fréquence de fact-checking que l’appartenance partisane. https://academic.oup.com/pnasnexus/article/4/1/pgae567/7928859
+
+[^15]: Nina Barbaroux-Pagonis et Alexandre Joux, « Une médiation journalistique négociée : fact-checker et streamer le débat de l’entre-deux tours de la Présidentielle 2022 », *Les Cahiers du journalisme*, 2023. Échantillon de six rédactions : 51 propos de Marine Le Pen vérifiés, 24 d’Emmanuel Macron, plus 8 vérifications comparatives. https://cahiersdujournalisme.org/Serie-2/V2N10/CaJ-2.10-R055.html
+
+[^16]: *AFP Factuel*, « Dette, chômage, et TVA... Retour sur les affirmations contestées du débat Macron-Le Pen », 21 avril 2022. L’article vérifie dans un même dossier plusieurs affirmations d’Emmanuel Macron et Marine Le Pen : dette publique, TVA, chômage, taxe carbone, fermetures de classes, travailleurs détachés, Ukraine, inflation. https://factuel.afp.com/doc.afp.com.328N4MJ
+
+[^17]: *AFP*, « Elections 2022 : fin des travaux de la coalition Objectif Désinfox lancée par l’AFP et Google contre la désinformation », 21 juin 2022 : 23 médias, 180 journalistes, 202 fact-checks, 23 vidéos, outils et formations partagés, signalements citoyens ; l’AFP revendique une coordination en totale indépendance éditoriale. https://www.afp.com/fr/lagence/notre-actualite/communiques-de-presse/elections-2022-fin-des-travaux-de-la-coalition
+
+[^18]: Gordon LaForge, « Defending the Vote: France Acts to Combat Foreign Disinformation, 2021–2022 », *Innovations for Successful Societies*, Princeton University, 2023. Étude de cas fondée notamment sur des entretiens avec les responsables de VIGINUM ; elle rapporte l’utilisation d’informations d’« Objectif Désinfox » pour aider à caractériser des campagnes. https://successfulsocieties.princeton.edu/document/3406
+
+[^19]: Université de Tours, « large-Scale TV Dataset – Fact-Checking (STVD-FC) ». Le corpus couvre la présidentielle française 2022, environ 1 330 affirmations Factoscope et près de 6 730 programmes TV. Les archives complètes sont accessibles pour la recherche non commerciale après accord signé et mot de passe ; les index CSV sont publics. https://dataset-stvd.univ-tours.fr/fc/ ; charte Factoscope : https://factoscope.fr/charte-editoriale/
+
+[^20]: *Full Fact*, David Corney, « How AI can help fact checkers », 11 février 2025. L'organisation décrit une chaîne de veille, score de priorité de vérification (*checkworthiness*) et appariement d’affirmations (*claim matching*), où les contenus surveillés sont comparés aux affirmations récemment vérifiées afin de produire des alertes destinées aux fact-checkers. https://fullfact.org/blog/2025/feb/how-ai-can-help-fact-checkers/
+
+[^21]: *Les Surligneurs*, « FRAME – Fact-checking Reinforced by AI for MEdia outlets ». Le projet transcrit des discours politiques, les croise automatiquement avec la base de fact-checking des Surligneurs et avertit les journalistes lorsqu'une déclaration déjà réfutée réapparaît. https://lessurligneurs.eu/projets/frame-titre-projet/
+
+[^22]: *Science Feedback*, « La désinformation climatique à la radio et à la télévision détectée grâce à l'IA », 10 avril 2025. Les transcriptions sont pré-filtrées, analysées par des modèles d'IA paramétrés à partir de connaissances scientifiques, puis les cas potentiels sont soumis à une vérification humaine. https://science.feedback.org/fr/desinformation-climatique-radio-television-detectee-grace-ia-science-feedback-partenaires-devoilent-premiers-resultats ; voir aussi https://science.feedback.org/fr/science-feedback-climate-safeguards-desinformation-climat-television-radio/
+
+[^23]: *Science Feedback*, « Science Feedback launches Climate Safeguards to detect climate misinformation on TV and radio ». Le projet, financé via le JournalismAI Innovation Challenge soutenu par Google News Initiative, porte sur un système d’IA de détection et d’analyse de la désinformation climatique dans l’audiovisuel. https://science.feedback.org/science-feedback-launches-climate-safeguard-to-detect-climate-misinformation-tv-radio/
+
+[^24]: EFCSN, premier cycle de subventions « Platform Accountability » : 9 999,94 € à *Maldita.es* et *Science Feedback* pour un audit des politiques de désinformation climatique de YouTube et TikTok en France et en Espagne. https://efcsn.com/funding-opportunities/announcing-the-first-round-of-grants-for-platform-accountability-in-europe/
+
+[^25]: *Full Fact*, page de transparence financière. En 2025 : 342 712 £ de Meta au titre du programme Third Party Fact Checking. https://fullfact.org/about/funding/
+
+[^26]: *TikTok*, rapport du Code de conduite contre la désinformation, mars 2026 : contrats-cadres standardisés, rémunération selon le travail réalisé avec tarifs standardisés, facturation mensuelle. https://disinfocode.eu/reports/tiktok/8/text
+
+[^27]: EFCSN, « Database Grants: Building Europe’s Shared Fact-Check Database », 29 juillet 2026 : budget 860 000 €, certification EFCSN requise, texte intégral, métadonnées IA à réviser, licence et accès tiers, paiement final lié au volume effectivement ingéré. https://efcsn.com/funding-opportunities/efcsn-database-grants/
+
+[^28]: IFCN, politique de plaintes et sanctions : discussion, action corrective publique, suspension, retrait selon gravité. https://ifcncodeofprinciples.poynter.org/complaints
+
+[^29]: EFCSN, « Compliance and Enforcement / Complaints ». Procédure de plainte, majorité qualifiée des deux tiers, droit de réponse, avis obligatoire d’un évaluateur externe, récusation pour sa propre organisation et sanctions pouvant aller jusqu’au retrait d’adhésion. https://efcsn.com/complaints/
+
+[^30]: *AFP*, *Digital Investigation Annual Report 2025*. L’AFP rapporte 7 536 fact-checks et 150 journalistes en 2024, contre 6 855 fact-checks et 126 journalistes fin 2025. Elle relie la baisse de production à plusieurs facteurs, dont une baisse d’effectifs liée à l’incertitude sur l’avenir des contrats avec les plateformes et une réallocation de ressources. https://factcheck.afp.com/sites/default/files/2026-04/staying-the-course-in-a-time-of-disruption_eng_final.pdf
+
+[^31]: *Les Surligneurs*, « Faites du droit votre allié contre la désinformation : soutenez Les Surligneurs », novembre 2025. Le média présente l’incertitude sur la poursuite des programmes de plateformes comme une urgence accélérant sa diversification économique. https://lessurligneurs.eu/faites-du-droit-votre-allie-contre-la-desinformation-soutenez-les-surligneurs/
+
+[^32]: *Les Surligneurs*, « Les Surligneurs et Meta s’unissent pour vérifier les faits sur Facebook et Instagram », 27 février 2024. L’organisation annonce un accord commercial dans le programme de vérification par des tiers. https://lessurligneurs.eu/les-surligneurs-et-meta-sunissent-pour-verifier-les-faits-sur-facebook-et-instagram/
+
+[^33]: *Les Surligneurs*, « Payez pour être laissés tranquilles : le nouveau credo de Facebook risque de ne pas survivre au RGPD », mars 2024. Critique juridique publique d’une politique de Meta quelques jours après l’annonce du partenariat commercial. https://lessurligneurs.eu/payez-pour-etre-laisses-tranquilles-le-nouveau-credo-de-facebook-risque-de-ne-pas-survivre-au-rgpd/
+
+[^34]: *Science Feedback*, « Sanctioned but thriving: how online platforms fail to address the widespread presence of entities under EU sanctions », décembre 2024. Le rapport critique plusieurs plateformes, dont Meta ; Meta figure parallèlement parmi les catégories significatives de financement/partenariat publiées par l’organisation. https://science.feedback.org/sanctioned-but-thriving-how-online-platforms-fail-to-address-the-widespread-presence-of-entities-under-eu-sanctions/
+
+[^35]: Michele Crepaz et Marcel Hanegraaff, « Don’t bite the hand that feeds you? Do critical interest organizations gain less funding in the EU? », *European Political Science Review*, 2022. Enquête sur 270 organisations ayant demandé des subventions à la Commission européenne ; perception d’un risque financier liée à la critique, sans moindre probabilité observée de financement pour les organisations confrontatrices. https://www.cambridge.org/core/journals/european-political-science-review/article/dont-bite-the-hand-that-feeds-you-do-critical-interest-organizations-gain-less-funding-in-the-eu/8D93FC9601111D019AE29DD79FF80F7E
+
+[^36]: Martin Scott, Mel Bunce et Kate Wright, étude de la transition financière d’IRIN et de l’influence des donateurs sur le journalisme, 2017. Absence de modèle général de commande éditoriale directe, mais effets indirects sur ressources, formats, publics, impact et anticipation des préférences des financeurs. https://journals.sagepub.com/doi/10.1177/1940161217693394
+
+[^37]: Martin Scott, Mel Bunce et Kate Wright, recherche qualitative sur le journalisme financé par des fondations, fondée sur 74 entretiens. Peu de tentatives de contrôle direct du contenu, mais exigences et incitations relatives aux tâches, formats, impact et domaines de couverture. https://ueaeprints.uea.ac.uk/id/document/46908
+
+[^38]: Valérie Bélair-Gagnon et coauteurs, étude qualitative de 2023 fondée sur 54 entretiens avec plateformes, médias et fact-checkers. Les ressources et valeurs journalistiques contribuent à façonner les types de désinformation considérés comme importants et les formes de réponse. https://ijoc.org/index.php/ijoc/article/view/19851
+
+[^39]: Elizabeth A. Bloodgood et Joannie Tremblay-Boire, « Does Government Funding Depoliticize Non-Governmental Organizations? Examining Evidence from Europe », *European Political Science Review*, 2017. Les associations observées diffèrent selon la provenance nationale ou européenne du financement public ; comparateur extérieur au fact-checking. https://www.cambridge.org/core/journals/european-political-science-review/article/does-government-funding-depoliticize-nongovernmental-organizations-examining-evidence-from-europe/AEC53C436B72DC56AC09EDA612F80A33
+
+[^40]: Carnegie Endowment for International Peace, étude 2025 sur le financement des initiatives de lutte contre la désinformation dans plusieurs contextes hors France. Le rapport décrit des décalages possibles entre priorités des bailleurs et stratégies souhaitées localement. Comparateur qualitatif, sans transfert causal à la France. https://carnegieendowment.org/research/2025/05/digital-democracy-in-a-divided-global-landscape
+
+[^41]: *Science Feedback / SciVerify*, page « Partners, funders and donors ». Revenu consolidé 2024 : 1 466 266 € ; huit catégories représentent chacune plus de 5 % des revenus. Les montants individuels ne sont pas publiés, empêchant un calcul exact de concentration financière. https://science.feedback.org/partners-funders-donors/
+
+[^42]: Don A. Moore, Lloyd Tanlu et Max H. Bazerman, « Conflict of Interest and the Intrusion of Bias », *Judgment and Decision Making*. Expériences sur les conflits d’intérêts, dont une avec 139 auditeurs professionnels : le rôle assigné influe sur le jugement. Résultat utilisé ici comme preuve de plausibilité générale, non comme preuve appliquée aux fact-checkers français. https://www.cambridge.org/core/journals/judgment-and-decision-making/article/conflict-of-interest-and-the-intrusion-of-bias/E07C226B58445EE1DA8C0C83D61D9572
+
+[^43]: Cochrane, « Industry sponsorship and research outcome », revue systématique de 75 études méthodologiques. Association entre financement industriel et résultats/conclusions plus favorables au sponsor dans la recherche biomédicale ; comparateur externe uniquement, sans transposition au fact-checking. https://www.cochrane.org/evidence/MR000033_industry-sponsorship-and-research-outcome
+
+[^44]: EFCSN, « Application ». La page présente les bénéfices économiques de l’adhésion vérifiée : participation à des projets, appels ouverts et subventions ; elle indique qu’environ 80 % du budget de l’EFCSN va aux organisations membres. https://efcsn.com/application/
+
+[^45]: Cas historique *Check Your Fact* : perte de statut IFCN en 2018 et effet sur la perspective de partenariat Facebook, puis réadmission. Le récit contemporain s’appuie notamment sur les déclarations du directeur de l’IFCN rapportées par *Vox*. https://www.vox.com/2019/5/2/18522758/facebook-fact-checking-partnership-daily-caller ; profil IFCN actuel/expiré : https://ifcncodeofprinciples.poynter.org/profile/check-your-fact
+
+[^46]: *The Times*, « Britain’s biggest fact-checking company goes into administration », 4 juillet 2025. Le directeur de l’IFCN y explique que *Logically* a perdu sa certification en partie à cause du contrat Karnataka et de problèmes de transparence ; l’article rapporte aussi la perte de contrats Meta et TikTok valant plusieurs millions de livres, tout en citant des sources proches de l’entreprise qui attribuent ces pertes à des raisons commerciales plutôt qu’à la certification. https://www.thetimes.com/uk/media/article/britains-biggest-fact-checking-firm-logically-administration-zpdgw8qnt
+
+[^47]: Recensement de cette enquête sur vingt dossiers publics d'admission ou de renouvellement EFCSN retrouvés : 15 séquences datées de remédiation dans 9 organisations, médiane observée de 34 jours. Le comptage distingue standards obligatoires, bonnes pratiques facultatives, demandes de clarification et reconsidérations d'évaluateurs. Index public : https://members.efcsn.com/signatories ; exemples de dossiers : https://members.efcsn.com/application/applicationgreen-efact850c ; https://members.efcsn.com/application/applicationknack20af ; https://members.efcsn.com/application/applicationfactchecknic6a0 ; https://members.efcsn.com/application/applicationre-baltica0511 ; https://members.efcsn.com/application/applicationdemagog-skc6a0 ; Code : https://efcsn.com/code-of-standards/
+
+[^48]: Sénat, commission d’enquête sur le Fonds Marianne, audition de Rudy Reichstadt : fonctionnement de « Riposte », Google Ad Grants, financements CIPDR et adaptation du projet. https://www.senat.fr/compte-rendu-commissions/20230529/fin.html ; https://www.senat.fr/rap/r22-829-2/r22-829-21.html
+
+[^49]: Conseil d’État, ordonnance n° 440388, 8 mai 2020, *Syndicat national des journalistes*. La copie consultée constate le référencement d’articles de presse sur la page gouvernementale « Désinfox Coronavirus », sa suppression le 5 mai après le recours du 4 mai, le non-lieu faute d’objet et 2 000 euros de frais à la charge de l’État. Le juge ne statue pas sur la légalité au fond. https://cdn2.nextinpact.com/medias/1091739925_440388_-_syndicat_national_des_journalistes.pdf
+
+[^50]: Commission européenne, convention de 5 M€ pour le réseau européen de fact-checkers, 31 mars 2026. https://digital-strategy.ec.europa.eu/en/news/commission-boosts-independent-fact-checking-eu5-million-grant-under-european-democracy-shield
+
+[^51]: EFCSN, « FACTEUR ». https://efcsn.com/facteur/
+
+[^52]: EFCSN, bénéficiaires de la première vague Content / Innovation / Expansion Grants. https://efcsn.com/funding-opportunities/announcing-recipients-content-innovation-expansion-grants/
+
+[^53]: EFCSN, règles des appels et procédures d’évaluation/récusation. https://efcsn.com/funding-opportunities/efcsn-content-grants/ ; https://efcsn.com/funding-opportunities/efcsn-innovation-grants/ ; https://efcsn.com/funding-opportunities/platform-accountability-call/
+
+[^54]: EFCSN, page de gouvernance et appels FACTEUR. Le rapprochement conservateur effectué dans cette enquête identifie 6 projets gagnants sur 23 liés à des organisations ou marques représentées dans l’organe de gouvernance (*Governance Body*) actuel : Factcheck Bulgaria, TjekDet, Maldita.es, Polígrafo, dpa international et Vistinomer/Metamorphosis. Quatre de ces correspondances se trouvent parmi les 8 projets Innovation : Maldita.es, Polígrafo, dpa international et Vistinomer. Ces proportions portent sur les gagnants et ne sont pas des taux de succès, faute de dénominateur des candidatures et de scores publics complets. https://efcsn.com/governance/ ; https://efcsn.com/funding-opportunities/announcing-recipients-content-innovation-expansion-grants/ ; https://efcsn.com/funding-opportunities/efcsn-innovation-grants/
+
+[^55]: EFCSN, « Integrity Base » et « Database Grants » : architecture, réutilisation, droits de licence et accès tiers. Communication institutionnelle EFCSN sur LinkedIn à l’occasion de « GlobalFact 2026 » : l’organisation déclare être déjà en discussion avec des clients potentiels intéressés par la licence des données. Cette communication établit une déclaration de discussions, pas un contrat signé ni une transaction exécutée. https://efcsn.com/integrity-base/ ; https://efcsn.com/funding-opportunities/efcsn-database-grants/ ; https://www.linkedin.com/posts/eurofactcheck_globalfact-integritybase-globalfact2026-activity-7473718165924044800-d-GB
+
+[^56]: EFCSN, « The Great Retreat: How Platforms Deprioritized Information Integrity and What to Do About It », livre blanc, mars 2026. Le réseau présente sa base centrale de fact-checks comme une infrastructure pouvant servir à l’entraînement de modèles d’IA et à l’audit indépendant. https://efcsn.com/policy/policy-white-paper-the-great-retreat/
+
+[^57]: Enes Altuncu, Can Başkent, Sanjay Bhattacherjee, Shujun Li et Dwaipayan Roy, « FACTors: A New Dataset for Studying the Fact-checking Ecosystem », 2025. Jeu de données de 118 112 affirmations issues de 117 993 rapports, produits par 39 organisations signataires actives IFCN et/ou EFCSN. https://arxiv.org/abs/2505.09414
+
+[^58]: *Vera / LaReponse.tech*, « Fiabilité des LLMs pour le fact-checking ». Vera indique sélectionner ses sources de fact-checking selon les standards EFCSN ou IFCN, et ses sources médias notamment selon JTI ou certains consortiums d'investigation. Cette documentation établit un cas où un standard professionnel devient un filtre de sources pour un assistant d'IA ; elle ne démontre pas que tous les assistants utilisent ce modèle. https://www.askvera.org/blog/llms-fact-checking-fiabilite-sources
+
+[^59]: *Les Surligneurs*, « Ce qui est faux en droit n’est pas forcément faux dans Meta ». https://lessurligneurs.eu/ce-qui-est-faux-en-droit-nest-pas-forcement-faux-dans-meta/
+
+[^60]: Mato Brautović et coauteurs, « Beyond compliance: How European fact checkers correct their own errors », *HKS Misinformation Review*, 2026. Étude de 62 signataires EFCSN et 1 555 corrections ; forte hétérogénéité dans la publication, l’attribution et l’explication des corrections. https://misinforeview.hks.harvard.edu/article/beyond-compliance-how-european-fact-checkers-correct-their-own-errors/
+
+[^61]: *AFP Factuel*, « Mélenchon ouvrirait la porte à un vote Le Pen contre Macron ? Son entourage le dément et l’article a été corrigé », 31 mars 2022. *Ouest-France* reconnaît une erreur de retitrage d’une dépêche AFP et corrige le titre. https://factuel.afp.com/doc.afp.com.327D3DF
+
+[^62]: *Full Fact*, correction relative aux caméras d’Édimbourg et changement d’évaluation. https://fullfact.org/online/Edinburgh-emissions-camera-no-enforcement/
+
+[^63]: *Meta*, « Review of fact-checking label and Meta AI responses », juillet 2024 : faux positif produit par l’appariement d’un fact-check correct à une photographie authentique. https://about.fb.com/news/2024/07/review-of-fact-checking-label-and-meta-ai-responses/
+
+[^64]: *Meta*, « How to Appeal a Fact-Check Rating », publication du 30 octobre 2023 reproduite par Public Technologies. Meta indique qu'après modification d'une évaluation à la suite d'une correction ou d'une contestation, la démotion du contenu est levée, certains refus publicitaires peuvent être levés, l’avertissement technique correspondant est retiré et la distribution d'une page ou d'un domaine peut prendre quelques jours à récupérer. https://www.publicnow.com/view/5F10728927D7FDD3B191217B76A9B75AFFFA8714
+
+[^65]: *Google*, Fact Check Tools API, mise à jour de ClaimReview ; *Data Commons*, flux de fact-checks. https://developers.google.com/fact-check/tools/api/reference/rest/v1alpha1/pages/update ; https://datacommons.org/factcheck/faq
+
+[^66]: *Nature Communications*, « Community-based fact-checking reduces the spread of misleading posts on X », 2026 : 237 180 cascades, plus de 431 millions de repartages, baisse moyenne de 61,2 % après affichage et effet global de 14,9 %. https://www.nature.com/articles/s41467-026-72597-0
+
+[^67]: Paul Bouchaud et Pedro Ramaciotti, « Community Notes undermoderate polarizing content by design creating risks in electoral processes », *Science Advances*, 2026, incluant les législatives françaises de 2024. https://www.science.org/doi/10.1126/sciadv.aee6932
+
+[^68]: Centre commun de recherche de la Commission européenne (JRC), *Fact-Checking at a Crossroads: Challenges, Alternatives, and Policy Interventions*, 2025. Synthèse des approches professionnelles, communautaires et assistées par IA ; défense d’approches hybrides plutôt que d’un substitut unique. https://publications.jrc.ec.europa.eu/repository/bitstream/JRC141580/JRC141580_01.pdf
+
+[^69]: CEVIPOF, *Baromètre de la confiance politique 2026*. https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-cevipof-2026-la-confiance-s-effondre-en-politique-la-proximite-fait-figure-de-refuge/
+
+[^70]: Reuters Institute for the Study of Journalism, *Digital News Report 2026, France* : confiance générale dans l’information à 29 %. https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/france
