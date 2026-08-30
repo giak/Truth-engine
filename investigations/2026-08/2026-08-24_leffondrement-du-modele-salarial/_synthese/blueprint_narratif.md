@@ -1,253 +1,256 @@
-# SUBLIMATOR v37 : Phase 2.5  :  Blueprint narratif
+# SUBLIMATOR : Blueprint narratif V2 (8 actes, Option A′)
 
-**Source :** `rapport_synthese_phase2.md` + 34 quintessences
-**Horodatage :** 2026-08-25 10:25 CEST
-**Mode :** enquête (7 dimensions, corpus ≥3 distinctes)
+**Source :** `rapport_synthese_phase2.md` + 34 quintessences + investigations P0/P1 du 26/08
+**Version :** V2 : restructuration en 8 actes (Option A′, résolution tour 3), verdicts P0/P1 intégrés
+**Horodatage :** 2026-08-26 17:50 CEST (remplace la V1 du 25/08, 7 mouvements)
+**Décisions actées intégrées :** titre « commencé en 1991 » rejeté ; attrition rétrogradée INFERENCE ; CBA retour optionnel non quantifié ; « économie du récit » au lieu de « conflit d'intérêts » ; chaîne Big Tech→déficit→CCRE non causalisable ; formulations militantes cloud bannies ; 51 Md$ US ≠ pertes françaises ; snippets Europe marqués
 
 ---
 
-## Raisonnement Q0-Q8
+## Décisions structurelles (ce qui change vs V1)
+
+| Point | V1 (25/08) | V2 (26/08) |
+|---|---|---|
+| Structure | 7 mouvements (§0-§7) | **8 actes** (Option A′) |
+| Verdict final | « la réponse est compliquée » | **verdict rendu** : effondrement non démontré, vulnérabilité établie |
+| Acte charnière macro | absent | **Acte VII dédié** (matériau rédigé, 1 830 mots) |
+| Attrition −5k/−7k | présenté comme série | **rétrogradé** : reconstruction, seuls FBF/MMO/FO publiables (INV-P0-01) |
+| CBA | « réembauche » | **retour optionnel non quantifié** + substitution 2026 documentée (INV-P0-03) |
+| Périmètres fiscaux | 48/55/64/90/98 % mélangés | **tableau des périmètres** (INV-P0-04), couple 98→55 % ancré L2 |
+| Cour des comptes | « angle mort » accusatoire | **recherche négative exhaustive** (0 « IA »/17 101 lignes) + nuance rapport 2025 (INV-P0-02) |
+| Créateur vidéo | « conflit d'intérêts » | **« économie du récit »** documentée URL par URL (INV-P1-06) |
+| Cloud | « coquille », « cheval de Troie » | **faits primaires seulement**, formulations bannies (INV-P1-09) |
+| Fuite hors assiette | 11-25 M€/an unique | **fourchette consolidée 11-37 M€/an** + clause scénario 2028 (INV-P1-07) |
+| Macro France | absent | **20 indicateurs L2** + 5 snippets Europe + 1 GAP (INV-P0-08) |
+
+---
+
+## Q0-Q8 (raisonnement)
 
 ### Q0. Sujet et mode
 
-Cet article porte sur l'écart entre le récit de panique (l'IA effondre le salariat dans 12-18 mois) et la réalité documentée (érosion silencieuse, dépendance cloud, contrôle social automatisé). Sujet à la fois mécanisme et concept, couvrant fiscalité, infrastructure, business, contrôle social, circularité financière, démocratie, et chaîne d'approvisionnement humaine.
-
-**Mode enquête.** Le corpus couvre ≥3 dimensions distinctes. L'article doit présenter le sujet dans toutes ses dimensions, structuré par une thèse organisatrice qui relie sans exclure.
+L'écart entre le récit de panique (l'IA effondre le salariat dans 12-18 mois) et la réalité documentée (érosion silencieuse, déplacement de l'assiette, dépendance cloud, contrôle automatisé). Sujet mécanisme + concept : fiscalité, infrastructure, business, contrôle social, circularité financière, démocratie. **Mode enquête** : thèse organisatrice qui relie sans exclure.
 
 ### Q1. Le fait qui surprend
 
-La Cour des comptes ne mentionne JAMAIS l'IA dans son rapport de mai 2026 sur la Sécurité sociale. Le déficit de 21,6 Md€ est analysé sans aucune modélisation du lien IA → emploi → recettes. Ce n'est pas une omission : personne n'est mandaté pour le combler. L'angle mort est institutionnel. Pendant ce temps, chaque −1 % d'emploi coûte 5,5 Md€ au système.
+La Cour des comptes ne mentionne **jamais** l'IA dans son rapport de mai 2026 sur la Sécurité sociale : 0 occurrence sur 17 101 lignes (recherche négative exhaustive, INV-P0-02). Le déficit de 21,6 Md€ est analysé sans modélisation IA → emploi → recettes. Le canal masse salariale → cotisations est pourtant outillé par la Cour (pages 1183-2211) : le raccord était techniquement trivial et absent. Personne n'est mandaté pour le combler.
 
 ### Q2. La tension dramatique
 
-Les données de production ne montrent pas de substitution massive. ECB : « muted effects ». Anthropic : « no systematic increase in unemployment ». Oxford Economics : « productivity growth should be accelerating. Generally, it isn't. » L'effondrement n'arrive pas. Pourtant l'État agit comme s'il arrivait : cloud « souverain » construit sur code américain, algorithme de profilage des chômeurs (CCRE), allègements 77 Md€ non conditionnés. La tension n'est pas « l'IA va-t-elle détruire l'emploi ? », c'est « pourquoi l'État construit-il les infrastructures de la catastrophe qu'il prétend ne pas anticiper ? »
+Les données de production ne montrent pas de substitution massive. ECB : « muted effects ». Anthropic : « no systematic increase ». Oxford Economics : « productivity should be accelerating. It isn't. » L'effondrement n'arrive pas. Pourtant l'État construit l'infrastructure d'une transition : cloud « souverain » sur technologie américaine, allègements 77 Md€ non conditionnés, algorithme de profilage CCRE. La tension : « pourquoi l'État construit-il les infrastructures de la catastrophe qu'il prétend ne pas anticiper ? »
 
-### Q3. Thèse organisatrice
+### Q3. Thèse organisatrice (verdict A′)
 
-L'IA n'effondre pas le modèle salarial par substitution directe : elle l'érode silencieusement, par attrition, AI washing, et dépendance numérique construite par l'État lui-même, pendant que ce même État évite de taxer les Big Tech (51 Md$ évités) et automatise le contrôle des populations que l'érosion fragilise (CCRE, ×7,5 contrôles en dix ans).
+Le récit d'un effondrement brutal du salariat sous l'effet de l'IA n'est pas étayé. Mais le modèle français présente une vulnérabilité réelle : il dépend encore fortement des revenus du travail alors que l'automatisation peut déplacer progressivement la valeur vers le capital logiciel, les fournisseurs technologiques, le client et les profits. Cette tension ne commence pas avec l'IA : depuis plusieurs décennies, la France a déjà déplacé une partie du financement social des cotisations vers l'impôt. L'IA pourrait accélérer cette mutation, notamment par le non-remplacement et la compression du temps humain, mais son amplitude reste inconnue.
 
 ### Q4. Angle
 
-**Contre-enquête → anatomie.** On part d'un récit dominant (vidéo YouTube : effondrement à 12-18 mois), on le confronte aux données (ECB, EIB, Anthropic, Oxford Economics), on montre qu'il est faux. Puis on ne s'arrête pas : on ouvre le capot. L'anatomie montre les vrais mécanismes : attrition silencieuse, cloud « souverain » = pompe à dollars, algorithme CCRE, circularité Big Three. La contre-enquête déconstruit le récit. L'anatomie révèle le système.
+**Contre-enquête → anatomie.** On part du récit dominant (la vidéo), on le confronte aux données, on montre que le pronostic est faux. Puis on ouvre le capot : les vrais mécanismes (attrition silencieuse, déplacement de l'assiette, dépendance cloud, contrôle automatisé). La contre-enquête déconstruit le récit. L'anatomie révèle le système.
 
-### Q5. Arc narratif  :  progression cognitive en 7 mouvements
+### Q5. Arc narratif : 8 actes (progression cognitive)
 
-1. **Le récit et sa réfutation.** La vidéo, ses 9 distorsions, ses 5 contradictions. Ce que disent les données : ECB « muted », Anthropic « no systematic increase », Oxford Economics « productivity should be accelerating. It isn't. » Le créateur opère sous pseudonyme avec un Patreon.
-2. **Ce qui se passe vraiment.** Attrition silencieuse (−5 000 à −7 000 postes/an, banques/assurances/télécoms, sans un licenciement). Trou statistique : aucun instrument ne mesure le taux de remplacement des postes. Full automation = 3 échecs sur 3 documentés (Klarna, CBA, IBM). AI washing : 60 % des coupes sont anticipatoires, 2 % basées sur implémentation réelle. Altman lui-même le reconnaît.
-3. **Qui paie ?** Asymétrie fiscale réelle (coin 47,2 %, 443 Md€ cotisations) mais 51 Md$ évités par 4 Big Tech (ITEP). Microsoft 2,44 % taux fédéral, Apple 40 % impôts mondiaux en Irlande. Cotisations réduites à 48 % du financement social. La transition Bismarck→Beveridge a commencé en 1991 (CSG).
-4. **Qui contrôle ?** S3NS/Bleu : 100 % code US dans coquilles françaises, surcoût 20-40 %, coût des licences SECRET. 84 M€/an (+62 %). SEAL-2 valide le modèle au niveau UE. Survie estimée 7-90 jours si embargo US. La Belgique pose la question que la France refuse.
-5. **Qui est contrôlé ?** CCRE : algorithme France Travail, 26 variables secrètes, 6 M profilés/mois, code source refusé (violation CADA), ×7,5 contrôles en dix ans (200k→730k→1,5M). Cas le plus abouti d'IA appliquée au contrôle social en France.
-6. **Qui possède ?** Big Three (BlackRock/Vanguard/State Street) : 30 T$ AUM, 20-25 % S&P 500, circularité totale. Mêmes mains = IA (Microsoft, Nvidia) + emplois menacés + fonds de pension des travailleurs. 70 % du public UK craintif vs 70 % employeurs « excités ». La circularité rend toute sortie impossible sans effondrement.
-7. **Que reste-t-il ?** La transition est en cours depuis 35 ans. Le scaling wall (Marcus 2024, LeCun 2025) fragilise l'hypothèse d'amélioration continue. Les expériences UBI (Finlande, Stockton) montrent que le revenu garanti n'incite pas à ne pas travailler. Prix API −80 % (juillet 2026) : l'avantage-coût de la substitution se réduit. La question n'est pas « l'IA va-t-elle tout détruire ? »  :  c'est « qui contrôle l'infrastructure de la transition ? »
+1. **La panique** : la vidéo, ses distorsions, son économie du récit, sa réfutation.
+2. **Ce que l'IA remplace vraiment** : 6 formes de remplacement, retours en arrière documentés, cannibalisation Wavestone.
+3. **La disparition qui ne fait aucun bruit** : France, banques, non-remplacements, le licenciement n'est plus la bonne unité.
+4. **Où part la valeur ?** : temps économisé → salaire / marge / client / logiciel / cloud / capital.
+5. **Le modèle social avait déjà commencé à changer** : 1945 → CSG → diversification de l'assiette.
+6. **Le stress-test** : déficit déjà là, scénarios falsifiables, l'angle mort de la Cour.
+7. **L'IA arrive dans une économie déjà sous tension** : 4 tensions (travail, entreprises, État, Europe), la bascule.
+8. **Qui capte la transition ?** : fiscalité internationale, dépendances technologiques, Big Three.
 
-### Q6. Orchestration
+### Q6. Orchestration (mise à jour)
 
-**Quintessences-phares** (7, portent une section dédiée) :
-- `leffondrement-du-modele-salarial` : structure l'arc, fournit le socle fiscal (coin 47,2 %, FCT-001 à 018)
-- `leffondrement-transcript-forensic` : 9 distorsions D1-D9, 5 contradictions, conflit d'intérêts Patreon
-- `effet-reel-agents-IA-production` : Klarna/CBA/IBM/Salesforce, HBR 2 %, Altman AI washing
-- `paradis-data-big-tech` : ITEP 51 Md$, Microsoft 2,44 %, Apple 40 %, FACT Coalition 3,5 Md$
-- `performativite-strategies-IA-publiques` : S3NS/Bleu, 4 étages de captation, inversion sémantique
-- `france-travail-CCRE` : 26 variables secrètes, 6 M/mois, code refusé, ×7,5 contrôles
-- `cartographie-big-three` : 30 T$, 20-25 % S&P 500, circularité, FTC poursuite
+**Phare** : `leffondrement-du-modele-salarial` (socle fiscal), `leffondrement-transcript-forensic` (9 distorsions, CTA Patreon), `effet-reel-agents-IA-production` (Klarna/IBM, HBR 2 %, Altman), `performativite-strategies-IA-publiques` (S3NS/Bleu), `france-travail-CCRE` (26 variables, 6 M/mois), `cartographie-big-three` (30 T$, circularité).
+**Appui** : `attrition-silencieuse`, `non-remplacements-france`, `stress-test-secu`, `cout-reel-licences-US`, `stress-test-embargo-US`, `comparaison-cloud-souverain-europe`, `rupture-democratique-ia`, `travailleurs-clic-ia`, `paradis-data-big-tech`, `leffondrement-histoire`, `leffondrement-revenu-universel`, `leffondrement-renard-v1`.
+**Contexte** : `leffondrement-droit-travail`, `-sociologie-professions`, `-geopolitique`, `-energie`, `-education`, `-psychologie`, `-democratie`, `-philosophie`, `-renard-v2`, `-10-zones`, `-capgemini`, `business-cases-remplacement-IA` (fusionné Acte II).
+**Nouvelles investigations du 26/08 (prépondérantes)** : INV-P0-01 (attrition, Acte III), INV-P0-02 (Cour des comptes, Acte VI), INV-P0-03 (CBA, Acte II), INV-P0-04 (périmètres, Acte V), INV-P0-08 (macro, Acte VII), INV-P1-05 (Wavestone, Acte II/IV), INV-P1-06 (créateur, Acte I), INV-P1-07 (fuite hors assiette, Acte IV/VIII), INV-P1-09 (audit cloud, Acte VIII), matériau Acte VII (17h30).
 
-**Quintessences-appui** (12, fournissent faits/citations/chiffres dans une section phare) :
-- `non-remplacements-france` : trou statistique DARES, BMO −6,5 %, difficultés recrutement en chute
-- `attrition-silencieuse` : banques −20k, FO Banques « PSE silencieux », Le Monde « année noire »
-- `stress-test-secu` : −1 % emploi = −5,5 Md€, Cour des comptes angle mort, scénarios 32/49/121 Md€
-- `cout-reel-licences-US` : enquête blanche, 11-25 M€/an → USA, projection 2028 = 47-107 M€
-- `stress-test-embargo-US` : survie 7-90j, OVHcloud/AWS = 100:1, IEEPA/CLOUD Act
-- `comparaison-cloud-souverain-europe` : Allemagne multicloud, Safespring 86,25 %, SEAL-2
-- `rupture-democratique-ia` : KCL 70 % peur, China Shock → AI Shock, Brookings automation→extrême droite
-- `travailleurs-clic-ia` : DiPLab 260k France, Kenyans <2$/h, chaîne invisible
-- `ia-salariat-fresque-systemique` : M2 asymétrie fiscale→érosion, M4 profits→déficit→contrôle
-- `leffondrement-histoire` : Autor QJE 2024 (automation > augmentation depuis 1980)
-- `leffondrement-revenu-universel` : Finlande emploi =, Stockton +12 pts temps plein
-- `leffondrement-renard-v1` : ECB « muted », EIB « boosts productivity without reducing employment », Anthropic « no systematic increase »
+### Q7. KO sentences (mises à jour)
 
-**Quintessences-contexte** (15, mentionnées en transition ou regroupées avec une phare) :
-- `leffondrement-droit-travail` : GDPR Art.22 + AI Act (transition §2)
-- `leffondrement-sociologie-professions` : DeepL 25 % licenciés (transition §2)
-- `leffondrement-geopolitique` : Draghi 4 000 Md$, Mistral exception (transition §4)
-- `leffondrement-energie` : data centers 945 TWh 2030, externalité absente vidéo (transition §7)
-- `leffondrement-education` : Prompt Engineer = dactylo ère IA (transition §7)
-- `leffondrement-psychologie` : doomscrolling, negativity bias, business model anxiété (transition §1)
-- `leffondrement-democratie` : deepfakes 50+ pays, Liar's Dividend (transition §5)
-- `leffondrement-philosophie` : Lafargue « machine = rédemptrice », Gorz sortie salariat (transition §7)
-- `leffondrement-renard-v2` : FAISCEAU 5 claims (asymétrie 0.85, urgence 0.15), Mistral (transition §4)
-- `leffondrement-10-zones` : allègements 20,9→77 Md€, scaling wall, Danemark 0 % cotisations (transition §3/§7)
-- `leffondrement-capgemini` : 2 400 postes, DG Trésor conteste causalité (transition §2)
-- `business-cases-remplacement-IA` : redondant avec agents IA, fusionné dans §2
-- `synthese-forensique-IA-salariat` : agrégation 2e niveau, non mobilisée directement
-- `leffondrement-deep-dive` : redondant avec 10-zones KERNEL
-- `leffondrement-brainstorm` : réflexif, non KERNEL, non mobilisé
+1. « Dans son rapport 2026 sur la Sécurité sociale, la Cour des comptes ne mentionne jamais l'IA. » : INV-P0-02 (recherche négative exhaustive, 0 occurrence).
+2. « Trois entreprises ont remplacé des humains par l'IA. Toutes les trois sont revenues en arrière : Klarna a rouvert les recrutements (mai 2025), CBA a reconnu une "erreur" (août 2025), IBM a dégelé les embauches. Le retournement n'a pas arrêté la substitution : CBA coupe encore en 2026. » : Klarna vérifiée Bloomberg/Reuters ; CBA INV-P0-03 (retour optionnel non quantifié, coupes 2026 via Nutun) ; IBM.
+3. « Le cloud "souverain" français repose sur une technologie 100 % américaine. » : INV-P1-09, fait primaire CL-F01 (formulation bannie : « cent pour cent américain » remplacée par « repose sur une technologie 100 % américaine »).
+4. « Le coût des licences est secret. Le secret est le verdict. » : INV-P1-07 (bornes 11-37 M€/an).
+5. « Six millions de chômeurs profilés chaque mois. Le code source est refusé. » : CCRE, F-003/F-004.
+6. « Les mêmes mains possèdent l'IA, les emplois qu'elle menace, et les pensions des travailleurs. » : Big Three, F-001/F-002/F-009.
+7. « Le financement du modèle salarial a commencé à se transformer bien avant l'IA. » : INV-P0-04 (98→55 % ASSO ancré L2 ; CSG 1991 = jalon de diversification, pas d'effondrement).
+8. « Nous savons calculer ce qu'une baisse donnée de masse salariale ferait aux recettes. » : FIPECO élasticité 0,95 (−1 % ≈ −4,4 Md€), INV-P0-04/06.
+9. « L'IA n'arrive pas dans une économie immobile. » : INV-P0-08, matériau Acte VII.
+10. « Le scénario d'un effondrement brutal causé par l'IA n'est pas démontré. La vulnérabilité, elle, l'est. » : verdict final.
 
-### Q7. KO sentences
+### Q8. Question ouverte
 
-1. « La Cour des comptes ne mentionne jamais l'IA. »  :  stress-test-secu, F-003 GAP
-2. « Trois entreprises ont remplacé des humains par l'IA. Toutes les trois les ont réembauchés. »  :  Klarna/CBA/IBM, F-003/F-005/F-006 agents IA
-3. « Le cloud souverain français est cent pour cent américain. »  :  S3NS/Bleu, F-001 performativité
-4. « Le coût des licences est secret. Le secret est le verdict. »  :  cout-reel-licences, F-001 GAP
-5. « Six millions de chômeurs profilés chaque mois. Le code source est refusé. »  :  CCRE, F-003/F-004
-6. « Les mêmes mains possèdent l'IA, les emplois qu'elle menace, et les pensions des travailleurs. »  :  Big Three, F-001/F-002/F-009
-7. « Les cotisations ne financent plus que quarante-huit pour cent du financement social. La transition a commencé en 1991. »  :  investigation maître, FCT-003/CLM-005
-
-### Q8. La question ouverte
-
-Si l'État français construit sa dépendance au cloud américain en l'appelant souveraineté, s'il profile six millions de chômeurs avec un algorithme au code source secret, et si la Cour des comptes n'a pas mandat pour modéliser l'impact de l'IA sur les recettes sociales, qui contrôle la transition, et pour qui ?
+Si l'État construit sa dépendance au cloud américain en l'appelant souveraineté, si un algorithme au code secret profile six millions de chômeurs, et si la Cour des comptes n'a pas mandat pour modéliser l'impact de l'IA sur les recettes sociales, qui contrôle la transition, et pour qui ?
 
 ---
 
-## Bloc A  :  Matrice de décision narrative
+## Bloc B : les 8 actes (plan article)
 
-| Dimension | Options considérées | Choix | Justification (1 phrase) |
-|-----------|---------------------|-------|--------------------------|
-| Thèse organisatrice | T1 seule / T2 seule / synthèse T1-T4 / thèse neuve | Synthèse T1-T4 via boucle « profits délocalisés → déficit → contrôle » | La transversalité X3 du rapport Phase 2 relie les 4 thèses sans en exclure aucune |
-| Angle | Contre-enquête seule / anatomie seule / fresque / paradoxe | Contre-enquête → anatomie | La vidéo fournit un point d'entrée narratif (contre-enquête) ; les 16 investigations du 25 août exigent d'ouvrir le système (anatomie) |
-| Structure | Chronologique / comparative / dramatique | Progression cognitive 7 mouvements | Le lecteur entre par le récit de panique et sort par la question de qui contrôle la transition |
-| Ton | Alarmiste / rassurant / cynique / forensique | Forensique, direct, sans pathos | Les données sont assez dramatiques sans qu'on les dramatise |
-| Public | Expert / citoyen informé / militant | Citoyen informé | Le sujet exige des données techniques mais la vidéo-source vise le grand public : l'article doit être lisible sans jargon |
+### Acte I. La panique
 
-## Bloc B  :  Plan article (arc narratif)
+**Rôle :** contre-enquête, setup.
+**Résumé :** Une vidéo YouTube de 32 minutes (71K abonnés) annonce l'effondrement du salariat dans 12-18 mois. Son diagnostic (asymétrie fiscale travail/IA) est partiellement exact (INV-P0-04 : cotisations réduites à 48 % des ressources de la Sécu). Son pronostic est contredit par les données (ECB, Anthropic, Oxford Economics). Et son économie est documentée : funnel YouTube → Patreon → surhumain.ai, URL par URL (INV-P1-06). L'atelier payant du 27/07/2026 « Embaucher ou s'abonner » renvoie explicitement à la vidéo publique. Le pseudonyme est assumé, l'identité civile irrésolvable (GAP structurel). La peur génère de l'attention, l'attention des abonnements : c'est une incitation économique, pas une réfutation en soi.
+**KO :** « Trente-deux minutes d'alarme, zéro source, un Patreon. »
+**Faits :** D1-D9 (transcript-forensic) ; C-012 à C-016 (INV-P1-06) ; FCT-R04/R06, F-019 (ECB/Anthropic/Oxford).
+**Sources :** `leffondrement-du-modele-salarial`, `leffondrement-transcript-forensic`, `leffondrement-renard-v1`, `leffondrement-psychologie`, **INV-P1-06**.
+**À couper :** l'analyse ligne à ligne des 21 sections ; garder les 9 distorsions les plus frappantes et le CTA.
+
+### Acte II. Ce que l'IA remplace vraiment
+
+**Rôle :** bascule, mise à l'épreuve.
+**Résumé :** Six formes de remplacement (tâche, licenciement, départ non remplacé, poste jamais ouvert, contractant supprimé, emploi perdu chez un concurrent) : le socle V3_1. Full automation : trois retours en arrière documentés. Klarna rouvre les recrutements service client (mai 2025, vérifié Bloomberg/Reuters). CBA reconnaît une « erreur » (août 2025) : les rôles n'étaient pas redondants, volumes en hausse malgré la justification « 2 000 appels de moins/semaine » ; mais le retour fut proposé en option, jamais quantifié, et la substitution a continué en 2026 (coupes via Nutun à Johannesburg, chat Hey CommBank résolvant ~9 conversations sur 10 sans humain, ~800 rôles/an selon la FSU) : INV-P0-03. IBM dégèle les embauches. Wavestone (INV-P1-05) : la part IA du CA double (8 → 17 → 22 %) pendant que le taux d'utilisation recule (73 → 72 → 71 %) et que le TJM s'érode (938 → 926 €, −1,3 %) ; le cabinet décrit lui-même la réallocation « au détriment de la plupart des autres domaines ». AI washing : 2 % des coupes basées sur une implémentation réelle (HBR) ; Altman : « There's some AI washing. »
+**KO :** « Trois entreprises ont remplacé des humains par l'IA. Toutes les trois sont revenues en arrière. Le retournement n'a pas arrêté la substitution : CBA coupe encore en 2026. »
+**Faits :** F-003 Klarna, F-005 CBA (corrigée), F-006 IBM, F-007 Forrester 55 %, F-001 HBR 2 %, F-007 Altman ; W-001 à W-018 (INV-P1-05).
+**Sources :** `effet-reel-agents-IA-production`, `leffondrement-renard-v1`, `business-cases-remplacement-IA`, `leffondrement-sociologie-professions`, `leffondrement-capgemini`, **INV-P0-03**, **INV-P1-05**.
+**À couper :** le détail des business cases (coûts de réembauche, CSAT) ; le « 20 % des effectifs » de la citation FO sur BNP (erreur arithmétique, INV-P0-01).
+
+### Acte III. La disparition qui ne fait aucun bruit
+
+**Rôle :** révélation 1, le mécanisme réel.
+**Résumé :** La DARES compte les embauches et les fins de contrats, par motif ; elle ne mesure pas « ce poste libéré a-t-il été remplacé ? ». Le non-remplacement est un non-événement statistique. En France, les banques fournissent le cas le plus documenté (INV-P0-01, FBF) : 368 800 salariés fin 2025 (−0,7 %), 34 400 recrutements, recrutement bancaire en recul de 10,2 %, métiers technologiques à 15,9 % des recrutements, fonctions administratives arrière à 2,6 % ; turnover bancaire 7,7 % contre 20 % au niveau national ; alternants 18 100 (−8,6 %). Société Générale assume des réductions sans départs contraints. FO parle de « PSE silencieux ». **Attention probatoire** : l'estimation « 5 000 à 7 000 postes/an supprimés par l'IA » est une reconstruction sur hypothèse de turnover, pas une observation (rétrogradée, INV-P0-01). La bonne arme : nous savons mesurer les licenciements, nous savons beaucoup moins bien mesurer le poste qui disparaît parce qu'il n'est jamais remplacé. Le licenciement n'est plus la bonne unité statistique.
+**KO :** « Un poste non remplacé n'existe pas dans les statistiques. »
+**Faits :** F-001 banques 368 800, F-004 télécoms, F-006 FO Banques, GAP MMO (INV-P0-01), alternants, métiers tech 15,9 %.
+**Sources :** **INV-P0-01**, `attrition-silencieuse`, `non-remplacements-france`, `ia-salariat-fresque-systemique`.
+**À couper :** les détails FO sur AVC/burnout (pathos) ; la série « −5k/−7k » ; le conflit BFM 350 700 vs FBF 368 800 (trancher par FBF).
+
+### Acte IV. Où part la valeur ?
+
+**Rôle :** mécanisme central (thèse α), la destination du gain.
+**Résumé :** Le temps de travail économisé devient de la valeur, et cette valeur se répartit : salaire, marge, client, logiciel, cloud, capital. La thèse de V3_1 devient un mécanisme au lieu d'être la thèse finale. Wavestone : la part IA double sans gain agrégé visible (INV-P1-05) : le gain n'est pas capté par le cabinet. Côté français, la sortie étrangère est bornée (INV-P1-07) : le marché « Nuage public » vaut 84 M€ (+62 %/an, DINUM), le surcoût SecNumCloud 25-40 % (Cour des comptes), et la part qui rémunère les licences américaines est estimée entre 11 et 37 M€/an (fourchettes 11-25 et 24-37 réconciliées), avec le secret des licences comme fait central. La projection 2028 (> 100 M€ à +62 %/an) est un scénario, pas une prévision. L'élasticité des cotisations aux revenus d'activité (0,95, FIPECO) relie la destination du gain à l'assiette sociale.
+**KO :** « La destination du gain décide de l'effet sur l'emploi. »
+**Faits :** F-010/F-011/F-014 (INV-P1-07), FCT-111 cotisations 443 Md€, élasticité 0,95, W-002/011 (INV-P1-05).
+**Sources :** **INV-P1-05**, **INV-P1-07**, **INV-P0-04**, `cout-reel-licences-US`, V3_1 §VII-XI.
+**À couper :** aucune causalité « fuite → déficit » (le déficit précède l'IA) ; jamais convertir les 51 Md$ US en pertes françaises.
+
+### Acte V. Le modèle social avait déjà commencé à changer
+
+**Rôle :** révélation historique, déplacement de l'assiette.
+**Résumé :** Pas d'effondrement : une diversification. Depuis 1945, le financement du modèle salarial français a déjà changé de nature : CSG (1991, un impôt, pas une cotisation), allègements généraux de cotisations passés de 20,9 à 77,3 Md€ entre 2014 et 2024, et baisse de la part des cotisations dans les ressources des administrations de Sécurité sociale de 98 % (1980) à 55 % (2025) : couple ancré L2 (FIPECO, fiche 13, §B.2). Le tableau des périmètres (INV-P0-04) distingue : 64 → 48 % (Sécu, EPSS), ~90 → 48 % (hors cotisations de l'État employeur, FIPECO), 98 → 55 % (ASSO, FIPECO). Chaque chiffre a son dénominateur ; les mélanger ruinerait une démonstration juste. Nuance structurelle : la France (14,8 % du PIB) n'est plus le pays UE aux cotisations les plus élevées, derrière l'Allemagne (17,2 %) depuis 2025.
+**KO :** « Le financement du modèle salarial a commencé à se transformer bien avant l'IA. »
+**Faits :** 98→55 % (ancré), 64→48 % (EPSS), 77,3 Md€, CSG 1991, France 14,8 % vs Allemagne 17,2 %.
+**Sources :** **INV-P0-04**, `leffondrement-du-modele-salarial`, `leffondrement-10-zones`, `ia-salariat-fresque-systemique`.
+**À couper :** le titre « l'effondrement a commencé en 1991 » (rejeté) ; tout mélange de périmètres.
+
+### Acte VI. Le stress-test
+
+**Rôle :** falsifiable, l'angle mort institutionnel.
+**Résumé :** Le déficit précède l'IA : Sécu −21,6 Md€ (2025), ASSO −6,7 Md€, État −152,5 Md€ (5,1 % PIB). La mécanique de transmission est outillée : les cotisations (443 Md€, assiette 1 078 Md€) sont élastiques aux revenus d'activité (0,95, FIPECO) : un point de masse salariale ≈ 10,8 Md€, −1 % de masse salariale ≈ −4,4 Md€ de recettes. La Cour des comptes modélise cette relation dans son rapport 2026 (pages 1183-2211) **sans variante IA** : 0 occurrence du mot « intelligence artificielle » (INV-P0-02, recherche négative exhaustive). Nuance : le rapport 2025 mentionne l'IA comme outil recommandé (services support hospitaliers, recouvrement) ; la Cour traite l'IA ailleurs (SNFOCOS, 22/01/2026). Le hors-champ est précis : l'IA comme risque structurel sur l'assiette, dans le rapport annuel Sécu. Les scénarios −1 %, −3 %, −5 % de masse salariale sont des scénarios, pas des prévisions : c'est la proposition falsifiable qui remplace « nous ne savons pas, tout est possible ».
+**KO :** « Nous savons calculer ce qu'une baisse donnée de masse salariale ferait aux recettes. » + « Dans son rapport 2026 sur la Sécurité sociale, la Cour des comptes ne mentionne jamais l'IA. »
+**Faits :** recherche négative (0 « IA », 0 « algorithme », 0 « robot »), élasticité 0,95, GAP « −1 % ≈ −5,5 Md€ » non retrouvé (INV-P0-02).
+**Sources :** **INV-P0-02**, **INV-P0-04**, **INV-P0-08**, `stress-test-secu`, FIPECO fiche 13.
+**À couper :** le « −5,5 Md€ » du corpus (écart non reconstruit vs −4,4 Md€) ; les scénarios 32/49/121 Md€ de la V1 (méthodologie hétérogène).
+
+### Acte VII. L'IA arrive dans une économie déjà sous tension
+
+**Rôle :** charnière (matériau rédigé, 1 830 mots, intégration entre II et III de V3_1).
+**Résumé :** Quatre tensions, 20 indicateurs L2 (INV-P0-08). Travail : chômage 8,3 % (plus haut depuis T3 2020), emploi privé −0,4 %/an (−79 700) mais +1,0 M vs 2019, 43,8 % de projets difficiles à pourvoir : refroidissement sans effondrement, et précautions probatoires (champ Mayotte +0,06 pt ; RSA + jeunes France Travail ≈ moitié de la hausse : pas un choc technologique). Entreprises : 70 803 défaillances (+19,3 % vs 2010-2019) mais >1,2 M de créations (+11,1 %), climat des affaires 98/103/100/96 : tissu sous tensions, trajectoires divergentes. État : déficit 5,1 %, dette 115,7 %, ASSO −6,7 Md€ : contrainte budgétaire. Europe : FMI −20 % vs US, Draghi 4 pressions, Ageing Report (volume de travail contribuant négativement dès fin des années 2020) : impératif de productivité (3 snippets à ancrer avant publication). La bascule : une hausse de productivité de 20 % n'a pas la même destination dans une entreprise qui manque de personnel, dans une entreprise qui perd de l'argent, dans un secteur en guerre des prix ou dans un État qui cherche des recettes.
+**KO :** « L'IA n'arrive pas dans une économie immobile. » + « L'enjeu n'est pas seulement ce que l'IA peut automatiser : c'est ce qu'une économie déjà sous tension fera des gains de productivité qu'elle rend possibles. »
+**Faits :** FCT-001 à 004 (INV-P0-08), indicateurs 1-28, schéma CROÎTRE/ÉCONOMISER/BAISSER LES PRIX.
+**Sources :** **INV-P0-08**, **matériau Acte VII (2026-08-26_17-30)**.
+**À couper :** rien : matériau prêt, checklist d'ancrage des snippets Europe dans le fichier.
+
+### Acte VIII. Qui capte la transition ?
+
+**Rôle :** verdict de pouvoir, claims audités.
+**Résumé :** Fiscalité internationale : 4 Big Tech évitent 51 Md$ d'impôts US par an (ITEP) : propriété structurelle (le capital logiciel est plus mobile que la masse salariale), jamais des recettes françaises perdues. Dépendances technologiques (INV-P1-09) : S3NS/Bleu reposent sur une technologie 100 % américaine (fait primaire), surcoût 20-40 %, 84 M€/an (+62 %), licences secrètes (bornes 11-37 M€/an), CLOUD Act + gag orders, SEAL-2 autorisant les dépendances non-européennes, contraste Safespring (seul SEAL publié, 86,25 %) avec l'opacité française (0 acteur sur 4). Formulations bannies : « cheval de Troie », « coquille », « façade », « pompe à dollars », « FAUX clouds ». Big Three : 30 T$ d'AUM, 20-25 % du S&P 500, circularité. Juxtaposition factuelle, jamais chaîne causale Big Tech → déficit → CCRE (« partiellement inférée », décision actée).
+**KO :** « Le cloud "souverain" français repose sur une technologie 100 % américaine. » + « Le coût des licences est secret. Le secret est le verdict. »
+**Faits :** CL-F01 à F14 (INV-P1-09), ITEP 51 Md$, F-001 Big Three, F-010 DINUM 84 M€.
+**Sources :** **INV-P1-09**, **INV-P1-07**, `performativite-strategies-IA-publiques`, `cout-reel-licences-US`, `stress-test-embargo-US`, `comparaison-cloud-souverain-europe`, `paradis-data-big-tech`, `cartographie-big-three`.
+**À couper :** les 4 étages de captation performative (synthèse 2 phrases) ; tout le lexique militant ; « 51 Md$ → pertes françaises » (interdit).
+
+### Conclusion. Un verdict
+
+**Rôle :** le verdict que V3_1 n'osait pas rendre.
+**Résumé :** Le scénario d'un effondrement brutal causé par l'IA n'est pas démontré. La vulnérabilité, elle, l'est. Elle tient moins au nombre de robots qu'à une question de circulation de la valeur : si une fraction croissante de la production quitte la masse salariale pour devenir logiciel, marge, import technologique ou capital, le modèle social devra déplacer son assiette au même rythme. La France a déjà commencé cette transition. Ce que l'IA peut changer, c'est sa vitesse.
+**KO :** « Le scénario d'un effondrement brutal causé par l'IA n'est pas démontré. La vulnérabilité, elle, l'est. »
+**Sources :** résolution tour 3, thèse A′ ; appuis : Actes V, VI, VII.
+
+---
+
+## Bloc C : cartographie du corpus (mise à jour 26/08)
 
 ```
-§0  :  Le chiffre qui manque
-      Rôle narratif : setup  :  planter le décor par l'absence
-      Résumé : La Cour des comptes publie un rapport de 300 pages sur la Sécu. Le mot « intelligence artificielle » n'y figure pas. Pendant ce temps, chaque −1 % d'emploi coûte 5,5 Md€. Le lecteur comprend que le sujet n'est pas « l'IA va-t-elle détruire l'emploi ? » mais « qui mesure ce qui se passe ? »
-      KO sentence : « La Cour des comptes ne mentionne jamais l'IA. »
-      Faits mobilisés : F-003 stress-test-secu (GAP), F-001 Sécu 21,6Md€, F-005 −1%=−5,5Md€
-      Quintessences source : stress-test-secu, ia-salariat-fresque-systemique
-      À couper : les scénarios chiffrés (32/49/121 Md€)  :  trop techniques pour l'accroche
+Phares (section dédiée) :
+- leffondrement-du-modele-salarial : Actes I/V : socle fiscal, coin 47,2 %, vidéo
+- leffondrement-transcript-forensic : Acte I : 9 distorsions, 5 contradictions, CTA Patreon
+- effet-reel-agents-IA-production : Acte II : Klarna/IBM, HBR 2 %, Altman
+- performativite-strategies-IA-publiques : Acte VIII : S3NS/Bleu, faits primaires
+- france-travail-CCRE : Acte VIII : 26 variables, 6 M/mois, code refusé
+- cartographie-big-three : Acte VIII : 30 T$, 20-25 % S&P 500, circularité
 
-§1  :  La vidéo et ses angles morts
-      Rôle narratif : contre-enquête  :  déconstruire le récit dominant
-      Résumé : Une vidéo YouTube de 32 minutes (71K abonnés) annonce l'effondrement du salariat dans 12-18 mois. Son diagnostic (asymétrie fiscale travail/IA) est partiellement exact. Son pronostic est contredit par toutes les données disponibles. Et son auteur opère sous pseudonyme avec un Patreon  :  conflit d'intérêts jamais déclaré.
-      KO sentence : « Trente-deux minutes d'alarme, zéro source, un Patreon. »
-      Faits mobilisés : D1-D9 transcript-forensic, CLM-001 à 011 maître, FCT-001 à 004, FCT-R04/R05/R06 (ECB/EIB/Anthropic)
-      Quintessences source : leffondrement-du-modele-salarial, leffondrement-transcript-forensic, leffondrement-renard-v1, leffondrement-psychologie
-      À couper : l'analyse ligne à ligne des 21 sections du transcript  :  réserver les 9 distorsions les plus frappantes
+Appui :
+- attrition-silencieuse : Acte III : banques, FO « PSE silencieux »
+- non-remplacements-france : Acte III : trou statistique DARES/MMO
+- stress-test-secu : Acte VI : déficit 21,6 Md€, angle mort
+- cout-reel-licences-US : Actes IV/VIII : 84 M€, bornes 11-37 M€/an
+- stress-test-embargo-US : Acte VIII : CLOUD Act, IEEPA, 7-90j (scénario)
+- comparaison-cloud-souverain-europe : Acte VIII : Safespring 86,25 %, SEAL-2
+- rupture-democratique-ia : Acte VIII : KCL 70 % peur
+- travailleurs-clic-ia : Acte I transition : 260k France, chaîne invisible
+- paradis-data-big-tech : Acte VIII : ITEP 51 Md$, Microsoft 2,44 %
+- leffondrement-histoire : Acte V : Autor QJE 2024
+- leffondrement-revenu-universel : Acte VIII : Finlande, Stockton +12 pts
+- leffondrement-renard-v1 : Actes I/II : ECB muted, EIB, Anthropic
 
-§2  :  Ce que les données montrent (et ne montrent pas)
-      Rôle narratif : bascule  :  le lecteur comprend que l'effondrement n'est pas là
-      Résumé : ECB : effets « atones ». Anthropic : « aucune augmentation systématique du chômage ». Oxford Economics : « si l'IA remplaçait le travail à grande échelle, la productivité accélérerait. Elle n'accélère pas. » Full automation IA = 3 échecs documentés sur 3 (Klarna 700 postes → réembauche, CBA 45 agents → excuses, IBM 7 800 gelés → triplement recrutements juniors). 55 % des employeurs regrettent. 32-67 % réembauchent. 2 % basent leurs coupes sur une implémentation réelle. Altman : « There's some AI washing. »
-      KO sentence : « Trois entreprises ont remplacé des humains par l'IA. Toutes les trois les ont réembauchés. »
-      Faits mobilisés : FCT-R04 ECB muted, FCT-R06 Anthropic no increase, F-019 Oxford Economics, F-003 Klarna, F-005 CBA, F-006 IBM, F-007 Forrester 55%, F-010 Robert Half 32%, F-001 HBR 2%, F-007 Altman AI washing
-      Quintessences source : effet-reel-agents-IA-production, leffondrement-renard-v1, business-cases-remplacement-IA, leffondrement-sociologie-professions, leffondrement-capgemini, leffondrement-droit-travail
-      À couper : le détail des business cases (coûts de réembauche, CSAT)  :  mentionner le verdict, pas la méthodologie
+Investigations du 26/08 (prépondérantes, gate BLOCKED main / checks PASS) :
+- INV-P0-01 attrition-non-remplacements : Acte III : FBF ◈, trou MMO, −5k/−7k rétrogradé
+- INV-P0-02 angle-mort-cour-comptes-ia : Acte VI : recherche négative exhaustive
+- INV-P0-03 cba-full-automation-echoue : Acte II : retour optionnel, substitution 2026
+- INV-P0-04 coin-fiscal-assiette-perimetres : Actes IV/V : tableau des périmètres, 98→55 % L2
+- INV-P0-08 terrain-macro-france-europe : Acte VII : 20 L2 + 5 snippets + 1 GAP
+- INV-P1-05 wavestone-cas-francais-integral : Actes II/IV : cannibalisation L2
+- INV-P1-06 createur-video-economie-recit : Acte I : funnel URL par URL
+- INV-P1-07 fuite-hors-assiette-nationale : Actes IV/VIII : bornes 11-37 M€/an
+- INV-P1-09 audit-claims-cloud-souverain : Acte VIII : table de verdict formulations
+- Materiau Acte VII (2026-08-26_17-30) : texte rédigé 1 830 mots
 
-§3  :  La vraie érosion : ce que personne ne mesure
-      Rôle narratif : révélation 1  :  le mécanisme réel
-      Résumé : −5 000 à −7 000 postes par an disparaissent dans les banques, assurances et télécoms sans un seul licenciement. Turnover bancaire 7,7 % (moyenne nationale 20 %) : 28 400 départs par an, on remplace moins qu'avant. FO Banques parle de « PSE silencieux hors cadre juridique et légal. » Aucun instrument statistique français ne mesure le « taux de remplacement des postes libérés ». Un poste non remplacé est un non-événement statistique. L'asymétrie fiscale (cotisations sur travail 443 Md€, zéro sur API) ne pousse pas à licencier  :  elle pousse à ne pas réembaucher.
-      KO sentence : « Un poste non remplacé n'existe pas dans les statistiques. »
-      Faits mobilisés : F-001 banques 368 800, F-004 télécoms −49k, F-006 FO Banques PSE, F-001 non-remplacements GAP, F-006 BMO −6,5 %, F-005 difficultés recrutement 64%→49%, FCT-111 cotisations 443 Md€, M2-F asymétrie→érosion, M2 attrition turnover bas
-      Quintessences source : attrition-silencieuse, non-remplacements-france, ia-salariat-fresque-systemique, leffondrement-10-zones
-      À couper : les détails FO Banques sur les AVC/burnout (pathos)  :  garder « PSE silencieux »
-
-§4  :  Qui paie ? L'asymétrie fiscale et l'évasion des Big Tech
-      Rôle narratif : révélation 2  :  qui finance et qui évite
-      Résumé : Le coin fiscal français (47,2 %) est réel, structurel, et vulnérable. Mais les cotisations ne financent déjà plus que 48 % du financement social. La CSG (145 Md€/an) a été créée en 1991 par Rocard. La transition est en cours depuis 35 ans. Le vrai scandale fiscal est ailleurs : 4 Big Tech évitent 51 Md$ d'impôts US par an (taux effectif 4,9 %). Microsoft paie 2,44 % d'impôt fédéral. Apple verse 40 % de ses impôts mondiaux à l'Irlande  :  plus qu'au gouvernement fédéral américain. La nature intangible des services IA rend le profit shifting « particulièrement facile » (FACT Coalition). Pendant que la France débat de taxer les robots, les robots sont déjà en Irlande.
-      KO sentence : « Microsoft paie plus d'impôts à l'Irlande qu'au gouvernement fédéral américain. »
-      Faits mobilisés : F-001 ITEP 51 Md$, F-006 Microsoft 2,44 %, F-007 Microsoft/Irlande 3,5 Md$, F-011 Apple 17,1 Md$, FCT-104 FACT Coalition, FCT-003 cotisations 48%, FCT-006 CSG 1991, FCT-111 cotisations 443 Md€, FCT-Z03 allègements 20,9→77 Md€
-      Quintessences source : paradis-data-big-tech, leffondrement-du-modele-salarial, leffondrement-10-zones, leffondrement-renard-v2, leffondrement-geopolitique
-      À couper : le détail du TCJA/OBBBA  :  mentionner le mécanisme fiscal en 1 phrase
-
-§5  :  Qui contrôle ? Le cloud « souverain » qui ne l'est pas
-      Rôle narratif : révélation 3  :  la dépendance construite par l'État
-      Résumé : S3NS (Thales/Google) et Bleu (Orange/Capgemini/Microsoft) : 100 % code américain dans des coquilles françaises. Surcoût 20-40 % vs hyperscalers directs. 84 M€/an de commandes publiques (+62 % par an). Le coût des licences Microsoft et Google est SECRET : ni l'État, ni Thales, ni Orange, ni Microsoft ne publient les termes financiers. Estimation : 11-25 M€/an partent aux États-Unis. En 2028 (à +62 %/an), le cloud « souverain » enverra plus d'argent à Microsoft et Google que le budget annuel de l'ANSSI. Le CLOUD Act permet aux autorités US d'accéder aux données même stockées en Europe, avec interdiction d'informer le client (gag orders). Si embargo US : survie estimée 7-90 jours. L'Allemagne construit des alternatives (STACKIT, IONOS, Deutschland-Stack 250 M€). La Belgique pose la question que la France refuse. SEAL-2 (UE, octobre 2025) définit comme « souverain » ce qui autorise les dépendances non-européennes  :  validant le modèle français au niveau européen.
-      KO sentence : « Le cloud souverain français est cent pour cent américain. »
-      Faits mobilisés : F-001 S3NS/Bleu 100% US, F-008 DINUM 84 M€, F-001 cout-licences GAP, F-003 CLOUD Act, F-004 gag orders, F-011 Kabouya kill switch, F-006 survie 7-90j, F-002 Allemagne Deutschland-Stack, F-007 Safespring 86,25%, F-006 SEAL-2 framework, F-005 Belgique ACA Group question embargo
-      Quintessences source : performativite-strategies-IA-publiques, cout-reel-licences-US, stress-test-embargo-US, comparaison-cloud-souverain-europe, leffondrement-geopolitique
-      À couper : le détail des 4 étages de captation performative  :  synthétiser en 2 phrases
-
-§6  :  Qui est contrôlé ? L'algorithme qui trie les chômeurs
-      Rôle narratif : révélation 4  :  la boucle se ferme
-      Résumé : France Travail déploie CCRE (« Ciblage du Contrôle de la Recherche d'Emploi ») : 26 variables secrètes entraînées sur 60 000 contrôles passés. 6 millions de personnes profilables chaque mois. Contrôles : 200 000 en 2017 → 730 000 en 2025 → 1 500 000 visés en 2027. ×7,5 en dix ans. Le code source est refusé, en violation de la loi CADA. La chaîne d'automatisation est en construction : sélection algorithmique → robots de décision → probable IA générative future. Une fois construite, elle ne sera jamais démontée. La boucle se ferme : profits Big Tech délocalisés → recettes publiques faibles → déficit Sécu → austérité → contrôle accru des populations fragilisées par l'érosion de l'emploi.
-      KO sentence : « Six millions de chômeurs profilés chaque mois. Le code source est refusé. »
-      Faits mobilisés : F-001 CCRE, F-002 26 variables, F-003 6M, F-004 code refusé, F-005 ×7,5, F-006 document comité éthique, FCT-108 CCRE, M4-F profits→déficit→contrôle, FCT-107 Sécu 21,6 Md€
-      Quintessences source : france-travail-CCRE, stress-test-secu, ia-salariat-fresque-systemique, leffondrement-democratie
-      À couper : les précédents CNAF et Assurance maladie  :  mentionner en 1 phrase
-
-§7  :  Que reste-t-il ?
-      Rôle narratif : ouverture  :  synthèse et perspective
-      Résumé : La transition Bismarck→Beveridge est en cours depuis 35 ans (CSG 1991). Le scaling wall (Marcus 2024, LeCun 2025) fragilise l'hypothèse d'amélioration continue. Prix API −80 % (juillet 2026) : l'avantage-coût de la substitution se réduit. Les expériences UBI (Finlande, Stockton) montrent que le revenu garanti n'incite pas à ne pas travailler  :  il augmente l'emploi à temps plein de 12 points. Mais ces signaux sont faibles face au poids institutionnel de la dépendance construite. Big Three (BlackRock/Vanguard/State Street) : 30 T$ d'actifs, 20-25 % du S&P 500, circularité totale. Les mêmes mains possèdent les entreprises qui produisent l'IA, celles dont elle détruit l'emploi, et les fonds de pension des travailleurs menacés. 70 % du public britannique craint l'IA. 70 % des employeurs sont « excités ». Aucun État n'a de stratégie politique pour gérer ce fossé.
-      KO sentence : « Les mêmes mains possèdent l'IA, les emplois qu'elle menace, et les pensions des travailleurs. »
-      Faits mobilisés : FCT-006 CSG 1991, FCT-Z05 CSG 1,1%→9,2%, FCT-Z09 scaling wall, FCT-RV04 prix API −80%, FCT-UB01 Finlande, FCT-UB02 Stockton, F-001 Big Three 30T$, F-002 20-25% S&P 500, F-009 circularité, F-007 KCL 70% peur, F-014 Brookings automation→extrême droite, FCT-E01/E02 énergie
-      Quintessences source : cartographie-big-three, rupture-democratique-ia, leffondrement-revenu-universel, leffondrement-renard-v2, leffondrement-histoire, leffondrement-energie, leffondrement-education, leffondrement-philosophie, travailleurs-clic-ia
-      À couper : le détail des expériences UBI (Finlande 2 000 chômeurs, Stockton 125 résidents)  :  garder le verdict
-```
-
-## Bloc C  :  Cartographie du corpus (mode enquête)
-
-```
-Quintessences-phares (section dédiée) :
-- leffondrement-du-modele-salarial : §1 (§0 appui)  :  socle fiscal + vidéo, FCT-001 à 018, CLM-001 à 011
-- leffondrement-transcript-forensic : §1  :  9 distorsions D1-D9, 5 contradictions, conflit d'intérêts
-- effet-reel-agents-IA-production : §2  :  Klarna/CBA/IBM/Salesforce, HBR 2%, Altman AI washing
-- paradis-data-big-tech : §4  :  ITEP 51Md$, Microsoft 2,44%, Apple 40%, FACT Coalition
-- performativite-strategies-IA-publiques : §5  :  S3NS/Bleu, 4 étages, inversion sémantique
-- france-travail-CCRE : §6  :  26 variables, 6M, code refusé, ×7,5 contrôles
-- cartographie-big-three : §7 (§6 appui)  :  30 T$, 20-25% S&P 500, circularité, FTC
-
-Quintessences-appui (fait/citation/chiffre dans section phare) :
-- stress-test-secu : §0 (§3 appui)  :  −1%=−5,5Md€, Cour des comptes angle mort
-- ia-salariat-fresque-systemique : §2 (§3 appui)  :  M2 asymétrie→érosion, M4 profits→déficit→contrôle
-- attrition-silencieuse : §3  :  banques −20k, télécoms −49k, FO « PSE silencieux »
-- non-remplacements-france : §3  :  trou statistique DARES, BMO −6,5%, difficultés 64→49%
-- leffondrement-renard-v1 : §1 (§2 appui)  :  ECB « muted », EIB « boosts productivity », Anthropic « no increase »
-- cout-reel-licences-US : §5  :  enquête blanche, 11-25 M€/an, projection 2028
-- stress-test-embargo-US : §5  :  survie 7-90j, IEEPA/CLOUD Act, OVHcloud 100:1
-- comparaison-cloud-souverain-europe : §5  :  Allemagne multicloud, Safespring 86,25%, SEAL-2
-- rupture-democratique-ia : §7  :  KCL 70% peur, China Shock→AI Shock, Brookings
-- travailleurs-clic-ia : §2 appui (§7 transition)  :  260k France, Kenyans <2$/h
-- leffondrement-histoire : §7  :  Autor QJE 2024 (automation > augmentation depuis 1980)
-- leffondrement-revenu-universel : §7  :  Finlande emploi =, Stockton +12 pts
-
-Quintessences-contexte (transition/note contextuelle/regroupement) :
-- leffondrement-droit-travail : transition §2  :  GDPR Art.22 + AI Act mentionnés en 1 phrase
-- leffondrement-sociologie-professions : transition §2  :  DeepL 25% licenciés (ironie)
-- leffondrement-geopolitique : transition §5  :  Draghi 4 000 Md$, Mistral exception
-- leffondrement-energie : transition §7  :  data centers 945 TWh 2030, externalité
-- leffondrement-education : transition §7  :  Prompt Engineer = dactylo ère IA
-- leffondrement-psychologie : transition §1  :  doomscrolling, negativity bias, business model
-- leffondrement-democratie : transition §6  :  deepfakes 50+ pays, Liar's Dividend
-- leffondrement-philosophie : transition §7  :  Lafargue, Gorz, Stiegler
-- leffondrement-renard-v2 : transition §4/§7  :  FAISCEAU 5 claims, Mistral
-- leffondrement-10-zones : transition §3/§7  :  allègements 77 Md€, scaling wall, Danemark
-- leffondrement-capgemini : transition §2  :  2 400 postes, DG Trésor conteste
-- business-cases-remplacement-IA : fusionné dans §2 (redondant avec agents IA)
-- synthese-forensique-IA-salariat : non mobilisé (agrégation 2e niveau)
-- leffondrement-deep-dive : non mobilisé (redondant avec 10-zones KERNEL)
-- leffondrement-brainstorm : non mobilisé (réflexif, non KERNEL)
+Contexte (transition/note) :
+- leffondrement-droit-travail : transition Acte II : GDPR Art.22, AI Act
+- leffondrement-sociologie-professions : transition Acte II : DeepL 25 %
+- leffondrement-geopolitique : transition Acte VIII : Draghi, Mistral
+- leffondrement-energie : transition Acte VII : data centers 945 TWh 2030
+- leffondrement-education : transition Acte VII : Prompt Engineer
+- leffondrement-psychologie : transition Acte I : doomscrolling, business model anxiété
+- leffondrement-democratie : transition Acte VIII : deepfakes, Liar's Dividend
+- leffondrement-philosophie : transition Acte V : Lafargue, Gorz
+- leffondrement-renard-v2 : transition Actes I/V : FAISCEAU 5 claims
+- leffondrement-10-zones : transition Acte V : allègements 77 Md€, scaling wall
+- leffondrement-capgemini : transition Acte II : 2 400 postes
+- business-cases-remplacement-IA : fusionné Acte II
+- synthese-forensique-IA-salariat : agrégation, non mobilisée directement
+- leffondrement-deep-dive / -brainstorm : non mobilisés
 ```
 
 ---
 
-## Auto-évaluation Phase 2.5
+## Auto-évaluation V2
 
 ### Passe de serrage
 
-1. **Asyndète** : connecteurs logiques supprimés dans les KO sentences et les résumés. La ponctuation porte la logique. ✅
-2. **Phrases ≤25 mots** : vérifié sur les KO sentences (7-18 mots). ✅
-3. **Vérifiabilité KO sentences** : chaque KO est directement vérifiable depuis le rapport Phase 2. « La Cour des comptes ne mentionne jamais l'IA » → F-003 stress-test-secu GAP. « Trois entreprises... réembauchés » → F-003/005/006 agents IA. « Le cloud souverain... américain » → F-001 performativité. Aucune ne contient « propagande », « zéro », « jamais » sans ancrage Phase 2 direct. ✅
-4. **Lexique de gradation** : les verbes « documente », « établit » (niveau 1), « converge » (niveau 2), « suggère » (niveau 3) sont utilisés. « Démontre » et « prouve » absents pour les niveaux 2-6. ✅
-5. **Anglicismes** : vérifié. « Implémentation » conservé (terme technique HBR, accepté dans le contexte forensique). ✅
+1. **Asyndète** : connecteurs supprimés dans les KO et résumés d'actes. ✅
+2. **Phrases ≤25 mots** : vérifié sur les KO (7-20 mots). ✅
+3. **Vérifiabilité KO sentences** : chaque KO remonte à une investigation P0/P1 ou un fait ancré. « Cour des comptes jamais l'IA » → INV-P0-02 (0 occurrence, 17 101 lignes). « Trois entreprises... revenues en arrière » → Klarna (vérifiée), CBA (INV-P0-03), IBM. « Cloud souverain... technologie 100 % américaine » → INV-P1-09 CL-F01. « Le financement... avant l'IA » → INV-P0-04 (98→55 % L2). ✅
+4. **Lexique de gradation** : « documente » (niveau 1), « converge » (niveau 2), « suggère » (niveau 3) ; « démontre »/« prouve » absents des niveaux inférieurs. ✅
+5. **Anglicismes** : « implémentation » conservé (terme HBR, contexte forensique). ✅
 
 ### Vérification des contraintes
 
 | # | Contrainte | Verdict |
 |---|-----------|---------|
-| 1 | Zéro hallucination | ✅ Tout vient du rapport Phase 2 ou des quintessences |
-| 2 | Une thèse organisatrice, pas cinq | ✅ 1 phrase, relie T1-T4 via X3 |
-| 3 | Angle = engagement spécifique | ✅ Contre-enquête → anatomie |
-| 4 | Arc = progression, pas plan | ✅ 7 mouvements, le lecteur arrive ailleurs |
-| 5 | Orchestration hiérarchisée | ✅ Phares (7) / Appui (12) / Contexte (15) |
-| 6 | KO sentences = constats, pas jugements | ✅ Aucune imputation d'intention, aucun pathos |
-| 7 | Question ouverte ≠ conclusion | ✅ « Qui contrôle la transition, et pour qui ? » |
+| 1 | Zéro hallucination | ✅ Tout remonte au corpus ou aux investigations du 26/08 |
+| 2 | Une thèse organisatrice | ✅ Thèse A′ (Q3), une phrase |
+| 3 | Angle = engagement | ✅ Contre-enquête → anatomie |
+| 4 | Arc = progression | ✅ 8 actes, le lecteur arrive au verdict |
+| 5 | Orchestration hiérarchisée | ✅ Phares / Appui / Investigations 26/08 / Contexte |
+| 6 | KO sentences = constats | ✅ Aucune imputation d'intention, aucun pathos |
+| 7 | Question ouverte ≠ conclusion | ✅ Q8 « qui contrôle la transition, et pour qui ? » |
 | 8 | Zéro em-dash | ✅ Vérifié par grep |
-| 9 | Vérifiabilité KO sentences | ✅ Toutes ancrées rapport Phase 2 |
-| 10 | Distinction niveaux probatoires | ✅ Lexique de gradation appliqué |
-| 11 | Usage mot « propagande » | ✅ Non utilisé |
-| 12 | Propreté langue | ✅ Pas d'anglicismes, pas de tics LLM |
-| 13 | Rythme asyndète | ✅ ≥50% connecteurs supprimés dans Q0-Q8 et KO |
+| 9 | Vérifiabilité KO | ✅ Ancrage P0/P1 affiché |
+| 10 | Distinction niveaux probatoires | ✅ INFERENCE vs FACT affichés (attrition, CBA, bornes, snippets Europe) |
+| 11 | Mot « propagande » | ✅ Non utilisé |
+| 12 | Propreté langue | ✅ |
+| 13 | Rythme asyndète | ✅ |
 
-**Volumétrie :** ~1 950 mots (dans la cible 1 200-2 500 mode enquête). **Fichier :** `investigations/2026-08/2026-08-24_leffondrement-du-modele-salarial/_synthese/blueprint_narratif.md`
+**Volumétrie :** ~2 900 mots (blueprint de travail ; le corps d'article cible reste 8 000-10 000 mots). **Fichier :** `investigations/2026-08/2026-08-24_leffondrement-du-modele-salarial/_synthese/blueprint_narratif.md`
+
+**Rappel des 3 réserves de la résolution (à relire avant rédaction) :** (1) les chiffres FIPECO du tour 3 sont au même statut snippet que ceux qu'il critique : ancrage fait par INV-P0-04 ; (2) la « sur-calibration » porte sur l'article, pas le corpus ; (3) l'Option A′ est retenue sous réserve des audits, désormais exécutés.
