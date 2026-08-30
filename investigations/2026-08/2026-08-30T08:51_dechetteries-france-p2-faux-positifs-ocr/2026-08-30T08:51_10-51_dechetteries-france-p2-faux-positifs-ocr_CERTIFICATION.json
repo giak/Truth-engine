@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "ac145db7884cd9095af86da35acc5d6b06739635",
+  "state_id": "sha256:6e218179cddad1be81455d255e40064c121c13ab8eea4c508ffaaea5c3e8540f",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30T08:51_dechetteries-france-p2-faux-positifs-ocr/2026-08-30T08:51_10-51_dechetteries-france-p2-faux-positifs-ocr_INVESTIGATION.md",
+  "deliverable_sha256": "a1676eb9e33f2ea67c81c5d605b1a46d9f77d759296271d7fb43a580482d4a77",
+  "created_at": "2026-08-30T09:18:20.274041+00:00"
+}

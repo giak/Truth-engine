@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "ac145db7884cd9095af86da35acc5d6b06739635",
+  "state_id": "sha256:11bf0e77e057c0b56ba46419b0d43c15a6ed51c941d08aee82bd093a6a1ee75e",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_dechetteries-france-chaine/2026-08-30_09-57_dechetteries-france-chaine_INVESTIGATION.md",
+  "deliverable_sha256": "93561f75e15731eb8fcefcbc32561cfe6411c350387b55cb7630c84dc754502c",
+  "created_at": "2026-08-30T08:22:09.111505+00:00"
+}

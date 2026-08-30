@@ -1,0 +1,9 @@
+PRIORITE BASSE P2 — Sécuriser le test d'antériorité du mot « déchèterie » dans les corpus OCR libres.
+
+Contexte : la passe chaîne (20260830-0957) a établi que sur ~300 documents OCR Gallica contenant « dechetterie », aucun n'est daté entre 1937 et 1985 ; les seules occurrences antérieures identifiées sont 1885 et 1937, présentées comme « faux positifs OCR ». Cette affirmation n'a pas été vérifiée matériallement : les ARK des deux documents et leurs fac-similés ALTO n'ont jamais été inspectés.
+
+Objectif : localiser par SRU Gallica les occurrences « dechetterie » datées 1885 et 1937, récupérer leurs ARK, inspecter les fac-similés (OCR ALTO / image) et déterminer si ce sont de vrais usages du mot ou des erreurs de numérisation. Ceci sécurise le test de significativité « le mot n'existait pas avant 1980 » : si les 1885/1937 sont bien des faux positifs, l'absence du mot avant 1980 résiste ; sinon, l'hypothèse d'antériorité doit être révisée.
+
+Méthode : requêtes SRU Gallica (dcdate restreinte à <1980), extraction des ARK des occurrences 1885 et 1937, inspection d'ALTO (https://gallica.bnf.fr/ark:/12148/<id>/alto) et/ou fac-similé image des pages concernées.
+
+Livrable KERNEL UPDATE (FINAL), parent = 20260830-0957-dechetteries-france-chaine.
