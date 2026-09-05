@@ -42,7 +42,7 @@ def _norm(s: str) -> str:
 
 
 def scan_dirs(base: Path) -> list[str]:
-    return sorted(p.name for p in base.iterdir() if p.is_dir())
+    return sorted(p.name for p in base.iterdir() if p.is_dir() and not p.name.startswith("__"))
 
 
 def classify_dir(base: Path, name: str) -> dict:

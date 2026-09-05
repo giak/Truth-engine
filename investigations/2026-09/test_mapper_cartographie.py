@@ -103,6 +103,15 @@ def test_scan_dirs_retourne_dossiers_tries(tmp_path):
     assert "2026-09-05_achat-de-vote-france-ue" in dirs
 
 
+def test_scan_dirs_exclut_les_dossiers_prives(tmp_path):
+    base = build_fixture(tmp_path)
+    (base / "__pycache__").mkdir()
+    (base / "__pycache__" / "mapper_cartographie.cpython-312.pyc").write_text("x", encoding="utf-8")
+    dirs = mc.scan_dirs(base)
+    assert "__pycache__" not in dirs
+    assert len(dirs) == 4
+
+
 # --- classify_dir ---
 
 
