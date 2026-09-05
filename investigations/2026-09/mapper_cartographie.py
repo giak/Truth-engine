@@ -209,7 +209,50 @@ def map_classes(info: dict, title: str, run_state: dict | None, overrides: dict)
 
 
 def derive_gaps(subjects: list[dict], facts: list[dict]) -> dict:
-    raise NotImplementedError
+    empty_dirs = sorted(s["name"] for s in subjects if s["kind"] == "empty")
+    bare_md = sorted(s["name"] for s in subjects if s["kind"] == "bare")
+    partial = sorted(s["name"] for s in subjects if s["kind"] == "partial")
+
+    candidates = []
+    for f in facts:
+        if f["tier"] == "✧":
+            candidates.append(
+                {
+                    "key": f["key"],
+                    "tier": "✧",
+                    "url": f["url"],
+                    "subject_dir": f["subject_dir"],
+                }
+            )
+
+    actions_pending = []
+    questions_ouvertes = []
+    leads_a_traiter = []
+    class_counts: dict[str, int] = {}
+    for s in subjects:
+        for a in s.get("actions_pending", []):
+            actions_pending.append({"dir": s["name"], "id": a["id"], "text": a["text"]})
+        for g in s.get("causal_gaps", []):
+            questions_ouvertes.append(
+                {"dir": s["name"], "id": g["id"], "text": g["text"], "gap_type": g["gap_type"]}
+            )
+        for l in s.get("leads_non_saturated", []):
+            leads_a_traiter.append({"dir": s["name"], "id": l["id"], "subject": l["subject"]})
+        for cm in s.get("classes", []):
+            class_counts[cm["class"]] = class_counts.get(cm["class"], 0) + 1
+
+    angles_morts = {c: class_counts.get(c, 0) for c in CLASSES if class_counts.get(c, 0) <= 1}
+
+    return {
+        "planifie_non_execute": empty_dirs,
+        "hors_protocole": bare_md,
+        "partiel": partial,
+        "candidats_elevation": candidates,
+        "actions_pending": actions_pending,
+        "questions_ouvertes": questions_ouvertes,
+        "leads_a_traiter": leads_a_traiter,
+        "angles_morts_classes": angles_morts,
+    }
 
 
 def build_data(base: Path, overrides: dict) -> dict:

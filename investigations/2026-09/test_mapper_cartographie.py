@@ -251,3 +251,39 @@ def test_campagne_classes_json_seed_valide(tmp_path):
     for cls_list in seed.values():
         for c in cls_list:
             assert c in mc.CLASSES
+
+
+# --- derive_gaps ---
+
+
+def test_derive_gaps(tmp_path):
+    base = build_fixture(tmp_path)
+    subjects = []
+    facts = []
+    for name in mc.scan_dirs(base):
+        info = mc.classify_dir(base, name)
+        rs = mc.load_json(base / name / info["run_file"]) if info["run_file"] else None
+        title = mc.extract_title(base, info)
+        fcts = mc.extract_facts(rs, mc.extract_run_id(rs), name)
+        facts += fcts
+        subjects.append(
+            {
+                "name": name,
+                "kind": info["kind"],
+                "title": title,
+                "actions_pending": mc.extract_actions_pending(rs),
+                "causal_gaps": mc.extract_causal_gaps(rs),
+                "leads_non_saturated": mc.extract_leads_non_saturated(rs),
+            }
+        )
+    gaps = mc.derive_gaps(subjects, facts)
+    assert gaps["planifie_non_execute"] == ["2026-09-05_uk-brexit-dark-money-flux-financiers"]
+    assert gaps["hors_protocole"] == ["2026-09-05_justice-deux-vitesses-weaponisation-judiciaire"]
+    assert gaps["partiel"] == ["2026-09-05_uk-brexit-v2"]
+    assert len(gaps["candidats_elevation"]) == 1
+    assert gaps["candidats_elevation"][0]["tier"] == "✧"
+    assert len(gaps["actions_pending"]) == 1
+    assert len(gaps["questions_ouvertes"]) == 1
+    assert len(gaps["leads_a_traiter"]) == 1
+    assert isinstance(gaps["angles_morts_classes"], dict)
+    assert all(c in mc.CLASSES for c in gaps["angles_morts_classes"])
