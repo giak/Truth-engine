@@ -28,15 +28,40 @@ CLASSES = (
 
 
 def scan_dirs(base: Path) -> list[str]:
-    raise NotImplementedError
+    return sorted(p.name for p in base.iterdir() if p.is_dir())
 
 
 def classify_dir(base: Path, name: str) -> dict:
-    raise NotImplementedError
+    d = base / name
+    files = [p.name for p in d.iterdir() if p.is_file()]
+    inv = next((f for f in files if f.endswith("_INVESTIGATION.md")), None)
+    run = next((f for f in files if f.endswith("_RUN_STATE.json")), None)
+    cert = next((f for f in files if f.endswith("_CERTIFICATION.json")), None)
+    if run and inv and cert:
+        kind = "kernel"
+    elif run:
+        kind = "partial"
+    elif files:
+        kind = "bare"
+    else:
+        kind = "empty"
+    return {
+        "name": name,
+        "kind": kind,
+        "files": len(files),
+        "inv_file": inv,
+        "run_file": run,
+        "cert_file": cert,
+    }
 
 
 def load_json(path: Path | None) -> dict | None:
-    raise NotImplementedError
+    if path is None:
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
 
 
 def extract_title(base: Path, info: dict) -> str:

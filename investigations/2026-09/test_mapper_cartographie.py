@@ -90,3 +90,78 @@ def build_fixture(tmp_path: Path) -> Path:
     (base / mc.OUT_MD).write_text("x", encoding="utf-8")
 
     return base
+
+
+# --- scan_dirs ---
+
+
+def test_scan_dirs_retourne_dossiers_tries(tmp_path):
+    base = build_fixture(tmp_path)
+    dirs = mc.scan_dirs(base)
+    assert dirs == sorted(dirs)
+    assert len(dirs) == 4
+    assert "2026-09-05_achat-de-vote-france-ue" in dirs
+
+
+# --- classify_dir ---
+
+
+def test_classify_dir_kinds(tmp_path):
+    base = build_fixture(tmp_path)
+    assert mc.classify_dir(base, "2026-09-05_achat-de-vote-france-ue")["kind"] == "kernel"
+    assert mc.classify_dir(base, "2026-09-05_uk-brexit-v2")["kind"] == "partial"
+    assert mc.classify_dir(base, "2026-09-05_justice-deux-vitesses-weaponisation-judiciaire")["kind"] == "bare"
+    assert mc.classify_dir(base, "2026-09-05_uk-brexit-dark-money-flux-financiers")["kind"] == "empty"
+
+
+def test_classify_dir_returns_expected_keys(tmp_path):
+    base = build_fixture(tmp_path)
+    info = mc.classify_dir(base, "2026-09-05_achat-de-vote-france-ue")
+    assert set(info.keys()) == {"name", "kind", "files", "inv_file", "run_file", "cert_file"}
+    assert info["name"] == "2026-09-05_achat-de-vote-france-ue"
+    assert isinstance(info["files"], int)
+    assert info["inv_file"] is not None
+    assert info["run_file"] is not None
+    assert info["cert_file"] is not None
+
+
+def test_classify_dir_partial_has_run_only(tmp_path):
+    base = build_fixture(tmp_path)
+    info = mc.classify_dir(base, "2026-09-05_uk-brexit-v2")
+    assert info["kind"] == "partial"
+    assert info["run_file"] is not None
+    assert info["inv_file"] is None
+    assert info["cert_file"] is None
+
+
+def test_classify_dir_empty_has_zero_files(tmp_path):
+    base = build_fixture(tmp_path)
+    info = mc.classify_dir(base, "2026-09-05_uk-brexit-dark-money-flux-financiers")
+    assert info["kind"] == "empty"
+    assert info["files"] == 0
+    assert info["inv_file"] is None
+    assert info["run_file"] is None
+    assert info["cert_file"] is None
+
+
+# --- load_json ---
+
+
+def test_load_json_returns_none_for_none():
+    assert mc.load_json(None) is None
+
+
+def test_load_json_returns_dict_for_valid_file(tmp_path):
+    p = tmp_path / "data.json"
+    p.write_text(json.dumps({"key": "value"}), encoding="utf-8")
+    assert mc.load_json(p) == {"key": "value"}
+
+
+def test_load_json_returns_none_for_missing_file(tmp_path):
+    assert mc.load_json(tmp_path / "nonexistent.json") is None
+
+
+def test_load_json_returns_none_for_invalid_json(tmp_path):
+    p = tmp_path / "bad.json"
+    p.write_text("NOT JSON {{{", encoding="utf-8")
+    assert mc.load_json(p) is None
