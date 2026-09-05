@@ -65,27 +65,97 @@ def load_json(path: Path | None) -> dict | None:
 
 
 def extract_title(base: Path, info: dict) -> str:
-    raise NotImplementedError
+    inv_path = info.get("inv_file")
+    if not inv_path:
+        return ""
+    try:
+        text = (base / info["name"] / inv_path).read_text(encoding="utf-8")
+    except OSError:
+        return ""
+    m = re.search(r"(?m)^#\s+(.+?)\s*$", text)
+    return m.group(1).strip()[:200] if m else ""
 
 
 def extract_facts(run_state: dict | None, origin_run: str, subject_dir: str) -> list[dict]:
-    raise NotImplementedError
+    if not run_state:
+        return []
+    out = []
+    for f in run_state.get("facts", []) or []:
+        if not isinstance(f, dict):
+            continue
+        out.append(
+            {
+                "key": str(f.get("key", "")),
+                "value": str(f.get("value", "")),
+                "tier": str(f.get("tier", "?")),
+                "families": [str(x) for x in f.get("families", []) or []],
+                "url": str(f.get("url", "")),
+                "memory_id": str(f.get("memory_id", "")),
+                "origin_run": origin_run,
+                "subject_dir": subject_dir,
+            }
+        )
+    return out
 
 
 def extract_actions_pending(run_state: dict | None) -> list[dict]:
-    raise NotImplementedError
+    if not run_state:
+        return []
+    out = []
+    for a in run_state.get("actions", []) or []:
+        if isinstance(a, dict) and str(a.get("status", "")).upper() == "PENDING":
+            out.append({"id": str(a.get("id", "")), "text": str(a.get("text", ""))[:200]})
+    return out
 
 
 def extract_causal_gaps(run_state: dict | None) -> list[dict]:
-    raise NotImplementedError
+    if not run_state:
+        return []
+    out = []
+    for c in run_state.get("causal", []) or []:
+        if not isinstance(c, dict):
+            continue
+        if c.get("status") == "GAP" or c.get("gap_type") == "EVIDENCE_GAP":
+            out.append(
+                {
+                    "id": str(c.get("id", "")),
+                    "text": str(c.get("text", ""))[:300],
+                    "gap_type": str(c.get("gap_type", "")),
+                }
+            )
+    return out
 
 
 def extract_leads_non_saturated(run_state: dict | None) -> list[dict]:
-    raise NotImplementedError
+    if not run_state:
+        return []
+    out = []
+    for l in run_state.get("leads", []) or []:
+        if isinstance(l, dict) and str(l.get("status", "")).upper() != "SATURATED":
+            out.append(
+                {
+                    "id": str(l.get("id", "")),
+                    "subject": str(l.get("subject") or l.get("text") or "")[:200],
+                    "priority": str(l.get("priority", "")),
+                }
+            )
+    return out
 
 
 def extract_run_id(run_state: dict | None) -> str:
-    raise NotImplementedError
+    if not run_state:
+        return ""
+    for key in ("run", "meta"):
+        v = run_state.get(key)
+        if isinstance(v, dict):
+            for k2 in ("id", "run_id"):
+                if isinstance(v.get(k2), str) and v[k2]:
+                    return v[k2]
+    for k3 in ("id", "run_id"):
+        v = run_state.get(k3)
+        if isinstance(v, str) and v:
+            return v
+    return ""
 
 
 def map_classes(info: dict, title: str, run_state: dict | None, overrides: dict) -> list[dict]:

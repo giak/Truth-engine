@@ -165,3 +165,51 @@ def test_load_json_returns_none_for_invalid_json(tmp_path):
     p = tmp_path / "bad.json"
     p.write_text("NOT JSON {{{", encoding="utf-8")
     assert mc.load_json(p) is None
+
+
+# --- extraction functions ---
+
+
+def test_extract_facts_normalise(tmp_path):
+    base = build_fixture(tmp_path)
+    info = mc.classify_dir(base, "2026-09-05_achat-de-vote-france-ue")
+    rs = mc.load_json(base / info["name"] / info["run_file"])
+    facts = mc.extract_facts(rs, "run-1", "2026-09-05_achat-de-vote-france-ue")
+    assert len(facts) == 2
+    assert facts[0]["tier"] == "✦"
+    assert facts[0]["url"] == "https://example.org/achat"
+    assert facts[0]["memory_id"] == "mem-0001"
+    assert facts[0]["families"] == ["A", "B"]
+    assert facts[0]["origin_run"] == "run-1"
+    assert facts[1]["tier"] == "✧"
+
+
+def test_extract_actions_causal_leads(tmp_path):
+    base = build_fixture(tmp_path)
+    info = mc.classify_dir(base, "2026-09-05_achat-de-vote-france-ue")
+    rs = mc.load_json(base / info["name"] / info["run_file"])
+    assert mc.extract_actions_pending(rs) == [
+        {"id": "ACT-001", "text": "Saisir les juridictions."}
+    ]
+    gaps = mc.extract_causal_gaps(rs)
+    assert len(gaps) == 1 and gaps[0]["id"] == "CAU-001" and gaps[0]["gap_type"] == "EVIDENCE_GAP"
+    leads = mc.extract_leads_non_saturated(rs)
+    assert len(leads) == 1 and leads[0]["id"] == "LED-001" and leads[0]["subject"] == "Vérifier le cas Y."
+
+
+def test_extract_run_id(tmp_path):
+    base = build_fixture(tmp_path)
+    info = mc.classify_dir(base, "2026-09-05_achat-de-vote-france-ue")
+    rs = mc.load_json(base / info["name"] / info["run_file"])
+    assert mc.extract_run_id(rs) == "20260905-1100-achat-de-vote-france-ue"
+
+
+def test_extract_title(tmp_path):
+    base = build_fixture(tmp_path)
+    info = mc.classify_dir(base, "2026-09-05_achat-de-vote-france-ue")
+    assert mc.extract_title(base, info) == "Achat de vote - France et UE"
+
+
+def test_load_json_absent():
+    assert mc.load_json(None) is None
+    assert mc.load_json(Path("/nonexistent/path.json")) is None
