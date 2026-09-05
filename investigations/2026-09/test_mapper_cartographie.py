@@ -191,6 +191,76 @@ def test_load_json_returns_none_for_invalid_json(tmp_path):
 # --- extraction functions ---
 
 
+def test_extract_facts_sentinelles_normalisees():
+    """Les sentinelles \"-\" et \"N/A\" (legacy) doivent donner \"\" pour memory_id et url."""
+    run_state = {
+        "facts": [
+            {
+                "subject": "Fait avec mem sentinel",
+                "value": "test",
+                "tier": "✦",
+                "families": ["A"],
+                "url": "https://example.org/ok",
+                "mem": "-",
+            },
+            {
+                "subject": "Fait avec url sentinel",
+                "value": "test",
+                "tier": "✦",
+                "families": ["B"],
+                "url": "N/A",
+                "memory_id": "mem-0003",
+            },
+            {
+                "subject": "Fait vide mémoire",
+                "value": "test",
+                "tier": "✦",
+                "families": ["C"],
+                "url": "",
+                "mem": "",
+            },
+            {
+                "subject": "Fait avec espaces",
+                "value": "test",
+                "tier": "✦",
+                "families": ["D"],
+                "url": "  ",
+                "mem": "  -  ",
+            },
+        ]
+    }
+    facts = mc.extract_facts(run_state, "run-test", "2026-09-05_test")
+    assert len(facts) == 4
+    # mem="-" → memory_id ""
+    assert facts[0]["memory_id"] == ""
+    assert facts[0]["url"] == "https://example.org/ok"
+    # url="N/A" → url ""
+    assert facts[1]["url"] == ""
+    assert facts[1]["memory_id"] == "mem-0003"
+    # empty strings stay empty
+    assert facts[2]["memory_id"] == ""
+    assert facts[2]["url"] == ""
+    # whitespace-only → empty
+    assert facts[3]["memory_id"] == ""
+    assert facts[3]["url"] == ""
+
+
+def test_extract_facts_sentinelles_inflate_pas_totals():
+    """with_url / with_memory_id ne doivent pas compter les sentinelles."""
+    run_state = {
+        "facts": [
+            {"subject": "A", "tier": "✦", "url": "https://example.org", "mem": "mem-001"},
+            {"subject": "B", "tier": "✦", "url": "-", "mem": "-"},
+            {"subject": "C", "tier": "✦", "url": "N/A", "memory_id": "N/A"},
+        ]
+    }
+    facts = mc.extract_facts(run_state, "run", "dir")
+    with_url = sum(1 for f in facts if f["url"])
+    with_mem = sum(1 for f in facts if f["memory_id"])
+    assert with_url == 1  # only fact A has a real URL
+    assert with_mem == 1  # only fact A has a real memory_id
+
+
 def test_extract_facts_schema_mixte():
     run_state = {
         "facts": [

@@ -41,6 +41,15 @@ def _norm(s: str) -> str:
     return " ".join(re.sub(r"[^a-zà-ÿœæ0-9]", " ", s.lower()).split())
 
 
+def _clean_no_data(v) -> str:
+    """Normalise les marqueurs « pas de donnée » (``""``, ``"-"``, ``"N/A"``)
+    en chaîne vide pour ne pas gonfler les comptages d'honnêteté."""
+    if v is None:
+        return ""
+    s = str(v).strip()
+    return "" if s in ("", "-", "N/A") else s
+
+
 def scan_dirs(base: Path) -> list[str]:
     return sorted(p.name for p in base.iterdir() if p.is_dir() and not p.name.startswith((".", "_")))
 
@@ -103,8 +112,8 @@ def extract_facts(run_state: dict | None, origin_run: str, subject_dir: str) -> 
                 "value": str(f.get("value", "")),
                 "tier": str(f.get("tier", "?")),
                 "families": [str(x) for x in f.get("families", []) or []],
-                "url": str(f.get("url", "")),
-                "memory_id": str(f.get("memory_id") or f.get("mem") or ""),
+                "url": _clean_no_data(f.get("url")),
+                "memory_id": _clean_no_data(f.get("memory_id") or f.get("mem")),
                 "origin_run": origin_run,
                 "subject_dir": subject_dir,
             }
