@@ -256,7 +256,68 @@ def derive_gaps(subjects: list[dict], facts: list[dict]) -> dict:
 
 
 def build_data(base: Path, overrides: dict) -> dict:
-    raise NotImplementedError
+    subjects: list[dict] = []
+    facts: list[dict] = []
+    for name in scan_dirs(base):
+        info = classify_dir(base, name)
+        run_state = load_json(base / name / info["run_file"]) if info["run_file"] else None
+        run_id = extract_run_id(run_state)
+        title = extract_title(base, info)
+        fcts = extract_facts(run_state, run_id, name)
+        facts += fcts
+        subjects.append(
+            {
+                "name": name,
+                "kind": info["kind"],
+                "files": info["files"],
+                "title": title,
+                "run_id": run_id,
+                "n_facts": len(fcts),
+                "tiers": {t: sum(1 for f in fcts if f["tier"] == t) for t in TIERS},
+                "n_leads": len(run_state.get("leads", []) or []) if run_state else 0,
+                "actions_pending": extract_actions_pending(run_state),
+                "causal_gaps": extract_causal_gaps(run_state),
+                "leads_non_saturated": extract_leads_non_saturated(run_state),
+                "classes": map_classes(info, title, run_state, overrides),
+            }
+        )
+
+    facts_total = {
+        "n": len(facts),
+        "tiers": {t: sum(1 for f in facts if f["tier"] == t) for t in TIERS},
+        "with_url": sum(1 for f in facts if f.get("url")),
+        "with_memory_id": sum(1 for f in facts if f.get("memory_id")),
+    }
+
+    matrix_classes: dict[str, list[str]] = {}
+    for s in subjects:
+        for cm in s["classes"]:
+            matrix_classes.setdefault(cm["class"], []).append(s["name"])
+    for cls in CLASSES:
+        matrix_classes.setdefault(cls, [])
+
+    counts = {
+        "dirs": len(subjects),
+        "with_run_state": sum(1 for s in subjects if s["kind"] in ("kernel", "partial")),
+        "with_full_kernel": sum(1 for s in subjects if s["kind"] == "kernel"),
+        "empty_dirs": sum(1 for s in subjects if s["kind"] == "empty"),
+    }
+
+    return {
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "source_dir": str(base),
+        "counts": counts,
+        "facts_total": facts_total,
+        "subjects": subjects,
+        "facts": facts,
+        "matrix_classes": matrix_classes,
+        "gaps": derive_gaps(subjects, facts),
+        "runs_topology": [
+            {"run_id": s["run_id"], "subject_dir": s["name"], "facts_n": s["n_facts"], "n_leads": s["n_leads"]}
+            for s in subjects
+            if s["run_id"]
+        ],
+    }
 
 
 def render_markdown(data: dict) -> str:

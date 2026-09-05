@@ -287,3 +287,23 @@ def test_derive_gaps(tmp_path):
     assert len(gaps["leads_a_traiter"]) == 1
     assert isinstance(gaps["angles_morts_classes"], dict)
     assert all(c in mc.CLASSES for c in gaps["angles_morts_classes"])
+
+
+# --- build_data ---
+
+
+def test_build_data_structure(tmp_path):
+    base = build_fixture(tmp_path)
+    data = mc.build_data(base, {})
+    assert data["counts"]["dirs"] == 4
+    assert data["counts"]["with_full_kernel"] == 1
+    assert data["counts"]["with_run_state"] == 2
+    assert data["counts"]["empty_dirs"] == 1
+    assert data["facts_total"]["n"] == 2
+    assert data["facts_total"]["tiers"]["✦"] == 1
+    assert data["facts_total"]["tiers"]["✧"] == 1
+    assert data["facts_total"]["with_url"] == 2
+    assert data["facts_total"]["with_memory_id"] == 2
+    assert len(data["subjects"]) == 4
+    assert data["runs_topology"][0]["run_id"] == "20260905-1100-achat-de-vote-france-ue"
+    assert "transactionnelle" in data["matrix_classes"]
