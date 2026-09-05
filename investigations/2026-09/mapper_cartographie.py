@@ -26,6 +26,20 @@ CLASSES = (
     "effet_asymetrie",
 )
 
+CLASS_KEYWORDS: dict[str, tuple[str, ...]] = {
+    "transactionnelle": ("achat", "corruption", "clientélisme", "clientelisme", "triche", "vote"),
+    "informationnelle": ("désinformation", "desinformation", "manipulation", "infiltration", "factcheck", "propagande", "microciblage", "deepfake"),
+    "lobbying": ("lobby", "thinktank", "think tank", "capture"),
+    "reseau": ("club", "siècle", "siecle", "francmacon", "franc-macon", "pantouflage", "réseau", "reseau"),
+    "etrangere_etatique": ("ned", "usaid", "cia", "elnet", "aipac", "soros", "israel", "ingérence", "ingerence", "couleur", "nordstream", "nord-stream"),
+    "coercitive": ("gps", "pegasus", "nso", "doppelganger", "brouillage", "cyber", "drone", "coercition", "caviardage"),
+    "effet_asymetrie": ("effet", "asymétrie", "asymetrie", "narratif", "impact"),
+}
+
+
+def _norm(s: str) -> str:
+    return " ".join(re.sub(r"[^a-zà-ÿœæ0-9]", " ", s.lower()).split())
+
 
 def scan_dirs(base: Path) -> list[str]:
     return sorted(p.name for p in base.iterdir() if p.is_dir())
@@ -159,7 +173,39 @@ def extract_run_id(run_state: dict | None) -> str:
 
 
 def map_classes(info: dict, title: str, run_state: dict | None, overrides: dict) -> list[dict]:
-    raise NotImplementedError
+    name = info["name"]
+    if name in overrides:
+        cls_list = overrides[name]
+        if not isinstance(cls_list, list):
+            cls_list = [cls_list]
+        return [
+            {"class": c, "source": "override", "confidence": "high"}
+            for c in cls_list
+            if c in CLASSES
+        ]
+
+    texts = [_norm(name), _norm(title)]
+    if run_state:
+        for bucket in ("leads", "claims", "axes"):
+            for o in run_state.get(bucket, []) or []:
+                if isinstance(o, dict):
+                    texts.append(_norm(str(o.get("subject") or o.get("text") or "")))
+        for f in run_state.get("facts", []) or []:
+            if isinstance(f, dict):
+                texts.append(_norm(str(f.get("key") or "")))
+    blob = " ".join(texts)
+
+    scores: dict[str, int] = {}
+    for cls, kws in CLASS_KEYWORDS.items():
+        hits = {kw for kw in kws if kw in blob}
+        if hits:
+            scores[cls] = len(hits)
+
+    result = []
+    for cls, n in sorted(scores.items(), key=lambda kv: (-kv[1], kv[0])):
+        confidence = "high" if n >= 2 else "medium"
+        result.append({"class": cls, "source": "auto", "confidence": confidence})
+    return result
 
 
 def derive_gaps(subjects: list[dict], facts: list[dict]) -> dict:

@@ -213,3 +213,41 @@ def test_extract_title(tmp_path):
 def test_load_json_absent():
     assert mc.load_json(None) is None
     assert mc.load_json(Path("/nonexistent/path.json")) is None
+
+
+# --- map_classes ---
+
+
+def test_map_classes_auto_multi(tmp_path):
+    base = build_fixture(tmp_path)
+    info = mc.classify_dir(base, "2026-09-05_achat-de-vote-france-ue")
+    rs = mc.load_json(base / info["name"] / info["run_file"])
+    classes = mc.map_classes(info, "Achat de vote - France et UE", rs, {})
+    cls = {c["class"]: c for c in classes}
+    assert "transactionnelle" in cls
+    assert cls["transactionnelle"]["source"] == "auto"
+    assert cls["transactionnelle"]["confidence"] == "high"
+
+
+def test_map_classes_aucun_mot_cle(tmp_path):
+    base = build_fixture(tmp_path)
+    info = mc.classify_dir(base, "2026-09-05_uk-brexit-dark-money-flux-financiers")
+    classes = mc.map_classes(info, "", None, {})
+    assert classes == []
+
+
+def test_map_classes_override_prime(tmp_path):
+    overrides = {"2026-09-05_achat-de-vote-france-ue": ["coercitive"]}
+    base = build_fixture(tmp_path)
+    info = mc.classify_dir(base, "2026-09-05_achat-de-vote-france-ue")
+    rs = mc.load_json(base / info["name"] / info["run_file"])
+    classes = mc.map_classes(info, "Achat de vote - France et UE", rs, overrides)
+    assert classes == [{"class": "coercitive", "source": "override", "confidence": "high"}]
+
+
+def test_campagne_classes_json_seed_valide(tmp_path):
+    seed = json.loads(Path(__file__).resolve().parent.joinpath("campagne_classes.json").read_text(encoding="utf-8"))
+    assert isinstance(seed, dict)
+    for cls_list in seed.values():
+        for c in cls_list:
+            assert c in mc.CLASSES
