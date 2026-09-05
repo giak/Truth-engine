@@ -307,3 +307,43 @@ def test_build_data_structure(tmp_path):
     assert len(data["subjects"]) == 4
     assert data["runs_topology"][0]["run_id"] == "20260905-1100-achat-de-vote-france-ue"
     assert "transactionnelle" in data["matrix_classes"]
+
+
+# --- render_markdown ---
+
+
+def test_render_markdown_sections(tmp_path):
+    base = build_fixture(tmp_path)
+    data = mc.build_data(base, {})
+    md = mc.render_markdown(data)
+    for section in (
+        "## §1 Vue d'ensemble",
+        "## §2 Inventaire des sujets",
+        "## §3 Atlas des faits",
+        "## §4 Matrice 7 classes x dossiers",
+        "## §5 Gaps & leads",
+        "## §6 Topographie des runs",
+    ):
+        assert section in md
+    assert "achat de vote documenté" in md
+
+
+# --- main ---
+
+
+def test_main_ecrit_les_sorties(tmp_path):
+    base = build_fixture(tmp_path)
+    out_json = tmp_path / "sortie.json"
+    out_md = tmp_path / "sortie.md"
+    rc = mc.main(
+        [
+            "--base", str(base),
+            "--overrides", str(tmp_path / "campagne_classes.json"),
+            "--out-json", str(out_json),
+            "--out-md", str(out_md),
+        ]
+    )
+    assert rc == 0
+    assert out_json.exists() and out_md.exists()
+    data = json.loads(out_json.read_text(encoding="utf-8"))
+    assert "facts" in data and "gaps" in data

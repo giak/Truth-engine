@@ -321,11 +321,127 @@ def build_data(base: Path, overrides: dict) -> dict:
 
 
 def render_markdown(data: dict) -> str:
-    raise NotImplementedError
+    lines: list[str] = []
+    A = lines.append
+    A("# CAMPAGNE 2026-09 — Cartographie des investigations")
+    A("")
+    A(f"> Rapport généré automatiquement · {data['generated_at']}")
+    A(f"> Périmètre : `{data['source_dir']}`")
+    A("> **Règle d'honnêteté** : aucune donnée n'est inventée ; les lacunes sont étiquetées "
+      "(hors-protocole, vide, non certifié). Mapping de classes : `auto` (heuristique) ou `override` (manuel).")
+    A("")
+
+    A("## §1 Vue d'ensemble")
+    A("")
+    c = data["counts"]
+    ft = data["facts_total"]
+    A("| Métrique | Valeur |")
+    A("|---|---|")
+    A(f"| Dossiers | {c['dirs']} |")
+    A(f"| Runs KERNEL complets | {c['with_full_kernel']} |")
+    A(f"| Avec RUN_STATE (kernel + partiel) | {c['with_run_state']} |")
+    A(f"| Dossiers vides | {c['empty_dirs']} |")
+    tiers = ft["tiers"]
+    A(f"| Faits agrégés | {ft['n']} (✦ {tiers['✦']} · ✧ {tiers['✧']} · ⁅ {tiers['⁅']} · ❧ {tiers['❧']}) |")
+    A(f"| Faits avec URL | {ft['with_url']} |")
+    A(f"| Faits avec memory_id | {ft['with_memory_id']} |")
+    A("")
+
+    A("## §2 Inventaire des sujets")
+    A("")
+    A("| Dossier | Type | Sujet | Faits | Tiers | Run | Classes |")
+    A("|---|---|---|---|---|---|---|")
+    for s in data["subjects"]:
+        tier_cell = " ".join(f"{t}:{s['tiers'][t]}" for t in TIERS)
+        classes_cell = ", ".join(cm["class"] for cm in s["classes"]) or "—"
+        subject_cell = s["title"][:60] or "(sans titre)"
+        A(f"| `{s['name']}` | {s['kind']} | {subject_cell} | {s['n_facts']} | {tier_cell} | `{s['run_id'] or '—'}` | {classes_cell} |")
+    A("")
+
+    A("## §3 Atlas des faits")
+    A("")
+    A("| Fait | Tier | Familles | URL | memory_id | Run |")
+    A("|---|---|---|---|---|---|")
+    for f in data["facts"]:
+        fams = ",".join(f["families"]) or "—"
+        url = f["url"] or "—"
+        A(f"| {f['key'][:80]} | {f['tier']} | {fams} | {url} | `{f['memory_id'] or '—'}` | `{f['origin_run'] or f['subject_dir']}` |")
+    A("")
+
+    A("## §4 Matrice 7 classes x dossiers")
+    A("")
+    A("| Classe | Dossiers |")
+    A("|---|---|")
+    for cls in CLASSES:
+        ds = data["matrix_classes"].get(cls, [])
+        cell = ", ".join(f"`{d}`" for d in ds) or "—"
+        A(f"| {cls} | {cell} |")
+    A("")
+
+    A("## §5 Gaps & leads")
+    A("")
+    g = data["gaps"]
+
+    def sub(title: str, items) -> None:
+        A("")
+        A(f"### {title} ({len(items)})")
+        if not items:
+            A("_Aucun_")
+            return
+        for it in items:
+            if isinstance(it, dict):
+                prefix = f"{it.get('dir')} · " if it.get("dir") else ""
+                ident = f"`{it.get('id')}` " if it.get("id") else ""
+                detail = it.get("text") or it.get("key") or it.get("subject") or ""
+                A(f"- {prefix}{ident}{detail}")
+            else:
+                A(f"- `{it}`")
+
+    sub("Dossiers planifiés non exécutés", g["planifie_non_execute"])
+    sub("Hors protocole (sujet connu, faits non certifiés)", g["hors_protocole"])
+    sub("Runs partiels", g["partiel"])
+    sub("Faits candidats à l'élévation (✧)", g["candidats_elevation"])
+    sub("Actions en attente (PENDING)", g["actions_pending"])
+    sub("Questions ouvertes (EVIDENCE_GAP)", g["questions_ouvertes"])
+    sub("Leads non saturés", g["leads_a_traiter"])
+    A("")
+    A("### Angles morts de classe (≤ 1 dossier)")
+    if g["angles_morts_classes"]:
+        for cls, n in sorted(g["angles_morts_classes"].items()):
+            A(f"- `{cls}` : {n} dossier(s)")
+    else:
+        A("_Aucun_")
+    A("")
+
+    A("## §6 Topographie des runs")
+    A("")
+    A("| Run | Dossier | Faits | Leads |")
+    A("|---|---|---|---|")
+    for r in data["runs_topology"]:
+        A(f"| `{r['run_id']}` | {r['subject_dir']} | {r['facts_n']} | {r['n_leads']} |")
+    A("")
+    return "\n".join(lines)
 
 
 def main(argv: list[str] | None = None) -> int:
-    raise NotImplementedError
+    ap = argparse.ArgumentParser(description="Cartographie de la campagne 2026-09")
+    ap.add_argument("--base", type=str, default=None, help="Dossier campagne (défaut : dossier du script)")
+    ap.add_argument("--overrides", type=str, default=None, help="Table de surcharge JSON")
+    ap.add_argument("--out-json", type=str, default=None, help="Sortie JSON")
+    ap.add_argument("--out-md", type=str, default=None, help="Sortie markdown")
+    args = ap.parse_args(argv)
+
+    base = Path(args.base) if args.base else BASE_DIR_DEFAULT
+    overrides_path = Path(args.overrides) if args.overrides else base / OVERRIDES_FILE
+    out_json = Path(args.out_json) if args.out_json else base / OUT_JSON
+    out_md = Path(args.out_md) if args.out_md else base / OUT_MD
+
+    overrides = load_json(overrides_path) or {}
+    data = build_data(base, overrides)
+    out_json.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    out_md.write_text(render_markdown(data), encoding="utf-8")
+    print(f"OK — {out_json.name} ({len(data['facts'])} faits) + {out_md.name}")
+    return 0
 
 
 if __name__ == "__main__":
