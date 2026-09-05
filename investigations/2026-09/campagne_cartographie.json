@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:11:01+00:00",
+  "generated_at": "2026-09-05T19:17:22+00:00",
   "source_dir": "investigations/2026-09",
   "counts": {
     "dirs": 39,
@@ -15,8 +15,8 @@
       "⁅": 0,
       "❧": 0
     },
-    "with_url": 167,
-    "with_memory_id": 167
+    "with_url": 166,
+    "with_memory_id": 140
   },
   "subjects": [
     {
@@ -2880,7 +2880,7 @@
         "C"
       ],
       "url": "https://ico.org.uk/action-weve-taken/advice-and-guidance/investigation-into-the-use-of-data-analytics-in-political-campaigns/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -2893,7 +2893,7 @@
         "D"
       ],
       "url": "https://www.electoralcommission.org.uk/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -2906,7 +2906,7 @@
         "D"
       ],
       "url": "https://www.electoralcommission.org.uk/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -2919,7 +2919,7 @@
         "D"
       ],
       "url": "https://www.theguardian.com/world/2020/feb/21/russia-report-uk-intelligence-failings-brexit",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -2932,7 +2932,7 @@
         "D"
       ],
       "url": "https://www.bbc.com/news/uk-politics-36821572",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -2945,7 +2945,7 @@
         "D"
       ],
       "url": "https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -2959,7 +2959,7 @@
         "D"
       ],
       "url": "https://find-and-update.company-information.service.gov.uk/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -2973,7 +2973,7 @@
         "D"
       ],
       "url": "https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -2986,7 +2986,7 @@
         "C"
       ],
       "url": "https://ico.org.uk/action-weve-taken/advice-and-guidance/investigation-into-the-use-of-data-analytics-in-political-campaigns/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -2999,7 +2999,7 @@
         "C"
       ],
       "url": "https://www.electoralcommission.org.uk/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3012,7 +3012,7 @@
         "E"
       ],
       "url": "https://www.lemonde.fr/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3025,7 +3025,7 @@
         "E"
       ],
       "url": "https://academic.oup.com/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3038,7 +3038,7 @@
         "E"
       ],
       "url": "https://www.monde-diplomatique.fr/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3051,7 +3051,7 @@
         "E"
       ],
       "url": "https://www.atlanticcouncil.org/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3064,7 +3064,7 @@
         "D"
       ],
       "url": "https://www.lemonde.fr/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3077,7 +3077,7 @@
         "D"
       ],
       "url": "https://en.wikipedia.org/wiki/Treaty_of_Lisbon",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3090,7 +3090,7 @@
         "D"
       ],
       "url": "https://europa.eu/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3103,7 +3103,7 @@
         "D"
       ],
       "url": "https://europa.eu/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3116,7 +3116,7 @@
         "D"
       ],
       "url": "https://europa.eu/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3129,7 +3129,7 @@
         "B"
       ],
       "url": "https://ec.europa.eu/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3142,7 +3142,7 @@
         "D"
       ],
       "url": "https://www.sgdsn.gouv.fr/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3155,7 +3155,7 @@
         "E"
       ],
       "url": "https://disclose.ngo/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3168,7 +3168,7 @@
         "D"
       ],
       "url": "https://www.hatvp.fr/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3181,7 +3181,7 @@
         "D"
       ],
       "url": "https://www.theguardian.com/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3192,8 +3192,8 @@
       "families": [
         "E"
       ],
-      "url": "N/A",
-      "memory_id": "-",
+      "url": "",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3206,7 +3206,7 @@
         "E"
       ],
       "url": "https://www.mediapart.fr/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3219,7 +3219,7 @@
         "E"
       ],
       "url": "https://academic.oup.com/",
-      "memory_id": "-",
+      "memory_id": "",
       "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
       "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
     },
@@ -3849,7 +3849,7 @@
       {
         "key": "Impact causal Brexit non établi",
         "tier": "✧",
-        "url": "N/A",
+        "url": "",
         "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
       },
       {

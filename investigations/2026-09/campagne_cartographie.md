@@ -1,6 +1,6 @@
 # CAMPAGNE 2026-09 — Cartographie des investigations
 
-> Rapport généré automatiquement · 2026-09-05T19:11:01+00:00
+> Rapport généré automatiquement · 2026-09-05T19:17:22+00:00
 > Périmètre : `investigations/2026-09`
 > **Règle d'honnêteté** : aucune donnée n'est inventée ; les lacunes sont étiquetées (hors-protocole, vide, non certifié). Mapping de classes : `auto` (heuristique) ou `override` (manuel).
 
@@ -13,8 +13,8 @@
 | Avec RUN_STATE (kernel + partiel) | 25 |
 | Dossiers vides | 8 |
 | Faits agrégés | 167 (✦ 119 · ✧ 48 · ⁅ 0 · ❧ 0) |
-| Faits avec URL | 167 |
-| Faits avec memory_id | 167 |
+| Faits avec URL | 166 |
+| Faits avec memory_id | 140 |
 
 ## §2 Inventaire des sujets
 
@@ -185,33 +185,33 @@
 | Serbia fraudes electorales documentees resolution PE | ✦ | A,B | https://www.europarl.europa.eu/news/en/press-room/20240202IPR17327/serbia-did-not-fulfil-its-commitments-to-free-and-fair-elections-say-meps | `36b67a08-d2e6-4eb2-a9d7-1ae9f94de27b` | `20260905-1247-triche-electorale-france-ue` |
 | Integrite globale scrutins FR preservee | ✧ | A,B | https://www.conseil-constitutionnel.fr/actualites/communique/elections-legislatives-de-juin-juillet-2024 | `27ca2690-92ab-462c-91b8-931c78ceb2ee` | `20260905-1247-triche-electorale-france-ue` |
 | Limites machines a voter vulnerabilites | ✧ | B,D | https://theconversation.com/machine-a-voter-dinterminables-annees-de-vulnerabilite-democratique-104729 | `729e4ba3-25eb-43a1-9eab-87106e3e894a` | `20260905-1247-triche-electorale-france-ue` |
-| Cambridge Analytica 87M profils | ✦ | A,C | https://ico.org.uk/action-weve-taken/advice-and-guidance/investigation-into-the-use-of-data-analytics-in-political-campaigns/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| AIQ/AggregateIQ 656k£ Vote Leave | ✦ | A,D | https://www.electoralcommission.org.uk/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Aaron Banks 8,5 M£ Leave.EU | ✦ | A,D | https://www.electoralcommission.org.uk/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Russian Embassy contacts Leave campaign | ✦ | A,D | https://www.theguardian.com/world/2020/feb/21/russia-report-uk-intelligence-failings-brexit | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Steve Bannon stratège Vote Leave | ✦ | C,D | https://www.bbc.com/news/uk-politics-36821572 | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Mercer family finance CA via Bannon | ✦ | C,D | https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Emerdata Limited successeur CA 2017 | ✦ | A,C,D | https://find-and-update.company-information.service.gov.uk/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Data Propria/Auspex International fondées 2018 | ✦ | A,C,D | https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| ICO conclusion CA pas impliqué dans Brexit | ✧ | A,C | https://ico.org.uk/action-weve-taken/advice-and-guidance/investigation-into-the-use-of-data-analytics-in-political-campaigns/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Electoral Commission n'a pas poursuivi collusion | ✧ | A,C | https://www.electoralcommission.org.uk/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| 8/15 médias français aux milliardaires | ✦ | D,E | https://www.lemonde.fr/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Médias britanniques propagande Leave | ✦ | D,E | https://academic.oup.com/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| ELNET 101 voyages parlementaires français | ✦ | D,E | https://www.monde-diplomatique.fr/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Atlantic Council/CFR/Chatham House réseaux | ✦ | B,E | https://www.atlanticcouncil.org/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Le Siècle/francs-maçons réseaux | ✦ | B,D | https://www.lemonde.fr/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Traité de Lisbonne contournement NON 2005 | ✦ | A,D | https://en.wikipedia.org/wiki/Treaty_of_Lisbon | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| EPPO perquisition sans juge français | ✦ | A,D | https://europa.eu/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| OMS traités pandémies | ✦ | A,D | https://europa.eu/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| DSA/EDS European Democracy Shield | ✦ | A,D | https://europa.eu/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Think tanks policy manufacturing | ✦ | A,B | https://ec.europa.eu/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Storm-1516 77 opérations russes | ✦ | A,D | https://www.sgdsn.gouv.fr/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Voice of Europe ~1 M€/mois | ✦ | D,E | https://disclose.ngo/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| ELNET/BICOM/Board of Deputies influence | ✦ | A,D | https://www.hatvp.fr/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| GCHQ/CIP opérations d'influence | ✧ | C,D | https://www.theguardian.com/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Impact causal Brexit non établi | ✧ | E | N/A | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| DUP 9,4 M€ prêt russe RN | ✦ | D,E | https://www.mediapart.fr/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
-| Infiltration médias/politique UK | ✦ | D,E | https://academic.oup.com/ | `-` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Cambridge Analytica 87M profils | ✦ | A,C | https://ico.org.uk/action-weve-taken/advice-and-guidance/investigation-into-the-use-of-data-analytics-in-political-campaigns/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| AIQ/AggregateIQ 656k£ Vote Leave | ✦ | A,D | https://www.electoralcommission.org.uk/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Aaron Banks 8,5 M£ Leave.EU | ✦ | A,D | https://www.electoralcommission.org.uk/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Russian Embassy contacts Leave campaign | ✦ | A,D | https://www.theguardian.com/world/2020/feb/21/russia-report-uk-intelligence-failings-brexit | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Steve Bannon stratège Vote Leave | ✦ | C,D | https://www.bbc.com/news/uk-politics-36821572 | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Mercer family finance CA via Bannon | ✦ | C,D | https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Emerdata Limited successeur CA 2017 | ✦ | A,C,D | https://find-and-update.company-information.service.gov.uk/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Data Propria/Auspex International fondées 2018 | ✦ | A,C,D | https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| ICO conclusion CA pas impliqué dans Brexit | ✧ | A,C | https://ico.org.uk/action-weve-taken/advice-and-guidance/investigation-into-the-use-of-data-analytics-in-political-campaigns/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Electoral Commission n'a pas poursuivi collusion | ✧ | A,C | https://www.electoralcommission.org.uk/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| 8/15 médias français aux milliardaires | ✦ | D,E | https://www.lemonde.fr/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Médias britanniques propagande Leave | ✦ | D,E | https://academic.oup.com/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| ELNET 101 voyages parlementaires français | ✦ | D,E | https://www.monde-diplomatique.fr/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Atlantic Council/CFR/Chatham House réseaux | ✦ | B,E | https://www.atlanticcouncil.org/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Le Siècle/francs-maçons réseaux | ✦ | B,D | https://www.lemonde.fr/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Traité de Lisbonne contournement NON 2005 | ✦ | A,D | https://en.wikipedia.org/wiki/Treaty_of_Lisbon | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| EPPO perquisition sans juge français | ✦ | A,D | https://europa.eu/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| OMS traités pandémies | ✦ | A,D | https://europa.eu/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| DSA/EDS European Democracy Shield | ✦ | A,D | https://europa.eu/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Think tanks policy manufacturing | ✦ | A,B | https://ec.europa.eu/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Storm-1516 77 opérations russes | ✦ | A,D | https://www.sgdsn.gouv.fr/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Voice of Europe ~1 M€/mois | ✦ | D,E | https://disclose.ngo/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| ELNET/BICOM/Board of Deputies influence | ✦ | A,D | https://www.hatvp.fr/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| GCHQ/CIP opérations d'influence | ✧ | C,D | https://www.theguardian.com/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Impact causal Brexit non établi | ✧ | E | — | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| DUP 9,4 M€ prêt russe RN | ✦ | D,E | https://www.mediapart.fr/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
+| Infiltration médias/politique UK | ✦ | D,E | https://academic.oup.com/ | `—` | `20260905-1415-uk-brexit-ingerences-manipulations-democraties` |
 | La Russie traite les revolutions de couleur (Georgie 2003, Ukraine 2004, Kirghiz | ✦ | A,B | https://www.csis.org/analysis/russia-and-color-revolution | `21504731-fd89-4e65-b652-cde5afe3bb21` | `20260905-1347-vague3-elevation-faits-non-confirmes-restants` |
 | Franc-maconnerie France : declin relatif chiffre documente - environ 175000 memb | ✦ | A,B,C | https://450.fm/2025/11/13/causes-du-declin-dune-certaine-franc-maconnerie-a-la-lumiere-du-principe-dattribution-causale/ | `04ce4adf-2764-47d1-87c5-a48a1ec41263` | `20260905-1347-vague3-elevation-faits-non-confirmes-restants` |
 | Debat academique Walt & Mearsheimer (essai LRB 2006, livre 2007) : influence str | ✦ | A,B | https://appext.hks.harvard.edu/publications/getFile.aspx?Id=209 | `8171e564-de86-42b3-b74f-671dda668dad` | `20260905-1347-vague3-elevation-faits-non-confirmes-restants` |
