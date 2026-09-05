@@ -112,6 +112,18 @@ def test_scan_dirs_exclut_les_dossiers_prives(tmp_path):
     assert len(dirs) == 4
 
 
+def test_scan_dirs_exclut_les_dossiers_point_et_underscore(tmp_path):
+    base = build_fixture(tmp_path)
+    (base / "_replay_backups").mkdir()
+    (base / "_repair_backups").mkdir()
+    (base / ".hidden").mkdir()
+    dirs = mc.scan_dirs(base)
+    assert "_replay_backups" not in dirs
+    assert "_repair_backups" not in dirs
+    assert ".hidden" not in dirs
+    assert len(dirs) == 4
+
+
 # --- classify_dir ---
 
 
@@ -177,6 +189,35 @@ def test_load_json_returns_none_for_invalid_json(tmp_path):
 
 
 # --- extraction functions ---
+
+
+def test_extract_facts_schema_mixte():
+    run_state = {
+        "facts": [
+            {
+                "subject": "Rapport Duclos obsolète",
+                "value": "Le rapport cite des données dépassées.",
+                "tier": "✧",
+                "families": ["A"],
+                "url": "https://example.org/duclos",
+                "mem": "mem-reel-0001",
+            },
+            {
+                "key": "achat de vote documenté",
+                "value": "Paiement constaté.",
+                "tier": "✦",
+                "families": ["B"],
+                "url": "https://example.org/achat",
+                "memory_id": "mem-0001",
+            },
+        ]
+    }
+    facts = mc.extract_facts(run_state, "run-1", "2026-09-05_exemple")
+    assert len(facts) == 2
+    assert facts[0]["key"] == "Rapport Duclos obsolète"
+    assert facts[0]["memory_id"] == "mem-reel-0001"
+    assert facts[1]["key"] == "achat de vote documenté"
+    assert facts[1]["memory_id"] == "mem-0001"
 
 
 def test_extract_facts_normalise(tmp_path):

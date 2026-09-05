@@ -42,7 +42,7 @@ def _norm(s: str) -> str:
 
 
 def scan_dirs(base: Path) -> list[str]:
-    return sorted(p.name for p in base.iterdir() if p.is_dir() and not p.name.startswith("__"))
+    return sorted(p.name for p in base.iterdir() if p.is_dir() and not p.name.startswith((".", "_")))
 
 
 def classify_dir(base: Path, name: str) -> dict:
@@ -99,12 +99,12 @@ def extract_facts(run_state: dict | None, origin_run: str, subject_dir: str) -> 
             continue
         out.append(
             {
-                "key": str(f.get("key", "")),
+                "key": str(f.get("key") or f.get("subject") or ""),
                 "value": str(f.get("value", "")),
                 "tier": str(f.get("tier", "?")),
                 "families": [str(x) for x in f.get("families", []) or []],
                 "url": str(f.get("url", "")),
-                "memory_id": str(f.get("memory_id", "")),
+                "memory_id": str(f.get("memory_id") or f.get("mem") or ""),
                 "origin_run": origin_run,
                 "subject_dir": subject_dir,
             }
@@ -438,7 +438,7 @@ def main(argv: list[str] | None = None) -> int:
 
     overrides = load_json(overrides_path) or {}
     data = build_data(base, overrides)
-    out_json.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    out_json.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     out_md.write_text(render_markdown(data), encoding="utf-8")
     print(f"OK — {out_json.name} ({len(data['facts'])} faits) + {out_md.name}")
     return 0
