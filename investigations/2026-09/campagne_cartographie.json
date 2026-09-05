@@ -1,0 +1,4184 @@
+{
+  "generated_at": "2026-09-05T18:51:09+00:00",
+  "source_dir": "investigations/2026-09",
+  "counts": {
+    "dirs": 39,
+    "with_run_state": 25,
+    "with_full_kernel": 20,
+    "empty_dirs": 8
+  },
+  "facts_total": {
+    "n": 167,
+    "tiers": {
+      "✦": 119,
+      "✧": 48,
+      "⁅": 0,
+      "❧": 0
+    },
+    "with_url": 167,
+    "with_memory_id": 0
+  },
+  "subjects": [
+    {
+      "name": "2026-09-05-ingerences-externes-internes-democraties-elections",
+      "kind": "bare",
+      "files": 1,
+      "title": "Investigation KERNEL — Ingérences externes & internes dans les démocraties et élections",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_achat-de-vote-france-ue",
+      "kind": "kernel",
+      "files": 7,
+      "title": "Achat de vote — France & UE",
+      "run_id": "20260905-1125-achat-de-vote-france-ue",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 3,
+        "✧": 4,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-004",
+          "text": "CAU: lien causal entre achat de votes et inversion de resultats non demontre au niveau national - cas documentes localement (Slovaquie 83% vs 28,28%; Melito) mais pas de demonstration d effet agregat; preuve difficile (secret du vote), prescription frequente",
+          "gap_type": "CAUSALITY"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "transactionnelle",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "effet_asymetrie",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "reseau",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "kind": "kernel",
+      "files": 6,
+      "title": "Cartographie des mécanismes d'influence sur les démocraties",
+      "run_id": "20260905-1357-cartographie-mecanismes-influence-democraties",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 7,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 7,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-005",
+          "text": "",
+          "gap_type": "EVIDENCE_GAP"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "transactionnelle",
+          "source": "override",
+          "confidence": "high"
+        },
+        {
+          "class": "informationnelle",
+          "source": "override",
+          "confidence": "high"
+        },
+        {
+          "class": "lobbying",
+          "source": "override",
+          "confidence": "high"
+        },
+        {
+          "class": "reseau",
+          "source": "override",
+          "confidence": "high"
+        },
+        {
+          "class": "etrangere_etatique",
+          "source": "override",
+          "confidence": "high"
+        },
+        {
+          "class": "coercitive",
+          "source": "override",
+          "confidence": "high"
+        },
+        {
+          "class": "effet_asymetrie",
+          "source": "override",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_complexe-factchecking-propagande-etat",
+      "kind": "partial",
+      "files": 2,
+      "title": "Le complexe fact-checking comme arme de propagande d'État et de contrôle des récits",
+      "run_id": "20260905-1445-complexe-factchecking-propagande-etat",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "informationnelle",
+          "source": "auto",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_convergences-systemiques-architecture-controle",
+      "kind": "bare",
+      "files": 1,
+      "title": "INVESTIGATION — Convergences systémiques : architecture de contrôle totale",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_corruption-electorale-france-ue",
+      "kind": "kernel",
+      "files": 6,
+      "title": "Corruption électorale et politique — France & UE",
+      "run_id": "20260905-1239-corruption-electorale-france-ue",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 4,
+        "✧": 3,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-004",
+          "text": "CAU: les mecanismes de prevention (GRECO, HATVP) existent mais leur efficacite sur la reduction de la corruption n est pas demontree quantitativement",
+          "gap_type": "CAUSALITY"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "transactionnelle",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves",
+      "kind": "kernel",
+      "files": 6,
+      "title": "Drones autour des aéroports (France/UE) : on accuse, où sont les preuves ?",
+      "run_id": "20260905-1440-drones-aeroports-france-ue-accusations-sans-preuves",
+      "n_facts": 6,
+      "tiers": {
+        "✦": 6,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 7,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-005",
+          "text": "",
+          "gap_type": "EVIDENCE_GAP"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "coercitive",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "transactionnelle",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_etat-profond-interferences-interieures-france",
+      "kind": "partial",
+      "files": 2,
+      "title": "INVESTIGATION — État profond et interférences intérieures en France",
+      "run_id": "20260905-1400-etat-profond-interferences-interieures-france",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne",
+      "kind": "kernel",
+      "files": 6,
+      "title": "Run 18 — Filière anti-drones Europe : qui vend, qui gagne ?",
+      "run_id": "20260905-1442-filiere-antidrones-europe-qui-vend-qui-gagne",
+      "n_facts": 6,
+      "tiers": {
+        "✦": 6,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 6,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-002",
+          "text": "",
+          "gap_type": "DISPUTED"
+        },
+        {
+          "id": "CAU-003",
+          "text": "",
+          "gap_type": "CORRELATION_VS_CAUSATION"
+        },
+        {
+          "id": "CAU-005",
+          "text": "",
+          "gap_type": "INTENT"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "coercitive",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "transactionnelle",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_financement-andromeda-nord-stream-qui-a-paye",
+      "kind": "kernel",
+      "files": 6,
+      "title": "Run 20 — Financement de l'opération Andromeda (Nord Stream) : qui a payé, par quelles chaînes, et qu'en sait-on vraiment ?",
+      "run_id": "20260905-1512-financement-andromeda-nord-stream-qui-a-paye",
+      "n_facts": 6,
+      "tiers": {
+        "✦": 6,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 6,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-002",
+          "text": "",
+          "gap_type": "CAUSAL_MECHANISM"
+        },
+        {
+          "id": "CAU-003",
+          "text": "",
+          "gap_type": "INTENT"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "coercitive",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_infiltration-medias-politiques-france-ue",
+      "kind": "kernel",
+      "files": 6,
+      "title": "INFILTRATION DES MÉDIAS ET DE LA SPHÈRE POLITIQUE (FRANCE/UE)",
+      "run_id": "20260905-1330-infiltration-medias-politiques-france-ue",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 4,
+        "✧": 3,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "lobbying",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "informationnelle",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "reseau",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_influences-electorales-france-ue",
+      "kind": "kernel",
+      "files": 6,
+      "title": "1. RÉSUMÉ EXÉCUTIF",
+      "run_id": "20260905-0945-influences-electorales-france-ue",
+      "n_facts": 9,
+      "tiers": {
+        "✦": 2,
+        "✧": 7,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 4,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-002",
+          "text": "",
+          "gap_type": "CAUSALITY"
+        },
+        {
+          "id": "CAU-004",
+          "text": "",
+          "gap_type": "CAUSALITY"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais",
+      "kind": "kernel",
+      "files": 6,
+      "title": "INVESTIGATION — Ingerences de l'Allemagne et de l'UE sur la politique nucleaire et energetique francaise (taxonomie, marche de l'electricite, EDF/ARENH)",
+      "run_id": "20260905-1221-ingerences-allemagne-ue-nucleaire-francais",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 4,
+        "✧": 3,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-004",
+          "text": "CAU-PARTIAL: Le corpus #51 et Telos accusent une strategie allemande anti-nucleaire ciblee contre la France ; les faits documentes (taxonomie 2022, reforme 2023) montrent une defense d'interets allemands dans le cadre UE, pas une preuve d'intention de 'detruire le nucleaire francais'.",
+          "gap_type": "EVIDENCE_GAP"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "effet_asymetrie",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "transactionnelle",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_ingerences-electorales-france-ue",
+      "kind": "kernel",
+      "files": 6,
+      "title": "Investigation KERNEL — Ingérences électorales étrangères en France et dans l'UE",
+      "run_id": "20260905-1100-ingerences-electorales-france-ue",
+      "n_facts": 9,
+      "tiers": {
+        "✦": 3,
+        "✧": 6,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [
+        {
+          "id": "ACT-004",
+          "text": "ACT: recommandation commission 2023 - interdire les prêts de personnes étrangères non résidentes aux partis politiques français"
+        }
+      ],
+      "causal_gaps": [
+        {
+          "id": "CAU-004",
+          "text": "CAU: leffet causal mesurable des ingérences sur les résultats électoraux spécifiques reste non quantifié (pas de preuve dinversion de scrutin)",
+          "gap_type": "CAUSALITY"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "effet_asymetrie",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "coercitive",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "informationnelle",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "reseau",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_ingerences-electorales-france-ue-update",
+      "kind": "partial",
+      "files": 1,
+      "title": "",
+      "run_id": "20260905-1235-ingerences-electorales-france-ue-update",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
+      "kind": "kernel",
+      "files": 6,
+      "title": "INVESTIGATION — Ingerences des USA (Soros/OSF, AIPAC, fondations) et d'Israel (ELNET, cyber) sur les democraties (FR/UE)",
+      "run_id": "20260905-1211-ingerences-usa-soros-aipac-fondations-israel",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 4,
+        "✧": 3,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-004",
+          "text": "CAU-PARTIAL: Israel protege NSO/Pegasus (dissimulation documentee, enquete judiciaire FR en cours) ; les operations contre LFI (municipales 2026) et en Slovenie sont allegees par la presse sans preuve declassification",
+          "gap_type": "EVIDENCE_GAP"
+        }
+      ],
+      "leads_non_saturated": [
+        {
+          "id": "LED-005",
+          "subject": "Accusations de controle d Israel / Soros sur les medias et la politique: debunk, absence de preuve",
+          "priority": "MEDIUM"
+        }
+      ],
+      "classes": [
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "coercitive",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "informationnelle",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "lobbying",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_justice-deux-vitesses-weaponisation-judiciaire",
+      "kind": "bare",
+      "files": 1,
+      "title": "INVESTIGATION — Justice à deux vitesses et weaponisation judiciaire",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_lobbies-thinktanks-clubs-francs-macons",
+      "kind": "kernel",
+      "files": 6,
+      "title": "INVESTIGATION — Lobbies, think tanks, clubs et francs-macons : influence documentee vs pouvoir occulte",
+      "run_id": "20260905-1352-lobbies-thinktanks-clubs-francs-macons",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 5,
+        "✧": 2,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-004",
+          "text": "CAU-GAP: franc-maconnerie (175 000+ membres documentes) : aucune preuve verifiee d une influence politique coordonnee contemporaine - theorie du complot debunkee (Wikipedia, France Culture, National Geographic) ; noms politiques du corpus non confirmes par des sources independantes",
+          "gap_type": "EVIDENCE_GAP"
+        }
+      ],
+      "leads_non_saturated": [
+        {
+          "id": "LED-005",
+          "subject": "Accusations de complot des cercles/francs-macons: debunk, absence de preuve de coordination",
+          "priority": "MEDIUM"
+        }
+      ],
+      "classes": [
+        {
+          "class": "lobbying",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "reseau",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "effet_asymetrie",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_manipulation-electorale-france-ue",
+      "kind": "kernel",
+      "files": 7,
+      "title": "Investigation KERNEL — Manipulation électorale en France et dans l'UE",
+      "run_id": "20260905-1116-manipulation-electorale-france-ue",
+      "n_facts": 9,
+      "tiers": {
+        "✦": 4,
+        "✧": 5,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [
+        {
+          "id": "ACT-004",
+          "text": "ACT: France - loi SREN 10/04/2024 (transposition DSA, amendes 6% CA) et pénalisation deepfakes (2 ans prison/45000 EUR)"
+        }
+      ],
+      "causal_gaps": [
+        {
+          "id": "CAU-004",
+          "text": "CAU: limpact quantifié des deepfakes et du micro-ciblage sur les votes FR/UE reste non mesuré",
+          "gap_type": "CAUSALITY"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "informationnelle",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "coercitive",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "transactionnelle",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "kind": "kernel",
+      "files": 6,
+      "title": "Run 19 — Nord Stream 1 & 2 : l'accusation contre la Russie, la piste ukrainienne, le silence allemand",
+      "run_id": "20260905-1457-nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "n_facts": 6,
+      "tiers": {
+        "✦": 6,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 6,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-003",
+          "text": "",
+          "gap_type": "INTENT"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "effet_asymetrie",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_paradis-data-armes-electorales",
+      "kind": "bare",
+      "files": 1,
+      "title": "INVESTIGATION — Paradis de la data et armes électorales",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "informationnelle",
+          "source": "override",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_revolutions-couleur-cia-usaid-ned",
+      "kind": "kernel",
+      "files": 6,
+      "title": "RÉVOLUTIONS DE COULEUR & INTERVENTIONS US (CIA, NED, USAID)",
+      "run_id": "20260905-1347-revolutions-couleur-cia-usaid-ned",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 4,
+        "✧": 3,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_seconde-vague-elevation-faits-non-confirmes",
+      "kind": "kernel",
+      "files": 6,
+      "title": "Seconde vague — élévation des faits non confirmés (runs 8–12)",
+      "run_id": "20260905-1329-seconde-vague-elevation-faits-non-confirmes",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 7,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 7,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-004",
+          "text": "CAU: L'effet reel des campagnes documentees (LFI 2026, 25 tentatives 2024) sur le comportement electoral n'est pas mesure - gap de connaissance sur l'impact causal des ingerences numeriques",
+          "gap_type": "EVIDENCE_GAP"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_societes-ecrans-ideologiques-think-tanks",
+      "kind": "bare",
+      "files": 1,
+      "title": "INVESTIGATION — Sociétés écrans idéologiques : think tanks, fondations et ONG",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "lobbying",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_triche-electorale-france-ue",
+      "kind": "kernel",
+      "files": 6,
+      "title": "Triche électorale — France & UE",
+      "run_id": "20260905-1247-triche-electorale-france-ue",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 5,
+        "✧": 2,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-005",
+          "text": "CAU: l ampleur reelle du vote multiple et des fraudes non detectees (inscriptions en double, procurations) ne peut pas etre mesuree avec precision",
+          "gap_type": "CAUSALITY"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "transactionnelle",
+          "source": "auto",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_uk-brexit-convergences-france-ue",
+      "kind": "empty",
+      "files": 0,
+      "title": "",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_uk-brexit-dark-money-flux-financiers",
+      "kind": "empty",
+      "files": 0,
+      "title": "",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_uk-brexit-data-paradieses-offshore",
+      "kind": "bare",
+      "files": 1,
+      "title": "",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_uk-brexit-electoral-commission-ico-ofcom",
+      "kind": "empty",
+      "files": 0,
+      "title": "",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_uk-brexit-gchq-cip-influence-presumee",
+      "kind": "empty",
+      "files": 0,
+      "title": "",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_uk-brexit-impact-causal-referendum",
+      "kind": "empty",
+      "files": 0,
+      "title": "",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "effet_asymetrie",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
+      "kind": "partial",
+      "files": 4,
+      "title": "",
+      "run_id": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "n_facts": 27,
+      "tiers": {
+        "✦": 23,
+        "✧": 4,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 10,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-007",
+          "text": "",
+          "gap_type": "CAUSALITY"
+        },
+        {
+          "id": "CAU-008",
+          "text": "",
+          "gap_type": "CAUSALITY"
+        }
+      ],
+      "leads_non_saturated": [
+        {
+          "id": "LED-008",
+          "subject": "",
+          "priority": ""
+        },
+        {
+          "id": "LED-009",
+          "subject": "",
+          "priority": ""
+        }
+      ],
+      "classes": [
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "informationnelle",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_uk-brexit-ingerences-manipulations-democraties-v2",
+      "kind": "empty",
+      "files": 0,
+      "title": "",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "medium"
+        },
+        {
+          "class": "informationnelle",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_uk-brexit-medias-propagande-biais",
+      "kind": "empty",
+      "files": 0,
+      "title": "",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "informationnelle",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_uk-brexit-think-tanks-policy-manufacturing",
+      "kind": "empty",
+      "files": 0,
+      "title": "",
+      "run_id": "",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": [
+        {
+          "class": "lobbying",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_uk-brexit-v2",
+      "kind": "partial",
+      "files": 1,
+      "title": "",
+      "run_id": "20260905-1515-uk-brexit-v2",
+      "n_facts": 0,
+      "tiers": {
+        "✦": 0,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 0,
+      "actions_pending": [],
+      "causal_gaps": [],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_vague3-elevation-faits-non-confirmes-restants",
+      "kind": "kernel",
+      "files": 6,
+      "title": "Vague 3 — élévation des derniers faits ✧ non confirmés (runs 8–12)",
+      "run_id": "20260905-1347-vague3-elevation-faits-non-confirmes-restants",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 7,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 7,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-005",
+          "text": "CAU: L'effet causal des financements occidentaux documentes (Orange Revolution 18 M$ US, lobby AIPAC) sur les resultats politiques precis n'est pas quantifiable - gap de connaissance sur la causalite influence/resultat",
+          "gap_type": "EVIDENCE_GAP"
+        }
+      ],
+      "leads_non_saturated": [],
+      "classes": []
+    },
+    {
+      "name": "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie",
+      "kind": "kernel",
+      "files": 6,
+      "title": "VIGINUM : examen adversarial — structure, asymétrie, caviardage, effet, von der Leyen",
+      "run_id": "20260905-1418-viginum-examen-adversarial-caviardage-asymetrie",
+      "n_facts": 5,
+      "tiers": {
+        "✦": 5,
+        "✧": 0,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 6,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-005",
+          "text": "",
+          "gap_type": "EVIDENCE_GAP"
+        }
+      ],
+      "leads_non_saturated": [
+        {
+          "id": "LED-002",
+          "subject": "H2 'VIGINUM ment': chercher activement un enonce materiellement faux documente (correction, recours, tiers independant) - sinon OPEN (absence de preuve != preuve d'absence)",
+          "priority": "HIGH"
+        }
+      ],
+      "classes": [
+        {
+          "class": "coercitive",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "effet_asymetrie",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "name": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs",
+      "kind": "kernel",
+      "files": 6,
+      "title": "INVESTIGATION — VIGINUM, instrument du pouvoir ou bouclier anti-ingerence ? Debunk symetrique (recit officiel von der Leyen vs allegations du corpus)",
+      "run_id": "20260905-1241-viginum-instrument-pouvoir-debunk-narratifs",
+      "n_facts": 7,
+      "tiers": {
+        "✦": 4,
+        "✧": 3,
+        "⁅": 0,
+        "❧": 0
+      },
+      "n_leads": 5,
+      "actions_pending": [],
+      "causal_gaps": [
+        {
+          "id": "CAU-004",
+          "text": "CAU-PARTIAL: Le corpus allege que VIGINUM sert le pouvoir (financement Conspiracy Watch 50% public, extension 2026 'surveille les medias FR', asymetrie d'attribution jamais les allies) ; les faits documentes (asymetrie, extension, absence de mesure d'effet) sont reels mais l'intention politique part",
+          "gap_type": "EVIDENCE_GAP"
+        }
+      ],
+      "leads_non_saturated": [
+        {
+          "id": "LED-005",
+          "subject": "Cadre legal et controles de VIGINUM (loi 2021, SSN, parlement) vs accusations d'ingerence interne sur la societe civile",
+          "priority": "MEDIUM"
+        }
+      ],
+      "classes": [
+        {
+          "class": "coercitive",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "etrangere_etatique",
+          "source": "auto",
+          "confidence": "high"
+        },
+        {
+          "class": "effet_asymetrie",
+          "source": "auto",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "key": "",
+      "value": "Le code electoral francais penalise l'achat de vote: art L106 (dons, liberalites, promesses de recompense pour obtenir un vote) et L113-1 (recueil illegal de fonds, depassement plafond, dons en violation L52-7-1/L52-8) avec peines de 2-3 ans d'emprisonnement et 15000-45000 EUR d'amendes",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006148461",
+      "memory_id": "",
+      "origin_run": "20260905-1125-achat-de-vote-france-ue",
+      "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Le CE juge que des distributions repetees de colis alimentaires par un candidat en periode electorale, valorisees sur les reseaux sociaux et la presse, sont des manoeuvres electorales pouvant affecter la libre determination des electeurs (Corbeil-Essonnes 2020); l'annulation depend de l'ecart de voix",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://juricaf.org/arret/FRANCE-CONSEILDETAT-20210722-450129",
+      "memory_id": "",
+      "origin_run": "20260905-1125-achat-de-vote-france-ue",
+      "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+    },
+    {
+      "key": "",
+      "value": "L'achat de votes par la mafia est criminalise (art 416-ter c.p., reforme loi 43/2019); l'operation DIA du 18/04/2023 a demantele un accord clan Amato Pagano-coalitions (Melito di Napoli, elections 2021): votes du clan contre argent, postes de travail et faveurs, avec pressions et intimidations sur residents",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://direzioneinvestigativaantimafia.interno.gov.it/2023/voto-di-scambio-la-dia-esegue-unordinanza-di-custodia-cautelare-a-carico-di-18-soggetti/",
+      "memory_id": "",
+      "origin_run": "20260905-1125-achat-de-vote-france-ue",
+      "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Etude experimentale mixte (sondages + qualitatif) en Roumanie et Bulgarie: le clientelisme electoral politise les ressources de l'Etat, plus intense dans les localites a incumbents de longue duree; techniques pour percer le secret du vote (representants au bureau de vote, chain-voting, discussions post-electorales)",
+      "tier": "✧",
+      "families": [
+        "D"
+      ],
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/09668136.2017.1364351",
+      "memory_id": "",
+      "origin_run": "20260905-1125-achat-de-vote-france-ue",
+      "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Police slovaque a enquete (2016) sur des soupcons d'achat de votes dans 2 settlements roms: la maire de Lomnicka aurait achete cigarettes contre votes; Směr-SD y a obtenu 83% vs 28,28% au niveau national; corrompre une election est un delit en Slovaquie",
+      "tier": "✧",
+      "families": [
+        "B"
+      ],
+      "url": "https://romea.cz/en/world/slovak-police-investigating-suspicions-of-vote-buying-in-romani-settlements-2/",
+      "memory_id": "",
+      "origin_run": "20260905-1125-achat-de-vote-france-ue",
+      "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Le clientelisme repose sur un echange de biens/services contre soutien politique via des intermediaires (brokers), ciblant surtout les menages a bas revenus; il politise les ressources publiques et repose sur contingence, hierarchie et iteration (Hicken; Stokes et al.; Trantidis)",
+      "tier": "✧",
+      "families": [
+        "D"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Clientelism",
+      "memory_id": "",
+      "origin_run": "20260905-1125-achat-de-vote-france-ue",
+      "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+    },
+    {
+      "key": "",
+      "value": "L'execution des sanctions connait des limites: prescription en Italie (Cassazione 2024, 50 preferences achetees pour 2500 EUR aux regionales 2012, prescription definitive); preuve difficile du fait du secret du vote (Conseil constitutionnel); manoeuvre electorale etablie mais scrutin maintenu quand l'ecart de voix est important (CE 22/07/2021 Corbeil-Essonnes)",
+      "tier": "✧",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.palermotoday.it/cronaca/voto-scambio-sindaco-alimena-scrivano-prescrizione-cassazione.html",
+      "memory_id": "",
+      "origin_run": "20260905-1125-achat-de-vote-france-ue",
+      "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006148461",
+      "memory_id": "",
+      "origin_run": "20260905-1357-cartographie-mecanismes-influence-democraties",
+      "subject_dir": "2026-09-05_cartographie-mecanismes-influence-democraties"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election",
+      "memory_id": "",
+      "origin_run": "20260905-1357-cartographie-mecanismes-influence-democraties",
+      "subject_dir": "2026-09-05_cartographie-mecanismes-influence-democraties"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0379",
+      "memory_id": "",
+      "origin_run": "20260905-1357-cartographie-mecanismes-influence-democraties",
+      "subject_dir": "2026-09-05_cartographie-mecanismes-influence-democraties"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.nouvelobs.com/politique/20210203.OBS39705/info-obs-un-secret-bien-garde-qui-sont-les-onze-ministres-membres-du-siecle.html",
+      "memory_id": "",
+      "origin_run": "20260905-1357-cartographie-mecanismes-influence-democraties",
+      "subject_dir": "2026-09-05_cartographie-mecanismes-influence-democraties"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
+      "memory_id": "",
+      "origin_run": "20260905-1357-cartographie-mecanismes-influence-democraties",
+      "subject_dir": "2026-09-05_cartographie-mecanismes-influence-democraties"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://apnews.com/article/uk-defense-secretary-plane-gps-jamming-kaliningrad-67125af5ba5af75f823c8e39be8b61f8",
+      "memory_id": "",
+      "origin_run": "20260905-1357-cartographie-mecanismes-influence-democraties",
+      "subject_dir": "2026-09-05_cartographie-mecanismes-influence-democraties"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://knightcolumbia.org/content/dont-panic-yet-assessing-the-evidence-and-discourse-around-generative-ai-and-elections",
+      "memory_id": "",
+      "origin_run": "20260905-1357-cartographie-mecanismes-influence-democraties",
+      "subject_dir": "2026-09-05_cartographie-mecanismes-influence-democraties"
+    },
+    {
+      "key": "",
+      "value": "Nicolas Sarkozy a ete condamne definitivement pour financement illegal de sa campagne presidentielle 2012 (fausses factures Bygmalion/Event et Cie, depassement du plafond): condamnation en appel le 14/02/2024 (12 mois dont 6 avec sursis), Cour de cassation definitive le 26/11/2025. CNCCFP avait rejete son compte (21,3M declares vs 22,87M corriges), rejet confirme par le Conseil constitutionnel le 04/07/2013.",
+      "tier": "✦",
+      "families": [
+        "B",
+        "D",
+        "E"
+      ],
+      "url": "https://fr.wikipedia.org/wiki/Affaire_Bygmalion",
+      "memory_id": "",
+      "origin_run": "20260905-1239-corruption-electorale-france-ue",
+      "subject_dir": "2026-09-05_corruption-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Francois Fillon a ete condamne definitivement pour detention de fonds publics dans l'affaire des emplois fictifs de son epouse Penelope: cour d appel de Paris 09/05/2022 (4 ans dont 1 ferme, 10 ans d ineligibilite), Cassation 24/04/2024, 17/06/2025 (4 ans avec sursis, 375 000 EUR d amende, 5 ans d ineligibilite), peine definitive le 16/02/2026 apres desistement de son pourvoi; CEDH a juge sa requete irrecevable (23/10/2025).",
+      "tier": "✦",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://fr.wikipedia.org/wiki/Affaire_Fillon",
+      "memory_id": "",
+      "origin_run": "20260905-1239-corruption-electorale-france-ue",
+      "subject_dir": "2026-09-05_corruption-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Le Qatargate est un scandale de corruption cash-for-influence au Parlement europeen: perquisitions le 09/12/2022 (raids a Bruxelles, 1,5 M EUR en liquide saisis), Eva Kaili, Pier Antonio Panzeri, Francesco Giorgi, Marc Tarabella, Andrea Cozzolino et Marie Arena poursuivis pour corruption publique, blanchiment et organisation criminelle; la chambre des mises en accusation de Bruxelles a valide les poursuites le 19/02/2026; aucun proces n a encore eu lieu.",
+      "tier": "✦",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Qatar_corruption_scandal_at_the_European_Parliament",
+      "memory_id": "",
+      "origin_run": "20260905-1239-corruption-electorale-france-ue",
+      "subject_dir": "2026-09-05_corruption-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Le GRECO (Conseil de l Europe) evalue la prevention de la corruption en France: 5e cycle (lance 2017, rapport 2019/2020, rapports de conformite 2022, 2024, addendum 2025) sur l integrite des hautes fonctions executives; 4e cycle sur les parlementaires, juges et procureurs; recommandations et suivi publics, avec des lacunes de prevention documentees.",
+      "tier": "✧",
+      "families": [
+        "A"
+      ],
+      "url": "https://www.coe.int/fr/web/greco/evaluations/france",
+      "memory_id": "",
+      "origin_run": "20260905-1239-corruption-electorale-france-ue",
+      "subject_dir": "2026-09-05_corruption-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "La CNCCFP controle a posteriori les comptes de campagne et le respect des plafonds: approbation, reformation, rejet (perte du remboursement de l Etat), modulation du remboursement; le rejet n a pas d incidence sur les resultats du scrutin; exemples: rejet du compte de Sarkozy 2012 (Conseil constitutionnel 04/07/2013), reformation du compte de Marine Le Pen 2022; la sanction des candidats presidentiels est p ecuniaire (jurisprudence 2013-2023).",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://cnccfp.fr/elections/",
+      "memory_id": "",
+      "origin_run": "20260905-1239-corruption-electorale-france-ue",
+      "subject_dir": "2026-09-05_corruption-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "La HATVP a recu 13 103 declarations d interets et de patrimoine en 2024 (+40% vs 2023), dont 5 122 controlees: plus de 1 000 relances, 99 injonctions, 27 transmissions a la justice pour non-depot; 3 215 entites inscrites au repertoire des representants d interets; avis de compatibilite pour les mobilites public-prive (751 saisines en 2024).",
+      "tier": "✧",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.hatvp.fr/presse/rapport-dactivite-2024-de-la-haute-autorite/",
+      "memory_id": "",
+      "origin_run": "20260905-1239-corruption-electorale-france-ue",
+      "subject_dir": "2026-09-05_corruption-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Les limites des mecanismes anti-corruption: les sanctions financieres (rejet/reformation des comptes) n entrainent ni annulation du scrutin ni ineligibilite pour la presidentielle (jurisprudence 1995-2023); le GRECO emet des recommandations non contraignantes; au Qatargate, le proces a subi retards et revers (depart du juge Claise 2023) avant validation des poursuites en 2026.",
+      "tier": "✧",
+      "families": [
+        "A",
+        "B",
+        "E"
+      ],
+      "url": "https://blog.juspoliticum.com/2023/04/18/un-contentieux-particulier-la-sanction-des-candidats-a-lelection-presidentielle-par-pierre-mouzet/",
+      "memory_id": "",
+      "origin_run": "20260905-1239-corruption-electorale-france-ue",
+      "subject_dir": "2026-09-05_corruption-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.euronews.com/my-europe/2025/11/20/fact-checking-europes-drone-problem-why-are-airports-shuttering-over-drone-sightings",
+      "memory_id": "",
+      "origin_run": "20260905-1440-drones-aeroports-france-ue-accusations-sans-preuves",
+      "subject_dir": "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.franceinfo.fr/internet/drones/survols-de-drones-d-origine-inconnue-decouvrez-les-sites-europeens-concernes-dans-notre-carte_7601132.html",
+      "memory_id": "",
+      "origin_run": "20260905-1440-drones-aeroports-france-ue-accusations-sans-preuves",
+      "subject_dir": "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "B",
+        "C"
+      ],
+      "url": "https://www.brusselstimes.com/2081360/francken-under-fire-as-investigation-condemns-his-e50m-anti-drone-plan-as-ineffective-and-costly",
+      "memory_id": "",
+      "origin_run": "20260905-1440-drones-aeroports-france-ue-accusations-sans-preuves",
+      "subject_dir": "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "D",
+        "E"
+      ],
+      "url": "https://www.bbc.com/news/articles/c5ylm3m67n2o",
+      "memory_id": "",
+      "origin_run": "20260905-1440-drones-aeroports-france-ue-accusations-sans-preuves",
+      "subject_dir": "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "B",
+        "C"
+      ],
+      "url": "https://www.leparisien.fr/seine-saint-denis-93/roissy-six-mois-de-prison-avec-sursis-pour-un-individu-qui-a-survole-laeroport-avec-un-drone-25-10-2025-JHACTATYWJD6XGDQGX6E3KMOSI.php",
+      "memory_id": "",
+      "origin_run": "20260905-1440-drones-aeroports-france-ue-accusations-sans-preuves",
+      "subject_dir": "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "D",
+        "E"
+      ],
+      "url": "https://www.theguardian.com/uk-news/2020/dec/01/the-mystery-of-the-gatwick-drone",
+      "memory_id": "",
+      "origin_run": "20260905-1440-drones-aeroports-france-ue-accusations-sans-preuves",
+      "subject_dir": "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves"
+    },
+    {
+      "key": "",
+      "value": "Procedure acceleree sans appel d'offres malgre avis negatif Inspection Finances + enquete judiciaire",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.vrt.be/vrtnws/nl/2026/04/14/counterdroneplan-francken-pano/",
+      "memory_id": "",
+      "origin_run": "20260905-1442-filiere-antidrones-europe-qui-vend-qui-gagne",
+      "subject_dir": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne"
+    },
+    {
+      "key": "",
+      "value": "Ecart de prix allege x4 (Pano) vs reponse Defense/Senhive (version pro SENIDPRO, prix marque) - litige sur la comparaison",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.vrt.be/vrtnws/nl/2026/04/14/counterdroneplan-francken-pano/",
+      "memory_id": "",
+      "origin_run": "20260905-1442-filiere-antidrones-europe-qui-vend-qui-gagne",
+      "subject_dir": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne"
+    },
+    {
+      "key": "",
+      "value": "Surcout allege ~6 M EUR (300 BLAZE 7,8 M EUR vs ~1,8 M EUR valeur estimee) - package complet conteste",
+      "tier": "✦",
+      "families": [
+        "B",
+        "other:vrt"
+      ],
+      "url": "https://www.vrt.be/vrtnws/fr/2025/11/17/la-defense-va-acheter-des-intercepteurs-de-drones-d-une-societe/",
+      "memory_id": "",
+      "origin_run": "20260905-1442-filiere-antidrones-europe-qui-vend-qui-gagne",
+      "subject_dir": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne"
+    },
+    {
+      "key": "",
+      "value": "558 signalements -> 0 preuve de drone hostile d'Etat (Pano); 'drone' Zaventem = helicoptere police; hypothese russe 'plus plausible' sans preuve",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.suasnews.com/2026/04/echoes-of-agusta-how-a-e50m-drone-panic-sparked-belgiums-latest-defence-crisis/",
+      "memory_id": "",
+      "origin_run": "20260905-1442-filiere-antidrones-europe-qui-vend-qui-gagne",
+      "subject_dir": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne"
+    },
+    {
+      "key": "",
+      "value": "France = marche structurel post-incident reel (Hologarde 2017, appels d'offres, 2000+ incidents/an) et selection BLAZE par evaluation competitive - vs BE 50 M EUR sans appel d'offres",
+      "tier": "✦",
+      "families": [
+        "C",
+        "D"
+      ],
+      "url": "https://thedefensepost.com/2026/06/17/france-blaze-interceptor-drone/",
+      "memory_id": "",
+      "origin_run": "20260905-1442-filiere-antidrones-europe-qui-vend-qui-gagne",
+      "subject_dir": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne"
+    },
+    {
+      "key": "",
+      "value": "Filiere: startup BE (Senhive) + fabricant letton (Origin) + intermediaire BE (Cobbs) + partenariat FR (DSV); marche UE C-UAS en croissance structurelle; lien causal vague->marche demontre au cas BE seulement",
+      "tier": "✦",
+      "families": [
+        "C",
+        "E"
+      ],
+      "url": "https://tracxn.com/d/companies/senhive/__dLEy5AQM3jplVIt0WIvAxL4kBM9zrEy3p3_I77dQg9o",
+      "memory_id": "",
+      "origin_run": "20260905-1442-filiere-antidrones-europe-qui-vend-qui-gagne",
+      "subject_dir": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne"
+    },
+    {
+      "key": "",
+      "value": "7 suspects; Rustem A. 41 ans financier presume; Valeria T. 40 ans plongeuse; ecole de plongee Kiev; confirme par SZ 27/08/2025 et Die Zeit",
+      "tier": "✦",
+      "families": [
+        "A",
+        "C"
+      ],
+      "url": "https://novayagazeta.eu/en/articles/2025/08/28/german-investigators-identify-all-suspects-in-nord-stream-pipeline-explosion-en-news",
+      "memory_id": "",
+      "origin_run": "20260905-1512-financement-andromeda-nord-stream-qui-a-paye",
+      "subject_dir": "2026-09-05_financement-andromeda-nord-stream-qui-a-paye"
+    },
+    {
+      "key": "",
+      "value": "Abibulayev; Le JDD + franceinfo + WSJ; location reglee par Abibulayev; emails Google saisis",
+      "tier": "✦",
+      "families": [
+        "B",
+        "C"
+      ],
+      "url": "https://www.lejdd.fr/international/sabotage-des-gazoducs-nord-stream-un-diplomate-ukrainien-mis-en-cause-143296",
+      "memory_id": "",
+      "origin_run": "20260905-1512-financement-andromeda-nord-stream-qui-a-paye",
+      "subject_dir": "2026-09-05_financement-andromeda-nord-stream-qui-a-paye"
+    },
+    {
+      "key": "",
+      "value": "192325 EUR; 126682 USD; tampons 3 societes; Feeria Lwowa; deposant des comptes",
+      "tier": "✦",
+      "families": [
+        "A",
+        "C"
+      ],
+      "url": "https://www.zeit.de/politik/2023-09/nord-stream-pipelines-attack-anniversary-english/komplettansicht",
+      "memory_id": "",
+      "origin_run": "20260905-1512-financement-andromeda-nord-stream-qui-a-paye",
+      "subject_dir": "2026-09-05_financement-andromeda-nord-stream-qui-a-paye"
+    },
+    {
+      "key": "",
+      "value": "300000 USD; hommes d'affaires prives; Zaluzhnyi; Der Spiegel 02/2026; noms non publies",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.tovima.com/wsj/a-drunken-evening-a-rented-yacht-the-real-story-of-the-nord-stream-pipeline-sabotage/",
+      "memory_id": "",
+      "origin_run": "20260905-1512-financement-andromeda-nord-stream-qui-a-paye",
+      "subject_dir": "2026-09-05_financement-andromeda-nord-stream-qui-a-paye"
+    },
+    {
+      "key": "",
+      "value": "Valeria Ch.; Chernyshova; 104 m record; 40 ans; SBU 2022; Freya pseudo; rapprochement non confirme par l'enquete",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://en.iz.ru/en/1944866/2025-08-29/ukrainian-athlete-chernyshova-could-have-taken-part-bombing-nord-streams",
+      "memory_id": "",
+      "origin_run": "20260905-1512-financement-andromeda-nord-stream-qui-a-paye",
+      "subject_dir": "2026-09-05_financement-andromeda-nord-stream-qui-a-paye"
+    },
+    {
+      "key": "",
+      "value": "Serhii K. inculpe 01/07/2026; Zhuravlev Croatie 19/08/2026; financier suspect sans inculpation publique",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://www.aljazeera.com/news/2026/7/2/german-prosecutors-charge-ukrainian-suspect-over-nord-stream-explosions",
+      "memory_id": "",
+      "origin_run": "20260905-1512-financement-andromeda-nord-stream-qui-a-paye",
+      "subject_dir": "2026-09-05_financement-andromeda-nord-stream-qui-a-paye"
+    },
+    {
+      "key": "",
+      "value": "CONFIRME",
+      "tier": "✦",
+      "families": [
+        "A",
+        "other:substack-giak"
+      ],
+      "url": "https://www.franceinfo.fr/internet/reseaux-sociaux/autour-du-quai-d-orsay-une-galaxie-d-influenceurs-pour-combattre-les-attaques-contre-la-france-sur-les-reseaux-sociaux_8046578.html",
+      "memory_id": "",
+      "origin_run": "20260905-1330-infiltration-medias-politiques-france-ue",
+      "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue"
+    },
+    {
+      "key": "",
+      "value": "CONFIRME",
+      "tier": "✦",
+      "families": [
+        "B",
+        "C"
+      ],
+      "url": "https://fr.wikipedia.org/wiki/ELNET_(organisation)",
+      "memory_id": "",
+      "origin_run": "20260905-1330-infiltration-medias-politiques-france-ue",
+      "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue"
+    },
+    {
+      "key": "",
+      "value": "VERIFIE",
+      "tier": "✦",
+      "families": [
+        "B",
+        "E"
+      ],
+      "url": "https://www.public.news/p/twitter-files-france",
+      "memory_id": "",
+      "origin_run": "20260905-1330-infiltration-medias-politiques-france-ue",
+      "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue"
+    },
+    {
+      "key": "",
+      "value": "CONFIRME",
+      "tier": "✦",
+      "families": [
+        "other:observatoire-multinationales",
+        "other:substack-giak"
+      ],
+      "url": "https://multinationales.org/fr/enquetes/think-tanks-laboratoires-d-influence/les-think-tanks-francais-et-l-europe-un-partenariat-public-prive-loin-des",
+      "memory_id": "",
+      "origin_run": "20260905-1330-infiltration-medias-politiques-france-ue",
+      "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue"
+    },
+    {
+      "key": "",
+      "value": "VERIFIE",
+      "tier": "✧",
+      "families": [
+        "A"
+      ],
+      "url": "https://lcp.fr/actualites/audiovisuel-public-et-maintenant-apres-la-fin-des-auditions-la-suite-du-processus-de-la",
+      "memory_id": "",
+      "origin_run": "20260905-1330-infiltration-medias-politiques-france-ue",
+      "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue"
+    },
+    {
+      "key": "",
+      "value": "VERIFIE",
+      "tier": "✧",
+      "families": [
+        "C"
+      ],
+      "url": "https://fr.wikipedia.org/wiki/ELNET_(organisation)",
+      "memory_id": "",
+      "origin_run": "20260905-1330-infiltration-medias-politiques-france-ue",
+      "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue"
+    },
+    {
+      "key": "",
+      "value": "VERIFIE",
+      "tier": "✧",
+      "families": [
+        "other:substack-giak"
+      ],
+      "url": "https://giak.substack.com/p/la-democratie-en-cage",
+      "memory_id": "",
+      "origin_run": "20260905-1330-infiltration-medias-politiques-france-ue",
+      "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue"
+    },
+    {
+      "key": "",
+      "value": "162 organisations declarant >=1Me declarant ensemble >=343Me/an; +13% vs 2024; +33% depuis 2020",
+      "tier": "✦",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://corporateeurope.org/en/2025/02/eus-lobby-league-table",
+      "memory_id": "",
+      "origin_run": "20260905-0945-influences-electorales-france-ue",
+      "subject_dir": "2026-09-05_influences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "risque moyen UE; risques significatifs pluralite marche tous EM; EMFA applicable 08/08/2025",
+      "tier": "✧",
+      "families": [
+        "A"
+      ],
+      "url": "https://digital-strategy.ec.europa.eu/en/news/publication-2025-media-pluralism-monitor",
+      "memory_id": "",
+      "origin_run": "20260905-0945-influences-electorales-france-ue",
+      "subject_dir": "2026-09-05_influences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "concentration significative; groupes industriels controles Le Figaro, Liberation, Le Parisien, BFMTV, CNews, Europe 1, RMC, Les Echos, Le Point, Paris Match",
+      "tier": "✧",
+      "families": [
+        "E"
+      ],
+      "url": "https://media-ownership.eu/2025-edition/country-reports/france/",
+      "memory_id": "",
+      "origin_run": "20260905-0945-influences-electorales-france-ue",
+      "subject_dir": "2026-09-05_influences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "747 partis soumis controle; 64Me aide publique; 4879 comptes municipales 2026; 3140 comptes legislatives 2024",
+      "tier": "✧",
+      "families": [
+        "A"
+      ],
+      "url": "https://cnccfp.fr/rapport-dactivite-2025/",
+      "memory_id": "",
+      "origin_run": "20260905-0945-influences-electorales-france-ue",
+      "subject_dir": "2026-09-05_influences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "33/96 ministres Macron issus de grandes entreprises; 27/53 ex-ministres retournes au prive",
+      "tier": "✧",
+      "families": [
+        "B"
+      ],
+      "url": "https://www.multinationales.org/fr/enquetes/les-portes-tournantes/",
+      "memory_id": "",
+      "origin_run": "20260905-0945-influences-electorales-france-ue",
+      "subject_dir": "2026-09-05_influences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "~50% effectifs grands cabinets lobbying bruxellois issus institutions UE; 6/13 commissaires sortants 2009-10 vers prive",
+      "tier": "✧",
+      "families": [
+        "B"
+      ],
+      "url": "https://www.alter-eu.org/the-revolving-door-in-detail",
+      "memory_id": "",
+      "origin_run": "20260905-0945-influences-electorales-france-ue",
+      "subject_dir": "2026-09-05_influences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "3617 inscrits; 3439 avec activites declarees; 127174 activites declarees",
+      "tier": "✧",
+      "families": [
+        "A"
+      ],
+      "url": "https://www.hatvp.fr/le-repertoire/",
+      "memory_id": "",
+      "origin_run": "20260905-0945-influences-electorales-france-ue",
+      "subject_dir": "2026-09-05_influences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": ">12000 entites; inscription volontaire avec avantages; 4973 entites controlees 2020; 1er retrait 2 ans; qualite declarations critiquee",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://www.hatvp.fr/lobbying/actualites/la-regulation-du-lobbying-au-niveau-de-lunion-europeenne/",
+      "memory_id": "",
+      "origin_run": "20260905-0945-influences-electorales-france-ue",
+      "subject_dir": "2026-09-05_influences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "effets directs limites; effets indirects (agenda, cadrage, amorcage, visibilite) puissants; campagne se joue dans les medias",
+      "tier": "✧",
+      "families": [
+        "E"
+      ],
+      "url": "https://theconversation.com/les-medias-font-ils-lelection-74576",
+      "memory_id": "",
+      "origin_run": "20260905-0945-influences-electorales-france-ue",
+      "subject_dir": "2026-09-05_influences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "L'inclusion conditionnelle du nucleaire dans la taxonomie verte UE a ete validee malgre l'opposition allemande : le PE n'a pas atteint la majorite de 353 voix pour bloquer (278/328/33) - defaite diplomatique documentee de Berlin.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "C"
+      ],
+      "url": "https://www.europarl.europa.eu/news/fr/press-room/20220701IPR34365/taxonomie-le-pe-ne-s-oppose-pas-a-l-inclusion-du-gaz-et-du-nucleaire",
+      "memory_id": "",
+      "origin_run": "20260905-1221-ingerences-allemagne-ue-nucleaire-francais",
+      "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais"
+    },
+    {
+      "key": "",
+      "value": "La reforme du marche electrique UE 2023 permet les CfD sur la prolongation nucleaire existante (sans 'indefini', concession a Berlin) et ouvre la sortie de l'ARENH - influence allemande reelle mais bornee par compromis.",
+      "tier": "✦",
+      "families": [
+        "B",
+        "C"
+      ],
+      "url": "https://euractiv.com/fr/news/reforme-du-marche-de-lelectricite-lallemagne-et-la-france-crient-toutes-deux-victoire/",
+      "memory_id": "",
+      "origin_run": "20260905-1221-ingerences-allemagne-ue-nucleaire-francais",
+      "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais"
+    },
+    {
+      "key": "",
+      "value": "L'ARENH (loi NOME 2010) a impose a EDF de vendre ~100 TWh/an a 42 EUR/MWh (2012-2025) : contrainte de concurrence europeenne documentee (tolerance position dominante), pas une decision allemande - mecanisme franco-europeen.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "other:cler"
+      ],
+      "url": "https://www.cre.fr/electricite/marche-de-gros-de-lelectricite/acces-regule-a-lelectricite-nucleaire-historique-arenh.html",
+      "memory_id": "",
+      "origin_run": "20260905-1221-ingerences-allemagne-ue-nucleaire-francais",
+      "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais"
+    },
+    {
+      "key": "",
+      "value": "En 2026, Berlin (Merz) et la Commission (von der Leyen) reconnaissent publiquement l'erreur strategique de la sortie du nucleaire (part 33%->15% depuis 1990) - le corpus #51 datait cet aveu de septembre 2025, date erronee (reel : 10/03/2026).",
+      "tier": "✦",
+      "families": [
+        "B",
+        "other:sfen",
+        "other:corpus"
+      ],
+      "url": "https://www.lefigaro.fr/conjoncture/energie-l-union-europeenne-a-fait-une-erreur-strategique-en-delaissant-le-nucleaire-juge-ursula-von-der-leyen-20260311",
+      "memory_id": "",
+      "origin_run": "20260905-1221-ingerences-allemagne-ue-nucleaire-francais",
+      "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais"
+    },
+    {
+      "key": "",
+      "value": "L'influence allemande anti-nucleaire sur les politiques UE (taxonomie restrictive, NZIA, exclusion des aides) est documentee par des analyses francaise (Telos) et relayee par le corpus - allegation structurelle, pas coordination secrete.",
+      "tier": "✧",
+      "families": [
+        "C",
+        "other:corpus"
+      ],
+      "url": "https://www.telos-eu.com/fr/economie/le-nucleaire-europeen-sous-influence-allemande.html",
+      "memory_id": "",
+      "origin_run": "20260905-1221-ingerences-allemagne-ue-nucleaire-francais",
+      "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais"
+    },
+    {
+      "key": "",
+      "value": "La sortie nucleaire allemande est une decision interieure (2000/2011/2023) ; en 2025-2026 Berlin accepte la neutralite technologique UE - la these d'une volonte allemande deliberee de 'detruire le nucleaire francais' n'est pas prouvee.",
+      "tier": "✧",
+      "families": [
+        "other:sfen",
+        "C"
+      ],
+      "url": "https://www.sfen.org/rgn/il-fallait-lavoir-vu-quand-le-chancelier-allemand-reconnait-que-la-sortie-du-nucleaire-fut-une-erreur-strategique/",
+      "memory_id": "",
+      "origin_run": "20260905-1221-ingerences-allemagne-ue-nucleaire-francais",
+      "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais"
+    },
+    {
+      "key": "",
+      "value": "La France a obtenu l'inclusion du nucleaire dans la taxonomie contre les Verts allemands (compromis gaz+atom) - puis la Commission et Berlin ont fait leur mea culpa en 2026 : le recit d'une UE 'anti-France' dirigee par l'Allemagne est contredit par les issues.",
+      "tier": "✧",
+      "families": [
+        "C",
+        "B"
+      ],
+      "url": "https://www.jean-jaures.org/publication/la-taxonomie-europeenne-et-le-nucleaire-une-claque-pour-lallemagne/",
+      "memory_id": "",
+      "origin_run": "20260905-1221-ingerences-allemagne-ue-nucleaire-francais",
+      "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais"
+    },
+    {
+      "key": "",
+      "value": "VIGINUM attribue au MOI russe Storm-1516 77 opérations informationnelles (2023-05/03/2025) ciblant audiences occidentales dont française, critère d'ingérence numérique étrangère rempli; ~80 campagnes désinformation aout 2023-mars 2025; 25 tentatives détectées aux élections 2024 (14 européennes + 11 législatives)",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.sgdsn.gouv.fr/publications/analyse-du-mode-operatoire-informationnel-russe-storm-1516",
+      "memory_id": "",
+      "origin_run": "20260905-1100-ingerences-electorales-france-ue",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Le tribunal de Milan (11/01/2021) a établi un pot-de-vin de 500 000 EUR versé par le régime azerbaïdjanais à Luca Volontè (PACE) pour dérailler un rapport 2013; 21 virements 2,39 M EUR 2012-2014; PACE a banni 13 anciens membres à vie",
+      "tier": "✧",
+      "families": [
+        "D"
+      ],
+      "url": "https://www.esiweb.org/proposals/caviar-diplomacy",
+      "memory_id": "",
+      "origin_run": "20260905-1100-ingerences-electorales-france-ue",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Voice of Europe, financée par Moscou (via Medvedchuk/FSB), a versé jusqu'à ~1 M EUR/mois à des politiciens d'extrême droite dans 5+ pays UE (allégations crédibles, EP résolution 25/04/2024; enquêtes en cours, pas de condamnation); sanctionnée par la Tchéquie (mars 2024) et l'UE (mai 2024)",
+      "tier": "✧",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://www.bbc.com/news/world-europe-68797624",
+      "memory_id": "",
+      "origin_run": "20260905-1100-ingerences-electorales-france-ue",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "La commission d'enquête parlementaire sur les ingérences étrangères a rendu son rapport (n°1311, déposé 01/06/2023, public 08/06/2023): menaces Russie et Chine, RN qualifié de 'courroie de transmission' de Moscou (contesté par Tanguy), recommande d'interdire les prêts d'étrangers non-résidents aux partis",
+      "tier": "✧",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.assemblee-nationale.fr/dyn/16/rapports/ceingeren/l16b1311_rapport-enquete",
+      "memory_id": "",
+      "origin_run": "20260905-1100-ingerences-electorales-france-ue",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "La Commission a publié le 12/11/2025 la communication European Democracy Shield (EDS): 4 piliers, nouveau Centre européen de résilience démocratique, s'appuie sur DSA, AI Act, paquet défense démocratie 2023, TTPA, EMFA",
+      "tier": "✧",
+      "families": [
+        "A"
+      ],
+      "url": "https://epthinktank.eu/2026/01/15/the-european-democracy-shield-an-overview/",
+      "memory_id": "",
+      "origin_run": "20260905-1100-ingerences-electorales-france-ue",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Le ministre Barrot (07/05/2025): des entités russes ont ciblé les élections législatives françaises de 2024; Storm-1516 utilise IA et opératrices payées, menace significative pour le débat public numérique français et européen",
+      "tier": "✧",
+      "families": [
+        "B"
+      ],
+      "url": "https://www.france24.com/en/europe/20250507-russia-disinformation-france-ukraine",
+      "memory_id": "",
+      "origin_run": "20260905-1100-ingerences-electorales-france-ue",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "L'UE a adopté le 08/10/2024 (Règlement UE 2024/2642) un cadre de sanctions contre les activités déstabilisatrices de la Russie (entrave processus électoraux, manipulation coordonnée de l'information, sabotage, cyberattaques); élargi le 20/05/2025; 80 personnes + 20 entités sanctionnées",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://www.consilium.europa.eu/fr/policies/sanctions-against-russia-hybrid-threats/",
+      "memory_id": "",
+      "origin_run": "20260905-1100-ingerences-electorales-france-ue",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "La France a officiellement accusé (avril 2025, MAE) le GRU/APT28 (Fancy Bear) des cyberattaques contre la campagne Macron 2017 (MacronLeaks) - première attribution publique française; opération coordonnée: hack 15 GB + 21 075 emails leakés 05/05/2017, ~500 000 tweets #MacronLeaks en 24h",
+      "tier": "✦",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://www.politico.eu/article/macron-leaks-cyberattack-russia-gru-moscow-war/",
+      "memory_id": "",
+      "origin_run": "20260905-1100-ingerences-electorales-france-ue",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Le RN a obtenu 2 prêts russes en 2014 (9,4 M EUR au total: 9 M EUR parti + 2 M EUR microparti) auprès de la First Czech Russian Bank (devenue russe, liée Gazprom), révélés par Mediapart nov 2014; les contreparties politiques sont contestées (Le Pen dément, commission enquête auditionnée 24/05/2023)",
+      "tier": "✧",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://www.anticor.org/2023/12/04/les-financements-russes-du-rassemblement-national/",
+      "memory_id": "",
+      "origin_run": "20260905-1100-ingerences-electorales-france-ue",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+    },
+    {
+      "key": "",
+      "value": "ELNET est un lobby pro-israelien documente (ex-AIPAC, cree en 2007, 6 bureaux europeens, ~20 M$/an, voyages tous frais payes de parlementaires).",
+      "tier": "✦",
+      "families": [
+        "A",
+        "other:europalforum"
+      ],
+      "url": "https://www.monde-diplomatique.fr/2026/06/BARTAL/69607",
+      "memory_id": "",
+      "origin_run": "20260905-1211-ingerences-usa-soros-aipac-fondations-israel",
+      "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel"
+    },
+    {
+      "key": "",
+      "value": "Les voyages de parlementaires francais en Israel (60+, finances par ELNET, 4 000 EUR/voyage, essor apres 10/2023) sont documentes par la transparence HATVP/AN.",
+      "tier": "✦",
+      "families": [
+        "C",
+        "other:yenisafak"
+      ],
+      "url": "https://en.yenisafak.com/world/israel-tops-french-parliamentarians-foreign-lobbying-trips-3722432",
+      "memory_id": "",
+      "origin_run": "20260905-1211-ingerences-usa-soros-aipac-fondations-israel",
+      "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel"
+    },
+    {
+      "key": "",
+      "value": "AIPAC, lobby pro-israelien le plus puissant des US : 156,4 M$ de revenus (2024), 38-46 M$+ par cycle electoral via super PAC et shell PACs - influence electorale documentee.",
+      "tier": "✦",
+      "families": [
+        "B",
+        "C"
+      ],
+      "url": "https://fr.wikipedia.org/wiki/AIPAC",
+      "memory_id": "",
+      "origin_run": "20260905-1211-ingerences-usa-soros-aipac-fondations-israel",
+      "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel"
+    },
+    {
+      "key": "",
+      "value": "Les fondations Soros (OSF) : 24,2 Mds$ depenses cumulees, 1,2 Md$/an (2024), 83,7 M$ pour l'Europe - philanthropie legale et publique, chiffres transparents.",
+      "tier": "✦",
+      "families": [
+        "D",
+        "E"
+      ],
+      "url": "https://www.opensocietyfoundations.org/who-we-are/financials",
+      "memory_id": "",
+      "origin_run": "20260905-1211-ingerences-usa-soros-aipac-fondations-israel",
+      "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel"
+    },
+    {
+      "key": "",
+      "value": "Israel est documente comme protecteur de NSO/Pegasus (dissimulation d'etat); l'affaire Pegasus fait l'objet d'une enquete judiciaire en France (2021-2026).",
+      "tier": "✧",
+      "families": [
+        "B"
+      ],
+      "url": "https://www.radiofrance.fr/franceinter/podcasts/l-info-de-france-inter/l-info-de-france-inter-9220530",
+      "memory_id": "",
+      "origin_run": "20260905-1211-ingerences-usa-soros-aipac-fondations-israel",
+      "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel"
+    },
+    {
+      "key": "",
+      "value": "Des operations liees a Tel-Aviv contre LFI (municipales 2026) et en Slovenie sont allegees par le Monde diplomatique - degre de preuve a verifier.",
+      "tier": "✧",
+      "families": [
+        "A"
+      ],
+      "url": "https://www.monde-diplomatique.fr/2026/06/BARTAL/69607",
+      "memory_id": "",
+      "origin_run": "20260905-1211-ingerences-usa-soros-aipac-fondations-israel",
+      "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel"
+    },
+    {
+      "key": "",
+      "value": "L'influence du lobby pro-israelien aux US est un objet academique documente (Walt/Mearsheimer 2006) - debattu mais reel, sans 'controle' total.",
+      "tier": "✧",
+      "families": [
+        "C"
+      ],
+      "url": "https://fr.wikipedia.org/wiki/AIPAC",
+      "memory_id": "",
+      "origin_run": "20260905-1211-ingerences-usa-soros-aipac-fondations-israel",
+      "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel"
+    },
+    {
+      "key": "",
+      "value": "L'influence du lobby agricole FNSEA sur l'Assemblee nationale est documentee a grande echelle : 783 amendements copies-colles (62% non attribues), 1 M EUR de depenses de lobbying/an.",
+      "tier": "✦",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://reporterre.net/Deputes-ils-proposent-des-textes-ecrits-par-la-FNSEA",
+      "memory_id": "",
+      "origin_run": "20260905-1352-lobbies-thinktanks-clubs-francs-macons",
+      "subject_dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
+    },
+    {
+      "key": "",
+      "value": "Le lobbying francais est encadre (loi Sapin II 2016) par un repertoire HATVP de 3 500+ representants declareant 15 823 fiches d'activite en 2024 ; les manquements persistent (330 sans declaration).",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://www.hatvp.fr/presse/representation-dinterets-ce-quil-faut-retenir-de-lanalyse-des-declarations-du-repertoire-pour-lexercice-2024/",
+      "memory_id": "",
+      "origin_run": "20260905-1352-lobbies-thinktanks-clubs-francs-macons",
+      "subject_dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
+    },
+    {
+      "key": "",
+      "value": "Le lobbying a Bruxelles est encadre par un registre de transparence de plus de 12 000 entites (accord interinstitutionnel 2021), qui inclut think tanks et cabinets agissant pour des pays tiers.",
+      "tier": "✦",
+      "families": [
+        "E",
+        "other:eu-commission"
+      ],
+      "url": "https://www.hatvp.fr/lobbying/actualites/la-regulation-du-lobbying-au-niveau-de-lunion-europeenne/",
+      "memory_id": "",
+      "origin_run": "20260905-1352-lobbies-thinktanks-clubs-francs-macons",
+      "subject_dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
+    },
+    {
+      "key": "",
+      "value": "Les think tanks francais captent des subventions publiques discrecionnaires de Matignon tout en etant finances par de grands groupes prives ; la HATVP veut les soumettre a la loi Sapin 2.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://www.marianne.net/agora/prives-mais-dinteret-general-pour-qui-roulent-les-think-tanks",
+      "memory_id": "",
+      "origin_run": "20260905-1352-lobbies-thinktanks-clubs-francs-macons",
+      "subject_dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
+    },
+    {
+      "key": "",
+      "value": "Think tanks et groupes industriels/communication sont juridiquement et humainement interconnectes (actionnariats industriels, doubles casquettes dirigeants), sans veto formel demontre sur les analyses.",
+      "tier": "✧",
+      "families": [
+        "A"
+      ],
+      "url": "https://www.marianne.net/agora/prives-mais-dinteret-general-pour-qui-roulent-les-think-tanks",
+      "memory_id": "",
+      "origin_run": "20260905-1352-lobbies-thinktanks-clubs-francs-macons",
+      "subject_dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
+    },
+    {
+      "key": "",
+      "value": "Le club Le Siecle documente l'entre-soi des elites politiques/economiques/mediatiques francaises : jusqu'a 72% des ministres membres sous Balladur, cooptation secrete, diners mensuels.",
+      "tier": "✦",
+      "families": [
+        "B",
+        "C"
+      ],
+      "url": "https://fr.wikipedia.org/wiki/Le_Si%C3%A8cle",
+      "memory_id": "",
+      "origin_run": "20260905-1352-lobbies-thinktanks-clubs-francs-macons",
+      "subject_dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
+    },
+    {
+      "key": "",
+      "value": "La franc-maconnerie francaise compte 175 000+ membres (structuree, cooptation) - realite organisationnelle documentee ; l'influence politique coordonnee n'est etayee par aucune source verifiee.",
+      "tier": "✧",
+      "families": [
+        "C",
+        "other:substack-giak"
+      ],
+      "url": "https://fr.wikipedia.org/wiki/Franc-ma%C3%A7onnerie_en_France",
+      "memory_id": "",
+      "origin_run": "20260905-1352-lobbies-thinktanks-clubs-francs-macons",
+      "subject_dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
+    },
+    {
+      "key": "",
+      "value": "Cambridge Analytica (Mercer/Bannon) a exploité dès 2014 les données de 87M profils Facebook (70M US) collectées sans autorisation via l'app thisisyourdigitallife de Kogan; utilisé pour profiler et micro-cibler des électeurs (campagnes US et Brexit); révélé par Wylie en 2018; mais ICO 2020: aucune preuve d'implication active de CA dans le référendum EU",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B",
+        "C"
+      ],
+      "url": "https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election",
+      "memory_id": "",
+      "origin_run": "20260905-1116-manipulation-electorale-france-ue",
+      "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Electoral Commission UK: Vote Leave amendé 61000 GBP + déféré à la police (dépassement ~500000 GBP de la limite 7M GBP, travail commun BeLeave non déclaré); Leave.EU amendé 66000 GBP après appel (dépassement >10% de sa limite 700000 GBP); prets 6M GBP mal déclarés",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.dw.com/en/brexit-vote-leave-campaign-fined-and-referred-to-police-by-electoral-commission/a-49750297",
+      "memory_id": "",
+      "origin_run": "20260905-1116-manipulation-electorale-france-ue",
+      "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Les deepfakes (voix/visages clonés par IA) ont été identifiés comme une menace réelle pour les européennes 2024 (29/04/2024); faux comptes 'nièces Le Pen' sur TikTok supprimés; loi SREN adoptée 10/04/2024 (transposition DSA, amendes 6% CA); cas Slovaquie 09/2023; pénalité: 2 ans prison + 45000 EUR",
+      "tier": "✧",
+      "families": [
+        "B"
+      ],
+      "url": "https://www.20minutes.fr/politique/elections-europeens/4087103-20240429-elections-europeennes-2024-menace-reelle-faut-craindre-campagne-bouleversee-deepfakes",
+      "memory_id": "",
+      "origin_run": "20260905-1116-manipulation-electorale-france-ue",
+      "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Tribunal correctionnel de Marseille (27/01/2025): ~10 personnes condamnées pour fraudes aux procurations lors des municipales 2020 (faux document administratif, manœuvres frauduleuses); Omiros 2 ans dont 1 sursis + 5 ans inéligibilité; Chervet 1 an ferme + 5 ans inéligibilité; Pasquini 18 mois sursis",
+      "tier": "✧",
+      "families": [
+        "B"
+      ],
+      "url": "https://www.leparisien.fr/faits-divers/fraudes-aux-elections-municipales-a-marseille-plusieurs-elus-condamnes-27-01-2025-EOBBPXMGNZDS7JAZOLZDSXJI4M.php",
+      "memory_id": "",
+      "origin_run": "20260905-1116-manipulation-electorale-france-ue",
+      "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Machines à voter en France: 66 communes (2017), moratoire depuis 2007; Ministère de l'Intérieur: risques de fraude/défaillance jamais 'avérés'; système critiqué pour opacité (dépouillement non public, écart votes/émargements 3-5x, bulletins blancs 2x); fraude possible démontrée aux US (Princeton 2006, Berkeley 2018) mais aucune fraude avérée documentée en France",
+      "tier": "✧",
+      "families": [
+        "B"
+      ],
+      "url": "https://www.franceinfo.fr/elections/presidentielle/vrai-ou-fake-le-vote-par-anticipation-a-l-aide-de-machines-a-voter-facilite-t-il-la-fraude-electorale_4300337.html",
+      "memory_id": "",
+      "origin_run": "20260905-1116-manipulation-electorale-france-ue",
+      "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Macron a publié (10/02/2025) des deepfakes de lui-même (montage films/séries, millions de vues) pour promouvoir le sommet IA de Paris; experts critiquent la normalisation des deepfakes qui rend plus difficile de distinguer le vrai du faux; Macron avait déclaré (10/2024) que les deepfakes 'peuvent désinformer, perturber nos démocraties'",
+      "tier": "✧",
+      "families": [
+        "B"
+      ],
+      "url": "https://www.bbc.com/news/articles/c3e1kne7q1qo",
+      "memory_id": "",
+      "origin_run": "20260905-1116-manipulation-electorale-france-ue",
+      "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Electoral Commission UK (11/05/2018): Leave.EU amendé 70000 GBP (66000 après appel) pour dépassement de dépenses (~77380 GBP non déclarés, >10% de sa limite), 3 prêts de 6M GBP mal déclarés, 97 paiements sans facture; aucune preuve de services/dons de Cambridge Analytica à Leave.EU",
+      "tier": "✧",
+      "families": [
+        "A"
+      ],
+      "url": "https://www.electoralcommission.org.uk/media-centre/leaveeu-fined-multiple-breaches-electoral-law-following-investigation",
+      "memory_id": "",
+      "origin_run": "20260905-1116-manipulation-electorale-france-ue",
+      "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Le Conseil constitutionnel a annulé 7 circonscriptions aux législatives 2022 (99 réclamations + 430 saisines CNCCFP), dont mélange de bulletins (1re Ariège) et ~1000 bulletins écartés (2e Marne), entraînant des élections partielles; plus de la moitié des recours rejetés immédiatement; contrôle effectif de la sincérité du scrutin",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://www.conseil-constitutionnel.fr/decision/2023/202331ELEC.htm",
+      "memory_id": "",
+      "origin_run": "20260905-1116-manipulation-electorale-france-ue",
+      "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "La Commission (rapport 29/07/2024): la préparation DSA/Code of Practice/EDMO pour les européennes 2024 a réussi - aucun incident de désinformation majeur ou systémique n'a perturbé les élections; mais le Delors Centre (2026) nuance: aux élections RU/DE/PL suivantes, plateformes ont déclaré des mesures efficaces que les observations externes contredisent partiellement (ex. 25 000 comptes TikTok en Roumanie)",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://digital-strategy.ec.europa.eu/en/library/european-board-digital-services-publishes-post-election-report-eu-elections",
+      "memory_id": "",
+      "origin_run": "20260905-1116-manipulation-electorale-france-ue",
+      "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Accusation immediate de la Russie (09-10/2022) sans preuve publiee; jamais etayee: WaPo 'no conclusive evidence' (12/2022), autorites DE/SE sans preuve, SE/DK fermees sans coupable (02/2024), enquete ONU russe rejetee 3/15",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://mondediplo.com/2024/11/10nordstream",
+      "memory_id": "",
+      "origin_run": "20260905-1457-nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "subject_dir": "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand"
+    },
+    {
+      "key": "",
+      "value": "Enquete DE substantielle: 7 suspects (ecole plongee Kiev), Zhuravlev (Croatie 08/2026, extradition demandee), Serhiy K (Italie 08/2025 -> DE 11/2025); Pologne REFUSE extrader (10/2025)",
+      "tier": "✦",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://www.theguardian.com/business/2026/aug/19/ukrainian-diver-arrested-in-croatia-over-nord-stream-pipeline-bombings",
+      "memory_id": "",
+      "origin_run": "20260905-1457-nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "subject_dir": "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand"
+    },
+    {
+      "key": "",
+      "value": "Piste UA: rapport CIA 11/2023 (Chervinsky + Zaluzhnyi, Zelensky pas au courant) vs WSJ 08/2024 (Zelensky approuve puis stoppe sous pression US); CIA au courant 06/2022 (WaPo); Zelensky nie",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://www.nytimes.com/2023/03/07/us/politics/nord-stream-pipeline-sabotage-ukraine.html",
+      "memory_id": "",
+      "origin_run": "20260905-1457-nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "subject_dir": "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand"
+    },
+    {
+      "key": "",
+      "value": "Elements publics role US: Biden 07/02/2022 'we will bring an end to it', Nuland 'hunk of metal' (01/2023), Hersh 02/2023 (non corrobore), CIA au courant/dissuasion (WaPo/WSJ 06/2023), US citizens inspection Andromeda (Die Welt 12/2023)",
+      "tier": "✦",
+      "families": [
+        "A",
+        "other:reuters"
+      ],
+      "url": "https://mondediplo.com/2024/11/10nordstream",
+      "memory_id": "",
+      "origin_run": "20260905-1457-nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "subject_dir": "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand"
+    },
+    {
+      "key": "",
+      "value": "Silence DE: Staatswohl (code allie), refus publier, pas de commission; parlementaires denoncent; Pologne refuse extradition + Tusk 'apologise and keep quiet' - asymetrie vs accusations immediates contre la Russie ailleurs",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.theguardian.com/business/2026/aug/19/ukrainian-diver-arrested-in-croatia-over-nord-stream-pipeline-bombings",
+      "memory_id": "",
+      "origin_run": "20260905-1457-nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "subject_dir": "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand"
+    },
+    {
+      "key": "",
+      "value": "Jugement Londres 06/07/2026: exclusion guerre (580 M EUR non payes), auteur NON tranche (US/Russie/Ukraine possibles), militaire = instrument du gouvernement; NS AG = Gazprom 51% + E.ON/Wintershall/Gasunie/Engie, ~10 Md EUR",
+      "tier": "✦",
+      "families": [
+        "C",
+        "other:hfw"
+      ],
+      "url": "https://www.claimsjournal.com/news/national/2026/07/06/338612.htm",
+      "memory_id": "",
+      "origin_run": "20260905-1457-nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "subject_dir": "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand"
+    },
+    {
+      "key": "",
+      "value": "CONFIRME",
+      "tier": "✦",
+      "families": [
+        "other:cornell-press",
+        "other:substack-giak"
+      ],
+      "url": "https://cornellpress.cornell.edu/book/9781501761737/covert-regime-change/",
+      "memory_id": "",
+      "origin_run": "20260905-1347-revolutions-couleur-cia-usaid-ned",
+      "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned"
+    },
+    {
+      "key": "",
+      "value": "CONFIRME",
+      "tier": "✦",
+      "families": [
+        "C",
+        "D"
+      ],
+      "url": "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
+      "memory_id": "",
+      "origin_run": "20260905-1347-revolutions-couleur-cia-usaid-ned",
+      "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned"
+    },
+    {
+      "key": "",
+      "value": "CONFIRME",
+      "tier": "✦",
+      "families": [
+        "C",
+        "E"
+      ],
+      "url": "https://nsarchive.gwu.edu/briefing-book/intelligence/2017-02-07/cia-covert-aid-italy-averaged-5-million-annually-late-1940s",
+      "memory_id": "",
+      "origin_run": "20260905-1347-revolutions-couleur-cia-usaid-ned",
+      "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned"
+    },
+    {
+      "key": "",
+      "value": "CONFIRME",
+      "tier": "✦",
+      "families": [
+        "B",
+        "E"
+      ],
+      "url": "https://www.journalofdemocracy.org/articles/the-real-causes-of-the-color-revolutions/",
+      "memory_id": "",
+      "origin_run": "20260905-1347-revolutions-couleur-cia-usaid-ned",
+      "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned"
+    },
+    {
+      "key": "",
+      "value": "VERIFIE",
+      "tier": "✧",
+      "families": [
+        "other:substack-giak"
+      ],
+      "url": "https://giak.substack.com/p/kallas-et-les-19-pays-ce-que-les",
+      "memory_id": "",
+      "origin_run": "20260905-1347-revolutions-couleur-cia-usaid-ned",
+      "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned"
+    },
+    {
+      "key": "",
+      "value": "VERIFIE",
+      "tier": "✧",
+      "families": [
+        "C"
+      ],
+      "url": "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
+      "memory_id": "",
+      "origin_run": "20260905-1347-revolutions-couleur-cia-usaid-ned",
+      "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned"
+    },
+    {
+      "key": "",
+      "value": "VERIFIE",
+      "tier": "✧",
+      "families": [
+        "C"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Colour_revolution",
+      "memory_id": "",
+      "origin_run": "20260905-1347-revolutions-couleur-cia-usaid-ned",
+      "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.france24.com/fr/france/20260703-municipales-comment-une-campagne-de-d%C3%A9sinformation-in%C3%A9dite-a-%C3%A9t%C3%A9-men%C3%A9e-depuis-isra%C3%ABl-contre-lfi",
+      "memory_id": "",
+      "origin_run": "20260905-1329-seconde-vague-elevation-faits-non-confirmes",
+      "subject_dir": "2026-09-05_seconde-vague-elevation-faits-non-confirmes"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.theguardian.com/news/article/2024/jul/25/israel-tried-to-frustrate-us-lawsuit-over-pegasus-spyware-leak-suggests",
+      "memory_id": "",
+      "origin_run": "20260905-1329-seconde-vague-elevation-faits-non-confirmes",
+      "subject_dir": "2026-09-05_seconde-vague-elevation-faits-non-confirmes"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.congress.gov/crs-product/R42738",
+      "memory_id": "",
+      "origin_run": "20260905-1329-seconde-vague-elevation-faits-non-confirmes",
+      "subject_dir": "2026-09-05_seconde-vague-elevation-faits-non-confirmes"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.washingtonpost.com/archive/opinions/1991/09/22/innocence-abroad-the-new-world-of-spyless-coups/92bb989a-de6e-4bb8-99b9-462c76b59a16/",
+      "memory_id": "",
+      "origin_run": "20260905-1329-seconde-vague-elevation-faits-non-confirmes",
+      "subject_dir": "2026-09-05_seconde-vague-elevation-faits-non-confirmes"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://factuel.afp.com/doc.afp.com.94KA4G3",
+      "memory_id": "",
+      "origin_run": "20260905-1329-seconde-vague-elevation-faits-non-confirmes",
+      "subject_dir": "2026-09-05_seconde-vague-elevation-faits-non-confirmes"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "other:jean-jaures"
+      ],
+      "url": "https://www.la-fabrique.fr/fr/qui-sommes-nous/",
+      "memory_id": "",
+      "origin_run": "20260905-1329-seconde-vague-elevation-faits-non-confirmes",
+      "subject_dir": "2026-09-05_seconde-vague-elevation-faits-non-confirmes"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "other:vie-publique"
+      ],
+      "url": "https://www.senat.fr/leg/pjl25-913.html",
+      "memory_id": "",
+      "origin_run": "20260905-1329-seconde-vague-elevation-faits-non-confirmes",
+      "subject_dir": "2026-09-05_seconde-vague-elevation-faits-non-confirmes"
+    },
+    {
+      "key": "",
+      "value": "Le tribunal correctionnel de Marseille a condamne le 27/01/2025 une dizaine de personnes pour fausses procurations aux municipales 2020 (faux dans un document administratif, manoeuvres frauduleuses): Omiros 2 ans dont 1 sursis + 5 ans d ineligibilite, Chervet 1 an ferme sous bracelet + 5 ans d ineligibilite, Moraine 6 mois sursis + 1 an ineligibilite, Pasquini 18 mois sursis + 3 ans ineligibilite, Cazzola 6 mois sursis + 2 ans ineligibilite; Ravier relaxe; CEDH a valide le raisonnement du CE (12/2025); l election n a pas ete annulee (ecart de voix superieur aux procurations frauduleuses).",
+      "tier": "✦",
+      "families": [
+        "B",
+        "E"
+      ],
+      "url": "https://www.leparisien.fr/faits-divers/fraudes-aux-elections-municipales-a-marseille-plusieurs-elus-condamnes-27-01-2025-EOBBPXMGNZDS7JAZOLZDSXJI4M.php",
+      "memory_id": "",
+      "origin_run": "20260905-1247-triche-electorale-france-ue",
+      "subject_dir": "2026-09-05_triche-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Sur 85 recours contre les elections legislatives de juin-juillet 2024, le Conseil constitutionnel a prononce 2 annulations: 2e circonscription du Jura (decision 2024-6341 AN du 13/02/2025) et 5e circonscription de Saone-et-Loire (decision 2024-6367 AN du 07/03/2025, erreurs de depouillement: 102 voix pour 100 enveloppes, seuil 12,5% remis en cause); le reste des recours a ete rejete.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://www.conseil-constitutionnel.fr/actualites/communique/elections-legislatives-de-juin-juillet-2024",
+      "memory_id": "",
+      "origin_run": "20260905-1247-triche-electorale-france-ue",
+      "subject_dir": "2026-09-05_triche-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Les machines a voter, experimentees depuis 2002, restent utilisees par une soixantaine de communes; leur deploiement est gele par un moratoire depuis 2008; aucune fraude averee n a ete documentee en France mais des vulnerabilites existent: erreurs de comptage au Mans (2013, plus de votes que de signatures), problemes de parametrage a Issy-les-Moulineaux (2017), opacite du logiciel, ecarts 3 a 6 fois plus importants qu au vote papier (Chantal Enguehard).",
+      "tier": "✦",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://fr.wikipedia.org/wiki/Vote_%C3%A9lectronique_en_France",
+      "memory_id": "",
+      "origin_run": "20260905-1247-triche-electorale-france-ue",
+      "subject_dir": "2026-09-05_triche-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Le vote multiple et l inscription multiple sur plusieurs listes electorales sont des delits (art L86 et suivants du code electoral): emprisonnement de 6 mois a 2 ans et amende de 15 000 EUR; le vote par procuration frauduleuse est aussi criminalise; environ 500 000 electeurs etaient inscrits en double en 2017 (dysfonctionnements de radiation, IGA), le double vote restant un delit punissable.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006148461",
+      "memory_id": "",
+      "origin_run": "20260905-1247-triche-electorale-france-ue",
+      "subject_dir": "2026-09-05_triche-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Les elections serbes du 17/12/2023 ont ete entachees d irregularites documentees: non-respect du secret du vote, vote de groupe, manipulation du registre electoral, signatures forgees, pressions sur les electeurs; le Parlement europeen a adopte le 08/02/2024 (461 voix pour) une resolution appelant a une enquete independante et a la suspension des fonds UE si les autorites serbes etaient impliquees; les observateurs internationaux (ODIHR) ont confirme des irregularites.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20240202IPR17327/serbia-did-not-fulfil-its-commitments-to-free-and-fair-elections-say-meps",
+      "memory_id": "",
+      "origin_run": "20260905-1247-triche-electorale-france-ue",
+      "subject_dir": "2026-09-05_triche-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "L integrite globale des scrutins francais est preservee: sur 85 recours contre les legislatives 2024, seulement 2 annulations (2,4%); les fraudes sont rares, localisees et sanctionnees (Marseille); aucune election presidentielle ou legislative nationale n a ete annulee globalement; le contentieux electoral permet de corriger les irregularites (reduction de voix, annulations circonscription par circonscription).",
+      "tier": "✧",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.conseil-constitutionnel.fr/actualites/communique/elections-legislatives-de-juin-juillet-2024",
+      "memory_id": "",
+      "origin_run": "20260905-1247-triche-electorale-france-ue",
+      "subject_dir": "2026-09-05_triche-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Les machines a voter presentent des limites documentees: opacite du logiciel (questions sans reponse sur programmation, maintenance, depouillement), erreurs de comptage (Le Mans 2013: 56 erreurs relevees), problemes de parametrage (Issy-les-Moulineaux 2017), ecarts systematiquement 3 a 6 fois plus importants qu au vote papier; malgre ces vulnerabilites, aucune fraude electorale averee n a ete prouvee en France.",
+      "tier": "✧",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://theconversation.com/machine-a-voter-dinterminables-annees-de-vulnerabilite-democratique-104729",
+      "memory_id": "",
+      "origin_run": "20260905-1247-triche-electorale-france-ue",
+      "subject_dir": "2026-09-05_triche-electorale-france-ue"
+    },
+    {
+      "key": "",
+      "value": "Cambridge Analytica a récolté les données de jusqu'à 87 millions de profils Facebook via l'app thisisyourdigitallife. Scandale éclaté en mars 2018 ; CA dépose bilan mai 2018. ICO enquête et conclut en octobre 2020.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "C"
+      ],
+      "url": "https://ico.org.uk/action-weve-taken/advice-and-guidance/investigation-into-the-use-of-data-analytics-in-political-campaigns/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "AggregateIQ (AIQ) a reçu 656 000£ de Vote Leave et a travaillé avec Cambridge Analytica. AIQ créée à Vancouver en 2016 ; liens opérationnels avec CA documentés par Electoral Commission.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://www.electoralcommission.org.uk/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Aaron Banks a donné 8,5 M£ à Leave.EU. Ces fonds sont suspects d'origine russe (Russian Embassy contacts) et américaine (US Embassy contacts). Electoral Commission a enquêté mais n'a pas établi de collusion étrangère.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://www.electoralcommission.org.uk/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "L'ISC a documenté des contacts entre l'ambassade russe et des membres de Vote Leave et Leave.EU. Rapport ISC 2020 conclut à credible open-source evidence d'ingérence russe, mais no conclusive evidence de manipulation du résultat.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://www.theguardian.com/world/2020/feb/21/russia-report-uk-intelligence-failings-brexit",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Steve Bannon a été stratège de Vote Leave et a conseillé Cambridge Analytica. Bannon est un ancien conseiller de Trump et un militant d'extrême droite.",
+      "tier": "✦",
+      "families": [
+        "C",
+        "D"
+      ],
+      "url": "https://www.bbc.com/news/uk-politics-36821572",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "La famille Mercer a financé Cambridge Analytica via Steve Bannon. Rebekah Mercer est la fille de Robert Mercer, milliardaire qui a financé Cambridge Analytica.",
+      "tier": "✦",
+      "families": [
+        "C",
+        "D"
+      ],
+      "url": "https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Emerdata Limited créée en 2017 comme successeur de Cambridge Analytica, dirigée par Rebekah Mercer. Entrée en administration en décembre 2024 mais directeurs maintiennent le contrôle.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "C",
+        "D"
+      ],
+      "url": "https://find-and-update.company-information.service.gov.uk/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Data Propria et Auspex International fondées en 2018 par d'anciens cadres de CA. Ces successeurs continuent les opérations de profilage psychographique et de microciblage électoral.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "C",
+        "D"
+      ],
+      "url": "https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "L'ICO a conclu que CA n'était pas impliqué dans le Brexit beyond some initial enquiries. Cette conclusion est contestée par des whistleblowers (Kaiser, Sanni, Wylie) et des journalistes d'investigation.",
+      "tier": "✧",
+      "families": [
+        "A",
+        "C"
+      ],
+      "url": "https://ico.org.uk/action-weve-taken/advice-and-guidance/investigation-into-the-use-of-data-analytics-in-political-campaigns/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Electoral Commission a enquêté sur Vote Leave et Leave.EU mais n'a pas poursuivi pour collusion étrangère. Sanctions se limitent à amendes pour dépassement de plafond de dépenses et déclarations inexactes.",
+      "tier": "✧",
+      "families": [
+        "A",
+        "C"
+      ],
+      "url": "https://www.electoralcommission.org.uk/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "8 des 15 principaux médias nationaux français appartiennent à des milliardaires. Ces médias ont couvert le Brexit de manière biaisée.",
+      "tier": "✦",
+      "families": [
+        "D",
+        "E"
+      ],
+      "url": "https://www.lemonde.fr/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Daily Mail, Telegraph, Times, Guardian, BBC ont été accusés de biais en faveur du Leave. Étude académique montre couverture disproportionnée au Leave.",
+      "tier": "✦",
+      "families": [
+        "D",
+        "E"
+      ],
+      "url": "https://academic.oup.com/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "ELNET a organisé 101 voyages parlementaires français entre 2017 et 2024. Convergence UK-France : ELNET est un lobby pro-israélien qui influence les deux pays.",
+      "tier": "✦",
+      "families": [
+        "D",
+        "E"
+      ],
+      "url": "https://www.monde-diplomatique.fr/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Atlantic Council, CFR, Chatham House, Policy Exchange, Legatum, IEA sont des think tanks interconnectés. Ces think tanks fabriquent la politique et pré-manufacturent les récits.",
+      "tier": "✦",
+      "families": [
+        "B",
+        "E"
+      ],
+      "url": "https://www.atlanticcouncil.org/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Le Siècle (566 membres, 72% ministres Balladur) et franc-maçonnerie (175 000+ membres) sont des réseaux de cooptation. Ces réseaux français sont interconnectés avec Atlantic Council, Bilderberg, ELNET.",
+      "tier": "✦",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://www.lemonde.fr/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Traité de Lisbonne a repris 95% du contenu de la Constitution européenne rejetée par référendum 2005. Le NON français de 2005 (54,67%) a été contourné par le traité de Lisbonne 2007.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Lisbon",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "EPPO opère en France depuis 2021 avec pouvoirs de perquisition sans juge français. L'EPPO est un parquet européen qui échappe au contrôle judiciaire français.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://europa.eu/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "L'UE négocie un traité pandémies avec l'OMS qui transférerait des pouvoirs de santé publique à l'OMS. Ce traité est négocié sans transparence ni contrôle démocratique.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://europa.eu/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "DSA adopté 2022 ; European Democracy Shield 2025. Ces textes sont présentés comme protecteurs mais instrumentalisés pour justifier le contrôle interne.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://europa.eu/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Commission européenne utilise think tanks comme sounding board pour early-stage policy ; 700+ réunions depuis 2019. Les think tanks sont financés par des intérêts corporatifs et étrangers.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://ec.europa.eu/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "VIGINUM a documenté 77 opérations informationnelles russes 2023-2025, dont 25 tentatives d'ingérence électorale. Ces opérations utilisent faux comptes, deepfakes, médias proxy.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://www.sgdsn.gouv.fr/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Voice of Europe, média d'influence, dépense ~1 M€/mois, financé par réseau Medvedchuk/FSB. Opère dans 5+ pays UE et cible les eurodéputés.",
+      "tier": "✦",
+      "families": [
+        "D",
+        "E"
+      ],
+      "url": "https://disclose.ngo/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "ELNET (France), BICOM et Board of Deputies (UK) sont des lobbies pro-israéliens qui influencent les politiques étrangères. ELNET 101 voyages parlementaires français ; BICOM finance des politiciens UK.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "D"
+      ],
+      "url": "https://www.hatvp.fr/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "GCHQ aurait mené des opérations d'influence en ligne (CIP = Covert Influence Programme) pour contrer l'extrémisme et influencer l'opinion publique. Ces opérations sont présumées et non confirmées par des documents officiels.",
+      "tier": "✧",
+      "families": [
+        "C",
+        "D"
+      ],
+      "url": "https://www.theguardian.com/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Le lien causal direct entre les manipulations documentées (Cambridge Analytica, AIQ, dark money, ingérences) et le résultat du référendum (52% Leave) n'est pas prouvé. L'impact reste inféré à partir de preuves circonstancielles.",
+      "tier": "✧",
+      "families": [
+        "E"
+      ],
+      "url": "N/A",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Le DUP (parti nord-irlandais) a reçu un prêt de 9,4 M€ du RN français, lui-même financé par la Russie. Ce prêt a été utilisé pour la campagne électorale UK 2019.",
+      "tier": "✦",
+      "families": [
+        "D",
+        "E"
+      ],
+      "url": "https://www.mediapart.fr/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "Les médias britanniques (Daily Mail, Telegraph, Times, Guardian, BBC) ont été infiltrés par des réseaux politiques et des lobbies. Le Daily Mail et le Telegraph ont activement soutenu le Leave ; le Guardian a soutenu Remain mais avec des limites ; la BBC a été accusée de biais.",
+      "tier": "✦",
+      "families": [
+        "D",
+        "E"
+      ],
+      "url": "https://academic.oup.com/",
+      "memory_id": "",
+      "origin_run": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.csis.org/analysis/russia-and-color-revolution",
+      "memory_id": "",
+      "origin_run": "20260905-1347-vague3-elevation-faits-non-confirmes-restants",
+      "subject_dir": "2026-09-05_vague3-elevation-faits-non-confirmes-restants"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B",
+        "C"
+      ],
+      "url": "https://450.fm/2025/11/13/causes-du-declin-dune-certaine-franc-maconnerie-a-la-lumiere-du-principe-dattribution-causale/",
+      "memory_id": "",
+      "origin_run": "20260905-1347-vague3-elevation-faits-non-confirmes-restants",
+      "subject_dir": "2026-09-05_vague3-elevation-faits-non-confirmes-restants"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://appext.hks.harvard.edu/publications/getFile.aspx?Id=209",
+      "memory_id": "",
+      "origin_run": "20260905-1347-vague3-elevation-faits-non-confirmes-restants",
+      "subject_dir": "2026-09-05_vague3-elevation-faits-non-confirmes-restants"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.euractiv.com/news/eu-parliament-back-broad-net-zero-industry-list-ahead-of-tough-trilogue-talks/",
+      "memory_id": "",
+      "origin_run": "20260905-1347-vague3-elevation-faits-non-confirmes-restants",
+      "subject_dir": "2026-09-05_vague3-elevation-faits-non-confirmes-restants"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.osw.waw.pl/en/publikacje/analyses/2023-04-21/it-official-germany-abandons-nuclear-energy",
+      "memory_id": "",
+      "origin_run": "20260905-1347-vague3-elevation-faits-non-confirmes-restants",
+      "subject_dir": "2026-09-05_vague3-elevation-faits-non-confirmes-restants"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.europarl.europa.eu/news/fr/press-room/20220701IPR34365/taxonomie-le-pe-ne-s-oppose-pas-a-l-inclusion-du-gaz-et-du-nucleaire",
+      "memory_id": "",
+      "origin_run": "20260905-1347-vague3-elevation-faits-non-confirmes-restants",
+      "subject_dir": "2026-09-05_vague3-elevation-faits-non-confirmes-restants"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://apnews.com/article/uk-defense-secretary-plane-gps-jamming-kaliningrad-67125af5ba5af75f823c8e39be8b61f8",
+      "memory_id": "",
+      "origin_run": "20260905-1347-vague3-elevation-faits-non-confirmes-restants",
+      "subject_dir": "2026-09-05_vague3-elevation-faits-non-confirmes-restants"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043788361",
+      "memory_id": "",
+      "origin_run": "20260905-1418-viginum-examen-adversarial-caviardage-asymetrie",
+      "subject_dir": "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "B"
+      ],
+      "url": "https://www.sgdsn.gouv.fr/viginum/publications/rokh-solis-analyse-dun-mode-operatoire-informationnel-ayant-cible-les",
+      "memory_id": "",
+      "origin_run": "20260905-1418-viginum-examen-adversarial-caviardage-asymetrie",
+      "subject_dir": "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "B",
+        "C"
+      ],
+      "url": "https://www.lecanardenchaine.fr/police-justice/53909-l-etat-traine-les-pieds-face-a-des-barbouzeries-anti-lfi-venues-d-israel",
+      "memory_id": "",
+      "origin_run": "20260905-1418-viginum-examen-adversarial-caviardage-asymetrie",
+      "subject_dir": "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "A",
+        "E"
+      ],
+      "url": "https://www.sgdsn.gouv.fr/viginum/publications/rokh-solis-analyse-dun-mode-operatoire-informationnel-ayant-cible-les",
+      "memory_id": "",
+      "origin_run": "20260905-1418-viginum-examen-adversarial-caviardage-asymetrie",
+      "subject_dir": "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie"
+    },
+    {
+      "key": "",
+      "value": "1",
+      "tier": "✦",
+      "families": [
+        "C",
+        "D"
+      ],
+      "url": "https://www.euronews.com/my-europe/2025/09/09/examining-contradicting-claims-of-russian-gps-jamming-targeting-von-der-leyens-flight",
+      "memory_id": "",
+      "origin_run": "20260905-1418-viginum-examen-adversarial-caviardage-asymetrie",
+      "subject_dir": "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie"
+    },
+    {
+      "key": "",
+      "value": "VIGINUM est un service d'Etat a competence nationale (decret 2021-922 du 13/07/2021, SGDSN, 65 agents, 7,2 M EUR/an) dont la mission officielle est defensive (detection des ingerences numeriques etrangeres) - cree par l'executif sans debat parlementaire, moyens renforces en 2026.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "C"
+      ],
+      "url": "https://www.sgdsn.gouv.fr/viginum",
+      "memory_id": "",
+      "origin_run": "20260905-1241-viginum-instrument-pouvoir-debunk-narratifs",
+      "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+    },
+    {
+      "key": "",
+      "value": "L'attribution russe du brouillage GPS de l'avion de von der Leyen (31/08/2025) repose sur l'affirmation de la Commission relayant des autorites bulgares qui l'ont ensuite contredite - pas de preuve publique : incident GPS partiel documente (pilote, ILS), cause et auteur non etablis (EuroVerify).",
+      "tier": "✦",
+      "families": [
+        "B",
+        "D"
+      ],
+      "url": "https://fr.euronews.com/my-europe/2025/09/09/lavion-de-von-der-leyen-fut-il-bien-victime-du-brouillage-gps-russe-en-bulgarie",
+      "memory_id": "",
+      "origin_run": "20260905-1241-viginum-instrument-pouvoir-debunk-narratifs",
+      "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+    },
+    {
+      "key": "",
+      "value": "VIGINUM a documente de veritables operations russes (Storm-1516 : 77 operations depuis 08/2023, Matriochka 2024, RRN 2023 ; 25 tentatives 2024 ; 4 operations municipales 03/2026) - la menace etrangere est materiellement documentee, meme si l'impact public mesure reste faible.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "other:corpus"
+      ],
+      "url": "https://www.sgdsn.gouv.fr/viginum",
+      "memory_id": "",
+      "origin_run": "20260905-1241-viginum-instrument-pouvoir-debunk-narratifs",
+      "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+    },
+    {
+      "key": "",
+      "value": "Le cadre de VIGINUM a ete elargi en 02/2026 (decret 2026-70 : collecte sans seuil d'audience, conservation allongee) et s'inscrit dans un empilement de 7 couches legislatives en 22 ans (LCEN 2004 -> projet Nunez 07/2026) - extension documentee des capacites, zéro abrogation.",
+      "tier": "✦",
+      "families": [
+        "A",
+        "C"
+      ],
+      "url": "https://www.defense.gouv.fr/actualites/storm-1516-dessous-dune-operation-dinfluence-russe",
+      "memory_id": "",
+      "origin_run": "20260905-1241-viginum-instrument-pouvoir-debunk-narratifs",
+      "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+    },
+    {
+      "key": "",
+      "value": "Ecart documente entre la menace invoquee et son effet mesure : les operations detectees (25 en 2024, 4 en 03/2026) ont eu 'peu ou pas d'effet visible' selon les declarations officielles elles-memes (Brillant AFP, RCPE) - l'impact reel n'est pas mesure (VIGISCORE = risque estime).",
+      "tier": "✧",
+      "families": [
+        "other:corpus"
+      ],
+      "url": "https://giak.substack.com/p/lingerence-sans-mesure",
+      "memory_id": "",
+      "origin_run": "20260905-1241-viginum-instrument-pouvoir-debunk-narratifs",
+      "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+    },
+    {
+      "key": "",
+      "value": "L'extension legislative anti-ingerence (projet Nunez 22/07/2026 : refete permanent, blocage ARCOM 48h sans juge, notion d''ingerences interieures') est documentee mais son efficacite est jugee 'incertaine' par le Conseil d'Etat lui-meme (avis 16/07/2026) - GAP sur le lien menace->mesure.",
+      "tier": "✧",
+      "families": [
+        "other:corpus"
+      ],
+      "url": "https://giak.substack.com/p/lingerence-sans-mesure",
+      "memory_id": "",
+      "origin_run": "20260905-1241-viginum-instrument-pouvoir-debunk-narratifs",
+      "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+    },
+    {
+      "key": "",
+      "value": "Le phenomene regional de brouillage GPS (Baltique, 2022-2025, ~80 incidents AP, 2732 cas Pologne 01/2025) est materiellement documente et attribue a la Russie - contexte qui rend l'incident de von der Leyen plausible sans pour autant prouver l'attribution specifique.",
+      "tier": "✧",
+      "families": [
+        "B",
+        "C"
+      ],
+      "url": "https://www.france24.com/fr/europe/20250902-brouillage-gps-avion-ursula-von-der-leyen-ce-que-l-on-sait",
+      "memory_id": "",
+      "origin_run": "20260905-1241-viginum-instrument-pouvoir-debunk-narratifs",
+      "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+    }
+  ],
+  "matrix_classes": {
+    "etrangere_etatique": [
+      "2026-09-05-ingerences-externes-internes-democraties-elections",
+      "2026-09-05_achat-de-vote-france-ue",
+      "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne",
+      "2026-09-05_financement-andromeda-nord-stream-qui-a-paye",
+      "2026-09-05_infiltration-medias-politiques-france-ue",
+      "2026-09-05_ingerences-allemagne-ue-nucleaire-francais",
+      "2026-09-05_ingerences-electorales-france-ue",
+      "2026-09-05_ingerences-electorales-france-ue-update",
+      "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
+      "2026-09-05_justice-deux-vitesses-weaponisation-judiciaire",
+      "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "2026-09-05_revolutions-couleur-cia-usaid-ned",
+      "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
+      "2026-09-05_uk-brexit-ingerences-manipulations-democraties-v2",
+      "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie",
+      "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+    ],
+    "transactionnelle": [
+      "2026-09-05_achat-de-vote-france-ue",
+      "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "2026-09-05_corruption-electorale-france-ue",
+      "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves",
+      "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne",
+      "2026-09-05_ingerences-allemagne-ue-nucleaire-francais",
+      "2026-09-05_manipulation-electorale-france-ue",
+      "2026-09-05_triche-electorale-france-ue"
+    ],
+    "effet_asymetrie": [
+      "2026-09-05_achat-de-vote-france-ue",
+      "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "2026-09-05_ingerences-allemagne-ue-nucleaire-francais",
+      "2026-09-05_ingerences-electorales-france-ue",
+      "2026-09-05_lobbies-thinktanks-clubs-francs-macons",
+      "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "2026-09-05_uk-brexit-impact-causal-referendum",
+      "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie",
+      "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+    ],
+    "reseau": [
+      "2026-09-05_achat-de-vote-france-ue",
+      "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "2026-09-05_infiltration-medias-politiques-france-ue",
+      "2026-09-05_ingerences-electorales-france-ue",
+      "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
+    ],
+    "informationnelle": [
+      "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "2026-09-05_complexe-factchecking-propagande-etat",
+      "2026-09-05_infiltration-medias-politiques-france-ue",
+      "2026-09-05_ingerences-electorales-france-ue",
+      "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
+      "2026-09-05_manipulation-electorale-france-ue",
+      "2026-09-05_paradis-data-armes-electorales",
+      "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
+      "2026-09-05_uk-brexit-ingerences-manipulations-democraties-v2",
+      "2026-09-05_uk-brexit-medias-propagande-biais"
+    ],
+    "lobbying": [
+      "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "2026-09-05_infiltration-medias-politiques-france-ue",
+      "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
+      "2026-09-05_lobbies-thinktanks-clubs-francs-macons",
+      "2026-09-05_societes-ecrans-ideologiques-think-tanks",
+      "2026-09-05_uk-brexit-think-tanks-policy-manufacturing"
+    ],
+    "coercitive": [
+      "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves",
+      "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne",
+      "2026-09-05_financement-andromeda-nord-stream-qui-a-paye",
+      "2026-09-05_ingerences-electorales-france-ue",
+      "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
+      "2026-09-05_manipulation-electorale-france-ue",
+      "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie",
+      "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+    ]
+  },
+  "gaps": {
+    "planifie_non_execute": [
+      "2026-09-05_uk-brexit-convergences-france-ue",
+      "2026-09-05_uk-brexit-dark-money-flux-financiers",
+      "2026-09-05_uk-brexit-electoral-commission-ico-ofcom",
+      "2026-09-05_uk-brexit-gchq-cip-influence-presumee",
+      "2026-09-05_uk-brexit-impact-causal-referendum",
+      "2026-09-05_uk-brexit-ingerences-manipulations-democraties-v2",
+      "2026-09-05_uk-brexit-medias-propagande-biais",
+      "2026-09-05_uk-brexit-think-tanks-policy-manufacturing"
+    ],
+    "hors_protocole": [
+      "2026-09-05-ingerences-externes-internes-democraties-elections",
+      "2026-09-05_convergences-systemiques-architecture-controle",
+      "2026-09-05_justice-deux-vitesses-weaponisation-judiciaire",
+      "2026-09-05_paradis-data-armes-electorales",
+      "2026-09-05_societes-ecrans-ideologiques-think-tanks",
+      "2026-09-05_uk-brexit-data-paradieses-offshore"
+    ],
+    "partiel": [
+      "2026-09-05_complexe-factchecking-propagande-etat",
+      "2026-09-05_etat-profond-interferences-interieures-france",
+      "2026-09-05_ingerences-electorales-france-ue-update",
+      "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
+      "2026-09-05_uk-brexit-v2"
+    ],
+    "candidats_elevation": [
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/09668136.2017.1364351",
+        "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://romea.cz/en/world/slovak-police-investigating-suspicions-of-vote-buying-in-romani-settlements-2/",
+        "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://en.wikipedia.org/wiki/Clientelism",
+        "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.palermotoday.it/cronaca/voto-scambio-sindaco-alimena-scrivano-prescrizione-cassazione.html",
+        "subject_dir": "2026-09-05_achat-de-vote-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.coe.int/fr/web/greco/evaluations/france",
+        "subject_dir": "2026-09-05_corruption-electorale-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.hatvp.fr/presse/rapport-dactivite-2024-de-la-haute-autorite/",
+        "subject_dir": "2026-09-05_corruption-electorale-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://blog.juspoliticum.com/2023/04/18/un-contentieux-particulier-la-sanction-des-candidats-a-lelection-presidentielle-par-pierre-mouzet/",
+        "subject_dir": "2026-09-05_corruption-electorale-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://lcp.fr/actualites/audiovisuel-public-et-maintenant-apres-la-fin-des-auditions-la-suite-du-processus-de-la",
+        "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://fr.wikipedia.org/wiki/ELNET_(organisation)",
+        "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://giak.substack.com/p/la-democratie-en-cage",
+        "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/publication-2025-media-pluralism-monitor",
+        "subject_dir": "2026-09-05_influences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://media-ownership.eu/2025-edition/country-reports/france/",
+        "subject_dir": "2026-09-05_influences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://cnccfp.fr/rapport-dactivite-2025/",
+        "subject_dir": "2026-09-05_influences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.multinationales.org/fr/enquetes/les-portes-tournantes/",
+        "subject_dir": "2026-09-05_influences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.alter-eu.org/the-revolving-door-in-detail",
+        "subject_dir": "2026-09-05_influences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.hatvp.fr/le-repertoire/",
+        "subject_dir": "2026-09-05_influences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://theconversation.com/les-medias-font-ils-lelection-74576",
+        "subject_dir": "2026-09-05_influences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.telos-eu.com/fr/economie/le-nucleaire-europeen-sous-influence-allemande.html",
+        "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.sfen.org/rgn/il-fallait-lavoir-vu-quand-le-chancelier-allemand-reconnait-que-la-sortie-du-nucleaire-fut-une-erreur-strategique/",
+        "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.jean-jaures.org/publication/la-taxonomie-europeenne-et-le-nucleaire-une-claque-pour-lallemagne/",
+        "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.esiweb.org/proposals/caviar-diplomacy",
+        "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.bbc.com/news/world-europe-68797624",
+        "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.assemblee-nationale.fr/dyn/16/rapports/ceingeren/l16b1311_rapport-enquete",
+        "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://epthinktank.eu/2026/01/15/the-european-democracy-shield-an-overview/",
+        "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.france24.com/en/europe/20250507-russia-disinformation-france-ukraine",
+        "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.anticor.org/2023/12/04/les-financements-russes-du-rassemblement-national/",
+        "subject_dir": "2026-09-05_ingerences-electorales-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.radiofrance.fr/franceinter/podcasts/l-info-de-france-inter/l-info-de-france-inter-9220530",
+        "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.monde-diplomatique.fr/2026/06/BARTAL/69607",
+        "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://fr.wikipedia.org/wiki/AIPAC",
+        "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.marianne.net/agora/prives-mais-dinteret-general-pour-qui-roulent-les-think-tanks",
+        "subject_dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://fr.wikipedia.org/wiki/Franc-ma%C3%A7onnerie_en_France",
+        "subject_dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.20minutes.fr/politique/elections-europeens/4087103-20240429-elections-europeennes-2024-menace-reelle-faut-craindre-campagne-bouleversee-deepfakes",
+        "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.leparisien.fr/faits-divers/fraudes-aux-elections-municipales-a-marseille-plusieurs-elus-condamnes-27-01-2025-EOBBPXMGNZDS7JAZOLZDSXJI4M.php",
+        "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.franceinfo.fr/elections/presidentielle/vrai-ou-fake-le-vote-par-anticipation-a-l-aide-de-machines-a-voter-facilite-t-il-la-fraude-electorale_4300337.html",
+        "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.bbc.com/news/articles/c3e1kne7q1qo",
+        "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.electoralcommission.org.uk/media-centre/leaveeu-fined-multiple-breaches-electoral-law-following-investigation",
+        "subject_dir": "2026-09-05_manipulation-electorale-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://giak.substack.com/p/kallas-et-les-19-pays-ce-que-les",
+        "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
+        "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://en.wikipedia.org/wiki/Colour_revolution",
+        "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.conseil-constitutionnel.fr/actualites/communique/elections-legislatives-de-juin-juillet-2024",
+        "subject_dir": "2026-09-05_triche-electorale-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://theconversation.com/machine-a-voter-dinterminables-annees-de-vulnerabilite-democratique-104729",
+        "subject_dir": "2026-09-05_triche-electorale-france-ue"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://ico.org.uk/action-weve-taken/advice-and-guidance/investigation-into-the-use-of-data-analytics-in-political-campaigns/",
+        "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.electoralcommission.org.uk/",
+        "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.theguardian.com/",
+        "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "N/A",
+        "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://giak.substack.com/p/lingerence-sans-mesure",
+        "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://giak.substack.com/p/lingerence-sans-mesure",
+        "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+      },
+      {
+        "key": "",
+        "tier": "✧",
+        "url": "https://www.france24.com/fr/europe/20250902-brouillage-gps-avion-ursula-von-der-leyen-ce-que-l-on-sait",
+        "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs"
+      }
+    ],
+    "actions_pending": [
+      {
+        "dir": "2026-09-05_ingerences-electorales-france-ue",
+        "id": "ACT-004",
+        "text": "ACT: recommandation commission 2023 - interdire les prêts de personnes étrangères non résidentes aux partis politiques français"
+      },
+      {
+        "dir": "2026-09-05_manipulation-electorale-france-ue",
+        "id": "ACT-004",
+        "text": "ACT: France - loi SREN 10/04/2024 (transposition DSA, amendes 6% CA) et pénalisation deepfakes (2 ans prison/45000 EUR)"
+      }
+    ],
+    "questions_ouvertes": [
+      {
+        "dir": "2026-09-05_achat-de-vote-france-ue",
+        "id": "CAU-004",
+        "text": "CAU: lien causal entre achat de votes et inversion de resultats non demontre au niveau national - cas documentes localement (Slovaquie 83% vs 28,28%; Melito) mais pas de demonstration d effet agregat; preuve difficile (secret du vote), prescription frequente",
+        "gap_type": "CAUSALITY"
+      },
+      {
+        "dir": "2026-09-05_cartographie-mecanismes-influence-democraties",
+        "id": "CAU-005",
+        "text": "",
+        "gap_type": "EVIDENCE_GAP"
+      },
+      {
+        "dir": "2026-09-05_corruption-electorale-france-ue",
+        "id": "CAU-004",
+        "text": "CAU: les mecanismes de prevention (GRECO, HATVP) existent mais leur efficacite sur la reduction de la corruption n est pas demontree quantitativement",
+        "gap_type": "CAUSALITY"
+      },
+      {
+        "dir": "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves",
+        "id": "CAU-005",
+        "text": "",
+        "gap_type": "EVIDENCE_GAP"
+      },
+      {
+        "dir": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne",
+        "id": "CAU-002",
+        "text": "",
+        "gap_type": "DISPUTED"
+      },
+      {
+        "dir": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne",
+        "id": "CAU-003",
+        "text": "",
+        "gap_type": "CORRELATION_VS_CAUSATION"
+      },
+      {
+        "dir": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne",
+        "id": "CAU-005",
+        "text": "",
+        "gap_type": "INTENT"
+      },
+      {
+        "dir": "2026-09-05_financement-andromeda-nord-stream-qui-a-paye",
+        "id": "CAU-002",
+        "text": "",
+        "gap_type": "CAUSAL_MECHANISM"
+      },
+      {
+        "dir": "2026-09-05_financement-andromeda-nord-stream-qui-a-paye",
+        "id": "CAU-003",
+        "text": "",
+        "gap_type": "INTENT"
+      },
+      {
+        "dir": "2026-09-05_influences-electorales-france-ue",
+        "id": "CAU-002",
+        "text": "",
+        "gap_type": "CAUSALITY"
+      },
+      {
+        "dir": "2026-09-05_influences-electorales-france-ue",
+        "id": "CAU-004",
+        "text": "",
+        "gap_type": "CAUSALITY"
+      },
+      {
+        "dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais",
+        "id": "CAU-004",
+        "text": "CAU-PARTIAL: Le corpus #51 et Telos accusent une strategie allemande anti-nucleaire ciblee contre la France ; les faits documentes (taxonomie 2022, reforme 2023) montrent une defense d'interets allemands dans le cadre UE, pas une preuve d'intention de 'detruire le nucleaire francais'.",
+        "gap_type": "EVIDENCE_GAP"
+      },
+      {
+        "dir": "2026-09-05_ingerences-electorales-france-ue",
+        "id": "CAU-004",
+        "text": "CAU: leffet causal mesurable des ingérences sur les résultats électoraux spécifiques reste non quantifié (pas de preuve dinversion de scrutin)",
+        "gap_type": "CAUSALITY"
+      },
+      {
+        "dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
+        "id": "CAU-004",
+        "text": "CAU-PARTIAL: Israel protege NSO/Pegasus (dissimulation documentee, enquete judiciaire FR en cours) ; les operations contre LFI (municipales 2026) et en Slovenie sont allegees par la presse sans preuve declassification",
+        "gap_type": "EVIDENCE_GAP"
+      },
+      {
+        "dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons",
+        "id": "CAU-004",
+        "text": "CAU-GAP: franc-maconnerie (175 000+ membres documentes) : aucune preuve verifiee d une influence politique coordonnee contemporaine - theorie du complot debunkee (Wikipedia, France Culture, National Geographic) ; noms politiques du corpus non confirmes par des sources independantes",
+        "gap_type": "EVIDENCE_GAP"
+      },
+      {
+        "dir": "2026-09-05_manipulation-electorale-france-ue",
+        "id": "CAU-004",
+        "text": "CAU: limpact quantifié des deepfakes et du micro-ciblage sur les votes FR/UE reste non mesuré",
+        "gap_type": "CAUSALITY"
+      },
+      {
+        "dir": "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+        "id": "CAU-003",
+        "text": "",
+        "gap_type": "INTENT"
+      },
+      {
+        "dir": "2026-09-05_seconde-vague-elevation-faits-non-confirmes",
+        "id": "CAU-004",
+        "text": "CAU: L'effet reel des campagnes documentees (LFI 2026, 25 tentatives 2024) sur le comportement electoral n'est pas mesure - gap de connaissance sur l'impact causal des ingerences numeriques",
+        "gap_type": "EVIDENCE_GAP"
+      },
+      {
+        "dir": "2026-09-05_triche-electorale-france-ue",
+        "id": "CAU-005",
+        "text": "CAU: l ampleur reelle du vote multiple et des fraudes non detectees (inscriptions en double, procurations) ne peut pas etre mesuree avec precision",
+        "gap_type": "CAUSALITY"
+      },
+      {
+        "dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
+        "id": "CAU-007",
+        "text": "",
+        "gap_type": "CAUSALITY"
+      },
+      {
+        "dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
+        "id": "CAU-008",
+        "text": "",
+        "gap_type": "CAUSALITY"
+      },
+      {
+        "dir": "2026-09-05_vague3-elevation-faits-non-confirmes-restants",
+        "id": "CAU-005",
+        "text": "CAU: L'effet causal des financements occidentaux documentes (Orange Revolution 18 M$ US, lobby AIPAC) sur les resultats politiques precis n'est pas quantifiable - gap de connaissance sur la causalite influence/resultat",
+        "gap_type": "EVIDENCE_GAP"
+      },
+      {
+        "dir": "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie",
+        "id": "CAU-005",
+        "text": "",
+        "gap_type": "EVIDENCE_GAP"
+      },
+      {
+        "dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs",
+        "id": "CAU-004",
+        "text": "CAU-PARTIAL: Le corpus allege que VIGINUM sert le pouvoir (financement Conspiracy Watch 50% public, extension 2026 'surveille les medias FR', asymetrie d'attribution jamais les allies) ; les faits documentes (asymetrie, extension, absence de mesure d'effet) sont reels mais l'intention politique part",
+        "gap_type": "EVIDENCE_GAP"
+      }
+    ],
+    "leads_a_traiter": [
+      {
+        "dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
+        "id": "LED-005",
+        "subject": "Accusations de controle d Israel / Soros sur les medias et la politique: debunk, absence de preuve"
+      },
+      {
+        "dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons",
+        "id": "LED-005",
+        "subject": "Accusations de complot des cercles/francs-macons: debunk, absence de preuve de coordination"
+      },
+      {
+        "dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
+        "id": "LED-008",
+        "subject": ""
+      },
+      {
+        "dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
+        "id": "LED-009",
+        "subject": ""
+      },
+      {
+        "dir": "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie",
+        "id": "LED-002",
+        "subject": "H2 'VIGINUM ment': chercher activement un enonce materiellement faux documente (correction, recours, tiers independant) - sinon OPEN (absence de preuve != preuve d'absence)"
+      },
+      {
+        "dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs",
+        "id": "LED-005",
+        "subject": "Cadre legal et controles de VIGINUM (loi 2021, SSN, parlement) vs accusations d'ingerence interne sur la societe civile"
+      }
+    ],
+    "angles_morts_classes": {}
+  },
+  "runs_topology": [
+    {
+      "run_id": "20260905-1125-achat-de-vote-france-ue",
+      "subject_dir": "2026-09-05_achat-de-vote-france-ue",
+      "facts_n": 7,
+      "n_leads": 5
+    },
+    {
+      "run_id": "20260905-1357-cartographie-mecanismes-influence-democraties",
+      "subject_dir": "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "facts_n": 7,
+      "n_leads": 7
+    },
+    {
+      "run_id": "20260905-1445-complexe-factchecking-propagande-etat",
+      "subject_dir": "2026-09-05_complexe-factchecking-propagande-etat",
+      "facts_n": 0,
+      "n_leads": 0
+    },
+    {
+      "run_id": "20260905-1239-corruption-electorale-france-ue",
+      "subject_dir": "2026-09-05_corruption-electorale-france-ue",
+      "facts_n": 7,
+      "n_leads": 5
+    },
+    {
+      "run_id": "20260905-1440-drones-aeroports-france-ue-accusations-sans-preuves",
+      "subject_dir": "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves",
+      "facts_n": 6,
+      "n_leads": 7
+    },
+    {
+      "run_id": "20260905-1400-etat-profond-interferences-interieures-france",
+      "subject_dir": "2026-09-05_etat-profond-interferences-interieures-france",
+      "facts_n": 0,
+      "n_leads": 0
+    },
+    {
+      "run_id": "20260905-1442-filiere-antidrones-europe-qui-vend-qui-gagne",
+      "subject_dir": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne",
+      "facts_n": 6,
+      "n_leads": 6
+    },
+    {
+      "run_id": "20260905-1512-financement-andromeda-nord-stream-qui-a-paye",
+      "subject_dir": "2026-09-05_financement-andromeda-nord-stream-qui-a-paye",
+      "facts_n": 6,
+      "n_leads": 6
+    },
+    {
+      "run_id": "20260905-1330-infiltration-medias-politiques-france-ue",
+      "subject_dir": "2026-09-05_infiltration-medias-politiques-france-ue",
+      "facts_n": 7,
+      "n_leads": 5
+    },
+    {
+      "run_id": "20260905-0945-influences-electorales-france-ue",
+      "subject_dir": "2026-09-05_influences-electorales-france-ue",
+      "facts_n": 9,
+      "n_leads": 4
+    },
+    {
+      "run_id": "20260905-1221-ingerences-allemagne-ue-nucleaire-francais",
+      "subject_dir": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais",
+      "facts_n": 7,
+      "n_leads": 5
+    },
+    {
+      "run_id": "20260905-1100-ingerences-electorales-france-ue",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue",
+      "facts_n": 9,
+      "n_leads": 5
+    },
+    {
+      "run_id": "20260905-1235-ingerences-electorales-france-ue-update",
+      "subject_dir": "2026-09-05_ingerences-electorales-france-ue-update",
+      "facts_n": 0,
+      "n_leads": 0
+    },
+    {
+      "run_id": "20260905-1211-ingerences-usa-soros-aipac-fondations-israel",
+      "subject_dir": "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
+      "facts_n": 7,
+      "n_leads": 5
+    },
+    {
+      "run_id": "20260905-1352-lobbies-thinktanks-clubs-francs-macons",
+      "subject_dir": "2026-09-05_lobbies-thinktanks-clubs-francs-macons",
+      "facts_n": 7,
+      "n_leads": 5
+    },
+    {
+      "run_id": "20260905-1116-manipulation-electorale-france-ue",
+      "subject_dir": "2026-09-05_manipulation-electorale-france-ue",
+      "facts_n": 9,
+      "n_leads": 5
+    },
+    {
+      "run_id": "20260905-1457-nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "subject_dir": "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
+      "facts_n": 6,
+      "n_leads": 6
+    },
+    {
+      "run_id": "20260905-1347-revolutions-couleur-cia-usaid-ned",
+      "subject_dir": "2026-09-05_revolutions-couleur-cia-usaid-ned",
+      "facts_n": 7,
+      "n_leads": 5
+    },
+    {
+      "run_id": "20260905-1329-seconde-vague-elevation-faits-non-confirmes",
+      "subject_dir": "2026-09-05_seconde-vague-elevation-faits-non-confirmes",
+      "facts_n": 7,
+      "n_leads": 7
+    },
+    {
+      "run_id": "20260905-1247-triche-electorale-france-ue",
+      "subject_dir": "2026-09-05_triche-electorale-france-ue",
+      "facts_n": 7,
+      "n_leads": 5
+    },
+    {
+      "run_id": "20260905-1415-uk-brexit-ingerences-manipulations-democraties",
+      "subject_dir": "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
+      "facts_n": 27,
+      "n_leads": 10
+    },
+    {
+      "run_id": "20260905-1515-uk-brexit-v2",
+      "subject_dir": "2026-09-05_uk-brexit-v2",
+      "facts_n": 0,
+      "n_leads": 0
+    },
+    {
+      "run_id": "20260905-1347-vague3-elevation-faits-non-confirmes-restants",
+      "subject_dir": "2026-09-05_vague3-elevation-faits-non-confirmes-restants",
+      "facts_n": 7,
+      "n_leads": 7
+    },
+    {
+      "run_id": "20260905-1418-viginum-examen-adversarial-caviardage-asymetrie",
+      "subject_dir": "2026-09-05_viginum-examen-adversarial-caviardage-asymetrie",
+      "facts_n": 5,
+      "n_leads": 6
+    },
+    {
+      "run_id": "20260905-1241-viginum-instrument-pouvoir-debunk-narratifs",
+      "subject_dir": "2026-09-05_viginum-instrument-pouvoir-debunk-narratifs",
+      "facts_n": 7,
+      "n_leads": 5
+    }
+  ]
+}
