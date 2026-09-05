@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:58:25+00:00",
+  "generated_at": "2026-09-05T19:11:01+00:00",
   "source_dir": "investigations/2026-09",
   "counts": {
     "dirs": 39,
@@ -193,7 +193,18 @@
       "actions_pending": [],
       "causal_gaps": [],
       "leads_non_saturated": [],
-      "classes": []
+      "classes": [
+        {
+          "class": "reseau",
+          "source": "override",
+          "confidence": "high"
+        },
+        {
+          "class": "coercitive",
+          "source": "override",
+          "confidence": "high"
+        }
+      ]
     },
     {
       "name": "2026-09-05_corruption-electorale-france-ue",
@@ -279,7 +290,13 @@
       "actions_pending": [],
       "causal_gaps": [],
       "leads_non_saturated": [],
-      "classes": []
+      "classes": [
+        {
+          "class": "reseau",
+          "source": "override",
+          "confidence": "high"
+        }
+      ]
     },
     {
       "name": "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne",
@@ -441,7 +458,13 @@
         }
       ],
       "leads_non_saturated": [],
-      "classes": []
+      "classes": [
+        {
+          "class": "lobbying",
+          "source": "override",
+          "confidence": "high"
+        }
+      ]
     },
     {
       "name": "2026-09-05_ingerences-allemagne-ue-nucleaire-francais",
@@ -636,9 +659,9 @@
       "leads_non_saturated": [],
       "classes": [
         {
-          "class": "etrangere_etatique",
-          "source": "auto",
-          "confidence": "medium"
+          "class": "effet_asymetrie",
+          "source": "override",
+          "confidence": "high"
         }
       ]
     },
@@ -957,7 +980,13 @@
       "actions_pending": [],
       "causal_gaps": [],
       "leads_non_saturated": [],
-      "classes": []
+      "classes": [
+        {
+          "class": "informationnelle",
+          "source": "override",
+          "confidence": "high"
+        }
+      ]
     },
     {
       "name": "2026-09-05_uk-brexit-electoral-commission-ico-ofcom",
@@ -3453,7 +3482,6 @@
       "2026-09-05_ingerences-electorales-france-ue",
       "2026-09-05_ingerences-electorales-france-ue-update",
       "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
-      "2026-09-05_justice-deux-vitesses-weaponisation-judiciaire",
       "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
       "2026-09-05_revolutions-couleur-cia-usaid-ned",
       "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
@@ -3476,6 +3504,7 @@
       "2026-09-05_cartographie-mecanismes-influence-democraties",
       "2026-09-05_ingerences-allemagne-ue-nucleaire-francais",
       "2026-09-05_ingerences-electorales-france-ue",
+      "2026-09-05_justice-deux-vitesses-weaponisation-judiciaire",
       "2026-09-05_lobbies-thinktanks-clubs-francs-macons",
       "2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand",
       "2026-09-05_uk-brexit-impact-causal-referendum",
@@ -3485,6 +3514,8 @@
     "reseau": [
       "2026-09-05_achat-de-vote-france-ue",
       "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "2026-09-05_convergences-systemiques-architecture-controle",
+      "2026-09-05_etat-profond-interferences-interieures-france",
       "2026-09-05_infiltration-medias-politiques-france-ue",
       "2026-09-05_ingerences-electorales-france-ue",
       "2026-09-05_lobbies-thinktanks-clubs-francs-macons"
@@ -3497,6 +3528,7 @@
       "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
       "2026-09-05_manipulation-electorale-france-ue",
       "2026-09-05_paradis-data-armes-electorales",
+      "2026-09-05_uk-brexit-data-paradieses-offshore",
       "2026-09-05_uk-brexit-ingerences-manipulations-democraties",
       "2026-09-05_uk-brexit-ingerences-manipulations-democraties-v2",
       "2026-09-05_uk-brexit-medias-propagande-biais"
@@ -3504,6 +3536,7 @@
     "lobbying": [
       "2026-09-05_cartographie-mecanismes-influence-democraties",
       "2026-09-05_infiltration-medias-politiques-france-ue",
+      "2026-09-05_influences-electorales-france-ue",
       "2026-09-05_ingerences-usa-soros-aipac-fondations-israel",
       "2026-09-05_lobbies-thinktanks-clubs-francs-macons",
       "2026-09-05_societes-ecrans-ideologiques-think-tanks",
@@ -3511,6 +3544,7 @@
     ],
     "coercitive": [
       "2026-09-05_cartographie-mecanismes-influence-democraties",
+      "2026-09-05_convergences-systemiques-architecture-controle",
       "2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves",
       "2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne",
       "2026-09-05_financement-andromeda-nord-stream-qui-a-paye",
