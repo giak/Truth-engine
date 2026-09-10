@@ -1,7 +1,7 @@
 # 📚 Index Central des Posts Substack
 
 > **Objectif :** Référencer tous les articles publiés avec sous-titre et mots-clés pour éviter de lire le HTML.
-> **Mise à jour :** 2026-08-26
+> **Mise à jour :** 2026-09-10 (réconciliation comptes — voir `RECONCILIATION.md`)
 > **Source :** `substack-online/posts.csv` + `posts/*.html`
 
 ---
@@ -10,10 +10,12 @@
 
 | Métrique | Valeur |
 |----------|--------|
-| **Total posts publiés** | **124** (IDs 1-125, #113 absent) |
+| **Total posts publiés** | **120 articles réels** (export 2026-08-26 : 122 newsletters publiées − 1 « Coming soon » ; IDs éditoriaux 1-125, #113 absent) |
 | **Période** | Novembre 2025 → Août 2026 |
 | **Mois le plus productif** | Mai 2026 (23 posts) |
 | **Série Le Changement de Régime** | 18 articles (30 mai 2026) |
+
+> ⚠️ **Cette table mélange publiés et brouillons** : 5 lignes (#114, #115, #116, #120, #122) sont des brouillons locaux **jamais publiés** (aucune trace dans l'export ni en ligne), et 1 publié manque (#« Police française », 2026-07-10). Source canonique pour tout décompte : `posts.csv`. Détail : `RECONCILIATION.md`.
 
 ---
 
