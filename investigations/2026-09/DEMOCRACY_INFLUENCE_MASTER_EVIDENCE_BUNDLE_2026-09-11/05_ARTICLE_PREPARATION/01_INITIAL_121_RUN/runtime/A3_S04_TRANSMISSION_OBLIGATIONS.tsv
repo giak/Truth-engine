@@ -1,0 +1,16 @@
+id	dimension	disposition	obligation
+D01	visibilite_consentement_clandestinite	PRESERVE_IN_EXPLANATORY_FLOOR	distinguer influence ouverte et opération trompeuse/coercitive
+D02	ressources_capacites	PRESERVE_IN_EXPLANATORY_FLOOR	ressource->capacité avant commandement
+D03	acces_intermediation	PRESERVE_IN_EXPLANATORY_FLOOR	accès != adoption/capture
+D04	selection_gatekeeping	PRESERVE_IN_EXPLANATORY_FLOOR	gate réel sans contrôle total inféré
+D05	action_operation	PRESERVE_IN_EXPLANATORY_FLOOR	reconnaître opérations documentées
+D06	droit_contrainte	PRESERVE_IN_EXPLANATORY_FLOOR	pouvoir matériel sans persuasion requise
+D07	infrastructure_informationnelle	PRESERVE_IN_EXPLANATORY_FLOOR	distribuée != commandement commun
+D08	exposition_reach	PRESERVE_IN_EXPLANATORY_FLOOR	action != exposition
+D09	reception_persuasion	PRESERVE_IN_EXPLANATORY_FLOOR	exposition != persuasion
+D10	comportement_decision_vote	PRESERVE_IN_EXPLANATORY_FLOOR	persuasion != résultat
+D11	attribution_tasking	PRESERVE_IN_EXPLANATORY_FLOOR	graphe arête-par-arête
+D12	contrepouvoirs_reversibilite	PRESERVE_IN_EXPLANATORY_FLOOR	contrôles/revers réels
+D13	incitations_alignement_emergent	PRESERVE_IN_EXPLANATORY_FLOOR	convergence sans centre possible
+D14	asymetrie_geopolitique_juridique	PRESERVE_IN_EXPLANATORY_FLOOR	legal design oui; enforcement bias non établi
+D15	temporalite_sedimentation	PRESERVE_IN_EXPLANATORY_FLOOR	accumulation != intention unitaire

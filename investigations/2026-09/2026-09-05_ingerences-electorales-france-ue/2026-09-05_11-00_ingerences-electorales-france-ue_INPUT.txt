@@ -1,0 +1,5 @@
+INPUT_KIND: TOPIC
+MISSION_MODE: INVESTIGATION
+AS_OF: 2026-09-05
+SUBJECT: Ingérences électorales — France/UE prioritaire, puis reste du monde
+OBJECT_QUESTION (crédo): quelles ingérences étrangères (étatiques ou non) documentées pèsent sur les processus électoraux en France et dans l'UE, par quels vecteurs et avec quels effets probants ?

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:0474f2a9994e2d8c6c2e643e6538e8c9e484536ca4a404a15aa8ed5587f905be",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_financement-andromeda-nord-stream-qui-a-paye/2026-09-05_15-12_financement-andromeda-nord-stream-qui-a-paye_INVESTIGATION.md",
+  "deliverable_sha256": "0e3156ee6d9e8a571c633e92fa942180751f6e97d265df6e3502e47c064eea70",
+  "created_at": "2026-09-05T15:25:27.132057+00:00"
+}

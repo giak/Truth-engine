@@ -1,0 +1,337 @@
+{
+  "schema": 1,
+  "stage": "tail",
+  "base_state_sha256": "7cfcf8c4ff227e6fda5954229b73a2ca22d5f7ba6a9333d1e57a45ef8cbb1365",
+  "commands": [
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"Les financements publics français créent une capacité opérationnelle majeure pour l’hébergement, l’accompagnement et l’intégration liés à l’asile/migration.\",\"claimant\":\"INV-053\",\"materiality\":\"DECISIVE\",\"support\":[\"FCT-001\",\"FCT-002\",\"FCT-003\",\"FCT-004\"],\"counter\":\"NONE_FOUND\",\"gap_type\":\"NONE\",\"gap\":\"NONE\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"France Terre d’Asile cumule des financements publics opérationnels significatifs et un plaidoyer/lobbying explicitement déclaré.\",\"claimant\":\"INV-053\",\"materiality\":\"DECISIVE\",\"support\":[\"FCT-003\",\"FCT-005\",\"FCT-006\"],\"counter\":[\"FCT-009\"],\"gap_type\":\"NONE\",\"gap\":\"NONE\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"Le seul financement d’une ONG migratoire suffit à établir un tasking ou commandement politique par le financeur.\",\"claimant\":\"hypothèse forte\",\"materiality\":\"DECISIVE\",\"support\":[\"FCT-007\",\"FCT-008\",\"FCT-009\"],\"counter\":[\"FCT-005\",\"FCT-006\"],\"gap_type\":\"NONE\",\"gap\":\"NONE\",\"status\":\"REFUTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"Dans l’écosystème UE, des organisations comme ECRE/PICUM cumulent financements institutionnels/privés et activités d’advocacy explicites.\",\"claimant\":\"INV-053\",\"materiality\":\"IMPORTANT\",\"support\":[\"FCT-010\",\"FCT-011\",\"FCT-012\"],\"counter\":\"NONE_FOUND\",\"gap_type\":\"NONE\",\"gap\":\"NONE\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"Le plaidoyer d’ECRE/PICUM a causé des modifications précises de textes ou décisions de l’UE.\",\"claimant\":\"organisations concernées / hypothèse causale\",\"materiality\":\"DECISIVE\",\"support\":[\"FCT-011\",\"FCT-012\"],\"counter\":[\"FCT-013\"],\"gap_type\":\"CAUSALITY\",\"gap\":\"Les auto-attributions d’incorporation et l’accès institutionnel ne fournissent pas un contrefactuel ni une attribution indépendante article-par-article du delta décisionnel.\",\"status\":\"PARTIAL\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"Le droit français impose une séparation explicite entre subvention humanitaire locale et financement d’activités politiques.\",\"claimant\":\"Conseil d’État\",\"materiality\":\"IMPORTANT\",\"support\":[\"FCT-007\",\"FCT-008\"],\"counter\":\"NONE_FOUND\",\"gap_type\":\"NONE\",\"gap\":\"NONE\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CAU",
+        "--json",
+        "{\"mechanism\":\"financement public -> capacité opérationnelle -> hébergement/accompagnement/intégration\",\"support\":[\"FCT-001\",\"FCT-003\",\"FCT-004\"],\"counter\":\"Le volume de financement ne renseigne pas à lui seul sur une consigne politique.\",\"limit\":\"Chaîne capacité/service fermée; aucun tasking inféré.\",\"causal_right\":\"crédit public affecté à des missions -> ressources associatives -> prestation opérationnelle mesurable\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CAU",
+        "--json",
+        "{\"mechanism\":\"financement public -> dépendance -> tasking/lobbying -> décision publique\",\"support\":[\"FCT-003\",\"FCT-005\",\"FCT-006\"],\"counter\":[\"FCT-007\",\"FCT-008\",\"FCT-009\"],\"gap_type\":\"CAUSALITY\",\"gap\":\"Aucune instruction du financeur ni médiation causale financeur->position de plaidoyer->décision n’est documentée dans les cas échantillonnés.\",\"limit\":\"Coexistence financement+plaidoyer établie; commandement/capture non établi.\",\"status\":\"UNRESOLVED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CAU",
+        "--json",
+        "{\"mechanism\":\"financement mixte institutionnel/privé -> ressources organisationnelles -> advocacy/accès -> outputs\",\"support\":[\"FCT-010\",\"FCT-011\",\"FCT-012\",\"FCT-013\"],\"counter\":\"Pluralité de financeurs et mandat propre des organisations empêchent d’identifier un principal commanditaire par le seul flux financier.\",\"limit\":\"Capacité, advocacy et accès fermés; tasking par un financeur non établi.\",\"causal_right\":\"ressources multi-financeurs -> capacité d’expertise/advocacy -> accès et productions institutionnelles\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CAU",
+        "--json",
+        "{\"mechanism\":\"advocacy NGO -> recommandation -> modification de texte/décision UE\",\"support\":[\"FCT-011\",\"FCT-012\"],\"counter\":[\"FCT-013\"],\"gap_type\":\"CAUSALITY\",\"gap\":\"Manquent attribution indépendante du delta de texte, chronologie amendement par amendement et contrefactuel sans intervention.\",\"limit\":\"Contribution revendiquée/documentée; causalité marginale spécifique non isolée.\",\"status\":\"UNRESOLVED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CAU",
+        "--json",
+        "{\"mechanism\":\"règle juridique de ciblage -> affectation de subvention humanitaire -> exclusion des activités politiques\",\"support\":[\"FCT-007\",\"FCT-008\"],\"counter\":[\"FCT-009\"],\"limit\":\"Contrôle juridique spécifique établi; ne prouve pas la séparation parfaite de toutes les subventions existantes.\",\"causal_right\":\"condition légale de finalité -> contrôle juridictionnel du ciblage -> validation ou annulation de la subvention\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CTRL",
+        "--json",
+        "{\"control\":\"financement != tasking\",\"support\":[\"FCT-007\",\"FCT-008\",\"FCT-009\"],\"status\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CTRL",
+        "--json",
+        "{\"control\":\"assistance humanitaire != lobbying\",\"support\":[\"FCT-007\",\"FCT-009\"],\"status\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CTRL",
+        "--json",
+        "{\"control\":\"lobbying != capture\",\"support\":[\"FCT-006\",\"FCT-013\"],\"status\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CTRL",
+        "--json",
+        "{\"control\":\"auto-attribution d’un delta de texte != preuve causale indépendante\",\"support\":[\"FCT-011\",\"FCT-012\"],\"status\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CTRL",
+        "--json",
+        "{\"control\":\"absence de déclaration HATVP != absence de toute expression publique, mais réfute funded NGO => lobbying nécessaire\",\"support\":[\"FCT-009\"],\"status\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "TEMPORAL_STATE",
+        "--json",
+        "{\"as_of\":\"2026-09-11\",\"window\":\"France/UE principalement 2015-2026\",\"breaks\":[\"2019-2023 hausse des crédits IAI associatifs\",\"2024 décisions Conseil d’État SOS Méditerranée\",\"2024-2026 formalisation HATVP du plaidoyer FTDA\",\"2024 Pacte UE et phase de mise en œuvre\"],\"status\":\"CURRENT\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "MANIPULATION_REPORT",
+        "--json",
+        "{\"input_kind\":\"RUN_CARD\",\"mission_mode\":\"DEEPEN\",\"symbol_stage\":\"CORPUS_FINAL\",\"symbols\":{\"S01\":\"financeur\",\"S02\":\"subvention\",\"S03\":\"marché\",\"S04\":\"ONG\",\"S05\":\"programme\",\"S06\":\"capacité\",\"S07\":\"bénéficiaire\",\"S08\":\"plaidoyer\",\"S09\":\"accès\",\"S10\":\"suggestion\",\"S11\":\"tasking\",\"S12\":\"décision\",\"S13\":\"effet\",\"S14\":\"contrôle\",\"S15\":\"contrefactuel\"},\"patterns\":{\"P01\":\"funding-to-capacity\",\"P02\":\"funding+advocacy coexistence\",\"P03\":\"access without causal closure\",\"P04\":\"legal separation humanitarian/political\"},\"threats\":[\"funding=tasking\",\"service=lobbying\",\"lobbying=capture\",\"access=effect\",\"self-report=causal proof\",\"grant amount=political alignment\"],\"rhetorical\":{\"R01\":\"agréger tous les financements comme influence\",\"R02\":\"confondre mission publique et relais politique\",\"R03\":\"transformer accès institutionnel en capture\"},\"complexity\":{\"band\":\"HIGH\",\"score\":8},\"clusters\":[\"MONEY\",\"POWER\",\"NETWORK\"],\"implicit\":{\"I01\":\"un même acteur peut séparer opérations et plaidoyer\",\"I02\":\"pluralité de financeurs réduit l’inférence de commandement\",\"I03\":\"effet politique exige un delta décisionnel identifiable\"},\"speaker\":{\"goal\":\"tester financeur->ONG->activité->output/décision\",\"target\":\"séparer capacité, lobbying, tasking et effet\",\"tone\":\"forensic\"},\"assumptions\":[\"les montants publics décrivent des capacités et missions, pas une orientation politique par eux-mêmes\",\"les déclarations HATVP décrivent l’activité revendiquée par l’organisation\",\"les auto-attributions ECRE/PICUM ne valent pas attribution causale indépendante\"],\"priorities\":[\"tracer flux et finalité\",\"séparer opérationnel et plaidoyer\",\"exiger instruction pour tasking\",\"exiger delta/counterfactual pour effet\"],\"query_guidance\":\"sources officielles pour financements et droit; registres de lobbying; rapports organisationnels seulement pour auto-description de l’advocacy\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "MODULE_EXECUTION",
+        "--json",
+        "[{\"module\":\"clusters/MONEY.md\",\"trigger\":\"flux publics/UE/privés\",\"reason\":\"distinguer ressource, affectation et dépendance\",\"input_ids\":[\"FCT-001\",\"FCT-002\",\"FCT-003\",\"FCT-004\",\"FCT-010\"],\"operations_applied\":[\"mapped funder->recipient->program/purpose\",\"separated operational capacity from political effect\"],\"result_ids\":[\"CLM-001\",\"CLM-004\",\"CAU-001\",\"CAU-003\"],\"negative_results\":[\"no financial flow alone establishes tasking\"],\"not_computable\":[\"share of total NGO budgets for all actors\"],\"gaps\":[\"full cross-organisation funding denominator\"],\"status\":\"DONE\"},{\"module\":\"clusters/POWER.md\",\"trigger\":\"lobbying/access/decision claims\",\"reason\":\"test whether resources convert into identifiable public decision\",\"input_ids\":[\"FCT-005\",\"FCT-006\",\"FCT-011\",\"FCT-012\",\"FCT-013\"],\"operations_applied\":[\"separated access, advocacy, text claim and causal effect\",\"tested legal/institutional counter-controls\"],\"result_ids\":[\"CLM-002\",\"CLM-005\",\"CAU-002\",\"CAU-004\"],\"negative_results\":[\"no actor-specific captured decision closed\"],\"not_computable\":[\"marginal probability of policy adoption caused by NGO advocacy\"],\"gaps\":[\"article-level legislative footprint and counterfactual\"],\"status\":\"DONE\"},{\"module\":\"clusters/NETWORK.md\",\"trigger\":\"financeur-recipient-principal inference\",\"reason\":\"prevent funding relation from substituting for tasking\",\"input_ids\":[\"FCT-003\",\"FCT-009\",\"FCT-010\"],\"operations_applied\":[\"separated funder, grantee, mandate and principal\",\"used SOS as negative control\"],\"result_ids\":[\"CLM-003\",\"CLM-006\",\"CAU-005\"],\"negative_results\":[\"no authenticated financeur command chain\"],\"not_computable\":[\"latent informal tasking not in public record\"],\"gaps\":[\"authenticated instructions where any exist\"],\"status\":\"DONE\"}]"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "SCOPING_REPORT",
+        "--json",
+        "{\"included\":[\"French IAI association funding\",\"FTDA HATVP advocacy\",\"SOS Méditerranée subsidy jurisprudence\",\"ECRE/PICUM funding+advocacy\",\"EU civil-society access forum\"],\"excluded\":[\"generic NGO ideology\",\"all migration spending outside sampled chains\",\"claims of capture without decision delta\",\"foreign cases without France/UE relevance\"],\"reason\":\"actor/case-specific chains with traceable funding, activity and decision/output\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "CREDO",
+        "--json",
+        "{\"rule\":\"trace money to funded activity, then separately prove tasking, advocacy and effect\",\"forbidden_shortcuts\":[\"funding=command\",\"humanitarian service=lobbying\",\"advocacy=capture\",\"access=causal effect\",\"self-report=independent proof\"]}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "COGNITIVE_MAP",
+        "--json",
+        "{\"chain\":[\"financeur\",\"instrument\",\"bénéficiaire\",\"activité financée\",\"advocacy éventuelle\",\"accès/output\",\"décision\",\"effet\"],\"rival_models\":[\"service delivery\",\"autonomous advocacy\",\"funder tasking\",\"institutional co-production\",\"capture\"]}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "DIALECTICAL_MAP",
+        "--json",
+        "{\"thesis\":\"Le financement d’ONG migratoires peut convertir des ressources publiques/privées en influence politique non élective.\",\"antithesis\":\"Une grande partie finance des missions opérationnelles; plaidoyer et financement peuvent coexister sans commandement ni capture.\",\"synthesis\":\"Capacité opérationnelle et advocacy sont observables et parfois réunies chez le même acteur; la chaîne financeur->tasking->décision capturée n’est pas fermée dans l’échantillon.\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "RESOURCE_FLOW_MAP",
+        "--json",
+        "{\"flows\":[\"État français -> programmes 303/104 -> associations -> hébergement/accompagnement/intégration\",\"financeurs UE/fondations -> ECRE/PICUM -> expertise/advocacy\",\"collectivités -> SOS Méditerranée -> activité humanitaire ciblée\"],\"limits\":[\"flux != instruction\",\"montant != effet politique\",\"cofinancement != principal unique\"]}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "ACTOR_NETWORK_MAP",
+        "--json",
+        "[{\"from\":\"État français / mission IAI\",\"relation\":\"finance missions opérationnelles\",\"to\":\"FTDA et autres associations\",\"support\":[\"FCT-001\",\"FCT-003\",\"FCT-004\"]},{\"from\":\"FTDA\",\"relation\":\"plaidoyer déclaré pour son propre compte\",\"to\":\"Parlement/Gouvernement/administration\",\"support\":[\"FCT-005\",\"FCT-006\"]},{\"from\":\"UE + fondations\",\"relation\":\"financement multi-source\",\"to\":\"ECRE/PICUM\",\"support\":[\"FCT-010\",\"FCT-011\",\"FCT-012\"]},{\"from\":\"institutions UE\",\"relation\":\"forum/dialogue structuré\",\"to\":\"société civile migration\",\"support\":[\"FCT-013\"]}]"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "IMPACT_MAP",
+        "--json",
+        "{\"established\":[\"financement public -> capacité opérationnelle\",\"FTDA financement opérationnel + lobbying explicite\",\"ECRE/PICUM financement + advocacy\",\"contrôle juridique de séparation humanitaire/politique\"],\"partial\":[\"auto-attributions de recommandations incorporées\",\"accès institutionnel vers décisions\"],\"not_established\":[\"financeur->tasking politique\",\"capture d’une décision spécifique\",\"effet politique général des financements\"]}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "CONTRADICTION_LEDGER",
+        "--json",
+        "[{\"issue\":\"FTDA reçoit des fonds publics et lobbye\",\"resolution\":\"coexistence factuelle; ne pas inférer tasking sans instruction/condition politique\"},{\"issue\":\"ECRE/PICUM affirment avoir influencé des textes\",\"resolution\":\"retenir comme auto-attribution et output; causalité indépendante reste ouverte\"},{\"issue\":\"SOS reçoit des subventions mais HATVP indique aucune RI 2024-2025\",\"resolution\":\"contrôle contre funded NGO => lobbyist; ne pas inférer silence politique total\"},{\"issue\":\"Montpellier annulée mais Paris/Hérault validées\",\"resolution\":\"le ciblage juridique, pas l’identité de l’ONG, discrimine les décisions\"}]"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "VERIFICATION_REPORT",
+        "--json",
+        "{\"research_queries\":10,\"sources_fetched\":10,\"facts\":13,\"method\":\"official funding/judicial/lobbying records plus organization self-reports clearly labelled; causal edge tested separately\",\"negative_checks\":[\"SOS HATVP no RI\",\"Conseil d’État subsidy targeting\",\"multi-funder ECRE\",\"EC Forum access != effect\"],\"verdict\":\"sufficient to establish capacity, declared advocacy and access; insufficient to establish funder tasking or captured decision\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "EDI_REPORT",
+        "--json",
+        "{\"source_counts\":{\"A\":2,\"B\":2,\"C\":2,\"D\":2,\"E\":1,\"other:ec-home\":1},\"edi\":\"DIVERSE_OFFICIAL_PLUS_SELF_REPORT_WITH_PROVENANCE_SEPARATED\",\"dimensions\":[\"French budget/mission execution\",\"lobbying register\",\"administrative jurisprudence\",\"NGO funding disclosures\",\"NGO advocacy reports\",\"EU institutional access\"],\"corpus\":\"10 accepted sources across 6 provenance families\",\"decisive_claim_coverage\":[{\"claim\":\"CLM-001\",\"families\":[\"A\"]},{\"claim\":\"CLM-002\",\"families\":[\"A\",\"B\"]},{\"claim\":\"CLM-003\",\"families\":[\"B\",\"C\"]},{\"claim\":\"CLM-004\",\"families\":[\"D\",\"E\"]},{\"claim\":\"CLM-005\",\"families\":[\"D\",\"E\",\"other:ec-home\"]},{\"claim\":\"CLM-006\",\"families\":[\"C\"]}],\"diagnostic_not_truth\":true}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "RESPONSIBILITY_MAP",
+        "--json",
+        "[{\"actor\":\"État français\",\"documented_action\":\"finance des missions d’asile/intégration exécutées par associations\",\"intent\":\"PROVEN\",\"scope\":\"capacity/service delivery; political tasking not established\",\"support\":[\"FCT-001\",\"FCT-003\",\"FCT-004\"]},{\"actor\":\"France Terre d’Asile\",\"documented_action\":\"mène un plaidoyer explicite auprès des décideurs pour son propre compte\",\"intent\":\"PROVEN\",\"scope\":\"declared lobbying; funding causation not established\",\"support\":[\"FCT-005\",\"FCT-006\"]},{\"actor\":\"Conseil d’État\",\"documented_action\":\"contrôle la finalité humanitaire et le ciblage des subventions\",\"intent\":\"PROVEN\",\"scope\":\"legal control only\",\"support\":[\"FCT-007\",\"FCT-008\"]},{\"actor\":\"ECRE/PICUM\",\"documented_action\":\"mènent advocacy et revendiquent certains outputs politiques\",\"intent\":\"PROVEN\",\"scope\":\"self-reported contribution; marginal causal effect not established\",\"support\":[\"FCT-010\",\"FCT-011\",\"FCT-012\"]}]"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "NEXT_QUERIES",
+        "--json",
+        "[\"Pour fermer un effet politique, construire un legislative footprint article-par-article reliant recommandation datée, décideur, amendement et justification.\",\"Pour tester tasking, rechercher des conventions/subventions contenant des conditions de positionnement politique explicites ou des instructions authentifiées.\",\"Pour INV-052, utiliser séparément capacité opérationnelle, lobbying déclaré et absence de preuve de commandement.\"]"
+      ]
+    },
+    {
+      "cmd": "checkpoint",
+      "args": [
+        "--label",
+        "CAUSAL",
+        "--last-completed",
+        "11",
+        "--next-action",
+        "VERIFY"
+      ]
+    },
+    {
+      "cmd": "checkpoint",
+      "args": [
+        "--label",
+        "VERIFY",
+        "--last-completed",
+        "13",
+        "--next-action",
+        "INVESTIGATION_ACCOUNTABILITY"
+      ]
+    },
+    {
+      "cmd": "checkpoint",
+      "args": [
+        "--label",
+        "INVESTIGATION_ACCOUNTABILITY",
+        "--last-completed",
+        "17",
+        "--next-action",
+        "FINALIZE"
+      ]
+    },
+    {
+      "cmd": "assert-counts",
+      "args": [
+        "--json",
+        "{\"AXS\":3,\"CLM\":6,\"CAU\":5,\"CTRL\":5}"
+      ]
+    },
+    {
+      "cmd": "set-gates",
+      "args": [
+        "--json",
+        "{\"G0\":\"PASS\",\"G1\":\"PASS\",\"G2\":\"PASS\",\"G3\":\"PASS\",\"G4\":\"PASS\",\"G5\":\"PASS\",\"G6\":\"PASS\",\"G7\":\"PASS\",\"G8\":\"PASS\",\"G9\":\"PASS\",\"G10\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "mark-final",
+      "args": []
+    }
+  ]
+}

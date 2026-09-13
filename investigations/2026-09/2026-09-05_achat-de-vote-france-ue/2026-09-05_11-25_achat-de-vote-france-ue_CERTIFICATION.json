@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:36ca38e2f86cbd19e660444683abdee98dc135f36c88578aa3c52324e0e519b2",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_achat-de-vote-france-ue/2026-09-05_11-25_achat-de-vote-france-ue_INVESTIGATION.md",
+  "deliverable_sha256": "bcb980cd9374739659f0da95a9e16025e91d1d2606cd8221c4346024cd498208",
+  "created_at": "2026-09-05T10:39:14.206228+00:00"
+}

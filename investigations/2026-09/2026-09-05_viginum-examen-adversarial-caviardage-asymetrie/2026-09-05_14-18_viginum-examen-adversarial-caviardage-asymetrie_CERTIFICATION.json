@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:14e8e37df9474ee426efbd63e79561019d24dab705073f81cea8516ffc306e55",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_viginum-examen-adversarial-caviardage-asymetrie/2026-09-05_14-18_viginum-examen-adversarial-caviardage-asymetrie_INVESTIGATION.md",
+  "deliverable_sha256": "87911b2ec15dc2f5539aad171d7fc5fa25a7098e48fc44b5097bb5d65a8c36d1",
+  "created_at": "2026-09-05T14:24:21.288897+00:00"
+}

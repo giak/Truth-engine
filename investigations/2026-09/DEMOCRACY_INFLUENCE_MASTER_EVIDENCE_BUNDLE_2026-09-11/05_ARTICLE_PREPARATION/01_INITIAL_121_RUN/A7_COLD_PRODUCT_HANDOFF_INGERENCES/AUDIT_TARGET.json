@@ -1,0 +1,9 @@
+{
+  "audit": "A7-S04 COLD PRODUCT AUDIT — INGÉRENCES 121 DOSSIERS",
+  "product_file": "ARTICLE_PUBLICATION_VIEW.md",
+  "product_sha256": "1155219f0e60f0302fce9ea09a23fc029b56decc3893df1a59d07cff35fee4af",
+  "vision_sha256": "128d57c0e1cf77cdb5092904071ad2e5d34562fb0b646aaa3f0311a6c543d09d",
+  "pfd_sha256": "3f699834258cd88200c0dd608ad5ac1c0c7da1f4a481d87c5bc642be91dc1ee9",
+  "footnote_definitions": 13,
+  "implementation_history_included": false
+}

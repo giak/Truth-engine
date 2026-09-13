@@ -1,0 +1,1122 @@
+{
+ "actions": [
+  {
+   "id": "ACT-001",
+   "kind": "ACT",
+   "object_question_ref": "OQ",
+   "status": "DONE",
+   "text": "ACT: distinguer influence reglementaire UE documentee (ARENH 42 EUR/MWh, CfD 2023, taxonomie) de l'accusation de volonte de destruction de la France (non prouvee) ; corriger la datation du mea culpa von der Leyen (10/03/2026, pas septembre 2025) ; suivre neutralite technologique UE 2026-2027 et mise en oeuvre VNU",
+   "type": "ACTION"
+  }
+ ],
+ "axes": [
+  {
+   "id": "AXS-001",
+   "kind": "AXS",
+   "status": "SATURATED",
+   "subject": "L Allemagne et l UE exercent une influence reglementaire et energetique majeure sur la France (nucleaire) - documentee",
+   "type": "POSITION"
+  },
+  {
+   "id": "AXS-002",
+   "kind": "AXS",
+   "status": "SATURATED",
+   "subject": "L accusation de volonte de detruire la France est-elle etayee ? (concurrence vs sabotage)",
+   "type": "POSITION"
+  },
+  {
+   "id": "AXS-003",
+   "kind": "AXS",
+   "status": "SATURATED",
+   "subject": "Les recits officiels (FR/DE/UE) doivent etre debunke symetriquement",
+   "type": "POSITION"
+  }
+ ],
+ "causal": [
+  {
+   "fact_refs": [
+    "FCT-001",
+    "FCT-007"
+   ],
+   "id": "CAU-001",
+   "kind": "CAU",
+   "object_question_ref": "OQ",
+   "status": "SUPPORTED",
+   "text": "CAU: L'influence allemande anti-nucleaire sur l'UE est documentee (taxonomie restreinte, NZIA) mais bornee : la France a obtenu l'inclusion conditionnelle du nucleaire (06/07/2022, 278/328/33, 353 requises) et les CfD prolongation (17/10/2023) ; l'effet net sur la politique energetique FR releve surtout de decisions francaises (ARENH loi NOME 2010, Fessenheim, ASTRID).",
+   "type": "CAUSALITY"
+  },
+  {
+   "fact_refs": [
+    "FCT-002",
+    "FCT-003"
+   ],
+   "id": "CAU-002",
+   "kind": "CAU",
+   "object_question_ref": "OQ",
+   "status": "SUPPORTED",
+   "text": "CAU: Le cadre UE de concurrence (position dominante EDF) a cause l'ARENH (100 TWh a 42 EUR/MWh 2012-2025) et structure la reforme du marche 2023 ; la sortie de l'ARENH au 01/01/2026 (Versement nucleaire universel, seuil 65-85 EUR/MWh) resulte de l'accord UE - contrainte europeenne documentee, pas de pilotage allemand direct.",
+   "type": "CAUSALITY"
+  },
+  {
+   "fact_refs": [
+    "FCT-004",
+    "FCT-006"
+   ],
+   "id": "CAU-003",
+   "kind": "CAU",
+   "object_question_ref": "OQ",
+   "status": "SUPPORTED",
+   "text": "CAU: La sortie nucleaire allemande (2000/2011/04-2023) a reduit la part du nucleaire dans l'UE de 33% (1990) a ~15% (2026) - ceinture sur le marche electrique europeen (merit order, imports) - mais Berlin a change de ligne (Merz 01/2026, neutralite technologique 08/2025) : l'effet sur la France est reel mais non intentionnel de 'sabotage'.",
+   "type": "CAUSALITY"
+  },
+  {
+   "fact_refs": [
+    "FCT-005"
+   ],
+   "gap": "Accusation d'une 'guerre diplomatique' allemande organisee contre le nucleaire francais (corpus #51, Telos) : influence documentee mais volonte deliberee de nuire a la France non prouvee par documents declassifies ; recit d'ingerence a charge, asymetrie probatoire",
+   "gap_type": "EVIDENCE_GAP",
+   "id": "CAU-004",
+   "kind": "CAU",
+   "object_question_ref": "OQ",
+   "status": "GAP",
+   "text": "CAU-PARTIAL: Le corpus #51 et Telos accusent une strategie allemande anti-nucleaire ciblee contre la France ; les faits documentes (taxonomie 2022, reforme 2023) montrent une defense d'interets allemands dans le cadre UE, pas une preuve d'intention de 'detruire le nucleaire francais'.",
+   "type": "CAUSALITY"
+  }
+ ],
+ "checkpoints": [
+  {
+   "created_at": "2026-09-05T12:21:59.998067+00:00",
+   "id": "CP-001",
+   "label": "LEADS",
+   "last_completed": "5 leads",
+   "next_action": "SCOPE",
+   "seq": 1,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-05T12:22:00.062783+00:00",
+   "id": "CP-002",
+   "label": "SCOPE",
+   "last_completed": "7 scope",
+   "next_action": "SEARCH_DISCOVERY",
+   "seq": 2,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-05T12:30:40.309385+00:00",
+   "id": "CP-003",
+   "label": "SEARCH",
+   "last_completed": "9 discovery",
+   "next_action": "FACTS registry",
+   "seq": 3,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-05T12:30:40.309385+00:00",
+   "id": "CP-004",
+   "label": "FACTS",
+   "last_completed": "10 facts registry",
+   "next_action": "CAUSAL analysis",
+   "seq": 4,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-05T12:30:40.309385+00:00",
+   "id": "CP-005",
+   "label": "CAUSAL",
+   "last_completed": "11 causal",
+   "next_action": "VERIFY",
+   "seq": 5,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-05T12:30:40.309385+00:00",
+   "id": "CP-006",
+   "label": "VERIFY",
+   "last_completed": "13 verify",
+   "next_action": "sections render",
+   "seq": 6,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-05T12:30:40.309385+00:00",
+   "id": "CP-007",
+   "label": "INVESTIGATION_ACCOUNTABILITY",
+   "last_completed": "17 accountability",
+   "next_action": "narrative render delivery",
+   "seq": 7,
+   "status": "PASS"
+  }
+ ],
+ "claims": [
+  {
+   "id": "CLM-001",
+   "kind": "CLM",
+   "status": "SUPPORTED",
+   "subject": "L Allemagne a impose a l UE une politique anti-nucleaire qui nuit a la France - a verifier",
+   "type": "CLAIM"
+  },
+  {
+   "id": "CLM-002",
+   "kind": "CLM",
+   "status": "PARTIAL",
+   "subject": "La France subit une ingerence allemande deliberee (lobbies, medias, reglementation) - a verifier",
+   "type": "CLAIM"
+  },
+  {
+   "id": "CLM-003",
+   "kind": "CLM",
+   "status": "SUPPORTED",
+   "subject": "L accusation de destruction de la France est un recit non etaye - debunk",
+   "type": "CLAIM"
+  }
+ ],
+ "controls": [
+  {
+   "id": "CTRL-001",
+   "kind": "CTRL",
+   "object_question_ref": "OQ",
+   "status": "DONE",
+   "text": "CTRL: 10 sources inspectees (5 familles A/B/C + other:cler/corpus/sfen), 4 refutations executees sur FCT-001..004 (QRY-019..022 FOUND_RESOLVED), contradictions enregistrees (taxonomie: inclusion vs exclusion NZIA ; ARENH: spoliation EDF vs protection consommateurs ; von der Leyen: date 09-10/03/2026 vs 'septembre 2025' du corpus #51)",
+   "type": "CONTROL"
+  }
+ ],
+ "counters": {
+  "ACT": 1,
+  "AXS": 3,
+  "CAU": 4,
+  "CLM": 3,
+  "CP": 7,
+  "CTRL": 1,
+  "FCT": 7,
+  "LED": 5,
+  "QRY": 22,
+  "SEC": 23,
+  "SRC": 10,
+  "SYS": 3
+ },
+ "delta_plan": [],
+ "engine": "2.10.6",
+ "facts": [
+  {
+   "date": "2022-07-06",
+   "epi": "FACT",
+   "families": [
+    "A",
+    "C"
+   ],
+   "id": "FCT-001",
+   "mem": "e088871a-4ea3-4f9d-b0af-982b2cc673e5",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "refutations": [
+    "QRY-019"
+   ],
+   "sources": [
+    "SRC-001",
+    "SRC-006"
+   ],
+   "subject": "Acte delegue taxonomie UE (02/02/2022) incluant nucleaire et gaz sous conditions : le Parlement europeen ne s'y oppose pas le 06/07/2022 (resolutions rejetees 278/328/33, majorite absolue de 353 requise) ; acte en vigueur le 01/01/2023 - l'Allemagne, l'Autriche et le Luxembourg n'ont pas forme de minorite de blocage, Habeck denonce un 'greenwashing'.",
+   "tier": "✦",
+   "url": "https://www.europarl.europa.eu/news/fr/press-room/20220701IPR34365/taxonomie-le-pe-ne-s-oppose-pas-a-l-inclusion-du-gaz-et-du-nucleaire",
+   "value": "L'inclusion conditionnelle du nucleaire dans la taxonomie verte UE a ete validee malgre l'opposition allemande : le PE n'a pas atteint la majorite de 353 voix pour bloquer (278/328/33) - defaite diplomatique documentee de Berlin."
+  },
+  {
+   "date": "2023-10-17",
+   "epi": "FACT",
+   "families": [
+    "B",
+    "C"
+   ],
+   "id": "FCT-002",
+   "mem": "3ab7dd52-92a2-4874-ad07-f3290dabe09b",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "refutations": [
+    "QRY-020"
+   ],
+   "sources": [
+    "SRC-004",
+    "SRC-010"
+   ],
+   "subject": "Reforme du marche europeen de l'electricite (accord UE du 17/10/2023) : la France obtient l'eligibilite des CfD pour la prolongation de duree de vie des centrales nucleaires existantes, mais le terme 'indefini' est supprime sous la pression de l'Allemagne et de l'Italie ; compromis soumis au controle UE des aides d'Etat ; Paris y voit la porte de sortie de l'ARENH (experts : score 3:2 pour la France).",
+   "tier": "✦",
+   "url": "https://euractiv.com/fr/news/reforme-du-marche-de-lelectricite-lallemagne-et-la-france-crient-toutes-deux-victoire/",
+   "value": "La reforme du marche electrique UE 2023 permet les CfD sur la prolongation nucleaire existante (sans 'indefini', concession a Berlin) et ouvre la sortie de l'ARENH - influence allemande reelle mais bornee par compromis."
+  },
+  {
+   "date": "2025-12-31",
+   "epi": "FACT",
+   "families": [
+    "A",
+    "other:cler"
+   ],
+   "id": "FCT-003",
+   "mem": "f1825bb6-f4a9-45a5-aabd-d99b61c05bcc",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "refutations": [
+    "QRY-021"
+   ],
+   "sources": [
+    "SRC-005",
+    "SRC-003"
+   ],
+   "subject": "ARENH (loi NOME 2010-1488 du 07/12/2010) : EDF a ete contrainte de vendre jusqu'a 100 TWh/an (~25% de son parc nucleaire) a ses concurrents au tarif regule de 40 EUR/MWh (01/07/2011) puis 42 EUR/MWh (01/01/2012), prix jamais revalorise ; dispositif qualifie de 'tolerance temporaire' liee a la position dominante d'EDF dans un marche ouvert a la concurrence UE ; fin le 31/12/2025, remplace par le Versement nucleaire universel (seuil 65-85 EUR/MWh).",
+   "tier": "✦",
+   "url": "https://www.cre.fr/electricite/marche-de-gros-de-lelectricite/acces-regule-a-lelectricite-nucleaire-historique-arenh.html",
+   "value": "L'ARENH (loi NOME 2010) a impose a EDF de vendre ~100 TWh/an a 42 EUR/MWh (2012-2025) : contrainte de concurrence europeenne documentee (tolerance position dominante), pas une decision allemande - mecanisme franco-europeen."
+  },
+  {
+   "date": "2026-03-10",
+   "epi": "FACT",
+   "families": [
+    "B",
+    "other:sfen",
+    "other:corpus"
+   ],
+   "id": "FCT-004",
+   "mem": "ce4e94d3-2be3-430e-bb66-45849c80001b",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "refutations": [
+    "QRY-022"
+   ],
+   "sources": [
+    "SRC-007",
+    "SRC-008",
+    "SRC-002"
+   ],
+   "subject": "Mea culpa officiel 2026 sur la sortie du nucleaire : Friedrich Merz (chancelier, mi-janvier 2026) qualifie la sortie allemande de 'grave erreur strategique' (arret des 3 derniers reacteurs avril 2023, transition 'la plus chere du monde') ; Ursula von der Leyen declare au sommet nucleaire de Paris (09-10/03/2026) que la reduction de la part du nucleaire (33% en 1990 a ~15%) fut 'une erreur strategique' et annonce un fonds europeen de 200 M EUR pour les SMR/AMR.",
+   "tier": "✦",
+   "url": "https://www.lefigaro.fr/conjoncture/energie-l-union-europeenne-a-fait-une-erreur-strategique-en-delaissant-le-nucleaire-juge-ursula-von-der-leyen-20260311",
+   "value": "En 2026, Berlin (Merz) et la Commission (von der Leyen) reconnaissent publiquement l'erreur strategique de la sortie du nucleaire (part 33%->15% depuis 1990) - le corpus #51 datait cet aveu de septembre 2025, date erronee (reel : 10/03/2026)."
+  },
+  {
+   "date": "2023-07-28",
+   "epi": "FACT",
+   "families": [
+    "C",
+    "other:corpus"
+   ],
+   "id": "FCT-005",
+   "mem": "8292dfa7-fb56-4735-a6de-357d3cfad0de",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "refutations": [],
+   "sources": [
+    "SRC-009",
+    "SRC-002"
+   ],
+   "subject": "L'analyse Telos (07/2023, 'Le nucleaire europeen sous influence allemande') documente un lobbying allemand structurel a Bruxelles (Green Deal, Fit for 55, NZIA) anti-nucleaire, avec un rapporteur allemand PPE excluant le nucleaire du perimetre prioritaire du Net Zero Industry Act ; l'accusation d'une 'guerre diplomatique' allemande est relayee par le corpus #51.",
+   "tier": "✧",
+   "url": "https://www.telos-eu.com/fr/economie/le-nucleaire-europeen-sous-influence-allemande.html",
+   "value": "L'influence allemande anti-nucleaire sur les politiques UE (taxonomie restrictive, NZIA, exclusion des aides) est documentee par des analyses francaise (Telos) et relayee par le corpus - allegation structurelle, pas coordination secrete."
+  },
+  {
+   "date": "2026-01-16",
+   "epi": "FACT",
+   "families": [
+    "other:sfen",
+    "C"
+   ],
+   "id": "FCT-006",
+   "mem": "0d58c7fe-4def-4c7f-987e-623e27bccb1a",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "refutations": [],
+   "sources": [
+    "SRC-008",
+    "SRC-001"
+   ],
+   "subject": "La sortie du nucleaire allemand (decidee en 2000, acceleree en 2011 apres Fukushima, effective avril 2023) etait une politique interieure allemande ; l'influence sur l'UE s'est exercee par la taxonomie et les negociations de marche, mais l'Allemagne n'a pas fait obstacle a la neutralite technologique (accord cadre franco-allemand aout 2025) - la these d'un 'sabotage delibere de la France' n'est pas etayee par les archives.",
+   "tier": "✧",
+   "url": "https://www.sfen.org/rgn/il-fallait-lavoir-vu-quand-le-chancelier-allemand-reconnait-que-la-sortie-du-nucleaire-fut-une-erreur-strategique/",
+   "value": "La sortie nucleaire allemande est une decision interieure (2000/2011/2023) ; en 2025-2026 Berlin accepte la neutralite technologique UE - la these d'une volonte allemande deliberee de 'detruire le nucleaire francais' n'est pas prouvee."
+  },
+  {
+   "date": "2022-01-12",
+   "epi": "FACT",
+   "families": [
+    "C",
+    "B"
+   ],
+   "id": "FCT-007",
+   "mem": "6e69f478-b321-4d6a-9e8d-8d133776d3e4",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "refutations": [],
+   "sources": [
+    "SRC-001",
+    "SRC-007"
+   ],
+   "subject": "Analyse Fondation Jean-Jaures (01/2022) : le compromis de taxonomie (nucleaire ET gaz classes 'verts') a ete obtenu par la France et la Commission contre les Verts allemands ; Berlin (Scholz, Habeck) a du l'accepter faute de minorite qualifiee - le couple franco-allemand a prefere un compromis a une crise ; depuis, la Commission (fonds SMR 2026) et Berlin (Merz 2026) ont change de ligne.",
+   "tier": "✧",
+   "url": "https://www.jean-jaures.org/publication/la-taxonomie-europeenne-et-le-nucleaire-une-claque-pour-lallemagne/",
+   "value": "La France a obtenu l'inclusion du nucleaire dans la taxonomie contre les Verts allemands (compromis gaz+atom) - puis la Commission et Berlin ont fait leur mea culpa en 2026 : le recit d'une UE 'anti-France' dirigee par l'Allemagne est contredit par les issues."
+  }
+ ],
+ "hydrated": null,
+ "leads": [
+  {
+   "id": "LED-001",
+   "kind": "LED",
+   "priority": "HIGH",
+   "status": "SATURATED",
+   "subject": "Politique energetique UE : pressions allemandes anti-nucleaire sur la France (taxonomie, marche de l'energie, EDF) - documente",
+   "type": "LEAD"
+  },
+  {
+   "id": "LED-002",
+   "kind": "LED",
+   "priority": "HIGH",
+   "status": "SATURATED",
+   "subject": "L Allemagne a-t-elle une volonte documentee de nuire a la France / au nucleaire francais ? (accusations vs faits)",
+   "type": "LEAD"
+  },
+  {
+   "id": "LED-003",
+   "kind": "LED",
+   "priority": "HIGH",
+   "status": "SATURATED",
+   "subject": "Reglements UE et alliances energetiques : roles de l Allemagne dans les decisions (Nord Stream, gaz, marche carbone) - effets sur la France",
+   "type": "LEAD"
+  },
+  {
+   "id": "LED-004",
+   "kind": "LED",
+   "priority": "MEDIUM",
+   "status": "SATURATED",
+   "subject": "Narratifs officiels et accusations de sabotage/ingerence: debunk (accusations miroir, exagerations)",
+   "type": "LEAD"
+  },
+  {
+   "id": "LED-005",
+   "kind": "LED",
+   "priority": "MEDIUM",
+   "status": "SATURATED",
+   "subject": "Positions francaises et allemandes documentees sur le nucleaire dans l UE (declarations, votes, documents officiels)",
+   "type": "LEAD"
+  }
+ ],
+ "memory_probe": {
+  "memory_id": "-",
+  "run_id": "-",
+  "status": "NONE"
+ },
+ "meta": {
+  "created_at": "2026-09-05T12:21:49.986411+00:00",
+  "updated_at": "2026-09-05T12:40:15.410205+00:00"
+ },
+ "persistence": {
+  "attempt_history": [
+   {
+    "created_at": "2026-09-05T12:39:49.838966+00:00",
+    "fact_mem": {
+     "FCT-001": "e088871a-4ea3-4f9d-b0af-982b2cc673e5",
+     "FCT-002": "3ab7dd52-92a2-4874-ad07-f3290dabe09b",
+     "FCT-003": "f1825bb6-f4a9-45a5-aabd-d99b61c05bcc",
+     "FCT-004": "ce4e94d3-2be3-430e-bb66-45849c80001b",
+     "FCT-005": "8292dfa7-fb56-4735-a6de-357d3cfad0de",
+     "FCT-006": "0d58c7fe-4def-4c7f-987e-623e27bccb1a",
+     "FCT-007": "6e69f478-b321-4d6a-9e8d-8d133776d3e4"
+    },
+    "mnemo_row": "MNEMO_S d0038007-2d07-4e97-96b8-5a0761360040",
+    "result": "PASS",
+    "seq": 1,
+    "writeback_execution": [
+     {
+      "action": "ELIGIBLE:CONFIRME",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-001",
+      "reason": "writeback MnemoLite",
+      "success": 1
+     },
+     {
+      "action": "ELIGIBLE:CONFIRME",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-002",
+      "reason": "writeback MnemoLite",
+      "success": 1
+     },
+     {
+      "action": "ELIGIBLE:CONFIRME",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-003",
+      "reason": "writeback MnemoLite",
+      "success": 1
+     },
+     {
+      "action": "ELIGIBLE:CONFIRME",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-004",
+      "reason": "writeback MnemoLite",
+      "success": 1
+     },
+     {
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-005",
+      "reason": "writeback MnemoLite",
+      "success": 1
+     },
+     {
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-006",
+      "reason": "writeback MnemoLite",
+      "success": 1
+     },
+     {
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-007",
+      "reason": "writeback MnemoLite",
+      "success": 1
+     }
+    ],
+    "writeback_row": {
+     "attempted": 7,
+     "blocked": 0,
+     "eligible": 7,
+     "failure": 0,
+     "success": 7
+    }
+   }
+  ],
+  "mnemo_row": "MNEMO_S d0038007-2d07-4e97-96b8-5a0761360040",
+  "self_write_row": "PENDING_AT_SERIALIZATION",
+  "writeback_execution": [
+   {
+    "action": "ELIGIBLE:CONFIRME",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-001",
+    "reason": "writeback MnemoLite",
+    "success": 1
+   },
+   {
+    "action": "ELIGIBLE:CONFIRME",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-002",
+    "reason": "writeback MnemoLite",
+    "success": 1
+   },
+   {
+    "action": "ELIGIBLE:CONFIRME",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-003",
+    "reason": "writeback MnemoLite",
+    "success": 1
+   },
+   {
+    "action": "ELIGIBLE:CONFIRME",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-004",
+    "reason": "writeback MnemoLite",
+    "success": 1
+   },
+   {
+    "action": "ELIGIBLE:VERIFIE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-005",
+    "reason": "writeback MnemoLite",
+    "success": 1
+   },
+   {
+    "action": "ELIGIBLE:VERIFIE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-006",
+    "reason": "writeback MnemoLite",
+    "success": 1
+   },
+   {
+    "action": "ELIGIBLE:VERIFIE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-007",
+    "reason": "writeback MnemoLite",
+    "success": 1
+   }
+  ],
+  "writeback_row": {
+   "attempted": 7,
+   "blocked": 0,
+   "eligible": 7,
+   "failure": 0,
+   "success": 7
+  }
+ },
+ "refutations": [
+  {
+   "fct": "FCT-001",
+   "qry": "QRY-019",
+   "status": "FOUND_RESOLVED"
+  },
+  {
+   "fct": "FCT-002",
+   "qry": "QRY-020",
+   "status": "FOUND_RESOLVED"
+  },
+  {
+   "fct": "FCT-003",
+   "qry": "QRY-021",
+   "status": "FOUND_RESOLVED"
+  },
+  {
+   "fct": "FCT-004",
+   "qry": "QRY-022",
+   "status": "FOUND_RESOLVED"
+  }
+ ],
+ "requests": [
+  {
+   "id": "QRY-001",
+   "mode": "WEB",
+   "query": "taxonomie europeenne nucleaire Allemagne opposition France 2022 conflit energie documente negociations allemandes contre nucleaire classement vert",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://www.jean-jaures.org/publication/la-taxonomie-europeenne-et-le-nucleaire-une-claque-pour-lallemagne/"
+  },
+  {
+   "id": "QRY-002",
+   "mode": "WEB",
+   "query": "reforme marche electricite UE 2023 Allemagne nucleaire France EDF capacite discussion documente positions divergence",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://www.lemonde.fr/economie/article/2023/07/28/la-reforme-du-marche-de-l-electricite-au-c-ur-de-la-guerre-du-nucleaire-entre-la-france-et-l-allemagne_6183650_3234.html"
+  },
+  {
+   "id": "QRY-003",
+   "mode": "WEB",
+   "query": "ARENH EDF 42 euros MWh NOME loi 2010 ouverture concurrence Commission europeenne pression nucleaire proces 8,34 milliards",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://cler.org/fin-arenh/"
+  },
+  {
+   "id": "QRY-004",
+   "mode": "WEB",
+   "query": "reforme marche electricite UE 2023 France Allemagne nucleaire EDF differend capacites contrats longue duree resultat compromis",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://euractiv.com/fr/news/reforme-du-marche-de-lelectricite-lallemagne-et-la-france-crient-toutes-deux-victoire/"
+  },
+  {
+   "id": "QRY-005",
+   "mode": "WEB",
+   "query": "taxonomie verte nucleaire acte delegue complementaire juillet 2022 Parlement europeen resolution opposition echoue 278 voix resultat",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://www.europarl.europa.eu/news/fr/press-room/20220701IPR34365/taxonomie-le-pe-ne-s-oppose-pas-a-l-inclusion-du-gaz-et-du-nucleaire"
+  },
+  {
+   "id": "QRY-006",
+   "mode": "WEB",
+   "query": "von der Leyen septembre 2025 nucleaire erreur strategique UE admission declaration",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://www.lefigaro.fr/conjoncture/energie-l-union-europeenne-a-fait-une-erreur-strategique-en-delaissant-le-nucleaire-juge-ursula-von-der-leyen-20260311"
+  },
+  {
+   "id": "QRY-007",
+   "mode": "WEB",
+   "query": "Friedrich Merz janvier 2026 Allemagne erreur strategique sortie nucleaire declaration chancelier reacteurs",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://www.sfen.org/rgn/il-fallait-lavoir-vu-quand-le-chancelier-allemand-reconnait-que-la-sortie-du-nucleaire-fut-une-erreur-strategique/"
+  },
+  {
+   "id": "QRY-008",
+   "mode": "WEB",
+   "query": "influence allemande UE anti-nucleaire politique energetique commune lobbying Berlin contre nucleaire francais documentation think tank analyse",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://www.revueconflits.com/lobbies-et-fondations-au-service-de-la-transition-energetique-allemande/"
+  },
+  {
+   "id": "QRY-009",
+   "mode": "FETCH",
+   "query": "",
+   "result": "INSPECTED",
+   "source": "SRC-001",
+   "url": "https://www.jean-jaures.org/publication/la-taxonomie-europeenne-et-le-nucleaire-une-claque-pour-lallemagne/"
+  },
+  {
+   "id": "QRY-010",
+   "mode": "FETCH",
+   "query": "",
+   "result": "INSPECTED",
+   "source": "SRC-003",
+   "url": "https://cler.org/fin-arenh/"
+  },
+  {
+   "id": "QRY-011",
+   "mode": "FETCH",
+   "query": "",
+   "result": "INSPECTED",
+   "source": "SRC-004",
+   "url": "https://euractiv.com/fr/news/reforme-du-marche-de-lelectricite-lallemagne-et-la-france-crient-toutes-deux-victoire/"
+  },
+  {
+   "id": "QRY-012",
+   "mode": "FETCH",
+   "query": "",
+   "result": "INSPECTED",
+   "source": "SRC-006",
+   "url": "https://www.europarl.europa.eu/news/fr/press-room/20220701IPR34365/taxonomie-le-pe-ne-s-oppose-pas-a-l-inclusion-du-gaz-et-du-nucleaire"
+  },
+  {
+   "id": "QRY-013",
+   "mode": "FETCH",
+   "query": "",
+   "result": "INSPECTED",
+   "source": "SRC-007",
+   "url": "https://www.lefigaro.fr/conjoncture/energie-l-union-europeenne-a-fait-une-erreur-strategique-en-delaissant-le-nucleaire-juge-ursula-von-der-leyen-20260311"
+  },
+  {
+   "id": "QRY-014",
+   "mode": "FETCH",
+   "query": "",
+   "result": "INSPECTED",
+   "source": "SRC-008",
+   "url": "https://www.sfen.org/rgn/il-fallait-lavoir-vu-quand-le-chancelier-allemand-reconnait-que-la-sortie-du-nucleaire-fut-une-erreur-strategique/"
+  },
+  {
+   "id": "QRY-015",
+   "mode": "FETCH",
+   "query": "",
+   "result": "INSPECTED",
+   "source": "SRC-009",
+   "url": "https://www.telos-eu.com/fr/economie/le-nucleaire-europeen-sous-influence-allemande.html"
+  },
+  {
+   "id": "QRY-016",
+   "mode": "FETCH",
+   "query": "",
+   "result": "INSPECTED",
+   "source": "SRC-005",
+   "url": "https://www.cre.fr/electricite/marche-de-gros-de-lelectricite/acces-regule-a-lelectricite-nucleaire-historique-arenh.html"
+  },
+  {
+   "id": "QRY-017",
+   "mode": "FETCH",
+   "query": "",
+   "result": "INSPECTED",
+   "source": "SRC-002",
+   "url": "https://giak.substack.com/p/le-sabotage-energetique-francais"
+  },
+  {
+   "id": "QRY-018",
+   "mode": "FETCH",
+   "query": "",
+   "result": "INSPECTED",
+   "source": "SRC-010",
+   "url": "https://www.jean-jaures.org/publication/marche-europeen-de-lelectricite-investir-dans-la-transition-energetique-proteger-les-consommateurs/"
+  },
+  {
+   "id": "QRY-019",
+   "mode": "WEB",
+   "query": "REFUTATION taxonomie UE nucleaire: l'Allemagne a-t-elle perdu en 2022-2023? vote Parlement europeen 06/07/2022 278 328 33 abstentions 353 requises acte delegue 02/02/2022 en vigueur 01/01/2023 inclusion nucleaire gaz conditionnelle analyse resultat final",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://www.europarl.europa.eu/news/fr/press-room/20220701IPR34365/taxonomie-le-pe-ne-s-oppose-pas-a-l-inclusion-du-gaz-et-du-nucleaire"
+  },
+  {
+   "id": "QRY-020",
+   "mode": "WEB",
+   "query": "REFUTATION reforme marche electricite UE accord du 17/10/2023: compromis France Allemagne 19/10/2023, CfD prolongation vie nucleaire existante, score 3:2 pour la France selon les experts (RAP), terme 'indefini' supprime (concession a l'Allemagne et a l'Italie), controle UE des aides d'Etat, porte de sortie de l'ARENH - analyse critique de la 'victoire' francaise",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://euractiv.com/fr/news/reforme-du-marche-de-lelectricite-lallemagne-et-la-france-crient-toutes-deux-victoire/"
+  },
+  {
+   "id": "QRY-021",
+   "mode": "WEB",
+   "query": "REFUTATION ARENH loi NOME 2010-1488 du 07/12/2010: EDF cede 100 TWh/an (~25% du parc) a 40 EUR/MWh (01/07/2011) puis 42 EUR/MWh (01/01/2012), prix gele jusqu'au 31/12/2025; seuils VNU 65-85 EUR/MWh; spoliation EDF ou protection des consommateurs? legalite validee Conseil d'Etat 2023 - analyse contradictoire",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://www.cre.fr/electricite/marche-de-gros-de-lelectricite/acces-regule-a-lelectricite-nucleaire-historique-arenh.html"
+  },
+  {
+   "id": "QRY-022",
+   "mode": "WEB",
+   "query": "REFUTATION von der Leyen 'erreur strategique' sur le nucleaire: 3 reacteurs allemands arretes 04/2023, part du nucleaire de 33% (1990) a ~15% (2026); date reelle de la declaration au sommet nucleaire de Paris 09-10/03/2026 (et non septembre 2025); Merz janvier 2026; fonds UE de 200 M EUR SMR/AMR - verification factuelle",
+   "result": "PASS",
+   "source": "-",
+   "url": "https://www.reuters.com/sustainability/boards-policy-regulation/reducing-nuclear-energy-strategic-mistake-eu-chief-says-2026-03-10/"
+  }
+ ],
+ "run": {
+  "as_of": "2026-09-05",
+  "certification_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-05_ingerences-allemagne-ue-nucleaire-francais/2026-09-05_12-21_ingerences-allemagne-ue-nucleaire-francais_CERTIFICATION.json",
+  "checkpoint_seq": 7,
+  "complexity": "APEX",
+  "complexity_score": "16",
+  "degraded_flags": [],
+  "input_kind": "TOPIC",
+  "input_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-05_ingerences-allemagne-ue-nucleaire-francais/2026-09-05_12-21_ingerences-allemagne-ue-nucleaire-francais_INPUT.txt",
+  "input_ref": "PATH:/home/giak/projects/truth-engine/investigations/2026-09/2026-09-05_ingerences-allemagne-ue-nucleaire-francais/2026-09-05_12-21_ingerences-allemagne-ue-nucleaire-francais_INPUT.txt",
+  "input_sha256": "sha256:a3ecd05af5c8125c85e706c79fe87d759c93f5d5eb1cb3bed1b15714418725d3",
+  "investigation_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-05_ingerences-allemagne-ue-nucleaire-francais/2026-09-05_12-21_ingerences-allemagne-ue-nucleaire-francais_INVESTIGATION.md",
+  "last_completed": "18b",
+  "loaded_modules": [
+   "definitions/SYMBOLS.md",
+   "definitions/PATTERNS.md",
+   "definitions/THREATS.md",
+   "forensic/GATES.md",
+   "forensic/REQUEST_LOG.md",
+   "protocol/INVESTIGATION.md",
+   "protocol/EPISTEMIC.md",
+   "output/TEMPLATE.md",
+   "protocol/FACT_VERIFICATION.md",
+   "clusters/ICEBERG.md",
+   "clusters/MONEY.md",
+   "clusters/POWER.md",
+   "clusters/NETWORK.md",
+   "clusters/FRAGMENTATION.md"
+  ],
+  "mission_mode": "INVESTIGATION",
+  "narrative_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-05_ingerences-allemagne-ue-nucleaire-francais/2026-09-05_12-21_ingerences-allemagne-ue-nucleaire-francais_NARRATIVE.tmp.md",
+  "next_action": "NONE",
+  "original_input_ref": "PATH:investigations/2026-09/2026-09-05_ingerences-allemagne-ue-nucleaire-francais/2026-09-05_12-21_ingerences-allemagne-ue-nucleaire-francais_INPUT.txt",
+  "parent_run_id": "NONE",
+  "resume_count": 0,
+  "route_overrides": [],
+  "run_dir": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-05_ingerences-allemagne-ue-nucleaire-francais",
+  "run_id": "20260905-1221-ingerences-allemagne-ue-nucleaire-francais",
+  "scope": "Presumees ingerences allemandes et europeennes sur la France : politique energetique/nucleaire (sortie du nucleaire, pressions UE sur EDF/ASN), influence reglementaire (marches de l'energie, taxonomy), recits officiels a debunker (volonte de detruire la France)",
+  "snapshot_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-05_ingerences-allemagne-ue-nucleaire-francais/2026-09-05_12-21_ingerences-allemagne-ue-nucleaire-francais_MNEMO_SNAPSHOT.json",
+  "state": "FINAL",
+  "state_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-05_ingerences-allemagne-ue-nucleaire-francais/2026-09-05_12-21_ingerences-allemagne-ue-nucleaire-francais_RUN_STATE.json",
+  "subject_fingerprint": "sha256:fbb1473d15fa732d77d2b708bea5ab027c4fa29139f08b0196cdc30bcefa2f2d",
+  "subject_fingerprint_legacy_v1": "sha256:fbb1473d15fa732d77d2b708bea5ab027c4fa29139f08b0196cdc30bcefa2f2d",
+  "subject_slug": "ingerences-allemagne-ue-nucleaire-francais"
+ },
+ "schema": 1,
+ "sections": {
+  "ACTOR_NETWORK_MAP": {
+   "actors": [
+    {
+     "evidence": "FCT-001, FCT-004",
+     "id": "Commission europeenne / von der Leyen",
+     "role": "Executif UE: taxonomie pro-nucleaire 2022, fonds SMR 200 M EUR 03/2026, mea culpa"
+    },
+    {
+     "evidence": "FCT-001, FCT-002, FCT-004",
+     "id": "Allemagne (Scholz/Habeck puis Merz)",
+     "role": "Opposition taxonomie 2022 (Verts), compromis CfD 2023, mea culpa Merz 01/2026, neutralite technologique 08/2025"
+    },
+    {
+     "evidence": "FCT-003",
+     "id": "EDF / Etat francais",
+     "role": "EDF contraint par l'ARENH (42 EUR/MWh, 100 TWh) et la reforme marche; loi NOME 2010-1488"
+    },
+    {
+     "evidence": "FCT-001",
+     "id": "Parlement europeen",
+     "role": "Rejet des resolutions anti-nucleaire 06/07/2022 (278/328/33, 353 requises)"
+    },
+    {
+     "evidence": "FCT-001, FCT-002",
+     "id": "Autriche, Luxembourg, Italie",
+     "role": "Affides anti-nucleaire de l'Allemagne (taxonomie, CfD 'indefini')"
+    }
+   ]
+  },
+  "CAUSALITY_REGISTRY": "RUNTIME_DERIVED",
+  "CLAIM_REGISTRY": "RUNTIME_DERIVED",
+  "COGNITIVE_MAP": {
+   "biais": "Le corpus (#51) et les analyses Telos/CR451 poussent a l'amplification ('guerre diplomatique', 'sabotage') ; le biais inverse est le recit officiel FR/UE qui minimise les contraintes reglementaires imposees a EDF",
+   "effet": "Confusion entre influence reglementaire UE documentee (ARENH, taxonomie, marche) et accusation de volonte allemande de 'detruire la France' non etayee",
+   "fragmentation": "3 registres : reglementation UE (taxonomie, marche electricite), politique energetique nationale (sorties nucleaires FR/DE), recits d'ingerence (corpus, think tanks)"
+  },
+  "CONTRADICTION_LEDGER": {
+   "contradictions": [
+    {
+     "contre": "Le corpus #51 affirme que l'Allemagne a mene une 'guerre diplomatique' victorieuse pour exclure le nucleaire de la taxonomie",
+     "fait": "FCT-001",
+     "resolution": "L'acte delegue inclut le nucleaire (06/07/2022, 278/328/33) : la France a gagne, Berlin a echoue a former une minorite de blocage - le recit corpus est infirme sur l'issue"
+    },
+    {
+     "contre": "Le corpus #51 date le mea culpa de von der Leyen de 'septembre 2025'",
+     "fait": "FCT-004",
+     "resolution": "Declaration reelle au sommet nucleaire de Paris les 09-10/03/2026 (Reuters, Figaro, Toute l'Europe) - erreur de datation documentee dans le corpus"
+    },
+    {
+     "contre": "Certaines lectures (AFIEG, corpus) qualifient l'ARENH de 'spoliation' unilaterale",
+     "fait": "FCT-003",
+     "resolution": "L'ARENH est une loi francaise (NOME 2010-1488) concue comme 'tolerance' face a la position dominante d'EDF dans le marche UE - contrainte europeenne acceptee par la France"
+    }
+   ]
+  },
+  "CONTROL_MAP": "RUNTIME_DERIVED",
+  "CREDO": {
+   "bounded": true,
+   "lead_question": "L'Allemagne et l'UE exercent-ils une influence/ingerence documentee sur la politique nucleaire et energetique francaise (taxonomie, marche de l'electricite, EDF/ARENH) - et l'accusation de 'volonte de detruire la France' est-elle etayee ?",
+   "tier_max": "✦",
+   "verdict": "Influence reglementaire UE reelle et documentee sur EDF (ARENH 42 EUR/MWh 2012-2025, reforme marche 2023) et positionnement allemand anti-nucleaire reel - mais borne par des compromis que la France a obtenus (taxonomie 2022, CfD 2023) et corrige par les mea culpa officiels 2026 (Merz, von der Leyen) ; aucune preuve d'une volonte deliberee de 'detruire la France'"
+  },
+  "DIALECTICAL_MAP": {
+   "antithese": "Les decisions cles sont francaises (loi NOME 2010, fermeture Fessenheim, LTECV 2015, arret ASTRID 2019) ; la France a obtenu l'inclusion du nucleaire dans la taxonomie (2022) et les CfD (2023) ; Berlin et Bruxelles reconnaissent l'erreur strategique en 2026",
+   "synthese": "Influence et contraintes europeennes documentees sur le nucleaire francais (concurrence, taxonomie, marche) - mais dans un cadre negocie ou Paris a remporte des victoires ; l'accusation de volonte de destruction de la France est un recit non etaye par les issues",
+   "these": "L'Allemagne et l'UE ont sabote le nucleaire francais (taxonomie, ARENH, marche de l'electricite) pour detruire la France (corpus #51, Telos)"
+  },
+  "EDI_REPORT": {
+   "edi": "EDI applique: sources primaires (PE, CRE, Commission), presse (Euractiv, Le Figaro), think tanks (Jean-Jaures, Telos, Sfen), corpus Giak #51 en tant que source a debunker (datation von der Leyen corrigee) ; tiers FACT_VERIFICATION; refutations 4/4 FOUND_RESOLVED; distinction fait/allegation explicite"
+  },
+  "GATE_STATUS_V1": {
+   "G0": "PASS",
+   "G1": "PASS",
+   "G10": "PASS",
+   "G2": "PASS",
+   "G3": "PASS",
+   "G4": "PASS",
+   "G5": "PASS",
+   "G6": "PASS",
+   "G7": "PASS",
+   "G8": "PASS",
+   "G9": "PASS"
+  },
+  "IMPACT_MAP": {
+   "impacts": [
+    {
+     "type": "Reglementaire UE",
+     "verdict": "ARENH 100 TWh a 42 EUR/MWh pendant 14 ans (2012-2025) - cout documente pour EDF (vente sous le prix de marche, pics 2022)"
+    },
+    {
+     "type": "Marche de l'electricite",
+     "verdict": "Reforme 2023: CfD prolongation nucleaire acceptes mais 'indefini' exclu (concession a Berlin) - levier de competitivite FR preserve"
+    },
+    {
+     "type": "Politique energetique DE",
+     "verdict": "Sortie nucleaire 2000/2011/2023 -> part UE 33% (1990) a 15% - mea culpa officiel 2026 (Merz, von der Leyen)"
+    },
+    {
+     "type": "Recits",
+     "verdict": "Corpus #51: datation erronee du mea culpa von der Leyen (sept.2025 -> reel 10/03/2026) - correction documentee"
+    }
+   ]
+  },
+  "INVESTIGATION_MAP": "RUNTIME_DERIVED",
+  "LEAD_REGISTRY": "RUNTIME_DERIVED",
+  "MANIPULATION_REPORT": {
+   "synth": "Run 11: (1) Taxonomie: nucleaire inclus sous conditions malgre Berlin - CONFIRME (278/328/33, 353 req.); (2) Reforme marche 2023: CfD prolongation sans 'indefini' - CONFIRME (score 3:2 FR); (3) ARENH/NOME: EDF force de vendre 100 TWh a 42 EUR/MWh 2012-2025 - CONFIRME (contrainte UE, pas decision DE); (4) Mea culpa 2026: Merz 01/2026 + von der Leyen 10/03/2026 - CONFIRME; (5) Influence anti-nucleaire allemande structurelle (NZIA, taxonomie) - PARTIEL (allegation sans preuve d'intention de nuire)"
+  },
+  "NEXT_QUERIES": [
+   "Suivre la mise en oeuvre du VNU (seuil 65-85 EUR/MWh) et son effet sur le prix pour les consommateurs 2026-2027",
+   "Mesurer l'effet du compromis CfD 2023 sur le financement de la prolongation EPR2 (aides d'Etat UE)",
+   "Verifier la position officielle FR sur la neutralite technologique UE (conseil franco-allemand 08/2025 et suites 2026)",
+   "Examiner les accusations d'operations d'influence allemandes ciblees (corpus #51) - enquete documentaire complementaire"
+  ],
+  "OPEN_GAPS": "RUNTIME_DERIVED",
+  "RESOURCE_FLOW_MAP": {
+   "flows": [
+    {
+     "amount": "100 TWh/an a 42 EUR/MWh (2012-2025), ~25% du parc",
+     "evidence": "FCT-003",
+     "from": "EDF (parc nucleaire historique)",
+     "to": "Fournisseurs alternatifs (ARENH)"
+    },
+    {
+     "amount": "Reversement ex post si revenus > 65-85 EUR/MWh (01/01/2026)",
+     "evidence": "FCT-003",
+     "from": "Etat francais / EDF",
+     "to": "Consommateurs (VNU)"
+    },
+    {
+     "amount": "Poids diplomatique anti-nucleaire (taxonomie 2022, CfD 2023) sans majorite de blocage",
+     "evidence": "FCT-001, FCT-002",
+     "from": "Etats membres (DE/AT/LU/IT)",
+     "to": "Institutions UE (PE, Conseil)"
+    },
+    {
+     "amount": "Fonds de garantie 200 M EUR (03/2026)",
+     "evidence": "FCT-004",
+     "from": "Commission europeenne",
+     "to": "SMR/AMR"
+    }
+   ]
+  },
+  "RESPONSIBILITY_MAP": {
+   "responsables": [
+    {
+     "acteur": "Allemagne (gouvernements successifs)",
+     "evidence": "FCT-004, FCT-006",
+     "role": "Sortie nucleaire 2000/2011/2023 - decision interieure; mea culpa 2026"
+    },
+    {
+     "acteur": "Commission europeenne / von der Leyen",
+     "evidence": "FCT-001, FCT-004",
+     "role": "Taxonomie pro-nucleaire 2022, fonds SMR 2026, mea culpa 03/2026"
+    },
+    {
+     "acteur": "Etat francais (EDF, ARENH)",
+     "evidence": "FCT-003",
+     "role": "Loi NOME 2010: vente forcee 100 TWh a 42 EUR/MWh sous contrainte concurrence UE"
+    },
+    {
+     "acteur": "Think tanks et corpus (Telos, #51)",
+     "evidence": "FCT-005",
+     "role": "Documentent l'influence anti-nucleaire allemande - avec biais a charge"
+    }
+   ]
+  },
+  "SCOPING_REPORT": {
+   "excluded": "Runs 7-10, 12 (ELNET/voyages run 7; revolutions de couleur/CIA run 8; lobbies FR run 9; USA/Israel run 10); politique nucleaire militaire; contentieux commerciaux hors energie; chronique Mercosur (corpus #52)",
+   "focus": "Influence reglementaire et energetique allemande/europeenne sur la France (nucleaire civil): taxonomie, marche de l'electricite, ARENH/EDF, recits officiels a debunker (volonte de detruire la France, mea culpa 2026)",
+   "included": "Taxonomie verte UE (2021-2023), reforme marche electricite (2023-2024), ARENH/NOME/VNU (2010-2026), sortie nucleaire allemande (2000-2023), mea culpa Merz/von der Leyen (2026), analyses d'influence (Telos 2023, corpus #51)"
+  },
+  "STATUS_DELTA": "RUNTIME_DERIVED",
+  "TEMPORAL_STATE": {
+   "anchor": "2026-09-05",
+   "fenetre": "1990-2026",
+   "note": "Part nucleaire UE 33% (1990) -> ~15% (2026); loi NOME 07/12/2010; ARENH 40 (2011) puis 42 EUR/MWh (01/01/2012) jusqu'au 31/12/2025; acte delegue taxonomie 02/02/2022, vote PE 06/07/2022, en vigueur 01/01/2023; arret dernieres centrales DE 04/2023; accord CfD 17/10/2023; Merz mea culpa 01/2026; VNU 01/01/2026; von der Leyen sommet nucleaire Paris 09-10/03/2026"
+  },
+  "TRACE_MATRIX": "RUNTIME_DERIVED",
+  "VERIFICATION_REPORT": {
+   "refutations": [
+    "FCT-001->QRY-019",
+    "FCT-002->QRY-020",
+    "FCT-003->QRY-021",
+    "FCT-004->QRY-022"
+   ],
+   "status": "FOUND_RESOLVED: defenses enregistrees (l'issue de la taxonomie infirme le recit corpus; date reelle du mea culpa von der Leyen 10/03/2026; ARENH = loi francaise sous contrainte UE; CfD obtenus sans 'indefini')"
+  }
+ },
+ "sources": [
+  {
+   "family": "C",
+   "id": "SRC-001",
+   "role": "◈",
+   "title": "Fondation Jean-Jaures (2022) - Taxonomie: inclusion nucleaire+gaz; les Verts allemands en colere, Scholz sans minorite de blocage, Habeck 'greenwashing'",
+   "url": "https://www.jean-jaures.org/publication/la-taxonomie-europeenne-et-le-nucleaire-une-claque-pour-lallemagne/"
+  },
+  {
+   "family": "other:corpus",
+   "id": "SRC-002",
+   "role": "◈",
+   "title": "Corpus Giak #51 (03/2026) - Le sabotage energetique francais (Fessenheim 2011/2020, LTECV 2015, ASTRID 2019, ARENH 42 EUR/MWh, dette EDF 54 Mds EUR, 'guerre diplomatique' allemande, von der Leyen 'erreur strategique' dattee sept.2025)",
+   "url": "https://giak.substack.com/p/le-sabotage-energetique-francais"
+  },
+  {
+   "family": "other:cler",
+   "id": "SRC-003",
+   "role": "◈",
+   "title": "Cler (12/2025) - Fin de l'ARENH (loi NOME 2010, 100 TWh a 42 EUR/MWh, tolerance temporaire concurrence UE) remplacee par le Versement nucleaire universel (seuil 65-85 EUR/MWh)",
+   "url": "https://cler.org/fin-arenh/"
+  },
+  {
+   "family": "B",
+   "id": "SRC-004",
+   "role": "◈",
+   "title": "Euractiv FR (10/2023) - Reforme marche electricite UE: accord 17/10/2023, CfD prolongation vie nucleaire sans 'indefini', France 3:2, sortie ARENH",
+   "url": "https://euractiv.com/fr/news/reforme-du-marche-de-lelectricite-lallemagne-et-la-france-crient-toutes-deux-victoire/"
+  },
+  {
+   "family": "A",
+   "id": "SRC-005",
+   "role": "◈",
+   "title": "CRE (regulateur FR) - ARENH loi 2010-1488 NOME: 01/07/2011-31/12/2025, plafond 100 TWh (~25% parc), prix 40 puis 42 EUR/MWh (01/01/2012)",
+   "url": "https://www.cre.fr/electricite/marche-de-gros-de-lelectricite/acces-regule-a-lelectricite-nucleaire-historique-arenh.html"
+  },
+  {
+   "family": "A",
+   "id": "SRC-006",
+   "role": "◈",
+   "title": "Parlement europeen (06/07/2022) - Taxonomie: resolution d'opposition rejetee 278/328/33 (353 requises), acte delegue en vigueur 01/01/2023",
+   "url": "https://www.europarl.europa.eu/news/fr/press-room/20220701IPR34365/taxonomie-le-pe-ne-s-oppose-pas-a-l-inclusion-du-gaz-et-du-nucleaire"
+  },
+  {
+   "family": "B",
+   "id": "SRC-007",
+   "role": "◈",
+   "title": "Le Figaro (03/2026) - von der Leyen 10/03/2026 pres de Paris: declin nucleaire 1/3 (1990) a ~15% = 'erreur strategique'; fonds 200 M EUR SMR/AMR; Merz mi-janvier: sortie allemande = erreur",
+   "url": "https://www.lefigaro.fr/conjoncture/energie-l-union-europeenne-a-fait-une-erreur-strategique-en-delaissant-le-nucleaire-juge-ursula-von-der-leyen-20260311"
+  },
+  {
+   "family": "other:sfen",
+   "id": "SRC-008",
+   "role": "◈",
+   "title": "Sfen (01/2026) - Merz: sortie du nucleaire = 'grave erreur strategique', transition la plus chere du monde; arret 04/2023; neutralite technologique accordee avec la France (08/2025)",
+   "url": "https://www.sfen.org/rgn/il-fallait-lavoir-vu-quand-le-chancelier-allemand-reconnait-que-la-sortie-du-nucleaire-fut-une-erreur-strategique/"
+  },
+  {
+   "family": "C",
+   "id": "SRC-009",
+   "role": "◈",
+   "title": "Telos (07/2023) - Le nucleaire europeen sous influence allemande: lobbying DE polarise Green Deal/NZIA, rapporteur PPE allemand exclut le nucleaire de la Taxonomie NZIA",
+   "url": "https://www.telos-eu.com/fr/economie/le-nucleaire-europeen-sous-influence-allemande.html"
+  },
+  {
+   "family": "C",
+   "id": "SRC-010",
+   "role": "◈",
+   "title": "Fondation Jean-Jaures (11/2023) - Marche electricite: compromis 19/10/2023 CfD prolongation actifs nucleaires sous controle aides d'Etat UE; la France gagnerait a reformer, pas a quitter",
+   "url": "https://www.jean-jaures.org/publication/marche-europeen-de-lelectricite-investir-dans-la-transition-energetique-proteger-les-consommateurs/"
+  }
+ ],
+ "stamps": {
+  "RESEARCH_DONE": "2026-09-05T12:30:40.309385+00:00",
+  "START": "2026-09-05T12:21:49.986388+00:00"
+ },
+ "sys_log": [
+  {
+   "id": "SYS-001",
+   "mode": "SYS",
+   "tool": "runtime",
+   "call": "MNEMO_Q",
+   "ref": "probe:ingerences-allemagne-ue-nucleaire",
+   "result": "PASS"
+  },
+  {
+   "id": "SYS-002",
+   "mode": "SYS",
+   "tool": "runtime",
+   "call": "MEMORY_PROBE",
+   "ref": "CP-003",
+   "result": "NONE"
+  },
+  {
+   "id": "SYS-003",
+   "mode": "SYS",
+   "tool": "runtime",
+   "call": "PERSIST_REBIND",
+   "ref": "ATTEMPT-001",
+   "result": "PASS"
+  }
+ ]
+}

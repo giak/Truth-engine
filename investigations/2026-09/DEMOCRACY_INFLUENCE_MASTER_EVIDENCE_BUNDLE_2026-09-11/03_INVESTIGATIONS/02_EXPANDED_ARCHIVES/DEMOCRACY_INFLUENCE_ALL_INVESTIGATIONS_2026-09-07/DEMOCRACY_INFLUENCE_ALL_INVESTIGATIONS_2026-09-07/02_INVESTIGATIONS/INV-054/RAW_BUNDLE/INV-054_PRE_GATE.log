@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:785d819a9769add1edf64dfd4a0569dab7ec245ae8db3bc4b4e518b14f7f934a",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "pre",
+  "deliverable": "investigations/2026-09/2026-09-07_strategic-litigation-ngo/2026-09-07_12-22_strategic-litigation-ngo_INVESTIGATION.md",
+  "deliverable_sha256": "8372ce4b26d04cda306ea737da10cbde903e3493ce6117a468cfefd6d00cf6c7",
+  "created_at": "2026-09-07T10:39:36.425262+00:00"
+}

@@ -1,0 +1,23 @@
+# Brief INV-03 — APEX — INVESTIGATION (TOPIC)
+
+RUN_DIR = 2026-09-05_attribution-russie-drones-aeroports-ue (2026-09-05).
+MISSION_MODE := INVESTIGATION (lead audit = one branch; OBJECT_QUESTION primary).
+INPUT_KIND := TOPIC (no supplied document; INPUT_REF/NONE).
+
+LEAD_QUESTION: L'attribution à la Russie de la vague de fermetures d'aéroports européens (2025-2026) est-elle étayée par des traces matérielles ?
+
+OBJECT_QUESTION: Les observations documentées (drones inexpliqués, signalements, perturbations GPS associées) permettent-elles de trancher entre
+(H1) opération clandestine étatique russe — auquel cas l'absence de traces publiques est COHÉRENTE, pas preuve d'absence — et les rivaux
+(R2) phénomène non-étatique/ambiant (drones civils, oiseaux, débris, météo),
+(R3) phénomène amplifié/maltraité par les médias et le signal (ex. cas VRT Pano : le ministre Francken a exagéré, 17/04/2026),
+(R4) inconnu technique établi ?
+
+Périmètre: 2025 → 09/2026 ; France et UE ; basse altitude aéroportuaire + interférence GPS liée ;
+acteurs: États/services (VIGINUM, DGAC, ministères), médias (VRT Pano, press), industrie/sécurité (EASA, autorités aéroportuaires).
+
+Traces attendues : NOTAMs/fermetures d'aéroports (chronologie, volumes FR/UE), rapports d'enquête de sécurité,
+signalements gendarmerie/aviation civile/ANSSI, VIGISCORE/VIGINUM ou équivalents, incidents d'interférence GPS corrélés (ADS-B, NOTAM),
+enquête VRT Pano (détails: exagération Francken documentée), couverture/persistances médiatiques, condamnations/interpellations.
+
+Ancrage (AGENTS/knowledge du dossier): 2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves (CAU-005 EVIDENCE_GAP; faits F21-F26).
+RENARD overlay obligatoire si un atom finit sa recherche sans preuve probatoire ni piste exploitable (SHADOW = cœur épistémique).

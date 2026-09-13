@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "3cb7b4a221d2377c7e2ce6396ec0069452be9390",
+  "state_id": "sha256:0114aad9a36d67aa98a8ba269ecbfd55b90c217167a49896e2580870af809280",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-06_attribution-russie-fermetures-aeroports-europe/2026-09-06_07-33_attribution-russie-fermetures-aeroports-europe_INVESTIGATION.md",
+  "deliverable_sha256": "2f5a071266145e443d18b61a3bae648282051859d6cea6e478ee3aed26e6956b",
+  "created_at": "2026-09-06T06:14:27.833677+00:00"
+}

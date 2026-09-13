@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:c1b8e0a20e360598b86d4ff8fb5b0736ac80e371b0b4774ba8fd04e857c20c95",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_viginum-instrument-pouvoir-debunk-narratifs/2026-09-05_12-41_viginum-instrument-pouvoir-debunk-narratifs_INVESTIGATION.md",
+  "deliverable_sha256": "b424c5f7d93df581483bcf0b6b1a82ef2be4a1fe2c4b3fb571379f15233ca993",
+  "created_at": "2026-09-05T12:51:26.750708+00:00"
+}

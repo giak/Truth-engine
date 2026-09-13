@@ -1,0 +1,10 @@
+Examen ADVERSARIAL de la filiere anti-drones (C-UAS) en Europe (2025-2026): QUI VEND, QUI GAGNE, et correlation avec les vagues de signalements de drones.
+
+Questions:
+1. Cartographie des contrats anti-drones UE recents (Belgique: Senhive + Cobbs/BLAZE; France: Hologarde/Thales + selection BLAZE/DSV juin 2026) - volumes, prix, procedures (appel d'offres vs sans appel d'offres).
+2. Surfacturation allegee: Senhive 84 antennes RF 10,4 M EUR (prix marche ~1/4 selon Pano; Senhive conteste: SENIDPRO version pro pas SENID+); BLAZE 300 unites 7,8 M EUR via Cobbs (expert Housen + producteur: ~6.000 EUR/unite soit ~1,8 M EUR; Cobbs/Defense contestent: consoles, munitions, formation incluses).
+3. Contre-enquete: parquet de Bruxelles ouvre enquete 17/04/2026 (corruption, obstruction encheres publiques); rapport Pano VRT (0 preuve de drones hostiles sur la vague 2025); Inspection des Finances avis defavorable octobre 2025 outre.
+4. Qui sont les vendeurs: Senhive (Hasselt, fondee 2019 par Thomas Petracca, Wouter Paesen, Stijn Burm; CEO Steven Krekels; startup) ; Origin Robotics (Riga, Lettonie, fabricant BLAZE); Cobbs (Bonheiden, intermediare belge, CEO Michael Rummens); DSV (partenaire francais Origin Robotics); Hologarde (subsidiaire ADP, creee 2017, avec Thales).
+5. Comparaison France: marche civil FR = reponse a incident REEL documente (Orly 2016 deroutement 20 min; 2.000+ incidents/an sites parisiens), procedures avec appels d'offres, Hologarde cree 2017 - CONTRASTE avec Belgique (panique 2025 sans preuve, 50 M EUR sans appel d'offres).
+6. Marche europeen C-UAS en croissance (rapports marche: 1,2 Md USD 2025 -> 4,2 Md 2030 UE, 27,5% CAGR); Commission europeenne publie plan action drone & anti-drone 11/02/2026; France 4e operateur europeen BLAZE (apres Lettonie, Belgique, Estonie) avec transfert de technologie "Made in France" via DSV.
+7. Effet reel: 558 signalements Belgique (09/2025-01/2026) -> 0 preuve drone hostile; mais incident REEL Leipzig 04/08/2026 (drone explosif) stimule exigences aeroports (Xponential). Distinguer panique (BE) / menace reelle (Leipzig) / marche structurel (FR depuis 2016).

@@ -1,0 +1,5 @@
+INPUT_KIND: TOPIC
+MISSION_MODE: INVESTIGATION
+AS_OF: 2026-09-05
+SUBJECT: Achat de vote — France/UE prioritaire, puis reste du monde
+OBJECT_QUESTION: Quels cas documentés d'achat de vote (clientélisme, vote buying, distributions d'argent/biens contre suffrages, corruption électorale individuelle) existent en France et dans l'UE, avec quelles sanctions et quels effets ?

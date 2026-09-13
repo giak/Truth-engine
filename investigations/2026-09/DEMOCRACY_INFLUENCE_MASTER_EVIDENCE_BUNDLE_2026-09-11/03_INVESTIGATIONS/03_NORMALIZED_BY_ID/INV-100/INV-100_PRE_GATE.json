@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:4dd7cebd2187253c4faf76c4a4916e3326e489a90752122f3d3e8ba3e669ac98",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "pre",
+  "deliverable": "investigations/2026-09/2026-09-07_roumanie-annulation-election/2026-09-07_09-35_roumanie-annulation-election_INVESTIGATION.md",
+  "deliverable_sha256": "8cd7d8cd200928a7f80b8ed807a13f9656b222f1776d4ef6135383080c24326f",
+  "created_at": "2026-09-07T08:13:31.320064+00:00"
+}

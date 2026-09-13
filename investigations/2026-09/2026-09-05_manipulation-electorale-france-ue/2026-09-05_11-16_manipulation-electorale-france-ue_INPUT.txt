@@ -1,0 +1,5 @@
+INPUT_KIND: TOPIC
+MISSION_MODE: INVESTIGATION
+AS_OF: 2026-09-05
+SUBJECT: Manipulation électorale — France/UE prioritaire, puis reste du monde
+OBJECT_QUESTION: Quelles manipulations des processus électoraux (fraude documentaire, désinformation, bourrage d'urnes, manipulation des résultats, IA/deepfakes) sont documentées en France et dans l'UE, et avec quels effets ?

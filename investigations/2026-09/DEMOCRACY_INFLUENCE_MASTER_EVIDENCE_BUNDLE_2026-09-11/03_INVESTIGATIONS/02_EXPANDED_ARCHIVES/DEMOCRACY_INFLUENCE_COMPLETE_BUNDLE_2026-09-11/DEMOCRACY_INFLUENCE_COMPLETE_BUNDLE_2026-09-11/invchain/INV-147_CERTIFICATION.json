@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:1d1cdf2a59169dc1ed93ef5ba8e1407c5e9098a05d7c2b6f14db49cdeca4ef9b",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-10_double-standard-matched/2026-09-10_20-42_double-standard-matched_INVESTIGATION.md",
+  "deliverable_sha256": "791ecce8ecccc4e9b37aad3b58ccf2bacb5861de60fefeb116f9a01e053ae96a",
+  "created_at": "2026-09-10T19:39:05.878448+00:00"
+}

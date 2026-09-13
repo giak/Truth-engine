@@ -1,0 +1,337 @@
+{
+  "schema": 1,
+  "stage": "tail",
+  "base_state_sha256": "5399c7ae18aa5a393da4fd09edcc5e9adaed9c86c1dbb5ae2ab9d94069fa06b7",
+  "commands": [
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"Une infrastructure substantielle d’assistance démocratique américaine existait en Égypte avant 2011 et finançait des capacités de société civile, participation et médias.\",\"claimant\":\"INV-016\",\"materiality\":\"IMPORTANT\",\"support\":[\"FCT-001\",\"FCT-002\"],\"counter\":\"NONE_FOUND\",\"gap_type\":\"NONE\",\"gap\":\"NONE\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"Un transfert tactique transnational de méthodes de mobilisation non violente vers au moins un militant d’April 6 est documenté avant 2011.\",\"claimant\":\"INV-016\",\"materiality\":\"DECISIVE\",\"support\":[\"FCT-006\"],\"counter\":\"NONE_FOUND\",\"gap_type\":\"NONE\",\"gap\":\"NONE\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"L’assistance occidentale documentée établit que les États-Unis ont commandé ou orchestré le soulèvement égyptien de janvier 2011.\",\"claimant\":\"hypothèse forte\",\"materiality\":\"DECISIVE\",\"support\":[\"FCT-001\",\"FCT-002\",\"FCT-007\",\"FCT-008\"],\"counter\":[\"FCT-008\",\"FCT-012\",\"FCT-013\"],\"gap_type\":\"CAUSALITY\",\"gap\":\"Aucune instruction authentifiée reliant un financeur/État à la décision de lancer, au plan opérationnel ou à l’issue du soulèvement; le câble cité doute lui-même d’un plan coordonné.\",\"status\":\"PARTIAL\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"En Égypte, les réseaux sociaux ont facilité information, logistique et participation précoce aux manifestations.\",\"claimant\":\"INV-016\",\"materiality\":\"DECISIVE\",\"support\":[\"FCT-003\",\"FCT-004\"],\"counter\":[\"FCT-005\"],\"gap_type\":\"NONE\",\"gap\":\"NONE\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"En Tunisie, Facebook et les réseaux sociaux ont contribué à l’information, aux réseaux et à la formation d’une coalition protestataire, sans être démontrés comme déclencheur unique.\",\"claimant\":\"INV-016\",\"materiality\":\"IMPORTANT\",\"support\":[\"FCT-009\",\"FCT-010\",\"FCT-011\"],\"counter\":\"NONE_FOUND\",\"gap_type\":\"NONE\",\"gap\":\"NONE\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CLM",
+        "--json",
+        "{\"claim\":\"L’assistance extérieure ou les plateformes suffisent à expliquer causalement la chute des régimes lors des printemps arabes.\",\"claimant\":\"hypothèse générale\",\"materiality\":\"DECISIVE\",\"support\":[\"FCT-003\",\"FCT-006\",\"FCT-009\",\"FCT-010\"],\"counter\":[\"FCT-005\",\"FCT-011\",\"FCT-012\"],\"gap_type\":\"CAUSALITY\",\"gap\":\"Les données ferment des mécanismes de capacité, diffusion et participation mais pas le contrefactuel de régime; répression, griefs locaux, coalitions et décisions des élites restent des causes concurrentes non isolées.\",\"status\":\"PARTIAL\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CAU",
+        "--json",
+        "{\"mechanism\":\"assistance démocratique extérieure -> ressources/capacité de société civile\",\"support\":[\"FCT-001\",\"FCT-002\",\"FCT-012\"],\"counter\":\"Programmes multiples et bénéficiaires hétérogènes; capacité ne vaut pas instruction opérationnelle.\",\"limit\":\"Capacité institutionnelle fermée, tasking non inféré.\",\"causal_right\":\"financement/programmes -> capacités civiques/médiatiques/organisationnelles documentées\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CAU",
+        "--json",
+        "{\"mechanism\":\"formation CANVAS -> apprentissage tactique -> transmission interne à April 6\",\"support\":[\"FCT-006\"],\"counter\":[\"FCT-005\"],\"limit\":\"Transfert de méthode établi pour un acteur; effet marginal sur le soulèvement non isolé.\",\"causal_right\":\"formation identifiée -> retour en Égypte -> enseignement de tactiques non violentes\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CAU",
+        "--json",
+        "{\"mechanism\":\"usage réseaux sociaux -> information/logistique -> participation au premier jour en Égypte\",\"support\":[\"FCT-003\",\"FCT-004\"],\"counter\":[\"FCT-005\"],\"limit\":\"Association multivariée forte et mécanisme plausible; pas d’assignation randomisée ni effet sur issue du régime.\",\"causal_right\":\"usage social media -> information/logistique -> probabilité accrue de participation initiale\",\"status\":\"SUPPORTED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CAU",
+        "--json",
+        "{\"mechanism\":\"réseaux sociaux -> coalition/mobilisation -> chute de régime en Tunisie\",\"support\":[\"FCT-009\",\"FCT-010\"],\"counter\":[\"FCT-011\"],\"gap_type\":\"CAUSALITY\",\"gap\":\"Les études sont rétrospectives/perceptives et le mouvement naît localement à Sidi Bouzid; absence de contrefactuel sans réseaux sociaux.\",\"limit\":\"Catalyse informationnelle/coalition soutenue; déclenchement et résultat non isolés.\",\"status\":\"UNRESOLVED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CAU",
+        "--json",
+        "{\"mechanism\":\"assistance extérieure + plateformes -> soulèvement -> changement de régime\",\"support\":[\"FCT-001\",\"FCT-006\",\"FCT-003\",\"FCT-009\"],\"counter\":[\"FCT-005\",\"FCT-008\",\"FCT-011\",\"FCT-012\"],\"gap_type\":\"CAUSALITY\",\"gap\":\"Pas de chaîne unique de commandement ni de design identifiant l’effet marginal sur la survie du régime.\",\"limit\":\"Contributions intermédiaires documentées; causalité générale du changement de régime non établie.\",\"status\":\"UNRESOLVED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CTRL",
+        "--json",
+        "{\"control\":\"audience numérique != mobilisation de rue réussie\",\"support\":[\"FCT-005\"],\"status\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CTRL",
+        "--json",
+        "{\"control\":\"contact/formation externe != tasking étatique\",\"support\":[\"FCT-006\",\"FCT-008\"],\"status\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CTRL",
+        "--json",
+        "{\"control\":\"assistance démocratique != orchestration de révolution\",\"support\":[\"FCT-001\",\"FCT-002\",\"FCT-012\"],\"status\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CTRL",
+        "--json",
+        "{\"control\":\"réseau social != déclencheur unique\",\"support\":[\"FCT-011\",\"FCT-005\"],\"status\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "CTRL",
+        "--json",
+        "{\"control\":\"participation accrue != chute du régime attribuable\",\"support\":[\"FCT-003\",\"FCT-010\",\"FCT-011\"],\"status\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "TEMPORAL_STATE",
+        "--json",
+        "{\"as_of\":\"2026-09-11\",\"window\":\"Égypte/Tunisie principalement 2006-2013, avec études rétrospectives ultérieures\",\"breaks\":[\"2006-2008 assistance US préexistante\",\"2008 April 6 mobilisation Facebook et échec partiel hors Mahalla\",\"2009 formation CANVAS documentée\",\"2010-2011 soulèvements Tunisie/Égypte\",\"2012-2014 évaluations postérieures\"],\"status\":\"HISTORICAL_BOUNDED\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "MANIPULATION_REPORT",
+        "--json",
+        "{\"input_kind\":\"RUN_CARD\",\"mission_mode\":\"GREENFIELD\",\"symbol_stage\":\"CORPUS_FINAL\",\"symbols\":{\"S01\":\"acteur extérieur\",\"S02\":\"financement\",\"S03\":\"formation\",\"S04\":\"ONG\",\"S05\":\"militant\",\"S06\":\"plateforme\",\"S07\":\"information\",\"S08\":\"réseau\",\"S09\":\"tactique\",\"S10\":\"mobilisation\",\"S11\":\"participation\",\"S12\":\"répression\",\"S13\":\"coalition\",\"S14\":\"régime\",\"S15\":\"effet\"},\"patterns\":{\"P01\":\"assistance-to-capacity\",\"P02\":\"training-to-adoption\",\"P03\":\"platform-to-participation\",\"P04\":\"participation-without-outcome-closure\"},\"threats\":[\"support=trigger\",\"funding=control\",\"training=tasking\",\"social media=revolution\",\"participation=regime change\",\"post-hoc aid=pre-event orchestration\"],\"rhetorical\":{\"R01\":\"transformer corrélation en commandement\",\"R02\":\"réduire une coalition à un outil numérique\",\"R03\":\"attribuer l’issue à un mécanisme intermédiaire\"},\"complexity\":{\"band\":\"HIGH\",\"score\":9},\"clusters\":[\"POWER\",\"NETWORK\",\"INFORMATION\",\"TEMPORAL\"],\"implicit\":{\"I01\":\"transfert de capacité peut être réel sans principal commanditaire\",\"I02\":\"outils numériques réduisent des coûts sans déterminer l’issue\",\"I03\":\"chronologie distingue soutien préexistant et réponse post-soulèvement\"},\"speaker\":{\"goal\":\"tester les chaînes externes et numériques des printemps arabes\",\"target\":\"séparer capacité, mobilisation et changement de régime\",\"tone\":\"forensic\"},\"assumptions\":[\"les montants d’aide prouvent une infrastructure mais pas un bénéficiaire particulier\",\"les enquêtes de manifestants identifient participation/logistique mieux que l’issue du régime\",\"les récits organisationnels et journalistiques sur formation exigent un plafond causal\"],\"priorities\":[\"dater aide/formation\",\"identifier bénéficiaire et adoption\",\"mesurer participation\",\"exiger contrefactuel pour issue\"],\"query_guidance\":\"archives publiques, documents de financement, câbles, études académiques; utiliser les récits militants comme preuve bornée de formation/adoption, pas de causalité générale\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "MODULE_EXECUTION",
+        "--json",
+        "[{\"module\":\"clusters/POWER.md\",\"trigger\":\"assistance/diplomatie/régime\",\"reason\":\"séparer capacité, soutien et commandement\",\"input_ids\":[\"FCT-001\",\"FCT-002\",\"FCT-007\",\"FCT-008\",\"FCT-012\"],\"operations_applied\":[\"traced assistance to capacity\",\"tested command/tasking edge\"],\"result_ids\":[\"CLM-001\",\"CLM-003\",\"CAU-001\",\"CAU-005\"],\"negative_results\":[\"no authenticated U.S. command chain to launch uprising\"],\"not_computable\":[\"marginal regime-survival effect of assistance\"],\"gaps\":[\"operational instructions/counterfactual\"],\"status\":\"DONE\"},{\"module\":\"clusters/NETWORK.md\",\"trigger\":\"transnational tactical transfer\",\"reason\":\"distinguish contact/training from coordination\",\"input_ids\":[\"FCT-006\",\"FCT-007\",\"FCT-008\"],\"operations_applied\":[\"mapped trainer-trainee relation\",\"separated adoption from principal-agent control\"],\"result_ids\":[\"CLM-002\",\"CAU-002\"],\"negative_results\":[\"no network-wide tasking established\"],\"not_computable\":[\"full diffusion denominator\"],\"gaps\":[\"participant-level adoption records\"],\"status\":\"DONE\"},{\"module\":\"clusters/INFORMATION.md\",\"trigger\":\"Facebook/social media participation\",\"reason\":\"separate exposure, logistics, participation and outcome\",\"input_ids\":[\"FCT-003\",\"FCT-004\",\"FCT-005\",\"FCT-009\",\"FCT-010\",\"FCT-011\"],\"operations_applied\":[\"tested information/logistics edge\",\"used 2008 failure as negative control\"],\"result_ids\":[\"CLM-004\",\"CLM-005\",\"CAU-003\",\"CAU-004\"],\"negative_results\":[\"online reach not sufficient for street success\"],\"not_computable\":[\"platform counterfactual for regime collapse\"],\"gaps\":[\"randomized/platform outage causal design\"],\"status\":\"DONE\"},{\"module\":\"clusters/TEMPORAL.md\",\"trigger\":\"pre/post uprising assistance claims\",\"reason\":\"prevent post-event response from back-projection\",\"input_ids\":[\"FCT-001\",\"FCT-012\",\"FCT-013\"],\"operations_applied\":[\"ordered pre-2011 aid, 2011 uprising, post-2011 program response\"],\"result_ids\":[\"CLM-001\",\"CLM-006\",\"CAU-005\"],\"negative_results\":[\"post-2011 support cannot prove pre-2011 orchestration\"],\"not_computable\":[\"latent informal pre-event contacts beyond records\"],\"gaps\":[\"dated actor-specific grants/instructions\"],\"status\":\"DONE\"}]"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "SCOPING_REPORT",
+        "--json",
+        "{\"included\":[\"Egypt pre-2011 democracy assistance\",\"April 6/CANVAS transfer\",\"Egypt social-media participation\",\"Tunisia social-media coalition/catalyst\",\"post-2011 aid chronology as control\"],\"excluded\":[\"Libya/Syria military intervention\",\"generic geopolitics\",\"all Arab countries\",\"claims without actor/case chain\"],\"reason\":\"bounded cases with traceable resource/platform mechanisms and explicit controls\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "CREDO",
+        "--json",
+        "{\"rule\":\"prove each edge separately: assistance -> capacity -> adoption -> mobilization -> political outcome\",\"forbidden_shortcuts\":[\"support=trigger\",\"funding=control\",\"training=tasking\",\"social media=revolution\",\"participation=outcome\"]}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "COGNITIVE_MAP",
+        "--json",
+        "{\"chain\":[\"acteur extérieur\",\"ressource/formation\",\"bénéficiaire\",\"adoption\",\"plateforme/information\",\"mobilisation\",\"participation\",\"réaction régime\",\"issue\"],\"rival_models\":[\"endogenous grievance\",\"labor/social coalition\",\"digital facilitation\",\"external capacity support\",\"external orchestration\"]}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "DIALECTICAL_MAP",
+        "--json",
+        "{\"thesis\":\"Assistance occidentale et réseaux transnationaux/numériques ont contribué matériellement aux soulèvements.\",\"antithesis\":\"Les soulèvements partent de griefs et coalitions domestiques; outils et formations ne déterminent ni déclenchement ni issue.\",\"synthesis\":\"Capacités externes, transfert tactique et facilitation numérique sont établis dans des cas bornés; aucune chaîne ne ferme une orchestration externe ou une causalité générale sur la chute des régimes.\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "RESOURCE_FLOW_MAP",
+        "--json",
+        "{\"flows\":[\"US democracy assistance -> civil-society/media capacities in Egypt\",\"CANVAS/Otpor -> tactical training -> April 6 activist\",\"platforms -> information/logistics/amplification\"],\"limits\":[\"funding does not identify tasking\",\"training does not identify command\",\"platform use does not identify regime outcome\"]}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "ACTOR_NETWORK_MAP",
+        "--json",
+        "[{\"from\":\"USAID/State/NED ecosystem\",\"relation\":\"democracy assistance\",\"to\":\"Egypt civil-society/governance programs\",\"support\":[\"FCT-001\",\"FCT-002\"]},{\"from\":\"CANVAS/Otpor trainers\",\"relation\":\"nonviolent tactics training\",\"to\":\"Mohamed Adel / April 6\",\"support\":[\"FCT-006\"]},{\"from\":\"Facebook/social media interpersonal networks\",\"relation\":\"information/logistics\",\"to\":\"Tahrir participants\",\"support\":[\"FCT-003\",\"FCT-004\"]},{\"from\":\"Tunisian digital networks\",\"relation\":\"information/coalition facilitation\",\"to\":\"protest ecosystem\",\"support\":[\"FCT-009\",\"FCT-010\",\"FCT-011\"]}]"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "IMPACT_MAP",
+        "--json",
+        "{\"established\":[\"pre-2011 democracy-assistance infrastructure in Egypt\",\"CANVAS tactical transfer to at least one April 6 activist\",\"social-media facilitation of first-day participation/logistics in Egypt\",\"social-media catalytic/network role in Tunisia\"],\"partial\":[\"extent of U.S.-financed training links to April 6 as an organization\",\"marginal contribution of tactical training to mobilization\"],\"not_established\":[\"U.S. command of January 25 uprising\",\"social media as sole trigger\",\"external assistance as sufficient cause of regime change\"]}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "CONTRADICTION_LEDGER",
+        "--json",
+        "[{\"issue\":\"reports of U.S.-financed training versus lack of authenticated tasking\",\"resolution\":\"retain support-network fact; do not infer command or funding of the uprising\"},{\"issue\":\"large Facebook audience in 2008 but weak street result\",\"resolution\":\"use as direct sufficiency control against online reach = mobilization\"},{\"issue\":\"Tunisia studies call Facebook catalyst while warning against e-revolution myth\",\"resolution\":\"separate information/coalition mechanism from trigger/outcome causality\"},{\"issue\":\"post-2011 U.S./NED response may be mistaken for pre-event design\",\"resolution\":\"enforce temporal ordering; post-event response cannot establish prior orchestration\"}]"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "VERIFICATION_REPORT",
+        "--json",
+        "{\"research_queries\":11,\"sources_fetched\":11,\"facts\":13,\"method\":\"official funding records + diplomatic archive + academic participation studies + bounded training accounts + explicit negative controls\",\"negative_checks\":[\"2008 April 6 Facebook mobilization fizzled outside Mahalla\",\"embassy doubted claimed transition plan\",\"Tunisia e-revolution caution\",\"post-2011 assistance temporal control\"],\"verdict\":\"sufficient for capacity/training/platform facilitation; insufficient for external orchestration or general regime-change causality\"}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "EDI_REPORT",
+        "--json",
+        "{\"source_counts\":{\"A\":2,\"B\":1,\"C\":2,\"D\":1,\"E\":2,\"other:iri\":1,\"other:orbi\":1,\"other:ned\":1},\"edi\":\"DIVERSE_OFFICIAL_ACADEMIC_ARCHIVAL_WITH_CONTESTED_SUPPORT_SEPARATED\",\"dimensions\":[\"funding\",\"diplomatic contact\",\"training transfer\",\"platform participation\",\"Tunisia coalition\",\"temporal control\"],\"corpus\":\"11 accepted sources across 9 provenance families\",\"decisive_claim_coverage\":[{\"claim\":\"CLM-001\",\"families\":[\"A\"]},{\"claim\":\"CLM-002\",\"families\":[\"C\"]},{\"claim\":\"CLM-003\",\"families\":[\"A\",\"D\",\"other:iri\"]},{\"claim\":\"CLM-004\",\"families\":[\"B\",\"C\"]},{\"claim\":\"CLM-005\",\"families\":[\"E\",\"other:orbi\"]},{\"claim\":\"CLM-006\",\"families\":[\"A\",\"B\",\"C\",\"E\",\"other:orbi\"]}],\"diagnostic_not_truth\":true}"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "RESPONSIBILITY_MAP",
+        "--json",
+        "[{\"actor\":\"U.S. democracy-assistance institutions\",\"documented_action\":\"financed democracy/civil-society/media programs in Egypt before 2011\",\"intent\":\"PROVEN\",\"scope\":\"capacity support; uprising tasking not established\",\"support\":[\"FCT-001\",\"FCT-002\"]},{\"actor\":\"CANVAS/Otpor network\",\"documented_action\":\"trained at least one April 6 activist in nonviolent organizing tactics\",\"intent\":\"PROVEN\",\"scope\":\"training transfer; regime-change causality not established\",\"support\":[\"FCT-006\"]},{\"actor\":\"social-media networks\",\"documented_action\":\"facilitated information/logistics and were associated with early protest participation\",\"intent\":\"N/A\",\"scope\":\"mechanism of communication/coordination, not intentional principal\",\"support\":[\"FCT-003\",\"FCT-004\",\"FCT-009\",\"FCT-010\"]},{\"actor\":\"domestic protest coalitions\",\"documented_action\":\"converted grievances/networks into street mobilization under repression\",\"intent\":\"PARTIAL\",\"scope\":\"domestic causal structure incompletely measured here\",\"support\":[\"FCT-005\",\"FCT-011\"]}]"
+      ]
+    },
+    {
+      "cmd": "set-section",
+      "args": [
+        "--name",
+        "NEXT_QUERIES",
+        "--json",
+        "[\"To close external orchestration, require authenticated instructions tying a funder/state to launch timing, operational plan and beneficiary compliance.\",\"To estimate platform causal effect, seek exogenous outages or stronger quasi-experimental variation linked to protest participation and outcome.\",\"For synthesis, retain capacity/training/platform mechanisms separately from trigger and regime-change claims.\"]"
+      ]
+    },
+    {
+      "cmd": "checkpoint",
+      "args": [
+        "--label",
+        "CAUSAL",
+        "--last-completed",
+        "11",
+        "--next-action",
+        "VERIFY"
+      ]
+    },
+    {
+      "cmd": "checkpoint",
+      "args": [
+        "--label",
+        "VERIFY",
+        "--last-completed",
+        "13",
+        "--next-action",
+        "INVESTIGATION_ACCOUNTABILITY"
+      ]
+    },
+    {
+      "cmd": "checkpoint",
+      "args": [
+        "--label",
+        "INVESTIGATION_ACCOUNTABILITY",
+        "--last-completed",
+        "17",
+        "--next-action",
+        "FINALIZE"
+      ]
+    },
+    {
+      "cmd": "assert-counts",
+      "args": [
+        "--json",
+        "{\"AXS\":3,\"CLM\":6,\"CAU\":5,\"CTRL\":5}"
+      ]
+    },
+    {
+      "cmd": "set-gates",
+      "args": [
+        "--json",
+        "{\"G0\":\"PASS\",\"G1\":\"PASS\",\"G2\":\"PASS\",\"G3\":\"PASS\",\"G4\":\"PASS\",\"G5\":\"PASS\",\"G6\":\"PASS\",\"G7\":\"PASS\",\"G8\":\"PASS\",\"G9\":\"PASS\",\"G10\":\"PASS\"}"
+      ]
+    },
+    {
+      "cmd": "mark-final",
+      "args": []
+    }
+  ]
+}

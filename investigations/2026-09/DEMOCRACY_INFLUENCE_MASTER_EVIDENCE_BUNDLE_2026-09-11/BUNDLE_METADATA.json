@@ -1,0 +1,23 @@
+{
+  "bundle": "DEMOCRACY_INFLUENCE_MASTER_EVIDENCE_BUNDLE_2026-09-11",
+  "created_utc": "2026-09-11T14:33:05.421045+00:00",
+  "registry_rows": 147,
+  "closed_rows": 121,
+  "completeness_all": {
+    "PARTIAL_MACHINE_ARTIFACTS": 81,
+    "NO_ARTIFACT_RECOVERED": 26,
+    "HANDOFF_OR_DERIVED_ONLY": 27,
+    "CANONICAL_6_COMPLETE": 13
+  },
+  "completeness_closed": {
+    "PARTIAL_MACHINE_ARTIFACTS": 81,
+    "HANDOFF_OR_DERIVED_ONLY": 27,
+    "CANONICAL_6_COMPLETE": 13
+  },
+  "manifest_files": 3612,
+  "kernel_sha256": "d113e3bd1848805bc3dbf1485eb1107a5767ebe74efd0cf27b601e01db278d30",
+  "notes": [
+    "No missing artifact was fabricated",
+    "Normalized layer deduplicates by SHA only; raw archives are preserved"
+  ]
+}

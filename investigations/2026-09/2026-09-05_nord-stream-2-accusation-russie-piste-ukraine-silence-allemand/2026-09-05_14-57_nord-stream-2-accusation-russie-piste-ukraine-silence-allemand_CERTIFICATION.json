@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:3a844cdf017a074b999b0f42036e2c7e22d3ce97253296234091202a2c55c144",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand/2026-09-05_14-57_nord-stream-2-accusation-russie-piste-ukraine-silence-allemand_INVESTIGATION.md",
+  "deliverable_sha256": "9afa7127b76698e1725de708f8210a5755db93634e88a67af472027fa8d1a46f",
+  "created_at": "2026-09-05T15:04:09.896921+00:00"
+}

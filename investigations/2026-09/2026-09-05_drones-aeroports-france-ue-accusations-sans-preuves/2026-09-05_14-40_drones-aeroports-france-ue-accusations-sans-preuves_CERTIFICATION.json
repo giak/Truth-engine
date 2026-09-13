@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:e9ec8a7a5620dc0ea39db815b23882399a06f34914cf77203d6f0a3e86f3443a",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_drones-aeroports-france-ue-accusations-sans-preuves/2026-09-05_14-40_drones-aeroports-france-ue-accusations-sans-preuves_INVESTIGATION.md",
+  "deliverable_sha256": "ae710c90077a5f1740ee84e85fd04a993df9484c7c010843bedb456b75f3d3ac",
+  "created_at": "2026-09-05T14:38:41.517142+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:8db42976ae88d02494b4f46cacb3bd5c8b7a8e0e45b6b989dc88875b5c6ec0e0",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-08_platform-visibility-friction/2026-09-08_09-42_platform-visibility-friction_INVESTIGATION.md",
+  "deliverable_sha256": "aea48fd87b58f1e731c8a22934b641e43ac7d82ac257b808490e4abf03e8e48b",
+  "created_at": "2026-09-08T08:22:08.633440+00:00"
+}

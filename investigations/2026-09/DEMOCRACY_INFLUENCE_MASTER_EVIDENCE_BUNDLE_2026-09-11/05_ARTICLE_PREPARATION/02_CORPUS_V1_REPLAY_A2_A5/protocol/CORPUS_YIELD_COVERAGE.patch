@@ -1,0 +1,65 @@
+--- ARTICLE_PROTOCOL_C2
++++ ARTICLE_PROTOCOL_C2R1
+@@ -3,7 +3,7 @@
+   id: ARTICLE_PROTOCOL
+   type: protocol
+   title: ARTICLE PROTOCOL - Protocole runtime vivant
+-  status: c2_experiment_no_go_value
++  status: c2r1_corpus_yield_guard_candidate
+ foundation:
+   ref: FOUNDATION.yml
+ summary: >
+@@ -47,6 +47,7 @@
+ 8. Une synthèse multi-investigations doit préserver les relations matérielles qui n'existent que dans le croisement des runs ; `N_INVESTIGATIONS != ONE_BIG_SUMMARY`.
+ 9. Avant prose longue, A3 rend explicites les choix matériels de l'auteur que la prose n'a pas le droit d'inventer : sujet réel, question/thèse, tension, découvertes/mécanismes indispensables, coupes, intention de progression et conclusion probable bornée.
+ 10. A4 construit depuis la décision éditoriale **et** le rendement investigatif préservé. Un article exact, traçable mais presque reproductible par recherche superficielle reste un FAIL produit.
++11. Pour une synthèse multi-investigations, préserver les dimensions ne suffit pas : chaque investigation de fond éligible doit être disposée explicitement comme contribution directe, contribution via une famille matérielle, exclusion matériellement justifiée ou gap explicite. `DIMENSION_COVERAGE != CORPUS_YIELD_COVERAGE`.
+ 
+ ## 2. STORY_CONTROL_DEFAULTS
+ 
+@@ -1032,6 +1033,28 @@
+ 
+ `EXCLUDE_WITH_MATERIAL_JUSTIFICATION` exige une raison explicite montrant que l'exclusion ne change pas matériellement la compréhension de l'objet ou de la contribution retenue.
+ 
++### Garde de rendement corpus multi-investigations
++
++Cette garde ne s'active que lorsque la promesse éditoriale prétend exploiter un corpus composé de plusieurs investigations de fond. Elle n'impose ni quota de citations, ni section par dossier, ni égalité de poids.
++
++```text
++INVESTIGATION_DE_FOND_ÉLIGIBLE
++-> DIRECT_MATERIAL_USE
++   OU
++-> COVERED_BY_MATERIAL_FAMILY
++   OU
++-> EXCLUDE_WITH_MATERIAL_JUSTIFICATION
++   OU
++-> GAP_EXPLICIT
++
++DIMENSION_COVERAGE != CORPUS_YIELD_COVERAGE
++SYNTHESIS / CONTROL != INDEPENDENT_CASE_EVIDENCE
++```
++
++`CORPUS_YIELD_COVERAGE = PASS` seulement si toutes les investigations de fond éligibles ont une disposition explicite et si les résultats distinctifs des familles matérielles qui changent l'explication survivent au contrat. `COVERED_BY_MATERIAL_FAMILY` exige que le rendement propre du dossier soit réellement représenté par le mécanisme/famille conservé, pas seulement qu'un thème voisin soit mentionné.
++
++Un dossier matériellement inaccessible reste `GAP_EXPLICIT`; il n'est jamais reconstruit pour obtenir 100 %.
++
+ ### Invariants de sélection R2/R3
+ 
+ ```text
+@@ -1573,6 +1596,16 @@
+ 
+ Un article exact et traçable doit encore échouer si son rendement d'enquête a été aplati au point qu'une recherche superficielle aurait produit presque le même texte.
+ 
++Pour une synthèse multi-investigations, A5 teste séparément :
++
++```text
++EXPLANATORY_DIMENSIONS_SURVIVE
++CORPUS_YIELD_COVERAGE
++FAMILY_DISTINCTIVE_RESULTS_SURVIVE
++```
++
++Le premier PASS ne compense jamais l'échec des deux suivants. A5 compare la production au registre de disposition A3 : toute investigation éligible absente sans justification, toute famille matérielle aplatie ou tout `GAP_EXPLICIT` silencieusement comblé est au minimum P1, P0 si cela change la thèse.
++
+ <!-- NODE: PROTOCOL.A5-S02 -->
+ <!-- TRACE: IMPLEMENTS=STORY.A5-S02 -->
+ ## A5-S02 - Classer les défauts

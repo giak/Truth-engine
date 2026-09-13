@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:a96a2a66d6abb8cfc32f6daefbfbbbfa17383542a91c05de6e3356266c0598d2",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-06_corruption-etrangere-ue/2026-09-06_20-25_corruption-etrangere-ue_INVESTIGATION.md",
+  "deliverable_sha256": "64e654d0ae7a34168c47b47234757787ff91295c1655b37c526478857f3cc899",
+  "created_at": "2026-09-06T18:44:38.411306+00:00"
+}

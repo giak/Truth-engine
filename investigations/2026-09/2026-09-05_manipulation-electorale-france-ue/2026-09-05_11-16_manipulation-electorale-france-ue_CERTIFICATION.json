@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:a49f43a9ab75a597b824a8b0051dc7eef72a566c8f87fe12683077b1c444c350",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_manipulation-electorale-france-ue/2026-09-05_11-16_manipulation-electorale-france-ue_INVESTIGATION.md",
+  "deliverable_sha256": "0af5a86a5f5d0cb5db0204702d988fa94f183472af4f0cd1296d6363aa154969",
+  "created_at": "2026-09-05T09:24:41.242340+00:00"
+}

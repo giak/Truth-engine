@@ -1,0 +1,93 @@
+--- ARTICLE_DRAFT_V1.md	2026-09-11 11:39:27.844741468 +0000
++++ ARTICLE_DRAFT_V2.md	2026-09-11 11:41:37.747498176 +0000
+@@ -6,7 +6,7 @@
+ 
+ Au départ, la question semblait simple : **qui influence qui, par quels moyens, et avec quel effet ?**
+ 
+-À l’arrivée, le résultat le plus robuste n’est pas une liste de coupables. C’est une fracture qui revient dossier après dossier : **l’opération est souvent observable ; l’effet terminal beaucoup moins.**
++À l’arrivée, le résultat le plus robuste n’est pas une liste de coupables. C’est une fracture que les synthèses terminales retrouvent dans des familles de mécanismes différentes : **l’opération et ses conditions amont sont souvent mieux documentées que l’effet politique terminal.**
+ 
+ On peut documenter un financement. Un accès. Une campagne. Un faux média. Un réseau de comptes. Un contact. Une sélection éditoriale. Une sanction. Une exfiltration de données. Un classement algorithmique. Une contribution à un texte. Une audience parfois. Mais entre cela et « les citoyens ont été persuadés », « la décision a été capturée », « le vote a changé » ou « le système est piloté », il reste des flèches. Et ces flèches exigent chacune leur propre preuve.
+ 
+@@ -40,7 +40,7 @@
+ EFFET POLITIQUE CONTREFACTUEL
+ ```
+ 
+-Les 121 dossiers ne ferment pas chaque étage avec la même fréquence. C’est même l’inverse : **plus on descend vers l’effet politique terminal, plus la preuve devient rare.**
++Les étages de cette chaîne ne sont pas fermés avec la même solidité. Dans les synthèses transversales, les niveaux amont — identité, ressources, accès, action et parfois exposition — sont mieux établis que les niveaux aval de persuasion, de comportement et de résultat contrefactuel.
+ 
+ Cette asymétrie n’est pas une preuve que « l’influence ne marche pas ». Elle dit quelque chose de plus précis : les mécanismes amont sont beaucoup plus observables que les changements de croyance, de comportement ou de résultat qu’on leur attribue ensuite.
+ 
+@@ -94,13 +94,13 @@
+ 
+ Ce cas ne prouve pas l’innocence générale des financements publics. Il montre que les catégories « subvention », « action humanitaire » et « activité politique » peuvent être juridiquement séparées et contrôlées. Ce genre de contre-exemple compte, parce qu’il empêche le modèle de devenir infalsifiable.
+ 
+-La conclusion transversale est plus solide que le raccourci initial : **le financement façonne l’espace des capacités et des agendas beaucoup plus souvent qu’il ne permet de prouver un commandement direct.**
++La conclusion transversale est plus solide que le raccourci initial : **dans les synthèses pertinentes, le lien `financement → capacité / agenda / accès` est établi ou soutenu, tandis qu’un commandement direct du financeur n’est pas établi transversalement.**
+ 
+ ## 4. Les intermédiaires ne sont pas neutres, mais ils ne forment pas automatiquement une chaîne de commandement
+ 
+ Entre celui qui possède une ressource et celui qui prend une décision, il existe une population d’intermédiaires : experts, cabinets de conseil, think tanks, groupes d’experts, ONG, journalistes, fact-checkers, certificateurs, cabinets de relations publiques, plateformes.
+ 
+-Le corpus ferme régulièrement la chaîne suivante :
++Plusieurs synthèses ferment, dans des secteurs différents, la chaîne suivante :
+ 
+ ```text
+ ressources
+@@ -220,9 +220,9 @@
+ 
+ Des juridictions valident certaines mesures et en annulent d’autres. Des conseils constitutionnels ou administratifs bornent des dispositifs. Des organisations financées critiquent parfois leurs financeurs ou partenaires. Des plateformes renversent certaines décisions. Des groupes d’experts sont hétérogènes. Des politiques sont réécrites après consultation au lieu d’être reprises telles quelles. Des opérations d’influence échouent ou restent invisibles. Des campagnes de persuasion produisent des effets faibles, nuls ou contradictoires selon les contextes.
+ 
+-Ces éléments ne prouvent pas que le système est équilibré. Ils prouvent quelque chose d’autre : **le pouvoir rencontré dans les enquêtes est contraint, distribué et contestable.**
++Ces éléments ne prouvent pas que le système est équilibré. Ils suffisent en revanche à interdire un modèle dans lequel le pouvoir observé serait partout sans recours, sans revers et sans autonomie concurrente. **Les contre-pouvoirs font partie du tableau probatoire ; leur efficacité agrégée, elle, n’est pas mesurée.**
+ 
+-C’est pourquoi le modèle du « pluralisme pur » ne suffit pas non plus. Les ressources, l’accès, la visibilité et l’expertise sont répartis de manière inégale. Certains acteurs peuvent payer des cabinets, produire des études, financer des campagnes, engager des juristes, occuper des espaces médiatiques, accéder aux décideurs ou supporter des années de contentieux quand d’autres ne le peuvent pas.
++C’est pourquoi le modèle du « pluralisme pur » ne suffit pas non plus. Des asymétries de ressources, d’accès, de visibilité et d’expertise sont établies dans plusieurs familles de dossiers. Certains acteurs disposent de capacités que d’autres n’ont pas : payer des cabinets, produire des études, financer des campagnes, engager des juristes, occuper durablement des arènes médiatiques ou institutionnelles, ou supporter des années de contentieux.
+ 
+ Mais l’inégalité des capacités n’est pas la même proposition que l’omnipotence.
+ 
+@@ -252,7 +252,7 @@
+ 
+ C’est ce dernier point qui compte. Une cohérence apparente n’exige pas toujours une coordination cachée. Elle peut émerger de structures communes.
+ 
+-Le modèle prédit alors exactement ce que l’on observe : des convergences et des conflits ; des dominations sectorielles et des revers ; des coopérations et des autonomies ; des effets puissants en amont et hétérogènes en aval.
++Ce modèle est compatible avec le tableau observé et l’explique sans postuler un centre unique : convergences et conflits ; dominations ou captures sectorielles et revers ; coopérations et autonomies ; mécanismes amont bien documentés et effets aval hétérogènes ou non fermés.
+ 
+ ## 11. Le pouvoir politique le plus robuste n’est peut-être pas celui qui change directement les opinions
+ 
+@@ -290,7 +290,7 @@
+ 
+ Cette grille permet de distinguer des catégories que le débat public mélange souvent.
+ 
+-La participation démocratique et le lobbying sont généralement visibles, déclarés ou encadrés, même si les ressources y sont inégales. La propagande cherche à orienter des perceptions et peut être ouverte. La manipulation ajoute typiquement tromperie, dissimulation ou exploitation d’un biais. La corruption implique un échange indu. La coercition modifie le comportement par menace ou coût. La capture suppose qu’un acteur obtienne une capacité durable d’orienter une décision ou une institution au-delà d’un accès ordinaire. L’ingérence étrangère devient la catégorie la plus exigeante lorsqu’elle combine implication étrangère et mécanisme de manipulation, dissimulation, contrainte ou intervention illégitime dans un processus politique.
++Pour cette analyse, il faut d’abord distinguer les formes ouvertes et encadrées — par exemple lobbying enregistré, diplomatie publique ou participation institutionnelle — des mécanismes trompeurs, clandestins ou coercitifs. La propagande peut être ouverte ; la manipulation ajoute une composante de tromperie, de dissimulation ou d’exploitation ; la corruption suppose un avantage indu lié à l’exercice d’une fonction ou d’une décision ; la coercition agit par menace, coût ou restriction ; la capture désigne ici une capacité durable à orienter une décision ou une institution au-delà d’un simple accès. Quant à l’« ingérence étrangère », je ne l’utilise pas comme synonyme de toute influence venue de l’extérieur : sa qualification dépend du droit applicable et, analytiquement, des arêtes effectivement établies — implication étrangère, mode opératoire, tasking éventuel, clandestinité ou tromperie, cible, portée et effet.
+ 
+ Ce cadre ne rend pas les frontières triviales. Il les rend falsifiables.
+ 
+@@ -325,7 +325,7 @@
+ 
+ Le modèle polycentrique n’est pas une conclusion protégée contre les faits. Au contraire, il indique les preuves qui pourraient le faire tomber.
+ 
+-Si une architecture intégrée de commandement existe, on devrait pouvoir retrouver de façon répétée :
++Pour promouvoir une architecture intégrée de commandement au-dessus du modèle polycentrique avec des preuves publiques, il faudrait retrouver de façon répétée :
+ 
+ - un même centre, ou un réseau restreint, donnant des instructions authentifiées dans plusieurs secteurs ;
+ - des chaînes de tasking comparables reliant financeurs, institutions, médias, plateformes ou ONG ;
+@@ -343,7 +343,7 @@
+ - des séries temporelles comparables à effort de détection constant ;
+ - des datasets appariés pour tester les asymétries géopolitiques à mécanisme et preuve équivalents.
+ 
+-Autrement dit, le programme n’atteint pas une frontière documentaire. Il atteint une frontière méthodologique.
++Autrement dit, le programme atteint une frontière qui est à la fois documentaire et méthodologique : certaines arêtes exigent des pièces internes encore absentes ; d’autres ne peuvent être fermées sans dénominateurs, séries longitudinales ou designs causaux plus forts.
+ 
+ Accumuler de nouveaux noms, de nouveaux réseaux ou de nouvelles captures d’écran apportera de moins en moins. Les progrès suivants nécessitent de meilleures expériences, de meilleurs dénominateurs et des pièces internes capables de fermer les arêtes qui restent ouvertes.
+ 
+@@ -355,7 +355,7 @@
+ 
+ Ce que les preuves montrent le mieux est plus concret.
+ 
+-Des acteurs disposent de ressources très inégales. Ces ressources deviennent des capacités. Les capacités ouvrent ou ferment des accès. Des intermédiaires transforment l’accès en expertise, visibilité, conseil ou action. Des institutions, plateformes et juridictions imposent des règles, des coûts et des sanctions. Des opérations clandestines existent. Des coordinations locales existent. Des captures sectorielles peuvent exister. Des contre-pouvoirs existent aussi.
++Des acteurs disposent de ressources très inégales. Ces ressources deviennent des capacités. Les capacités ouvrent ou ferment des accès. Des intermédiaires transforment l’accès en expertise, visibilité, conseil ou action. Des institutions, plateformes et juridictions imposent des règles, des coûts et des sanctions. Des opérations clandestines existent. Des coordinations locales sont documentées. Certaines captures ou dépendances sectorielles sont établies dossier par dossier ou restent partielles à l’échelle systémique. Des contre-pouvoirs existent aussi.
+ 
+ Puis, à un certain point, la preuve se raréfie.
+ 

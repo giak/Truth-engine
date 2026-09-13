@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:093b2c537e935c2e419820ef6e36bc78022b45442f71dce4d655e7b339e4d08e",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_vague3-elevation-faits-non-confirmes-restants/2026-09-05_13-47_vague3-elevation-faits-non-confirmes-restants_INVESTIGATION.md",
+  "deliverable_sha256": "430813d3aa8fdbb8e1d282fd642f2ec493daa5f60dd97c021889a620ad9b9e2a",
+  "created_at": "2026-09-05T13:53:10.560637+00:00"
+}

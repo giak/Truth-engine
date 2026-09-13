@@ -1,0 +1,111 @@
+{
+  "trace_schema": "forensic-json/v1",
+  "project": "democracy-influence-investigations",
+  "artifact_type": "program_snapshot",
+  "artifact_id": "PROGRAM-SNAPSHOT-2026-09-07-1916",
+  "version": "1.0-kiss",
+  "status": "snapshot",
+  "generated_at": "2026-09-07T19:16:00+02:00",
+  "canonical_state_source": "INVESTIGATION_REGISTRY.csv",
+  "registry_is_state_source": true,
+  "certified_run_artifacts_modified": false,
+  "state": {
+    "total": 146,
+    "status_counts": {
+      "CLOSED": 33,
+      "BACKLOG": 87,
+      "MERGED": 6,
+      "BLOCKED": 12,
+      "DEFERRED": 1,
+      "CONDITIONAL": 7
+    },
+    "closed_truth_engine_counts": {
+      "N/A_STRUCTURAL": 1,
+      "N/A_CORPUS_MAPPING": 1,
+      "N/A_METHOD": 6,
+      "DELIVERY_PASS_R2A2": 4,
+      "DELIVERY_PASS_R3": 1,
+      "DELIVERY_PASS_R3P1": 19,
+      "NOT_RUN": 1
+    },
+    "ready": [],
+    "te_active": [],
+    "next_gate": "RECLASSIFICATION_POST_INV-093_REQUIRED"
+  },
+  "synthesis_dependency_watch": {
+    "INV-095": {
+      "status": "BLOCKED",
+      "open_direct_dependencies": [
+        "INV-094",
+        "INV-119"
+      ]
+    },
+    "INV-102": {
+      "status": "BLOCKED",
+      "open_direct_dependencies": [
+        "INV-095",
+        "INV-098",
+        "INV-099"
+      ]
+    },
+    "INV-129": {
+      "status": "BLOCKED",
+      "open_direct_dependencies": [
+        "INV-080",
+        "INV-124"
+      ]
+    },
+    "INV-144": {
+      "status": "BLOCKED",
+      "open_direct_dependencies": [
+        "INV-045",
+        "INV-078",
+        "INV-079"
+      ]
+    },
+    "INV-133": {
+      "status": "BLOCKED",
+      "open_direct_dependencies": [
+        "INV-038",
+        "INV-040",
+        "INV-052",
+        "INV-068",
+        "INV-082",
+        "INV-088",
+        "INV-095",
+        "INV-102",
+        "INV-104",
+        "INV-129",
+        "INV-144"
+      ]
+    }
+  },
+  "forensic_export": {
+    "path": "DEMOCRACY_INFLUENCE_ALL_INVESTIGATIONS_2026-09-07.zip",
+    "sha256": "b2fec50e9cdd5e18806a96cdc7682b3fa23a917af6abe939ecafa1d0a590779f",
+    "closed_coverage": "33/33",
+    "limitations": [
+      "INV-139 recovery handoff only",
+      "INV-140 recovery handoff only",
+      "INV-138 reconstructed from canonical individual artifacts"
+    ]
+  },
+  "source_hashes": {
+    "registry": "c98100a2c1383379d5a03774d39668b5b4b90676ae3c512e5bdcf5048eacaeef",
+    "tracelog": "7e7a51c5e51a09be7fb369d9035a4ac93108bf1f79e81379417401a6bdd7c230",
+    "dashboard": "8ee2a561def3822ea330bddf9f2eb68d1bd5511279af71768a177ae5f502d400",
+    "readme": "9ed30eae2b7d887aa43f2ab12d59fc83c6505288b0007311eb09f8c249407ebc",
+    "routing_policy": "821eb38462c5110d680fa99473bf88ca2fde3a43ab60c79696f52fadd6dadc8f",
+    "control_py": "4fc0bbca48f57f6a4afeb08b8969da47bb4f5f25270f2f4e4a28ce93f8bbc738",
+    "analytic_point": "7db61e2e27f9635e5a6a32fd1376fd12b059bb42d1b53e3bb485e292e4f4138b",
+    "closed_index": "f50501e0ccc54774b57b36d60a07e6828efb14012ec2ca9029e74232fd4af933",
+    "consolidated_export": "b2fec50e9cdd5e18806a96cdc7682b3fa23a917af6abe939ecafa1d0a590779f"
+  },
+  "invariants": [
+    "registry_is_state_source",
+    "derived_snapshots_noncanonical",
+    "one_READY_or_TE_ACTIVE_max",
+    "certified_runs_immutable_without_logged_recovery",
+    "reclassify_before_launch"
+  ]
+}

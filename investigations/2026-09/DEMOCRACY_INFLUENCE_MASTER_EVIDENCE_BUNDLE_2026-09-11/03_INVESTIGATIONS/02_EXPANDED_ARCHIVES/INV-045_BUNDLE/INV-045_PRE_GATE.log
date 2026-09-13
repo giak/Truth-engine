@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:4e73db7cd8497cc945d16d65f3c0b914bece21e085bce440bba9490f6e639831",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "pre",
+  "deliverable": "investigations/2026-09/2026-09-07_efcsn-factcheck-access/2026-09-07_22-47_efcsn-factcheck-access_INVESTIGATION.md",
+  "deliverable_sha256": "ea8bcd5b646657a1ce1499371420c465cc784b69787dbd6cf45b6f8ab0134721",
+  "created_at": "2026-09-07T21:24:17.037196+00:00"
+}

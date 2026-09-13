@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-09-11",
+  "corpus": "FORENSIC_CORPUS_V1",
+  "a2": "PASS_WITH_EXPLICIT_GAP",
+  "a3": "PASS",
+  "corpus_yield_coverage": "PASS_100_OF_100_DISPOSED",
+  "usable_primary_case": "99_OF_100",
+  "explicit_gap": ["INV-035"],
+  "bounded_recoveries": ["INV-044", "INV-139", "INV-140"],
+  "a4_s02": "PASS",
+  "a4_s03": "PASS_AFTER_LOCAL_REPAIR",
+  "a4_s04": "PASS",
+  "reader_factual_paragraphs": 52,
+  "reader_factual_source_coverage": "52_OF_52",
+  "reader_unique_sources": 70,
+  "a5_p0_open": 0,
+  "a5_p1_open": 0,
+  "a5_p2_open": 1,
+  "a5_terminal": "PUBLISH_CANDIDATE",
+  "a7": "NOT_RUN",
+  "next": "A7_COLD_AUDIT"
+}

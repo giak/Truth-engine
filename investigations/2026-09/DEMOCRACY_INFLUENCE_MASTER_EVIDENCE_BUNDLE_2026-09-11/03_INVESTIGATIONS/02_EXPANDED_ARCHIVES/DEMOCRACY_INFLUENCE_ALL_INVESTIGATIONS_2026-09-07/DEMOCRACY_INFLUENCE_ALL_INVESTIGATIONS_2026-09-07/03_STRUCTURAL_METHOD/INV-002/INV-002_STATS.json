@@ -1,0 +1,37 @@
+{
+  "articles": 121,
+  "relevance": {
+    "DIRECT": 71,
+    "SUPPORTING": 36,
+    "CONTEXT": 14
+  },
+  "reuse": {
+    "ANCHOR_RECHECK_MATERIAL": 8,
+    "LEAD_REVERIFY": 63,
+    "SUPPORT_RECHECK": 36,
+    "CONTEXT_ONLY": 14
+  },
+  "posture": {
+    "CALIBRATED": 2,
+    "ASSERTIVE": 71,
+    "MIXED": 48
+  },
+  "trace": {
+    "RICH": 61,
+    "MEDIUM": 9,
+    "NONE_IN_EXPORT": 49,
+    "SPARSE": 2
+  },
+  "coverage": {
+    "SUBSTANTIAL_PRIOR": 42,
+    "PARTIAL": 73,
+    "NEW": 9
+  },
+  "actions": {
+    "CLOSE": 1,
+    "COMPLETE": 1,
+    "DEEPEN": 81,
+    "RECHECK": 40,
+    "DEFER": 1
+  }
+}

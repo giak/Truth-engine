@@ -1,0 +1,144 @@
+# Sources lecteur — A4-S02 V3
+
+Couche de sources publique locale reconstruite à partir des sources originales Truth Engine et de récupérations ciblées. Une présence ici ne crée aucune corroboration indépendante supplémentaire.
+
+- **[S01]** National Archives — Senate staff report: Covert Action in Chile, 1963-1973. https://www.archives.gov/declassification/iscap/pdf/2010-009  
+  Origine: `INV-010 targeted recovery`; provenance: `TARGETED_WEB_RECOVERY`.
+- **[S02]** Church Committee Final Report Book I. https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-i.pdf  
+  Origine: `INV-011/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S03]** FBI Vault COINTELPRO index. https://vault.fbi.gov/cointel-pro  
+  Origine: `INV-012/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S04]** Soviet Active Measures Special Report No. 88. https://www.cia.gov/readingroom/docs/CIA-RDP84B00274R000100040004-8.pdf  
+  Origine: `INV-013/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S05]** U.S. GAO — Democracy Assistance (2009). https://www.gao.gov/products/gao-09-993  
+  Origine: `INV-016/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S06]** YaleGlobal — Revolution U. https://archive-yaleglobal.yale.edu/content/revolution-u  
+  Origine: `INV-016/SRC-004`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S07]** FTC sues Cambridge Analytica. https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-sues-cambridge-analytica-settles-former-ceo-app-developer  
+  Origine: `INV-017/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S08]** Experimental Results Brexit targeting/tailoring. https://www.cambridge.org/core/journals/experimental-results/article/evidence-of-psychological-targeting-but-not-psychological-tailoring-in-political-persuasion-around-brexit/55AFE19E5B1AC95BA4E02DC2DFDF25FC  
+  Origine: `INV-017/SRC-015`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S09]** Russian Active Measures Campaigns and Interference in the 2016 U.S. Election. https://www.intelligence.senate.gov/2020/08/18/publications-report-select-committee-intelligence-united-states-senate-russian-active-measures/  
+  Origine: `INV-013/SRC-007`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S10]** National Endowment for Democracy — Grants program. https://www.ned.org/apply-for-grant/en/  
+  Origine: `INV-019 targeted recovery`; provenance: `TARGETED_WEB_RECOVERY`.
+- **[S11]** CPC United Front Work Regulations. https://www.zytzb.gov.cn/zytzb/2022-10/28/article_2024032216161421608.shtml  
+  Origine: `INV-025/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S12]** HATVP fiche ELNET France. https://www.hatvp.fr/fiche-organisation/?organisation=531006237  
+  Origine: `INV-027/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S13]** FEC — AIPAC PAC committee overview. https://www.fec.gov/data/committee/C00797670/  
+  Origine: `INV-028/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S14]** The Dirty Secrets of a Smear Campaign. https://www.newyorker.com/magazine/2023/04/03/the-dirty-secrets-of-a-smear-campaign  
+  Origine: `INV-033/SRC-002`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S15]** Einfluss der Türkei auf Diaspora. https://www.bundestag.de/webarchiv/presse/hib/2017_10/529360-529360  
+  Origine: `INV-036/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S16]** Lutte contre les influences étrangères malveillantes. https://www.senat.fr/rap/r23-739-1/r23-739-1_mono.html  
+  Origine: `INV-130/SRC-003`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S17]** De l'Islam en France à un Islam de France - financement par l'Algérie. https://www.senat.fr/rap/r15-757/r15-7579.html  
+  Origine: `INV-131/SRC-002`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S18]** Feuille de route de l influence. https://www.diplomatie.gouv.fr/fr/le-ministere/publications-programmes-et-documentation-institutionnelle/publications/documents-institutionnels/feuille-de-route-de-l-influence  
+  Origine: `INV-138/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S19]** Ordinary legislative procedure - Overview. https://www.europarl.europa.eu/olp/en/ordinary-legislative-procedure/overview  
+  Origine: `INV-039/SRC-006`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S20]** Regulation (EU) 2022/2065 - Digital Services Act. https://eur-lex.europa.eu/legal-content/EN-FR/TXT/?uri=CELEX%3A32022R2065  
+  Origine: `INV-043/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S21]** Trusted flaggers under the Digital Services Act. https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa  
+  Origine: `INV-043/SRC-004`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S22]** European Commission — €5m grant under European Democracy Shield. https://digital-strategy.ec.europa.eu/en/news/commission-boosts-independent-fact-checking-eu5-million-grant-under-european-democracy-shield  
+  Origine: `INV-045/SRC-004`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S23]** Why the EU adopts sanctions. https://www.consilium.europa.eu/en/policies/why-sanctions/  
+  Origine: `INV-047/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S24]** Belgian Federal Prosecutor Qatargate procedural review. https://www.om-mp.be/sites/default/files/media/documents/Persbericht-20-02-2026.pdf  
+  Origine: `INV-136/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S25]** Open Society Foundations — Financials. https://www.opensocietyfoundations.org/who-we-are/financials  
+  Origine: `INV-049/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S26]** Sénat — suite à enquête Cour des comptes sur associations immigration/intégration. https://www.senat.fr/rap/r24-326/r24-3262.html  
+  Origine: `INV-053/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S27]** Subvention à SOS Méditerranée - conditions. https://www.conseil-etat.fr/fr/arianeweb/CE/analyse/2024-05-13/474652  
+  Origine: `INV-054/SRC-005`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S28]** Sénat inquiry - consultants and public decision. https://www.senat.fr/rap/r21-578-1/r21-578-114.html  
+  Origine: `INV-062/SRC-003`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S29]** Industry sponsorship and research outcome. https://pubmed.ncbi.nlm.nih.gov/30132025/  
+  Origine: `INV-066/SRC-008`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S30]** The Influence of Industry Sponsorship on the Research Agenda. https://pubmed.ncbi.nlm.nih.gov/30252531/  
+  Origine: `INV-066/SRC-009`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S31]** Service d’information du Gouvernement — missions. https://www.info.gouv.fr/organisation/service-d-information-du-gouvernement-sig/les-raisons-detre-du-sig  
+  Origine: `INV-069 targeted recovery`; provenance: `TARGETED_WEB_RECOVERY`.
+- **[S32]** DITP Sciences comportementales. https://www.modernisation.gouv.fr/accompagner-les-administrations/laboratoires-interministeriels-dinnovation/sciences  
+  Origine: `INV-070/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S33]** VIGINUM — missions. https://www.sgdsn.gouv.fr/viginum/comprendre-viginum/les-missions-de-viginum  
+  Origine: `INV-071/SRC-003`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S34]** VIGINUM Rokh Solis public page. https://www.sgdsn.gouv.fr/viginum/publications/rokh-solis-analyse-dun-mode-operatoire-informationnel-ayant-cible-les  
+  Origine: `INV-134/SRC-006`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S35]** Ministère des Armées — La lutte informatique d’influence (L2I). https://www.defense.gouv.fr/comcyber/nos-operations/lutte-informatique-dinfluence-l2i  
+  Origine: `INV-073 targeted recovery`; provenance: `TARGETED_WEB_RECOVERY`.
+- **[S36]** Arcom - Nos missions. https://www.arcom.fr/nos-missions  
+  Origine: `INV-074/SRC-002`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S37]** Ministère Culture — soutien public à la presse. https://www.culture.gouv.fr/thematiques/presse-ecrite/soutien-public-a-la-presse  
+  Origine: `INV-076/SRC-002`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S38]** Sénat — Commission d’enquête sur le Fonds Marianne. https://www.senat.fr/travaux-parlementaires/commissions/commission-des-finances/controle-en-clair/commission-denquete-sur-le-fonds-marianne.html  
+  Origine: `INV-078 targeted recovery`; provenance: `TARGETED_WEB_RECOVERY`.
+- **[S39]** Le dispositif anti-concentration : un outil visant a garantir le pluralisme. https://www.arcom.fr/nous-connaitre/nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/le-dispositif-anti-concentration-un-outil-visant-garantir-le-pluralisme  
+  Origine: `INV-081/SRC-010`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S40]** AFP Fact Check — How we work. https://factcheck.afp.com/How-we-work  
+  Origine: `INV-085/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S41]** Reuters — About Us. https://reutersagency.com/about/  
+  Origine: `INV-084/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S42]** European Economic Review — Exit polls, turnout, and bandwagon voting: Evidence from a natural experiment. https://www.sciencedirect.com/science/article/abs/pii/S0014292115000483  
+  Origine: `INV-087/SRC-006`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S43]** The political effects of X’s feed algorithm. https://www.nature.com/articles/s41586-026-10098-2  
+  Origine: `INV-091/SRC-015`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S44]** OpenAI - Disrupting a new covert influence campaign from Russia. https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/  
+  Origine: `INV-092/SRC-007`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S45]** Two RT employees indicted for covertly funding and directing U.S. company. https://www.justice.gov/archives/opa/pr/two-rt-employees-indicted-covertly-funding-and-directing-us-company-published-thousands  
+  Origine: `INV-142/SRC-007`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S46]** Code électoral — article L52-8. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039446180  
+  Origine: `INV-093/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S47]** Sénat — rapport sur les influences étrangères malveillantes, financement politique. https://www.senat.fr/rap/r23-739-1/r23-739-113.html  
+  Origine: `INV-094/SRC-005`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S48]** CNIL — Respecter les droits des électeurs sur leurs données personnelles. https://www.cnil.fr/fr/respecter-les-droits-des-electeurs-sur-leurs-donnees-personnelles  
+  Origine: `INV-096/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S49]** VIGINUM — RRN : une campagne numérique de manipulation de l’information complexe et persistante. https://www.sgdsn.gouv.fr/viginum/publications/rrn-une-campagne-numerique-de-manipulation-de-linformation-complexe-et  
+  Origine: `INV-097/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S50]** Nature Communications — Exposure to the Russian Internet Research Agency foreign influence campaign. https://www.nature.com/articles/s41467-022-35576-9  
+  Origine: `INV-097/SRC-013`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S51]** Code électoral — article L106. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006353253/2026-04-12  
+  Origine: `INV-098/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S52]** OSCE/ODIHR — France presidential election 2022 final report. https://odihr.osce.org/odihr/elections/france/525330  
+  Origine: `INV-099/SRC-002`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S53]** Hotararea nr. 32 din 6 decembrie 2024 privind anularea procesului electoral. https://legislatie.just.ro/Public/FormaPrintabila/00000G2OH5FWE05C8WF3A5SI29IWJBGG  
+  Origine: `INV-100/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S54]** French election control commission final report 2017. https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036649861  
+  Origine: `INV-135/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S55]** France official APT28/GRU attribution 2025. https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/russie-attribution-de-cyberattaques-contre-la-france-au-service-de-renseignement-militaire-russe  
+  Origine: `INV-135/SRC-002`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S56]** CSM — avis du 15 septembre 2020 sur le PNF et l’enquête Fillon. https://www.conseil-superieur-magistrature.fr/publications/avis-de-la-formation-pleniere-du-conseil-superieur-de-la-magistrature-du-15-septembre  
+  Origine: `INV-143/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S57]** Les inégalités sociales d’accès aux grandes écoles. https://www.insee.fr/fr/statistiques/1375870  
+  Origine: `INV-119/SRC-004`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S58]** Rapporteur Sénat - Inspection des finances et pantouflage. https://www.senat.fr/rap/r18-016-2/r18-016-24.html  
+  Origine: `INV-119/SRC-019`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S59]** EBA — detrimental impact of unwarranted de-risking. https://www.eba.europa.eu/publications-and-media/press-releases/eba-alerts-detrimental-impact-unwarranted-de-risking-and  
+  Origine: `INV-124/SRC-005`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S60]** European Commission Data Act explained. https://digital-strategy.ec.europa.eu/en/factpages/data-act-explained  
+  Origine: `INV-125/SRC-002`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S61]** Légifrance — Code du travail, négociation collective. https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006145398/2026-04-28  
+  Origine: `INV-126 targeted recovery`; provenance: `TARGETED_WEB_RECOVERY`.
+- **[S62]** Programme France Excellence Eiffel. https://www.campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel  
+  Origine: `INV-127/SRC-005`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S63]** Meta strategic IO report 2017-2020. https://about.fb.com/news/2021/05/influence-operations-threat-report/  
+  Origine: `INV-128/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S64]** Raport końcowy Komisji Nadzwyczajnej ds. nielegalnej inwigilacji. https://www.senat.gov.pl/download/gfx/senat/pl/defaultaktualnosci/1924/15764/1/raport_koncowy_z_prac_komisji_nadzwyczajnej.pdf  
+  Origine: `INV-141/SRC-006`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S65]** Baromètre de la confiance politique CEVIPOF 2026 : la confiance s’effondre en politique, la proximité fait figure de refuge. https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-cevipof-2026-la-confiance-s-effondre-en-politique-la-proximite-fait-figure-de-refuge/  
+  Origine: `INV-103/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S66]** Social reinforcement learning as a predictor of real-world moral outrage expressions. https://pmc.ncbi.nlm.nih.gov/articles/PMC8363141/  
+  Origine: `INV-111 targeted recovery`; provenance: `TARGETED_WEB_RECOVERY`.
+- **[S67]** VIGINUM — Analyse du mode opératoire informationnel russe Storm-1516. https://www.sgdsn.gouv.fr/publications/analyse-du-mode-operatoire-informationnel-russe-storm-1516  
+  Origine: `INV-112 targeted recovery`; provenance: `TARGETED_WEB_RECOVERY`.
+- **[S68]** Les missions de VIGINUM. https://www.sgdsn.gouv.fr/viginum/comprendre-viginum/les-missions-de-viginum  
+  Origine: `INV-147/SRC-005`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S69]** Article 18-11 - transparence des activités influence pour mandant étranger. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050052952  
+  Origine: `INV-147/SRC-001`; provenance: `TE_ORIGINAL_SOURCE`.
+- **[S70]** Foreign Agents Registration Act - Index and Act. https://www.justice.gov/nsd-fara/fara-index-and-act  
+  Origine: `INV-147/SRC-010`; provenance: `TE_ORIGINAL_SOURCE`.

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:953907436dbe2ec55805c6de3a91f5702e9aa610325cd8e6fc7e047d4d59fa54",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-06_influence-for-hire/2026-09-06_17-32_influence-for-hire_INVESTIGATION.md",
+  "deliverable_sha256": "f75c96e5b32e77d14e87ad78af1711c01c46023a2bfc62366f1f327cd6244053",
+  "created_at": "2026-09-06T15:44:03.901156+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:5444d8434cf108fdc412ff509799224f0d2bcef1d3328e34090b42090d80c637",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_revolutions-couleur-cia-usaid-ned/2026-09-05_13-47_revolutions-couleur-cia-usaid-ned_INVESTIGATION.md",
+  "deliverable_sha256": "be7970ccdb464f3497642e44f0b8c821c1118b2a915a0b99dd52f7c892530c01",
+  "created_at": "2026-09-05T11:52:07.300735+00:00"
+}

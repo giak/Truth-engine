@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:fa4b26b51cac3152dfba6d674e8addd12805703bd2ab7c2870e3f61a66f361cb",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_seconde-vague-elevation-faits-non-confirmes/2026-09-05_13-29_seconde-vague-elevation-faits-non-confirmes_INVESTIGATION.md",
+  "deliverable_sha256": "35f2fee54d048fafa9ed6caa6178fb9e582c87afb05ad7d89c8612532b26ad11",
+  "created_at": "2026-09-05T13:44:09.226944+00:00"
+}

@@ -1,0 +1,9 @@
+INV-022 — Russie : opérations d’influence visant la France — acteurs, infrastructures, campagnes, audiences, impacts réels.
+
+OBJECT_QUESTION: Quelles opérations d’influence attribuables à des acteurs russes ont matériellement visé la France, ses publics ou son espace informationnel, quelles infrastructures et chaînes d’acteurs les ont soutenues, quelle audience/exposition est documentée, et quels effets réels peuvent être établis sans confondre attribution, diffusion, persuasion, comportement et impact politique ?
+
+PERIOD: 2022-01-01 → 2026-09-06, avec antécédents seulement s’ils expliquent une infrastructure ou un mécanisme encore pertinent.
+GEO: France prioritaire ; infrastructures, commanditaires, relais et plateformes étrangers inclus lorsqu’ils sont causalement liés à une opération visant la France.
+INCLUDE: campagnes informationnelles, faux médias/sites, réseaux de comptes, amplification coordonnée, opérations hybrides à composante informationnelle, attribution officielle/technique, audience/exposition, effets observables, contre-mesures.
+EXCLUDE: espionnage/cyberattaque sans lien matériel avec une opération d’influence ; simple propagande russe non spécifiquement dirigée vers la France ; spéculation non sourcée sur intention ou impact électoral.
+EVIDENCE_LIMIT: sources publiques inspectables au 2026-09-06.

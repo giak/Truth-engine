@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:4258b807a8f80217aaa756e246f93d098b8a497ce96847a92190ac5dec574a9e",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_filiere-antidrones-europe-qui-vend-qui-gagne/2026-09-05_14-42_filiere-antidrones-europe-qui-vend-qui-gagne_INVESTIGATION.md",
+  "deliverable_sha256": "1cd51e59049735d6b112c3442401fa009dcd7a66fdccb4c4f4d4261ad8bb38b8",
+  "created_at": "2026-09-05T14:51:57.228715+00:00"
+}

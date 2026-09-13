@@ -1,0 +1,29 @@
+# INFILTRATION DES MÉDIAS ET DE LA SPHÈRE POLITIQUE (FRANCE/UE)
+
+## Objet
+Enquête sur les canaux documentés par lesquels l'État français et des acteurs étrangers exercent une influence/infiltration sur les médias et la sphère politique en France et dans l'UE, et sur ce qui relève de l'accusation non prouvée.
+
+## Faits établis (tiers et sources)
+
+**1. Le Quai d'Orsay briefe un réseau d'influenceurs (CONFIRME, ✦, FCT-001).** Selon l'enquête de franceinfo (18 juin 2026, SRC-001), le ministère des Affaires étrangères s'appuie sur un réseau de comptes influents sur X (dont Louis Duclos, ~74 000 abonnés) pour diffuser la position officielle de la France contre les ingérences. Une source diplomatique confirme les briefings ; le ministère affirme qu'il n'y a « ni recrutement, ni contrat », pas de rémunération et pas de « réseau occulte ». Le corpus publié (post #110, 26 nov. 2025, SRC-008) cite Intelligence Online (31 juillet 2025) : Duclos « collabore avec la cellule depuis plus d'un an » et reçoit des documents sensibles avant publication officielle (18e paquet de sanctions). Contre-argument enregistré (réfutation FCT-001) : le Quai conteste la qualification, pas les briefings.
+
+**2. ELNET, lobby pro-israélien, a financé 101 voyages parlementaires (CONFIRME, ✦, FCT-002).** Entre 2017 et 2024, ELNET a financé 101 voyages de parlementaires français (99 en Israël, 2 en Allemagne), selon Mediapart (relayé par Wikipédia SRC-002 et Blast SRC-004). Le cabinet de Benyamin Netanyahou a versé 37 664 € (139 454 shekels) à ELNET en 2020. L'association ne s'est enregistrée comme représentant d'intérêts (HATVP) qu'en novembre 2024, huit ans après l'obligation de la loi Sapin 2 (2016). La proposition de résolution n° 1000 (commission d'enquête sur ELNET, 19 fév. 2025) n'a jamais été examinée. Contre-argument enregistré (réfutation FCT-002) : ELNET se dit « organisation non partisane », l'HATVP a ouvert en 2026 un répertoire des activités d'influence étrangère (instruction en cours).
+
+**3. Twitter Files France : une « censure par procuration » alléguée (VERIFIÉ, ✦, FCT-003).** Le 3 septembre 2025, Pascal Clérotte et Thomas Fazi (Civilization Works, 57 pages, SRC-005) publient des documents internes de X montrant une coordination entre Emmanuel Macron, des législateurs et des ONG (SOS Racisme, UEJF) pour pousser la plateforme à censurer des contenus légaux. Le rapport Atlantico (Épelboin, SRC-003) et le corpus (SRC-009) décrivent un « complexe industriel de censure ». Fiabilité contestée : la publication émane d'un canal proche de Musk, sans vérification indépendante (NPR 2022, The Atlantic, CNN, Le Monde) — d'où le tiers VERIFIÉ et non CONFIRME (contre-argument enregistré, réfutation FCT-003).
+
+**4. Think tanks : un entre-soi public-privé documenté (CONFIRME, ✦, FCT-004).** L'Observatoire des multinationales (SRC-007) documente : Institut Jacques Delors financé 562 136 € par la Commission européenne (2021), EuropaNova 50 000 € du Premier ministre (2020), Fondation Robert Schuman 615 000 € de l'État (2020) ; Pascal Lamy, président émérite de l'Institut Delors, est lobbyiste en chef chez Brunswick (clients dont Nord Stream 2). Le corpus (SRC-010) relève les liens Terra Nova→macronisme et Fondation Jean-Jaurès→PS. Contre-argument enregistré (réfutation FCT-004) : littérature nuancée (Fondapol : think tanks français trop faibles), sans contradiction des montants.
+
+**5. Commission d'enquête sur l'audiovisuel public (✧, FCT-005, documenté).** Lancée à l'initiative d'Éric Ciotti (nov. 2025–avril 2026), présidée par Jérémie Patrier-Leitus, rapporteur Charles Alloncle, elle a auditionné l'ensemble de l'audiovisuel public (Ernotte, Niel, Lucet, Salamé…) avec tensions (affaire Mediawan, « cirque » selon Niel) et un risque de non-publication du rapport voté le 27 avril 2026 (LCP, 9 avril 2026, SRC-006).
+
+**6. ELNET au Sénat (✧, FCT-006).** Le Sénat a hébergé le 10 novembre 2025 un sommet financé par ELNET (189 000 € déboursés), en contradiction avec le code de conduite du Sénat (Wikipédia/Mediapart, SRC-002).
+
+**7. Résolution n° 1000 jamais examinée (✧, FCT-007).** La proposition de commission d'enquête sur les ingérences d'ELNET France (19 fév. 2025) n'a jamais été mise à l'ordre du jour (corpus SRC-009).
+
+## Réfutations
+Quatre contre-requêtes exécutées sur les faits ✦ (FCT-001 à 004) : défenses ministérielles, enregistrements HATVP et répertoire 2026, critique de fiabilité des Twitter Files, littérature académique nuancée sur les think tanks. Statut : FOUND_RESOLVED — aucune contradiction matérielle, plusieurs limites de preuve enregistrées.
+
+## Analyse causale
+L'influence se diffuse par des canaux multiples et largement non coordonnés : briefings informels (État), voyages tout frais payés (ELNET), documents contestés (Twitter Files), financement public-privé (think tanks). Aucun de ces canaux ne démontre un impact électoral direct ; aucun scrutin FR/UE n'a été annulé ou inversé par ces mécanismes. L'asymétrie institutionnelle est frappante : VIGINUM documente abondamment les ingérences russes mais ne nomme jamais les alliés (Israël, EAU, Qatar) — point approfondi dans le run dédié.
+
+## Verdict
+L'infiltration/influence des médias et de la sphère politique française et européenne est réelle et documentée par des faits précis (briefings d'État vers des influenceurs, lobbying par voyages, coordination de modération alléguée, financement des think tanks). En revanche, l'accusation d'un contrôle global, coordonné et invisible n'est pas établie : chaque canal documenté fait l'objet de défenses et de limites de preuve, et la transparence réglementaire (HATVP, répertoire des influences étrangères) est en construction. « Où sont les preuves ? » : elles sont publiques, inspectables, et pour partie contestées — c'est précisément leur statut probatoire qui doit rester au premier plan.

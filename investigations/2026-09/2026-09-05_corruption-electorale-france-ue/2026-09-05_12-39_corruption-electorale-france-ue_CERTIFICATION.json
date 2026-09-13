@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:06573da667814f31e8f893e72e1f822f6b3525d3030863d0224343cddd5a2eca",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_corruption-electorale-france-ue/2026-09-05_12-39_corruption-electorale-france-ue_INVESTIGATION.md",
+  "deliverable_sha256": "fc653a0206c65bc3fc81f9b165a21d7d7a9f2d08f70cfbcc077dd696046bfa65",
+  "created_at": "2026-09-05T10:47:02.978050+00:00"
+}

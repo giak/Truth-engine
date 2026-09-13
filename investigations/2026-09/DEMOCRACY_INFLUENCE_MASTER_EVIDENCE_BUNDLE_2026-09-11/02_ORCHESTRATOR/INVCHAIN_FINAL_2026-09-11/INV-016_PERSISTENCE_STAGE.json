@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "stage": "persistence",
+  "base_state_sha256": "9aa1a5584bd4e66a53d0d28cdbb8e07b4f4c0428ef604ef53b80abdea17f6aac",
+  "commands": [
+    {
+      "cmd": "set-persistence",
+      "args": [
+        "--json",
+        "{\"mnemo_row\":\"MNEMO_UNAVAILABLE — local memory service not available; no memory ids fabricated.\",\"self_write_row\":\"PENDING_AT_SERIALIZATION\",\"writeback_row\":{\"eligible\":13,\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":13},\"writeback_execution\":[{\"fct\":\"FCT-001\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-002\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-003\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-004\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-005\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-006\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-007\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-008\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-009\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-010\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-011\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-012\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"},{\"fct\":\"FCT-013\",\"action\":\"ELIGIBLE:VERIFIE\",\"attempted\":0,\"success\":0,\"failure\":0,\"blocked\":1,\"reason\":\"MNEMO_UNAVAILABLE\"}],\"fact_mem\":{}}"
+      ]
+    }
+  ]
+}

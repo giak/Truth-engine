@@ -1,0 +1,79 @@
+id,before,after,title
+INV-003,NEW,PARTIAL,"Taxonomie générale du pouvoir d’influence : persuasion, lobbying, propagande, manipulation, astroturfing, capture, corruption, coercition, ingérence, subversion, psyops"
+INV-004,NEW,PARTIAL,Échelle probatoire de l’influence : intérêt → capacité → accès → action → coordination → exposition → persuasion → comportement → impact
+INV-005,NEW,PARTIAL,"Mesurer réellement l’effet d’une opération d’influence : contrefactuels, causalité, attribution, exposition, persuasion, changement électoral"
+INV-006,PARTIAL,SUBSTANTIAL_PRIOR,Source officielle et vérité : valeur des sources primaires sans privilège automatique de véracité interprétative
+INV-007,NEW,PARTIAL,Méthodologie anti-faux-complot : réseau ≠ coordination ; financeur ≠ commanditaire ; convergence ≠ planification ; corrélation ≠ causalité
+INV-008,NEW,PARTIAL,"Contre-théories obligatoires : pluralisme, capture sectorielle, réseaux, émergence sans chef, coordinations ponctuelles, architecture cohérente"
+INV-009,NEW,PARTIAL,"Généalogie de la propagande démocratique moderne : Bernays, relations publiques, publicité politique, État, industrie"
+INV-012,NEW,PARTIAL,"COINTELPRO et ingénierie politique intérieure américaine : infiltration, fragmentation, surveillance, neutralisation"
+INV-017,NEW,PARTIAL,"Cambridge Analytica : données, psychométrie, microtargeting et différence entre capacité revendiquée et efficacité démontrée"
+INV-019,NEW,PARTIAL,"États-Unis : architecture publique de promotion de la démocratie — State Department, USAID, NED, USAGM, médias/société civile/élections"
+INV-024,NEW,PARTIAL,"Chine : système d’influence en France et en Europe — entreprises, diaspora, universités, médias, diplomatie, standards technologiques"
+INV-028,NEW,PARTIAL,"AIPAC : mécanisme américain de lobbying pro-israélien, pouvoir électoral, financement, limites du parallèle avec la France"
+INV-030,PARTIAL,SUBSTANTIAL_PRIOR,"France-Allemagne : nucléaire — divergence doctrinale, concurrence industrielle, règles européennes, intention versus effet"
+INV-032,NEW,PARTIAL,"Qatar : investissements, lobbying, sport, médias, islam, politique et soft power en France"
+INV-034,NEW,PARTIAL,"Arabie saoudite : finance, religion, lobbying, industrie et relations politiques françaises"
+INV-035,PARTIAL,SUBSTANTIAL_PRIOR,"Ukraine : diplomatie d’influence de guerre en France/UE, financement, communication, relais politiques et médiatiques"
+INV-037,NEW,PARTIAL,"Iran : influence, diasporas, réseaux politiques et opérations informationnelles en Europe"
+INV-039,PARTIAL,SUBSTANTIAL_PRIOR,"Qui exerce réellement le pouvoir dans l’UE ? Commission, Conseil, Parlement, CJUE, BCE, États, lobbies"
+INV-040,PARTIAL,SUBSTANTIAL_PRIOR,Déficit démocratique européen : réalité mesurable versus slogan politique
+INV-048,PARTIAL,SUBSTANTIAL_PRIOR,"Commerce, normes et droit européen comme instruments de puissance : Mercosur, concurrence, standards, conditionnalité"
+INV-049,NEW,PARTIAL,"Open Society Foundations / George Soros : flux réels, bénéficiaires, objectifs, mécanismes, effets ; tester mythologie et dénégation naïve"
+INV-050,NEW,PARTIAL,"OSF en France et dans l’UE : justice, médias, migration, droits fondamentaux, think tanks, contentieux stratégique"
+INV-051,NEW,PARTIAL,"Fondations Gates, Ford, Rockefeller, Omidyar et grandes philanthropies : pouvoir politique sans mandat électif"
+INV-052,NEW,PARTIAL,"Philanthrocapitalisme : quand le financement privé définit problèmes, métriques et solutions publiques"
+INV-053,NEW,PARTIAL,"ONG liées aux migrations en France/Europe : qui finance quoi, pourquoi, avec quel effet opérationnel et politique ?"
+INV-054,NEW,PARTIAL,ONG de droits humains et contentieux stratégique : recours judiciaire comme instrument de transformation politique
+INV-055,NEW,PARTIAL,Financement public des ONG qui font ensuite pression sur le pouvoir public : boucle institutionnelle et conditions de légitimité
+INV-056,NEW,PARTIAL,Astroturfing : organisations présentées comme grassroots mais financées ou orchestrées par des intérêts structurés
+INV-057,NEW,PARTIAL,"ONG comme intermédiaires de politique étrangère : comparaison USA, UE, États et fondations"
+INV-058,NEW,PARTIAL,"Qui contrôle les contrôleurs associatifs ? Gouvernance, transparence, conflits d’intérêts et accountability des ONG"
+INV-060,NEW,PARTIAL,"Institut Montaigne, Terra Nova, Fondapol, Fondation Jean-Jaurès, IFRI : comparaison des modèles d’influence"
+INV-061,NEW,PARTIAL,"Think tanks américains et politique française/européenne : Atlantic Council, German Marshall Fund, Brookings, Heritage, etc."
+INV-062,PARTIAL,SUBSTANTIAL_PRIOR,McKinsey et cabinets de conseil dans l’État français : prestation technique ou délégation cognitive de souveraineté ?
+INV-064,NEW,PARTIAL,Cabinets de relations publiques et communication stratégique : marché professionnel de fabrication de réputation et d’opinion
+INV-065,NEW,SUBSTANTIAL_PRIOR,"Experts médiatiques : sélection, financement, conflits d’intérêts invisibles"
+INV-066,NEW,PARTIAL,Recherche académique financée par intérêts publics ou privés : agenda-setting scientifique et indépendance réelle
+INV-067,NEW,PARTIAL,"Groupes d’experts publics : composition, conflits d’intérêts, sélection et pouvoir normatif"
+INV-068,NEW,SUBSTANTIAL_PRIOR,Narrative laundering : intérêt → think tank → expert → média → décideur → apparence de consensus indépendant
+INV-069,PARTIAL,SUBSTANTIAL_PRIOR,"Communication gouvernementale française : SIG, Élysée, ministères, budgets, campagnes et objectifs comportementaux"
+INV-073,NEW,PARTIAL,"Armées françaises et guerre cognitive / influence : doctrines, capacités, cibles et frontière intérieur/extérieur"
+INV-074,PARTIAL,SUBSTANTIAL_PRIOR,"ARCOM : régulateur, arbitre politique ou infrastructure procédurale ?"
+INV-076,PARTIAL,SUBSTANTIAL_PRIOR,Subventions publiques et aides à la presse : dépendance économique et effets possibles sur le pluralisme
+INV-077,NEW,PARTIAL,Publicité et campagnes institutionnelles comme levier économique sur les médias
+INV-078,PARTIAL,SUBSTANTIAL_PRIOR,Fonds Marianne et financement étatique de la contre-influence : anatomie complète
+INV-079,PARTIAL,SUBSTANTIAL_PRIOR,"Associations et prestataires subventionnés pour lutter contre désinformation, haine ou radicalisation"
+INV-083,NEW,SUBSTANTIAL_PRIOR,"Dépendances économiques des rédactions : propriétaires, annonceurs, abonnements, subventions, plateformes"
+INV-084,NEW,PARTIAL,"AFP, Reuters, AP : pouvoir des agences sur la définition de l’agenda informationnel"
+INV-086,PARTIAL,SUBSTANTIAL_PRIOR,"Plateaux d’experts et pluralisme artificiel : sélection, cadrage, composition et fenêtres d’Overton"
+INV-087,NEW,PARTIAL,"Sondages comme technologie d’influence : formulation, publication, horse-race politics, effets d’entraînement"
+INV-089,PARTIAL,SUBSTANTIAL_PRIOR,Trusted flaggers et intermédiaires de modération : pouvoir sans responsabilité directe
+INV-090,PARTIAL,SUBSTANTIAL_PRIOR,"Shadow banning, démonétisation, déréférencement et friction algorithmique : existence, fréquence, recours"
+INV-091,NEW,PARTIAL,Moteurs de recherche et recommandation : structuration de l’exposition politique sans produire de contenu
+INV-092,NEW,PARTIAL,"IA générative, deepfakes et opérations d’influence automatisées : changement d’échelle réel ou panique anticipatoire ?"
+INV-093,NEW,PARTIAL,"Financement des campagnes françaises : argent, prêts, micro-partis, prestations, contournements possibles"
+INV-095,NEW,SUBSTANTIAL_PRIOR,"Sélection des candidats avant l’élection : partis, financeurs, réseaux, médias, grandes écoles et cooptation"
+INV-096,NEW,PARTIAL,Microtargeting électoral et données personnelles en France/UE
+INV-097,PARTIAL,SUBSTANTIAL_PRIOR,"Bots, faux comptes, astroturfing et amplification artificielle pendant les élections"
+INV-102,PARTIAL,SUBSTANTIAL_PRIOR,"Consentement sans choix réel : verrou institutionnel, offre politique, abstention, vote stratégique et légitimité"
+INV-104,NEW,SUBSTANTIAL_PRIOR,Mensonge institutionnel → défiance → vulnérabilité à la manipulation : la boucle causale existe-t-elle ?
+INV-105,NEW,PARTIAL,"Autorité, conformisme et obéissance : ce que Milgram, Asch et recherches contemporaines permettent réellement d’extrapoler"
+INV-106,PARTIAL,SUBSTANTIAL_PRIOR,"Peur et production de menace : terrorisme, guerre, pandémie, climat, immigration, cybermenaces"
+INV-107,NEW,PARTIAL,Moral panics et politiques publiques : comment un événement devient urgence collective
+INV-108,NEW,PARTIAL,"Identité politique, tribalisme et raisonnement motivé : pourquoi les faits seuls échouent"
+INV-109,NEW,PARTIAL,"Illusory truth, répétition et familiarité : limites réelles du pouvoir propagandiste"
+INV-110,NEW,PARTIAL,"Learned helplessness, efficacité politique et résignation démocratique"
+INV-111,PARTIAL,SUBSTANTIAL_PRIOR,Économie de l’indignation : médias et plateformes transforment-ils la colère en produit plutôt qu’en action ?
+INV-112,PARTIAL,SUBSTANTIAL_PRIOR,"Complotisme comme symptôme, marché et instrument politique : causes réelles, exploitations et erreurs institutionnelles"
+INV-113,NEW,PARTIAL,"Franc-maçonnerie : sociologie des réseaux, accès, cooptation et décisions démontrables"
+INV-114,NEW,PARTIAL,"Le Siècle : composition, circulation des élites, accès et influence démontrable"
+INV-115,NEW,PARTIAL,"Bilderberg : participants, agenda, réseaux, mythes et effets réellement traçables"
+INV-116,NEW,PARTIAL,"WEF / Young Global Leaders : sélection, réseaux, idées, trajectoires et limites des inférences de contrôle"
+INV-117,NEW,PARTIAL,"French-American Foundation / Young Leaders : réseau transatlantique, carrières et influence démontrable"
+INV-119,NEW,SUBSTANTIAL_PRIOR,"Grandes écoles, ENA/INSP, Inspection des finances : reproduction, circulation et concentration des élites administratives"
+INV-120,NEW,PARTIAL,"Finance et banques : lobbying, revolving doors, dépendance réglementaire et pouvoir de marché sur la décision publique"
+INV-121,NEW,PARTIAL,"Industrie pharmaceutique : lobbying, expertise, recherche, régulation, médias et conflits d’intérêts"
+INV-122,NEW,SUBSTANTIAL_PRIOR,"Industrie de défense : commandes publiques, lobbying, think tanks, médias et politique étrangère"
+INV-123,NEW,SUBSTANTIAL_PRIOR,"Big Tech : lobbying, infrastructures, modération, données, dépendance étatique et pouvoir normatif"
+INV-124,NEW,PARTIAL,"Debanking, paiements, sanctions et accès financier comme infrastructure privée/publique de coercition"

@@ -1,0 +1,10 @@
+{
+ "verdict": "PASS",
+ "state_id": "sha256:9120f4f6b9828c2538ec260cb7d382a005655601ec975885de590b8214242451",
+ "deliverable_sha256": "6cf28fb23d12cdf0f751b4a7b67740b5559a611525c7f7bf3a20877befddd5a0",
+ "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+ "kernel_contract": "delivery",
+ "deterministic": "PASS",
+ "created_at": "2026-09-05T12:21:40.465172+00:00",
+ "run_id": "20260905-1211-ingerences-usa-soros-aipac-fondations-israel"
+}

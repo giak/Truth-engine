@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:621eca8b4b360f2cde59032cc6d25d60809fbd04cd090d82c5fc6fca71fef66e",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_influences-electorales-france-ue/2026-09-05_09-45_influences-electorales-france-ue_INVESTIGATION.md",
+  "deliverable_sha256": "01d534c52120d225553ca62fa9cfc6bc23f7dc5e81c996621517fa6edfc0f352",
+  "created_at": "2026-09-05T08:33:04.559999+00:00"
+}

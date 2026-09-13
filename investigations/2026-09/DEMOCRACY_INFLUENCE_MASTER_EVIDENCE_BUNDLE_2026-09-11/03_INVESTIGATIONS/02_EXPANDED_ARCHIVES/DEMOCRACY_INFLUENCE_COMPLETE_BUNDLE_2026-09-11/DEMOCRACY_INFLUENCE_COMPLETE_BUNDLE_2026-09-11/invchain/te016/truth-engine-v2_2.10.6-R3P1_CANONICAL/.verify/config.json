@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "task": "truth-engine",
+  "protected_branches": [
+    "main",
+    "master"
+  ],
+  "tests": [
+    "python3 -m pytest tests/extractors/ tests/runtime/ tests/test_verify_gate.py tests/test_verify_forensic_output.py -q"
+  ],
+  "checks": [],
+  "content": [
+    {
+      "name": "no-em-dash-in-published-articles",
+      "forbidden": "—",
+      "dirs": [
+        "articles/"
+      ],
+      "dir_pattern": "^\\d{4}-\\d{2}-\\d{2}[-_][A-Za-z0-9]+(-[A-Za-z0-9]+)*$",
+      "only_types": [
+        "ARTICLE"
+      ],
+      "exclude": [
+        "copy",
+        "\\.bak$",
+        "_audit",
+        "_2026-0",
+        "PLAN-CORRECTION",
+        "audit-antagoniste",
+        "(^|/)0\\d_"
+      ],
+      "note": "scope = livrables _ARTICLE.md dans les dossiers de chantier datés (tiret OU underscore après la date). Pas de since : le contrat Phase 3 s'applique à tout article publié, y compris antérieur à la décision. Exclus : copies, .bak, audits, plans de correction, fichiers de pipeline numérotés (05_ARTICLE.md). Une réintroduction d'em-dash dans un article corrigé est détectée."
+    }
+  ],
+  "naming": {
+    "enabled": true,
+    "note": "kebab-case uniquement (décision 2026-08-17). Scope investigations/ d'abord : articles/ et outputs/ contiennent du legacy non conforme.",
+    "dirs": [
+      "investigations/"
+    ],
+    "pattern": "^\\d{4}-\\d{2}-\\d{2}(_\\d{2}-\\d{2})?_[A-Za-z0-9]+(-[A-Za-z0-9]+)*_(ARTICLE|HYPER_MATRICE|ARCHITECTURE|SATURATION_AUDIT|REGISTRE|INVESTIGATION)\\.md$",
+    "dir_pattern": "^\\d{4}-\\d{2}-\\d{2}_[A-Za-z0-9]+(-[A-Za-z0-9]+)*$",
+    "only_types": [
+      "ARTICLE",
+      "HYPER_MATRICE",
+      "ARCHITECTURE",
+      "SATURATION_AUDIT",
+      "REGISTRE",
+      "INVESTIGATION"
+    ],
+    "since": "2026-08-17",
+    "exclude": [
+      "^investigations/[^/]+\\.md$",
+      "\\.zip$",
+      "(^|/)_[^/]+/"
+    ],
+    "note_uppercase": "majuscules tolérées dans le sujet (marqueur KERNEL-*, décision 2026-08-17). Interdiction des underscores maintenue.",
+    "note_scope": "périmètre : livrables de type officiel uniquement, dans les dossiers de chantier datés YYYY-MM-DD_<sujet>/, produits après la décision kebab-case (since=2026-08-17). Le legacy antérieur (snake_case, fichiers non datés, types internes MEMO/SYNTHESE/RESOLUTION, métadonnées) est hors scope : ce ne sont pas des livrables conformes à la nouvelle convention."
+  }
+}
