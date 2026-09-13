@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:bbf7f4806d06d203110974d7e1faa16c7a861634c93e56915d59f358cb710b2d",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-11_defense-industry-influence/2026-09-11_06-46_defense-industry-influence_INVESTIGATION.md",
+  "deliverable_sha256": "3e9201a05de411c4e7d8bf7471d18fd697b6948f6bdc0c45eda3281767f51168",
+  "created_at": "2026-09-11T05:08:07.871577+00:00"
+}

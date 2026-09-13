@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:f2f2b5eafcbea1161aea3ad8a7e061dfe0e388e3a4213ba0ae1cb587c685d9c0",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-08_vote-buying-clientelism/2026-09-08_05-09_vote-buying-clientelism_INVESTIGATION.md",
+  "deliverable_sha256": "079d75fefa898d51f03740e1887e6e6bc6bf7ceb823dcb77c8cb7aacc27e9e53",
+  "created_at": "2026-09-08T03:38:20.079816+00:00"
+}

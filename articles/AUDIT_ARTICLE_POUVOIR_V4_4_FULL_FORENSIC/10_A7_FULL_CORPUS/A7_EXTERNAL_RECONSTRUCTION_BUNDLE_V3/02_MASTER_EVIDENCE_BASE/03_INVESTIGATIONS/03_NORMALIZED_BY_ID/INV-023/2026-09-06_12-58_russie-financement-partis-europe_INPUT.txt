@@ -1,0 +1,5 @@
+INV-023 — Russie : financement, contacts et relations avec partis/mouvements européens
+
+Object question: Quels financements, accords, contacts structurés, rémunérations ou formes de coopération entre acteurs russes et partis/mouvements politiques européens sont matériellement établis entre 2014 et 2026, quels niveaux de relation/coordination peuvent être prouvés, et quelles allégations restent non établies ?
+
+Scope: Europe (priorité UE + Royaume-Uni lorsque matériel), 2014-01-01/2026-09-06. Cas documentés uniquement. Distinguer financement légal/illégal, prêt, don, accord politique, rémunération, voyage/accès, coopération, coordination/tasking. Exclure les positions pro-russes, votes convergents et contacts diplomatiques ordinaires sans preuve de relation matérielle. INV-022 sert de contexte parent/lead uniquement, jamais de preuve par statut.

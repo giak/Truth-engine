@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "05d11d645c22bc750488a1f86d307d50c9e442c7",
+  "state_id": "sha256:10477e5e72984d1a2d61ca9eb7601008832c37335b0231be352de3699835887e",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-06_russie-operations-influence-france/2026-09-06_10-57_russie-operations-influence-france_INVESTIGATION.md",
+  "deliverable_sha256": "a5d3c37a2dec09a07a0d2ec2ab00be4fd794b814729a1c749032cdab07ff806e",
+  "created_at": "2026-09-06T09:59:26.975000+00:00"
+}

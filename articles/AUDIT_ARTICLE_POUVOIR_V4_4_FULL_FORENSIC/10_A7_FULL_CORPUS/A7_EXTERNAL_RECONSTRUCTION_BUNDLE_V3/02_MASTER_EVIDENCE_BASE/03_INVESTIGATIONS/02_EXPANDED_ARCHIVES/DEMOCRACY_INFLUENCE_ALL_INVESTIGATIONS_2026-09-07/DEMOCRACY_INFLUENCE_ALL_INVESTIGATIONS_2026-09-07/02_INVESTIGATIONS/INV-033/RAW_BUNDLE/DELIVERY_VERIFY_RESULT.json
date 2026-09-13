@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:b20ebd5deabf0def9288c0fe937915f81e6fa4673c2cc6cf51444989608c4e11",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-07_emirats-influence-europe/2026-09-07_07-11_emirats-influence-europe_INVESTIGATION.md",
+  "deliverable_sha256": "6882743d76521abaf201035c2d0148116b76c0f3f28fc5bfb95595ea42e67a8e",
+  "created_at": "2026-09-07T05:30:53.770164+00:00"
+}

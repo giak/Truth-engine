@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:941badda2729f49383abde88585914a192f080017f1c7acf0a235bd71baec0eb",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "pre",
+  "deliverable": "investigations/2026-09/2026-09-07_funded-counter-disinfo/2026-09-07_23-40_funded-counter-disinfo_INVESTIGATION.md",
+  "deliverable_sha256": "355d88f1d4805c4e8305e8ee0fc9b5f1c840ebd75de174eedf4f1100260ebe97",
+  "created_at": "2026-09-07T21:50:15.636143+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:9db91b20e34b6437ff280a30a0907ed456f9fea66227fbadbf1c972d421341b9",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-06_propriete-medias-francais/2026-09-06_15-55_propriete-medias-francais_INVESTIGATION.md",
+  "deliverable_sha256": "0fc4ee6583cdc16a5f02801795f0248c30baa437239d48871390f527f478238c",
+  "created_at": "2026-09-06T14:10:07.536399+00:00"
+}

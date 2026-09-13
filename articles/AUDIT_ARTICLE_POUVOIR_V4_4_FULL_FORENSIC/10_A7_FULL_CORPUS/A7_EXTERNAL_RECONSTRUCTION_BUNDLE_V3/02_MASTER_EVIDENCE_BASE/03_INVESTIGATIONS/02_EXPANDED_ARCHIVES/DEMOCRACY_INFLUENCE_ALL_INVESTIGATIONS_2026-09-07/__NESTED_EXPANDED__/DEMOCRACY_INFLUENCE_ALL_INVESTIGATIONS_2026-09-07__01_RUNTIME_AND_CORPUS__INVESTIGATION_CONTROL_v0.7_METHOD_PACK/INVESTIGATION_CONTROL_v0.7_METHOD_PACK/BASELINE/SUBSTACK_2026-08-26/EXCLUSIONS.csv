@@ -1,0 +1,9 @@
+object_type,identifier,status,reason,source_refs,action,sha256
+CSV_ONLY,140803312.coming-soon,PLACEHOLDER_EXCLUDED,CSV is_published=true but no HTML; title is Coming soon; not an analyzable published article in frozen baseline.,posts.csv,EXCLUDE_FROM_PUBLISHED_BASELINE,
+HTML+CSV,191030786.linflation-normative-francaise,DRAFT_UNPUBLISHED,CSV explicitly is_published=false; title/date metadata absent.,posts.csv + posts/*.html,EXCLUDE_FROM_PUBLISHED_BASELINE,82e1000f620bb9adf281ce373045c3bac681e72c4ded44abf4e3544f1c5f15c6
+HTML_VERSION,194518266.3b3,REVISION_ORPHAN,Same numeric Substack ID as canonical 194518266.lingenierie-de-lenclos; CSV and index point to canonical slug.,posts.csv + index.md + posts/*.html,EXCLUDE_VERSION_KEEP_CANONICAL_SLUG,5f50ed807a3c9507ed124011d7b4eeef555004e0bcd66b3d6219819e51e6e706
+HTML_ONLY,181863121.truth-engine-lia-qui-revolutionne,DRAFT_EXCLUDED,"User confirmed this HTML is a draft (brouillon), not a published article.",user confirmation + excluded/html,EXCLUDE_FROM_PUBLISHED_BASELINE,d44b4adf7179ba858f17f1e070bd911ceb8336554ca10b31708dd3bac52f1574
+INDEX_ONLY,URL_PLACEHOLDER,INDEX_PLACEHOLDER,Index URL is explicit manual placeholder; no HTML/CSV content.,index.md,EXCLUDE_FROM_CONTENT_BASELINE,
+INDEX_ONLY,la-honte-francaise-du-tortionnaire-sisi-aux-soldats-de-zelensky,INDEX_ONLY_NO_CONTENT,Index reference exists; no HTML/CSV content in supplied snapshot.,index.md,EXCLUDE_FROM_CONTENT_BASELINE,
+INDEX_ONLY,lasphyxie-du-golem-derives-systemiques-1789-2026,INDEX_ONLY_NO_CONTENT,Index reference exists; no HTML/CSV content in supplied snapshot.,index.md,EXCLUDE_FROM_CONTENT_BASELINE,
+INDEX_ONLY,lasphyxie-du-golem-verrouillage-multiseculaire-fr,INDEX_ONLY_NO_CONTENT,Index reference exists; no HTML/CSV content in supplied snapshot.,index.md,EXCLUDE_FROM_CONTENT_BASELINE,

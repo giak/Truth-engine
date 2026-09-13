@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:35ddf26ee8181b28e9e11f845382c58ccc7b305c09e1a20609f8572d8197d0d7",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-08_political-microtargeting/2026-09-08_08-07_political-microtargeting_INVESTIGATION.md",
+  "deliverable_sha256": "39167cd27a9357fd67eb541cf5003a48c227f6d1bc15c40905e4be0cb8cd03a9",
+  "created_at": "2026-09-08T07:54:50.150519+00:00"
+}

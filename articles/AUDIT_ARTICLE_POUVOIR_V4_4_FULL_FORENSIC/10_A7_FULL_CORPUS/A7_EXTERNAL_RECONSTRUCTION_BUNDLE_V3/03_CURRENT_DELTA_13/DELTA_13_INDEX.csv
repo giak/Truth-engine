@@ -1,0 +1,14 @@
+id,type,title,truth_engine,result_path,handoff_present,handoff_sha256,pre_collection_present
+INV-024,PRIMARY,"Chine / New IP à l’UIT : standardisation technique, coalition État-industrie et pouvoir de gouvernance",DELIVERY_PASS_R3P1,INV-024_RUN_HANDOFF.md,True,6381876993b8e92d1be8583e5deb7efad46f6db5f9891948c7461fc77c4559b3,False
+INV-031,PRIMARY,"Integrity Initiative : financement FCO, clusters européens et influence contre-désinformation",DELIVERY_PASS_R3P1,INV-031_RUN_HANDOFF.md,True,cb4e78a22e4dc80c851fb116385be515714257f6100251e909764737cf38407e,False
+INV-123,PRIMARY,Big Tech / EUCS : lobbying contre les critères de souveraineté cloud et modification du schéma européen,DELIVERY_PASS_R3P1,INV-123_RUN_HANDOFF.md,True,e9326db4e63dd491c4b897d8b48b4ac64f6d2be2b374ce0c84ec13eb3280fba1,False
+INV-148,PRIMARY,Trafic d’influence et courtiers d’accès,DELIVERY_PASS_R3P1,INV-148_RUN_HANDOFF.md,True,0b26e5a590e6eae9deae242371af3458b4c370a2309a0b347f12fa43e5eafd3f,True
+INV-149,PRIMARY,"Finance opaque, bénéficiaires effectifs et provenance des fonds",DELIVERY_PASS_R3P1,INV-149_RUN_HANDOFF.md,True,75ec7f0fd0d9f434830994760e40bc2e6168a510bfb20d8c19fdab7d847b422b,True
+INV-150,PRIMARY,"Investissements stratégiques, acquisitions et fonds souverains",DELIVERY_PASS_R3P1,INV-150_RUN_HANDOFF.md,True,dd0333739096fe5e01acf54b2fe0b645ca4195b6cb2827d940b50f03fe7007bd,True
+INV-151,PRIMARY,Énergie et matières critiques comme leviers de coercition,DELIVERY_PASS_R3P1,INV-151_RUN_HANDOFF.md,True,d2e35ef99bce9636147acd11917022ee16629c964491c3163f811b6d629c6ca5,False
+INV-152,PRIMARY,"Dollar, clearing, correspondent banking et extraterritorialité financière",DELIVERY_PASS_R3P1,INV-152_RUN_HANDOFF.md,True,fccbaf687356724185927efb98e6dc0a750de1334295b73b8577093f47d4adca,False
+INV-153,PRIMARY,"Dette, crédit, garanties et aide conditionnelle",DELIVERY_PASS_R3P1,INV-153_RUN_HANDOFF.md,True,32098514c8d2febc30dfa1d0790c4d5bd9f6e7b710136909733a648805edfc3c,False
+INV-154,PRIMARY,"Représailles économiques informelles : commerce, douanes, contrats, tourisme et pression politique",DELIVERY_PASS_R3P1,INV-154_RUN_HANDOFF.md,True,b733dd1be42f1d2c5bce11f4ff24d6743db1d66199e1e3a374a87973c4de78df,False
+INV-155,PRIMARY,"Arbitrage investisseur-État, ISDS et economic lawfare : menace contentieuse, coût et effet réglementaire",DELIVERY_PASS_R3P1,INV-155_RUN_HANDOFF.md,True,3d2913f9695919ce75fb99eae5667f91b56595ba6a8abadb14dcf7759a1769cb,False
+INV-156,PRIMARY,"Marchés publics, intermédiaires, commissions et offsets",PROTOCOL_RECONSTRUCTED_R3P1,INV-156_RUN_HANDOFF.md,True,0f9d30cf24bd3a3d06b183642bf5f415ad490fce767c0530f1bfc485018e80b8,False
+INV-157,PRIMARY,"Récompense différée, revolving door et anticipation",DELIVERY_PASS_R3P1,INV-157_RUN_HANDOFF.md,True,2886c8c466bd979bc2816c36e3bb1321193990efe291683b813d86b44af9cf10,False

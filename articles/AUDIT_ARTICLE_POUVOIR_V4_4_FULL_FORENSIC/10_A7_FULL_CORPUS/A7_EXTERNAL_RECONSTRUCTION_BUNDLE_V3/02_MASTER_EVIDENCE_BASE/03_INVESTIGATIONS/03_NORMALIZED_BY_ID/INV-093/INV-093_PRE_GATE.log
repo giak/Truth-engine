@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:84d6126e024169266ce4e443958021222e1aa28c6be3e171f23436063cfd2e41",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "pre",
+  "deliverable": "investigations/2026-09/2026-09-07_campaign-financing-france/2026-09-07_18-11_campaign-financing-france_INVESTIGATION.md",
+  "deliverable_sha256": "02853c425a623360483240f19597720310ec919aaa5c384c777eb31e62c17748",
+  "created_at": "2026-09-07T16:31:45.415652+00:00"
+}

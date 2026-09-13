@@ -1,0 +1,669 @@
+{
+  "schema": 1,
+  "stage": "facts",
+  "base_state_sha256": "313fa2f1c8613452ec98104aedce9220a939556f2573c7d290ed7307e851186b",
+  "commands": [
+    {
+      "cmd": "set-run",
+      "args": [
+        "--json",
+        "{\"parent_run_id\":\"NONE\",\"complexity\":\"HIGH\",\"complexity_score\":9,\"scope\":\"Cas sélectionnés 2010–2013 où les flux et actions sont documentables. Tracer acteur extérieur -> ressource/formation/plateforme/diplomatie -> bénéficiaire ou audience -> action de mobilisation -> exposition/participation -> effet politique. Prioriser archives, programmes d’aide, données de plateformes, communications diplomatiques, chronologies et études causales. Gardes : soutien != déclenchement ; réseau social != révolution ; financement != contrôle ; simultanéité != coordination ; changement de régime != effet attribuable à un seul mécanisme.\",\"resume_count\":0,\"route_overrides\":[],\"loaded_modules\":[\"definitions/SYMBOLS.md\",\"definitions/PATTERNS.md\",\"definitions/THREATS.md\",\"forensic/GATES.md\",\"forensic/REQUEST_LOG.md\",\"clusters/POWER.md\",\"clusters/NETWORK.md\",\"clusters/INFORMATION.md\",\"clusters/TEMPORAL.md\"],\"degraded_flags\":[\"MNEMO_UNAVAILABLE\"]}"
+      ]
+    },
+    {
+      "cmd": "memory-probe",
+      "args": [
+        "--status",
+        "NONE"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "AXS",
+        "--json",
+        "{\"axis\":\"EXTERNAL_ASSISTANCE_TO_CAPACITY\",\"question\":\"Quelles aides, formations ou contacts extérieurs ont créé une capacité organisationnelle documentable sans établir un commandement externe ?\",\"sought_objects\":[\"funding\",\"training\",\"contact\",\"recipient\",\"adoption\",\"instruction\"],\"links\":[\"CLM-001\",\"CLM-002\",\"CLM-003\",\"CAU-001\",\"CAU-002\"],\"attempt_ids\":[\"QRY-001\",\"QRY-002\",\"QRY-004\",\"QRY-005\",\"QRY-006\",\"QRY-007\",\"QRY-011\"],\"result_ids\":[\"FCT-001\",\"FCT-002\",\"FCT-005\",\"FCT-006\",\"FCT-007\",\"FCT-008\",\"FCT-012\",\"FCT-013\"],\"status\":\"SATURATED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "AXS",
+        "--json",
+        "{\"axis\":\"PLATFORMS_TO_MOBILIZATION\",\"question\":\"Les réseaux sociaux ont-ils modifié information, logistique et probabilité de participation, et avec quel niveau causal ?\",\"sought_objects\":[\"platform_use\",\"information\",\"logistics\",\"participation\",\"offline_action\"],\"links\":[\"CLM-004\",\"CLM-005\",\"CAU-003\",\"CAU-004\"],\"attempt_ids\":[\"QRY-003\",\"QRY-004\",\"QRY-005\",\"QRY-008\",\"QRY-009\",\"QRY-010\"],\"result_ids\":[\"FCT-003\",\"FCT-004\",\"FCT-005\",\"FCT-009\",\"FCT-010\",\"FCT-011\"],\"status\":\"SATURATED\"}"
+      ]
+    },
+    {
+      "cmd": "record-object",
+      "args": [
+        "--kind",
+        "AXS",
+        "--json",
+        "{\"axis\":\"MOBILIZATION_TO_POLITICAL_OUTCOME\",\"question\":\"Quelles preuves isolent l’effet marginal de l’aide extérieure ou des plateformes sur la chute du régime plutôt que sur la seule capacité ou participation ?\",\"sought_objects\":[\"counterfactual\",\"outcome\",\"repression\",\"coalition\",\"local_grievance\",\"regime_response\"],\"links\":[\"CLM-006\",\"CAU-004\",\"CAU-005\"],\"attempt_ids\":[\"QRY-002\",\"QRY-003\",\"QRY-004\",\"QRY-008\",\"QRY-009\",\"QRY-010\"],\"result_ids\":[\"FCT-003\",\"FCT-005\",\"FCT-008\",\"FCT-009\",\"FCT-010\",\"FCT-011\",\"FCT-012\"],\"status\":\"SATURATED\"}"
+      ]
+    },
+    {
+      "cmd": "checkpoint",
+      "args": [
+        "--label",
+        "SCOPE",
+        "--last-completed",
+        "7",
+        "--next-action",
+        "SEARCH"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://www.gao.gov/products/gao-09-993",
+        "--query",
+        "INV-016 source fetch 1",
+        "--accept-source",
+        "--role",
+        "◈",
+        "--family",
+        "A",
+        "--title",
+        "U.S. GAO — Democracy Assistance (2009)",
+        "--canonical-id",
+        "GAO-09-993",
+        "--publication-date",
+        "2009-09-28",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "highlights/full report"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://www.gao.gov/products/gao-14-799",
+        "--query",
+        "INV-016 source fetch 2",
+        "--accept-source",
+        "--role",
+        "◈",
+        "--family",
+        "A",
+        "--title",
+        "U.S. GAO — Lessons Learned from Egypt",
+        "--canonical-id",
+        "GAO-14-799",
+        "--publication-date",
+        "2014-07-24",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "highlights"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://academic.oup.com/joc/article-abstract/62/2/363/4085823",
+        "--query",
+        "INV-016 source fetch 3",
+        "--accept-source",
+        "--role",
+        "◉",
+        "--family",
+        "B",
+        "--title",
+        "Tufekci & Wilson — Tahrir protest participation",
+        "--canonical-id",
+        "JOC-2012-TUFEKCI-WILSON",
+        "--publication-date",
+        "2012-03-06",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "abstract/results"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://archive-yaleglobal.yale.edu/content/revolution-u",
+        "--query",
+        "INV-016 source fetch 4",
+        "--accept-source",
+        "--role",
+        "◉",
+        "--family",
+        "C",
+        "--title",
+        "YaleGlobal — Revolution U",
+        "--canonical-id",
+        "YALEGLOBAL-REVOLUTION-U",
+        "--publication-date",
+        "2011-02-24",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "April 6/CANVAS account"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://www.pbs.org/wgbh/pages/frontline/revolution-in-cairo/inside-april6-movement/",
+        "--query",
+        "INV-016 source fetch 5",
+        "--accept-source",
+        "--role",
+        "◉",
+        "--family",
+        "C",
+        "--title",
+        "PBS FRONTLINE — Inside April 6 Movement",
+        "--canonical-id",
+        "PBS-FRONTLINE-APRIL6",
+        "--publication-date",
+        "2011",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "movement chronology"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://wikileaks.org/plusd/cables/08CAIRO2572_a.html",
+        "--query",
+        "INV-016 source fetch 6",
+        "--accept-source",
+        "--role",
+        "◈",
+        "--family",
+        "D",
+        "--title",
+        "U.S. diplomatic cable 08CAIRO2572",
+        "--canonical-id",
+        "08CAIRO2572",
+        "--publication-date",
+        "2008-12-30",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "summary/comment"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://www.iri.org/news/new-york-times-discusses-iris-support-for-democracy-groups-in-egypt/",
+        "--query",
+        "INV-016 source fetch 7",
+        "--accept-source",
+        "--role",
+        "◉",
+        "--family",
+        "other:iri",
+        "--title",
+        "IRI republication — U.S. Groups Helped Nurture Arab Uprisings",
+        "--canonical-id",
+        "IRI-NYT-2011",
+        "--publication-date",
+        "2011-04-14",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "reported training/funding"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://journals.sagepub.com/doi/full/10.1089/cyber.2011.0177",
+        "--query",
+        "INV-016 source fetch 8",
+        "--accept-source",
+        "--role",
+        "◉",
+        "--family",
+        "E",
+        "--title",
+        "Marzouki et al. — Facebook and Tunisian Revolution",
+        "--canonical-id",
+        "CYBER-2012-TUNISIA",
+        "--publication-date",
+        "2012-04-23",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "abstract"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://academic.oup.com/book/8138/chapter-abstract/153623879",
+        "--query",
+        "INV-016 source fetch 9",
+        "--accept-source",
+        "--role",
+        "◉",
+        "--family",
+        "E",
+        "--title",
+        "Breuer — Social Media in Tunisian Revolution",
+        "--canonical-id",
+        "OUP-BREUER-2016",
+        "--publication-date",
+        "2016-08-18",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "abstract"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://orbi.uliege.be/handle/2268/178830",
+        "--query",
+        "INV-016 source fetch 10",
+        "--accept-source",
+        "--role",
+        "◉",
+        "--family",
+        "other:orbi",
+        "--title",
+        "Lecomte — Révolution tunisienne et Internet",
+        "--canonical-id",
+        "LECOMTE-2011",
+        "--publication-date",
+        "2011",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "abstract/full text metadata"
+      ]
+    },
+    {
+      "cmd": "record-query",
+      "args": [
+        "--mode",
+        "FETCH",
+        "--result",
+        "ACCEPTED",
+        "--url",
+        "https://www.ned.org/publications-test-2/",
+        "--query",
+        "INV-016 source fetch 11",
+        "--accept-source",
+        "--role",
+        "◉",
+        "--family",
+        "other:ned",
+        "--title",
+        "NED — Annual reports index 2010–2012",
+        "--canonical-id",
+        "NED-ANNUAL-INDEX",
+        "--publication-date",
+        "2012",
+        "--checked-at",
+        "2026-09-11T08:42:00+00:00",
+        "--locator",
+        "2010/2011 annual report descriptions"
+      ]
+    },
+    {
+      "cmd": "checkpoint",
+      "args": [
+        "--label",
+        "SEARCH",
+        "--last-completed",
+        "9",
+        "--next-action",
+        "FACTS"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://www.gao.gov/products/gao-09-993",
+        "--sources",
+        "SRC-001",
+        "--date",
+        "2009-09-28",
+        "--subject",
+        "U.S. democracy assistance in Egypt before 2011",
+        "--value",
+        "GAO reports about $154.8 million in governance/justice/democracy funding allocated to Egypt over FY2006-2008, placing Egypt among the larger recipients outside Iraq/Afghanistan.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://www.gao.gov/products/gao-09-993",
+        "--sources",
+        "SRC-001",
+        "--date",
+        "2009-09-28",
+        "--subject",
+        "Content of U.S. democracy assistance",
+        "--value",
+        "U.S. democracy assistance programs included civic participation, civil-society strengthening, media freedom/freedom of information and related governance activities; funding was implemented through USAID, State DRL and NED structures.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://academic.oup.com/joc/article-abstract/62/2/363/4085823",
+        "--sources",
+        "SRC-003",
+        "--date",
+        "2012-03-06",
+        "--subject",
+        "Egypt social media and first-day protest participation",
+        "--value",
+        "A survey of Tahrir participants found that, controlling for other factors, social-media use greatly increased the odds a respondent attended protests on the first day; information was primarily interpersonal via Facebook, phone or face-to-face contact.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://academic.oup.com/joc/article-abstract/62/2/363/4085823",
+        "--sources",
+        "SRC-003",
+        "--date",
+        "2012-03-06",
+        "--subject",
+        "Egypt protest media production",
+        "--value",
+        "About half of surveyed Tahrir participants produced and disseminated visual material from demonstrations, mainly through Facebook, documenting an information/amplification function distinct from regime-change causality.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://archive-yaleglobal.yale.edu/content/revolution-u",
+        "--sources",
+        "SRC-004,SRC-005",
+        "--date",
+        "2011-02-24",
+        "--subject",
+        "2008 Facebook mobilization negative control",
+        "--value",
+        "The April 6 Facebook page rapidly accumulated roughly 70,000 followers in 2008, yet planned solidarity protests largely fizzled outside Mahalla under repression and organizational uncertainty, showing online reach was not sufficient for successful street mobilization.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://archive-yaleglobal.yale.edu/content/revolution-u",
+        "--sources",
+        "SRC-004,SRC-005",
+        "--date",
+        "2011-02-24",
+        "--subject",
+        "CANVAS tactical training transfer",
+        "--value",
+        "April 6 activist Mohamed Adel traveled to Serbia in 2009 and received training in nonviolent organization and street-mobilization tactics associated with CANVAS/Otpor, then returned to Egypt and trained others.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://www.iri.org/news/new-york-times-discusses-iris-support-for-democracy-groups-in-egypt/",
+        "--sources",
+        "SRC-007",
+        "--date",
+        "2011-04-14",
+        "--subject",
+        "Reported U.S.-financed democracy training links",
+        "--value",
+        "A contemporaneous report republished by IRI stated that Arab activists, including figures linked to Egypt’s April 6 movement, had received training or support from U.S.-financed democracy organizations; this establishes a reported support network, not an authenticated command chain.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://wikileaks.org/plusd/cables/08CAIRO2572_a.html",
+        "--sources",
+        "SRC-006",
+        "--date",
+        "2008-12-30",
+        "--subject",
+        "April 6 activist contact with U.S. officials",
+        "--value",
+        "A 2008 U.S. diplomatic cable records an April 6 activist’s participation in an Alliance of Youth Movements summit and meetings with U.S. officials and think tanks; the embassy explicitly expressed doubt about his claim of a coordinated opposition transition plan.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://journals.sagepub.com/doi/full/10.1089/cyber.2011.0177",
+        "--sources",
+        "SRC-008",
+        "--date",
+        "2012-04-23",
+        "--subject",
+        "Tunisia Facebook perceived catalyst",
+        "--value",
+        "A post-revolution online survey of 333 Tunisian Internet users identified political, informational and media-platform functions through which respondents perceived Facebook as a catalyst in the revolution.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://academic.oup.com/book/8138/chapter-abstract/153623879",
+        "--sources",
+        "SRC-009",
+        "--date",
+        "2016-08-18",
+        "--subject",
+        "Tunisia social media coalition mechanisms",
+        "--value",
+        "Research using expert interviews and a web survey of 608 Tunisian Facebook users argues that social media helped build networks, circumvent the media blackout, mitigate collective-action problems and support a national protest identity.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://orbi.uliege.be/handle/2268/178830",
+        "--sources",
+        "SRC-010",
+        "--date",
+        "2011",
+        "--subject",
+        "Tunisia e-revolution caution",
+        "--value",
+        "Lecomte describes Internet/social-media use as a catalyst for a protest movement born in Sidi Bouzid while warning against the e-revolution narrative that treats social networks as the triggering cause.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://www.gao.gov/products/gao-14-799",
+        "--sources",
+        "SRC-002",
+        "--date",
+        "2014-07-24",
+        "--subject",
+        "Post-2011 U.S. democracy assistance and NGO trial",
+        "--value",
+        "GAO found that Egypt’s prosecution of four U.S. NGOs significantly disrupted U.S. democracy-and-governance assistance after 2011; the U.S. government provided diplomatic, legal and grant-flexibility support, demonstrating an assistance infrastructure without proving orchestration of the 2011 uprising.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "record-fact",
+      "args": [
+        "--epi",
+        "FACT",
+        "--tier",
+        "✧",
+        "--url",
+        "https://www.ned.org/publications-test-2/",
+        "--sources",
+        "SRC-011",
+        "--date",
+        "2012",
+        "--subject",
+        "Temporal control on NED Arab Spring response",
+        "--value",
+        "NED describes responding to the Arab Spring as a priority in 2011 and continued a broad global grants program; post-uprising expansion or response cannot by itself be back-projected as evidence of pre-uprising tasking.",
+        "--mem",
+        "-"
+      ]
+    },
+    {
+      "cmd": "assert-counts",
+      "args": [
+        "--json",
+        "{\"AXS\":3}"
+      ]
+    },
+    {
+      "cmd": "checkpoint",
+      "args": [
+        "--label",
+        "FACTS",
+        "--last-completed",
+        "10",
+        "--next-action",
+        "CAUSAL"
+      ]
+    }
+  ]
+}

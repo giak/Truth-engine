@@ -1,0 +1,34 @@
+id,title,type,truth_engine,renard,package_class,result_path
+INV-001,"Audit d’intégrité du corpus Substack : manifest, doublons, absents, versions, contradictions index/CSV/HTML",STRUCTURAL,N/A_STRUCTURAL,NO,STRUCTURAL_FULL,INV-001/INV-001-R1_REPLAY.md
+INV-002,"Cartographie des articles : faits établis, hypothèses, claims forts, réfutations, gaps, acteurs, flux, mécanismes",STRUCTURAL,N/A_CORPUS_MAPPING,NO,STRUCTURAL_FULL,INV-002/INV-002_REPORT.md
+INV-003,"Taxonomie générale du pouvoir d’influence : persuasion, lobbying, propagande, manipulation, astroturfing, capture, corruption, coercition, ingérence, subversion, psyops",CONTROL_SPEC,N/A_METHOD,N/A_METHOD,METHOD_PACK_CANONICAL,METHOD_PACK/METHOD_PACK.md
+INV-004,Échelle probatoire de l’influence : intérêt → capacité → accès → action → coordination → exposition → persuasion → comportement → impact,CONTROL_SPEC,N/A_METHOD,N/A_METHOD,METHOD_PACK_CANONICAL,METHOD_PACK/METHOD_PACK.md
+INV-005,"Mesurer réellement l’effet d’une opération d’influence : contrefactuels, causalité, attribution, exposition, persuasion, changement électoral",CONTROL_SPEC,N/A_METHOD,N/A_METHOD,METHOD_PACK_CANONICAL,METHOD_PACK/METHOD_PACK.md
+INV-006,Source officielle et vérité : valeur des sources primaires sans privilège automatique de véracité interprétative,CONTROL_SPEC,N/A_METHOD,N/A_METHOD,METHOD_PACK_CANONICAL,METHOD_PACK/METHOD_PACK.md
+INV-007,Méthodologie anti-faux-complot : réseau ≠ coordination ; financeur ≠ commanditaire ; convergence ≠ planification ; corrélation ≠ causalité,CONTROL_SPEC,N/A_METHOD,N/A_METHOD,METHOD_PACK_CANONICAL,METHOD_PACK/METHOD_PACK.md
+INV-008,"Contre-théories obligatoires : pluralisme, capture sectorielle, réseaux, émergence sans chef, coordinations ponctuelles, architecture cohérente",CONTROL_SPEC,N/A_METHOD,N/A_METHOD,METHOD_PACK_CANONICAL,METHOD_PACK/METHOD_PACK.md
+INV-010,"CIA et élections étrangères : Italie, Chili et autres cas documentés ; techniques, argent, médias, partis, résultats",PRIMARY,DELIVERY_PASS_R2A2,CLOSED_NO_FURTHER_MATERIAL_DELTA,LEGACY_CERTIFIED_BUNDLE_R2A2,INV-010_RUN_HANDOFF.md
+INV-019,"États-Unis : architecture publique de promotion de la démocratie — State Department, USAID, NED, USAGM, médias/société civile/élections",PRIMARY,DELIVERY_PASS_R2A2,NO,LEGACY_CERTIFIED_BUNDLE_R2A2,INV-019_RUN_HANDOFF.md
+INV-022,"Russie : opérations d’influence visant la France — acteurs, infrastructures, campagnes, audiences, impacts réels",PRIMARY,DELIVERY_PASS_R3,NO,R3_FULL_FORENSIC+CANONICAL6,INV-022_RUN_HANDOFF.md
+INV-023,"Russie : financement, contacts et relations avec partis/mouvements européens",CASE,DELIVERY_PASS_R3P1,NO,R3P1_CANONICAL6+HANDOFF,INV-023_RUN_HANDOFF.md
+INV-026,"Israël : influence étatique, diplomatique, industrielle, sécuritaire et informationnelle en France/UE",PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-026_RUN_HANDOFF.md
+INV-033,"Émirats arabes unis : influence clandestine et réputationnelle en Europe, dont réseaux de renseignement privé lorsque démontrés",PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-033_RUN_HANDOFF.md
+INV-039,"Qui exerce réellement le pouvoir dans l’UE ? Commission, Conseil, Parlement, CJUE, BCE, États, lobbies",PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-039_RUN_HANDOFF.md
+INV-044,European Democracy Shield / EDMO / EUvsDisinfo / anti-FIMI : appareil européen de défense cognitive,PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-044_RUN_HANDOFF.md
+INV-049,"Open Society Foundations / George Soros : flux réels, bénéficiaires, objectifs, mécanismes, effets ; tester mythologie et dénégation naïve",PRIMARY,DELIVERY_PASS_R2A2,CLOSED_NO_FURTHER_MATERIAL_DELTA,LEGACY_CERTIFIED_BUNDLE_R2A2,INV-049_RUN_HANDOFF.md
+INV-054,ONG de droits humains et contentieux stratégique : recours judiciaire comme instrument de transformation politique,PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-054_RUN_HANDOFF.md
+INV-071,"VIGINUM : doctrine, critères, données, attribution, mesure d’impact et accountability",PRIMARY,DELIVERY_PASS_R2A2,NO,LEGACY_CERTIFIED_BUNDLE_R2A2,INV-071_RUN_HANDOFF.md
+INV-081,Propriété réelle des médias français : reconstruire les chiffres sans reprendre 9 milliardaires/80-90 % sans dénominateur,PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-081_RUN_HANDOFF.md
+INV-093,"Financement des campagnes françaises : argent, prêts, micro-partis, prestations, contournements possibles",PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-093_RUN_HANDOFF.md
+INV-100,Annulation ou neutralisation judiciaire/administrative d’une élection : Roumanie et comparaisons internationales,PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-100_RUN_HANDOFF.md
+INV-103,Défiance institutionnelle française : mesurer précisément qui n’est plus cru et pourquoi,PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-103_RUN_HANDOFF.md
+INV-128,"Influence-for-hire : renseignement privé, cabinets d’intelligence, réputation, infiltration et campagnes clandestines pour clients étatiques ou privés",PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-128_RUN_HANDOFF.md
+INV-134,"Attribution d’ingérence : chaîne de preuve, degrés de confiance, contradictions, corrections et responsabilités",PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-134_RUN_HANDOFF.md
+INV-135,"Hack-and-leak, kompromat et divulgations synchronisées : voler, authentifier, falsifier ou publier pour peser sur une élection",PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-135_RUN_HANDOFF.md
+INV-136,"Corruption étrangère au cœur des institutions européennes : Qatargate/Morocco, Huawei et diplomatie des cadeaux",PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-136_RUN_HANDOFF.md
+INV-137,Renseignement → exécutif → médias : la chaîne d’attribution anonyme comme dispositif d’influence,PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-137_RUN_HANDOFF.md
+INV-138,"France comme puissance d’influence à l’étranger : diplomatie, AFD, médias internationaux, réseaux politiques, assistance électorale et renseignement",PRIMARY,DELIVERY_PASS_R3P1,NO,R3P1_CANONICAL_ASSEMBLED,INV-138_RUN_HANDOFF.md
+INV-139,"Union européenne comme puissance d’influence extérieure : société civile, observation électorale, partis, conditionnalité et sanctions",PRIMARY,DELIVERY_PASS_R3P1,NO,RECOVERY_HANDOFF_ONLY,INV-139_RECOVERY_HANDOFF.md
+INV-140,"Financement étranger indirect de l’espace électoral : ONG, médias, fondations, think tanks et campagnes thématiques hors partis",PRIMARY,DELIVERY_PASS_R3P1,NO,RECOVERY_HANDOFF_ONLY,INV-140_RECOVERY_HANDOFF.md
+INV-145,"Qui est un « agent étranger » ? FARA, dispositifs français et européens : mêmes mécanismes, qualifications et sanctions asymétriques",PRIMARY,DELIVERY_PASS_R3P1,NO,CERTIFIED_BUNDLE,INV-145_RUN_HANDOFF.md
+INV-146,"Asymétrie alliés/adversaires : mêmes mécanismes, mêmes standards de preuve, mêmes mots ?",SYNTHESIS,NOT_RUN,NO,SYNTHESIS_BUNDLE,INV-146_RUN_HANDOFF.md

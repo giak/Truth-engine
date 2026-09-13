@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:f54648cdd47fc70661ebc58bb42ced2549e7f061e7f3f932e79572f7ef0ae673",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-06_pouvoir-institutions-ue/2026-09-06_16-39_pouvoir-institutions-ue_INVESTIGATION.md",
+  "deliverable_sha256": "ca5113fdeba13fe444538d3d76cc80227d811a50356a002398312d16e1838e8c",
+  "created_at": "2026-09-06T14:51:11.552482+00:00"
+}

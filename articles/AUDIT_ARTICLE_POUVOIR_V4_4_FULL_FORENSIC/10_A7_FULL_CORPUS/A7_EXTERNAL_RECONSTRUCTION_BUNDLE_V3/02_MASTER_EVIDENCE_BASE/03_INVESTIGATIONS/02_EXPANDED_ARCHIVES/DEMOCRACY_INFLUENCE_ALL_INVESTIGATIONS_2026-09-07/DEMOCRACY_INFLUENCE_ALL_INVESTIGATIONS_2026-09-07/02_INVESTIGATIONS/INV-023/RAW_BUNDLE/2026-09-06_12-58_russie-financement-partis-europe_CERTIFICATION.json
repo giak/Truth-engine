@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:5387f98e19537966c72cca2c73b21c48871f65521f25d84ffaa24a7aaf02b022",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-06_russie-financement-partis-europe/2026-09-06_12-58_russie-financement-partis-europe_INVESTIGATION.md",
+  "deliverable_sha256": "d0d9a8e5fb4c1fcc6dcdb3002b2cba5854b7704d4075a5e3d148df670909863c",
+  "created_at": "2026-09-06T11:36:44.541138+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "a7-external-reconstruction-bundle/v3",
+  "created_utc": "2026-09-12T10:50:57.365300+00:00",
+  "registry_rows": 157,
+  "closed_total": 134,
+  "closed_primary_case": 113,
+  "historical_primary_case": 100,
+  "delta_13": [
+    "INV-024",
+    "INV-031",
+    "INV-123",
+    "INV-148",
+    "INV-149",
+    "INV-150",
+    "INV-151",
+    "INV-152",
+    "INV-153",
+    "INV-154",
+    "INV-155",
+    "INV-156",
+    "INV-157"
+  ],
+  "article_v3_sha256": "69ab96b87234f0b4f60e4354fac7283740227707f2a07a5006db6fec4e6c24d9",
+  "manifest_entries": 3449
+}

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "dc7234b8040eace2a46f09209eab7212cdb2bdf2",
+  "state_id": "sha256:c38ef5c6ba5f7c9d1a1600a0d7a21e65ea89f715eda9546bb9ceffcf328d712d",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-05_cia-elections-etrangeres-r4/2026-09-05_16-35_cia-elections-etrangeres-r4_INVESTIGATION.md",
+  "deliverable_sha256": "b255454d184dbdad3e4e9417848c9c0e43cf260fffd38c15de70dcbab279bb8b",
+  "created_at": "2026-09-05T18:50:00.929651+00:00"
+}

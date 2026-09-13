@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:edbb0b030c6f366d29a560e3516fceacc28ad28446f522cdc2ed29b4ef0769c9",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "pre",
+  "deliverable": "investigations/2026-09/2026-09-11_migration-ngo-funding/2026-09-11_10-27_migration-ngo-funding_INVESTIGATION.md",
+  "deliverable_sha256": "d0a09bec0d3867c67fa2e481b9f32299eed72031fffcefece700e48794da1ca6",
+  "created_at": "2026-09-11T08:33:56.533182+00:00"
+}

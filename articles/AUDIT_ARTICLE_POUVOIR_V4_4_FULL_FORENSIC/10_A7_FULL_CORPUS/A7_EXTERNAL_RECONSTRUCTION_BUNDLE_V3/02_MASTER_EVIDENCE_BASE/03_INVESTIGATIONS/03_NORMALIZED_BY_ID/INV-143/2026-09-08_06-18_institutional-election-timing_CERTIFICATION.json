@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:089a22904192e13c9546b2956eecf93ac1e5d00278866aa3050b129d67a67fe1",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-08_institutional-election-timing/2026-09-08_06-18_institutional-election-timing_INVESTIGATION.md",
+  "deliverable_sha256": "7bd52e8ce923565a55b3157de5b21332b6f39837dc5ee7b2c15502de05b31e30",
+  "created_at": "2026-09-08T04:45:03.967652+00:00"
+}

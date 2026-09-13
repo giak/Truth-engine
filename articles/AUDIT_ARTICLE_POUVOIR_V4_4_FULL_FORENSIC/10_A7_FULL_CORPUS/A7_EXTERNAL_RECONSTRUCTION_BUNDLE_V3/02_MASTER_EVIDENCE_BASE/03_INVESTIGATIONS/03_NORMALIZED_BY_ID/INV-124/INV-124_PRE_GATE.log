@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:62fafbe772de9bdcc02f4be8151b800d834393f76ee1719c659b095e17ccdf6e",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "pre",
+  "deliverable": "investigations/2026-09/2026-09-07_debanking-coercion-europe/2026-09-07_21-26_debanking-coercion-europe_INVESTIGATION.md",
+  "deliverable_sha256": "36168f3e06963740259fe9a5c92937a78563877ace2da3256bd25aaf75366212",
+  "created_at": "2026-09-07T19:43:38.557124+00:00"
+}

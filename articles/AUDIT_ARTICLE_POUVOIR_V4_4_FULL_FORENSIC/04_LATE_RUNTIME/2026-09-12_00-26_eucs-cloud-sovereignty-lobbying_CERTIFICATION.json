@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "default",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:9fbde237a5295f2f54a28405c8aa893b3ca575587306ee9ac55f630f0fc318d9",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-12_eucs-cloud-sovereignty-lobbying/2026-09-12_00-26_eucs-cloud-sovereignty-lobbying_INVESTIGATION.md",
+  "deliverable_sha256": "b8989066afc0a4ebf0281bac155ce5172e5640af12786c3a07bc603ae8bdd53d",
+  "created_at": "2026-09-11T22:30:30.683709+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "task": "default",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:17b93b3a36f5f1614bdde056aea3ec1a0fd72dfbe957e529ff6e4b1ddc473d6d",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "/mnt/data/INV156_CERTIFIED_RECLASS_NEXT_2026-09-11/INV-156/2026-09-11_21-36_procurement-intermediaires-commissions_INVESTIGATION.md",
+  "deliverable_sha256": "47f778452ba307851428541da389852ffc43c7c19daa70960d80327568b66ef4",
+  "created_at": "2026-09-11T19:55:30+00:00",
+  "execution_context": "PROTOCOL_RECONSTRUCTION_NOT_CANONICAL_REGISTRY_APPLY",
+  "canonical_registry_applied": false,
+  "canonical_registry_gap": "INV-148/INV-156/INV-157 absent from current Library INVESTIGATION_REGISTRY.csv"
+}

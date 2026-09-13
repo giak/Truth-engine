@@ -1,0 +1,22 @@
+{
+  "trace_schema": "forensic-json/v1",
+  "project": "democracy-influence-investigations",
+  "artifact_type": "synthesis_certification",
+  "artifact_id": "INV-082-CERTIFICATION",
+  "version": "1.0",
+  "updated": "2026-09-08T04:50:00+02:00",
+  "inv_id": "INV-082",
+  "verdict": "SYNTHESIS_PASS",
+  "truth_engine": "NOT_RUN_BY_DESIGN",
+  "input_gate": "PASS",
+  "dependencies_closed": 2,
+  "canonical_terminal_handoffs": 2,
+  "recovery_handoffs": 0,
+  "p0": 0,
+  "p1": 0,
+  "p2": 3,
+  "renard": "NO",
+  "synthesis_sha256": "c9b3824143ca02980d5798b273f3c329bf12beccb492fdb56ea6fa1ef06a0dcd",
+  "handoff_sha256": "7aed8e1661ed1ab92911f9efdbdb881c2925551d92f1e3282bd39cbd7fcf10ee",
+  "input_gate_sha256": "f508a80a389d659e8acdc51e0e15ed91ce209ef3938d3bb617e2be745938b023"
+}

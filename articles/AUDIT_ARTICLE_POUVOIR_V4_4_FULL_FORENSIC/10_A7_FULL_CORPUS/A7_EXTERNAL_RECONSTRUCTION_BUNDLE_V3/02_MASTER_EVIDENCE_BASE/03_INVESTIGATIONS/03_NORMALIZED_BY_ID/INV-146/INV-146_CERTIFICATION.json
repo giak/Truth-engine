@@ -1,0 +1,28 @@
+{
+  "trace_schema": "forensic-json/v1",
+  "project": "democracy-influence-investigations",
+  "artifact_type": "synthesis_certification",
+  "artifact_id": "INV-146-CERTIFICATION",
+  "version": "1.0",
+  "updated": "2026-09-07T08:18:19+02:00",
+  "inv_id": "INV-146",
+  "verdict": "SYNTHESIS_PASS_WITH_RECOVERY",
+  "truth_engine": "NOT_RUN_BY_DESIGN",
+  "input_gate": "PASS_WITH_RECOVERY",
+  "dependencies_closed": 10,
+  "canonical_terminal_handoffs": 8,
+  "recovery_handoffs": 2,
+  "p0": 0,
+  "p1": 0,
+  "p2": 4,
+  "renard": "NO",
+  "synthesis_sha256": "9cf2a68c467cdc3a850e4494bda6b32044ee4f003d4623f4b161a62624bd3f8b",
+  "handoff_sha256": "fa9d75722e36f42fe74febe2f06f0f7144143a601fb45873115230f9ff6d4889",
+  "input_gate_sha256": "7c561d2499508e92cc3202049deb6c17309b1ad7de21c6b088a516ca54712d76",
+  "control_py_sha256": "ff96320182feb99174c197a794e34153e319ce0e5ceed59d1fff585ed4e66ad4",
+  "registry_validate": "PASS",
+  "notes": [
+    "INV-139 original final Library bytes unavailable; bounded recovery only",
+    "INV-140 original final bundle/handoff unavailable; frozen terminal narrative recovery only"
+  ]
+}

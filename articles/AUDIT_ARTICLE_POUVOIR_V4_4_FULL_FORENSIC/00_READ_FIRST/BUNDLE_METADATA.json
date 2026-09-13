@@ -1,0 +1,22 @@
+{
+  "bundle": "AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC",
+  "created": "2026-09-13",
+  "target": "ARTICLE_PUBLISH_CANDIDATE_V4_4_FR.md",
+  "article_sources": 57,
+  "a7_extracted_files": 3474,
+  "late_runtime_files": 32,
+  "total_files_before_manifest": 3532,
+  "physical_corpus_index_rows": 113,
+  "physical_corpus_found": 113,
+  "known_missing_direct_terminal": [
+    "INV-035"
+  ],
+  "known_bounded_recovery": [
+    "INV-044",
+    "INV-139",
+    "INV-140"
+  ],
+  "late_handoff_only_current_surface": [
+    "INV-155"
+  ]
+}

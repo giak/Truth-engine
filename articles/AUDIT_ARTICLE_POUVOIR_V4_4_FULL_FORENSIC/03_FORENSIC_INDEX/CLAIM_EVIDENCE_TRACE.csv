@@ -1,0 +1,446 @@
+claim_id,forensic_id,raw_kind,origin_refs,source_status,current_epi,disposition,support_fct_count,unique_source_urls,unique_source_families,primary_source_signal,quantitative_signal,causal_signal,e4_design_signal,evidence_level,classification_reason,scope,scope_reason
+C-FM-0004,FM-0004,CLM,INV-001:CLM-001,SATURATED,INFERENCE,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0005,FM-0005,CLM,INV-001:CLM-002,SATURATED,INFERENCE,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0006,FM-0006,CLM,INV-001:CLM-003,SATURATED,INFERENCE,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0007,FM-0007,CLM,INV-001:CLM-004,SATURATED,INFERENCE,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0008,FM-0008,CLM,INV-001:CLM-005;INV-007:FCT-003;INV-026:CLM-005;INV-042:FCT-006,GAP,BOUNDED,RESOLVED,3,3,4,YES,NO,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,NATIONAL,explicit France/national keyword
+C-FM-0016,FM-0016,AXS,INV-001:AXS-008,N/A,UNKNOWN,DEPRIORITIZED,0,0,0,NO,NO,NO,NO,E1,R1 non-finding/documentary gap only; underlying proposition remains UNKNOWN,OTHER,no safe geographic inference
+C-FM-0017,FM-0017,CAU,INV-001:CAU-001;INV-005:FCT-003;INV-038:FCT-007;INV-041:FCT-003,GAP,UNKNOWN,BLOCKED,4,4,3,NO,NO,YES,NO,E2,R1 non-finding bounded by multiple concrete observations/sources; underlying proposition remains UNKNOWN,OTHER,no safe geographic inference
+C-FM-0018,FM-0018,FCT,INV-001:FCT-001,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0019,FM-0019,FCT,INV-001:FCT-002,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0020,FM-0020,FCT,INV-001:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0021,FM-0021,FCT,INV-001:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0022,FM-0022,FCT,INV-001:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,NO,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0024,FM-0024,CLM,INV-002:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0026,FM-0026,CAU,INV-002:CAU-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0027,FM-0027,FCT,INV-002:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0028,FM-0028,FCT,INV-002:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0029,FM-0029,FCT,INV-002:FCT-003,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,OTHER,no safe geographic inference
+C-FM-0030,FM-0030,FCT,INV-002:FCT-004,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0031,FM-0031,FCT,INV-002:FCT-005,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,OTHER,no safe geographic inference
+C-FM-0033,FM-0033,CLM,INV-003:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E0,R0 open investigative proposition: no positive assertion right,OTHER,no safe geographic inference
+C-FM-0035,FM-0035,CAU,INV-003:CAU-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0036,FM-0036,FCT,INV-003:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0037,FM-0037,FCT,INV-003:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0038,FM-0038,FCT,INV-003:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0039,FM-0039,FCT,INV-003:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0040,FM-0040,FCT,INV-003:FCT-005,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0042,FM-0042,CLM,INV-004:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,SAMPLE,explicit panel/sample keyword
+C-FM-0044,FM-0044,CAU,INV-004:CAU-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0045,FM-0045,FCT,INV-004:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0046,FM-0046,FCT,INV-004:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0047,FM-0047,FCT,INV-004:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0048,FM-0048,FCT,INV-004:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0049,FM-0049,FCT,INV-004:FCT-005,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0051,FM-0051,CLM,INV-005:CLM-001,PARTIAL,UNKNOWN,DEPRIORITIZED,0,0,0,NO,YES,YES,NO,E0,R0 open investigative proposition: no positive assertion right,NATIONAL,explicit France/national keyword
+C-FM-0053,FM-0053,CAU,INV-005:CAU-001;INV-005:FCT-003;INV-038:FCT-007;INV-041:FCT-003,UNRESOLVED,UNKNOWN,BLOCKED,3,3,3,NO,YES,YES,NO,E2,R1 non-finding bounded by multiple concrete observations/sources; underlying proposition remains UNKNOWN,NATIONAL,explicit France/national keyword
+C-FM-0054,FM-0054,FCT,INV-005:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0055,FM-0055,FCT,INV-005:FCT-002,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0056,FM-0056,FCT,INV-005:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0057,FM-0057,FCT,INV-005:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0058,FM-0058,FCT,INV-005:FCT-005,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,SAMPLE,explicit panel/sample keyword
+C-FM-0060,FM-0060,CLM,INV-006:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0062,FM-0062,CAU,INV-006:CAU-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0063,FM-0063,FCT,INV-006:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,SAMPLE,explicit panel/sample keyword
+C-FM-0064,FM-0064,FCT,INV-006:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0065,FM-0065,FCT,INV-006:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,SAMPLE,explicit panel/sample keyword
+C-FM-0066,FM-0066,FCT,INV-006:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0067,FM-0067,FCT,INV-006:FCT-005,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,SAMPLE,explicit panel/sample keyword
+C-FM-0069,FM-0069,CLM,INV-007:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0071,FM-0071,CAU,INV-007:CAU-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0072,FM-0072,FCT,INV-007:FCT-001,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0073,FM-0073,FCT,INV-007:FCT-002,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0074,FM-0074,FCT,INV-007:FCT-003,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0075,FM-0075,FCT,INV-007:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0076,FM-0076,FCT,INV-007:FCT-005,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0078,FM-0078,CLM,INV-008:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E0,R0 open investigative proposition: no positive assertion right,OTHER,no safe geographic inference
+C-FM-0080,FM-0080,CAU,INV-008:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,2,NO,NO,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0081,FM-0081,FCT,INV-008:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0082,FM-0082,FCT,INV-008:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,SAMPLE,explicit panel/sample keyword
+C-FM-0083,FM-0083,FCT,INV-008:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0084,FM-0084,FCT,INV-008:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0085,FM-0085,FCT,INV-008:FCT-005,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,YES,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0087,FM-0087,CLM,INV-009:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,NO,NO,E0,R0 open investigative proposition: no positive assertion right,OTHER,no safe geographic inference
+C-FM-0088,FM-0088,CLM,INV-009:CLM-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,NO,NO,E0,R0 open investigative proposition: no positive assertion right,OTHER,no safe geographic inference
+C-FM-0089,FM-0089,CLM,INV-009:CLM-003,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,NO,NO,E0,R0 open investigative proposition: no positive assertion right,OTHER,no safe geographic inference
+C-FM-0093,FM-0093,CAU,INV-009:CAU-001,GAP,UNKNOWN,BLOCKED,0,0,0,NO,NO,YES,NO,E1,R1 non-finding/documentary gap only; underlying proposition remains UNKNOWN,NATIONAL,explicit France/national keyword
+C-FM-0094,FM-0094,FCT,INV-009:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0095,FM-0095,FCT,INV-009:FCT-002,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0096,FM-0096,FCT,INV-009:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0097,FM-0097,FCT,INV-009:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0098,FM-0098,FCT,INV-009:FCT-005,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0100,FM-0100,CLM,INV-010:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0101,FM-0101,CLM,INV-010:CLM-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0102,FM-0102,CLM,INV-010:CLM-003,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0106,FM-0106,CAU,INV-010:CAU-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0107,FM-0107,FCT,INV-010:FCT-001,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0108,FM-0108,FCT,INV-010:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0109,FM-0109,FCT,INV-010:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0110,FM-0110,FCT,INV-010:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0111,FM-0111,FCT,INV-010:FCT-005,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0113,FM-0113,CLM,INV-011:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,NO,NO,E1,R9 documentary claim without stronger quantitative/corroborative basis,OTHER,no safe geographic inference
+C-FM-0114,FM-0114,CLM,INV-011:CLM-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,NO,NO,E1,R9 documentary claim without stronger quantitative/corroborative basis,OTHER,no safe geographic inference
+C-FM-0115,FM-0115,CLM,INV-011:CLM-003,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,NO,NO,E0,R0 open investigative proposition: no positive assertion right,OTHER,no safe geographic inference
+C-FM-0119,FM-0119,CAU,INV-011:CAU-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,NATIONAL,explicit France/national keyword
+C-FM-0120,FM-0120,FCT,INV-011:FCT-001,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0121,FM-0121,FCT,INV-011:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0122,FM-0122,FCT,INV-011:FCT-003,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0123,FM-0123,FCT,INV-011:FCT-004,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0124,FM-0124,FCT,INV-011:FCT-005,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0126,FM-0126,CLM,INV-012:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,NO,NO,E0,R0 open investigative proposition: no positive assertion right,NATIONAL,explicit France/national keyword
+C-FM-0127,FM-0127,CLM,INV-012:CLM-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,YES,NO,E0,R0 open investigative proposition: no positive assertion right,OTHER,no safe geographic inference
+C-FM-0128,FM-0128,CLM,INV-012:CLM-003,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E0,R0 open investigative proposition: no positive assertion right,OTHER,no safe geographic inference
+C-FM-0132,FM-0132,CAU,INV-012:CAU-001,GAP,UNKNOWN,BLOCKED,0,0,0,NO,NO,YES,NO,E1,R1 non-finding/documentary gap only; underlying proposition remains UNKNOWN,OTHER,no safe geographic inference
+C-FM-0133,FM-0133,FCT,INV-012:FCT-001,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0134,FM-0134,FCT,INV-012:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0135,FM-0135,FCT,INV-012:FCT-003,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0136,FM-0136,FCT,INV-012:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0137,FM-0137,FCT,INV-012:FCT-005,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0141,FM-0141,CLM,INV-013:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0142,FM-0142,CLM,INV-013:CLM-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0143,FM-0143,CLM,INV-013:CLM-003,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0149,FM-0149,CAU,INV-013:CAU-001,SATURATED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0150,FM-0150,CAU,INV-013:CAU-002,SATURATED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0151,FM-0151,FCT,INV-013:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0152,FM-0152,FCT,INV-013:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0153,FM-0153,FCT,INV-013:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0154,FM-0154,FCT,INV-013:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0155,FM-0155,FCT,INV-013:FCT-005,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0157,FM-0157,CLM,INV-014:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0159,FM-0159,CAU,INV-014:CAU-001,SATURATED,INFERENCE,RESOLVED,1,1,2,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0160,FM-0160,FCT,INV-014:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0161,FM-0161,FCT,INV-014:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0162,FM-0162,FCT,INV-014:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0164,FM-0164,CLM,INV-015:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E0,R0 open investigative proposition: no positive assertion right,OTHER,no safe geographic inference
+C-FM-0166,FM-0166,CAU,INV-015:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,2,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0167,FM-0167,FCT,INV-015:FCT-001,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,OTHER,no safe geographic inference
+C-FM-0168,FM-0168,FCT,INV-015:FCT-002,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0169,FM-0169,FCT,INV-015:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0170,FM-0170,FCT,INV-015:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0171,FM-0171,FCT,INV-015:FCT-005,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,OTHER,no safe geographic inference
+C-FM-0173,FM-0173,CLM,INV-016:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0175,FM-0175,CAU,INV-016:CAU-001,SATURATED,INFERENCE,RESOLVED,1,1,2,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0176,FM-0176,CAU,INV-016:CAU-002,SATURATED,INFERENCE,RESOLVED,1,1,2,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0177,FM-0177,FCT,INV-016:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0178,FM-0178,FCT,INV-016:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0179,FM-0179,FCT,INV-016:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0180,FM-0180,FCT,INV-016:FCT-004,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0181,FM-0181,FCT,INV-016:FCT-005,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0186,FM-0186,CLM,INV-017:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0187,FM-0187,CLM,INV-017:CLM-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0192,FM-0192,CAU,INV-017:CAU-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,YES,NO,E1,R6 mechanism described without quantitative/design support,OTHER,no safe geographic inference
+C-FM-0193,FM-0193,CAU,INV-017:CAU-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,YES,NO,E1,R6 mechanism described without quantitative/design support,OTHER,no safe geographic inference
+C-FM-0194,FM-0194,FCT,INV-017:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0195,FM-0195,FCT,INV-017:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0196,FM-0196,FCT,INV-017:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0197,FM-0197,FCT,INV-017:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0198,FM-0198,FCT,INV-017:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0199,FM-0199,FCT,INV-017:FCT-006,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0200,FM-0200,FCT,INV-017:FCT-007,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0201,FM-0201,FCT,INV-017:FCT-008,FACT,FACT,RESOLVED,1,1,1,NO,NO,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0205,FM-0205,CLM,INV-018:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0206,FM-0206,CLM,INV-018:CLM-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0207,FM-0207,CLM,INV-018:CLM-003,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0210,FM-0210,CAU,INV-018:CAU-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,NO,YES,NO,E1,R6 mechanism described without quantitative/design support,OTHER,no safe geographic inference
+C-FM-0211,FM-0211,CAU,INV-018:CAU-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0212,FM-0212,FCT,INV-018:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0213,FM-0213,FCT,INV-018:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0214,FM-0214,FCT,INV-018:FCT-003,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0215,FM-0215,FCT,INV-018:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0216,FM-0216,FCT,INV-018:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0217,FM-0217,FCT,INV-018:FCT-006,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0221,FM-0221,CLM,INV-019:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,NO,NO,NO,E1,R9 documentary claim without stronger quantitative/corroborative basis,OTHER,no safe geographic inference
+C-FM-0222,FM-0222,CLM,INV-019:CLM-002,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,NO,NO,NO,E1,R9 documentary claim without stronger quantitative/corroborative basis,LOCAL,local institution/site keyword
+C-FM-0225,FM-0225,CAU,INV-019:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0226,FM-0226,CAU,INV-019:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0227,FM-0227,CAU,INV-019:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,NO,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0228,FM-0228,FCT,INV-019:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0229,FM-0229,FCT,INV-019:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0230,FM-0230,FCT,INV-019:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0231,FM-0231,FCT,INV-019:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0232,FM-0232,FCT,INV-019:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0236,FM-0236,CLM,INV-020:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0237,FM-0237,CLM,INV-020:CLM-002,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0238,FM-0238,CLM,INV-020:CLM-003,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0239,FM-0239,CLM,INV-020:CLM-004,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,NO,NO,NO,E1,R9 documentary claim without stronger quantitative/corroborative basis,OTHER,no safe geographic inference
+C-FM-0242,FM-0242,CAU,INV-020:CAU-001,SATURATED,INFERENCE,RESOLVED,1,1,1,YES,NO,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0243,FM-0243,CAU,INV-020:CAU-002,SATURATED,INFERENCE,RESOLVED,1,1,1,YES,NO,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0244,FM-0244,CAU,INV-020:CAU-003,SATURATED,INFERENCE,RESOLVED,1,1,1,YES,NO,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0245,FM-0245,FCT,INV-020:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0246,FM-0246,FCT,INV-020:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0247,FM-0247,FCT,INV-020:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0248,FM-0248,FCT,INV-020:FCT-004,FACT,FACT,RESOLVED,1,1,1,YES,NO,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0249,FM-0249,FCT,INV-020:FCT-005,FACT,FACT,RESOLVED,1,1,1,YES,NO,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0254,FM-0254,CLM,INV-021:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0255,FM-0255,CLM,INV-021:CLM-002,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0259,FM-0259,CAU,INV-021:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0260,FM-0260,CAU,INV-021:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,NATIONAL,explicit France/national keyword
+C-FM-0261,FM-0261,CAU,INV-021:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0262,FM-0262,FCT,INV-021:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0263,FM-0263,FCT,INV-021:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0264,FM-0264,FCT,INV-021:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0265,FM-0265,FCT,INV-021:FCT-004,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0269,FM-0269,CLM,INV-022:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0272,FM-0272,CAU,INV-022:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0273,FM-0273,CAU,INV-022:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0274,FM-0274,CAU,INV-022:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0275,FM-0275,FCT,INV-022:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0276,FM-0276,FCT,INV-022:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0277,FM-0277,FCT,INV-022:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0278,FM-0278,FCT,INV-022:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0279,FM-0279,FCT,INV-022:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0280,FM-0280,FCT,INV-022:FCT-006,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0286,FM-0286,CLM,INV-023:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0287,FM-0287,CLM,INV-023:CLM-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0288,FM-0288,CLM,INV-023:CLM-003,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0289,FM-0289,CLM,INV-023:CLM-004,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0290,FM-0290,CLM,INV-023:CLM-005,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0296,FM-0296,CAU,INV-023:CAU-001,SATURATED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0297,FM-0297,CAU,INV-023:CAU-002,SATURATED,INFERENCE,RESOLVED,1,1,2,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,NATIONAL,explicit France/national keyword
+C-FM-0298,FM-0298,FCT,INV-023:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0299,FM-0299,FCT,INV-023:FCT-002,FACT,FACT,RESOLVED,1,1,3,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0300,FM-0300,FCT,INV-023:FCT-003,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,NATIONAL,explicit France/national keyword
+C-FM-0301,FM-0301,FCT,INV-023:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0302,FM-0302,FCT,INV-023:FCT-005,FACT,FACT,RESOLVED,1,1,3,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,NATIONAL,explicit France/national keyword
+C-FM-0306,FM-0306,CLM,INV-024:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0307,FM-0307,CLM,INV-024:CLM-002,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0311,FM-0311,CAU,INV-024:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0312,FM-0312,CAU,INV-024:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0313,FM-0313,CAU,INV-024:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0314,FM-0314,FCT,INV-024:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0315,FM-0315,FCT,INV-024:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0316,FM-0316,FCT,INV-024:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0317,FM-0317,FCT,INV-024:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0321,FM-0321,CLM,INV-025:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0322,FM-0322,CLM,INV-025:CLM-002,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0325,FM-0325,CAU,INV-025:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0326,FM-0326,CAU,INV-025:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0327,FM-0327,CAU,INV-025:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0328,FM-0328,FCT,INV-025:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0329,FM-0329,FCT,INV-025:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0330,FM-0330,FCT,INV-025:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0331,FM-0331,FCT,INV-025:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0336,FM-0336,CLM,INV-026:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0337,FM-0337,CLM,INV-026:CLM-002,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0338,FM-0338,CLM,INV-026:CLM-003,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0339,FM-0339,CLM,INV-026:CLM-004,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0340,FM-0340,CLM,INV-026:CLM-005,SATURATED,INFERENCE,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0341,FM-0341,CLM,INV-026:CLM-006,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0348,FM-0348,AXS,INV-026:AXS-007,N/A,UNKNOWN,DEPRIORITIZED,0,0,0,NO,NO,NO,NO,E1,R1 non-finding/documentary gap only; underlying proposition remains UNKNOWN,OTHER,no safe geographic inference
+C-FM-0349,FM-0349,CAU,INV-026:CAU-001;INV-023:FCT-003;INV-023:FCT-004;INV-007:FCT-003,GAP,BOUNDED,RESOLVED,4,3,4,YES,NO,YES,NO,E3,R6 causal/mechanism claim constrained by multiple supports plus chronology/pre-decision/confounder evidence; causal generalisation remains bounded,OTHER,no safe geographic inference
+C-FM-0350,FM-0350,FCT,INV-026:FCT-001,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0351,FM-0351,FCT,INV-026:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0352,FM-0352,FCT,INV-026:FCT-003,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,LOCAL,local institution/site keyword
+C-FM-0353,FM-0353,FCT,INV-026:FCT-004,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0354,FM-0354,FCT,INV-026:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0355,FM-0355,FCT,INV-026:FCT-006,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,OTHER,no safe geographic inference
+C-FM-0356,FM-0356,FCT,INV-026:FCT-007,FACT,FACT,RESOLVED,1,1,2,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0361,FM-0361,CLM,INV-027:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0362,FM-0362,CLM,INV-027:CLM-002,SATURATED,INFERENCE,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0363,FM-0363,CLM,INV-027:CLM-003,SATURATED,INFERENCE,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0364,FM-0364,CLM,INV-027:CLM-004,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0365,FM-0365,CLM,INV-027:CLM-005,SATURATED,INFERENCE,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0366,FM-0366,CLM,INV-027:CLM-006,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0373,FM-0373,AXS,INV-027:AXS-007,N/A,UNKNOWN,DEPRIORITIZED,0,0,0,NO,NO,NO,NO,E1,R1 non-finding/documentary gap only; underlying proposition remains UNKNOWN,OTHER,no safe geographic inference
+C-FM-0374,FM-0374,CAU,INV-027:CAU-001;INV-023:FCT-003;INV-023:FCT-004;INV-007:FCT-003,GAP,BOUNDED,RESOLVED,5,4,4,YES,NO,YES,NO,E3,R6 causal/mechanism claim constrained by multiple supports plus chronology/pre-decision/confounder evidence; causal generalisation remains bounded,OTHER,no safe geographic inference
+C-FM-0375,FM-0375,FCT,INV-027:FCT-001,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,OTHER,no safe geographic inference
+C-FM-0376,FM-0376,FCT,INV-027:FCT-002,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0377,FM-0377,FCT,INV-027:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0378,FM-0378,FCT,INV-027:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0379,FM-0379,FCT,INV-027:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0380,FM-0380,FCT,INV-027:FCT-006,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0381,FM-0381,FCT,INV-027:FCT-007,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0384,FM-0384,CLM,INV-028:CLM-001;INV-023:FCT-003;INV-023:FCT-005,GAP,FALSIFIED,FALSIFIED,3,2,3,YES,YES,NO,NO,E3,R2 falsification/supersession supported by primary or convergent evidence,LOCAL,local institution/site keyword
+C-FM-0385,FM-0385,CLM,INV-028:CLM-002,SATURATED,INFERENCE,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0388,FM-0388,AXS,INV-028:AXS-003,N/A,UNKNOWN,DEPRIORITIZED,0,0,0,NO,NO,NO,NO,E1,R1 non-finding/documentary gap only; underlying proposition remains UNKNOWN,OTHER,no safe geographic inference
+C-FM-0389,FM-0389,CAU,INV-028:CAU-001;INV-023:FCT-003;INV-023:FCT-004;INV-007:FCT-003,GAP,BOUNDED,RESOLVED,5,5,3,YES,YES,YES,NO,E3,R6 causal/mechanism claim constrained by multiple supports plus chronology/pre-decision/confounder evidence; causal generalisation remains bounded,LOCAL,local institution/site keyword
+C-FM-0390,FM-0390,FCT,INV-028:FCT-001,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E3,R7 primary act/contract/register directly establishes the bounded fact/relation,LOCAL,local institution/site keyword
+C-FM-0391,FM-0391,FCT,INV-028:FCT-002,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0394,FM-0394,CLM,INV-029:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0395,FM-0395,CLM,INV-029:CLM-002,SATURATED,INFERENCE,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0398,FM-0398,AXS,INV-029:AXS-003,N/A,UNKNOWN,DEPRIORITIZED,0,0,0,NO,NO,NO,NO,E1,R1 non-finding/documentary gap only; underlying proposition remains UNKNOWN,OTHER,no safe geographic inference
+C-FM-0399,FM-0399,CAU,INV-029:CAU-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,NATIONAL,explicit France/national keyword
+C-FM-0400,FM-0400,FCT,INV-029:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0403,FM-0403,CLM,INV-030:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0404,FM-0404,CLM,INV-030:CLM-002,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0407,FM-0407,AXS,INV-030:AXS-003,N/A,UNKNOWN,DEPRIORITIZED,0,0,0,NO,NO,NO,NO,E1,R1 non-finding/documentary gap only; underlying proposition remains UNKNOWN,OTHER,no safe geographic inference
+C-FM-0408,FM-0408,CAU,INV-030:CAU-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0409,FM-0409,FCT,INV-030:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0412,FM-0412,CLM,INV-031:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0414,FM-0414,CAU,INV-031:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0415,FM-0415,CAU,INV-031:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0416,FM-0416,CAU,INV-031:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0417,FM-0417,FCT,INV-031:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0421,FM-0421,CLM,INV-032:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0424,FM-0424,CAU,INV-032:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0425,FM-0425,CAU,INV-032:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0426,FM-0426,CAU,INV-032:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0427,FM-0427,FCT,INV-032:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0428,FM-0428,FCT,INV-032:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0432,FM-0432,CLM,INV-033:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0435,FM-0435,CAU,INV-033:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0436,FM-0436,CAU,INV-033:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0437,FM-0437,CAU,INV-033:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0438,FM-0438,FCT,INV-033:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0439,FM-0439,FCT,INV-033:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,REGIONAL,explicit regional keyword
+C-FM-0440,FM-0440,FCT,INV-033:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0444,FM-0444,CLM,INV-034:CLM-001,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0445,FM-0445,CLM,INV-034:CLM-002,SUPPORTED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0449,FM-0449,CAU,INV-034:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0450,FM-0450,CAU,INV-034:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0451,FM-0451,CAU,INV-034:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0452,FM-0452,FCT,INV-034:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0453,FM-0453,FCT,INV-034:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0454,FM-0454,FCT,INV-034:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0455,FM-0455,FCT,INV-034:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0456,FM-0456,FCT,INV-034:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0457,FM-0457,FCT,INV-034:FCT-006,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0461,FM-0461,CLM,INV-035:CLM-001,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0462,FM-0462,CLM,INV-035:CLM-002,SATURATED,INFERENCE,RESOLVED,0,0,0,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0465,FM-0465,CAU,INV-035:CAU-001,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0466,FM-0466,CAU,INV-035:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0467,FM-0467,CAU,INV-035:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0468,FM-0468,FCT,INV-035:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0469,FM-0469,FCT,INV-035:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0470,FM-0470,FCT,INV-035:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0471,FM-0471,FCT,INV-035:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0472,FM-0472,CLM,INV-036:CLM-001,SUPPORTED,INFERENCE,RESOLVED,3,1,1,YES,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0473,FM-0473,CLM,INV-036:CLM-002,SUPPORTED,INFERENCE,RESOLVED,3,2,1,YES,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0474,FM-0474,CLM,INV-036:CLM-003,SUPPORTED,INFERENCE,RESOLVED,6,2,1,YES,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0475,FM-0475,CLM,INV-036:CLM-004,SUPPORTED,INFERENCE,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0479,FM-0479,CAU,INV-036:CAU-001,SUPPORTED,INFERENCE,RESOLVED,4,2,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0480,FM-0480,CAU,INV-036:CAU-002,SUPPORTED,INFERENCE,RESOLVED,3,3,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0481,FM-0481,CAU,INV-036:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0482,FM-0482,FCT,INV-036:FCT-001,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0483,FM-0483,FCT,INV-036:FCT-002,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0484,FM-0484,FCT,INV-036:FCT-003,FACT,FACT,RESOLVED,1,1,1,YES,NO,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0485,FM-0485,FCT,INV-036:FCT-004,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0486,FM-0486,FCT,INV-036:FCT-005,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0487,FM-0487,FCT,INV-036:FCT-006,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0488,FM-0488,FCT,INV-036:FCT-007,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0489,FM-0489,FCT,INV-036:FCT-008,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0490,FM-0490,FCT,INV-036:FCT-009,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0491,FM-0491,FCT,INV-036:FCT-010,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0492,FM-0492,FCT,INV-036:FCT-011,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0493,FM-0493,FCT,INV-036:FCT-012,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0494,FM-0494,FCT,INV-036:FCT-013,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0495,FM-0495,FCT,INV-036:FCT-014,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0496,FM-0496,FCT,INV-036:FCT-015,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0497,FM-0497,CLM,INV-037:CLM-001,SUPPORTED,INFERENCE,RESOLVED,4,2,1,YES,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0498,FM-0498,CLM,INV-037:CLM-002,SUPPORTED,INFERENCE,RESOLVED,2,1,1,YES,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0499,FM-0499,CLM,INV-037:CLM-003,SUPPORTED,INFERENCE,RESOLVED,2,1,1,YES,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,LOCAL,local institution/site keyword
+C-FM-0500,FM-0500,CLM,INV-037:CLM-004,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0507,FM-0507,CAU,INV-037:CAU-001,SUPPORTED,INFERENCE,RESOLVED,4,2,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0508,FM-0508,CAU,INV-037:CAU-002,SUPPORTED,INFERENCE,RESOLVED,2,1,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0509,FM-0509,CAU,INV-037:CAU-003,SUPPORTED,INFERENCE,RESOLVED,3,2,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0510,FM-0510,FCT,INV-037:FCT-001,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0511,FM-0511,FCT,INV-037:FCT-002,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0512,FM-0512,FCT,INV-037:FCT-003,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0513,FM-0513,FCT,INV-037:FCT-004,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0514,FM-0514,FCT,INV-037:FCT-005,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0515,FM-0515,FCT,INV-037:FCT-006,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0516,FM-0516,FCT,INV-037:FCT-007,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0517,FM-0517,FCT,INV-037:FCT-008,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0519,FM-0519,CLM,INV-038:CLM-001,SUPPORTED,INFERENCE,RESOLVED,2,1,2,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0520,FM-0520,CLM,INV-038:CLM-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0521,FM-0521,CLM,INV-038:CLM-003,SUPPORTED,INFERENCE,RESOLVED,2,2,1,NO,NO,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0524,FM-0524,CAU,INV-038:CAU-001,SUPPORTED,INFERENCE,RESOLVED,3,3,2,NO,NO,YES,NO,E3,R6 causal/mechanism claim constrained by multiple supports plus chronology/pre-decision/confounder evidence; causal generalisation remains bounded,LOCAL,local institution/site keyword
+C-FM-0525,FM-0525,CAU,INV-038:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,NO,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0526,FM-0526,FCT,INV-038:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0527,FM-0527,FCT,INV-038:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0528,FM-0528,FCT,INV-038:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0529,FM-0529,FCT,INV-038:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0530,FM-0530,FCT,INV-038:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0531,FM-0531,FCT,INV-038:FCT-006,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0532,FM-0532,FCT,INV-038:FCT-007,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0535,FM-0535,CLM,INV-039:CLM-001,SUPPORTED,INFERENCE,RESOLVED,5,2,1,YES,NO,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0536,FM-0536,CLM,INV-039:CLM-002,SUPPORTED,INFERENCE,RESOLVED,5,2,1,YES,NO,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0539,FM-0539,CAU,INV-039:CAU-001,SUPPORTED,INFERENCE,RESOLVED,5,2,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,LOCAL,local institution/site keyword
+C-FM-0540,FM-0540,FCT,INV-039:FCT-001,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0541,FM-0541,FCT,INV-039:FCT-002,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0542,FM-0542,FCT,INV-039:FCT-003,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0543,FM-0543,FCT,INV-039:FCT-004,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0544,FM-0544,FCT,INV-039:FCT-005,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0545,FM-0545,FCT,INV-039:FCT-006,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0547,FM-0547,CLM,INV-040:CLM-001,SUPPORTED,INFERENCE,RESOLVED,3,2,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0548,FM-0548,CLM,INV-040:CLM-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,NO,YES,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0549,FM-0549,CLM,INV-040:CLM-003,SUPPORTED,INFERENCE,RESOLVED,2,2,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0552,FM-0552,CAU,INV-040:CAU-001,SUPPORTED,INFERENCE,RESOLVED,3,2,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0553,FM-0553,CAU,INV-040:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,NO,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0554,FM-0554,FCT,INV-040:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0555,FM-0555,FCT,INV-040:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0556,FM-0556,FCT,INV-040:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0557,FM-0557,FCT,INV-040:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0558,FM-0558,FCT,INV-040:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0559,FM-0559,FCT,INV-040:FCT-006,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0560,FM-0560,FCT,INV-040:FCT-007,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0566,FM-0566,CLM,INV-041:CLM-001,SUPPORTED,INFERENCE,RESOLVED,6,6,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,NATIONAL,explicit France/national keyword
+C-FM-0568,FM-0568,CAU,INV-041:CAU-001,SUPPORTED,INFERENCE,RESOLVED,4,4,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0569,FM-0569,FCT,INV-041:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0570,FM-0570,FCT,INV-041:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0571,FM-0571,FCT,INV-041:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0572,FM-0572,FCT,INV-041:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0573,FM-0573,FCT,INV-041:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0574,FM-0574,FCT,INV-041:FCT-006,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0575,FM-0575,FCT,INV-041:FCT-007,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0576,FM-0576,FCT,INV-041:FCT-008,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0577,FM-0577,FCT,INV-041:FCT-009,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0578,FM-0578,CLM,INV-042:CLM-001,SUPPORTED,INFERENCE,RESOLVED,4,1,1,YES,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0579,FM-0579,CLM,INV-042:CLM-002,SUPPORTED,INFERENCE,RESOLVED,3,1,1,YES,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0580,FM-0580,CLM,INV-042:CLM-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0581,FM-0581,CLM,INV-042:CLM-004,SUPPORTED,INFERENCE,RESOLVED,3,1,1,YES,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0585,FM-0585,CAU,INV-042:CAU-001,SUPPORTED,INFERENCE,RESOLVED,3,1,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0586,FM-0586,CAU,INV-042:CAU-002,SUPPORTED,INFERENCE,RESOLVED,2,1,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0587,FM-0587,CAU,INV-042:CAU-003,SUPPORTED,INFERENCE,RESOLVED,2,1,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0588,FM-0588,FCT,INV-042:FCT-001,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0589,FM-0589,FCT,INV-042:FCT-002,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0590,FM-0590,FCT,INV-042:FCT-003,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0591,FM-0591,FCT,INV-042:FCT-004,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0592,FM-0592,FCT,INV-042:FCT-005,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0593,FM-0593,FCT,INV-042:FCT-006,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0594,FM-0594,FCT,INV-042:FCT-007,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0595,FM-0595,FCT,INV-042:FCT-008,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0596,FM-0596,CLM,INV-043:CLM-001,SUPPORTED,INFERENCE,RESOLVED,3,3,2,NO,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0597,FM-0597,CLM,INV-043:CLM-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0598,FM-0598,CLM,INV-043:CLM-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,NO,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0599,FM-0599,CLM,INV-043:CLM-004,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,NO,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0604,FM-0604,CAU,INV-043:CAU-001,SUPPORTED,INFERENCE,RESOLVED,3,3,2,NO,YES,YES,NO,E3,R6 causal/mechanism claim constrained by multiple supports plus chronology/pre-decision/confounder evidence; causal generalisation remains bounded,OTHER,no safe geographic inference
+C-FM-0605,FM-0605,CAU,INV-043:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,YES,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0606,FM-0606,CAU,INV-043:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,NO,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0607,FM-0607,FCT,INV-043:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0608,FM-0608,FCT,INV-043:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0609,FM-0609,FCT,INV-043:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0610,FM-0610,FCT,INV-043:FCT-004,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0611,FM-0611,FCT,INV-043:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0612,FM-0612,FCT,INV-043:FCT-006,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0613,FM-0613,CLM,INV-044:CLM-001,SUPPORTED,INFERENCE,RESOLVED,2,2,2,NO,YES,NO,NO,E3,R9 bounded claim supported by multiple concrete items with primary/convergent provenance,OTHER,no safe geographic inference
+C-FM-0614,FM-0614,CLM,INV-044:CLM-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0615,FM-0615,CLM,INV-044:CLM-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,NO,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0616,FM-0616,CLM,INV-044:CLM-004,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0617,FM-0617,CLM,INV-044:CLM-005,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,NO,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0618,FM-0618,CLM,INV-044:CLM-006,SUPPORTED,INFERENCE,RESOLVED,1,1,1,YES,NO,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,OTHER,no safe geographic inference
+C-FM-0623,FM-0623,CAU,INV-044:CAU-001,SUPPORTED,INFERENCE,RESOLVED,2,2,2,NO,NO,YES,NO,E3,R6 causal/mechanism claim constrained by multiple supports plus chronology/pre-decision/confounder evidence; causal generalisation remains bounded,OTHER,no safe geographic inference
+C-FM-0624,FM-0624,CAU,INV-044:CAU-002,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,NO,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0625,FM-0625,CAU,INV-044:CAU-003,SUPPORTED,INFERENCE,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0626,FM-0626,FCT,INV-044:FCT-001,FACT,FACT,RESOLVED,1,1,2,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0627,FM-0627,FCT,INV-044:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0628,FM-0628,FCT,INV-044:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0629,FM-0629,FCT,INV-044:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0630,FM-0630,FCT,INV-044:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0631,FM-0631,FCT,INV-044:FCT-006,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,NATIONAL,explicit France/national keyword
+C-FM-0632,FM-0632,FCT,INV-044:FCT-007,FACT,FACT,RESOLVED,1,1,1,YES,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,OTHER,no safe geographic inference
+C-FM-0634,FM-0634,CLM,INV-045:CLM-001,SUPPORTED,INFERENCE,RESOLVED,5,4,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,SAMPLE,explicit panel/sample keyword
+C-FM-0635,FM-0635,CLM,INV-045:CLM-002,SUPPORTED,INFERENCE,RESOLVED,3,3,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0636,FM-0636,CLM,INV-045:CLM-003,SUPPORTED,INFERENCE,RESOLVED,4,2,1,NO,YES,NO,NO,E2,R9 claim supported by descriptive evidence; association/observation only,LOCAL,local institution/site keyword
+C-FM-0640,FM-0640,CAU,INV-045:CAU-001,SUPPORTED,INFERENCE,RESOLVED,3,3,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,SAMPLE,explicit panel/sample keyword
+C-FM-0641,FM-0641,CAU,INV-045:CAU-002,SUPPORTED,INFERENCE,RESOLVED,3,2,1,NO,NO,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,OTHER,no safe geographic inference
+C-FM-0642,FM-0642,FCT,INV-045:FCT-001,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0643,FM-0643,FCT,INV-045:FCT-002,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,SAMPLE,explicit panel/sample keyword
+C-FM-0644,FM-0644,FCT,INV-045:FCT-003,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,SAMPLE,explicit panel/sample keyword
+C-FM-0645,FM-0645,FCT,INV-045:FCT-004,FACT,FACT,RESOLVED,1,1,1,NO,YES,YES,NO,E2,R6 association/mechanism supported descriptively; no causal attribution right,SAMPLE,explicit panel/sample keyword
+C-FM-0646,FM-0646,FCT,INV-045:FCT-005,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0647,FM-0647,FCT,INV-045:FCT-006,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0648,FM-0648,FCT,INV-045:FCT-007,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0649,FM-0649,FCT,INV-045:FCT-008,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,LOCAL,local institution/site keyword
+C-FM-0650,FM-0650,FCT,INV-045:FCT-009,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,SAMPLE,explicit panel/sample keyword
+C-FM-0651,FM-0651,FCT,INV-045:FCT-010,FACT,FACT,RESOLVED,1,1,1,NO,YES,NO,NO,E2,R8 concrete descriptive/quantitative observation; no causal upgrade,SAMPLE,explicit panel/sample keyword

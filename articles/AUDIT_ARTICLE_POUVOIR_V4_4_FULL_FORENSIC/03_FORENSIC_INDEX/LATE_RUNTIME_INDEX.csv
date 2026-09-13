@@ -1,0 +1,14 @@
+inv_id,topic,supplement_files,a7_files,coverage_status
+INV-024,New IP / ITU,INVESTIGATION; RUN_STATE; MNEMO,HANDOFF in A7,partial runtime
+INV-031,Integrity Initiative,INVESTIGATION; INPUT; RUN_STATE; MNEMO,HANDOFF in A7,partial runtime
+INV-123,EUCS / cloud sovereignty,INVESTIGATION; INPUT; RUN_STATE; MNEMO; CERTIFICATION,HANDOFF in A7,near-complete runtime; no narrative recovered
+INV-148,Trafic d’influence,INVESTIGATION,PRE_COLLECTION + HANDOFF in A7,partial runtime
+INV-149,Finance opaque / bénéficiaires effectifs,INVESTIGATION,PRE_COLLECTION + HANDOFF in A7,partial runtime
+INV-150,Investissements stratégiques,INVESTIGATION,PRE_COLLECTION + HANDOFF in A7,partial runtime
+INV-151,Énergie / matières critiques,INVESTIGATION; RUN_STATE,HANDOFF in A7,partial runtime
+INV-152,Dollar / clearing,INVESTIGATION; RUN_STATE; CERTIFICATION,HANDOFF in A7,partial runtime
+INV-153,Dette / conditionnalité,INVESTIGATION,HANDOFF in A7,partial runtime
+INV-154,Représailles économiques informelles,INVESTIGATION,HANDOFF in A7,partial runtime
+INV-155,ISDS / economic lawfare,none extra,HANDOFF in A7,HANDOFF_ONLY_CURRENT_SURFACE
+INV-156,Procurement / intermédiaires / commissions,INVESTIGATION; INPUT; RUN_STATE; MNEMO; NARRATIVE; CERTIFICATION,HANDOFF in A7,PROTOCOL_RECONSTRUCTED_R3P1
+INV-157,Revolving door / anticipation,INVESTIGATION; RUN_STATE; MNEMO; NARRATIVE,HANDOFF in A7,partial runtime

@@ -1,0 +1,251 @@
+**# PLAN\_ARTICLE\_V4B — « Le pouvoir sans commande »**
+
+**\*\*Journal des décisions\*\*** : V4-B arbitré le 2026-09-12 (décision : giak), d'après \`collab/2026-09-12-1440-SYNTHESE\_PINGPONG.md\` §4. V4-A rejetée : le mouvement 4 juxtaposait deux conversions sans les fondre.
+
+**\*\*Squelette adopté\*\*** : passe 2 externe, amendée — BNP/Telekom replié dans « dépendance → contrainte exercée » (l'accès dollar comme point de contrôle, conforme au handoff INV-152) ; Vattenfall/Rockhopper **\*\*ouvre\*\*** le mouvement contre-pouvoir (les tribunaux mordent dans les deux sens : l'État paie, la sentence est ensuite annulée). Les deux bornes de la paire 7 survivent.
+
+**\*\*Forme du produit\*\*** (patch de protocole P5) : \`ARTICLE + ANNEXE DÉTACHÉE\`. Le plancher survit dans les arguments du corps + la table de disposition en annexe. Invariant explicite : \`DIMENSION\_COUNT != SECTION\_COUNT\`.
+
+**---**
+
+**## 0. Phrase-colonne (SPINE\_TEST, forme positive)**
+
+\> **\*\*« Le pouvoir se voit avant la décision : il rend des options plus chères, plus conditionnelles ou plus rares — et sur les effets politiques finaux, la preuve s'arrête toujours avant la dernière flèche. »\*\***
+
+Deux propositions : la thèse positive (options/coûts/conditions), la borne épistémique (**\*\*l'effet politique final\*\*** jamais fermé — les chaînes procédurales, elles, se ferment : MES financement→tranche, annulation d'élection. C'est ce qualificatif qui rend la phrase falsifiable au lieu de surenchérie ; correctif v2 du 2026-09-12 après auto-contrôle). Le lecteur doit pouvoir répéter les deux. Si une seule survit à la reformulation, garder la première.
+
+Variante externe (passe 2) conservée en secours : « disposer de moyens, obtenir un accès, peser sur une règle, exercer une contrainte et provoquer une décision sont des choses différentes » — utilisable telle quelle dans M2 comme *\*test de la flèche\**.
+
+Colonne vertébrale de repli (brainstorm D, « six formes amont » : capacité, accès, visibilité, coût, condition, point de contrôle) — candidate si le SPINE\_TEST échoue sur lecteurs froids.
+
+**## 1. Corps — 4 mouvements, budget par mouvement (P6), jamais par dimension**
+
+**\*\*Ouverture (≈ 300 mots, d'après l'ouverture pilote du brainstorm §5, à réécrire)\*\***
+
+EUCS/AWS : un objectif de lobbying inscrit dans un registre officiel, un delta de texte congruent, une causalité NON ÉTABLIE. Pose en 3 phrases : ce qui est prouvé, ce qui ne l'est pas, pourquoi cette frontière est le sujet.
+
+**### M1 — « Ce que le pouvoir fabrique avant de convaincre » (\~40 %)**
+
+Matière amont : capacité, accès, normes, points de contrôle, coûts — le rendement du delta 13, tout ce qui n'a jamais été publié dans le corpus publié.
+
+\| Unité | Dossiers / handoffs | Ce qui est prouvé | Borne / contrôle négatif |
+
+\|---|---|---|---|
+
+\| M1.1 Capacité sans commandement | INV-031 Integrity Initiative : financement FCO/CSSF = SUPPORTED, clusters = project record ; tasking = NOT\_ESTABLISHED | financement → capacité, jamais lu comme tasking | campagne Moncloa → nomination = NOT\_ESTABLISHED ; « liste France → membres taskés » = REFUTED |
+
+\| M1.2 Arène normative | New IP (INV-024) ↔ EUCS (INV-123) | une arène normative produit des deltas de texte sans capture établie | lobbying → cause déterminante = NOT\_ESTABLISHED ; « abandon permanent » = REFUTED (architecture de souveraineté appliquée en 2026) |
+
+\| M1.3 Points de contrôle et coûts | BNP ↔ Bank Melli/Telekom ↔ Total/SP11 (INV-152) ; gaz 2022 (INV-151) ; Lituanie-Chine (INV-154) | EXPOSITION ≠ COERCITION\_EXERCÉE ≠ COERCITION\_POLITIQUEMENT\_RÉUSSIE ; PRIVATE\_DE\_RISKING ≠ STATE\_COMMAND | concession = NOT\_ESTABLISHED (gaz) ; capitulation = REFUTED (Lituanie : désignation maintenue, coopération approfondie en 2026) |
+
+\| M1.4 Condition ≠ contrainte | MES Grèce ↔ RRF France (INV-153) | la condition ne qualifie rien ; l'asymétrie, les alternatives et le coût du refus le font | \`conditionnalité → coercition\` automatique = REFUTED ; gap contrefactuel déclaré |
+
+\| M1.5 Options et propriété | Photonis/Teledyne ↔ Piraeus/COSCO ↔ GPFG (INV-150) | trois degrés de « lié à un État » ≠ tasking | propriété → contrôle effectif → coercition politique = GAP\_CAUSALITY |
+
+Résultat du mouvement : **\*\*le pouvoir sans persuasion est établi par les coûts, les conditions, les points de contrôle — et chacune de ces flèches s'arrête avant l'effet politique final.\*\***
+
+⚠️ Arbitrage ouvert (voir §7.1) : M1 à 40 % avec 5 unités risque de reformer le rythme d'inventaire (\~500 mots/unité). Soit les unités restent appariées en interne et le mouvement se termine sur un résultat argumenté, soit M1.5 est fondu dans M1.3.
+
+**### M2 — « L'arène : qui met en forme ce qui sera visible » (\~20 %)**
+
+Sélection/visibilité **\*\*transportée, pas re-démontrée\*\*** : citer #121/#123 (pyramide probatoire, asymétrie d'attribution, « le financeur cadre, ne dicte pas », la certification comme clé d'accès, signaleurs de confiance #100/#101). Un pont condensé (P6), deux unités à rendement neuf seulement :
+
+\| Unité | Dossiers | Ce qui est prouvé | Borne |
+
+\|---|---|---|---|
+
+\| M2.1 Agences | INV-084 Boumans/dpa (119 452 / 247 161 / jusqu'à 75 % ; dpa 83,9 %) | le cadre antérieur au verdict peut être amont du flux d'information lui-même | provenance ≠ ce que l'agence décide de ne pas transmettre ; motif de sélection non établi |
+
+\| M2.2 La norme comme visibilité future | New IP ↔ EUCS (rappel, un paragraphe) | les deltas normatifs d'aujourd'hui sont la visibilité de demain | (comme M1.2) |
+
+Résultat du mouvement : sélection → exposition se ferme ; exposition → persuasion reste ouverte (contrôle nul Meta/Facebook 2020 déjà publié, #48).
+
+⚠️ Arbitrage ouvert (voir §7.2) : 20 % pour une seule unité réellement neuve — soit réduire à \~12 % et grossir M1, soit donner à M2 un vrai travail (l'outil-lecteur + le contrôle nul Facebook).
+
+**### M3 — « Ce qui ne se ferme pas » (\~25 %)**
+
+Les types d'arêtes non fermées, chacun avec son cas et sa qualification juridique :
+
+\| Unité | Dossiers | Ce qui est prouvé | Borne |
+
+\|---|---|---|---|
+
+\| M3.1 Niveau probatoire intermédiaire | Farkas ↔ Djebbari/CMA CGM ↔ Djebbari/Hopium (négatif) ↔ Kroes (borné) (INV-157) | un niveau existe entre mobilité banale et corruption : ANTICIPATORY\_CONFLICT\_SUPPORTED sans décision modifiée | décision modifiée = NOT\_ESTABLISHED sur les quatre verdicts |
+
+\| M3.2 Trafic d'influence | INV-148 : l'influence présumée suffit **\*\*en droit\*\***, pas en preuve causale ; Airbus/Alstom/Siemens (INV-156) en contrôle négatif : l'intermédiaire vaut ce qu'il transporte ; offsets (BIS) = formels, reportables = REFUTED comme corruption automatique | (même ligne) | causation but-for = PARTIAL |
+
+\| M3.3 Exposition contentieuse | Vattenfall ↔ Rockhopper (INV-155) | exposition et coût réels, chilling non démontré, sentence ensuite annulée | menace seule → politique abandonnée = GAP |
+
+\| M3.4 La dernière flèche comme type | les 12 arêtes ouvertes (mur du brainstorm §1.2) | le produit le plus solide du corpus est une frontière | déclaré une fois, dans l'encadré final |
+
+Résultat du mouvement : **\*\*la qualification juridique et la preuve causale ne sont pas la même chose — montré sur des cas, pas sur une profession de foi.\*\***
+
+**### M4 — Contre-pouvoir (\~15 %)**
+
+S'ouvre sur Vattenfall/Rockhopper (les tribunaux mordent dans les deux sens). Puis : appel/annulation comme rouvreurs (sentence Rockhopper annulée ; « sentence ≠ état terminal ») ; instrument anti-coercition (Lituanie/UE, INV-154) ; Blocking Statute ; OMC ; contrôle juridictionnel de l'enforcement (nexus BNP). Se termine sur la borne : **\*\*recours ≠ efficacité systématique\*\*** (passe 2 externe, point 3). Un paragraphe d'**\*\*avant/après\*\*** vs *\*L'Empire du Mensonge\** (transporté de V3 ; rendement confirmé par l'audit).
+
+**\*\*Encadré final unique (dans le corps)\*\*** : les **\*\*12 arêtes ouvertes\*\*** (tasking, concession, but-for, quid pro quo, chill, fréquence…), chacune reliée à son mouvement ; traçabilité dossier par dossier → annexe A. D'après le mur du brainstorm §1.2. Cadre : « ce que les enquêtes ne permettent pas de conclure » — l'actif éditorial publié tel quel, pas dispersé.
+
+**\*\*Règle anti-chute\*\*** : chaque mouvement se termine sur un **\*\*résultat positif\*\***, jamais sur « X n'est pas Y ». Les refus restent à l'intérieur du mouvement.
+
+**## 2. Cartes de couverture (conformité au contrat sans sections-inventaire)**
+
+**### 2.1 D01–D18 → emplacement (plancher préservé : argument de corps, pont, ou annexe)**
+
+\| Dim. | Emplacement | Véhicule |
+
+\|---|---|---|
+
+\| D01 acteur/mandat | M1.1, M4 | symétrie du standard sans équivalence morale |
+
+\| D02 ressources/positions | M1.3, M1.5, M2.1 | financement/propriété/infrastructure ≠ exercice |
+
+\| D03 capacités/leviers | M1.1–M1.5 | chaque unité nomme le levier et sa flèche |
+
+\| D04 actions/opérations | M1.1, M3.2 | opérations distinctes des structures |
+
+\| D05 tasking/intermédiaires | M1.1, M3.2, encadré final | financement ≠ tasking |
+
+\| D06 financement/opacité | M1.1, M3.2, annexe A | structures opaques ≠ inférence d'influence |
+
+\| D07 accès/expertise/gatekeeping | M2.1, M2.2 | accès sans capture automatique |
+
+\| D08 visibilité/exposition | M2 (tout le mouvement) | sélection → exposition se ferme |
+
+\| D09 persuasion/cognition | résultat de M2 + encadré final | exposition ≠ persuasion ; contrôle nul |
+
+\| D10 décision/résultat terminal | M1.3, M3.3, encadré final | effet final jamais inféré de l'amont |
+
+\| D11 droit/procédure/contrainte | M3 (tout le mouvement) | chaque qualification a ses règles propres |
+
+\| D12 dépendances/options/coûts | M1.3–M1.5 | le pouvoir sans persuasion |
+
+\| D13 corruption/quid pro quo | M3.2 | l'intermédiaire vaut ce qu'il transporte |
+
+\| D14 contre-pouvoirs/réversibilité | M4 (tout le mouvement) | recours ≠ efficacité systématique |
+
+\| D15 temporalité/reproduction | M3.1 (portes tournantes), M4 (timing) | la qualification anticipatoire est temporelle par construction |
+
+\| D16 composition/arènes | encadré final + annexe A | coexistence ≠ composition ; ponts à prouver |
+
+\| D17 qualification/symétrie/légitimité | M1.1, M3.1, M4 | même standard, pas même qualification |
+
+\| D18 gaps/dénominateurs | encadré final + encadré unique de rareté | DENOMINATOR\_GAP déclaré une fois |
+
+**\*\*Règle du plancher\*\*** : ≥ 8 dimensions en \`BODY\_ARGUMENT\` (D02–D05, D08, D11, D12, D14), ≥ 6 via ponts/encadrés, ≥ 4 en \`ANNEX\_DISPOSITION\` (D06, D16, D18 + tout surplus). Invariant \`DIMENSION\_COUNT != SECTION\_COUNT\` explicite.
+
+**### 2.2 F0–F11 → rendement distinctif + borne dans le corps**
+
+\| Famille | Rendement porté par | Borne portée par |
+
+\|---|---|---|
+
+\| F0 attribution/symétrie | M1.1 (INV-031 + contrôle d'attribution) | même standard, pas même qualification |
+
+\| F1 contrôles historiques | rappels M2/M3 (déjà publié : citer, ne pas re-dériver) | effets terminaux pas automatiquement fermés |
+
+\| F2 puissances étrangères | M1.1–M1.3 | non-adoption du New IP = contrôle négatif |
+
+\| F3 institutions UE | M1.4, M3.2 | portes formelles ≠ effondrement des distinctions |
+
+\| F4 philanthropies/contentieux | M1.1 + M3.3 | financement sans tasking ; contentieux à double tranchant (l'État paie ; la sentence est annulée) |
+
+\| F5 consultants/expertise | M2.1, M3.2 | provenance ≠ législateur marginal |
+
+\| F6 étatique domestique | M4 (pont SIG/VIGINUM/ARCOM, déjà publié #121) | mandat/légalité changent la qualification |
+
+\| F7 médias/sélection/plateformes | M2 | contrôles de marché et causaux |
+
+\| F8 élections | encadré final — chaîne complète éprouvée, déjà publié (#48, #121) : citer avec delta | contrefactuel du gagnant généralement ouvert |
+
+\| F9 contexte cognitif | phrase de résultat de M2 | défiance → manipulabilité non établi |
+
+\| F10 structurel sectoriel | M1.5, M1.2 | tasking/capture exigent des ponts supplémentaires |
+
+\| F11 contrainte/intermédiation | M1.3–M1.5, M3.2 | concession, quid pro quo, prévalence séparés |
+
+Note : F1/F6/F8/F9 ont une présence corporelle volontairement mince — leurs rendements sont **\*\*déjà publiés\*\*** (#121, #123, #48, #100/#101) : citer avec delta, pas re-dériver (NO\_REDERIVATION). Test de survie de famille : le \`distinctive\_reader\_yield\` est porté par citation + une phrase de borne chacun. Si une relecture (façon A5) trouve un rendement de famille illisible, le tirer dans M2 comme pont d'une ligne — pas comme section.
+
+**## 3. Annexe (détachée, publiée séparément)**
+
+1\. **\*\*A — Disposition des 113\*\*** : table dossier → mécanisme → résultat distinctif → contrôle → emplacement (mouvement du corps ou annexe). Porte formellement D06/D16/D18. **\*\*À générer par script\*\*** depuis \`04\_CURRENT\_REGISTRY\`, pas à la main.
+
+2\. **\*\*B — Gaps + conditions de rouverture\*\*** : les 12 arêtes ouvertes + conditions de fermeture par dossier (actif rare, certifié dans les handoffs).
+
+3\. **\*\*C — Pinpoints\*\*** : page/considérant/note pour les 4–6 affirmations structurantes (ex. 2023/1230 consid. 55, réponse écrite 196177, signataires TSAG C-83).
+
+4\. **\*\*D — Construction du corpus et biais\*\*** : comment les 113 ont été constitués, non-représentativité, autorités dégradées (INV-035 exclu, INV-139/140 bornés, INV-156 reconstruit non canonique, **\*\*statut INV-044 à trancher avant publication\*\*** — voir §7).
+
+5\. **\*\*E — Avant/après vs** *\*L'Empire du Mensonge\****\*\*** (court).
+
+**## 4. Réparations transportées des audits V2/V3 (non négociables, à appliquer pendant la rédaction)**
+
+1\. **\*\*P1-1 (date FCO)\*\*** : « En décembre 2018… » — jamais « au printemps 2018 » [S72].
+
+2\. **\*\*P1-2 (signataires New IP)\*\*** : China Telecom dehors, ou une pièce qui le liste réellement ; TSAG C-83 liste China Mobile, China Unicom, Huawei, MIIT.
+
+3\. **\*\*Louis-Sidois à deux niveaux\*\*** : corpus initial 10 628 → échantillon à affiliation identifiée 2 405.
+
+4\. **\*\*Décompte des dossiers dégradés\*\*** : cinq, pas quatre — INV-035, INV-139, INV-140, INV-156, **\*\*INV-044\*\*** (\`RECOVERY\_ONLY\` / \`BOUNDED\_RECOVERY\_HANDOFF\`, fichier physique de 1 737 octets, promu silencieusement \`TERMINAL\_HANDOFF\` dans \`A1\_QUINTESSENCES\_CURRENT.csv\` — le défaut connu le plus sérieux du bundle, dans sa propre couche d'autorité ; à trancher et dater en annexe D).
+
+5\. **\*\*Marqueurs [Sxx]\*\*** : renumérotation contiguë ou nomination en texte ; marqueurs d'échafaudage hors de la prose.
+
+6\. **\*\*Règle anti-chute\*\*** : aucune chute de section en « X n'est pas Y » ; fins sur résultats positifs.
+
+**## 5. Règles de rédaction (patchs de protocole appliqués)**
+
+\- **\*\*P1\*\*** : comparaison systématique au corpus Substack publié : #121, #123, #100/#101, #47, #48, #37, #27, #23, #14, #17, #59 — citer ou delta. Aucune re-démonstration sans delta explicite (gate \`NO\_REDERIVATION\`).
+
+\- **\*\*P2\*\*** : \`FLOOR\_LOCATION\` par dimension — la carte du §2.1 est le livrable.
+
+\- **\*\*P3\*\*** : SPINE\_TEST sur la phrase-colonne ; une colonne négative échoue.
+
+\- **\*\*P4\*\*** : PAIRING\_TEST — toute affirmation de mécanisme porte un contrôle négatif déjà détenu ou un \`GAP\` explicite (les paires des tables du §1 satisfont ce test par construction).
+
+\- **\*\*P6\*\*** : budget par mouvement (40/20/25/15), jamais par dimension.
+
+\- **\*\*P7\*\*** : l'ouverture porte le delta : EUCS/AWS, pas Integrity Initiative.
+
+\- **\*\*P8\*\*** : gates \`MEMORABLE\_CLAIM\`, \`NO\_REDERIVATION\`, \`PINPOINT\` vérifiés en fin de rédaction.
+
+\- **\*\*P9\*\*** : test du rendement inversé — « ce texte aurait-il pu être écrit sans les 13 investigations du delta ? » Si oui, le brouillon a échoué.
+
+\- Les constantes de code dans le texte (\`COERCITION\_ECONOMIQUE\_EXERCEE\` etc.) sont de l'**\*\*échafaudage de rédaction\*\*** : dans le texte publié elles deviennent du français simple, une définition chacune, aucun code face au lecteur.
+
+\- Anti-échafaudage : pas de « étage 3 », pas de rubrique répétée par cas ; l'outil-lecteur (test de la flèche) apparaît une fois, dans M2.
+
+**## 6. Liste de vérification avant de déclarer le texte rédigé**
+
+1\. Phrase-colonne répétable ; positive ; deux propositions.
+
+2\. 18/18 dimensions cartographiées ; 12/12 familles avec rendement + borne.
+
+3\. Ouverture = EUCS/AWS ; test du rendement inversé réussi (le rendement du delta 13 est la colonne du corps).
+
+4\. Encadré final = 12 arêtes ; annexes A–E prévues ; INV-044 tranché et daté en annexe D.
+
+5\. Les six réparations appliquées (P1-1, P1-2, Louis-Sidois, décompte dégradés = 5, marqueurs, anti-chute).
+
+6\. Aucune re-démonstration des blocs #121/#123/#100/#101/#47/#48 — citation avec delta seulement.
+
+7\. Budget respecté ±5 points ; anti-échafaudage respecté.
+
+**---**
+
+**## 7. Autocritique du 2026-09-12 (avant challenge externe) — arbitrages ouverts**
+
+1\. M1 à 40 % avec 5 unités risque le rythme d'inventaire (\~500 mots/unité). Options : unités appariées en interne + résultat de mouvement argumenté, ou fondre M1.5 dans M1.3. **\*\*À arbitrer.\*\***
+
+2\. M2 à 20 % porte une seule unité neuve (agences). Options : réduire à \~12 % (M1 grossit), ou donner à M2 un vrai travail (outil-lecteur + contrôle nul Facebook). **\*\*À arbitrer.\*\***
+
+3\. Le règlement INV-044 est une **\*\*précondition\*\*** à la rédaction (une phrase de convention datée), pas un détail d'annexe.
+
+4\. L'annexe A doit être générée par script depuis \`04\_CURRENT\_REGISTRY\` (terminal requis — broker actuellement en panne).
+
+5\. SPINE\_TEST sur lecteurs froids obligatoire avant rédaction de M1 (contrôle compensatoire de la non-aveugle de la planification).
+
+6\. Phrase-colonne corrigée v2 : qualificatif « effets politiques finaux » ajouté — « toujours avant la dernière flèche » était une surenchère contredite par les chaînes procédurales fermées du corpus lui-même.
+
+**---**
+
+*\*Avertissement permanent, du post-mortem de la session antérieure : la reconstruction précédente n'était pas aveugle à la thèse de la V2 (lue plus tôt dans la même session) — la même non-aveugle s'applique ici : ce plan a été construit après lecture de la V3 et des audits. Le SPINE\_TEST sur lecteurs froids est le contrôle compensatoire, et il est obligatoire avant de rédiger M1.\**

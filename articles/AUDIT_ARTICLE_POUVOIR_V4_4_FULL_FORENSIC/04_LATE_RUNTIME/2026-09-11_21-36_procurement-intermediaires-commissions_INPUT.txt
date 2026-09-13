@@ -1,0 +1,28 @@
+INV-156 — Marchés publics, offsets, agents et commissions
+
+Question:
+Quand un agent, consultant, commissionnaire ou mécanisme d'offset lié à un marché public ou stratégique relève-t-il d'un service commercial légitime, d'une corruption, d'un trafic d'influence ou d'un levier ayant effectivement modifié l'attribution ou les conditions du marché ?
+
+Chaîne candidate:
+TENDER / PROGRAMME / PUBLIC CONTRACT
+-> AGENT / CONSULTANT / OFFSET / COMMISSION
+-> MONEY / BENEFIT / INDUSTRIAL COMMITMENT
+-> INTERMEDIARY / OFFICIAL / PROCUREMENT PROCESS
+-> AWARD / PRICE / CONDITIONS
+-> ECONOMIC OR STRATEGIC EFFECT
+
+Gardes:
+agent != corrupt intermediary
+commission != bribe
+offset != corruption
+lobbying != procurement capture
+contract award != proof of causal influence
+conviction/CJIP != proof every contract was tainted
+corruption != trafic d'influence
+
+Gate PRE:
+- >=2 familles indépendantes avec source primaire/institutionnelle
+- contrôle négatif commission/offset licite
+- distinguer lien au marché et causalité contrefactuelle de l'attribution
+- ne pas dupliquer INV-122/148/136
+- si aucun cas offset-specific, ne pas déclarer les offsets clos

@@ -1,0 +1,1448 @@
+{
+  "schema": 1,
+  "engine": "2.10.6",
+  "run": {
+    "run_id": "20260911-2136-procurement-intermediaires-commissions",
+    "as_of": "2026-09-11",
+    "subject_slug": "procurement-intermediaires-commissions",
+    "subject_fingerprint": "sha256:3c5aa5d08e4c3ac2a058b99be08317a302080b9726c0f189b5e1f428f9f3b733",
+    "subject_fingerprint_legacy_v1": "sha256:3c5aa5d08e4c3ac2a058b99be08317a302080b9726c0f189b5e1f428f9f3b733",
+    "mission_mode": "INVESTIGATION",
+    "complexity": "HIGH",
+    "complexity_score": "9",
+    "state": "FINAL",
+    "last_completed": "18b",
+    "next_action": "NONE",
+    "resume_count": 0,
+    "parent_run_id": "NONE",
+    "route_overrides": [],
+    "degraded_flags": [
+      "MNEMO_UNAVAILABLE"
+    ],
+    "loaded_modules": [
+      "definitions/SYMBOLS.md",
+      "definitions/PATTERNS.md",
+      "definitions/THREATS.md",
+      "forensic/GATES.md",
+      "forensic/REQUEST_LOG.md"
+    ],
+    "input_kind": "RUN_CARD",
+    "input_ref": "PATH:/mnt/data/INV156_CERTIFIED_RECLASS_NEXT_2026-09-11/INV-156/2026-09-11_21-36_procurement-intermediaires-commissions_INPUT.txt",
+    "original_input_ref": "PATH:/mnt/data/INV156_CERTIFIED_RECLASS_NEXT_2026-09-11/INV-156/2026-09-11_21-36_procurement-intermediaires-commissions_INPUT.txt",
+    "input_path": "/mnt/data/INV156_CERTIFIED_RECLASS_NEXT_2026-09-11/INV-156/2026-09-11_21-36_procurement-intermediaires-commissions_INPUT.txt",
+    "input_sha256": "sha256:e50cb2871eeaf97b3bca846bfccbf8af1b117542aeb6d1984b63eee5c0145eeb",
+    "narrative_path": "/mnt/data/INV156_CERTIFIED_RECLASS_NEXT_2026-09-11/INV-156/2026-09-11_21-36_procurement-intermediaires-commissions_NARRATIVE.tmp.md",
+    "investigation_path": "/mnt/data/INV156_CERTIFIED_RECLASS_NEXT_2026-09-11/INV-156/2026-09-11_21-36_procurement-intermediaires-commissions_INVESTIGATION.md",
+    "state_path": "/mnt/data/INV156_CERTIFIED_RECLASS_NEXT_2026-09-11/INV-156/2026-09-11_21-36_procurement-intermediaires-commissions_RUN_STATE.json",
+    "snapshot_path": "/mnt/data/INV156_CERTIFIED_RECLASS_NEXT_2026-09-11/INV-156/2026-09-11_21-36_procurement-intermediaires-commissions_MNEMO_SNAPSHOT.json",
+    "certification_path": "/mnt/data/INV156_CERTIFIED_RECLASS_NEXT_2026-09-11/INV-156/2026-09-11_21-36_procurement-intermediaires-commissions_CERTIFICATION.json",
+    "run_dir": "/mnt/data/INV156_CERTIFIED_RECLASS_NEXT_2026-09-11/INV-156",
+    "scope": "France/UE and official international comparators; public/strategic procurement intermediaries, consultants, commissions and offsets; strict separation of legitimate service, corruption, trading in influence, award linkage and counterfactual causation.",
+    "checkpoint_seq": 6,
+    "execution_context": "PROTOCOL_RECONSTRUCTION_NOT_CANONICAL_REGISTRY_APPLY",
+    "canonical_registry_applied": false,
+    "canonical_registry_gap": "Current Library INVESTIGATION_REGISTRY.csv contains no INV-148/INV-156/INV-157 entries."
+  },
+  "meta": {
+    "created_at": "2026-09-11T19:36:59+00:00",
+    "updated_at": "2026-09-11T19:55:00+00:00"
+  },
+  "sources": [
+    {
+      "id": "SRC-001",
+      "family": "A",
+      "title": "US DOJ — Airbus global foreign bribery resolution",
+      "url": "https://www.justice.gov/usao-dc/pr/airbus-agrees-pay-over-39-billion-global-penalties-resolve-foreign-bribery-and-itar-case",
+      "publication_date": "2020-01-31",
+      "role": "◈",
+      "locator": "third-party business partners; bribes to decision makers/officials; business winning",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-001"
+    },
+    {
+      "id": "SRC-002",
+      "family": "B",
+      "title": "UK SFO — Airbus Deferred Prosecution Agreement landing page",
+      "url": "https://www.gov.uk/government/publications/sfo-deferred-prosecution-agreement-with-airbus",
+      "publication_date": "2023-03-02",
+      "role": "◈",
+      "locator": "official DPA materials; statement of facts and judgment",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-002"
+    },
+    {
+      "id": "SRC-003",
+      "family": "C",
+      "title": "Tribunal judiciaire de Paris — communiqués PNF, CJIP Airbus",
+      "url": "https://www.tribunal-de-paris.justice.fr/75/communiques-de-presse-0",
+      "publication_date": "2020-01-31",
+      "role": "◈",
+      "locator": "official listing of Airbus CJIP communiqué",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-003"
+    },
+    {
+      "id": "SRC-004",
+      "family": "A",
+      "title": "US DOJ — Alstom guilty plea and $772m criminal penalty",
+      "url": "https://www.justice.gov/archives/opa/pr/alstom-pleads-guilty-and-agrees-pay-772-million-criminal-penalty-resolve-foreign-bribery",
+      "publication_date": "2014-12-22",
+      "role": "◈",
+      "locator": "consultants as conduits; bribes for assistance securing state-owned-entity contracts",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-004"
+    },
+    {
+      "id": "SRC-005",
+      "family": "A",
+      "title": "US DOJ — Former senior Alstom executive convicted",
+      "url": "https://www.justice.gov/archives/opa/pr/former-senior-alstom-executive-convicted-trial-violating-foreign-corrupt-practices-act-money",
+      "publication_date": "2019-11-08",
+      "role": "◈",
+      "locator": "Tarahan $118m; consultants used to conceal bribes",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-005"
+    },
+    {
+      "id": "SRC-006",
+      "family": "A",
+      "title": "US DOJ — Siemens AG and subsidiaries FCPA resolution",
+      "url": "https://www.justice.gov/archive/opa/pr/2008/December/08-crm-1105.html",
+      "publication_date": "2008-12-15",
+      "role": "◈",
+      "locator": "consultants/commissions and corrupt payments linked to public contracts/bidding",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-006"
+    },
+    {
+      "id": "SRC-007",
+      "family": "D",
+      "title": "EPPO — Croatia former minister convicted for procurement abuse/trading in influence",
+      "url": "https://www.eppo.europa.eu/media/news/croatia-former-minister-sentenced-two-years-imprisonment-abuse-office-and-authority-2025-06-12_en",
+      "publication_date": "2025-06-12",
+      "role": "◈",
+      "locator": "procurement launched; privileged bidder/company; trading in influence",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-007"
+    },
+    {
+      "id": "SRC-008",
+      "family": "D",
+      "title": "EPPO — Croatia additional conviction in software procurement case",
+      "url": "https://www.eppo.europa.eu/media/news/croatia-additional-conviction-investigation-software-purchase-ministry-regional-development-and-eu-2025-09-12_en",
+      "publication_date": "2025-09-12",
+      "role": "◇",
+      "locator": "same procurement chain; company-owner conviction",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-008"
+    },
+    {
+      "id": "SRC-009",
+      "family": "E",
+      "title": "US BIS — Offsets in Defense Trade",
+      "url": "https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/offsets-defense-trade",
+      "publication_date": "2024-05-01",
+      "role": "◈",
+      "locator": "offsets are industrial compensation arrangements required as a condition of defense purchases; regulated/reportable",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-009"
+    },
+    {
+      "id": "SRC-010",
+      "family": "F",
+      "title": "22 CFR 130.5 — Fee or commission (LII rendering of CFR)",
+      "url": "https://www.law.cornell.edu/cfr/text/22/130.5",
+      "publication_date": "2006-04-21",
+      "role": "◇",
+      "locator": "fee/commission definition and exclusion for proportionate actual goods/services",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-010"
+    },
+    {
+      "id": "SRC-011",
+      "family": "G",
+      "title": "World Bank — Debarment of Alstom Hydro France / Alstom Network Schweiz",
+      "url": "https://www.worldbank.org/en/news/press-release/2012/02/22/enforcing-accountability-world-bank-debars-alstom-hydro-france-alstom-network-schweiz-ag-and-their-affiliates",
+      "publication_date": "2012-02-22",
+      "role": "◇",
+      "locator": "improper €110k consultancy payment in World Bank-financed Zambia project",
+      "checked_at": "2026-09-11T19:36:59Z",
+      "canonical_id": "SRC-011"
+    }
+  ],
+  "facts": [
+    {
+      "id": "FCT-001",
+      "date": "2020-01-31",
+      "epi": "FACT",
+      "families": [
+        "A"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-001"
+      ],
+      "subject": "Airbus third-party bribery scheme",
+      "tier": "✧",
+      "url": "https://www.justice.gov/usao-dc/pr/airbus-agrees-pay-over-39-billion-global-penalties-resolve-foreign-bribery-and-itar-case",
+      "value": "Airbus agreed to a coordinated global resolution after admissions that third-party business partners were used in schemes to offer/pay bribes to decision makers and officials to obtain improper business advantages and win business."
+    },
+    {
+      "id": "FCT-002",
+      "date": "2020-01-31",
+      "epi": "FACT",
+      "families": [
+        "A"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-001"
+      ],
+      "subject": "Airbus China business-partner payments",
+      "tier": "✧",
+      "url": "https://www.justice.gov/usao-dc/pr/airbus-agrees-pay-over-39-billion-global-penalties-resolve-foreign-bribery-and-itar-case",
+      "value": "The DOJ described payments to a China business partner intended to be used as bribes to government officials in connection with approvals related to aircraft sales to state-owned/state-controlled airlines."
+    },
+    {
+      "id": "FCT-003",
+      "date": "2023-03-02",
+      "epi": "FACT",
+      "families": [
+        "B",
+        "C"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-002",
+        "SRC-003"
+      ],
+      "subject": "Airbus multi-jurisdiction resolution",
+      "tier": "✧",
+      "url": "https://www.gov.uk/government/publications/sfo-deferred-prosecution-agreement-with-airbus",
+      "value": "UK SFO and French PNF official channels document coordinated Airbus anti-corruption resolutions; the conduct was treated as corruption/business-winning misconduct, not as ordinary lobbying."
+    },
+    {
+      "id": "FCT-004",
+      "date": "2014-12-22",
+      "epi": "FACT",
+      "families": [
+        "A"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-004"
+      ],
+      "subject": "Alstom contracts and bribery",
+      "tier": "✧",
+      "url": "https://www.justice.gov/archives/opa/pr/alstom-pleads-guilty-and-agrees-pay-772-million-criminal-penalty-resolve-foreign-bribery",
+      "value": "Alstom admitted bribing government officials in multiple countries; in Indonesia bribes were paid in exchange for assistance securing power contracts for state-owned entities."
+    },
+    {
+      "id": "FCT-005",
+      "date": "2014-12-22",
+      "epi": "FACT",
+      "families": [
+        "A"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-004"
+      ],
+      "subject": "Alstom consultants as conduits",
+      "tier": "✧",
+      "url": "https://www.justice.gov/archives/opa/pr/alstom-pleads-guilty-and-agrees-pay-772-million-criminal-penalty-resolve-foreign-bribery",
+      "value": "Alstom used consultants purportedly providing consulting services who actually served as conduits for corrupt payments to government officials."
+    },
+    {
+      "id": "FCT-006",
+      "date": "2019-11-08",
+      "epi": "FACT",
+      "families": [
+        "A"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-005"
+      ],
+      "subject": "Tarahan procurement chain",
+      "tier": "✧",
+      "url": "https://www.justice.gov/archives/opa/pr/former-senior-alstom-executive-convicted-trial-violating-foreign-corrupt-practices-act-money",
+      "value": "Evidence at trial linked consultants used to conceal bribes to Indonesian officials with assistance securing the $118m Tarahan project."
+    },
+    {
+      "id": "FCT-007",
+      "date": "2008-12-15",
+      "epi": "FACT",
+      "families": [
+        "A"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-006"
+      ],
+      "subject": "Siemens public-contract corruption",
+      "tier": "✧",
+      "url": "https://www.justice.gov/archive/opa/pr/2008/December/08-crm-1105.html",
+      "value": "Siemens entities admitted corrupt payments through purported consultants in exchange for favorable treatment in public contracts or bidding processes in several countries."
+    },
+    {
+      "id": "FCT-008",
+      "date": "2008-12-15",
+      "epi": "FACT",
+      "families": [
+        "A"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-006"
+      ],
+      "subject": "Siemens commissions as disguise",
+      "tier": "✧",
+      "url": "https://www.justice.gov/archive/opa/pr/2008/December/08-crm-1105.html",
+      "value": "In Iraq-related contracts, kickbacks were improperly characterized as commissions to business consultants; in Argentina/Bangladesh/Venezuela purported consultants or conduit entities were used to route corrupt payments."
+    },
+    {
+      "id": "FCT-009",
+      "date": "2025-06-12",
+      "epi": "FACT",
+      "families": [
+        "D"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-007"
+      ],
+      "subject": "Croatia procurement manipulation",
+      "tier": "✧",
+      "url": "https://www.eppo.europa.eu/media/news/croatia-former-minister-sentenced-two-years-imprisonment-abuse-office-and-authority-2025-06-12_en",
+      "value": "EPPO reported conviction of a former Croatian minister for abuse of office/authority and trading in influence after actions in a public procurement procedure to ensure a privileged position for a business owner and companies."
+    },
+    {
+      "id": "FCT-010",
+      "date": "2025-09-12",
+      "epi": "FACT",
+      "families": [
+        "D"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-008"
+      ],
+      "subject": "Croatia additional conviction",
+      "tier": "✧",
+      "url": "https://www.eppo.europa.eu/media/news/croatia-additional-conviction-investigation-software-purchase-ministry-regional-development-and-eu-2025-09-12_en",
+      "value": "EPPO later reported an additional conviction in the same software procurement case, corroborating the actor/procedure/company chain without generalizing beyond the case."
+    },
+    {
+      "id": "FCT-011",
+      "date": "2024-05-01",
+      "epi": "FACT",
+      "families": [
+        "E"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-009"
+      ],
+      "subject": "Offsets defined as industrial compensation",
+      "tier": "✧",
+      "url": "https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/offsets-defense-trade",
+      "value": "BIS defines defense offsets as industrial compensation arrangements required by foreign governments as a condition of purchasing defense articles/services from foreign suppliers."
+    },
+    {
+      "id": "FCT-012",
+      "date": "2024-05-01",
+      "epi": "FACT",
+      "families": [
+        "E"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-009"
+      ],
+      "subject": "Offsets are regulated/reportable",
+      "tier": "✧",
+      "url": "https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/offsets-defense-trade",
+      "value": "BIS annually collects and reports offset agreements and transactions under the Defense Production Act framework; offset existence is therefore not itself evidence of corruption."
+    },
+    {
+      "id": "FCT-013",
+      "date": "2006-04-21",
+      "epi": "FACT",
+      "families": [
+        "F"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-010"
+      ],
+      "subject": "Fee/commission can have legitimate service basis",
+      "tier": "✧",
+      "url": "https://www.law.cornell.edu/cfr/text/22/130.5",
+      "value": "22 CFR 130.5 defines fees/commissions tied to securing defense sales but excludes payments solely for specific goods or technical/operational/advisory services when not disproportionate to the value actually furnished."
+    },
+    {
+      "id": "FCT-014",
+      "date": "2012-02-22",
+      "epi": "FACT",
+      "families": [
+        "G"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-011"
+      ],
+      "subject": "World Bank Alstom improper consultancy payment",
+      "tier": "✧",
+      "url": "https://www.worldbank.org/en/news/press-release/2012/02/22/enforcing-accountability-world-bank-debars-alstom-hydro-france-alstom-network-schweiz-ag-and-their-affiliates",
+      "value": "The World Bank reported an improper €110,000 payment to an entity controlled by a former senior government official for consultancy services linked to the Zambia Power Rehabilitation Project."
+    },
+    {
+      "id": "FCT-015",
+      "date": "2014-12-22",
+      "epi": "FACT",
+      "families": [
+        "A"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-004",
+        "SRC-005"
+      ],
+      "subject": "Award causation ceiling",
+      "tier": "✧",
+      "url": "https://www.justice.gov/archives/opa/pr/alstom-pleads-guilty-and-agrees-pay-772-million-criminal-penalty-resolve-foreign-bribery",
+      "value": "Official Alstom records establish corrupt payments intended to obtain officials’ assistance in securing contracts; they do not license a generic inference that every award involving an intermediary was counterfactually caused by a payment."
+    },
+    {
+      "id": "FCT-016",
+      "date": "2024-05-01",
+      "epi": "FACT",
+      "families": [
+        "E"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-009"
+      ],
+      "subject": "Offset negative control",
+      "tier": "✧",
+      "url": "https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/offsets-defense-trade",
+      "value": "Because offsets are a recognized, reportable industrial-compensation mechanism, the proposition offset = corruption is refuted as a categorical rule."
+    },
+    {
+      "id": "FCT-017",
+      "date": "2006-04-21",
+      "epi": "FACT",
+      "families": [
+        "F"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-010"
+      ],
+      "subject": "Commission negative control",
+      "tier": "✧",
+      "url": "https://www.law.cornell.edu/cfr/text/22/130.5",
+      "value": "Because regulation expressly distinguishes proportionate payment for actual services from covered fees/commissions, the proposition commission = bribe is refuted as a categorical rule."
+    },
+    {
+      "id": "FCT-018",
+      "date": "2026-09-11",
+      "epi": "FACT",
+      "families": [
+        "A",
+        "D",
+        "E"
+      ],
+      "mem": "-",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-001",
+        "SRC-004",
+        "SRC-006",
+        "SRC-007",
+        "SRC-009"
+      ],
+      "subject": "Representative denominator gap",
+      "tier": "✧",
+      "url": "https://www.justice.gov/usao-dc/pr/airbus-agrees-pay-over-39-billion-global-penalties-resolve-foreign-bribery-and-itar-case",
+      "value": "The bounded official-source corpus provides strong case evidence but no representative France/EU denominator for the prevalence or success rate of procurement corruption mediated by agents, commissions or offsets."
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-001",
+      "claim": "Third-party consultants/intermediaries can be used as conduits for corrupt payments tied to public or state-linked contract acquisition.",
+      "claimant": "INV-156 synthesis",
+      "status": "SUPPORTED",
+      "materiality": "DECISIVE",
+      "support": [
+        "FCT-001",
+        "FCT-004",
+        "FCT-005",
+        "FCT-006",
+        "FCT-007",
+        "FCT-008"
+      ],
+      "counter": "NONE_FOUND",
+      "gap": "NONE",
+      "gap_type": "NONE"
+    },
+    {
+      "id": "CLM-002",
+      "claim": "The mere presence of an agent, consultant or commission proves bribery.",
+      "claimant": "INV-156 synthesis",
+      "status": "REFUTED",
+      "materiality": "DECISIVE",
+      "support": [
+        "FCT-013",
+        "FCT-017"
+      ],
+      "counter": "FCT-013,FCT-017",
+      "gap": "NONE",
+      "gap_type": "NONE"
+    },
+    {
+      "id": "CLM-003",
+      "claim": "A defense offset is inherently a corrupt payment.",
+      "claimant": "INV-156 synthesis",
+      "status": "REFUTED",
+      "materiality": "DECISIVE",
+      "support": [
+        "FCT-011",
+        "FCT-012",
+        "FCT-016"
+      ],
+      "counter": "FCT-011,FCT-012",
+      "gap": "NONE",
+      "gap_type": "NONE"
+    },
+    {
+      "id": "CLM-004",
+      "claim": "A public official can manipulate a procurement procedure to privilege a bidder, producing a case-specific influence/award chain.",
+      "claimant": "INV-156 synthesis",
+      "status": "SUPPORTED",
+      "materiality": "DECISIVE",
+      "support": [
+        "FCT-009",
+        "FCT-010"
+      ],
+      "counter": "NONE_FOUND",
+      "gap": "NONE",
+      "gap_type": "NONE"
+    },
+    {
+      "id": "CLM-005",
+      "claim": "Illicit payment linked to a contract automatically proves the payment counterfactually caused the award.",
+      "claimant": "INV-156 synthesis",
+      "status": "NOT_ESTABLISHED_AS_GENERAL_RULE",
+      "materiality": "HIGH",
+      "support": [
+        "FCT-015"
+      ],
+      "counter": "FCT-015",
+      "gap": "Counterfactual causation remains case-specific.",
+      "gap_type": "CAUSALITY"
+    },
+    {
+      "id": "CLM-006",
+      "claim": "Airbus, Alstom and Siemens provide independent corporate families supporting the intermediary/consultant -> corrupt payment -> business-winning mechanism.",
+      "claimant": "INV-156 synthesis",
+      "status": "SUPPORTED",
+      "materiality": "HIGH",
+      "support": [
+        "FCT-001",
+        "FCT-004",
+        "FCT-005",
+        "FCT-007",
+        "FCT-008"
+      ],
+      "counter": "NONE_FOUND",
+      "gap": "NONE",
+      "gap_type": "NONE"
+    },
+    {
+      "id": "CLM-007",
+      "claim": "This run closes an offsets-specific misconduct mechanism independent of agents/commissions.",
+      "claimant": "INV-156 synthesis",
+      "status": "UNRESOLVED",
+      "materiality": "HIGH",
+      "support": [
+        "FCT-011",
+        "FCT-012",
+        "FCT-016"
+      ],
+      "counter": "FCT-016",
+      "gap": "No primary-source case in the bounded run where the offset mechanism itself carried the improper influence rather than a separate bribe/intermediary.",
+      "gap_type": "EVIDENCE"
+    },
+    {
+      "id": "CLM-008",
+      "claim": "A representative France/EU prevalence or success-rate denominator is established.",
+      "claimant": "INV-156 synthesis",
+      "status": "GAP",
+      "materiality": "HIGH",
+      "support": [
+        "FCT-018"
+      ],
+      "counter": "NONE_FOUND",
+      "gap": "No representative denominator.",
+      "gap_type": "DENOMINATOR"
+    },
+    {
+      "id": "CLM-009",
+      "claim": "Corruption and trading in influence are evidentially separable in procurement analysis.",
+      "claimant": "INV-156 synthesis",
+      "status": "SUPPORTED",
+      "materiality": "HIGH",
+      "support": [
+        "FCT-004",
+        "FCT-009"
+      ],
+      "counter": "NONE_FOUND",
+      "gap": "NONE",
+      "gap_type": "NONE"
+    },
+    {
+      "id": "CLM-010",
+      "claim": "Use of a foreign intermediary in a procurement process is automatically foreign interference/ingérence.",
+      "claimant": "INV-156 synthesis",
+      "status": "REFUTED",
+      "materiality": "DECISIVE",
+      "support": [
+        "FCT-013",
+        "FCT-017"
+      ],
+      "counter": "FCT-013,FCT-017",
+      "gap": "State tasking, illicit act, decision linkage and political effect require separate proof.",
+      "gap_type": "ATTRIBUTION"
+    }
+  ],
+  "requests": [
+    {
+      "id": "QRY-001",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-001",
+      "url": "https://www.justice.gov/usao-dc/pr/airbus-agrees-pay-over-39-billion-global-penalties-resolve-foreign-bribery-and-itar-case"
+    },
+    {
+      "id": "QRY-002",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-002",
+      "url": "https://www.gov.uk/government/publications/sfo-deferred-prosecution-agreement-with-airbus"
+    },
+    {
+      "id": "QRY-003",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-003",
+      "url": "https://www.tribunal-de-paris.justice.fr/75/communiques-de-presse-0"
+    },
+    {
+      "id": "QRY-004",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-004",
+      "url": "https://www.justice.gov/archives/opa/pr/alstom-pleads-guilty-and-agrees-pay-772-million-criminal-penalty-resolve-foreign-bribery"
+    },
+    {
+      "id": "QRY-005",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-005",
+      "url": "https://www.justice.gov/archives/opa/pr/former-senior-alstom-executive-convicted-trial-violating-foreign-corrupt-practices-act-money"
+    },
+    {
+      "id": "QRY-006",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-006",
+      "url": "https://www.justice.gov/archive/opa/pr/2008/December/08-crm-1105.html"
+    },
+    {
+      "id": "QRY-007",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-007",
+      "url": "https://www.eppo.europa.eu/media/news/croatia-former-minister-sentenced-two-years-imprisonment-abuse-office-and-authority-2025-06-12_en"
+    },
+    {
+      "id": "QRY-008",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-008",
+      "url": "https://www.eppo.europa.eu/media/news/croatia-additional-conviction-investigation-software-purchase-ministry-regional-development-and-eu-2025-09-12_en"
+    },
+    {
+      "id": "QRY-009",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-009",
+      "url": "https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/offsets-defense-trade"
+    },
+    {
+      "id": "QRY-010",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-010",
+      "url": "https://www.law.cornell.edu/cfr/text/22/130.5"
+    },
+    {
+      "id": "QRY-011",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-011",
+      "url": "https://www.worldbank.org/en/news/press-release/2012/02/22/enforcing-accountability-world-bank-debars-alstom-hydro-france-alstom-network-schweiz-ag-and-their-affiliates"
+    }
+  ],
+  "leads": [
+    {
+      "id": "LED-001",
+      "kind": "HYPOTHESIS",
+      "lead": "Procurement intermediaries can become corrupt conduits when a payment/benefit is intended for officials or to manipulate a procurement/business-winning process.",
+      "source_id": "INV-156-RUN_CARD",
+      "locator": "OBJECT_QUESTION",
+      "materiality": "DECISIVE",
+      "routes": [
+        "POWER",
+        "LAW",
+        "MONEY"
+      ],
+      "attempt_ids": [
+        "QRY-001",
+        "QRY-002",
+        "QRY-003",
+        "QRY-004",
+        "QRY-005",
+        "QRY-006",
+        "QRY-007",
+        "QRY-008",
+        "QRY-009",
+        "QRY-010",
+        "QRY-011"
+      ],
+      "result_ids": [
+        "FCT-001",
+        "FCT-002",
+        "FCT-003",
+        "FCT-004",
+        "FCT-005",
+        "FCT-006",
+        "FCT-007",
+        "FCT-008",
+        "FCT-009",
+        "FCT-010",
+        "FCT-011",
+        "FCT-012",
+        "FCT-013",
+        "FCT-014",
+        "FCT-015",
+        "FCT-016",
+        "FCT-017",
+        "FCT-018"
+      ],
+      "linked_ids": [
+        "CLM-001",
+        "CLM-004",
+        "CLM-006",
+        "CLM-009"
+      ],
+      "status": "SATURATED",
+      "evidence_excerpt": "Airbus, Alstom, Siemens and EPPO Croatia close multiple case-specific paths."
+    },
+    {
+      "id": "LED-002",
+      "kind": "GAP",
+      "lead": "Offset-specific improper influence and representative prevalence denominator.",
+      "source_id": "INV-156-RUN_CARD",
+      "locator": "GAP",
+      "materiality": "HIGH",
+      "routes": [
+        "RECHECK"
+      ],
+      "attempt_ids": [
+        "QRY-001",
+        "QRY-002",
+        "QRY-003",
+        "QRY-004",
+        "QRY-005",
+        "QRY-006",
+        "QRY-007",
+        "QRY-008",
+        "QRY-009",
+        "QRY-010",
+        "QRY-011"
+      ],
+      "result_ids": [
+        "FCT-011",
+        "FCT-012",
+        "FCT-016",
+        "FCT-018"
+      ],
+      "linked_ids": [
+        "CLM-007",
+        "CLM-008"
+      ],
+      "status": "GAP",
+      "evidence_excerpt": "Offsets are legitimate/reportable as a class; no offset-specific misconduct chain isolated.",
+      "gap": "Need actor-specific primary case or representative dataset.",
+      "gap_type": "EVIDENCE"
+    }
+  ],
+  "controls": [
+    {
+      "id": "CTRL-001",
+      "control": "agent != corrupt intermediary",
+      "status": "PASS",
+      "support": [
+        "FCT-013",
+        "FCT-017"
+      ]
+    },
+    {
+      "id": "CTRL-002",
+      "control": "commission != bribe",
+      "status": "PASS",
+      "support": [
+        "FCT-013",
+        "FCT-017"
+      ]
+    },
+    {
+      "id": "CTRL-003",
+      "control": "offset != corruption",
+      "status": "PASS",
+      "support": [
+        "FCT-011",
+        "FCT-012",
+        "FCT-016"
+      ]
+    },
+    {
+      "id": "CTRL-004",
+      "control": "contract award != proof of causal influence",
+      "status": "PASS",
+      "support": [
+        "FCT-015"
+      ]
+    },
+    {
+      "id": "CTRL-005",
+      "control": "corruption != trading in influence",
+      "status": "PASS",
+      "support": [
+        "FCT-004",
+        "FCT-009"
+      ]
+    },
+    {
+      "id": "CTRL-006",
+      "control": "foreign intermediary != foreign interference",
+      "status": "PASS",
+      "support": [
+        "FCT-013",
+        "FCT-017"
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "id": "AXS-001",
+      "axis": "INTERMEDIARY_CONDUIT",
+      "question": "Can third parties route corrupt benefits tied to procurement/business winning?",
+      "status": "SATURATED",
+      "result_ids": [
+        "FCT-001",
+        "FCT-004",
+        "FCT-005",
+        "FCT-006",
+        "FCT-007",
+        "FCT-008"
+      ],
+      "links": [
+        "CLM-001",
+        "CLM-006"
+      ],
+      "sought_objects": [
+        "CHAIN",
+        "COUNTER",
+        "STATUS"
+      ],
+      "attempt_ids": [
+        "QRY-001",
+        "QRY-002",
+        "QRY-003",
+        "QRY-004",
+        "QRY-005",
+        "QRY-006",
+        "QRY-007",
+        "QRY-008",
+        "QRY-009",
+        "QRY-010",
+        "QRY-011"
+      ]
+    },
+    {
+      "id": "AXS-002",
+      "axis": "PROCUREMENT_INFLUENCE",
+      "question": "Can an official manipulate a procurement process to privilege a bidder?",
+      "status": "SATURATED",
+      "result_ids": [
+        "FCT-009",
+        "FCT-010"
+      ],
+      "links": [
+        "CLM-004",
+        "CLM-009"
+      ],
+      "sought_objects": [
+        "CHAIN",
+        "STATUS"
+      ],
+      "attempt_ids": [
+        "QRY-001",
+        "QRY-002",
+        "QRY-003",
+        "QRY-004",
+        "QRY-005",
+        "QRY-006",
+        "QRY-007",
+        "QRY-008",
+        "QRY-009",
+        "QRY-010",
+        "QRY-011"
+      ]
+    },
+    {
+      "id": "AXS-003",
+      "axis": "COMMISSION_NEGATIVE_CONTROL",
+      "question": "Is a commission inherently corrupt?",
+      "status": "SATURATED",
+      "result_ids": [
+        "FCT-013",
+        "FCT-017"
+      ],
+      "links": [
+        "CLM-002"
+      ],
+      "sought_objects": [
+        "COUNTER",
+        "LAW"
+      ],
+      "attempt_ids": [
+        "QRY-001",
+        "QRY-002",
+        "QRY-003",
+        "QRY-004",
+        "QRY-005",
+        "QRY-006",
+        "QRY-007",
+        "QRY-008",
+        "QRY-009",
+        "QRY-010",
+        "QRY-011"
+      ]
+    },
+    {
+      "id": "AXS-004",
+      "axis": "OFFSET_NEGATIVE_CONTROL",
+      "question": "Is an offset inherently corrupt?",
+      "status": "SATURATED",
+      "result_ids": [
+        "FCT-011",
+        "FCT-012",
+        "FCT-016"
+      ],
+      "links": [
+        "CLM-003",
+        "CLM-007"
+      ],
+      "sought_objects": [
+        "COUNTER",
+        "LAW"
+      ],
+      "attempt_ids": [
+        "QRY-001",
+        "QRY-002",
+        "QRY-003",
+        "QRY-004",
+        "QRY-005",
+        "QRY-006",
+        "QRY-007",
+        "QRY-008",
+        "QRY-009",
+        "QRY-010",
+        "QRY-011"
+      ]
+    },
+    {
+      "id": "AXS-005",
+      "axis": "AWARD_CAUSALITY",
+      "question": "Does a linked illicit payment prove but-for award causation?",
+      "status": "PARTIAL",
+      "result_ids": [
+        "FCT-015"
+      ],
+      "links": [
+        "CLM-005"
+      ],
+      "sought_objects": [
+        "CAUSALITY",
+        "COUNTER"
+      ],
+      "attempt_ids": [
+        "QRY-001",
+        "QRY-002",
+        "QRY-003",
+        "QRY-004",
+        "QRY-005",
+        "QRY-006",
+        "QRY-007",
+        "QRY-008",
+        "QRY-009",
+        "QRY-010",
+        "QRY-011"
+      ]
+    },
+    {
+      "id": "AXS-006",
+      "axis": "REPRESENTATIVE_DENOMINATOR",
+      "question": "Is a representative France/EU prevalence denominator available?",
+      "status": "GAP",
+      "result_ids": [
+        "FCT-018"
+      ],
+      "links": [
+        "CLM-008"
+      ],
+      "sought_objects": [
+        "DENOMINATOR"
+      ],
+      "attempt_ids": [
+        "QRY-001",
+        "QRY-002",
+        "QRY-003",
+        "QRY-004",
+        "QRY-005",
+        "QRY-006",
+        "QRY-007",
+        "QRY-008",
+        "QRY-009",
+        "QRY-010",
+        "QRY-011"
+      ]
+    }
+  ],
+  "causal": [
+    {
+      "id": "CAU-001",
+      "question": "When does a procurement intermediary/commission become improper influence rather than ordinary commercial intermediation?",
+      "mechanism": "public/strategic procurement -> agent/consultant/commission -> payment or benefit -> official/influencer/procedure -> assistance/privilege -> award/conditions -> effect",
+      "status": "SUPPORTED",
+      "support": [
+        "FCT-001",
+        "FCT-004",
+        "FCT-005",
+        "FCT-006",
+        "FCT-007",
+        "FCT-008",
+        "FCT-009",
+        "FCT-010",
+        "FCT-013",
+        "FCT-016",
+        "FCT-017"
+      ],
+      "counter": "Legitimate service payments and defense offsets provide negative controls; not every linked payment proves but-for award causation.",
+      "limit": "Separate lawful service, corruption, trading in influence, lobbying, award linkage and counterfactual causation.",
+      "gap": "Offset-specific misconduct and representative denominator remain open.",
+      "gap_type": "CAUSALITY",
+      "causal_right": "PROCUREMENT_INTERMEDIARY_CAN_CARRY_IMPROPER_INFLUENCE_IF_ILLICIT_BENEFIT_AND_DECISION_LINK_ARE_PROVED; LABELS_AGENT_COMMISSION_OFFSET_ARE_NOT_SELF_PROVING"
+    }
+  ],
+  "actions": [],
+  "refutations": [],
+  "counters": {
+    "ACT": 0,
+    "AXS": 6,
+    "CLM": 10,
+    "FCT": 18,
+    "LED": 2,
+    "QRY": 11,
+    "SRC": 11
+  },
+  "persistence": {
+    "attempt_history": [
+      {
+        "seq": 1,
+        "created_at": "2026-09-11T19:50:00+00:00",
+        "result": "PASS",
+        "mnemo_row": "MNEMO_UNAVAILABLE — local memory service not available; no memory ids fabricated.",
+        "fact_mem": {},
+        "writeback_execution": [
+          {
+            "fct": "FCT-001",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-002",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-003",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-004",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-005",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-006",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-007",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-008",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-009",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-010",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-011",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-012",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-013",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-014",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-015",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-016",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-017",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          },
+          {
+            "fct": "FCT-018",
+            "action": "ELIGIBLE:VERIFIE",
+            "attempted": 0,
+            "success": 0,
+            "failure": 0,
+            "blocked": 1,
+            "reason": "MNEMO_UNAVAILABLE"
+          }
+        ]
+      }
+    ],
+    "eligible_count": 18,
+    "blocked_count": 18,
+    "success_count": 0,
+    "failure_count": 0,
+    "fabricated_memory_ids": 0,
+    "result": "PASS"
+  },
+  "sections": {
+    "CREDO": "SET",
+    "SCOPING_REPORT": "SET",
+    "LEAD_REGISTRY": "DERIVED",
+    "CLAIM_REGISTRY": "DERIVED",
+    "INVESTIGATION_MAP": "DERIVED",
+    "RESOURCE_FLOW_MAP": "SET",
+    "ACTOR_NETWORK_MAP": "SET",
+    "AXES": "SET",
+    "CAUSALITY_REGISTRY": "DERIVED",
+    "CONTRADICTION_LEDGER": "SET",
+    "CONTROL_MAP": "DERIVED",
+    "IMPACT_MAP": "SET",
+    "RESPONSIBILITY_MAP": "SET",
+    "VERIFICATION_REPORT": "SET",
+    "TRACE_MATRIX": "DERIVED",
+    "OPEN_GAPS": "DERIVED",
+    "STATUS_DELTA": "DERIVED"
+  },
+  "checkpoints": [
+    {
+      "seq": 1,
+      "id": "CP-001",
+      "label": "PRE",
+      "status": "PASS",
+      "last_completed": "3",
+      "next_action": "COLLECT",
+      "created_at": "2026-09-11T19:36:59+00:00"
+    },
+    {
+      "seq": 2,
+      "id": "CP-002",
+      "label": "COLLECT",
+      "status": "PASS",
+      "last_completed": "7",
+      "next_action": "ANALYZE",
+      "created_at": "2026-09-11T19:40:00+00:00"
+    },
+    {
+      "seq": 3,
+      "id": "CP-003",
+      "label": "ANALYZE",
+      "status": "PASS",
+      "last_completed": "10",
+      "next_action": "CAUSAL_GAP",
+      "created_at": "2026-09-11T19:43:00+00:00"
+    },
+    {
+      "seq": 4,
+      "id": "CP-004",
+      "label": "CAUSAL_GAP",
+      "status": "PASS",
+      "last_completed": "11",
+      "next_action": "VERIFY",
+      "created_at": "2026-09-11T19:45:00+00:00"
+    },
+    {
+      "seq": 5,
+      "id": "CP-005",
+      "label": "VERIFY",
+      "status": "PASS",
+      "last_completed": "13",
+      "next_action": "INVESTIGATION_ACCOUNTABILITY",
+      "created_at": "2026-09-11T19:47:00+00:00"
+    },
+    {
+      "seq": 6,
+      "id": "CP-006",
+      "label": "INVESTIGATION_ACCOUNTABILITY",
+      "status": "PASS",
+      "last_completed": "17",
+      "next_action": "FINALIZE",
+      "created_at": "2026-09-11T19:49:00+00:00"
+    }
+  ],
+  "status_updates": [
+    {
+      "at": "2026-09-11T19:36:59+00:00",
+      "status": "PRE_PASS"
+    },
+    {
+      "at": "2026-09-11T19:50:00+00:00",
+      "status": "DELIVERY_PASS_R3P1"
+    }
+  ],
+  "sys_log": [
+    {
+      "id": "SYS-001",
+      "mode": "SYS",
+      "result": "FAIL",
+      "source": "mnemo",
+      "url": "-",
+      "query": "MNEMO_Q"
+    },
+    {
+      "id": "SYS-002",
+      "mode": "SYS",
+      "result": "NONE",
+      "source": "runtime",
+      "url": "-",
+      "query": "MEMORY_PROBE"
+    },
+    {
+      "id": "SYS-003",
+      "mode": "SYS",
+      "result": "PASS",
+      "source": "runtime",
+      "url": "ATTEMPT-001",
+      "query": "PERSIST_REBIND"
+    }
+  ],
+  "hydrated": true,
+  "memory_probe": "MNEMO_UNAVAILABLE",
+  "delta_plan": {
+    "reclass_impact": [
+      "DEFERRED_REWARD_REVOLVING_DOOR",
+      "PROFESSIONAL_ENABLERS_OPAQUE_INFLUENCE",
+      "PHYSICAL_INFRASTRUCTURE_CONTROL",
+      "OFFSET_SPECIFIC_MISCONDUCT"
+    ],
+    "review": "MECHANISM_FIRST",
+    "reuse": "ALL_OTHER_CLOSED"
+  },
+  "stamps": {
+    "pre": "PASS",
+    "delivery": "PASS"
+  }
+}

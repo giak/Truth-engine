@@ -1,0 +1,28 @@
+{
+  "bundle_schema": "democracy-influence-complete-bundle/v1",
+  "created_utc": "2026-09-11T09:44:30.492769+00:00",
+  "scope": "Complete frozen copy of /mnt/data/invchain plus historical program references materialized into invchain/_HISTORICAL_REFERENCES",
+  "file_count": 380,
+  "total_bytes": 7042139,
+  "extensions": {
+    ".csv": 22,
+    ".json": 51,
+    ".log": 1,
+    ".md": 223,
+    ".py": 39,
+    ".pyc": 35,
+    ".tag": 2,
+    ".zip": 1,
+    "<none>": 6
+  },
+  "registry_status_counts": {
+    "CLOSED": 121,
+    "BACKLOG": 12,
+    "MERGED": 6,
+    "DEFERRED": 1,
+    "CONDITIONAL": 7
+  },
+  "canonical_registry_sha256": "165a29d3748c625c263fb16c433fcf2cdd8202db5edcfc31f8de6cb92cf2fb89",
+  "program_completion_sha256": "2a8bb3d37165c959f734a1ef9a0be4837ba1ad42c4642ddd5e04f51b46b76645",
+  "truth_engine_bundle_sha256": "d113e3bd1848805bc3dbf1485eb1107a5767ebe74efd0cf27b601e01db278d30"
+}

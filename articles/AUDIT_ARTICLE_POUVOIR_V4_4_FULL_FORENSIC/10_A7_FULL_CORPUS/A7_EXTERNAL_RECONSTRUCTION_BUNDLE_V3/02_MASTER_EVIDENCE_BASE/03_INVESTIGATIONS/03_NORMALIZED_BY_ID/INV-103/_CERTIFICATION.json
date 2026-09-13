@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:3a2e7937121c6e412bb75611a6941ec8bc59b09041ba58139996ca518c06c650",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-06_defiance-institutionnelle-francaise/2026-09-06_14-51_defiance-institutionnelle-francaise_INVESTIGATION.md",
+  "deliverable_sha256": "41d0b8d330aae2da557e97437cfc8fd4ba844005c606556571cfae853508a2da",
+  "created_at": "2026-09-06T13:09:23.349304+00:00"
+}

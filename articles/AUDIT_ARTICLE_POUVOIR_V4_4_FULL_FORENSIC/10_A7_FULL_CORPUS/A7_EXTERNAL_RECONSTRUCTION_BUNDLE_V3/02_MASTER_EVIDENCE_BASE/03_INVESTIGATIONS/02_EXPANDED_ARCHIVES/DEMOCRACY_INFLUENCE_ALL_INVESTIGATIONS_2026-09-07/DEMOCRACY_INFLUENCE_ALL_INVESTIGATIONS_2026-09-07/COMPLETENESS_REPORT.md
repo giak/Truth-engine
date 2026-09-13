@@ -1,0 +1,12 @@
+# COMPLETENESS_REPORT
+
+Expected CLOSED from registry: 33
+Represented CLOSED in bundle: 33
+Missing: NONE
+Extra represented IDs: NONE
+
+Special packaging:
+- INV-139: RECOVERY_HANDOFF_ONLY
+- INV-140: RECOVERY_HANDOFF_ONLY
+- INV-138: CANONICAL_ASSEMBLED
+- INV-146: SYNTHESIS_BUNDLE / NOT_RUN_BY_DESIGN

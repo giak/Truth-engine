@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "FAIL",
+  "head": "NO_GIT",
+  "state_id": "sha256:bde35bd06e9bc3f602284a4b0e0d6695cb1c6629818504fa085b5beaa71b2f03",
+  "deterministic": "FAIL",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "pre",
+  "deliverable": "investigations/2026-09/2026-09-07_foreign-party-financing-europe/2026-09-07_19-46_foreign-party-financing-europe_RUN_STATE.json",
+  "deliverable_sha256": "a2a794ac23efa8864a63e835dced08472082029128810a1f4792387e6f189630",
+  "created_at": "2026-09-07T18:01:25.653566+00:00"
+}

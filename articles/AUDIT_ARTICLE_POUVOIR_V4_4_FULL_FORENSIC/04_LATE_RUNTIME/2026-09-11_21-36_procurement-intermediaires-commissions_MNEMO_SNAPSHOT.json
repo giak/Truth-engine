@@ -1,0 +1,107 @@
+{
+  "snapshot_schema": 1,
+  "engine": "2.10.6",
+  "run_id": "20260911-2136-procurement-intermediaires-commissions",
+  "as_of": "2026-09-11",
+  "subject_slug": "procurement-intermediaires-commissions",
+  "subject_fingerprint": "sha256:3c5aa5d08e4c3ac2a058b99be08317a302080b9726c0f189b5e1f428f9f3b733",
+  "input_sha256": "sha256:e50cb2871eeaf97b3bca846bfccbf8af1b117542aeb6d1984b63eee5c0145eeb",
+  "facts": [
+    {
+      "id": "FCT-001",
+      "subject": "Airbus third-party bribery scheme"
+    },
+    {
+      "id": "FCT-002",
+      "subject": "Airbus China business-partner payments"
+    },
+    {
+      "id": "FCT-003",
+      "subject": "Airbus multi-jurisdiction resolution"
+    },
+    {
+      "id": "FCT-004",
+      "subject": "Alstom contracts and bribery"
+    },
+    {
+      "id": "FCT-005",
+      "subject": "Alstom consultants as conduits"
+    },
+    {
+      "id": "FCT-006",
+      "subject": "Tarahan procurement chain"
+    },
+    {
+      "id": "FCT-007",
+      "subject": "Siemens public-contract corruption"
+    },
+    {
+      "id": "FCT-008",
+      "subject": "Siemens commissions as disguise"
+    },
+    {
+      "id": "FCT-009",
+      "subject": "Croatia procurement manipulation"
+    },
+    {
+      "id": "FCT-010",
+      "subject": "Croatia additional conviction"
+    },
+    {
+      "id": "FCT-011",
+      "subject": "Offsets defined as industrial compensation"
+    },
+    {
+      "id": "FCT-012",
+      "subject": "Offsets are regulated/reportable"
+    },
+    {
+      "id": "FCT-013",
+      "subject": "Fee/commission can have legitimate service basis"
+    },
+    {
+      "id": "FCT-014",
+      "subject": "World Bank Alstom improper consultancy payment"
+    },
+    {
+      "id": "FCT-015",
+      "subject": "Award causation ceiling"
+    },
+    {
+      "id": "FCT-016",
+      "subject": "Offset negative control"
+    },
+    {
+      "id": "FCT-017",
+      "subject": "Commission negative control"
+    },
+    {
+      "id": "FCT-018",
+      "subject": "Representative denominator gap"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "GAP-001",
+      "type": "EVIDENCE",
+      "text": "No offset-specific improper-influence chain isolated."
+    },
+    {
+      "id": "GAP-002",
+      "type": "DENOMINATOR",
+      "text": "No representative France/EU prevalence/success denominator."
+    },
+    {
+      "id": "GAP-003",
+      "type": "CAUSALITY",
+      "text": "Award counterfactual causation remains case-specific."
+    }
+  ],
+  "contradictions": [
+    "commission != bribe",
+    "offset != corruption",
+    "linked payment != generic but-for award causation",
+    "foreign intermediary != automatic interference"
+  ],
+  "created_at": "2026-09-11T19:50:00+00:00"
+}
