@@ -1,0 +1,24 @@
+{
+  "mnemo_row": "PERSISTED_2026-08-30",
+  "writeback_row": {
+    "eligible": 1,
+    "attempted": 1,
+    "success": 1,
+    "failure": 0,
+    "blocked": 0
+  },
+  "writeback_execution": [
+    {
+      "fct": "FCT-001",
+      "action": "ELIGIBLE:VERIFIE",
+      "reason": "DOB 2025 Emeraude PDF inspecte",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    }
+  ],
+  "fact_mem": {
+    "FCT-001": "da3c2848-7e75-402e-b683-cbf8a89691f6"
+  }
+}

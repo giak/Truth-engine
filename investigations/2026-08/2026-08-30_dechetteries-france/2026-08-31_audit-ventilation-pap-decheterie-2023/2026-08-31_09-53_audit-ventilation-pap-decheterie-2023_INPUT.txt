@@ -1,0 +1,5 @@
+Investigation: combler le GAP de la passe 0942 (ventilation PAP vs déchèterie par flux) en inspectant le rapport ADEME « La collecte des déchets par le service public en France – Résultats 2023 » (librairie.ademe.fr, produit 8644, id_attachment 7907 = rapport 2,79 Mo ; 7915 = synthèse 615 Ko, INSPECTÉS).
+Lead question: pour chaque flux (encombrants, déchets verts, déblais/gravats, DEEE, dangereux, matériaux), quelle part est collectée en porte-à-porte/apport volontaire (collecte séparée) vs en déchèterie ?
+Object : (1) tableaux 6 (collectes séparées hors déchèteries) et 10/54 (déchèterie par flux) 2023 ; (2) ratio PAP vs déchèterie par flux ; (3) destination en sortie de déchèterie (valorisation vs stockage).
+Sources : rapport ADEME 2023 PDF inspecté (2 429 lignes pdftotext), synthèse 2023 PDF inspecté (146 lignes).
+KERNEL: /home/giak/projects/truth-engine/truth-engine-v2/KERNEL.md

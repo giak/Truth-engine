@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Combien d'EPCI supplementaires avec donnees par decheterie peut-on documenter (tonnages + soutiens en euros) pour la carte nationale ?",
+    "sought": "nouveaux EPCI avec RPQS/PV/budgets detailant tonnages decheterie et soutiens eco-org",
+    "status": "ACTIVE",
+    "links": ["LED-001", "LED-002"]
+  },
+  {
+    "question": "Quel est le ratio soutiens Citeo/tonnage par site a travers l'echantillon elargi, et permet-il une extrapolation nationale ?",
+    "sought": "calcul du ratio €/t par EPCI et test de stabilite",
+    "status": "ACTIVE",
+    "links": ["LED-002", "LED-003"]
+  }
+]

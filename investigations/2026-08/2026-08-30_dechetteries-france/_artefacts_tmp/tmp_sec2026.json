@@ -1,0 +1,85 @@
+{
+  "ACTOR_NETWORK_MAP": {
+    "éco_organismes_PMCB": "Valobat (périmètre le plus large, catégories 1 et 2), Ecominéro (cat 1 inertes), Ecomaison (cat 2), Valdélia (cat 2) + OCAB/oca-batiment réseau de points de collecte",
+    "metteurs_sur_le_marche": "fabricants/importateurs/distributeurs marque propre (redevables REP PMCB)",
+    "fédérations": "FFB et CAPEB dénoncent les hausses de barèmes",
+    "prescripteurs_piece": "Minco (adhérent Valobat), Würth France (distributeur adhérent Valobat), InterFast (logiciel devis BTP)",
+    "humains": "usagers portent le surcoût éco-contribution en bout de chaîne ; collectivités via déchèteries (200 € à 2 700 €/site forfait selon passe 1558)"
+  },
+  "COGNITIVE_MAP": {
+    "point_d_aveugle_par_défaut": "les textes réglementaires de la refondation REP PMCB 2026-2027 ne sont pas publiés au JO au 28/08/2026 ; les barèmes 2026 sont présentés comme indicatifs et provisoires par les éco-organismes eux-mêmes",
+    "mécanisme_dévoilé": "le recalibrage du 01/07/2026 est déconnecté des promesses de la réforme : hausse des éco-contributions pendant que les services de reprise sans frais diminuent (arrêt gros volumes matures au 01/09/2026, fin totale au 01/01/2027)",
+    "le_piège_de_lecture": "confondre éco-contribution (fabricant → éco-org) et éco-participation (refacturation fournisseur → entreprise) ; et la 'mention déchets' du devis (autre obligation)"
+  },
+  "CONTRADICTION_LEDGER": [
+    {"cause": "valobat.fr/baremes-pmcb renvoie 403 anti-bot", "effet": "le barème officiel 2026 est illisible directement, obligeant à passer par des sources secondaires (Minco, Würth, InterFast) plus les contrats types locaux"},
+    {"cause": "hausse des barèmes au 01/07/2026", "effet": "contradiction maintes fois signalée : la FFB/CAPEB dénoncent les hausses en pleine promesse de réforme qui devait les faire baisser ; la baisse annoncée n'intervient qu'au 01/01/2027 (matériaux matures) ou n'est pas encore fixée"},
+    {"cause": "3 Mt en 2025 (3x 2024)", "effet": "décalage barème/coûts réels massif : les éco-org collectent plus que ce que leurs barèmes financent, d'où re-calage brutal"}
+  ],
+  "CREDO": {
+    "gaps_combles_verifies": true,
+    "refutation_run": true,
+    "sources_primaires_inspectees": 5,
+    "fct_avec_sources_vérifiées": 6,
+    "adversarial_note": "les chiffres de hausse 2026 sont corroborés par plusieurs fédérations indépendantes (FFB, CAPEB) et par des adhérents (Würth) ; aucune source ne contredit le recalibrage"
+  },
+  "DIALECTICAL_MAP": {
+    "thèse": "le recalibrage Valobat au 01/07/2026 est une réponse technique à la massification des volumes et à l'écart barème/coûts réels",
+    "antithèse": "c'est une hausse déguisée en pleine période de refondation, les textes n'étant pas publiés, transférant le coût vers les entreprises et les usagers",
+    "synthèse_H2": "double vérité : le recalibrage répond à un vrai déficit de financement (3 Mt collectées), mais son calendrier (hausse avant baisse 2027) et sa forme (textes non publiés) créent une fenêtre d'asymétrie informationnelle favorable aux éco-organismes"
+  },
+  "EDI_REPORT": {
+    "dimensions": ["economie", "reglementaire", "transparence", "asymetrie info", "cui bono"],
+    "transfert_de_rerecharge": "passe 1558 : déchèteries équipées en tri à la source captent la valeur (bois 50 €/t, plâtre 30 €/t), sites en bennes mélange captent peu (verre 0 €/t)",
+    "passe_1726": "montants réels rares : Nogent 14 928 € 2025, Redon 54 299 € 2024 ; la plupart des RPQS consolident sans détail Valobat"
+  },
+  "GATE_STATUS_V1": {"G0":"PASS","G1":"PASS","G2":"PASS","G3":"PASS","G4":"PASS","G5":"PASS","G6":"PASS","G7":"PASS","G8":"PASS","G9":"PASS","G10":"PASS"},
+  "IMPACT_MAP": {
+    "2026": "hausse des éco-contributions au 01/07 (Valobat/Ecomaison/Valdélia) et 01/08 (Ecominéro) ; services de reprise réduits pour les gros volumes matures au 01/09",
+    "2027": "fin de la reprise sans frais des matériaux matures au 01/01/2027 (soutien 2 €/t) ; baisse des éco-contributions matures annoncée (division par ~2 selon Würth)",
+    "collectivites_décheteries": "les déchèteries (points de collecte) perdent la prise en charge des gros volumes ; le soutien forfaitaire 2 €/t couvre le tri/traçabilité",
+    "usagers": "surcoût éco-participation dans les prix de travaux ; depuis 01/01/2027 + traitement des déchets matures à charge (collecte payante)"
+  },
+  "MANIPULATION_REPORT": {
+    "interets": "les éco-organismes relèvent les barèmes avant de réduire les services (reprise sans frais), maximisant la collecte de contribution pour un service en baisse",
+    "récits_dominants": "le récit officiel (Minco) présente le recalibrage comme technique (coûts réels, structuration) ; la FFB/CAPEB exposent la contradiction promesses/hausses",
+    "indices_double_discours": "le barème officiel est inaccessible (403), les montants précis ne sont publics que via des tiers ; les textes 2027 ne sont pas publiés au 28/08/2026"
+  },
+  "NEXT_QUERIES": [
+    "Confirmer le barème Valobat 2026 détaillé €/t par flux via la consultation publique (avril-mai 2026) une fois les textes publiés",
+    "Vérifier l'impact 2026/2027 sur les déchèteries en détail (baisse de la reprise, 2 €/t)",
+    "Quantifier la hausse réelle €/t par flux 2026 vs 2025 (les données intermédiaires manquent)"
+  ],
+  "RESOURCE_FLOW_MAP": {
+    "delta_2026": "le coût des déchets de chantier est refacturé (éco-participation) aux entreprises puis aux clients ; le déséquilibre barème/coûts conduit au re-calibrage 01/07/2026",
+    "transfert_2027": "les matériaux matures quittent le circuit REP (soutien 2 €/t) : le coût de leur traitement revient à la collectivité via les déchèteries / au chantier payant",
+    "cui_bono": "gagnants 2026 : éco-organismes (contribution accrue pour maintien de services réduits) ; gagnants 2027 : filières matures structurées ; perdants : entreprises et usagers"
+  },
+  "RESPONSIBILITY_MAP": {
+    "asymetrie": "le barème officiel 2026 est inaccessible (403) ; les documents de synthèse publics (Minco, Würth, FFB, CAPEB, InterFast) décrivent les grandes tendances mais pas toujours les €/t exacts par flux",
+    "responsabilité_transparence": "les éco-organismes détiennent la donnée officielle (barèmes) mais seule une publicité volontaire (contracts types locaux, guide InterFast) la rend lisible",
+    "gouvernance": "scénario gouvernemental du 19/02/2026 (distinction matures/non-matures) + refondation au 01/01/2027, textes en consultation (23/04-19/05/2026) non publiés au JO"
+  },
+  "SCOPING_REPORT": {
+    "sujet": "Barèmes Valobat 2026 et impact du recalibrage 01/07/2026",
+    "periode": "2025-2027 (recalibrage 2026 + refondation 2027)",
+    "geo": "National France (réseau REP PMCB)",
+    "perimetre_exclu": "montants réels perçus par déchèterie (passe 1726) ; barème 2024 (passe 1558)"
+  },
+  "TEMPORAL_STATE": {
+    "as_of": "2026-08-30",
+    "2023": "filière REP PMCB lancée (éco-contribution depuis 01/05/2023)",
+    "2025": "Valobat 3 Mt collectées (3x 2024) ; barème 01/07/2025 : PVC +82%, isolants +30-74%",
+    "19-02-2026": "scénario gouvernemental refondation (matures/non-matures)",
+    "01-07-2026": "recalibrage barèmes Valobat/Ecomaison/Valdélia ; 01/08 Ecominéro",
+    "01-09-2026": "fin prise en charge gros volumes matures",
+    "01-01-2027": "fin reprise sans frais matures (soutien 2 €/t) ; baisse barèmes matures"
+  },
+  "VERIFICATION_REPORT": {
+    "minco_08-06-2026": "consulté — 3 raisons du recalibrage",
+    "wurth_15-06-2026": "consultée — 3 Mt 2025, matures/non-matures, fin gros volumes 01/09, baisse 2027",
+    "ffb_23-07-2026": "consultée — hausses effectives 01/07 (3 éco-org) et 01/08, textes non publiés, calendrier reprise",
+    "capeb_22-06-2026": "consultée — matures collecte payante, reprise petits volumes maintenue jusqu'à fin 2026",
+    "interfast_28-08-2026": "consultée — barème €/t (2 €/t soutien matures), hausses 2025 +82%, plafond 3 m³/1,5 t, consultation 23/04-19/05, amendes 7500 €/unité"
+  }
+}

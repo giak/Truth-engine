@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:47672ca3a62876c50244d5c31566af6d79723b611a3d446b2cdcb1d3e32a1df6",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_detail-citeo-dob2025-emeraude/2026-08-30_13-53_detail-citeo-dob2025-emeraude_INVESTIGATION.md",
+  "deliverable_sha256": "ad11bdbc99c5cf4aa44d7716600437d3c6ba69c9449defdfc36997afeb7554b0",
+  "created_at": "2026-08-30T13:55:27.044702+00:00"
+}

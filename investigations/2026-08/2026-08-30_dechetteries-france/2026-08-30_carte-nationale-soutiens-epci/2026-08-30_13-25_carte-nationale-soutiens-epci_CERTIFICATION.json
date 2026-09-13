@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:a0780635e165bd0292537056d0677b932b78c08ad25a93744996635ce36679b7",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_carte-nationale-soutiens-epci/2026-08-30_13-25_carte-nationale-soutiens-epci_INVESTIGATION.md",
+  "deliverable_sha256": "ed853ef52bea94aae6ad56ff90a21797b2fc2aeead5e352e2412b086c247f40b",
+  "created_at": "2026-08-30T13:32:24.702812+00:00"
+}

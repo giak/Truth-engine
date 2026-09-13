@@ -1,0 +1,1 @@
+Recuperation du barème Valobat 2026 (eco-contributions PMCB) hors 403 valobat.fr : sources ADEME filieres-REP, FFBatiment, Minco, presse pro (BatiActu, Lemoniteur, Zepros) ; verification de limpact du recalibrage au 01/07/2026 (hausse cte, recalibrage couts, eco-modulation renforcee, bonus-malus).

@@ -1,0 +1,44 @@
+{
+  "scope": {
+    "lead_question": "Le detail des soutiens Citeo par titre de recette (GAP historique du CA 2024 consolide) est-il accessible via les documents budgetaires publics d'Emeraude ?",
+    "object_question": "Ventiler les soutiens Citeo Emeraude par poste via le DOB 2025 (emballages 2 400 000 € 2025, petits alus 700 €/t Citeo 400 + CEELA 300, ambassadeurs 10 k€, papier en baisse, revente 1 050 000 €) et evaluer le PV DOB 2026 (scanne)",
+    "geo": "Syndicat Emeraude (Val-d'Oise)",
+    "period": "2024-2026",
+    "domains": ["economie", "transparence_financiere", "gestion_dechets", "rep"],
+    "actors_entities": ["Citeo", "CEELA", "Ecomaison", "Ecologic", "Emeraude"],
+    "exclusions": [],
+    "limits": ["PV DOB 2026 scanne (0 couche texte) : GAP OCR", "detail par titre de recette (compte 7478) non publie dans le CA", "DOB = previsions, pas des realises"]
+  },
+  "clm": [
+    {
+      "claim": "Le DOB 2025 d'Emeraude ventile Citeo par poste : emballages 2 400 000 € (2025), petits alus Citeo 400 €/t + CEELA 300 €/t = 700 €/t (35 000 €), ambassadeurs 10 k€, papier en baisse, revente materiaux prevue 1 050 000 €",
+      "support": "DOB 2025 Emeraude (PDF inspecte passe 1516)",
+      "counter": "NONE_FOUND",
+      "gap": "detail par titre de recette (compte 7478) non publie ; PV DOB 2026 scanne",
+      "gap_type": "ACCESS",
+      "status": "OPEN"
+    }
+  ],
+  "axs": [
+    {
+      "question": "Quelle est la granularite maximale publique de la ventilation Citeo Emeraude (par poste via DOB vs par titre via CA) ?",
+      "sought": "lecture DOB 2025 + PV 2026 (scan) + CA 2024",
+      "status": "ACTIVE",
+      "links": ["LED-001"]
+    }
+  ],
+  "leds": [
+    {
+      "lead": "DOB 2025 : Citeo emballages 2 400 000 € (2025), petits alus Citeo 400 €/t + CEELA 300 €/t = 700 €/t (35 000 €), ambassadeurs 10 k€, revente materiaux prevue 1 050 000 € (perte flux plastiques passes au flux developpement)",
+      "materiality": "DECISIVE",
+      "routes": ["EXPAND", "CONTEXT"],
+      "status": "ACTIVE"
+    },
+    {
+      "lead": "PV CS 09/02/2026 (DOB 2026) scanne : 0 couche texte, OCR necessaire — le GAP de transparence persiste au niveau des titres de recette",
+      "materiality": "IMPORTANT",
+      "routes": ["EXPAND"],
+      "status": "ACTIVE"
+    }
+  ]
+}

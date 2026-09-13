@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:879d1ded9b34997becd9b776e186ee27931794a5b7377d1d1abe19b6e121c1df",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_audit-conflit-symetri-tribord/2026-08-30_21-14_audit-conflit-symetri-tribord_INVESTIGATION.md",
+  "deliverable_sha256": "7bb67d264f3cb2f128c1531020f92a22e1a3c4a518a22a4e9c5fb32b1c21702a",
+  "created_at": "2026-08-30T19:21:25.396131+00:00"
+}

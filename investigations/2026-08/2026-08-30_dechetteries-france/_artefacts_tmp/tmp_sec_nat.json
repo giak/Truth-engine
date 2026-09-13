@@ -1,0 +1,83 @@
+{
+  "SCOPING_REPORT": {
+    "lead_question": "Peut-on elargir la carte nationale des soutiens REP par decheterie avec des RPQS 2024 de nouveaux EPCI (diversite geographique et demographique) ?",
+    "object_question": "Ajouter CCST (90) et Redon (35) aux 11 EPCI documentes -> 13 EPCI : CCST 8 171 t / 604 723,61 € (74 €/t), Redon ventilation par eco-org (Citeo 1 000 062 €, Valobat 54 299 €, Ecosystem 71 063 €, EcoDDS 7 865 €)",
+    "geo": "Territoire de Belfort (90, CCST), Ille-et-Vilaine (35, Redon)",
+    "periode": "2024"
+  },
+  "TEMPORAL_STATE": {
+    "as_of": "2026-08-30",
+    "periode_etudiee": "rapports 2024 (CCST publie 2025, Redon publie 03/2026)",
+    "phase": "elargissement de l'echantillon national"
+  },
+  "COGNITIVE_MAP": {
+    "modele": "la carte nationale gagne 2 EPCI : CCST (2 dechetteries rurales 74 €/t) et Redon (6 dechetteries semi-urbaines avec ventilation complete par eco-org)",
+    "mecanisme": "le niveau de detail des rapports determine la granularite : Redon ventile par eco-org et par flux, CCST consolide avec un gros poste non identifie"
+  },
+  "DIALECTICAL_MAP": {
+    "these": "la ventilation par eco-organisme est rare et reservee aux grands syndicats",
+    "antithese": "Redon (agglomeration moyenne) ventile Valobat, Ecosystem, EcoDDS, CYCLEVIA en euros — la pratique existe a toutes les echelles",
+    "synthese": "la carte nationale s'elargit : 13 EPCI dont 2 nouveaux avec donnees 2024, la granularite depend du rapport, pas de la taille de la collectivite"
+  },
+  "RESOURCE_FLOW_MAP": {
+    "flux": "CCST : soutiens 604 723,61 € pour 8 171 t (74 €/t) ; Redon : Citeo 1 000 062 € + 217 888 € (Citeo-EcoDDS-CYCLEVIA-Ecomobilier) + 52 000 € + 37 939 € + Valobat 54 299 € + Ecosystem 71 063 € + EcoDDS 7 865 € + CYCLEVIA 1 800 €",
+    "delta": "Redon documente le financement des filieres jeunes en euros : Valobat PMCB 1 363 t = 54 299 €, REP PMCB 439 t (economie 39 502 €) — la valeur des flux PMCB/D3E est territorialement chiffrable"
+  },
+  "ACTOR_NETWORK_MAP": {
+    "acteurs": "Citeo (dominant), Valobat (PMCB), Ecosystem (D3E), EcoDDS (DDS), CYCLEVIA (huiles), Ecomobilier, OCAD3E, CCST, Redon Agglomeration",
+    "roles": "Redon a 6 decheteries equipees en bennes multimateriaux (Valobat prend en charge transport+traitement) ; CCST exploite 2 dechetteries en regie avec 23 filieres"
+  },
+  "IMPACT_MAP": {
+    "ratio": "74 €/t CCST vs 34 €/t TPM vs 69 €/t Ambert : diversite confirmee",
+    "pmcb": "Redon : bennes multimateriaux = detournement de dechets du non valorisable (133 t) et prise en charge directe par l'eco-organisme",
+    "d3e": "Redon 10,3 kg/hab vs 7,05 reference nationale semi-urbain : sur-performance D3E"
+  },
+  "RESPONSIBILITY_MAP": {
+    "responsabilite": "producteurs via REP (Citeo, Valobat, Ecosystem, EcoDDS, CYCLEVIA, Ecomobilier)",
+    "asymetrie": "les eco-organismes PMCB/D3E prennent en charge transport et traitement (bennes multimat Redon) : la valeur est captee en amont, la collectivite recoit un soutien partiel",
+    "charge_effective": "usager (REOM Redon, redevance CCST) + eco-participations"
+  },
+  "CONTRADICTION_LEDGER": [
+    {
+      "fact": "CCST : gros poste de soutien 520 863,21 € non identifie dans le rapport",
+      "status": "OPEN",
+      "cause": "consolidation sans ventilation du poste principal",
+      "discriminant": "compte administratif CCST 2024"
+    },
+    {
+      "fact": "Redon : total decheteries exact non isole (57 % du tonnage total 31 750 t)",
+      "status": "OPEN",
+      "cause": "rapport par flux, pas par site",
+      "discriminant": "detail par decheterie Redon"
+    }
+  ],
+  "VERIFICATION_REPORT": {
+    "ccst": "rapport activite 2024 PDF inspecte : 8 171 t, soutiens 604 723,61 €, ventes 100 896 €",
+    "redon": "rapport annuel 2024 PDF inspecte (42 p.) : ventilation complete par eco-org en euros"
+  },
+  "CREDO": {
+    "refutation_run": true,
+    "sources_primaires_inspectees": true,
+    "echantillon_13_epci": true
+  },
+  "EDI_REPORT": {
+    "dimensions": ["economie", "transparence", "inegalites territoriales", "acces donnee"],
+    "limites": "13 EPCI ; CCST poste consolide ; Redon sans detail par site ; pas de total decheterie Redon isole"
+  },
+  "MANIPULATION_REPORT": {
+    "opacite": "les rapports consolident ou ventilen selon la volonte locale : CCST cache le poste principal (520 863,21 €), Redon publie tout",
+    "interets": "la montee des filieres jeunes (PMCB, D3E, DDS) diversifie les financeurs mais Citeo reste dominant (70 % du total documente Redon)",
+    "revelation": "Valobat/Ecosystem versent des soutiens en euros documentables par site : l'opacite des baremes nationaux n'empeche pas la visibilite territoriale"
+  },
+  "NEXT_QUERIES": [
+    "Detail du gros poste CCST 520 863,21 € (CA 2024)",
+    "Tonnages decheterie Redon par site (6 sites)",
+    "RPQS 2024 Dinan Agglomeration (9 decheteries detaillees)",
+    "RPQS 2024 Loire Forez (decheteries 55 % des DMA)",
+    "Echantillon : 1 EPCI supplementaire par region manquante (Hauts-de-France, Normandie, PACA, Corse)"
+  ],
+  "GATE_STATUS_V1": {
+    "G0": "PASS", "G1": "PASS", "G2": "PASS", "G3": "PASS", "G4": "PASS",
+    "G5": "PASS", "G6": "PASS", "G7": "PASS", "G8": "PASS", "G9": "PASS", "G10": "PASS"
+  }
+}

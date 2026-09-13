@@ -1,0 +1,9 @@
+Audit KERNEL (passe courte, MEDIUM) : ancrer dans une donnee officielle le « labyrinthe local » de la collecte des dechets que decrit la vignette d'ouverture de l'article decheteries (repas de famille : bac jaune, bac gris, bacs payants, conteneurs enterres, chaque ville son systeme).
+
+OBJECT_QUESTION : quels faits officiels documentent la coexistence, sur un meme territoire ou pour un meme foyer, de modes de collecte (porte-a-porte / apport volontaire / conteneurs enterres), de couleurs de contenants differentes, et de regimes de financement (TEOM / TEOMi / REOM / REOMi / financement mixte) non harmonises ?
+
+LEAD : la coexistence est structurelle (libertes reglementaires + libre choix du financement + syndicats mixtes), et non un accident local.
+
+DIMENSIONS COUVRIR : (1) mode-mix PAP/AV et doubles services (ADEME enquete collecte 2023) ; (2) nombre d'EPCI/syndicats et coexistence de modalites dans une meme structure (Senat) ; (3) regimes de financement et leur repartition ; (4) harmonisation des consignes/couleurs (L541-10-18) et son atteinte.
+
+SORTIE : faits T1/T2 ancres (source + locator) pour la passe CP2.5 de l'article, coherents avec les passes deja certifiees (collecte 0927 : TEOM classique ~72% pop, financement mixte legal ; ventilation 0953 ; receptacle 0942).

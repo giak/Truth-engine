@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:e02f8faaf5fd0a6d7a472df79c9acc09e04eb18569476564ca065a439759b146",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_echantillon-national-rpqs-2024/2026-08-30_13-50_echantillon-national-rpqs-2024_INVESTIGATION.md",
+  "deliverable_sha256": "757ced52e07e30acdde70fe8906ce6e7e3168ec147a77cf17546fca0cfe9da13",
+  "created_at": "2026-08-30T13:52:26.345739+00:00"
+}

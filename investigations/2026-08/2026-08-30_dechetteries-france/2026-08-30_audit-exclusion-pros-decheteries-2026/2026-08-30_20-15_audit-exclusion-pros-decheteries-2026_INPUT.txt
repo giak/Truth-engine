@@ -1,0 +1,8 @@
+Axe A — « Qui a été exclu des déchèteries en 2025-2026 ? » (investigation depuis 2026, inverse du travail historique pré-2010).
+
+Contexte (mémoires warm route) : accès pros = décision du gestionnaire (b18be14a) ; coût dépôts sauvages 30-90 M€/an (Cerema 2024, 42ec6571) ; 4626 déchèteries publiques fixes (ADEME/AMORCE 2024) ; AMP ferme l'accès pros au 01/07/2025, généralisation des restrictions au 01/07/2026.
+
+Objectif : (1) identifier QUI a été exclu (professionnels, gros apporteurs, types de flux) et par quels acteurs (EPCI, métropoles, préfets ?) avec quels motifs ; (2) déterminer OÙ vont les déchets des ex-exclus (privé payant, REP PMCB, dépôts sauvages, flux détournés) ; (3) TEST DE CAUSALITÉ : la fermeture de l'accès pros est-elle corrélée à une hausse des dépôts sauvages / du coût de résorption (baseline Cerema 2024, enquête AMORCE/ADEME DT138 mars 2026, presse 2025-2026) ?
+
+- INPUT_KIND=UPDATE, MISSION_MODE=INVESTIGATION, parent=20260830-0904-dechetteries-france.
+- Discriminant : corrélation/chronologie != causalité ; baseline requise ; distinguer coût de résorption vs nombre de dépôts vs tonnages.

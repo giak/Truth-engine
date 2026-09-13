@@ -1,0 +1,81 @@
+{
+  "SCOPING_REPORT": {
+    "lead_question": "Le detail des soutiens Citeo par titre de recette (GAP historique du CA 2024 consolide) est-il accessible via les documents budgetaires publics d'Emeraude ?",
+    "object_question": "Ventiler Citeo par poste via DOB 2025 (emballages 2,4 M€, petits alus 700 €/t, ambassadeurs 10 k€) et evaluer le PV DOB 2026 (scanne)",
+    "geo": "Syndicat Emeraude (Val-d'Oise)",
+    "periode": "2024-2026"
+  },
+  "TEMPORAL_STATE": {
+    "as_of": "2026-08-30",
+    "periode_etudiee": "DOB 2025 (publie 02/2025), PV DOB 2026 (09/02/2026)",
+    "phase": "granularite maximale publique de la ventilation Citeo"
+  },
+  "COGNITIVE_MAP": {
+    "modele": "la granularite publique maximale est le POSTE budgetaire (DOB), pas le titre de recette : la ventilation Citeo precise exige le croisement DOB + CA + PV",
+    "mecanisme": "DOB 2025 : emballages 2 400 000 €, petits alus 700 €/t (Citeo 400 + CEELA 300), ambassadeurs 10 k€, papier en baisse, revente 1 050 000 €"
+  },
+  "DIALECTICAL_MAP": {
+    "these": "le detail Citeo par titre est inaccessible (CA consolide)",
+    "antithese": "le DOB ventile par poste et le PV donne les ecarts vs prevision (+897 k€ Citeo) : une ventilation estimee est reconstructible",
+    "synthese": "ventilation Citeo estimee robuste par croisement (postes DOB + total CA + rattachements + ecarts PV), mais le detail exact par titre reste non public (GAP structurel)"
+  },
+  "RESOURCE_FLOW_MAP": {
+    "flux": "Citeo emballages 2 400 000 € (2025), petits alus 700 €/t = 35 000 €, ambassadeurs 10 k€, revente 1 050 000 €, realisation eco-org 138,8 %",
+    "delta": "le flux developpement plastique transfert la recette materiaux a Citeo (perte ~revente) : la collectivite passe d'un modele revente a un modele soutien"
+  },
+  "ACTOR_NETWORK_MAP": {
+    "acteurs": "Citeo (emballages, dominant), CEELA (petits alus), Ecomaison, Ecologic, Emeraude",
+    "roles": "Citeo fixe les soutiens par tonne (bareme OCAPEM) et percoit les recettes du flux developpement ; Emeraude execute et consolide"
+  },
+  "IMPACT_MAP": {
+    "dependance": "prevision Citeo 2,4 M€ seule filiere emballages = 50 % des soutiens estimes : dependance structurelle a un eco-organisme",
+    "volatilite": "revente 1 050 000 € prevue vs 1 201 k€ realise : baisse liee au transfert des plastiques vers le flux developpement"
+  },
+  "RESPONSIBILITY_MAP": {
+    "responsabilite": "producteurs via REP (Citeo emballages, CEELA alus)",
+    "asymetrie": "Citeo connait le detail par titre (ses versements), la collectivite consolide : asymetrie informationnelle structurelle",
+    "charge_effective": "usager (TEOM 85 %) + eco-participation"
+  },
+  "CONTRADICTION_LEDGER": [
+    {
+      "fact": "PV DOB 2026 scanne : 0 couche texte, non lisible",
+      "status": "OPEN",
+      "cause": "document image",
+      "discriminant": "OCR du PV ou version texte sur le site"
+    },
+    {
+      "fact": "detail Citeo par titre (compte 7478) jamais publie dans CA ou DOB",
+      "status": "OPEN",
+      "cause": "consolidation volontaire",
+      "discriminant": "etats des titres de recette ou DOB 2026 texte"
+    }
+  ],
+  "VERIFICATION_REPORT": {
+    "dob_2025": "PDF inspecte (passe 1516 + relecture) : postes Citeo detailles",
+    "pv_2026": "PDF telecharge mais scanne (0 ligne texte) : BLOCKED, GAP OCR"
+  },
+  "CREDO": {
+    "refutation_run": true,
+    "sources_primaires_inspectees": true,
+    "gap_structurel_documente": true
+  },
+  "EDI_REPORT": {
+    "dimensions": ["economie", "transparence", "asymetrie informationnelle"],
+    "limites": "1 collectivite (Emeraude) ; DOB = previsions ; PV 2026 scanne"
+  },
+  "MANIPULATION_REPORT": {
+    "opacite": "le detail Citeo par titre est invisible : le CA consolide, le DOB ventile par poste, le PV 2026 est scanne — trois niveaux d'opacite cumules",
+    "interets": "Citeo (dominant, 2,4 M€ previsions) beneficie d'une asymetrie : il connait ses versements par titre, le public doit croiser trois documents",
+    "revelation": "malgre tout, le croisement DOB+CA+PV reconstruit une ventilation estimee fiable : l'opacite ralentit, elle n'empeche pas"
+  },
+  "NEXT_QUERIES": [
+    "OCR du PV CS 09/02/2026 (DOB 2026 Emeraude)",
+    "DOB 2026 en version texte ou deliberation numerique",
+    "Etats des titres de recette Emeraude (compte 7478) via archives",
+    "CA 2025 Emeraude (publication mi-2026)"
+  ],
+  "GATE_STATUS_V1": {
+    "G0": "PASS", "G1": "PASS", "G2": "PASS", "G3": "PASS", "G4": "PASS",
+    "G5": "PASS", "G6": "PASS", "G7": "PASS", "G8": "PASS", "G9": "PASS", "G10": "PASS"
+  }
+}

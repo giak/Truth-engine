@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Quels sont les chiffres exacts du RPQS 2024 SGC (tonnages decheterie, RI, charges) et permettent-ils de mettre a jour le comparatif inter-EPCI (passe 1512 utilisait 2020) ?",
+    "sought": "lecture du PDF RPQS 2024 SGC : tonnages decheterie Nomeny, RI 1 935 733 €, charges decheterie 726 003 €",
+    "status": "ACTIVE",
+    "links": ["LED-001"]
+  },
+  {
+    "question": "La ventilation eco-org du SEROC DOB 2025 (filiere decheterie 460 000 € dont PMCB, Citeo 2,7 M€, liquidatif 652 000 €) confirme-t-elle le modele de concentration Citeo et chiffre-t-elle la filiere PMCB territorialement ?",
+    "sought": "lecture du DOB 2025 SEROC : montants par eco-org et par filiere",
+    "status": "ACTIVE",
+    "links": ["LED-002", "LED-003"]
+  }
+]

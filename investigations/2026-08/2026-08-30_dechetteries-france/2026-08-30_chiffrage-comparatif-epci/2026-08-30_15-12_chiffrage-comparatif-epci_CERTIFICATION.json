@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "deterministic": "PASS",
+  "kernel_contract": "delivery",
+  "deliverable": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_chiffrage-comparatif-epci/2026-08-30_15-12_chiffrage-comparatif-epci_INVESTIGATION.md",
+  "deliverable_sha256": "2617eed0afad1d25b86b4201bfeb63c41a22eb584bf4501e10a3228bd07e9ccf",
+  "state_id": "sha256:443e3581bfa57724a5e57b3d099aa1619c6138ac9ce3a5aeb013573489717697"
+}

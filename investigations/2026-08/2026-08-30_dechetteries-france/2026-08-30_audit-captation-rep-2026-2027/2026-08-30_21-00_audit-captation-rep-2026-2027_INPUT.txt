@@ -1,0 +1,11 @@
+AXE C — Couche « argent » temps réel : projeter la captation REP 2026-2027 par déchèterie avec les nouvelles grilles.
+
+Question : après le recalibrage 01/07/2026 (Valobat/Ecomaison/Valdélia) et 01/08/2026 (Ecominéro), et avec la refondation PMCB 2027 (matures sortis de la reprise sans frais au 01/01/2027, soutien forfaitaire 2 €/t), combien chaque déchèterie/EPCI peut-elle capter par éco-organisme ? Qui reçoit l'argent de la refondation ?
+
+Méthode :
+1. Réutiliser le socle certifié : barèmes 2026 (passes 1740/1757), carte nationale des soutiens par EPCI (13 EPCI, passe 1350), montants réels Valobat (passe 1726), refondation PMCB 2027 (axe B passe 2030).
+2. Projeter la captation 2026-2027 par déchèterie sur un EPCI témoin à tonnages publics (Redon : Valobat 1 363 t = 54 299 € ≈ 39,8 €/t pondéré ; Nogent-le-Rotrou : Valobat 14 928 € 2025 ventilé) avec les nouvelles grilles €/t et €/kg.
+3. Identifier les flux qui changent au 01/09/2026 (gros volumes matures arrêt) et 01/01/2027 (reprise sans frais supprimée) — impact sur la captation par site.
+4. Conclure sur la captation par déchèterie 2026-2027 : qui capte quoi (Citeo dominant, Ecomaison, éco-orgs PMCB), et le transfert de charge vers les collectivités.
+
+UPDATE de la fresque dechetteries-france (passe parente 20260830-2045-audit-demographie-parc-fermetures).

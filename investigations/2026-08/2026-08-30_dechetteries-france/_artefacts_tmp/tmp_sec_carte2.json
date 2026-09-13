@@ -1,0 +1,44 @@
+{
+  "ACTOR_NETWORK_MAP": {
+    "acteurs": "Citeo (dominant partout), Ecomaison, Ecologic/Ecosystem (DEEE), EcoDDS, OCAD3E, Refashion, CEELA, collectivites (EPCI/syndicats/metropoles), ADEME",
+    "roles": "eco-org versent des soutiens par tonne/forfait selon conventions ; collectivites publient (ou non) le detail dans leurs RPQS ; Citeo percoit les recettes des flux developpement (captation documentee passe 1454)"
+  },
+  "IMPACT_MAP": {
+    "carte": "11 EPCI documentes : TPM 11,1 M€ soutiens (62 sites, 328 554 t), Ambert 576 578 € (8 345 t), Causses Aulrac 289 075 €, DRAGA 6 783 t (soutiens non ventiles), Ouche Montagne 4 407 t (Citeo 87 800 €), CCPU 57 310,90 € (ventilation complete)",
+    "inegalite": "les territoires ruraux (Causses, CCPU) recoivent des montants faibles en absolu ; les metropoles (TPM) concentrent la masse : la carte reflete la demographie, pas la performance",
+    "dependance": "TPM : 11,1 M€ soutiens vs 6,2 M€ revente + 0,7 M€ aides publiques : le contrat REP domine le marche"
+  },
+  "RESPONSIBILITY_MAP": {
+    "responsabilite": "producteurs via REP ; collectivites exploitent et publient les RPQS",
+    "asymetrie": "opacite variable : CCPU/Ouche Montagne publient le detail par eco-org, Emeraude/Ambert consolident en un poste, DRAGA ne ventile pas les soutiens",
+    "charge_effective": "usager (TEOM/REOM : TPM TEOM 3 092 545 €, Ambert 5 045 371 €) + collectivite"
+  },
+  "CONTRADICTION_LEDGER": [
+    {
+      "fact": "SGC 2024 bloque (403 anti-bot) : comparaison 2024 impossible, donnees 2020 seulement",
+      "status": "OPEN",
+      "cause": "telechargement protege (dlm)",
+      "discriminant": "RPQS 2024 SGC via archive ou demande directe"
+    },
+    {
+      "fact": "DRAGA : soutiens eco-org non ventiles dans le RPQS (seuls tonnages et recettes totales)",
+      "status": "OPEN",
+      "cause": "niveau de transparence choisi par la collectivite",
+      "discriminant": "compte administratif DRAGA 2024"
+    },
+    {
+      "fact": "ventilation Citeo par titre de recette jamais publiee (Emeraude, Ambert consolident)",
+      "status": "OPEN",
+      "cause": "etats des titres de recette non diffuses",
+      "discriminant": "DOB 2026 ou demande archives"
+    }
+  ],
+  "VERIFICATION_REPORT": {
+    "causses_aulrac": "RPQS 2024 PDF inspecte (27 p.) : soutiens 289 075 €, ventes 120 673 €, cout 2 555 797 €",
+    "draga": "RPQS 2024 PDF inspecte (20 p.) : 6 783 t, 3 decheteries, recettes 3 496 414 €",
+    "ouche_montagne": "RPQS 2024 PDF inspecte (41 p.) : 4 407,74 t, tableau soutiens/revente par repreneur",
+    "ambert": "RPQS 2024 PDF inspecte (155 p.) : 8 345 t, soutiens 576 578 €",
+    "tpm": "RPQS metropolitain 2024 PDF inspecte (72 p.) : 62 sites, 11,1 M€ soutiens, 6,2 M€ revente",
+    "ccpu": "RPQS 2022 PDF inspecte (26 p.) : ventilation complete par eco-org 57 310,90 €"
+  }
+}

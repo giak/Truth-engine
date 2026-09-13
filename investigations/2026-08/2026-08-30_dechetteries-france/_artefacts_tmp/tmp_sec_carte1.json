@@ -1,0 +1,26 @@
+{
+  "SCOPING_REPORT": {
+    "lead_question": "Peut-on generaliser la ventilation des soutiens REP par decheterie a un echantillon elargi d'EPCI pour construire une carte nationale approximative ?",
+    "object_question": "Etendre la ventilation (soutiens eco-organismes en euros, tonnages par decheterie) de 5 a 11 EPCI : Emeraude, Tri-Action, SGC, SEROC 14, SIEDMTO + Causses Aulrac, DRAGA, Ouche et Montagne, Ambert Livradois Forez, TPM, CCPU",
+    "geo": "Aveyron (12), Ardeche (07), Cote-d'Or (21), Puy-de-Dome (63), Var (83, Metropole TPM), Loire (42), Val-d'Oise (95), Meurthe-et-Moselle (54)",
+    "periode": "2022-2025"
+  },
+  "TEMPORAL_STATE": {
+    "as_of": "2026-08-30",
+    "periode_etudiee": "donnees 2022-2024 publiees (RPQS/rapports annuels)",
+    "phase": "generalisation de la ventilation des soutiens REP par EPCI"
+  },
+  "COGNITIVE_MAP": {
+    "modele": "la carte nationale des soutiens se construit EPCI par EPCI a partir des RPQS/rapports annuels : tonnages par decheterie + soutiens en euros (Citeo dominant)",
+    "mecanisme": "le niveau de detail varie : total consolide (Emeraude, Ambert) vs ventilation par eco-organisme (CCPU) vs par repreneur (Ouche Montagne) vs par site (DRAGA)"
+  },
+  "DIALECTICAL_MAP": {
+    "these": "les donnees existent et permettent une carte nationale",
+    "antithese": "la ventilation Citeo par titre de recette n'est pas publiee et le detail par decheterie depend du niveau de transparence de chaque RPQS",
+    "synthese": "carte nationale reconstructible a l'echelle EPCI (11 documentes), avec granularite variable par site selon la transparence locale"
+  },
+  "RESOURCE_FLOW_MAP": {
+    "flux": "soutiens eco-org : TPM 11,1 M€ (62 sites) ; Ambert 576 578 € (8 345 t) ; Causses Aulrac 289 075 € (4 decheteries) ; CCPU 57 310,90 € (1 341 t, ventilation complete) ; Ouche Montagne Citeo 87 800 € seul (4 407 t) ; DRAGA 3 496 414 € recettes totales dont TEOM 3 092 545 € (6 783 t)",
+    "delta": "ratio soutiens/tonnage tres variable (TPM ~34 €/t vs Ambert ~69 €/t vs Ouche Montagne ~20 €/t Citeo seul) : reflete profils de territoires, pas un barème unique"
+  }
+}

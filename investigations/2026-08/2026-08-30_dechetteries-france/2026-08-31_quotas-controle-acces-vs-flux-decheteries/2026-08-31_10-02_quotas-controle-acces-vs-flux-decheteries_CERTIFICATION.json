@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:158056751f492a9dde5d8911cda734eb8676d2c3a8af493f2336e0463847658d",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-31_quotas-controle-acces-vs-flux-decheteries/2026-08-31_10-02_quotas-controle-acces-vs-flux-decheteries_INVESTIGATION.md",
+  "deliverable_sha256": "afd337dc0d9c44e84a5ff69939042eafdc9759465de1aa54dbae5633aff273d6",
+  "created_at": "2026-08-31T08:10:25.879053+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "complexity": "HIGH",
+  "complexity_score": 8,
+  "scope": {
+    "actors_entities": ["Valobat", "Ecominero", "Ecomaison", "Valdélia", "OCAB", "CC Dombes", "SMICTOM des Flandres", "SICED", "collectivites signataires", "ADEME"],
+    "domains": ["rep", "pmcb", "economie", "transparence_financiere", "gestion_dechets"],
+    "exclusions": [],
+    "geo": "Dombes (01), Flandre Lys (59), SICED, national ADEME",
+    "lead_question": "Le barème des soutiens financiers REP PMCB (Valobat et co) versés aux déchèteries est-il documenté, comparable et publique par site ?",
+    "limits": ["valobat.fr/baremes-pmcb 403 anti-bot (non lu directement)", "le barème n'existe pas de façon unifiée nationale, il se lit dans les contrats par EPCI", "les montants effectifs versés par site ne sont pas publiés (GAP)"],
+    "object_question": "Consolider le barème PMCB à partir du contrat type Valobat (annexe 2, CC Dombes), des tonnages réels (Flandre Lys), du cadre officiel (ADEME) et des montants versés documentés (Redon/SMICTOM) pour sortir une grille €/t exploitable.",
+    "period": "2023-2026"
+  }
+}

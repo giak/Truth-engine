@@ -1,0 +1,44 @@
+{
+  "mnemo_row": "PERSISTED_2026-08-30",
+  "writeback_row": {
+    "eligible": 3,
+    "attempted": 3,
+    "success": 3,
+    "failure": 0,
+    "blocked": 0
+  },
+  "writeback_execution": [
+    {
+      "fct": "FCT-001",
+      "action": "ELIGIBLE:VERIFIE",
+      "reason": "SGC RPQS 2024 PDF inspecte (GAP 403 comble)",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    },
+    {
+      "fct": "FCT-002",
+      "action": "ELIGIBLE:VERIFIE",
+      "reason": "SEROC DOB 2025 PDF inspecte (filiere decheterie 460 k€)",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    },
+    {
+      "fct": "FCT-003",
+      "action": "ELIGIBLE:VERIFIE",
+      "reason": "Minco article Valobat 07/2026 inspecte (page officielle 403)",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    }
+  ],
+  "fact_mem": {
+    "FCT-001": "2948bc41-d3ae-40c6-a281-918e743dbc55",
+    "FCT-002": "a88e8d65-c83d-4c0a-bcbd-9fc7bd8fd622",
+    "FCT-003": "70c46fc4-440f-4a2c-89e7-2bf65015f4bb"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:d48c07611a337bc4d6ea25e94067c463daea692e0bb83e66fc8302dd858f6f65",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_montants-valobat-reels-percus-2025/2026-08-30_17-26_montants-valobat-reels-percus-2025_INVESTIGATION.md",
+  "deliverable_sha256": "e5fd9212c96a517db52fb64b8e1521273d7514f86af7e23ce31fa84d9eac463d",
+  "created_at": "2026-08-30T15:38:18.751737+00:00"
+}

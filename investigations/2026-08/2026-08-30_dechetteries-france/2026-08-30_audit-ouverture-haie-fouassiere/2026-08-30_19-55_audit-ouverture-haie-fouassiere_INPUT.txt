@@ -1,0 +1,4 @@
+Verifier par presse/archives la DATE REELLE d'ouverture de la decheterie de La Haie-Fouassiere (44, Clisson Sevre et Maine Agglo).
+Contexte (passe 1900 audit-onyx-veolia-sites-pre1980, FCT-003 CONFIRME) : D_OUV SINOE 01/01/1974 CONTAMINE (champ renovation=1974 recopie), site FERME le 18/11/2013, exploitant Grandjouan-Veolia depuis 2006, Grandjouan = collecteur historique de Nantes depuis 1870. La vraie date d'ouverture de la decheterie moderne reste OPEN.
+Objectif : (1) trouver la date reelle d'ouverture par presse locale (Ouest-France, Presse-Ocean, actu.fr) ou archives (Clisson Sevre et Maine Agglo, archives departementales 44) ; (2) caracteriser ce qu'etait le site avant (decharge, depot, plateforme) ; (3) confirmer/infirmer le D_OUV 1974.
+- INPUT_KIND=UPDATE, MISSION_MODE=INVESTIGATION, parent=20260830-1900-audit-onyx-veolia-sites-pre1980.

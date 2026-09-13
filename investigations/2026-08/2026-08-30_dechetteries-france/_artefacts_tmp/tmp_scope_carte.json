@@ -1,0 +1,15 @@
+{
+  "lead_question": "Peut-on generaliser la ventilation des soutiens REP par decheterie a un echantillon elargi d'EPCI pour construire une carte nationale approximative ?",
+  "object_question": "Etendre la ventilation (soutiens eco-organismes en euros, tonnages par decheterie) de 5 a 11 EPCI : Emeraude, Tri-Action, SGC, SEROC 14, SIEDMTO + Causses Aulrac, DRAGA, Ouche et Montagne, Ambert Livradois Forez, TPM, CCPU",
+  "geo": "France metropolitaine : Aveyron (12), Ardeche (07), Cote-d'Or (21), Puy-de-Dome (63), Var (83, Metropole TPM), Loire (42), Val-d'Oise (95), Meurthe-et-Moselle (54)",
+  "period": "2022-2025 (donnees 2022-2024 publiees)",
+  "domains": ["economie", "transparence_financiere", "gestion_dechets", "rep"],
+  "actors_entities": ["Citeo", "Ecomaison", "Ecologic", "Ecosystem", "EcoDDS", "OCAD3E", "Refashion", "collectivites et EPCI", "syndicats"],
+  "exclusions": [],
+  "limits": [
+    "SGC 2024 bloque (403) : donnees 2020",
+    "CCPU : donnees 2022 (dernier RPQS public)",
+    "ventilation Citeo par titre de recette non publiee : Citeo estimee par difference/croisement",
+    "carte nationale = echantillon de 11 EPCI (pas exhaustif), methodologie transposable"
+  ]
+}

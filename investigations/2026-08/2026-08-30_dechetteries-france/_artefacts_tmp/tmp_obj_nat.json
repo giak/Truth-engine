@@ -1,0 +1,20 @@
+[
+  {
+    "lead": "CCST Sud Territoire (90) RPQS 2024 : 2 dechetteries, 8 171 t (verts 3 284, encombrants 1 746, gravats 1 307, bois 793, ferraille 357, cartons 278, platre 153, huisseries 62, acier 72, pneus 81, alu 21, DDS 13), soutiens eco-org 604 723,61 € = 74 €/t",
+    "materiality": "DECISIVE",
+    "routes": ["EXPAND", "CONTEXT"],
+    "status": "ACTIVE"
+  },
+  {
+    "lead": "Redon Agglomeration (35) rapport 2024 : soutiens ventiles par eco-org — Citeo 1 000 062 € (298 €/t), Citeo-EcoDDS-CYCLEVIA-Ecomobilier 217 888 € (+112 %), Citeo papier 52 000 €, Citeo 37 939 €, Ecosystem D3E 616 t = 71 063 €, Valobat multimat 1 363 t = 54 299 €, EcoDDS 97 t = 7 865 €, CYCLEVIA 1 800 € ; REP PMCB 439 t (economie 39 502 €)",
+    "materiality": "DECISIVE",
+    "routes": ["EXPAND", "CONTEXT"],
+    "status": "ACTIVE"
+  },
+  {
+    "lead": "Redon documente des soutiens PMCB/D3E en euros (Valobat 54 299 €, Ecosystem 71 063 €) : preuve que la ventilation par eco-organisme existe au niveau territorial, y compris pour les filieres jeunes",
+    "materiality": "IMPORTANT",
+    "routes": ["EXPAND"],
+    "status": "ACTIVE"
+  }
+]

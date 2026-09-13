@@ -1,0 +1,15 @@
+AXE F — LA DÉCHÈTERIE COMME DISPOSITIF DE CONTRÔLE : badges, quotas, facturation, inégalités d'accès (enquête AMORCE 2026)
+
+OBJECT_QUESTION : (1) documenter l'état des lieux national des modalités d'accès, de contrôle et de facturation en déchèteries publiques (enquête AMORCE/ADEME DT138, 07/11/2025) ; (2) caractériser les dispositifs techniques (badges, cartes, bornes, quotas, pesée, caméras) et leurs fournisseurs/opérateurs ; (3) mesurer les inégalités d'accès induites (usagers sans badge, habitats collectifs, non-résidents, précaires, 2e résidence) ; (4) identifier qui gagne/qui perd de la marchandisation de l'accès (sociétés de contrôle d'accès, facturation au volume/poids, externalisation) ; (5) tester la corrélation contrôle d'accès → détournement de flux (dépôts sauvages, déchèteries privées, déchets en OMr).
+
+LEAD_QUESTION : La déchèterie est-elle devenue un dispositif de contrôle et de tri social des usagers (badges, quotas, facturation) ? Quelles inégalités d'accès cela crée-t-il et qui profite de la marchandisation du contrôle ?
+
+SCOPE
+actors_entities: AMORCE, ADEME, EPCI gestionnaires, sociétés de contrôle d'accès (badges/pesée), exploitants privés (Veolia, Suez, Paprec, sérier), usagers (particuliers, pros, non-résidents, habitats collectifs), fédérations (AMF, Intercommunalités de France)
+domains: dechets, decheteries, controle-acces, badges, quotas, facturation, inegalites, gouvernance, marchandisation
+geo: France (échantillon national + cas EPCI)
+lead_question: voir LEAD_QUESTION
+limits: enquête DT138 payante/résumée (accès partiel), données de facturation par site hétérogènes, effets du contrôle d'accès encore récents
+object_question: voir OBJECT_QUESTION
+
+PARENT_RUN : 20260830-2015-audit-exclusion-pros-decheteries-2026 (axe A : contrôle d'accès documenté comme généralisation été 2026)

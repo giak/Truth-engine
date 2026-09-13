@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:2af4a4f2d3f99962b81ad1cbd18233b26fce4dd2933f36f1a4deea2e6723d8c5",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_audit-cartographie-controle-acces-2024-2028/2026-08-30_21-23_audit-cartographie-controle-acces-2024-2028_INVESTIGATION.md",
+  "deliverable_sha256": "8a822fbc6a14998d6d88c339e53ab52faa6e358e9bc1ab4b646347e4abdce015",
+  "created_at": "2026-08-30T19:33:39.914335+00:00"
+}

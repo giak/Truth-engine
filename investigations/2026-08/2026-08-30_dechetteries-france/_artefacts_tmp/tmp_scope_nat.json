@@ -1,0 +1,10 @@
+{
+  "lead_question": "Peut-on elargir la carte nationale des soutiens REP par decheterie avec des RPQS 2024 de nouveaux EPCI (diversite geographique et demographique) ?",
+  "object_question": "Ajouter CCST Sud Territoire (90, 2 dechetteries, 8 171 t, soutiens 604 723,61 €) et Redon Agglomeration (35, soutiens par eco-org : Citeo 1 000 062 €, Valobat 54 299 €, Ecosystem 71 063 €, EcoDDS 7 865 €) aux 11 EPCI deja documentes -> 13 EPCI",
+  "geo": "Territoire de Belfort (90, CCST), Ille-et-Vilaine (35, Redon)",
+  "period": "2024",
+  "domains": ["economie", "transparence_financiere", "gestion_dechets", "rep", "pmcb"],
+  "actors_entities": ["Citeo", "Valobat", "Ecosystem", "EcoDDS", "CYCLEVIA", "Ecomobilier", "OCAD3E", "CCST", "Redon Agglomeration"],
+  "exclusions": [],
+  "limits": ["Redon : total decheterie exact non isole (57 % du tonnage total 31 750 t)", "CCST : gros poste 520 863,21 € non identifie precisement (probablement Citeo emballages)", "echantillon 13 EPCI : toujours pas representatif national"]
+}

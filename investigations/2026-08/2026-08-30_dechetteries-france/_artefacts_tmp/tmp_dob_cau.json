@@ -1,0 +1,20 @@
+[
+  {
+    "type": "CAUSE",
+    "status": "SUPPORTED",
+    "source": "FCT-001",
+    "cause": "Le DOB 2025 ventile Citeo par poste (emballages 2,4 M€, petits alus 700 €/t, ambassadeurs 10 k€) : la granularite publique maximale est le poste budgetaire, pas le titre de recette"
+  },
+  {
+    "type": "ENABLER",
+    "status": "SUPPORTED",
+    "source": "FCT-001",
+    "cause": "Le croisement DOB (previsions par poste) + CA (total consolide + rattachements) + PV (ecarts vs prevision : +897 k€ Citeo) permet une ventilation Citeo estimee robuste sans les titres de recette"
+  },
+  {
+    "type": "EFFECT",
+    "status": "SUPPORTED",
+    "source": "FCT-001",
+    "cause": "Le GAP de transparence persiste structurellement : PV DOB 2026 scanne (0 texte), CA consolide, titres de recette non publics — le detail exact Citeo par titre reste inaccessible au public"
+  }
+]

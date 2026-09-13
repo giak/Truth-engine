@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:327dee5e16b1350399b9eb0b93ddfb3d62840e394fe9ca839453e25515cebd88",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_bareme-pmcb-multi-ecoorg-ocab-2026/2026-08-30_17-57_bareme-pmcb-multi-ecoorg-ocab-2026_INVESTIGATION.md",
+  "deliverable_sha256": "fb94c4fa53b04cdca11bcfc7d253fb26cd1872db6e79926d3441f5f9235a5f2b",
+  "created_at": "2026-08-30T16:08:45.216659+00:00"
+}

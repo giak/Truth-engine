@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:d73cf779f8fbcd8dd7b8d1e24d6fc74fcb7aed1ce5a32003ceb67405aa7f3ea6",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-onyx-veolia-sites-pre1980/2026-08-30_19-00_audit-onyx-veolia-sites-pre1980_INVESTIGATION.md",
+  "deliverable_sha256": "5bf64687b3bf71bc26e5814e05301b02d7eb8318580871e2faf9054a9145bbfb",
+  "created_at": "2026-08-30T17:04:05.603794+00:00"
+}

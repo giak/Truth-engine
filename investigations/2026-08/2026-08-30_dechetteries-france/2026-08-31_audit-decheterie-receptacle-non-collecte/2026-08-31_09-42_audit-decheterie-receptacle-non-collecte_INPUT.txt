@@ -1,0 +1,6 @@
+Investigation: la déchèterie comme réceptacle du non-collecté.
+Lead question: ce que le bac (poubelle jaune/gris/verte, porte-à-porte, PAV) ne prend pas finit à la déchèterie — cartographier le « reste du bac » : quels flux échappent à la collecte classique, pourquoi, et comment la frontière bouge (suppression PAP, PAV, extensions de consigne).
+Object : (1) lister les flux non collectés en porte-à-porte (encombrants, gravats, verts, DEEE, dangereux) et leurs exutoires ; (2) mesurer la part déchèterie dans les DMA (40 %) et la répartition par flux ; (3) documenter la bascule quand la collecte change (fin du PAP, TI +13 % déchèteries).
+Limits : sources officielles (ADEME, SDES, Insee, Service-public.gouv) ; données 2021-2023.
+Angles : encombrants 28 % / verts 27 % / gravats 26 % ; 6 communes sur 10 offrent la collecte encombrants ; amendes abandon ; lien avec contrôle d'accès (passes antérieures).
+KERNEL: /home/giak/projects/truth-engine/truth-engine-v2/KERNEL.md

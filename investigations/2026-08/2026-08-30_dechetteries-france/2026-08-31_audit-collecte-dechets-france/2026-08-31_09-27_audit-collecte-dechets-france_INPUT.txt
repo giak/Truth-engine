@@ -1,0 +1,6 @@
+Investigation: collecte des déchets ménagers en France.
+Lead question: pourquoi la collecte des déchets ménagers est-elle si hétérogène et perçue comme un « bordel sans nom » ? Déterminants structurels : organisation territoriale, financement, infrastructures.
+Object : (1) cartographier les modes de collecte par EPCI (bacs jaunes/gris/verts, containers enterrés, sacs, points d'apport volontaire, porte-à-porte) ; (2) documenter la tarification (TEOM/REOM/REOMi/TEOMi, tarification incitative, inégalités territoriales) ; (3) mesurer performance et coûts (refus de tri, containers enterrés coût/maintenance, dépense nationale).
+Limits : pas de donnée exhaustive par commune ; sources officielles (ADEME, Insee, SDES, Sénat) prioritaires.
+Angles demandés : fragmentation, « bac jaune/gris, payer plus », containers enterrés, inégalités, qui paye quoi.
+KERNEL: /home/giak/projects/truth-engine/truth-engine-v2/KERNEL.md

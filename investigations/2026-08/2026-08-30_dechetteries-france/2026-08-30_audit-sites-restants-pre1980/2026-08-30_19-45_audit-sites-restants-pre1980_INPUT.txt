@@ -1,0 +1,9 @@
+Audit KERNEL des 5 sites SINOE D_OUV<1980 restants non audités individuellement (faisceau primauté) :
+- Longwy (54) : D_OUV 1960-01-01, fiche C_SERVICE 2690, exploitant actuel « Veolia Eau - Cge » (outlier suspect)
+- Montville (76) : D_OUV 1980-01-01, fiche 2857, CC Portes Nord-Ouest Rouen (régie)
+- Randan (63) : D_OUV 1980-07-25, fiche 4482, SBA Syndicat du Bois de l'Aumône (régie)
+- Déchèterie mobile de Saint-Claude (39) : D_OUV 1974-10-21, fiche 8983, SICTOM Haut-Jura
+- Déchèterie mobile de Morbier (39) : D_OUV 1974-10-21, fiche 8982, SICTOM Haut-Jura
+Patron attendu (Benais/St-Aquilin/Ivry) : D_OUV = date de création du syndicat/compétence collecte, pas ouverture de déchèterie. Sites fixes Jura correspondants : D_OUV 1995-11-01 (2890 St-Claude, 2884 La Savine Morbier).
+Objectif : caractériser la nature réelle de chaque site avant le néologisme 1987 (décharge, dépôt, collecte), vérifier les D_OUV, compléter le recensement des 9 sites pré-1980 (7 audités sur 9 après cette passe : Benais, Arles, St-Aquilin, Ivry, La Haie-Fouassière + Longwy, Montville, Randan, mobiles Jura).
+- INPUT_KIND=UPDATE, MISSION_MODE=INVESTIGATION, parent=20260830-1900-audit-onyx-veolia-sites-pre1980.

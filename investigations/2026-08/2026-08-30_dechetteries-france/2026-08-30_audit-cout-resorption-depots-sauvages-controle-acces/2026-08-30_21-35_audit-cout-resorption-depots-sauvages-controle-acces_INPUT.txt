@@ -1,0 +1,36 @@
+SUJET DE LA PASSE (INVESTIGATION KERNEL)
+
+Quantifier le coût national de résorption des dépôts sauvages créés par le contrôle d'accès
+en déchèterie, et le relier aux 340-420 M€/an documentés (axe C).
+
+Questions directrices :
+1. Quel est le coût unitaire de résorption d'un dépôt sauvage (€/t, €/dépôt, €/hab/an) ?
+   Baseline ADEME 2019 : 21,4 kg/hab/an, 59 210 €/an/collectivité, 4,7 €/hab/an, 90 % des collectivités.
+   Cerema 2024 : 30-90 M€/an national.
+2. Quel coût supplémentaire attribuable au contrôle d'accès (badges/quotas/exclusion pros) ?
+   Effets documentés : Manche Point Fort 2023 (pass QR) = -47 % fréquentation, -31 % tonnages,
+   « il y a déjà des dépôts sauvages » (élu de Marigny) ; pic de dépôts sauvages 6 mois en
+   Auvergne-Rhône-Alpes lors des déploiements pionniers (recy.net) ; DT138 : baisse médiane
+   des tonnages -24 % à 12 mois sous quotas.
+3. Projection nationale : avec 65,9 % des collectivités équipées d'un contrôle d'accès informatisé
+   (DT138) et ~50 % des EPCI basculés d'ici 2028 (recy.net, projection), quelle fourchette de coût
+   national de résorption 2026-2030 ? Comment se positionne-t-elle face aux 340-420 M€/an (axe C) ?
+4. Qui paie : collectivités (budgets TEOM/REOM), État, éco-organismes ? Le fonds dépôts sauvages
+   réclamé par AMF/Intercommunalités/Régions + Capeb (10 m³) existe-t-il ?
+5. L'étude ADEME 2026 (Ecogeos/Rudologia, lancée 20/05/2026) : résultats publiés au 30/08/2026 ?
+
+Ancrage mémoire (warm route) :
+- 340-420 M€/an dépôts sauvages à la charge des collectivités (Décideurs Immo 20/07/2026, F. Gasmi,
+  passe 2100 axe C) — du même ordre que le coût total filière pour les metteurs (390 M€/an).
+- Baseline ADEME 2019 : 21,4 kg/hab/an, 59 210 €/an/collectivité (4,7 €/hab/an), 90 % collectivités
+  confrontées (passe 2015 axe A).
+- Cerema 2024 : 30-90 M€/an (ARBE Région Sud, passe 0904).
+- Manche Point Fort 2023 : pass QR 01/01/2023, 18 passages gratuits/an, -47 % fréquentation,
+  -31 % tonnages, -75 % sur certains sites, « déjà des dépôts sauvages » (passe 2103 axe F).
+- recy.net 05/06/2026 : pic 6 mois AURA ; « d'ici 2028, la moitié des EPCI auront basculé ».
+- DT138 (passe 2103) : 65,9 % équipées contrôle informatisé ; quotas -24 % tonnages médiane 12 mois.
+- AMF/Intercommunalités/Régions + CAPEB : fonds dépôts sauvages jusqu'à 10 m³ (passe 2015 axe A).
+
+Objectif livrable : fourchette chiffrée du coût national de résorption des dépôts sauvages
+attribuables au contrôle d'accès, bouclée avec les 340-420 M€/an, avec ventilation
+qui paie / comment / horizon 2026-2030, et statut de l'étude ADEME 2026.

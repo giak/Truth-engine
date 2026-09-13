@@ -1,0 +1,7 @@
+Audit KERNEL du faisceau Onyx/Veolia — sites pré-1980 déclarés SINOE :
+- St-Aquilin-de-Pacy (27) : D_OUV 1973-01-01, acteur Onyx Normandie-Agence de Beaumontel (fiche 2838)
+- Ivry-la-Bataille (27) : D_OUV 1975-01-01, acteur Onyx Normandie (fiche 2834)
+- La Haie-Fouassière (44) : D_OUV 1974-01-01, acteur Grandjouan Saco - Véolia (fiche 5172)
+Problème : ces 3 sites portent des D_OUV 1973-1975 chez des opérateurs Onyx/Veolia, alors que Veolia revendique ses « premières déchetteries » en 1986. Contradiction à lever : soit les D_OUV sont des dates de contrat/décharge récupérées, soit Veolia a des sites antérieurs à sa propre revendication.
+Objectif : caractériser ce qu'étaient ces sites avant le néologisme 1987 (décharges, dépôts d'encombrants, centres de transfert ?), vérifier les dates, et trancher la cohérence Veolia 1986 vs D_OUV 1973-75.
+- INPUT_KIND=UPDATE, MISSION_MODE=INVESTIGATION, parent=20260830-1830-certification-primaute.

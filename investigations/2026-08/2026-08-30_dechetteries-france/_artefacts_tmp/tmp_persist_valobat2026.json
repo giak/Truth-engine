@@ -1,0 +1,74 @@
+{
+  "mnemo_row": "PERSISTED_2026-08-30",
+  "fact_mem": {
+    "FCT-001": "35d8bdb3-8b6b-4320-a052-960c7235b11a",
+    "FCT-002": "f3109127-7c07-4a4d-b51e-f40eeab56772",
+    "FCT-003": "fb9b4c19-1f98-4899-b161-331589bca082",
+    "FCT-004": "a6005972-aa63-4776-b236-9fee1080e73e",
+    "FCT-005": "6eb31cc9-f93c-4efa-8cff-968728d362df",
+    "FCT-006": "303d55d4-44b1-415e-85d4-39245b1f1b65"
+  },
+  "writeback_row": {
+    "eligible": 6,
+    "attempted": 6,
+    "success": 6,
+    "failure": 0,
+    "blocked": 0
+  },
+  "writeback_execution": [
+    {
+      "fct": "FCT-001",
+      "action": "ELIGIBLE:CONFIRME",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "MINCO page web consultee - recalibrage 01/07/2026 3 raisons"
+    },
+    {
+      "fct": "FCT-002",
+      "action": "ELIGIBLE:CONFIRME",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "FFB page web consultee - 4 eco-org hausse barèmes 01/07+01/08"
+    },
+    {
+      "fct": "FCT-003",
+      "action": "ELIGIBLE:CONFIRME",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "InterFast/Wurth/FFB/CAPEB - refondation 2027, soutien 2 EUR/t"
+    },
+    {
+      "fct": "FCT-004",
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "Wurth/InterFast - ~3 Mt 2025, 3x 2024"
+    },
+    {
+      "fct": "FCT-005",
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "InterFast - hausses barème 2025 PVC +82% denonce CAPEB"
+    },
+    {
+      "fct": "FCT-006",
+      "action": "ELIGIBLE:CONFIRME",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "Wurth/FFB/InterFast/CAPEB - fin gros volumes 01/09, petits volumes 31/12"
+    }
+  ]
+}

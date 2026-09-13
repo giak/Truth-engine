@@ -1,0 +1,30 @@
+SUJET DE LA PASSE (INVESTIGATION KERNEL)
+
+Cartographier les EPCI basculés au contrôle d'accès des déchèteries 2024-2028 et leurs quotas,
+pour quantifier la fragmentation nationale des régimes d'accès.
+
+Questions directrices :
+1. Quel est le RYTHME de bascule national : combien d'EPCI ont déployé un contrôle d'accès
+   (badge/QR/plaque) en 2024, 2025, 2026, et combien sont annoncés d'ici 2028 ?
+2. Quelles sont les MODALITÉS par EPCI : type de dispositif (badge, QR, plaque), quota de passages/an,
+   volume max/visite, facturation au-delà du quota (€/passage), date d'entrée en vigueur ?
+3. Combien de RÉGIMES DIFFÉRENTS (forfaits) peut-on recenser : vers le chiffre de "1 200 forfaits
+   différents" évoqué en fresque axe F — vérifier/invalider, quantifier la fragmentation réelle ?
+4. La fragmentation : des EPCI voisins ont-ils des quotas différents (inégalités territoriales) ?
+5. Qui équipe : exploitants privés (TRIBORD, Veolia, Suez, Point Fort), éditeurs (Symetri, Gesbac,
+   Horanet, SeeTech, SIGRENEA) — corrélation fournisseur ↔ type de quota ?
+
+Ancrage mémoire (warm route) :
+- DT138 AMORCE/ADEME (PDF 52 p., INSPECTED passe 2103) : 65,9% des collectivités équipées d'un
+  contrôle d'accès informatisé ; 68,2% accès illimité TEOM/REOM ; 16,5% quota payant au-delà
+  (médiane 7,5 €/passage) ; 8,2% quota ferme ; baisse médiane tonnages -24% à 12 mois.
+- Gard rhodanien (recy.net 05/06/2026, INSPECTED passe 2103) : QR/badge 02/01/2026, 36 passages/an,
+  3 dépôts/jour, 2 m³/visite, contraignant 2027.
+- Point Fort Manche 2023 : pass QR, 18 passages/an, -47% fréquentation.
+- recy.net : "D'ici 2028, on peut raisonnablement parier que la moitié des EPCI français auront basculé".
+- Symetri/TRIBORD (passe 2114) : marché des éditeurs, Valcobreizh 200 k€ (51 000 cartes RFID,
+  badge obligatoire 01/11/2025, 90 000 hab).
+
+Objectif livrable : catalogue structuré des EPCI basculés/annoncés (nom, EPCI, population, dispositif,
+quota, facturation, date), comptage de la fragmentation (n régimes distincts), verdict sur le chiffre
+"1 200 forfaits", et analyse des inégalités territoriales.

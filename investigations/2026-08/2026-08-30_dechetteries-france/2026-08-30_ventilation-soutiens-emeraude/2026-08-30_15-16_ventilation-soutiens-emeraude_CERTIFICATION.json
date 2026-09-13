@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:ba2d15e040696ca1c911f2c92939f04e40409f574a9ac8d65195f862b711904f",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_ventilation-soutiens-emeraude/2026-08-30_15-16_ventilation-soutiens-emeraude_INVESTIGATION.md",
+  "deliverable_sha256": "87fa7b60d57645f97eed8b14da43a60dfe4e98ced7783c9d02780e59d0a49e5c",
+  "created_at": "2026-08-30T13:23:33.594833+00:00"
+}

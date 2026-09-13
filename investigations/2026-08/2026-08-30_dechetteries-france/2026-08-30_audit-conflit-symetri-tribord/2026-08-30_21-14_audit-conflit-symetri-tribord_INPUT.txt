@@ -1,0 +1,15 @@
+AUDIT CONFLIT D'INTERETS SYMETRI/TRIBORD — marchés publics, contrats d'exploitation des déchèteries de Rennes Métropole, parts de marché des éditeurs de contrôle d'accès
+
+OBJECT_QUESTION : (1) documenter le lien capitalistique et opérationnel exact entre Symetri (éditeur du logiciel de contrôle d'accès en déchèterie) et TRIBORD (exploitant de déchèteries) ; (2) retrouver les marchés publics : contrats d'exploitation du réseau de déchèteries et plateformes végétaux de Rennes Métropole (TRIBORD), marchés de fourniture/installation de contrôle d'accès (Symetri, 4 marchés recensés DossiersGagnants) ; (3) établir les parts de marché des éditeurs de contrôle d'accès (Symetri, Horanet, Gesbac, SeeTech, SIGRENEA/Suez, MyRFIDSolution, Sensoneo) ; (4) évaluer le conflit d'intérêts : l'exploitant qui fournit le compteur contrôle-t-il les données de fréquentation de son propre contrat ? y a-t-il des liens marchés publics TRIBORD <-> Symetri sur les mêmes EPCI ?
+
+LEAD_QUESTION : Le fournisseur du compteur (Symetri) est-il aussi l'exploitant des sites comptés (TRIBORD) sur les mêmes territoires — et cela constitue-t-il un conflit d'intérêts structurel documentable par les marchés publics ?
+
+SCOPE
+actors_entities: Symetri (841351901), TRIBORD (378801682), Rennes Métropole, autres éditeurs (Horanet, Gesbac, SeeTech, SIGRENEA-Suez, MyRFIDSolution, Sensoneo), EPCI acheteurs, DAJ/acheteurs publics
+domains: dechets, decheteries, controle-acces, marches-publics, conflit-interets, gouvernance, marchandisation
+geo: France (Rennes Métropole + échantillon national marchés publics)
+lead_question: voir LEAD_QUESTION
+limits: données marchés publics dispersées (BOAMP, DossiersGagnants, TED), montants parfois non publiés, parts de marché non publiées par les éditeurs
+object_question: voir OBJECT_QUESTION
+
+PARENT_RUN : 20260830-2103-audit-decheterie-dispositif-controle-2026 (axe F : FCT-005 Symetri = filiale TRIBORD, CA 977 k€ 2025)

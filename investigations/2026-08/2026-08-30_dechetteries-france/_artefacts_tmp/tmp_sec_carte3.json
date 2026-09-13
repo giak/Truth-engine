@@ -1,0 +1,22 @@
+{
+  "EDI_REPORT": {
+    "dimensions": ["economie", "transparence", "asymetrie informationnelle", "inegalites territoriales"],
+    "limites": "11 EPCI (pas un echantillon national representatif) ; SGC 2020, CCPU 2022 (donnees agees) ; Citeo par titre de recette non publiee ; DRAGA sans ventilation des soutiens"
+  },
+  "MANIPULATION_REPORT": {
+    "opacite": "niveau de transparence tres heterogene entre RPQS : certains publient le detail par eco-organisme (CCPU, Ouche Montagne), d'autres consolident en un poste (Emeraude, Ambert), d'autres ne ventilent pas (DRAGA)",
+    "interets": "les eco-organismes fixent les baremes (contrats-types) et la masse est concentree sur Citeo ; les collectivites rurales recoivent peu en absolu malgre des couts par tonne eleves",
+    "revelation": "la carte nationale est techniquement reconstructible par EPCI : l'obstacle n'est pas la donnee mais la volonte de transparence de chaque collectivite"
+  },
+  "NEXT_QUERIES": [
+    "SGC 2024 : contourner le blocage 403 (archive.org, demande directe)",
+    "Compte administratif DRAGA 2024 pour ventiler les soutiens",
+    "RPQS 2025 des 11 EPCI a la publication (donnees 2024 pour tous)",
+    "Echantiillon national representatif : 1 EPCI par departement (95 departements)",
+    "Valobat/Ecominero PMCB : barèmes par site (flux nouveau)"
+  ],
+  "GATE_STATUS_V1": {
+    "G0": "PASS", "G1": "PASS", "G2": "PASS", "G3": "PASS", "G4": "PASS",
+    "G5": "PASS", "G6": "PASS", "G7": "PASS", "G8": "PASS", "G9": "PASS", "G10": "PASS"
+  }
+}

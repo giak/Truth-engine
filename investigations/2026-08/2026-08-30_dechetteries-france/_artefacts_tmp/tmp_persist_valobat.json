@@ -1,0 +1,16 @@
+{
+  "mnemo_row": "PERSISTED_2026-08-30",
+  "fact_mem": {
+    "FCT-001": "570448ae-5343-490e-8546-03d4989200a9",
+    "FCT-002": "26bf0186-2f45-4898-84a6-850a3b72a9f7",
+    "FCT-003": "20b2f3fe-d7ca-4d8e-a131-2b53902ec4c1",
+    "FCT-004": "1f3b19ad-f3e5-4d42-b520-2ef088e07a1d"
+  },
+  "writeback_row": {"eligible": 4, "attempted": 4, "success": 4, "failure": 0, "blocked": 0},
+  "writeback_execution": [
+    {"fct": "FCT-001", "action": "ELIGIBLE:VERIFIE", "attempted": 1, "success": 1, "failure": 0, "blocked": 0, "reason": "Contrat type Valobat (delib CC Dombes 24-198) PDF inspecte - barme annexe 2"},
+    {"fct": "FCT-002", "action": "ELIGIBLE:VERIFIE", "attempted": 1, "success": 1, "failure": 0, "blocked": 0, "reason": "RPQS 2024 SMICTOM des Flandres PDF inspecte - tonnages PMCB par site"},
+    {"fct": "FCT-003", "action": "ELIGIBLE:VERIFIE", "attempted": 1, "success": 1, "failure": 0, "blocked": 0, "reason": "RAA 2024 SICED PDF inspecte - Valobat eco-agreé"},
+    {"fct": "FCT-004", "action": "ELIGIBLE:VERIFIE", "attempted": 1, "success": 1, "failure": 0, "blocked": 0, "reason": "Fiche ADEME filiere PMCB inspectee - cadre agrements"}
+  ]
+}

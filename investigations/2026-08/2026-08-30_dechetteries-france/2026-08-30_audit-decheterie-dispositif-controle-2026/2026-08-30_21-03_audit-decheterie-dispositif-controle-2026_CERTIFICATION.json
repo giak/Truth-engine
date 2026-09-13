@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:c49edd907af5b580a3ad8c209b3b4e9455e22c6564f69af1bfbd0f8b912aa9eb",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_audit-decheterie-dispositif-controle-2026/2026-08-30_21-03_audit-decheterie-dispositif-controle-2026_INVESTIGATION.md",
+  "deliverable_sha256": "a4a361f612b1a3941d4e2537c0db661fe7c059fb6d4a9ad3909c1f97ecf7950b",
+  "created_at": "2026-08-30T19:11:09.252964+00:00"
+}

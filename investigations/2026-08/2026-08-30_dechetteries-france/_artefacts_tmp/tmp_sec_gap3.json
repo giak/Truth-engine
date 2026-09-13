@@ -1,0 +1,22 @@
+{
+  "EDI_REPORT": {
+    "dimensions": ["economie", "transparence", "acces a la donnee", "asymetrie informationnelle"],
+    "limites": "SGC : presentation RPQS sans ventilation des soutiens ; Valobat 403 ; DRAGA scanne ; echantillon 3 territoires"
+  },
+  "MANIPULATION_REPORT": {
+    "opacite": "le blocage 403 de SGC et Valobat, les PV scannes (DRAGA) et les presentations sans ventilation (SGC) creent une asymetrie : les eco-organismes et certaines collectivites connaissent les montants, le public doit chercher",
+    "interets": "Citeo reste dominant mais la pluralisation des filieres (PMCB, DDS, textiles) augmente les flux contractuels vers les decheteries (SEROC : 460 k€ filiere decheterie dont PMCB)",
+    "revelation": "les GAP etaient majoritairement des GAP d'effort : SGC debloque par une URL directe, SEROC publie tout. Seuls les baremes PMCB par site et la ventilation Citeo par titre restent opaques"
+  },
+  "NEXT_QUERIES": [
+    "Bareme PMCB 2026 officiel via ADEME filieres-rep ou FFBatiment (Valobat 403)",
+    "CA DRAGA 2024 numerique pour ventiler les soutiens",
+    "RPQS 2025 SGC (rapport complet, pas la presentation)",
+    "DOB 2026 SEROC : confirmer la filiere decheterie 2026",
+    "Generaliser la methode SEROC (ventilation par eco-org dans les DOB) aux autres syndicats"
+  ],
+  "GATE_STATUS_V1": {
+    "G0": "PASS", "G1": "PASS", "G2": "PASS", "G3": "PASS", "G4": "PASS",
+    "G5": "PASS", "G6": "PASS", "G7": "PASS", "G8": "PASS", "G9": "PASS", "G10": "PASS"
+  }
+}

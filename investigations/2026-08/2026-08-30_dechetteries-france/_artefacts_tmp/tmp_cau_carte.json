@@ -1,0 +1,20 @@
+[
+  {
+    "type": "CAUSE",
+    "status": "SUPPORTED",
+    "source": "FCT-005",
+    "cause": "Les soutiens eco-organismes dominent les aides publiques (11,1 M€ vs 0,7 M€ a TPM) et la revente (6,2 M€) : le modele contractuel REP est le premier flux de financement hors fiscalite locale"
+  },
+  {
+    "type": "ENABLER",
+    "status": "SUPPORTED",
+    "source": "FCT-006",
+    "cause": "La ventilation par eco-organisme est publiable (CCPU 2022 : Citeo 46 028,76 €, Ecomobilier 6 001,89 €, OCAD3E 3 681,64 €, EcoDDS 1 078,91 €, Refashion 519,70 €) : la carte nationale est reconstituable EPCI par EPCI quand le RPQS est detaille"
+  },
+  {
+    "type": "EFFECT",
+    "status": "SUPPORTED",
+    "source": "FCT-001",
+    "cause": "Le ratio soutiens/tonnage varie fortement selon le profil de territoire (Causses Aulrac 289 075 € pour ~6 300 t vs Ouche Montagne 87 800 € Citeo seul pour 4 407 t) : une carte nationale doit rester une carte par EPCI, pas une moyenne nationale"
+  }
+]

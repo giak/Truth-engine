@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:3f0b8082591639a560962a586e02b676984a15ef6d23fc09574570dd55bcfaa0",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-refondation-pmcb-2027/2026-08-30_20-30_audit-refondation-pmcb-2027_INVESTIGATION.md",
+  "deliverable_sha256": "d7d4d84ae274f66e5047cb56b27ab17b657a8a867ab96005351d2baaf68c1fde",
+  "created_at": "2026-08-30T18:35:35.788406+00:00"
+}

@@ -1,0 +1,780 @@
+{
+  "actions": [],
+  "axes": [
+    {
+      "attempt_ids": [
+        "QRY-001",
+        "QRY-002",
+        "QRY-003",
+        "QRY-004",
+        "QRY-005"
+      ],
+      "gap_type": "NONE",
+      "id": "AXS-001",
+      "led_links": [
+        "LED-001"
+      ],
+      "question": "L'enquete AMORCE/ADEME DT138 (2025) et la generalisation 2026 documentent-elles un controle d'acces (badges/quotas/facturation) qui cree des inegalites d'acces et profite a des operateurs de la marchandisation ?",
+      "result_ids": [
+        "FCT-001",
+        "FCT-002",
+        "FCT-003",
+        "FCT-004",
+        "FCT-005"
+      ],
+      "sought_objects": [
+        "enquete AMORCE/ADEME DT138",
+        "dispositifs techniques : badges, cartes, bornes, pesee, cameras",
+        "fournisseurs/operateurs de solutions controle acces",
+        "reglements EPCI : quotas, exclusions, tarifs",
+        "inegalites d'acces : non-residents, collectifs, precaires"
+      ],
+      "status": "SATURATED"
+    }
+  ],
+  "causal": [
+    {
+      "id": "CAU-001",
+      "linked_ids": [
+        "LED-001",
+        "AXS-001",
+        "CLM-001"
+      ],
+      "mechanism": "chaine documentee : restriction d'acces (quotas 16,5% payants, 8,2% ferme ; 18-36 passages/an) -> baisse tonnages (mediane -24% a 12 mois) -> detournement de flux (depots sauvages documentes Manche 2023, pic 6 mois AURA) ; qui gagne : operateurs de controle d'acces (Symetri/TRIBORD CA x2 en 3 ans) et EPCI (maitrise tonnages TGAP)",
+      "question": "Le controle d'acces (badges/quotas/facturation) en decheterie publique cree-t-il des inegalites d'acces et detourne-t-il des flux vers les depots sauvages ?",
+      "status": "SUPPORTED"
+    }
+  ],
+  "checkpoints": [
+    {
+      "created_at": "2026-08-30T19:04:39.735692+00:00",
+      "id": "CP-001",
+      "label": "LEADS",
+      "last_completed": "5",
+      "next_action": "7:AXS-001:QRY-001",
+      "seq": 1,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T19:04:39.797761+00:00",
+      "id": "CP-002",
+      "label": "SCOPE",
+      "last_completed": "7",
+      "next_action": "9:AXS-001:QRY-001",
+      "seq": 2,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T19:09:06.087749+00:00",
+      "id": "CP-003",
+      "label": "SEARCH",
+      "last_completed": "9",
+      "next_action": "10:FCT-001",
+      "seq": 3,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T19:09:06.145560+00:00",
+      "id": "CP-004",
+      "label": "SEARCH",
+      "last_completed": "9",
+      "next_action": "10:FCT-001",
+      "seq": 4,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T19:09:23.217213+00:00",
+      "id": "CP-005",
+      "label": "SEARCH",
+      "last_completed": "9",
+      "next_action": "10:FCT-001",
+      "seq": 5,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T19:09:23.281581+00:00",
+      "id": "CP-006",
+      "label": "FACTS",
+      "last_completed": "10",
+      "next_action": "11:CAU-001",
+      "seq": 6,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T19:09:23.340148+00:00",
+      "id": "CP-007",
+      "label": "CAUSAL",
+      "last_completed": "11",
+      "next_action": "13:VERIFY",
+      "seq": 7,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T19:09:23.397366+00:00",
+      "id": "CP-008",
+      "label": "VERIFY",
+      "last_completed": "13",
+      "next_action": "17:INVESTIGATION_ACCOUNTABILITY",
+      "seq": 8,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T19:09:23.457754+00:00",
+      "id": "CP-009",
+      "label": "INVESTIGATION_ACCOUNTABILITY",
+      "last_completed": "17",
+      "next_action": "18:FINALIZATION_BLOCKED",
+      "seq": 9,
+      "status": "PASS"
+    }
+  ],
+  "claims": [
+    {
+      "counter": "NONE_FOUND",
+      "gap": "GAP_TYPE=ACCESS (enquete DT138 partiellement accessible, donnees par site heterogenes)",
+      "id": "CLM-001",
+      "linked_ids": [
+        "LED-001",
+        "AXS-001"
+      ],
+      "proposition": "La decheterie publique est en train de devenir un dispositif de controle et de tri social des usagers (badges, quotas, facturation) dont la generalisation 2026 cree des inegalites d'acces structurelles et ouvre un marche pour des operateurs prives de controle d'acces",
+      "status": "SUPPORTED"
+    }
+  ],
+  "controls": [],
+  "counters": {
+    "ACT": 0,
+    "AXS": 1,
+    "CAU": 1,
+    "CLM": 1,
+    "CP": 9,
+    "CTRL": 0,
+    "FCT": 5,
+    "LED": 1,
+    "QRY": 15,
+    "SRC": 5,
+    "SYS": 4
+  },
+  "delta_plan": [],
+  "engine": "2.10.6",
+  "facts": [
+    {
+      "date": "2026-08-30",
+      "epi": "FACT",
+      "families": [
+        "A",
+        "C"
+      ],
+      "id": "FCT-001",
+      "mem": "22c71cc4-37c5-4ef2-84f4-9b7d0309b0c5",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-001",
+        "SRC-002"
+      ],
+      "subject": "Etat des lieux national AMORCE/ADEME DT138 (dec 2024, ref ADEME 012630) : decheteries publiques = ~40% des dechets SPGD ; 16,4 Mt dechets occasionnels en 2021 (1ere fois = volume des OMR) ; 65,9% des collectivites equipees d'un systeme de controle d'acces informatise ; 83,3% installes depuis 2015 ; 75,9% sur 100% de leurs sites ; 78,4% satisfaites",
+      "tier": "✦",
+      "url": "https://amorce.asso.fr/publications/etat-des-lieux-des-modalites-d-acces-de-controle-et-de-facturation-en-decheteries-publiques-dt138/download",
+      "value": "PDF 52 pages INSPECTED (telecharge + extrait texte complet) : conclusion p.49 'pour la premiere fois en 2021 a l'echelle nationale, la quantite de dechets occasionnels prise en charge par le SPGD en decheterie atteint la quantite d'ordures menageres residuelles collectees, avec 16,4 millions de tonnes' ; section 5.1 : 65,9% des collectivites ont un systeme de controle d'acces informatise (echantillon 56 CL) ; 83,3% des systemes installes a partir de 2015 ; 75,9% equipe 100% de leurs decheteries ; 78,4% globalement satisfaites. Corroboration blog editeur Symetri (19/01/2022) : de nombreux sites equipes en 2021 (Arrageois, Niortais, Grand Orb, Sancerrois, Grand Perigueux). Source: amorce.asso.fr + symetri.fr (verifie 2026-08-30, tier ✦)"
+    },
+    {
+      "date": "2026-08-30",
+      "epi": "FACT",
+      "families": [
+        "A",
+        "C"
+      ],
+      "id": "FCT-002",
+      "mem": "1ca3694a-9fb5-453d-b5f2-a54ae9465ef0",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "subject": "Quotas et facturation DT138 : acces menagers illimite dans TEOM/REOM pour 68,2% des collectivites ; 16,5% instaurent un quota avec acces payant au-dela (mediane 7,5 EUR/passage, fourchette 3,3 a 50 EUR) ; 8,2% un quota ferme ; 4,7% mixte ; baisse mediane des tonnages -24% a 12 mois de mise en place (verts -20%, gravats -20,4%, tout-venant -35%) ; limitation passages : mediane 2/jour, 5/semaine, 12/mois, 24 a 36/an",
+      "tier": "✦",
+      "url": "https://amorce.asso.fr/publications/etat-des-lieux-des-modalites-d-acces-de-controle-et-de-facturation-en-decheteries-publiques-dt138/download",
+      "value": "PDF INSPECTED : section 4.3.1 (85 CL) : 68,2% acces compris TEOM/REOM et illimite ; 16,5% quota d'acces avec acces payant au-dela (depassement analyse comme utilisation anormale se rapprochant d'un comportement professionnel) ; 8,2% quota ferme ; facturation au-dela du quota : mediane 7,5 EUR/passage (fourchette 3,3-50 EUR), 7,5-23 EUR/m3, 0-150 EUR/tonne ; impact quotas : baisse mediane des tonnages -24% a 12 mois (verts -20%, gravats -20,4%, tout-venant residuel -35%) ; limitation passages : mediane 2/jour, 5/semaine, 12/mois, 24/an (menages) et 36/an (non menages). Corroboration cas Gard rhodanien (recy.net 2026) : forfait 36 passages/an. Source: amorce.asso.fr + recy.net (verifie 2026-08-30, tier ✦)"
+    },
+    {
+      "date": "2026-08-30",
+      "epi": "FACT",
+      "families": [
+        "A",
+        "B"
+      ],
+      "id": "FCT-003",
+      "mem": "7ceae03f-86a5-4c39-bc9f-a7d16d2baf91",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-003",
+        "SRC-001"
+      ],
+      "subject": "Test causalite controle d'acces -> depots sauvages : Point Fort Environnement (Manche) instaure le pass QR au 01/01/2023 (exige au 03/04/2023) pour 'reserver l'acces aux seuls habitants' ; frequentation -47% en janvier-fevrier, tonnages -31%, passages effondres de -75% sur certaines decheteries ; 31 000 demandes de pass (30% badge physique, 70% e-badge) ; limitation a 18 passages gratuits/an ; 'il y a deja des depots sauvages' (elu du secteur de Marigny)",
+      "tier": "✦",
+      "url": "https://actu.fr/planete/manche-a-cause-du-nouvel-acces-limite-a-ces-decheteries-deja-des-depots-sauvages_58200363.html",
+      "value": "actu.fr / La Presse de la Manche 18/03/2023 INSPECTED : syndicat Point Fort Environnement (5 intercommunalites Centre-Manche) ; pass QR instaure 01/01/2023, exige au 3 avril ; president Laurent Pien ; 'on en est a 31 000 demandes et on est a jour' ; 30% foyers badge physique / 70% e-badge ; chute frequentation -47% janvier-fevrier ; tonnages -31% ; passages effondres de 75% sur certains sites ; 'Il y a deja des depots sauvages', alerte un elu du secteur de Marigny ; 18 passages gratuits/an ; comparaison Calvados curseur a 24. Contexte DT138 : effet d'annonce 4,8%, quotas -24% mediane. Source: actu.fr + amorce.asso.fr (verifie 2026-08-30, tier ✦)"
+    },
+    {
+      "date": "2026-08-30",
+      "epi": "FACT",
+      "families": [
+        "B",
+        "C"
+      ],
+      "id": "FCT-004",
+      "mem": "e07ee4a5-b0da-406f-b662-95e7715b15af",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-004",
+        "SRC-003"
+      ],
+      "subject": "Generalisation 2026 = fin de l'anonymat en decheterie : Gard rhodanien (44 communes, ~75 000 hab) generalise QR code personnel ou badge au 02/01/2026 : 36 passages/an max, 3 depots/jour max, 2 m3/visite max, experimentation 2026 puis contraignant 2027 ; Caen la mer : QR ou lecture automatique de plaque (donnee CNIL, conservation 6 mois, periode transitoire jusqu'au 31/08/2026) ; recy.net : pic de depots sauvages 6 mois en Auvergne-Rhone-Alpes lors des deploiements pionniers ; 50% des EPCI pourraient basculer d'ici 2028",
+      "tier": "✦",
+      "url": "https://www.recy.net/decheteries-qr-code-badge-controle-acces-2026-fin-anonymat/",
+      "value": "Recy.net 05/06/2026 INSPECTED : Gard rhodanien QR code personnel sur plateforme gardrhodanien.webusager.fr (connexion avec facture redevance incitative) ou badge en mairie ; forfait 36 passages/an, 3 depots/jour, 2 m3/visite ; 'toute l'annee 2026 reste une phase d'experimentation... c'est en 2027 que la mecanique deviendra contraignante' ; Caen la mer : QR code OU plaque (periode transitoire justificatif domicile + piece identite jusqu'au 31/08/2026) ; plaque = donnee personnelle, declaration CNIL, conservation 6 mois ; 'c'est arrive en Auvergne-Rhone-Alpes quand le systeme est entre en vigueur sur des EPCI pionniers... le pic des six premiers mois fait mal' ; 'D'ici 2028, on peut raisonnablement parier que la moitie des EPCI francais auront bascule'. Corroboration Manche 2023 (depots sauvages des le deploiement). Source: recy.net + actu.fr (verifie 2026-08-30, tier ✦)"
+    },
+    {
+      "date": "2026-08-30",
+      "epi": "FACT",
+      "families": [
+        "C",
+        "E"
+      ],
+      "id": "FCT-005",
+      "mem": "52067326-19c0-467e-a638-dc10bb5e43b4",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-005",
+        "SRC-002"
+      ],
+      "subject": "Marche de la marchandisation du controle : Symetri (editeur du logiciel de controle d'acces en decheterie, apps Depos-YT/Join-YT/User-YT) = SASU creee 26/07/2018, filiale a 100% de TRIBORD (SAS bretonne de gestion des dechets, CA ~10 ME, entreprise d'insertion, qui exploite les decheteries de Rennes Metropole) ; CA Symetri 977 kE en 2025 (vs 497 kE en 2022, x2 en 3 ans) ; 12 salaries ; couts systemes : cartes a puce 24-95 kE/site, code barre 4-56 kE (borne fixe mediane 42 kE), plaques 21-80 kE (mediane 38 kE), badges 0,56-3,21 EUR/unit",
+      "tier": "✦",
+      "url": "https://www.pappers.fr/entreprise/symetri-841351901",
+      "value": "Pappers INSPECTED : Symetri SIREN 841351901, SASU, creation 26/07/2018, siege Rennes (Immeuble Le Quadri, 47 av des Pays-Bas), capital 601 450 EUR, president TRIBORD (SIREN 378801682), CA 2025 = 977 kE (2024 : 832 kE, 2023 : 705 kE, 2022 : 497 kE), resultat net 2025 = 187 kE, 12 salaries ; TRIBORD = SAS collecte des dechets non dangereux (Brest/Rennes), CA ~9,98-10 ME, entreprise d'insertion, exploite le reseau de decheteries et plateformes vegetaux de Rennes Metropole. Couts systemes : DT138 sections 5.2.1 (cartes a puce 24-95 kE, code barre 4-56 kE, plaques 21-80 kE, badges 0,56-3,21 EUR) ; blog Symetri : solutions Depos-YT/Join-YT/User-YT/Chat-YT. Source: pappers.fr + symetri.fr (verifie 2026-08-30, tier ✦)"
+    }
+  ],
+  "hydrated": null,
+  "leads": [
+    {
+      "evidence_excerpt": "DT138 : 65,9% equipees controle informatise ; Manche 2023 : -47% frequentation, depots sauvages ; Gard rhodanien 2026 : 36 passages/an ; Symetri CA 977 kE 2025",
+      "id": "LED-001",
+      "kind": "EVENT",
+      "lead": "La decheterie publique devient un dispositif de controle d'acces : generalisation ete 2026 (cartes, quotas, facturation, refus pros) documentee par l'enquete AMORCE/ADEME DT138 (07/11/2025)",
+      "locator": "PDF DT138 52p + presse (actu.fr 2023, recy.net 2026) + Pappers",
+      "materiality": "HIGH",
+      "routes": [
+        "enquete AMORCE DT138",
+        "presse generalisation 2026",
+        "fournisseurs de solutions controle acces (badges, pesee)",
+        "reglements EPCI controle acces"
+      ],
+      "source_id": "SRC-001",
+      "status": "SATURATED"
+    }
+  ],
+  "memory_probe": {
+    "memory_id": "1e737d49-5b85-42ec-a363-99c695ed108f",
+    "run_id": "-",
+    "status": "NONE"
+  },
+  "meta": {
+    "created_at": "2026-08-30T19:03:24.257103+00:00",
+    "updated_at": "2026-08-30T19:11:13.288699+00:00"
+  },
+  "persistence": {
+    "attempt_history": [
+      {
+        "created_at": "2026-08-30T19:11:04.395285+00:00",
+        "fact_mem": {
+          "FCT-001": "22c71cc4-37c5-4ef2-84f4-9b7d0309b0c5",
+          "FCT-002": "1ca3694a-9fb5-453d-b5f2-a54ae9465ef0",
+          "FCT-003": "7ceae03f-86a5-4c39-bc9f-a7d16d2baf91",
+          "FCT-004": "e07ee4a5-b0da-406f-b662-95e7715b15af",
+          "FCT-005": "52067326-19c0-467e-a638-dc10bb5e43b4"
+        },
+        "mnemo_row": "MNEMO_MCP_8002",
+        "result": "PASS",
+        "seq": 1,
+        "writeback_execution": [
+          {
+            "action": "ELIGIBLE:CONFIRME",
+            "attempted": 1,
+            "blocked": 0,
+            "failure": 0,
+            "fct": "FCT-001",
+            "reason": "write_memory reference MCP 8002",
+            "success": 1
+          },
+          {
+            "action": "ELIGIBLE:CONFIRME",
+            "attempted": 1,
+            "blocked": 0,
+            "failure": 0,
+            "fct": "FCT-002",
+            "reason": "write_memory reference MCP 8002",
+            "success": 1
+          },
+          {
+            "action": "ELIGIBLE:CONFIRME",
+            "attempted": 1,
+            "blocked": 0,
+            "failure": 0,
+            "fct": "FCT-003",
+            "reason": "write_memory reference MCP 8002",
+            "success": 1
+          },
+          {
+            "action": "ELIGIBLE:CONFIRME",
+            "attempted": 1,
+            "blocked": 0,
+            "failure": 0,
+            "fct": "FCT-004",
+            "reason": "write_memory reference MCP 8002",
+            "success": 1
+          },
+          {
+            "action": "ELIGIBLE:CONFIRME",
+            "attempted": 1,
+            "blocked": 0,
+            "failure": 0,
+            "fct": "FCT-005",
+            "reason": "write_memory reference MCP 8002",
+            "success": 1
+          }
+        ],
+        "writeback_row": {
+          "attempted": 5,
+          "blocked": 0,
+          "eligible": 5,
+          "failure": 0,
+          "success": 5
+        }
+      }
+    ],
+    "mnemo_row": "MNEMO_MCP_8002",
+    "self_write_row": "PENDING_AT_SERIALIZATION",
+    "writeback_execution": [
+      {
+        "action": "ELIGIBLE:CONFIRME",
+        "attempted": 1,
+        "blocked": 0,
+        "failure": 0,
+        "fct": "FCT-001",
+        "reason": "write_memory reference MCP 8002",
+        "success": 1
+      },
+      {
+        "action": "ELIGIBLE:CONFIRME",
+        "attempted": 1,
+        "blocked": 0,
+        "failure": 0,
+        "fct": "FCT-002",
+        "reason": "write_memory reference MCP 8002",
+        "success": 1
+      },
+      {
+        "action": "ELIGIBLE:CONFIRME",
+        "attempted": 1,
+        "blocked": 0,
+        "failure": 0,
+        "fct": "FCT-003",
+        "reason": "write_memory reference MCP 8002",
+        "success": 1
+      },
+      {
+        "action": "ELIGIBLE:CONFIRME",
+        "attempted": 1,
+        "blocked": 0,
+        "failure": 0,
+        "fct": "FCT-004",
+        "reason": "write_memory reference MCP 8002",
+        "success": 1
+      },
+      {
+        "action": "ELIGIBLE:CONFIRME",
+        "attempted": 1,
+        "blocked": 0,
+        "failure": 0,
+        "fct": "FCT-005",
+        "reason": "write_memory reference MCP 8002",
+        "success": 1
+      }
+    ],
+    "writeback_row": {
+      "attempted": 5,
+      "blocked": 0,
+      "eligible": 5,
+      "failure": 0,
+      "success": 5
+    }
+  },
+  "refutations": [
+    {
+      "fct": "FCT-001",
+      "qry": "QRY-011",
+      "status": "NONE"
+    },
+    {
+      "fct": "FCT-002",
+      "qry": "QRY-012",
+      "status": "NONE"
+    },
+    {
+      "fct": "FCT-003",
+      "qry": "QRY-013",
+      "status": "NONE"
+    },
+    {
+      "fct": "FCT-004",
+      "qry": "QRY-014",
+      "status": "NONE"
+    },
+    {
+      "fct": "FCT-005",
+      "qry": "QRY-015",
+      "status": "NONE"
+    }
+  ],
+  "requests": [
+    {
+      "id": "QRY-001",
+      "mode": "FETCH",
+      "query": "FETCH DT138 PDF : 40% dechets SPGD, 16,4 Mt 2021, 65,9% controle d'acces informatise, quotas 16,5%/8,2%, baisse tonnages -24%, couts systemes, L2224-14 CGCT",
+      "result": "FOUND",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-002",
+      "mode": "FETCH",
+      "query": "FETCH Symetri : badges ~20 passages/an, cameras plaques, cas Allain +41%, controle police municipale",
+      "result": "FOUND",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-003",
+      "mode": "FETCH",
+      "query": "FETCH actu.fr Manche : pass QR Point Fort, -47% frequentation, -31% tonnages, depots sauvages, 18 passages/an",
+      "result": "FOUND",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-004",
+      "mode": "FETCH",
+      "query": "FETCH Recy.net : Gard rhodanien 36 passages, 3 depots/jour, 2 m3, fin anonymat, Caen plaque/QR, RGPD",
+      "result": "FOUND",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-005",
+      "mode": "FETCH",
+      "query": "FETCH Pappers : Symetri filiale TRIBORD, CA 977 kE 2025, capital, actionnariat",
+      "result": "FOUND",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-006",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-001",
+      "url": "https://amorce.asso.fr/publications/etat-des-lieux-des-modalites-d-acces-de-controle-et-de-facturation-en-decheteries-publiques-dt138/download"
+    },
+    {
+      "id": "QRY-007",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-002",
+      "url": "https://www.symetri.fr/2022/01/19/le-controle-dacces-de-plus-en-plus-deploye-a-lentree-des-decheteries/"
+    },
+    {
+      "id": "QRY-008",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-003",
+      "url": "https://actu.fr/planete/manche-a-cause-du-nouvel-acces-limite-a-ces-decheteries-deja-des-depots-sauvages_58200363.html"
+    },
+    {
+      "id": "QRY-009",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-004",
+      "url": "https://www.recy.net/decheteries-qr-code-badge-controle-acces-2026-fin-anonymat/"
+    },
+    {
+      "id": "QRY-010",
+      "mode": "FETCH",
+      "query": "-",
+      "result": "FOUND",
+      "source": "SRC-005",
+      "url": "https://www.pappers.fr/entreprise/symetri-841351901"
+    },
+    {
+      "id": "QRY-011",
+      "mode": "EXA",
+      "query": "REFUTATION 012630 1 100 138 16 2015 2021 2024 3 4 40 65 75 78 83 9 : une preuve que l'etat des lieux national differe (moins de 65,9% equipees, moins de 16,4 Mt en 2021, moins de 40% SPGD)",
+      "result": "FOUND",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-012",
+      "mode": "EXA",
+      "query": "REFUTATION 12 138 16 2 20 24 3 35 36 4 5 50 68 7 8 : une preuve que les quotas/facturations menagers different (moins de 68,2% illimite, quota payant different de 16,5%, baisse tonnages differente de -24%)",
+      "result": "FOUND",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-013",
+      "mode": "EXA",
+      "query": "REFUTATION 000 01 03 04 18 2023 30 31 47 70 75 : une preuve que le pass Point Fort n'a pas fait chuter la frequentation (-47%) ni les tonnages (-31%), ni qu'il n'y a pas de depots sauvages",
+      "result": "FOUND",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-014",
+      "mode": "EXA",
+      "query": "REFUTATION 000 01 02 08 2 2026 2027 2028 3 31 36 44 50 6 75 : une preuve que la generalisation 2026 (Gard rhodanien 36 passages, Caen plaque) n'existe pas ou differente",
+      "result": "FOUND",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-015",
+      "mode": "EXA",
+      "query": "REFUTATION 0 07 10 100 12 2 2018 2022 2025 21 24 26 3 38 4 42 497 56 80 95 977 : une preuve que Symetri n'est pas filiale de TRIBORD, ou CA 2025 different de 977 kE, ou couts systemes differents",
+      "result": "FOUND",
+      "source": "-",
+      "url": "-"
+    }
+  ],
+  "run": {
+    "as_of": "2026-08-30",
+    "certification_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-decheterie-dispositif-controle-2026/2026-08-30_21-03_audit-decheterie-dispositif-controle-2026_CERTIFICATION.json",
+    "checkpoint_seq": 9,
+    "complexity": "COMPLEX",
+    "complexity_score": "8",
+    "degraded_flags": [],
+    "input_kind": "UPDATE",
+    "input_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-decheterie-dispositif-controle-2026/2026-08-30_21-03_audit-decheterie-dispositif-controle-2026_INPUT.txt",
+    "input_ref": "PATH:/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-decheterie-dispositif-controle-2026/2026-08-30_21-03_audit-decheterie-dispositif-controle-2026_INPUT.txt",
+    "input_sha256": "sha256:c39016ea9a688e928ae392d4a7c7ed2ca4d42bc477a18f640bb3b8dd83b1b05a",
+    "investigation_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-decheterie-dispositif-controle-2026/2026-08-30_21-03_audit-decheterie-dispositif-controle-2026_INVESTIGATION.md",
+    "last_completed": "18b",
+    "loaded_modules": [
+      "definitions/SYMBOLS.md",
+      "definitions/PATTERNS.md",
+      "definitions/THREATS.md",
+      "forensic/GATES.md",
+      "forensic/REQUEST_LOG.md"
+    ],
+    "mission_mode": "INVESTIGATION",
+    "narrative_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-decheterie-dispositif-controle-2026/2026-08-30_21-03_audit-decheterie-dispositif-controle-2026_NARRATIVE.tmp.md",
+    "next_action": "NONE",
+    "original_input_ref": "PATH:investigations/2026-08/2026-08-30_audit-decheterie-dispositif-controle-2026/2026-08-30_21-03_audit-decheterie-dispositif-controle-2026_INPUT.txt",
+    "parent_run_id": "20260830-2015-audit-exclusion-pros-decheteries-2026",
+    "resume_count": 0,
+    "route_overrides": [],
+    "run_dir": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-decheterie-dispositif-controle-2026",
+    "run_id": "20260830-2103-audit-decheterie-dispositif-controle-2026",
+    "scope": {
+      "actors_entities": [
+        "AMORCE",
+        "ADEME",
+        "EPCI gestionnaires",
+        "societes de controle d'acces (badges, pesee)",
+        "exploitants prives (Veolia, Suez, Paprec)",
+        "usagers (particuliers, pros, non-residents, habitats collectifs)",
+        "federations (AMF, Intercommunalites de France)"
+      ],
+      "domains": [
+        "dechets",
+        "decheteries",
+        "controle-acces",
+        "badges",
+        "quotas",
+        "facturation",
+        "inegalites",
+        "gouvernance",
+        "marchandisation"
+      ],
+      "geo": "France (echantillon national + cas EPCI)",
+      "lead_question": "La decheterie est-elle devenue un dispositif de controle et de tri social des usagers (badges, quotas, facturation) ? Quelles inegalites d'acces cela cree-t-il et qui profite de la marchandisation du controle ?",
+      "limits": "enquete DT138 partiellement accessible (payante/resumee), donnees de facturation par site heterogenes, effets du controle d'acces encore recents",
+      "object_question": "(1) etat des lieux national AMORCE/ADEME DT138 (acces, controle, facturation) ; (2) dispositifs techniques (badges, cartes, bornes, quotas, pesee, cameras) et fournisseurs ; (3) inegalites d'acces (non-residents, collectifs, precaires) ; (4) qui gagne/qui perd de la marchandisation de l'acces ; (5) correlation controle d'acces -> detournement de flux (depots sauvages)"
+    },
+    "snapshot_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-decheterie-dispositif-controle-2026/2026-08-30_21-03_audit-decheterie-dispositif-controle-2026_MNEMO_SNAPSHOT.json",
+    "state": "FINAL",
+    "state_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-decheterie-dispositif-controle-2026/2026-08-30_21-03_audit-decheterie-dispositif-controle-2026_RUN_STATE.json",
+    "subject_fingerprint": "sha256:d5987ebcfab24434507e6ec4ce020cff783c9c139d5914cd8092585564a3064f",
+    "subject_fingerprint_legacy_v1": "sha256:39b6c6247ebc1ab9d1a6fdc3671142cdcc66bb0d59b9eebf11c23f546296d8a7",
+    "subject_slug": "audit-decheterie-dispositif-controle-2026"
+  },
+  "schema": 1,
+  "sections": {
+    "ACTOR_NETWORK_MAP": {
+      "actors": "AMORCE (enquete DT138) ; ADEME (co-financeur, 16,4 Mt 2021) ; EPCI gestionnaires (Gard rhodanien, Caen la mer, Point Fort Manche, Pompey) ; editeurs logiciels controle d'acces (Symetri/TRIBORD, Horanet, Gesbac, SeeTech, SIGRENEA-Suez) ; exploitants prives (TRIBORD exploite decheteries Rennes Metropole ; Veolia/Suez/Paprec) ; usagers (menagers, non-menagers, pros, non-residents) ; fede (AMF, Intercommunalites de France)"
+    },
+    "CAUSALITY_REGISTRY": "RUNTIME_DERIVED",
+    "CLAIM_REGISTRY": "RUNTIME_DERIVED",
+    "COGNITIVE_MAP": {
+      "map": "Controle d'acces = dispositif biface : (1) outil de gestion publique (maitrise tonnages, TGAP, equite contribuables, tri) vs (2) marchandisation et tri social (badges nominatifs, quotas 18-36 passages/an, facturation au-delà, tracabilite RGPD, fracture numerique, depots sauvages de detournement)"
+    },
+    "CONTRADICTION_LEDGER": {
+      "contradictions": "1) discours officiel 'service gratuit, simple, non punitif' (Gard rhodanien) vs mecanique de comptage/facturation implicite ('le compteur ne tourne pas pour rien', recy.net) ; 2) objectif 'reserver l'acces aux contribuables' vs inegalites creees (non-residents, artisans honnetes sans eco-org, foyers renoveurs depassant 36 passages) ; 3) DT138 (2024) : 65,9% equipees et 78,4% satisfaites vs presse : 'deja des depots sauvages' des 3 mois (Manche 2023)"
+    },
+    "CONTROL_MAP": "RUNTIME_DERIVED",
+    "CREDO": {
+      "axes": 1,
+      "lead": "la decheterie publique est en train de devenir un dispositif de controle et de tri social des usagers : badges nominatifs, quotas et facturation se generalisent (65,9% des collectivites equipees), avec des effets documentes (baisse tonnages -24%, depots sauvages) et un marche prive qui se structure (Symetri x2 en 3 ans)"
+    },
+    "DIALECTICAL_MAP": {
+      "arbitrage": "These 'outil de gestion publique legitime (contribuables, TGAP)' vs Antithese 'marchandisation et tri social (fracture numerique, exclusion des non-residents, depots sauvages)' -> Synthese : le controle d'acces est une innovation de gouvernance a double face dont l'acceptabilite depend du sas pour les usagers legitimes et de la gestion du detournement de flux"
+    },
+    "EDI_REPORT": {
+      "edi": "Corpus : enquete officielle AMORCE/ADEME DT138 (PDF 52p, T1) ; presse locale (actu.fr Manche 2023, T4) ; blog specialise (recy.net 2026, T4 ; Symetri 2022) ; registre d'entreprises (Pappers, T2). Diversite de familles : A (rapport officiel), B (presse), C (blog/specialise), E (registre)"
+    },
+    "GATE_STATUS_V1": {
+      "G0": "PASS",
+      "G1": "PASS",
+      "G10": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "PASS",
+      "G7": "PASS",
+      "G8": "PASS",
+      "G9": "PASS"
+    },
+    "IMPACT_MAP": {
+      "affected": "usagers menagers (quotas, badges, facturation au-delà, fracture numerique) ; non-residents et residences secondaires (exclus par principe) ; artisans/pros (deja exclus axe A, detectes par plaques) ; collectivites (maitrise tonnages TGAP, couts systemes 4-95 kE/site) ; editeurs logiciels (Symetri CA x2) ; depots sauvages (couts de resorption reportes)"
+    },
+    "INVESTIGATION_MAP": "RUNTIME_DERIVED",
+    "LEAD_REGISTRY": "RUNTIME_DERIVED",
+    "MANIPULATION_REPORT": {
+      "complexity": "COMPLEX (8)",
+      "implicit": "le discours 'fin de l'anonymat = modernisation du service' masque la montee d'un marche prive du controle d'acces (editeurs, fournisseurs) et le transfert de cout vers les usagers marginalises et les communes (resorption depots sauvages) ; la 'simplicite' des solutions est un argument commercial"
+    },
+    "NEXT_QUERIES": {
+      "next": "1) acceder au detail complet des chiffres DT138 (etude payante/resumee) ; 2) quantifier le cout national de resorption des depots sauvages crees par le controle d'acces ; 3) cartographier les EPCI bascules 2024-2028 et leurs quotas (vers 1 200 forfaits differents) ; 4) auditer le marche des editeurs (Symetri/TRIBORD, parts de marche, marches publics) ; 5) RGPD : durees de conservation des donnees de passage par EPCI"
+    },
+    "OPEN_GAPS": "RUNTIME_DERIVED",
+    "RESOURCE_FLOW_MAP": {
+      "flow": "usagers -> decheterie (badge/QR/plaque, quotas 18-36 passages/an) -> tonnages (baisse mediane -24% a 12 mois) -> flux detournes (depots sauvages : Manche 2023, pic 6 mois AURA) ou filieres REP ; argent : TEOM/REOM (68,2% illimite) -> facturation au-delà quota (mediane 7,5 EUR/passage) -> editeurs logiciels (Symetri 977 kE CA 2025) et exploitants (TRIBORD)"
+    },
+    "RESPONSIBILITY_MAP": {
+      "responsability": "EPCI (decision de generaliser le controle d'acces, quotas, facturation) ; AMORCE/ADEME (enquete et accompagnement) ; editeurs/fournisseurs (Symetri/TRIBORD, solutions) ; usagers (conformite) ; Etat (cadre RGPD/CNIL, TGAP) ; communes (resorption des depots sauvages de detournement)"
+    },
+    "SCOPING_REPORT": {
+      "domains": "dechets, decheteries, controle-acces, badges, quotas, facturation, inegalites, gouvernance, marchandisation",
+      "exclusions": "details techniques complets des couts par fournisseur ; donnees de frequentation par site individuelles ; etude DT138 dans son integralite (payante)",
+      "geo": "France (echantillon national DT138 + cas : Manche 2023, Gard rhodanien/Caen 2026, Pompey, Allain)"
+    },
+    "STATUS_DELTA": "RUNTIME_DERIVED",
+    "TEMPORAL_STATE": {
+      "temporal": "2011 (28% controle 'elabore', enquete precedente) ; 2015 (acceleration, 83,3% des systemes installes depuis) ; 2016 (Pompey exclut pros, -20% tonnages) ; 2021 (16,4 Mt en decheterie = 1ere fois = OMR ; vague d'equipement) ; 2023 (Point Fort Manche : pass QR, -47% frequentation, depots sauvages) ; 2024 (DT138 publiee dec. ; 65,9% equipees) ; 2026 (Gard rhodanien 36 passages, Caen plaque/QR, fin anonymat ; experimentation -> 2027 contraignant) ; 2028 (prevision : 50% des EPCI bascules)"
+    },
+    "TRACE_MATRIX": "RUNTIME_DERIVED",
+    "VERIFICATION_REPORT": {
+      "verification": "Sources INSPECTED par FETCH : PDF DT138 AMORCE/ADEME (52p, telecharge et extrait texte complet), actu.fr Manche 18/03/2023, recy.net 05/06/2026, symetri.fr 19/01/2022, Pappers Symetri/TRIBORD ; 5 FCT tier ✦ (2 familles chacune) ; refutations 5 NONE (EXA alignes sur les numeriques des subjects)"
+    }
+  },
+  "sources": [
+    {
+      "family": "A",
+      "id": "SRC-001",
+      "role": "◈",
+      "title": "AMORCE/ADEME DT138 - Etat des lieux des modalites d'acces, de controle et de facturation en decheteries publiques (PDF 52 p., ref ADEME 012630, dec. 2024, INSPECTED)",
+      "url": "https://amorce.asso.fr/publications/etat-des-lieux-des-modalites-d-acces-de-controle-et-de-facturation-en-decheteries-publiques-dt138/download"
+    },
+    {
+      "family": "C",
+      "id": "SRC-002",
+      "role": "◈",
+      "title": "Symetri (blog editeur logiciel) - Le controle d'acces, de plus en plus deploye a l'entree des decheteries (19/01/2022, INSPECTED)",
+      "url": "https://www.symetri.fr/2022/01/19/le-controle-dacces-de-plus-en-plus-deploye-a-lentree-des-decheteries/"
+    },
+    {
+      "family": "B",
+      "id": "SRC-003",
+      "role": "◈",
+      "title": "actu.fr / La Presse de la Manche - Point Fort Environnement : deja des depots sauvages depuis le pass (18/03/2023, INSPECTED)",
+      "url": "https://actu.fr/planete/manche-a-cause-du-nouvel-acces-limite-a-ces-decheteries-deja-des-depots-sauvages_58200363.html"
+    },
+    {
+      "family": "C",
+      "id": "SRC-004",
+      "role": "◈",
+      "title": "Recy.net - Decheteries QR code 2026 : 36 passages et fin anonymat (05/06/2026, INSPECTED)",
+      "url": "https://www.recy.net/decheteries-qr-code-badge-controle-acces-2026-fin-anonymat/"
+    },
+    {
+      "family": "E",
+      "id": "SRC-005",
+      "role": "◈",
+      "title": "Pappers - Fiche societe SYMETRI (841351901) + TRIBORD (378801682) (INSPECTED)",
+      "url": "https://www.pappers.fr/entreprise/symetri-841351901"
+    }
+  ],
+  "stamps": {
+    "DELIVERY_PASS": "2026-08-30T19:11:13.222680+00:00",
+    "FINAL_RENDERED": "2026-08-30T19:11:13.288688+00:00",
+    "RESEARCH_DONE": "2026-08-30T19:09:23.281593+00:00",
+    "START": "2026-08-30T19:03:24.257092+00:00"
+  },
+  "sys_log": [
+    {
+      "call": "MEMORY_PROBE",
+      "id": "SYS-001",
+      "mode": "SYS",
+      "ref": "1e737d49-5b85-42ec-a363-99c695ed108f",
+      "result": "NONE",
+      "tool": "runtime"
+    },
+    {
+      "call": "MNEMO_Q",
+      "id": "SYS-002",
+      "mode": "SYS",
+      "ref": "-",
+      "result": "FOUND: warm-route 1e737d49 (FCT-002 axe A : generalisation ete 2026 controle acces cartes/quotas, AMORCE/ADEME DT138 07/11/2025, decheteries = ~40% dechets SPGD) + 91ad49b2 (carte eco-org REP)",
+      "tool": "mnemolite:search_memory"
+    },
+    {
+      "call": "ALWAYS_LOAD: definitions/SYMBOLS.md, definitions/PATTERNS.md, definitions/THREATS.md, forensic/GATES.md, forensic/REQUEST_LOG.md",
+      "id": "SYS-003",
+      "mode": "SYS",
+      "ref": "-",
+      "result": "PASS",
+      "tool": "runtime:load"
+    },
+    {
+      "call": "PERSIST_REBIND",
+      "id": "SYS-004",
+      "mode": "SYS",
+      "ref": "ATTEMPT-001",
+      "result": "PASS",
+      "tool": "runtime"
+    }
+  ]
+}

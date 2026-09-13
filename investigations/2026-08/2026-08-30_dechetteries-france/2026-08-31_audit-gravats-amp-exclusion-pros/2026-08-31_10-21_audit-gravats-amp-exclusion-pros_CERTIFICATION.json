@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:b44e8bfdd693d9e520925f72553e8670493315c1d18d06850b7c58e756c546fc",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-31_audit-gravats-amp-exclusion-pros/2026-08-31_10-21_audit-gravats-amp-exclusion-pros_INVESTIGATION.md",
+  "deliverable_sha256": "2c47e5e9456241426bece7ffefba7b3a657e6515cf71d5f9d5b256c6af9264bf",
+  "created_at": "2026-08-31T08:26:12.844193+00:00"
+}

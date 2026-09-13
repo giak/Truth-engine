@@ -1,0 +1,20 @@
+[
+  {
+    "type": "CAUSE",
+    "status": "SUPPORTED",
+    "source": "FCT-001",
+    "cause": "Le GAP SGC 2024 est comble : la mise a jour 2020->2024 montre RI 1 935 733 €, decheterie 2 486 t (287 kg/hab vs 235 nationale) et cout aide decheterie 692 365 € TTC : la collectivite reste le premier financeur, les soutiens eco-org n'apparaissent pas ventiles dans la presentation"
+  },
+  {
+    "type": "ENABLER",
+    "status": "SUPPORTED",
+    "source": "FCT-002",
+    "cause": "La ventilation SEROC 2025 confirme et affine le modele : Citeo dominant (2,7 M€ + 652 k€ liquidatif) mais la filiere decheterie est chiffree a 460 000 € (dont PMCB) et les autres eco-org explosent 220 k€ -> 875 k€ (+298 %) : la pluralisation des filieres REP augmente le poids contractuel hors Citeo"
+  },
+  {
+    "type": "EFFECT",
+    "status": "SUPPORTED",
+    "source": "FCT-003",
+    "cause": "Valobat recalibre ses baremes au 1er juillet 2026 (filiere recente 2023, couts reels, eco-modulation) : la filiere PMCB est en phase de structuration, les montants verses aux collectivites restent non publies par site (GAP persistant)"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "deterministic": "PASS",
+  "kernel_contract": "delivery",
+  "deliverable": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_chiffrage-epci-emeraude/2026-08-30_15-02_chiffrage-epci-emeraude_INVESTIGATION.md",
+  "deliverable_sha256": "8833a63988a6a42ddcc65e52f8d34db0c48508f39211c1972271fc63e57614ec",
+  "state_id": "sha256:f2e5e5ac55c2963caa1d0ca70c8fb61afb2079f33beada7b13daa1323e413847"
+}

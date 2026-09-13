@@ -1,0 +1,29 @@
+[
+  {
+    "epi": "FACT",
+    "tier": "✧",
+    "url": "https://www.comcom-sgc.fr/wp-content/uploads/2026/02/01-02-2026-Presentation-RPQS-dechets-menagers-2024-.pdf",
+    "sources": ["SRC-001"],
+    "date": "2026-02-05",
+    "subject": "SGC RPQS 2024 decheterie Nomeny 2486 tonnes 287 kg/hab RI 1935733 euros charges decheterie 726003 euros produits 33638 verre 811 tonnes",
+    "value": "SGC Seille et Grand Couronne (54) RPQS 2024 (presentation CC 05/02/2026, PDF 23 p.) : decheterie communautaire de Nomeny = 2 486 t total 2024 (2 002 t hors gravats + 484,24 t inertes) ; 287 kg/hab vs moyenne nationale 235 ; flux : non recyclables DIB 713,96 t, dechets verts 459,78 t, bois 445 t, inertes 484,24 t, ferrailles 110,80 t, cartons 112,46 t, DEEE 79,97 t, platre 41,62 t (nouveau flux), DDS 23,12 t ; RI percue 1 935 733 € ; facturation apports pros decheterie 10 907 € ; charges decheterie 726 003 € HT / produits 33 638 € ; cout aide decheterie 692 365 € TTC ; refus tri 22 % = 42 000 €"
+  },
+  {
+    "epi": "FACT",
+    "tier": "✧",
+    "url": "https://seroc14.fr/wp-content/uploads/2025/02/CSD2025_00220250128_CS_2025-002_Debat_dOrientation_Budgetaire_DOB.pdf",
+    "sources": ["SRC-002"],
+    "date": "2025-01-28",
+    "subject": "SEROC DOB 2025 filiere decheterie 460000 euros dont PMCB autres soutiens eco-org 875000 contre 220025 2024 Citeo recyclables 2700000 contre 2200000 liquidatif bareme F 652000 Citeo papier 130000 EcoDDS 12000 Refashion 10000 ARCA 4000 Ecomaison 500 OCAD3E 1600",
+    "value": "SEROC 14 (Calvados) DOB 2025 (CS 28/01/2025, PDF 18 p.) : autres soutiens eco-organismes 2025 estimes 875 000 € vs 220 025 € en 2024, dont filiere decheterie 460 000 € (service decheteries, dont filiere PMCB) ; Citeo recyclables 2 700 000 € (vs 2 200 000 € 2024) + liquidatif barème F 2022 = 652 000 € (recu aout 2024) ; Citeo papier 130 000 € ; fonds verts 85 000 € (communication/investissement) + 176 979 € (personnel) ; Region 100 000 € compostage ; LEADER 30 000 € caisson ; Refashion 10 000 € ; Region 7 000 € village recup ; ARCA petits alu 4 000 € ; Ecomaison 500 € ; OCAD3E 1 600 € ; EcoDDS 12 000 € ; soutiens et subventions = 27 % du budget > 3,7 M€ ; contribution globale previsionnelle 2025 = 8 850 000 €"
+  },
+  {
+    "epi": "FACT",
+    "tier": "✧",
+    "url": "https://www.minco.fr/actualites/rep-pmcb-evolution-des-baremes-valobat-au-1er-juillet-2026/",
+    "sources": ["SRC-004"],
+    "date": "2026-06-08",
+    "subject": "Valobat baremes PMCB evolution 1er juillet 2026 structuration filiere recalibrage couts eco-modulation renforcee bonus malus",
+    "value": "Valobat (eco-organisme PMCB) fait evoluer ses baremes d'eco-contribution au 1er juillet 2026 (article Minco 08/06/2026, family B) : 3 raisons = (1) structuration de la filiere (deploiement points de collecte, reprise, recyclage) exigeant des investissements ; (2) recalibrage des couts reels apres 2 ans de fonctionnement (logistique + elevee que prevu, complexite traitement, maillage territorial) ; (3) eco-modulation renforcee (bonus eco-concu, malus obligatoires non cumulables avec bonus, seuils releves). Page officielle valobat.fr/baremes-pmcb = 403 (QRY-004 BLOCKED). Soutiens €/t aux collectivites non publies par site"
+  }
+]

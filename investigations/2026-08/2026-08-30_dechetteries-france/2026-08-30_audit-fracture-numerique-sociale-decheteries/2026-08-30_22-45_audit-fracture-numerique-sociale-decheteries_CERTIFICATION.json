@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "2026-08-30T20:40:07.063893+00:00",
+  "state_id": "sha256:6fb9c025fb64b521a72c6957201d6463deb7880bd75081ee6d7577ad7cc5f9db",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_audit-fracture-numerique-sociale-decheteries/2026-08-30_22-45_audit-fracture-numerique-sociale-decheteries_INVESTIGATION.md",
+  "deliverable_sha256": "df8ab9b658f4f50e78f0f7a8ce46b44065e3c4dc5537b7ed7980aa0aee178f40",
+  "created_at": "2026-08-30T21:39:39.897490+00:00"
+}

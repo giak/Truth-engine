@@ -1,0 +1,26 @@
+{
+  "SCOPING_REPORT": {
+    "lead_question": "Les GAP de donnees identifies (SGC 2024 bloque 403, DRAGA sans ventilation, filiere decheterie PMCB non chiffree) sont-ils comblables par les documents publics recemment publies ?",
+    "object_question": "Combler 3 GAP : SGC RPQS 2024 (2 486 t, RI 1 935 733 €, cout aide decheterie 692 365 €) ; SEROC DOB 2025 (filiere decheterie 460 000 € dont PMCB, Citeo 2,7 M€, liquidatif 652 k€, autres eco-org 875 k€) ; Valobat baremes PMCB",
+    "geo": "Meurthe-et-Moselle (54, SGC), Calvados (14, SEROC), Ardeche (07, DRAGA)",
+    "periode": "2024-2026"
+  },
+  "TEMPORAL_STATE": {
+    "as_of": "2026-08-30",
+    "periode_etudiee": "RPQS 2024 SGC (publie 02/2026), DOB 2025 SEROC (publie 01/2025), baremes Valobat 07/2026",
+    "phase": "combler les GAP de donnees du comparatif inter-EPCI"
+  },
+  "COGNITIVE_MAP": {
+    "modele": "les GAP etaient des GAP d'accessibilite (403) et de transparence (ventilation non publiee), pas des GAP de donnee inexistante : SGC 2024 trouve via nouvelle URL, SEROC detaille par eco-org",
+    "mecanisme": "la filiere PMCB territoriale se chiffre par les DOB (SEROC 460 k€ dont PMCB) quand les baremes Valobat par site restent non publies"
+  },
+  "DIALECTICAL_MAP": {
+    "these": "les GAP de donnees sont structurels et impossibles a combler",
+    "antithese": "SGC 2024 (403) debloque par simple changement d'URL ; SEROC publie une ventilation complete par eco-organisme et par filiere",
+    "synthese": "la plupart des GAP sont des GAP d'effort de recherche ou de transparence locale, pas des impossibilites : seuls les soutiens Valobat/Ecominero par site et la ventilation Citeo par titre restent veritablement non publies"
+  },
+  "RESOURCE_FLOW_MAP": {
+    "flux": "SGC : RI 1 935 733 € + apports pros 10 907 € vs charges decheterie 726 003 € HT ; SEROC : Citeo 2,7 M€ + 652 k€ liquidatif + 130 k€ papier + autres eco-org 875 k€ (dont decheterie 460 k€ avec PMCB) vs contribution 8 850 000 €",
+    "delta": "l'explosion des autres soutiens eco-org (+298 %, 220 k€ -> 875 k€) montre la montee des filieres hors emballages (PMCB, DDS, textiles, D3E) dans le financement des decheteries"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:00686434b5948e0999a60cdd3b087d34a87beb23f3e27b1a0443f5b40acb614b",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-ouverture-haie-fouassiere/2026-08-30_19-55_audit-ouverture-haie-fouassiere_INVESTIGATION.md",
+  "deliverable_sha256": "338ffbda6b31cece96725b0ba8c5136070c4ce01007f373a650cef3a5cbf5ea5",
+  "created_at": "2026-08-30T18:11:57.906065+00:00"
+}

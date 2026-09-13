@@ -1,0 +1,11 @@
+AXE D — Démographie du parc : comptabiliser les fermetures de déchèteries depuis 2013 via le champ D_FERM SINOE croisé presse.
+
+Question : le réseau de déchèteries se rétracte-t-il ? Combien de sites ont fermé depuis 2013, où, pourquoi, et le solde net (fermetures vs ouvertures) est-il négatif ?
+
+Méthode :
+1. Analyser le CSV brut SINOE annuaire (/tmp/sinoe_annuaire.csv, 45 169 records, millésimes 2009-2026) : le champ D_FERM n'existe PAS (35 colonnes sans statut fermeture) → la fermeture est inférée par disparition persistante des records entre millésimes bisannuels.
+2. Compter les services présents >=2013 jamais déclarés en 2025/2026 (= 423), leur dernière année de présence, et corriger par les réapparitions même ville+dept (renumérotation/fusion, = 135) et les artefacts (mobiles, pseudo).
+3. Croiser avec la presse pour documenter des fermetures réelles nominatives (fermeture définitive, fusion, transfert) et vérifier le proxy sur les cas déjà documentés (5172 La Haye-Fouassière disparu 2013→2015 = fermeture 18/11/2013 ; 4482 Randan disparu 2017→2019 = service FERMÉ).
+4. Conclure sur la démographie : solde net stable (4 532 en 2013 → 4 551 en 2025, 4 630 en 2026), fermetures réelles vs renumérotations.
+
+UPDATE de la fresque dechetteries-france (passe parente 20260830-2030-audit-refondation-pmcb-2027).

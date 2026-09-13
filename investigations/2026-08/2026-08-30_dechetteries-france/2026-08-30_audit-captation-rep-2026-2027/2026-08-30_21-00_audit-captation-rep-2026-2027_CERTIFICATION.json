@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:56b49e53696dd4c8fdab721191a230b51a1e5b1e3de8d5b19ad7302be7186d8d",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_audit-captation-rep-2026-2027/2026-08-30_21-00_audit-captation-rep-2026-2027_INVESTIGATION.md",
+  "deliverable_sha256": "996ee2a1ff3c7960b8c76bc66755826dd339757d85e4abfe09d92303ba92338a",
+  "created_at": "2026-08-30T19:00:33.428951+00:00"
+}

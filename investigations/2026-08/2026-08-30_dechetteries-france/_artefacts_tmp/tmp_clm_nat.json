@@ -1,0 +1,28 @@
+[
+  {
+    "id": "CLM-001",
+    "kind": "CLM",
+    "claim": "La carte nationale des soutiens REP s'elargit : CCST 74 euro/t (8 171 t) et Redon avec ventilation complete par eco-org dont Valobat 54 299 euro et Ecosystem 71 063 euro",
+    "support": "RPQS CCST 2024 + rapport Redon 2024 (PDF inspectes)",
+    "counter": "NONE_FOUND",
+    "gap": "total decheterie Redon non isole ; gros poste CCST 520 863,21 non identifie",
+    "gap_type": "VERIFICATION",
+    "status": "OPEN"
+  },
+  {
+    "id": "AXS-001",
+    "kind": "AXS",
+    "question": "Les nouveaux EPCI (CCST, Redon) confirment-ils la diversite des ratios soutiens/tonnage et la ventilation par eco-organisme ?",
+    "sought": "lecture RPQS CCST 2024 et rapport Redon 2024",
+    "status": "ACTIVE",
+    "links": ["LED-001", "LED-002"]
+  },
+  {
+    "id": "AXS-002",
+    "kind": "AXS",
+    "question": "Les soutiens des filieres jeunes (Valobat PMCB, Ecosystem D3E) sont-ils documentables en euros par site ?",
+    "sought": "montants Valobat/Ecosystem dans les rapports territoriaux",
+    "status": "ACTIVE",
+    "links": ["LED-003"]
+  }
+]

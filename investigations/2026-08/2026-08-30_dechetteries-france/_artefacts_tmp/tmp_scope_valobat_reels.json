@@ -1,0 +1,15 @@
+{
+  "complexity": "HIGH",
+  "complexity_score": 8,
+  "loaded_modules": ["definitions/SYMBOLS.md","definitions/PATTERNS.md","definitions/THREATS.md","forensic/GATES.md","forensic/REQUEST_LOG.md"],
+  "scope": {
+    "actors_entities": ["Valobat", "Ecominero", "collectivites et EPCI", "syndicats", "SMICTOM/SIVOM", "ADEME", "OCAB", "exploitants de decheteries"],
+    "domains": ["rep", "pmcb", "economie", "transparence_financiere", "gestion_dechets"],
+    "exclusions": ["bareme (fait, passe 1558)", "eco-contribution cotisation (cote metteur)"],
+    "geo": "France metropolitaine - EPCI ayant signe un contrat Valobat PMCB et publie RAA/RPQS/convention 2024-2025",
+    "lead_question": "Quels EPCI publient les montants Valobat reellement percus (€/an par decheterie), au-delà du bareme ?",
+    "limits": ["les montants Valobat ne sont pas publies centralement (403 valobat.fr)", "beaucoup d'EPCI consolident dans un total multi eco-org sans detail", "les RAA 2025 de la plupart des EPCI ne sont pas encore publies (2026-08)"],
+    "object_question": "Identifier les conventions/RAA 2025 qui exposent les sommes Valobat reellement versees (montant € annuel, ≥1 EPCI, de preference par decheterie) et en tirer la fourchette reelle de captation. Redon 2024 (Valobat multimat 1363t=54299€) est le seul cas deja documente en memoire.",
+    "period": "2024-2025 (RAA/RPQS publies)"
+  }
+}

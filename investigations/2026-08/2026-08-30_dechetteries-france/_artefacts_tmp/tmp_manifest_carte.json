@@ -1,0 +1,5 @@
+{
+  "complexity": "HIGH",
+  "complexity_score": 3,
+  "loaded_modules": ["SYMBOLS", "GATES", "PATTERNS", "THREATS", "KERNEL", "UPDATE", "INVESTIGATION", "FACT_VERIFICATION"]
+}

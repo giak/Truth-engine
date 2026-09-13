@@ -1,0 +1,20 @@
+{
+  "EDI_REPORT": {
+    "dimensions": ["economie", "transparence", "asymetrie informationnelle"],
+    "limites": "detail Citeo par titre de recette non publie dans le PDF du CA ; ventilation Citeo estimee (4,5-4,7 M€) par difference et croisement, pas lue titre par titre"
+  },
+  "MANIPULATION_REPORT": {
+    "opacite": "CA consolide les soutiens en un seul poste : impossible de savoir quelle filiere paie quoi sans les etats de titres de recette",
+    "interets": "Citeo (emballages) capte l'essentiel de la valeur contractuelle ; la TEOM (85 %) fait porter la charge au contribuable local",
+    "revelation": "le croisement barèmes x tonnages + rattachements reconstituer la ventilation : Citeo ~94-98 %, Ecomaison ~2,3 %, Ecologic ~0,1 %"
+  },
+  "NEXT_QUERIES": [
+    "DOB 2026 ou etats des titres de recette pour le detail exact Citeo par titre",
+    "CA 2025 Emeraude (publication attendue mi-2026) pour confirmer la ventilation",
+    "Generaliser la ventilation par filiere sur Tri-Action et SGC"
+  ],
+  "GATE_STATUS_V1": {
+    "G0": "PASS", "G1": "PASS", "G2": "PASS", "G3": "PASS", "G4": "PASS",
+    "G5": "PASS", "G6": "PASS", "G7": "PASS", "G8": "PASS", "G9": "PASS", "G10": "PASS"
+  }
+}

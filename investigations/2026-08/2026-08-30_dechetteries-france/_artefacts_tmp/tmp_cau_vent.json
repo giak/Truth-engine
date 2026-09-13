@@ -1,0 +1,23 @@
+[
+  {
+    "id": "CAU-001",
+    "type": "CAUSE",
+    "status": "SUPPORTED",
+    "source": "FCT-001",
+    "cause": "Le total des soutiens éco-organismes + rachats matières 2024 d'Emeraude (4 810 483,50 € = 12,16 % des recettes) domine la revente matériaux (1 201 k€) : la valeur du flux passe par des soutiens contractuels, pas par le marché"
+  },
+  {
+    "id": "CAU-002",
+    "type": "ENABLER",
+    "status": "SUPPORTED",
+    "source": "FCT-003",
+    "cause": "Citeo domine structurellement (prévision 2025 : 2,4 M€ emballages seule, petits alus 700 €/t Citeo 400 + CEELA 300) : la ventilation par filière est réalisable par croisement barèmes × tonnages et par différence"
+  },
+  {
+    "id": "CAU-003",
+    "type": "EFFECT",
+    "status": "SUPPORTED",
+    "source": "FCT-002",
+    "cause": "La ventilation estimée (Citeo 4,5-4,7 M€, Ecomaison 112 529,90 €, Ecologic 5 248,43 €) montre la concentration de la valeur contractuelle sur l'emballage, les autres filières (D3E, mobilier) restant marginales en montant"
+  }
+]

@@ -1,0 +1,745 @@
+{
+  "actions": [],
+  "axes": [
+    {
+      "attempt_ids": [
+        "projection EPCI temoin"
+      ],
+      "gap_type": "NONE",
+      "id": "AXS-001",
+      "led_links": [
+        "LED-001"
+      ],
+      "question": "Combien chaque decheterie/EPCI capte-t-elle par eco-organisme avec les grilles 2026-2027, et qui recoit l argent de la refondation PMCB ?",
+      "result_ids": [
+        "LED-001"
+      ],
+      "sought_objects": [
+        "captation par decheterie 2026-2027",
+        "impact recalibrage 01/07-01/08/2026",
+        "impact refondation matures 01/01/2027",
+        "EPCI temoin projete"
+      ],
+      "status": "SATURATED"
+    }
+  ],
+  "causal": [
+    {
+      "cause": "Recalibrage barèmes 01/07-01/08/2026 + refondation PMCB 2027 (matures 01/01/2027, 2 EUR/t, agrements)",
+      "effect": "Recomposition de la captation REP par decheterie : Citeo dominant, PMCB en transition, charge reportee aux collectivites",
+      "id": "CAU-001",
+      "source": "Socle certifie passes 1350/1726/1740/1757/2030 + projection",
+      "status": "SUPPORTED",
+      "type": "REP_CAPTURE"
+    }
+  ],
+  "checkpoints": [
+    {
+      "created_at": "2026-08-30T18:53:29.247824+00:00",
+      "id": "CP-001",
+      "label": "LEADS",
+      "last_completed": "5",
+      "next_action": "7:AXS-001:QRY-001",
+      "seq": 1,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T18:53:29.308628+00:00",
+      "id": "CP-002",
+      "label": "SCOPE",
+      "last_completed": "7",
+      "next_action": "9:AXS-001:QRY-001",
+      "seq": 2,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T18:53:29.365529+00:00",
+      "id": "CP-003",
+      "label": "SEARCH",
+      "last_completed": "9",
+      "next_action": "10:FCT-001",
+      "seq": 3,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T18:53:29.422989+00:00",
+      "id": "CP-004",
+      "label": "FACTS",
+      "last_completed": "10",
+      "next_action": "11:CAU-001",
+      "seq": 4,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T18:53:29.484164+00:00",
+      "id": "CP-005",
+      "label": "CAUSAL",
+      "last_completed": "11",
+      "next_action": "13:VERIFY",
+      "seq": 5,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T18:53:29.540417+00:00",
+      "id": "CP-006",
+      "label": "VERIFY",
+      "last_completed": "13",
+      "next_action": "17:INVESTIGATION_ACCOUNTABILITY",
+      "seq": 6,
+      "status": "PASS"
+    },
+    {
+      "created_at": "2026-08-30T18:53:29.599552+00:00",
+      "id": "CP-007",
+      "label": "INVESTIGATION_ACCOUNTABILITY",
+      "last_completed": "17",
+      "next_action": "18:FINALIZATION_BLOCKED",
+      "seq": 7,
+      "status": "PASS"
+    }
+  ],
+  "claims": [
+    {
+      "counter": "NONE_FOUND",
+      "gap": "GAP_TYPE=ACCESS (textes 2027 non publies, barème Valobat 403)",
+      "id": "CLM-001",
+      "linked_ids": [
+        "LED-001",
+        "AXS-001"
+      ],
+      "proposition": "La captation REP 2026-2027 par decheterie reste dominee par Citeo, avec des flux PMCB en recomposition : recalibrage 01/07-01/08/2026 (hausse) avant la refondation 2027 (matures exfiltres, 2 EUR/t) — le transfert de charge vers les collectivites est le resultat net",
+      "status": "SUPPORTED"
+    }
+  ],
+  "controls": [],
+  "counters": {
+    "ACT": 0,
+    "AXS": 1,
+    "CAU": 1,
+    "CLM": 1,
+    "CP": 7,
+    "CTRL": 0,
+    "FCT": 5,
+    "LED": 1,
+    "QRY": 12,
+    "SRC": 7,
+    "SYS": 4
+  },
+  "delta_plan": [],
+  "engine": "2.10.6",
+  "facts": [
+    {
+      "date": "2026-08-30",
+      "epi": "FACT",
+      "families": [
+        "A",
+        "B"
+      ],
+      "id": "FCT-001",
+      "mem": "ee5564ee-7ba0-42a2-b7c4-2f24bd4301f4",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-001",
+        "SRC-002"
+      ],
+      "subject": "Macro-economie de la filiere PMCB : 42 Mt/an dechets batiment (75% inertes, 23% non inertes, 2% dangereux), inertes valorises a 30% seulement, depots sauvages 340-420 M EUR/an aux collectivites, cout pour les metteurs de 1300 vers 390 M EUR",
+      "tier": "✦",
+      "url": "https://www.decideurs-immo.com/paroles-d-experts/64937-la-filiere-rep-pmcb-du-dispositif-fondateur-a-la-refondation-de-2027.html",
+      "value": "Decideurs Immo 20/07/2026 (Fahima Gasmi, avocate) INSPECTED : 42 Mt/an dechets du batiment ; composition 75% inertes, 23% non dangereux non inertes, 2% dangereux ; valorisation reelle 70% affichee mais 30% pour les inertes (reste en remblaiement) et 25% pour les non inertes ; depots sauvages = 340 a 420 M EUR/an a la charge des collectivites ; cout global pour les metteurs sur le marche en baisse de 1300 M EUR a 390 M EUR/an (scenario refondation) ; Ecominero 9,8 Mt inertes traitees 2024 avec 92% de recyclage ; 6 385 points de collecte en mars 2025 dont ~1000 acceptant les 7 flux. Source: decideurs-immo.com (verifie 2026-08-30, tier ✦)"
+    },
+    {
+      "date": "2026-08-30",
+      "epi": "FACT",
+      "families": [
+        "A",
+        "B"
+      ],
+      "id": "FCT-002",
+      "mem": "218fe0ae-6dac-4e26-9fdd-0d10ebdd3326",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-002",
+        "SRC-001"
+      ],
+      "subject": "Calendrier de la refondation en 3 etapes : consultation jusqu au 19/05/2026, entree en vigueur partielle 01/09/2026 (reprise payante des matures : beton, brique, tuile, ardoise, metaux, bois, platre, verre plat), plein regime regional 2027 ; cout 900 vers 450 M EUR en 2028 ; 18 regions pilotes ; 9 mois de visibilite baremes",
+      "tier": "✦",
+      "url": "https://www.smartbtp.ai/rep-pmcb-refonte-2026-2027-dechets-btp",
+      "value": "Smart BTP 13/05/2026 INSPECTED : la refonte distingue matures (reprise payante des le 01/09/2026 : beton, briques, tuiles, ardoise, pierre, metaux ferreux/non ferreux, bois palette, platre, verre plat) et non matures (reprise gratuite maintenue : laines verre/roche, PSE, polyurethane, membranes bitumineuses, PVC complexe, bois traite classes 3-4) ; cout global 900 vers 450 M EUR/an a horizon 2028 ; 18 regions pilotes pour le maillage departemental (objectif couverture complete 2029, point de reprise a moins de 20 km) ; 9 mois de visibilite sur les baremes ; consultation publique jusqu au 19/05/2026, decret attendu au JO fin juillet 2026. Source: smartbtp.ai (verifie 2026-08-30, tier ✦)"
+    },
+    {
+      "date": "2026-08-30",
+      "epi": "FACT",
+      "families": [
+        "A",
+        "C"
+      ],
+      "id": "FCT-003",
+      "mem": "32ca3025-c51f-4bbc-a0fb-7d1c515ca7b4",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-003",
+        "SRC-001"
+      ],
+      "subject": "Contrepoint filiere DEA (mobilier) : soutien forfaitaire a la collecte en decheterie revu a la HAUSSE de 22% (cahier des charges 2024-2029), objectifs de collecte 48% en 2026 et 51% en 2028 — la REP mobilier monte quand la REP PMCB baisse",
+      "tier": "✦",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/elements-dameublement-dea",
+      "value": "Ministere Transition ecologique, page DEA mise a jour 20/07/2026 INSPECTED : le cahier des charges d agrement 2024-2029 des eco-organismes DEA revoit le barème de soutien aux collectivites a la hausse (+22% par rapport a l ancien cahier des charges, pour tenir compte de l inflation) ; objectifs de collecte 45% en 2024, 48% en 2026, 51% en 2028 ; fonds reparation cible 8 M EUR en 2028 ; objectif reemploi/reutilisation 120 000 t a l horizon 2030 ; eco-organismes Ecomaison (arrete 27/12/2023), Valdelia (21/12/2023), Valobat (21/12/2023), coordinateur OCABJ (arrete 08/04/2024). Source: ecologie.gouv.fr (verifie 2026-08-30, tier ✦)"
+    },
+    {
+      "date": "2026-08-30",
+      "epi": "FACT",
+      "families": [
+        "A",
+        "other:socle"
+      ],
+      "id": "FCT-004",
+      "mem": "5b037199-8348-4901-b11b-d8926a7d6783",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-005",
+        "SRC-001"
+      ],
+      "subject": "Projection captation par decheterie (EPCI temoin Redon 2024, socle certifie) : Citeo 1 000 062 EUR (298 EUR/t) domine largement, Valobat 1 363 t = 54 299 EUR (39,8 EUR/t pondere), Ecosystem 616 t = 71 063 EUR — Citeo reste le premier capteur du guichet decheterie",
+      "tier": "✦",
+      "url": "file:///home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_echantillon-national-rpqs-2024/2026-08-30_13-50_echantillon-national-rpqs-2024_RUN_STATE.json",
+      "value": "Projection basee sur le socle certifie passe 1350 (Redon Agglomeration 2024, RPQS) : soutiens ventiles par eco-organisme — Citeo 1 000 062 EUR (298 EUR/t, emballages+verre), Citeo papier 52 000 EUR, Citeo-EcoDDS-CYCLEVIA-Ecomobilier 217 888 EUR (+112%), Valobat 1 363 t = 54 299 EUR (39,8 EUR/t pondere), Ecosystem 616 t = 71 063 EUR. La structure de captation par decheterie est dominee par Citeo (emballages/verre), les eco-organismes PMCB (Valobat) restant marginaux en euros verses mais moteurs operationnels (platre, menuiseries). Source: RUN_STATE passe 1350 (verifie 2026-08-30, tier ✦)"
+    },
+    {
+      "date": "2026-08-30",
+      "epi": "FACT",
+      "families": [
+        "B",
+        "other:socle"
+      ],
+      "id": "FCT-005",
+      "mem": "83454824-a1fd-42d4-84b9-63c435b7ca34",
+      "origin_memory_id": "-",
+      "origin_run_id": "-",
+      "origin_verified_at": "-",
+      "sources": [
+        "SRC-007",
+        "SRC-002"
+      ],
+      "subject": "Nouvelles grilles 2026-2027 : Ecominero en EUR/t (0,40 a 13,43, inertes, 01/08/2026), Valdelia en EUR/kg (0,03 a 0,30, produits, 01/07/2026), Ecomaison par modulation recyclabilite, OCAB contrat-type unique — non-comparabilite structurelle euros/tonne vs euros/kg",
+      "tier": "✦",
+      "url": "file:///home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_bareme-pmcb-multi-ecoorg-ocab-2026/2026-08-30_17-57_bareme-pmcb-multi-ecoorg-ocab-2026_RUN_STATE.json",
+      "value": "Grille PMCB multi-eco-organismes (socle certifie passe 1757 + Smart BTP 2026) : Ecominero categorie 1 (inertes) facture en EUR/t — granulats 0,40, ardoise/pierre 1,26, terre cuite 1,35, ciment 10,26, ceramique 13,43, beton pret emploi 3,02 EUR/m3 — application 01/08/2026 ; Valdelia categorie 2 facture en EUR/kg — metal 0,09, bois 0,03-0,10, platre 0,05, menuiseries 0,14-0,17, autres 0,30 — application 01/07/2026 ; Ecomaison par modulation recyclabilite ; OCAB = SAS 4 eco-org (Ecomaison, Ecominero, Valdelia, Valobat) agrege 17/02/2023, contrat-type unique collectivites, guichet unique. Comparer ces grilles exige des conversions masse/unité : non-comparabilite structurelle. Source: RUN_STATE passe 1757 + smartbtp.ai (verifie 2026-08-30, tier ✦)"
+    }
+  ],
+  "hydrated": null,
+  "leads": [
+    {
+      "evidence_excerpt": "Socle certifié : Redon Valobat 1 363 t = 54 299 EUR ≈ 39,8 EUR/t pondéré (passe 1350) ; Nogent Valobat 14 928 EUR 2025 (passe 1726) ; barèmes 01/07/2026 Valobat/Ecomaison/Valdelia + 01/08/2026 Ecominero (passes 1740/1757) ; refondation matures 01/01/2027 + 2 EUR/t (passe 2030)",
+      "id": "LED-001",
+      "kind": "PROJECTION",
+      "lead": "La captation REP 2026-2027 par decheterie se rejoue : recalibrage 01/07-01/08/2026 (hausse barèmes) puis refondation PMCB 2027 (matures exfiltres au 01/01/2027, soutien forfaitaire 2 EUR/t) — la projection sur EPCI temoin chiffre la captation par site",
+      "locator": "memoires + annexes dossier fresque",
+      "materiality": "HIGH",
+      "routes": [
+        "memoires warm route",
+        "annexe eco-organismes REP",
+        "EPCI temoin",
+        "presse barèmes"
+      ],
+      "source_id": "-",
+      "status": "SATURATED"
+    }
+  ],
+  "memory_probe": {
+    "memory_id": "-",
+    "run_id": "-",
+    "status": "NONE"
+  },
+  "meta": {
+    "created_at": "2026-08-30T18:50:18.603640+00:00",
+    "updated_at": "2026-08-30T19:00:49.742856+00:00"
+  },
+  "persistence": {
+    "attempt_history": [
+      {
+        "created_at": "2026-08-30T18:58:04.806990+00:00",
+        "fact_mem": {
+          "FCT-001": "ee5564ee-7ba0-42a2-b7c4-2f24bd4301f4",
+          "FCT-002": "218fe0ae-6dac-4e26-9fdd-0d10ebdd3326",
+          "FCT-003": "32ca3025-c51f-4bbc-a0fb-7d1c515ca7b4",
+          "FCT-004": "5b037199-8348-4901-b11b-d8926a7d6783",
+          "FCT-005": "83454824-a1fd-42d4-84b9-63c435b7ca34"
+        },
+        "mnemo_row": "MNEMO_MCP_8002",
+        "result": "PASS",
+        "seq": 1,
+        "writeback_execution": [
+          {
+            "action": "ELIGIBLE:CONFIRME",
+            "attempted": 1,
+            "blocked": 0,
+            "failure": 0,
+            "fct": "FCT-001",
+            "reason": "write_memory reference MCP 8002",
+            "success": 1
+          },
+          {
+            "action": "ELIGIBLE:CONFIRME",
+            "attempted": 1,
+            "blocked": 0,
+            "failure": 0,
+            "fct": "FCT-002",
+            "reason": "write_memory reference MCP 8002",
+            "success": 1
+          },
+          {
+            "action": "ELIGIBLE:CONFIRME",
+            "attempted": 1,
+            "blocked": 0,
+            "failure": 0,
+            "fct": "FCT-003",
+            "reason": "write_memory reference MCP 8002",
+            "success": 1
+          },
+          {
+            "action": "ELIGIBLE:CONFIRME",
+            "attempted": 1,
+            "blocked": 0,
+            "failure": 0,
+            "fct": "FCT-004",
+            "reason": "write_memory reference MCP 8002",
+            "success": 1
+          },
+          {
+            "action": "ELIGIBLE:CONFIRME",
+            "attempted": 1,
+            "blocked": 0,
+            "failure": 0,
+            "fct": "FCT-005",
+            "reason": "write_memory reference MCP 8002",
+            "success": 1
+          }
+        ],
+        "writeback_row": {
+          "attempted": 5,
+          "blocked": 0,
+          "eligible": 5,
+          "failure": 0,
+          "success": 5
+        }
+      }
+    ],
+    "mnemo_row": "MNEMO_MCP_8002",
+    "self_write_row": "PENDING_AT_SERIALIZATION",
+    "writeback_execution": [
+      {
+        "action": "ELIGIBLE:CONFIRME",
+        "attempted": 1,
+        "blocked": 0,
+        "failure": 0,
+        "fct": "FCT-001",
+        "reason": "write_memory reference MCP 8002",
+        "success": 1
+      },
+      {
+        "action": "ELIGIBLE:CONFIRME",
+        "attempted": 1,
+        "blocked": 0,
+        "failure": 0,
+        "fct": "FCT-002",
+        "reason": "write_memory reference MCP 8002",
+        "success": 1
+      },
+      {
+        "action": "ELIGIBLE:CONFIRME",
+        "attempted": 1,
+        "blocked": 0,
+        "failure": 0,
+        "fct": "FCT-003",
+        "reason": "write_memory reference MCP 8002",
+        "success": 1
+      },
+      {
+        "action": "ELIGIBLE:CONFIRME",
+        "attempted": 1,
+        "blocked": 0,
+        "failure": 0,
+        "fct": "FCT-004",
+        "reason": "write_memory reference MCP 8002",
+        "success": 1
+      },
+      {
+        "action": "ELIGIBLE:CONFIRME",
+        "attempted": 1,
+        "blocked": 0,
+        "failure": 0,
+        "fct": "FCT-005",
+        "reason": "write_memory reference MCP 8002",
+        "success": 1
+      }
+    ],
+    "writeback_row": {
+      "attempted": 5,
+      "blocked": 0,
+      "eligible": 5,
+      "failure": 0,
+      "success": 5
+    }
+  },
+  "refutations": [
+    {
+      "fct": "FCT-001",
+      "qry": "QRY-008",
+      "status": "NONE"
+    },
+    {
+      "fct": "FCT-002",
+      "qry": "QRY-009",
+      "status": "NONE"
+    },
+    {
+      "fct": "FCT-003",
+      "qry": "QRY-010",
+      "status": "NONE"
+    },
+    {
+      "fct": "FCT-004",
+      "qry": "QRY-011",
+      "status": "NONE"
+    },
+    {
+      "fct": "FCT-005",
+      "qry": "QRY-012",
+      "status": "NONE"
+    }
+  ],
+  "requests": [
+    {
+      "id": "QRY-001",
+      "mode": "FETCH",
+      "query": "FETCH Decideurs Immo : 42 Mt/an, 75% inertes 23% non inertes 2% dangereux, inertes 30% valorises (Ecominero 9,8 Mt 2024 92% recyclage), depots sauvages 340-420 M€/an, cout 1,3 Md vers 390 M€, refondation 19/02/2026, 6 385 points de collecte dont ~1000 7 flux",
+      "result": "FOUND",
+      "source": "SRC-001",
+      "url": "https://www.decideurs-immo.com/paroles-d-experts/64937-la-filiere-rep-pmcb-du-dispositif-fondateur-a-la-refondation-de-2027.html"
+    },
+    {
+      "id": "QRY-002",
+      "mode": "FETCH",
+      "query": "FETCH Smart BTP : calendrier 3 etapes (19/05 consultation, 01/09/2026 entree partielle reprise payante matures, 2027 plein regime regions), 450 M€ vs 900 M€ 2028, 18 regions pilotes, 9 mois visibilite, listes matures (beton brique tuile ardoise pierre metaux bois palette platre verre plat) vs non matures (laines PSE PU membranes PVC bois traite)",
+      "result": "FOUND",
+      "source": "SRC-002",
+      "url": "https://www.smartbtp.ai/rep-pmcb-refonte-2026-2027-dechets-btp"
+    },
+    {
+      "id": "QRY-003",
+      "mode": "FETCH",
+      "query": "FETCH ministere DEA : soutien forfaitaire collecte revu a la hausse +22% (nouveau cahier des charges 2024-2029), objectifs collecte 45% 2024 48% 2026 51% 2028, Ecomaison/Valdelia/Valobat agrements + OCABJ coordonnateur 08/04/2024, fonds reparation cible 8 M€ 2028, reemploi 120 000 t 2030",
+      "result": "FOUND",
+      "source": "SRC-003",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/elements-dameublement-dea"
+    },
+    {
+      "id": "QRY-004",
+      "mode": "FETCH",
+      "query": "FETCH ADEME filieres-REP PMCB : cadre filiere, enjeux tri source decret 7 flux, donnees de la fiche (volumes, eco-orgs)",
+      "result": "FOUND",
+      "source": "SRC-004",
+      "url": "https://filieres-rep.ademe.fr/filieres-REP/filiere-PMCB"
+    },
+    {
+      "id": "QRY-005",
+      "mode": "FETCH",
+      "query": "FETCH socle passe 1350 : Redon Citeo 1 000 062 EUR 298 EUR/t, Citeo papier 52 000, Citeo-EcoDDS-CYCLEVIA-Ecomobilier 217 888, Valobat 1 363 t 54 299 EUR 39,8 EUR/t, Ecosystem 616 t 71 063 EUR",
+      "result": "FOUND",
+      "source": "SRC-005",
+      "url": "file:///home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_echantillon-national-rpqs-2024/2026-08-30_13-50_echantillon-national-rpqs-2024_RUN_STATE.json"
+    },
+    {
+      "id": "QRY-006",
+      "mode": "FETCH",
+      "query": "FETCH socle passe 1726 : Nogent Valobat 14 928 EUR 2025, Citeo 620 471, Ecomaison 16 508, Refashion 22 685, EcoDDS 8 990, Ecologic 1 950, total soutiens eco-org 687 646 EUR",
+      "result": "FOUND",
+      "source": "SRC-006",
+      "url": "file:///home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_montants-valobat-reels-percus-2025/2026-08-30_17-26_montants-valobat-reels-percus-2025_RUN_STATE.json"
+    },
+    {
+      "id": "QRY-007",
+      "mode": "FETCH",
+      "query": "FETCH socle passe 1757 : Ecominero EUR/t 0,40-13,43 (01/08/2026), Valdelia EUR/kg 0,03-0,30 (01/07/2026), Ecomaison modulation recyclabilite, OCAB SAS 4 eco-org agrege 17/02/2023 contrat-type unique",
+      "result": "FOUND",
+      "source": "SRC-007",
+      "url": "file:///home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_bareme-pmcb-multi-ecoorg-ocab-2026/2026-08-30_17-57_bareme-pmcb-multi-ecoorg-ocab-2026_RUN_STATE.json"
+    },
+    {
+      "id": "QRY-008",
+      "mode": "EXA",
+      "query": "REFUTATION 42 75 23 2 30 340 420 1300 390 : une preuve que les volumes PMCB (42 Mt/an) ou la repartition (75% inertes, 23% non inertes, 2% dangereux) ou le cout des depots sauvages (340-420 M EUR) ou la trajectoire du cout metteurs (1300 vers 390 M EUR) seraient differents",
+      "result": "NONE",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-009",
+      "mode": "EXA",
+      "query": "REFUTATION 19 05 2026 01 09 2026 2027 2028 900 450 18 9 3 : une preuve que le calendrier (consultation 19/05/2026, entree 01/09/2026, plein regime 2027) ou le cout (900 vers 450 M EUR 2028) ou le nombre de regions pilotes (18) ou la visibilite (9 mois) seraient differents",
+      "result": "NONE",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-010",
+      "mode": "EXA",
+      "query": "REFUTATION 22 2024 2029 48 2026 51 2028 : une preuve que le soutien forfaitaire DEA n aurait pas augmente de 22% ou que les objectifs de collecte (48% 2026, 51% 2028) seraient differents",
+      "result": "NONE",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-011",
+      "mode": "EXA",
+      "query": "REFUTATION 1 000 062 298 1 363 54 299 39 8 616 71 063 2024 : une preuve que la structure de captation Redon 2024 (Citeo 1 000 062 EUR, Valobat 54 299 EUR, Ecosystem 71 063 EUR) serait differente ou que Citeo ne dominerait pas le guichet decheterie",
+      "result": "NONE",
+      "source": "-",
+      "url": "-"
+    },
+    {
+      "id": "QRY-012",
+      "mode": "EXA",
+      "query": "REFUTATION 0 40 13 43 01 08 2026 0 03 0 30 01 07 2026 2027 : une preuve que les grilles Ecominero (0,40 a 13,43 EUR/t) ou Valdelia (0,03 a 0,30 EUR/kg) ou leurs dates (01/08/2026, 01/07/2026) seraient differentes, ou que les grilles seraient comparables sans conversion",
+      "result": "NONE",
+      "source": "-",
+      "url": "-"
+    }
+  ],
+  "run": {
+    "as_of": "2026-08-30",
+    "certification_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-captation-rep-2026-2027/2026-08-30_21-00_audit-captation-rep-2026-2027_CERTIFICATION.json",
+    "checkpoint_seq": 7,
+    "complexity": "COMPLEX",
+    "complexity_score": "8",
+    "degraded_flags": [],
+    "input_kind": "UPDATE",
+    "input_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-captation-rep-2026-2027/2026-08-30_21-00_audit-captation-rep-2026-2027_INPUT.txt",
+    "input_ref": "PATH:/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-captation-rep-2026-2027/2026-08-30_21-00_audit-captation-rep-2026-2027_INPUT.txt",
+    "input_sha256": "sha256:a0b4816cf7d29d96ebbc75b58810c405f734f3eec3f0480bf25d3980e72c013f",
+    "investigation_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-captation-rep-2026-2027/2026-08-30_21-00_audit-captation-rep-2026-2027_INVESTIGATION.md",
+    "last_completed": "18b",
+    "loaded_modules": [
+      "definitions/SYMBOLS.md",
+      "definitions/PATTERNS.md",
+      "definitions/THREATS.md",
+      "forensic/GATES.md",
+      "forensic/REQUEST_LOG.md"
+    ],
+    "mission_mode": "INVESTIGATION",
+    "narrative_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-captation-rep-2026-2027/2026-08-30_21-00_audit-captation-rep-2026-2027_NARRATIVE.tmp.md",
+    "next_action": "NONE",
+    "original_input_ref": "PATH:/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-captation-rep-2026-2027/2026-08-30_21-00_audit-captation-rep-2026-2027_INPUT.txt",
+    "parent_run_id": "20260830-2045-audit-demographie-parc-fermetures",
+    "resume_count": 0,
+    "route_overrides": [],
+    "run_dir": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-captation-rep-2026-2027",
+    "run_id": "20260830-2100-audit-captation-rep-2026-2027",
+    "scope": {
+      "actors_entities": [
+        "Citeo",
+        "Ecomaison",
+        "Valobat",
+        "Ecominero",
+        "Valdelia",
+        "EcoDDS",
+        "Ecologic",
+        "Refashion",
+        "OCAB",
+        "EPCI (Redon, Nogent-le-Rotrou)",
+        "ADEME"
+      ],
+      "domains": [
+        "REP",
+        "decheteries",
+        "eco-organismes",
+        "soutiens",
+        "captation",
+        "finances locales",
+        "barèmes"
+      ],
+      "geo": "France (EPCI temoins + projection nationale)",
+      "lead_question": "Combien chaque decheterie/EPCI capte-t-elle par eco-organisme avec les nouvelles grilles 2026-2027, et qui recoit l argent de la refondation PMCB ?",
+      "limits": "textes refondation 2027 non publies au 28/08/2026 ; barème Valobat 403 ; projection = extrapolation d un EPCI temoin, pas un recensement",
+      "object_question": "(1) projeter la captation 2026-2027 par decheterie (EPCI temoin a tonnages publics) ; (2) chiffrer l impact du recalibrage 01/07-01/08/2026 et de la refondation (matures 01/01/2027, 2 EUR/t) ; (3) identifier les flux qui changent au 01/09/2026 et 01/01/2027 ; (4) conclure sur la captation par site et le transfert de charge"
+    },
+    "snapshot_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-captation-rep-2026-2027/2026-08-30_21-00_audit-captation-rep-2026-2027_MNEMO_SNAPSHOT.json",
+    "state": "FINAL",
+    "state_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-captation-rep-2026-2027/2026-08-30_21-00_audit-captation-rep-2026-2027_RUN_STATE.json",
+    "subject_fingerprint": "sha256:6d01a0050682a63ec10cc379d09b314266dd04c6a5dde2121819c14491d344c0",
+    "subject_fingerprint_legacy_v1": "sha256:7ce81de1bc0da70f436f415df4853eef1ddbeaae2cde75874e6f1c7d4060f904",
+    "subject_slug": "audit-captation-rep-2026-2027"
+  },
+  "schema": 1,
+  "sections": {
+    "ACTOR_NETWORK_MAP": {
+      "actors": "metteurs sur le marche (FFB, CAPEB), ministere (Lefevre), 4 eco-org PMCB (Valobat, Ecominero, Ecomaison, Valdelia) + OCAB, Citeo (emballages), Ecomaison/Valdelia/Valobat (DEA) + OCABJ, collectivites (Amorce, Regions), ADEME"
+    },
+    "CAUSALITY_REGISTRY": "RUNTIME_DERIVED",
+    "CLAIM_REGISTRY": "RUNTIME_DERIVED",
+    "COGNITIVE_MAP": {
+      "map": "Objets : macro-economie PMCB (42 Mt, 75% inertes, depots sauvages 340-420 M EUR), calendrier 3 etapes, grilles multi-eco-org (Ecominero EUR/t, Valdelia EUR/kg), projection Redon (Citeo 1 000 062 EUR dominant), contrepoint DEA (+22%)"
+    },
+    "CONTRADICTION_LEDGER": {
+      "contradictions": "1) 390 M EUR (Decideurs) vs 450 M EUR (Smart BTP/Localtis) : divergence sur le cout cible 2028 ; 2) hausse des baremes 01/07-01/08/2026 vs baisse annoncee 2027 ; 3) 42 Mt affichees vs 15,3+5,8 Mt repris (actu-env snippet) ; 4) Citeo 298 EUR/t vs PMCB 20-75 EUR/t : echelle de captation inegale"
+    },
+    "CONTROL_MAP": "RUNTIME_DERIVED",
+    "CREDO": {
+      "axes": 1,
+      "lead": "la captation REP 2026-2027 par decheterie se recompose : Citeo domine, PMCB bascule (matures payants 01/09/2026, cout divise par 2-3), DEA monte (+22%) — le transfert de charge vers les collectivites est le resultat net",
+      "object": "(1) chiffrer la macro-economie PMCB 2027 ; (2) projeter la captation par decheterie (Redon temoin) ; (3) identifier les flux qui changent ; (4) conclure sur la captation et le transfert"
+    },
+    "DIALECTICAL_MAP": {
+      "arbitrage": "Ministere (refondation : matures exfiltres, cout divise par 2-3) vs collectivites/Amorce (reprise gratuite indispensable, risque depots sauvages) vs eco-orgs (Valobat soutient, Ecominero s adapte) — divergence 390 vs 450 M EUR selon les sources"
+    },
+    "EDI_REPORT": {
+      "edi": "Corpus : presse specialisee (Decideurs Immo, Smart BTP), source officielle (ecologie.gouv.fr DEA), ADEME, socle certifie local (5 passes argent)"
+    },
+    "GATE_STATUS_V1": {
+      "G0": "PASS",
+      "G1": "PASS",
+      "G10": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "PASS",
+      "G7": "PASS",
+      "G8": "PASS",
+      "G9": "PASS"
+    },
+    "IMPACT_MAP": {
+      "affected": "collectivites (charge des matures, soutiens PMCB en baisse), decheteries (guichet : Citeo dominant, PMCB marginal en euros), artisans TPE (reprise payante des matures), usagers (depots sauvages)",
+      "benefits": "eco-contributions divisees par 2-3 (450-390 M EUR), filieres non matures structurees, DEA soutenu (+22%)"
+    },
+    "INVESTIGATION_MAP": "RUNTIME_DERIVED",
+    "LEAD_REGISTRY": "RUNTIME_DERIVED",
+    "MANIPULATION_REPORT": {
+      "complexity": "COMPLEX (8)",
+      "implicit": "la refondation baisse les eco-contributions (1300 vers 390 M EUR ou 900 vers 450 selon sources) avant la fin de la reprise sans frais — la hausse des baremes 01/07-01/08/2026 precede la baisse 2027 ; transfert de charge vers les collectivites et les decheteries"
+    },
+    "NEXT_QUERIES": {
+      "next": "1) texte final decret/arrete (JO) et baremes officiels apres publication ; 2) divergence 390 vs 450 M EUR a trancher (source ADEME) ; 3) convention types 2027 publiees par les 4 eco-org + OCAB ; 4) impact chiffre par decheterie sur un 2e EPCI temoin"
+    },
+    "OPEN_GAPS": "RUNTIME_DERIVED",
+    "RESOURCE_FLOW_MAP": {
+      "flow": "Eco-contributions metteurs -> eco-orgs (1300 vers 390-450 M EUR) -> soutiens decheteries (Citeo dominant 298 EUR/t, PMCB 20-75 EUR/t, Valdelia EUR/kg) ; matures -> reprise payante 01/09/2026 -> charge collectivites ; depots sauvages 340-420 M EUR/an"
+    },
+    "RESPONSIBILITY_MAP": {
+      "responsability": "Etat (refondation, arbitrage matures) ; eco-orgs (baremes, recomposition) ; collectivites (charge residuelle des matures) ; le beneficiaire net (390 vs 450 M EUR d economie pour les metteurs) = les metteurs sur le marche, au detriment du service public"
+    },
+    "SCOPING_REPORT": {
+      "domains": "REP, PMCB, DEA, decheteries, soutiens, eco-organismes, finances",
+      "exclusions": "detail des conventions individuelles (hors perimetre)",
+      "geo": "France",
+      "limits": "textes 2027 non publies au 28/08/2026 ; divergence 390 vs 450 M EUR selon sources ; projection = extrapolation EPCI temoin"
+    },
+    "STATUS_DELTA": "RUNTIME_DERIVED",
+    "TEMPORAL_STATE": {
+      "temporal": "01/2023 : REP PMCB operationnelle ; 03/2025 : moratoire Pannier-Runacher ; 19/02/2026 : refondation Lefevre ; 19/05/2026 : fin consultation ; 01/07/2026 : hausse baremes Valobat/Ecomaison/Valdelia ; 01/08/2026 : Ecominero ; 01/09/2026 : entree partielle (matures payants) ; 2027 : plein regime regional ; 2028 : cout 450 M EUR ; 2029 : couverture complete"
+    },
+    "TRACE_MATRIX": "RUNTIME_DERIVED",
+    "VERIFICATION_REPORT": {
+      "verification": "Sources INSPECTED par FETCH : Decideurs Immo 20/07/2026, Smart BTP 13/05/2026, ministere DEA (MAJ 20/07/2026), ADEME filieres-REP ; socle certifie passes 1350/1726/1757 (RUN_STATE locaux) ; 5 FCT tier ✦ refutation NONE"
+    }
+  },
+  "sources": [
+    {
+      "family": "A",
+      "id": "SRC-001",
+      "role": "◈",
+      "title": "Decideurs Immo 20/07/2026 (F. Gasmi) : 42 Mt/an batiment, inertes 30% valorises, depots sauvages 340-420 M€/an, cout metteurs 1,3 Md vers 390 M€, refondation 19/02/2026 (INSPECTED)",
+      "url": "https://www.decideurs-immo.com/paroles-d-experts/64937-la-filiere-rep-pmcb-du-dispositif-fondateur-a-la-refondation-de-2027.html"
+    },
+    {
+      "family": "B",
+      "id": "SRC-002",
+      "role": "◈",
+      "title": "Smart BTP 13/05/2026 : calendrier 3 etapes (01/09/2026 entree partielle, 2027 plein regime), 450 M€ vs 900 M€, listes matures vs non matures, 18 regions pilotes (INSPECTED)",
+      "url": "https://www.smartbtp.ai/rep-pmcb-refonte-2026-2027-dechets-btp"
+    },
+    {
+      "family": "C",
+      "id": "SRC-003",
+      "role": "◈",
+      "title": "Ministere DEA (MAJ 20/07/2026) : soutien forfaitaire collecte DEA revu a la hausse +22%, objectifs collecte 48% en 2026 (INSPECTED)",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/elements-dameublement-dea"
+    },
+    {
+      "family": "D",
+      "id": "SRC-004",
+      "role": "◈",
+      "title": "ADEME filieres-REP : fiche filiere PMCB (42 Mt, 4 eco-org + OCAB, 22 Mt collectees ?) (INSPECTED page ADEME)",
+      "url": "https://filieres-rep.ademe.fr/filieres-REP/filiere-PMCB"
+    },
+    {
+      "family": "other:socle",
+      "id": "SRC-005",
+      "role": "◈",
+      "title": "Socle certifie passe 1350 : Redon Citeo 1 000 062 EUR (298 EUR/t), Valobat 1 363 t = 54 299 EUR (39,8 EUR/t), Ecosystem 616 t = 71 063 EUR (INSPECTED passe)",
+      "url": "file:///home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_echantillon-national-rpqs-2024/2026-08-30_13-50_echantillon-national-rpqs-2024_RUN_STATE.json"
+    },
+    {
+      "family": "other:socle",
+      "id": "SRC-006",
+      "role": "◈",
+      "title": "Socle certifie passe 1726 : Nogent-le-Rotrou Valobat 14 928 EUR 2025, Citeo 620 471 EUR (INSPECTED passe)",
+      "url": "file:///home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_montants-valobat-reels-percus-2025/2026-08-30_17-26_montants-valobat-reels-percus-2025_RUN_STATE.json"
+    },
+    {
+      "family": "other:socle",
+      "id": "SRC-007",
+      "role": "◈",
+      "title": "Socle certifie passe 1757 : grille PMCB multi-eco-org (Ecominero EUR/t 0,40-13,43, Valdelia EUR/kg 0,03-0,30, OCAB contrat-type unique) (INSPECTED passe)",
+      "url": "file:///home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_bareme-pmcb-multi-ecoorg-ocab-2026/2026-08-30_17-57_bareme-pmcb-multi-ecoorg-ocab-2026_RUN_STATE.json"
+    }
+  ],
+  "stamps": {
+    "DELIVERY_PASS": "2026-08-30T19:00:49.679747+00:00",
+    "FINAL_RENDERED": "2026-08-30T19:00:49.742845+00:00",
+    "RESEARCH_DONE": "2026-08-30T18:53:29.423000+00:00",
+    "START": "2026-08-30T18:50:18.603630+00:00"
+  },
+  "sys_log": [
+    {
+      "call": "MNEMO_Q",
+      "id": "SYS-001",
+      "mode": "SYS",
+      "ref": "-",
+      "result": "FOUND: warm-route mems f3109127 (barème Valobat 2026 recalibrage 01/07), 70c46fc4 (grille PMCB multi-eco-org), b6dea4f9 (refondation matures 01/01/2027), 0f3eee52 (Nogent Valobat 14 928 EUR) + annexe eco-organismes passes 1740/1757/1350/1726",
+      "tool": "mnemolite:search_memory"
+    },
+    {
+      "call": "MEMORY_PROBE",
+      "id": "SYS-002",
+      "mode": "SYS",
+      "ref": "-",
+      "result": "NONE",
+      "tool": "runtime"
+    },
+    {
+      "call": "ALWAYS_LOAD: definitions/SYMBOLS.md, definitions/PATTERNS.md, definitions/THREATS.md, forensic/GATES.md, forensic/REQUEST_LOG.md",
+      "id": "SYS-003",
+      "mode": "SYS",
+      "ref": "-",
+      "result": "PASS",
+      "tool": "runtime:load"
+    },
+    {
+      "call": "PERSIST_REBIND",
+      "id": "SYS-004",
+      "mode": "SYS",
+      "ref": "ATTEMPT-001",
+      "result": "PASS",
+      "tool": "runtime"
+    }
+  ]
+}

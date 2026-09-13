@@ -1,0 +1,20 @@
+[
+  {
+    "epi": "FACT",
+    "tier": "✧",
+    "url": "https://www.cc-sud-territoire.fr/ged/rapport-d-activit---2024.pdf",
+    "sources": ["SRC-001"],
+    "date": "2025",
+    "subject": "CCST Sud Territoire 2024 2 dechetteries 8171 tonnes soutiens eco-organismes 604723,61 euros Citeo 38474,76 Citeo papier 24240,76 Ecomobilier 21144,88 520863,21",
+    "value": "CCST Sud Territoire (90, 23 560 hab) rapport activite 2024 : 2 dechetteries (Fêche-l'Eglise, Grandvillars) ; tonnages 2024 par materiau : verts 3 284 t, encombrants 1 746 t, gravats 1 307 t, bois 793 t, ferraille 357 t, cartons 278 t, platre 153 t, huisseries 62 t, acier 72 t, pneus 81 t, aluminium 21 t, DDS 13 t, batteries 4 t = total 8 171 t (+10 % vs 2023, verts +22 %) ; soutiens eco-organismes 604 723,61 € (-3,4 % vs 2023 = -20 585,39 €) : Citeo 38 474,76 € + Citeo papier 24 240,76 € + Ecomobilier 21 144,88 € + gros poste 520 863,21 € (poste principal, non identifie) ; ratio 74 €/t ; ventes materiaux 100 896 € (+10 361 €)"
+  },
+  {
+    "epi": "FACT",
+    "tier": "✧",
+    "url": "https://www.redon-agglomeration.bzh/sites/default/files/2026-03/rapport_annuel_2024_vf.pdf",
+    "sources": ["SRC-002"],
+    "date": "2026-03",
+    "subject": "Redon Agglomeration 2024 soutiens Citeo 1000062 euros 298 euro tonne Citeo papier 52000 Citeo 37939 Citeo EcoDDS CYCLEVIA Ecomobilier 217888 Ecosystem D3E 616 tonnes 71063 euros Valobat multimat 1363 tonnes 54299 euros EcoDDS 97 tonnes 7865 CYCLEVIA 1800 REP PMCB 439 tonnes",
+    "value": "Redon Agglomeration (35) rapport annuel 2024 : soutiens eco-organismes ventiles — Citeo 1 000 062 € (9,6 % recettes, 16,73 €/hab, 298 €/t) ; Citeo papier 52 000 € (-20 %) ; Citeo 37 939 € ; Citeo-EcoDDS-CYCLEVIA-Ecomobilier 217 888 € (+112,2 %, 3,64 €/hab, 12,02 €/t) ; Ecosystem D3E 616 t = 71 063 € ; Valobat multimateriaux 1 363 t = 54 299 € ; EcoDDS 97 t = 7 865 € ; CYCLEVIA huile 32 t = 1 800 € ; REP PMCB 439 t (au 01/10/24) avec economie estimee 39 502 € + recettes 17 305 € ; 147 520 passages decheteries (-16 %) ; dechets en decheteries = 57 % du tonnage total 31 750 t ; non valorisables enfouis 3 613 t ; TGAP 234 479 €"
+  }
+]

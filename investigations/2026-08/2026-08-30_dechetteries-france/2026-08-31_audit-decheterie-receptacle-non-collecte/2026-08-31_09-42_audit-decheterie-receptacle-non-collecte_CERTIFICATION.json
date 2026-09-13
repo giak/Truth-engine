@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:a9f63438a8a9e6f6e14290d4a25877ae4e68018c5c5928efbed35594c7006a97",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-31_audit-decheterie-receptacle-non-collecte/2026-08-31_09-42_audit-decheterie-receptacle-non-collecte_INVESTIGATION.md",
+  "deliverable_sha256": "16c824535fa191a4e654b3d6de237e0b182978c6fc67974537fed17320ec16dc",
+  "created_at": "2026-08-31T07:47:49.863226+00:00"
+}

@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "deterministic": "PASS",
+  "kernel_contract": "delivery",
+  "deliverable": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_baremes-rep-decheteries/2026-08-30_14-16_baremes-rep-decheteries_INVESTIGATION.md",
+  "deliverable_sha256": "18a2ade32de3e6d946f49ce3441638b217460566f5836f1cb7cc53ecf945da43",
+  "state_id": "sha256:9114959578c2cee6530ee77d30c501feede8ef6deecd9340715c61588fd344d4"
+}

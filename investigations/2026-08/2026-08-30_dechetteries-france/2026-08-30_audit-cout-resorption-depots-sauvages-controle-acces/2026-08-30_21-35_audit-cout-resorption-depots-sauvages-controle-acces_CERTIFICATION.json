@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "deterministic": "PASS",
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_audit-cout-resorption-depots-sauvages-controle-acces/2026-08-30_21-35_audit-cout-resorption-depots-sauvages-controle-acces_INVESTIGATION.md",
+  "deliverable_sha256": "c612434bd16cfe55944009347692a3f59d893861c9663c5319284afb6e5c618c",
+  "state_id": "sha256:98451ef71680c44fcb6c8bb1061ceff0251b5be1613ee2fa86a0b556e6d3dde7"
+}

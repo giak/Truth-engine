@@ -1,0 +1,8 @@
+Axe B — « La bataille de la refondation REP PMCB 2027 » : agréments, scénarios, perdants/gagnants, sortie des matériaux matures.
+
+Contexte (mémoires warm route) : b6dea4f9 (FCT-004 axe A : suppression reprise gratuite déchets matures au 01/01/2027, annonce Lefèvre 2026, AMF/Intercommunalités/Régions + Capeb réclament fonds dépôts sauvages 10 m³) ; 749c6591 (barème Valobat 2026 + recalibrage 01/07/2026) ; 20b2f3fe (Valobat agréé 2023, filière ouverte déchèteries) ; passes 1558/1726/1740/1757 (barème PMCB déchiffré, montants réels perçus, recalibrage, grille multi-éco-orgs + OCAB).
+
+Objectif : (1) documenter les TEXTES de la refondation 2027 (projets de décret/arrêté, consultations publiques, agréments) ; (2) cartographier les SCÉNARIOS en conflit (gouvernemental vs parlementaire — 3 députés, rapport AN n°2521) et leurs partisans ; (3) identifier les PERDANTS/GAGNANTS (collectivités, artisans, éco-orgs, OCAB) ; (4) préciser la SORTIE des matériaux matures (métal, bois, plâtre, inertes) : calendrier exact, volumes, compensation éventuelle (soutien forfaitaire 2 €/t ?).
+
+- INPUT_KIND=UPDATE, MISSION_MODE=INVESTIGATION, parent=20260830-2015-audit-exclusion-pros-decheteries-2026.
+- Discriminant : identifier les intérêts (qui défend quoi, cui bono) ; distinguer annonces politiques vs textes publiés ; vérifier les montants (éco-contribution, soutiens).

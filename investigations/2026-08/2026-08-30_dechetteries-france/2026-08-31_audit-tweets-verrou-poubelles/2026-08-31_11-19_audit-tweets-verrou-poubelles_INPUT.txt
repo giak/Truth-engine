@@ -1,0 +1,17 @@
+Audit KERNEL (passe courte, MEDIUM) : vérifier les 5 signaux sociaux (tweets T5) soumis par l'utilisateur comme illustrations de l'article déchèteries. Chaque tweet est un LEAD, pas une preuve : trouver la source primaire/officielle (EPCI, mairie, presse locale, document) derrière chaque phénomène, ou documenter le GAP.
+
+LEAD 1 (tweet Sarah HRakM4, 17/07/2025, 150k vues) : poubelles à PASS en Vendée — coût 700 000 €, habitants 197 €/an, touristes QR code 2 €/pièce, dépôts autour des bacs. Identifier l'EPCI (probablement un PAV à badge + REOMi), les délibérations/rapports, et la réalité des dépôts.
+
+LEAD 2 (tweet Wolf/PsyGuy007, 29/12/2025, 18,7k vues) : dépôt sauvage massif « océan de plastique » cité des Rosiers à Marseille (11e/12e arr.). Croiser presse locale (La Provence, Marsactu), mairie de secteur, l'assainissement AMP.
+
+LEAD 3 (tweet TonyPittaro, 18/06/2026, 12,3k vues) : Paris « dans cet état », maire @egregoire (Emmanuel Grégoire), « vit dans une déchèterie ». Contexte électoral 2026, propreté parisienne, chiffres de la propreté.
+
+LEAD 4 (tweet Wolf/PsyGuy007, 06/03/2026, 15,7k vues) : déchèterie Porte de Pantin (Paris), homme « racketté » pour déposer, volume trop important. Identifier le site réel (déchèterie professionnelle ? limite de volume payante ?) et les tarifs.
+
+LEAD 5 (tweet Jon De Lorraine, 05/02/2025, 66,6k vues) : « police des poubelles », avec nos impôts. Identifier quelle collectivité a créé une brigade de contrôle des déchets (2024-2025), sa base légale, ses effectifs.
+
+OBJECT_QUESTION : les phénomènes décrits par les 5 tweets correspondent-ils à des faits documentés (sources primaires/officielles/presse locale), ou relèvent-ils de la rumeur non vérifiable ?
+
+DIMENSIONS : (1) source primaire par lead ; (2) cohérence avec les passes déjà certifiées (contrôle d'accès 65,9 %, quotas, dépôts sauvages 340-420 M€, exclusion numérique) ; (3) séparation fait vérifié / signal non confirmé.
+
+SORTIE : 5 verdicts de lead (CONFIRMÉ/SUPPORTÉ/OPEN/GAP) + faits ancrés + lien avec la fresque.

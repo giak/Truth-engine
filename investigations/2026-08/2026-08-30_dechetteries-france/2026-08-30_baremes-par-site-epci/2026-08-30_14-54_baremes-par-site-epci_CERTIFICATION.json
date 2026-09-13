@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "deterministic": "PASS",
+  "kernel_contract": "delivery",
+  "deliverable": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_baremes-par-site-epci/2026-08-30_14-54_baremes-par-site-epci_INVESTIGATION.md",
+  "deliverable_sha256": "a0e9f6fc87bed00712f5568418f723a99b490ff47a536a8f3276a7d4b72a868a",
+  "state_id": "sha256:f527cda14586c4418761ee597537909f21c943d3b1f3787a21a103e3f198353f"
+}

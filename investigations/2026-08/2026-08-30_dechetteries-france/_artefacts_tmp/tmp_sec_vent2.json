@@ -1,0 +1,29 @@
+{
+  "ACTOR_NETWORK_MAP": {
+    "acteurs": "Citeo (emballages, dominant), Ecomaison (mobilier), Ecologic (D3E), EcoDDS (DDS), collectivite Emeraude (exploitant)",
+    "roles": "eco-org versent des soutiens contractuels par tonne/forfait ; Citeo detient la prevision 2,4 M€ emballages 2025 ; les rattachements Ecomaison/Ecologic montrent le circuit de paiement en fin d'exercice"
+  },
+  "IMPACT_MAP": {
+    "recettes": "soutiens eco-org + rachats 4 810 483,50 € = 12,16 % vs TEOM 85 % : le contribuable local reste le premier financeur",
+    "concentration": "Citeo 4,5-4,7 M€ ≈ 94-98 % des soutiens ; Ecomaison 112 529,90 € ≈ 2,3 % ; Ecologic 5 248,43 € ≈ 0,1 %",
+    "dependance": "prevision 2025 Citeo 2,4 M€ seule filiere emballages : la valeur contractuelle est concentree"
+  },
+  "RESPONSIBILITY_MAP": {
+    "responsabilite": "producteurs via REP (emballages Citeo, mobilier Ecomaison, D3E Ecologic)",
+    "asymetrie": "les baremes sont fixes unilateralement par les eco-org (contrats-types) ; la collectivite execute et supporte 85 % de la charge via TEOM",
+    "charge_effective": "usager final (TEOM) + collectivite (investissement/exploitation)"
+  },
+  "CONTRADICTION_LEDGER": [
+    {
+      "fact": "le CA consolide 4 810 483,50 € sans detail Citeo",
+      "status": "OPEN",
+      "cause": "titres de recette emis non publies dans le PDF du CA",
+      "discriminant": "DOB 2026 ou etats des titres de recette"
+    }
+  ],
+  "VERIFICATION_REPORT": {
+    "ca_2024": "PDF deliberation 10/06/2025 inspecte (35 pages) : total soutiens + rachats 4 810 483,50 €, TEOM 33 619 550 €, rattachements Ecomaison 112 529,90 € + Ecologic 5 248,43 €",
+    "pv_2025": "PV CS 10/02/2025 : recettes eco-org realisees 138,8 %, +897 k€ Citeo, +75 k€ Ecomaison, +58 k€ Plan Boost",
+    "dob_2025": "DOB 2025 : prevision Citeo emballages 2 400 000 €, petits alus 700 €/t (Citeo 400 + CEELA 300), ambassadeurs 10 k€"
+  }
+}

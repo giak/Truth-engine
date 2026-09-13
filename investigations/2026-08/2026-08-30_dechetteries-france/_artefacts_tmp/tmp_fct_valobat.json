@@ -1,0 +1,42 @@
+[
+  {
+    "epi": "Barème de soutiens REP PMCB - contrat type Valobat - CC Dombes (délibération 24-198 du 22/07/2024, annexe 2)",
+    "tier": "T1",
+    "url": "https://www.ccdombes.fr/wp-content/uploads/2024/07/DELIB-24-198.pdf",
+    "sources": ["SRC-001"],
+    "date": "2024-07-22",
+    "subject": "baremes-pmcb-soutien-territorial",
+    "value": "Le contrat type REP PMCB (annexe 2 aux CG, 71 p.) prévoit : forfaits déchèterie (A1 2000€/site, A2 2700€/site, A3 1350€/2700€ selon collecte séparée qualifiée, A5 375€/déch., A6 200€, A7 2700€, A8 400€/an DDS) ; soutiens variables de coûts par flux tri à la source (20€/t collecte séparée, 12€/t transport, bois 50€/t, 30€/t verre-métal-plastique-plâtre isolants, 75€/t traitement, verre 0€/t collecte mélange, métal selon indice cotation ; améliore par révision indicielle) ; D1 amiante lié SPGD 500€/t ; E1 communication 5 ct€/hab/an.",
+    "mem": "-"
+  },
+  {
+    "epi": "Tonnages PMCB par déchèterie - RPQS 2024 SMICTOM des Flandres (annexe délib 2025D195)",
+    "tier": "T1",
+    "url": "https://www.cc-flandrelys.fr/images/EXTRANET_2020-2026/Conseil_communautaire/2025/20251014/publications/2025D195_-_Annexe_SMICTOM_-_RPQS_2024-tampon.pdf",
+    "sources": ["SRC-003"],
+    "date": "2025-10-14",
+    "subject": "pmcb-tonnages-flandre-lys",
+    "value": "Le RPQS 2024 du SMICTOM des Flandres détaille les tonnages PMCB (matériaux du bâtiment) contractés au passage par déchèterie, contrat REP PMCB pris d'effet au 01/01/2024 : 475 t de matériaux du bâtiment collectés, avec suivi par flux (plâtre, menuiseries vitrées, laines) par site de déchèterie.",
+    "mem": "-"
+  },
+  {
+    "epi": "Rapport annuel 2024 SICED - référent PMCB Valobat (graphiques officiels)",
+    "tier": "T1",
+    "url": "https://trophees.idealco.fr/wp-content/uploads/2025/06/87868919fcde-Rapport_annuel_SICED_2024_graphiques.pdf",
+    "sources": ["SRC-002"],
+    "date": "2025-06-01",
+    "subject": "siced-2024-valobat-pmcb",
+    "value": "Le RAA 2024 du SICED (syndicat de traitement des déchets) référence Valobat comme éco-organisme agréé de la filière PMCB adossé au REÉR (référentiel) ; la filière PMCB est ouverte aux déchèteries depuis 2023 (agrément ADEME), avec soutiens versés sur déclaration des tonnages.",
+    "mem": "-"
+  },
+  {
+    "epi": "Cadre réglementaire filière PMCB - fiche officielle ADEME filières-REP",
+    "tier": "T2",
+    "url": "https://filieres-rep.ademe.fr/filieres-REP/filiere-PMCB",
+    "sources": ["SRC-004"],
+    "date": "2026-01-01",
+    "subject": "pmcb-cadre-reglementaire-ademe",
+    "value": "La fiche officielle ADEME (filières-REP) décrit le cadre de la filière PMCB : responsable(s) du service des déchets du bâtiment, 4 éco-organismes agréés (Ecomaison, Ecominero, Valdélia, Valobat) + OCAB (organismes coordonnateurs), entrée en vigueur progressive depuis 2023, gisement national ≈ 22 Mt de déchets de chantier par an.",
+    "mem": "-"
+  }
+]

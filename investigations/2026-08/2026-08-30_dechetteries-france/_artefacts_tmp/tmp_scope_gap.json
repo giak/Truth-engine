@@ -1,0 +1,10 @@
+{
+  "lead_question": "Les GAP de donnees identifies (SGC 2024 bloque 403, DRAGA sans ventilation, filiere decheterie PMCB non chiffree) sont-ils comblables par les documents publics recemment publies ?",
+  "object_question": "Combler 3 GAP : (1) SGC Seille et Grand Couronne RPQS 2024 (nouvelle URL trouvee) : tonnages decheterie, RI, charges par flux ; (2) SEROC 14 DOB 2025 : filiere decheterie 460 000 € dont PMCB, ventilation eco-org complete (Citeo 2,7 M€, liquidatif 652 000 €, EcoDDS 12 k€, Refashion 10 k€, ARCA 4 k€) ; (3) DRAGA : ventilation des soutiens via PV/CA",
+  "geo": "Meurthe-et-Moselle (54, SGC), Calvados (14, SEROC), Ardeche (07, DRAGA)",
+  "period": "2024-2025",
+  "domains": ["economie", "transparence_financiere", "gestion_dechets", "rep", "pmcb"],
+  "actors_entities": ["Citeo", "Ecomaison", "EcoDDS", "OCAD3E", "Refashion", "ARCA", "Ecominero", "Valobat", "SGC", "SEROC 14", "CC DRAGA"],
+  "exclusions": [],
+  "limits": ["PV DRAGA scanne (OCR long, gain marginal) : ventilation DRAGA documentee comme GAP persistant si non accessible", "SGC : donnees 2024 lues dans la presentation RPQS (pas le rapport complet)"]
+}

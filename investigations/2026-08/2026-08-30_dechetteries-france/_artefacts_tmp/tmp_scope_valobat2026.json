@@ -1,0 +1,15 @@
+{
+  "complexity": "HIGH",
+  "complexity_score": 8,
+  "loaded_modules": ["definitions/SYMBOLS.md","definitions/PATTERNS.md","definitions/THREATS.md","forensic/GATES.md","forensic/REQUEST_LOG.md"],
+  "scope": {
+    "actors_entities": ["Valobat", "ADEME", "FFB", "CAPEB", "Minco", "amorce", "filiere PMCB", "ocab", "collectivites"],
+    "domains": ["rep", "pmcb", "economie", "transparence_financiere", "reglementation"],
+    "exclusions": ["montants reels verses par decheterie (passe 1726)", "bareme 2024 deja documente (passe 1558)"],
+    "geo": "National France",
+    "lead_question": "Quels sont les barèmes Valobat (eco-contributions PMCB) appliqués au 01/07/2026, chiffrable hors du 403 valobat.fr, et quelles est l'ampleur du recalibrage ?",
+    "limits": ["valobat.fr/baremes-pmcb 403 anti-bot (page officielle illisible)", "ADEME filieres-REP donne cadre mais pas toujours cte €/t détaillée", "les barèmes PMCB changent au 01/07/2026 (recalibrage annonce FCT-003 passe 1344)"],
+    "object_question": "Reconstituer le barème Valobat 2026 (cts €/t par flux PMCB : boischenement, gravats/inertes, plâtre, bois, menuiseries vitrées, laines, métaux) via ADEME filieres-REP, FFB, Minco, presse pro ; et documenter l'impact du recalibrage 01/07/2026 (hausse/evolution, eco-modulation renforcee, bonus-malus).",
+    "period": "2025-2026 (barèmes en vigueur au 01/07/2026)"
+  }
+}

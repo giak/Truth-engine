@@ -1,0 +1,5 @@
+[
+  {"cause": "Le montant Valobat annuel reel est PUBLIE mais seulement dans les rares rapports qui ventillent les soutiens par eco-organisme (Nogent 14 928 EUR 2025) ; la plupart des EPCI consolident dans un total 'soutiens eco-organismes' ou Occulté le detail Valobat (Aubagne 11,1 M€, Sydem poste emergent)", "source": "FCT-001", "status": "SUPPORTED"},
+  {"cause": "Les EPCI qui ont signe tôt (Sydem 14/02/2024) ne chiffrent pas encore Valobat en anne N (filiere jeunee) ; ceux avec un platre/menuseries deployes (Nogent) montrent une valeur reelle positive — la captation Valobat croit avec la maturite du tri PMCB", "source": "FCT-004", "status": "SUPPORTED"},
+  {"cause": "La charge est liee au moteur operationnel : Valobat prend en charge collecte/traitement platre et menuiseries vitrees (Aubagne soutien operationnel), l'eco-organisme prefere parfois le soutien en nature au soutien financier, d'ou des montants € au interieurs dans les RPQS (Aspres 165 488 EUR economises, pas verses)", "source": "FCT-003", "status": "SUPPORTED"}
+]

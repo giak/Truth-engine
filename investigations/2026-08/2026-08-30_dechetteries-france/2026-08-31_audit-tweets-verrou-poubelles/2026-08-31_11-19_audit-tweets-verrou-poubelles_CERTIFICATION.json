@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:2c00a61115c622b3a2e07045c367a0e01ad0dbd0e9e1de24d146c05e99ef06a4",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-31_audit-tweets-verrou-poubelles/2026-08-31_11-19_audit-tweets-verrou-poubelles_INVESTIGATION.md",
+  "deliverable_sha256": "00304fc6532303b7e6357a919518e6ced3d5e2c5af75f53aeb001b8ac6949d9d",
+  "created_at": "2026-08-31T09:24:55.037994+00:00"
+}

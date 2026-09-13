@@ -1,0 +1,18 @@
+{
+  "mnemo_row": "PERSISTED_2026-08-30",
+  "fact_mem": {
+    "FCT-001": "0f3eee52-9290-4ec3-9c91-855c0ee8ea85",
+    "FCT-002": "20fc6302-1880-4cda-8cfd-431a4977cf87",
+    "FCT-003": "f77f687d-4eef-48da-a7df-c74d132de9ce",
+    "FCT-004": "b61b447f-a4a2-47a6-8dee-16a65783382d",
+    "FCT-005": "798476fd-f1eb-4b10-9490-d86e74a82455"
+  },
+  "writeback_row": {"eligible": 5, "attempted": 5, "success": 5, "failure": 0, "blocked": 0},
+  "writeback_execution": [
+    {"fct": "FCT-001", "action": "ELIGIBLE:VERIFIE", "attempted": 1, "success": 1, "failure": 0, "blocked": 0, "reason": "Rapport 2025 SICTOM Nogent PDF inspecte - Valobat 14928 EUR ventile"},
+    {"fct": "FCT-002", "action": "ELIGIBLE:VERIFIE", "attempted": 1, "success": 1, "failure": 0, "blocked": 0, "reason": "RPQS 2025 CC Aspres PDF inspecte - tonnages PMCB + economies"},
+    {"fct": "FCT-003", "action": "ELIGIBLE:VERIFIE", "attempted": 1, "success": 1, "failure": 0, "blocked": 0, "reason": "Rapport 2024 metropolitain PDF inspecte - soutien operationnel Valobat"},
+    {"fct": "FCT-004", "action": "ELIGIBLE:VERIFIE", "attempted": 1, "success": 1, "failure": 0, "blocked": 0, "reason": "Rapport 2024 Sydem PDF inspecte - contrat Valobat 14022024"},
+    {"fct": "FCT-005", "action": "ELIGIBLE:VERIFIE", "attempted": 1, "success": 1, "failure": 0, "blocked": 0, "reason": "Rapport 2023 SICTOMU PDF inspecte - soutiens 639452"}
+  ]
+}

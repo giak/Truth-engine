@@ -1,0 +1,20 @@
+[
+  {
+    "lead": "La ventilation par site est deja prouvee sur 5 EPCI (Emeraude 11 073 t, Tri-Action 10 443 t, SGC 2 599 t, SEROC 14, SIEDMTO) : la generalisation repose sur les RPQS/rapports annuels, les PV et les budgets territoriaux",
+    "materiality": "DECISIVE",
+    "routes": ["EXPAND", "CONTEXT"],
+    "status": "ACTIVE"
+  },
+  {
+    "lead": "Les soutiens Citeo dominent partout (94-98 % chez Emeraude) : la carte nationale des soutiens peut s'approcher par les tonnages par site × barèmes Citeo, corriges par les rattachements Ecomaison/Ecologic/EcoDDS",
+    "materiality": "DECISIVE",
+    "routes": ["EXPAND", "CONTEXT"],
+    "status": "ACTIVE"
+  },
+  {
+    "lead": "Le GAP structurel est la ventilation Citeo par titre de recette (non publiee) et le champ SINOE LST_TYPE_DECHET vide : la carte nationale sera une carte par EPCI, pas par decheterie individuelle, sauf RPQS detaille",
+    "materiality": "IMPORTANT",
+    "routes": ["EXPAND"],
+    "status": "ACTIVE"
+  }
+]

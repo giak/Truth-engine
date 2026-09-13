@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:f58f4cd7dc464cf8127d03a5df19b5792f7fde54e1e0cb5983cfeb09d3821f03",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-31_frappes-juridiques-veille-reglementaire/2026-08-31_07-38_frappes-juridiques-veille-reglementaire_INVESTIGATION.md",
+  "deliverable_sha256": "d6bc179c730d46d16a64db41cf439c5409cae3d46caf8f227c219825ba8b2f5c",
+  "created_at": "2026-08-31T05:59:03.149999+00:00"
+}

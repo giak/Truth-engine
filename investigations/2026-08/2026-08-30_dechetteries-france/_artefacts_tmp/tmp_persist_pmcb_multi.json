@@ -1,0 +1,94 @@
+{
+  "mnemo_row": "PERSISTED_2026-08-30",
+  "fact_mem": {
+    "FCT-001": "1431c6db-fc68-4264-ae9c-10226d9a853f",
+    "FCT-002": "ca3b76c9-bc26-4f02-b383-3f2d31192a27",
+    "FCT-003": "516ffb21-7ffd-4748-9ec4-3698720bee56",
+    "FCT-004": "cddfd0c9-17db-4103-acae-9688d1b2bb87",
+    "FCT-005": "1fa19687-6c7c-42fd-9738-20e5c2553894",
+    "FCT-006": "245d64da-16fa-4c38-a37e-6bc663a8a43f",
+    "FCT-007": "dc61d432-f2fc-4e39-a3bc-619aba5a5eec",
+    "FCT-008": "b7f66aba-304d-4c40-a8eb-262e3fc8f38b"
+  },
+  "writeback_row": {
+    "eligible": 8,
+    "attempted": 8,
+    "success": 8,
+    "failure": 0,
+    "blocked": 0
+  },
+  "writeback_execution": [
+    {
+      "fct": "FCT-001",
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "xlsm Ecomaison/Ecominero inspecté - barème cat1 2026"
+    },
+    {
+      "fct": "FCT-002",
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "page PERMAT consultée - exemple 0,22 €/t"
+    },
+    {
+      "fct": "FCT-003",
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "page Ecomaison consultée - tarifs 01/05/2024 + 2500 points"
+    },
+    {
+      "fct": "FCT-004",
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "pdf Valdélia PMCB S2 inspecté - barème €/kg"
+    },
+    {
+      "fct": "FCT-005",
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "pdf Valdélia aval inspecté - soutien 80/60 €/t"
+    },
+    {
+      "fct": "FCT-006",
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "pdf Valdélia huisseries inspecté - 0,02→0,09 €/kg"
+    },
+    {
+      "fct": "FCT-007",
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "pdf CEREMA OCAB inspecté - SAS 4 associés, agrément"
+    },
+    {
+      "fct": "FCT-008",
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0,
+      "reason": "portail OCA consulté - réseau + guichet unique"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "ACTOR_NETWORK_MAP": {
+    "eco_organismes_PMCB": "Ecominero (cat 1 inertes), Ecomaison (cat 2), Valdélia (cat 2), Valobat (cat 1+2, deja documente passe 1558) + OCAB (SAS a 4 associés, organisme coordinateur agrée 17/02/2023)",
+    "ocab": "SAS 4 associés Ecomaison/Ecominero/Valdélia/Valobat - agrément 17/02/2023 fin 2024 - equilibrage collecte a due proportion parts de marché, contrat-type unique collectivites, guichet unique, consignes de tri communes",
+    "metteurs_sur_le_marche": "fabricants/importateurs/distributeurs du bâtiment (éco-contribution par produit)",
+    "points_de_reprise": "déchèteries publiques, négoces/distributeurs, points de reprise pros, entrepôts chantiers >50 m3",
+    "humains": "usagers portent l'eco-participation ; collectivites via déchèteries (contrat-type unique OCAB)"
+  },
+  "COGNITIVE_MAP": {
+    "point_d_aveugle": "on croit souvent que seul Valobat a un barème PMCB ; en realite les 4 eco-org publient (Ecominero xlsm, Valdélia pdf) mais avec des logiques tarifaires très différentes (Ecominero €/t inertes, Valdélia €/kg, Ecomaison modulation)",
+    "mécanisme_devoile": "la segmentation tarifaire par catégorie et eco-org rend illisible la comparaison : Ecominero 0,40-13,43 €/t vs Valdélia 0,03-0,30 €/kg produisent des ordres de grandeur incomparables si on ne convertit pas masse/unité",
+    "piège_de_lecture": "comparer des €/t (inertes) et €/kg (produits) sans tenir compte des masses volumiques donne des conclusions fausses"
+  },
+  "CONTRADICTION_LEDGER": [
+    {"cause": "Valobat 403 vs Ecominero/Valdélia publics", "effet": "asymetrie d'acces a la donnee selon l'eco-organisme : Valobat necessite contrat-type local (passe 1558), Ecominero/Valdélia publient directement"},
+    {"cause": "barèmes €/t vs €/kg", "effet": "l'absence d'unite commune rend la comparaison inter-eco-org effective impossible sans conversion"},
+    {"cause": "agrément OCAB fin 2024", "effet": "l'agrément de l'organisme coordinateur (17/02/2023-2024) a-t-il été renouvelé ? structure SAS à pérenniser"}
+  ],
+  "CREDO": {
+    "gaps_combles_verifies": true,
+    "refutation_run": true,
+    "sources_inspectees": 8,
+    "fct_avec_sources": 8,
+    "adversarial_note": "chiffres extraits de documents primaires (xlsm officiel Ecomaison/Ecominero, pdf officiels Valdélia), pas de sources contredisant les barèmes"
+  },
+  "DIALECTICAL_MAP": {
+    "these": "les barèmes PMCB sont publics et comparables chez les eco-org",
+    "antithese": "il y a 4 eco-org avec des logiques tarifaires disjointes (€/t, €/kg, €/m2, modulation) qui rendent la comparaison et la transparence effectives très difficiles",
+    "synthese_H2": "les barèmes SONT publics mais fragmentes en unités et formats heterogenes ; la lisibilité dépend de la competence a convertir et a piocher les ressources de chaque eco-org, d'ou inegalite d'acces real"
+  },
+  "EDI_REPORT": {
+    "dimensions": ["economie", "transparence", "acces a la donnee", "asymetrie info", "segmentation tarifaire"],
+    "ecominero_cat1": "barème €/t inertes 2026 (01/08) : granulats 0,40, ciment 10,26, ceramique 13,43, ardoise 1,26, terre cuite 1,35, béton prêt emploi 3,02 €/m3",
+    "valdelia_cat2": "barème €/kg au 01/07/2026 : metal 0,09, bois brut 0,03, platre 0,05, isolants 0,08, menuiseries 0,14-0,17, autres 0,30",
+    "ecomaison": "modulation recyclabilite + primes IMR + objectif 2500 points collecte fin 2024",
+    "valobat_passe1558": "barème €/t deja documente (200-2700 €/site forfait, 20-75 €/t variables)"
+  },
+  "GATE_STATUS_V1": {"G0":"PASS","G1":"PASS","G2":"PASS","G3":"PASS","G4":"PASS","G5":"PASS","G6":"PASS","G7":"PASS","G8":"PASS","G9":"PASS","G10":"PASS"},
+  "IMPACT_MAP": {
+    "ecominero_2026": "recalibrage cat1 au 01/08/2026 (ex ardoise 0,88→1,26 €/t, ciment 3,91→10,26 €/t : hausse importante)",
+    "valdelia_2026": "menuiseries metal 0,02→0,09 €/kg au 01/07/2026 (x4,5), eco-modulation plastique/bois/isolant appliquee",
+    "decheteries": "soutien points de reprise Valdélia 80 €/t (7 flux) / 60 €/t (conjointe) comparable au barème soutien aval Valobat",
+    "ocab": "contrat-type unique collectivites homogenise les conventions dechèterie PMCB"
+  },
+  "MANIPULATION_REPORT": {
+    "interets": "chaque eco-org fixe son périmètre et son unité tarifaire (€/t vs €/kg) : la diversite des formats est une barriere de lisibilité qui protege les eco-org d'une comparaison directe",
+    "recits_dominants": "les eco-org communiquent sur leurs points de collecte et objectifs (Ecomaison 2500, Ecominero 10,7 Mt) mais peu sur la comparabilite inter-barèmes",
+    "indice_double_discours": "Valobat 403 vs Ecominero/Valdélia transparents : on ne doit pas conclure a une opacité homogene de la filiere"
+  },
+  "NEXT_QUERIES": [
+    "Verifier le renouvellement de l'agrément OCAB apres 2024 et son barème de fonctionnement (financé par les eco-org)",
+    "Convertir les barèmes €/kg Valdélia en €/t equivalents par masse volumique pour comparaison directe avec Ecominero",
+    "Obtenir le barème Ecomaison catégorie 2 detaillé €/t (bois, platre, isolants) pour la passerelle cat2"
+  ],
+  "RESOURCE_FLOW_MAP": {
+    "montant_feuille": "la création des produits (éco-contribution par kg/t/m2) finance la collecte et le traitement ; le rebondissement des volumes (Ecominero 10,7 Mt vise, Valobat 3 Mt 2025) justifie les recalibrages 2026",
+    "transfert": "chaque eco-org reverse aux points de reprise un soutien (Valdélia 80/60 €/t) + prise en charge bennes et traitement",
+    "cui_bono": "gagnants : eco-org captent contributions pour financer réseaux ; decheteries equipees percoivent soutien aval ; perdants : usagers portent l'eco-participation, et la disparite tarifaire complexifie l'arbitrage"
+  },
+  "RESPONSIBILITY_MAP": {
+    "asymetrie": "les 4 eco-org PMCB sont coresponsables via OCAB du maillage et contrat-type unique, mais chaque eco-org reste maitre de son barème et de sa monétisation",
+    "transparence": "Ecominero et Valdélia publient leurs grilles ; Ecomaison publique la modulation ; Valobat opaque (403) necessite contrat-type local",
+    "gouvernance": "OCAB = organisme coordinateur agréé 17/02/2023 (SAS 4 associés), chargé de l'equilibrage et du contrat-type unique collectivites"
+  },
+  "SCOPING_REPORT": {
+    "sujet": "Barèmes PMCB des 3 eco-organismes Ecominero/Ecomaison/Valdélia + périmètre OCAB",
+    "periode": "2023-2026 (barèmes en vigueur/2026, recalibrages 01/07-01/08/2026)",
+    "geo": "National France",
+    "exclus": "Valobat detail (passe 1558/1740), montants reels percus (passe 1726)"
+  },
+  "TEMPORAL_STATE": {
+    "as_of": "2026-08-30",
+    "2023": "REP PMCB debut (01/05/2023) ; OCAB agrée 17/02/2023 ; Ecominero barème 2023 (granulats 0,16 €/t, ciment 3,91 €/t)",
+    "2024": "tarifs Ecomaison 01/05/2024 (modulation recyclabilite) ; eco-modulation Ecominero cat1 (bétons, granulats, ciments, terre cuite)",
+    "2025": "Valdélia barème 2025-2026 publie ; eco-modulation plastique/isolant Valdélia des 01/01/2025",
+    "01-07-2026": "Valdélia barème S2 2026 (metal 0,09 €/kg, huisseries 0,02→0,09)",
+    "01-08-2026": "Ecominero cat1 recalibrage 2026 (ardoise 1,26, ciment 10,26 €/t)"
+  },
+  "VERIFICATION_REPORT": {
+    "ecominero_xlsm_via_ecomaison": "xlsm inspecte (openpyxl) : grille cat1 2026 detaillee 01/08/2026, 162 lignes tarifaires",
+    "valdelia_pmcb_s2_pdf": "pdf inspecte (pdftotext) : barème €/kg cat2 S2 2026 + eco-modulations bois/plastique/isolant",
+    "valdelia_aval_pdf": "pdf inspecte : soutien points reprise 80/60 €/t + ingenierie + location surface",
+    "valdelia_huissieres_pdf": "pdf inspecte : menuiseries €/kg + €/unite au 01/07/2026",
+    "cerema_ocab_pdf": "pdf inspecte : OCAB SAS 4 associés, agrement 17/02/2023, progresivite reprise (maillage 50% fin 2024, 100% fin 2026)",
+    "ocab_portail": "portail consulte : reseau points collecte, guichet unique collectivites, consignes tri communes"
+  }
+}

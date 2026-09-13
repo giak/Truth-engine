@@ -1,0 +1,54 @@
+{
+  "mnemo_row": "PERSISTED_2026-08-30",
+  "writeback_row": {
+    "eligible": 4,
+    "attempted": 4,
+    "success": 4,
+    "failure": 0,
+    "blocked": 0
+  },
+  "writeback_execution": [
+    {
+      "fct": "FCT-001",
+      "action": "ELIGIBLE: tier ✧",
+      "reason": "source primaire inspectee (PDF CA 2024)",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    },
+    {
+      "fct": "FCT-002",
+      "action": "ELIGIBLE: tier ✧",
+      "reason": "source primaire inspectee (PDF PV 10/02/2025)",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    },
+    {
+      "fct": "FCT-003",
+      "action": "ELIGIBLE: tier ✧",
+      "reason": "source primaire inspectee (PDF DOB 2025)",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    },
+    {
+      "fct": "FCT-004",
+      "action": "ELIGIBLE: tier ✧",
+      "reason": "croisement CA 2024 + baremes x tonnages + rattachements",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    }
+  ],
+  "fact_mem": {
+    "FCT-001": "301c39e5-8971-4f74-a2c2-73f830283f52",
+    "FCT-002": "93aaf719-f270-4ce8-8385-caa626e8b9f6",
+    "FCT-003": "19448a3a-e97c-4396-8bc9-5c098f59a7ef",
+    "FCT-004": "4a3a65ba-ca97-4891-8055-d00908a902f9"
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "fct": "FCT-001",
+    "subject": "RPQS 2024 CC Causses Aulrac 4 decheteries soutiens eco-organismes 289 075 euros Citeo emballages 246 651 euros verre 5892 DEEE 36123 ventes materiaux 120 673 cout complet 2 555 797 euros",
+    "query": "REFUTATION Causses Aulrac 2024 4 decheteries 289075 246651 5892 36123 120673 2555797 contredit"
+  },
+  {
+    "fct": "FCT-002",
+    "subject": "RPQS 2024 CC DRAGA 3 decheteries 6783 tonnes Bourg-Saint-Andeol 5021 Viviers 1696 Saint-Remeze 66,6 recettes 3496414 euros TEOM 3092545",
+    "query": "REFUTATION DRAGA 2024 3 decheteries 6783 5021 1696 66,6 3496414 3092545 contredit"
+  },
+  {
+    "fct": "FCT-003",
+    "subject": "RPQS 2024 CC Ouche et Montagne 4407,74 tonnes soutiens par repreneur Citeo 87800 euros emballages verre 30-35 euro tonne DEEE 3500 trimestre EcoDDS Ecomaison",
+    "query": "REFUTATION Ouche Montagne 2024 4407,74 87800 4621,45 30 35 3500 contredit"
+  },
+  {
+    "fct": "FCT-004",
+    "subject": "RPQS 2024 Ambert Livradois Forez 8345 tonnes apports dechetterie soutiens eco-organismes 576 578 euros TEOM 5045371",
+    "query": "REFUTATION Ambert Livradois Forez 2024 8345 576578 431819 5045371 contredit"
+  },
+  {
+    "fct": "FCT-005",
+    "subject": "RPQS 2024 Metropole TPM 62 sites 59 decheteries soutiens eco-organismes 11,1 M€ aides 0,7 M€ ventes materiaux 6,2 M€ apports decheterie 328 554 tonnes",
+    "query": "REFUTATION TPM 2024 62 59 11,1 0,7 6,2 328554 11850000 contredit"
+  },
+  {
+    "fct": "FCT-006",
+    "subject": "RPQS 2022 CCPU 1 decheterie 1341,36 tonnes soutiens 57310,90 euros Citeo 46028,76 Ecomobilier 6001,89 OCAD3E 3681,64 EcoDDS 1078,91 Refashion 519,70 REOM 440556",
+    "query": "REFUTATION CCPU 2022 1 decheterie 1341,36 57310,90 46028,76 6001,89 3681,64 1078,91 519,70 440556 contredit"
+  }
+]

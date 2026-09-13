@@ -1,0 +1,7 @@
+Certification KERNEL du verdict de primauté des déchèteries en France :
+- Récapituler et certifier le verdict issu des audits d'antériorité (AUDIT_ARLES_SEGONNAUX.md, AUDIT_BENAIS_1973.md, passe fresque 1301) :
+  1) Benais 1973 : D_OUV SINOE 1973-11-26 CONTAMINÉ par la date de création du syndicat/collecte OMR (compétence déchèterie 02/06/1985, déclaration préfectorale 12/01/1995) → primauté absolue REJETÉE.
+  2) Arles Ségonnaux 1977 : décharge communale 1964-1999, apport-volontaire antérieur à 1980 mais pas de déchèterie moderne au sens post-87 → primauté de l'équipement moderne REFORMULÉE.
+  3) Gradignan : acte CUB aff. 80/151 du 21/03/1980 = premier centre moderne urbain documenté par acte ; récit « 17/11/1980 première de France » = FISSURE (pas de séance plénière ce jour) ; SINOE = 1981-01-01.
+  4) Verdict final : ni un site unique, mais un FAISCEAU d'apports-volontaires antérieurs à la circulaire 87-63 (26/06/1987) ; reformulation « l'un des premiers équipements d'apport volontaire modernes et explicitement dédiés ».
+- MISSION_MODE=INVESTIGATION, INPUT_KIND=UPDATE (parent=20260830-1301).

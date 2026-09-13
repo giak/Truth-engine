@@ -1,0 +1,5 @@
+[
+  {"cause": "Le contrat type REP PMCB (CC Dombes, annexe 2) prouve que les soutiens PMCB sont bien definis par barème forfaitaire + variable de couts (20-75 EUR/t selon flux, forfaits 200-2700 EUR/site), etablissant un barème territorial publiable — que les EPCI appliquent ou non selon leur convention", "source": "FCT-001", "status": "SUPPORTED"},
+  {"cause": "Flandre Lys et SICED confirment l'application reelle : contrat 01/01/2024 (475 t batiment), Valobat reference comme eco-agreé — la filiere PMCB est en deploiement operationnel dans les decheteries, mais le barème unifie national par site n'existe pas (publication disperse, 403 sur valobat.fr)", "source": "FCT-002", "status": "SUPPORTED"},
+  {"cause": "Le cadre officiel ADEME (4 eco-organismes agreés + OCAB, 22 Mt, depuis 2023) structure le champ : Valobat n'est qu'un des 4 operateurs, le barème de soutien est negocie par convention bilaterale, non publie centralement — limitant la comparabilite nationale", "source": "FCT-004", "status": "SUPPORTED"}
+]

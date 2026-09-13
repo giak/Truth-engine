@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "deterministic": "PASS",
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_audit-incendies-securite-decheteries/2026-08-30_21-56_audit-incendies-securite-decheteries_INVESTIGATION.md",
+  "deliverable_sha256": "ae2361e7159484cd997c380967d1a95f89a603dffbcc0a6108f1dcc0b6359b3b",
+  "state_id": "sha256:368fea75925756b1e1d153872c40b713e9ab33ba2db962eacdb25196dc6af41c"
+}

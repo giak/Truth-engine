@@ -1,0 +1,20 @@
+[
+  {
+    "type": "CAUSE",
+    "status": "SUPPORTED",
+    "source": "FCT-001",
+    "cause": "Le ratio soutiens/tonnage varie encore (CCST 74 €/t vs TPM 34 €/t vs Ambert 69 €/t) : la carte nationale doit rester par EPCI, la moyenne nationale resterait trompeuse"
+  },
+  {
+    "type": "ENABLER",
+    "status": "SUPPORTED",
+    "source": "FCT-002",
+    "cause": "Redon prouve que la ventilation par eco-organisme est publiee au niveau territorial, y compris pour les filieres jeunes : Valobat 54 299 € (1 363 t), Ecosystem 71 063 € (616 t), EcoDDS 7 865 € (97 t), CYCLEVIA 1 800 € — la carte nationale peut inclure les filieres hors Citeo quand le rapport est detaille"
+  },
+  {
+    "type": "EFFECT",
+    "status": "SUPPORTED",
+    "source": "FCT-002",
+    "cause": "Les soutiens Citeo restent dominants (Redon 1 000 062 € = 70 % du total documente) mais la pluralisation s'accelere : Citeo-EcoDDS-CYCLEVIA-Ecomobilier +112 % et REP PMCB 439 t montrent la montee des filieres jeunes dans le financement des decheteries"
+  }
+]

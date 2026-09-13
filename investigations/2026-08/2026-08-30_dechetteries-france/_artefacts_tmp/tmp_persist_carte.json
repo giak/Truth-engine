@@ -1,0 +1,74 @@
+{
+  "mnemo_row": "PERSISTED_2026-08-30",
+  "writeback_row": {
+    "eligible": 6,
+    "attempted": 6,
+    "success": 6,
+    "failure": 0,
+    "blocked": 0
+  },
+  "writeback_execution": [
+    {
+      "fct": "FCT-001",
+      "action": "ELIGIBLE:VERIFIE",
+      "reason": "RPQS 2024 Causses Aulrac PDF inspecte",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    },
+    {
+      "fct": "FCT-002",
+      "action": "ELIGIBLE:VERIFIE",
+      "reason": "RPQS 2024 DRAGA PDF inspecte",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    },
+    {
+      "fct": "FCT-003",
+      "action": "ELIGIBLE:VERIFIE",
+      "reason": "RPQS 2024 Ouche Montagne PDF inspecte",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    },
+    {
+      "fct": "FCT-004",
+      "action": "ELIGIBLE:VERIFIE",
+      "reason": "RPQS 2024 Ambert Livradois Forez PDF inspecte",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    },
+    {
+      "fct": "FCT-005",
+      "action": "ELIGIBLE:VERIFIE",
+      "reason": "RPQS 2024 Metropole TPM PDF inspecte",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    },
+    {
+      "fct": "FCT-006",
+      "action": "ELIGIBLE:VERIFIE",
+      "reason": "RPQS 2022 CCPU PDF inspecte",
+      "attempted": 1,
+      "success": 1,
+      "failure": 0,
+      "blocked": 0
+    }
+  ],
+  "fact_mem": {
+    "FCT-001": "b04f15d3-b8c4-44fc-94c4-fccfda125f61",
+    "FCT-002": "0d95b60b-08b1-4425-8597-2c10106dec54",
+    "FCT-003": "222bb7de-07eb-4bd3-9800-91cd550dc285",
+    "FCT-004": "23f07bfd-5373-476c-a768-ea451ea0a9e2",
+    "FCT-005": "7307dcdb-085d-4c29-aa36-17835dccdf81",
+    "FCT-006": "9e48eee2-bb53-446e-88cf-bc5d69f444a1"
+  }
+}

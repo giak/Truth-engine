@@ -1,0 +1,20 @@
+[
+  {
+    "lead": "SGC RPQS 2024 enfin accessible (URL directe comcom-sgc.fr) : decheterie de Nomeny 2 486 t 2024 (287 kg/hab vs 235 nationale), charges decheterie 726 003 € HT, RI 1 935 733 €, facturation apports pros 10 907 €",
+    "materiality": "DECISIVE",
+    "routes": ["EXPAND", "CONTEXT"],
+    "status": "ACTIVE"
+  },
+  {
+    "lead": "SEROC DOB 2025 : filiere decheterie 460 000 € (dont PMCB) + ventilation eco-org detaillee (Citeo recyclables 2 700 000 € vs 2 200 000 € 2024, liquidatif barème F 652 000 €, Citeo papier 130 000 €, autres eco-org 875 000 € vs 220 025 € 2024 : EcoDDS 12 k€, Refashion 10 k€, ARCA 4 k€, Ecomaison 500 €, OCAD3E 1 600 €)",
+    "materiality": "DECISIVE",
+    "routes": ["EXPAND", "CONTEXT"],
+    "status": "ACTIVE"
+  },
+  {
+    "lead": "Le GAP PMCB territorial est comblable : SEROC ventile 460 000 € filiere decheterie dont PMCB ; Valobat publie ses barèmes (evo 1er juillet 2026 : structuration filiere, recalibrage couts, eco-modulation renforcee) mais soutiens €/t aux collectivites non publies par site",
+    "materiality": "IMPORTANT",
+    "routes": ["EXPAND"],
+    "status": "ACTIVE"
+  }
+]

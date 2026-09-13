@@ -1,0 +1,41 @@
+{
+  "ACTOR_NETWORK_MAP": {
+    "acteurs": "Citeo (dominant), Valobat + Ecominero (PMCB), EcoDDS, Refashion, ARCA, OCAD3E, Ecomaison, Region, LEADER, collectivites (SGC, SEROC, DRAGA)",
+    "roles": "SGC exploite la decheterie de Nomeny (RI) ; SEROC redistribue les soutiens a ses adherends ; Valobat structure la filiere PMCB (baremes 07/2026)"
+  },
+  "IMPACT_MAP": {
+    "sgc": "287 kg/hab vs 235 nationale : la decheterie SGC est sur-utilisee ; cout aide 692 365 € TTC porte par la RI",
+    "seroc": "la filiere decheterie recoit 460 k€ (dont PMCB) : le financement des flux PMCB devient visible et substantiel",
+    "valobat": "recalibrage 07/2026 = hausse des eco-contributions (couts reels) : le cout de la filiere PMCB est transfere aux producteurs puis aux consommateurs"
+  },
+  "RESPONSIBILITY_MAP": {
+    "responsabilite": "producteurs via REP (emballages Citeo, PMCB Valobat/Ecominero, DDS EcoDDS, textiles Refashion, D3E OCAD3E/Ecosystem)",
+    "asymetrie": "SGC : les soutiens eco-org ne sont pas ventiles dans la presentation RPQS (seuls RI et couts) ; SEROC : ventilation complete ; le niveau de transparence reste un choix local",
+    "charge_effective": "usager (RI SGC 1 935 733 €) + eco-participations (PMCB via Valobat)"
+  },
+  "CONTRADICTION_LEDGER": [
+    {
+      "fact": "SGC 2024 bloque pendant 3 passes (403) puis debloque par une URL directe trouvee sur le site officiel",
+      "status": "RESOLVED",
+      "cause": "le telechargement par le portail dlm etait protege ; la page de presentation directe est accessible",
+      "discriminant": "URL /wp-content/uploads/2026/02/01-02-2026-Presentation-RPQS..."
+    },
+    {
+      "fact": "Valobat.fr/baremes-pmcb renvoie 403 (anti-bot) : les baremes officiels ne sont pas inspectables directement",
+      "status": "OPEN",
+      "cause": "protection anti-bot du site",
+      "discriminant": "bareme PMCB 2026 via ADEME filieres-rep ou FFBatiment"
+    },
+    {
+      "fact": "PV CC DRAGA 14/03/2024 scanne : la ventilation des soutiens n'est pas lisible sans OCR",
+      "status": "OPEN",
+      "cause": "document image sans couche texte",
+      "discriminant": "CA DRAGA 2024 (fichiers .xlsx ou deliberation numerique)"
+    }
+  ],
+  "VERIFICATION_REPORT": {
+    "sgc_rpqs2024": "PDF 23 p. inspecte : tonnages Nomeny 2 486 t, RI 1 935 733 €, charges decheterie 726 003 €, cout aide 692 365 € TTC, refus tri 22 %",
+    "seroc_dob2025": "PDF 18 p. inspecte : filiere decheterie 460 000 € dont PMCB, Citeo 2,7 M€, liquidatif 652 k€, autres eco-org 875 k€ vs 220 k€ 2024",
+    "valobat_minco": "article Minco 08/06/2026 inspecte : 3 raisons de l'evolution des baremes Valobat au 01/07/2026 ; page officielle 403"
+  }
+}

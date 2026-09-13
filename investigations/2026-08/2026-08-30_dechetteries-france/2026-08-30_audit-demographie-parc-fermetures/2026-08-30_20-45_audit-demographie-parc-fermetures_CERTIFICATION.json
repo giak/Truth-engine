@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "358db6cc7a500331eff52d5f4871eb0a84019c5b",
+  "state_id": "sha256:e5c9587b1a07fdbb6186b5d7442957b3242c724b7dca9a0374b57708e5d920ee",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_audit-demographie-parc-fermetures/2026-08-30_20-45_audit-demographie-parc-fermetures_INVESTIGATION.md",
+  "deliverable_sha256": "c3d98d1ea9bcd999b5de20f21e844950600e1ec2049b58cf9b545ff588af1d16",
+  "created_at": "2026-08-30T18:47:55.395674+00:00"
+}

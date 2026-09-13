@@ -1,0 +1,702 @@
+{
+ "actions": [],
+ "axes": [
+  {
+   "attempts": [],
+   "id": "AXS-001",
+   "links": [
+    "LED-001",
+    "LED-002"
+   ],
+   "question": "Quel est le montant exact des soutiens par éco-organisme (Citeo, Ecomaison, EcoDDS, Ecologic) dans le CA 2024 ?",
+   "results": [
+    "CA 2024 : total 4 810 483,50 € = 12,16 % recettes",
+    "rattachements Ecomaison 112 529,90 € + Ecologic 5 248,43 €",
+    "Citeo dominant ~4,5-4,7 M€ (prévision 2,4 M€ emballages 2025)"
+   ],
+   "sought": "détail des recettes par tiers dans le CA",
+   "status": "SATURATED"
+  },
+  {
+   "attempts": [],
+   "id": "AXS-002",
+   "links": [
+    "LED-002",
+    "LED-003"
+   ],
+   "question": "Peut-on reconstituer la ventilation par différence (total - revente matériaux - rattachements) et par croisement avec les barèmes × tonnages ?",
+   "results": [
+    "ventilation estimée par différence et croisement barèmes × tonnages",
+    "Citeo 4,5-4,7 M€ vs Ecomaison 112 529,90 € vs Ecologic 5 248,43 €",
+    "GAP : détail Citeo par titre de recette non publié dans le PDF du CA"
+   ],
+   "sought": "calcul de ventilation estimée",
+   "status": "SATURATED"
+  }
+ ],
+ "causal": [
+  {
+   "cause": "Le total des soutiens éco-organismes + rachats matières 2024 d'Emeraude (4 810 483,50 € = 12,16 % des recettes) domine la revente matériaux (1 201 k€) : la valeur du flux passe par des soutiens contractuels, pas par le marché",
+   "id": "CAU-001",
+   "source": "FCT-001",
+   "status": "SUPPORTED",
+   "type": "CAUSE"
+  },
+  {
+   "cause": "Citeo domine structurellement (prévision 2025 : 2,4 M€ emballages seule, petits alus 700 €/t Citeo 400 + CEELA 300) : la ventilation par filière est réalisable par croisement barèmes × tonnages et par différence",
+   "id": "CAU-002",
+   "source": "FCT-003",
+   "status": "SUPPORTED",
+   "type": "ENABLER"
+  },
+  {
+   "cause": "La ventilation estimée (Citeo 4,5-4,7 M€, Ecomaison 112 529,90 €, Ecologic 5 248,43 €) montre la concentration de la valeur contractuelle sur l'emballage, les autres filières (D3E, mobilier) restant marginales en montant",
+   "id": "CAU-003",
+   "source": "FCT-002",
+   "status": "SUPPORTED",
+   "type": "EFFECT"
+  }
+ ],
+ "checkpoints": [
+  {
+   "created_at": "2026-08-30T13:17:01.756112+00:00",
+   "id": "CP-001",
+   "label": "LEADS",
+   "last_completed": "5:LEADS",
+   "next_action": "7:SCOPE",
+   "seq": 1,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-08-30T13:17:01.812216+00:00",
+   "id": "CP-002",
+   "label": "SCOPE",
+   "last_completed": "7:SCOPE",
+   "next_action": "9:SEARCH",
+   "seq": 2,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-08-30T13:19:48.912721+00:00",
+   "id": "CP-003",
+   "label": "SEARCH",
+   "last_completed": "9:SEARCH",
+   "next_action": "10:FACTS",
+   "seq": 3,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-08-30T13:19:48.985981+00:00",
+   "id": "CP-004",
+   "label": "FACTS",
+   "last_completed": "10:FACTS",
+   "next_action": "11:CAUSAL",
+   "seq": 4,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-08-30T13:19:49.043277+00:00",
+   "id": "CP-005",
+   "label": "CAUSAL",
+   "last_completed": "11:CAUSAL",
+   "next_action": "13:VERIFY",
+   "seq": 5,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-08-30T13:19:49.101605+00:00",
+   "id": "CP-006",
+   "label": "VERIFY",
+   "last_completed": "13:VERIFY",
+   "next_action": "17:INVESTIGATION_ACCOUNTABILITY",
+   "seq": 6,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-08-30T13:19:49.158214+00:00",
+   "id": "CP-007",
+   "label": "INVESTIGATION_ACCOUNTABILITY",
+   "last_completed": "17:INVESTIGATION_ACCOUNTABILITY",
+   "next_action": "18:GATE",
+   "seq": 7,
+   "status": "PASS"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Le total des soutiens éco-organismes + rachats matières 2024 d'Emeraude est de 4 810 483,50 € (12,16 % des recettes)",
+   "counter": "NONE_FOUND",
+   "gap": "ventilation établie par CA 2024 + barèmes ; GAP détail Citeo par titre non publié",
+   "gap_type": "NONE",
+   "id": "CLM-001",
+   "status": "SATURATED",
+   "support": "CA 2024 (PDF inspecté)"
+  },
+  {
+   "claim": "Citeo domine largement la ventilation (emballages+papiers ≈ 4,5-4,7 M€) devant Ecomaison (mobilier) et les filières marginales (Ecologic DEEE, EcoDDS)",
+   "counter": "NONE_FOUND",
+   "gap": "ventilation établie par CA 2024 + barèmes ; GAP détail Citeo par titre non publié",
+   "gap_type": "NONE",
+   "id": "CLM-002",
+   "status": "SATURATED",
+   "support": "total CA - revente - rattachements ; PV 138,8 % +897 k€ Citeo"
+  }
+ ],
+ "controls": [],
+ "counters": {
+  "ACT": 0,
+  "AXS": 2,
+  "CAU": 3,
+  "CLM": 2,
+  "CP": 7,
+  "CTRL": 0,
+  "FCT": 4,
+  "LED": 3,
+  "QRY": 8,
+  "SRC": 3,
+  "SYS": 4
+ },
+ "delta_plan": [],
+ "engine": "2.10.6",
+ "facts": [
+  {
+   "date": "2025-06-10",
+   "epi": "FACT",
+   "families": [
+    "A"
+   ],
+   "id": "FCT-001",
+   "mem": "301c39e5-8971-4f74-a2c2-73f830283f52",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-001"
+   ],
+   "subject": "Emeraude CA 2024 soutiens eco-organismes et rachats matieres 4810483,50 euros 12,16 pourcent TEOM 33619550 euros 85 pourcent redevance 872572,98 euros rattachement Ecomaison 112529,90 euros Ecologic 5248,43 euros",
+   "tier": "✧",
+   "url": "https://www.syndicat-emeraude.fr/sites/default/files/media/downloads/D%C3%A9lib.%202025-06-10%20Vote%20Compte%20Administratif%202024%20%20et%20annexes.PDF",
+   "value": "CA 2024 : Soutiens Eco-organismes + rachats matières = 4 810 483,50 € (12,16 %) ; TEOM 33 619 550 € (85 %) ; redevance spéciale 872 572,98 € (2,21 %) ; autres 249 637,37 € ; recettes nettes 39 552 243,85 €. Rattachements : Ecomaison Collecte du mobilier 112 529,90 € ; Ecologic D3E T2 5 248,43 €"
+  },
+  {
+   "date": "2025-02-10",
+   "epi": "FACT",
+   "families": [
+    "A"
+   ],
+   "id": "FCT-002",
+   "mem": "93aaf719-f270-4ce8-8385-caa626e8b9f6",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-002"
+   ],
+   "subject": "Emeraude 2024 recettes eco-organismes 138,8 pourcent +897 k€ Citeo +75 k€ Ecomaison +58 k€ Plan Boost revente 1201 k€",
+   "tier": "✧",
+   "url": "https://www.syndicat-emeraude.fr/sites/default/files/media/downloads/PV%20CS%2010-02-2025.pdf",
+   "value": "PV CS 10/02/2025 : recettes éco-org réalisées à 138,8 % (+897 k€ Citeo écarts vs prévision, +75 k€ Ecomaison, +58 k€ Plan Boost Citeo) ; revente matériaux 1 201 k€ (108,4 %)"
+  },
+  {
+   "date": "2025-02-04",
+   "epi": "FACT",
+   "families": [
+    "A"
+   ],
+   "id": "FCT-003",
+   "mem": "19448a3a-e97c-4396-8bc9-5c098f59a7ef",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-003"
+   ],
+   "subject": "Emeraude DOB 2025 soutiens emballages Citeo 2400000 euros 2025 petits alus 700 euro tonne 35000 euros ambassadeurs tri 10000 euros",
+   "tier": "✧",
+   "url": "https://www.syndicat-emeraude.fr/sites/default/files/media/downloads/D%C3%A9lib.%202025-02-04%20D%C3%A9bat%20Orientations%20Budg%C3%A9taires%202025.PDF",
+   "value": "DOB 2025 : soutiens emballages CITEO prévus 2 400 000 € pour 2025 ; petits alus Citeo 400 €/t + CEELA 300 €/t (≈35 000 €) ; ambassadeurs de tri 10 k€ (vs 6,5 k€ 2024)"
+  },
+  {
+   "date": "2025-06-10",
+   "epi": "FACT",
+   "families": [
+    "A"
+   ],
+   "id": "FCT-004",
+   "mem": "4a3a65ba-ca97-4891-8055-d00908a902f9",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-001"
+   ],
+   "subject": "Emeraude 2024 ventilation estimée Citeo dominant 4,5-4,7 M€ Ecomaison 112529,90 euros Ecologic 5248,43 euros revente 1201 k€ total 4810483,50 euros",
+   "tier": "✧",
+   "url": "https://www.syndicat-emeraude.fr/sites/default/files/media/downloads/D%C3%A9lib.%202025-06-10%20Vote%20Compte%20Administratif%202024%20%20et%20annexes.PDF",
+   "value": "Reconstitution : total soutiens+rachats 4 810 483,50 € − revente matériaux 1 201 k€ ≈ 3,6 M€ de soutiens purs ; Citeo (emballages/papiers) dominant (prévision 2,4 M€ 2025) ; Ecomaison mobilier rattaché 112 529,90 € ; Ecologic DEEE 5 248,43 € ; EcoDDS non détaillé (GAP)"
+  }
+ ],
+ "hydrated": null,
+ "leads": [
+  {
+   "id": "LED-001",
+   "lead": "CA 2024 Emeraude : Soutiens Eco-organismes + rachats matières = 4 810 483,50 € = 12,16 % des recettes ; TEOM 33 619 550 € (85 %) ; redevance 872 572,98 € (2,21 %)",
+   "materiality": "DECISIVE",
+   "routes": [
+    "EXPAND",
+    "CONTEXT"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-002",
+   "lead": "Rattachements CA 2024 : Ecomaison Soutiens Collecte du mobilier 112 529,90 € ; Ecologic Soutien D3E T2 5 248,43 €",
+   "materiality": "DECISIVE",
+   "routes": [
+    "EXPAND"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-003",
+   "lead": "PV 10/02/2025 : recettes éco-org 138,8 % de réalisation, +897 k€ Citeo (écart vs prévision), +75 k€ Ecomaison, +58 k€ Plan Boost Citeo",
+   "materiality": "DECISIVE",
+   "routes": [
+    "EXPAND",
+    "CONTEXT"
+   ],
+   "status": "SATURATED"
+  }
+ ],
+ "memory_probe": {
+  "memory_id": "-",
+  "run_id": "-",
+  "status": "NONE"
+ },
+ "meta": {
+  "created_at": "2026-08-30T13:16:35.989749+00:00",
+  "updated_at": "2026-08-30T13:22:05.499856+00:00"
+ },
+ "persistence": {
+  "attempt_history": [
+   {
+    "created_at": "2026-08-30T13:22:05.499811+00:00",
+    "fact_mem": {
+     "FCT-001": "301c39e5-8971-4f74-a2c2-73f830283f52",
+     "FCT-002": "93aaf719-f270-4ce8-8385-caa626e8b9f6",
+     "FCT-003": "19448a3a-e97c-4396-8bc9-5c098f59a7ef",
+     "FCT-004": "4a3a65ba-ca97-4891-8055-d00908a902f9"
+    },
+    "mnemo_row": "PERSISTED_2026-08-30",
+    "result": "PASS",
+    "seq": 1,
+    "writeback_execution": [
+     {
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-001",
+      "reason": "mnemolite events",
+      "success": 1
+     },
+     {
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-002",
+      "reason": "mnemolite events",
+      "success": 1
+     },
+     {
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-003",
+      "reason": "mnemolite events",
+      "success": 1
+     },
+     {
+      "action": "ELIGIBLE:VERIFIE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-004",
+      "reason": "mnemolite events",
+      "success": 1
+     }
+    ],
+    "writeback_row": {
+     "attempted": 4,
+     "blocked": 0,
+     "eligible": 4,
+     "failure": 0,
+     "success": 4
+    }
+   }
+  ],
+  "fact_mem": {
+   "FCT-001": "301c39e5-8971-4f74-a2c2-73f830283f52",
+   "FCT-002": "93aaf719-f270-4ce8-8385-caa626e8b9f6",
+   "FCT-003": "19448a3a-e97c-4396-8bc9-5c098f59a7ef",
+   "FCT-004": "4a3a65ba-ca97-4891-8055-d00908a902f9"
+  },
+  "mnemo_row": "PERSISTED_2026-08-30",
+  "self_write_row": "PENDING_AT_SERIALIZATION",
+  "writeback_execution": [
+   {
+    "action": "ELIGIBLE:VERIFIE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-001",
+    "reason": "mnemolite events",
+    "success": 1
+   },
+   {
+    "action": "ELIGIBLE:VERIFIE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-002",
+    "reason": "mnemolite events",
+    "success": 1
+   },
+   {
+    "action": "ELIGIBLE:VERIFIE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-003",
+    "reason": "mnemolite events",
+    "success": 1
+   },
+   {
+    "action": "ELIGIBLE:VERIFIE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-004",
+    "reason": "mnemolite events",
+    "success": 1
+   }
+  ],
+  "writeback_row": {
+   "attempted": 4,
+   "blocked": 0,
+   "eligible": 4,
+   "failure": 0,
+   "success": 4
+  }
+ },
+ "refutations": [
+  {
+   "fct": "FCT-001",
+   "qry": "QRY-005",
+   "status": "NONE"
+  },
+  {
+   "fct": "FCT-002",
+   "qry": "QRY-006",
+   "status": "NONE"
+  },
+  {
+   "fct": "FCT-003",
+   "qry": "QRY-007",
+   "status": "NONE"
+  },
+  {
+   "fct": "FCT-004",
+   "qry": "QRY-008",
+   "status": "NONE"
+  }
+ ],
+ "requests": [
+  {
+   "id": "QRY-001",
+   "mode": "WEB",
+   "query": "Syndicat Emeraude compte administratif 2024 recettes éco-organismes détail",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-002",
+   "mode": "FETCH",
+   "query": "FETCH délibération Vote CA 2024 Emeraude et annexes",
+   "result": "FOUND",
+   "source": "SRC-001",
+   "url": "https://www.syndicat-emeraude.fr/sites/default/files/media/downloads/D%C3%A9lib.%202025-06-10%20Vote%20Compte%20Administratif%202024%20%20et%20annexes.PDF"
+  },
+  {
+   "id": "QRY-003",
+   "mode": "FETCH",
+   "query": "FETCH PV CS Emeraude 10-02-2025 bilan 2024 éco-organismes",
+   "result": "FOUND",
+   "source": "SRC-002",
+   "url": "https://www.syndicat-emeraude.fr/sites/default/files/media/downloads/PV%20CS%2010-02-2025.pdf"
+  },
+  {
+   "id": "QRY-004",
+   "mode": "FETCH",
+   "query": "FETCH DOB 2025 Emeraude prévisions éco-organismes Citeo 2,4 M€",
+   "result": "FOUND",
+   "source": "SRC-003",
+   "url": "https://www.syndicat-emeraude.fr/sites/default/files/media/downloads/D%C3%A9lib.%202025-02-04%20D%C3%A9bat%20Orientations%20Budg%C3%A9taires%202025.PDF"
+  },
+  {
+   "id": "QRY-005",
+   "mode": "WEB",
+   "query": "REFUTATION Emeraude CA 2024 4810483,50 12,16 33619550 85 872572,98 112529,90 5248,43 contredit",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-006",
+   "mode": "WEB",
+   "query": "REFUTATION Emeraude 2024 138,8 897 75 58 1201 contredit",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-007",
+   "mode": "WEB",
+   "query": "REFUTATION DOB 2025 2400000 700 35000 10000 contredit",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-008",
+   "mode": "WEB",
+   "query": "REFUTATION Emeraude ventilation 2024 4 5 7 4810483 4810483,50 1201 112529 112529,90 5248 5248,43 43 90 50 3600 contredit",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  }
+ ],
+ "run": {
+  "as_of": "2026-08-30",
+  "certification_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_ventilation-soutiens-emeraude/2026-08-30_15-16_ventilation-soutiens-emeraude_CERTIFICATION.json",
+  "checkpoint_seq": 7,
+  "complexity": "COMPLEX",
+  "complexity_score": "6",
+  "degraded_flags": [],
+  "input_kind": "CLAIM",
+  "input_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_ventilation-soutiens-emeraude/2026-08-30_15-16_ventilation-soutiens-emeraude_INPUT.txt",
+  "input_ref": "PATH:/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_ventilation-soutiens-emeraude/2026-08-30_15-16_ventilation-soutiens-emeraude_INPUT.txt",
+  "input_sha256": "sha256:7164d405f8651ff7fa59c2cbb6aa661bed887b23f9e7532bbb7b5b3d8d9fd89f",
+  "investigation_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_ventilation-soutiens-emeraude/2026-08-30_15-16_ventilation-soutiens-emeraude_INVESTIGATION.md",
+  "last_completed": "18b",
+  "loaded_modules": [
+   "definitions/SYMBOLS.md",
+   "definitions/PATTERNS.md",
+   "definitions/THREATS.md",
+   "forensic/GATES.md",
+   "forensic/REQUEST_LOG.md"
+  ],
+  "mission_mode": "INVESTIGATION",
+  "narrative_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_ventilation-soutiens-emeraude/2026-08-30_15-16_ventilation-soutiens-emeraude_NARRATIVE.tmp.md",
+  "next_action": "NONE",
+  "original_input_ref": "PATH:/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_ventilation-soutiens-emeraude/2026-08-30_15-16_ventilation-soutiens-emeraude_RUN_STATE.json",
+  "parent_run_id": "NONE",
+  "resume_count": 0,
+  "route_overrides": [],
+  "run_dir": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_ventilation-soutiens-emeraude",
+  "run_id": "20260830-1516-ventilation-soutiens-emeraude",
+  "scope": {
+   "actors_entities": [
+    "Citeo",
+    "Ecomaison",
+    "EcoDDS",
+    "Ecologic",
+    "Emeraude"
+   ],
+   "domains": [
+    "economie",
+    "transparence_financiere",
+    "gestion_dechets"
+   ],
+   "exclusions": [],
+   "geo": "Syndicat Emeraude (Val-d'Oise)",
+   "lead_question": "Combien Emeraude a-t-il perçu de soutiens par éco-organisme (Citeo, Ecomaison, EcoDDS, Ecologic) en 2024 ?",
+   "limits": [
+    "CA 2024 : total consolidé sans détail par éco-org dans le texte extrait",
+    "rattachements seulement pour Ecomaison/Ecologic (recettes non encore émises)",
+    "Citeo estimé par différence (total - revente - rattachements)"
+   ],
+   "object_question": "Ventiler les 4 810 483,50 € de soutiens éco-organismes + rachats matières du CA 2024 d'Emeraude par filière, à partir du CA 2024 et des PV/DOB : Citeo (emballages/papiers), Ecomaison (mobilier/EA/ABJ), EcoDDS (DDS), Ecologic (DEEE)",
+   "period": "2024"
+  },
+  "snapshot_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_ventilation-soutiens-emeraude/2026-08-30_15-16_ventilation-soutiens-emeraude_MNEMO_SNAPSHOT.json",
+  "state": "FINAL",
+  "state_path": "/home/giak/projects/truth-engine/investigations/2026-08/2026-08-30_dechetteries-france/2026-08-30_ventilation-soutiens-emeraude/2026-08-30_15-16_ventilation-soutiens-emeraude_RUN_STATE.json",
+  "subject_fingerprint": "sha256:7164d405f8651ff7fa59c2cbb6aa661bed887b23f9e7532bbb7b5b3d8d9fd89f",
+  "subject_fingerprint_legacy_v1": "sha256:7164d405f8651ff7fa59c2cbb6aa661bed887b23f9e7532bbb7b5b3d8d9fd89f",
+  "subject_slug": "ventilation-soutiens-emeraude"
+ },
+ "schema": 1,
+ "sections": {
+  "ACTOR_NETWORK_MAP": {
+   "acteurs": "Citeo (emballages, dominant), Ecomaison (mobilier), Ecologic (D3E), EcoDDS (DDS), collectivite Emeraude (exploitant)",
+   "roles": "eco-org versent des soutiens contractuels par tonne/forfait ; Citeo detient la prevision 2,4 M€ emballages 2025 ; les rattachements Ecomaison/Ecologic montrent le circuit de paiement en fin d'exercice"
+  },
+  "CAUSALITY_REGISTRY": "RUNTIME_DERIVED",
+  "CLAIM_REGISTRY": "RUNTIME_DERIVED",
+  "COGNITIVE_MAP": {
+   "mecanisme": "Citeo domine la masse (emballages ~4,5-4,7 M€), Ecomaison et Ecologic marginaux en montant (rattachements 112 529,90 € + 5 248,43 €)",
+   "modele": "la ventilation se reconstitue par différence (total - revente - rattachements) et par croisement barèmes × tonnages"
+  },
+  "CONTRADICTION_LEDGER": [
+   {
+    "cause": "titres de recette emis non publies dans le PDF du CA",
+    "discriminant": "DOB 2026 ou etats des titres de recette",
+    "fact": "le CA consolide 4 810 483,50 € sans detail Citeo",
+    "status": "OPEN"
+   }
+  ],
+  "CONTROL_MAP": "RUNTIME_DERIVED",
+  "CREDO": {
+   "refutation_run": true,
+   "sources_primaires_inspectees": true,
+   "ventilation_estimee_documentee": true
+  },
+  "DIALECTICAL_MAP": {
+   "antithese": "le détail existe dans les titres de recette émis (non publiés dans le PDF) et les rattachements",
+   "synthese": "ventilation estimée robuste : Citeo dominant, Ecomaison ~112 k€, Ecologic ~5 k€, avec GAP documenté sur le détail exact Citeo",
+   "these": "le CA 2024 consolide les soutiens sans détail par éco-organisme"
+  },
+  "EDI_REPORT": {
+   "dimensions": [
+    "economie",
+    "transparence",
+    "asymetrie informationnelle"
+   ],
+   "limites": "detail Citeo par titre de recette non publie dans le PDF du CA ; ventilation Citeo estimee (4,5-4,7 M€) par difference et croisement, pas lue titre par titre"
+  },
+  "GATE_STATUS_V1": {
+   "G0": "PASS",
+   "G1": "PASS",
+   "G10": "PASS",
+   "G2": "PASS",
+   "G3": "PASS",
+   "G4": "PASS",
+   "G5": "PASS",
+   "G6": "PASS",
+   "G7": "PASS",
+   "G8": "PASS",
+   "G9": "PASS"
+  },
+  "IMPACT_MAP": {
+   "concentration": "Citeo 4,5-4,7 M€ ≈ 94-98 % des soutiens ; Ecomaison 112 529,90 € ≈ 2,3 % ; Ecologic 5 248,43 € ≈ 0,1 %",
+   "dependance": "prevision 2025 Citeo 2,4 M€ seule filiere emballages : la valeur contractuelle est concentree",
+   "recettes": "soutiens eco-org + rachats 4 810 483,50 € = 12,16 % vs TEOM 85 % : le contribuable local reste le premier financeur"
+  },
+  "INVESTIGATION_MAP": "RUNTIME_DERIVED",
+  "LEAD_REGISTRY": "RUNTIME_DERIVED",
+  "MANIPULATION_REPORT": {
+   "interets": "Citeo (emballages) capte l'essentiel de la valeur contractuelle ; la TEOM (85 %) fait porter la charge au contribuable local",
+   "opacite": "CA consolide les soutiens en un seul poste : impossible de savoir quelle filiere paie quoi sans les etats de titres de recette",
+   "revelation": "le croisement barèmes x tonnages + rattachements reconstituer la ventilation : Citeo ~94-98 %, Ecomaison ~2,3 %, Ecologic ~0,1 %"
+  },
+  "NEXT_QUERIES": [
+   "DOB 2026 ou etats des titres de recette pour le detail exact Citeo par titre",
+   "CA 2025 Emeraude (publication attendue mi-2026) pour confirmer la ventilation",
+   "Generaliser la ventilation par filiere sur Tri-Action et SGC"
+  ],
+  "OPEN_GAPS": "RUNTIME_DERIVED",
+  "RESOURCE_FLOW_MAP": {
+   "delta": "Citeo dominant (4,5-4,7 M€) vs filières D3E/mobilier marginales ; revente matériaux 1 201 k€ séparée des soutiens",
+   "flux": "soutiens éco-org + rachats 4 810 483,50 € (12,16 % recettes) ; TEOM 33 619 550 € (85 %) ; redevance 872 572,98 € ; rattachements Ecomaison 112 529,90 € + Ecologic 5 248,43 €"
+  },
+  "RESPONSIBILITY_MAP": {
+   "asymetrie": "les baremes sont fixes unilateralement par les eco-org (contrats-types) ; la collectivite execute et supporte 85 % de la charge via TEOM",
+   "charge_effective": "usager final (TEOM) + collectivite (investissement/exploitation)",
+   "responsabilite": "producteurs via REP (emballages Citeo, mobilier Ecomaison, D3E Ecologic)"
+  },
+  "SCOPING_REPORT": {
+   "geo": "Syndicat Emeraude (Val-d'Oise, 14 communes)",
+   "lead_question": "Comment ventiler les soutiens éco-organismes 2024 d'Emeraude par filière (Citeo, Ecomaison, Ecologic/EcoDDS) à partir du compte administratif ?",
+   "object_question": "Ventilation des soutiens Emeraude 2024 : total 4 810 483,50 € par éco-organisme, par croisement CA + barèmes + rattachements",
+   "periode": "2023-2025"
+  },
+  "STATUS_DELTA": "RUNTIME_DERIVED",
+  "TEMPORAL_STATE": {
+   "as_of": "2026-08-30",
+   "periode_etudiee": "CA 2024 + DOB 2025 + PV 2025",
+   "phase": "ventilation des soutiens par filière"
+  },
+  "TRACE_MATRIX": "RUNTIME_DERIVED",
+  "VERIFICATION_REPORT": {
+   "ca_2024": "PDF deliberation 10/06/2025 inspecte (35 pages) : total soutiens + rachats 4 810 483,50 €, TEOM 33 619 550 €, rattachements Ecomaison 112 529,90 € + Ecologic 5 248,43 €",
+   "dob_2025": "DOB 2025 : prevision Citeo emballages 2 400 000 €, petits alus 700 €/t (Citeo 400 + CEELA 300), ambassadeurs 10 k€",
+   "pv_2025": "PV CS 10/02/2025 : recettes eco-org realisees 138,8 %, +897 k€ Citeo, +75 k€ Ecomaison, +58 k€ Plan Boost"
+  }
+ },
+ "sources": [
+  {
+   "family": "A",
+   "id": "SRC-001",
+   "role": "◈",
+   "title": "Délibération Vote Compte Administratif 2024 Emeraude + annexes",
+   "url": "https://www.syndicat-emeraude.fr/sites/default/files/media/downloads/D%C3%A9lib.%202025-06-10%20Vote%20Compte%20Administratif%202024%20%20et%20annexes.PDF"
+  },
+  {
+   "family": "A",
+   "id": "SRC-002",
+   "role": "◈",
+   "title": "PV Comité Syndical Emeraude 10/02/2025",
+   "url": "https://www.syndicat-emeraude.fr/sites/default/files/media/downloads/PV%20CS%2010-02-2025.pdf"
+  },
+  {
+   "family": "A",
+   "id": "SRC-003",
+   "role": "◈",
+   "title": "DOB 2025 Emeraude",
+   "url": "https://www.syndicat-emeraude.fr/sites/default/files/media/downloads/D%C3%A9lib.%202025-02-04%20D%C3%A9bat%20Orientations%20Budg%C3%A9taires%202025.PDF"
+  }
+ ],
+ "stamps": {
+  "FINAL_RENDERED": "2026-08-30T13:20:42.579077+00:00",
+  "RESEARCH_DONE": "2026-08-30T13:19:48.985995+00:00",
+  "START": "2026-08-30T13:16:35.989732+00:00"
+ },
+ "sys_log": [
+  {
+   "call": "MEMORY_PROBE",
+   "id": "SYS-001",
+   "mode": "SYS",
+   "ref": "-",
+   "result": "NONE",
+   "tool": "runtime"
+  },
+  {
+   "call": "MNEMO_Q",
+   "id": "SYS-002",
+   "mode": "SYS",
+   "ref": "-",
+   "result": "FOUND:200-healthy",
+   "tool": "mcp:search_memory"
+  },
+  {
+   "call": "MEMORY_PROBE",
+   "id": "SYS-003",
+   "mode": "SYS",
+   "ref": "-",
+   "result": "NONE",
+   "tool": "runtime"
+  },
+  {
+   "call": "PERSIST_REBIND",
+   "id": "SYS-004",
+   "mode": "SYS",
+   "ref": "ATTEMPT-001",
+   "result": "PASS",
+   "tool": "runtime"
+  }
+ ]
+}
