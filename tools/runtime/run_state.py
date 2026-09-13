@@ -1292,9 +1292,12 @@ def machine_blocks(state: dict, phase: str) -> str:
     else:
         lines += ["", f"PERSISTENCE_META: MNEMO_ROW:{p['mnemo_row']} | SELF_WRITE_ROW:PENDING_AT_SERIALIZATION | WRITEBACK_ROW:{format_writeback_row(p['writeback_row'])} | WRITEBACK_EXECUTION_V1:[{len(p['writeback_execution'])} rows, see section]"]
         lines += ["", "## WRITEBACK_EXECUTION_V1"]
+        fact_by_id_map = {f["id"]: f for f in state["facts"]}
         for r in p["writeback_execution"]:
+            fact = fact_by_id_map.get(r["fct"])
+            action = writeback_action(fact) if fact is not None else r["action"]
             lines.append(
-                f"{r['fct']} | {r['action']} | attempted:{r['attempted']} | success:{r['success']} | "
+                f"{r['fct']} | {action} | attempted:{r['attempted']} | success:{r['success']} | "
                 f"failure:{r['failure']} | blocked:{r['blocked']} | reason:{r['reason']}"
             )
     return "\n".join(lines).rstrip() + "\n"
