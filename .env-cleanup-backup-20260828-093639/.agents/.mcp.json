@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "headroom": {
+      "command": ["headroom", "mcp", "serve"],
+      "args": []
+    },
+    "headroom-memory": {
+      "command": ["/home/giak/.local/pipx/venvs/headroom-ai/bin/python", "-m", "headroom.memory.mcp_server",
+                   "--db", "/home/giak/.headroom/memory.db"],
+      "args": []
+    }
+  }
+}

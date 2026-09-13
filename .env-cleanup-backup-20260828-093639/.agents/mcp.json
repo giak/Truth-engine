@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mnemolite": {
+      "type": "http",
+      "url": "http://localhost:8002/mcp"
+    },
+    "search": {
+      "type": "http",
+      "url": "http://localhost:8010/mcp"
+    }
+  }
+}
