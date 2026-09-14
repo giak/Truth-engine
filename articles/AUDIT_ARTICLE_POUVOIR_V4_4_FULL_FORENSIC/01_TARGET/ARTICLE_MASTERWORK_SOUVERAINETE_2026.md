@@ -1,0 +1,330 @@
+# 🩸 L’État sous asphyxie : comment l’architecture des verrous judiciaires, financiers, normatifs et d’élites a vidé la souveraineté française sans tirer un coup de feu
+
+*Autopsie forensique d’un régime où 8,9 milliards de pénalités, un marché du cloud européen détenu à 70 % par trois acteurs américains et des mobilités ministérielles ont remplacé la contrainte militaire.*
+
+---
+
+## Prologue : Le paradoxe de la souveraineté impotente
+
+La France contemporaine présente un paradoxe de puissance sans précédent dans son histoire. Elle dispose d’une dissuasion nucléaire océanique et aérienne, siège de manière permanente au Conseil de sécurité des Nations unies, se classe au 2e rang mondial des exportateurs d’armement [81] et consacre 57,1 milliards d’euros à sa défense nationale en 2026, selon le projet de loi de finances des Armées du ministère des Armées [76]. 
+
+Pourtant, au cours des deux dernières décennies, ses fleurons industriels les plus stratégiques ont été démembrés sous la pression de juges fédéraux étrangers, environ 70 % du marché européen du cloud est détenu par trois fournisseurs américains [80], auxquels sont confiées des données publiques et de santé soustraites à sa juridiction, ses arbitrages énergétiques majeurs ont été dictés par des sanctions de seconde main, et ses anciens conseillers ministériels ont rejoint la direction des multinationales bénéficiaires de ces cessions.
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    LE PARADOXE DE LA SOUVERAINETÉ IMPOTENTE             │
+├───────────────────────────────────┬─────────────────────────────────────┤
+│ Atouts de Puissance Affichés      │ Réalités Forensiques Constatées     │
+├───────────────────────────────────┼─────────────────────────────────────┤
+│ • Dissuasion nucléaire (SNA/ASMP) │ • Cloud UE : 70 % (3 acteurs US)    │
+│ • 2e exportateur mondial d’armes  │ • Cession d’Alstom sous amende FCPA │
+│ • Budget défense 57,1 Md€ (2026)  │ • Amende 8,97 Md$ (BNP Paribas)     │
+│ • Membre permanent Conseil de Sec.│ • Pantouflage de conseillers d’État │
+└───────────────────────────────────┴─────────────────────────────────────┘
+```
+
+Face à ce grand écart, le débat public oscille entre deux pièges : la dénonciation simpliste d’un complot permanent orchestré par des officines clandestines, ou la résignation technocratique présentant chaque capitulation comme une simple adaptation au marché global.
+
+L’analyse des archives documentaires, des procédures de justice pénale internationale et des délibérations administratives impose une lecture plus froide. **La souveraineté française et européenne ne s’effondre pas sous le coup d’ordres secrets : elle s’asphyxie sous quatre verrous structurels, documentés séparément.** Chaque verrou neutralise une capacité de décision sans jamais exiger d’acte de trahison ni d’instruction écrite explicite.
+
+---
+
+## I. Le verrou d’infrastructure et d’ingérence : le péage monétaire et numérique, les officines privées et l’emprise clandestine
+
+La souveraineté effective se mesure à l’indépendance de ses moyens d’exécution. Lorsqu’un État ou une entreprise ne peut réaliser une transaction majeure sans passer par le péage technique, juridique ou monétaire d’une puissance tierce, sa liberté de décision devient une fiction juridique. Le péage n’épuise pas le verrou : un appareil étranger qui agit sur le territoire en dehors des canaux officiels produit le même effet sans qu’aucune transaction soit à taxer. Dépendre d’un canal contrôlé hors de la juridiction nationale, ou cohabiter avec un appareil qui n’en relève pas : ce sont les deux formes d’un même verrou d’exécution.
+
+### 1. La guillotine du dollar et le péage du clearing
+L’affaire BNP Paribas constitue la démonstration la plus nette du pouvoir de contrôle par l’infrastructure financière. Le 30 juin 2014, le groupe bancaire français accepte de plaider coupable devant les autorités fédérales et de l’État de New York pour avoir violé des embargos américains au Soudan, en Iran et à Cuba, comme le relève le communiqué du département de la Justice [10]. Le bilan financier est sans équivalent :
+- **Une pénalité de 8,97 milliards de dollars** (6,6 milliards d’euros), la plus lourde alors payée par une banque étrangère aux États-Unis.
+- **Une interdiction temporaire d’un an** de réaliser des opérations de compensation en dollars (*clearing*) pour les activités de financement du pétrole et du gaz.
+
+Le fondement juridique de cette sanction ne repose ni sur la présence de filiales bancaires dans les pays sous embargo, ni sur une loi votée par le Parlement français ou le Conseil européen. Il découle exclusivement du transit informatique des flux financiers libellés en dollars par des comptes de compensation hébergés sur le sol américain. 
+
+Pour la première banque de la zone euro, la menace d’une coupure d’accès au système de compensation en dollars équivalait à une mise à mort opérationnelle. BNP Paribas n’a pas été convaincue par la légitimité des sanctions américaines ; elle a cédé pour conserver son artère vitale [10] [75].
+
+### 2. La sur-conformité passive (*Over-compliance*)
+La contrainte d’infrastructure génère une deuxième onde de choc : l’autocensure préventive des acteurs industriels. En mai 2018, lorsque l’administration américaine se retire de l’accord JCPOA et réimpose des sanctions secondaires contre l’Iran, le groupe TotalEnergies annonce, dans un communiqué du 16 mai 2018, l’abandon de son projet gazier South Pars 11, dont le coût total était évalué à 4,8 milliards de dollars [11] [71].
+
+```
+[Sanctions secondaires US] ──> [Risque de coupure clearing $] ──> [Retrait préventif TotalEnergies]
+                                          │
+                                 [Règlement UE 2271/96]
+                                 (Incapable d’offrir une immunité)
+```
+
+![Figure 8 : Le mécanisme de la sur-conformité : des sanctions secondaires au retrait préventif, avec un recours européen qui n’offre pas d’immunité.](figures/png/fig08_sur_conformite.png)
+
+Aucun ordre individuel n’a été transmis par la Maison Blanche aux dirigeants de TotalEnergies. Mais avec près de 40 % de son capital détenu par des investisseurs nord-américains, contre 25,3 % pour des actionnaires français [74], et un refinancement dépendant des marchés obligataires en dollars, le coût d’une résistance dépassait la valeur de l’actif. 
+
+Même lorsque l’Union européenne a tenté d’intervenir en activant son règlement de blocage (n° 2271/96), la Cour de justice de l’Union européenne a dû constater l’impasse des entreprises européennes, écartelées entre l’obligation légale européenne et le risque de faillite globale aux États-Unis [12] [13].
+
+### 3. La capture des données publiques et du chiffrement
+Le même mécanisme de péage s’est dupliqué dans le domaine de la donnée publique et de la sécurité des communications :
+- **EUCS et Health Data Hub** : Lors des négociations du schéma européen de certification cloud (EUCS), des exigences de souveraineté visant à protéger les données sensibles contre les accès extraterritoriaux en vertu du *US CLOUD Act* avaient été introduites. La Chambre de commerce des États-Unis et des associations professionnelles transatlantiques ont publiquement demandé le retrait de ces clauses, dans une déclaration conjointe de mai 2023 [51] ; elles ont été progressivement retirées. En France, l’hébergement des données de santé de la population couverte par l’assurance maladie, plus de 66 millions de personnes [73], sur le *Health Data Hub* a été confié à la plateforme Microsoft Azure.
+- **Chat Control et eIDAS 2.0 (QWAC)** : Deux tentatives d’imposer des capacités d’interception ont été portées au niveau européen, et leurs issues sont documentées. Le règlement (UE) 2024/1183 (eIDAS 2) fait obligation aux navigateurs de reconnaître les certificats qualifiés d’authentification de site, tout en encadrant, à son article 45a, les mesures de précaution qu’ils peuvent prendre contre un certificat [69]. La dérogation ePrivacy qui autorise la détection de contenus pédocriminels a été rétablie jusqu’au 3 avril 2028 ; cette détection y reste **volontaire**, et les communications chiffrées de bout en bout sont **exclues** de son champ [69]. Le règlement permanent, qui prévoyait des ordres de détection, est toujours en négociation, et le blocage porte précisément sur la détection obligatoire. Les capacités existent, elles sont sectorielles, et **aucune pièce ne ferme le pont** entre elles et une architecture intégrée d’identité, de communications et de sanction.
+
+### 4. La privatisation des officines d’ingérence : Alp Services et Rokh Solis
+L’asphyxie d’infrastructure ne provient pas uniquement de juridictions étatiques déclarées :
+- **Le réseau Alp Services (Émirats arabes unis)** : L’investigation consacrée à l’influence clandestine et réputationnelle documente le cas où un cabinet privé de renseignement basé à Genève a été mandaté par des entités liées au renseignement émirati pour concevoir et diffuser en Europe des fiches de profilage et des campagnes de déstabilisation ciblant des personnalités publiques et des ONG, comme l’ont établi les enquêtes Mediapart et RSI sur les « Abu Dhabi Secrets » [65].
+- **L’opérateur privé BlackCore / Rokh Solis** : L’investigation consacrée à l’influence israélienne en France documente des opérations de manipulation de contenu et d’influence numérique, liées à un opérateur privé. Les marqueurs techniques et la proximité avec Blackcore sont documentés par l’analyse de mode opératoire publiée par VIGINUM ; le commanditaire reste non identifié [66].
+
+### 5. L’ingérence informationnelle hybride russe : Doppelgänger et la riposte VIGINUM
+L’asphyxie d’infrastructure ne se limite pas aux sphères financière et commerciale. L’opération « Doppelgänger », documentée à partir de 2022, a consisté à créer un réseau de sites typosquattés imitant les pages web de médias européens de référence pour diffuser des contenus pro-Kremlin déguisés en articles journalistiques ; sa déclinaison française, la campagne RRN, a été analysée par VIGINUM (service de vigilance et de protection contre les ingérences numériques étrangères, rattaché au SGDSN) dans un rapport rendu public le 19 juillet 2023 [77].
+
+L’opération illustre un verrou d’infrastructure informationnelle : la capacité d’un État tiers à injecter massivement de faux contenus dans l’écosystème numérique européen en exploitant les failles de modération des plateformes. Le rapport d’activité VIGINUM 2024 compte **259 phénomènes inauthentiques détectés** dans l’année, dont **174 liés à une ingérence numérique étrangère**, ainsi que **25 manœuvres informationnelles** visant les scrutins français, quatorze pour les européennes et onze pour les législatives [3].
+
+Cependant, le cas Doppelgänger constitue aussi une preuve de résistance institutionnelle. VIGINUM a détecté, caractérisé et contribué à neutraliser le réseau en coordination avec les plateformes, démontrant qu’un outil souverain dédié peut contenir une offensive informationnelle étrangère lorsque la volonté politique de le créer et de le doter existe : le rapport 2024 documente les signalements techniques transmis à sept plateformes, qui ont parfois conduit à des actions de modération [3].
+
+### 6. L’emprise territoriale clandestine : les relais de police du Front uni chinois
+À l’influence s’ajoute une emprise d’une autre nature : des structures étatiques installées sans titre sur le territoire. L’investigation consacrée au Front uni documente les révélations de la DGSI, qui a identifié neuf relais de stations de police, et la décision du Conseil d’État constatant qu’une association du Fujian avait hébergé une station clandestine servant de relais à des organes du Parti et au ministère chinois de la Sécurité publique. Ces relais informels ont exercé des pressions et des opérations de contrôle au détriment de ressortissants de la diaspora sur le territoire français, constituant une atteinte directe à la souveraineté administrative et judiciaire de la France [67].
+
+---
+
+## II. Le verrou du Lawfare industriel : la coercition juridique sur les actifs
+
+Le deuxième verrou combine l’usage d’outils répressifs extraterritoriaux (tels que le *Foreign Corrupt Practices Act* américain) et des procédures d’arbitrage privé (ISDS) pour forcer le transfert de propriété d’actifs industriels souverains.
+
+### 1. L’autopsie intégrale de l’affaire Alstom (2010-2026)
+L’acquisition de la branche Énergie d’Alstom par General Electric entre 2014 et 2015 constitue le cas le plus grave et le mieux documenté d’asphyxie d’un champion industriel français.
+
+```
+[2010] Enquête pénale FCPA du DOJ (Procédure secrète sur des contrats en Indonésie)
+  │
+[14 Avril 2013] Arrestation à l’aéroport JFK de Frédéric Pierucci (Vice-président Alstom)
+  │             └─ Risque d’une amende de > 1 milliard $ sur Alstom
+  │
+[Avril 2014] Annonce de la cession exclusive de la branche Énergie à General Electric
+  │
+[5 Nov 2014] Arrêté d’autorisation d’investissement IEF signé par Emmanuel Macron
+  │
+[22 Déc 2014] Alstom plaide coupable aux États-Unis (Amende pénale de 772,29 M$)
+  │
+[2015-2019] Cession finalisée ──> Hugh Bailey (ex-conseiller Énergie au cabinet) nommé DG de GE France (2019)
+  │
+[31 Mai 2024] Rachat coûteux par EDF des turbines Arabelle (EDF acquiert Arabelle Solutions)
+  │
+[20 Fév 2026] Anticor se constitue partie civile ; l’information judiciaire ouverte en déc. 2022 reste en cours
+```
+
+![Figure 5 : La chaîne bornée d’Alstom : chaque relation de la contrainte est documentée, la chaîne s’arrête à l’engagement du dirigeant.](figures/png/fig05_alstom_chaine_bornee.png)
+
+L’enchaînement des pièces documentées par la commission d’enquête de l’Assemblée nationale [1] [54], dont l’audition sous serment de Patrick Kron [53], met au jour le mécanisme de contrainte :
+1. **L’étau pénal** : En 2010, le DOJ ouvre une enquête pénale pour corruption contre Alstom au titre du FCPA. En avril 2013, l’arrestation brutale du dirigeant Frédéric Pierucci à New York signale au PDG Patrick Kron que les dirigeants risquent la prison ferme et l’entreprise une amende d’au moins un milliard de dollars.
+2. **La cession sous contrainte** : Privée de soutien étatique et menacée de faillite judiciaire, la direction d’Alstom entre en négociation exclusive avec l’américain General Electric pour lui céder l’intégralité de sa branche Énergie (comprenant les turbines Arabelle, uniques générateurs de puissance de la flotte des réacteurs nucléaires français et de la propulsion des sous-marins d’attaque de la Marine nationale).
+3. **La signature ministérielle** : Le 5 novembre 2014, le ministre de l’Économie Emmanuel Macron délivre l’autorisation IEF permettant la vente [52]. Le 22 décembre 2014, Alstom plaide coupable et règle 772,29 millions de dollars de pénalité au Trésor américain, comme le relève le communiqué du département de la Justice [44].
+4. **La trahison des engagements et le coût du rachat** : GE s’était engagé par écrit à créer 1 000 emplois net en France sous peine d’une amende de 50 000 euros par emploi manquant [56] [72]. Non seulement les emplois n’ont pas été créés, vingt-cinq emplois nets seulement ayant vu le jour, mais GE a supprimé des centaines de postes à Belfort, et l’État a exigé la pénalité de 50 millions d’euros prévue par la clause, comme le rapporte la réponse ministérielle du 25 juillet 2019 [72]. Le 31 mai 2024, le groupe public EDF a dû racheter à prix d’or ces mêmes activités nucléaires (renommées Arabelle Solutions) pour rétablir une souveraineté minimale [55], pendant que l’information judiciaire ouverte en décembre 2022 reste en cours, comme le relatait *Le Monde* en mars 2026 [57].
+
+Il n’y a pas eu d’ordre militaire étranger. L’instrumentalisation d’une procédure pénale pour des faits commis en Asie a suffi à liquider un fleuron industriel stratégique.
+
+### 2. La menace permanente de l’arbitrage d’investissement (ISDS)
+Dans le secteur énergétique, la contrainte judiciaire prend la forme de tribunaux d’arbitrage internationaux privés (CIRDI). Dans l’affaire *Rockhopper c. Italie*, la firme pétrolière britannique a fait condamner l’État italien en août 2022 à lui verser 190 millions d’euros de dommages-intérêts pour avoir refusé un permis de forage côtier au nom de la protection environnementale [49]. 
+
+Bien que cette sentence ait été annulée le 2 juin 2025 par un comité ad hoc du CIRDI [49], l’effet d’intimidation réglementaire (*regulatory chill*) créé par le Traité sur la Charte de l’énergie (TCE) a bloqué des dizaines de réformes écologiques en Europe, contraignant l’Union européenne à notifier sa sortie collective du traité en juin 2024 [50].
+
+---
+
+## III. Le verrou normatif et de conseil : la captation cognitive et la vérité sous ordonnance
+
+Le troisième verrou opère en amont de la décision publique, en façonnant les règles techniques de l’économie numérique, la sous-traitance de l’expertise de l’État aux cabinets de conseil et l’encadrement des flux d’information.
+
+### 1. La sous-traitance de l’expertise publique : McKinsey et les Big Four, de l’étude à la norme
+Les investigations sur la production de normes et la sous-traitance publique ne concluent pas à un abandon de la capacité d’analyse de l’État : elles documentent une dépendance réelle à l’expertise privée et, dans les mêmes dossiers, des filtres, des réécritures et des rejets. Ce qu’elles ferment, c’est la confusion entre recours au conseil et délégation de souveraineté :
+- **La dépendance aux cabinets de conseil (McKinsey)** : L’intervention massive des cabinets privés dans l’élaboration et le suivi des politiques publiques françaises crée un risque d’accoutumance institutionnelle et de perte de compétences internes, comme le documentait le rapport du Sénat de 2021 sur l’influence croissante des cabinets de conseil [68].
+- **La rédaction des normes européennes par les Big Four** : Un cas documenté porte sur la sécurité des machines. L’étude commandée par la direction générale GROW de la Commission pour préparer la révision de la directive 2006/42/CE a été écrite par un consortium qui inclut Deloitte, aux côtés de Valdani Vicari & Associati, du Vienna Institute for International Economic Studies et d’Ecorys, comme le porte sa page de titre. Ses études de cas recommandent de considérer comme composant de sécurité un logiciel qui remplit une fonction de sécurité et qui est mis sur le marché indépendamment de la machine. Le considérant 19 du règlement (UE) 2023/1230 retient précisément cette solution, et l’analyse d’impact SWD(2021) 82 a accompagné la proposition. Ce que la pièce établit est une continuité textuelle au niveau d’un consortium ; elle n’isole pas la contribution propre de Deloitte et **ne démontre ni capture ni contrôle de la décision** [70].
+
+### 2. La guerre silencieuse des standards internet (L’échec de New IP)
+En septembre 2019, l’équipementier chinois Huawei a présenté devant l’Union internationale des télécommunications (UIT), dans sa contribution C-0083, une refonte globale du protocole internet appelée « New IP » [27]. Ce système visait à remplacer l’architecture ouverte de l’IETF par un réseau doté de mécanismes d’identification et de coupure sélective des paquets de données intégrés au niveau matériel.
+
+```
+       Proposition Chinoise (2019)               Veto Coalition Ouest (2022)
+┌──────────────────────────────────────┐     ┌─────────────────────────────────────┐
+│ Huawei : "New IP" (ITU-T C-0083)     │ ──> │ Coalition US / UE / ISOC            │
+│ Contrôle natif et routage centralisé │     │ Bloqué aux instances IETF & ITU     │
+└──────────────────────────────────────┘     └─────────────────────────────────────┘
+```
+
+Cette tentative de verrouillage normatif a pu être neutralisée par une coalition entre les États-Unis, la Commission européenne et l’Internet Society, qui a publiquement analysé et combattu la proposition [28]. Mais elle a révélé la vulnérabilité des démocraties : si un standard technique parvient à s’imposer dans un organisme de normalisation avant que le politique ne s’en saisisse, la décision souveraine s’en trouve annulée d’avance.
+
+### 3. Le monopole d’agences et la vérité sur ordonnance
+Dans le champ de l’information publique, la souveraineté cognitive est compromise par une concentration massive des flux d’origine. Les études universitaires disponibles portent sur des paysages nationaux, mais elles convergent : aux Pays-Bas, Boumans et ses coauteurs (2018) établissent que les dépêches d’agence alimentent jusqu’à 75 % de l’actualité en ligne, en grande partie reprises verbatim [29] ; en Suisse, Vogler et ses coauteurs (2024) documentent le même rôle structurant du matériel d’agence dans les rédactions [30]. Aucune de ces études ne mesure l’Europe dans son ensemble : l’hypothèse d’une dépendance comparable de la presse en ligne européenne aux dépêches des grandes agences mondiales, dont AFP, Reuters et Associated Press, reste à établir par une mesure dédiée.
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    LA CHAÎNE DE DISTRIBUTION DE LA VÉRITÉ               │
+├─────────────────────────────────────────────────────────────────────────┤
+│ [3 Agences Mondiales : AFP / Reuters / AP]                              │
+│   │                                                                     │
+│   ▼                                                                     │
+│ [Rédactions en ligne fortement dépendantes du matériel d’agence]        │
+│   │                                                                     │
+│   ▼                                                                     │
+│ [Fact-checkers certifiés IFCN / EFCSN] ──> [DSA Art. 22 : Signaleurs]   │
+│   │                                                                     │
+│   ▼                                                                     │
+│ [Modération algorithmique déléguée aux plateformes privées (Meta/X)]    │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+![Figure 9 : La cascade de la vérité : quatre étages documentés, avec la borne entre les étages 1 et 2, la dépendance européenne restant une hypothèse non mesurée.](figures/png/fig09_cascade_verite.png)
+
+Parallèlement, l’attribution du label de vérité s’est bureaucratisée. L’article 22 du Règlement sur les services numériques (DSA) a créé le statut de « signaleur de confiance » (*trusted flagger*) [34], confiant à des entités privées financées par des subventions européennes ou des contrats de plateformes le pouvoir d’indiquer aux algorithmes quels contenus doivent être restreints ou déréférencés [35]. Une étude publiée en 2025 dans le *Journal of the European Economic Association* démontre que cette sélection génère un biais structurel d’agenda, substituant à la contradiction démocratique un filtrage procédural délégué [31].
+
+---
+
+## IV. Le verrou d’élites : le marché privé de l’intérêt public et la diplomatie parallèle
+
+Le quatrième et dernier verrou ferme la boucle. Il garantit la docilité des appareils d’État en alignant les trajectoires de carrière individuelles des hauts fonctionnaires et conseillers ministériels sur les intérêts financiers des multinationales ou d’organisations de plaidoyer.
+
+### 1. La matrice des mobilités post-ministérielles et du lobbying d’influence
+L’analyse croisée des délibérations de la Haute Autorité pour la transparence de la vie publique (HATVP) et des rapports d’enquête de l’Office européen de lutte antifraude (OLAF) met en lumière une cartographie des mobilités d’État vers le secteur privé et le lobbying stratégique :
+
+| Acteur Public / Organisation | Fonction Étatique ou Activité | Entité Privée / Enjeu de Pression | Enjeu Forensique de Souveraineté |
+| :--- | :--- | :--- | :--- |
+| **Hugh Bailey** | Conseiller Énergie au cabinet du ministre de l’Économie (2014-2016) | **General Electric France** (Directeur Général, nommé en 2019) | Chronologie documentée : présent au cabinet lors de l’instruction de l’autorisation IEF d’Alstom (2014), puis nommé DG de la filiale française de l’acquéreur (2019) [58] [59]. Aucune procédure pénale engagée à ce jour |
+| **Jean-Baptiste Djebbari** | Ministre délégué aux Transports (2019-2022) | **CMA CGM** (Administrateur) / **Hopium** | Délibérations HATVP 2022-104 et 2022-123 du 17 mai 2022 sur les risques de conflits d’intérêts [37] [38] |
+| **Adam Farkas** | Directeur exécutif de l’Autorité bancaire européenne (EBA) | **AFME** (Principal lobby bancaire européen) | Recommandation du Médiateur européen 2168/2019/KR concluant à une mauvaise administration [36] |
+| **Neelie Kroes** | Vice-présidente de la Commission européenne (Numérique) | **Uber Technologies** (Lobbyiste non déclarée) | Rapport final d’enquête OLAF OC/2022/0514/A1 documentant les violations des règles éthiques [39] |
+| **ELNET France** | Organisation de diplomatie publique et lobbying | **Plusieurs voyages parlementaires pris en charge, confirmés par les déclarations de l’Assemblée nationale** (2017-2024) | Prise en charge d’élus français ; échec final sur la reconnaissance de la Palestine en sept. 2025 |
+
+### 2. Le point aveugle du droit pénal français
+Le droit positif français dispose de plusieurs outils répressifs en matière de probité publique. L’article 432-11 du Code pénal incrimine la corruption passive et le trafic d’influence commis par une personne dépositaire de l’autorité publique, chargée d’une mission de service public ou investie d’un mandat électif public [78]. L’article 432-13 sanctionne la prise illégale d’intérêts d’un ancien agent public qui, dans les trois ans suivant la cessation de ses fonctions, prend une participation par travail, conseil ou capitaux dans une entreprise privée qu’il a surveillée ou contrôlée, avec laquelle il a conclu des contrats ou sur les opérations de laquelle il a formulé un avis (le « pantouflage ») [79]. L’article 433-2 vise quiconque sollicite ou agrée des avantages pour abuser de son influence, réelle ou supposée, en vue de faire obtenir d’une autorité publique une décision favorable [41]. Ces incriminations sont en cours d’harmonisation européenne : la directive (UE) 2026/1021, adoptée le 29 avril 2026 et entrée en vigueur le 31 mai 2026, aligne un noyau d’incriminations : corruption active et passive dans les secteurs public et privé, trafic d’influence dans ses deux branches, exercice illicite de fonctions publiques, avec des minima de peines communs ; la prise illégale d’intérêts et les règles de conflits d’intérêts relèvent en revanche de son volet prévention et de la réglementation nationale des mobilités, non de son noyau pénal [78] [79] [42].
+
+Cependant, l’action pénale au titre de l’article 432-13 exige la preuve que l’ancien agent a effectivement surveillé ou contrôlé l’entreprise concernée, conclu des contrats avec elle ou avisé ses opérations, dans le cadre des fonctions qu’il a effectivement exercées ; le délai de trois ans court depuis la cessation de ces fonctions, il borne la reprise d’une activité privée, il n’exige pas que la surveillance ait eu lieu dans les trois années précédant le départ [79]. Au titre de l’article 432-11, elle exige la démonstration d’un **pacte préexistant** liant une décision publique à une contrepartie identifiable.
+
+Ces exigences probatoires se heurtent à la nature diffuse des mobilités institutionnelles. Comme l’a relevé la HATVP dans son rapport d’activité 2024 [40], l’accoutumance d’un conseiller ministériel aux arguments d’un acteur industriel, entretenue par la perspective d’une carrière post-gouvernementale, peut orienter les arbitrages sans qu’aucun pacte formel ne soit identifiable. Le résultat est un angle mort juridique : le droit pénal français est outillé pour sanctionner l’échange explicite de faveurs, mais structurellement désarmé face à la capture cognitive progressive des décideurs publics.
+
+![Figure 11 : L’angle mort du droit pénal : ce que les pièces documentent face à ce que le pénal exige ; le vide central est l’écart lui-même.](figures/png/fig11_angle_mort.png)
+
+---
+
+## V. Synthèse forensique : la matrice des quatre verrous documentés
+
+L’inventaire des investigations instruites écarte l’explication par des défaillances individuelles isolées. Il documente quatre verrous, chacun sur des dossiers distincts : le péage monétaire et numérique et l’ingérence, la coercition juridique sur les actifs, la production normative, la porosité des élites. Il documente aussi, dans chaque verrou, au moins un garde-fou qui a tenu. **Il n’établit pas que ces quatre verrous forment une architecture unique.** C’est la lecture que propose cet article, et son articulation reste ouverte : aucune pièce ne relie les leviers entre eux, et c’est ce chaînage qu’il faudrait produire pour fermer la thèse. Ce qui suit inventorie ces instruments un par ligne, chacun avec la pièce qui le porte. L’inventaire ne démontre pas un système :
+
+| Verrou | Instrument documenté | Cas constaté | Pièce |
+| :--- | :--- | :--- | :--- |
+| **I. Infrastructure et ingérence** | Péage monétaire et clearing | Amende de 8,97 Md$ prononcée contre BNP Paribas en 2014 | DOJ, 30 juin 2014 |
+| | Sur-conformité préventive | Retrait de TotalEnergies du projet South Pars 11 en 2018 ; arrêt *Bank Melli Iran c. Telekom Deutschland* | TotalEnergies, 16 mai 2018 ; CJUE, 21 décembre 2021 |
+| | Hébergement de données | Clauses d’immunité retirées du schéma EUCS ; Health Data Hub confié à Microsoft Azure | US Chamber of Commerce, 23 mai 2023 |
+| | Interception et identité numérique | Règlement (UE) 2024/1183, article 45a ; dérogation ePrivacy rétablie jusqu’au 3 avril 2028 | EUR-Lex, règlements 2024/1183 et 2026/1881 |
+| | Influence clandestine | Alp Services ; BlackCore / Rokh Solis ; opération Doppelgänger | Mediapart ; VIGINUM, 2026 ; VIGINUM, 19 juillet 2023 |
+| | Emprise territoriale | Neuf relais de stations de police identifiés par la DGSI ; station du Fujian constatée par le Conseil d’État | Question écrite n° 1675 ; Conseil d’État |
+| **II. Lawfare industriel** | Poursuite pénale extraterritoriale (FCPA) | Alstom : enquête ouverte en 2010, cession à General Electric en 2014, pénalité de 772,29 M$ | DOJ, 22 décembre 2014 |
+| | Arbitrage d’investissement (ISDS) | *Rockhopper c. Italie* : 190 M€ en août 2022, sentence annulée le 2 juin 2025 | CIRDI, aff. ARB/17/14 |
+| **III. Normatif et de conseil** | Standards techniques privés | New IP bloqué par la coalition IETF / ISOC ; composant logiciel de sécurité retenu par le règlement (UE) 2023/1230 | ISOC, février 2022 ; étude DG GROW, juin 2020 |
+| | Sous-traitance de l’expertise publique | Rapport du Sénat n° 578 sur les cabinets de conseil ; étude d’impact de la directive machines écrite par un consortium incluant Deloitte | Sénat, 2021 ; DG GROW, juin 2020 |
+| | Concentration des flux d’information | Dépendance des rédactions en ligne au matériel d’agence établie au niveau national (Pays-Bas, Suisse) ; généralisation européenne non mesurée | Boumans, 2018 ; Vogler, 2024 |
+| | Délégation du jugement de vérité | Signaleurs de confiance de l’article 22 du DSA ; biais d’agenda documenté | DSA, art. 22 ; JEEA, 2025 |
+| **IV. Porosité des élites** | Pantouflage des décideurs publics | Hugh Bailey, du cabinet de l’Économie à la direction de GE France ; Jean-Baptiste Djebbari, de ministre délégué à CMA CGM | GE France, avril 2019 ; HATVP, 17 mai 2022 |
+| | Lobbying d’influence structuré | ELNET France, voyages parlementaires pris en charge ; Adam Farkas quittant l’ABE pour l’AFME ; Neelie Kroes pour Uber | HATVP ; Médiateur européen, mai 2020 ; OLAF |
+
+L’analyse fait apparaître un motif récurrent : **pour chaque verrou, un garde-fou documenté existe.** Le veto IEF sur l’acquisition de Photonis par le groupe américain Teledyne en 2020, empêchant la cession d’un fabricant d’optronique militaire stratégique [24] ; la détection et la neutralisation de l’opération Doppelgänger par VIGINUM [77] ; le blocage du standard New IP chinois par la coalition IETF/ISOC [28] ; la sortie collective du TCE [50] ; et la résistance lituanienne face à la coercition économique chinoise [16] [17] prouvent que la résistance souveraine est structurellement possible. Le différentiel entre verrous effectifs et verrous neutralisés tient à trois conditions : un outil institutionnel dédié, une volonté politique explicite, et un coût de résistance jugé acceptable.
+
+![Figure 10 : La grille de lecture : quatre questions à poser à tout cas de dépendance, trois issues documentées ; une méthode de lecture, pas une machine à prédire.](figures/png/fig10_grille_de_lecture.png)
+
+---
+
+## Épilogue : La formule de l’impuissance apprise
+
+La recherche d’un « gouvernement de l’ombre » ou d’un « ordre clandestin venu de l’étranger » est une impasse intellectuelle. Elle entretient le mythe selon lequel la souveraineté serait intacte si l’on chassait quelques traîtres.
+
+L’investigation forensique documente une réalité plus étroite et plus grave. **La souveraineté française et européenne ne s’éteint pas par la coercition directe ; elle s’asphyxie dans des architectures de dépendance consenties.**
+
+Une précision épistémologique s’impose. Documenter une contrainte structurelle n’équivaut pas à prouver un acte de coercition intentionnelle. Lorsqu’une banque cède aux exigences du DOJ ou qu’un industriel abandonne un marché iranien, la décision individuelle est rationnelle et souvent légale. C’est l’accumulation systémique de ces décisions rationnelles, chacune prise sous contrainte d’infrastructure, qui produit un effet de soumission globale sans qu’aucun ordre n’ait été donné. Confondre cette dynamique avec un « complot » serait aussi erroné que de la nier sous prétexte qu’aucun smoking gun n’existe. De la même manière, documenter quatre architectures de dépendance n’équivaut pas à établir qu’elles n’en forment qu’une : la convergence est la lecture que propose cet article, et son chaînage reste ouvert.
+
+Reste le constat central :
+
+- On accepte le clearing en dollars par faim de marchés financiers, puis on s’étonne d’appliquer les embargos américains.
+- On abandonne ses champions industriels aux juges étrangers par peur des amendes, puis on dépense des milliards pour racheter leurs usines dix ans plus tard.
+- On confie ses données de santé et ses communications aux hyperscalers américains, puis on rédige des discours sur l’autonomie stratégique.
+- On tolère que les conseillers qui ont validé ces ventes rejoignent la direction des acheteurs, puis on s’étonne de l’abstention massive des citoyens.
+
+La souveraineté ne s’éteint pas par la trahison ; elle s’évapore par l’accumulation de verrous que personne n’a le courage d’abroger. Tant que l’État ne reconstruira pas ses propres circuits de paiement, ses propres infrastructures numériques, ses propres instruments de justice industrielle et une éthique publique blindée, les discours sur la puissance ne seront que les ornements d’une capitulation en toute légalité.
+
+---
+
+## Notes bibliographiques et preuves documentaires
+
+Les sources sont citées dans la prose par leur nom et leur numéro de renvoi `[n]`. Le registre qui suit est la bibliographie de l’enquête. Les entrées que le corps ne cite pas directement portent la mention « (contexte) » : elles documentent l’arrière-plan réglementaire, juridique ou factuel d’un dossier, sans être invoquées par une phrase précise. Aucune de ces entrées n’est marginale au point d’être retirée ; le lecteur qui veut contrôler une affirmation doit chercher son renvoi, pas une entrée contextuelle.
+
+- **[1]** Assemblée nationale : Rapport de la commission d’enquête sur les décisions de l’État en matière de politique industrielle, Tome I, n° 897, 19 avril 2018. https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L15B0897-tI.html
+- **[2]** Cour des comptes : *Le contrôle des investissements étrangers en France*, rapport public thématique, septembre 2024. https://www.ccomptes.fr/fr/publications/le-controle-des-investissements-etrangers-en-france (contexte)
+- **[3]** Secrétariat général de la défense et de la sécurité nationale (SGDSN) : *Rapport d’activité VIGINUM 2024*, publié le 30 décembre 2025 : https://www.sgdsn.gouv.fr/files/files/Publications/VIGINUM_rapport_activit%C3%A9_24_vd.pdf Chiffres relevés dans le rapport par l’audit du 14 septembre 2026 : 259 phénomènes inauthentiques détectés en 2024, dont 174 liés à une ingérence numérique étrangère ; 25 manœuvres informationnelles visant les scrutins français, quatorze pour les européennes et onze pour les législatives ; 43 manœuvres visant les Jeux de Paris ; signalements techniques transmis à sept plateformes (X, Google, YouTube, Facebook, Instagram, TikTok, Bluesky).
+- **[4]** Direction générale du Trésor : Rapport annuel sur le contrôle des investissements étrangers en France (IEF), édition 2024. https://www.tresor.economie.gouv.fr/Articles/2025/07/30/publication-du-rapport-annuel-sur-le-controle-ief-en-2024 (contexte)
+- **[5]** Integrity Initiative : Formulaire de candidature au Foreign Office (FCO Phase II), document d’archive 2018. https://fdik.org/Integrity_Initiative/392195390-FCO-Application-Form-2018-v2.pdf (contexte)
+- **[6]** Integrity Initiative : *Moncloa Campaign*, document interne sur la campagne d’influence en Espagne, juin 2018. https://fdik.org/Integrity_Initiative/392195691-Moncloa-Campaign-6-AttTwitter-08-06-18.pdf (contexte)
+- **[7]** Integrity Initiative : *Top 3 Deliverables for FCO*, document d’auto-attribution des résultats au Foreign Office, 2018. https://fdik.org/Integrity_Initiative/392195825-Top-3-Deliverables-for-FCO.pdf (contexte)
+- **[8]** *El País* : *Pedro Baños, la réputation russe d’un colonel espagnol*, 8 juin 2018. https://elpais.com/politica/2018/06/07/actualidad/1528372493_075633.html (contexte)
+- **[9]** *El País* : *Nomination de Miguel Ángel Ballesteros à la Sécurité Nationale*, 14 juin 2018. https://elpais.com/politica/2018/06/14/actualidad/1528987717_390585.html (contexte)
+- **[10]** US Department of Justice : *BNP Paribas Agrees to Plead Guilty and Pay $8.9 Billion for Illegally Processing Financial Transactions*, 30 juin 2014. https://www.justice.gov/archives/opa/pr/bnp-paribas-agrees-plead-guilty-and-pay-89-billion-illegally-processing-financial
+- **[11]** TotalEnergies : *US withdrawal from the JCPOA: Total’s position related to the South Pars 11 project in Iran*, 16 mai 2018. https://totalenergies.com/newsroom/us-withdrawal-jcpoa-totals-position-related-south-pars-11-project-iran/?lang=eng
+- **[12]** Cour de justice de l’Union européenne : Arrêt *Bank Melli Iran c. Telekom Deutschland*, aff. C-124/20, 21 décembre 2021. https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62020CJ0124
+- **[13]** Commission européenne : Règlement de blocage (Blocking Statute) et extraterritorialité. https://finance.ec.europa.eu/eu-and-world/open-strategic-autonomy/extraterritoriality-blocking-statute_en
+- **[14]** Commission européenne : Sécurité de l’approvisionnement en gaz et résilience européenne. https://energy.ec.europa.eu/topics/energy-security/security-gas-supply_en (contexte)
+- **[15]** CINEA (Union européenne) : Interruption des livraisons de gaz russe à la Pologne et à la Bulgarie, 27 avril 2022. https://cinea.ec.europa.eu/news-events/news/cef-energy-eu-funded-energy-projects-more-crucial-ever-after-russia-cuts-gas-supply-poland-and-2022-04-27_en (contexte)
+- **[16]** Organisation mondiale du commerce (OMC) : Différend DS610 *Chine - Mesures concernant le commerce des marchandises et des services (Lituanie)*, 2022. https://policy.trade.ec.europa.eu/enforcement-and-protection/dispute-settlement/wto-dispute-settlement/wto-disputes-cases-involving-eu/wtds610-china-measures-concerning-trade-goods-and-services_en
+- **[17]** Ministère des Affaires étrangères de la République populaire de Chine : Déclaration relative à l’abaissement des relations diplomatiques avec la Lituanie, 21 novembre 2021. https://www.mfa.gov.cn/eng/wjb/zzjg_663340/xos_664404/xwlb_664406/202111/t20211121_10451002.html
+- **[18]** Ministère des Affaires étrangères de Lituanie : *Strengthening economic cooperation between Lithuania and Taiwan*, 2026. https://www.urm.lt/en/news/928/strengthening-economic-cooperation-between-lithuania-and-taiwan%3A45874 (contexte)
+- **[19]** Règlement (UE) 2023/2675 du Parlement européen et du Conseil du 22 novembre 2023 relatif à la protection de l’Union et de ses États membres contre la coercition économique exercée par des pays tiers. https://eur-lex.europa.eu/eli/reg/2023/2675/2023-12-07/eng (contexte)
+- **[20]** Mécanisme européen de stabilité (MES) : Traité et conditionnalité des programmes d’assistance. https://www.esm.europa.eu/financial-assistance/programme-database/conditionality (contexte)
+- **[21]** Commission européenne : Reprise et résilience, validation des paiements et jalons structurels pour la France, 2025. https://france.representation.ec.europa.eu/informations-et-evenements/informations/la-france-et-la-belgique-recoivent-de-nouveaux-paiements-au-titre-de-la-facilite-de-lue-pour-la-2025-05-27_fr (contexte)
+- **[22]** Règlement (UE) 2026/1386 relatif au filtrage des investissements directs étrangers dans l’Union. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1386 (contexte)
+- **[23]** Ministère de l’Économie et des Finances : Bilan du contrôle des investissements étrangers en France (IEF), juillet 2025. https://www.tresor.economie.gouv.fr/Articles/2025/07/30/publication-du-rapport-annuel-sur-le-controle-ief-en-2024 (contexte)
+- **[24]** Assemblée nationale : Question écrite n° 33511 sur la décision de refus du rachat de Photonis par Teledyne. https://www.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE33511
+- **[25]** Port d’Athènes (Piraeus Port Authority SA) : Notification de participation majeure de COSCO Shipping (67 %). https://olp.gr/en/investor-relations/corporate-announcements/corporate-announcements-2021/notification-of-significant-change-of-voting-rights-pursuant-to-law-3556-2007 (contexte)
+- **[26]** Ministère norvégien des Finances : *Report on the Government Pension Fund Global*, 2026. https://www.regjeringen.no/en/documents/meld.-st.-7-2025-2026/id3155109/?ch=1 (contexte)
+- **[27]** ITU-T TSAG : Contribution C-0083 *New IP Framework and Protocol for Future Network Architecture*, Genève, septembre 2019. https://www.itu.int/md/T17-TSAG-C-0083/en
+- **[28]** Internet Society (ISOC) : *Huawei’s New IP Proposal FAQ*, analyse d’impact et refus des révisions architecturales, février 2022. https://www.internetsociety.org/resources/doc/2022/huaweis-new-ip-proposal-faq/
+- **[29]** Boumans J. et al. : *The agency makes the online news world go round: the impact of news agency content*, 2018. https://research.wur.nl/en/publications/the-agency-makes-the-online-news-world-go-round-the-impact-of-new/
+- **[30]** Vogler D. et al. : *The Elephant(s) in the Newsroom: A Mixed Methods Study on News Agency Material*, Journalism Practice, 2024. https://www.tandfonline.com/doi/abs/10.1080/17512786.2024.2415541
+- **[31]** Journal of the European Economic Association : *Both Judge and Party? Political Unbiasedness of Fact-Checkers*, vol. 23, n° 6, 2025. https://academic.oup.com/jeea/article/23/6/2137/8087339
+- **[32]** *Nature* : *The political effects of X’s feed algorithm*, étude empirique sur l’amplification algorithmique, 2026. https://www.nature.com/articles/s41586-026-10098-2 (contexte)
+- **[33]** *Nature* : *Like-minded sources on Facebook are prevalent but not polarizing*, 2023. https://www.nature.com/articles/s41586-023-06297-w (contexte)
+- **[34]** Règlement (UE) 2022/2065 du Parlement européen et du Conseil du 19 octobre 2022 relatif à un marché unique des services numériques (DSA). https://eur-lex.europa.eu/legal-content/EN-FR/TXT/?uri=CELEX%3A32022R2065
+- **[35]** Commission européenne : Désignation et statut des signaleurs de confiance (*Trusted Flaggers*) sous le DSA. https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa
+- **[36]** Médiateur européen : Recommandation dans l’affaire 2168/2019/KR concernant le passage d’Adam Farkas à l’AFME, mai 2020. https://www.ombudsman.europa.eu/en/recommendation/en/127638
+- **[37]** HATVP : Délibération n° 2022-123 du 17 mai 2022 relative au départ de Jean-Baptiste Djebbari vers le groupe CMA CGM. https://www.hatvp.fr/wordpress/wp-content/uploads/2022/05/2022-123-Jean-Baptiste-Djebbari.pdf
+- **[38]** HATVP : Délibération n° 2022-104 du 17 mai 2022 relative au projet de création d’entreprise par Jean-Baptiste Djebbari (Hopium). https://www.hatvp.fr/wordpress/wp-content/uploads/2022/05/2022-104-Jean-Baptiste-Djebbari.pdf
+- **[39]** OLAF : Rapport final d’enquête OC/2022/0514/A1 relatif aux activités de lobbying de Neelie Kroes pour Uber. https://www.politico.eu/wp-content/uploads/2024/03/07/final-report-oc-2022-0514-redacted_final57.pdf
+- **[40]** Haute Autorité pour la transparence de la vie publique (HATVP) : Rapport annuel d’activité 2024. https://www.hatvp.fr/presse/rapport-dactivite-2024-de-la-haute-autorite/
+- **[41]** Code pénal français : Article 433-2 relatif au délit de trafic d’influence passif et actif. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028311912/2026-05-10
+- **[42]** Directive (UE) 2026/1021 du Parlement européen et du Conseil du 29 avril 2026 sur la lutte contre la corruption, remplaçant la décision-cadre 2003/568/JHA ; publication au JOUE le 11 mai 2026, entrée en vigueur le 31 mai 2026, transposition à vingt-quatre mois. https://eur-lex.europa.eu/eli/dir/2026/1021/oj
+- **[43]** US Department of Justice : *Airbus Agrees to Pay Over $3.9 Billion in Global Penalties to Resolve Foreign Bribery and ITAR Case*, 31 janvier 2020. https://www.justice.gov/usao-dc/pr/airbus-agrees-pay-over-39-billion-global-penalties-resolve-foreign-bribery-and-itar-case (contexte)
+- **[44]** US Department of Justice : *Alstom Pleads Guilty and Agrees to Pay $772 Million Criminal Penalty*, 22 décembre 2014. https://www.justice.gov/archives/opa/pr/alstom-pleads-guilty-and-agrees-pay-772-million-criminal-penalty-resolve-foreign-bribery
+- **[45]** US Department of Justice : *Siemens AG Pleads Guilty to FCPA Violations and Agrees to Pay $800 Million Penalty*, 15 décembre 2008. https://www.justice.gov/archive/opa/pr/2008/December/08-crm-1105.html (contexte)
+- **[46]** US Bureau of Industry and Security (BIS) : *Offsets in Defense Trade*, 27th Annual Report to Congress, 2024. https://www.bis.gov/about-bis/bis-leadership-and-offices/SIES/offsets-defense-trade (contexte)
+- **[47]** Groupe d’action financière (GAFI/FATF) : Recommandations sur la transparence et les bénéficiaires effectifs des personnes morales. https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-Beneficial-Ownership-Legal-Persons.html (contexte)
+- **[48]** Vattenfall AB : *Understanding to terminate disputes on German nuclear phase-out*, accord d’indemnisation, 5 mars 2021. https://group.vattenfall.com/press-and-media/pressreleases/2021/understanding-to-terminate-disputes-on-german-nuclear-phase-out/ (contexte)
+- **[49]** CIRDI : *Rockhopper Exploration plc c. République Italienne* (Affaire n° ARB/17/14), Décision d’annulation du Comité ad hoc, 2 juin 2025. https://www.italaw.com/cases/5788
+- **[50]** Conseil de l’Union européenne : Décision concernant le retrait de l’Union du Traité sur la Charte de l’énergie, 27 juin 2024. https://france.representation.ec.europa.eu/informations-et-evenements/informations/lue-notifie-sa-sortie-du-traite-sur-la-charte-de-lenergie-et-met-fin-aux-procedures-darbitrage-intra-2024-06-28_fr
+- **[51]** US Chamber of Commerce & European Industry Associations : *Joint Statement on EUCS Sovereignty Requirements*, 23 mai 2023. https://www.uschamber.com/security/cybersecurity/joint-industry-statement-on-the-need-for-a-swift-adoption-of-the-eu-cybersecurity-certification-scheme-for-cloud-services-without-sovereignty-requirements
+- **[52]** Ministère de l’Économie, du Redressement productif et du Numérique : Communiqué de presse sur l’autorisation accordée à General Electric pour l’investissement dans Alstom, 5 novembre 2014. https://www.economie.gouv.fr/files/files/directions_services/agence-participations-etat/Documents/Communiques/Emmanuel_MACRON_autorise_l%27investissement_de_General_Electric_avec_Alstom.pdf
+- **[53]** Assemblée nationale : Procès-verbal de l’audition sous serment de Patrick Kron, Président-Directeur Général d’Alstom, 4 avril 2018. https://www.assemblee-nationale.fr/dyn/docs/CRCANR5L15S2018PO742273N049.raw
+- **[54]** Assemblée nationale : Rapport d’enquête n° 897 sur les décisions de politique industrielle, auditions et pièces justificatives. https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L15B0897-tI.html
+- **[55]** Groupe EDF : *EDF acquiert les activités nucléaires de GE Steam Power auprès de GE Vernova (Arabelle Solutions)*, 31 mai 2024. https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/edf-acquiert-les-activites-nucleaires-de-ge-steam-power-aupres-de-ge-vernova
+- **[56]** Assemblée nationale : Question écrite et réponse ministérielle sur les pénalités liées au non-respect du contrat d’engagement de GE à Belfort, 2019. https://www.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE16350
+- **[57]** *Le Monde* : *Cession d’Alstom à GE : relance des investigations judiciaires suite aux plaintes d’Anticor*, 3 mars 2026. https://www.lemonde.fr/societe/article/2026/03/03/anticor-veut-relancer-l-affaire-de-la-vente-de-la-branche-energie-d-alstom-a-general-electric_6669363_3224.html
+- **[58]** General Electric France : Nomination de Hugh Bailey au poste de directeur général, communiqué de presse, 11 avril 2019 (reprise AFP).
+- **[59]** *Le Monde* (Les Décodeurs) : *Enquête sur les mobilités privées des conseillers exécutifs de la majorité*, 6 janvier 2023. https://www.lemonde.fr/les-decodeurs/article/2023/01/06/pantouflage-la-grande-transhumance-vers-le-prive-des-conseillers-de-la-macronie_6156801_4355770.html
+- **[60]** Loi n° 2024-850 du 25 juillet 2024 visant à prévenir les ingérences étrangères en France, création de l’article 18-11 de la loi de 2013. https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000050052952 (contexte)
+- **[61]** Décret n° 2025-733 du 31 juillet 2025 relatif au répertoire de la transparence des activités d’influence étrangère. https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000052021189 (contexte)
+- **[62]** Haute Autorité pour la transparence de la vie publique (HATVP) : Registre public des entités d’influence étrangère enregistrées, consultation septembre 2026. https://www.hatvp.fr/repertoire-de-linfluence-etrangere/liste-des-entites-influence-enregistrees/ (contexte)
+- **[63]** Code monétaire et financier : Article R. 151-2 relatif aux secteurs d’activité soumis au contrôle des investissements étrangers. https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041461628 (contexte)
+- **[64]** Décret n° 2026-718 du 30 juillet 2026 modifiant le régime d’autorisation préalable des investissements étrangers en France. https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054596119 (contexte)
+- **[65]** Enquête « Abu Dhabi Secrets » : opérations d’influence des Émirats arabes unis en Europe conduites par un cabinet privé de renseignement établi à Genève. Mediapart, 4 mars 2023 : https://www.mediapart.fr/en/journal/france/040323/leaked-data-shows-extent-uaes-meddling-france · Réponse écrite de la Commission européenne P-9-2023-002379 : https://www.europarl.europa.eu/doceo/document/P-9-2023-002379-ASW_EN.html · RSI, enquête fédérale suisse, 2023 : https://www.rsi.ch/info/ticino-grigioni-e-insubria/Abu-Dhabi-Secrets-aperta-inchiesta-per-spionaggio--2123236.html
+- **[66]** Enquête « Rokh Solis » : opérations de manipulation de contenu ayant ciblé les élections municipales françaises de mars 2026, opérateur privé identifié, commanditaire non identifié. VIGINUM (SGDSN) : https://www.sgdsn.gouv.fr/viginum/publications/rokh-solis-analyse-dun-mode-operatoire-informationnel-ayant-cible-les · HATVP, fiche Elnet France : https://www.hatvp.fr/fiche-organisation/?organisation=531006237
+- **[67]** Enquête « Front uni chinois » : relais de stations de police identifiés par la DGSI, station clandestine constatée par le Conseil d’État. Assemblée nationale, question écrite n° 1675, « Existence de commissariats clandestins chinois sur le territoire national », 2025 : https://questions.assemblee-nationale.fr/q17/17-1675QE.htm · Conseil d’État, décision sur une station clandestine hébergée par une association du Fujian (Légifrance, CETATEXT000054227852) : https://www.legifrance.gouv.fr/ceta/id/CETATEXT000054227852 · AIVD (Pays-Bas), rapport annuel 2025, chapitre Chine : https://www.aivd.nl/actueel/magazines/jaarverslag/jaarverslag/2025/china
+- **[68]** Enquête « cabinets de conseil dans l’État » : Sénat, rapport n° 578, session 2020-2021, « Un phénomène tentaculaire : l’influence croissante des cabinets de conseil sur les politiques publiques » : https://www.senat.fr/rap/r21-578-1/r21-578-111.html
+- **[69]** Enquête « infrastructures numériques de contrôle » : sources primaires sur les capacités européennes d’identité numérique et de détection de contenus. Règlement (UE) 2024/1183 (eIDAS 2), articles 45 et 45a (reconnaissance des certificats qualifiés d’authentification de site par les navigateurs, encadrement des mesures de précaution) : https://eur-lex.europa.eu/eli/reg/2024/1183/oj · Règlement (UE) 2021/1232 (dérogation ePrivacy autorisant la détection de contenus pédocriminels), rétabli par le règlement (UE) 2026/1881 jusqu’au 3 avril 2028 : https://eur-lex.europa.eu/eli/reg/2026/1881/oj · Parlement européen, communiqué du 9 juillet 2026 sur le vote de la dérogation limitée : https://www.europarl.europa.eu/news/en/press-room/20260706IPR46318/combating-child-sexual-abuse-support-for-a-more-limited-eprivacy-derogation La table de sources de cette enquête n’est pas archivée : les pièces ci-dessus ont été réunies par l’audit du 14 septembre 2026.
+- **[70]** Enquête « Big Four et production de normes » : sources primaires sur la révision de la directive machines. *Impact assessment study on the revision of Directive 2006/42/EC on machinery*, rapport final, Valdani Vicari & Associati, Deloitte, The Vienna Institute for International Economic Studies, Ecorys, juin 2020, Office des publications de l’Union européenne, ISBN 978-92-76-01738-7, doi:10.2873/423938 : https://www.osalan.euskadi.eus/contenidos/informacion/ponencias_210414_industria4/es_def/adjuntos/Impact-assessment-study-on-the-revision-of-Directive-2006_42_EC-on-machinery.pdf · Commission européenne, analyse d’impact SWD(2021) 82 final : https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52021SC0082 · Règlement (UE) 2023/1230, considérant 19 : https://eur-lex.europa.eu/eli/reg/2023/1230/oj La table de sources de cette enquête n’est pas archivée : les pièces ci-dessus ont été réunies par l’audit du 14 septembre 2026.
+- **[71]** TotalEnergies : communiqué de presse « Iran : Total signe avec la NIOC le contrat portant sur le développement de la phase 11 du champ gazier South Pars », 3 juillet 2017 : https://totalenergies.com/newsroom/iran-total-signe-avec-la-nioc-le-contrat-portant-sur-le-developpement-de-la-phase-11-du-champ-gazier/?lang=fra · Coût total du projet évalué à 4,8 milliards de dollars : CNBC, « What Total’s $4.8 billion investment means for Iran », 3 juillet 2017 : https://www.cnbc.com/2017/07/03/iran-to-sign-new-ipc-gas-deal-with-total-for-south-pars.html · NIOC, fiche du contrat SP 11 (« Direct investment in this plan costs $4879 million ») : https://www.euro-petrole.com/south-pars-gas-field-the-contract-details-for-development-sp-11-s-offshore-facilities-n-i-15100
+- **[72]** Sénat : question écrite n° 17777 et réponse ministérielle sur le non-respect par General Electric de ses engagements d’emploi, 25 juillet 2019 (« GE n’a pas créé les 1 000 emplois promis […] l’État a exigé une pénalité de 50 millions d’euros ») : https://www.senat.fr/questions/base/2019/qSEQ190711777.html · *Le Parisien*, « General Electric versera 50 millions d’euros de pénalité à l’État », 5 février 2019 (vingt-cinq emplois nets créés) : https://www.leparisien.fr/economie/emploi/general-electric-versera-50-millions-d-euros-de-penalite-a-l-etat-05-02-2019-8004573.php · *Les Échos*, « General Electric va supprimer plus de 1 000 emplois à Belfort », 28 mai 2019 : https://www.lesechos.fr/industrie-services/energie-environnement/general-electric-va-supprimer-plus-de-1000-emplois-a-belfort-1024689
+- **[73]** Couverture du système national des données de santé et hébergement du Health Data Hub : CNIL, « Plateforme des données de santé : missions et enjeux » : https://www.cnil.fr/fr/plateforme-des-donnees-de-sante-missions-et-enjeux · Cuggia et al., « The French Health Data Hub and the German Medical Informatics Initiatives », 2019 (« SNDS covers 98.8% of the French population, more than 66 million persons ») : https://pmc.ncbi.nlm.nih.gov/articles/PMC6697511/ · Goldberg, *médecine/sciences*, mars 2021 (« toute la population d’un pays de 67 millions d’habitants ») : https://ipubli.inserm.fr/bitstream/handle/10608/11794/MS_2021_03_0271.html
+- **[74]** *The Conversation*, « Du CAC 40 à Wall Street : l’ambition transatlantique de TotalEnergies », 27 juillet 2025 (« Les investisseurs des États-Unis détiennent déjà près de 40 % du capital de TotalEnergies en 2024, contre 25,3 % pour les actionnaires français », d’après le document d’enregistrement universel) : https://theconversation.com/du-cac-40-a-wall-street-lambition-transatlantique-de-totalenergies-258086
+- **[75]** BNP Paribas : communiqué de presse « BNP Paribas annonce un accord global avec les autorités des États-Unis relatif à la revue de certaines transactions en dollars », 30 juin 2014 (8,97 milliards de dollars, soit 6,6 milliards d’euros) : https://group.bnpparibas/communique-de-presse/bnp-paribas-annonce-accord-global-autorites-etats-unis-relatif-revue-certaines-transactions-dollars · *L’Express*, « L’amende de BNP Paribas aux Etats-Unis » (la plus forte amende alors payée par une banque étrangère aux États-Unis) : https://www.lexpress.fr/economie/entreprises/l-amende-de-bnp-paribas-aux-etats-unis_1548596.html
+- **[76]** Ministère des Armées et des Anciens combattants : « Projet de loi de finances des Armées 2026, LPM année 3 » (« une hausse de +6,7 milliards d’euros, portant la mission Défense à 57,1 milliards d’euros hors pensions ») : https://www.defense.gouv.fr/ministere/politique-defense/loi-programmation-militaire-2024-2030/projet-loi-finances-armees-2026-lpm-annee-3
+- **[77]** Opération Doppelgänger et campagne RRN : EU DisinfoLab, *Doppelganger*, septembre 2022 : https://www.disinfo.eu/wp-content/uploads/2022/09/Doppelganger-1.pdf · SGDSN / VIGINUM, « Rapport sur la campagne de manipulation de l’information RRN », 19 juillet 2023 (version anglaise, seule retrouvée) : https://www.sgdsn.gouv.fr/files/files/Publications/20230719_NP_VIGINUM_RAPPORT-CAMPAGNE-RRN_EN.pdf
+- **[78]** Code pénal : article 432-11, corruption passive et trafic d’influence commis par une personne dépositaire de l’autorité publique, chargée d’une mission de service public ou investie d’un mandat électif public ; dix ans d’emprisonnement et 1 000 000 €, version en vigueur depuis le 27 décembre 2020 (loi n° 2020-1672). https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042780056/
+- **[79]** Code pénal : article 432-13, prise illégale d’intérêts : participation par travail, conseil ou capitaux, dans les trois ans suivant la cessation des fonctions, dans une entreprise privée surveillée ou contrôlée, ou avec laquelle des contrats ont été conclus ou des avis formulés dans le cadre des fonctions effectivement exercées ; trois ans d’emprisonnement et 200 000 €, version en vigueur depuis le 22 janvier 2017 (loi n° 2017-55). https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033912762/
+- **[80]** Synergy Research Group : *European Cloud Providers’ Local Market Share Now Holds Steady at 15%*, 24 juillet 2025 (Amazon, Microsoft et Google totalisent environ 70 % du marché européen du cloud d’infrastructure ; les fournisseurs européens en détiennent 15 %). https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15/
+- **[81]** Stockholm International Peace Research Institute (SIPRI) : *Trends in International Arms Transfers, 2024*, mars 2025 (la France, deuxième fournisseur mondial d’armements majeurs sur la période 2020-2024). https://www.sipri.org/media/press-release/2025/ukraine-worlds-biggest-arms-importer-united-states-dominance-global-arms-exports-grows-russian
