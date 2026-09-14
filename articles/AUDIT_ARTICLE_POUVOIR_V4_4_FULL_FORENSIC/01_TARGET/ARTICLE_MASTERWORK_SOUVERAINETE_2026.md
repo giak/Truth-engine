@@ -1,6 +1,6 @@
-# 🩸 L’État sous asphyxie : comment l’architecture des verrous judiciaires, financiers, normatifs et d’élites a vidé la souveraineté française sans tirer un coup de feu
+# 🩸 L’État sous asphyxie : comment des verrous financiers, juridiques, normatifs et d’élites ont vidé la souveraineté française sans tirer un coup de feu
 
-*Autopsie forensique d’un régime où 8,9 milliards de pénalités, un marché du cloud européen détenu à 70 % par trois acteurs américains et des mobilités ministérielles ont remplacé la contrainte militaire.*
+*Autopsie forensique d’un régime où des pénalités se comptant en milliards (BNP Paribas, Alstom), un marché européen du cloud d’infrastructure détenu à 70 % par trois acteurs américains [80] et des mobilités ministérielles documentées ont remplacé la contrainte militaire.*
 
 ---
 
@@ -8,22 +8,18 @@
 
 La France contemporaine présente un paradoxe de puissance sans précédent dans son histoire. Elle dispose d’une dissuasion nucléaire océanique et aérienne, siège de manière permanente au Conseil de sécurité des Nations unies, se classe au 2e rang mondial des exportateurs d’armement [81] et consacre 57,1 milliards d’euros à sa défense nationale en 2026, selon le projet de loi de finances des Armées du ministère des Armées [76]. 
 
-Pourtant, au cours des deux dernières décennies, ses fleurons industriels les plus stratégiques ont été démembrés sous la pression de juges fédéraux étrangers, environ 70 % du marché européen du cloud est détenu par trois fournisseurs américains [80], auxquels sont confiées des données publiques et de santé soustraites à sa juridiction, ses arbitrages énergétiques majeurs ont été dictés par des sanctions de seconde main, et ses anciens conseillers ministériels ont rejoint la direction des multinationales bénéficiaires de ces cessions.
+Pourtant, au cours des deux dernières décennies, ses fleurons industriels les plus stratégiques ont été démembrés sous la pression de la justice et des administrations américaines, environ 70 % du marché européen du cloud est détenu par trois fournisseurs américains [80], auxquels sont confiées des données publiques et de santé soustraites à sa juridiction, un groupe énergétique français a renoncé à un projet majeur sous la contrainte économique des sanctions de seconde main, et ses anciens conseillers ministériels ont rejoint la direction des multinationales bénéficiaires de ces cessions.
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                    LE PARADOXE DE LA SOUVERAINETÉ IMPOTENTE             │
-├───────────────────────────────────┬─────────────────────────────────────┤
-│ Atouts de Puissance Affichés      │ Réalités Forensiques Constatées     │
-├───────────────────────────────────┼─────────────────────────────────────┤
-│ • Dissuasion nucléaire (SNA/ASMP) │ • Cloud UE : 70 % (3 acteurs US)    │
-│ • 2e exportateur mondial d’armes  │ • Cession d’Alstom sous amende FCPA │
-│ • Budget défense 57,1 Md€ (2026)  │ • Amende 8,97 Md$ (BNP Paribas)     │
-│ • Membre permanent Conseil de Sec.│ • Pantouflage de conseillers d’État │
-└───────────────────────────────────┴─────────────────────────────────────┘
+ ATOUTS DE PUISSANCE AFFICHÉS          RÉALITÉS FORENSIQUES CONSTATÉES
+
+ Dissuasion nucléaire (SNA/ASMP)       Cloud UE (infra.) : 70 % (3 acteurs US)
+ 2e exportateur mondial d’armes        Cession d’Alstom sous amende FCPA
+ Budget défense 57,1 Md€ (2026)        Amende 8,97 Md$ (BNP Paribas)
+ Membre permanent Conseil de sécurité  Pantouflage de conseillers d’État
 ```
 
-Face à ce grand écart, le débat public oscille entre deux pièges : la dénonciation simpliste d’un complot permanent orchestré par des officines clandestines, ou la résignation technocratique présentant chaque capitulation comme une simple adaptation au marché global.
+Face à ce grand écart, le débat public oscille entre deux pièges : la dénonciation simpliste d’un complot permanent orchestré par des officines clandestines, ou la résignation technocratique présentant chaque capitulation comme une simple adaptation au marché mondial.
 
 L’analyse des archives documentaires, des procédures de justice pénale internationale et des délibérations administratives impose une lecture plus froide. **La souveraineté française et européenne ne s’effondre pas sous le coup d’ordres secrets : elle s’asphyxie sous quatre verrous structurels, documentés séparément.** Chaque verrou neutralise une capacité de décision sans jamais exiger d’acte de trahison ni d’instruction écrite explicite.
 
@@ -31,7 +27,7 @@ L’analyse des archives documentaires, des procédures de justice pénale inter
 
 ## I. Le verrou d’infrastructure et d’ingérence : le péage monétaire et numérique, les officines privées et l’emprise clandestine
 
-La souveraineté effective se mesure à l’indépendance de ses moyens d’exécution. Lorsqu’un État ou une entreprise ne peut réaliser une transaction majeure sans passer par le péage technique, juridique ou monétaire d’une puissance tierce, sa liberté de décision devient une fiction juridique. Le péage n’épuise pas le verrou : un appareil étranger qui agit sur le territoire en dehors des canaux officiels produit le même effet sans qu’aucune transaction soit à taxer. Dépendre d’un canal contrôlé hors de la juridiction nationale, ou cohabiter avec un appareil qui n’en relève pas : ce sont les deux formes d’un même verrou d’exécution.
+La souveraineté effective se mesure à l’indépendance de ses moyens d’exécution. Lorsqu’un État ou une entreprise ne peut réaliser une transaction majeure sans passer par le péage technique, juridique ou monétaire d’une puissance tierce, sa liberté de décision devient une fiction juridique. Le péage n’épuise pas le verrou : un appareil étranger qui agit sur le territoire en dehors des canaux officiels produit le même effet sans qu’aucune transaction soit à taxer. Dépendre d’un canal contrôlé hors de la juridiction nationale, ou cohabiter avec un appareil qui n’en relève pas ; ce sont les deux formes d’un même verrou d’exécution.
 
 ### 1. La guillotine du dollar et le péage du clearing
 L’affaire BNP Paribas constitue la démonstration la plus nette du pouvoir de contrôle par l’infrastructure financière. Le 30 juin 2014, le groupe bancaire français accepte de plaider coupable devant les autorités fédérales et de l’État de New York pour avoir violé des embargos américains au Soudan, en Iran et à Cuba, comme le relève le communiqué du département de la Justice [10]. Le bilan financier est sans équivalent :
@@ -45,35 +41,30 @@ Pour la première banque de la zone euro, la menace d’une coupure d’accès a
 ### 2. La sur-conformité passive (*Over-compliance*)
 La contrainte d’infrastructure génère une deuxième onde de choc : l’autocensure préventive des acteurs industriels. En mai 2018, lorsque l’administration américaine se retire de l’accord JCPOA et réimpose des sanctions secondaires contre l’Iran, le groupe TotalEnergies annonce, dans un communiqué du 16 mai 2018, l’abandon de son projet gazier South Pars 11, dont le coût total était évalué à 4,8 milliards de dollars [11] [71].
 
-```
-[Sanctions secondaires US] ──> [Risque de coupure clearing $] ──> [Retrait préventif TotalEnergies]
-                                          │
-                                 [Règlement UE 2271/96]
-                                 (Incapable d’offrir une immunité)
-```
-
 ![Figure 8 : Le mécanisme de la sur-conformité : des sanctions secondaires au retrait préventif, avec un recours européen qui n’offre pas d’immunité.](figures/png/fig08_sur_conformite.png)
 
 Aucun ordre individuel n’a été transmis par la Maison Blanche aux dirigeants de TotalEnergies. Mais avec près de 40 % de son capital détenu par des investisseurs nord-américains, contre 25,3 % pour des actionnaires français [74], et un refinancement dépendant des marchés obligataires en dollars, le coût d’une résistance dépassait la valeur de l’actif. 
 
-Même lorsque l’Union européenne a tenté d’intervenir en activant son règlement de blocage (n° 2271/96), la Cour de justice de l’Union européenne a dû constater l’impasse des entreprises européennes, écartelées entre l’obligation légale européenne et le risque de faillite globale aux États-Unis [12] [13].
+Même lorsque l’Union européenne a tenté d’intervenir en activant son règlement de blocage (n° 2271/96), la Cour de justice de l’Union européenne, saisie de la résiliation par Telekom Deutschland d’un contrat avec la banque iranienne Bank Melli, a confirmé l’interdiction de se conformer aux sanctions extraterritoriales américaines, même sans ordre étranger, tout en laissant au juge national le soin de mesurer si l’annulation d’une résiliation n’exposerait pas l’entreprise à des pertes disproportionnées [12] [13]. Le dilemme demeure entier : se conformer expose à être contraire au droit européen, refuser expose aux pénalités américaines.
 
 ### 3. La capture des données publiques et du chiffrement
 Le même mécanisme de péage s’est dupliqué dans le domaine de la donnée publique et de la sécurité des communications :
 - **EUCS et Health Data Hub** : Lors des négociations du schéma européen de certification cloud (EUCS), des exigences de souveraineté visant à protéger les données sensibles contre les accès extraterritoriaux en vertu du *US CLOUD Act* avaient été introduites. La Chambre de commerce des États-Unis et des associations professionnelles transatlantiques ont publiquement demandé le retrait de ces clauses, dans une déclaration conjointe de mai 2023 [51] ; elles ont été progressivement retirées. En France, l’hébergement des données de santé de la population couverte par l’assurance maladie, plus de 66 millions de personnes [73], sur le *Health Data Hub* a été confié à la plateforme Microsoft Azure.
-- **Chat Control et eIDAS 2.0 (QWAC)** : Deux tentatives d’imposer des capacités d’interception ont été portées au niveau européen, et leurs issues sont documentées. Le règlement (UE) 2024/1183 (eIDAS 2) fait obligation aux navigateurs de reconnaître les certificats qualifiés d’authentification de site, tout en encadrant, à son article 45a, les mesures de précaution qu’ils peuvent prendre contre un certificat [69]. La dérogation ePrivacy qui autorise la détection de contenus pédocriminels a été rétablie jusqu’au 3 avril 2028 ; cette détection y reste **volontaire**, et les communications chiffrées de bout en bout sont **exclues** de son champ [69]. Le règlement permanent, qui prévoyait des ordres de détection, est toujours en négociation, et le blocage porte précisément sur la détection obligatoire. Les capacités existent, elles sont sectorielles, et **aucune pièce ne ferme le pont** entre elles et une architecture intégrée d’identité, de communications et de sanction.
+- **Chat Control et eIDAS 2.0 (QWAC)** : Deux tentatives d’imposer des capacités d’interception ont été portées au niveau européen, et leurs issues sont documentées. Le règlement (UE) 2024/1183 (eIDAS 2) fait obligation aux navigateurs de reconnaître les certificats qualifiés d’authentification de site, tout en encadrant, à son article 45a, les mesures de précaution qu’ils peuvent prendre contre un certificat [69]. La dérogation ePrivacy qui autorise la détection de contenus pédocriminels a été rétablie jusqu’au 3 avril 2028 ; cette détection y reste *volontaire*, et les communications chiffrées de bout en bout sont *exclues* de son champ [69]. Le règlement permanent, qui prévoyait des ordres de détection, est toujours en négociation, et le blocage porte précisément sur la détection obligatoire. Les capacités existent, elles sont sectorielles, et **aucune pièce ne ferme le pont** entre elles et une architecture intégrée d’identité, de communications et de sanction.
+
+L’enquête publiée **[Le Numérique colonisé](https://giak.substack.com/p/le-numerique-colonise-70-des-donnees)** traite en détail de ce verrou appliqué à la France, du Health Data Hub à l’article 45 d’eIDAS 2.
 
 ### 4. La privatisation des officines d’ingérence : Alp Services et Rokh Solis
 L’asphyxie d’infrastructure ne provient pas uniquement de juridictions étatiques déclarées :
 - **Le réseau Alp Services (Émirats arabes unis)** : L’investigation consacrée à l’influence clandestine et réputationnelle documente le cas où un cabinet privé de renseignement basé à Genève a été mandaté par des entités liées au renseignement émirati pour concevoir et diffuser en Europe des fiches de profilage et des campagnes de déstabilisation ciblant des personnalités publiques et des ONG, comme l’ont établi les enquêtes Mediapart et RSI sur les « Abu Dhabi Secrets » [65].
-- **L’opérateur privé BlackCore / Rokh Solis** : L’investigation consacrée à l’influence israélienne en France documente des opérations de manipulation de contenu et d’influence numérique, liées à un opérateur privé. Les marqueurs techniques et la proximité avec Blackcore sont documentés par l’analyse de mode opératoire publiée par VIGINUM ; le commanditaire reste non identifié [66].
+- **L’opérateur privé BlackCore / Rokh Solis** : L’investigation consacrée à l’influence israélienne en France documente des opérations de manipulation de contenu et d’influence numérique, liées à un opérateur privé. Les marqueurs techniques et la proximité avec Blackcore sont documentés par l’analyse de mode opératoire publiée par VIGINUM ; le commanditaire reste non identifié [66]. L’asymétrie d’attribution de ces ingérences, États adverses nommés et alliés épargnés, est documentée dans **[L’ingérence sans mesure](https://giak.substack.com/p/lingerence-sans-mesure)**.
 
 ### 5. L’ingérence informationnelle hybride russe : Doppelgänger et la riposte VIGINUM
 L’asphyxie d’infrastructure ne se limite pas aux sphères financière et commerciale. L’opération « Doppelgänger », documentée à partir de 2022, a consisté à créer un réseau de sites typosquattés imitant les pages web de médias européens de référence pour diffuser des contenus pro-Kremlin déguisés en articles journalistiques ; sa déclinaison française, la campagne RRN, a été analysée par VIGINUM (service de vigilance et de protection contre les ingérences numériques étrangères, rattaché au SGDSN) dans un rapport rendu public le 19 juillet 2023 [77].
 
 L’opération illustre un verrou d’infrastructure informationnelle : la capacité d’un État tiers à injecter massivement de faux contenus dans l’écosystème numérique européen en exploitant les failles de modération des plateformes. Le rapport d’activité VIGINUM 2024 compte **259 phénomènes inauthentiques détectés** dans l’année, dont **174 liés à une ingérence numérique étrangère**, ainsi que **25 manœuvres informationnelles** visant les scrutins français, quatorze pour les européennes et onze pour les législatives [3].
 
-Cependant, le cas Doppelgänger constitue aussi une preuve de résistance institutionnelle. VIGINUM a détecté, caractérisé et contribué à neutraliser le réseau en coordination avec les plateformes, démontrant qu’un outil souverain dédié peut contenir une offensive informationnelle étrangère lorsque la volonté politique de le créer et de le doter existe : le rapport 2024 documente les signalements techniques transmis à sept plateformes, qui ont parfois conduit à des actions de modération [3].
+Le cas Doppelgänger constitue aussi une preuve de résistance institutionnelle. VIGINUM a détecté, caractérisé et contribué à neutraliser le réseau en coordination avec les plateformes, démontrant qu’un outil souverain dédié peut contenir une offensive informationnelle étrangère lorsque la volonté politique de le créer et de le doter existe : le rapport 2024 documente les signalements techniques transmis à sept plateformes, qui ont parfois conduit à des actions de modération [3].
 
 ### 6. L’emprise territoriale clandestine : les relais de police du Front uni chinois
 À l’influence s’ajoute une emprise d’une autre nature : des structures étatiques installées sans titre sur le territoire. L’investigation consacrée au Front uni documente les révélations de la DGSI, qui a identifié neuf relais de stations de police, et la décision du Conseil d’État constatant qu’une association du Fujian avait hébergé une station clandestine servant de relais à des organes du Parti et au ministère chinois de la Sécurité publique. Ces relais informels ont exercé des pressions et des opérations de contrôle au détriment de ressortissants de la diaspora sur le territoire français, constituant une atteinte directe à la souveraineté administrative et judiciaire de la France [67].
@@ -82,29 +73,10 @@ Cependant, le cas Doppelgänger constitue aussi une preuve de résistance instit
 
 ## II. Le verrou du Lawfare industriel : la coercition juridique sur les actifs
 
-Le deuxième verrou combine l’usage d’outils répressifs extraterritoriaux (tels que le *Foreign Corrupt Practices Act* américain) et des procédures d’arbitrage privé (ISDS) pour forcer le transfert de propriété d’actifs industriels souverains.
+Le deuxième verrou combine l’usage d’outils répressifs extraterritoriaux (tels que le *Foreign Corrupt Practices Act* américain) et des procédures d’arbitrage privé (ISDS) qui exposent les actifs industriels souverains à une contrainte juridique étrangère.
 
 ### 1. L’autopsie intégrale de l’affaire Alstom (2010-2026)
 L’acquisition de la branche Énergie d’Alstom par General Electric entre 2014 et 2015 constitue le cas le plus grave et le mieux documenté d’asphyxie d’un champion industriel français.
-
-```
-[2010] Enquête pénale FCPA du DOJ (Procédure secrète sur des contrats en Indonésie)
-  │
-[14 Avril 2013] Arrestation à l’aéroport JFK de Frédéric Pierucci (Vice-président Alstom)
-  │             └─ Risque d’une amende de > 1 milliard $ sur Alstom
-  │
-[Avril 2014] Annonce de la cession exclusive de la branche Énergie à General Electric
-  │
-[5 Nov 2014] Arrêté d’autorisation d’investissement IEF signé par Emmanuel Macron
-  │
-[22 Déc 2014] Alstom plaide coupable aux États-Unis (Amende pénale de 772,29 M$)
-  │
-[2015-2019] Cession finalisée ──> Hugh Bailey (ex-conseiller Énergie au cabinet) nommé DG de GE France (2019)
-  │
-[31 Mai 2024] Rachat coûteux par EDF des turbines Arabelle (EDF acquiert Arabelle Solutions)
-  │
-[20 Fév 2026] Anticor se constitue partie civile ; l’information judiciaire ouverte en déc. 2022 reste en cours
-```
 
 ![Figure 5 : La chaîne bornée d’Alstom : chaque relation de la contrainte est documentée, la chaîne s’arrête à l’engagement du dirigeant.](figures/png/fig05_alstom_chaine_bornee.png)
 
@@ -114,12 +86,12 @@ L’enchaînement des pièces documentées par la commission d’enquête de l�
 3. **La signature ministérielle** : Le 5 novembre 2014, le ministre de l’Économie Emmanuel Macron délivre l’autorisation IEF permettant la vente [52]. Le 22 décembre 2014, Alstom plaide coupable et règle 772,29 millions de dollars de pénalité au Trésor américain, comme le relève le communiqué du département de la Justice [44].
 4. **La trahison des engagements et le coût du rachat** : GE s’était engagé par écrit à créer 1 000 emplois net en France sous peine d’une amende de 50 000 euros par emploi manquant [56] [72]. Non seulement les emplois n’ont pas été créés, vingt-cinq emplois nets seulement ayant vu le jour, mais GE a supprimé des centaines de postes à Belfort, et l’État a exigé la pénalité de 50 millions d’euros prévue par la clause, comme le rapporte la réponse ministérielle du 25 juillet 2019 [72]. Le 31 mai 2024, le groupe public EDF a dû racheter à prix d’or ces mêmes activités nucléaires (renommées Arabelle Solutions) pour rétablir une souveraineté minimale [55], pendant que l’information judiciaire ouverte en décembre 2022 reste en cours, comme le relatait *Le Monde* en mars 2026 [57].
 
-Il n’y a pas eu d’ordre militaire étranger. L’instrumentalisation d’une procédure pénale pour des faits commis en Asie a suffi à liquider un fleuron industriel stratégique.
+Il n’y a pas eu d’ordre militaire étranger. L’instrumentalisation d’une procédure pénale pour des faits commis en Asie a suffi à liquider un fleuron industriel stratégique. La borne du dossier reste la même que celle de la figure : chaque relation de la chaîne est documentée, du risque pénal à la vente, mais la décision finale est restée une signature française, et aucune pièce n’établit que la contrainte l’a dictée.
 
 ### 2. La menace permanente de l’arbitrage d’investissement (ISDS)
 Dans le secteur énergétique, la contrainte judiciaire prend la forme de tribunaux d’arbitrage internationaux privés (CIRDI). Dans l’affaire *Rockhopper c. Italie*, la firme pétrolière britannique a fait condamner l’État italien en août 2022 à lui verser 190 millions d’euros de dommages-intérêts pour avoir refusé un permis de forage côtier au nom de la protection environnementale [49]. 
 
-Bien que cette sentence ait été annulée le 2 juin 2025 par un comité ad hoc du CIRDI [49], l’effet d’intimidation réglementaire (*regulatory chill*) créé par le Traité sur la Charte de l’énergie (TCE) a bloqué des dizaines de réformes écologiques en Europe, contraignant l’Union européenne à notifier sa sortie collective du traité en juin 2024 [50].
+Bien que cette sentence ait été annulée le 2 juin 2025 par un comité ad hoc du CIRDI [49], l’effet d’intimidation réglementaire (*regulatory chill*) créé par le Traité sur la Charte de l’énergie (TCE) est documenté par l’Union européenne elle-même comme un motif de sa sortie collective du traité, notifiée en juin 2024 [50] ; le nombre de réformes qu’il a effectivement bloquées n’est, lui, pas établi.
 
 ---
 
@@ -135,63 +107,38 @@ Les investigations sur la production de normes et la sous-traitance publique ne 
 ### 2. La guerre silencieuse des standards internet (L’échec de New IP)
 En septembre 2019, l’équipementier chinois Huawei a présenté devant l’Union internationale des télécommunications (UIT), dans sa contribution C-0083, une refonte globale du protocole internet appelée « New IP » [27]. Ce système visait à remplacer l’architecture ouverte de l’IETF par un réseau doté de mécanismes d’identification et de coupure sélective des paquets de données intégrés au niveau matériel.
 
-```
-       Proposition Chinoise (2019)               Veto Coalition Ouest (2022)
-┌──────────────────────────────────────┐     ┌─────────────────────────────────────┐
-│ Huawei : "New IP" (ITU-T C-0083)     │ ──> │ Coalition US / UE / ISOC            │
-│ Contrôle natif et routage centralisé │     │ Bloqué aux instances IETF & ITU     │
-└──────────────────────────────────────┘     └─────────────────────────────────────┘
-```
-
 Cette tentative de verrouillage normatif a pu être neutralisée par une coalition entre les États-Unis, la Commission européenne et l’Internet Society, qui a publiquement analysé et combattu la proposition [28]. Mais elle a révélé la vulnérabilité des démocraties : si un standard technique parvient à s’imposer dans un organisme de normalisation avant que le politique ne s’en saisisse, la décision souveraine s’en trouve annulée d’avance.
 
 ### 3. Le monopole d’agences et la vérité sur ordonnance
 Dans le champ de l’information publique, la souveraineté cognitive est compromise par une concentration massive des flux d’origine. Les études universitaires disponibles portent sur des paysages nationaux, mais elles convergent : aux Pays-Bas, Boumans et ses coauteurs (2018) établissent que les dépêches d’agence alimentent jusqu’à 75 % de l’actualité en ligne, en grande partie reprises verbatim [29] ; en Suisse, Vogler et ses coauteurs (2024) documentent le même rôle structurant du matériel d’agence dans les rédactions [30]. Aucune de ces études ne mesure l’Europe dans son ensemble : l’hypothèse d’une dépendance comparable de la presse en ligne européenne aux dépêches des grandes agences mondiales, dont AFP, Reuters et Associated Press, reste à établir par une mesure dédiée.
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                    LA CHAÎNE DE DISTRIBUTION DE LA VÉRITÉ               │
-├─────────────────────────────────────────────────────────────────────────┤
-│ [3 Agences Mondiales : AFP / Reuters / AP]                              │
-│   │                                                                     │
-│   ▼                                                                     │
-│ [Rédactions en ligne fortement dépendantes du matériel d’agence]        │
-│   │                                                                     │
-│   ▼                                                                     │
-│ [Fact-checkers certifiés IFCN / EFCSN] ──> [DSA Art. 22 : Signaleurs]   │
-│   │                                                                     │
-│   ▼                                                                     │
-│ [Modération algorithmique déléguée aux plateformes privées (Meta/X)]    │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
 ![Figure 9 : La cascade de la vérité : quatre étages documentés, avec la borne entre les étages 1 et 2, la dépendance européenne restant une hypothèse non mesurée.](figures/png/fig09_cascade_verite.png)
 
-Parallèlement, l’attribution du label de vérité s’est bureaucratisée. L’article 22 du Règlement sur les services numériques (DSA) a créé le statut de « signaleur de confiance » (*trusted flagger*) [34], confiant à des entités privées financées par des subventions européennes ou des contrats de plateformes le pouvoir d’indiquer aux algorithmes quels contenus doivent être restreints ou déréférencés [35]. Une étude publiée en 2025 dans le *Journal of the European Economic Association* démontre que cette sélection génère un biais structurel d’agenda, substituant à la contradiction démocratique un filtrage procédural délégué [31].
+Parallèlement, l’attribution du label de vérité s’est bureaucratisée. L’article 22 du Règlement sur les services numériques (DSA) a créé le statut de « signaleur de confiance » (*trusted flagger*) [34], confiant à des entités privées financées par des subventions européennes ou des contrats de plateformes le pouvoir d’indiquer aux algorithmes quels contenus doivent être restreints ou déréférencés [35]. Une étude publiée en 2025 dans le *Journal of the European Economic Association* démontre que la sélection des affirmations vérifiées par les fact-checkers reflète l’orientation du média qui les porte, générant un biais structurel d’agenda [31] ; le pouvoir des signaleurs, lui, reste une architecture de délégation procédurale dont les effets ne sont pas mesurés.
+
+Deux enquêtes publiées prolongent ce terrain : **[Qui fabrique l’autorité du vrai ?](https://giak.substack.com/p/qui-fabrique-lautorite-du-vrai)** reconstitue l’infrastructure de qualification du vrai, de la sélection des affaires au signalement des plateformes ; **[Qui fact-checke les fact-checkers ?](https://giak.substack.com/p/qui-fact-checke-les-fact-checkers)** mesure la confiance que mérite le label lui-même.
 
 ---
 
 ## IV. Le verrou d’élites : le marché privé de l’intérêt public et la diplomatie parallèle
 
-Le quatrième et dernier verrou ferme la boucle. Il garantit la docilité des appareils d’État en alignant les trajectoires de carrière individuelles des hauts fonctionnaires et conseillers ministériels sur les intérêts financiers des multinationales ou d’organisations de plaidoyer.
+Le quatrième verrou porte sur les personnes. Il peut orienter la docilité des appareils d’État en alignant les trajectoires de carrière individuelles des hauts fonctionnaires et conseillers ministériels sur les intérêts financiers des multinationales ou d’organisations de plaidoyer.
 
 ### 1. La matrice des mobilités post-ministérielles et du lobbying d’influence
-L’analyse croisée des délibérations de la Haute Autorité pour la transparence de la vie publique (HATVP) et des rapports d’enquête de l’Office européen de lutte antifraude (OLAF) met en lumière une cartographie des mobilités d’État vers le secteur privé et le lobbying stratégique :
+L’analyse croisée des délibérations de la Haute Autorité pour la transparence de la vie publique (HATVP) et des rapports d’enquête de l’Office européen de lutte antifraude (OLAF) met en lumière une cartographie des mobilités d’État vers le secteur privé et le lobbying stratégique. Quatre trajectoires individuelles documentées et un cas organisationnel :
 
-| Acteur Public / Organisation | Fonction Étatique ou Activité | Entité Privée / Enjeu de Pression | Enjeu Forensique de Souveraineté |
-| :--- | :--- | :--- | :--- |
-| **Hugh Bailey** | Conseiller Énergie au cabinet du ministre de l’Économie (2014-2016) | **General Electric France** (Directeur Général, nommé en 2019) | Chronologie documentée : présent au cabinet lors de l’instruction de l’autorisation IEF d’Alstom (2014), puis nommé DG de la filiale française de l’acquéreur (2019) [58] [59]. Aucune procédure pénale engagée à ce jour |
-| **Jean-Baptiste Djebbari** | Ministre délégué aux Transports (2019-2022) | **CMA CGM** (Administrateur) / **Hopium** | Délibérations HATVP 2022-104 et 2022-123 du 17 mai 2022 sur les risques de conflits d’intérêts [37] [38] |
-| **Adam Farkas** | Directeur exécutif de l’Autorité bancaire européenne (EBA) | **AFME** (Principal lobby bancaire européen) | Recommandation du Médiateur européen 2168/2019/KR concluant à une mauvaise administration [36] |
-| **Neelie Kroes** | Vice-présidente de la Commission européenne (Numérique) | **Uber Technologies** (Lobbyiste non déclarée) | Rapport final d’enquête OLAF OC/2022/0514/A1 documentant les violations des règles éthiques [39] |
-| **ELNET France** | Organisation de diplomatie publique et lobbying | **Plusieurs voyages parlementaires pris en charge, confirmés par les déclarations de l’Assemblée nationale** (2017-2024) | Prise en charge d’élus français ; échec final sur la reconnaissance de la Palestine en sept. 2025 |
+- **Hugh Bailey**, conseiller Énergie au cabinet du ministre de l’Économie (2014-2016), puis directeur général de **General Electric France** dès 2019. Chronologie documentée : présent au cabinet lors de l’instruction de l’autorisation IEF d’Alstom (2014), nommé ensuite à la direction de la filiale française de l’acquéreur (2019) [58] [59]. Aucune procédure pénale engagée à ce jour.
+- **Jean-Baptiste Djebbari**, ministre délégué aux Transports (2019-2022), devenu administrateur de **CMA CGM** et dirigeant de **Hopium**. Délibérations HATVP 2022-104 et 2022-123 du 17 mai 2022 sur les risques de conflits d’intérêts [37] [38].
+- **Adam Farkas**, directeur exécutif de l’Autorité bancaire européenne (EBA), passé à la tête d’**AFME**, principal lobby bancaire européen. Recommandation du Médiateur européen 2168/2019/KR concluant à une mauvaise administration [36].
+- **Neelie Kroes**, vice-présidente de la Commission européenne chargée du Numérique, devenue lobbyiste non déclarée d’**Uber Technologies**. Rapport final d’enquête OLAF OC/2022/0514/A1 documentant les violations des règles éthiques [39].
+- **ELNET France**, organisation de diplomatie publique et de lobbying : plusieurs voyages parlementaires pris en charge, confirmés par les déclarations de l’Assemblée nationale (2017-2024). Prise en charge d’élus français ; échec final sur la reconnaissance de la Palestine en sept. 2025. Les 101 voyages parlementaires pris en charge entre 2017 et 2024 sont documentés dans **[La Défense rongée](https://giak.substack.com/p/la-defense-rongee-449-md-sans-munitions)**.
 
 ### 2. Le point aveugle du droit pénal français
-Le droit positif français dispose de plusieurs outils répressifs en matière de probité publique. L’article 432-11 du Code pénal incrimine la corruption passive et le trafic d’influence commis par une personne dépositaire de l’autorité publique, chargée d’une mission de service public ou investie d’un mandat électif public [78]. L’article 432-13 sanctionne la prise illégale d’intérêts d’un ancien agent public qui, dans les trois ans suivant la cessation de ses fonctions, prend une participation par travail, conseil ou capitaux dans une entreprise privée qu’il a surveillée ou contrôlée, avec laquelle il a conclu des contrats ou sur les opérations de laquelle il a formulé un avis (le « pantouflage ») [79]. L’article 433-2 vise quiconque sollicite ou agrée des avantages pour abuser de son influence, réelle ou supposée, en vue de faire obtenir d’une autorité publique une décision favorable [41]. Ces incriminations sont en cours d’harmonisation européenne : la directive (UE) 2026/1021, adoptée le 29 avril 2026 et entrée en vigueur le 31 mai 2026, aligne un noyau d’incriminations : corruption active et passive dans les secteurs public et privé, trafic d’influence dans ses deux branches, exercice illicite de fonctions publiques, avec des minima de peines communs ; la prise illégale d’intérêts et les règles de conflits d’intérêts relèvent en revanche de son volet prévention et de la réglementation nationale des mobilités, non de son noyau pénal [78] [79] [42].
+Le droit positif français dispose de plusieurs outils répressifs en matière de probité publique ; les trois articles qui suivent montrent ce que le pénal exige, et donc ce qu’il ne saisit pas. L’article 432-11 du Code pénal incrimine la corruption passive et le trafic d’influence commis par une personne dépositaire de l’autorité publique, chargée d’une mission de service public ou investie d’un mandat électif public [78]. La jurisprudence y ajoute une exigence que le texte ne porte pas : caractériser un pacte de corruption antérieur à l’acte accompli, l’accord sur la contrepartie étant l’élément central de la preuve. L’article 432-13 sanctionne la prise illégale d’intérêts d’un ancien agent public qui, dans les trois ans suivant la cessation de ses fonctions, prend une participation par travail, conseil ou capitaux dans une entreprise privée qu’il a surveillée ou contrôlée, avec laquelle il a conclu des contrats ou sur les opérations de laquelle il a formulé un avis (le « pantouflage ») [79]. L’article 433-2 vise quiconque sollicite ou agrée des avantages pour abuser de son influence, réelle ou supposée, en vue de faire obtenir d’une autorité publique une décision favorable [41]. Ces incriminations sont en cours d’harmonisation européenne : la directive (UE) 2026/1021, adoptée le 29 avril 2026 et entrée en vigueur le 31 mai 2026, aligne un noyau d’incriminations, dont la corruption active et passive dans les secteurs public et privé, le trafic d’influence dans ses deux branches et l’exercice illicite de fonctions publiques, en fixant des seuils minimaux de peines ; la prise illégale d’intérêts et les règles de conflits d’intérêts relèvent en revanche de son volet prévention et de la réglementation nationale des mobilités, non de son noyau pénal [78] [79] [42].
 
-Cependant, l’action pénale au titre de l’article 432-13 exige la preuve que l’ancien agent a effectivement surveillé ou contrôlé l’entreprise concernée, conclu des contrats avec elle ou avisé ses opérations, dans le cadre des fonctions qu’il a effectivement exercées ; le délai de trois ans court depuis la cessation de ces fonctions, il borne la reprise d’une activité privée, il n’exige pas que la surveillance ait eu lieu dans les trois années précédant le départ [79]. Au titre de l’article 432-11, elle exige la démonstration d’un **pacte préexistant** liant une décision publique à une contrepartie identifiable.
+L’action pénale au titre de l’article 432-13 exige la preuve que l’ancien agent a effectivement surveillé ou contrôlé l’entreprise concernée, conclu des contrats avec elle ou avisé ses opérations, dans le cadre des fonctions qu’il a effectivement exercées ; le délai de trois ans court depuis la cessation de ces fonctions, il borne la reprise d’une activité privée, il n’exige pas que la surveillance ait eu lieu dans les trois années précédant le départ [79]. Au titre de l’article 432-11, elle exige la démonstration d’un **pacte préexistant** liant une décision publique à une contrepartie identifiable.
 
-Ces exigences probatoires se heurtent à la nature diffuse des mobilités institutionnelles. Comme l’a relevé la HATVP dans son rapport d’activité 2024 [40], l’accoutumance d’un conseiller ministériel aux arguments d’un acteur industriel, entretenue par la perspective d’une carrière post-gouvernementale, peut orienter les arbitrages sans qu’aucun pacte formel ne soit identifiable. Le résultat est un angle mort juridique : le droit pénal français est outillé pour sanctionner l’échange explicite de faveurs, mais structurellement désarmé face à la capture cognitive progressive des décideurs publics.
+Ces exigences probatoires se heurtent à la nature diffuse des mobilités institutionnelles. Le rapport d’activité 2024 de la HATVP documente l’accoutumance d’un conseiller ministériel aux arguments d’un acteur industriel, entretenue par la perspective d’une carrière post-gouvernementale [40] ; la lecture qui en fait une mécanique d’orientation des arbitrages sans pacte formel est celle de cet article, la pièce porte le risque de conflit d’intérêts, pas la mécanique. Le résultat est un angle mort juridique : le droit pénal français est outillé pour sanctionner l’échange explicite de faveurs, mais structurellement désarmé face à la capture cognitive progressive des décideurs publics.
 
 ![Figure 11 : L’angle mort du droit pénal : ce que les pièces documentent face à ce que le pénal exige ; le vide central est l’écart lui-même.](figures/png/fig11_angle_mort.png)
 
@@ -199,26 +146,35 @@ Ces exigences probatoires se heurtent à la nature diffuse des mobilités instit
 
 ## V. Synthèse forensique : la matrice des quatre verrous documentés
 
-L’inventaire des investigations instruites écarte l’explication par des défaillances individuelles isolées. Il documente quatre verrous, chacun sur des dossiers distincts : le péage monétaire et numérique et l’ingérence, la coercition juridique sur les actifs, la production normative, la porosité des élites. Il documente aussi, dans chaque verrou, au moins un garde-fou qui a tenu. **Il n’établit pas que ces quatre verrous forment une architecture unique.** C’est la lecture que propose cet article, et son articulation reste ouverte : aucune pièce ne relie les leviers entre eux, et c’est ce chaînage qu’il faudrait produire pour fermer la thèse. Ce qui suit inventorie ces instruments un par ligne, chacun avec la pièce qui le porte. L’inventaire ne démontre pas un système :
+L’inventaire des investigations instruites écarte l’explication par des défaillances individuelles isolées. Il documente quatre verrous, chacun sur des dossiers distincts : le péage monétaire et numérique et l’ingérence, la coercition juridique sur les actifs, la production normative, la porosité des élites. Il documente aussi, dans chaque verrou, au moins un garde-fou qui a tenu. **Il n’établit pas que ces quatre verrous forment une architecture unique.** C’est la lecture que propose cet article, et son articulation reste ouverte. Aucune pièce ne relie les leviers entre eux ; c’est ce chaînage qu’il faudrait produire pour fermer la thèse. Ce qui suit inventorie ces instruments un par ligne, chacun avec la pièce qui le porte. L’inventaire ne démontre pas un système :
 
-| Verrou | Instrument documenté | Cas constaté | Pièce |
-| :--- | :--- | :--- | :--- |
-| **I. Infrastructure et ingérence** | Péage monétaire et clearing | Amende de 8,97 Md$ prononcée contre BNP Paribas en 2014 | DOJ, 30 juin 2014 |
-| | Sur-conformité préventive | Retrait de TotalEnergies du projet South Pars 11 en 2018 ; arrêt *Bank Melli Iran c. Telekom Deutschland* | TotalEnergies, 16 mai 2018 ; CJUE, 21 décembre 2021 |
-| | Hébergement de données | Clauses d’immunité retirées du schéma EUCS ; Health Data Hub confié à Microsoft Azure | US Chamber of Commerce, 23 mai 2023 |
-| | Interception et identité numérique | Règlement (UE) 2024/1183, article 45a ; dérogation ePrivacy rétablie jusqu’au 3 avril 2028 | EUR-Lex, règlements 2024/1183 et 2026/1881 |
-| | Influence clandestine | Alp Services ; BlackCore / Rokh Solis ; opération Doppelgänger | Mediapart ; VIGINUM, 2026 ; VIGINUM, 19 juillet 2023 |
-| | Emprise territoriale | Neuf relais de stations de police identifiés par la DGSI ; station du Fujian constatée par le Conseil d’État | Question écrite n° 1675 ; Conseil d’État |
-| **II. Lawfare industriel** | Poursuite pénale extraterritoriale (FCPA) | Alstom : enquête ouverte en 2010, cession à General Electric en 2014, pénalité de 772,29 M$ | DOJ, 22 décembre 2014 |
-| | Arbitrage d’investissement (ISDS) | *Rockhopper c. Italie* : 190 M€ en août 2022, sentence annulée le 2 juin 2025 | CIRDI, aff. ARB/17/14 |
-| **III. Normatif et de conseil** | Standards techniques privés | New IP bloqué par la coalition IETF / ISOC ; composant logiciel de sécurité retenu par le règlement (UE) 2023/1230 | ISOC, février 2022 ; étude DG GROW, juin 2020 |
-| | Sous-traitance de l’expertise publique | Rapport du Sénat n° 578 sur les cabinets de conseil ; étude d’impact de la directive machines écrite par un consortium incluant Deloitte | Sénat, 2021 ; DG GROW, juin 2020 |
-| | Concentration des flux d’information | Dépendance des rédactions en ligne au matériel d’agence établie au niveau national (Pays-Bas, Suisse) ; généralisation européenne non mesurée | Boumans, 2018 ; Vogler, 2024 |
-| | Délégation du jugement de vérité | Signaleurs de confiance de l’article 22 du DSA ; biais d’agenda documenté | DSA, art. 22 ; JEEA, 2025 |
-| **IV. Porosité des élites** | Pantouflage des décideurs publics | Hugh Bailey, du cabinet de l’Économie à la direction de GE France ; Jean-Baptiste Djebbari, de ministre délégué à CMA CGM | GE France, avril 2019 ; HATVP, 17 mai 2022 |
-| | Lobbying d’influence structuré | ELNET France, voyages parlementaires pris en charge ; Adam Farkas quittant l’ABE pour l’AFME ; Neelie Kroes pour Uber | HATVP ; Médiateur européen, mai 2020 ; OLAF |
+**Verrou I. Infrastructure et ingérence** :
 
-L’analyse fait apparaître un motif récurrent : **pour chaque verrou, un garde-fou documenté existe.** Le veto IEF sur l’acquisition de Photonis par le groupe américain Teledyne en 2020, empêchant la cession d’un fabricant d’optronique militaire stratégique [24] ; la détection et la neutralisation de l’opération Doppelgänger par VIGINUM [77] ; le blocage du standard New IP chinois par la coalition IETF/ISOC [28] ; la sortie collective du TCE [50] ; et la résistance lituanienne face à la coercition économique chinoise [16] [17] prouvent que la résistance souveraine est structurellement possible. Le différentiel entre verrous effectifs et verrous neutralisés tient à trois conditions : un outil institutionnel dédié, une volonté politique explicite, et un coût de résistance jugé acceptable.
+- **Péage monétaire et clearing** : amende de 8,97 Md$ prononcée contre BNP Paribas en 2014 (pièce : DOJ, 30 juin 2014).
+- **Sur-conformité préventive** : retrait de TotalEnergies du projet South Pars 11 en 2018 ; arrêt *Bank Melli Iran c. Telekom Deutschland* (pièces : TotalEnergies, 16 mai 2018 ; CJUE, 21 décembre 2021).
+- **Hébergement de données** : clauses d’immunité retirées du schéma EUCS ; Health Data Hub confié à Microsoft Azure (pièce : US Chamber of Commerce, 23 mai 2023).
+- **Interception et identité numérique** : règlement (UE) 2024/1183, article 45a ; dérogation ePrivacy rétablie jusqu’au 3 avril 2028 (pièces : EUR-Lex, règlements 2024/1183 et 2026/1881).
+- **Influence clandestine** : Alp Services ; BlackCore / Rokh Solis ; opération Doppelgänger (pièces : Mediapart ; VIGINUM, 2026 ; VIGINUM, 19 juillet 2023).
+- **Emprise territoriale** : neuf relais de stations de police identifiés par la DGSI ; station du Fujian constatée par le Conseil d’État (pièces : question écrite n° 1675 ; Conseil d’État).
+
+**Verrou II. Lawfare industriel** :
+
+- **Poursuite pénale extraterritoriale (FCPA)** : Alstom, enquête ouverte en 2010, cession à General Electric en 2014, pénalité de 772,29 M$ (pièce : DOJ, 22 décembre 2014).
+- **Arbitrage d’investissement (ISDS)** : *Rockhopper c. Italie*, 190 M€ en août 2022, sentence annulée le 2 juin 2025 (pièce : CIRDI, aff. ARB/17/14).
+
+**Verrou III. Normatif et de conseil** :
+
+- **Standards techniques privés** : New IP bloqué par la coalition IETF / ISOC ; composant logiciel de sécurité retenu par le règlement (UE) 2023/1230 (pièces : ISOC, février 2022 ; étude DG GROW, juin 2020).
+- **Sous-traitance de l’expertise publique** : rapport du Sénat n° 578 sur les cabinets de conseil ; étude d’impact de la directive machines écrite par un consortium incluant Deloitte (pièces : Sénat, 2021 ; DG GROW, juin 2020).
+- **Concentration des flux d’information** : dépendance des rédactions en ligne au matériel d’agence établie au niveau national (Pays-Bas, Suisse) ; généralisation européenne non mesurée (pièces : Boumans, 2018 ; Vogler, 2024).
+- **Délégation du jugement de vérité** : signaleurs de confiance de l’article 22 du DSA ; biais d’agenda documenté (pièces : DSA, art. 22 ; JEEA, 2025).
+
+**Verrou IV. Porosité des élites** :
+
+- **Pantouflage des décideurs publics** : Hugh Bailey, du cabinet de l’Économie à la direction de GE France ; Jean-Baptiste Djebbari, de ministre délégué à CMA CGM (pièces : GE France, avril 2019 ; HATVP, 17 mai 2022).
+- **Lobbying d’influence structuré** : ELNET France, voyages parlementaires pris en charge ; Adam Farkas quittant l’ABE pour l’AFME ; Neelie Kroes pour Uber (pièces : HATVP ; Médiateur européen, mai 2020 ; OLAF).
+
+L’analyse fait apparaître un motif récurrent. **Des garde-fous documentés existent, mais ils ne couvrent pas les quatre verrous.** Sur les verrous d’infrastructure et de coercition, le veto IEF sur l’acquisition de Photonis par le groupe américain Teledyne en 2020, empêchant la cession d’un fabricant d’optronique militaire stratégique [24], et la résistance lituanienne face à la coercition économique chinoise [16] [17]. Côté informationnel, la détection et la neutralisation de l’opération Doppelgänger par VIGINUM [77] et le blocage du standard New IP chinois par la coalition IETF/ISOC [28]. Sur le volet normatif, la sortie collective du TCE [50] montre un blocage par retrait du traité, non un verrou levé de l’intérieur. Sur le verrou des élites, en revanche, aucune investigation instruite ne documente un mécanisme ayant refermé quoi que ce soit ; ni les déclarations de la HATVP, ni les délais légaux n’ont empêché les trajectoires documentées. Ce différentiel tient à trois conditions : un outil institutionnel dédié, une volonté politique explicite, et un coût de résistance jugé acceptable.
 
 ![Figure 10 : La grille de lecture : quatre questions à poser à tout cas de dépendance, trois issues documentées ; une méthode de lecture, pas une machine à prédire.](figures/png/fig10_grille_de_lecture.png)
 
@@ -230,14 +186,14 @@ La recherche d’un « gouvernement de l’ombre » ou d’un « ordre clandesti
 
 L’investigation forensique documente une réalité plus étroite et plus grave. **La souveraineté française et européenne ne s’éteint pas par la coercition directe ; elle s’asphyxie dans des architectures de dépendance consenties.**
 
-Une précision épistémologique s’impose. Documenter une contrainte structurelle n’équivaut pas à prouver un acte de coercition intentionnelle. Lorsqu’une banque cède aux exigences du DOJ ou qu’un industriel abandonne un marché iranien, la décision individuelle est rationnelle et souvent légale. C’est l’accumulation systémique de ces décisions rationnelles, chacune prise sous contrainte d’infrastructure, qui produit un effet de soumission globale sans qu’aucun ordre n’ait été donné. Confondre cette dynamique avec un « complot » serait aussi erroné que de la nier sous prétexte qu’aucun smoking gun n’existe. De la même manière, documenter quatre architectures de dépendance n’équivaut pas à établir qu’elles n’en forment qu’une : la convergence est la lecture que propose cet article, et son chaînage reste ouvert.
+Une précision épistémologique s’impose. Documenter une contrainte structurelle n’équivaut pas à prouver un acte de coercition intentionnelle. Lorsqu’une banque cède aux exigences du DOJ ou qu’un industriel abandonne un marché iranien, la décision individuelle est rationnelle et souvent légale. C’est l’accumulation systémique de ces décisions rationnelles, chacune prise sous contrainte d’infrastructure, qui produit un effet de soumission globale sans qu’aucun ordre n’ait été donné. Confondre cette dynamique avec un « complot » serait aussi erroné que de la nier sous prétexte qu’aucun smoking gun n’existe. De la même manière, documenter quatre architectures de dépendance n’équivaut pas à établir qu’elles n’en forment qu’une : la convergence est la lecture que propose cet article, et son chaînage reste ouvert. Deux observations feraient évoluer cette lecture, dans un sens ou dans l’autre. Une pièce attestant un chaînage organique entre deux verrous (une même décision ou un même commanditaire produisant deux fermetures documentées) fermerait la thèse forte ; à l’inverse, la démonstration que des dépendances comparables n’ont produit aucun effet sur les décisions concernées la retirerait. Aucune de ces deux pièces n’existe à ce jour ; tant qu’elles manquent, la convergence demeure une lecture.
 
 Reste le constat central :
 
 - On accepte le clearing en dollars par faim de marchés financiers, puis on s’étonne d’appliquer les embargos américains.
-- On abandonne ses champions industriels aux juges étrangers par peur des amendes, puis on dépense des milliards pour racheter leurs usines dix ans plus tard.
+- On abandonne ses champions industriels à la justice étrangère par peur des amendes, puis on dépense des milliards pour racheter leurs usines dix ans plus tard.
 - On confie ses données de santé et ses communications aux hyperscalers américains, puis on rédige des discours sur l’autonomie stratégique.
-- On tolère que les conseillers qui ont validé ces ventes rejoignent la direction des acheteurs, puis on s’étonne de l’abstention massive des citoyens.
+- On tolère que des conseillers présents au cabinet lors de l’instruction de cette cession rejoignent ensuite la direction de l’acheteur, puis on s’étonne de l’abstention massive des citoyens.
 
 La souveraineté ne s’éteint pas par la trahison ; elle s’évapore par l’accumulation de verrous que personne n’a le courage d’abroger. Tant que l’État ne reconstruira pas ses propres circuits de paiement, ses propres infrastructures numériques, ses propres instruments de justice industrielle et une éthique publique blindée, les discours sur la puissance ne seront que les ornements d’une capitulation en toute légalité.
 
