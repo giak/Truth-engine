@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:7eb930bffd3b0d96e54b4e23feab2102e8d1f9a014dfcc898054e4cbfa3ba298",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "/mnt/data/inv161_work/runtime/investigations/2026-09/2026-09-13_elnet-voyages-effet-causal/2026-09-13_12-00_elnet-voyages-effet-causal_INVESTIGATION.md",
+  "deliverable_sha256": "6342536bb88762deb8c1dc95add623a20273f22b4a8a1e56e5f18a9c83985d78",
+  "created_at": "2026-09-13T10:25:31.414038+00:00"
+}

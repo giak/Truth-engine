@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "NO_GIT",
+  "state_id": "sha256:385dab875f7c4cabbd718b9404eb887d5ec9a872465eae00a7c4e27ce52b79f5",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-10_aipac-electoral-lobbying-france/2026-09-10_04-00_aipac-electoral-lobbying-france_INVESTIGATION.md",
+  "deliverable_sha256": "ec95309f580365bea401e97404490d8c61835555956c59454f2e06c775f095e6",
+  "created_at": "2026-09-10T03:23:34.007597+00:00"
+}
