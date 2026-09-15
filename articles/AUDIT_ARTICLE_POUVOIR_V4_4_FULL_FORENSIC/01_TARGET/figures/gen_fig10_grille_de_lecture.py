@@ -52,9 +52,9 @@ OUTCOMES = [
 ]
 
 KICK_L = "FIG. 10 · GRILLE DE LECTURE"
-KICK_R = "L’ÉTAT SOUS ASHPHYXIE"
+KICK_R = "L’ÉTAT SOUS ASPHYXIE"
 TITLE = "Tester un cas : quatre questions, trois issues"
-SUBTITLE = "Pour toute dépendance nouvelle, la méthode que la partie V de l’article applique sans la nommer."
+SUBTITLE = "Pour toute dépendance nouvelle, la méthode que la partie V de l’article nomme et applique."
 CONDITIONS = "Les trois issues se départagent par trois conditions : un outil institutionnel dédié, une volonté politique explicite, un coût de résistance jugé acceptable."
 TAGLINE = "UNE MÉTHODE DE LECTURE, PAS UNE MACHINE À PRÉDIRE"
 

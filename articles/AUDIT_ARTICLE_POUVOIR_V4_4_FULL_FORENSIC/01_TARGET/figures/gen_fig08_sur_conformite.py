@@ -40,7 +40,7 @@ NODES = [
 RECOURSE = ("RÈGLEMENT UE 2271/96", ["activé par l’UE, il n’offre", "aucune immunité effective", "constat d’impasse : CJUE [12] [13]"])
 
 KICK_L = "FIG. 08 · LA SUR-CONFORMITÉ"
-KICK_R = "L’ÉTAT SOUS ASHPHYXIE"
+KICK_R = "L’ÉTAT SOUS ASPHYXIE"
 TITLE = "La contrainte sans ordre"
 SUBTITLE = "Le mécanisme de la partie I.2 : la menace sur l’infrastructure produit la décision d’abandon."
 BANNER1 = "Aucun ordre n’a été transmis : la contrainte s’exerce par l’infrastructure."

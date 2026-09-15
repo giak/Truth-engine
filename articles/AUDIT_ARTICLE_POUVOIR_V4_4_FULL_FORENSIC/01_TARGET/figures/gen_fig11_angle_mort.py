@@ -39,7 +39,7 @@ LEFT_HEAD = "CE QUE LES PIÈCES DOCUMENTENT"
 LEFT_ROWS = [
     ("Orientations d’arbitrages sans pacte formel,", "accoutumance progressive", "[40]"),
     ("Bailey : cabinet de l’Économie → GE France (2019)", "chronologie documentée", "[58]"),
-    ("Djebbari : ministre → CMA CGM", "avis HATVP 2022-104, 2022-123", "[37] [38]"),
+    ("Djebbari : présidence d’Hopium autorisée", "départ CMA CGM refusé par la HATVP", "[37] [38] [82] [83]"),
     ("Farkas : EBA → AFME", "mauvaise administration", "[36]"),
     ("Kroes : Commission → Uber", "violations éthiques", "[39]"),
 ]
@@ -57,7 +57,7 @@ RIGHT_ROWS = [
 CENTER = ["L’ANGLE", "MORT", "aucune des deux", "mains ne saisit", "ce que l’autre", "documente"]
 
 KICK_L = "FIG. 11 · L’ANGLE MORT"
-KICK_R = "L’ÉTAT SOUS ASHPHYXIE"
+KICK_R = "L’ÉTAT SOUS ASPHYXIE"
 TITLE = "Pourquoi rien n’est poursuivable — et rien n’est normal"
 SUBTITLE = "Ce que la partie IV.2 établit : un écart structurel entre le phénomène documenté et la preuve que le droit exige."
 DIRECTIVE = "Portée : la directive (UE) 2026/1021 harmonise le noyau pénal mais laisse la prise illégale d’intérêts au volet prévention — l’angle mort est appelé à persister [42] [78] [79]."

@@ -42,7 +42,7 @@ STAGES = [
 BOUND = "dépendance mesurée aux Pays-Bas (jusqu’à 75 %) et en Suisse — l’hypothèse d’une dépendance comparable en Europe reste NON MESURÉE"
 
 KICK_L = "FIG. 09 · LA CHAÎNE DE LA VÉRITÉ"
-KICK_R = "L’ÉTAT SOUS ASHPHYXIE"
+KICK_R = "L’ÉTAT SOUS ASPHYXIE"
 TITLE = "D’où vient ce qui est tenu pour vrai"
 SUBTITLE = "La chaîne de distribution de la partie III.3, étage par étage, avec sa borne documentaire."
 BANNER1 = "La vérité descend une chaîne de dépendances ; chaque étage documenté porte sa pièce."

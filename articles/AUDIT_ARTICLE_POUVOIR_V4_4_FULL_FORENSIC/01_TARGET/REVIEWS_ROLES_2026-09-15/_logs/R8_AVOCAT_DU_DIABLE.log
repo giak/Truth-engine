@@ -1,0 +1,17 @@
+[0m
+> build · nvidia/nemotron-3-ultra-550b-a55b
+[0m
+[0m✗ [0mRead 00_CONTEXTE_COMMUN.md failed
+[91m[1mError: [0mFile not found: /home/giak/projects/truth-engine/00_CONTEXTE_COMMUN.md
+[0m✱ [0mGlob "articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/**/*"[90m 75 matches[0m
+[0m→ [0mRead articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/REVIEWS_ROLES_2026-09-15/00_CONTEXTE_COMMUN.md
+[0m→ [0mRead articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/ARTICLE_MASTERWORK_SOUVERAINETE_2026.md
+[0m→ [0mRead articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/ARTICLE_MASTERWORK_SOUVERAINETE_2026.md[90m [offset=248][0m
+[0m→ [0mRead articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/ANNEXE_PIECES_MASTERWORK_2026-09-15.md
+[0m
+[0m← [0mWrite articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/REVIEWS_ROLES_2026-09-15/R8_AVOCAT_DU_DIABLE.md
+Wrote file successfully.
+[0m
+Rapport écrit : `articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/REVIEWS_ROLES_2026-09-15/R8_AVOCAT_DU_DIABLE.md`
+
+**Résumé** : 10 puces adverses documentées ligne à ligne ; 3 affirmations inattaquables (borne Alstom, non-démonstration articulation, sur-conformité rationnelle) ; 5 corrections ciblées qui feraient échouer la thèse inverse ; verdict : thèse de l'article survivante mais herméneutique — l'accumulation est factuelle, l'architecture « quatre verrous uniques » reste une lecture proposée, non prouvée.

@@ -36,7 +36,7 @@ def serif(size, fill=BLACK, italic=False, weight=400):
 
 # ---------- contenu (à mesurer) ----------
 KICK_L = "FIG. 05 · CHAÎNE BORNÉE"
-KICK_R = "L’ÉTAT SOUS ASHPHYXIE"
+KICK_R = "L’ÉTAT SOUS ASPHYXIE"
 TITLE = "L’étau et le verrou : la chaîne bornée d’Alstom"
 SUBTITLE = "Chaque relation de la contrainte est documentée ; la chaîne s’arrête à l’engagement du dirigeant."
 BANNER1 = "La chaîne est documentée jusqu’à l’engagement du dirigeant."

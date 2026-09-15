@@ -1,0 +1,12 @@
+demarrage 2026-09-15 12:10:57
+R1_CONTRADICTEUR_EPISTEMOLOGIQUE nvidia/nvidia/nemotron-3-ultra-550b-a55b pid=4146156
+R4_JURISTE nvidia/nvidia/nemotron-3-ultra-550b-a55b pid=4146472
+R8_AVOCAT_DU_DIABLE nvidia/nvidia/nemotron-3-ultra-550b-a55b pid=4146727
+R3_FACT_CHECKER_FORENSIQUE nvidia/nvidia/nemotron-3-ultra-550b-a55b pid=4147054
+R2_REDACTEUR_EN_CHEF nvidia/nvidia/nemotron-3-super-120b-a12b pid=4147312
+R5_AUDITEUR_METHODOLOGIQUE nvidia/nvidia/nemotron-3-super-120b-a12b pid=4147611
+R6_PHILOSOPHE_LANGAGE nvidia/nvidia/nemotron-3-super-120b-a12b pid=4148109
+R9_CORRECTEUR_FRANCAIS nvidia/nvidia/nemotron-3-super-120b-a12b pid=4148613
+R7_RISQUE_INSTRUMENTALISATION nvidia/nvidia/nemotron-3.5-lightning-30b-a3b pid=4149219
+R10_LECTEUR_PROFANE nvidia/nvidia/nemotron-3.5-lightning-30b-a3b pid=4149682
+TOUS_LANCES 2026-09-15 12:11:47

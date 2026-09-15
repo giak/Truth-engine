@@ -1,0 +1,73 @@
+[0m
+> build · nvidia/nemotron-3-ultra-550b-a55b
+[0m
+[0m✗ [0mRead 00_CONTEXTE_COMMUN.md failed
+[91m[1mError: [0mFile not found: /home/giak/projects/truth-engine/00_CONTEXTE_COMMUN.md
+[0m✱ [0mGlob "articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/**/*.md"[90m 100 matches[0m
+[0m→ [0mRead articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/ARTICLE_PUBLISH_CANDIDATE_V4_4_FR.md
+[0m→ [0mRead articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/ARTICLE_PUBLISH_CANDIDATE_V4_4_FR.md[90m [offset=185][0m
+[0m→ [0mRead articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/ARTICLE_MASTERWORK_SOUVERAINETE_2026.md
+[0m
+[0m# [0mTodos
+[•] Analyze 'verrou' definition against Part V inventory items
+[ ] Test unity of Verrou I's eight lines
+[ ] Trace capacité/pouvoir mobilisable/pouvoir exercé/effet observable chain
+[ ] Analyze 'garde-fou' commensurability
+[ ] Test graduation of evidence application
+[ ] Verify hierarchy demonstration vs lecture
+[ ] Write final report
+[0m
+Now I have both articles. The MASTERWORK version contains the "verrou" definition, the Part V inventory, "garde-fou" concept, etc. Let me write the forensic review.
+[0m# [0mTodos
+[✓] Analyze 'verrou' definition against Part V inventory items
+[•] Test unity of Verrou I's eight lines
+[ ] Trace capacité/pouvoir mobilisable/pouvoir exercé/effet observable chain
+[ ] Analyze 'garde-fou' commensurability
+[ ] Test graduation of evidence application
+[ ] Verify hierarchy demonstration vs lecture
+[ ] Write final report
+[0m
+[0m# [0mTodos
+[✓] Analyze 'verrou' definition against Part V inventory items
+[✓] Test unity of Verrou I's eight lines
+[•] Trace capacité/pouvoir mobilisable/pouvoir exercé/effet observable chain
+[ ] Analyze 'garde-fou' commensurability
+[ ] Test graduation of evidence application
+[ ] Verify hierarchy demonstration vs lecture
+[ ] Write final report
+[0m
+[0m# [0mTodos
+[✓] Analyze 'verrou' definition against Part V inventory items
+[✓] Test unity of Verrou I's eight lines
+[✓] Trace capacité/pouvoir mobilisable/pouvoir exercé/effet observable chain
+[✓] Analyze 'garde-fou' commensurability
+[✓] Test graduation of evidence application
+[✓] Verify hierarchy demonstration vs lecture
+[•] Write final report
+[0m
+[0m← [0mWrite articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/REVIEWS_ROLES_2026-09-15/R1_CONTRADICTEUR_EPISTEMOLOGIQUE.md
+Wrote file successfully.
+[0m
+[0m# [0mTodos
+[✓] Analyze 'verrou' definition against Part V inventory items
+[✓] Test unity of Verrou I's eight lines
+[✓] Trace capacité/pouvoir mobilisable/pouvoir exercé/effet observable chain
+[✓] Analyze 'garde-fou' commensurability
+[✓] Test graduation of evidence application
+[✓] Verify hierarchy demonstration vs lecture
+[✓] Write final report
+[0m
+Rapport écrit : `articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/REVIEWS_ROLES_2026-09-15/R1_CONTRADICTEUR_EPISTEMOLOGIQUE.md`
+
+**Verdict synthétique** : La grille conceptuelle **ne tient pas**.
+
+| Point testé | Résultat |
+|-------------|----------|
+| Définition « verrou » (prologue) vs inventaire Partie V | **ÉCHEC** — 3/14 lignes violent le critère « autorité publique » (BNP, Total, signaleurs DSA) ; Verrou I l'élargit explicitement à « État ou entreprise » |
+| Unité Verrou I (6 lignes) | **SYNTAXIQUE seulement** — le texte admet « n'engagent pas le même mécanisme » ; unité = étage fonctionnel « exécution », pas mécanisme commun |
+| Chaîne capacité→mobilisable→exercé→effet | **INSTABLE** — fusion explicite exercé/effet (V4_4 l.86, 89) ; absente du Masterwork ; glissements systématiques capacité→effet |
+| « Garde-fou » commensurable ? | **NON** — 8 objets hétérogènes (veto, résistance étatique, service technique, coalition normative, sortie de traité, avis déontologique, stats régime) forcés en symétrie 1:1 artificielle |
+| Graduation des preuves appliquée ? | **DÉCLARÉE, NON OPÉRATOIRE** — corps du texte = autorité narrative uniforme ; graduation seulement en Partie V (a posteriori) |
+| Hiérarchie démonstration/lecture | **OPPORTUNISTE** — « lecture » assumée 5× en méta-discours, oubliée dans le corps (9 affirmations causales > démonstration) |
+
+**Conséquence** : L'architecture « 4 verrous + garde-fous + lecture » est un cadre imposé au matériau, non émergé de lui. Si la grille tombe, l'article perd sa structure.

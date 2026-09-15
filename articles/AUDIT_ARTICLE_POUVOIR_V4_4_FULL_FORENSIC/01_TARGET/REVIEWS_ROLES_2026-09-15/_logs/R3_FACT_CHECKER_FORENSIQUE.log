@@ -1,0 +1,209 @@
+[0m
+> build · nvidia/nemotron-3-super-120b-a12b
+[0m
+[0m→ [0mRead knowledge.md
+[0m⚙ [0mmnemolite_ping Unknown
+[0m
+[0m$ [0mls -la /tmp/factcheck_sources/
+total 644
+drwxrwxr-x   2 giak giak    460 sept. 15 12:53 .
+drwxrwxrwt 249 root root 399700 sept. 15 12:58 ..
+-rw-rw-r--   1 giak giak   2573 sept. 15 12:24 alstom_doj.html
+-rw-rw-r--   1 giak giak    169 sept. 15 12:26 alstom_doj_jina.txt
+-rw-rw-r--   1 giak giak    544 sept. 15 12:24 bnp_bnpparibas.html
+-rw-rw-r--   1 giak giak   7012 sept. 15 12:26 bnp_bnpp_jina.txt
+-rw-rw-r--   1 giak giak   2544 sept. 15 12:24 bnp_doj.html
+-rw-rw-r--   1 giak giak    162 sept. 15 12:26 bnp_doj_jina.txt
+-rw-rw-r--   1 giak giak    928 sept. 15 12:48 ccomptes_mobilites.txt
+-rw-rw-r--   1 giak giak    983 sept. 15 12:53 ccomptes_presentation.txt
+-rw-rw-r--   1 giak giak  24658 sept. 15 12:34 cnil_healthdata.txt
+-rw-rw-r--   1 giak giak  73937 sept. 15 12:34 cuggia_healthdata.txt
+-rw-rw-r--   1 giak giak   3819 sept. 15 12:45 hatvp_2024.txt
+-rw-rw-r--   1 giak giak 418260 sept. 15 12:48 hatvp_bilan.pdf
+-rw-rw-r--   1 giak giak    521 sept. 15 12:40 synergy_archive.txt
+-rw-rw-r--   1 giak giak    348 sept. 15 12:37 synergy_cloud2.txt
+-rw-rw-r--   1 giak giak    336 sept. 15 12:37 synergy_cloud3.txt
+-rw-rw-r--   1 giak giak    340 sept. 15 12:34 synergy_cloud.txt
+-rw-rw-r--   1 giak giak  40001 sept. 15 12:29 total_cnbc.txt
+-rw-rw-r--   1 giak giak  14803 sept. 15 12:29 total_conversation.txt
+-rw-rw-r--   1 giak giak   6113 sept. 15 12:29 total_southpars.txt
+-rw-rw-r--   1 giak giak    291 sept. 15 12:45 tresor_communique.txt
+-rw-rw-r--   1 giak giak   1268 sept. 15 12:45 tresor_ief.txt
+[0m
+[0m✗ [0mRead /tmp/factcheck_sources/bnp_doj_jina.txt
+</parameter=offset failed[90m [limit=100][0m
+[91m[1mError: [0mFile not found: /tmp/factcheck_sources/bnp_doj_jina.txt
+</parameter=offset
+[0m→ [0mRead /tmp/factcheck_sources/bnp_doj_jina.txt
+[0m→ [0mRead /tmp/factcheck_sources/bnp_bnpp_jina.txt
+[0m✗ [0mRead /tmp/factcheck_sources/bnp_doj.html
+</parameter=limit failed[90m [offset=][0m
+[91m[1mError: [0mThe read tool was called with invalid arguments: SchemaError(Expected number | undefined, got ""
+  at ["offset"]).
+Please rewrite the input so it satisfies the expected schema.
+[0m→ [0mRead /tmp/factcheck_sources/bnp_doj.html
+[0m→ [0mRead /tmp/factcheck_sources/alstom_doj_jina.txt
+[0m→ [0mRead /tmp/factcheck_sources/alstom_doj.html
+[0m→ [0mRead /tmp/factcheck_sources/total_southpars.txt
+[0m
+[0m$ [0mgrep -i "4,8\|4\.8" /tmp/factcheck_sources/total_southpars.txt
+(no output)
+[0m
+[0m→ [0mRead /tmp/factcheck_sources/total_conversation.txt
+[0m→ [0mRead /tmp/factcheck_sources/total_cnbc.txt
+[0m
+[0m$ [0mgrep -i dollar /tmp/factcheck_sources/total_cnbc.txt | head -5
+Under U.S. sanctions, which were reinforced last month, India has been unable to trade with Iran using the dollar – the world’s premier reserve currency – and had to defer payments or revert to payments in rupees and, more recently, euros.
+[0m
+[0m$ [0mgrep -i refinancement /tmp/factcheck_sources/total_cnbc.txt
+(no output)
+[0m
+[0m$ [0mgrep -i financing /tmp/factcheck_sources/total_cnbc.txt
+(no output)
+[0m
+[0m→ [0mRead /tmp/factcheck_sources/synergy_cloud.txt
+[0m→ [0mRead /tmp/factcheck_sources/synergy_cloud2.txt
+Same. synergy_cloud3.txt.
+[0m→ [0mRead /tmp/factcheck_sources/synergy_cloud3.txt
+[0m→ [0mRead /tmp/factcheck_sources/synergy_archive.txt
+[0m→ [0mRead /tmp/factcheck_sources/cnil_healthdata.txt[90m [limit=200][0m
+[0m
+[0m$ [0mgrep -i "66 million\|66 millions" /tmp/factcheck_sources/cnil_healthdata.txt
+(no output)
+[0m
+[0m$ [0mgrep -i "assurance maladie" /tmp/factcheck_sources/cnil_healthdata.txt
+La Plateforme des données de santé est responsable de traitement du SNDS, conjointement avec la Caisse nationale d’assurance maladie (CNAM). Elle est notamment chargée de stocker et mettre à disposition les données de la base principale du SNDS ainsi que les bases de données inscrites au « [catalogue du SNDS](https://www.health-data-hub.fr/actualites/1er-arrete-liste-bases-base-principale-et-catalogue-snds "HDH - Nouvelle fenêtre") » (il s’agit de bases de données publiques ou privées présentant un intérêt particulier pour la recherche, par exemple les résumés de passage aux urgences).
+[0m
+[0m$ [0mgrep -i "personnes\|couvert" /tmp/factcheck_sources/cnil_healthdata.txt | head -10
+*   [Respecter les droits des personnes](http://www.cnil.fr/fr/respecter-les-droits-des-personnes)
+        *   [Quelles sont les règles ?](http://www.cnil.fr/fr/respecter-les-droits-des-personnes)
+        *   [Les droits des personnes sur leurs données](http://www.cnil.fr/fr/passer-laction/les-droits-des-personnes-sur-leurs-donnees)
+        *   [Informer les personnes](http://www.cnil.fr/fr/conformite-rgpd-information-des-personnes-et-transparence)
+        *   [Répondre aux demandes d'exercice des droits](http://www.cnil.fr/fr/respecter-les-droits-des-personnes/repondre-aux-demandes-dexercice-des-droits)
+*   [Respecter les droits des personnes](http://www.cnil.fr/fr/respecter-les-droits-des-personnes)
+[0m
+[0m→ [0mRead /tmp/factcheck_sources/cuggia_healthdata.txt[90m [limit=200][0m
+[0m
+[0m$ [0mgrep -i "66 million" /tmp/factcheck_sources/cuggia_healthdata.txt
+The French Health Data Hub (“ _Plateforme nationale des données de santé”_ , HDH) is born from the political willingness to promote artificial intelligence (AI) in health, identified by the French government [16](http://pmc.ncbi.nlm.nih.gov/articles/PMC6697511/#ORcuggia-16) as a priority domain where AI technologies could provide a strategic advantage for the nation and for Europe [22](http://pmc.ncbi.nlm.nih.gov/articles/PMC6697511/#ORcuggia-22) . In 2018, President Macron announced two major decisions [23](http://pmc.ncbi.nlm.nih.gov/articles/PMC6697511/#ORcuggia-23) : the construction of four high- level AI research institutes _(Institut 3IA)_ , and the creation of the HDH associated with the extension of the National Health Data System _(“Système National des Données de Santé"_ , SNDS). SNDS was created in 2015 to merge the national anonymous claim database (SNIIR-AM) with relevant data sources, such as the national diagnosis-related group database (PMSI) and the national death registry (CepiDC) [24](http://pmc.ncbi.nlm.nih.gov/articles/PMC6697511/#JRcuggia-24) . SNDS covers 98.8% of the French population, more than 66 million persons, making it possibly the world’s largest continuous homogeneous claim database [25](http://pmc.ncbi.nlm.nih.gov/articles/PMC6697511/#JRcuggia-25) . SNDS will be enriched by adding new data, especially clinical data from hospital and primary care electronic health records (EHRs), and will provide tools and services to the different stakeholders (i.e., health data producers, users, and citizens) through a national technological hub (i.e., HDH). HDH’s role is to facilitate data sharing and exploitation in high-level security conditions. Thus, from May to October 2018, a specific Committee worked on the definition of a roadmap for this platform and the health minister entrusted the creation of HDH to the director of the Directorate of Research, Studies, Evaluation and Statistics of the Ministry of Solidarity and Health (DREES) [16](http://pmc.ncbi.nlm.nih.gov/articles/PMC6697511/#ORcuggia-16) . The French initiative is based on a top-down approach. To avoid the dispersion of funds and technological resources across the French territory, the choice that has been made is to offer to data producers and users a critical-size data sharing infrastructure, with cutting-edge technology run by a highly skilled staff (engineers, developers, data specialists, and other medical, legal, or cybersecurity experts) often difficult to hire by local institutions, such as academic hospitals. In this context, data producers and users are considered broadly. They can be academic or private institutions, healthcare industries or start-ups, big pharma, and safety agencies. Sometimes, the same entity can play both roles, for example, academic hospitals and public health agencies. In 2019, France allocated about 10 million euros to HDH conceptual phase. Pilot data sharing projects will be carried out mainly with academic partners. From 2020 to 2022, 76 million euros have been earmarked to complete HDH and to support projects with the whole ecosystem.
+[0m
+Great! The sentence: "SNDS covers 98.8% of the French population, more than 66 million persons". That matches the claim "plus de 66 millions de personnes" couvertes par l'assurance maladie (the SNDS is the national health data system, which is based on health insurance claims). So we can confirm.
+
+Now we need to verify if the source mentions "assurance maladie". The sentence mentions SNDS which is the national health data system, derived from health insurance. The claim says "couvertes par l'assurance maladie". The source does not explicitly say "assurance maladie", but SNDS is based on health insurance claims. However we might need to check if there is a phrase linking to assurance maladie. Let's search for "assurance maladie" in the cuggia file.
+[0m$ [0mgrep -i "assurance maladie" /tmp/factcheck_sources/cuggia_healthdata.txt
+*   24. Tuppin, Rudant, Constantinou, Gastaldi-Ménager, Rachas, de Roquefeuil _et al._ Value of a national administrative database to guide public decisions: From the système national d’information interrégimes de l’Assurance Maladie (SNIIRAM) to the système national des données de santé (SNDS) in France _Rev Epidemiol Sante Publique_ 201765Suppl 4:S149S167 doi: 10.1016/j.respe.2017.05.004  [[DOI](https://doi.org/10.1016/j.respe.2017.05.004)] [[PubMed](https://pubmed.ncbi.nlm.nih.gov/28756037/)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Rev%20Epidemiol%20Sante%20Publique&title=Value%20of%20a%20national%20administrative%20database%20to%20guide%20public%20decisions%3A%20From%20the%20syst%C3%A8me%20national%20d%E2%80%99information%20interr%C3%A9gimes%20de%20l%E2%80%99Assurance%20Maladie%20%28SNIIRAM%29%20to%20the%20syst%C3%A8me%20national%20des%20donn%C3%A9es%20de%20sant%C3%A9%20%28SNDS%29%20in%20France&volume=65&publication_year=2017&pages=S149-S167&pmid=28756037&doi=10.1016/j.respe.2017.05.004&)]
+[0m
+[0m→ [0mRead /tmp/factcheck_sources/tresor_ief.txt
+It's an error; the fetch failed. So the file does not contain the content. Similarly tresor_communique.txt.
+
+Let's check.
+[0m→ [0mRead /tmp/factcheck_sources/tresor_communique.txt
+Thus the source files are not usable; they are error pages. So we cannot verify the claim; we must mark as NON VÉRIFIABLE.
+
+But maybe there is another file like "CComptes" (mobilités) and "Tresor IEF" (rapport annuel et communiqué n° 815). We have ccomptes_mobilites.txt and ccomptes_presentation.txt. Let's check those for any relevant info? The claim is about contrôle des investissements étrangers, not about mobilités. So likely not.
+
+Thus sixth claim NON VÉRIFIABLE.
+
+Seventh claim: HATVP — 751 projets soumis pour avis en 2024 ; 7 % d'avis d'incompatibilité en 2023 ; moins de dix par ministère sur 2020-2023 ; 77 % de compatibilités avec réserves (hatvp_2024.txt, bilan HATVP, rapport Cour des comptes) : les quatre chiffres sont-ils exacts, et sur les bonnes périodes ?
+
+We have hatvp_2024.txt and hatvp_bilan.pdf (PDF). We can read hatvp_2024.txt.
+
+Let's read hatvp_2024.txt.
+[0m→ [0mRead /tmp/factcheck_sources/hatvp_2024.txt
+[0m→ [0mRead /tmp/factcheck_sources/hatvp_bilan.pdf[90m [limit=50][0m
+[0m
+[0m$ [0mgrep -i "772" /tmp/factcheck_sources/alstom_doj.html
+<!DOCTYPE html><html><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="refresh" content="5; URL='/archives/opa/pr/alstom-pleads-guilty-and-agrees-pay-772-million-criminal-penalty-resolve-foreign-bribery?bm-verify=AAQAAAAO_____6lT1dr9KLh2whsu4_EtGwWB04ZO9vCZKmQHj2wJKzAOPPfvsYcOfJLlY1BeCMMGzfNdXqOqbn5ecTrs1r1fB37Rw_8gbsLPdBBvvZX2BdmljDGoh1VRoDgR6rlWaH5KMXbyND67Lrl6AUrJ12RWoCCPCX8XUG0xShnuHpFNP2gDS2CGhFC0iJiQiRAViZm_c7M2ooHGHTUbUIfHSC89jye8R_Ua4SKdrzaoyP28gY3oRk99RTQHiJNCezQdOjOEqAsPdPCPeA8RG2wZA5WJnvAJkA0nE-cIoDponnkc_XllKIjDw7gscaTXfcZ1IX8C6PTtfeTgRxd65hGThsh3-6gpE7N3-5wjAnjcn4mJeAudr2cG6tCmrUjD2afs'" /><title>&nbsp;</title><script> var i = 1789467846; var j = i + Number("5177" + "87234"); </script> </head> <noscript> <iframe style="border: none; height: 100%; width: 100%;" src=""></iframe></noscript><body> <iframe style="border: none; width: 100vw; height: 100vh;" src="https://www.justice.gov/apology_objects/interstitial/doj-interstitial.html"> </iframe> <script> function triggerInterstitialChallenge() {var xhr = new XMLHttpRequest(); xhr.withCredentials = true; xhr.addEventListener("loadend", function() { try { var data = JSON.parse(xhr.responseText); if (data.hasOwnProperty('reload')) { if (data["reload"] == true) { window.location.replace(window.location.href.replace(/[&?]bm-verify=[^#]*/, ""));  if(window.location.hash){ window.location.reload(); } } } else if (data.hasOwnProperty('location')) { window.location.replace(data["location"]); } else { window.location.reload(); } } catch (e) { window.location.reload(); }}); xhr.open("POST", "/_sec/verify?provider=interstitial", false); xhr.setRequestHeader("Content-Type", "application/json"); xhr.send(JSON.stringify({"bm-verify": "AAQAAAAO/////xbZbPkyuZTMCC+52yS1jdsF3Dfildp1kptt8f0n0y/4kwlMP6nh9u1D4fqMUT71ksIk92gNhrDH6Ja7gc20dVZZIY5C/9KGwWI4s/5SAbFiLUnjr1MXymjhGwZPGCfuJ9J2D05p6ESlJnc92ufUhrV7mB+lCakqA/H8nzK6awHiTRZsxrueGZlDZa8EmOTv6usbnVA7zsMxUfp8WZKHDTDwcAfA3M5qJyZLKBk1x7WSshlnoV/aSFVbiSWlouLXFjOMlQ/RE5QtoNNTVV7xhd2SykM1FjgMk2erFqLyQ3y2vcjn6ediwahds4dpG7ekrwdKb17OZW2ZKT3CAqCqvT3MuR2ULv48V0BW8inY8YZdjPz71Fn0RuuN6mP/5lxmxPCkf+vzHehlct9AqA==", "pow": j}));} try {if (document.getElementById("akam-logo")) {document.getElementById("akam-logo").onload = function () {requestAnimationFrame(triggerInterstitialChallenge);}; document.getElementById("akam-logo").onerror = triggerInterstitialChallenge;} else {triggerInterstitialChallenge()}} catch(e) {triggerInterstitialChallenge();}</script>  </body> </html>
+[0m
+[0m$ [0mstrings /tmp/factcheck_sources/alstom_doj.html | grep -i "772"
+<!DOCTYPE html><html><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="refresh" content="5; URL='/archives/opa/pr/alstom-pleads-guilty-and-agrees-pay-772-million-criminal-penalty-resolve-foreign-bribery?bm-verify=AAQAAAAO_____6lT1dr9KLh2whsu4_EtGwWB04ZO9vCZKmQHj2wJKzAOPPfvsYcOfJLlY1BeCMMGzfNdXqOqbn5ecTrs1r1fB37Rw_8gbsLPdBBvvZX2BdmljDGoh1VRoDgR6rlWaH5KMXbyND67Lrl6AUrJ12RWoCCPCX8XUG0xShnuHpFNP2gDS2CGhFC0iJiQiRAViZm_c7M2ooHGHTUbUIfHSC89jye8R_Ua4SKdrzaoyP28gY3oRk99RTQHiJNCezQdOjOEqAsPdPCPeA8RG2wZA5WJnvAJkA0nE-cIoDponnkc_XllKIjDw7gscaTXfcZ1IX8C6PTtfeTgRxd65hGThsh3-6gpE7N3-5wjAnjcn4mJeAudr2cG6tCmrUjD2afs'" /><title>&nbsp;</title><script> var i = 1789467846; var j = i + Number("5177" + "87234"); </script> </head> <noscript> <iframe style="border: none; height: 100%; width: 100%;" src=""></iframe></noscript><body> <iframe style="border: none; width: 100vw; height: 100vh;" src="https://www.justice.gov/apology_objects/interstitial/doj-interstitial.html"> </iframe> <script> function triggerInterstitialChallenge() {var xhr = new XMLHttpRequest(); xhr.withCredentials = true; xhr.addEventListener("loadend", function() { try { var data = JSON.parse(xhr.responseText); if (data.hasOwnProperty('reload')) { if (data["reload"] == true) { window.location.replace(window.location.href.replace(/[&?]bm-verify=[^#]*/, ""));  if(window.location.hash){ window.location.reload(); } } } else if (data.hasOwnProperty('location')) { window.location.replace(data["location"]); } else { window.location.reload(); } } catch (e) { window.location.reload(); }}); xhr.open("POST", "/_sec/verify?provider=interstitial", false); xhr.setRequestHeader("Content-Type", "application/json"); xhr.send(JSON.stringify({"bm-verify": "AAQAAAAO/////xbZbPkyuZTMCC+52yS1jdsF3Dfildp1kptt8f0n0y/4kwlMP6nh9u1D4fqMUT71ksIk92gNhrDH6Ja7gc20dVZZIY5C/9KGwWI4s/5SAbFiLUnjr1MXymjhGwZPGCfuJ9J2D05p6ESlJnc92ufUhrV7mB+lCakqA/H8nzK6awHiTRZsxrueGZlDZa8EmOTv6usbnVA7zsMxUfp8WZKHDTDwcAfA3M5qJyZLKBk1x7WSshlnoV/aSFVbiSWlouLXFjOMlQ/RE5QtoNNTVV7xhd2SykM1FjgMk2erFqLyQ3y2vcjn6ediwahds4dpG7ekrwdKb17OZW2ZKT3CAqCqvT3MuR2ULv48V0BW8inY8YZdjPz71Fn0RuuN6mP/5lxmxPCkf+vzHehlct9AqA==", "pow": j}));} try {if (document.getElementById("akam-logo")) {document.getElementById("akam-logo").onload = function () {requestAnimationFrame(triggerInterstitialChallenge);}; document.getElementById("akam-logo").onerror = triggerInterstitialChallenge;} else {triggerInterstitialChallenge()}} catch(e) {triggerInterstitialChallenge();}</script>  </body> </html>
+[0m
+[0m$ [0mmkdir -p /home/giak/projects/truth-engine/articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/REVIEWS_ROLES_2026-09-15
+(no output)
+[0m
+[0m$ [0mgrep -n "8,97 milliards" /tmp/factcheck_sources/bnp_bnpp_jina.txt
+12:BNP Paribas accepte également de payer un total de 8,97 milliards de dollars (6,6 milliards d'euros). Compte tenu des sommes déjà provisionnées, ce montant donnera lieu à la comptabilisation d'une charge exceptionnelle de 5,8 milliards d'euros dans les comptes du 2ème trimestre 2014. Par ailleurs, BNP Paribas accepte une suspension temporaire, pour une durée d’un an à compter du 1er janvier 2015, de certaines opérations directes de compensation en dollars US, portant principalement sur le périmètre de l’activité de financement du négoce international de matières premières, pour la partie pétrole et gaz, dans certaines implantations.
+[0m
+[0m$ [0mgrep -n "responsabilité" /tmp/factcheck_sources/bnp_bnpp_jina.txt
+10:Dans le cadre de cet accord, BNP Paribas SA reconnaît sa responsabilité (« guilty plea ») pour avoir enfreint certaines lois et réglementations des Etats-Unis relatives à des sanctions économiques à l’encontre de certains pays et aux enregistrements des opérations liées.
+[0m
+[0m$ [0mgrep -n "40% du capital" /tmp/factcheck_sources/total_conversation.txt
+18:Cette mutation est d’autant plus crédible que les investisseurs des États-Unis détiennent déjà près de [40% du capital de TotalEnergies, en 2024, contre 25,3% pour les actionnaires français](https://totalenergies.com/system/files/documents/totalenergies_document-enregistrement-universel-2024_2025_fr.pdf). La part des fonds d’investissement états-uniens y est déterminante, en particulier le [fonds BlackRock](https://theconversation.com/blackrock-un-mastodonte-financier-au-pouvoir-dinfluence-pourtant-mesure-238391) qui, avec [6,1% du capital, est le premier actionnaire du groupe](https://totalenergies.com/system/files/documents/totalenergies_document-enregistrement-universel-2024_2025_fr.pdf)). De plus, les valorisations des majors américaines restent généralement supérieures à celles de leurs homologues européens. Le titre TotalEnergies se négocie ainsi à [Paris à environ 3,5 fois l’Ebitda (_soldes intermédiaires de gestion, ndlr_), contre 6,5 fois pour ExxonMobil](https://investir.lesechos.fr/actu-des-valeurs/la-vie-des-actions/totalenergies-augmente-son-dividende-pour-2024-les-investissements-nets-vont-baisser-en-2025-2146802). En clair, tout en conservant une cotation à Paris, le «centre de gravité» boursier de l’entreprise se déplacerait mécaniquement.
+[0m
+[0m$ [0mgrep -i "US banks are involved" /tmp/factcheck_sources/total_cnbc.txt
+(no output)
+[0m
+[0m$ [0mgrep -i "dollars" /tmp/factcheck_sources/total_cnbc.txt | head -5
+(no output)
+[0m
+[0m$ [0mgrep -i "financing" /tmp/factcheck_sources/total_cnbc.txt
+(no output)
+[0m
+[0m$ [0mgrep -i "US banks" /tmp/factcheck_sources/total_cnbc.txt
+(no output)
+[0m
+[0m$ [0mgrep -i "90%" /tmp/factcheck_sources/total_cnbc.txt
+(no output)
+[0m
+[0m$ [0mgrep -i "financing operations" /tmp/factcheck_sources/total_cnbc.txt
+(no output)
+[0m
+[0m$ [0msed -n '200,250p' /tmp/factcheck_sources/total_cnbc.txt
+What Total’s $4.8 billion investment means for Iran
+
+[News Videos](https://www.cnbc.com/news-videos/)
+
+Iran has signed a $4.8 billion deal with a consortium led by French oil company [Total](http://www.cnbc.com/quotes/TTE/) on Monday to develop its giant South Pars gas field, the largest natural gas field in the world.
+
+The deal is the Islamic republic’s first with a European oil company in more than a decade, marking a major milestone for a country whose standing as an international trade partner has hung in the balance ever since it was slapped with sanctions in 2006 amid concerns that it was developing nuclear weapons.
+
+Total has taken a 50.1 percent interest in the South Pars project, and alongside state-owned China National Petroleum Corporation, which holds 30 percent, and Iran’s Petropars (19.9 percent), will begin producing gas for the Iranian market from 2021.
+
+Though the deal has been a slow burn, coming some 18 months after EU sanctions against the Middle Eastern nation were lifted, Iran will be hoping that it marks a new era of investor confidence and a particular boon for its dwindling oil production.
+
+“Total’s decision to sign the South Pars 11 contract is a cautiously positive sign for foreign investment in Iran’s upstream,” Richard Mallinson, geopolitical analyst at Energy Aspects, told CNBC via email on Monday.
+
+## [](http://www.cnbc.com/2017/07/03/iran-to-sign-new-ipc-gas-deal-with-total-for-south-pars.html)Who else is ready to invest in Iran?
+
+Already, India, one of Iran’s most steadfast trading partners, on Monday announced that a consortium of domestic businesses would offer up to $11 billion to develop another of Iran’s natural gas fields, Farzad-B field, and create the infrastructure to export the fuel, Bloomberg reported, citing Narendra Kumar Verma, managing director of the overseas investment unit of India’s largest explorer, Oil & Natural Gas Corp.
+
+Iran is the second-largest supplier of crude oil to India, and, as a result, India is one of the largest foreign investors in Iran’s oil and gas industry. However, fraught diplomatic relations between Iran and other states have made it a difficult relationship to uphold.
+
+The Imperial Towers twin towers residential skyscrapers and business district development in Tardeo South Mumbai, India from Nariman Point
+
+Tim Graham | Getty Images
+
+Under U.S. sanctions, which were reinforced last month, India has been unable to trade with Iran using the dollar – the world’s premier reserve currency – and had to defer payments or revert to payments in rupees and, more recently, euros.
+
+Iran has the world’s second-largest natural gas reserves and the fourth-largest oil reserves, according to the U.S. Energy Information Administration. This translates to 10 percent of the world’s crude oil reserves and 13 percent of OPEC’s.
+
+## [](http://www.cnbc.com/2017/07/03/iran-to-sign-new-ipc-gas-deal-with-total-for-south-pars.html)Why is Total doing the deal now?
+
+Total was previously one of the biggest investors in Iran before sanctions were imposed. Though the deal had been laid out last year, the group has been awaiting clarity on the Trump administration’s stance on sanctions.
+
+During campaigning, [President Donald Trump](https://www.cnbc.com/donald-trump/) pledged to “dismantle” the 2015 nuclear agreement, which aimed to reduce sanctions, though has not yet followed up on it and his administration has rather imposed new sanctions in response to the country’s missile program.
+
+Mark Renders | Getty Images
+
+Total has so far only committed to an initial $1 billion investment, citing continued risks. The stock was up 1.78 percent when the deal was signed Monday.
+
+Though the investment will help revive Iran’s antiquated energy sector, which has borne the brunt of years of underinvestment into the country, it will be purely domestically focused. It is likely to have less of an impact on the wider international markets, which have been struggling to balance output since a supply glut saw prices plummet in early 2015.
+
+Brent prices were lower by 0.06 percent in Monday afternoon at $48.75 per barrel while U.S. crude was up 0.09 percent at $46.08 per barrel.
+
+## [](http://www.cnbc.com/2017/07/03/iran-to-sign-new-ipc-gas-deal-with-total-for-south-pars.html)Lack of new deals holding back growth
+
+Indeed, while companies including Royal Dutch Shell and Italy’s Eni have signed provisional agreements with Iran, according to the FT, the path ahead to recovering Iran’s energy sector looks far from smooth.
+
+“Other developments are not so positive,” said Mallinson, citing Azadegan, another Iranian oil field project which has suffered continued delays amid uncertainties over Iran’s trading future.
+
+“The tender for the Azadegan oil field was supposed to be imminent but was then pushed back by three or four months to give foreign companies more time for analysis. This suggests that the major firms that Tehran really wants to attract are largely not ready to commit to Iran deals.
+[0m
+[0m$ [0mgrep -i "dollar" /tmp/factcheck_sources/total_cnbc.txt
+Under U.S. sanctions, which were reinforced last month, India has been unable to trade with Iran using the dollar – the world’s premier reserve currency – and had to defer payments or revert to payments in rupees and, more recently, euros.
+[0m
+[0m← [0mWrite articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/REVIEWS_ROLES_2026-09-15/R3_FACT_CHECKER_FORENSIQUE.md
+Wrote file successfully.
+[0m
+[0m→ [0mRead articles/AUDIT_ARTICLE_POUVOIR_V4_4_FULL_FORENSIC/01_TARGET/REVIEWS_ROLES_2026-09-15/R3_FACT_CHECKER_FORENSIQUE.md[90m [limit=20][0m
+Le rapport R3 a été rédigé à l’emplacement indiqué. Il contient la vérification factuelle des sept points demandés, avec les statuts CONFIRMÉ, DIVERGENT ou NON VÉRIFIABLE, ainsi que la liste des affirmations du corps non soutenues par leurs sources. Aucune conjecture n’a été ajoutée ; seules les informations présentes dans les fichiers locaux ont été utilisées. Vous pouvez consulter le fichier complet pour les détails.
