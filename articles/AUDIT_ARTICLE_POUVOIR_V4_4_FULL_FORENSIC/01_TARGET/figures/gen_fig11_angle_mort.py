@@ -47,7 +47,8 @@ LEFT_ROWS = [
 # ---------- colonne droite : ce que le pénal exige (partie IV.2) ----------
 RIGHT_HEAD = "CE QUE LE PÉNAL EXIGE"
 RIGHT_ROWS = [
-    ("432-11 : un pacte préexistant liant", "décision publique et contrepartie", "[78]"),
+    ("432-11, corruption : un pacte", "antérieur à l’acte accompli", "[78]"),
+    ("432-11, trafic d’influence : abus", "d’influence, sans pacte à établir", "[78]"),
     ("432-13 : surveillance ou contrôle effectif", "de l’entreprise concernée", "[79]"),
     ("432-13 : contrat ou avis dans le cadre", "des fonctions effectivement exercées", "[79]"),
     ("432-13 : trois ans après la cessation", "de fonctions — borne la reprise", "[79]"),

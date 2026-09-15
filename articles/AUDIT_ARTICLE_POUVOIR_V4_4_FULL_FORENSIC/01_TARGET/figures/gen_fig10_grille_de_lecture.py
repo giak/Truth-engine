@@ -48,7 +48,7 @@ OUTCOMES = [
     ("VERROU SUBI", "lorsqu’aucun de ces trois éléments n’est réuni au moment de la décision",
      ["BNP Paribas : 8,97 Md$ [10]", "TotalEnergies : South Pars [11]", "Alstom : cession 2014 [44]", "Health Data Hub sur Azure [51]"]),
     ("VERROU NON CLOS", "lorsque la pièce manque pour trancher dans un sens ou dans l’autre",
-     ["EUCS : clauses retirées [51]", "DSA art. 22 : signaleurs [34] [35]", "Mobilités HATVP [37] [38] [58]"]),
+     ["EUCS : clauses retirées [51]", "DSA art. 22 : effets non mesurés [34] [35]", "Trajectoires non déclarées [40]"]),
 ]
 
 KICK_L = "FIG. 10 · GRILLE DE LECTURE"
@@ -56,6 +56,7 @@ KICK_R = "L’ÉTAT SOUS ASPHYXIE"
 TITLE = "Tester un cas : quatre questions, trois issues"
 SUBTITLE = "Pour toute dépendance nouvelle, la méthode que la partie V de l’article nomme et applique."
 CONDITIONS = "Les trois issues se départagent par trois conditions : un outil institutionnel dédié, une volonté politique explicite, un coût de résistance jugé acceptable."
+NOTE = "Cas particulier : le contrôle déontologique est interne à l’État — il a fonctionné une fois, en mai 2022, sans modifier la condition [37] [38]."
 TAGLINE = "UNE MÉTHODE DE LECTURE, PAS UNE MACHINE À PRÉDIRE"
 
 # ---------- porte de largeur ----------
@@ -79,6 +80,7 @@ check("kicker-R", KICK_R, "heros", 27, LIMIT_KICK, 700, LS_KICK)
 check("titre", TITLE, "termes", 60, 2130, 500)
 check("sous-titre", SUBTITLE, "termes", 29, 2130)
 check("conditions", CONDITIONS, "termes", 24, 1780)
+check("note", NOTE, "termes", 24, 1780)
 check("tagline", TAGLINE, "heros", 28, LIMIT_TAG, 700, 1.6)
 for q, txt, tag in QUESTIONS:
     check(f"{q}-texte", txt, "heros", 26, USQ)
@@ -129,7 +131,8 @@ QH, QG, QY = 56, 14, 330
 q_bottom = QY + 4 * QH + 3 * QG
 OY, OH = q_bottom + 130, 430
 COND_Y = OY + OH + 46
-TAG_Y = COND_Y + 64
+NOTE_Y = COND_Y + 40
+TAG_Y = NOTE_Y + 56
 assert TAG_Y <= 1370, f"tagline trop basse : {TAG_Y}"
 
 # hauteur interne des blocs d’issue : vérification dynamique
@@ -184,6 +187,7 @@ for ox, (head, _sub, cells), sublines in zip((90, 854, 1618), OUTCOMES, SUBS):
 
 # conditions (sous les blocs) + tagline
 o.append(f'<text x="1200" y="{COND_Y}" text-anchor="middle" style="{serif(24)}">{CONDITIONS}</text>')
+o.append(f'<text x="1200" y="{NOTE_Y}" text-anchor="middle" style="{serif(24)}">{NOTE}</text>')
 o.append(f'<text x="1200" y="{TAG_Y}" text-anchor="middle" style="{sans(28,700,BLACK,1.6)}">{TAGLINE}</text>')
 o.append(f'<line x1="{QX}" y1="1410" x2="2310" y2="1410" stroke="#111111" stroke-width="2.4"/>')
 o.append(f'<text x="{QX}" y="1460" text-anchor="start" style="{serif(23)}">Figure d’usage · dérivée de la partie V de l’article</text>')

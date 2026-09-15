@@ -36,8 +36,8 @@ def serif(size, fill=GRAY, italic=True, weight=400):
 STAGES = [
     ("ÉTAGE 1 · PRODUCTION", ["Trois agences mondiales : AFP, Reuters, Associated Press"], "flux de dépêches"),
     ("ÉTAGE 2 · DIFFUSION", ["Rédactions en ligne dépendantes du matériel d’agence [29] [30]"], "sélection et reprise"),
-    ("ÉTAGE 3 · CERTIFICATION", ["Fact-checkers certifiés IFCN / EFCSN [31]", "DSA art. 22 : signaleurs de confiance [34] [35]"], "signalement aux algorithmes"),
-    ("ÉTAGE 4 · MODÉRATION", ["Modération algorithmique déléguée aux plateformes (Meta, X)"], "restriction, déréférencement"),
+    ("ÉTAGE 3 · CERTIFICATION", ["Fact-checkers certifiés IFCN / EFCSN [31]", "DSA art. 22 : signaleurs de confiance [34] [35]"], "traitement prioritaire"),
+    ("ÉTAGE 4 · MODÉRATION", ["Les plateformes décident des suites [3] [34] [35]"], "effets non mesurés"),
 ]
 BOUND = "dépendance mesurée aux Pays-Bas (jusqu’à 75 %) et en Suisse — l’hypothèse d’une dépendance comparable en Europe reste NON MESURÉE"
 

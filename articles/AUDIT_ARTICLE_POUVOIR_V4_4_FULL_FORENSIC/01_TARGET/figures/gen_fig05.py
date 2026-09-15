@@ -49,7 +49,7 @@ PANELS = [
     ("(a)  L’ÉTAU", ["Enquête pénale", "ouverte (2010)"],
      ["• enquête FCPA du DOJ", "• arrestation à New York", "• amende redoutée : 1 Md$"],
      ["sans acte public, sans ordre"]),
-    ("(b)  LA CÉSSION", ["Négociation", "exclusive (2014)"],
+    ("(b)  LA CESSION", ["Négociation", "exclusive (2014)"],
      ["• Énergie cédée à GE", "• Arabelle incluse", "• menace de faillite"],
      ["décision privée sous contrainte"]),
     ("(c)  LA SIGNATURE", ["Autorisation", "ministérielle"],

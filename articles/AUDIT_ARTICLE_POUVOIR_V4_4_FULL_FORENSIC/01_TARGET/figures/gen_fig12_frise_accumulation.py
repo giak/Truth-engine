@@ -91,14 +91,14 @@ SUBTITLE = "Une pièce datée par point ; aucune des quatre voies ne se referme.
 TAGLINE = "L’ACCUMULATION EST LE FAIT, LE CHAÎNAGE RESTE À ÉTABLIR"
 
 # ---------- géométrie ----------
-W, H = 2400, 1560
+W, H = 2400, 1760
 MARGIN = 90
 LABEL_COL = 380                                  # colonne des libellés de voie
 YEAR_MIN, YEAR_MAX = 2010.0, 2026.6
 AXIS_LEFT = MARGIN + LABEL_COL
 AXIS_RIGHT = W - MARGIN - 30
-LANE_TOP, LANE_H, LANE_GAP = 300, 236, 22
-ROWS, ROW_STEP = 4, 40
+LANE_TOP, LANE_H, LANE_GAP = 300, 300, 22
+ROWS, ROW_STEP = 5, 36   # 5 rangées : la congestion est au bord droit, pas au centre
 LABEL_FS, GAP, DOT_R = 23, 14, 9
 
 viol = []
@@ -177,7 +177,7 @@ for i, (name, sub) in enumerate(LANES):
 for (year, lane, label, ref, xc, xl, row) in plan:
     y0 = LANE_TOP + lane * (LANE_H + LANE_GAP)
     ybase = y0 + LANE_H - 34
-    yl = ybase - 26 - row * ROW_STEP
+    yl = ybase - 22 - row * ROW_STEP
     o.append(f'<line x1="{xc:.1f}" y1="{ybase}" x2="{xl:.1f}" y2="{yl + 8:.1f}" stroke="{GRAY}" stroke-width="1.2"/>')
     o.append(f'<circle cx="{xc:.1f}" cy="{ybase}" r="{DOT_R}" fill="{BLACK}"/>')
     o.append(f'<text x="{xl:.1f}" y="{yl:.1f}" text-anchor="middle" style="{sans(LABEL_FS)}">{label}</text>')

@@ -37,7 +37,7 @@ NODES = [
     ("(b)  RISQUE DE COUPURE", ["40 % du capital nord-américain [74]", "refinancement dépendant du marché $"]),
     ("(c)  RETRAIT PRÉVENTIF", ["TotalEnergies, 16 mai 2018 [11]", "South Pars 11 : 4,8 Md$ [11] [71]"]),
 ]
-RECOURSE = ("RÈGLEMENT UE 2271/96", ["activé par l’UE, il n’offre", "aucune immunité effective", "constat d’impasse : CJUE [12] [13]"])
+RECOURSE = ("RÈGLEMENT UE 2271/96", ["activé par l’UE : interdiction de se", "conformer confirmée, juge national", "saisi ; le dilemme demeure [12] [13]"])
 
 KICK_L = "FIG. 08 · LA SUR-CONFORMITÉ"
 KICK_R = "L’ÉTAT SOUS ASPHYXIE"

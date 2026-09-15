@@ -257,3 +257,37 @@ Partie IV (rejeté) : [État] ⇉ [privé]    ← moteur suggéré, l'article é
 | **C9 angle mort du droit** | **produite 14/09 — priorité 2** : `fig11_angle_mort.svg` + PNG + `gen_fig11_angle_mort.py` ; empreintes `f0cb6281…` / `6f8dbd0f…` |
 | C10 pistes diverses | écartées, motifs ci-dessus |
 - La matrice markdown de la partie V : conservée en parallèle de F2 (recommandé : oui — F2 montre le motif, la matrice porte le détail auditable) ?
+
+---
+
+## 6. Vérification du 15/09 — les six figures publiées, contrôlées contre le texte à l’état `2457c00d`
+
+**Question posée par l’auteur** : les figures sont-elles à jour, utiles, et en faut-il d’autres ? Contrôle fait pièce par pièce : texte affiché extrait du SVG, confronté aux phrases de l’article après les tranches F12 à F18. **Quatre désynchronisations et une faute de frappe trouvées** — deux d’entre elles réintroduisaient des défauts que les passes de correction venaient de retirer du texte, ce qui est le risque propre aux figures : elles ne se relisent pas toutes seules.
+
+| Figure | Défaut trouvé | Corrigé en |
+|---|---|---|
+| fig05 (Alstom) | « (b) **LA CÉSSION** » — faute d’orthographe dans un titre de boîte | « LA CESSION » |
+| fig08 (sur-conformité) | « **constat d’impasse : CJUE** [12] [13] » — attribuait à la Cour un constat qu’elle ne fait pas (défaut R4/ChatGPT déjà retiré du texte en F15) | « activé par l’UE : interdiction de se conformer confirmée, juge national saisi ; le dilemme demeure [12] [13] » |
+| fig09 (cascade) | étage 3 : flèche « **signalement aux algorithmes** » — rétablissait le pouvoir d’instruction des algorithmes que le juriste (R4) avait falsifié et que F14 a corrigé ; et « (Meta, X) » / « **déréférencement** », deux mots absents du texte | flèche « traitement prioritaire » ; étage 4 « Les plateformes décident des suites [3] [34] [35] », effet « effets non mesurés » (borne de III.3) |
+| fig10 (grille) | « Mobilités HATVP » classé en **verrou non clos** (« la pièce manque ») alors que F12 a établi que ce verrou **a** son garde-fou et que l’avis de mai 2022 a fermé un dossier | cellule remplacée par « Trajectoires non déclarées [40] » + ligne ajoutée : « Cas particulier : le contrôle déontologique est interne à l’État — il a fonctionné une fois, en mai 2022, sans modifier la condition [37] [38]. » |
+| fig11 (angle mort) | « **432-11 : un pacte préexistant** » présenté comme l’exigence de tout l’article — la distinction des deux branches (pacte pour la corruption, abus d’influence pour le trafic) ajoutée en F14 n’y était pas | deux lignes : « 432-11, corruption : un pacte antérieur à l’acte accompli [78] » et « 432-11, trafic d’influence : abus d’influence, sans pacte à établir [78] » |
+| fig12 (frise) | aucun défaut de contenu ; **défaut de gabarit latent** : la quatrième rangée de libellés montait à 56 px du haut de bande, à hauteur du sous-libellé de voie | `LANE_H` 236 → 300, `ROWS` 4 → 5, `ROW_STEP` 40 → 36, hauteur 1560 → 1760 ; quatre rangées désormais logées sans collision |
+
+**Ce qui a été tenté et refusé par la porte de mesure.** Ajouter à la frise les deux pièces de juin 2026 (Conseil d’État sur le Front uni [67], Rokh Solis [66]) : la porte a refusé deux fois — « aucune rangée libre ». Diagnostic : au bord droit, toutes les étiquettes sont recadrées sur la même marge et occupent donc forcément des rangées distinctes ; la voie I y est saturée (dérogation ePrivacy, puis deux pièces de juin). Le fond n’est pas en cause : la frise n’est pas exhaustive par construction (« une pièce datée par point »), elle couvre déjà 2026, et les deux pièces manquantes ne changent pas la lecture. **Décision : ne pas les ajouter** plutôt que d’agrandir le gabarit pour deux points de plus.
+
+**Contrôles après régénération.** Six générateurs exécutés, chacun sous sa porte de mesure (aucune largeur hors limite, aucune rangée en collision) ; six PNG reconvertis en 2400 px de large ; **zéro pixel sombre dans la marge de 6 px** des dix PNG du dossier ; contrôles de texte sur les SVG : les cinq chaînes corrigées sont présentes, les quatre chaînes retirées sont à zéro.
+
+### Verdict d’utilité, figure par figure (critère du §5)
+
+| Figure | Critère | Verdict |
+|---|---|---|
+| fig05 Alstom | (b) transformée | **solide** — cinq états successifs, chacun daté et sourcé, et la borne affichée |
+| fig08 sur-conformité | (a) mécanisme | **la plus forte** — une cause sans ordre qui produit un effet, avec le recours défaillant en pointillé |
+| fig09 cascade | (b) linéaire | **à surveiller** — suite d’étages, pas une mécanique ; sa valeur tient à la borne affichée *dans* le dessin |
+| fig10 grille | (c) usage | **utile** — elle donne l’instrument, pas le résumé ; c’est la seule que le lecteur peut réutiliser hors de l’article |
+| fig11 angle mort | (a) + (b) | **la plus originale** — rend spatial un écart argumentatif, et fait tomber deux lectures fausses à la fois |
+| fig12 frise | (b) accumulation | **la plus discutable** — c’est un inventaire, mais c’est le seul endroit où la *simultanéité* des quatre voies sur quinze ans est visible. Si l’auteur veut en retirer une, c’est celle-là |
+
+### Faut-il d’autres figures ? Non, et voici pourquoi
+
+Les lacunes de couverture sont réelles mais aucune ne satisfait le critère. **II.2 (arbitrage ISDS)** : le mécanisme tient en trois phrases, et un dessin devrait relier l’annulation de la sentence à la sortie du TCE — précisément le lien que l’article déclare non établi. **I.1 (péage BNP)** : fig08 montre déjà le mécanisme du point de passage ; la doubler pour la banque serait de la redondance. **IV.1 (mobilités)** : déjà rejeté en v2 — des trajectoires, pas un circuit ; fig11 en traite l’angle pénal. **Le test du chaînage (épilogue)** : c’est une procédure, fig10 la couvre, et une septième planche ferait passer l’article dans un autre genre. **Point de vigilance** : le corpus publié mesuré ne comporte aucune figure ; six est déjà un écart assumé, il se justifie par l’utilité de chacune, pas par l’équilibre graphique.
