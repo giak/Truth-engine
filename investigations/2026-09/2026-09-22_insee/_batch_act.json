@@ -1,0 +1,5 @@
+[
+  {"name": "M. Marc Ferracci (ministre chargé de l'industrie et de l'énergie)", "role": "ministre répondant aux questions du Sénat", "documented_action": "annonce de la mise en oeuvre du raccourcissement du décalage à 2 ans fin 2026 ; chiffres Metzing (678/791/719)", "source": "SRC-006", "intent": "UNKNOWN", "responsibility_scope": "annonce de mise en oeuvre"},
+  {"name": "CNERP (Commission nationale d'évaluation du recensement de la population)", "role": "organe d'évaluation (CNIS)", "documented_action": "recommandation de réduction du décalage 3->2 ans", "source": "SRC-005,SRC-007", "intent": "PROVEN", "responsibility_scope": "recommandation méthodologique"},
+  {"name": "M. Gérald Darmanin (ministre de l'Intérieur, 2021)", "role": "membre du gouvernement", "documented_action": "déclarations publiques invalidant sans arguments les enquêtes de victimation (mai 2021)", "source": "SRC-012", "intent": "UNKNOWN", "responsibility_scope": "pressions publiques documentées"}
+]

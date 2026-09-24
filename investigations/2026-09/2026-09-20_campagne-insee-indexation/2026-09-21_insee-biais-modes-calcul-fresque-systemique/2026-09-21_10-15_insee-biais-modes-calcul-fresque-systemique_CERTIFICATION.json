@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:a406962b995b222ae62d468832fc6730bcceafcd9237bd1a463c63d7e754b909",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_insee-biais-modes-calcul-fresque-systemique/2026-09-21_10-15_insee-biais-modes-calcul-fresque-systemique_INVESTIGATION.md",
+  "deliverable_sha256": "e7f1e1c46e1371f0fe4187fedd84c3b85e334400d2c9a370d1ee13e517e74c21",
+  "created_at": "2026-09-21T11:29:02.336862+00:00"
+}

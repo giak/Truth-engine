@@ -1,0 +1,6 @@
+[
+  {"from": "Méthode (rotation 1/5, sondage 8%, référence N-2/N-3)", "link_type": "ENABLER", "mechanism": "estimation statistique décalée et entachée d'erreur pour petites communes en croissance", "to": "écarts estimation/dénombrement (Metzing 678 vs 791)", "source": "SRC-003,SRC-006", "counter": "aucune alternative robuste au-delà de -1 an (groupe de travail)", "status": "SUPPORTED"},
+  {"from": "Écart population estimée", "link_type": "CAUSE", "mechanism": "population DGF et dotations indexées sur le chiffre authentifié", "to": "perte de dotations (Bouzonville 20-30 kEUR ; Aiglun -26 kEUR/-28% en 4 ans)", "source": "SRC-009,SRC-005", "counter": "-", "status": "SUPPORTED"},
+  {"from": "Délai de référence 3 ans", "link_type": "CAUSE", "mechanism": "chiffres obsolètes pour communes à forte croissance", "to": "recommandation CNERP 3->2 ans, application fin 2026", "source": "SRC-005,SRC-007", "counter": "-", "status": "SUPPORTED"},
+  {"from": "Choc inflation 2021-2024", "link_type": "ENABLER", "mechanism": "indexations automatiques IPC (prestations ~5 MdEUR/pt ; dette indexée ~1/10 => 3 MdEUR/pt)", "to": "sensibilité accrue des comptes publics à la mesure IPC", "source": "SRC-010,SRC-011", "counter": "effet symétrique: les recettes augmentent aussi avec l'inflation (HCFP ~+10 MdEUR/pt)", "status": "SUPPORTED"}
+]

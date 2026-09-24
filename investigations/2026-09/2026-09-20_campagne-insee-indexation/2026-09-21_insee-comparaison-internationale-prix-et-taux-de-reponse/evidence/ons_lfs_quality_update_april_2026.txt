@@ -1,0 +1,16 @@
+Source : Office for National Statistics (ONS, Royaume-Uni), « Labour Force Survey quality update: April 2026 »
+URL : https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/labourforcesurveyqualityupdate/april2026
+
+Extraits décisifs :
+
+"Household surveys, in the UK and in comparable countries, have been facing the challenge of falling response rates for many years. There have also been challenges in collecting and processing survey data since the start of the coronavirus (COVID-19) pandemic and there are substantial quality concerns about Labour Force Survey (LFS) data collected in 2023. This has led to the suspension of publications based on LFS data, and the withdrawal of accredited statistics status for publications based upon LFS and Annual Population Survey (APS) data from 2024 onwards."
+
+"Since October 2023, the Office for National Statistics (ONS) has made several changes to address quality concerns with the LFS. The five-wave structure of the LFS means that some of these changes take at least 15 months to fully feed through into survey estimates and at least 18 months to feed through into measures of quarterly change."
+
+"Considering the number of responses for the UK, including imputation [...], there were 77,927 responses to the LFS in October to December 2025. This is an increase of 33,689 from the low point in July to September 2023 and 6,135 responses below the figure seen in October to December 2019."
+
+"We have also seen improvements to response rates to the LFS, although they are more moderate by this measure and are below pre-pandemic rates."
+
+"Across all three headline rates, these have narrowed since mid- to late-2023, which suggests improved precision compared with the periods where response rates were at their lowest. Confidence intervals remain wider than before the pandemic for the unemployment rate, however confidence intervals are back to pre-pandemic ranges for both the employment and inactivity rates."
+
+"The Transformed Labour Force Survey (TLFS) remains the long-term solution for collecting labour market data."

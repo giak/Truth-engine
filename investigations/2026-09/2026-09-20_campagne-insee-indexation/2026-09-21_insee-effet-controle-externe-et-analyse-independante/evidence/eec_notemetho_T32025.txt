@@ -1,0 +1,371 @@
+La méthode en bref                                                                Dernière mise à jour : le 13/11/2025
+
+
+
+
+                                                 Chômage au sens du BIT et
+                                         indicateurs sur le marché du travail
+                                              (résultats de l’enquête Emploi)
+
+
+    Source utilisée
+
+L’enquête Emploi en continu est la seule source permettant de mesurer les concepts d’activité, de
+chômage, d’emploi ou d’inactivité tels que définis par le Bureau international du travail (BIT). Dans l’enquête,
+les personnes décrivent, à travers de nombreuses questions factuelles, leur situation sur le marché du travail
+au cours d’une semaine donnée, dite « de référence ».
+Le champ de l’enquête est constitué des personnes de 15 ans ou plus résidant en France hors Mayotte1
+dans un logement ordinaire (ce qui exclut les communautés : foyers, hôpitaux, prisons, etc.).
+L’échantillon de l’enquête est de grande taille : près de 90 000 personnes répondent à l’enquête chaque
+trimestre. Pour assurer une meilleure précision des évolutions, les ménages sont interrogés 6 trimestres de
+suite. L’échantillon est donc renouvelé d’un sixième chaque trimestre. La première interrogation est réalisée
+en face-à-face ; les interrogations suivantes par internet ou téléphone.
+Tous les dix ans environ, l’enquête Emploi est rénovée, pour faire évoluer son questionnaire ou introduire
+des innovations méthodologiques. À cette occasion, les séries longues publiées avec les Informations
+Rapides sont rétropolées et ainsi rendues cohérentes avec la nouvelle enquête. La dernière rénovation a eu
+lieu début 2021.
+
+
+    Au 3e trimestre 2025, le taux de collecte diminue sur un an
+
+Au 3e trimestre 2025, le taux de collecte, qui rapporte le nombre de logements répondant à l’ensemble des
+logements échantillonnés, s’établit à 60,6 %. Il diminue sur un an (-1,1 point). Hors Mayotte, département qui
+est entré dans l’échantillon de l’enquête Emploi au 1er trimestre 2024, le taux de collecte diminue de 1,2 point
+sur un an.
+
+Le taux de réponse qui rapporte le nombre de logements répondant à l’ensemble des logements dans le
+champ de l’enquête s’établit à 73,7 %.
+
+Depuis le 1er trimestre 2021, la possibilité de répondre par Internet en réinterrogation est offerte en
+alternative au téléphone. Au 3e trimestre 2025, la part de réponse par Internet parmi les réinterrogations est
+de 46,4 %.
+
+Les méthodes de redressement habituelles permettent d’obtenir des données qui restent représentatives de
+l’ensemble de la population.
+
+
+
+
+1
+   Depuis 2014, quatre départements d’Outre-mer (Guadeloupe, Guyane, Martinique, La Réunion) sont couverts par
+l’enquête Emploi en continu. À Mayotte, une enquête annuelle est réalisée depuis 2013.
+Taux de collecte* et taux de réponse** par trimestre
+
+
+
+
+Champ : France entière à partir du T1 2024, France hors Mayotte jusqu’au T4 2023.
+* le taux de collecte rapporte le nombre d’enquêtes réussies à l’ensemble des logements de l’échantillon.
+** le taux de réponse rapporte le nombre d’enquêtes réussies à l’ensemble des logements dans le champ de l’enquête.
+
+
+  Publication et révision des séries
+
+Les résultats trimestriels de l’enquête Emploi, pour un trimestre donné, sont publiés habituellement au
+milieu du deuxième mois suivant la fin de ce trimestre. Chaque trimestre, l’actualisation des coefficients
+de variations saisonnières conduit à légèrement réviser l’ensemble des séries publiées. Plus précisément,
+les modèles de correction des variations saisonnières sont recalculés une fois par an, au moment de la
+publication des résultats du premier trimestre de l’année. Lors des publications relatives aux autres
+trimestres, les coefficients saisonniers sont révisés à modèles inchangés.
+Toutes les séries sont corrigées des variations saisonnières par la méthode X13-ARIMA implémentée dans
+le logiciel JDemetra+, et appliquée à l’ensemble de la période s’étalant du 1er trimestre 2003 au trimestre en
+cours.
+Chaque année, au 1er trimestre, sont également prises en compte les révisions des données
+démographiques issues des résultats définitifs du recensement, lesquels sont connus avec un recul de
+quatre ans. Cette prise en compte implique de légères révisions annuelles des effectifs et des taux estimés à
+partir des enquêtes Emploi jusqu’à quatre ans avant l’année de référence.
+Au 1er trimestre 2021, l’enquête Emploi a été rénovée avec des changements de questionnaire, de
+protocole de collecte ou de méthodes de pondération, ce qui a donné lieu à une révision des niveaux
+des séries publiées.
+  Refonte de l’enquête à compter du 1er trimestre 2021
+
+Pour se conformer au nouveau règlement européen sur les statistiques sociales (Integrated European Social
+Statistics) et moderniser son protocole, l’enquête Emploi a évolué à compter du 1er trimestre 2021.
+Son questionnaire est rénové pour être mieux harmonisé au niveau européen, mais aussi mieux répondre
+aux besoins de ses utilisateurs et aux nouveaux enjeux du marché du travail. Par ailleurs, son protocole se
+modernise : après une première interrogation maintenue en face-à-face, la possibilité de répondre sur
+Internet est proposée aux enquêtés en réinterrogation, en alternative au téléphone. La méthode de
+pondération a également été revue.
+Ces changements ont modifié le niveau des indicateurs issus de l’enquête à partir de la publication du
+1er trimestre 2021. Pour préparer au mieux cette refonte, une vaste opération méthodologique « Pilote » a
+été conduite tout au long de l’année 2020 et au 1er trimestre 2021 ; elle a permis d’estimer les ruptures de
+série introduites par le changement d’enquête. Les indicateurs conjoncturels, à partir du 1 er trimestre 2021,
+sont directement issus de cette nouvelle enquête ; ceux relatifs aux trimestres précédents ont été recalculés
+sans ruptures, afin de continuer d’éclairer la conjoncture du marché du travail dans une perspective
+temporelle longue.
+L’ensemble de ces changements ainsi que leur impact sur les principaux indicateurs publiés ont été
+présentés dans un Insee Analyses publié le 29 juin 2021 en même temps que les résultats du 1er trimestre
+2021.
+
+
+  Champ géographique : France hors Mayotte
+
+À partir du 3e trimestre 2019, l’ensemble des indicateurs trimestriels issus de l’enquête Emploi en continu
+sont diffusés sur le champ « France hors Mayotte ». Auparavant, seul le chômage était diffusé sur ce champ
+et le reste des indicateurs était restreint au champ « France métropolitaine ».
+
+Depuis 2014, l’enquête Emploi en continu couvre quatre des cinq départements d’Outre-mer (Guadeloupe,
+Guyane, Martinique et La Réunion) permettant d’observer directement des données trimestrielles sur le
+nouveau champ « France hors Mayotte ». À partir de 2019, le recul a été jugé suffisant pour estimer des
+coefficients de corrections des variations saisonnières. En outre, pour les années 2003 à 2013, toutes les
+séries ont été rétropolées. Des séries en moyenne annuelle ont d’abord été construites en s’appuyant sur
+les résultats des enquêtes annuelles DOM qui existaient jusqu’en 2013. Dans un second temps, ces séries
+ont été converties à une fréquence trimestrielle en prolongeant la saisonnalité moyenne des séries des DOM
+observée sur la période 2014-2018. Une note détaillant ces travaux est disponible dans la rubrique
+« documentation » de cette publication.
+
+Depuis le 1er trimestre 2024, l’enquête Emploi couvre également Mayotte. Toutefois, du fait d’un manque de
+recul temporel pour élaborer des séries sans rupture sur un champ couvrant Mayotte, les données publiées
+portant sur les principaux indicateurs du marché du travail continuent de porter sur le champ France hors
+Mayotte.
+
+
+  Comprendre les résultats des Informations Rapides
+
+CHÔMAGE ET TAUX DE CHÔMAGE AU SENS DU BIT
+
+Un chômeur au sens du Bureau international du travail (BIT) est une personne âgée de 15 ans ou plus
+qui répond simultanément à trois conditions :
+1°) être sans emploi durant une semaine donnée ;
+2°) être disponible pour prendre un emploi dans les deux semaines ;
+3°) avoir cherché activement un emploi au cours des quatre dernières semaines ou en avoir trouvé un qui
+commence dans moins de trois mois. Les démarches actives considérées sont variées : étudier des
+annonces d’offres d’emploi, se rendre à un salon professionnel, mobiliser son réseau social ou contacter
+France Travail (anciennement Pôle emploi), etc.
+La part des chômeurs est le rapport entre le nombre de chômeurs et le nombre de personnes d’une
+population considérée ; elle diffère du taux de chômage, qui est le rapport entre le nombre de chômeurs et
+le nombre de personnes actives (en emploi ou au chômage).
+Un chômeur de longue durée est une personne au chômage au sens du BIT qui déclare être sans emploi
+et chercher un emploi depuis au moins un an. Le taux de chômage de longue durée est le rapport entre le
+nombre de chômeurs de longue durée et le nombre d’actifs.
+
+
+EMPLOI AU SENS DU BIT
+
+Une personne en emploi au sens du BIT est une personne âgée de 15 ans ou plus ayant travaillé (ne serait
+ce qu’une heure) au cours d’une semaine donnée dite « de référence », ou une personne qui est en emploi,
+mais qui n’a pas travaillé durant cette semaine pour un certain nombre de raisons répertoriées (congés,
+arrêts maladie, chômage partiel, etc., ces absences étant parfois assorties de critères de durée). Les
+personnes en emploi peuvent être salariées, à leur compte, employeurs ou aides dans l’entreprise ou dans
+l’exploitation familiale.
+
+
+Le taux d’emploi est le rapport entre le nombre de personnes en emploi et la population totale
+correspondante. Il peut être calculé sur l’ensemble de la population, mais on se limite le plus souvent à la
+population âgée de 15 à 64 ans, ou à une sous-catégorie de la population (femmes de 25 à 49 ans, par
+exemple).
+
+
+Le taux d’emploi en CDI (resp. en CDD ou intérim) est le rapport entre le nombre de personnes ayant un
+emploi en contrat à durée indéterminée (CDI ou fonctionnaire) (resp. en contrat à durée déterminée ou en
+intérim) et la population totale.
+
+
+Le taux d’emploi en équivalent temps plein rapporte les effectifs en emploi, convertis en équivalent temps
+plein (EQTP) dans leur emploi principal, à la population totale. Chaque poste est alors pris en compte au
+prorata de son volume horaire de travail rapporté à celui d’un poste à temps complet. Par exemple, un
+salarié ayant occupé un poste donné à 80 % compte pour 0,8 en EQTP.
+
+
+Le taux d’emploi sous-jacent est égal à la moyenne arithmétique des taux d’emploi par âge détaillé. Il
+permet de neutraliser les poids démographiques inégaux des tranches d’âge inclus dans le taux d’emploi.
+Par exemple, à partir des années 2000, le taux d’emploi sous-jacent des seniors (50-64 ans) permet de
+mesurer un taux d’emploi qui ne tient pas compte du fait que les générations du baby-boom arrivent
+progressivement à l’âge de la retraite et gonflent le poids des classes d’âges inactives parmi les 50-64 ans.
+
+ACTIVITÉ AU SENS DU BIT
+
+Un actif au sens du BIT est une personne en emploi ou au chômage au sens du BIT.
+Le taux d’activité est le rapport entre le nombre d’actifs et l’ensemble de la population correspondante. Il
+peut être calculé sur l’ensemble de la population, mais on se limite le plus souvent à la population âgée de
+15 à 64 ans, ou à une sous-catégorie de la population (femmes de 25 à 49 ans, par exemple).
+L’espérance apparente d’activité représente la durée moyenne d’activité, en années, d’une génération qui
+serait soumise aux conditions d’activité observées sur la période courante. Elle est calculée comme la
+somme des taux d’activité à chaque âge à partir d’un âge initial donné (par exemple, pour l’« espérance
+d’activité à 50 ans » : somme des taux d’activité à 50 ans, 51 ans, 52 ans, etc. observés sur la période
+courante). Elle est indépendante de la structure démographique. Cet indicateur est qualifié d’apparent, car il
+ne tient compte ni des décès qui peuvent intervenir au cours de la période d’activité, ni des évolutions qui
+pourraient affecter les comportements d’activité par âge dans les années à venir.
+
+
+HALO AUTOUR DU CHÔMAGE
+
+Le halo autour du chômage est composé de personnes inactives au sens du BIT, mais proches du marché
+du travail. Il s’agit des personnes qui souhaitent travailler mais ne remplissent pas tous les critères pour être
+comptabilisées comme chômeur au sens du BIT : soit elles recherchent un emploi mais ne sont pas
+disponibles pour travailler (composante 1), soit elles sont disponibles mais n’ont pas recherché d’emploi
+(composante 2), soit elles ne sont ni disponibles, ni en recherche (composante 3).
+Les deux premières composantes correspondent à la définition du halo retenue par Eurostat. La troisième
+composante, plus éloignée du marché du travail, se réfère à la définition préconisée en 2008 dans le cadre
+du rapport « Emploi, chômage, précarité. Mieux mesurer pour mieux débattre et mieux agir2 » du Conseil
+national de l’information statistique (Cnis).
+
+
+SOUS-EMPLOI AU SENS DU BIT
+
+Le sous-emploi comprend les personnes en emploi qui soit travaillent à temps partiel, souhaitent travailler
+davantage et sont disponibles pour le faire, soit ont travaillé moins que d’habitude pendant la semaine de
+référence en raison de chômage partiel (chômage technique, chômage intempéries, dispositif d’activité
+partielle).
+La définition du sous-emploi retenue par Eurostat diffère : elle n’inclut pas le chômage technique ou partiel et
+est donc plus restrictive que celle retenue par l’Insee.
+
+NEET
+
+Un NEET (de l’acronyme anglais pour « neither in employment nor in education or training ») est une
+personne qui n’est ni en emploi, ni en études, ni en formation (formelle ou non formelle). La part de NEET
+est généralement calculée pour les personnes de 15 à 29 ans.
+
+HEURES TRAVAILLÉES
+
+Les heures travaillées incluent toutes les heures effectivement travaillées au cours de la semaine de
+référence, hors congés et absences, quelle qu’en soit la raison. Le nombre moyen d’heures travaillées par
+semaine et par emploi rapporte les déclarations sur les heures travaillées la semaine de référence au
+nombre de personnes en emploi.
+Depuis le troisième trimestre 2023, la série du nombre moyen d’heures travaillées par semaine et par emploi
+est, outre la correction habituelle des variations saisonnières, corrigée des effets calendaires. Pour estimer
+les effets calendaires, un modèle économétrique est utilisé afin d’estimer les effets de différents types de
+jours (jours fériés, ponts, vacances scolaires, etc.) modulant l’ampleur du nombre d’heures.
+
+CONTRAINTE DANS L’OFFRE DE TRAVAIL
+
+La notion de contrainte sur le marché du travail vise à couvrir différentes situations rencontrées par les
+personnes sur le marché du travail, dont l’offre de travail se trouve non utilisée (si elles sont au chômage ou
+dans le halo autour du chômage) ou sous-utilisée (si elles sont en sous-emploi).
+Le taux de contrainte dans l’offre de travail est défini comme le rapport entre le nombre de personnes âgées
+de 15 à 64 ans qui sont en sous-emploi, au chômage ou dans le halo du chômage, et le nombre d’actifs « au
+sens large » (actifs ou dans le halo du chômage, ensemble parfois nommé aussi « participants au marché
+du travail »).
+
+RSA
+
+Dans l’enquête Emploi, les bénéficiaires du RSA désignent en effet l’ensemble des personnes de 15 ans
+ou plus appartenant à un ménage comprenant au moins un allocataire du RSA. La notion de ménage est
+celle retenue dans le cadre des enquêtes de l’Insee : ensemble des personnes (apparentées ou non) qui
+partagent de manière habituelle un même logement (que celui-ci soit ou non leur résidence principale) et qui
+ont un budget en commun.
+
+
+
+
+2
+ De Foucauld J-B., Cézard M. et Reynaud M. (2008), « Emploi, chômage, précarité. Mieux mesurer pour mieux débattre
+et mieux agir », CNIS, Rapport n°108, septembre.
+https://www.cnis.fr/wp-content/uploads/2017/10/RAP_2008_108_emploi_chomage_precarite.pdf
+  Précision des principaux indicateurs
+
+L’enquête Emploi est menée auprès d’un échantillon de ménages conçu pour permettre la meilleure
+précision possible à un coût de collecte donné. Les résultats présentés demeurent néanmoins des
+estimations, avec une marge d’incertitude qui peut affecter l’interprétation des résultats, notamment les
+évolutions de court terme.
+Compte tenu des aléas d’échantillonnage, le taux de chômage trimestriel est estimé avec un intervalle de
+confiance dit « à 95 % » de ± 0,3 point : lorsque l’on mesure avec l’enquête un taux de chômage de 10,0 %,
+il y a 95 % de chances que sa vraie valeur, c’est-à-dire celle qui aurait été obtenue si l’enquête Emploi avait
+été menée exhaustivement sur l’ensemble du territoire, soit comprise entre 9,7 % et 10,3 %.
+La précision des évolutions trimestrielles du taux de chômage est également affectée par la méthode de
+sondage utilisée. Pour éviter que les aléas de sondage entre deux trimestres successifs ne se cumulent et
+viennent pénaliser la mesure des évolutions, un schéma rotatif de l’échantillon a été adopté, générant une
+corrélation entre les échantillons trimestriels successifs. De cette manière, les évolutions trimestrielles du
+taux de chômage sont également estimées avec un intervalle de confiance à 95 % à ± 0,3 point.
+
+Précision des principaux indicateurs non corrigés des variations saisonnières au 3e trimestre 2025
+
+
+
+
+Champ : France métropolitaine, personnes vivant en logement ordinaire, personnes actives (chômage), personnes de 15 ans ou plus
+(halo autour du chômage), ou personnes de 15 à 64 ans (emploi).
+Source : Insee, enquête Emploi.
+  La mise en œuvre de la loi sur le plein emploi : mesure de l’impact
+
+
+Estimation du nombre de bénéficiaires du RSA dans l’enquête Emploi
+Jusqu’au deuxième trimestre 2024, le nombre de bénéficiaires du RSA était nettement sous-estimé dans
+l’enquête Emploi (EEC) (Insee, 2025). À partir du troisième trimestre 2024, grâce à une amélioration du
+questionnaire, le taux de couverture des bénéficiaires du RSA parmi les ménages ordinaires devient
+nettement supérieur, et peut être estimé à 90 %.
+Pour permettre une estimation cohérente dans le temps avant ce troisième trimestre 2024, et ainsi d’une
+part redresser les données passées pour des séries sans rupture, et d’autre part calculer des indicateurs
+corrigés des variations saisonnières, une méthode en deux étapes a été mise en œuvre :
+     -    Du premier trimestre 2021 au deuxième trimestre 2024, un appariement individuel entre les données
+          de l’EEC et celles du Pasrau (dispositif de déclaration administrative qui contient des informations
+          exhaustives sur les allocataires du RSA) a été réalisé, enrichissant ainsi les données de l’EEC en
+          identifiant les bénéficiaires du RSA qui ne le déclaraient pas comme tel dans l’enquête. Toutefois
+          pour éviter une rupture de série entre les deuxième et troisième trimestres 2024, cet enrichissement
+          a été réalisé sur 90 % des personnes identifiées comme bénéficiaires du RSA au sens du PASRAU
+          (et non 100 % d’entre elles). En effet, si le taux de couverture s’est largement amélioré, l’EEC ne
+          couvre toutefois pas exhaustivement, à partir du troisième trimestre 2024, la population des
+          bénéficiaires du RSA au sens du PASRAU ;
+     -    La série ainsi obtenue de bénéficiaires du RSA jusqu’au deuxième trimestre 2024 a ensuite été
+          lissée par un calage externe, l’indicateur du nombre d’allocataires publié par la DREES ; plus
+          précisément un coefficient de raccordement a été calculé entre les deux sources au deuxième
+          trimestre 2024, puis les données ont été rétrochaînées.
+À partir du troisième trimestre 2024, les données relatives aux bénéficiaires du RSA issues de l’EEC ne sont
+plus redressées. La série obtenue, sur laquelle sont calculés les indicateurs du marché du travail présentés
+dans cette note, est illustrée en gris dans la figure suivante. Les données ont ensuite été corrigées des
+variations saisonnières pour qu’elles soient comparables à l’ensemble des indicateurs publiés
+habituellement dans les Informations rapides.
+
+
+Part des bénéficiaires du RSA depuis 2021
+
+
+
+
+Données brutes
+Source : Drees, données mensuelles sur les prestations de solidarité ; Insee, enquête Emploi.
+Estimation des contributions à l’évolution globale des indicateurs du marché du travail
+Bénéficiaires du RSA
+Pour estimer ces contributions, une décomposition suivant celle proposée par Berthier (2002) a été utilisée.
+Elle permet de bien distinguer la part de populations particulières dans l’ensemble et l’évolution des
+indicateurs de ces populations particulières.
+Ainsi, la contribution des bénéficiaires du RSA à l’évolution du taux de chômage peut se décomposer
+comme ci-dessous :
+(1/2) * ( pRSA T1 2025 + pRSA T4 2024 ) * ( txchoRSA T1 2025 - txchoRSA T4 2024 )      [Effet propre]
++ (1/2) * ( pRSA T1 2025 - pRSA T4 2024 ) * ( (txchoRSA T1 2025 - txcho T1 2025) + (txchoRSA T4 2024 - txcho T4 2024) ) [Effet de structure]
+
+Avec :
+pRSA = Part des bénéficiaires du RSA dans la population active
+txchoRSA = Taux de chômage des bénéficiaires du RSA
+txcho = Taux de chômage de l’ensemble de la population
+Le premier terme est l’effet propre de l’évolution du taux de chômage des bénéficiaires du RSA, il sera
+d’autant plus fort que leur taux de chômage évoluera fortement. Le deuxième terme est un effet de structure
+(ou de composition), qui est d’autant plus élevé que la part des bénéficiaires de RSA dans la population
+active est importante, d’une part, que le taux de chômage des bénéficiaires du RSA diffère du taux de
+chômage moyen de l’ensemble de la population active, d’autre part.
+
+
+Jeunes anciennement inscrits en mission locale
+Mesurer les effets de la loi sur l’inscription à France Travail des jeunes anciennement en mission locale est
+plus délicat. En effet, il n’est pas possible d’identifier dans l’EEC le fait d’être accompagné par une mission
+locale. Une définition bien plus large a donc été choisie : avoir 15 à 29 ans et être inscrit à France Travail. Or
+avec l’inscription systématique à France Travail des jeunes en mission locale, cette population ainsi définie a
+pour vocation d’augmenter et mécaniquement contribuer à la hausse de l’ensemble des indicateurs. Aussi,
+pour estimer la contribution de la seule évolution de comportement d’activité liée à l’inscription à France
+Travail de ces jeunes seule la première composante « effet propre » est retenue, soit :
+(1/2) * ( pJFT T1 2025 + pJFT T4 2024 ) * ( txchoJFT T1 2025 - txchoJFT T4 2024 )   [Effet propre]
+
+Avec :
+pjFT = Part des jeunes de 15-29 ans inscrits à France Travail dans la population active
+txchJFT= Taux de chômage des jeunes de 15-29 ans inscrits à France Travail
+txcho = Taux de chômage de l’ensemble de la population
+
+
+Pour les autres indicateurs (taux d’emploi, taux d’activité), les contributions sont calculées selon les mêmes
+principes.
+Documentation détaillée
+ -   Chômage au sens du BIT : présentation et méthodologie
+     https://www.insee.fr/fr/metadonnees/source/s1223
+
+ -   « L’essentiel sur le chômage », dossier pédagogique sur le chômage au sens du BIT :
+     https://www.insee.fr/fr/statistiques/4805248
+
+
+ -   Documentation sur la méthodologie de l’enquête Emploi 2025 :
+     https://www.insee.fr/fr/metadonnees/source/operation/s2227/presentation
+
+
+ -   « L’enquête Emploi se rénove en 2021 : des raisons de sa refonte aux impacts sur la mesure de
+     l’emploi et du chômage », Insee Analyses n° 65, juin 2021
+     https://www.insee.fr/fr/statistiques/5402123
+

@@ -1,0 +1,17 @@
+URL : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054126589
+METHODE : lecture de la page lors de la verification, extrait retenu ci-dessous.
+NOTE D'ARCHIVAGE : la relecture automatique de cette page au moment de l'archivage a renvoye un code HTTP 403
+(filtrage du client). L'extrait reproduit est celui retenu lors de la lecture de verification ; il n'a pas ete
+re-telecharge a l'identique. Le fait FCT-003 a ete etabli sur cet extrait.
+
+Nature du texte : arrete du 22 mai 2026 relatif au relevement du salaire minimum de croissance.
+
+Extrait (article 1) :
+"A compter du 1er juin 2026 [...] son montant est porte a 12,31 EUR l heure ; 2) A Mayotte, son montant est fixe a 9,56 EUR l heure"
+
+Elements retenus :
+- montant du SMIC porte a 12,31 EUR l heure en metropole, en Guadeloupe, en Guyane, en Martinique, a La Reunion,
+  a Saint-Barthelemy, a Saint-Martin et a Saint-Pierre-et-Miquelon ;
+- 9,56 EUR l heure a Mayotte ;
+- entree en vigueur au 1er juin 2026 ;
+- releve de 12,02 EUR a 12,31 EUR, soit une hausse de 2,41 % ; SMIC mensuel brut de 1 867,02 EUR sur 35 heures.

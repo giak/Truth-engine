@@ -1,0 +1,10 @@
+[
+  {
+    "source_ref": "INPUT",
+    "lead": "investigation sur l'INSEE (TOPIC: l'institution INSEE — fonctionnement, indépendance effective, pressions/intérêts, controverses matérielles 2024-2026: populations légales, conventions d'indexation)",
+    "kinds": ["ENTITY"],
+    "materiality": "DECISIVE",
+    "routes": ["EXPAND"],
+    "status": "ACTIVE"
+  }
+]

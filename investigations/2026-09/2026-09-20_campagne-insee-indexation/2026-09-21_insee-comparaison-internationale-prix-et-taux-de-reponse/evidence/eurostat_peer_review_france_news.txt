@@ -1,0 +1,16 @@
+Source : Eurostat, « Peer review report on France now online », 4 novembre 2021
+URL : https://ec.europa.eu/eurostat/web/products-eurostat-news/-/cn-20211104-1
+
+Extrait :
+
+"Eurostat is pleased to announce that the first peer review report within the third round of European Statistical System (ESS) peer reviews – the peer review report on France – is now publicly available on Eurostat’s dedicated web page."
+
+"This is a major achievement in this round of peer reviews. The report has been published following the first peer review visit in France, which took place between 28 June and 2 July 2021 at the Institut national de la statistique et des études économiques (INSEE), and was implemented by a dedicated team of four high-level experts."
+
+"ESS peer reviews are organised with the aim of assessing the compliance of the national statistical systems of the ESS members with the European Statistics Code of Practice, and thus ensuring the quality of European statistics. In addition, the peer review reports put forward future-oriented recommendations to further improve the performance of national statistical systems and Eurostat."
+
+"The final results are a peer review report containing expert recommendations for improvement, and an action plan to address these recommendations developed by the national statistical institute of the reviewed country."
+
+"The current third round of ESS peer reviews will be carried out until the end of June 2023."
+
+"For each of the 31 ESS members, the final reports and the accompanying action plans will be published in due time on Eurostat’s website."

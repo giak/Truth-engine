@@ -1,0 +1,125 @@
+{
+ "mnemo_row": "PASS: 11/11 eligible facts persisted via MCP write_memory; run 20260922-1517-insee",
+ "self_write_row": "PENDING_AT_SERIALIZATION",
+ "writeback_row": {
+  "eligible": 11,
+  "attempted": 11,
+  "success": 11,
+  "failure": 0,
+  "blocked": 0
+ },
+ "writeback_execution": [
+  {
+   "fct": "FCT-001",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau VERIFIE"
+  },
+  {
+   "fct": "FCT-002",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau VERIFIE"
+  },
+  {
+   "fct": "FCT-003",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau VERIFIE"
+  },
+  {
+   "fct": "FCT-004",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau VERIFIE"
+  },
+  {
+   "fct": "FCT-005",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau VERIFIE"
+  },
+  {
+   "fct": "FCT-006",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau VERIFIE"
+  },
+  {
+   "fct": "FCT-007",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau VERIFIE"
+  },
+  {
+   "fct": "FCT-008",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau CONFIRME (2 familles independantes A+D, refutation bornee NONE_FOUND)"
+  },
+  {
+   "fct": "FCT-009",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau VERIFIE"
+  },
+  {
+   "fct": "FCT-010",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau VERIFIE"
+  },
+  {
+   "fct": "FCT-011",
+   "action": "WRITE",
+   "attempted": 1,
+   "success": 1,
+   "failure": 0,
+   "blocked": 0,
+   "reason": "fait nouveau VERIFIE"
+  }
+ ],
+ "fact_mem": {
+  "FCT-001": "0753b910-3a89-4a01-a22e-45f642bb1954",
+  "FCT-002": "a9538d85-912c-419d-8e46-42a08aab1655",
+  "FCT-003": "72810efe-2752-4e38-bf35-cc2eeda22c95",
+  "FCT-004": "cdaf21b7-5de4-4c82-8595-b5e15b01fe25",
+  "FCT-005": "bc1edb42-79cb-497e-b947-882292a1b8fc",
+  "FCT-006": "a9652b12-d49c-421a-ad5d-b6b65aaa5ee8",
+  "FCT-007": "2c0fec9b-4f5d-497f-a771-9073dc119d7a",
+  "FCT-008": "9390b20a-c16c-405d-a7f3-75ee1c4b7549",
+  "FCT-009": "591ef480-c5e1-48f3-ad7b-1fcb150ab062",
+  "FCT-010": "e937d108-9b7e-477f-86a3-d383e3fd5d5c",
+  "FCT-011": "98c90698-c601-4cda-b2cc-141971c7e9dc"
+ }
+}

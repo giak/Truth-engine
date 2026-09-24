@@ -1,0 +1,16 @@
+Source : Destatis (Office fédéral de la statistique, Allemagne), « Methodological Changes and its impact in 2020 »
+URL : https://www.destatis.de/EN/Themes/Labour/Labour-Market/Employment/Methods/microcensus-2020-labour-market.html
+
+Contexte : le micro-recensement allemand intègre l'enquête européenne sur les forces de travail (LFS). Il a été refondu à partir de l'année d'enquête 2020.
+
+Extrait décisif :
+
+"The situation was aggravated by the pandemic in 2020, which made it nearly impossible to interview respondents face-to-face on the spot as had been common practice in the years before. [...] In addition to that, the official statistics agencies mostly refrained from sending out reminders to account for the other pandemic burdens the population had to bear. This means that the obligation to provide information was not as usually enforced. All these factors led to a lower response rate than is common for the microcensus."
+
+"Due to these problems, the average non-response rate for final results of the 2020 microcensus is approximately 35 % (first results approx. 38 %) at federal level, which is markedly higher than in previous years. This non-response was reacted to on the basis of a mathematical-statistical model."
+
+"Any distortions that may occur are therefore countered by calculating response probabilities before extrapolation (calibration to the key figures of population statistics)."
+
+"The trade-off between the reliability of results and our publication practice has led to a conservative release policy in this case. Therefore, the usual technical and regional level of detail of the microcensus results cannot be reached due to the specific situation in 2020 described above."
+
+Note : la refonte comporte l'introduction d'un questionnaire en ligne et d'une obligation de réponse non appliquée comme d'ordinaire pendant la pandémie. Le taux de non-réponse d'environ 35 % correspond à un taux de réponse d'environ 65 %.

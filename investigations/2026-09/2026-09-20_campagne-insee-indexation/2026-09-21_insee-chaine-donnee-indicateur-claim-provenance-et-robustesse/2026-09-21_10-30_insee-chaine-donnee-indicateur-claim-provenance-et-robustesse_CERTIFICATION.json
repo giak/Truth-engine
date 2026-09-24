@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:dc90dcaeb9149418daefc02c6fe63292fec762757d16152ade06cb1072bfe0d5",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_insee-chaine-donnee-indicateur-claim-provenance-et-robustesse/2026-09-21_10-30_insee-chaine-donnee-indicateur-claim-provenance-et-robustesse_INVESTIGATION.md",
+  "deliverable_sha256": "9cbabe5e52238ece6a484c1434705f5186cfb0a32af9e310bf719ec63f036809",
+  "created_at": "2026-09-21T11:26:50.436927+00:00"
+}

@@ -1,0 +1,1020 @@
+                           Direction Générale
+                           Direction des statistiques démographiques et sociales
+                           Département de l'emploi et des revenus d'activité
+                           Division emploi
+
+
+
+
+                                                                  Enquête Emploi
+                                      enquête sur l’emploi, le chômage et
+                                                  l’inactivité
+                                                                       Méthodologie
+                                                                                       version de août 2023
+
+
+
+
+                               L'enquête Emploi est l'une des pièces centrales du dispositif statistique de connaissance de
+                               l'emploi et du chômage. Elle est l'unique source permettant de mesurer l’emploi et le
+                               chômage suivant les concepts du Bureau international du travail (BIT). Elle permet en
+                               particulier de mesurer le taux de chômage au sens du BIT.
+                               L’enquête Emploi permet d’éclairer de nombreuses dimensions du marché du travail : halo
+                               autour du chômage, sous-emploi, chômage partiel, caractéristiques des emplois occupés
+                               (profession, type de contrat, secteur d’activité, etc.), conditions de travail (temps de travail,
+                               durée travaillée, télétravail, travail le samedi, le dimanche, le soir, etc.). Elle mesure aussi
+                               l’accès aux formations formelles et non formelles. Elle comporte enfin de nombreuses
+                               caractéristiques socio-démographiques (diplôme, pays de naissance, situation familiale, etc.).
+                               L’enquête Emploi s'inscrit dans le cadre des enquêtes sur les forces de travail réalisées dans
+                               tous les pays de l’Union européenne (« Labour Force Survey »), permettant des
+                               comparaisons européennes.
+                               Née en 1950 pour permettre une mesure régulière de l'emploi et du chômage, l’enquête
+                               Emploi a connu depuis de nombreuses évolutions ; la dernière refonte de l’enquête, qui
+                               répond notamment au nouveau règlement européen-cadre IESS, est entrée en production
+                               début 2021.
+
+
+
+
+Institut National de la Statistique et des Études Économiques – 88 avenue Verdier – CS 70058 - 92541 MONTROUGE CEDEX - FRANCE - www.insee.fr
+Tl. : 01.87.69.50.00 - N° SIRET : 120 027 016 00563 - Code APE : 8411Z - Service Insee Contact : 09 72 72 4000 - (tarification "appel local")
+
+RÉPUBLIQUE FRANÇAISE
+       Table des matières
+       1. L'enquête Emploi : histoire et principales caractéristiques...................................................3
+              1.1. Objectifs et thèmes de l'enquête.............................................................................3
+              1.2. Historique de l'enquête Emploi................................................................................3
+              1.3. Une enquête sous règlement européen..................................................................5
+              1.4. Les concepts d'activité, d'emploi et de chômage.....................................................6
+                 Personnes en emploi................................................................................................. 6
+                 Chômeurs.................................................................................................................. 7
+                 Actifs......................................................................................................................... 8
+                 Inactifs....................................................................................................................... 8
+       2. Le champ de l'enquête......................................................................................................... 9
+              2.1. Champ géographique.............................................................................................. 9
+              2.2. Champ de l’enquête................................................................................................ 9
+              2.3. Règles de rattachement.......................................................................................... 9
+       3. L'échantillon........................................................................................................................ 11
+              3.1. Principe général : un échantillon de logements, aréolaire et rotatif........................11
+              3.2. L'échantillon de France métropolitaine..................................................................11
+                 Base de sondage..................................................................................................... 11
+                 Construction de l'échantillon....................................................................................12
+                 Sélection des logements à enquêter et mise à jour annuelle de l’échantillon..........13
+              3.3. L'échantillon des Dom (hors Mayotte)...................................................................13
+              3.4. Quelques chiffres sur l'échantillon.........................................................................13
+       4. Le déroulement de la collecte............................................................................................. 14
+              4.1. L'organisation de la collecte..................................................................................14
+              4.2. Le mode d'interrogation......................................................................................... 14
+              4.3. Les règles de mise en collecte des fiche-adresses...............................................15
+       5. Les fichiers de diffusion...................................................................................................... 17
+       6. La non-réponse, la pondération et la précision de l’enquête..............................................18
+              6.1. Le taux de collecte et le taux de réponse..............................................................18
+              6.2. La pondération...................................................................................................... 18
+                 La pondération en France métropolitaine................................................................19
+                 La pondération dans les Dom..................................................................................20
+                 La pondération pour les variables annuelles...........................................................20
+                 La pondération en quelques chiffres.......................................................................20
+              6.3. La précision de l'enquête.......................................................................................20
+
+
+
+
+....                                                                                                                           2/21
+                       1.   L'enquête Emploi : histoire et principales caractéristiques
+
+       1.1.   Objectifs et thèmes de l'enquête
+       La nouvelle édition de l’enquête Emploi, mise en œuvre à compter de 2021, ne modifie pas les
+       objectifs poursuivis par l’enquête depuis plusieurs décennies : mesurer l'emploi et le chômage,
+       selon des principes harmonisés au niveau international. L’enquête Emploi est ainsi un élément
+       central de l’observation structurelle et conjoncturelle du marché du travail. Elle est la seule
+       source permettant de mesurer l’emploi et le chômage conformément aux normes établies par
+       le Bureau international du travail (BIT) et interprétées par Eurostat.
+       Elle permet également de décrire précisément les emplois occupés (profession, secteur
+       d'activité, type de contrat, multi-activité, durée travaillée, temps partiel, télétravail, etc.). Elle
+       mesure aussi l'accès aux formations selon les concepts européens de formation formelle et
+       non formelle. Elle fournit enfin de nombreuses informations sociodémographiques sur les
+       individus (origines sociales et géographiques, niveau de diplôme, etc.).
+       Les thèmes couverts par l’enquête sont largement déterminés par les contraintes
+       européennes. Le questionnaire de l’enquête Emploi à partir de 2021 1, qui reprend pour
+       l’essentiel les thèmes couverts depuis 2013, est structuré autour d’un questionnaire logement
+       qui décrit le ménage et les personnes qui le composent, puis de questionnaires individuels qui
+       abordent les thèmes suivants :
+            • la détermination du statut d'activité au sens du BIT ;
+            • la description détaillée de l'emploi principal (profession, type de contrat, durée du
+                travail, revenus du travail…), moins détaillée pour le second emploi pour les multi-actifs
+                et pour le dernier emploi pour les personnes sans emploi, mais ayant travaillé ;
+            • le niveau d'études et la participation à des formations formelles et non formelles ;
+            • la perception d'allocations (chômage, retraites, autres) ;
+            • l'état de santé ;
+            • les origines géographiques et sociales ;
+            • la trajectoire sur le marché du travail les 12 derniers mois.
+       Par ailleurs, chaque année, l’enquête est complétée par des modules complémentaires qui
+       viennent éclairer un thème particulier2. Avec le nouveau règlement IESS, les modules
+       complémentaires font pleinement partie de l’enquête Emploi ; il s’agit de variables avec une
+       périodicité propre (8 ans). Plus précisément, le règlement définit 6 modules récurrents :
+           • 2021 : Situation des migrants et leurs descendants directs sur le marché du travail
+           • 2023 : Retraites et participation au marché du travail
+           • 2024 : Entrée des jeunes sur le marché du travail
+           • 2025 : Conciliation entre vie familiale et vie professionnelle
+           • 2027 : Organisation du travail et aménagement du temps de travail
+           • 2028 : Accidents au travail et problèmes de santé liés au travail
+       En plus de ces modules récurrents, deux millésimes sont laissés libres pour des modules non
+       récurrents :
+           • 2022 : deux modules sont collectés, sur Savoir-faire et tâches au travail et Travail de
+               plateformes.
+           • 2026 : Travail de plateformes.
+
+       1.2.   Historique de l'enquête Emploi
+       Née en 1950, l’enquête Emploi a intégré des nombreux changements, de nature diverse : des
+       changements de concept, pour se conformer notamment aux orientations du Bureau
+       international du travail (BIT) ou d’Eurostat, de questionnaire, de méthodologie
+       (échantillonnage, traitement de la non-réponse…), de protocole ou encore techniques (outils
+       informatiques).
+
+
+
+       1. Le questionnaire de l'enquête Emploi 2022 est disponible sur le site internet de l'Insee au lien suivant :
+       https://www.insee.fr/fr/metadonnees/source/operation/s2071/processus-statistique
+       2 La liste des modules et leur documentation est accessible sur le site d’Eurostat au lien suivant :
+       https://ec.europa.eu/eurostat/statistics-explained/index.php?oldid=505930#Modules_by_topic
+
+
+
+....                                                                                               3/21
+       Sans retracer l'intégralité de l'histoire de l'enquête Emploi 3, trois grandes périodes peuvent être
+       identifiées :
+           • 1950-1974 : enquête semestrielle ou annuelle (réalisée au cours d'une ou deux
+                périodes limitées de l'année) avec une mesure de l'emploi et du chômage au sens du
+                recensement ;
+           • 1975-2002 : enquête annuelle, réalisée en général en mars, avec une mesure de
+                l'emploi et du chômage au sens du BIT ;
+           • 2003 à aujourd’hui : enquête en continu réalisée tout au long de l'année avec des
+                résultats en moyenne annuelle et trimestrielle, toujours selon les concepts du BIT.
+       Depuis 2003, l’enquête a connu trois refontes (2007, 2013 et 2021). La dernière refonte, entrée
+       en production en 2021, modifie le questionnaire, le protocole et la méthode de pondération.
+       Ces différentes évolutions peuvent occasionner des ruptures de série, nécessitant des travaux
+       de rétropolation sur les principaux indicateurs, visant à estimer des séries à concepts et
+       mesures homogènes dans le temps.
+
+
+                           Quelques grandes dates de l'histoire de l'enquête Emploi
+       1950       Mise en place d’une enquête pour mesurer l’emploi et le chômage au sens du
+                  recensement
+                       • enquête annuelle ou semestrielle (selon les années)
+                       • questionnaire revu après chaque recensement
+                       • échantillon : tiré dans le recensement, taux de sondage passant de 1/2500
+                          à 1/300 à partir de 1968 ; échantillon aréolaire renouvelé par tiers à partir
+                          de 1968
+       1975       Alignement sur les concepts BIT
+                       • enquête annuelle, en mars
+                       • questionnaire revu à chaque recensement ; enrichissement du
+                          questionnaire4
+                       • Dom : premières enquêtes (1993, 1995 et 1998), annuelles à partir de 2001
+                       • collecte assistée par informatique à partir de 1992
+                       • codification automatique des professions à partir de 1995
+       2003       Passage à une enquête en continu5
+                      • enquête réalisée en continu tout au long de l’année avec des résultats en
+                         moyenne annuelle et trimestrielle (obligation européenne)
+                      • questionnaire enrichi
+                      • échantillon : tiré dans le recensement, taux de sondage annuel 1/175,
+                         renouvelé par 6ᵉ chaque trimestre
+       2007       Divers aménagements
+                      • questionnaire / concepts : nouveau mode de calcul des variables d’activité
+                          pour être en phase avec l'interprétation communautaire des concepts BIT
+                      • échantillon : tiré dans la taxe d'habitation, augmentation progressive de la
+                          taille de l'échantillon
+                      • méthodologie : mise en place d'une enquête auprès des non-répondants
+       2013       Refonte du questionnaire et intégration des Dom
+                     • questionnaire rénové, pour en faciliter la passation, notamment au
+                         téléphone, améliorer la codification des variables de profession et de
+                         diplôme, enrichir la connaissance du marché du travail avec l’introduction
+                         de nouvelles questions et se conformer aux orientations d'Eurostat sur
+                         certains indicateurs (formation, halo autour du chômage)
+                     • Dom : intégration des Dom (hors Mayotte) dans l'enquête en continu
+                         (échantillon complet à partir de 2014). À Mayotte, une enquête Emploi
+                         annuelle est collectée chaque année depuis 20136.
+
+       3 Pour plus de détails, voir D. Goux, « Une histoire de l'enquête Emploi », Économie et statistique, n°362, 2003.
+       4 Variables présentes dès 1975 : activité au sens du BIT, âge, sexe, nationalité, profession, statut, secteur d'activité,
+       temps partiel, nombre d'heures de travail sur une semaine, diplôme, intérim.
+       Variables introduites en 1982 : type de contrat, salaire, profession du père, inscription à l'ANPE, durée habituelle du
+       travail.
+       Variables introduites en 1990 : origine migratoire, horaires alternants, travail de nuit et le week-end, variables
+       concernant les activités professionnelles annexes.
+       5. Pour plus de détails, voir P. Givord, « Une nouvelle enquête Emploi », Économie et statistique, n°362, 2003.
+       6 Pour plus d’informations, voir le site internet de l’Insee : https://www.insee.fr/fr/metadonnees/source/serie/s1041
+
+
+
+....                                                                                                         4/21
+                       •    amélioration des processus de traitement des données (application de
+                            gestion) et de codification des variables
+                       •    renouvellement progressif de l’échantillon du T3 2019 au T4 2020, toujours
+                            tiré dans la base fiscale (TH puis, Fideli), selon les mêmes principes
+                            (grappes, prise en compte de résidences non principales)
+       2021         Refonte du questionnaire, du protocole et de la pondération
+                       • questionnaire rénové, pour se mettre en conformité avec le nouveau
+                           règlement européen IESS, répondre aux besoins des utilisateurs
+                           (télétravail, indépendants économiquement dépendants…) et l’adapter à
+                           une passation en auto-administré
+                       • protocole modifié pour proposer internet en plus du téléphone en
+                           réinterrogation
+                       • refonte de la méthode de pondération
+
+
+
+       1.3.       Une enquête sous règlement européen
+       L’enquête Emploi est l'édition française de la Labour Force Survey (LFS). Elle est collectée à la
+       demande d'Eurostat et répond à des exigences européennes. La LFS relève à compter de
+       2021 du nouveau règlement-cadre sur les enquêtes sociales européennes, le règlement IESS
+       (Integrated European Social Statistics). Ce nouveau règlement IESS modifie l’architecture
+       légale européenne : l’enquête Emploi doit désormais se conformer non seulement à un
+       règlement spécifique à la LFS, mais également au règlement-cadre et à des actes communs.
+       Plus précisément, l’enquête Emploi est concernée par les textes suivants :
+            • Le règlement-cadre IESS7, qui définit notamment pour l’enquête Emploi les domaines
+                couverts par la LFS (annexe I du règlement), quelques contraintes méthodologiques
+                portant sur : la distribution de l’échantillon ou le schéma de rotation de l’échantillon
+                (annexe III du règlement) ou la précision (au niveau NUTS2, annexe II du règlement)
+                ou encore les délais de transmission des données (annexe V du règlement).
+            • Plusieurs actes délégués ou actes d’exécution, notamment :
+                ◦ act on common items8, qui précise notamment le champ des enquêtes ménages,
+                    avec les définitions de usually resident population et private household.
+                ◦ act on quality reports9
+                ◦ act on Monthly Unemployment Rate10 (MUR)11
+              •    Deux actes spécifiques à la LFS : un règlement délégué12, qui fixe la liste des
+                   variables, et un règlement d’exécution13, qui précise :
+                   ◦ les définitions de l’emploi et du chômage (article 2 du règlement), la liste des
+                       variables (avec leur champ et la liste des modalités, annexe I du règlement), le
+                       schéma de questionnaire (flowchart) à suivre pour le module sur le statut d’activité
+                       au sens du BIT (annexe II du règlement) et la méthodologie pour la collecte des
+                       données sur l’emploi et le chômage (article 8),
+                   ◦ le nombre maximal de variables pour les modules complémentaires (11 sauf
+                       exception, article 3),
+                   ◦ la population cible pour chaque topic et le recours au proxy (article 4),
+                   ◦ les périodes de référence (article 5),
+                   ◦ des caractéristiques de l’échantillon, notamment en donnant des indications sur le
+                       sous-échantillonnage pour les variables yearly (article 6).
+                   ◦ des aspects techniques sur la collecte (durée de collecte limitée à 5 semaines,
+                       collecte assistée par ordinateur ; article 7),
+                   ◦ le recours à des imputations, le recours à des règles simplifiées pour des sous-
+                       populations (précisées en annexe II du règlement) et des contraintes sur les
+                       pondérations (respect de marges démographiques et cohérence entre les jeux de
+                       poids associés aux différents sous-échantillons, article 9),
+
+       7 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L:2019:261I:TOC
+       8 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.330.01.0016.01.ENG
+       9 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.330.01.0008.01.ENG
+       10 Dans le cas de la France, ce règlement encadre la transmission des données mensuelles sur les inscrits à Pôle
+       emploi, prise en charge par la Dares.
+       11 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.336.01.0125.01.ENG
+       12 https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32020R0257
+       13 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.336.01.0059.01.ENG
+
+
+
+....                                                                                                  5/21
+                   ◦   des règles sur la diffusion, précisant notamment les indicateurs pour lesquels les
+                       séries seront rétropolées (article 10), la transmission des données (article 11) et les
+                       rapports qualité (article 12).
+
+       En termes de contenu, le nouveau cadre légal européen ne modifie substantiellement ni les
+       contraintes méthodologiques, ni celles liées au protocole, qui prévalaient jusqu’alors. Il a en
+       revanche une incidence sur le questionnaire pour deux raisons : il modifie la liste des variables
+       requises (variables ajoutées, supprimées ou redéfinies) et impose désormais un déroulé de
+       questionnement (appelé flowchart) pour les questions relatives au statut d’activité au sens du
+       BIT. Ce dernier point est une nouveauté de IESS, qui vise à aller plus loin dans l’harmonisation
+       et la comparabilité des données, en passant d’une harmonisation dite « par les outputs »
+       (variables) à une harmonisation dite « par les inputs » (façon de recueillir l’information).
+       Ces règlements sont complétés d’explanatory notes fournissant, pour chaque variable, sa
+       définition, sa périodicité, son champ, ses modalités et les consignes associées 14.
+
+       1.4.       Les concepts d'activité, d'emploi et de chômage
+       L'enquête Emploi met en œuvre la mesure de l'activité telle que définie par le Bureau
+       international du travail (BIT) lors de la XIIIᵉ conférence internationale des statisticiens du travail
+       d’octobre 198215, selon l'interprétation définie par Eurostat. Dans le nouveau règlement
+       européen, Eurostat propose une clarification de l’interprétation des critères définis par le BIT,
+       concernant notamment l’emploi et le classement des personnes absentes de leur emploi.
+
+       Personnes en emploi
+       Sont considérées en emploi au sens du BIT :
+              •    les personnes âgées de 15-74 ans qui, pendant la semaine de référence :
+                   ◦ ont « travaillé au moins une heure, en tant que salarié ou indépendant » (question
+                       TRAREF),
+                   ◦ ou qui ont cependant un emploi dont elles sont absentes (question PASTRA), sous
+                       certaines conditions de motif (question RABS)16,
+                       ▪ Sont considérées en emploi :
+                           • sans condition : congé rémunéré, congé maladie, congé de maternité ou
+                               de paternité, aménagement du temps de travail (horaires flexibles, repos
+                               compensateur, temps partiel...), formation autorisée par l’employeur ou
+                               dans le cadre d’un contrat en alternance / apprentissage, chômage partiel
+                               (y compris technique ou intempérie) ;
+                           • congé parental en cas d’absence prévue de 3 mois ou moins ou de
+                               perception d’un revenu compensatoire lié à l’activité tel que la Prepare ;
+                           • période de morte saison dans le cadre d’une activité saisonnière en cas de
+                               travaux réguliers dans le cadre de cette activité saisonnière ;
+                           • autre raison d’absence en cas d’absence prévue de 3 mois ou moins.
+                       ▪   À l'inverse, ne sont pas considérées en emploi :
+                           • congé parental d’une durée supérieure à trois mois et sans perception d’un
+                                revenu compensatoire lié à l’activité tel que la Prepare ;
+                           • période de morte saison dans le cadre d’une activité saisonnière, sans
+                                travaux réguliers dans le cadre de cette activité saisonnière ;
+                           • période de fin d'emploi ;
+                           • autre raison en cas d’absence prévue de plus de 3 mois.
+                   ◦ ou qui « travaillent sans être rémunérées avec un membre de leur famille »
+                       (question AIDFAM) ;
+                   ◦ ou qui « ont eu une activité d’appoint ou un petit boulot rémunéré » (question
+                       RATTRAP)
+              •    les personnes âgées de 75 ans ou plus qui « ont un emploi, même de quelques
+                   heures, en tant que salariées ou à leur compte » (question TEMP).
+       14 Les explanatory notes sont disponibles sur le site d’Eurostat au lien suivant : https://ec.europa.eu/eurostat/statistics-
+       explained/index.php?title=EU_labour_force_survey_-
+       _documentation#Explanatory_notes_and_user_guide_for_the_core_variables .
+       15 Disponible sur le site du BIT au lien suivant : https://www.ilo.org/global/statistics-and-databases/standards-and-
+       guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087482/lang--fr/index.htm
+       16 Le règlement IESS a modifié les règles de classement en emploi des absences.
+
+
+
+....                                                                                                            6/21
+       Ainsi, par exemple, selon cette définition, un étudiant qui effectue quelques heures de travail
+       pendant la semaine de référence est classé en emploi.
+       Le sous-emploi comprend les personnes en emploi qui soit travaillent à temps partiel,
+       souhaitent travailler davantage et sont disponibles pour le faire, soit ont travaillé moins que
+       d’habitude pendant la semaine de référence en raison de chômage partiel (chômage
+       technique, chômage intempéries, dispositif d’activité partielle).
+
+       Chômeurs
+       Les chômeurs au sens du BIT sont des personnes qui :
+           • sont sans emploi la semaine de référence ;
+           • sont disponibles pour travailler dans les deux semaines suivant la semaine de
+              référence (questions DISPONE et PASTRNE17) ;
+           • ont effectué, au cours des quatre dernières semaines, une démarche active de
+              recherche d’emploi (questions RECNE puis MRANE à MRJNE) ou ont trouvé un
+              emploi qui commence dans les trois mois (questions PASTRNE et DATDEBNE).
+       Sont considérées comme ayant effectué une démarche active de recherche d'emploi, les
+       personnes qui déclarent avoir fait des « démarches de recherche d'emploi » (question RECNE)
+       puis qui déclarent avoir effectué au moins une des démarches suivantes :
+           • avoir « contacté Pôle emploi, une mission locale, Cap emploi, l’Apec, la chambre des
+                métiers pour trouver un emploi ou répondu à une de leurs offres d’emploi »18 (question
+                MRANE) ;
+           • avoir « contacté une agence d’intérim ou un opérateur privé de placement ou répondu
+                à une de leurs offres d’emploi » (question MRBNE) ;
+           • avoir « fait appel à son entourage (famille, amis, collègues, syndicats...) pour l’aider
+                dans ses recherches d’emploi » (question MRCNE) ;
+           • avoir « déposé ou actualisé son CV sur Internet (par exemple via un profil
+                professionnel sur les réseaux sociaux) » (question MRDNE) ;
+           • avoir « passé une annonce pour trouver un emploi ou répondu à une offre d’emploi (y
+                compris sur Internet) » (question MRENE) ;
+           • avoir « étudié des offres d’emploi, y compris sur Internet » (question MRFNE) ;
+           • avoir « passé un concours pour entrer dans le secteur public » (question MRGNE) ;
+           • avoir « passé un test ou un entretien d’embauche » (question MRHNE) ;
+           • avoir « contacté un employeur par candidature spontanée ou lors d’un salon
+                professionnel ou d’un forum de l’emploi ou en réponse à la sollicitation d’un chasseur
+                de tête » (question MRINE) ;
+           • avoir « réalisé des démarches pour s’installer à son compte (par exemple, recherche
+                de locaux, demande d’autorisation, démarches auprès des banques…) (question
+                MRJNE) ».
+       Le concept de chômeur au sens du BIT diffère donc de celui des demandeurs d'emploi inscrits
+       à Pôle emploi qui est lui mesuré à partir des sources administratives de gestion des listes 19.
+       L’ancienneté au chômage est mesurée, conformément aux requis européens 20, comme :
+           • la durée de la recherche d’emploi si la personne n’a jamais travaillé (y compris pour
+               des petits boulots) ou si la date du dernier est inconnue ;
+           • la durée écoulée depuis la fin du dernier emploi si la durée de la recherche d’emploi
+               est inconnue ;
+           • le minimum entre la durée de recherche et la durée écoulée depuis la fin du dernier
+               emploi si ces deux durées sont renseignées.
+       Le chômage de longue durée correspond à une ancienneté au chômage d’au moins un an.
+
+
+       17 Les personnes dont l’emploi a commencé entre la fin de la semaine de référence et la date d’entretien
+       (PASTRNE=1) sont réputées disponibles.
+       18. Depuis 2007, le simple renouvellement de l’inscription à Pôle emploi n’est plus considéré comme une démarche
+       spécifique de recherche d’emploi.
+       19. Pour plus de détails, voir le dossier « Les chômeurs au sens du BIT et les demandeurs d’emploi inscrits à Pôle
+       emploi : une divergence de mesure du chômage aux causes multiples » de Emploi, chômage, revenus du travail, coll.
+       « Insee Références », édition 2019.
+       20 La mesure de l’ancienneté au chômage a été modifiée avec le règlement IESS : auparavant, le dernier emploi
+       excluait les petits boulots.
+
+
+
+....                                                                                                   7/21
+       Actifs
+       Les actifs au sens du BIT regroupent les personnes en emploi ou au chômage.
+
+       Inactifs
+       Les inactifs au sens du BIT sont les personnes qui ne sont ni en emploi ni au chômage.
+       Au sein des inactifs, on distingue les personnes appartenant au halo autour du chômage, à
+       savoir les personnes qui sont sans emploi la semaine de référence et :
+          • ont recherché un emploi, mais ne sont pas disponibles pour travailler dans les deux
+                semaines suivant la semaine de référence (questions DISPONE / PASTRNE)
+                (composante 1). Sont considérées comme ayant recherché un emploi : les personnes
+                qui ont effectué des démarches actives de recherche d’emploi (questions MRANE à
+                MRJNE) et les personnes qui n’ont pas cherché, car ont déjà trouvé un emploi qui
+                démarre après la semaine de référence (question PASTRNE).
+          • sont disponibles pour travailler dans les deux semaines suivant la semaine de
+                référence, souhaitent travailler mais n'ont pas recherché d’emploi (composante 2).
+                Sont considérées comme n’ayant pas recherché d’emploi : les personnes qui n’ont pas
+                effectué de démarches de recherche d’emploi (question RECNE), les personnes qui
+                ont recherché, mais pas activement (question RECNE et questions MRANE à MRJNE)
+                et les personnes qui n’ont pas recherché car ont déjà trouvé un emploi qui démarre
+                dans plus de 3 mois (question PASTRNE).
+          • souhaitent travailler, mais ne recherchent pas d’emploi et ne sont pas disponibles pour
+                travailler dans les deux semaines (composante 3). Sont considérées comme n’ayant
+                pas recherché d’emploi : les personnes qui n’ont pas effectué de démarches de
+                recherche d’emploi (question RECNE) et les personnes qui ont recherché, mais pas
+                activement (question RECNE et questions MRANE à MRJNE).
+
+
+
+
+....                                                                                 8/21
+                                          2. Le champ de l'enquête
+
+       2.1.   Champ géographique
+       Le champ géographique de l’enquête Emploi en continu est, depuis 2014, la France
+       métropolitaine et les départements d’outre-mer (Guadeloupe, Martinique, Guyane, La
+       Réunion), à l’exception de Mayotte21.
+
+       2.2.   Champ de l’enquête
+       Conformément au règlement européen, le champ couvert par la LFS, et donc par l’enquête
+       Emploi (target population), est constitué des personnes vivant en logement ordinaire (private
+       household), résidant habituellement en France.
+       La définition du logement ordinaire est celle du recensement, à savoir : un local séparé et
+       indépendant utilisé pour l’habitation. Sont assimilés à des logements :
+            • Une habitation de fortune (cabanon, « algéco », etc.), un logement squatté situé dans
+                un immeuble en voie de démolition ;
+            • Une habitation légère de loisirs (construction de type chalet, bungalow ou mobile-home
+                auquel on a ôté tout moyen de mobilité) ;
+            • Une chambre d’hôtel habitée de manière permanente.
+       Aussi, sauf exception (cf infra), les personnes vivant en communauté (maisons de retraite,
+       établissements hospitaliers, foyers sociaux, établissements hébergeant des élèves ou des
+       étudiants, casernes, communautés religieuses…) ne font pas partie du champ de l'enquête.
+       Pour la résidence habituelle, les règle du recensement sont appliquées, à savoir que sont
+       résidents habituels en France toutes les personnes résidant en France pour une durée
+       (écoulée ou à venir) d’au moins 12 mois. Les personnes n’ayant pas de résidence habituelle
+       dans un autre pays sont toutefois considérées comme ayant leur résidence habituelle sur le
+       lieu où elles se trouvent, quelle que soit leur durée de présence.
+       Seules les personnes âgées de 15 à 89 ans sont concernées par un questionnaire individuel.
+
+       2.3.   Règles de rattachement
+       Pour respecter le champ et pour éviter les doubles comptes en cas de multi-résidence, les
+       personnes sont enquêtées dans leur résidence habituelle (usual residence). À part pour les
+       étudiants, les règles appliquées reprennent celles du recensement, qui, sauf cas particuliers,
+       se fondent sur un critère de durée (résidence où la personne passe la majorité de l’année).
+       En cas de multi-résidence, sont rattachées au logement enquêté :
+           • les personnes vivant chez leurs deux parents séparés, qui passent la majorité du
+              temps dans le logement enquêté ou qui passent la même durée dans les deux
+              logements mais qui ont dormi une nuit donnée dans le logement enquêté (CAR=1a) ;
+           • les mineurs vivant par ailleurs en internat ou en résidence étudiante (CAR=3b) ;
+           • les mineurs si le logement est celui d’un parent et que l’autre logement ordinaire n’est
+              ne celui de leur autre parent ni celui pour des études (CAR=4a) ;
+           • les étudiants majeurs, si le logement enquêté est celui pour leurs études (CAR=5a) ou
+              de leurs parents (CAR=5b). Dans ce cas, la pondération de l’étudiant est divisée par
+              deux pour éviter les doubles comptes dans la population.
+           • les étudiant mineurs, dont le logement enquêté est celui des parents et l’autre
+              logement est pour les études (CAR=5d) ;
+           • les personnes majeures, dont le logement enquêté est le logement familial et l’autre
+              logement pour raison professionnelle (CAR=6a) ;
+           • les personnes en multi-résidence, ne se trouvant dans aucune autre situation (CAR=1
+              à 6) et qui passent au moins la moitié du temps dans le logement enquêté (CAR=7a).
+       Inversement, ne sont pas rattachées au logement enquêté :
+           • les personnes vivant chez leurs deux parents séparés, qui passent la minorité du
+              temps dans le logement enquêté ou qui passent la même durée dans les deux
+
+
+       21. Une enquête annuelle a lieu à Mayotte chaque année depuis 2013. L’enquête Emploi en continu sera étendue à
+       Mayotte à partir de début 2024.
+
+
+
+....                                                                                                9/21
+           logements et qui n’ont pas dormi une nuit donnée dans le logement enquêté
+           (CAR=1b) ;
+       •   les personnes vivant par ailleurs dans une communauté autre que internat / résidence
+           étudiante (CAR=2) ;
+       •   les personnes majeures vivant par ailleurs dans une communauté de type internat /
+           résidence étudiante (CAR=3a) ;
+       •   les étudiants mineurs, dont le logement enquêté est celui pour les études (CAR=5c) ;
+       •   les personnes majeures, dont le logement enquêté est occupé pour raison
+           professionnelle et l’autre logement est le logement familial (CAR=6b) ;
+       •   les personnes en multi-résidence, ne se trouvant dans aucune des situations ci-
+           dessus, et qui passent moins de la moitié du temps dans le logement enquêté
+           (CAR=7b).
+
+
+
+
+....                                                                            10/21
+                                                     3. L'échantillon
+
+       3.1.    Principe général : un échantillon de logements, aréolaire et rotatif
+       L'échantillon de l'enquête Emploi est un échantillon de logements, et non d'individus. Il
+       présente deux caractéristiques principales : il est aréolaire et rotatif.
+       L’échantillon est aréolaire : il est constitué de groupes de logements proches. La concentration
+       géographique des logements à enquêter facilite la collecte, condition nécessaire à la réalisation
+       d’une enquête de grande ampleur dans des délais de collecte contraints. En contrepartie, à
+       taille identique, elle conduit à une moindre précision qu'un échantillon de logements dispersés.
+       En effet, les ménages d’un même groupe de logements tendent à avoir des caractéristiques
+       socio-économiques proches. C’est ce que l’on appelle l’« effet de grappe ». Pour minimiser cet
+       effet, le nombre de logements ainsi regroupé est limité (une vingtaine).
+       L'échantillon est rotatif : les logements entrant dans l’échantillon un trimestre donné sont
+       enquêtés pendant six trimestres consécutifs22. Seul 1/6ᵉ de l’échantillon est donc renouvelé
+       chaque trimestre. Cela permet d'améliorer la précision de la mesure des évolutions
+       trimestrielles de l’emploi ou du chômage.
+
+
+
+
+       Au-delà de ces caractéristiques communes, les échantillons pour la France métropolitaine et
+       pour les Dom présentent des différences, qui sont précisées ci-après.
+
+       3.2.    L'échantillon de France métropolitaine
+       En France métropolitaine, les groupes de logements proches sont désignés par le terme de
+       « grappes ». Les grappes sont regroupées en secteurs. Lorsque que les logements d’une
+       grappe ont fini le cycle des 6 interrogations, les logements d’une autre grappe du même
+       secteur prennent le relai et sont à leur tour interrogés 6 trimestres, et ainsi de suite. Pour
+       assurer une durée de vie suffisante de l’échantillon, on regroupe 6 grappes pour constituer un
+       secteur. L’échantillon a ainsi une durée de vie de 9 ans ou 36 trimestres (6*6)23. L’échantillon a
+       été renouvelé à compter du 3 e trimestre 201924 ; depuis le 4e trimestre 2020, l’échantillon est
+       entièrement renouvelé.
+
+       Base de sondage
+       En France métropolitaine, la base de sondage de l’enquête Emploi est constituée à partir du
+       fichier démographique des logements et des individus 2016 (Fideli). Elle diffère assez peu de
+       celle utilisée jusqu’au T2 2019 (la taxe d’habitation), puisqu’il s’agit également d’un fichier relatif
+       au bâti, et basé sur le même périmètre (les logements imposés à la taxe d’habitation). Elle
+       comporte en revanche davantage de variables, permettant d’améliorer l’échantillonnage.
+
+
+       22. Il est important de noter ici que ce sont bien les logements qui constituent les unités enquêtées : lorsqu’un ménage
+       quitte son logement avant le 6e trimestre d’enquête, c’est le ménage qui s’installera à sa suite dans le logement qui
+       continuera d’être enquêté jusqu’au terme. Les ménages qui quittent leur logement ne sont donc pas enquêtés dans
+       leur nouvelle destination.
+       23 Les zones d’enquête sont tirées pour une durée de 9 ans mais l’échantillon est mis à jour annuellement pour
+       prendre en compte les nouveaux logements et les logements détruits.
+       24 Pour plus d’information, on peut consulter : http://jms-insee.fr/jms2018s09_1/
+
+
+
+....                                                                                                       11/21
+       Si le champ de l’enquête Emploi est constitué des logements ordinaires utilisés comme
+       résidences principales, la base de sondage de l’enquête Emploi inclut aussi des logements
+       vacants et des résidences secondaires, pour trois raisons. Tout d'abord, certains logements
+       identifiés comme vacants ou résidences secondaires dans la base de sondage peuvent avoir
+       changé de statut au moment de l’enquête et être devenus des résidences principales. Par
+       ailleurs, la notion de résidence principale au sens de la base de sondage ne correspond pas
+       strictement à celle utilisée dans le cadre des enquêtes. Enfin, les occupants de ces logements
+       présentent des caractéristiques particulières. L’échantillon de l’enquête Emploi étant constitué
+       de grappes, le coût d’intégration de ces résidences non principales est limité car l’enquêteur
+       doit de toutes façons se déplacer à proximité pour les résidences principales de la grappe.
+
+       Construction de l'échantillon
+       Découpage du territoire en grappes / secteurs
+       La première étape de la construction de l’échantillon de l’enquête Emploi consiste à découper
+       l’ensemble du territoire en grappes / secteurs. Le regroupement des résidences principales en
+       grappes se fait sur un critère de distance, via l’algorithme du « voyageur de commerce », avec
+       la contrainte d’avoir une vingtaine de résidences principales par grappe. Une contrainte
+       supplémentaire dans la constitution des grappes est que, dans les immeubles, les logements
+       d’un même étage appartiennent à la même grappe, afin de faciliter le travail de repérage des
+       enquêteurs.
+       Les grappes sont ensuite regroupées en secteurs, pour assurer une durée de vie suffisante de
+       l’échantillon. Chaque secteur comporte 6 grappes.
+       Ce découpage du territoire en grappes / secteurs a été réalisé une fois, à l’initialisation de
+       l’échantillon. Le territoire de la France métropolitaine a ainsi été découpé en 230 000 secteurs,
+       soit 1,4 million de grappes.
+
+       Tirage des secteurs
+       La seconde étape est celle du tirage des secteurs qui vont participer à l’échantillon de
+       l’enquête Emploi. Ce tirage est stratifié par région 25, avec en outre les propriétés suivantes :
+           • Il est coordonné avec l’échantillon-maître : les secteurs de l'enquête Emploi sont tirés
+               autour des unités primaires de l’échantillon-maître, par l'intermédiaire des unités de
+               coordination (UC) ;
+           • Les allocations régionales prennent en compte les contraintes de précision requises au
+               niveau européen, mais aussi les difficultés de collecte en Île-de-France ;
+           • Le tirage est spatialement équilibré, pour limiter la corrélation spatiale entre les
+               secteurs tirés, et mobilise de nouvelles variables d’équilibrage, davantage corrélées
+               aux variables d’intérêt de l’enquête (chômage, emploi…) :
+               ◦ nombre de personnes dans le secteur percevant des allocations chômage ou
+                   préretraite ;
+               ◦ nombre de personnes dans le secteur percevant des revenus d'activité ;
+               ◦ nombre de logements en quartier prioritaire de la ville (QPV) dans le secteur ;
+               ◦ population totale par type de ménage (personne seule, famille monoparentale,
+                   etc.) dans le secteur sur les types de ménage dans le secteur ;
+               ◦ population totale par sexe/âge dans le secteur ;
+               ◦ revenus totaux perçus par les habitants du secteur.
+       Au final, 2 944 secteurs ont été tirés (contre 3 217 dans l’ancien échantillon).
+       Ces améliorations dans la méthode de tirage par rapport à l’échantillon précédent
+       (spatialement équilibré, nouvelles variables d’équilibrage) permettent d’améliorer la précision
+       ex-ante « toutes choses égales par ailleurs » et donc de réduire d’environ 15 % la taille de
+       l’échantillon26.
+       Dans chaque secteur, un rang d’introduction de chaque grappe est ensuite affecté
+       aléatoirement. L'échantillon est uniformément réparti sur les 13 semaines de chaque trimestre ;
+       chaque grappe est affectée à une semaine « de référence ».
+
+
+
+
+       25 Pour plus d’information, on peut consulter : http://jms-insee.fr/jms2018s09_1/
+       26 Cette baisse est obtenue par une baisse du nombre de secteurs et par une baisse du nombre de logements par
+       grappe.
+
+
+
+....                                                                                              12/21
+       Sélection des logements à enquêter et mise à jour annuelle de l’échantillon
+       Chaque année, l'échantillon est mis à jour afin d’intégrer les nouveaux logements
+       (constructions nouvelles, conversions de locaux commerciaux en habitation…) et de supprimer
+       les logements détruits27. Les informations utiles pour le repérage (nom et coordonnées des
+       occupants) sont à cette occasion mises à jour.
+       Afin de mieux maîtriser la taille des grappes sur la durée de vie de l’échantillon, les nouveaux
+       logements sont rattachés aux grappes, selon un critère de distance. Sont ainsi constituées des
+       « grappes univers », regroupant les résidences principales ayant servi à la constitution des
+       grappes et celles apparues depuis ainsi que les résidences non principales. Au sein de ces
+       grappes univers, on tire une vingtaine de résidences principales dans l’échantillon et des
+       résidences non principales.
+
+       3.3.    L'échantillon des Dom (hors Mayotte)
+       L’échantillon Dom présente quelques particularités, concernant la base de sondage, la
+       constitution des groupes de logements, l’échantillonnage et la mise à jour.
+       Pour des raisons de moindre qualité des fichiers de la taxe d'habitation au moment de
+       l'introduction des Dom dans l'enquête Emploi en continu, le choix de la base de sondage s'est
+       porté sur les enquêtes annuelles de recensement (EAR). Le nombre d’EAR utilisées a été
+       déterminé selon la taille de la commune :
+             • les 2 EAR les plus récentes pour les grandes communes
+             • les 5 EAR les plus récentes pour les petites communes
+       Pour les Dom, les groupes de logements (l’équivalent des grappes en métropole) est le SAE
+       (Secteur Action Enquêteur). Chaque Dom est partitionné en 26 SAE de taille à peu près
+       équivalente. Pour un trimestre donné, environ 13 logements sont tirés dans chacun des SAE
+       de chaque Dom.
+       Le concept de résidence principale étant proche dans les EAR et l’enquête Emploi, l’échantillon
+       Dom ne compte que des résidences principales.
+       Pour chaque échantillon entrant, on pratique un échantillonnage stratifié à un degré, avec
+       tirage systématique de logements à probabilités égales au sein de chacune d’un croisement
+       entre la grappe (SAE) et des strates 28. Le tirage stratifié est à allocation proportionnelle. Le
+       nombre de logements à tirer dans chaque croisement entre le SAE et la strate est ainsi
+       proportionnel au nombre de résidences principales dans le croisement entre le SAE et la strate
+       au sein du Dom. De plus, le tirage des logements au sein de chaque croisement entre le SAE
+       et la strate se fait sur une base triée sur des variables d’activité issues du recensement : le
+       nombre de chômeurs et le nombre d’actifs occupés au sein du logement.
+       L'échantillon des Dom est renouvelé chaque année : un nouveau tirage est effectué pour
+       constituer l'échantillon de l'année à venir.
+
+       3.4.    Quelques chiffres sur l'échantillon
+       L'échantillon comporte en moyenne chaque trimestre environ 80 000 logements.
+
+
+
+
+       27 Ainsi, pour l'échantillon des logements entrants entre le T4 d'une année N et le T3 de l'année N+1, les données sont
+       mises à jour avec les fichiers de l'année N-1.
+       28. Les strates sont des strates géographiques. Ce choix d’une stratification géographique a été fait à la fois pour
+       améliorer la qualité statistique de l’échantillon et pour limiter les fluctuations de charges d’enquête.
+
+
+
+....                                                                                                      13/21
+                                  4. Le déroulement de la collecte
+
+       4.1.   L'organisation de la collecte
+       La collecte de l’enquête Emploi est organisée en continu sur toutes les semaines de l’année.
+       L’unité enquêtée est le logement (ou fiche-adresse (FA)). Chaque logement appartient à une
+       grappe affectée à une semaine de référence donnée ; il est enquêté 6 trimestres consécutifs
+       (rang de la grappe).
+       Le protocole de collecte n’est pas structuré selon le rang de la grappe, mais selon le rang
+       d’interrogation du ménage : lorsqu’un nouveau ménage apparaît dans un logement
+       appartenant à l’échantillon, il est interrogé selon le protocole de première interrogation.
+       Pour l’ensemble des rangs, l'organisation de la collecte est structurée autour de la semaine de
+       référence, semaine fixe au titre de laquelle les personnes décrivent leur situation sur le marché
+       du travail.
+           • La semaine de référence est dédiée au repérage, qui vise à vérifier que le logement
+               existe bien et qu’il est bien occupé en tant que résidence principale, et à la prise de
+               contact avec les ménages, les entretiens ne pouvant pas se faire avant le lundi suivant
+               la semaine de référence. Les ménages reçoivent une lettre-avis leur annonçant
+               l’enquête.
+           • Les enquêtes doivent être réalisées dans les 3 semaines suivant la semaine de
+               référence (contre 2 semaines et 2 jours dans le protocole allant jusque fin 2020). Les
+               enquêteurs ont pour consigne de réaliser le plus grand nombre d’entretiens possible en
+               début de période de collecte, d’une part parce que les personnes enquêtées peuvent
+               fournir des réponses plus précises si on les interroge sur des événements récents,
+               d’autre part parce que l’enquêteur se donne ainsi les moyens de parvenir à joindre le
+               maximum de personnes.
+
+       4.2.   Le mode d'interrogation
+       Le mode d’interrogation est différencié selon que le ménage est en première interrogation ou
+       en réinterrogation.
+       La première interrogation d’un ménage est menée par un enquêteur en face-à-face. C’est le
+       cas des logements d’une grappe entrante, mais aussi des nouveaux ménages en cours de
+       panel, soit que le logement était précédemment vacant, soit que le ménage n’avait pas
+       répondu à l’enquête, soit qu’il y a eu un changement de ménage consécutif à un
+       déménagement. C’est en effet lors de la première interrogation que les concepts peuvent être
+       précisés par l’enquêteur et le questionnaire de première interrogation est plus long.
+       En réinterrogation, deux modes d’interrogation sont désormais possibles : téléphone et
+       internet. Plus précisément :
+            • Les trois premiers jours de la collecte (lundi, mardi et mercredi) sont consacrés, hors
+                cas particuliers, à Internet. À partir du jeudi de la première semaine de collecte,
+                l’enquêteur peut appeler le ménage pour lui proposer de réaliser l’enquête par
+                téléphone. Dans certains cas particuliers, l’enquête par téléphone peut commencer dès
+                le lundi de la première semaine de collecte. Il s’agit d’enquêtés identifiés comme peu
+                susceptibles de répondre par internet ou de cas où les enquêteurs savent par avance
+                qu’ils seront absents, ce qui permet de lisser leur charge de travail.
+            • Si l’interview n’est pas réalisée lors de ce premier contact, l’enquêteur rappelle
+                régulièrement le ménage s’il constate que le questionnaire n’a pas été réalisé sur
+                Internet, et ainsi de suite jusqu’à la fin de la collecte ; des mails et lettres de relance
+                sont régulièrement envoyés.
+            • Le site Internet de collecte reste ouvert jusqu’à ce que le ménage ait répondu à
+                l’enquête, quel que soit le mode et au plus tard le dimanche de la 3 e semaine de
+                collecte.
+       Dans de rares cas laissés à l’appréciation de l’enquêteur, la réinterrogation peut se réaliser en
+       face-à-face, par exemple pour des ménages de grande taille ou comprenant mal le français.
+
+
+
+
+....                                                                                      14/21
+                         Part d’internet parmi les répondants en réinterrogation
+
+
+
+
+                   Champ : France hors Mayotte, logements répondants en grappe non entrante.
+
+
+       Les personnes ne sont pas tenues de répondre pour elles-mêmes : une autre personne peut
+       répondre à sa place (proxy). Si cette procédure facilite la réalisation de l'enquête, elle peut
+       affecter la qualité des informations recueillies. Les enquêteurs doivent donc tenter autant que
+       possible d’obtenir des réponses directes.
+       La réponse à l'enquête est obligatoire. Cette obligation de réponse est obtenue après passage
+       de l'enquête auprès du Comité du Label de la statistique publique.
+       En moyenne, l’interrogation d’un ménage dure 35 minutes en première interrogation et
+       13 minutes en réinterrogation. Ce temps inclut la durée du questionnaire logement, commun à
+       tous les membres du ménage et la somme des durées des questionnaires individuels de
+       chacune des personnes dans le champ de l’enquête.
+       Pour un individu donné, le questionnaire individuel dure en moyenne 14 minutes en première
+       interrogation et 5 minutes ensuite.
+
+       4.3.   Les règles de mise en collecte des fiche-adresses
+       Pour les grappes entrantes, l’ensemble des fiches-adresses de l’échantillon sont mises en
+       collecte.
+       Pour les grappes non entrantes, pour limiter la charge d’enquête et parce que la situation de
+       certaines personnes sur le marché du travail évolue peu de trimestre en trimestre, certaines
+       fiches-adresses ne sont pas remises en collecte. Plus précisément :
+           • sont remis en collecte les résidences principales (sauf exceptions, voir infra) ou les
+               logements vacants ;
+           • ne sont pas remis en collecte
+               ◦ les logements habités exclusivement
+                   ▪ par des inactifs de 70 ans ou plus
+                   ▪ par des inactifs en situation de handicap âgés de 50-69 ans ou n’ayant pas
+                       travaillé dans les 5 dernières années
+                   ▪ par des enfants de moins de 15 ans
+               ◦ les résidences principales dont les occupants ont exprimé deux refus et n’ont
+                   jamais accepté de répondre
+               ◦ les résidences secondaires, les logements non ordinaires ou les logements
+                   détruits.
+       Le statut du logement (résidence principale, logement occasionnel, résidence secondaire,
+       logement vacant) est déterminé par l’enquêteur lors du repérage, en suivant les critères du
+       recensement.
+       Les résidences principales occupées par un ménage de seniors ou d’inactifs en situation de
+       handicap sont considérées comme répondantes pour les rangs suivants et leurs réponses à la
+       première interrogation sont imputées à l’identique de l’interrogation précédente.
+
+
+
+....                                                                                    15/21
+       Le même type de traitement est appliqué pour les individus qui appartiennent à un logement
+       réinterrogé : par exemple, si un ménage est constitué d’un actif de 65 ans et d’un inactif de
+       71 ans, la fiche-adresse sera remise en collecte, mais seul l’actif de 65 ans devra répondre à
+       l’enquête. Les réponses de l’inactif de 71 ans seront « remontées ».
+
+
+
+
+....                                                                                 16/21
+                                           5. Les fichiers de diffusion
+
+
+       Différents traitements permettent notamment de :
+            • faire « remonter » dans les fichiers les informations relatives aux personnes non
+               réinterrogées pour limiter la charge d'enquête (cf. supra)
+            • procéder à divers traitements sur les variables du fichier (recodification, formats…) et
+               attribuer une pondération à chaque individu.
+       Depuis 2021, l’enquête Emploi met en œuvre la nomenclature de la PCS rénovée à la suite du
+       rapport du Cnis29, dite PCS 2020.
+       Différents fichiers de diffusion sont produits dans l’ordre d’anonymisation des données et donc
+       de restriction d’accès décroissant :
+            • un fichier détail qui comporte un jeu restreint de variables et accessible sur insee.fr ;
+            • un fichier de production et de recherche (FPR) accessible via le centre Quételet
+                PROGEDO Diffusion ;
+            • un fichier comportant des variables identifiantes accessible via le Centre D’accès
+                Sécurisé aux Données (CASD).
+       Un fichier européen est également constitué et transmis à Eurostat 30.
+
+
+
+
+       29 https://www.cnis.fr/wp-content/uploads/2020/01/Rapport-n%C2%B0-156.pdf
+       30 Pour plus de détail sur les variables européennes, voir :
+       https://ec.europa.eu/eurostat/statistics-explained/index.php?title=EU_labour_force_survey_-
+       _documentation#Explanatory_notes_and_user_guide_for_the_core_variables
+
+
+
+....                                                                                                 17/21
+               6. La non-réponse, la pondération et la précision de l’enquête
+
+       6.1.    Le taux de collecte et le taux de réponse
+       Les logements de l’échantillon ont, à l’issue de la collecte, trois statuts : répondants, non-
+       répondants (ce qui peut recouvrir différents motifs : impossible à joindre, refus, etc.) ou hors
+       champ (logement détruit, logement non ordinaire, résidence secondaire, logement vacant). Les
+       logements dans le champ sont constitués des logements répondants et des logements non-
+       répondants.
+       Le taux de collecte à l’enquête rapporte le nombre de logements répondants au nombre de
+       logements de l’échantillon (quel que soit leur statut à l’issue de la collecte). Il est de 64 % au T1
+       2023.
+       Le taux de réponse à l’enquête rapporte le nombre de logements répondants au nombre de
+       logements dans le champ (qu’ils soient répondants ou non-répondants). Il est par construction
+       plus élevé que le taux de collecte31 ; il est de 77 % au T1 2023.
+       À partir de la fin du 1er trimestre 2020, la collecte de l’enquête Emploi a été fortement affectée
+       par la crise sanitaire liée à l’épidémie de Covid-19. À plusieurs reprises, les déplacements sur
+       le terrain, nécessaires pour vérifier que le logement existe bien et est bien dans le champ, puis
+       pour prendre contact avec ses occupants, ont été impossibles et les entretiens prévus en face-
+       à-face ont dû être réalisés par téléphone, quand les coordonnées étaient disponibles. Ces
+       difficultés se sont traduites par une baisse du taux de collecte. Depuis le 1 er trimestre 2022, le
+       taux de collecte à l’enquête Emploi a retrouvé son niveau d’avant crise sanitaire.
+                              Taux de collecte à l’enquête Emploi en continu (en %)
+
+
+
+
+                                                 Champ : France hors Mayotte.
+
+       6.2.    La pondération
+       Comme pour toutes les enquêtes réalisées auprès des ménages, des traitements sont réalisés
+       pour prendre en compte le fait qu’on n’enquête qu’un échantillon, corriger du biais de non-
+       réponse et contrôler les fluctuations d’échantillonnage.
+       Le biais lié à la non-réponse vient du fait qu'il n’est pas possible d’obtenir une réponse pour
+       tous les logements et que les non-répondants peuvent présenter des caractéristiques
+       particulières : par exemple, le taux de non-réponse est plus faible pour les personnes vivant
+       seules, celles résidant à Paris ou encore celles vivant en appartement. Corriger de la non-
+       réponse consiste à modifier les poids initiaux des logements répondants pour prendre en
+       compte ces probabilités différenciées de réponse. Cela suppose d'avoir de l'information à la
+       fois sur les répondants et sur les non-répondants, à partir de la base de sondage.
+       31 L’échantillon de l’enquête Emploi comportant des résidences non principales dans la base de sondage, et dont le
+       statut de hors champ est souvent confirmé sur le terrain, l’écart entre taux de collecte et taux de réponse est élevé.
+
+
+
+....                                                                                                      18/21
+       Les fluctuations d'échantillonnage proviennent du fait qu'il arrive fréquemment que l'échantillon
+       tiré ne soit pas exactement représentatif de la population de référence. Cette différence entre la
+       vraie proportion et la proportion estimée dans l'échantillon résulte d'une fluctuation
+       d’échantillonnage, qui peut être corrigée par un calage sur des données externes.
+       En France métropolitaine et dans les Dom, afin d’assurer la cohérence entre les estimations au
+       niveau logement et les estimations au niveau individu, l’unité statistique sur laquelle est
+       effectuée la pondération est le logement. Hors non-réponse partielle32, toutes les personnes
+       dans le champ et répondantes d’un même logement ont le même poids. En cas de non-
+       réponse partielle, le poids individuel est égal au poids du logement multiplié par un facteur
+       correctif, par exemple 3/2 pour un ménage de 3 personnes dont une n'a pas répondu.
+
+       La pondération en France métropolitaine
+       Pour l'échantillon de France métropolitaine, la méthode de pondération a été refondue en 2021
+       afin notamment de prendre en compte les nouvelles informations de la base de sondage Fideli.
+       La pondération se fait en deux étapes : correction des fluctuations de représentativité de
+       l’échantillon trimestriel et de la non-réponse (étape 1), puis calage sur marges externes
+       (étape 2).
+       L’étape 1 est elle-même divisée en deux sous-étapes :
+            •    étape 1a : calage de l’échantillon trimestriel sur des marges issues de la base de
+                 sondage de l’année N-1 :
+                 ◦     par rang de la grappe (soit 6 strates) :
+                       ▪ nombre total de logements, répartition par type (résidence principale,
+                           résidence secondaire, logement vacant), zonage (urbain/rural/autre), zone de
+                           résidence (Paris, Île-de-France hors Paris, ZEAT sinon), implantation en QPV
+                           (oui/non),    statut    d’occupation  (propriétaire/autre),  type     d’habitat
+                           (maison/appartement), année de construction (plus de 10 ans, entre 5 et
+                           10 ans, moins de 5 ans)
+                       ▪ nombre de personnes dans le ménage, nombre de personnes de nationalité
+                           étrangère
+                       ▪ somme des revenus perçus dans l’année : salaires, revenus agricoles, revenus
+                           non salariés (hors revenus agricoles), pensions de retraite, allocations
+                           chômage.
+                 ◦     pour l’ensemble des rangs :
+                       ▪ décile de revenu d’activité33
+       Par ailleurs, dans la même étape, l’échantillon est calé de façon uniforme sur chacune des
+       semaines de références, afin que chaque semaine ait le même poids, en termes de nombre de
+       logements.
+       En sortie de l’étape 1a, le poids de tirage initial (poids0) est modifié (poids0a).
+       L’étape 1b consiste en un modèle économétrique mesurant la probabilité de réponse selon les
+       caractéristiques suivantes : semaine de référence, rang de la grappe, région, zonage,
+       résidence en QPV, type d’habitat, nombre de pièces, année de construction, décile de revenu
+       d’activité.
+       En sortie de l’étape 1b, le poids modifié (poids0a) est corrigé en poids1 (poids en sortie de
+       l’étape 1), par multiplication par l’inverse de la probabilité de réponse issue du modèle
+       économétrique.
+       L’étape 2 consiste en un calage sur données externes, selon plusieurs contraintes :
+           • par rang d’interrogation :
+               ◦ population vivant en logement ordinaire par âge quinquennal et sexe
+               ◦ population vivant en logement ordinaire par région (au niveau NUTS2), âge (de
+                   deux à quatre tranches d’âge selon les régions) et sexe
+               ◦ nombre de résidences principales
+
+       32 On parle de non-réponse partielle quand toutes les personnes dans le champ n’ont pas répondu. Les personnes de
+       moins de 15 ans et de plus de 89 ans, qui n’ont pas de questionnaire individuel, sont réputées répondantes.
+       33 La variable « décile de revenu d’activité » comporte 14 modalités : valeur manquante (si résidence non principale),
+       valeur nulle (si résidence principale, sans revenu d’activité), décile de 1 à 9, puis détail pour le 10 e décile (entre 90e et
+       95e centile / entre 95e et 99e centile / supérieur au 99e centile). Les revenus d’activité sont ici entendus comme la
+       somme des salaires et des revenus non salariés (y compris revenus agricoles).
+
+
+
+....                                                                                                            19/21
+              • par semaine de référence
+                ◦ population en quatre tranches d’âge
+       Pour la population, les marges sont issues des estimations de population produites par l'Insee
+       à partir des estimations de population. Les marges de population par semaine sont obtenues
+       en divisant la population en milieu de trimestre par le nombre de semaines de référence du
+       trimestre (13 ou 14 dans de rares exceptions).
+       Au niveau logement, les marges distinguent le nombre total de logements, le nombre de
+       résidences principales, le nombre de logements neufs. Les marges sont issues des Comptes
+       du logement.
+       Les marges externes sont mises à jour annuellement, ce qui entraîne une révision des
+       pondérations. L’étape 1 de la pondération ne conduit en revanche à aucune révision, les
+       marges de la base de sondage n’étant pas révisées.
+
+       La pondération dans les Dom
+       Pour l'échantillon des Dom, le traitement est réalisé en deux temps. Dans une première étape,
+       la non-réponse totale est corrigée en estimant la probabilité de réponse (par un modèle
+       économétrique). Les poids sont ensuite calibrés par la méthode du calage sur marges. La
+       pondération est calculée Dom par Dom, et sur chacun des six rangs d’interrogation.
+       La première étape fait appel aux variables suivantes de l’enquête : type de logement, zone
+       d’emploi, le fait d'être répondant au trimestre précédent, taille de la commune. Pour la seconde
+       étape, les variables suivantes sont utilisées, issues de la base de sondage (nombre de
+       personnes par sous-échantillon, nombre et type de logements, zone d’emploi, taille de la
+       commune, diplôme, lieu de naissance) ou issues des estimations de population produites par
+       l'Insee à partir des recensements de la population (sexe, âge).
+       La variable de pondération (EXTRI) issue de ces deux méthodes (France métropolitaine et
+       Dom) est à utiliser pour les variables posées sur l’ensemble des rangs d’interrogation (RGA=1
+       à 6).
+
+       La pondération pour les variables annuelles
+       En France métropolitaine et dans les Dom, une deuxième variable de poids (EXTRID) existe
+       pour les variables relavant du questionnaire des grappes entrantes (RGA=1), dites « variables
+       annuelles ». Ce poids est mis en cohérence, chaque trimestre de façon à obtenir les mêmes
+       agrégats sur certaines variables de référence, comme le statut d'emploi BIT.
+
+       La pondération en quelques chiffres
+       Au 1er trimestre 2023, le poids moyen d’un logement répondant est d’environ 630. Il est plus
+       élevé en France métropolitaine (680) que dans les Dom (150), où le taux de sondage est plus
+       élevé, afin de garantir une représentativité région par région (Guadeloupe, Martinique, Guyane,
+       Réunion).
+
+       6.3.       La précision de l'enquête
+       Les données de l'enquête Emploi sont, comme toutes les enquêtes par sondage, affectées
+       d'erreurs qui peuvent être mesurées par l'écart-type de chacune des estimations. L'estimation
+       de ces erreurs tient compte du plan de sondage et de la procédure de calage.
+       Au 1er trimestre 2023, on estime ainsi que le taux de chômage trimestriel est estimé avec un
+       intervalle de confiance à 95 % de ± 0,3 point en France métropolitaine (voir tableau). Ainsi,
+       pour le 1er trimestre 2023, pour lequel le taux de chômage, en données brutes, est de 7,0 %, il
+       y a 95 % de chances que la vraie valeur du taux de chômage, c’est-à-dire celle qui aurait été
+       obtenue si l’enquête avait été menée exhaustivement sur l’ensemble du territoire, soit comprise
+       entre 6,7 % et 7,3 %.
+       Sur une année, le cumul des échantillons trimestriels permet de gagner en précision. Ainsi, le
+       taux de chômage annuel est estimé avec un intervalle de confiance à 95 % de ± 0,2 point en
+       France métropolitaine en 2022.
+
+
+
+
+....                                                                                   20/21
+               Précision des principaux indicateurs publiés à partir de l’enquête Emploi (*)
+                                                                Indicateur trimestriel
+                                                                 (1er trimestre 2023)
+                                            Niveau            Précision à 95 % Intervalle de confiance à 95 %
+                                            (en %)                (en point)                (en %)
+            Taux de chômage                   7,0                    ± 0,3                     [ 6,7 – 7,3 ]
+                 Hommes                       7,3                    ± 0,4                    [ 6,9 – 7,7 ]
+                 Femmes                       6,7                    ± 0,3                     [ 6,4 – 7,0 ]
+                15-24 ans                     15,7                   ± 1,0                   [ 14,7 – 16,7 ]
+                25-49 ans                     6,4                    ± 0,3                      [ 6,1– 6,7 ]
+              50 ans ou plus                  5,2                    ± 0,4                     [ 4,8 – 5,6 ]
+              Taux d’emploi                   68,7                   ± 0,4                   [ 68,3 – 69,1 ]
+                Hommes                        71,2                   ± 0,5                   [ 70,7 – 71,7 ]
+                Femmes                        66,2                   ± 0,5                   [ 65,7 – 66,7 ]
+                15-24 ans                     34,7                   ± 0,9                   [ 33,8 – 35,6 ]
+                25-49 ans                     83,2                   ± 0,6                   [ 82,6 – 83,8 ]
+                50-64 ans                     66,7                   ± 0,6                   [ 66,1 – 67,3 ]
+              Taux d’activité                 73,9                   ± 0,4                   [ 73,5 – 74,3 ]
+                 Hommes                       76,8                   ± 0,5                   [ 76,3 – 77,3 ]
+                 Femmes                       71,0                   ± 0,5                   [ 70,5 – 71,5 ]
+                15-24 ans                     41,1                   ± 1,0                   [ 40,1 – 42,1 ]
+                25-49 ans                     88,9                   ± 0,4                   [ 88,5 – 89,3 ]
+                50-64 ans                     70,4                   ± 0,6                   [ 69,8 – 71,0 ]
+       (*) Non corrigés des variations saisonnières.
+       Champ : France métropolitaine, personnes vivant en logement ordinaire, actives (taux de chômage), de 15 à 64 ans
+       (taux d’emploi, taux d’activité).
+       Source : Insee, enquête Emploi.
+
+
+
+
+....                                                                                                 21/21
+

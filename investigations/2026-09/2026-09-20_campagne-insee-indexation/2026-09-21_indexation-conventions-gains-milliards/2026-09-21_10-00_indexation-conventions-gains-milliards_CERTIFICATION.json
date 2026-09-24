@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:495ab51e10d2e9f6e09f67e759070758d3e53dd71b60610881e6c42cb06d158b",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_indexation-conventions-gains-milliards/2026-09-21_10-00_indexation-conventions-gains-milliards_INVESTIGATION.md",
+  "deliverable_sha256": "84a512fbb83dbfe4053ace17b065021dcc4eae056163d9e2ecb489458d926c51",
+  "created_at": "2026-09-21T11:27:37.726988+00:00"
+}

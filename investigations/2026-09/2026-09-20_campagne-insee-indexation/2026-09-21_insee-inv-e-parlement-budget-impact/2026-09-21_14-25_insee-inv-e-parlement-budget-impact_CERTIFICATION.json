@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:5bcec47e89bc1ab785d7eff965570cd592dbbb49e96e9fedb86834e328faa219",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_insee-inv-e-parlement-budget-impact/2026-09-21_14-25_insee-inv-e-parlement-budget-impact_INVESTIGATION.md",
+  "deliverable_sha256": "f7f1bc18d5803bf27a898076a792519eb8bb2c0f10ff913df529dac1fc9c47bd",
+  "created_at": "2026-09-21T15:15:28.958599+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:5f188ba79cfe3097fc292adb302d32557e7b1712592214f1d57be9b83c319591",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_insee-pdf-methodo-gap-access-closure/2026-09-21_10-45_insee-pdf-methodo-gap-access-closure_INVESTIGATION.md",
+  "deliverable_sha256": "06917790b228c22129b0a53790a7149e0b62a2038da7189f0a7dfb26bfa416f3",
+  "created_at": "2026-09-21T11:29:53.263763+00:00"
+}

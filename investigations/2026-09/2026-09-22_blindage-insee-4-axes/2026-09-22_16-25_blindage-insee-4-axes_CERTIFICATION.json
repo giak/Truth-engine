@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:7995318b8f50f5a2e2f8f6e48880d3b19e2db8617d5e2b7bc1a2faa76caaa1f8",
+  "deterministic": "PASS",
+  "review": "PASS",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-22_blindage-insee-4-axes/2026-09-22_16-25_blindage-insee-4-axes_INVESTIGATION.md",
+  "deliverable_sha256": "9208aba2e577c4c019c4e7d3a03d0cd63806f13168e7bcce11547ae433866b36",
+  "created_at": "2026-09-22T17:20:43.266629+00:00"
+}

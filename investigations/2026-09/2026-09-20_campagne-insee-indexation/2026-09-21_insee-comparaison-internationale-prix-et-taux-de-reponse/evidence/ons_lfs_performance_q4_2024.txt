@@ -1,0 +1,19 @@
+Source : Office for National Statistics (ONS, Royaume-Uni), « Labour Force Survey performance and quality monitoring report: October to December 2024 »
+URL : https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/labourforcesurveyperformanceandqualitymonitoringreportoctobertodecember2024
+
+Extraits décisifs (section « Summary of response rates ») :
+
+"In Quarter 4 2024, main response rates were as follows:
+- the total response rate for Great Britain excluding imputed cases (Table 4) was 19.6%; this is up 0.1 percentage points on the previous quarter
+- the response rate excluding imputed cases (Figure 3) was 33.9% in Wave 1 and 12.7% in Wave 5; this compares with 35.3% and 11.0%, respectively, in the previous quarter
+- the total response rate for Great Britain including imputed cases (Table 5) was 24.0%, down 0.1 percentage points on the previous quarter"
+
+"of non-response in Quarter 4 2024 (Figure 5), non-contacts comprised 16.0%, circumstantial refusals were 3.6%, outright refusals comprised 42.3% and other refusals comprised the remainder"
+
+"the English region with the highest accumulated response rate across the five waves (Table 8) was the Rest of Yorkshire and Humberside (30.4%); the lowest was Inner London (17.0%)"
+
+Section « Summary of achieved sample size » :
+"The achieved sample size for the UK LFS during Quarter 4 2024 was 63,069 individuals in 28,397 households."
+
+Section « Accuracy » :
+"The main threats to accuracy are sources of error, namely sampling error and non-sampling error [...] The LFS publishes detailed response rates for all waves of the survey and an overall response rate, including data time series."

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:4ccd9531c9e38b79d0bed13b785b5dfbfe20718d01d4321ea533ab8e71ca89ed",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_insee-inv-c-referentiels-alternatifs/2026-09-21_13-15_insee-inv-c-referentiels-alternatifs_INVESTIGATION.md",
+  "deliverable_sha256": "065b85a013a2d6ca3d2d230513de2555e16caae044264e594f8aba60d10e4bfc",
+  "created_at": "2026-09-21T15:11:27.061036+00:00"
+}

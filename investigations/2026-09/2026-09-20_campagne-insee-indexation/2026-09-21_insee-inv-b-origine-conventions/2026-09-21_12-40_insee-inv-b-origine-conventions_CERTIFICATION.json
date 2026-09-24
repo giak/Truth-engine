@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:8cb85a266b3fd646f0aa7568cce6b4c56534c438375ad76a67f5c42305c2a2fb",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_insee-inv-b-origine-conventions/2026-09-21_12-40_insee-inv-b-origine-conventions_INVESTIGATION.md",
+  "deliverable_sha256": "41192d16d23c4b17f4b8aedb9bfa5f62bccedf293ea67c88515afdda1d54841d",
+  "created_at": "2026-09-21T15:10:50.227782+00:00"
+}

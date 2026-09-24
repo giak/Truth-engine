@@ -1,0 +1,12 @@
+## CORE INVESTIGATION — DATA → STATISTIC → CLAIM (lead utilisateur, intégral)
+
+1. D'où viennent les données ? source primaire, producteur, propriétaire, mode de collecte, dates/fréquences, population couverte/exclue, unité, échantillon, taux de réponse, déclaratif/administratif, observé/reconstruit, public/non, transformations. Provenance: PHÉNOMÈNE → DONNÉE SOURCE → COLLECTE → TRAITEMENT → INSEE → INDICATEUR.
+2. Fiabilité : contrôles qualité, erreurs, non-réponse, imputations, doublons, ruptures, changements de définition/collecte, biais (échantillonnage/déclaration/sélection), erreurs de mesure, incertitudes. Gradient: vérifiée > contrôlée > estimée > imputée > hypothétique.
+3. Qui produit, contrôle, interprète ? producteurs→collecteurs→contrôleurs→méthodologues→responsables publication→experts→chercheurs→médias→politiques. Fonction, pouvoir, rôle, expertise, liens, conflits d'intérêts documentés. Ne jamais déduire manipulation de la proximité.
+4. Qui choisit ce qui est mesuré ? définition, périmètre, catégories, période, unité, alternatives rejetées, conséquences. Réalité observée vs réalité définie pour être mesurée.
+5. Torture de la statistique : période, population, seuil, définition, agrégation, moyenne/médiane, absolu/taux, nominal/réel, national/territorial, sous-groupes, dénominateur, fenêtre, indicateur, transformation, estimation. Combien de conclusions différentes avec des choix défendables ?
+6. Robustesse du récit : CLAIM→DONNÉES→TRANSFORMATION→INDICATEUR→INTERPRÉTATION. ROBUSTE / SENSIBLE / FRAGILE / NON TESTABLE.
+7. Torture adversariale : maximiser/minimiser ; distinguer résultat supporté vs sélection opportuniste. Multi-présentabilité ≠ manipulation ; manipulation seulement si mécanisme documenté.
+8. Analyse de transformation : perdu/ajouté/supposé/pondéré/exclu/invisible à chaque étape. RÉALITÉ→DONNÉES→STATISTIQUE→RÉCIT.
+9. Réversibilité : indicateur→méthode→données→source→phénomène ; premier point de rupture = limite de traçabilité enregistrée.
+10. Forensique finale : que mesure ce chiffre / ne mesure pas ; d'où vient chaque donnée ; qui produit/contrôle/transforme/interprète ; hypothèses et conventions ; conclusions alternatives ; origine des différences ; démontré vs récit.

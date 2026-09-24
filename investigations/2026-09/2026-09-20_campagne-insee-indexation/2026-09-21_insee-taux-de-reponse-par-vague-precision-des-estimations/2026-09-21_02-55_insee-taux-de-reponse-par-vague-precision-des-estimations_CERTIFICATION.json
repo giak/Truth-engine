@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:c335cdde7394302dbd2c515f5dec8a58fa01e8ca69fc06110819764d2347035b",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_insee-taux-de-reponse-par-vague-precision-des-estimations/2026-09-21_02-55_insee-taux-de-reponse-par-vague-precision-des-estimations_INVESTIGATION.md",
+  "deliverable_sha256": "6fe1969660bd45c26fcffe1c9d48e06280249366d92c8040ba6dd2cb41647ee7",
+  "created_at": "2026-09-21T01:05:08.553043+00:00"
+}

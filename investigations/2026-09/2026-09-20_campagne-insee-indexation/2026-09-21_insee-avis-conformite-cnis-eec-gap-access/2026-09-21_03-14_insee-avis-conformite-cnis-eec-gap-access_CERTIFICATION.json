@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:16efda9d605e73a8ff1a116ebd42906b5ec138e0b117443d8bf725625a0a5ac1",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_insee-avis-conformite-cnis-eec-gap-access/2026-09-21_03-14_insee-avis-conformite-cnis-eec-gap-access_INVESTIGATION.md",
+  "deliverable_sha256": "756f61824ad219a01b69373be0b6422ddd287b80cde878cbccb8cd91d25ba15e",
+  "created_at": "2026-09-21T01:36:06.202409+00:00"
+}

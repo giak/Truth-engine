@@ -1,0 +1,336 @@
+             COMITÉ DU LABEL                                                                      Montrouge, le 30 juin 2026
+             DE LA STATISTIQUE PUBLIQUE                                                           N°2026_13068_DG75-L002
+
+
+                                                                              AVIS DE CONFORMITẾ
+
+
+
+                                                   Enquête sur l’emploi, le chômage et l’inactivité
+                                                                  (Enquête Emploi)
+                                                                                         __________
+
+             Service producteur : Institut national de la statistique et des études économiques, Direction des
+             Statistiques démographiques et sociales, Département de l’Emploi et des Revenus d’Activité, Division
+             Emploi
+             Opportunité : avis favorable émis le 20 mai 2025 par la Commission « Emploi, qualification et revenus
+             du travail »
+             Réunion du Comité du label du 21 mai 2026 (commission « Ménages »)
+
+
+
+
+                            Commission                                                                                Ménages
+
+                            Type d’avis                                                                               Avis de conformité
+
+                            Label d’intérêt général et de qualité statistique                                         Oui
+
+                            Caractère obligatoire                                                                     Oui
+
+                            Période de validité                                                                       2027-2030
+
+                            Publication JO                                                                            Oui
+
+                            Périodicité                                                                               Annuelle
+
+
+
+             Descriptif de l'opération
+
+             L’enquête Emploi est l'édition française de l’enquête européenne Labour Force Survey (LFS). Elle est
+             collectée à la demande d'Eurostat et répond à des exigences européennes. Les principaux objectifs
+             de l’enquête Emploi sont : mesurer l'emploi et le chômage, selon des principes harmonisés au niveau
+             international. L’enquête Emploi est ainsi un élément central de l’observation structurelle et
+             conjoncturelle du marché du travail. Elle est en particulier la seule source permettant de mesurer le
+             statut d'activité (emploi, chômage) conformément aux normes établies par le Bureau international du
+             travail (BIT). Au-delà, elle permet de décrire précisément les caractéristiques des emplois occupés
+             (profession, secteur d'activité, type de contrat, durée du travail, télétravail, multi-activité…), elle
+             mesure l'accès aux formations et fournit de nombreuses informations individuelles (origine sociale et
+
+
+RÉPUBLIQUE FRANÇAISE
+Institut National de la Statistique et des Études Économiques – 88 avenue Verdier – CS 70058 - 92541 MONTROUGE CEDEX - FRANCE - www.insee.fr
+Tél. : 01.87.69.50.00 - N° SIRET : 120 027 016 00563 - Code APE : 8411Z - Service Insee Contact : 09 72 72 4000 - (tarification "appel local")
+géographique, niveau de diplôme…). Ces thèmes sont largement déterminés par les contraintes
+européennes.
+Plus précisément, le questionnaire de l’enquête Emploi est structuré autour d’un questionnaire
+logement qui décrit le ménage et les personnes qui le composent, puis de questionnaires individuels
+qui abordent les thèmes suivants :
+
+      •   la détermination du statut d'activité au sens du BIT, ce qui nécessite de nombreuses
+          questions factuelles sur la situation de la personne pendant une semaine de référence
+          donnée (exercice d'un emploi, absence d’emploi, démarches de recherche d’emploi,
+          disponibilité pour occuper un emploi…) ;
+      •   la description détaillée de l'emploi principal (profession, type de contrat, durée du travail,
+          revenus du travail…), moins détaillée pour le second emploi des multi-actifs et pour le
+          dernier emploi des personnes sans emploi ;
+      •   le niveau d'études et la participation à des formations formelles et non formelles ;
+      •   la perception d'allocations;
+      •   les origines sociales et géographiques ;
+      •   l'état de santé ;
+      •   la trajectoire sur le marché du travail les 12 derniers mois à travers un calendrier
+          rétrospectif.
+
+Le champ de l’enquête correspond aux personnes occupant, au moment de l’enquête, un logement
+ordinaire (c'est-à-dire hors communautés). Toutes les personnes du logement sont décrites
+succinctement par l'enquête, mais seules les personnes de 15-89 ans sont concernées par le
+questionnaire individuel. Les logements relevant du champ de l'enquête sont enquêtés 6 trimestres
+consécutifs. La première interrogation d’un ménage se fait en face-à-face. En ré-interrogation, le
+ménage a le choix de répondre sur Internet ou par téléphone. La collecte démarre en janvier du
+millésime N de l’enquête et s’effectue dans les 3 semaines qui suivent la fin de la semaine de
+référence. Le champ géographique de l’enquête Emploi est, depuis 2024, la France, comme exigé par
+les règlements européens. La taille de l’échantillon est d’environ 80 000 logements par trimestre. Pour
+la métropole, la base de sondage de l’enquête est Résil (sources fiscales principalement). Pour les
+départements d’outre-mer historiques, la base de sondage est l’enquête annuelle de recensement
+tandis qu’à Mayotte, c’est l’enquête cartographique qui est utilisée.
+
+Depuis 2021, les modules complémentaires sont une composante à part entière de l’enquête Emploi,
+avec une périodicité longue, de 8 ans pour les modules récurrents. Pour 2027, le thème du module
+portera sur « Work organisation and working time arrangements », pour 2028 « Accidents at work and
+work-related health problems » et pour 2029 « Labour market situation of migrants and their
+immediate descendants ». Pour l’année 2030, il s’agit d’une année avec module non récurrent qui
+portera sur « employment in the transition towards climate neutrality ». Une task force a été lancée fin
+2025 pour commencer à travailler sur le contenu de ce module. Un test du questionnaire sera fait en
+France dans le cadre de l’enquête Cadre de vie 2027.
+
+La France participe activement aux différentes instances européennes: ESSC (European Statistical
+System Committee), DSS (Directors of Social Statistics) et LAMAS (Labour Market Statistics, groupe
+de travail européen dont relève l'enquête Emploi).
+
+Un comité des utilisateurs se réunit une fois par an chaque année depuis 2021. Il rassemble des
+utilisateurs de l’enquête aussi bien de la sphère de la statistique publique que de la recherche. Ce
+comité est l’occasion de présenter des nouveautés, tant sur le questionnaire que sur le format des
+données mises à disposition. Il permet également d’échanger sur les projets d’études en cours et sur
+d’éventuelles difficultés d’exploitation. Enfin, il permet de faire remonter les demandes de
+compléments pour faire évoluer l’enquête Emploi.
+
+
+
+
+                                                                                                           2/6
+L'enquête Emploi donne lieu à des valorisations variées aussi bien en termes de format (indicateurs,
+études), d’objectif (conjoncturel, structurel, évaluatif) que de producteur (Insee, SSM, autres
+institutions françaises (DG Trésor, France Stratégie…) ou internationales (Eurostat, Organisation de
+coopération et de développement économiques - OCDE)…).
+
+Concernant les seules publications récurrentes de l'Insee, l'enquête Emploi donne lieu à :
+  - un Informations Rapides trimestriel sur les principaux indicateurs du marché du travail
+    (notamment le taux de chômage, avec des séries rétropolées), publié environ 45 jours après la
+    fin du trimestre.
+  - un Insee Première donnant en « photographie » les principaux résultats en moyenne annuelle,
+    publié en mars N+1.
+  - un Insee Résultats rassemblant un nombre important de tableaux plus détaillés, en photographie
+    sur le précédent millésime et en séries longues, publié en juin N+1.
+
+Des données individuelles anonymisées, sous forme de fichiers détail, sont mises à disposition sur le
+site Internet de l'Insee ; des fichiers individuels comportant davantage de variables sont diffusés aux
+chercheurs sous forme d’un fichier de production et de recherche (FPR) ; des fichiers comportant des
+données identifiantes (libellés en clair de profession, adresse de l’employeur par exemple) sont
+accessibles aux chercheurs via le Centre d’Accès Sécurisé aux Données (CASD). Ces micro-données
+sont mises à disposition au plus tard à l’été N+1.
+
+                                                  ~~
+
+
+Le Comité du label de la statistique publique émet les recommandations ou observations
+suivantes :
+
+Remarques générales
+
+    •   Le Comité note que l’enquête Emploi s’appuie sur un historique long, et sur une méthodologie
+        éprouvée. Il relève également que le service l’adapte régulièrement aux évolutions des
+        pratiques statistiques et à celles des règlements européens, notamment à l’occasion de la
+        rénovation conduite en 2021, examinée par le Comité en 2020, et dont la mise en œuvre a été
+        menée avec succès depuis.
+
+    •   Le Comité salue la vigilance constante du service visant à limiter et à évaluer l’incidence des
+        évolutions de l’enquête sur les indicateurs de référence du marché du travail qui en sont
+        issus.
+
+        À cet égard, il prend note du projet de changement des outils de collecte et de gestion de la
+        collecte, pour utiliser ceux de la filière d’enquêtes de l’Insee. Prévu à la fin de la période de
+        validité du présent avis, ce changement est présenté comme étant de nature technique, sans
+        modification du contenu du questionnaire ni du protocole d’enquête. Le Comité note toutefois
+        qu’il entraînera notamment une évolution de l’ergonomie du questionnaire internet,
+        susceptible d’avoir une incidence sur les réponses aux questionnaires auto-administrés
+        utilisés lors des réinterrogations. Afin d’éclairer ce point, un test de grande envergure est
+        prévu, comprenant une première interrogation au quatrième trimestre 2026, suivie d’une
+        réinterrogation au premier trimestre 2027. Ce test, portant sur un échantillon de 1 500
+        logements répondants, sera conduit sur un échantillon distinct de celui utilisé en production
+        courante. Les réponses recueillies sur les deux échantillons feront l’objet de comparaisons,
+        notamment au moyen de méthodes d’appariement.
+
+        Le présent avis, ainsi que la proposition d’obligation de réponse qui lui est associée, couvrent
+        ce test de grande envergure, afin de garantir une comparabilité accrue des résultats avec
+
+
+
+                                                                                                            3/6
+       ceux de l’enquête en production.
+
+       Le Comité relève que les analyses comparatives entre les résultats du test et l’enquête
+       reposeront sur un ensemble d’indicateurs, incluant notamment les taux de réponse, le nombre
+       d’individus renseignés par logement ainsi que les écarts observés sur certaines questions
+       majeures de l’enquête. Dans l’hypothèse où ces analyses mettraient en évidence de possibles
+       incidences sur les données recueillies, une enquête pilote sera envisagée afin d’en mesurer
+       précisément les impacts.
+
+       La décision relative à la conduite de cette éventuelle enquête pilote sera arrêtée avant la fin
+       de l’année 2027. Celle-ci n’entre pas dans le champ couvert par le présent avis.
+
+   •   Le Comité note que l’enquête comporte des modules tournants annuels prévus par le
+       règlement européen encadrant cette opération statistique. Sur la période de quatre ans
+       couverte par le présent avis (2027-2030), un seul module présentera un caractère inédit, celui
+       consacré au changement climatique prévu en 2030.
+
+   •   Le questionnaire du module 2030 consacré au changement climatique est actuellement en
+       cours d’élaboration au niveau européen et fera l’objet d’un test en 2027, dans le cadre d’une
+       enquête méthodologique. Le service prévoit de tester la version élaborée par Eurostat, afin de
+       faire remonter à ce dernier les éventuelles difficultés rencontrées lors de sa mise en œuvre.
+
+       Le Comité salue la stratégie du service visant à contribuer à l’évolution du dispositif européen.
+       Il note également que le module 2030 donnera lieu à une concertation nationale dédiée et
+       invite le service à porter une attention particulière au calendrier de cette concertation, afin de
+       permettre, le cas échéant, l’intégration, dès la phase de test, de formulations alternatives ou
+       de questions complémentaires relevant d’initiatives nationales.
+
+       Le Comité retient par ailleurs que des tests cognitifs pourront être envisagés ultérieurement
+       en complément, notamment dans l’hypothèse où le questionnaire évoluerait à l’issue de ce
+       premier test. Le Comité note qu’il sera destinataire, préalablement à la collecte du module
+       2030, des résultats du test et des enseignements qui en auront été tirés, ainsi que du
+       questionnaire finalement retenu, pour information et examen éventuel.
+
+   •   S’agissant des autres modules, de nature récurrente, le Comité relève que les règlements
+       européens correspondants ne feront pas l’objet de modifications et que, par conséquent, les
+       données à transmettre à Eurostat demeureront identiques à celles des éditions antérieures. Il
+       observe toutefois que les notes explicatives et les consignes accompagnant les questions
+       pourront évoluer, de même que les éventuelles questions relevant d’initiatives nationales. Le
+       Comité prend également note du fait que les thématiques des modules sont annoncées en
+       amont, notamment dans le cadre des travaux du Cnis, et invite le service à mettre en œuvre
+       une concertation adaptée au contexte, préalablement à leur déploiement.
+
+   •   Le Comité note que le service continuera à lui transmettre, chaque année le questionnaire de
+       l’enquête, incluant le module de l’année, accompagné le cas échéant d’une note indiquant les
+       évolutions apportées à l’enquête et des courriers aux enquêtés, s’ils sont modifiés.
+
+
+
+Méthodologie
+
+   •   Le Comité salue l’intégration de Mayotte dans le champ de l’enquête Emploi à compter de
+       2024, en substitution à l’enquête annuelle spécifique qui y était précédemment conduite.
+
+
+
+
+                                                                                                            4/6
+   •   Le Comité note que le champ de collecte de l’enquête Emploi a été élargi, depuis 2024 et à
+       titre expérimental, aux personnes âgées de 15 à 64 ans échantillonnées dans un logement
+       ordinaire mais résidant principalement en communauté, lesquelles sont exclues du champ des
+       ménages ordinaires au regard des règles européennes en vigueur.
+       Cette expérimentation vise notamment à améliorer la connaissance des revenus de ces
+       populations dans le cadre de l’enquête sur les Revenus fiscaux et sociaux (ERFS), dont
+       l’échantillon repose sur celui de l’enquête Emploi. Le Comité relève que les réponses
+       recueillies dans ce cadre expérimental ne sont pas intégrées aux résultats diffusés de
+       l’enquête Emploi, ce qui supposerait notamment la mise en œuvre de calculs de pondération
+       spécifiques.
+
+       Le Comité prend note du fait qu’un premier bilan de cette expérimentation sera réalisé avant
+       la fin de l’année 2027, en lien avec l’ERFS, et qu’une décision sera prise à cette échéance
+       quant aux suites à lui donner. Il encourage la poursuite des travaux engagés sur ce sujet, dont
+       il souhaite disposer d’un bilan au plus tard dans le cadre du prochain dossier.
+
+   •   Le Comité note qu’il sera destinataire d’une note relative au prochain tirage de l’échantillon
+       pour la France métropolitaine, prévu en 2027, selon une méthodologie comparable à celle
+       actuellement en vigueur. Il sera également informé de toute évolution éventuelle de la base de
+       sondage dans les départements et régions d’outre-mer.
+
+   •   Le Comité souhaite que le prochain dossier précise l’impact pour l’enquête Emploi de
+       l’évolution de la qualité des informations de la base de sondage permettant le repérage des
+       logements et la prise de contact (caractérisation des résidences principales ou non,
+       coordonnées des habitants).
+
+   •   Le Comité salue les travaux relatifs aux effets de mode conduits à la suite de la précédente
+       refonte de l’enquête. Il note que la part des réponses recueillies par internet en situation de
+       réinterrogation a progressé depuis. Il salue le projet du service de mener des analyses
+       complémentaires visant à évaluer l’impact des effets de mode dans ce contexte, lesquelles
+       pourraient notamment s’appuyer sur des méthodes d’appariement.
+
+   •   Le Comité encourage la poursuite des travaux visant à mobiliser des sources administratives
+       pour la récupération des données de salaires, à la suite des conclusions positives des travaux
+       méthodologiques conduits, lesquels ont mis en évidence l’opportunité de cette approche. Il
+       invite le service à partager les conclusions de ces travaux avec le Comité des utilisateurs.
+
+
+
+Protocole et questionnaire
+
+   •   Le Comité salue l’investissement du service en faveur du maintien et de l’amélioration des
+       taux de réponse.
+
+   •   Le Comité souhaite que le service précise, dans le prochain dossier, sa stratégie générale en
+       matière de tests. Il invite le service à examiner les modalités permettant de garantir la
+       réalisation de tests en amont des évolutions de l’enquête, ainsi qu’à l’occasion des passages
+       devant le Comité du label.
+
+       Le Comité suggère par ailleurs de tirer parti du test prévu en 2027 dans le cadre de l’enquête
+       méthodologique, afin de tester des formulations alternatives portant sur certaines questions
+       du cœur de l'enquête. Cette approche permettrait de disposer d’éléments objectivés en vue
+       de décisions ultérieures, par exemple sur la possibilité d’accepter des réponses multiples pour
+       les situations de non-activité, en identifiant également la principale.
+
+
+
+
+                                                                                                         5/6
+   •   Le Comité note que les questions relatives au télétravail dans l’enquête Emploi donnent
+       désormais lieu à la production et à la publication d’un indicateur annuel. Il salue également la
+       mise en œuvre de travaux de comparaison avec la question récemment introduite dans le
+       recensement portant sur ce même sujet. Il souhaite qu’un point soit présenté dans le prochain
+       dossier sur les questions relatives au télétravail et aux emplois télétravaillables, en lien avec
+       les travaux conduits avec la division Recueil et traitement de l’information de l’Insee, précisant
+       les formulations types recommandées (selon les sources mobilisées).
+
+
+
+Diffusion
+
+   •   Le Comité salue la mise en place, depuis 2021, d’un Comité des utilisateurs annuel,
+       conformément aux orientations formulées lors du précédent examen, ainsi que la richesse de
+       ses ordres du jour. Il souligne que ce Comité fait l’objet d’un appel à participation large, au
+       sein du Service statistique public et au-delà, notamment auprès des chercheurs ayant sollicité
+       un accès à l’enquête Emploi via Quetelet-Progedo ou le Centre d’accès sécurisé aux données
+       (CASD). Le Comité invite le service à intégrer, dans le prochain dossier, des éléments
+       synthétiques d’information relatifs à ce Comité (composition, ordre du jour).
+
+   •   Le Comité souhaite également que le prochain dossier comporte une présentation concise de
+       l’articulation des contenus entre les fichiers mis à disposition via Quetelet-Progedo, le CASD
+       et sur internet.
+
+
+
+
+ Le Comité du label de la statistique publique émet un avis de conformité à l’enquête sur
+ l’emploi, le chômage et l’inactivité, et par délégation du Président du Cnis, lui attribue le
+ label d’intérêt général et de qualité statistique, avec proposition d’octroi du caractère
+ obligatoire.
+
+ Cet avis est valide pour les années 2027-2030.
+
+
+
+
+                                                   La Présidente du Comité du label de la
+                                                            statistique publique
+
+
+
+
+                                                           Signé : Pascale BREUIL
+
+
+
+
+                                                                                                            6/6
+

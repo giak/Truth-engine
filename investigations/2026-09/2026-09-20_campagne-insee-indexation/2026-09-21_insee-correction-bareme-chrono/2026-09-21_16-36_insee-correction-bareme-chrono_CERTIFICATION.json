@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:87d2341a0590acb4d945612d54b8d9918ba6ccad415f53db44b4e5851f2f2f77",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_insee-correction-bareme-chrono/2026-09-21_16-36_insee-correction-bareme-chrono_INVESTIGATION.md",
+  "deliverable_sha256": "0e12744bd0e82d3c7de483893ee09b640dac261d2a79c61820174d92869c7fb3",
+  "created_at": "2026-09-21T16:30:58.138759+00:00"
+}

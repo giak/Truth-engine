@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:fb081bcb76132b726af578b679a5b4ad77e75a7697a06acfff55cb4c9367bbe4",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_insee-chiffrage-indexation-effet-ipc-dotations/2026-09-21_04-28_insee-chiffrage-indexation-effet-ipc-dotations_INVESTIGATION.md",
+  "deliverable_sha256": "9675db60f067358ceec2492504b3d941bf1a43572c242a2bcf5af18d114a600f",
+  "created_at": "2026-09-21T03:21:09.002385+00:00"
+}

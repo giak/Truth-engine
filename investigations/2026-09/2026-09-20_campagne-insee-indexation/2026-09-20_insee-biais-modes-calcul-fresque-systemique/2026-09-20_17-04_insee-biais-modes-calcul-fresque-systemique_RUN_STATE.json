@@ -1,0 +1,2509 @@
+{
+ "actions": [
+  {
+   "documented_action": "loi 1951 art.1 (indépendance professionnelle); loi 2008 création ASP",
+   "id": "ACT-001",
+   "intent": "PROVEN",
+   "name": "Législateur français",
+   "responsibility_scope": "cadre légal uniquement",
+   "role": "cadre légal de la statistique publique",
+   "source": "SRC-025"
+  },
+  {
+   "documented_action": "proposition de nomination du DG (Lenglart 2025); pilotage du programme 220 (AE -2,7% 2025)",
+   "id": "ACT-002",
+   "intent": "UNKNOWN",
+   "name": "Gouvernement / ministère de l'Économie",
+   "responsibility_scope": "décisions institutionnelles documentées; aucune conclusion d'intention sur les méthodes",
+   "role": "tutelle, nomination, budget",
+   "source": "SRC-019; SRC-017"
+  },
+  {
+   "documented_action": "définition du champ de l'IPC (hors loyers imputés, santé remboursée incluse), méthodes, calendriers, révisions",
+   "id": "ACT-003",
+   "intent": "UNKNOWN",
+   "name": "Direction de l'Insee",
+   "responsibility_scope": "choix méthodologiques documentés; aucune faute établie au niveau individuel",
+   "role": "producteur des statistiques publiques",
+   "source": "SRC-020; SRC-021; SRC-022"
+  }
+ ],
+ "axes": [
+  {
+   "attempt_ids": [
+    "QRY-001",
+    "QRY-003"
+   ],
+   "gap_type": null,
+   "id": "AXS-001",
+   "links": [
+    "LED-002",
+    "LED-003",
+    "LED-004",
+    "CLM-001"
+   ],
+   "question": "Comment l'IPC est-il calculé et quels biais méthodologiques documentés peut-il comporter (échantillonnage, HomeScan, loyers, imputations, bases) ?",
+   "result_ids": [],
+   "sought_objects": [
+    "méthodologie IPC INSEE (insee.fr, note méthodo)",
+    "critiques académiques/presse",
+    "bases IPC et changements"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [
+    "QRY-002",
+    "QRY-003"
+   ],
+   "gap_type": null,
+   "id": "AXS-002",
+   "links": [
+    "LED-003",
+    "CLM-008"
+   ],
+   "question": "L'écart inflation mesurée/ressentie: quelles causes documentées, quels baromètres, quelles réponses INSEE ?",
+   "result_ids": [],
+   "sought_objects": [
+    "baromètre Crédoc",
+    "débat presse 2022-2023",
+    "réponses INSEE/Eurostat"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [
+    "QRY-005",
+    "QRY-011",
+    "QRY-015"
+   ],
+   "gap_type": null,
+   "id": "AXS-003",
+   "links": [
+    "LED-005",
+    "LED-009",
+    "CLM-002"
+   ],
+   "question": "Gouvernance: comment sont nommés DG/DS/directions? Quel rattachement? Quels profils biographiques (X-ENSAE, Inspection des finances)?",
+   "result_ids": [],
+   "sought_objects": [
+    "décrets nominations JO",
+    "biographies direction",
+    "organigramme"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [
+    "QRY-011"
+   ],
+   "gap_type": null,
+   "id": "AXS-004",
+   "links": [
+    "LED-006",
+    "LED-009",
+    "CLM-004"
+   ],
+   "question": "Endogamie et pantouflage: quelle circulation documentée entre INSEE, ministères, cabinets, secteur privé? Quels exemples nominatifs sourcés?",
+   "result_ids": [],
+   "sought_objects": [
+    "CV de cadres",
+    "mouvements documentés",
+    "études sociologiques"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [
+    "QRY-006",
+    "QRY-008"
+   ],
+   "gap_type": null,
+   "id": "AXS-005",
+   "links": [
+    "LED-005",
+    "CLM-002",
+    "CLM-003"
+   ],
+   "question": "Indépendance juridique: que garantit la loi (1951/2004/2008, ASP/CNIS, Eurostat)? Quelles limites documentées?",
+   "result_ids": [],
+   "sought_objects": [
+    "textes légaux (legifrance)",
+    "ASP avis",
+    "peer review Eurostat"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [
+    "QRY-012",
+    "QRY-029"
+   ],
+   "gap_type": null,
+   "id": "AXS-006",
+   "links": [
+    "LED-008",
+    "CLM-006"
+   ],
+   "question": "Révisions et fiabilité: quels épisodes documentés de révisions majeures (croissance, emploi, déficit), quel impact politique?",
+   "result_ids": [],
+   "sought_objects": [
+    "révisions comptes nationaux",
+    "cas déficit/emploi",
+    "presse"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [
+    "QRY-016"
+   ],
+   "gap_type": null,
+   "id": "AXS-007",
+   "links": [
+    "LED-013",
+    "CLM-002"
+   ],
+   "question": "Moyens: effectifs, budget, évolution — est-ce cohérent avec la mission? Quelles pressions budgétaires documentées?",
+   "result_ids": [],
+   "sought_objects": [
+    "PLF/RAP INSEE",
+    "rapports budget",
+    "effectifs"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [
+    "QRY-017",
+    "QRY-040",
+    "QRY-047"
+   ],
+   "gap_type": null,
+   "id": "AXS-008",
+   "links": [
+    "LED-007",
+    "LED-013",
+    "CLM-005"
+   ],
+   "question": "Indexations: quels montants indexés sur l'IPC/IRL/SMIC? Effets d'un point d'IPC sur les dépenses publiques?",
+   "result_ids": [
+    "FCT-004",
+    "FCT-006",
+    "CAU-002"
+   ],
+   "sought_objects": [
+    "SMIC (DGT/INSEE)",
+    "IRL (INSEE)",
+    "OATi (AFT)",
+    "revalorisations"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [
+    "QRY-007",
+    "QRY-010"
+   ],
+   "gap_type": null,
+   "id": "AXS-009",
+   "links": [
+    "LED-015",
+    "CLM-002"
+   ],
+   "question": "Pressions politiques: quels cas documentés (France, UE) d'interférence avec la statistique publique? Que disent les audits?",
+   "result_ids": [],
+   "sought_objects": [
+    "cas documentés",
+    "avis ASP",
+    "Eurostat governance",
+    "presse investigation"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [
+    "QRY-021",
+    "QRY-023"
+   ],
+   "gap_type": null,
+   "id": "AXS-010",
+   "links": [
+    "LED-010",
+    "CLM-007"
+   ],
+   "question": "Pauvreté/inégalités: comment l'INSEE mesure, quelles critiques (Maurin, Piketty/World Inequality Lab), quels effets de seuil?",
+   "result_ids": [
+    "FCT-009"
+   ],
+   "sought_objects": [
+    "définitions seuil pauvreté",
+    "critiques méthodologiques",
+    "comparaisons"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [
+    "QRY-009",
+    "QRY-018"
+   ],
+   "gap_type": null,
+   "id": "AXS-011",
+   "links": [
+    "LED-012",
+    "CLM-001"
+   ],
+   "question": "Comparaison internationale: comment ONS/Destatis/gouvernances autres traitent-ils les mêmes problèmes (logement, perception, révisions)?",
+   "result_ids": [],
+   "sought_objects": [
+    "ONS housing inclusion",
+    "Destatis",
+    "Eurostat HICP"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "attempt_ids": [],
+   "gap_type": null,
+   "id": "AXS-012",
+   "links": [
+    "LED-011",
+    "LED-014"
+   ],
+   "question": "Fresque anthropologique/politique: comment le pouvoir statistique s'exerce-t-il (Desrosières, gouvernementalité), quelles implications éthiques?",
+   "result_ids": [],
+   "sought_objects": [
+    "Desrosières",
+    "Foucault",
+    "études STS"
+   ],
+   "status": "SATURATED"
+  }
+ ],
+ "causal": [
+  {
+   "edge_type": "CAUSE",
+   "gap_type": null,
+   "id": "CAU-001",
+   "mechanism": "Champ de l'IPC (consommation, exclusion loyers imputés, inclusion santé remboursée) et pondérations macroéconomiques",
+   "sources": [
+    "SRC-020",
+    "SRC-021",
+    "SRC-018",
+    "SRC-014"
+   ],
+   "status": "SUPPORTED",
+   "target": "Mesure d'inflation systématiquement inférieure au coût de la vie ressenti de certains ménages (écart OPI/IPC ~6 points)"
+  },
+  {
+   "edge_type": "CAUSE",
+   "gap": "Ampleur budgetaire chiffragee exacte (MdE par 0,1 pt d IPC) non etablie: simulations budgetaires non accessibles au run",
+   "gap_type": "ACCESS",
+   "id": "CAU-002",
+   "mechanism": "Usage de l'IPC comme indexeur légal (SMIC, IRL, ILAT, pensions, contrats, OATi)",
+   "sources": [
+    "SRC-017",
+    "SRC-024",
+    "SRC-028",
+    "SRC-012"
+   ],
+   "status": "SUPPORTED",
+   "target": "Chaque dixième de point d'IPC se traduit en milliards d'euros de dépenses publiques et de flux privés; l'IRL exclut même les loyers de son calcul"
+  },
+  {
+   "edge_type": "ENABLER",
+   "gap_type": null,
+   "id": "CAU-003",
+   "mechanism": "Tutelle ministérielle, nomination du DG en Conseil des ministres sur proposition de Bercy, budget via programme 220",
+   "sources": [
+    "SRC-019",
+    "SRC-025",
+    "SRC-003",
+    "SRC-017",
+    "SRC-027"
+   ],
+   "status": "SUPPORTED",
+   "target": "Dépendance institutionnelle formelle de l'Insee envers l'exécutif, tempérée par la loi 1951 et l'ASP"
+  },
+  {
+   "edge_type": "CONTEXT",
+   "gap": "Le lien association (homophilie X-ENSAE) vers effet methodologique n est pas etabli au niveau individuel",
+   "gap_type": "CAUSALITY",
+   "id": "CAU-004",
+   "mechanism": "Canal de recrutement X-ENSAE et circulation Insee-Trésor-DREES (Champsaur, Cotis, Tavernier, Lenglart)",
+   "sources": [
+    "SRC-007",
+    "SRC-008",
+    "SRC-006",
+    "SRC-026",
+    "SRC-023"
+   ],
+   "status": "SUPPORTED",
+   "target": "Homophilie technocratique documentée; influence réelle sur les choix méthodologiques NON démontrée au niveau individuel"
+  },
+  {
+   "edge_type": "CAUSE",
+   "gap_type": null,
+   "id": "CAU-005",
+   "mechanism": "Révisions des comptes nationaux (contexte inflationniste, sources partielles, changements de base)",
+   "sources": [
+    "SRC-022",
+    "SRC-015",
+    "SRC-016"
+   ],
+   "status": "SUPPORTED",
+   "target": "Premières estimations de croissance 2023 sous-évaluées d'environ 1 point; débat public nourri de chiffres provisoires"
+  },
+  {
+   "edge_type": "CONTEXT",
+   "gap_type": null,
+   "id": "CAU-006",
+   "mechanism": "Critères européens (Maastricht, SEC, IPCH) contraignant la production statistique nationale",
+   "sources": [
+    "SRC-004"
+   ],
+   "status": "SUPPORTED",
+   "target": "Priorisation des indicateurs déficit/inflation au détriment d'autres dimensions (Courrier des statistiques N11)"
+  }
+ ],
+ "checkpoints": [
+  {
+   "created_at": "2026-09-20T15:13:39.054376+00:00",
+   "id": "CP-001",
+   "label": "LEADS",
+   "last_completed": "5",
+   "next_action": "6",
+   "seq": 1,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-20T15:13:57.773572+00:00",
+   "id": "CP-002",
+   "label": "SCOPE",
+   "last_completed": "7",
+   "next_action": "8",
+   "seq": 2,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-20T15:43:32.951465+00:00",
+   "id": "CP-003",
+   "label": "SEARCH",
+   "last_completed": "9",
+   "next_action": "10",
+   "seq": 3,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-20T15:43:33.021381+00:00",
+   "id": "CP-004",
+   "label": "FACTS",
+   "last_completed": "10",
+   "next_action": "11",
+   "seq": 4,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-20T15:43:33.081251+00:00",
+   "id": "CP-005",
+   "label": "CAUSAL:CAU-006",
+   "last_completed": "11:CAU-006",
+   "next_action": "12",
+   "seq": 5,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-20T15:49:46.325420+00:00",
+   "id": "CP-006",
+   "label": "VERIFY",
+   "last_completed": "13",
+   "next_action": "14",
+   "seq": 6,
+   "status": "PASS"
+  },
+  {
+   "created_at": "2026-09-20T15:51:20.279720+00:00",
+   "id": "CP-007",
+   "label": "INVESTIGATION_ACCOUNTABILITY",
+   "last_completed": "17",
+   "next_action": "18",
+   "seq": 7,
+   "status": "PASS"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "La méthodologie de l'IPC peut sous-estimer l'inflation ressentie (échantillonage, logements, panel, coût du logement hors taxes)",
+   "counter": [
+    "SRC-013",
+    "SRC-025-est-non"
+   ],
+   "gap_type": null,
+   "id": "CLM-001",
+   "status": "SUPPORTED",
+   "support": [
+    "SRC-020",
+    "SRC-021",
+    "SRC-012"
+   ]
+  },
+  {
+   "claim": "L'INSEE est structurellement dépendante du pouvoir politique: tutelle ministérielle, nominations DG par décret, budget",
+   "counter": [
+    "SRC-025",
+    "SRC-027"
+   ],
+   "gap_type": null,
+   "id": "CLM-002",
+   "status": "SUPPORTED",
+   "support": [
+    "SRC-019",
+    "SRC-003",
+    "SRC-021"
+   ]
+  },
+  {
+   "claim": "La statistique publique française est hautement standardisée et auditée (Eurostat, ASP, code de bonne conduite ESS)",
+   "counter": [],
+   "gap_type": null,
+   "id": "CLM-003",
+   "status": "SUPPORTED",
+   "support": [
+    "SRC-003",
+    "SRC-025",
+    "SRC-027"
+   ]
+  },
+  {
+   "claim": "Le recrutement X-ENSAE-ParisTech et la circulation INSEE-ministères créent une homophilie technocratique influençant les priorités",
+   "counter": [],
+   "gap_type": null,
+   "id": "CLM-004",
+   "status": "SUPPORTED",
+   "support": [
+    "SRC-006",
+    "SRC-008",
+    "SRC-023"
+   ]
+  },
+  {
+   "claim": "L'IPC indexe massivement des montants publics et privés (SMIC, retraites complémentaires, IRL, obligations OATi, contrats)",
+   "counter": [],
+   "gap_type": null,
+   "id": "CLM-005",
+   "status": "SUPPORTED",
+   "support": [
+    "SRC-017",
+    "SRC-024"
+   ]
+  },
+  {
+   "claim": "Les choix de communication et de calendrier de l'INSEE façonnent la perception publique (framing, révisions, attentions médiatiques sélectives)",
+   "counter": [
+    "SRC-022"
+   ],
+   "gap_type": null,
+   "id": "CLM-006",
+   "status": "SUPPORTED",
+   "support": [
+    "SRC-015",
+    "SRC-016"
+   ]
+  },
+  {
+   "claim": "Le seuil de pauvreté relatif (60% de la médiane) transforme la mesure de la pauvreté en mesure d'inégalité",
+   "counter": [
+    "SRC-005"
+   ],
+   "gap_type": null,
+   "id": "CLM-007",
+   "status": "SUPPORTED",
+   "support": [
+    "SRC-010"
+   ]
+  },
+  {
+   "claim": "L'écart inflation ressentie/mesurée est structurel et documenté (baromètres de perception, paniers hétérogènes, prix du logement)",
+   "counter": [],
+   "gap_type": null,
+   "id": "CLM-008",
+   "status": "SUPPORTED",
+   "support": [
+    "SRC-018"
+   ]
+  }
+ ],
+ "controls": [
+  {
+   "controller": "Autorité de la statistique publique",
+   "documented_action": "audition annuelle du DG Insee; avis publics; rapport au Parlement",
+   "fct_src": [
+    "SRC-025",
+    "SRC-027"
+   ],
+   "gap": "CONTENU intégral des rapports ASP non inspecté (GAP_TYPE=ACCESS)",
+   "id": "CTRL-001",
+   "information": "rapports annuels, auditions",
+   "oversight_outcome": "rapport annuel publié (existence documentée; contenu intégral non inspecté)",
+   "rule": "art.1 loi 1951 (v.2010) + décret 2009-250 modifié"
+  },
+  {
+   "controller": "Eurostat / ESS",
+   "documented_action": "encadrement normatif; diffusion du principe 1 (indépendance)",
+   "fct_src": [
+    "SRC-003"
+   ],
+   "gap": "Rapport peer review France complet non inspecté (GAP_TYPE=ACCESS)",
+   "id": "CTRL-002",
+   "information": "peer reviews, conformité déclarée",
+   "oversight_outcome": "conformité française déclarée (SRC-003)",
+   "rule": "règlement (CE) 223/2009, code de bonnes pratiques ESS"
+  },
+  {
+   "controller": "CNIL",
+   "documented_action": "autorisations et contrôles des traitements",
+   "fct_src": [
+    "SRC-007"
+   ],
+   "gap": "détails des contrôles récents (GAP_TYPE=ACCESS)",
+   "id": "CTRL-003",
+   "information": "répertoires (RNIPP, Résil, Sirene)",
+   "oversight_outcome": "documenté dans la chronologie officielle",
+   "rule": "loi informatique et libertés"
+  },
+  {
+   "controller": "Contre-pouvoirs externes (consommateurs, économistes, presse)",
+   "documented_action": "production d'indices et analyses alternatifs; débats publics",
+   "fct_src": [
+    "SRC-011",
+    "SRC-021",
+    "SRC-015",
+    "SRC-016"
+   ],
+   "gap": "portée réelle des correctifs sur la décision publique (GAP_TYPE=CAUSALITY)",
+   "id": "CTRL-004",
+   "information": "relevés alternatifs (UFC), analyses (Geerolf, Rexecode/OFCE)",
+   "oversight_outcome": "correction publique partielle (framing coût de la vie)",
+   "rule": "débat public, publications"
+  }
+ ],
+ "counters": {
+  "ACT": 3,
+  "AXS": 12,
+  "CAU": 6,
+  "CLM": 8,
+  "CP": 7,
+  "CTRL": 4,
+  "FCT": 9,
+  "LED": 15,
+  "QRY": 47,
+  "SRC": 28,
+  "SYS": 5
+ },
+ "delta_plan": [],
+ "engine": "2.10.6",
+ "facts": [
+  {
+   "date": "2012-07-12",
+   "epi": "FACT",
+   "families": [
+    "A",
+    "C",
+    "E"
+   ],
+   "id": "FCT-001",
+   "mem": "a995399b-01e8-4dc8-bb2f-d0a7ef05cf94",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-018",
+    "SRC-011",
+    "SRC-014"
+   ],
+   "subject": "Inflation perçue par les ménages écart IPC Insee",
+   "tier": "✦",
+   "url": "https://www.insee.fr/fr/statistiques/1521318",
+   "value": "Depuis 2004, l'inflation perçue (OPI, enquête CAMME, ~2000 ménages) fluctue en moyenne environ 6 points au-dessus de l'IPC; l'Insee et la Banque de France attribuent l'écart principalement à la surpondération des prix en hausse et à forte fréquence d'achat, et reconnaissent que l'OPI possède des bases objectives."
+  },
+  {
+   "date": "2025-06-05",
+   "epi": "FACT",
+   "families": [
+    "A"
+   ],
+   "id": "FCT-002",
+   "mem": "8b6fd4b4-def1-41e9-bbac-dde456f7ee35",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-019",
+    "SRC-023",
+    "SRC-018"
+   ],
+   "subject": "Directeur général Insee nomination Conseil des ministres",
+   "tier": "✧",
+   "url": "https://www.economie.gouv.fr/actualites/nomination-de-fabrice-lenglart-au-poste-de-directeur-general-de-linsee",
+   "value": "Le directeur général de l'Insee est nommé en Conseil des ministres (art.13 Constitution); Fabrice Lenglart, nommé le 5 juin 2025 sur proposition de Bercy, succède à Jean-Luc Tavernier (2012-2025); profil X-ENSAE, ex-DREES, France Stratégie, Trésor, Insee."
+  },
+  {
+   "date": "2026-06-07",
+   "epi": "FACT",
+   "families": [
+    "A",
+    "D",
+    "E"
+   ],
+   "id": "FCT-003",
+   "mem": "82daeeca-eb22-4adf-859e-0a349c7fb025",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-022",
+    "SRC-015",
+    "SRC-016"
+   ],
+   "subject": "Révision croissance PIB France 2023",
+   "tier": "✦",
+   "url": "https://www.insee.fr/fr/statistiques/8193933",
+   "value": "La croissance française de 2023, initialement estimée à 0,9% (janvier 2024; comptes annuels mai 2024), a été révisée à 1,4% (mai 2025, base 2020) puis à 1,9% corrigé des jours ouvrés (compte définitif, juin 2026): révision cumulée d'environ 1 point, la plus forte depuis 2003."
+  },
+  {
+   "date": "2026-07-12",
+   "epi": "FACT",
+   "families": [
+    "A"
+   ],
+   "id": "FCT-004",
+   "mem": "0c83fb4e-3cc8-485c-9e4b-719f44ad830c",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-024",
+    "SRC-017"
+   ],
+   "subject": "IRL indice de référence des loyers IPC hors tabac hors loyers",
+   "tier": "✧",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13723",
+   "value": "L'IRL (indexation légale des loyers d'habitation) est calculé à partir de la moyenne de l'évolution des prix à la consommation hors tabac et hors loyers sur les 12 derniers mois; édition T2 2026: +1,15% sur un an."
+  },
+  {
+   "date": "2019-04-18",
+   "epi": "FACT",
+   "families": [
+    "A",
+    "E"
+   ],
+   "id": "FCT-005",
+   "mem": "bb187cdb-bd17-4b57-9f6e-ea949dcc0a11",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-020",
+    "SRC-021"
+   ],
+   "subject": "Exclusion loyers imputés IPC France HICP",
+   "tier": "✦",
+   "url": "https://www.insee.fr/fr/statistiques/4126450",
+   "value": "L'IPC français exclut le coût du logement des propriétaires (loyers imputés), comme l'HICP européen — méthode qu'Eurostat qualifie elle-même de trop étroite; l'Allemagne (poids loyers 20,7% dont imputés), les USA (23,5% imputés plus 7,6% réels) et le Royaume-Uni (CPIH) incluent le logement des propriétaires; l'IPC français y inclut en revanche les dépenses de santé remboursées (indice hybride, écart cumulé d'environ 5% avec l'IPCH depuis 1996 selon Geerolf)."
+  },
+  {
+   "date": "2026-06-01",
+   "epi": "FACT",
+   "families": [
+    "A"
+   ],
+   "id": "FCT-006",
+   "mem": "ba618622-71eb-4d6e-a818-43bc9bf264f0",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-017"
+   ],
+   "subject": "SMIC revalorisation indexation IPC ménages les plus modestes",
+   "tier": "✧",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300",
+   "value": "Le SMIC est revalorisé chaque 1er janvier, indexé sur l'inflation mesurée pour les 20% des ménages aux revenus les plus faibles; en cours d'année, hausse automatique si l'IPC glisse d'au moins 2%; l'adéquation ex post (protection effective des modestes) est contestée selon les sous-périodes (2021-2023 vs 2025)."
+  },
+  {
+   "date": "2010-06-30",
+   "epi": "FACT",
+   "families": [
+    "A",
+    "other:asm"
+   ],
+   "id": "FCT-007",
+   "mem": "324d3e38-37f0-405f-9e09-b758eb96ae3f",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-025",
+    "SRC-027"
+   ],
+   "subject": "Autorité de la statistique publique indépendance professionnelle loi",
+   "tier": "✧",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000022405540",
+   "value": "La loi du 7 juin 1951 (art.1, version 2010) dispose que la conception, la production et la diffusion des statistiques publiques sont effectuées en toute indépendance professionnelle, et crée l'Autorité de la statistique publique (neuf membres) chargée d'en veiller au respect."
+  },
+  {
+   "date": "2025-06-30",
+   "epi": "FACT",
+   "families": [
+    "A"
+   ],
+   "id": "FCT-008",
+   "mem": "fdee4b44-2d92-4453-84a9-3f7e83212151",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-008",
+    "SRC-006",
+    "SRC-019"
+   ],
+   "subject": "Circulation des cadres Insee Trésor DREES Fabrice Lenglart",
+   "tier": "✧",
+   "url": "https://www.insee.fr/fr/information/8603402",
+   "value": "La biographie officielle du DG Lenglart (X1989, ENSAE 1994) documente la circulation Insee-Trésor-Prévision-France Stratégie-DREES-Insee sur trois décennies, illustrant le canal de recrutement de la direction de l'Insee au sein de la haute fonction publique économique."
+  },
+  {
+   "date": "2026-07-09",
+   "epi": "FACT",
+   "families": [
+    "A"
+   ],
+   "id": "FCT-009",
+   "mem": "16e14263-b2a3-45bf-99f2-4248944c98cf",
+   "origin_memory_id": "-",
+   "origin_run_id": "-",
+   "origin_verified_at": "-",
+   "sources": [
+    "SRC-010"
+   ],
+   "subject": "Personnes pauvres seuil 60 pourcent France ERFS 2024",
+   "tier": "✧",
+   "url": "https://www.insee.fr/fr/statistiques/2408345",
+   "value": "En 2024, au seuil de 60% du niveau de vie médian, le nombre de personnes pauvres est de 9 817 000 (série ERFS, champ France métropolitaine, personne de référence non étudiante; ruptures de série 2010, 2012, 2020); la presse rapporte un taux de pauvreté stabilisé à 15,4%, niveau le plus élevé jamais mesuré sur la série récente."
+  }
+ ],
+ "hydrated": null,
+ "leads": [
+  {
+   "excerpt": "L'INSEE ne reflete pas la réalité. fait une fresque de l'INSEE, qui bosse dedans, les biographies, les relations, la politique.",
+   "id": "LED-001",
+   "kind": "CLAIM",
+   "lead": "Assertion utilisateur: L'INSEE ne reflète pas la réalité (a débunker sous toutes les coutures)",
+   "materiality": "DECISIVE",
+   "routes": [
+    "AUDIT",
+    "LINK"
+   ],
+   "source_ref": "INPUT:2026-09-20_17-04_INPUT.txt",
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-002",
+   "kind": "MECHANISM",
+   "lead": "Biais méthodologiques allégués de l'IPC (méthodes de calcul, pondérations, périmètres)",
+   "materiality": "DECISIVE",
+   "routes": [
+    "EXPAND",
+    "LINK"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-003",
+   "kind": "MECHANISM",
+   "lead": "Écart allégué entre inflation mesurée et inflation ressentie (sous-estimation perçue)",
+   "materiality": "DECISIVE",
+   "routes": [
+    "EXPAND",
+    "LINK"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-004",
+   "kind": "EVENT",
+   "lead": "Changements de base de l'IPC (1970, 1980, 1990, 1998, 2015) et continuité des séries",
+   "materiality": "IMPORTANT",
+   "routes": [
+    "EXPAND"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-005",
+   "kind": "ENTITY",
+   "lead": "Gouvernance et direction de l'Insee: DG nommé en Conseil des ministres sur proposition de Bercy, rattachement ministériel économique; DG actuel Fabrice Lenglart (depuis juin 2025); précédents: Tavernier 2012-2025, Cotis 2007-2012, Charpin 2003-2007, Champsaur 1992-2003, Milleron, Malinvaud, Ripert, Gruson, Closon",
+   "materiality": "DECISIVE",
+   "routes": [
+    "EXPAND",
+    "LINK"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-006",
+   "kind": "RELATION",
+   "lead": "Circulation des cadres: ENSAE/Polytechnique, INSEE-ministères-pantouflage (endogamie technocratique)",
+   "materiality": "DECISIVE",
+   "routes": [
+    "EXPAND",
+    "LINK"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-007",
+   "kind": "CONTEXT",
+   "lead": "Indexations légales adossées à l'IPC: SMIC, loyers (IRL/ILAT), retraites, obligations indexées",
+   "materiality": "DECISIVE",
+   "routes": [
+    "LINK"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-008",
+   "kind": "EVENT",
+   "lead": "Calendrier de publication, révisions des séries et usages politiques (fenêtres de sortie)",
+   "materiality": "IMPORTANT",
+   "routes": [
+    "EXPAND"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-009",
+   "kind": "CLAIM",
+   "lead": "Sociologie du corps statistique: recrutement grande école, insee-istes, culture commune",
+   "materiality": "IMPORTANT",
+   "routes": [
+    "EXPAND",
+    "LINK"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-010",
+   "kind": "CLAIM",
+   "lead": "Mesure de la pauvreté et des inégalités: seuil relatif 60% de la médiane, évolutions contestées",
+   "materiality": "DECISIVE",
+   "routes": [
+    "EXPAND",
+    "LINK"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-011",
+   "kind": "MECHANISM",
+   "lead": "Pouvoir statistique et gouvernementalité: les nombres comme instruments de gouvernement (Desrosières, Foucault)",
+   "materiality": "IMPORTANT",
+   "routes": [
+    "EXPAND"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-012",
+   "kind": "CONTEXT",
+   "lead": "Comparaison internationale: ONS, Destatis, Eurostat, HICP vs IPC — biais structurels partagés",
+   "materiality": "IMPORTANT",
+   "routes": [
+    "EXPAND"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-013",
+   "kind": "MECHANISM",
+   "lead": "Effets concrets des choix méthodologiques: budgets, revalorisations, contrats, perceptions publiques",
+   "materiality": "DECISIVE",
+   "routes": [
+    "LINK",
+    "EXPAND"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-014",
+   "kind": "EVENT",
+   "lead": "Histoire institutionnelle: SNS 1941 (Vichy), INSEE 1946, dirigisme, planification, culture métier",
+   "materiality": "IMPORTANT",
+   "routes": [
+    "EXPAND"
+   ],
+   "status": "SATURATED"
+  },
+  {
+   "id": "LED-015",
+   "kind": "EVENT",
+   "lead": "Pressions politiques documentées sur la statistique publique (cas concrets, France + UE)",
+   "materiality": "DECISIVE",
+   "routes": [
+    "AUDIT",
+    "EXPAND"
+   ],
+   "status": "SATURATED"
+  }
+ ],
+ "memory_probe": {
+  "memory_id": "-",
+  "run_id": "-",
+  "status": "NONE"
+ },
+ "meta": {
+  "created_at": "2026-09-20T15:07:32.337730+00:00",
+  "updated_at": "2026-09-20T16:07:37.648406+00:00"
+ },
+ "persistence": {
+  "attempt_history": [
+   {
+    "created_at": "2026-09-20T16:07:15.454653+00:00",
+    "fact_mem": {
+     "FCT-001": "a995399b-01e8-4dc8-bb2f-d0a7ef05cf94",
+     "FCT-002": "8b6fd4b4-def1-41e9-bbac-dde456f7ee35",
+     "FCT-003": "82daeeca-eb22-4adf-859e-0a349c7fb025",
+     "FCT-004": "0c83fb4e-3cc8-485c-9e4b-719f44ad830c",
+     "FCT-005": "bb187cdb-bd17-4b57-9f6e-ea949dcc0a11",
+     "FCT-006": "ba618622-71eb-4d6e-a818-43bc9bf264f0",
+     "FCT-007": "324d3e38-37f0-405f-9e09-b758eb96ae3f",
+     "FCT-008": "fdee4b44-2d92-4453-84a9-3f7e83212151",
+     "FCT-009": "16e14263-b2a3-45bf-99f2-4248944c98cf"
+    },
+    "mnemo_row": "PASS: 9/9 eligible facts persisted via MCP write_memory (8002); no duplicate_warning; run 2026-09-20_17-04_insee-biais-modes-calcul-fresque-systemique",
+    "result": "PASS",
+    "seq": 1,
+    "writeback_execution": [
+     {
+      "action": "WRITE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-001",
+      "reason": "tier ✦ -> status:CONFIRME (>=2 familles + refutation terminale)",
+      "success": 1
+     },
+     {
+      "action": "WRITE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-002",
+      "reason": "tier ✧ -> status:VERIFIE",
+      "success": 1
+     },
+     {
+      "action": "WRITE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-003",
+      "reason": "tier ✦ -> status:CONFIRME (>=2 familles + refutation terminale)",
+      "success": 1
+     },
+     {
+      "action": "WRITE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-004",
+      "reason": "tier ✧ -> status:VERIFIE",
+      "success": 1
+     },
+     {
+      "action": "WRITE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-005",
+      "reason": "tier ✦ -> status:CONFIRME (>=2 familles + refutation terminale)",
+      "success": 1
+     },
+     {
+      "action": "WRITE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-006",
+      "reason": "tier ✧ -> status:VERIFIE",
+      "success": 1
+     },
+     {
+      "action": "WRITE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-007",
+      "reason": "tier ✧ -> status:VERIFIE",
+      "success": 1
+     },
+     {
+      "action": "WRITE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-008",
+      "reason": "tier ✧ -> status:VERIFIE",
+      "success": 1
+     },
+     {
+      "action": "WRITE",
+      "attempted": 1,
+      "blocked": 0,
+      "failure": 0,
+      "fct": "FCT-009",
+      "reason": "tier ✧ -> status:VERIFIE",
+      "success": 1
+     }
+    ],
+    "writeback_row": {
+     "attempted": 9,
+     "blocked": 0,
+     "eligible": 9,
+     "failure": 0,
+     "success": 9
+    }
+   }
+  ],
+  "mnemo_row": "PASS: 9/9 eligible facts persisted via MCP write_memory (8002); no duplicate_warning; run 2026-09-20_17-04_insee-biais-modes-calcul-fresque-systemique",
+  "self_write_row": "PENDING_AT_SERIALIZATION",
+  "writeback_execution": [
+   {
+    "action": "WRITE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-001",
+    "reason": "tier ✦ -> status:CONFIRME (>=2 familles + refutation terminale)",
+    "success": 1
+   },
+   {
+    "action": "WRITE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-002",
+    "reason": "tier ✧ -> status:VERIFIE",
+    "success": 1
+   },
+   {
+    "action": "WRITE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-003",
+    "reason": "tier ✦ -> status:CONFIRME (>=2 familles + refutation terminale)",
+    "success": 1
+   },
+   {
+    "action": "WRITE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-004",
+    "reason": "tier ✧ -> status:VERIFIE",
+    "success": 1
+   },
+   {
+    "action": "WRITE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-005",
+    "reason": "tier ✦ -> status:CONFIRME (>=2 familles + refutation terminale)",
+    "success": 1
+   },
+   {
+    "action": "WRITE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-006",
+    "reason": "tier ✧ -> status:VERIFIE",
+    "success": 1
+   },
+   {
+    "action": "WRITE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-007",
+    "reason": "tier ✧ -> status:VERIFIE",
+    "success": 1
+   },
+   {
+    "action": "WRITE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-008",
+    "reason": "tier ✧ -> status:VERIFIE",
+    "success": 1
+   },
+   {
+    "action": "WRITE",
+    "attempted": 1,
+    "blocked": 0,
+    "failure": 0,
+    "fct": "FCT-009",
+    "reason": "tier ✧ -> status:VERIFIE",
+    "success": 1
+   }
+  ],
+  "writeback_row": {
+   "attempted": 9,
+   "blocked": 0,
+   "eligible": 9,
+   "failure": 0,
+   "success": 9
+  }
+ },
+ "refutations": [
+  {
+   "fct": "FCT-001",
+   "qry": "QRY-043",
+   "status": "NONE"
+  },
+  {
+   "fct": "FCT-003",
+   "qry": "QRY-042",
+   "status": "NONE"
+  },
+  {
+   "fct": "FCT-005",
+   "qry": "QRY-044",
+   "status": "NONE"
+  }
+ ],
+ "requests": [
+  {
+   "id": "QRY-001",
+   "mode": "WEB",
+   "query": "AXS-001/LED-002,LED-004 — INSEE indice des prix à la consommation base 2015 méthodologie insee.fr",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-002",
+   "mode": "WEB",
+   "query": "AXS-002/LED-003,CLM-008 — inflation ressentie supérieure inflation mesurée Crédoc baromètre 2022 2023 INSEE explication",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-003",
+   "mode": "FETCH",
+   "query": "FETCH L essentiel sur l inflation (Insee 4268033)",
+   "result": "FOUND",
+   "source": "SRC-001",
+   "url": "https://www.insee.fr/fr/statistiques/4268033"
+  },
+  {
+   "id": "QRY-004",
+   "mode": "FETCH",
+   "query": "FETCH série IPC base 2015 ensemble des ménages (séries arrêtées)",
+   "result": "FOUND",
+   "source": "SRC-002",
+   "url": "https://www.insee.fr/fr/statistiques/serie/001763852"
+  },
+  {
+   "id": "QRY-005",
+   "mode": "WEB",
+   "query": "AXS-003/LED-005,LED-009,CLM-002 — directeur général de l'Insee biographie nomination décret Tavernier Birot X-ENSAE",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-006",
+   "mode": "WEB",
+   "query": "AXS-005/LED-005,CLM-002,CLM-003 — loi 26 juin 2004 indépendance statistique publique autorité statistique ESS Eurostat France",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-007",
+   "mode": "WEB",
+   "query": "AXS-009/LED-015,CLM-002 — pression politique statistiques publiques France Insee gouvernement cas documenté chômage déficit",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-008",
+   "mode": "FETCH",
+   "query": "FETCH Principe 1 ESS indépendance professionnelle (Insee)",
+   "result": "FOUND",
+   "source": "SRC-003",
+   "url": "https://www.insee.fr/fr/information/4174951"
+  },
+  {
+   "id": "QRY-009",
+   "mode": "FETCH",
+   "query": "FETCH Courrier des statistiques N11 — statistiques publiques et débat démocratique 1988-2016",
+   "result": "FOUND",
+   "source": "SRC-004",
+   "url": "https://www.insee.fr/fr/information/8203034?sommaire=8203072"
+  },
+  {
+   "id": "QRY-010",
+   "mode": "FETCH",
+   "query": "FETCH recension Le grand truquage (L. Data 2009) — La Vie des idées",
+   "result": "FOUND",
+   "source": "SRC-005",
+   "url": "https://laviedesidees.fr/Les-statistiques-un-service-public"
+  },
+  {
+   "id": "QRY-011",
+   "mode": "WEB",
+   "query": "AXS-003/AXS-004/LED-005,LED-006 — Paul Champsaur ARCEP Jean-Philippe Cotis ancien directeur général Insee parcours",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-012",
+   "mode": "WEB",
+   "query": "AXS-006/LED-008 — Insee révision croissance 2020 première estimation PIB comptes nationaux base 2020",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-013",
+   "mode": "FETCH",
+   "query": "FETCH biographie Paul Champsaur (Insee)",
+   "result": "FOUND",
+   "source": "SRC-006",
+   "url": "https://www.insee.fr/fr/information/2014679"
+  },
+  {
+   "id": "QRY-014",
+   "mode": "FETCH",
+   "query": "FETCH Un peu d histoire — chronologie officielle Insee 80 ans, liste des DG",
+   "result": "FOUND",
+   "source": "SRC-007",
+   "url": "https://www.insee.fr/fr/information/1300622"
+  },
+  {
+   "id": "QRY-015",
+   "mode": "WEB",
+   "query": "AXS-003/LED-005 — Fabrice Lenglart directeur général Insee nomination 2025 parcours",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-016",
+   "mode": "WEB",
+   "query": "AXS-007/LED-013,CLM-002 — Insee effectifs agents baisse budget 2023 2024 2025 mission économie",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-017",
+   "mode": "FETCH",
+   "query": "FETCH biographie officielle Fabrice Lenglart DG Insee",
+   "result": "FOUND",
+   "source": "SRC-008",
+   "url": "https://www.insee.fr/fr/information/8603402"
+  },
+  {
+   "id": "QRY-018",
+   "mode": "FETCH",
+   "query": "FETCH Sénat PLF 2025 — programme 220 Statistiques et études économiques",
+   "result": "FOUND",
+   "source": "SRC-009",
+   "url": "https://www.senat.fr/rap/l24-144-312/l24-144-3123.html"
+  },
+  {
+   "id": "QRY-019",
+   "mode": "WEB",
+   "query": "AXS-010/LED-007,CLM-005 — SMIC indexation IPC IRL indexation loyers Insee",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-020",
+   "mode": "WEB",
+   "query": "AXS-011/LED-012,CLM-001 — ONS CPIH owner occupiers housing costs vs HICP France loyers imputés",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-021",
+   "mode": "WEB",
+   "query": "AXS-010? non — AXS-pauvreté/LED-010,CLM-007 — Insee taux de pauvreté 2024 seuil 60% médiane 9 817 000",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-022",
+   "mode": "WEB",
+   "query": "AXS-002/LED-003 — Crédoc baromètre inflation perçue; UFC Que Choisir indices inflation alternatifs",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-023",
+   "mode": "FETCH",
+   "query": "FETCH Personnes pauvres selon le seuil (ERFS 1975-2024)",
+   "result": "FOUND",
+   "source": "SRC-010",
+   "url": "https://www.insee.fr/fr/statistiques/2408345"
+  },
+  {
+   "id": "QRY-024",
+   "mode": "FETCH",
+   "query": "FETCH UFC Que Choisir — les vrais chiffres de l inflation (relevés propres)",
+   "result": "FOUND",
+   "source": "SRC-011",
+   "url": "https://www.quechoisir.org/actualite-alimentation-hygiene-droguerie-les-vrais-chiffres-de-l-inflation-n110542/"
+  },
+  {
+   "id": "QRY-025",
+   "mode": "WEB",
+   "query": "AXS-001/LED-002 — Insee IPC méthodologie pondérations Budget de famille sources",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-026",
+   "mode": "FETCH",
+   "query": "FETCH La Tribune — ce que change le passage base 2015 vers base 2025",
+   "result": "FOUND",
+   "source": "SRC-012",
+   "url": "https://www.latribune.fr/article/economie/28780383207962/inflation-ce-que-change-le-nouveau-calcul-de-lindice-des-prix-de-l-insee"
+  },
+  {
+   "id": "QRY-027",
+   "mode": "FETCH",
+   "query": "FETCH FranceTransactions — inflation Insee vs coût de la vie",
+   "result": "FOUND",
+   "source": "SRC-013",
+   "url": "https://www.francetransactions.com/le-saviez-vous/pourquoi-l-inflation-publiee-par-l-insee-ne-reflete-t-elle-pas-veritablement-la.html"
+  },
+  {
+   "id": "QRY-028",
+   "mode": "FETCH",
+   "query": "FETCH Persée — recension critique La politique des grands nombres (Desrosières)",
+   "result": "FOUND",
+   "source": "SRC-014",
+   "url": "https://www.persee.fr/doc/polix_0295-2319_1994_num_7_25_1830"
+  },
+  {
+   "id": "QRY-029",
+   "mode": "WEB",
+   "query": "AXS-006/LED-008,CLM-006 — révision comptes nationaux mai 2025 PIB croissance révisée",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-030",
+   "mode": "FETCH",
+   "query": "FETCH BFM — révision croissance post-Covid 0,9% vers 1,9% (compte définitif 2023)",
+   "result": "FOUND",
+   "source": "SRC-015",
+   "url": "https://www.bfmtv.com/economie/economie-social/une-croissance-annuelle-de-0-9-qui-passe-a-1-9-pourquoi-l-insee-a-revu-la-performance-de-l-economie-francaise-des-annees-post-covid-avec-une-hausse-parfois-plus-de-2-fois-plus-forte_AV-202606070045.html"
+  },
+  {
+   "id": "QRY-031",
+   "mode": "FETCH",
+   "query": "FETCH OFCE — l économie française va mieux qu on ne le pensait (révisions cumulées PIB)",
+   "result": "FOUND",
+   "source": "SRC-016",
+   "url": "https://www.ofce.fr/blog2024/fr/2025/20251124_EA/"
+  },
+  {
+   "id": "QRY-032",
+   "mode": "FETCH",
+   "query": "FETCH Service Public F2300 — Smic revalorisation indexation IPC 20% plus modestes",
+   "result": "FOUND",
+   "source": "SRC-017",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"
+  },
+  {
+   "id": "QRY-033",
+   "mode": "FETCH",
+   "query": "FETCH Insee Analyses 5 — l inflation telle que perçue par les ménages (OPI/IPC)",
+   "result": "FOUND",
+   "source": "SRC-018",
+   "url": "https://www.insee.fr/fr/statistiques/1521318"
+  },
+  {
+   "id": "QRY-034",
+   "mode": "FETCH",
+   "query": "FETCH economie.gouv — nomination Lenglart DG Insee (05/06/2025)",
+   "result": "FOUND",
+   "source": "SRC-019",
+   "url": "https://www.economie.gouv.fr/actualites/nomination-de-fabrice-lenglart-au-poste-de-directeur-general-de-linsee"
+  },
+  {
+   "id": "QRY-035",
+   "mode": "FETCH",
+   "query": "FETCH Insee Focus 152 — le logement dans l IPC",
+   "result": "FOUND",
+   "source": "SRC-020",
+   "url": "https://www.insee.fr/fr/statistiques/4126450"
+  },
+  {
+   "id": "QRY-036",
+   "mode": "FETCH",
+   "query": "FETCH Geerolf — au sujet du Blog Insee sur l IPC et les loyers",
+   "result": "FOUND",
+   "source": "SRC-021",
+   "url": "https://fgeerolf.com/blog-insee-IPC-loyers.html"
+  },
+  {
+   "id": "QRY-037",
+   "mode": "FETCH",
+   "query": "FETCH Insee Première 1997 — les comptes de la Nation en 2023 (première estimation 0,9%)",
+   "result": "FOUND",
+   "source": "SRC-022",
+   "url": "https://www.insee.fr/fr/statistiques/8193933"
+  },
+  {
+   "id": "QRY-038",
+   "mode": "FETCH",
+   "query": "FETCH HCFP — biographie Jean-Luc Tavernier",
+   "result": "FOUND",
+   "source": "SRC-023",
+   "url": "http://www.hcfp.fr/jean-luc-tavernier"
+  },
+  {
+   "id": "QRY-039",
+   "mode": "FETCH",
+   "query": "FETCH Service Public F13723 — IRL formule IPC hors tabac hors loyers",
+   "result": "FOUND",
+   "source": "SRC-024",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13723"
+  },
+  {
+   "id": "QRY-040",
+   "mode": "FETCH",
+   "query": "FETCH Legifrance — article 1 loi 1951 (ASP, indépendance professionnelle)",
+   "result": "FOUND",
+   "source": "SRC-025",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000022405540"
+  },
+  {
+   "id": "QRY-041",
+   "mode": "WEB",
+   "query": "Insee mai 2025 révision PIB 2023 2024 croissance révisée 1,1% 0,9% Le Monde Les Echos",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-042",
+   "mode": "WEB",
+   "query": "REFUTATION révision croissance PIB France 2023 0,9% 1,9% compte définitif contesté erreur",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-043",
+   "mode": "WEB",
+   "query": "REFUTATION IPC Insee mesure coût de la vie sous-estimation démontrée prix logement taxes panier",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-044",
+   "mode": "WEB",
+   "query": "REFUTATION ONS Destatis HICP CPIH tout pays CPI inclut loyers imputés expérience comparée",
+   "result": "FOUND",
+   "source": "-",
+   "url": "-"
+  },
+  {
+   "id": "QRY-045",
+   "mode": "FETCH",
+   "query": "FETCH ENSAE Paris — conférence Jean-Luc Tavernier alumni X-ENSAE",
+   "result": "FOUND",
+   "source": "SRC-026",
+   "url": "https://www.ensae.fr/actualites/conference-03/10-jean-luc-tavernier-dg-de-linsee-et-alumni-x-ensae"
+  },
+  {
+   "id": "QRY-046",
+   "mode": "FETCH",
+   "query": "FETCH Académie sciences morales et politiques — colloque international indépendance statistiques publiques 19/06/2026",
+   "result": "FOUND",
+   "source": "SRC-027",
+   "url": "https://academiesciencesmoralesetpolitiques.fr/evenement/colloque-international-cnis-asp-lindependance-des-statistiques-publiques/"
+  },
+  {
+   "id": "QRY-047",
+   "mode": "FETCH",
+   "query": "FETCH ANIL — tableau de l IRL publié par l Insee",
+   "result": "FOUND",
+   "source": "SRC-028",
+   "url": "https://www.anil.org/outils/indices-et-plafonds/tableau-de-lirl/"
+  }
+ ],
+ "run": {
+  "as_of": "2026-09-20",
+  "certification_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-20_insee-biais-modes-calcul-fresque-systemique/2026-09-20_17-04_insee-biais-modes-calcul-fresque-systemique_CERTIFICATION.json",
+  "checkpoint_seq": 7,
+  "complexity": "APEX",
+  "complexity_score": "17",
+  "degraded_flags": [],
+  "input_kind": "TOPIC",
+  "input_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-20_insee-biais-modes-calcul-fresque-systemique/2026-09-20_17-04_insee-biais-modes-calcul-fresque-systemique_INPUT.txt",
+  "input_ref": "PATH:/home/giak/projects/truth-engine/investigations/2026-09/2026-09-20_insee-biais-modes-calcul-fresque-systemique/2026-09-20_17-04_insee-biais-modes-calcul-fresque-systemique_INPUT.txt",
+  "input_sha256": "sha256:a4fb26f3fe0d07a88ffb33df02ca3110a3d8839973fd48f2916b346aa59e9a39",
+  "investigation_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-20_insee-biais-modes-calcul-fresque-systemique/2026-09-20_17-04_insee-biais-modes-calcul-fresque-systemique_INVESTIGATION.md",
+  "last_completed": "18b",
+  "loaded_modules": [
+   "definitions/SYMBOLS.md",
+   "definitions/PATTERNS.md",
+   "definitions/THREATS.md",
+   "forensic/GATES.md",
+   "forensic/REQUEST_LOG.md",
+   "search/EPISTEMIC.md",
+   "search/TEMPLATES.md",
+   "output/TEMPLATE.md",
+   "protocol/FACT_VERIFICATION.md",
+   "protocol/INVESTIGATION.md",
+   "clusters/ICEBERG.md",
+   "clusters/MONEY.md",
+   "clusters/FRAMING.md",
+   "clusters/POWER.md",
+   "clusters/RESISTANCE.md",
+   "clusters/CONFIRMATION.md",
+   "clusters/FRAGMENTATION.md",
+   "clusters/NETWORK.md",
+   "clusters/TEMPORAL.md"
+  ],
+  "mission_mode": "INVESTIGATION",
+  "narrative_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-20_insee-biais-modes-calcul-fresque-systemique/2026-09-20_17-04_insee-biais-modes-calcul-fresque-systemique_NARRATIVE.tmp.md",
+  "next_action": "NONE",
+  "original_input_ref": "NONE",
+  "parent_run_id": "NONE",
+  "resume_count": 0,
+  "route_overrides": [],
+  "run_dir": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-20_insee-biais-modes-calcul-fresque-systemique",
+  "run_id": "20260920-1704-insee-biais-modes-calcul-fresque-systemique",
+  "scope": "1946-2026 (focus 2004-2026); France (metropole+Outre-mer), comparaison UE/ONS/Destatis; axes: methodes IPC, perception, gouvernance, recrutements, independance legale, moyens, revisions, indexations, pressions documentees, pauvrete, international, gouvernementalite; exclusions: theorie du complot sans appui documente; limites: archives internes Insee inaccessibles, ampleur budgetaire exacte non etablie",
+  "snapshot_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-20_insee-biais-modes-calcul-fresque-systemique/2026-09-20_17-04_insee-biais-modes-calcul-fresque-systemique_MNEMO_SNAPSHOT.json",
+  "state": "FINAL",
+  "state_path": "/home/giak/projects/truth-engine/investigations/2026-09/2026-09-20_insee-biais-modes-calcul-fresque-systemique/2026-09-20_17-04_insee-biais-modes-calcul-fresque-systemique_RUN_STATE.json",
+  "subject_fingerprint": "sha256:65f5d8abf9713f40c4382c528c71296a76a8b09257f6ca339173dcdfe1f58f28",
+  "subject_fingerprint_legacy_v1": "sha256:65f5d8abf9713f40c4382c528c71296a76a8b09257f6ca339173dcdfe1f58f28",
+  "subject_slug": "insee-biais-modes-calcul-fresque-systemique"
+ },
+ "schema": 1,
+ "sections": {
+  "ACTOR_NETWORK_MAP": [
+   {
+    "documented_effect": "canal de recrutement dominant de la direction",
+    "edge_type": "formation",
+    "fct_src": [
+     "SRC-023",
+     "SRC-007",
+     "SRC-008"
+    ],
+    "from": "Ecole polytechnique",
+    "period": "1990-2025",
+    "status": "SATURATED",
+    "to": "direction Insee (Lenglart X89, Tavernier, Champsaur X63)"
+   },
+   {
+    "documented_effect": "homophilie professionnelle documentee",
+    "edge_type": "formation",
+    "fct_src": [
+     "SRC-026",
+     "SRC-023"
+    ],
+    "from": "ENSAE",
+    "period": "1942-2026",
+    "status": "SATURATED",
+    "to": "corps Insee (ex-administrateurs, fusion ISED 01/12/2025)"
+   },
+   {
+    "documented_effect": "porte d entree Bercy vers la direction",
+    "edge_type": "circulation",
+    "fct_src": [
+     "SRC-006",
+     "SRC-008",
+     "SRC-019"
+    ],
+    "from": "ministere Economie/Finances (Prevision, Tresor, DGT)",
+    "period": "1992-2025",
+    "status": "SATURATED",
+    "to": "direction Insee (Champsaur, Cotis, Lenglart)"
+   },
+   {
+    "documented_effect": "revolving door documente",
+    "edge_type": "pantouflage",
+    "fct_src": [
+     "SRC-006"
+    ],
+    "from": "direction Insee",
+    "period": "2003-2008",
+    "status": "SATURATED",
+    "to": "regulation/institutions (Champsaur -> ARCEP 2003-2008)"
+   },
+   {
+    "documented_effect": "passage ministere sociaux -> Insee",
+    "edge_type": "circulation",
+    "fct_src": [
+     "SRC-019"
+    ],
+    "from": "DREES",
+    "period": "2019-2025",
+    "status": "SATURATED",
+    "to": "direction Insee (Lenglart directeur 2019-2025)"
+   },
+   {
+    "documented_effect": "audition annuelle du DG, avis publics",
+    "edge_type": "controle",
+    "fct_src": [
+     "SRC-025",
+     "SRC-027"
+    ],
+    "from": "Autorite de la statistique publique",
+    "period": "2009-2026",
+    "status": "SATURATED",
+    "to": "Insee/SSM"
+   },
+   {
+    "documented_effect": "reglements europeens, code de bonnes pratiques",
+    "edge_type": "norme/audit",
+    "fct_src": [
+     "SRC-003",
+     "SRC-004"
+    ],
+    "from": "Eurostat (ESS)",
+    "period": "1996-2026",
+    "status": "SATURATED",
+    "to": "INSEE"
+   }
+  ],
+  "CAUSALITY_REGISTRY": "RUNTIME_DERIVED",
+  "CLAIM_REGISTRY": "RUNTIME_DERIVED",
+  "COGNITIVE_MAP": {
+   "ALTERNATIVES": [
+    "explication innocente: conventions internationales et contraintes statistiques reelles",
+    "explication critique: choix servant les indexeurs publics",
+    "arbitrage: les deux coexistent (voir CARTE DIALECTIQUE)"
+   ],
+   "CLUSTER_SCORES": {
+    "CONFIRMATION": "nudge documente dans l indexation legale (IRL hors loyers), pas de design de perception demontre",
+    "FRAGMENTATION": "plausible: convergence familles A/E/D sur les limites de champ de l IPC sans preuve de coordination",
+    "FRAMING": "plausible: IPC presenté comme mesure du cout de la vie par les medias alors que l Insee le borne a la depense de consommation (SRC-013, SRC-001)",
+    "ICEBERG": "applique: omission perimetre logements proprietaires (IPC), champ France hors Mayotte / metropole seule selon series, ruptures de serie ERFS 2010-2012-2020",
+    "MONEY": "applique: IPC indexe SMIC/IRL/pensions/OATi (CAU-002); programme 220 AE -2,7% 2025 (SRC-017)",
+    "NETWORK": "applique: canal X-ENSAE-Insee-Tresor-DREES documente (SRC-007, SRC-008, SRC-006, SRC-026)",
+    "POWER": "applique: nomination DG en Conseil des ministres sur proposition Bercy, budget par la loi de finances (SRC-019, SRC-025)",
+    "RESISTANCE": "plausible: UFC-Que Choisir (SRC-011), Geerolf (SRC-021), Rexecode/OFCE (SRC-015/SRC-016), colloques independance (SRC-027)",
+    "TEMPORAL": "applique: changements de base 2015/2020/2025, calendrier revisions mai-juin, seuil SMIC 2%"
+   },
+   "FORENSIC": "applique sur le corpus IPC (voir section FORENSIC REASONING)",
+   "HERMENEUTIC": "L1-L6 appliques (voir HERMENEUTIQUE narrative)",
+   "QUERY_GUIDANCE": "saturé; voir NEXT_QUERIES"
+  },
+  "CONTRADICTION_LEDGER": [
+   {
+    "claims": [
+     "L IPC mesure la depense de consommation, pas le cout de la vie (Insee, FranceTransactions)",
+     "Usage public et mediatique de l IPC comme mesure du cout de la vie"
+    ],
+    "id": "CON-001",
+    "remaining_check": "none",
+    "resolution": "Confusion d usage documentee; l institut borne explicitement son indice",
+    "sources": [
+     "SRC-001",
+     "SRC-013"
+    ],
+    "status": "RESOLVED"
+   },
+   {
+    "claims": [
+     "Impact limite de l inclusion des logements dans l IPC (Insee Focus 152: inflation locataires = proprietaires = 1,4% sur 1998-2018)",
+     "Choix de champ significatif: isolation internationale, IPC hybride sante, cumul ~5% vs IPCH depuis 1996 (Geerolf)"
+    ],
+    "id": "CON-002",
+    "remaining_check": "quantification independante ex post (access limitee)",
+    "resolution": "PRESERVED - divergence de materialite entre famille A et famille E; les deux eclairages sont justes sur leurs perimetres",
+    "sources": [
+     "SRC-020",
+     "SRC-021"
+    ],
+    "status": "OPEN"
+   },
+   {
+    "claims": [
+     "Revisions exceptionnelles contestees (Rexecode: plus forte revision depuis 2003; WanSquare: revisions etonnantes)",
+     "Processus normal de revision documente (Insee: sources partielles, contexte inflationniste)"
+    ],
+    "id": "CON-003",
+    "remaining_check": "suivi des revisions futures",
+    "resolution": "PRESERVED - la description du processus n annule pas l ampleur exceptionnelle constatee",
+    "sources": [
+     "SRC-015",
+     "SRC-022",
+     "SRC-016"
+    ],
+    "status": "OPEN"
+   },
+   {
+    "claims": [
+     "Garanties d independance (loi 1951, ASP 2008, ESS)",
+     "Pressions gouvernementales documentees sur les producteurs de statistiques (Grand truquage 2009; bataille historique de l independance)"
+    ],
+    "id": "CON-004",
+    "remaining_check": "archives internes (ACCESS)",
+    "resolution": "PRESERVED - garanties formelles coexistant avec pressions documentees sur la periode; cas Insee specifique non etabli au niveau micro",
+    "sources": [
+     "SRC-025",
+     "SRC-005",
+     "SRC-027"
+    ],
+    "status": "OPEN"
+   }
+  ],
+  "CONTROL_MAP": "RUNTIME_DERIVED",
+  "CREDO": {
+   "LEAD_QUESTION": "L INSEE ne reflète-t-elle pas la réalité (assertion utilisateur à auditer) ?",
+   "NOTE": "QUERY_TARGET APEX35+ = indicatif découverte, jamais quota. Allocation des QRY-ID uniquement au moment de l exécution réelle.",
+   "OBJECT_QUESTION": "Comment l INSEE produit-elle, contrôle et légitime la mesure officielle (prix, pauvreté, emploi), qui décide des choix méthodologiques, avec quels conflits d intérêt et effets concrets ?",
+   "SEARCH_PLAN": [
+    {
+     "for": "AXS-001",
+     "priority": "P0",
+     "q": "IPC base 2015 méthodologie et critiques"
+    },
+    {
+     "for": "AXS-002",
+     "priority": "P0",
+     "q": "sous-estimation inflation ressentie Crédoc/panel"
+    },
+    {
+     "for": "AXS-003",
+     "priority": "P0",
+     "q": "direction INSEE nominations profile politique"
+    },
+    {
+     "for": "AXS-004",
+     "priority": "P0",
+     "q": "ENSAE X revolving door direction INSEE"
+    },
+    {
+     "for": "AXS-005",
+     "priority": "P0",
+     "q": "loi 26 juin 2004 indépendance statistique publique"
+    },
+    {
+     "for": "AXS-006",
+     "priority": "P1",
+     "q": "calendrier gel valeurs suivi réforme 2025-2026 INSEE"
+    },
+    {
+     "for": "AXS-007",
+     "priority": "P1",
+     "q": "budget effectifs INSEE évolution"
+    },
+    {
+     "for": "AXS-008",
+     "priority": "P1",
+     "q": "révisions comptes nationaux fiabilité"
+    },
+    {
+     "for": "AXS-009",
+     "priority": "P0",
+     "q": "pressions politiques sur statistiques publiques cas documentés"
+    },
+    {
+     "for": "AXS-010",
+     "priority": "P0",
+     "q": "indexation SMIC loyers retraites via IPC montants"
+    },
+    {
+     "for": "AXS-011",
+     "priority": "P2",
+     "q": "ONS Destatis Eurostat comparaison biais méthodes"
+    },
+    {
+     "for": "AXS-012",
+     "priority": "P1",
+     "q": "Desrosières politique des grands nombres gouvernementalité statistique"
+    }
+   ],
+   "SOURCE_AUDIT": "N/A(NO_INPUT_LEAD) — l assertion utilisateur est un lead, pas une source"
+  },
+  "DIALECTICAL_MAP": {
+   "IMPACT": "voir IMPACT_MAP",
+   "P1_DOMINANT": "L Insee produit des statistiques independantes, auditees (Eurostat, ASP, code ESS), methodologiquement documentees et internationalement comparees; les choix contestes (loyers imputes, base, chaine) suivent des conventions europeennes et des contraintes de mesure reelles",
+   "P2_CRITICAL": "L institut, par sa tutelle, son recrutement X-ENSAE-Tresor, son budget et ses choix de champ (hors loyers imputes, hors prix d achat des logements, IPC sante hybride), produit une mesure structurellement brouillee par rapport au cout de la vie vecu, et ce choix beneficie aux payeurs d indexations; pressions gouvernementales documentees sur la statistique publique (Grand truquage 2009)",
+   "P3_ARBITRATION": "Les faits ✦/✧ arbitrent: l ecart OPI/IPC ~6 points et la reconnaissance officielle de bases objectives (FCT-001); l exclusion des loyers imputes avec isolation internationale (FCT-005); la dependance formelle de nomination/budget (FCT-002, SRC-017) coexiste avec des garanties legales (FCT-007); les revisions massives (FCT-003) n prouvent ni mauvaise foi ni fiabilite; aucun fait n etablit de manipulation micro d chiffre par l Insee",
+   "SILENCES": [
+    "amplitude budgetaire exacte des choix d indexation",
+    "archives internes Insee sur pressions",
+    "profil social complet du corps statistique"
+   ],
+   "TENSIONS": [
+    "champ de l IPC: convention europeenne (P1) vs isolation francaise (P2)",
+    "revisions: processus normal (P1) vs chiffres publics initiaux trompeurs (P2)",
+    "indépendance: garanties formelles (P1) vs dependance structurelle (P2)"
+   ]
+  },
+  "EDI_REPORT": {
+   "COV": "1.0 (12/12 axes terminalisés)",
+   "DECISIVE_CLAIM_COVERAGE": [
+    {
+     "clm": "CLM-001",
+     "counter": "FOUND",
+     "direct": "YES",
+     "families": "A,E",
+     "freshness": "CURRENT",
+     "gap_type": "SCOPE"
+    },
+    {
+     "clm": "CLM-002",
+     "counter": "FOUND",
+     "direct": "YES",
+     "families": "A",
+     "freshness": "CURRENT",
+     "gap_type": "CAUSALITY"
+    },
+    {
+     "clm": "CLM-003",
+     "counter": "NONE_FOUND",
+     "direct": "YES",
+     "families": "A,other:asm",
+     "freshness": "CURRENT",
+     "gap_type": "NONE"
+    },
+    {
+     "clm": "CLM-004",
+     "counter": "NONE_FOUND",
+     "direct": "YES",
+     "families": "A",
+     "freshness": "CURRENT",
+     "gap_type": "CAUSALITY"
+    },
+    {
+     "clm": "CLM-005",
+     "counter": "FOUND",
+     "direct": "YES",
+     "families": "A,C",
+     "freshness": "CURRENT",
+     "gap_type": "ACCESS"
+    },
+    {
+     "clm": "CLM-006",
+     "counter": "FOUND",
+     "direct": "YES",
+     "families": "A,D,E",
+     "freshness": "CURRENT",
+     "gap_type": "TEMPORAL"
+    },
+    {
+     "clm": "CLM-007",
+     "counter": "FOUND",
+     "direct": "YES",
+     "families": "A",
+     "freshness": "CURRENT",
+     "gap_type": "SCOPE"
+    },
+    {
+     "clm": "CLM-008",
+     "counter": "FOUND",
+     "direct": "YES",
+     "families": "A,C",
+     "freshness": "CURRENT",
+     "gap_type": "CONTRADICTION"
+    }
+   ],
+   "DIAGNOSTIC_NOT_TRUTH": true,
+   "EDI": "0.65",
+   "EDI_STAR": "0.66",
+   "IND": "5 familles / 28 sources",
+   "PERSPECTIVES": "4/5 (dominante, critique, usagers, académique; dissidente: aucune matériellement supportée)",
+   "SOURCES": "28 inspectées: 18 famille A (officiel), 3 C (usagers/associations), 3 D (presse), 3 E (académique), 1 other:asm (institut savant) — dérivé du registre des sources",
+   "TARGET": "APEX 0.80 non atteint (0.65); écart routé dans GAP_SEVERITY",
+   "dimensions": {
+    "geo": 0.7,
+    "lang": 0.8,
+    "owner": 0.6,
+    "persp": 0.8,
+    "strat": 0.82,
+    "temp": 0.75
+   },
+   "penalties": "0.10 [OWNERSHIP_CONCENTRATION: famille A = 18/28 = 64% > 60%]",
+   "raw": "0.746"
+  },
+  "GATE_STATUS_V1": {
+   "G0": "PASS",
+   "G1": "PASS",
+   "G10": "PASS",
+   "G2": "PASS",
+   "G3": "PASS",
+   "G4": "PASS",
+   "G5": "PASS",
+   "G6": "PASS",
+   "G7": "PASS",
+   "G8": "PASS",
+   "G9": "PASS"
+  },
+  "IMPACT_MAP": {
+   "benefits": [
+    "Mesure comparable internationalement (IPCH)",
+    "Indexation prévisible et juridiquement opposable",
+    "Transparence méthodologique documentée",
+    "Médiation : simulateur d'indice personnalisé, indices catégoriels"
+   ],
+   "harms": [
+    "Défiance perceptive structurelle (FCT-001)",
+    "Récits économiques fragilisés par révisions (FCT-003)",
+    "Silence public sur l'impact distributif des conventions",
+    "Asymétrie d'accès aux données micro"
+   ],
+   "impacts": [
+    {
+     "affected": [
+      "salariés au SMIC",
+      "locataires",
+      "pensionnaires",
+      "déteneurs d'OATi",
+      "État (charge indexée)"
+     ],
+     "direction": "MIXED selon sous-période (protection ex post SMIC contestée)",
+     "effect": "Chaque variation de l'IPC se traduit en flux financiers légaux; la formule IRL exclut elle-même les loyers (FCT-004, FCT-006)",
+     "id": "IMP-001",
+     "mechanism": "IPC sert d'indexeur légal (SMIC, IRL, ILAT, pensions, OATi, contrats)",
+     "quantification": "NOT COMPUTABLE au run (amplitude Md€ : GAP_TYPE=ACCESS, CAU-002)",
+     "sources": [
+      "SRC-004",
+      "SRC-024"
+     ]
+    },
+    {
+     "affected": [
+      "opinion publique",
+      "débat médiatique",
+      "crédibilité institutionnelle"
+     ],
+     "direction": "HARM (crédibilité) / NEUTRAL (mesure technique conforme à sa définition)",
+     "effect": "Défiance structurelle envers la statistique publique; débat public biaisé sur le pouvoir d'achat",
+     "id": "IMP-002",
+     "mechanism": "Écart inflation perçue/mesurée (~6 points depuis 2004, reconnu officiellement)",
+     "quantification": "6 points en moyenne depuis 2004 (FCT-001)",
+     "sources": [
+      "SRC-001",
+      "SRC-018"
+     ]
+    },
+    {
+     "affected": [
+      "propriétaires",
+      "acheteurs immobiliers",
+      "comparaisons internationales"
+     ],
+     "direction": "CONTESTED (impact ±0,3-0,4 pt selon méthode BdF vs écarts cumulés Geerolf)",
+     "effect": "Mesure d'inflation décorrélée du coût du logement propriétaire; indice qualifié d'hybride; isolation internationale documentée",
+     "id": "IMP-003",
+     "mechanism": "Champ de l'IPC : exclusion loyers imputés propriétaires, inclusion santé remboursée",
+     "quantification": "Poids loyers ~7,8% du panier FR vs 20,7% DE / 23,5% US",
+     "sources": [
+      "SRC-021",
+      "SRC-014"
+     ]
+    },
+    {
+     "affected": [
+      "décideurs publics",
+      "média",
+      "marchés"
+     ],
+     "direction": "HARM épistémique (décision sur données provisoires)",
+     "effect": "Récit économique public formé sur des premières estimations faussées au moment où il compte (budget, débats)",
+     "id": "IMP-004",
+     "mechanism": "Révisions des comptes nationaux (2023 : 0,9% -> 1,9%, +0,5 pt vague mai 2025)",
+     "quantification": "+1,0 pt sur 2023, plus forte révision depuis 2003 (FCT-003)",
+     "sources": [
+      "SRC-022",
+      "SRC-015",
+      "SRC-016"
+     ]
+    },
+    {
+     "affected": [
+      "ménages modestes",
+      "politiques sociales calées sur le seuil"
+     ],
+     "direction": "INFORMATIF (mesure d'inégalité relative, pas absolue)",
+     "effect": "9 817 000 personnes pauvres au seuil 60% (15,4%, plus haut mesuré); sensibilité 2,8M (40%) -> 14,6M (70%)",
+     "id": "IMP-005",
+     "mechanism": "Seuil de pauvreté relatif (60% médiane) et champ ERFS (métropole, personnes de référence non étudiantes, ruptures 2010/2012/2020)",
+     "quantification": "FCT-009, SRC-010",
+     "sources": [
+      "SRC-010"
+     ]
+    },
+    {
+     "affected": [
+      "statistique publique",
+      "contre-pouvoirs",
+      "usagers des chiffres"
+     ],
+     "direction": "RISK structurel documenté, intention NON ÉTABLIE",
+     "effect": "Risque structurel d'alignement des conventions de mesure avec les intérêts de l'exécutif payeur d'indexations; tempéré par loi 1951/ASP/Eurostat",
+     "id": "IMP-006",
+     "mechanism": "Dépendance institutionnelle (nomination DG en Conseil des ministres, budget loi de finances, canal X-ENSAE-Trésor)",
+     "quantification": "Programme 220 : 472,5 M€ AE 2025 (-2,7%)",
+     "sources": [
+      "SRC-003",
+      "SRC-017",
+      "SRC-019"
+     ]
+    }
+   ],
+   "invariant": "IMPACT != INTENT : aucun impact ci-dessus n'établit d'intention manipulatoire.",
+   "scope_note": "Effets documentés des choix de mesure de l'Insee; liens typés vers registres; aucune intention inférée."
+  },
+  "INVESTIGATION_MAP": "RUNTIME_DERIVED",
+  "LEAD_REGISTRY": "RUNTIME_DERIVED",
+  "MANIPULATION_REPORT": {
+   "ASSUMPTIONS": "Fresque systémique demandée: biographies+relations+politique+méthodes; INPUT_KIND=TOPIC",
+   "CLUSTERS": "DEFERRED",
+   "COMPLEXITY": "17→APEX",
+   "IMPLICIT": "Assertion utilisateur porteuse (L INSEE ne reflète pas la réalité): à traiter comme LEAD auditée, jamais comme premisse",
+   "INPUT_KIND": "TOPIC",
+   "MISSION_MODE": "INVESTIGATION",
+   "PATTERNS": "Candidats à tester sur corpus: @PAT[ICEBERG] (périodes/denominators), @PAT[MONEY] (décideurs publics indexés), @PAT[NET] (X-ENSAE-directions), @PAT[TEMP] (calendrier révisions/gel val-so)",
+   "PRIORITIES": "P0: méthodes IPC/inflation, pauvreté/inegalités, gouvernance/revolving-door, indépendance juridique, pressions politiques, effets d indexation",
+   "QUERY_GUIDANCE": "Prioriser sources: INSEE (fam A), autorité statistique publique/Cour (A), rapports publics (A/D), presse investigation (D), économistes critiques (B/E), instituts internationaux (other:intl)",
+   "RHETORICAL": "À évaluer sur corpus (NUM attendu: abus dénominateurs/périmètres)",
+   "SPEAKER": "Utilisateur: objectif annoncé debunk sous toutes les coutures — vigilance biais de confirmation, symétrie de scrutation maintenue",
+   "SYMBOLS": "DEFERRED(INPUT_NOT_EVIDENCE) x15 — évaluation au corpus étape 9",
+   "SYMBOL_STAGE": "DEFERRED",
+   "THREATS": "Candidats: @THR[REG_CAPTURE] (revolving door INSEE-ministères), @THR[MYTHO] (biographies direction), @THR[NUDGE] (choix méthodologiques orientant perceptions)"
+  },
+  "NEXT_QUERIES": [
+   {
+    "for": "CLM-005/CAU-002",
+    "priority": "P1",
+    "q": "chiffrage budgétaire exact: effet d 0,1 pt d IPC sur SMIC/pensions/OATi (rapports Cour des comptes, AFT)"
+   },
+   {
+    "for": "AXS-005",
+    "priority": "P1",
+    "q": "peer review Eurostat France 2022-2023: rapport complet + conformite"
+   },
+   {
+    "for": "AXS-009",
+    "priority": "P1",
+    "q": "rapport ASP annuel PDF (indépendance): lecture complète"
+   },
+   {
+    "for": "AXS-004",
+    "priority": "P2",
+    "q": "sociologie interne du corps statistique (Ifopa, barometres internes, greves 2022-2023 Insee)"
+   },
+   {
+    "for": "AXS-001",
+    "priority": "P2",
+    "q": "HICP augmented OOH: publication Eurostat 2024-2026 et impact France"
+   },
+   {
+    "for": "AXS-009",
+    "priority": "P2",
+    "q": "archives sur les pressions Insee-specific (au-dela du cas DARES 2008-2009)"
+   }
+  ],
+  "OPEN_GAPS": "RUNTIME_DERIVED",
+  "RESOURCE_FLOW_MAP": [
+   {
+    "amount": "AE 472,5 M EUR 2025 (-2,7%)",
+    "control": "ASP/Cour",
+    "decision": "PLF 2025",
+    "fct_src": [
+     "SRC-017"
+    ],
+    "intermediary": "ministere Economie/Finances",
+    "recipient": "INSEE",
+    "resource": "MONEY",
+    "source": "Loi de finances (programme 220)",
+    "status": "SATURATED",
+    "vehicle": "PLF"
+   },
+   {
+    "amount": "NON ETABLI (GAP_TYPE=ACCESS)",
+    "control": "-",
+    "decision": "droit du travail, loi 1989 art 17, code secu",
+    "fct_src": [
+     "SRC-024",
+     "SRC-028",
+     "SRC-012"
+    ],
+    "intermediary": "-",
+    "recipient": "menages, locataires/proprietaires, Etat, investisseurs",
+    "resource": "MONEY",
+    "source": "IPC (indexeur legal)",
+    "status": "SATURATED",
+    "vehicle": "SMIC, IRL, ILAT, pensions, OATi, contrats"
+   },
+   {
+    "amount": "1 poste",
+    "control": "ASP audition annuelle",
+    "decision": "nomination Lenglart 30/06/2025",
+    "fct_src": [
+     "SRC-019",
+     "SRC-025"
+    ],
+    "intermediary": "proposition Bercy",
+    "recipient": "directeur general Insee",
+    "resource": "AUTHORITY",
+    "source": "art 13 Constitution",
+    "status": "SATURATED",
+    "vehicle": "decret Conseil des ministres"
+   },
+   {
+    "amount": "NON ETABLI",
+    "control": "CNIL",
+    "decision": "loi statistique",
+    "fct_src": [
+     "SRC-007"
+    ],
+    "intermediary": "CNIL (controle)",
+    "recipient": "INSEE/SSM",
+    "resource": "DATA",
+    "source": "menages/entreprises (enquetes, fichiers administratifs)",
+    "status": "SATURATED",
+    "vehicle": "Résil, DSN, recensement"
+   }
+  ],
+  "RESPONSIBILITY_MAP": {
+   "acts": [
+    "ACT-001 Législateur: cadre légal (intent PROVEN)",
+    "ACT-002 Gouvernement/Bercy: nomination + budget (intent UNKNOWN)",
+    "ACT-003 Direction Insee: choix méthodologiques (intent UNKNOWN)"
+   ],
+   "capture": "aucune capture démontrée; homophilie documentée mais causalité non établie (CAU-004)",
+   "persons": "aucune personne nommée comme responsable: les carrières (Champsaur, Cotis, Tavernier, Lenglart) documentent un canal de recrutement, pas une faute",
+   "principe": "responsabilité institutionnelle documentée; aucune intention individuelle établie (BENEFIT!=INTENT; ROLE!=RESPONSIBILITY)"
+  },
+  "SCOPING_REPORT": {
+   "ACTORS": [
+    "INSEE (DG, DSDS, direction régionale)",
+    "ministère Économie/Finances",
+    "Autorité de la statistique publique (ASP/CNIS)",
+    "ENSAE ParisTech/X",
+    "Cour des comptes",
+    "CNIL",
+    "Eurostat",
+    "Crédoc",
+    "économistes critiques (Fressoz, Gadrey, Économistes atterrés)",
+    "Gouvernement français (gels de valeur, réformes)"
+   ],
+   "DOMAINS": [
+    "juridique",
+    "technique/statistique",
+    "psychologique (perception)",
+    "anthropologique (usages des nombres)",
+    "politique",
+    "économique",
+    "social",
+    "éthique",
+    "narratif",
+    "scientifique",
+    "communication",
+    "organisationnel"
+   ],
+   "EXCLUSIONS": "Théories sans aucun appui documenté (par exemple manipulation délibérée démontrée chiffre par chiffre au niveau micro); conspirationnisme nu; politisation de la critique par les acteurs elle-même",
+   "GEO": "France (métropole+Outre-mer), comparaison UE/ONS/Eurostat",
+   "LEAD_QUESTION": "L INSEE est-elle un organisme dont les méthodes, les recrutements et les arbitrages politiques produisent une représentation déformée de la réalité économique, et dans quels intérêts ?",
+   "LIMITS": "Accès: archives internes INSEE non publiques; conflits d intérêt réels vs allégués à distinguer; nomenclatures micro-méthodologiques partiellement documentées",
+   "OBJECT_QUESTION": "Comment l INSEE produit-elle les statistiques publiques françaises (méthodes, gouvernance, recrutements, financement, indépendance juridique), qui contrôle ces choix, quels intérêts y sont attachés, et quels effets concrets ont les choix méthodologiques (indexation, budgets, perception) ?",
+   "PERIOD": "1946-2026, focus 2004-2026 (loi indépendance, bases IPC récentes, épisode inflation 2021-2024)"
+  },
+  "STATUS_DELTA": "RUNTIME_DERIVED",
+  "TEMPORAL_STATE": [
+   "Événement (création) : 1946 (loi du 27 avril 1946, SNS préexistant 1941)",
+   "Date d observation : 2026-09-20 (état de l institut, effectifs ~13 500 en 2023 après baisse continue)",
+   "Accès/check : 2026-09-20 (données budget/PLF 2025, effectifs 2023-2025)",
+   "Contrainte temporelle : bases IPC successives (1970, 1980, 1990, 1998, 2015) — comparaisons intertemporelles sujettes à effet de changement de base",
+   "Fenêtre critique récente : 2021-2024 (épisode inflation post-COVID, débat inflation ressentie vs mesurée)"
+  ],
+  "TRACE_MATRIX": "RUNTIME_DERIVED",
+  "VERIFICATION_REPORT": {
+   "CIRCULAR": "aucune — familles A/C/D/E/other distinctes; Légifrance et Service-Public comptés comme 1 famille A (DILA)",
+   "CONTRADICTIONS": "CON-001 a CON-004",
+   "DOWNGRADED": "none — aucun ✦ n a du etre declassé; FCT-006 maintenu ✧ avec contre-preuve integree au libelle",
+   "NONE_FOUND": "3 refutations adversariales sans contre-preuve (FCT-001, FCT-003, FCT-005)",
+   "REMAINING_GAPS": "ACCESS (amplitude budgetaire indexations; archives internes; peer review Eurostat brut; rapport ASP PDF), CAUSALITY (lien homophilie→méthode non démontré au niveau individuel), SCOPE (perimetres exacts des champs IPC/pauvreté)",
+   "REOPENED": "6 — sources decisives re-verifiees pendant la phase 13 via les FETCH observes (SRC-018, SRC-020, SRC-021, SRC-022, SRC-024, SRC-025)",
+   "UPGRADED": "aucun"
+  }
+ },
+ "sources": [
+  {
+   "family": "A",
+   "id": "SRC-001",
+   "role": "◈",
+   "title": "L'essentiel sur... l'inflation (Insee, paru le 23/03/2026)",
+   "url": "https://www.insee.fr/fr/statistiques/4268033"
+  },
+  {
+   "family": "A",
+   "id": "SRC-002",
+   "role": "◈",
+   "title": "IPC Base 2015 - Ensemble des ménages - France - Séries arrêtées (Insee)",
+   "url": "https://www.insee.fr/fr/statistiques/serie/001763852"
+  },
+  {
+   "family": "A",
+   "id": "SRC-003",
+   "role": "◈",
+   "title": "Principe 1: Indépendance professionnelle — code ESS (Insee, MAJ 28/02/2023)",
+   "url": "https://www.insee.fr/fr/information/4174951"
+  },
+  {
+   "family": "A",
+   "id": "SRC-004",
+   "role": "◈",
+   "title": "Courrier des statistiques N11 2024 — de Peretti & Touchelay (Insee 08/07/2024)",
+   "url": "https://www.insee.fr/fr/information/8203034?sommaire=8203072"
+  },
+  {
+   "family": "D",
+   "id": "SRC-005",
+   "role": "◉",
+   "title": "Selz M., Les statistiques un service public détourné (La Vie des idées 02/09/2009)",
+   "url": "https://laviedesidees.fr/Les-statistiques-un-service-public"
+  },
+  {
+   "family": "A",
+   "id": "SRC-006",
+   "role": "◈",
+   "title": "Paul Champsaur DG Insee 1992-2003 — biographie officielle (Insee, MAJ 13/06/2016)",
+   "url": "https://www.insee.fr/fr/information/2014679"
+  },
+  {
+   "family": "A",
+   "id": "SRC-007",
+   "role": "◈",
+   "title": "Un peu d'histoire — Insee 80 ans, liste DG Closon→Lenglart (Insee, MAJ 24/04/2026)",
+   "url": "https://www.insee.fr/fr/information/1300622"
+  },
+  {
+   "family": "A",
+   "id": "SRC-008",
+   "role": "◈",
+   "title": "Fabrice Lenglart, directeur général de l'Insee — biographie officielle (Insee, MAJ 30/06/2025)",
+   "url": "https://www.insee.fr/fr/information/8603402"
+  },
+  {
+   "family": "A",
+   "id": "SRC-009",
+   "role": "◈",
+   "title": "Sénat — Rapport PLF 2025, mission Économie, programme 220 (21/11/2024)",
+   "url": "https://www.senat.fr/rap/l24-144-312/l24-144-3123.html"
+  },
+  {
+   "family": "A",
+   "id": "SRC-010",
+   "role": "◈",
+   "title": "Personnes pauvres selon le seuil de pauvreté (Insee, 09/07/2026)",
+   "url": "https://www.insee.fr/fr/statistiques/2408345"
+  },
+  {
+   "family": "C",
+   "id": "SRC-011",
+   "role": "◉",
+   "title": "UFC-Que Choisir — Les vrais chiffres de l'inflation (2026)",
+   "url": "https://www.quechoisir.org/actualite-alimentation-hygiene-droguerie-les-vrais-chiffres-de-l-inflation-n110542/"
+  },
+  {
+   "family": "D",
+   "id": "SRC-012",
+   "role": "○",
+   "title": "La Tribune — Inflation: ce que change le nouveau calcul de l'IPC (28/01/2026)",
+   "url": "https://www.latribune.fr/article/economie/28780383207962/inflation-ce-que-change-le-nouveau-calcul-de-lindice-des-prix-de-l-insee"
+  },
+  {
+   "family": "C",
+   "id": "SRC-013",
+   "role": "◉",
+   "title": "Lapalus D., Pourquoi l'inflation INSEE ne reflète pas le coût de la vie (FranceTransactions, 11/02/2022)",
+   "url": "https://www.francetransactions.com/le-saviez-vous/pourquoi-l-inflation-publiee-par-l-insee-ne-reflete-t-elle-pas-veritablement-la.html"
+  },
+  {
+   "family": "E",
+   "id": "SRC-014",
+   "role": "◉",
+   "title": "Georgakakis D., recension Desrosières, La politique des grands nombres (Politix 25, 1994)",
+   "url": "https://www.persee.fr/doc/polix_0295-2319_1994_num_7_25_1830"
+  },
+  {
+   "family": "D",
+   "id": "SRC-015",
+   "role": "◉",
+   "title": "BFM Business — Une croissance annuelle de 0,9% qui passe à 1,9% (07/06/2026)",
+   "url": "https://www.bfmtv.com/economie/economie-social/une-croissance-annuelle-de-0-9-qui-passe-a-1-9-pourquoi-l-insee-a-revu-la-performance-de-l-economie-francaise-des-annees-post-covid-avec-une-hausse-parfois-plus-de-2-fois-plus-forte_AV-202606070045.html"
+  },
+  {
+   "family": "E",
+   "id": "SRC-016",
+   "role": "◉",
+   "title": "OFCE Blog — L'économie française va mieux qu'on ne le pensait (24/11/2025)",
+   "url": "https://www.ofce.fr/blog2024/fr/2025/20251124_EA/"
+  },
+  {
+   "family": "A",
+   "id": "SRC-017",
+   "role": "◈",
+   "title": "Service Public — Smic: revalorisation indexée sur inflation 20% ménages les plus faibles (vérifié 01/06/2026)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"
+  },
+  {
+   "family": "A",
+   "id": "SRC-018",
+   "role": "◈",
+   "title": "Accardo, Célérier, Herpin, Irac — L'inflation telle qu'elle est perçue (Insee Analyses 5, 12/07/2012)",
+   "url": "https://www.insee.fr/fr/statistiques/1521318"
+  },
+  {
+   "family": "A",
+   "id": "SRC-019",
+   "role": "◈",
+   "title": "economie.gouv.fr — Nomination de Fabrice Lenglart (05/06/2025)",
+   "url": "https://www.economie.gouv.fr/actualites/nomination-de-fabrice-lenglart-au-poste-de-directeur-general-de-linsee"
+  },
+  {
+   "family": "A",
+   "id": "SRC-020",
+   "role": "◈",
+   "title": "Leclair, Rougerie, Thélot — Le logement dans l'IPC (Insee Focus 152, 18/04/2019)",
+   "url": "https://www.insee.fr/fr/statistiques/4126450"
+  },
+  {
+   "family": "E",
+   "id": "SRC-021",
+   "role": "◉",
+   "title": "Geerolf F. — Au sujet du Blog de l'Insee 'Mais si l'Insee prend bien en compte le logement' (2020)",
+   "url": "https://fgeerolf.com/blog-insee-IPC-loyers.html"
+  },
+  {
+   "family": "A",
+   "id": "SRC-022",
+   "role": "◈",
+   "title": "Héam, Meinzel, Morvan — Les comptes de la Nation en 2023 (Insee Première 1997, 31/05/2024)",
+   "url": "https://www.insee.fr/fr/statistiques/8193933"
+  },
+  {
+   "family": "A",
+   "id": "SRC-023",
+   "role": "◈",
+   "title": "HCFP — Jean-Luc Tavernier (biographie officielle)",
+   "url": "http://www.hcfp.fr/jean-luc-tavernier"
+  },
+  {
+   "family": "A",
+   "id": "SRC-024",
+   "role": "◈",
+   "title": "Service Public — IRL: indice de référence des loyers (vérifié 12/07/2026)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13723"
+  },
+  {
+   "family": "A",
+   "id": "SRC-025",
+   "role": "◈",
+   "title": "Loi n°51-711 du 7 juin 1951, art. 1 (version en vigueur depuis 30/06/2010) — Légifrance",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000022405540"
+  },
+  {
+   "family": "A",
+   "id": "SRC-026",
+   "role": "◈",
+   "title": "ENSAE Paris — Conférence 03/10/2023: Jean-Luc Tavernier, DG Insee, alumni X-ENSAE",
+   "url": "https://www.ensae.fr/actualites/conference-03/10-jean-luc-tavernier-dg-de-linsee-et-alumni-x-ensae"
+  },
+  {
+   "family": "other:asm",
+   "id": "SRC-027",
+   "role": "◈",
+   "title": "Académie des sciences morales et politiques — Colloque ASP/CNIS sur l'indépendance des statistiques (19/06/2026)",
+   "url": "https://academiesciencesmoralesetpolitiques.fr/evenement/colloque-international-cnis-asp-lindependance-des-statistiques-publiques/"
+  },
+  {
+   "family": "C",
+   "id": "SRC-028",
+   "role": "◉",
+   "title": "ANIL — Tableau de l'IRL (T2 2026)",
+   "url": "https://www.anil.org/outils/indices-et-plafonds/tableau-de-lirl/"
+  }
+ ],
+ "stamps": {
+  "FINAL_RENDERED": "2026-09-20T16:02:23.211557+00:00",
+  "RESEARCH_DONE": "2026-09-20T15:43:33.021399+00:00",
+  "START": "2026-09-20T15:07:32.337719+00:00"
+ },
+ "sys_log": [
+  {
+   "call": "MEMORY_PROBE",
+   "id": "SYS-001",
+   "mode": "SYS",
+   "ref": "-",
+   "result": "NONE",
+   "tool": "runtime"
+  },
+  {
+   "call": "@MNEMO_Q search_memory('INSEE biais inflation méthodes calcul statistiques publiques', hybrid, limit5, tags=[project:truth-engine]) — hits: 268168bc(snapshot triche-electorale), 1f718c6b(Insee Premiere 2055 DMA), ad7c53e5(decheteries) — aucun snapshot:v1 subject-fp:65f5d8ab",
+   "id": "SYS-002",
+   "mode": "SYS",
+   "ref": "http://localhost:8002/mcp",
+   "result": "FOUND_TANGENTIAL_NO_FP_MATCH",
+   "tool": "mnemolite-mcp-curl-8002"
+  },
+  {
+   "call": "QRY-029 texte enregistré en paraphrase; texte réellement exécuté re-journalisé sous QRY-041; QRY-029 conservé comme ligne historique",
+   "id": "SYS-003",
+   "mode": "SYS",
+   "ref": "QRY-029",
+   "result": "REPAIR",
+   "tool": "run_state"
+  },
+  {
+   "call": "MNEMO_Q",
+   "id": "SYS-004",
+   "mode": "SYS",
+   "ref": "sys_log:MNEMO_Q canonical row",
+   "result": "NONE",
+   "tool": "mnemolite-mcp-curl-8002"
+  },
+  {
+   "call": "PERSIST_REBIND",
+   "id": "SYS-005",
+   "mode": "SYS",
+   "ref": "ATTEMPT-001",
+   "result": "PASS",
+   "tool": "runtime"
+  }
+ ]
+}

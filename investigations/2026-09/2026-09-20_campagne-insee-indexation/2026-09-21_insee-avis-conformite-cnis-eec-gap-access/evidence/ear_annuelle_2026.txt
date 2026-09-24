@@ -1,0 +1,340 @@
+             COMITÉ DU LABEL                                                                      Montrouge, le 01 avril 2026
+             DE LA STATISTIQUE PUBLIQUE                                                           N°2026_7588_DG75-L002
+
+
+                                                                              AVIS DE CONFORMITÉ
+
+
+                                                     Enquêtes Annuelles de Recensement (EAR)
+                                                                                         __________
+
+             Service producteur : Direction des statistiques démographiques et sociales (DSDS), Département de
+             la démographie de l'Insee, division des évolutions et de la communication du recensement (DECOR)
+
+             Opportunité : enquête décidée par voie législative
+
+             Réunion du Comité du label du 11 février 2026 (commission « Ménages »)
+
+
+
+                            Commission                                                                                Ménages
+
+                            Type d’avis                                                                               Avis de conformité
+
+                            Label d’intérêt général et de qualité statistique                                         Oui
+
+                            Caractère obligatoire                                                                     Oui
+
+                            Période de validité                                                                       2027-2031
+
+                            Publication JO                                                                            Oui
+
+                            Périodicité                                                                               Annuelle
+
+
+             Descriptif de l'opération
+
+             Au niveau national, la loi du 27 février 2002 relative à la démocratie de proximité (titre V, articles 156
+             à 158) fixe les objectifs du recensement de la population (RP) qui consistent en :
+
+                      la publication tous les ans des chiffres des populations de référence (population municipale,
+                      -
+                     population comptée à part et population totale). Ces chiffres sont calculés pour la France,
+                     toutes ses communes et circonscriptions administratives. La responsabilité du calcul des
+                     populations de référence est confiée à l’Insee ;
+                  - la description des caractéristiques démographiques et sociales de la population ;
+                  - le dénombrement et la description des caractéristiques des logements.
+             La loi du 27 février 2002 fixe également les principes d’exécution du recensement.
+
+             Au niveau européen, les statistiques démographiques sont désormais définies par :
+                  - un règlement cadre (CE) n° 2458/2025 du Parlement Européen et du Conseil du 12 décembre
+                    2025 relatif aux statistiques européennes sur la population et le logement modifiant le
+
+
+
+RÉPUBLIQUE FRANÇAISE
+Institut National de la Statistique et des Études Économiques – 88 avenue Verdier – CS 70058 - 92541 MONTROUGE CEDEX - FRANCE - www.insee.fr
+Tél. : 01.87.69.50.00 - N° SIRET : 120 027 016 00563 - Code APE : 8411Z - Service Insee Contact : 09 72 72 4000 - (tarification "appel local")
+       règlement n°862/2007 et abrogeant les règlements (CE) n°763/2008 et (UE) n°1260/2013
+       (règlement ESOP) ;
+     - les règlements d’exécution qui établiront les règles d’application de ce règlement cadre sont
+       en cours de négociation et vont être adoptées avant la fin de l’année 2026.
+
+Ce nouveau règlement européen ESOP requiert des livraisons annuelles et pluriannuelles sur les
+statistiques démographiques tirées du recensement à différents échelons géographiques (dont des
+livraisons au carreau), sur différentes thématiques et avec des délais raccourcis et variables selon les
+livraisons. Les premières livraisons interviendront en 2028.
+
+Pour les enquêtes annuelles de recensement du prochain cycle débutant en 2027, l’un des
+questionnaires (celui appelé feuille de logement) sera modifié afin d’enrichir le recueil d’informations.
+
+     -    Dans la feuille de logement de France métropolitaine, trois questions sont introduites : la
+         présence d’un climatiseur fixe dans le logement, les défauts du logement et l’accessibilité du
+         logement. À l’inverse, les questions sur l’année de construction du bâtiment et les installations
+         sanitaires dans le logement sont supprimées. Enfin, certaines questions sont modifiées : type
+         de construction, type de logement, statut de propriété du logement, appartenance du logement
+         à un organisme HLM, moyen de chauffage et combustible utilisés dans le logement, nombre
+         de voitures dont disposent les occupants du logement. Dans la feuille de logement des
+         départements d’Outre-mer (DOM), la question sur l’accessibilité du logement est également
+         introduite. Plusieurs questions sont modifiées : type de construction, type de logement, aspect
+         du bâti, statut de propriété du logement, appartenance du logement à un organisme HLM,
+         éléments de confort dans le logement, nombres de deux-roues à moteur et de voitures dont
+         disposent les occupants du logement.
+
+Au-delà de la révision de la feuille de logement, d’autres changements seront réalisés :
+    - la collecte spécifique des bateliers est supprimée à compter de 2026 : les bateliers seront
+       désormais recensés lors des collectes existantes auprès des ménages ou des habitations
+       mobiles selon les situations ;
+    - la diffusion des populations de référence, des résultats statistiques et des bases de données
+       individuelles produits à partir du RP sera avancée d’un an à partir de décembre 2026 ;
+    - une interface de collecte sera ouverte à partir de 2027 dans certaines communautés pour leur
+       permettre une transmission sécurisée et directement informatisée d’informations pour les non-
+       répondants afin de compléter la collecte papier.
+
+
+                                                     ~~~
+
+
+
+Le Comité du label de la statistique publique émet les recommandations ou observations
+suivantes :
+
+Remarques générales
+
+        Le Comité note que le nouveau règlement européen 2458/2025 relatif aux statistiques
+         européennes sur la population et le logement (ESOP), adopté en novembre 2025, entrera
+         en vigueur le 1er janvier prochain, en remplacement de la législation européenne actuelle
+         relative aux recensements de la population et du logement. S’agissant de statistiques
+         agrégées ayant vocation à être fournies à partir des collectes du recensement, ce
+         règlement impose des transmissions annuelles et pluriannuelles, à différents niveaux
+         géographiques, y compris au niveau de la grille d’un kilomètre carré (1 km²). Il prévoit de
+         premières livraisons portant sur une date de référence fixée au 31 décembre 2027, à
+         transmettre dans un délai de 12 ou 24 mois, soit des échéances plus resserrées que
+         celles prévues par le calendrier de diffusion du recensement français.
+
+
+                                                                                                             2/6
+       Le Comité salue les travaux déjà engagés pour avancer d’un an le calendrier de
+        diffusion du recensement, ainsi que la concertation conduite à cet effet sous l’égide
+        du Cnis. Les populations de référence des communes pourront désormais être
+        diffusées 24 mois après la date de référence (à compter de fin décembre 2026 pour le
+        recensement au 1er janvier 2025), et les résultats statistiques détaillés pour la France
+        seront publiés 30 mois après cette date (à partir de juin 2027 pour les résultats au 1 er
+        janvier 2025), les résultats statistiques détaillés au 1 er janvier 2024 n’étant, de ce fait,
+        pas diffusés.
+
+       Le Comité note que le service prévoit par ailleurs de réorganiser et de faire évoluer
+        ses chaînes de production dans les années à venir, afin de s’appuyer sur des
+        données à caractère provisoire pour transmettre les statistiques à Eurostat dans les
+        délais requis. Les statistiques envoyées sous 12 mois feront l’objet de révisions
+        ultérieures, avec pour objectif que les transmissions à 24 mois soient aussi
+        cohérentes que possible avec la diffusion nationale. Le Comité prend acte du fait que
+        ni le règlement européen, ni les modifications de production qu’il entraîne, n’auront
+        d’impact sur les populations de référence ni sur le contenu de la diffusion française.
+
+       Le Comité note que l’objectif du service est de répondre aux demandes du règlement
+        sur la base des collectes actuelles, en les complétant, le cas échéant, par des
+        appariements ou des imputations afin de les adapter aux spécifications européennes.
+        À cet égard, il relève que des méthodes d’imputation avaient déjà été mises en
+        œuvre pour fournir les données attendues par Eurostat dans le cadre du Census
+        2021, à partir du recensement 2020. Le Comité souhaite, lors d’un prochain examen,
+        disposer d’un bilan des travaux statistiques réalisés pour répondre aux demandes
+        européennes, incluant une mise en perspective des statistiques diffusées par
+        Eurostat et au niveau national, et notamment de leur cohérence, et il salue le fait que
+        ces travaux devraient permettre à terme d’avancer à nouveau la diffusion nationale.
+
+   Le Comité rappelle que suite au cyclone Chido, et conformément à la loi de
+    programmation pour la refondation de Mayotte, un recensement exhaustif – et non par
+    échantillonnage – a été organisé à Mayotte en 2025-2026, selon des modalités proches
+    des enquêtes de recensement dans les « petites communes » – modalités dont il avait
+    été informé par le service.
+
+       En 2027, sauf modification du cadre légal, Mayotte reprendra un cycle annuel
+        d’enquêtes de recensement et, comme les autres départements et régions d’outre-
+        mer, un cinquième du territoire sera cartographié chaque année pour préparer ces
+        enquêtes. Le Comité note que la décision sur les modalités du recensement à
+        Mayotte à partir de 2027 sera prise sur la base du bilan du recensement exhaustif de
+        2025, qui sera établi vers la fin du premier trimestre 2026, présenté à la Commission
+        nationale d’évaluation du recensement de la population (Cnerp) avec les perspectives
+        d’évolution proposées par l’Insee, et que des consultations complémentaires sont
+        également prévues. Le Comité sera informé du choix retenu pour 2027 ainsi que du
+        bilan du recensement exhaustif.
+
+       Les résultats statistiques du recensement mahorais exhaustif seront diffusés mi-2027.
+
+   Le Comité souligne qu’en amont du présent examen, les évolutions envisagées dans la
+    nouvelle feuille de logement ont été présentées et discutées au sein de plusieurs
+    commissions du Cnis, compte tenu des thématiques concernées, puis présentées au
+    bureau du Cnis du 10 décembre, qui a émis un avis favorable aux évolutions proposées
+    par l’Insee. En amont du prochain examen, le Comité demande au service de prendre
+    contact avec le Cnis pour définir les modalités de consultation permettant de recueillir les
+    besoins des utilisateurs et de traduire l’intérêt général sous la forme d’un avis de
+
+
+
+                                                                                                        3/6
+        synthèse. Il note qu’en cas d’évolutions plus importantes du recensement, une
+        concertation plus large et dédiée serait organisée.
+
+
+Méthodologie statistique
+
+       Le Comité salue le recours aux appariements, notamment pour améliorer la qualité des
+        données ou de leur codage, et désormais pour éviter de solliciter les ménages sur des
+        informations qu’ils ne connaissent pas nécessairement, comme la date de construction
+        du logement. Il note que depuis l’EAR 2025, un appariement avec la Déclaration Sociale
+        Nominative (DSN) permet d’augmenter le taux de codification automatique de la NAF (un
+        code indiquant la nature de la codification, permettant aux utilisateurs de micro-données
+        d’identifier les données concernées). Il souhaite que le prochain dossier inclue une
+        description des appariements envisagés ou réalisés, de leur méthodologie et de leur
+        qualité (taux d’appariement, traitement des cas de non-appariement…), ainsi que, le cas
+        échéant, des éventuelles spécificités du cadre juridique ou de la diffusion qui y sont
+        associées.
+
+       Le Comité rappelle que de nouvelles questions sur le télétravail, l’indicateur global de
+        restriction d’activité « Gali » et les lieux de naissance des parents ont été introduites dans
+        le bulletin individuel de recensement à partir de la collecte 2025. Renseigner le lieu de
+        naissance des parents ou le Gali est facultatif, et il s’agit des premières questions du
+        recensement dans ce cas. Le Comité prend acte des premiers éléments disponibles sur
+        les taux de non-réponse partielle à ces nouvelles questions1 : parmi les répondants de
+        2025, 8 % n’ont pas répondu à la question sur le télétravail, 18 % n’ont pas fourni
+        d’information sur leurs limitations d’activité, 19 % sur le lieu de naissance de leur premier
+        parent, et 22 % sur le lieu de naissance du second parent ; les taux de non-réponses aux
+        questions facultatives, qui résultent de différents facteurs, sont notamment plus élevés
+        sur les questionnaires papier que sur les questionnaires internet (en partie du fait d’effets
+        de mode liés aux formulations).
+
+           Le Comité note que le service a sollicité les experts des différents domaines au sein
+            du Service Statistique Public et le Département des Méthodes Statistiques pour
+            expertiser puis traiter les réponses à ces questions, et qu’il dispose déjà d’une
+            expérience sur le traitement d'un effet de sélection dans le cadre multimode des
+            enquêtes annuelles de recensement pour les variables relatives à l’emploi 2. Le
+            Comité souhaitera disposer des résultats de l’ensemble de ces analyses (qualité,
+            cohérence externe, éléments sur l’absence de biais de sélection), ainsi que d’une
+            note sur la stratégie adoptée en matière de traitement des données manquantes, et
+            de précautions associées dans la diffusion. Le Comité souhaitera également disposer
+            de ces éléments pour la nouvelle variable facultative de la feuille de logement.
+
+           Le Comité prend acte que le service prévoit d’exposer au Cnis au plus tard en 2027 la
+            stratégie relative à l’ensemble des points relatifs à la diffusion des lieux de naissance
+            des parents, sur lesquels le Comité avait attiré son attention dans son précédent avis 3
+            et de les exposer si nécessaire à la Cnil du fait de la sensibilité de cette thématique
+            inscrite dans l’arrêté de diffusion du recensement en mai 2024. Le Comité souhaitera
+
+1 Cf. éléments présentés au Cnis, et notamment au bureau du 10 décembre 2025
+(https://www.cnis.fr/wp-content/uploads/2025/12/reponse-nouvelles-questions-bi-pour-cnis.pdf).
+
+2   Cf. Court L. et Quantin S. (2024) : « Discuter l'existence d'un effet de sélection dans un cadre
+    multimode grâce à une analyse de sensibilité : application aux enquêtes annuelles de
+    recensement », Document de travail Insee, No M2024/03.
+
+3   Cf. avis du Comité du label du 28 février 2024 (commission « Ménages »).
+
+
+
+                                                                                                         4/6
+            recevoir une note sur les décisions prises et leurs justifications, ainsi que,
+            ultérieurement, un bilan de l’apport des nouvelles questions introduites en 2025 et
+            2027, au regard également des informations disponibles dans d’autres sources.
+
+           Le Comité souhaitera plus largement disposer, dans le prochain dossier, d’un bilan
+            des taux de non-réponse partielle de l’ensemble des variables.
+
+       Le Comité salue les travaux déjà menés sur l’impact sur les résultats de Recens’smart,
+        qui a adapté la collecte Internet à tout type de support (et notamment aux smartphones) à
+        partir de l’EAR 2024. Il note que ce nouveau protocole a conduit à un ajustement à la
+        hausse de la population française (+ 271 000), qui a fait l’objet d’une documentation
+        publiée en janvier 20264. Le Comité note que les travaux d’analyse de l’impact se
+        poursuivent, notamment sur les effectifs d’immigrés. Le Comité salue également les
+        travaux sur les effets de mode liés à Recens’smart, qui apparaissent liés à la différence
+        de la nature de la non-réponse.
+
+
+       Le Comité relève que la codification en professions et catégories sociales selon la PCS
+        2020 est mise en œuvre depuis l’EAR 2024. Le Comité salue le fait que pour la
+        publication mi-2025 des résultats statistiques du RP 2022, les données des EAR
+        antérieures à 2024 aient été rétrocodées en PCS 2020, afin de permettre une diffusion
+        dans cette nouvelle nomenclature dès le RP 2022, et que cette diffusion ait par ailleurs
+        été enrichie de nouvelles variables (classe d’emploi, PCS ménage).
+
+
+       Le Comité demande à être destinataire, lors du prochain examen, d’un bilan des
+        évolutions qui vont être mises en œuvre (NAF...), ainsi que des éventuelles ruptures de
+        séries qu’elles auront pu générer.
+
+
+Protocole de collecte
+
+       Le Comité note les évolutions de protocole ci-dessous :
+
+           La collecte spécifique des bateliers est supprimée à compter de 2026 ; les bateliers
+            seront désormais recensés lors des collectes existantes auprès des ménages ou des
+            habitations mobiles selon les situations.
+
+           Une interface expérimentale de collecte est mise en place à partir de 2027 pour les
+            correspondants des communautés. Le Comité note que la réponse directe des
+            personnes vivant en communauté est toujours privilégiée, les informations issues des
+            éventuels fichiers administratifs n’étant utilisées qu’en cas de non-réponse, pour
+            réaliser des imputations.
+
+
+Questionnaire
+
+       Le Comité souligne positivement la réalisation de tests internet relatifs aux propositions
+        envisagées pour la feuille de logement 2027. Il note que pour les nouvelles questions
+        proposées, plus de 99 répondants sur 100 ont indiqué qu’elles sont simples à
+        comprendre et 98 sur 100 faciles à répondre. Le Comité souligne toutefois l’importance
+        de maintenir des tests papier, et de mener en complément des tests cognitifs. Il relève
+        notamment que la nouvelle question sur l’adaptation du logement croise de nombreuses
+
+4 https://www.insee.fr/fr/statistiques/fichier/2383177/fiche-conseils_Ajustement2022.pdf
+
+
+
+
+                                                                                                     5/6
+     dimensions, et qu’il serait utile de mener des tests cognitifs pour mieux comprendre
+     comment les enquêtés comprennent cette question, et quels sont les déterminants de
+     leur réponse. Le Comité constate à cet égard que cette question regroupe deux questions
+     de l’Enquête nationale logement (ENL), portant sur différents aspects de l’accessibilité du
+     logement, et que cette approche englobante pourrait en compliquer l’interprétabilité. Il
+     note que des travaux d’exploitation de cette question sont prévus à partir de l’ENL, qui
+     pourraient contribuer à éclairer son examen.
+
+    Pour de futures évolutions de questionnaires, le Comité souhaitera disposer dans le
+     dossier d’une description des objectifs précis visés par les différentes questions
+     envisagées, des justifications des choix des formulations retenues (formulation reprises
+     d’autres enquêtes, de travaux internationaux…), et le cas échéant d’éléments sur la
+     manière dont elles s’articulent avec les sources administratives disponibles.
+
+    Le Comité sera intéressé à disposer dans le prochain dossier des éléments sur l’intérêt
+     ou non d’adapter les formulations du questionnaire du bulletin individuel internet en cas
+     de réponse par proxy (formulation à la troisième personne et rappel du prénom), ainsi
+     que d’éléments sur la manière dont les personnes lisent et s’approprient les consignes
+     sur la feuille de logement.
+
+
+
+Le Comité du label de la statistique publique émet un avis de conformité à l’Enquête
+Annuelle de Recensement (EAR), et par délégation du Président du Cnis, lui attribue le
+label d’intérêt général et de qualité statistique, avec proposition d’octroi du caractère
+obligatoire.
+
+Cet avis est valide pour les années 2027-2031.
+
+
+
+
+                                              La Présidente du Comité du label de la
+                                                       statistique publique
+
+
+
+
+                                                     Signé : Pascale BREUIL
+
+
+
+
+                                                                                                   6/6
+

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:380c725139791502a5e034eb5bcf30a0c3d1c0679c12d2295b1971a24feb2b5d",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_irl-ecart-loyers-reels-elc/2026-09-21_08-26_irl-ecart-loyers-reels-elc_INVESTIGATION.md",
+  "deliverable_sha256": "7b8b8fe245f60d55b885c43ef8afc9fd4e18ec931de38510a81b7526e10f85ce",
+  "created_at": "2026-09-21T08:52:38.834673+00:00"
+}

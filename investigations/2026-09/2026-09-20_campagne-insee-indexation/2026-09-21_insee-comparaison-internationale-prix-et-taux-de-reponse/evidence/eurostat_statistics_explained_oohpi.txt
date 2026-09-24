@@ -1,0 +1,23 @@
+Source : Eurostat, Statistics Explained, « Housing price statistics - owner-occupied housing price index »
+URL : https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Housing_price_statistics_-_owner-occupied_housing_price_index
+Données extraites le 6 juillet 2026 ; mise à jour prévue le 5 octobre 2026.
+
+Extraits décisifs (section « Context ») :
+
+"Requirements for the compilation of the OOHPI are established with the European Parliament and Council Regulation (EU) 2016/792 and the Commission Regulation (EU) 2023/1470 of 17 July 2023."
+
+"The OOHPI was developed in connection with the discussion on the measurement of owner-occupied housing in the context of the harmonised index of consumer prices (HICP). As a stand-alone indicator, it measures the cost of owner-occupiers based on the net acquisitions approach."
+
+"In 2018, the European Commission published the report on the suitability of the OOH price index for integration into the HICP coverage in which it was assessed that the OOHPI was not suitable for integration into the coverage of the HICP."
+
+"In 2021, the European Central Bank (ECB) reviewed its monetary policy strategy and recognised that the inclusion of the costs related to owner-occupied housing in the HICP would be important to better represent inflation. Following the findings from this review, the ECB Governing Council recommended the net acquisitions approach for the inclusion of OOH-related costs in the HICP."
+
+"In 2023, Eurostat published the report on owner-occupied housing and the harmonised index of consumer prices, as a response to the ECB's recommendations."
+
+"In 2025, during the ECB monetary policy strategy assessment, the ECB Governing Council reiterated its view that the inclusion of the costs related to OOH in the HICP would better represent the inflation rate that is relevant for households."
+
+"On 16 December 2025, the European Commission presented the European Affordable Housing Plan. Action 8 of the plan provides for driving forward Member States’ structural reforms."
+
+Chiffres OOHPI : au premier trimestre 2026, les prix du logement des propriétaires occupants dans l'UE ont augmenté de 3,9 % sur un an ; entre le T4 2020 et le T1 2026, l'OOHPI a augmenté de 34,4 % pour l'UE et de 31,8 % pour la zone euro.
+
+Note méthodologique : la catégorie « self-build dwellings and major renovations » représente 42,1 % des poids dans l'UE et la zone euro ; la catégorie « existing dwellings new to households » a le poids le plus faible (0,9 %), les transactions entre ménages s'annulant sous le principe « net ».

@@ -1,0 +1,245 @@
+             COMITÉ DU LABEL                                                                      Montrouge, le 03 octobre 2025
+             DE LA STATISTIQUE PUBLIQUE                                                           N°2025_20777_DG75-L002
+
+
+                                                                              AVIS DE CONFORMITÉ
+
+
+                                                     Enquête sur l’emploi, le chômage et l’inactivité
+                                      Avis rectificatif au 01/10/2025 : Prolongation pour l’année 2026
+                                                                                         __________
+
+             Service producteur : Institut national de la statistique et des études économiques, Direction des
+             Statistiques démographiques et sociales, Département de l’Emploi et des Revenus d’Activité, Division
+             Emploi.
+             Opportunité : avis favorable émis le 3 mai 2018 par la Commission « Emploi, qualification et revenus du
+             travail »
+             Réunion du Comité du label du 8 octobre 2020 (commission « Ménages »)
+
+
+              Commission                                                                                  Ménages
+              Type d’avis                                                                                 Avis de conformité
+              Label d’intérêt général et de qualité statistique                                           Oui
+              Caractère obligatoire                                                                       Oui
+              Période de validité                                                                         Années 2021 à 2025
+              Publication JO                                                                              Oui
+
+
+
+             Descriptif de l'opération
+
+             L’enquête sur l’emploi, le chômage et l’inactivité, usuellement appelée enquête Emploi, est l'édition
+             française de la Labour Force Survey (LFS) ; elle répond à des exigences européennes. Jusque
+             fin 2020, l’enquête Emploi est régie par un règlement européen dédié, le règlement du Conseil
+             n° 577/1998 du 9 mars 1998. À compter de 2021, elle s’inscrira dans le nouveau cadre réglementaire
+             régissant l’ensemble des enquêtes sociales européennes (Integrated European Social Statistics
+             framework regulation–IESS FR).
+
+             Née en 1950 pour permettre une mesure régulière de l'emploi et du chômage, l'enquête Emploi a
+             intégré de nombreux changements, au fil des décennies : des changements de concept et/ou de
+             questionnaire pour se conformer notamment aux orientations du Bureau International du Travail (BIT)
+             ou d’Eurostat, des évolutions techniques (passage en collecte assistée par ordinateur CAPI,
+             développement d’une application de gestion dédiée) ou encore méthodologiques (passage à une
+             enquête en continu, méthodes d'échantillonnage et de traitement de la non-réponse, modes de
+             collecte, notamment). Les principales évolutions récentes sont les suivantes :
+
+             - en 2003, l'enquête annuelle Emploi en métropole est devenue une enquête en continu, couvrant
+             toutes les semaines de l'année ;
+
+             - en 2009, son échantillon a été progressivement augmenté de 50 % ;
+
+RÉPUBLIQUE FRANÇAISE
+Institut National de la Statistique et des Études Économiques – 88 avenue Verdier – CS 70058 - 92541 MONTROUGE CEDEX - FRANCE - www.insee.fr
+Tél. : 01.87.69.50.00 - N° SIRET : 120 027 016 00563 - Code APE : 8411Z - Service Insee Contact : 09 72 72 4000 - (tarification "appel local")
+- en 2013, son questionnaire a été rénové ;
+
+- en 2014, les départements d’outre-mer (DOM, hors Mayotte) ont intégré le processus de l'enquête
+Emploi en continu.
+
+En 2021, l’enquête Emploi évolue à nouveau. Son questionnaire sera rénové, pour être mis en
+conformité avec le nouveau règlement européen, mieux prendre en compte les besoins des
+utilisateurs et être adapté à une passation en auto-administré. Son protocole de collecte évoluera pour
+offrir la possibilité de répondre par Internet en ré-interrogation. Sa méthode de pondération sera
+revue.
+
+Le questionnaire de la nouvelle enquête Emploi sera structuré autour des thèmes suivants :
+
+  • la description du ménage et des personnes qui le composent ;
+  • le statut d'activité au sens du BIT, mesuré à travers de nombreuses questions factuelles se
+rapportant à une semaine de référence donnée (exercice d'une activité rémunérée, motifs d’absence
+de son emploi, démarches de recherche, disponibilité…) ;
+  • la description très détaillée de l’emploi principal en cours (profession, contrat, temps du travail,
+revenus du travail…), moins détaillée pour le 2 e emploi en cours et pour le dernier emploi pour les
+personnes sans emploi à la date de l'enquête ;
+  • les formations (formelles ou non) suivies et le niveau d'études atteint ;
+  • la perception d'allocations ;
+  • l'état de santé ;
+  • les origines sociale et géographique ;
+  • la trajectoire sur le marché du travail à travers un calendrier mensuel rétrospectif d’activité.
+Par ailleurs, dans le cadre du nouveau règlement européen, six thèmes sont abordés de façon
+récurrente (tous les 8 ans) en complément du questionnement principal. Ces thèmes sont :
+
+  • organisation du travail et aménagements du temps de travail ;
+  • accidents du travail et problèmes de santé liés au travail ;
+  • situation sur le marché du travail des personnes nées à l’étranger et de leurs descendants ;
+  • retraite et participation au marché du travail ;
+  • jeunes sur le marché du travail ;
+  • conciliation entre vie professionnelle et vie familiale.
+Le cycle étant de 8 ans, deux éditions sont donc laissées pour des sujets non récurrents ; en 2022, le
+module complémentaire portera ainsi sur les compétences dans l’emploi.
+
+Ces variables remplacent les modules complémentaires à l’enquête Emploi qui existaient
+jusqu’en 2020.
+
+Le champ de l’enquête correspond aux personnes occupant, au moment de l’enquête, un logement
+ordinaire (c'est-à-dire hors communautés) en France (hors Mayotte). Toutes les personnes du
+logement sont décrites succinctement par l'enquête, mais seules les personnes de 15-89 ans sont
+concernées par le questionnaire individuel.
+
+Les logements relevant du champ de l'enquête sont enquêtés 6 trimestres consécutifs.
+
+La première interrogation d’un ménage se fait en face-à-face. En ré-interrogation, le ménage a le
+choix de répondre sur Internet ou par téléphone. La collecte s’effectue dans les 3 semaines qui
+suivent la fin de la semaine de référence.
+
+La France participe activement aux différentes instances européennes: ESSC (European Statistical
+System Committee), DSS (Directors of Social Statistics) et LAMAS (Labour Market Statistics), groupe
+de travail européen dont relève l'enquête Emploi.
+
+
+
+
+ Réf :                                                                                                 2/5
+Il est prévu de continuer à diffuser à la fois les données détaillées de l'enquête, mais aussi des
+analyses qui en sont issues, via des supports de publication Insee.
+
+
+
+Le Comité du label de la statistique publique émet les recommandations ou observations
+suivantes :
+
+
+
+Observations :
+
+        Le Comité du label remercie le service pour la grande qualité du dossier présenté et les
+         réponses apportées aux questions du pré-label. L’enquête avait déjà été examinée dans ses
+         dimensions principales lors de l’examen de 2019 sur le pilote qui s’est déroulé sur l’ensemble
+         de l’année 2020 (cf. avis d’examen relatif au pilote de l’EEC émis à l’issue de la séance label
+         Ménages du 2 juillet 2019).
+
+        Il note que l’Enquête emploi en continu constitue le volet français de l’enquête Labour Force
+         Survey régie par le nouveau règlement européen IESS, ce dernier contraignant certaines
+         parties de l’enquête à des fins de comparaison entre pays européens. La nécessité de
+         disposer d’indicateurs homogènes dans le temps conduit également à stabiliser le
+         questionnaire pour une bonne mesure des évolutions.
+
+Recommandations :
+
+        Le Comité du label prend note avec satisfaction de l'intention du service de relancer, dès que
+         les résultats de la collecte 2021 seront disponibles, le comité d'utilisateurs de l'Enquête emploi
+         en continu. Il souhaite que ce comité soit ouvert aussi largement que possible afin de faire
+         remonter au service producteur le maximum d'informations sur l’usage et la qualité des
+         données, et les voies d'amélioration de l'enquête. Le retour des utilisateurs ainsi recueilli
+         fournira au service des éléments précieux lors des discussions avec Eurostat, notamment sur
+         les parties variables du questionnaire.
+
+        Le Comité du label souhaite être informé annuellement des évolutions de questions liées aux
+         variables « 8-yearly » qui remplacent les anciens modules ad hoc.
+
+        Le Comité du label encourage le service à mettre à disposition du public, sous des formes
+         adaptées aux différents types d'utilisateurs, du grand public à l'expert, une information sur la
+         méthodologie de l'enquête et de ses traitements. Cette documentation devra éclairer en
+         particulier les thèmes suivants :
+             o le traitement de la multi-résidence ;
+             o l'échantillonnage, la méthode de pondération, le calcul de précision des principaux
+                  indicateurs ;
+             o la rétropolation devra donner lieu à une documentation synthétique mais aussi à des
+                  documents plus techniques permettant au statisticien expert d'apprécier l'effet des
+                  différentes hypothèses sur lesquelles ce processus s'appuie.
+
+        Le Comité du label souhaite être destinataire, dès qu'elles seront prêtes, des notes
+         techniques arrêtant les hypothèses encore en discussion relatives (i) au rattachement des
+         étudiants, (ii) à la rétropolation.
+
+        Le Comité du label souhaite être informé, en amont de leur mise en œuvre effective, de tout
+         changement dans le mode d'échantillonnage des DOM.
+
+
+
+
+ Réf :                                                                                                3/5
+        Il demande au service de mettre les cartouches RGPD utilisés dans les courriers postaux et
+         électroniques aux enquêtés en conformité avec les modèles figurant dans le guide des
+         cartouches, ainsi qu'avec les recommandations formulées par la Cnil dans ses remarques sur
+         le dossier de l'enquête.
+
+        Sur un plan prospectif, le Comité du label invite le service à mener des travaux de
+         rapprochement avec des sources administratives comme la DSN afin de qualifier la mesure
+         des revenus d’activité dans l'enquête. Il note que les sources administratives socio-fiscales
+         sont déjà utilisées pour produire l'Enquête Revenus Fiscaux et Sociaux, qui est la source de
+         référence pour connaître les niveaux de vie, en lien avec les caractéristiques du ménage et
+         des individus qui le composent.
+
+        S’agissant de l’enquête pilote de 2020, le Comité du label invite le service à réfléchir à la
+         possibilité de mettre à disposition des chercheurs les données collectées, sous réserve d’une
+         demande justifiée et de la possibilité de les documenter.
+
+
+CNIL
+
+    •    Les remarques écrites de la Cnil ont été évoquées en séance et transmises aux services.
+
+
+
+
+ Le Comité du label accorde à l'Enquête emploi en continu (EEC) l'avis de conformité, et par
+ délégation du Cnis, attribue le label d’intérêt général et de qualité statistique, avec proposition
+ d’octroi du caractère obligatoire.
+
+ Cet avis est valide pour les années 2021 à 2025 incluses.
+
+
+
+
+                                                   La présidente du comité du label de la
+                                                            statistique publique
+
+
+
+
+                                                             Signé : Nicole ROTH
+
+
+
+
+                    Rectificatif au 01/10/2025 : Prolongation pour l’année 2026
+
+
+
+Dans un courrier en date du 1er août 2025, adressé à la présidente du Comité du label, le service
+sollicite la prolongation d’une année du présent avis, afin de pouvoir présenter en 2026, de manière
+consolidée, le bilan du processus de collecte engagé depuis 2021 ainsi que le cadre prévu pour les
+collectes de la période 2027-2030. .
+
+Le Comité du label constate que l’enquête n’a pas connu de refonte majeure depuis 2021, hormis
+l’extension du champ géographique à Mayotte, dont il prend acte. Il prolonge la validité du présent
+avis ainsi que la proposition d’octroi du caractère obligatoire à l’année 2026.
+
+
+
+
+ Réf :                                                                                             4/5
+        La Présidente du Comité du label de la
+                 statistique publique
+
+
+
+
+               Signé : Pascale BREUIL
+
+
+
+
+Réf :                                            5/5
+

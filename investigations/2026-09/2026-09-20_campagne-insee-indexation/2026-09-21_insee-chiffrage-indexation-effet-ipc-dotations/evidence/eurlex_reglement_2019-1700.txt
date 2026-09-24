@@ -1,0 +1,277 @@
+URL : https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019R1700
+METHODE : lecture de la page et extraction du texte (curl + extraction HTML)
+
+Règlement - 2019/1700 - EN - EUR-Lex 
+ × 
+ Skip to main content 
+ EUR-Lex
+ Access to European Union law
+ This document is an excerpt from the EUR-Lex website
+ You are here 
+ EUROPA 
+ EUR-Lex home 
+ Règlement - 2019/1700 - EN - EUR-Lex
+ Help 
+ Print
+ Menu 
+ Quick search 
+ Use quotation marks to search for an "exact phrase". Append an asterisk ( * ) to a search term to find variations of it (transp * , 32019R * ). Use a question mark ( ? ) instead of a single character in your search term to find variations of it (ca ? e finds case, cane, care). 
+ Search tips
+ Need more search options? Use the 
+ Advanced search 
+ Document 32019R1700 
+ Help 
+ Print
+ ​
+ Regulation (EU) 2019/1700 of the European Parliament and of the Council of 10 October 2019 establishing a common framework for European statistics relating to persons and households, based on data at individual level collected from samples, amending Regulations (EC) No 808/2004, (EC) No 452/2008 and (EC) No 1338/2008 of the European Parliament and of the Council, and repealing Regulation (EC) No 1177/2003 of the European Parliament and of the Council and Council Regulation (EC) No 577/98 (Text with EEA relevance) 
+ Règlement (UE) 2019/1700 du Parlement européen et du Conseil du 10 octobre 2019 établissant un cadre commun pour des statistiques européennes relatives aux personnes et aux ménages fondées sur des données au niveau individuel collectées à partir d’échantillons, modifiant les règlements (CE) no 808/2004, (CE) no 452/2008 et (CE) no 1338/2008 du Parlement européen et du Conseil, et abrogeant le règlement (CE) no 1177/2003 du Parlement européen et du Conseil et le règlement (CE) no 577/98 du Conseil (Texte présentant de l’intérêt pour l’EEE) 
+ Règlement (UE) 2019/1700 du Parlement européen et du Conseil du 10 octobre 2019 établissant un cadre commun pour des statistiques européennes relatives aux personnes et aux ménages fondées sur des données au niveau individuel collectées à partir d’échantillons, modifiant les règlements (CE) no 808/2004, (CE) no 452/2008 et (CE) no 1338/2008 du Parlement européen et du Conseil, et abrogeant le règlement (CE) no 1177/2003 du Parlement européen et du Conseil et le règlement (CE) no 577/98 du Conseil (Texte présentant de l’intérêt pour l’EEE) 
+ PE/63/2019/REV/1 
+ JO L 261I du 14.10.2019, pp. 1–32
+ (BG, ES, CS, DA, DE, ET, EL, EN, FR, GA, HR, IT, LV, LT, HU, MT, NL, PL, PT, RO, SK, SL, FI, SV) 
+ In force 
+ ELI: http://data.europa.eu/eli/reg/2019/1700/oj 
+ Expand all 
+ Collapse all 
+ Languages, formats and link to OJ 
+ Language 
+ BG 
+ ES 
+ CS 
+ DA 
+ DE 
+ ET 
+ EL 
+ EN 
+ FR 
+ GA 
+ HR 
+ IT 
+ LV 
+ LT 
+ HU 
+ MT 
+ NL 
+ PL 
+ PT 
+ RO 
+ SK 
+ SL 
+ FI 
+ SV 
+ HTML 
+ EN 
+ Toggle Dropdown 
+ BG 
+ ES 
+ CS 
+ DA 
+ DE 
+ ET 
+ EL 
+ EN 
+ FR 
+ GA 
+ HR 
+ IT 
+ LV 
+ LT 
+ HU 
+ MT 
+ NL 
+ PL 
+ PT 
+ RO 
+ SK 
+ SL 
+ FI 
+ SV 
+ PDF 
+ EN 
+ Toggle Dropdown 
+ BG 
+ ES 
+ CS 
+ DA 
+ DE 
+ ET 
+ EL 
+ EN 
+ FR 
+ GA 
+ HR 
+ IT 
+ LV 
+ LT 
+ HU 
+ MT 
+ NL 
+ PL 
+ PT 
+ RO 
+ SK 
+ SL 
+ FI 
+ SV 
+ Official Journal 
+ EN 
+ Toggle Dropdown 
+ BG 
+ ES 
+ CS 
+ DA 
+ DE 
+ ET 
+ EL 
+ EN 
+ FR 
+ GA 
+ HR 
+ IT 
+ LV 
+ LT 
+ HU 
+ MT 
+ NL 
+ PL 
+ PT 
+ RO 
+ SK 
+ SL 
+ FI 
+ SV 
+ Multilingual display 
+ Language 1 
+ English (en) 
+ Bulgarian (bg) 
+ Spanish (es) 
+ Czech (cs) 
+ Danish (da) 
+ German (de) 
+ Estonian (et) 
+ Greek (el) 
+ English (en) 
+ French (fr) 
+ Irish (ga) 
+ Croatian (hr) 
+ Italian (it) 
+ Latvian (lv) 
+ Lithuanian (lt) 
+ Hungarian (hu) 
+ Maltese (mt) 
+ Dutch (nl) 
+ Polish (pl) 
+ Portuguese (pt) 
+ Romanian (ro) 
+ Slovak (sk) 
+ Slovenian (sl) 
+ Finnish (fi) 
+ Swedish (sv) 
+ Language 2 
+ Please choose 
+ Bulgarian (bg) 
+ Spanish (es) 
+ Czech (cs) 
+ Danish (da) 
+ German (de) 
+ Estonian (et) 
+ Greek (el) 
+ English (en) 
+ French (fr) 
+ Irish (ga) 
+ Croatian (hr) 
+ Italian (it) 
+ Latvian (lv) 
+ Lithuanian (lt) 
+ Hungarian (hu) 
+ Maltese (mt) 
+ Dutch (nl) 
+ Polish (pl) 
+ Portuguese (pt) 
+ Romanian (ro) 
+ Slovak (sk) 
+ Slovenian (sl) 
+ Finnish (fi) 
+ Swedish (sv) 
+ Language 3 
+ Please choose 
+ Bulgarian (bg) 
+ Spanish (es) 
+ Czech (cs) 
+ Danish (da) 
+ German (de) 
+ Estonian (et) 
+ Greek (el) 
+ English (en) 
+ French (fr) 
+ Irish (ga) 
+ Croatian (hr) 
+ Italian (it) 
+ Latvian (lv) 
+ Lithuanian (lt) 
+ Hungarian (hu) 
+ Maltese (mt) 
+ Dutch (nl) 
+ Polish (pl) 
+ Portuguese (pt) 
+ Romanian (ro) 
+ Slovak (sk) 
+ Slovenian (sl) 
+ Finnish (fi) 
+ Swedish (sv) 
+ Display 
+ Text
+ 14.10.2019 
+ FR 
+ Journal officiel de l’Union européenne 
+ LI 261/1 
+ RÈGLEMENT (UE) 2019/1700 DU PARLEMENT EUROPÉEN ET DU CONSEIL
+ du 10 octobre 2019
+ établissant un cadre commun pour des statistiques européennes relatives aux personnes et aux ménages fondées sur des données au niveau individuel collectées à partir d’échantillons, modifiant les règlements (CE) n o 808/2004, (CE) n o 452/2008 et (CE) n o 1338/2008 du Parlement européen et du Conseil, et abrogeant le règlement (CE) n o 1177/2003 du Parlement européen et du Conseil et le règlement (CE) n o 577/98 du Conseil 
+ (Texte présentant de l’intérêt pour l’EEE) 
+ LE PARLEMENT EUROPÉEN ET LE CONSEIL DE L’UNION EUROPÉENNE, 
+ vu le traité sur le fonctionnement de l’Union européenne, et notamment son article 338, paragraphe 1, 
+ vu la proposition de la Commission européenne, 
+ après transmission du projet d’acte législatif aux parlements nationaux, 
+ statuant conformément à la procédure législative ordinaire ( 1 ) , 
+ considérant ce qui suit: 
+ (1) 
+ Les données et les indicateurs statistiques constituent l’épine dorsale de politiques responsables fondées sur des données probantes. Dans le contexte de la stratégie Europe 2020 et du renforcement de la gouvernance économique, les indicateurs sociaux jouent un rôle essentiel pour éclairer et soutenir les principales priorités de l’Union. Ces priorités concernent en particulier la croissance inclusive et durable et la création d’emplois; la cohésion sociale; la réduction de la pauvreté, des inégalités et de l’exclusion sociale; l’inclusion des personnes handicapées et l’égalité de traitement; et les compétences, la mobilité et l’économie numérique. En particulier, les indicateurs sociaux sont nécessaires pour fournir une base statistique solide pour l’élaboration et le suivi des politiques menées par l’Union et les États membres en vue de s’atteler à ces priorités. Des statistiques de qualité sont nécessaires pour améliorer la résilience et les objectifs de cohésion de l’Union, et préserver ses niveaux de bien-être. Des données fiables sont également d’une grande importance pour faire rempart aux fausses informations. 
+ (2) 
+ Les statistiques sociales jouent un rôle primordial dans le renforcement des objectifs sociaux du Semestre européen, et il est essentiel d’accroître la disponibilité des indicateurs sociaux afin de faire en sorte qu’ils soient fournis en temps utile pour les cadres stratégiques qui y ont recours. Amplifier la dimension sociale du Semestre européen permettrait d’améliorer la résilience et les objectifs de cohésion de l’Union et de garantir le maintien de ses niveaux de bien-être. 
+ (3) 
+ Conformément à l’initiative "Au-delà du PIB", il importe d’aborder les aspects sociaux du progrès au moyen d’indicateurs solides axés sur la situation des citoyens, décrivant la répartition des conditions de vie matérielles et les inégalités, et explorant davantage les multiples dimensions de la qualité de vie. 
+ (4) 
+ Les statistiques sociales européennes devraient être fournies sur la base de l’égalité de traitement de tous les types d’utilisateurs, tels que les responsables politiques, les administrations publiques, les chercheurs, les syndicats, les étudiants, les représentants de la société civile, y compris les organisations non gouvernementales, et les citoyens, qui devraient pouvoir accéder aux statistiques librement et facilement par l’intermédiaire de bases de données de la Commission (Eurostat) accessibles sur son site internet et dans ses publications. À cet égard, il convient de continuer d’améliorer l’actualité et la convivialité du site internet de la Commission (Eurostat). 
+ (5) 
+ Il est dès lors primordial que les indicateurs sociaux présentent la qualité nécessaire, notamment en termes de précision, d’actualité, de facilité d’utilisation et d’accessibilité, de pertinence, d’adaptabilité aux nouvelles demandes des utilisateurs, mais aussi de comparabilité, de cohérence et d’efficacité. Il est en particulier essentiel d’améliorer le degré d’actualité des indicateurs sociaux de sorte qu’ils soient disponibles en temps utile pour les cadres stratégiques qui y ont recours, notamment le Semestre européen. En outre, des indicateurs plus précis et actuels pourraient présenter un avantage certain pour le suivi des objectifs de développement durable des Nations unies. 
+ (6) 
+ En vue d’évaluer la situation des ménages et des personnes, il importe de mesurer les revenus et de produire une estimation du niveau minimum de ressources nécessaires à une participation adéquate dans la société. Par conséquent, il est essentiel d’améliorer la collecte de données et la méthode d’indicateurs normalisés afin de fournir des estimations du budget de référence à l’échelle régionale, ainsi que pour chercher à assurer une meilleure couverture des populations concernées. Les données statistiques devraient fournir une base solide pour la mise en place d’indicateurs adaptés aux divers utilisateurs possibles. 
+ (7) 
+ Le revenu est un critère très souvent utilisé pour évaluer la situation des ménages. Cependant, il importe également de mesurer la consommation, le patrimoine et les dettes, y compris d’éventuelles dettes dans des devises étrangères, du point de vue des ménages comme du point de vue macroéconomique. En outre, la pauvreté, notamment la pauvreté des enfants, est un phénomène protéiforme, qui englobe non seulement les conditions de vie matérielles, telles que le revenu, la consommation, le patrimoine ou les dettes, mais également d’autres aspects comme la santé, l’éducation ainsi que l’accès aux services et leur utilisation. Par ailleurs, afin d’apporter une réponse adéquate au chômage, notamment celui des jeunes, et aux nouvelles tendances en matière d’emploi, en particulier dans le contexte de l’économie numérique, il importe de disposer de données statistiques complètes, fiables et comparables. 
+ (8) 
+ Les statistiques européennes relatives aux personnes et aux ménages sont actuellement collectées sur la base de plusieurs actes législatifs qui couvrent les enquêtes sur les personnes et les ménages, les statistiques démographiques, les recensements de la population et du logement et les données principalement collectées auprès de sources administratives. Certaines données proviennent aussi d’enquêtes sur les entreprises. Malgré les améliorations importantes apportées ces dernières années, il est nécessaire d’intégrer et de rationaliser davantage la collecte des données à des fins statistiques, d’une manière plus globale, en se basant sur des enquêtes menées sur les personnes et les ménages dans l’ensemble de l’Union. Afin d’obtenir des données fiables pour la recherche et l’élaboration des politiques, il est essentiel d’accroître les investissements dans la collecte de données de qualité, plus exactes et plus globales, sachant que des données fiables sont une condition préalable à une élaboration responsable des politiques. 
+ (9) 
+ Afin d’améliorer la qualité et l’efficacité des données, il convient d’encourager l’utilisation de fichiers administratifs dans la mesure du possible. La possibilité d’utiliser des sources administratives à des fins statistiques s’est déjà largement répandue grâce aux avancées technologiques. Il convient de continuer à encourager activement l’utilisation de sources administratives dans le domaine des statistiques sociales, tout en veillant toujours à la qualité, en particulier l’exactitude, l’actualité et la comparabilité de ces statistiques. Il faudrait également veiller à disposer d’autres sources de données adaptées à des personnes ou à des sujets pertinents qui ne sont pas accessibles par l’intermédiaire de fichiers administratifs, tout en préservant le droit à la protection des données à caractère personnel. 
+ (10) 
+ La communication de la Commission du 10 août 2009 concernant "la méthode de production des statistiques de l’Union européenne: une vision de la prochaine décennie" a mis l’accent sur l’utilisation accrue de sources de données multiples et de méthodes de collecte de données innovatrices ainsi que sur l’importance grandissante de l’harmonisation des concepts et méthodes statistiques entre les domaines. Elle a appelé à une nouvelle génération de textes législatifs en matière de statistique qui couvrirait des champs plus étendus. 
+ (11) 
+ En 2011, le comité du système statistique européen (CSSE) institué par le règlement (CE) n° 223/2009 du Parlement européen et du Conseil ( 2 ) a adopté le mémorandum de Wiesbaden sur une nouvelle conception des statistiques des ménages et des statistiques sociales, selon lequel il y a lieu de rationaliser les enquêtes européennes qui fournissent des données relatives aux personnes et aux ménages et, en outre, de recourir à une collecte moins fréquente de microdonnées pour compléter ces enquêtes sociales de base. Par ailleurs, il convient de renforcer l’accès aux données administratives et de développer la réutilisation de sources de données existantes et l’accès à de nouvelles données au niveau de l’Union et national. 
+ (12) 
+ Le système statistique européen (SSE) a la volonté d’associer de manière proactive tous les utilisateurs en apportant une réponse adaptée à leurs exigences et de renforcer la coopération entre la Commission (Eurostat), les instituts nationaux de statistique (INS), les banques centrales nationales, le comité consultatif européen de la statistique et les agences de l’Union. Il est dès lors essentiel que les contributions de toutes les parties prenantes, y compris les décideurs politiques, les chercheurs et les universitaires, les producteurs de données, la société civile et les autres groupes d’intérêt, soient dûment prises en compte lors de l’adaptation et de la modernisation des enquêtes sociales. 
+ (13) 
+ Il est nécessaire de rationaliser progressivement ces évolutions et de moderniser la législation statistique dans le domaine des statistiques sociales afin de faire en sorte que des indicateurs sociaux de qualité soient produits de manière plus intégrée, plus adaptable, plus flexible, plus efficace et plus rapide, de manière à suivre l’évolution de la société. Dans le même temps, il convient de tenir dûment compte des besoins des utilisateurs, de la charge pesant sur les répondants, des capacités et ressources dont disposent les États membres, de la fiabilité et de l’exactitude des méthodes utilisées, de la faisabilité technique de la production des statistiques, du délai dans lequel elles peuvent être disponibles et de la fiabilité des résultats. 
+ (14) 
+ En particulier, aucune des mesures prises aux fins de l’application du présent règlement ne devrait imposer de coûts supplémentaires importants qui feraient peser une charge disproportionnée ou injustifiée sur les répondants et les États membres. 
+ (15) 
+ Le règlement (CE) n° 223/2009 constitue le cadre juridique général pour les statistiques européennes et son article 13 établit le programme statistique européen. Le présent règlement définit un cadre commun spécifique pour des statistiques européennes relatives aux personnes et aux ménages, fondées sur des données au niveau individuel collectées à partir d’échantillons. Il précise les données et les informations que les États membres doivent collecter et transmettre à la Commission (Eurostat), ainsi que les exigences de qualité fondamentales à respecter. Il prévoit que des spécifications techniques plus détaillées seront établies dans des actes délégués et d’exécution. Il permet d’intégrer les différentes collectes de données les unes aux autres et de les combiner avec l’utilisation des fichiers administratifs, tout en consolidant et en simplifiant la législation existante, conformément au programme statistique européen. 
+ (16) 
+ Le droit de l’Union relatif aux statistiques sociales fondées sur des données au niveau individuel a été adopté pour répondre à certains besoins stratégiques existants au moment de son adoption. Le domaine social est toutefois caractérisé par des réalités nouvelles dont l’évolution est rapide. Des circonstances et phénomènes sociaux nouveaux apparaissent, ce qui rend nécessaire d’actualiser le cadre juridique en vigueur au niveau de l’Union. Le présent règlement devrait dès lors permettre d’établir une base de données riche qui couvre et reflète d’une manière adéquate les besoins actuels et permet le développement et la production de données statistiques adaptées aux futurs besoins des responsables politiques, des utilisateurs et du public en général, tout en tenant compte de la comparabilité statistique au niveau international. Le présent règlement devrait, en particulier, offrir une grande flexibilité face à de nouvelles évolutions dans le domaine des statistiques relatives aux personnes et aux ménages. Il est également essentiel que la collecte de données soit réalisée à l’aide des dernières évolutions technologiques. 
+ (17) 
+ Pour mieux simplifier et rationaliser le cadre de référence des statistiques sociales européennes fondées sur des données collectées à partir d’échantillons, les statistiques européennes existantes sur les personnes et les ménages fondées sur des données au niveau individuel devraient être regroupées dans un cadre unique. Cela garantirait que les statistiques sociales européennes fondées sur des données collectées à partir d’échantillons incluant les domaines de la main-d’œuvre, du revenu et des conditions de vie, de la santé, de l’éducation et de la formation, de l’utilisation des technologies de l’information et de la communication, de l’emploi du temps et de la consommation soient produites de manière plus cohérente et coordonnée. 
+ (18) 
+ Conformément aux objectifs du présent règlement, la Commission devrait mettre en place des études pilotes et de faisabilité visant à améliorer la qualité des ensembles de données et des indicateurs sociaux. Ces études devraient porter sur la comparabilité des données, en vue d’élaborer de nouvelles méthodes, de moderniser la collecte de données et de répondre aux nouvelles exigences des utilisateurs, notamment en se préoccupant des populations qu’il est difficile d’atteindre et des données relatives à des sous-populations spécifiques, en particulier celles qui sont les plus vulnérables, de mettre à disposition des statistiques au niveau territorial NUTS 2, et de produire des données au niveau local détaillé de manière rentable et réactive. Les États membres devraient coopérer à ces études pilotes et de faisabilité, et la Commission devrait être en mesure de fournir une aide financière pour leur mise en œuvre. 
+ (19) 
+ Pour ce qui est du domaine de la main d’œuvre et du domaine du revenu et des conditions de vie, afin de s’adapter aux besoins et aux nouvelles attentes des utilisateurs, les données devraient pouvoir être collectées sur des sujets ad hoc, à un moment déterminé, afin de permettre que les variables collectées de manière régulière soient complétées par des variables supplémentaires, mettant ainsi en lumière les aspects inexplorés de la main d’œuvre, du revenu et des conditions de vie. Lorsque cela se justifie, ces données devraient également pouvoir couvrir des thèmes qui ne sont pas prévus par le présent règlement. 
+ (20) 
+ Un noyau de variables harmonisées devrait être fourni pour chaque domaine, en vue de mieux exploiter et diffuser les données à disposition de la Commission (Eurostat) et, en particulier, en tant que condition préalable pour le recoupement des données et les analyses transversales. Cette pratique est susceptible d’accroître le potentiel analytique des ensembles de données grâce à l’application de techniques de modélisation

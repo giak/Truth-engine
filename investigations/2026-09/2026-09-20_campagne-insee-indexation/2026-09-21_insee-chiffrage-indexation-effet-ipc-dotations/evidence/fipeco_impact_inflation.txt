@@ -1,0 +1,91 @@
+URL : https://www.fipeco.fr/fiche/Limpact-de-linflation-sur-le-deficit-public
+METHODE : lecture de la page et extraction du texte (curl + extraction HTML)
+
+L'impact de l'inflation sur le déficit public - FIPECO 
+ Aller au contenu principal 
+ Dernier commentaire : Le patrimoine des administrations publiques à la fin de 2025 
+ Lire → 
+ FIPECO . 
+ Encyclopédie 
+ Notes d'analyse 
+ Actualités 
+ QCM 
+ Ressources 
+ Vidéos 
+ Graphiques / tableaux 
+ FIPECO dans les médias 
+ Faire un don 
+ Faire un don 
+ Accueil 
+ / 
+ Encyclopédie 
+ / 
+ L'impact de l'inflation sur le déficit public 
+ Sommaire 
+ Partager : 
+ Facebook
+ LinkedIn
+ FIPECO le 08.04.2026 
+ Les fiches de l’encyclopédie II) Déficit et dette publics, politique budgétaire 
+ 9) L’impact de l’inflation sur le déficit public 
+ PDF à lire et imprimer 
+ Cette fiche présente l’impact d’une inflation plus forte que prévu sur le déficit public en France. Les effets de l’inflation sur la dette publique font l’objet d’une note d’analyse spécifique. 
+ Trois observations préalables de méthode sont nécessaires : les conséquences d’une hausse et d’une baisse de l’inflation sont assez largement symétriques mais pas totalement ; les écarts entre les taux de croissance des prix en moyenne annuelle et en glissement annuel sont considérés, pour simplifier l’analyse, comme négligeables ; les effets analysés sont ceux de l’inflation toutes choses égales par ailleurs, c’est-à-dire sans tenir compte d’éventuelles mesures budgétaires nouvelles visant à en corriger l’impact sur les ménages. 
+ La situation envisagée est celle d’une révision à la hausse de 1 point de l’inflation prévue pour l’année N qui intervient en septembre N, au moment du dépôt du projet de loi de finances pour l’année N+1. Les conséquences de la constatation en janvier N+1 d’une inflation supérieure de 1 point à la prévision initiale pour l’année N seraient peu différentes. Le cas de figure ici examiné correspond donc largement à celui d’une hausse de l’inflation constatée a posteriori, et donc non anticipée. 
+ A) L’impact sur les recettes de l’année en cours 
+ Les effets d’une révision à la hausse de l’inflation sur les prélèvements obligatoires dépendent de la nature des prélèvements et des causes de ce surplus d’inflation. 
+ Une hausse des prix des produits importés a des effets limités pour l’essentiel à la TVA, dont le produit était de 206 Md€ en 2024. 
+ Une hausse des coûts salariaux des entreprises françaises et de leurs prix de vente, outre des effets sur la TVA et les impôts sur le chiffre d’affaires, conduit immédiatement à de plus importants recouvrements au titre des prélèvements sur les salaires, notamment les cotisations sociales (482 Md€ en 2024), la CSG (153 Md€) et l’impôt sur le revenu prélevé à la source. 
+ Une hausse des marges des entreprises et de leurs prix de vente, outre des effets sur la TVA et les impôts sur le chiffre d’affaires, conduit l’année N à une hausse de l’impôt sur les sociétés à travers son dernier acompte [1] . 
+ Les valeurs cadastrales sur lesquelles sont assis les impôts fonciers sont indexées sur l’inflation. 
+ La hausse des coûts salariaux et des marges des entreprises correspond à une hausse du prix du PIB (différence entre la croissance en volume et sa croissance en valeur). 
+ La plupart des autres prélèvements obligatoires ne dépendent pas directement de l’évolution des prix à la consommation ou du prix du PIB : ainsi le produit des accises, comme celles sur les produits énergétiques, dépend seulement du volume consommé ; le produit des droits de mutation dépend des prix des actifs (immobiliers ou valeurs mobilières) qui peuvent évoluer différemment des prix à la consommation. 
+ Les recettes publiques autres que les prélèvements obligatoires (moins de 15 % du total) sont relativement peu sensibles à une révision de l’inflation en cours d’année. 
+ Au total, selon une note d’étude du Haut Conseil des finances publiques (HCFP), une révision à la hausse de 1 point de l’inflation, si elle concerne de la même façon les prix de la consommation et du PIB, accroît les recettes publiques de 0,7 %, soit environ 0,3 % du PIB (10 Md€). 
+ B) L’impact sur les dépenses de l’année en cours 
+ 1) Les prestations sociales indexées 
+ Le montant des prestations sociales indexées sur l’inflation est d’environ 500 Md€ (pensions de retraite des régimes de base pour l’essentiel mais aussi prestations familiales, allocations de logement, minima sociaux…) [2] . 
+ Si leur indexation a eu lieu avant septembre, la révision à la hausse de l’inflation en septembre n’a pas de conséquence sur les dépenses de l’année en cours, mais elle a un impact sur celles de l’année N+1. En effet, les prestations seront revalorisées en N+1 sur la base d’une inflation majorée de 1 point. Si les revalorisations ont lieu au 1 er janvier N+1, par exemple, les dépenses sociales augmentent de 5 Md€ en N+1. 
+ Si leur indexation a lieu entre le 1 er septembre et la fin de l’année N, une augmentation limitée des dépenses est constatée l’année N et l’essentiel de leur augmentation est enregistrée en N+1, l’impact cumulé sur N et N+1 étant égal à 5 Md€. 
+ 2) Les charges d’intérêt 
+ Certaines « obligations assimilables du trésor » (OAT) sont indexées sur une combinaison de l’évolution des prix à la consommation en France et dans la zone euro [3] . En comptabilité nationale, la charge d’indexation est estimée sur la base de l’inflation constatée en fin d’année. Chaque variation des prix sur un an de +/- 0,1 % entraîne une variation de la charge d’intérêts de +/- 0,3 Md€. Une révision à la hausse d’un point de la prévision d’inflation, à taux d’intérêt inchangés, entraine donc une augmentation de 3 Md€ de la charge d’intérêt. 
+ 3) Les autres dépenses publiques 
+ Les crédits budgétaires de l’Etat, des collectivités locales et des établissements publics sont votés en valeur. Si l’inflation est plus forte que prévu, le prix de certains achats augmente et les dépenses pourraient être supérieures aux crédits. Ceux-ci sont toutefois limitatifs et ne sont généralement pas majorés en cours d’année. De même, le niveau de l’ONDAM est voté en valeur dans la LFSS et le plus probable est que les gestionnaires de l’assurance maladie continuent à viser cet objectif quelle que soit l’inflation. 
+ Les crédits budgétaires et l’ONDAM peuvent certes être ajustés à la hausse ou à la baisse en cours d’année par des lois de finances et de financement de la sécurité sociale rectificatives. Toutefois, si des ajustements significatifs sont encore possibles en juin, avec des lois rectificatives votées en juillet, ils deviennent très difficiles en septembre. La révision à la hausse ou à la baisse de la prévision d’inflation à ce moment de l’année ne peut avoir que très peu d’effet sur ces dépenses. 
+ 4) Le total des dépenses publiques 
+ L’impact total sur les dépenses publiques en valeur se limite donc pour l’essentiel à l’augmentation de la charge d’intérêt. La croissance des dépenses en valeur étant ainsi quasiment inchangée, la révision à la hausse de l’inflation entraîne mécaniquement une croissance plus faible des dépenses en volume [4] . 
+ C) L’impact sur le déficit public de l’année en cours 
+ Au total, une révision à la hausse de 1 point de la prévision d’inflation en septembre entraîne une augmentation d’environ 0,3 point de PIB des recettes et de 0,1 point de PIB des charges d’intérêt de l’année en cours. La baisse du déficit de l’année N est donc d’environ 0,2 point de PIB. 
+ Cet effet favorable résulte de la conjugaison d’une assez grande sensibilité des recettes à l’inflation et de l’inertie de presque toutes les dépenses en valeur. Il est plus faible si la révision de la prévision d’inflation intervient suffisamment tôt pour que la revalorisation des prestations sociales indexées en tienne compte et pour qu’une augmentation significative des crédits budgétaires soit votée. 
+ D) L’impact sur le déficit public des années suivantes 
+ 1) L’impact d’une hausse temporaire de l’inflation 
+ Une augmentation supplémentaire d’environ 0,1 point de PIB est constatée en N+1 au titre des impôts sur les bénéfices et sur la valeur ajoutée des entreprises ainsi que sur les revenus des ménages, du fait du décalage d’un an du paiement du solde de l’IR. L’assiette des impôts fonciers est revalorisée comme l’inflation. Le surplus de recettes est donc d’environ 0,4 point de PIB en N+1. 
+ Si le taux d’inflation revient à son niveau initial, la charge d’indexation de la dette revient elle aussi à son niveau initial. Le coût de l’indexation des prestations sociales est d’environ 5 Md€ soit presque 0,2 point de PIB. Selon les modalités d’ajustement des crédits budgétaires au surcroît d’inflation, les dépenses de fonctionnement, rémunérations incluses, peuvent augmenter de 0 à 0,15 point de PIB. 
+ Selon la note précitée du Haut Conseil des finances publiques, les dépenses publiques primaires s’accroissent au total de 39 % soit environ 0,25 % du PIB (7 Md€). 
+ Au total, le déficit public diminue de 0,15 point de PIB en N+1. 
+ 2) L’impact d’une hausse durable de l’inflation 
+ Si l’inflation est durablement plus forte, on peut considérer que la plupart des prix s’ajustent, plus ou moins vite, à la hausse, notamment les prix des actifs, ce qui majore les recettes fiscales telles que les droits de mutation. Les recettes publiques autres que les prélèvements obligatoires, comme les dividendes tirés par l’Etat de ses participations dans des entreprises, sont majorées elles aussi. Au total, on peut considérer qu’une hausse de 1 point de l’inflation entraîne chaque année une majoration de presque 1 point du taux de croissance des recettes publiques soit environ 0,5 point de PIB. 
+ S’agissant des dépenses publiques, beaucoup sont indexées de fait, si ce n’est de droit, sur les prix à la consommation. Par exemple, la valeur du point de la fonction publique n’est pas légalement indexée mais les variations des prix à la consommation ont de fait un impact sur les rémunérations à travers les revalorisations du point, le dispositif de garantie individuelle du pouvoir d’achat et les mesures catégorielles [5] . 
+ On peut considérer que, si le taux d’inflation est durablement majoré d’un point, le taux de croissance des recettes et des dépenses primaires est lui-même majoré chaque année de presque un point soit environ 0,5 point de PIB. Le solde primaire ne varie quasiment pas. 
+ Les charges d’intérêts de la dette publique ne sont en revanche pas affectées, si on met à part les emprunts indexés, du moins tant que les taux d’intérêt ne remontent pas. L’impact est alors limité aux 3 Md€ de hausse de la charge d’indexation qui est durable. Le déficit public total peut donc légèrement augmenter en euros mais rester stable en pourcentage du PIB. 
+ Une hausse durable de l’inflation entraine toutefois une hausse des taux d’intérêt des nouveaux emprunts publics qui a un effet progressif sur le taux moyen du stock de dette, au fur et à mesure du remplacement des anciens emprunts par des nouveaux à taux plus élevé. En conséquence, la charge d’intérêt s’accroit progressivement de 4 Md€ la première année, de 8 Md€ la deuxième et de 20 Md€ la cinquième. Le déficit public se creuse lentement en euros voire en pourcentage du PIB. 
+ [1] Le dernier acompte d’impôt sur les sociétés de l’année doit tenir compte des bénéfices de l’exercice en cours pour les grandes entreprises. 
+ [2] En incluant les retraites complémentaires, qui sont en fait mais non en droit indexées sur les prix à la consommation, et les allocations logement, qui sont indexées sur les loyers. 
+ [3] Pour simplifier, il est supposé que les taux d’inflation y sont identiques. 
+ [4] Le taux de croissance des dépenses en volume est la différence entre leur taux de croissance en valeur et le taux de croissance des prix à la consommation hors tabac (cf. fiche sur l’évolution des dépenses publiques ). 
+ [5] Cf. fiche sur les éléments de rémunération des fonctionnaires. 
+ Revenir en haut de page
+ ← Toutes les fiches
+ S'abonner à la newsletter 
+ Navigation 
+ Fiches de l'encyclopédie 
+ Notes d'analyse 
+ Commentaires d'actualité 
+ QCM 
+ À propos 
+ Contact & liens 
+ Nous contacter 
+ Mentions légales 
+ Flux RSS 
+ Sites institutionnels 
+ © 2026 FIPECO - Tous droits réservés.

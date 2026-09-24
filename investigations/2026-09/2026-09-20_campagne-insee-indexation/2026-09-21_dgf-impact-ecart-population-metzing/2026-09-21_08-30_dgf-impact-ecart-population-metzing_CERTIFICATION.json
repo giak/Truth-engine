@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "task": "truth-engine",
+  "verdict": "PASS",
+  "head": "c69c4394660b6e300f69e05184251dcc43699a2a",
+  "state_id": "sha256:ad83326e6380fce0b115dd353e8d95ad5ae7bb23d4887f2a31f3d29ceea40303",
+  "deterministic": "PASS",
+  "review": "N/A",
+  "state_changed": false,
+  "deliverable_changed": false,
+  "kernel_contract": "delivery",
+  "deliverable": "investigations/2026-09/2026-09-21_dgf-impact-ecart-population-metzing/2026-09-21_08-30_dgf-impact-ecart-population-metzing_INVESTIGATION.md",
+  "deliverable_sha256": "026a8c3b703960cffd760764a53abe1073444b5a716c9c9a3597f0c641f970df",
+  "created_at": "2026-09-21T09:06:38.186784+00:00"
+}

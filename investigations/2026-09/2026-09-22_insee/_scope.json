@@ -1,0 +1,12 @@
+{
+  "scope": {
+    "lead_question": "Que dit le sujet utilisateur « investigation sur l'INSEE » et l'input est-il fiable ?",
+    "object_question": "Quel est le fonctionnement effectif de l'INSEE en 2024-2026 : architecture légale/institutionnelle, production des populations légales, conventions d'indexation, pressions et indépendance ?",
+    "period": "2024-2026 (contexte 1951-2008)",
+    "geo": "France métropolitaine + outre-mer",
+    "domains": ["statistique publique", "finances locales", "indexation"],
+    "actors": ["INSEE", "MTEFR", "ASP", "DGCL", "CNERP", "CNIS", "communes"],
+    "exclusions": ["politique générale de la statistique publique hors INSEE", "conjoncture macroéconomique courante"],
+    "limits": "sujet générique: axes finaux selon matériel trouvé"
+  }
+}
